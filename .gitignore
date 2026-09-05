@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Local runtime data
+.local/
+cache/
+logs/
+*.log
+
+# Sensitive or licensed raw data
+private-data/
+raw-data/
+secrets/
+
+# Temporary experiment exports
+*.tmp
+*.bak
