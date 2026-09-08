@@ -33,7 +33,24 @@ Result: `PASS / CONDITIONAL / FAIL`
 
 A `FAIL` on any hard gate blocks testing in the proposed form. `UNKNOWN` must be resolved before meaningful spend.
 
-## Weighted score — 100 points
+## Weighted score — exactly 100 points
+
+Weight checksum:
+
+- Pain severity: 10
+- Frequency / density: 10
+- Payment evidence: 15
+- Current-solution weakness: 10
+- Supply / capability availability: 5
+- Acquisition feasibility: 10
+- Delivery controllability: 10
+- Time to first cash: 10
+- Unit economics potential: 5
+- Defensibility / learning compounding: 5
+- Operator fit: 5
+- Capital efficiency: 5
+
+**Total = 100.**
 
 ### 1. Pain severity — 0–10
 0: inconvenience only
@@ -56,10 +73,10 @@ A `FAIL` on any hard gate blocks testing in the proposed form. `UNKNOWN` must be
 5: meaningful friction remains
 10: expensive, fragmented, slow, low-trust, or poor-fit solution landscape
 
-### 5. Supply / capability availability — 0–10
+### 5. Supply / capability availability — 0–5
 0: capability unavailable
-5: exists but difficult to source/coordinate
-10: abundant viable supply that is currently underutilized or poorly routed
+2–3: exists but difficult to source/coordinate
+5: abundant viable supply that is currently underutilized or poorly routed
 
 ### 6. Acquisition feasibility — 0–10
 0: target payer inaccessible
@@ -108,6 +125,8 @@ Subtract after weighted score:
 - `-10` severe platform dependency with no customer ownership
 - `-10` obvious bypass risk where value is only an introduction
 - `-10` market dominated by a low-cost incumbent with little unresolved friction
+
+Scores after penalties are floored at 0.
 
 ## Priority bands
 
