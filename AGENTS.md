@@ -4,58 +4,91 @@ Instructions for AI agents, coding assistants, and human contributors working in
 
 ## Prime directive
 
-The objective is to build a truthful, evidence-driven system that can repeatedly:
+The objective is to build a truthful, evidence-driven **actor-first social demand and capability routing system** that can repeatedly:
 
 1. observe social/market change;
-2. detect unmet or migrating demand;
-3. identify the real payer and payment behavior;
-4. discover capabilities/resources that can solve the demand;
-5. design a bounded transaction;
-6. test it cheaply;
-7. learn from real outcomes.
+2. identify the specific actors/groups affected;
+3. detect unmet or migrating needs;
+4. separate need actor, beneficiary and payer;
+5. identify real payment/workaround behavior;
+6. discover capabilities/resources that can solve the need;
+7. design a bounded transaction;
+8. test it cheaply;
+9. learn from real outcomes.
 
-Do not optimize for code volume, idea count, or impressive narratives. Optimize for **commercial truth**.
+Do not optimize for code volume, idea count, enterprise use cases, or impressive narratives. Optimize for **commercial truth**.
 
 ## Source of truth
 
 Before changing business logic, read:
 
 1. `docs/FORMAL_TRUTH.md`
-2. `docs/METHODOLOGY.md`
-3. `docs/OPPORTUNITY_SCORECARD.md`
-4. `docs/ARCHITECTURE.md`
-5. the relevant `docs/EXPERIMENT_*.md`
+2. `docs/ACTOR_MODEL.md`
+3. `docs/METHODOLOGY.md`
+4. `docs/OPPORTUNITY_SCORECARD.md`
+5. `docs/ARCHITECTURE.md`
+6. the relevant `docs/EXPERIMENT_*.md`
 
 When evidence changes a major assumption, update `docs/FORMAL_TRUTH.md` in the same change.
 
 ## Non-negotiable truth rules
 
-- Never fabricate demand, payment, buyer, supplier, user, pricing, transaction, market, contact, or capability data.
+- Never fabricate actors, needs, payment, pricing, transactions, contacts, capabilities, market or outcome data.
 - `UNKNOWN` / missing is never equivalent to pass.
 - A complaint is not proof of demand.
+- A need actor is not automatically the payer.
+- The beneficiary is not automatically the payer.
 - A trend is not proof of willingness to pay.
-- Market size is not proof that we can acquire a customer.
+- Market size is not proof that we can acquire a user/payer.
 - One paid transaction validates possibility, not repeatability.
 - LLM confidence is not commercial evidence.
 - Keep provenance and timestamps wherever practical.
 - Preserve contradictions rather than smoothing them away.
 
+## Actor-first requirement
+
+For every serious opportunity explicitly map:
+
+- `NEED_ACTOR`
+- `BENEFICIARY`
+- `PAYER`
+- `CAPABILITY_PROVIDER`
+- `RESOURCE_OWNER` where relevant
+- `SPONSOR` where relevant
+- `ORCHESTRATOR`
+
+Do not default to enterprises as the payer or solution provider.
+
+Candidate structures may be:
+
+- `B2B`
+- `B2C`
+- `C2C`
+- `C2B`
+- `SPONSORED / THIRD-PARTY-PAYER`
+- `MULTI-SIDED`
+
+A broad social scan is considered biased if it repeatedly collapses back into enterprise problems without comparative evidence.
+
 ## Evidence hierarchy
 
 Prefer direct behavioral evidence over narrative evidence.
 
-Stronger examples:
+Strong examples include:
 
-- real purchases;
+- real individual/household purchases;
+- bookings, subscriptions and paid convenience services;
 - paid substitutes;
+- rental/repair/second-hand transactions;
+- marketplace/gig tasks;
+- family members paying for another person's outcome;
 - procurement/RFQ/tender activity;
-- repeated marketplace tasks;
 - hiring specifically to solve the problem;
 - explicit budgets;
-- costly manual workarounds;
+- costly manual/family workarounds;
 - repeat transactions.
 
-Weaker examples that require corroboration:
+Weaker evidence requiring corroboration:
 
 - complaints;
 - social discussion;
@@ -66,29 +99,33 @@ Weaker examples that require corroboration:
 
 ## Opportunity gates
 
-Before expensive build-out, require evidence for:
+Before expensive build-out require evidence for:
 
 - `PAIN`
 - `FREQUENCY`
-- `PAYMENT`
+- `PAYER_CLARITY`
+- `PAYMENT_EVIDENCE`
 - `SUPPLY`
 - `TRANSACTIONABILITY`
 - `DEFENSIBILITY`
 
-`PAYMENT` and `TRANSACTIONABILITY` are hard gates.
+`PAYER_CLARITY`, `PAYMENT_EVIDENCE` and `TRANSACTIONABILITY` are hard gates.
 
 ## Development approach
 
-1. Define the social/market signal.
-2. Form a falsifiable demand hypothesis.
-3. Identify the payer.
-4. Collect real behavioral/payment evidence.
-5. Map current solutions and why they are insufficient.
-6. Identify possible capabilities/resources.
-7. Define the smallest real transaction test.
-8. Set success/failure/stop rules.
-9. Run the test and record outcomes.
-10. Automate only repeated bottlenecks.
+1. Define the actor/group.
+2. Define the social/market change affecting that actor.
+3. Observe changed behavior and friction.
+4. Form a falsifiable need hypothesis.
+5. Identify beneficiary and alternative payer candidates.
+6. Collect real behavioral/payment evidence.
+7. Map current workarounds and why they are insufficient.
+8. Identify possible capabilities/resources.
+9. Compare transaction structures.
+10. Define the smallest real test.
+11. Set success/failure/stop rules.
+12. Run the test and record outcomes.
+13. Automate only repeated bottlenecks.
 
 ## Capability routing rules
 
@@ -96,13 +133,22 @@ Do not assume every problem requires a company or supplier. Candidate solutions 
 
 - AI;
 - the operator;
-- a freelancer/student/specialist where lawful;
-- a company/manufacturer;
+- another individual;
+- student/freelancer/specialist where lawful;
+- skilled worker/local helper;
+- company/manufacturer;
 - software/product;
-- equipment/inventory/assets;
+- equipment/inventory/vehicle/space/assets;
+- institution;
 - a composite of multiple capabilities.
 
 Do not route regulated or safety-sensitive work to unqualified providers.
+
+## Vulnerable / high-trust groups
+
+Opportunities involving children, elderly people, medical issues, financial matters, intimate personal data, transport/safety or home access require elevated trust and compliance review.
+
+Commercial attractiveness never overrides safety or legal requirements.
 
 ## Platform discipline
 
@@ -111,11 +157,13 @@ Do **not** build a broad marketplace merely because the conceptual model support
 Required maturity path:
 
 ```text
-manual transactions
+manual actor research
+→ real bounded transactions
 → repeated transaction pattern
-→ stable demand template
+→ stable need template
+→ stable payer model
 → stable capability template
-→ measurable routing advantage
+→ measurable routing/trust advantage
 → automation
 → platform only after sufficient density
 ```
@@ -124,25 +172,21 @@ manual transactions
 
 - Small modules, explicit schemas, deterministic validation where possible.
 - AI classifications must expose evidence/input and remain reviewable.
-- Separate raw signals from derived hypotheses.
+- Separate raw signals from actors and derived hypotheses.
+- Separate need actor from payer.
 - Separate evidence from score.
 - Separate opportunity score from business decision.
 - Tests must protect truth gates and lifecycle transitions.
 - Never commit secrets, credentials, prohibited personal data, or paid datasets without storage rights.
 
-## Compliance
-
-Respect source terms, privacy, anti-spam rules, labor/employment licensing, financial/medical/legal regulation, platform rules, and applicable law.
-
-Where a transaction requires a licensed professional or regulated entity, the engine may route to qualified parties but must not pretend the operator is licensed.
-
 ## Success definition
 
 The repository is succeeding only if the process increasingly identifies opportunities that lead to:
 
+- real actor engagement;
 - real payer engagement;
-- paid pilots;
+- paid pilots/transactions;
 - completed delivery;
 - acceptable margins;
-- repeat transactions;
-- proprietary learning that improves future routing.
+- repeat/referral;
+- proprietary learning that improves future actor/capability routing.
