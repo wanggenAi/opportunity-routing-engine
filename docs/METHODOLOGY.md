@@ -1,39 +1,45 @@
-# Methodology — Observe the Shift, Find the Transaction
+# Methodology — Observe Actors, Find the Transaction
 
 ## 1. Purpose
 
 This document defines how the Opportunity Routing Engine converts social change into testable commercial opportunities.
 
-The method is inspired by a simple operating principle:
+The method is empirical:
 
-> Observe the direction of change, identify the mismatch it creates, and act only where real behavior supports a transaction.
+> Observe which actors are changing, identify the friction created by that change, separate beneficiary from payer, find existing capability, and validate the transaction with real behavior and money.
 
-The method must remain empirical. Philosophy may guide where to look; evidence decides whether to act.
+Philosophy may guide where to look; evidence decides whether to act.
 
-## 2. Unit of analysis
+## 2. Unit of analysis: Actor × Change × Need
 
-Do not begin with an industry or product.
+Do not begin with an industry, product, company, or assumed payer.
 
-Begin with a **change** affecting a defined group.
+Begin with an **actor or group undergoing a measurable change**.
 
 Examples:
 
-- consumers become more value-conscious;
+- students have more skills/tools but weak access to paid projects;
+- young adults reduce large purchases but still seek low-cost experiences;
+- elderly people face increasing digital-service friction;
+- adult children have less time to coordinate parents' daily needs;
+- pet owners spend more time away from home;
+- households prefer repair/rental/second-hand instead of replacement;
+- skilled workers have fragmented availability that does not map cleanly to demand;
+- merchants have idle off-peak capacity;
 - AI lowers the cost of a knowledge task;
-- an aging population increases coordination burden;
-- graduates have skills but weak access to paid projects;
-- small firms reduce fixed hiring but still need project work;
-- a regulation creates mandatory compliance work;
-- one region has idle capacity while another has shortage;
-- users abandon premium solutions but still seek the underlying outcome.
+- one geography has idle resources while another has scarcity.
 
-## 3. The canonical reasoning chain
+The system must deliberately scan both individuals and organizations.
+
+## 3. Canonical reasoning chain
 
 ```text
-CHANGE
+ACTOR
+→ CHANGE
 → BEHAVIOR
 → FRICTION
 → NEED
+→ BENEFICIARY
 → PAYER
 → CURRENT WORKAROUND
 → CAPABILITY
@@ -42,225 +48,305 @@ CHANGE
 → OUTCOME
 ```
 
-### Step A — Change
-What is measurably changing?
+### Step A — Actor
+Who exactly is changing or experiencing friction?
+
+Possible actor types:
+
+- individual;
+- household/family;
+- student/graduate;
+- worker/freelancer/technician/farmer;
+- elderly person/caregiver;
+- parent/child;
+- pet owner;
+- merchant/self-employed operator;
+- enterprise/manufacturer;
+- institution/community;
+- overseas actor;
+- owner of idle time, skill, equipment, vehicle, inventory, data, space or other resources.
+
+Avoid labels that are too broad to validate.
+
+Weak:
+> young people
+
+Stronger:
+> Xuzhou university students with basic design/video/data skills who want paid project experience this semester.
+
+### Step B — Change
+What is measurably changing for this actor?
 
 Possible evidence:
 
-- macro indicators;
-- prices;
-- employment data;
-- demographic data;
-- policy/regulation;
-- new technologies;
+- prices / income / employment;
+- demographics / family structure;
+- technology adoption;
+- regulation/policy;
 - purchase/channel mix;
-- search or marketplace activity.
+- lifestyle/time-use;
+- search/marketplace activity;
+- migration, aging, housing, education, transport;
+- resource utilization.
 
-### Step B — Behavior
-How are people or organizations responding?
+### Step C — Behavior
+How is the actor responding?
 
-Look for actions, not only statements:
+Look for actions:
 
 - delaying purchases;
-- switching brands;
-- repairing instead of replacing;
-- outsourcing instead of hiring;
-- using AI instead of manual labor;
-- searching for substitutes;
-- posting procurement requests;
-- adopting informal workarounds;
-- selling idle assets;
-- changing where or how they transact.
+- switching to cheaper substitutes;
+- renting, sharing, repairing, buying used;
+- seeking side income;
+- asking relatives/strangers for help;
+- using informal groups;
+- buying convenience;
+- outsourcing;
+- using AI/self-service;
+- selling idle resources;
+- changing where/how they transact.
 
-### Step C — Friction
-What new difficulty, cost, uncertainty, delay, or mismatch appears because behavior changed?
+### Step D — Friction
+What difficulty, cost, uncertainty, delay, trust problem, coordination burden or mismatch appears?
 
-A useful friction is specific enough that an observer can verify it.
+The friction must be specific and observable.
 
-Weak:
-> Young people are anxious.
+### Step E — Need
+Express the friction as a desired outcome:
 
-Stronger:
-> Small firms need short-duration data/design/research tasks completed but do not want full-time headcount; capable students/freelancers struggle to access trusted enterprise work.
+> `[actor] needs [measurable outcome] under [constraints] because the current workaround is [costly/slow/risky/unavailable].`
 
-### Step D — Need
-Express the friction as an outcome someone wants.
+### Step F — Beneficiary
+Who actually receives the value if solved?
 
-Format:
+This may differ from the actor who initiated the request.
 
-> `[group] needs [measurable outcome] under [constraints] because [current workaround is costly/slow/risky].`
+### Step G — Payer
+Who loses enough money, time, opportunity, convenience, risk or reputation to pay?
 
-### Step E — Payer
-Who loses enough money, time, opportunity, risk, or reputation to pay?
+Do not assume the beneficiary pays.
 
-Do not assume the person suffering the problem is the payer.
+Possible structures:
 
-Possible payers:
+- user pays;
+- family member pays;
+- employer pays;
+- supplier pays;
+- institution/government pays;
+- advertiser/sponsor pays;
+- counterparty pays;
+- platform pays/subsidizes;
+- multiple actors share payment.
 
-- end user;
-- employer;
-- platform;
-- supplier;
-- insurer;
-- institution;
-- advertiser;
-- government/procurement body;
-- transaction counterparty.
+A need with low direct willingness to pay may still be commercially viable if a credible third-party payer exists.
 
-### Step F — Current workaround
-What does the payer do today?
-
-This is one of the strongest opportunity clues.
+### Step H — Current workaround
+What happens today?
 
 Look for:
 
-- manual labor;
-- spreadsheets;
+- family/friend help;
 - chat groups;
 - agencies;
+- manual labor;
+- repeated travel/waiting;
+- informal cash services;
 - premium software;
 - hiring;
-- travel;
-- repeated phone calls;
 - fragmented vendors;
-- poor substitutes;
-- doing nothing and accepting loss.
+- doing nothing and accepting loss;
+- free alternatives with hidden time cost.
 
-The current workaround reveals both willingness to pay and the benchmark to beat.
+The workaround reveals payment potential and the benchmark to beat.
 
-### Step G — Capability
-What already-existing ability or resource could solve the requirement better?
+### Step I — Capability
+What existing ability/resource can solve the requirement?
 
-Capability types:
+Capability may be:
 
-- AI/model;
-- software/tool;
-- operator skill;
-- specialist/freelancer;
-- company/provider;
-- manufacturer;
+- another individual;
+- student/freelancer/specialist;
+- skilled worker;
+- business/provider;
+- AI/model/software;
+- product/manufacturer;
 - physical asset;
 - inventory;
+- vehicle/space;
 - local presence;
 - data/information;
-- network/relationship;
-- combined workflow.
+- institution;
+- composite workflow.
 
-### Step H — Transaction design
-Turn the need into something that can be bought.
+### Step J — Transaction design
+Turn the need into something purchasable.
 
 Define:
 
-- buyer/payer;
+- need actor;
+- beneficiary;
+- payer;
 - provider(s);
-- deliverable;
+- orchestrator role;
+- deliverable/outcome;
+- trust/safety mechanism;
 - acceptance criteria;
 - price logic;
 - timing;
 - responsibility boundaries;
 - legal/regulatory constraints;
-- failure/refund/stop conditions where appropriate.
+- failure/refund/stop conditions.
 
-If these cannot be bounded, the opportunity is not yet transaction-ready.
+If these cannot be bounded, the opportunity is not transaction-ready.
 
-### Step I — Smallest real test
+### Step K — Smallest real test
 
 Do not build a platform first.
 
-Prefer a test that can answer one decisive commercial question:
+Prefer tests such as:
 
-- Will 10 target payers respond?
-- Will one payer pay RMB 100/500/3000 for the result?
-- Can a provider deliver to the stated acceptance standard?
-- Can the transaction produce positive gross margin?
-- Will a payer repeat within 30 days?
+- Will 10 people in the target group reveal the same recent paid workaround?
+- Will one family pay RMB 50/100/300 for a bounded result?
+- Will one merchant accept an off-peak demand-routing test?
+- Will one pet owner pay for a trusted local task?
+- Will one enterprise pay for a fixed micro-project?
+- Can one provider deliver to acceptance standard?
+- Can the transaction leave positive contribution margin?
 
-### Step J — Outcome learning
+### Step L — Outcome learning
 
 Record:
 
-- who responded;
-- who paid;
-- price;
+- actor type;
+- beneficiary;
+- payer;
 - acquisition channel;
+- stated need;
+- actual payment;
+- price;
+- provider/resource;
 - delivery time;
-- provider cost;
+- trust objections;
 - defects/failures;
 - refund/dispute;
-- repeat purchase;
+- repeat/referral;
 - reasons for rejection.
 
-Failed experiments are valuable only if the rejection reason becomes structured learning.
+## 4. Actor scan matrix
 
-## 4. Demand migration
+Every broad social scan should intentionally cover multiple actor classes rather than collapsing into enterprise problems.
 
-The engine should explicitly look for **where spending, labor, attention, or resources move**, not merely whether a macro indicator rises or falls.
+Minimum categories for a local scan:
 
-Examples:
+```text
+Individuals
+├─ students / graduates
+├─ young workers / flexible workers
+├─ single / renting adults
+├─ parents / households
+├─ elderly / caregivers / adult children
+├─ pet owners
+├─ value-conscious consumers
+├─ skilled workers / farmers / service workers
+└─ owners of idle personal resources
+
+Organizations
+├─ merchants / self-employed
+├─ SMEs
+├─ manufacturers
+├─ schools / institutions
+├─ communities
+└─ overseas actors
+```
+
+A scan is biased if >50% of promoted hypotheses assume enterprises are the payer without evidence that enterprise opportunities are objectively stronger.
+
+## 5. Market-structure matrix
+
+For each opportunity, test whether the strongest structure is:
+
+- `B2B`
+- `B2C`
+- `C2C`
+- `C2B`
+- `SPONSORED / THIRD-PARTY-PAYER`
+- `MULTI-SIDED`
+
+Do not force a structure because it is familiar.
+
+## 6. Demand migration
+
+Look for where money, time, attention or resources move:
 
 ```text
 premium → value-for-money
-new purchase → repair / second-hand
+new → repair / second-hand
 ownership → rental / shared use
-full-time headcount → project-based external capability
-manual work → AI-assisted workflow
 large commitment → small trial
-offline information search → AI-mediated research
-one geography with excess supply → another with scarcity
+full-time job → project / flexible work
+manual work → AI-assisted work
+family self-coordination → paid convenience
+offline friction → local/on-demand service
+idle personal capability → paid micro-task
+unused asset → rental/resale
 ```
 
-The opportunity often exists in the receiving side of the migration, especially where supply has not yet adapted.
+The opportunity often exists on the receiving side of the migration.
 
-## 5. Complaint mining
+## 7. Complaint mining
 
-Complaints are useful as early sensors but dangerous as business evidence.
+Complaints are sensors, not proof.
 
-For a complaint cluster, ask:
+For each cluster ask:
 
-1. How many distinct people/entities exhibit it?
-2. Is it increasing over time?
-3. What do they currently do about it?
-4. What does that workaround cost?
-5. Who benefits economically if it is solved?
-6. Is anyone already paying for substitutes?
-7. Why are current solutions insufficient?
+1. Which exact actor is complaining?
+2. What changed recently?
+3. What action do they take now?
+4. What does that workaround cost in money/time/risk?
+5. Who benefits if solved?
+6. Who could plausibly pay?
+7. Is anyone already paying for substitutes?
+8. What capability is underused nearby?
+9. Why do current solutions fail?
 
-A complaint with no costly workaround and no payer should remain `SIGNAL`, not `EVIDENCED`.
+A complaint with no costly workaround and no payer remains `SIGNAL`.
 
-## 6. Opportunity anti-patterns
+## 8. Opportunity anti-patterns
 
-Reject or downgrade ideas that depend mainly on:
+Reject/downgrade ideas based mainly on:
 
-- "people probably want this";
-- total market size without acquisition evidence;
-- a technology looking impressive;
+- “people probably want this”;
+- assuming every need must become enterprise software;
+- assuming the sufferer must pay;
+- total market size without acquisition/payment evidence;
 - one viral post;
-- regulatory arbitrage that requires prohibited behavior;
-- pure information forwarding where both sides can easily bypass us;
-- excessive custom delivery with no repeatable process;
-- long cash cycles before first validation;
-- heavy fixed cost before payer evidence;
-- solving a problem whose users strongly complain but consistently refuse to pay.
+- pure contact forwarding;
+- unsafe/unlicensed labor, medical, financial or legal activity;
+- bespoke delivery that cannot be bounded;
+- high trust burden with tiny margins;
+- heavy fixed cost before payer proof;
+- solving a loud complaint whose actors consistently refuse to pay and have no third-party payer.
 
-## 7. The operator's role
+## 9. Operator role
 
-The operator is not required to be the final provider.
+The operator is a **demand analyst + resource architect + transaction orchestrator**, not necessarily the provider.
 
-The core role is:
+Core functions:
 
-- demand analysis;
-- requirement definition;
-- capability discovery;
-- solution architecture;
-- routing;
-- transaction design;
-- quality/risk gating;
-- learning from outcomes.
+- observe social change;
+- identify actor-specific needs;
+- separate beneficiary from payer;
+- define requirements;
+- discover underused capability/resources;
+- design transaction/trust structure;
+- route;
+- quality/risk gate;
+- learn from outcomes.
 
-Over time, this should evolve from human judgment into a **Capability Graph + Opportunity Engine**, but only where repeated transaction data justifies automation.
+Over time this should evolve into an **Actor Graph + Capability Graph + Opportunity Engine**, but only after real transactions justify automation.
 
-## 8. Core maxim
+## 10. Core maxim
 
-**Follow the shift, but validate with money.**
+**Follow the shift, but validate with behavior and money.**
 
-Trends tell us where to look. Real transactions tell us whether we were right.
+Trends tell us where to look. Actors tell us what hurts. Transactions tell us whether we were right.
