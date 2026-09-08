@@ -1,4 +1,4 @@
-# EXPERIMENT 002 — Xuzhou-First Social Opportunity Scan
+# EXPERIMENT 002 — Xuzhou Actor-First Social Opportunity Scan
 
 Status: `ACTIVE`
 
@@ -6,107 +6,148 @@ Date opened: 2026-09-08
 
 ## Objective
 
-Test whether the Opportunity Routing Engine can convert current social/market change into a ranked set of **transaction-worthy** opportunities rather than merely interesting ideas.
+Test whether the Opportunity Routing Engine can convert current Xuzhou social/market change into a ranked set of **transaction-worthy opportunities across individuals, households, groups, businesses and institutions**, rather than collapsing into enterprise-only ideas.
 
-The first geographic observation field is **Xuzhou, Jiangsu** because the operator is currently local and can validate online hypotheses through rapid in-person visits to universities, commercial districts, communities, industrial parks, small businesses, factories, and public-service ecosystems.
-
-Xuzhou is the first field laboratory, not the permanent scope of the project.
+Xuzhou is the first field laboratory because online hypotheses can be validated rapidly through local observation and conversations.
 
 ## Core question
 
-> Can a structured Xuzhou-first scan identify opportunities with clear payers, observable payment behavior, accessible supply/capability, bounded delivery, and a realistic path to first cash within 30–60 days?
+> Can a structured actor-first scan of current Xuzhou social/economic change identify opportunities with real need actors, identifiable payers, observable payment/workaround behavior, accessible capabilities/resources, bounded transactions and a realistic path to first cash?
 
-## Phase A — Xuzhou baseline scan
+## Mandatory actor coverage
 
-Scan at least 10 distinct local change/mismatch domains, including but not limited to:
+The scan must deliberately cover at least these actor groups:
 
-1. university students / graduates with underutilized skills or time;
-2. SMEs that need small digital/content/data tasks but do not justify full-time headcount;
-3. youth shops and small merchants with customer-acquisition or operating friction;
-4. AI substitution of repetitive knowledge work;
-5. skills training participants who still lack real paid projects;
-6. flexible employment / project-based work;
-7. idle assets, inventory, equipment, and second-hand migration;
-8. aging / household service coordination;
-9. tourism and night-economy demand around local merchants;
-10. local-vs-remote execution or information gaps;
-11. value-conscious consumption and repair/rental/used alternatives;
-12. domestic or cross-border demand-capability mismatch.
+1. university students / graduates;
+2. young workers / flexible workers / job seekers;
+3. single or renting young adults;
+4. parents / households / children;
+5. elderly people / caregivers / adult children;
+6. pet owners;
+7. value-conscious consumers;
+8. skilled workers / farmers / local service workers;
+9. merchants / self-employed operators;
+10. SMEs / manufacturers;
+11. institutions / communities / schools;
+12. holders of idle personal or organizational resources: skill, time, vehicles, equipment, inventory, space, data, etc.
 
-The scan must not force an opportunity in every domain.
+The scan may add other groups when evidence warrants.
 
-## Phase B — local field verification
+## Anti-bias requirement
 
-Only the highest-ranked hypotheses may proceed to field verification.
+Do not assume enterprises are the payer.
 
-Possible verification targets include:
+For every candidate explicitly map:
 
-- university students / student organizations / career centers;
-- youth shops and local merchants;
-- SME owners and functional managers;
-- skill-night-school participants or training providers;
-- industrial park firms;
-- existing service providers;
-- public or regulated institutions where appropriate.
+```text
+Need actor:
+Beneficiary:
+Payer:
+Capability provider:
+Resource owner (if relevant):
+Sponsor (if relevant):
+Orchestrator value:
+Transaction type:
+```
 
-Field interviews must test a specific commercial unknown. Do not perform generic networking visits without a decision question.
+The scan should test multiple structures:
 
-## Required evidence per domain
+- B2B
+- B2C
+- C2C
+- C2B
+- Sponsored / third-party payer
+- Multi-sided
 
-For each domain collect, where available:
+If more than half of promoted opportunities end up enterprise-paid, the result must explain with comparative evidence why enterprise opportunities genuinely scored higher rather than being easier for the researcher to imagine.
+
+## Required evidence per candidate
+
+Collect where available:
 
 - measurable change signal;
-- affected group;
+- exact actor/group;
 - observed behavior change;
 - repeated friction/problem;
+- desired outcome;
+- beneficiary;
+- payer candidates;
 - current workaround;
-- evidence of money/time/headcount/procurement spent on the workaround;
-- identifiable payer;
+- evidence of money/time/risk/headcount spent;
+- existing purchase/service/transaction evidence;
 - candidate capabilities/resources;
 - existing competitors/substitutes;
-- regulatory/safety constraints;
+- trust/safety constraints;
+- regulatory constraints;
 - shortest plausible path to a paid test.
 
-## Output schema
+## Example opportunity families to investigate — not conclusions
 
-Each candidate opportunity must use:
+### Individuals / households
+- value-for-money / repair / second-hand / rental migration;
+- trusted small local services;
+- young-adult convenience and social/lifestyle frictions;
+- pet-care micro-needs;
+- elderly digital/coordination friction with adult children as possible payer;
+- household fragmented tasks that are too small for traditional service providers.
+
+### Capability holders
+- university students with underused digital/creative/research capability;
+- skilled workers with fragmented availability;
+- individuals with idle vehicles/equipment/space/time;
+- graduates who need paid project evidence rather than generic training.
+
+### Merchants / organizations
+- merchant off-peak idle capacity routed to value-conscious consumers;
+- bounded digital/data/AI micro-projects;
+- local-vs-remote execution gaps;
+- institutional services where beneficiary and payer differ.
+
+### Cross-regional / cross-border
+- China-language information asymmetry;
+- regional resource mismatch;
+- overseas demand ↔ local capability.
+
+## Candidate output schema
 
 ```text
 ID:
 Title:
-Geography:
+Need actor:
+Beneficiary:
+Payer:
+Capability provider:
+Transaction type:
 Change signal:
-Affected group:
 Observed behavior:
 Friction:
-Demand hypothesis:
-Payer:
-Payment evidence:
+Need hypothesis:
+Payment/workaround evidence:
 Current workaround:
 Capability route:
 Transaction design:
 Existing solutions:
 Why unresolved:
-Hard gates:
+Trust / legal gates:
 Opportunity score:
 Confidence:
 Cheapest decisive test:
 Success threshold:
 Stop rule:
-Field-verification target:
 ```
 
 ## Ranking rule
 
-Use `docs/OPPORTUNITY_SCORECARD.md`.
+Use `docs/OPPORTUNITY_SCORECARD.md` and `docs/ACTOR_MODEL.md`.
 
 Select no more than the top 5 opportunities for deeper validation.
 
 An opportunity cannot be ranked `A: TEST NOW` if:
 
+- need actor is vague;
 - payer is unknown;
 - payment evidence is absent;
-- delivery cannot be bounded;
+- delivery/trust cannot be bounded;
 - legal/safety feasibility fails;
 - first validation requires heavy fixed cost.
 
@@ -114,25 +155,31 @@ An opportunity cannot be ranked `A: TEST NOW` if:
 
 EXP-002 is successful if it produces:
 
-1. at least 10 evidence-backed Xuzhou-first opportunity hypotheses across multiple domains;
-2. at least 3 candidates scoring >=65 with no failed hard gate;
-3. at least 1 candidate with a plausible paid micro-test within 30 days;
-4. clear rejection reasons for weak candidates;
-5. a ranked recommendation based on evidence, not intuition;
-6. a field-verification plan for the top candidates.
+1. at least 12 evidence-backed opportunity hypotheses across multiple actor groups;
+2. meaningful representation of personal/household and organizational demand;
+3. at least 3 candidates scoring >=65 with no failed hard gate;
+4. at least 1 candidate with a plausible paid micro-test within 30 days;
+5. at least 1 serious non-enterprise-payer candidate unless evidence explicitly rejects all such candidates;
+6. clear rejection reasons for weak candidates;
+7. a ranked recommendation based on evidence, not intuition.
 
 ## Failure criteria
 
 The method must be revised if:
 
-- most candidates rely on complaints without payment evidence;
+- the scan repeatedly defaults to companies/SMEs without comparative evidence;
+- most personal candidates rely on complaints without payment/workaround evidence;
+- need actor and payer are routinely conflated;
 - scoring cannot distinguish attractive narratives from transaction-ready opportunities;
-- the top-ranked candidates still require large capital or long sales cycles;
-- results collapse into one preconceived industry instead of genuinely scanning the local economy;
+- top candidates require large capital or long sales cycles;
 - source evidence is too weak to support payer or behavior claims.
+
+## Current decision on existing EXP-003
+
+The Xuzhou managed SME micro-project paid validation remains a valid **vertical candidate**, but it is no longer presumed to be the overall top opportunity until this broader actor-first scan is completed.
 
 ## Next experiment
 
-The highest-ranked candidate should receive its own `EXPERIMENT_003_*` paid-validation test.
+After the actor-first ranking is refreshed, the highest-confidence candidate—or multiple cheap parallel candidates—should receive paid validation.
 
-No broad marketplace/platform build is authorized by EXP-002 alone.
+No broad platform build is authorized by EXP-002 alone.
