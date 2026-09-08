@@ -1,10 +1,10 @@
-# Architecture — Opportunity Routing Engine
+# Architecture — Actor-First Opportunity Routing Engine
 
 ## 1. System objective
 
-Build a reusable engine that converts social/market change into falsifiable commercial opportunity hypotheses and, when evidence is sufficient, routes those opportunities toward real capabilities and transactions.
+Build a reusable engine that converts social/market change into falsifiable opportunity hypotheses by understanding changing actors, unmet needs, payers, available capabilities/resources, and possible transaction structures.
 
-The architecture must remain domain-agnostic. Cross-border B2B is one vertical, not the system boundary.
+The architecture must remain domain-agnostic and payer-agnostic. Enterprise problems are one category, not the system boundary.
 
 ## 2. Canonical pipeline
 
@@ -13,29 +13,34 @@ SIGNAL SOURCES
   ├─ macro / policy / prices
   ├─ search behavior
   ├─ social complaints / workarounds
-  ├─ marketplaces / service tasks
+  ├─ consumer transactions / service orders
+  ├─ marketplaces / gig tasks
   ├─ hiring / labor demand
   ├─ procurement / tenders / RFQs
-  ├─ company actions / budgets
-  ├─ product / service prices
-  ├─ second-hand / idle assets
+  ├─ family / household coordination signals
+  ├─ second-hand / rental / repair / sharing markets
+  ├─ idle time / skill / asset signals
   └─ public transaction evidence
         ↓
 INGEST / OBSERVE
         ↓
 NORMALIZE / DEDUPE
         ↓
-TREND & FRICTION DETECTION
+ACTOR & GROUP DETECTION
         ↓
-DEMAND HYPOTHESIS
+CHANGE / BEHAVIOR / FRICTION DETECTION
+        ↓
+NEED HYPOTHESIS
+        ↓
+BENEFICIARY / PAYER IDENTIFICATION
         ↓
 BEHAVIOR / PAYMENT EVIDENCE
         ↓
 EXISTING SOLUTION ANALYSIS
         ↓
-CAPABILITY DISCOVERY
+CAPABILITY / RESOURCE DISCOVERY
         ↓
-TRANSACTION DESIGN
+TRANSACTION-STRUCTURE SEARCH
         ↓
 OPPORTUNITY SCORING
         ↓
@@ -50,35 +55,110 @@ LEARNING / MODEL UPDATE
 
 ## 3. Core entities
 
+### `Actor`
+A person, household, group, organization, institution, or resource-owning entity that participates in or is affected by a transaction.
+
+Suggested fields:
+
+- `actor_type`;
+- `segment`;
+- `geography`;
+- `life_or_business_context`;
+- `constraints`;
+- `observable_behavior`;
+- `trust_requirements`;
+- `verification_status`.
+
+### `ActorRole`
+An actor may occupy one or more roles:
+
+- `NEED_ACTOR`;
+- `BENEFICIARY`;
+- `PAYER`;
+- `CAPABILITY_PROVIDER`;
+- `RESOURCE_OWNER`;
+- `SPONSOR`;
+- `ORCHESTRATOR`.
+
+Roles must not be assumed to collapse into a single buyer/provider pair.
+
 ### `Signal`
-A raw observable: price movement, complaint, job opening, tender, purchase request, search trend, policy, new workaround, repeated task, idle resource, etc.
+A raw observable: price movement, complaint, booking, purchase, search, job opening, tender, marketplace task, request for help, repair/rental activity, idle resource, etc.
 
-### `DemandHypothesis`
-A structured claim that a defined group has a recurring problem and an identifiable party may pay to solve it.
+### `NeedHypothesis`
+A structured claim that a defined actor/group wants an outcome under constraints and current solutions create meaningful friction.
 
-### `Payer`
-The person or organization expected to provide money or other economically meaningful consideration.
+### `PayerHypothesis`
+A structured claim about which actor has both incentive and ability to pay, including third-party and sponsored structures.
 
 ### `Capability`
-A person, company, product, software system, AI model, machine, asset, inventory, dataset, institution, or combination capable of satisfying the demand.
+A person, group, company, product, software system, AI model, specialist skill, physical asset, inventory, vehicle, space, dataset, institution, local presence, or composite workflow capable of satisfying the need.
 
 ### `TransactionDesign`
-The proposed commercial structure: scope, payer, provider, price logic, delivery, acceptance, risk allocation, and legal/compliance boundaries.
+The proposed exchange structure: roles, scope, price logic, trust, delivery, acceptance, risk allocation, compliance and failure conditions.
 
 ### `Opportunity`
-A demand hypothesis that has passed sufficient evidence gates to justify transaction testing.
+A need + payer + capability + transaction structure that has passed sufficient evidence gates to justify testing.
 
 ### `Experiment`
 A bounded test intended to falsify or validate one commercial assumption.
 
 ### `Outcome`
-Observed result: no response, rejection reason, paid pilot, transaction, repeat purchase, margin, delivery failure, etc.
+Observed result: no interest, refusal to pay, paid pilot, successful delivery, dispute, repeat purchase, referral, margin, trust failure, routing failure, etc.
 
-## 4. Opportunity lifecycle
+## 4. Graph model
+
+The long-run architecture should evolve toward three linked graphs.
+
+### `Actor Graph`
+Represents people/groups/organizations and relevant context, roles, recurring needs, behavior and trust relationships.
+
+### `Capability Graph`
+Represents skills, providers, assets, products, software, AI, geography, cost, availability, proof, quality and prior outcomes.
+
+### `Transaction Graph`
+Represents which actor-role/capability combinations were tested, at what price, through which channel, with what outcome.
+
+The defensible learning layer comes from the interaction of all three graphs.
+
+## 5. Market structures
+
+The engine must search across:
+
+```text
+B2B
+B2C
+C2C
+C2B
+SPONSORED / THIRD-PARTY-PAYER
+MULTI-SIDED
+```
+
+Examples:
+
+```text
+elderly beneficiary ← local helper
+       ↑ payer: adult child
+
+merchant demand ← student capability
+       ↑ payer: merchant
+
+consumer need ← another consumer's idle asset
+       ↑ payer: consumer
+
+student beneficiary ← project experience
+       ↑ payer: enterprise / institution / sponsor
+```
+
+No structure is preferred until evidence shows stronger economics and transaction feasibility.
+
+## 6. Opportunity lifecycle
 
 ```text
 SIGNAL
+→ ACTOR_IDENTIFIED
 → HYPOTHESIS
+→ PAYER_HYPOTHESIS
 → EVIDENCED
 → TRANSACTION_DESIGNED
 → TEST_READY
@@ -90,122 +170,144 @@ SIGNAL
 
 No lifecycle transition may be made solely because an LLM expresses confidence.
 
-## 5. Capability routing
+## 7. Capability routing
 
-The engine should not assume the solution is another business or supplier.
-
-Possible routes:
+Do not assume the solution is a company or supplier.
 
 ```text
-Demand
+Need
   ├─ AI can solve directly
   ├─ operator can solve
-  ├─ freelancer / student / specialist can solve
+  ├─ individual / student / freelancer can solve
+  ├─ skilled worker / local helper can solve
   ├─ company / manufacturer can solve
   ├─ software / product can solve
-  ├─ idle asset / inventory can solve
-  └─ composite route: AI + human + company + asset
+  ├─ idle asset / space / inventory / vehicle can solve
+  ├─ institution can solve
+  └─ composite route
 ```
 
-Routing should optimize for transaction success, quality, risk, speed, and economics rather than simply lowest price.
+Routing should optimize for success probability, trust, safety, quality, speed, convenience and economics—not merely lowest price.
 
-## 6. Opportunity score inputs
+## 8. Payer routing
 
-The scoring layer should consume explicit evidence for:
+The engine must explicitly test alternative payer structures.
 
-- pain severity;
-- frequency / market density;
+For a real need, ask:
+
+```text
+Can the beneficiary pay?
+If not, does a family member pay?
+Does an employer gain enough to pay?
+Does a supplier pay for access/conversion?
+Can an institution sponsor the outcome?
+Can advertising/subsidy fund it?
+Can multiple actors share cost?
+```
+
+A weak direct-to-consumer payment signal should not automatically kill an opportunity if another payer has strong economic incentive.
+
+## 9. Opportunity score inputs
+
+Scoring consumes explicit evidence for:
+
+- actor pain severity;
+- frequency / density;
 - payer clarity;
-- observed payment behavior;
-- supply availability;
-- current solution weakness;
-- transaction simplicity;
+- observed payment/workaround behavior;
+- supply/capability availability;
+- current-solution weakness;
 - acquisition feasibility;
+- trust/safety burden;
 - delivery controllability;
-- gross-margin potential;
+- transaction simplicity;
 - time-to-first-cash;
-- regulatory / safety risk;
+- unit economics;
+- legal/regulatory risk;
 - defensibility / learning value;
-- fit with available operator capabilities.
+- operator fit.
 
-A detailed rubric lives in `docs/OPPORTUNITY_SCORECARD.md`.
+## 10. Evidence model
 
-## 7. Evidence model
+Every important assertion should retain where applicable:
 
-Every important assertion should retain, where applicable:
-
+- `actor`;
+- `role`;
 - `value`;
 - `source` / provenance;
 - `observed_at`;
 - `source_date`;
-- `entity/group` affected;
 - `verification_status`;
 - `confidence`;
 - `contradictions`;
 - `notes`.
 
-Derived conclusions must be traceable back to source evidence.
+Derived conclusions must trace back to source evidence.
 
-## 8. Human-in-the-loop boundaries
+## 11. Human-in-the-loop boundaries
 
 Human review is required before:
 
-- declaring a commercial opportunity validated;
-- contacting real people/organizations where outreach is not already explicitly requested by the user/operator;
+- declaring an opportunity validated;
+- contacting real actors where outreach is not already authorized;
 - making commercial representations or commitments;
-- pricing high-risk or ambiguous work;
-- handling regulated labor, financial, medical, legal, safety-sensitive, or licensed activities;
-- moving from a hypothesis to significant capital expenditure;
+- routing vulnerable groups into high-trust or safety-sensitive interactions;
+- pricing ambiguous/high-risk work;
+- handling regulated labor, financial, medical, legal, childcare, eldercare, transport or safety-sensitive activities;
+- significant capital expenditure;
 - representing third parties without authority.
 
-## 9. Automation principle
-
-Automate repeated bottlenecks, not imagined future volume.
-
-Recommended maturity path:
+## 12. Automation maturity path
 
 ```text
-manual spreadsheet / structured notes
-→ repeatable evidence schema
-→ scripts
-→ scheduled collection
+manual actor interviews / observation
+→ repeatable actor + need + payer schema
+→ transaction logs
+→ scripts / evidence collection
 → ranking / alerts
-→ capability graph
-→ workflow orchestration
+→ Actor Graph + Capability Graph
+→ routing / trust workflows
+→ orchestration
 → marketplace/platform only after transaction density
 ```
 
-## 10. Initial future modules
+## 13. Future modules
 
 ### `signals`
-Permitted ingestion of macro, behavioral, marketplace, procurement, hiring, price, and public commercial evidence.
+Collect permitted social, behavioral, marketplace, pricing, employment, household, transaction and resource-utilization evidence.
 
-### `trend_detection`
-Detect sustained changes, emerging clusters, anomalies, and demand migration.
+### `actors`
+Classify actor groups, context, roles and recurring behavior without forcing industry labels.
 
-### `demand_analysis`
-Convert raw signals into explicit user/problem/payer hypotheses.
+### `need_analysis`
+Convert actor changes/frictions into explicit need hypotheses.
+
+### `payer_analysis`
+Identify and compare direct, family, enterprise, sponsor and multi-sided payer candidates.
 
 ### `evidence`
-Validate payment behavior, existing alternatives, frequency, and contradictions.
+Validate payment behavior, workarounds, alternatives, frequency and contradictions.
+
+### `actor_graph`
+Represent actors, roles, recurring needs, trust constraints and relationships.
 
 ### `capability_graph`
-Represent capabilities, proof, geography, cost, availability, reliability, and prior outcomes.
+Represent capabilities/resources, proof, geography, cost, availability, reliability and prior outcomes.
 
 ### `routing`
-Rank candidate solutions/capabilities for a demand.
+Rank candidate solutions and role combinations.
 
 ### `transaction_design`
-Generate bounded commercial test structures with clear deliverables and acceptance conditions.
+Generate bounded transaction structures, trust mechanisms and acceptance conditions.
 
 ### `experiments`
-Manage falsifiable tests, metrics, stop rules, and outcomes.
+Manage falsifiable tests, metrics, stop rules and outcomes.
 
 ### `learning`
-Update priors and scoring based on real transaction outcomes.
+Update priors and scores using real transaction outcomes.
 
-## 11. Engineering rule
+## 14. Engineering rule
 
-The system is not successful when it produces more ideas.
+The system is not successful when it produces more enterprise ideas—or more ideas of any kind.
 
-It is successful when it improves the rate at which we identify opportunities that survive **real payment, delivery, and repeatability tests**.
+It succeeds only when it improves the rate at which we identify actor-specific opportunities that survive **real willingness-to-pay, delivery, trust and repeatability tests**.
