@@ -1,14 +1,29 @@
-# EXPERIMENT 003 — Xuzhou Managed Micro-Project Paid Validation
+# EXPERIMENT 003 — Xuzhou Managed SME Micro-Project Paid Validation
 
-Status: `READY TO RUN`
+Status: `READY TO RUN / SECONDARY VERTICAL`
 
 Date opened: 2026-09-08
 
 ## Objective
 
-Test whether Xuzhou SMEs / small merchants will pay for **bounded, result-oriented micro-projects** that are fulfilled through a managed capability-routing layer rather than a traditional full-time hire or open-ended outsourcing relationship.
+Test one specific transaction structure:
 
-This experiment tests money, not interest.
+> Xuzhou SME / merchant need actor + payer → bounded project → capability routed through operator / GPT / student / freelancer → accepted delivery → payment.
+
+This experiment remains valid, but it is **not the presumed top opportunity of the Opportunity Routing Engine**.
+
+The broader `EXP-002` actor-first scan now compares personal, household, C2C, sponsored and enterprise opportunities under the same scorecard.
+
+## Actor map
+
+```text
+Need actor: SME / merchant
+Beneficiary: SME / merchant
+Payer: SME / merchant
+Capability provider: operator / AI / student / freelancer / specialist
+Orchestrator: Opportunity Routing Engine operator
+Transaction type: C2B / B2B / composite
+```
 
 ## Core hypothesis
 
@@ -41,14 +56,6 @@ Do not test:
 
 Target: 15–20 Xuzhou businesses with observable evidence of recurring small digital/content/data work.
 
-Good target signals include:
-
-- currently hiring content, ecommerce, data or digital roles;
-- youth shops reporting traffic / operating problems;
-- small teams where full-time specialization is expensive;
-- businesses with obvious repetitive public-facing information work;
-- companies participating in digital / AI transformation ecosystems but where a full system project is unnecessary.
-
 For each target, capture:
 
 - business type;
@@ -59,7 +66,7 @@ For each target, capture:
 - desired output;
 - acceptable deadline;
 - acceptable price range if disclosed;
-- trust / risk objections;
+- trust/risk objections;
 - whether a fixed-scope paid pilot is acceptable.
 
 ### Arm B — capability discovery
@@ -85,13 +92,11 @@ Capture:
 - deadline reliability;
 - revision tolerance;
 - confidentiality acceptance;
-- prohibited / refused tasks.
+- prohibited/refused tasks.
 
 ## Transaction format
 
-The operator must not sell "a student" or "a freelancer".
-
-Sell a result:
+The operator must not sell “a student” or “a freelancer”. Sell a bounded result:
 
 ```text
 Problem
@@ -106,24 +111,11 @@ Problem
 → payment
 ```
 
-The provider may be:
-
-- the operator + GPT;
-- a student / freelancer;
-- a specialist;
-- a combination.
-
-The customer buys the deliverable, not the identity of the labor source.
-
 ## First-price guidance
-
-Do not optimize for maximum price in the first transaction.
 
 Candidate pilot range: RMB 300–2,000 depending on task size.
 
 This is a test range, not a market price claim.
-
-A pilot must still compensate external contributors fairly and remain contribution-positive after direct delivery costs.
 
 ## Success criteria
 
@@ -136,53 +128,66 @@ Within 30 days:
 - >=1 pays for a real pilot;
 - paid pilot is delivered and accepted;
 - direct contribution margin is positive;
-- customer would plausibly buy another bounded task or refer another payer.
+- repeat/referral signal exists.
 
 ### Partial pass
-- real task demand is repeatedly observed;
-- payer interest exists;
-- no transaction occurs because of a narrow issue that can be isolated and retested (price, category, trust proof, contract/payment mechanism).
+Real task demand and payer interest repeatedly appear, but transaction is blocked by one isolatable factor such as price, trust proof, category, or payment mechanism.
 
 ### Fail / stop
-Stop or pivot the model if any of the following occurs:
 
 - 20 qualified payer conversations produce zero paid pilot willingness;
-- most tasks are too bespoke / on-site / regulated to standardize;
-- customers consistently prefer direct cheap freelancers and see no value in managed QA/routing;
+- most tasks are too bespoke/on-site/regulated;
+- customers prefer direct cheap freelancers and see no value in managed QA/routing;
 - capable supply cannot meet quality/reliability requirements at viable economics;
-- transaction disputes or legal structure make the model unattractive.
+- transaction disputes/legal structure make the model unattractive.
+
+## Portfolio rule
+
+EXP-003 may run because it is cheap and can produce real payment evidence, but it must **not** consume the entire research agenda.
+
+In parallel, EXP-002 must continue scanning and comparing:
+
+- B2C;
+- C2C;
+- household/family-sponsored;
+- student/young-adult needs;
+- pet-owner needs;
+- elderly/caregiver/adult-child structures;
+- value-conscious consumption migration;
+- idle personal capability/resource exchanges;
+- other actor-first hypotheses.
 
 ## Required records
 
-Create a non-sensitive ledger containing:
+For each transaction/test retain:
 
-- `demand_id`
-- target profile
-- source / provenance
-- pain / task
-- payer evidence
-- current workaround
-- price signal
-- deliverables
-- acceptance criteria
-- capability matched
-- quoted price
-- provider cost
-- status
-- outcome
-- failure reason
-- follow-up / repeat signal
-
-Do not publish private customer communications or sensitive data to the public repository without permission. Public reporting should use anonymized summaries unless the underlying information is already public and appropriate to retain.
+- need actor;
+- beneficiary;
+- payer;
+- capability provider;
+- transaction type;
+- source/provenance;
+- pain/task;
+- current workaround;
+- payment evidence;
+- price signal;
+- deliverables;
+- acceptance criteria;
+- quoted price;
+- provider cost;
+- status;
+- outcome;
+- failure reason;
+- repeat/referral signal.
 
 ## Decision after experiment
 
 If strong pass:
-- promote XZ-001 to `A: TEST NOW / REPEAT`;
+- validate this **vertical only**;
 - repeat at least 5 transactions manually;
-- identify the narrowest high-frequency task class;
-- automate only the repeated bottleneck.
+- compare its real economics against other actor-first candidates;
+- automate only repeated bottlenecks.
 
 If fail:
 - do not build a marketplace;
-- return to EXP-002 ranking and promote the next candidate.
+- return to the actor-first EXP-002 ranking.
