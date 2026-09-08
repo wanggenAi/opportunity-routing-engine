@@ -1,68 +1,74 @@
 # EXP-002 Xuzhou Initial Ranking — 2026-09-08
 
-Status: `PRELIMINARY / EVIDENCE-BASED / NOT PROOF`
+Status: `SUPERSEDED / REQUIRES ACTOR-FIRST RESCAN`
 
-Scored using `docs/OPPORTUNITY_SCORECARD.md` after correcting the scorecard to a true 100-point maximum.
+This file preserves the first preliminary ranking for historical traceability, but **its ranking decision is no longer authoritative**.
 
-Scores reflect current public evidence only. Hard-gate uncertainty overrides numerical attractiveness.
+## Why it was superseded
 
-| Rank | ID | Opportunity | Score | Hard-gate state | Confidence | Decision |
-|---|---|---|---:|---|---|---|
-| 1 | XZ-001 | Managed SME Micro-Project Exchange | 79 | G1 payer micro-project willingness = UNKNOWN | MEDIUM | B: INVESTIGATE / PAID TEST DESIGN |
-| 2 | XZ-003 | Remote SME AI / Data Micro-Automation | 78 | small-package payer willingness = UNKNOWN | MEDIUM | B: INVESTIGATE |
-| 3 | XZ-002 | Youth-Shop Content / Customer-Acquisition Micro-Pack | 77 | independent small-shop project budget = UNKNOWN | MEDIUM | B: INVESTIGATE |
-| 4 | XZ-009 | Night-Economy Merchant Content Network | 74 | repeated merchant payment = UNKNOWN | LOW-MEDIUM | B: INVESTIGATE |
-| 5 | XZ-004 | Skills-to-Paid-Project Conversion Layer | 69 | payer identity = UNKNOWN | MEDIUM | B: INVESTIGATE |
-| 6 | XZ-005 | Xuzhou Local Execution / Verification Desk | 61 | Xuzhou-specific demand frequency = UNKNOWN | LOW | C: WATCH |
-| 7 | XZ-006 | Idle Asset / Inventory Opportunity Routing | 49 after bypass-risk penalty | monetization / regulatory form unresolved | LOW | D/C BORDER: DO NOT PRIORITIZE |
-| 8 | XZ-007 | Campus Graduation / Move-Out Liquidation | 50 after incumbent penalty | payer economics weak | LOW-MEDIUM | C: WATCH |
-| 9 | XZ-008 | Value-Conscious Local Service Router | 48 after incumbent penalty | demand migration and router payer unproven | LOW | D: DORMANT |
-| 10 | XZ-010 | Aging-Service Coordination Layer | 42 after regulatory penalty | regulatory / liability burden high | MEDIUM | D: DO NOT ENTER NOW |
+The first pass over-weighted enterprise-paid opportunities because enterprise budgets, hiring and procurement signals are easier to observe publicly. That created a methodological bias: personal, household, C2C and third-party-payer opportunities were not scanned with equal depth.
 
-## Why XZ-001 ranks first
+The repository has since adopted an explicit Actor-First model in:
 
-It combines several observed local facts:
+- `docs/ACTOR_MODEL.md`
+- `docs/METHODOLOGY.md`
+- `docs/ARCHITECTURE.md`
+- `docs/OPPORTUNITY_SCORECARD.md`
+- `docs/EXPERIMENT_002_SOCIAL_OPPORTUNITY_SCAN.md`
 
-1. Xuzhou has a large university and young-capability pool.
-2. Local employers already spend meaningful salaries on content, ecommerce, data and digital work.
-3. Skill-training demand is active, suggesting people want capabilities that can improve income/employability.
-4. Many potential deliverables can be bounded and performed remotely.
-5. The operator can use GPT, analysis, architecture and QA to reduce demand-definition and coordination cost.
-6. Validation needs little capital and can produce a decisive result quickly.
+The new unit of comparison is:
 
-## The decisive unknown
+```text
+Need Actor
++ Beneficiary
++ Payer
++ Capability Provider
++ Transaction Structure
++ Evidence
+```
 
-The system does **not** yet know whether Xuzhou SMEs will buy small result-oriented projects instead of:
+not “which enterprise problem has visible budget.”
 
-- assigning work internally;
-- hiring staff;
-- using an agency;
-- asking a friend/student directly;
-- ignoring the task.
+## Historical ranking — DO NOT TREAT AS CURRENT
 
-Therefore XZ-001 cannot be promoted to `A: TEST NOW` based only on the current score.
+| Historical rank | ID | Opportunity | Old score | Current interpretation |
+|---|---|---|---:|---|
+| 1 | XZ-001 | Managed SME Micro-Project Exchange | 79 | Retained as one vertical candidate; no longer presumed #1 |
+| 2 | XZ-003 | Remote SME AI / Data Micro-Automation | 78 | Retained as one enterprise-paid candidate |
+| 3 | XZ-002 | Youth-Shop Content / Customer-Acquisition Micro-Pack | 77 | Retained as merchant candidate |
+| 4 | XZ-009 | Night-Economy Merchant Content Network | 74 | Retained as merchant/consumer multi-sided candidate |
+| 5 | XZ-004 | Skills-to-Paid-Project Conversion Layer | 69 | Must be re-modeled across student beneficiary / enterprise or sponsor payer structures |
+| 6 | XZ-005 | Xuzhou Local Execution / Verification Desk | 61 | Retained as local execution candidate |
+| 7 | XZ-006 | Idle Asset / Inventory Opportunity Routing | 49 | Must be rescanned across personal and organizational idle assets |
+| 8 | XZ-007 | Campus Graduation / Move-Out Liquidation | 50 | Must be rescored using C2C density/acquisition economics |
+| 9 | XZ-008 | Value-Conscious Local Service Router | 48 | Must be decomposed into concrete consumer transaction types |
+| 10 | XZ-010 | Aging-Service Coordination Layer | 42 | Must separate elderly beneficiary from adult-child/institution payer and account for trust/safety burden |
 
-## Proposed first wedge inside XZ-001
+## Required rescan before new overall ranking
 
-Avoid broad marketplace scope. Start only with remote / bounded task classes the operator can judge:
+The next authoritative ranking must include evidence-backed candidates across at least:
 
-1. commercial / competitor / Chinese-Internet research;
-2. Excel / data cleanup / analysis;
-3. simple AI-enabled document or information processing;
-4. small automation scripts;
-5. bounded digital-content asset production where acceptance criteria can be explicit.
+1. university students / graduates;
+2. young workers / flexible workers;
+3. single / renting young adults;
+4. parents / households;
+5. elderly / caregivers / adult children;
+6. pet owners;
+7. value-conscious consumers;
+8. skilled workers / farmers / local service workers;
+9. merchants / self-employed operators;
+10. SMEs / manufacturers;
+11. institutions / communities;
+12. owners of idle personal or organizational resources.
 
-Do not begin with:
+It must compare B2B, B2C, C2C, C2B, sponsored and multi-sided structures under the same scorecard.
 
-- recruitment placement;
-- labor dispatch;
-- safety-critical technical work;
-- medical/legal/financial regulated services;
-- open-ended enterprise IT support;
-- uncontrolled on-site system integration.
+## EXP-003 status
 
-## Promotion decision
+`EXP-003: Xuzhou managed SME micro-projects` remains useful as a cheap vertical paid test, but it is **not evidence that the overall engine should prioritize enterprises**.
 
-Create EXP-003 as a **payer-first paid validation** of XZ-001.
+It may run in parallel with the broader actor-first rescan if doing so does not consume substantial capital or distort research priorities.
 
-Success is not account registrations or survey enthusiasm. Success is at least one real paid micro-project with bounded scope, accepted delivery, and positive contribution margin.
+## Current decision
+
+**No overall #1 opportunity is declared until the actor-first Xuzhou rescan is complete.**
