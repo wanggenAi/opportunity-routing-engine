@@ -1,126 +1,211 @@
-# Architecture — Validation First
+# Architecture — Opportunity Routing Engine
 
-## Stage 0: research workflow
+## 1. System objective
 
-```text
-Sources
-  ├─ Current RFQs
-  ├─ Import/shipment evidence
-  ├─ Company websites
-  ├─ Search engines
-  ├─ Public business directories
-  └─ Public professional/business profiles
-        ↓
-Collection
-        ↓
-Normalization
-        ↓
-Deduplication
-        ↓
-Buyer / demand verification
-        ↓
-Contactability hard gate
-        ↓
-Opportunity scoring
-        ↓
-Supplier capability matching
-        ↓
-Human review
-```
+Build a reusable engine that converts social/market change into falsifiable commercial opportunity hypotheses and, when evidence is sufficient, routes those opportunities toward real capabilities and transactions.
 
-## Stage 1: qualified opportunity workflow
+The architecture must remain domain-agnostic. Cross-border B2B is one vertical, not the system boundary.
+
+## 2. Canonical pipeline
 
 ```text
-A-grade buyer
-   ↓
-Written outreach
-   ↓
-Buyer interest / requirement clarification
-   ↓
-Supplier shortlist
-   ↓
-Supplier authorization
-   ↓
-Factory capability confirmation
-   ↓
-Quotation / sample / meeting
-   ↓
-Deal facilitation
+SIGNAL SOURCES
+  ├─ macro / policy / prices
+  ├─ search behavior
+  ├─ social complaints / workarounds
+  ├─ marketplaces / service tasks
+  ├─ hiring / labor demand
+  ├─ procurement / tenders / RFQs
+  ├─ company actions / budgets
+  ├─ product / service prices
+  ├─ second-hand / idle assets
+  └─ public transaction evidence
+        ↓
+INGEST / OBSERVE
+        ↓
+NORMALIZE / DEDUPE
+        ↓
+TREND & FRICTION DETECTION
+        ↓
+DEMAND HYPOTHESIS
+        ↓
+BEHAVIOR / PAYMENT EVIDENCE
+        ↓
+EXISTING SOLUTION ANALYSIS
+        ↓
+CAPABILITY DISCOVERY
+        ↓
+TRANSACTION DESIGN
+        ↓
+OPPORTUNITY SCORING
+        ↓
+HUMAN REVIEW
+        ↓
+SMALL REAL-WORLD TEST
+        ↓
+OUTCOME CAPTURE
+        ↓
+LEARNING / MODEL UPDATE
 ```
 
-## Stage 2: future automation modules
+## 3. Core entities
 
-Only build when evidence justifies them.
+### `Signal`
+A raw observable: price movement, complaint, job opening, tender, purchase request, search trend, policy, new workaround, repeated task, idle resource, etc.
 
-### `collectors`
-Source-specific ingestion using APIs, feeds, exports, saved-search notifications, or permitted public-page retrieval.
+### `DemandHypothesis`
+A structured claim that a defined group has a recurring problem and an identifiable party may pay to solve it.
 
-### `normalizers`
-Convert raw source records into a canonical opportunity schema.
+### `Payer`
+The person or organization expected to provide money or other economically meaningful consideration.
 
-### `verification`
-Company identity, demand recency, import evidence, contact-route validation, contradiction checks.
+### `Capability`
+A person, company, product, software system, AI model, machine, asset, inventory, dataset, institution, or combination capable of satisfying the demand.
 
-### `scoring`
-Deterministic score inputs + AI-assisted classification with evidence references.
+### `TransactionDesign`
+The proposed commercial structure: scope, payer, provider, price logic, delivery, acceptance, risk allocation, and legal/compliance boundaries.
 
-### `supplier_graph`
-Xuzhou supplier capabilities, product/process/MOQ/export-market metadata, evidence timestamps.
+### `Opportunity`
+A demand hypothesis that has passed sufficient evidence gates to justify transaction testing.
 
-### `matching`
-Buyer requirement ↔ supplier capability ranking.
+### `Experiment`
+A bounded test intended to falsify or validate one commercial assumption.
 
-### `outreach`
-Human-approved written outreach drafts, reply classification, follow-up suggestions.
+### `Outcome`
+Observed result: no response, rejection reason, paid pilot, transaction, repeat purchase, margin, delivery failure, etc.
 
-### `crm`
-Opportunity lifecycle, activity history, evidence, supplier/buyer relationship state.
-
-## Canonical opportunity lifecycle
+## 4. Opportunity lifecycle
 
 ```text
-RAW
-→ NORMALIZED
-→ VERIFIED_BUYER
-→ CONTACTABLE
-→ QUALIFIED
-→ SUPPLIER_MATCHED
-→ OUTREACH_READY
-→ CONTACTED
-→ RESPONDED
-→ REQUIREMENT_CONFIRMED
-→ SUPPLIER_AUTHORIZED
-→ QUOTED
-→ SAMPLE_OR_MEETING
-→ NEGOTIATION
-→ WON / LOST / DORMANT
+SIGNAL
+→ HYPOTHESIS
+→ EVIDENCED
+→ TRANSACTION_DESIGNED
+→ TEST_READY
+→ TRANSACTION_TEST
+→ VALIDATED / REJECTED / DORMANT
+→ REPEATABLE
+→ SCALE_CANDIDATE
 ```
 
-No stage may be skipped by assumption.
+No lifecycle transition may be made solely because an LLM expresses confidence.
 
-## Core data principle
+## 5. Capability routing
 
-Every important assertion should retain:
+The engine should not assume the solution is another business or supplier.
 
-- value;
-- evidence/source;
-- observed_at / source_date where available;
-- verification status;
-- confidence or contradiction state.
+Possible routes:
 
-This is more important than model sophistication.
+```text
+Demand
+  ├─ AI can solve directly
+  ├─ operator can solve
+  ├─ freelancer / student / specialist can solve
+  ├─ company / manufacturer can solve
+  ├─ software / product can solve
+  ├─ idle asset / inventory can solve
+  └─ composite route: AI + human + company + asset
+```
 
-## Human-in-the-loop boundaries
+Routing should optimize for transaction success, quality, risk, speed, and economics rather than simply lowest price.
 
-Human approval remains mandatory before:
+## 6. Opportunity score inputs
 
-- representing a supplier;
-- sending product-specific claims not already public/authorized;
-- submitting a quotation;
-- making commitments on price, MOQ, lead time, certification, logistics, payment, or contract terms;
-- escalating to sensitive/personal contact methods;
-- changing commercial relationship status to WON.
+The scoring layer should consume explicit evidence for:
 
-## Engineering principle
+- pain severity;
+- frequency / market density;
+- payer clarity;
+- observed payment behavior;
+- supply availability;
+- current solution weakness;
+- transaction simplicity;
+- acquisition feasibility;
+- delivery controllability;
+- gross-margin potential;
+- time-to-first-cash;
+- regulatory / safety risk;
+- defensibility / learning value;
+- fit with available operator capabilities.
 
-Start with reproducible spreadsheets/CSV/JSON and scripts. Introduce databases, queues, agents, scheduled jobs, and dashboards only when the experiment volume requires them.
+A detailed rubric lives in `docs/OPPORTUNITY_SCORECARD.md`.
+
+## 7. Evidence model
+
+Every important assertion should retain, where applicable:
+
+- `value`;
+- `source` / provenance;
+- `observed_at`;
+- `source_date`;
+- `entity/group` affected;
+- `verification_status`;
+- `confidence`;
+- `contradictions`;
+- `notes`.
+
+Derived conclusions must be traceable back to source evidence.
+
+## 8. Human-in-the-loop boundaries
+
+Human review is required before:
+
+- declaring a commercial opportunity validated;
+- contacting real people/organizations where outreach is not already explicitly requested by the user/operator;
+- making commercial representations or commitments;
+- pricing high-risk or ambiguous work;
+- handling regulated labor, financial, medical, legal, safety-sensitive, or licensed activities;
+- moving from a hypothesis to significant capital expenditure;
+- representing third parties without authority.
+
+## 9. Automation principle
+
+Automate repeated bottlenecks, not imagined future volume.
+
+Recommended maturity path:
+
+```text
+manual spreadsheet / structured notes
+→ repeatable evidence schema
+→ scripts
+→ scheduled collection
+→ ranking / alerts
+→ capability graph
+→ workflow orchestration
+→ marketplace/platform only after transaction density
+```
+
+## 10. Initial future modules
+
+### `signals`
+Permitted ingestion of macro, behavioral, marketplace, procurement, hiring, price, and public commercial evidence.
+
+### `trend_detection`
+Detect sustained changes, emerging clusters, anomalies, and demand migration.
+
+### `demand_analysis`
+Convert raw signals into explicit user/problem/payer hypotheses.
+
+### `evidence`
+Validate payment behavior, existing alternatives, frequency, and contradictions.
+
+### `capability_graph`
+Represent capabilities, proof, geography, cost, availability, reliability, and prior outcomes.
+
+### `routing`
+Rank candidate solutions/capabilities for a demand.
+
+### `transaction_design`
+Generate bounded commercial test structures with clear deliverables and acceptance conditions.
+
+### `experiments`
+Manage falsifiable tests, metrics, stop rules, and outcomes.
+
+### `learning`
+Update priors and scoring based on real transaction outcomes.
+
+## 11. Engineering rule
+
+The system is not successful when it produces more ideas.
+
+It is successful when it improves the rate at which we identify opportunities that survive **real payment, delivery, and repeatability tests**.
