@@ -1,192 +1,245 @@
 # AGENTS.md
 
-Instructions for AI agents, coding assistants, and human contributors working in this repository.
+Instructions for AI agents, coding assistants and human contributors working in this repository.
 
 ## Prime directive
 
-The objective is to build a truthful, evidence-driven **actor-first social demand and capability routing system** that can repeatedly:
+The repository builds a truthful, evidence-driven **Actor-First Resource Orchestration Engine**.
 
-1. observe social/market change;
-2. identify the specific actors/groups affected;
-3. detect unmet or migrating needs;
-4. separate need actor, beneficiary and payer;
-5. identify real payment/workaround behavior;
-6. discover capabilities/resources that can solve the need;
-7. design a bounded transaction;
-8. test it cheaply;
-9. learn from real outcomes.
+Its purpose is to repeatedly:
 
-Do not optimize for code volume, idea count, enterprise use cases, or impressive narratives. Optimize for **commercial truth**.
+1. observe real-world change and friction;
+2. identify the desired outcome and payer;
+3. convert ambiguous demand into a bounded transaction objective;
+4. decompose that objective into `CapabilityUnit`s;
+5. route capability units to suitable people, organizations, AI, assets, venues, channels or other resources;
+6. define incentives, interfaces, trust and acceptance criteria;
+7. execute, accept and settle the transaction;
+8. record outcomes, reliability, economics and replacement behavior;
+9. improve future routing;
+10. automate only repeated proven bottlenecks.
+
+Strategic kernel: `docs/RESOURCE_ORCHESTRATION_KERNEL.md`.
+
+Optimize for **commercial truth + completed accepted outcomes + delegatability + orchestration economics**, not code volume, founder activity, idea count or narrative appeal.
 
 ## Source of truth
 
 Before changing business logic, read:
 
-1. `docs/FORMAL_TRUTH.md`
-2. `docs/ACTOR_MODEL.md`
-3. `docs/METHODOLOGY.md`
-4. `docs/OPPORTUNITY_SCORECARD.md`
-5. `docs/ARCHITECTURE.md`
-6. the relevant `docs/EXPERIMENT_*.md`
+1. `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
+2. `docs/FORMAL_TRUTH.md`
+3. `docs/ACTOR_MODEL.md`
+4. `docs/METHODOLOGY.md`
+5. `docs/OPPORTUNITY_SCORECARD.md`
+6. `docs/ARCHITECTURE.md`
+7. relevant `docs/EXPERIMENT_*.md`
 
-When evidence changes a major assumption, update `docs/FORMAL_TRUTH.md` in the same change.
+When a major assumption changes, update `docs/FORMAL_TRUTH.md` in the same change.
 
 ## Non-negotiable truth rules
 
-- Never fabricate actors, needs, payment, pricing, transactions, contacts, capabilities, market or outcome data.
-- `UNKNOWN` / missing is never equivalent to pass.
-- A complaint is not proof of demand.
-- A need actor is not automatically the payer.
-- The beneficiary is not automatically the payer.
-- A trend is not proof of willingness to pay.
-- Market size is not proof that we can acquire a user/payer.
-- One paid transaction validates possibility, not repeatability.
-- LLM confidence is not commercial evidence.
-- Keep provenance and timestamps wherever practical.
-- Preserve contradictions rather than smoothing them away.
+- Never fabricate actors, needs, payments, prices, contacts, capabilities, transactions or outcomes.
+- `UNKNOWN != PASS`.
+- Complaint != demand.
+- Demand != willingness to pay.
+- Beneficiary != payer by default.
+- Trend != business.
+- Introduction != orchestration value.
+- Founder free labor != profit.
+- One transaction != repeatability.
+- LLM confidence != commercial evidence.
+- Preserve provenance, dates and contradictions.
+- Subsidized/officially promoted success must be separated from independent payer evidence.
 
-## Actor-first requirement
+## Canonical actor roles
 
-For every serious opportunity explicitly map:
-
+Map where relevant:
 - `NEED_ACTOR`
 - `BENEFICIARY`
 - `PAYER`
+- `SPONSOR`
+- `RESOURCE_OWNER`
 - `CAPABILITY_PROVIDER`
-- `RESOURCE_OWNER` where relevant
-- `SPONSOR` where relevant
 - `ORCHESTRATOR`
 
-Do not default to enterprises as the payer or solution provider.
+An actor may hold several roles. The operator is not automatically the capability provider.
 
-Candidate structures may be:
+## Capability-first execution
 
-- `B2B`
-- `B2C`
-- `C2C`
-- `C2B`
-- `SPONSORED / THIRD-PARTY-PAYER`
-- `MULTI-SIDED`
+The atomic execution unit is a `CapabilityUnit`, not a person.
 
-A broad social scan is considered biased if it repeatedly collapses back into enterprise problems without comparative evidence.
+Every recurring task should, where feasible, define:
 
-## Evidence hierarchy
+```text
+purpose
+input
+required output
+acceptance criteria
+provider class
+proof required
+price model
+payout condition
+deadline / SLA
+dependencies
+trust / safety requirements
+replacement rule
+failure / refund rule
+```
 
-Prefer direct behavioral evidence over narrative evidence.
+Candidate capabilities include:
+- demand scouting;
+- lead qualification;
+- sales / BD;
+- participant/user recruitment;
+- requirements discovery;
+- research;
+- development;
+- design;
+- translation;
+- venue/asset provision;
+- logistics;
+- delivery;
+- hosting;
+- verification;
+- QA;
+- support;
+- settlement administration.
 
-Strong examples include:
+**Sales, acquisition and delivery are routable capabilities. Do not silently assign them to the operator.**
 
-- real individual/household purchases;
-- bookings, subscriptions and paid convenience services;
-- paid substitutes;
-- rental/repair/second-hand transactions;
-- marketplace/gig tasks;
-- family members paying for another person's outcome;
-- procurement/RFQ/tender activity;
-- hiring specifically to solve the problem;
-- explicit budgets;
-- costly manual/family workarounds;
-- repeat transactions.
+## Delegation-first rule
 
-Weaker evidence requiring corroboration:
+For every execution task ask:
 
-- complaints;
-- social discussion;
-- survey answers;
-- search volume;
-- macro indicators;
-- expert predictions.
+```text
+Can this be eliminated?
+Can it be automated safely?
+Can it be delegated as a bounded capability unit?
+Only if not, should the operator perform it temporarily?
+```
+
+If the operator performs a task temporarily, record:
+- why delegation was not yet feasible;
+- time spent;
+- replacement plan;
+- `operator_shadow_cost`.
+
+Repeated founder dependence is a bottleneck, not evidence of product-market fit.
+
+## Operator kernel
+
+The initial operator should preferentially retain:
+- opportunity judgment;
+- transaction architecture;
+- capability decomposition;
+- interface/acceptance definition;
+- incentive design;
+- routing approval;
+- trust/risk boundaries;
+- exception arbitration;
+- outcome learning.
+
+Everything else should be tested for delegation or automation.
 
 ## Opportunity gates
 
-Before expensive build-out require evidence for:
+Before serious promotion, answer:
+- `G0 ACTOR_ROLE_CLARITY`
+- `G1 PAYER_CLARITY`
+- `G2 TRANSACTIONABILITY`
+- `G3 LEGAL_TRUST_SAFETY`
+- `G4 CAPABILITY_DECOMPOSABILITY / DELEGATABILITY`
+- `G5 ORCHESTRATION_VALUE`
 
-- `PAIN`
-- `FREQUENCY`
-- `PAYER_CLARITY`
-- `PAYMENT_EVIDENCE`
-- `SUPPLY`
-- `TRANSACTIONABILITY`
-- `DEFENSIBILITY`
+G4/G5 may be the explicit unknown in an early experiment, but must pass before a candidate becomes `REPEATABLE` / `SCALE_CANDIDATE`.
 
-`PAYER_CLARITY`, `PAYMENT_EVIDENCE` and `TRANSACTIONABILITY` are hard gates.
+## Economic truth
 
-## Development approach
+Always distinguish:
 
-1. Define the actor/group.
-2. Define the social/market change affecting that actor.
-3. Observe changed behavior and friction.
-4. Form a falsifiable need hypothesis.
-5. Identify beneficiary and alternative payer candidates.
-6. Collect real behavioral/payment evidence.
-7. Map current workarounds and why they are insufficient.
-8. Identify possible capabilities/resources.
-9. Compare transaction structures.
-10. Define the smallest real test.
-11. Set success/failure/stop rules.
-12. Run the test and record outcomes.
-13. Automate only repeated bottlenecks.
+```text
+cash contribution margin
+vs
+normalized orchestration margin after operator shadow labor
+```
 
-## Capability routing rules
+A transaction supported by unpaid founder sales, delivery or QA is not proven economically repeatable.
 
-Do not assume every problem requires a company or supplier. Candidate solutions may be:
+Early experiments may intentionally buy learning at low/negative normalized margin, but this must be explicit.
 
-- AI;
-- the operator;
-- another individual;
-- student/freelancer/specialist where lawful;
-- skilled worker/local helper;
-- company/manufacturer;
-- software/product;
-- equipment/inventory/vehicle/space/assets;
-- institution;
-- a composite of multiple capabilities.
+## Orchestration value test
+
+Do not defend a model whose only value is exchanging contacts.
+
+Orchestration should create recurring value through one or more of:
+- requirement clarification;
+- task decomposition;
+- provider qualification;
+- trust;
+- dependency management;
+- QA/acceptance;
+- replacement;
+- settlement;
+- outcome accountability;
+- accumulated routing/reliability data.
+
+If buyer/provider bypass destroys most value after one introduction, downgrade the opportunity.
+
+## Safety and regulated work
 
 Do not route regulated or safety-sensitive work to unqualified providers.
 
-## Vulnerable / high-trust groups
+Children, elderly/vulnerable people, home access, transport, medical, legal, financial, employment-placement and other high-trust activities require elevated legal/trust/safety review.
 
-Opportunities involving children, elderly people, medical issues, financial matters, intimate personal data, transport/safety or home access require elevated trust and compliance review.
-
-Commercial attractiveness never overrides safety or legal requirements.
+Commercial attractiveness never overrides safety or law.
 
 ## Platform discipline
 
-Do **not** build a broad marketplace merely because the conceptual model supports one.
+Do not build a broad marketplace because the conceptual model supports one.
 
 Required maturity path:
 
 ```text
-manual actor research
-→ real bounded transactions
-→ repeated transaction pattern
-→ stable need template
-→ stable payer model
-→ stable capability template
-→ measurable routing/trust advantage
+real payer
+→ bounded transaction
+→ capability decomposition
+→ manual resource routing
+→ accepted delivery
+→ settlement
+→ delegated acquisition + delegated delivery
+→ repeated template
+→ provider replacement works
+→ normalized positive economics
+→ recurring bottleneck identified
 → automation
-→ platform only after sufficient density
+→ platform/network product only if density justifies it
 ```
 
-## Code principles
+## Development principles
 
-- Small modules, explicit schemas, deterministic validation where possible.
-- AI classifications must expose evidence/input and remain reviewable.
-- Separate raw signals from actors and derived hypotheses.
-- Separate need actor from payer.
-- Separate evidence from score.
-- Separate opportunity score from business decision.
-- Tests must protect truth gates and lifecycle transitions.
-- Never commit secrets, credentials, prohibited personal data, or paid datasets without storage rights.
+- Small explicit schemas; deterministic validation where possible.
+- Separate raw evidence from derived claims.
+- Separate actors from roles.
+- Separate people/resources from capabilities.
+- Separate capability claims from capability proof.
+- Separate score from decision.
+- Separate cash margin from normalized margin.
+- AI classifications must expose evidence and remain reviewable.
+- Tests should protect truth gates and lifecycle transitions.
+- Never commit secrets or unnecessary private/sensitive data.
 
 ## Success definition
 
-The repository is succeeding only if the process increasingly identifies opportunities that lead to:
-
-- real actor engagement;
-- real payer engagement;
-- paid pilots/transactions;
-- completed delivery;
-- acceptable margins;
+The repository succeeds when it increasingly produces transactions with:
+- real payer commitment;
+- clear capability decomposition;
+- routed acquisition/delivery rather than founder dependence;
+- accepted output;
+- settlement;
+- measurable normalized economics;
 - repeat/referral;
-- proprietary learning that improves future actor/capability routing.
+- replaceable capability providers;
+- proprietary outcome/reliability learning that improves future orchestration.
+
+**The engine must win through architecture and routing, not through the operator personally doing everything.**
