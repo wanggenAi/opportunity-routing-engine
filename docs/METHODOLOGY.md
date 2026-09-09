@@ -311,7 +311,78 @@ For each cluster ask:
 
 A complaint with no costly workaround and no payer remains `SIGNAL`.
 
-## 8. Opportunity anti-patterns
+## 8. Intervention contamination and counterfactual controls
+
+Successful cases can produce misleading commercial inference when an external intervention helped create the observed outcome.
+
+Common contaminating interventions include:
+- government subsidy;
+- public procurement;
+- official traffic / promotion;
+- platform subsidy;
+- free venue/resource support;
+- grant-funded programming;
+- unusually strong influencer exposure;
+- one-time festival/event traffic;
+- employer/institution mandates.
+
+Example failure mode:
+
+```text
+public program drives users into a merchant
+→ merchant revenue improves
+→ researcher observes success
+→ researcher incorrectly concludes merchant would pay an independent orchestrator for the same traffic
+```
+
+The observed success may prove:
+- the beneficiary values the outcome;
+- the capability works;
+- traffic can convert;
+- a sponsor can create value.
+
+It does **not** automatically prove:
+- who would pay without the intervention;
+- how much they would pay;
+- whether acquisition economics survive without subsidy;
+- whether the result generalizes to ordinary actors.
+
+### Required contamination record
+
+For any strong showcase case, record where relevant:
+
+```text
+intervention_present:
+intervention_type:
+who_funded_it:
+who_received_value:
+what would happen without it: UNKNOWN / EVIDENCED
+independent_payer_observed: YES / NO / UNKNOWN
+control_required: YES / NO
+```
+
+### Counterfactual-control rule
+
+When a promoted hypothesis depends heavily on a subsidized / officially promoted / unusually supported success case, compare it against at least one actor or transaction without the same support before generalizing the payer thesis.
+
+The control does not need to be a randomized experiment. Early-stage commercial controls may be:
+- similar merchant without official traffic;
+- similar household without subsidy;
+- normal buyer versus grant-funded buyer;
+- independent acquisition versus platform-subsidized acquisition;
+- ordinary period versus festival/event spike.
+
+The purpose is to answer:
+
+> **Is the payer mechanism intrinsic to the transaction, or are we observing the economics of the intervention?**
+
+Do not remove an opportunity because intervention exists. Instead separate:
+- `DEMAND EVIDENCE`;
+- `CAPABILITY EVIDENCE`;
+- `SPONSOR EVIDENCE`;
+- `INDEPENDENT PAYER EVIDENCE`.
+
+## 9. Opportunity anti-patterns
 
 Reject/downgrade ideas based mainly on:
 
@@ -320,6 +391,7 @@ Reject/downgrade ideas based mainly on:
 - assuming the sufferer must pay;
 - total market size without acquisition/payment evidence;
 - one viral post;
+- one subsidized showcase case generalized to an unsubsidized market;
 - pure contact forwarding;
 - unsafe/unlicensed labor, medical, financial or legal activity;
 - bespoke delivery that cannot be bounded;
@@ -327,7 +399,7 @@ Reject/downgrade ideas based mainly on:
 - heavy fixed cost before payer proof;
 - solving a loud complaint whose actors consistently refuse to pay and have no third-party payer.
 
-## 9. Operator role
+## 10. Operator role
 
 The operator is a **demand analyst + resource architect + transaction orchestrator**, not necessarily the provider.
 
@@ -339,13 +411,25 @@ Core functions:
 - define requirements;
 - discover underused capability/resources;
 - design transaction/trust structure;
+- identify intervention contamination;
 - route;
 - quality/risk gate;
 - learn from outcomes.
 
-Over time this should evolve into an **Actor Graph + Capability Graph + Opportunity Engine**, but only after real transactions justify automation.
+Over time the learning layer may evolve toward:
 
-## 10. Core maxim
+```text
+Actor Graph
++ Demand Graph
++ Capability Graph
++ Trust Graph
++ Transaction Graph
++ Outcome / Learning Graph
+```
+
+This is not authorization to build the graphs before real transaction density exists.
+
+## 11. Core maxim
 
 **Follow the shift, but validate with behavior and money.**
 
