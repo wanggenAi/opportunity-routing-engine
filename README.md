@@ -1,25 +1,30 @@
 # Opportunity Routing Engine
 
-A validation-first system for continuously discovering unmet demand created by social change, understanding the actors affected by that change, routing available capabilities/resources, and turning high-confidence mismatches into testable transactions.
+A validation-first **Actor-First Opportunity Routing Engine** for continuously discovering transaction-worthy imbalances created by social change, identifying the actors affected, routing available capabilities/resources, designing trust/transaction structures, and learning from real outcomes.
 
-> Observe society → identify changing actors → detect unmet needs → identify payer → route capabilities → test transactions → learn from outcomes.
+> Observe society → identify changing actors → detect friction → identify beneficiary/payer → route capability → design transaction → test with real money → learn.
 
 ## Mission
 
-Build a repeatable **social demand discovery and capability routing engine** that adapts as society, technology, demographics, policy, employment, consumption, family structure, lifestyles, and business behavior change.
+Build a reusable system that answers two questions increasingly well:
+
+> **Where is society currently forming a new tradable imbalance?**
+
+and
+
+> **How can we validate that imbalance as a real transaction as quickly and cheaply as possible?**
 
 The project does **not** assume one industry, one customer type, one geography, one payer, or one business model.
 
 The first question is not “which company has a problem?”
 
-The first question is:
+It is:
 
 > **Which actor or group is changing, what new friction is appearing, and who has enough incentive to pay for a better outcome?**
 
 ## Actor-first principle
 
 An `Actor` may be:
-
 - an individual consumer;
 - a student or graduate;
 - an unemployed or flexibly employed worker;
@@ -31,170 +36,231 @@ An `Actor` may be:
 - a small merchant or self-employed operator;
 - an enterprise, manufacturer, institution, school, community, or government body;
 - an overseas person or organization;
-- a holder of idle time, skill, equipment, inventory, space, data, or other resources.
+- a holder of idle time, skill, equipment, inventory, space, data, access or other resources.
 
 The actor experiencing the problem does **not** have to be the payer.
 
-A transaction may contain distinct roles:
-
-- `NEED_ACTOR` — experiences the need/friction;
+Every serious transaction should distinguish:
+- `NEED_ACTOR` — experiences the friction;
 - `BENEFICIARY` — receives the outcome;
-- `PAYER` — provides money or economically meaningful consideration;
+- `PAYER` — provides money/economic consideration;
 - `CAPABILITY_PROVIDER` — supplies skill/resource/service/product;
-- `ORCHESTRATOR` — defines, routes, coordinates, verifies, and learns from the transaction.
+- `RESOURCE_OWNER` — controls relevant time, space, equipment, inventory, data, access or other resource;
+- `SPONSOR` — pays because another actor's outcome creates value for them;
+- `ORCHESTRATOR` — defines, routes, coordinates, verifies, closes and learns from the transaction.
 
 Example:
 
 ```text
-Elderly person has digital-service friction
+elderly person has a need
         ↓
-Adult child wants the problem solved
+adult child values the outcome
         ↓
-Student/local helper provides bounded assistance
+qualified provider supplies capability
         ↓
-Adult child pays
+adult child pays
         ↓
-Engine defines scope, trust, routing, evidence and acceptance
+engine defines scope, trust, evidence and acceptance
 ```
 
-## Core thesis
-
-Social change continuously creates temporary imbalances:
-
-- a person/group develops a new need before supply adapts;
-- one group has idle capability while another has scarcity;
-- people still want the underlying outcome but reject the old price/format;
-- a household problem exists but the payer is a family member or institution;
-- supply exists but trust, discovery, coordination, geography, timing, or verification blocks exchange;
-- technology makes an old service cheaper enough to create a new transaction;
-- people complain because a new unmet need is emerging;
-- resources are idle in one place while valuable elsewhere.
-
-These imbalances are candidate opportunities, not automatically businesses.
-
-## Canonical loop
+## Canonical chain
 
 ```text
-SOCIAL / MARKET SIGNALS
-        ↓
-ACTOR & GROUP CHANGE DETECTION
-        ↓
-Behavior / complaint / workaround clustering
-        ↓
-Need hypothesis
-        ↓
-Beneficiary + payer identification
-        ↓
-Payment / costly-behavior evidence
-        ↓
-Existing solution analysis
-        ↓
-Capability / resource discovery
-        ↓
-Transaction design
-        ↓
-Opportunity scoring
-        ↓
-Small real-world validation
-        ↓
-Transaction / rejection
-        ↓
-Outcome learning
-        ↺
+ACTOR
+→ CHANGE
+→ BEHAVIOR
+→ FRICTION
+→ NEED
+→ BENEFICIARY
+→ PAYER
+→ CURRENT WORKAROUND
+→ CAPABILITY
+→ TRANSACTION DESIGN
+→ REAL-WORLD TEST
+→ OUTCOME
+→ LEARNING
 ```
 
-## The four operating verbs
+Operationally:
 
-### 1. Observe — 观势
-Detect structural change in people and organizations: consumption, employment, family structure, demographics, technology, regulation, prices, lifestyles, social behavior, supply chains, and coordination patterns.
+```text
+观势 → 察需 → 找能 → 成事 → 反馈学习
+```
 
-### 2. Detect — 察需
-Convert changed behavior, complaints, workarounds, purchases, searches, hiring, requests, repeated inconvenience, and resource idleness into explicit need hypotheses.
+Trends tell us where to look. Behavior and money tell us whether the hypothesis is right.
 
-### 3. Route — 找能
-Find what can solve the requirement: another person, a group, company, AI, software, product, specialist, manufacturer, physical asset, institution, or combination.
+## What we scan for — transaction gaps
 
-### 4. Transact — 成事
-Turn the route into a bounded, priced, deliverable, verifiable transaction. A contact introduction alone is not sufficient value.
+Canonical gap ontology:
+
+1. `DEMAND_GAP`
+2. `CAPABILITY_GAP`
+3. `PRICE_GAP`
+4. `TRUST_GAP`
+5. `INFORMATION_GAP`
+6. `GEOGRAPHY_GAP`
+7. `TIME_GAP`
+8. `COORDINATION_GAP`
+9. `PAYER_SHIFT`
+10. `TECHNOLOGY_SHIFT`
+
+See `docs/THESIS_TRANSACTION_GAPS.md`.
+
+A gap is not automatically a business. It matters only if a real payer will exchange economic value to reduce it.
 
 ## Market structures supported
 
-The engine must be able to discover and compare:
-
-- `B2B` — organization ↔ organization/capability;
-- `B2C` — organization/capability → individual;
-- `C2C` — individual/resource ↔ individual need;
-- `C2B` — individual capability/resource → organization;
-- `SPONSORED` — beneficiary uses, another actor pays;
-- `MULTI_SIDED` — multiple actors jointly create the transaction.
+The engine must compare:
+- `B2B`;
+- `B2C`;
+- `C2C`;
+- `C2B`;
+- `SPONSORED / THIRD-PARTY-PAYER`;
+- `MULTI_SIDED`.
 
 No structure receives priority merely because its payer is easier to observe.
 
-## Hard commercial rule
+## Hard commercial discipline
 
-**Complaint ≠ demand. Need ≠ payer. Demand ≠ business.**
+```text
+Complaint != Demand
+Demand != Willingness to Pay
+Trend != Business
+Market Size != Customer Acquisition
+LLM Confidence != Commercial Evidence
+UNKNOWN != PASS
+```
 
-A candidate opportunity should not be promoted without evidence for:
+Prefer evidence such as:
+- completed purchases / paid services;
+- deposits / bookings / repeat purchases;
+- current substitute spending;
+- recruitment / procurement / RFQ / tender activity;
+- merchant subsidies or spend for traffic/conversion;
+- family/institution payment for another beneficiary;
+- costly manual workarounds;
+- repeated relisting/repricing / failed transactions;
+- repeat/referral.
 
-1. `PAIN` — the problem is real and sufficiently costly;
-2. `FREQUENCY` — it repeats or affects enough transactions;
-3. `PAYER` — someone has incentive and ability to pay;
-4. `PAYMENT` — material payment/workaround behavior exists;
-5. `SUPPLY` — viable capability/resource can solve it;
-6. `TRANSACTIONABILITY` — scope, price, delivery, trust and acceptance can be defined;
-7. `DEFENSIBILITY` — repeated execution can create proprietary learning, network, data or process advantage.
+Macro data, searches, complaints and social discussion generate hypotheses. They do not independently validate a business.
+
+## Opportunity scoring
+
+Use `docs/OPPORTUNITY_SCORECARD.md` exactly.
+
+Hard gates include:
+- actor/role clarity;
+- payer clarity;
+- transactionability;
+- legal/trust/safety feasibility.
+
+A high weighted score cannot override an `UNKNOWN` or failed hard gate.
+
+## Field laboratory — Xuzhou
+
+Xuzhou is the first field laboratory because online evidence can be converted into in-person falsification quickly.
+
+Current scan source:
+- `docs/research/XUZHOU_ACTOR_FIRST_SCAN_V2_2026-09-10.md`
+
+It contains **38 distinct friction records** across youth, students/graduates, workers, households, pet owners, merchants, institutions, asset owners and enterprises.
+
+Current ranking:
+- `docs/results/EXP_002_XUZHOU_ACTOR_FIRST_RANKING_V2_2026-09-10.md`
+
+Current field sequence:
+
+```text
+1. EXP-006 — youth micro-experience payer commitment
+2. EXP-007 — skills-to-income payer discovery
+3. EXP-003 — bounded SME micro-project paid validation
+4. EXP-004 — pet trust/home-access gate resolution
+```
+
+`EXP-001` and broad `EXP-005` are currently dormant/secondary verticals.
+
+No current vertical is commercially validated.
+
+## Field rule
+
+Do not go out to “ask around.”
+
+Before every field visit define:
+
+```text
+Hypothesis:
+Critical UNKNOWN:
+Who to interview:
+Where to find them:
+5–8 questions:
+PASS:
+FAIL:
+Evidence to record:
+Next action:
+```
+
+Use `docs/FIELD_VALIDATION_PLAYBOOK_XUZHOU.md`.
+
+A friendly statement is weak evidence. A real refusal at a real price is useful evidence. A deposit is stronger. Completed payment + accepted delivery + repeat/referral is strongest.
 
 ## Evidence before automation
 
-Do not build a broad marketplace before repeated transaction evidence exists.
-
 ```text
-observe actors
-→ identify real need
-→ locate payer
-→ run bounded transaction
-→ record outcome
-→ repeat
-→ build capability graph
-→ automate repeated routing
-→ platform only after density exists
+observe
+→ hypothesis
+→ evidence
+→ payer commitment
+→ first paid transaction
+→ repeat manually
+→ identify recurring bottleneck
+→ automate that bottleneck
 ```
 
-## Initial actor domains
+Do **not**:
 
-The first scans should deliberately include both individuals and organizations:
+```text
+build platform
+→ then search for users
+```
 
-- university students / graduates;
-- young workers / flexible workers;
-- single and renting young adults;
-- parents / households;
-- elderly people / caregivers / adult children;
-- pet owners;
-- skilled workers / farmers / local service workers;
-- value-conscious consumers;
-- small merchants / self-employed operators;
-- SMEs / manufacturers;
-- institutions / communities;
-- overseas actors with China-related needs;
-- holders of idle skill, time, equipment, inventory or space.
+## Long-run learning architecture
 
-The previous **Xuzhou overseas buyer ↔ manufacturer** thesis remains one vertical experiment only.
+If transaction density eventually justifies software, the learning layer should evolve toward six linked graphs:
+
+```text
+Actor Graph
+Demand Graph
+Capability Graph
+Trust Graph
+Transaction Graph
+Outcome / Learning Graph
+```
+
+See `docs/ARCHITECTURE.md`.
+
+This is a future architecture, not a current build mandate.
 
 ## Repository layout
 
-- `docs/FORMAL_TRUTH.md` — current proven facts, hypotheses, unknowns, and decisions
+- `docs/FORMAL_TRUTH.md` — current commercial truth, unknowns, decisions and rejections
 - `docs/ACTOR_MODEL.md` — canonical actor/role model
 - `docs/METHODOLOGY.md` — opportunity-discovery methodology
-- `docs/OPPORTUNITY_SCORECARD.md` — canonical opportunity scoring/gates
-- `docs/ARCHITECTURE.md` — system architecture and lifecycle
+- `docs/THESIS_TRANSACTION_GAPS.md` — canonical gap ontology
+- `docs/OPPORTUNITY_SCORECARD.md` — scoring, gates and penalties
+- `docs/ARCHITECTURE.md` — lifecycle and long-run graph architecture
+- `docs/FIELD_VALIDATION_PLAYBOOK_XUZHOU.md` — field evidence discipline
 - `docs/EXPERIMENT_*.md` — falsifiable commercial experiments
+- `docs/research/` — evidence-backed research pools
+- `docs/results/` — ranked / superseded result snapshots
 - `prompts/` — versioned analysis/extraction/routing prompts
-- `data/` — schemas, observations, experiments
-- `src/` — code only after repeated bottlenecks justify automation
-- `tests/` — truth gates, evidence, scoring, lifecycle tests
+- `data/` — structured observations when justified
+- `src/` — code only when repeated bottlenecks justify automation
+- `tests/` — truth gates, evidence, scoring and lifecycle tests
 
 ## Current phase
 
-**Phase 0 — Validate the actor-first opportunity-discovery method itself.**
+**Phase 0 — Prove the discovery-and-validation method through real commitments and transactions.**
 
-The immediate objective is not to prove one grand business idea. It is to test whether this framework can repeatedly identify opportunities across real people, groups, households, enterprises and institutions that survive payment and transaction validation.
+Success is not “we found many ideas” or “the software runs.”
+
+Success is that the system repeatedly finds actor-specific transaction structures that survive real payer commitment, delivery, economics and repetition.
