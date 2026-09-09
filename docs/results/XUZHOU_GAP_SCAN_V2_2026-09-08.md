@@ -1,197 +1,135 @@
 # Xuzhou Transaction Gap Scan V2 — 2026-09-08
 
-Status: `PRELIMINARY / EVIDENCE-BACKED / FIELD VALIDATION REQUIRED`
+Status: `SUPERSEDED / HISTORICAL SNAPSHOT`
 
-This scan supplements the actor-first ranking by classifying opportunities through four gap types:
+Original date: 2026-09-08
+Superseded: 2026-09-10
 
-- demand gap;
-- capability gap;
-- price/economic gap;
-- trust gap.
+This file records an important intermediate step in the Actor-First Opportunity Routing Engine, but its taxonomy, experiment numbering and priority ranking are no longer current.
 
-It also tests payer-shift / sponsor structures.
+Use these current sources instead:
+- `docs/THESIS_TRANSACTION_GAPS.md`
+- `docs/research/XUZHOU_ACTOR_FIRST_SCAN_V2_2026-09-10.md`
+- `docs/results/EXP_002_XUZHOU_ACTOR_FIRST_RANKING_V2_2026-09-10.md`
+- `docs/FORMAL_TRUTH.md`
 
-## 1. Strong current signals
+## What this snapshot contributed
 
-### A. Pet economy + trust gap
+This 2026-09-08 scan established several durable ideas:
 
-Xuzhou is explicitly supporting pet-economy consumption, and current public reporting shows a large local pet base and rapid growth in pet-service infrastructure. National reporting on paid at-home pet feeding shows strong demand but repeated problems around privacy, home access, service standards and liability.
+1. Demand and supply can both exist while transactions still fail.
+2. `TRUST_GAP` can be commercially important.
+3. `PAYER_SHIFT` matters because need actor, beneficiary and payer may differ.
+4. Youth experiences may support venue-sponsored / blended economics.
+5. Trained capability may remain economically idle because the payer/routing/QA layer is missing.
+6. Elder services demonstrate real sponsored payer structures but also strong safety/regulatory constraints.
+7. Pure discovery/content is weak when incumbents already solve search.
+8. Every Xuzhou field visit should resolve one explicit unknown.
 
-Opportunity thesis:
+Those insights remain valid.
 
-```text
-Pet owner / payer
-→ needs temporary care
-→ provider supply already exists
-→ transaction blocked by TRUST
-→ orchestrator adds verification + checklist + evidence + history + exception rules
-```
+## Historical ranking at the time
 
-Decision: `FIELD TEST NOW` through EXP-004; no app build.
+The 2026-09-08 snapshot prioritized:
+1. trusted pet-care transaction layer;
+2. youth micro-experience + merchant sponsor;
+3. skills-to-income project conversion;
+4. SME bounded micro-projects;
+5. narrow elder-service navigation;
+6. visitor micro-experiences;
+7. verified second-hand / repair routing.
 
-## 2. Youth experience + venue-sponsored payer shift
+This ranking is **not current**.
 
-Xuzhou is actively building youth-economy and night-economy scenes. The local `night school + youth shop` model demonstrates that a merchant can receive measurable commercial value from youth activities; one published Xuzhou example reported roughly 30% store revenue growth over two months after hosting classes, while 12 linked youth-shop sites reached roughly 600 attendances.
+## Corrections made on 2026-09-10
 
-This creates two possible payer models:
+### 1. Gap ontology expanded
 
-### Direct participant payer
-```text
-Young person needs social / interest experience
-→ pays small ticket
-→ venue / instructor / organizer delivers
-```
+This file originally modeled four main gaps:
+- demand;
+- capability;
+- price;
+- trust;
 
-### Venue-sponsored / multi-sided payer
-```text
-Young person receives low-cost or free experience
-→ venue receives foot traffic + conversion
-→ venue pays / subsidizes organizer
-```
-
-The second structure may outperform pure ticketing if youth willingness to pay is weak but merchant traffic value is strong.
-
-Key unknowns:
-- participant willingness to pay at RMB 29 / 49 / 79;
-- merchant willingness to pay fixed sponsorship, minimum guarantee, or revenue share;
-- repeat conversion after an event;
-- whether public/free programs suppress private willingness to pay.
-
-Decision: `B: INVESTIGATE` with no-code event test.
-
-## 3. Skills-to-income capability gap
-
-Xuzhou's 2026 skills-night-school expansion provides unusually visible evidence of capability creation:
-- initial courses attracted 170+ participants;
-- later monthly plans reached 33 courses and 600+ planned learners;
-- training includes AI, AIGC, drones, repair, ecommerce, elder care, storage/organization and other practical skills;
-- youth flexible employment is already material in scale.
-
-Opportunity thesis:
+The canonical ontology now contains ten:
 
 ```text
-Learner / capability provider
-→ gains skill
-→ wants income / portfolio / first real task
-→ payer is elsewhere
-→ missing layer = project packaging + trust + QA + payer access
+DEMAND_GAP
+CAPABILITY_GAP
+PRICE_GAP
+TRUST_GAP
+INFORMATION_GAP
+GEOGRAPHY_GAP
+TIME_GAP
+COORDINATION_GAP
+PAYER_SHIFT
+TECHNOLOGY_SHIFT
 ```
 
-This is not a training business by default. The opportunity is potentially in converting trained but under-monetized capability into a defined result for a payer.
+See `docs/THESIS_TRANSACTION_GAPS.md`.
 
-Key risk: collapse into low-value recruitment/freelance marketplace.
+### 2. Graph architecture expanded
 
-Decision: keep as high-potential `CAPABILITY GAP`, but payer must be discovered per task class.
+This file proposed three graphs: Actor, Capability and Transaction Friction.
 
-## 4. Elder services + payer-shift evidence
-
-Xuzhou is expanding home/community elder-service infrastructure and explicitly plans further growth in home services, caregiver training and silver-economy services. Existing Xuzhou procurement has paid providers for home elder services; elsewhere in Jiangsu, 2026 reforms are increasingly using consumer vouchers and government purchasing to let older residents choose among providers.
-
-Actor structure:
+The current long-run architecture is six linked graphs:
 
 ```text
-Need actor / beneficiary: elderly person
-Payer candidates:
-- adult child
-- government / voucher
-- institution / community
-- elderly person directly
-Capability provider: qualified service organization / trained worker
+Actor Graph
+Demand Graph
+Capability Graph
+Trust Graph
+Transaction Graph
+Outcome / Learning Graph
 ```
 
-The commercial insight is payer separation, not an instruction to enter regulated care directly.
+See `docs/ARCHITECTURE.md`.
 
-Narrow low-risk opportunity candidates:
-- service navigation / comparison;
-- appointment / information coordination;
-- non-medical digital assistance;
-- routing to qualified providers;
-- family-facing evidence / status coordination where legally appropriate.
+### 3. Youth experiment ID corrected
 
-Decision: `WATCH / NARROW TEST ONLY`; broad care delivery remains high-risk.
+The historical text referred to the youth payer test as `EXP-005`.
 
-## 5. Night economy + experience demand gap
+Canonical mapping now is:
+- `EXP-005` = China–ASEAN SME AI microflows;
+- `EXP-006` = Xuzhou youth micro-experience payer structure.
 
-Xuzhou's 2026 night economy is strong:
-- the city reports thousands of food-service merchants participating in evening demand;
-- night tourism and major commercial districts are seeing high traffic;
-- outside-city consumption is a meaningful share of core commercial spending;
-- cultural, sports, market and youth scenes are being deliberately combined.
+### 4. Pet priority corrected
 
-Potential opportunity is not another restaurant-discovery app.
+The historical ranking put pet care first without applying the canonical scorecard's `-20` unresolved home-access / physical-safety trust penalty.
 
-More specific wedges:
-- micro-events using idle merchant space;
-- curated visitor micro-experiences;
-- local photographers / guides / makers routed to visitors;
-- merchant-sponsored youth community events;
-- real-time `what can I do tonight` bundles with transaction rather than content only.
+The current V2 ranking corrects that:
+- pet raw: 78;
+- penalty: -20;
+- current final: 58;
+- field status: trust-gate resolution, not immediate home-entry transaction.
 
-Incumbent discovery platforms are strong, so pure information aggregation is weak.
+### 5. New evidence changed the top ranking
 
-Decision: only pursue where `transaction + local execution + trust` adds value.
+By 2026-09-10, additional Xuzhou evidence showed measurable merchant-side outcomes from youth-space reuse, while training policy exposed an outcome-linked payer incentive for training institutions.
 
-## 6. Value-conscious consumption + price gap
-
-Xuzhou consumer activity remains strong overall, but policy-led trade-in demand demonstrates that consumers respond materially to effective price reduction and certainty. By late May, local trade-in subsidies had used about RMB 460 million and were reported to have driven roughly RMB 4.8 billion in consumption.
-
-This does not prove a generic discount business.
-
-The useful price-gap lens is:
-- repair vs replace;
-- rental vs ownership;
-- verified second-hand vs new;
-- shared use vs idle ownership;
-- AI/projectized service vs full-time labor;
-- off-peak capacity vs peak retail price.
-
-Decision: scan only for categories where cost reduction is structural and current incumbents remain weak.
-
-## 7. Revised cross-opportunity ranking
-
-This is not a full rescoring of every candidate; it is a gap-adjusted field priority ranking.
-
-| Priority | Opportunity | Primary gap | Payer model | Main unknown | Field decision |
-|---|---|---|---|---|---|
-| 1 | Trusted pet-care transaction layer | TRUST | individual pet owner | premium / booking fee enough to support coordination? | EXP-004 active |
-| 2 | Youth micro-experience + merchant sponsor | DEMAND + PAYER SHIFT | participant and/or venue | who pays more reliably? | prepare EXP-005 |
-| 3 | Skills-to-income project conversion | CAPABILITY | task-specific buyer | payer density + QA economics | continue discovery |
-| 4 | SME bounded micro-projects | PRICE + CAPABILITY | SME / merchant | real fixed-project willingness | EXP-003 active |
-| 5 | Narrow elder service navigation | TRUST + PAYER SHIFT | child / government / elder | low-risk unserved layer? | watch / interviews only |
-| 6 | Visitor micro-experience routing | DEMAND + TRUST | tourist | acquisition vs OTA/platform incumbents | watch |
-| 7 | Verified second-hand / repair routing | PRICE + TRUST | individual | incumbent advantage too strong? | watch |
-
-## 8. New system insight
-
-A useful opportunity engine needs at least three graphs:
+Current execution priority is therefore:
 
 ```text
-ACTOR GRAPH
-who has the need / benefit / money / resource
-
-CAPABILITY GRAPH
-who or what can solve it
-
-TRANSACTION FRICTION GRAPH
-what prevents the two sides from completing a transaction
+1. EXP-006 — youth micro-experience payer commitment
+2. EXP-007 — skills-to-income payer discovery
+3. EXP-003 — bounded SME micro-project
+4. EXP-004 — pet trust/home-access resolution
 ```
 
-The third graph is critical. Two-sided existence does not imply a market is functioning efficiently.
+## Historical field principle retained
 
-## 9. Field rule for Xuzhou
+Before any in-person visit, define:
 
-Before any in-person visit, define one unknown to resolve.
-
-Every field visit should record:
-- actor type;
-- exact hypothesis;
-- current workaround;
-- actual spend / economic cost;
-- trust blocker;
-- acceptable transaction structure;
-- payer identity;
-- price signal;
-- PASS / FAIL criterion;
-- next decision.
+```text
+Hypothesis:
+Critical UNKNOWN:
+Who to interview:
+Where to find them:
+Questions:
+PASS:
+FAIL:
+Evidence to record:
+Next action:
+```
 
 Do not collect interviews for their own sake.
