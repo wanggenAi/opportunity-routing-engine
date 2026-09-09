@@ -2,193 +2,237 @@
 
 ## Purpose
 
-Provide a common, evidence-backed way to compare opportunities across industries **and actor structures** without confusing trend excitement with commercial viability.
+Compare opportunities across actor structures using commercial truth **and strategic fit for a resource orchestration engine**.
 
-The score is a prioritization aid, not proof.
+A profitable founder-operated service can be commercially real yet strategically weak if it cannot be decomposed, delegated, replaced or governed economically.
 
-Read with `docs/ACTOR_MODEL.md`.
+Read with:
+- `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
+- `docs/ACTOR_MODEL.md`
 
 ## Hard gates
 
-Before an opportunity can enter `TRANSACTION_TEST`, all hard gates must be explicitly answered.
-
 ### G0 — Actor / role clarity
-- Who experiences the need?
-- Who receives the benefit?
-- Who pays?
-- Who/what provides capability?
-- Are any sponsor/resource-owner roles material?
+Answer:
+- who experiences the need?
+- who benefits?
+- who pays?
+- who sponsors, owns resources or provides capabilities?
+- what role does the orchestrator play?
 
 Result: `PASS / UNKNOWN / FAIL`
 
 ### G1 — Payer clarity
-- Who pays?
-- Why does this actor have incentive and ability to pay?
-- Is the payer the beneficiary, family, employer, supplier, institution, sponsor, platform, or another counterparty?
-- What evidence shows willingness or budget?
+Answer:
+- who pays?
+- why do they have incentive and ability to pay?
+- what real budget/payment/workaround evidence exists?
 
 Result: `PASS / UNKNOWN / FAIL`
 
 ### G2 — Transactionability
-- Can the desired outcome/scope be defined?
-- Can delivery be verified?
-- Can trust requirements be satisfied?
-- Can price logic be explained?
-- Can responsibilities be bounded?
+Answer:
+- can the desired outcome and scope be bounded?
+- can output be verified?
+- can price/payout logic be explained?
+- can responsibility/failure/refund conditions be bounded?
 
 Result: `PASS / UNKNOWN / FAIL`
 
 ### G3 — Legal / trust / safety feasibility
-- Can the proposed operator/provider lawfully perform or coordinate this work?
-- Does it involve children, elderly/vulnerable people, home access, transport, money, medical/legal issues, employment placement or other high-trust contexts?
-- Are licensing, identity verification, insurance, safeguarding or regulated boundaries understood?
+Answer:
+- can the transaction be lawfully and safely coordinated?
+- are licensing, identity, insurance, safeguarding, home access, vulnerable-person or other trust requirements understood?
 
 Result: `PASS / CONDITIONAL / FAIL`
 
-A `FAIL` on any hard gate blocks testing in the proposed form. `UNKNOWN` must be resolved before meaningful spend.
+### G4 — Capability decomposability / delegatability
+Answer:
+- can recurring execution be represented as one or more `CapabilityUnit`s?
+- can each unit define input, output, acceptance and payout?
+- are there plausible providers other than the operator?
+- can a failed provider be replaced without redesigning the whole transaction?
+
+Result: `PASS / UNKNOWN / FAIL`
+
+### G5 — Orchestration value
+Answer:
+- does the orchestration layer create material recurring value beyond introduction?
+- does it reduce ambiguity, search, coordination, trust, QA, failure, settlement or replacement cost?
+- after buyer and provider know each other, is there still a reason for the orchestration layer to exist?
+
+Result: `PASS / UNKNOWN / FAIL`
+
+### Gate policy
+
+A `FAIL` on G0–G3 blocks the proposed transaction test in that form.
+
+G4/G5 may be `UNKNOWN` when the experiment explicitly exists to resolve them, but **both must PASS before promotion to `REPEATABLE` or `SCALE_CANDIDATE`**.
+
+Founder willingness to personally perform a difficult task does not convert G4 from `FAIL/UNKNOWN` to `PASS`.
 
 ## Weighted score — exactly 100 points
 
-Weight checksum:
-
 - Pain severity: 10
-- Frequency / density: 10
+- Frequency / transaction density: 10
 - Payment evidence: 15
 - Current-solution weakness: 10
 - Supply / capability availability: 5
-- Acquisition feasibility: 10
-- Delivery controllability: 10
-- Time to first cash: 10
+- Acquisition route feasibility: 8
+- Delivery controllability: 8
+- Delegatability / orchestration leverage: 10
+- Time to first cash: 8
 - Unit economics potential: 5
 - Defensibility / learning compounding: 5
-- Operator fit: 5
-- Capital efficiency: 5
+- Capital efficiency: 6
 
 **Total = 100.**
 
-### 1. Pain severity — 0–10
-0: inconvenience only
-5: recurring cost/delay/frustration
-10: materially affects money, time, safety, livelihood, family burden, convenience, revenue, cost or risk
+## 1. Pain severity — 0–10
+0: inconvenience only.
+10: materially affects money, time, safety, livelihood, family burden, revenue, cost or risk.
 
-### 2. Frequency / density — 0–10
-0: rare one-off
-5: repeated within a narrow group
-10: frequent and observable across many potential transactions or a dense local actor group
+## 2. Frequency / transaction density — 0–10
+0: rare one-off.
+10: frequent/repeated transactions or dense observable actor group.
 
-### 3. Payment evidence — 0–15
-0: no payment/workaround behavior
-5: substantial time/family effort/free workaround
-10: actors pay for imperfect substitutes, convenience, repair/rental/service, or firms hire staff
-15: repeated purchase/booking/subscription/order, explicit budget, procurement, or strong third-party payment evidence
+## 3. Payment evidence — 0–15
+0: no payment/workaround behavior.
+5: meaningful time/family/manual workaround.
+10: actors pay substitutes or hire capability.
+15: repeated purchase/order, explicit budget, procurement, deposits or strong third-party payer evidence.
 
-Payment evidence can come from the beneficiary or a third-party payer; record which.
+Record whose payment behavior is being observed.
 
-### 4. Current-solution weakness — 0–10
-0: excellent cheap incumbent
-5: meaningful friction remains
-10: expensive, fragmented, slow, inconvenient, low-trust, inaccessible, badly timed, or poor-fit solution landscape
+## 4. Current-solution weakness — 0–10
+0: excellent cheap incumbent.
+10: costly, fragmented, slow, badly timed, low-trust, inaccessible or poorly coordinated current solution.
 
-### 5. Supply / capability availability — 0–5
-0: capability unavailable
-2–3: exists but difficult to source/coordinate/trust
-5: abundant viable capability/resource that is underused or poorly routed
+## 5. Supply / capability availability — 0–5
+0: required capability unavailable.
+5: several viable resources/providers exist and capability can plausibly be routed.
 
-### 6. Acquisition feasibility — 0–10
-0: both need actors and payer are hard to identify/reach
-5: one side reachable with moderate effort
-10: dense local/online channels make the relevant need actors and payers directly observable/reachable
+Abundant people with claimed skills do not equal proven capability supply.
 
-### 7. Delivery controllability — 0–10
-0: highly bespoke/unbounded/high-trust or dependent on uncontrollable environment
-5: manageable with explicit process and safeguards
-10: standardized, measurable, low-ambiguity outcome with bounded trust/safety requirements
+## 6. Acquisition route feasibility — 0–8
+0: need actors/payers cannot be economically reached.
+4: one credible route with moderate effort.
+8: several identifiable channels or delegated demand-source capabilities can reach qualified payers.
 
-### 8. Time to first cash — 0–10
-0: >6 months likely
-3: 2–6 months
-6: 30–60 days
-10: realistic paid test within days/weeks
+Do not award points merely because the operator personally knows how to cold-call.
 
-### 9. Unit economics potential — 0–5
-0: little margin after acquisition, coordination, trust and delivery costs
-3: plausible positive margin
-5: strong value-to-cost spread, repeatability, or reusable output/network effect
+## 7. Delivery controllability — 0–8
+0: unbounded/highly bespoke/unverifiable.
+4: manageable with process.
+8: standardized or tightly bounded output with objective acceptance and manageable trust/safety.
 
-### 10. Defensibility / learning compounding — 0–5
-0: pure commodity introduction
-3: repeated execution improves actor/capability data, process, trust or network
-5: strong proprietary Actor Graph + Capability Graph + Transaction Graph feedback loop
+## 8. Delegatability / orchestration leverage — 0–10
+0: value depends on operator personally executing core work.
+3: some tasks can be delegated but key recurring bottleneck remains operator-bound.
+5: delivery can be delegated but acquisition/governance remains founder-heavy.
+8: acquisition and delivery can both be routed as capability units with measurable outputs.
+10: multiple replaceable providers/routes exist, interfaces are stable, and the orchestrator mainly designs/governs rather than executes.
 
-### 11. Operator fit — 0–5
-0: requires unrelated credentials/capital
-3: learnable with support
-5: strongly leverages analysis, GPT, systems, research, communication, local mobility/access, or existing resources
+This dimension is central to strategic fit.
 
-### 12. Capital efficiency — 0–5
-0: heavy fixed cost/inventory
-3: modest paid tools/operations
-5: near-zero fixed cost before validation
+## 9. Time to first cash — 0–8
+0: >6 months likely.
+2: 2–6 months.
+5: 30–60 days.
+8: paid test realistic within days/weeks.
+
+## 10. Unit economics potential — 0–5
+Evaluate **normalized orchestration margin**, not only cash margin.
+
+0: little/no margin after acquisition, provider payouts, QA/trust, failures and operator shadow labor.
+3: plausible positive normalized margin.
+5: strong value-cost spread and repeat potential.
+
+## 11. Defensibility / learning compounding — 0–5
+0: pure commodity introduction.
+3: execution improves task templates, trust, provider reliability or buyer knowledge.
+5: strong compounding from Actor + Demand + Capability + Orchestration + Trust + Transaction + Outcome data.
+
+## 12. Capital efficiency — 0–6
+0: heavy fixed cost/inventory before proof.
+3: moderate working capital/tools.
+6: near-zero fixed cost and providers/resources can be paid from or close to transaction cash flow.
 
 ## Penalties
 
 Subtract after weighted score:
 
+- `-25` persistent operator-personal-execution dependency on core recurring work
 - `-20` high regulatory/licensing ambiguity
 - `-20` unresolved vulnerable-person / home-access / physical-safety trust risk
 - `-15` heavy on-site/custom integration dependence
 - `-15` requires large capital before payer proof
 - `-10` long payment cycle / collection risk
 - `-10` severe platform dependency with no customer/actor ownership
-- `-10` obvious bypass risk where value is only an introduction
-- `-10` market dominated by a low-cost incumbent with little unresolved friction
-- `-10` acquisition/support cost likely overwhelms low C2C/B2C ticket size
+- `-10` obvious bypass risk where value is mainly introduction
+- `-10` low-cost incumbent with little unresolved friction
+- `-10` acquisition/support cost likely overwhelms low ticket
+- `-10` single irreplaceable capability provider for a core recurring unit
 
-Scores after penalties are floored at 0.
+Scores are floored at 0.
 
-## Cross-structure comparison rule
+## Founder shadow-cost rule
 
-Do not mechanically reward B2B because enterprise budgets are larger.
+Whenever the operator personally performs sales, recruitment, research, delivery, QA, hosting, transport, support or another routable function, estimate:
 
-A consumer/household/C2C opportunity may outrank B2B when it has:
+```text
+operator_hours × realistic replacement hourly cost
+```
 
-- higher transaction frequency/density;
-- easier acquisition;
-- faster payment;
-- abundant underused capability;
-- repeat behavior;
-- strong third-party payer;
-- lower sales cycle;
-- better local validation access.
+Record it as `operator_shadow_cost`.
 
-Likewise, a personal opportunity must be downgraded when trust, support, refunds, acquisition or safety costs make the economics weak.
+A test may still be worth running for learning, but do not report positive repeatable economics using unpaid founder labor.
+
+## Orchestration-fit rule
+
+Strategically preferred opportunities have:
+- real payer evidence;
+- bounded outputs;
+- several routable capability providers;
+- objective acceptance;
+- short transaction cycles;
+- low/controlled safety risk;
+- delegated acquisition potential;
+- delegated delivery potential;
+- enough gross surplus to pay all capabilities;
+- recurring value for governance/QA/replacement/data.
+
+A high-value consulting engagement that depends on the operator personally selling and delivering every project may be a viable job, but is not automatically a high-fit engine opportunity.
 
 ## Priority bands
 
 ### 80–100 — `A: TEST NOW`
-Only if all hard gates pass. Design a paid micro-test immediately.
+Requires G0–G3 PASS and no unacknowledged G4/G5 failure. Run the smallest transaction/delegation test.
 
 ### 65–79 — `B: INVESTIGATE`
-Promising but one or more evidence gaps remain. Gather targeted evidence before selling/building.
+Promising but targeted unknowns remain.
 
-### 50–64 — `C: WATCH`
-Possible but weak relative to alternatives.
+### 50–64 — `C: WATCH / REDESIGN`
+Potential value, weak structure or poor orchestration fit.
 
 ### <50 — `D: REJECT / DORMANT`
-Do not spend meaningful time unless conditions change.
+Do not spend meaningful time unless mechanism changes.
 
-## Evidence confidence
+## Evidence maturity
 
-Every score component must include:
+Use:
 
-- evidence summary;
-- source/provenance;
-- observed date;
-- actor/role supported;
-- verification status;
-- confidence (`HIGH / MEDIUM / LOW`).
+```text
+L0 statement
+L1 observed recent behavior / workaround
+L2 exact terms accepted verbally
+L3 deposit / authorized commitment / signed task
+L4 completed accepted transaction + settlement
+L5 repeat / referral
+L6 delegated repeat / provider replacement / alternate route succeeds
+```
 
-Do not use false precision. Mostly low-confidence assumptions = `LOW_CONFIDENCE` regardless of numeric score.
+L4 proves one transaction. L6 begins to prove the orchestration engine.
 
 ## Final decision record
 
@@ -197,25 +241,33 @@ Opportunity:
 Need actor:
 Beneficiary:
 Payer:
-Capability provider:
-Resource owner / sponsor (if any):
-Transaction type:
+Sponsor / resource owner:
 Desired outcome:
 Current workaround:
 Payment evidence:
-Candidate capability route:
+Transaction objective:
+Required capability units:
+Demand-source capability:
+Candidate providers/resources:
+Acceptance criteria:
 Trust / safety requirements:
-Transaction design:
-Hard gates:
-Score:
-Confidence:
+Incentive / payout design:
+Replacement design:
+Orchestrator recurring value:
+Hard gates G0-G5:
+Weighted score:
+Penalties:
+Final score:
+Evidence maturity:
+Cash contribution margin:
+Operator shadow cost:
+Normalized orchestration margin:
 Key unknown:
 Cheapest decisive experiment:
 Success threshold:
 Stop rule:
-Next review date:
 ```
 
 ## Governing principle
 
-**The score decides what to test, not what to believe. Real transactions update belief.**
+**Score the system that completes the transaction, not the founder's willingness to personally do the work.**
