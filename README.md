@@ -1,97 +1,180 @@
 # Opportunity Routing Engine
 
-A validation-first **Actor-First Opportunity Routing Engine** for continuously discovering transaction-worthy imbalances created by social change, identifying the actors affected, routing available capabilities/resources, designing trust/transaction structures, and learning from real outcomes.
+A validation-first **Actor-First Resource Orchestration Engine** for turning real-world needs into completed, accepted transactions by decomposing outcomes into purchasable capabilities, routing those capabilities to suitable resources, designing incentives/trust/acceptance, settling value, and learning from real outcomes.
 
-> Observe society → identify changing actors → detect friction → identify beneficiary/payer → route capability → design transaction → test with real money → learn.
+> **Discover the outcome → identify the payer → decompose capabilities → route resources → define incentives/interfaces → execute → accept → settle → learn.**
+
+The strategic kernel is locked in `docs/RESOURCE_ORCHESTRATION_KERNEL.md`.
 
 ## Mission
 
-Build a reusable system that answers two questions increasingly well:
+Build a reusable system that gets increasingly good at two things:
 
-> **Where is society currently forming a new tradable imbalance?**
+1. finding real outcomes for which someone has meaningful willingness to pay;
+2. assembling the necessary capabilities so the outcome can be delivered **without requiring the operator to personally perform routine acquisition or delivery work**.
 
-and
+The project is not tied to one industry, customer type, geography, provider type or business model.
 
-> **How can we validate that imbalance as a real transaction as quickly and cheaply as possible?**
+A cafe event, SME digital task, youth capability project, cross-border workflow or local service is only a test environment for the engine.
 
-The project does **not** assume one industry, one customer type, one geography, one payer, or one business model.
+## Core identity
 
-The first question is not “which company has a problem?”
+The system is **not** primarily:
+- a freelancer marketplace;
+- an agency selling founder labor;
+- a lead reseller;
+- a software product looking for users;
+- a traditional intermediary that merely introduces two parties.
 
-It is:
+The system is a **transaction architecture + capability orchestration layer**.
 
-> **Which actor or group is changing, what new friction is appearing, and who has enough incentive to pay for a better outcome?**
-
-## Actor-first principle
-
-An `Actor` may be:
-- an individual consumer;
-- a student or graduate;
-- an unemployed or flexibly employed worker;
-- a parent or household;
-- an elderly person or caregiver;
-- a pet owner;
-- a tenant, homeowner, buyer, or seller;
-- a skilled worker, farmer, freelancer, driver, or service worker;
-- a small merchant or self-employed operator;
-- an enterprise, manufacturer, institution, school, community, or government body;
-- an overseas person or organization;
-- a holder of idle time, skill, equipment, inventory, space, data, access or other resources.
-
-The actor experiencing the problem does **not** have to be the payer.
-
-Every serious transaction should distinguish:
-- `NEED_ACTOR` — experiences the friction;
-- `BENEFICIARY` — receives the outcome;
-- `PAYER` — provides money/economic consideration;
-- `CAPABILITY_PROVIDER` — supplies skill/resource/service/product;
-- `RESOURCE_OWNER` — controls relevant time, space, equipment, inventory, data, access or other resource;
-- `SPONSOR` — pays because another actor's outcome creates value for them;
-- `ORCHESTRATOR` — defines, routes, coordinates, verifies, closes and learns from the transaction.
-
-Example:
+It converts:
 
 ```text
-elderly person has a need
+ambiguous real-world objective
         ↓
-adult child values the outcome
+transaction specification
         ↓
-qualified provider supplies capability
+capability decomposition
         ↓
-adult child pays
+purchasable / replaceable task units
         ↓
-engine defines scope, trust, evidence and acceptance
+resource routing
+        ↓
+accepted result + settlement
 ```
 
 ## Canonical chain
 
 ```text
-ACTOR
-→ CHANGE
-→ BEHAVIOR
-→ FRICTION
-→ NEED
-→ BENEFICIARY
-→ PAYER
-→ CURRENT WORKAROUND
-→ CAPABILITY
-→ TRANSACTION DESIGN
-→ REAL-WORLD TEST
+ACTOR / CHANGE / FRICTION
+→ DESIRED OUTCOME
+→ BENEFICIARY / PAYER
+→ TRANSACTION OBJECTIVE
+→ CAPABILITY DECOMPOSITION
+→ CAPABILITY UNITS
+→ RESOURCE / PROVIDER ROUTING
+→ INCENTIVE + INTERFACE + TRUST DESIGN
+→ EXECUTION
+→ ACCEPTANCE
+→ SETTLEMENT
 → OUTCOME
-→ LEARNING
+→ REPUTATION / LEARNING
 ```
 
-Operationally:
+## Actor roles
+
+Every serious opportunity should distinguish:
+- `NEED_ACTOR`
+- `BENEFICIARY`
+- `PAYER`
+- `SPONSOR` where relevant
+- `RESOURCE_OWNER` where relevant
+- `CAPABILITY_PROVIDER`
+- `ORCHESTRATOR`
+
+The actor with the need does not have to be the payer. The operator does not have to be the provider.
+
+See `docs/ACTOR_MODEL.md`.
+
+## Capability-first execution
+
+The atomic execution unit is a `CapabilityUnit`, not a person.
+
+A capability unit should define:
 
 ```text
-观势 → 察需 → 找能 → 成事 → 反馈学习
+purpose
+input
+required output
+acceptance criteria
+provider class
+proof required
+price model
+payout condition
+deadline / SLA
+dependencies
+trust / safety requirements
+replacement rule
+failure / refund rule
 ```
 
-Trends tell us where to look. Behavior and money tell us whether the hypothesis is right.
+Examples:
+- demand scouting;
+- lead qualification;
+- merchant / enterprise BD;
+- participant recruitment;
+- requirement interviews;
+- research;
+- development;
+- design;
+- venue/resource provision;
+- hosting;
+- logistics;
+- QA;
+- verification;
+- settlement administration.
 
-## What we scan for — transaction gaps
+**Sales, acquisition and execution are capabilities. They are not automatically the operator's job.**
 
-Canonical gap ontology:
+## Delegation-first rule
+
+For every repeated action:
+
+```text
+Can it be eliminated?
+Can it be automated safely?
+Can it be delegated as a bounded capability unit?
+Only then should the operator perform it temporarily.
+```
+
+Temporary founder execution is allowed for learning, but must be treated as business-model debt.
+
+The first important system milestone is not maximum profit. It is:
+
+> **O2 — delegated acquisition + delegated delivery while the operator retains transaction architecture and governance.**
+
+See `docs/RESOURCE_ORCHESTRATION_KERNEL.md`.
+
+## Economic truth
+
+Every transaction must eventually measure:
+
+```text
+payer inflow
+- demand-source / acquisition payout
+- capability-provider payouts
+- resource cost
+- trust / QA cost
+- refund / failure reserve
+- operating cost
+= cash contribution margin
+
+cash contribution margin
+- operator shadow labor cost
+= normalized orchestration margin
+```
+
+If the operator performs sales, delivery, QA or other execution for free, that time still receives a shadow cost. Founder free labor must not manufacture fake profitability.
+
+## Why the orchestrator gets paid
+
+The engine must create value beyond contact introduction through one or more of:
+- turning vague demand into an executable brief;
+- decomposing work into capability units;
+- finding a better capability combination;
+- qualification / trust;
+- dependency management;
+- QA and acceptance;
+- replacement when execution fails;
+- payment / settlement design;
+- accumulated outcome/reliability data.
+
+If buyer and provider can bypass the engine with almost no loss, the opportunity has weak orchestration value.
+
+## Transaction gaps
+
+The engine continues to scan for:
 
 1. `DEMAND_GAP`
 2. `CAPABILITY_GAP`
@@ -104,21 +187,9 @@ Canonical gap ontology:
 9. `PAYER_SHIFT`
 10. `TECHNOLOGY_SHIFT`
 
+A gap is not a business until a transaction can be designed around it.
+
 See `docs/THESIS_TRANSACTION_GAPS.md`.
-
-A gap is not automatically a business. It matters only if a real payer will exchange economic value to reduce it.
-
-## Market structures supported
-
-The engine must compare:
-- `B2B`;
-- `B2C`;
-- `C2C`;
-- `C2B`;
-- `SPONSORED / THIRD-PARTY-PAYER`;
-- `MULTI_SIDED`.
-
-No structure receives priority merely because its payer is easier to observe.
 
 ## Hard commercial discipline
 
@@ -127,140 +198,105 @@ Complaint != Demand
 Demand != Willingness to Pay
 Trend != Business
 Market Size != Customer Acquisition
+Introduction != Orchestration Value
+Founder Free Labor != Profit
 LLM Confidence != Commercial Evidence
 UNKNOWN != PASS
 ```
 
-Prefer evidence such as:
-- completed purchases / paid services;
-- deposits / bookings / repeat purchases;
-- current substitute spending;
-- recruitment / procurement / RFQ / tender activity;
-- merchant subsidies or spend for traffic/conversion;
-- family/institution payment for another beneficiary;
-- costly manual workarounds;
-- repeated relisting/repricing / failed transactions;
-- repeat/referral.
-
-Macro data, searches, complaints and social discussion generate hypotheses. They do not independently validate a business.
+Real commitment, accepted delivery, settlement, repeat and replacement behavior outrank narrative evidence.
 
 ## Opportunity scoring
 
-Use `docs/OPPORTUNITY_SCORECARD.md` exactly.
+Use `docs/OPPORTUNITY_SCORECARD.md`.
 
-Hard gates include:
-- actor/role clarity;
+The scorecard now explicitly tests:
 - payer clarity;
 - transactionability;
-- legal/trust/safety feasibility.
+- capability decomposability / delegatability;
+- orchestration value;
+- legal/trust/safety feasibility;
+- normalized economics.
 
-A high weighted score cannot override an `UNKNOWN` or failed hard gate.
+A commercially attractive transaction that permanently depends on the operator personally doing the work is not a high-fit strategic opportunity for this engine.
 
-## Field laboratory — Xuzhou
+## Current phase
 
-Xuzhou is the first field laboratory because online evidence can be converted into in-person falsification quickly.
+**Phase 0 — Prove delegated orchestration through real transactions.**
 
-Current scan source:
-- `docs/research/XUZHOU_ACTOR_FIRST_SCAN_V2_2026-09-10.md`
-
-It contains **38 distinct friction records** across youth, students/graduates, workers, households, pet owners, merchants, institutions, asset owners and enterprises.
-
-Current ranking:
-- `docs/results/EXP_002_XUZHOU_ACTOR_FIRST_RANKING_V2_2026-09-10.md`
-
-Current field sequence:
+The system-level target is:
 
 ```text
-1. EXP-006 — youth micro-experience payer commitment
-2. EXP-007 — skills-to-income payer discovery
-3. EXP-003 — bounded SME micro-project paid validation
-4. EXP-004 — pet trust/home-access gate resolution
+real payer
+→ bounded transaction
+→ acquisition capability routed
+→ delivery capability routed
+→ accepted result
+→ payouts / settlement
+→ operator does not personally perform routine acquisition or delivery
+→ normalized economics recorded
+→ repeat / replacement tested
 ```
 
-`EXP-001` and broad `EXP-005` are currently dormant/secondary verticals.
+Current portfolio interpretation:
+- `EXP-008` — system-level delegated orchestration proof;
+- `EXP-003` + `EXP-007` — preferred early digital/capability sandbox because outputs can often be bounded, routed and verified;
+- `EXP-006` — retained as a multi-sided orchestration sandbox, but **no longer requires the operator to do street recruitment or merchant sales personally**;
+- `EXP-004` — trust-layer research remains valid but is lower-priority because safety/trust burden is high.
 
 No current vertical is commercially validated.
 
-## Field rule
+## Seven-graph learning architecture
 
-Do not go out to “ask around.”
-
-Before every field visit define:
-
-```text
-Hypothesis:
-Critical UNKNOWN:
-Who to interview:
-Where to find them:
-5–8 questions:
-PASS:
-FAIL:
-Evidence to record:
-Next action:
-```
-
-Use `docs/FIELD_VALIDATION_PLAYBOOK_XUZHOU.md`.
-
-A friendly statement is weak evidence. A real refusal at a real price is useful evidence. A deposit is stronger. Completed payment + accepted delivery + repeat/referral is strongest.
-
-## Evidence before automation
-
-```text
-observe
-→ hypothesis
-→ evidence
-→ payer commitment
-→ first paid transaction
-→ repeat manually
-→ identify recurring bottleneck
-→ automate that bottleneck
-```
-
-Do **not**:
-
-```text
-build platform
-→ then search for users
-```
-
-## Long-run learning architecture
-
-If transaction density eventually justifies software, the learning layer should evolve toward six linked graphs:
+If transaction density eventually justifies software, the learning architecture should evolve toward:
 
 ```text
 Actor Graph
 Demand Graph
 Capability Graph
+Orchestration / Task Graph
 Trust Graph
-Transaction Graph
+Transaction / Settlement Graph
 Outcome / Learning Graph
 ```
 
+The new first-class `Orchestration / Task Graph` stores decomposition, task dependencies, interfaces, providers and replacement history.
+
 See `docs/ARCHITECTURE.md`.
 
-This is a future architecture, not a current build mandate.
+## Evidence before software
 
-## Repository layout
+```text
+observe
+→ define transaction
+→ decompose capability
+→ route humans/resources manually
+→ obtain real commitment
+→ deliver
+→ accept
+→ settle
+→ repeat / replace
+→ identify recurring routing bottleneck
+→ automate only that bottleneck
+```
 
-- `docs/FORMAL_TRUTH.md` — current commercial truth, unknowns, decisions and rejections
-- `docs/ACTOR_MODEL.md` — canonical actor/role model
-- `docs/METHODOLOGY.md` — opportunity-discovery methodology
-- `docs/THESIS_TRANSACTION_GAPS.md` — canonical gap ontology
-- `docs/OPPORTUNITY_SCORECARD.md` — scoring, gates and penalties
-- `docs/ARCHITECTURE.md` — lifecycle and long-run graph architecture
-- `docs/FIELD_VALIDATION_PLAYBOOK_XUZHOU.md` — field evidence discipline
-- `docs/EXPERIMENT_*.md` — falsifiable commercial experiments
-- `docs/research/` — evidence-backed research pools
-- `docs/results/` — ranked / superseded result snapshots
-- `prompts/` — versioned analysis/extraction/routing prompts
-- `data/` — structured observations when justified
-- `src/` — code only when repeated bottlenecks justify automation
-- `tests/` — truth gates, evidence, scoring and lifecycle tests
+Do not build a marketplace first.
 
-## Current phase
+## Repository truth hierarchy
 
-**Phase 0 — Prove the discovery-and-validation method through real commitments and transactions.**
+- `docs/RESOURCE_ORCHESTRATION_KERNEL.md` — locked strategic kernel
+- `docs/FORMAL_TRUTH.md` — current commercial truth and priorities
+- `docs/ACTOR_MODEL.md` — actor roles
+- `docs/METHODOLOGY.md` — discovery/decomposition/orchestration method
+- `docs/OPPORTUNITY_SCORECARD.md` — gates, weights and penalties
+- `docs/ARCHITECTURE.md` — lifecycle and future system structure
+- `docs/THESIS_TRANSACTION_GAPS.md` — gap ontology
+- `docs/EXPERIMENT_*.md` — falsifiable vertical/system experiments
+- `docs/research/` — evidence pools
+- `docs/results/` — decision snapshots
+- `data/` — structured observations / ledgers
+- `src/` — automation only after repeated bottlenecks justify it
 
-Success is not “we found many ideas” or “the software runs.”
+## Governing invariant
 
-Success is that the system repeatedly finds actor-specific transaction structures that survive real payer commitment, delivery, economics and repetition.
+> **The engine should make a transaction work because the system designed and routed the right capabilities — not because the operator personally performed every difficult step.**
