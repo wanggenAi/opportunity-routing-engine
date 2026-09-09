@@ -1,193 +1,214 @@
 # EXPERIMENT 003 — Xuzhou Managed SME Micro-Project Paid Validation
 
-Status: `READY TO RUN / SECONDARY VERTICAL`
+Status: `ACTIVE / PREFERRED ORCHESTRATION SANDBOX`
 
 Date opened: 2026-09-08
 
+Strategic kernel: `docs/RESOURCE_ORCHESTRATION_KERNEL.md`.
+
 ## Objective
 
-Test one specific transaction structure:
+Test a bounded buyer-side transaction structure that can feed the system-level `EXP-008`:
 
-> Xuzhou SME / merchant need actor + payer → bounded project → capability routed through operator / GPT / student / freelancer → accepted delivery → payment.
+> SME / merchant payer → bounded desired outcome → transaction architecture → decomposed capability units → routed provider(s) → accepted delivery → settlement.
 
-This experiment remains valid, but it is **not the presumed top opportunity of the Opportunity Routing Engine**.
+The operator is **not** the default salesperson or final delivery provider.
 
-The broader `EXP-002` actor-first scan now compares personal, household, C2C, sponsored and enterprise opportunities under the same scorecard.
+This experiment validates buyer/output/payment mechanics. `EXP-007` may supply capability providers. `EXP-008` measures whether acquisition + delivery can both be delegated.
 
-## Actor map
+## Actor / role map
 
 ```text
 Need actor: SME / merchant
 Beneficiary: SME / merchant
 Payer: SME / merchant
-Capability provider: operator / AI / student / freelancer / specialist
-Orchestrator: Opportunity Routing Engine operator
+Demand-source capability provider: connector / commissioned BD / referral partner / inbound channel / other route
+Capability provider: student / freelancer / specialist / company / AI-assisted provider / composite
+Orchestrator: requirement architecture + decomposition + routing + incentive + QA/acceptance governance
 Transaction type: C2B / B2B / composite
 ```
 
 ## Core hypothesis
 
-> A meaningful subset of Xuzhou businesses has small but real work that is delayed, poorly handled internally, or uneconomic to staff full-time; they will pay for a fixed-scope result if the task is clarified, matched to suitable capability, quality-controlled, and delivered with low risk.
+A meaningful subset of Xuzhou businesses has small but real work that is delayed, poorly handled internally, or uneconomic to staff full-time. They will pay for a fixed/bounded result when the orchestration layer can:
+- clarify the real outcome;
+- define acceptance;
+- route suitable capability;
+- manage quality/replacement;
+- reduce coordination risk.
 
 ## Initial task classes
 
-Only test task classes with bounded acceptance criteria and low regulatory burden:
+Prefer low-risk tasks with bounded acceptance:
 
-1. commercial / competitor / Chinese-Internet research;
+1. commercial / competitor / public-Internet research;
 2. Excel / data cleanup / analysis;
-3. document extraction / classification / summarization workflows;
-4. small automation scripts;
-5. simple digital-content asset packages where acceptance criteria are explicit.
+3. document extraction / classification workflows;
+4. small non-sensitive automation scripts;
+5. simple digital-content assets with explicit acceptance.
 
-Do not test:
+Avoid employment placement, labor dispatch, regulated professional work without qualified providers, safety-critical work, open-ended support, complex on-site integration, deceptive engagement or misuse of private data.
 
-- employment placement;
-- labor dispatch;
-- safety-critical engineering;
-- medical, legal, financial, accounting or other regulated professional work without qualified providers;
-- open-ended IT support;
-- complex customer-site integration;
-- deceptive review manipulation / fake engagement;
-- work requiring misuse of personal/private data.
+## Phase A — demand-source capability
 
-## Test design
+Do **not** assume the operator personally cold-calls 15–20 businesses.
 
-### Arm A — payer discovery
+Test one or more routable demand-access methods:
+- commissioned local BD;
+- industry connector/referrer;
+- accounting/software/service provider with adjacent clients;
+- association/community operator;
+- online inbound / public task source;
+- trusted introduction channel.
 
-Target: 15–20 Xuzhou businesses with observable evidence of recurring small digital/content/data work.
-
-For each target, capture:
-
-- business type;
-- observed signal;
-- recent small task;
-- current workaround;
-- internal time/cost;
-- desired output;
-- acceptable deadline;
-- acceptable price range if disclosed;
-- trust/risk objections;
-- whether a fixed-scope paid pilot is acceptable.
-
-### Arm B — capability discovery
-
-Target: 20–30 students / graduates / young skilled people.
-
-Prioritize capabilities the operator can assess:
-
-- research;
-- Excel / data;
-- Python / scripting;
-- design / content;
-- AI tool use;
-- document processing.
-
-Capture:
-
-- capability claim;
-- evidence / portfolio;
-- test task result where needed;
-- minimum acceptable fee;
-- availability;
-- deadline reliability;
-- revision tolerance;
-- confidentiality acceptance;
-- prohibited/refused tasks.
-
-## Transaction format
-
-The operator must not sell “a student” or “a freelancer”. Sell a bounded result:
+Define the acquisition capability explicitly, e.g.:
 
 ```text
-Problem
-→ written brief
-→ fixed deliverables
-→ fixed acceptance criteria
-→ fixed or bounded price
-→ capability selection
-→ QA
-→ delivery
-→ acceptance
-→ payment
+Input: target definition + allowed offer
+Output: attended qualified requirement conversation
+Qualification: payer/decision route exists + recent bounded task/problem
+Payout: per qualified attended meeting or converted paid pilot
+Anti-spam: no payout for unqualified contact lists
 ```
 
-## First-price guidance
+Target evidence: >=15 qualified payer conversations across the validation cycle, regardless of whether they came from one or multiple demand-source providers.
 
-Candidate pilot range: RMB 300–2,000 depending on task size.
+The operator may participate in requirement architecture. That is different from being the default lead generator.
 
-This is a test range, not a market price claim.
+## Phase B — transaction objective
 
-## Success criteria
+For every real task discovered, convert vague need into:
 
-### Strong pass
-Within 30 days:
+```text
+payer:
+desired outcome:
+inputs:
+required final output:
+acceptance criteria:
+deadline:
+price / budget:
+trust / data boundary:
+revision boundary:
+failure / refund condition:
+```
 
-- >=15 qualified payer-side conversations;
-- >=5 reveal a real small task from the prior 90 days;
-- >=3 accept the fixed-scope project model in principle;
-- >=1 pays for a real pilot;
-- paid pilot is delivered and accepted;
-- direct contribution margin is positive;
-- repeat/referral signal exists.
+Do not sell a student/freelancer. Sell an accepted outcome.
 
-### Partial pass
-Real task demand and payer interest repeatedly appear, but transaction is blocked by one isolatable factor such as price, trust proof, category, or payment mechanism.
+## Phase C — capability decomposition and routing
 
-### Fail / stop
+For each paid candidate, define required `CapabilityUnit`s.
 
-- 20 qualified payer conversations produce zero paid pilot willingness;
-- most tasks are too bespoke/on-site/regulated;
-- customers prefer direct cheap freelancers and see no value in managed QA/routing;
-- capable supply cannot meet quality/reliability requirements at viable economics;
-- transaction disputes/legal structure make the model unattractive.
+Example:
 
-## Portfolio rule
+```text
+requirement architecture
+→ data extraction/cleaning
+→ analysis/implementation
+→ QA
+→ acceptance
+```
 
-EXP-003 may run because it is cheap and can produce real payment evidence, but it must **not** consume the entire research agenda.
+Each external capability unit should define input, output, acceptance, payout, deadline and replacement rule.
 
-In parallel, EXP-002 must continue scanning and comparing:
+Use `docs/templates/CAPABILITY_UNIT_TEMPLATE.md`.
 
-- B2C;
-- C2C;
-- household/family-sponsored;
-- student/young-adult needs;
-- pet-owner needs;
-- elderly/caregiver/adult-child structures;
-- value-conscious consumption migration;
-- idle personal capability/resource exchanges;
-- other actor-first hypotheses.
+`EXP-007` may be used to source/prove capability providers.
 
-## Required records
+## Phase D — paid pilot
 
-For each transaction/test retain:
+At least one real payer commits money to an exact bounded output.
 
-- need actor;
-- beneficiary;
-- payer;
-- capability provider;
-- transaction type;
-- source/provenance;
-- pain/task;
-- current workaround;
-- payment evidence;
-- price signal;
-- deliverables;
-- acceptance criteria;
-- quoted price;
-- provider cost;
-- status;
-- outcome;
-- failure reason;
-- repeat/referral signal.
+Delivery should preferably be performed by a non-operator provider so that EXP-003 can contribute evidence toward EXP-008.
 
-## Decision after experiment
+Record:
+- payer inflow;
+- demand-source payout;
+- provider payout(s);
+- QA/resource costs;
+- operator hours by function;
+- operator shadow cost;
+- acceptance;
+- settlement;
+- repeat/referral.
 
-If strong pass:
-- validate this **vertical only**;
-- repeat at least 5 transactions manually;
-- compare its real economics against other actor-first candidates;
-- automate only repeated bottlenecks.
+## Price guidance
 
-If fail:
-- do not build a marketplace;
-- return to the actor-first EXP-002 ranking.
+Initial pilot range remains `RMB 300–2,000` for small tasks unless real evidence supports another amount.
+
+This is a test range, not a market-price claim.
+
+## PASS criteria
+
+### Commercial PASS
+Within the validation cycle:
+- >=15 qualified payer conversations;
+- >=5 real recent bounded tasks discovered;
+- >=3 accept fixed/bounded-result structure in principle;
+- >=1 real paid pilot;
+- pilot delivered and accepted;
+- settlement completed.
+
+### Strategic orchestration PASS
+In addition:
+- demand acquisition materially comes from a non-operator capability route;
+- final delivery is primarily performed by a non-operator capability provider;
+- operator shadow labor is recorded;
+- orchestrator contributes recurring value beyond introduction.
+
+If these hold, link the transaction to `EXP-008 O2/L4` evidence.
+
+### Strong follow-up
+- repeat/referral;
+- second transaction using same task template;
+- alternate provider or provider replacement succeeds;
+- normalized orchestration margin is plausibly positive.
+
+## Stop / downgrade rules
+
+Stop or redesign if:
+- 20 qualified payer conversations produce zero paid-pilot willingness;
+- tasks are mostly unbounded/on-site/regulated;
+- buyer sees no value beyond direct cheap provider access;
+- capability supply cannot meet acceptance at viable economics;
+- revisions/coordination destroy normalized margin;
+- acquisition cannot be delegated economically;
+- operator repeatedly must rescue delivery;
+- bypass leaves no recurring orchestration value.
+
+## Economic truth
+
+Do not report profit using free founder labor.
+
+```text
+payer inflow
+- demand-source payout
+- provider payouts
+- resource / QA / trust / failure costs
+= cash contribution margin
+
+cash contribution margin
+- operator shadow labor
+= normalized orchestration margin
+```
+
+## Relationship to broader engine
+
+This remains one sandbox, not the system identity.
+
+It is currently preferred because many digital/knowledge tasks are:
+- easy to bound;
+- remotely deliverable;
+- measurable;
+- supplied by multiple provider classes;
+- relatively low legal/safety risk;
+- suitable for testing provider replacement.
+
+That is **orchestration fit**, not enterprise-first bias.
+
+## Build rule
+
+No freelancer/project marketplace before repeated accepted transactions, delegated acquisition/delivery and provider replacement evidence exist.
+
+## Governing question
+
+> **Will a real payer buy a bounded result, and can the engine source the payer and route delivery without the operator becoming the salesperson or worker?**
