@@ -1,193 +1,229 @@
-# EXPERIMENT 007 — Xuzhou Skills-to-Income Payer Discovery
+# EXPERIMENT 007 — Xuzhou Skills-to-Income Capability Routing
 
-Status: `READY FOR PAYER DISCOVERY`
+Status: `ACTIVE / PREFERRED CAPABILITY-SUPPLY SANDBOX`
 
 Date opened: 2026-09-10
 
+Strategic kernel: `docs/RESOURCE_ORCHESTRATION_KERNEL.md`.
+
 ## Objective
 
-Test a narrower version of the broad `student / young capability → paid project` thesis:
+Test whether under-monetized youth capability can be converted into **proven routable capability units** and then into accepted paid outputs.
 
-> Can trained but under-monetized youth capability be converted into a bounded accepted output, and who will pay for the conversion layer?
+This experiment complements:
+- `EXP-003` — buyer / bounded-output / payment side;
+- `EXP-008` — system-level proof that acquisition and delivery can both be delegated.
 
-This experiment exists because the previous hypothesis had useful supply evidence but an unstable payer.
+This is not a recruitment platform, labor-dispatch thesis or generic freelancer marketplace.
 
-It explicitly tests `CAPABILITY_GAP + TRUST_GAP + PAYER_SHIFT`.
+## Core hypothesis
 
-## Actor map
+A subset of students, graduates and young skilled workers has usable but under-monetized capability. Their value becomes more economically useful when the engine converts vague skill labels into contractible capability units with:
+- explicit input;
+- required output;
+- acceptance criteria;
+- proof;
+- payout;
+- deadline;
+- replacement rules.
+
+## Actor / role map
 
 ```text
-NEED_ACTOR / BENEFICIARY:
-  student / graduate / trained young worker who needs paid proof, income or real work evidence.
+Beneficiary / capability provider:
+  student / graduate / trained young worker / specialist
 
-PAYER candidates:
-  A. project buyer who wants the output;
-  B. training institution / program operator whose economics or performance improve when learners achieve stable outcomes;
-  C. employer / sponsor where a bounded project reduces hiring or evaluation cost.
+Payer candidates:
+  A. project buyer paying for accepted output
+  B. training institution/program operator paying for verified outcome conversion
+  C. employer/sponsor where bounded work reduces hiring/evaluation cost
 
-CAPABILITY_PROVIDER:
-  learner / student / graduate / young skilled worker.
+Demand-source capability provider:
+  connector / BD / partner / channel / other routable source
 
-RESOURCE_OWNER:
-  training provider, school, OPC community, merchant or business with a real project context.
-
-ORCHESTRATOR:
-  discover real task → write brief → screen capability → set acceptance criteria → QA → capture outcome evidence.
-
-TRANSACTION TYPE:
-  C2B / sponsored / multi-sided.
+Orchestrator:
+  transaction objective + capability specification + provider qualification + routing + acceptance governance + learning
 ```
 
-## Evidence motivating the test
+## Capability truth
 
-- Xuzhou's 2026 skills-training catalogue includes hundreds of subsidized skill items and many digitally or locally useful capabilities.
-- A July 2026 Xuzhou survey received a first list of about 15,800 unemployed 2026 graduates / registered unemployed youth for targeted support.
-- Xuzhou's 2026 subsidized training framework states that training classes with stable employment above 50% can receive up to 20% additional support.
-- Xuzhou is simultaneously expanding OPC / one-person-company communities, creating a potential pool of small buyers with missing bounded capabilities.
+Do not record only:
 
-Sources:
-- https://szb.cnxz.com.cn/dscb/pc/con/202606/30/content_52078.html
-- https://szb.cnxz.com.cn/xzrb/pad/con/202607/26/content_53290.html
-- https://jshrss.jiangsu.gov.cn/art/2025/5/13/art_77276_11563528.html
-- https://szb.cnxz.com.cn/xzrb/pad/con/202608/13/content_54294.html
+```text
+Python
+Design
+Excel
+AI
+Marketing
+```
 
-These sources justify investigation only. They do not prove payment for project orchestration.
+Convert claims into routable units, e.g.:
 
-## Critical unknowns
+```text
+Input: one CSV with defined columns
+Output: cleaned normalized CSV + exception report
+Acceptance: <=X unresolved invalid rows; schema matches specification
+Deadline: 48h
+Provider payout: RMB X after acceptance
+Replacement trigger: missed SLA or acceptance failure after defined revision
+```
 
-1. Is the real bottleneck training, or access to accepted paid work?
-2. Which capability classes are already deliverable at acceptable quality?
-3. Does any training institution spend money/time on post-training outcome conversion that could be replaced by a bounded pilot?
-4. Will a real buyer pay for the output when capability is screened and QA is managed?
-5. Does the orchestrator add enough value beyond direct freelancer/student access to avoid bypass?
+Use `docs/templates/CAPABILITY_UNIT_TEMPLATE.md`.
 
-## Phase A — learner capability audit
+## Phase A — capability proof
 
-Target: 10–15 learners / graduates / young skilled workers.
+Build a small **proven capability pool**, not a contact pool.
 
-Only include people who can show one actual deliverable.
+Target: 10–15 candidate providers across one or two narrow output classes.
+
+Acquisition of providers may itself be delegated. The operator does not need to personally recruit every provider.
 
 Capture:
-- skill / output class;
-- portfolio / evidence;
-- prior paid work and fee;
-- minimum project fee;
-- available time;
-- turnaround;
+- capability claim;
+- concrete output class;
+- portfolio / proof;
+- prior paid work if any;
+- test task where needed;
+- minimum acceptable payout;
+- availability / SLA;
 - revision tolerance;
-- refusal / legal / safety boundaries;
-- willingness to accept a standardized brief and QA.
+- trust/confidentiality boundary;
+- replacement/handoff willingness.
 
-### Learner gate
+### Capability gate
 
-PASS when at least 5 candidates can independently produce one bounded output class that the operator can assess.
+PASS when >=5 candidates can demonstrate one bounded output class to an acceptance standard relevant to a real transaction.
 
-Do not count course completion alone as capability proof.
+Course completion alone is not capability proof.
 
-## Phase B — training-institution / sponsor discovery
+## Phase B — convert provider skill into CapabilityUnit
 
-Target: 5–8 relevant training providers / program operators.
+For each promising provider, define at least one unit with:
 
-Capture:
-- last cohort size;
-- actual stable-employment / paid-outcome rate where disclosed;
-- current post-training job/project support;
-- staff time / budget spent on employer/project access;
-- whether outcome performance affects subsidy, reputation, enrollment or future program access;
-- whether verified project outcomes have value;
-- exact sponsor authority and budget path.
+```text
+input
+required output
+acceptance
+payout
+SLA
+proof
+failure rule
+replacement rule
+```
 
-### Sponsor gate
+A provider that is talented but cannot work against a bounded brief may be poor orchestration supply for that transaction class.
 
-PASS only if at least one institution makes a real commitment to a defined pilot:
-- cash sponsorship;
-- signed/approved paid pilot;
-- or an equivalent guaranteed budget with explicit deliverables.
+## Phase C — payer / sponsor linkage
 
-Policy incentives alone are not PASS.
+Use real tasks from `EXP-003` or another lawful bounded payer source.
 
-## Phase C — project-buyer discovery
+Possible payer structures:
+- project buyer pays for accepted output;
+- training institution sponsors verified work outcome;
+- employer/sponsor pays for a bounded evaluation/project outcome.
 
-Target: 5–10 real buyers: merchant, SME, OPC founder, institution or other actor with a recent bounded task.
+Policy subsidy or verbal sponsor interest remains insufficient.
 
-Acceptable first task classes:
-- Chinese-internet / competitor research;
-- Excel/data cleanup;
-- document extraction / classification;
-- simple content asset package;
-- small script / automation;
-- simple design / information structuring where acceptance criteria are explicit.
+### Payer gate
 
-Capture:
-- real task from prior 90 days;
-- current workaround;
-- actual staff/cash cost;
-- exact deliverable;
-- acceptance criteria;
-- price;
-- trust objection;
-- willingness to pay now for one pilot.
+PASS when >=1 real payer commits economic value to an exact bounded output.
 
-### Buyer gate
+## Phase D — routed delivery
 
-PASS when at least one buyer commits real payment for a defined deliverable.
+Assign one paid transaction to a non-operator capability provider.
 
-## Phase D — one manually orchestrated project
-
-Proceed only when:
-- learner capability gate passes; and
-- at least one payer gate passes.
-
-Required transaction controls:
-- written brief;
-- deliverables;
-- acceptance criteria;
-- fixed/bounded price;
+Required record:
+- transaction objective;
+- provider selected;
+- capability unit;
+- proof used for selection;
 - provider payout;
-- QA owner;
-- revision limit;
-- deadline;
-- confidentiality boundary;
-- no employment-placement representation;
-- no regulated/prohibited work;
-- acceptance/payment record.
+- acceptance result;
+- revisions;
+- SLA performance;
+- replacement if needed;
+- final settlement.
 
-## Strong pass
+If the operator produces the final deliverable, the transaction may validate demand but does not validate delegated capability routing.
 
-Within one test cycle:
-- >=10 capability conversations;
-- >=5 verified deliverable-capable providers in one narrow class;
-- >=5 sponsor or buyer conversations;
+## Phase E — replacement test
+
+After one accepted output, attempt where practical to prove that the **capability is more stable than the provider identity**.
+
+Strong evidence includes:
+- second provider completes same template;
+- failed provider replaced without redefining buyer outcome;
+- provider becomes unavailable and alternate route succeeds;
+- same provider performs repeated units with stable acceptance.
+
+This contributes to `L6` orchestration evidence.
+
+## Sponsor hypothesis
+
+Xuzhou training-outcome incentives remain a valid payer hypothesis because provider/program economics may improve with learner outcomes.
+
+But:
+- public subsidy != willingness to pay this engine;
+- training credentials != capability proof;
+- outcome sponsorship must become a real approved budget/commitment.
+
+## PASS criteria
+
+### Capability PASS
+- >=5 providers prove one narrow bounded output class;
+- capability-unit terms can be specified;
+- price/availability are known enough to route.
+
+### Transaction PASS
 - >=1 real payer commitment;
-- >=1 project completed and accepted;
-- positive direct contribution after provider payout and operator effort is recorded;
-- at least one repeat / referral / second-project signal.
+- >=1 routed non-operator provider completes accepted output;
+- provider payout and payer settlement recorded.
+
+### Strategic strong PASS
+- acquisition and delivery are delegated in the same transaction (`EXP-008 O2/L4`); or
+- provider replacement / alternate route succeeds (`L6`).
 
 ## Fail / stop
 
-Stop or narrow if:
-- capability proof is much weaker than training credentials suggest;
-- 10 qualified payers produce zero paid-pilot willingness;
-- buyers prefer direct provider access and reject managed QA/routing value;
-- sponsor interest never converts from policy rhetoric to budget;
-- delivery requires employment placement / labor dispatch / uncontrolled on-site work;
-- operator QA cannot reliably assess output;
-- contribution margin disappears after coordination/revision cost.
+Stop/narrow if:
+- credentials greatly exceed actual output ability;
+- providers resist bounded acceptance/SLA at viable payout;
+- quality cannot be verified;
+- buyer sees no orchestration value beyond direct provider access;
+- revisions/coordination erase normalized margin;
+- supply is effectively one irreplaceable person;
+- transaction collapses into regulated recruitment/labor dispatch.
 
-## Relationship to EXP-003
+## Economic truth
 
-EXP-003 begins from a business payer and asks whether a bounded project format sells.
+Provider affordability is not enough.
 
-EXP-007 begins from **idle / under-monetized capability and outcome-linked payer structure**.
+Calculate total completed-outcome cost including:
+- provider payout;
+- sourcing;
+- QA;
+- revisions;
+- replacement risk;
+- operator shadow labor.
 
-The experiments may share a real project if the actor roles are recorded separately, but one transaction must not be counted twice as independent evidence.
+The cheapest nominal provider is not necessarily the cheapest accepted route.
+
+## Relationship to EXP-003 / EXP-008
+
+```text
+EXP-003 finds/validates payer + bounded task
+        ↓
+EXP-007 proves/routs capability supply
+        ↓
+EXP-008 tests delegated acquisition + delegated delivery + acceptance + settlement
+```
+
+Do not double-count one transaction as independent evidence across experiments. Cross-reference it instead.
 
 ## Build rule
 
-Do not build a freelancer marketplace, learning platform, recruitment site or matching app.
-
-The only authorized system is a manual evidence/transaction ledger until repeated accepted paid projects reveal a common bottleneck.
+No freelancer marketplace, learning app or recruitment platform before repeated accepted transactions and provider replacement evidence justify software.
 
 ## Governing question
 
-**Who will pay to turn verified capability into one accepted real-world outcome, and why is that payer better off after paying?**
+> **Can the engine turn a human's claimed skill into a priced, verifiable, replaceable capability unit that reliably contributes to a paid accepted outcome?**
