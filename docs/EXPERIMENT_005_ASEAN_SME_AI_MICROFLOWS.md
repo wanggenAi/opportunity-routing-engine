@@ -1,14 +1,25 @@
 # EXPERIMENT 005 — China–ASEAN SME AI Microflows
 
-Status: `INVESTIGATE`
+Status: `DORMANT / SECONDARY VERTICAL`
 Started: 2026-09-08
-Primary geography: Xuzhou, Jiangsu → ASEAN markets
-Initial ASEAN focus: Malaysia first, then Vietnam / Thailand / Indonesia as evidence justifies
+Last priority review: 2026-09-10
+Primary geography if resumed: Xuzhou, Jiangsu → ASEAN markets
+Initial ASEAN focus if resumed: Malaysia first, then Vietnam / Thailand / Indonesia as evidence justifies
+
+## 0. Current portfolio decision
+
+This experiment remains a legitimate vertical hypothesis, but it is **not currently competitive with the Xuzhou field priorities** because most evidence is policy/capability evidence rather than direct willingness-to-pay evidence for the proposed microflows.
+
+The broad thesis therefore moves from `INVESTIGATE` to `DORMANT / SECONDARY` until one of the following occurs:
+- a real Xuzhou / ASEAN payer presents a repeated workflow and measurable current cost;
+- a real prospect accepts a specific price / deposit-backed concierge test;
+- a concrete cross-border transaction reveals a microflow that clearly outranks the current field experiments.
+
+Do not spend material field time or build a broad SaaS product merely because AI adoption and trade digitalisation are policy priorities.
 
 ## 1. Why this experiment exists
 
 Test whether a commercially attractive niche exists in small, frequent, rules-heavy or coordination-heavy cross-border workflows that:
-
 - matter to SMEs but are too small / fragmented for heavyweight enterprise software;
 - can be improved with AI + structured workflow + bounded human review;
 - have a clearly identifiable payer;
@@ -19,69 +30,54 @@ This is **not** a decision to become a generic AI outsourcing shop.
 
 The target is a narrow class of repeatable micro-workflows where the customer pays for a measurable outcome.
 
-## 2. Evidence already strong enough to justify investigation
+## 2. Evidence already collected
 
-The following are observations, not proof of product-market fit.
+The following observations justify preserving the hypothesis, not prioritizing it.
 
 ### E1 — ASEAN MSMEs face affordability / capability / trust barriers to AI adoption
+ADB's 2026 analysis of MSME AI adoption in Southeast Asia identifies access/affordability, capability/skills, use-case relevance and trust/safety/governance barriers, and discusses low-cost / low-code / pay-as-you-go paths.
 
-ADB's 2026 analysis of MSME AI adoption in Southeast Asia identifies four persistent barriers: access and affordability, capabilities and skills, awareness/use-case relevance, and trust/safety/governance. It explicitly recommends low-cost, low-code and pay-as-you-go adoption paths for MSMEs.
-
-Source: Asian Development Bank, *From Generative to Agentic: The Next Phase of AI Adoption for MSMEs*, 2026.
-
-### E2 — ASEAN policy explicitly prioritizes MSME digital transformation and market participation
-
-ASEAN's Strategic Action Plan on MSME Development 2026–2030 includes accelerating digital and technology transformation, increasing participation in regional/global markets, building digital-economy capability, and supporting micro businesses in adding value to exports through digitalisation.
-
-Source: ASEAN Secretariat, SAP MSMED 2030 priority areas.
+### E2 — ASEAN policy prioritizes MSME digital transformation and market participation
+ASEAN's 2026–2030 MSME development agenda includes digital/technology transformation and greater regional/global market participation.
 
 ### E3 — Cross-border trade remains documentation / rules / digitalisation intensive
+ASEAN customs and trade-facilitation programs continue to emphasize procedure simplification, digitalisation, automation and capacity building.
 
-ASEAN Customs' 2026–2030 programme prioritizes simplifying and modernising customs procedures, digitalisation, customs automation, trade facilitation and border security. ASEAN's 2025 digital trade-facilitation report still identifies policy, legal and technical obstacles and capacity-building needs even though overall implementation has improved.
+### E4 — MSME difficulty navigating trade rules is recognized
+ASEAN business materials recognize that smaller firms can struggle to use trade agreements, rules of origin and customs facilitation.
 
-Sources: ASEAN Customs 2026–2030 Strategic Plans of Customs Development; ASEAN Digital and Sustainable Trade Facilitation 2025.
+### E5 — Cross-border e-commerce barriers remain current
+2026 ASEAN work with ITC continued to analyze and validate MSME cross-border e-commerce barriers with stakeholders.
 
-### E4 — MSME difficulty navigating trade rules is explicitly recognised
+### E6 — China–ASEAN AI cooperation is moving toward use cases and compliance
+2026 cooperation materials emphasize application scenarios, demand matching, standards/rules coordination and cross-border use cases.
 
-ASEAN's 2026 business materials on the upgraded ATIGA state that MSMEs face distinct difficulties using trade agreements and describe the need for actionable guidance on preferential treatment, rules of origin and customs facilitation for businesses with limited trade-compliance resources.
-
-Source: ASEAN for Business Bulletin, First Edition 2026.
-
-### E5 — Cross-border e-commerce barriers are current and validated by stakeholders
-
-ASEAN reported in June 2026 that ITC had developed an analysis of MSME cross-border e-commerce challenges, with findings and proposed priority actions validated by more than 100 stakeholders across government, business-support organisations, marketplaces, technology companies and service providers.
-
-Source: ASEAN Secretariat, International MSME Day 2026.
-
-### E6 — China–ASEAN AI cooperation is explicitly moving toward use cases, demand matching and compliance
-
-China–ASEAN AI cooperation bodies formed in 2026 are publicly emphasizing application scenarios, demand matching, standards/rules coordination, compliance co-building and ASEAN market expansion. Guangxi policy materials specifically name multilingual AI, intelligent customs declaration, overseas-warehouse management, cross-border payment, data compliance and smart-port scenarios.
-
-Sources: PRC MIIT / China–ASEAN AI Center materials; China–ASEAN Business & Investment Summit; Guangxi CPPCC 2026 proposals.
+### Evidence interpretation
+None of E1–E6 is direct proof that a Xuzhou or ASEAN SME will pay this operator for a proposed AI microflow. Policy attention and market friction remain hypothesis generators.
 
 ## 3. Core hypothesis
 
-There exists a set of cross-border workflows with the following structure:
+There may exist cross-border workflows with this structure:
 
 ```text
 SME / trader / service operator experiences repeated friction
         ↓
-Existing solution = manual staff + spreadsheets + messaging + broker / consultant + portal hopping
+Current workaround = staff + spreadsheets + messaging + broker / consultant + portal hopping
         ↓
-Heavy enterprise software is excessive / too broad / too expensive / too difficult to deploy
+Heavy enterprise software is excessive / too broad / too expensive
         ↓
-A bounded AI-assisted workflow can reduce time, error, search or coordination cost
+A bounded AI-assisted workflow reduces time, error, search or coordination cost
         ↓
-Human expert remains in the loop where legal / customs / accounting / certification judgment is regulated
+Qualified human remains in the loop where professional judgment is required
         ↓
 Customer pays for a specific output or recurring workflow
 ```
 
-The hypothesis is **not proven** until payment evidence exists.
+The final arrow remains `UNKNOWN`.
 
-## 4. First candidate problem clusters
+## 4. Preserved candidate microflows
 
-These are hypotheses to investigate, not claims of validated demand.
+These remain a research pool, not promoted opportunities:
 
 1. Commercial invoice / packing-list / bill-of-lading consistency pre-check
 2. Missing-field detection before customs submission
@@ -114,21 +110,18 @@ These are hypotheses to investigate, not claims of validated demand.
 29. Tender / procurement notice extraction into actionable requirements
 30. Repeated compliance Q&A knowledge base built from verified expert answers
 
-## 5. Narrowest starting wedge
+## 5. Provisional wedge if evidence revives the experiment
 
-Default first wedge for field validation:
+> Xuzhou engineering-machinery / component SMEs exporting to Malaysia: document + market-entry compliance pre-check.
 
-> **Xuzhou engineering-machinery / component SMEs exporting to Malaysia: document + market-entry compliance pre-check.**
+Reasons it remains plausible:
+- Xuzhou provides access to a manufacturing ecosystem;
+- Malaysia could support future on-the-ground validation;
+- documents/compliance can produce bounded artifacts;
+- the workflow can begin manually;
+- professional judgments can remain with qualified customs/legal/certification practitioners.
 
-Why this wedge:
-
-- Xuzhou provides local access to a dense manufacturing ecosystem;
-- Malaysia is strategically relevant to the operator's planned location and can later support in-person validation;
-- documents and compliance create bounded artifacts that can be inspected and verified;
-- the workflow can begin manually with AI assistance before product software exists;
-- regulated judgments can remain with qualified customs / legal / certification professionals.
-
-This wedge is provisional and must lose priority if another microflow shows stronger payment evidence.
+But this wedge currently loses priority to experiments with faster local payer tests.
 
 ## 6. Actor model
 
@@ -157,102 +150,75 @@ Potential `CAPABILITY_PROVIDER`:
 `ORCHESTRATOR`:
 - Opportunity Routing Engine operator.
 
-## 7. Hard commercial gates
+## 7. Hard gates before revival
 
 Before any candidate becomes `TRANSACTION_TEST`, require:
-
-- `G0 Actor clarity = PASS`
-- `G1 Payer clarity = PASS`
-- `G2 Transactionability = PASS`
-- `G3 Legal/trust/safety = PASS or CONDITIONAL with explicit boundary`
-- at least one concrete current workaround or substitute;
-- at least one observable cost: money, staff-hours, delay, error/rework or risk;
+- `G0 Actor clarity = PASS`;
+- `G1 Payer clarity = PASS`;
+- `G2 Transactionability = PASS`;
+- `G3 Legal/trust/safety = PASS or CONDITIONAL with explicit boundary`;
+- at least one concrete current workaround;
+- at least one observable cost in money, staff-hours, delay, error/rework or risk;
 - a bounded deliverable;
 - a price hypothesis;
 - a real prospect willing to inspect / trial / pay.
 
 `UNKNOWN != PASS`.
 
-## 8. Five execution phases
+## 8. Execution sequence if resumed
 
-### Phase A — Evidence mining
+### Phase A — evidence mining
+Target 50 problem records with actor, payer, workflow, workaround, cost, frequency, regulatory boundary and confidence.
 
-Target: **50 problem records**.
+### Phase B — rank
+Use `docs/OPPORTUNITY_SCORECARD.md`; select top 10 for interviews and top 3 for concierge design.
 
-Each record must capture actor, payer hypothesis, workflow, current workaround, source, observed cost, frequency evidence, regulatory boundary and confidence.
-
-Stop rule: do not call a problem "real demand" merely because an official policy document mentions the domain.
-
-### Phase B — Rank and select
-
-Use the canonical scorecard.
-
-Target output:
-- top 10 for targeted interviews;
-- top 3 for concierge test design;
-- explicit rejection reasons for low-ranked candidates.
-
-### Phase C — Field / remote validation
-
+### Phase C — payer validation
 For each top candidate:
 - 5–10 conversations with actual operators / payers;
-- obtain real anonymised workflow examples where lawful;
-- document current workaround and time / money cost;
-- ask for a concrete paid or deposit-backed trial rather than generic interest.
+- real anonymized workflow examples where lawful;
+- current workaround and cost;
+- concrete paid/deposit-backed trial ask.
 
-Xuzhou allows local visits. Remote validation can target forwarders, trade-service firms and ASEAN-side operators.
+### Phase D — paid concierge
+Deliver manually with AI assistance first. Keep professional/legal/customs/certification judgment with qualified accountable parties.
 
-### Phase D — Paid concierge test
-
-Deliver manually with AI assistance first.
-
-Example deliverable:
-- uploaded document set;
-- consistency / missing-item report;
-- requirements checklist;
-- source-backed risk flags;
-- questions that must be escalated to a qualified professional;
-- turnaround-time and acceptance criteria.
-
-The tool must never present itself as customs / legal / certification authority.
-
-### Phase E — Automation only after repetition
-
-Only automate the repeated bottleneck that survives paid tests.
-
-Candidate automation order:
+### Phase E — automate only repetition
+Potential automation order:
 1. structured intake;
 2. document extraction;
 3. deterministic cross-document checks;
-4. source retrieval / provenance;
+4. source/provenance retrieval;
 5. workflow routing;
 6. audit trail;
 7. expert escalation;
-8. reusable customer / SKU knowledge.
+8. reusable customer/SKU knowledge.
 
-## 9. 30-day measurable objective
+## 9. Revival success criteria
 
-Success is not "software finished".
-
-Success means:
-- >= 50 evidence records;
-- >= 20 records with at least medium evidence confidence;
-- >= 15 real conversations with need actors / payers / providers;
-- >= 5 real workflow samples or detailed walkthroughs;
-- >= 3 explicit price conversations;
-- >= 1 paid or deposit-backed concierge test;
-- one ranked decision: `BUILD_NARROW`, `KEEP_MANUAL`, `PIVOT_MICROFLOW`, or `REJECT_VERTICAL`.
+A revived test should require:
+- >=50 evidence records;
+- >=20 medium-confidence records;
+- >=15 real need-actor/payer/provider conversations;
+- >=5 real workflow samples / walkthroughs;
+- >=3 explicit price conversations;
+- >=1 paid or deposit-backed concierge test;
+- final decision `BUILD_NARROW | KEEP_MANUAL | PIVOT_MICROFLOW | REJECT_VERTICAL`.
 
 ## 10. Safety / compliance boundary
 
-The system may assist with retrieval, extraction, comparison, checklisting and evidence organisation.
+The system may assist with retrieval, extraction, comparison, checklisting and evidence organization.
 
-It must not silently replace licensed / accountable professional judgment. Customs classification, legal advice, tax treatment, certification conclusions, sanctions/export-control decisions and other regulated determinations require explicit source provenance and, where appropriate, qualified human confirmation.
+It must not silently replace licensed/accountable professional judgment. Customs classification, legal advice, tax treatment, certification conclusions, sanctions/export-control decisions and other regulated determinations require source provenance and, where appropriate, qualified human confirmation.
 
 ## 11. Current decision
 
-`GO: INVESTIGATE AND VALIDATE`.
+`DORMANT / SECONDARY VERTICAL`.
 
-Do **not** yet build a broad SaaS product.
+Current higher-priority field tests are:
+1. EXP-006 youth micro-experience payer commitment;
+2. EXP-007 skills-to-income payer discovery;
+3. EXP-003 Xuzhou bounded SME micro-project;
+4. EXP-004 pet trust-gate resolution.
 
-Build only the evidence pipeline and ranking tooling needed to discover which microflow deserves a paid test.
+Reopen EXP-005 only when direct workflow/payer evidence changes the comparison.
