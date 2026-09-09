@@ -127,7 +127,52 @@ Highest-value evidence includes:
 
 Macro data, surveys, searches, complaints and social content may generate hypotheses but cannot independently validate a transaction.
 
-## 9. Long-run learning architecture
+## 9. Intervention contamination truth
+
+A strong observed outcome can be commercially misleading if it was created or amplified by an external intervention.
+
+Relevant interventions include:
+- government subsidy;
+- public procurement;
+- official traffic / media exposure;
+- platform subsidy;
+- free venue/resource support;
+- grant-funded programming;
+- one-time festival/event traffic;
+- institution/employer mandates;
+- unusually strong influencer exposure.
+
+The engine must distinguish:
+
+```text
+DEMAND EVIDENCE
+CAPABILITY EVIDENCE
+SPONSOR EVIDENCE
+INDEPENDENT PAYER EVIDENCE
+```
+
+They are not interchangeable.
+
+Example:
+
+> A youth program sends people into a cafe and cafe revenue improves.
+
+This supports that:
+- youth traffic can have merchant value;
+- the venue can host the activity;
+- a sponsor/intervention can create a working transaction.
+
+It does **not** prove:
+- the cafe would independently pay an external orchestrator;
+- the same economics exist without official traffic;
+- another ordinary cafe would pay;
+- participant direct-pay willingness exists.
+
+When a promoted hypothesis relies materially on a subsidized / officially promoted / unusually supported success case, at least one comparison without the same support is required before generalizing the payer thesis.
+
+Source of truth: `docs/METHODOLOGY.md`, section `Intervention contamination and counterfactual controls`.
+
+## 10. Long-run learning architecture
 
 The intended learning system is now:
 
@@ -144,7 +189,7 @@ This is a long-run architecture, not authorization to build those systems now.
 
 The manual transaction ledger must come first. Automation earns its place only after repeated real transactions expose a recurring bottleneck.
 
-## 10. Current truth status
+## 11. Current truth status
 
 **Status: GO — continue building and testing the Actor-First Opportunity Routing method. No vertical is validated.**
 
@@ -157,7 +202,7 @@ It contains **38 friction records** across youth, students, workers, households,
 
 Only four currently deserve targeted validation.
 
-## 11. Current execution priority
+## 12. Current execution priority
 
 Source of truth:
 - `docs/results/EXP_002_XUZHOU_ACTOR_FIRST_RANKING_V2_2026-09-10.md`
@@ -179,6 +224,9 @@ Why it moved to first:
 
 Critical unknown:
 > Will the participant, venue, or both make real economic commitment for one exact event?
+
+Selection-bias correction:
+> The strongest cafe case received youth-program / official traffic support. It is a mechanism anchor, not sufficient independent merchant-payer proof. EXP-006 therefore requires merchant controls without relying on the same support story.
 
 No software build is authorized.
 
@@ -217,7 +265,7 @@ Correction from V1:
 
 The purpose of EXP-004 is now explicitly to determine whether trust controls can remove that penalty economically.
 
-## 12. Current explicit rejections / dormant forms
+## 13. Current explicit rejections / dormant forms
 
 Do not spend meaningful build time on these current forms:
 - generic Xuzhou job-matching platform;
@@ -234,7 +282,7 @@ Do not spend meaningful build time on these current forms:
 
 These can be revisited only if new evidence changes the transaction mechanism.
 
-## 13. Public / sponsored payer truth
+## 14. Public / sponsored payer truth
 
 A public or third-party payer can be commercially real, but must be modeled correctly.
 
@@ -246,9 +294,10 @@ Examples currently observed:
 But:
 - public provision must not be misreported as private consumer willingness to pay;
 - theoretical sponsor interest is not a PASS;
-- long procurement cycles and regulated service boundaries must be scored honestly.
+- long procurement cycles and regulated service boundaries must be scored honestly;
+- subsidized success must not be generalized to independent payer behavior without a control.
 
-## 14. Experiment ID truth
+## 15. Experiment ID truth
 
 Repository history created an ID collision:
 - `docs/EXPERIMENT_005_ASEAN_SME_AI_MICROFLOWS.md` already exists as EXP-005;
@@ -261,7 +310,7 @@ Canonical resolution as of 2026-09-10:
 
 No experiment history is deleted to hide the inconsistency.
 
-## 15. Current field rule
+## 16. Current field rule
 
 Every field trip must resolve a defined unknown.
 
@@ -281,7 +330,7 @@ Next action:
 
 A friendly answer is not evidence. A refusal at a real price is evidence. A deposit is stronger. Completed payment + delivery + repeat/referral is stronger still.
 
-## 16. Immediate build rule
+## 17. Immediate build rule
 
 Current priority is:
 
@@ -303,7 +352,7 @@ build platform
 → search for users later
 ```
 
-## 17. Hard unknowns
+## 18. Hard unknowns
 
 1. Can the engine repeatedly discover opportunities that survive real payment tests?
 2. Can it discover payer shifts earlier than ordinary idea-first research?
@@ -315,7 +364,8 @@ build platform
 8. When does orchestration create defensible value rather than bypass risk?
 9. Can outcome data improve future ranking decisions?
 10. Which repeated bottleneck, if any, eventually justifies software automation?
+11. How often do subsidized / intervention-backed showcase cases overstate independent payer economics, and can simple controls prevent that error?
 
-## 18. Governing truth
+## 19. Governing truth
 
 **Trends tell us where to look. Actors show us the friction. Money, delivery and repetition tell us whether we found a business.**
