@@ -2,40 +2,19 @@
 
 ## Purpose
 
-The Opportunity Routing Engine is actor-first. It must not assume that the person with the problem, the beneficiary, the payer, and the capability provider are the same entity.
+The engine is actor-first but executes capability-first.
 
-This document defines the canonical actor-role model used across research, scoring, experiments and future code.
+An `Actor` is a participant in the economic system. A `CapabilityUnit` is a bounded function required to complete a transaction. Do not confuse the two.
+
+Strategic kernel: `docs/RESOURCE_ORCHESTRATION_KERNEL.md`.
 
 ## 1. Actor
 
-An `Actor` is any person, household, group, organization, institution, or resource-owning entity relevant to an opportunity.
+An `Actor` is any person, household, group, organization, institution or resource-owning entity relevant to an opportunity.
 
-Examples:
+Examples include individuals, households, students, graduates, workers, merchants, freelancers, enterprises, manufacturers, institutions, communities, public bodies, overseas actors and owners of idle skills/assets/space/data/access.
 
-- student;
-- graduate;
-- unemployed worker;
-- flexible worker;
-- single young adult;
-- tenant;
-- parent;
-- child;
-- elderly person;
-- caregiver;
-- pet owner;
-- merchant;
-- skilled worker;
-- farmer;
-- freelancer;
-- enterprise;
-- manufacturer;
-- school;
-- community;
-- government body;
-- overseas buyer/consumer;
-- owner of idle time, skill, equipment, inventory, vehicle, space or data.
-
-## 2. Canonical roles
+## 2. Canonical actor roles
 
 ### `NEED_ACTOR`
 Experiences the friction or unmet need.
@@ -46,100 +25,211 @@ Receives the solved outcome.
 ### `PAYER`
 Provides money or other economically meaningful consideration.
 
-### `CAPABILITY_PROVIDER`
-Provides skill, labor, product, software, AI, service, equipment, information or other capability.
+### `SPONSOR`
+Pays or subsidizes because another actor's outcome creates value for the sponsor.
 
 ### `RESOURCE_OWNER`
-Controls a scarce or idle resource used in the transaction.
+Controls a resource used in the transaction: time, skill, space, equipment, inventory, data, access, audience, distribution, capital or another scarce input.
 
-### `SPONSOR`
-Pays or subsidizes while another actor receives the value.
+### `CAPABILITY_PROVIDER`
+Commits to perform one or more bounded capability units.
 
 ### `ORCHESTRATOR`
-Defines requirements, routes capability, coordinates, creates trust/verification, and records outcomes.
+Defines the transaction objective, decomposes required capabilities, defines interfaces/incentives/trust/acceptance, routes resources, governs exceptions, settles or verifies settlement, and learns from outcomes.
 
-One actor may hold multiple roles.
+One actor may hold several roles.
 
-## 3. Common transaction patterns
+**The operator is not automatically the `CAPABILITY_PROVIDER`.**
 
-### Direct C2C
+## 3. Capability Unit
+
+A capability is not merely a skill label such as `developer`, `salesperson` or `designer`.
+
+A routable `CapabilityUnit` is a contractible unit of work:
+
 ```text
-Individual need actor/payer
-        ↓
-Individual capability provider
+capability_unit_id:
+purpose:
+input:
+required_output:
+acceptance_criteria:
+provider_class:
+proof_required:
+price_model:
+payout_condition:
+deadline_sla:
+dependencies:
+trust_safety_requirements:
+replacement_rule:
+failure_refund_rule:
 ```
 
-### B2C
+Examples:
+
 ```text
-Individual need actor/payer
-        ↓
-Business/provider capability
+"sales"
+→ weak capability description
+
+"Reach 20 qualified Xuzhou SME decision-makers from an approved target list and produce >=3 booked requirement interviews; payout RMB X per attended qualified interview"
+→ routable capability unit
 ```
 
-### C2B
 ```text
-Enterprise need actor/payer
-        ↓
-Individual capability provider
+"find young people"
+→ weak capability description
+
+"Recruit 8 qualified participants who place the defined refundable deposit for the same event; payout per valid deposit / attendance"
+→ routable capability unit
 ```
 
-### B2B
+## 4. Execution-function map
+
+Common functions should be modeled as capabilities rather than silently assigned to the operator:
+
 ```text
-Organization need actor/payer
-        ↓
-Organization capability provider
+Demand access
+├─ signal collection
+├─ target discovery
+├─ lead qualification
+├─ outreach
+├─ BD / closing
+└─ participant recruitment
+
+Problem definition
+├─ interview
+├─ requirement extraction
+├─ scope definition
+└─ acceptance design
+
+Delivery
+├─ research
+├─ software / AI
+├─ data work
+├─ design / content
+├─ specialist work
+├─ physical execution
+├─ venue / equipment
+└─ logistics
+
+Trust / governance
+├─ identity / credential verification
+├─ QA
+├─ acceptance testing
+├─ evidence capture
+├─ exception handling
+└─ dispute boundaries
+
+Settlement
+├─ collection
+├─ provider payout
+├─ refunds
+└─ revenue-share accounting
 ```
 
-### Family-sponsored
+## 5. Demand-source actor is not necessarily the orchestrator
+
+The actor who discovers or reaches the payer may itself be a capability provider.
+
+Example:
+
 ```text
-Elderly/child beneficiary
+PAYER: local merchant
         ↑
-Family-member payer
-        ↓
-Capability provider
-```
-
-### Institution-sponsored
-```text
-Resident/student/public beneficiary
+BD / demand-source provider
         ↑
-Institution payer
+ORCHESTRATOR defines target + qualification + payout
         ↓
-Provider/network
+DELIVERY provider(s)
 ```
 
-### Resource exchange
+The operator does not need to personally cold-call the payer for the transaction to be valid.
+
+What matters is whether demand access itself can be bounded, priced and verified.
+
+## 6. Provider identity is replaceable; capability contract should remain stable
+
+The long-run goal is not to accumulate names in a contact list.
+
+The engine should learn:
+- which capability unit is needed;
+- which providers can satisfy it;
+- at what cost;
+- with what reliability;
+- under what constraints;
+- how quickly a failed provider can be replaced.
+
+A high-value capability graph therefore links actors to **proven outputs**, not only claimed skills.
+
+## 7. Common orchestration structures
+
+### Simple delegated delivery
 ```text
-Actor with unmet need
+Need actor / payer
         ↓
-Owner of idle asset/time/space/inventory
+Orchestrator defines outcome
+        ↓
+Capability provider delivers
 ```
 
-### Multi-sided
+### Delegated acquisition + delivery
 ```text
-Need actor
-   ↘
-    Orchestrator / platform
-   ↗        ↖
-Payer      Capability provider
+Demand-source / BD provider
+        ↓
+qualified payer
+        ↓
+Orchestrator
+   ├─ capability A
+   ├─ capability B
+   └─ QA / acceptance
+        ↓
+accepted outcome
 ```
 
-## 4. Actor record schema
+### Sponsored multi-sided
+```text
+Beneficiary
+   ↑
+Sponsor / payer
+   ↓
+Orchestrator
+   ├─ acquisition capability
+   ├─ resource owner
+   ├─ delivery capability
+   └─ QA / measurement
+```
 
-Recommended minimum fields:
+### Composite resource route
+```text
+Desired outcome
+        ↓
+Orchestrator decomposes
+   ├─ AI capability
+   ├─ human specialist
+   ├─ local resource
+   └─ verifier
+        ↓
+accepted composite output
+```
+
+## 8. Actor record schema
+
+Recommended minimum actor fields:
 
 ```text
 actor_id:
 actor_type:
 segment:
 geography:
+roles:
 context:
 current_behavior:
 constraints:
 trust_requirements:
 ability_to_pay:
 observed_payment_behavior:
-resource_or_capability:
+resources_claimed:
+capabilities_claimed:
+capabilities_proven:
 source:
 observed_at:
 verification_status:
@@ -148,7 +238,7 @@ confidence:
 
 Do not store unnecessary sensitive personal data.
 
-## 5. Opportunity role map
+## 9. Opportunity role map
 
 Every promoted opportunity should include:
 
@@ -156,34 +246,18 @@ Every promoted opportunity should include:
 Need actor:
 Beneficiary:
 Payer:
-Capability provider:
-Resource owner (if any):
 Sponsor (if any):
+Resource owner(s):
+Required capability units:
+Candidate capability providers:
+Demand-source capability:
+QA / acceptance capability:
 Orchestrator value:
 Transaction type:
 ```
 
-If payer is `UNKNOWN`, the opportunity cannot advance to serious transaction testing.
+If payer is unknown, test payer discovery. If capability units cannot be defined, the opportunity is not orchestration-ready.
 
-## 6. Actor-first scan rule
+## 10. Governing principle
 
-Broad scans must not begin from only one payer type.
-
-For Xuzhou-first research, actively look for change and friction among:
-
-1. university students / graduates;
-2. young workers / flexible workers;
-3. single / renting adults;
-4. parents / households;
-5. elderly / caregivers / adult children;
-6. pet owners;
-7. value-conscious consumers;
-8. skilled workers / farmers / service workers;
-9. merchants / self-employed operators;
-10. SMEs / manufacturers;
-11. institutions / communities;
-12. holders of idle personal or organizational resources.
-
-## 7. Governing principle
-
-**Do not ask only “who has money?” Ask “who has the need, who benefits, who loses if it stays unsolved, who can pay, and who can solve it?”**
+**Ask not only who needs, pays and solves. Ask what exact capabilities are required, whether each can be contracted and replaced, and what value remains for the orchestrator after everyone is paid.**
