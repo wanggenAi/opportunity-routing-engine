@@ -1,436 +1,375 @@
-# Methodology — Observe Actors, Find the Transaction
+# Methodology — Discover Outcomes, Orchestrate Capabilities
 
 ## 1. Purpose
 
-This document defines how the Opportunity Routing Engine converts social change into testable commercial opportunities.
+This document defines how the Opportunity Routing Engine converts real-world change into **delegatable, verifiable transactions**.
+
+Strategic kernel: `docs/RESOURCE_ORCHESTRATION_KERNEL.md`.
 
 The method is empirical:
 
-> Observe which actors are changing, identify the friction created by that change, separate beneficiary from payer, find existing capability, and validate the transaction with real behavior and money.
+> Observe actors and changing behavior, find a valuable desired outcome, identify the payer, decompose the outcome into capability units, route those units to resources, define incentives/trust/acceptance, execute, settle and learn.
 
-Philosophy may guide where to look; evidence decides whether to act.
+## 2. Unit of opportunity analysis
 
-## 2. Unit of analysis: Actor × Change × Need
+The discovery unit remains:
 
-Do not begin with an industry, product, company, or assumed payer.
+```text
+Actor × Change × Friction × Desired Outcome × Payer
+```
 
-Begin with an **actor or group undergoing a measurable change**.
+The execution unit becomes:
 
-Examples:
+```text
+Transaction Objective × Capability Units × Resource Routes × Acceptance × Settlement
+```
 
-- students have more skills/tools but weak access to paid projects;
-- young adults reduce large purchases but still seek low-cost experiences;
-- elderly people face increasing digital-service friction;
-- adult children have less time to coordinate parents' daily needs;
-- pet owners spend more time away from home;
-- households prefer repair/rental/second-hand instead of replacement;
-- skilled workers have fragmented availability that does not map cleanly to demand;
-- merchants have idle off-peak capacity;
-- AI lowers the cost of a knowledge task;
-- one geography has idle resources while another has scarcity.
-
-The system must deliberately scan both individuals and organizations.
+Do not begin from a product, platform, provider list or assumed operator task.
 
 ## 3. Canonical reasoning chain
 
 ```text
-ACTOR
-→ CHANGE
-→ BEHAVIOR
+ACTOR / CHANGE / BEHAVIOR
 → FRICTION
-→ NEED
+→ DESIRED OUTCOME
 → BENEFICIARY
 → PAYER
 → CURRENT WORKAROUND
-→ CAPABILITY
-→ TRANSACTION
-→ TEST
+→ TRANSACTION OBJECTIVE
+→ CAPABILITY DECOMPOSITION
+→ CAPABILITY UNITS
+→ RESOURCE / PROVIDER ROUTING
+→ INCENTIVE + INTERFACE + TRUST DESIGN
+→ EXECUTION
+→ ACCEPTANCE
+→ SETTLEMENT
 → OUTCOME
+→ REPUTATION / LEARNING
 ```
 
-### Step A — Actor
-Who exactly is changing or experiencing friction?
+## 4. Discovery stage
 
-Possible actor types:
+### A — Actor / change
+Identify who is changing and what changed.
 
-- individual;
-- household/family;
-- student/graduate;
-- worker/freelancer/technician/farmer;
-- elderly person/caregiver;
-- parent/child;
-- pet owner;
-- merchant/self-employed operator;
-- enterprise/manufacturer;
-- institution/community;
-- overseas actor;
-- owner of idle time, skill, equipment, vehicle, inventory, data, space or other resources.
+### B — Behavior / friction
+Find observable behavior, delay, cost, risk, mismatch, idle resource or repeated workaround.
 
-Avoid labels that are too broad to validate.
+### C — Desired outcome
+Write the need as an outcome, not a product request:
 
-Weak:
-> young people
+> `[actor] needs [measurable outcome] under [constraints] because the current workaround costs [money/time/risk/opportunity].`
 
-Stronger:
-> Xuzhou university students with basic design/video/data skills who want paid project experience this semester.
+### D — Beneficiary / payer
+Separate who receives value from who pays.
 
-### Step B — Change
-What is measurably changing for this actor?
+Test direct, family, employer, institution, sponsor, supplier, merchant, platform and multi-sided payer structures where relevant.
 
-Possible evidence:
+### E — Payment evidence
+Look for actual purchases, budgets, procurement, hiring, paid substitutes, deposits, costly workarounds, sponsor spend, repeat behavior and explicit economic loss.
 
-- prices / income / employment;
-- demographics / family structure;
-- technology adoption;
-- regulation/policy;
-- purchase/channel mix;
-- lifestyle/time-use;
-- search/marketplace activity;
-- migration, aging, housing, education, transport;
-- resource utilization.
+Complaint and interest remain weak evidence.
 
-### Step C — Behavior
-How is the actor responding?
+## 5. Convert demand into a transaction objective
 
-Look for actions:
+Do not route a vague request such as:
 
-- delaying purchases;
-- switching to cheaper substitutes;
-- renting, sharing, repairing, buying used;
-- seeking side income;
-- asking relatives/strangers for help;
-- using informal groups;
-- buying convenience;
-- outsourcing;
-- using AI/self-service;
-- selling idle resources;
-- changing where/how they transact.
+> "I need AI."
 
-### Step D — Friction
-What difficulty, cost, uncertainty, delay, trust problem, coordination burden or mismatch appears?
+Convert it into something measurable, e.g.:
 
-The friction must be specific and observable.
+> "For 300 historical quotations, create a searchable structured dataset and generate a draft quotation from a defined product/input schema, with human final approval, within 5 working days."
 
-### Step E — Need
-Express the friction as a desired outcome:
+A `TransactionObjective` should define:
 
-> `[actor] needs [measurable outcome] under [constraints] because the current workaround is [costly/slow/risky/unavailable].`
+```text
+payer:
+beneficiary:
+desired outcome:
+scope:
+inputs available:
+required final output:
+acceptance criteria:
+deadline:
+budget / price logic:
+trust / legal boundaries:
+failure / refund condition:
+```
 
-### Step F — Beneficiary
-Who actually receives the value if solved?
+If the outcome cannot be bounded, do not pretend it is ready to route.
 
-This may differ from the actor who initiated the request.
+## 6. Capability decomposition
 
-### Step G — Payer
-Who loses enough money, time, opportunity, convenience, risk or reputation to pay?
+Ask:
 
-Do not assume the beneficiary pays.
+> What functions must succeed for this outcome to be accepted?
 
-Possible structures:
+Break the transaction into the smallest economically useful units, not into arbitrary microtasks.
 
-- user pays;
-- family member pays;
-- employer pays;
-- supplier pays;
-- institution/government pays;
-- advertiser/sponsor pays;
-- counterparty pays;
-- platform pays/subsidizes;
-- multiple actors share payment.
+Example:
 
-A need with low direct willingness to pay may still be commercially viable if a credible third-party payer exists.
+```text
+Customer quotation improvement
+├─ requirement interview
+├─ data extraction / cleaning
+├─ pricing-rule clarification
+├─ template generation
+├─ automation implementation
+├─ QA against sample cases
+└─ final acceptance
+```
 
-### Step H — Current workaround
-What happens today?
+For a youth event:
 
-Look for:
+```text
+Event outcome
+├─ merchant acquisition / BD
+├─ venue / coffee capability
+├─ participant recruitment
+├─ booking / collection
+├─ hosting
+├─ attendance verification
+└─ settlement / feedback
+```
 
-- family/friend help;
-- chat groups;
-- agencies;
-- manual labor;
-- repeated travel/waiting;
-- informal cash services;
-- premium software;
-- hiring;
-- fragmented vendors;
-- doing nothing and accepting loss;
-- free alternatives with hidden time cost.
+This means the operator does not have to personally sell to merchants or recruit participants.
 
-The workaround reveals payment potential and the benchmark to beat.
+## 7. Capability Unit specification
 
-### Step I — Capability
-What existing ability/resource can solve the requirement?
+For each recurring capability unit define:
 
-Capability may be:
+```text
+purpose:
+input:
+required_output:
+acceptance_criteria:
+provider_class:
+proof_required:
+price_model:
+payout_condition:
+deadline_sla:
+dependencies:
+trust_safety_requirements:
+replacement_rule:
+failure_refund_rule:
+```
 
-- another individual;
-- student/freelancer/specialist;
-- skilled worker;
-- business/provider;
-- AI/model/software;
-- product/manufacturer;
-- physical asset;
-- inventory;
-- vehicle/space;
-- local presence;
-- data/information;
-- institution;
-- composite workflow.
+A capability that cannot be specified or verified is not safely routable yet.
 
-### Step J — Transaction design
-Turn the need into something purchasable.
+## 8. Demand acquisition is a capability
 
-Define:
+Do not equate `finding demand` with `the operator must sell`.
 
-- need actor;
-- beneficiary;
-- payer;
-- provider(s);
-- orchestrator role;
-- deliverable/outcome;
-- trust/safety mechanism;
-- acceptance criteria;
-- price logic;
-- timing;
-- responsibility boundaries;
-- legal/regulatory constraints;
-- failure/refund/stop conditions.
+Possible demand-source routes include:
+- commissioned BD;
+- industry connectors;
+- merchants/service providers with existing relationships;
+- communities;
+- associations;
+- referral partners;
+- online inbound;
+- procurement/RFQ feeds;
+- public task boards;
+- platform channels;
+- existing providers who detect adjacent needs.
 
-If these cannot be bounded, the opportunity is not transaction-ready.
+A demand-source capability can be paid by:
+- qualified meeting;
+- accepted lead;
+- converted payer;
+- completed transaction;
+- recurring account revenue.
 
-### Step K — Smallest real test
+The payout event must be explicit and should avoid rewarding low-quality spam.
 
-Do not build a platform first.
+## 9. Resource routing
 
-Prefer tests such as:
+For each capability unit, search across:
+- individual specialists;
+- students / graduates;
+- freelancers;
+- businesses;
+- institutions;
+- AI / software;
+- physical assets / venues / equipment;
+- channels / audiences;
+- composite routes.
 
-- Will 10 people in the target group reveal the same recent paid workaround?
-- Will one family pay RMB 50/100/300 for a bounded result?
-- Will one merchant accept an off-peak demand-routing test?
-- Will one pet owner pay for a trusted local task?
-- Will one enterprise pay for a fixed micro-project?
-- Can one provider deliver to acceptance standard?
-- Can the transaction leave positive contribution margin?
+Routing should optimize expected accepted outcome, not lowest quoted price.
 
-### Step L — Outcome learning
+Consider:
+
+```text
+output fit
+reliability
+proof
+speed
+availability
+trust/safety
+revision probability
+replacement ease
+total economic cost
+```
+
+## 10. Incentive and interface design
+
+Every multi-party transaction requires explicit interfaces.
+
+For each edge between capability units define:
+- what input is handed over;
+- format / completeness requirements;
+- deadline;
+- who accepts it;
+- what happens on defect;
+- payout trigger.
+
+Prefer economic incentives tied to observable outcomes:
+- fixed accepted-output fee;
+- qualified-lead fee;
+- conversion fee;
+- milestone payment;
+- success fee;
+- minimum guarantee + variable share;
+- quality / repeat bonus.
+
+Do not rely on informal goodwill for essential execution.
+
+## 11. Orchestrator value test
+
+Before promoting an opportunity, ask:
+
+> What becomes materially better because the orchestration layer exists?
+
+Possible answers:
+- demand becomes precise;
+- multiple capabilities are composed;
+- providers are qualified;
+- trust is manufactured;
+- failures are replaced;
+- QA/acceptance is standardized;
+- settlement is simpler;
+- buyer coordination cost falls;
+- outcome accountability improves;
+- accumulated reliability data improves future routing.
+
+If the answer is only `we introduce A to B`, orchestration value is weak.
+
+## 12. Delegation-first execution
+
+For every task:
+
+```text
+ELIMINATE?
+↓ no
+AUTOMATE SAFELY?
+↓ no
+DELEGATE AS BOUNDED CAPABILITY?
+↓ no
+OPERATOR TEMPORARILY EXECUTES
+```
+
+Temporary operator execution is allowed only as a learning shortcut.
 
 Record:
+- reason operator performed it;
+- time spent;
+- estimated market replacement cost;
+- plan to externalize it.
 
-- actor type;
-- beneficiary;
-- payer;
-- acquisition channel;
-- stated need;
-- actual payment;
-- price;
-- provider/resource;
-- delivery time;
-- trust objections;
-- defects/failures;
-- refund/dispute;
-- repeat/referral;
-- reasons for rejection.
+The system should progressively move from O0 to O2+ as defined in `RESOURCE_ORCHESTRATION_KERNEL.md`.
 
-## 4. Actor scan matrix
+## 13. Economic accounting
 
-Every broad social scan should intentionally cover multiple actor classes rather than collapsing into enterprise problems.
-
-Minimum categories for a local scan:
+For each real test record:
 
 ```text
-Individuals
-├─ students / graduates
-├─ young workers / flexible workers
-├─ single / renting adults
-├─ parents / households
-├─ elderly / caregivers / adult children
-├─ pet owners
-├─ value-conscious consumers
-├─ skilled workers / farmers / service workers
-└─ owners of idle personal resources
-
-Organizations
-├─ merchants / self-employed
-├─ SMEs
-├─ manufacturers
-├─ schools / institutions
-├─ communities
-└─ overseas actors
+payer_inflow:
+demand_source_payout:
+provider_payouts:
+resource_costs:
+qa_trust_costs:
+refund_failure_reserve:
+other_operating_costs:
+cash_contribution_margin:
+operator_hours_by_function:
+operator_shadow_rate:
+operator_shadow_cost:
+normalized_orchestration_margin:
 ```
 
-A scan is biased if >50% of promoted hypotheses assume enterprises are the payer without evidence that enterprise opportunities are objectively stronger.
+A positive cash margin with large unpaid operator labor is not proof of repeatable economics.
 
-## 5. Market-structure matrix
+## 14. Smallest decisive test
 
-For each opportunity, test whether the strongest structure is:
+Prefer a test that proves the routing system, not founder hustle.
 
-- `B2B`
-- `B2C`
-- `C2C`
-- `C2B`
-- `SPONSORED / THIRD-PARTY-PAYER`
-- `MULTI-SIDED`
+Examples:
+- pay a connector only for a qualified attended buyer interview;
+- route one bounded digital task to a provider and verify accepted output;
+- hire/reward a participant recruiter for real deposits rather than recruit personally;
+- let a merchant BD resource obtain one authorized venue commitment;
+- replace one failed provider and still deliver on time;
+- complete one transaction where acquisition and delivery are both delegated.
 
-Do not force a structure because it is familiar.
-
-## 6. Demand migration
-
-Look for where money, time, attention or resources move:
+## 15. Evidence levels
 
 ```text
-premium → value-for-money
-new → repair / second-hand
-ownership → rental / shared use
-large commitment → small trial
-full-time job → project / flexible work
-manual work → AI-assisted work
-family self-coordination → paid convenience
-offline friction → local/on-demand service
-idle personal capability → paid micro-task
-unused asset → rental/resale
+L0 narrative / stated opinion
+L1 recent behavior / workaround
+L2 exact price / transaction terms accepted verbally
+L3 real deposit / authorized commitment / signed task
+L4 completed accepted transaction + settlement
+L5 repeat / referral
+L6 delegated repeat with provider replacement or multiple routes
 ```
 
-The opportunity often exists on the receiving side of the migration.
+`L6` is strategically important because it begins to prove the engine rather than one provider relationship.
 
-## 7. Complaint mining
+## 16. Intervention contamination
 
-Complaints are sensors, not proof.
+Successful cases may be distorted by government subsidy, public traffic, platform subsidy, free resources, grants, influencer exposure, festivals or institutional mandates.
 
-For each cluster ask:
+Separate:
+- `DEMAND_EVIDENCE`;
+- `CAPABILITY_EVIDENCE`;
+- `SPONSOR_EVIDENCE`;
+- `INDEPENDENT_PAYER_EVIDENCE`.
 
-1. Which exact actor is complaining?
-2. What changed recently?
-3. What action do they take now?
-4. What does that workaround cost in money/time/risk?
-5. Who benefits if solved?
-6. Who could plausibly pay?
-7. Is anyone already paying for substitutes?
-8. What capability is underused nearby?
-9. Why do current solutions fail?
+When a payer thesis depends materially on intervention, use a comparable control without that support before generalizing.
 
-A complaint with no costly workaround and no payer remains `SIGNAL`.
+## 17. Opportunity anti-patterns
 
-## 8. Intervention contamination and counterfactual controls
-
-Successful cases can produce misleading commercial inference when an external intervention helped create the observed outcome.
-
-Common contaminating interventions include:
-- government subsidy;
-- public procurement;
-- official traffic / promotion;
-- platform subsidy;
-- free venue/resource support;
-- grant-funded programming;
-- unusually strong influencer exposure;
-- one-time festival/event traffic;
-- employer/institution mandates.
-
-Example failure mode:
-
-```text
-public program drives users into a merchant
-→ merchant revenue improves
-→ researcher observes success
-→ researcher incorrectly concludes merchant would pay an independent orchestrator for the same traffic
-```
-
-The observed success may prove:
-- the beneficiary values the outcome;
-- the capability works;
-- traffic can convert;
-- a sponsor can create value.
-
-It does **not** automatically prove:
-- who would pay without the intervention;
-- how much they would pay;
-- whether acquisition economics survive without subsidy;
-- whether the result generalizes to ordinary actors.
-
-### Required contamination record
-
-For any strong showcase case, record where relevant:
-
-```text
-intervention_present:
-intervention_type:
-who_funded_it:
-who_received_value:
-what would happen without it: UNKNOWN / EVIDENCED
-independent_payer_observed: YES / NO / UNKNOWN
-control_required: YES / NO
-```
-
-### Counterfactual-control rule
-
-When a promoted hypothesis depends heavily on a subsidized / officially promoted / unusually supported success case, compare it against at least one actor or transaction without the same support before generalizing the payer thesis.
-
-The control does not need to be a randomized experiment. Early-stage commercial controls may be:
-- similar merchant without official traffic;
-- similar household without subsidy;
-- normal buyer versus grant-funded buyer;
-- independent acquisition versus platform-subsidized acquisition;
-- ordinary period versus festival/event spike.
-
-The purpose is to answer:
-
-> **Is the payer mechanism intrinsic to the transaction, or are we observing the economics of the intervention?**
-
-Do not remove an opportunity because intervention exists. Instead separate:
-- `DEMAND EVIDENCE`;
-- `CAPABILITY EVIDENCE`;
-- `SPONSOR EVIDENCE`;
-- `INDEPENDENT PAYER EVIDENCE`.
-
-## 9. Opportunity anti-patterns
-
-Reject/downgrade ideas based mainly on:
-
-- “people probably want this”;
-- assuming every need must become enterprise software;
-- assuming the sufferer must pay;
-- total market size without acquisition/payment evidence;
-- one viral post;
-- one subsidized showcase case generalized to an unsubsidized market;
+Downgrade or reject models based on:
+- founder charisma / personal relationships as permanent execution requirement;
 - pure contact forwarding;
-- unsafe/unlicensed labor, medical, financial or legal activity;
-- bespoke delivery that cannot be bounded;
-- high trust burden with tiny margins;
-- heavy fixed cost before payer proof;
-- solving a loud complaint whose actors consistently refuse to pay and have no third-party payer.
+- unbounded bespoke work;
+- tasks with no objective acceptance;
+- low-ticket work whose acquisition/support/coordination overwhelms margin;
+- one irreplaceable provider;
+- safety/liability that cannot be bounded;
+- free founder labor used to manufacture apparent profit;
+- heavy software/capital before payer proof;
+- demand where direct buyer-provider access removes virtually all orchestration value.
 
-## 10. Operator role
+## 18. Operator role
 
-The operator is a **demand analyst + resource architect + transaction orchestrator**, not necessarily the provider.
-
-Core functions:
-
-- observe social change;
-- identify actor-specific needs;
-- separate beneficiary from payer;
-- define requirements;
-- discover underused capability/resources;
-- design transaction/trust structure;
-- identify intervention contamination;
-- route;
-- quality/risk gate;
-- learn from outcomes.
-
-Over time the learning layer may evolve toward:
+The operator is primarily:
 
 ```text
-Actor Graph
-+ Demand Graph
-+ Capability Graph
-+ Trust Graph
-+ Transaction Graph
-+ Outcome / Learning Graph
+opportunity judge
++ transaction architect
++ capability decomposer
++ incentive designer
++ routing governor
++ trust/risk architect
++ acceptance governor
++ learning-system owner
 ```
 
-This is not authorization to build the graphs before real transaction density exists.
+The operator is **not** presumed to be the salesperson, developer, researcher, recruiter, host or runner.
 
-## 11. Core maxim
+If the operator temporarily performs one of those roles, the system should treat it as a capability slot awaiting replacement.
 
-**Follow the shift, but validate with behavior and money.**
+## 19. Governing maxim
 
-Trends tell us where to look. Actors tell us what hurts. Transactions tell us whether we were right.
+**Find the outcome. Split the work. Price the capabilities. Route the resources. Verify the result. Settle everyone. Learn which combination works.**
