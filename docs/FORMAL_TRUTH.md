@@ -2,370 +2,388 @@
 
 Last updated: 2026-09-10
 
-This document is the project's commercial source of truth. It separates observations, hypotheses, unknowns, decisions and explicit rejections. No attractive narrative may override missing evidence.
+This document is the project's commercial source of truth.
 
-## 1. Mission
+Strategic constitution: `docs/RESOURCE_ORCHESTRATION_KERNEL.md`.
 
-Continuously detect opportunity created by social and market change, identify the actors affected, convert repeated friction into explicit need hypotheses, identify the real beneficiary and payer, route viable capabilities/resources, manufacture trust where economically justified, design bounded transactions, and learn from real outcomes.
+## 1. System identity — LOCKED
 
-## 2. Core operating model
+The project is an **Actor-First Resource Orchestration Engine**.
+
+It is not defined by Xuzhou, SMEs, youth events, AI tools, export services, freelancing or any other vertical.
+
+Canonical purpose:
+
+> **Find real outcomes worth paying for, decompose each outcome into contractible capability units, route those capabilities to appropriate resources, define incentives/interfaces/trust/acceptance, complete and settle the transaction, and learn which combinations reliably work.**
+
+The operator is initially the transaction architect and governance layer.
+
+**The operator is not the default salesperson, recruiter, developer, researcher, runner, host, provider or customer-support worker.**
+
+## 2. Canonical chain — LOCKED
 
 ```text
-ACTOR
-→ CHANGE
-→ BEHAVIOR
-→ FRICTION
-→ NEED
-→ BENEFICIARY
-→ PAYER
-→ CURRENT WORKAROUND
-→ CAPABILITY
-→ TRANSACTION DESIGN
-→ REAL-WORLD TEST
+ACTOR / CHANGE / FRICTION
+→ DESIRED OUTCOME
+→ BENEFICIARY / PAYER
+→ TRANSACTION OBJECTIVE
+→ CAPABILITY DECOMPOSITION
+→ CAPABILITY UNITS
+→ RESOURCE / PROVIDER ROUTING
+→ INCENTIVE + INTERFACE + TRUST DESIGN
+→ EXECUTION
+→ ACCEPTANCE
+→ SETTLEMENT
 → OUTCOME
-→ LEARNING
+→ REPUTATION / LEARNING
+→ BETTER FUTURE ROUTING
 ```
 
-Operationally:
+The older chain that stopped at generic `CAPABILITY → TRANSACTION` remains conceptually compatible but is no longer sufficiently precise. Capability decomposition, routing, acceptance and settlement are now first-class.
+
+## 3. Actor truth
+
+Every serious transaction should identify where relevant:
+- `NEED_ACTOR`
+- `BENEFICIARY`
+- `PAYER`
+- `SPONSOR`
+- `RESOURCE_OWNER`
+- `CAPABILITY_PROVIDER`
+- `ORCHESTRATOR`
+
+Roles may overlap.
+
+Need actor != payer by default.
+
+Operator != capability provider by default.
+
+## 4. Capability truth — NEW CORE
+
+The atomic execution unit is a `CapabilityUnit`, not a person, company or job title.
+
+A routable capability unit defines:
 
 ```text
-观势 → 察需 → 找能 → 成事 → 反馈学习
+purpose
+input
+required output
+acceptance criteria
+provider class
+proof required
+price model
+payout condition
+deadline / SLA
+dependencies
+trust / safety requirements
+replacement rule
+failure / refund rule
 ```
 
-Philosophy may guide where to look. Behavior and money decide whether the hypothesis survives.
+A resource may be a person, company, AI/software system, venue, asset, institution, audience, channel, data source or other usable input.
 
-## 3. Actor-first truth
+The same capability unit should ideally be satisfiable by more than one resource.
 
-The system must not default to enterprises as the demand side.
+## 5. Sales / acquisition truth — LOCKED
 
-For every serious opportunity, explicitly identify:
-- `NEED_ACTOR` — who experiences the friction or unmet need;
-- `BENEFICIARY` — who receives the result;
-- `PAYER` — who has incentive and ability to pay;
-- `CAPABILITY_PROVIDER` — who/what can solve it;
-- `RESOURCE_OWNER` — who controls relevant skill, time, space, equipment, inventory, data, access or other resource;
-- `SPONSOR` — where relevant, who funds the beneficiary's outcome because they capture another benefit;
-- `ORCHESTRATOR` — who defines, routes, verifies and closes the transaction.
+Demand acquisition is itself a capability.
 
-These roles may be the same actor or several different actors.
-
-## 4. What we are NOT building
-
-- a generic trend-report business;
-- a social-media sentiment toy;
-- a crawler whose value is merely collecting public information;
-- a raw lead-list resale business;
-- a general marketplace before transaction density exists;
-- a traditional intermediary that only exchanges contact details;
-- a system that treats complaints as proof of willingness to pay;
-- a system that assumes the sufferer must be the payer;
-- a system that privileges B2B because enterprise budgets are easier to observe;
-- a system that treats LLM confidence as commercial truth;
-- a broad AI product before a repeated paid workflow exists.
-
-## 5. Canonical transaction-gap ontology
-
-The system now treats the following as first-class structural gaps:
-
-1. `DEMAND_GAP`
-2. `CAPABILITY_GAP`
-3. `PRICE_GAP`
-4. `TRUST_GAP`
-5. `INFORMATION_GAP`
-6. `GEOGRAPHY_GAP`
-7. `TIME_GAP`
-8. `COORDINATION_GAP`
-9. `PAYER_SHIFT`
-10. `TECHNOLOGY_SHIFT`
-
-Source of truth: `docs/THESIS_TRANSACTION_GAPS.md`.
-
-A gap is not a business. It becomes commercially relevant only when a real payer will exchange economic value to reduce it.
-
-## 6. Core commercial discipline
-
-- `Complaint != Demand`.
-- `Demand != Willingness to Pay`.
-- `Trend != Business`.
-- `Market Size != Customer Acquisition`.
-- `LLM Confidence != Commercial Evidence`.
-- `UNKNOWN != PASS`.
-- Existing payment proves a category can monetize, not that our proposed transaction has value.
-- Public/free provision proves need may exist, but is also a substitute that can destroy direct-pay economics.
-- One transaction validates possibility, not repeatability.
-- Code completion is never evidence of commercial success.
-
-## 7. Opportunity truth gates
-
-A candidate is not commercially qualified until evidence exists across:
-
-1. `PAIN` — a real consequential need/friction exists;
-2. `FREQUENCY` — it repeats or affects enough activity;
-3. `PAYER_CLARITY` — payer is identifiable and has incentive/ability to pay;
-4. `PAYMENT_EVIDENCE` — material spending or costly workaround behavior exists;
-5. `SUPPLY` — realistic capability/resource can solve it;
-6. `TRANSACTIONABILITY` — scope, price, trust, delivery, verification and responsibility can be bounded;
-7. `LEGAL / TRUST / SAFETY` — the proposed transaction can be run within acceptable boundaries;
-8. `ACQUISITION / ECONOMICS` — the transaction is not destroyed by acquisition, coordination, support or liability cost.
-
-Canonical hard gates and weights remain in `docs/OPPORTUNITY_SCORECARD.md`.
-
-## 8. Strong evidence hierarchy
-
-Highest-value evidence includes:
-- completed purchases / paid services;
-- repeat purchase / booking / subscription;
-- deposits or signed sponsor commitments;
-- actual service prices;
-- procurement / RFQ / tenders;
-- hiring specifically to solve the problem;
-- family members paying for another person's outcome;
-- merchant subsidy or spending for traffic/conversion;
-- costly manual workaround;
-- repeated failed transactions / repricing / relisting;
-- referral and repeat intent backed by behavior.
-
-Macro data, surveys, searches, complaints and social content may generate hypotheses but cannot independently validate a transaction.
-
-## 9. Intervention contamination truth
-
-A strong observed outcome can be commercially misleading if it was created or amplified by an external intervention.
-
-Relevant interventions include:
-- government subsidy;
-- public procurement;
-- official traffic / media exposure;
-- platform subsidy;
-- free venue/resource support;
-- grant-funded programming;
-- one-time festival/event traffic;
-- institution/employer mandates;
-- unusually strong influencer exposure.
-
-The engine must distinguish:
+The system must not silently assume:
 
 ```text
-DEMAND EVIDENCE
-CAPABILITY EVIDENCE
-SPONSOR EVIDENCE
-INDEPENDENT PAYER EVIDENCE
+operator = salesperson
+operator = cold caller
+operator = street recruiter
+operator = merchant BD
 ```
 
-They are not interchangeable.
+Lead sourcing, qualification, outreach, BD, referrals, participant recruitment and channel access can be specified, priced and routed like other capabilities.
 
-Example:
+A transaction does not become less valid because the operator did not personally meet the payer.
 
-> A youth program sends people into a cafe and cafe revenue improves.
+What matters is that the demand-source capability has a clear output and payout event.
 
-This supports that:
-- youth traffic can have merchant value;
-- the venue can host the activity;
-- a sponsor/intervention can create a working transaction.
+## 6. Delegation-first truth — LOCKED
 
-It does **not** prove:
-- the cafe would independently pay an external orchestrator;
-- the same economics exist without official traffic;
-- another ordinary cafe would pay;
-- participant direct-pay willingness exists.
+For every repeated task:
 
-When a promoted hypothesis relies materially on a subsidized / officially promoted / unusually supported success case, at least one comparison without the same support is required before generalizing the payer thesis.
+```text
+Can it be eliminated?
+Can it be automated safely?
+Can it be delegated as a bounded capability unit?
+Only if not, should the operator perform it temporarily?
+```
 
-Source of truth: `docs/METHODOLOGY.md`, section `Intervention contamination and counterfactual controls`.
+Operator execution is allowed for learning, not as the assumed permanent operating model.
 
-## 10. Long-run learning architecture
+Repeated dependence on the operator personally performing a routable task is a bottleneck to remove.
 
-The intended learning system is now:
+## 7. Operator kernel
+
+The initial operator should preferentially own:
+- opportunity judgment;
+- transaction architecture;
+- capability decomposition;
+- interface and acceptance design;
+- incentive design;
+- route approval;
+- trust / risk boundaries;
+- exception arbitration;
+- learning-system updates.
+
+Routine acquisition and delivery should migrate to external capability providers or automation.
+
+## 8. Operator-independence milestones
+
+```text
+O0 — operator performs acquisition + delivery
+O1 — delivery delegated
+O2 — acquisition + delivery delegated; operator designs/governs
+O3 — repeatable template with replaceable providers
+O4 — repeated routing bottlenecks partly automated
+O5 — network orchestration engine
+```
+
+**The first major system milestone is O2.**
+
+First-order profit is secondary to proving O2 during early experiments, provided the learning cost is explicit and bounded.
+
+## 9. Economic truth — LOCKED
+
+Every serious transaction must distinguish:
+
+```text
+PAYER INFLOW
+- demand-source / acquisition payout
+- capability-provider payouts
+- resource costs
+- QA / trust / verification costs
+- expected refund / failure reserve
+- payment / operating costs
+= CASH CONTRIBUTION MARGIN
+
+CASH CONTRIBUTION MARGIN
+- OPERATOR SHADOW LABOR COST
+= NORMALIZED ORCHESTRATION MARGIN
+```
+
+If the operator personally performs sales, recruitment, research, delivery, QA, hosting or another routable function without salary, estimate its replacement cost anyway.
+
+**Founder free labor is not profit.**
+
+Early experiments may intentionally have low/negative normalized margin when buying decisive learning. Repeatable models require credible positive normalized orchestration economics.
+
+## 10. Orchestrator value truth
+
+The system must create more than introduction value.
+
+Recurring orchestration value may come from:
+- translating ambiguous demand into precise requirements;
+- decomposition;
+- capability qualification;
+- route construction;
+- dependency management;
+- trust;
+- QA / acceptance;
+- replacement;
+- settlement;
+- exception handling;
+- outcome accountability;
+- accumulated reliability/routing data.
+
+If buyer and provider can bypass the orchestrator after first contact with almost no lost value, downgrade the opportunity.
+
+## 11. Opportunity hard gates
+
+Current canonical gates:
+
+```text
+G0 ACTOR / ROLE CLARITY
+G1 PAYER CLARITY
+G2 TRANSACTIONABILITY
+G3 LEGAL / TRUST / SAFETY
+G4 CAPABILITY DECOMPOSABILITY / DELEGATABILITY
+G5 ORCHESTRATION VALUE
+```
+
+G0–G3 must not fail for a real transaction test.
+
+G4/G5 may be explicit experimental unknowns, but both must pass before an opportunity becomes `REPEATABLE` / `SCALE_CANDIDATE`.
+
+Source: `docs/OPPORTUNITY_SCORECARD.md`.
+
+## 12. Commercial truth rules
+
+```text
+Complaint != Demand
+Demand != Willingness to Pay
+Trend != Business
+Market Size != Customer Acquisition
+Introduction != Orchestration Value
+Founder Free Labor != Profit
+Capability Claim != Capability Proof
+One Provider != Replaceable Supply
+One Transaction != Repeatability
+LLM Confidence != Commercial Evidence
+UNKNOWN != PASS
+```
+
+## 13. Intervention contamination truth
+
+Subsidy, public traffic, grants, free resources, platform subsidy, official promotion, event spikes or institutional mandates can make a transaction appear stronger than its independent payer economics.
+
+Keep separate:
+- `DEMAND_EVIDENCE`
+- `CAPABILITY_EVIDENCE`
+- `SPONSOR_EVIDENCE`
+- `INDEPENDENT_PAYER_EVIDENCE`
+
+Use controls when a payer thesis materially depends on an intervention-backed showcase.
+
+## 14. Seven-graph learning architecture — LOCKED DIRECTION
+
+The long-run learning model is now:
 
 ```text
 Actor Graph
-+ Demand Graph
-+ Capability Graph
-+ Trust Graph
-+ Transaction Graph
-+ Outcome / Learning Graph
+Demand Graph
+Capability Graph
+Orchestration / Task Graph
+Trust Graph
+Transaction / Settlement Graph
+Outcome / Learning Graph
 ```
 
-This is a long-run architecture, not authorization to build those systems now.
+The `Orchestration / Task Graph` is first-class because the system must learn how desired outcomes decompose into capability units and dependency edges.
 
-The manual transaction ledger must come first. Automation earns its place only after repeated real transactions expose a recurring bottleneck.
+This is a future architecture, not permission to build it before transaction evidence.
 
-## 11. Current truth status
+## 15. Current strategic status
 
-**Status: GO — continue building and testing the Actor-First Opportunity Routing method. No vertical is validated.**
+**GO — prove the resource orchestration model. No vertical is validated.**
 
-Xuzhou remains the first field laboratory because public hypotheses can be turned into local commitment tests quickly.
+Xuzhou remains a convenient laboratory, not the product boundary.
 
-The current broad scan is:
-- `docs/research/XUZHOU_ACTOR_FIRST_SCAN_V2_2026-09-10.md`
+The previous 38-friction Actor-First scan remains useful demand research. However, the old ranking optimized mainly for transaction attractiveness and did not adequately score delegation/orchestration leverage. It therefore cannot remain the final strategic priority ordering after this kernel change.
 
-It contains **38 friction records** across youth, students, workers, households, pet owners, merchants, institutions, asset owners and enterprises.
+## 16. Current portfolio priority — V3 logic
 
-Only four currently deserve targeted validation.
+### Priority A — Prove delegated orchestration itself
 
-## 12. Current execution priority
+New canonical system experiment: `EXP-008 — Delegated Resource Orchestration Loop`.
 
-Source of truth:
-- `docs/results/EXP_002_XUZHOU_ACTOR_FIRST_RANKING_V2_2026-09-10.md`
+Required proof target:
 
-### Priority 1 — Youth micro-experience payer shift
+```text
+real payer
++ bounded outcome
++ acquisition performed by a routed capability/provider rather than operator
++ delivery performed by a routed capability/provider rather than operator
++ explicit acceptance
++ settlement/payouts recorded
++ operator shadow labor recorded
+```
 
-Status: `B: INVESTIGATE / FIRST COMMITMENT TEST`
+Strong target: reach `O2` and `L4`, then attempt `L5/L6`.
 
-Canonical experiment: `EXP-006`.
+### Preferred sandbox — bounded digital / knowledge micro-projects
 
-Why it moved to first:
-- repeated local youth participation exists;
-- merchant-side value is measurable in local cases;
-- one reported youth-night-school cafe experienced roughly 30% revenue growth;
-- later reporting on the same space-reuse logic described about 20% higher customer unit price and 15% higher repeat rate;
-- supply/resources already exist;
-- one event is low-capital and bounded;
-- the exact payer can be tested with real deposits / merchant guarantees instead of more opinion research.
+`EXP-003` and `EXP-007` are now strategically important as complementary parts of the same orchestration thesis:
+- `EXP-003` supplies real buyer/output/payment tests;
+- `EXP-007` supplies routable under-monetized capability/provider tests.
 
-Critical unknown:
-> Will the participant, venue, or both make real economic commitment for one exact event?
+They remain separate experiments for evidence hygiene, but should interoperate when a real bounded task appears.
 
-Selection-bias correction:
-> The strongest cafe case received youth-program / official traffic support. It is a mechanism anchor, not sufficient independent merchant-payer proof. EXP-006 therefore requires merchant controls without relying on the same support story.
+Why this sandbox is preferred initially:
+- outputs can often be made explicit;
+- remote/delegated delivery is feasible;
+- multiple provider types exist;
+- acceptance can often be objective;
+- safety/regulatory burden can be kept low;
+- provider replacement is testable;
+- it uses the operator's systems/architecture judgment without requiring the operator to be the final coder/researcher.
 
-No software build is authorized.
+This preference is about **orchestration fit**, not a return to enterprise-first ideology.
 
-### Priority 2 — Skills-to-income + outcome-linked sponsor
+### Secondary sandbox — EXP-006 youth micro-experience
 
-Status: `B: INVESTIGATE`.
+`EXP-006` remains a valid multi-sided transaction experiment but is no longer the default first priority.
 
-Important new payer hypothesis:
-- trained learner is beneficiary/capability provider;
-- project buyer may pay for accepted output;
-- training institution may have an economic incentive because Xuzhou's 2026 subsidized training framework allows additional support for classes exceeding the stable-employment threshold.
+Important correction:
+- merchant BD can be delegated;
+- participant recruitment can be delegated;
+- venue/coffee capability can be delegated;
+- hosting can be delegated;
+- the operator should not be required to street-recruit or personally sell to merchants.
 
-Critical unknown:
-> Will any training provider / project buyer actually pay for a bounded capability-to-output conversion layer?
+If run, EXP-006 should test whether these capabilities can be priced and orchestrated with workable economics.
 
-Do not turn this into generic recruitment or labor dispatch.
+### Lower-priority trust sandbox — EXP-004
 
-### Priority 3 — Xuzhou bounded SME micro-project
+Pet-care trust research remains useful, but the unresolved home-access/safety burden and low-ticket coordination risk make it a poor first proof of the orchestration kernel.
 
-Status: `B: INVESTIGATE / SECONDARY VERTICAL`.
+## 17. What is explicitly not the target model
 
-Canonical experiment: `EXP-003`.
-
-Payer identity is clear, but willingness to buy the proposed fixed-project format remains unproven.
-
-### Priority 4 — Trusted pet-care transaction layer
-
-Status: `C: TRUST-RESOLUTION TEST`.
-
-Canonical experiment: `EXP-004`.
-
-Correction from V1:
-- raw score remains strong because payment behavior exists;
-- the canonical scorecard requires a `-20` penalty while home-access / physical-safety trust risk remains unresolved;
-- therefore it is no longer current priority #1.
-
-The purpose of EXP-004 is now explicitly to determine whether trust controls can remove that penalty economically.
-
-## 13. Current explicit rejections / dormant forms
-
-Do not spend meaningful build time on these current forms:
-- generic Xuzhou job-matching platform;
-- generic youth-housing information product;
-- generic paid-study-room directory;
-- broad household-service marketplace;
-- pure second-hand listing marketplace;
-- pure tourism/content guide;
-- direct childcare marketplace;
-- broad eldercare marketplace;
-- public idle-asset brokerage;
+Do not regress into:
+- founder-as-freelancer;
+- founder-as-permanent-salesperson;
+- founder-as-event-promoter;
+- founder-as-runner;
+- traditional contact brokerage;
 - generic freelancer marketplace;
-- broad ASEAN AI SaaS before a paid repeated microflow exists.
+- labor dispatch / recruitment without correct legal structure;
+- broad AI SaaS before repeated paid workflow;
+- platform build before routing density;
+- a single vertical treated as company identity.
 
-These can be revisited only if new evidence changes the transaction mechanism.
-
-## 14. Public / sponsored payer truth
-
-A public or third-party payer can be commercially real, but must be modeled correctly.
-
-Examples currently observed:
-- merchant traffic/revenue can justify venue-side contribution to youth experiences;
-- training-outcome incentives can create a sponsor hypothesis around learner outcomes;
-- government procurement proves elder-service payment categories exist.
-
-But:
-- public provision must not be misreported as private consumer willingness to pay;
-- theoretical sponsor interest is not a PASS;
-- long procurement cycles and regulated service boundaries must be scored honestly;
-- subsidized success must not be generalized to independent payer behavior without a control.
-
-## 15. Experiment ID truth
-
-Repository history created an ID collision:
-- `docs/EXPERIMENT_005_ASEAN_SME_AI_MICROFLOWS.md` already exists as EXP-005;
-- GitHub Issue #5 was later opened with the title `EXP-005` for the youth micro-experience payer test.
-
-Canonical resolution as of 2026-09-10:
-- ASEAN SME AI microflows retains **EXP-005**;
-- youth micro-experience payer structure is **EXP-006**;
-- historical references to youth as EXP-005 should be treated as stale and corrected when touched.
-
-No experiment history is deleted to hide the inconsistency.
-
-## 16. Current field rule
-
-Every field trip must resolve a defined unknown.
-
-Required before departure:
+## 18. Evidence maturity
 
 ```text
-Hypothesis:
-Critical UNKNOWN:
-Who to interview:
-Where to find them:
-5–8 questions:
-What counts as PASS:
-What counts as FAIL:
-What evidence to record:
-Next action:
+L0 — statement
+L1 — observed behavior/workaround
+L2 — exact transaction terms accepted verbally
+L3 — real commitment/deposit/signed task
+L4 — completed accepted transaction + settlement
+L5 — repeat/referral
+L6 — delegated repeat, provider replacement or alternate route succeeds
 ```
 
-A friendly answer is not evidence. A refusal at a real price is evidence. A deposit is stronger. Completed payment + delivery + repeat/referral is stronger still.
+L4 proves one transaction.
 
-## 17. Immediate build rule
+**L6 begins to prove the orchestration engine.**
 
-Current priority is:
+## 19. Immediate operating path
 
 ```text
-observe
-→ hypothesize
-→ collect behavioral/payment evidence
-→ run field commitment test
-→ complete first real-money transaction
-→ repeat manually
-→ identify repeated bottleneck
-→ automate only that bottleneck
+find one bounded paid outcome
+→ specify transaction
+→ decompose capabilities
+→ procure demand-source capability
+→ procure delivery capability
+→ define payouts / acceptance
+→ obtain payer commitment
+→ execute
+→ accept
+→ settle
+→ calculate normalized margin
+→ repeat with replacement / alternate route
+→ automate only proven bottleneck
 ```
 
 Not:
 
 ```text
-build platform
-→ search for users later
+operator personally does everything
+→ call it a business
 ```
 
-## 18. Hard unknowns
+and not:
 
-1. Can the engine repeatedly discover opportunities that survive real payment tests?
-2. Can it discover payer shifts earlier than ordinary idea-first research?
-3. Does manufacturing trust create enough incremental willingness to pay to cover its cost?
-4. Can idle skills/assets be converted into standardized accepted outcomes rather than low-value listings?
-5. Which acquisition channels produce transaction density at acceptable cost?
-6. Which payer structures repeat rather than producing one-off novelty?
-7. Which trust controls materially change conversion rather than merely adding process?
-8. When does orchestration create defensible value rather than bypass risk?
-9. Can outcome data improve future ranking decisions?
-10. Which repeated bottleneck, if any, eventually justifies software automation?
-11. How often do subsidized / intervention-backed showcase cases overstate independent payer economics, and can simple controls prevent that error?
+```text
+build marketplace
+→ hope transactions appear
+```
 
-## 19. Governing truth
+## 20. Governing truth — LOCKED
 
-**Trends tell us where to look. Actors show us the friction. Money, delivery and repetition tell us whether we found a business.**
+**The engine should make transactions work because it can define, price, route and govern the right capabilities — not because the operator personally performs every difficult step.**
