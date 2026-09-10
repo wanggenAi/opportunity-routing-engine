@@ -1,7 +1,8 @@
-"""Evidence-gated opportunity scoring for Opportunity Routing Engine.
+"""Evidence-gated opportunity scoring for the Opportunity Routing Engine.
 
-This module intentionally automates only ranking discipline, not commercial truth.
-UNKNOWN never becomes PASS, and a high numeric score cannot bypass hard gates.
+This module automates ranking discipline only. It does not manufacture commercial
+truth. UNKNOWN never becomes PASS, founder willingness never substitutes for
+Delegatability, and a high score cannot bypass transaction or safety gates.
 """
 
 from __future__ import annotations
@@ -16,19 +17,20 @@ SCORE_MAXIMA: Dict[str, int] = {
     "payment_evidence": 15,
     "current_solution_weakness": 10,
     "supply_availability": 5,
-    "acquisition_feasibility": 10,
-    "delivery_controllability": 10,
-    "time_to_first_cash": 10,
+    "acquisition_route_feasibility": 8,
+    "delivery_controllability": 8,
+    "delegatability_orchestration_leverage": 10,
+    "time_to_first_cash": 8,
     "unit_economics_potential": 5,
     "defensibility_learning": 5,
-    "operator_fit": 5,
-    "capital_efficiency": 5,
+    "capital_efficiency": 6,
 }
 
 TOTAL_MAX = sum(SCORE_MAXIMA.values())
 assert TOTAL_MAX == 100
 
 VALID_GATES = {"PASS", "UNKNOWN", "FAIL", "CONDITIONAL"}
+REQUIRED_GATES = {"G0", "G1", "G2", "G3", "G4", "G5"}
 
 
 @dataclass(frozen=True)
@@ -36,8 +38,10 @@ class Evaluation:
     raw_score: int
     penalty_points: int
     final_score: int
-    gate_ready: bool
+    transaction_ready: bool
+    scale_ready: bool
     hard_blocked: bool
+    strategic_blocked: bool
     band: str
     decision: str
     reason: str
@@ -60,18 +64,20 @@ def _validate_scores(scores: Mapping[str, int]) -> None:
 
 
 def _validate_gates(gates: Mapping[str, str]) -> None:
-    required = {"G0", "G1", "G2", "G3"}
-    missing = required - set(gates)
-    if missing:
-        raise ValueError(f"missing hard gates: {sorted(missing)}")
+    missing = REQUIRED_GATES - set(gates)
+    extra = set(gates) - REQUIRED_GATES
+    if missing or extra:
+        raise ValueError(
+            f"gate keys mismatch; missing={sorted(missing)}, extra={sorted(extra)}"
+        )
 
-    for key in required:
+    for key in REQUIRED_GATES:
         value = gates[key]
         if value not in VALID_GATES:
             raise ValueError(f"invalid {key} gate value: {value}")
 
-    # G0–G2 do not support CONDITIONAL in the canonical scorecard.
-    for key in ("G0", "G1", "G2"):
+    # Only legal/trust/safety supports CONDITIONAL in the canonical scorecard.
+    for key in ("G0", "G1", "G2", "G4", "G5"):
         if gates[key] == "CONDITIONAL":
             raise ValueError(f"{key} cannot be CONDITIONAL")
 
@@ -81,10 +87,11 @@ def evaluate(
     gates: Mapping[str, str],
     penalty_points: int = 0,
 ) -> Evaluation:
-    """Evaluate one opportunity without allowing scores to bypass hard gates.
+    """Evaluate an opportunity without allowing numeric scores to bypass truth gates.
 
-    penalty_points is a non-negative integer representing the total penalties already
-    justified by the canonical scorecard. The caller must preserve penalty provenance.
+    G0-G3 determine whether a bounded transaction test is ready.
+    G4-G5 determine strategic fit for repeatable resource orchestration. They may be
+    UNKNOWN during an explicit orchestration experiment, but must PASS before scale.
     """
 
     _validate_scores(scores)
@@ -97,11 +104,18 @@ def evaluate(
     final_score = max(0, raw_score - penalty_points)
 
     hard_blocked = any(gates[g] == "FAIL" for g in ("G0", "G1", "G2", "G3"))
-    gate_ready = (
+    strategic_blocked = any(gates[g] == "FAIL" for g in ("G4", "G5"))
+
+    transaction_ready = (
         gates["G0"] == "PASS"
         and gates["G1"] == "PASS"
         and gates["G2"] == "PASS"
         and gates["G3"] in {"PASS", "CONDITIONAL"}
+    )
+    scale_ready = (
+        transaction_ready
+        and gates["G4"] == "PASS"
+        and gates["G5"] == "PASS"
     )
 
     if final_score >= 80:
@@ -115,19 +129,25 @@ def evaluate(
 
     if hard_blocked:
         decision = "REJECT_OR_REDESIGN"
-        reason = "At least one hard gate is FAIL; numeric score cannot override it."
-    elif not gate_ready:
+        reason = "G0-G3 contains FAIL; numeric score cannot override transaction/safety gates."
+    elif not transaction_ready:
         decision = "INVESTIGATE"
-        reason = "At least one hard gate remains UNKNOWN; UNKNOWN != PASS."
+        reason = "At least one of G0-G3 remains UNKNOWN; UNKNOWN != PASS."
+    elif strategic_blocked:
+        decision = "REDESIGN_STRATEGIC_FIT"
+        reason = "Transaction may work, but G4/G5 shows the current structure is not a viable orchestration-engine fit."
     elif band == "A":
         decision = "TEST_NOW"
-        reason = "All hard gates are ready and adjusted score is at least 80."
+        if scale_ready:
+            reason = "All gates pass and adjusted score is at least 80."
+        else:
+            reason = "Transaction gates pass and score is at least 80; use the test to resolve remaining G4/G5 orchestration unknowns."
     elif band == "B":
         decision = "INVESTIGATE"
         reason = "Commercially promising but below TEST_NOW threshold."
     elif band == "C":
-        decision = "WATCH"
-        reason = "Relative evidence/economics are currently weak."
+        decision = "WATCH_OR_REDESIGN"
+        reason = "Relative evidence/economics/orchestration fit are currently weak."
     else:
         decision = "REJECT_OR_DORMANT"
         reason = "Adjusted score is below 50."
@@ -136,8 +156,10 @@ def evaluate(
         raw_score=raw_score,
         penalty_points=penalty_points,
         final_score=final_score,
-        gate_ready=gate_ready,
+        transaction_ready=transaction_ready,
+        scale_ready=scale_ready,
         hard_blocked=hard_blocked,
+        strategic_blocked=strategic_blocked,
         band=band,
         decision=decision,
         reason=reason,
