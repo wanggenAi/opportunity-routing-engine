@@ -2,7 +2,7 @@
 
 This module automates ranking discipline only. It does not manufacture commercial
 truth. UNKNOWN never becomes PASS, founder willingness never substitutes for
-Delegatability, and a high score cannot bypass transaction or safety gates.
+Delegatability, and a high score cannot bypass transaction or sustainability gates.
 """
 
 from __future__ import annotations
@@ -30,7 +30,7 @@ TOTAL_MAX = sum(SCORE_MAXIMA.values())
 assert TOTAL_MAX == 100
 
 VALID_GATES = {"PASS", "UNKNOWN", "FAIL", "CONDITIONAL"}
-REQUIRED_GATES = {"G0", "G1", "G2", "G3", "G4", "G5"}
+REQUIRED_GATES = {"G0", "G1", "G2", "G3", "G4", "G5", "G6"}
 
 
 @dataclass(frozen=True)
@@ -54,7 +54,6 @@ def _validate_scores(scores: Mapping[str, int]) -> None:
         raise ValueError(
             f"score keys mismatch; missing={sorted(missing)}, extra={sorted(extra)}"
         )
-
     for key, max_value in SCORE_MAXIMA.items():
         value = scores[key]
         if not isinstance(value, int):
@@ -70,14 +69,12 @@ def _validate_gates(gates: Mapping[str, str]) -> None:
         raise ValueError(
             f"gate keys mismatch; missing={sorted(missing)}, extra={sorted(extra)}"
         )
-
     for key in REQUIRED_GATES:
         value = gates[key]
         if value not in VALID_GATES:
             raise ValueError(f"invalid {key} gate value: {value}")
-
-    # Only legal/trust/safety supports CONDITIONAL in the canonical scorecard.
-    for key in ("G0", "G1", "G2", "G4", "G5"):
+    # Only legal/trust/safety supports CONDITIONAL.
+    for key in ("G0", "G1", "G2", "G4", "G5", "G6"):
         if gates[key] == "CONDITIONAL":
             raise ValueError(f"{key} cannot be CONDITIONAL")
 
@@ -87,16 +84,14 @@ def evaluate(
     gates: Mapping[str, str],
     penalty_points: int = 0,
 ) -> Evaluation:
-    """Evaluate an opportunity without allowing numeric scores to bypass truth gates.
+    """Evaluate an opportunity without allowing scores to bypass truth gates.
 
     G0-G3 determine whether a bounded transaction test is ready.
-    G4-G5 determine strategic fit for repeatable resource orchestration. They may be
-    UNKNOWN during an explicit orchestration experiment, but must PASS before scale.
+    G4-G6 determine whether it can become a durable orchestration-system wedge.
+    G4-G6 may be UNKNOWN during explicit validation but all must PASS before scale.
     """
-
     _validate_scores(scores)
     _validate_gates(gates)
-
     if not isinstance(penalty_points, int) or penalty_points < 0:
         raise ValueError("penalty_points must be a non-negative integer")
 
@@ -104,7 +99,7 @@ def evaluate(
     final_score = max(0, raw_score - penalty_points)
 
     hard_blocked = any(gates[g] == "FAIL" for g in ("G0", "G1", "G2", "G3"))
-    strategic_blocked = any(gates[g] == "FAIL" for g in ("G4", "G5"))
+    strategic_blocked = any(gates[g] == "FAIL" for g in ("G4", "G5", "G6"))
 
     transaction_ready = (
         gates["G0"] == "PASS"
@@ -116,6 +111,7 @@ def evaluate(
         transaction_ready
         and gates["G4"] == "PASS"
         and gates["G5"] == "PASS"
+        and gates["G6"] == "PASS"
     )
 
     if final_score >= 80:
@@ -129,19 +125,19 @@ def evaluate(
 
     if hard_blocked:
         decision = "REJECT_OR_REDESIGN"
-        reason = "G0-G3 contains FAIL; numeric score cannot override transaction/safety gates."
+        reason = "G0-G3 contains FAIL; score cannot override transaction/safety gates."
     elif not transaction_ready:
         decision = "INVESTIGATE"
         reason = "At least one of G0-G3 remains UNKNOWN; UNKNOWN != PASS."
     elif strategic_blocked:
         decision = "REDESIGN_STRATEGIC_FIT"
-        reason = "Transaction may work, but G4/G5 shows the current structure is not a viable orchestration-engine fit."
+        reason = "A transaction may work, but G4-G6 contains FAIL; it cannot be the core sustainable orchestration wedge in this form."
     elif band == "A":
         decision = "TEST_NOW"
         if scale_ready:
             reason = "All gates pass and adjusted score is at least 80."
         else:
-            reason = "Transaction gates pass and score is at least 80; use the test to resolve remaining G4/G5 orchestration unknowns."
+            reason = "Transaction gates pass and score is at least 80; use the test to resolve remaining G4-G6 orchestration/circulation unknowns."
     elif band == "B":
         decision = "INVESTIGATE"
         reason = "Commercially promising but below TEST_NOW threshold."
