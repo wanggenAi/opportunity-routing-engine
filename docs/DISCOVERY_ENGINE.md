@@ -1,4 +1,4 @@
-# Discovery Engine — Macro to Money to Actor to Friction
+# Discovery Engine — Continuous Opportunity Radar
 
 Status: `CANONICAL / LOCKED DISCOVERY LOGIC`
 
@@ -6,24 +6,35 @@ Effective: 2026-09-10
 
 This document defines the **front half** of the Opportunity Routing Engine.
 
-The resource-orchestration reset does **not** replace this discovery logic. It changes how validated opportunities are executed, not how the system discovers where economic opportunity is forming.
+The resource-orchestration kernel does not replace discovery. It only starts after discovery has produced a credible opportunity.
 
-Canonical execution kernel: `docs/RESOURCE_ORCHESTRATION_KERNEL.md`.
+Related canonical modules:
+- `docs/DATA_SOURCE_REGISTRY.md`
+- `docs/MONEY_FLOW_ENGINE.md`
+- `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
+- `docs/CASE_MINING_ENGINE.md`
+- `docs/HOOK_ORCHESTRATION_DESIGN.md`
+- `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
 
 ## 1. Core principle
 
-Do not begin with a product, startup idea, app, industry fashion or the operator's existing skill.
+Do not begin with a product, startup idea, ERP/MES project, industry fashion or the operator's existing skill.
 
 Begin by asking:
 
 > **Where is money, time, attention, risk or productive capacity moving — and which actors are being forced to change behavior because of it?**
 
-Discovery proceeds from broad reality toward narrow transaction hypotheses.
+Then ask:
+
+> **Which successful or failed market cases reveal a reusable mechanism for capturing the resulting friction?**
+
+Only then generate opportunity hypotheses.
 
 ## 2. Canonical discovery funnel
 
 ```text
-MACRO REGIME
+DATA SOURCE LAYER
+→ MACRO REGIME
 → MONEY FLOW
 → MARKET / INDUSTRY MOVEMENT
 → CONSUMPTION / INVESTMENT / EMPLOYMENT SHIFT
@@ -31,186 +42,231 @@ MACRO REGIME
 → ACTOR SEGMENT
 → PSYCHOLOGY / DECISION LOGIC
 → OBSERVED BEHAVIOR
+→ CASE-MECHANISM MINING
 → FRICTION / WORKAROUND
 → DESIRED OUTCOME
 → PAYER HYPOTHESIS
 → TRANSACTION GAP
 → ORCHESTRATION-FIT FILTER
+→ HOOK HYPOTHESIS
 ```
 
-Only after this funnel produces a credible opportunity does the Resource Orchestration Kernel take over.
+The system should continuously maintain the first ten layers. It should not wait for a human to ask a new question before looking at reality again.
 
-## 3. Layer A — Macro regime
+## 3. Layer 0 — Data source maintenance
 
-Track the economic environment before interpreting local anecdotes.
+Maintain recurring data sources with provenance, cadence, geography and health state.
+
+Required source classes:
+- national macro/statistics;
+- money/credit/trade/employment;
+- Jiangsu regional statistics;
+- Xuzhou local statistics and policy;
+- procurement/public transaction data;
+- company/platform primary evidence;
+- authorized/public behavioral/social signals;
+- case-study sources.
+
+For each source preserve:
+- observation period;
+- publication date;
+- units/denominator;
+- geography;
+- revision state;
+- retrieval state;
+- source URL.
+
+Ad-hoc browsing may add evidence but must not replace the registry.
+
+## 4. Layer A — Macro regime
+
+Track the broad environment before interpreting anecdotes.
 
 Core indicators include where available:
 - GDP and sector contribution;
 - CPI / core CPI / service CPI;
-- PPI where relevant;
-- household disposable income and median income;
-- household consumption expenditure and category mix;
-- social retail sales;
-- service retail sales;
-- online goods / online service retail;
-- fixed-asset investment;
-- manufacturing investment / equipment investment;
+- PPI;
+- PMI / industrial production;
+- household disposable income and consumption expenditure;
+- social retail and service retail;
+- online goods/service retail;
+- fixed investment / manufacturing / equipment investment;
 - real-estate investment and transactions;
-- imports / exports;
-- employment / unemployment / hiring signals;
-- demographic structure / aging / household change;
-- credit / financing / business confidence where useful;
-- policy subsidies, procurement and public investment.
+- money/credit/deposit/loan conditions;
+- imports/exports;
+- employment/unemployment/hiring;
+- demographics / aging / household change;
+- policy subsidies / procurement / public investment.
 
-Macro indicators are not businesses. They tell the engine where to investigate next.
+Macro indicators are **search-direction evidence**, not business proof.
 
-## 4. Layer B — Money flow
+## 5. Layer B — Money Flow Engine
 
-Translate macro indicators into explicit statements about where spending or investment is accelerating, weakening or migrating.
+Translate indicators into explicit statements about where economic activity is moving.
 
-Examples:
+Ask:
+- who is paying more/less?
+- who is receiving more/less?
+- what category is gaining/losing share?
+- is change price-driven or volume-driven?
+- is it policy-subsidized or independently recurring?
+- is Xuzhou diverging from Jiangsu/China?
+
+Examples of useful flow hypotheses:
 
 ```text
 goods → services
-ownership → rental / repair / second-hand
-large durable purchases → smaller high-frequency experiences
-housing / fixed assets → selective equipment / digital investment
-offline retail → online / instant retail
-local-only consumption → cross-city / destination consumption
-product export → lifecycle service / aftermarket
-full-time headcount → flexible / project-based capability
-brand premium → value-for-money + emotional-value split
+new purchase → repair / rental / second-hand
+large durable purchase → smaller high-frequency experience
+broad fixed investment → selective equipment / IP / digital investment
+offline → online / instant retail
+city → county / rural consumption
+product sale → lifecycle service / aftermarket
+full-time staffing → project / outsourced capability
+brand premium → value-for-money + selective emotional value
 ```
 
-For every money-flow claim record:
-- amount or growth rate where available;
-- comparison period;
-- geography;
-- actor receiving money;
-- actor losing share;
-- source;
-- whether the movement is policy-supported or independently occurring.
+Divergence often matters more than raw growth.
 
-## 5. Layer C — Market and industry movement
+## 6. Layer C — Market / industry movement
 
-Move from aggregate money to sectors and transaction chains.
+Move from aggregate flow to transaction chains.
 
 Ask:
-- which industries are gaining revenue / orders / footfall / exports?
-- which industries are losing volume but gaining service revenue?
-- where are margins migrating downstream or upstream?
-- where is investment shifting from assets to operations, software, maintenance or service?
-- where are firms explicitly adding new service layers?
-- which formerly internal functions are becoming externalized?
-- which markets are growing while service capacity, standards or trust lag behind?
+- which industries gain revenue/orders/traffic/exports?
+- where are margins migrating upstream/downstream?
+- what formerly internal work is externalizing?
+- what capacity is becoming idle?
+- where is demand growing faster than service/coordination capacity?
+- what new policy/technology creates new payer/workflow roles?
 
-Prefer evidence from actual revenue, orders, procurement, exports, service volumes, hiring and policy implementation over forecasts alone.
+Prefer real revenue, orders, procurement, hiring and operational evidence over forecasts.
 
-## 6. Layer D — Actor segmentation
+## 7. Layer D — Actor segmentation
 
-Do not treat "consumers" or "companies" as one actor.
+Do not treat `consumer` or `enterprise` as one actor.
 
-Relevant segments may include:
+Segments may include:
 - young adults;
-- students / graduates;
+- students/graduates;
+- parents/families;
 - middle-aged households;
-- parents;
-- elderly people / adult children;
-- pet owners;
-- rural / county consumers;
-- cross-city visitors;
-- merchants;
-- self-employed operators;
-- SMEs;
-- manufacturers;
-- exporters;
-- dealers;
-- service providers;
-- technicians;
-- owners of idle assets / capacity / skills / channels;
-- institutions / sponsors.
+- elderly/adult children;
+- rural/county residents;
+- travelers/visitors;
+- merchants/self-employed operators;
+- SMEs/manufacturers/exporters;
+- service providers/technicians;
+- owners of idle assets/capacity/skills/channels;
+- institutions/sponsors.
 
-For each actor ask:
+For each ask:
 - what changed?
-- what do they now spend more/less on?
-- what are they postponing?
-- what risk are they avoiding?
-- what work are they doing manually?
-- what are they outsourcing?
+- what do they spend more/less on?
+- what do they postpone?
+- what risk do they avoid?
+- what do they search for?
+- what do they outsource?
 - what capacity is idle?
 
-## 7. Layer E — Psychology / decision logic
+## 8. Layer E — Psychology / decision logic
 
-Psychology is a behavioral hypothesis, not a slogan.
+Psychology is dynamic and must be tracked, but it is a behavioral hypothesis, not a slogan.
 
-Examples of decision logics to test:
-- value-for-money / budget discipline;
-- emotional value / "悦己";
-- convenience and time-saving;
-- trust and risk aversion;
-- small-trial preference over large commitment;
-- desire for verified outcomes rather than information;
-- preference for local / immediate response;
-- willingness to pay for certainty, accountability or speed;
-- household sponsor paying for another family member;
-- merchant paying for qualified traffic;
-- manufacturer paying to preserve uptime / customer retention.
+Track dimensions such as:
+- spending caution;
+- value-for-money;
+- small-trial preference;
+- emotional/self-reward value;
+- convenience/time-saving;
+- trust/risk aversion;
+- experience orientation;
+- selective quality upgrade;
+- health/longevity;
+- repair/reuse/rental;
+- social connection/belonging;
+- willingness to pay for certainty/outcome.
 
-Any psychology claim should be linked to observed behavior, spending, search, transaction or repeated workaround evidence.
+Any psychology claim should be cross-checked against money and behavior.
 
-## 8. Layer F — Behavior before stated demand
+`social salience != population share`.
 
-Prefer actions over opinions.
+## 9. Layer F — Behavior before opinions
 
 Strong behavioral sensors include:
-- real purchases / bookings;
-- queueing / footfall tied to spend;
-- repeat / referral;
+- purchases/bookings;
+- repeat/referral;
 - hiring;
-- procurement / tender / RFQ;
+- procurement/tender/RFQ;
 - paid promotion;
 - outsourcing;
-- repair / maintenance orders;
-- resale / rental / relisting;
-- emergency sourcing;
-- refunds / disputes;
-- price comparison / downgrade behavior;
+- repair/maintenance orders;
+- resale/rental/relisting;
+- price-comparison/downgrade behavior;
 - use of informal helpers;
 - expensive manual coordination;
 - cross-city travel for consumption;
-- firms building service networks after export growth.
+- queue/traffic tied to spend;
+- refunds/disputes;
+- firms adding service networks after product growth.
 
-## 9. Layer G — Friction and current workaround
+## 10. Layer G — Case Mining
 
-A growing market without friction may have no new opportunity.
+Continuously mine successful and failed cases.
 
-Find where actors still pay in:
+Do not copy what a successful company sells. Extract mechanism:
+
+```text
+context change
+→ actor behavior change
+→ friction noticed
+→ first hook
+→ why counterparty engaged
+→ payer
+→ resources controlled / borrowed / partnered
+→ delivery / acceptance
+→ economics
+→ repeat loop / Demand Pump
+→ bypass / failure / moat
+```
+
+For every attractive success pattern seek a failed comparator or incumbent alternative.
+
+## 11. Layer H — Friction / workaround
+
+A growing market without unresolved friction may have no new opportunity.
+
+Look for costs in:
 - money;
 - time;
 - waiting;
 - travel;
 - errors;
 - downtime;
-- risk;
-- coordination burden;
-- trust burden;
+- trust;
+- coordination;
 - opportunity cost;
 - customer churn;
-- duplicate work.
+- duplicate work;
+- idle capacity.
 
-Record the workaround currently used and why it remains imperfect.
+Record what actors currently do instead and why it remains imperfect.
 
-## 10. Layer H — Desired outcome and payer
+## 12. Layer I — Desired outcome and payer
 
 Convert friction into a measurable outcome:
 
 > `[actor] wants [measurable outcome] within [time/price/risk constraints], because the current workaround costs [economic loss].`
 
-Then identify who has economic incentive to pay.
+Then identify:
+- need actor;
+- beneficiary;
+- payer;
+- sponsor/resource owner where relevant.
 
-Need actor, beneficiary and payer may differ.
+Need actor != payer by default.
 
-## 11. Layer I — Transaction-gap classification
+## 13. Layer J — Transaction gap
 
 Classify why a satisfactory transaction is not already happening efficiently:
 
@@ -227,62 +283,54 @@ PAYER_SHIFT
 TECHNOLOGY_SHIFT
 ```
 
-The gap ontology remains in `docs/THESIS_TRANSACTION_GAPS.md`.
-
-## 12. Layer J — Orchestration-fit filter
-
-This is the bridge between discovery and execution.
+## 14. Layer K — Orchestration fit
 
 A real market opportunity may still be wrong for this engine.
 
-Prefer hypotheses where:
+Prefer when:
 - payer is identifiable;
-- desired outcome can be bounded;
-- execution decomposes into capability units;
-- acquisition itself can be delegated or sourced through a channel;
-- multiple resources can satisfy core capability units;
-- output can be accepted objectively enough;
-- trust/safety can be bounded;
-- economic surplus can pay all participants and leave orchestration margin;
-- the orchestrator adds value beyond introduction;
-- a failed provider can be replaced without rebuilding the entire transaction.
+- outcome can be bounded;
+- work decomposes into CapabilityUnits;
+- acquisition can be targeted/delegated;
+- multiple resources can satisfy key units;
+- acceptance is observable;
+- safety/legal risk is bounded;
+- enough economic surplus exists for all parties;
+- orchestration adds value beyond introduction;
+- recurring demand can form a Demand Pump;
+- failed providers can be replaced.
 
-Reject/downgrade opportunities that are large markets but depend permanently on founder charisma, personal sales, unbounded craftsmanship or unsafe/high-liability execution.
+## 15. Layer L — Hook hypothesis
 
-## 13. Evidence hierarchy
+Before outreach, define what controlled value the orchestrator can bring.
 
-Use three evidence layers:
+Potential hooks:
+- verified demand;
+- pre-qualified capability;
+- unique/verified information;
+- measurable pilot/outcome;
+- distribution access;
+- idle-resource access;
+- transparent conditional economics.
 
-```text
-MACRO EVIDENCE
-  shows where to look
+Do not approach a counterparty with only `do you have work?`.
 
-MARKET / BEHAVIOR EVIDENCE
-  shows actors are actually changing and money/work is moving
-
-TRANSACTION EVIDENCE
-  shows our exact structure can capture value
-```
-
-Never promote macro growth directly into a business claim.
-
-## 14. Geographic zoom
-
-The engine may scan globally/nationally and validate locally.
+## 16. Geographic zoom
 
 Recommended zoom:
 
 ```text
-China / global macro
-→ Jiangsu / regional structure
-→ Xuzhou / local money flow
-→ district / cluster / industry chain
-→ exact payer / provider / transaction
+China / global
+→ Jiangsu
+→ Xuzhou
+→ district/county
+→ industry / actor cluster
+→ exact payer / resource / transaction
 ```
 
-Xuzhou is a laboratory because local verification is feasible, not because opportunities must be local forever.
+Xuzhou is the first laboratory because local verification is feasible, not because the system must stay local.
 
-## 15. Discovery output schema
+## 17. Discovery output schema
 
 Every promoted opportunity candidate should include:
 
@@ -293,6 +341,7 @@ market_shift:
 actor_segment:
 psychology_decision_logic:
 observed_behavior:
+case_mechanism_analogs:
 friction:
 current_workaround:
 desired_outcome:
@@ -303,14 +352,23 @@ existing_solution:
 why_unresolved:
 likely_capability_units:
 demand_source_routes:
+likely_hook:
+resource_state_owned_optioned_discovered_hypothetical:
 orchestration_value:
 delegatability:
+regenerative_loop:
 trust_safety_boundary:
 cheapest_decisive_validation:
 sources:
 confidence:
 ```
 
-## 16. Governing invariant
+## 18. Promotion discipline
 
-> **The macro layer tells us where the river is flowing. Actor behavior tells us where the current is strongest. Transaction evidence tells us whether we can build a bridge that people will actually pay to cross.**
+A candidate should not become `#1` because it was discovered first or researched most deeply.
+
+The system should first create a **broad comparable pool**, then apply the same G0-G6 scorecard and evidence standards across candidates.
+
+## 19. Governing invariant
+
+> **The data layer tells us what is changing. Money flow tells us where economic energy moves. Psychology and behavior tell us why actors change decisions. Cases teach us reusable mechanisms. Only then do we choose where to place the hook and how to orchestrate resources.**
