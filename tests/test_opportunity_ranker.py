@@ -15,6 +15,7 @@ def gates(**overrides):
         "G3": "PASS",
         "G4": "PASS",
         "G5": "PASS",
+        "G6": "PASS",
     }
     base.update(overrides)
     return base
@@ -47,8 +48,20 @@ class OpportunityRankerTests(unittest.TestCase):
         self.assertEqual(result.decision, "TEST_NOW")
         self.assertIn("resolve", result.reason)
 
+    def test_unknown_regenerative_gate_can_be_test_target_but_not_scale_ready(self):
+        result = evaluate(full_scores(), gates(G6="UNKNOWN"))
+        self.assertTrue(result.transaction_ready)
+        self.assertFalse(result.scale_ready)
+        self.assertEqual(result.decision, "TEST_NOW")
+
     def test_failed_delegatability_blocks_strategic_fit(self):
         result = evaluate(full_scores(), gates(G4="FAIL"))
+        self.assertTrue(result.transaction_ready)
+        self.assertTrue(result.strategic_blocked)
+        self.assertEqual(result.decision, "REDESIGN_STRATEGIC_FIT")
+
+    def test_failed_regenerative_loop_blocks_core_fit(self):
+        result = evaluate(full_scores(), gates(G6="FAIL"))
         self.assertTrue(result.transaction_ready)
         self.assertTrue(result.strategic_blocked)
         self.assertEqual(result.decision, "REDESIGN_STRATEGIC_FIT")
@@ -68,11 +81,18 @@ class OpportunityRankerTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             evaluate(scores, gates())
 
-    def test_requires_all_six_gates(self):
+    def test_requires_all_seven_gates(self):
         with self.assertRaises(ValueError):
             evaluate(
                 full_scores(),
-                {"G0": "PASS", "G1": "PASS", "G2": "PASS", "G3": "PASS"},
+                {
+                    "G0": "PASS",
+                    "G1": "PASS",
+                    "G2": "PASS",
+                    "G3": "PASS",
+                    "G4": "PASS",
+                    "G5": "PASS",
+                },
             )
 
 
