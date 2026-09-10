@@ -4,36 +4,32 @@ Instructions for AI agents, coding assistants and human contributors working in 
 
 ## Prime directive
 
-The repository builds a truthful, evidence-driven **Actor-First Resource Orchestration Engine**.
+Build a truthful, evidence-driven **Actor-First Regenerative Resource Orchestration Engine** with two distinct layers:
 
-Its purpose is to repeatedly:
+```text
+DISCOVERY ENGINE
+macro → money flow → market → actor → psychology → behavior → friction → payer
 
-1. observe real-world change and friction;
-2. identify the desired outcome and payer;
-3. convert ambiguous demand into a bounded transaction objective;
-4. decompose that objective into `CapabilityUnit`s;
-5. route capability units to suitable people, organizations, AI, assets, venues, channels or other resources;
-6. define incentives, interfaces, trust and acceptance criteria;
-7. execute, accept and settle the transaction;
-8. record outcomes, reliability, economics and replacement behavior;
-9. improve future routing;
-10. automate only repeated proven bottlenecks.
+ORCHESTRATION ENGINE
+transaction objective → CapabilityUnits → routing → incentives/trust → acceptance → settlement → learning → circulation
+```
 
-Strategic kernel: `docs/RESOURCE_ORCHESTRATION_KERNEL.md`.
-
-Optimize for **commercial truth + completed accepted outcomes + delegatability + orchestration economics**, not code volume, founder activity, idea count or narrative appeal.
+Optimize for **commercial truth + recurring accepted outcomes + delegatability + regenerative demand + normalized orchestration economics**, not code volume, founder activity, lead count or narrative appeal.
 
 ## Source of truth
 
 Before changing business logic, read:
+1. `docs/DISCOVERY_ENGINE.md`
+2. `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
+3. `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
+4. `docs/FORMAL_TRUTH.md`
+5. `docs/ACTOR_MODEL.md`
+6. `docs/THESIS_TRANSACTION_GAPS.md`
+7. `docs/OPPORTUNITY_SCORECARD.md`
+8. `docs/ARCHITECTURE.md`
+9. current `docs/research/` and `docs/launch/` files relevant to the task.
 
-1. `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
-2. `docs/FORMAL_TRUTH.md`
-3. `docs/ACTOR_MODEL.md`
-4. `docs/METHODOLOGY.md`
-5. `docs/OPPORTUNITY_SCORECARD.md`
-6. `docs/ARCHITECTURE.md`
-7. relevant `docs/EXPERIMENT_*.md`
+There is no active `EXP-*` opportunity layer after the 2026-09-10 reset. Do not recreate it unless the architecture is explicitly changed.
 
 When a major assumption changes, update `docs/FORMAL_TRUTH.md` in the same change.
 
@@ -45,12 +41,39 @@ When a major assumption changes, update `docs/FORMAL_TRUTH.md` in the same chang
 - Demand != willingness to pay.
 - Beneficiary != payer by default.
 - Trend != business.
+- Social-media salience != population share.
 - Introduction != orchestration value.
 - Founder free labor != profit.
+- Capability claim != capability proof.
+- One provider != replaceable supply.
 - One transaction != repeatability.
+- One customer != recurring Demand Pump.
+- Recurring founder sales effort != regenerative demand.
 - LLM confidence != commercial evidence.
 - Preserve provenance, dates and contradictions.
-- Subsidized/officially promoted success must be separated from independent payer evidence.
+- Separate subsidized/officially promoted outcomes from independent payer evidence.
+
+## Discovery rule
+
+Do not start from the operator's existing skills, a favored product or a fashionable technology.
+
+Start from broad reality:
+- GDP / sector contribution;
+- CPI/PPI/service inflation;
+- income / employment;
+- consumption category mix;
+- retail / service retail / online retail;
+- investment / equipment investment;
+- imports / exports;
+- demographics / aging / household structure;
+- technology / policy;
+- industry-chain movement;
+- actor psychology / decision logic;
+- observed spending, workarounds and operational behavior.
+
+Then zoom from macro to exact payer and transaction gap.
+
+Psychology signals must be corroborated with behavior and money before they can materially raise opportunity confidence.
 
 ## Canonical actor roles
 
@@ -63,13 +86,13 @@ Map where relevant:
 - `CAPABILITY_PROVIDER`
 - `ORCHESTRATOR`
 
-An actor may hold several roles. The operator is not automatically the capability provider.
+Operator != capability provider by default.
 
 ## Capability-first execution
 
-The atomic execution unit is a `CapabilityUnit`, not a person.
+The atomic execution unit is a `CapabilityUnit`, not a person/job title.
 
-Every recurring task should, where feasible, define:
+Define where feasible:
 
 ```text
 purpose
@@ -82,164 +105,126 @@ price model
 payout condition
 deadline / SLA
 dependencies
-trust / safety requirements
+trust / safety / confidentiality requirements
 replacement rule
 failure / refund rule
 ```
 
-Candidate capabilities include:
-- demand scouting;
-- lead qualification;
-- sales / BD;
-- participant/user recruitment;
-- requirements discovery;
-- research;
-- development;
-- design;
-- translation;
-- venue/asset provision;
-- logistics;
-- delivery;
-- hosting;
-- verification;
-- QA;
-- support;
-- settlement administration.
-
-**Sales, acquisition and delivery are routable capabilities. Do not silently assign them to the operator.**
+Sales, demand sourcing, qualification, research, development, design, delivery, QA, support, logistics and settlement are all potential routable capabilities.
 
 ## Delegation-first rule
 
-For every execution task ask:
+For every recurring execution task:
 
 ```text
-Can this be eliminated?
-Can it be automated safely?
-Can it be delegated as a bounded capability unit?
-Only if not, should the operator perform it temporarily?
+eliminate?
+→ automate safely?
+→ delegate as bounded CapabilityUnit?
+→ only then temporary operator execution
 ```
 
-If the operator performs a task temporarily, record:
-- why delegation was not yet feasible;
-- time spent;
-- replacement plan;
-- `operator_shadow_cost`.
+When the operator temporarily executes a routable task, record time, reason, replacement plan and `operator_shadow_cost`.
 
-Repeated founder dependence is a bottleneck, not evidence of product-market fit.
+## Demand Pump / circulation rule
 
-## Operator kernel
+A preferred core opportunity must attach to a recurring `Demand Pump`: a channel, installed base, workflow, lifecycle or actor relationship that naturally generates repeated task events.
 
-The initial operator should preferentially retain:
-- opportunity judgment;
-- transaction architecture;
-- capability decomposition;
-- interface/acceptance definition;
-- incentive design;
-- routing approval;
-- trust/risk boundaries;
-- exception arbitration;
-- outcome learning.
+Preferred loop:
 
-Everything else should be tested for delegation or automation.
+```text
+RECURRING DEMAND PUMP
+→ TASK QUEUE
+→ CAPABILITY DECOMPOSITION
+→ REPLACEABLE / REPLENISHING SUPPLY
+→ ACCEPTED OUTCOME
+→ SETTLEMENT
+→ REPUTATION / PERFORMANCE DATA
+→ BETTER ROUTING + LOWER FAILURE COST
+→ MORE TRANSACTIONS
+↺
+```
+
+A one-off job can buy learning but cannot become the core platform wedge until circulation is proven.
 
 ## Opportunity gates
 
-Before serious promotion, answer:
+Answer all seven:
 - `G0 ACTOR_ROLE_CLARITY`
 - `G1 PAYER_CLARITY`
 - `G2 TRANSACTIONABILITY`
 - `G3 LEGAL_TRUST_SAFETY`
 - `G4 CAPABILITY_DECOMPOSABILITY / DELEGATABILITY`
 - `G5 ORCHESTRATION_VALUE`
+- `G6 REGENERATIVE_CIRCULATION / RECURRING_DEMAND`
 
-G4/G5 may be the explicit unknown in an early experiment, but must pass before a candidate becomes `REPEATABLE` / `SCALE_CANDIDATE`.
+G0–G3 protect transaction truth/safety. G4–G6 may be explicit early unknowns but all must PASS before `REPEATABLE` / `SCALE_CANDIDATE`.
 
 ## Economic truth
 
 Always distinguish:
 
 ```text
+payer inflow
+- acquisition payout
+- provider payouts
+- resource / QA / trust / failure / operating cost
+= cash contribution margin
+
 cash contribution margin
-vs
-normalized orchestration margin after operator shadow labor
+- operator shadow labor
+= normalized orchestration margin
 ```
 
-A transaction supported by unpaid founder sales, delivery or QA is not proven economically repeatable.
-
-Early experiments may intentionally buy learning at low/negative normalized margin, but this must be explicit.
+A repeatable business cannot depend on unpaid founder execution to appear profitable.
 
 ## Orchestration value test
 
-Do not defend a model whose only value is exchanging contacts.
+The layer must add recurring value beyond introduction through requirement clarification, decomposition, qualification, dependency management, trust, QA, acceptance, replacement, settlement, accountability or accumulated routing/reliability data.
 
-Orchestration should create recurring value through one or more of:
-- requirement clarification;
-- task decomposition;
-- provider qualification;
-- trust;
-- dependency management;
-- QA/acceptance;
-- replacement;
-- settlement;
-- outcome accountability;
-- accumulated routing/reliability data.
+If buyer/provider bypass destroys most value after one introduction, downgrade it.
 
-If buyer/provider bypass destroys most value after one introduction, downgrade the opportunity.
+## Safety / compliance
 
-## Safety and regulated work
+Do not route regulated/safety-sensitive work to unqualified providers. Respect upstream contracts, confidentiality, data-access boundaries, labor classification, vulnerable-person safeguards and sector-specific obligations.
 
-Do not route regulated or safety-sensitive work to unqualified providers.
-
-Children, elderly/vulnerable people, home access, transport, medical, legal, financial, employment-placement and other high-trust activities require elevated legal/trust/safety review.
-
-Commercial attractiveness never overrides safety or law.
+Never hide subcontracting where approval is required. Never access customer systems/data without explicit authorization.
 
 ## Platform discipline
-
-Do not build a broad marketplace because the conceptual model supports one.
 
 Required maturity path:
 
 ```text
-real payer
-→ bounded transaction
-→ capability decomposition
-→ manual resource routing
-→ accepted delivery
-→ settlement
-→ delegated acquisition + delegated delivery
-→ repeated template
-→ provider replacement works
-→ normalized positive economics
-→ recurring bottleneck identified
-→ automation
-→ platform/network product only if density justifies it
+L3 real commitment
+→ L4 accepted paid transaction + settlement
+→ L5 repeat/referral
+→ L6 delegated repeat / provider replacement
+→ L7 recurring Demand Pump produces multiple transactions and routing improves
+→ only then automate repeated bottlenecks / consider network product
 ```
 
-## Development principles
+Do not build a broad marketplace first.
 
-- Small explicit schemas; deterministic validation where possible.
-- Separate raw evidence from derived claims.
-- Separate actors from roles.
-- Separate people/resources from capabilities.
-- Separate capability claims from capability proof.
-- Separate score from decision.
-- Separate cash margin from normalized margin.
-- AI classifications must expose evidence and remain reviewable.
-- Tests should protect truth gates and lifecycle transitions.
-- Never commit secrets or unnecessary private/sensitive data.
+## Current launch truth
+
+Current reset ranking and immediate launch source:
+- `docs/research/RESET_OPPORTUNITY_SCAN_V1_2026-09-10.md`
+- `docs/launch/INDUSTRIAL_SERVICE_OVERFLOW_ROUTER_START_2026-09-10.md`
+
+Current #1 structural candidate is the **Industrial Service Overflow Routing Network**. This is a hypothesis, not validated truth. Its 90/100 score is structural fit, not 90% success probability.
+
+The immediate unknown is whether a real service provider will release a lawful/contractually delegable bounded overflow task and pay for accepted output.
 
 ## Success definition
 
-The repository succeeds when it increasingly produces transactions with:
+The repository succeeds when it increasingly produces:
 - real payer commitment;
-- clear capability decomposition;
-- routed acquisition/delivery rather than founder dependence;
-- accepted output;
-- settlement;
-- measurable normalized economics;
-- repeat/referral;
-- replaceable capability providers;
-- proprietary outcome/reliability learning that improves future orchestration.
+- recurring Demand Pumps;
+- clear CapabilityUnits;
+- delegated acquisition/delivery;
+- accepted outputs and settlement;
+- provider replaceability;
+- positive normalized orchestration economics;
+- repeated transactions from the same demand relationship;
+- outcome/reliability learning that improves future routing.
 
-**The engine must win through architecture and routing, not through the operator personally doing everything.**
+**The engine wins through architecture, circulation and routing — not because the operator personally hustles every transaction into existence.**
