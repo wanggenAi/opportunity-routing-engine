@@ -2,388 +2,305 @@
 
 Last updated: 2026-09-10
 
-This document is the project's commercial source of truth.
+This document is the current commercial source of truth after the full opportunity reset.
 
-Strategic constitution: `docs/RESOURCE_ORCHESTRATION_KERNEL.md`.
+Canonical foundations:
+- `docs/DISCOVERY_ENGINE.md`
+- `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
+- `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
+- `docs/OPPORTUNITY_SCORECARD.md`
 
 ## 1. System identity — LOCKED
 
-The project is an **Actor-First Resource Orchestration Engine**.
+The project is an **Actor-First Regenerative Resource Orchestration Engine**.
 
-It is not defined by Xuzhou, SMEs, youth events, AI tools, export services, freelancing or any other vertical.
-
-Canonical purpose:
-
-> **Find real outcomes worth paying for, decompose each outcome into contractible capability units, route those capabilities to appropriate resources, define incentives/interfaces/trust/acceptance, complete and settle the transaction, and learn which combinations reliably work.**
-
-The operator is initially the transaction architect and governance layer.
-
-**The operator is not the default salesperson, recruiter, developer, researcher, runner, host, provider or customer-support worker.**
-
-## 2. Canonical chain — LOCKED
+It has two distinct jobs:
 
 ```text
-ACTOR / CHANGE / FRICTION
-→ DESIRED OUTCOME
-→ BENEFICIARY / PAYER
-→ TRANSACTION OBJECTIVE
-→ CAPABILITY DECOMPOSITION
-→ CAPABILITY UNITS
-→ RESOURCE / PROVIDER ROUTING
-→ INCENTIVE + INTERFACE + TRUST DESIGN
-→ EXECUTION
-→ ACCEPTANCE
-→ SETTLEMENT
-→ OUTCOME
-→ REPUTATION / LEARNING
-→ BETTER FUTURE ROUTING
+DISCOVERY ENGINE
+macro → money flow → market → actor → psychology → behavior → friction → payer
+
+ORCHESTRATION ENGINE
+transaction objective → CapabilityUnits → routing → incentives/trust → acceptance → settlement → learning
 ```
 
-The older chain that stopped at generic `CAPABILITY → TRANSACTION` remains conceptually compatible but is no longer sufficiently precise. Capability decomposition, routing, acceptance and settlement are now first-class.
+The first job discovers where opportunity is forming. The second captures that opportunity without turning the operator into the permanent salesperson or provider.
 
-## 3. Actor truth
+## 2. Discovery truth — LOCKED
 
-Every serious transaction should identify where relevant:
-- `NEED_ACTOR`
-- `BENEFICIARY`
-- `PAYER`
-- `SPONSOR`
-- `RESOURCE_OWNER`
-- `CAPABILITY_PROVIDER`
-- `ORCHESTRATOR`
+Do not begin from the operator's skills or a favored product.
 
-Roles may overlap.
+Begin from:
+- GDP / sector growth;
+- CPI / PPI / service inflation;
+- income / employment;
+- household consumption category mix;
+- social retail / service retail / online retail;
+- investment / equipment investment;
+- imports / exports;
+- demographics / aging / household structure;
+- technology and policy;
+- local industrial and service-chain movement;
+- consumer and enterprise decision psychology;
+- actual changed behavior and money/workaround evidence.
 
-Need actor != payer by default.
-
-Operator != capability provider by default.
-
-## 4. Capability truth — NEW CORE
-
-The atomic execution unit is a `CapabilityUnit`, not a person, company or job title.
-
-A routable capability unit defines:
+Then zoom:
 
 ```text
-purpose
-input
-required output
-acceptance criteria
-provider class
-proof required
-price model
-payout condition
-deadline / SLA
-dependencies
-trust / safety requirements
-replacement rule
-failure / refund rule
+China / global
+→ Jiangsu
+→ Xuzhou
+→ industry / actor cluster
+→ exact friction
+→ exact payer
 ```
 
-A resource may be a person, company, AI/software system, venue, asset, institution, audience, channel, data source or other usable input.
+Macro growth is a search direction, not a business proof.
 
-The same capability unit should ideally be satisfiable by more than one resource.
+## 3. Psychology truth
 
-## 5. Sales / acquisition truth — LOCKED
+Psychology is dynamic and should be tracked over time, but social-media salience is not population share.
 
-Demand acquisition is itself a capability.
+The Psychology & Behavior Tracker must distinguish:
+- signal strength / salience;
+- momentum;
+- behavioral corroboration;
+- money-flow corroboration;
+- geographic / actor segment;
+- representative survey share where a valid sampling denominator actually exists.
 
-The system must not silently assume:
+Do not build private individual psychographic profiles. Use public/authorized aggregate signals.
 
-```text
-operator = salesperson
-operator = cold caller
-operator = street recruiter
-operator = merchant BD
-```
+## 4. Execution truth — LOCKED
 
-Lead sourcing, qualification, outreach, BD, referrals, participant recruitment and channel access can be specified, priced and routed like other capabilities.
+The atomic execution unit is a `CapabilityUnit`, not a person or job title.
 
-A transaction does not become less valid because the operator did not personally meet the payer.
-
-What matters is that the demand-source capability has a clear output and payout event.
-
-## 6. Delegation-first truth — LOCKED
-
-For every repeated task:
-
-```text
-Can it be eliminated?
-Can it be automated safely?
-Can it be delegated as a bounded capability unit?
-Only if not, should the operator perform it temporarily?
-```
-
-Operator execution is allowed for learning, not as the assumed permanent operating model.
-
-Repeated dependence on the operator personally performing a routable task is a bottleneck to remove.
-
-## 7. Operator kernel
-
-The initial operator should preferentially own:
+The operator's preferred kernel is:
 - opportunity judgment;
+- systems analysis;
 - transaction architecture;
 - capability decomposition;
-- interface and acceptance design;
+- interface / acceptance design;
 - incentive design;
 - route approval;
-- trust / risk boundaries;
+- risk / trust boundaries;
 - exception arbitration;
-- learning-system updates.
+- learning updates.
 
-Routine acquisition and delivery should migrate to external capability providers or automation.
+Sales, sourcing, research, coding, design, implementation, QA, support and logistics can themselves be routed capabilities.
 
-## 8. Operator-independence milestones
+## 5. Delegation truth — LOCKED
 
-```text
-O0 — operator performs acquisition + delivery
-O1 — delivery delegated
-O2 — acquisition + delivery delegated; operator designs/governs
-O3 — repeatable template with replaceable providers
-O4 — repeated routing bottlenecks partly automated
-O5 — network orchestration engine
-```
-
-**The first major system milestone is O2.**
-
-First-order profit is secondary to proving O2 during early experiments, provided the learning cost is explicit and bounded.
-
-## 9. Economic truth — LOCKED
-
-Every serious transaction must distinguish:
+For recurring work:
 
 ```text
-PAYER INFLOW
-- demand-source / acquisition payout
-- capability-provider payouts
-- resource costs
-- QA / trust / verification costs
-- expected refund / failure reserve
-- payment / operating costs
-= CASH CONTRIBUTION MARGIN
-
-CASH CONTRIBUTION MARGIN
-- OPERATOR SHADOW LABOR COST
-= NORMALIZED ORCHESTRATION MARGIN
+eliminate?
+→ automate safely?
+→ delegate as CapabilityUnit?
+→ only then temporary operator execution
 ```
 
-If the operator personally performs sales, recruitment, research, delivery, QA, hosting or another routable function without salary, estimate its replacement cost anyway.
+Founder free labor is not profit. Operator execution must be shadow-costed.
 
-**Founder free labor is not profit.**
+## 6. Sustainability truth — LOCKED
 
-Early experiments may intentionally have low/negative normalized margin when buying decisive learning. Repeatable models require credible positive normalized orchestration economics.
+The core platform must behave like a circulation system, not a sequence of unrelated gigs.
 
-## 10. Orchestrator value truth
+New strategic object: `Demand Pump`.
 
-The system must create more than introduction value.
+A Demand Pump is a relationship/channel/workflow/installed base that naturally keeps generating transaction events.
 
-Recurring orchestration value may come from:
-- translating ambiguous demand into precise requirements;
-- decomposition;
-- capability qualification;
-- route construction;
-- dependency management;
-- trust;
-- QA / acceptance;
-- replacement;
-- settlement;
-- exception handling;
-- outcome accountability;
-- accumulated reliability/routing data.
-
-If buyer and provider can bypass the orchestrator after first contact with almost no lost value, downgrade the opportunity.
-
-## 11. Opportunity hard gates
-
-Current canonical gates:
+Preferred shape:
 
 ```text
-G0 ACTOR / ROLE CLARITY
-G1 PAYER CLARITY
-G2 TRANSACTIONABILITY
-G3 LEGAL / TRUST / SAFETY
-G4 CAPABILITY DECOMPOSABILITY / DELEGATABILITY
-G5 ORCHESTRATION VALUE
+one recurring Demand Pump
+→ many task events
+→ standardized CapabilityUnits
+→ replenishing / replaceable supply
+→ accepted outcomes
+→ settlement
+→ performance / trust data
+→ better routing and lower future cost
+→ more transactions
+↺
 ```
 
-G0–G3 must not fail for a real transaction test.
+A lucrative one-off job can be accepted tactically but cannot define the core system if it fails the regenerative-circulation gate.
 
-G4/G5 may be explicit experimental unknowns, but both must pass before an opportunity becomes `REPEATABLE` / `SCALE_CANDIDATE`.
+## 7. Current gates — LOCKED
 
-Source: `docs/OPPORTUNITY_SCORECARD.md`.
+```text
+G0 Actor / role clarity
+G1 Payer clarity
+G2 Transactionability
+G3 Legal / trust / safety
+G4 Capability decomposability / delegatability
+G5 Orchestration value
+G6 Regenerative circulation / recurring demand
+```
 
-## 12. Commercial truth rules
+G4-G6 must all PASS before a candidate becomes a core repeatable platform wedge.
+
+Evidence maturity now extends to:
+
+```text
+L4 completed accepted transaction + settlement
+L5 repeat/referral
+L6 delegated repeat / provider replacement
+L7 one recurring Demand Pump produces multiple transactions and routing improves
+```
+
+## 8. Commercial truth rules
 
 ```text
 Complaint != Demand
 Demand != Willingness to Pay
 Trend != Business
 Market Size != Customer Acquisition
+Social Salience != Population Share
 Introduction != Orchestration Value
 Founder Free Labor != Profit
 Capability Claim != Capability Proof
 One Provider != Replaceable Supply
 One Transaction != Repeatability
+One Customer != Demand Pump
+Recurring Sales Effort != Regenerative Demand
 LLM Confidence != Commercial Evidence
 UNKNOWN != PASS
 ```
 
-## 13. Intervention contamination truth
+## 9. Old opportunity layer — RETIRED
 
-Subsidy, public traffic, grants, free resources, platform subsidy, official promotion, event spikes or institutional mandates can make a transaction appear stronger than its independent payer economics.
+On 2026-09-10 all previous `EXP-*` opportunity documents, old rankings, field packs and experimental opportunity data were removed from the active repository. Historical GitHub issues were closed/renamed `RETIRED` because the available interface cannot hard-delete issue history.
 
-Keep separate:
-- `DEMAND_EVIDENCE`
-- `CAPABILITY_EVIDENCE`
-- `SPONSOR_EVIDENCE`
-- `INDEPENDENT_PAYER_EVIDENCE`
+Those old vertical conclusions must not anchor current ranking.
 
-Use controls when a payer thesis materially depends on an intervention-backed showcase.
+The discovery logic was **not** discarded. It was formalized in `docs/DISCOVERY_ENGINE.md`.
 
-## 14. Seven-graph learning architecture — LOCKED DIRECTION
+## 10. Current macro / market truth
 
-The long-run learning model is now:
+The 2026 data does not support a simplistic `nobody spends` thesis.
 
-```text
-Actor Graph
-Demand Graph
-Capability Graph
-Orchestration / Task Graph
-Trust Graph
-Transaction / Settlement Graph
-Outcome / Learning Graph
-```
+Current structure shows selective migration:
+- China services are growing faster than many goods categories;
+- rental/business and information/software services are strong;
+- Jiangsu production-service revenue and equipment investment are strong relative to broad investment;
+- Xuzhou information/software/IT and rental/business services show double-digit growth;
+- Xuzhou's industrial policy explicitly pushes engineering machinery toward `product + full-lifecycle service` and production-service chain strengthening.
 
-The `Orchestration / Task Graph` is first-class because the system must learn how desired outcomes decompose into capability units and dependency edges.
+Current research snapshot:
+- `docs/research/RESET_OPPORTUNITY_SCAN_V1_2026-09-10.md`
 
-This is a future architecture, not permission to build it before transaction evidence.
+## 11. Reset ranking — CURRENT
 
-## 15. Current strategic status
+The latest structural ranking is:
 
-**GO — prove the resource orchestration model. No vertical is validated.**
+1. **Industrial / digital service-provider overflow delivery router — 90/100 provisional structural score.**
+2. Cross-border recurring operations task router — 76 adjusted.
+3. Engineering-machinery aftermarket resource orchestration — 69 adjusted.
+4. OPC shared-operations / task routing — 69 adjusted; currently more useful as capability/channel supply.
+5. Property/community household-service routing — 60 adjusted.
+6. Broad elder-care coordination — reject as first project after safety/regulatory penalties.
 
-Xuzhou remains a convenient laboratory, not the product boundary.
+These numbers are **not success probabilities**. They rank structural fit using current evidence.
 
-The previous 38-friction Actor-First scan remains useful demand research. However, the old ranking optimized mainly for transaction attractiveness and did not adequately score delegation/orchestration leverage. It therefore cannot remain the final strategic priority ordering after this kernel change.
+## 12. Current best-bet project
 
-## 16. Current portfolio priority — V3 logic
+Canonical working name:
 
-### Priority A — Prove delegated orchestration itself
+# Industrial Service Overflow Routing Network
 
-New canonical system experiment: `EXP-008 — Delegated Resource Orchestration Loop`.
+Chinese:
 
-Required proof target:
+> **制造业 / 数字化服务商交付溢出任务编排网络**
 
-```text
-real payer
-+ bounded outcome
-+ acquisition performed by a routed capability/provider rather than operator
-+ delivery performed by a routed capability/provider rather than operator
-+ explicit acceptance
-+ settlement/payouts recorded
-+ operator shadow labor recorded
-```
+The first wedge is Xuzhou digital-transformation / industrial-software service providers.
 
-Strong target: reach `O2` and `L4`, then attempt `L5/L6`.
+Why this is currently #1:
+- the city is actively running a multi-year SME digital-transformation program;
+- official targets create a dense pool of transforming manufacturers and service providers;
+- selected service providers must perform implementation, training, 7×24 support, data reporting, ecosystem collaboration and knowledge/case output;
+- providers face continuing performance assessment;
+- `comprehensive` provider roles explicitly include integration of multiple technical resources/ecosystem partners;
+- those properties create a plausible recurring Demand Pump rather than isolated enterprise prospecting;
+- task delivery can be decomposed more safely than household/high-trust physical service;
+- supply can come from OPCs, specialists, small studios, students, freelancers and AI-assisted workflows where lawful and contractually allowed.
 
-### Preferred sandbox — bounded digital / knowledge micro-projects
+## 13. Exact first wedge
 
-`EXP-003` and `EXP-007` are now strategically important as complementary parts of the same orchestration thesis:
-- `EXP-003` supplies real buyer/output/payment tests;
-- `EXP-007` supplies routable under-monetized capability/provider tests.
+Do not sell `people` and do not offer broad software outsourcing.
 
-They remain separate experiments for evidence hygiene, but should interoperate when a real bounded task appears.
+First proposition:
 
-Why this sandbox is preferred initially:
-- outputs can often be made explicit;
-- remote/delegated delivery is feasible;
-- multiple provider types exist;
-- acceptance can often be objective;
-- safety/regulatory burden can be kept low;
-- provider replacement is testable;
-- it uses the operator's systems/architecture judgment without requiring the operator to be the final coder/researcher.
+> **Take bounded, de-sensitive, non-core overflow delivery work that consumes project-team time; convert it to accepted CapabilityUnits; route execution; replace failed providers; settle only against defined outputs.**
 
-This preference is about **orchestration fit**, not a return to enterprise-first ideology.
+Preferred initial units:
+- implementation-document normalization;
+- approved-source training material / SOP production;
+- sandbox/demo test-case execution and evidence capture;
+- anonymized data-cleaning / migration-template preparation;
+- public-source industry / customer research packs;
+- non-sensitive knowledge-base structuring;
+- project progress/evidence material organization without impersonating official evaluation;
+- simple non-sensitive internal automation with explicit acceptance.
 
-### Secondary sandbox — EXP-006 youth micro-experience
+Do not begin with official audit/acceptance decisions, regulated advice, unauthorized customer-system access, sensitive production data, uncontrolled on-site production changes, disguised labor dispatch, or work whose upstream contract prohibits subcontracting/delegation.
 
-`EXP-006` remains a valid multi-sided transaction experiment but is no longer the default first priority.
+## 14. Current strongest public evidence
 
-Important correction:
-- merchant BD can be delegated;
-- participant recruitment can be delegated;
-- venue/coffee capability can be delegated;
-- hosting can be delegated;
-- the operator should not be required to street-recruit or personally sell to merchants.
+The strongest current market mechanism is the Xuzhou SME digital-transformation service-provider system:
+- selected providers have full-lifecycle implementation/support duties;
+- provider management is continuous and performance-based;
+- `comprehensive` providers are expected to integrate multiple resources and ecosystem partners;
+- the program has continuing batches and project activity rather than one completed procurement event.
 
-If run, EXP-006 should test whether these capabilities can be priced and orchestrated with workable economics.
+Current candidate demand/channel organizations include local digital-transformation service providers and the Huaihai private-enterprise digital-transformation institute. Their existence/activity supports targeted contact, **not willingness to pay us**.
 
-### Lower-priority trust sandbox — EXP-004
+## 15. Critical UNKNOWN — DO NOT HIDE
 
-Pet-care trust research remains useful, but the unresolved home-access/safety burden and low-ticket coordination risk make it a poor first proof of the orchestration kernel.
+The highest-value unknown is:
 
-## 17. What is explicitly not the target model
+> **Will a real service provider release a bounded recurring overflow task and pay an external orchestration layer for accepted output, rather than keep it in-house, hire directly, use a freelancer directly, or prohibit delegation under its customer contract?**
 
-Do not regress into:
-- founder-as-freelancer;
-- founder-as-permanent-salesperson;
-- founder-as-event-promoter;
-- founder-as-runner;
-- traditional contact brokerage;
-- generic freelancer marketplace;
-- labor dispatch / recruitment without correct legal structure;
-- broad AI SaaS before repeated paid workflow;
-- platform build before routing density;
-- a single vertical treated as company identity.
+Therefore G1 and G5 remain partly UNKNOWN for the exact proposed structure. G6 is strongly plausible but not yet proven by our own transaction stream.
 
-## 18. Evidence maturity
+The 90/100 score must never be described as a 90% chance of success.
 
-```text
-L0 — statement
-L1 — observed behavior/workaround
-L2 — exact transaction terms accepted verbally
-L3 — real commitment/deposit/signed task
-L4 — completed accepted transaction + settlement
-L5 — repeat/referral
-L6 — delegated repeat, provider replacement or alternate route succeeds
-```
+## 16. First validation threshold
 
-L4 proves one transaction.
+Do not contact 650 manufacturers. Do not recruit 100 providers. Do not build a marketplace.
 
-**L6 begins to prove the orchestration engine.**
+First target only five qualified Demand Pump candidates.
 
-## 19. Immediate operating path
+PASS for the first cycle:
+- >=3/5 name a real overflow task from the recent project cycle;
+- >=2/5 can define one task that can lawfully/contractually be delegated with objective acceptance;
+- >=1 commits real payment for one bounded accepted output.
+
+Immediate FAIL / redesign signals:
+- qualified providers report no recurring overflow;
+- useful work cannot be separated from sensitive/core/on-site responsibility;
+- upstream contracts forbid external execution;
+- buyers see no value beyond direct freelancer/hiring;
+- economics cannot fund provider payout + orchestration margin.
+
+## 17. Current operating path
 
 ```text
-find one bounded paid outcome
-→ specify transaction
-→ decompose capabilities
-→ procure demand-source capability
-→ procure delivery capability
-→ define payouts / acceptance
-→ obtain payer commitment
-→ execute
-→ accept
-→ settle
-→ calculate normalized margin
-→ repeat with replacement / alternate route
-→ automate only proven bottleneck
+find 5 targeted Demand Pump candidates
+→ ask for one real recent overflow task
+→ select one safe task
+→ write transaction / CapabilityUnit specification
+→ only then source 2–3 capable providers
+→ define acceptance / payout / replacement
+→ payer commitment
+→ delegated execution
+→ acceptance + settlement
+→ repeat from same Demand Pump
+→ attempt provider replacement
+→ reach L7 before platform build
 ```
 
-Not:
+## 18. Governing truth
 
-```text
-operator personally does everything
-→ call it a business
-```
-
-and not:
-
-```text
-build marketplace
-→ hope transactions appear
-```
-
-## 20. Governing truth — LOCKED
-
-**The engine should make transactions work because it can define, price, route and govern the right capabilities — not because the operator personally performs every difficult step.**
+> **看大势，追钱流，察人心，找摩擦；定结果，拆能力，调资源，设利益；让持续需求流进来，让可替换能力完成它，让每笔交易改善下一笔。**
