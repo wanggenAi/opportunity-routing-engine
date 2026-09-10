@@ -4,28 +4,45 @@ Status: `CANONICAL / LOCKED STRATEGIC MODEL`
 
 Effective: 2026-09-10
 
-This document defines the strategic kernel of the Opportunity Routing Engine. Vertical experiments may change. This kernel does not change merely because one experiment wins or fails.
+This is the strategic kernel of the Opportunity Routing Engine. Vertical opportunities may change. The kernel changes only when a better governing truth is deliberately adopted.
 
 ## 1. What the system is
 
-The system is a **real-world resource orchestration engine**.
+The system is a **real-world regenerative resource orchestration engine**.
 
-Its job is not primarily to sell the operator's labor, build a marketplace, introduce two contacts, or choose one industry.
+It does not primarily sell the operator's labor, introduce contacts, build a freelancer marketplace, or depend on one industry.
 
-Its job is to repeatedly convert a valuable real-world outcome into a network of purchasable, replaceable, verifiable capabilities and coordinate those capabilities into a completed transaction.
+Its job is to repeatedly convert valuable outcomes into networks of purchasable, replaceable, verifiable capabilities — and to create a circulation loop in which recurring demand, replenishing supply, settlement and outcome learning continually feed the next transaction.
 
 Canonical definition:
 
-> **Discover a real outcome worth paying for, decompose the work into capability units, route each unit to suitable resources, define incentives/interfaces/trust/acceptance, settle the transaction, and learn which combinations reliably work.**
+> **Discover a real outcome worth paying for, decompose the work into CapabilityUnits, route each unit to suitable resources, define incentives/interfaces/trust/acceptance, settle the transaction, learn which combinations work, and attach the engine to recurring demand sources so successful transactions generate a self-renewing flow rather than isolated jobs.**
 
-The operator is the initial transaction architect and system governor. The operator is **not the default salesperson, provider, recruiter, runner, host, developer, designer, or support worker**.
+The operator is the initial transaction architect and system governor. The operator is **not** the default salesperson, recruiter, provider, runner, host, developer, designer or support worker.
 
-## 2. Canonical chain
+## 2. Two-engine structure
+
+The front half remains the Discovery Engine:
 
 ```text
-ACTOR / CHANGE / FRICTION
+MACRO
+→ MONEY FLOW
+→ MARKET / INDUSTRY SHIFT
+→ ACTOR SEGMENT
+→ PSYCHOLOGY / DECISION LOGIC
+→ BEHAVIOR
+→ FRICTION / WORKAROUND
 → DESIRED OUTCOME
-→ BENEFICIARY / PAYER
+→ PAYER
+→ TRANSACTION GAP
+```
+
+Source: `docs/DISCOVERY_ENGINE.md`.
+
+The execution half is:
+
+```text
+DESIRED OUTCOME / PAYER
 → TRANSACTION OBJECTIVE
 → CAPABILITY DECOMPOSITION
 → CAPABILITY UNITS
@@ -34,18 +51,17 @@ ACTOR / CHANGE / FRICTION
 → EXECUTION
 → ACCEPTANCE
 → SETTLEMENT
-→ OUTCOME
-→ REPUTATION / LEARNING
+→ OUTCOME / REPUTATION / LEARNING
 → BETTER FUTURE ROUTING
 ```
 
-Discovery and transaction proof still come before software.
+The strategic target is not merely a completed transaction. It is a **regenerative transaction loop**.
 
-## 3. The atomic unit is not a person — it is a Capability Unit
+## 3. Atomic unit — CapabilityUnit
 
-A person, company, AI model, venue, asset, institution or channel may provide one or many capabilities. The engine should reason about **capabilities first**, then route actors/resources to them.
+A person, company, AI model, venue, institution, asset or channel may provide one or many capabilities. The engine reasons about capabilities first, then routes resources to them.
 
-Every recurring execution function should be representable as a `CapabilityUnit`:
+Every recurring execution function should be representable as:
 
 ```text
 capability_unit_id:
@@ -67,107 +83,126 @@ observed_quality:
 observed_reliability:
 ```
 
-Examples of capability units:
-- demand scouting;
-- lead qualification;
-- merchant / enterprise BD;
-- participant recruitment;
-- requirement interview;
-- research;
-- data cleaning;
-- development;
-- design;
-- translation;
-- venue provision;
-- hosting / facilitation;
-- logistics;
-- identity / credential verification;
-- QA;
-- acceptance testing;
-- customer support;
-- collection / settlement administration.
+Examples include demand scouting, lead qualification, BD, requirement interviews, research, data work, development, design, translation, venue/resource provision, logistics, verification, QA, support and settlement administration.
 
 **Sales and acquisition are capabilities. They are not automatically the operator's job.**
 
-## 4. The orchestrator owns architecture, not every task
+## 4. Operator kernel
 
-The initial orchestrator's non-delegated kernel is:
+The initial operator should preferentially own:
+1. opportunity judgment;
+2. transaction-objective definition;
+3. capability decomposition;
+4. interfaces between units;
+5. acceptance criteria;
+6. incentive and payout design;
+7. trust, safety, confidentiality and responsibility boundaries;
+8. route approval;
+9. exception / acceptance arbitration where necessary;
+10. learning-system updates.
 
-1. decide which outcome is worth testing;
-2. define the transaction objective;
-3. decompose the objective into capability units;
-4. define interfaces between units;
-5. define acceptance criteria;
-6. design economic incentives and payout conditions;
-7. define trust, safety and responsibility boundaries;
-8. choose or approve capability routes;
-9. arbitrate exceptions / acceptance when needed;
-10. record outcomes and update routing rules.
-
-Everything else is a candidate for delegation or automation.
-
-Even the kernel may later become increasingly automated, but early validation must prove the logic manually before encoding it.
+Everything else is a candidate for delegation or safe automation.
 
 ## 5. Delegation-first rule
 
-For every task ask, in this order:
+For every repeated task ask:
 
 ```text
 Can this be eliminated?
 Can this be automated safely?
-Can this be delegated as a bounded capability unit?
+Can this be delegated as a bounded CapabilityUnit?
 Only if not, must the operator perform it temporarily?
 ```
 
-Temporary operator execution is allowed for learning, but it creates technical debt in the business model.
+Temporary operator execution is allowed for learning. Repeated operator dependency is business-model debt.
 
-A repeated task that depends on the operator personally is a **bottleneck to remove**, not a moat to celebrate.
+## 6. Demand Pump — NEW LOCKED CONCEPT
 
-## 6. Strategic fit: Delegatability
+The engine should preferentially attach to **recurring demand sources**, not repeatedly hunt isolated customers.
 
-A commercially attractive opportunity is not automatically a strategic fit for this engine.
+A `Demand Pump` is an actor, channel, installed base, lifecycle, workflow or market mechanism that naturally keeps producing transaction opportunities.
 
-High-fit opportunities have:
-- bounded outputs;
-- observable acceptance criteria;
-- multiple plausible capability providers;
-- low or controllable switching cost;
-- clear payout conditions;
-- manageable dependencies;
-- routable trust requirements;
-- repeatable task interfaces;
-- enough economic surplus to pay providers and the orchestration layer.
+Examples:
+- a software/industrial service provider with many active clients and recurring implementation/support tasks;
+- an agency with a continuous client book;
+- a property/community operator with recurring household-service requests;
+- an exporter or platform operator with daily operational tasks;
+- an equipment installed base producing recurring maintenance/aftermarket events;
+- an institution repeatedly procuring bounded outcomes;
+- a lifecycle event such as recurring compliance, renewal, repair, replenishment or support.
 
-Low-fit opportunities have:
-- value tied almost entirely to the operator's personal charisma/identity;
-- unbounded bespoke work;
-- recurring actions that cannot be specified or verified;
-- tiny margins after acquisition/coordination;
-- high liability that cannot be allocated safely;
-- a single irreplaceable provider without durable contractual control.
+The ideal relationship is:
 
-## 7. Orchestrator value rule
+```text
+acquire one Demand Pump
+→ receive many qualified task events
+```
 
-The engine must create more value than contact introduction.
+not:
 
-Valid orchestration value may come from:
+```text
+acquire one isolated buyer
+→ complete one job
+→ restart sales from zero
+```
+
+## 7. Regenerative circulation — NEW LOCKED INVARIANT
+
+A core platform opportunity must have a plausible self-renewing loop:
+
+```text
+RECURRING DEMAND PUMP
+        ↓
+TASK QUEUE
+        ↓
+CAPABILITY DECOMPOSITION
+        ↓
+REPLACEABLE / REPLENISHING SUPPLY
+        ↓
+ACCEPTED OUTCOME
+        ↓
+SETTLEMENT
+        ↓
+REPUTATION + PERFORMANCE DATA
+        ↓
+BETTER ROUTING / LOWER FAILURE COST
+        ↓
+MORE DEMAND + BETTER SUPPLY
+        ↺
+```
+
+A transaction can be commercially valid without this loop, but it cannot define the core system unless the loop becomes credible.
+
+The circulation must survive four tests:
+- **Demand recurrence** — new tasks continue to appear.
+- **Supply recurrence** — providers/resources can be replenished or replaced.
+- **Template recurrence** — enough structure repeats for task definitions and acceptance to improve.
+- **Learning recurrence** — completed outcomes reduce search, trust, QA or failure cost on future transactions.
+
+## 8. Strategic fit — Delegatability
+
+High-fit opportunities have bounded outputs, observable acceptance, multiple plausible providers, manageable dependencies, clear payouts, routable trust, repeatable interfaces and enough surplus to pay capabilities plus the orchestration layer.
+
+Low-fit opportunities depend on founder charisma, unbounded bespoke work, tiny post-coordination margins, unsafe/high-liability execution, single irreplaceable providers, or one-off demand with no recurring pump.
+
+## 9. Orchestrator value
+
+The engine must create more value than contact introduction through one or more of:
 - converting ambiguous demand into a precise brief;
 - decomposing work into cheaper/faster capability units;
-- finding combinations a buyer would not efficiently assemble alone;
 - qualification and trust;
 - dependency management;
-- quality assurance;
-- acceptance design;
-- outcome accountability;
+- QA and acceptance;
 - replacement when a capability fails;
-- payment / settlement structure;
-- accumulated performance data that improves future routing.
+- settlement structure;
+- outcome accountability;
+- accumulated performance data that improves routing.
 
-If buyer and provider can transact directly with almost no loss after first introduction, and the engine contributes no recurring governance/trust/quality advantage, bypass risk is real and the opportunity should be downgraded.
+If buyer/provider can bypass the engine with almost no lost value after first contact, downgrade the opportunity.
 
-## 8. Economic truth
+## 10. Economic truth
 
-For every transaction calculate:
+For every transaction:
 
 ```text
 PAYER INFLOW
@@ -184,94 +219,78 @@ CASH CONTRIBUTION MARGIN
 = NORMALIZED ORCHESTRATION MARGIN
 ```
 
-`OPERATOR SHADOW LABOR COST` must be recorded for work the operator performs personally even when no cash wage is paid.
+Operator work receives a shadow cost even when no wage is paid. Founder free labor is not profit.
 
-This prevents a transaction from appearing profitable only because the founder works for free.
+Early tests may buy information at low/negative normalized margin. A repeatable system requires positive normalized orchestration economics.
 
-Early experiments may accept low or negative normalized margin **only when explicitly buying information**. A repeatable model requires positive normalized orchestration economics.
+## 11. Incentive design
 
-## 9. Incentive design
+Do not ask resources to help when the transaction depends on them. Prefer observable payout events: accepted output, qualified lead, converted payer, milestone, SLA, success fee, minimum guarantee, revenue share, quality/repeat bonus.
 
-Do not ask resources to "help" when the transaction depends on them.
+Incentives must not reward volume while externalizing quality, safety or compliance risk.
 
-Prefer explicit economic contracts such as:
-- fixed fee for accepted output;
-- per-qualified-lead payout;
-- per-converted-payer payout;
-- per-attendee payout;
-- milestone payment;
-- success fee;
-- minimum guarantee + variable share;
-- revenue share;
-- sponsor contribution;
-- quality/repeat bonus.
+## 12. Routing rule
 
-Payout must be tied to an observable event whenever feasible.
-
-The engine should minimize incentives that reward volume while externalizing quality or safety risk.
-
-## 10. Capability routing rule
-
-Routing optimizes for expected completed outcome, not lowest nominal price.
-
-Candidate route score should eventually consider:
+Optimize expected completed outcome, not lowest nominal provider price:
 
 ```text
-fit to required output
+fit
 × probability of acceptance
 × reliability
 × speed
-× trust / safety suitability
+× trust/safety suitability
 × availability
 × replaceability
 × economics
 ```
 
-A cheap provider with high revision/failure probability can be the expensive route.
+## 13. Operator-independence milestones
 
-## 11. Operator-independence milestones
+```text
+O0 — operator does acquisition + delivery
+O1 — delivery delegated
+O2 — acquisition + delivery delegated; operator designs/governs
+O3 — repeatable template with replaceable providers
+O4 — repeated routing bottlenecks partly automated
+O5 — network orchestration engine
+```
 
-The system matures through these stages:
+The first major milestone is O2.
 
-### O0 — Operator does everything
-Useful only for learning. Not the target model.
+## 14. Evidence maturity
 
-### O1 — Delegated delivery
-Operator may source demand but another resource performs delivery.
+```text
+L0 statement
+L1 observed behavior / workaround
+L2 exact terms accepted verbally
+L3 real commitment / deposit / signed task
+L4 completed accepted transaction + settlement
+L5 repeat / referral
+L6 delegated repeat / provider replacement / alternate route succeeds
+L7 regenerative loop: one recurring Demand Pump produces multiple transactions and routing economics/reliability improve
+```
 
-### O2 — Delegated acquisition + delegated delivery
-Demand sourcing / BD and delivery are both performed by capability providers. Operator designs and governs the transaction.
+L4 proves a transaction. L6 begins to prove orchestration. **L7 begins to prove the sustainable system.**
 
-### O3 — Repeatable orchestration
-The same transaction template completes repeatedly with replaceable providers and stable acceptance/economics.
+## 15. Strategic gates
 
-### O4 — Partially automated routing
-Repeated bottlenecks are automated; humans remain where judgment/trust requires them.
+Source of truth: `docs/OPPORTUNITY_SCORECARD.md`.
 
-### O5 — Network orchestration engine
-Multiple demand and capability channels can be composed using accumulated outcome/reliability data without the operator personally executing routine work.
+```text
+G0 Actor / role clarity
+G1 Payer clarity
+G2 Transactionability
+G3 Legal / trust / safety
+G4 Capability decomposability / delegatability
+G5 Orchestration value
+G6 Regenerative circulation / recurring demand
+```
 
-**The first major system milestone is O2, not maximum first-order profit.**
+G4–G6 must all PASS before a candidate becomes a core repeatable platform wedge.
 
-## 12. The system is industry-agnostic
+## 16. Seven-graph learning architecture
 
-A cafe event, SME automation task, research project, youth capability project, translation task, local service, cross-border workflow or another safe transaction is only a **test environment**.
-
-No vertical defines the system.
-
-Prefer early environments that make orchestration easiest to falsify:
-- clear payer;
-- bounded output;
-- short cycle;
-- low legal/safety risk;
-- multiple potential providers;
-- measurable acceptance;
-- ability to delegate acquisition and delivery;
-- low capital requirement.
-
-## 13. Seven-graph learning architecture
-
-If enough real transactions justify software, the engine should learn through seven linked graphs:
+When transaction density eventually justifies software:
 
 ```text
 Actor Graph
@@ -283,34 +302,25 @@ Transaction / Settlement Graph
 Outcome / Learning Graph
 ```
 
-The new first-class `Orchestration / Task Graph` records decomposition, dependencies, capability interfaces and who performed each unit.
+The system should learn not only who can do work, but which Demand Pumps repeatedly create which task types and which routes produce accepted outcomes.
 
-## 14. What we are NOT optimizing for
+## 17. What we optimize for
 
-Do not optimize for:
-- the operator personally earning the highest fee per job;
-- keeping execution work because the operator can do it better;
-- headcount;
-- number of ideas;
-- number of suppliers;
-- number of leads;
-- GMV without margin/quality;
-- a marketplace UI;
-- software sophistication before repeat transactions;
-- a single vertical narrative.
+Do not optimize for founder fee/job, headcount, lead count, supplier count, GMV, software sophistication or one vertical narrative.
 
 Optimize for:
 
 ```text
-completed accepted outcomes
-× repeatability
+accepted outcomes
+× demand recurrence
 × delegatability
+× provider replaceability
 × normalized orchestration margin
 × learning compounding
 ```
 
 subject to truth, legal, trust and safety constraints.
 
-## 15. Governing invariant
+## 18. Governing invariant
 
-> **The engine should make a transaction work because the system designed and routed the right capabilities — not because the operator personally performed every difficult step.**
+> **The engine should behave like a circulation system: recurring demand enters, replaceable capabilities are routed, accepted outcomes and settlement exit, and every completed transaction improves the next route — without requiring the operator to personally restart acquisition and execution from zero.**
