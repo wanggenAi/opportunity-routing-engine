@@ -1,0 +1,1 @@
+flow_id,observation_period,geography,from_category_or_actor,to_category_or_actor,indicator,level,change_pct,benchmark_change_pct,divergence_pct,price_effect,volume_effect,policy_effect,receiver_actor,loser_actor,likely_decision_logic,behavioral_corroboration,source_ids,confidence,next_probe
