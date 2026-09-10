@@ -9,6 +9,16 @@ Canonical project name:
 
 This is the current #1 structural candidate from `docs/research/RESET_OPPORTUNITY_SCAN_V1_2026-09-10.md`.
 
+## Immediate zero-capital start
+
+For the first physical validation on **2026-09-11**, use:
+
+- `docs/launch/ZERO_CAPITAL_START_CARD_2026-09-11.md`
+
+That card overrides any interpretation that the operator should first learn ERP/MES/supply-chain systems, recruit providers, buy tools, or build software.
+
+The first goal is only to prove one recurring `Demand Pump` with one bounded task.
+
 The goal is **not** to sell software to random factories and not to recruit a freelancer pool before demand exists.
 
 The first goal is to prove one recurring `Demand Pump`:
@@ -195,13 +205,13 @@ Use only publicly published business cooperation channels; do not persist privat
 ### Round A — only two contacts first
 
 1. `T1 Research Institute` — channel test.
-2. `T2 Caizi` — direct payer/task test.
+2. `T3 Newdie` — direct payer/task test, chosen for same-cluster field efficiency.
 
 Do not contact all five with a weak message. Learn from the first two and sharpen the task language.
 
 ### Round B
 
-3. T3 Newdie.
+3. T2 Caizi.
 4. T4 Dongxinda.
 
 ### Round C
