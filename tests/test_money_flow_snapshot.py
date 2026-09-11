@@ -48,6 +48,7 @@ class MoneyFlowSnapshotTests(unittest.TestCase):
         self.assertEqual(failed["error_type"], "RuntimeError")
         self.assertEqual(snapshot["answerability"]["jiangsu_money_flow"]["status"], "UNKNOWN")
         self.assertEqual(snapshot["answerability"]["xuzhou_financial_balance"]["status"], "UNKNOWN")
+        self.assertEqual(snapshot["answerability"]["xuzhou_enterprise_funding_demand"]["status"], "UNKNOWN")
 
     def test_explicit_unavailable_never_becomes_available(self):
         snapshot = collect_money_flow_snapshot(
@@ -178,6 +179,81 @@ class MoneyFlowSnapshotTests(unittest.TestCase):
         self.assertEqual(snapshot["answerability"]["xuzhou_specific_area_trade"]["status"], "PARTIAL")
         self.assertEqual(snapshot["answerability"]["xuzhou_city_trade_flow"]["status"], "UNKNOWN")
 
+    def test_scoped_sme_funding_demand_is_partial_but_not_private(self):
+        payload = {
+            "source_id": "XZ_GOV_FINANCE_DEMAND",
+            "data_available": True,
+            "evidence_kind": "SCOPED_DIRECT_ENTERPRISE_FINANCING_DEMAND",
+            "event_count": 1,
+            "error_count": 0,
+            "latest_freshness": {"publication_date": "2025-12-15", "status": "AGING"},
+            "events": [
+                {
+                    "actor_scope": "SME_AND_MICRO",
+                    "private_enterprise_scope_explicit": False,
+                    "coverage_scope": "SCOPED_PROGRAM_OR_REPORTED_BATCH",
+                    "program_name": "银企同心 产融共进",
+                    "demand_amount_cny_100m": "13.6",
+                    "aggregation_allowed": False,
+                }
+            ],
+        }
+        snapshot = collect_money_flow_snapshot(
+            feeds=[
+                SnapshotFeed(
+                    key="xuzhou_scoped_enterprise_funding_demand",
+                    geography="Xuzhou",
+                    evidence_role="scoped_direct_enterprise_financing_demand",
+                    collect=_available(payload),
+                )
+            ]
+        )
+        answerability = snapshot["answerability"]
+        self.assertEqual(answerability["xuzhou_enterprise_funding_demand"]["status"], "PARTIAL")
+        self.assertEqual(answerability["xuzhou_private_enterprise_funding_demand"]["status"], "UNKNOWN")
+        headline = snapshot["headline_evidence"]["Xuzhou"]["enterprise_financing_demand"]
+        self.assertEqual(headline["events"][0]["demand_amount_cny_100m"], "13.6")
+        self.assertEqual(headline["aggregation_policy"], "NO_CROSS_PROGRAM_OR_PERIOD_SUM")
+        self.assertNotIn("total_demand_amount_cny_100m", headline)
+        for boundary in (
+            "SCOPED_ENTERPRISE_FUNDING_DEMAND_IS_NOT_CITYWIDE_TOTAL",
+            "SME_IS_NOT_PRIVATE_ENTERPRISE",
+            "NO_CROSS_PROGRAM_FINANCING_DEMAND_SUM",
+            "DIRECT_FUNDING_DEMAND_EVIDENCE_PROVES_NEED_ONLY",
+        ):
+            self.assertIn(boundary, snapshot["truth_boundaries"])
+
+    def test_explicit_private_scoped_event_is_still_partial_not_citywide(self):
+        payload = {
+            "source_id": "XZ_GOV_FINANCE_DEMAND",
+            "data_available": True,
+            "evidence_kind": "SCOPED_DIRECT_ENTERPRISE_FINANCING_DEMAND",
+            "event_count": 1,
+            "error_count": 0,
+            "events": [
+                {
+                    "actor_scope": "PRIVATE_ENTERPRISE",
+                    "private_enterprise_scope_explicit": True,
+                    "coverage_scope": "SCOPED_PROGRAM_OR_REPORTED_BATCH",
+                    "demand_amount_cny_100m": "2.0",
+                    "aggregation_allowed": False,
+                }
+            ],
+        }
+        snapshot = collect_money_flow_snapshot(
+            feeds=[
+                SnapshotFeed(
+                    key="xuzhou_scoped_enterprise_funding_demand",
+                    geography="Xuzhou",
+                    evidence_role="scoped_direct_enterprise_financing_demand",
+                    collect=_available(payload),
+                )
+            ]
+        )
+        self.assertEqual(snapshot["answerability"]["xuzhou_enterprise_funding_demand"]["status"], "PARTIAL")
+        self.assertEqual(snapshot["answerability"]["xuzhou_private_enterprise_funding_demand"]["status"], "PARTIAL")
+        self.assertNotEqual(snapshot["answerability"]["xuzhou_private_enterprise_funding_demand"]["status"], "AVAILABLE")
+
     def test_xuzhou_headline_preserves_events_without_unsafe_sum(self):
         construction_payload = {
             "source_id": "XZ_GGZY",
@@ -235,7 +311,7 @@ class MoneyFlowSnapshotTests(unittest.TestCase):
                 )
             ]
         )
-        self.assertEqual(snapshot["schema_version"], "money-flow-snapshot-v2")
+        self.assertEqual(snapshot["schema_version"], "money-flow-snapshot-v3")
         self.assertIn("NO_OPPORTUNITY_INFERENCE", TRUTH_BOUNDARIES)
         self.assertIn("NEED + SURPLUS RESOURCE + TRANSACTION BLOCKER", snapshot["interpretation_boundary"])
         self.assertNotIn("opportunities", snapshot)

@@ -1,0 +1,134 @@
+name: xuzhou-enterprise-funding-demand-live
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 6 * * 1,4"
+  pull_request:
+    paths:
+      - "src/html_ingest.py"
+      - "src/xuzhou_enterprise_funding_demand.py"
+      - "scripts/collect_xuzhou_enterprise_funding_demand.py"
+      - "tests/test_html_ingest.py"
+      - "tests/test_xuzhou_enterprise_funding_demand.py"
+      - "src/money_flow_snapshot.py"
+      - "tests/test_money_flow_snapshot.py"
+      - "data/source_registry.csv"
+      - ".github/workflows/xuzhou-enterprise-funding-demand-live.yml"
+  push:
+    paths:
+      - "src/html_ingest.py"
+      - "src/xuzhou_enterprise_funding_demand.py"
+      - "scripts/collect_xuzhou_enterprise_funding_demand.py"
+      - "tests/test_html_ingest.py"
+      - "tests/test_xuzhou_enterprise_funding_demand.py"
+      - "src/money_flow_snapshot.py"
+      - "tests/test_money_flow_snapshot.py"
+      - "data/source_registry.csv"
+      - ".github/workflows/xuzhou-enterprise-funding-demand-live.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  collect-xuzhou-enterprise-funding-demand:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect official scoped Xuzhou financing-demand evidence
+        run: |
+          python scripts/collect_xuzhou_enterprise_funding_demand.py \
+            --lookback-days 400 \
+            --max-pages 45 \
+            --output .local/xuzhou_enterprise_funding_demand.json
+
+      - name: Validate scoped financing-demand evidence contract
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          data = json.loads(Path('.local/xuzhou_enterprise_funding_demand.json').read_text(encoding='utf-8'))
+          if data.get('source_id') != 'XZ_GOV_FINANCE_DEMAND':
+              raise SystemExit(f'unexpected source: {data.get("source_id")}')
+          if data.get('evidence_kind') != 'SCOPED_DIRECT_ENTERPRISE_FINANCING_DEMAND':
+              raise SystemExit(f'unexpected evidence kind: {data.get("evidence_kind")}')
+          if not data.get('data_available') or data.get('event_count', 0) < 1:
+              raise SystemExit(f'no direct financing-demand evidence: {data}')
+          discovery = data.get('discovery', {})
+          if discovery.get('records_in_window', 0) < 50 or discovery.get('xuzhou_title_candidates', 0) < 1:
+              raise SystemExit(f'implausible official discovery coverage: {discovery}')
+          if data.get('error_count', 0) > 5:
+              raise SystemExit(f'too many detail errors: {data.get("errors")}')
+
+          required = {
+              'DIRECT_DEMAND_EVIDENCE_IS_NEED_ONLY',
+              'SCOPED_PROGRAM_IS_NOT_CITYWIDE_TOTAL',
+              'SME_IS_NOT_PRIVATE_ENTERPRISE',
+              'MISSING_DEMAND_IS_NOT_ZERO',
+              'NO_CROSS_PROGRAM_SUM',
+              'NO_CROSS_PERIOD_SUM',
+              'NO_SURPLUS_RESOURCE_INFERENCE',
+              'NO_OPPORTUNITY_INFERENCE',
+          }
+          missing = sorted(required - set(data.get('truth_boundaries', [])))
+          if missing:
+              raise SystemExit(f'missing truth boundaries: {missing}')
+
+          list_pages = data.get('provenance', {}).get('list_pages') or []
+          if not list_pages:
+              raise SystemExit('list-page provenance missing')
+          for meta in list_pages:
+              parsed = urlparse(meta.get('url', ''))
+              if parsed.scheme != 'https' or parsed.hostname != 'www.jiangsu.gov.cn' or not meta.get('payload_sha256'):
+                  raise SystemExit(f'invalid list provenance: {meta}')
+              if parsed.path == '/module/web/jpage/dataproxy.jsp' and not str(meta.get('content_type', '')).lower().startswith(('text/xml', 'application/xml')):
+                  raise SystemExit(f'official jpage MIME identity drift: {meta}')
+
+          for event in data['events']:
+              parsed = urlparse(event['source_url'])
+              if parsed.scheme != 'https' or parsed.hostname != 'www.jiangsu.gov.cn' or '/art_' not in parsed.path:
+                  raise SystemExit(f'unexpected source URL: {event["source_url"]}')
+              if event.get('source_authority') != '徐州市政府办公室':
+                  raise SystemExit(f'authority drift: {event}')
+              if not event.get('demand_amount_cny_100m') or event.get('aggregation_allowed') is not False:
+                  raise SystemExit(f'invalid direct-demand event: {event}')
+              if event.get('actor_scope') != 'PRIVATE_ENTERPRISE' and event.get('private_enterprise_scope_explicit') is not False:
+                  raise SystemExit(f'private-enterprise inference leaked: {event}')
+              if not event.get('provenance_sha256'):
+                  raise SystemExit(f'missing detail provenance: {event}')
+
+          freshness = data.get('latest_freshness') or {}
+          if freshness.get('status') in {None, 'UNKNOWN', 'FUTURE_DATE_ERROR'}:
+              raise SystemExit(f'invalid funding-demand freshness: {freshness}')
+
+          print('pages_fetched=', discovery['pages_fetched'])
+          print('records_in_window=', discovery['records_in_window'])
+          print('xuzhou_candidates=', discovery['xuzhou_title_candidates'])
+          print('events=', data['event_count'])
+          print('errors=', data['error_count'])
+          print('latest_freshness=', data['latest_freshness'])
+          print('events_json=', json.dumps(data['events'], ensure_ascii=False, sort_keys=True))
+          PY
+
+      - name: Upload Xuzhou enterprise financing-demand evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xuzhou-enterprise-funding-demand-evidence
+          path: .local/xuzhou_enterprise_funding_demand.json
+          retention-days: 14
+          if-no-files-found: error
+          include-hidden-files: true

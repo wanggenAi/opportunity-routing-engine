@@ -2,7 +2,7 @@ import io
 import unittest
 from email.message import Message
 
-from src.html_ingest import PublicHtmlClient, html_to_document
+from src.html_ingest import NonHtmlResponseError, PublicHtmlClient, html_to_document
 from src.network_ingest import HostNotAllowedError
 
 
@@ -52,6 +52,38 @@ class HtmlIngestTests(unittest.TestCase):
         )
         with self.assertRaises(HostNotAllowedError):
             client.fetch("https://other.example/page", request_name="bad")
+
+    def test_xml_is_rejected_by_default(self):
+        client = PublicHtmlClient(
+            source_id="TEST",
+            allowed_hosts={"example.com"},
+            retries=0,
+            transport=lambda *_: FakeResponse(b"<records/>", "text/xml;charset=UTF-8"),
+        )
+        with self.assertRaises(NonHtmlResponseError):
+            client.fetch("https://example.com/list", request_name="xml-default")
+
+    def test_source_can_explicitly_opt_in_to_xml(self):
+        client = PublicHtmlClient(
+            source_id="TEST_XML",
+            allowed_hosts={"example.com"},
+            retries=0,
+            accepted_content_types={
+                "text/html",
+                "application/xhtml+xml",
+                "text/plain",
+                "text/xml",
+                "application/xml",
+            },
+            transport=lambda *_: FakeResponse(
+                "<records><record>徐州</record></records>".encode("utf-8"),
+                "text/xml;charset=UTF-8",
+            ),
+        )
+        result = client.fetch("https://example.com/list", request_name="xml-opt-in")
+        self.assertEqual(result.content_type, "text/xml;charset=UTF-8")
+        self.assertIn("徐州", result.html)
+        self.assertEqual(len(result.payload_sha256), 64)
 
 
 if __name__ == "__main__":

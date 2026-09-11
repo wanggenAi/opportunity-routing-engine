@@ -6,6 +6,7 @@ on:
     - cron: "35 5 * * *"
   pull_request:
     paths:
+      - "src/html_ingest.py"
       - "src/money_flow_snapshot.py"
       - "src/gacc_trade_flow.py"
       - "src/gacc_trade_corroboration.py"
@@ -15,12 +16,17 @@ on:
       - "src/jiangsu_money_flow.py"
       - "src/regional_adapters.py"
       - "src/xuzhou_construction_capex.py"
+      - "src/xuzhou_enterprise_funding_demand.py"
       - "scripts/collect_money_flow_snapshot.py"
+      - "scripts/collect_xuzhou_enterprise_funding_demand.py"
+      - "tests/test_html_ingest.py"
       - "tests/test_money_flow_snapshot.py"
+      - "tests/test_xuzhou_enterprise_funding_demand.py"
       - "requirements-pbc-js-credit.txt"
       - ".github/workflows/money-flow-snapshot-live.yml"
   push:
     paths:
+      - "src/html_ingest.py"
       - "src/money_flow_snapshot.py"
       - "src/gacc_trade_flow.py"
       - "src/gacc_trade_corroboration.py"
@@ -30,8 +36,12 @@ on:
       - "src/jiangsu_money_flow.py"
       - "src/regional_adapters.py"
       - "src/xuzhou_construction_capex.py"
+      - "src/xuzhou_enterprise_funding_demand.py"
       - "scripts/collect_money_flow_snapshot.py"
+      - "scripts/collect_xuzhou_enterprise_funding_demand.py"
+      - "tests/test_html_ingest.py"
       - "tests/test_money_flow_snapshot.py"
+      - "tests/test_xuzhou_enterprise_funding_demand.py"
       - "requirements-pbc-js-credit.txt"
       - ".github/workflows/money-flow-snapshot-live.yml"
 
@@ -67,9 +77,10 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+          from urllib.parse import urlparse
 
           data = json.loads(Path('.local/money_flow_snapshot.json').read_text(encoding='utf-8'))
-          if data.get('schema_version') != 'money-flow-snapshot-v2':
+          if data.get('schema_version') != 'money-flow-snapshot-v3':
               raise SystemExit(f'unexpected schema: {data.get("schema_version")}')
           if data.get('geography_path') != ['China', 'Jiangsu', 'Xuzhou']:
               raise SystemExit(f'unexpected geography path: {data.get("geography_path")}')
@@ -85,6 +96,11 @@ jobs:
               'CUSTOMS_CROSS_CURRENCY_VALUES_NOT_DIRECTLY_COMPARABLE',
               'XUZHOU_SPECIFIC_AREA_TRADE_IS_NOT_CITY_TOTAL',
               'PROVINCE_CORROBORATION_DOES_NOT_CORROBORATE_XUZHOU_SPECIFIC_AREA_VALUES',
+              'SCOPED_ENTERPRISE_FUNDING_DEMAND_IS_NOT_CITYWIDE_TOTAL',
+              'SME_IS_NOT_PRIVATE_ENTERPRISE',
+              'NO_CROSS_PROGRAM_FINANCING_DEMAND_SUM',
+              'NO_CROSS_PERIOD_FINANCING_DEMAND_SUM',
+              'DIRECT_FUNDING_DEMAND_EVIDENCE_PROVES_NEED_ONLY',
               'NO_OPPORTUNITY_INFERENCE',
           }
           missing_boundaries = sorted(required_boundaries - set(data.get('truth_boundaries', [])))
@@ -99,6 +115,7 @@ jobs:
               'jiangsu_customs_trade_flow',
               'xuzhou_government_procurement',
               'xuzhou_construction_tenders',
+              'xuzhou_scoped_enterprise_funding_demand',
           }
           feeds = data.get('feeds', {})
           if set(feeds) != required_feeds:
@@ -110,12 +127,8 @@ jobs:
           }
           if bad:
               raise SystemExit(f'live snapshot has unavailable feeds: {bad}')
-          if data.get('status_counts') != {
-              'AVAILABLE': 7,
-              'UNAVAILABLE': 0,
-              'ERROR': 0,
-              'NOT_RUN': 0,
-          }:
+          expected_counts = {'AVAILABLE': 8, 'UNAVAILABLE': 0, 'ERROR': 0, 'NOT_RUN': 0}
+          if data.get('status_counts') != expected_counts:
               raise SystemExit(f'unexpected status counts: {data.get("status_counts")}')
 
           answerability = data['answerability']
@@ -124,9 +137,18 @@ jobs:
                   raise SystemExit(f'{key} is not AVAILABLE: {answerability[key]}')
           if answerability['xuzhou_specific_area_trade']['status'] != 'PARTIAL':
               raise SystemExit(f'Xuzhou specific-area trade must remain PARTIAL: {answerability["xuzhou_specific_area_trade"]}')
-          for key in ('xuzhou_city_trade_flow', 'xuzhou_financial_balance', 'xuzhou_private_enterprise_funding_demand'):
+          if answerability['xuzhou_enterprise_funding_demand']['status'] != 'PARTIAL':
+              raise SystemExit(f'Xuzhou enterprise funding demand must remain scoped PARTIAL: {answerability["xuzhou_enterprise_funding_demand"]}')
+          for key in ('xuzhou_city_trade_flow', 'xuzhou_financial_balance'):
               if answerability[key]['status'] != 'UNKNOWN':
-                  raise SystemExit(f'{key} must remain UNKNOWN until a direct/corroborated feed exists: {answerability[key]}')
+                  raise SystemExit(f'{key} must remain UNKNOWN: {answerability[key]}')
+          # A newly discovered explicit private-enterprise event changes semantics and
+          # must be reviewed rather than silently promoting this dimension.
+          if answerability['xuzhou_private_enterprise_funding_demand']['status'] != 'UNKNOWN':
+              raise SystemExit(
+                  'new explicit private-enterprise funding-demand evidence requires semantic review: '
+                  + json.dumps(answerability['xuzhou_private_enterprise_funding_demand'], ensure_ascii=False)
+              )
 
           headline = data['headline_evidence']
           national_metrics = headline['China']['pbc_release'].get('metrics', {})
@@ -183,10 +205,38 @@ jobs:
           if 'NO_SUM_WITHOUT_PROJECT_DEDUP' not in str(construction.get('aggregation_policy')):
               raise SystemExit('Xuzhou construction anti-double-count policy missing')
 
+          funding = xz['enterprise_financing_demand']
+          if funding.get('evidence_kind') != 'SCOPED_DIRECT_ENTERPRISE_FINANCING_DEMAND':
+              raise SystemExit(f'funding-demand identity drift: {funding}')
+          if (funding.get('event_count') or 0) < 1:
+              raise SystemExit(f'no scoped funding-demand event: {funding}')
+          if funding.get('aggregation_policy') != 'NO_CROSS_PROGRAM_OR_PERIOD_SUM':
+              raise SystemExit(f'unsafe funding-demand aggregation policy: {funding}')
+          funding_events = funding.get('events') or []
+          if len(funding_events) != funding.get('event_count'):
+              raise SystemExit(f'funding event count mismatch: {funding}')
+          for event in funding_events:
+              parsed = urlparse(event.get('source_url', ''))
+              if parsed.scheme != 'https' or parsed.hostname != 'www.jiangsu.gov.cn' or '/art_' not in parsed.path:
+                  raise SystemExit(f'funding source escaped official allowlist: {event}')
+              if event.get('source_authority') != '徐州市政府办公室':
+                  raise SystemExit(f'funding authority drift: {event}')
+              if event.get('coverage_scope') != 'SCOPED_PROGRAM_OR_REPORTED_BATCH':
+                  raise SystemExit(f'funding scope widened unexpectedly: {event}')
+              if not event.get('demand_amount_cny_100m'):
+                  raise SystemExit(f'explicit demand amount missing: {event}')
+              if event.get('aggregation_allowed') is not False:
+                  raise SystemExit(f'scoped funding-demand event became summable: {event}')
+              if event.get('actor_scope') == 'PRIVATE_ENTERPRISE' or event.get('private_enterprise_scope_explicit') is True:
+                  raise SystemExit('new private-enterprise funding-demand evidence requires semantic review: ' + json.dumps(event, ensure_ascii=False))
+              if event.get('private_enterprise_scope_explicit') is not False:
+                  raise SystemExit(f'private-enterprise inference leaked: {event}')
+
           serialized = json.dumps(headline, ensure_ascii=False)
           for forbidden in (
               'total_contract_estimate_rmb',
               'total_budget_rmb',
+              'total_demand_amount_cny_100m',
               'money_flow_score',
               'opportunity_score',
               'xuzhou_trade_total',
@@ -208,6 +258,7 @@ jobs:
           print('xuzhou_procurement_events=', procurement['parsed_events'])
           print('xuzhou_construction_events=', construction['parsed_events'])
           print('xuzhou_construction_amount_evidence=', construction['amount_evidence_count'])
+          print('xuzhou_enterprise_funding_demand=', json.dumps(funding, ensure_ascii=False, sort_keys=True))
           PY
 
       - name: Upload money-flow snapshot

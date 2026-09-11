@@ -4,7 +4,8 @@ This snapshot is an evidence index, not an opportunity scorer. It intentionally
 keeps source payloads separate and exposes unavailable dimensions as UNKNOWN.
 There is no cross-source summation because the feeds differ in period, unit,
 coverage and transaction meaning (for example a tender estimate is not a paid
-cash flow, and customs trade is not bank credit).
+cash flow, customs trade is not bank credit, and a scoped financing campaign is
+not a citywide financing-demand total).
 """
 
 from __future__ import annotations
@@ -21,6 +22,7 @@ from src.pbc_money_flow import PbcMoneyFlowAdapter
 from src.pbc_regional_financing import PbcRegionalFinancingAdapter
 from src.regional_adapters import XuzhouProcurementAdapter
 from src.xuzhou_construction_capex import XuzhouConstructionTenderAdapter
+from src.xuzhou_enterprise_funding_demand import XuzhouEnterpriseFundingDemandAdapter
 
 
 Collector = Callable[[], dict[str, Any]]
@@ -45,6 +47,11 @@ TRUTH_BOUNDARIES = [
     "CUSTOMS_CROSS_CURRENCY_VALUES_NOT_DIRECTLY_COMPARABLE",
     "XUZHOU_SPECIFIC_AREA_TRADE_IS_NOT_CITY_TOTAL",
     "PROVINCE_CORROBORATION_DOES_NOT_CORROBORATE_XUZHOU_SPECIFIC_AREA_VALUES",
+    "SCOPED_ENTERPRISE_FUNDING_DEMAND_IS_NOT_CITYWIDE_TOTAL",
+    "SME_IS_NOT_PRIVATE_ENTERPRISE",
+    "NO_CROSS_PROGRAM_FINANCING_DEMAND_SUM",
+    "NO_CROSS_PERIOD_FINANCING_DEMAND_SUM",
+    "DIRECT_FUNDING_DEMAND_EVIDENCE_PROVES_NEED_ONLY",
     "MONEY_FLOW_EVIDENCE_DOES_NOT_PROVE_NEED_SURPLUS_BLOCKER",
     "NO_OPPORTUNITY_INFERENCE",
 ]
@@ -98,6 +105,12 @@ def default_feeds() -> list[SnapshotFeed]:
             geography="Xuzhou",
             evidence_role="local_construction_capex_solicitation",
             collect=lambda: XuzhouConstructionTenderAdapter().collect_recent_events(limit=10),
+        ),
+        SnapshotFeed(
+            key="xuzhou_scoped_enterprise_funding_demand",
+            geography="Xuzhou",
+            evidence_role="scoped_direct_enterprise_financing_demand",
+            collect=lambda: XuzhouEnterpriseFundingDemandAdapter().collect(),
         ),
     ]
 
@@ -172,6 +185,24 @@ def _answerability(feed_map: dict[str, dict[str, Any]]) -> dict[str, dict[str, A
         "PARTIAL" if customs["status"] == "AVAILABLE" and xuzhou_areas else "UNKNOWN"
     )
 
+    funding = feed_map["xuzhou_scoped_enterprise_funding_demand"]
+    funding_payload = funding.get("payload") or {}
+    funding_events = funding_payload.get("events") or []
+    if funding["status"] == "AVAILABLE" and funding_events:
+        xuzhou_enterprise_funding_status = "PARTIAL"
+    else:
+        xuzhou_enterprise_funding_status = "UNKNOWN"
+    explicit_private_events = [
+        event
+        for event in funding_events
+        if event.get("actor_scope") == "PRIVATE_ENTERPRISE"
+        and event.get("private_enterprise_scope_explicit") is True
+    ]
+    if funding["status"] == "AVAILABLE" and explicit_private_events:
+        xuzhou_private_funding_status = "PARTIAL"
+    else:
+        xuzhou_private_funding_status = "UNKNOWN"
+
     return {
         "china_money_flow": state(
             ["china_pbc_financial_statistics"],
@@ -220,10 +251,23 @@ def _answerability(feed_map: dict[str, dict[str, Any]]) -> dict[str, dict[str, A
             "feeds": {},
             "note": "No direct live Xuzhou bank deposit/loan balance feed is connected yet.",
         },
+        "xuzhou_enterprise_funding_demand": {
+            "status": xuzhou_enterprise_funding_status,
+            "feeds": {"xuzhou_scoped_enterprise_funding_demand": funding["status"]},
+            "note": (
+                "Direct financing-demand amounts reported by the Xuzhou Government Office make enterprise funding demand "
+                "answerable only at PARTIAL scope when evidence is program/batch-specific. Events are not summed across "
+                "programs or periods and do not establish a citywide total."
+            ),
+        },
         "xuzhou_private_enterprise_funding_demand": {
-            "status": "UNKNOWN",
-            "feeds": {},
-            "note": "Tender/procurement/trade activity cannot substitute for direct enterprise financing-demand evidence.",
+            "status": xuzhou_private_funding_status,
+            "feeds": {"xuzhou_scoped_enterprise_funding_demand": funding["status"]},
+            "note": (
+                "PRIVATE-enterprise answerability requires source text to explicitly identify 民营企业/民营经济. "
+                "SME, micro-enterprise or general-enterprise evidence is never relabeled as private-enterprise evidence; "
+                "even explicit private events remain PARTIAL when scoped to a program/batch rather than the whole city."
+            ),
         },
     }
 
@@ -319,6 +363,22 @@ def _headline_evidence(feed_map: dict[str, dict[str, Any]]) -> dict[str, Any]:
             "aggregation_policy": payload.get("aggregation_policy"),
         }
 
+    funding = feed_map["xuzhou_scoped_enterprise_funding_demand"]
+    if funding["status"] == "AVAILABLE":
+        payload = funding["payload"]
+        result["Xuzhou"]["enterprise_financing_demand"] = {
+            "evidence_kind": payload.get("evidence_kind"),
+            "event_count": payload.get("event_count"),
+            "errors": payload.get("error_count"),
+            "latest_freshness": payload.get("latest_freshness"),
+            "events": payload.get("events", []),
+            "aggregation_policy": "NO_CROSS_PROGRAM_OR_PERIOD_SUM",
+            "scope_note": (
+                "Direct NEED evidence only. Every event retains its source-declared actor/program scope; "
+                "scoped amounts are not a citywide total and SME evidence is not private-enterprise evidence."
+            ),
+        }
+
     return result
 
 
@@ -357,7 +417,7 @@ def collect_money_flow_snapshot(
         for status in ("AVAILABLE", "UNAVAILABLE", "ERROR", "NOT_RUN")
     }
     return {
-        "schema_version": "money-flow-snapshot-v2",
+        "schema_version": "money-flow-snapshot-v3",
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "geography_path": ["China", "Jiangsu", "Xuzhou"],
         "truth_boundaries": TRUTH_BOUNDARIES,
@@ -366,8 +426,9 @@ def collect_money_flow_snapshot(
         "headline_evidence": _headline_evidence(feed_map),
         "feeds": feed_map,
         "interpretation_boundary": (
-            "This artifact indexes observed money-flow, trade-flow and institutional-spend evidence. "
-            "It does not infer an opportunity. Promotion still requires separately evidenced "
+            "This artifact indexes observed money-flow, trade-flow, institutional-spend and scoped direct financing-demand evidence. "
+            "A direct financing-demand event establishes NEED only within its reported scope; it does not establish citywide prevalence, "
+            "a surplus resource, a transaction blocker or an opportunity. Promotion still requires separately evidenced "
             "NEED + SURPLUS RESOURCE + TRANSACTION BLOCKER."
         ),
     }
