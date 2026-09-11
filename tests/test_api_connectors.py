@@ -11,6 +11,20 @@ from src.api_connectors import (
 
 
 class ApiConnectorStatusTests(unittest.TestCase):
+    def test_reachable_but_empty_api_state_is_distinct_from_active_or_error(self):
+        self.assertEqual(
+            ConnectorState.API_REACHABLE_DATA_UNAVAILABLE.value,
+            "API_REACHABLE_DATA_UNAVAILABLE",
+        )
+        self.assertNotEqual(
+            ConnectorState.API_REACHABLE_DATA_UNAVAILABLE,
+            ConnectorState.ACTIVE_LIVE,
+        )
+        self.assertNotEqual(
+            ConnectorState.API_REACHABLE_DATA_UNAVAILABLE,
+            ConnectorState.ERROR,
+        )
+
     def test_douyin_is_not_activated_before_free_scope_review(self):
         with patch.dict(os.environ, {}, clear=True):
             status = douyin_status()
