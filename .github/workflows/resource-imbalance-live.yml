@@ -14,10 +14,13 @@ on:
       - "src/regional_adapters.py"
       - "src/resource_underuse_adapters.py"
       - "src/xuzhou_agency_resource_feed.py"
+      - "src/xuzhou_procurement_results.py"
       - "scripts/build_live_resource_imbalance.py"
       - "scripts/collect_regional.py"
       - "scripts/collect_resource_underuse.py"
+      - "scripts/collect_xuzhou_procurement_results.py"
       - "tests/test_live_imbalance_ledger.py"
+      - "tests/test_xuzhou_procurement_results.py"
       - ".github/workflows/resource-imbalance-live.yml"
 
 permissions:
@@ -46,6 +49,13 @@ jobs:
             --limit 30 \
             --output .local/xz_procurement_events.json
 
+      - name: Collect proven Xuzhou procurement capability providers
+        run: |
+          python scripts/collect_xuzhou_procurement_results.py \
+            --limit 30 \
+            --require-awards \
+            --output .local/xz_procurement_awards.json
+
       - name: Collect native Xuzhou resource evidence
         run: |
           python scripts/collect_resource_underuse.py xuzhou-public-assets \
@@ -62,6 +72,7 @@ jobs:
         run: |
           python scripts/build_live_resource_imbalance.py \
             --procurement-json .local/xz_procurement_events.json \
+            --provider-json .local/xz_procurement_awards.json \
             --resource-json .local/xz_public_asset_underuse.json \
             --resource-json .local/xz_agency_asset_underuse.json \
             --output .local/xz_resource_imbalance_ledger.json
@@ -94,6 +105,15 @@ jobs:
                   raise SystemExit('ROUTE_TESTABLE without observed underuse')
               if record['blocker_evidence_state'] not in ('OBSERVED', 'MEASURED'):
                   raise SystemExit('ROUTE_TESTABLE without observed blocker')
+
+          # Historical award providers may create PAIR_HYPOTHESIS but must never
+          # satisfy underuse/availability by themselves.
+          for resource in data['signals']['resources']:
+              if resource['signal_id'].startswith('LIVE_PROVIDER::'):
+                  if resource['resource_state'] != 'DISCOVERED':
+                      raise SystemExit('historical award provider promoted beyond DISCOVERED')
+                  if resource['underuse_evidence_state'] != 'UNKNOWN':
+                      raise SystemExit('historical award provider manufactured underuse')
 
           # Zero ROUTE_TESTABLE is a valid empirical result. The workflow fails only
           # when truth gates are violated, not because reality produced no opportunity.
