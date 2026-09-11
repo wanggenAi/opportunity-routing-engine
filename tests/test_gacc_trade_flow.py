@@ -57,7 +57,6 @@ TABLE11_JUL = """
 </table></body></html>
 """
 
-# Earlier month details make reversed-link discovery deterministic in tests.
 TABLE8_JUN = TABLE8_JUL.replace("1-7.2026", "1-6.2026")
 TABLE11_JUN = TABLE11_JUL.replace("7.2026", "6.2026")
 
@@ -111,7 +110,9 @@ class GaccTradeFlowTests(unittest.TestCase):
     def test_selected_year_conflict_fails_closed(self):
         adapter = self._adapter()
         base = "https://english.customs.gov.cn"
+        adapter.client.mapping[f"{base}/Statics/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee.html"] = TABLE8_JUN.replace("2026", "2025")
         adapter.client.mapping[f"{base}/Statics/11111111-2222-3333-4444-555555555555.html"] = TABLE8_JUL.replace("2026", "2025")
+        adapter.client.mapping[f"{base}/Statics/bbbbbbbb-bbbb-cccc-dddd-eeeeeeeeeeee.html"] = TABLE11_JUN.replace("2026", "2025")
         adapter.client.mapping[f"{base}/Statics/66666666-7777-8888-9999-aaaaaaaaaaaa.html"] = TABLE11_JUL.replace("2026", "2025")
         with self.assertRaisesRegex(ValueError, "selected bulletin year conflicts"):
             adapter.collect()
