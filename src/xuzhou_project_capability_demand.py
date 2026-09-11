@@ -2,7 +2,7 @@
 
 The Xuzhou Public Resources Trading Center publishes public transport/construction
 tender notices that contain explicit personnel qualification requirements for
-roles such as project manager, technical lead and project lead.  These are useful
+roles such as project manager, technical lead and project lead. These are useful
 as transaction-level capability-demand evidence.
 
 Truth boundaries:
@@ -36,15 +36,15 @@ _DETAIL_RE = re.compile(
 _ROLE_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     (
         "PROJECT_MANAGER",
-        re.compile(r"(?:项目经理|项目经理资格(?:要求)?|项目经理条件)"),
+        re.compile(r"(?:项目经理资格(?:要求)?|项目经理条件|项目经理)"),
     ),
     (
         "PROJECT_TECHNICAL_LEAD",
-        re.compile(r"(?:项目总工(?:（项目技术负责人）|\(项目技术负责人\))?|项目总工资格(?:要求)?)"),
+        re.compile(r"(?:项目总工资格(?:要求)?|项目总工(?:（项目技术负责人）|\(项目技术负责人\))?|项目总工)"),
     ),
     (
         "PROJECT_LEAD",
-        re.compile(r"(?:项目负责人(?:条件|资格要求)?|拟派项目负责人(?:应满足的要求|资格要求)?)"),
+        re.compile(r"(?:拟派项目负责人(?:应满足的要求|资格要求)?|项目负责人(?:条件|资格要求)?|项目负责人)"),
     ),
 )
 
@@ -108,6 +108,19 @@ def _bounded_excerpt(text: str, start: int, *, max_chars: int = 1800) -> str:
     return normalize_whitespace(tail)
 
 
+def _heading_line(text: str, start: int) -> str:
+    line_start = text.rfind("\n", 0, start) + 1
+    line_end = text.find("\n", start)
+    if line_end < 0:
+        line_end = len(text)
+    return normalize_whitespace(text[line_start:line_end])
+
+
+def _multi_role_summary_heading(line: str) -> bool:
+    markers = ("项目经理", "项目总工", "项目负责人")
+    return sum(marker in line for marker in markers) >= 2
+
+
 def _find_first(patterns: tuple[str, ...], text: str) -> str | None:
     for pattern in patterns:
         match = re.search(pattern, text)
@@ -166,18 +179,22 @@ def _structure_requirement(role: str, excerpt: str, full_text: str) -> Capabilit
 
 def extract_project_capability_requirements(text: str) -> list[CapabilityRequirement]:
     """Extract explicit generic role requirements; never infer supply or shortage."""
-    found: list[tuple[int, str, re.Match[str]]] = []
+    found: list[tuple[int, str]] = []
     for role, pattern in _ROLE_PATTERNS:
         for match in pattern.finditer(text):
-            found.append((match.start(), role, match))
+            found.append((match.start(), role))
     found.sort(key=lambda item: item[0])
 
-    # Prefer the first semantically useful block per role. Generic table-of-contents
-    # occurrences are skipped unless the nearby excerpt contains a concrete gate.
+    # Combined headings such as “项目经理资格和项目总工资格要求” are merely
+    # section summaries. Taking them as a concrete role block can attribute the
+    # manager's license to the technical lead, so they are skipped fail-closed.
     result: list[CapabilityRequirement] = []
     seen_roles: set[str] = set()
-    for start, role, _ in found:
+    for start, role in found:
         if role in seen_roles:
+            continue
+        heading = _heading_line(text, start)
+        if _multi_role_summary_heading(heading):
             continue
         excerpt = _bounded_excerpt(text, start)
         if not any(
