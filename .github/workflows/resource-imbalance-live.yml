@@ -49,10 +49,16 @@ jobs:
             --limit 30 \
             --output .local/xz_procurement_events.json
 
-      - name: Collect proven Xuzhou procurement capability providers
+      - name: Backfill proven Xuzhou capability providers
         run: |
+          # Scan a bounded history window, classify titles with the same exact
+          # capability taxonomy as live demand, then fetch details only for matches.
+          # This avoids scraping the full ~19k-result archive or polluting the graph
+          # with unrelated suppliers.
           python scripts/collect_xuzhou_procurement_results.py \
-            --limit 30 \
+            --pages 15 \
+            --capability-only \
+            --max-details 40 \
             --require-awards \
             --output .local/xz_procurement_awards.json
 
