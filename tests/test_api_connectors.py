@@ -11,24 +11,24 @@ from src.api_connectors import (
 
 
 class ApiConnectorStatusTests(unittest.TestCase):
-    def test_douyin_without_secrets_is_unconfigured(self):
+    def test_douyin_is_not_activated_before_free_scope_review(self):
         with patch.dict(os.environ, {}, clear=True):
             status = douyin_status()
-        self.assertEqual(status.state, ConnectorState.UNCONFIGURED_AUTH)
+        self.assertEqual(status.state, ConnectorState.FREE_ONLY_REVIEW_REQUIRED)
         self.assertEqual(
             set(status.missing_credentials),
             {"DOUYIN_CLIENT_KEY", "DOUYIN_CLIENT_SECRET"},
         )
         self.assertFalse(status.secret_values_exposed)
 
-    def test_douyin_with_secret_presence_never_exposes_values(self):
+    def test_douyin_secret_presence_never_bypasses_free_only_gate(self):
         env = {
             "DOUYIN_CLIENT_KEY": "client-key-value",
             "DOUYIN_CLIENT_SECRET": "super-secret-value",
         }
         with patch.dict(os.environ, env, clear=True):
             payload = douyin_status().as_dict()
-        self.assertEqual(payload["state"], "AUTHENTICATED_NOT_PROBED")
+        self.assertEqual(payload["state"], "FREE_ONLY_REVIEW_REQUIRED")
         serialized = repr(payload)
         self.assertNotIn("client-key-value", serialized)
         self.assertNotIn("super-secret-value", serialized)
@@ -37,16 +37,10 @@ class ApiConnectorStatusTests(unittest.TestCase):
             {"DOUYIN_CLIENT_KEY", "DOUYIN_CLIENT_SECRET"},
         )
 
-    @patch("src.api_connectors.shutil.which", return_value=None)
-    def test_weibo_cli_missing_binary_is_not_live(self, _which):
+    def test_weibo_cli_is_disabled_under_zero_paid_data_policy(self):
         status = weibo_cli_status()
-        self.assertEqual(status.state, ConnectorState.UNCONFIGURED_AUTH)
-
-    @patch("src.api_connectors.shutil.which", return_value="/usr/local/bin/weibo")
-    def test_weibo_cli_binary_presence_is_not_live_proof(self, _which):
-        status = weibo_cli_status()
-        self.assertEqual(status.state, ConnectorState.AUTHENTICATED_NOT_PROBED)
-        self.assertIn("whoami", status.notes)
+        self.assertEqual(status.state, ConnectorState.DISABLED_PAID_MVP)
+        self.assertIn("zero-paid-data", status.notes)
 
     def test_baidu_index_is_not_treated_as_open_api(self):
         status = baidu_index_status()
