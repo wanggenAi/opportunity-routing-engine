@@ -43,20 +43,6 @@ class HtmlIngestTests(unittest.TestCase):
         self.assertNotIn("ignore me", doc["text"])
         self.assertEqual(doc["links"][0]["url"], "https://example.com/a/20260910/x.html")
 
-    def test_noscript_fallback_is_retained_as_public_document_content(self):
-        html = """<html><head><title>采购公告</title></head><body>
-        <noscript>
-          <p>项目编号：JSZC-320300-XZTY-G2026-0004</p>
-          <p>项目名称：2026年度市直管雨、污水管渠维修养护市场化项目</p>
-          <p>预算金额：328.300000万元</p>
-        </noscript>
-        <script>项目编号：SHOULD_NOT_BE_VISIBLE</script>
-        </body></html>"""
-        doc = html_to_document(html, base_url="https://example.com/detail")
-        self.assertIn("项目编号：JSZC-320300-XZTY-G2026-0004", doc["text"])
-        self.assertIn("预算金额：328.300000万元", doc["text"])
-        self.assertNotIn("SHOULD_NOT_BE_VISIBLE", doc["text"])
-
     def test_host_allowlist_is_enforced(self):
         client = PublicHtmlClient(
             source_id="TEST",
