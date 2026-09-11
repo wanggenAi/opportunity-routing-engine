@@ -42,8 +42,44 @@ class CapabilityClassification:
 
 
 # Rules intentionally use explicit phrases rather than embeddings, fuzzy matching or
-# LLM inference. A source item matching more than one capability is left unbound.
+# LLM inference. These rules are allowed to create evidence categories, not claims
+# about scarcity, willingness to pay, provider fit or commercial opportunity.
 _PROCUREMENT_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
+    (
+        "EMERGENCY_MATERIAL_SUPPLY_AND_DISTRIBUTION",
+        ("救灾储备物资采购及配送",),
+    ),
+    (
+        "WATER_PUMP_STATION_MAINTENANCE",
+        ("泵站设施维修养护", "泵站维修养护"),
+    ),
+    (
+        "DRAINAGE_NETWORK_MAINTENANCE",
+        ("雨、污水管渠维修养护", "雨污水管渠维修养护", "管渠维修养护"),
+    ),
+    (
+        "FINANCE_DIGITAL_IT_SERVICE",
+        ("财政信息化服务", "财政业务平台"),
+    ),
+    ("PUBLICATION_SERVICE", ("报告出版", "出版项目")),
+    ("SURVEY_MONITORING_SERVICE", ("调查监测项目", "调查监测")),
+    (
+        "WATER_ENGINEERING_MAINTENANCE",
+        ("水利工程养护",),
+    ),
+    (
+        "AGRICULTURAL_FACILITY_CONSTRUCTION",
+        ("日光温室建设", "大棚提档升级改造"),
+    ),
+    ("HOSPITAL_UTILITY_RETROFIT", ("汽改水工程",)),
+    (
+        "AGRICULTURAL_DISASTER_PREVENTION_SUPPLY",
+        ("秋粮抗逆防灾",),
+    ),
+    (
+        "MEDICAL_CLEANING_EQUIPMENT_SUPPLY",
+        ("内窥镜清洗消毒机采购",),
+    ),
     ("INDUSTRIAL_SPACE_LEASE", ("厂房租赁", "厂房租用", "生产用房租赁")),
     ("OFFICE_SPACE_LEASE", ("办公用房租赁", "办公场所租赁", "办公房屋租赁")),
     ("FACILITY_CLEANING_SERVICE", ("保洁服务", "清洁服务")),
@@ -58,6 +94,16 @@ _RESOURCE_RULES: tuple[tuple[str, str, tuple[str, ...]], ...] = (
     ("INDUSTRIAL_SPACE_LEASE", "LEASE", ("厂房", "生产用房")),
     ("OFFICE_SPACE_LEASE", "LEASE", ("办公用房", "办公场所", "写字楼")),
     (
+        "COMMERCIAL_SPACE_LEASE",
+        "LEASE",
+        ("商业城", "商业用房", "商铺"),
+    ),
+    (
+        "GENERAL_PROPERTY_LEASE",
+        "LEASE",
+        ("房产租赁", "房屋租赁", "房地产租赁", "房产拍租", "房屋招租"),
+    ),
+    (
         "INDUSTRIAL_EQUIPMENT_TRANSFER",
         "TRANSFER",
         ("机械设备", "机器设备", "生产设备"),
@@ -70,6 +116,14 @@ _STATUS_ORDER = {
     "NEED_ONLY": 2,
     "RESOURCE_ONLY": 3,
 }
+
+_INVALID_OWNER_MARKERS = (
+    "和/或招标方",
+    "相关资质进行审核",
+    "本平台",
+    "不承担审核义务",
+    "法律责任",
+)
 
 
 def _clean_text(*values: object) -> str:
@@ -149,6 +203,17 @@ def _unbound(
     }
 
 
+def _valid_owner_actor(value: object) -> str | None:
+    owner = str(value or "").strip()
+    if not owner:
+        return None
+    if len(owner) > 160:
+        return None
+    if any(marker in owner for marker in _INVALID_OWNER_MARKERS):
+        return None
+    return owner
+
+
 def procurement_event_to_live_need(
     event: Mapping[str, Any],
     *,
@@ -212,12 +277,12 @@ def public_listing_to_live_resource(
             matched_rule=classification.matched_rule,
         )
 
-    owner = str(listing.get("owner_actor") or "").strip()
+    owner = _valid_owner_actor(listing.get("owner_actor"))
     if not owner:
         return None, _unbound(
             side="RESOURCE",
             item=listing,
-            reason="RESOURCE_OWNER_UNRESOLVED",
+            reason="RESOURCE_OWNER_UNRESOLVED_OR_INVALID",
             matched_rule=classification.matched_rule,
         )
 
@@ -351,6 +416,7 @@ def build_live_imbalance_ledger(
             "Capability classification is a deterministic exact allowlist; ambiguous/unclassified evidence remains unbound.",
             "Published procurement budget is not completed payment; current procurement normalization remains OBSERVED with payer unresolved.",
             "Public listing proves DISCOVERED resource only; explicit idle/vacant source text is required for OBSERVED underuse.",
+            "Resource owners that parse as platform disclaimer/legal boilerplate are rejected instead of promoted.",
             "Relisting is allocation friction only and does not manufacture a BlockerSignal.",
             "ROUTE_TESTABLE is emitted only by the canonical Resource Imbalance Engine gates.",
         ],
