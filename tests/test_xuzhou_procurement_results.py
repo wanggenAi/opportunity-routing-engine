@@ -100,6 +100,39 @@ class XuzhouProcurementResultTests(unittest.TestCase):
         self.assertEqual(award.buyer_actor, "徐州市水务局")
         self.assertEqual(award.package_name, "采购包2")
 
+    def test_structured_metadata_restores_result_project_identity(self):
+        detail = """<html><head><title>中标结果公告</title></head><body>
+        <script type='text/html'>
+          <span class='outer'>
+            <span title='项目名称'>2026年度市管雨污水泵站设施维修养护市场化、市直管截污闸门维修养护</span>
+            <span title='项目编号'>JSZC-320300-XZTY-G2026-0002</span>
+          </span>
+          <span class='outer'><span title='采购人单位名称'>徐州市水务局</span></span>
+        </script>
+        <p>采购包2</p>
+        <table>
+          <tr><th>序号</th><th>供应商名称</th><th>社会信用代码</th><th>供应商地址</th><th>中标/成交金额</th></tr>
+          <tr><td>1</td><td>江苏山祥建设工程有限公司</td><td>91320312302101990G</td><td>徐州市</td><td>1186000元</td></tr>
+        </table>
+        </body></html>"""
+        adapter = XuzhouProcurementResultAdapter(
+            client=FakeHtmlClient({"xz_ggzy.procurement_results.detail": detail})
+        )
+        awards = adapter.fetch_awards(
+            "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004006/20260909/5acf2119-a427-4fd4-bb0b-8e947e811c93.html",
+            fallback_title="徐州市水务局2026年度市管雨污水泵站设施维修养护市场化中标结果公告采购包2",
+        )
+        self.assertEqual(len(awards), 1)
+        award = awards[0]
+        self.assertEqual(award.project_id, "JSZC-320300-XZTY-G2026-0002")
+        self.assertEqual(
+            award.project_name,
+            "2026年度市管雨污水泵站设施维修养护市场化、市直管截污闸门维修养护",
+        )
+        self.assertEqual(award.buyer_actor, "徐州市水务局")
+        self.assertEqual(award.supplier_name, "江苏山祥建设工程有限公司")
+        self.assertEqual(award.award_amount_rmb, "1186000.00")
+
     def test_package_specific_url_rejects_other_package_supplier_rows(self):
         detail = """<html><head><title>结果公告</title></head><body>
         <h1>徐州市水务局2026年度市直管雨、污水管渠维修养护市场化项目中标结果公告采购包1</h1>
