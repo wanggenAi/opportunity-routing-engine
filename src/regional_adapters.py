@@ -70,13 +70,17 @@ def _titled_span_fields(html: str) -> dict[str, tuple[str, ...]]:
     can be malformed enough that the generic HTML text parser does not expose the
     article body, so source-specific structured metadata is preferred when present.
 
+    Only a span whose own opening tag contains ``title=`` is considered. This avoids
+    an untitled outer span consuming the closing tag of a nested titled span, which is
+    common in the current Xuzhou notice markup.
+
     Duplicate equal values are collapsed. Conflicting values are retained as a tuple
     so callers can fail closed instead of silently selecting one.
     """
 
     values: dict[str, list[str]] = {}
     for match in re.finditer(
-        r"<span\b(?P<attrs>[^>]*)>(?P<body>.*?)</span\s*>",
+        r"<span\b(?=[^>]*\btitle\s*=)(?P<attrs>[^>]*)>(?P<body>.*?)</span\s*>",
         html,
         flags=re.I | re.S,
     ):
