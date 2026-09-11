@@ -78,6 +78,48 @@ class XuzhouProcurementTests(unittest.TestCase):
         self.assertEqual(event.budget_rmb, "3796089.08")
         self.assertEqual(event.contract_term, "60日历天")
 
+    def test_structured_titled_spans_restore_identity_when_visible_text_is_unavailable(self):
+        detail_html = """<html><head><title>采购公告</title></head><body>
+        <script type='text/html'>
+          <span class='outer'>
+            <span title='项目名称'>2026年度市直管雨、污水管渠维修养护市场化项目</span>
+            <span title='项目编号'>JSZC-320300-XZTY-G2026-0004</span>
+          </span>
+          <span class='outer'><span title='采购方式'>公开招标</span></span>
+          <span class='outer'>预算金额：<span title='预算金额'>328.300000万元</span></span>
+          <span title='投标文件接收截止时间'>2026-10-08 09:30</span>
+          <span class='outer'><span title='合同履行期限'>一年</span></span>
+        </script>
+        </body></html>"""
+        adapter = XuzhouProcurementAdapter(
+            client=FakeHtmlClient({"xz_ggzy.procurement.detail": detail_html})
+        )
+        event = adapter.fetch_event(
+            "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004002/20260910/fa34bda1-6f69-4512-b5dc-731bf34418ef.html",
+            fallback_title="徐州市水务局2026年度市直管雨、污水管渠维修养护市场化项目公开招标公告",
+        )
+        self.assertEqual(event.project_id, "JSZC-320300-XZTY-G2026-0004")
+        self.assertEqual(event.project_name, "2026年度市直管雨、污水管渠维修养护市场化项目")
+        self.assertEqual(event.procurement_method, "公开招标")
+        self.assertEqual(event.budget_rmb, "3283000.00")
+        self.assertEqual(event.budget_raw, "预算金额：328.300000万元")
+        self.assertEqual(event.deadline, "2026-10-08 09:30")
+        self.assertEqual(event.contract_term, "一年")
+
+    def test_conflicting_structured_identity_fails_closed(self):
+        detail_html = """<html><body><script type='text/html'>
+          <span title='项目编号'>PROJECT-A</span>
+          <span title='项目编号'>PROJECT-B</span>
+        </script></body></html>"""
+        adapter = XuzhouProcurementAdapter(
+            client=FakeHtmlClient({"xz_ggzy.procurement.detail": detail_html})
+        )
+        event = adapter.fetch_event(
+            "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004002/20260910/fa34bda1-6f69-4512-b5dc-731bf34418ef.html",
+            fallback_title="采购公告",
+        )
+        self.assertIsNone(event.project_id)
+
 
 if __name__ == "__main__":
     unittest.main()

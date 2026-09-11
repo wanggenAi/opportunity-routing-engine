@@ -12,6 +12,7 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, asdict
 from decimal import Decimal, InvalidOperation
+from html import unescape
 from typing import Any
 from urllib.parse import urlparse
 
@@ -53,6 +54,63 @@ class ProcurementEvent:
 def _first(pattern: str, text: str, flags: int = 0) -> str | None:
     match = re.search(pattern, text, flags)
     return normalize_whitespace(match.group(1)) if match else None
+
+
+def _plain_html_fragment(fragment: str) -> str:
+    text = re.sub(r"<br\s*/?>", " ", fragment, flags=re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    return normalize_whitespace(unescape(text))
+
+
+def _titled_span_fields(html: str) -> dict[str, tuple[str, ...]]:
+    """Extract explicit Xuzhou notice metadata from titled span elements.
+
+    Current Xuzhou procurement detail pages expose canonical field identity through
+    ``<span title='项目编号'>...</span>`` and similar elements. The surrounding page
+    can be malformed enough that the generic HTML text parser does not expose the
+    article body, so source-specific structured metadata is preferred when present.
+
+    Only a span whose own opening tag contains ``title=`` is considered. This avoids
+    an untitled outer span consuming the closing tag of a nested titled span, which is
+    common in the current Xuzhou notice markup.
+
+    Duplicate equal values are collapsed. Conflicting values are retained as a tuple
+    so callers can fail closed instead of silently selecting one.
+    """
+
+    values: dict[str, list[str]] = {}
+    for match in re.finditer(
+        r"<span\b(?=[^>]*\btitle\s*=)(?P<attrs>[^>]*)>(?P<body>.*?)</span\s*>",
+        html,
+        flags=re.I | re.S,
+    ):
+        attrs = match.group("attrs")
+        title_match = re.search(
+            r"\btitle\s*=\s*(['\"])(?P<title>.*?)\1",
+            attrs,
+            flags=re.I | re.S,
+        )
+        if not title_match:
+            continue
+        label = normalize_whitespace(unescape(title_match.group("title")))
+        value = _plain_html_fragment(match.group("body"))
+        if not label or not value:
+            continue
+        bucket = values.setdefault(label, [])
+        if value not in bucket:
+            bucket.append(value)
+    return {label: tuple(items) for label, items in values.items()}
+
+
+def _structured_value(fields: dict[str, tuple[str, ...]], *labels: str) -> str | None:
+    for label in labels:
+        values = fields.get(label, ())
+        if len(values) == 1:
+            return values[0]
+        if len(values) > 1:
+            # Exact field identity with conflicting values is ambiguous evidence.
+            return None
+    return None
 
 
 def _publication_date(text: str, url: str = "") -> str | None:
@@ -223,29 +281,68 @@ class XuzhouProcurementAdapter:
         envelope = self.client.fetch(url, request_name="xz_ggzy.procurement.detail")
         doc = html_to_document(envelope.html, base_url=url)
         text = doc["text"]
+        fields = _titled_span_fields(envelope.html)
         title = self._best_title(text, doc["title"], fallback_title)
-        budget_match = re.search(
-            r"预算金额[：:\s]*([0-9][0-9,]*(?:\.\d+)?)\s*(亿元|万元|元)", text
-        )
+
+        structured_budget = _structured_value(fields, "预算金额")
+        budget_match = None
+        if structured_budget:
+            budget_match = re.search(
+                r"([0-9][0-9,]*(?:\.\d+)?)\s*(亿元|万元|元)", structured_budget
+            )
+        if budget_match is None:
+            budget_match = re.search(
+                r"预算金额[：:\s]*([0-9][0-9,]*(?:\.\d+)?)\s*(亿元|万元|元)",
+                text,
+            )
         budget_number = budget_match.group(1) if budget_match else None
         budget_unit = budget_match.group(2) if budget_match else None
-        budget_raw = budget_match.group(0) if budget_match else None
+        if structured_budget and budget_match:
+            budget_raw = f"预算金额：{structured_budget}"
+        else:
+            budget_raw = budget_match.group(0) if budget_match else None
+
         return ProcurementEvent(
             source_id="XZ_GGZY",
             title=title,
             url=url,
             publication_date=_publication_date(text, url),
-            project_id=_first(r"项目编号[：:\s]*([^\n]+)", text),
-            project_name=_first(r"项目名称[：:\s]*([^\n]+)", text),
-            procurement_method=_first(r"采购方式[：:\s]*([^\n]+)", text),
+            project_id=(
+                _structured_value(fields, "项目编号")
+                or _first(r"项目编号[：:\s]*([^\n]+)", text)
+            ),
+            project_name=(
+                _structured_value(fields, "项目名称")
+                or _first(r"项目名称[：:\s]*([^\n]+)", text)
+            ),
+            procurement_method=(
+                _structured_value(fields, "采购方式")
+                or _first(r"采购方式[：:\s]*([^\n]+)", text)
+            ),
             budget_rmb=_money_to_rmb(budget_number, budget_unit),
             budget_raw=budget_raw,
-            deadline=_first(
-                r"(?:提交响应文件|提交投标文件|响应文件提交)[^\n]*?截止时间[：:\s]*([^\n]+)",
-                text,
-            ) or _first(r"截止时间[：:\s]*([^\n]+)", text),
-            contract_term=_first(r"合同履行期限[：:\s]*([^\n]+)", text),
-            joint_venture_allowed=_first(r"本项目[^\n]{0,20}接受联合体[：:\s]*([^\n]+)", text),
+            deadline=(
+                _structured_value(
+                    fields,
+                    "投标文件接收截止时间",
+                    "投标文件提交截止时间",
+                    "响应文件提交截止时间",
+                    "响应文件接收截止时间",
+                )
+                or _first(
+                    r"(?:提交响应文件|提交投标文件|响应文件提交)[^\n]*?截止时间[：:\s]*([^\n]+)",
+                    text,
+                )
+                or _first(r"截止时间[：:\s]*([^\n]+)", text)
+            ),
+            contract_term=(
+                _structured_value(fields, "合同履行期限")
+                or _first(r"合同履行期限[：:\s]*([^\n]+)", text)
+            ),
+            joint_venture_allowed=(
+                _structured_value(fields, "是否接受联合体", "接受联合体")
+                or _first(r"本项目[^\n]{0,20}接受联合体[：:\s]*([^\n]+)", text)
+            ),
             provenance=envelope.metadata(),
         )
 
