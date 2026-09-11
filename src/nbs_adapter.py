@@ -1,11 +1,11 @@
 """Adapter for the 2026 National Bureau of Statistics '国家数据' release API.
 
-The NBS site migrated away from the legacy easyquery interface.  This adapter uses
+The NBS site migrated away from the legacy easyquery interface. This adapter uses
 only the current public release endpoints under:
 https://data.stats.gov.cn/dg/website/publicrelease/web/external/
 
-It keeps catalog discovery separate from indicator/value retrieval so IDs can be
-pinned after discovery and provenance can be retained.
+Truth rule: an advertised period is not necessarily a populated period. Empty values
+remain unavailable and are never converted into zero or evidence.
 """
 
 from __future__ import annotations
@@ -19,6 +19,7 @@ from src.network_ingest import JsonHttpClient
 
 NBS_BASE_URL = "https://data.stats.gov.cn"
 NBS_API_PREFIX = "/dg/website/publicrelease/web/external"
+MISSING_VALUE_MARKERS = {"", "--", "—", "…", "...", "null", "none", "nan"}
 
 
 @dataclass(frozen=True)
@@ -40,6 +41,19 @@ PAGE_SPECS = {
     "mainMonthData": PageSpec("mainMonthData", 7, "month", "mainMonthData", True),
     "mainYearData": PageSpec("mainYearData", 8, "year", "mainYearData", True),
 }
+
+
+def is_populated_value(value: Any) -> bool:
+    """Return True only when a source value is materially present.
+
+    Numeric zero is valid. Empty strings and common NBS missing markers are not.
+    """
+
+    if value is None:
+        return False
+    if isinstance(value, (int, float)):
+        return True
+    return str(value).strip().lower() not in MISSING_VALUE_MARKERS
 
 
 def normalize_period_token(token: str, frequency: str) -> str:
@@ -281,7 +295,9 @@ class NBSAdapter:
         records: list[dict[str, Any]] = []
         for period in raw.get("data", []) if isinstance(raw, dict) else []:
             for item in period.get("values", []):
-                area_code = str(item.get("areaCode", ""))
+                value = item.get("value")
+                area_code = str(item.get("areaCode") or item.get("da") or "")
+                area_name = str(item.get("area") or item.get("da_name") or "")
                 records.append(
                     {
                         "source_id": "CN_NBS",
@@ -289,18 +305,28 @@ class NBSAdapter:
                         "frequency": spec.frequency,
                         "cid": cid,
                         "period_code": str(period.get("code", "")),
+                        "period_name": str(period.get("name", "")),
                         "indicator_id": str(item.get("_id", "")),
-                        "indicator_label": str(item.get("i_showname", "")),
+                        "indicator_label": str(item.get("i_showname", "")).strip(),
                         "unit": str(item.get("du_name", "")),
-                        "area_name": str(item.get("area", "")),
+                        "area_name": area_name,
                         "area_code": area_code,
-                        "value": item.get("value", ""),
+                        "value": value,
+                        "value_present": is_populated_value(value),
                     }
                 )
+        populated = [record for record in records if record["value_present"]]
+        populated_periods = sorted(
+            {record["period_code"] for record in populated if record["period_code"]},
+            reverse=True,
+        )
         return {
             "request": envelope.metadata(),
             "payload": payload,
-            "row_count": len(records),
+            "observed_row_count": len(records),
+            "populated_row_count": len(populated),
+            "populated_periods": populated_periods,
+            "latest_populated_period": populated_periods[0] if populated_periods else None,
             "records": records,
             "raw": raw,
         }
