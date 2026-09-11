@@ -17,34 +17,29 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Inspect current official GACC monthly/detail structure
+      - name: Inspect Jiangsu official trade corroboration source
         run: |
           python - <<'PY'
-          import re
-          from src.gacc_trade_flow import GaccTradeFlowAdapter, parse_html_tables
-          from src.html_ingest import html_to_document, normalize_whitespace
+          from src.html_ingest import PublicHtmlClient, html_to_document, normalize_whitespace
 
-          adapter = GaccTradeFlowAdapter()
-          discovery = adapter.discover_latest()
-          print('selected_year=', discovery.get('selected_year'))
-          print('location_link_count=', len(discovery['location_links']))
-          print('specific_area_link_count=', len(discovery['specific_area_links']))
-          print('location_links=', discovery['location_links'])
-          print('specific_area_links=', discovery['specific_area_links'])
-
-          for table_no, links in ((8, discovery['location_links']), (11, discovery['specific_area_links'])):
-              print(f'TABLE_{table_no}_DETAILS_BEGIN')
-              for i, url in enumerate(links[-2:]):
-                  env = adapter.client.fetch(url, request_name=f'diagnostic.table_{table_no}.{i}')
-                  doc = html_to_document(env.html, base_url=env.url)
-                  plain = normalize_whitespace(re.sub(r'<[^>]+>', ' ', env.html))
-                  print('DETAIL_URL=', env.url)
-                  print('TITLE=', doc.get('title'))
-                  print('TEXT_PREFIX=', plain[:1500])
-                  print('LINKS=', doc.get('links', [])[:30])
-                  rows = parse_html_tables(env.html, base_url=env.url)
-                  print('ROW_COUNT=', len(rows))
-                  for row in rows[:12]:
-                      print('ROW=', [cell['text'][:160] for cell in row])
-              print(f'TABLE_{table_no}_DETAILS_END')
+          client = PublicHtmlClient(
+              source_id='JS_GOV',
+              allowed_hosts={'jszwb.jiangsu.gov.cn'},
+              timeout_seconds=20,
+              retries=1,
+              max_response_bytes=5_000_000,
+          )
+          urls = [
+              'https://jszwb.jiangsu.gov.cn/col/col71797/index.html',
+              'https://jszwb.jiangsu.gov.cn/art/2026/8/14/art_71797_11816221.html',
+          ]
+          for i, url in enumerate(urls):
+              env = client.fetch(url, request_name=f'js_trade_corroboration.{i}')
+              doc = html_to_document(env.html, base_url=env.url)
+              print('URL=', env.url)
+              print('SHA256=', env.payload_sha256)
+              print('TITLE=', doc.get('title'))
+              print('TEXT_PREFIX=', normalize_whitespace(doc.get('text',''))[:3500])
+              relevant = [x for x in doc.get('links', []) if '71797' in x.get('url','') or '进出口' in x.get('text','') or '海关' in x.get('text','')]
+              print('RELEVANT_LINKS=', relevant[:80])
           PY
