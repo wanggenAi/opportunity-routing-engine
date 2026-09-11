@@ -6,8 +6,10 @@ on:
     - cron: "20 6 * * 1,4"
   pull_request:
     paths:
+      - "src/html_ingest.py"
       - "src/xuzhou_enterprise_funding_demand.py"
       - "scripts/collect_xuzhou_enterprise_funding_demand.py"
+      - "tests/test_html_ingest.py"
       - "tests/test_xuzhou_enterprise_funding_demand.py"
       - "src/money_flow_snapshot.py"
       - "tests/test_money_flow_snapshot.py"
@@ -15,8 +17,10 @@ on:
       - ".github/workflows/xuzhou-enterprise-funding-demand-live.yml"
   push:
     paths:
+      - "src/html_ingest.py"
       - "src/xuzhou_enterprise_funding_demand.py"
       - "scripts/collect_xuzhou_enterprise_funding_demand.py"
+      - "tests/test_html_ingest.py"
       - "tests/test_xuzhou_enterprise_funding_demand.py"
       - "src/money_flow_snapshot.py"
       - "tests/test_money_flow_snapshot.py"
@@ -83,6 +87,16 @@ jobs:
           if missing:
               raise SystemExit(f'missing truth boundaries: {missing}')
 
+          list_pages = data.get('provenance', {}).get('list_pages') or []
+          if not list_pages:
+              raise SystemExit('list-page provenance missing')
+          for meta in list_pages:
+              parsed = urlparse(meta.get('url', ''))
+              if parsed.scheme != 'https' or parsed.hostname != 'www.jiangsu.gov.cn' or not meta.get('payload_sha256'):
+                  raise SystemExit(f'invalid list provenance: {meta}')
+              if parsed.path == '/module/web/jpage/dataproxy.jsp' and not str(meta.get('content_type', '')).lower().startswith(('text/xml', 'application/xml')):
+                  raise SystemExit(f'official jpage MIME identity drift: {meta}')
+
           for event in data['events']:
               parsed = urlparse(event['source_url'])
               if parsed.scheme != 'https' or parsed.hostname != 'www.jiangsu.gov.cn' or '/art_' not in parsed.path:
@@ -95,6 +109,10 @@ jobs:
                   raise SystemExit(f'private-enterprise inference leaked: {event}')
               if not event.get('provenance_sha256'):
                   raise SystemExit(f'missing detail provenance: {event}')
+
+          freshness = data.get('latest_freshness') or {}
+          if freshness.get('status') in {None, 'UNKNOWN', 'FUTURE_DATE_ERROR'}:
+              raise SystemExit(f'invalid funding-demand freshness: {freshness}')
 
           print('pages_fetched=', discovery['pages_fetched'])
           print('records_in_window=', discovery['records_in_window'])
