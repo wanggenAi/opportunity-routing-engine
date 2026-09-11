@@ -63,7 +63,7 @@ TABLE11_JUN = TABLE11_JUL.replace("7.2026", "6.2026")
 
 class GaccTradeFlowTests(unittest.TestCase):
     def _adapter(self):
-        base = "https://english.customs.gov.cn"
+        base = "http://english.customs.gov.cn"
         return GaccTradeFlowAdapter(client=FakeClient({
             f"{base}/statics/report/monthly.html": INDEX,
             f"{base}/Statics/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee.html": TABLE8_JUN,
@@ -73,23 +73,27 @@ class GaccTradeFlowTests(unittest.TestCase):
         }))
 
     def test_table_parser_retains_same_cell_links(self):
-        rows = parse_html_tables(INDEX, base_url="https://english.customs.gov.cn/statics/report/monthly.html")
+        rows = parse_html_tables(INDEX, base_url="http://english.customs.gov.cn/statics/report/monthly.html")
         self.assertIn("Location of Importers/Exporters", rows[0][0]["text"])
-        self.assertTrue(rows[0][1]["links"][0].startswith("https://english.customs.gov.cn/Statics/"))
+        self.assertTrue(rows[0][1]["links"][0].startswith("http://english.customs.gov.cn/Statics/"))
 
     def test_collect_separates_city_location_from_specific_areas(self):
         payload = self._adapter().collect()
         self.assertEqual(payload["period"], "2026-07")
+        self.assertEqual(payload["transport_security"], "PLAINTEXT_HTTP")
+        self.assertTrue(payload["corroboration_required"])
+        self.assertEqual(payload["corroboration_status"], "PENDING")
         self.assertEqual(payload["jiangsu_importer_exporter_location"]["total_ytd_usd_thousand"], 700.0)
         self.assertEqual(payload["xuzhou_importer_exporter_location"]["total_ytd_usd_thousand"], 70.0)
         names = [row["name"] for row in payload["xuzhou_specific_areas"]]
         self.assertEqual(names, ["Xuzhou CBZ", "Xuzhou BLC"])
+        self.assertIn("PLAINTEXT_HTTP_REQUIRES_CORROBORATION", payload["truth_boundaries"])
         self.assertIn("SPECIFIC_AREA_IS_NOT_WHOLE_XUZHOU", payload["truth_boundaries"])
         self.assertIn("NO_CROSS_TABLE_SUM", payload["truth_boundaries"])
 
     def test_missing_xuzhou_is_not_silently_promoted(self):
         adapter = self._adapter()
-        base = "https://english.customs.gov.cn"
+        base = "http://english.customs.gov.cn"
         adapter.client.mapping[f"{base}/Statics/11111111-2222-3333-4444-555555555555.html"] = TABLE8_JUL.replace(
             "<tr><td>Xuzhou</td><td>10</td><td>70</td><td>7</td><td>50</td><td>3</td><td>20</td><td>5.0</td><td>6.0</td><td>2.0</td></tr>", ""
         )
@@ -99,7 +103,7 @@ class GaccTradeFlowTests(unittest.TestCase):
 
     def test_inconsistent_arithmetic_row_is_rejected(self):
         adapter = self._adapter()
-        base = "https://english.customs.gov.cn"
+        base = "http://english.customs.gov.cn"
         adapter.client.mapping[f"{base}/Statics/11111111-2222-3333-4444-555555555555.html"] = TABLE8_JUL.replace(
             "<td>100</td><td>700</td><td>60</td><td>420</td><td>40</td><td>280</td>",
             "<td>999</td><td>700</td><td>60</td><td>420</td><td>40</td><td>280</td>",
@@ -109,7 +113,7 @@ class GaccTradeFlowTests(unittest.TestCase):
 
     def test_selected_year_conflict_fails_closed(self):
         adapter = self._adapter()
-        base = "https://english.customs.gov.cn"
+        base = "http://english.customs.gov.cn"
         adapter.client.mapping[f"{base}/Statics/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee.html"] = TABLE8_JUN.replace("2026", "2025")
         adapter.client.mapping[f"{base}/Statics/11111111-2222-3333-4444-555555555555.html"] = TABLE8_JUL.replace("2026", "2025")
         adapter.client.mapping[f"{base}/Statics/bbbbbbbb-bbbb-cccc-dddd-eeeeeeeeeeee.html"] = TABLE11_JUN.replace("2026", "2025")
