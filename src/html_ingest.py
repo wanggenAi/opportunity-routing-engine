@@ -79,6 +79,11 @@ def _encoding_from_headers(response: Any) -> str:
     return "utf-8"
 
 
+_DEFAULT_ACCEPTED_CONTENT_TYPES = frozenset(
+    {"text/html", "application/xhtml+xml", "text/plain"}
+)
+
+
 class PublicHtmlClient:
     def __init__(
         self,
@@ -89,6 +94,7 @@ class PublicHtmlClient:
         retries: int = 2,
         retry_backoff_seconds: float = 0.5,
         max_response_bytes: int = 10_000_000,
+        accepted_content_types: Iterable[str] | None = None,
         transport: Transport | None = None,
     ) -> None:
         self.source_id = source_id
@@ -97,6 +103,18 @@ class PublicHtmlClient:
             raise ValueError("allowed_hosts must not be empty")
         if timeout_seconds <= 0 or max_response_bytes <= 0 or retries < 0:
             raise ValueError("invalid HTML client bounds")
+        accepted = (
+            _DEFAULT_ACCEPTED_CONTENT_TYPES
+            if accepted_content_types is None
+            else frozenset(
+                value.strip().lower()
+                for value in accepted_content_types
+                if value and value.strip()
+            )
+        )
+        if not accepted:
+            raise ValueError("accepted_content_types must not be empty")
+        self.accepted_content_types = accepted
         self.timeout_seconds = timeout_seconds
         self.retries = retries
         self.retry_backoff_seconds = retry_backoff_seconds
@@ -144,10 +162,8 @@ class PublicHtmlClient:
                             f"HTML response exceeded {self.max_response_bytes} bytes: {request_name}"
                         )
                     content_type = _header_value(response, "Content-Type")
-                    lowered = content_type.lower()
-                    if lowered and not any(
-                        marker in lowered for marker in ("text/html", "application/xhtml+xml", "text/plain")
-                    ):
+                    media_type = content_type.split(";", 1)[0].strip().lower()
+                    if media_type and media_type not in self.accepted_content_types:
                         raise NonHtmlResponseError(
                             f"unexpected content type for {request_name}: {content_type}"
                         )
