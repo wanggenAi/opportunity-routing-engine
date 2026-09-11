@@ -1,0 +1,70 @@
+name: resource-underuse-live
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Property-rights listings are a useful daily sensor for explicit idle/vacant assets.
+    - cron: "10 2 * * *"
+  push:
+    paths:
+      - "src/html_ingest.py"
+      - "src/resource_underuse_adapters.py"
+      - "scripts/collect_resource_underuse.py"
+      - ".github/workflows/resource-underuse-live.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  xuzhou-public-assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect recent Xuzhou public asset listings
+        run: |
+          python scripts/collect_resource_underuse.py xuzhou-public-assets \
+            --limit 20 \
+            --require-listings \
+            --output .local/xz_public_asset_underuse.json
+
+      - name: Validate truth-preserving resource evidence
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path('.local/xz_public_asset_underuse.json').read_text(encoding='utf-8'))
+          print('discovered:', data['discovery']['item_count'])
+          print('parsed:', data['listing_count'])
+          print('errors:', data['error_count'])
+          print('explicit underuse:', data['observed_underuse_count'])
+          print('relistings:', data['relisting_count'])
+
+          if data['listing_count'] < 1:
+              raise SystemExit('no resource listing parsed')
+
+          for item in data['listings']:
+              if item['resource_state'] != 'DISCOVERED':
+                  raise SystemExit('public listing must not be promoted beyond DISCOVERED')
+              if item['underuse_evidence_state'] == 'OBSERVED' and not item['underuse_excerpt']:
+                  raise SystemExit('OBSERVED underuse requires explicit source excerpt')
+              if item['relisting_observed'] and not item['listing_round']:
+                  raise SystemExit('relisting evidence requires an explicit listing round')
+          PY
+
+      - name: Upload resource-underuse evidence artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: xuzhou-resource-underuse-evidence
+          path: .local/xz_public_asset_underuse.json
+          retention-days: 14
+          if-no-files-found: error
+          include-hidden-files: true
