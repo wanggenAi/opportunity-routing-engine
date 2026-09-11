@@ -1,0 +1,119 @@
+name: pbc-jiangsu-credit-live
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 4 * * *"
+  pull_request:
+    paths:
+      - "src/xls_ingest.py"
+      - "src/pbc_jiangsu_credit.py"
+      - "scripts/collect_pbc_jiangsu_credit.py"
+      - "tests/test_pbc_jiangsu_credit.py"
+      - "requirements-pbc-js-credit.txt"
+      - "data/source_registry.csv"
+      - ".github/workflows/pbc-jiangsu-credit-live.yml"
+  push:
+    paths:
+      - "src/xls_ingest.py"
+      - "src/pbc_jiangsu_credit.py"
+      - "scripts/collect_pbc_jiangsu_credit.py"
+      - "tests/test_pbc_jiangsu_credit.py"
+      - "requirements-pbc-js-credit.txt"
+      - "data/source_registry.csv"
+      - ".github/workflows/pbc-jiangsu-credit-live.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  collect-jiangsu-credit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install isolated legacy XLS parser
+        run: python -m pip install --disable-pip-version-check -r requirements-pbc-js-credit.txt
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect newest official PBC Jiangsu credit table
+        run: |
+          python scripts/collect_pbc_jiangsu_credit.py \
+            --output .local/pbc_jiangsu_credit.json
+
+      - name: Validate Jiangsu credit evidence contract
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          data = json.loads(Path('.local/pbc_jiangsu_credit.json').read_text(encoding='utf-8'))
+          if data.get('source_id') != 'CN_PBOC_JS' or data.get('data_available') is not True:
+              raise SystemExit('PBC Jiangsu source did not produce available data')
+          if data.get('geography') != 'Jiangsu':
+              raise SystemExit('unexpected geography')
+          if not re.fullmatch(r'20\d{2}-\d{2}', str(data.get('observation_period', ''))):
+              raise SystemExit(f'invalid observation period: {data.get("observation_period")}')
+          freshness = data.get('freshness', {})
+          if freshness.get('status') not in {'FRESH', 'AGING'}:
+              raise SystemExit(f'latest Jiangsu credit release is not fresh enough: {freshness}')
+
+          obs = data['observation']
+          if obs.get('unit') != '100m_cny':
+              raise SystemExit(f'unexpected unit: {obs.get("unit")}')
+          if obs.get('period_gate') not in {'EXPLICIT_PERIOD_HEADER', 'TITLE_PERIOD_CURRENT_BALANCE'}:
+              raise SystemExit(f'unexpected period gate: {obs.get("period_gate")}')
+          metrics = obs['metrics']
+          for key in (
+              'total_deposits_100m_cny',
+              'household_deposits_100m_cny',
+              'nonfinancial_enterprise_deposits_100m_cny',
+              'total_loans_100m_cny',
+          ):
+              if metrics.get(key) is None:
+                  raise SystemExit(f'missing required metric: {key}')
+              value = float(metrics[key])
+              if not 1_000 < value < 1_000_000:
+                  raise SystemExit(f'{key} outside broad corruption guard: {value}')
+
+          for key in ('total_deposits_100m_cny', 'total_loans_100m_cny'):
+              if not 100_000 < float(metrics[key]) < 500_000:
+                  raise SystemExit(f'{key} outside broad Jiangsu scale guard: {metrics[key]}')
+
+          for key in ('index', 'detail', 'xls'):
+              meta = data['provenance'][key]
+              parsed = urlparse(meta['url'])
+              if parsed.scheme != 'https' or parsed.hostname != 'nanjing.pbc.gov.cn':
+                  raise SystemExit(f'unexpected PBC Jiangsu provenance URL: {meta["url"]}')
+              if not meta.get('payload_sha256'):
+                  raise SystemExit(f'missing provenance hash: {key}')
+          if not data['provenance']['xls'].get('size_bytes'):
+              raise SystemExit('missing XLS byte-size evidence')
+
+          print('table_title=', data['table_title'])
+          print('period=', data['observation_period'])
+          print('release_date=', data['release_date'])
+          print('freshness=', json.dumps(freshness, ensure_ascii=False, sort_keys=True))
+          print('metrics=', json.dumps(metrics, ensure_ascii=False, sort_keys=True))
+          PY
+
+      - name: Upload Jiangsu credit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pbc-jiangsu-credit-evidence
+          path: .local/pbc_jiangsu_credit.json
+          retention-days: 14
+          if-no-files-found: error
+          include-hidden-files: true
