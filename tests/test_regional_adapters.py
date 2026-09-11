@@ -81,12 +81,14 @@ class XuzhouProcurementTests(unittest.TestCase):
     def test_structured_titled_spans_restore_identity_when_visible_text_is_unavailable(self):
         detail_html = """<html><head><title>采购公告</title></head><body>
         <script type='text/html'>
-          <span title='项目编号'>JSZC-320300-XZTY-G2026-0004</span>
-          <span title='项目名称'>2026年度市直管雨、污水管渠维修养护市场化项目</span>
-          <span title='采购方式'>公开招标</span>
-          <span title='预算金额'>328.300000万元</span>
+          <span class='outer'>
+            <span title='项目名称'>2026年度市直管雨、污水管渠维修养护市场化项目</span>
+            <span title='项目编号'>JSZC-320300-XZTY-G2026-0004</span>
+          </span>
+          <span class='outer'><span title='采购方式'>公开招标</span></span>
+          <span class='outer'>预算金额：<span title='预算金额'>328.300000万元</span></span>
           <span title='投标文件接收截止时间'>2026-10-08 09:30</span>
-          <span title='合同履行期限'>一年</span>
+          <span class='outer'><span title='合同履行期限'>一年</span></span>
         </script>
         </body></html>"""
         adapter = XuzhouProcurementAdapter(
