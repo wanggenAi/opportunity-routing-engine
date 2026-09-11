@@ -1,6 +1,7 @@
 import unittest
 
 from src.html_ingest import HtmlFetchEnvelope
+from src.live_imbalance_ledger import classify_procurement_event
 from src.xuzhou_procurement_results import XuzhouProcurementResultAdapter
 
 
@@ -19,6 +20,31 @@ class FakeHtmlClient:
             payload_sha256="f" * 64,
             encoding="utf-8",
             html=self.html_by_name[request_name],
+        )
+
+
+class UrlAwareFakeHtmlClient:
+    def __init__(self, html_by_url, detail_html):
+        self.html_by_url = html_by_url
+        self.detail_html = detail_html
+        self.urls = []
+
+    def fetch(self, url, *, request_name, params=None, headers=None):
+        self.urls.append(url)
+        if request_name == "xz_ggzy.procurement_results.detail":
+            html = self.detail_html
+        else:
+            html = self.html_by_url.get(url, "<html><body></body></html>")
+        return HtmlFetchEnvelope(
+            source_id="TEST",
+            request_name=request_name,
+            url=url,
+            fetched_at_utc="2026-09-11T00:00:00+00:00",
+            http_status=200,
+            content_type="text/html; charset=utf-8",
+            payload_sha256="e" * 64,
+            encoding="utf-8",
+            html=html,
         )
 
 
@@ -87,6 +113,48 @@ class XuzhouProcurementResultTests(unittest.TestCase):
             "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004006/20260909/00d7b76b-b26d-47f1-bc2e-00c7a8f7cb0d.html"
         )
         self.assertEqual(awards, [])
+
+    def test_history_scans_numbered_pages_and_filters_before_detail_fetch(self):
+        base = "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004006/list.html"
+        irrelevant = """<html><body>
+        <a href='/jyxx/003004/003004006/20260911/11111111-1111-1111-1111-111111111111.html'>
+        某医院血液透析设备中标结果公告采购包1
+        </a></body></html>"""
+        matching = self._list_html()
+        client = UrlAwareFakeHtmlClient(
+            {
+                base: irrelevant,
+                "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004006/2.html": matching,
+                "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004006/3.html": "<html><body></body></html>",
+            },
+            self._detail_html(),
+        )
+        adapter = XuzhouProcurementResultAdapter(client=client)
+        payload = adapter.collect_history_awards(
+            pages=5,
+            item_filter=lambda item: classify_procurement_event(item).capability_key is not None,
+            max_items=10,
+            max_details=10,
+        )
+        self.assertEqual(payload["discovery"]["scanned_pages"], 3)
+        self.assertEqual(payload["discovery"]["raw_item_count"], 2)
+        self.assertEqual(payload["discovery"]["item_count"], 1)
+        self.assertEqual(payload["detail_fetch_count"], 1)
+        self.assertEqual(payload["award_count"], 1)
+        self.assertIn("/2.html", client.urls)
+        detail_urls = [
+            url for url in client.urls if "/20260909/" in url
+        ]
+        self.assertEqual(len(detail_urls), 1)
+
+    def test_history_limits_are_fail_closed(self):
+        adapter = XuzhouProcurementResultAdapter(client=FakeHtmlClient({}))
+        with self.assertRaises(ValueError):
+            adapter.discover_history(pages=0)
+        with self.assertRaises(ValueError):
+            adapter.discover_history(pages=51)
+        with self.assertRaises(ValueError):
+            adapter.discover_history(max_items=0)
 
 
 if __name__ == "__main__":
