@@ -1,0 +1,49 @@
+name: customs-source-diagnostic
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/customs-source-diagnostic.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe official customs sources with default TLS verification
+        run: |
+          python - <<'PY'
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError, URLError
+          import ssl
+
+          targets = [
+              'https://stats.customs.gov.cn/',
+              'https://stats.customs.gov.cn/indexEn',
+              'https://online.customs.gov.cn/',
+              'https://online.chinaport.gov.cn/',
+              'https://www.cceeccic.org/MONITORING/DATA_COLUMN_LIST_EN.html?fn=Statistics&fp=MONITORING%5CDATA&idx=1&par=',
+              'https://english.customs.gov.cn/statics/report/monthly.html',
+          ]
+          for url in targets:
+              req = Request(url, headers={'User-Agent':'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)','Accept':'text/html,*/*;q=0.5'})
+              try:
+                  with urlopen(req, timeout=15) as r:
+                      body = r.read(4096)
+                      print('OK', url, 'status=', r.status, 'final=', r.geturl(), 'type=', r.headers.get('Content-Type'), 'prefix_bytes=', len(body))
+              except HTTPError as e:
+                  print('HTTP_ERROR', url, e.code, 'final=', e.geturl())
+              except URLError as e:
+                  print('URL_ERROR', url, repr(e.reason))
+              except ssl.SSLError as e:
+                  print('SSL_ERROR', url, repr(e))
+              except Exception as e:
+                  print('ERROR', url, type(e).__name__, repr(e))
+          PY
