@@ -1,0 +1,3 @@
+# Optional parser only for the PBC Jiangsu legacy BIFF/OLE .xls source.
+# Keep isolated from the repository-wide stdlib-first runtime.
+xlrd==2.0.2
