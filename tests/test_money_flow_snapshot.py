@@ -86,6 +86,98 @@ class MoneyFlowSnapshotTests(unittest.TestCase):
             "NOT_RUN",
         )
 
+    def test_customs_scope_keeps_jiangsu_xuzhou_area_and_city_distinct(self):
+        customs_payload = {
+            "source_id": "CN_CUSTOMS",
+            "period": "2026-07",
+            "unit": "USD_THOUSAND",
+            "transport_security": "PLAINTEXT_HTTP",
+            "corroboration_status": "PERIOD_IDENTITY_DIRECTION_CORROBORATED",
+            "corroboration": {
+                "source_id": "JS_GOV",
+                "period": "2026-07",
+                "basis": "PERIOD_IDENTITY_DIRECTION_ONLY",
+                "monetary_value_comparison": "UNAVAILABLE_CROSS_CURRENCY",
+            },
+            "jiangsu_importer_exporter_location": {
+                "name": "Jiangsu Province",
+                "total_ytd_usd_thousand": 604348420.0,
+                "total_basis": "DERIVED_EXPORT_PLUS_IMPORT",
+            },
+            "xuzhou_importer_exporter_location": None,
+            "xuzhou_specific_areas": [
+                {"name": "Xuzhou CBZ", "total_ytd_usd_thousand": 497299.0},
+                {"name": "Xuzhou BLC", "total_ytd_usd_thousand": 37848.0},
+            ],
+        }
+        snapshot = collect_money_flow_snapshot(
+            feeds=[
+                SnapshotFeed(
+                    key="jiangsu_customs_trade_flow",
+                    geography="Jiangsu/XuzhouSpecificAreas",
+                    evidence_role="provincial_trade_flow_and_specific_area_customs_activity",
+                    collect=_available(customs_payload),
+                )
+            ]
+        )
+        answerability = snapshot["answerability"]
+        self.assertEqual(answerability["jiangsu_trade_flow"]["status"], "AVAILABLE")
+        self.assertEqual(answerability["xuzhou_specific_area_trade"]["status"], "PARTIAL")
+        self.assertEqual(answerability["xuzhou_city_trade_flow"]["status"], "UNKNOWN")
+
+        js = snapshot["headline_evidence"]["Jiangsu"]["customs_trade_flow"]
+        self.assertEqual(js["corroboration_status"], "PERIOD_IDENTITY_DIRECTION_CORROBORATED")
+        self.assertEqual(
+            js["corroboration"]["monetary_value_comparison"],
+            "UNAVAILABLE_CROSS_CURRENCY",
+        )
+        xz = snapshot["headline_evidence"]["Xuzhou"]["customs_specific_areas"]
+        self.assertEqual(xz["scope"], "SPECIFIC_AREAS_ONLY")
+        self.assertEqual(xz["specific_area_value_corroboration"], "NOT_ESTABLISHED")
+        self.assertIsNone(xz["city_location_row"])
+        self.assertEqual([row["name"] for row in xz["areas"]], ["Xuzhou CBZ", "Xuzhou BLC"])
+        self.assertNotIn("xuzhou_trade_total", xz)
+        self.assertNotIn("specific_area_total", xz)
+        for boundary in (
+            "CUSTOMS_PLAINTEXT_HTTP_REQUIRES_CORROBORATION",
+            "CUSTOMS_CROSS_CURRENCY_VALUES_NOT_DIRECTLY_COMPARABLE",
+            "XUZHOU_SPECIFIC_AREA_TRADE_IS_NOT_CITY_TOTAL",
+            "PROVINCE_CORROBORATION_DOES_NOT_CORROBORATE_XUZHOU_SPECIFIC_AREA_VALUES",
+        ):
+            self.assertIn(boundary, snapshot["truth_boundaries"])
+
+    def test_pending_customs_corroboration_cannot_make_jiangsu_trade_available(self):
+        customs_payload = {
+            "source_id": "CN_CUSTOMS",
+            "period": "2026-08",
+            "unit": "USD_THOUSAND",
+            "transport_security": "PLAINTEXT_HTTP",
+            "corroboration_status": "PENDING",
+            "corroboration": {
+                "status": "NO_SAME_PERIOD_HTTPS_CORROBORATION",
+                "known_corroboration_period": "2026-07",
+            },
+            "jiangsu_importer_exporter_location": {
+                "name": "Jiangsu Province",
+                "total_ytd_usd_thousand": 700000000.0,
+            },
+            "xuzhou_importer_exporter_location": None,
+            "xuzhou_specific_areas": [{"name": "Xuzhou CBZ", "total_ytd_usd_thousand": 510000.0}],
+        }
+        snapshot = collect_money_flow_snapshot(
+            feeds=[
+                SnapshotFeed(
+                    key="jiangsu_customs_trade_flow",
+                    geography="Jiangsu/XuzhouSpecificAreas",
+                    evidence_role="provincial_trade_flow_and_specific_area_customs_activity",
+                    collect=_available(customs_payload),
+                )
+            ]
+        )
+        self.assertEqual(snapshot["answerability"]["jiangsu_trade_flow"]["status"], "PARTIAL")
+        self.assertEqual(snapshot["answerability"]["xuzhou_specific_area_trade"]["status"], "PARTIAL")
+        self.assertEqual(snapshot["answerability"]["xuzhou_city_trade_flow"]["status"], "UNKNOWN")
+
     def test_xuzhou_headline_preserves_events_without_unsafe_sum(self):
         construction_payload = {
             "source_id": "XZ_GGZY",
@@ -143,7 +235,7 @@ class MoneyFlowSnapshotTests(unittest.TestCase):
                 )
             ]
         )
-        self.assertEqual(snapshot["schema_version"], "money-flow-snapshot-v1")
+        self.assertEqual(snapshot["schema_version"], "money-flow-snapshot-v2")
         self.assertIn("NO_OPPORTUNITY_INFERENCE", TRUTH_BOUNDARIES)
         self.assertIn("NEED + SURPLUS RESOURCE + TRANSACTION BLOCKER", snapshot["interpretation_boundary"])
         self.assertNotIn("opportunities", snapshot)

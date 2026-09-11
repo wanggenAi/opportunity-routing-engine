@@ -1,10 +1,10 @@
 """Orchestrate live China → Jiangsu → Xuzhou money-flow evidence.
 
-This snapshot is an evidence index, not an opportunity scorer.  It intentionally
+This snapshot is an evidence index, not an opportunity scorer. It intentionally
 keeps source payloads separate and exposes unavailable dimensions as UNKNOWN.
 There is no cross-source summation because the feeds differ in period, unit,
 coverage and transaction meaning (for example a tender estimate is not a paid
-cash flow).
+cash flow, and customs trade is not bank credit).
 """
 
 from __future__ import annotations
@@ -13,6 +13,8 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Any, Callable
 
+from src.gacc_trade_corroboration import JiangsuTradeCorroborator
+from src.gacc_trade_flow import GaccTradeFlowAdapter
 from src.jiangsu_money_flow import JiangsuMoneyFlowAdapter
 from src.pbc_jiangsu_credit import PbcJiangsuCreditAdapter
 from src.pbc_money_flow import PbcMoneyFlowAdapter
@@ -39,9 +41,18 @@ TRUTH_BOUNDARIES = [
     "NO_TENDER_SUM_WITHOUT_PROJECT_DEDUP",
     "TENDER_NOTICE_IS_NOT_COMPLETED_PAYMENT",
     "PROCUREMENT_NOTICE_IS_NOT_COMPLETED_PAYMENT",
+    "CUSTOMS_PLAINTEXT_HTTP_REQUIRES_CORROBORATION",
+    "CUSTOMS_CROSS_CURRENCY_VALUES_NOT_DIRECTLY_COMPARABLE",
+    "XUZHOU_SPECIFIC_AREA_TRADE_IS_NOT_CITY_TOTAL",
+    "PROVINCE_CORROBORATION_DOES_NOT_CORROBORATE_XUZHOU_SPECIFIC_AREA_VALUES",
     "MONEY_FLOW_EVIDENCE_DOES_NOT_PROVE_NEED_SURPLUS_BLOCKER",
     "NO_OPPORTUNITY_INFERENCE",
 ]
+
+
+def _collect_customs_trade_flow() -> dict[str, Any]:
+    payload = GaccTradeFlowAdapter().collect()
+    return JiangsuTradeCorroborator().corroborate(payload)
 
 
 def default_feeds() -> list[SnapshotFeed]:
@@ -69,6 +80,12 @@ def default_feeds() -> list[SnapshotFeed]:
             geography="Jiangsu",
             evidence_role="provincial_investment_consumption_finance_corroboration",
             collect=lambda: JiangsuMoneyFlowAdapter().collect(),
+        ),
+        SnapshotFeed(
+            key="jiangsu_customs_trade_flow",
+            geography="Jiangsu/XuzhouSpecificAreas",
+            evidence_role="provincial_trade_flow_and_specific_area_customs_activity",
+            collect=_collect_customs_trade_flow,
         ),
         SnapshotFeed(
             key="xuzhou_government_procurement",
@@ -104,9 +121,9 @@ def _safe_collect(feed: SnapshotFeed) -> dict[str, Any]:
     if available is False:
         status = "UNAVAILABLE"
     else:
-        # Existing event feeds predate the explicit data_available field.  A
-        # successfully returned batch is AVAILABLE evidence even when a field in
-        # an individual event is missing; those fields remain None in the payload.
+        # Existing event feeds predate the explicit data_available field. A
+        # successfully returned batch is AVAILABLE source evidence even when a
+        # field in an individual event is missing; those fields remain None.
         status = "AVAILABLE"
     return {
         "key": feed.key,
@@ -131,6 +148,30 @@ def _answerability(feed_map: dict[str, dict[str, Any]]) -> dict[str, dict[str, A
             value = "UNKNOWN"
         return {"status": value, "feeds": statuses, "note": note}
 
+    customs = feed_map["jiangsu_customs_trade_flow"]
+    customs_payload = customs.get("payload") or {}
+    province_corroborated = (
+        customs["status"] == "AVAILABLE"
+        and customs_payload.get("corroboration_status") == "PERIOD_IDENTITY_DIRECTION_CORROBORATED"
+        and (customs_payload.get("jiangsu_importer_exporter_location") or {}).get("total_ytd_usd_thousand") is not None
+    )
+    if province_corroborated:
+        jiangsu_trade_status = "AVAILABLE"
+    elif customs["status"] == "AVAILABLE":
+        jiangsu_trade_status = "PARTIAL"
+    else:
+        jiangsu_trade_status = "UNKNOWN"
+
+    xuzhou_location = customs_payload.get("xuzhou_importer_exporter_location")
+    xuzhou_areas = customs_payload.get("xuzhou_specific_areas") or []
+    if customs["status"] == "AVAILABLE" and xuzhou_location:
+        xuzhou_city_trade_status = "PARTIAL"
+    else:
+        xuzhou_city_trade_status = "UNKNOWN"
+    xuzhou_specific_area_status = (
+        "PARTIAL" if customs["status"] == "AVAILABLE" and xuzhou_areas else "UNKNOWN"
+    )
+
     return {
         "china_money_flow": state(
             ["china_pbc_financial_statistics"],
@@ -144,10 +185,36 @@ def _answerability(feed_map: dict[str, dict[str, Any]]) -> dict[str, dict[str, A
             ],
             note="Provincial financing, bank-balance and investment/consumption evidence; sources corroborate but are not additive.",
         ),
+        "jiangsu_trade_flow": {
+            "status": jiangsu_trade_status,
+            "feeds": {"jiangsu_customs_trade_flow": customs["status"]},
+            "note": (
+                "GACC importer/exporter-location trade is a separate trade-flow dimension. "
+                "AVAILABLE requires same-period Jiangsu HTTPS corroboration of period, geography and import/export direction; "
+                "CNY and USD values are not directly compared."
+            ),
+        },
         "xuzhou_institutional_spend": state(
             ["xuzhou_government_procurement", "xuzhou_construction_tenders"],
             note="Public procurement and construction solicitation evidence; notices are not completed payments.",
         ),
+        "xuzhou_specific_area_trade": {
+            "status": xuzhou_specific_area_status,
+            "feeds": {"jiangsu_customs_trade_flow": customs["status"]},
+            "note": (
+                "Current customs evidence may expose Xuzhou CBZ/BLC specific-area activity. "
+                "It remains PARTIAL because provincial corroboration does not independently validate those area values, "
+                "and specific areas are not the whole city."
+            ),
+        },
+        "xuzhou_city_trade_flow": {
+            "status": xuzhou_city_trade_status,
+            "feeds": {"jiangsu_customs_trade_flow": customs["status"]},
+            "note": (
+                "Specific-area customs rows cannot substitute for a Xuzhou whole-city trade row. "
+                "Even a future city-location row remains PARTIAL until city-scope corroboration is established."
+            ),
+        },
         "xuzhou_financial_balance": {
             "status": "UNKNOWN",
             "feeds": {},
@@ -156,7 +223,7 @@ def _answerability(feed_map: dict[str, dict[str, Any]]) -> dict[str, dict[str, A
         "xuzhou_private_enterprise_funding_demand": {
             "status": "UNKNOWN",
             "feeds": {},
-            "note": "Tender/procurement activity cannot substitute for direct enterprise financing-demand evidence.",
+            "note": "Tender/procurement/trade activity cannot substitute for direct enterprise financing-demand evidence.",
         },
     }
 
@@ -206,6 +273,28 @@ def _headline_evidence(feed_map: dict[str, dict[str, Any]]) -> dict[str, Any]:
             "freshness": payload.get("freshness"),
         }
 
+    customs = feed_map["jiangsu_customs_trade_flow"]
+    if customs["status"] == "AVAILABLE":
+        payload = customs["payload"]
+        result["Jiangsu"]["customs_trade_flow"] = {
+            "period": payload.get("period"),
+            "unit": payload.get("unit"),
+            "transport_security": payload.get("transport_security"),
+            "corroboration_status": payload.get("corroboration_status"),
+            "corroboration": payload.get("corroboration"),
+            "importer_exporter_location": payload.get("jiangsu_importer_exporter_location"),
+            "scope_note": "Importer/exporter registration location; not domestic production/consumption origin-destination.",
+        }
+        result["Xuzhou"]["customs_specific_areas"] = {
+            "period": payload.get("period"),
+            "transport_security": payload.get("transport_security"),
+            "province_corroboration_status": payload.get("corroboration_status"),
+            "specific_area_value_corroboration": "NOT_ESTABLISHED",
+            "scope": "SPECIFIC_AREAS_ONLY",
+            "city_location_row": payload.get("xuzhou_importer_exporter_location"),
+            "areas": payload.get("xuzhou_specific_areas", []),
+        }
+
     procurement = feed_map["xuzhou_government_procurement"]
     if procurement["status"] == "AVAILABLE":
         payload = procurement["payload"]
@@ -246,7 +335,7 @@ def collect_money_flow_snapshot(
     collected = [_safe_collect(feed) for feed in selected]
     feed_map = {item["key"]: item for item in collected}
 
-    # Answerability currently has a fixed production contract.  Tests using
+    # Answerability currently has a fixed production contract. Tests using
     # injected subsets still need all keys represented explicitly as UNKNOWN.
     for feed in default_feeds():
         feed_map.setdefault(
@@ -268,7 +357,7 @@ def collect_money_flow_snapshot(
         for status in ("AVAILABLE", "UNAVAILABLE", "ERROR", "NOT_RUN")
     }
     return {
-        "schema_version": "money-flow-snapshot-v1",
+        "schema_version": "money-flow-snapshot-v2",
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "geography_path": ["China", "Jiangsu", "Xuzhou"],
         "truth_boundaries": TRUTH_BOUNDARIES,
@@ -277,7 +366,7 @@ def collect_money_flow_snapshot(
         "headline_evidence": _headline_evidence(feed_map),
         "feeds": feed_map,
         "interpretation_boundary": (
-            "This artifact indexes observed money-flow and institutional-spend evidence. "
+            "This artifact indexes observed money-flow, trade-flow and institutional-spend evidence. "
             "It does not infer an opportunity. Promotion still requires separately evidenced "
             "NEED + SURPLUS RESOURCE + TRANSACTION BLOCKER."
         ),
