@@ -31,7 +31,6 @@ jobs:
               'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.7',
           }
 
-          # Resolve endpoint constants from the same public JS bundle used by the homepage.
           req = Request(home, headers={**common, 'Accept': 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.5'})
           with urlopen(req, timeout=20) as r:
               html = r.read(1_000_000).decode('utf-8')
@@ -49,10 +48,21 @@ jobs:
           if not (area_match and appeal_match and base_match):
               raise SystemExit('public homepage endpoint constants missing')
           api_base = base_match.group(1)
-          area_url = urljoin(api_base, area_match.group(1))
-          appeal_url = urljoin(api_base, appeal_match.group(1))
-          if not area_url.startswith(origin + '/xzapi/') or not appeal_url.startswith(origin + '/xzapi/'):
-              raise SystemExit('endpoint escaped official public API base')
+          if api_base != origin + '/xzapi/':
+              raise SystemExit(f'unexpected public API base: {api_base}')
+
+          # Axios combineURLs keeps baseURL's /xzapi prefix even when the configured
+          # relative path starts with '/'. Python urljoin would incorrectly drop it.
+          def combine_api(path):
+              if '://' in path or path.startswith('//'):
+                  raise SystemExit(f'absolute endpoint not allowed: {path}')
+              value = api_base.rstrip('/') + '/' + path.lstrip('/')
+              if not value.startswith(origin + '/xzapi/'):
+                  raise SystemExit(f'endpoint escaped official public API base: {value}')
+              return value
+
+          area_url = combine_api(area_match.group(1))
+          appeal_url = combine_api(appeal_match.group(1))
           print('PUBLIC_AREA_ENDPOINT=', area_url)
           print('PUBLIC_APPEAL_ENDPOINT=', appeal_url)
 
