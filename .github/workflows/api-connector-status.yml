@@ -1,0 +1,59 @@
+name: api-connector-status
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "src/api_connectors.py"
+      - "scripts/probe_api_connectors.py"
+      - "data/source_registry.csv"
+      - "docs/API_CONNECTOR_PLAN.md"
+      - ".github/workflows/api-connector-status.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  connector-readiness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      DOUYIN_CLIENT_KEY: ${{ secrets.DOUYIN_CLIENT_KEY }}
+      DOUYIN_CLIENT_SECRET: ${{ secrets.DOUYIN_CLIENT_SECRET }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Probe sanitized connector readiness
+        run: |
+          mkdir -p .local
+          python scripts/probe_api_connectors.py | tee .local/api_connector_status.json
+
+      - name: Assert no secret value is serialized
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          text = Path('.local/api_connector_status.json').read_text(encoding='utf-8')
+          json.loads(text)
+          for name in ('DOUYIN_CLIENT_KEY', 'DOUYIN_CLIENT_SECRET'):
+              value = os.environ.get(name, '')
+              if value and value in text:
+                  raise SystemExit(f'secret value leaked into connector artifact: {name}')
+          PY
+
+      - name: Upload sanitized connector state
+        uses: actions/upload-artifact@v4
+        with:
+          name: api-connector-status
+          path: .local/api_connector_status.json
+          retention-days: 7
+          if-no-files-found: error
+          include-hidden-files: true

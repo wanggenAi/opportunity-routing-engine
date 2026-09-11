@@ -15,11 +15,12 @@ JS_GGZY_XZ_MIRROR,江苏省公共资源交易平台/Xuzhou产权静态镜像,A,�
 XZ_SME,徐州市综合性企业服务平台,A/B,徐州市企业服务体系,https://www.xzsme.js.cn,Xuzhou,"enterprise policy;projects;enterprise requests;activities;business services",HTML/MANUAL,DAILY/WEEKLY,UNKNOWN,ACTIVE
 XZ_DAILY,徐州日报/都市晨报,B,徐州报业,https://szb.cnxz.com.cn,Xuzhou,"local economy;consumer behavior;property;housing;tourism;industry;case evidence",HTML/MANUAL,DAILY,UNKNOWN,ACTIVE
 QM,QuestMobile,B,QuestMobile研究院,https://www.questmobile.com.cn/research/report-list,China,"mobile behavior;lower-tier consumers;AI;local life;secondhand;night economy;consumer segmentation",HTML/MANUAL,MONTHLY,TERMS_DEPENDENT,ACTIVE
-BAIDU_INDEX,百度指数,B,百度,https://index.baidu.com/v2/,China/Region,"search trend;demand graph;media trend;audience attributes",LOGIN/MANUAL_OR_AUTHORIZED_PAID_API,DAILY,AUTHORIZED_API_AVAILABLE_FOR_SOME_FUNCTIONS,AUTH_OPTIONAL
+BAIDU_INDEX,百度指数,B,百度,https://index.baidu.com/v2/,China/Region,"search trend;demand graph;media trend;audience attributes",LOGIN_MANUAL,DAILY,"OFFICIAL_HELP_SAYS_NO_OPEN_API;NO_REVERSE_ENGINEERED_ENDPOINTS",NO_OPEN_API
 WEIBO_PUBLIC,微博公开趋势/搜索,C,微博,https://s.weibo.com,China/Region,"social salience;topics;public posts",PUBLIC_OR_LOGIN,WEEKLY/DAILY,TERMS_DEPENDENT,PLANNED_AUTHORIZED_ONLY
-WEIBO_CLI,微博开放平台CLI,B,微博开放平台,https://open.weibo.com/cli/index,China,"public search;hot trends;statistics;agent connector",AUTHORIZED_CLI,DAILY,AUTHORIZED_CONNECTOR,PLANNED_AUTH
+WEIBO_CLI,微博开放平台CLI,B,微博开放平台,https://open.weibo.com/cli/index,China,"public search;hot trends;statistics;agent connector",AUTHORIZED_CLI,DAILY,"OFFICIAL_CONNECTOR;AUTH_REQUIRED;JSON_OUTPUT",UNCONFIGURED_AUTH
+DOUYIN_OPENAPI,抖音开放平台OpenAPI,B,抖音开放平台,https://open.douyin.com,China/Region,"authorized behavior/content/POI/trend signals where approved by scope",OFFICIAL_OAUTH_OPENAPI,DAILY,"CLIENT_KEY_SECRET;OAUTH_OR_CLIENT_TOKEN;SCOPE_PERMISSION_REQUIRED",UNCONFIGURED_AUTH
 XHS_PUBLIC,小红书公开内容,C,小红书,https://www.xiaohongshu.com,China/Region,"local lifestyle;consumer language;service friction;experience trends",PUBLIC_OR_LOGIN,WEEKLY,TERMS_DEPENDENT,PLANNED_AUTHORIZED_ONLY
-DOUYIN_PUBLIC,抖音公开内容/开放平台,C,抖音,https://www.douyin.com,China/Region,"local life;content signals;merchant/service discovery",PUBLIC_OR_AUTHORIZED_API,WEEKLY,TERMS_DEPENDENT,PLANNED_AUTHORIZED_ONLY
+DOUYIN_PUBLIC,抖音公开内容,C,抖音,https://www.douyin.com,China/Region,"local life;content signals;merchant/service discovery",PUBLIC_OR_LOGIN,WEEKLY,TERMS_DEPENDENT,PLANNED_AUTHORIZED_ONLY
 ZHIHU_PUBLIC,知乎公开内容,C,知乎,https://www.zhihu.com,China,"long-form friction narratives;decision logic;failure cases",PUBLIC_OR_LOGIN,WEEKLY,TERMS_DEPENDENT,PLANNED_AUTHORIZED_ONLY
 ECPMI,中国物业管理协会,B,中国物业管理协会,https://www.ecpmi.org.cn,China,"property;community service;property+eldercare cases;industry mechanisms",HTML/MANUAL,MONTHLY,UNKNOWN,ACTIVE
 ONEWO,万物云公开信息,C,万物云,https://www.onewo.com,China,"property lifecycle services;repair;renovation;asset service;community operations",HTML/MANUAL,QUARTERLY,TERMS_DEPENDENT,CASE_ONLY
