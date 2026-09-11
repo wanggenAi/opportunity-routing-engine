@@ -54,6 +54,23 @@ jobs:
             --cid d0cb882c7f27443ab6b3ef9421901961 \
             --output .local/nbs_retail_catalog.json
 
+      - name: Fetch first pinned macro values
+        run: |
+          python scripts/collect_nbs.py values \
+            --page monthData \
+            --cid 5c7452825c7c4dcba391db5ca7f335c5 \
+            --indicator-id 53180dfb9c14411ba4b762307c85920c \
+            --period 202608 \
+            --output .local/nbs_cpi_202608.json
+          python scripts/collect_nbs.py values \
+            --page monthData \
+            --cid d0cb882c7f27443ab6b3ef9421901961 \
+            --indicator-id 1142a3a03e9045959e606a21822641ac \
+            --indicator-id aaac57d54d2e465d91bc9f3ea1a8618e \
+            --indicator-id e3ca151b53d347b78d1e179e5ebf1d33 \
+            --period 202608 \
+            --output .local/nbs_retail_202608.json
+
       - name: Show bounded discovery summary
         run: |
           python - <<'PY'
