@@ -16,7 +16,9 @@ on:
       - "src/xuzhou_agency_resource_feed.py"
       - "src/xuzhou_procurement_results.py"
       - "src/provider_evidence_seeds.py"
+      - "src/validation_queue.py"
       - "scripts/build_live_resource_imbalance.py"
+      - "scripts/build_pair_validation_queue.py"
       - "scripts/collect_regional.py"
       - "scripts/collect_resource_underuse.py"
       - "scripts/collect_xuzhou_procurement_results.py"
@@ -25,6 +27,7 @@ on:
       - "tests/test_live_imbalance_ledger.py"
       - "tests/test_xuzhou_procurement_results.py"
       - "tests/test_provider_evidence_seeds.py"
+      - "tests/test_validation_queue.py"
       - ".github/workflows/resource-imbalance-live.yml"
 
 permissions:
@@ -98,6 +101,12 @@ jobs:
             --resource-json .local/xz_agency_asset_underuse.json \
             --output .local/xz_resource_imbalance_ledger.json
 
+      - name: Build PAIR_HYPOTHESIS validation queue
+        run: |
+          python scripts/build_pair_validation_queue.py \
+            --ledger .local/xz_resource_imbalance_ledger.json \
+            --output .local/xz_pair_validation_queue.json
+
       - name: Assert canonical promotion gates
         run: |
           python - <<'PY'
@@ -109,12 +118,16 @@ jobs:
           seeded = json.loads(
               Path('.local/xz_seeded_procurement_awards.json').read_text(encoding='utf-8')
           )
+          queue = json.loads(
+              Path('.local/xz_pair_validation_queue.json').read_text(encoding='utf-8')
+          )
           print('source_input_counts:', data['source_input_counts'])
           print('signal_counts:', data['signal_counts'])
           print('status_counts:', data['status_counts'])
           print('blocking_reason_counts:', data['blocking_reason_counts'])
           print('verified_seed_count:', seeded['verified_seed_count'])
           print('seeded_award_count:', seeded['award_count'])
+          print('validation_queue_target_counts:', queue['target_counts'])
 
           if seeded['verified_seed_count'] < 1 or seeded['award_count'] < 1:
               raise SystemExit('navigation seeds produced no freshly verified official award evidence')
@@ -144,6 +157,25 @@ jobs:
                       raise SystemExit('historical award provider promoted beyond DISCOVERED')
                   if resource['underuse_evidence_state'] != 'UNKNOWN':
                       raise SystemExit('historical award provider manufactured underuse')
+
+          pair_count = data['status_counts'].get('PAIR_HYPOTHESIS', 0)
+          if queue['pair_hypothesis_count'] != pair_count:
+              raise SystemExit('validation queue pair count does not match canonical ledger')
+          if queue['queued_pair_count'] != pair_count:
+              raise SystemExit('not every PAIR_HYPOTHESIS is represented in validation queue')
+          allowed_targets = {
+              'PAYER_IDENTITY',
+              'PAID_NEED',
+              'RESOURCE_UNDERUSE',
+              'TRANSACTION_BLOCKER',
+          }
+          for task in queue['tasks']:
+              if task['target_gate'] not in allowed_targets:
+                  raise SystemExit('validation queue contains non-canonical target')
+              if task['state_effect'] != 'NONE_UNTIL_NEW_EVIDENCE_IS_INGESTED':
+                  raise SystemExit('validation planning task attempted to mutate truth state')
+          if pair_count and queue['task_count'] == 0:
+              raise SystemExit('PAIR_HYPOTHESIS exists but validation queue has no evidence tasks')
 
           # Zero ROUTE_TESTABLE is a valid empirical result. The workflow fails only
           # when truth gates are violated, not because reality produced no opportunity.
