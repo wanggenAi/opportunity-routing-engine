@@ -52,8 +52,12 @@ jobs:
           if data.get('unit') != 'USD_THOUSAND':
               raise SystemExit(f"unexpected unit: {data.get('unit')}")
           jiangsu = data.get('jiangsu_importer_exporter_location') or {}
-          if jiangsu.get('name', '').lower() != 'jiangsu' or jiangsu.get('total_ytd_usd_thousand') is None:
-              raise SystemExit(f"missing Jiangsu trade row: {jiangsu}")
+          if jiangsu.get('name', '').strip().lower() not in {'jiangsu', 'jiangsu province'}:
+              raise SystemExit(f"unexpected Jiangsu identity: {jiangsu.get('name')}")
+          if jiangsu.get('total_ytd_usd_thousand') is None:
+              raise SystemExit(f"missing Jiangsu trade level: {jiangsu}")
+          if jiangsu.get('total_basis') != 'DERIVED_EXPORT_PLUS_IMPORT':
+              raise SystemExit(f"unexpected Jiangsu total basis: {jiangsu.get('total_basis')}")
           if not data.get('xuzhou_importer_exporter_location') and not data.get('xuzhou_specific_areas'):
               raise SystemExit('no explicit Xuzhou trade evidence')
           for key in ('discovery', 'table_8_provenance', 'table_11_provenance'):
@@ -63,6 +67,7 @@ jobs:
                   raise SystemExit(f"invalid official HTTP provenance for {key}: {meta}")
           required = {
               'PLAINTEXT_HTTP_REQUIRES_CORROBORATION',
+              'TABLE8_TOTAL_DERIVED_ONLY_FROM_COMPLETE_EXPORT_IMPORT',
               'IMPORTER_EXPORTER_LOCATION_IS_NOT_DOMESTIC_ORIGIN_DESTINATION',
               'SPECIFIC_AREA_IS_NOT_WHOLE_XUZHOU',
               'NO_CROSS_TABLE_SUM',
