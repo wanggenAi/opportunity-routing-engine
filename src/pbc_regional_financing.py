@@ -1,14 +1,15 @@
 """PBC regional social-financing XLSX adapter.
 
 The PBC statistics interpretation index publishes regional AFRE flow tables as
-official XLSX attachments.  This adapter discovers the newest table from the same
+official XLSX attachments. This adapter discovers the newest table from the same
 fixed official index used by the national money-flow adapter, follows only the
 official detail page, then parses the attachment without third-party spreadsheet
 libraries.
 
-The first numeric cell to the right of a province label is treated as the province's
-regional social-financing flow only when nearby header text contains the expected
-regional/social-financing semantics.  Ambiguous layouts fail closed.
+A regional value is accepted only under an official-table semantic gate. Workbook
+header text is preferred; if merged-cell layout hides that text from ordinary cell
+iteration, the exact official detail-page title may provide the semantic lock.
+Ambiguous source identity still fails closed.
 """
 
 from __future__ import annotations
@@ -52,15 +53,24 @@ def _normalized_text(value: Any) -> str:
     return re.sub(r"\s+", "", str(value or ""))
 
 
-def extract_region_total(rows: list[list[Any]], *, region: str) -> dict[str, Any]:
-    """Extract the regional AFRE total while retaining the full source row."""
+def extract_region_total(
+    rows: list[list[Any]],
+    *,
+    region: str,
+    expected_table_title: str | None = None,
+) -> dict[str, Any]:
+    """Extract regional AFRE total while retaining source row/header evidence."""
+    title_semantics = bool(
+        expected_table_title and _REGIONAL_TITLE_RE.match(expected_table_title.strip())
+    )
+
     for row_index, row in enumerate(rows):
         for col_index, cell in enumerate(row):
             label = _normalized_text(cell)
             if region not in label:
                 continue
 
-            header_start = max(0, row_index - 12)
+            header_start = max(0, row_index - 20)
             header_rows = rows[header_start:row_index]
             header_text = " ".join(
                 _normalized_text(value)
@@ -68,8 +78,11 @@ def extract_region_total(rows: list[list[Any]], *, region: str) -> dict[str, Any
                 for value in header
                 if value is not None
             )
-            if "社会融资" not in header_text or "增量" not in header_text:
-                raise ValueError("regional XLSX header semantics not recognized")
+            header_semantics = "社会融资" in header_text and "增量" in header_text
+            if not header_semantics and not title_semantics:
+                raise ValueError(
+                    "regional XLSX semantics not recognized from workbook headers or official detail title"
+                )
 
             total_col = None
             total_value = None
@@ -101,6 +114,9 @@ def extract_region_total(rows: list[list[Any]], *, region: str) -> dict[str, Any
                 "total_column_1based": total_col + 1,
                 "social_financing_flow_100m_cny": total_value,
                 "social_financing_flow_trillion_cny": total_value / 10_000.0,
+                "semantic_gate": (
+                    "WORKBOOK_HEADER" if header_semantics else "OFFICIAL_DETAIL_TITLE_FALLBACK"
+                ),
                 "row_values": row,
                 "header_context": header_rows,
             }
@@ -142,7 +158,11 @@ class PbcRegionalFinancingAdapter:
 
         xlsx_env = self.xlsx_client.fetch(attachment_url, request_name="pbc-regional-table-xlsx")
         rows = parse_first_sheet_rows(xlsx_env.payload)
-        region_result = extract_region_total(rows, region=region)
+        region_result = extract_region_total(
+            rows,
+            region=region,
+            expected_table_title=discovered["title"],
+        )
 
         return {
             "source_id": SOURCE_ID,
@@ -159,6 +179,8 @@ class PbcRegionalFinancingAdapter:
             },
             "truth_note": (
                 "The region total is extracted from the newest official PBC regional AFRE XLSX. "
-                "The complete matched row and nearby header context are retained for audit; ambiguous layouts fail closed."
+                "Workbook headers are preferred for semantic confirmation; merged-cell layouts may "
+                "fall back only to the exact official PBC detail-page title. The complete matched row "
+                "and nearby header context are retained for audit."
             ),
         }
