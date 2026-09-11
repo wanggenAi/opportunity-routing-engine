@@ -11,6 +11,7 @@ Truth boundaries:
 - plaintext official HTTP is lower-trust and requires corroboration;
 - importer/exporter-location trade != domestic origin/destination trade;
 - a specific customs area != the whole Xuzhou economy;
+- table 8 total values are derived only when both export and import values exist;
 - specific-area rows are not summed into city/province totals here;
 - trade flow != unmet need, surplus resource, transaction blocker, or opportunity;
 - missing/blank values stay unknown and are never zero-filled.
@@ -226,6 +227,12 @@ def _number(value: str) -> float | None:
     return float(value.replace(",", ""))
 
 
+def _sum_if_complete(left: float | None, right: float | None) -> float | None:
+    if left is None or right is None:
+        return None
+    return left + right
+
+
 @dataclass(frozen=True)
 class TradeRow:
     name: str
@@ -238,30 +245,55 @@ class TradeRow:
     total_yoy_percent: float | None
     exports_yoy_percent: float | None
     imports_yoy_percent: float | None
+    total_basis: str
 
 
-def _trade_row(cells: list[dict[str, Any]]) -> TradeRow | None:
+def _table8_trade_row(cells: list[dict[str, Any]]) -> TradeRow | None:
+    """Parse real GACC table 8 schema: exports, imports, then two YoY columns."""
     if len(cells) < 7:
         return None
     name = normalize_whitespace(cells[0]["text"])
-    if not name:
+    values = [_number(cell["text"]) for cell in cells[1:7]]
+    if not name or sum(v is not None for v in values[:4]) < 2:
         return None
-    values = [_number(cell["text"]) for cell in cells[1:]]
-    if sum(v is not None for v in values[:6]) < 4:
-        return None
-    padded = values + [None] * 9
+    exports_month, exports_ytd, imports_month, imports_ytd, exports_yoy, imports_yoy = values
     return TradeRow(
         name=name,
-        total_month_usd_thousand=padded[0],
-        total_ytd_usd_thousand=padded[1],
-        exports_month_usd_thousand=padded[2],
-        exports_ytd_usd_thousand=padded[3],
-        imports_month_usd_thousand=padded[4],
-        imports_ytd_usd_thousand=padded[5],
-        total_yoy_percent=padded[6],
-        exports_yoy_percent=padded[7],
-        imports_yoy_percent=padded[8],
+        total_month_usd_thousand=_sum_if_complete(exports_month, imports_month),
+        total_ytd_usd_thousand=_sum_if_complete(exports_ytd, imports_ytd),
+        exports_month_usd_thousand=exports_month,
+        exports_ytd_usd_thousand=exports_ytd,
+        imports_month_usd_thousand=imports_month,
+        imports_ytd_usd_thousand=imports_ytd,
+        total_yoy_percent=None,
+        exports_yoy_percent=exports_yoy,
+        imports_yoy_percent=imports_yoy,
+        total_basis="DERIVED_EXPORT_PLUS_IMPORT",
     )
+
+
+def _table11_trade_row(cells: list[dict[str, Any]]) -> TradeRow | None:
+    """Parse real GACC table 11 schema with explicit total/export/import columns."""
+    if len(cells) < 10:
+        return None
+    name = normalize_whitespace(cells[0]["text"])
+    values = [_number(cell["text"]) for cell in cells[1:10]]
+    if not name or sum(v is not None for v in values[:6]) < 4:
+        return None
+    row = TradeRow(
+        name=name,
+        total_month_usd_thousand=values[0],
+        total_ytd_usd_thousand=values[1],
+        exports_month_usd_thousand=values[2],
+        exports_ytd_usd_thousand=values[3],
+        imports_month_usd_thousand=values[4],
+        imports_ytd_usd_thousand=values[5],
+        total_yoy_percent=values[6],
+        exports_yoy_percent=values[7],
+        imports_yoy_percent=values[8],
+        total_basis="EXPLICIT_GACC",
+    )
+    return row if _row_consistent(row) else None
 
 
 def _row_consistent(row: TradeRow) -> bool:
@@ -342,15 +374,16 @@ class GaccTradeFlowAdapter:
             raise ValueError(f"no valid GACC table {table_number} detail publication found")
         return best
 
-    def _rows_from_detail(self, detail: dict[str, Any]) -> list[TradeRow]:
+    def _rows_from_detail(self, detail: dict[str, Any], *, table_number: int) -> list[TradeRow]:
         html = detail["html"]
         text = normalize_whitespace(re.sub(r"<[^>]+>", " ", html))
         if not re.search(r"Unit\s*:\s*US\$\s*1,?000", text, flags=re.IGNORECASE):
             raise ValueError("GACC trade table unit is not explicit US$1,000")
+        parser = _table8_trade_row if table_number == 8 else _table11_trade_row
         parsed: list[TradeRow] = []
         for cells in parse_html_tables(html, base_url=detail["url"]):
-            row = _trade_row(cells)
-            if row is not None and _row_consistent(row):
+            row = parser(cells)
+            if row is not None:
                 parsed.append(row)
         return parsed
 
@@ -363,13 +396,14 @@ class GaccTradeFlowAdapter:
         if discovery["selected_year"] is not None and location["period_year"] != discovery["selected_year"]:
             raise ValueError("GACC selected bulletin year conflicts with discovered detail year")
 
-        location_rows = self._rows_from_detail(location)
-        area_rows = self._rows_from_detail(areas)
+        location_rows = self._rows_from_detail(location, table_number=8)
+        area_rows = self._rows_from_detail(areas, table_number=11)
         jiangsu = next((row for row in location_rows if row.name.strip().lower() == "jiangsu"), None)
         xuzhou_location = next((row for row in location_rows if row.name.strip().lower() == "xuzhou"), None)
         xuzhou_areas = [row for row in area_rows if "xuzhou" in row.name.lower()]
         if jiangsu is None:
-            raise ValueError("Jiangsu row missing from GACC importer/exporter-location table")
+            names = [row.name for row in location_rows[:80]]
+            raise ValueError(f"Jiangsu row missing from GACC importer/exporter-location table; parsed names={names}")
         if not xuzhou_areas and xuzhou_location is None:
             raise ValueError("no explicit Xuzhou row found in current GACC location/specific-area tables")
 
@@ -389,6 +423,7 @@ class GaccTradeFlowAdapter:
             "table_11_provenance": areas["provenance"],
             "truth_boundaries": [
                 "PLAINTEXT_HTTP_REQUIRES_CORROBORATION",
+                "TABLE8_TOTAL_DERIVED_ONLY_FROM_COMPLETE_EXPORT_IMPORT",
                 "IMPORTER_EXPORTER_LOCATION_IS_NOT_DOMESTIC_ORIGIN_DESTINATION",
                 "SPECIFIC_AREA_IS_NOT_WHOLE_XUZHOU",
                 "NO_CROSS_TABLE_SUM",
