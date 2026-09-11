@@ -11,6 +11,7 @@ on:
       - "src/resource_underuse_adapters.py"
       - "src/xuzhou_agency_resource_feed.py"
       - "scripts/collect_resource_underuse.py"
+      - "scripts/probe_xuzhou_agency_page.py"
       - ".github/workflows/resource-underuse-live.yml"
 
 permissions:
@@ -36,12 +37,24 @@ jobs:
             --require-listings \
             --output .local/xz_public_asset_underuse.json
 
+      - name: Probe public Xuzhou agency-list structure
+        run: |
+          python scripts/probe_xuzhou_agency_page.py
+
       - name: Collect Xuzhou agency listings through official Jiangsu mirror
         run: |
           python scripts/collect_resource_underuse.py xuzhou-agency-assets \
             --limit 20 \
-            --require-listings \
             --output .local/xz_agency_asset_underuse.json
+
+      - name: Upload resource-underuse evidence artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: xuzhou-resource-underuse-evidence
+          path: .local/*.json
+          retention-days: 14
+          if-no-files-found: error
+          include-hidden-files: true
 
       - name: Validate truth-preserving resource evidence
         run: |
@@ -65,6 +78,9 @@ jobs:
                   print('skipped:', data['skipped_count'])
 
               if data['listing_count'] < 1:
+                  if path.name == 'xz_agency_asset_underuse.json':
+                      probe = json.loads(Path('.local/xz_agency_page_probe.json').read_text(encoding='utf-8'))
+                      print('agency structural probe:', json.dumps(probe, ensure_ascii=False, indent=2)[:12000])
                   raise SystemExit(f'no resource listing parsed: {path}')
 
               for item in data['listings']:
@@ -77,12 +93,3 @@ jobs:
                   if path.name == 'xz_agency_asset_underuse.json' and not item['source_origin_verified']:
                       raise SystemExit('agency mirror evidence must be verified as Xuzhou-origin')
           PY
-
-      - name: Upload resource-underuse evidence artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: xuzhou-resource-underuse-evidence
-          path: .local/*.json
-          retention-days: 14
-          if-no-files-found: error
-          include-hidden-files: true
