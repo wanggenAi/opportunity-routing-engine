@@ -12,6 +12,8 @@ Important boundaries:
   source-specific adapter proves the payer separately;
 - a public asset listing is DISCOVERED resource evidence; explicit idle/vacant
   language may raise underuse to OBSERVED through the existing source adapter;
+- a procurement award proves historical capability of a named supplier, but not its
+  current availability, underuse, optionability, or willingness to accept a new task;
 - repeated listing is allocation friction, not automatically a canonical blocker;
 - no BlockerSignal is manufactured from generic relisting or narrative similarity;
 - ROUTE_TESTABLE can only be emitted by the canonical Resource Imbalance Engine.
@@ -214,6 +216,15 @@ def _valid_owner_actor(value: object) -> str | None:
     return owner
 
 
+def _valid_provider_actor(value: object) -> str | None:
+    provider = str(value or "").strip()
+    if not provider or len(provider) > 320:
+        return None
+    if any(marker in provider for marker in _INVALID_OWNER_MARKERS):
+        return None
+    return provider
+
+
 def procurement_event_to_live_need(
     event: Mapping[str, Any],
     *,
@@ -311,6 +322,76 @@ def public_listing_to_live_resource(
     return signal, None
 
 
+def procurement_award_to_capability_resource(
+    award: Mapping[str, Any],
+    *,
+    ordinal: int,
+    geography: str = "Xuzhou",
+) -> tuple[ResourceSignal | None, dict[str, Any] | None]:
+    """Turn one historical procurement award into capability proof only.
+
+    A supplier that won a real procurement result is DISCOVERED as a capability
+    provider. Historical success does not prove present spare capacity or underuse,
+    so the signal deliberately remains ``underuse_evidence_state=UNKNOWN``.
+    """
+
+    classification = classify_procurement_event(award)
+    if classification.capability_key is None:
+        return None, _unbound(
+            side="RESOURCE",
+            item=award,
+            reason=classification.reason,
+            matched_rule=classification.matched_rule,
+        )
+
+    provider = _valid_provider_actor(award.get("supplier_name"))
+    if not provider:
+        return None, _unbound(
+            side="RESOURCE",
+            item=award,
+            reason="CAPABILITY_PROVIDER_UNRESOLVED_OR_INVALID",
+            matched_rule=classification.matched_rule,
+        )
+
+    source_id = str(
+        award.get("source_id") or "XZ_GGZY_PROCUREMENT_RESULT"
+    ).strip()
+    project_identity = str(
+        award.get("project_id") or award.get("url") or "UNKNOWN_PROJECT"
+    ).strip()
+    provider_identity = str(
+        award.get("supplier_credit_code") or provider or ordinal
+    ).strip()
+    amount = str(award.get("award_amount_rmb") or "").strip()
+    notes = [
+        f"classification_rule={classification.matched_rule}",
+        "historical public procurement award proves demonstrated capability",
+        "award does not prove current availability, underuse, optionability, or willingness",
+    ]
+    if amount:
+        notes.append(f"historical_award_amount_rmb={amount}")
+    buyer = str(award.get("buyer_actor") or "").strip()
+    if buyer:
+        notes.append(f"historical_buyer={buyer}")
+
+    signal = ResourceSignal(
+        signal_id=(
+            f"LIVE_PROVIDER::{source_id}::{project_identity}::{provider_identity}::{ordinal}"
+        ),
+        capability_key=classification.capability_key,
+        geography=geography,
+        provider_actor=provider,
+        resource_state="DISCOVERED",
+        underuse_evidence_state="UNKNOWN",
+        available_units=None,
+        observation_period=str(award.get("publication_date") or "").strip() or None,
+        source_ids=_source_refs(award),
+        notes="; ".join(notes),
+    )
+    validate_resource(signal)
+    return signal, None
+
+
 def _sorted_records(records: Iterable[Any]) -> list[Any]:
     return sorted(
         records,
@@ -328,6 +409,7 @@ def build_live_imbalance_ledger(
     resource_payloads: Iterable[Mapping[str, Any]] = (),
     blockers: Iterable[BlockerSignal] = (),
     *,
+    provider_payloads: Iterable[Mapping[str, Any]] = (),
     geography: str = "Xuzhou",
     max_pairs_per_need: int = 5,
 ) -> dict[str, Any]:
@@ -369,6 +451,21 @@ def build_live_imbalance_ledger(
             if rejected is not None:
                 unbound.append(rejected)
 
+    award_count = 0
+    for payload in provider_payloads:
+        awards = list(payload.get("awards", []) or [])
+        for award in awards:
+            award_count += 1
+            signal, rejected = procurement_award_to_capability_resource(
+                award,
+                ordinal=award_count,
+                geography=geography,
+            )
+            if signal is not None:
+                resources.append(signal)
+            if rejected is not None:
+                unbound.append(rejected)
+
     blocker_list = list(blockers)
     records = _sorted_records(
         scan_imbalances(
@@ -391,6 +488,7 @@ def build_live_imbalance_ledger(
         "source_input_counts": {
             "procurement_events": len(events),
             "resource_listings": listing_count,
+            "provider_awards": award_count,
             "blockers": len(blocker_list),
         },
         "signal_counts": {
@@ -416,6 +514,7 @@ def build_live_imbalance_ledger(
             "Capability classification is a deterministic exact allowlist; ambiguous/unclassified evidence remains unbound.",
             "Published procurement budget is not completed payment; current procurement normalization remains OBSERVED with payer unresolved.",
             "Public listing proves DISCOVERED resource only; explicit idle/vacant source text is required for OBSERVED underuse.",
+            "Procurement award results prove historical provider capability only; current availability and underuse remain UNKNOWN.",
             "Resource owners that parse as platform disclaimer/legal boilerplate are rejected instead of promoted.",
             "Relisting is allocation friction only and does not manufacture a BlockerSignal.",
             "ROUTE_TESTABLE is emitted only by the canonical Resource Imbalance Engine gates.",
