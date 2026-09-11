@@ -2,11 +2,11 @@
 
 The collector reads the public Jiangsu Government ``地方动态`` column, follows
 only the pagination chain that the official page itself exposes, and then opens
-Xuzhou-titled official detail pages.  Evidence is emitted only when a detail
+Xuzhou-titled official detail pages. Evidence is emitted only when a detail
 page sourced from ``徐州市政府办公室`` contains an explicit financing-demand
 amount.
 
-This feed is intentionally *not* a citywide financing-demand total.  It captures
+This feed is intentionally *not* a citywide financing-demand total. It captures
 reported program/batch evidence such as a financing campaign's surveyed demand.
 SME/general-enterprise scope is never relabeled as private-enterprise scope.
 """
@@ -133,7 +133,11 @@ def _proxy_page_url(proxy_url: str, page: int) -> str:
 
 def _sentence_with_match(text: str, start: int, end: int) -> str:
     left = max(text.rfind("。", 0, start), text.rfind("\n", 0, start), text.rfind("；", 0, start))
-    right_candidates = [pos for pos in (text.find("。", end), text.find("\n", end), text.find("；", end)) if pos >= 0]
+    right_candidates = [
+        pos
+        for pos in (text.find("。", end), text.find("\n", end), text.find("；", end))
+        if pos >= 0
+    ]
     right = min(right_candidates) if right_candidates else len(text)
     return normalize_whitespace(text[left + 1 : right + 1])
 
@@ -246,6 +250,13 @@ class XuzhouEnterpriseFundingDemandAdapter:
             timeout_seconds=25,
             retries=1,
             max_response_bytes=3_000_000,
+            accepted_content_types={
+                "text/html",
+                "application/xhtml+xml",
+                "text/plain",
+                "text/xml",
+                "application/xml",
+            },
         )
         self.lookback_days = lookback_days
         self.max_pages = max_pages
@@ -266,7 +277,10 @@ class XuzhouEnterpriseFundingDemandAdapter:
         page = 1
         while oldest >= cutoff and page <= self.max_pages:
             page_url = _proxy_page_url(proxy["url"], page)
-            env = self.client.fetch(page_url, request_name=f"xz_funding_demand.list.page_{page}")
+            env = self.client.fetch(
+                page_url,
+                request_name=f"xz_funding_demand.list.page_{page}",
+            )
             page_provenance.append(env.metadata())
             pages_fetched += 1
             batch = parse_local_dynamics_records(env.html, base_url=INDEX_URL)
@@ -278,19 +292,29 @@ class XuzhouEnterpriseFundingDemandAdapter:
                     seen_urls.add(row["url"])
                     records.append(row)
                     added += 1
-            oldest = min(oldest, *(date.fromisoformat(row["publication_date"]) for row in batch))
+            oldest = min(
+                oldest,
+                *(date.fromisoformat(row["publication_date"]) for row in batch),
+            )
             page += 1
             if added == 0 and page > 2:
                 break
 
-        in_window = [row for row in records if date.fromisoformat(row["publication_date"]) >= cutoff]
+        in_window = [
+            row
+            for row in records
+            if date.fromisoformat(row["publication_date"]) >= cutoff
+        ]
         candidates = [row for row in in_window if "徐州" in row["title"]]
         events: list[dict[str, Any]] = []
         detail_provenance: list[dict[str, Any]] = []
         errors: list[dict[str, str]] = []
         for row in candidates:
             try:
-                env = self.client.fetch(row["url"], request_name="xz_funding_demand.detail")
+                env = self.client.fetch(
+                    row["url"],
+                    request_name="xz_funding_demand.detail",
+                )
                 detail_provenance.append(env.metadata())
                 event = extract_funding_demand_event(
                     title=row["title"],
@@ -301,9 +325,18 @@ class XuzhouEnterpriseFundingDemandAdapter:
                 if event:
                     events.append(event)
             except Exception as exc:
-                errors.append({"url": row["url"], "error_type": type(exc).__name__, "error": str(exc)})
+                errors.append(
+                    {
+                        "url": row["url"],
+                        "error_type": type(exc).__name__,
+                        "error": str(exc),
+                    }
+                )
 
-        events.sort(key=lambda item: (item["publication_date"], item["source_url"]), reverse=True)
+        events.sort(
+            key=lambda item: (item["publication_date"], item["source_url"]),
+            reverse=True,
+        )
         latest_date = events[0]["publication_date"] if events else None
         return {
             "source_id": SOURCE_ID,
