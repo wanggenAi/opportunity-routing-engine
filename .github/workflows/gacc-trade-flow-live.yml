@@ -1,0 +1,120 @@
+name: gacc-trade-flow-live
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "src/gacc_trade_flow.py"
+      - "src/gacc_trade_corroboration.py"
+      - "tests/test_gacc_trade_flow.py"
+      - "tests/test_gacc_trade_corroboration.py"
+      - "scripts/collect_gacc_trade_flow.py"
+      - ".github/workflows/gacc-trade-flow-live.yml"
+      - "data/source_registry.csv"
+  schedule:
+    - cron: "27 3 * * 2,5"
+
+permissions:
+  contents: read
+
+jobs:
+  collect-gacc-trade-flow:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Collect current official GACC trade-flow evidence
+        run: python scripts/collect_gacc_trade_flow.py --output .local/gacc_trade_flow.json
+      - name: Validate GACC trade-flow evidence contract
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import date
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          data = json.loads(Path('.local/gacc_trade_flow.json').read_text(encoding='utf-8'))
+          if data.get('source_id') != 'CN_CUSTOMS':
+              raise SystemExit(f"unexpected source: {data.get('source_id')}")
+          if data.get('evidence_kind') != 'CUSTOMS_TRADE_FLOW':
+              raise SystemExit(f"unexpected evidence kind: {data.get('evidence_kind')}")
+          if data.get('transport_security') != 'PLAINTEXT_HTTP' or data.get('corroboration_required') is not True:
+              raise SystemExit('GACC plaintext transport must remain explicitly lower-trust and corroboration-required')
+
+          status = data.get('corroboration_status')
+          if status not in {'PERIOD_IDENTITY_DIRECTION_CORROBORATED', 'PENDING'}:
+              raise SystemExit(f"unexpected corroboration status: {status}")
+          corr = data.get('corroboration') or {}
+          if status == 'PERIOD_IDENTITY_DIRECTION_CORROBORATED':
+              if corr.get('source_id') != 'JS_GOV' or corr.get('period') != data.get('period'):
+                  raise SystemExit(f"invalid same-period corroboration identity: {corr}")
+              if corr.get('basis') != 'PERIOD_IDENTITY_DIRECTION_ONLY':
+                  raise SystemExit(f"invalid corroboration basis: {corr}")
+              if corr.get('monetary_value_comparison') != 'UNAVAILABLE_CROSS_CURRENCY':
+                  raise SystemExit('cross-currency monetary values must not be treated as directly corroborated')
+              meta = corr.get('provenance') or {}
+              parsed = urlparse(meta.get('url', ''))
+              if parsed.scheme != 'https' or parsed.hostname != 'jszwb.jiangsu.gov.cn' or not meta.get('payload_sha256'):
+                  raise SystemExit(f"invalid Jiangsu HTTPS corroboration provenance: {meta}")
+          else:
+              if corr.get('status') != 'NO_SAME_PERIOD_HTTPS_CORROBORATION':
+                  raise SystemExit(f"pending corroboration must explain same-period gap: {corr}")
+              if corr.get('known_corroboration_period') == data.get('period'):
+                  raise SystemExit('same-period corroboration cannot remain pending')
+
+          year, month = map(int, data['period'].split('-'))
+          age_months = (date.today().year - year) * 12 + date.today().month - month
+          if age_months < 0 or age_months > 4:
+              raise SystemExit(f"GACC trade evidence stale/future: {data['period']}")
+          if data.get('unit') != 'USD_THOUSAND':
+              raise SystemExit(f"unexpected unit: {data.get('unit')}")
+          jiangsu = data.get('jiangsu_importer_exporter_location') or {}
+          if jiangsu.get('name', '').strip().lower() not in {'jiangsu', 'jiangsu province'}:
+              raise SystemExit(f"unexpected Jiangsu identity: {jiangsu.get('name')}")
+          if jiangsu.get('total_ytd_usd_thousand') is None:
+              raise SystemExit(f"missing Jiangsu trade level: {jiangsu}")
+          if jiangsu.get('total_basis') != 'DERIVED_EXPORT_PLUS_IMPORT':
+              raise SystemExit(f"unexpected Jiangsu total basis: {jiangsu.get('total_basis')}")
+          if not data.get('xuzhou_importer_exporter_location') and not data.get('xuzhou_specific_areas'):
+              raise SystemExit('no explicit Xuzhou trade evidence')
+          for key in ('discovery', 'table_8_provenance', 'table_11_provenance'):
+              meta = data[key]['provenance'] if key == 'discovery' else data[key]
+              parsed = urlparse(meta['url'])
+              if parsed.scheme != 'http' or parsed.hostname != 'english.customs.gov.cn' or not meta.get('payload_sha256'):
+                  raise SystemExit(f"invalid official HTTP provenance for {key}: {meta}")
+          required = {
+              'PLAINTEXT_HTTP_REQUIRES_CORROBORATION',
+              'TABLE8_TOTAL_DERIVED_ONLY_FROM_COMPLETE_EXPORT_IMPORT',
+              'IMPORTER_EXPORTER_LOCATION_IS_NOT_DOMESTIC_ORIGIN_DESTINATION',
+              'SPECIFIC_AREA_IS_NOT_WHOLE_XUZHOU',
+              'NO_CROSS_TABLE_SUM',
+              'MISSING_STAYS_UNKNOWN',
+              'TRADE_FLOW_IS_NOT_UNMET_NEED',
+              'TRADE_FLOW_IS_NOT_SURPLUS_RESOURCE',
+              'NO_TRANSACTION_BLOCKER_INFERENCE',
+              'NO_OPPORTUNITY_INFERENCE',
+          }
+          missing = sorted(required - set(data.get('truth_boundaries', [])))
+          if missing:
+              raise SystemExit(f"missing truth boundaries: {missing}")
+          print('period=', data['period'])
+          print('transport_security=', data['transport_security'])
+          print('corroboration_status=', status)
+          print('corroboration=', json.dumps(corr, ensure_ascii=False, sort_keys=True))
+          print('jiangsu=', json.dumps(jiangsu, ensure_ascii=False, sort_keys=True))
+          print('xuzhou_location=', json.dumps(data.get('xuzhou_importer_exporter_location'), ensure_ascii=False, sort_keys=True))
+          print('xuzhou_specific_areas=', json.dumps(data.get('xuzhou_specific_areas'), ensure_ascii=False, sort_keys=True))
+          PY
+      - name: Upload GACC trade-flow evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: gacc-trade-flow-evidence
+          path: .local/gacc_trade_flow.json
+          retention-days: 14
+          if-no-files-found: error
+          include-hidden-files: true
