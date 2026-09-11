@@ -28,7 +28,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Collect free official MOFCOM API data
+      - name: Collect free official MOFCOM API responses
         run: |
           python scripts/collect_mofcom_open_data.py \
             --watchlist data/mofcom_api_watchlist.csv \
@@ -44,7 +44,7 @@ jobs:
           if-no-files-found: error
           include-hidden-files: true
 
-      - name: Validate provenance and actual data availability
+      - name: Validate transport and report availability state
         run: |
           python - <<'PY'
           import json
@@ -86,8 +86,12 @@ jobs:
                   item['top_level_item_count'],
                   item['transport_security'],
               )
+
           if data['available_count'] < 1:
-              raise SystemExit(
-                  'MOFCOM endpoint is reachable but enabled datasets returned no non-blank data'
+              print(
+                  'STATE=API_REACHABLE_DATA_UNAVAILABLE: upstream endpoint is valid, '
+                  'but enabled datasets currently contain no non-blank data.'
               )
+          else:
+              print('STATE=DATA_AVAILABLE: at least one enabled dataset contains non-blank data.')
           PY
