@@ -15,12 +15,16 @@ on:
       - "src/resource_underuse_adapters.py"
       - "src/xuzhou_agency_resource_feed.py"
       - "src/xuzhou_procurement_results.py"
+      - "src/provider_evidence_seeds.py"
       - "scripts/build_live_resource_imbalance.py"
       - "scripts/collect_regional.py"
       - "scripts/collect_resource_underuse.py"
       - "scripts/collect_xuzhou_procurement_results.py"
+      - "scripts/verify_xuzhou_procurement_result_seeds.py"
+      - "data/xuzhou_procurement_result_seeds.csv"
       - "tests/test_live_imbalance_ledger.py"
       - "tests/test_xuzhou_procurement_results.py"
+      - "tests/test_provider_evidence_seeds.py"
       - ".github/workflows/resource-imbalance-live.yml"
 
 permissions:
@@ -62,6 +66,16 @@ jobs:
             --require-awards \
             --output .local/xz_procurement_awards.json
 
+      - name: Verify research-seeded official procurement results
+        run: |
+          # Seed rows are navigation hints only. The verifier re-fetches each official
+          # Xuzhou detail page and requires exact capability agreement before emitting
+          # any supplier award evidence.
+          python scripts/verify_xuzhou_procurement_result_seeds.py \
+            --seeds data/xuzhou_procurement_result_seeds.csv \
+            --require-verified \
+            --output .local/xz_seeded_procurement_awards.json
+
       - name: Collect native Xuzhou resource evidence
         run: |
           python scripts/collect_resource_underuse.py xuzhou-public-assets \
@@ -79,6 +93,7 @@ jobs:
           python scripts/build_live_resource_imbalance.py \
             --procurement-json .local/xz_procurement_events.json \
             --provider-json .local/xz_procurement_awards.json \
+            --provider-json .local/xz_seeded_procurement_awards.json \
             --resource-json .local/xz_public_asset_underuse.json \
             --resource-json .local/xz_agency_asset_underuse.json \
             --output .local/xz_resource_imbalance_ledger.json
@@ -91,10 +106,18 @@ jobs:
 
           path = Path('.local/xz_resource_imbalance_ledger.json')
           data = json.loads(path.read_text(encoding='utf-8'))
+          seeded = json.loads(
+              Path('.local/xz_seeded_procurement_awards.json').read_text(encoding='utf-8')
+          )
           print('source_input_counts:', data['source_input_counts'])
           print('signal_counts:', data['signal_counts'])
           print('status_counts:', data['status_counts'])
           print('blocking_reason_counts:', data['blocking_reason_counts'])
+          print('verified_seed_count:', seeded['verified_seed_count'])
+          print('seeded_award_count:', seeded['award_count'])
+
+          if seeded['verified_seed_count'] < 1 or seeded['award_count'] < 1:
+              raise SystemExit('navigation seeds produced no freshly verified official award evidence')
 
           route_records = data['route_testable_records']
           if data['route_testable_count'] != len(route_records):
@@ -112,8 +135,9 @@ jobs:
               if record['blocker_evidence_state'] not in ('OBSERVED', 'MEASURED'):
                   raise SystemExit('ROUTE_TESTABLE without observed blocker')
 
-          # Historical award providers may create PAIR_HYPOTHESIS but must never
-          # satisfy underuse/availability by themselves.
+          # Historical award providers, including research-seeded official-detail
+          # verification, may create PAIR_HYPOTHESIS but must never satisfy current
+          # underuse/availability by themselves.
           for resource in data['signals']['resources']:
               if resource['signal_id'].startswith('LIVE_PROVIDER::'):
                   if resource['resource_state'] != 'DISCOVERED':
