@@ -1,4 +1,4 @@
 seed_id,url,expected_capability_key,discovered_via,note
-XZ_SEED_PUMP_MAINT_20260909,https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004006/20260909/00d7b76b-b26d-47f1-bc2e-00c7a8f7cb0d.html,WATER_PUMP_STATION_MAINTENANCE,public_web_research,Navigation seed only; official detail must be fetched and reclassified before use
+XZ_SEED_PUMP_MAINT_20260909,https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004006/20260909/5acf2119-a427-4fd4-bb0b-8e947e811c93.html,WATER_PUMP_STATION_MAINTENANCE,public_web_research,Navigation seed only; official detail must be fetched and reclassified before use
 XZ_SEED_FINANCE_IT_20260901,https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004006/20260901/6372d6e3-9ee9-4c10-b855-c210c30ee692.html,FINANCE_DIGITAL_IT_SERVICE,public_web_research,Navigation seed only; official detail must be fetched and reclassified before use
 XZ_SEED_DRAINAGE_20260908,https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004006/20260908/72ac9497-8358-4333-a585-faf0c5ae26a2.html,DRAINAGE_NETWORK_MAINTENANCE,public_web_research,Navigation seed only; official detail must be fetched and reclassified before use
