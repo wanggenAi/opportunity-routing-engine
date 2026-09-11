@@ -10,6 +10,8 @@ Current modules:
 - `psychology_tracker.py` — evidence-weighted aggregate psychology/behavior signals; social salience is never converted into population share.
 - `network_ingest.py` — provenance-safe HTTPS/JSON ingestion core with host allowlists, retries, response-size limits, payload hashes, atomic writes and explicit rejection of HTML/challenge responses.
 - `nbs_adapter.py` — live adapter for the 2026 National Bureau of Statistics `国家数据` public-release API: catalog tree, indicators, time metadata and value retrieval.
+- `regional_adapters.py` — Jiangsu Statistics and Xuzhou public-procurement evidence adapters.
+- `resource_imbalance.py` — evidence-gated need/resource/blocker pairing. It emits only `NEED_ONLY`, `RESOURCE_ONLY`, `PAIR_HYPOTHESIS`, or `ROUTE_TESTABLE`; one-sided evidence cannot become an opportunity claim.
 
 CLI:
 
@@ -17,15 +19,26 @@ CLI:
 python scripts/collect_nbs.py probe
 python scripts/collect_nbs.py discover --page monthData --keyword 居民消费价格
 python scripts/collect_nbs.py values --page monthData --cid <cid> --indicator-id <indicator-id> --period 202608
+python scripts/collect_regional.py xuzhou-procurement-events --limit 10 --output .local/xz_procurement_recent.json
+python scripts/build_resource_imbalances.py \
+  --needs data/need_signals.csv \
+  --resources data/resource_signals.csv \
+  --blockers data/blocker_signals.csv \
+  --output .local/resource_imbalances.json
 ```
 
 The NBS adapter intentionally uses the current UUID/catalog release API rather than the retired legacy `easyquery` contract.
+
+The Resource Imbalance Engine deliberately requires exact capability/geography identity in V1. Public procurement can create paid need-side evidence, but cannot invent resource scarcity, spare capacity, provider willingness, or orchestration margin.
 
 ## Evidence-pipeline rules
 
 - `network failure != zero`;
 - `HTML/challenge != data`;
 - `missing/stale != PASS`;
+- `paid demand != resource availability`;
+- `resource existence != underuse`;
+- `DISCOVERED != OPTIONED`;
 - preserve source, request, fetch time and response hash;
 - keep raw evidence separate from derived money-flow claims;
 - do not bypass login/access controls;
