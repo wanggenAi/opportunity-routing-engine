@@ -11,17 +11,18 @@ from src.mofcom_open_data import (
 from src.network_ingest import FetchEnvelope
 
 
-class FakeJsonClient:
-    def __init__(self, payload):
+class FakeMofcomClient:
+    def __init__(self, payload, *, url="http://opendata.mofcom.gov.cn/front/data/jsonData?id=ABC"):
         self.payload = payload
+        self.url = url
         self.calls = []
 
-    def request_json(self, method, url, *, request_name, params=None, json_body=None, headers=None):
-        self.calls.append((method, url, request_name, params))
+    def request_dataset(self, dataset_id, *, request_name):
+        self.calls.append((dataset_id, request_name))
         return FetchEnvelope(
             source_id="CN_MOFCOM_OPEN_DATA",
             request_name=request_name,
-            url=f"{url}?id={params['id']}",
+            url=self.url,
             fetched_at_utc="2026-09-11T00:00:00+00:00",
             http_status=200,
             content_type="application/json",
@@ -40,22 +41,35 @@ class MofcomOpenDataTests(unittest.TestCase):
             enabled=True,
         )
 
-    def test_success_preserves_raw_data_and_provenance(self):
-        client = FakeJsonClient({"status": 1, "msg": "ok", "data": [{"period": "2026-04", "value": 1}]})
+    def test_success_preserves_raw_data_and_marks_plain_http_lower_trust(self):
+        client = FakeMofcomClient(
+            {"status": 1, "msg": "ok", "data": [{"period": "2026-04", "value": 1}]}
+        )
         result = MofcomOpenDataAdapter(client=client).fetch_dataset(self.spec)
         self.assertEqual(result["api_status"], 1)
         self.assertEqual(result["top_level_item_count"], 1)
         self.assertEqual(result["data"][0]["period"], "2026-04")
         self.assertEqual(result["provenance"]["payload_sha256"], "a" * 64)
-        self.assertEqual(client.calls[0][3]["id"], self.spec.dataset_id)
+        self.assertEqual(client.calls[0][0], self.spec.dataset_id)
+        self.assertEqual(result["transport_security"], "PLAINTEXT_HTTP")
+        self.assertTrue(result["corroboration_required"])
+
+    def test_https_redirect_can_clear_transport_corroboration_flag(self):
+        client = FakeMofcomClient(
+            {"status": 1, "msg": "ok", "data": []},
+            url="https://opendata.mofcom.gov.cn/front/data/jsonData?id=ABC",
+        )
+        result = MofcomOpenDataAdapter(client=client).fetch_dataset(self.spec)
+        self.assertEqual(result["transport_security"], "HTTPS")
+        self.assertFalse(result["corroboration_required"])
 
     def test_status_zero_is_error_not_zero_evidence(self):
-        client = FakeJsonClient({"status": 0, "msg": "unavailable", "data": None})
+        client = FakeMofcomClient({"status": 0, "msg": "unavailable", "data": None})
         with self.assertRaises(MofcomOpenDataError):
             MofcomOpenDataAdapter(client=client).fetch_dataset(self.spec)
 
     def test_success_without_data_is_rejected(self):
-        client = FakeJsonClient({"status": 1, "msg": "ok"})
+        client = FakeMofcomClient({"status": 1, "msg": "ok"})
         with self.assertRaises(MofcomOpenDataError):
             MofcomOpenDataAdapter(client=client).fetch_dataset(self.spec)
 
