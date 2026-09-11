@@ -4,6 +4,7 @@
 Examples:
   python scripts/collect_nbs.py probe --output .local/nbs_probe.json
   python scripts/collect_nbs.py discover --page monthData --keyword 居民消费价格
+  python scripts/collect_nbs.py inspect --page monthData --cid <cid>
   python scripts/collect_nbs.py values --page monthData --cid <cid> --indicator-id <id> --period 202608
 """
 
@@ -52,6 +53,11 @@ def build_parser() -> argparse.ArgumentParser:
     discover.add_argument("--limit-per-keyword", type=int, default=5)
     discover.add_argument("--output")
 
+    inspect_cmd = sub.add_parser("inspect", help="inspect indicators and available periods for a catalog")
+    inspect_cmd.add_argument("--page", required=True)
+    inspect_cmd.add_argument("--cid", required=True)
+    inspect_cmd.add_argument("--output")
+
     values = sub.add_parser("values", help="fetch values using pinned catalog/indicator IDs")
     values.add_argument("--page", required=True)
     values.add_argument("--cid", required=True)
@@ -81,6 +87,14 @@ def main() -> int:
                     max_nodes=args.max_nodes,
                     limit_per_keyword=args.limit_per_keyword,
                 ),
+            }
+        elif args.command == "inspect":
+            payload = {
+                "source_id": "CN_NBS",
+                "page": args.page,
+                "cid": args.cid,
+                "indicators": adapter.indicators(args.page, cid=args.cid),
+                "dates": adapter.dates(args.page, cid=args.cid),
             }
         else:
             payload = adapter.fetch_values(
