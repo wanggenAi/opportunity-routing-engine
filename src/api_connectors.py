@@ -1,19 +1,19 @@
-"""State model for public and authorized external API connectors.
+"""State model for external data connectors under a free-only MVP policy.
 
-This module deliberately separates three very different things:
-1. public APIs that can run anonymously;
-2. official developer APIs/connectors that require credentials or OAuth;
-3. private/internal browser endpoints that are not an authorized production contract.
+The project distinguishes:
+1. anonymous official/public APIs that can run without incremental fees;
+2. official developer APIs that may require credentials but must be reviewed for cost;
+3. paid connectors, which are disabled for the MVP;
+4. private/internal browser endpoints, which are never treated as production APIs.
 
-Secrets are never accepted from config files or committed source.  Authorized
-connectors read only environment-variable presence here; actual secret values must
-remain in a server-side secret store such as GitHub Actions Secrets.
+Secrets are never accepted from committed config. Authorized connectors may only
+read secret presence from server-side environment variables such as GitHub Actions
+Secrets, and secret values must never be emitted into status payloads or logs.
 """
 
 from __future__ import annotations
 
 import os
-import shutil
 from dataclasses import asdict, dataclass
 from enum import Enum
 from typing import Iterable
@@ -21,9 +21,12 @@ from typing import Iterable
 
 class ConnectorState(str, Enum):
     ACTIVE_LIVE = "ACTIVE_LIVE"
+    API_REACHABLE_DATA_UNAVAILABLE = "API_REACHABLE_DATA_UNAVAILABLE"
     UNCONFIGURED_AUTH = "UNCONFIGURED_AUTH"
     PERMISSION_REQUIRED = "PERMISSION_REQUIRED"
     AUTHENTICATED_NOT_PROBED = "AUTHENTICATED_NOT_PROBED"
+    FREE_ONLY_REVIEW_REQUIRED = "FREE_ONLY_REVIEW_REQUIRED"
+    DISABLED_PAID_MVP = "DISABLED_PAID_MVP"
     NO_OPEN_API = "NO_OPEN_API"
     MANUAL_AUTHORIZED_ONLY = "MANUAL_AUTHORIZED_ONLY"
     ERROR = "ERROR"
@@ -59,42 +62,32 @@ def _credential_presence(names: Iterable[str]) -> tuple[tuple[str, ...], tuple[s
 def douyin_status() -> ConnectorStatus:
     names = ("DOUYIN_CLIENT_KEY", "DOUYIN_CLIENT_SECRET")
     configured, missing = _credential_presence(names)
-    state = (
-        ConnectorState.AUTHENTICATED_NOT_PROBED
-        if not missing
-        else ConnectorState.UNCONFIGURED_AUTH
-    )
     return ConnectorStatus(
         source_id="DOUYIN_OPENAPI",
-        state=state,
+        state=ConnectorState.FREE_ONLY_REVIEW_REQUIRED,
         credential_names=names,
         configured_credentials=configured,
         missing_credentials=missing,
         secret_values_exposed=False,
         notes=(
-            "Official Douyin OpenAPI. Credentials prove only that auth can be attempted; "
-            "individual scopes still require platform permission and must be probed before ACTIVE_LIVE."
+            "Official Douyin OpenAPI is allowed only after the exact scopes used by this project "
+            "are confirmed to have zero incremental usage fee. Credential presence alone must "
+            "never activate the connector."
         ),
     )
 
 
 def weibo_cli_status() -> ConnectorStatus:
-    executable = shutil.which("weibo")
-    state = (
-        ConnectorState.AUTHENTICATED_NOT_PROBED
-        if executable
-        else ConnectorState.UNCONFIGURED_AUTH
-    )
     return ConnectorStatus(
         source_id="WEIBO_CLI",
-        state=state,
+        state=ConnectorState.DISABLED_PAID_MVP,
         credential_names=(),
         configured_credentials=(),
         missing_credentials=(),
         secret_values_exposed=False,
         notes=(
-            "Official Weibo CLI connector. Binary presence is not proof of authenticated session; "
-            "`weibo auth whoami` must pass before ACTIVE_LIVE."
+            "Weibo CLI requires a paid plan/credits for the intended production use, so it is "
+            "disabled under the zero-paid-data MVP policy even if a local login already exists."
         ),
     )
 
@@ -109,7 +102,7 @@ def baidu_index_status() -> ConnectorStatus:
         secret_values_exposed=False,
         notes=(
             "Baidu Index official help states that no open API is currently provided. "
-            "Do not substitute reverse-engineered browser endpoints for an authorized API."
+            "Use only authorized/manual free views; never substitute reverse-engineered browser endpoints."
         ),
     )
 

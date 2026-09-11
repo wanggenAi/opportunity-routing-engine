@@ -1,6 +1,6 @@
 source_id,name,source_tier,owner,base_url,geography,indicator_scope,access_mode,refresh_cadence,automation_allowed,status
 CN_NBS,国家统计局/国家数据,A,国家统计局,https://data.stats.gov.cn,China,"GDP;CPI;PPI;PMI;industrial;retail;investment;income;employment;population",PUBLIC_JSON_API,MONTHLY/QUARTERLY,"PUBLIC_ENDPOINT;RATE_LIMIT_UNKNOWN;TERMS_REVIEW_REQUIRED",ACTIVE_LIVE
-CN_MOFCOM_DATA,商务数据中心,A,商务部,https://data.mofcom.gov.cn,China,"consumption;ecommerce;trade;FDI;ODI",HTML/MANUAL,MONTHLY,UNKNOWN,ACTIVE
+CN_MOFCOM_DATA,商务部公共服务资源平台,A,商务部,https://opendata.mofcom.gov.cn,China,"social financing;consumption;trade;FDI;ODI;open-data catalogs",PUBLIC_JSON_API_HTTP_OFFICIAL,IRREGULAR/MONTHLY,"FREE_PUBLIC_ENDPOINT;OFFICIAL_HTTP_DOC;EXACT_HOST_PATH_ONLY;CORROBORATION_REQUIRED;NO_PAID_DATA",API_REACHABLE_DATA_UNAVAILABLE
 CN_MOFCOM_CIF,商务预报,A,商务部,https://cif.mofcom.gov.cn,China,"consumer market;production materials;market monitoring",HTML/MANUAL,WEEKLY/MONTHLY,UNKNOWN,ACTIVE
 CN_PBOC,中国人民银行,A,中国人民银行,https://www.pbc.gov.cn,China,"money;credit;social financing;deposits;loans",HTML/MANUAL,MONTHLY,UNKNOWN,ACTIVE
 CN_CUSTOMS,海关总署,A,海关总署,https://www.customs.gov.cn,China,"imports;exports;commodity trade;trade partners",HTML/MANUAL,MONTHLY,UNKNOWN,ACTIVE
@@ -14,14 +14,14 @@ EJY365_XZ_LINKED,e交易/Xuzhou官方外链产权详情,B,江苏易交易信息�
 JS_GGZY_XZ_MIRROR,江苏省公共资源交易平台/Xuzhou产权静态镜像,A,江苏省公共资源交易平台,https://jsggzy.jszwfw.gov.cn,Xuzhou,"legacy agency property-rights mirror;asset lease/transfer;idle/vacant evidence",PUBLIC_HTML_MIRROR_LEGACY,DAILY,"BOUNDED_PUBLIC_FETCH;SOURCE_ORIGIN_VERIFY_REQUIRED",LEGACY_FALLBACK
 XZ_SME,徐州市综合性企业服务平台,A/B,徐州市企业服务体系,https://www.xzsme.js.cn,Xuzhou,"enterprise policy;projects;enterprise requests;activities;business services",HTML/MANUAL,DAILY/WEEKLY,UNKNOWN,ACTIVE
 XZ_DAILY,徐州日报/都市晨报,B,徐州报业,https://szb.cnxz.com.cn,Xuzhou,"local economy;consumer behavior;property;housing;tourism;industry;case evidence",HTML/MANUAL,DAILY,UNKNOWN,ACTIVE
-QM,QuestMobile,B,QuestMobile研究院,https://www.questmobile.com.cn/research/report-list,China,"mobile behavior;lower-tier consumers;AI;local life;secondhand;night economy;consumer segmentation",HTML/MANUAL,MONTHLY,TERMS_DEPENDENT,ACTIVE
-BAIDU_INDEX,百度指数,B,百度,https://index.baidu.com/v2/,China/Region,"search trend;demand graph;media trend;audience attributes",LOGIN_MANUAL,DAILY,"OFFICIAL_HELP_SAYS_NO_OPEN_API;NO_REVERSE_ENGINEERED_ENDPOINTS",NO_OPEN_API
-WEIBO_PUBLIC,微博公开趋势/搜索,C,微博,https://s.weibo.com,China/Region,"social salience;topics;public posts",PUBLIC_OR_LOGIN,WEEKLY/DAILY,TERMS_DEPENDENT,PLANNED_AUTHORIZED_ONLY
-WEIBO_CLI,微博开放平台CLI,B,微博开放平台,https://open.weibo.com/cli/index,China,"public search;hot trends;statistics;agent connector",AUTHORIZED_CLI,DAILY,"OFFICIAL_CONNECTOR;AUTH_REQUIRED;JSON_OUTPUT",UNCONFIGURED_AUTH
-DOUYIN_OPENAPI,抖音开放平台OpenAPI,B,抖音开放平台,https://open.douyin.com,China/Region,"authorized behavior/content/POI/trend signals where approved by scope",OFFICIAL_OAUTH_OPENAPI,DAILY,"CLIENT_KEY_SECRET;OAUTH_OR_CLIENT_TOKEN;SCOPE_PERMISSION_REQUIRED",UNCONFIGURED_AUTH
-XHS_PUBLIC,小红书公开内容,C,小红书,https://www.xiaohongshu.com,China/Region,"local lifestyle;consumer language;service friction;experience trends",PUBLIC_OR_LOGIN,WEEKLY,TERMS_DEPENDENT,PLANNED_AUTHORIZED_ONLY
-DOUYIN_PUBLIC,抖音公开内容,C,抖音,https://www.douyin.com,China/Region,"local life;content signals;merchant/service discovery",PUBLIC_OR_LOGIN,WEEKLY,TERMS_DEPENDENT,PLANNED_AUTHORIZED_ONLY
-ZHIHU_PUBLIC,知乎公开内容,C,知乎,https://www.zhihu.com,China,"long-form friction narratives;decision logic;failure cases",PUBLIC_OR_LOGIN,WEEKLY,TERMS_DEPENDENT,PLANNED_AUTHORIZED_ONLY
+QM,QuestMobile公开研究,B,QuestMobile研究院,https://www.questmobile.com.cn/research/report-list,China,"mobile behavior;lower-tier consumers;AI;local life;secondhand;night economy;consumer segmentation",PUBLIC_REPORTS_ONLY,MONTHLY,"FREE_PUBLIC_REPORTS_ONLY;NO_PAID_DATABASE",ACTIVE_FREE_ONLY
+BAIDU_INDEX,百度指数,B,百度,https://index.baidu.com/v2/,China/Region,"search trend;demand graph;media trend;audience attributes",LOGIN_MANUAL,DAILY,"OFFICIAL_HELP_SAYS_NO_OPEN_API;NO_REVERSE_ENGINEERED_ENDPOINTS;NO_PAID_DATA",MANUAL_FREE_ONLY
+WEIBO_PUBLIC,微博公开趋势/搜索,C,微博,https://s.weibo.com,China/Region,"social salience;topics;public posts",PUBLIC_OR_LOGIN,WEEKLY/DAILY,"FREE_PUBLIC_VIEW_ONLY;TERMS_DEPENDENT",MANUAL_FREE_ONLY
+WEIBO_CLI,微博开放平台CLI,B,微博开放平台,https://open.weibo.com/cli/index,China,"public search;hot trends;statistics;agent connector",AUTHORIZED_CLI,DAILY,"DO_NOT_PURCHASE_PLAN;NO_PAID_CREDITS",DISABLED_PAID_MVP
+DOUYIN_OPENAPI,抖音开放平台OpenAPI,B,抖音开放平台,https://open.douyin.com,China/Region,"authorized behavior/content/POI/trend signals where approved by scope",OFFICIAL_OAUTH_OPENAPI,DAILY,"ONLY_IF_OFFICIAL_SCOPE_HAS_ZERO_INCREMENTAL_USAGE_FEE;CLIENT_SECRET_NEVER_COMMITTED",FREE_ONLY_REVIEW_REQUIRED
+XHS_PUBLIC,小红书公开内容,C,小红书,https://www.xiaohongshu.com,China/Region,"local lifestyle;consumer language;service friction;experience trends",PUBLIC_OR_LOGIN,WEEKLY,"FREE_PUBLIC_VIEW_ONLY;TERMS_DEPENDENT;NO_PRIVATE_API",MANUAL_FREE_ONLY
+DOUYIN_PUBLIC,抖音公开内容,C,抖音,https://www.douyin.com,China/Region,"local life;content signals;merchant/service discovery",PUBLIC_OR_LOGIN,WEEKLY,"FREE_PUBLIC_VIEW_ONLY;TERMS_DEPENDENT",MANUAL_FREE_ONLY
+ZHIHU_PUBLIC,知乎公开内容,C,知乎,https://www.zhihu.com,China,"long-form friction narratives;decision logic;failure cases",PUBLIC_OR_LOGIN,WEEKLY,"FREE_PUBLIC_VIEW_ONLY;TERMS_DEPENDENT",MANUAL_FREE_ONLY
 ECPMI,中国物业管理协会,B,中国物业管理协会,https://www.ecpmi.org.cn,China,"property;community service;property+eldercare cases;industry mechanisms",HTML/MANUAL,MONTHLY,UNKNOWN,ACTIVE
 ONEWO,万物云公开信息,C,万物云,https://www.onewo.com,China,"property lifecycle services;repair;renovation;asset service;community operations",HTML/MANUAL,QUARTERLY,TERMS_DEPENDENT,CASE_ONLY
 XCMG_USED,徐工二手机公开平台,C,徐工,https://www.xcmgused.com,Xuzhou/China,"used construction machinery;inventory;buy/sell service;aftermarket",HTML/MANUAL,WEEKLY,TERMS_DEPENDENT,CASE_ONLY
