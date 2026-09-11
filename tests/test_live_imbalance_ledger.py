@@ -120,8 +120,55 @@ class LiveImbalanceLedgerTests(unittest.TestCase):
         self.assertEqual(ledger["records"], [])
         self.assertEqual(
             ledger["unbound_evidence"][0]["reason"],
-            "RESOURCE_OWNER_UNRESOLVED",
+            "RESOURCE_OWNER_UNRESOLVED_OR_INVALID",
         )
+
+    def test_platform_disclaimer_is_not_accepted_as_resource_owner(self):
+        listing = self._factory_resource() | {
+            "owner_actor": "和/或招标方的相关资质进行审核。本平台不承担审核义务与法律责任。"
+        }
+        ledger = build_live_imbalance_ledger({}, [{"listings": [listing]}])
+        self.assertEqual(ledger["signal_counts"]["resources"], 0)
+        self.assertEqual(
+            ledger["unbound_evidence"][0]["reason"],
+            "RESOURCE_OWNER_UNRESOLVED_OR_INVALID",
+        )
+
+    def test_current_xuzhou_procurement_titles_create_auditable_need_only_signals(self):
+        titles = {
+            "徐州市水务局2026年度市管雨污水泵站设施维修养护市场化项目公开招标公告": "WATER_PUMP_STATION_MAINTENANCE",
+            "徐州市财政效能中心徐州市数智化财政业务平台-财政信息化服务公开招标公告": "FINANCE_DIGITAL_IT_SERVICE",
+            "沛县自然资源和规划局2026年度一体化调查监测项目竞争性磋商公告": "SURVEY_MONITORING_SERVICE",
+            "徐州市南水北调工程管理中心2026年市级水利工程养护竞争性磋商采购公告": "WATER_ENGINEERING_MAINTENANCE",
+            "江苏徐淮地区徐州农业科学研究所三地日光温室建设项目采购公告": "AGRICULTURAL_FACILITY_CONSTRUCTION",
+            "徐州市中心医院全自动内窥镜清洗消毒机采购公开招标公告": "MEDICAL_CLEANING_EQUIPMENT_SUPPLY",
+        }
+        events = []
+        for i, title in enumerate(titles, start=1):
+            result = classify_procurement_event({"title": title})
+            self.assertEqual(result.capability_key, titles[title])
+            events.append(
+                {
+                    "source_id": "XZ_GGZY",
+                    "title": title,
+                    "url": f"https://ggzy.example.test/{i}",
+                    "publication_date": "2026-09-11",
+                }
+            )
+        ledger = build_live_imbalance_ledger({"events": events})
+        self.assertEqual(ledger["signal_counts"]["needs"], len(events))
+        self.assertEqual(ledger["status_counts"], {"NEED_ONLY": len(events)})
+        self.assertEqual(ledger["route_testable_count"], 0)
+
+    def test_commercial_space_classification_remains_mode_gated(self):
+        listing = self._factory_resource() | {
+            "title": "江苏徐州睢宁县八里商业城A7-10招租项目公告",
+            "listing_mode": "LEASE",
+        }
+        result = classify_resource_listing(listing)
+        self.assertEqual(result.capability_key, "COMMERCIAL_SPACE_LEASE")
+        transfer = classify_resource_listing(listing | {"listing_mode": "TRANSFER"})
+        self.assertIsNone(transfer.capability_key)
 
 
 if __name__ == "__main__":
