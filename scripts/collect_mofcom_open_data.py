@@ -32,6 +32,13 @@ def main() -> None:
         "success=", payload["success_count"],
         "errors=", payload["error_count"],
     )
+    for error in payload["errors"]:
+        print(
+            "ERROR",
+            error.get("dataset_id", ""),
+            error.get("name", ""),
+            error.get("error", ""),
+        )
     if args.require_success and payload["success_count"] < 1:
         raise SystemExit("no MOFCOM API dataset collected successfully")
 
