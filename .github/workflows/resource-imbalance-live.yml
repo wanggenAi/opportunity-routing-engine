@@ -1,0 +1,110 @@
+name: resource-imbalance-live
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Run after the upstream regional/resource sensors. The workflow recollects its
+    # own bounded evidence so it never depends on an artifact from a green wrapper.
+    - cron: "40 3 * * *"
+  push:
+    paths:
+      - "src/live_imbalance_ledger.py"
+      - "src/resource_imbalance.py"
+      - "src/resource_signal_adapters.py"
+      - "src/regional_adapters.py"
+      - "src/resource_underuse_adapters.py"
+      - "src/xuzhou_agency_resource_feed.py"
+      - "scripts/build_live_resource_imbalance.py"
+      - "scripts/collect_regional.py"
+      - "scripts/collect_resource_underuse.py"
+      - "tests/test_live_imbalance_ledger.py"
+      - ".github/workflows/resource-imbalance-live.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  xuzhou-live-ledger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect bounded Xuzhou procurement need evidence
+        run: |
+          mkdir -p .local
+          python scripts/collect_regional.py xuzhou-procurement-events \
+            --limit 30 \
+            --output .local/xz_procurement_events.json
+
+      - name: Collect native Xuzhou resource evidence
+        run: |
+          python scripts/collect_resource_underuse.py xuzhou-public-assets \
+            --limit 30 \
+            --output .local/xz_public_asset_underuse.json
+
+      - name: Collect Xuzhou agency resource evidence
+        run: |
+          python scripts/collect_resource_underuse.py xuzhou-agency-assets \
+            --limit 30 \
+            --output .local/xz_agency_asset_underuse.json
+
+      - name: Build truth-preserving Resource Imbalance ledger
+        run: |
+          python scripts/build_live_resource_imbalance.py \
+            --procurement-json .local/xz_procurement_events.json \
+            --resource-json .local/xz_public_asset_underuse.json \
+            --resource-json .local/xz_agency_asset_underuse.json \
+            --output .local/xz_resource_imbalance_ledger.json
+
+      - name: Assert canonical promotion gates
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('.local/xz_resource_imbalance_ledger.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          print('source_input_counts:', data['source_input_counts'])
+          print('signal_counts:', data['signal_counts'])
+          print('status_counts:', data['status_counts'])
+          print('blocking_reason_counts:', data['blocking_reason_counts'])
+
+          route_records = data['route_testable_records']
+          if data['route_testable_count'] != len(route_records):
+              raise SystemExit('route_testable_count does not match route_testable_records')
+
+          for record in route_records:
+              if record['need_evidence_state'] not in ('PAID', 'REPEATED_PAID'):
+                  raise SystemExit('ROUTE_TESTABLE without paid need evidence')
+              if not record['payer']:
+                  raise SystemExit('ROUTE_TESTABLE without identified payer')
+              if record['resource_state'] not in ('DISCOVERED', 'OPTIONED', 'OWNED'):
+                  raise SystemExit('ROUTE_TESTABLE without discovered resource')
+              if record['underuse_evidence_state'] not in ('OBSERVED', 'MEASURED'):
+                  raise SystemExit('ROUTE_TESTABLE without observed underuse')
+              if record['blocker_evidence_state'] not in ('OBSERVED', 'MEASURED'):
+                  raise SystemExit('ROUTE_TESTABLE without observed blocker')
+
+          # Zero ROUTE_TESTABLE is a valid empirical result. The workflow fails only
+          # when truth gates are violated, not because reality produced no opportunity.
+          print('canonical promotion gates preserved')
+          PY
+
+      - name: Upload live evidence and imbalance ledger
+        uses: actions/upload-artifact@v4
+        with:
+          name: xuzhou-resource-imbalance-ledger
+          path: .local/*.json
+          retention-days: 14
+          if-no-files-found: error
+          include-hidden-files: true
