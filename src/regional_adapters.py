@@ -12,7 +12,7 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, asdict
 from decimal import Decimal, InvalidOperation
-from typing import Any, Iterable
+from typing import Any
 from urllib.parse import urlparse
 
 from src.html_ingest import PublicHtmlClient, html_to_document, normalize_whitespace
@@ -58,7 +58,7 @@ def _first(pattern: str, text: str, flags: int = 0) -> str | None:
 def _publication_date(text: str, url: str = "") -> str | None:
     for pattern in (
         r"信息发布时间[：:\s]*([0-9]{4}[-年][0-9]{1,2}[-月][0-9]{1,2}日?)",
-        r"([0-9]{4}-[0-9]{2}-[0-9]{2})\s+(?:来源|发布|$)",
+        r"([0-9]{4}-[0-9]{2}-[0-9]{2})(?:\s+[0-9]{1,2}:[0-9]{2})?\s+(?:来源|发布|$)",
         r"([0-9]{4}年[0-9]{1,2}月[0-9]{1,2}日)",
     ):
         value = _first(pattern, text)
@@ -70,6 +70,10 @@ def _publication_date(text: str, url: str = "") -> str | None:
     if match:
         raw = match.group(1)
         return f"{raw[:4]}-{raw[4:6]}-{raw[6:8]}"
+    article_match = re.search(r"/art/(20\d{2})/(\d{1,2})/(\d{1,2})/", url)
+    if article_match:
+        year, month, day = article_match.groups()
+        return f"{int(year):04d}-{int(month):02d}-{int(day):02d}"
     return None
 
 
