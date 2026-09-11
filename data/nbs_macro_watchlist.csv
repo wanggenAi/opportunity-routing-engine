@@ -1,0 +1,5 @@
+signal_id,source_id,page,cid,indicator_id,expected_label,frequency,unit,geography,metric_kind,lookback_periods,status
+CN_CPI_YOY_INDEX,CN_NBS,monthData,5c7452825c7c4dcba391db5ca7f335c5,53180dfb9c14411ba4b762307c85920c,居民消费价格指数 (上年同月=100),month,%,China,index,3,ACTIVE
+CN_RETAIL_CURRENT,CN_NBS,monthData,d0cb882c7f27443ab6b3ef9421901961,1142a3a03e9045959e606a21822641ac,社会消费品零售总额当期值 (亿元),month,亿元,China,level,3,ACTIVE
+CN_RETAIL_YOY,CN_NBS,monthData,d0cb882c7f27443ab6b3ef9421901961,aaac57d54d2e465d91bc9f3ea1a8618e,社会消费品零售总额同比增长 (%),month,%,China,yoy_growth,3,ACTIVE
+CN_RETAIL_CUM_GROWTH,CN_NBS,monthData,d0cb882c7f27443ab6b3ef9421901961,e3ca151b53d347b78d1e179e5ebf1d33,社会消费品零售总额累计增长 (%),month,%,China,cumulative_growth,3,ACTIVE
