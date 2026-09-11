@@ -17,75 +17,34 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Probe official customs sources without weakening TLS
+      - name: Inspect current official GACC monthly/detail structure
         run: |
           python - <<'PY'
-          from html.parser import HTMLParser
-          from urllib.parse import urljoin
-          from urllib.request import Request, urlopen
-          from urllib.error import HTTPError, URLError
-          import ssl
+          import re
+          from src.gacc_trade_flow import GaccTradeFlowAdapter, parse_html_tables
+          from src.html_ingest import html_to_document, normalize_whitespace
 
-          targets = [
-              'https://stats.customs.gov.cn/',
-              'http://stats.customs.gov.cn/',
-              'https://online.customs.gov.cn/',
-              'http://online.customs.gov.cn/',
-              'https://online.chinaport.gov.cn/',
-              'https://www.cceeccic.org/MONITORING/DATA_COLUMN_LIST_EN.html?fn=Statistics&fp=MONITORING%5CDATA&idx=1&par=',
-              'http://english.customs.gov.cn/statics/report/monthly.html',
-              'https://english.customs.gov.cn/statics/report/monthly.html',
-          ]
-          bodies = {}
-          for url in targets:
-              req = Request(url, headers={'User-Agent':'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)','Accept':'text/html,*/*;q=0.5'})
-              try:
-                  with urlopen(req, timeout=15) as r:
-                      body = r.read(500000)
-                      bodies[url] = (r.geturl(), body)
-                      print('OK', url, 'status=', r.status, 'final=', r.geturl(), 'type=', r.headers.get('Content-Type'), 'bytes=', len(body))
-              except HTTPError as e:
-                  print('HTTP_ERROR', url, e.code, 'final=', e.geturl())
-              except URLError as e:
-                  print('URL_ERROR', url, repr(e.reason))
-              except ssl.SSLError as e:
-                  print('SSL_ERROR', url, repr(e))
-              except Exception as e:
-                  print('ERROR', url, type(e).__name__, repr(e))
+          adapter = GaccTradeFlowAdapter()
+          discovery = adapter.discover_latest()
+          print('selected_year=', discovery.get('selected_year'))
+          print('location_link_count=', len(discovery['location_links']))
+          print('specific_area_link_count=', len(discovery['specific_area_links']))
+          print('location_links=', discovery['location_links'])
+          print('specific_area_links=', discovery['specific_area_links'])
 
-          class Links(HTMLParser):
-              def __init__(self, base):
-                  super().__init__(convert_charrefs=True)
-                  self.base = base
-                  self.items = []
-                  self.href = None
-                  self.text = []
-              def handle_starttag(self, tag, attrs):
-                  if tag.lower() == 'a':
-                      self.href = dict(attrs).get('href')
-                      self.text = []
-              def handle_data(self, data):
-                  if self.href is not None:
-                      self.text.append(data)
-              def handle_endtag(self, tag):
-                  if tag.lower() == 'a' and self.href is not None:
-                      text = ' '.join(' '.join(self.text).split())
-                      self.items.append((text, urljoin(self.base, self.href)))
-                      self.href = None
-                      self.text = []
-
-          portal = bodies.get('https://online.customs.gov.cn/')
-          if portal:
-              final, raw = portal
-              text = raw.decode('utf-8', errors='ignore')
-              parser = Links(final)
-              parser.feed(text)
-              print('ONLINE_CUSTOMS_RELEVANT_LINKS_BEGIN')
-              for label, href in parser.items:
-                  hay = (label + ' ' + href).lower()
-                  if '统计' in label or 'stat' in hay or 'custom' in hay and ('query' in hay or 'data' in hay):
-                      print(repr(label), '=>', href)
-              print('ONLINE_CUSTOMS_RELEVANT_LINKS_END')
-              for needle in ('stats.customs.gov.cn', '海关统计数据查询', '海关统计资料'):
-                  print('PORTAL_CONTAINS', repr(needle), needle in text)
+          for table_no, links in ((8, discovery['location_links']), (11, discovery['specific_area_links'])):
+              print(f'TABLE_{table_no}_DETAILS_BEGIN')
+              for i, url in enumerate(links[-2:]):
+                  env = adapter.client.fetch(url, request_name=f'diagnostic.table_{table_no}.{i}')
+                  doc = html_to_document(env.html, base_url=env.url)
+                  plain = normalize_whitespace(re.sub(r'<[^>]+>', ' ', env.html))
+                  print('DETAIL_URL=', env.url)
+                  print('TITLE=', doc.get('title'))
+                  print('TEXT_PREFIX=', plain[:1500])
+                  print('LINKS=', doc.get('links', [])[:30])
+                  rows = parse_html_tables(env.html, base_url=env.url)
+                  print('ROW_COUNT=', len(rows))
+                  for row in rows[:12]:
+                      print('ROW=', [cell['text'][:160] for cell in row])
+              print(f'TABLE_{table_no}_DETAILS_END')
           PY
