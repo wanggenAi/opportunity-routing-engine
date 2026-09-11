@@ -44,7 +44,7 @@ TABLE8_JUL = """
 <p>Unit:US$1,000</p><table>
 <tr><th>Location of Importers/Exporters</th><th colspan='2'>Exports</th><th colspan='2'>Imports</th><th colspan='2'>Percentage Change</th></tr>
 <tr><th>7</th><th>1to7</th><th>7</th><th>1to7</th><th>Exports</th><th>Imports</th></tr>
-<tr><td>Jiangsu</td><td>60</td><td>420</td><td>40</td><td>280</td><td>4.0</td><td>1.5</td></tr>
+<tr><td>Jiangsu Province</td><td>60</td><td>420</td><td>40</td><td>280</td><td>4.0</td><td>1.5</td></tr>
 <tr><td>Xuzhou</td><td>7</td><td>50</td><td>3</td><td>20</td><td>6.0</td><td>2.0</td></tr>
 </table></body></html>
 """
@@ -86,6 +86,7 @@ class GaccTradeFlowTests(unittest.TestCase):
         self.assertTrue(payload["corroboration_required"])
         self.assertEqual(payload["corroboration_status"], "PENDING")
         jiangsu = payload["jiangsu_importer_exporter_location"]
+        self.assertEqual(jiangsu["name"], "Jiangsu Province")
         self.assertEqual(jiangsu["total_ytd_usd_thousand"], 700.0)
         self.assertEqual(jiangsu["total_basis"], "DERIVED_EXPORT_PLUS_IMPORT")
         self.assertIsNone(jiangsu["total_yoy_percent"])
