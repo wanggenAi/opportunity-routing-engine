@@ -1,0 +1,71 @@
+name: regional-data-live
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Public procurement changes quickly; daily bounded collection is useful.
+    - cron: "40 1 * * *"
+  push:
+    paths:
+      - "src/html_ingest.py"
+      - "src/regional_adapters.py"
+      - "scripts/collect_regional.py"
+      - ".github/workflows/regional-data-live.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  regional-live-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch latest selected Jiangsu economic release
+        run: |
+          python scripts/collect_regional.py jiangsu-release \
+            --url https://tj.jiangsu.gov.cn/art/2026/8/24/art_85275_11819992.html \
+            --output .local/js_stats_latest_release.json
+
+      - name: Discover and parse recent Xuzhou procurement events
+        run: |
+          python scripts/collect_regional.py xuzhou-procurement-events \
+            --limit 10 \
+            --require-events \
+            --output .local/xz_procurement_recent.json
+
+      - name: Validate bounded live evidence
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          js = json.loads(Path('.local/js_stats_latest_release.json').read_text(encoding='utf-8'))
+          xz = json.loads(Path('.local/xz_procurement_recent.json').read_text(encoding='utf-8'))
+          print('Jiangsu title:', js['document']['title'])
+          print('Jiangsu publication:', js['document']['publication_date'])
+          print('Jiangsu metric count:', len(js['money_flow_metrics']))
+          print('Xuzhou discovered:', xz['discovery']['item_count'])
+          print('Xuzhou parsed:', xz['event_count'])
+          print('Xuzhou errors:', xz['error_count'])
+          if not js['document']['text']:
+              raise SystemExit('empty Jiangsu official document')
+          if xz['event_count'] < 1:
+              raise SystemExit('no Xuzhou procurement event parsed')
+          PY
+
+      - name: Upload regional evidence artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: regional-live-evidence
+          path: .local/*.json
+          retention-days: 14
+          if-no-files-found: error
+          include-hidden-files: true
