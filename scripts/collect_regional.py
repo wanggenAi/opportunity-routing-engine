@@ -7,6 +7,7 @@ import argparse
 import json
 import sys
 from dataclasses import asdict
+from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,36 +27,22 @@ def emit(payload, output):
         print(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True))
 
 
-def _lexical_marker_context(html: str, marker: str) -> dict:
-    index = html.find(marker)
-    if index < 0:
-        return {"marker": marker, "index": -1}
-    lower = html.lower()
-    boundaries = {
-        "script_open": lower.rfind("<script", 0, index),
-        "script_close": lower.rfind("</script", 0, index),
-        "style_open": lower.rfind("<style", 0, index),
-        "style_close": lower.rfind("</style", 0, index),
-        "comment_open": html.rfind("<!--", 0, index),
-        "comment_close": html.rfind("-->", 0, index),
-        "tag_open": html.rfind("<", 0, index),
-        "tag_close": html.rfind(">", 0, index),
-    }
-    next_lt = html.find("<", index)
-    return {
-        "marker": marker,
-        "index": index,
-        "boundaries": boundaries,
-        "inside_script_lexically": boundaries["script_open"] > boundaries["script_close"],
-        "inside_style_lexically": boundaries["style_open"] > boundaries["style_close"],
-        "inside_comment_lexically": boundaries["comment_open"] > boundaries["comment_close"],
-        "preceding_fragment": " ".join(html[max(0, index - 350):index].split()),
-        "following_fragment": " ".join(html[index:min(len(html), index + 500)].split()),
-        "next_tag_fragment": (
-            " ".join(html[next_lt:min(len(html), next_lt + 250)].split())
-            if next_lt >= 0 else None
-        ),
-    }
+class _CloseProbeParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.marker_hits = []
+        self.data_chars = 0
+
+    def handle_data(self, data):
+        self.data_chars += len(data)
+        compact = " ".join(data.split())
+        if any(marker in compact for marker in ("项目编号", "JSZC-320300-XZTY-G2026-0004", "预算金额")):
+            self.marker_hits.append(compact[:1000])
+
+    def handle_comment(self, data):
+        compact = " ".join(data.split())
+        if any(marker in compact for marker in ("项目编号", "JSZC-320300-XZTY-G2026-0004", "预算金额")):
+            self.marker_hits.append("COMMENT:" + compact[:1000])
 
 
 def _marker_context_probe(url: str) -> dict:
@@ -65,22 +52,16 @@ def _marker_context_probe(url: str) -> dict:
         timeout_seconds=30,
         retries=1,
     ).fetch(url, request_name="xz_ggzy.marker_context_probe")
-    html = envelope.html
-    lower = html.lower()
+    parser = _CloseProbeParser()
+    parser.feed(envelope.html)
+    before = {"data_chars": parser.data_chars, "marker_hits": list(parser.marker_hits)}
+    parser.close()
+    after = {"data_chars": parser.data_chars, "marker_hits": list(parser.marker_hits)}
     return {
         "payload_sha256": envelope.payload_sha256,
-        "html_chars": len(html),
-        "comment_open_count": html.count("<!--"),
-        "comment_close_count": html.count("-->"),
-        "script_open_count": lower.count("<script"),
-        "script_close_count": lower.count("</script"),
-        "style_open_count": lower.count("<style"),
-        "style_close_count": lower.count("</style"),
-        "template_open_count": lower.count("<template"),
-        "marker_contexts": [
-            _lexical_marker_context(html, marker)
-            for marker in ("项目编号", "JSZC-320300-XZTY-G2026-0004", "预算金额")
-        ],
+        "html_chars": len(envelope.html),
+        "before_close": before,
+        "after_close": after,
     }
 
 
