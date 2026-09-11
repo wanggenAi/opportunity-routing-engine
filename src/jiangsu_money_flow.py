@@ -79,7 +79,8 @@ def _metric(
         "signal_id": signal_id,
         "source_id": document.source_id,
         "geography": "Jiangsu",
-        "period": document.publication_date,
+        "publication_date": document.publication_date,
+        "observation_period": None,
         "metric_kind": metric_kind,
         "unit": unit,
         "value": format(value, "f"),
@@ -90,7 +91,14 @@ def _metric(
 
 
 def extract_jiangsu_money_flow_metrics(document: OfficialDocument) -> list[dict[str, Any]]:
-    """Extract bounded official macro/money-flow indicators from one release."""
+    """Extract bounded official macro/money-flow indicators from one release.
+
+    Metric-level observation periods intentionally remain ``None`` until a source
+    phrase provides an unambiguous machine-readable period.  The release-level
+    observation period is tracked separately.  This prevents publication date from
+    being mislabeled as observation date and avoids assigning a 1-7 month release
+    window to metrics such as 1-6 month services or month-end financial balances.
+    """
     text = document.text
     result: list[dict[str, Any]] = []
 
@@ -281,7 +289,9 @@ class JiangsuMoneyFlowAdapter:
             },
             "truth_note": (
                 "Official Jiangsu macro release evidence only. Metrics are extracted only from "
-                "explicit matching text; absent indicators stay absent. Investment/finance movement "
-                "does not by itself establish NEED, SURPLUS, BLOCKER or an opportunity."
+                "explicit matching text; absent indicators stay absent. Metric publication dates "
+                "are kept separate from still-unresolved metric-level observation periods. "
+                "Investment/finance movement does not by itself establish NEED, SURPLUS, BLOCKER "
+                "or an opportunity."
             ),
         }
