@@ -1,8 +1,10 @@
 # Opportunity Routing Engine
 
-A validation-first **Actor-First Regenerative Resource Orchestration Engine**.
+A validation-first **Actor-First Regenerative Resource Activation & Orchestration Engine**.
 
-The system is deliberately split into two engines:
+The system exists to discover **real deficits, underused resources and the blockers that prevent them from creating value together**, then design bounded, transparent transaction routes that can be tested in reality.
+
+It is deliberately split into two engines:
 
 ```text
 DISCOVERY ENGINE
@@ -12,12 +14,14 @@ Data Sources
 → Market / Industry Movement
 → Actor Segments
 → Psychology / Behavior
-→ Case Mining
-→ Friction / Payer / Opportunity Pool
-→ Comparable Ranking
+→ Success + Failure Case Mining
+→ Need / Resource / Blocker Signals
+→ Resource Imbalance Engine
+→ Evidence-backed Candidate Pool
+→ Comparable G0-G6 Ranking
 
 ORCHESTRATION ENGINE
-Selected Opportunity
+Selected Route-Testable Candidate
 → Hook Design
 → Transaction Objective
 → CapabilityUnit Decomposition
@@ -27,14 +31,16 @@ Selected Opportunity
 → Repeat / Learning
 ```
 
-The discovery engine decides **where to look and what may be worth doing**. The orchestration engine decides **how to capture the opportunity without turning the operator into the permanent salesperson or worker**.
+The Discovery Engine decides **where verified surplus and deficit may be failing to meet**. The Orchestration Engine decides **how to test and, only if reality supports it, repeatedly route resources without turning the operator into the permanent salesperson or worker**.
 
 Canonical foundations:
+- `docs/RESOURCE_ACTIVATION_THESIS.md`
 - `docs/DATA_SOURCE_REGISTRY.md`
 - `docs/DISCOVERY_ENGINE.md`
 - `docs/MONEY_FLOW_ENGINE.md`
 - `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
 - `docs/CASE_MINING_ENGINE.md`
+- `docs/RESOURCE_IMBALANCE_ENGINE.md`
 - `docs/HOOK_ORCHESTRATION_DESIGN.md`
 - `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
 - `docs/OPPORTUNITY_SCORECARD.md`
@@ -46,23 +52,69 @@ Do not begin with a product, a favored vertical, an ERP/MES project, or what the
 
 Begin with reality:
 
-> **Where is money, time, attention, risk or capacity moving; which actors are changing behavior; what friction is created; and who has economic reason to pay to remove it?**
+> **Where is money, time, attention, risk or capacity moving; who lacks something valuable; who has a compatible resource that is genuinely underused; why are they not already transacting; and can that blocker be reduced without large irreversible capital?**
 
-Only after a credible opportunity is discovered does the system ask how to organize resources around it.
+The deepest system objective is:
 
-The operator is the initial **systems analyst / transaction architect / resource orchestrator**. The operator preferentially owns structural judgment, actor/resource mapping, hook design, capability decomposition, acceptance/incentive design, route approval, risk boundaries and learning. Routine acquisition, coding, research, delivery, QA, logistics and support are routable capabilities.
+```text
+VERIFIED DEFICIT / NEED
++
+VERIFIED SURPLUS / UNDERUSED RESOURCE
++
+OBSERVED TRANSACTION BLOCKER
+→ BOUNDED RESOURCE-ACTIVATION ROUTE
+→ REAL-WORLD TEST
+→ ACCEPTED VALUE / SETTLEMENT
+→ REPEAT / LEARNING / BETTER ALLOCATION
+```
 
-## 2. Continuous data-source layer
+The operator is the initial **systems analyst / transaction architect / resource orchestrator**. The operator preferentially owns structural judgment, actor/resource mapping, Hook design, capability decomposition, acceptance/incentive design, route approval, risk boundaries and learning. Routine acquisition, research, delivery, coding, QA, logistics and support are themselves routable capabilities when reality justifies routing them.
+
+## 2. Resource truth
+
+A resource may be human skill/time, professional capability, a trusted channel, physical space/equipment/vehicles, inventory, local knowledge, data, software/AI capability, institutional access, logistics capacity, reputation/trust, demand aggregation, capital, or a reusable process/acceptance standard.
+
+Resource state must always be explicit:
+
+```text
+HYPOTHETICAL — inferred only
+DISCOVERED   — existence verified, no control/use commitment
+OPTIONED     — provider explicitly agrees under stated conditions
+OWNED        — controlled now
+```
+
+Underuse is a separate question:
+
+```text
+UNKNOWN / CLAIMED / OBSERVED / MEASURED
+```
+
+Therefore:
+
+```text
+resource exists != resource is spare
+resource is spare != provider will supply it
+DISCOVERED != OPTIONED
+```
+
+The system must not exploit weak actors by hiding economics, shifting unreasonable risk, or suppressing fair compensation. A structurally good route should create incremental value for payer, provider/resource owner and orchestrator.
+
+## 3. Continuous data-source layer
 
 Maintain recurring sources rather than depend on ad-hoc searches.
 
-Current registry includes national statistical/trade/finance/employment sources, Jiangsu/Xuzhou government and transaction sources, property/industry case sources, QuestMobile, and planned authorized social/search sources.
+Current live evidence paths include:
+- `CN_NBS` — National Bureau of Statistics / 国家数据 public-release API;
+- `JS_STATS` — Jiangsu Statistics official releases;
+- `XZ_GGZY` — Xuzhou public procurement notices.
+
+The broader registry also tracks national finance/trade/employment sources, Jiangsu/Xuzhou government sources, public case sources, and planned authorized aggregate social/search sources.
 
 Seed registry: `data/source_registry.csv`.
 
 Every source must preserve geography, observation/publication period, units/denominator, access mode, freshness and provenance. Missing/stale data reduces confidence; missing does not become zero.
 
-## 3. Money Flow Engine
+## 4. Money Flow Engine
 
 Do not rank industries by growth alone.
 
@@ -77,26 +129,28 @@ WHO PAYS MORE / LESS
 → ACCELERATION / DECELERATION
 → CHINA / JIANGSU / XUZHOU DIVERGENCE
 → ACTOR BEHAVIOR CHANGE
-→ FRICTION
+→ FRICTION / NEED
 ```
 
 Divergence is often more useful than raw growth.
 
-## 4. Psychology & Behavior Tracker
+A government procurement event is strong evidence that an institution is paying for a bounded task. It is **not** automatic evidence of local supply scarcity, private-market demand or orchestration margin.
 
-Track aggregate psychology/behavior signals, including value-for-money, spending caution, convenience/time value, trust/risk aversion, experience orientation, selective upgrading, repair/reuse/rental, emotional value and outcome certainty.
+## 5. Psychology & Behavior Tracker
+
+Track aggregate psychology/behavior signals such as value-for-money, spending caution, convenience/time value, trust/risk aversion, experience orientation, selective upgrading, repair/reuse/rental, emotional value and outcome certainty.
 
 **Social-media salience is not population share.** Prefer public/authorized aggregate signals and corroborate psychology with real behavior/money.
 
-## 5. Case Mining Engine
+## 6. Case Mining Engine
 
-Study successful **and failed** cases. Do not copy products; extract:
+Study successful **and failed** cases. Do not copy products; extract mechanisms:
 
 ```text
 context change
 → behavior change
 → friction
-→ first hook
+→ first Hook
 → payer
 → controlled / optioned resources
 → acceptance/economics
@@ -107,7 +161,38 @@ context change
 
 `success story != base rate`.
 
-## 6. Hook before outreach
+## 7. Resource Imbalance Engine
+
+The system must separately prove three sides:
+
+```text
+NEED SIGNAL
++
+RESOURCE SIGNAL
++
+BLOCKER SIGNAL
+```
+
+V1 emits only:
+
+```text
+NEED_ONLY
+RESOURCE_ONLY
+PAIR_HYPOTHESIS
+ROUTE_TESTABLE
+```
+
+`ROUTE_TESTABLE` requires, at minimum:
+- direct paid need evidence;
+- identified payer;
+- compatible resource at least `DISCOVERED`;
+- underuse at least `OBSERVED`;
+- transaction blocker at least `OBSERVED`;
+- exact V1 capability and geography identity.
+
+It means only that a cheap bounded route test is justified. It does not mean transaction-ready, profitable, scalable or G0-G6 approved.
+
+## 8. Hook before outreach
 
 The orchestrator should not contact actors empty-handed with `do you have work?`.
 
@@ -120,9 +205,9 @@ A Hook may be:
 - optioned idle resource;
 - transparent conditional economics.
 
-Resource state must be honest: `OWNED / OPTIONED / DISCOVERED / HYPOTHETICAL`.
+The Hook should convert uncertainty into a cheap, falsifiable transaction test.
 
-## 7. Capital-light first principle
+## 9. Capital-light first principle
 
 Before irreversible capital ask:
 
@@ -136,13 +221,22 @@ Can each conditional commitment unlock the next resource?
 
 This is transparent resource leverage, not deceptive promises or hidden liabilities.
 
-## 8. CapabilityUnit
+## 10. CapabilityUnit
 
 The atomic execution unit is a contractible capability with explicit input, output, acceptance, provider class, price/payout, SLA, trust/safety, replacement and failure rules.
 
 A person, company, AI model, institution, asset or channel may provide one or many CapabilityUnits.
 
-## 9. Regenerative circulation
+For human-capital activation, prefer:
+
+```text
+JOB TITLE → CAPABILITY UNIT
+CV CLAIM   → PROOF / ACCEPTANCE
+IDLE TIME  → CONDITIONAL CAPACITY
+NO ACCESS  → TRUSTED DEMAND ROUTE
+```
+
+## 11. Regenerative circulation
 
 The target is not a sequence of unrelated gigs.
 
@@ -159,7 +253,7 @@ DEMAND PUMP
 ↺
 ```
 
-## 10. Hard gates
+## 12. Hard gates
 
 ```text
 G0 Actor / role clarity
@@ -171,80 +265,34 @@ G5 Orchestration value
 G6 Regenerative circulation / recurring demand
 ```
 
-G4–G6 must all PASS before an opportunity becomes a core repeatable platform wedge.
+Scores never override failed/unknown truth gates. G4–G6 must all PASS before an opportunity becomes a core repeatable orchestration wedge.
 
-## 11. Discovery Cycle 001 — completed 2026-09-10
+## 13. Current project state
 
-The first clean-slate cycle produced:
-- expanded source registry;
-- China/Jiangsu/Xuzhou money-flow snapshot;
-- psychology/behavior snapshot;
-- success/failure mechanism library;
-- **38 opportunity seeds** across community/property, housing, industrial aftermarket, tourism, reuse, labor/capability, rural logistics and institutional money;
-- comparable G0-G6 ranking.
+The repository is currently in **continuous discovery-stack construction and evidence collection**.
 
-Outputs:
-- `docs/research/DISCOVERY_CYCLE_001_MONEY_FLOW_2026-09-10.md`
-- `docs/research/DISCOVERY_CYCLE_001_PSYCHOLOGY_BEHAVIOR_2026-09-10.md`
-- `docs/research/DISCOVERY_CYCLE_001_CASE_MECHANISMS_2026-09-10.md`
-- `docs/research/DISCOVERY_CYCLE_001_OPPORTUNITY_POOL_2026-09-10.md`
-- `docs/results/DISCOVERY_CYCLE_001_RANKING_2026-09-10.md`
+Completed/working foundations include:
+- canonical Resource Activation Thesis;
+- source registry and evidence/provenance rules;
+- national NBS live ingestion with publication-lag handling;
+- Jiangsu official-release ingestion;
+- Xuzhou public-procurement ingestion;
+- psychology/behavior evidence model;
+- success/failure case-mining methodology;
+- G0-G6 opportunity ranking discipline;
+- Resource Imbalance Engine V1 under active integration.
 
-The former Industrial Service Overflow candidate no longer has first-found privilege and remains demoted/paused.
+The decisive missing evidence layer is now **resource-underuse sensing**: finding real, observable spare capabilities/assets and measuring why they are not already reaching paid demand.
 
-## 12. Current top structural candidate
+Until the discovery stack produces a new comparable ranking from both deficit and surplus evidence, **no candidate is the canonical #1 project**.
 
-# Property-Anchored Community Living-Service Orchestration Backend
+## 14. Historical candidate status
 
-Chinese working name:
+Earlier discovery work ranked `Property-Anchored Community Living-Service Orchestration Backend` as a structural candidate and produced a launch design. That result remains useful historical evidence, but it is **not the current canonical #1** and must not receive first-found privilege.
 
-> **物业锚定的社区生活服务后台编排**
+Likewise, industrial overflow, youth micro-experience, skills-to-income, pet-care and other experiments remain evidence/candidate records rather than automatic current priorities.
 
-Adjusted structural score: **75/100** — this is **not a 75% success probability**.
-
-Why it currently leads:
-- Xuzhou has 2,237 residential communities and 690+ property-service firms;
-- local property firms are actively expanding resident convenience/value-added services;
-- property is a concentrated trusted demand front door;
-- provider supply can be optioned rather than employed;
-- delivery can remain fully external;
-- low-risk service outputs can be bounded/accepted;
-- property can be offered a zero-upfront pilot;
-- repeated resident orders can create a real Demand Pump.
-
-Critical unknowns:
-- `G1` — exact payer economics through this route;
-- `G5` — whether backend governance creates enough value to survive property-provider bypass;
-- `G6` — whether one property/community repeatedly generates paid orders.
-
-Launch design:
-- `docs/launch/PROPERTY_ANCHORED_COMMUNITY_SERVICE_START_2026-09-10.md`
-
-## 13. First Hook
-
-Before property outreach, obtain a small `OPTIONED SUPPLY PACK` from 2–3 low-risk service categories such as home deep cleaning, appliance cleaning and move-in/move-out cleaning.
-
-Then offer property:
-
-> **zero upfront cost + no new staff + bounded service menu + externally managed provider routing/SLA/acceptance/rework/replacement + payment only when real service occurs.**
-
-Do not build an app and do not recruit employees before proof.
-
-## 14. Evidence target
-
-First proof sequence:
-
-```text
-OPTIONED SUPPLY
-→ 1 PROPERTY AUTHORIZES SMALL PILOT
-→ REAL RESIDENT PAID ORDERS
-→ EXTERNAL DELIVERY
-→ ACCEPTANCE / REWORK / SETTLEMENT
-→ SAME PROPERTY PRODUCES NEXT ORDERS
-→ PROVIDER REPLACEMENT TEST
-```
-
-Only real transactions can promote the candidate beyond `INVESTIGATE`.
+They may re-enter only through the same current Resource Imbalance + G0-G6 comparison process.
 
 ## 15. Commercial discipline
 
@@ -253,6 +301,9 @@ Complaint != Demand
 Demand != Willingness to Pay
 Trend != Business
 Growth != Money-Flow Understanding
+Paid Need != Resource Imbalance
+Resource Exists != Resource Is Underused
+DISCOVERED != OPTIONED
 Social Salience != Population Share
 Success Story != Base Rate
 Market Size != Customer Acquisition
@@ -269,8 +320,8 @@ UNKNOWN != PASS
 
 Do not build ERP/MES/CRM/marketplace infrastructure before real transaction density requires it.
 
-Continue engineering the sensing stack, but automate transaction operations only after real repeated bottlenecks appear.
+Continue engineering the sensing/evidence stack only where automation removes a repeated discovery bottleneck. Automate transaction operations only after real repeated bottlenecks appear.
 
 ## Governing invariant
 
-> **先把世界看清：维护数据源，追钱流，察人心，拆成功与失败案例，找到真实摩擦；再带着一个真实钩子进入市场，定结果、拆能力、调资源、设利益，让交易形成可持续循环。**
+> **先把世界看清：找到真实的不足，找到真实的有余，证明为什么它们没有成交；再用一个真实钩子进入市场，定结果、拆能力、调资源、设利益，让交换形成可持续循环。任何一边靠想象补齐，都只能停留在 UNKNOWN。**
