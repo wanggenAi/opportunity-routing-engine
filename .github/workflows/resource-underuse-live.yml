@@ -41,10 +41,11 @@ jobs:
         run: |
           python scripts/probe_xuzhou_agency_page.py
 
-      - name: Collect Xuzhou agency listings through official Jiangsu mirror
+      - name: Collect Xuzhou official agency listings and linked details
         run: |
           python scripts/collect_resource_underuse.py xuzhou-agency-assets \
             --limit 20 \
+            --require-listings \
             --output .local/xz_agency_asset_underuse.json
 
       - name: Upload resource-underuse evidence artifact
@@ -91,5 +92,5 @@ jobs:
                   if item['relisting_observed'] and not item['listing_round']:
                       raise SystemExit('relisting evidence requires an explicit listing round')
                   if path.name == 'xz_agency_asset_underuse.json' and not item['source_origin_verified']:
-                      raise SystemExit('agency mirror evidence must be verified as Xuzhou-origin')
+                      raise SystemExit('agency listing must retain official Xuzhou discovery provenance')
           PY
