@@ -7,7 +7,6 @@ import argparse
 import json
 import sys
 from dataclasses import asdict
-from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,56 +26,36 @@ def emit(payload, output):
         print(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True))
 
 
-class _MarkerContextParser(HTMLParser):
-    """Temporary diagnostic: report parser context around official project markers."""
-
-    def __init__(self):
-        super().__init__(convert_charrefs=True)
-        self.stack = []
-        self.hits = []
-
-    def _record(self, kind, text, stack=None):
-        compact = " ".join(str(text).split())
-        if any(marker in compact for marker in ("项目编号", "项目名称", "预算金额", "JSZC-")):
-            self.hits.append({
-                "kind": kind,
-                "stack": list(self.stack[-12:] if stack is None else stack),
-                "text": compact[:1200],
-                "text_length": len(compact),
-            })
-
-    def handle_starttag(self, tag, attrs):
-        self.stack.append(tag.lower())
-        self._record(
-            "attribute",
-            " ".join(f"{key}={value}" for key, value in attrs if value),
-        )
-
-    def handle_endtag(self, tag):
-        tag = tag.lower()
-        for index in range(len(self.stack) - 1, -1, -1):
-            if self.stack[index] == tag:
-                del self.stack[index:]
-                return
-
-    def handle_startendtag(self, tag, attrs):
-        self._record(
-            "attribute-selfclose",
-            " ".join(f"{key}={value}" for key, value in attrs if value),
-            self.stack[-12:] + [tag.lower()],
-        )
-
-    def handle_data(self, data):
-        self._record("data", data)
-
-    def handle_comment(self, data):
-        self._record("comment", data)
-
-    def handle_decl(self, decl):
-        self._record("declaration", decl)
-
-    def unknown_decl(self, data):
-        self._record("unknown-declaration", data)
+def _lexical_marker_context(html: str, marker: str) -> dict:
+    index = html.find(marker)
+    if index < 0:
+        return {"marker": marker, "index": -1}
+    lower = html.lower()
+    boundaries = {
+        "script_open": lower.rfind("<script", 0, index),
+        "script_close": lower.rfind("</script", 0, index),
+        "style_open": lower.rfind("<style", 0, index),
+        "style_close": lower.rfind("</style", 0, index),
+        "comment_open": html.rfind("<!--", 0, index),
+        "comment_close": html.rfind("-->", 0, index),
+        "tag_open": html.rfind("<", 0, index),
+        "tag_close": html.rfind(">", 0, index),
+    }
+    next_lt = html.find("<", index)
+    return {
+        "marker": marker,
+        "index": index,
+        "boundaries": boundaries,
+        "inside_script_lexically": boundaries["script_open"] > boundaries["script_close"],
+        "inside_style_lexically": boundaries["style_open"] > boundaries["style_close"],
+        "inside_comment_lexically": boundaries["comment_open"] > boundaries["comment_close"],
+        "preceding_fragment": " ".join(html[max(0, index - 350):index].split()),
+        "following_fragment": " ".join(html[index:min(len(html), index + 500)].split()),
+        "next_tag_fragment": (
+            " ".join(html[next_lt:min(len(html), next_lt + 250)].split())
+            if next_lt >= 0 else None
+        ),
+    }
 
 
 def _marker_context_probe(url: str) -> dict:
@@ -86,17 +65,22 @@ def _marker_context_probe(url: str) -> dict:
         timeout_seconds=30,
         retries=1,
     ).fetch(url, request_name="xz_ggzy.marker_context_probe")
-    parser = _MarkerContextParser()
-    parser.feed(envelope.html)
+    html = envelope.html
+    lower = html.lower()
     return {
         "payload_sha256": envelope.payload_sha256,
-        "html_chars": len(envelope.html),
-        "comment_open_count": envelope.html.count("<!--"),
-        "comment_close_count": envelope.html.count("-->"),
-        "script_open_count": envelope.html.lower().count("<script"),
-        "style_open_count": envelope.html.lower().count("<style"),
-        "template_open_count": envelope.html.lower().count("<template"),
-        "hits": parser.hits[:20],
+        "html_chars": len(html),
+        "comment_open_count": html.count("<!--"),
+        "comment_close_count": html.count("-->"),
+        "script_open_count": lower.count("<script"),
+        "script_close_count": lower.count("</script"),
+        "style_open_count": lower.count("<style"),
+        "style_close_count": lower.count("</style"),
+        "template_open_count": lower.count("<template"),
+        "marker_contexts": [
+            _lexical_marker_context(html, marker)
+            for marker in ("项目编号", "JSZC-320300-XZTY-G2026-0004", "预算金额")
+        ],
     }
 
 
