@@ -29,8 +29,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run PBC adapter tests
-        run: python -m unittest tests.test_pbc_money_flow -v
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
 
       - name: Collect latest official PBC money-flow report
         run: |
