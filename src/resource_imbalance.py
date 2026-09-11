@@ -283,7 +283,12 @@ def scan_imbalances(
     *,
     max_pairs_per_need: int = 5,
 ) -> list[ImbalanceRecord]:
-    """Create a bounded imbalance ledger without manufacturing missing sides."""
+    """Create a bounded imbalance ledger without manufacturing missing sides.
+
+    `max_pairs_per_need` limits emitted pair records only. A resource that shares an
+    exact key with any need is never relabelled RESOURCE_ONLY merely because it fell
+    outside that output bound.
+    """
 
     if not isinstance(max_pairs_per_need, int) or max_pairs_per_need <= 0:
         raise ValueError("max_pairs_per_need must be a positive integer")
@@ -304,13 +309,16 @@ def scan_imbalances(
             _pair_key(resource.capability_key, resource.geography), []
         ).append(resource)
 
-    used_resource_ids: set[str] = set()
+    need_keys = {
+        _pair_key(need.capability_key, need.geography)
+        for need in need_list
+    }
     result: list[ImbalanceRecord] = []
 
     for need in need_list:
         key = _pair_key(need.capability_key, need.geography)
-        matches = resources_by_key.get(key, [])[:max_pairs_per_need]
-        if not matches:
+        all_matches = resources_by_key.get(key, [])
+        if not all_matches:
             result.append(
                 ImbalanceRecord(
                     record_id=f"NEED::{need.signal_id}",
@@ -334,12 +342,12 @@ def scan_imbalances(
             continue
 
         blocker = _best_blocker(blocker_list, need.capability_key, need.geography)
-        for resource in matches:
-            used_resource_ids.add(resource.signal_id)
+        for resource in all_matches[:max_pairs_per_need]:
             result.append(evaluate_pair(need, resource, blocker))
 
     for resource in resource_list:
-        if resource.signal_id in used_resource_ids:
+        key = _pair_key(resource.capability_key, resource.geography)
+        if key in need_keys:
             continue
         result.append(
             ImbalanceRecord(
