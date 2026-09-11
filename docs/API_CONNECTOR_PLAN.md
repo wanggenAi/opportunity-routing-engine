@@ -54,7 +54,8 @@ Undocumented browser/XHR endpoints, session cookies, signed internal APIs or ant
 
 ## Connector states
 
-- `ACTIVE_LIVE` — bounded live probe succeeded and the source is eligible under the free-only policy.
+- `ACTIVE_LIVE` — bounded live probe succeeded and usable source data is available under the free-only policy.
+- `API_REACHABLE_DATA_UNAVAILABLE` — the official API endpoint/schema is reachable and valid, but current enabled datasets contain no usable non-blank payload. This is an upstream data state, not a code failure and not ACTIVE data.
 - `UNCONFIGURED_AUTH` — otherwise-eligible official connector/API lacks credentials/session.
 - `PERMISSION_REQUIRED` — credentials exist but desired scope still requires approval.
 - `AUTHENTICATED_NOT_PROBED` — auth prerequisites exist but no bounded live probe has succeeded.
@@ -62,9 +63,9 @@ Undocumented browser/XHR endpoints, session cookies, signed internal APIs or ant
 - `DISABLED_PAID_MVP` — intended use requires paid plan/credits and is disabled for current MVP.
 - `NO_OPEN_API` — provider exposes no open API for this product.
 - `MANUAL_AUTHORIZED_ONLY` — authenticated/manual research only; not automated as API.
-- `ERROR` — a previously eligible/configured connector failed its bounded probe.
+- `ERROR` — a previously eligible/configured connector failed its bounded probe because our contract, parser or transport was invalid.
 
-`credential_present != ACTIVE_LIVE`, `HTTP 200 != valid data`, and `missing != zero`.
+`credential_present != ACTIVE_LIVE`, `HTTP 200 != valid data`, `API status=1 != data_available`, and `missing/blank != zero`.
 
 ## Current connectors
 
@@ -74,14 +75,22 @@ Public HTTPS JSON source. Already live. It remains the reference pattern for hig
 
 ### MOFCOM public open-data platform
 
-The public-service open-data catalog exposes fully open datasets and documents JSON API paths. For the initial social-financing dataset, the currently published request path uses `http://opendata.mofcom.gov.cn/front/data/jsonData?...` even though the dataset-detail page is HTTPS.
+The public-service open-data catalog exposes fully open datasets and documents JSON API paths. The currently published request paths use `http://opendata.mofcom.gov.cn/front/data/jsonData?...` even though the dataset-detail pages are HTTPS.
+
+Production truth as of the current probe:
+- the documented endpoint is reachable from GitHub Actions;
+- two enabled official datasets return `status=1` / successful transport responses;
+- both currently return a blank string in `data`;
+- therefore the source state is `API_REACHABLE_DATA_UNAVAILABLE`, **not** `ACTIVE_LIVE`;
+- the scheduled probe remains green when the transport/schema contract is valid and records availability in its artifact; blank upstream data is an observed state, not a CI implementation failure.
 
 Therefore:
 - use a dedicated exact-endpoint client;
 - never enable generic HTTP in `JsonHttpClient`;
 - preserve raw payload/hash;
 - mark final HTTP transport lower-trust and require independent corroboration before money-flow promotion;
-- dataset-specific field semantics/freshness are validated separately after live payload inspection.
+- do not normalize or infer values from blank payloads;
+- prefer other free official releases/CSV/HTML sources while this API remains data-empty.
 
 ### Douyin OpenAPI
 
@@ -104,12 +113,13 @@ Use only free public reports/views permitted by the provider. Paid databases, cr
 1. Secret values never enter source, CSV, docs, issues, artifacts or ordinary logs.
 2. Code may record credential names/presence only, never values.
 3. OAuth access/refresh tokens are secrets.
-4. API transport success does not prove freshness or business meaning.
+4. API transport success does not prove freshness, availability or business meaning.
 5. API error/status=0 never becomes a numeric zero observation.
-6. Social/search signal is not a population-share estimate.
-7. Paid/unverified-cost connectors do not silently activate.
-8. A platform login does not authorize extraction beyond its documented/contracted interfaces.
-9. Plain HTTP official evidence is explicitly lower-trust and must be corroborated.
+6. API `status=1` with blank `data` remains unavailable.
+7. Social/search signal is not a population-share estimate.
+8. Paid/unverified-cost connectors do not silently activate.
+9. A platform login does not authorize extraction beyond its documented/contracted interfaces.
+10. Plain HTTP official evidence is explicitly lower-trust and must be corroborated.
 
 ## Psychology Tracker usage
 
