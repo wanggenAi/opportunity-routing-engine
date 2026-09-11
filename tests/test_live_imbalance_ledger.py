@@ -170,6 +170,47 @@ class LiveImbalanceLedgerTests(unittest.TestCase):
         transfer = classify_resource_listing(listing | {"listing_mode": "TRANSFER"})
         self.assertIsNone(transfer.capability_key)
 
+    def test_historical_procurement_award_creates_pair_but_not_route_testable(self):
+        live_need = {
+            "source_id": "XZ_GGZY",
+            "title": "徐州市水务局2026年度市管雨污水泵站设施维修养护市场化项目公开招标公告",
+            "project_id": "OPEN-2026-01",
+            "project_name": "2026年度市管雨污水泵站设施维修养护市场化",
+            "url": "https://ggzy.example.test/open-pump",
+            "publication_date": "2026-09-10",
+            "budget_rmb": "1883300.00",
+        }
+        historical_award = {
+            "source_id": "XZ_GGZY_PROCUREMENT_RESULT",
+            "title": "徐州市水务局2026年度市管雨污水泵站设施维修养护市场化中标结果公告采购包2",
+            "project_id": "OLD-2026-01",
+            "project_name": "2026年度市管雨污水泵站设施维修养护市场化、市直管截污闸门维修养护",
+            "url": "https://ggzy.example.test/result-pump",
+            "publication_date": "2026-09-09",
+            "buyer_actor": "徐州市水务局",
+            "supplier_name": "江苏山祥建设工程有限公司",
+            "supplier_credit_code": "91320312302101990G",
+            "award_amount_rmb": "1186000.00",
+        }
+        ledger = build_live_imbalance_ledger(
+            {"events": [live_need]},
+            provider_payloads=[{"awards": [historical_award]}],
+        )
+        self.assertEqual(ledger["source_input_counts"]["provider_awards"], 1)
+        self.assertEqual(ledger["status_counts"], {"PAIR_HYPOTHESIS": 1})
+        self.assertEqual(ledger["route_testable_count"], 0)
+        record = ledger["records"][0]
+        self.assertEqual(record["capability_key"], "WATER_PUMP_STATION_MAINTENANCE")
+        self.assertEqual(record["resource_state"], "DISCOVERED")
+        self.assertEqual(record["underuse_evidence_state"], "UNKNOWN")
+        self.assertIn("need side lacks direct paid evidence", record["reasons"])
+        self.assertIn("payer is not identified", record["reasons"])
+        self.assertIn("resource underuse is not observed", record["reasons"])
+        self.assertIn("transaction blocker is not identified", record["reasons"])
+        resource = ledger["signals"]["resources"][0]
+        self.assertEqual(resource["provider_actor"], "江苏山祥建设工程有限公司")
+        self.assertIn("historical public procurement award", resource["notes"])
+
 
 if __name__ == "__main__":
     unittest.main()
