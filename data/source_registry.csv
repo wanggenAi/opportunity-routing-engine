@@ -1,6 +1,6 @@
 source_id,name,source_tier,owner,base_url,geography,indicator_scope,access_mode,refresh_cadence,automation_allowed,status
 CN_NBS,国家统计局/国家数据,A,国家统计局,https://data.stats.gov.cn,China,"GDP;CPI;PPI;PMI;industrial;retail;investment;income;employment;population",PUBLIC_JSON_API,MONTHLY/QUARTERLY,"PUBLIC_ENDPOINT;RATE_LIMIT_UNKNOWN;TERMS_REVIEW_REQUIRED",ACTIVE_LIVE
-CN_MOFCOM_DATA,商务数据中心,A,商务部,https://data.mofcom.gov.cn,China,"consumption;ecommerce;trade;FDI;ODI",HTML/MANUAL,MONTHLY,UNKNOWN,ACTIVE
+CN_MOFCOM_DATA,商务部公共服务资源平台,A,商务部,https://opendata.mofcom.gov.cn,China,"social financing;consumption;trade;FDI;ODI;open-data catalogs",PUBLIC_JSON_API,IRREGULAR/MONTHLY,"FREE_PUBLIC_ENDPOINT;DATASET_WATCHLIST;NO_PAID_DATA",CANDIDATE_LIVE_FREE_API
 CN_MOFCOM_CIF,商务预报,A,商务部,https://cif.mofcom.gov.cn,China,"consumer market;production materials;market monitoring",HTML/MANUAL,WEEKLY/MONTHLY,UNKNOWN,ACTIVE
 CN_PBOC,中国人民银行,A,中国人民银行,https://www.pbc.gov.cn,China,"money;credit;social financing;deposits;loans",HTML/MANUAL,MONTHLY,UNKNOWN,ACTIVE
 CN_CUSTOMS,海关总署,A,海关总署,https://www.customs.gov.cn,China,"imports;exports;commodity trade;trade partners",HTML/MANUAL,MONTHLY,UNKNOWN,ACTIVE
