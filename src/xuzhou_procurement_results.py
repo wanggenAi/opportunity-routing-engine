@@ -10,7 +10,9 @@ Truth boundaries:
 - award amount -> completed/awarded transaction evidence for that historical project;
 - supplier identity -> DISCOVERED capability provider, not controlled supply;
 - no current availability or underuse is inferred;
-- void/failed packages without a supplier row produce no provider evidence.
+- void/failed packages without a supplier row produce no provider evidence;
+- paginated history is bounded and may be pre-filtered by an exact capability rule
+  before detail pages are fetched.
 """
 
 from __future__ import annotations
@@ -19,7 +21,7 @@ import re
 from dataclasses import asdict, dataclass
 from decimal import Decimal, InvalidOperation
 from html import unescape
-from typing import Any
+from typing import Any, Callable, Mapping
 
 from src.html_ingest import PublicHtmlClient, html_to_document, normalize_whitespace
 
@@ -98,6 +100,21 @@ def _money_to_rmb(raw_number: str, unit: str) -> str | None:
     elif unit == "亿元":
         multiplier = Decimal("100000000")
     return format((value * multiplier).quantize(Decimal("0.01")), "f")
+
+
+def _history_page_url(list_url: str, page: int) -> str:
+    """Return the site's canonical numbered history page URL.
+
+    The live first page is ``list.html``; historical pages are siblings such as
+    ``2.html``, ``3.html`` and so on.
+    """
+
+    if page < 1:
+        raise ValueError("page must be >= 1")
+    if page == 1:
+        return list_url
+    base = list_url.rsplit("/", 1)[0]
+    return f"{base}/{page}.html"
 
 
 def _extract_award_rows(html: str) -> list[dict[str, str | None]]:
@@ -200,6 +217,76 @@ class XuzhouProcurementResultAdapter:
             "provenance": envelope.metadata(),
         }
 
+    def discover_history(
+        self,
+        *,
+        pages: int = 5,
+        list_url: str = XZ_PROCUREMENT_RESULT_LIST,
+        item_filter: Callable[[Mapping[str, Any]], bool] | None = None,
+        max_items: int = 100,
+    ) -> dict[str, Any]:
+        """Boundedly scan numbered result pages and keep only relevant titles.
+
+        Filtering occurs on list-page metadata before any detail page is fetched.
+        This is important because the public result archive is very large; the engine
+        should backfill evidence for known canonical capabilities rather than scrape
+        the entire archive.
+        """
+
+        if not isinstance(pages, int) or pages < 1 or pages > 50:
+            raise ValueError("pages must be between 1 and 50")
+        if not isinstance(max_items, int) or max_items < 1 or max_items > 500:
+            raise ValueError("max_items must be between 1 and 500")
+
+        selected: list[dict[str, Any]] = []
+        seen: set[str] = set()
+        page_summaries: list[dict[str, Any]] = []
+        raw_item_count = 0
+
+        for page in range(1, pages + 1):
+            page_url = _history_page_url(list_url, page)
+            discovery = self.discover_recent(list_url=page_url, limit=200)
+            page_items = list(discovery["items"])
+            raw_item_count += len(page_items)
+            selected_on_page = 0
+            for item in page_items:
+                url = str(item.get("url") or "")
+                if not url or url in seen:
+                    continue
+                seen.add(url)
+                if item_filter is not None and not item_filter(item):
+                    continue
+                selected.append(item)
+                selected_on_page += 1
+                if len(selected) >= max_items:
+                    break
+            page_summaries.append(
+                {
+                    "page": page,
+                    "url": page_url,
+                    "raw_item_count": len(page_items),
+                    "selected_item_count": selected_on_page,
+                    "provenance": discovery["provenance"],
+                }
+            )
+            if len(selected) >= max_items:
+                break
+            # A numbered page with no detail links is treated as archive exhaustion.
+            if not page_items:
+                break
+
+        return {
+            "source_id": "XZ_GGZY_PROCUREMENT_RESULT",
+            "list_url": list_url,
+            "requested_pages": pages,
+            "scanned_pages": len(page_summaries),
+            "raw_item_count": raw_item_count,
+            "item_count": len(selected),
+            "items": selected,
+            "pages": page_summaries,
+            "filter_applied": item_filter is not None,
+        }
+
     def fetch_awards(
         self,
         url: str,
@@ -261,22 +348,33 @@ class XuzhouProcurementResultAdapter:
                 return line
         return fallback or html_title
 
-    def collect_recent_awards(self, *, limit: int = 20) -> dict[str, Any]:
-        discovery = self.discover_recent(limit=limit)
+    def _collect_from_discovery(
+        self,
+        discovery: Mapping[str, Any],
+        *,
+        max_details: int | None = None,
+    ) -> dict[str, Any]:
+        items = list(discovery.get("items", []) or [])
+        if max_details is not None:
+            if not isinstance(max_details, int) or max_details < 1 or max_details > 200:
+                raise ValueError("max_details must be between 1 and 200")
+            items = items[:max_details]
+
         awards: list[dict[str, Any]] = []
         errors: list[dict[str, str]] = []
         no_supplier_result_count = 0
-        for item in discovery["items"]:
+        for item in items:
             try:
                 parsed = self.fetch_awards(item["url"], fallback_title=item["title"])
                 if not parsed:
                     no_supplier_result_count += 1
                 awards.extend(asdict(award) for award in parsed)
             except Exception as exc:
-                errors.append({"url": item["url"], "error": str(exc)})
+                errors.append({"url": str(item.get("url") or ""), "error": str(exc)})
         return {
             "source_id": "XZ_GGZY_PROCUREMENT_RESULT",
-            "discovery": discovery,
+            "discovery": dict(discovery),
+            "detail_fetch_count": len(items),
             "award_count": len(awards),
             "no_supplier_result_count": no_supplier_result_count,
             "error_count": len(errors),
@@ -287,3 +385,21 @@ class XuzhouProcurementResultAdapter:
                 "they do not prove current provider availability, underuse, or orchestrator control."
             ),
         }
+
+    def collect_recent_awards(self, *, limit: int = 20) -> dict[str, Any]:
+        return self._collect_from_discovery(self.discover_recent(limit=limit))
+
+    def collect_history_awards(
+        self,
+        *,
+        pages: int = 5,
+        item_filter: Callable[[Mapping[str, Any]], bool] | None = None,
+        max_items: int = 100,
+        max_details: int = 40,
+    ) -> dict[str, Any]:
+        discovery = self.discover_history(
+            pages=pages,
+            item_filter=item_filter,
+            max_items=max_items,
+        )
+        return self._collect_from_discovery(discovery, max_details=max_details)
