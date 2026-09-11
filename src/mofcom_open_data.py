@@ -1,30 +1,38 @@
 """Free official MOFCOM open-data API adapter.
 
-The Ministry of Commerce public-service open-data platform publishes dataset detail
-pages that explicitly expose JSON API request paths.  This adapter keeps the first
-integration deliberately generic: transport/provenance are normalized, but dataset
-business semantics remain in the watchlist and are not guessed from arbitrary JSON.
+MOFCOM's current HTTPS dataset-detail pages explicitly document JSON API request
+paths using plain HTTP.  We do not weaken the repository-wide HTTPS JSON client for
+that exception.  Instead this module isolates the exact documented host/path and
+marks every result as PLAINTEXT_HTTP so downstream code can require corroboration.
 
 Truth rules:
-- HTTP/API success != current/fresh data;
+- transport/API success != current/fresh data;
 - API status=0 is an error, never zero-valued evidence;
 - missing data remains unavailable;
-- raw payload is preserved for later schema-specific normalization;
-- only the official open-data host is allowlisted.
+- raw payload is preserved before dataset-specific normalization;
+- plain-HTTP MOFCOM evidence is lower-trust and must be corroborated before it can
+  promote a money-flow conclusion.
 """
 
 from __future__ import annotations
 
 import csv
+import hashlib
+import json
 from dataclasses import asdict, dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Mapping
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode, urlparse
+from urllib.request import Request, urlopen
 
-from src.network_ingest import JsonHttpClient
+from src.network_ingest import FetchEnvelope
 
 
 MOFCOM_HOST = "opendata.mofcom.gov.cn"
-MOFCOM_JSON_ENDPOINT = "https://opendata.mofcom.gov.cn/front/data/jsonData"
+MOFCOM_PATH = "/front/data/jsonData"
+MOFCOM_JSON_ENDPOINT = f"http://{MOFCOM_HOST}{MOFCOM_PATH}"
 
 
 class MofcomOpenDataError(RuntimeError):
@@ -38,7 +46,6 @@ class MofcomDatasetSpec:
     theme: str
     refresh_cadence: str
     enabled: bool
-
 
 
 def load_mofcom_watchlist(path: str | Path) -> list[MofcomDatasetSpec]:
@@ -72,21 +79,76 @@ def load_mofcom_watchlist(path: str | Path) -> list[MofcomDatasetSpec]:
     return result
 
 
-class MofcomOpenDataAdapter:
-    def __init__(self, client: JsonHttpClient | None = None) -> None:
-        self.client = client or JsonHttpClient(
-            source_id="CN_MOFCOM_OPEN_DATA",
-            allowed_hosts={MOFCOM_HOST},
-            timeout_seconds=30,
-            retries=2,
+class MofcomOfficialHttpClient:
+    """Exact-host/path client for the plain-HTTP endpoint documented by MOFCOM."""
+
+    def __init__(self, *, timeout_seconds: float = 30.0, max_response_bytes: int = 8_000_000) -> None:
+        self.timeout_seconds = timeout_seconds
+        self.max_response_bytes = max_response_bytes
+
+    def request_dataset(self, dataset_id: str, *, request_name: str) -> FetchEnvelope:
+        query = urlencode({"id": dataset_id})
+        requested_url = f"{MOFCOM_JSON_ENDPOINT}?{query}"
+        parsed = urlparse(requested_url)
+        if parsed.scheme != "http" or parsed.hostname != MOFCOM_HOST or parsed.path != MOFCOM_PATH:
+            raise MofcomOpenDataError("MOFCOM HTTP client only permits the documented exact endpoint")
+        request = Request(
+            requested_url,
+            headers={
+                "Accept": "application/json, text/plain, */*",
+                "User-Agent": "OpportunityRoutingEngine/0.1 (+public-evidence-ingest)",
+            },
+            method="GET",
         )
+        try:
+            response = urlopen(request, timeout=self.timeout_seconds)
+        except (HTTPError, URLError, TimeoutError, OSError) as exc:
+            raise MofcomOpenDataError(f"MOFCOM documented HTTP endpoint failed: {exc}") from exc
+        try:
+            final_url = str(getattr(response, "geturl", lambda: requested_url)())
+            final = urlparse(final_url)
+            if final.hostname != MOFCOM_HOST or final.path != MOFCOM_PATH or final.scheme not in {"http", "https"}:
+                raise MofcomOpenDataError(f"unexpected MOFCOM redirect target: {final_url}")
+            body = response.read(self.max_response_bytes + 1)
+            if len(body) > self.max_response_bytes:
+                raise MofcomOpenDataError("MOFCOM response exceeded size limit")
+            try:
+                text = body.decode("utf-8-sig")
+            except UnicodeDecodeError:
+                text = body.decode("gb18030")
+            if text.lstrip().startswith("<"):
+                raise MofcomOpenDataError("MOFCOM API returned HTML instead of JSON")
+            try:
+                payload = json.loads(text)
+            except json.JSONDecodeError as exc:
+                raise MofcomOpenDataError("MOFCOM API returned malformed JSON") from exc
+            headers = getattr(response, "headers", None)
+            content_type = str(headers.get("Content-Type", "")) if headers is not None else ""
+            status = int(getattr(response, "status", None) or response.getcode())
+            return FetchEnvelope(
+                source_id="CN_MOFCOM_OPEN_DATA",
+                request_name=request_name,
+                url=final_url,
+                fetched_at_utc=datetime.now(timezone.utc).isoformat(),
+                http_status=status,
+                content_type=content_type,
+                payload_sha256=hashlib.sha256(body).hexdigest(),
+                payload=payload,
+            )
+        finally:
+            close = getattr(response, "close", None)
+            if callable(close):
+                close()
+
+
+class MofcomOpenDataAdapter:
+    def __init__(self, client: Any | None = None) -> None:
+        self.client = client or MofcomOfficialHttpClient()
 
     def fetch_dataset(self, spec: MofcomDatasetSpec) -> dict[str, Any]:
-        envelope = self.client.request_json(
-            "GET",
-            MOFCOM_JSON_ENDPOINT,
+        envelope = self.client.request_dataset(
+            spec.dataset_id,
             request_name=f"mofcom.open_data.{spec.dataset_id}",
-            params={"id": spec.dataset_id},
         )
         payload = envelope.payload
         if not isinstance(payload, Mapping):
@@ -103,10 +165,8 @@ class MofcomOpenDataAdapter:
             raise MofcomOpenDataError("MOFCOM API success response has no data")
 
         data = payload["data"]
-        if isinstance(data, (list, dict)):
-            item_count = len(data)
-        else:
-            item_count = 1
+        item_count = len(data) if isinstance(data, (list, dict)) else 1
+        final_scheme = urlparse(envelope.url).scheme
         return {
             "source_id": "CN_MOFCOM_OPEN_DATA",
             "dataset": asdict(spec),
@@ -115,10 +175,12 @@ class MofcomOpenDataAdapter:
             "data_type": type(data).__name__,
             "top_level_item_count": item_count,
             "data": data,
+            "transport_security": "HTTPS" if final_scheme == "https" else "PLAINTEXT_HTTP",
+            "corroboration_required": final_scheme != "https",
             "provenance": envelope.metadata(),
             "truth_note": (
-                "API transport success proves only that the official endpoint returned data; "
-                "freshness and dataset-specific semantics require separate validation."
+                "The API path is officially documented, but plain-HTTP transport is lower-trust. "
+                "Freshness, semantics and any money-flow promotion require independent corroboration."
             ),
         }
 
@@ -130,9 +192,7 @@ class MofcomOpenDataAdapter:
             try:
                 results.append(self.fetch_dataset(spec))
             except Exception as exc:
-                errors.append(
-                    {"dataset_id": spec.dataset_id, "name": spec.name, "error": str(exc)}
-                )
+                errors.append({"dataset_id": spec.dataset_id, "name": spec.name, "error": str(exc)})
         return {
             "source_id": "CN_MOFCOM_OPEN_DATA",
             "enabled_dataset_count": len(enabled),
