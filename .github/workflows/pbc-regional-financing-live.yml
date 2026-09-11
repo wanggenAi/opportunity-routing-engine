@@ -10,6 +10,7 @@ on:
       - "src/pbc_regional_financing.py"
       - "scripts/collect_pbc_regional_financing.py"
       - "tests/test_pbc_regional_financing.py"
+      - "data/source_registry.csv"
       - ".github/workflows/pbc-regional-financing-live.yml"
   push:
     paths:
@@ -17,6 +18,7 @@ on:
       - "src/pbc_regional_financing.py"
       - "scripts/collect_pbc_regional_financing.py"
       - "tests/test_pbc_regional_financing.py"
+      - "data/source_registry.csv"
       - ".github/workflows/pbc-regional-financing-live.yml"
 
 permissions:
