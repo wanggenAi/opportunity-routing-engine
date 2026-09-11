@@ -126,7 +126,7 @@ class XuzhouProcurementResultTests(unittest.TestCase):
         self.assertEqual(awards[0].supplier_name, "徐州城建排水有限公司")
         self.assertNotEqual(awards[0].supplier_name, "上海启呈信息科技有限公司")
 
-    def test_package_specific_url_fails_closed_when_table_package_is_unresolved(self):
+    def test_package_specific_page_can_bind_an_unlabeled_single_table(self):
         detail = """<html><body>
         <h1>某维修项目中标结果公告采购包1</h1>
         <table>
@@ -140,7 +140,9 @@ class XuzhouProcurementResultTests(unittest.TestCase):
         awards = adapter.fetch_awards(
             "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004006/20260909/11111111-1111-1111-1111-111111111111.html"
         )
-        self.assertEqual(awards, [])
+        self.assertEqual(len(awards), 1)
+        self.assertEqual(awards[0].package_name, "采购包1")
+        self.assertEqual(awards[0].supplier_name, "某供应商")
 
     def test_failed_package_without_supplier_row_is_not_provider_evidence(self):
         detail = """<html><body>
