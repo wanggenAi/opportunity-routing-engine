@@ -44,7 +44,7 @@ jobs:
           if-no-files-found: error
           include-hidden-files: true
 
-      - name: Validate provenance and truth boundaries
+      - name: Validate provenance and actual data availability
         run: |
           python - <<'PY'
           import json
@@ -53,11 +53,16 @@ jobs:
 
           data = json.loads(Path('.local/mofcom_open_data.json').read_text(encoding='utf-8'))
           print('errors:', json.dumps(data['errors'], ensure_ascii=False))
-          if data['success_count'] < 1:
-              raise SystemExit('no successful MOFCOM API response')
+          print(
+              'responses=', data['response_count'],
+              'available=', data['available_count'],
+              'unavailable=', data['unavailable_count'],
+          )
+          if data['response_count'] < 1:
+              raise SystemExit('no successful MOFCOM API transport response')
           for item in data['datasets']:
               if item['api_status'] != 1:
-                  raise SystemExit('status!=1 must not enter successful datasets')
+                  raise SystemExit('status!=1 must not enter successful transport responses')
               provenance = item['provenance']
               if not provenance.get('payload_sha256'):
                   raise SystemExit('missing provenance hash')
@@ -76,9 +81,13 @@ jobs:
                   raise SystemExit('unknown transport security state')
               print(
                   item['dataset']['name'],
+                  'available=', item['data_available'],
                   item['data_type'],
                   item['top_level_item_count'],
                   item['transport_security'],
-                  'corroboration_required=', item['corroboration_required'],
+              )
+          if data['available_count'] < 1:
+              raise SystemExit(
+                  'MOFCOM endpoint is reachable but enabled datasets returned no non-blank data'
               )
           PY
