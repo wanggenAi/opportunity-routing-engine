@@ -162,6 +162,10 @@ def _underuse_evidence(text: str) -> tuple[str, str | None]:
         r"标的状态[：:\s]*空置",
         r"房屋现状[^。\n]{0,80}空置",
         r"目前[^。\n]{0,80}(?:闲置|空置)",
+        # Explicit source wording such as "闲置资产整体转让" is itself a direct
+        # state assertion. Keep this bounded to concrete asset nouns so generic
+        # narrative mentions of "闲置" do not become observed underuse.
+        r"闲置(?:资产|房产|房屋|厂房|设备|土地|场地|商铺|门面|办公用房|用房)",
     )
     for pattern in patterns:
         match = re.search(pattern, text)
