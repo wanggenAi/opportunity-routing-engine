@@ -1,0 +1,57 @@
+name: jiangsu-local-dynamics-diagnostic
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/jiangsu-local-dynamics-diagnostic.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Inspect official Jiangsu local-dynamics discovery chain
+        run: |
+          python - <<'PY'
+          import re
+          from urllib.parse import urljoin
+          from urllib.request import Request, urlopen
+
+          urls = [
+              'https://www.jiangsu.gov.cn/col/col33718/index.html',
+              'https://www.jiangsu.gov.cn/col/col33718/?pageNum=1&uid=212860',
+          ]
+          headers = {
+              'User-Agent': 'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)',
+              'Accept': 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.5',
+          }
+          for url in urls:
+              req = Request(url, headers=headers)
+              with urlopen(req, timeout=20) as r:
+                  raw = r.read(2_000_000)
+                  html = raw.decode('utf-8', errors='ignore')
+                  print('PAGE', url, 'status=', r.status, 'final=', r.geturl(), 'bytes=', len(raw), 'type=', r.headers.get('Content-Type'))
+              print('HTML_BEGIN')
+              print(html[:100000])
+              print('HTML_END')
+              refs = []
+              for pat in (r'<iframe[^>]+src=["\']([^"\']+)', r'<script[^>]+src=["\']([^"\']+)', r'<a[^>]+href=["\']([^"\']+)'):
+                  for value in re.findall(pat, html, flags=re.I):
+                      absolute = urljoin(url, value)
+                      if 'jiangsu.gov.cn' in absolute:
+                          refs.append(absolute)
+              print('OFFICIAL_REFS=', list(dict.fromkeys(refs))[:300])
+              for needle in ('212860', 'pageNum', 'col33718', 'art_33718', '徐州市政府办公室'):
+                  hits = [m.start() for m in re.finditer(re.escape(needle), html, flags=re.I)]
+                  print('NEEDLE', needle, 'hits=', len(hits))
+                  for i in hits[:10]:
+                      print(html[max(0, i-500):min(len(html), i+1000)])
+                      print('---')
+          PY
