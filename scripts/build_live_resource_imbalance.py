@@ -63,6 +63,12 @@ def main() -> int:
         help="Resource-underuse JSON artifact; may be supplied multiple times",
     )
     parser.add_argument(
+        "--provider-json",
+        action="append",
+        default=[],
+        help="Historical capability-provider award artifact; may be supplied multiple times",
+    )
+    parser.add_argument(
         "--blockers-csv",
         help="Optional evidence-reviewed canonical BlockerSignal CSV",
     )
@@ -73,11 +79,13 @@ def main() -> int:
 
     procurement = _read_json(args.procurement_json)
     resources = [_read_json(path) for path in args.resource_json]
+    providers = [_read_json(path) for path in args.provider_json]
     blockers = _load_blockers(args.blockers_csv)
     ledger = build_live_imbalance_ledger(
         procurement,
         resources,
         blockers,
+        provider_payloads=providers,
         geography=args.geography,
         max_pairs_per_need=args.max_pairs_per_need,
     )
