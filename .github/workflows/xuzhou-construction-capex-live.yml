@@ -1,0 +1,116 @@
+name: xuzhou-construction-capex-live
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 5 * * *"
+  pull_request:
+    paths:
+      - "src/xuzhou_construction_capex.py"
+      - "scripts/collect_xuzhou_construction_capex.py"
+      - "tests/test_xuzhou_construction_capex.py"
+      - "data/source_registry.csv"
+      - ".github/workflows/xuzhou-construction-capex-live.yml"
+  push:
+    paths:
+      - "src/xuzhou_construction_capex.py"
+      - "scripts/collect_xuzhou_construction_capex.py"
+      - "tests/test_xuzhou_construction_capex.py"
+      - "data/source_registry.csv"
+      - ".github/workflows/xuzhou-construction-capex-live.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  collect-xuzhou-construction-capex:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect recent official Xuzhou construction tender notices
+        run: |
+          python scripts/collect_xuzhou_construction_capex.py \
+            --limit 10 \
+            --output .local/xuzhou_construction_capex.json
+
+      - name: Validate Xuzhou construction capex evidence contract
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import date
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          data = json.loads(Path('.local/xuzhou_construction_capex.json').read_text(encoding='utf-8'))
+          if data.get('source_id') != 'XZ_GGZY':
+              raise SystemExit('unexpected source id')
+          if data.get('event_kind') != 'CONSTRUCTION_TENDER_NOTICE':
+              raise SystemExit('unexpected event kind')
+          if data.get('discovery', {}).get('item_count', 0) < 5:
+              raise SystemExit(f'too few current construction notices discovered: {data.get("discovery", {}).get("item_count")}')
+          if data.get('event_count', 0) < 5:
+              raise SystemExit(f'too few construction notices parsed: {data.get("event_count")}')
+          if data.get('error_count', 0) > 2:
+              raise SystemExit(f'too many construction parse errors: {data.get("errors")}')
+          if data.get('amount_evidence_count', 0) < 3:
+              raise SystemExit(f'too few tender contract estimates: {data.get("amount_evidence_count")}')
+          if data.get('funding_evidence_count', 0) < 3:
+              raise SystemExit(f'too few funding-source observations: {data.get("funding_evidence_count")}')
+          if 'NO_SUM_WITHOUT_PROJECT_DEDUP' not in data.get('aggregation_policy', ''):
+              raise SystemExit('missing anti-double-count aggregation policy')
+
+          latest = None
+          for event in data['events']:
+              parsed = urlparse(event['url'])
+              if parsed.scheme != 'https' or parsed.hostname != 'ggzy.zwb.xz.gov.cn':
+                  raise SystemExit(f'unexpected event URL: {event["url"]}')
+              provenance = event['provenance']
+              purl = urlparse(provenance['url'])
+              if purl.scheme != 'https' or purl.hostname != 'ggzy.zwb.xz.gov.cn':
+                  raise SystemExit(f'unexpected provenance URL: {provenance["url"]}')
+              if not provenance.get('payload_sha256'):
+                  raise SystemExit('missing event provenance hash')
+              if event.get('contract_estimate_rmb') is not None and float(event['contract_estimate_rmb']) <= 0:
+                  raise SystemExit(f'non-positive contract estimate: {event}')
+              event_date = date.fromisoformat(event['publication_date'])
+              latest = max(latest, event_date) if latest else event_date
+
+          index_meta = data['discovery']['provenance']
+          index_url = urlparse(index_meta['url'])
+          if index_url.scheme != 'https' or index_url.hostname != 'ggzy.zwb.xz.gov.cn':
+              raise SystemExit(f'unexpected list provenance URL: {index_meta["url"]}')
+          if not index_meta.get('payload_sha256'):
+              raise SystemExit('missing list provenance hash')
+          if latest is None or (date.today() - latest).days > 30:
+              raise SystemExit(f'latest construction notice is stale: {latest}')
+
+          print('discovered=', data['discovery']['item_count'])
+          print('events=', data['event_count'])
+          print('errors=', data['error_count'])
+          print('amount_evidence=', data['amount_evidence_count'])
+          print('funding_evidence=', data['funding_evidence_count'])
+          print('reissues=', data['reissue_count'])
+          print('latest_publication_date=', latest.isoformat())
+          print('events_json=', json.dumps(data['events'], ensure_ascii=False, sort_keys=True))
+          PY
+
+      - name: Upload Xuzhou construction capex evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xuzhou-construction-capex-evidence
+          path: .local/xuzhou_construction_capex.json
+          retention-days: 14
+          if-no-files-found: error
+          include-hidden-files: true
