@@ -28,22 +28,29 @@ def emit(payload, output):
 
 
 class _MarkerContextParser(HTMLParser):
-    """Temporary diagnostic: report tag stack around official project markers."""
+    """Temporary diagnostic: report parser context around official project markers."""
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.stack = []
         self.hits = []
 
+    def _record(self, kind, text, stack=None):
+        compact = " ".join(str(text).split())
+        if any(marker in compact for marker in ("项目编号", "项目名称", "预算金额", "JSZC-")):
+            self.hits.append({
+                "kind": kind,
+                "stack": list(self.stack[-12:] if stack is None else stack),
+                "text": compact[:1200],
+                "text_length": len(compact),
+            })
+
     def handle_starttag(self, tag, attrs):
         self.stack.append(tag.lower())
-        attr_text = " ".join(f"{key}={value}" for key, value in attrs if value)
-        if any(marker in attr_text for marker in ("项目编号", "项目名称", "预算金额")):
-            self.hits.append({
-                "kind": "attribute",
-                "stack": self.stack[-12:],
-                "text": attr_text[:500],
-            })
+        self._record(
+            "attribute",
+            " ".join(f"{key}={value}" for key, value in attrs if value),
+        )
 
     def handle_endtag(self, tag):
         tag = tag.lower()
@@ -53,22 +60,23 @@ class _MarkerContextParser(HTMLParser):
                 return
 
     def handle_startendtag(self, tag, attrs):
-        attr_text = " ".join(f"{key}={value}" for key, value in attrs if value)
-        if any(marker in attr_text for marker in ("项目编号", "项目名称", "预算金额")):
-            self.hits.append({
-                "kind": "attribute-selfclose",
-                "stack": self.stack[-12:] + [tag.lower()],
-                "text": attr_text[:500],
-            })
+        self._record(
+            "attribute-selfclose",
+            " ".join(f"{key}={value}" for key, value in attrs if value),
+            self.stack[-12:] + [tag.lower()],
+        )
 
     def handle_data(self, data):
-        compact = " ".join(data.split())
-        if any(marker in compact for marker in ("项目编号", "项目名称", "预算金额", "JSZC-")):
-            self.hits.append({
-                "kind": "data",
-                "stack": self.stack[-12:],
-                "text": compact[:700],
-            })
+        self._record("data", data)
+
+    def handle_comment(self, data):
+        self._record("comment", data)
+
+    def handle_decl(self, decl):
+        self._record("declaration", decl)
+
+    def unknown_decl(self, data):
+        self._record("unknown-declaration", data)
 
 
 def _marker_context_probe(url: str) -> dict:
@@ -83,6 +91,11 @@ def _marker_context_probe(url: str) -> dict:
     return {
         "payload_sha256": envelope.payload_sha256,
         "html_chars": len(envelope.html),
+        "comment_open_count": envelope.html.count("<!--"),
+        "comment_close_count": envelope.html.count("-->"),
+        "script_open_count": envelope.html.lower().count("<script"),
+        "style_open_count": envelope.html.lower().count("<style"),
+        "template_open_count": envelope.html.lower().count("<template"),
         "hits": parser.hits[:20],
     }
 
