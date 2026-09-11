@@ -7,80 +7,110 @@ The discovery engine needs two broad families of machine inputs:
 1. **Macro / money / resource evidence** — official statistics, procurement, transactions, employment, prices, assets.
 2. **Behavior / psychology evidence** — search interest, public content, trend velocity, topic salience, interaction patterns, local-life signals.
 
-The second family is useful for the Consumer Psychology & Behavior Tracker, but it never promotes a commercial opportunity by itself.  Social/search evidence must still be corroborated by behavior and money-flow evidence.
+Behavior/social/search evidence never promotes a commercial opportunity by itself. It must be corroborated by behavior and money/resource evidence.
 
-## Authorization classes
+## Zero-paid-data MVP policy — LOCKED
 
-### PUBLIC_API
-Anonymous official endpoint. Example: current National Bureau of Statistics JSON endpoints.
+During the current MVP, a connector may enter production only when its intended use has **zero incremental data/API usage fee**.
+
+- do not buy API credits, subscriptions or data packages;
+- do not activate a connector merely because credentials exist;
+- do not replace a paid/open-API limitation with undocumented browser/XHR endpoints;
+- paid sources may remain documented for future review, but their state is `DISABLED_PAID_MVP`;
+- if pricing or scope cost is unclear, state is `FREE_ONLY_REVIEW_REQUIRED`, not ACTIVE.
+
+This policy is about the current MVP cost boundary, not a claim that paid data is never valuable.
+
+## Authorization / transport classes
+
+### PUBLIC_API_HTTPS
+Anonymous official HTTPS endpoint. Example: the current National Bureau of Statistics JSON endpoints. This is the preferred machine source.
+
+### PUBLIC_API_HTTP_OFFICIAL
+An official HTTPS documentation/catalog page explicitly publishes an API endpoint that is still plain HTTP. This is allowed only as a **source-specific exact host/path exception**. It must not weaken the repository-wide HTTPS client.
+
+Rules:
+- exact documented host/path only;
+- redirect may remain on the same host/path and move to HTTPS;
+- provenance must record the final URL and body hash;
+- if the final transport remains HTTP, evidence is marked `PLAINTEXT_HTTP` and `corroboration_required=true`;
+- plain-HTTP evidence cannot by itself promote a money-flow conclusion.
+
+Current example: MOFCOM public open-data JSON endpoint.
 
 ### OFFICIAL_AUTHORIZED_API
-A developer account/application receives official credentials such as `client_key`, `client_secret`, `access_token`, or OAuth grants.  This is acceptable for production automation when the requested scope is approved.
+An official developer application receives `client_key`, `client_secret`, OAuth/access tokens or equivalent. Acceptable only when the exact intended scopes are authorized **and zero incremental usage fee is verified for MVP**.
 
-Secrets must be stored server-side.  For GitHub Actions, use repository/environment Secrets.  Never commit credentials or paste their values into logs/artifacts.
+Secrets live only in server-side secret stores such as GitHub Actions Secrets. Never commit or log them.
 
 ### OFFICIAL_CONNECTOR
-The platform supplies a supported command-line/agent connector rather than requiring us to reproduce HTTP auth.  Weibo CLI is currently handled this way.  Binary installation alone is not proof of auth; `whoami`/equivalent must pass before a connector becomes `ACTIVE_LIVE`.
+Provider-supported CLI/agent connector. It is still subject to the zero-paid-data policy. Being official does not make a paid connector eligible for MVP.
 
 ### LOGIN_MANUAL_NO_OPEN_API
-The product can be used after login but the provider does not expose an open API.  Baidu Index currently belongs here according to its official help.  Do not replace this with reverse-engineered internal browser endpoints.
+The product can be used after login but the provider exposes no suitable open API. Authorized/manual free research may be used; reverse-engineered internal browser endpoints are not production connectors.
 
 ### PRIVATE_INTERNAL
-Undocumented browser/XHR endpoints, session cookies, signed internal APIs or anti-bot flows that are not an authorized developer contract.  These are **not** production connectors merely because a logged-in browser can call them.
+Undocumented browser/XHR endpoints, session cookies, signed internal APIs or anti-bot flows that are not an authorized developer contract. These are not production connectors.
 
 ## Connector states
 
-- `ACTIVE_LIVE` — authenticated/authorized and a bounded live probe has succeeded.
-- `UNCONFIGURED_AUTH` — official connector/API exists but credentials/session have not been configured.
-- `PERMISSION_REQUIRED` — credentials exist but the desired API scope still requires approval.
-- `AUTHENTICATED_NOT_PROBED` — credential prerequisites exist, but no successful bounded probe has yet proven access.
-- `NO_OPEN_API` — provider explicitly exposes no open API for this product.
-- `MANUAL_AUTHORIZED_ONLY` — authenticated manual/browser research may be used under provider terms but not automated as API.
-- `ERROR` — a previously configured connector failed its bounded probe.
+- `ACTIVE_LIVE` — bounded live probe succeeded and the source is eligible under the free-only policy.
+- `UNCONFIGURED_AUTH` — otherwise-eligible official connector/API lacks credentials/session.
+- `PERMISSION_REQUIRED` — credentials exist but desired scope still requires approval.
+- `AUTHENTICATED_NOT_PROBED` — auth prerequisites exist but no bounded live probe has succeeded.
+- `FREE_ONLY_REVIEW_REQUIRED` — official access may exist, but zero incremental usage fee for our exact scope is not yet proven.
+- `DISABLED_PAID_MVP` — intended use requires paid plan/credits and is disabled for current MVP.
+- `NO_OPEN_API` — provider exposes no open API for this product.
+- `MANUAL_AUTHORIZED_ONLY` — authenticated/manual research only; not automated as API.
+- `ERROR` — a previously eligible/configured connector failed its bounded probe.
 
-`UNCONFIGURED_AUTH != ERROR` and `AUTHENTICATED_NOT_PROBED != ACTIVE_LIVE`.
+`credential_present != ACTIVE_LIVE`, `HTTP 200 != valid data`, and `missing != zero`.
 
 ## Current connectors
 
+### National Bureau of Statistics
+
+Public HTTPS JSON source. Already live. It remains the reference pattern for higher-trust anonymous structured data.
+
+### MOFCOM public open-data platform
+
+The public-service open-data catalog exposes fully open datasets and documents JSON API paths. For the initial social-financing dataset, the currently published request path uses `http://opendata.mofcom.gov.cn/front/data/jsonData?...` even though the dataset-detail page is HTTPS.
+
+Therefore:
+- use a dedicated exact-endpoint client;
+- never enable generic HTTP in `JsonHttpClient`;
+- preserve raw payload/hash;
+- mark final HTTP transport lower-trust and require independent corroboration before money-flow promotion;
+- dataset-specific field semantics/freshness are validated separately after live payload inspection.
+
 ### Douyin OpenAPI
 
-Official docs require an approved developer application with `ClientKey` and `ClientSecret`.  OAuth can produce user `access_token`; a `client_token` is available for approved APIs that do not require user authorization.  Individual scopes may still require separate platform approval.
-
-Repository secret contract:
-
-- `DOUYIN_CLIENT_KEY`
-- `DOUYIN_CLIENT_SECRET`
-
-The presence of these secrets only advances the connector to `AUTHENTICATED_NOT_PROBED`.  A real API probe and scope check are required before `ACTIVE_LIVE`.
+Official developer API, but current state is `FREE_ONLY_REVIEW_REQUIRED`. Even if `DOUYIN_CLIENT_KEY` and `DOUYIN_CLIENT_SECRET` exist, the connector does not advance until the exact scopes used by the tracker are verified to have zero incremental usage fee.
 
 ### Weibo CLI
 
-Weibo currently exposes an official Agent-oriented CLI with search, hot trends, statistics and structured output.  We prefer the official connector over inventing private REST endpoints.  Authentication is performed through the CLI's supported auth flow; successful `weibo auth whoami` (or equivalent official check) is required before live use.
+Official Agent-oriented connector, but the intended production use requires a paid plan/credits. It is therefore `DISABLED_PAID_MVP`. Existing local login does not change this state and no plan should be purchased for current MVP.
 
 ### Baidu Index
 
-Official Baidu Index help currently states that it does **not** provide an open API.  Therefore the source remains login/manual (or separately contracted/authorized data service if Baidu explicitly grants one).  Internal browser calls are not treated as an API contract.
+Official help currently exposes no suitable open API. Use only authorized/manual free views. Do not substitute reverse-engineered browser calls.
 
-## Security rules
+### QuestMobile / public social platforms
 
-1. Secret values never enter source files, CSV, docs, issue comments, artifacts or normal logs.
-2. Code may record only credential **names/presence**, never values.
-3. OAuth refresh/access tokens are treated as secrets.
-4. Connector artifacts store only sanitized status and evidence metadata.
-5. Scope denial is kept as `PERMISSION_REQUIRED`, never converted into zero demand or missing behavior.
-6. A platform login does not authorize automated extraction beyond the platform's documented/contracted interfaces.
+Use only free public reports/views permitted by the provider. Paid databases, credits and private APIs are outside the current MVP.
+
+## Security and truth rules
+
+1. Secret values never enter source, CSV, docs, issues, artifacts or ordinary logs.
+2. Code may record credential names/presence only, never values.
+3. OAuth access/refresh tokens are secrets.
+4. API transport success does not prove freshness or business meaning.
+5. API error/status=0 never becomes a numeric zero observation.
+6. Social/search signal is not a population-share estimate.
+7. Paid/unverified-cost connectors do not silently activate.
+8. A platform login does not authorize extraction beyond its documented/contracted interfaces.
+9. Plain HTTP official evidence is explicitly lower-trust and must be corroborated.
 
 ## Psychology Tracker usage
 
-Authorized behavioral connectors should emit normalized aggregate signals such as:
-
-- topic / keyword / concept
-- geography
-- audience slice when legitimately available
-- signal salience
-- momentum / change rate
-- interaction intensity
-- observation period
-- provenance
-
-They must **not** become a personal-profile database.  The tracker is designed for aggregate psychology/behavior shifts, not identification of individual users.
+Eligible behavioral connectors should emit aggregate signals such as topic/concept, geography, legitimate audience slice, salience, momentum, interaction intensity, observation period and provenance. The tracker is for aggregate psychology/behavior shifts, not personal psychographic profiling.
