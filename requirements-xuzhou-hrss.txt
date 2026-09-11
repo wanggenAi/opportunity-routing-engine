@@ -1,0 +1,3 @@
+# Isolated optional dependency for official Xuzhou HRSS legacy .xls attachments.
+# Do not promote this to a repository-wide runtime dependency.
+xlrd==2.0.2
