@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+from src.html_ingest import html_to_document
 from src.network_ingest import NetworkIngestError, write_json_atomic
 from src.regional_adapters import JiangsuStatsReleaseAdapter, XuzhouProcurementAdapter
 
@@ -28,8 +29,17 @@ def emit(payload, output):
         print(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True))
 
 
+def _snippet(text: str, marker: str, radius: int = 180) -> str | None:
+    index = text.find(marker)
+    if index < 0:
+        return None
+    start = max(0, index - radius)
+    end = min(len(text), index + len(marker) + radius)
+    return re.sub(r"\s+", " ", text[start:end]).strip()
+
+
 def _safe_response_shape_probe(url: str) -> dict:
-    """Temporary live diagnostic: compare response shape without retaining page content."""
+    """Temporary live diagnostic: compare response shape without retaining full page content."""
     profiles = {
         "engine": {
             "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.5",
@@ -54,19 +64,22 @@ def _safe_response_shape_probe(url: str) -> dict:
         except UnicodeDecodeError:
             html = body.decode("gb18030")
             encoding = "gb18030"
+        visible = html_to_document(html, base_url=url)["text"]
         result[profile] = {
             "bytes": len(body),
             "content_type": content_type,
             "encoding": encoding,
             "sha256_prefix": hashlib.sha256(body).hexdigest()[:16],
-            "contains": {marker: marker in html for marker in markers},
-            "jszc_count": len(re.findall(r"JSZC-[0-9A-Z-]+", html)),
+            "raw_contains": {marker: marker in html for marker in markers},
+            "visible_contains": {marker: marker in visible for marker in markers},
+            "visible_chars": len(visible),
+            "jszc_count_raw": len(re.findall(r"JSZC-[0-9A-Z-]+", html)),
+            "jszc_count_visible": len(re.findall(r"JSZC-[0-9A-Z-]+", visible)),
             "iframe_count": len(re.findall(r"<iframe\\b", html, flags=re.I)),
             "script_count": len(re.findall(r"<script\\b", html, flags=re.I)),
-            "escaped_project_label": "\\u9879\\u76ee\\u7f16\\u53f7" in html.lower(),
-            "iframe_srcs": re.findall(
-                r"<iframe\\b[^>]*?src=[\"']([^\"']+)", html, flags=re.I
-            )[:5],
+            "raw_project_id_snippet": _snippet(html, "项目编号"),
+            "visible_project_id_snippet": _snippet(visible, "项目编号"),
+            "visible_budget_snippet": _snippet(visible, "预算金额"),
         }
     return result
 
