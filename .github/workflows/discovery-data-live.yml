@@ -43,15 +43,23 @@ jobs:
             --limit-per-keyword 5 \
             --output .local/nbs_month_catalog_discovery.json
 
+      - name: Inspect current CPI and retail catalogs
+        run: |
+          python scripts/collect_nbs.py inspect \
+            --page monthData \
+            --cid 5c7452825c7c4dcba391db5ca7f335c5 \
+            --output .local/nbs_cpi_catalog.json
+          python scripts/collect_nbs.py inspect \
+            --page monthData \
+            --cid d0cb882c7f27443ab6b3ef9421901961 \
+            --output .local/nbs_retail_catalog.json
+
       - name: Show bounded discovery summary
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          for path in [
-              Path('.local/nbs_live_probe.json'),
-              Path('.local/nbs_month_catalog_discovery.json'),
-          ]:
+          for path in sorted(Path('.local').glob('*.json')):
               data = json.loads(path.read_text(encoding='utf-8'))
               print(f'=== {path.name} ===')
               print(json.dumps(data, ensure_ascii=False, indent=2)[:12000])
@@ -64,3 +72,4 @@ jobs:
           path: .local/*.json
           retention-days: 14
           if-no-files-found: error
+          include-hidden-files: true
