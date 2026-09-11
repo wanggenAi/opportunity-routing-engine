@@ -92,6 +92,10 @@ class JiangsuMoneyFlowTests(unittest.TestCase):
         self.assertEqual(metrics["JS_RMB_DEPOSIT_YOY"]["value"], "8")
         self.assertEqual(metrics["JS_RMB_LOAN_LEVEL_TRILLION_CNY"]["value"], "30.3")
         self.assertEqual(metrics["JS_RMB_LOAN_YOY"]["value"], "8.7")
+        for metric in metrics.values():
+            self.assertEqual(metric["publication_date"], "2026-08-24")
+            self.assertIsNone(metric["observation_period"])
+            self.assertNotIn("period", metric)
 
     def test_collect_preserves_index_and_release_provenance(self):
         index_html = """<html><body>
