@@ -48,7 +48,7 @@ class XuzhouAgencyAssetFeedTests(unittest.TestCase):
         <p>出租方名称：江苏宁通投资发展集团有限公司</p>
         </body></html>"""
 
-    def test_discovers_guid_and_constructs_official_mirror(self):
+    def test_discovers_legacy_guid_and_constructs_official_mirror(self):
         discovery_client = FakeHtmlClient(
             "XZ_GGZY_AGENCY_LIST", {"xz_ggzy.agency_assets.list": self._list_html()}
         )
@@ -59,9 +59,10 @@ class XuzhouAgencyAssetFeedTests(unittest.TestCase):
         result = feed.discover_recent(limit=5)
         self.assertEqual(result["item_count"], 1)
         item = result["items"][0]
-        self.assertEqual(item["guid"], GUID)
+        self.assertEqual(item["legacy_guid"], GUID)
         self.assertEqual(item["publication_date"], "2026-08-20")
         self.assertEqual(item["listing_mode"], "LEASE")
+        self.assertEqual(item["detail_source"], "JS_GGZY_MIRROR")
         self.assertEqual(
             item["mirror_url"],
             f"https://jsggzy.jszwfw.gov.cn/jyxx/003006/003006001/20260820/{GUID}.html",
