@@ -1,10 +1,11 @@
 # Formal Truth
 
-Last updated: 2026-09-10
+Last updated: 2026-09-11
 
 This document is the current commercial source of truth.
 
 Canonical foundations:
+- `docs/RESOURCE_ACTIVATION_THESIS.md`
 - `docs/DATA_SOURCE_REGISTRY.md`
 - `docs/DISCOVERY_ENGINE.md`
 - `docs/MONEY_FLOW_ENGINE.md`
@@ -13,6 +14,45 @@ Canonical foundations:
 - `docs/HOOK_ORCHESTRATION_DESIGN.md`
 - `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
 - `docs/OPPORTUNITY_SCORECARD.md`
+
+## 0. Resource activation purpose — LOCKED
+
+The system does not exist merely to find a product to sell.
+
+Its highest-level commercial purpose is:
+
+> **discover underused, overlooked, fragmented, stranded or misallocated resources/capabilities; identify real unmet deficits; then design transparent, accepted and repeatable exchanges that let surplus and shortage create value for each other.**
+
+The system searches both sides:
+
+```text
+UNMET / POORLY SERVED NEED
+            +
+IDLE / UNDERUSED / MISALLOCATED RESOURCE
+            +
+INFORMATION / TRUST / PACKAGING / COORDINATION GAP
+            ↓
+RESOURCE ACTIVATION
+            ↓
+CAPABILITY UNITS + RULES + INCENTIVES + ACCEPTANCE
+            ↓
+VALUE CREATION + SETTLEMENT + REPEAT
+```
+
+Large population or idle capacity alone is not an opportunity. The relevant thesis is **human-capital/resource utilization and allocation**: useful ability may exist while job titles, geography, trust, information, timing, packaging or demand access prevent it from becoming paid value.
+
+A valid route should increase realizable value for participants rather than merely extract margin from a weaker party. Noble intent does not bypass payer evidence, fair economics, legality, safety or repeatability.
+
+Resource states remain explicit:
+
+```text
+OWNED
+OPTIONED
+DISCOVERED
+HYPOTHETICAL
+```
+
+`DISCOVERED != OPTIONED` and `HYPOTHETICAL != AVAILABLE`.
 
 ## 1. System identity — LOCKED
 
@@ -27,7 +67,7 @@ Data Sources
 → Actor
 → Psychology / Behavior
 → Case Mining
-→ Friction / Payer / Opportunity Pool
+→ Resource Imbalance / Friction / Payer / Opportunity Pool
 → Comparable Ranking
 
 ORCHESTRATION ENGINE
@@ -61,7 +101,8 @@ Start from:
 - policy / procurement;
 - technology change;
 - local industry/service-chain change;
-- psychology and actual behavior.
+- psychology and actual behavior;
+- idle/underused human skill, asset, channel and capacity signals.
 
 Then zoom:
 
@@ -70,7 +111,7 @@ China
 → Jiangsu
 → Xuzhou
 → district/county/industry/actor cluster
-→ exact friction
+→ exact friction / resource imbalance
 → exact payer
 ```
 
@@ -119,7 +160,7 @@ Continuously mine success and failure mechanisms:
 ```text
 context change
 → actor behavior change
-→ friction
+→ friction / resource imbalance
 → opportunity insight
 → first hook
 → first payer commitment
@@ -245,6 +286,8 @@ Growth != Money-Flow Understanding
 Market Size != Customer Acquisition
 Social Salience != Population Share
 Success Story != Base Rate
+Idle Resource != Valuable Resource
+Resource Existence != Resource Control
 Introduction != Orchestration Value
 Founder Free Labor != Profit
 Capability Claim != Capability Proof
@@ -394,10 +437,11 @@ Discovery software is justified first:
 - normalized money-flow signals;
 - psychology aggregation;
 - case records;
+- resource-imbalance records;
 - opportunity ranking.
 
 Transaction software is justified only after repeated real bottlenecks appear.
 
 ## 23. Governing truth — LOCKED
 
-> **先把世界看清：维护数据源，追钱流，察人心，拆成功与失败案例，找到真实摩擦；再带着一个真实钩子进入市场，定结果、拆能力、调资源、设利益，让交易形成可持续循环。**
+> **先把世界看清：维护数据源，追钱流，察人心，找“有余”与“不足”，拆成功与失败案例，识别阻碍资源交换的真实摩擦；再带着一个真实钩子进入市场，定结果、拆能力、调资源、设利益，让原本闲置或错配的价值进入可持续循环。**
