@@ -26,6 +26,7 @@ from html import unescape
 from typing import Any, Callable, Mapping
 
 from src.html_ingest import PublicHtmlClient, html_to_document, normalize_whitespace
+from src.xuzhou_structured_metadata import structured_value, titled_span_fields
 
 
 XZ_GGZY_HOST = "ggzy.zwb.xz.gov.cn"
@@ -140,9 +141,6 @@ def _extract_award_rows(html: str) -> list[dict[str, str | None]]:
     result: list[dict[str, str | None]] = []
     seen: set[tuple[str | None, str, str | None, str | None]] = set()
     for table_match in _TABLE_RE.finditer(html):
-        # The package marker is normally rendered immediately before its result table.
-        # Use a bounded preceding window and the nearest marker; if none is present we
-        # retain UNKNOWN here and let a package-specific detail URL fail closed below.
         context_start = max(0, table_match.start() - 6000)
         package_name = _package_label(_plain(html[context_start : table_match.start()]))
         table_html = table_match.group("body")
@@ -332,26 +330,37 @@ class XuzhouProcurementResultAdapter:
         )
         doc = html_to_document(envelope.html, base_url=url)
         text = doc["text"]
+        fields = titled_span_fields(envelope.html)
         title = self._best_title(text, doc["title"], fallback_title)
         rows = _extract_award_rows(envelope.html)
 
         title_package = _package_label(title)
         if title_package:
-            # A package-specific result URL is authoritative only for its own package.
-            # Rows whose package cannot be resolved are withheld rather than guessed.
             rows = [row for row in rows if row.get("package_name") == title_package]
         if not rows:
             return []
 
-        project_id = _first(r"项目编号[：:\s]*([^\n]+)", text)
-        project_name = _first(r"项目名称[：:\s]*([^\n]+)", text)
-        buyer_actor = _first(
-            r"采购人信息[\s\S]{0,600}?单位名称[：:\s]*([^\n]+)",
-            text,
+        project_id = (
+            structured_value(fields, "项目编号")
+            or _first(r"项目编号[：:\s]*([^\n]+)", text)
         )
-        service_name = _first(
-            r"主要标的信息[\s\S]{0,1200}?名称[：:\s]*([^\n]+)",
-            text,
+        project_name = (
+            structured_value(fields, "项目名称")
+            or _first(r"项目名称[：:\s]*([^\n]+)", text)
+        )
+        buyer_actor = (
+            structured_value(fields, "采购人单位名称", "采购人名称")
+            or _first(
+                r"采购人信息[\s\S]{0,600}?单位名称[：:\s]*([^\n]+)",
+                text,
+            )
+        )
+        service_name = (
+            structured_value(fields, "服务名称", "标的名称")
+            or _first(
+                r"主要标的信息[\s\S]{0,1200}?名称[：:\s]*([^\n]+)",
+                text,
+            )
         )
         publication_date = _publication_date(text, url)
         return [
