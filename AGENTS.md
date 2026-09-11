@@ -21,13 +21,14 @@ Optimize for **commercial truth + recurring accepted outcomes + delegatability +
 Before changing business logic, read:
 1. `docs/DISCOVERY_ENGINE.md`
 2. `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
-3. `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
-4. `docs/FORMAL_TRUTH.md`
-5. `docs/ACTOR_MODEL.md`
-6. `docs/THESIS_TRANSACTION_GAPS.md`
-7. `docs/OPPORTUNITY_SCORECARD.md`
-8. `docs/ARCHITECTURE.md`
-9. current `docs/research/` and `docs/launch/` files relevant to the task.
+3. `docs/RESOURCE_IMBALANCE_ENGINE.md`
+4. `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
+5. `docs/FORMAL_TRUTH.md`
+6. `docs/ACTOR_MODEL.md`
+7. `docs/THESIS_TRANSACTION_GAPS.md`
+8. `docs/OPPORTUNITY_SCORECARD.md`
+9. `docs/ARCHITECTURE.md`
+10. current `docs/research/` and `docs/launch/` files relevant to the task.
 
 There is no active `EXP-*` opportunity layer after the 2026-09-10 reset. Do not recreate it unless the architecture is explicitly changed.
 
@@ -42,6 +43,9 @@ When a major assumption changes, update `docs/FORMAL_TRUTH.md` in the same chang
 - Beneficiary != payer by default.
 - Trend != business.
 - Social-media salience != population share.
+- Paid Need != Resource Imbalance.
+- Resource Exists != Resource Is Underused.
+- `DISCOVERED != OPTIONED`.
 - Introduction != orchestration value.
 - Founder free labor != profit.
 - Capability claim != capability proof.
@@ -69,11 +73,39 @@ Start from broad reality:
 - technology / policy;
 - industry-chain movement;
 - actor psychology / decision logic;
-- observed spending, workarounds and operational behavior.
+- observed spending, workarounds and operational behavior;
+- observable underused skills, assets, channels and productive capacity.
 
 Then zoom from macro to exact payer and transaction gap.
 
 Psychology signals must be corroborated with behavior and money before they can materially raise opportunity confidence.
+
+## Resource Imbalance rule
+
+Before promoting a fresh opportunity, separately establish:
+
+```text
+VERIFIED NEED / DEFICIT
++
+VERIFIED RESOURCE / SURPLUS
++
+OBSERVED TRANSACTION BLOCKER
+```
+
+Canonical discovery states are:
+
+```text
+NEED_ONLY
+RESOURCE_ONLY
+PAIR_HYPOTHESIS
+ROUTE_TESTABLE
+```
+
+`ROUTE_TESTABLE` requires at minimum direct paid need evidence, an identified payer, a compatible resource at least `DISCOVERED`, underuse at least `OBSERVED`, blocker evidence at least `OBSERVED`, and exact capability/geography identity.
+
+It only authorizes a cheap bounded real-world route test. It does not mean transaction-ready, profitable, scalable or G0-G6 approved.
+
+Live source normalization must be auditable. Narrow deterministic classification is preferred over opaque semantic promotion. Ambiguous or unclassified evidence must remain unbound rather than being guessed into a pair.
 
 ## Canonical actor roles
 
@@ -138,7 +170,7 @@ RECURRING DEMAND PUMP
 → REPLACEABLE / REPLENISHING SUPPLY
 → ACCEPTED OUTCOME
 → SETTLEMENT
-→ REPUTATION / PERFORMANCE DATA
+→ PERFORMANCE / TRUST DATA
 → BETTER ROUTING + LOWER FAILURE COST
 → MORE TRANSACTIONS
 ↺
@@ -204,15 +236,36 @@ L3 real commitment
 
 Do not build a broad marketplace first.
 
-## Current launch truth
+## Current project truth
 
-Current reset ranking and immediate launch source:
-- `docs/research/RESET_OPPORTUNITY_SCAN_V1_2026-09-10.md`
-- `docs/launch/INDUSTRIAL_SERVICE_OVERFLOW_ROUTER_START_2026-09-10.md`
+The current priority is **continuous discovery + live Resource Imbalance evidence integration**.
 
-Current #1 structural candidate is the **Industrial Service Overflow Routing Network**. This is a hypothesis, not validated truth. Its 90/100 score is structural fit, not 90% success probability.
+The 2026-09-10 Cycle 001 ranking and its launch designs are historical evidence, not a permanent winner. The later Resource Imbalance reset deliberately removed first-found privilege.
 
-The immediate unknown is whether a real service provider will release a lawful/contractually delegable bounded overflow task and pay for accepted output.
+**There is currently no canonical #1 business project.**
+
+Property-Anchored Community Living-Service Orchestration, Industrial Service Overflow Routing and every other historical candidate may re-enter only through the same current process:
+
+```text
+live need evidence
++ live resource/underuse evidence
++ observed blocker evidence
+→ Resource Imbalance classification
+→ broad comparable candidate pool
+→ G0-G6 ranking
+→ selected Hook
+→ bounded real-world validation
+```
+
+Do not resume an old launch merely because a launch document or open historical Issue still exists.
+
+Current engineering priority:
+1. maintain live need-side and money-flow sensors;
+2. expand observable resource-underuse sensing;
+3. normalize live NeedSignal / ResourceSignal / BlockerSignal evidence;
+4. publish an auditable unified imbalance ledger;
+5. produce a fresh comparable ranking only when evidence supports it;
+6. then select one project for the cheapest decisive real transaction test.
 
 ## Success definition
 
