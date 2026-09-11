@@ -2,7 +2,7 @@
 
 Last updated: 2026-09-11
 
-This document is the current commercial source of truth.
+This document is the current commercial source of truth. Historical rankings and launch designs remain evidence, but they do not override the current truth stated here.
 
 Canonical foundations:
 - `docs/RESOURCE_ACTIVATION_THESIS.md`
@@ -11,6 +11,7 @@ Canonical foundations:
 - `docs/MONEY_FLOW_ENGINE.md`
 - `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
 - `docs/CASE_MINING_ENGINE.md`
+- `docs/RESOURCE_IMBALANCE_ENGINE.md`
 - `docs/HOOK_ORCHESTRATION_DESIGN.md`
 - `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
 - `docs/OPPORTUNITY_SCORECARD.md`
@@ -26,33 +27,44 @@ Its highest-level commercial purpose is:
 The system searches both sides:
 
 ```text
-UNMET / POORLY SERVED NEED
-            +
-IDLE / UNDERUSED / MISALLOCATED RESOURCE
-            +
-INFORMATION / TRUST / PACKAGING / COORDINATION GAP
-            ↓
-RESOURCE ACTIVATION
-            ↓
-CAPABILITY UNITS + RULES + INCENTIVES + ACCEPTANCE
-            ↓
-VALUE CREATION + SETTLEMENT + REPEAT
+VERIFIED NEED / DEFICIT
++
+VERIFIED SURPLUS / UNDERUSED RESOURCE
++
+OBSERVED TRANSACTION BLOCKER
+→ BOUNDED RESOURCE-ACTIVATION ROUTE
+→ REAL-WORLD TEST
+→ ACCEPTED VALUE / SETTLEMENT
+→ REPEAT / LEARNING / BETTER ALLOCATION
 ```
 
-Large population or idle capacity alone is not an opportunity. The relevant thesis is **human-capital/resource utilization and allocation**: useful ability may exist while job titles, geography, trust, information, timing, packaging or demand access prevent it from becoming paid value.
+Large population, broad demand, market growth or idle capacity alone is not an opportunity.
 
-A valid route should increase realizable value for participants rather than merely extract margin from a weaker party. Noble intent does not bypass payer evidence, fair economics, legality, safety or repeatability.
-
-Resource states remain explicit:
+Resource state must remain explicit:
 
 ```text
-OWNED
-OPTIONED
-DISCOVERED
 HYPOTHETICAL
+DISCOVERED
+OPTIONED
+OWNED
 ```
 
-`DISCOVERED != OPTIONED` and `HYPOTHETICAL != AVAILABLE`.
+Underuse is a separate axis:
+
+```text
+UNKNOWN
+CLAIMED
+OBSERVED
+MEASURED
+```
+
+Therefore:
+
+```text
+resource exists != resource is spare
+resource is spare != provider will supply it
+DISCOVERED != OPTIONED
+```
 
 ## 1. System identity — LOCKED
 
@@ -67,11 +79,13 @@ Data Sources
 → Actor
 → Psychology / Behavior
 → Case Mining
-→ Resource Imbalance / Friction / Payer / Opportunity Pool
-→ Comparable Ranking
+→ Need / Resource / Blocker Signals
+→ Resource Imbalance
+→ Comparable Candidate Pool
+→ G0-G6 Ranking
 
 ORCHESTRATION ENGINE
-Selected Opportunity
+Selected Route-Testable Candidate
 → Hook
 → Transaction Objective
 → CapabilityUnits
@@ -85,7 +99,7 @@ The discovery half must run before a business opportunity becomes canonical. The
 
 ## 2. Discovery truth — LOCKED
 
-Do not start from the operator's skills, a favored technology, or one remembered idea.
+Do not start from the operator's skills, a favored technology, an old launch document or one remembered idea.
 
 Start from:
 - GDP / sector structure;
@@ -102,7 +116,7 @@ Start from:
 - technology change;
 - local industry/service-chain change;
 - psychology and actual behavior;
-- idle/underused human skill, asset, channel and capacity signals.
+- observable idle/underused skills, assets, channels and capacity.
 
 Then zoom:
 
@@ -111,27 +125,22 @@ China
 → Jiangsu
 → Xuzhou
 → district/county/industry/actor cluster
-→ exact friction / resource imbalance
+→ exact need/resource/blocker
 → exact payer
+→ exact transaction route
 ```
 
-Macro growth is a search direction, not business proof.
+Macro growth is search-direction evidence, not business proof.
 
 ## 3. Data-source truth — LOCKED
 
 Opportunity discovery must not depend on ad-hoc web searching alone.
 
-Maintain `data/source_registry.csv` with:
-- source identity;
-- geography;
-- indicator scope;
-- observation/publication period;
-- access method;
-- refresh cadence;
-- automation/terms status;
-- provenance/freshness.
+Maintain `data/source_registry.csv` with source identity, geography, indicator scope, observation/publication period, access method, refresh cadence, automation/terms status, provenance and freshness.
 
 Missing/stale data reduces confidence. `missing != zero`.
+
+Prefer lawful free/open/official data for the MVP. Paid connectors are not required merely to make the system look complete.
 
 ## 4. Money-flow truth — LOCKED
 
@@ -143,6 +152,8 @@ Track levels, growth, acceleration, share shifts, national/provincial/local dive
 
 `nominal_growth != real_demand_growth`.
 
+A public procurement budget is evidence of an intended bounded purchase process. It is not automatically evidence of completed payment, supply scarcity, private-market demand or orchestration margin.
+
 ## 5. Psychology / behavior truth — LOCKED
 
 Psychology changes and must be tracked, but:
@@ -152,6 +163,8 @@ Psychology changes and must be tracked, but:
 Track aggregate themes such as value-for-money, spending caution, convenience/time value, trust/risk aversion, experience orientation, selective quality upgrading, repair/reuse/rental, emotional value, health/longevity and outcome certainty.
 
 Any psychology thesis should be corroborated by observed behavior and money where possible. Do not build unnecessary individual psychographic profiles.
+
+Cycle 001 has already produced a usable baseline psychology/behavior snapshot. The next job is recurring refresh and better local signal coverage, not pretending the first snapshot is permanent truth.
 
 ## 6. Case-mining truth — LOCKED
 
@@ -173,7 +186,66 @@ context change
 
 `success story != base rate`.
 
-## 7. Hook truth — LOCKED
+## 7. Resource Imbalance truth — LOCKED
+
+Before calling something an opportunity, separately prove:
+
+```text
+VERIFIED NEED / DEFICIT
++
+VERIFIED RESOURCE / SURPLUS
++
+OBSERVED TRANSACTION BLOCKER
+```
+
+Canonical V1 states:
+
+```text
+NEED_ONLY
+RESOURCE_ONLY
+PAIR_HYPOTHESIS
+ROUTE_TESTABLE
+```
+
+`ROUTE_TESTABLE` requires at minimum:
+- direct paid need evidence;
+- identified payer;
+- compatible resource at least `DISCOVERED`;
+- resource underuse at least `OBSERVED`;
+- transaction blocker at least `OBSERVED`;
+- exact capability identity;
+- exact geography identity.
+
+`ROUTE_TESTABLE` means only that a cheap bounded route test is justified. It does not mean transaction-ready, profitable, scalable or G0-G6 approved.
+
+Hard boundaries:
+
+```text
+Paid Need != Resource Imbalance
+Resource Exists != Resource Is Underused
+Relisting != Underuse
+Relisting != Proven Blocker Type
+Budget != Completed Payment
+DISCOVERED != OPTIONED
+UNKNOWN != PASS
+```
+
+## 8. Live evidence normalization truth — LOCKED
+
+The current production objective is to connect live source adapters to the Resource Imbalance Engine without semantic invention.
+
+Live normalization rules:
+- use narrow, auditable capability classification;
+- ambiguous or unclassified evidence stays unbound;
+- do not use LLM confidence to manufacture a capability identity;
+- do not infer payer from beneficiary, project title or budget holder language without source evidence;
+- do not promote a procurement budget into `PAID` merely because money is quoted;
+- do not turn repeated asset listing into an observed blocker without evidence of the blocker type;
+- preserve the source item and the reason it did not promote.
+
+The unified live imbalance ledger should therefore show not only promoted pairs, but also why evidence remained `NEED_ONLY`, `RESOURCE_ONLY`, `PAIR_HYPOTHESIS` or unbound.
+
+## 9. Hook truth — LOCKED
 
 Do not enter negotiation with only an idea and a request for cooperation.
 
@@ -186,18 +258,9 @@ A credible Hook may be:
 - optioned idle capacity/resource;
 - transparent conditional economics.
 
-Resource state must be explicit:
-
-```text
-OWNED
-OPTIONED
-DISCOVERED
-HYPOTHETICAL
-```
-
 Never represent a discovered/hypothetical resource as controlled.
 
-## 8. Capital-light truth — LOCKED
+## 10. Capital-light truth — LOCKED
 
 Prefer transparent resource leverage over irreversible capital:
 - conditional provider commitment;
@@ -210,27 +273,15 @@ Prefer transparent resource leverage over irreversible capital:
 
 This is not permission for false demand, deceptive promises or hidden liabilities.
 
-## 9. Execution truth — LOCKED
+## 11. Execution truth — LOCKED
 
 The atomic execution unit is a `CapabilityUnit`, not a person/job title.
 
-The operator preferentially owns:
-- systems analysis;
-- structural judgment;
-- actor/resource mapping;
-- hook design;
-- transaction architecture;
-- capability decomposition;
-- acceptance/interface design;
-- incentive design;
-- route approval;
-- trust/risk boundaries;
-- exception arbitration;
-- learning updates.
+The operator preferentially owns systems analysis, structural judgment, actor/resource mapping, Hook design, transaction architecture, capability decomposition, acceptance/interface design, incentive design, route approval, trust/risk boundaries, exception arbitration and learning updates.
 
 Routine acquisition, sourcing, coding, research, delivery, QA, support and logistics are routable capabilities where feasible.
 
-## 10. Sustainability truth — LOCKED
+## 12. Sustainability truth — LOCKED
 
 A core project must behave like a circulation system:
 
@@ -249,7 +300,7 @@ Demand Pump
 
 A profitable one-off can be tactical but cannot define the core system.
 
-## 11. Hard gates — LOCKED
+## 13. Hard gates — LOCKED
 
 ```text
 G0 Actor / role clarity
@@ -263,7 +314,7 @@ G6 Regenerative circulation / recurring demand
 
 G4-G6 must all PASS before a candidate becomes a core repeatable platform wedge.
 
-## 12. Evidence maturity
+## 14. Evidence maturity — LOCKED
 
 ```text
 L0 statement
@@ -276,7 +327,7 @@ L6 delegated repeat/provider replacement/alternate route
 L7 recurring Demand Pump produces multiple transactions and routing improves
 ```
 
-## 13. Commercial truth rules
+## 15. Commercial truth rules — LOCKED
 
 ```text
 Complaint != Demand
@@ -299,7 +350,7 @@ LLM Confidence != Commercial Evidence
 UNKNOWN != PASS
 ```
 
-## 14. Discovery Cycle 001 — COMPLETE
+## 16. Discovery Cycle 001 — HISTORICAL BASELINE, COMPLETE
 
 Cycle 001 ran a clean-slate public-web discovery pass across China → Jiangsu → Xuzhou and produced:
 - expanded source registry;
@@ -308,140 +359,88 @@ Cycle 001 ran a clean-slate public-web discovery pass across China → Jiangsu �
 - success/failure mechanism library;
 - 38 opportunity seeds;
 - comparable G0-G6 ranking;
-- one selected first-validation candidate.
+- historical launch designs.
 
-Canonical outputs:
+Canonical historical outputs:
 - `docs/research/DISCOVERY_CYCLE_001_MONEY_FLOW_2026-09-10.md`
 - `docs/research/DISCOVERY_CYCLE_001_PSYCHOLOGY_BEHAVIOR_2026-09-10.md`
 - `docs/research/DISCOVERY_CYCLE_001_CASE_MECHANISMS_2026-09-10.md`
 - `docs/research/DISCOVERY_CYCLE_001_OPPORTUNITY_POOL_2026-09-10.md`
 - `docs/results/DISCOVERY_CYCLE_001_RANKING_2026-09-10.md`
 
-The cycle is broad enough to remove first-found-candidate privilege. It is not the end of continuous discovery; source adapters and future refresh cycles remain required.
+The Cycle 001 scores remain useful historical evidence. They are **not current success probabilities and no longer establish a canonical winner** after the Resource Imbalance reset.
 
-## 15. Current money-flow truth — Cycle 001
+## 17. Current project state — CANONICAL
 
-Current evidence supports a selective-migration regime, not `nobody spends`:
-- services outperform broad goods retail nationally;
-- Xuzhou retail/service/tourism growth is stronger than broad Jiangsu retail;
-- households are value-sensitive but continue paying for experience, convenience and selective upgrading;
-- equipment/information investment remains stronger than broad fixed investment;
-- Xuzhou stock housing creates repair/turnover/service work;
-- property firms seek resident-service/value-added extensions;
-- engineering machinery is expanding lifecycle/aftermarket activity;
-- public procurement exposes recurring institutional budgets;
-- policy-subsidized flows must be separated from independent demand.
+**There is currently no canonical #1 business project.**
 
-## 16. Current ranking — Cycle 001
+Property-Anchored Community Living-Service Orchestration Backend, Industrial Service Overflow Routing Network, stock-home turnover, export operations, procurement support, visitor/merchant routing, machinery aftermarket and every other historical candidate are all evidence/candidate records only.
 
-Top adjusted structural candidates:
+No candidate receives first-found privilege or survives merely because a launch document, Issue or prior score exists.
 
-1. **Property-Anchored Community Living-Service Orchestration Backend — 75**
-2. Stock-home turnover / repair / handover orchestration — 74
-3. Cross-border seller/export recurring operations routing — 72
-4. Public-procurement demand intelligence + qualified-supplier support — 71
-5. High-intent visitor → local service/merchant orchestration — 70
-6. OPC demand-access + delivery-governance route — 69
-7. Used engineering-machinery trusted transaction support — 67
-8. Engineering-machinery aftermarket routing — 65
-9. County agricultural logistics/cold-chain routing — 65
+A candidate may become current #1 only after a fresh comparable cycle based on the current evidence discipline:
 
-These scores are **not success probabilities**.
+```text
+live need evidence
++ live resource/underuse evidence
++ observed blocker evidence
+→ Resource Imbalance classification
+→ evidence-backed candidate pool
+→ same G0-G6 comparison
+→ selected Hook
+→ cheapest decisive real-world test
+```
 
-## 17. Current selected first-validation candidate — CANONICAL FOR NEXT TEST
+## 18. Current production evidence — 2026-09-11
 
-# Property-Anchored Community Living-Service Orchestration Backend
+Working live evidence paths already include national/Jiangsu/Xuzhou money-flow sources, Xuzhou public procurement, regional financing evidence and public resource-underuse sensors.
 
-Chinese working name:
+Resource-underuse Sensor 001 has verified that Xuzhou/Jiangsu official public-resource sources can expose:
+- discovered public assets;
+- repeated listings / allocation friction;
+- explicit `空置/闲置` evidence in some historical records;
+- repricing across repeated listings.
 
-> **物业锚定的社区生活服务后台编排**
+These facts prove resource/underuse evidence only within their exact scope. They do not prove compatible paid demand or a profitable route.
 
-Why selected first:
-- Xuzhou has 2,237 residential communities and 690+ property-service firms, giving a dense concentrated access layer;
-- local property operators are already extending convenience/value-added services and face incentive to improve service economics/resident satisfaction;
-- property can act as the resident-facing demand front door;
-- delivery can be routed to external providers;
-- bounded low-risk service tasks can be accepted objectively;
-- provider capacity can be optioned without payroll/inventory;
-- property can be approached with a zero-upfront backend proposition rather than a generic platform pitch;
-- repeat household orders can test G6 without reacquiring each resident individually.
+The decisive engineering gap is now **integration**, not invention of another high-level framework:
 
-Launch design:
-- `docs/launch/PROPERTY_ANCHORED_COMMUNITY_SERVICE_START_2026-09-10.md`
+```text
+LIVE SOURCE ARTIFACTS
+→ canonical NeedSignal / ResourceSignal / BlockerSignal
+→ unified Resource Imbalance ledger
+→ explainable promotion / non-promotion
+→ fresh comparable opportunity ranking
+```
 
-## 18. Current critical unknowns — DO NOT HIDE
+## 19. Current next actions — CANONICAL
 
-The #1 candidate is not commercially validated.
+Engineering priority:
+1. keep live money-flow and need sensors healthy;
+2. expand observable resource-underuse history and source coverage;
+3. normalize live evidence into canonical signal records;
+4. build and publish a daily auditable imbalance ledger;
+5. add blocker sensing only when blocker type/evidence is genuinely observed;
+6. improve payer-resolved paid-need evidence rather than treating budgets as payments;
+7. create a fresh broad candidate pool from the resulting imbalance evidence;
+8. apply the same G0-G6 ranking;
+9. select one strongest route-testable candidate and run the cheapest decisive real transaction test.
 
-### G1 UNKNOWN
-Will real Xuzhou residents buy through a property-mediated service route at prices that support provider + operations + orchestration economics?
-
-### G5 UNKNOWN
-Will the orchestration backend add enough recurring value in qualification, SLA, acceptance, complaint/rework, replacement and settlement to prevent simple property-provider bypass?
-
-### G6 UNKNOWN
-Will one property/community repeatedly generate real paid orders without reacquiring the channel from zero?
-
-If these fail, the candidate loses #1 status and the next ranked candidate advances.
-
-## 19. First Hook — LOCKED FOR VALIDATION, NOT SCALE
-
-Before asking a property to cooperate, obtain an `OPTIONED SUPPLY PACK` from 2–3 low-risk household-service categories.
-
-Initial allowed examples:
-- home deep cleaning;
-- appliance cleaning;
-- move-in/move-out cleaning.
-
-The provider commitment should define price rule, service area, response time, scope/exclusions, completion evidence, rework rule, payout event and capacity — with no salary, no inventory and no guaranteed volume.
-
-Then property hook:
-
-> **Property pays zero upfront and hires no new staff. Real resident orders trigger service. The backend manages provider qualification/routing, SLA, acceptance, complaint/rework, replacement and settlement. Run a small real-order pilot first.**
-
-Do not pitch an app/platform.
-
-## 20. First validation threshold
-
-Phase A — option supply:
-- >=3 providers accept order-based conditional cooperation;
-- >=2 categories have viable routes/backup;
-- price/SLA/acceptance can be written clearly.
-
-Phase B — property demand pump:
-- 5 qualified property decision-makers;
-- >=3 report repeated resident requests outside basic property scope;
-- >=2 reveal existing workaround/referral/provider;
-- >=1 authorizes a bounded real-resident pilot.
-
-Phase C — payment:
-- >=5 real paid resident orders in one pilot;
-- external providers perform delivery;
-- backend QA/acceptance/replacement function is actually exercised;
-- all economics are recorded.
-
-Phase D — G6:
-- same property/community sends further orders without channel reacquisition;
-- preferably provider replacement succeeds.
-
-## 21. Explicitly paused / demoted candidate
-
-`Industrial Service Overflow Routing Network` remains in the opportunity pool but is no longer canonical #1. Its old Issue #9 is paused/closed.
-
-## 22. Software truth
+## 20. Software truth — LOCKED
 
 Do not build ERP, MES, WMS, CRM or a broad marketplace because they are adjacent to an opportunity.
 
-Discovery software is justified first:
+Discovery software is justified first where it removes repeated truth/research bottlenecks:
 - source registry;
 - normalized money-flow signals;
 - psychology aggregation;
 - case records;
-- resource-imbalance records;
+- Need/Resource/Blocker signals;
+- Resource Imbalance ledger;
 - opportunity ranking.
 
-Transaction software is justified only after repeated real bottlenecks appear.
+Transaction software is justified only after repeated real transaction bottlenecks appear.
 
-## 23. Governing truth — LOCKED
+## 21. Governing truth — LOCKED
 
-> **先把世界看清：维护数据源，追钱流，察人心，找“有余”与“不足”，拆成功与失败案例，识别阻碍资源交换的真实摩擦；再带着一个真实钩子进入市场，定结果、拆能力、调资源、设利益，让原本闲置或错配的价值进入可持续循环。**
+> **先把世界看清：维护数据源，追钱流，察人心，分别证明“谁缺、谁有余、为什么没成交”；任何一边靠想象补齐都只能停留在 UNKNOWN。只有当真实需要、真实闲置资源和真实阻塞点能在同一能力与地域上对齐，才允许进入低成本现实验证；再定结果、拆能力、调资源、设利益，让交换形成可持续循环。**
