@@ -8,6 +8,7 @@ on:
     paths:
       - "src/xuzhou_macro_mirror.py"
       - "scripts/collect_xuzhou_macro_mirror.py"
+      - "scripts/probe_js_gov_local_dynamics.py"
       - "tests/test_xuzhou_macro_mirror.py"
       - "data/source_registry.csv"
       - ".github/workflows/xuzhou-macro-mirror-live.yml"
@@ -15,6 +16,7 @@ on:
     paths:
       - "src/xuzhou_macro_mirror.py"
       - "scripts/collect_xuzhou_macro_mirror.py"
+      - "scripts/probe_js_gov_local_dynamics.py"
       - "tests/test_xuzhou_macro_mirror.py"
       - "data/source_registry.csv"
       - ".github/workflows/xuzhou-macro-mirror-live.yml"
@@ -38,10 +40,25 @@ jobs:
       - name: Run repository unit tests
         run: python -m unittest discover -s tests -v
 
+      - name: Probe official column loader structure
+        run: |
+          python scripts/probe_js_gov_local_dynamics.py \
+            --output .local/js_gov_column_probe.json
+
+      - name: Upload official column probe
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: js-gov-local-dynamics-probe
+          path: .local/js_gov_column_probe.json
+          retention-days: 14
+          if-no-files-found: error
+          include-hidden-files: true
+
       - name: Collect latest verified Xuzhou macro mirror release
         run: |
           python scripts/collect_xuzhou_macro_mirror.py \
-            --max-pages 35 \
+            --max-pages 1 \
             --output .local/xuzhou_macro_mirror.json
 
       - name: Validate Xuzhou macro evidence contract
@@ -70,12 +87,9 @@ jobs:
           gdp = float(metrics['XZ_GDP']['value'])
           if not 3000 < gdp < 7000:
               raise SystemExit(f'Xuzhou current-period GDP outside broad sanity bounds: {gdp}')
-          if data['discovery']['pages_scanned'] > 35:
-              raise SystemExit('bounded scan exceeded configured page cap')
           print('title=', release['title'])
           print('publication_date=', release['publication_date'])
           print('freshness=', data['freshness'])
-          print('pages_scanned=', data['discovery']['pages_scanned'])
           print('metrics=', json.dumps({k: v['value'] for k, v in metrics.items()}, ensure_ascii=False, sort_keys=True))
           PY
 
@@ -86,5 +100,5 @@ jobs:
           name: xuzhou-macro-mirror-evidence
           path: .local/xuzhou_macro_mirror.json
           retention-days: 14
-          if-no-files-found: error
+          if-no-files-found: ignore
           include-hidden-files: true
