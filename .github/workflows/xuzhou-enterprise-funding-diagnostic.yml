@@ -17,72 +17,49 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Verify homepage appeal feed with ordinary anonymous session
+      - name: Trace public area selection used by appeal homepage
         run: |
           python - <<'PY'
-          import hashlib, http.cookiejar, json
-          from urllib.parse import urlencode
-          from urllib.request import build_opener, HTTPCookieProcessor, Request
+          import re
+          from urllib.parse import urljoin
+          from urllib.request import Request, urlopen
 
-          origin = 'https://xzsme.js.cn'
-          home = origin + '/home'
-          endpoint = origin + '/xzapi/models/ebDemands/queryElasticsearch'
-          jar = http.cookiejar.CookieJar()
-          opener = build_opener(HTTPCookieProcessor(jar))
-          common = {
-              'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/140 Safari/537.36',
-              'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.7',
-          }
+          page = 'https://xzsme.js.cn/home'
+          req = Request(page, headers={'User-Agent': 'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)'})
+          with urlopen(req, timeout=20) as r:
+              html = r.read(1_000_000).decode('utf-8')
+          src = re.search(r'<script[^>]+type="module"[^>]+src="([^"]+)"', html, flags=re.I)
+          if not src:
+              raise SystemExit('module script missing')
+          asset = urljoin(page, src.group(1))
+          req = Request(asset, headers={'User-Agent': 'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)'})
+          with urlopen(req, timeout=20) as r:
+              text = r.read(8_000_000).decode('utf-8', errors='ignore')
+          print('ASSET=', asset, 'bytes=', len(text))
 
-          # Establish only the ordinary anonymous session created by visiting the public homepage.
-          req = Request(home, headers={**common, 'Accept': 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.5'})
-          with opener.open(req, timeout=20) as r:
-              raw = r.read(1_000_000)
-              print('HOME status=', r.status, 'final=', r.geturl(), 'bytes=', len(raw), 'cookies=', [(c.name, c.domain, c.path) for c in jar])
+          for needle in ('araeid', 'demandsAddress', 'localStorage.setItem', 'localStorage.getItem'):
+              print('CONTEXT_FOR', repr(needle))
+              start = 0
+              hits = 0
+              while hits < 20:
+                  i = text.find(needle, start)
+                  if i < 0:
+                      break
+                  context = text[max(0, i-700):min(len(text), i+1400)]
+                  if needle in ('araeid', 'demandsAddress') or 'araeid' in context or 'demandsAddress' in context:
+                      print(context)
+                      print('---')
+                  hits += 1
+                  start = i + len(needle)
+              print('HITS=', hits)
 
-          variants = [
-              ('axios_null_omitted', {'pageSize': 100, 'pageNo': 1}),
-              ('empty_demands_address', {'pageSize': 100, 'pageNo': 1, 'demandsAddress': ''}),
-          ]
-          finance_terms = ('融资', '贷款', '资金周转', '资金短缺', '续贷', '融资难', '融资贵', '银行贷款')
-          for label, params in variants:
-              url = endpoint + '?' + urlencode(params)
-              req = Request(url, headers={
-                  **common,
-                  'Accept': 'application/json,text/plain,*/*',
-                  'Referer': home,
-                  'Origin': origin,
-                  'X-Requested-With': 'XMLHttpRequest',
-              })
-              with opener.open(req, timeout=20) as r:
-                  raw = r.read(5_000_000)
-                  print('API_VARIANT=', label, 'status=', r.status, 'final=', r.geturl(), 'type=', r.headers.get('Content-Type'), 'bytes=', len(raw), 'sha256=', hashlib.sha256(raw).hexdigest())
-              data = json.loads(raw.decode('utf-8'))
-              print('API_TOP_LEVEL=', label, {k: v for k, v in data.items() if k not in {'result', 'data'}})
-              result = data.get('result') or {}
-              records = result.get('records') or []
-              print('API_RESULT=', label, 'keys=', sorted(result.keys()), 'records=', len(records), 'total=', result.get('total'))
-              if records:
-                  print('PUBLIC_RECORD_KEYS=', sorted(records[0].keys()))
-              matches = []
-              for rec in records:
-                  title = str(rec.get('title') or '')
-                  content = str(rec.get('content') or '')
-                  if not any(term in title + ' ' + content for term in finance_terms):
-                      continue
-                  # Retain only fields necessary to evaluate the already-public demand signal.
-                  matches.append({
-                      'id': rec.get('id'),
-                      'title': title,
-                      'content': content,
-                      'questionType': rec.get('questionType'),
-                      'demandsAddress': rec.get('demandsAddress'),
-                      'createTime': rec.get('createTime'),
-                      'updateTime': rec.get('updateTime'),
-                      'status': rec.get('status'),
-                      'source': rec.get('source'),
-                  })
-              print('FINANCE_MATCH_COUNT=', label, len(matches))
-              for item in matches[:30]:
-                  print('FINANCE_MATCH=', label, json.dumps(item, ensure_ascii=False, sort_keys=True))
+          # Surface only literal public endpoint constants near area/address concepts.
+          literals = []
+          for m in re.finditer(r'["\']([^"\']{3,220})["\']', text):
+              s = m.group(1)
+              low = s.lower()
+              if any(k in low for k in ('area', 'region', 'district', 'address')) or any(k in s for k in ('区域', '地区', '区县', '地址', '属地')):
+                  if '/' in s or 'arae' in low or 'area' in low or 'region' in low or 'district' in low:
+                      literals.append(s)
+          print('AREA_LITERAL_HINTS=', list(dict.fromkeys(literals))[:300])
           PY
