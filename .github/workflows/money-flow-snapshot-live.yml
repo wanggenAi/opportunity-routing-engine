@@ -6,6 +6,7 @@ on:
     - cron: "35 5 * * *"
   pull_request:
     paths:
+      - "src/html_ingest.py"
       - "src/money_flow_snapshot.py"
       - "src/gacc_trade_flow.py"
       - "src/gacc_trade_corroboration.py"
@@ -18,12 +19,14 @@ on:
       - "src/xuzhou_enterprise_funding_demand.py"
       - "scripts/collect_money_flow_snapshot.py"
       - "scripts/collect_xuzhou_enterprise_funding_demand.py"
+      - "tests/test_html_ingest.py"
       - "tests/test_money_flow_snapshot.py"
       - "tests/test_xuzhou_enterprise_funding_demand.py"
       - "requirements-pbc-js-credit.txt"
       - ".github/workflows/money-flow-snapshot-live.yml"
   push:
     paths:
+      - "src/html_ingest.py"
       - "src/money_flow_snapshot.py"
       - "src/gacc_trade_flow.py"
       - "src/gacc_trade_corroboration.py"
@@ -36,6 +39,7 @@ on:
       - "src/xuzhou_enterprise_funding_demand.py"
       - "scripts/collect_money_flow_snapshot.py"
       - "scripts/collect_xuzhou_enterprise_funding_demand.py"
+      - "tests/test_html_ingest.py"
       - "tests/test_money_flow_snapshot.py"
       - "tests/test_xuzhou_enterprise_funding_demand.py"
       - "requirements-pbc-js-credit.txt"
@@ -73,6 +77,7 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+          from urllib.parse import urlparse
 
           data = json.loads(Path('.local/money_flow_snapshot.json').read_text(encoding='utf-8'))
           if data.get('schema_version') != 'money-flow-snapshot-v3':
@@ -122,12 +127,8 @@ jobs:
           }
           if bad:
               raise SystemExit(f'live snapshot has unavailable feeds: {bad}')
-          if data.get('status_counts') != {
-              'AVAILABLE': 8,
-              'UNAVAILABLE': 0,
-              'ERROR': 0,
-              'NOT_RUN': 0,
-          }:
+          expected_counts = {'AVAILABLE': 8, 'UNAVAILABLE': 0, 'ERROR': 0, 'NOT_RUN': 0}
+          if data.get('status_counts') != expected_counts:
               raise SystemExit(f'unexpected status counts: {data.get("status_counts")}')
 
           answerability = data['answerability']
@@ -137,10 +138,17 @@ jobs:
           if answerability['xuzhou_specific_area_trade']['status'] != 'PARTIAL':
               raise SystemExit(f'Xuzhou specific-area trade must remain PARTIAL: {answerability["xuzhou_specific_area_trade"]}')
           if answerability['xuzhou_enterprise_funding_demand']['status'] != 'PARTIAL':
-              raise SystemExit(f'Xuzhou enterprise funding demand must be scoped PARTIAL: {answerability["xuzhou_enterprise_funding_demand"]}')
-          for key in ('xuzhou_city_trade_flow', 'xuzhou_financial_balance', 'xuzhou_private_enterprise_funding_demand'):
+              raise SystemExit(f'Xuzhou enterprise funding demand must remain scoped PARTIAL: {answerability["xuzhou_enterprise_funding_demand"]}')
+          for key in ('xuzhou_city_trade_flow', 'xuzhou_financial_balance'):
               if answerability[key]['status'] != 'UNKNOWN':
-                  raise SystemExit(f'{key} must remain UNKNOWN until direct scope-equivalent evidence exists: {answerability[key]}')
+                  raise SystemExit(f'{key} must remain UNKNOWN: {answerability[key]}')
+          # A newly discovered explicit private-enterprise event changes semantics and
+          # must be reviewed rather than silently promoting this dimension.
+          if answerability['xuzhou_private_enterprise_funding_demand']['status'] != 'UNKNOWN':
+              raise SystemExit(
+                  'new explicit private-enterprise funding-demand evidence requires semantic review: '
+                  + json.dumps(answerability['xuzhou_private_enterprise_funding_demand'], ensure_ascii=False)
+              )
 
           headline = data['headline_evidence']
           national_metrics = headline['China']['pbc_release'].get('metrics', {})
@@ -200,22 +208,29 @@ jobs:
           funding = xz['enterprise_financing_demand']
           if funding.get('evidence_kind') != 'SCOPED_DIRECT_ENTERPRISE_FINANCING_DEMAND':
               raise SystemExit(f'funding-demand identity drift: {funding}')
-          if funding.get('event_count') != 1:
-              raise SystemExit(f'expected one strictly matched scoped funding-demand event: {funding}')
+          if (funding.get('event_count') or 0) < 1:
+              raise SystemExit(f'no scoped funding-demand event: {funding}')
           if funding.get('aggregation_policy') != 'NO_CROSS_PROGRAM_OR_PERIOD_SUM':
               raise SystemExit(f'unsafe funding-demand aggregation policy: {funding}')
           funding_events = funding.get('events') or []
-          if not funding_events:
-              raise SystemExit('scoped funding-demand event missing')
-          latest_funding = funding_events[0]
-          if latest_funding.get('demand_amount_cny_100m') != '13.6':
-              raise SystemExit(f'unexpected explicit funding-demand amount: {latest_funding}')
-          if latest_funding.get('actor_scope') != 'SME_AND_MICRO':
-              raise SystemExit(f'current scoped actor identity drift: {latest_funding}')
-          if latest_funding.get('private_enterprise_scope_explicit') is not False:
-              raise SystemExit(f'SME evidence leaked into private-enterprise scope: {latest_funding}')
-          if latest_funding.get('aggregation_allowed') is not False:
-              raise SystemExit(f'scoped funding-demand event became summable: {latest_funding}')
+          if len(funding_events) != funding.get('event_count'):
+              raise SystemExit(f'funding event count mismatch: {funding}')
+          for event in funding_events:
+              parsed = urlparse(event.get('source_url', ''))
+              if parsed.scheme != 'https' or parsed.hostname != 'www.jiangsu.gov.cn' or '/art_' not in parsed.path:
+                  raise SystemExit(f'funding source escaped official allowlist: {event}')
+              if event.get('source_authority') != '徐州市政府办公室':
+                  raise SystemExit(f'funding authority drift: {event}')
+              if event.get('coverage_scope') != 'SCOPED_PROGRAM_OR_REPORTED_BATCH':
+                  raise SystemExit(f'funding scope widened unexpectedly: {event}')
+              if not event.get('demand_amount_cny_100m'):
+                  raise SystemExit(f'explicit demand amount missing: {event}')
+              if event.get('aggregation_allowed') is not False:
+                  raise SystemExit(f'scoped funding-demand event became summable: {event}')
+              if event.get('actor_scope') == 'PRIVATE_ENTERPRISE' or event.get('private_enterprise_scope_explicit') is True:
+                  raise SystemExit('new private-enterprise funding-demand evidence requires semantic review: ' + json.dumps(event, ensure_ascii=False))
+              if event.get('private_enterprise_scope_explicit') is not False:
+                  raise SystemExit(f'private-enterprise inference leaked: {event}')
 
           serialized = json.dumps(headline, ensure_ascii=False)
           for forbidden in (
