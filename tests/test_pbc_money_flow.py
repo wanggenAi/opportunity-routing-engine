@@ -55,6 +55,24 @@ class PbcMoneyFlowTests(unittest.TestCase):
         self.assertEqual(parsed["metrics"]["usd_cny_reference"]["value"], 6.8109)
         self.assertNotIn("nonexistent_metric", parsed["metrics"])
 
+    def test_parses_full_width_parentheses_and_spacing(self):
+        text = """
+        文章来源： 2026-07-15 15:00:09
+        社会融资规模存量为462.06万亿元，同比增长7.4%。
+        社会融资规模增量累计为20.84万亿元。
+        广义货币（ M2 ）余额356.71万亿元，同比 增长8%。
+        狭义货币（M1）余额118.48万亿元,同比增长4%。
+        流通中货币（M0）余额14.74万亿元,同比增长11.8%。
+        """.replace("同比 增长", "同比增长")
+        parsed = parse_financial_report(
+            title="2026年上半年金融统计数据报告",
+            text=text,
+            source_url="https://www.pbc.gov.cn/report",
+        )
+        self.assertEqual(parsed["metrics"]["m2_balance"]["value"], 356.71)
+        self.assertEqual(parsed["metrics"]["m1_balance"]["value"], 118.48)
+        self.assertEqual(parsed["metrics"]["m0_balance"]["value"], 14.74)
+
     def test_negative_yoy_preserves_sign(self):
         text = """
         文章来源： 2026-07-15 15:00:09
