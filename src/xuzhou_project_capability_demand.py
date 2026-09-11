@@ -138,8 +138,36 @@ def _heading_line(text: str, start: int) -> str:
 
 
 def _multi_role_summary_heading(line: str) -> bool:
+    # Parenthetical aliases are the same person-role, not a second role. Normalize
+    # them before testing whether a line really summarizes multiple distinct roles.
+    normalized = line
+    for alias, canonical in (
+        ("项目经理（项目负责人）", "项目经理"),
+        ("项目经理(项目负责人)", "项目经理"),
+        ("项目总工（项目技术负责人）", "项目总工"),
+        ("项目总工(项目技术负责人)", "项目总工"),
+        ("项目总工（技术负责人）", "项目总工"),
+        ("项目总工(技术负责人)", "项目总工"),
+    ):
+        normalized = normalized.replace(alias, canonical)
     markers = ("项目经理", "项目总工", "项目负责人")
-    return sum(marker in line for marker in markers) >= 2
+    return sum(marker in normalized for marker in markers) >= 2
+
+
+def _qualification_scope(excerpt: str) -> str:
+    """Keep credential parsing inside the role's own qualification clause.
+
+    Shared employment/social-insurance notes and later explanatory notes are kept
+    in the raw excerpt for audit, but must not leak another role's credentials into
+    this role's structured fields.
+    """
+
+    cut = len(excerpt)
+    for marker in (" 注：", " 注:", " 拟投入", " 拟派"):
+        pos = excerpt.find(marker, 40)
+        if pos >= 0:
+            cut = min(cut, pos)
+    return excerpt[:cut]
 
 
 def _find_first(patterns: tuple[str, ...], text: str) -> str | None:
@@ -156,16 +184,13 @@ def _find_first(patterns: tuple[str, ...], text: str) -> str | None:
 
 
 def _structure_requirement(role: str, excerpt: str, full_text: str) -> CapabilityRequirement:
-    # Structured credential fields are extracted only from this role's bounded
-    # local section. This prevents later notes about another role (for example a
-    # manager's level-one constructor certificate) from contaminating the
-    # technical lead's structured requirements.
+    local = _qualification_scope(excerpt)
     constructor_license = _find_first(
         (
             r"(?:公路工程(?:专业)?|机电工程(?:专业)?)?"
             r"(?:一级|二级)(?:及以上)?(?:建造师注册证书|注册建造师(?:资格|证书)?)",
         ),
-        excerpt,
+        local,
     )
     professional_title = _find_first(
         (
@@ -175,7 +200,7 @@ def _structure_requirement(role: str, excerpt: str, full_text: str) -> Capabilit
             r"(?:公路工程相关专业)?工程师(?:或以上|及以上)?技术职称",
             r"高级(?:及以上)?技术职称",
         ),
-        excerpt,
+        local,
     )
     testing_certificate = _find_first(
         (
@@ -185,7 +210,7 @@ def _structure_requirement(role: str, excerpt: str, full_text: str) -> Capabilit
             r"公路水运工程试验检测师证书",
             r"公路工程试验检测工程师证书",
         ),
-        excerpt,
+        local,
     )
     prior_experience = bool(
         re.search(r"(?:至少|不少于).{0,60}(?:承担过|担任过|完成过)", excerpt)
