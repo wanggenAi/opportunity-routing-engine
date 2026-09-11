@@ -32,8 +32,17 @@ jobs:
         run: |
           python scripts/collect_mofcom_open_data.py \
             --watchlist data/mofcom_api_watchlist.csv \
-            --require-success \
             --output .local/mofcom_open_data.json
+
+      - name: Upload MOFCOM evidence artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mofcom-open-data-evidence
+          path: .local/mofcom_open_data.json
+          retention-days: 14
+          if-no-files-found: error
+          include-hidden-files: true
 
       - name: Validate provenance and truth boundaries
         run: |
@@ -42,6 +51,7 @@ jobs:
           from pathlib import Path
 
           data = json.loads(Path('.local/mofcom_open_data.json').read_text(encoding='utf-8'))
+          print('errors:', json.dumps(data['errors'], ensure_ascii=False))
           if data['success_count'] < 1:
               raise SystemExit('no successful MOFCOM API response')
           for item in data['datasets']:
@@ -54,12 +64,3 @@ jobs:
                   raise SystemExit('unexpected MOFCOM API host/scheme')
               print(item['dataset']['name'], item['data_type'], item['top_level_item_count'])
           PY
-
-      - name: Upload MOFCOM evidence artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: mofcom-open-data-evidence
-          path: .local/mofcom_open_data.json
-          retention-days: 14
-          if-no-files-found: error
-          include-hidden-files: true
