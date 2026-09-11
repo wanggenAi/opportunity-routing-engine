@@ -49,6 +49,7 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+          from urllib.parse import urlparse
 
           data = json.loads(Path('.local/mofcom_open_data.json').read_text(encoding='utf-8'))
           print('errors:', json.dumps(data['errors'], ensure_ascii=False))
@@ -60,7 +61,24 @@ jobs:
               provenance = item['provenance']
               if not provenance.get('payload_sha256'):
                   raise SystemExit('missing provenance hash')
-              if not str(provenance.get('url', '')).startswith('https://opendata.mofcom.gov.cn/'):
-                  raise SystemExit('unexpected MOFCOM API host/scheme')
-              print(item['dataset']['name'], item['data_type'], item['top_level_item_count'])
+              parsed = urlparse(str(provenance.get('url', '')))
+              if parsed.hostname != 'opendata.mofcom.gov.cn' or parsed.path != '/front/data/jsonData':
+                  raise SystemExit('unexpected MOFCOM API host/path')
+              if parsed.scheme not in {'http', 'https'}:
+                  raise SystemExit('unexpected MOFCOM API scheme')
+              if item['transport_security'] == 'PLAINTEXT_HTTP':
+                  if parsed.scheme != 'http' or item['corroboration_required'] is not True:
+                      raise SystemExit('plain HTTP evidence must remain explicitly lower-trust')
+              elif item['transport_security'] == 'HTTPS':
+                  if parsed.scheme != 'https':
+                      raise SystemExit('HTTPS state must match final provenance URL')
+              else:
+                  raise SystemExit('unknown transport security state')
+              print(
+                  item['dataset']['name'],
+                  item['data_type'],
+                  item['top_level_item_count'],
+                  item['transport_security'],
+                  'corroboration_required=', item['corroboration_required'],
+              )
           PY
