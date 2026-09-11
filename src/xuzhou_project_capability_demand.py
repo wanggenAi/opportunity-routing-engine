@@ -33,22 +33,23 @@ _DETAIL_RE = re.compile(
     r"^/jyxx/003002/003002001/(20\d{6})/[0-9a-fA-F-]+\.html$"
 )
 
-# Project-lead matching is deliberately narrower than a bare ``项目负责人``.
-# That phrase also appears inside statutory safety-certificate names, where it
-# describes the certificate category rather than a role demanded by the tender.
+# Bare role words occur frequently in experience descriptions and statutory
+# certificate names. Candidate headings therefore need either explicit
+# qualification wording or a numbered requirement immediately after the role.
 _ROLE_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     (
         "PROJECT_MANAGER",
         re.compile(
-            r"项目经理(?:（项目负责人）|\(项目负责人\))?"
-            r"(?:资格(?:条件|要求)?|条件|要求|应满足的要求)?"
+            r"(?:[aA][.．、]\s*)?项目经理(?:（项目负责人）|\(项目负责人\))?"
+            r"(?:资格(?:条件|要求)?|条件|要求|应满足的要求|(?=\s*[（(]?\d+[）)]?))"
         ),
     ),
     (
         "PROJECT_TECHNICAL_LEAD",
         re.compile(
-            r"项目总工(?:（项目技术负责人）|\(项目技术负责人\)|（技术负责人）|\(技术负责人\))?"
-            r"(?:资格(?:条件|要求)?|条件|要求)?"
+            r"(?:[bB][.．、]\s*)?项目总工"
+            r"(?:（项目技术负责人）|\(项目技术负责人\)|（技术负责人）|\(技术负责人\))?"
+            r"(?:资格(?:条件|要求)?|条件|要求|(?=\s*[（(]?\d+[）)]?))"
         ),
     ),
     (
@@ -111,8 +112,17 @@ def _best_title(doc_title: str, text: str, fallback: str | None) -> str:
     return doc_title
 
 
-def _bounded_excerpt(text: str, start: int, *, max_chars: int = 1800) -> str:
-    tail = text[start : start + max_chars]
+def _bounded_excerpt(
+    text: str,
+    start: int,
+    *,
+    next_role_start: int | None = None,
+    max_chars: int = 1800,
+) -> str:
+    end = min(len(text), start + max_chars)
+    if next_role_start is not None and start < next_role_start < end:
+        end = next_role_start
+    tail = text[start:end]
     stop = _SECTION_STOP_RE.search(tail[80:])
     if stop:
         tail = tail[: 80 + stop.start()]
@@ -132,38 +142,28 @@ def _multi_role_summary_heading(line: str) -> bool:
     return sum(marker in line for marker in markers) >= 2
 
 
-def _project_lead_is_role_umbrella(excerpt: str) -> bool:
-    """Reject umbrella sections that only introduce manager + technical lead.
-
-    Some official notices use a heading such as ``项目负责人条件`` and immediately
-    split it into ``a.项目经理`` and ``b.项目总工``. Treating the umbrella as a
-    third standalone role would double count capability demand.
-    """
-
-    prefix = excerpt[:500]
-    manager = bool(
-        re.search(r"(?:^|\s)(?:[aA][.．、]|[（(]1[）)])\s*项目经理", prefix)
-    )
-    technical = bool(
-        re.search(r"(?:^|\s)(?:[bB][.．、]|[（(]2[）)])\s*项目总工", prefix)
-    )
-    return manager and technical
-
-
 def _find_first(patterns: tuple[str, ...], text: str) -> str | None:
+    """Return the earliest matched evidence, not the first pattern that matches."""
+    matches: list[re.Match[str]] = []
     for pattern in patterns:
         match = re.search(pattern, text)
         if match:
-            return normalize_whitespace(match.group(0))
-    return None
+            matches.append(match)
+    if not matches:
+        return None
+    match = min(matches, key=lambda item: item.start())
+    return normalize_whitespace(match.group(0))
 
 
 def _structure_requirement(role: str, excerpt: str, full_text: str) -> CapabilityRequirement:
+    # Structured credential fields are extracted only from this role's bounded
+    # local section. This prevents later notes about another role (for example a
+    # manager's level-one constructor certificate) from contaminating the
+    # technical lead's structured requirements.
     constructor_license = _find_first(
         (
-            r"(?:公路工程专业|机电工程专业)?一级(?:及以上)?(?:建造师注册证书|注册建造师(?:资格)?)",
-            r"(?:公路工程专业|机电工程专业)?二级(?:及以上)?(?:建造师注册证书|注册建造师(?:资格)?)",
-            r"(?:公路工程专业|机电工程专业)?(?:一级|二级)(?:及以上)?建造师注册证书",
+            r"(?:公路工程(?:专业)?|机电工程(?:专业)?)?"
+            r"(?:一级|二级)(?:及以上)?(?:建造师注册证书|注册建造师(?:资格|证书)?)",
         ),
         excerpt,
     )
@@ -181,16 +181,19 @@ def _structure_requirement(role: str, excerpt: str, full_text: str) -> Capabilit
         (
             r"《公路工程试验检测工程师证书》",
             r"《公路水运工程试验检测师证书》",
+            r"公路工程试验检测工程师或试验检测师证书",
             r"公路水运工程试验检测师证书",
             r"公路工程试验检测工程师证书",
-            r"公路工程试验检测工程师或试验检测师证书",
         ),
         excerpt,
     )
     prior_experience = bool(
-        re.search(r"(?:至少|不少于).{0,35}(?:承担过|担任过|完成过)", excerpt)
-        or re.search(r"(?:承担过|担任过|完成过).{0,80}(?:项目经理|项目总工|项目负责人)", excerpt)
+        re.search(r"(?:至少|不少于).{0,60}(?:承担过|担任过|完成过)", excerpt)
+        or re.search(r"(?:承担过|担任过|完成过).{0,100}(?:项目经理|项目总工|项目负责人)", excerpt)
+        or re.search(r"(?:业绩要求.{0,160}?(?:完成过|承担过)|完成过以下类似业绩)", excerpt)
     )
+    # Employment/social-insurance ties may be stated once for several roles, so
+    # those transaction constraints remain event-level corroboration.
     bidder_employee_required = bool(
         re.search(r"(?:拟投入|拟派).{0,60}(?:应为|须为|必须为)投标人本单位人员", full_text)
         or re.search(r"(?:拟投入|拟派).{0,60}必须为申请人自有人员", full_text)
@@ -210,28 +213,46 @@ def _structure_requirement(role: str, excerpt: str, full_text: str) -> Capabilit
     )
 
 
-def extract_project_capability_requirements(text: str) -> list[CapabilityRequirement]:
-    """Extract explicit generic role requirements; never infer supply or shortage."""
+def _role_candidates(text: str) -> list[tuple[int, str]]:
     found: list[tuple[int, str]] = []
     for role, pattern in _ROLE_PATTERNS:
         for match in pattern.finditer(text):
             found.append((match.start(), role))
     found.sort(key=lambda item: item[0])
+    return found
 
-    # Combined headings such as “项目经理资格和项目总工资格要求” are merely
-    # section summaries. Taking them as a concrete role block can attribute the
-    # manager's license to the technical lead, so they are skipped fail-closed.
+
+def extract_project_capability_requirements(text: str) -> list[CapabilityRequirement]:
+    """Extract explicit generic role requirements; never infer supply or shortage."""
+    found = _role_candidates(text)
     result: list[CapabilityRequirement] = []
     seen_roles: set[str] = set()
-    for start, role in found:
+
+    for index, (start, role) in enumerate(found):
         if role in seen_roles:
             continue
         heading = _heading_line(text, start)
         if _multi_role_summary_heading(heading):
             continue
-        excerpt = _bounded_excerpt(text, start)
-        if role == "PROJECT_LEAD" and _project_lead_is_role_umbrella(excerpt):
+
+        next_role_start = found[index + 1][0] if index + 1 < len(found) else None
+        next_role = found[index + 1][1] if index + 1 < len(found) else None
+        # Some notices use “拟派项目负责人应满足的要求” only as an umbrella,
+        # immediately followed by a concrete project-manager subsection. It is
+        # not a third personnel role.
+        if (
+            role == "PROJECT_LEAD"
+            and next_role in {"PROJECT_MANAGER", "PROJECT_TECHNICAL_LEAD"}
+            and next_role_start is not None
+            and next_role_start - start < 250
+        ):
             continue
+
+        excerpt = _bounded_excerpt(
+            text,
+            start,
+            next_role_start=next_role_start,
+        )
         if not any(
             token in excerpt
             for token in (
