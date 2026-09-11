@@ -61,7 +61,7 @@ def main() -> None:
 
     agency = sub.add_parser(
         "xuzhou-agency-assets",
-        help="discover Xuzhou agency listings and fetch official Jiangsu mirror details",
+        help="discover Xuzhou agency listings from the official page and enrich linked details",
     )
     _add_common(agency)
 
@@ -78,10 +78,10 @@ def main() -> None:
     if args.command == "xuzhou-agency-assets":
         payload = XuzhouAgencyAssetFeed().collect_recent(limit=args.limit)
         if args.require_listings and payload["listing_count"] < 1:
-            raise SystemExit("no Xuzhou agency asset mirror listing parsed")
+            raise SystemExit("no Xuzhou agency-linked asset listing parsed")
         _write(args.output, payload)
         _summary(payload)
-        print("skipped=", payload["skipped_count"])
+        print("skipped=", payload.get("skipped_count", 0))
         return
 
     raise AssertionError(args.command)
