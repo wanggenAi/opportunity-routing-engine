@@ -1,0 +1,78 @@
+name: pbc-regional-financing-live
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 3 * * *"
+  push:
+    paths:
+      - "src/xlsx_ingest.py"
+      - "src/pbc_regional_financing.py"
+      - "scripts/collect_pbc_regional_financing.py"
+      - "tests/test_pbc_regional_financing.py"
+      - ".github/workflows/pbc-regional-financing-live.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  collect-jiangsu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect newest official PBC regional AFRE table
+        run: |
+          python scripts/collect_pbc_regional_financing.py \
+            --region 江苏 \
+            --output .local/pbc_regional_jiangsu.json
+
+      - name: Validate Jiangsu evidence contract
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          data = json.loads(Path('.local/pbc_regional_jiangsu.json').read_text(encoding='utf-8'))
+          if data.get('source_id') != 'CN_PBOC' or data.get('data_available') is not True:
+              raise SystemExit('PBC regional source did not produce available data')
+          obs = data['region_observation']
+          if obs.get('region') != '江苏':
+              raise SystemExit('unexpected regional observation')
+          value = float(obs['social_financing_flow_100m_cny'])
+          if not 10000 < value < 50000:
+              raise SystemExit(f'Jiangsu AFRE flow outside broad sanity bounds: {value}')
+          for key in ('index', 'detail', 'xlsx'):
+              meta = data['provenance'][key]
+              parsed = urlparse(meta['url'])
+              if parsed.scheme != 'https' or parsed.hostname != 'www.pbc.gov.cn':
+                  raise SystemExit(f'unexpected PBC provenance URL: {meta["url"]}')
+              if not meta.get('payload_sha256'):
+                  raise SystemExit(f'missing provenance hash: {key}')
+          if not data['provenance']['xlsx'].get('size_bytes'):
+              raise SystemExit('missing XLSX byte-size evidence')
+          print('table_title=', data['table_title'])
+          print('release_date=', data['release_date'])
+          print('jiangsu=', json.dumps(obs, ensure_ascii=False, sort_keys=True))
+          PY
+
+      - name: Upload Jiangsu regional financing evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pbc-regional-jiangsu-evidence
+          path: .local/pbc_regional_jiangsu.json
+          retention-days: 14
+          if-no-files-found: error
+          include-hidden-files: true
