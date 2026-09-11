@@ -1,9 +1,14 @@
 """Official GACC monthly trade-flow evidence for Jiangsu and Xuzhou.
 
-The adapter uses the General Administration of Customs of China (GACC) English
-Monthly Bulletin and only follows public same-host HTML publication links.
+GACC's English Monthly Bulletin is currently reachable by GitHub-hosted runners over
+plain HTTP, while its HTTPS certificate chain fails standard verification. We do
+not weaken TLS verification repository-wide. Instead, exactly like the isolated
+MOFCOM official-HTTP exception, this module permits only the documented GACC host
+and monthly/detail paths, records plaintext transport explicitly, and requires
+independent corroboration before downstream conclusions may rely on the data.
 
 Truth boundaries:
+- plaintext official HTTP is lower-trust and requires corroboration;
 - importer/exporter-location trade != domestic origin/destination trade;
 - a specific customs area != the whole Xuzhou economy;
 - specific-area rows are not summed into city/province totals here;
@@ -13,21 +18,116 @@ Truth boundaries:
 
 from __future__ import annotations
 
+import hashlib
 import re
 from dataclasses import asdict, dataclass
+from datetime import datetime, timezone
 from html.parser import HTMLParser
 from typing import Any
+from urllib.error import HTTPError, URLError
 from urllib.parse import urljoin, urlparse
+from urllib.request import Request, urlopen
 
-from src.html_ingest import PublicHtmlClient, normalize_whitespace
+from src.html_ingest import HtmlFetchEnvelope, normalize_whitespace
 
 
 SOURCE_ID = "CN_CUSTOMS"
 HOST = "english.customs.gov.cn"
-MONTHLY_URL = "https://english.customs.gov.cn/statics/report/monthly.html"
+MONTHLY_PATH = "/statics/report/monthly.html"
+MONTHLY_URL = f"http://{HOST}{MONTHLY_PATH}"
 _DETAIL_PATH_RE = re.compile(r"^/statics/[0-9a-f-]+\.html$", re.IGNORECASE)
 _PERIOD_RE = re.compile(r"(?:1\s*(?:to|[-—–])\s*)?(\d{1,2})\s*[.]\s*(20\d{2})", re.IGNORECASE)
 _NUMBER_RE = re.compile(r"^-?\d[\d,]*(?:\.\d+)?$")
+
+
+class GaccOfficialHttpError(RuntimeError):
+    pass
+
+
+class GaccOfficialHttpClient:
+    """Exact-host/path client for GACC's public plaintext monthly bulletin.
+
+    This is intentionally isolated rather than weakening ``PublicHtmlClient``'s
+    HTTPS-only invariant. Redirects to another host/scheme/path are rejected.
+    """
+
+    def __init__(self, *, timeout_seconds: float = 30.0, max_response_bytes: int = 8_000_000) -> None:
+        if timeout_seconds <= 0 or max_response_bytes <= 0:
+            raise ValueError("invalid GACC HTTP client bounds")
+        self.timeout_seconds = timeout_seconds
+        self.max_response_bytes = max_response_bytes
+
+    @staticmethod
+    def _allowed(url: str) -> bool:
+        parsed = urlparse(url)
+        if parsed.scheme != "http" or parsed.hostname != HOST:
+            return False
+        return parsed.path == MONTHLY_PATH or bool(_DETAIL_PATH_RE.match(parsed.path))
+
+    def fetch(self, url: str, *, request_name: str, params=None, headers=None) -> HtmlFetchEnvelope:
+        if params:
+            raise GaccOfficialHttpError("GACC monthly bulletin client does not accept query parameters")
+        if not self._allowed(url):
+            raise GaccOfficialHttpError(f"GACC HTTP client rejected URL: {url}")
+        request_headers = {
+            "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.5",
+            "User-Agent": "OpportunityRoutingEngine/0.1 (+public-evidence-ingest)",
+        }
+        if headers:
+            request_headers.update(headers)
+        request = Request(url, headers=request_headers, method="GET")
+        try:
+            response = urlopen(request, timeout=self.timeout_seconds)
+        except (HTTPError, URLError, TimeoutError, OSError) as exc:
+            raise GaccOfficialHttpError(f"GACC official HTTP request failed for {request_name}: {exc}") from exc
+        try:
+            final_url = str(getattr(response, "geturl", lambda: url)())
+            if not self._allowed(final_url):
+                raise GaccOfficialHttpError(f"unexpected GACC redirect target: {final_url}")
+            body = response.read(self.max_response_bytes + 1)
+            if len(body) > self.max_response_bytes:
+                raise GaccOfficialHttpError("GACC response exceeded size limit")
+            headers_obj = getattr(response, "headers", None)
+            content_type = str(headers_obj.get("Content-Type", "")) if headers_obj is not None else ""
+            lowered = content_type.lower()
+            if lowered and not any(x in lowered for x in ("text/html", "application/xhtml+xml", "text/plain")):
+                raise GaccOfficialHttpError(f"unexpected GACC content type: {content_type}")
+            charset = None
+            if headers_obj is not None:
+                get_charset = getattr(headers_obj, "get_content_charset", None)
+                if callable(get_charset):
+                    charset = get_charset()
+            candidates = [charset] if charset else []
+            candidates.extend(["utf-8", "gb18030"])
+            html = None
+            used_encoding = None
+            for encoding in candidates:
+                if not encoding:
+                    continue
+                try:
+                    html = body.decode(encoding, errors="strict")
+                    used_encoding = encoding
+                    break
+                except (LookupError, UnicodeDecodeError):
+                    continue
+            if html is None or used_encoding is None:
+                raise GaccOfficialHttpError("unable to decode GACC HTML")
+            status = int(getattr(response, "status", None) or response.getcode())
+            return HtmlFetchEnvelope(
+                source_id=SOURCE_ID,
+                request_name=request_name,
+                url=final_url,
+                fetched_at_utc=datetime.now(timezone.utc).isoformat(),
+                http_status=status,
+                content_type=content_type,
+                payload_sha256=hashlib.sha256(body).hexdigest(),
+                encoding=used_encoding,
+                html=html,
+            )
+        finally:
+            close = getattr(response, "close", None)
+            if callable(close):
+                close()
 
 
 class _TableParser(HTMLParser):
@@ -89,7 +189,7 @@ def parse_html_tables(html: str, *, base_url: str) -> list[list[dict[str, Any]]]
 
 def _official_detail_url(url: str) -> bool:
     parsed = urlparse(url)
-    return parsed.scheme == "https" and parsed.hostname == HOST and bool(_DETAIL_PATH_RE.match(parsed.path))
+    return parsed.scheme == "http" and parsed.hostname == HOST and bool(_DETAIL_PATH_RE.match(parsed.path))
 
 
 def _selected_year(html: str) -> int | None:
@@ -179,14 +279,8 @@ def _row_consistent(row: TradeRow) -> bool:
 
 
 class GaccTradeFlowAdapter:
-    def __init__(self, client: PublicHtmlClient | None = None) -> None:
-        self.client = client or PublicHtmlClient(
-            source_id=SOURCE_ID,
-            allowed_hosts={HOST},
-            timeout_seconds=30,
-            retries=2,
-            max_response_bytes=8_000_000,
-        )
+    def __init__(self, client: Any | None = None) -> None:
+        self.client = client or GaccOfficialHttpClient()
 
     def _discover_row(self, rows: list[list[dict[str, Any]]], needle: str) -> list[str]:
         for row in rows:
@@ -218,6 +312,8 @@ class GaccTradeFlowAdapter:
             "selected_year": selected_year,
             "location_links": location_links,
             "specific_area_links": area_links,
+            "transport_security": "PLAINTEXT_HTTP",
+            "corroboration_required": True,
             "provenance": env.metadata(),
         }
 
@@ -225,8 +321,7 @@ class GaccTradeFlowAdapter:
         best: dict[str, Any] | None = None
         for url in reversed(links):
             env = self.client.fetch(url, request_name=f"gacc.monthly.table_{table_number}")
-            text = re.sub(r"<[^>]+>", " ", env.html)
-            text = normalize_whitespace(text)
+            text = normalize_whitespace(re.sub(r"<[^>]+>", " ", env.html))
             period = _period_from_text(text)
             if period is None:
                 continue
@@ -283,13 +378,17 @@ class GaccTradeFlowAdapter:
             "evidence_kind": "CUSTOMS_TRADE_FLOW",
             "period": f"{location['period_year']:04d}-{location['period_month']:02d}",
             "unit": "USD_THOUSAND",
+            "transport_security": "PLAINTEXT_HTTP",
+            "corroboration_required": True,
+            "corroboration_status": "PENDING",
             "jiangsu_importer_exporter_location": asdict(jiangsu),
             "xuzhou_importer_exporter_location": asdict(xuzhou_location) if xuzhou_location else None,
             "xuzhou_specific_areas": [asdict(row) for row in xuzhou_areas],
-            "discovery": {k: v for k, v in discovery.items() if k != "provenance"} | {"provenance": discovery["provenance"]},
+            "discovery": discovery,
             "table_8_provenance": location["provenance"],
             "table_11_provenance": areas["provenance"],
             "truth_boundaries": [
+                "PLAINTEXT_HTTP_REQUIRES_CORROBORATION",
                 "IMPORTER_EXPORTER_LOCATION_IS_NOT_DOMESTIC_ORIGIN_DESTINATION",
                 "SPECIFIC_AREA_IS_NOT_WHOLE_XUZHOU",
                 "NO_CROSS_TABLE_SUM",
