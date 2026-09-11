@@ -1,19 +1,16 @@
 """Xuzhou agency property-rights feed discovered from the official Xuzhou list.
 
-The current Xuzhou public-resource page for legally established property-rights
-agencies publishes rows whose actual project link lives in an ``onclick`` redirect,
-for example ``https://www.ejy365.com/info/ejy423707``.  The official Xuzhou page is
-therefore the discovery/attestation source; the linked e交易 page is the detail source.
+The official Xuzhou public-resource page is the discovery/attestation source. Current
+rows may link to e交易 for detail enrichment; historical rows may resolve through the
+Jiangsu public-resource mirror.
 
 Truth boundaries:
-- an official Xuzhou list row proves only that a resource listing exists;
-- the e交易 detail may enrich price/term/asset facts but does not become government data;
+- discovery proves a listing exists, not that the resource is controlled by us;
+- linked detail may enrich facts but does not become government data;
 - explicit 闲置/空置 text is required for OBSERVED underuse;
 - repeated listing is allocation friction only;
-- no CapabilityUnit, payer or profitable route is inferred from the title.
-
-A legacy BiaoDuanGuid -> Jiangsu static-mirror path is retained as a fallback for old
-rows, but current production discovery is based on the externally linked project URL.
+- field parsing must never promote platform disclaimer/legal boilerplate as an owner;
+- title transaction semantics take precedence over unrelated body boilerplate.
 """
 
 from __future__ import annotations
@@ -21,7 +18,7 @@ from __future__ import annotations
 import re
 from dataclasses import asdict, dataclass
 from html import unescape
-from typing import Any
+from typing import Any, Iterable
 from urllib.parse import urljoin, urlparse
 
 from src.html_ingest import PublicHtmlClient, html_to_document, normalize_whitespace
@@ -51,6 +48,15 @@ _EJY_URL_RE = re.compile(
 _TITLE_ATTR_RE = re.compile(r"\btitle=['\"](?P<title>[^'\"]+)['\"]", re.I | re.S)
 _ROW_RE = re.compile(r"<tr\b[^>]*>(?P<body>.*?)</tr>", re.I | re.S)
 _TD_RE = re.compile(r"<td\b[^>]*>(?P<body>.*?)</td>", re.I | re.S)
+
+_BAD_FIELD_VALUE_MARKERS = (
+    "和/或招标方",
+    "相关资质进行审核",
+    "项目公告以及相关信息",
+    "本平台",
+    "不承担审核义务",
+    "法律责任",
+)
 
 
 @dataclass(frozen=True)
@@ -109,6 +115,50 @@ def _date_near_token(html: str, token: str, title: str = "") -> str | None:
             if matches:
                 return matches[0]
     return None
+
+
+def _clean_labeled_value(value: str | None) -> str | None:
+    candidate = normalize_whitespace(value or "").strip(" ：:")
+    if not candidate or len(candidate) > 180:
+        return None
+    if any(marker in candidate for marker in _BAD_FIELD_VALUE_MARKERS):
+        return None
+    return candidate
+
+
+def _labeled_value(text: str, labels: Iterable[str]) -> str | None:
+    """Extract a real label/value field without matching prose mentioning the label.
+
+    Colon-delimited labels may occur anywhere. Whitespace-only labels must begin a
+    logical line; this prevents prose such as ``挂牌方、招标方自行负责`` from being
+    interpreted as a field named ``挂牌方``.
+    """
+
+    for label in labels:
+        escaped = re.escape(label)
+        match = re.search(rf"{escaped}\s*[：:]\s*([^\n]{{1,220}})", text)
+        if match:
+            cleaned = _clean_labeled_value(match.group(1))
+            if cleaned:
+                return cleaned
+        match = re.search(rf"(?:^|\n)\s*{escaped}\s+([^\n]{{1,220}})", text)
+        if match:
+            cleaned = _clean_labeled_value(match.group(1))
+            if cleaned:
+                return cleaned
+    return None
+
+
+def _preferred_listing_mode(title: str, text: str, fallback: str | None = None) -> str:
+    """Prefer transaction semantics from the project title over body boilerplate."""
+
+    title_mode = _listing_mode(title)
+    if title_mode != "UNKNOWN":
+        return title_mode
+    fallback_mode = str(fallback or "").strip().upper()
+    if fallback_mode in {"LEASE", "TRANSFER"}:
+        return fallback_mode
+    return _listing_mode(text[:2400])
 
 
 def _extract_ejy_rows(html: str) -> list[dict[str, Any]]:
@@ -256,7 +306,11 @@ class XuzhouAgencyAssetFeed:
     def _validate_officially_discovered_external_url(self, item: dict[str, Any]) -> str:
         external_url = str(item.get("external_project_url") or "").strip()
         parsed = urlparse(external_url)
-        if parsed.scheme != "https" or parsed.hostname != EJY_HOST or not re.fullmatch(r"/info/ejy\d+", parsed.path):
+        if (
+            parsed.scheme != "https"
+            or parsed.hostname != EJY_HOST
+            or not re.fullmatch(r"/info/ejy\d+", parsed.path)
+        ):
             raise ValueError("external project URL is not a supported e交易 detail URL")
         return external_url
 
@@ -271,16 +325,15 @@ class XuzhouAgencyAssetFeed:
         title = self._best_title(text, doc["title"], str(item.get("title") or ""))
         monitoring_code = str(item.get("monitoring_code") or "").strip() or None
         if monitoring_code and monitoring_code not in text and monitoring_code not in title:
-            # The official discovery row remains authoritative for the monitoring code;
-            # mismatch is recorded as an error rather than silently joining the pages.
             raise ValueError("e交易 detail does not match the official monitoring code")
 
         round_number = _listing_round(title + " " + text[:2400]) or item.get("listing_round")
-        underuse_state, underuse_excerpt = _underuse_evidence(text)
+        # The title is source text too; explicit 闲置 in a verified project title is valid
+        # underuse evidence and must not be lost merely because body extraction is sparse.
+        underuse_state, underuse_excerpt = _underuse_evidence(title + "\n" + text)
         asking_price_rmb, asking_price_raw = _asking_price(text)
         project_id = (
-            _first(r"项目编号[：:\s]*([^\n]+)", text)
-            or _first(r"项目编码[：:\s]*([^\n]+)", text)
+            _labeled_value(text, ("项目编号", "项目编码"))
             or monitoring_code
         )
         return AgencyAssetListing(
@@ -299,30 +352,22 @@ class XuzhouAgencyAssetFeed:
             ),
             project_id=project_id,
             publisher_actor=str(item.get("publisher_actor") or "").strip() or None,
-            listing_mode=_listing_mode(title + " " + text[:2400]),
+            listing_mode=_preferred_listing_mode(
+                title,
+                text,
+                str(item.get("listing_mode") or ""),
+            ),
             listing_round=round_number,
             relisting_observed=bool(round_number and int(round_number) >= 2),
-            listing_start=(
-                _first(r"(?:报名开始时间|挂牌起始日期)[：:\s]*([^\n]+)", text)
-            ),
-            listing_end=(
-                _first(r"(?:报名截止时间|挂牌截止日期)[：:\s]*([^\n]+)", text)
-            ),
+            listing_start=_labeled_value(text, ("报名开始时间", "挂牌起始日期")),
+            listing_end=_labeled_value(text, ("报名截止时间", "挂牌截止日期")),
             resource_state="DISCOVERED",
             underuse_evidence_state=underuse_state,
             underuse_excerpt=underuse_excerpt,
             asking_price_rmb=asking_price_rmb,
             asking_price_raw=asking_price_raw,
-            location=(
-                _first(r"标的所在地[：:\s]*([^\n]+)", text)
-                or _first(r"标的坐落[：:\s]*([^\n]+)", text)
-                or _first(r"存放地[：:\s]*([^\n]+)", text)
-            ),
-            owner_actor=(
-                _first(r"挂牌方[：:\s]*([^\n]+)", text)
-                or _first(r"转让方名称[：:\s]*([^\n]+)", text)
-                or _first(r"出租方名称[：:\s]*([^\n]+)", text)
-            ),
+            location=_labeled_value(text, ("标的所在地", "标的坐落", "存放地")),
+            owner_actor=_labeled_value(text, ("挂牌方", "转让方名称", "出租方名称")),
             source_origin_verified=True,
             discovery_provenance=dict(item.get("discovery_provenance") or {}),
             detail_provenance=envelope.metadata(),
@@ -350,7 +395,7 @@ class XuzhouAgencyAssetFeed:
             raise ValueError("official mirror detail is not verified as Xuzhou-origin evidence")
         title = self._best_title(text, doc["title"], str(item.get("title") or ""))
         round_number = _listing_round(title + " " + text[:2400])
-        underuse_state, underuse_excerpt = _underuse_evidence(text)
+        underuse_state, underuse_excerpt = _underuse_evidence(title + "\n" + text)
         asking_price_rmb, asking_price_raw = _asking_price(text)
         monitoring_code = str(item.get("monitoring_code") or "").strip() or None
         return AgencyAssetListing(
@@ -363,26 +408,24 @@ class XuzhouAgencyAssetFeed:
             url=mirror_url,
             discovery_url=XZ_AGENCY_LIST,
             publication_date=_publication_date(text, mirror_url) or publication_date,
-            project_id=_first(r"项目编号[：:\s]*([^\n]+)", text) or monitoring_code,
+            project_id=_labeled_value(text, ("项目编号", "项目编码")) or monitoring_code,
             publisher_actor=str(item.get("publisher_actor") or "").strip() or None,
-            listing_mode=_listing_mode(title + " " + text[:2400]),
+            listing_mode=_preferred_listing_mode(
+                title,
+                text,
+                str(item.get("listing_mode") or ""),
+            ),
             listing_round=round_number,
             relisting_observed=bool(round_number and round_number >= 2),
-            listing_start=_first(r"挂牌起始日期[：:\s]*([^\n]+)", text),
-            listing_end=_first(r"挂牌截止日期[：:\s]*([^\n]+)", text),
+            listing_start=_labeled_value(text, ("挂牌起始日期",)),
+            listing_end=_labeled_value(text, ("挂牌截止日期",)),
             resource_state="DISCOVERED",
             underuse_evidence_state=underuse_state,
             underuse_excerpt=underuse_excerpt,
             asking_price_rmb=asking_price_rmb,
             asking_price_raw=asking_price_raw,
-            location=(
-                _first(r"存放地[：:\s]*([^\n]+)", text)
-                or _first(r"标的坐落[：:\s]*([^\n]+)", text)
-            ),
-            owner_actor=(
-                _first(r"转让方名称[：:\s]*([^\n]+)", text)
-                or _first(r"出租方名称[：:\s]*([^\n]+)", text)
-            ),
+            location=_labeled_value(text, ("存放地", "标的坐落", "标的所在地")),
+            owner_actor=_labeled_value(text, ("转让方名称", "出租方名称", "挂牌方")),
             source_origin_verified=True,
             discovery_provenance=dict(item.get("discovery_provenance") or {}),
             detail_provenance=envelope.metadata(),
