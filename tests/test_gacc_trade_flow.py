@@ -42,16 +42,18 @@ INDEX = """
 TABLE8_JUL = """
 <html><body><h1>（8）Imports and Exports by Location of Importers/Exporters,1-7.2026</h1>
 <p>Unit:US$1,000</p><table>
-<tr><th>Location</th><th>Total 7</th><th>Total 1to7</th><th>Exports 7</th><th>Exports 1to7</th><th>Imports 7</th><th>Imports 1to7</th><th>Total YoY</th><th>Export YoY</th><th>Import YoY</th></tr>
-<tr><td>Jiangsu</td><td>100</td><td>700</td><td>60</td><td>420</td><td>40</td><td>280</td><td>3.0</td><td>4.0</td><td>1.5</td></tr>
-<tr><td>Xuzhou</td><td>10</td><td>70</td><td>7</td><td>50</td><td>3</td><td>20</td><td>5.0</td><td>6.0</td><td>2.0</td></tr>
+<tr><th>Location of Importers/Exporters</th><th colspan='2'>Exports</th><th colspan='2'>Imports</th><th colspan='2'>Percentage Change</th></tr>
+<tr><th>7</th><th>1to7</th><th>7</th><th>1to7</th><th>Exports</th><th>Imports</th></tr>
+<tr><td>Jiangsu</td><td>60</td><td>420</td><td>40</td><td>280</td><td>4.0</td><td>1.5</td></tr>
+<tr><td>Xuzhou</td><td>7</td><td>50</td><td>3</td><td>20</td><td>6.0</td><td>2.0</td></tr>
 </table></body></html>
 """
 
 TABLE11_JUL = """
 <html><body><h1>（11）Imports and Exports by Specific Areas, 7.2026</h1>
 <p>Unit: US$1,000</p><table>
-<tr><th>Specific Areas</th><th>Total 7</th><th>Total 1to7</th><th>Exports 7</th><th>Exports 1to7</th><th>Imports 7</th><th>Imports 1to7</th><th>Total YoY</th><th>Export YoY</th><th>Import YoY</th></tr>
+<tr><th>Specific Areas</th><th colspan='2'>Total</th><th colspan='2'>Exports</th><th colspan='2'>Imports</th><th colspan='3'>Percentage Change</th></tr>
+<tr><th>7</th><th>1to7</th><th>7</th><th>1to7</th><th>7</th><th>1to7</th><th>Total</th><th>Exports</th><th>Imports</th></tr>
 <tr><td>Xuzhou CBZ</td><td>8</td><td>55</td><td>6</td><td>40</td><td>2</td><td>15</td><td>-2.0</td><td>1.0</td><td>-9.0</td></tr>
 <tr><td>Xuzhou BLC</td><td>2</td><td>15</td><td>1</td><td>10</td><td>1</td><td>5</td><td>-4.0</td><td>-3.0</td><td>-6.0</td></tr>
 </table></body></html>
@@ -83,33 +85,51 @@ class GaccTradeFlowTests(unittest.TestCase):
         self.assertEqual(payload["transport_security"], "PLAINTEXT_HTTP")
         self.assertTrue(payload["corroboration_required"])
         self.assertEqual(payload["corroboration_status"], "PENDING")
-        self.assertEqual(payload["jiangsu_importer_exporter_location"]["total_ytd_usd_thousand"], 700.0)
+        jiangsu = payload["jiangsu_importer_exporter_location"]
+        self.assertEqual(jiangsu["total_ytd_usd_thousand"], 700.0)
+        self.assertEqual(jiangsu["total_basis"], "DERIVED_EXPORT_PLUS_IMPORT")
+        self.assertIsNone(jiangsu["total_yoy_percent"])
         self.assertEqual(payload["xuzhou_importer_exporter_location"]["total_ytd_usd_thousand"], 70.0)
         names = [row["name"] for row in payload["xuzhou_specific_areas"]]
         self.assertEqual(names, ["Xuzhou CBZ", "Xuzhou BLC"])
+        self.assertTrue(all(row["total_basis"] == "EXPLICIT_GACC" for row in payload["xuzhou_specific_areas"]))
+        self.assertIn("TABLE8_TOTAL_DERIVED_ONLY_FROM_COMPLETE_EXPORT_IMPORT", payload["truth_boundaries"])
         self.assertIn("PLAINTEXT_HTTP_REQUIRES_CORROBORATION", payload["truth_boundaries"])
         self.assertIn("SPECIFIC_AREA_IS_NOT_WHOLE_XUZHOU", payload["truth_boundaries"])
         self.assertIn("NO_CROSS_TABLE_SUM", payload["truth_boundaries"])
+
+    def test_missing_table8_component_stays_unknown_not_zero(self):
+        adapter = self._adapter()
+        base = "http://english.customs.gov.cn"
+        adapter.client.mapping[f"{base}/Statics/11111111-2222-3333-4444-555555555555.html"] = TABLE8_JUL.replace(
+            "<tr><td>Xuzhou</td><td>7</td><td>50</td><td>3</td><td>20</td><td>6.0</td><td>2.0</td></tr>",
+            "<tr><td>Xuzhou</td><td>7</td><td>50</td><td>-</td><td>20</td><td>6.0</td><td>2.0</td></tr>",
+        )
+        payload = adapter.collect()
+        row = payload["xuzhou_importer_exporter_location"]
+        self.assertIsNone(row["imports_month_usd_thousand"])
+        self.assertIsNone(row["total_month_usd_thousand"])
+        self.assertEqual(row["total_ytd_usd_thousand"], 70.0)
+
+    def test_inconsistent_table11_explicit_total_row_is_rejected(self):
+        adapter = self._adapter()
+        base = "http://english.customs.gov.cn"
+        adapter.client.mapping[f"{base}/Statics/66666666-7777-8888-9999-aaaaaaaaaaaa.html"] = TABLE11_JUL.replace(
+            "<tr><td>Xuzhou CBZ</td><td>8</td><td>55</td><td>6</td><td>40</td><td>2</td><td>15</td>",
+            "<tr><td>Xuzhou CBZ</td><td>99</td><td>55</td><td>6</td><td>40</td><td>2</td><td>15</td>",
+        )
+        payload = adapter.collect()
+        self.assertEqual([row["name"] for row in payload["xuzhou_specific_areas"]], ["Xuzhou BLC"])
 
     def test_missing_xuzhou_is_not_silently_promoted(self):
         adapter = self._adapter()
         base = "http://english.customs.gov.cn"
         adapter.client.mapping[f"{base}/Statics/11111111-2222-3333-4444-555555555555.html"] = TABLE8_JUL.replace(
-            "<tr><td>Xuzhou</td><td>10</td><td>70</td><td>7</td><td>50</td><td>3</td><td>20</td><td>5.0</td><td>6.0</td><td>2.0</td></tr>", ""
+            "<tr><td>Xuzhou</td><td>7</td><td>50</td><td>3</td><td>20</td><td>6.0</td><td>2.0</td></tr>", ""
         )
         payload = adapter.collect()
         self.assertIsNone(payload["xuzhou_importer_exporter_location"])
         self.assertEqual(len(payload["xuzhou_specific_areas"]), 2)
-
-    def test_inconsistent_arithmetic_row_is_rejected(self):
-        adapter = self._adapter()
-        base = "http://english.customs.gov.cn"
-        adapter.client.mapping[f"{base}/Statics/11111111-2222-3333-4444-555555555555.html"] = TABLE8_JUL.replace(
-            "<td>100</td><td>700</td><td>60</td><td>420</td><td>40</td><td>280</td>",
-            "<td>999</td><td>700</td><td>60</td><td>420</td><td>40</td><td>280</td>",
-        )
-        with self.assertRaisesRegex(ValueError, "Jiangsu row missing"):
-            adapter.collect()
 
     def test_selected_year_conflict_fails_closed(self):
         adapter = self._adapter()
