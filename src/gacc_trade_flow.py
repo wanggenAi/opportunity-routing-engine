@@ -39,6 +39,7 @@ MONTHLY_URL = f"http://{HOST}{MONTHLY_PATH}"
 _DETAIL_PATH_RE = re.compile(r"^/statics/[0-9a-f-]+\.html$", re.IGNORECASE)
 _PERIOD_RE = re.compile(r"(?:1\s*(?:to|[-—–])\s*)?(\d{1,2})\s*[.]\s*(20\d{2})", re.IGNORECASE)
 _NUMBER_RE = re.compile(r"^-?\d[\d,]*(?:\.\d+)?$")
+_JIANGSU_ALIASES = {"jiangsu", "jiangsu province"}
 
 
 class GaccOfficialHttpError(RuntimeError):
@@ -46,11 +47,7 @@ class GaccOfficialHttpError(RuntimeError):
 
 
 class GaccOfficialHttpClient:
-    """Exact-host/path client for GACC's public plaintext monthly bulletin.
-
-    This is intentionally isolated rather than weakening ``PublicHtmlClient``'s
-    HTTPS-only invariant. Redirects to another host/scheme/path are rejected.
-    """
+    """Exact-host/path client for GACC's public plaintext monthly bulletin."""
 
     def __init__(self, *, timeout_seconds: float = 30.0, max_response_bytes: int = 8_000_000) -> None:
         if timeout_seconds <= 0 or max_response_bytes <= 0:
@@ -132,8 +129,6 @@ class GaccOfficialHttpClient:
 
 
 class _TableParser(HTMLParser):
-    """Small table parser retaining cell text and same-cell links."""
-
     def __init__(self, *, base_url: str) -> None:
         super().__init__(convert_charrefs=True)
         self.base_url = base_url
@@ -249,7 +244,6 @@ class TradeRow:
 
 
 def _table8_trade_row(cells: list[dict[str, Any]]) -> TradeRow | None:
-    """Parse real GACC table 8 schema: exports, imports, then two YoY columns."""
     if len(cells) < 7:
         return None
     name = normalize_whitespace(cells[0]["text"])
@@ -272,8 +266,21 @@ def _table8_trade_row(cells: list[dict[str, Any]]) -> TradeRow | None:
     )
 
 
+def _row_consistent(row: TradeRow) -> bool:
+    checks = (
+        (row.total_month_usd_thousand, row.exports_month_usd_thousand, row.imports_month_usd_thousand),
+        (row.total_ytd_usd_thousand, row.exports_ytd_usd_thousand, row.imports_ytd_usd_thousand),
+    )
+    for total, exports, imports in checks:
+        if total is None or exports is None or imports is None:
+            continue
+        tolerance = max(2.0, abs(total) * 0.00002)
+        if abs(total - exports - imports) > tolerance:
+            return False
+    return True
+
+
 def _table11_trade_row(cells: list[dict[str, Any]]) -> TradeRow | None:
-    """Parse real GACC table 11 schema with explicit total/export/import columns."""
     if len(cells) < 10:
         return None
     name = normalize_whitespace(cells[0]["text"])
@@ -294,20 +301,6 @@ def _table11_trade_row(cells: list[dict[str, Any]]) -> TradeRow | None:
         total_basis="EXPLICIT_GACC",
     )
     return row if _row_consistent(row) else None
-
-
-def _row_consistent(row: TradeRow) -> bool:
-    checks = (
-        (row.total_month_usd_thousand, row.exports_month_usd_thousand, row.imports_month_usd_thousand),
-        (row.total_ytd_usd_thousand, row.exports_ytd_usd_thousand, row.imports_ytd_usd_thousand),
-    )
-    for total, exports, imports in checks:
-        if total is None or exports is None or imports is None:
-            continue
-        tolerance = max(2.0, abs(total) * 0.00002)
-        if abs(total - exports - imports) > tolerance:
-            return False
-    return True
 
 
 class GaccTradeFlowAdapter:
@@ -398,12 +391,14 @@ class GaccTradeFlowAdapter:
 
         location_rows = self._rows_from_detail(location, table_number=8)
         area_rows = self._rows_from_detail(areas, table_number=11)
-        jiangsu = next((row for row in location_rows if row.name.strip().lower() == "jiangsu"), None)
+        jiangsu = next(
+            (row for row in location_rows if row.name.strip().lower() in _JIANGSU_ALIASES),
+            None,
+        )
         xuzhou_location = next((row for row in location_rows if row.name.strip().lower() == "xuzhou"), None)
         xuzhou_areas = [row for row in area_rows if "xuzhou" in row.name.lower()]
         if jiangsu is None:
-            names = [row.name for row in location_rows[:80]]
-            raise ValueError(f"Jiangsu row missing from GACC importer/exporter-location table; parsed names={names}")
+            raise ValueError("Jiangsu province row missing from GACC importer/exporter-location table")
         if not xuzhou_areas and xuzhou_location is None:
             raise ValueError("no explicit Xuzhou row found in current GACC location/specific-area tables")
 
