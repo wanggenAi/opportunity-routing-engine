@@ -33,18 +33,29 @@ _DETAIL_RE = re.compile(
     r"^/jyxx/003002/003002001/(20\d{6})/[0-9a-fA-F-]+\.html$"
 )
 
+# Project-lead matching is deliberately narrower than a bare ``项目负责人``.
+# That phrase also appears inside statutory safety-certificate names, where it
+# describes the certificate category rather than a role demanded by the tender.
 _ROLE_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     (
         "PROJECT_MANAGER",
-        re.compile(r"(?:项目经理资格(?:要求)?|项目经理条件|项目经理)"),
+        re.compile(
+            r"项目经理(?:（项目负责人）|\(项目负责人\))?"
+            r"(?:资格(?:条件|要求)?|条件|要求|应满足的要求)?"
+        ),
     ),
     (
         "PROJECT_TECHNICAL_LEAD",
-        re.compile(r"(?:项目总工资格(?:要求)?|项目总工(?:（项目技术负责人）|\(项目技术负责人\))?|项目总工)"),
+        re.compile(
+            r"项目总工(?:（项目技术负责人）|\(项目技术负责人\)|（技术负责人）|\(技术负责人\))?"
+            r"(?:资格(?:条件|要求)?|条件|要求)?"
+        ),
     ),
     (
         "PROJECT_LEAD",
-        re.compile(r"(?:拟派项目负责人(?:应满足的要求|资格要求)?|项目负责人(?:条件|资格要求)?|项目负责人)"),
+        re.compile(
+            r"(?:拟派|拟投入)?项目负责人(?:资格(?:条件|要求)?|条件|要求|应满足的要求)"
+        ),
     ),
 )
 
@@ -121,6 +132,24 @@ def _multi_role_summary_heading(line: str) -> bool:
     return sum(marker in line for marker in markers) >= 2
 
 
+def _project_lead_is_role_umbrella(excerpt: str) -> bool:
+    """Reject umbrella sections that only introduce manager + technical lead.
+
+    Some official notices use a heading such as ``项目负责人条件`` and immediately
+    split it into ``a.项目经理`` and ``b.项目总工``. Treating the umbrella as a
+    third standalone role would double count capability demand.
+    """
+
+    prefix = excerpt[:500]
+    manager = bool(
+        re.search(r"(?:^|\s)(?:[aA][.．、]|[（(]1[）)])\s*项目经理", prefix)
+    )
+    technical = bool(
+        re.search(r"(?:^|\s)(?:[bB][.．、]|[（(]2[）)])\s*项目总工", prefix)
+    )
+    return manager and technical
+
+
 def _find_first(patterns: tuple[str, ...], text: str) -> str | None:
     for pattern in patterns:
         match = re.search(pattern, text)
@@ -132,16 +161,18 @@ def _find_first(patterns: tuple[str, ...], text: str) -> str | None:
 def _structure_requirement(role: str, excerpt: str, full_text: str) -> CapabilityRequirement:
     constructor_license = _find_first(
         (
-            r"(?:公路工程专业)?一级注册建造师(?:资格)?",
-            r"(?:公路工程专业)?二级(?:及以上)?注册建造师(?:资格)?",
-            r"(?:公路工程专业)?一级(?:及以上)?注册建造师(?:资格)?",
+            r"(?:公路工程专业|机电工程专业)?一级(?:及以上)?(?:建造师注册证书|注册建造师(?:资格)?)",
+            r"(?:公路工程专业|机电工程专业)?二级(?:及以上)?(?:建造师注册证书|注册建造师(?:资格)?)",
+            r"(?:公路工程专业|机电工程专业)?(?:一级|二级)(?:及以上)?建造师注册证书",
         ),
         excerpt,
     )
     professional_title = _find_first(
         (
-            r"(?:公路工程相关专业)?高级工程师(?:或以上)?(?:技术职称)?",
+            r"(?:公路工程相关专业)?副高级(?:或以上|及以上)?专业技术职称",
+            r"(?:公路工程相关专业)?高级工程师(?:或以上|及以上)?(?:技术职称)?",
             r"(?:公路工程相关专业)?中级(?:及以上)?技术职称",
+            r"(?:公路工程相关专业)?工程师(?:或以上|及以上)?技术职称",
             r"高级(?:及以上)?技术职称",
         ),
         excerpt,
@@ -152,18 +183,20 @@ def _structure_requirement(role: str, excerpt: str, full_text: str) -> Capabilit
             r"《公路水运工程试验检测师证书》",
             r"公路水运工程试验检测师证书",
             r"公路工程试验检测工程师证书",
+            r"公路工程试验检测工程师或试验检测师证书",
         ),
         excerpt,
     )
     prior_experience = bool(
         re.search(r"(?:至少|不少于).{0,35}(?:承担过|担任过|完成过)", excerpt)
-        or re.search(r"(?:承担过|担任过).{0,80}(?:项目经理|项目总工|项目负责人)", excerpt)
+        or re.search(r"(?:承担过|担任过|完成过).{0,80}(?:项目经理|项目总工|项目负责人)", excerpt)
     )
     bidder_employee_required = bool(
-        re.search(r"(?:拟投入|拟派).{0,40}(?:应为|须为)投标人本单位人员", full_text)
+        re.search(r"(?:拟投入|拟派).{0,60}(?:应为|须为|必须为)投标人本单位人员", full_text)
+        or re.search(r"(?:拟投入|拟派).{0,60}必须为申请人自有人员", full_text)
     )
     social_insurance_required = bidder_employee_required and bool(
-        re.search(r"(?:社保|社会保险).{0,80}(?:证明|缴费|明细)", full_text)
+        re.search(r"(?:社保|社会保险).{0,100}(?:证明|缴费|明细)", full_text)
     )
     return CapabilityRequirement(
         role=role,
@@ -197,6 +230,8 @@ def extract_project_capability_requirements(text: str) -> list[CapabilityRequire
         if _multi_role_summary_heading(heading):
             continue
         excerpt = _bounded_excerpt(text, start)
+        if role == "PROJECT_LEAD" and _project_lead_is_role_umbrella(excerpt):
+            continue
         if not any(
             token in excerpt
             for token in (
@@ -206,7 +241,9 @@ def extract_project_capability_requirements(text: str) -> list[CapabilityRequire
                 "检测工程师",
                 "承担过",
                 "担任过",
+                "完成过",
                 "本单位人员",
+                "自有人员",
                 "社保",
             )
         ):
