@@ -1,7 +1,7 @@
 """Official PBC money-flow release discovery and parsing.
 
 The People's Bank of China exposes a stable public HTML index for statistical
-interpretation releases.  This adapter discovers the newest financial-statistics
+interpretation releases. This adapter discovers the newest financial-statistics
 report from that official index, fetches the report, and extracts a deliberately
 small set of macro money-flow indicators while preserving source provenance.
 
@@ -27,16 +27,19 @@ ALLOWED_HOSTS = {"www.pbc.gov.cn"}
 
 _REPORT_TITLE_RE = re.compile(r"^\d{4}年.+金融统计数据报告$")
 _RELEASE_DATE_RE = re.compile(r"文章来源[:：]?\s*(\d{4}-\d{2}-\d{2})")
+_M2 = r"广义货币\s*[（(]\s*M2\s*[）)]"
+_M1 = r"狭义货币\s*[（(]\s*M1\s*[）)]"
+_M0 = r"流通中货币\s*[（(]\s*M0\s*[）)]"
 
 
 def _number(pattern: str, text: str) -> float | None:
-    match = re.search(pattern, text)
+    match = re.search(pattern, text, flags=re.S)
     return float(match.group(1)) if match else None
 
 
 def _signed_yoy(label: str, text: str) -> float | None:
     pattern = rf"{label}.*?同比(增长|下降)([0-9.]+)%"
-    match = re.search(pattern, text)
+    match = re.search(pattern, text, flags=re.S)
     if not match:
         return None
     value = float(match.group(2))
@@ -69,61 +72,61 @@ def parse_financial_report(*, title: str, text: str, source_url: str) -> dict[st
 
     add(
         "social_financing_stock",
-        _number(r"社会融资规模存量为([0-9.]+)万亿元", text),
+        _number(r"社会融资规模存量为\s*([0-9.]+)万亿元", text),
         "trillion_cny",
-        yoy=_number(r"社会融资规模存量为[0-9.]+万亿元，同比增长([0-9.]+)%", text),
+        yoy=_number(r"社会融资规模存量为\s*[0-9.]+万亿元.*?同比增长\s*([0-9.]+)%", text),
     )
     add(
         "social_financing_flow_ytd",
-        _number(r"社会融资规模增量累计为([0-9.]+)万亿元", text),
+        _number(r"社会融资规模增量累计为\s*([0-9.]+)万亿元", text),
         "trillion_cny",
     )
     add(
         "m2_balance",
-        _number(r"广义货币\(M2\)余额为?([0-9.]+)万亿元", text),
+        _number(rf"{_M2}\s*余额为?\s*([0-9.]+)万亿元", text),
         "trillion_cny",
-        yoy=_signed_yoy(r"广义货币\(M2\)", text),
+        yoy=_signed_yoy(_M2, text),
     )
     add(
         "m1_balance",
-        _number(r"狭义货币\(M1\)余额为?([0-9.]+)万亿元", text),
+        _number(rf"{_M1}\s*余额为?\s*([0-9.]+)万亿元", text),
         "trillion_cny",
-        yoy=_signed_yoy(r"狭义货币\(M1\)", text),
+        yoy=_signed_yoy(_M1, text),
     )
     add(
         "m0_balance",
-        _number(r"流通中货币\(M0\)余额为?([0-9.]+)万亿元", text),
+        _number(rf"{_M0}\s*余额为?\s*([0-9.]+)万亿元", text),
         "trillion_cny",
-        yoy=_signed_yoy(r"流通中货币\(M0\)", text),
+        yoy=_signed_yoy(_M0, text),
     )
     add(
         "rmb_deposit_flow_ytd",
-        _number(r"人民币存款增加([0-9.]+)万亿元", text),
+        _number(r"人民币存款增加\s*([0-9.]+)万亿元", text),
         "trillion_cny",
     )
     add(
         "rmb_loan_flow_ytd",
-        _number(r"人民币贷款增加([0-9.]+)万亿元", text),
+        _number(r"人民币贷款增加\s*([0-9.]+)万亿元", text),
         "trillion_cny",
     )
     add(
         "interbank_lending_weighted_rate",
-        _number(r"同业拆借月加权平均利率为([0-9.]+)%", text),
+        _number(r"同业拆借月加权平均利率为\s*([0-9.]+)%", text),
         "percent",
     )
     add(
         "pledged_repo_weighted_rate",
-        _number(r"质押式债券回购月加权平均利率为([0-9.]+)%", text),
+        _number(r"质押式债券回购月加权平均利率为\s*([0-9.]+)%", text),
         "percent",
     )
     add(
         "fx_reserves",
-        _number(r"国家外汇储备余额([0-9.]+)万亿美元", text),
+        _number(r"国家外汇储备余额\s*([0-9.]+)万亿美元", text),
         "trillion_usd",
     )
     add(
         "usd_cny_reference",
-        _number(r"人民币汇率为1美元兑([0-9.]+)元人民币", text),
+        _number(r"人民币汇率为\s*1美元兑\s*([0-9.]+)元人民币", text),
         "cny_per_usd",
     )
 
