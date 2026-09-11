@@ -17,64 +17,49 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Probe official Xuzhou enterprise service platform
+      - name: Inspect public Xuzhou enterprise SPA shell
         run: |
           python - <<'PY'
           import re
-          from html.parser import HTMLParser
-          from urllib.parse import urljoin
+          from urllib.parse import urljoin, urlparse
           from urllib.request import Request, urlopen
 
-          targets = [
-              'https://xzsme.js.cn/home',
-              'https://xzsme.js.cn/',
-              'https://www.xzsme.js.cn/home',
-          ]
-          bodies = []
-          for url in targets:
-              req = Request(url, headers={
-                  'User-Agent': 'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)',
-                  'Accept': 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.5',
-              })
-              try:
-                  with urlopen(req, timeout=20) as r:
-                      raw = r.read(5_000_000)
-                      text = None
-                      for enc in ('utf-8', 'gb18030'):
-                          try:
-                              text = raw.decode(enc)
-                              break
-                          except UnicodeDecodeError:
-                              pass
-                      print('OK', url, 'status=', r.status, 'final=', r.geturl(), 'type=', r.headers.get('Content-Type'), 'bytes=', len(raw))
-                      if text:
-                          bodies.append((r.geturl(), text))
-              except Exception as e:
-                  print('ERROR', url, type(e).__name__, repr(e))
+          url = 'https://xzsme.js.cn/home'
+          req = Request(url, headers={
+              'User-Agent': 'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)',
+              'Accept': 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.5',
+          })
+          with urlopen(req, timeout=20) as r:
+              raw = r.read(1_000_000)
+              html = raw.decode('utf-8')
+              print('status=', r.status, 'final=', r.geturl(), 'type=', r.headers.get('Content-Type'), 'bytes=', len(raw))
+              print('RAW_HTML_BEGIN')
+              print(html)
+              print('RAW_HTML_END')
 
-          needles = [
-              '关于帮助企业解决贷款的问题',
-              '融资难、融资贵',
-              '近期融资需求',
-              '关于帮助企业解决融资贷款的问题',
-              '诉求服务',
-          ]
-          for final, html in bodies:
-              plain = re.sub(r'<script\b[^>]*>.*?</script>', ' ', html, flags=re.I|re.S)
-              plain = re.sub(r'<style\b[^>]*>.*?</style>', ' ', plain, flags=re.I|re.S)
-              plain = re.sub(r'<[^>]+>', ' ', plain)
-              plain = re.sub(r'\s+', ' ', plain)
-              print('BODY', final)
-              for needle in needles:
-                  print('CONTAINS', repr(needle), needle in plain)
-                  if needle in plain:
-                      i = plain.index(needle)
-                      print('CONTEXT', plain[max(0, i-250):i+700])
-              print('HTML_API_HINTS_BEGIN')
-              for m in re.finditer(r'(?:https?:)?//[^\"\'\s<>]+|/[A-Za-z0-9_./?-]{3,}', html):
-                  s = m.group(0)
-                  low = s.lower()
-                  if any(k in low for k in ('appeal', 'demand', 'complaint', 'request', 'sme', 'service', '诉求', 'finance', 'loan')):
-                      print(s[:500])
-              print('HTML_API_HINTS_END')
+          assets = []
+          for pattern in (r'<script[^>]+src=["\']([^"\']+)', r'<link[^>]+href=["\']([^"\']+)'):
+              for value in re.findall(pattern, html, flags=re.I):
+                  absolute = urljoin(url, value)
+                  if urlparse(absolute).hostname in {'xzsme.js.cn', 'www.xzsme.js.cn'}:
+                      assets.append(absolute)
+          print('SAME_HOST_ASSETS=', list(dict.fromkeys(assets)))
+
+          # Public static JS is inspected only for literal endpoint/path strings.
+          # We do not call authenticated endpoints, bypass login, or emulate private APIs.
+          for asset in list(dict.fromkeys(assets)):
+              if not asset.split('?', 1)[0].lower().endswith('.js'):
+                  continue
+              req = Request(asset, headers={'User-Agent': 'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)'})
+              with urlopen(req, timeout=20) as r:
+                  body = r.read(8_000_000)
+                  print('ASSET', asset, 'status=', r.status, 'bytes=', len(body), 'type=', r.headers.get('Content-Type'))
+                  text = body.decode('utf-8', errors='ignore')
+                  candidates = []
+                  for m in re.finditer(r'["\']([^"\']{3,240})["\']', text):
+                      s = m.group(1)
+                      low = s.lower()
+                      if ('诉求' in s or any(k in low for k in ('appeal', 'demand', 'request', 'service110', 'typical', 'finance', 'loan'))):
+                          candidates.append(s)
+                  print('PUBLIC_LITERAL_HINTS=', list(dict.fromkeys(candidates))[:200])
           PY
