@@ -11,6 +11,8 @@ Truth boundaries:
 - supplier identity -> DISCOVERED capability provider, not controlled supply;
 - no current availability or underuse is inferred;
 - void/failed packages without a supplier row produce no provider evidence;
+- supplier rows from a different package on the same HTML page are not attributed to
+  the package-specific result URL;
 - paginated history is bounded and may be pre-filtered by an exact capability rule
   before detail pages are fetched.
 """
@@ -34,10 +36,12 @@ XZ_PROCUREMENT_RESULT_LIST = (
 _RESULT_DETAIL_RE = re.compile(
     r"/jyxx/003004/003004006/(20\d{6})/[0-9a-fA-F-]+\.html(?:\?.*)?$"
 )
+_TABLE_RE = re.compile(r"<table\b[^>]*>(?P<body>.*?)</table>", re.I | re.S)
 _ROW_RE = re.compile(r"<tr\b[^>]*>(?P<body>.*?)</tr>", re.I | re.S)
 _CELL_RE = re.compile(r"<t[dh]\b[^>]*>(?P<body>.*?)</t[dh]>", re.I | re.S)
 _CREDIT_RE = re.compile(r"\b[0-9A-Z]{18}\b")
 _MONEY_RE = re.compile(r"([0-9][0-9,]*(?:\.\d+)?)\s*(亿元|万元|元)")
+_PACKAGE_RE = re.compile(r"采购包\s*([一二三四五六七八九十\d]+)")
 
 
 @dataclass(frozen=True)
@@ -56,6 +60,7 @@ class ProcurementAward:
     award_amount_raw: str | None
     service_name: str | None
     provenance: dict[str, Any]
+    package_name: str | None = None
 
 
 def _plain(fragment: str) -> str:
@@ -67,6 +72,13 @@ def _plain(fragment: str) -> str:
 def _first(pattern: str, text: str, flags: int = 0) -> str | None:
     match = re.search(pattern, text, flags)
     return normalize_whitespace(match.group(1)) if match else None
+
+
+def _package_label(text: str) -> str | None:
+    matches = _PACKAGE_RE.findall(normalize_whitespace(text))
+    if not matches:
+        return None
+    return f"采购包{matches[-1]}"
 
 
 def _date_from_url(url: str) -> str | None:
@@ -118,50 +130,70 @@ def _history_page_url(list_url: str, page: int) -> str:
 
 
 def _extract_award_rows(html: str) -> list[dict[str, str | None]]:
-    """Extract supplier rows from result tables without guessing failed packages."""
+    """Extract supplier rows while retaining their nearest explicit package label.
+
+    Xuzhou result pages can expose multiple procurement packages in one HTML body,
+    even when the detail URL/title is package-specific. Losing that package boundary
+    can incorrectly attribute another package's supplier to the title capability.
+    """
 
     result: list[dict[str, str | None]] = []
-    seen: set[tuple[str, str | None, str | None]] = set()
-    for row_match in _ROW_RE.finditer(html):
-        cells = [_plain(m.group("body")) for m in _CELL_RE.finditer(row_match.group("body"))]
-        if len(cells) < 3:
-            continue
-        credit_index = next(
-            (index for index, cell in enumerate(cells) if _CREDIT_RE.search(cell)),
-            None,
-        )
-        if credit_index is None or credit_index < 1:
-            continue
-        supplier = cells[credit_index - 1].strip()
-        if not supplier or supplier in {"供应商名称", "供应商"}:
-            continue
-        credit_codes = _CREDIT_RE.findall(cells[credit_index])
-        credit_code = "、".join(credit_codes) if credit_codes else None
-        address = cells[credit_index + 1].strip() if credit_index + 1 < len(cells) else None
-
-        amount_raw = None
-        amount_rmb = None
-        for cell in reversed(cells[credit_index + 1 :]):
-            match = _MONEY_RE.search(cell)
-            if not match:
+    seen: set[tuple[str | None, str, str | None, str | None]] = set()
+    for table_match in _TABLE_RE.finditer(html):
+        # The package marker is normally rendered immediately before its result table.
+        # Use a bounded preceding window and the nearest marker; if none is present we
+        # retain UNKNOWN here and let a package-specific detail URL fail closed below.
+        context_start = max(0, table_match.start() - 6000)
+        package_name = _package_label(_plain(html[context_start : table_match.start()]))
+        table_html = table_match.group("body")
+        for row_match in _ROW_RE.finditer(table_html):
+            cells = [
+                _plain(match.group("body"))
+                for match in _CELL_RE.finditer(row_match.group("body"))
+            ]
+            if len(cells) < 3:
                 continue
-            amount_raw = normalize_whitespace(match.group(0))
-            amount_rmb = _money_to_rmb(match.group(1), match.group(2))
-            break
+            credit_index = next(
+                (index for index, cell in enumerate(cells) if _CREDIT_RE.search(cell)),
+                None,
+            )
+            if credit_index is None or credit_index < 1:
+                continue
+            supplier = cells[credit_index - 1].strip()
+            if not supplier or supplier in {"供应商名称", "供应商"}:
+                continue
+            credit_codes = _CREDIT_RE.findall(cells[credit_index])
+            credit_code = "、".join(credit_codes) if credit_codes else None
+            address = (
+                cells[credit_index + 1].strip()
+                if credit_index + 1 < len(cells)
+                else None
+            )
 
-        identity = (supplier, credit_code, amount_raw)
-        if identity in seen:
-            continue
-        seen.add(identity)
-        result.append(
-            {
-                "supplier_name": supplier,
-                "supplier_credit_code": credit_code,
-                "supplier_address": address or None,
-                "award_amount_rmb": amount_rmb,
-                "award_amount_raw": amount_raw,
-            }
-        )
+            amount_raw = None
+            amount_rmb = None
+            for cell in reversed(cells[credit_index + 1 :]):
+                match = _MONEY_RE.search(cell)
+                if not match:
+                    continue
+                amount_raw = normalize_whitespace(match.group(0))
+                amount_rmb = _money_to_rmb(match.group(1), match.group(2))
+                break
+
+            identity = (package_name, supplier, credit_code, amount_raw)
+            if identity in seen:
+                continue
+            seen.add(identity)
+            result.append(
+                {
+                    "package_name": package_name,
+                    "supplier_name": supplier,
+                    "supplier_credit_code": credit_code,
+                    "supplier_address": address or None,
+                    "award_amount_rmb": amount_rmb,
+                    "award_amount_raw": amount_raw,
+                }
+            )
     return result
 
 
@@ -271,7 +303,6 @@ class XuzhouProcurementResultAdapter:
             )
             if len(selected) >= max_items:
                 break
-            # A numbered page with no detail links is treated as archive exhaustion.
             if not page_items:
                 break
 
@@ -303,6 +334,12 @@ class XuzhouProcurementResultAdapter:
         text = doc["text"]
         title = self._best_title(text, doc["title"], fallback_title)
         rows = _extract_award_rows(envelope.html)
+
+        title_package = _package_label(title)
+        if title_package:
+            # A package-specific result URL is authoritative only for its own package.
+            # Rows whose package cannot be resolved are withheld rather than guessed.
+            rows = [row for row in rows if row.get("package_name") == title_package]
         if not rows:
             return []
 
@@ -333,6 +370,7 @@ class XuzhouProcurementResultAdapter:
                 award_amount_raw=row["award_amount_raw"],
                 service_name=service_name,
                 provenance=envelope.metadata(),
+                package_name=row.get("package_name"),
             )
             for row in rows
         ]
@@ -382,7 +420,8 @@ class XuzhouProcurementResultAdapter:
             "errors": errors,
             "truth_note": (
                 "Award notices prove historical supplier capability and transaction evidence only; "
-                "they do not prove current provider availability, underuse, or orchestrator control."
+                "package-specific URLs admit only supplier rows bound to that package; "
+                "awards do not prove current provider availability, underuse, or orchestrator control."
             ),
         }
 

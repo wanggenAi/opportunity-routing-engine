@@ -51,7 +51,7 @@ class UrlAwareFakeHtmlClient:
 class XuzhouProcurementResultTests(unittest.TestCase):
     def _list_html(self):
         return """<html><body>
-        <a href='/jyxx/003004/003004006/20260909/00d7b76b-b26d-47f1-bc2e-00c7a8f7cb0d.html'>
+        <a href='/jyxx/003004/003004006/20260909/5acf2119-a427-4fd4-bb0b-8e947e811c93.html'>
         [新]徐州市水务局2026年度市管雨污水泵站设施维修养护市场化中标结果公告采购包2
         </a>
         </body></html>"""
@@ -63,6 +63,7 @@ class XuzhouProcurementResultTests(unittest.TestCase):
         <p>一、项目编号：JSZC-320300-XZTY-G2026-0002</p>
         <p>二、项目名称：2026年度市管雨污水泵站设施维修养护市场化、市直管截污闸门维修养护</p>
         <h2>三、中标（成交）信息</h2>
+        <p>采购包2</p>
         <table>
           <tr><th>序号</th><th>供应商名称</th><th>社会信用代码</th><th>供应商地址</th><th>评审总得分</th><th>中标/成交金额</th></tr>
           <tr><td>1</td><td>江苏山祥建设工程有限公司</td><td>91320312302101990G</td><td>徐州高新技术产业开发区珠江东路11号</td><td>81.84</td><td>1186000元</td></tr>
@@ -97,6 +98,51 @@ class XuzhouProcurementResultTests(unittest.TestCase):
         self.assertEqual(award.award_amount_rmb, "1186000.00")
         self.assertEqual(award.project_id, "JSZC-320300-XZTY-G2026-0002")
         self.assertEqual(award.buyer_actor, "徐州市水务局")
+        self.assertEqual(award.package_name, "采购包2")
+
+    def test_package_specific_url_rejects_other_package_supplier_rows(self):
+        detail = """<html><head><title>结果公告</title></head><body>
+        <h1>徐州市水务局2026年度市直管雨、污水管渠维修养护市场化项目中标结果公告采购包1</h1>
+        <p>信息发布时间：2026-09-08</p>
+        <p>采购包1</p>
+        <table>
+          <tr><th>序号</th><th>供应商名称</th><th>社会信用代码</th><th>供应商地址</th><th>中标/成交金额</th></tr>
+          <tr><td>1</td><td>徐州城建排水有限公司</td><td>913203007500392629</td><td>徐州市</td><td>9297658元</td></tr>
+        </table>
+        <p>采购包3</p>
+        <table>
+          <tr><th>序号</th><th>供应商名称</th><th>社会信用代码</th><th>供应商地址</th><th>中标/成交金额</th></tr>
+          <tr><td>1</td><td>上海启呈信息科技有限公司</td><td>91310116MA1J93N0X1</td><td>上海市</td><td>973000元</td></tr>
+        </table>
+        </body></html>"""
+        adapter = XuzhouProcurementResultAdapter(
+            client=FakeHtmlClient({"xz_ggzy.procurement_results.detail": detail})
+        )
+        awards = adapter.fetch_awards(
+            "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004006/20260908/72ac9497-8358-4333-a585-faf0c5ae26a2.html"
+        )
+        self.assertEqual(len(awards), 1)
+        self.assertEqual(awards[0].package_name, "采购包1")
+        self.assertEqual(awards[0].supplier_name, "徐州城建排水有限公司")
+        self.assertNotEqual(awards[0].supplier_name, "上海启呈信息科技有限公司")
+
+    def test_package_specific_page_can_bind_an_unlabeled_single_table(self):
+        detail = """<html><body>
+        <h1>某维修项目中标结果公告采购包1</h1>
+        <table>
+          <tr><th>供应商名称</th><th>社会信用代码</th><th>金额</th></tr>
+          <tr><td>某供应商</td><td>91320312302101990G</td><td>10000元</td></tr>
+        </table>
+        </body></html>"""
+        adapter = XuzhouProcurementResultAdapter(
+            client=FakeHtmlClient({"xz_ggzy.procurement_results.detail": detail})
+        )
+        awards = adapter.fetch_awards(
+            "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004006/20260909/11111111-1111-1111-1111-111111111111.html"
+        )
+        self.assertEqual(len(awards), 1)
+        self.assertEqual(awards[0].package_name, "采购包1")
+        self.assertEqual(awards[0].supplier_name, "某供应商")
 
     def test_failed_package_without_supplier_row_is_not_provider_evidence(self):
         detail = """<html><body>
@@ -142,9 +188,7 @@ class XuzhouProcurementResultTests(unittest.TestCase):
         self.assertEqual(payload["detail_fetch_count"], 1)
         self.assertEqual(payload["award_count"], 1)
         self.assertTrue(any(url.endswith("/2.html") for url in client.urls))
-        detail_urls = [
-            url for url in client.urls if "/20260909/" in url
-        ]
+        detail_urls = [url for url in client.urls if "/20260909/" in url]
         self.assertEqual(len(detail_urls), 1)
 
     def test_history_limits_are_fail_closed(self):
