@@ -141,6 +141,21 @@ class ResourceImbalanceTests(unittest.TestCase):
         self.assertEqual(statuses["PAIR::need-1::resource-1"], "ROUTE_TESTABLE")
         self.assertEqual(statuses["RESOURCE::resource-data"], "RESOURCE_ONLY")
 
+    def test_pair_limit_never_turns_matching_resource_into_resource_only(self):
+        resource_1 = self._observed_resource("resource-1")
+        resource_2 = self._observed_resource("resource-2")
+        records = scan_imbalances(
+            [self._paid_need()],
+            [resource_1, resource_2],
+            [self._observed_blocker()],
+            max_pairs_per_need=1,
+        )
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0].record_id, "PAIR::need-1::resource-1")
+        self.assertFalse(
+            any(record.record_id == "RESOURCE::resource-2" for record in records)
+        )
+
     def test_paid_state_requires_real_payer_and_event_count(self):
         bad = NeedSignal(
             signal_id="bad",
