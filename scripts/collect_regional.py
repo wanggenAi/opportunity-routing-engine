@@ -4,10 +4,13 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import re
 import sys
 from dataclasses import asdict
 from pathlib import Path
+from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -23,6 +26,49 @@ def emit(payload, output):
         print(f"wrote {output}")
     else:
         print(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True))
+
+
+def _safe_response_shape_probe(url: str) -> dict:
+    """Temporary live diagnostic: compare response shape without retaining page content."""
+    profiles = {
+        "engine": {
+            "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.5",
+            "User-Agent": "OpportunityRoutingEngine/0.1 (+public-evidence-ingest)",
+        },
+        "browser": {
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.5",
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0",
+        },
+    }
+    result = {}
+    markers = ("项目编号", "项目名称", "预算金额", "采购人信息")
+    for profile, headers in profiles.items():
+        request = Request(url, headers=headers, method="GET")
+        with urlopen(request, timeout=30) as response:
+            body = response.read(5_000_000)
+            content_type = str(response.headers.get("Content-Type", ""))
+        try:
+            html = body.decode("utf-8")
+            encoding = "utf-8"
+        except UnicodeDecodeError:
+            html = body.decode("gb18030")
+            encoding = "gb18030"
+        result[profile] = {
+            "bytes": len(body),
+            "content_type": content_type,
+            "encoding": encoding,
+            "sha256_prefix": hashlib.sha256(body).hexdigest()[:16],
+            "contains": {marker: marker in html for marker in markers},
+            "jszc_count": len(re.findall(r"JSZC-[0-9A-Z-]+", html)),
+            "iframe_count": len(re.findall(r"<iframe\\b", html, flags=re.I)),
+            "script_count": len(re.findall(r"<script\\b", html, flags=re.I)),
+            "escaped_project_label": "\\u9879\\u76ee\\u7f16\\u53f7" in html.lower(),
+            "iframe_srcs": re.findall(
+                r"<iframe\\b[^>]*?src=[\"']([^\"']+)", html, flags=re.I
+            )[:5],
+        }
+    return result
 
 
 def build_parser():
@@ -62,6 +108,18 @@ def main() -> int:
             payload = XuzhouProcurementAdapter().discover_recent(limit=args.limit)
         elif args.command == "xuzhou-procurement-events":
             payload = XuzhouProcurementAdapter().collect_recent_events(limit=args.limit)
+            probe_item = next(
+                (
+                    item
+                    for item in payload.get("discovery", {}).get("items", [])
+                    if "市直管雨" in str(item.get("title") or "")
+                ),
+                None,
+            )
+            if probe_item:
+                payload["temporary_response_shape_probe"] = _safe_response_shape_probe(
+                    probe_item["url"]
+                )
             if args.require_events and payload["event_count"] == 0:
                 emit(payload, args.output)
                 print("no procurement events extracted", file=sys.stderr)
