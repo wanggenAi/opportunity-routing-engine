@@ -7,12 +7,14 @@ import argparse
 import json
 import sys
 from dataclasses import asdict
+from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+from src.html_ingest import PublicHtmlClient
 from src.network_ingest import NetworkIngestError, write_json_atomic
 from src.regional_adapters import JiangsuStatsReleaseAdapter, XuzhouProcurementAdapter
 
@@ -23,6 +25,66 @@ def emit(payload, output):
         print(f"wrote {output}")
     else:
         print(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True))
+
+
+class _MarkerContextParser(HTMLParser):
+    """Temporary diagnostic: report tag stack around official project markers."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.stack = []
+        self.hits = []
+
+    def handle_starttag(self, tag, attrs):
+        self.stack.append(tag.lower())
+        attr_text = " ".join(f"{key}={value}" for key, value in attrs if value)
+        if any(marker in attr_text for marker in ("项目编号", "项目名称", "预算金额")):
+            self.hits.append({
+                "kind": "attribute",
+                "stack": self.stack[-12:],
+                "text": attr_text[:500],
+            })
+
+    def handle_endtag(self, tag):
+        tag = tag.lower()
+        for index in range(len(self.stack) - 1, -1, -1):
+            if self.stack[index] == tag:
+                del self.stack[index:]
+                return
+
+    def handle_startendtag(self, tag, attrs):
+        attr_text = " ".join(f"{key}={value}" for key, value in attrs if value)
+        if any(marker in attr_text for marker in ("项目编号", "项目名称", "预算金额")):
+            self.hits.append({
+                "kind": "attribute-selfclose",
+                "stack": self.stack[-12:] + [tag.lower()],
+                "text": attr_text[:500],
+            })
+
+    def handle_data(self, data):
+        compact = " ".join(data.split())
+        if any(marker in compact for marker in ("项目编号", "项目名称", "预算金额", "JSZC-")):
+            self.hits.append({
+                "kind": "data",
+                "stack": self.stack[-12:],
+                "text": compact[:700],
+            })
+
+
+def _marker_context_probe(url: str) -> dict:
+    envelope = PublicHtmlClient(
+        source_id="XZ_GGZY_DIAGNOSTIC",
+        allowed_hosts={"ggzy.zwb.xz.gov.cn"},
+        timeout_seconds=30,
+        retries=1,
+    ).fetch(url, request_name="xz_ggzy.marker_context_probe")
+    parser = _MarkerContextParser()
+    parser.feed(envelope.html)
+    return {
+        "payload_sha256": envelope.payload_sha256,
+        "html_chars": len(envelope.html),
+        "hits": parser.hits[:20],
+    }
 
 
 def build_parser():
@@ -62,6 +124,15 @@ def main() -> int:
             payload = XuzhouProcurementAdapter().discover_recent(limit=args.limit)
         elif args.command == "xuzhou-procurement-events":
             payload = XuzhouProcurementAdapter().collect_recent_events(limit=args.limit)
+            target = next(
+                (
+                    item for item in payload.get("discovery", {}).get("items", [])
+                    if "市直管雨" in str(item.get("title") or "")
+                ),
+                None,
+            )
+            if target:
+                payload["temporary_marker_context_probe"] = _marker_context_probe(target["url"])
             if args.require_events and payload["event_count"] == 0:
                 emit(payload, args.output)
                 print("no procurement events extracted", file=sys.stderr)
