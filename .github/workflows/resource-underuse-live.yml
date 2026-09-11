@@ -9,6 +9,7 @@ on:
     paths:
       - "src/html_ingest.py"
       - "src/resource_underuse_adapters.py"
+      - "src/xuzhou_agency_resource_feed.py"
       - "scripts/collect_resource_underuse.py"
       - ".github/workflows/resource-underuse-live.yml"
 
@@ -18,7 +19,7 @@ permissions:
 jobs:
   xuzhou-public-assets:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,12 +29,19 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Collect recent Xuzhou public asset listings
+      - name: Collect recent Xuzhou native property-rights listings
         run: |
           python scripts/collect_resource_underuse.py xuzhou-public-assets \
             --limit 20 \
             --require-listings \
             --output .local/xz_public_asset_underuse.json
+
+      - name: Collect Xuzhou agency listings through official Jiangsu mirror
+        run: |
+          python scripts/collect_resource_underuse.py xuzhou-agency-assets \
+            --limit 20 \
+            --require-listings \
+            --output .local/xz_agency_asset_underuse.json
 
       - name: Validate truth-preserving resource evidence
         run: |
@@ -41,30 +49,40 @@ jobs:
           import json
           from pathlib import Path
 
-          data = json.loads(Path('.local/xz_public_asset_underuse.json').read_text(encoding='utf-8'))
-          print('discovered:', data['discovery']['item_count'])
-          print('parsed:', data['listing_count'])
-          print('errors:', data['error_count'])
-          print('explicit underuse:', data['observed_underuse_count'])
-          print('relistings:', data['relisting_count'])
+          paths = [
+              Path('.local/xz_public_asset_underuse.json'),
+              Path('.local/xz_agency_asset_underuse.json'),
+          ]
+          for path in paths:
+              data = json.loads(path.read_text(encoding='utf-8'))
+              print(f'=== {path.name} ===')
+              print('discovered:', data['discovery']['item_count'])
+              print('parsed:', data['listing_count'])
+              print('errors:', data['error_count'])
+              print('explicit underuse:', data['observed_underuse_count'])
+              print('relistings:', data['relisting_count'])
+              if 'skipped_count' in data:
+                  print('skipped:', data['skipped_count'])
 
-          if data['listing_count'] < 1:
-              raise SystemExit('no resource listing parsed')
+              if data['listing_count'] < 1:
+                  raise SystemExit(f'no resource listing parsed: {path}')
 
-          for item in data['listings']:
-              if item['resource_state'] != 'DISCOVERED':
-                  raise SystemExit('public listing must not be promoted beyond DISCOVERED')
-              if item['underuse_evidence_state'] == 'OBSERVED' and not item['underuse_excerpt']:
-                  raise SystemExit('OBSERVED underuse requires explicit source excerpt')
-              if item['relisting_observed'] and not item['listing_round']:
-                  raise SystemExit('relisting evidence requires an explicit listing round')
+              for item in data['listings']:
+                  if item['resource_state'] != 'DISCOVERED':
+                      raise SystemExit('public listing must not be promoted beyond DISCOVERED')
+                  if item['underuse_evidence_state'] == 'OBSERVED' and not item['underuse_excerpt']:
+                      raise SystemExit('OBSERVED underuse requires explicit source excerpt')
+                  if item['relisting_observed'] and not item['listing_round']:
+                      raise SystemExit('relisting evidence requires an explicit listing round')
+                  if path.name == 'xz_agency_asset_underuse.json' and not item['source_origin_verified']:
+                      raise SystemExit('agency mirror evidence must be verified as Xuzhou-origin')
           PY
 
       - name: Upload resource-underuse evidence artifact
         uses: actions/upload-artifact@v4
         with:
           name: xuzhou-resource-underuse-evidence
-          path: .local/xz_public_asset_underuse.json
+          path: .local/*.json
           retention-days: 14
           if-no-files-found: error
           include-hidden-files: true
