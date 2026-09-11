@@ -1,0 +1,172 @@
+name: money-flow-snapshot-live
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 5 * * *"
+  pull_request:
+    paths:
+      - "src/money_flow_snapshot.py"
+      - "src/pbc_money_flow.py"
+      - "src/pbc_regional_financing.py"
+      - "src/pbc_jiangsu_credit.py"
+      - "src/jiangsu_money_flow.py"
+      - "src/regional_adapters.py"
+      - "src/xuzhou_construction_capex.py"
+      - "scripts/collect_money_flow_snapshot.py"
+      - "tests/test_money_flow_snapshot.py"
+      - "requirements-pbc-js-credit.txt"
+      - ".github/workflows/money-flow-snapshot-live.yml"
+  push:
+    paths:
+      - "src/money_flow_snapshot.py"
+      - "src/pbc_money_flow.py"
+      - "src/pbc_regional_financing.py"
+      - "src/pbc_jiangsu_credit.py"
+      - "src/jiangsu_money_flow.py"
+      - "src/regional_adapters.py"
+      - "src/xuzhou_construction_capex.py"
+      - "scripts/collect_money_flow_snapshot.py"
+      - "tests/test_money_flow_snapshot.py"
+      - "requirements-pbc-js-credit.txt"
+      - ".github/workflows/money-flow-snapshot-live.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  collect-money-flow-snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install isolated legacy XLS parser
+        run: python -m pip install --disable-pip-version-check -r requirements-pbc-js-credit.txt
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect unified live money-flow snapshot
+        run: |
+          python scripts/collect_money_flow_snapshot.py \
+            --output .local/money_flow_snapshot.json
+
+      - name: Validate snapshot evidence contract
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path('.local/money_flow_snapshot.json').read_text(encoding='utf-8'))
+          if data.get('schema_version') != 'money-flow-snapshot-v1':
+              raise SystemExit(f'unexpected schema: {data.get("schema_version")}')
+          if data.get('geography_path') != ['China', 'Jiangsu', 'Xuzhou']:
+              raise SystemExit(f'unexpected geography path: {data.get("geography_path")}')
+
+          required_boundaries = {
+              'MISSING_STAYS_UNKNOWN',
+              'SOURCE_ERROR_NEVER_BECOMES_PASS',
+              'NO_CROSS_SOURCE_SUM',
+              'NO_TENDER_SUM_WITHOUT_PROJECT_DEDUP',
+              'TENDER_NOTICE_IS_NOT_COMPLETED_PAYMENT',
+              'PROCUREMENT_NOTICE_IS_NOT_COMPLETED_PAYMENT',
+              'NO_OPPORTUNITY_INFERENCE',
+          }
+          missing_boundaries = sorted(required_boundaries - set(data.get('truth_boundaries', [])))
+          if missing_boundaries:
+              raise SystemExit(f'missing truth boundaries: {missing_boundaries}')
+
+          required_feeds = {
+              'china_pbc_financial_statistics',
+              'jiangsu_pbc_regional_social_financing',
+              'jiangsu_pbc_credit_deposit',
+              'jiangsu_stats_economic_operation',
+              'xuzhou_government_procurement',
+              'xuzhou_construction_tenders',
+          }
+          feeds = data.get('feeds', {})
+          if set(feeds) != required_feeds:
+              raise SystemExit(f'unexpected feed keys: {sorted(feeds)}')
+          bad = {
+              key: {'status': feed.get('status'), 'error': feed.get('error')}
+              for key, feed in feeds.items()
+              if feed.get('status') != 'AVAILABLE'
+          }
+          if bad:
+              raise SystemExit(f'live snapshot has unavailable feeds: {bad}')
+          if data.get('status_counts') != {
+              'AVAILABLE': 6,
+              'UNAVAILABLE': 0,
+              'ERROR': 0,
+              'NOT_RUN': 0,
+          }:
+              raise SystemExit(f'unexpected status counts: {data.get("status_counts")}')
+
+          answerability = data['answerability']
+          for key in ('china_money_flow', 'jiangsu_money_flow', 'xuzhou_institutional_spend'):
+              if answerability[key]['status'] != 'AVAILABLE':
+                  raise SystemExit(f'{key} is not AVAILABLE: {answerability[key]}')
+          for key in ('xuzhou_financial_balance', 'xuzhou_private_enterprise_funding_demand'):
+              if answerability[key]['status'] != 'UNKNOWN':
+                  raise SystemExit(f'{key} must remain UNKNOWN until a direct feed exists: {answerability[key]}')
+
+          headline = data['headline_evidence']
+          national_metrics = headline['China']['pbc_release'].get('metrics', {})
+          if not {'social_financing_stock', 'm2_balance', 'm1_balance'} <= set(national_metrics):
+              raise SystemExit(f'national PBC headline incomplete: {sorted(national_metrics)}')
+
+          js = headline['Jiangsu']
+          regional = js['regional_social_financing']['observation']
+          if regional.get('region') != '江苏' or regional.get('social_financing_flow_100m_cny') is None:
+              raise SystemExit(f'Jiangsu regional AFRE missing: {regional}')
+          credit_metrics = js['credit_deposit'].get('metrics', {})
+          for key in ('total_deposits_100m_cny', 'total_loans_100m_cny'):
+              if credit_metrics.get(key) is None:
+                  raise SystemExit(f'Jiangsu credit metric missing: {key}')
+          if not js['economic_operation'].get('metrics'):
+              raise SystemExit('Jiangsu economic-operation metrics missing')
+
+          xz = headline['Xuzhou']
+          procurement = xz['government_procurement']
+          construction = xz['construction_tenders']
+          if (procurement.get('parsed_events') or 0) < 5:
+              raise SystemExit(f'too few Xuzhou procurement events: {procurement}')
+          if (construction.get('parsed_events') or 0) < 5:
+              raise SystemExit(f'too few Xuzhou construction events: {construction}')
+          if (construction.get('amount_evidence_count') or 0) < 3:
+              raise SystemExit(f'too few Xuzhou construction amount observations: {construction}')
+          if 'NO_SUM_WITHOUT_PROJECT_DEDUP' not in str(construction.get('aggregation_policy')):
+              raise SystemExit('Xuzhou construction anti-double-count policy missing')
+          for forbidden in ('total_contract_estimate_rmb', 'total_budget_rmb', 'money_flow_score', 'opportunity_score'):
+              if forbidden in json.dumps(headline, ensure_ascii=False):
+                  raise SystemExit(f'unsafe aggregate/score leaked into headline evidence: {forbidden}')
+
+          if 'NEED + SURPLUS RESOURCE + TRANSACTION BLOCKER' not in data.get('interpretation_boundary', ''):
+              raise SystemExit('opportunity promotion boundary missing')
+
+          print('status_counts=', json.dumps(data['status_counts'], sort_keys=True))
+          print('answerability=', json.dumps(answerability, ensure_ascii=False, sort_keys=True))
+          print('national_release=', headline['China']['pbc_release']['title'])
+          print('jiangsu_regional_afre=', json.dumps(regional, ensure_ascii=False, sort_keys=True))
+          print('jiangsu_credit=', json.dumps(credit_metrics, ensure_ascii=False, sort_keys=True))
+          print('xuzhou_procurement_events=', procurement['parsed_events'])
+          print('xuzhou_construction_events=', construction['parsed_events'])
+          print('xuzhou_construction_amount_evidence=', construction['amount_evidence_count'])
+          PY
+
+      - name: Upload money-flow snapshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: money-flow-snapshot
+          path: .local/money_flow_snapshot.json
+          retention-days: 14
+          if-no-files-found: error
+          include-hidden-files: true
