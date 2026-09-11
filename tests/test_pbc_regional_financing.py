@@ -52,6 +52,7 @@ class PbcRegionalFinancingTests(unittest.TestCase):
         self.assertEqual(result["social_financing_flow_trillion_cny"], 2.89)
         self.assertEqual(result["matched_label"], "江苏 Jiangsu")
         self.assertEqual(result["total_column_1based"], 2)
+        self.assertEqual(result["semantic_gate"], "WORKBOOK_HEADER")
 
     def test_discovers_latest_regional_table(self):
         doc = {
@@ -73,7 +74,17 @@ class PbcRegionalFinancingTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             discover_xlsx_attachment({"links": [{"text": "地区社会融资规模增量统计表.xlsx", "url": "https://evil.example/file.xlsx"}]})
 
-    def test_ambiguous_headers_fail_closed(self):
+    def test_merged_header_can_fall_back_to_exact_official_title(self):
+        rows = [["地区", "金额"], ["江苏", 28900]]
+        result = extract_region_total(
+            rows,
+            region="江苏",
+            expected_table_title="2026年上半年地区社会融资规模增量统计表",
+        )
+        self.assertEqual(result["social_financing_flow_trillion_cny"], 2.89)
+        self.assertEqual(result["semantic_gate"], "OFFICIAL_DETAIL_TITLE_FALLBACK")
+
+    def test_ambiguous_headers_fail_closed_without_official_title(self):
         rows = [["地区", "金额"], ["江苏", 28900]]
         with self.assertRaises(ValueError):
             extract_region_total(rows, region="江苏")
