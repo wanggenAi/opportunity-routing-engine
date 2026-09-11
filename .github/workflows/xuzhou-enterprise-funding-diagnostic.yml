@@ -17,56 +17,52 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Resolve public Xuzhou enterprise appeal constants
+      - name: Probe anonymous public appeal feed used by homepage
         run: |
           python - <<'PY'
-          import re
-          from urllib.parse import urljoin
+          import hashlib, json
+          from urllib.parse import urlencode
           from urllib.request import Request, urlopen
 
-          page = 'https://xzsme.js.cn/home'
-          req = Request(page, headers={'User-Agent': 'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)'})
+          base = 'https://xzsme.js.cn/xzapi/models/ebDemands/queryElasticsearch'
+          url = base + '?' + urlencode({'pageSize': 100, 'pageNo': 1})
+          req = Request(url, headers={
+              'User-Agent': 'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)',
+              'Accept': 'application/json,text/plain,*/*',
+          })
           with urlopen(req, timeout=20) as r:
-              html = r.read(1_000_000).decode('utf-8')
-          src = re.search(r'<script[^>]+type="module"[^>]+src="([^"]+)"', html, flags=re.I)
-          if not src:
-              raise SystemExit('module script missing')
-          asset = urljoin(page, src.group(1))
-          req = Request(asset, headers={'User-Agent': 'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)'})
-          with urlopen(req, timeout=20) as r:
-              text = r.read(8_000_000).decode('utf-8', errors='ignore')
-          print('ASSET=', asset, 'bytes=', len(text))
+              raw = r.read(5_000_000)
+              print('status=', r.status, 'final=', r.geturl(), 'type=', r.headers.get('Content-Type'), 'bytes=', len(raw), 'sha256=', hashlib.sha256(raw).hexdigest())
+          data = json.loads(raw.decode('utf-8'))
+          print('TOP_LEVEL=', {k: v for k, v in data.items() if k not in {'result', 'data'}})
+          result = data.get('result') or {}
+          records = result.get('records') or []
+          print('RESULT_KEYS=', sorted(result.keys()))
+          print('RECORD_COUNT=', len(records), 'TOTAL=', result.get('total'))
+          if records:
+              print('RECORD_KEYS=', sorted(records[0].keys()))
 
-          needles = [
-              'appeal:{Appeal:',
-              'getAppealItem:',
-              'classificationofdemands:',
-              'appealProgress:',
-              'appealDetails:',
-              'getMyDemandList:',
-              'baseURL:',
-              'baseURL=',
-              'NetworkHandler.GET(Apib.appeal.Appeal',
-          ]
-          for needle in needles:
-              print('CONTEXT_FOR', repr(needle))
-              start = 0
-              hits = 0
-              while hits < 8:
-                  i = text.find(needle, start)
-                  if i < 0:
-                      break
-                  print(text[max(0, i-600):min(len(text), i+1200)])
-                  print('---')
-                  hits += 1
-                  start = i + len(needle)
-              print('HITS=', hits)
-
-          # Enumerate absolute API-like URLs literally embedded in the public bundle.
-          urls = []
-          for m in re.finditer(r'https?://[^"\'`\\\s]{5,300}', text):
-              u = m.group(0)
-              if any(k in u.lower() for k in ('xzsme', 'api', 'service', 'appeal')):
-                  urls.append(u)
-          print('PUBLIC_ABSOLUTE_URLS=', list(dict.fromkeys(urls))[:200])
+          finance_terms = ('融资', '贷款', '资金周转', '资金短缺', '续贷', '融资难', '融资贵', '银行贷款')
+          matches = []
+          for rec in records:
+              # Print only already-public appeal fields, excluding contact/person-like fields.
+              title = str(rec.get('title') or '')
+              content = str(rec.get('content') or '')
+              hay = title + ' ' + content
+              if any(term in hay for term in finance_terms):
+                  safe = {
+                      'id': rec.get('id'),
+                      'title': title,
+                      'content': content,
+                      'questionType': rec.get('questionType'),
+                      'demandsAddress': rec.get('demandsAddress'),
+                      'createTime': rec.get('createTime'),
+                      'updateTime': rec.get('updateTime'),
+                      'status': rec.get('status'),
+                      'source': rec.get('source'),
+                  }
+                  matches.append(safe)
+          print('FINANCE_MATCH_COUNT=', len(matches))
+          for item in matches[:30]:
+              print('FINANCE_MATCH=', json.dumps(item, ensure_ascii=False, sort_keys=True))
           PY
