@@ -7,6 +7,8 @@ on:
   pull_request:
     paths:
       - "src/money_flow_snapshot.py"
+      - "src/gacc_trade_flow.py"
+      - "src/gacc_trade_corroboration.py"
       - "src/pbc_money_flow.py"
       - "src/pbc_regional_financing.py"
       - "src/pbc_jiangsu_credit.py"
@@ -20,6 +22,8 @@ on:
   push:
     paths:
       - "src/money_flow_snapshot.py"
+      - "src/gacc_trade_flow.py"
+      - "src/gacc_trade_corroboration.py"
       - "src/pbc_money_flow.py"
       - "src/pbc_regional_financing.py"
       - "src/pbc_jiangsu_credit.py"
@@ -65,7 +69,7 @@ jobs:
           from pathlib import Path
 
           data = json.loads(Path('.local/money_flow_snapshot.json').read_text(encoding='utf-8'))
-          if data.get('schema_version') != 'money-flow-snapshot-v1':
+          if data.get('schema_version') != 'money-flow-snapshot-v2':
               raise SystemExit(f'unexpected schema: {data.get("schema_version")}')
           if data.get('geography_path') != ['China', 'Jiangsu', 'Xuzhou']:
               raise SystemExit(f'unexpected geography path: {data.get("geography_path")}')
@@ -77,6 +81,10 @@ jobs:
               'NO_TENDER_SUM_WITHOUT_PROJECT_DEDUP',
               'TENDER_NOTICE_IS_NOT_COMPLETED_PAYMENT',
               'PROCUREMENT_NOTICE_IS_NOT_COMPLETED_PAYMENT',
+              'CUSTOMS_PLAINTEXT_HTTP_REQUIRES_CORROBORATION',
+              'CUSTOMS_CROSS_CURRENCY_VALUES_NOT_DIRECTLY_COMPARABLE',
+              'XUZHOU_SPECIFIC_AREA_TRADE_IS_NOT_CITY_TOTAL',
+              'PROVINCE_CORROBORATION_DOES_NOT_CORROBORATE_XUZHOU_SPECIFIC_AREA_VALUES',
               'NO_OPPORTUNITY_INFERENCE',
           }
           missing_boundaries = sorted(required_boundaries - set(data.get('truth_boundaries', [])))
@@ -88,6 +96,7 @@ jobs:
               'jiangsu_pbc_regional_social_financing',
               'jiangsu_pbc_credit_deposit',
               'jiangsu_stats_economic_operation',
+              'jiangsu_customs_trade_flow',
               'xuzhou_government_procurement',
               'xuzhou_construction_tenders',
           }
@@ -102,7 +111,7 @@ jobs:
           if bad:
               raise SystemExit(f'live snapshot has unavailable feeds: {bad}')
           if data.get('status_counts') != {
-              'AVAILABLE': 6,
+              'AVAILABLE': 7,
               'UNAVAILABLE': 0,
               'ERROR': 0,
               'NOT_RUN': 0,
@@ -110,12 +119,14 @@ jobs:
               raise SystemExit(f'unexpected status counts: {data.get("status_counts")}')
 
           answerability = data['answerability']
-          for key in ('china_money_flow', 'jiangsu_money_flow', 'xuzhou_institutional_spend'):
+          for key in ('china_money_flow', 'jiangsu_money_flow', 'jiangsu_trade_flow', 'xuzhou_institutional_spend'):
               if answerability[key]['status'] != 'AVAILABLE':
                   raise SystemExit(f'{key} is not AVAILABLE: {answerability[key]}')
-          for key in ('xuzhou_financial_balance', 'xuzhou_private_enterprise_funding_demand'):
+          if answerability['xuzhou_specific_area_trade']['status'] != 'PARTIAL':
+              raise SystemExit(f'Xuzhou specific-area trade must remain PARTIAL: {answerability["xuzhou_specific_area_trade"]}')
+          for key in ('xuzhou_city_trade_flow', 'xuzhou_financial_balance', 'xuzhou_private_enterprise_funding_demand'):
               if answerability[key]['status'] != 'UNKNOWN':
-                  raise SystemExit(f'{key} must remain UNKNOWN until a direct feed exists: {answerability[key]}')
+                  raise SystemExit(f'{key} must remain UNKNOWN until a direct/corroborated feed exists: {answerability[key]}')
 
           headline = data['headline_evidence']
           national_metrics = headline['China']['pbc_release'].get('metrics', {})
@@ -133,7 +144,34 @@ jobs:
           if not js['economic_operation'].get('metrics'):
               raise SystemExit('Jiangsu economic-operation metrics missing')
 
+          customs = js['customs_trade_flow']
+          if customs.get('transport_security') != 'PLAINTEXT_HTTP':
+              raise SystemExit(f'customs transport trust boundary missing: {customs}')
+          if customs.get('corroboration_status') != 'PERIOD_IDENTITY_DIRECTION_CORROBORATED':
+              raise SystemExit(f'Jiangsu customs trade is not same-period corroborated: {customs}')
+          corr = customs.get('corroboration') or {}
+          if corr.get('basis') != 'PERIOD_IDENTITY_DIRECTION_ONLY':
+              raise SystemExit(f'unsafe customs corroboration basis: {corr}')
+          if corr.get('monetary_value_comparison') != 'UNAVAILABLE_CROSS_CURRENCY':
+              raise SystemExit(f'cross-currency values treated as directly comparable: {corr}')
+          js_trade = customs.get('importer_exporter_location') or {}
+          if js_trade.get('name', '').strip().lower() not in {'jiangsu', 'jiangsu province'}:
+              raise SystemExit(f'unexpected Jiangsu customs identity: {js_trade}')
+          if js_trade.get('total_ytd_usd_thousand') is None:
+              raise SystemExit(f'Jiangsu customs YTD trade missing: {js_trade}')
+
           xz = headline['Xuzhou']
+          xz_customs = xz['customs_specific_areas']
+          if xz_customs.get('scope') != 'SPECIFIC_AREAS_ONLY':
+              raise SystemExit(f'Xuzhou customs scope widened unexpectedly: {xz_customs}')
+          if xz_customs.get('specific_area_value_corroboration') != 'NOT_ESTABLISHED':
+              raise SystemExit(f'Xuzhou specific-area values were over-corroborated: {xz_customs}')
+          if xz_customs.get('city_location_row') is not None:
+              raise SystemExit(f'current GACC table 8 unexpectedly gained a Xuzhou city row; review scope before promotion: {xz_customs}')
+          areas = xz_customs.get('areas') or []
+          if not areas or any('xuzhou' not in str(row.get('name', '')).lower() for row in areas):
+              raise SystemExit(f'Xuzhou specific-area trade evidence missing/invalid: {areas}')
+
           procurement = xz['government_procurement']
           construction = xz['construction_tenders']
           if (procurement.get('parsed_events') or 0) < 5:
@@ -144,8 +182,17 @@ jobs:
               raise SystemExit(f'too few Xuzhou construction amount observations: {construction}')
           if 'NO_SUM_WITHOUT_PROJECT_DEDUP' not in str(construction.get('aggregation_policy')):
               raise SystemExit('Xuzhou construction anti-double-count policy missing')
-          for forbidden in ('total_contract_estimate_rmb', 'total_budget_rmb', 'money_flow_score', 'opportunity_score'):
-              if forbidden in json.dumps(headline, ensure_ascii=False):
+
+          serialized = json.dumps(headline, ensure_ascii=False)
+          for forbidden in (
+              'total_contract_estimate_rmb',
+              'total_budget_rmb',
+              'money_flow_score',
+              'opportunity_score',
+              'xuzhou_trade_total',
+              'specific_area_total',
+          ):
+              if forbidden in serialized:
                   raise SystemExit(f'unsafe aggregate/score leaked into headline evidence: {forbidden}')
 
           if 'NEED + SURPLUS RESOURCE + TRANSACTION BLOCKER' not in data.get('interpretation_boundary', ''):
@@ -156,6 +203,8 @@ jobs:
           print('national_release=', headline['China']['pbc_release']['title'])
           print('jiangsu_regional_afre=', json.dumps(regional, ensure_ascii=False, sort_keys=True))
           print('jiangsu_credit=', json.dumps(credit_metrics, ensure_ascii=False, sort_keys=True))
+          print('jiangsu_customs_trade=', json.dumps(customs, ensure_ascii=False, sort_keys=True))
+          print('xuzhou_customs_specific_areas=', json.dumps(xz_customs, ensure_ascii=False, sort_keys=True))
           print('xuzhou_procurement_events=', procurement['parsed_events'])
           print('xuzhou_construction_events=', construction['parsed_events'])
           print('xuzhou_construction_amount_evidence=', construction['amount_evidence_count'])
