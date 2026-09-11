@@ -41,6 +41,10 @@ jobs:
               raise SystemExit(f"unexpected source: {data.get('source_id')}")
           if data.get('evidence_kind') != 'CUSTOMS_TRADE_FLOW':
               raise SystemExit(f"unexpected evidence kind: {data.get('evidence_kind')}")
+          if data.get('transport_security') != 'PLAINTEXT_HTTP' or data.get('corroboration_required') is not True:
+              raise SystemExit('GACC plaintext transport must remain explicitly lower-trust and corroboration-required')
+          if data.get('corroboration_status') != 'PENDING':
+              raise SystemExit(f"unexpected pre-corroboration status: {data.get('corroboration_status')}")
           year, month = map(int, data['period'].split('-'))
           age_months = (date.today().year - year) * 12 + date.today().month - month
           if age_months < 0 or age_months > 4:
@@ -55,9 +59,10 @@ jobs:
           for key in ('discovery', 'table_8_provenance', 'table_11_provenance'):
               meta = data[key]['provenance'] if key == 'discovery' else data[key]
               parsed = urlparse(meta['url'])
-              if parsed.scheme != 'https' or parsed.hostname != 'english.customs.gov.cn' or not meta.get('payload_sha256'):
-                  raise SystemExit(f"invalid official provenance for {key}: {meta}")
+              if parsed.scheme != 'http' or parsed.hostname != 'english.customs.gov.cn' or not meta.get('payload_sha256'):
+                  raise SystemExit(f"invalid official HTTP provenance for {key}: {meta}")
           required = {
+              'PLAINTEXT_HTTP_REQUIRES_CORROBORATION',
               'IMPORTER_EXPORTER_LOCATION_IS_NOT_DOMESTIC_ORIGIN_DESTINATION',
               'SPECIFIC_AREA_IS_NOT_WHOLE_XUZHOU',
               'NO_CROSS_TABLE_SUM',
@@ -71,6 +76,8 @@ jobs:
           if missing:
               raise SystemExit(f"missing truth boundaries: {missing}")
           print('period=', data['period'])
+          print('transport_security=', data['transport_security'])
+          print('corroboration_status=', data['corroboration_status'])
           print('jiangsu=', json.dumps(jiangsu, ensure_ascii=False, sort_keys=True))
           print('xuzhou_location=', json.dumps(data.get('xuzhou_importer_exporter_location'), ensure_ascii=False, sort_keys=True))
           print('xuzhou_specific_areas=', json.dumps(data.get('xuzhou_specific_areas'), ensure_ascii=False, sort_keys=True))
