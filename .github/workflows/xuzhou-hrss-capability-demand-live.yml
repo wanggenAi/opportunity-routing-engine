@@ -1,0 +1,132 @@
+name: xuzhou-hrss-capability-demand-live
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 5 * * 1,4"
+  pull_request:
+    paths:
+      - "src/xls_ingest.py"
+      - "src/xuzhou_hrss_capability_demand.py"
+      - "scripts/collect_xuzhou_hrss_capability_demand.py"
+      - "tests/test_xuzhou_hrss_capability_demand.py"
+      - "requirements-xuzhou-hrss.txt"
+      - "data/source_registry.csv"
+      - ".github/workflows/xuzhou-hrss-capability-demand-live.yml"
+  push:
+    paths:
+      - "src/xls_ingest.py"
+      - "src/xuzhou_hrss_capability_demand.py"
+      - "scripts/collect_xuzhou_hrss_capability_demand.py"
+      - "tests/test_xuzhou_hrss_capability_demand.py"
+      - "requirements-xuzhou-hrss.txt"
+      - "data/source_registry.csv"
+      - ".github/workflows/xuzhou-hrss-capability-demand-live.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  collect-xuzhou-hrss-capability-demand:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install isolated legacy XLS parser
+        run: python -m pip install --disable-pip-version-check -r requirements-xuzhou-hrss.txt
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect latest structured official Xuzhou HRSS recruitment demand
+        run: |
+          python scripts/collect_xuzhou_hrss_capability_demand.py \
+            --scan-limit 20 \
+            --output .local/xuzhou_hrss_capability_demand.json
+
+      - name: Validate Xuzhou HRSS capability-demand evidence contract
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          data = json.loads(Path('.local/xuzhou_hrss_capability_demand.json').read_text(encoding='utf-8'))
+          if data.get('source_id') != 'XZ_HRSS_RECRUITMENT' or data.get('data_available') is not True:
+              raise SystemExit('Xuzhou HRSS source did not produce available data')
+          if data.get('geography') != 'Xuzhou':
+              raise SystemExit(f'unexpected geography: {data.get("geography")}')
+          if data.get('evidence_kind') != 'PUBLIC_SECTOR_CAPABILITY_DEMAND':
+              raise SystemExit(f'unexpected evidence kind: {data.get("evidence_kind")}')
+          if data.get('freshness', {}).get('status') not in {'FRESH', 'AGING'}:
+              raise SystemExit(f'latest structured recruitment evidence is too stale: {data.get("freshness")}')
+
+          required_boundaries = {
+              'RECRUITMENT_DEMAND_IS_NOT_LABOR_SHORTAGE',
+              'DEMAND_IS_NOT_SURPLUS_RESOURCE',
+              'ADVERTISED_HEADCOUNT_IS_NOT_COMPLETED_HIRING',
+              'NO_CANDIDATE_PERSON_PROFILE',
+              'NO_HUMAN_CAPABILITY_UNDERUSE_INFERENCE',
+              'NO_OPPORTUNITY_INFERENCE',
+          }
+          missing = sorted(required_boundaries - set(data.get('truth_boundaries', [])))
+          if missing:
+              raise SystemExit(f'missing truth boundaries: {missing}')
+
+          obs = data['observation']
+          if obs.get('demand_unit_count', 0) < 1:
+              raise SystemExit('no explicit capability demand units extracted')
+          if obs.get('total_requested_headcount', 0) < 1:
+              raise SystemExit('no explicit positive requested headcount extracted')
+          units = obs.get('demand_units', [])
+          if len(units) != obs.get('demand_unit_count'):
+              raise SystemExit('demand unit count mismatch')
+          with_major = 0
+          forbidden_keys = {'name', 'candidate_name', 'phone', 'mobile', 'id_number', 'availability', 'willingness', 'surplus'}
+          for unit in units:
+              if unit.get('evidence_state') != 'EXPLICIT_CAPABILITY_DEMAND':
+                  raise SystemExit(f'unexpected evidence state: {unit}')
+              if not unit.get('position') or not isinstance(unit.get('hiring_count'), int) or unit['hiring_count'] <= 0:
+                  raise SystemExit(f'invalid explicit demand unit: {unit}')
+              if unit.get('major_requirement'):
+                  with_major += 1
+              leaked = forbidden_keys.intersection(unit.keys())
+              if leaked:
+                  raise SystemExit(f'person/surplus inference fields leaked into demand unit: {sorted(leaked)}')
+          if with_major == 0:
+              raise SystemExit('no explicit professional/major requirement extracted')
+
+          for key in ('index', 'detail', 'xls'):
+              meta = data['provenance'][key]
+              parsed = urlparse(meta['url'])
+              if parsed.scheme != 'https' or parsed.hostname != 'hrss.xz.gov.cn':
+                  raise SystemExit(f'unexpected HRSS provenance URL: {meta["url"]}')
+              if not meta.get('payload_sha256'):
+                  raise SystemExit(f'missing provenance hash: {key}')
+          if not data['provenance']['xls'].get('size_bytes'):
+              raise SystemExit('missing XLS byte-size evidence')
+
+          print('article_title=', data['article_title'])
+          print('publication_date=', data['publication_date'])
+          print('freshness=', json.dumps(data['freshness'], ensure_ascii=False, sort_keys=True))
+          print('demand_unit_count=', obs['demand_unit_count'])
+          print('total_requested_headcount=', obs['total_requested_headcount'])
+          print('sample=', json.dumps(units[:8], ensure_ascii=False, sort_keys=True))
+          PY
+
+      - name: Upload Xuzhou HRSS capability-demand evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xuzhou-hrss-capability-demand-evidence
+          path: .local/xuzhou_hrss_capability_demand.json
+          retention-days: 14
+          if-no-files-found: error
+          include-hidden-files: true
