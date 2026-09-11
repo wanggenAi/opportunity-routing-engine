@@ -47,6 +47,7 @@ class MofcomOpenDataTests(unittest.TestCase):
         )
         result = MofcomOpenDataAdapter(client=client).fetch_dataset(self.spec)
         self.assertEqual(result["api_status"], 1)
+        self.assertTrue(result["data_available"])
         self.assertEqual(result["top_level_item_count"], 1)
         self.assertEqual(result["data"][0]["period"], "2026-04")
         self.assertEqual(result["provenance"]["payload_sha256"], "a" * 64)
@@ -54,9 +55,19 @@ class MofcomOpenDataTests(unittest.TestCase):
         self.assertEqual(result["transport_security"], "PLAINTEXT_HTTP")
         self.assertTrue(result["corroboration_required"])
 
+    def test_blank_data_is_unavailable_even_when_api_says_success(self):
+        client = FakeMofcomClient({"status": 1, "msg": "查询成功", "data": ""})
+        result = MofcomOpenDataAdapter(client=client).fetch_dataset(self.spec)
+        self.assertFalse(result["data_available"])
+        self.assertEqual(result["top_level_item_count"], 0)
+        batch = MofcomOpenDataAdapter(client=client).collect_watchlist([self.spec])
+        self.assertEqual(batch["response_count"], 1)
+        self.assertEqual(batch["available_count"], 0)
+        self.assertEqual(batch["unavailable_count"], 1)
+
     def test_https_redirect_can_clear_transport_corroboration_flag(self):
         client = FakeMofcomClient(
-            {"status": 1, "msg": "ok", "data": []},
+            {"status": 1, "msg": "ok", "data": [1]},
             url="https://opendata.mofcom.gov.cn/front/data/jsonData?id=ABC",
         )
         result = MofcomOpenDataAdapter(client=client).fetch_dataset(self.spec)
@@ -68,7 +79,7 @@ class MofcomOpenDataTests(unittest.TestCase):
         with self.assertRaises(MofcomOpenDataError):
             MofcomOpenDataAdapter(client=client).fetch_dataset(self.spec)
 
-    def test_success_without_data_is_rejected(self):
+    def test_success_without_data_field_is_rejected(self):
         client = FakeMofcomClient({"status": 1, "msg": "ok"})
         with self.assertRaises(MofcomOpenDataError):
             MofcomOpenDataAdapter(client=client).fetch_dataset(self.spec)
