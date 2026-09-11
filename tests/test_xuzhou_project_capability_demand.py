@@ -75,6 +75,36 @@ class XuzhouProjectCapabilityDemandTests(unittest.TestCase):
         self.assertTrue(item.bidder_employee_required)
         self.assertTrue(item.social_insurance_proof_required)
 
+    def test_certificate_name_does_not_create_project_lead_role(self):
+        text = """
+        3.2项目经理资格条件：
+        ①持有有效的公路工程专业二级及以上建造师注册证书；
+        ②持有《公路水运工程施工单位主要负责人、项目负责人和专职安全生产管理人员安全生产考核合格证书》（B证）；
+        ③2021年1月1日至今至少担任过一个公路工程项目的项目经理。
+        拟投入项目经理应为投标人本单位人员，并提供社保缴费明细。
+        3.3其他要求
+        """
+        roles = [item.role for item in extract_project_capability_requirements(text)]
+        self.assertIn("PROJECT_MANAGER", roles)
+        self.assertNotIn("PROJECT_LEAD", roles)
+
+    def test_project_lead_umbrella_with_manager_and_technical_lead_is_not_separate_role(self):
+        text = """
+        3.2项目负责人条件
+        （1）资质条件：
+        a.项目经理 1）具有公路工程相关专业工程师或以上技术职称；2）具有公路工程一级建造师注册证书。
+        b.项目总工 1）具有公路工程相关专业高级工程师或以上技术职称。
+        拟投入项目经理、项目总工应为投标人本单位人员，并提供社保缴费明细。
+        （2）业绩条件：
+        a.项目经理至少完成过1个一级公路工程项目；
+        b.项目总工至少完成过1个一级公路工程项目。
+        3.3其他要求
+        """
+        by_role = {item.role: item for item in extract_project_capability_requirements(text)}
+        self.assertNotIn("PROJECT_LEAD", by_role)
+        self.assertIn("PROJECT_MANAGER", by_role)
+        self.assertIn("PROJECT_TECHNICAL_LEAD", by_role)
+
     def test_generic_heading_without_concrete_gate_is_not_evidence(self):
         self.assertEqual(
             extract_project_capability_requirements("3.2项目经理资格要求\n详见招标文件。\n3.3其他要求"),
