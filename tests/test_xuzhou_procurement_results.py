@@ -141,7 +141,7 @@ class XuzhouProcurementResultTests(unittest.TestCase):
         self.assertEqual(payload["discovery"]["item_count"], 1)
         self.assertEqual(payload["detail_fetch_count"], 1)
         self.assertEqual(payload["award_count"], 1)
-        self.assertIn("/2.html", client.urls)
+        self.assertTrue(any(url.endswith("/2.html") for url in client.urls))
         detail_urls = [
             url for url in client.urls if "/20260909/" in url
         ]
