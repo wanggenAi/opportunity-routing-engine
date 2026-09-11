@@ -1,12 +1,18 @@
 import unittest
 
-from src.nbs_adapter import NBSAdapter, normalize_period_token, normalize_periods
+from src.nbs_adapter import (
+    NBSAdapter,
+    is_populated_value,
+    normalize_period_token,
+    normalize_periods,
+)
 from src.network_ingest import FetchEnvelope
 
 
 class FakeClient:
-    def __init__(self):
+    def __init__(self, value="101.2"):
         self.calls = []
+        self.value = value
 
     def request_json(self, method, url, **kwargs):
         self.calls.append((method, url, kwargs))
@@ -29,20 +35,21 @@ class FakeClient:
                 }
             }
         elif name.startswith("nbs.dates"):
-            payload = {"data": ["202608MM"]}
+            payload = {"data": {"dt_all": "202608MM", "dt_name": "2026年8月"}}
         elif name.startswith("nbs.values"):
             payload = {
                 "data": [
                     {
                         "code": "202608MM",
+                        "name": "2026年8月",
                         "values": [
                             {
                                 "_id": "ind-1",
                                 "i_showname": "居民消费价格指数(上年同月=100)",
                                 "du_name": "指数",
-                                "area": "全国",
-                                "areaCode": "000000000000",
-                                "value": "101.2",
+                                "da": "000000000000",
+                                "da_name": "全国",
+                                "value": self.value,
                             }
                         ],
                     }
@@ -69,6 +76,13 @@ class NBSAdapterTests(unittest.TestCase):
         self.assertEqual(normalize_period_token("2026", "year"), "2026YY")
         self.assertEqual(normalize_periods(["202601-202608"], "month"), ["202601MM-202608MM"])
 
+    def test_zero_is_populated_but_blank_is_not(self):
+        self.assertTrue(is_populated_value(0))
+        self.assertTrue(is_populated_value("0"))
+        self.assertFalse(is_populated_value(""))
+        self.assertFalse(is_populated_value("--"))
+        self.assertFalse(is_populated_value(None))
+
     def test_probe_reads_root_and_children(self):
         adapter = NBSAdapter(client=FakeClient())
         result = adapter.probe(["monthData"])
@@ -90,12 +104,29 @@ class NBSAdapterTests(unittest.TestCase):
             indicator_ids=["ind-1"],
             periods=["202608"],
         )
-        self.assertEqual(result["row_count"], 1)
+        self.assertEqual(result["observed_row_count"], 1)
+        self.assertEqual(result["populated_row_count"], 1)
+        self.assertEqual(result["latest_populated_period"], "202608MM")
+        self.assertEqual(result["records"][0]["area_name"], "全国")
         self.assertEqual(result["records"][0]["value"], "101.2")
         method, _, kwargs = client.calls[-1]
         self.assertEqual(method, "POST")
         self.assertEqual(kwargs["json_body"]["dts"], ["202608MM"])
         self.assertEqual(kwargs["json_body"]["rootId"], "root-1")
+
+    def test_blank_value_stays_unavailable_not_zero(self):
+        adapter = NBSAdapter(client=FakeClient(value=""))
+        result = adapter.fetch_values(
+            "monthData",
+            cid="cid-1",
+            indicator_ids=["ind-1"],
+            periods=["202608"],
+        )
+        self.assertEqual(result["observed_row_count"], 1)
+        self.assertEqual(result["populated_row_count"], 0)
+        self.assertIsNone(result["latest_populated_period"])
+        self.assertFalse(result["records"][0]["value_present"])
+        self.assertEqual(result["records"][0]["value"], "")
 
     def test_bounded_catalog_discovery(self):
         adapter = NBSAdapter(client=FakeClient())
