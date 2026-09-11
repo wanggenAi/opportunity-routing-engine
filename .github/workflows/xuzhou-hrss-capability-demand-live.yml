@@ -45,6 +45,24 @@ jobs:
       - name: Run repository unit tests
         run: python -m unittest discover -s tests -v
 
+      - name: Diagnose official HRSS transport reachability
+        run: |
+          set +e
+          echo '--- DNS IPv4 ---'
+          getent ahostsv4 hrss.xz.gov.cn || true
+          echo '--- DNS IPv6 ---'
+          getent ahostsv6 hrss.xz.gov.cn || true
+          echo '--- HTTPS IPv4 ---'
+          curl -4 -sS -o /dev/null -D - --connect-timeout 8 --max-time 15 \
+            https://hrss.xz.gov.cn/001/001004/list.html || true
+          echo '--- HTTP IPv4 ---'
+          curl -4 -sS -o /dev/null -D - --connect-timeout 8 --max-time 15 \
+            http://hrss.xz.gov.cn/001/001004/list.html || true
+          echo '--- HTTPS IPv6 ---'
+          curl -6 -sS -o /dev/null -D - --connect-timeout 8 --max-time 15 \
+            https://hrss.xz.gov.cn/001/001004/list.html || true
+          exit 0
+
       - name: Collect latest structured official Xuzhou HRSS recruitment demand
         run: |
           python scripts/collect_xuzhou_hrss_capability_demand.py \
