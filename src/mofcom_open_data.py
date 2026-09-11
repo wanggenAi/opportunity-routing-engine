@@ -1,14 +1,15 @@
 """Free official MOFCOM open-data API adapter.
 
 MOFCOM's current HTTPS dataset-detail pages explicitly document JSON API request
-paths using plain HTTP.  We do not weaken the repository-wide HTTPS JSON client for
-that exception.  Instead this module isolates the exact documented host/path and
+paths using plain HTTP. We do not weaken the repository-wide HTTPS JSON client for
+that exception. Instead this module isolates the exact documented host/path and
 marks every result as PLAINTEXT_HTTP so downstream code can require corroboration.
 
 Truth rules:
-- transport/API success != current/fresh data;
+- transport/API success != current/fresh/available data;
+- API status=1 with blank `data` is still unavailable;
 - API status=0 is an error, never zero-valued evidence;
-- missing data remains unavailable;
+- missing/blank data remains unavailable;
 - raw payload is preserved before dataset-specific normalization;
 - plain-HTTP MOFCOM evidence is lower-trust and must be corroborated before it can
   promote a money-flow conclusion.
@@ -46,6 +47,16 @@ class MofcomDatasetSpec:
     theme: str
     refresh_cadence: str
     enabled: bool
+
+
+def _data_available(data: Any) -> bool:
+    if data is None:
+        return False
+    if isinstance(data, str):
+        return bool(data.strip())
+    if isinstance(data, (list, dict, tuple, set)):
+        return len(data) > 0
+    return True
 
 
 def load_mofcom_watchlist(path: str | Path) -> list[MofcomDatasetSpec]:
@@ -162,10 +173,11 @@ class MofcomOpenDataAdapter:
                 f"MOFCOM API returned status={status}: {payload.get('msg', '')}"
             )
         if "data" not in payload or payload.get("data") is None:
-            raise MofcomOpenDataError("MOFCOM API success response has no data")
+            raise MofcomOpenDataError("MOFCOM API success response has no data field")
 
         data = payload["data"]
-        item_count = len(data) if isinstance(data, (list, dict)) else 1
+        available = _data_available(data)
+        item_count = len(data) if isinstance(data, (list, dict, str)) else 1
         final_scheme = urlparse(envelope.url).scheme
         return {
             "source_id": "CN_MOFCOM_OPEN_DATA",
@@ -174,30 +186,34 @@ class MofcomOpenDataAdapter:
             "message": str(payload.get("msg") or ""),
             "data_type": type(data).__name__,
             "top_level_item_count": item_count,
+            "data_available": available,
             "data": data,
             "transport_security": "HTTPS" if final_scheme == "https" else "PLAINTEXT_HTTP",
             "corroboration_required": final_scheme != "https",
             "provenance": envelope.metadata(),
             "truth_note": (
-                "The API path is officially documented, but plain-HTTP transport is lower-trust. "
-                "Freshness, semantics and any money-flow promotion require independent corroboration."
+                "Transport/API success is recorded separately from data availability. "
+                "Blank data remains unavailable; plain-HTTP evidence also requires corroboration."
             ),
         }
 
     def collect_watchlist(self, specs: list[MofcomDatasetSpec]) -> dict[str, Any]:
-        results: list[dict[str, Any]] = []
+        responses: list[dict[str, Any]] = []
         errors: list[dict[str, str]] = []
         enabled = [spec for spec in specs if spec.enabled]
         for spec in enabled:
             try:
-                results.append(self.fetch_dataset(spec))
+                responses.append(self.fetch_dataset(spec))
             except Exception as exc:
                 errors.append({"dataset_id": spec.dataset_id, "name": spec.name, "error": str(exc)})
+        available_count = sum(1 for item in responses if item["data_available"])
         return {
             "source_id": "CN_MOFCOM_OPEN_DATA",
             "enabled_dataset_count": len(enabled),
-            "success_count": len(results),
+            "response_count": len(responses),
+            "available_count": available_count,
+            "unavailable_count": len(responses) - available_count,
             "error_count": len(errors),
-            "datasets": results,
+            "datasets": responses,
             "errors": errors,
         }
