@@ -17,49 +17,56 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Inspect public Xuzhou enterprise SPA shell
+      - name: Resolve public Xuzhou enterprise appeal constants
         run: |
           python - <<'PY'
           import re
-          from urllib.parse import urljoin, urlparse
+          from urllib.parse import urljoin
           from urllib.request import Request, urlopen
 
-          url = 'https://xzsme.js.cn/home'
-          req = Request(url, headers={
-              'User-Agent': 'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)',
-              'Accept': 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.5',
-          })
+          page = 'https://xzsme.js.cn/home'
+          req = Request(page, headers={'User-Agent': 'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)'})
           with urlopen(req, timeout=20) as r:
-              raw = r.read(1_000_000)
-              html = raw.decode('utf-8')
-              print('status=', r.status, 'final=', r.geturl(), 'type=', r.headers.get('Content-Type'), 'bytes=', len(raw))
-              print('RAW_HTML_BEGIN')
-              print(html)
-              print('RAW_HTML_END')
+              html = r.read(1_000_000).decode('utf-8')
+          src = re.search(r'<script[^>]+type="module"[^>]+src="([^"]+)"', html, flags=re.I)
+          if not src:
+              raise SystemExit('module script missing')
+          asset = urljoin(page, src.group(1))
+          req = Request(asset, headers={'User-Agent': 'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)'})
+          with urlopen(req, timeout=20) as r:
+              text = r.read(8_000_000).decode('utf-8', errors='ignore')
+          print('ASSET=', asset, 'bytes=', len(text))
 
-          assets = []
-          for pattern in (r'<script[^>]+src=["\']([^"\']+)', r'<link[^>]+href=["\']([^"\']+)'):
-              for value in re.findall(pattern, html, flags=re.I):
-                  absolute = urljoin(url, value)
-                  if urlparse(absolute).hostname in {'xzsme.js.cn', 'www.xzsme.js.cn'}:
-                      assets.append(absolute)
-          print('SAME_HOST_ASSETS=', list(dict.fromkeys(assets)))
+          needles = [
+              'appeal:{Appeal:',
+              'getAppealItem:',
+              'classificationofdemands:',
+              'appealProgress:',
+              'appealDetails:',
+              'getMyDemandList:',
+              'baseURL:',
+              'baseURL=',
+              'NetworkHandler.GET(Apib.appeal.Appeal',
+          ]
+          for needle in needles:
+              print('CONTEXT_FOR', repr(needle))
+              start = 0
+              hits = 0
+              while hits < 8:
+                  i = text.find(needle, start)
+                  if i < 0:
+                      break
+                  print(text[max(0, i-600):min(len(text), i+1200)])
+                  print('---')
+                  hits += 1
+                  start = i + len(needle)
+              print('HITS=', hits)
 
-          # Public static JS is inspected only for literal endpoint/path strings.
-          # We do not call authenticated endpoints, bypass login, or emulate private APIs.
-          for asset in list(dict.fromkeys(assets)):
-              if not asset.split('?', 1)[0].lower().endswith('.js'):
-                  continue
-              req = Request(asset, headers={'User-Agent': 'OpportunityRoutingEngine/0.1 (+public-evidence-ingest)'})
-              with urlopen(req, timeout=20) as r:
-                  body = r.read(8_000_000)
-                  print('ASSET', asset, 'status=', r.status, 'bytes=', len(body), 'type=', r.headers.get('Content-Type'))
-                  text = body.decode('utf-8', errors='ignore')
-                  candidates = []
-                  for m in re.finditer(r'["\']([^"\']{3,240})["\']', text):
-                      s = m.group(1)
-                      low = s.lower()
-                      if ('诉求' in s or any(k in low for k in ('appeal', 'demand', 'request', 'service110', 'typical', 'finance', 'loan'))):
-                          candidates.append(s)
-                  print('PUBLIC_LITERAL_HINTS=', list(dict.fromkeys(candidates))[:200])
+          # Enumerate absolute API-like URLs literally embedded in the public bundle.
+          urls = []
+          for m in re.finditer(r'https?://[^"\'`\\\s]{5,300}', text):
+              u = m.group(0)
+              if any(k in u.lower() for k in ('xzsme', 'api', 'service', 'appeal')):
+                  urls.append(u)
+          print('PUBLIC_ABSOLUTE_URLS=', list(dict.fromkeys(urls))[:200])
           PY
