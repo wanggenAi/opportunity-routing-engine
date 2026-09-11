@@ -211,12 +211,7 @@ class PublicHtmlClient:
 
 
 class _DocumentParser(HTMLParser):
-    # ``noscript`` is intentionally retained. Some first-party government pages put
-    # the authoritative article body in a noscript fallback even though the raw
-    # response contains no executable script. Treating noscript as noise erased the
-    # project identity and budget from those pages. Executable/non-content elements
-    # remain excluded.
-    SKIP_TAGS = {"script", "style", "svg"}
+    SKIP_TAGS = {"script", "style", "noscript", "svg"}
 
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
