@@ -6,7 +6,7 @@ The project distinguishes:
 3. paid connectors, which are disabled for the MVP;
 4. private/internal browser endpoints, which are never treated as production APIs.
 
-Secrets are never accepted from committed config.  Authorized connectors may only
+Secrets are never accepted from committed config. Authorized connectors may only
 read secret presence from server-side environment variables such as GitHub Actions
 Secrets, and secret values must never be emitted into status payloads or logs.
 """
@@ -21,6 +21,7 @@ from typing import Iterable
 
 class ConnectorState(str, Enum):
     ACTIVE_LIVE = "ACTIVE_LIVE"
+    API_REACHABLE_DATA_UNAVAILABLE = "API_REACHABLE_DATA_UNAVAILABLE"
     UNCONFIGURED_AUTH = "UNCONFIGURED_AUTH"
     PERMISSION_REQUIRED = "PERMISSION_REQUIRED"
     AUTHENTICATED_NOT_PROBED = "AUTHENTICATED_NOT_PROBED"
