@@ -74,6 +74,9 @@ jobs:
 
       - name: Collect explicit Xuzhou procurement blockers
         run: |
+          # Re-fetch classified current tenders, require exact project identity, and
+          # emit only source-explicit qualification/access or no-subcontract routing
+          # constraints. Generic procurement boilerplate never becomes a blocker.
           python scripts/collect_xuzhou_procurement_blockers.py \
             --procurement-json .local/xz_procurement_events.json \
             --output .local/xz_procurement_blockers.json
@@ -125,6 +128,8 @@ jobs:
 
       - name: Build truth-preserving Resource Imbalance ledger
         run: |
+          # No provider-capacity artifact is supplied here unless real reviewed
+          # capacity evidence exists. Historical awards must remain underuse UNKNOWN.
           python scripts/build_live_resource_imbalance.py \
             --procurement-json .local/xz_procurement_events.json \
             --provider-json .local/xz_procurement_awards.json \
@@ -164,6 +169,20 @@ jobs:
           queue = json.loads(Path('.local/xz_pair_validation_queue.json').read_text(encoding='utf-8'))
           field = json.loads(Path('.local/xz_field_validation_packets.json').read_text(encoding='utf-8'))
 
+          print('source_input_counts:', data['source_input_counts'])
+          print('signal_counts:', data['signal_counts'])
+          print('status_counts:', data['status_counts'])
+          print('blocking_reason_counts:', data['blocking_reason_counts'])
+          print('verified_seed_count:', seeded['verified_seed_count'])
+          print('seeded_award_count:', seeded['award_count'])
+          print('contract_project_count:', contracts['project_count'])
+          print('exact_contract_count:', contracts['contract_count'])
+          print('procurement_blocker_count:', blockers['blocker_count'])
+          print('lifecycle_stage_counts:', lifecycle['stage_counts'])
+          print('lifecycle_promotion_allowed_count:', lifecycle['promotion_allowed_count'])
+          print('validation_queue_target_counts:', queue['target_counts'])
+          print('field_validation_packet_count:', field['packet_count'])
+
           if seeded['verified_seed_count'] < 1 or seeded['award_count'] < 1:
               raise SystemExit('navigation seeds produced no freshly verified official award evidence')
           for award in seeded['awards']:
@@ -171,15 +190,26 @@ jobs:
                   raise SystemExit('verified seeded award lacks exact project identity')
 
           if blockers.get('query_strategy') != 'EXACT_PROJECT_ID_REVALIDATION_PLUS_EXPLICIT_TEXT_ONLY':
-              raise SystemExit('blocker collection policy drifted')
+              raise SystemExit('blocker collection policy drifted from explicit exact-project evidence')
           if blockers.get('blocker_scope') != 'EXACT_NEED_SIGNAL':
-              raise SystemExit('procurement blockers are not exact-Need scoped')
+              raise SystemExit('procurement blockers are not scoped to exact canonical needs')
           for blocker in blockers.get('blockers', []):
               project_id = blocker.get('project_id')
-              if not project_id or blocker.get('need_signal_id') != f'LIVE_NEED::XZ_GGZY::{project_id}':
-                  raise SystemExit('procurement blocker identity drifted')
+              expected_need_signal_id = f'LIVE_NEED::XZ_GGZY::{project_id}' if project_id else None
+              if not project_id or blocker.get('need_signal_id') != expected_need_signal_id:
+                  raise SystemExit('procurement blocker exact project/need identity drifted')
               if blocker.get('evidence_state') != 'OBSERVED':
                   raise SystemExit('procurement blocker emitted non-observed evidence')
+              if blocker.get('blocker_basis') not in {
+                  'EXPLICIT_SPECIFIC_QUALIFICATION_REQUIREMENT',
+                  'EXPLICIT_NO_SUBCONTRACT_OR_TRANSFER_RULE',
+              }:
+                  raise SystemExit('procurement blocker came from an unapproved semantic basis')
+              if blocker.get('blocker_type') not in {'CAPABILITY_GAP', 'COORDINATION_GAP'}:
+                  raise SystemExit('procurement blocker used an unapproved canonical type')
+              provenance = blocker.get('provenance') or {}
+              if not provenance.get('payload_sha256') or provenance.get('http_status') != 200:
+                  raise SystemExit('procurement blocker lacks auditable first-party provenance')
 
           if contracts.get('query_strategy') != 'EXACT_PROJECT_ID_SEARCH_THEN_EXACT_FIELD_REVALIDATION':
               raise SystemExit('contract source is not exact-project revalidated')
@@ -188,73 +218,143 @@ jobs:
               raise SystemExit('contract source queried no project IDs')
           for contract in contracts.get('contracts', []):
               if contract.get('project_id') not in requested_contract_projects:
-                  raise SystemExit('contract emitted unrequested project identity')
-              if contract.get('payer_actor') is not None or contract.get('settled_amount_rmb') is not None:
-                  raise SystemExit('contract announcement manufactured payment truth')
+                  raise SystemExit('contract artifact emitted unrequested project identity')
+              if contract.get('payer_actor') is not None:
+                  raise SystemExit('contract purchaser was incorrectly promoted to payer')
+              if contract.get('settled_amount_rmb') is not None:
+                  raise SystemExit('contract announcement manufactured settled amount')
               if contract.get('settlement_proven') is not False:
                   raise SystemExit('contract announcement manufactured settlement proof')
+              if not (contract.get('provenance') or {}).get('payload_sha256'):
+                  raise SystemExit('contract evidence lacks auditable response provenance')
 
           if lifecycle.get('join_policy') != 'EXACT_PROJECT_ID_ONLY':
               raise SystemExit('procurement lifecycle is not exact-project-id-only')
           if lifecycle.get('promotion_scope_policy') != 'PROJECT_LEVEL_NEED_REJECTS_PACKAGE_SCOPED_MULTI_PACKAGE_SETTLEMENT':
-              raise SystemExit('procurement lifecycle package-scope policy drifted')
+              raise SystemExit('procurement lifecycle package-scope promotion policy drifted')
           whole_project_labels = {'项目整体', '全部采购包', '所有采购包', '全项目', '整体项目'}
           seen_projects = set()
           for record in lifecycle['records']:
               project_id = record.get('project_id')
               if not project_id or project_id in seen_projects:
-                  raise SystemExit('lifecycle project identity missing or duplicated')
+                  raise SystemExit('lifecycle project identity is missing or duplicated')
               seen_projects.add(project_id)
               if record.get('exact_join_key') != project_id:
-                  raise SystemExit('lifecycle exact join key drifted')
+                  raise SystemExit('lifecycle exact join key drifted from project_id')
               tender_packages = record.get('tender_package_names') or []
               if len(tender_packages) > 1 and record.get('package_scope') != 'MULTI_PACKAGE_PROJECT':
-                  raise SystemExit('multi-package tender lost package scope')
+                  raise SystemExit('explicit multi-package tender lost package scope')
               if record.get('package_scope') == 'MULTI_PACKAGE_PROJECT' and record.get('promotion_allowed'):
                   settlement_packages = record.get('settlement_package_names') or []
-                  if not settlement_packages or any(p not in whole_project_labels for p in settlement_packages):
-                      raise SystemExit('multi-package project promoted without explicit whole-project scope')
+                  if not settlement_packages or any(
+                      package not in whole_project_labels for package in settlement_packages
+                  ):
+                      raise SystemExit('multi-package project promoted without explicit whole-project settlement scope')
+              for evidence in record.get('result_evidence', []):
+                  if evidence.get('project_id') != project_id:
+                      raise SystemExit('result evidence crossed exact project identity')
+              for evidence in record.get('contract_evidence', []):
+                  if evidence.get('project_id') != project_id:
+                      raise SystemExit('contract evidence crossed exact project identity')
+                  if evidence.get('settlement_proven'):
+                      raise SystemExit('contract announcement was treated as settlement')
               if record.get('promotion_allowed'):
                   if record.get('lifecycle_stage') != 'SETTLEMENT_PROVEN':
-                      raise SystemExit('PAID promotion before settlement proof')
+                      raise SystemExit('PAID promotion allowed before settlement proof')
                   if not record.get('payer_actor') or not record.get('settled_amount_rmb'):
-                      raise SystemExit('PAID promotion lacks payer or settled amount')
+                      raise SystemExit('PAID promotion allowed without payer/settled amount')
 
-          blocker_signals = {b['signal_id']: b for b in data['signals']['blockers']}
+          blocker_signals = {
+              blocker['signal_id']: blocker for blocker in data['signals']['blockers']
+          }
           for record in data['records']:
               blocker_signal_id = record.get('blocker_signal_id')
               if not blocker_signal_id:
                   continue
               blocker = blocker_signals.get(blocker_signal_id)
               if blocker is None:
-                  raise SystemExit('record references missing blocker')
+                  raise SystemExit('record references blocker absent from canonical signals')
               scoped_need = blocker.get('need_signal_id')
               if scoped_need is not None and scoped_need != record.get('need_signal_id'):
-                  raise SystemExit('transaction-scoped blocker crossed Need identity')
+                  raise SystemExit('transaction-scoped blocker crossed canonical need identity')
 
           route_records = data['route_testable_records']
           if data['route_testable_count'] != len(route_records):
-              raise SystemExit('route_testable_count mismatch')
+              raise SystemExit('route_testable_count does not match route_testable_records')
           for record in route_records:
-              if record['need_evidence_state'] not in ('PAID', 'REPEATED_PAID') or not record['payer']:
-                  raise SystemExit('ROUTE_TESTABLE lacks paid/payer truth')
+              if record['need_evidence_state'] not in ('PAID', 'REPEATED_PAID'):
+                  raise SystemExit('ROUTE_TESTABLE without paid need evidence')
+              if not record['payer']:
+                  raise SystemExit('ROUTE_TESTABLE without identified payer')
               if record['resource_state'] not in ('DISCOVERED', 'OPTIONED', 'OWNED'):
-                  raise SystemExit('ROUTE_TESTABLE lacks resource')
+                  raise SystemExit('ROUTE_TESTABLE without discovered resource')
               if record['underuse_evidence_state'] not in ('OBSERVED', 'MEASURED'):
-                  raise SystemExit('ROUTE_TESTABLE lacks observed underuse')
+                  raise SystemExit('ROUTE_TESTABLE without observed underuse')
               if record['blocker_evidence_state'] not in ('OBSERVED', 'MEASURED'):
-                  raise SystemExit('ROUTE_TESTABLE lacks observed blocker')
+                  raise SystemExit('ROUTE_TESTABLE without observed blocker')
 
           for resource in data['signals']['resources']:
               if resource['signal_id'].startswith('LIVE_PROVIDER::'):
-                  if resource['resource_state'] != 'DISCOVERED' or resource['underuse_evidence_state'] != 'UNKNOWN':
-                      raise SystemExit('historical provider evidence over-promoted')
+                  if resource['resource_state'] != 'DISCOVERED':
+                      raise SystemExit('historical award provider promoted beyond DISCOVERED')
+                  if resource['underuse_evidence_state'] != 'UNKNOWN':
+                      raise SystemExit('historical award provider manufactured underuse')
 
           pair_count = data['status_counts'].get('PAIR_HYPOTHESIS', 0)
           if queue['pair_hypothesis_count'] != pair_count or queue['queued_pair_count'] != pair_count:
-              raise SystemExit('validation queue pair count mismatch')
+              raise SystemExit('validation queue pair count does not match canonical ledger')
+          allowed_targets = {'PAYER_IDENTITY','PAID_NEED','RESOURCE_UNDERUSE','TRANSACTION_BLOCKER'}
+          record_index = {record['record_id']: record for record in data['records']}
+          resource_index = {
+              resource['signal_id']: resource for resource in data['signals']['resources']
+          }
+          expected_capacity_basis = {
+              'PROVIDER_STATED_SPARE_CAPACITY': 'CLAIMED',
+              'AUTHORIZED_CAPACITY_SCHEDULE': 'OBSERVED',
+              'VERIFIED_UNUSED_CAPACITY_RECORD': 'OBSERVED',
+              'MEASURED_UTILIZATION_RECORD': 'MEASURED',
+          }
+          for task in queue['tasks']:
+              if task['target_gate'] not in allowed_targets:
+                  raise SystemExit('validation queue contains non-canonical target')
+              if task['state_effect'] != 'NONE_UNTIL_NEW_EVIDENCE_IS_INGESTED':
+                  raise SystemExit('validation planning task attempted to mutate truth state')
+              if task['target_gate'] == 'RESOURCE_UNDERUSE':
+                  capture = task.get('evidence_capture') or {}
+                  if capture.get('ingestion_flag') != '--provider-capacity-json':
+                      raise SystemExit('RESOURCE_UNDERUSE task lacks canonical capacity ingestion path')
+                  if capture.get('promotion_policy') != 'EXACT_RESOURCE_SIGNAL_AND_IDENTITY_ONLY':
+                      raise SystemExit('RESOURCE_UNDERUSE task relaxed exact resource identity')
+                  if capture.get('accepted_basis_state') != expected_capacity_basis:
+                      raise SystemExit('RESOURCE_UNDERUSE evidence basis/state policy drifted')
+                  record = record_index.get(task['record_id'])
+                  if record is None:
+                      raise SystemExit('RESOURCE_UNDERUSE task references missing pair record')
+                  resource = resource_index.get(record.get('resource_signal_id'))
+                  if resource is None:
+                      raise SystemExit('RESOURCE_UNDERUSE task references missing resource signal')
+                  identity = capture.get('required_identity') or {}
+                  expected_identity = {
+                      'resource_signal_id': resource['signal_id'],
+                      'provider_actor': resource['provider_actor'],
+                      'capability_key': record['capability_key'],
+                      'geography': record['geography'],
+                  }
+                  if identity != expected_identity:
+                      raise SystemExit('RESOURCE_UNDERUSE capture contract crossed resource identity')
+                  required_fields = set(capture.get('required_fields') or [])
+                  if not {
+                      'evidence_id','resource_signal_id','provider_actor','capability_key',
+                      'geography','underuse_evidence_state','evidence_basis',
+                      'observation_period','source_refs'
+                  }.issubset(required_fields):
+                      raise SystemExit('RESOURCE_UNDERUSE capture contract lacks required evidence fields')
+                  if 'available_units' not in set(
+                      capture.get('observed_or_measured_additional_required_fields') or []
+                  ):
+                      raise SystemExit('RESOURCE_UNDERUSE OBSERVED/MEASURED contract lacks available_units')
           if pair_count and queue['task_count'] == 0:
-              raise SystemExit('PAIR_HYPOTHESIS exists without evidence tasks')
+              raise SystemExit('PAIR_HYPOTHESIS exists but validation queue has no evidence tasks')
 
           field_targets = {'RESOURCE_UNDERUSE', 'TRANSACTION_BLOCKER'}
           expected_field_tasks = [task for task in queue['tasks'] if task['target_gate'] in field_targets]
