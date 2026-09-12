@@ -30,7 +30,24 @@ def _split_sources(value: str | None) -> tuple[str, ...]:
     return tuple(part.strip() for part in value.split(";") if part.strip())
 
 
-def _load_blockers(path: str | None) -> list[BlockerSignal]:
+def _blocker_from_mapping(row: dict) -> BlockerSignal:
+    sources = row.get("source_ids") or ()
+    if isinstance(sources, str):
+        sources = _split_sources(sources)
+    else:
+        sources = tuple(str(value).strip() for value in sources if str(value).strip())
+    return BlockerSignal(
+        signal_id=str(row["signal_id"]).strip(),
+        capability_key=str(row["capability_key"]).strip(),
+        geography=str(row["geography"]).strip(),
+        blocker_type=str(row["blocker_type"]).strip(),
+        evidence_state=str(row["evidence_state"]).strip(),
+        description=str(row["description"]).strip(),
+        source_ids=sources,
+    )
+
+
+def _load_blockers_csv(path: str | None) -> list[BlockerSignal]:
     if not path:
         return []
     result: list[BlockerSignal] = []
@@ -38,17 +55,21 @@ def _load_blockers(path: str | None) -> list[BlockerSignal]:
         for row in csv.DictReader(handle):
             if not any((value or "").strip() for value in row.values()):
                 continue
-            result.append(
-                BlockerSignal(
-                    signal_id=row["signal_id"].strip(),
-                    capability_key=row["capability_key"].strip(),
-                    geography=row["geography"].strip(),
-                    blocker_type=row["blocker_type"].strip(),
-                    evidence_state=row["evidence_state"].strip(),
-                    description=row["description"].strip(),
-                    source_ids=_split_sources(row.get("source_ids")),
-                )
-            )
+            result.append(_blocker_from_mapping(row))
+    return result
+
+
+def _load_blockers_json(paths: list[str]) -> list[BlockerSignal]:
+    result: list[BlockerSignal] = []
+    seen: set[str] = set()
+    for path in paths:
+        payload = _read_json(path)
+        for row in payload.get("blockers", []) or []:
+            blocker = _blocker_from_mapping(row)
+            if blocker.signal_id in seen:
+                continue
+            seen.add(blocker.signal_id)
+            result.append(blocker)
     return result
 
 
@@ -58,24 +79,21 @@ def main() -> int:
     )
     parser.add_argument("--procurement-json")
     parser.add_argument(
-        "--resource-json",
-        action="append",
-        default=[],
+        "--resource-json", action="append", default=[],
         help="Resource-underuse JSON artifact; may be supplied multiple times",
     )
     parser.add_argument(
-        "--provider-json",
-        action="append",
-        default=[],
+        "--provider-json", action="append", default=[],
         help="Historical capability-provider award artifact; may be supplied multiple times",
     )
     parser.add_argument(
         "--lifecycle-json",
         help="Exact-project procurement lifecycle artifact; only canonical settlement promotion is applied",
     )
+    parser.add_argument("--blockers-csv", help="Optional evidence-reviewed canonical BlockerSignal CSV")
     parser.add_argument(
-        "--blockers-csv",
-        help="Optional evidence-reviewed canonical BlockerSignal CSV",
+        "--blocker-json", action="append", default=[],
+        help="Machine-readable blocker artifact; may be supplied multiple times",
     )
     parser.add_argument("--geography", default="Xuzhou")
     parser.add_argument("--max-pairs-per-need", type=int, default=5)
@@ -85,19 +103,16 @@ def main() -> int:
     procurement = _read_json(args.procurement_json)
     resources = [_read_json(path) for path in args.resource_json]
     providers = [_read_json(path) for path in args.provider_json]
-    blockers = _load_blockers(args.blockers_csv)
+    blockers = _load_blockers_csv(args.blockers_csv) + _load_blockers_json(args.blocker_json)
     ledger = build_live_imbalance_ledger(
-        procurement,
-        resources,
-        blockers,
+        procurement, resources, blockers,
         provider_payloads=providers,
         geography=args.geography,
         max_pairs_per_need=args.max_pairs_per_need,
     )
     if args.lifecycle_json:
         ledger = integrate_procurement_lifecycle(
-            ledger,
-            _read_json(args.lifecycle_json),
+            ledger, _read_json(args.lifecycle_json),
             max_pairs_per_need=args.max_pairs_per_need,
         )
 
@@ -108,18 +123,12 @@ def main() -> int:
         encoding="utf-8",
     )
     print(f"wrote {output}")
-    print(
-        json.dumps(
-            {
-                "status_counts": ledger["status_counts"],
-                "route_testable_count": ledger["route_testable_count"],
-                "unbound_evidence": ledger["signal_counts"]["unbound_evidence"],
-                "procurement_lifecycle": ledger.get("procurement_lifecycle"),
-            },
-            ensure_ascii=False,
-            sort_keys=True,
-        )
-    )
+    print(json.dumps({
+        "status_counts": ledger["status_counts"],
+        "route_testable_count": ledger["route_testable_count"],
+        "unbound_evidence": ledger["signal_counts"]["unbound_evidence"],
+        "procurement_lifecycle": ledger.get("procurement_lifecycle"),
+    }, ensure_ascii=False, sort_keys=True))
     return 0
 
 
