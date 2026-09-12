@@ -15,47 +15,80 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - name: Inspect Xuzhou contract announcement frontend
+      - name: Probe Xuzhou contract AJAX endpoint and exact project lookup
         run: |
           python - <<'PY'
+          import json
           import re
           import urllib.parse
           import urllib.request
 
-          base = "https://ggzy.zwb.xz.gov.cn/xznew/index.html"
-          headers = {"User-Agent": "Mozilla/5.0 (compatible; OpportunityRoutingEngine/0.1)"}
-          req = urllib.request.Request(base, headers=headers)
-          with urllib.request.urlopen(req, timeout=15) as r:
-              raw = r.read(1000000)
-              text = raw.decode(r.headers.get_content_charset() or "utf-8", errors="replace")
-              print("STATUS", r.status, "FINAL", r.geturl(), "BYTES", len(raw))
+          ROOT = "https://ggzy.zwb.xz.gov.cn/xznew/"
+          JS_URL = ROOT + "js/index.js"
+          HEADERS = {
+              "User-Agent": "Mozilla/5.0 (compatible; OpportunityRoutingEngine/0.1)",
+              "Accept": "application/json,text/javascript,*/*;q=0.8",
+              "Referer": ROOT + "index.html",
+          }
+          PROJECT_IDS = [
+              "JSZC-320300-XZTY-G2026-0001",
+              "JSZC-320300-XZTY-G2026-0002",
+              "JSZC-320300-WYKJ-G2026-0027",
+              "JSZC-320300-XZTY-G2026-0004",
+              "JSZC-320300-XZTY-G2026-0005",
+              "JSZC-320300-WYKJ-G2026-0034",
+          ]
 
-          scripts = re.findall(r'<script[^>]+src=["\']([^"\']+)', text, re.I)
-          print("SCRIPTS", scripts)
-          for line in text.splitlines():
+          def fetch_text(url, data=None):
+              req = urllib.request.Request(url, data=data, headers=HEADERS)
+              with urllib.request.urlopen(req, timeout=20) as r:
+                  raw = r.read(1500000)
+                  enc = r.headers.get_content_charset() or "utf-8"
+                  return r.status, r.geturl(), r.headers.get("content-type", ""), raw.decode(enc, errors="replace")
+
+          status, final, content_type, js = fetch_text(JS_URL)
+          print("INDEX_JS", status, final, content_type, "CHARS", len(js))
+          lines = js.splitlines()
+          for idx, line in enumerate(lines):
+              if "003004007" in line:
+                  print("\n=== CONTEXT AROUND 003004007 line", idx + 1, "===")
+                  for j in range(max(0, idx - 28), min(len(lines), idx + 45)):
+                      print(f"{j+1:04d}: {lines[j]}")
+
+          print("\n=== URL / PARAM CANDIDATES ===")
+          for idx, line in enumerate(lines):
               lower = line.lower()
-              if any(k in lower for k in ("合同公告", "政府采购", "contract", "003004", "ajax", "api", "getinfo")):
-                  print("HTML", line.strip()[:4000])
+              if any(k in lower for k in ("url:", "categorynum", "siteguid", "pagingsize", "pagenum", "query", "search", "infotitle")):
+                  print(f"{idx+1:04d}: {line}")
 
-          root = "https://ggzy.zwb.xz.gov.cn/xznew/"
-          for src in scripts:
-              url = urllib.parse.urljoin(root, src)
-              if not url.startswith("https://ggzy.zwb.xz.gov.cn/"):
+          urls = []
+          for m in re.finditer(r'url\s*:\s*["\']([^"\']+)', js, re.I):
+              value = urllib.parse.urljoin(ROOT, m.group(1))
+              if value.startswith("https://ggzy.zwb.xz.gov.cn/") and value not in urls:
+                  urls.append(value)
+          print("DISCOVERED_URLS", urls)
+
+          # Probe only public first-party endpoints discovered from the site's own JS.
+          # Do not bypass authentication/CAPTCHA or invent undocumented parameters.
+          for endpoint in urls:
+              if not any(token in endpoint.lower() for token in ("info", "search", "list", "query")):
                   continue
-              try:
-                  req = urllib.request.Request(url, headers=headers)
-                  with urllib.request.urlopen(req, timeout=10) as r:
-                      body = r.read(800000)
-                      js = body.decode(r.headers.get_content_charset() or "utf-8", errors="replace")
-                  hits = []
-                  for line in js.splitlines():
-                      lower = line.lower()
-                      if any(k in lower for k in ("合同公告", "003004", "government", "contract", "ajax", "api", "getinfo")):
-                          hits.append(line.strip())
-                  if hits:
-                      print("\nJS", url, "BYTES", len(body))
-                      for hit in hits[:160]:
-                          print(hit[:4000])
-              except Exception as exc:
-                  print("JS_ERROR", url, type(exc).__name__, repr(exc))
+              print("\n=== ENDPOINT", endpoint, "===")
+              probes = [
+                  {"categorynum": "003004007", "pageIndex": "1", "pageSize": "20"},
+                  {"categorynum": "003004007", "pageNum": "1", "pageSize": "20"},
+                  {"categorynum": "003004007", "currentPage": "1", "pageSize": "20"},
+              ]
+              for params in probes:
+                  try:
+                      url = endpoint + ("&" if "?" in endpoint else "?") + urllib.parse.urlencode(params)
+                      s, f, ct, body = fetch_text(url)
+                      print("GET", params, "STATUS", s, "CT", ct, "FINAL", f, "BODY", body[:3000].replace("\n", " "))
+                  except Exception as exc:
+                      print("GET", params, type(exc).__name__, repr(exc))
+
+          print("\n=== EXACT PROJECT IDS AS PASSIVE CHECK ===")
+          # If any first page payload exposes project IDs, report exact matches only.
+          for project_id in PROJECT_IDS:
+              print(project_id, "JS_OCCURRENCES", js.count(project_id))
           PY
