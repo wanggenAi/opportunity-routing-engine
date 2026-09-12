@@ -1,33 +1,75 @@
-# Architecture — Actor-First Resource Orchestration Engine
+# Architecture — Actor-First Latent-Value Orchestration Engine
+
+Constitutional parent: `docs/LATENT_VALUE_DOCTRINE.md`.
 
 ## 1. System objective
 
-Build a reusable engine that converts real-world needs into completed accepted transactions by:
+Build a reusable engine that discovers and activates unrealized value in the real world by:
 
-1. identifying actors, outcomes and payers;
-2. defining a bounded transaction objective;
-3. decomposing the objective into `CapabilityUnit`s;
-4. routing those units to suitable resources/providers;
-5. designing incentives, interfaces, trust, acceptance and replacement;
-6. executing and settling;
-7. learning from real performance.
+1. observing actors, endowments, constraints, state changes and behavior;
+2. detecting friction, underuse, misallocation, fragmentation and costly workarounds;
+3. forming evidence-linked `LatentValueHypothesis` records;
+4. finding complementary actors whose resources, deficits, access, trust or flows may combine into new value;
+5. proving canonical Need / Resource / Blocker / payer / payment evidence without semantic invention;
+6. defining a bounded transaction objective;
+7. decomposing the objective into `CapabilityUnit`s;
+8. routing those units to suitable resources/providers;
+9. designing incentives, interfaces, trust, acceptance and replacement;
+10. executing and settling;
+11. learning from real performance and improving future discovery/routing.
 
-Strategic kernel: `docs/RESOURCE_ORCHESTRATION_KERNEL.md`.
+The architecture is domain-agnostic, provider-agnostic and source-agnostic. The operator is not the default capability provider.
 
-The architecture is domain-agnostic and provider-agnostic. The operator is not the default capability provider.
+A source adapter is an observer, not the strategy. A data field is an observation, not the ontology. A current candidate is a sample, not the business identity.
 
-## 2. Canonical pipeline
+## 2. Constitutional dependency direction
 
 ```text
-SIGNALS / ACTORS / CHANGES
+WORLD MODEL / DOCTRINE
         ↓
-BEHAVIOR + FRICTION
+DISCOVERY MODEL
         ↓
-DESIRED OUTCOME
+EVIDENCE MODEL
         ↓
-BENEFICIARY / PAYER
+DECISION / VALIDATION MODEL
         ↓
-PAYMENT / WORKAROUND EVIDENCE
+ORCHESTRATION MODEL
+        ↓
+SOFTWARE MODULES
+        ↓
+IMPLEMENTATION DETAILS
+```
+
+Never reverse this direction.
+
+A website, API, source schema, procurement feed, current candidate or convenient implementation must never redefine the business architecture.
+
+## 3. Canonical pipeline
+
+```text
+REALITY / SIGNALS
+        ↓
+ACTOR
+        ↓
+ENDOWMENT / STATE / CONSTRAINTS
+        ↓
+CHANGE
+        ↓
+BEHAVIOR
+        ↓
+FRICTION / UNDERUSE / MISALLOCATION / WORKAROUND
+        ↓
+LATENT VALUE HYPOTHESIS
+        ↓
+COMPLEMENTARY ACTOR SEARCH
+        ↓
+EXCHANGE HYPOTHESIS
+        ↓
+NEED / RESOURCE / BLOCKER EVIDENCE PROJECTIONS
+        ↓
+BENEFICIARY / PAYER / PAYMENT EVIDENCE
+        ↓
+ROUTE-TESTABILITY GATES
         ↓
 TRANSACTION OBJECTIVE
         ↓
@@ -53,13 +95,19 @@ OUTCOME / MARGIN / RELIABILITY
         ↓
 LEARNING / REPUTATION UPDATE
         ↓
-BETTER FUTURE ROUTING
+BETTER FUTURE DISCOVERY + ROUTING + ALLOCATION
 ```
 
-## 3. Core entities
+This pipeline deliberately separates **broad discovery** from **conservative promotion**.
+
+The engine may hypothesize hidden value broadly. It must promote opportunities only through fail-closed evidence gates.
+
+## 4. Core entities
 
 ### `Actor`
-Person, household, group, organization, institution or resource-owning entity.
+Person, household, group, organization, institution, community, resource-owning entity, channel or other value-bearing node.
+
+An Actor is not permanently a buyer or supplier.
 
 ### `ActorRole`
 One or more of:
@@ -69,7 +117,69 @@ One or more of:
 - `SPONSOR`
 - `RESOURCE_OWNER`
 - `CAPABILITY_PROVIDER`
+- `DEMAND_SOURCE`
+- `TRUST_SOURCE`
+- `CHANNEL_OWNER`
 - `ORCHESTRATOR`
+
+Roles may coexist on the same actor and may change by transaction.
+
+### `ActorState`
+Observed condition of the actor at a point/period in time, including where relevant:
+- workload / utilization;
+- inventory / capacity;
+- hiring / layoffs;
+- pricing / repricing;
+- workflow;
+- access / distribution;
+- trust / reputation;
+- cash-flow / spending;
+- project cycle;
+- constraints;
+- recurring workarounds.
+
+### `ActorChange`
+Evidence-linked change between states. Change is often more informative than a static profile because it reveals newly created surplus, deficit, urgency or misallocation.
+
+### `Endowment`
+A thing an actor has or can potentially mobilize: capability, asset, time, relationship, trust, audience, access, data, location, installed base, recurring demand flow, inventory, process or other usable input.
+
+### `Friction`
+Observed recurring cost, delay, workaround, uncertainty, rejection, coordination burden, access gap or structural obstacle.
+
+Friction is not automatically paid demand.
+
+### `LatentValueHypothesis`
+A falsifiable claim that potentially realizable value exists in an actor, endowment, relationship, behavior pattern, state change or structural position but is not yet fully recognized, packaged, connected, trusted, priced or activated.
+
+Minimum conceptual fields:
+
+```text
+id
+actor_ids
+observation_refs
+value_mechanism
+why_value_is_currently_unrealized
+complementarity_requirements
+falsifiers
+maturity
+```
+
+`LatentValueHypothesis != Verified Resource`.
+
+### `ComplementarityHypothesis`
+A claim that two or more actors have states/endowments/deficits whose combination may create incremental value.
+
+`Complementarity != Transactionability`.
+
+### `NeedSignal`
+Evidence projection representing a bounded deficit/outcome need. It is not the full actor model.
+
+### `ResourceSignal`
+Evidence projection representing a bounded resource/capability. It is not the full actor model.
+
+### `BlockerSignal`
+Evidence projection representing why a specific exchange is not already occurring.
 
 ### `DesiredOutcome`
 The measurable result an actor wants under defined constraints.
@@ -105,6 +215,8 @@ failure_rule
 ### `Resource`
 A person, organization, AI/software system, asset, venue, equipment, dataset, distribution channel, audience, access right, inventory or other usable input.
 
+A resource may be valuable only in combination with another actor and may not be recognized by its owner as commercially useful.
+
 ### `CapabilityClaim`
 A resource's assertion that it can perform a capability unit.
 
@@ -130,31 +242,46 @@ Money/economic consideration flowing from payer/sponsor through the transaction 
 Observed result: refusal, commitment, accepted delivery, defect, replacement, dispute, repeat, referral, margin, failure, etc.
 
 ### `Learning`
-Evidence-linked conclusion that changes future scores, routes, trust rules, task templates or provider reliability.
+Evidence-linked conclusion that changes future discovery hypotheses, scores, routes, trust rules, task templates or provider reliability.
 
-## 4. Seven-graph learning architecture
+## 5. Learning graph architecture
 
-The long-run system evolves toward **seven linked graphs**.
+The long-run system evolves toward linked graphs. The previous seven graphs remain useful, but a latent-value layer sits upstream of them.
 
-### 4.1 Actor Graph
-Who exists, what roles they occupy, context, relationships, constraints and observable behavior.
+### 5.1 Actor / State Graph
+Who exists, what roles they occupy, what they have, constraints, relationships, state, changes and observable behavior.
 
 Answers:
-> Who needs, benefits, pays, owns resources, provides capability or sponsors?
+> What exists here, what changed, and what may be newly underused, costly or valuable?
 
-### 4.2 Demand Graph
+### 5.2 Latent Value / Complementarity Graph
+Evidence-linked hypotheses about unrealized value and which actor combinations could unlock it.
+
+Stores:
+- latent-value hypothesis;
+- observation refs;
+- possible value mechanism;
+- complementary actor requirements;
+- blocker hypotheses;
+- falsifiers;
+- validation status.
+
+Answers:
+> What value might exist that the actors have not yet recognized or connected?
+
+### 5.3 Demand Graph
 Desired outcomes, workarounds, frequency, urgency, substitutes and payment/time/risk evidence.
 
 Answers:
 > What outcome is valuable and how costly is the current workaround?
 
-### 4.3 Capability Graph
-Capability units, resource claims, proof, cost, geography, availability, reliability, acceptance rate and prior outcomes.
+### 5.4 Capability / Resource Graph
+Capability units, resource claims, proof, cost, geography, availability, underuse, reliability, acceptance rate and prior outcomes.
 
 Answers:
-> Who/what can perform each required function, at what expected total cost and reliability?
+> What resources exist, what is actually available/underused, and what can perform each required function?
 
-### 4.4 Orchestration / Task Graph
+### 5.5 Orchestration / Task Graph
 The decomposition of transaction objectives into capability units and their dependency edges.
 
 Stores:
@@ -170,13 +297,13 @@ Stores:
 Answers:
 > How should this outcome be decomposed and assembled?
 
-### 4.5 Trust Graph
+### 5.6 Trust Graph
 Verification, credentials, safety/compliance, access rules, prior reliability, disputes and trust dependencies.
 
 Answers:
 > What must be true for these resources/actors to transact safely?
 
-### 4.6 Transaction / Settlement Graph
+### 5.7 Transaction / Settlement Graph
 Real transaction attempts and economic flows.
 
 Stores:
@@ -196,20 +323,22 @@ Stores:
 Answers:
 > Which structures actually produced accepted output and viable settlement?
 
-### 4.7 Outcome / Learning Graph
+### 5.8 Outcome / Learning Graph
 Accepted/rejected outputs, failures, replacements, repeat, referrals and evidence-linked learning.
 
 Answers:
-> What did reality teach us, and how should future routing change?
+> What did reality teach us, and how should future discovery and routing change?
 
-## 5. Why the Orchestration / Task Graph is first-class
+## 6. Why the Orchestration / Task Graph is first-class
 
-A buyer/provider marketplace model is insufficient because many valuable outcomes require multiple capabilities.
+A buyer/provider marketplace model is insufficient because many valuable outcomes require multiple capabilities and because the useful resource may not initially be packaged as supply at all.
 
 Example:
 
 ```text
-payer need
+repeated costly workaround
+  ↓
+latent-value hypothesis
   ↓
 requirement definition
   ↓
@@ -225,18 +354,24 @@ accepted output
 Another:
 
 ```text
-youth event objective
+underused trusted community
+  +
+fragmented merchant capacity
+  +
+participant demand pattern
+  ↓
+new exchange design
   ├─ merchant BD
-  ├─ venue/coffee resource
+  ├─ venue/resource
   ├─ participant acquisition
   ├─ booking
   ├─ hosting
   └─ attendance/settlement
 ```
 
-The engine's long-run intelligence comes from learning **decomposition and composition**, not merely matching two names.
+The engine's long-run intelligence comes from learning **what value exists, which combinations matter, and how to decompose and compose execution**, not merely matching two names.
 
-## 6. Capability routing
+## 7. Capability routing
 
 Routing candidate score should eventually estimate:
 
@@ -261,11 +396,11 @@ Operationally consider:
 
 Lowest nominal quote is not necessarily the cheapest completed route.
 
-## 7. Demand acquisition architecture
+## 8. Discovery and demand acquisition architecture
 
-Demand access itself is a capability layer.
+Explicit demand acquisition is only one observation channel, not the starting ontology.
 
-Potential acquisition resources:
+Potential observation/acquisition resources include:
 - commissioned BD;
 - referrers/connectors;
 - associations/communities;
@@ -273,9 +408,29 @@ Potential acquisition resources:
 - procurement/RFQ sources;
 - online task channels;
 - adjacent service providers;
-- institutional partners.
+- institutional partners;
+- utilization/asset records;
+- hiring/project-cycle evidence;
+- complaints/workarounds;
+- repricing/relisting history;
+- public operational data;
+- field agents.
 
-The engine should record:
+The engine should distinguish:
+
+```text
+OBSERVATION SOURCE
+vs
+ACTOR STATE
+vs
+LATENT VALUE HYPOTHESIS
+vs
+EXPLICIT DEMAND
+vs
+PAID NEED
+```
+
+For explicit demand sources, record:
 
 ```text
 source
@@ -288,13 +443,17 @@ CAC / source payout
 repeat quality
 ```
 
-This removes the architectural assumption that the operator must personally sell.
+This removes the architectural assumption that the operator must personally sell and also prevents explicit lead sources from defining the whole discovery system.
 
-## 8. Orchestrator kernel vs routable execution
+## 9. Orchestrator kernel vs routable execution
 
 ### Initial kernel
 Prefer to keep under orchestrator control:
+- world-model / doctrine integrity;
+- structural observation and judgment;
+- latent-value hypothesis formation;
 - opportunity selection;
+- complementary-actor / exchange design;
 - transaction design;
 - capability decomposition;
 - interface/acceptance definition;
@@ -307,6 +466,7 @@ Prefer to keep under orchestrator control:
 ### Routable by default
 - lead sourcing;
 - outreach / sales;
+- field validation;
 - recruitment;
 - research;
 - coding;
@@ -320,7 +480,7 @@ Prefer to keep under orchestrator control:
 
 A routable function temporarily performed by the operator remains a capability slot, not part of the operator's permanent identity.
 
-## 9. Economic architecture
+## 10. Economic architecture
 
 A transaction record should eventually support:
 
@@ -341,13 +501,27 @@ cash_contribution_margin
 
 Positive cash margin with unpaid founder execution is not enough for repeatability.
 
-## 10. Lifecycle
+Latent value is not monetizable by definition; economics must be proven through real commitments, accepted outcomes and settlement.
+
+## 11. Lifecycle
+
+Discovery lifecycle:
 
 ```text
-SIGNAL
-→ ACTOR / OUTCOME HYPOTHESIS
-→ PAYER HYPOTHESIS
-→ EVIDENCED
+OBSERVATION
+→ ACTOR_STATE
+→ CHANGE / FRICTION / UNDERUSE
+→ LATENT_VALUE_HYPOTHESIS
+→ COMPLEMENTARITY_HYPOTHESIS
+→ EXCHANGE_HYPOTHESIS
+→ EVIDENCE PROJECTION
+→ ROUTE_TESTABLE
+```
+
+Transaction lifecycle:
+
+```text
+ROUTE_TESTABLE
 → TRANSACTION_OBJECTIVE
 → CAPABILITY_DECOMPOSED
 → ROUTE_DESIGNED
@@ -363,32 +537,34 @@ SIGNAL
 Evidence maturity:
 
 ```text
-L0 narrative
-L1 behavior/workaround
+L0 narrative / latent-value hypothesis
+L1 behavior/workaround/state-change observation
 L2 exact terms accepted verbally
 L3 commitment/deposit/signed task
 L4 accepted transaction + settlement
 L5 repeat/referral
 L6 delegated repeat / provider replacement / alternate route succeeds
+L7 recurring Demand Pump produces multiple transactions and routing improves
 ```
 
-## 11. Operator-independence maturity
+## 12. Operator-independence maturity
 
 ```text
 O0 operator does acquisition + delivery
 O1 delivery delegated
 O2 acquisition + delivery delegated
 O3 repeatable transaction template with replaceable providers
-O4 recurring routing bottlenecks partly automated
+O4 recurring discovery/routing bottlenecks partly automated
 O5 network orchestration engine
 ```
 
 The first system-level milestone is O2.
 
-## 12. Human-in-the-loop boundaries
+## 13. Human-in-the-loop boundaries
 
 Human judgment remains mandatory where needed for:
 - strategic opportunity promotion;
+- latent-value hypotheses with material ambiguity;
 - ambiguous acceptance;
 - high-trust/safety-sensitive work;
 - legal/regulatory interpretation;
@@ -399,10 +575,13 @@ Human judgment remains mandatory where needed for:
 
 Automation must not erase responsibility boundaries.
 
-## 13. Automation maturity path
+## 14. Automation maturity path
 
 ```text
-real manual transaction
+broad observation
+→ repeated useful actor/state signals
+→ stable evidence projection
+→ real manual validation/transaction
 → stable transaction objective
 → stable capability decomposition
 → repeated provider routing
@@ -410,19 +589,39 @@ real manual transaction
 → normalized economics
 → recurring bottleneck
 → small automation
-→ task/routing graph
+→ discovery/task/routing graphs
 → broader orchestration software
 ```
 
 Do not reverse this sequence.
 
-## 14. Future modules
+## 15. Architectural veto for new features
+
+Before building a material feature, answer:
+
+1. What latent value, actor state, behavior, friction, resource or exchange structure does it help observe, validate or activate?
+2. Does it help discover value that may not already be explicitly stated?
+3. Does it preserve the distinction between hypothesis and evidence?
+4. Does it improve connection of complementary actors without making the operator permanent labor?
+5. Is it reusable capability rather than overfitting to one website, source or candidate?
+6. Does it preserve fail-closed canonical promotion?
+
+If the first four answers are weak, it is not a core-priority architecture feature.
+
+## 16. Future modules
 
 Potential modules only after evidence justifies them:
 
 - `signals`
 - `actors`
+- `actor_state`
+- `actor_change`
+- `endowments`
+- `latent_value_hypotheses`
+- `complementarity_graph`
+- `exchange_hypotheses`
 - `demand_graph`
+- `resource_graph`
 - `transaction_objectives`
 - `capability_units`
 - `capability_graph`
@@ -437,12 +636,15 @@ Potential modules only after evidence justifies them:
 - `outcomes`
 - `learning`
 
-## 15. Engineering success definition
+## 17. Engineering success definition
 
 The architecture succeeds only if it increases the rate at which the engine can produce:
 
 ```text
-real payer
+useful real-world observation
++ evidenced latent-value hypothesis
++ complementary actor structure
++ real payer
 + bounded objective
 + correct capability decomposition
 + delegated resource route
@@ -453,4 +655,4 @@ real payer
 + repeatable learning
 ```
 
-**The engine is not a database of people. It is a system for composing capabilities into accepted economic outcomes.**
+**The engine is not a database of buyers and suppliers. It is a system for seeing unrealized value, proving what is real, composing complementary actors/capabilities, and turning that structure into accepted economic outcomes.**
