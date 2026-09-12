@@ -1,0 +1,68 @@
+{
+  "cycle": "DISCOVERY_CYCLE_002",
+  "date": "2026-09-12",
+  "operator_profile_storage": "RUNTIME_PRIVATE_NOT_COMMITTED",
+  "principle": "VALUE_TRUTH != CURRENT_OPERATOR_ACCESS_FEASIBILITY",
+  "assessments": [
+    {
+      "candidate_id": "LV-XZ-001A",
+      "access_state": "ACCESS_BLOCKED",
+      "target_actor_class": "employer-authorized senior technicians / master-studio system",
+      "reason": "The value thesis may be real, but there is not yet a verified legitimate route to request a residual-knowledge experiment from a specific technician without employer authorization, confidentiality risk or status-blind cold outreach.",
+      "preferred_entry": "enterprise/training-system authorization, recognized expert program or warm institutional referral",
+      "counterparty_reason_to_engage_required": "a bounded non-confidential task, measurable SOP baseline and explicit internal learning/value objective",
+      "operator_fit_note": "Relevant technical and enterprise experience can improve credibility, but it does not override employer rights or create access to a named expert.",
+      "next_unlock": "obtain an institutional/employer route for one non-confidential bounded task before approaching an individual expert",
+      "evidence": [
+        {
+          "source_id": "https://www.xcmg.com/aboutus/news-detail-1128296.htm",
+          "claim": "Public XCMG evidence shows sophisticated frontline expertise and institutional skill-development context; it does not establish that individual expertise is independently callable by an outsider."
+        }
+      ]
+    },
+    {
+      "candidate_id": "LV-XZ-003A",
+      "access_state": "INTRODUCTION_READY",
+      "target_actor_class": "CUMT technology-transfer / concept-validation ecosystem",
+      "reason": "A formal public technology-transfer window exists, but the operator still needs a counterpart-facing value packet and should not cold-contact individual professors as if research capability were personally available supply.",
+      "preferred_entry": "China University of Mining and Technology National Technology Transfer Center",
+      "counterparty_reason_to_engage_required": "one evidence-backed industrial problem or capability-combination brief that fits the center's published technology-transfer and enterprise-problem mandate",
+      "operator_fit_note": "Substantive enterprise/technical experience can support a credible conversation about implementation constraints, while formal institutional access supplies the missing role legitimacy.",
+      "next_unlock": "prepare a one-page bounded problem/capability packet and ask the center to verify fit / route it to the correct internal owner",
+      "evidence": [
+        {
+          "source_id": "https://nttc.cumt.edu.cn/zxjj.htm",
+          "claim": "CUMT Technology Transfer Center publicly defines itself as the bridge between university technology resources and industry and as the university-enterprise cooperation window."
+        },
+        {
+          "source_id": "https://nttc.cumt.edu.cn/lxwm.htm",
+          "claim": "The center publishes formal contact channels, so institutional introduction is available without inventing personal access to professors."
+        },
+        {
+          "source_id": "https://nttc.cumt.edu.cn/jgsz.htm",
+          "claim": "The center explicitly performs technology diagnosis, project packaging, technical intermediary work, industry-university coordination and analysis of enterprise technology needs."
+        }
+      ]
+    },
+    {
+      "candidate_id": "LV-XZ-004",
+      "access_state": "INTRODUCTION_READY",
+      "target_actor_class": "Xuzhou SMEs with fragmented technical problems",
+      "reason": "The operator can credibly understand and structure enterprise technology problems, but there is not yet authorized access to a 10-20-company problem cohort. The route must start from a useful problem-normalization packet or an institutional/association partner rather than generic SME cold calling.",
+      "preferred_entry": "technology-transfer center, technology-manager ecosystem, industry association / park / trusted enterprise referral, or tightly bounded direct outreach with a strong value packet",
+      "counterparty_reason_to_engage_required": "show that the firm can describe one problem confidentially and receive a useful normalized problem brief / cohort benchmark without committing to a sale",
+      "operator_fit_note": "Multi-year enterprise technology experience is directly relevant to problem translation and reduces the 'unqualified broker' risk, but no cohort rights or enterprise trust should be assumed.",
+      "next_unlock": "obtain three authorized problem summaries in one narrow domain; only then test whether a cohort pattern exists",
+      "evidence": [
+        {
+          "source_id": "https://nttc.cumt.edu.cn/info/1046/2264.htm",
+          "claim": "A 2026 Xuzhou university-enterprise program shows institutional demand for structured expert-enterprise problem connection rather than purely informal personal networking."
+        },
+        {
+          "source_id": "https://kxjst.jiangsu.gov.cn/art/2026/9/4/art_82539_11825409.html",
+          "claim": "Jiangsu is training technology managers in demand mining, technology value assessment and transfer practice, confirming a recognized professional route for this type of translation work."
+        }
+      ]
+    }
+  ]
+}

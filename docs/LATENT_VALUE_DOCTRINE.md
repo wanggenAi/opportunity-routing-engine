@@ -222,7 +222,77 @@ Before adding or materially expanding any feature, ask:
 
 If the answer to questions 1-4 is weak, the feature is not a core-priority feature even if it is technically useful.
 
-## 10. Orchestrator identity
+## 10. Executable value requires operator-access truth
+
+The operator is also an `Actor` with real endowments, deficits, history, credibility, relationships, constraints and access rights.
+
+The engine must therefore evaluate two different truths:
+
+```text
+VALUE / EXCHANGE TRUTH
+!=
+CURRENT OPERATOR ACCESS / EXECUTION FEASIBILITY
+```
+
+A latent-value hypothesis may be true while the current operator still lacks a legitimate route to the relevant actor.
+Likewise, an operator with substantial real-world experience, technical judgment, accumulated professional history, mature communication ability or cross-context experience must not be modeled as an empty cold caller merely because the operator lacks elite institutional status.
+
+Relevant `OperatorEndowment` may include, where evidenced and appropriate:
+- years of real professional work;
+- accepted project/delivery history;
+- domain and technical literacy;
+- systems-analysis and coordination ability;
+- prior employers/clients/projects that legitimately signal competence;
+- education and training;
+- cross-region or international experience;
+- communication and trust-building ability;
+- local knowledge;
+- existing relationships and warm paths;
+- reputation / references;
+- assets, capital, data, distribution or other resources the operator can credibly mobilize.
+
+These are **inputs to feasibility**, not entitlement to counterpart attention.
+
+Personal appearance, confidence or self-description may reduce first-contact friction but must not substitute for an actor-facing reason to engage.
+
+For each material counterpart, ask:
+
+```text
+WHY SHOULD THIS ACTOR SPEND TIME / TRUST / REPUTATION HERE?
+WHAT DOES THE OPERATOR BRING BEFORE ASKING FOR ACCESS?
+WHAT LEGITIMATE ROUTE CONNECTS THEM?
+WHAT IS THE SMALLEST REVERSIBLE ASK?
+WHAT CREDIBILITY IS ALREADY REAL?
+WHAT CREDIBILITY IS STILL MISSING?
+```
+
+Preferred entry paths are:
+
+```text
+PUBLIC / INSTITUTIONAL WINDOW
+-> AUTHORIZED PROGRAM / EVENT
+-> WARM REFERRAL
+-> RECOGNIZED PROFESSIONAL ROLE
+-> DIRECT COLD OUTREACH ONLY WITH A STRONG VALUE PACKET
+```
+
+A counterpart's status, local face/reputation concerns, institutional boundaries and expected reciprocity are part of the exchange architecture when evidence shows they matter.
+They must be tested rather than stereotyped.
+
+The system must never silently assume:
+
+```text
+PUBLIC ACTOR = ACCESSIBLE ACTOR
+VALUABLE ACTOR = CALLABLE RESOURCE
+OPERATOR SKILL = COUNTERPART TRUST
+MONEY = ONLY FORM OF RECIPROCITY
+DISCOVERED VALUE = EXECUTABLE VALUE
+```
+
+An opportunity may therefore be commercially attractive but temporarily `ACCESS_BLOCKED`.
+That is a route constraint, not evidence that the underlying latent value is false.
+
+## 11. Orchestrator identity
 
 The orchestrator is primarily responsible for:
 
@@ -241,8 +311,8 @@ The operator is not defined by personally selling, sourcing or delivering every 
 
 The durable advantage is the ability to see and organize value that remains invisible or unusable in its current form.
 
-## 11. Governing sentence
+## 12. Governing sentence
 
-> **先观其所自：不把世界预设成“需求方与供给方”，而是观察每个 Actor 已有什么、缺什么、正在发生什么、哪些价值被闲置、遮蔽、错配或尚未成形；再以证据证明潜在价值，以结构找到互补关系，以规则、信任、激励和可验收能力让原本彼此无关的价值发生连接，使价值流动、交换、沉淀并形成可持续循环。**
+> **先观其所自：不把世界预设成“需求方与供给方”，而是观察每个 Actor 已有什么、缺什么、正在发生什么、哪些价值被闲置、遮蔽、错配或尚未成形；再以证据证明潜在价值，以结构找到互补关系，同时诚实评估操盘者自身已有的能力、信用、入口与缺口；只有在价值真实、关系可达、交换有诚意、规则可接受时，才以信任、激励和可验收能力让原本彼此无关的价值发生连接，使价值流动、交换、沉淀并形成可持续循环。**
 
 This doctrine is upstream of all implementation choices.
