@@ -6,34 +6,21 @@ Status: `CANONICAL EXECUTION FEASIBILITY / FAIL-CLOSED`
 
 A true latent-value hypothesis does **not** imply that the current operator can approach, persuade, mobilize or contract with the relevant actor.
 
-The system must keep two axes separate:
+The system must keep three axes separate:
 
 ```text
 VALUE / EXCHANGE TRUTH
 !=
 CURRENT OPERATOR ACCESS FEASIBILITY
+!=
+COUNTERPARTY VISIBLE SURPLUS
 ```
 
 A professor, master technician, enterprise owner, government officer, investor or channel owner can be a real complementary actor while remaining inaccessible to the current operator.
 
+A reachable actor can still rationally refuse if the exchange does not create a concrete upside that the actor can understand and believe.
+
 `ACCESS_BLOCKED` does not make the opportunity false. It means the current route is not executable yet.
-
-## Never assume access from personal traits
-
-The following may reduce first-contact friction, but are not commercial credentials by themselves:
-- good appearance;
-- age;
-- friendliness;
-- articulate communication;
-- confidence;
-- a general degree;
-- broad technical interest without delivery evidence.
-
-They cannot substitute for a counterpart-facing reason to engage.
-
-The engine must answer:
-
-> Why should this actor spend scarce time, reputation or institutional attention on this interaction?
 
 ## Operator endowments that can count
 
@@ -64,89 +51,170 @@ OPERATOR ENDOWMENT != COUNTERPARTY CONSENT
 
 The system should neither erase real accumulated experience nor exaggerate it into status the operator has not earned.
 
-## Counterparty reason to engage
+## Backing / legitimacy leverage — first-class
 
-A credible reason usually comes from one or more of:
-- a formally relevant institutional window;
-- a verified problem or problem cohort;
-- an already-qualified complementary actor;
-- a bounded pilot with measurable outcome;
-- rights-cleared demand/resource evidence;
-- a funded or officially recognized program;
-- a credible warm introduction;
-- a professional role recognized by the ecosystem;
-- an unusually useful analysis/data packet;
-- transparent compensation;
-- a route to research, project, commercialization, recognition, training or impact that the actor actually values.
+For high-trust, high-status or institutionally controlled actors, do **not** assume personal credibility is the best route.
 
-Money is one form of reciprocity, not the only one.
+Prefer borrowed, lawful legitimacy where available:
+- recognized institution;
+- employer or organizational authorization;
+- government / park / association program;
+- technology-transfer center;
+- recognized professional role;
+- trusted sponsor or warm introducer;
+- downstream customer or payer commitment;
+- partner whose reputation is already accepted by the target actor.
+
+The engine must record **who or what gives the operator the right context to be in the conversation**.
+
+This is not pretending to have a background. It is using a real route whose incentives and authority are explicit.
+
+```text
+BORROWED LEGITIMACY != FAKE STATUS
+PUBLIC WINDOW != STRONG BACKING BY DEFAULT
+WARM REFERRAL != RESOURCE CONTROL
+```
+
+A public contact form is weaker than a respected introducer, an authorized program, an employer mandate or an already-committed counterpart.
+
+## Counterparty visible surplus — hard gate
+
+Do not approach an actor merely to explain that the actor has a problem, an underused resource or a hidden opportunity.
+
+Diagnosis, analysis and persuasion are not the value proposition.
+
+Before meaningful engagement, answer from the counterpart's perspective:
+
+> **What do I concretely gain if I participate, and why should I believe that gain is real?**
+
+Acceptable surplus can include, where evidenced:
+- additional revenue or higher realized price;
+- lower cost;
+- reduced downtime / scrap / failure loss;
+- higher utilization of an existing asset or capability;
+- a customer, order, project or funded route that did not previously exist;
+- reduced transaction/search/coordination cost;
+- lower legal, technical or delivery risk;
+- access to a scarce capability, channel, market or relationship;
+- organizational recognition, legitimate project output or policy benefit when the actor actually values it.
+
+The surplus must be stated in the actor's own economic or organizational terms, not in the operator's abstract language.
+
+Prefer measurable structures:
+
+```text
+current outcome / baseline
+→ proposed exchange
+→ visible incremental gain
+→ who bears cost/risk
+→ when gain becomes observable
+→ what kills the claim
+```
+
+Hard boundaries:
+
+```text
+PROBLEM EXPLANATION != COUNTERPARTY BENEFIT
+ANALYSIS QUALITY != COUNTERPARTY SURPLUS
+PPT / REPORT != HOOK BY DEFAULT
+ACTOR HAS HIDDEN VALUE != ACTOR SHOULD WORK WITH US
+POTENTIAL UPSIDE != BELIEVABLE UPSIDE
+BENEFIT CLAIM != REALIZED BENEFIT
+```
+
+## Supporting material is subordinate
+
+A document, analysis, model, one-page brief or presentation may help the operator think, prepare, remember evidence or support an already legitimate conversation.
+
+It is **not** a default access credential and must never be treated as sufficient reason for a counterpart to engage.
+
+Do not build the route around:
+- `I discovered your problem`;
+- `I made a PPT for you`;
+- `I have an analysis you should hear`;
+- `let me educate you about the opportunity`.
+
+The preferred route is:
+
+```text
+REAL BACKING / LEGITIMATE ENTRY
++
+CONCRETE COUNTERPART SURPLUS
++
+LOW-RISK FIRST STEP
++
+CLEAR ECONOMICS / OWNERSHIP / BOUNDARIES
+```
+
+Supporting artifacts come after or beneath this structure.
 
 ## Preferred access hierarchy
 
-Prefer:
+Prefer the strongest truthful route available, not a ritualized sequence:
 
 ```text
+AUTHORIZED / REPUTABLE BACKING
+or
+WARM TRUSTED INTRODUCTION
+or
+ALREADY-COMMITTED COMPLEMENTARY ACTOR
+or
+RECOGNIZED PROFESSIONAL / INSTITUTIONAL ROLE
+or
 PUBLIC INSTITUTIONAL WINDOW
-→ AUTHORIZED PROGRAM / EVENT
-→ WARM REFERRAL
-→ RECOGNIZED PROFESSIONAL ROLE
-→ DIRECT COLD OUTREACH ONLY WITH A STRONG VALUE PACKET
+or
+DIRECT OUTREACH ONLY WHEN COUNTERPARTY SURPLUS IS IMMEDIATELY LEGIBLE
 ```
 
 Do not begin with status-blind cold outreach to senior actors merely because their resource appears valuable.
 
-## First-value packet
+## Oral trust, background and local context
 
-Before requesting meaningful actor time, produce a small artifact that proves the interaction is worth considering.
+In some local markets, counterpart judgment may depend more on:
+- who introduced you;
+- who stands behind the interaction;
+- your real work history and background;
+- whether you speak in commercially concrete terms;
+- whether the other party can immediately understand what they gain;
+- whether the route protects face, role boundaries and organizational risk.
 
-Examples:
-- one-page problem brief with evidence and explicit unknowns;
-- three independently observed similar problems showing a cohort pattern;
-- a lawful capability map showing a non-obvious combination;
-- a bounded validation design with acceptance and confidentiality rules;
-- a short market/economic analysis that the actor does not already have;
-- an authorized downstream commitment that makes the conversation concrete.
+For Cycle 002 in Xuzhou, treat this as an **operator-supplied field prior to validate in reality**, not as a universal stereotype.
 
-The first ask should be cheap for the counterpart, e.g.:
-- verify one factual assumption;
-- route the packet to the correct person;
-- say whether the problem belongs in an existing institutional channel;
-- approve or reject a narrowly scoped next step.
+Therefore, written artifacts must not receive artificial scoring privilege over oral credibility, trusted introduction, backing or concrete economics.
 
-Avoid vague asks such as `合作一下`, `给我个机会`, `帮我介绍资源`.
+`LOCAL FIELD PRIOR != UNIVERSAL FACT`.
 
-## Status, face and local trust
+## Counterparty reason to engage
 
-Status sensitivity, face concerns and relationship-based trust may matter in a local market, but they must be treated as **testable context**, not stereotypes.
+A credible reason usually comes from one or more of:
+- concrete expected economic surplus;
+- an already-qualified customer/order/project/opportunity;
+- reduced cost or risk with a credible mechanism;
+- a formally relevant institutional mandate;
+- a trusted introducer or sponsor;
+- an already-qualified complementary actor;
+- transparent compensation or revenue share;
+- access to something the actor values but cannot efficiently obtain alone.
 
-Record:
-- whether the actor expects an institutional introduction;
-- whether the interaction risks making the actor look like they are doing informal side work;
-- whether compensation must flow through an institution/company rather than personally;
-- whether public recognition, project legitimacy or organizational benefit matters more than a small cash payment;
-- whether the operator's role is clear enough to avoid looking like an unqualified broker.
-
-`LOCAL CULTURAL HYPOTHESIS != UNIVERSAL FACT`.
+Money is not the only possible benefit, but vague recognition, learning or `future opportunity` must not be used to hide weak economics.
 
 ## Operator legitimacy strategy
 
 The operator should not pretend to possess status that has not been earned.
 
-When current credentials are thin, borrow legitimacy from process rather than from self-presentation:
-- use public technology-transfer / university-industry windows;
-- participate in recognized technology-manager training or professional networks where appropriate;
-- enter through enterprise problems rather than asking experts for abstract resources;
-- bring evidence, not adjectives about yourself;
+Prefer:
+- borrow legitimate backing rather than manufacture prestige;
+- use real professional history precisely where it is relevant;
+- enter with a concrete benefit structure rather than a lecture about the actor's problems;
 - make confidentiality, attribution, compensation and ownership explicit;
-- start with small reversible requests;
-- accumulate accepted outcomes and references into a real track record.
+- keep the first counterparty commitment small and reversible;
+- accumulate accepted outcomes and trusted introductions into a real track record.
 
-When the operator already has substantial relevant professional history, use it precisely rather than vaguely: explain what kinds of systems, stakeholders, delivery environments or technical constraints the operator has actually handled, and why that experience reduces the counterpart's interpretation or coordination cost.
+The preferred identity is not `mysterious broker` and not `consultant who explains your problems to you`.
 
-The preferred identity is not `mysterious broker`.
 It is closer to:
 
-> evidence-driven problem/asset translator and orchestrator working through authorized channels.
+> a credible orchestrator who can bring together resources and relationships so each participating actor can see and realize a concrete gain.
 
 ## Access states
 
@@ -162,41 +230,51 @@ A candidate may be discovery-valid and still remain `ACCESS_BLOCKED`.
 
 ## Required access record
 
-For any real-world validation involving a high-status / high-trust actor, record:
+For any real-world validation involving a high-trust / high-status actor, record:
 - target actor;
 - legitimate entry path;
-- counterparty reason to engage;
-- first-value packet;
-- institutional cover / warm referral if any;
+- backing / sponsor / institutional cover / warm referral;
+- strength and evidence of that backing;
+- operator credibility assets relevant to this actor;
 - status/trust friction;
-- current operator credibility assets;
-- missing credibility;
-- operator's own commitment / skin in the game;
-- exact counterpart commitment requested;
+- counterparty visible surplus;
+- mechanism by which surplus is realized;
+- baseline against which surplus is judged where possible;
+- downside / risk to the counterpart;
+- exact first commitment requested;
+- missing credibility or missing backing;
 - founder-identity dependency;
-- cultural context notes;
+- cultural/local context notes;
 - access evidence.
+
+Supporting documents are optional aids, not hard-gate credentials.
 
 ## Current Xuzhou implication — 2026-09-12
 
-For CUMT professors / researchers, do not default to cold contact.
+For CUMT professors / researchers, do not default to cold contact and do not assume a problem brief alone earns attention.
 
-The university's National Technology Transfer Center publicly defines itself as the bridge between university technology resources and industry, manages industry-university cooperation and external technical problems, and publishes a formal contact route. That is a legitimate first-level access path.
+A technology-transfer center can provide role legitimacy, but it is only an entry mechanism. A stronger route would combine that institutional legitimacy with a real enterprise-side opportunity, funded pilot, commercialization path or other concrete benefit to the academic / institution.
 
-For technology commercialization more broadly, Jiangsu policy in 2026 explicitly expands professional technology managers, market-oriented technology-transfer institutions, concept-validation centers and technology-manager firms. This provides a legitimate ecosystem role that the operator may enter over time; it is not a credential that should be claimed before training/track record exists.
+For XCMG / master technicians, prefer enterprise/training-system authorization, authorized expert programs, employer permission or trusted institutional introduction. The counterpart benefit must be organizationally legitimate; do not frame the interaction as extracting an individual's hidden know-how for the operator's benefit.
 
-For XCMG / master technicians, prefer institutional routes such as the enterprise/training system, authorized expert programs, employer permission or warm introductions. Do not treat a named senior technician as an independently callable resource.
+For SMEs, do not lead with `I analyzed your problem`. Lead only when the route can plausibly improve revenue, cost, utilization, risk or access to a valued resource, and state that mechanism in business terms.
 
 ## Core invariants
 
 ```text
 VALUE_TRUTH != OPERATOR_ACCESS
+OPERATOR_ACCESS != COUNTERPARTY_VISIBLE_SURPLUS
 OPERATOR_ENDOWMENT != COUNTERPARTY_CONSENT
 PUBLIC_ACTOR != ACCESSIBLE_ACTOR
+PUBLIC_WINDOW != STRONG_BACKING_BY_DEFAULT
 PERSONAL_CONFIDENCE != COUNTERPARTY_REASON_TO_ENGAGE
 APPEARANCE != CREDENTIAL
 REAL_WORK_HISTORY_IS_CREDIBILITY_EVIDENCE_WHEN_RELEVANT
-MONEY != ONLY_FORM_OF_RECIPROCITY
-COLD_OUTREACH != DEFAULT_ROUTE
+ANALYSIS != SURPLUS
+PPT != HOOK
+PROBLEM_EXPLANATION != BENEFIT
+BACKING_MUST_BE_REAL
+COUNTERPARTY_SURPLUS_MUST_BE_LEGIBLE
+LOCAL_FIELD_PRIOR != UNIVERSAL_FACT
 ACCESS_BLOCKED != BAD_OPPORTUNITY
 ```

@@ -11,34 +11,37 @@ ACCESS_DATA = ROOT / "data" / "cycle002_access_feasibility_2026-09-12.json"
 
 
 class AccessArchitectureLockTests(unittest.TestCase):
-    def test_doctrine_separates_value_truth_from_operator_access(self):
+    def test_doctrine_separates_value_truth_access_and_visible_surplus(self):
         text = DOCTRINE.read_text(encoding="utf-8")
-        self.assertIn("Executable value requires operator-access truth", text)
-        self.assertIn("VALUE / EXCHANGE TRUTH", text)
+        self.assertIn("Executable value requires operator-access truth and counterpart-visible surplus", text)
+        self.assertIn("COUNTERPARTY VISIBLE SURPLUS", text)
         self.assertIn("OperatorEndowment", text)
         self.assertIn("PUBLIC ACTOR = ACCESSIBLE ACTOR", text)
+        self.assertIn("ANALYSIS != SURPLUS", text)
+        self.assertIn("constitutional section overrides it", text)
 
-    def test_formal_truth_requires_access_feasibility(self):
+    def test_formal_truth_keeps_access_gate_canonical(self):
         text = FORMAL.read_text(encoding="utf-8")
         self.assertIn("docs/ACCESS_FEASIBILITY_GATE.md", text)
         self.assertIn("Operator access feasibility — LOCKED", text)
         self.assertIn("ACCESS_BLOCKED", text)
-        self.assertIn("operator access feasibility", text.lower())
 
-    def test_access_doc_protects_real_work_history_without_turning_it_into_entitlement(self):
+    def test_access_doc_requires_backing_and_real_counterparty_gain(self):
         text = ACCESS_DOC.read_text(encoding="utf-8")
         self.assertIn("professional history", text)
-        self.assertIn("not commercial credentials by themselves", text)
-        self.assertIn("Why should this actor spend scarce time", text)
-        self.assertIn("LOCAL CULTURAL HYPOTHESIS != UNIVERSAL FACT", text)
+        self.assertIn("Backing / legitimacy leverage", text)
+        self.assertIn("Counterparty visible surplus", text)
+        self.assertIn("PPT / REPORT != HOOK BY DEFAULT", text)
+        self.assertIn("LOCAL FIELD PRIOR != UNIVERSAL FACT", text)
 
     def test_current_candidate_access_states_are_fail_closed(self):
         data = json.loads(ACCESS_DATA.read_text(encoding="utf-8"))
         by_id = {item["candidate_id"]: item for item in data["assessments"]}
         self.assertEqual(by_id["LV-XZ-001A"]["access_state"], "ACCESS_BLOCKED")
         self.assertEqual(by_id["LV-XZ-003A"]["access_state"], "INTRODUCTION_READY")
-        self.assertEqual(by_id["LV-XZ-004"]["access_state"], "INTRODUCTION_READY")
+        self.assertEqual(by_id["LV-XZ-004"]["access_state"], "ACCESS_BLOCKED")
         self.assertEqual(data["operator_profile_storage"], "RUNTIME_PRIVATE_NOT_COMMITTED")
+        self.assertIn("COUNTERPARTY_VISIBLE_SURPLUS", data["principle"])
 
 
 if __name__ == "__main__":
