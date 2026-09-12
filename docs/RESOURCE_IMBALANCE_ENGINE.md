@@ -158,6 +158,41 @@ Examples of stronger underuse evidence:
 
 Self-reported `I have spare time` may be `CLAIMED`, not automatically `OBSERVED`.
 
+### Provider capacity evidence — LOCKED
+
+Historical awards, qualifications, tender participation and recent wins prove capability/activity only. They do not prove spare capacity.
+
+Direct provider-capacity evidence uses the following bounded mapping:
+
+```text
+PROVIDER_STATED_SPARE_CAPACITY  -> CLAIMED
+AUTHORIZED_CAPACITY_SCHEDULE    -> OBSERVED
+VERIFIED_UNUSED_CAPACITY_RECORD -> OBSERVED
+MEASURED_UTILIZATION_RECORD     -> MEASURED
+```
+
+`OBSERVED` or `MEASURED` additionally requires a concrete `available_units` description and an observation period. Examples include `2 crews available 2026-09-20 to 2026-09-24`, `3 unused service slots on the authorized schedule`, or a measured utilization record showing unused machine hours.
+
+Provider-capacity evidence may only strengthen an already-canonical `ResourceSignal`. It must match all of:
+
+```text
+resource_signal_id
+provider_actor
+capability_key
+geography
+```
+
+It cannot create a resource from scratch, cannot change `resource_state`, and cannot turn a statement of willingness into observed underuse. Evidence is ingested through the explicit provider-capacity evidence path; rejected identity/basis/state records remain non-promoting evidence.
+
+Therefore:
+
+```text
+Historical Capability != Current Underuse
+Active Bidding != Current Underuse
+Recent Award != Current Underuse
+Provider Statement != OBSERVED Underuse
+```
+
 ## Blocker evidence
 
 A resource mismatch needs an explanation for why normal market exchange has not already removed it.
@@ -202,6 +237,8 @@ geography
 ```
 
 The engine intentionally does not infer that two labels are equivalent and does not silently route across geography.
+
+Transaction-scoped blockers additionally require exact `need_signal_id` identity. A blocker from one bounded procurement/transaction cannot satisfy another Need merely because capability and geography match.
 
 Later versions may add:
 - explicit capability ontology;

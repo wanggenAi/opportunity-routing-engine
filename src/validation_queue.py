@@ -19,6 +19,13 @@ _CANONICAL_TARGETS = (
     "TRANSACTION_BLOCKER",
 )
 
+_CAPACITY_EVIDENCE_BASIS = {
+    "PROVIDER_STATED_SPARE_CAPACITY": "CLAIMED",
+    "AUTHORIZED_CAPACITY_SCHEDULE": "OBSERVED",
+    "VERIFIED_UNUSED_CAPACITY_RECORD": "OBSERVED",
+    "MEASURED_UTILIZATION_RECORD": "MEASURED",
+}
+
 
 def _index_signals(ledger: Mapping[str, Any]) -> tuple[dict[str, Any], dict[str, Any]]:
     signals = ledger.get("signals", {}) or {}
@@ -45,13 +52,14 @@ def _task(
     pass_condition: str,
     fail_condition: str,
     forbidden_inference: str,
+    evidence_capture: Mapping[str, Any] | None = None,
 ) -> dict[str, Any]:
     if target not in _CANONICAL_TARGETS:
         raise ValueError(f"unsupported validation target: {target}")
     record_id = str(record.get("record_id") or "").strip()
     if not record_id:
         raise ValueError("PAIR_HYPOTHESIS record_id is required")
-    return {
+    result = {
         "task_id": f"VALIDATE::{record_id}::{target}",
         "record_id": record_id,
         "capability_key": record.get("capability_key"),
@@ -64,6 +72,48 @@ def _task(
         "fail_condition": fail_condition,
         "forbidden_inference": forbidden_inference,
         "state_effect": "NONE_UNTIL_NEW_EVIDENCE_IS_INGESTED",
+    }
+    if evidence_capture is not None:
+        result["evidence_capture"] = dict(evidence_capture)
+    return result
+
+
+def _capacity_capture_contract(
+    *,
+    record: Mapping[str, Any],
+    resource: Mapping[str, Any],
+) -> dict[str, Any]:
+    resource_signal_id = str(record.get("resource_signal_id") or "").strip()
+    provider_actor = str(resource.get("provider_actor") or "").strip()
+    if not resource_signal_id or not provider_actor:
+        raise ValueError("RESOURCE_UNDERUSE task requires exact resource/provider identity")
+    return {
+        "ingestion_flag": "--provider-capacity-json",
+        "payload_key": "evidence",
+        "required_identity": {
+            "resource_signal_id": resource_signal_id,
+            "provider_actor": provider_actor,
+            "capability_key": record.get("capability_key"),
+            "geography": record.get("geography"),
+        },
+        "required_fields": [
+            "evidence_id",
+            "resource_signal_id",
+            "provider_actor",
+            "capability_key",
+            "geography",
+            "underuse_evidence_state",
+            "evidence_basis",
+            "observation_period",
+            "source_refs",
+        ],
+        "observed_or_measured_additional_required_fields": ["available_units"],
+        "accepted_basis_state": dict(_CAPACITY_EVIDENCE_BASIS),
+        "promotion_policy": "EXACT_RESOURCE_SIGNAL_AND_IDENTITY_ONLY",
+        "truth_boundary": (
+            "provider statement is CLAIMED only; OBSERVED/MEASURED requires an auditable "
+            "capacity artifact with concrete available_units"
+        ),
     }
 
 
@@ -135,6 +185,7 @@ def build_pair_validation_queue(ledger: Mapping[str, Any]) -> dict[str, Any]:
             )
 
         if record.get("underuse_evidence_state") not in {"OBSERVED", "MEASURED"}:
+            capture = _capacity_capture_contract(record=record, resource=resource)
             record_tasks.append(
                 _task(
                     record=record,
@@ -142,19 +193,23 @@ def build_pair_validation_queue(ledger: Mapping[str, Any]) -> dict[str, Any]:
                     priority=30,
                     channel="PROVIDER_OR_AUTHORIZED_CAPACITY_PROBE",
                     instruction=(
-                        "Verify current spare capacity for the named provider/capability using "
-                        "observable capacity evidence: unused service slots, idle crew/equipment "
-                        "hours, unfilled capacity, or another auditable utilization measure."
+                        "Verify current spare capacity for this exact canonical provider/resource. "
+                        "Capture the evidence using evidence_capture so it can be ingested by the "
+                        "live ledger without manual reinterpretation. A provider statement may be "
+                        "recorded but remains CLAIMED; seek an authorized capacity schedule, verified "
+                        "unused-capacity record, or measured utilization record for OBSERVED/MEASURED."
                     ),
                     pass_condition=(
                         "Current underuse is OBSERVED or MEASURED for the exact provider capability, "
-                        "with date/scope and source retained."
+                        "with concrete available_units, observation period, source refs, and exact "
+                        "resource identity retained."
                     ),
                     fail_condition=(
-                        "Provider merely says it can do the work, has historical qualifications, or "
-                        "appears in an award directory without observable spare capacity."
+                        "Provider merely says it can do the work or has spare capacity without an "
+                        "auditable capacity artifact, or only historical qualifications/awards exist."
                     ),
-                    forbidden_inference="historical capability or willingness claim != observed underuse",
+                    forbidden_inference="historical capability, active bidding, or provider willingness claim != observed underuse",
+                    evidence_capture=capture,
                 )
             )
 
@@ -191,6 +246,7 @@ def build_pair_validation_queue(ledger: Mapping[str, Any]) -> dict[str, Any]:
                 "resource_signal_id": record.get("resource_signal_id"),
                 "need_actor": need.get("need_actor"),
                 "provider_actor": resource.get("provider_actor"),
+                "resource_source_ids": resource.get("source_ids") or [],
                 "current_need_evidence_state": record.get("need_evidence_state"),
                 "current_resource_state": record.get("resource_state"),
                 "current_underuse_evidence_state": record.get("underuse_evidence_state"),
@@ -218,6 +274,7 @@ def build_pair_validation_queue(ledger: Mapping[str, Any]) -> dict[str, Any]:
             "This queue is a planning artifact and does not modify Resource Imbalance truth states.",
             "Task priority is an evidence-cost heuristic, not probability of commercial success.",
             "UNKNOWN and CLAIMED remain below OBSERVED; DISCOVERED remains below OPTIONED.",
+            "Provider statements about spare capacity are CLAIMED, not OBSERVED; authorized schedules/verified unused-capacity records can be OBSERVED and measured utilization can be MEASURED.",
             "Tender budget, award/result, and signed contract remain below PAID without exact settlement/payment evidence.",
             "A task disappears only after a future evidence ingestion changes the canonical ledger state.",
         ],

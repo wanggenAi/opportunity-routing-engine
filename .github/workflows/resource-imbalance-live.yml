@@ -8,6 +8,7 @@ on:
     paths:
       - "src/live_imbalance_ledger.py"
       - "src/procurement_lifecycle.py"
+      - "src/provider_capacity_evidence.py"
       - "src/resource_imbalance.py"
       - "src/resource_signal_adapters.py"
       - "src/regional_adapters.py"
@@ -29,7 +30,9 @@ on:
       - "scripts/verify_xuzhou_procurement_result_seeds.py"
       - "data/xuzhou_procurement_result_seeds.csv"
       - "tests/test_live_imbalance_ledger.py"
+      - "tests/test_live_imbalance_capacity_cli.py"
       - "tests/test_procurement_lifecycle.py"
+      - "tests/test_provider_capacity_evidence.py"
       - "tests/test_resource_imbalance.py"
       - "tests/test_xuzhou_procurement_blockers.py"
       - "tests/test_xuzhou_procurement_contracts.py"
@@ -120,6 +123,8 @@ jobs:
 
       - name: Build truth-preserving Resource Imbalance ledger
         run: |
+          # No provider-capacity artifact is supplied here unless real reviewed
+          # capacity evidence exists. Historical awards must remain underuse UNKNOWN.
           python scripts/build_live_resource_imbalance.py \
             --procurement-json .local/xz_procurement_events.json \
             --provider-json .local/xz_procurement_awards.json \
@@ -271,11 +276,55 @@ jobs:
           if queue['pair_hypothesis_count'] != pair_count or queue['queued_pair_count'] != pair_count:
               raise SystemExit('validation queue pair count does not match canonical ledger')
           allowed_targets = {'PAYER_IDENTITY','PAID_NEED','RESOURCE_UNDERUSE','TRANSACTION_BLOCKER'}
+          record_index = {record['record_id']: record for record in data['records']}
+          resource_index = {
+              resource['signal_id']: resource for resource in data['signals']['resources']
+          }
+          expected_capacity_basis = {
+              'PROVIDER_STATED_SPARE_CAPACITY': 'CLAIMED',
+              'AUTHORIZED_CAPACITY_SCHEDULE': 'OBSERVED',
+              'VERIFIED_UNUSED_CAPACITY_RECORD': 'OBSERVED',
+              'MEASURED_UTILIZATION_RECORD': 'MEASURED',
+          }
           for task in queue['tasks']:
               if task['target_gate'] not in allowed_targets:
                   raise SystemExit('validation queue contains non-canonical target')
               if task['state_effect'] != 'NONE_UNTIL_NEW_EVIDENCE_IS_INGESTED':
                   raise SystemExit('validation planning task attempted to mutate truth state')
+              if task['target_gate'] == 'RESOURCE_UNDERUSE':
+                  capture = task.get('evidence_capture') or {}
+                  if capture.get('ingestion_flag') != '--provider-capacity-json':
+                      raise SystemExit('RESOURCE_UNDERUSE task lacks canonical capacity ingestion path')
+                  if capture.get('promotion_policy') != 'EXACT_RESOURCE_SIGNAL_AND_IDENTITY_ONLY':
+                      raise SystemExit('RESOURCE_UNDERUSE task relaxed exact resource identity')
+                  if capture.get('accepted_basis_state') != expected_capacity_basis:
+                      raise SystemExit('RESOURCE_UNDERUSE evidence basis/state policy drifted')
+                  record = record_index.get(task['record_id'])
+                  if record is None:
+                      raise SystemExit('RESOURCE_UNDERUSE task references missing pair record')
+                  resource = resource_index.get(record.get('resource_signal_id'))
+                  if resource is None:
+                      raise SystemExit('RESOURCE_UNDERUSE task references missing resource signal')
+                  identity = capture.get('required_identity') or {}
+                  expected_identity = {
+                      'resource_signal_id': resource['signal_id'],
+                      'provider_actor': resource['provider_actor'],
+                      'capability_key': record['capability_key'],
+                      'geography': record['geography'],
+                  }
+                  if identity != expected_identity:
+                      raise SystemExit('RESOURCE_UNDERUSE capture contract crossed resource identity')
+                  required_fields = set(capture.get('required_fields') or [])
+                  if not {
+                      'evidence_id','resource_signal_id','provider_actor','capability_key',
+                      'geography','underuse_evidence_state','evidence_basis',
+                      'observation_period','source_refs'
+                  }.issubset(required_fields):
+                      raise SystemExit('RESOURCE_UNDERUSE capture contract lacks required evidence fields')
+                  if 'available_units' not in set(
+                      capture.get('observed_or_measured_additional_required_fields') or []
+                  ):
+                      raise SystemExit('RESOURCE_UNDERUSE OBSERVED/MEASURED contract lacks available_units')
           if pair_count and queue['task_count'] == 0:
               raise SystemExit('PAIR_HYPOTHESIS exists but validation queue has no evidence tasks')
 

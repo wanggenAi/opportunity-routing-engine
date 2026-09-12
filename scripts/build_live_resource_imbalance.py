@@ -15,6 +15,7 @@ if str(ROOT) not in sys.path:
 
 from src.live_imbalance_ledger import build_live_imbalance_ledger
 from src.procurement_lifecycle import integrate_procurement_lifecycle
+from src.provider_capacity_evidence import apply_provider_capacity_evidence_to_ledger
 from src.resource_imbalance import BlockerSignal
 
 
@@ -89,6 +90,13 @@ def main() -> int:
         help="Historical capability-provider award artifact; may be supplied multiple times",
     )
     parser.add_argument(
+        "--provider-capacity-json", action="append", default=[],
+        help=(
+            "Evidence-reviewed provider capacity artifact; exact resource/provider/capability/"
+            "geography identity is required and may be supplied multiple times"
+        ),
+    )
+    parser.add_argument(
         "--lifecycle-json",
         help="Exact-project procurement lifecycle artifact; only canonical settlement promotion is applied",
     )
@@ -117,6 +125,13 @@ def main() -> int:
             ledger, _read_json(args.lifecycle_json),
             max_pairs_per_need=args.max_pairs_per_need,
         )
+    if args.provider_capacity_json:
+        capacity_payloads = [_read_json(path) for path in args.provider_capacity_json]
+        ledger = apply_provider_capacity_evidence_to_ledger(
+            ledger,
+            capacity_payloads,
+            max_pairs_per_need=args.max_pairs_per_need,
+        )
 
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -130,6 +145,7 @@ def main() -> int:
         "route_testable_count": ledger["route_testable_count"],
         "unbound_evidence": ledger["signal_counts"]["unbound_evidence"],
         "procurement_lifecycle": ledger.get("procurement_lifecycle"),
+        "provider_capacity_evidence": ledger.get("provider_capacity_evidence"),
     }, ensure_ascii=False, sort_keys=True))
     return 0
 

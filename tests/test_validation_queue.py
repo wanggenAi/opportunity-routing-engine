@@ -18,6 +18,7 @@ class ValidationQueueTests(unittest.TestCase):
                     {
                         "signal_id": "resource-1",
                         "provider_actor": "江苏某建设有限公司",
+                        "source_ids": ["award-source", "https://example.test/award"],
                     }
                 ],
             },
@@ -76,10 +77,38 @@ class ValidationQueueTests(unittest.TestCase):
         )
         pair = queue["pairs"][0]
         self.assertEqual(pair["provider_actor"], "江苏某建设有限公司")
+        self.assertEqual(pair["resource_source_ids"], ["award-source", "https://example.test/award"])
         self.assertEqual(pair["missing_gate_count"], 4)
         self.assertTrue(
             all(task["state_effect"] == "NONE_UNTIL_NEW_EVIDENCE_IS_INGESTED" for task in queue["tasks"])
         )
+
+    def test_underuse_task_has_directly_ingestible_exact_identity_contract(self):
+        queue = build_pair_validation_queue(self._ledger())
+        task = next(task for task in queue["tasks"] if task["target_gate"] == "RESOURCE_UNDERUSE")
+        capture = task["evidence_capture"]
+        self.assertEqual(capture["ingestion_flag"], "--provider-capacity-json")
+        self.assertEqual(capture["payload_key"], "evidence")
+        self.assertEqual(
+            capture["required_identity"],
+            {
+                "resource_signal_id": "resource-1",
+                "provider_actor": "江苏某建设有限公司",
+                "capability_key": "WATER_PUMP_STATION_MAINTENANCE",
+                "geography": "Xuzhou",
+            },
+        )
+        self.assertEqual(
+            capture["accepted_basis_state"],
+            {
+                "PROVIDER_STATED_SPARE_CAPACITY": "CLAIMED",
+                "AUTHORIZED_CAPACITY_SCHEDULE": "OBSERVED",
+                "VERIFIED_UNUSED_CAPACITY_RECORD": "OBSERVED",
+                "MEASURED_UTILIZATION_RECORD": "MEASURED",
+            },
+        )
+        self.assertIn("available_units", capture["observed_or_measured_additional_required_fields"])
+        self.assertEqual(capture["promotion_policy"], "EXACT_RESOURCE_SIGNAL_AND_IDENTITY_ONLY")
 
     def test_satisfied_gates_do_not_generate_tasks(self):
         ledger = self._ledger()
