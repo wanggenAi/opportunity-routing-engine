@@ -15,10 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 2
     steps:
-      - name: Probe contract list loader with bounded script fetches
+      - name: Probe Xuzhou contract request encoding and site identity
         run: |
           python - <<'PY'
-          import concurrent.futures
           import re
           import urllib.parse
           import urllib.request
@@ -30,44 +29,41 @@ jobs:
               "Referer": LIST,
           }
 
-          def fetch(url, timeout=6):
+          def fetch(url, timeout=8):
               req = urllib.request.Request(url, headers=HEADERS)
               with urllib.request.urlopen(req, timeout=timeout) as r:
-                  raw = r.read(1000000)
+                  raw = r.read(1200000)
                   enc = r.headers.get_content_charset() or "utf-8"
                   return r.status, r.geturl(), r.headers.get("content-type", ""), raw.decode(enc, errors="replace")
 
           status, final, ct, html = fetch(LIST)
           print("LIST", status, final, ct, "CHARS", len(html))
-          scripts = [urllib.parse.urljoin(LIST, src) for src in re.findall(r'<script[^>]+src=["\']([^"\']+)', html, re.I)]
-          scripts = [u for u in scripts if u.startswith("https://ggzy.zwb.xz.gov.cn/")]
-          print("SCRIPTS")
-          for u in scripts:
-              print(u)
-
-          print("\nINLINE")
+          print("\n=== INLINE SITE IDENTITY ===")
           for idx, line in enumerate(html.splitlines()):
               low = line.lower()
-              if any(k in low for k in ("003004007", "ajax", "api", "search", "query", "pageindex", "pagesize", "categorynum", "url:")):
+              if any(k in low for k in ("siteguid", "categorynum", "003004007", "getparams", "utilajaxmethod")):
                   print(f"{idx+1:04d}: {line.strip()[:5000]}")
 
-          def inspect(url):
+          scripts = [urllib.parse.urljoin(LIST, src) for src in re.findall(r'<script[^>]+src=["\']([^"\']+)', html, re.I)]
+          scripts = [u for u in scripts if u.startswith("https://ggzy.zwb.xz.gov.cn/")]
+          print("\n=== TARGET SCRIPT DEFINITIONS ===")
+          needles = ("function utilajaxmethod", "utilajaxmethod =", "function getparams", "getparams =", "siteguid", "getpageinfolist")
+          for url in scripts:
               try:
-                  s, f, c, js = fetch(url, timeout=6)
-                  lines = js.splitlines()
-                  hit_indexes = [i for i, line in enumerate(lines) if any(k in line.lower() for k in ("003004007", "ajax", "url:", "pageindex", "pagesize", "categorynum", "search", "query", "getlist", "jyxx"))]
-                  out = [f"SCRIPT {url} STATUS {s} CHARS {len(js)}"]
-                  shown = set()
-                  for i in hit_indexes:
-                      for j in range(max(0, i-6), min(len(lines), i+10)):
-                          if j not in shown:
-                              shown.add(j)
-                              out.append(f"{j+1:04d}: {lines[j]}")
-                  return "\n".join(out)
+                  s, f, c, js = fetch(url, timeout=8)
               except Exception as exc:
-                  return f"SCRIPT_ERROR {url} {type(exc).__name__} {exc!r}"
-
-          with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
-              for output in pool.map(inspect, scripts):
-                  print("\n" + output)
+                  print("SCRIPT_ERROR", url, type(exc).__name__, repr(exc))
+                  continue
+              lines = js.splitlines()
+              hits = [i for i, line in enumerate(lines) if any(n in line.lower() for n in needles)]
+              if not hits:
+                  continue
+              print("\nSCRIPT", url, "STATUS", s, "CHARS", len(js))
+              shown = set()
+              for i in hits:
+                  for j in range(max(0, i-12), min(len(lines), i+28)):
+                      if j in shown:
+                          continue
+                      shown.add(j)
+                      print(f"{j+1:04d}: {lines[j]}")
           PY
