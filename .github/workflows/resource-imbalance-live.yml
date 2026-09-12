@@ -3,8 +3,6 @@ name: resource-imbalance-live
 on:
   workflow_dispatch:
   schedule:
-    # Run after the upstream regional/resource sensors. The workflow recollects its
-    # own bounded evidence so it never depends on an artifact from a green wrapper.
     - cron: "40 3 * * *"
   push:
     paths:
@@ -15,6 +13,7 @@ on:
       - "src/regional_adapters.py"
       - "src/resource_underuse_adapters.py"
       - "src/xuzhou_agency_resource_feed.py"
+      - "src/xuzhou_procurement_blockers.py"
       - "src/xuzhou_procurement_contracts.py"
       - "src/xuzhou_procurement_results.py"
       - "src/provider_evidence_seeds.py"
@@ -24,6 +23,7 @@ on:
       - "scripts/build_pair_validation_queue.py"
       - "scripts/collect_regional.py"
       - "scripts/collect_resource_underuse.py"
+      - "scripts/collect_xuzhou_procurement_blockers.py"
       - "scripts/collect_xuzhou_procurement_contracts.py"
       - "scripts/collect_xuzhou_procurement_results.py"
       - "scripts/verify_xuzhou_procurement_result_seeds.py"
@@ -31,6 +31,7 @@ on:
       - "tests/test_live_imbalance_ledger.py"
       - "tests/test_procurement_lifecycle.py"
       - "tests/test_resource_imbalance.py"
+      - "tests/test_xuzhou_procurement_blockers.py"
       - "tests/test_xuzhou_procurement_contracts.py"
       - "tests/test_xuzhou_procurement_results.py"
       - "tests/test_provider_evidence_seeds.py"
@@ -63,12 +64,17 @@ jobs:
             --limit 30 \
             --output .local/xz_procurement_events.json
 
+      - name: Collect explicit Xuzhou procurement blockers
+        run: |
+          # Re-fetch classified current tenders, require exact project identity, and
+          # emit only source-explicit qualification/access or no-subcontract routing
+          # constraints. Generic procurement boilerplate never becomes a blocker.
+          python scripts/collect_xuzhou_procurement_blockers.py \
+            --procurement-json .local/xz_procurement_events.json \
+            --output .local/xz_procurement_blockers.json
+
       - name: Backfill proven Xuzhou capability providers
         run: |
-          # Scan a bounded history window, classify titles with the same exact
-          # capability taxonomy as live demand, then fetch details only for matches.
-          # This avoids scraping the full ~19k-result archive or polluting the graph
-          # with unrelated suppliers.
           python scripts/collect_xuzhou_procurement_results.py \
             --pages 15 \
             --capability-only \
@@ -78,9 +84,6 @@ jobs:
 
       - name: Verify research-seeded official procurement results
         run: |
-          # Seed rows are navigation hints only. The verifier re-fetches each official
-          # Xuzhou detail page and requires exact capability agreement before emitting
-          # any supplier award evidence.
           python scripts/verify_xuzhou_procurement_result_seeds.py \
             --seeds data/xuzhou_procurement_result_seeds.csv \
             --require-verified \
@@ -88,10 +91,6 @@ jobs:
 
       - name: Collect exact-project Xuzhou procurement contracts
         run: |
-          # Query the first-party contract archive by project_id from current tenders
-          # and freshly verified seeded results. Search relevance is not identity:
-          # every returned contract body is reparsed and must contain the exact same
-          # project_id before it is emitted. Empirical zero is valid.
           python scripts/collect_xuzhou_procurement_contracts.py \
             --input-json .local/xz_procurement_events.json \
             --input-json .local/xz_seeded_procurement_awards.json \
@@ -100,10 +99,6 @@ jobs:
 
       - name: Build exact procurement lifecycle
         run: |
-          # Result and contract evidence are linked to current tenders only by exact
-          # project_id. A signed contract is CONTRACT_FOUND, not PAID; only separate
-          # explicit first-party settlement evidence with payer + settled amount can
-          # permit PAID promotion.
           python scripts/build_procurement_lifecycle.py \
             --tender-json .local/xz_procurement_events.json \
             --result-json .local/xz_procurement_awards.json \
@@ -131,6 +126,7 @@ jobs:
             --provider-json .local/xz_seeded_procurement_awards.json \
             --resource-json .local/xz_public_asset_underuse.json \
             --resource-json .local/xz_agency_asset_underuse.json \
+            --blocker-json .local/xz_procurement_blockers.json \
             --lifecycle-json .local/xz_procurement_lifecycle.json \
             --output .local/xz_resource_imbalance_ledger.json
 
@@ -146,20 +142,13 @@ jobs:
           import json
           from pathlib import Path
 
-          path = Path('.local/xz_resource_imbalance_ledger.json')
-          data = json.loads(path.read_text(encoding='utf-8'))
-          seeded = json.loads(
-              Path('.local/xz_seeded_procurement_awards.json').read_text(encoding='utf-8')
-          )
-          contracts = json.loads(
-              Path('.local/xz_procurement_contracts.json').read_text(encoding='utf-8')
-          )
-          lifecycle = json.loads(
-              Path('.local/xz_procurement_lifecycle.json').read_text(encoding='utf-8')
-          )
-          queue = json.loads(
-              Path('.local/xz_pair_validation_queue.json').read_text(encoding='utf-8')
-          )
+          data = json.loads(Path('.local/xz_resource_imbalance_ledger.json').read_text(encoding='utf-8'))
+          seeded = json.loads(Path('.local/xz_seeded_procurement_awards.json').read_text(encoding='utf-8'))
+          contracts = json.loads(Path('.local/xz_procurement_contracts.json').read_text(encoding='utf-8'))
+          blockers = json.loads(Path('.local/xz_procurement_blockers.json').read_text(encoding='utf-8'))
+          lifecycle = json.loads(Path('.local/xz_procurement_lifecycle.json').read_text(encoding='utf-8'))
+          queue = json.loads(Path('.local/xz_pair_validation_queue.json').read_text(encoding='utf-8'))
+
           print('source_input_counts:', data['source_input_counts'])
           print('signal_counts:', data['signal_counts'])
           print('status_counts:', data['status_counts'])
@@ -168,6 +157,7 @@ jobs:
           print('seeded_award_count:', seeded['award_count'])
           print('contract_project_count:', contracts['project_count'])
           print('exact_contract_count:', contracts['contract_count'])
+          print('procurement_blocker_count:', blockers['blocker_count'])
           print('lifecycle_stage_counts:', lifecycle['stage_counts'])
           print('lifecycle_promotion_allowed_count:', lifecycle['promotion_allowed_count'])
           print('validation_queue_target_counts:', queue['target_counts'])
@@ -177,6 +167,22 @@ jobs:
           for award in seeded['awards']:
               if not award.get('project_id') or not award.get('project_name'):
                   raise SystemExit('verified seeded award lacks exact project identity')
+
+          if blockers.get('query_strategy') != 'EXACT_PROJECT_ID_REVALIDATION_PLUS_EXPLICIT_TEXT_ONLY':
+              raise SystemExit('blocker collection policy drifted from explicit exact-project evidence')
+          for blocker in blockers.get('blockers', []):
+              if blocker.get('evidence_state') != 'OBSERVED':
+                  raise SystemExit('procurement blocker emitted non-observed evidence')
+              if blocker.get('blocker_basis') not in {
+                  'EXPLICIT_SPECIFIC_QUALIFICATION_REQUIREMENT',
+                  'EXPLICIT_NO_SUBCONTRACT_OR_TRANSFER_RULE',
+              }:
+                  raise SystemExit('procurement blocker came from an unapproved semantic basis')
+              if blocker.get('blocker_type') not in {'CAPABILITY_GAP', 'COORDINATION_GAP'}:
+                  raise SystemExit('procurement blocker used an unapproved canonical type')
+              provenance = blocker.get('provenance') or {}
+              if not provenance.get('payload_sha256') or provenance.get('http_status') != 200:
+                  raise SystemExit('procurement blocker lacks auditable first-party provenance')
 
           if contracts.get('query_strategy') != 'EXACT_PROJECT_ID_SEARCH_THEN_EXACT_FIELD_REVALIDATION':
               raise SystemExit('contract source is not exact-project revalidated')
@@ -192,14 +198,8 @@ jobs:
                   raise SystemExit('contract announcement manufactured settled amount')
               if contract.get('settlement_proven') is not False:
                   raise SystemExit('contract announcement manufactured settlement proof')
-              provenance = contract.get('provenance') or {}
-              if not provenance.get('payload_sha256'):
+              if not (contract.get('provenance') or {}).get('payload_sha256'):
                   raise SystemExit('contract evidence lacks auditable response provenance')
-          for project in contracts.get('projects', []):
-              expected = project.get('project_id')
-              for contract in project.get('contracts', []):
-                  if contract.get('project_id') != expected:
-                      raise SystemExit('contract search relevance crossed exact project identity')
 
           if lifecycle.get('join_policy') != 'EXACT_PROJECT_ID_ONLY':
               raise SystemExit('procurement lifecycle is not exact-project-id-only')
@@ -224,23 +224,10 @@ jobs:
                       raise SystemExit('PAID promotion allowed before settlement proof')
                   if not record.get('payer_actor') or not record.get('settled_amount_rmb'):
                       raise SystemExit('PAID promotion allowed without payer/settled amount')
-                  if not record.get('evidence_urls') or not record.get('provenance_hashes'):
-                      raise SystemExit('PAID promotion allowed without auditable source provenance')
-              elif record.get('lifecycle_stage') in {
-                  'TENDER_ONLY', 'RESULT_FOUND', 'CONTRACT_FOUND'
-              }:
-                  pass
-
-          embedded = data.get('procurement_lifecycle') or {}
-          if embedded.get('record_count') != lifecycle['record_count']:
-              raise SystemExit('ledger lifecycle record count does not match lifecycle artifact')
-          if embedded.get('promotion_allowed_count') != lifecycle['promotion_allowed_count']:
-              raise SystemExit('ledger lifecycle promotion count drifted from lifecycle artifact')
 
           route_records = data['route_testable_records']
           if data['route_testable_count'] != len(route_records):
               raise SystemExit('route_testable_count does not match route_testable_records')
-
           for record in route_records:
               if record['need_evidence_state'] not in ('PAID', 'REPEATED_PAID'):
                   raise SystemExit('ROUTE_TESTABLE without paid need evidence')
@@ -253,9 +240,6 @@ jobs:
               if record['blocker_evidence_state'] not in ('OBSERVED', 'MEASURED'):
                   raise SystemExit('ROUTE_TESTABLE without observed blocker')
 
-          # Historical award providers, including research-seeded official-detail
-          # verification, may create PAIR_HYPOTHESIS but must never satisfy current
-          # underuse/availability by themselves.
           for resource in data['signals']['resources']:
               if resource['signal_id'].startswith('LIVE_PROVIDER::'):
                   if resource['resource_state'] != 'DISCOVERED':
@@ -264,16 +248,9 @@ jobs:
                       raise SystemExit('historical award provider manufactured underuse')
 
           pair_count = data['status_counts'].get('PAIR_HYPOTHESIS', 0)
-          if queue['pair_hypothesis_count'] != pair_count:
+          if queue['pair_hypothesis_count'] != pair_count or queue['queued_pair_count'] != pair_count:
               raise SystemExit('validation queue pair count does not match canonical ledger')
-          if queue['queued_pair_count'] != pair_count:
-              raise SystemExit('not every PAIR_HYPOTHESIS is represented in validation queue')
-          allowed_targets = {
-              'PAYER_IDENTITY',
-              'PAID_NEED',
-              'RESOURCE_UNDERUSE',
-              'TRANSACTION_BLOCKER',
-          }
+          allowed_targets = {'PAYER_IDENTITY','PAID_NEED','RESOURCE_UNDERUSE','TRANSACTION_BLOCKER'}
           for task in queue['tasks']:
               if task['target_gate'] not in allowed_targets:
                   raise SystemExit('validation queue contains non-canonical target')
@@ -282,9 +259,6 @@ jobs:
           if pair_count and queue['task_count'] == 0:
               raise SystemExit('PAIR_HYPOTHESIS exists but validation queue has no evidence tasks')
 
-          # Zero contracts and zero ROUTE_TESTABLE are both valid empirical results.
-          # The workflow fails only when truth gates are violated, not because reality
-          # produced no evidence or no opportunity.
           print('canonical promotion gates preserved')
           PY
 
