@@ -1,9 +1,9 @@
-"""Fail-closed operator access and legitimacy model.
+"""Fail-closed operator endowment, access and legitimacy model.
 
 Commercial truth and operator accessibility are separate axes. A latent-value thesis can be
 true while the current operator has no legitimate reason, route, trust or value packet that
-would justify counterpart attention. This module prevents the engine from silently turning
-"valuable actor exists" into "operator can contact and mobilize that actor".
+would justify counterpart attention. Conversely, the operator may possess real professional
+history and credibility that materially lower access friction in some actor classes.
 """
 
 from __future__ import annotations
@@ -29,6 +29,13 @@ class AccessRouteKind(str, Enum):
     DIRECT_COLD = "DIRECT_COLD"
 
 
+class OperatorFitState(str, Enum):
+    UNASSESSED = "UNASSESSED"
+    THIN = "THIN"
+    CONTEXTUAL_CREDIBILITY = "CONTEXTUAL_CREDIBILITY"
+    STRONG_CONTEXTUAL_CREDIBILITY = "STRONG_CONTEXTUAL_CREDIBILITY"
+
+
 @dataclass(frozen=True)
 class AccessEvidence:
     source_id: str
@@ -36,6 +43,65 @@ class AccessEvidence:
 
     def usable(self) -> bool:
         return bool(self.source_id.strip() and self.claim.strip())
+
+
+@dataclass(frozen=True)
+class OperatorCapabilityEnvelope:
+    """Current operator endowments that can legitimately affect route feasibility.
+
+    Keep this generic. Personal data does not belong in the public repository merely because
+    the model can represent it. Runtime/profile data should be supplied only when appropriate.
+    """
+
+    professional_years: int = 0
+    proven_domains: Sequence[str] = field(default_factory=tuple)
+    accepted_delivery_contexts: Sequence[str] = field(default_factory=tuple)
+    education_training: Sequence[str] = field(default_factory=tuple)
+    cross_context_experience: Sequence[str] = field(default_factory=tuple)
+    communication_trust_assets: Sequence[str] = field(default_factory=tuple)
+    local_knowledge: Sequence[str] = field(default_factory=tuple)
+    warm_paths: Sequence[str] = field(default_factory=tuple)
+    institutional_roles: Sequence[str] = field(default_factory=tuple)
+    reputation_references: Sequence[str] = field(default_factory=tuple)
+    mobilizable_resources: Sequence[str] = field(default_factory=tuple)
+    constraints: Sequence[str] = field(default_factory=tuple)
+
+
+def operator_fit_state(profile: OperatorCapabilityEnvelope) -> OperatorFitState:
+    """Estimate only whether the operator has substantive contextual credibility.
+
+    This is deliberately coarse and does not imply counterpart willingness to engage.
+    """
+
+    substantive_signals = sum(
+        bool(items)
+        for items in (
+            profile.proven_domains,
+            profile.accepted_delivery_contexts,
+            profile.education_training,
+            profile.cross_context_experience,
+            profile.reputation_references,
+        )
+    )
+    trust_signals = sum(
+        bool(items)
+        for items in (
+            profile.communication_trust_assets,
+            profile.local_knowledge,
+            profile.warm_paths,
+            profile.institutional_roles,
+        )
+    )
+
+    if profile.professional_years <= 0 and substantive_signals == 0:
+        return OperatorFitState.THIN
+    if profile.professional_years >= 5 and substantive_signals >= 2:
+        if trust_signals >= 1:
+            return OperatorFitState.STRONG_CONTEXTUAL_CREDIBILITY
+        return OperatorFitState.CONTEXTUAL_CREDIBILITY
+    if substantive_signals >= 1 or profile.professional_years >= 3:
+        return OperatorFitState.CONTEXTUAL_CREDIBILITY
+    return OperatorFitState.THIN
 
 
 @dataclass(frozen=True)
@@ -123,9 +189,11 @@ def access_state(record: AccessFeasibility) -> AccessState:
 
 ACCESS_INVARIANTS = (
     "VALUE_TRUTH_NE_OPERATOR_ACCESS",
+    "OPERATOR_ENDOWMENT_NE_COUNTERPARTY_CONSENT",
     "PUBLIC_ACTOR_NE_ACCESSIBLE_ACTOR",
     "PERSONAL_CONFIDENCE_NE_COUNTERPARTY_REASON_TO_ENGAGE",
     "APPEARANCE_NE_CREDENTIAL",
+    "REAL_WORK_HISTORY_IS_CREDIBILITY_EVIDENCE_WHEN_RELEVANT",
     "MONEY_NE_ONLY_FORM_OF_RECIPROCITY",
     "INSTITUTIONAL_ROUTE_PREFERRED_OVER_STATUS_BLIND_COLD_OUTREACH",
     "LOCAL_CULTURAL_HYPOTHESIS_NE_UNIVERSAL_FACT",
