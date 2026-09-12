@@ -13,65 +13,144 @@ permissions:
 jobs:
   inspect-xuzhou-contract-source:
     runs-on: ubuntu-latest
-    timeout-minutes: 2
+    timeout-minutes: 3
     steps:
-      - name: Inspect Xuzhou contract list request wrapper
+      - name: Verify Xuzhou contract search API and detail identity
         run: |
           python - <<'PY'
-          import concurrent.futures
+          import json
           import re
           import urllib.parse
           import urllib.request
 
-          LIST = "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004007/list.html"
+          ORIGIN = "https://ggzy.zwb.xz.gov.cn"
+          ENDPOINT = ORIGIN + "/inteligentsearchnew/rest/esinteligentsearch/getFullTextDataNew"
+          REFERER = ORIGIN + "/jyxx/003004/003004007/list.html"
           HEADERS = {
               "User-Agent": "Mozilla/5.0 (compatible; OpportunityRoutingEngine/0.1)",
-              "Accept": "text/html,application/javascript,*/*;q=0.8",
-              "Referer": LIST,
+              "Accept": "application/json,text/javascript,*/*;q=0.8",
+              "Content-Type": "application/json;charset=utf-8",
+              "Referer": REFERER,
+              "X-Requested-With": "XMLHttpRequest",
           }
 
-          def fetch(url, timeout=7):
-              req = urllib.request.Request(url, headers=HEADERS)
-              with urllib.request.urlopen(req, timeout=timeout) as r:
-                  raw = r.read(1200000)
-                  return raw.decode(r.headers.get_content_charset() or "utf-8", errors="replace")
+          def request_json(payload):
+              body = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+              req = urllib.request.Request(ENDPOINT, data=body, headers=HEADERS, method="POST")
+              with urllib.request.urlopen(req, timeout=20) as r:
+                  raw = r.read(2_000_000)
+                  text = raw.decode(r.headers.get_content_charset() or "utf-8", errors="strict")
+                  print("API_STATUS", r.status, "CT", r.headers.get("content-type"), "BYTES", len(raw))
+                  return json.loads(text)
 
-          html = fetch(LIST)
-          scripts = [urllib.parse.urljoin(LIST, x) for x in re.findall(r'<script[^>]+src=["\']([^"\']+)', html, re.I)]
-          explicit = urllib.parse.urljoin(LIST, "js/list.js")
-          if explicit not in scripts:
-              scripts.append(explicit)
-          scripts = [u for u in scripts if u.startswith("https://ggzy.zwb.xz.gov.cn/")]
-          print("SCRIPT_URLS")
-          for u in scripts:
-              print(u)
+          def payload(*, wd="", pn=0, rn=20):
+              return {
+                  "token":"",
+                  "pn":pn,
+                  "rn":str(rn),
+                  "sdt":"",
+                  "edt":"",
+                  "wd":wd,
+                  "inc_wd":"",
+                  "exc_wd":"",
+                  "fields":"title",
+                  "cnum":"002",
+                  "sort":"{\"webdate\":\"0\"}",
+                  "ssort":"title",
+                  "cl":300,
+                  "terminal":"",
+                  "condition":[{
+                      "fieldName":"categorynum",
+                      "isLike":True,
+                      "likeType":2,
+                      "equal":"003004007",
+                  }],
+                  "time":None,
+                  "highlights":"title",
+                  "statistics":None,
+                  "unionCondition":None,
+                  "accuracy":"",
+                  "noParticiple":"0",
+                  "searchRange":None,
+                  "isBusiness":"1",
+              }
 
-          needles = (
-              "utilajaxmethod", "getparams", "getpageinfolist", "frontappcustomaction",
-              "pageindex", "pagesize", "categorynum", "controlname", "siteguid"
-          )
+          print("=== CONTRACT CATEGORY PAGE 0 ===")
+          obj = request_json(payload())
+          print("TOP_KEYS", sorted(obj) if isinstance(obj, dict) else type(obj).__name__)
+          result = obj.get("result") if isinstance(obj, dict) else None
+          if not isinstance(result, dict):
+              raise SystemExit("missing result object")
+          print("RESULT_KEYS", sorted(result))
+          print("TOTALCOUNT", result.get("totalcount"))
+          records = result.get("records") or []
+          print("RECORD_COUNT", len(records))
+          for idx, record in enumerate(records[:20]):
+              print("RECORD", idx, json.dumps(record, ensure_ascii=False, sort_keys=True)[:10000])
 
-          def inspect(url):
+          def detail_candidates(record):
+              values = []
+              for key, value in record.items():
+                  if not isinstance(value, str) or not value.strip():
+                      continue
+                  low = key.lower()
+                  if "url" in low or "link" in low or value.startswith("/") or value.startswith("http"):
+                      full = urllib.parse.urljoin(REFERER, value)
+                      if full.startswith(ORIGIN + "/") and full not in values:
+                          values.append(full)
+              return values
+
+          urls = []
+          for record in records:
+              for url in detail_candidates(record):
+                  if "/003004007/" in url or "/jyxx/" in url:
+                      if url not in urls:
+                          urls.append(url)
+          print("DETAIL_CANDIDATES", urls[:30])
+
+          print("\n=== SAMPLE DETAIL IDENTITY ===")
+          html_headers = {
+              "User-Agent": HEADERS["User-Agent"],
+              "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
+              "Referer": REFERER,
+          }
+          for url in urls[:8]:
               try:
-                  text = fetch(url)
+                  req = urllib.request.Request(url, headers=html_headers)
+                  with urllib.request.urlopen(req, timeout=15) as r:
+                      raw = r.read(1_500_000)
+                      text = raw.decode(r.headers.get_content_charset() or "utf-8", errors="replace")
+                  print("DETAIL", url, "STATUS", r.status, "BYTES", len(raw))
+                  title_fields = re.findall(r'<span\b[^>]*\btitle=["\']([^"\']+)["\'][^>]*>(.*?)</span\s*>', text, re.I|re.S)
+                  for label, value_html in title_fields:
+                      value = re.sub(r'<[^>]+>', ' ', value_html)
+                      value = re.sub(r'\s+', ' ', value).strip()
+                      if any(k in label for k in ("项目", "合同", "采购", "供应", "金额", "甲方", "乙方", "支付", "付款", "验收")):
+                          print("SPAN", label, "=>", value[:1200])
+                  plain = re.sub(r'<script[\s\S]*?</script>', ' ', text, flags=re.I)
+                  plain = re.sub(r'<style[\s\S]*?</style>', ' ', plain, flags=re.I)
+                  plain = re.sub(r'<[^>]+>', '\n', plain)
+                  for line in plain.splitlines():
+                      line = re.sub(r'\s+', ' ', line).strip()
+                      if line and any(k in line for k in ("项目编号", "项目名称", "合同编号", "合同名称", "采购人", "供应商", "甲方", "乙方", "合同金额", "签订日期", "支付", "付款", "验收")):
+                          print("TEXT", line[:1200])
               except Exception as exc:
-                  return f"ERROR {url} {type(exc).__name__} {exc!r}"
-              lines = text.splitlines()
-              hits = [i for i, line in enumerate(lines) if any(n in line.lower() for n in needles)]
-              if not hits:
-                  return f"NO_HITS {url}"
-              out = [f"SOURCE {url} CHARS {len(text)}"]
-              shown = set()
-              for i in hits:
-                  for j in range(max(0, i-10), min(len(lines), i+18)):
-                      if j in shown:
-                          continue
-                      shown.add(j)
-                      out.append(f"{j+1:04d}: {lines[j]}")
-              return "\n".join(out)
+                  print("DETAIL_ERROR", url, type(exc).__name__, repr(exc))
 
-          with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
-              for result in pool.map(inspect, scripts):
-                  if not result.startswith("NO_HITS"):
-                      print("\n" + result)
+          # Title search is navigation only. Exact identity must be parsed from detail.
+          historical_titles = [
+              "市政排水设施养护",
+              "泵站",
+              "财政信息化",
+          ]
+          print("\n=== NAVIGATION TITLE SEARCHES ===")
+          for term in historical_titles:
+              try:
+                  data = request_json(payload(wd=term, rn=20))
+                  rr = (data.get("result") or {}) if isinstance(data, dict) else {}
+                  print("TERM", term, "TOTAL", rr.get("totalcount"))
+                  for record in (rr.get("records") or [])[:10]:
+                      print("MATCH", term, json.dumps(record, ensure_ascii=False, sort_keys=True)[:8000])
+              except Exception as exc:
+                  print("SEARCH_ERROR", term, type(exc).__name__, repr(exc))
           PY
