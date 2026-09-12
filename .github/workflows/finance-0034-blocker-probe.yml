@@ -1,0 +1,87 @@
+name: finance-0034-blocker-probe
+
+on:
+  push:
+    paths:
+      - ".github/workflows/finance-0034-blocker-probe.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Inspect exact official finance tender constraints
+        run: |
+          python - <<'PY'
+          import html
+          import re
+          import time
+          import urllib.request
+
+          url = "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004002/20260910/1e7bc7e6-9c7d-445f-969c-a0b699968abe.html"
+          expected = "JSZC-320300-WYKJ-G2026-0034"
+          headers = {"User-Agent": "Mozilla/5.0 (compatible; OpportunityRoutingEngine/0.1)"}
+          raw = None
+          for attempt in range(1, 4):
+              try:
+                  req = urllib.request.Request(url, headers=headers)
+                  with urllib.request.urlopen(req, timeout=30) as response:
+                      raw = response.read(2_500_000).decode("utf-8", errors="replace")
+                  print("FETCH", attempt, "OK", len(raw))
+                  break
+              except Exception as exc:
+                  print("FETCH", attempt, "ERROR", repr(exc))
+                  if attempt < 3:
+                      time.sleep(attempt * 2)
+          if raw is None:
+              raise SystemExit("official page unavailable")
+          if expected not in raw:
+              raise SystemExit("exact project id absent from official response")
+
+          text = re.sub(r"<br\s*/?>", " ", raw, flags=re.I)
+          text = re.sub(r"<[^>]+>", " ", text)
+          text = html.unescape(text)
+          text = re.sub(r"\s+", " ", text).strip()
+          print("EXACT_PROJECT_PRESENT", expected in text)
+          print("TEXT_LENGTH", len(text))
+
+          markers = [
+              "本项目的特定资格要求",
+              "专门面向中小企业",
+              "中小微企业",
+              "接受联合体",
+              "单位负责人为同一人",
+              "直接控股、管理关系",
+              "整体设计",
+              "不得再参加",
+              "不得转包",
+              "不得分包",
+              "转包或分包",
+              "履行合同所必需的设备和专业技术能力",
+              "信息安全",
+              "数据安全",
+              "保密",
+              "驻场",
+              "项目负责人",
+          ]
+          for marker in markers:
+              start = 0
+              count = 0
+              while True:
+                  idx = text.find(marker, start)
+                  if idx < 0:
+                      break
+                  count += 1
+                  lo = max(0, idx - 260)
+                  hi = min(len(text), idx + len(marker) + 650)
+                  print("MARKER", marker, count, text[lo:hi])
+                  start = idx + len(marker)
+                  if count >= 4:
+                      break
+              if count == 0:
+                  print("MARKER", marker, 0)
+          PY
