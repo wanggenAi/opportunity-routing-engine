@@ -10,6 +10,7 @@ on:
       - "src/procurement_lifecycle.py"
       - "src/procurement_package_scope.py"
       - "src/provider_capacity_evidence.py"
+      - "src/field_validation_packets.py"
       - "src/resource_imbalance.py"
       - "src/resource_signal_adapters.py"
       - "src/regional_adapters.py"
@@ -23,6 +24,7 @@ on:
       - "scripts/build_live_resource_imbalance.py"
       - "scripts/build_procurement_lifecycle.py"
       - "scripts/build_pair_validation_queue.py"
+      - "scripts/build_field_validation_packets.py"
       - "scripts/collect_regional.py"
       - "scripts/collect_resource_underuse.py"
       - "scripts/collect_xuzhou_procurement_blockers.py"
@@ -35,6 +37,7 @@ on:
       - "tests/test_procurement_lifecycle.py"
       - "tests/test_procurement_lifecycle_package_scope.py"
       - "tests/test_provider_capacity_evidence.py"
+      - "tests/test_field_validation_packets.py"
       - "tests/test_resource_imbalance.py"
       - "tests/test_xuzhou_procurement_blockers.py"
       - "tests/test_xuzhou_procurement_contracts.py"
@@ -143,6 +146,15 @@ jobs:
             --ledger .local/xz_resource_imbalance_ledger.json \
             --output .local/xz_pair_validation_queue.json
 
+      - name: Build delegatable field validation packets
+        run: |
+          python scripts/build_field_validation_packets.py \
+            --ledger .local/xz_resource_imbalance_ledger.json \
+            --queue .local/xz_pair_validation_queue.json \
+            --provider-json .local/xz_procurement_awards.json \
+            --provider-json .local/xz_seeded_procurement_awards.json \
+            --output .local/xz_field_validation_packets.json
+
       - name: Assert canonical promotion gates
         run: |
           python - <<'PY'
@@ -155,6 +167,7 @@ jobs:
           blockers = json.loads(Path('.local/xz_procurement_blockers.json').read_text(encoding='utf-8'))
           lifecycle = json.loads(Path('.local/xz_procurement_lifecycle.json').read_text(encoding='utf-8'))
           queue = json.loads(Path('.local/xz_pair_validation_queue.json').read_text(encoding='utf-8'))
+          field = json.loads(Path('.local/xz_field_validation_packets.json').read_text(encoding='utf-8'))
 
           print('source_input_counts:', data['source_input_counts'])
           print('signal_counts:', data['signal_counts'])
@@ -168,6 +181,7 @@ jobs:
           print('lifecycle_stage_counts:', lifecycle['stage_counts'])
           print('lifecycle_promotion_allowed_count:', lifecycle['promotion_allowed_count'])
           print('validation_queue_target_counts:', queue['target_counts'])
+          print('field_validation_packet_count:', field['packet_count'])
 
           if seeded['verified_seed_count'] < 1 or seeded['award_count'] < 1:
               raise SystemExit('navigation seeds produced no freshly verified official award evidence')
@@ -342,7 +356,36 @@ jobs:
           if pair_count and queue['task_count'] == 0:
               raise SystemExit('PAIR_HYPOTHESIS exists but validation queue has no evidence tasks')
 
-          print('canonical promotion gates preserved')
+          field_targets = {'RESOURCE_UNDERUSE', 'TRANSACTION_BLOCKER'}
+          expected_field_tasks = [task for task in queue['tasks'] if task['target_gate'] in field_targets]
+          if field.get('packet_kind') != 'DELEGATABLE_REAL_WORLD_VALIDATION':
+              raise SystemExit('field packet kind drifted')
+          if field['packet_count'] != len(expected_field_tasks) or field['skipped_count'] != 0:
+              raise SystemExit('field packets do not cover all executable real-world tasks')
+          task_ids = {task['task_id'] for task in expected_field_tasks}
+          if {packet['task_id'] for packet in field['packets']} != task_ids:
+              raise SystemExit('field packet/task identity mismatch')
+          for packet in field['packets']:
+              if packet['state_effect'] != 'NONE_UNTIL_CAPTURED_EVIDENCE_IS_INGESTED_AND_CANONICAL_ENGINE_REBUILDS':
+                  raise SystemExit('field packet attempted to mutate truth state')
+              if packet['resource_signal_id'].startswith('LIVE_PROVIDER::'):
+                  provider = packet.get('provider_evidence') or {}
+                  if provider.get('resolution_state') != 'RESOLVED':
+                      raise SystemExit('historical provider field packet lacks exact source-backed provider metadata')
+                  if not provider.get('historical_award_url'):
+                      raise SystemExit('provider field packet lacks auditable award source')
+              if packet['target_gate'] == 'RESOURCE_UNDERUSE':
+                  capture = packet.get('capture_contract') or {}
+                  if capture.get('ingestion_flag') != '--provider-capacity-json':
+                      raise SystemExit('underuse field packet lost canonical ingestion path')
+                  if capture.get('promotion_policy') != 'EXACT_RESOURCE_SIGNAL_AND_IDENTITY_ONLY':
+                      raise SystemExit('underuse field packet relaxed resource identity')
+              elif packet['target_gate'] == 'TRANSACTION_BLOCKER':
+                  capture = packet.get('capture_contract') or {}
+                  if capture.get('minimum_state_for_gate') != 'OBSERVED':
+                      raise SystemExit('blocker field packet relaxed minimum evidence state')
+
+          print('canonical promotion gates and executable field packets preserved')
           PY
 
       - name: Upload live evidence and imbalance ledger
