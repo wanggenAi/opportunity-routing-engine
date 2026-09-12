@@ -11,18 +11,19 @@ ACCESS_DATA = ROOT / "data" / "cycle002_access_feasibility_2026-09-12.json"
 
 
 class AccessArchitectureLockTests(unittest.TestCase):
-    def test_doctrine_separates_value_truth_from_operator_access(self):
+    def test_doctrine_separates_value_truth_access_and_visible_surplus(self):
         text = DOCTRINE.read_text(encoding="utf-8")
-        self.assertIn("Executable value requires operator-access truth", text)
-        self.assertIn("VALUE / EXCHANGE TRUTH", text)
+        self.assertIn("Executable value requires operator-access truth and counterpart-visible surplus", text)
+        self.assertIn("COUNTERPARTY VISIBLE SURPLUS", text)
         self.assertIn("OperatorEndowment", text)
         self.assertIn("PUBLIC ACTOR = ACCESSIBLE ACTOR", text)
+        self.assertIn("ANALYSIS != SURPLUS", text)
+        self.assertIn("constitutional section overrides it", text)
 
-    def test_formal_truth_requires_access_feasibility(self):
+    def test_formal_truth_keeps_access_gate_canonical(self):
         text = FORMAL.read_text(encoding="utf-8")
         self.assertIn("docs/ACCESS_FEASIBILITY_GATE.md", text)
         self.assertIn("Operator access feasibility — LOCKED", text)
-        self.assertIn("COUNTERPARTY VISIBLE SURPLUS", text)
         self.assertIn("ACCESS_BLOCKED", text)
 
     def test_access_doc_requires_backing_and_real_counterparty_gain(self):
