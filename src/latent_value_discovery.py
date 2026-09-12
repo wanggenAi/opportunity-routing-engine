@@ -1,9 +1,10 @@
 """Canonical latent-value discovery model.
 
-This module operationalizes the repository doctrine that discovery starts from actors,
-state changes and unrealized value rather than from explicit supply/demand listings.
-It deliberately keeps explicit-demand execution opportunities separate from core
-latent-value activation candidates.
+Discovery starts from actors, state changes and unrealized value rather than from
+explicit supply/demand listings.  The model is intentionally fail-closed: a complete
+story is not enough to become validation-ready.  Independent evidence dimensions
+must support the origin actor, the complementary side and the reason value is still
+stranded.
 """
 
 from __future__ import annotations
@@ -29,10 +30,26 @@ class DiscoveryState(str, Enum):
     VALIDATION_READY = "VALIDATION_READY"
 
 
+class EvidenceKind(str, Enum):
+    """What a source actually supports.
+
+    These labels prevent a single macro article from silently supporting every leg of
+    a latent-value story.
+    """
+
+    ORIGIN_STATE = "ORIGIN_STATE"
+    ORIGIN_CHANGE = "ORIGIN_CHANGE"
+    COMPLEMENTARY_STATE = "COMPLEMENTARY_STATE"
+    STRANDING_BARRIER = "STRANDING_BARRIER"
+    VALUE_PRECEDENT = "VALUE_PRECEDENT"
+    GENERAL_PATTERN = "GENERAL_PATTERN"
+
+
 @dataclass(frozen=True)
 class EvidenceRef:
     source_id: str
     claim: str
+    kind: EvidenceKind = EvidenceKind.GENERAL_PATTERN
 
     def is_usable(self) -> bool:
         return bool(self.source_id.strip() and self.claim.strip())
@@ -40,12 +57,7 @@ class EvidenceRef:
 
 @dataclass(frozen=True)
 class LatentValueCandidate:
-    """A hypothesis that value exists before a market-side label necessarily exists.
-
-    A candidate is not valid merely because an actor has an explicit demand or an
-    existing provider can satisfy it. Core discovery requires an unrealized-value
-    thesis plus a complementary structure and a conversion mechanism.
-    """
+    """A hypothesis that value exists before a market-side label necessarily exists."""
 
     candidate_id: str
     actor: str
@@ -60,6 +72,8 @@ class LatentValueCandidate:
     incremental_value_for_origin_actor: str
     incremental_value_for_complementary_actor: str
     orchestrator_value_capture_hypothesis: str
+    cheapest_decisive_validation: str
+    kill_conditions: str
     evidence: Sequence[EvidenceRef] = field(default_factory=tuple)
     source_mode: str = "LATENT_VALUE_DISCOVERY"
 
@@ -83,7 +97,28 @@ _REQUIRED_FIELDS = (
     "incremental_value_for_origin_actor",
     "incremental_value_for_complementary_actor",
     "orchestrator_value_capture_hypothesis",
+    "cheapest_decisive_validation",
+    "kill_conditions",
 )
+
+_VALIDATION_EVIDENCE_KINDS = frozenset(
+    {
+        EvidenceKind.ORIGIN_STATE,
+        EvidenceKind.COMPLEMENTARY_STATE,
+        EvidenceKind.STRANDING_BARRIER,
+    }
+)
+
+
+def evidence_kinds(candidate: LatentValueCandidate) -> set[EvidenceKind]:
+    return {item.kind for item in candidate.evidence if item.is_usable()}
+
+
+def missing_validation_evidence(candidate: LatentValueCandidate) -> list[EvidenceKind]:
+    """Evidence dimensions still missing before a candidate is field-test ready."""
+
+    present = evidence_kinds(candidate)
+    return sorted(_VALIDATION_EVIDENCE_KINDS - present, key=lambda item: item.value)
 
 
 def validate_candidate(candidate: LatentValueCandidate) -> list[str]:
@@ -109,13 +144,17 @@ def validate_candidate(candidate: LatentValueCandidate) -> list[str]:
     ):
         errors.append("origin_value_and_complementary_state_must_be_distinct")
 
+    for kind in missing_validation_evidence(candidate):
+        errors.append(f"missing:evidence_kind:{kind.value}")
+
     return errors
 
 
 def discovery_state(candidate: LatentValueCandidate) -> DiscoveryState:
     """Infer discovery maturity without promoting commercial truth."""
 
-    if not candidate.evidence:
+    usable = [item for item in candidate.evidence if item.is_usable()]
+    if not usable:
         return DiscoveryState.OBSERVED_PATTERN
 
     if not candidate.hidden_or_underrecognized_value.strip():
@@ -132,6 +171,29 @@ def discovery_state(candidate: LatentValueCandidate) -> DiscoveryState:
         return DiscoveryState.COMPLEMENTARITY_HYPOTHESIS
 
     return DiscoveryState.VALIDATION_READY
+
+
+def _record_evidence_kinds(record: Mapping[str, object]) -> set[str]:
+    raw = record.get("evidence")
+    if not isinstance(raw, Iterable) or isinstance(raw, (str, bytes)):
+        return set()
+
+    kinds: set[str] = set()
+    for item in raw:
+        if isinstance(item, Mapping):
+            kind = item.get("kind")
+            source_id = item.get("source_id")
+            claim = item.get("claim")
+            if (
+                isinstance(kind, str)
+                and kind.strip()
+                and isinstance(source_id, str)
+                and source_id.strip()
+                and isinstance(claim, str)
+                and claim.strip()
+            ):
+                kinds.add(kind.strip())
+    return kinds
 
 
 def validate_candidate_record(record: Mapping[str, object]) -> list[str]:
@@ -154,6 +216,11 @@ def validate_candidate_record(record: Mapping[str, object]) -> list[str]:
     if record.get("source_mode") == "EXPLICIT_DEMAND":
         errors.append("explicit_demand_execution_is_not_core_latent_value_discovery")
 
+    present_kinds = _record_evidence_kinds(record)
+    for kind in sorted(_VALIDATION_EVIDENCE_KINDS, key=lambda item: item.value):
+        if kind.value not in present_kinds:
+            errors.append(f"missing:evidence_kind:{kind.value}")
+
     return errors
 
 
@@ -162,6 +229,7 @@ GOVERNING_INVARIANTS = (
     "DEMAND_LABEL_NOT_REQUIRED_FOR_DEFICIT_TO_EXIST",
     "POTENTIAL_VALUE_NE_PROVEN_VALUE",
     "COMPLEMENTARITY_NE_TRANSACTIONABILITY",
+    "NARRATIVE_COMPLETENESS_NE_EVIDENCE_COMPLETENESS",
     "EXPLICIT_DEMAND_EXECUTION_NE_CORE_LATENT_VALUE_DISCOVERY",
     "VALUE_DISCOVERY_PRECEDES_ORCHESTRATION",
     "UNKNOWN_NE_PASS",

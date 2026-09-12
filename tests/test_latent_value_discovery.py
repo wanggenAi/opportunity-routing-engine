@@ -3,9 +3,11 @@ import unittest
 from src.latent_value_discovery import (
     CandidateClass,
     DiscoveryState,
+    EvidenceKind,
     EvidenceRef,
     LatentValueCandidate,
     discovery_state,
+    missing_validation_evidence,
     validate_candidate,
     validate_candidate_record,
 )
@@ -23,11 +25,17 @@ class LatentValueDiscoveryTests(unittest.TestCase):
             complementary_actor_hypothesis="smaller factories with recurring equipment faults",
             complementary_actor_state="downtime and repeated dependence on scarce senior technicians",
             transformation_mechanism="extract, verify and package diagnosis knowledge into bounded callable decision units",
-            why_exchange_does_not_already_happen="no trusted packaging, proof, interface or settlement structure exists",
+            why_exchange_does_not_already_happen="no trusted packaging, rights, proof, interface or settlement structure exists",
             incremental_value_for_origin_actor="previously stranded experience becomes paid utilization",
             incremental_value_for_complementary_actor="faster fault triage and lower downtime cost",
             orchestrator_value_capture_hypothesis="fee for verified packaging, routing, acceptance and reliability",
-            evidence=(EvidenceRef("source-1", "retirement risk and recurring faults observed"),),
+            cheapest_decisive_validation="test one rights-cleared fault domain with one expert and one real user",
+            kill_conditions="rights cannot be cleared, knowledge cannot be abstracted, or counterpart gets no measurable value",
+            evidence=(
+                EvidenceRef("origin", "person-bound knowledge observed", EvidenceKind.ORIGIN_STATE),
+                EvidenceRef("complement", "counterparty state observed", EvidenceKind.COMPLEMENTARY_STATE),
+                EvidenceRef("barrier", "packaging or rights barrier observed", EvidenceKind.STRANDING_BARRIER),
+            ),
         )
         payload.update(overrides)
         return LatentValueCandidate(**payload)
@@ -36,7 +44,18 @@ class LatentValueDiscoveryTests(unittest.TestCase):
         candidate = self._candidate()
         self.assertEqual(candidate.candidate_class(), CandidateClass.LATENT_VALUE_ACTIVATION)
         self.assertEqual(validate_candidate(candidate), [])
+        self.assertEqual(missing_validation_evidence(candidate), [])
         self.assertEqual(discovery_state(candidate), DiscoveryState.VALIDATION_READY)
+
+    def test_one_generic_source_cannot_make_story_validation_ready(self):
+        candidate = self._candidate(
+            evidence=(EvidenceRef("macro", "industry is changing"),),
+        )
+        errors = validate_candidate(candidate)
+        self.assertIn("missing:evidence_kind:ORIGIN_STATE", errors)
+        self.assertIn("missing:evidence_kind:COMPLEMENTARY_STATE", errors)
+        self.assertIn("missing:evidence_kind:STRANDING_BARRIER", errors)
+        self.assertEqual(discovery_state(candidate), DiscoveryState.COMPLEMENTARITY_HYPOTHESIS)
 
     def test_explicit_demand_execution_is_not_core_latent_value_discovery(self):
         candidate = self._candidate(source_mode="EXPLICIT_DEMAND")
@@ -70,6 +89,7 @@ class LatentValueDiscoveryTests(unittest.TestCase):
         self.assertIn("missing:hidden_or_underrecognized_value", errors)
         self.assertIn("missing:transformation_mechanism", errors)
         self.assertIn("explicit_demand_execution_is_not_core_latent_value_discovery", errors)
+        self.assertIn("missing:evidence_kind:ORIGIN_STATE", errors)
 
 
 if __name__ == "__main__":

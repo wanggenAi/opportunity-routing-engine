@@ -1,0 +1,183 @@
+{
+  "cycle": "DISCOVERY_CYCLE_002",
+  "batch": "HIDDEN_VALUE_BATCH_1",
+  "date": "2026-09-12",
+  "status": "RESEARCH_CANDIDATES_NOT_BUSINESS_WINNERS",
+  "candidates": [
+    {
+      "candidate_id": "LV-XZ-001",
+      "claimed_discovery_state": "COMPLEMENTARITY_HYPOTHESIS",
+      "actor": "Xuzhou engineering-machinery senior technicians, master technicians and skills studios",
+      "observed_state": "Xuzhou has a dense base of high-skill industrial workers and master-studio style skill transmission; practical fault diagnosis, tuning and process knowledge remains strongly person-bound.",
+      "observed_change": "Engineering machinery is shifting toward intelligent, service-oriented and global lifecycle operations while veteran workers are also being retrained for robot monitoring, parameter tuning and intelligent manufacturing roles.",
+      "hidden_or_underrecognized_value": "Rights-cleared tacit diagnostic heuristics, fault signatures, parameter-tuning logic and practical decision sequences that could become reusable diagnostic modules, training assets or evaluation data rather than disappearing inside individual experience.",
+      "why_value_is_not_recognized_or_realized": "Public evidence shows strong internal training and skill transmission, but does not yet show a trusted external rights, packaging, verification and settlement mechanism that turns person-bound know-how into a callable asset.",
+      "complementary_actor_hypothesis": "Smaller equipment owners, service firms, vocational training providers and industrial AI teams that need verified domain decision knowledge but cannot economically keep every senior expert available.",
+      "complementary_actor_state": "The local engineering-machinery ecosystem is expanding lifecycle service, digital O&M, global service and AI/high-quality-dataset activity, increasing the value of verified domain knowledge.",
+      "transformation_mechanism": "With employer/expert authorization, extract one narrow fault domain into anonymized decision trees, annotated cases, test questions and bounded remote-consultation rules; verify them on historical or sandbox cases before any external use.",
+      "why_exchange_does_not_already_happen": "Tacit knowledge is difficult to separate from the person, may contain employer trade secrets, lacks standardized rights and acceptance criteria, and has no proven cross-firm packaging interface.",
+      "incremental_value_for_origin_actor": "Authorized know-how can produce recognition, licensing/training income and succession value without requiring the expert to personally solve every future case.",
+      "incremental_value_for_complementary_actor": "Faster triage, better training and reduced dependence on scarce senior technicians if the knowledge module proves accurate and lawful.",
+      "orchestrator_value_capture_hypothesis": "Charge for rights-cleared knowledge extraction, verification, packaging, routing and usage settlement; do not own or sell employer trade secrets.",
+      "cheapest_decisive_validation": "Select one narrow non-confidential fault domain. Interview 3-5 senior technicians/master-studio leaders and their authorized employers about ownership, current reuse and external-rights boundaries; independently test whether 3-5 smaller service/training actors would use and pay for a verified module. Do not build software first.",
+      "kill_conditions": "Kill if rights cannot be cleared, knowledge cannot be abstracted beyond the expert, users require only the original expert, confidentiality dominates, or no measurable value/willingness to commit appears.",
+      "source_mode": "LATENT_VALUE_DISCOVERY",
+      "evidence": [
+        {
+          "source_id": "https://www.jiangsu.gov.cn/art/2026/5/25/art_33718_11775504.html",
+          "kind": "ORIGIN_STATE",
+          "claim": "Xuzhou added 1,535 technician-or-above qualified skilled workers in Jan-Apr 2026; master studios transmit practical skill and veteran workers are being retrained for intelligent manufacturing roles."
+        },
+        {
+          "source_id": "https://www.jiangsu.gov.cn/art/2026/7/21/art_33718_11808010.html",
+          "kind": "COMPLEMENTARY_STATE",
+          "claim": "Xuzhou is explicitly expanding engineering-machinery lifecycle services, digital O&M, remanufacturing, used-equipment circulation and global service capabilities."
+        },
+        {
+          "source_id": "https://www.xcmg.com/aboutus/news-detail-1128818.htm",
+          "kind": "VALUE_PRECEDENT",
+          "claim": "A 2026 engineering-machinery vehicle-network high-quality dataset project demonstrates that standardized industrial knowledge/data can become reusable AI infrastructure."
+        }
+      ],
+      "known_missing_evidence": ["STRANDING_BARRIER"]
+    },
+    {
+      "candidate_id": "LV-XZ-002",
+      "claimed_discovery_state": "OBSERVED_PATTERN",
+      "actor": "Independent engineering-machinery service shops, rental fleets, dealers and equipment operators outside the largest OEM data platforms",
+      "observed_state": "Maintenance traces, fault descriptions, replaced parts, technician notes and operating-context observations are generated during ordinary service activity, but the existence and ownership of a sufficiently reusable local dataset has not yet been proven.",
+      "observed_change": "The industry is actively building high-quality engineering-machinery datasets for design, manufacturing and predictive maintenance, raising the potential value of previously fragmented service traces.",
+      "hidden_or_underrecognized_value": "Distributed maintenance and failure traces may become valuable when rights-cleared, normalized, de-identified and aggregated across actors.",
+      "why_value_is_not_recognized_or_realized": "This remains a search hypothesis: smaller actors may store records only for operational use, with inconsistent formats and unclear rights, while no public evidence yet proves a reusable cross-actor pool.",
+      "complementary_actor_hypothesis": "Industrial AI/model teams, parts makers, insurers, training providers or fleet operators needing failure-pattern evidence that single actors cannot generate alone.",
+      "complementary_actor_state": "Engineering-machinery AI and predictive-maintenance initiatives need high-quality, scenario-rich data and are extending toward parts and aftermarket use cases.",
+      "transformation_mechanism": "Inventory actual record types first; only if lawful and useful, normalize schemas, strip sensitive identifiers, define rights, quality labels and allowed uses, then form a governed data cooperative or licensed dataset.",
+      "why_exchange_does_not_already_happen": "Potential fragmentation, data quality variance, confidentiality, ownership ambiguity and absence of a trusted data-governance mechanism.",
+      "incremental_value_for_origin_actor": "Potential new value from operational traces that otherwise remain cost-center records, plus benchmarking or diagnostic feedback if permitted.",
+      "incremental_value_for_complementary_actor": "Broader failure coverage and lower data-acquisition cost if the dataset is real, representative and lawful.",
+      "orchestrator_value_capture_hypothesis": "Governance, normalization and licensing/usage fee only after rights and incremental value are proven.",
+      "cheapest_decisive_validation": "Interview 5-10 independent service/rental actors to inspect what records actually exist, who owns them, retention format and whether they are already exploited. No data copying before authorization.",
+      "kill_conditions": "Kill if usable records do not exist, OEM contracts prohibit reuse, data is too sparse/non-comparable, privacy/trade-secret risk is unacceptable, or counterpart value is already fully captured by existing platforms.",
+      "source_mode": "LATENT_VALUE_DISCOVERY",
+      "evidence": [
+        {
+          "source_id": "https://www.xcmg.com/aboutus/news-detail-1128818.htm",
+          "kind": "GENERAL_PATTERN",
+          "claim": "The sector is explicitly investing in high-quality vehicle-network datasets for predictive maintenance and aftermarket extension."
+        }
+      ],
+      "known_missing_evidence": ["ORIGIN_STATE", "COMPLEMENTARY_STATE", "STRANDING_BARRIER"]
+    },
+    {
+      "candidate_id": "LV-XZ-003",
+      "claimed_discovery_state": "VALIDATION_READY",
+      "actor": "China University of Mining and Technology research/technology-transfer ecosystem in Xuzhou",
+      "observed_state": "CUMT reports 8,619 valid domestic invention patents and operates technology-transfer, technology-manager and concept-validation mechanisms; recent transfers show real but often individually scoped commercialization events.",
+      "observed_change": "Xuzhou and Jiangsu are strengthening concept validation, technology-manager deployment and industry-facing transfer mechanisms while local technology SMEs are expanding.",
+      "hidden_or_underrecognized_value": "The latent asset may be not one patent but a rights-cleared technology capability bundle: related patents + inventor tacit know-how + validation path + test capability + implementation boundary, packaged around one industrial outcome.",
+      "why_value_is_not_recognized_or_realized": "Patent-by-patent listings and event-based expert matching can leave cross-patent combinations, inventor know-how and validation capability fragmented even when each component is already recognized separately.",
+      "complementary_actor_hypothesis": "Xuzhou technology/manufacturing SMEs with upgrade problems too specific for generic consulting but too small to justify building full internal R&D capability.",
+      "complementary_actor_state": "Xuzhou has hundreds of technology SMEs and specialist-enterprise cultivation targets; recent expert-enterprise visits exposed real technology-upgrade problems and explicitly called for a dynamic demand ledger and precise expert matching.",
+      "transformation_mechanism": "Choose one narrow industrial outcome, build a 3-5-asset bundle with an authorized inventor/manager and concept-validation route, translate it into a bounded pilot option, then test with a small set of firms before any full license transfer.",
+      "why_exchange_does_not_already_happen": "Research assets, inventor availability, enterprise problem language, validation cost and licensing terms are split across institutions and documents; current actors still need translation and combination work.",
+      "incremental_value_for_origin_actor": "More commercialization paths for existing research assets and inventor capability without relying only on one-off patent listings.",
+      "incremental_value_for_complementary_actor": "Lower-cost access to a pre-composed, testable technology capability rather than searching and integrating multiple research assets alone.",
+      "orchestrator_value_capture_hypothesis": "Success/option fee or project-orchestration margin for assembling, translating and validating the bundle, subject to university rules and transparent authorization; never claim ownership of the IP.",
+      "cheapest_decisive_validation": "Select one CUMT technology cluster relevant to a real local industry problem. With the technology-transfer office/authorized manager, compose one bundle and test 10 target SMEs for a concrete pilot/LOI/deposit-equivalent commitment rather than generic interest.",
+      "kill_conditions": "Kill if the university already provides the same bundled function efficiently, rights/approval prevent third-party orchestration, firms value only isolated patents, transaction cycles are uneconomic, or no bounded pilot commitment appears.",
+      "source_mode": "LATENT_VALUE_DISCOVERY",
+      "evidence": [
+        {
+          "source_id": "https://www.cumt.edu.cn/xxgk/xxjj.htm",
+          "kind": "ORIGIN_STATE",
+          "claim": "CUMT reports 8,619 valid domestic invention patents and established technology-transfer capabilities."
+        },
+        {
+          "source_id": "https://kxjst.jiangsu.gov.cn/art/2026/6/29/art_82538_11796235.html",
+          "kind": "COMPLEMENTARY_STATE",
+          "claim": "A 2026 Xuzhou event sent 100 experts into 40 enterprises, surfaced concrete technical problems and recommended a dynamic enterprise technology-demand ledger for precise matching."
+        },
+        {
+          "source_id": "https://news.cumt.edu.cn/info/1002/73055.htm",
+          "kind": "STRANDING_BARRIER",
+          "claim": "CUMT placed technology managers at its concept-validation center specifically to link project teams and push transfer, evidencing a translation/connection layer between research assets and commercialization."
+        },
+        {
+          "source_id": "https://dsi.cumt.edu.cn/info/1141/8359.htm",
+          "kind": "VALUE_PRECEDENT",
+          "claim": "A September 2026 CUMT two-patent transfer was publicly priced at RMB 60,000, confirming real transactions while also showing individually scoped asset transfer."
+        }
+      ],
+      "known_missing_evidence": []
+    },
+    {
+      "candidate_id": "LV-XZ-004",
+      "claimed_discovery_state": "VALIDATION_READY",
+      "actor": "Xuzhou manufacturing/technology SMEs with individually small or irregular technical problems",
+      "observed_state": "Technology problems are distributed across many firms and often surface only through site visits, while each individual problem may be too small, uncertain or context-heavy to attract an efficient specialist response.",
+      "observed_change": "Public programs are increasingly sending experts into firms and building technology-demand matching mechanisms, indicating that the cost of discovering and translating dispersed problems is itself material.",
+      "hidden_or_underrecognized_value": "A set of fragmented deficits can itself become a resource when normalized and aggregated: repeated problem classes create purchasing power, a training signal, a reusable test benchmark and a market map for expert/lab capacity.",
+      "why_value_is_not_recognized_or_realized": "Each firm experiences its issue as a local problem rather than as part of a cross-firm demand asset; confidentiality and inconsistent problem descriptions prevent easy aggregation.",
+      "complementary_actor_hypothesis": "University experts, public labs, testing platforms, specialist engineers and technology providers whose capacity becomes more economical when multiple similar problems are grouped.",
+      "complementary_actor_state": "Xuzhou is expanding university-industry expert mechanisms, technology-manager systems and public engineering/robotics service infrastructure that can potentially serve grouped problem classes.",
+      "transformation_mechanism": "Collect only authorized problem metadata, strip confidential identifiers, classify repeatable problem archetypes, aggregate minimum viable cohorts and offer one bounded expert/test/solution batch with shared acceptance language.",
+      "why_exchange_does_not_already_happen": "Problem language is non-standard, firms do not see their deficits as aggregatable assets, expert discovery is costly, and each side lacks visibility into repeated cross-firm patterns.",
+      "incremental_value_for_origin_actor": "Lower search/consulting/test cost and access to better specialists through cohort economics without disclosing unnecessary proprietary detail.",
+      "incremental_value_for_complementary_actor": "A denser, qualified problem cohort rather than expensive one-firm-at-a-time acquisition.",
+      "orchestrator_value_capture_hypothesis": "Transparent cohort-formation, translation and routing fee or a share of verified savings; no fee simply for selling contact lists.",
+      "cheapest_decisive_validation": "Use 10-20 authorized SME problem summaries from one narrow domain. Test whether at least 3 genuinely share an abstractable problem class and whether one expert/lab can offer a cheaper or better cohort solution than separate engagements.",
+      "kill_conditions": "Kill if problems cannot be abstracted without losing essential context, confidentiality blocks aggregation, cohort economics do not improve outcomes, or firms/expert providers can already aggregate efficiently.",
+      "source_mode": "LATENT_VALUE_DISCOVERY",
+      "evidence": [
+        {
+          "source_id": "https://kxjst.jiangsu.gov.cn/art/2026/6/29/art_82538_11796235.html",
+          "kind": "ORIGIN_STATE",
+          "claim": "100 experts visited 40 Xuzhou enterprises and surfaced concrete technical-upgrade problems directly in workshops and labs."
+        },
+        {
+          "source_id": "https://www.jiangsu.gov.cn/art/2025/12/1/art_33718_11685026.html",
+          "kind": "COMPLEMENTARY_STATE",
+          "claim": "Xuzhou has a large and growing technology-SME/specialist-enterprise base, including 313 firms in one 2025 technology-SME batch and a 410-firm specialist cultivation pool."
+        },
+        {
+          "source_id": "https://kxjst.jiangsu.gov.cn/art/2026/6/29/art_82538_11796235.html",
+          "kind": "STRANDING_BARRIER",
+          "claim": "A visiting professor explicitly recommended a dynamic enterprise technology-demand ledger and precise expert matching, evidencing persistent discovery/translation fragmentation."
+        }
+      ],
+      "known_missing_evidence": []
+    },
+    {
+      "candidate_id": "LV-XZ-005",
+      "claimed_discovery_state": "COMPLEMENTARITY_HYPOTHESIS",
+      "actor": "Xuzhou malls, merchants, venues and service businesses with uneven time-of-day utilization",
+      "observed_state": "Xuzhou has a large merchant/first-store base and dense event-driven consumption network; public programs repeatedly use events and second venues to activate daytime/nighttime traffic.",
+      "observed_change": "Sports, culture and tourism flows are being deliberately converted into merchant traffic through ticket benefits, second venues, maps and themed events.",
+      "hidden_or_underrecognized_value": "Off-peak two-hour merchant/venue capacity may be treatable as programmable inventory rather than simply 'quiet time' if aggregated with a specific audience/event flow.",
+      "why_value_is_not_recognized_or_realized": "Public evidence proves traffic activation mechanisms but not actual idle-slot supply, merchant willingness or incremental margins; most merchants price products, not temporary experience capacity.",
+      "complementary_actor_hypothesis": "Event organizers, corporate groups, schools, tour groups and visiting fans needing ready-made short-duration experiences near existing traffic corridors.",
+      "complementary_actor_state": "Xuzhou and Jiangsu are expanding ticket-economy benefits, second venues and sport-commerce integration, producing concentrated but time-bounded audience flows.",
+      "transformation_mechanism": "Measure actual utilization by time block, option only genuinely idle capacity, standardize one short experience/package and route qualified groups into those slots with outcome tracking.",
+      "why_exchange_does_not_already_happen": "Merchant capacity is not standardized by time slot, event audiences are transient, attribution is weak and no proof yet shows enough incremental margin after discounts/coordination.",
+      "incremental_value_for_origin_actor": "Revenue from otherwise weak periods without discounting peak inventory if true off-peak capacity exists.",
+      "incremental_value_for_complementary_actor": "Convenient, pre-arranged experiences attached to an existing trip/event without searching merchant by merchant.",
+      "orchestrator_value_capture_hypothesis": "Share of verified incremental gross margin or paid group-package coordination only after baseline utilization is measured.",
+      "cheapest_decisive_validation": "Measure 20 candidate merchants/venues across specific two-hour blocks for two weeks or obtain trustworthy POS/booking utilization; option 3-5 truly idle slots and test one group/event route against baseline.",
+      "kill_conditions": "Kill if capacity is not actually idle, incremental spend is displaced from peak periods, discounting consumes margin, merchant onboarding is founder-sales heavy, or attribution cannot be measured.",
+      "source_mode": "LATENT_VALUE_DISCOVERY",
+      "evidence": [
+        {
+          "source_id": "https://www.jiangsu.gov.cn/art/2026/7/22/art_33718_11806775.html",
+          "kind": "ORIGIN_STATE",
+          "claim": "Xuzhou reports 805 first stores since the 14th Five-Year Plan, 180+ consumption-promotion events in one district in 2026, and night-consumption growth above 15% in linked clusters."
+        },
+        {
+          "source_id": "https://jsstyj.jiangsu.gov.cn/art/2026/8/13/art_40686_11815679.html",
+          "kind": "COMPLEMENTARY_STATE",
+          "claim": "Sports events in Xuzhou and other cities are being placed in commercial districts to activate daytime traffic, proving that bounded audience flows can change merchant utilization."
+        }
+      ],
+      "known_missing_evidence": ["STRANDING_BARRIER"]
+    }
+  ]
+}
