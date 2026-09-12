@@ -222,20 +222,22 @@ Before adding or materially expanding any feature, ask:
 
 If the answer to questions 1-4 is weak, the feature is not a core-priority feature even if it is technically useful.
 
-## 10. Executable value requires operator-access truth
+## 10. Executable value requires operator-access truth and counterpart-visible surplus
 
 The operator is also an `Actor` with real endowments, deficits, history, credibility, relationships, constraints and access rights.
 
-The engine must therefore evaluate two different truths:
+The engine must therefore evaluate three different truths:
 
 ```text
 VALUE / EXCHANGE TRUTH
 !=
 CURRENT OPERATOR ACCESS / EXECUTION FEASIBILITY
+!=
+COUNTERPARTY VISIBLE SURPLUS
 ```
 
 A latent-value hypothesis may be true while the current operator still lacks a legitimate route to the relevant actor.
-Likewise, an operator with substantial real-world experience, technical judgment, accumulated professional history, mature communication ability or cross-context experience must not be modeled as an empty cold caller merely because the operator lacks elite institutional status.
+A legitimate route may exist while the actor still has no concrete reason to participate.
 
 Relevant `OperatorEndowment` may include, where evidenced and appropriate:
 - years of real professional work;
@@ -253,31 +255,84 @@ Relevant `OperatorEndowment` may include, where evidenced and appropriate:
 
 These are **inputs to feasibility**, not entitlement to counterpart attention.
 
-Personal appearance, confidence or self-description may reduce first-contact friction but must not substitute for an actor-facing reason to engage.
+### Backing is a first-class resource
 
-For each material counterpart, ask:
+When the target actor is high-trust, high-status or institutionally controlled, prefer truthful borrowed legitimacy over unsupported personal outreach.
+
+Backing may come from:
+- a recognized institution;
+- employer or organizational authorization;
+- a government / park / association program;
+- a technology-transfer center;
+- a trusted sponsor or warm introducer;
+- a recognized professional role;
+- an already-committed complementary actor;
+- a partner whose reputation is accepted by the target actor.
+
+The system must ask:
+
+> **Who or what gives the operator a legitimate and credible reason to be in this conversation?**
+
+A public contact route is not automatically strong backing. A warm introducer, authorized program, employer mandate or already-committed counterpart may be materially stronger.
+
+### The counterpart must see concrete surplus
+
+Do not enter a relationship merely to explain to an actor that the actor has a problem, hidden resource or opportunity.
+
+The counterpart-facing question is:
+
+> **What does this actor concretely gain by participating, and why should the actor believe that gain is real?**
+
+Possible surplus includes, where evidenced:
+- more revenue or a higher realized price;
+- lower cost;
+- less downtime / scrap / failure loss;
+- higher asset/capability utilization;
+- a customer, order, project or funded route;
+- lower search / coordination / transaction cost;
+- lower risk;
+- access to a scarce capability, channel, market or relationship;
+- legitimate organizational recognition or policy/project benefit the actor actually values.
+
+The engine should prefer:
 
 ```text
-WHY SHOULD THIS ACTOR SPEND TIME / TRUST / REPUTATION HERE?
-WHAT DOES THE OPERATOR BRING BEFORE ASKING FOR ACCESS?
-WHAT LEGITIMATE ROUTE CONNECTS THEM?
-WHAT IS THE SMALLEST REVERSIBLE ASK?
-WHAT CREDIBILITY IS ALREADY REAL?
-WHAT CREDIBILITY IS STILL MISSING?
+CURRENT BASELINE
+-> PROPOSED EXCHANGE
+-> VISIBLE INCREMENTAL GAIN
+-> WHO BEARS COST / RISK
+-> WHEN GAIN BECOMES OBSERVABLE
+-> WHAT WOULD FALSIFY THE CLAIM
 ```
 
-Preferred entry paths are:
+### Analysis artifacts are subordinate
+
+A presentation, report, problem brief, model or analysis can support preparation or an already legitimate conversation.
+
+It is not a default credential and it is not the counterparty benefit.
 
 ```text
-PUBLIC / INSTITUTIONAL WINDOW
--> AUTHORIZED PROGRAM / EVENT
--> WARM REFERRAL
--> RECOGNIZED PROFESSIONAL ROLE
--> DIRECT COLD OUTREACH ONLY WITH A STRONG VALUE PACKET
+ANALYSIS != SURPLUS
+PPT / REPORT != HOOK BY DEFAULT
+PROBLEM EXPLANATION != COUNTERPARTY BENEFIT
+ACTOR HAS HIDDEN VALUE != ACTOR SHOULD WORK WITH US
 ```
 
-A counterpart's status, local face/reputation concerns, institutional boundaries and expected reciprocity are part of the exchange architecture when evidence shows they matter.
-They must be tested rather than stereotyped.
+If any lower-level document treats a `FIRST VALUE PACKET`, PPT, diagnosis or analysis artifact as a hard access credential by itself, this constitutional section overrides it.
+
+### Local field context
+
+Local norms around backing, oral trust, face, status and relationship can materially affect execution, but they are runtime field priors to test rather than universal facts.
+
+For a local candidate, record whether the first-contact decision is driven primarily by:
+- trusted introduction / backing;
+- real professional background;
+- orally legible economics;
+- institutional role;
+- direct measurable gain;
+- written material.
+
+Do not assign written artifacts artificial priority merely because they are easy for the software to represent.
 
 The system must never silently assume:
 
@@ -285,7 +340,8 @@ The system must never silently assume:
 PUBLIC ACTOR = ACCESSIBLE ACTOR
 VALUABLE ACTOR = CALLABLE RESOURCE
 OPERATOR SKILL = COUNTERPART TRUST
-MONEY = ONLY FORM OF RECIPROCITY
+PUBLIC WINDOW = STRONG BACKING
+ANALYSIS = COUNTERPARTY SURPLUS
 DISCOVERED VALUE = EXECUTABLE VALUE
 ```
 
@@ -313,6 +369,6 @@ The durable advantage is the ability to see and organize value that remains invi
 
 ## 12. Governing sentence
 
-> **先观其所自：不把世界预设成“需求方与供给方”，而是观察每个 Actor 已有什么、缺什么、正在发生什么、哪些价值被闲置、遮蔽、错配或尚未成形；再以证据证明潜在价值，以结构找到互补关系，同时诚实评估操盘者自身已有的能力、信用、入口与缺口；只有在价值真实、关系可达、交换有诚意、规则可接受时，才以信任、激励和可验收能力让原本彼此无关的价值发生连接，使价值流动、交换、沉淀并形成可持续循环。**
+> **先观其所自：不把世界预设成“需求方与供给方”，而是观察每个 Actor 已有什么、缺什么、正在发生什么、哪些价值被闲置、遮蔽、错配或尚未成形；再以证据证明潜在价值，以结构找到互补关系，同时诚实评估操盘者自身已有的能力、信用、后台、入口与缺口；只有在价值真实、关系可达、参与者能看见真实增量收益、规则可接受时，才以信任、激励和可验收能力让原本彼此无关的价值发生连接，使价值流动、交换、沉淀并形成可持续循环。**
 
 This doctrine is upstream of all implementation choices.
