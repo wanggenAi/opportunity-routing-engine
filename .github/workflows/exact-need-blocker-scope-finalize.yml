@@ -1,0 +1,104 @@
+name: exact-need-blocker-scope-finalize
+
+on:
+  push:
+    paths:
+      - ".github/workflows/exact-need-blocker-scope-finalize.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: codex/exact-need-blocker-scope
+      - name: Patch production assertions and formal truth
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          workflow = Path('.github/workflows/resource-imbalance-live.yml')
+          text = workflow.read_text(encoding='utf-8')
+          old = """          if blockers.get('query_strategy') != 'EXACT_PROJECT_ID_REVALIDATION_PLUS_EXPLICIT_TEXT_ONLY':
+              raise SystemExit('blocker collection policy drifted from explicit exact-project evidence')
+          for blocker in blockers.get('blockers', []):
+              if blocker.get('evidence_state') != 'OBSERVED':
+"""
+          new = """          if blockers.get('query_strategy') != 'EXACT_PROJECT_ID_REVALIDATION_PLUS_EXPLICIT_TEXT_ONLY':
+              raise SystemExit('blocker collection policy drifted from explicit exact-project evidence')
+          if blockers.get('blocker_scope') != 'EXACT_NEED_SIGNAL':
+              raise SystemExit('procurement blockers are not scoped to exact canonical needs')
+          for blocker in blockers.get('blockers', []):
+              project_id = blocker.get('project_id')
+              expected_need_signal_id = f'LIVE_NEED::XZ_GGZY::{project_id}' if project_id else None
+              if not project_id or blocker.get('need_signal_id') != expected_need_signal_id:
+                  raise SystemExit('procurement blocker exact project/need identity drifted')
+              if blocker.get('evidence_state') != 'OBSERVED':
+"""
+          if old not in text:
+              raise SystemExit('blocker assertion anchor not found')
+          text = text.replace(old, new, 1)
+
+          old2 = """          route_records = data['route_testable_records']
+          if data['route_testable_count'] != len(route_records):
+"""
+          new2 = """          blocker_signals = {
+              blocker['signal_id']: blocker for blocker in data['signals']['blockers']
+          }
+          for record in data['records']:
+              blocker_signal_id = record.get('blocker_signal_id')
+              if not blocker_signal_id:
+                  continue
+              blocker = blocker_signals.get(blocker_signal_id)
+              if blocker is None:
+                  raise SystemExit('record references blocker absent from canonical signals')
+              scoped_need = blocker.get('need_signal_id')
+              if scoped_need is not None and scoped_need != record.get('need_signal_id'):
+                  raise SystemExit('transaction-scoped blocker crossed canonical need identity')
+
+          route_records = data['route_testable_records']
+          if data['route_testable_count'] != len(route_records):
+"""
+          if old2 not in text:
+              raise SystemExit('record scope assertion anchor not found')
+          workflow.write_text(text.replace(old2, new2, 1), encoding='utf-8')
+
+          truth = Path('docs/FORMAL_TRUTH.md')
+          formal = truth.read_text(encoding='utf-8')
+          boundary = """Relisting != Proven Blocker Type
+Budget != Completed Payment
+DISCOVERED != OPTIONED
+UNKNOWN != PASS
+"""
+          replacement = """Relisting != Proven Blocker Type
+Transaction-Scoped Blocker != Capability-Wide Blocker
+Budget != Completed Payment
+DISCOVERED != OPTIONED
+UNKNOWN != PASS
+"""
+          if boundary not in formal:
+              raise SystemExit('formal truth hard-boundary anchor not found')
+          formal = formal.replace(boundary, replacement, 1)
+
+          live_rule = """- do not turn repeated asset listing into an observed blocker without evidence of the blocker type;
+- preserve the source item and the reason it did not promote.
+"""
+          live_replacement = """- do not turn repeated asset listing into an observed blocker without evidence of the blocker type;
+- bind source-specific transaction blockers to the exact need/transaction identity; capability and geography equality alone are insufficient;
+- preserve the source item and the reason it did not promote.
+"""
+          if live_rule not in formal:
+              raise SystemExit('formal truth live-normalization anchor not found')
+          truth.write_text(formal.replace(live_rule, live_replacement, 1), encoding='utf-8')
+          PY
+          git rm .github/workflows/exact-need-blocker-scope-finalize.yml
+          git diff --check
+          git diff -- .github/workflows/resource-imbalance-live.yml docs/FORMAL_TRUTH.md
+          git config user.name "wanggen"
+          git config user.email "31836791+wanggenAi@users.noreply.github.com"
+          git add .github/workflows/resource-imbalance-live.yml docs/FORMAL_TRUTH.md
+          git commit -m "Lock exact need blocker scope in production truth"
+          git push origin HEAD:codex/exact-need-blocker-scope
