@@ -1,0 +1,59 @@
+name: ggzy-contract-source-probe
+
+on:
+  push:
+    branches:
+      - codex/official-contract-source-probe
+    paths:
+      - ".github/workflows/ggzy-contract-source-probe.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  inspect-secure-government-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Inspect national public resource query surface
+        run: |
+          python - <<'PY'
+          import re
+          import urllib.parse
+          import urllib.request
+
+          base = "https://www.ggzy.gov.cn/"
+          req = urllib.request.Request(base, headers={"User-Agent": "Mozilla/5.0 (compatible; OpportunityRoutingEngine/0.1)"})
+          with urllib.request.urlopen(req, timeout=15) as r:
+              raw = r.read(1000000)
+              text = raw.decode(r.headers.get_content_charset() or "utf-8", errors="replace")
+              print("STATUS", r.status, "FINAL", r.geturl(), "BYTES", len(raw))
+
+          scripts = re.findall(r'<script[^>]+src=["\']([^"\']+)', text, re.I)
+          print("SCRIPTS", scripts)
+          for line in text.splitlines():
+              lower = line.lower()
+              if any(k in lower for k in ("keyword", "交易查询", "information", "search", "ajax", "0203", "采购合同")):
+                  print("HTML", line.strip())
+
+          for src in scripts:
+              url = urllib.parse.urljoin(base, src)
+              if not url.startswith("https://www.ggzy.gov.cn/"):
+                  continue
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; OpportunityRoutingEngine/0.1)"})
+                  with urllib.request.urlopen(req, timeout=10) as r:
+                      body = r.read(500000)
+                      js = body.decode(r.headers.get_content_charset() or "utf-8", errors="replace")
+                  hits = []
+                  for line in js.splitlines():
+                      lower = line.lower()
+                      if any(k in lower for k in ("transaction", "information", "keyword", "search", "ajax", "deal")):
+                          hits.append(line.strip())
+                  if hits:
+                      print("\nJS", url, "BYTES", len(body))
+                      for hit in hits[:120]:
+                          print(hit[:2000])
+              except Exception as exc:
+                  print("JS_ERROR", url, type(exc).__name__, repr(exc))
+          PY
