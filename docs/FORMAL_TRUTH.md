@@ -4,7 +4,8 @@ Last updated: 2026-09-12
 
 This document is the current commercial source of truth. Historical rankings and launch designs remain evidence, but they do not override the current truth stated here.
 
-Canonical foundations:
+Canonical foundations, in precedence order:
+- `docs/LATENT_VALUE_DOCTRINE.md`
 - `docs/RESOURCE_ACTIVATION_THESIS.md`
 - `docs/DATA_SOURCE_REGISTRY.md`
 - `docs/DISCOVERY_ENGINE.md`
@@ -16,29 +17,53 @@ Canonical foundations:
 - `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
 - `docs/OPPORTUNITY_SCORECARD.md`
 
-## 0. Resource activation purpose — LOCKED
+`docs/LATENT_VALUE_DOCTRINE.md` is constitutional. Lower-level models, source adapters, current candidates and implementation convenience cannot override it.
 
-The system does not exist merely to find a product to sell.
+## 0. Latent-value purpose — LOCKED
+
+The system does not exist merely to find a product, explicit demand, supplier, lead or already-visible transaction.
 
 Its highest-level commercial purpose is:
 
-> **discover underused, overlooked, fragmented, stranded or misallocated resources/capabilities; identify real unmet deficits; then design transparent, accepted and repeatable exchanges that let surplus and shortage create value for each other.**
+> **observe actors and reality deeply enough to discover value that is idle, hidden, fragmented, mispriced, misallocated, uncombined or not yet recognized by the actors themselves; identify complementary actor structures; prove what is real; then design transparent, accepted and repeatable exchanges that allow that value to circulate.**
 
-The system searches both sides:
+The system does not begin from a permanent `DEMAND SIDE -> SUPPLY SIDE` split.
+
+Every actor may simultaneously contain:
+- resources;
+- deficits;
+- capabilities;
+- underuse;
+- trust;
+- access;
+- demand flow;
+- information;
+- relationships;
+- latent value that appears only in combination with another actor.
+
+The highest-order discovery model is:
 
 ```text
-VERIFIED NEED / DEFICIT
-+
-VERIFIED SURPLUS / UNDERUSED RESOURCE
-+
-OBSERVED TRANSACTION BLOCKER
-→ BOUNDED RESOURCE-ACTIVATION ROUTE
-→ REAL-WORLD TEST
+ACTOR
+→ ENDOWMENT / STATE
+→ CHANGE
+→ BEHAVIOR
+→ FRICTION / UNDERUSE / MISALLOCATION
+→ LATENT_VALUE_HYPOTHESIS
+→ COMPLEMENTARY_ACTOR
+→ EXCHANGE_HYPOTHESIS
+→ BLOCKER
+→ EVIDENCE
+→ BOUNDED VALIDATION
 → ACCEPTED VALUE / SETTLEMENT
 → REPEAT / LEARNING / BETTER ALLOCATION
 ```
 
-Large population, broad demand, market growth or idle capacity alone is not an opportunity.
+`NeedSignal`, `ResourceSignal` and `BlockerSignal` are evidence projections inside this larger model. They do not define the whole ontology.
+
+The engine must **discover boldly and promote conservatively**.
+
+Hypothesis generation may be broad. Canonical promotion remains fail-closed and evidence-bound.
 
 Resource state must remain explicit:
 
@@ -61,26 +86,31 @@ MEASURED
 Therefore:
 
 ```text
+Potential Value != Proven Value
+Latent Value Hypothesis != Verified Resource
 resource exists != resource is spare
 resource is spare != provider will supply it
 DISCOVERED != OPTIONED
+Complementarity != Transactionability
+UNKNOWN != PASS
 ```
 
 ## 1. System identity — LOCKED
 
-The project is an **Actor-First Regenerative Resource Orchestration Engine** with two distinct halves.
+The project is an **Actor-First Regenerative Latent-Value Orchestration Engine** with two distinct halves.
 
 ```text
 DISCOVERY ENGINE
 Data Sources
-→ Macro
-→ Money Flow
-→ Market / Industry
+→ Macro / Money Flow / Market Structure
 → Actor
+→ Endowment / State / Change
 → Psychology / Behavior
-→ Case Mining
-→ Need / Resource / Blocker Signals
-→ Resource Imbalance
+→ Friction / Underuse / Misallocation
+→ Latent Value Hypothesis
+→ Complementary Actor Search
+→ Need / Resource / Blocker Evidence Projections
+→ Resource Imbalance / Exchange Hypothesis
 → Comparable Candidate Pool
 → G0-G6 Ranking
 
@@ -92,22 +122,27 @@ Selected Route-Testable Candidate
 → Resource Routing
 → Incentives / Trust / Acceptance
 → Execution / Settlement
-→ Repeat / Learning
+→ Repeat / Learning / Better Allocation
 ```
 
 The discovery half must run before a business opportunity becomes canonical. The orchestration half captures a selected opportunity without turning the operator into the permanent salesperson or provider.
 
+A source adapter is an observer, not the strategy.
+A data field is an observation, not the ontology.
+A procurement feed is one sensor, not the business model.
+A current candidate is a sample, not the identity of the engine.
+
 ## 2. Discovery truth — LOCKED
 
-Do not start from the operator's skills, a favored technology, an old launch document or one remembered idea.
+Do not start from the operator's skills, a favored technology, an old launch document, one remembered idea, a supplier catalog or an explicit demand feed.
 
-Start from:
+Start from broad reality:
 - GDP / sector structure;
 - CPI / core CPI / service CPI;
 - PPI / PMI / industrial production;
 - household income/expenditure;
 - retail / service retail / online consumption;
-- employment / hiring;
+- employment / hiring / layoffs / project cycles;
 - fixed investment / equipment investment;
 - money / credit / deposits / loans where useful;
 - imports / exports / cross-region flows;
@@ -116,7 +151,12 @@ Start from:
 - technology change;
 - local industry/service-chain change;
 - psychology and actual behavior;
-- observable idle/underused skills, assets, channels and capacity.
+- repeated manual work and workarounds;
+- idle/underused skills, assets, channels and capacity;
+- low utilization, repeated repricing, excess inventory and stranded assets;
+- relationships, trust, reputation, distribution and installed-base resources;
+- fragmented resources or demand that become valuable only after aggregation;
+- combinations whose value is not visible when each actor is viewed alone.
 
 Then zoom:
 
@@ -125,10 +165,16 @@ China
 → Jiangsu
 → Xuzhou
 → district/county/industry/actor cluster
-→ exact need/resource/blocker
+→ actor endowment/state/change
+→ observed friction/underuse/misalallocation
+→ latent value hypothesis
+→ complementary actor
+→ exact need/resource/blocker evidence
 → exact payer
 → exact transaction route
 ```
+
+The engine must search for **what actors may not know about themselves**: hidden capability, hidden deficit, underused relationships, packaging gaps, coordination gaps and unrealized exchange structures.
 
 Macro growth is search-direction evidence, not business proof.
 
@@ -142,6 +188,8 @@ Missing/stale data reduces confidence. `missing != zero`.
 
 Prefer lawful free/open/official data for the MVP. Paid connectors are not required merely to make the system look complete.
 
+A data source must not redefine the ontology. Source-specific fields map into the world model; the world model must not be redesigned around the easiest available field.
+
 ## 4. Money-flow truth — LOCKED
 
 Ask:
@@ -153,6 +201,8 @@ Track levels, growth, acceleration, share shifts, national/provincial/local dive
 `nominal_growth != real_demand_growth`.
 
 A public procurement budget is evidence of an intended bounded purchase process. It is not automatically evidence of completed payment, supply scarcity, private-market demand or orchestration margin.
+
+Money-flow evidence can reveal actor changes and latent-value search zones, but money movement alone does not prove an exchange opportunity.
 
 ## 5. Psychology / behavior truth — LOCKED
 
@@ -172,9 +222,11 @@ Continuously mine success and failure mechanisms:
 
 ```text
 context change
-→ actor behavior change
-→ friction / resource imbalance
-→ opportunity insight
+→ actor state / behavior change
+→ friction / underuse / misallocation
+→ latent-value insight
+→ complementary actor structure
+→ exchange hypothesis
 → first hook
 → first payer commitment
 → resource stack
@@ -188,7 +240,9 @@ context change
 
 ## 7. Resource Imbalance truth — LOCKED
 
-Before calling something an opportunity, separately prove:
+`Need / Resource / Blocker` is the current fail-closed evidence gate for transaction promotion. It is not the whole discovery ontology.
+
+Before calling an exchange route testable, separately prove:
 
 ```text
 VERIFIED NEED / DEFICIT
@@ -221,8 +275,13 @@ ROUTE_TESTABLE
 Hard boundaries:
 
 ```text
+Potential Value != Proven Value
+Latent Value Hypothesis != Verified Resource
+Observed Friction != Paid Need
 Paid Need != Resource Imbalance
 Resource Exists != Resource Is Underused
+Underused != Available
+Complementarity != Transactionability
 Relisting != Underuse
 Relisting != Proven Blocker Type
 Transaction-Scoped Blocker != Capability-Wide Blocker
@@ -238,10 +297,10 @@ For procurement lifecycle evidence, matching `project_id` is necessary but not s
 
 ## 8. Live evidence normalization truth — LOCKED
 
-The current production objective is to connect live source adapters to the Resource Imbalance Engine without semantic invention.
+The current production objective is to connect live source adapters to the broader latent-value discovery model and Resource Imbalance Engine without semantic invention.
 
 Live normalization rules:
-- use narrow, auditable capability classification;
+- use narrow, auditable capability classification where canonical promotion is involved;
 - ambiguous or unclassified evidence stays unbound;
 - do not use LLM confidence to manufacture a capability identity;
 - do not infer payer from beneficiary, project title or budget holder language without source evidence;
@@ -249,9 +308,10 @@ Live normalization rules:
 - do not turn repeated asset listing into an observed blocker without evidence of the blocker type;
 - bind source-specific transaction blockers to the exact need/transaction identity; capability and geography equality alone are insufficient;
 - for explicitly multi-package procurement, preserve package scope through lifecycle evidence; package-specific or package-unresolved settlement must not promote a project-level Need;
-- preserve the source item and the reason it did not promote.
+- preserve the source item and the reason it did not promote;
+- preserve upstream actor/state/friction observations even when they are not yet canonical Need/Resource/Blocker signals.
 
-The unified live imbalance ledger should therefore show not only promoted pairs, but also why evidence remained `NEED_ONLY`, `RESOURCE_ONLY`, `PAIR_HYPOTHESIS` or unbound.
+The unified live evidence system should show not only promoted pairs, but also why evidence remained hypothesis, `NEED_ONLY`, `RESOURCE_ONLY`, `PAIR_HYPOTHESIS` or unbound.
 
 ## 9. Hook truth — LOCKED
 
@@ -264,7 +324,8 @@ A credible Hook may be:
 - measurable result/pilot;
 - trusted distribution/channel access;
 - optioned idle capacity/resource;
-- transparent conditional economics.
+- transparent conditional economics;
+- a newly packaged or aggregated latent resource with explicit acceptance conditions.
 
 Never represent a discovered/hypothetical resource as controlled.
 
@@ -285,7 +346,7 @@ This is not permission for false demand, deceptive promises or hidden liabilitie
 
 The atomic execution unit is a `CapabilityUnit`, not a person/job title.
 
-The operator preferentially owns systems analysis, structural judgment, actor/resource mapping, Hook design, transaction architecture, capability decomposition, acceptance/interface design, incentive design, route approval, trust/risk boundaries, exception arbitration and learning updates.
+The operator preferentially owns systems analysis, structural judgment, latent-value discovery, actor/resource mapping, Hook design, transaction architecture, capability decomposition, acceptance/interface design, incentive design, route approval, trust/risk boundaries, exception arbitration and learning updates.
 
 Routine acquisition, sourcing, coding, research, delivery, QA, support and logistics are routable capabilities where feasible.
 
@@ -294,15 +355,15 @@ Routine acquisition, sourcing, coding, research, delivery, QA, support and logis
 A core project must behave like a circulation system:
 
 ```text
-Demand Pump
-→ repeated task/order events
+Latent Value / Demand Pump
+→ repeated task/order/resource events
 → reusable transaction/capability templates
-→ replenishing/replaceable supply
+→ replenishing/replaceable resources
 → accepted outcomes
 → settlement
 → performance/trust data
-→ better routing / lower future failure cost
-→ more transactions
+→ better discovery/routing / lower future failure cost
+→ more value activation
 ↺
 ```
 
@@ -325,8 +386,8 @@ G4-G6 must all PASS before a candidate becomes a core repeatable platform wedge.
 ## 14. Evidence maturity — LOCKED
 
 ```text
-L0 statement
-L1 observed behavior/workaround
+L0 statement / latent-value hypothesis
+L1 observed behavior/workaround/state change
 L2 exact terms accepted verbally
 L3 real commitment/deposit/signed task
 L4 completed accepted transaction + settlement
@@ -338,8 +399,11 @@ L7 recurring Demand Pump produces multiple transactions and routing improves
 ## 15. Commercial truth rules — LOCKED
 
 ```text
+Potential Value != Proven Value
+Latent Value Hypothesis != Verified Resource
 Complaint != Demand
 Demand != Willingness to Pay
+Observed Friction != Paid Need
 Trend != Business
 Growth != Money-Flow Understanding
 Market Size != Customer Acquisition
@@ -347,6 +411,8 @@ Social Salience != Population Share
 Success Story != Base Rate
 Idle Resource != Valuable Resource
 Resource Existence != Resource Control
+Underused != Available
+Complementarity != Transactionability
 Introduction != Orchestration Value
 Founder Free Labor != Profit
 Capability Claim != Capability Proof
@@ -389,19 +455,24 @@ No candidate receives first-found privilege or survives merely because a launch 
 A candidate may become current #1 only after a fresh comparable cycle based on the current evidence discipline:
 
 ```text
-live need evidence
+actor/state/change observation
++ latent-value hypothesis
++ complementary actor hypothesis
++ live need evidence
 + live resource/underuse evidence
 + observed blocker evidence
-→ Resource Imbalance classification
+→ Resource Imbalance / exchange classification
 → evidence-backed candidate pool
 → same G0-G6 comparison
 → selected Hook
 → cheapest decisive real-world test
 ```
 
-## 18. Current production evidence — 2026-09-11
+## 18. Current production evidence — 2026-09-12
 
-Working live evidence paths already include national/Jiangsu/Xuzhou money-flow sources, Xuzhou public procurement, regional financing evidence and public resource-underuse sensors.
+Working live evidence paths already include national/Jiangsu/Xuzhou money-flow sources, Xuzhou public procurement, regional financing evidence, public resource-underuse sensors and delegatable validation packets.
+
+These source paths are observers. They are not the engine's business identity.
 
 Resource-underuse Sensor 001 has verified that Xuzhou/Jiangsu official public-resource sources can expose:
 - discovered public assets;
@@ -411,44 +482,45 @@ Resource-underuse Sensor 001 has verified that Xuzhou/Jiangsu official public-re
 
 These facts prove resource/underuse evidence only within their exact scope. They do not prove compatible paid demand or a profitable route.
 
-The decisive engineering gap is now **integration**, not invention of another high-level framework:
+The production system currently preserves strict Resource Imbalance promotion while beginning to externalize evidence-acquisition work as delegatable field-validation packets.
 
-```text
-LIVE SOURCE ARTIFACTS
-→ canonical NeedSignal / ResourceSignal / BlockerSignal
-→ unified Resource Imbalance ledger
-→ explainable promotion / non-promotion
-→ fresh comparable opportunity ranking
-```
+The decisive next gap is to expand from source-specific explicit signals toward **broader actor-state and latent-value sensing**, without weakening canonical evidence gates.
 
 ## 19. Current next actions — CANONICAL
 
 Engineering priority:
-1. keep live money-flow and need sensors healthy;
-2. expand observable resource-underuse history and source coverage;
-3. normalize live evidence into canonical signal records;
-4. build and publish a daily auditable imbalance ledger;
-5. add blocker sensing only when blocker type/evidence is genuinely observed;
-6. improve payer-resolved paid-need evidence rather than treating budgets as payments;
-7. create a fresh broad candidate pool from the resulting imbalance evidence;
-8. apply the same G0-G6 ranking;
-9. select one strongest route-testable candidate and run the cheapest decisive real transaction test.
+1. maintain broad macro, money-flow, psychology, behavior and live evidence sensors;
+2. expand actor-state, change, utilization, underuse and latent-value sensing beyond already-stated demand;
+3. treat procurement/marketplace/listing feeds as observers rather than the ontology;
+4. normalize evidence into canonical signal records without losing upstream actor/state/friction observations;
+5. generate complementary-actor and exchange hypotheses from evidence, not imagination;
+6. preserve fail-closed payer, payment, underuse, blocker, package and identity gates;
+7. route field-solvable evidence gaps into delegatable validation tasks;
+8. create a fresh broad candidate pool from resulting evidence;
+9. apply the same G0-G6 ranking;
+10. select one strongest route-testable candidate and run the cheapest decisive real transaction test.
 
 ## 20. Software truth — LOCKED
 
 Do not build ERP, MES, WMS, CRM or a broad marketplace because they are adjacent to an opportunity.
 
-Discovery software is justified first where it removes repeated truth/research bottlenecks:
+Software is justified first where it removes repeated cognition, observation, evidence or orchestration bottlenecks:
 - source registry;
+- actor/state/change observations;
 - normalized money-flow signals;
 - psychology aggregation;
 - case records;
-- Need/Resource/Blocker signals;
+- latent-value hypotheses;
+- Need/Resource/Blocker evidence projections;
 - Resource Imbalance ledger;
+- complementary-actor / exchange hypotheses;
+- validation task generation;
 - opportunity ranking.
 
 Transaction software is justified only after repeated real transaction bottlenecks appear.
 
+Code must remain downstream of cognition and architecture. A technically elegant component that optimizes the wrong world model is negative progress.
+
 ## 21. Governing truth — LOCKED
 
-> **先把世界看清：维护数据源，追钱流，察人心，分别证明“谁缺、谁有余、为什么没成交”；任何一边靠想象补齐都只能停留在 UNKNOWN。只有当真实需要、真实闲置资源和真实阻塞点能在同一能力与地域上对齐，才允许进入低成本现实验证；再定结果、拆能力、调资源、设利益，让交换形成可持续循环。**
+> **先观其所自：不把世界预设成“需求方与供给方”，而是观察每个 Actor 已有什么、缺什么、正在发生什么、哪些价值被闲置、遮蔽、错配或尚未成形；再以证据证明潜在价值，以结构找到互补关系，以规则、信任、激励和可验收能力让原本彼此无关的价值发生连接。发现可以大胆，晋级必须保守；代码永远服务于认知与架构，任何具体网站、数据字段、现有候选都不得反过来定义系统。**
