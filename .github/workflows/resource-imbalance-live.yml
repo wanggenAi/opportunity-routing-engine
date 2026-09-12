@@ -9,6 +9,7 @@ on:
   push:
     paths:
       - "src/live_imbalance_ledger.py"
+      - "src/procurement_lifecycle.py"
       - "src/resource_imbalance.py"
       - "src/resource_signal_adapters.py"
       - "src/regional_adapters.py"
@@ -18,6 +19,7 @@ on:
       - "src/provider_evidence_seeds.py"
       - "src/validation_queue.py"
       - "scripts/build_live_resource_imbalance.py"
+      - "scripts/build_procurement_lifecycle.py"
       - "scripts/build_pair_validation_queue.py"
       - "scripts/collect_regional.py"
       - "scripts/collect_resource_underuse.py"
@@ -25,6 +27,8 @@ on:
       - "scripts/verify_xuzhou_procurement_result_seeds.py"
       - "data/xuzhou_procurement_result_seeds.csv"
       - "tests/test_live_imbalance_ledger.py"
+      - "tests/test_procurement_lifecycle.py"
+      - "tests/test_resource_imbalance.py"
       - "tests/test_xuzhou_procurement_results.py"
       - "tests/test_provider_evidence_seeds.py"
       - "tests/test_validation_queue.py"
@@ -79,6 +83,17 @@ jobs:
             --require-verified \
             --output .local/xz_seeded_procurement_awards.json
 
+      - name: Build exact procurement lifecycle
+        run: |
+          # Results are linked to current tenders only by exact project_id. Historical
+          # capability results with another project_id remain unlinked lifecycle evidence.
+          # No contract feed is supplied until a stable first-party source is normalized.
+          python scripts/build_procurement_lifecycle.py \
+            --tender-json .local/xz_procurement_events.json \
+            --result-json .local/xz_procurement_awards.json \
+            --result-json .local/xz_seeded_procurement_awards.json \
+            --output .local/xz_procurement_lifecycle.json
+
       - name: Collect native Xuzhou resource evidence
         run: |
           python scripts/collect_resource_underuse.py xuzhou-public-assets \
@@ -99,6 +114,7 @@ jobs:
             --provider-json .local/xz_seeded_procurement_awards.json \
             --resource-json .local/xz_public_asset_underuse.json \
             --resource-json .local/xz_agency_asset_underuse.json \
+            --lifecycle-json .local/xz_procurement_lifecycle.json \
             --output .local/xz_resource_imbalance_ledger.json
 
       - name: Build PAIR_HYPOTHESIS validation queue
@@ -118,6 +134,9 @@ jobs:
           seeded = json.loads(
               Path('.local/xz_seeded_procurement_awards.json').read_text(encoding='utf-8')
           )
+          lifecycle = json.loads(
+              Path('.local/xz_procurement_lifecycle.json').read_text(encoding='utf-8')
+          )
           queue = json.loads(
               Path('.local/xz_pair_validation_queue.json').read_text(encoding='utf-8')
           )
@@ -127,10 +146,49 @@ jobs:
           print('blocking_reason_counts:', data['blocking_reason_counts'])
           print('verified_seed_count:', seeded['verified_seed_count'])
           print('seeded_award_count:', seeded['award_count'])
+          print('lifecycle_stage_counts:', lifecycle['stage_counts'])
+          print('lifecycle_promotion_allowed_count:', lifecycle['promotion_allowed_count'])
           print('validation_queue_target_counts:', queue['target_counts'])
 
           if seeded['verified_seed_count'] < 1 or seeded['award_count'] < 1:
               raise SystemExit('navigation seeds produced no freshly verified official award evidence')
+          for award in seeded['awards']:
+              if not award.get('project_id') or not award.get('project_name'):
+                  raise SystemExit('verified seeded award lacks exact project identity')
+
+          if lifecycle.get('join_policy') != 'EXACT_PROJECT_ID_ONLY':
+              raise SystemExit('procurement lifecycle is not exact-project-id-only')
+          seen_projects = set()
+          for record in lifecycle['records']:
+              project_id = record.get('project_id')
+              if not project_id or project_id in seen_projects:
+                  raise SystemExit('lifecycle project identity is missing or duplicated')
+              seen_projects.add(project_id)
+              if record.get('exact_join_key') != project_id:
+                  raise SystemExit('lifecycle exact join key drifted from project_id')
+              for evidence in record.get('result_evidence', []):
+                  if evidence.get('project_id') != project_id:
+                      raise SystemExit('result evidence crossed exact project identity')
+              for evidence in record.get('contract_evidence', []):
+                  if evidence.get('project_id') != project_id:
+                      raise SystemExit('contract evidence crossed exact project identity')
+              if record.get('promotion_allowed'):
+                  if record.get('lifecycle_stage') != 'SETTLEMENT_PROVEN':
+                      raise SystemExit('PAID promotion allowed before settlement proof')
+                  if not record.get('payer_actor') or not record.get('settled_amount_rmb'):
+                      raise SystemExit('PAID promotion allowed without payer/settled amount')
+                  if not record.get('evidence_urls') or not record.get('provenance_hashes'):
+                      raise SystemExit('PAID promotion allowed without auditable source provenance')
+              elif record.get('lifecycle_stage') in {
+                  'TENDER_ONLY', 'RESULT_FOUND', 'CONTRACT_FOUND'
+              }:
+                  pass
+
+          embedded = data.get('procurement_lifecycle') or {}
+          if embedded.get('record_count') != lifecycle['record_count']:
+              raise SystemExit('ledger lifecycle record count does not match lifecycle artifact')
+          if embedded.get('promotion_allowed_count') != lifecycle['promotion_allowed_count']:
+              raise SystemExit('ledger lifecycle promotion count drifted from lifecycle artifact')
 
           route_records = data['route_testable_records']
           if data['route_testable_count'] != len(route_records):
