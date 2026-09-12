@@ -1,0 +1,64 @@
+{
+  "candidate_id": "LV-XZ-003A",
+  "parent_candidate_id": "LV-XZ-003",
+  "date": "2026-09-12",
+  "claimed_discovery_state": "COMPLEMENTARITY_HYPOTHESIS",
+  "actor": "Authorized China University of Mining and Technology research/technology-transfer teams with condition-monitoring, fault-diagnosis, digital-twin and edge-AI capabilities",
+  "observed_state": "Public CUMT faculty and platform evidence shows multiple independently developed capabilities around multi-source sensing, rotating-equipment fault diagnosis, heavy-gear prediction, digital twins, edge AI and equipment lifecycle/health management. These are research/capability signals only; transferability and rights for a concrete bundle remain UNKNOWN.",
+  "observed_change": "Xuzhou equipment manufacturers are pushing lifecycle service and intelligent O&M while public enterprise visits in 2026 surfaced high implementation cost for online monitoring and fault prediction as a real industrial pain.",
+  "hidden_or_underrecognized_value": "A low-cost condition-monitoring capability bundle may emerge from combining rights-cleared sensing, fault-diagnosis, digital-twin/degradation-analysis, edge-deployment and concept-validation elements around one narrow machine class and one measurable failure outcome. The latent value is the combination and validation route, not any isolated patent or faculty profile.",
+  "why_value_is_not_recognized_or_realized": "Public evidence proves separate research capabilities and general commercialization infrastructure but does not prove that an authorized low-cost bundle exists, that the required IP can be combined, or that target firms can buy it through one bounded interface.",
+  "complementary_actor_hypothesis": "Xuzhou small and mid-sized equipment manufacturers, parts makers, service firms or equipment operators that face costly downtime/failure risk but cannot justify a large OEM-scale monitoring platform.",
+  "complementary_actor_state": "A 2026 expert-enterprise visit publicly recorded a Xuzhou engineering-machinery enterprise reporting that fault prediction and online monitoring are difficult to deploy at acceptable cost, while the local engineering-machinery cluster is expanding digital O&M and lifecycle service.",
+  "transformation_mechanism": "With technology-transfer authorization, inventory 3-5 actually transferable/usable capability elements; choose one machine class and 1-2 failure modes; define a minimum sensor set, edge/data pipeline, diagnosis model, deployment boundary and measurable acceptance criteria; use concept validation or an authorized pilot to prove whether the combined route is cheaper or easier to adopt than a full platform project.",
+  "why_exchange_does_not_already_happen": "The relevant capabilities sit across separate faculty teams, projects, patents/software, validation facilities and enterprise problem statements. Research capability, transferable IP, productization responsibility and enterprise acceptance are different layers, and public evidence does not show a single actor already packaging them into this narrow outcome-based bundle.",
+  "incremental_value_for_origin_actor": "If authorized, existing research assets and validation capability gain an additional commercialization path centered on a bounded industrial outcome rather than isolated asset exposure.",
+  "incremental_value_for_complementary_actor": "A smaller firm could test predictive maintenance/condition monitoring through a narrow, measurable pilot with lower integration scope and lower search cost than assembling experts and technologies independently.",
+  "orchestrator_value_capture_hypothesis": "Only after university authorization and enterprise commitment: charge a transparent technology-manager/orchestration, pilot-design or success-linked fee for assembling rights-cleared assets, translating the industrial outcome, coordinating validation and closing the transaction. Never claim ownership of university IP or take fees for unverified contact introductions alone.",
+  "cheapest_decisive_validation": "Stage 1: through authorized CUMT technology-transfer/technology-manager channels, ask whether 3-5 concrete transferable assets or service capabilities can legally be combined around one machine class. Stage 2: independently interview 5-10 Xuzhou target firms on one failure mode and establish baseline downtime/inspection cost, current workaround and maximum acceptable pilot cost. Stage 3: proceed only if one university-side bundle can be authorized and at least one enterprise gives a concrete pilot/LOI/deposit-equivalent commitment with measurable acceptance criteria.",
+  "kill_conditions": "Kill or sharply downgrade if the required assets cannot be rights-cleared together; the university already offers the identical bundle efficiently; target firms need only generic equipment monitoring already served by commodity vendors; data/sensor installation cost eliminates the low-cost advantage; no firm will make a concrete bounded commitment; or the orchestrator adds no value beyond forwarding contacts.",
+  "source_mode": "LATENT_VALUE_DISCOVERY",
+  "evidence": [
+    {
+      "source_id": "https://faculty.cumt.edu.cn/JWH/zh_CN/yjfx/202982/content/2109.htm",
+      "kind": "ORIGIN_STATE",
+      "claim": "CUMT faculty research publicly covers multi-source sensing, industrial fault diagnosis, predictive maintenance, edge AI and deployed industrial energy/monitoring scenarios."
+    },
+    {
+      "source_id": "https://faculty.cumt.edu.cn/YK77/zh_CN/zhym/199264/list/index.htm",
+      "kind": "ORIGIN_STATE",
+      "claim": "CUMT research publicly includes rotating-equipment fault diagnosis and digital-twin-driven heavy-gear fault prediction, including 2026 projects."
+    },
+    {
+      "source_id": "https://faculty.cumt.edu.cn/lixin/zh_CN/index.htm",
+      "kind": "ORIGIN_STATE",
+      "claim": "CUMT research publicly includes intelligent diagnosis and O&M for complex electromechanical equipment and digital-twin-driven early fault diagnosis."
+    },
+    {
+      "source_id": "https://kxjst.jiangsu.gov.cn/art/2026/6/29/art_82538_11796235.html",
+      "kind": "COMPLEMENTARY_STATE",
+      "claim": "A 2026 Xuzhou expert-enterprise visit recorded a real engineering-machinery pain: fault prediction and online monitoring are costly to implement, alongside broader digitalization gaps."
+    },
+    {
+      "source_id": "https://news.cumt.edu.cn/info/1002/73055.htm",
+      "kind": "GENERAL_PATTERN",
+      "claim": "CUMT uses technology managers stationed at a concept-validation center to connect project teams and accelerate technology transfer, showing an authorized translation mechanism exists in principle."
+    },
+    {
+      "source_id": "https://nttc.cumt.edu.cn/info/1049/2163.htm",
+      "kind": "VALUE_PRECEDENT",
+      "claim": "CUMT concept-validation rules explicitly support principle, prototype, technical, scenario and commercial validation for IP-clear technology projects and provide follow-on transfer support."
+    }
+  ],
+  "known_missing_evidence": [
+    "STRANDING_BARRIER"
+  ],
+  "explicit_unknowns": [
+    "Which exact patents/software/technical secrets/services are transferable for this bundle",
+    "Whether different faculty/team assets can be combined under one authorized transaction",
+    "Which machine class and failure modes create the best low-cost pilot economics",
+    "Enterprise baseline downtime and current monitoring cost",
+    "Enterprise willingness to make a concrete pilot commitment",
+    "University technology-manager/orchestrator fee and approval structure"
+  ]
+}
