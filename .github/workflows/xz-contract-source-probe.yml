@@ -13,11 +13,12 @@ permissions:
 jobs:
   inspect-xuzhou-contract-source:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 2
     steps:
-      - name: Inspect Xuzhou contract list loader
+      - name: Probe contract list loader with bounded script fetches
         run: |
           python - <<'PY'
+          import concurrent.futures
           import re
           import urllib.parse
           import urllib.request
@@ -29,49 +30,44 @@ jobs:
               "Referer": LIST,
           }
 
-          def fetch(url):
+          def fetch(url, timeout=6):
               req = urllib.request.Request(url, headers=HEADERS)
-              with urllib.request.urlopen(req, timeout=20) as r:
-                  raw = r.read(2000000)
+              with urllib.request.urlopen(req, timeout=timeout) as r:
+                  raw = r.read(1000000)
                   enc = r.headers.get_content_charset() or "utf-8"
-                  try:
-                      text = raw.decode(enc, errors="strict")
-                  except Exception:
-                      text = raw.decode("utf-8", errors="replace")
-                  return r.status, r.geturl(), r.headers.get("content-type", ""), raw, text
+                  return r.status, r.geturl(), r.headers.get("content-type", ""), raw.decode(enc, errors="replace")
 
-          status, final, ct, raw, html = fetch(LIST)
-          print("LIST", status, final, ct, "BYTES", len(raw))
-          scripts = re.findall(r'<script[^>]+src=["\']([^"\']+)', html, re.I)
-          print("SCRIPTS", scripts)
-          print("\n=== RELEVANT HTML ===")
+          status, final, ct, html = fetch(LIST)
+          print("LIST", status, final, ct, "CHARS", len(html))
+          scripts = [urllib.parse.urljoin(LIST, src) for src in re.findall(r'<script[^>]+src=["\']([^"\']+)', html, re.I)]
+          scripts = [u for u in scripts if u.startswith("https://ggzy.zwb.xz.gov.cn/")]
+          print("SCRIPTS")
+          for u in scripts:
+              print(u)
+
+          print("\nINLINE")
           for idx, line in enumerate(html.splitlines()):
-              lower = line.lower()
-              if any(k in lower for k in ("003004007", "list", "ajax", "page", "query", "search", "api", "category", "jyxx")):
+              low = line.lower()
+              if any(k in low for k in ("003004007", "ajax", "api", "search", "query", "pageindex", "pagesize", "categorynum", "url:")):
                   print(f"{idx+1:04d}: {line.strip()[:5000]}")
 
-          print("\n=== SCRIPT CONTEXTS ===")
-          for src in scripts:
-              url = urllib.parse.urljoin(LIST, src)
-              if not url.startswith("https://ggzy.zwb.xz.gov.cn/"):
-                  continue
+          def inspect(url):
               try:
-                  s, f, c, body, js = fetch(url)
+                  s, f, c, js = fetch(url, timeout=6)
                   lines = js.splitlines()
-                  hits = []
-                  for idx, line in enumerate(lines):
-                      lower = line.lower()
-                      if any(k in lower for k in ("003004007", "categorynum", "url:", "ajax", "pageindex", "pagesize", "query", "search", "jyxx", "getlist")):
-                          hits.append(idx)
-                  if hits:
-                      print("\nSCRIPT", url, "STATUS", s, "BYTES", len(body))
-                      shown = set()
-                      for idx in hits:
-                          for j in range(max(0, idx-8), min(len(lines), idx+12)):
-                              if j in shown:
-                                  continue
+                  hit_indexes = [i for i, line in enumerate(lines) if any(k in line.lower() for k in ("003004007", "ajax", "url:", "pageindex", "pagesize", "categorynum", "search", "query", "getlist", "jyxx"))]
+                  out = [f"SCRIPT {url} STATUS {s} CHARS {len(js)}"]
+                  shown = set()
+                  for i in hit_indexes:
+                      for j in range(max(0, i-6), min(len(lines), i+10)):
+                          if j not in shown:
                               shown.add(j)
-                              print(f"{j+1:04d}: {lines[j]}")
+                              out.append(f"{j+1:04d}: {lines[j]}")
+                  return "\n".join(out)
               except Exception as exc:
-                  print("SCRIPT_ERROR", url, type(exc).__name__, repr(exc))
+                  return f"SCRIPT_ERROR {url} {type(exc).__name__} {exc!r}"
+
+          with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+              for output in pool.map(inspect, scripts):
+                  print("\n" + output)
           PY
