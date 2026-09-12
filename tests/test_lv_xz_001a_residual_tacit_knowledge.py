@@ -16,8 +16,10 @@ class LVXZ001AResidualTacitKnowledgeTests(unittest.TestCase):
 
     def test_parent_thesis_is_narrowed_to_residual_knowledge(self):
         value = self.record["hidden_or_underrecognized_value"].lower()
+        rationale = self.record["why_value_is_not_recognized_or_realized"].lower()
         self.assertIn("residual", value)
-        self.assertIn("existing sop", self.record["why_value_is_not_recognized_or_realized"].lower())
+        self.assertIn("current standards/training", rationale)
+        self.assertIn("no hidden asset should be presumed", rationale)
 
     def test_counterevidence_is_preserved(self):
         counterevidence = "\n".join(self.record["counterevidence"]).lower()
