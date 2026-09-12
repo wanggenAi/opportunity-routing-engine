@@ -15,30 +15,19 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - name: Probe static Xuzhou procurement contract archive
+      - name: Inspect Xuzhou contract list loader
         run: |
           python - <<'PY'
           import re
           import urllib.parse
           import urllib.request
 
+          LIST = "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004007/list.html"
           HEADERS = {
               "User-Agent": "Mozilla/5.0 (compatible; OpportunityRoutingEngine/0.1)",
-              "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
+              "Accept": "text/html,application/xhtml+xml,application/javascript,*/*;q=0.8",
+              "Referer": LIST,
           }
-          BASES = [
-              "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004007/list.html",
-              "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004007/2.html",
-              "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004007/3.html",
-          ]
-          PROJECT_IDS = [
-              "JSZC-320300-XZTY-G2026-0001",
-              "JSZC-320300-XZTY-G2026-0002",
-              "JSZC-320300-WYKJ-G2026-0027",
-              "JSZC-320300-XZTY-G2026-0004",
-              "JSZC-320300-XZTY-G2026-0005",
-              "JSZC-320300-WYKJ-G2026-0034",
-          ]
 
           def fetch(url):
               req = urllib.request.Request(url, headers=HEADERS)
@@ -51,49 +40,38 @@ jobs:
                       text = raw.decode("utf-8", errors="replace")
                   return r.status, r.geturl(), r.headers.get("content-type", ""), raw, text
 
-          detail_re = re.compile(r'href=["\']([^"\']*/jyxx/003004/003004007/(20\d{6})/[0-9a-fA-F-]+\.html(?:\?[^"\']*)?)["\'][^>]*>(.*?)</a>', re.I | re.S)
-          seen = []
-          for url in BASES:
-              print("\n=== PAGE", url, "===")
-              try:
-                  status, final, ct, raw, text = fetch(url)
-                  print("STATUS", status, "FINAL", final, "CT", ct, "BYTES", len(raw))
-                  title = re.findall(r'<title[^>]*>(.*?)</title>', text, re.I | re.S)
-                  print("TITLE", title[:2])
-                  for pid in PROJECT_IDS:
-                      if pid in text:
-                          print("EXACT_PROJECT_ID_ON_LIST", pid)
-                  links = []
-                  for href, day, label_html in detail_re.findall(text):
-                      label = re.sub(r'<[^>]+>', ' ', label_html)
-                      label = re.sub(r'\s+', ' ', label).strip()
-                      full = urllib.parse.urljoin(url, href)
-                      links.append((full, day, label))
-                      if full not in seen:
-                          seen.append(full)
-                  print("DETAIL_COUNT", len(links))
-                  for item in links[:40]:
-                      print("DETAIL", item)
-              except Exception as exc:
-                  print("PAGE_ERROR", type(exc).__name__, repr(exc))
+          status, final, ct, raw, html = fetch(LIST)
+          print("LIST", status, final, ct, "BYTES", len(raw))
+          scripts = re.findall(r'<script[^>]+src=["\']([^"\']+)', html, re.I)
+          print("SCRIPTS", scripts)
+          print("\n=== RELEVANT HTML ===")
+          for idx, line in enumerate(html.splitlines()):
+              lower = line.lower()
+              if any(k in lower for k in ("003004007", "list", "ajax", "page", "query", "search", "api", "category", "jyxx")):
+                  print(f"{idx+1:04d}: {line.strip()[:5000]}")
 
-          print("\n=== SAMPLE DETAILS ===")
-          for detail in seen[:12]:
+          print("\n=== SCRIPT CONTEXTS ===")
+          for src in scripts:
+              url = urllib.parse.urljoin(LIST, src)
+              if not url.startswith("https://ggzy.zwb.xz.gov.cn/"):
+                  continue
               try:
-                  status, final, ct, raw, text = fetch(detail)
-                  print("\nDETAIL_URL", detail, "STATUS", status, "BYTES", len(raw))
-                  for pid in PROJECT_IDS:
-                      if pid in text:
-                          print("MATCH_KNOWN_PROJECT", pid)
-                  # Print only evidence-bearing label lines.
-                  plain = re.sub(r'<script[\s\S]*?</script>', ' ', text, flags=re.I)
-                  plain = re.sub(r'<style[\s\S]*?</style>', ' ', plain, flags=re.I)
-                  plain = re.sub(r'<[^>]+>', '\n', plain)
-                  plain = re.sub(r'\n+', '\n', plain)
-                  for line in plain.splitlines():
-                      line = re.sub(r'\s+', ' ', line).strip()
-                      if any(k in line for k in ("项目编号", "项目名称", "合同编号", "合同名称", "采购人", "供应商", "甲方", "乙方", "合同金额", "签订", "支付", "付款", "验收")):
-                          print("FIELD", line[:1200])
+                  s, f, c, body, js = fetch(url)
+                  lines = js.splitlines()
+                  hits = []
+                  for idx, line in enumerate(lines):
+                      lower = line.lower()
+                      if any(k in lower for k in ("003004007", "categorynum", "url:", "ajax", "pageindex", "pagesize", "query", "search", "jyxx", "getlist")):
+                          hits.append(idx)
+                  if hits:
+                      print("\nSCRIPT", url, "STATUS", s, "BYTES", len(body))
+                      shown = set()
+                      for idx in hits:
+                          for j in range(max(0, idx-8), min(len(lines), idx+12)):
+                              if j in shown:
+                                  continue
+                              shown.add(j)
+                              print(f"{j+1:04d}: {lines[j]}")
               except Exception as exc:
-                  print("DETAIL_ERROR", detail, type(exc).__name__, repr(exc))
+                  print("SCRIPT_ERROR", url, type(exc).__name__, repr(exc))
           PY
