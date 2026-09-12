@@ -170,22 +170,40 @@ class ResourceImbalanceTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             scan_imbalances([bad], [], [])
 
-    def test_procurement_normalization_creates_only_need_side_evidence(self):
+    def test_procurement_budget_cannot_be_normalized_as_paid_need(self):
         event = {
             "source_id": "XZ_GGZY",
             "url": "https://example.invalid/procurement/1",
             "budget_rmb": "350000.00",
             "publication_date": "2026-09-11",
         }
+        with self.assertRaisesRegex(ValueError, "settlement_proven"):
+            procurement_event_to_need(
+                event,
+                signal_id="xz-proc-1",
+                capability_key="facility_operations",
+                need_actor="public institution",
+                payer="public institution",
+            )
+
+    def test_procurement_settlement_can_be_normalized_as_paid_need(self):
+        event = {
+            "source_id": "XZ_GGZY_SETTLEMENT",
+            "url": "https://example.invalid/settlement/1",
+            "settlement_proven": True,
+            "settled_amount_rmb": "325000.00",
+            "settlement_date": "2026-09-11",
+        }
         need = procurement_event_to_need(
             event,
-            signal_id="xz-proc-1",
+            signal_id="xz-settlement-1",
             capability_key="facility_operations",
             need_actor="public institution",
-            payer="public institution",
+            payer="explicit payer",
         )
         self.assertEqual(need.evidence_state, "PAID")
-        self.assertEqual(need.total_observed_spend_rmb, "350000.00")
+        self.assertEqual(need.total_observed_spend_rmb, "325000.00")
+        self.assertEqual(need.payer, "explicit payer")
         records = scan_imbalances([need], [], [])
         self.assertEqual(records[0].status, "NEED_ONLY")
 
