@@ -170,7 +170,13 @@ jobs:
 
           if blockers.get('query_strategy') != 'EXACT_PROJECT_ID_REVALIDATION_PLUS_EXPLICIT_TEXT_ONLY':
               raise SystemExit('blocker collection policy drifted from explicit exact-project evidence')
+          if blockers.get('blocker_scope') != 'EXACT_NEED_SIGNAL':
+              raise SystemExit('procurement blockers are not scoped to exact canonical needs')
           for blocker in blockers.get('blockers', []):
+              project_id = blocker.get('project_id')
+              expected_need_signal_id = f'LIVE_NEED::XZ_GGZY::{project_id}' if project_id else None
+              if not project_id or blocker.get('need_signal_id') != expected_need_signal_id:
+                  raise SystemExit('procurement blocker exact project/need identity drifted')
               if blocker.get('evidence_state') != 'OBSERVED':
                   raise SystemExit('procurement blocker emitted non-observed evidence')
               if blocker.get('blocker_basis') not in {
@@ -224,6 +230,20 @@ jobs:
                       raise SystemExit('PAID promotion allowed before settlement proof')
                   if not record.get('payer_actor') or not record.get('settled_amount_rmb'):
                       raise SystemExit('PAID promotion allowed without payer/settled amount')
+
+          blocker_signals = {
+              blocker['signal_id']: blocker for blocker in data['signals']['blockers']
+          }
+          for record in data['records']:
+              blocker_signal_id = record.get('blocker_signal_id')
+              if not blocker_signal_id:
+                  continue
+              blocker = blocker_signals.get(blocker_signal_id)
+              if blocker is None:
+                  raise SystemExit('record references blocker absent from canonical signals')
+              scoped_need = blocker.get('need_signal_id')
+              if scoped_need is not None and scoped_need != record.get('need_signal_id'):
+                  raise SystemExit('transaction-scoped blocker crossed canonical need identity')
 
           route_records = data['route_testable_records']
           if data['route_testable_count'] != len(route_records):

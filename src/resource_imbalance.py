@@ -8,6 +8,7 @@ Key invariants:
 - resource existence != under-utilisation;
 - DISCOVERED != OPTIONED;
 - UNKNOWN != PASS;
+- transaction-scoped blocker evidence cannot satisfy another need;
 - a paired hypothesis is not a transaction-ready opportunity;
 - ROUTE_TESTABLE means only that a bounded real-world route test is justified.
 """
@@ -88,6 +89,7 @@ class BlockerSignal:
     evidence_state: str
     description: str
     source_ids: tuple[str, ...] = ()
+    need_signal_id: str | None = None
 
 
 @dataclass(frozen=True)
@@ -175,6 +177,8 @@ def validate_blocker(signal: BlockerSignal) -> None:
     _required_text("capability_key", signal.capability_key)
     _required_text("geography", signal.geography)
     _required_text("description", signal.description)
+    if signal.need_signal_id is not None and not str(signal.need_signal_id).strip():
+        raise ValueError("need_signal_id must be null or non-empty")
     if signal.blocker_type not in BLOCKER_TYPES:
         raise ValueError(f"invalid blocker_type: {signal.blocker_type}")
     if signal.evidence_state not in BLOCKER_EVIDENCE_STATES:
@@ -188,17 +192,27 @@ def _pair_key(capability_key: str, geography: str) -> tuple[str, str]:
 
 
 def _best_blocker(
-    blockers: Sequence[BlockerSignal], capability_key: str, geography: str
+    blockers: Sequence[BlockerSignal],
+    capability_key: str,
+    geography: str,
+    need_signal_id: str,
 ) -> BlockerSignal | None:
     compatible = [
         blocker
         for blocker in blockers
         if _pair_key(blocker.capability_key, blocker.geography)
         == _pair_key(capability_key, geography)
+        and blocker.need_signal_id in (None, need_signal_id)
     ]
     if not compatible:
         return None
-    return max(compatible, key=lambda item: _BLOCKER_RANK[item.evidence_state])
+    return max(
+        compatible,
+        key=lambda item: (
+            _BLOCKER_RANK[item.evidence_state],
+            1 if item.need_signal_id == need_signal_id else 0,
+        ),
+    )
 
 
 def evaluate_pair(
@@ -210,8 +224,9 @@ def evaluate_pair(
 ) -> ImbalanceRecord:
     """Classify one exact capability/geography pair.
 
-    V1 deliberately requires exact capability and geography identity. Cross-region
-    routing and ontology expansion must be explicit later rather than inferred here.
+    V1 deliberately requires exact capability and geography identity. A blocker may
+    additionally be scoped to one exact NeedSignal. Cross-region routing and ontology
+    expansion must be explicit later rather than inferred here.
     """
 
     validate_need(need)
@@ -227,6 +242,8 @@ def evaluate_pair(
         need.capability_key, need.geography
     ):
         raise ValueError("blocker must match the same capability and geography")
+    if blocker is not None and blocker.need_signal_id not in (None, need.signal_id):
+        raise ValueError("transaction-scoped blocker must match the exact need signal")
 
     reasons: list[str] = []
     route_testable = True
@@ -287,7 +304,8 @@ def scan_imbalances(
 
     `max_pairs_per_need` limits emitted pair records only. A resource that shares an
     exact key with any need is never relabelled RESOURCE_ONLY merely because it fell
-    outside that output bound.
+    outside that output bound. Transaction-scoped blockers may satisfy only their
+    referenced need; unscoped blockers remain capability/geography-wide by design.
     """
 
     if not isinstance(max_pairs_per_need, int) or max_pairs_per_need <= 0:
@@ -341,7 +359,12 @@ def scan_imbalances(
             )
             continue
 
-        blocker = _best_blocker(blocker_list, need.capability_key, need.geography)
+        blocker = _best_blocker(
+            blocker_list,
+            need.capability_key,
+            need.geography,
+            need.signal_id,
+        )
         for resource in all_matches[:max_pairs_per_need]:
             result.append(evaluate_pair(need, resource, blocker))
 

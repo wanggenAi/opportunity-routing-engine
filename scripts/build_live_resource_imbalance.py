@@ -36,6 +36,7 @@ def _blocker_from_mapping(row: dict) -> BlockerSignal:
         sources = _split_sources(sources)
     else:
         sources = tuple(str(value).strip() for value in sources if str(value).strip())
+    need_signal_id = str(row.get("need_signal_id") or "").strip() or None
     return BlockerSignal(
         signal_id=str(row["signal_id"]).strip(),
         capability_key=str(row["capability_key"]).strip(),
@@ -44,6 +45,7 @@ def _blocker_from_mapping(row: dict) -> BlockerSignal:
         evidence_state=str(row["evidence_state"]).strip(),
         description=str(row["description"]).strip(),
         source_ids=sources,
+        need_signal_id=need_signal_id,
     )
 
 

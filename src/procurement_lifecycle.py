@@ -478,6 +478,7 @@ def _blocker_from_dict(item: Mapping[str, Any]) -> BlockerSignal:
         evidence_state=str(item["evidence_state"]),
         description=str(item["description"]),
         source_ids=tuple(item.get("source_ids") or ()),
+        need_signal_id=_text(item.get("need_signal_id")),
     )
 
 

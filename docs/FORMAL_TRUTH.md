@@ -1,6 +1,6 @@
 # Formal Truth
 
-Last updated: 2026-09-11
+Last updated: 2026-09-12
 
 This document is the current commercial source of truth. Historical rankings and launch designs remain evidence, but they do not override the current truth stated here.
 
@@ -225,10 +225,13 @@ Paid Need != Resource Imbalance
 Resource Exists != Resource Is Underused
 Relisting != Underuse
 Relisting != Proven Blocker Type
+Transaction-Scoped Blocker != Capability-Wide Blocker
 Budget != Completed Payment
 DISCOVERED != OPTIONED
 UNKNOWN != PASS
 ```
+
+A blocker observed inside one bounded transaction or procurement event must stay scoped to that exact Need unless the source independently proves that the same blocker exists at the wider capability/geography market level. Capability and geography equality alone are not sufficient evidence to reuse a transaction-scoped blocker across Needs.
 
 ## 8. Live evidence normalization truth — LOCKED
 
@@ -241,6 +244,7 @@ Live normalization rules:
 - do not infer payer from beneficiary, project title or budget holder language without source evidence;
 - do not promote a procurement budget into `PAID` merely because money is quoted;
 - do not turn repeated asset listing into an observed blocker without evidence of the blocker type;
+- bind source-specific transaction blockers to the exact need/transaction identity; capability and geography equality alone are insufficient;
 - preserve the source item and the reason it did not promote.
 
 The unified live imbalance ledger should therefore show not only promoted pairs, but also why evidence remained `NEED_ONLY`, `RESOURCE_ONLY`, `PAIR_HYPOTHESIS` or unbound.

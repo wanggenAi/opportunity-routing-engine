@@ -3,6 +3,8 @@
 Only explicit source text may become a blocker. The adapter re-fetches the exact
 notice URL, revalidates project identity, binds capability through the canonical
 exact allowlist, and emits only bounded transaction access/routing constraints.
+Procurement blockers are additionally scoped to the exact canonical NeedSignal for
+the same project so one tender's constraints cannot satisfy another tender.
 
 Current Xuzhou procurement pages may carry the full article body inside embedded
 markup that the generic HTML document parser intentionally skips with ``script``.
@@ -56,6 +58,7 @@ _CAPABILITY_CREDENTIAL_RE = re.compile(
 class ProcurementBlockerEvidence:
     signal_id: str
     project_id: str
+    need_signal_id: str
     capability_key: str
     geography: str
     blocker_type: str
@@ -144,10 +147,12 @@ class XuzhouProcurementBlockerAdapter:
             classification = classify_procurement_event(event)
             if classification.capability_key is None:
                 continue
+            source_id = str(event.get("source_id") or "XZ_GGZY").strip()
             project_id = str(event.get("project_id") or "").strip()
             url = str(event.get("url") or "").strip()
             if not project_id or not url:
                 continue
+            need_signal_id = f"LIVE_NEED::{source_id}::{project_id}"
             queried += 1
             envelope = self.client.fetch(
                 url,
@@ -178,6 +183,7 @@ class XuzhouProcurementBlockerAdapter:
                 evidence = ProcurementBlockerEvidence(
                     signal_id=f"LIVE_BLOCKER::XZ_GGZY::{project_id}::{basis}",
                     project_id=project_id,
+                    need_signal_id=need_signal_id,
                     capability_key=classification.capability_key,
                     geography="Xuzhou",
                     blocker_type=blocker_type,
@@ -194,13 +200,15 @@ class XuzhouProcurementBlockerAdapter:
         return {
             "source_id": "XZ_GGZY_PROCUREMENT_BLOCKER",
             "query_strategy": "EXACT_PROJECT_ID_REVALIDATION_PLUS_EXPLICIT_TEXT_ONLY",
+            "blocker_scope": "EXACT_NEED_SIGNAL",
             "queried_event_count": queried,
             "blocker_count": len(blockers),
             "blockers": blockers,
             "rejected": rejected,
             "truth_note": (
                 "Observed blocker means an explicit transaction access/routing constraint exists; "
-                "it does not prove a particular provider fails that constraint and does not prove "
-                "paid demand, payer identity, resource underuse, availability or control."
+                "procurement blockers are scoped to their exact NeedSignal and cannot satisfy another "
+                "tender. The evidence does not prove a particular provider fails that constraint and "
+                "does not prove paid demand, payer identity, resource underuse, availability or control."
             ),
         }
