@@ -46,6 +46,28 @@ class XuzhouProcurementBlockerTests(unittest.TestCase):
 """
         self.assertEqual(extract_explicit_constraints(text), [])
 
+    def test_credit_blacklist_requirement_is_not_mislabeled_capability_gap(self):
+        text = """
+（三）本项目的特定资格要求：
+未被“信用中国”网站列入失信被执行人、重大税收违法案件当事人名单。
+三、获取招标文件
+"""
+        self.assertEqual(extract_explicit_constraints(text), [])
+
+    def test_specific_section_stops_before_generic_procurement_file_section(self):
+        text = """
+（三）本项目的特定资格要求：
+供应商须具备市政公用工程施工总承包叁级以上资质。
+三、获取采购文件
+时间：自磋商文件公告发布之日起5个工作日
+地点：苏采云系统
+"""
+        result = extract_explicit_constraints(text)
+        self.assertEqual(len(result), 1)
+        self.assertIn("市政公用工程施工总承包叁级以上资质", result[0][2])
+        self.assertNotIn("获取采购文件", result[0][2])
+        self.assertNotIn("苏采云", result[0][2])
+
     def test_no_subcontract_rule_is_observed_coordination_constraint(self):
         text = "成交后不得转包或分包，但电气设备的预防性试验可以委托第三方完成。"
         result = extract_explicit_constraints(text)
