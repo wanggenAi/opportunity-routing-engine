@@ -382,19 +382,31 @@ def procurement_event_to_need(
     payer: str,
     geography: str = "Xuzhou",
 ) -> NeedSignal:
-    """Promote one procurement event into paid-need evidence only.
+    """Normalize explicit procurement settlement evidence into a PAID need.
 
-    Capability classification is caller-supplied on purpose. The engine does not use
-    opaque text inference to turn an arbitrary notice into a commercial category.
-    A procurement event proves paid institutional need for the stated task; it does
-    not prove resource scarcity, independent private demand, or orchestration margin.
+    This compatibility helper is intentionally strict. A tender notice, published
+    budget, award/result, or signed contract is insufficient. Callers must provide
+    an explicit ``settlement_proven=True`` flag, a settled amount, an identified
+    payer, and a source URL. Exact-project lifecycle code should normally be used
+    instead so project identity and provenance stay auditable.
     """
+
+    if event.get("settlement_proven") is not True:
+        raise ValueError(
+            "procurement PAID normalization requires explicit settlement_proven evidence"
+        )
+    settled_amount = event.get("settled_amount_rmb")
+    if settled_amount in (None, ""):
+        raise ValueError("procurement PAID normalization requires settled_amount_rmb")
+    if not str(payer or "").strip():
+        raise ValueError("procurement PAID normalization requires an identified payer")
 
     source_id = str(event.get("source_id") or "XZ_GGZY").strip()
     source_url = str(event.get("url") or "").strip()
-    budget = event.get("budget_rmb")
+    if not source_url:
+        raise ValueError("procurement PAID normalization requires a source URL")
     source_refs = tuple(item for item in (source_id, source_url) if item)
-    return NeedSignal(
+    need = NeedSignal(
         signal_id=signal_id,
         capability_key=capability_key,
         geography=geography,
@@ -402,8 +414,16 @@ def procurement_event_to_need(
         payer=payer,
         evidence_state="PAID",
         paid_event_count=1,
-        total_observed_spend_rmb=str(budget) if budget not in (None, "") else None,
-        observation_period=str(event.get("publication_date") or "") or None,
+        total_observed_spend_rmb=str(settled_amount),
+        observation_period=str(
+            event.get("settlement_date") or event.get("publication_date") or ""
+        )
+        or None,
         source_ids=source_refs,
-        notes="normalized from public procurement evidence; no supply-side claim implied",
+        notes=(
+            "normalized from explicit procurement settlement evidence; "
+            "no supply-side claim implied"
+        ),
     )
+    validate_need(need)
+    return need
