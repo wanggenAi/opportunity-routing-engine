@@ -27,13 +27,42 @@ The following may reduce first-contact friction, but are not commercial credenti
 - articulate communication;
 - confidence;
 - a general degree;
-- broad technical experience.
+- broad technical interest without delivery evidence.
 
 They cannot substitute for a counterpart-facing reason to engage.
 
 The engine must answer:
 
 > Why should this actor spend scarce time, reputation or institutional attention on this interaction?
+
+## Operator endowments that can count
+
+The operator is not an empty cold caller. Evidence-backed **professional history** and accumulated capability can materially change feasibility when they are relevant to the target actor.
+
+Credibility assets may include:
+- years of real professional work;
+- accepted project and delivery history;
+- responsibility held in real organizations;
+- technical/domain literacy demonstrated in practice;
+- systems-analysis, coordination and problem-structuring ability;
+- education and serious training;
+- cross-company, cross-city, cross-region or international experience;
+- mature stakeholder communication;
+- local industry/context knowledge;
+- warm relationships and referrals;
+- reputation, references and prior accepted outcomes;
+- capital, data, distribution or other resources that can actually be mobilized.
+
+These inputs are contextual. A long enterprise-technology history can be strong credibility with an SME technical manager and still be insufficient role legitimacy with a senior academic, government decision-maker or tightly controlled institutional resource owner.
+
+Therefore:
+
+```text
+REAL PROFESSIONAL HISTORY = RELEVANT CREDIBILITY EVIDENCE WHEN CONTEXT MATCHES
+OPERATOR ENDOWMENT != COUNTERPARTY CONSENT
+```
+
+The system should neither erase real accumulated experience nor exaggerate it into status the operator has not earned.
 
 ## Counterparty reason to engage
 
@@ -112,6 +141,8 @@ When current credentials are thin, borrow legitimacy from process rather than fr
 - start with small reversible requests;
 - accumulate accepted outcomes and references into a real track record.
 
+When the operator already has substantial relevant professional history, use it precisely rather than vaguely: explain what kinds of systems, stakeholders, delivery environments or technical constraints the operator has actually handled, and why that experience reduces the counterpart's interpretation or coordination cost.
+
 The preferred identity is not `mysterious broker`.
 It is closer to:
 
@@ -160,9 +191,11 @@ For XCMG / master technicians, prefer institutional routes such as the enterpris
 
 ```text
 VALUE_TRUTH != OPERATOR_ACCESS
+OPERATOR_ENDOWMENT != COUNTERPARTY_CONSENT
 PUBLIC_ACTOR != ACCESSIBLE_ACTOR
 PERSONAL_CONFIDENCE != COUNTERPARTY_REASON_TO_ENGAGE
 APPEARANCE != CREDENTIAL
+REAL_WORK_HISTORY_IS_CREDIBILITY_EVIDENCE_WHEN_RELEVANT
 MONEY != ONLY_FORM_OF_RECIPROCITY
 COLD_OUTREACH != DEFAULT_ROUTE
 ACCESS_BLOCKED != BAD_OPPORTUNITY
