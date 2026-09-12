@@ -328,6 +328,8 @@ A credible Hook may be:
 - transparent conditional economics;
 - a newly packaged or aggregated latent resource with explicit acceptance conditions.
 
+A presentation, diagnosis, report or analysis is not a Hook by default. It may support a Hook that already rests on real backing and concrete counterpart-visible surplus.
+
 Never represent a discovered/hypothetical resource as controlled.
 
 ## 10. Capital-light truth — LOCKED
@@ -386,7 +388,7 @@ G4-G6 must all PASS before a candidate becomes a core repeatable platform wedge.
 
 ## 13A. Operator access feasibility — LOCKED
 
-`VALUE / EXCHANGE TRUTH` and `CURRENT OPERATOR ACCESS / EXECUTION FEASIBILITY` are separate axes.
+`VALUE / EXCHANGE TRUTH`, `CURRENT OPERATOR ACCESS / EXECUTION FEASIBILITY`, and `COUNTERPARTY VISIBLE SURPLUS` are separate axes.
 
 The operator is also an Actor. Its evidenced endowments may include:
 - real years of professional work;
@@ -408,26 +410,36 @@ For every high-trust or high-status actor, separately establish:
 ```text
 LEGITIMATE ENTRY PATH
 +
-COUNTERPARTY REASON TO ENGAGE
+BACKING / SPONSOR / TRUSTED INTRODUCER / AUTHORIZED ROLE
 +
-FIRST VALUE PACKET
+COUNTERPARTY VISIBLE SURPLUS
 +
-ROLE / STATUS LEGITIMACY
+SURPLUS REALIZATION MECHANISM
 +
 BOUNDED COUNTERPARTY ASK
 +
 EVIDENCE OF ACCESS ROUTE
 ```
 
-Preferred route order:
+Supporting analysis, reports, PPTs, problem briefs or other artifacts are optional aids. They are not hard access credentials and cannot substitute for backing or concrete counterpart gain.
+
+Preferred route order is not a ritualized sequence; prefer the strongest truthful route available:
 
 ```text
+AUTHORIZED / REPUTABLE BACKING
+or
+WARM TRUSTED INTRODUCTION
+or
+ALREADY-COMMITTED COMPLEMENTARY ACTOR
+or
+RECOGNIZED PROFESSIONAL / INSTITUTIONAL ROLE
+or
 PUBLIC INSTITUTIONAL WINDOW
-→ AUTHORIZED PROGRAM / EVENT
-→ WARM REFERRAL
-→ RECOGNIZED PROFESSIONAL ROLE
-→ DIRECT COLD OUTREACH ONLY WITH A STRONG VALUE PACKET
+or
+DIRECT OUTREACH ONLY WHEN COUNTERPARTY SURPLUS IS IMMEDIATELY LEGIBLE
 ```
+
+A public contact window is a legitimate entry mechanism, but not strong backing by default.
 
 Canonical access states:
 
@@ -445,16 +457,20 @@ Hard boundaries:
 
 ```text
 VALUE_TRUTH != OPERATOR_ACCESS
+OPERATOR_ACCESS != COUNTERPARTY_VISIBLE_SURPLUS
 OPERATOR_ENDOWMENT != COUNTERPARTY CONSENT
 PUBLIC ACTOR != ACCESSIBLE ACTOR
+PUBLIC WINDOW != STRONG BACKING BY DEFAULT
 PERSONAL CONFIDENCE != COUNTERPARTY REASON TO ENGAGE
 APPEARANCE != CREDENTIAL
 REAL WORK HISTORY CAN BE CREDIBILITY EVIDENCE WHEN RELEVANT
-MONEY != ONLY FORM OF RECIPROCITY
-LOCAL CULTURAL HYPOTHESIS != UNIVERSAL FACT
+ANALYSIS != SURPLUS
+PPT != HOOK
+PROBLEM EXPLANATION != BENEFIT
+LOCAL FIELD PRIOR != UNIVERSAL FACT
 ```
 
-The engine must prefer opportunities where access gaps can be bridged transparently through institutions, useful evidence, bounded reciprocity, professional roles or warm routes rather than deceptive status claims or permanent founder hustling.
+The engine must prefer opportunities where access gaps can be bridged transparently through real backing, trusted introductions, authorized roles, already-committed complementary actors or directly legible economics rather than deceptive status claims, PPT persuasion or permanent founder hustling.
 
 ## 14. Evidence maturity — LOCKED
 
@@ -495,6 +511,9 @@ One Customer != Demand Pump
 Recurring Sales Effort != Regenerative Demand
 Operator Endowment != Counterparty Consent
 Public Actor != Accessible Actor
+Public Window != Strong Backing
+Analysis != Counterparty Surplus
+Problem Explanation != Counterparty Benefit
 LLM Confidence != Commercial Evidence
 UNKNOWN != PASS
 ```
@@ -536,7 +555,8 @@ actor/state/change observation
 + live need evidence
 + live resource/underuse evidence
 + observed blocker evidence
-+ operator access feasibility
++ operator access / backing feasibility
++ counterpart-visible surplus
 → Resource Imbalance / exchange classification
 → evidence-backed candidate pool
 → same G0-G6 comparison
@@ -560,7 +580,7 @@ These facts prove resource/underuse evidence only within their exact scope. They
 
 The production system currently preserves strict Resource Imbalance promotion while beginning to externalize evidence-acquisition work as delegatable field-validation packets.
 
-The decisive next gap is to expand from source-specific explicit signals toward **broader actor-state and latent-value sensing**, while also proving whether the current operator can legitimately access the actors required for validation, without weakening canonical evidence gates.
+The decisive next gap is to expand from source-specific explicit signals toward **broader actor-state and latent-value sensing**, while also proving whether the current operator can legitimately access the actors required for validation and whether those actors can see a real incremental gain, without weakening canonical evidence gates.
 
 ## 19. Current next actions — CANONICAL
 
@@ -570,12 +590,13 @@ Engineering priority:
 3. treat procurement/marketplace/listing feeds as observers rather than the ontology;
 4. normalize evidence into canonical signal records without losing upstream actor/state/friction observations;
 5. generate complementary-actor and exchange hypotheses from evidence, not imagination;
-6. evaluate current-operator access feasibility separately from opportunity truth;
-7. preserve fail-closed payer, payment, underuse, blocker, package and identity gates;
-8. route field-solvable evidence/access gaps into delegatable validation tasks;
-9. create a fresh broad candidate pool from resulting evidence;
-10. apply the same G0-G6 ranking plus access-state comparison;
-11. select one strongest route-testable and access-feasible candidate and run the cheapest decisive real transaction test.
+6. search for access/backing resources themselves: trusted introducers, institutions, parks, associations, authorized programs, committed complementary actors and recognized roles;
+7. require counterpart-visible surplus and a believable realization mechanism before meaningful outreach;
+8. preserve fail-closed payer, payment, underuse, blocker, package and identity gates;
+9. route field-solvable evidence/access gaps into delegatable validation tasks;
+10. create a fresh broad candidate pool from resulting evidence;
+11. apply the same G0-G6 ranking plus access/backing/surplus comparison;
+12. select one strongest route-testable, access-feasible and surplus-legible candidate and run the cheapest decisive real transaction test.
 
 ## 20. Software truth — LOCKED
 
@@ -591,7 +612,8 @@ Software is justified first where it removes repeated cognition, observation, ev
 - Need/Resource/Blocker evidence projections;
 - Resource Imbalance ledger;
 - complementary-actor / exchange hypotheses;
-- operator access-feasibility records;
+- operator access/backing records;
+- counterpart-visible-surplus records;
 - validation task generation;
 - opportunity ranking.
 
@@ -601,4 +623,4 @@ Code must remain downstream of cognition and architecture. A technically elegant
 
 ## 21. Governing truth — LOCKED
 
-> **先观其所自：不把世界预设成“需求方与供给方”，而是观察每个 Actor 已有什么、缺什么、正在发生什么、哪些价值被闲置、遮蔽、错配或尚未成形；再以证据证明潜在价值，以结构找到互补关系，同时诚实评估操盘者自身已有的能力、信用、入口与缺口；只有在价值真实、关系可达、交换有诚意、规则可接受时，才以信任、激励和可验收能力让原本彼此无关的价值发生连接。发现可以大胆，晋级必须保守；代码永远服务于认知与架构，任何具体网站、数据字段、现有候选都不得反过来定义系统。**
+> **先观其所自：不把世界预设成“需求方与供给方”，而是观察每个 Actor 已有什么、缺什么、正在发生什么、哪些价值被闲置、遮蔽、错配或尚未成形；再以证据证明潜在价值，以结构找到互补关系，同时诚实评估操盘者自身已有的能力、信用、后台、入口与缺口；只有在价值真实、关系可达、参与者能看见真实增量收益、规则可接受时，才以信任、激励和可验收能力让原本彼此无关的价值发生连接。发现可以大胆，晋级必须保守；代码永远服务于认知与架构，任何具体网站、数据字段、现有候选都不得反过来定义系统。**
