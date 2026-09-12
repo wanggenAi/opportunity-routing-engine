@@ -8,6 +8,7 @@ on:
     paths:
       - "src/live_imbalance_ledger.py"
       - "src/procurement_lifecycle.py"
+      - "src/procurement_package_scope.py"
       - "src/provider_capacity_evidence.py"
       - "src/resource_imbalance.py"
       - "src/resource_signal_adapters.py"
@@ -32,6 +33,7 @@ on:
       - "tests/test_live_imbalance_ledger.py"
       - "tests/test_live_imbalance_capacity_cli.py"
       - "tests/test_procurement_lifecycle.py"
+      - "tests/test_procurement_lifecycle_package_scope.py"
       - "tests/test_provider_capacity_evidence.py"
       - "tests/test_resource_imbalance.py"
       - "tests/test_xuzhou_procurement_blockers.py"
@@ -214,6 +216,9 @@ jobs:
 
           if lifecycle.get('join_policy') != 'EXACT_PROJECT_ID_ONLY':
               raise SystemExit('procurement lifecycle is not exact-project-id-only')
+          if lifecycle.get('promotion_scope_policy') != 'PROJECT_LEVEL_NEED_REJECTS_PACKAGE_SCOPED_MULTI_PACKAGE_SETTLEMENT':
+              raise SystemExit('procurement lifecycle package-scope promotion policy drifted')
+          whole_project_labels = {'项目整体', '全部采购包', '所有采购包', '全项目', '整体项目'}
           seen_projects = set()
           for record in lifecycle['records']:
               project_id = record.get('project_id')
@@ -222,6 +227,15 @@ jobs:
               seen_projects.add(project_id)
               if record.get('exact_join_key') != project_id:
                   raise SystemExit('lifecycle exact join key drifted from project_id')
+              tender_packages = record.get('tender_package_names') or []
+              if len(tender_packages) > 1 and record.get('package_scope') != 'MULTI_PACKAGE_PROJECT':
+                  raise SystemExit('explicit multi-package tender lost package scope')
+              if record.get('package_scope') == 'MULTI_PACKAGE_PROJECT' and record.get('promotion_allowed'):
+                  settlement_packages = record.get('settlement_package_names') or []
+                  if not settlement_packages or any(
+                      package not in whole_project_labels for package in settlement_packages
+                  ):
+                      raise SystemExit('multi-package project promoted without explicit whole-project settlement scope')
               for evidence in record.get('result_evidence', []):
                   if evidence.get('project_id') != project_id:
                       raise SystemExit('result evidence crossed exact project identity')

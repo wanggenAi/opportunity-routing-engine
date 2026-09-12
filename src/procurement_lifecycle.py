@@ -11,9 +11,11 @@ different facts:
   settled amount -> SETTLEMENT_PROVEN and eligible to promote the matching
   NeedSignal to PAID.
 
-Joining is fail-closed and exact on ``project_id`` only. Titles, capability
+Joining is fail-closed and exact on ``project_id``. Titles, capability
 similarity, supplier similarity, dates, and LLM semantics are never used as
-lifecycle join keys.
+lifecycle join keys. Promotion is additionally package-safe: package-specific
+settlement from an explicitly multi-package tender cannot promote a project-level
+NeedSignal.
 """
 
 from __future__ import annotations
@@ -22,6 +24,12 @@ from collections import Counter
 from dataclasses import asdict, replace
 from typing import Any, Iterable, Mapping
 
+from src.procurement_package_scope import (
+    discover_tender_package_names,
+    package_scope as classify_package_scope,
+    package_scoped_settlement_blocks_project_need,
+    settlement_package_names as collect_settlement_package_names,
+)
 from src.resource_imbalance import (
     BlockerSignal,
     NeedSignal,
@@ -245,6 +253,13 @@ def build_procurement_lifecycle(
         settlement_items = [
             item for item in matching_contracts if item.get("settlement_proven") is True
         ]
+        tender_package_names = discover_tender_package_names(tender)
+        settlement_package_names = collect_settlement_package_names(settlement_items)
+        package_scope_value = classify_package_scope(tender_package_names)
+        package_scope_unresolved = package_scoped_settlement_blocks_project_need(
+            tender_package_names,
+            settlement_items,
+        )
         if settlement_items:
             stage = "SETTLEMENT_PROVEN"
         elif matching_contracts:
@@ -337,12 +352,15 @@ def build_procurement_lifecycle(
             unresolved.append("SETTLEMENT_SOURCE_PROVENANCE")
         if not supplier_actor and stage != "TENDER_ONLY":
             unresolved.append("SUPPLIER_ACTOR")
+        if package_scope_unresolved:
+            unresolved.append("PACKAGE_SCOPE")
 
         promotion_allowed = (
             stage == "SETTLEMENT_PROVEN"
             and payer_actor is not None
             and settled_amount_rmb is not None
             and not any(conflicts.values())
+            and not package_scope_unresolved
             and bool(settlement_urls)
             and bool(settlement_hashes)
         )
@@ -354,6 +372,8 @@ def build_procurement_lifecycle(
             promotion_reason = "AWARD_RESULT_IS_NOT_SETTLEMENT"
         elif stage == "CONTRACT_FOUND":
             promotion_reason = "SIGNED_CONTRACT_IS_NOT_SETTLEMENT"
+        elif package_scope_unresolved:
+            promotion_reason = "PACKAGE_SCOPED_SETTLEMENT_CANNOT_PROMOTE_PROJECT_LEVEL_NEED"
         elif payer_actor is None:
             promotion_reason = "SETTLEMENT_PAYER_UNRESOLVED"
         elif settled_amount_rmb is None:
@@ -372,6 +392,10 @@ def build_procurement_lifecycle(
                 "need_signal_id": f"LIVE_NEED::{source_id}::{project_id}",
                 "project_name": project_name,
                 "geography": geography,
+                "tender_package_names": tender_package_names,
+                "settlement_package_names": settlement_package_names,
+                "package_scope": package_scope_value,
+                "promotion_scope_policy": "PROJECT_LEVEL_NEED_REJECTS_PACKAGE_SCOPED_MULTI_PACKAGE_SETTLEMENT",
                 "tender_evidence": tender_evidence,
                 "result_evidence": result_evidence,
                 "contract_evidence": contract_evidence,
@@ -417,6 +441,7 @@ def build_procurement_lifecycle(
     return {
         "geography": geography,
         "join_policy": "EXACT_PROJECT_ID_ONLY",
+        "promotion_scope_policy": "PROJECT_LEVEL_NEED_REJECTS_PACKAGE_SCOPED_MULTI_PACKAGE_SETTLEMENT",
         "source_input_counts": {
             "tenders": len(tenders),
             "results": len(results),
@@ -434,6 +459,7 @@ def build_procurement_lifecycle(
             "Exact-project signed contract creates CONTRACT_FOUND but does not prove payment by itself.",
             "PAID promotion requires exact-project first-party settlement evidence, an explicit payer, a settled amount, auditable source provenance, and no identity conflict.",
             "buyer_actor and payer_actor remain separate roles; buyer is never copied into payer automatically.",
+            "For explicitly multi-package tenders, package-specific settlement cannot promote the project-level NeedSignal; package scope must be resolved or a whole-project settlement must be proven.",
         ],
     }
 
@@ -603,6 +629,7 @@ def integrate_procurement_lifecycle(
     ]
     result["procurement_lifecycle"] = {
         "join_policy": lifecycle.get("join_policy"),
+        "promotion_scope_policy": lifecycle.get("promotion_scope_policy"),
         "record_count": lifecycle.get("record_count", 0),
         "stage_counts": lifecycle.get("stage_counts", {}),
         "promotion_allowed_count": lifecycle.get("promotion_allowed_count", 0),
@@ -612,7 +639,9 @@ def integrate_procurement_lifecycle(
     truth_notes = list(result.get("truth_notes", []) or [])
     lifecycle_note = (
         "Procurement lifecycle can promote a live need to PAID only from exact-project "
-        "SETTLEMENT_PROVEN first-party evidence with an explicit payer and settled amount."
+        "SETTLEMENT_PROVEN first-party evidence with an explicit payer and settled amount, "
+        "and a package-specific settlement from an explicitly multi-package tender cannot "
+        "promote a project-level NeedSignal."
     )
     if lifecycle_note not in truth_notes:
         truth_notes.append(lifecycle_note)
