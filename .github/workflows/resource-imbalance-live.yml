@@ -15,6 +15,7 @@ on:
       - "src/regional_adapters.py"
       - "src/resource_underuse_adapters.py"
       - "src/xuzhou_agency_resource_feed.py"
+      - "src/xuzhou_procurement_contracts.py"
       - "src/xuzhou_procurement_results.py"
       - "src/provider_evidence_seeds.py"
       - "src/validation_queue.py"
@@ -23,12 +24,14 @@ on:
       - "scripts/build_pair_validation_queue.py"
       - "scripts/collect_regional.py"
       - "scripts/collect_resource_underuse.py"
+      - "scripts/collect_xuzhou_procurement_contracts.py"
       - "scripts/collect_xuzhou_procurement_results.py"
       - "scripts/verify_xuzhou_procurement_result_seeds.py"
       - "data/xuzhou_procurement_result_seeds.csv"
       - "tests/test_live_imbalance_ledger.py"
       - "tests/test_procurement_lifecycle.py"
       - "tests/test_resource_imbalance.py"
+      - "tests/test_xuzhou_procurement_contracts.py"
       - "tests/test_xuzhou_procurement_results.py"
       - "tests/test_provider_evidence_seeds.py"
       - "tests/test_validation_queue.py"
@@ -83,15 +86,29 @@ jobs:
             --require-verified \
             --output .local/xz_seeded_procurement_awards.json
 
+      - name: Collect exact-project Xuzhou procurement contracts
+        run: |
+          # Query the first-party contract archive by project_id from current tenders
+          # and freshly verified seeded results. Search relevance is not identity:
+          # every returned contract body is reparsed and must contain the exact same
+          # project_id before it is emitted. Empirical zero is valid.
+          python scripts/collect_xuzhou_procurement_contracts.py \
+            --input-json .local/xz_procurement_events.json \
+            --input-json .local/xz_seeded_procurement_awards.json \
+            --max-records-per-project 100 \
+            --output .local/xz_procurement_contracts.json
+
       - name: Build exact procurement lifecycle
         run: |
-          # Results are linked to current tenders only by exact project_id. Historical
-          # capability results with another project_id remain unlinked lifecycle evidence.
-          # No contract feed is supplied until a stable first-party source is normalized.
+          # Result and contract evidence are linked to current tenders only by exact
+          # project_id. A signed contract is CONTRACT_FOUND, not PAID; only separate
+          # explicit first-party settlement evidence with payer + settled amount can
+          # permit PAID promotion.
           python scripts/build_procurement_lifecycle.py \
             --tender-json .local/xz_procurement_events.json \
             --result-json .local/xz_procurement_awards.json \
             --result-json .local/xz_seeded_procurement_awards.json \
+            --contract-json .local/xz_procurement_contracts.json \
             --output .local/xz_procurement_lifecycle.json
 
       - name: Collect native Xuzhou resource evidence
@@ -134,6 +151,9 @@ jobs:
           seeded = json.loads(
               Path('.local/xz_seeded_procurement_awards.json').read_text(encoding='utf-8')
           )
+          contracts = json.loads(
+              Path('.local/xz_procurement_contracts.json').read_text(encoding='utf-8')
+          )
           lifecycle = json.loads(
               Path('.local/xz_procurement_lifecycle.json').read_text(encoding='utf-8')
           )
@@ -146,6 +166,8 @@ jobs:
           print('blocking_reason_counts:', data['blocking_reason_counts'])
           print('verified_seed_count:', seeded['verified_seed_count'])
           print('seeded_award_count:', seeded['award_count'])
+          print('contract_project_count:', contracts['project_count'])
+          print('exact_contract_count:', contracts['contract_count'])
           print('lifecycle_stage_counts:', lifecycle['stage_counts'])
           print('lifecycle_promotion_allowed_count:', lifecycle['promotion_allowed_count'])
           print('validation_queue_target_counts:', queue['target_counts'])
@@ -155,6 +177,29 @@ jobs:
           for award in seeded['awards']:
               if not award.get('project_id') or not award.get('project_name'):
                   raise SystemExit('verified seeded award lacks exact project identity')
+
+          if contracts.get('query_strategy') != 'EXACT_PROJECT_ID_SEARCH_THEN_EXACT_FIELD_REVALIDATION':
+              raise SystemExit('contract source is not exact-project revalidated')
+          requested_contract_projects = set(contracts.get('requested_project_ids') or [])
+          if not requested_contract_projects:
+              raise SystemExit('contract source queried no project IDs')
+          for contract in contracts.get('contracts', []):
+              if contract.get('project_id') not in requested_contract_projects:
+                  raise SystemExit('contract artifact emitted unrequested project identity')
+              if contract.get('payer_actor') is not None:
+                  raise SystemExit('contract purchaser was incorrectly promoted to payer')
+              if contract.get('settled_amount_rmb') is not None:
+                  raise SystemExit('contract announcement manufactured settled amount')
+              if contract.get('settlement_proven') is not False:
+                  raise SystemExit('contract announcement manufactured settlement proof')
+              provenance = contract.get('provenance') or {}
+              if not provenance.get('payload_sha256'):
+                  raise SystemExit('contract evidence lacks auditable response provenance')
+          for project in contracts.get('projects', []):
+              expected = project.get('project_id')
+              for contract in project.get('contracts', []):
+                  if contract.get('project_id') != expected:
+                      raise SystemExit('contract search relevance crossed exact project identity')
 
           if lifecycle.get('join_policy') != 'EXACT_PROJECT_ID_ONLY':
               raise SystemExit('procurement lifecycle is not exact-project-id-only')
@@ -172,6 +217,8 @@ jobs:
               for evidence in record.get('contract_evidence', []):
                   if evidence.get('project_id') != project_id:
                       raise SystemExit('contract evidence crossed exact project identity')
+                  if evidence.get('settlement_proven'):
+                      raise SystemExit('contract announcement was treated as settlement')
               if record.get('promotion_allowed'):
                   if record.get('lifecycle_stage') != 'SETTLEMENT_PROVEN':
                       raise SystemExit('PAID promotion allowed before settlement proof')
@@ -235,8 +282,9 @@ jobs:
           if pair_count and queue['task_count'] == 0:
               raise SystemExit('PAIR_HYPOTHESIS exists but validation queue has no evidence tasks')
 
-          # Zero ROUTE_TESTABLE is a valid empirical result. The workflow fails only
-          # when truth gates are violated, not because reality produced no opportunity.
+          # Zero contracts and zero ROUTE_TESTABLE are both valid empirical results.
+          # The workflow fails only when truth gates are violated, not because reality
+          # produced no evidence or no opportunity.
           print('canonical promotion gates preserved')
           PY
 
