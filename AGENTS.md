@@ -4,40 +4,95 @@ Instructions for AI agents, coding assistants and human contributors working in 
 
 ## Prime directive
 
-Build a truthful, evidence-driven **Actor-First Regenerative Resource Orchestration Engine** with two distinct layers:
+Build a truthful, evidence-driven **Actor-First Regenerative Resource Orchestration Engine** whose highest-order purpose is to discover and activate **latent value** that actors themselves may not yet recognize.
+
+The repository does **not** begin from a fixed `DEMAND SIDE -> SUPPLY SIDE` model. It begins from actors, their endowments, state changes, behavior, frictions, underuse, misallocation and unrealized complementarities.
 
 ```text
-DISCOVERY ENGINE
-macro → money flow → market → actor → psychology → behavior → friction → payer
-
-ORCHESTRATION ENGINE
-transaction objective → CapabilityUnits → routing → incentives/trust → acceptance → settlement → learning → circulation
+ACTOR
+→ ENDOWMENT / STATE
+→ CHANGE
+→ BEHAVIOR
+→ FRICTION / UNDERUSE / MISALLOCATION
+→ LATENT VALUE HYPOTHESIS
+→ COMPLEMENTARY ACTOR
+→ EXCHANGE HYPOTHESIS
+→ EVIDENCE
+→ BOUNDED VALIDATION
+→ ACCEPTED VALUE / SETTLEMENT
+→ REPEAT / LEARNING / BETTER ALLOCATION
 ```
 
-Optimize for **commercial truth + recurring accepted outcomes + delegatability + regenerative demand + normalized orchestration economics**, not code volume, founder activity, lead count or narrative appeal.
+`NeedSignal`, `ResourceSignal` and `BlockerSignal` are evidence projections inside this larger world model. They must not shrink the engine into an explicit demand-matching system.
 
-## Source of truth
+Optimize for **commercial truth + latent-value discovery + recurring accepted outcomes + delegatability + regenerative circulation + normalized orchestration economics**, not code volume, founder activity, lead count or narrative appeal.
 
-Before changing business logic, read:
-1. `docs/DISCOVERY_ENGINE.md`
-2. `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
-3. `docs/RESOURCE_IMBALANCE_ENGINE.md`
-4. `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
-5. `docs/FORMAL_TRUTH.md`
-6. `docs/ACTOR_MODEL.md`
-7. `docs/THESIS_TRANSACTION_GAPS.md`
-8. `docs/OPPORTUNITY_SCORECARD.md`
-9. `docs/ARCHITECTURE.md`
-10. current `docs/research/` and `docs/launch/` files relevant to the task.
+**Code serves the doctrine. The doctrine does not bend to the convenience of code, a website, an API, a current candidate or a source schema.**
+
+## Constitutional source of truth
+
+Before changing business logic, read these in order:
+1. `docs/LATENT_VALUE_DOCTRINE.md`
+2. `docs/FORMAL_TRUTH.md`
+3. `docs/RESOURCE_ACTIVATION_THESIS.md`
+4. `docs/DISCOVERY_ENGINE.md`
+5. `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
+6. `docs/RESOURCE_IMBALANCE_ENGINE.md`
+7. `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
+8. `docs/ACTOR_MODEL.md`
+9. `docs/THESIS_TRANSACTION_GAPS.md`
+10. `docs/OPPORTUNITY_SCORECARD.md`
+11. `docs/ARCHITECTURE.md`
+12. current `docs/research/` and `docs/launch/` files relevant to the task.
+
+`docs/LATENT_VALUE_DOCTRINE.md` is constitutional. If another document, implementation or current workflow conflicts with it, the lower-level artifact must change.
 
 There is no active `EXP-*` opportunity layer after the 2026-09-10 reset. Do not recreate it unless the architecture is explicitly changed.
 
 When a major assumption changes, update `docs/FORMAL_TRUTH.md` in the same change.
 
+## Architectural dependency direction — LOCKED
+
+The repository must preserve this dependency direction:
+
+```text
+WORLD MODEL / DOCTRINE
+        ↓
+DISCOVERY MODEL
+        ↓
+EVIDENCE MODEL
+        ↓
+DECISION / VALIDATION MODEL
+        ↓
+ORCHESTRATION MODEL
+        ↓
+SOFTWARE MODULES
+        ↓
+IMPLEMENTATION DETAILS
+```
+
+Never reverse it.
+
+A source adapter is an observer, not the strategy.
+A data field is an observation, not the ontology.
+A current opportunity is a sample, not the business identity.
+A procurement feed is one sensor, not the business model.
+
+Before adding or materially expanding a feature, answer:
+1. What latent value, actor state, behavior, friction, resource or exchange structure does this help observe, validate or activate?
+2. Does it improve discovery of value that actors may not already have articulated?
+3. Does it preserve hypothesis/evidence boundaries?
+4. Does it improve our ability to connect complementary actors without making the operator permanent sales/delivery labor?
+5. Is it reusable system capability rather than overfitting to one source, website, transaction or candidate?
+
+If answers 1–4 are weak, the feature is not a core-priority feature even if technically useful.
+
 ## Non-negotiable truth rules
 
 - Never fabricate actors, needs, payments, prices, contacts, capabilities, transactions or outcomes.
 - `UNKNOWN != PASS`.
+- Potential value != proven value.
+- Latent-value hypothesis != verified resource.
 - Complaint != demand.
 - Demand != willingness to pay.
 - Beneficiary != payer by default.
@@ -45,6 +100,8 @@ When a major assumption changes, update `docs/FORMAL_TRUTH.md` in the same chang
 - Social-media salience != population share.
 - Paid Need != Resource Imbalance.
 - Resource Exists != Resource Is Underused.
+- Underused != available.
+- Complementarity != transactionability.
 - `DISCOVERED != OPTIONED`.
 - Introduction != orchestration value.
 - Founder free labor != profit.
@@ -59,7 +116,7 @@ When a major assumption changes, update `docs/FORMAL_TRUTH.md` in the same chang
 
 ## Discovery rule
 
-Do not start from the operator's existing skills, a favored product or a fashionable technology.
+Do not start from the operator's existing skills, a favored product, a fashionable technology, a known procurement feed or an already-articulated demand list.
 
 Start from broad reality:
 - GDP / sector contribution;
@@ -74,13 +131,20 @@ Start from broad reality:
 - industry-chain movement;
 - actor psychology / decision logic;
 - observed spending, workarounds and operational behavior;
-- observable underused skills, assets, channels and productive capacity.
+- observable underused skills, assets, channels and productive capacity;
+- utilization changes, idle time, fragmentation, repeated repricing and stranded assets;
+- relationships, trust, reputation, access, distribution and installed-base resources;
+- combinations of resources whose value appears only when connected.
 
-Then zoom from macro to exact payer and transaction gap.
+Then zoom from macro to actors, state, latent value, complementary actors, exact payer and transaction gap.
+
+The engine must search for what actors may not know about themselves: hidden capability, hidden deficit, underused relationships, packaging gaps, coordination gaps and unrealized exchange structures.
 
 Psychology signals must be corroborated with behavior and money before they can materially raise opportunity confidence.
 
 ## Resource Imbalance rule
+
+`Need / Resource / Blocker` is the current fail-closed evidence gate, not the entire ontology.
 
 Before promoting a fresh opportunity, separately establish:
 
@@ -107,6 +171,8 @@ It only authorizes a cheap bounded real-world route test. It does not mean trans
 
 Live source normalization must be auditable. Narrow deterministic classification is preferred over opaque semantic promotion. Ambiguous or unclassified evidence must remain unbound rather than being guessed into a pair.
 
+The engine may generate broad latent-value hypotheses upstream, but canonical promotion stays conservative and evidence-bound.
+
 ## Canonical actor roles
 
 Map where relevant:
@@ -117,6 +183,8 @@ Map where relevant:
 - `RESOURCE_OWNER`
 - `CAPABILITY_PROVIDER`
 - `ORCHESTRATOR`
+
+These are roles, not permanent identities. The same actor may carry several roles and may simultaneously contain both resources and deficits.
 
 Operator != capability provider by default.
 
@@ -160,6 +228,8 @@ When the operator temporarily executes a routable task, record time, reason, rep
 ## Demand Pump / circulation rule
 
 A preferred core opportunity must attach to a recurring `Demand Pump`: a channel, installed base, workflow, lifecycle or actor relationship that naturally generates repeated task events.
+
+A Demand Pump is itself potentially a resource: recurring access, recurring problems, recurring attention or recurring transaction flow may become latent value when structured correctly.
 
 Preferred loop:
 
@@ -211,7 +281,20 @@ A repeatable business cannot depend on unpaid founder execution to appear profit
 
 ## Orchestration value test
 
-The layer must add recurring value beyond introduction through requirement clarification, decomposition, qualification, dependency management, trust, QA, acceptance, replacement, settlement, accountability or accumulated routing/reliability data.
+The layer must add recurring value beyond introduction through one or more of:
+- revealing hidden capability or hidden deficit;
+- reframing / packaging / aggregating resources;
+- requirement clarification;
+- decomposition;
+- qualification;
+- dependency management;
+- trust;
+- QA;
+- acceptance;
+- replacement;
+- settlement;
+- accountability;
+- accumulated routing/reliability data.
 
 If buyer/provider bypass destroys most value after one introduction, downgrade it.
 
@@ -238,7 +321,7 @@ Do not build a broad marketplace first.
 
 ## Current project truth
 
-The current priority is **continuous discovery + live Resource Imbalance evidence integration**.
+The current priority is **continuous discovery + latent-value sensing + live Resource Imbalance evidence integration**.
 
 The 2026-09-10 Cycle 001 ranking and its launch designs are historical evidence, not a permanent winner. The later Resource Imbalance reset deliberately removed first-found privilege.
 
@@ -247,7 +330,9 @@ The 2026-09-10 Cycle 001 ranking and its launch designs are historical evidence,
 Property-Anchored Community Living-Service Orchestration, Industrial Service Overflow Routing and every other historical candidate may re-enter only through the same current process:
 
 ```text
-live need evidence
+actor/state/change evidence
++ latent-value hypothesis
++ live need evidence
 + live resource/underuse evidence
 + observed blocker evidence
 → Resource Imbalance classification
@@ -260,16 +345,19 @@ live need evidence
 Do not resume an old launch merely because a launch document or open historical Issue still exists.
 
 Current engineering priority:
-1. maintain live need-side and money-flow sensors;
-2. expand observable resource-underuse sensing;
-3. normalize live NeedSignal / ResourceSignal / BlockerSignal evidence;
+1. maintain broad reality/money-flow/behavior sensors;
+2. expand observable latent-value and resource-underuse sensing;
+3. normalize live NeedSignal / ResourceSignal / BlockerSignal evidence without mistaking them for the whole ontology;
 4. publish an auditable unified imbalance ledger;
-5. produce a fresh comparable ranking only when evidence supports it;
-6. then select one project for the cheapest decisive real transaction test.
+5. generate evidence-bound complementary-actor / exchange hypotheses;
+6. produce a fresh comparable ranking only when evidence supports it;
+7. then select one project for the cheapest decisive real transaction test.
 
 ## Success definition
 
 The repository succeeds when it increasingly produces:
+- previously hidden but evidenced value hypotheses;
+- complementary actor structures that were not already explicit listings;
 - real payer commitment;
 - recurring Demand Pumps;
 - clear CapabilityUnits;
@@ -280,4 +368,4 @@ The repository succeeds when it increasingly produces:
 - repeated transactions from the same demand relationship;
 - outcome/reliability learning that improves future routing.
 
-**The engine wins through architecture, circulation and routing — not because the operator personally hustles every transaction into existence.**
+**The engine wins by seeing structure, discovering hidden value, proving what is real and designing circulation — not because the operator personally hustles every transaction into existence.**
