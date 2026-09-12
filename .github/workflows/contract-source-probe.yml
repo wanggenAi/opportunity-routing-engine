@@ -15,52 +15,118 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Probe China Government Procurement contract search surface
+      - name: Probe exact CCGP contract query mechanics
         run: |
           python - <<'PY'
+          import html
           import re
           import urllib.error
+          import urllib.parse
           import urllib.request
 
-          urls = [
-              "https://htgs.ccgp.gov.cn/GS8/contractpublish/index",
-              "http://htgs.ccgp.gov.cn/GS8/contractpublish/index",
-              "https://htgs.ccgp.gov.cn/GS8/contractpublish/search",
-              "http://htgs.ccgp.gov.cn/GS8/contractpublish/search",
+          BASE = "http://htgs.ccgp.gov.cn"
+          INDEX = BASE + "/GS8/contractpublish/index"
+          SEARCH = BASE + "/GS8/contractpublish/search"
+          PAGER = BASE + "/GS8/pages/contractpublish/publishContract/pager.js"
+          PROJECT_IDS = [
+              "JSZC-320300-XZTY-G2026-0001",
+              "JSZC-320300-XZTY-G2026-0002",
+              "JSZC-320300-WYKJ-G2026-0027",
+              "JSZC-320300-XZTY-G2026-0004",
+              "JSZC-320300-XZTY-G2026-0005",
+              "JSZC-320300-WYKJ-G2026-0034",
           ]
-          headers = {
+          HEADERS = {
               "User-Agent": "Mozilla/5.0 (compatible; opportunity-routing-engine/1.0; evidence-source-probe)",
-              "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
+              "Accept": "text/html,application/xhtml+xml,application/javascript,application/json;q=0.9,*/*;q=0.8",
           }
-          for url in urls:
-              print("\n===", url, "===")
-              req = urllib.request.Request(url, headers=headers)
-              try:
-                  with urllib.request.urlopen(req, timeout=20) as response:
-                      body = response.read(500_000)
-                      charset = response.headers.get_content_charset() or "utf-8"
-                      try:
-                          text = body.decode(charset, errors="replace")
-                      except LookupError:
-                          text = body.decode("utf-8", errors="replace")
-                      print("status", response.status)
-                      print("final_url", response.geturl())
-                      print("content_type", response.headers.get("content-type"))
-                      print("bytes", len(body))
-                      print("title", re.findall(r"<title[^>]*>(.*?)</title>", text, re.I | re.S)[:3])
-                      print("forms", re.findall(r"<form[^>]*action=[\"']?([^\"' >]+)", text, re.I)[:20])
-                      print("inputs", sorted(set(re.findall(r"<input[^>]*name=[\"']([^\"']+)", text, re.I)))[:100])
-                      print("selects", sorted(set(re.findall(r"<select[^>]*name=[\"']([^\"']+)", text, re.I)))[:100])
-                      print("scripts", re.findall(r"<script[^>]*src=[\"']([^\"']+)", text, re.I)[:100])
-                      for needle in ("project", "采购", "合同", "search", "ajax", "url:"):
-                          hits = [line.strip() for line in text.splitlines() if needle.lower() in line.lower()]
-                          print("HITS", needle, hits[:30])
-              except urllib.error.HTTPError as exc:
-                  print("HTTPError", exc.code, exc.reason, "url", exc.geturl())
+
+          def fetch(url, *, data=None):
+              req = urllib.request.Request(url, data=data, headers=HEADERS)
+              with urllib.request.urlopen(req, timeout=20) as response:
+                  raw = response.read(800_000)
+                  charset = response.headers.get_content_charset() or "utf-8"
                   try:
-                      print(exc.read(4000).decode("utf-8", errors="replace"))
-                  except Exception:
-                      pass
-              except Exception as exc:
-                  print(type(exc).__name__, repr(exc))
+                      text = raw.decode(charset, errors="replace")
+                  except LookupError:
+                      text = raw.decode("utf-8", errors="replace")
+                  return response.status, response.geturl(), response.headers, text
+
+          def contract_links(text):
+              return [
+                  (html.unescape(href), html.unescape(title))
+                  for href, title in re.findall(
+                      r'<a[^>]+href=["\']([^"\']*?/detail/[^"\']+)["\'][^>]*title=["\']([^"\']*)["\']',
+                      text,
+                      re.I,
+                  )
+              ]
+
+          print("=== INDEX SEARCH-RELATED INLINE CODE ===")
+          status, final, headers, index = fetch(INDEX)
+          print("status", status, "final", final, "bytes", len(index.encode("utf-8")))
+          for line in index.splitlines():
+              lower = line.lower()
+              if any(key in lower for key in (
+                  "searchprojcode", "currentpage", "dosearch", "searchcontract", "pager", "codeResult".lower(), "onclick"
+              )):
+                  print(line.strip())
+
+          print("\n=== PAGER.JS ===")
+          try:
+              status, final, headers, pager = fetch(PAGER)
+              print("status", status, "final", final, "bytes", len(pager.encode("utf-8")))
+              print(pager[:120000])
+          except Exception as exc:
+              print("pager error", type(exc).__name__, repr(exc))
+
+          common = {
+              "currentPage": "1",
+              "totalCount": "",
+              "isChange": "",
+              "searchContractCode": "",
+              "searchContractName": "",
+              "searchProjName": "",
+              "searchPurchaserName": "",
+              "searchSupplyName": "",
+              "searchAgentName": "",
+              "searchPlacardStartDate": "",
+              "searchPlacardEndDate": "",
+              "code": "",
+              "codeResult": "",
+          }
+
+          for project_id in PROJECT_IDS:
+              print("\n=== PROJECT", project_id, "===")
+              params = dict(common)
+              params["searchProjCode"] = project_id
+              encoded = urllib.parse.urlencode(params)
+              candidates = [
+                  ("GET_SEARCH", SEARCH + "?" + encoded, None),
+                  ("GET_INDEX", INDEX + "?" + encoded, None),
+                  ("POST_SEARCH", SEARCH, encoded.encode("utf-8")),
+                  ("POST_INDEX", INDEX, encoded.encode("utf-8")),
+              ]
+              for label, url, data in candidates:
+                  try:
+                      status, final, headers, text = fetch(url, data=data)
+                      links = contract_links(text)
+                      occurrence = text.count(project_id)
+                      selected = re.findall(
+                          r'id=["\']searchProjCode["\'][^>]*value=["\']([^"\']*)',
+                          text,
+                          re.I,
+                      )
+                      total = re.findall(
+                          r'id=["\']totalCount["\'][^>]*value=["\']([^"\']*)',
+                          text,
+                          re.I,
+                      )
+                      print(label, "status", status, "final", final, "occurrences", occurrence,
+                            "searchProjCode_value", selected[:2], "totalCount", total[:2],
+                            "detail_links", links[:10])
+                  except urllib.error.HTTPError as exc:
+                      print(label, "HTTPError", exc.code, exc.reason, exc.geturl())
+                  except Exception as exc:
+                      print(label, type(exc).__name__, repr(exc))
           PY
