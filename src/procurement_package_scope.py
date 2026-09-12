@@ -2,9 +2,9 @@
 
 A project_id is necessary but not always sufficient transaction identity. Multi-package
 procurements may publish package-specific awards, contracts, and settlements. A
-package-specific settlement must never promote a project-level NeedSignal unless the
-canonical Need itself is package-scoped. V1 therefore blocks that promotion rather
-than aggregating or guessing package semantics.
+package-specific or package-unresolved settlement must never promote a project-level
+NeedSignal unless the canonical Need itself is package-scoped. V1 therefore blocks
+that promotion rather than aggregating or guessing package semantics.
 """
 
 from __future__ import annotations
@@ -84,13 +84,24 @@ def package_scoped_settlement_blocks_project_need(
     tender_package_names: Iterable[str],
     settlement_items: Iterable[Mapping[str, Any]],
 ) -> bool:
-    """Return True when a package settlement would over-promote a project Need."""
+    """Return True when settlement scope cannot safely promote a project Need.
+
+    For an explicitly multi-package tender, missing package identity is UNKNOWN, not
+    evidence of a whole-project settlement. Promotion is allowed only when every
+    settlement item explicitly declares a whole-project scope label. Package-specific
+    settlements remain package-scoped even if multiple packages are present.
+    """
 
     names = _unique(tender_package_names)
     if len(names) <= 1:
         return False
-    for item in settlement_items:
+
+    items = list(settlement_items)
+    if not items:
+        return False
+
+    for item in items:
         name = _normalize_package_name(item.get("package_name"))
-        if name and name not in _WHOLE_PROJECT_LABELS:
+        if name not in _WHOLE_PROJECT_LABELS:
             return True
     return False
