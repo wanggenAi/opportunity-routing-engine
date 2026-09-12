@@ -93,16 +93,17 @@ def build_pair_validation_queue(ledger: Mapping[str, Any]) -> dict[str, Any]:
                     channel="FIRST_PARTY_PUBLIC_RECORD",
                     instruction=(
                         "Resolve the exact buyer/payer identity from the same-project official "
-                        "procurement notice, result, contract, or payment record. Preserve buyer, "
-                        "budget source, and actual payer as separate fields when they differ."
+                        "procurement notice, result, contract, settlement, or payment record. "
+                        "Preserve buyer, budget source, and actual payer as separate fields when "
+                        "they differ."
                     ),
                     pass_condition=(
                         "A first-party record explicitly identifies the actor responsible for the "
-                        "transaction payment or an exact legally accountable procuring payer."
+                        "transaction payment or an exact legally accountable payer."
                     ),
                     fail_condition=(
-                        "Only an agency, platform, budget source, or inferred government entity is "
-                        "available without an explicit payer relationship."
+                        "Only an agency, platform, budget source, buyer label, or inferred government "
+                        "entity is available without an explicit payer relationship."
                     ),
                     forbidden_inference="procurement buyer name or fiscal budget != proven payer unless the source explicitly binds the role",
                 )
@@ -114,21 +115,22 @@ def build_pair_validation_queue(ledger: Mapping[str, Any]) -> dict[str, Any]:
                     record=record,
                     target="PAID_NEED",
                     priority=20,
-                    channel="FIRST_PARTY_RESULT_CONTRACT_PAYMENT",
+                    channel="FIRST_PARTY_CONTRACT_SETTLEMENT_PAYMENT",
                     instruction=(
-                        "Find an exact-project award/result, signed contract, accepted invoice, or "
-                        "payment record that proves money actually committed or paid for this "
-                        "capability; preserve project/package identity."
+                        "Follow the exact project_id lifecycle through result and contract records, "
+                        "then find first-party settlement/payment evidence for the same project. "
+                        "Preserve buyer, payer, supplier, package, amount, source URL, and provenance."
                     ),
                     pass_condition=(
-                        "At least one exact-identity paid/awarded transaction is evidenced with a "
-                        "named counterparty and amount; repeated paid status requires two or more "
-                        "distinct paid events."
+                        "At least one exact-project first-party settlement/payment event is proven "
+                        "with an explicit payer and settled amount; repeated paid status requires "
+                        "two or more distinct settled paid events."
                     ),
                     fail_condition=(
-                        "Only a budget, tender notice, intention, estimate, or market inquiry exists."
+                        "Evidence stops at tender budget, award/result, intended commitment, or a "
+                        "signed contract without settlement/payment proof."
                     ),
-                    forbidden_inference="published budget or tender amount != PAID need",
+                    forbidden_inference="tender budget, award/result, or signed contract != PAID need without exact settlement/payment evidence",
                 )
             )
 
@@ -216,6 +218,7 @@ def build_pair_validation_queue(ledger: Mapping[str, Any]) -> dict[str, Any]:
             "This queue is a planning artifact and does not modify Resource Imbalance truth states.",
             "Task priority is an evidence-cost heuristic, not probability of commercial success.",
             "UNKNOWN and CLAIMED remain below OBSERVED; DISCOVERED remains below OPTIONED.",
+            "Tender budget, award/result, and signed contract remain below PAID without exact settlement/payment evidence.",
             "A task disappears only after a future evidence ingestion changes the canonical ledger state.",
         ],
     }
