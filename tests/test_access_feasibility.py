@@ -5,7 +5,10 @@ from src.access_feasibility import (
     AccessFeasibility,
     AccessRouteKind,
     AccessState,
+    OperatorCapabilityEnvelope,
+    OperatorFitState,
     access_state,
+    operator_fit_state,
     validate_access,
 )
 
@@ -37,7 +40,22 @@ class AccessFeasibilityTests(unittest.TestCase):
         self.assertEqual(validate_access(record), [])
         self.assertEqual(access_state(record), AccessState.VALIDATION_ACCESS_READY)
 
-    def test_real_operator_history_is_credibility_but_not_entitlement(self):
+    def test_multi_year_real_work_history_counts_as_contextual_credibility(self):
+        profile = OperatorCapabilityEnvelope(
+            professional_years=8,
+            proven_domains=("enterprise IT", "systems delivery"),
+            accepted_delivery_contexts=("multi-company project work",),
+            education_training=("engineering degree",),
+            cross_context_experience=("cross-city", "international study"),
+            communication_trust_assets=("mature stakeholder communication",),
+            local_knowledge=("home-city context",),
+        )
+        self.assertEqual(
+            operator_fit_state(profile),
+            OperatorFitState.STRONG_CONTEXTUAL_CREDIBILITY,
+        )
+
+    def test_operator_history_is_credibility_but_not_entitlement(self):
         record = self._record(
             route_kind=AccessRouteKind.DIRECT_COLD,
             institutional_cover_or_referral="",
