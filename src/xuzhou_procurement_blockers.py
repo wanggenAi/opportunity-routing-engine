@@ -29,14 +29,27 @@ from src.regional_adapters import (
 )
 
 
+# The specific-qualification subsection belongs to section 二. Stop before the next
+# top-level Chinese section heading rather than keying on one procurement method's
+# wording ("获取招标文件" vs "获取采购文件" etc.).
 _SPECIFIC_QUAL_RE = re.compile(
     r"(?:\(三\)|（三）)?\s*本项目的特定资格要求[：:\s]*"
     r"(?P<body>.*?)"
-    r"(?=\s*(?:(?:三、|三\.)\s*获取招标文件|四、|四\. |$))",
+    r"(?=\s*(?:三[、.]|$))",
     re.S,
 )
 _NO_SUBCONTRACT_RE = re.compile(r"成交后不得转包或分包(?:，但[^。；\n]{0,180})?")
 _APPROVED_MARKERS = ("本项目的特定资格要求", "成交后不得转包或分包")
+
+# A heading named "特定资格要求" is not automatically a capability constraint.
+# Credit blacklists and generic statutory eligibility are trust/compliance facts,
+# not proof of a missing capability. V1 emits CAPABILITY_GAP only when the body
+# explicitly names a professional/business credential or permit surface.
+_CAPABILITY_CREDENTIAL_RE = re.compile(
+    r"(?:资质|许可证|许可项目|备案(?:凭证)?|注册建造师|建造师证书|"
+    r"安全生产考核合格证|安全生产许可证|测绘资质|出版许可证|"
+    r"医疗器械经营|农药三证|农药经营许可证|肥料登记证|特种设备生产许可证)"
+)
 
 
 @dataclass(frozen=True)
@@ -88,7 +101,11 @@ def extract_explicit_constraints(text: str) -> list[tuple[str, str, str]]:
     match = _SPECIFIC_QUAL_RE.search(text)
     if match:
         body = _bounded(match.group("body"))
-        if body and not re.fullmatch(r"(?:无|无。|不适用)", body):
+        if (
+            body
+            and not re.fullmatch(r"(?:无|无。|不适用)", body)
+            and _CAPABILITY_CREDENTIAL_RE.search(body)
+        ):
             result.append(
                 (
                     "CAPABILITY_GAP",
