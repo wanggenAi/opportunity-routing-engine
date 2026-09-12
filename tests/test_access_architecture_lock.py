@@ -22,23 +22,25 @@ class AccessArchitectureLockTests(unittest.TestCase):
         text = FORMAL.read_text(encoding="utf-8")
         self.assertIn("docs/ACCESS_FEASIBILITY_GATE.md", text)
         self.assertIn("Operator access feasibility — LOCKED", text)
+        self.assertIn("COUNTERPARTY VISIBLE SURPLUS", text)
         self.assertIn("ACCESS_BLOCKED", text)
-        self.assertIn("operator access feasibility", text.lower())
 
-    def test_access_doc_protects_real_work_history_without_turning_it_into_entitlement(self):
+    def test_access_doc_requires_backing_and_real_counterparty_gain(self):
         text = ACCESS_DOC.read_text(encoding="utf-8")
         self.assertIn("professional history", text)
-        self.assertIn("not commercial credentials by themselves", text)
-        self.assertIn("Why should this actor spend scarce time", text)
-        self.assertIn("LOCAL CULTURAL HYPOTHESIS != UNIVERSAL FACT", text)
+        self.assertIn("Backing / legitimacy leverage", text)
+        self.assertIn("Counterparty visible surplus", text)
+        self.assertIn("PPT / REPORT != HOOK BY DEFAULT", text)
+        self.assertIn("LOCAL FIELD PRIOR != UNIVERSAL FACT", text)
 
     def test_current_candidate_access_states_are_fail_closed(self):
         data = json.loads(ACCESS_DATA.read_text(encoding="utf-8"))
         by_id = {item["candidate_id"]: item for item in data["assessments"]}
         self.assertEqual(by_id["LV-XZ-001A"]["access_state"], "ACCESS_BLOCKED")
         self.assertEqual(by_id["LV-XZ-003A"]["access_state"], "INTRODUCTION_READY")
-        self.assertEqual(by_id["LV-XZ-004"]["access_state"], "INTRODUCTION_READY")
+        self.assertEqual(by_id["LV-XZ-004"]["access_state"], "ACCESS_BLOCKED")
         self.assertEqual(data["operator_profile_storage"], "RUNTIME_PRIVATE_NOT_COMMITTED")
+        self.assertIn("COUNTERPARTY_VISIBLE_SURPLUS", data["principle"])
 
 
 if __name__ == "__main__":
