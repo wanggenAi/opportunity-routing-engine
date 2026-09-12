@@ -1,0 +1,58 @@
+{
+  "candidate_id": "LV-XZ-001A",
+  "parent_candidate_id": "LV-XZ-001",
+  "date": "2026-09-12",
+  "claimed_discovery_state": "COMPLEMENTARITY_HYPOTHESIS",
+  "actor": "Authorized Xuzhou engineering-machinery master technicians, skill-master studios and their employing organizations",
+  "observed_state": "Public evidence shows that Xuzhou/XCMG already has strong skill-master studios, mentoring, training and conversion of frontline experience into standards and processes. It also shows that expert operators use fine-grained sensory cues such as machine sound and chip shape/color to notice potential problems. Therefore the candidate is narrowed to knowledge that remains residual after existing codification, not all veteran-worker knowledge.",
+  "observed_change": "Engineering machinery is becoming more intelligent, service-oriented and international; Xuzhou is simultaneously scaling digital-skill conversion, global service-engineer training and supply-chain skill development.",
+  "hidden_or_underrecognized_value": "Only the residual, rights-clearable judgment layer that demonstrably improves decisions beyond existing SOPs, training materials and formal standards: e.g. subtle sensory cues, cue combinations, exception heuristics and context-dependent decision boundaries that are still carried by experts rather than reusable artifacts.",
+  "why_value_is_not_recognized_or_realized": "Strong internal codification is already occurring, so no hidden asset should be presumed. The unresolved question is whether a measurable residual knowledge gap remains after current standards/training and, if so, whether the employer and expert can lawfully authorize any external or cross-context reuse.",
+  "complementary_actor_hypothesis": "Authorized training programs, supply-chain firms, service teams or industrial AI/evaluation teams that already consume formal skill standards but would gain measurable accuracy, speed or training quality from verified residual cues.",
+  "complementary_actor_state": "Xuzhou engineering-machinery training institutions and firms are scaling intelligent-manufacturing skills, global service engineers and supply-chain training, creating repeated contexts where codified operational knowledge is already consumed and can serve as a baseline for testing residual expert value.",
+  "transformation_mechanism": "Run a residual-knowledge gap test on one non-confidential authorized task: establish current SOP/training baseline; record novice/standard-method performance; have an expert solve the same class while capturing only permitted decision cues; isolate cues not represented in the baseline; convert only validated incremental cues into bounded cases/rules/test items; re-test with non-experts before considering reuse.",
+  "why_exchange_does_not_already_happen": "Existing master studios already perform internal knowledge transfer, which may capture most value. A new exchange exists only if residual cues remain materially useful outside the current person-to-person mentoring path and if rights, verification and usage boundaries can be made explicit.",
+  "incremental_value_for_origin_actor": "If a residual layer is proven and authorized, the employer/expert gains an additional way to preserve scarce judgment, improve training consistency and potentially license or deliver bounded training/validation without requiring the expert in every case.",
+  "incremental_value_for_complementary_actor": "Higher first-pass diagnosis/training accuracy or shorter learning/triage time than existing SOPs alone, measured on the same bounded task.",
+  "orchestrator_value_capture_hypothesis": "Only after proof and authorization: charge for knowledge-gap measurement, rights-safe extraction, verification, packaging and controlled routing. No monetization claim is allowed if existing internal studios already capture the same value efficiently.",
+  "cheapest_decisive_validation": "Choose one authorized, non-confidential machining/maintenance/inspection task with an existing SOP or training baseline. Compare baseline users against one or more authorized experts on matched cases. Capture only the expert cues responsible for measurable improvement. Then test whether a non-expert given those cues reproduces part of the improvement. In parallel, obtain written/explicit employer rights boundaries. This single experiment should precede any platform or dataset work.",
+  "kill_conditions": "Kill if current SOP/training already captures expert performance; expert advantage cannot be explained/captured; the useful cues are employer trade secrets or cannot be authorized; the cue package does not improve non-expert performance; the relevant knowledge is too case-specific; or existing master-studio mechanisms already transfer it at lower cost.",
+  "source_mode": "LATENT_VALUE_DISCOVERY",
+  "evidence": [
+    {
+      "source_id": "https://www.jiangsu.gov.cn/art/2026/5/25/art_33718_11775504.html",
+      "kind": "ORIGIN_STATE",
+      "claim": "Xuzhou has active skill-master studios, mentoring and large-scale skill upgrading; veteran workers are being retrained for intelligent manufacturing, proving substantial codification/training activity rather than an untouched knowledge pool."
+    },
+    {
+      "source_id": "https://szb.cnxz.com.cn/xzrb/pad/con/202605/06/content_49552.html",
+      "kind": "ORIGIN_STATE",
+      "claim": "A XCMG master-technician team publicly reports converting frontline experience into standards/processes and technical improvements, providing direct counterevidence to any claim that all expert knowledge is stranded."
+    },
+    {
+      "source_id": "https://www.xcmg.com/aboutus/news-detail-1128296.htm",
+      "kind": "ORIGIN_STATE",
+      "claim": "A publicly described skilled operator uses subtle machine sound and chip shape/color changes as diagnostic cues, showing that fine-grained experiential signals can exist alongside formal training."
+    },
+    {
+      "source_id": "https://jszwb.jiangsu.gov.cn/art/2026/8/27/art_71797_11821221.html",
+      "kind": "COMPLEMENTARY_STATE",
+      "claim": "Xuzhou Engineering Machinery Technician Institute trains about 40,000 person-times annually, supports supply-chain talent and overseas employees, creating repeated codified-training contexts in which any residual knowledge could be measured against a real baseline."
+    }
+  ],
+  "known_missing_evidence": [
+    "STRANDING_BARRIER"
+  ],
+  "counterevidence": [
+    "Master studios already transmit skills and develop standards/processes.",
+    "XCMG/Xuzhou training infrastructure is mature and may already capture most economically useful knowledge.",
+    "Public evidence does not prove that any remaining tacit cue is transferable, rights-clearable or valuable outside the employing organization."
+  ],
+  "explicit_unknowns": [
+    "Whether measurable expert performance remains after controlling for existing SOP/training",
+    "Which residual cues are lawful to capture and reuse",
+    "Who owns the resulting extracted artifact",
+    "Whether a non-expert can reproduce improvement using the extracted cues",
+    "Whether any complementary actor will make a costly commitment for the residual layer"
+  ]
+}
