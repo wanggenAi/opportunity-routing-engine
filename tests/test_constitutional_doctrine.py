@@ -53,6 +53,26 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("The system's job is to discover the **exchange structure**", thesis)
         self.assertIn("LATENT_VALUE_HYPOTHESIS != VERIFIED RESOURCE", thesis)
 
+    def test_discovery_engine_rejects_explicit_demand_as_core_identity(self):
+        discovery = self._read("docs/DISCOVERY_ENGINE.md")
+        self.assertIn("Latent Value Discovery Radar", discovery)
+        self.assertIn("Two candidate classes — do not mix them", discovery)
+        self.assertIn("EXPLICIT_DEMAND_EXECUTION != CORE_LATENT_VALUE_DISCOVERY", discovery)
+        self.assertIn("hidden_or_underrecognized_value:", discovery)
+        self.assertIn("why_value_is_not_recognized_or_realized:", discovery)
+        self.assertIn("complementary_actor_hypothesis:", discovery)
+        self.assertIn("transformation_mechanism:", discovery)
+        self.assertIn("VALUE_DISCOVERY_PRECEDES_ORCHESTRATION", self._read("src/latent_value_discovery.py"))
+
+    def test_cycle_002_no_longer_ranks_existing_outsourcing_as_core(self):
+        result = self._read("docs/results/DISCOVERY_CYCLE_002_PRELIMINARY_2026-09-12.md")
+        money = self._read("docs/results/DISCOVERY_CYCLE_002_MONEY_CAPTURE_2026-09-12.md")
+        self.assertIn("CORE LATENT-VALUE SEARCH ONLY", result)
+        self.assertIn("Tacit industrial knowledge", result)
+        self.assertIn("Fragmented small demand", result)
+        self.assertIn("DOWNGRADED / EXPLICIT_DEMAND_EXECUTION / NOT CORE DISCOVERY", money)
+        self.assertIn("A route can be profitable and still be architecturally secondary", money)
+
 
 if __name__ == "__main__":
     unittest.main()
