@@ -14,6 +14,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from src.live_imbalance_ledger import build_live_imbalance_ledger
+from src.procurement_lifecycle import integrate_procurement_lifecycle
 from src.resource_imbalance import BlockerSignal
 
 
@@ -69,6 +70,10 @@ def main() -> int:
         help="Historical capability-provider award artifact; may be supplied multiple times",
     )
     parser.add_argument(
+        "--lifecycle-json",
+        help="Exact-project procurement lifecycle artifact; only canonical settlement promotion is applied",
+    )
+    parser.add_argument(
         "--blockers-csv",
         help="Optional evidence-reviewed canonical BlockerSignal CSV",
     )
@@ -89,6 +94,12 @@ def main() -> int:
         geography=args.geography,
         max_pairs_per_need=args.max_pairs_per_need,
     )
+    if args.lifecycle_json:
+        ledger = integrate_procurement_lifecycle(
+            ledger,
+            _read_json(args.lifecycle_json),
+            max_pairs_per_need=args.max_pairs_per_need,
+        )
 
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -103,6 +114,7 @@ def main() -> int:
                 "status_counts": ledger["status_counts"],
                 "route_testable_count": ledger["route_testable_count"],
                 "unbound_evidence": ledger["signal_counts"]["unbound_evidence"],
+                "procurement_lifecycle": ledger.get("procurement_lifecycle"),
             },
             ensure_ascii=False,
             sort_keys=True,
