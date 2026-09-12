@@ -1,0 +1,166 @@
+name: package-scope-patch
+
+on:
+  push:
+    paths:
+      - ".github/workflows/package-scope-patch.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: codex/package-safe-procurement-lifecycle
+      - name: Apply package-safe lifecycle guard
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('src/procurement_lifecycle.py')
+          text = path.read_text(encoding='utf-8')
+
+          old = '''Joining is fail-closed and exact on ``project_id`` only. Titles, capability
+similarity, supplier similarity, dates, and LLM semantics are never used as
+lifecycle join keys.
+'''
+          new = '''Joining is fail-closed and exact on ``project_id``. Titles, capability
+similarity, supplier similarity, dates, and LLM semantics are never used as
+lifecycle join keys. Promotion is additionally package-safe: package-specific
+settlement from an explicitly multi-package tender cannot promote a project-level
+NeedSignal.
+'''
+          if old not in text:
+              raise SystemExit('docstring anchor missing')
+          text = text.replace(old, new, 1)
+
+          anchor = '''from src.resource_imbalance import (
+'''
+          import_block = '''from src.procurement_package_scope import (
+    discover_tender_package_names,
+    package_scope as classify_package_scope,
+    package_scoped_settlement_blocks_project_need,
+    settlement_package_names as collect_settlement_package_names,
+)
+
+from src.resource_imbalance import (
+'''
+          if anchor not in text:
+              raise SystemExit('import anchor missing')
+          text = text.replace(anchor, import_block, 1)
+
+          old = '''        settlement_items = [
+            item for item in matching_contracts if item.get("settlement_proven") is True
+        ]
+        if settlement_items:
+'''
+          new = '''        settlement_items = [
+            item for item in matching_contracts if item.get("settlement_proven") is True
+        ]
+        tender_package_names = discover_tender_package_names(tender)
+        settlement_package_names = collect_settlement_package_names(settlement_items)
+        package_scope_value = classify_package_scope(tender_package_names)
+        package_scope_unresolved = package_scoped_settlement_blocks_project_need(
+            tender_package_names,
+            settlement_items,
+        )
+        if settlement_items:
+'''
+          if old not in text:
+              raise SystemExit('settlement anchor missing')
+          text = text.replace(old, new, 1)
+
+          old = '''        if not supplier_actor and stage != "TENDER_ONLY":
+            unresolved.append("SUPPLIER_ACTOR")
+
+        promotion_allowed = (
+'''
+          new = '''        if not supplier_actor and stage != "TENDER_ONLY":
+            unresolved.append("SUPPLIER_ACTOR")
+        if package_scope_unresolved:
+            unresolved.append("PACKAGE_SCOPE")
+
+        promotion_allowed = (
+'''
+          if old not in text:
+              raise SystemExit('unresolved anchor missing')
+          text = text.replace(old, new, 1)
+
+          old = '''            and not any(conflicts.values())
+            and bool(settlement_urls)
+'''
+          new = '''            and not any(conflicts.values())
+            and not package_scope_unresolved
+            and bool(settlement_urls)
+'''
+          if old not in text:
+              raise SystemExit('promotion anchor missing')
+          text = text.replace(old, new, 1)
+
+          old = '''        elif stage == "CONTRACT_FOUND":
+            promotion_reason = "SIGNED_CONTRACT_IS_NOT_SETTLEMENT"
+        elif payer_actor is None:
+'''
+          new = '''        elif stage == "CONTRACT_FOUND":
+            promotion_reason = "SIGNED_CONTRACT_IS_NOT_SETTLEMENT"
+        elif package_scope_unresolved:
+            promotion_reason = "PACKAGE_SCOPED_SETTLEMENT_CANNOT_PROMOTE_PROJECT_LEVEL_NEED"
+        elif payer_actor is None:
+'''
+          if old not in text:
+              raise SystemExit('reason anchor missing')
+          text = text.replace(old, new, 1)
+
+          old = '''                "project_name": project_name,
+                "geography": geography,
+                "tender_evidence": tender_evidence,
+'''
+          new = '''                "project_name": project_name,
+                "geography": geography,
+                "tender_package_names": tender_package_names,
+                "settlement_package_names": settlement_package_names,
+                "package_scope": package_scope_value,
+                "promotion_scope_policy": "PROJECT_LEVEL_NEED_REJECTS_PACKAGE_SCOPED_MULTI_PACKAGE_SETTLEMENT",
+                "tender_evidence": tender_evidence,
+'''
+          if old not in text:
+              raise SystemExit('record anchor missing')
+          text = text.replace(old, new, 1)
+
+          old = '''        "geography": geography,
+        "join_policy": "EXACT_PROJECT_ID_ONLY",
+        "source_input_counts": {
+'''
+          new = '''        "geography": geography,
+        "join_policy": "EXACT_PROJECT_ID_ONLY",
+        "promotion_scope_policy": "PROJECT_LEVEL_NEED_REJECTS_PACKAGE_SCOPED_MULTI_PACKAGE_SETTLEMENT",
+        "source_input_counts": {
+'''
+          if old not in text:
+              raise SystemExit('top-level policy anchor missing')
+          text = text.replace(old, new, 1)
+
+          old = '''            "buyer_actor and payer_actor remain separate roles; buyer is never copied into payer automatically.",
+        ],
+'''
+          new = '''            "buyer_actor and payer_actor remain separate roles; buyer is never copied into payer automatically.",
+            "For explicitly multi-package tenders, package-specific settlement cannot promote the project-level NeedSignal; package scope must be resolved or a whole-project settlement must be proven.",
+        ],
+'''
+          if old not in text:
+              raise SystemExit('truth-note anchor missing')
+          text = text.replace(old, new, 1)
+
+          path.write_text(text, encoding='utf-8')
+          PY
+          python -m unittest discover -s tests -v
+          git diff --check
+          git rm .github/workflows/package-scope-patch.yml
+          git config user.name "wanggen"
+          git config user.email "31836791+wanggenAi@users.noreply.github.com"
+          git add src/procurement_lifecycle.py
+          git commit -m "Fail closed on package-scoped settlement promotion"
+          git push origin HEAD:codex/package-safe-procurement-lifecycle
