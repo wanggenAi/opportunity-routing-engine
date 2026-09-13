@@ -8,6 +8,7 @@ Canonical bridge:
 
 ```text
 OPPORTUNITY / DESIRED OUTCOME
+-> REVIEWED REQUIREMENT INTAKE
 -> VERSIONED REQUIREMENT BUNDLE
 -> EXACT CAPABILITY GRAPH MATERIALIZATION
 -> PERSISTENT COMPOSITION RUN
@@ -38,6 +39,59 @@ REGISTERED REQUIREMENT BUNDLE
 ```
 
 Changing the decomposition requires a new version. Historical versions remain queryable.
+
+## Reviewed intake boundary
+
+JSON/JSONL requirement intake uses an explicit allowlist. Accepted fields are only:
+
+```text
+bundle_id
+version
+required_capabilities
+geography
+source_ref
+rationale
+active
+```
+
+Fields that attempt to promote external truth are rejected rather than stored, including examples such as:
+
+```text
+demand_confirmed
+payer_committed
+transaction_ready
+consent_confirmed
+access_confirmed
+```
+
+`active=true` means only that this is the currently selected decomposition version. It does not mean the external opportunity, demand, payer, or transaction has been confirmed.
+
+Example reviewed input:
+
+```json
+{
+  "bundle_id": "opportunity-123-capabilities",
+  "version": 1,
+  "required_capabilities": [
+    "presence.local_execution",
+    "mobility.local",
+    "evidence.capture.photo_video"
+  ],
+  "geography": "Xuzhou",
+  "source_ref": "opportunity:123",
+  "rationale": "Reviewed decomposition of the bounded desired outcome",
+  "active": true
+}
+```
+
+Import with:
+
+```bash
+python scripts/import_requirement_bundles.py \
+  --input data/reviewed_requirements.jsonl \
+  --db data/requirements.db \
+  --summary-output artifacts/requirement_import_summary.json
+```
 
 ## Composition run lineage
 
@@ -77,7 +131,7 @@ These states answer a structural resource question only.
 - acceptable economics;
 - transactionability.
 
-## Production entry point
+## Production composition entry point
 
 ```bash
 python scripts/build_resource_compositions_from_graph.py \
@@ -95,9 +149,13 @@ The output preserves actor ids, exact globally unambiguous signal lineage, contr
 ## Governing invariants
 
 ```text
+REVIEWED_INTAKE_NE_DEMAND_CONFIRMATION
+REVIEWED_INTAKE_NE_PAYER_COMMITMENT
+TRUTH_PROMOTION_FIELDS_ARE_REJECTED
 REQUIREMENT_BUNDLE_IS_DECOMPOSITION_NOT_DEMAND_TRUTH
 BUNDLE_CHANGE_REQUIRES_NEW_VERSION
 ACTIVE_BUNDLE_VERSION_IS_EXPLICIT
+ACTIVE_SELECTION_NE_VERSION_CONTENT
 BUNDLE_SOURCE_REF_IS_REQUIRED
 COMPOSITION_RUN_INPUTS_ARE_IMMUTABLE
 COMPOSITION_RUN_LINKS_EXACT_GRAPH_MATERIALIZATION
