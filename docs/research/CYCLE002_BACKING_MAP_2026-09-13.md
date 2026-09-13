@@ -107,20 +107,27 @@ Source: https://szb.cnxz.com.cn/xzrb/pad/con/202607/13/content_52654.html
 
 ## BR-XZ-005A — Jiangsu Huaihai Technology Property Rights Exchange Center
 
-State: `MEDIA AFFILIATION OBSERVED / FORMAL AFFILIATION ENTITY TYPE UNRESOLVED / THIS OPERATOR NOT YET ACCEPTED`
+State: `HISTORICAL DIRECT AFFILIATION ROUTE EVIDENCED / 2026 CONTINUITY UNPROVEN / THIS OPERATOR NOT YET ACCEPTED`
 Potential strength if activated: `HIGH FOR LEGITIMACY + TRANSACTION INFRASTRUCTURE`
 
 Role evidenced in practice:
-- a real Xuzhou technology manager is publicly described as **affiliated with this center**;
+- a real Xuzhou technology manager is publicly described in July 2026 as **affiliated with this center**;
 - the center is one of the two citywide platforms supporting recurring enterprise technology-demand discovery;
 - the center participates in technology-transfer / technology-property-rights transaction infrastructure.
 
-Institutional value if the route is formally verified:
+Historical direct-affiliation evidence now narrows the institutional question:
+- CUMT Science Park historical/search-index evidence records that Huaihai obtained `技术经理人事务所` qualification in March 2019;
+- Huaihai's own older technology-manager application page explicitly instructed Xuzhou technology managers to select Jiangsu Huaihai Technology Property Rights Exchange Center as their affiliation office;
+- CUMT Science Park records a 2023 technology-manager-team-building research visit to Huaihai, with indexed evidence referring to training/affiliation discussion.
+
+Therefore Huaihai was historically not merely a generic transaction center. It directly occupied the affiliation-office role.
+
+Institutional value if the current route is verified:
 - provides a legitimate transaction/intermediary context;
 - may support affiliation, transaction process and cross-institutional routing;
 - can create a role materially stronger than unsupported personal cold outreach.
 
-### 2026 institutional-status correction
+### 2026 continuity correction
 
 The 2026 provincial Technology-Manager Office Management Rules define an office as an entity authorized by the Jiangsu Technology Property Rights Exchange Market. Article 9 assigns social recruitment, project-cooperation affiliation, affiliation agreements, commission settlement and contract/invoice support to such offices.
 
@@ -128,26 +135,36 @@ The April/May 2026 provincial **support-construction list** contains 41 institut
 
 That absence is **not** a FAIL: the notice is not explicitly described as the complete active-office register, and the current rules use biennial performance evaluation plus explicit cancellation conditions. Historical snapshots are also insufficient: CUMT Science Park was only in the 2022 cultivation list but publicly reported a 2025 five-star technology-manager-office honor in January 2026.
 
-Therefore the phrase `挂靠在江苏淮海技术产权交易中心` remains strong operational evidence but cannot yet be equated with a specific current provincial office registry/account relationship.
+The unresolved layer is no longer `was Huaihai ever the affiliation entity?` It is now:
 
-Critical unknowns now start one layer earlier:
-- what exact legal/platform entity records the media-reported Huaihai affiliation;
-- which entity signs the affiliation/project-cooperation agreement;
+```text
+DID HUAIHAI'S HISTORICAL OFFICE QUALIFICATION / DIRECT-AFFILIATION ACCOUNT
+REMAIN CURRENT UNDER THE 2026 RULES,
+EXPIRE,
+OR MIGRATE TO A SUCCESSOR ENTITY/ACCOUNT?
+```
+
+Critical unknowns:
+- current / expired / migrated status of Huaihai's historical office qualification and platform account;
+- exact current agreement party if the route migrated;
 - current 2026 entry requirements for an external individual;
 - whether Jiangsu platform identity filing is sufficient to request affiliation;
 - training/certificate requirements, if any;
 - supervised-case mechanism for newcomers;
 - case attribution, confidentiality, contract, invoice and commission rules.
 
-This remains the **first affiliation-route validation target**, but the first manual question is now entity/status resolution rather than operator eligibility.
+This remains the **first affiliation-route validation target**, but the first manual question is now continuity/status resolution rather than broad entity identification.
 
 Authority:
 - `docs/results/BR_XZ_005A_PUBLIC_VALIDATION_2026-09-13.md`
 - `docs/results/BR_XZ_005A_AFFILIATION_ENTITY_CHECK_2026-09-13.md`
+- `docs/results/BR_XZ_005A_HISTORICAL_DIRECT_AFFILIATION_EVIDENCE_2026-09-13.md`
 
 Sources:
 - https://szb.cnxz.com.cn/xzrb/pad/con/202607/13/content_52654.html
-- https://www.xzippc.cn/a/yunjiaoyi/
+- https://cumtusp.com/yxqyzs/1385.html
+- https://gulou.jshtec.com/channels/976.html
+- https://www.cumtusp.com/xiangmuduijie.html
 - https://www.jstec.com.cn/news/202602628049695003
 - https://www.jstec.com.cn/news/202612028050552446
 - https://www.jstec.com.cn/news/202234815902675344
@@ -216,7 +233,7 @@ This is closer to the project's core doctrine: discover under-combined instituti
 
 This ranking is only for cheapest decisive validation, not business attractiveness:
 
-1. `BR-XZ-005A` — strongest observed evidence of an actual affiliation pattern in Xuzhou; first resolve the formal current affiliation entity/platform status, then validate operator eligibility/rules.
+1. `BR-XZ-005A` — historical direct-affiliation route is now evidenced and a 2026 affiliated-person case exists; verify whether the old qualification/account remains current, expired or migrated, then validate operator eligibility/rules.
 2. `BR-XZ-005B` — strong expert/result/professional-practice node; verify current platform-status detail plus external participation and supervised-case rules.
 3. `BR-XZ-002` — strategically powerful engineering-machinery node, but external intake remains unproven and it may already occupy part of the technical whitespace.
 4. `BR-XZ-003` — formal university-industry gatekeeper once enterprise economics are concrete.
@@ -230,9 +247,11 @@ PUBLIC NODE != SPONSOR
 CONTACT != INTRODUCTION
 INTRODUCTION != ENDORSEMENT
 ENDORSEMENT != RESOURCE AUTHORIZATION
-MEDIA AFFILIATION LABEL != PROVINCIAL REGISTRY STATUS
+HISTORICAL QUALIFICATION != CURRENT 2026 QUALIFICATION
+HISTORICAL DIRECT AFFILIATION != CURRENT OPEN EXTERNAL AFFILIATION
+2026 MEDIA SIGNAL != CURRENT REGISTRY RECORD
 SUPPORT-CONSTRUCTION LIST != PROVEN COMPLETE ACTIVE REGISTER
-LOCAL CENTER != AUTOMATICALLY TECHNOLOGY-MANAGER OFFICE
+CURRENT ENTITY CONFIRMED != THIS OPERATOR ACCEPTED
 AFFILIATED TO A != AUTHORIZED TO REPRESENT B
 ACCESS TO DATABASE != CONTROL OF EXPERT
 TRAINING CERTIFICATE != AFFILIATION
