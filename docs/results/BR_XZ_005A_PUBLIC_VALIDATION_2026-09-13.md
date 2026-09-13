@@ -1,41 +1,54 @@
 # BR-XZ-005A Public Validation — 2026-09-13
 
-Status: `PUBLIC ROUTE PROVEN / AFFILIATION ENTITY TYPE UNRESOLVED / LOCAL ACCEPTANCE UNPROVEN`
+Status: `PUBLIC ROUTE PROVEN / HISTORICAL DIRECT HUAIHAI AFFILIATION EVIDENCED / 2026 CONTINUITY UNPROVEN / LOCAL ACCEPTANCE UNPROVEN`
 
 ## Decision
 
-Public evidence proves that the Jiangsu technology-manager filing and affiliation model is live, current 2026 rules support social recruitment and project-based affiliation, and Jiangsu Huaihai Technology Property Rights Exchange Center is an active Xuzhou technology-transfer institution with a real media-reported affiliated technology-manager example.
+Public evidence proves that the Jiangsu technology-manager filing and affiliation model is live and current 2026 rules support social recruitment and project-based affiliation.
 
-A further 2026 registry/taxonomy check adds one important constraint: the media phrase `挂靠在江苏淮海技术产权交易中心` must **not** yet be treated as proof that Huaihai itself is the exact current provincial `技术经理人事务所` agreement entity.
+Deeper historical first-party evidence now also shows that Jiangsu Huaihai Technology Property Rights Exchange Center was not merely described loosely as a backing platform:
+- CUMT Science Park search-index evidence records that Huaihai obtained `技术经理人事务所` qualification in March 2019;
+- Huaihai's own older technology-manager application page explicitly instructed Xuzhou technology managers to select Jiangsu Huaihai Technology Property Rights Exchange Center as their affiliation office;
+- a July 2026 Xuzhou case still describes Wang Yingping as affiliated with Huaihai.
+
+The remaining uncertainty is therefore narrower: whether Huaihai's historical office qualification/direct-affiliation account remains current under the **2026** office rules, or has migrated to another formal entity/account.
 
 Current verdict:
 
 ```text
-BR-XZ-005A = MANUAL RULES-INQUIRY READY
-FIRST RESOLVE FORMAL AFFILIATION ENTITY / PLATFORM STATUS
+BR-XZ-005A = MANUAL 2026-CONTINUITY INQUIRY READY
+HISTORICAL DIRECT HUAIHAI ROUTE IS EVIDENCED
+FIRST CONFIRM CURRENT / EXPIRED / MIGRATED STATUS
 THEN TEST THIS OPERATOR'S ELIGIBILITY
 DO NOT BUY TRAINING FIRST
 DO NOT CLAIM AFFILIATION
 ```
 
-## Proven
+## Proven / evidenced
 
 1. Jiangsu Technology Property Rights Exchange Market has a live registration route. Published filing sequence is `account registration -> real-name authentication -> technology-manager identity application`.
 2. Published guidance says office affiliation is a separate voluntary bilateral-selection step using an affiliation agreement.
 3. The 2026 Technology-Manager Office Management Rules define an office as an entity authorized by the provincial market and explicitly support recruiting technology managers from society, project-cooperation affiliation, agreed commission settlement, and office support for coordination, contracts, invoicing and settlement.
-4. July 2026 Xuzhou reporting explicitly describes technology manager Wang Yingping as affiliated with Jiangsu Huaihai Technology Property Rights Exchange Center.
-5. The same case separately shows her using the CUMT Science Park Technology-Manager Office expert/result databases, proving that affiliation and resource access can come from different institutions.
-6. BR-XZ-005A remains active in the 2026 Jiangsu technology-trading ecosystem.
-7. Xuzhou reporting describes newcomers learning on real projects with experienced technology managers, proving supervised practice exists in the wider local ecosystem.
+4. Historical CUMT Science Park first-party/search-index evidence records that Huaihai itself obtained technology-manager-office qualification in March 2019.
+5. Historical Huaihai first-party application guidance explicitly instructed Xuzhou technology managers to select Huaihai as the affiliation office.
+6. July 2026 Xuzhou reporting explicitly describes technology manager Wang Yingping as affiliated with Jiangsu Huaihai Technology Property Rights Exchange Center.
+7. The same case separately shows her using the CUMT Science Park Technology-Manager Office expert/result databases, proving that affiliation and resource access can come from different institutions.
+8. BR-XZ-005A remains active in the 2026 Jiangsu technology-trading ecosystem.
+9. Xuzhou reporting describes newcomers learning on real projects with experienced technology managers, proving supervised practice exists in the wider local ecosystem.
 
 Sources:
 - https://www.jstec.com.cn/register
 - https://suzhou.jstec.com.cn/news/202420421398052624
 - https://www.jstec.com.cn/news/202602628049695003
+- https://cumtusp.com/yxqyzs/1385.html
+- https://gulou.jshtec.com/channels/976.html
 - https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202607/t20260713_8583095.shtml
 - https://bid.jstec.com.cn/
 
-## New institutional-taxonomy check
+Authority:
+- `docs/results/BR_XZ_005A_HISTORICAL_DIRECT_AFFILIATION_EVIDENCE_2026-09-13.md`
+
+## 2026 institutional-status check
 
 The 2026 provincial notice listing 41 institutions supported to build technology-manager offices shows two Xuzhou entities:
 - Xuzhou Medical University Asset Management Co., Ltd.;
@@ -50,13 +63,11 @@ Historical evidence also shows why snapshots are unsafe: CUMT Science Park appea
 Therefore:
 
 ```text
-MEDIA AFFILIATION LABEL != PROVINCIAL OFFICE REGISTRY STATUS
+HISTORICAL DIRECT HUAIHAI OFFICE/AFFILIATION = EVIDENCED
 NOT IN 2026 SUPPORT-CONSTRUCTION LIST != PROVEN NOT AUTHORIZED
-LOCAL CENTER != AUTOMATICALLY CURRENT OFFICE AGREEMENT ENTITY
+2026 MEDIA AFFILIATION != CURRENT REGISTRY RECORD
+CURRENT / EXPIRED / MIGRATED STATUS = STILL UNKNOWN
 ```
-
-Authority:
-- `docs/results/BR_XZ_005A_AFFILIATION_ENTITY_CHECK_2026-09-13.md`
 
 Sources:
 - https://www.jstec.com.cn/news/202612028050552446
@@ -65,10 +76,10 @@ Sources:
 
 ## Still unknown
 
-No current public page was found that states:
-- the exact current legal/platform entity behind `挂靠在江苏淮海技术产权交易中心`;
-- whether Huaihai signs the affiliation/project-cooperation agreement directly or routes it through a separately authorized office/account;
-- whether an external individual can currently enter that route;
+No current public primary-source registry page was found that states:
+- whether Huaihai's historical technology-manager-office qualification/direct-affiliation account remains valid after the 2026 rule update;
+- if migrated, what entity/account now succeeds that route;
+- whether an external individual can currently enter the route;
 - mandatory training/certificate requirements;
 - minimum prior transaction experience;
 - supervised-case assignment;
@@ -77,28 +88,29 @@ No current public page was found that states:
 
 ## Minimum remaining manual questions
 
-1. **Formal entity/status** — In the current Jiangsu system, what exact entity and platform account records a technology manager described as `挂靠在江苏淮海技术产权交易中心`? Which entity signs the affiliation/project-cooperation agreement?
+1. **2026 continuity/status** — Huaihai historically held technology-manager-office qualification and directly accepted Xuzhou affiliation. Under the 2026 rules, is that qualification/account still current, expired, or migrated? What exact entity/account now signs and records affiliation/project cooperation?
 2. **Entry** — Does that current route accept an external individual with substantial enterprise technical/delivery experience but no prior technology-transfer transaction record? What prerequisite is required first?
 3. **Training / supervised practice** — Is an initial technology-manager training certificate mandatory, and can a new participant first join a real case under an experienced technology manager?
-4. **Operating boundary** — Can an externally discovered enterprise problem enter the center workflow, and how are case attribution, confidentiality, contract signing, invoicing and commission settlement handled?
+4. **Operating boundary** — Can an externally discovered enterprise problem enter the workflow, and how are case attribution, confidentiality, contract signing, invoicing and commission settlement handled?
 
 ## PASS / HOLD / FAIL
 
-PASS: a current formal route whose agreement party/platform relationship is named, plus affiliation/project cooperation, supervised real-case onboarding, accepted external case, or formal institutional introduction with defined rights.
+PASS: provincial/current-system confirmation that Huaihai's historical direct route remains current, or identification of its formal successor entity, followed by a current route for affiliation/project cooperation, supervised real-case onboarding, accepted external case, or formal institutional introduction with defined rights.
 
-HOLD: generic encouragement, registration alone, identity filing alone, `有人挂靠` without naming the current formal agreement entity, or `train first` without a defined route into affiliation/cases.
+HOLD: `以前可以`, generic encouragement, registration alone, identity filing alone, current media examples without current registry/account confirmation, or `train first` without a defined route into affiliation/cases.
 
-FAIL/DOWNGRADE: the observed affiliation is historical/informal/employee-only, no external affiliation/project-cooperation mechanism exists, no defined representation/settlement boundary exists, or training is available but real cases remain inaccessible.
+FAIL/DOWNGRADE: Huaihai's historical qualification has expired/been cancelled and no successor external-affiliation route exists; or current external individuals can only buy training but cannot enter real cases; or representation/settlement boundaries remain undefined.
 
 ## Boundary
 
 ```text
-PROVINCIAL RULE != LOCAL ACCEPTANCE
-MEDIA LABEL != FORMAL AFFILIATION ENTITY
-AFFILIATION MODEL EXISTS != THIS OPERATOR IS ACCEPTED
+HISTORICAL QUALIFICATION != CURRENT 2026 QUALIFICATION
+HISTORICAL DIRECT AFFILIATION != CURRENT OPEN EXTERNAL AFFILIATION
+2026 MEDIA CONTINUITY SIGNAL != CURRENT REGISTRY RECORD
+CURRENT ENTITY CONFIRMED != THIS OPERATOR ACCEPTED
 TRAINING != BACKING
 REGISTRATION != AFFILIATION
 PUBLIC CONTACT != SPONSORSHIP
 ```
 
-The public-research phase for BR-XZ-005A is now sufficiently complete. The next decisive action is one official rules inquiry that first resolves the formal affiliation entity/status and then answers the entry, practice and operating-boundary questions above.
+The public-research phase for BR-XZ-005A is now sufficiently complete at a narrower boundary. The next decisive action is one official provincial continuity/status inquiry, then local entry/practice/operating-boundary validation.
