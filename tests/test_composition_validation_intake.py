@@ -92,7 +92,7 @@ class CompositionValidationIntakeTests(unittest.TestCase):
         self.assertEqual(event.value, AccessState.VALIDATION_ACCESS_READY.value)
         self.assertEqual(event.subject_ref, "institution-a")
 
-    def test_access_record_with_missing_entry_path_becomes_blocked_not_pass(self):
+    def test_incomplete_access_record_is_rejected_by_reviewed_schema(self):
         access = self._access_record()
         access["legitimate_entry_path"] = ""
         record = {
@@ -102,14 +102,11 @@ class CompositionValidationIntakeTests(unittest.TestCase):
             "dimension": "OPERATOR_ACCESS",
             "observed_at": "2026-09-13T20:00:00+08:00",
             "evidence_ref": "field:access-review",
-            "evidence_note": "no legitimate entry path found",
+            "evidence_note": "entry path not established",
             "access_record": access,
         }
-        # AccessFeasibility itself permits an empty field; canonical validate_access/access_state
-        # is responsible for converting it to ACCESS_BLOCKED.
-        access["legitimate_entry_path"] = "placeholder"
-        event = validation_event_from_record(record)
-        self.assertEqual(event.value, AccessState.VALIDATION_ACCESS_READY.value)
+        with self.assertRaisesRegex(ValueError, "missing:legitimate_entry_path"):
+            validation_event_from_record(record)
 
     def test_non_access_record_cannot_smuggle_access_record(self):
         record = self._base()
