@@ -22,17 +22,10 @@ class StructuredSignalImportTests(unittest.TestCase):
             "availability": "ADVERTISED",
             "permission": "UNKNOWN",
             "facts": [
-                {
-                    "key": "offers_paid_offline_tasks",
-                    "value": True,
-                    "evidence_text": "offers local paid errand help",
-                }
+                {"key": "offers_paid_offline_tasks", "value": True, "evidence_text": "offers local paid errand help"}
             ],
             "explicit_capabilities": [
-                {
-                    "capability_key": "task.local_errand",
-                    "evidence_text": "explicitly offers local errand help",
-                }
+                {"capability_key": "task.local_errand", "evidence_text": "explicitly offers local errand help"}
             ],
         }
         payload.update(overrides)
@@ -46,17 +39,15 @@ class StructuredSignalImportTests(unittest.TestCase):
         self.assertEqual(signal.explicit_capabilities[0].capability_key, "task.local_errand")
 
     def test_structured_import_cannot_create_confirmed_availability(self):
-        with self.assertRaisesRegex(ValueError, "confirmed availability"):
+        with self.assertRaisesRegex(ValueError, "intake_cannot_confirm_availability"):
             signal_from_record(self._record(availability="CONFIRMED"))
 
     def test_structured_import_cannot_create_permission(self):
-        with self.assertRaisesRegex(ValueError, "permission state"):
+        with self.assertRaisesRegex(ValueError, "intake_cannot_create_permission"):
             signal_from_record(self._record(permission="ALLOWED"))
 
     def test_explicit_capability_requires_evidence_text(self):
-        record = self._record(
-            explicit_capabilities=[{"capability_key": "task.local_errand"}]
-        )
+        record = self._record(explicit_capabilities=[{"capability_key": "task.local_errand"}])
         with self.assertRaisesRegex(ValueError, "evidence_text"):
             signal_from_record(record)
 
@@ -76,16 +67,8 @@ class StructuredSignalImportTests(unittest.TestCase):
         changed_record = self._record(
             observed_at="2026-09-13T09:00:00+00:00",
             facts=[
-                {
-                    "key": "offers_paid_offline_tasks",
-                    "value": True,
-                    "evidence_text": "offers local paid errand help",
-                },
-                {
-                    "key": "local_mobility_observed",
-                    "value": True,
-                    "evidence_text": "states local travel is accepted",
-                },
+                {"key": "offers_paid_offline_tasks", "value": True, "evidence_text": "offers local paid errand help"},
+                {"key": "local_mobility_observed", "value": True, "evidence_text": "states local travel is accepted"},
             ],
         )
         changed = signal_from_record(changed_record)
