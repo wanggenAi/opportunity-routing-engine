@@ -2,7 +2,8 @@
 
 A composition run proves only structural capability coverage under explicit inputs. It
 does not prove demand truth, payer commitment, counterpart consent, access, safety, or
-transactionability.
+transactionability. Optional verification evidence may make capability claims callable,
+but callable composition still does not imply a transaction should occur.
 """
 
 from __future__ import annotations
@@ -15,6 +16,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from src.capability_graph_store import CapabilityMaterialization, SQLiteCapabilityGraphStore
+from src.capability_verification_store import SQLiteCapabilityVerificationStore
 from src.live_resource_signals import EvidenceStatus
 from src.requirement_bundle_registry import RequirementBundleSpec
 from src.resource_composition import (
@@ -33,6 +35,7 @@ CREATE TABLE IF NOT EXISTS composition_run (
     materialization_id INTEGER NOT NULL,
     graph_ruleset_fingerprint TEXT NOT NULL,
     graph_observation_snapshot_fingerprint TEXT NOT NULL,
+    verification_snapshot_fingerprint TEXT NOT NULL DEFAULT 'NONE',
     bundle_id TEXT NOT NULL,
     bundle_version INTEGER NOT NULL,
     bundle_source_ref TEXT NOT NULL,
@@ -113,6 +116,7 @@ class CompositionRun:
     materialization_id: int
     graph_ruleset_fingerprint: str
     graph_observation_snapshot_fingerprint: str
+    verification_snapshot_fingerprint: str
     bundle_id: str
     bundle_version: int
     bundle_source_ref: str
@@ -134,7 +138,21 @@ class SQLiteCompositionRunStore:
         self.connection.row_factory = sqlite3.Row
         self.connection.execute("PRAGMA foreign_keys = ON")
         self.connection.executescript(_SCHEMA)
+        self._migrate_schema()
         self.connection.commit()
+
+    def _migrate_schema(self) -> None:
+        columns = {
+            row["name"]
+            for row in self.connection.execute("PRAGMA table_info(composition_run)").fetchall()
+        }
+        if "verification_snapshot_fingerprint" not in columns:
+            self.connection.execute(
+                """
+                ALTER TABLE composition_run
+                ADD COLUMN verification_snapshot_fingerprint TEXT NOT NULL DEFAULT 'NONE'
+                """
+            )
 
     def close(self) -> None:
         self.connection.close()
@@ -155,6 +173,7 @@ class SQLiteCompositionRunStore:
             graph_observation_snapshot_fingerprint=row[
                 "graph_observation_snapshot_fingerprint"
             ],
+            verification_snapshot_fingerprint=row["verification_snapshot_fingerprint"],
             bundle_id=row["bundle_id"],
             bundle_version=int(row["bundle_version"]),
             bundle_source_ref=row["bundle_source_ref"],
@@ -193,6 +212,7 @@ class SQLiteCompositionRunStore:
         graph_store: SQLiteCapabilityGraphStore,
         bundle_spec: RequirementBundleSpec,
         *,
+        verification_store: SQLiteCapabilityVerificationStore | None = None,
         materialization_id: int | None = None,
         as_of: datetime | None = None,
         max_age: timedelta = timedelta(days=30),
@@ -220,12 +240,18 @@ class SQLiteCompositionRunStore:
         if materialization is None:
             raise ValueError("capability graph materialization is required")
 
+        verification_fingerprint = (
+            verification_store.snapshot_fingerprint(as_of=as_of)
+            if verification_store is not None
+            else "NONE"
+        )
         bundle_payload = _bundle_payload(bundle_spec)
         bundle_fingerprint = _hash(bundle_payload)
         input_payload = {
             "materialization_id": materialization.materialization_id,
             "graph_ruleset_fingerprint": materialization.ruleset_fingerprint,
             "graph_observation_snapshot_fingerprint": materialization.observation_snapshot_fingerprint,
+            "verification_snapshot_fingerprint": verification_fingerprint,
             "bundle": bundle_payload,
             "as_of": as_of.isoformat(),
             "max_age_seconds": int(max_age.total_seconds()),
@@ -242,6 +268,8 @@ class SQLiteCompositionRunStore:
             return self._run_from_row(existing)
 
         claims = graph_store.capability_claims(materialization.materialization_id)
+        if verification_store is not None:
+            claims = verification_store.project_claims(claims, as_of=as_of)
         hypotheses = generate_composition_hypotheses(
             claims,
             bundle_spec.as_bundle(),
@@ -257,10 +285,11 @@ class SQLiteCompositionRunStore:
                 INSERT INTO composition_run (
                     created_at, input_fingerprint, materialization_id,
                     graph_ruleset_fingerprint, graph_observation_snapshot_fingerprint,
+                    verification_snapshot_fingerprint,
                     bundle_id, bundle_version, bundle_source_ref, bundle_rationale,
                     bundle_fingerprint, as_of, max_age_seconds, max_actors,
                     max_hypotheses, hypothesis_count
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     created_at.isoformat(),
@@ -268,6 +297,7 @@ class SQLiteCompositionRunStore:
                     materialization.materialization_id,
                     materialization.ruleset_fingerprint,
                     materialization.observation_snapshot_fingerprint,
+                    verification_fingerprint,
                     bundle_spec.bundle_id.strip(),
                     bundle_spec.version,
                     bundle_spec.source_ref.strip(),
@@ -354,7 +384,9 @@ GOVERNING_INVARIANTS = (
     "COMPOSITION_RUN_INPUTS_ARE_IMMUTABLE",
     "COMPOSITION_RUN_LINKS_EXACT_GRAPH_MATERIALIZATION",
     "COMPOSITION_RUN_LINKS_EXACT_REQUIREMENT_VERSION",
+    "COMPOSITION_RUN_LINKS_EXACT_VERIFICATION_SNAPSHOT",
     "REQUIREMENT_BUNDLE_NE_DEMAND_TRUTH",
+    "CONFIRMED_CAPABILITY_NE_COUNTERPARTY_CONSENT",
     "COMPOSITION_HYPOTHESIS_NE_PAYER_COMMITMENT",
     "CALLABLE_COMPOSED_NE_COUNTERPARTY_CONSENT",
     "CALLABLE_COMPOSED_NE_TRANSACTIONABILITY",

@@ -7,6 +7,7 @@ import argparse
 import json
 import sys
 from collections import Counter
+from contextlib import ExitStack
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -15,6 +16,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from src.capability_graph_store import SQLiteCapabilityGraphStore
+from src.capability_verification_store import SQLiteCapabilityVerificationStore
 from src.composition_run_store import SQLiteCompositionRunStore
 from src.requirement_bundle_registry import SQLiteRequirementBundleRegistry
 
@@ -33,6 +35,7 @@ def main() -> None:
     parser.add_argument("--graph-db", required=True)
     parser.add_argument("--requirement-db", required=True)
     parser.add_argument("--run-db", required=True)
+    parser.add_argument("--verification-db")
     parser.add_argument("--bundle-id")
     parser.add_argument("--materialization-id", type=int)
     parser.add_argument("--as-of")
@@ -48,9 +51,16 @@ def main() -> None:
         raise ValueError("--max-age-days must not be negative")
 
     summaries: list[dict[str, object]] = []
-    with SQLiteCapabilityGraphStore(args.graph_db) as graph, SQLiteRequirementBundleRegistry(
-        args.requirement_db
-    ) as requirements, SQLiteCompositionRunStore(args.run_db) as runs:
+    with ExitStack() as stack:
+        graph = stack.enter_context(SQLiteCapabilityGraphStore(args.graph_db))
+        requirements = stack.enter_context(SQLiteRequirementBundleRegistry(args.requirement_db))
+        runs = stack.enter_context(SQLiteCompositionRunStore(args.run_db))
+        verification = (
+            stack.enter_context(SQLiteCapabilityVerificationStore(args.verification_db))
+            if args.verification_db
+            else None
+        )
+
         if args.bundle_id:
             spec = requirements.active(args.bundle_id)
             if spec is None:
@@ -65,6 +75,7 @@ def main() -> None:
             run = runs.build_run(
                 graph,
                 spec,
+                verification_store=verification,
                 materialization_id=args.materialization_id,
                 as_of=as_of,
                 max_age=max_age,
@@ -77,6 +88,7 @@ def main() -> None:
                 {
                     "run_id": run.run_id,
                     "materialization_id": run.materialization_id,
+                    "verification_snapshot_fingerprint": run.verification_snapshot_fingerprint,
                     "bundle_id": run.bundle_id,
                     "bundle_version": run.bundle_version,
                     "bundle_source_ref": run.bundle_source_ref,
@@ -104,11 +116,13 @@ def main() -> None:
             )
 
     payload = {
+        "verification_overlay_used": bool(args.verification_db),
         "composition_runs": summaries,
         "truth_note": (
             "Requirement bundles are decomposition hypotheses, not demand or payer truth. "
-            "Composition states describe structural capability coverage only; even callable "
-            "coverage is not consent, access, safety approval, or transactionability."
+            "Verification may confirm capability, availability and permission evidence, but "
+            "even CALLABLE_COMPOSED is not consent, access approval, safety approval, payer "
+            "commitment, or transactionability."
         ),
     }
     rendered = json.dumps(payload, ensure_ascii=False, sort_keys=True)
