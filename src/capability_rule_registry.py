@@ -118,7 +118,9 @@ class CapabilityRuleRegistry:
         raw_rules = payload.get("rules")
         if not isinstance(raw_rules, list):
             raise ValueError("capability rules must be an array")
-        return cls(tuple(rule_from_record(item) for item in raw_rules if isinstance(item, Mapping)))
+        if any(not isinstance(item, Mapping) for item in raw_rules):
+            raise ValueError("every capability rule must be an object")
+        return cls(tuple(rule_from_record(item) for item in raw_rules))
 
     @classmethod
     def load_json(cls, path: str | Path) -> "CapabilityRuleRegistry":
@@ -137,5 +139,6 @@ GOVERNING_INVARIANTS = (
     "RULE_MATCH_NE_CAPABILITY_CONFIRMATION",
     "MODEL_SUGGESTION_NE_CANONICAL_RULE",
     "RULE_CHANGE_REQUIRES_REVIEWABLE_DIFF",
+    "MALFORMED_RULE_NE_IGNORED_RULE",
     "UNKNOWN_NE_PASS",
 )
