@@ -103,14 +103,32 @@ class NeutralSignalIntakeTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "invalid:permission"):
             signal_from_record(record)
 
-    def test_jsonl_batch_ingests_end_to_end(self):
+    def test_reviewed_intake_cannot_self_declare_confirmed_availability(self):
+        record = self._record()
+        record["availability"] = "CONFIRMED"
+        with self.assertRaisesRegex(ValueError, "intake_cannot_confirm_availability"):
+            signal_from_record(record)
+
+    def test_reviewed_intake_cannot_self_declare_permission(self):
+        record = self._record()
+        record["permission"] = "ALLOWED"
+        with self.assertRaisesRegex(ValueError, "intake_cannot_create_permission"):
+            signal_from_record(record)
+
+    def test_jsonl_batch_ingests_end_to_end_without_truth_upgrade(self):
         with tempfile.TemporaryDirectory() as tmp:
             input_path = Path(tmp) / "observations.jsonl"
             db_path = Path(tmp) / "signals.db"
             first = self._record()
             second = dict(first)
             second["observed_at"] = "2026-09-13T17:00:00+08:00"
-            second["availability"] = "CONFIRMED"
+            second["facts"] = list(first["facts"]) + [
+                {
+                    "key": "local_mobility_observed",
+                    "value": True,
+                    "evidence_text": "public offer includes local travel",
+                }
+            ]
             input_path.write_text(
                 json.dumps(first, ensure_ascii=False) + "\n" + json.dumps(second, ensure_ascii=False) + "\n",
                 encoding="utf-8",
@@ -121,7 +139,8 @@ class NeutralSignalIntakeTests(unittest.TestCase):
                 current = store.get("manual-public-observation", "item-1")
 
             self.assertEqual([x.kind for x in transitions], [TransitionKind.FIRST_SEEN, TransitionKind.CHANGED])
-            self.assertEqual(current.current_payload["availability"], "CONFIRMED")
+            self.assertEqual(current.current_payload["availability"], "ADVERTISED")
+            self.assertEqual(len(current.current_payload["facts"]), 2)
 
 
 if __name__ == "__main__":
