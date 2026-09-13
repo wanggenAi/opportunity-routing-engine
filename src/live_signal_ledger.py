@@ -173,7 +173,7 @@ def observe_signal(
 
 
 class SignalLedger:
-    """Small deterministic in-memory ledger; persistence adapters may sit below it."""
+    """Small deterministic ledger with explicit persistence boundaries."""
 
     def __init__(self) -> None:
         self._entries: dict[tuple[str, str], SignalLedgerEntry] = {}
@@ -187,6 +187,32 @@ class SignalLedger:
     def get(self, source_id: str, signal_id: str) -> SignalLedgerEntry | None:
         return self._entries.get((source_id, signal_id))
 
+    def entries(self) -> tuple[SignalLedgerEntry, ...]:
+        """Return deterministic snapshots suitable for persistence/audit."""
+
+        return tuple(self._entries[key] for key in sorted(self._entries))
+
+    def restore_entry(self, entry: SignalLedgerEntry) -> None:
+        """Restore previously persisted state without creating observation evidence."""
+
+        if not entry.source_id.strip() or not entry.signal_id.strip() or not entry.actor_ref.strip():
+            raise ValueError("restored ledger identity fields must be non-empty")
+        if entry.first_seen_at.tzinfo is None or entry.last_seen_at.tzinfo is None:
+            raise ValueError("restored ledger timestamps must be timezone-aware")
+        if entry.last_seen_at < entry.first_seen_at:
+            raise ValueError("restored last_seen_at must not precede first_seen_at")
+        if entry.seen_count < 1 or entry.revision_count < 0:
+            raise ValueError("restored ledger counters are invalid")
+        if entry.revision_count > entry.seen_count - 1:
+            raise ValueError("revision_count cannot exceed seen_count - 1")
+        if not entry.current_fingerprint.strip():
+            raise ValueError("current_fingerprint must be non-empty")
+
+        key = (entry.source_id, entry.signal_id)
+        if key in self._entries:
+            raise ValueError("duplicate persisted signal identity")
+        self._entries[key] = entry
+
     def stale_entries(self, as_of: datetime, max_age: timedelta) -> tuple[SignalLedgerEntry, ...]:
         return tuple(entry for entry in self._entries.values() if entry.is_stale(as_of, max_age))
 
@@ -197,5 +223,6 @@ GOVERNING_INVARIANTS = (
     "REOBSERVED_NE_CHANGED",
     "NOT_RECENTLY_SEEN_NE_DISAPPEARED",
     "OUT_OF_ORDER_OBSERVATION_MUST_NOT_ROLL_BACK_STATE",
+    "RESTORE_NE_NEW_OBSERVATION",
     "UNKNOWN_NE_PASS",
 )
