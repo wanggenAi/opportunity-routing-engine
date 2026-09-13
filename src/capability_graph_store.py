@@ -14,7 +14,6 @@ import sqlite3
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Mapping, Sequence
 
 from src.capability_rule_registry import SQLiteCapabilityRuleRegistry
 from src.live_resource_signals import (
@@ -25,6 +24,7 @@ from src.live_resource_signals import (
     SignalObservation,
     extract_capability_claims,
 )
+from src.live_signal_ledger import semantic_fingerprint
 from src.live_signal_store import SQLiteSignalLedgerStore
 
 
@@ -134,6 +134,42 @@ def _rule_payload(registry: SQLiteCapabilityRuleRegistry) -> list[dict[str, obje
             }
         )
     return result
+
+
+def _current_observations(signal_store: SQLiteSignalLedgerStore) -> tuple[SignalObservation, ...]:
+    """Recover the raw observation that corresponds to each accepted current state.
+
+    Raw archive order may contain out-of-order evidence. We select the latest observed
+    timestamp per stable source/signal identity, with later ingestion winning ties, and
+    verify its semantic fingerprint against the ledger's current state. Legacy databases
+    with current state but no raw archive fail closed instead of emitting a partial graph.
+    """
+
+    latest_raw: dict[tuple[str, str], SignalObservation] = {}
+    for signal in signal_store.observations():
+        key = (signal.source_id, signal.signal_id)
+        previous = latest_raw.get(key)
+        if previous is None or signal.observed_at >= previous.observed_at:
+            latest_raw[key] = signal
+
+    result: list[SignalObservation] = []
+    for entry in signal_store.iter_current():
+        key = (entry.source_id, entry.signal_id)
+        signal = latest_raw.get(key)
+        if signal is None:
+            raise ValueError(
+                f"current signal has no archived raw observation: {entry.source_id}::{entry.signal_id}"
+            )
+        if signal.observed_at != entry.last_seen_at:
+            raise ValueError(
+                f"raw/current timestamp mismatch: {entry.source_id}::{entry.signal_id}"
+            )
+        if semantic_fingerprint(signal) != entry.current_fingerprint:
+            raise ValueError(
+                f"raw/current fingerprint mismatch: {entry.source_id}::{entry.signal_id}"
+            )
+        result.append(signal)
+    return tuple(result)
 
 
 @dataclass(frozen=True)
@@ -254,7 +290,7 @@ class SQLiteCapabilityGraphStore:
         if created_at.tzinfo is None:
             raise ValueError("created_at must be timezone-aware")
 
-        observations = signal_store.current_observations()
+        observations = _current_observations(signal_store)
         active_specs = rule_registry.active_specs()
         active_rules = rule_registry.active_rules()
         rule_ids = tuple(spec.as_inference_rule().rule_id for spec in active_specs)
