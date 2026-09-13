@@ -32,11 +32,22 @@ class RequirementBundleSpec:
             errors.append("missing:bundle_id")
         if self.version < 1:
             errors.append("invalid:version")
-        keys = [key.strip() for key in self.required_capabilities]
-        if not keys or any(not key for key in keys):
-            errors.append("missing:required_capabilities")
-        if len(keys) != len(set(keys)):
-            errors.append("duplicate:required_capabilities")
+
+        keys: list[str] = []
+        if isinstance(self.required_capabilities, (str, bytes)):
+            errors.append("invalid:required_capabilities")
+        else:
+            for key in self.required_capabilities:
+                if not isinstance(key, str) or not key.strip():
+                    errors.append("missing:required_capabilities")
+                    keys = []
+                    break
+                keys.append(key.strip())
+            if not keys and "missing:required_capabilities" not in errors:
+                errors.append("missing:required_capabilities")
+            if keys and len(keys) != len(set(keys)):
+                errors.append("duplicate:required_capabilities")
+
         if not self.source_ref.strip():
             errors.append("missing:source_ref")
         if not self.rationale.strip():
@@ -77,6 +88,19 @@ def _json(value: object) -> str:
     return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
 
 
+def _version_content(spec: RequirementBundleSpec) -> tuple[object, ...]:
+    """Canonical immutable content of a bundle version, excluding active selection."""
+
+    return (
+        spec.bundle_id.strip(),
+        spec.version,
+        tuple(key.strip() for key in spec.required_capabilities),
+        spec.geography.strip(),
+        spec.source_ref.strip(),
+        spec.rationale.strip(),
+    )
+
+
 class SQLiteRequirementBundleRegistry:
     def __init__(self, path: str | Path) -> None:
         self.path = Path(path)
@@ -103,8 +127,10 @@ class SQLiteRequirementBundleRegistry:
 
         existing = self.get(spec.bundle_id, spec.version)
         if existing is not None:
-            if existing != spec:
+            if _version_content(existing) != _version_content(spec):
                 raise ValueError("requirement bundle version already exists with different content")
+            if spec.active and not existing.active:
+                self.activate(spec.bundle_id.strip(), spec.version)
             return
 
         with self.connection:
@@ -214,6 +240,7 @@ GOVERNING_INVARIANTS = (
     "REQUIREMENT_BUNDLE_IS_DECOMPOSITION_NOT_DEMAND_TRUTH",
     "BUNDLE_CHANGE_REQUIRES_NEW_VERSION",
     "ACTIVE_BUNDLE_VERSION_IS_EXPLICIT",
+    "ACTIVE_SELECTION_NE_VERSION_CONTENT",
     "BUNDLE_SOURCE_REF_IS_REQUIRED",
     "BUNDLE_RATIONALE_IS_REQUIRED",
     "BUNDLE_NE_PAYER_COMMITMENT",
