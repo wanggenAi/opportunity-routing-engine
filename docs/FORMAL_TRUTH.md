@@ -1,6 +1,6 @@
 # Formal Truth
 
-Last updated: 2026-09-12
+Last updated: 2026-09-13
 
 This document is the current commercial source of truth. Historical rankings and launch designs remain evidence, but they do not override the current truth stated here.
 
@@ -10,6 +10,7 @@ Canonical foundations, in precedence order:
 - `docs/RESOURCE_ACTIVATION_THESIS.md`
 - `docs/DATA_SOURCE_REGISTRY.md`
 - `docs/DISCOVERY_ENGINE.md`
+- `docs/LIVE_RESOURCE_SENSING.md`
 - `docs/MONEY_FLOW_ENGINE.md`
 - `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
 - `docs/CASE_MINING_ENGINE.md`
@@ -102,12 +103,14 @@ The project is an **Actor-First Regenerative Latent-Value Orchestration Engine**
 
 ```text
 DISCOVERY ENGINE
-Data Sources
+Data Sources / Live Sensors
+→ Signal Observations / Observed Facts
 → Macro / Money Flow / Market Structure
 → Actor
 → Endowment / State / Change
 → Psychology / Behavior
 → Friction / Underuse / Misallocation
+→ Low-level Capability / Latent Affordance Hypotheses
 → Latent Value Hypothesis
 → Complementary Actor Search
 → Need / Resource / Blocker Evidence Projections
@@ -313,6 +316,75 @@ Live normalization rules:
 - preserve upstream actor/state/friction observations even when they are not yet canonical Need/Resource/Blocker signals.
 
 The unified live evidence system should show not only promoted pairs, but also why evidence remained hypothesis, `NEED_ONLY`, `RESOURCE_ONLY`, `PAIR_HYPOTHESIS` or unbound.
+
+## 8A. Live resource sensing truth — LOCKED
+
+The live world must be treated as a changing sensor stream rather than a fixed supplier directory.
+
+Canonical flow:
+
+```text
+SOURCE / PLATFORM / FIELD SENSOR
+→ SIGNAL OBSERVATION
+→ OBSERVED FACTS
+→ ACTOR / STATE / CHANGE
+→ LOW-LEVEL CAPABILITY CLAIMS
+→ LATENT AFFORDANCE HYPOTHESES
+→ REQUIREMENT CAPABILITY BUNDLE
+→ CAPABILITY COVERAGE
+→ CALLABILITY VERIFICATION
+→ COMPLEMENTARITY / RESOURCE COMPOSITION
+```
+
+Capability discovery uses an open namespace rather than a fixed finite resource taxonomy. Known labels may index discovery, but they must not bound it.
+
+Truth boundaries:
+
+```text
+PLATFORM != ONTOLOGY
+LISTING != RESOURCE CLASS
+OBSERVED FACT != INFERRED CAPABILITY
+INFERRED CAPABILITY != CONFIRMED CAPABILITY
+ADVERTISED != CURRENTLY AVAILABLE
+CAPABILITY EVIDENCE != PERMISSION
+CAPABILITY COVERAGE != TRANSACTIONABILITY
+STALE SIGNAL != CURRENT STATE
+TAXONOMY != DISCOVERY BOUNDARY
+UNKNOWN != PASS
+```
+
+A lower-level capability abstraction is useful because it can match opportunity requirements that the resource owner never advertised as a final service. But every abstraction must preserve provenance, inference rule, time and constraints.
+
+Canonical capability evidence states:
+
+```text
+INFERRED
+OBSERVED
+CONFIRMED
+```
+
+Availability is separate:
+
+```text
+UNKNOWN
+ADVERTISED
+CONFIRMED
+COMMITTED
+```
+
+Permission/control is separate:
+
+```text
+UNKNOWN
+ALLOWED
+RESTRICTED
+```
+
+Only confirmed capability + current confirmed/committed availability + allowed permission + fresh evidence may enter a `CALLABLE` coverage state. Even then, transactionability remains downstream.
+
+Source adapters normalize observations only. They must not encode business strategy or silently promote semantic guesses.
+
+See `docs/LIVE_RESOURCE_SENSING.md`.
 
 ## 9. Hook truth — LOCKED
 
@@ -564,7 +636,7 @@ actor/state/change observation
 → cheapest decisive real-world test
 ```
 
-## 18. Current production evidence — 2026-09-12
+## 18. Current production evidence — 2026-09-13
 
 Working live evidence paths already include national/Jiangsu/Xuzhou money-flow sources, Xuzhou public procurement, regional financing evidence, public resource-underuse sensors and delegatable validation packets.
 
@@ -578,25 +650,28 @@ Resource-underuse Sensor 001 has verified that Xuzhou/Jiangsu official public-re
 
 These facts prove resource/underuse evidence only within their exact scope. They do not prove compatible paid demand or a profitable route.
 
-The production system currently preserves strict Resource Imbalance promotion while beginning to externalize evidence-acquisition work as delegatable field-validation packets.
+The production system now also has a source-agnostic live-resource sensing kernel that separates raw signal facts, explicit capability claims, deterministic capability inferences, capability confirmation, availability, permission, freshness and capability-bundle coverage. This implementation does not make any platform-specific social sensor canonical and does not treat inferred capability as callable resource.
 
-The decisive next gap is to expand from source-specific explicit signals toward **broader actor-state and latent-value sensing**, while also proving whether the current operator can legitimately access the actors required for validation and whether those actors can see a real incremental gain, without weakening canonical evidence gates.
+The decisive next gap is to connect lawful fresh sensors to this neutral contract, persist state changes over time and learn which evidence-linked low-level capability abstractions repeatedly create useful latent-value/composition hypotheses, while preserving access/backing and transaction truth.
 
 ## 19. Current next actions — CANONICAL
 
 Engineering priority:
 1. maintain broad macro, money-flow, psychology, behavior and live evidence sensors;
-2. expand actor-state, change, utilization, underuse and latent-value sensing beyond already-stated demand;
-3. treat procurement/marketplace/listing feeds as observers rather than the ontology;
-4. normalize evidence into canonical signal records without losing upstream actor/state/friction observations;
-5. generate complementary-actor and exchange hypotheses from evidence, not imagination;
-6. search for access/backing resources themselves: trusted introducers, institutions, parks, associations, authorized programs, committed complementary actors and recognized roles;
-7. require counterpart-visible surplus and a believable realization mechanism before meaningful outreach;
-8. preserve fail-closed payer, payment, underuse, blocker, package and identity gates;
-9. route field-solvable evidence/access gaps into delegatable validation tasks;
-10. create a fresh broad candidate pool from resulting evidence;
-11. apply the same G0-G6 ranking plus access/backing/surplus comparison;
-12. select one strongest route-testable, access-feasible and surplus-legible candidate and run the cheapest decisive real transaction test.
+2. stabilize the neutral `SignalObservation -> ObservedFact -> CapabilityClaim` contract and open-ended capability namespace;
+3. add persistent time-aware signal/state-change storage before broad social-platform collection;
+4. connect one lawful, technically stable live sensor at a time rather than building a scraper-first architecture;
+5. retain source evidence, inference-rule provenance, freshness, availability and permission separately;
+6. decompose emerging opportunity requirements into the same low-level capability language and evaluate bundle coverage without pretending coverage is transactionability;
+7. expand actor-state, utilization, underuse and latent-value sensing beyond already-stated demand;
+8. generate complementary-actor and exchange hypotheses from evidence, not imagination;
+9. search for access/backing resources themselves: trusted introducers, institutions, parks, associations, authorized programs, committed complementary actors and recognized roles;
+10. require counterpart-visible surplus and a believable realization mechanism before meaningful outreach;
+11. preserve fail-closed payer, payment, underuse, blocker, package, identity and callability gates;
+12. route field-solvable evidence/access gaps into delegatable validation tasks;
+13. create a fresh broad candidate pool from resulting evidence;
+14. apply the same G0-G6 ranking plus access/backing/surplus comparison;
+15. select one strongest route-testable, access-feasible and surplus-legible candidate and run the cheapest decisive real transaction test.
 
 ## 20. Software truth — LOCKED
 
@@ -604,7 +679,12 @@ Do not build ERP, MES, WMS, CRM or a broad marketplace because they are adjacent
 
 Software is justified first where it removes repeated cognition, observation, evidence or orchestration bottlenecks:
 - source registry;
+- live signal observations and provenance;
 - actor/state/change observations;
+- open-ended low-level capability claims;
+- deterministic capability inference rules;
+- availability / permission / freshness / callability state;
+- capability requirement bundles and coverage;
 - normalized money-flow signals;
 - psychology aggregation;
 - case records;
@@ -623,4 +703,4 @@ Code must remain downstream of cognition and architecture. A technically elegant
 
 ## 21. Governing truth — LOCKED
 
-> **先观其所自：不把世界预设成“需求方与供给方”，而是观察每个 Actor 已有什么、缺什么、正在发生什么、哪些价值被闲置、遮蔽、错配或尚未成形；再以证据证明潜在价值，以结构找到互补关系，同时诚实评估操盘者自身已有的能力、信用、后台、入口与缺口；只有在价值真实、关系可达、参与者能看见真实增量收益、规则可接受时，才以信任、激励和可验收能力让原本彼此无关的价值发生连接。发现可以大胆，晋级必须保守；代码永远服务于认知与架构，任何具体网站、数据字段、现有候选都不得反过来定义系统。**
+> **先观其所自：不把世界预设成“需求方与供给方”，而是观察每个 Actor 已有什么、缺什么、正在发生什么、哪些价值被闲置、遮蔽、错配或尚未成形；把互联网与现实世界作为持续变化的传感器网络，保留原始行为、时间和来源，再将观察抽象为尽可能底层、可复用但仍带证据边界的能力原子；再以证据证明潜在价值，以结构找到互补关系，同时诚实评估操盘者自身已有的能力、信用、后台、入口与缺口；只有在价值真实、关系可达、资源真正可调用、参与者能看见真实增量收益、规则可接受时，才以信任、激励和可验收能力让原本彼此无关的价值发生连接。发现可以大胆，晋级必须保守；代码永远服务于认知与架构，任何具体网站、数据字段、现有候选都不得反过来定义系统。**
