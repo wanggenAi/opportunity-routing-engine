@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "rule_id": "offline-paid-task-to-local-presence",
+      "capability_key": "presence.local_execution",
+      "rationale": "An explicit offer to perform paid offline tasks supports a hypothesis that the actor can be physically present for local execution; it does not prove availability for a new task.",
+      "conditions": [
+        {
+          "key": "offers_paid_offline_tasks",
+          "expected_value": true
+        }
+      ]
+    },
+    {
+      "rule_id": "observed-local-mobility-to-local-mobility",
+      "capability_key": "mobility.local",
+      "rationale": "Observed willingness to perform tasks requiring local travel supports a local-mobility capability hypothesis; it does not prove vehicle ownership or travel radius.",
+      "conditions": [
+        {
+          "key": "local_mobility_observed",
+          "expected_value": true
+        }
+      ]
+    }
+  ]
+}
