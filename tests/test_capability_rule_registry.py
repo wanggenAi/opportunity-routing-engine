@@ -86,6 +86,12 @@ class CapabilityRuleRegistryTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             CapabilityRuleRegistry.from_mapping(payload)
 
+    def test_non_object_rule_is_rejected_instead_of_silently_skipped(self):
+        payload = self._payload()
+        payload["rules"].append("not-a-rule")
+        with self.assertRaises(ValueError):
+            CapabilityRuleRegistry.from_mapping(payload)
+
     def test_schema_mismatch_is_rejected(self):
         payload = self._payload()
         payload["schema_version"] = 2
