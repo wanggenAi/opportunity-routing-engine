@@ -107,7 +107,7 @@ Source: https://szb.cnxz.com.cn/xzrb/pad/con/202607/13/content_52654.html
 
 ## BR-XZ-005A — Jiangsu Huaihai Technology Property Rights Exchange Center
 
-State: `AFFILIATION_MODEL_OBSERVED / THIS OPERATOR NOT YET ACCEPTED`
+State: `MEDIA AFFILIATION OBSERVED / FORMAL AFFILIATION ENTITY TYPE UNRESOLVED / THIS OPERATOR NOT YET ACCEPTED`
 Potential strength if activated: `HIGH FOR LEGITIMACY + TRANSACTION INFRASTRUCTURE`
 
 Role evidenced in practice:
@@ -115,35 +115,53 @@ Role evidenced in practice:
 - the center is one of the two citywide platforms supporting recurring enterprise technology-demand discovery;
 - the center participates in technology-transfer / technology-property-rights transaction infrastructure.
 
-Institutional value:
+Institutional value if the route is formally verified:
 - provides a legitimate transaction/intermediary context;
-- can potentially support affiliation, transaction process and cross-institutional routing;
-- creates a role that is materially stronger than unsupported personal cold outreach.
+- may support affiliation, transaction process and cross-institutional routing;
+- can create a role materially stronger than unsupported personal cold outreach.
 
-Critical unknowns:
-- current 2026 affiliation requirements for an external individual;
+### 2026 institutional-status correction
+
+The 2026 provincial Technology-Manager Office Management Rules define an office as an entity authorized by the Jiangsu Technology Property Rights Exchange Market. Article 9 assigns social recruitment, project-cooperation affiliation, affiliation agreements, commission settlement and contract/invoice support to such offices.
+
+The April/May 2026 provincial **support-construction list** contains 41 institutions and shows two Xuzhou entries — Xuzhou Medical University Asset Management Co., Ltd. and Jiangsu Normal University Science Park Co., Ltd. — but does not show Huaihai or CUMT Science Park.
+
+That absence is **not** a FAIL: the notice is not explicitly described as the complete active-office register, and the current rules use biennial performance evaluation plus explicit cancellation conditions. Historical snapshots are also insufficient: CUMT Science Park was only in the 2022 cultivation list but publicly reported a 2025 five-star technology-manager-office honor in January 2026.
+
+Therefore the phrase `挂靠在江苏淮海技术产权交易中心` remains strong operational evidence but cannot yet be equated with a specific current provincial office registry/account relationship.
+
+Critical unknowns now start one layer earlier:
+- what exact legal/platform entity records the media-reported Huaihai affiliation;
+- which entity signs the affiliation/project-cooperation agreement;
+- current 2026 entry requirements for an external individual;
 - whether Jiangsu platform identity filing is sufficient to request affiliation;
 - training/certificate requirements, if any;
 - supervised-case mechanism for newcomers;
 - case attribution, confidentiality, contract, invoice and commission rules.
 
-This is now the **first affiliation-route validation target**.
+This remains the **first affiliation-route validation target**, but the first manual question is now entity/status resolution rather than operator eligibility.
+
+Authority:
+- `docs/results/BR_XZ_005A_PUBLIC_VALIDATION_2026-09-13.md`
+- `docs/results/BR_XZ_005A_AFFILIATION_ENTITY_CHECK_2026-09-13.md`
 
 Sources:
 - https://szb.cnxz.com.cn/xzrb/pad/con/202607/13/content_52654.html
 - https://www.xzippc.cn/a/yunjiaoyi/
 - https://www.jstec.com.cn/news/202602628049695003
+- https://www.jstec.com.cn/news/202612028050552446
+- https://www.jstec.com.cn/news/202234815902675344
+- https://www.cumtusp.com/yuanqujianjie/1778.html
 - https://suzhou.jstec.com.cn/news/202420421398052624
 
 ## BR-XZ-005B — CUMT National University Science Park Technology-Manager Office
 
-State: `OFFICE + RESOURCE NETWORK PROVEN / THIS OPERATOR NOT YET ACCEPTED`
+State: `OFFICE + RESOURCE NETWORK PROVEN / CURRENT PLATFORM-STATUS DETAIL SHOULD BE VERIFIED BEFORE CLAIM / THIS OPERATOR NOT YET ACCEPTED`
 Potential strength if activated: `HIGH FOR EXPERT/RESULT ROUTING + PROFESSIONAL PRACTICE`
 
 Role evidenced in practice:
-- formally recognized as a Jiangsu technology-manager office;
+- CUMT Science Park was in the provincial 2022 office cultivation list and later publicly reported a 2025 Jiangsu five-star technology-manager-office honor;
 - publicly states it will absorb and coordinate technology managers for technology-transfer services;
-- reported as a 2025 five-star technology-manager office;
 - has real transaction history: eight technology contracts in 2024 with transaction value close to RMB 2 million;
 - its expert/result databases were used in a public case to route an enterprise technical problem to a CUMT team;
 - it co-organized a 2026 initial technology-manager training class.
@@ -155,11 +173,13 @@ Institutional value:
 - possible office affiliation/project cooperation under Jiangsu's general office rules, but no CUMT-specific public affiliation procedure has been found.
 
 Critical unknowns:
+- current exact provincial platform/account status after the 2026 rules update;
 - whether the office currently accepts external individual affiliation/project cooperation;
 - whether it offers supervised real cases to new participants;
 - its own selection and representation rules.
 
 Sources:
+- https://www.jstec.com.cn/news/202234815902675344
 - https://www.cumtusp.com/zxdt/1460.html
 - https://www.cumtusp.com/yuanqujianjie/1778.html
 - https://www.cumtusp.com/yuanqujianjie/1788.html
@@ -196,8 +216,8 @@ This is closer to the project's core doctrine: discover under-combined instituti
 
 This ranking is only for cheapest decisive validation, not business attractiveness:
 
-1. `BR-XZ-005A` — strongest observed evidence of an actual affiliation model in Xuzhou; validate current eligibility/rules first.
-2. `BR-XZ-005B` — strong expert/result/professional-practice node; validate external participation and supervised-case rules.
+1. `BR-XZ-005A` — strongest observed evidence of an actual affiliation pattern in Xuzhou; first resolve the formal current affiliation entity/platform status, then validate operator eligibility/rules.
+2. `BR-XZ-005B` — strong expert/result/professional-practice node; verify current platform-status detail plus external participation and supervised-case rules.
 3. `BR-XZ-002` — strategically powerful engineering-machinery node, but external intake remains unproven and it may already occupy part of the technical whitespace.
 4. `BR-XZ-003` — formal university-industry gatekeeper once enterprise economics are concrete.
 5. `BR-XZ-001` — strategically strong platform, external intake not yet verified.
@@ -210,6 +230,9 @@ PUBLIC NODE != SPONSOR
 CONTACT != INTRODUCTION
 INTRODUCTION != ENDORSEMENT
 ENDORSEMENT != RESOURCE AUTHORIZATION
+MEDIA AFFILIATION LABEL != PROVINCIAL REGISTRY STATUS
+SUPPORT-CONSTRUCTION LIST != PROVEN COMPLETE ACTIVE REGISTER
+LOCAL CENTER != AUTOMATICALLY TECHNOLOGY-MANAGER OFFICE
 AFFILIATED TO A != AUTHORIZED TO REPRESENT B
 ACCESS TO DATABASE != CONTROL OF EXPERT
 TRAINING CERTIFICATE != AFFILIATION
