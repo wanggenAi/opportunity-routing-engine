@@ -1,8 +1,9 @@
-"""Source-neutral JSON/JSONL intake for live resource observations.
+"""Source-neutral JSON/JSONL intake for reviewed live resource observations.
 
-This is deliberately not a platform scraper. It provides a stable ingestion boundary
-so public/manual observations and future source adapters enter the same canonical
-SignalObservation contract.
+This is deliberately not a platform scraper and not a confirmation channel. It
+provides a stable ingestion boundary so reviewed public/manual observations and future
+source adapters enter the same canonical SignalObservation contract without allowing a
+JSON field to manufacture confirmed availability, commitment, or operator permission.
 """
 
 from __future__ import annotations
@@ -10,7 +11,7 @@ from __future__ import annotations
 import json
 from datetime import datetime
 from pathlib import Path
-from typing import Iterable, Iterator, Mapping
+from typing import Iterator, Mapping
 
 from src.live_resource_signals import (
     AvailabilityState,
@@ -19,6 +20,12 @@ from src.live_resource_signals import (
     PermissionState,
     SignalObservation,
 )
+
+
+_ALLOWED_INTAKE_AVAILABILITY = {
+    AvailabilityState.UNKNOWN,
+    AvailabilityState.ADVERTISED,
+}
 
 
 def _required_text(record: Mapping[str, object], key: str) -> str:
@@ -82,16 +89,21 @@ def _capabilities(record: Mapping[str, object]) -> tuple[ExplicitCapability, ...
 
 
 def signal_from_record(record: Mapping[str, object]) -> SignalObservation:
-    """Parse one neutral observation record without semantic invention."""
+    """Parse one reviewed observation without allowing truth-state promotion."""
 
     try:
         availability = AvailabilityState(str(record.get("availability", "UNKNOWN")))
     except ValueError as exc:
         raise ValueError("invalid:availability") from exc
+    if availability not in _ALLOWED_INTAKE_AVAILABILITY:
+        raise ValueError("intake_cannot_confirm_availability")
+
     try:
         permission = PermissionState(str(record.get("permission", "UNKNOWN")))
     except ValueError as exc:
         raise ValueError("invalid:permission") from exc
+    if permission is not PermissionState.UNKNOWN:
+        raise ValueError("intake_cannot_create_permission")
 
     signal = SignalObservation(
         signal_id=_required_text(record, "signal_id"),
@@ -159,7 +171,8 @@ def signals_from_path(path: str | Path, *, format: str = "auto") -> Iterator[Sig
 GOVERNING_INVARIANTS = (
     "NEUTRAL_INTAKE_NE_PLATFORM_STRATEGY",
     "INPUT_RECORD_NE_CONFIRMED_TRUTH",
+    "INTAKE_CANNOT_CREATE_CONFIRMED_AVAILABILITY",
+    "INTAKE_CANNOT_CREATE_PERMISSION_OR_CONTROL",
     "NO_SEMANTIC_INVENTION_DURING_PARSE",
-    "SOURCE_SUPPORTED_AVAILABILITY_PERMISSION_ONLY",
     "UNKNOWN_NE_PASS",
 )
