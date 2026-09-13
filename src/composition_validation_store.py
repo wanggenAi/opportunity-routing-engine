@@ -3,6 +3,12 @@
 This layer sits after structural resource composition. It preserves existing access
 semantics and the canonical G0-G3 transaction gates without allowing one evidence
 dimension to promote another.
+
+Canonical transaction gates remain:
+G0 Actor / role clarity
+G1 Payer clarity
+G2 Transactionability
+G3 Legal / trust / safety
 """
 
 from __future__ import annotations
@@ -22,6 +28,8 @@ from src.resource_composition import CompositionState
 
 
 class ValidationDimension(str, Enum):
+    ACTOR_ROLE_CLARITY = "ACTOR_ROLE_CLARITY"
+    PAYER_CLARITY = "PAYER_CLARITY"
     NEED_CONFIRMATION = "NEED_CONFIRMATION"
     OPERATOR_ACCESS = "OPERATOR_ACCESS"
     COUNTERPARTY_VISIBLE_SURPLUS = "COUNTERPARTY_VISIBLE_SURPLUS"
@@ -39,6 +47,8 @@ class ValidationGateState(str, Enum):
 
 
 _STANDARD_DIMENSIONS = {
+    ValidationDimension.ACTOR_ROLE_CLARITY,
+    ValidationDimension.PAYER_CLARITY,
     ValidationDimension.NEED_CONFIRMATION,
     ValidationDimension.COUNTERPARTY_VISIBLE_SURPLUS,
     ValidationDimension.COUNTERPARTY_CONSENT,
@@ -111,6 +121,8 @@ class CompositionValidationProjection:
     hypothesis_index: int
     composition_state: CompositionState
     access_state: AccessState
+    actor_role_clarity: ValidationGateState
+    payer_clarity: ValidationGateState
     need_confirmation: ValidationGateState
     counterparty_visible_surplus: ValidationGateState
     counterparty_consent: ValidationGateState
@@ -130,23 +142,31 @@ class CompositionValidationProjection:
     def transaction_gates(self) -> dict[str, str]:
         """Project only canonical G0-G3; never invent strategic G4-G6 truth."""
 
-        g0 = self._combine(self.need_confirmation, self.payer_commitment)
-        if self.composition_state is CompositionState.CALLABLE_COMPOSED:
-            g1 = ValidationGateState.PASS
-        else:
-            g1 = ValidationGateState.UNKNOWN
+        # Canonical definitions are fixed by FORMAL_TRUTH / OPPORTUNITY_SCORECARD.
+        g0 = self.actor_role_clarity
+        g1 = self.payer_clarity
 
         if self.access_state is AccessState.ACCESS_BLOCKED:
-            g2 = ValidationGateState.FAIL
-        elif self.access_state is not AccessState.VALIDATION_ACCESS_READY:
-            g2 = ValidationGateState.UNKNOWN
+            access_gate = ValidationGateState.FAIL
+        elif self.access_state is AccessState.VALIDATION_ACCESS_READY:
+            access_gate = ValidationGateState.PASS
         else:
-            g2 = self._combine(
-                self.counterparty_visible_surplus,
-                self.counterparty_consent,
-                self.economics,
-            )
+            access_gate = ValidationGateState.UNKNOWN
 
+        callable_gate = (
+            ValidationGateState.PASS
+            if self.composition_state is CompositionState.CALLABLE_COMPOSED
+            else ValidationGateState.UNKNOWN
+        )
+        g2 = self._combine(
+            callable_gate,
+            self.need_confirmation,
+            access_gate,
+            self.counterparty_visible_surplus,
+            self.counterparty_consent,
+            self.payer_commitment,
+            self.economics,
+        )
         g3 = self.legal_trust_safety
         return {"G0": g0.value, "G1": g1.value, "G2": g2.value, "G3": g3.value}
 
@@ -437,6 +457,8 @@ class SQLiteCompositionValidationStore:
             hypothesis_index=hypothesis_index,
             composition_state=hypothesis.state,
             access_state=access,
+            actor_role_clarity=gate(ValidationDimension.ACTOR_ROLE_CLARITY),
+            payer_clarity=gate(ValidationDimension.PAYER_CLARITY),
             need_confirmation=gate(ValidationDimension.NEED_CONFIRMATION),
             counterparty_visible_surplus=gate(
                 ValidationDimension.COUNTERPARTY_VISIBLE_SURPLUS
@@ -454,12 +476,16 @@ class SQLiteCompositionValidationStore:
 GOVERNING_INVARIANTS = (
     "COMPOSITION_VALIDATION_BINDS_EXACT_RUN_AND_HYPOTHESIS",
     "ACCESS_STATE_USES_CANONICAL_ACCESS_FEASIBILITY_MODEL",
+    "G0_IS_ACTOR_ROLE_CLARITY",
+    "G1_IS_PAYER_CLARITY",
+    "G2_IS_TRANSACTIONABILITY",
+    "G3_IS_LEGAL_TRUST_SAFETY",
     "OPERATOR_ACCESS_NE_COUNTERPARTY_CONSENT",
+    "PAYER_CLARITY_NE_PAYER_COMMITMENT",
     "COUNTERPARTY_VISIBLE_SURPLUS_NE_PAYER_COMMITMENT",
     "PAYER_COMMITMENT_NE_ECONOMICS",
     "ONE_VALIDATION_DIMENSION_NE_ANOTHER",
     "VALIDATION_HISTORY_IS_APPEND_ONLY",
     "UNKNOWN_NE_PASS",
     "G0_G3_PROJECTION_NE_G4_G6_TRUTH",
-    "BOUNDED_TRANSACTION_READY_NE_SCALE_READY",
 )
