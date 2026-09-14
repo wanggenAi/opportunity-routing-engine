@@ -35,7 +35,7 @@ class ProcurementFailureTests(unittest.TestCase):
         )
         self.assertEqual(
             extract_explicit_void_packages(text),
-            [("采购包2", "采购包2 有效投标人不足三家,此采购包已作废")],
+            [("采购包2", "采购包2 有效投标人不足三家，此采购包已作废")],
         )
 
     def test_fetch_failure_preserves_exact_project_and_buyer_identity(self):
