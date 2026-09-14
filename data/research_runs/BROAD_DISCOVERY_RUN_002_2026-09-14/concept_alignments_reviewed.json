@@ -1,0 +1,90 @@
+{
+  "schema_version": "reviewed-concept-alignment.v1",
+  "semantics": "CANDIDATE_SEMANTIC_ALIGNMENT_NOT_TAXONOMY_PROMOTION",
+  "run_id": "BROAD_DISCOVERY_RUN_002_OBSERVATION_REVIEW_2026-09-14",
+  "alignments": [
+    {
+      "alignment_id": "align-retail-format-polarization",
+      "candidate_concept": "RETAIL_FORMAT_POLARIZATION",
+      "primitive": "CHANGE",
+      "definition": "Persistent divergence across retail formats in sales/network/unit-economics direction rather than uniform retail recovery or decline.",
+      "boundary": "Does not imply that any format is a profitable operator opportunity, that format-level growth causes unit economics, or that individual stores share the aggregate result.",
+      "counterexamples": ["All major formats converge to similar growth and unit-economics direction.", "Observed divergence disappears outside one short measurement window."],
+      "supporting_claim_refs": [
+        "NBS_RETAIL_FORMATS::bd002-obs-cn-retail-formats-202607::convenience-change",
+        "CCFA_CONVENIENCE_REPORT::bd002-obs-ccfa-convenience-2025::convenience-unit-economics-change",
+        "CCFA_SUPERMARKET_TOP100::bd002-obs-ccfa-supermarket-top100-2025::supermarket-consolidation-change"
+      ],
+      "alignment_rationale": "Official format growth plus independent industry observations show materially different trajectories across convenience, supermarket and other formats, but current reviewed support is still below the default observation-count gate."
+    },
+    {
+      "alignment_id": "align-small-enterprise-pressure",
+      "candidate_concept": "SMALL_ENTERPRISE_OPERATING_PRESSURE",
+      "primitive": "STATE",
+      "definition": "A repeated state in which smaller operators remain below expansion/comfort thresholds despite stronger aggregate demand signals elsewhere.",
+      "boundary": "Does not assert that all small enterprises are distressed, that demand recovery bypasses every small firm, or that unused capability is currently callable.",
+      "counterexamples": ["Small-enterprise activity rises above expansion thresholds with improving revenue and cash runway.", "Survey pressure is limited to one unrepresentative sector or temporary episode."],
+      "supporting_claim_refs": [
+        "NBS_MANUFACTURING_PMI::bd002-obs-nbs-small-manufacturing-202608::small-pmi-state",
+        "PKU_OSOME::bd002-obs-pku-micro-small-2025q4::operator-pressure-state"
+      ],
+      "alignment_rationale": "Official small-manufacturing PMI and longitudinal micro/small operator survey both show pressure, but two observations are insufficient to establish a promoted taxonomy concept."
+    },
+    {
+      "alignment_id": "align-home-service-trusted-fulfillment",
+      "candidate_concept": "HOME_SERVICE_TRUSTED_FULFILLMENT_INFRASTRUCTURE",
+      "primitive": "BEHAVIOR",
+      "definition": "Institutional actions that make recurring home services more legible and auditable through standards, verification, routing, service records and cross-care integration.",
+      "boundary": "Does not prove household willingness to prepay, platform adoption, lower failure rates, paid demand, or that one private orchestrator should own the workflow.",
+      "counterexamples": ["Recurring home services transact efficiently without verification, standardization or routing infrastructure.", "Infrastructure is announced but produces no operational adoption or trust improvement."],
+      "supporting_claim_refs": [
+        "MOFCOM_HOME_SERVICE_POLICY::bd002-obs-mofcom-home-service-202607::formalization-action",
+        "JIANGSU_SERVICE_CONSUMPTION_POLICY::bd002-obs-js-home-service-202606::care-integration-action",
+        "JIANGSU_AI_CONSUMPTION_POLICY::bd002-obs-js-ai-home-service-202607::digital-routing-action"
+      ],
+      "alignment_rationale": "National and Jiangsu policy actions converge on formalization, verification, routing and care integration, but current evidence is policy behavior rather than observed market outcomes."
+    },
+    {
+      "alignment_id": "align-prepaid-service-trust-friction",
+      "candidate_concept": "PREPAID_SERVICE_TRUST_FRICTION",
+      "primitive": "FRICTION",
+      "definition": "Recurring trust and exit friction in prepaid service relationships, including performance shrinkage, merchant disappearance, refund difficulty and information opacity.",
+      "boundary": "Does not imply all prepaid services fail, does not estimate a national incident rate, and does not itself identify a better monetization model.",
+      "counterexamples": ["Prepaid-service complaint and disappearance rates fall materially with reliable refund/escrow mechanisms.", "Observed issues are isolated to one locality or enforcement campaign."],
+      "supporting_claim_refs": [
+        "YUNNAN_PREPAID_RISK_GUIDANCE::bd002-obs-prepaid-risk-202607::prepaid-risk-friction",
+        "YANTAI_CONSUMER_ASSOCIATION::bd002-obs-yantai-prepaid-complaints-2025::prepaid-complaint-friction"
+      ],
+      "alignment_rationale": "Official risk guidance and local complaint statistics point to the same trust-friction family, but support remains too sparse for promotion review."
+    },
+    {
+      "alignment_id": "align-selective-service-spending",
+      "candidate_concept": "SERVICE_AND_VALUE_SPENDING_REALLOCATION",
+      "primitive": "FLOW",
+      "definition": "A cross-level reallocation in which service and selected convenience/online categories can expand faster than headline consumption aggregates.",
+      "boundary": "Does not infer consumer psychology, 'consumption upgrading', willingness to pay for arbitrary services, or causality from service-sector growth to household preference.",
+      "counterexamples": ["Service spending share and service-category growth converge with or fall below headline consumption over sustained periods.", "Observed differences are entirely price effects without real volume or allocation change."],
+      "supporting_claim_refs": [
+        "NBS_HOUSEHOLD_CONSUMPTION::bd002-obs-nbs-service-consumption-2025::service-share-flow",
+        "JIANGSU_H1_CONSUMPTION::bd002-obs-js-consumption-h1-2026::service-online-flow",
+        "XUZHOU_SERVICE_ECONOMY_REPORT::bd002-obs-xz-service-economy-2026::service-sector-flow"
+      ],
+      "alignment_rationale": "National household spending, Jiangsu consumption flows and Xuzhou service-sector growth all point toward service/value reallocation, while motive and category-level causality remain unknown."
+    },
+    {
+      "alignment_id": "align-eldercare-capacity-orchestration",
+      "candidate_concept": "ELDERCARE_CAPACITY_ORCHESTRATION",
+      "primitive": "BEHAVIOR",
+      "definition": "A multi-actor system behavior that combines demand-side support, medical/care capacity reconfiguration, heterogeneous designated providers and delegated administration to organize long-term-care delivery.",
+      "boundary": "Supports only an observed organization/reconfiguration structure. It does not prove unmet demand, private orchestrator opportunity, provider spare capacity, payer identity for a new route, repeated settlement, transaction blockers, standardizable intervention or compounding.",
+      "counterexamples": ["The cited programs remain administratively separate and do not participate in a recurring care-delivery system.", "Designated providers are nominal only and capacity reconfiguration is not implemented.", "Administration awards do not translate into actual coordinated service delivery."],
+      "supporting_claim_refs": [
+        "JIANGSU_ELDERCARE_COUPON_PROGRAM::bd002-obs-js-care-coupon-202609::demand-subsidy-operation",
+        "JIANGSU_MEDICAL_ELDERCARE_ACTION::bd002-obs-js-healthcare-care-202605::medical-capacity-reconfiguration",
+        "XUZHOU_LONG_TERM_CARE_SYSTEM::bd002-obs-xz-longcare-network-2025::multi-provider-network-operation",
+        "XUZHOU_LTC_PROCUREMENT::bd002-obs-xz-longcare-outsourcing-202512::administration-outsourcing"
+      ],
+      "alignment_rationale": "Four independent observations across Jiangsu/Xuzhou, multiple actor groups and multiple periods coherently describe organization of eldercare capacity; this is sufficient only for ontology promotion review under current diversity gates."
+    }
+  ]
+}
