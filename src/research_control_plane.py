@@ -310,12 +310,12 @@ def build_research_plan(
     """
 
     year = mission.as_of_date[:4]
-    seeds = list(mission.seeds)
+    dynamic_seeds: list[ResearchSeed] = []
     for index, term in enumerate(dynamic_terms, start=1):
         term = str(term).strip()
         if not term:
             continue
-        seeds.append(
+        dynamic_seeds.append(
             ResearchSeed(
                 seed_id=f"dynamic-{index:03d}",
                 text=term,
@@ -323,6 +323,9 @@ def build_research_plan(
                 target_primitives=mission.objective_primitives,
             )
         )
+    # Novel/residual vocabulary is intentionally researched first. Bootstrap
+    # seeds remain coverage scaffolding, not a permanent taxonomy boundary.
+    seeds = dynamic_seeds + list(mission.seeds)
 
     slots = _allocate_slots(mission.lane_weights, mission.max_query_count)
     tasks: list[ResearchQueryTask] = []
@@ -346,6 +349,13 @@ def build_research_plan(
                     )
                 )
 
+    query_ids = [task.query_id for task in tasks]
+    query_texts = [task.query for task in tasks]
+    if len(set(query_ids)) != len(tasks) or len(set(query_texts)) != len(tasks):
+        raise ValueError(
+            "research plan contains duplicate query slots; add distinct bootstrap seeds/dynamic terms or reduce the query budget"
+        )
+
     return {
         "schema_version": "research-control-plane.v1",
         "mission": {
@@ -365,7 +375,7 @@ def build_research_plan(
             "require_domestic_corroboration_for_global": mission.require_domestic_corroboration_for_global,
             "cross_border_mode": mission.cross_border_mode,
         },
-        "dynamic_term_count": len([v for v in dynamic_terms if str(v).strip()]),
+        "dynamic_term_count": len(dynamic_seeds),
         "lane_query_budget": slots,
         "query_count": len(tasks),
         "queries": [task.as_dict() for task in tasks],
