@@ -6,6 +6,11 @@ exact package-level rebid.
 
 Only source-explicit text ending in ``此采购包已作废`` is admitted. Missing supplier
 rows, missing packages, or title similarity alone never manufacture failure evidence.
+
+Failure discovery must not depend on supplier-award rows: failed packages commonly
+have no supplier at all. The adapter can therefore scan the bounded official result
+index, pre-filter list-page titles through the canonical exact capability taxonomy,
+and fetch only those relevant result details.
 """
 
 from __future__ import annotations
@@ -15,6 +20,8 @@ from dataclasses import asdict, dataclass
 from typing import Any, Iterable, Mapping
 
 from src.html_ingest import PublicHtmlClient, html_to_document, normalize_whitespace
+from src.live_imbalance_ledger import classify_procurement_event
+from src.xuzhou_procurement_results import XuzhouProcurementResultAdapter
 from src.xuzhou_structured_metadata import structured_value, titled_span_fields
 
 XZ_GGZY_HOST = "ggzy.zwb.xz.gov.cn"
@@ -108,6 +115,10 @@ def extract_explicit_void_packages(text: str) -> list[tuple[str, str]]:
     return result
 
 
+def _canonical_capability_item(item: Mapping[str, Any]) -> bool:
+    return classify_procurement_event(item).capability_key is not None
+
+
 class XuzhouProcurementFailureAdapter:
     """Fetch official result pages and retain explicit failed-package evidence."""
 
@@ -175,11 +186,31 @@ class XuzhouProcurementFailureAdapter:
     def collect_from_result_payloads(
         self,
         payloads: Iterable[Mapping[str, Any]],
+        *,
+        discover_pages: int = 0,
+        max_discovered_items: int = 60,
     ) -> dict[str, Any]:
-        """Inspect only already-proven result URLs, avoiding broad duplicate crawling."""
+        """Collect failures from known awards plus bounded official index discovery.
 
-        candidates: list[tuple[str, str | None]] = []
+        Known award URLs are useful corroborating entry points but cannot be the sole
+        source of failure discovery because a failed package normally has no award
+        row. When ``discover_pages`` is positive, official result-list pages are
+        scanned first and list entries are filtered through the canonical exact
+        capability taxonomy before any additional detail fetch occurs.
+        """
+
+        if not isinstance(discover_pages, int) or discover_pages < 0 or discover_pages > 20:
+            raise ValueError("discover_pages must be between 0 and 20")
+        if (
+            not isinstance(max_discovered_items, int)
+            or max_discovered_items < 1
+            or max_discovered_items > 200
+        ):
+            raise ValueError("max_discovered_items must be between 1 and 200")
+
+        candidates: list[tuple[str, str | None, str]] = []
         seen_urls: set[str] = set()
+        known_result_url_count = 0
         for payload in payloads:
             for award in payload.get("awards", []) or []:
                 url = str(award.get("url") or "").strip()
@@ -188,23 +219,51 @@ class XuzhouProcurementFailureAdapter:
                 if not _RESULT_DETAIL_RE.search(url):
                     continue
                 seen_urls.add(url)
-                candidates.append((url, _text(award.get("title"))))
+                known_result_url_count += 1
+                candidates.append((url, _text(award.get("title")), "KNOWN_AWARD_URL"))
+
+        discovery: dict[str, Any] | None = None
+        discovered_result_url_count = 0
+        if discover_pages > 0:
+            result_adapter = XuzhouProcurementResultAdapter(client=self.client)
+            discovery = result_adapter.discover_history(
+                pages=discover_pages,
+                item_filter=_canonical_capability_item,
+                max_items=max_discovered_items,
+            )
+            for item in discovery.get("items", []) or []:
+                url = str(item.get("url") or "").strip()
+                if not url or url in seen_urls:
+                    continue
+                if not _RESULT_DETAIL_RE.search(url):
+                    continue
+                seen_urls.add(url)
+                discovered_result_url_count += 1
+                candidates.append((url, _text(item.get("title")), "RESULT_INDEX_DISCOVERY"))
 
         failures: list[dict[str, Any]] = []
         errors: list[dict[str, str]] = []
         seen_failures: set[tuple[str | None, str]] = set()
-        for url, title in candidates:
+        for url, title, candidate_source in candidates:
             try:
                 parsed = self.fetch_failures(url, fallback_title=title)
             except Exception as exc:
-                errors.append({"url": url, "error": str(exc)})
+                errors.append(
+                    {
+                        "url": url,
+                        "candidate_source": candidate_source,
+                        "error": str(exc),
+                    }
+                )
                 continue
             for failure in parsed:
                 identity = (failure.project_id, failure.package_name)
                 if identity in seen_failures:
                     continue
                 seen_failures.add(identity)
-                failures.append(asdict(failure))
+                item = asdict(failure)
+                item["candidate_source"] = candidate_source
+                failures.append(item)
 
         failures.sort(
             key=lambda item: (
@@ -216,6 +275,10 @@ class XuzhouProcurementFailureAdapter:
         return {
             "source_id": "XZ_GGZY_PROCUREMENT_FAILURE",
             "result_url_count": len(candidates),
+            "known_result_url_count": known_result_url_count,
+            "discovered_result_url_count": discovered_result_url_count,
+            "discover_pages": discover_pages,
+            "result_index_discovery": discovery,
             "failed_package_count": len(failures),
             "error_count": len(errors),
             "failures": failures,
@@ -224,6 +287,8 @@ class XuzhouProcurementFailureAdapter:
                 "Only source-explicit '此采购包已作废' text creates failure evidence.",
                 "A failed package is CHANGE/FRICTION evidence, not provider evidence and not PAID need evidence.",
                 "Missing supplier rows or missing package rows never imply failure.",
+                "Failure discovery may scan the bounded official result index because failed packages often have no supplier-award URL.",
+                "Result-index entries are exact-capability filtered before detail fetch; title similarity alone cannot create failure evidence.",
                 "Package failure does not by itself prove why the market failed to clear.",
             ],
         }
