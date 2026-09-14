@@ -1,0 +1,119 @@
+{
+  "run_id": "STRUCTURAL_RECURRENCE_RUN_002_2026-09-14",
+  "parent_run_id": "BROAD_DISCOVERY_RUN_001_2026-09-14",
+  "mission_id": "CHINA_PRIMARY_BROAD_DISCOVERY_V1",
+  "semantics": "TARGETED_DYNAMIC_TERM_RECURRENCE_PROBE_NOT_BROAD_COVERAGE",
+  "executed_at": "2026-09-14",
+  "evidence": [
+    {
+      "evidence_id": "sr002-idle-jiangyin",
+      "query_id": "rq-15d735e450bb96cadf",
+      "source_url": "https://www.jiangyin.gov.cn/doc/2026/04/10/1389180.shtml",
+      "source_family": "LOCAL_GOVERNMENT_FINANCE",
+      "origin_geography": "CN-JS-WUXI-JIANGYIN",
+      "relevance_geography": "CN-JS",
+      "provenance_ref": "WEB_2026-09-14_JIANGYIN_STATE_ASSET_ACTIVATION",
+      "collected_via": "INTERACTIVE_AGENT_WEB"
+    },
+    {
+      "evidence_id": "sr002-idle-nanjing-hotel",
+      "query_id": "rq-15d735e450bb96cadf",
+      "source_url": "https://gzw.nanjing.gov.cn/gzdt/202604/t20260429_5832509.html",
+      "source_family": "LOCAL_SASAC_FIRST_PARTY",
+      "origin_geography": "CN-JS-NANJING",
+      "relevance_geography": "CN-JS",
+      "provenance_ref": "WEB_2026-09-14_NANJING_HOTEL_SPACE_REPURPOSING",
+      "collected_via": "DIRECT_PUBLIC_SOURCE"
+    },
+    {
+      "evidence_id": "sr002-idle-nanjing-kindergarten",
+      "query_id": "rq-15d735e450bb96cadf",
+      "source_url": "https://gzw.nanjing.gov.cn/gzdt/202605/t20260522_5844988.html",
+      "source_family": "LOCAL_SASAC_FIRST_PARTY",
+      "origin_geography": "CN-JS-NANJING",
+      "relevance_geography": "CN-JS",
+      "provenance_ref": "WEB_2026-09-14_NANJING_KINDERGARTEN_MIXED_USE",
+      "collected_via": "DIRECT_PUBLIC_SOURCE"
+    },
+    {
+      "evidence_id": "sr002-idle-tianning",
+      "query_id": "rq-15d735e450bb96cadf",
+      "source_url": "https://www.cztn.gov.cn/html/cztn/2026/CNAPLQBC_0526/33142.html",
+      "source_family": "DISTRICT_GOVERNMENT_FIRST_PARTY",
+      "origin_geography": "CN-JS-CHANGZHOU-TIANNING",
+      "relevance_geography": "CN-JS",
+      "provenance_ref": "WEB_2026-09-14_TIANNING_UNDERUSED_SPACE_COMPOSITE_USE",
+      "collected_via": "DIRECT_PUBLIC_SOURCE"
+    },
+    {
+      "evidence_id": "sr002-idle-nanjing-talent",
+      "query_id": "rq-15d735e450bb96cadf",
+      "source_url": "https://gzw.nanjing.gov.cn/gzdt/202607/t20260731_5886410.html",
+      "source_family": "LOCAL_SASAC_FIRST_PARTY",
+      "origin_geography": "CN-JS-NANJING",
+      "relevance_geography": "CN-JS",
+      "provenance_ref": "WEB_2026-09-14_NANJING_IDLE_HOUSING_TALENT_APARTMENTS",
+      "collected_via": "DIRECT_PUBLIC_SOURCE"
+    },
+    {
+      "evidence_id": "sr002-idle-huaian",
+      "query_id": "rq-15d735e450bb96cadf",
+      "source_url": "https://jsgzw.jiangsu.gov.cn/art/2026/8/26/art_61550_11820810.html",
+      "source_family": "PROVINCIAL_SASAC_FIRST_PARTY",
+      "origin_geography": "CN-JS-HUAIAN",
+      "relevance_geography": "CN-JS",
+      "provenance_ref": "WEB_2026-09-14_HUAIAN_IDLE_ASSET_SCENE_REDESIGN",
+      "collected_via": "DIRECT_PUBLIC_SOURCE"
+    },
+    {
+      "evidence_id": "sr002-idle-policy",
+      "query_id": "rq-15d735e450bb96cadf",
+      "source_url": "https://www.jiangsu.gov.cn/art/2026/5/21/art_46144_11774390.html",
+      "source_family": "PROVINCIAL_POLICY_FIRST_PARTY",
+      "origin_geography": "CN-JS",
+      "relevance_geography": "CN-JS",
+      "provenance_ref": "WEB_2026-09-14_JS_URBAN_RENEWAL_IDLE_ASSET_POLICY",
+      "collected_via": "DIRECT_PUBLIC_SOURCE"
+    },
+    {
+      "evidence_id": "sr002-ai-collaboration-standard",
+      "query_id": "rq-bc06fc79252bada952",
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=0E87FFCB90EF54C0F997F7DF9AE52FC0",
+      "source_family": "NATIONAL_STANDARD_FIRST_PARTY",
+      "origin_geography": "CN",
+      "relevance_geography": "CN",
+      "provenance_ref": "WEB_2026-09-14_GBT47746_2026",
+      "collected_via": "DIRECT_PUBLIC_SOURCE"
+    },
+    {
+      "evidence_id": "sr002-ai-collaboration-interpretation",
+      "query_id": "rq-bc06fc79252bada952",
+      "source_url": "https://www.samr.gov.cn/bzjss/bzjd/art/2026/art_b49e990177a348df81606e0eec14b099.html",
+      "source_family": "MARKET_REGULATOR_FIRST_PARTY",
+      "origin_geography": "CN",
+      "relevance_geography": "CN",
+      "provenance_ref": "WEB_2026-09-14_SAMR_AI_HUMAN_SERVICE_FRICTION",
+      "collected_via": "DIRECT_PUBLIC_SOURCE"
+    },
+    {
+      "evidence_id": "sr002-ai-quality-plan",
+      "query_id": "rq-c64a738aa31311c581",
+      "source_url": "https://std.samr.gov.cn/gb/search/gbDetailedCNF?id=4C30DC3753F8BA23E06397BE0A0A8551",
+      "source_family": "NATIONAL_STANDARD_PLAN_FIRST_PARTY",
+      "origin_geography": "CN",
+      "relevance_geography": "CN",
+      "provenance_ref": "WEB_2026-09-14_AI_HUMAN_COLLABORATION_QUALITY_STANDARD_PLAN",
+      "collected_via": "DIRECT_PUBLIC_SOURCE"
+    },
+    {
+      "evidence_id": "sr002-ai-customer-service-model-standard",
+      "query_id": "rq-c64a738aa31311c581",
+      "source_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=tkrFQm%2BsSYM%3D&mode=p",
+      "source_family": "NATIONAL_STANDARD_FIRST_PARTY",
+      "origin_geography": "CN",
+      "relevance_geography": "CN",
+      "provenance_ref": "WEB_2026-09-14_GBZ234_2026_AI_CUSTOMER_SERVICE_MODEL",
+      "collected_via": "DIRECT_PUBLIC_SOURCE"
+    }
+  ]
+}
