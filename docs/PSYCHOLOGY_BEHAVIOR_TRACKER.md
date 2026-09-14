@@ -2,69 +2,102 @@
 
 Status: `CANONICAL DISCOVERY MODULE`
 
-Effective: 2026-09-10
+Effective: 2026-09-14
 
-This module is part of `docs/DISCOVERY_ENGINE.md`.
+Parents:
+- `docs/DISCOVERY_ENGINE.md`
+- `docs/DYNAMIC_SENSOR_FABRIC.md`
 
-Its job is not to decide what "Chinese people think" from viral posts. Its job is to continuously detect **directional changes in consumer decision logic** and connect those changes to observable behavior and money flow.
+Its job is not to decide what "Chinese people think" from viral posts. Its job is to continuously detect **directional changes in Chinese consumer/actor decision logic** and connect those changes to observable behavior and money flow.
 
-## 1. Core question
+## 1. Research focus
 
-> Which decision logics are becoming more or less salient for a defined actor segment, and are those psychological signals corroborated by actual spending, search, booking, hiring, transaction or workaround behavior?
+Default target domain:
+
+```text
+PRIMARY: Chinese consumers / households / workers / owners / enterprises
+LOCAL LENS: China → Jiangsu → Xuzhou
+AUXILIARY OBSERVATION: global public information
+```
+
+Foreign/global social information may help explain China, reveal possible lead/lag patterns, expose failure modes, or show external perception/use of Chinese resources. It does not establish Chinese consumer psychology by itself.
+
+## 2. Stable model, dynamic concepts
+
+`PERCEPTION`, `MOTIVE` and `BEHAVIOR` are stable semantic primitives.
+
+Named psychology themes are **not a closed canonical enum**. They are versioned concepts in the emergent taxonomy.
+
+Seed concepts useful in 2026 include:
+- `SPENDING_CAUTION`;
+- `VALUE_FOR_MONEY`;
+- `SMALL_TRIAL_PREFERENCE`;
+- `EXPERIENCE_ORIENTATION`;
+- `EMOTIONAL_VALUE` / `SELF_REWARD`;
+- `CONVENIENCE_TIME_VALUE`;
+- `TRUST_RISK_AVERSION`;
+- `QUALITY_UPGRADE_SELECTIVITY`;
+- `HEALTH_LONGEVITY`;
+- `SOCIAL_CONNECTION_BELONGING`;
+- `REPAIR_REUSE_RENT`;
+- `OUTCOME_CERTAINTY`.
+
+These are **seed taxonomy nodes**, not discovery boundaries. New persistent behavior may create a new candidate concept without changing core code. Old concepts may be merged, split, renamed or deprecated with lineage preserved.
+
+## 3. Residual / novelty rule
+
+If observed behavior cannot be explained well by existing concepts, retain it as `RESIDUAL` / `UNBOUND` instead of forcing it into the nearest label.
+
+Promotion path:
+
+```text
+UNMAPPED OBSERVATIONS
+→ repeated pattern
+→ multi-source evidence
+→ multi-actor evidence
+→ time persistence
+→ candidate concept
+→ review / contradiction search
+→ versioned taxonomy promotion
+```
+
+Viral volume from one platform is insufficient for promotion.
+
+## 4. Core question
+
+> Which perceptions and motives are becoming more or less salient for a defined Chinese actor segment, what behavior follows, and are those psychological signals corroborated by actual spending, search, booking, hiring, transaction, saving, substitution or workaround behavior?
 
 The tracker is a **hypothesis sensor**, not a commercial truth engine.
 
-## 2. Why this must be tracked over time
-
-Consumer psychology is neither perfectly stable nor random.
-
-Some regimes persist for months or years:
-- income/security caution;
-- preference for value-for-money;
-- delayed large purchases;
-- risk aversion;
-- preference for small commitments.
-
-Other signals move faster:
-- event-driven emotional consumption;
-- travel/experience demand;
-- platform-specific fads;
-- seasonal health/fitness concerns;
-- new technology anxiety or excitement;
-- local-event-driven consumption.
-
-Therefore store **time series**, not one-off conclusions.
-
-## 3. Do not report fake population shares
+## 5. Do not report fake population shares
 
 Social platforms are not representative probability samples.
 
-Do not claim:
-
-> `37% of Xuzhou youth are cautious consumers`
-
-from social-content counts.
-
-Use separate concepts:
+Keep separate:
 
 ### `SIGNAL_SALIENCE`
-How strongly a theme appears within the observed source universe.
+How strongly a concept appears within the observed source universe.
 
 ### `MOMENTUM`
-How quickly that signal is rising/falling versus its own historical baseline.
+How quickly that signal changes versus its own historical baseline.
 
 ### `BEHAVIOR_CORROBORATION`
-Whether actors are doing something consistent with the signal.
+Whether actors do something consistent with the signal.
 
 ### `MONEY_CORROBORATION`
-Whether spending / orders / prices / paid services / budgets move consistently with it.
+Whether spending, orders, prices, savings, subscriptions, bookings or paid services move consistently with it.
 
 ### `REPRESENTATIVE_SHARE`
-Allowed only when a source is a defensible survey/statistical sample with an explicit denominator/methodology.
+Allowed only when a defensible survey/statistical sample has an explicit denominator and methodology.
 
-## 4. Geographic hierarchy
+```text
+SOCIAL SALIENCE != POPULATION SHARE
+GLOBAL SALIENCE != CHINESE PREVALENCE
+```
 
-Track at multiple levels:
+## 6. Geography and transfer
+
+Domestic evidence should be tracked at the most specific supported level:
 
 ```text
 CHINA
@@ -76,184 +109,106 @@ XUZHOU
 DISTRICT / COMMERCIAL CLUSTER where evidence exists
 ```
 
-Never infer Xuzhou psychology from national social content alone.
+Never infer Xuzhou psychology from national content alone.
 
-Local signals may be sparse; uncertainty must remain visible.
+Foreign/global observations require separate source geography and China-relevance evidence.
 
-## 5. Actor-segment hierarchy
+A foreign pattern may create:
 
-Examples:
-- 18–24 students / early graduates;
-- 25–34 young workers;
-- young families;
-- parents with school-age children;
-- middle-income households;
-- price-sensitive households;
-- 50–59 pre-senior group;
-- 60+ elderly;
-- adult children paying for parents;
-- pet owners;
-- county / rural consumers;
-- merchants / self-employed operators;
-- SME decision-makers.
+```text
+TRANSFER_HYPOTHESIS
+```
 
-Do not infer protected or sensitive traits from individual users.
+but material promotion requires domestic corroboration.
 
-## 6. Canonical psychology dimensions
+## 7. Global social layer
 
-Initial taxonomy:
+Lawful public/authorized sources may include current or future global communities, social platforms, forums, product-review sites, developer communities and video/comment ecosystems.
 
-1. `SPENDING_CAUTION`
-   - fear of future income uncertainty;
-   - reduced discretionary commitment;
-   - stronger savings / delay behavior.
+Current examples such as Reddit, X, Instagram or Telegram are source instances only.
 
-2. `VALUE_FOR_MONEY`
-   - active price comparison;
-   - discount/substitute seeking;
-   - value optimization rather than pure cheapness.
+Useful China-related questions include:
+- how foreign actors perceive or use Chinese products/resources;
+- whether a technology/behavior pattern abroad may have a plausible China mechanism;
+- what failure modes appeared abroad before domestic adoption matured;
+- whether global technology changes alter the value of a Chinese/Jiangsu/Xuzhou resource.
 
-3. `SMALL_TRIAL_PREFERENCE`
-   - small-ticket / short-cycle / reversible commitment preferred over large commitment.
+The tracker must not turn this into an export-first strategy or infer Chinese consumer motives from foreign users.
 
-4. `EXPERIENCE_ORIENTATION`
-   - service, travel, sports, culture, learning, events or experiential consumption preferred over more goods.
-
-5. `EMOTIONAL_VALUE / SELF_REWARD`
-   - spending for mood, identity, novelty, aesthetics, ceremony or self-reward.
-
-6. `CONVENIENCE / TIME_VALUE`
-   - willingness to pay to save coordination, waiting, travel or cognitive load.
-
-7. `TRUST / RISK_AVERSION`
-   - stronger need for verification, accountability, known brands/providers, guarantees and visible proof.
-
-8. `QUALITY_UPGRADE_SELECTIVITY`
-   - overall caution coexisting with premium spend in selected categories where quality or utility is strongly perceived.
-
-9. `HEALTH / LONGEVITY`
-   - health management, recovery, preventive care, fitness, age-friendly services or long-term wellbeing.
-
-10. `SOCIAL_CONNECTION / BELONGING`
-   - spending or participation motivated by community, shared identity, offline connection or group belonging.
-
-11. `REPAIR_REUSE_RENT`
-   - repair, second-hand, rental, sharing, maintenance and longer asset life instead of replacement.
-
-12. `OUTCOME_CERTAINTY`
-   - willingness to pay for guaranteed/verified results rather than information or uncertain effort.
-
-Taxonomy may evolve only when evidence shows persistent unmapped behavior.
-
-## 7. Source classes
+## 8. Domestic source classes
 
 ### Tier A — hard money / behavior
-Highest commercial relevance:
-- official retail/service statistics;
-- transaction / booking / payment aggregates;
-- procurement / tender / order data;
-- platform transaction aggregates;
-- prices and paid service volumes;
-- hiring / outsourcing spend;
-- repair / resale / rental transactions;
-- footfall linked to spend where credible.
+Official retail/service statistics, transaction/booking/payment aggregates, prices, paid volumes, hiring/outsourcing spend, resale/rental/repair transactions and other direct behavior evidence.
 
 ### Tier B — representative / structured research
-- official household surveys;
-- industry surveys with disclosed methodology;
-- credible consumer panels;
-- structured local surveys.
+Official household surveys, disclosed-method industry surveys, consumer panels and structured local surveys.
 
 ### Tier C — search / platform trends
-- search trend indexes;
-- platform trend lists;
-- topic growth;
-- public aggregate engagement.
+Search trends, public aggregate engagement, public trend lists and topic growth.
 
 ### Tier D — social / media language
-- public posts;
-- comments where legally/technically permitted;
-- news narratives;
-- creator discourse;
-- forum discussions.
+Public posts/comments where permitted, creator discourse, forums, video comments and news narratives.
 
-Tier D is valuable for early change detection but cannot independently prove population prevalence or willingness to pay.
+Tier D is valuable for early detection but cannot independently prove prevalence or willingness to pay.
 
-## 8. Platform collection policy
+## 9. Platform collection policy
 
 Prefer:
 1. official/open APIs;
 2. platform-authorized tools/exports;
 3. public search/index results;
 4. public pages where automated access is allowed and rate-limited;
-5. manually sampled public material when automation is not permitted.
+5. documented manual sampling when automation is not permitted.
 
 Do not:
 - bypass login/access controls;
 - defeat CAPTCHAs or anti-bot measures;
 - impersonate users;
 - collect private messages;
-- build user-level psychological profiles;
-- retain unnecessary handles, phone numbers, IDs or sensitive personal data;
-- exceed reasonable automated-access load;
+- build unnecessary user-level psychographic profiles;
+- retain unnecessary handles, IDs, phone numbers or sensitive personal data;
 - infer sensitive traits from individuals.
 
 Store aggregate/anonymized signal records whenever possible.
 
-## 9. Signal record schema
+## 10. Signal record schema
 
 ```text
 signal_id:
 observed_at:
 source_date:
+source_id:
 source_type:
-source_name:
-source_url_or_ref:
-geography:
+origin_geography:
+relevance_geography:
 actor_segment:
-psychology_dimension:
-direction: -1.0 .. +1.0
-intensity: 0.0 .. 1.0
-behavior_corroboration: 0.0 .. 1.0
-money_corroboration: 0.0 .. 1.0
+semantic_primitive: PERCEPTION / MOTIVE / BEHAVIOR
+concept:
+taxonomy_version:
+direction: optional
+intensity: optional
+behavior_corroboration:
+money_corroboration:
 representative_sample: YES / NO
 representative_share: optional
 sample_size: optional
-provenance_quality: LOW / MEDIUM / HIGH
+provenance_quality:
+key_evidence_refs:
+contradictions:
 notes:
 ```
 
-Direction expresses movement in the named dimension, not positive/negative emotion.
+Unknown concept is allowed. `concept` is an open namespace.
 
-Example:
-`SPENDING_CAUTION direction=+0.8` means caution is increasing.
+## 11. Time windows
 
-## 10. Time windows
-
-Maintain at minimum:
+Maintain where practical:
 - 7-day fast signal;
 - 30-day tactical signal;
 - 90-day regime signal;
 - 365-day structural context.
 
 Fast social spikes should decay quickly unless behavior/money data confirms them.
-
-## 11. Inference outputs
-
-For each `geography × actor_segment × psychology_dimension × window` output:
-
-```text
-salience_index: -100 .. +100
-momentum: falling / stable / rising / accelerating
-confidence: LOW / MEDIUM / HIGH
-evidence_diversity:
-behavior_corroboration:
-money_corroboration:
-representative_share: optional only when valid
-key_supporting_signals:
-key_contradictions:
-last_updated:
-```
 
 ## 12. Confidence rule
 
@@ -267,62 +222,47 @@ Contradictory hard evidence must reduce confidence even when social salience is 
 
 The tracker must not emit a startup idea directly.
 
-It emits **discovery hypotheses** such as:
+It emits evidence-bound hypotheses such as:
 
 ```text
-Xuzhou 25–34 young workers
-+ VALUE_FOR_MONEY rising
-+ EXPERIENCE_ORIENTATION stable/rising
-+ large-ticket goods weak
-+ service/event spend resilient
-→ investigate low-commitment high-experience services
+Chinese actor segment
++ perception/motive change
++ observed behavior change
++ money corroboration
+→ investigate the resulting state/friction/resource change
 ```
 
 Then the Discovery Engine asks:
+- what structural state changed?
 - where is money actually moving?
-- what specific friction remains?
-- who pays?
-- what current workaround exists?
+- what friction or underuse persists?
+- what hidden resource or deficit may exist?
+- is there a recurring pattern rather than a one-off event?
 
-Only after this does the Orchestration Engine ask:
-- what capability units are required?
-- can acquisition/delivery be delegated?
-- what is the acceptance/settlement structure?
+Only downstream evidence gates decide need, payer, resource, blocker and route testability.
 
 ## 14. Anti-confirmation-bias rule
 
 For every promoted psychology thesis actively search for:
-- contradictory spend categories;
+- contradictory spend/saving behavior;
 - opposing actor segments;
-- local divergence from national data;
+- local divergence from national evidence;
+- foreign patterns that fail to transfer to China;
 - policy/subsidy contamination;
-- algorithmic/platform trend distortion;
+- platform algorithm distortion;
+- bots/coordinated manipulation;
 - seasonal/event effects.
 
-The tracker should preserve disagreement rather than average it away.
+Preserve disagreement rather than averaging it away.
 
-## 15. 2026 baseline example — not a permanent conclusion
+## 15. Engineering boundary
 
-Current public data illustrates why the tracker is necessary:
-- national goods retail growth is relatively weak while service retail is materially faster;
-- Jiangsu goods/retail growth is modest while production/business services are stronger;
-- Xuzhou reported faster retail growth than the Jiangsu aggregate and strong online retail growth;
-- selected upgrade categories can grow strongly even during broad caution.
+The engineering target is **normalization + provenance + time series + residual detection + corroboration**, not scraper breadth for its own sake.
 
-This is consistent with a **selective / structural migration** interpretation rather than a simplistic `people stopped spending` thesis.
+Source adapters should be added when access is lawful/permitted, provenance can be retained, the source adds unique signal value, and collection reliability is acceptable.
 
-The tracker must update this view as new data arrives.
+Platform additions must not require changes to semantic primitives.
 
-## 16. Engineering boundary
+## 16. Governing invariant
 
-The first engineering target is **normalization + aggregation + time-series inference**, not aggressive web crawling.
-
-Source adapters should be added one by one only when:
-- access is lawful/permitted;
-- provenance can be retained;
-- the source adds unique signal value;
-- collection cost/reliability is acceptable.
-
-## 17. Governing invariant
-
-> **Psychology tells us why behavior may be changing. Behavior and money tell us whether the psychology matters economically.**
+> **主要研究中国人的认知、动机、行为和真实钱流；全球社交与互联网信息只是增加观察半径。心理主题不是写死的枚举，无法解释的新行为应进入 residual pool，让 taxonomy 随证据生长。Psychology explains possible reasons; behavior and money decide whether those reasons matter economically.**
