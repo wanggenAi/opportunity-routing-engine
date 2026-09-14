@@ -1,0 +1,80 @@
+{
+  "profile_id": "ELDERCARE_INSTITUTION_PROCESS_COMPOUNDING_V1",
+  "candidate_concept": "ELDERCARE_CAPACITY_ORCHESTRATION",
+  "geography_scope": [
+    "CN-JS-XUZHOU",
+    "CN-JS"
+  ],
+  "case_unit": "DEIDENTIFIED_INSTITUTION_OR_PROCESS_EPISODE",
+  "target_case_count_min": 5,
+  "target_case_count_max": 10,
+  "min_independent_focal_actors": 3,
+  "min_later_cases": 2,
+  "min_independent_focal_actors_in_later_cases": 2,
+  "local_case_required_fields": [
+    "case_id",
+    "focal_actor",
+    "actor_roles",
+    "process_stage",
+    "geography",
+    "recurring_event_type",
+    "route_or_handoff_steps",
+    "constraints",
+    "intake_minutes",
+    "assessment_minutes",
+    "coordination_minutes",
+    "handoff_count",
+    "exception_count",
+    "qa_rework_count",
+    "cycle_days",
+    "outcome_state",
+    "source_refs"
+  ],
+  "local_paid_required_fields": [
+    "mandate_id",
+    "payer_actor",
+    "provider_actor",
+    "service_scope",
+    "payment_basis",
+    "settlement_state",
+    "settled_amount",
+    "settlement_date",
+    "source_refs"
+  ],
+  "compounding_reuse_fields": [
+    "reused_case_refs",
+    "reused_template_refs",
+    "reused_rule_refs",
+    "reused_routing_refs",
+    "reused_prior_outcome_refs"
+  ],
+  "compounding_metrics": [
+    "intake_minutes",
+    "assessment_minutes",
+    "coordination_minutes",
+    "handoff_count",
+    "exception_count",
+    "qa_rework_count",
+    "cycle_days",
+    "acceptance_state"
+  ],
+  "privacy_constraints": [
+    "INSTITUTION_OR_PROCESS_LEVEL_ONLY",
+    "DEIDENTIFIED_AGGREGATE_OR_BOUNDED_PROCESS_EVENT_ONLY",
+    "NO_PERSONAL_HEALTH_DATA",
+    "NO_BENEFICIARY_IDENTITY",
+    "NO_HOME_ADDRESS_OR_CONTACT_DETAILS",
+    "NO_DIAGNOSIS_OR_MEDICAL_RECORD_CONTENT",
+    "MINIMUM_NECESSARY_DATA_ONLY",
+    "AUTHORIZED_OR_PUBLIC_SOURCE_ONLY"
+  ],
+  "prohibited_fields": [
+    "beneficiary_name",
+    "national_id",
+    "phone_number",
+    "home_address",
+    "diagnosis",
+    "medical_record",
+    "raw_health_data"
+  ]
+}
