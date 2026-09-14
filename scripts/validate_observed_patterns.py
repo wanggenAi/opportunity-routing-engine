@@ -18,6 +18,7 @@ from src.observed_patterns import (
     ORDERING_BASIS,
     PATTERN_SCHEMA_VERSION,
     PATTERN_STATES,
+    RESEARCH_SCOPE_STATES,
 )
 
 
@@ -46,6 +47,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--patterns", type=Path, required=True)
     parser.add_argument("--store", type=Path, required=True)
+    parser.add_argument("--coverage", type=Path)
     parser.add_argument("--expected-source-run-id", type=int)
     args = parser.parse_args()
 
@@ -60,6 +62,23 @@ def main() -> int:
         raise SystemExit("pattern gate semantics are missing or drifted")
     if args.expected_source_run_id is not None and data.get("source_observation_run_id") != args.expected_source_run_id:
         raise SystemExit("pattern artifact does not point to the requested Observation Fabric run")
+
+    scope_state = data.get("research_scope_state")
+    if scope_state not in RESEARCH_SCOPE_STATES:
+        raise SystemExit("pattern artifact lacks a valid research scope state")
+    expected_authorization = scope_state == "BROAD_DISCOVERY_READY"
+    if data.get("broad_discovery_use_authorized") is not expected_authorization:
+        raise SystemExit("pattern broad-discovery authorization drifted from scope state")
+
+    if args.coverage is None:
+        if scope_state != "CALIBRATION_ONLY":
+            raise SystemExit("pattern run without research coverage evidence must remain CALIBRATION_ONLY")
+    else:
+        coverage = _load(args.coverage)
+        if coverage.get("state") != scope_state:
+            raise SystemExit("pattern scope state diverges from research coverage artifact")
+        if coverage.get("broad_discovery_use_authorized") is not expected_authorization:
+            raise SystemExit("research coverage authorization mismatch")
 
     with SQLiteObservationStore(args.store) as store:
         current = tuple(store.iter_current())
@@ -186,6 +205,8 @@ def main() -> int:
 
     print(json.dumps({
         "validated": True,
+        "research_scope_state": scope_state,
+        "broad_discovery_use_authorized": expected_authorization,
         "input_current_observation_count": len(current),
         "pattern_count": len(patterns),
         "observed_pattern_count": observed_count,
