@@ -59,6 +59,9 @@ jobs:
           set -euo pipefail
           summary=.local/broad_discovery_run_003_observation_review.json
           observations=.local/broad_discovery_run_003_reviewed_observations.json
+          circular=data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14/reviewed/circular_recommerce.json
+          pet=data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14/reviewed/pet_services.json
+          logistics=data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14/reviewed/logistics_capacity.json
 
           test "$(jq -r '.research_evidence_count' "$summary")" = "30"
           test "$(jq -r '.reviewed_observation_count' "$summary")" = "18"
@@ -75,9 +78,13 @@ jobs:
           jq -e '[.assessments[] | select(.state == "CANDIDATE") | .candidate_concept] | sort == ["CIRCULAR_RECOMMERCE_INFRASTRUCTURE","LOGISTICS_CAPACITY_ORCHESTRATION","PET_SERVICE_ECOSYSTEM_FORMALIZATION"]' "$summary" >/dev/null
           jq -e '[.assessments[] | select(.state == "PROMOTION_REVIEW_READY") | (.observation_count == 4 and .source_count == 4 and .actor_count >= 4 and .period_count >= 4 and .taxonomy_promotion == "NOT_PROMOTED" and .business_promotion == "NOT_PROMOTED")] | all' "$summary" >/dev/null
           jq -e '.truth_boundaries | index("SUBSIDIZED_FLOW_NE_ORGANIC_DEMAND") != null and index("MARKET_VACANCY_NE_CALLABLE_SPARE_CAPACITY") != null and index("PLATFORM_GOVERNANCE_NE_MERCHANT_PAIN_OR_WILLINGNESS_TO_PAY") != null' "$summary" >/dev/null
-          jq -e '.observations[] | select(.observation_id == "bd003-obs-xz-subsidy-leverage-202606") | (.unknown_fields | index("FISCAL_LEVERAGE_NE_COUNTERFACTUAL_ORGANIC_DEMAND") != null)' "$observations" >/dev/null
-          jq -e '.observations[] | select(.observation_id == "bd003-obs-cn-pet-service-use-2025") | .captured_payload.medical_share_direction_vs_2024 == "DOWN"' "$observations" >/dev/null
-          jq -e '.observations[] | select(.observation_id == "bd003-obs-cn-logistics-q2-202606") | .captured_payload.average_vacancy_pct == 18.5 and .captured_payload.net_absorption_qoq_pct == 119.6 and (.unknown_fields | index("MARKET_VACANCY_NE_CALLABLE_SPARE_CAPACITY") != null)' "$observations" >/dev/null
+
+          # Normalized ObservationEnvelopes intentionally do not retain reviewed captured_payload.
+          # Check source-specific captured values against the reviewed intake files, while the
+          # normalized output is used for lineage/state/truth-boundary assertions above.
+          jq -e '.records[] | select(.observation_id == "bd003-obs-xz-subsidy-leverage-202606") | (.unknown_fields | index("FISCAL_LEVERAGE_NE_COUNTERFACTUAL_ORGANIC_DEMAND") != null) and .captured_payload["2025_tradein_subsidy_rmb"] == 2270000000' "$circular" >/dev/null
+          jq -e '.records[] | select(.observation_id == "bd003-obs-cn-pet-service-use-2025") | .captured_payload.medical_share_direction_vs_2024 == "DOWN" and (.unknown_fields | index("PET_MARKET_GROWTH_NE_ALL_SERVICE_GROWTH") != null)' "$pet" >/dev/null
+          jq -e '.records[] | select(.observation_id == "bd003-obs-cn-logistics-q2-202606") | .captured_payload.average_vacancy_pct == 18.5 and .captured_payload.net_absorption_qoq_pct == 119.6 and (.unknown_fields | index("MARKET_VACANCY_NE_CALLABLE_SPARE_CAPACITY") != null)' "$logistics" >/dev/null
 
           if jq -e '.. | objects | has("payer") or has("paid_need") or has("opportunity_score") or has("commercial_score") or has("route_testable") or has("availability_confirmed") or has("permission_allowed")' "$summary" "$observations" >/dev/null; then
             echo "Commercial or route truth leaked into observation review" >&2
