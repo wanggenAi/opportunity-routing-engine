@@ -1,0 +1,99 @@
+name: ontology-review-decision-intake-008
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/ontology_review_intake.py"
+      - "scripts/import_ontology_review_decisions.py"
+      - "tests/test_ontology_review_intake.py"
+      - "tests/fixtures/ontology_review_queue_dry_run.json"
+      - "tests/fixtures/ontology_review_decisions_dry_run.json"
+      - "docs/ONTOLOGY_REVIEW_INTAKE.md"
+      - ".github/workflows/ontology-review-decision-intake-008.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ontology-review-decision-intake-008
+  cancel-in-progress: false
+
+jobs:
+  dry-run-review-decision-intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Run synthetic decision intake only
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .local
+          python scripts/import_ontology_review_decisions.py \
+            --review-queue tests/fixtures/ontology_review_queue_dry_run.json \
+            --decisions tests/fixtures/ontology_review_decisions_dry_run.json \
+            --db .local/ontology-review-decision-intake-008.sqlite \
+            --snapshot-output .local/ontology-review-decision-intake-008.json
+
+      - name: Require zero ontology and business side effects
+        shell: bash
+        run: |
+          set -euo pipefail
+          snapshot=.local/ontology-review-decision-intake-008.json
+          test "$(jq -r '.schema_version' "$snapshot")" = "ontology-review-decision-intake.v1"
+          test "$(jq -r '.decision_event_count' "$snapshot")" = "2"
+          test "$(jq -r '.review_item_count' "$snapshot")" = "1"
+          test "$(jq -r '.terminal_decision_count' "$snapshot")" = "1"
+          test "$(jq -r '.active_ontology_changes' "$snapshot")" = "0"
+          test "$(jq -r '.taxonomy_promotion' "$snapshot")" = "NOT_PROMOTED"
+          test "$(jq -r '.business_promotion' "$snapshot")" = "NOT_PROMOTED"
+          test "$(jq -r '.registry_effect' "$snapshot")" = "NONE_DECISION_INTAKE_DOES_NOT_CREATE_OR_ACTIVATE_ONTOLOGY_VERSION"
+          jq -e '[.events[].review_item_id | startswith("ONTOLOGY_REVIEW::SYNTHETIC_")] | all' "$snapshot" >/dev/null
+          jq -e '[.events[].review_provenance_ref | startswith("fixture://")] | all' "$snapshot" >/dev/null
+          jq -e '[.events[].review_outcome] == ["DEFER", "ACCEPT"]' "$snapshot" >/dev/null
+          jq -e '[.events[].review_item_fingerprint | length == 64] | all' "$snapshot" >/dev/null
+          jq -e '.truth_boundaries | index("REVIEW_DECISION_EVENT_NE_ONTOLOGY_VERSION") != null and index("REVIEW_DECISION_EVENT_NE_ACTIVE_TAXONOMY") != null and index("DECISION_INTAKE_NE_BUSINESS_PROMOTION") != null' "$snapshot" >/dev/null
+          if jq -e '.. | objects | has("payer") or has("payer_confirmed") or has("paid_need") or has("route_testable") or has("transaction_ready") or has("active_version") or has("activated_at")' "$snapshot" >/dev/null; then
+            echo "Decision intake dry-run leaked commercial truth or active registry state" >&2
+            exit 1
+          fi
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Ontology Review Decision Intake 008"
+            echo
+            echo "Synthetic dry-run only. No Run 003 review item is decided by this workflow."
+            echo
+            jq -r '"- decision events: `\(.decision_event_count)`"' .local/ontology-review-decision-intake-008.json
+            jq -r '"- terminal decisions: `\(.terminal_decision_count)`"' .local/ontology-review-decision-intake-008.json
+            jq -r '"- active ontology changes: `\(.active_ontology_changes)`"' .local/ontology-review-decision-intake-008.json
+            jq -r '"- taxonomy promotion: `\(.taxonomy_promotion)`"' .local/ontology-review-decision-intake-008.json
+            jq -r '"- business promotion: `\(.business_promotion)`"' .local/ontology-review-decision-intake-008.json
+            echo
+            echo "The ACCEPT event is a synthetic fixture proving intake semantics only. Decision intake cannot create an ontology version or activate taxonomy."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload dry-run decision intake artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ontology-review-decision-intake-008-dry-run
+          path: |
+            .local/ontology-review-decision-intake-008.json
+            tests/fixtures/ontology_review_queue_dry_run.json
+            tests/fixtures/ontology_review_decisions_dry_run.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true

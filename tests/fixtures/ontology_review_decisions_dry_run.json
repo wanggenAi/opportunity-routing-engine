@@ -1,0 +1,40 @@
+[
+  {
+    "decision_id": "decision:synthetic-dry-run:001",
+    "review_item_id": "ONTOLOGY_REVIEW::SYNTHETIC_ONTOLOGY_REVIEW_DRY_RUN_008::alignment:synthetic:001",
+    "decision": "DEFER",
+    "review_outcome": "DEFER",
+    "reviewer_id": "reviewer:synthetic-dry-run",
+    "reviewed_at": "2026-09-14T23:45:00+08:00",
+    "rationale": "Synthetic dry-run first event: defer to prove append-only multi-event review history.",
+    "review_provenance_ref": "fixture://ontology-review-intake-008/synthetic-not-real-governance",
+    "supporting_evidence_refs": [
+      "claim:synthetic:001"
+    ],
+    "reviewed_boundary": "This fixture is not evidence about the real world and cannot be promoted into production ontology.",
+    "reviewed_counterexamples": [
+      "Any production concept, actor, payer, resource, opportunity, or real-world claim."
+    ]
+  },
+  {
+    "decision_id": "decision:synthetic-dry-run:002",
+    "review_item_id": "ONTOLOGY_REVIEW::SYNTHETIC_ONTOLOGY_REVIEW_DRY_RUN_008::alignment:synthetic:001",
+    "decision": "APPROVE_NEW_CONCEPT_VERSION",
+    "review_outcome": "ACCEPT",
+    "reviewer_id": "reviewer:synthetic-dry-run",
+    "reviewed_at": "2026-09-14T23:46:00+08:00",
+    "rationale": "Synthetic dry-run terminal event only; intake must record it without creating or activating any ontology version.",
+    "review_provenance_ref": "fixture://ontology-review-intake-008/synthetic-not-real-governance",
+    "supporting_evidence_refs": [
+      "claim:synthetic:001",
+      "claim:synthetic:002",
+      "observation:synthetic:001"
+    ],
+    "reviewed_boundary": "This fixture is not evidence about the real world and cannot be promoted into production ontology.",
+    "reviewed_counterexamples": [
+      "Any production concept, actor, payer, resource, opportunity, or real-world claim."
+    ],
+    "proposed_concept_id": "concept:synthetic-dry-run-only",
+    "proposed_label": "SYNTHETIC_DRY_RUN_ONLY_CONCEPT"
+  }
+]

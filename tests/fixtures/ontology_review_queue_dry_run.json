@@ -1,0 +1,68 @@
+{
+  "queue_kind": "ONTOLOGY_PROMOTION_REVIEW",
+  "source_review_run_id": "SYNTHETIC_ONTOLOGY_REVIEW_DRY_RUN_008",
+  "review_ready_count": 1,
+  "candidate_not_queued_count": 0,
+  "residual_not_queued_count": 0,
+  "items": [
+    {
+      "review_item_id": "ONTOLOGY_REVIEW::SYNTHETIC_ONTOLOGY_REVIEW_DRY_RUN_008::alignment:synthetic:001",
+      "source_review_run_id": "SYNTHETIC_ONTOLOGY_REVIEW_DRY_RUN_008",
+      "source_alignment_id": "alignment:synthetic:001",
+      "candidate_concept": "SYNTHETIC_DRY_RUN_ONLY_CONCEPT",
+      "primitive": "FRICTION",
+      "definition": "Synthetic fixture used only to exercise ontology review intake without changing production taxonomy.",
+      "boundary": "This fixture is not evidence about the real world and cannot be promoted into production ontology.",
+      "counterexamples": [
+        "Any production concept, actor, payer, resource, opportunity, or real-world claim."
+      ],
+      "supporting_claim_refs": [
+        "claim:synthetic:001",
+        "claim:synthetic:002"
+      ],
+      "supporting_observation_refs": [
+        "observation:synthetic:001",
+        "observation:synthetic:002"
+      ],
+      "supporting_source_ids": [
+        "source:synthetic:001",
+        "source:synthetic:002"
+      ],
+      "supporting_actor_ids": [
+        "actor:synthetic:001",
+        "actor:synthetic:002"
+      ],
+      "supporting_periods": [
+        "2099-01",
+        "2099-02"
+      ],
+      "observation_count": 2,
+      "source_count": 2,
+      "actor_count": 2,
+      "period_count": 2,
+      "epistemic_counts": {
+        "OBSERVED": 2
+      },
+      "review_state": "AWAITING_EXPLICIT_REVIEW",
+      "allowed_decisions": [
+        "APPROVE_NEW_CONCEPT_VERSION",
+        "DEFER",
+        "REJECT",
+        "REQUIRE_MERGE_REVIEW",
+        "REQUIRE_RENAME_REVIEW",
+        "REQUIRE_SPLIT_REVIEW"
+      ],
+      "registry_effect": "NONE_UNTIL_EXPLICIT_REVIEW_DECISION_AND_SEPARATE_ACTIVATION",
+      "taxonomy_promotion": "NOT_PROMOTED",
+      "business_promotion": "NOT_PROMOTED"
+    }
+  ],
+  "active_ontology_changes": 0,
+  "taxonomy_promotion": "NOT_PROMOTED",
+  "business_promotion": "NOT_PROMOTED",
+  "truth_boundaries": [
+    "SYNTHETIC_FIXTURE_NE_REAL_WORLD_EVIDENCE",
+    "REVIEW_QUEUE_NE_ONTOLOGY_VERSION",
+    "ONTOLOGY_VERSION_NE_ACTIVE_TAXONOMY_UNTIL_EXPLICIT_ACTIVATION"
+  ]
+}
