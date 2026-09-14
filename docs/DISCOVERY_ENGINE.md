@@ -2,315 +2,292 @@
 
 Status: `CANONICAL / LOCKED DISCOVERY LOGIC`
 
-Effective: 2026-09-12
+Effective: 2026-09-14
 
-Constitutional parent: `docs/LATENT_VALUE_DOCTRINE.md`.
+Parents:
+- `docs/LATENT_VALUE_DOCTRINE.md`
+- `docs/DYNAMIC_SENSOR_FABRIC.md`
 
-This document defines the **front half** of the Actor-First Regenerative Latent-Value Orchestration Engine.
+This document defines the front half of the Actor-First Regenerative Latent-Value Orchestration Engine.
 
-The Discovery Engine does not begin by searching for an explicit buyer, supplier, RFQ, procurement notice or task. Those are valid sensors, but they are downstream manifestations of deeper actor states.
-
-The engine exists first to discover **value that is present but not yet recognized, packaged, priced, connected or activated**.
+The engine does not begin from an explicit buyer, supplier, RFQ, procurement notice, current platform or fixed industry taxonomy. Those are sensor manifestations of deeper actor states.
 
 ## 1. Core principle — LOCKED
 
-Do not begin with:
-- a product;
-- a startup idea;
-- an ERP/MES project;
-- a public tender;
-- an explicit customer request;
-- a supplier list;
-- a fashionable technology;
-- the operator's existing skill.
-
 Begin with reality:
 
-> **What changed in the macro environment, money flow, psychology and behavior; which actors are being pushed into a new state; and what assets, abilities, rights, relationships, knowledge, demand fragments, trust, time, space or capacity have become underrecognized or newly valuable because of that change?**
+> **What changed; which actors are entering new states; what resources, capabilities, perceptions, motives, behaviors, flows, constraints or frictions changed; and what value may now be idle, hidden, fragmented, mispriced, misallocated or newly combinable?**
 
-Then ask:
+Do not begin with:
+- a favored product or startup idea;
+- one procurement feed;
+- a supplier list;
+- a fixed social-platform list;
+- a fashionable technology;
+- the operator's existing skill;
+- today's taxonomy.
 
-> **Which other actor state is complementary to that unrealized value, and what transformation mechanism could make the two sides valuable to each other even if neither side currently describes itself as supply or demand?**
+A source adapter is an observer. A platform is not an ontology. A current candidate is a sample, not the business identity.
 
-Only after that may the engine ask who pays, how the exchange is validated and whether orchestration can capture value.
+## 2. Stable kernel, dynamic world model — LOCKED
 
-## 2. Canonical discovery sequence — LOCKED
+Stable semantic primitives:
 
 ```text
-DATA SOURCES
-→ MACRO REGIME
-→ MONEY FLOW
-→ PSYCHOLOGY / DECISION LOGIC
-→ OBSERVED BEHAVIOR CHANGE
-→ INDUSTRY / MARKET STRUCTURE
-→ ACTOR
-→ ENDOWMENT / STATE / CONSTRAINTS
-→ HIDDEN / UNDERRECOGNIZED VALUE
-→ WHY VALUE IS NOT CURRENTLY REALIZED
+ACTOR
+STATE
+CHANGE
+RESOURCE
+CAPABILITY
+PERCEPTION
+MOTIVE
+BEHAVIOR
+FLOW
+CONSTRAINT
+FRICTION
+OUTCOME
+EVIDENCE
+TIME
+SPACE
+```
+
+Lower-level concepts are open-ended and versioned. The engine must be able to observe a new behavior/resource/friction that has no existing label.
+
+```text
+OBSERVATION
+→ existing concept fits?
+  → yes: attach evidence
+  → no: RESIDUAL / UNBOUND
+        → repeated?
+        → multi-source?
+        → multi-actor?
+        → persistent through time?
+        → candidate concept
+        → contradiction search / review
+        → versioned ontology promotion
+```
+
+`UNKNOWN` is not failure. Forcing unknown reality into a known label is failure.
+
+## 3. Canonical discovery sequence — LOCKED
+
+```text
+GLOBAL + DOMESTIC SENSOR FABRIC
+→ OBSERVATIONS / PROVENANCE
+→ STABLE SEMANTIC KERNEL
+→ DYNAMIC / EMERGENT TAXONOMY
+→ CHINA MACRO / MONEY FLOW / MARKET STRUCTURE
+→ CHINESE ACTOR STATE / PSYCHOLOGY / BEHAVIOR
+→ FRICTION / UNDERUSE / MISALLOCATION
+→ LATENT VALUE HYPOTHESIS
+→ RECURRING PATTERN / ARCHETYPE TEST
 → COMPLEMENTARY ACTOR SEARCH
 → TRANSFORMATION MECHANISM
-→ WHY EXCHANGE DOES NOT ALREADY HAPPEN
-→ INCREMENTAL VALUE FOR BOTH SIDES
-→ ORCHESTRATOR VALUE-CAPTURE HYPOTHESIS
 → EVIDENCE / VALIDATION
 → ONLY THEN NEED / RESOURCE / BLOCKER PROJECTION
 → ORCHESTRATION / TRANSACTION DESIGN
 ```
 
-The historical chain `friction → desired outcome → payer → route` remains useful **after** latent-value discovery. It is not the first ontology of the world.
+Explicit demand execution remains valid downstream, but it must not dominate discovery merely because it is easy to parse.
 
-## 3. Two candidate classes — do not mix them
+### Two candidate classes — do not mix them
 
-The engine must preserve two distinct commercial classes.
+The dynamic Sensor Fabric does not erase the constitutional distinction between latent-value discovery and already-articulated execution work.
 
-### `LATENT_VALUE_ACTIVATION`
+#### `LATENT_VALUE_ACTIVATION`
 
-A core discovery candidate where at least one side contains value that was not already operating as an explicit market offer/demand.
+A core discovery candidate where at least one side contains value that was not already operating as an explicit market offer or demand. It must preserve fields such as:
 
-Examples of latent value forms:
-- tacit expert knowledge treated as personal experience rather than an asset;
-- idle time or capacity that is not packaged into a callable unit;
-- fragmented demand that gains bargaining/transaction value when aggregated;
-- customer relationships or distribution access unused in an adjacent context;
-- historical operational data not converted into a decision product;
-- empty time windows, return logistics, unused space or equipment utilization;
-- reputation/trust that can reduce another actor's transaction cost;
-- recurring behavior that reveals a deficit the actor has not articulated;
-- a policy/technology change that makes an old asset newly valuable.
+```text
+hidden_or_underrecognized_value:
+why_value_is_not_recognized_or_realized:
+complementary_actor_hypothesis:
+transformation_mechanism:
+```
 
-### `EXPLICIT_DEMAND_EXECUTION`
+#### `EXPLICIT_DEMAND_EXECUTION`
 
-A valid downstream opportunity where demand and supply are already understood and the main value is execution, outsourcing, matching or coordination.
-
-Examples:
-- a service provider already knows it needs an engineer;
-- an enterprise publishes an RFQ;
-- a buyer explicitly requests an existing service;
-- an existing project needs subcontracted execution.
-
-This class can make money, but:
+A valid downstream route where the buyer, task or supply need is already substantially articulated and the main value is execution, outsourcing, matching or coordination.
 
 ```text
 EXPLICIT_DEMAND_EXECUTION != CORE_LATENT_VALUE_DISCOVERY
 ```
 
-It must never become the primary discovery thesis merely because it is easier to validate or monetize.
+This class may make money or provide bounded learning, but it must not become the engine's core discovery identity merely because structured feeds make it easy to observe.
 
-## 4. Macro regime remains the first directional layer
+## 4. Primary research domain — LOCKED
 
-Track the broad environment before interpreting anecdotes:
+Default priority:
+
+```text
+PRIMARY RESEARCH DOMAIN: CHINA
+PRIMARY EXECUTION LENS: CHINA → JIANGSU → XUZHOU
+SECONDARY OBSERVATION LAYER: GLOBAL INFORMATION
+CROSS-BORDER: EXCEPTION ONLY
+```
+
+The engine primarily studies:
+- Chinese consumer and household psychology;
+- income, employment, savings, credit and household balance-sheet changes;
+- spending, substitution, service/goods mix and price sensitivity;
+- Chinese enterprise hiring, layoffs, investment, capacity, inventory and pricing;
+- domestic platform/ecosystem behavior;
+- Chinese market structure and money flow;
+- domestic resources, idle capacity and transaction friction;
+- Jiangsu/Xuzhou divergence and locally verifiable actor states.
+
+Xuzhou is the first field laboratory because real-world validation is feasible, not because the model is local-only.
+
+## 5. Global observation layer — LOCKED
+
+Global information may come from lawful public/authorized social platforms, forums, developer communities, product reviews, company sites, marketplaces, research, technology sources and future source types.
+
+Current examples such as Reddit, X, Instagram, Telegram, GitHub and overseas review/forum ecosystems are sensor instances only.
+
+Global signals are useful when they help:
+- explain or challenge a China hypothesis;
+- reveal external perception/use of a Chinese product/resource;
+- identify a mechanism that may later transfer to China;
+- expose failure modes before domestic adoption matures;
+- show a technology change that reprices a Chinese/Jiangsu/Xuzhou resource.
+
+Truth boundaries:
+
+```text
+GLOBAL SALIENCE != CHINESE PREVALENCE
+FOREIGN TREND != CHINA DEMAND
+FOREIGN COMPLAINT != DOMESTIC PAID NEED
+FOREIGN SUCCESS != CHINA TRANSFERABILITY
+TRANSFER HYPOTHESIS != DOMESTIC FACT
+```
+
+A foreign/global signal becomes `GLOBAL_AUXILIARY` when China relevance is evidenced. It may create a `TRANSFER_HYPOTHESIS`; material promotion requires domestic corroboration.
+
+## 6. Cross-border rule — LOCKED
+
+The system may discover cross-border value, but it is not an export-first or foreign-market-first engine.
+
+```text
+ABILITY TO DISCOVER CROSS-BORDER VALUE
+!=
+CROSS-BORDER-FIRST STRATEGY
+```
+
+Cross-border routes remain exceptional and require unusually direct evidence of a China relation, an executable domestic side and concrete transaction evidence. Availability of foreign data must not bias the engine toward exporting Chinese goods/services.
+
+## 7. Macro / money flow
+
+Track broad China reality before interpreting anecdotes:
 - GDP and sector structure;
-- CPI / service CPI / PPI;
-- PMI / industrial production;
+- CPI / PPI / PMI / industrial production;
 - disposable income and consumption expenditure;
 - retail / service retail / online consumption;
-- investment / equipment investment;
-- real-estate activity;
+- investment / equipment investment / real-estate activity;
 - money / credit / deposits / loans;
-- trade;
 - employment / hiring;
-- demographics / aging / households;
-- technology / policy / regulation.
+- demographics / household structure;
+- technology / policy / regulation;
+- imports/exports where they explain domestic states or exceptional opportunities.
 
-Macro indicators do not directly identify a business. They identify **where actor states are likely changing**.
+Macro indicators identify search zones; they do not prove a business.
 
-## 5. Money Flow layer
+Ask where money accelerates/disappears, who gains/loses share, whether price or volume drives change, which actors are changing behavior, and what resources or frictions may result.
 
-Ask:
-- where is money accelerating or disappearing?
-- who gains/loses share?
-- who is receiving less despite owning useful assets?
-- where are buyers splitting purchases into smaller units?
-- where is capital shifting from ownership to access, repair, rental, service or utilization?
-- where are subsidies/policy changing transaction incentives without proving commercial demand?
+## 8. Psychology / behavior before industry conclusion
 
-Money flow is evidence about **where value relationships are being repriced**.
+`PERCEPTION`, `MOTIVE` and `BEHAVIOR` are stable primitives. Theme names such as value-for-money or spending caution are seed concepts, not closed enums.
 
-## 6. Psychology before industry conclusion
+The system should prefer what actors do over what they say they need.
 
-Track how consumers, owners, managers, workers and institutions change decision logic:
-- value-for-money;
-- spending caution;
-- willingness to pay for certainty;
-- preference for small trials;
-- trust / risk aversion;
-- convenience/time value;
-- experience orientation;
-- repair/reuse/rental;
-- labor insecurity;
-- owner reluctance to add permanent headcount;
-- desire to preserve optionality;
-- preference for measurable outcomes over narratives.
-
-Psychology must be corroborated by money and behavior.
-
-## 7. Behavior before labels
-
-The system should prefer what actors **do** over what they say they need.
-
-Observe:
+Observe, without treating this list as exhaustive:
 - repeated workarounds;
-- idle time / spare capacity;
-- repeated relisting / repricing;
-- manual coordination;
-- queueing and waiting;
+- saving/substitution/repricing behavior;
+- idle time/capacity;
+- repeated relisting;
+- manual coordination and waiting;
 - duplicated work;
 - informal help networks;
 - underused equipment/space/channel;
 - hiring freezes plus project work;
-- repeated travel for a capability unavailable locally;
 - fragmented purchasing;
-- repeated failures that depend on one veteran person;
-- data collected but never used;
-- recurring complaints with measurable behavior change;
-- assets/skills that generate no or low return despite adjacent demand growth.
+- recurring complaints with behavior change;
+- assets/skills generating low return despite adjacent demand growth.
 
-These observations are **clues to hidden value**, not yet proof of a resource or paid need.
-
-## 8. Industry / market structure layer
-
-Only after macro + psychology + behavior should the engine zoom into industries.
-
-Ask:
-- where are margins moving?
-- what formerly internal function is becoming externalizable?
-- what formerly useless asset has become useful because of technology or policy?
-- what capability is over-concentrated in a few people/organizations?
-- what is stranded by geography, time, packaging or trust?
-- what demand is too fragmented to act as a market individually?
-- what supply is too fragmented to be trusted individually?
-- what information exists but is not converted into a decision/transaction asset?
-
-Industry attractiveness alone is insufficient.
+Psychology must be corroborated by behavior and money where possible.
 
 ## 9. Actor state / endowment model
 
-For each Actor, do not assign a permanent `buyer` or `seller` identity.
-
-Record where observable:
+For each Actor, do not assign a permanent buyer/seller identity. Record where observable:
 
 ```text
-actor:
-current_state:
-recent_change:
-assets:
-skills:
-knowledge:
-data:
-relationships:
-trust_or_reputation:
-rights_or_access:
-time_capacity:
-space_equipment_capacity:
-demand_fragments:
-constraints:
-current_monetization:
-current_workarounds:
+actor
+current_state
+recent_change
+assets
+skills
+knowledge
+data
+relationships
+trust_or_reputation
+rights_or_access
+time_capacity
+space_equipment_capacity
+demand_fragments
+constraints
+current_monetization
+current_workarounds
 ```
 
-An actor can simultaneously contain deficits and resources.
+An actor may contain deficits and resources simultaneously.
 
-## 10. Latent Value Hypothesis — first-class object
+## 10. Latent value and recurring pattern
 
-A core candidate must answer all of the following:
+A core candidate must describe:
 
 ```text
-hidden_or_underrecognized_value:
-why_actor_does_not_recognize_or_realize_it:
-what_changed_that_may_make_it_more_valuable_now:
-what evidence suggests the value exists:
-what part is still UNKNOWN:
+hidden_or_underrecognized_value
+why it is not realized
+what changed
+supporting evidence
+unknowns
+whether the underlying friction/resource pattern recurs
+what naturally regenerates new events
 ```
 
-Examples:
-- a retired engineer's tacit troubleshooting logic;
-- a merchant's empty weekday capacity;
-- a manufacturer's repeated tiny purchases aggregated into a procurement asset;
-- a service center's unused customer touchpoints;
-- a factory's historical failure logs converted into decision support;
-- a logistics fleet's return route converted into capacity;
-- community trust converted into lower acquisition/trust cost.
+A one-off order, failed tender, viral post or isolated complaint is an observation. It becomes strategically important when it contributes to a repeatable structure or when direct exceptional transaction evidence justifies a bounded one-off route test.
 
-`LATENT_VALUE_HYPOTHESIS != VERIFIED RESOURCE`.
+Core preference:
 
-## 11. Complementary Actor search
+```text
+REPEATED ACTOR STATE CHANGE
++ PERSISTENT FRICTION / UNDERUSE
++ REUSABLE TRANSFORMATION MECHANISM
++ REGENERATING EVENT FLOW
+```
 
-After identifying latent value, ask:
+## 11. Complementary actor search
 
-> **Which actor's current state becomes meaningfully better if this value is transformed and made callable?**
+After identifying latent value, ask which other actor state becomes meaningfully better if the value is transformed and made callable.
 
-The complementary actor may not currently say `I need this`.
-
-Search by state compatibility:
-- excess ↔ shortage;
-- fragmented ↔ aggregatable;
-- tacit knowledge ↔ repeated decision uncertainty;
-- idle capacity ↔ time-sensitive utilization gap;
-- local trust ↔ high acquisition/trust cost;
-- unused data ↔ expensive repeated decisions;
-- demand fragments ↔ minimum efficient order size;
-- underused distribution ↔ product without efficient access.
+Search by state compatibility such as excess↔shortage, fragmented↔aggregatable, tacit knowledge↔repeated uncertainty, idle capacity↔utilization gap, local trust↔high acquisition cost, unused data↔repeated decisions.
 
 `Complementarity != Transactionability`.
 
 ## 12. Transformation mechanism
 
-The orchestrator must explain **how value changes state**.
+Explain how value changes state. Mechanisms may include aggregation, decomposition, standardization, verification, digitization, packaging, optioning, scheduling, acceptance criteria, trust boundaries, payment rules or combining weak assets into a viable route.
 
-Common mechanisms:
-- aggregate;
-- split/decompose;
-- standardize;
-- verify;
-- digitize;
-- package;
-- option;
-- schedule;
-- insure/guarantee;
-- create acceptance criteria;
-- create rights/permission structure;
-- create trust boundary;
-- create payment/settlement rule;
-- combine multiple weak assets into one viable route.
-
-A candidate with no transformation mechanism is not a latent-value activation candidate.
+No transformation mechanism means the latent-value hypothesis is incomplete.
 
 ## 13. Why exchange does not already happen
 
-The system must state the structural blocker, not merely `lack of platform`.
+State the structural blocker rather than saying only `lack of platform`.
 
-Possible causes:
-- the owner does not perceive the asset;
-- the value is too small individually;
-- no packaging standard;
-- no proof/verification;
-- no legal permission/right;
-- no trusted interface;
-- search cost too high;
-- coordination cost exceeds individual value;
-- geography/time mismatch;
-- minimum scale mismatch;
-- payer/beneficiary separation;
-- quality cannot be accepted objectively;
-- transaction frequency too low for incumbent attention.
+Possible mechanisms include search cost, packaging gaps, proof gaps, permission, trust, geography/time mismatch, minimum scale mismatch, quality acceptance, payer/beneficiary separation or coordination cost. The list is illustrative, not a taxonomy boundary.
 
-This explanation is required before validation.
+## 14. Evidence projection happens after discovery
 
-## 14. Incremental value test
-
-A candidate must describe how a new structure creates value rather than merely transfers margin.
-
-Ask:
-- what new utilization appears for origin Actor?
-- what measurable cost/risk/time loss is reduced for complementary Actor?
-- what was impossible or uneconomic before the transformation?
-- how much of the created value is attributable to orchestration rather than simple introduction?
-
-The orchestrator should be paid only for real incremental value such as aggregation, verification, packaging, routing, trust, acceptance, replacement, settlement or accumulated learning.
-
-## 15. Evidence projection happens after world-model discovery
-
-Only after a latent-value/complementarity hypothesis exists should the system project evidence into current transaction primitives:
+Only after a latent-value/complementarity hypothesis exists should evidence be projected into strict transaction primitives:
 
 ```text
 NeedSignal
@@ -322,10 +299,6 @@ Underuse State
 Resource Control State
 ```
 
-These are strict commercial evidence gates, not the complete ontology.
-
-Therefore:
-
 ```text
 WORLD MODEL / LATENT VALUE
 → EVIDENCE PROJECTION
@@ -336,105 +309,68 @@ WORLD MODEL / LATENT VALUE
 not:
 
 ```text
-PUBLIC RFQ
+PUBLIC RFQ / VIRAL TREND
 → assume this is the business
 ```
 
-## 16. Candidate output schema — mandatory
+## 15. Promotion states
 
-Every **core** candidate must contain:
-
-```text
-candidate_id:
-candidate_class: LATENT_VALUE_ACTIVATION
-macro_signal:
-money_flow:
-psychology_decision_logic:
-observed_behavior:
-industry_structure:
-actor:
-observed_state:
-observed_change:
-hidden_or_underrecognized_value:
-why_value_is_not_recognized_or_realized:
-evidence:
-complementary_actor_hypothesis:
-complementary_actor_state:
-transformation_mechanism:
-why_exchange_does_not_already_happen:
-incremental_value_for_origin_actor:
-incremental_value_for_complementary_actor:
-orchestrator_value_capture_hypothesis:
-unknowns:
-cheapest_decisive_validation:
-kill_conditions:
-```
-
-If these fields are absent, the candidate may remain a sensor observation or explicit-demand execution route, but it cannot enter the core latent-value pool.
-
-## 17. Promotion states
-
-Canonical discovery maturity:
+Discovery maturity may move through:
 
 ```text
-OBSERVED_PATTERN
+RESIDUAL / UNBOUND
+→ OBSERVED_PATTERN
 → LATENT_VALUE_HYPOTHESIS
 → COMPLEMENTARITY_HYPOTHESIS
 → VALIDATION_READY
 ```
 
-`VALIDATION_READY` means only that the hypothesis is sufficiently structured to test.
+`VALIDATION_READY` does not imply paid need, resource availability, payer, legality, margin or transactionability.
 
-It does **not** imply:
-- resource is available;
-- need is paid;
-- payer exists;
-- exchange is legal;
-- transaction will happen;
-- margin exists.
+## 16. Candidate output
 
-Those remain downstream evidence gates.
-
-## 18. Geographic zoom
-
-Recommended zoom remains:
+A core candidate should preserve at least:
 
 ```text
-China / global
-→ Jiangsu
-→ Xuzhou
-→ district/county
-→ industry / actor cluster
-→ exact actor state
-→ latent value
-→ complementary actor
-→ validation route
+candidate_id
+candidate_class
+source_geographies
+research_target_geography
+macro_signal
+money_flow
+perception_motive_behavior
+observed_state_change
+industry_market_structure
+actor
+hidden_or_underrecognized_value:
+why_value_is_not_recognized_or_realized:
+recurrence_or_demand_pump
+complementary_actor_hypothesis:
+transformation_mechanism:
+why_exchange_does_not_already_happen
+evidence
+contradictions
+unknowns
+cheapest_decisive_validation
+kill_conditions
 ```
 
-Xuzhou is the first laboratory because local verification is feasible, not because the model is local-only.
+## 17. Discovery priority
 
-## 19. Discovery priority rule
+Do not prioritize by easiest public data, clearest government record, operator skill fit, fastest monetization or first discovery.
 
-Research priority is not determined by:
-- easiest public data;
-- clearest payer;
-- operator skill fit;
-- fastest short-term monetization;
-- first candidate discovered.
-
-Prioritize candidates with:
+Prefer:
 1. strong observed state change;
-2. plausible hidden value magnitude;
+2. plausible latent-value magnitude;
 3. meaningful complementarity;
-4. a specific transformation mechanism;
-5. a structural reason the market has not already solved it;
+4. specific transformation mechanism;
+5. structural reason value remains unrealized;
 6. cheap decisive validation;
-7. potential repeat/circulation if validated.
+7. recurring/regenerative potential;
+8. domestic relevance and execution feasibility for the China-first mandate.
 
-Operator fit is applied **after** independent latent-value truth exists.
+Operator fit is applied after independent opportunity truth exists.
 
-## 20. Governing invariant
+## 18. Governing invariant
 
-> **先从宏观、钱流、心理与行为看世界怎么变；再看 Actor 身上什么东西因此被低估、闲置、碎片化、未命名或无法调用；再寻找与之互补的 Actor，设计让价值发生状态转换的机制。只有完成这一层，才进入需求、资源、付款人与交易验证。**
-
-The Discovery Engine wins when it repeatedly identifies value relationships that were not already obvious to the actors themselves — not when it merely becomes faster at parsing existing demand.
+> **全球都可以成为传感器，但主要研究中国现实：先从宏观、钱流、心理、行为、资源和摩擦看中国社会怎么变；国外信息用于增加观察半径、提供反证与迁移假设，而不是把项目带成跨境优先。平台和 taxonomy 都允许随世界生长，稳定的是语义内核、证据边界和事实晋级规则。最终在中国，优先江苏/徐州，寻找能够真实验证并形成可持续循环的价值结构。**
