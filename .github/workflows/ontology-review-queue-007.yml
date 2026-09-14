@@ -1,0 +1,105 @@
+name: ontology-review-queue-007
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/ontology_governance.py"
+      - "src/emergent_taxonomy.py"
+      - "scripts/build_ontology_review_queue.py"
+      - "scripts/build_broad_discovery_observation_review.py"
+      - "tests/test_ontology_governance.py"
+      - "data/research_missions/china_primary_broad_discovery.json"
+      - "data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14/**"
+      - ".github/workflows/ontology-review-queue-007.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ontology-review-queue-007
+  cancel-in-progress: false
+
+jobs:
+  build-ontology-review-queue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Rebuild Run 003 observation review
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .local
+          python scripts/build_broad_discovery_observation_review.py \
+            --mission data/research_missions/china_primary_broad_discovery.json \
+            --dynamic-terms data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14/dynamic_terms.json \
+            --captures data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14/captures.json \
+            --reviewed-dir data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14/reviewed \
+            --alignments data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14/concept_alignments_reviewed.json \
+            --summary-output .local/broad_discovery_run_003_observation_review.json \
+            --observations-output .local/broad_discovery_run_003_reviewed_observations.json
+
+      - name: Materialize ontology governance queue
+        run: |
+          python scripts/build_ontology_review_queue.py \
+            --observation-review .local/broad_discovery_run_003_observation_review.json \
+            --output .local/ontology_review_queue_007.json
+
+      - name: Require review-only boundary
+        shell: bash
+        run: |
+          set -euo pipefail
+          queue=.local/ontology_review_queue_007.json
+          test "$(jq -r '.queue_kind' "$queue")" = "ONTOLOGY_PROMOTION_REVIEW"
+          test "$(jq -r '.review_ready_count' "$queue")" = "2"
+          test "$(jq -r '.candidate_not_queued_count' "$queue")" = "3"
+          test "$(jq -r '.residual_not_queued_count' "$queue")" = "0"
+          test "$(jq -r '.active_ontology_changes' "$queue")" = "0"
+          test "$(jq -r '.taxonomy_promotion' "$queue")" = "NOT_PROMOTED"
+          test "$(jq -r '.business_promotion' "$queue")" = "NOT_PROMOTED"
+          jq -e '[.items[].candidate_concept] | sort == ["PLATFORM_TRUST_AND_GOVERNANCE_INFRASTRUCTURE","SKILL_TO_WORK_MATCHING_INFRASTRUCTURE"]' "$queue" >/dev/null
+          jq -e '[.items[] | (.review_state == "AWAITING_EXPLICIT_REVIEW" and .registry_effect == "NONE_UNTIL_EXPLICIT_REVIEW_DECISION_AND_SEPARATE_ACTIVATION" and .taxonomy_promotion == "NOT_PROMOTED" and .business_promotion == "NOT_PROMOTED")] | all' "$queue" >/dev/null
+          jq -e '[.items[] | (.observation_count == 4 and .source_count == 4 and .actor_count >= 4 and .period_count >= 4)] | all' "$queue" >/dev/null
+          jq -e '.truth_boundaries | index("REVIEW_QUEUE_NE_ONTOLOGY_VERSION") != null and index("ONTOLOGY_VERSION_NE_ACTIVE_TAXONOMY_UNTIL_EXPLICIT_ACTIVATION") != null and index("MODEL_SUGGESTION_NE_REVIEW_DECISION") != null' "$queue" >/dev/null
+          if jq -e '.. | objects | has("payer") or has("paid_need") or has("opportunity_score") or has("commercial_score") or has("route_testable") or has("active_version") or has("activated_at")' "$queue" >/dev/null; then
+            echo "Ontology review queue leaked commercial truth or active registry state" >&2
+            exit 1
+          fi
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Ontology Review Queue 007"
+            echo
+            jq -r '"- source review: `\(.source_review_run_id)`"' .local/ontology_review_queue_007.json
+            jq -r '"- queued for explicit ontology review: `\(.review_ready_count)`"' .local/ontology_review_queue_007.json
+            jq -r '"- candidates intentionally not queued: `\(.candidate_not_queued_count)`"' .local/ontology_review_queue_007.json
+            jq -r '"- active ontology changes: `\(.active_ontology_changes)`"' .local/ontology_review_queue_007.json
+            echo
+            jq -r '.items[] | "- `\(.candidate_concept)` — `\(.review_state)` — source alignment `\(.source_alignment_id)`"' .local/ontology_review_queue_007.json
+            echo
+            echo "Queue membership does not create an ontology version. An explicit review decision may create an immutable version, and activation is a separate explicit action. No business truth is created."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload ontology review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ontology-review-queue-007-state
+          path: |
+            .local/broad_discovery_run_003_observation_review.json
+            .local/ontology_review_queue_007.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
