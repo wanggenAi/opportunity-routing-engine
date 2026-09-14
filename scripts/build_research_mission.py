@@ -6,6 +6,8 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from dataclasses import replace
+from datetime import date
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -37,6 +39,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--mission", required=True)
     parser.add_argument("--dynamic-terms")
+    parser.add_argument("--as-of-date", help="ISO date override; defaults to the mission config")
     parser.add_argument("--plan-output", required=True)
     parser.add_argument("--coverage-output", required=True)
     args = parser.parse_args()
@@ -45,6 +48,10 @@ def main() -> None:
     if not isinstance(mission_payload, dict):
         raise ValueError("mission file must contain a JSON object")
     mission = mission_from_dict(mission_payload)
+    if args.as_of_date:
+        date.fromisoformat(args.as_of_date)
+        mission = replace(mission, as_of_date=args.as_of_date)
+
     dynamic_terms = _load_dynamic_terms(args.dynamic_terms)
     plan = build_research_plan(mission, dynamic_terms=dynamic_terms)
     coverage = empty_coverage_assessment(mission, plan)
@@ -60,6 +67,7 @@ def main() -> None:
         json.dumps(
             {
                 "mission_id": mission.mission_id,
+                "as_of_date": mission.as_of_date,
                 "query_count": plan["query_count"],
                 "coverage_state": coverage["state"],
                 "broad_discovery_use_authorized": coverage["broad_discovery_use_authorized"],
