@@ -1,0 +1,106 @@
+{
+  "schema_version": "reviewed-concept-alignment.v1",
+  "semantics": "CANDIDATE_SEMANTIC_ALIGNMENT_NOT_TAXONOMY_PROMOTION",
+  "run_id": "BROAD_DISCOVERY_RUN_003_OBSERVATION_REVIEW_2026-09-14",
+  "additional_truth_boundaries": [
+    "SUBSIDIZED_FLOW_NE_ORGANIC_DEMAND",
+    "PET_MARKET_GROWTH_NE_ALL_SUBCATEGORY_GROWTH",
+    "TRAINING_MATCHING_ACTION_NE_PAID_TASK_MARKET",
+    "MARKET_VACANCY_NE_CALLABLE_SPARE_CAPACITY",
+    "PLATFORM_GOVERNANCE_NE_MERCHANT_PAIN_OR_WILLINGNESS_TO_PAY"
+  ],
+  "alignments": [
+    {
+      "alignment_id": "align-skill-to-work-matching-infrastructure",
+      "candidate_concept": "SKILL_TO_WORK_MATCHING_INFRASTRUCTURE",
+      "primitive": "BEHAVIOR",
+      "definition": "Repeated institutional and market behavior that connects changing work/skill requirements to demand forecasting, training, assessment and targeted employment matching rather than treating training and placement as isolated stages.",
+      "boundary": "Does not prove a private project-work marketplace, employer willingness to pay an orchestrator, high-quality gig economics, training causality, or that trained capability is currently spare/callable.",
+      "counterexamples": [
+        "Training and employment services remain disconnected and placement does not become more targeted despite repeated programs.",
+        "Observed matching mechanisms are administrative only and employers continue to recruit without using the linked training/assessment channels.",
+        "AI-driven skill change reduces demand for the trained capabilities faster than matching infrastructure can adapt."
+      ],
+      "supporting_claim_refs": [
+        "MOHRSS_MATCHING_202606::bd003-obs-cn-work-matching-202606::national-matching-action",
+        "JIANGSU_SKILLS_DIRECTORY_202605::bd003-obs-js-project-training-202605::project-training-employment-linkage",
+        "XUZHOU_SKILLS_DIRECTORY_202606::bd003-obs-xz-skills-202606::local-skill-employment-linkage",
+        "MOHRSS_EMPLOYMENT_202609::bd003-obs-cn-precision-employment-202609::precision-training-job-matching"
+      ],
+      "alignment_rationale": "Four reviewed observations across national, Jiangsu and Xuzhou levels and multiple dates independently describe a linked training-to-work matching behavior. This satisfies diversity gates only for ontology promotion review, not for a business or transaction route."
+    },
+    {
+      "alignment_id": "align-platform-trust-governance-infrastructure",
+      "candidate_concept": "PLATFORM_TRUST_AND_GOVERNANCE_INFRASTRUCTURE",
+      "primitive": "BEHAVIOR",
+      "definition": "Repeated platform/regulatory behavior that makes digital commerce more governable through identity and qualification checks, rule transparency, after-sales handling, dispute resolution, consumer protection and merchant-service matching.",
+      "boundary": "Does not prove merchants experience a monetizable pain, that regulation improves merchant margins, that users will pay a new intermediary, or that a government/local platform model transfers to commercial platforms.",
+      "counterexamples": [
+        "Governance requirements increase compliance cost without improving trust, dispute outcomes or merchant operating stability.",
+        "Merchants and consumers bypass formal trust mechanisms because incumbent platform processes are already sufficient.",
+        "Local adoption metrics fade after launch and do not persist without public promotion."
+      ],
+      "supporting_claim_refs": [
+        "CIECC_MERCHANT_ECOSYSTEM_202607::bd003-obs-cn-platform-merchant-202607::platform-merchant-service-structure",
+        "CAC_LIVE_COMMERCE_RULES_202601::bd003-obs-cn-livecommerce-governance-202601::livecommerce-trust-governance-action",
+        "JIANGSU_ECOM_GOVERNANCE_202606::bd003-obs-js-ecommerce-aftersales-202606::provincial-platform-trust-action",
+        "XUZHOU_WUYOU_PLATFORM_202607::bd003-obs-xz-consumer-trust-platform-202607::local-platform-trust-operation"
+      ],
+      "alignment_rationale": "Four independent reviewed observations across research, national regulation, provincial guidance and local operation coherently describe a trust/governance infrastructure layer. Readiness is ontology governance only; merchant pain and willingness-to-pay remain unproved."
+    },
+    {
+      "alignment_id": "align-circular-recommerce-infrastructure",
+      "candidate_concept": "CIRCULAR_RECOMMERCE_INFRASTRUCTURE",
+      "primitive": "BEHAVIOR",
+      "definition": "Behavior that formalizes reuse and replacement circulation through recycling networks, second-hand trading, appraisal/inspection, remanufacturing and trade-in channels.",
+      "boundary": "Does not treat subsidized replacement as organic recommerce demand, does not prove resale of collected goods, and does not establish profitable reuse economics or resource ownership/availability.",
+      "counterexamples": [
+        "Trade-in activity falls sharply when fiscal/platform subsidies are removed.",
+        "Collected goods are scrapped without meaningful second-hand or remanufacturing circulation.",
+        "Inspection and quality-trust mechanisms remain too weak for repeated secondary transactions."
+      ],
+      "supporting_claim_refs": [
+        "NDRC_CIRCULAR_2026_POLICY::bd003-obs-cn-circular-recommerce-202512::national-circular-formalization-action",
+        "JIANGSU_CIRCULAR_2026::bd003-obs-js-circular-recommerce-202605::provincial-circular-formalization-action",
+        "XUZHOU_TRADEIN_618::bd003-obs-xz-tradein-consumption-202606::subsidized-tradein-behavior"
+      ],
+      "alignment_rationale": "National, provincial and local observations point in the same circulation/formalization direction, while explicit local evidence also shows substantial subsidy contamination. Three observations remain below the default promotion-review count gate."
+    },
+    {
+      "alignment_id": "align-pet-service-ecosystem-formalization",
+      "candidate_concept": "PET_SERVICE_ECOSYSTEM_FORMALIZATION",
+      "primitive": "BEHAVIOR",
+      "definition": "Behavioral expansion and formalization of paid pet services across medical, boarding, grooming, training, insurance, travel and pet-friendly consumption contexts.",
+      "boundary": "Does not infer that every pet-service subcategory is growing, that national survey usage transfers to Xuzhou, that local service presence proves provider quality, or that pet spending creates an orchestration opportunity.",
+      "counterexamples": [
+        "Pet-service usage or category share declines despite overall pet-market growth.",
+        "Formalization policy is not followed by durable provider/service adoption.",
+        "Local service density grows but repeat paid usage and service quality remain weak."
+      ],
+      "supporting_claim_refs": [
+        "CIPS_PET_WHITEPAPER_2026::bd003-obs-cn-pet-service-use-2025::paid-pet-service-use-behavior",
+        "JIANGSU_PET_SERVICE_POLICY_202606::bd003-obs-js-pet-formalization-202606::pet-service-formalization-action",
+        "XUZHOU_PET_ECOSYSTEM_202601::bd003-obs-xz-pet-ecosystem-202601::local-pet-service-ecosystem-behavior"
+      ],
+      "alignment_rationale": "National usage, Jiangsu formalization action and Xuzhou service-ecosystem evidence are directionally coherent but only three reviewed observations support the grouping; medical share decline is retained as counterevidence against blanket pet-service growth."
+    },
+    {
+      "alignment_id": "align-logistics-capacity-orchestration",
+      "candidate_concept": "LOGISTICS_CAPACITY_ORCHESTRATION",
+      "primitive": "BEHAVIOR",
+      "definition": "Behavior that reallocates or pools logistics/warehouse capacity through third-party logistics, digital capacity-demand matching, unified/shared warehousing and integrated fulfillment systems.",
+      "boundary": "Does not infer that market vacancy is callable spare capacity, that shared warehousing is profitable, that tenants surrender routing control, or that one local cloud-warehouse case generalizes to the national market.",
+      "counterexamples": [
+        "Warehouse absorption recovers because dedicated occupiers expand while shared/third-party orchestration does not gain durable share.",
+        "Digital matching platforms fail to reduce empty running, idle space or empty loads in measured operations.",
+        "Shared warehouse adoption requires subsidies or founder-heavy bespoke operations and does not repeat across industries."
+      ],
+      "supporting_claim_refs": [
+        "CBRE_CHINA_LOGISTICS_Q2_2026::bd003-obs-cn-logistics-q2-202606::third-party-logistics-leasing-behavior",
+        "MOFCOM_DIGITAL_SUPPLY_CHAIN_202503::bd003-obs-cn-digital-supply-chain-202503::digital-logistics-capacity-matching-action",
+        "XUZHOU_SHARED_CLOUD_WAREHOUSE_202607::bd003-obs-xz-shared-cloud-warehouse-202607::shared-fulfillment-operation"
+      ],
+      "alignment_rationale": "Three observations span market leasing behavior, national capacity-matching policy and a local shared-fulfillment operation. They suggest a coherent orchestration mechanism but remain below the four-observation promotion-review gate and do not prove callable idle capacity."
+    }
+  ]
+}

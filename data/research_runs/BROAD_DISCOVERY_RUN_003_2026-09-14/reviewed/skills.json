@@ -1,0 +1,133 @@
+{
+  "schema_version": "reviewed-research-observations.v1",
+  "semantics": "REVIEWED_SOURCE_CAPTURE_NOT_FULL_PAGE",
+  "run_id": "BROAD_DISCOVERY_RUN_003_2026-09-14",
+  "retrieved_at": "2026-09-14T20:30:00+08:00",
+  "records": [
+    {
+      "observation_id": "bd003-obs-cn-work-matching-202606",
+      "research_evidence_id": "cn-flex-match-003",
+      "source_id": "MOHRSS_MATCHING_202606",
+      "source_record_id": "human-resource-supply-demand-matching-2026-06-15",
+      "source_tier": "NATIONAL_OFFICIAL_POLICY_ANALYSIS",
+      "source_origin_geography": "CN",
+      "relevance_geographies": ["CN"],
+      "observed_at": "2026-06-15T00:00:00+08:00",
+      "published_at": "2026-06-15T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; OFFICIAL_ARTICLE_MATCHING_MECHANISM_FIELDS_ONLY",
+      "evidence_excerpt": "The national employment authority describes more visible skill/job mismatch under AI and changing employment forms, and calls for demand forecasting, market HR services and integrated job-demand + training + evaluation + employment service mechanisms.",
+      "captured_payload": {
+        "mismatch_state": "MORE_PROMINENT",
+        "mechanisms": ["DEMAND_FORECASTING", "MARKET_HR_SERVICES", "JOB_DEMAND_SKILL_TRAINING_EVALUATION_EMPLOYMENT_SERVICE"]
+      },
+      "actor_ids": ["actor:cn-human-resource-policy-system"],
+      "unknown_fields": ["POLICY_ACTION_NE_MATCHING_OUTCOME", "EMPLOYMENT_MATCHING_NE_PROJECT_TASK_MARKET"],
+      "claims": [
+        {
+          "claim_id": "national-matching-action",
+          "primitive": "BEHAVIOR",
+          "concept": "HUMAN_RESOURCE_MATCHING_SYSTEM_ACTION",
+          "epistemic_status": "OBSERVED",
+          "geography": "CN",
+          "value": {"mechanism_count": 3, "closed_loop_language": true},
+          "actor_id": "actor:cn-human-resource-policy-system"
+        }
+      ]
+    },
+    {
+      "observation_id": "bd003-obs-js-project-training-202605",
+      "research_evidence_id": "js-project-training-003",
+      "source_id": "JIANGSU_SKILLS_DIRECTORY_202605",
+      "source_record_id": "jiangsu-skill-training-directory-2026",
+      "source_tier": "PROVINCIAL_OFFICIAL_POLICY",
+      "source_origin_geography": "CN-JS",
+      "relevance_geographies": ["CN-JS"],
+      "observed_at": "2026-05-29T00:00:00+08:00",
+      "published_at": "2026-05-29T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; TRAINING_DIRECTORY_AND_EMPLOYMENT_LINKAGE_CLAUSES_ONLY",
+      "evidence_excerpt": "Jiangsu allows local training directories to prioritize occupations urgently needed by local industries and gives additional support to project-based training classes when stable employment within six months reaches at least half of trainees.",
+      "captured_payload": {
+        "local_directory_adaptation": true,
+        "priority_for_urgent_occupations": true,
+        "stable_employment_threshold_pct": 50,
+        "post_training_window_months": 6,
+        "provider_support_uplift_max_pct": 20
+      },
+      "actor_ids": ["actor:jiangsu-skill-training-system"],
+      "unknown_fields": ["SUBSIDIZED_TRAINING_NE_MARKET_WILLINGNESS_TO_PAY", "STABLE_EMPLOYMENT_THRESHOLD_NE_CAUSAL_TRAINING_EFFECT"],
+      "claims": [
+        {
+          "claim_id": "project-training-employment-linkage",
+          "primitive": "BEHAVIOR",
+          "concept": "PROJECT_TRAINING_EMPLOYMENT_LINKAGE_ACTION",
+          "epistemic_status": "OBSERVED",
+          "geography": "CN-JS",
+          "value": {"employment_linked_provider_support": true, "threshold_pct": 50},
+          "actor_id": "actor:jiangsu-skill-training-system"
+        }
+      ]
+    },
+    {
+      "observation_id": "bd003-obs-xz-skills-202606",
+      "research_evidence_id": "xz-skills-003",
+      "source_id": "XUZHOU_SKILLS_DIRECTORY_202606",
+      "source_record_id": "xuzhou-subsidized-skill-training-2026",
+      "source_tier": "LOCAL_OFFICIAL_MEDIA_REPORT",
+      "source_origin_geography": "CN-JS-XUZHOU",
+      "relevance_geographies": ["CN-JS-XUZHOU"],
+      "observed_at": "2026-06-26T00:00:00+08:00",
+      "published_at": "2026-06-26T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; LOCAL_TRAINING_DIRECTORY_AND_EMPLOYMENT_INCENTIVE_FIELDS_ONLY",
+      "evidence_excerpt": "Xuzhou's 2026 subsidized training directory contains 525 skill-level projects and 74 special-capability projects, prioritizes 174 shortage occupations, and adds support when a class reaches more than 50% stable employment.",
+      "captured_payload": {
+        "skill_level_projects": 525,
+        "special_capability_projects": 74,
+        "shortage_occupations": 174,
+        "stable_employment_incentive_threshold_pct": 50
+      },
+      "actor_ids": ["actor:xuzhou-skill-training-system"],
+      "unknown_fields": ["TRAINING_CATALOG_NE_REALIZED_JOB_MATCH", "SUBSIDY_NE_EMPLOYER_PAYMENT"],
+      "claims": [
+        {
+          "claim_id": "local-skill-employment-linkage",
+          "primitive": "BEHAVIOR",
+          "concept": "LOCAL_SKILL_TRAINING_EMPLOYMENT_LINKAGE_ACTION",
+          "epistemic_status": "REPORTED",
+          "geography": "CN-JS-XUZHOU",
+          "value": {"project_count": 599, "shortage_occupation_count": 174, "employment_linked_incentive": true},
+          "actor_id": "actor:xuzhou-skill-training-system"
+        }
+      ]
+    },
+    {
+      "observation_id": "bd003-obs-cn-precision-employment-202609",
+      "research_evidence_id": "src-employment-003",
+      "source_id": "MOHRSS_EMPLOYMENT_202609",
+      "source_record_id": "focused-employment-groups-2026-09-08",
+      "source_tier": "NATIONAL_OFFICIAL_EMPLOYMENT_REPORT",
+      "source_origin_geography": "CN",
+      "relevance_geographies": ["CN"],
+      "observed_at": "2026-09-08T00:00:00+08:00",
+      "published_at": "2026-09-08T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; PRECISION_TRAINING_AND_MATCHING_EXAMPLES_ONLY",
+      "evidence_excerpt": "The employment authority reports that local public employment services are moving from coarse recruitment matching toward order-based training, list-based placement and precision matching, including use of qualified market HR service providers.",
+      "captured_payload": {
+        "reported_service_modes": ["ORDER_BASED_TRAINING", "LIST_BASED_PLACEMENT", "PRECISION_MATCHING"],
+        "market_hr_provider_participation": true
+      },
+      "actor_ids": ["actor:cn-public-employment-service-network"],
+      "unknown_fields": ["REPORTED_LOCAL_PRACTICE_NE_NATIONAL_PREVALENCE", "PLACEMENT_ACTIVITY_NE_SETTLED_PROJECT_WORK"],
+      "claims": [
+        {
+          "claim_id": "precision-training-job-matching",
+          "primitive": "BEHAVIOR",
+          "concept": "PRECISION_TRAINING_JOB_MATCHING_ACTION",
+          "epistemic_status": "REPORTED",
+          "geography": "CN",
+          "value": {"order_based_training": true, "precision_matching": true, "market_provider_involvement": true},
+          "actor_id": "actor:cn-public-employment-service-network"
+        }
+      ]
+    }
+  ]
+}

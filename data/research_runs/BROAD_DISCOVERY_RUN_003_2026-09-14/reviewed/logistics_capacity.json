@@ -1,0 +1,108 @@
+{
+  "schema_version": "reviewed-research-observations.v1",
+  "semantics": "REVIEWED_SOURCE_CAPTURE_NOT_FULL_PAGE",
+  "run_id": "BROAD_DISCOVERY_RUN_003_2026-09-14",
+  "retrieved_at": "2026-09-14T20:30:00+08:00",
+  "records": [
+    {
+      "observation_id": "bd003-obs-cn-logistics-q2-202606",
+      "research_evidence_id": "cn-logistics-q2-003",
+      "source_id": "CBRE_CHINA_LOGISTICS_Q2_2026",
+      "source_record_id": "china-logistics-market-q2-2026",
+      "source_tier": "COMMERCIAL_MARKET_RESEARCH",
+      "source_origin_geography": "CN",
+      "relevance_geographies": ["CN"],
+      "observed_at": "2026-06-30T23:59:59+08:00",
+      "published_at": "2026-07-30T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; Q2_WAREHOUSE_ABSORPTION_THIRD_PARTY_LOGISTICS_AND_VACANCY_FIELDS_ONLY",
+      "evidence_excerpt": "CBRE reports Q2 2026 China warehouse/logistics net absorption of 2.73 million square meters, up 119.6% quarter-on-quarter; third-party logistics represented 54% of new leasing and average vacancy fell to 18.5% while rents declined.",
+      "captured_payload": {
+        "net_absorption_sqm": 2730000,
+        "net_absorption_qoq_pct": 119.6,
+        "third_party_logistics_new_lease_share_pct": 54,
+        "average_vacancy_pct": 18.5,
+        "vacancy_change_pp": -0.9,
+        "rent_qoq_pct": -2.5
+      },
+      "actor_ids": ["actor:cn-warehouse-logistics-market"],
+      "unknown_fields": ["MARKET_VACANCY_NE_CALLABLE_SPARE_CAPACITY", "ABSORPTION_RECOVERY_NE_PERMANENT_TIGHTENING", "THIRD_PARTY_LEASING_NE_SHARED_ORCHESTRATION_PROOF"],
+      "claims": [
+        {
+          "claim_id": "third-party-logistics-leasing-behavior",
+          "primitive": "BEHAVIOR",
+          "concept": "THIRD_PARTY_LOGISTICS_LEASING_BEHAVIOR",
+          "epistemic_status": "REPORTED",
+          "geography": "CN",
+          "value": {"new_lease_share_pct": 54, "net_absorption_qoq_pct": 119.6},
+          "actor_id": "actor:cn-warehouse-logistics-market"
+        }
+      ]
+    },
+    {
+      "observation_id": "bd003-obs-cn-digital-supply-chain-202503",
+      "research_evidence_id": "js-supply-chain-003",
+      "source_id": "MOFCOM_DIGITAL_SUPPLY_CHAIN_202503",
+      "source_record_id": "digital-supply-chain-action-plan-2025-03-24",
+      "source_tier": "NATIONAL_OFFICIAL_POLICY_REPUBLISHED_BY_PROVINCIAL_TAX_AUTHORITY",
+      "source_origin_geography": "CN",
+      "relevance_geographies": ["CN-JS"],
+      "observed_at": "2025-03-24T00:00:00+08:00",
+      "published_at": "2025-03-24T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; LOGISTICS_MATCHING_SHARED_PLATFORM_AND_INVENTORY_COORDINATION_CLAUSES_ONLY",
+      "evidence_excerpt": "The national digital supply-chain action plan promotes unified warehousing/distribution, inventory coordination, intelligent dispatch and network freight platforms that precisely match capacity with logistics demand to reduce empty running, idle space and empty loads.",
+      "captured_payload": {
+        "unified_warehousing_distribution": true,
+        "inventory_coordination": true,
+        "intelligent_dispatch": true,
+        "capacity_demand_matching": true,
+        "targeted_idle_dimensions": ["EMPTY_RUNNING", "IDLE_SPACE", "EMPTY_LOAD"]
+      },
+      "actor_ids": ["actor:cn-digital-supply-chain-policy-system"],
+      "unknown_fields": ["POLICY_ACTION_NE_REALIZED_IDLE_REDUCTION", "PLATFORM_MATCHING_NE_PROVIDER_AVAILABILITY"],
+      "claims": [
+        {
+          "claim_id": "digital-logistics-capacity-matching-action",
+          "primitive": "BEHAVIOR",
+          "concept": "DIGITAL_LOGISTICS_CAPACITY_MATCHING_ACTION",
+          "epistemic_status": "OBSERVED",
+          "geography": "CN-JS",
+          "value": {"capacity_demand_matching": true, "shared_or_unified_distribution": true},
+          "actor_id": "actor:cn-digital-supply-chain-policy-system"
+        }
+      ]
+    },
+    {
+      "observation_id": "bd003-obs-xz-shared-cloud-warehouse-202607",
+      "research_evidence_id": "xz-cloudwarehouse-003",
+      "source_id": "XUZHOU_SHARED_CLOUD_WAREHOUSE_202607",
+      "source_record_id": "xuzhou-shuangcheng-cloud-warehouse-2026-07-15",
+      "source_tier": "LOCAL_OFFICIAL_MEDIA_REPORTED_OPERATION",
+      "source_origin_geography": "CN-JS-XUZHOU",
+      "relevance_geographies": ["CN-JS-XUZHOU"],
+      "observed_at": "2026-07-15T00:00:00+08:00",
+      "published_at": "2026-07-15T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; CLOUD_WAREHOUSE_OPERATION_AND_REPORTED_USAGE_FIELDS_ONLY",
+      "evidence_excerpt": "A Xuzhou report says a Jiawang shared cloud warehouse launched in April 2026 and in under three months aggregated more than 30 companies and nearly 300,000 shipments, using WMS integrated with OMS to centralize fulfillment for the local cat-litter industry.",
+      "captured_payload": {
+        "launch_month": "2026-04",
+        "tenant_company_lower_bound": 30,
+        "cumulative_shipments_lower_bound": 300000,
+        "wms_oms_integration": true,
+        "shared_fulfillment": true
+      },
+      "actor_ids": ["actor:xuzhou-jiawang-shared-cloud-warehouse"],
+      "unknown_fields": ["TENANT_COUNT_NE_PROFITABILITY", "SHIPMENT_VOLUME_NE_SPARE_CAPACITY", "LOCAL_CASE_NE_GENERAL_MARKET_STRUCTURE"],
+      "claims": [
+        {
+          "claim_id": "shared-fulfillment-operation",
+          "primitive": "BEHAVIOR",
+          "concept": "LOCAL_SHARED_FULFILLMENT_OPERATION",
+          "epistemic_status": "REPORTED",
+          "geography": "CN-JS-XUZHOU",
+          "value": {"tenant_company_lower_bound": 30, "shipment_lower_bound": 300000, "wms_oms_integration": true},
+          "actor_id": "actor:xuzhou-jiawang-shared-cloud-warehouse"
+        }
+      ]
+    }
+  ]
+}
