@@ -3,55 +3,96 @@ import unittest
 from src.structure_validation_planning import (
     build_structure_field_packets,
     build_structure_validation_queue,
+    normalize_structure_validation_profile,
 )
 
 
 class StructureValidationPlanningTests(unittest.TestCase):
-    def _artifact(self):
+    def _artifact(self, *, concept="GENERIC_RECURRING_STRUCTURE"):
         return {
-            "candidate_id": "LV-STRUCTURE-IDLE-ASSET-REPURPOSING-001",
-            "candidate_concept": "IDLE_ASSET_SCENARIO_REPURPOSING",
+            "candidate_id": "STRUCTURE-GENERIC-001",
+            "candidate_concept": concept,
             "commercial_structure_state": "STRUCTURE_VALIDATION_READY",
             "missing_dimensions": ["COMPOUNDING"],
             "business_promotion": "NOT_PROMOTED",
         }
 
-    def test_ready_structure_yields_three_bounded_tasks(self):
+    def test_ready_structure_yields_three_bounded_domain_neutral_tasks(self):
         queue = build_structure_validation_queue(self._artifact())
         self.assertEqual(queue["task_count"], 3)
         self.assertEqual(
             {task["target_gate"] for task in queue["tasks"]},
             {"LOCAL_CASE_PANEL", "LOCAL_PAID_MANDATE", "COMPOUNDING"},
         )
+        panel = next(task for task in queue["tasks"] if task["target_gate"] == "LOCAL_CASE_PANEL")
+        required = panel["capture_contract"]["required_fields"]
+        self.assertIn("focal_actor", required)
+        self.assertIn("recurring_event_type", required)
+        self.assertIn("transformation_or_routing_steps", required)
+        self.assertNotIn("asset_identity", required)
+        self.assertNotIn("underuse_evidence", required)
         compounding = next(task for task in queue["tasks"] if task["target_gate"] == "COMPOUNDING")
         self.assertEqual(compounding["task_role"], "CORE_MISSING_DIMENSION")
         self.assertEqual(compounding["capture_contract"]["min_later_cases"], 2)
-        self.assertIn("search_minutes", compounding["capture_contract"]["predeclared_metrics"])
+        self.assertIn("reused_routing_refs", compounding["capture_contract"]["required_reuse_fields"])
+        self.assertIn("cycle_days", compounding["capture_contract"]["predeclared_metrics"])
         self.assertEqual(queue["business_promotion"], "NOT_PROMOTED")
 
-    def test_local_case_panel_requires_multiple_owners_and_current_cases(self):
-        queue = build_structure_validation_queue(self._artifact())
-        panel = next(task for task in queue["tasks"] if task["target_gate"] == "LOCAL_CASE_PANEL")
-        self.assertGreaterEqual(panel["capture_contract"]["target_case_count_min"], 5)
-        self.assertGreaterEqual(panel["capture_contract"]["min_independent_owners"], 3)
-        self.assertIn("owner_actor", panel["capture_contract"]["required_fields"])
-        self.assertIn("underuse_evidence", panel["capture_contract"]["required_fields"])
+    def test_reviewed_profile_can_customize_case_and_metrics_without_changing_truth(self):
+        profile = {
+            "profile_id": "TEST_PROCESS_PROFILE",
+            "candidate_concept": "GENERIC_RECURRING_STRUCTURE",
+            "geography_scope": ["CN-JS-XUZHOU"],
+            "case_unit": "DEIDENTIFIED_PROCESS_EPISODE",
+            "local_case_required_fields": ["case_id", "focal_actor", "cycle_days", "source_refs"],
+            "local_paid_required_fields": ["mandate_id", "payer_actor", "settlement_state", "source_refs"],
+            "compounding_reuse_fields": ["reused_rule_refs", "reused_prior_outcome_refs"],
+            "compounding_metrics": ["cycle_days", "acceptance_state"],
+            "privacy_constraints": ["NO_PERSONAL_DATA"],
+            "prohibited_fields": ["person_name"],
+        }
+        queue = build_structure_validation_queue(self._artifact(), profile=profile)
+        self.assertEqual(queue["validation_profile"]["profile_id"], "TEST_PROCESS_PROFILE")
+        self.assertEqual(queue["validation_profile"]["case_unit"], "DEIDENTIFIED_PROCESS_EPISODE")
+        self.assertEqual(queue["validation_profile"]["privacy_constraints"], ["NO_PERSONAL_DATA"])
+        self.assertEqual(queue["business_promotion"], "NOT_PROMOTED")
+        packets = build_structure_field_packets(queue)
+        self.assertEqual(packets["validation_profile_id"], "TEST_PROCESS_PROFILE")
+        self.assertTrue(all("NO_PERSONAL_DATA" in packet["privacy_constraints"] for packet in packets["packets"]))
 
-    def test_paid_mandate_rejects_budget_or_award_as_payment(self):
+    def test_profile_concept_mismatch_and_prohibited_required_overlap_fail_closed(self):
+        with self.assertRaisesRegex(ValueError, "candidate_concept"):
+            normalize_structure_validation_profile(
+                {"profile_id": "x", "candidate_concept": "OTHER"},
+                candidate_concept="GENERIC_RECURRING_STRUCTURE",
+            )
+        with self.assertRaisesRegex(ValueError, "prohibited fields"):
+            normalize_structure_validation_profile(
+                {
+                    "profile_id": "x",
+                    "local_case_required_fields": ["case_id", "secret_field"],
+                    "prohibited_fields": ["secret_field"],
+                },
+                candidate_concept="GENERIC_RECURRING_STRUCTURE",
+            )
+
+    def test_paid_mandate_requires_settlement_payment_and_rejects_contract_as_substitute(self):
         queue = build_structure_validation_queue(self._artifact())
         task = next(task for task in queue["tasks"] if task["target_gate"] == "LOCAL_PAID_MANDATE")
-        self.assertIn("settlement/payment proof", task["fail_condition"])
-        self.assertIn("tender budget/award != payment", task["forbidden_inference"])
+        self.assertIn("signed contract without settlement/payment", task["fail_condition"])
+        self.assertIn("signed contract != settlement", task["forbidden_inference"])
         self.assertEqual(task["state_effect"], "LOCAL_CORROBORATION_ONLY_NOT_GLOBAL_GATE_PROMOTION")
 
-    def test_compounding_requires_reused_artifacts_and_outcome_metrics(self):
+    def test_compounding_requires_reused_artifacts_time_order_and_outcome_metrics(self):
         queue = build_structure_validation_queue(self._artifact())
         task = next(task for task in queue["tasks"] if task["target_gate"] == "COMPOUNDING")
         capture = task["capture_contract"]
         self.assertIn("reused_template_refs", capture["required_reuse_fields"])
+        self.assertIn("reused_prior_outcome_refs", capture["required_reuse_fields"])
         self.assertIn("cycle_days", capture["predeclared_metrics"])
         self.assertIn("acceptance_state", capture["predeclared_metrics"])
-        self.assertIn("database size", task["forbidden_inference"])
+        self.assertIn("one-time efficiency gain", task["forbidden_inference"])
+        self.assertIn("TIME_ORDERED", capture["comparison_policy"])
 
     def test_field_packets_remain_execution_plans_not_evidence(self):
         queue = build_structure_validation_queue(self._artifact())
