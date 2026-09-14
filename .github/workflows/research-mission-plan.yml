@@ -1,0 +1,79 @@
+name: research-mission-plan
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/research_control_plane.py"
+      - "scripts/build_research_mission.py"
+      - "scripts/validate_research_mission.py"
+      - "data/research_missions/**"
+      - ".github/workflows/research-mission-plan.yml"
+      - "docs/INTERNET_RESEARCH_CONTROL_PLANE.md"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: research-mission-plan
+  cancel-in-progress: false
+
+jobs:
+  build-research-mission:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Build current China-first internet research mission
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .local
+          python scripts/build_research_mission.py \
+            --mission data/research_missions/china_primary_broad_discovery.json \
+            --as-of-date "$(date -u +%F)" \
+            --plan-output .local/research_mission_plan.json \
+            --coverage-output .local/research_coverage.json
+
+      - name: Validate planning-only truth boundaries
+        run: |
+          python scripts/validate_research_mission.py \
+            --plan .local/research_mission_plan.json \
+            --coverage .local/research_coverage.json
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Internet research control plane"
+            echo
+            jq -r '"- mission: `\(.mission.mission_id)`"' .local/research_mission_plan.json
+            jq -r '"- as of: `\(.mission.as_of_date)`"' .local/research_mission_plan.json
+            jq -r '"- bounded research queries: `\(.query_count)`"' .local/research_mission_plan.json
+            jq -r '"- lane budget: `\(.lane_query_budget)`"' .local/research_mission_plan.json
+            jq -r '"- current coverage state: `\(.state)`"' .local/research_coverage.json
+            jq -r '"- broad discovery authorized: `\(.broad_discovery_use_authorized)`"' .local/research_coverage.json
+            echo
+            echo "This workflow builds a governed research plan only. It does not claim to have searched the internet. A compliant Web/browser/API/manual executor must return provenance-bearing evidence before coverage can advance beyond CALIBRATION_ONLY."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload research mission artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-mission-plan-state
+          path: |
+            .local/research_mission_plan.json
+            .local/research_coverage.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
