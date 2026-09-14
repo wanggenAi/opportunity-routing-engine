@@ -56,6 +56,15 @@ class PatternSustainabilityTests(unittest.TestCase):
         self.assertIn("ESTABLISH_REPEAT_MONETIZATION", task_types)
         self.assertIn("ESTABLISH_COMPOUNDING_MECHANISM", task_types)
 
+    def test_calibration_assessment_can_suppress_operator_tasks(self):
+        assessment = assess_pattern_sustainability(
+            self._pattern(),
+            allow_validation_tasks=False,
+        )
+        self.assertEqual(assessment.validation_tasks, ())
+        self.assertEqual(assessment.core_business_state, "PATTERN_ONLY")
+        self.assertEqual(assessment.axes["STANDARDIZABILITY"].state, "UNKNOWN")
+
     def test_unbound_pattern_cannot_enter_sustainability_gate(self):
         with self.assertRaisesRegex(ValueError, "only OBSERVED_PATTERN"):
             assess_pattern_sustainability(self._pattern(state="UNBOUND"))
@@ -72,9 +81,10 @@ class PatternSustainabilityTests(unittest.TestCase):
         self.assertEqual(assessment.axes["RECURRENCE"].state, "EVIDENCED")
         self.assertEqual(assessment.axes["STANDARDIZABILITY"].state, "UNKNOWN")
 
-    def test_summary_assesses_only_observed_patterns_and_creates_zero_core_candidates(self):
+    def test_calibration_summary_assesses_patterns_but_creates_no_execution_backlog(self):
         source = {
             "business_promotion": "NOT_PROMOTED",
+            "research_scope_state": "CALIBRATION_ONLY",
             "source_observation_run_id": 99,
             "observed_pattern_count": 1,
             "patterns": [
@@ -89,10 +99,28 @@ class PatternSustainabilityTests(unittest.TestCase):
         result = summarize_pattern_sustainability(source, source_pattern_run_id=123)
         self.assertEqual(result["source_pattern_run_id"], 123)
         self.assertEqual(result["source_observation_run_id"], 99)
+        self.assertEqual(result["source_research_scope_state"], "CALIBRATION_ONLY")
+        self.assertFalse(result["validation_execution_authorized"])
         self.assertEqual(result["assessment_count"], 1)
+        self.assertEqual(result["validation_task_count"], 0)
         self.assertEqual(result["core_business_candidate_count"], 0)
         self.assertEqual(result["business_promotion"], "NOT_PROMOTED")
         self.assertEqual(result["assessments"][0]["pattern_id"], "pattern-1")
+        self.assertEqual(result["assessments"][0]["validation_tasks"], [])
+
+    def test_broad_research_scope_can_create_validation_tasks_but_not_core_candidate(self):
+        source = {
+            "business_promotion": "NOT_PROMOTED",
+            "research_scope_state": "BROAD_DISCOVERY_READY",
+            "source_observation_run_id": 99,
+            "observed_pattern_count": 1,
+            "patterns": [self._pattern()],
+        }
+        result = summarize_pattern_sustainability(source)
+        self.assertTrue(result["validation_execution_authorized"])
+        self.assertEqual(result["validation_task_count"], 5)
+        self.assertEqual(result["core_business_candidate_count"], 0)
+        self.assertEqual(result["business_promotion"], "NOT_PROMOTED")
 
 
 if __name__ == "__main__":
