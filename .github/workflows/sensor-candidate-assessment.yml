@@ -1,0 +1,59 @@
+name: sensor-candidate-assessment
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/semantic_kernel.py'
+      - 'src/sensor_registry.py'
+      - 'data/sensor_candidates.json'
+      - 'scripts/assess_sensor_candidates.py'
+      - '.github/workflows/sensor-candidate-assessment.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  assess:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Assess candidates
+        run: |
+          python scripts/assess_sensor_candidates.py \
+            --candidates data/sensor_candidates.json \
+            --output artifacts/sensor-candidate-assessment.json
+
+      - name: Assert no silent activation
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          payload = json.loads(Path('artifacts/sensor-candidate-assessment.json').read_text())
+          assert payload['kind'] == 'DYNAMIC_SENSOR_CANDIDATE_ASSESSMENT'
+          for item in payload['assessments']:
+              if item['automation_ready']:
+                  assert item['qualified']
+                  assert not item['activation_blockers']
+          print({
+              'candidate_count': payload['candidate_count'],
+              'qualified_count': payload['qualified_count'],
+              'automation_ready_count': payload['automation_ready_count'],
+          })
+          PY
+
+      - name: Upload assessment artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sensor-candidate-assessment-${{ github.run_number }}
+          path: artifacts/sensor-candidate-assessment.json
+          if-no-files-found: error
