@@ -1,0 +1,148 @@
+{
+  "run_id": "COMMERCIAL_STRUCTURE_PROBE_003_2026-09-14",
+  "candidate_concept": "IDLE_ASSET_SCENARIO_REPURPOSING",
+  "evidence": [
+    {
+      "evidence_id": "std-pudong-entrusted-rental",
+      "dimension": "STANDARDIZABILITY",
+      "source_id": "PUDONG_GOV_2026_ASSET_RULES",
+      "source_url": "https://www.pudong.gov.cn/zwgk/czxx-htzgyzc/2026/119/354828.html",
+      "claim": "Entrusted operators may handle asset rental management including maintenance, rent/property-fee collection and invoice issuance under a written agreement.",
+      "geography": "CN-SH",
+      "observed_at": "2026-09-14T00:00:00+08:00",
+      "actor_roles": ["RESOURCE_OWNER", "ENTRUSTED_OPERATOR", "TENANT"],
+      "event_types": ["LEASE_MANAGEMENT"],
+      "direct_process_specification": true
+    },
+    {
+      "evidence_id": "std-shenzhen-rental-platform",
+      "dimension": "STANDARDIZABILITY",
+      "source_id": "SHENZHEN_SASAC_RENTAL_RULES_2026",
+      "source_url": "https://gzw.sz.gov.cn/ztzl/gzgqztzl/zczl/zdwj/content/post_4736253.html",
+      "claim": "Shenzhen state-owned enterprises use a standardized rental platform with single-project or long-term entrustment contracts and structured asset data intake.",
+      "geography": "CN-GD-SZ",
+      "observed_at": "2026-09-14T00:00:00+08:00",
+      "actor_roles": ["RESOURCE_OWNER", "TRANSACTION_PLATFORM", "TENANT"],
+      "event_types": ["PUBLIC_LEASING"],
+      "direct_process_specification": true
+    },
+    {
+      "evidence_id": "std-xuanwu-digital-platform",
+      "dimension": "STANDARDIZABILITY",
+      "source_id": "NANJING_XUANWU_ASSET_PLATFORM_2026",
+      "source_url": "https://www.xwzf.gov.cn/xwzx/bmdt/202603/t20260302_5798766.html",
+      "claim": "A full-scenario digital asset platform standardizes registration, leasing, disposal, contract and risk monitoring for more than 700 property and lease records.",
+      "geography": "CN-JS-NJ",
+      "observed_at": "2026-09-14T00:00:00+08:00",
+      "actor_roles": ["RESOURCE_OWNER", "ASSET_MANAGER", "TENANT"],
+      "event_types": ["ASSET_REGISTRATION", "LEASE_MANAGEMENT", "DISPOSAL"],
+      "direct_process_specification": true
+    },
+    {
+      "evidence_id": "actor-liuan-outsourced-operation",
+      "dimension": "COMPLEMENTARY_ACTOR_STRUCTURE",
+      "source_id": "LUAN_GGZY_ASSET_OPERATION_TENDER_2026",
+      "source_url": "https://ggzy.luan.gov.cn/jyxx/001005/001005001/20260209/8928a565-7d0e-444b-8094-7bcbfbe145e7.html",
+      "claim": "Li'an state-owned asset company procures external asset management and operating services, establishing a resource-owner to professional-operator relationship.",
+      "geography": "CN-AH-LA",
+      "observed_at": "2026-09-14T00:00:00+08:00",
+      "actor_roles": ["RESOURCE_OWNER", "PROFESSIONAL_OPERATOR", "ASSET_USER"],
+      "event_types": ["OUTSOURCED_ASSET_OPERATION"]
+    },
+    {
+      "evidence_id": "actor-shenzhen-platform",
+      "dimension": "COMPLEMENTARY_ACTOR_STRUCTURE",
+      "source_id": "SHENZHEN_SASAC_RENTAL_RULES_2026",
+      "source_url": "https://gzw.sz.gov.cn/ztzl/gzgqztzl/zczl/zdwj/content/post_4736253.html",
+      "claim": "The standardized rental process explicitly separates the state-owned lessor, exchange/platform service provider and market lessee roles.",
+      "geography": "CN-GD-SZ",
+      "observed_at": "2026-09-14T00:00:00+08:00",
+      "actor_roles": ["RESOURCE_OWNER", "TRANSACTION_PLATFORM", "TENANT"],
+      "event_types": ["PUBLIC_LEASING"]
+    },
+    {
+      "evidence_id": "regen-mengzi-recurring-inventory",
+      "dimension": "REGENERATING_EVENT_FLOW",
+      "source_id": "MENGZI_GOV_ASSET_PLAN_2026",
+      "source_url": "https://www.hhmz.gov.cn/info/5561/649891.htm",
+      "claim": "Mengzi plans at least two idle-asset inspections each year and continuously updates the activatable-asset list, creating recurring discovery events rather than one-off projects.",
+      "geography": "CN-YN-MZ",
+      "observed_at": "2026-09-14T00:00:00+08:00",
+      "actor_roles": ["RESOURCE_OWNER", "ASSET_COORDINATION_UNIT"],
+      "event_types": ["PERIODIC_IDLE_ASSET_REVIEW", "ASSET_LIST_REFRESH"]
+    },
+    {
+      "evidence_id": "regen-xuanwu-operating-events",
+      "dimension": "REGENERATING_EVENT_FLOW",
+      "source_id": "NANJING_XUANWU_ASSET_PLATFORM_2026",
+      "source_url": "https://www.xwzf.gov.cn/xwzx/bmdt/202603/t20260302_5798766.html",
+      "claim": "The asset platform continuously monitors vacancy, rent collection and contract expiry, which naturally emit repeated operating events.",
+      "geography": "CN-JS-NJ",
+      "observed_at": "2026-09-14T00:00:00+08:00",
+      "actor_roles": ["RESOURCE_OWNER", "ASSET_MANAGER", "TENANT"],
+      "event_types": ["VACANCY_EVENT", "RENT_COLLECTION_EVENT", "CONTRACT_EXPIRY_EVENT"]
+    },
+    {
+      "evidence_id": "regen-haishu-rent-alerts",
+      "dimension": "REGENERATING_EVENT_FLOW",
+      "source_id": "HAISHU_AUDIT_ASSET_RENTAL_2026",
+      "source_url": "https://www.haishu.gov.cn/col/col1229825333/art/2026/art_5556b908c0252148e6e6eb70743e3c73.html",
+      "claim": "A state-owned enterprise implemented automated reminders for leases nearing expiry and automatic collection workflows for overdue rent, proving recurring lifecycle events.",
+      "geography": "CN-ZJ-NB",
+      "observed_at": "2026-09-14T00:00:00+08:00",
+      "actor_roles": ["RESOURCE_OWNER", "ASSET_MANAGER", "TENANT"],
+      "event_types": ["CONTRACT_EXPIRY_EVENT", "OVERDUE_RENT_EVENT"]
+    },
+    {
+      "evidence_id": "money-liuan-annual-service",
+      "dimension": "REPEAT_MONETIZATION",
+      "source_id": "LUAN_GGZY_ASSET_OPERATION_TENDER_2026",
+      "source_url": "https://ggzy.luan.gov.cn/jyxx/001005/001005001/20260209/8928a565-7d0e-444b-8094-7bcbfbe145e7.html",
+      "claim": "Li'an state-owned asset company tendered asset management and operation services with an annual budget of RMB 2,824,616.67, including performance-linked payment.",
+      "geography": "CN-AH-LA",
+      "observed_at": "2026-09-14T00:00:00+08:00",
+      "actor_roles": ["RESOURCE_OWNER", "PROFESSIONAL_OPERATOR"],
+      "event_types": ["ANNUAL_SERVICE_CONTRACT"],
+      "payment_basis": "ANNUAL_SERVICE_FEE_WITH_PERFORMANCE_COMPONENT",
+      "economic_exchange_observed": true
+    },
+    {
+      "evidence_id": "money-hunan-framework-fee",
+      "dimension": "REPEAT_MONETIZATION",
+      "source_id": "HUNAN_PUBLIC_ASSET_AUCTION_FRAMEWORK_2026",
+      "source_url": "https://jgswj.hunan.gov.cn/jgswj/xxgk/tzgg/202607/t20260710_34024073.html",
+      "claim": "A framework procurement for recurring asset activation auction services prices rental services up to 3% of first-year rent and sale services by transaction-value tiers, with quantity determined by actual demand.",
+      "geography": "CN-HN",
+      "observed_at": "2026-09-14T00:00:00+08:00",
+      "actor_roles": ["RESOURCE_OWNER", "AUCTION_SERVICE_PROVIDER", "MARKET_COUNTERPARTY"],
+      "event_types": ["AS_NEEDED_AUCTION_SERVICE"],
+      "payment_basis": "PERCENT_OF_RENT_OR_TRANSACTION_VALUE",
+      "economic_exchange_observed": true
+    },
+    {
+      "evidence_id": "money-nanjing-market-transactions",
+      "dimension": "REPEAT_MONETIZATION",
+      "source_id": "NANJING_GGZY_ASSET_TRANSACTIONS_H1_2026",
+      "source_url": "https://njggzy.nanjing.gov.cn/njweb/dt/20260731/89022f2c-191c-48d0-bd60-e6dfb0202ffe.html",
+      "claim": "Nanjing's public resource platform completed 567 state-owned asset transactions totaling RMB 3.17 billion in the first half of 2026, including leases, operating rights and disposals.",
+      "geography": "CN-JS-NJ",
+      "observed_at": "2026-09-14T00:00:00+08:00",
+      "actor_roles": ["RESOURCE_OWNER", "TRANSACTION_PLATFORM", "MARKET_COUNTERPARTY"],
+      "event_types": ["LEASE_TRANSACTION", "OPERATING_RIGHT_TRANSACTION", "ASSET_DISPOSAL"],
+      "payment_basis": "EXECUTED_ASSET_TRANSACTION_VALUE",
+      "economic_exchange_observed": true
+    },
+    {
+      "evidence_id": "compound-qianjiang-platform-claim",
+      "dimension": "COMPOUNDING",
+      "source_id": "QIANJIANG_ASSET_DIGITAL_PLATFORM_2026",
+      "source_url": "https://www.qianjiang.gov.cn/bmjd/202606/t20260630_15785987.html",
+      "claim": "The platform links asset lifecycle, contracts, rent, tax and finance data and reports improved leasing efficiency and revenue, but does not provide longitudinal causal measurements proving accumulated data improves later executions.",
+      "geography": "CN-CQ-QJ",
+      "observed_at": "2026-09-14T00:00:00+08:00",
+      "actor_roles": ["RESOURCE_OWNER", "ASSET_MANAGER", "TENANT"],
+      "event_types": ["DATA_ACCUMULATION"],
+      "outcome_linked_improvement": false
+    }
+  ]
+}
