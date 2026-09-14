@@ -9,6 +9,8 @@ from src.structural_commercialization import assess_structural_commercialization
 
 
 RUN_DIR = Path("data/research_runs/ELDERCARE_STRUCTURE_PROBE_005_2026-09-14")
+BROAD_RUN_DIR = Path("data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14")
+MISSION = Path("data/research_missions/china_primary_broad_discovery.json")
 
 
 class EldercareStructureProbe005Tests(unittest.TestCase):
@@ -87,6 +89,51 @@ class EldercareStructureProbe005Tests(unittest.TestCase):
         self.assertEqual(built["missing_dimensions"], ["COMPOUNDING"])
         self.assertEqual(built["business_promotion"], "NOT_PROMOTED")
         self.assertIn("SIGNED_CONTRACT_NE_SETTLEMENT", built["truth_boundaries"])
+
+    def test_repository_fixtures_rebuild_upstream_observation_review(self):
+        reviewed_dir = BROAD_RUN_DIR / "reviewed"
+        alignments = BROAD_RUN_DIR / "concept_alignments_reviewed.json"
+        self.assertTrue(reviewed_dir.is_dir())
+        self.assertGreaterEqual(len(list(reviewed_dir.glob("*.json"))), 5)
+        self.assertTrue(alignments.is_file())
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            summary = tmp_path / "summary.json"
+            observations = tmp_path / "observations.json"
+            subprocess.run(
+                [
+                    sys.executable,
+                    "scripts/build_broad_discovery_run_002_observation_review.py",
+                    "--mission",
+                    str(MISSION),
+                    "--dynamic-terms",
+                    str(BROAD_RUN_DIR / "dynamic_terms.json"),
+                    "--captures",
+                    str(BROAD_RUN_DIR / "captures.json"),
+                    "--reviewed-dir",
+                    str(reviewed_dir),
+                    "--alignments",
+                    str(alignments),
+                    "--summary-output",
+                    str(summary),
+                    "--observations-output",
+                    str(observations),
+                ],
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            rebuilt = json.loads(summary.read_text(encoding="utf-8"))
+        self.assertEqual(rebuilt["research_evidence_count"], 30)
+        self.assertEqual(rebuilt["reviewed_observation_count"], 17)
+        self.assertEqual(rebuilt["promotion_review_ready_count"], 1)
+        eldercare = next(
+            item for item in rebuilt["assessments"]
+            if item["candidate_concept"] == "ELDERCARE_CAPACITY_ORCHESTRATION"
+        )
+        self.assertEqual(eldercare["state"], "PROMOTION_REVIEW_READY")
+        self.assertEqual(rebuilt["taxonomy_promotion"], "NOT_PROMOTED")
+        self.assertEqual(rebuilt["business_promotion"], "NOT_PROMOTED")
 
 
 if __name__ == "__main__":
