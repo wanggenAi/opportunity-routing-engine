@@ -1,0 +1,104 @@
+name: eldercare-structure-probe-005
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/structural_commercialization.py"
+      - "scripts/build_commercial_structure_probe.py"
+      - "scripts/build_broad_discovery_run_002_observation_review.py"
+      - "tests/test_eldercare_structure_probe_005.py"
+      - "data/research_runs/ELDERCARE_STRUCTURE_PROBE_005_2026-09-14/**"
+      - "data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/**"
+      - ".github/workflows/eldercare-structure-probe-005.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: eldercare-structure-probe-005
+  cancel-in-progress: false
+
+jobs:
+  validate-eldercare-structure:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Rebuild upstream observation review
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .local
+          python scripts/build_broad_discovery_run_002_observation_review.py \
+            --mission data/research_missions/china_primary_broad_discovery.json \
+            --dynamic-terms data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/dynamic_terms.json \
+            --captures data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/captures.json \
+            --reviewed-dir data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/reviewed_observations \
+            --alignments data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/reviewed_alignments.json \
+            --summary-output .local/run002_observation_review.json \
+            --observations-output .local/run002_observations.json
+
+      - name: Build eldercare structural commercialization assessment
+        run: |
+          python scripts/build_commercial_structure_probe.py \
+            --recurrence .local/run002_observation_review.json \
+            --evidence data/research_runs/ELDERCARE_STRUCTURE_PROBE_005_2026-09-14/evidence.json \
+            --output .local/eldercare_structure_probe_005.json
+
+      - name: Require conservative structure state
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(jq -r '.candidate_concept' .local/eldercare_structure_probe_005.json)" = "ELDERCARE_CAPACITY_ORCHESTRATION"
+          test "$(jq -r '.candidate_class' .local/eldercare_structure_probe_005.json)" = "REVIEWED_STRUCTURAL_CONCEPT"
+          test "$(jq -r '.candidate_validation_state' .local/eldercare_structure_probe_005.json)" = "ONTOLOGY_REVIEW_READY"
+          test "$(jq -r '.commercial_structure_state' .local/eldercare_structure_probe_005.json)" = "STRUCTURE_VALIDATION_READY"
+          test "$(jq -r '.business_promotion' .local/eldercare_structure_probe_005.json)" = "NOT_PROMOTED"
+          test "$(jq -r '.missing_dimensions | join(",")' .local/eldercare_structure_probe_005.json)" = "COMPOUNDING"
+          for d in STANDARDIZABILITY COMPLEMENTARY_ACTOR_STRUCTURE REGENERATING_EVENT_FLOW REPEAT_MONETIZATION; do
+            test "$(jq -r --arg d "$d" '.dimensions[$d].state' .local/eldercare_structure_probe_005.json)" = "EVIDENCED"
+          done
+          test "$(jq -r '.dimensions.COMPOUNDING.state' .local/eldercare_structure_probe_005.json)" = "UNKNOWN"
+          jq -e '[.evidence[] | select(.dimension == "REPEAT_MONETIZATION" and .economic_exchange_observed == true) | .payment_basis | contains("NOT_SETTLEMENT")] | all' data/research_runs/ELDERCARE_STRUCTURE_PROBE_005_2026-09-14/evidence.json >/dev/null
+          jq -e '[.evidence[] | select(.dimension == "COMPOUNDING") | .outcome_linked_improvement] | any | not' data/research_runs/ELDERCARE_STRUCTURE_PROBE_005_2026-09-14/evidence.json >/dev/null
+          if jq -e '.. | objects | has("opportunity_score") or has("commercial_score") or has("route_testable") or has("core_business_candidate") or has("payer_confirmed") or has("paid_need")' .local/eldercare_structure_probe_005.json >/dev/null; then
+            echo "Commercial/canonical truth leaked into structure probe" >&2
+            exit 1
+          fi
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Eldercare Structure Probe 005"
+            echo
+            jq -r '"- concept: `\(.candidate_concept)`"' .local/eldercare_structure_probe_005.json
+            jq -r '"- state: `\(.commercial_structure_state)`"' .local/eldercare_structure_probe_005.json
+            jq -r '"- missing: `\(.missing_dimensions)`"' .local/eldercare_structure_probe_005.json
+            jq -r '"- evidence: `\(.evidence_count)` across `\(.source_count)` sources"' .local/eldercare_structure_probe_005.json
+            echo
+            echo "This is a structural validation state only. Signed contracts do not prove settlement, designated providers do not prove spare capacity, and digital efficiency does not prove compounding."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload structure probe artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: eldercare-structure-probe-005-state
+          path: |
+            .local/run002_observation_review.json
+            .local/eldercare_structure_probe_005.json
+            data/research_runs/ELDERCARE_STRUCTURE_PROBE_005_2026-09-14/evidence.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
