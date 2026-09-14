@@ -57,6 +57,11 @@ def summarize_live_store(
     transition_counts: Mapping[str, int],
     upstream_manifest: Mapping[str, object] | None = None,
 ) -> dict[str, object]:
+    if int(transition_counts.get("OUT_OF_ORDER", 0)) > 0:
+        raise ValueError(
+            "live batch contains OUT_OF_ORDER observations; upstream run resolution regressed"
+        )
+
     current_envelopes = tuple(store.iter_current())
     history_envelopes = store.query(include_history=True)
     source_counts: Counter[str] = Counter(item.source_id for item in current_envelopes)
@@ -118,6 +123,7 @@ def summarize_live_store(
 GOVERNING_INVARIANTS = (
     "REFETCHED_UNCHANGED_SOURCE_NE_NEW_EVIDENCE",
     "PARSER_CHANGE_MAY_CREATE_REVISION",
+    "LIVE_SOURCE_SELECTION_MUST_NOT_REGRESS",
     "DURABLE_HISTORY_MUST_NOT_RESET_SILENTLY",
     "LIVE_FABRIC_NE_COMMERCIAL_PROMOTION",
     "UNKNOWN_NE_PASS",
