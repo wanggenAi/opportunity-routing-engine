@@ -367,6 +367,10 @@ class SQLiteOntologyRegistry:
             return
 
         prior_versions = self.versions(spec.concept_id)
+        if prior_versions and prior_versions[-1].version_state == "DEPRECATED":
+            raise ValueError(
+                "deprecated ontology concept history is terminal; create a new concept identity with lineage"
+            )
         if spec.version == 1:
             if prior_versions:
                 raise ValueError("version 1 cannot be added after concept history exists")
@@ -376,6 +380,11 @@ class SQLiteOntologyRegistry:
             expected = prior_versions[-1].version + 1
             if spec.version != expected:
                 raise ValueError(f"ontology version must be contiguous; expected {expected}")
+
+        if spec.change_kind == "DEPRECATE" and self.active_version(spec.concept_id) is not None:
+            raise ValueError(
+                "active ontology concept must be explicitly deactivated before deprecation"
+            )
 
         with self.connection:
             self.connection.execute(
@@ -450,6 +459,9 @@ class SQLiteOntologyRegistry:
             raise KeyError((concept_id, version))
         if spec.version_state != "ELIGIBLE":
             raise ValueError("deprecated ontology version cannot be activated")
+        history = self.versions(concept_id)
+        if history and history[-1].version_state == "DEPRECATED":
+            raise ValueError("deprecated ontology concept cannot reactivate an older eligible version")
         actor = _require_text("activated_by", activated_by)
         at = _iso_datetime("activated_at", activated_at)
         why = _require_text("rationale", rationale)
@@ -583,7 +595,9 @@ GOVERNING_INVARIANTS = (
     "ONTOLOGY_VERSION_REQUIRES_EXPLICIT_ACTIVATION",
     "ONTOLOGY_VERSION_IS_APPEND_ONLY",
     "RENAME_MERGE_SPLIT_DEPRECATE_REQUIRE_NEW_VERSION_AND_LINEAGE",
-    "DEPRECATED_VERSION_CANNOT_BE_REACTIVATED",
+    "DEPRECATION_REQUIRES_EXPLICIT_DEACTIVATION",
+    "DEPRECATED_CONCEPT_HISTORY_IS_TERMINAL",
+    "DEPRECATED_CONCEPT_CANNOT_REACTIVATE_OLDER_ELIGIBLE_VERSION",
     "MODEL_SUGGESTION_NE_REVIEW_DECISION",
     "ONTOLOGY_CONCEPT_NE_BUSINESS_OPPORTUNITY",
     "UNKNOWN_NE_PASS",
