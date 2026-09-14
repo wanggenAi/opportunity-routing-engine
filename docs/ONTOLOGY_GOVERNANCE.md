@@ -91,6 +91,8 @@ rationale
 
 A changed definition, boundary or label receives a new version. Historical versions are never overwritten.
 
+`CREATE` must begin at version 1. `REVISE`, `RENAME`, and `DEPRECATE` operate on an existing stable identity and therefore cannot begin at version 1. `MERGE` and `SPLIT` may create a genuinely new stable concept identity at version 1 because their meaning is carried by explicit cross-concept lineage.
+
 ## 5. Change kinds and lineage
 
 Supported version changes include:
@@ -114,7 +116,21 @@ SPLIT_FROM
 DEPRECATED_BY
 ```
 
-The registry records lineage between concrete concept versions. Merge/split/rename must therefore be reconstructable later rather than represented as destructive edits.
+The registry records lineage between concrete concept versions. Lifecycle lineage is not decorative metadata: it is part of registry validity.
+
+Required semantics:
+
+```text
+REVISE     → REVISED_FROM immediately previous version of same concept
+RENAME     → RENAMED_FROM immediately previous version of same concept
+MERGE      → MERGED_FROM at least two distinct parent concepts
+SPLIT      → SPLIT_FROM a shared source version, with at least two child concept identities
+DEPRECATE  → immediately previous version DEPRECATED_BY the new deprecated version
+```
+
+A lifecycle version may be registered before its lineage edges are attached so the referenced version exists for foreign-key-safe edge creation. That transient state is intentionally not usable: an orphan lifecycle version cannot be activated, and `snapshot()` fails closed until the lineage graph validates.
+
+Lineage direction is also validated. For example, `MERGED_FROM` must originate from a `MERGE` version, `SPLIT_FROM` from a `SPLIT` version, and `DEPRECATED_BY` must point to a `DEPRECATE` version. This prevents a syntactically valid edge from silently changing lifecycle meaning.
 
 ## 6. Deprecation
 
@@ -144,6 +160,7 @@ A registered version is not active merely because it was approved for creation.
 Activation requires:
 - an existing `ELIGIBLE` ontology version;
 - a concept whose latest version is not `DEPRECATED`;
+- complete lifecycle lineage for any non-`CREATE` change;
 - explicit actor/authority identity;
 - timezone-aware activation time;
 - explicit rationale.
@@ -189,6 +206,21 @@ ROUTE_TESTABLE OPPORTUNITY
 
 The commercial system still requires its own recurrence, payer, resource, blocker, access, safety, settlement, delegatability and compounding evidence.
 
-## 10. Governing invariant
+## 10. Synthetic lifecycle verification
 
-> **让 taxonomy 随证据生长，但不让模型的命名冲动变成事实：先积累多来源、多 Actor、跨时间的 reviewed evidence，再进入显式 ontology review；定义变化必须产生新版本，rename/merge/split/deprecate 必须保留 lineage；任何版本只有经过独立 activation 才能成为当前 ontology；deprecation 必须先显式 deactivate，且一旦 stable concept identity 被 deprecated 就不能通过旧版本或追加 eligible 版本偷偷复活；ontology 本身永远不能替代商业证据。**
+`ontology-lifecycle-lineage-010` is a main-only synthetic dry run. It constructs only `concept:synthetic-lifecycle-010-*` identities and exercises:
+
+```text
+CREATE
+→ REVISE / REVISED_FROM
+→ MERGE / MERGED_FROM
+→ SPLIT / SPLIT_FROM
+→ RENAME / RENAMED_FROM
+→ DEPRECATE / DEPRECATED_BY
+```
+
+The artifact must report validated lineage, zero active synthetic concepts, zero production ontology changes, and `NOT_PROMOTED` for both taxonomy and business. It never consumes the Run 003 production review queue and never approves a real concept.
+
+## 11. Governing invariant
+
+> **让 taxonomy 随证据生长，但不让模型的命名冲动变成事实：先积累多来源、多 Actor、跨时间的 reviewed evidence，再进入显式 ontology review；定义变化必须产生新版本，revise/rename/merge/split/deprecate 必须保留可验证 lineage；缺 lineage 的 lifecycle version 不能 activation、不能通过 snapshot 审计；任何版本只有经过独立 activation 才能成为当前 ontology；deprecation 必须先显式 deactivate，且一旦 stable concept identity 被 deprecated 就不能通过旧版本或追加 eligible 版本偷偷复活；ontology 本身永远不能替代商业证据。**
