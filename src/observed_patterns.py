@@ -20,6 +20,9 @@ from src.observation_fabric import ObservationEnvelope
 
 PATTERN_SCHEMA_VERSION = "observed-pattern.v1"
 PATTERN_STATES = frozenset({"UNBOUND", "OBSERVED_PATTERN"})
+RESEARCH_SCOPE_STATES = frozenset(
+    {"CALIBRATION_ONLY", "PARTIAL_DISCOVERY", "BROAD_DISCOVERY_READY"}
+)
 ORDERING_BASIS = "EVIDENCE_RECURRENCE_ONLY_NOT_COMMERCIAL_RANKING"
 BUSINESS_PROMOTION = "NOT_PROMOTED"
 DOWNSTREAM_UNKNOWNS = (
@@ -243,7 +246,11 @@ def summarize_observed_patterns(
     *,
     gate: PatternGate | None = None,
     source_observation_run_id: int | None = None,
+    research_scope_state: str = "CALIBRATION_ONLY",
 ) -> dict:
+    if research_scope_state not in RESEARCH_SCOPE_STATES:
+        raise ValueError(f"unsupported research_scope_state: {research_scope_state}")
+
     current = tuple(envelopes)
     active_gate = gate or PatternGate()
     patterns = build_observed_patterns(current, gate=active_gate)
@@ -253,6 +260,8 @@ def summarize_observed_patterns(
         "ordering_basis": ORDERING_BASIS,
         "pattern_gate": asdict(active_gate),
         "pattern_gate_semantics": "OPERATIONAL_EVIDENCE_THRESHOLD_NOT_COMMERCIAL_TRUTH",
+        "research_scope_state": research_scope_state,
+        "broad_discovery_use_authorized": research_scope_state == "BROAD_DISCOVERY_READY",
         "input_current_observation_count": len(current),
         "source_observation_run_id": source_observation_run_id,
         "pattern_count": len(patterns),
@@ -265,6 +274,7 @@ def summarize_observed_patterns(
             "CURRENT_IDENTITY_ONLY_NOT_HISTORY_EVENT_COUNT",
             "EXACT_SEMANTIC_KEY_NO_LLM_MERGE",
             "OBSERVED_ONLY_CAN_SATISFY_PATTERN_GATE",
+            "CALIBRATION_SCOPE_NE_BROAD_MARKET_DISCOVERY",
             "PATTERN_NE_LATENT_VALUE",
             "PATTERN_NE_DEMAND",
             "PATTERN_NE_PAYER",
