@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import json
 from dataclasses import dataclass
+from pathlib import Path
 from urllib.parse import urlparse
 
 from src.semantic_kernel import SEMANTIC_PRIMITIVES
@@ -61,6 +63,82 @@ class SensorCandidate:
             raise ValueError(f"unsupported lifecycle_state: {self.lifecycle_state}")
         if not self.provenance_refs:
             raise ValueError("provenance_refs are required")
+
+
+def _tuple_field(record: dict, name: str) -> tuple[str, ...]:
+    raw = record.get(name, [])
+    if not isinstance(raw, list) or not all(isinstance(item, str) for item in raw):
+        raise ValueError(f"{name} must be a list of strings")
+    return tuple(item.strip() for item in raw if item.strip())
+
+
+def sensor_candidate_from_dict(record: dict) -> SensorCandidate:
+    allowed = {
+        "source_id",
+        "name",
+        "base_url",
+        "origin_geography",
+        "relevance_geographies",
+        "observable_dimensions",
+        "collection_mode",
+        "provenance_refs",
+        "china_relevance_evidence_refs",
+        "activation_evidence_refs",
+        "unique_signal_value",
+        "lifecycle_state",
+    }
+    unknown = set(record) - allowed
+    if unknown:
+        raise ValueError(f"unknown sensor candidate fields: {sorted(unknown)}")
+
+    required = {
+        "source_id",
+        "name",
+        "base_url",
+        "origin_geography",
+        "relevance_geographies",
+        "observable_dimensions",
+        "collection_mode",
+        "provenance_refs",
+    }
+    missing = required - set(record)
+    if missing:
+        raise ValueError(f"missing sensor candidate fields: {sorted(missing)}")
+
+    return SensorCandidate(
+        source_id=str(record["source_id"]),
+        name=str(record["name"]),
+        base_url=str(record["base_url"]),
+        origin_geography=str(record["origin_geography"]),
+        relevance_geographies=_tuple_field(record, "relevance_geographies"),
+        observable_dimensions=_tuple_field(record, "observable_dimensions"),
+        collection_mode=str(record["collection_mode"]),
+        provenance_refs=_tuple_field(record, "provenance_refs"),
+        china_relevance_evidence_refs=_tuple_field(
+            record, "china_relevance_evidence_refs"
+        ),
+        activation_evidence_refs=_tuple_field(record, "activation_evidence_refs"),
+        unique_signal_value=str(record.get("unique_signal_value", "UNKNOWN")),
+        lifecycle_state=str(record.get("lifecycle_state", "DISCOVERED")),
+    )
+
+
+def load_sensor_candidates(path: str | Path) -> tuple[SensorCandidate, ...]:
+    payload = json.loads(Path(path).read_text(encoding="utf-8"))
+    if not isinstance(payload, list):
+        raise ValueError("sensor candidate file must contain a JSON array")
+
+    result: list[SensorCandidate] = []
+    seen: set[str] = set()
+    for raw in payload:
+        if not isinstance(raw, dict):
+            raise ValueError("each sensor candidate must be an object")
+        candidate = sensor_candidate_from_dict(raw)
+        if candidate.source_id in seen:
+            raise ValueError(f"duplicate source_id: {candidate.source_id}")
+        seen.add(candidate.source_id)
+        result.append(candidate)
+    return tuple(result)
 
 
 def is_china_relevant(candidate: SensorCandidate) -> bool:
