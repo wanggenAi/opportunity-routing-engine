@@ -13,6 +13,18 @@ from src.structural_commercialization import (
 RUN_DIR = Path("data/research_runs/COMMERCIAL_STRUCTURE_PROBE_003_2026-09-14")
 
 
+def _all_object_keys(value):
+    keys = set()
+    if isinstance(value, dict):
+        for key, child in value.items():
+            keys.add(str(key))
+            keys.update(_all_object_keys(child))
+    elif isinstance(value, list):
+        for child in value:
+            keys.update(_all_object_keys(child))
+    return keys
+
+
 class StructuralCommercializationTests(unittest.TestCase):
     def _records(self):
         payload = json.loads((RUN_DIR / "evidence.json").read_text(encoding="utf-8"))
@@ -58,7 +70,14 @@ class StructuralCommercializationTests(unittest.TestCase):
 
     def test_repeat_monetization_requires_two_independent_payment_sources(self):
         _, records = self._records()
-        reduced = tuple(item for item in records if item.evidence_id != "money-hunan-framework-fee" and item.evidence_id != "money-nanjing-market-transactions")
+        reduced = tuple(
+            item
+            for item in records
+            if item.evidence_id not in {
+                "money-hunan-framework-fee",
+                "money-nanjing-market-transactions",
+            }
+        )
         assessment = assess_structural_commercialization(
             candidate_id="x",
             candidate_concept="IDLE_ASSET_SCENARIO_REPURPOSING",
@@ -77,11 +96,16 @@ class StructuralCommercializationTests(unittest.TestCase):
             evidence=records,
         )
         summary = summarize_assessment(assessment, records)
-        rendered = json.dumps(summary, ensure_ascii=False)
-        self.assertNotIn("opportunity_score", rendered)
-        self.assertNotIn("commercial_score", rendered)
-        self.assertNotIn("ROUTE_TESTABLE", rendered)
+        keys = _all_object_keys(summary)
+        self.assertNotIn("opportunity_score", keys)
+        self.assertNotIn("commercial_score", keys)
+        self.assertNotIn("route_testable", keys)
+        self.assertNotIn("core_business_candidate", keys)
         self.assertEqual(summary["business_promotion"], "NOT_PROMOTED")
+        self.assertIn(
+            "STRUCTURE_VALIDATION_READY_NE_ROUTE_TESTABLE",
+            summary["governing_invariants"],
+        )
 
 
 if __name__ == "__main__":
