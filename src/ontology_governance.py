@@ -45,6 +45,14 @@ VERSION_STATES = frozenset({"ELIGIBLE", "DEPRECATED"})
 LINEAGE_RELATIONS = frozenset(
     {"REVISED_FROM", "RENAMED_FROM", "MERGED_FROM", "SPLIT_FROM", "DEPRECATED_BY"}
 )
+INITIAL_VERSION_CHANGE_KINDS = frozenset({"CREATE", "MERGE", "SPLIT"})
+LINEAGE_RELATION_BY_CHANGE_KIND = {
+    "REVISE": "REVISED_FROM",
+    "RENAME": "RENAMED_FROM",
+    "MERGE": "MERGED_FROM",
+    "SPLIT": "SPLIT_FROM",
+    "DEPRECATE": "DEPRECATED_BY",
+}
 
 
 def _require_text(name: str, value: object) -> str:
@@ -107,8 +115,8 @@ class OntologyConceptVersion:
             raise ValueError(f"unsupported version_state: {self.version_state}")
         if self.change_kind == "CREATE" and self.version != 1:
             raise ValueError("CREATE must use version 1")
-        if self.change_kind != "CREATE" and self.version == 1:
-            raise ValueError("non-CREATE versions must be > 1")
+        if self.version == 1 and self.change_kind not in INITIAL_VERSION_CHANGE_KINDS:
+            raise ValueError("version 1 is only valid for CREATE, MERGE or SPLIT")
         if self.change_kind == "DEPRECATE" and self.version_state != "DEPRECATED":
             raise ValueError("DEPRECATE version must use DEPRECATED state")
         if self.change_kind != "DEPRECATE" and self.version_state != "ELIGIBLE":
@@ -445,6 +453,93 @@ class SQLiteOntologyRegistry:
         ).fetchall()
         return tuple(self.get(concept_id, int(row["version"])) for row in rows)
 
+    def _lineage_rows_for_version(self, spec: OntologyConceptVersion) -> tuple[sqlite3.Row, ...]:
+        relation = LINEAGE_RELATION_BY_CHANGE_KIND.get(spec.change_kind)
+        if relation is None:
+            return ()
+        if spec.change_kind == "DEPRECATE":
+            rows = self.connection.execute(
+                """
+                SELECT * FROM ontology_lineage_edge
+                WHERE relation = ? AND to_concept_id = ? AND to_version = ?
+                ORDER BY from_concept_id, from_version
+                """,
+                (relation, spec.concept_id, spec.version),
+            ).fetchall()
+        else:
+            rows = self.connection.execute(
+                """
+                SELECT * FROM ontology_lineage_edge
+                WHERE relation = ? AND from_concept_id = ? AND from_version = ?
+                ORDER BY to_concept_id, to_version
+                """,
+                (relation, spec.concept_id, spec.version),
+            ).fetchall()
+        return tuple(rows)
+
+    def _validate_version_lineage(self, spec: OntologyConceptVersion) -> None:
+        if spec.change_kind == "CREATE":
+            return
+
+        relation = LINEAGE_RELATION_BY_CHANGE_KIND[spec.change_kind]
+        rows = self._lineage_rows_for_version(spec)
+        if not rows:
+            raise ValueError(f"{spec.change_kind} requires explicit {relation} lineage")
+
+        if spec.change_kind in {"REVISE", "RENAME"}:
+            if not any(
+                row["to_concept_id"] == spec.concept_id
+                and int(row["to_version"]) == spec.version - 1
+                for row in rows
+            ):
+                raise ValueError(
+                    f"{spec.change_kind} must point to the immediately previous version of the same concept"
+                )
+            return
+
+        if spec.change_kind == "DEPRECATE":
+            if not any(
+                row["from_concept_id"] == spec.concept_id
+                and int(row["from_version"]) == spec.version - 1
+                for row in rows
+            ):
+                raise ValueError(
+                    "DEPRECATE must be linked from the immediately previous version by DEPRECATED_BY"
+                )
+            return
+
+        if spec.change_kind == "MERGE":
+            parent_concepts = {str(row["to_concept_id"]) for row in rows}
+            if len(parent_concepts) < 2:
+                raise ValueError("MERGE requires MERGED_FROM lineage to at least two parent concepts")
+            return
+
+        if spec.change_kind == "SPLIT":
+            for row in rows:
+                sibling_rows = self.connection.execute(
+                    """
+                    SELECT DISTINCT from_concept_id, from_version
+                    FROM ontology_lineage_edge
+                    WHERE relation = 'SPLIT_FROM' AND to_concept_id = ? AND to_version = ?
+                    """,
+                    (row["to_concept_id"], int(row["to_version"])),
+                ).fetchall()
+                if len({str(sibling["from_concept_id"]) for sibling in sibling_rows}) >= 2:
+                    return
+            raise ValueError(
+                "SPLIT requires at least two child concept identities linked to a shared source version"
+            )
+
+    def validate_lifecycle(self) -> None:
+        rows = self.connection.execute(
+            "SELECT concept_id, version FROM ontology_concept_version ORDER BY concept_id, version"
+        ).fetchall()
+        for row in rows:
+            spec = self.get(str(row["concept_id"]), int(row["version"]))
+            if spec is None:
+                raise ValueError("ontology registry lost a referenced concept version")
+            self._validate_version_lineage(spec)
+
     def activate(
         self,
         concept_id: str,
@@ -462,6 +557,7 @@ class SQLiteOntologyRegistry:
         history = self.versions(concept_id)
         if history and history[-1].version_state == "DEPRECATED":
             raise ValueError("deprecated ontology concept cannot reactivate an older eligible version")
+        self._validate_version_lineage(spec)
         actor = _require_text("activated_by", activated_by)
         at = _iso_datetime("activated_at", activated_at)
         why = _require_text("rationale", rationale)
@@ -504,10 +600,37 @@ class SQLiteOntologyRegistry:
     ) -> None:
         if relation not in LINEAGE_RELATIONS:
             raise ValueError(f"unsupported ontology lineage relation: {relation}")
-        if self.get(from_concept_id, from_version) is None:
+        from_spec = self.get(from_concept_id, from_version)
+        if from_spec is None:
             raise KeyError((from_concept_id, from_version))
-        if self.get(to_concept_id, to_version) is None:
+        to_spec = self.get(to_concept_id, to_version)
+        if to_spec is None:
             raise KeyError((to_concept_id, to_version))
+        if (from_concept_id, from_version) == (to_concept_id, to_version):
+            raise ValueError("ontology lineage cannot self-reference the same concept version")
+
+        if relation == "REVISED_FROM":
+            if from_spec.change_kind != "REVISE":
+                raise ValueError("REVISED_FROM must originate from a REVISE version")
+            if from_concept_id != to_concept_id or from_version != to_version + 1:
+                raise ValueError("REVISED_FROM must point to the immediately previous version of the same concept")
+        elif relation == "RENAMED_FROM":
+            if from_spec.change_kind != "RENAME":
+                raise ValueError("RENAMED_FROM must originate from a RENAME version")
+            if from_concept_id != to_concept_id or from_version != to_version + 1:
+                raise ValueError("RENAMED_FROM must point to the immediately previous version of the same concept")
+        elif relation == "MERGED_FROM":
+            if from_spec.change_kind != "MERGE":
+                raise ValueError("MERGED_FROM must originate from a MERGE version")
+        elif relation == "SPLIT_FROM":
+            if from_spec.change_kind != "SPLIT":
+                raise ValueError("SPLIT_FROM must originate from a SPLIT version")
+        elif relation == "DEPRECATED_BY":
+            if to_spec.change_kind != "DEPRECATE":
+                raise ValueError("DEPRECATED_BY must point to a DEPRECATE version")
+            if from_concept_id != to_concept_id or to_version != from_version + 1:
+                raise ValueError("DEPRECATED_BY must connect adjacent versions of the same concept")
+
         why = _require_text("lineage rationale", rationale)
         with self.connection:
             self.connection.execute(
@@ -530,6 +653,7 @@ class SQLiteOntologyRegistry:
         return tuple(dict(row) for row in rows)
 
     def snapshot(self) -> dict[str, Any]:
+        self.validate_lifecycle()
         version_rows = self.connection.execute(
             "SELECT concept_id, version FROM ontology_concept_version ORDER BY concept_id, version"
         ).fetchall()
@@ -543,6 +667,7 @@ class SQLiteOntologyRegistry:
             "versions": [self.get(row["concept_id"], int(row["version"])).as_dict() for row in version_rows],
             "activations": [dict(row) for row in activation_rows],
             "lineage": list(self.lineage()),
+            "lineage_integrity": "VALIDATED",
             "business_promotion": BUSINESS_PROMOTION,
         }
 
@@ -594,7 +719,11 @@ GOVERNING_INVARIANTS = (
     "EXPLICIT_REVIEW_DECISION_NE_ACTIVE_TAXONOMY",
     "ONTOLOGY_VERSION_REQUIRES_EXPLICIT_ACTIVATION",
     "ONTOLOGY_VERSION_IS_APPEND_ONLY",
-    "RENAME_MERGE_SPLIT_DEPRECATE_REQUIRE_NEW_VERSION_AND_LINEAGE",
+    "MERGE_AND_SPLIT_MAY_CREATE_NEW_STABLE_CONCEPT_ID_AT_VERSION_1",
+    "REVISE_RENAME_MERGE_SPLIT_DEPRECATE_REQUIRE_EXPLICIT_LINEAGE",
+    "ORPHAN_LIFECYCLE_VERSION_CANNOT_BE_ACTIVATED_OR_SNAPSHOTTED",
+    "MERGE_REQUIRES_AT_LEAST_TWO_PARENT_CONCEPTS",
+    "SPLIT_REQUIRES_AT_LEAST_TWO_CHILD_CONCEPT_IDENTITIES",
     "DEPRECATION_REQUIRES_EXPLICIT_DEACTIVATION",
     "DEPRECATED_CONCEPT_HISTORY_IS_TERMINAL",
     "DEPRECATED_CONCEPT_CANNOT_REACTIVATE_OLDER_ELIGIBLE_VERSION",
