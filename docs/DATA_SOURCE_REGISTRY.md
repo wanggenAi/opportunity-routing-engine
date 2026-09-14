@@ -2,60 +2,62 @@
 
 Status: `CANONICAL / DISCOVERY INFRASTRUCTURE`
 
-Effective: 2026-09-10
+Effective: 2026-09-14
+
+See also `docs/DYNAMIC_SENSOR_FABRIC.md`.
 
 ## Purpose
 
-The Opportunity Routing Engine must maintain a continuous, auditable data-source layer before generating opportunity conclusions.
+The engine maintains a continuous, auditable source layer before generating opportunity conclusions. It must not depend on ad-hoc searches or one-off news reading.
 
-The system should not depend on ad-hoc searches or one-off news reading. Every recurring source should be registered with provenance, geography, cadence, dimensions, access method, quality tier and update state.
+The registry is **dynamic infrastructure**, not a closed catalog. Current platforms, websites and datasets are sensor instances. New sources may be discovered, qualified, activated, degraded and retired without changing the world-model ontology.
+
+## Research geography policy
+
+Default research priority is:
+
+```text
+PRIMARY RESEARCH DOMAIN: CHINA
+PRIMARY EXECUTION LENS: CHINA → JIANGSU → XUZHOU
+SECONDARY OBSERVATION LAYER: GLOBAL
+CROSS-BORDER: EXCEPTION ONLY
+```
+
+Global sources are allowed and encouraged when they add information about China, Chinese actors/resources, possible transfer mechanisms, technology changes or counter-evidence. Foreign salience does not establish Chinese prevalence or demand.
 
 ## Source tiers
 
-### Tier A — official statistical / administrative truth
-Examples:
-- National Bureau of Statistics / 国家数据;
-- provincial and city statistical bureaus;
-- People's Bank of China and financial-statistics releases;
-- Ministry of Commerce / 商务数据中心 / 商务预报;
-- General Administration of Customs and customs statistics;
-- Ministry of Human Resources and Social Security / employment releases;
-- government procurement / public resource transaction platforms;
-- official population, health, education, housing, transport and industry datasets.
+### Tier A — statistical / administrative / hard transaction truth
+Examples include official statistics, administrative releases, payment/transaction aggregates and other sources with explicit denominator/methodology.
 
-Use for macro regime, money-flow, employment, demographic and verified transaction signals.
+Use for macro regime, money flow, employment, demographics and verified transaction signals.
 
 ### Tier B — primary market / company / platform evidence
-Examples:
-- listed-company filings;
-- company official sites and price pages;
-- hiring pages;
-- public procurement awards;
-- platform public trend/transaction data;
-- industry association releases;
-- public marketplace listings and observable price/volume signals.
+Examples include company filings/sites, hiring pages, price pages, marketplaces, public transaction records, industry associations and public platform data.
 
-Use for market movement, payer behavior, capacity, prices and task/workflow evidence.
+Use for actor state, market movement, price, utilization, capability and workflow evidence.
 
-### Tier C — structured behavioral / social signals
-Examples:
-- authorized/public aggregate social-media search/trend outputs;
-- search-trend products;
-- public review aggregates;
-- forum/community discussion sampled under documented methods;
-- news-frequency and topic-change signals.
+### Tier C — structured behavioral / social / search signals
+Examples include authorized/public aggregate social-media search/trend outputs, search trends, public review aggregates, forum/community samples and topic-change signals.
 
-Use for psychology/attention hypotheses. Do not infer population prevalence from raw social-media share.
+Use for attention, perception, motive and behavior hypotheses. Do not infer population prevalence from raw social-media share.
 
 ### Tier D — anecdotal / exploratory evidence
-Examples:
-- individual posts;
-- interviews;
-- local observations;
-- media feature stories;
-- small case studies.
+Examples include individual public posts, interviews, local observations, media features and small cases.
 
 Use to generate hypotheses and identify mechanisms, never as standalone macro truth.
+
+## Platform names are not ontology
+
+Examples such as Xiaohongshu, Douyin, Weibo, Zhihu, Bilibili, Reddit, X, Instagram, Telegram, GitHub, app reviews or future platforms are source records only.
+
+```text
+PLATFORM != ONTOLOGY
+SOURCE CATEGORY != WORLD CATEGORY
+TODAY'S PLATFORM LIST != DISCOVERY BOUNDARY
+```
+
+A future source not known today must be addable without adding a new semantic primitive or changing business strategy.
 
 ## Canonical source record
 
@@ -65,9 +67,10 @@ name:
 source_tier: A/B/C/D
 owner:
 base_url:
-geography:
+origin_geography:
+relevance_geographies:
 actor_scope:
-indicator_scope:
+observable_dimensions:
 access_mode: API/HTML/CSV/XLS/PDF/MANUAL/OTHER
 refresh_cadence: DAILY/WEEKLY/MONTHLY/QUARTERLY/ANNUAL/EVENT
 publication_lag:
@@ -76,53 +79,80 @@ units:
 revision_policy:
 policy_contamination_risk:
 personal_data_risk:
+spam_manipulation_risk:
 automation_allowed: YES/NO/UNKNOWN
+unique_signal_value:
 last_successful_fetch:
 last_observed_period:
 parser_adapter:
-status: ACTIVE/DEGRADED/PAUSED
+status: DISCOVERED/QUALIFIED/ACTIVE/DEGRADED/PAUSED/RETIRED
 notes:
 ```
 
-## Initial mandatory registry
+Existing CSV records may use the earlier smaller schema until migrated. Missing new metadata is `UNKNOWN`, not permission to infer it.
 
-### National macro
-- National Bureau of Statistics `stats.gov.cn` / `data.stats.gov.cn`
-  - GDP, CPI, PPI, PMI, industrial production, retail, fixed investment, income/expenditure, unemployment, population.
-- Ministry of Commerce `mofcom.gov.cn` / `data.mofcom.gov.cn`
-  - consumption market, e-commerce, trade, FDI/ODI, service/commodity market monitoring.
-- People's Bank of China `pbc.gov.cn`
-  - money/credit, household deposits/loans, social financing, payment/financial conditions where relevant.
-- General Administration of Customs `customs.gov.cn`
-  - import/export by product, geography, firm/trade type where available.
-- Ministry of Human Resources and Social Security `mohrss.gov.cn`
-  - employment, labor-market and policy signals.
+## Dynamic source lifecycle
 
-### Jiangsu
-- Jiangsu Provincial Bureau of Statistics `tj.jiangsu.gov.cn`.
-- Jiangsu provincial government economic-operation releases.
-- Jiangsu commerce / industry / human-resources / culture-tourism departments where indicators are material.
+```text
+DISCOVERED
+→ QUALIFIED
+→ ACTIVE
+→ DEGRADED
+→ RETIRED
+```
 
-### Xuzhou
-- Xuzhou municipal government/statistical releases.
-- Xuzhou public resource transaction center `ggzy.zwb.xz.gov.cn`.
-- Xuzhou commerce, industry, culture-tourism, human-resources, housing, transport and district-level official releases.
+Qualification should ask:
+- what actors/states/behaviors/resources can this source reveal?
+- does it add unique signal value relative to existing sources?
+- can provenance and time be retained?
+- is access lawful and technically sustainable?
+- what are its manipulation, sampling and privacy risks?
+- how does source geography differ from the target/relevance geography?
+
+Source discovery must not automatically activate a crawler. Access policy and evidence value are separate decisions.
+
+## Domestic baseline sources
+
+The baseline should continue covering China macro and market reality, including national statistical, finance, trade, employment and household indicators; Jiangsu official economic/market data; and Xuzhou/local evidence where available.
+
+These are baseline observers, not a fixed list. Domestic consumer, enterprise, marketplace, hiring, review, search and community signals should be added when lawful, auditable and useful.
+
+## Global auxiliary sources
+
+The registry may include foreign/global social, developer, market, company, product-review and community sources when they can illuminate China-related questions.
+
+Examples of legitimate uses:
+- foreign perception/usage of a Chinese product or resource;
+- early technology/business behavior that may create a China transfer hypothesis;
+- failure modes to test against the domestic market;
+- global changes that reprice Chinese/Jiangsu/Xuzhou resources.
+
+Truth boundaries:
+
+```text
+GLOBAL SIGNAL != DOMESTIC FACT
+FOREIGN TREND != CHINA DEMAND
+FOREIGN SOCIAL SALIENCE != CHINESE CONSUMER PSYCHOLOGY
+TRANSFER HYPOTHESIS != TRANSFERABILITY
+```
 
 ## Update discipline
 
 For every source adapter:
-1. preserve raw publication date and observation period;
-2. distinguish flow, stock, price, volume and index values;
-3. retain revisions rather than silently overwrite history;
-4. store geography and denominator;
-5. preserve source URL and retrieval timestamp;
-6. do not coerce missing values into zero;
-7. expose stale/degraded source state;
-8. use manual fallback only with explicit provenance.
+1. preserve source/origin geography separately from target/relevance geography;
+2. preserve raw publication date and observation period;
+3. distinguish flow, stock, price, volume and index values;
+4. retain revisions rather than silently overwrite history;
+5. store geography and denominator where available;
+6. preserve source URL/ref and retrieval timestamp;
+7. do not coerce missing values into zero;
+8. expose stale/degraded source state;
+9. retain contradictions and sampling limitations;
+10. use manual fallback only with explicit provenance.
 
 ## Data-source health
 
-Track:
+Track where available:
 
 ```text
 freshness_score
@@ -131,10 +161,13 @@ schema_stability
 revision_frequency
 coverage_score
 provenance_score
+sampling_risk
+manipulation_risk
+unique_signal_value
 ```
 
 A stale or broken source should reduce confidence rather than silently disappear.
 
 ## Governing invariant
 
-> **If we cannot say where a number came from, what period it represents, what population/market it covers and whether it was revised, it cannot drive an opportunity decision.**
+> **全球都可以成为观察面，但主要研究中国现实。平台会变、来源会变，世界模型不能跟着平台列表重写；如果不能说明来源、时间、地理、样本边界和证据关系，该信号不能被提升成商业事实。**
