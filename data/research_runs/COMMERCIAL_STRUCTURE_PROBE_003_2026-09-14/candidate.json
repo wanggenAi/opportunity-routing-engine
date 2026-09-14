@@ -1,0 +1,40 @@
+{
+  "candidate_id": "LV-STRUCTURE-IDLE-ASSET-REPURPOSING-001",
+  "actor": "owner or manager of low-utilization physical/public assets",
+  "observed_state": "assets can remain vacant, low-utilization, fragmented, misconfigured for current demand, or trapped in static administrative use",
+  "observed_change": "multiple Chinese jurisdictions are shifting toward marketized operation, functional repurposing, digital asset management, public leasing and professional operation",
+  "hidden_or_underrecognized_value": "the same underlying asset can create higher utility or revenue when its permissible use, operator, tenant, service scenario or transaction channel is changed",
+  "why_value_is_not_recognized_or_realized": "asset information is fragmented; rights, approvals and operating responsibility are unclear; scenario fit is not obvious; transaction and operating workflows are costly to coordinate",
+  "complementary_actor_hypothesis": "professional operators, transaction platforms, service providers and end users can absorb or transform assets that the owner cannot efficiently activate alone",
+  "complementary_actor_state": "counterpart actors have operating capability, tenant/user demand, transaction infrastructure or specialist conversion capability but do not automatically see every stranded asset",
+  "transformation_mechanism": "standardize asset facts and constraints, identify permissible scenario changes, match operator/user/transaction route, define acceptance and compliance rules, then execute leasing, operation, repurposing or disposal",
+  "why_exchange_does_not_already_happen": "information asymmetry, rights ambiguity, fragmented approval, weak packaging, missing operator capability, low market visibility and transaction/compliance friction",
+  "incremental_value_for_origin_actor": "higher utilization, rent/operating income, reduced vacancy, disposal proceeds, lower management leakage or public-service value",
+  "incremental_value_for_complementary_actor": "access to usable space/assets, operating revenue, transaction/service fees, capacity expansion or user-service scenarios",
+  "orchestrator_value_capture_hypothesis": "only if evidence later proves a repeatable bounded service, the orchestrator could be paid through management fees, transaction/service fees or a transparent share of incremental value created",
+  "cheapest_decisive_validation": "in Xuzhou/Jiangsu, obtain 5-10 current stranded-asset cases from independent owners and verify whether the same intake, constraint classification, scenario matching and operator-routing steps recur; separately verify at least two accepted paid mandates",
+  "kill_conditions": "cases remain one-off bespoke political/administrative projects; no independent owner will pay for or delegate the process; rights/approval constraints dominate; market counterparties are already efficiently connected; or every case requires unrelated bespoke transformation",
+  "source_mode": "LATENT_VALUE_DISCOVERY",
+  "evidence": [
+    {
+      "source_id": "STRUCTURAL_RECURRENCE_RUN_002",
+      "claim": "IDLE_ASSET_SCENARIO_REPURPOSING reached PROMOTION_REVIEW_READY from multiple actors, sources and periods without canonical taxonomy promotion.",
+      "kind": "ORIGIN_STATE"
+    },
+    {
+      "source_id": "LUAN_GGZY_ASSET_OPERATION_TENDER_2026",
+      "claim": "A state-owned asset owner procures an external professional operator for recurring asset management and operation services.",
+      "kind": "COMPLEMENTARY_STATE"
+    },
+    {
+      "source_id": "PUDONG_GOV_2026_ASSET_RULES",
+      "claim": "Entrusted asset operation requires explicit agreements and standardized responsibilities for maintenance, rent/property-fee collection and invoicing, showing real coordination/compliance boundaries.",
+      "kind": "STRANDING_BARRIER"
+    },
+    {
+      "source_id": "NANJING_GGZY_ASSET_TRANSACTIONS_H1_2026",
+      "claim": "Repeated executed leases, operating-right transactions and disposals demonstrate realized value once assets reach market channels.",
+      "kind": "VALUE_PRECEDENT"
+    }
+  ]
+}
