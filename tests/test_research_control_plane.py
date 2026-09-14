@@ -1,10 +1,11 @@
 import json
-import tempfile
 import unittest
 from pathlib import Path
 
 from src.research_control_plane import (
     ResearchEvidenceRecord,
+    ResearchMission,
+    ResearchSeed,
     assess_research_coverage,
     build_research_plan,
     empty_coverage_assessment,
@@ -21,7 +22,7 @@ class ResearchControlPlaneTests(unittest.TestCase):
         )
         return mission_from_dict(payload)
 
-    def test_china_primary_plan_has_bounded_multi_lane_budget(self):
+    def test_china_primary_plan_has_bounded_unique_multi_lane_budget(self):
         mission = self._mission()
         plan = build_research_plan(mission)
         self.assertEqual(plan["query_count"], 60)
@@ -36,6 +37,10 @@ class ResearchControlPlaneTests(unittest.TestCase):
                 "SOURCE_DISCOVERY": 6,
             },
         )
+        query_ids = [q["query_id"] for q in plan["queries"]]
+        query_texts = [q["query"] for q in plan["queries"]]
+        self.assertEqual(len(set(query_ids)), 60)
+        self.assertEqual(len(set(query_texts)), 60)
         self.assertTrue(all(q["target_geography"].startswith("CN") for q in plan["queries"]))
         self.assertEqual(plan["mission"]["cross_border_mode"], "EXCEPTION_ONLY")
         self.assertFalse(plan["executor_contract"]["login_or_access_control_bypass_allowed"])
@@ -43,7 +48,7 @@ class ResearchControlPlaneTests(unittest.TestCase):
         self.assertFalse(plan["executor_contract"]["source_discovery_implies_activation"])
         self.assertFalse(plan["executor_contract"]["foreign_signal_implies_china_fact"])
 
-    def test_dynamic_terms_expand_queries_without_changing_ontology(self):
+    def test_dynamic_terms_are_prioritized_without_changing_ontology(self):
         mission = self._mission()
         plan = build_research_plan(
             mission,
@@ -53,7 +58,29 @@ class ResearchControlPlaneTests(unittest.TestCase):
         queries = [item["query"] for item in plan["queries"]]
         self.assertTrue(any("宠物独居陪伴行为新变化" in value for value in queries))
         self.assertTrue(any("AI代理授权摩擦" in value for value in queries))
+        self.assertEqual(len({item["query_id"] for item in plan["queries"]}), 60)
         self.assertEqual(plan["schema_version"], "research-control-plane.v1")
+
+    def test_query_budget_fails_closed_when_seed_space_would_duplicate_tasks(self):
+        mission = ResearchMission(
+            mission_id="tiny",
+            as_of_date="2026-09-14",
+            primary_geography="CN",
+            zoom_geographies=("CN-JS",),
+            objective_primitives=("CHANGE",),
+            seeds=(ResearchSeed("one", "单一主题", "zh-CN", ("CHANGE",)),),
+            lane_weights={
+                "CHINA_CORE": 1,
+                "JIANGSU_ZOOM": 0,
+                "XUZHOU_ZOOM": 0,
+                "GLOBAL_AUXILIARY": 0,
+                "CONTRADICTION_SEARCH": 0,
+                "SOURCE_DISCOVERY": 0,
+            },
+            max_query_count=2,
+        )
+        with self.assertRaisesRegex(ValueError, "duplicate query slots"):
+            build_research_plan(mission)
 
     def test_unexecuted_plan_is_explicit_calibration_only(self):
         mission = self._mission()
