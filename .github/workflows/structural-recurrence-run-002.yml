@@ -1,0 +1,97 @@
+name: structural-recurrence-run-002
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/emergent_taxonomy.py"
+      - "scripts/build_structural_recurrence_probe.py"
+      - "tests/test_structural_recurrence_run_002.py"
+      - "data/research_runs/STRUCTURAL_RECURRENCE_RUN_002_2026-09-14/**"
+      - "data/research_runs/BROAD_DISCOVERY_RUN_001_2026-09-14/evidence.json"
+      - "data/research_runs/BROAD_DISCOVERY_RUN_001_2026-09-14/reviewed_observations.json"
+      - "data/research_runs/BROAD_DISCOVERY_RUN_001_2026-09-14/dynamic_terms.json"
+      - ".github/workflows/structural-recurrence-run-002.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: structural-recurrence-run-002
+  cancel-in-progress: false
+
+jobs:
+  validate-structural-recurrence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Build structural recurrence probe
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .local
+          python scripts/build_structural_recurrence_probe.py \
+            --parent-research-evidence data/research_runs/BROAD_DISCOVERY_RUN_001_2026-09-14/evidence.json \
+            --parent-reviewed data/research_runs/BROAD_DISCOVERY_RUN_001_2026-09-14/reviewed_observations.json \
+            --research-evidence data/research_runs/STRUCTURAL_RECURRENCE_RUN_002_2026-09-14/evidence.json \
+            --reviewed data/research_runs/STRUCTURAL_RECURRENCE_RUN_002_2026-09-14/reviewed_observations.json \
+            --alignments data/research_runs/STRUCTURAL_RECURRENCE_RUN_002_2026-09-14/concept_alignments.json \
+            --output .local/structural_recurrence_probe.json
+
+      - name: Validate expected taxonomy-review boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(jq -r '.taxonomy_promotion' .local/structural_recurrence_probe.json)" = "NOT_PROMOTED"
+          test "$(jq -r '.business_promotion' .local/structural_recurrence_probe.json)" = "NOT_PROMOTED"
+          test "$(jq -r '.promotion_review_ready_count' .local/structural_recurrence_probe.json)" = "1"
+          test "$(jq -r '.exact_observed_pattern_count' .local/structural_recurrence_probe.json)" = "0"
+
+          idle_state="$(jq -r '.alignments[] | select(.candidate_concept=="IDLE_ASSET_SCENARIO_REPURPOSING") | .state' .local/structural_recurrence_probe.json)"
+          ai_state="$(jq -r '.alignments[] | select(.candidate_concept=="AI_HUMAN_ESCALATION_FRICTION") | .state' .local/structural_recurrence_probe.json)"
+          test "$idle_state" = "PROMOTION_REVIEW_READY"
+          test "$ai_state" = "CANDIDATE"
+
+          ai_reasons="$(jq -c '.alignments[] | select(.candidate_concept=="AI_HUMAN_ESCALATION_FRICTION") | .reasons' .local/structural_recurrence_probe.json)"
+          jq -e '.alignments[] | select(.candidate_concept=="AI_HUMAN_ESCALATION_FRICTION") | (.reasons | index("INSUFFICIENT_OBSERVATION_COUNT") != null) and (.reasons | index("INSUFFICIENT_ACTOR_DIVERSITY") != null)' .local/structural_recurrence_probe.json >/dev/null
+
+          if jq -e '.. | objects | has("payer") or has("paid_need") or has("route_testable") or has("opportunity_score") or has("commercial_score")' .local/structural_recurrence_probe.json >/dev/null; then
+            echo "Commercial truth leaked into structural recurrence probe" >&2
+            exit 1
+          fi
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Structural Recurrence Run 002"
+            echo
+            jq -r '"- combined reviewed observations: `\(.combined_observation_count)`"' .local/structural_recurrence_probe.json
+            jq -r '"- exact source-native recurring patterns: `\(.exact_observed_pattern_count)`"' .local/structural_recurrence_probe.json
+            jq -r '"- reviewed alignments: `\(.alignment_count)`"' .local/structural_recurrence_probe.json
+            jq -r '"- promotion-review-ready concepts: `\(.promotion_review_ready_count)`"' .local/structural_recurrence_probe.json
+            echo
+            jq -r '.alignments[] | "- `\(.candidate_concept)` — `\(.state)` — observations `\(.observation_count)`, sources `\(.source_count)`, actors `\(.actor_count)`, periods `\(.period_count)`, taxonomy promotion `\(.taxonomy_promotion)`"' .local/structural_recurrence_probe.json
+            echo
+            echo "Promotion-review readiness is ontology governance only. No taxonomy node, ObservedPattern, paid need, route or business is promoted by this workflow."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload structural recurrence artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: structural-recurrence-run-002-state
+          path: .local/structural_recurrence_probe.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
