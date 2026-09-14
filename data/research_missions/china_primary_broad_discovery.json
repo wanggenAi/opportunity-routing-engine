@@ -1,0 +1,89 @@
+{
+  "mission_id": "CHINA_PRIMARY_BROAD_DISCOVERY_V1",
+  "as_of_date": "2026-09-14",
+  "primary_geography": "CN",
+  "zoom_geographies": ["CN-JS", "CN-JS-XUZHOU"],
+  "objective_primitives": [
+    "ACTOR",
+    "STATE",
+    "CHANGE",
+    "RESOURCE",
+    "CAPABILITY",
+    "PERCEPTION",
+    "MOTIVE",
+    "BEHAVIOR",
+    "FLOW",
+    "CONSTRAINT",
+    "FRICTION",
+    "OUTCOME"
+  ],
+  "seeds": [
+    {
+      "seed_id": "resident-decision-change",
+      "text": "居民 消费 储蓄 替代 决策 行为 变化",
+      "language": "zh-CN",
+      "target_primitives": ["PERCEPTION", "MOTIVE", "BEHAVIOR", "FLOW"]
+    },
+    {
+      "seed_id": "household-balance-change",
+      "text": "居民 收入 就业 储蓄 信贷 家庭资产负债 变化",
+      "language": "zh-CN",
+      "target_primitives": ["STATE", "CHANGE", "FLOW", "CONSTRAINT"]
+    },
+    {
+      "seed_id": "enterprise-state-change",
+      "text": "企业 招聘 裁员 投资 库存 定价 产能 经营 变化",
+      "language": "zh-CN",
+      "target_primitives": ["ACTOR", "STATE", "CHANGE", "BEHAVIOR", "FLOW"]
+    },
+    {
+      "seed_id": "underused-resource-change",
+      "text": "闲置 低利用 资产 设备 空间 技能 能力 资源",
+      "language": "zh-CN",
+      "target_primitives": ["RESOURCE", "CAPABILITY", "STATE", "FRICTION"]
+    },
+    {
+      "seed_id": "friction-workaround-change",
+      "text": "重复 抱怨 等待 退货 延误 替代 人工绕行 协调 摩擦",
+      "language": "zh-CN",
+      "target_primitives": ["BEHAVIOR", "CONSTRAINT", "FRICTION", "OUTCOME"]
+    },
+    {
+      "seed_id": "technology-repricing-change",
+      "text": "AI 机器人 自动化 传感器 软件 成本下降 新能力 变化",
+      "language": "zh-CN",
+      "target_primitives": ["CHANGE", "CAPABILITY", "RESOURCE", "FLOW"]
+    },
+    {
+      "seed_id": "global-china-signal",
+      "text": "China Chinese consumer enterprise technology resource behavior change",
+      "language": "en",
+      "target_primitives": ["CHANGE", "PERCEPTION", "BEHAVIOR", "RESOURCE", "FRICTION"]
+    }
+  ],
+  "lane_weights": {
+    "CHINA_CORE": 35,
+    "JIANGSU_ZOOM": 15,
+    "XUZHOU_ZOOM": 15,
+    "GLOBAL_AUXILIARY": 15,
+    "CONTRADICTION_SEARCH": 10,
+    "SOURCE_DISCOVERY": 10
+  },
+  "freshness_days": 30,
+  "max_query_count": 60,
+  "max_results_per_query": 20,
+  "max_results_per_host": 20,
+  "min_independent_hosts": 12,
+  "min_source_families": 6,
+  "max_single_host_share": 0.2,
+  "max_global_auxiliary_share": 0.3,
+  "require_domestic_corroboration_for_global": true,
+  "cross_border_mode": "EXCEPTION_ONLY",
+  "allowed_execution_modes": [
+    "INTERACTIVE_AGENT_WEB",
+    "DIRECT_PUBLIC_SOURCE",
+    "AUTHORIZED_API",
+    "AUTHORIZED_EXPORT",
+    "PUBLIC_MANUAL"
+  ]
+}
