@@ -91,3 +91,56 @@ The legacy resource bridge is one-way and conservative. Only `OBSERVED` claims m
 ## Production smoke
 
 Architecture fixtures may prove heterogeneous normalization, storage and taxonomy flow, but must be labelled fixture-only and never represented as real-world evidence. Smoke artifacts may report observation/source/Actor counts, primitive coverage, residual concepts, epistemic counts, unknowns, contradictions, geography lanes, provenance completeness and schema versions. They must not manufacture opportunity counts.
+
+## Live production bridge
+
+The first real production bridge consumes existing evidence artifacts instead of duplicating source collectors. Initial connected source families are:
+
+```text
+jiangsu-money-flow-live
+→ official Jiangsu macro release metrics
+→ CHANGE / STATE observations
+
+regional-data-live
+→ recent Xuzhou government procurement notices
+→ STATE / FLOW / TIME / CONSTRAINT observations
+
+resource-underuse-live
+→ Xuzhou public and officially-discovered linked asset listings
+→ RESOURCE / STATE / CHANGE observations
+```
+
+These are observation inputs only. Their live adapters preserve the source's existing truth boundaries:
+
+```text
+DECLARED PROCUREMENT BUDGET != PAYMENT
+PROCUREMENT NOTICE != PAID NEED
+PUBLIC LISTING != CONTROL
+PUBLIC LISTING != CURRENT AVAILABILITY
+PUBLISHER != OWNER
+RELISTING != UNDERUSE
+OBSERVED UNDERUSE REQUIRES EXPLICIT SOURCE TEXT
+OBSERVATION != OPPORTUNITY
+UNKNOWN != PASS
+```
+
+The Jiangsu macro adapter remains Actor-less because aggregate statistics do not identify an individual Actor. Xuzhou procurement remains Actor-less when the upstream collector has not extracted an explicit buyer identity. Asset owner Actors are source-scoped and created only from an explicit `owner_actor`; a publisher is never silently substituted for the owner.
+
+## Cross-run durable state
+
+`observation-fabric-live` restores the SQLite database from the latest successful prior live artifact before ingesting current upstream artifacts. If a prior successful live run exists but its durable artifact cannot be restored, the workflow fails rather than silently creating an empty replacement history. Only the first successful production run may bootstrap an empty store.
+
+The live state artifact contains:
+
+```text
+observation_fabric_live.sqlite
+observation_fabric_live_assessment.json
+observation_fabric_current.jsonl
+live_observation_upstream_manifest.json
+```
+
+The upstream manifest records the exact successful source runs used for that build. Artifact-chain persistence is an operational durability mechanism, not business truth.
+
+A scheduled collector often re-fetches an unchanged source record. A later retrieval timestamp alone is not new evidence. If normalized source content and parser version are unchanged, the live pipeline reports `UNCHANGED_SOURCE_CONTENT` and does not inflate observation history. A changed source record or parser version may create a revision, preserving both old and new evidence.
+
+Production validation must fail if durable current/history counts shrink after a prior state is restored, if SQLite integrity fails, if required source families disappear, or if ingress creates downstream payer/payment/availability/permission/route/opportunity truth.
