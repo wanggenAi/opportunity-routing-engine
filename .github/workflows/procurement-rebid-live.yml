@@ -13,6 +13,7 @@ on:
       - "scripts/collect_xuzhou_procurement_failures.py"
       - "scripts/build_procurement_rebid_signals.py"
       - "tests/test_procurement_rebid.py"
+      - "tests/test_procurement_failure_discovery.py"
       - ".github/workflows/procurement-rebid-live.yml"
 
 permissions:
@@ -75,6 +76,8 @@ jobs:
           python scripts/collect_xuzhou_procurement_failures.py \
             --result-json .local/xz_procurement_awards.json \
             --result-json .local/xz_seeded_procurement_awards.json \
+            --discover-pages 3 \
+            --max-discovered-items 60 \
             --output .local/xz_procurement_failures.json
 
       - name: Build strict rebid change signals
@@ -93,6 +96,10 @@ jobs:
 
           failures = json.loads(Path('.local/xz_procurement_failures.json').read_text(encoding='utf-8'))
           rebids = json.loads(Path('.local/xz_procurement_rebids.json').read_text(encoding='utf-8'))
+
+          discovery = failures.get('result_index_discovery')
+          if not isinstance(discovery, dict) or int(discovery.get('scanned_pages') or 0) < 1:
+              raise SystemExit('official result-index discovery did not execute')
 
           for item in failures['failures']:
               if item.get('outcome_state') != 'EXPLICIT_PACKAGE_VOID':
@@ -128,6 +135,8 @@ jobs:
           print('# Procurement rebid sensor')
           print()
           print(f"- source resource run: `{os.environ['SOURCE_RUN_ID']}`")
+          print(f"- known award result URLs: `{failures['known_result_url_count']}`")
+          print(f"- additional index-discovered result URLs: `{failures['discovered_result_url_count']}`")
           print(f"- explicit failed packages: `{failures['failed_package_count']}`")
           print(f"- strict rebid signals: `{rebids['signal_count']}`")
           print()
