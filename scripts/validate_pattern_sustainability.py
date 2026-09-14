@@ -70,6 +70,13 @@ def main() -> int:
     if data.get("source_observation_run_id") != source.get("source_observation_run_id"):
         raise SystemExit("Observation Fabric lineage was not preserved")
 
+    scope_state = str(source.get("research_scope_state") or "CALIBRATION_ONLY")
+    expected_execution_authorized = scope_state == "BROAD_DISCOVERY_READY"
+    if data.get("source_research_scope_state") != scope_state:
+        raise SystemExit("sustainability artifact lost research scope lineage")
+    if data.get("validation_execution_authorized") is not expected_execution_authorized:
+        raise SystemExit("sustainability execution authorization drifted from research scope")
+
     source_patterns = {
         item["pattern_id"]: item
         for item in source.get("patterns", [])
@@ -86,6 +93,7 @@ def main() -> int:
         raise SystemExit("not every observed pattern received a sustainability assessment")
 
     seen: set[str] = set()
+    observed_task_count = 0
     for item in assessments:
         if not isinstance(item, dict):
             raise SystemExit("sustainability assessment must be an object")
@@ -129,14 +137,28 @@ def main() -> int:
                 raise SystemExit(f"{name} was promoted without evidence")
 
         tasks = item.get("validation_tasks")
-        if not isinstance(tasks, list) or {task.get("task_type") for task in tasks if isinstance(task, dict)} != VALIDATION_TASKS:
-            raise SystemExit("sustainability validation tasks are incomplete")
+        if not isinstance(tasks, list):
+            raise SystemExit("validation_tasks must be an array")
+        task_types = {task.get("task_type") for task in tasks if isinstance(task, dict)}
+        if expected_execution_authorized:
+            if task_types != VALIDATION_TASKS:
+                raise SystemExit("broad-scope sustainability validation tasks are incomplete")
+        elif tasks:
+            raise SystemExit("calibration/partial research scope created an operator validation backlog")
+
         for task in tasks:
             if not task.get("evidence_required") or not task.get("falsifier"):
                 raise SystemExit("validation task lacks evidence requirement or falsifier")
+        observed_task_count += len(tasks)
+
+    if data.get("validation_task_count") != observed_task_count:
+        raise SystemExit("validation_task_count mismatch")
 
     print(json.dumps({
         "validated": True,
+        "source_research_scope_state": scope_state,
+        "validation_execution_authorized": expected_execution_authorized,
+        "validation_task_count": observed_task_count,
         "assessment_count": len(assessments),
         "core_business_candidate_count": 0,
         "business_promotion": "NOT_PROMOTED",
