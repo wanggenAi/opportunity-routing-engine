@@ -1,0 +1,125 @@
+name: opportunity-funnel-live
+
+on:
+  workflow_run:
+    workflows: ["resource-imbalance-live"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  build-control-plane:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Resolve source Resource Imbalance run
+        id: source
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TRIGGER_RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+          if [[ -n "${TRIGGER_RUN_ID:-}" ]]; then
+            run_id="$TRIGGER_RUN_ID"
+          else
+            run_id="$(gh run list \
+              --repo "$GITHUB_REPOSITORY" \
+              --workflow resource-imbalance-live.yml \
+              --status success \
+              --limit 1 \
+              --json databaseId \
+              --jq '.[0].databaseId')"
+          fi
+          if [[ -z "${run_id:-}" || "$run_id" == "null" ]]; then
+            echo "No successful resource-imbalance-live run is available" >&2
+            exit 1
+          fi
+          echo "run_id=$run_id" >> "$GITHUB_OUTPUT"
+
+      - name: Download canonical live evidence artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: xuzhou-resource-imbalance-ledger
+          path: .local
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: ${{ steps.source.outputs.run_id }}
+
+      - name: Build opportunity funnel control plane
+        run: |
+          python scripts/build_opportunity_funnel.py \
+            --ledger .local/xz_resource_imbalance_ledger.json \
+            --validation-queue .local/xz_pair_validation_queue.json \
+            --field-packets .local/xz_field_validation_packets.json \
+            --focus-limit 5 \
+            --output .local/xz_opportunity_funnel.json
+
+      - name: Assert control-plane truth boundaries
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path('.local/xz_opportunity_funnel.json').read_text(encoding='utf-8'))
+          if data['ordering_basis'] != 'EVIDENCE_DISTANCE_ONLY_NOT_COMMERCIAL_RANKING':
+              raise SystemExit('opportunity funnel ordering semantics drifted')
+          if data['validation_focus_count'] > data['validation_focus_limit']:
+              raise SystemExit('validation focus exceeded configured limit')
+          if any(item.get('status') != 'PAIR_HYPOTHESIS' for item in data['validation_focus']):
+              raise SystemExit('non-pair record entered pair validation focus')
+          if data['transaction_test_ready'] != (data['route_testable_count'] > 0):
+              raise SystemExit('transaction readiness diverged from canonical route-testable count')
+          if data['route_testable_count'] > 0 and data['batch_next_action'] != 'RUN_BOUNDED_TRANSACTION_TEST':
+              raise SystemExit('route-testable work did not switch to bounded transaction testing')
+          for item in data['records']:
+              if 'score' in item or 'commercial_score' in item:
+                  raise SystemExit('control plane invented a commercial score')
+          PY
+
+      - name: Publish operator summary
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path('.local/xz_opportunity_funnel.json').read_text(encoding='utf-8'))
+          print('# Opportunity funnel control plane')
+          print()
+          print(f"- source resource run: `{ '${{ steps.source.outputs.run_id }}' }`")
+          print(f"- canonical records: `{data['record_count']}`")
+          print(f"- status counts: `{data['status_counts']}`")
+          print(f"- route-testable: `{data['route_testable_count']}`")
+          print(f"- transaction test ready: `{data['transaction_test_ready']}`")
+          print(f"- validation focus: `{data['validation_focus_count']}`")
+          print(f"- next batch action: `{data['batch_next_action']}`")
+          print()
+          print('## Validation focus')
+          for index, item in enumerate(data['validation_focus'], 1):
+              print(
+                  f"{index}. `{item.get('capability_key')}` — missing gates "
+                  f"`{item.get('missing_gates')}` — next `{item.get('next_action')}`"
+              )
+          PY
+
+      - name: Upload opportunity funnel artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: opportunity-funnel-live-${{ github.run_number }}
+          path: .local/xz_opportunity_funnel.json
+          if-no-files-found: error
