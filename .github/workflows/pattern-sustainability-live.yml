@@ -1,0 +1,128 @@
+name: pattern-sustainability-live
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["observed-pattern-live"]
+    types: [completed]
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: pattern-sustainability-live
+  cancel-in-progress: false
+
+jobs:
+  assess-pattern-sustainability:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Resolve source ObservedPattern run
+        id: source
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TRIGGER_RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+          if [[ -n "${TRIGGER_RUN_ID:-}" ]]; then
+            run_id="$TRIGGER_RUN_ID"
+          else
+            latest="$(gh run list \
+              --repo "$GITHUB_REPOSITORY" \
+              --workflow observed-pattern-live.yml \
+              --branch main \
+              --limit 1 \
+              --json databaseId,status,conclusion \
+              --jq '.[0] // empty')"
+            if [[ -z "$latest" || "$latest" == "null" ]]; then
+              echo "No main-branch ObservedPattern run exists" >&2
+              exit 1
+            fi
+            status="$(jq -r '.status // empty' <<<"$latest")"
+            conclusion="$(jq -r '.conclusion // empty' <<<"$latest")"
+            if [[ "$status" != "completed" || "$conclusion" != "success" ]]; then
+              echo "Latest ObservedPattern run is not completed/success; refusing stale fallback" >&2
+              exit 1
+            fi
+            run_id="$(jq -r '.databaseId' <<<"$latest")"
+          fi
+          if [[ -z "${run_id:-}" || "$run_id" == "null" ]]; then
+            echo "No source ObservedPattern run resolved" >&2
+            exit 1
+          fi
+          echo "run_id=$run_id" >> "$GITHUB_OUTPUT"
+          mkdir -p .local
+          gh run view "$run_id" \
+            --repo "$GITHUB_REPOSITORY" \
+            --json databaseId,headSha,createdAt,updatedAt,url,status,conclusion,event \
+            > .local/source_pattern_run.json
+
+      - name: Download observed-pattern evidence
+        uses: actions/download-artifact@v4
+        with:
+          name: observed-pattern-live-state
+          path: .upstream/patterns
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: ${{ steps.source.outputs.run_id }}
+
+      - name: Build sustainability-gap assessments
+        env:
+          SOURCE_RUN_ID: ${{ steps.source.outputs.run_id }}
+        run: |
+          python scripts/build_pattern_sustainability.py \
+            --patterns .upstream/patterns/observed_patterns.json \
+            --source-pattern-run-id "$SOURCE_RUN_ID" \
+            --output .local/pattern_sustainability.json
+
+      - name: Validate no archetype self-promotion
+        env:
+          SOURCE_RUN_ID: ${{ steps.source.outputs.run_id }}
+        run: |
+          python scripts/validate_pattern_sustainability.py \
+            --assessment .local/pattern_sustainability.json \
+            --source-patterns .upstream/patterns/observed_patterns.json \
+            --expected-source-run-id "$SOURCE_RUN_ID"
+
+      - name: Publish operator summary
+        env:
+          SOURCE_RUN_ID: ${{ steps.source.outputs.run_id }}
+        run: |
+          {
+            echo "# Pattern sustainability gate"
+            echo
+            echo "- source ObservedPattern run: \`$SOURCE_RUN_ID\`"
+            jq -r '"- observed patterns assessed: `\(.assessment_count)`"' .local/pattern_sustainability.json
+            jq -r '"- core business candidates created: `\(.core_business_candidate_count)`"' .local/pattern_sustainability.json
+            echo
+            echo "## Sustainability gaps"
+            jq -r '.assessments[] | "- `\(.primitive) / \(.concept) / \(.geography)` — state `\(.core_business_state)` — missing `\(.missing_core_gates)`"' .local/pattern_sustainability.json
+            echo
+            echo "Recurring evidence is preserved, but standardizability, repeat monetization, compounding, complementary-Actor structure and a regenerating event mechanism remain UNKNOWN until independently evidenced."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload sustainability-gap artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pattern-sustainability-live-state
+          path: |
+            .local/pattern_sustainability.json
+            .local/source_pattern_run.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
