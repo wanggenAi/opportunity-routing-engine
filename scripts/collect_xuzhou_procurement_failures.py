@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect source-explicit failed-package evidence from known Xuzhou result pages."""
+"""Collect source-explicit failed-package evidence from Xuzhou result pages."""
 
 from __future__ import annotations
 
@@ -22,26 +22,47 @@ def _read_json(path: str) -> dict:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Extract explicit failed procurement packages from already-proven result URLs"
+        description=(
+            "Extract explicit failed procurement packages from known result URLs and "
+            "a bounded official result-index scan"
+        )
     )
     parser.add_argument(
         "--result-json",
         action="append",
-        required=True,
+        default=[],
         help="Procurement award/result JSON; may be supplied multiple times",
+    )
+    parser.add_argument(
+        "--discover-pages",
+        type=int,
+        default=3,
+        help="Bounded number of official result-list pages to scan; 0 disables discovery",
+    )
+    parser.add_argument(
+        "--max-discovered-items",
+        type=int,
+        default=60,
+        help="Maximum exact-capability result-list items admitted for detail fetch",
     )
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
 
     try:
         payloads = [_read_json(path) for path in args.result_json]
-        result = XuzhouProcurementFailureAdapter().collect_from_result_payloads(payloads)
+        result = XuzhouProcurementFailureAdapter().collect_from_result_payloads(
+            payloads,
+            discover_pages=args.discover_pages,
+            max_discovered_items=args.max_discovered_items,
+        )
         write_json_atomic(args.output, result)
         print(f"wrote {args.output}")
         print(
             json.dumps(
                 {
                     "result_url_count": result["result_url_count"],
+                    "known_result_url_count": result["known_result_url_count"],
+                    "discovered_result_url_count": result["discovered_result_url_count"],
                     "failed_package_count": result["failed_package_count"],
                     "error_count": result["error_count"],
                 },
