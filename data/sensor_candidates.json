@@ -1,0 +1,58 @@
+[
+  {
+    "source_id": "REDDIT_CHINA_AUX_CANDIDATE",
+    "name": "Reddit China-related public discussion candidate",
+    "base_url": "https://www.reddit.com",
+    "origin_geography": "GLOBAL",
+    "relevance_geographies": ["CN"],
+    "observable_dimensions": ["PERCEPTION", "MOTIVE", "BEHAVIOR", "FRICTION"],
+    "collection_mode": "UNKNOWN",
+    "provenance_refs": ["SEED_SOURCE_SURFACE:2026-09-14"],
+    "china_relevance_evidence_refs": [],
+    "activation_evidence_refs": [],
+    "unique_signal_value": "UNKNOWN",
+    "lifecycle_state": "DISCOVERED"
+  },
+  {
+    "source_id": "X_CHINA_AUX_CANDIDATE",
+    "name": "X China-related public discussion candidate",
+    "base_url": "https://x.com",
+    "origin_geography": "GLOBAL",
+    "relevance_geographies": ["CN"],
+    "observable_dimensions": ["PERCEPTION", "BEHAVIOR", "CHANGE", "FRICTION"],
+    "collection_mode": "UNKNOWN",
+    "provenance_refs": ["SEED_SOURCE_SURFACE:2026-09-14"],
+    "china_relevance_evidence_refs": [],
+    "activation_evidence_refs": [],
+    "unique_signal_value": "UNKNOWN",
+    "lifecycle_state": "DISCOVERED"
+  },
+  {
+    "source_id": "INSTAGRAM_CHINA_AUX_CANDIDATE",
+    "name": "Instagram China-related public content candidate",
+    "base_url": "https://www.instagram.com",
+    "origin_geography": "GLOBAL",
+    "relevance_geographies": ["CN"],
+    "observable_dimensions": ["PERCEPTION", "MOTIVE", "BEHAVIOR", "CHANGE"],
+    "collection_mode": "UNKNOWN",
+    "provenance_refs": ["SEED_SOURCE_SURFACE:2026-09-14"],
+    "china_relevance_evidence_refs": [],
+    "activation_evidence_refs": [],
+    "unique_signal_value": "UNKNOWN",
+    "lifecycle_state": "DISCOVERED"
+  },
+  {
+    "source_id": "TELEGRAM_CHINA_AUX_CANDIDATE",
+    "name": "Telegram China-related public channel candidate",
+    "base_url": "https://telegram.org",
+    "origin_geography": "GLOBAL",
+    "relevance_geographies": ["CN"],
+    "observable_dimensions": ["ACTOR", "PERCEPTION", "BEHAVIOR", "FLOW", "FRICTION"],
+    "collection_mode": "UNKNOWN",
+    "provenance_refs": ["SEED_SOURCE_SURFACE:2026-09-14"],
+    "china_relevance_evidence_refs": [],
+    "activation_evidence_refs": [],
+    "unique_signal_value": "UNKNOWN",
+    "lifecycle_state": "DISCOVERED"
+  }
+]
