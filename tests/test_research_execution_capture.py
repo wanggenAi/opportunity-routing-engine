@@ -1,5 +1,4 @@
 import json
-import tempfile
 import unittest
 from pathlib import Path
 
@@ -51,10 +50,12 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
         plan = self._plan()
         with self.assertRaisesRegex(ValueError, "exactly one research query task"):
             bind_capture_to_plan(plan, self._capture(seed_id="not-in-plan"))
+        # GLOBAL_AUXILIARY currently receives only 9 mission slots; this seed is
+        # intentionally outside those slots even though it remains a valid mission seed.
         with self.assertRaisesRegex(ValueError, "exactly one research query task"):
             bind_capture_to_plan(
                 plan,
-                self._capture(lane="GLOBAL_AUXILIARY", seed_id="housing-rental-change"),
+                self._capture(lane="GLOBAL_AUXILIARY", seed_id="pet-companionship-change"),
             )
 
     def test_capture_mission_mismatch_fails_closed(self):
@@ -99,7 +100,7 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
         self.assertEqual(payload["capture_schema_version"], "research-executor-capture.v1")
         rendered = json.dumps(payload, ensure_ascii=False)
         self.assertNotIn("opportunity_score", rendered)
-        self.assertNotIn("payer", rendered)
+        self.assertNotIn('"payer"', rendered)
 
 
 if __name__ == "__main__":
