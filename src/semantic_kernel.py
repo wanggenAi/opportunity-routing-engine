@@ -25,6 +25,8 @@ SEMANTIC_PRIMITIVES = frozenset(
     }
 )
 
+EPISTEMIC_STATUSES = frozenset({"OBSERVED", "REPORTED", "INFERRED"})
+
 
 @dataclass(frozen=True)
 class SemanticObservation:
@@ -36,6 +38,7 @@ class SemanticObservation:
     evidence_refs: tuple[str, ...]
     actor_id: str | None = None
     geography: str | None = None
+    epistemic_status: str = "OBSERVED"
 
     def __post_init__(self) -> None:
         if not self.observation_id.strip():
@@ -50,6 +53,8 @@ class SemanticObservation:
             raise ValueError("observed_at is required")
         if not self.evidence_refs:
             raise ValueError("at least one evidence ref is required")
+        if self.epistemic_status not in EPISTEMIC_STATUSES:
+            raise ValueError(f"unsupported epistemic_status: {self.epistemic_status}")
 
 
 def validate_open_concept_namespace(
