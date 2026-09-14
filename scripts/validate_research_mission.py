@@ -19,8 +19,23 @@ def main() -> None:
 
     if plan.get("schema_version") != "research-control-plane.v1":
         raise SystemExit("unexpected research plan schema")
-    if int(plan.get("query_count", 0)) <= 0:
+    query_count = int(plan.get("query_count", 0))
+    if query_count <= 0:
         raise SystemExit("research plan must contain query tasks")
+    queries = plan.get("queries")
+    if not isinstance(queries, list) or len(queries) != query_count:
+        raise SystemExit("query_count must match the research query array")
+    query_ids = [item.get("query_id") for item in queries if isinstance(item, dict)]
+    query_texts = [item.get("query") for item in queries if isinstance(item, dict)]
+    if len(query_ids) != query_count or any(not value for value in query_ids):
+        raise SystemExit("every research task must have a query_id")
+    if len(set(query_ids)) != query_count:
+        raise SystemExit("research plan contains duplicate query_id values")
+    if len(query_texts) != query_count or any(not value for value in query_texts):
+        raise SystemExit("every research task must have query text")
+    if len(set(query_texts)) != query_count:
+        raise SystemExit("research plan contains duplicate query text")
+
     if coverage.get("state") != "CALIBRATION_ONLY":
         raise SystemExit("planning workflow must remain CALIBRATION_ONLY before evidence execution")
     if coverage.get("broad_discovery_use_authorized") is not False:
@@ -48,7 +63,8 @@ def main() -> None:
             {
                 "validated": True,
                 "mission_id": coverage.get("mission_id"),
-                "query_count": plan.get("query_count"),
+                "query_count": query_count,
+                "unique_query_count": len(set(query_ids)),
                 "coverage_state": coverage.get("state"),
             },
             ensure_ascii=False,
