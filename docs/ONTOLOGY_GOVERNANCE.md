@@ -126,6 +126,13 @@ A deprecated version:
 - cannot be activated;
 - does not erase observations that used an earlier concept version.
 
+Deprecating a concept whose earlier version is currently active is not allowed as an implicit side effect. The operator must first perform a separate explicit `deactivate()` action and only then register the `DEPRECATE` version. This prevents a registry from simultaneously claiming that a concept is deprecated while an older version remains active.
+
+Once the latest version for a stable `concept_id` is `DEPRECATED`, that concept history is terminal:
+- no earlier `ELIGIBLE` version may be reactivated;
+- no later `REVISE` / `RENAME` / other eligible version may silently revive the same stable identity;
+- a genuinely new concept must use a new `concept_id` and preserve its relationship through explicit lineage.
+
 Historical data must remain interpretable under the taxonomy version that existed when it was produced.
 
 ## 7. Activation
@@ -136,11 +143,12 @@ A registered version is not active merely because it was approved for creation.
 
 Activation requires:
 - an existing `ELIGIBLE` ontology version;
+- a concept whose latest version is not `DEPRECATED`;
 - explicit actor/authority identity;
 - timezone-aware activation time;
 - explicit rationale.
 
-A `DEPRECATED` version cannot be activated.
+A `DEPRECATED` version cannot be activated, and an older eligible version cannot be used to resurrect a concept after a later deprecation.
 
 ## 8. Review queue behavior
 
@@ -183,4 +191,4 @@ The commercial system still requires its own recurrence, payer, resource, blocke
 
 ## 10. Governing invariant
 
-> **让 taxonomy 随证据生长，但不让模型的命名冲动变成事实：先积累多来源、多 Actor、跨时间的 reviewed evidence，再进入显式 ontology review；定义变化必须产生新版本，rename/merge/split/deprecate 必须保留 lineage；任何版本只有经过独立 activation 才能成为当前 ontology，而 ontology 本身永远不能替代商业证据。**
+> **让 taxonomy 随证据生长，但不让模型的命名冲动变成事实：先积累多来源、多 Actor、跨时间的 reviewed evidence，再进入显式 ontology review；定义变化必须产生新版本，rename/merge/split/deprecate 必须保留 lineage；任何版本只有经过独立 activation 才能成为当前 ontology；deprecation 必须先显式 deactivate，且一旦 stable concept identity 被 deprecated 就不能通过旧版本或追加 eligible 版本偷偷复活；ontology 本身永远不能替代商业证据。**
