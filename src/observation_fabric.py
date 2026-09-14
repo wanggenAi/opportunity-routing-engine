@@ -1,14 +1,14 @@
 """Source-neutral event-level observation contract.
 
 The Observation Fabric records what a source actually supports before any business,
-resource, demand, payer or opportunity projection.  Concepts are intentionally open-
+resource, demand, payer or opportunity projection. Concepts are intentionally open-
 ended; only the stable semantic primitive namespace is closed.
 """
 
 from __future__ import annotations
 
 import json
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass
 from datetime import datetime
 from typing import Any, Iterable
 
@@ -183,12 +183,7 @@ class ObservationEnvelope:
 def semantic_observations_from_envelope(
     envelope: ObservationEnvelope,
 ) -> tuple[SemanticObservation, ...]:
-    """Project envelope claims into the existing primitive-level abstraction.
-
-    The projection preserves epistemic boundaries by carrying only claim identity,
-    concept and provenance.  It does not convert an observation into demand, payer,
-    availability, permission, opportunity or commercial truth.
-    """
+    """Project envelope claims into the existing primitive-level abstraction."""
 
     result: list[SemanticObservation] = []
     default_actor = envelope.actor_ids[0] if len(envelope.actor_ids) == 1 else None
@@ -208,6 +203,7 @@ def semantic_observations_from_envelope(
                 evidence_refs=tuple(claim.evidence_refs),
                 actor_id=claim.actor_id or default_actor,
                 geography=claim.geography or default_geo,
+                epistemic_status=claim.epistemic_status,
             )
         )
     return tuple(result)
