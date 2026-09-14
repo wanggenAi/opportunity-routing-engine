@@ -1,0 +1,134 @@
+name: observed-pattern-live
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["observation-fabric-live"]
+    types: [completed]
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: observed-pattern-live
+  cancel-in-progress: false
+
+jobs:
+  build-observed-patterns:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Resolve source Observation Fabric run
+        id: source
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TRIGGER_RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+          if [[ -n "${TRIGGER_RUN_ID:-}" ]]; then
+            run_id="$TRIGGER_RUN_ID"
+          else
+            latest="$(gh run list \
+              --repo "$GITHUB_REPOSITORY" \
+              --workflow observation-fabric-live.yml \
+              --branch main \
+              --limit 1 \
+              --json databaseId,status,conclusion \
+              --jq '.[0] // empty')"
+            if [[ -z "$latest" || "$latest" == "null" ]]; then
+              echo "No main-branch Observation Fabric run exists" >&2
+              exit 1
+            fi
+            status="$(jq -r '.status // empty' <<<"$latest")"
+            conclusion="$(jq -r '.conclusion // empty' <<<"$latest")"
+            if [[ "$status" != "completed" || "$conclusion" != "success" ]]; then
+              echo "Latest Observation Fabric run is not completed/success; refusing stale fallback" >&2
+              exit 1
+            fi
+            run_id="$(jq -r '.databaseId' <<<"$latest")"
+          fi
+          if [[ -z "${run_id:-}" || "$run_id" == "null" ]]; then
+            echo "No source Observation Fabric run resolved" >&2
+            exit 1
+          fi
+          echo "run_id=$run_id" >> "$GITHUB_OUTPUT"
+          mkdir -p .local
+          gh run view "$run_id" \
+            --repo "$GITHUB_REPOSITORY" \
+            --json databaseId,headSha,createdAt,updatedAt,url,status,conclusion,event \
+            > .local/source_observation_run.json
+
+      - name: Download durable Observation Fabric state
+        uses: actions/download-artifact@v4
+        with:
+          name: observation-fabric-live-state
+          path: .upstream/observation
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: ${{ steps.source.outputs.run_id }}
+
+      - name: Build exact recurring patterns
+        env:
+          SOURCE_RUN_ID: ${{ steps.source.outputs.run_id }}
+        run: |
+          python scripts/build_observed_patterns.py \
+            --store .upstream/observation/observation_fabric_live.sqlite \
+            --source-run-id "$SOURCE_RUN_ID" \
+            --min-observations 3 \
+            --min-actors 2 \
+            --min-periods 2 \
+            --min-sources 1 \
+            --output .local/observed_patterns.json
+
+      - name: Validate pattern truth boundaries
+        env:
+          SOURCE_RUN_ID: ${{ steps.source.outputs.run_id }}
+        run: |
+          python scripts/validate_observed_patterns.py \
+            --patterns .local/observed_patterns.json \
+            --store .upstream/observation/observation_fabric_live.sqlite \
+            --expected-source-run-id "$SOURCE_RUN_ID"
+
+      - name: Publish operator summary
+        env:
+          SOURCE_RUN_ID: ${{ steps.source.outputs.run_id }}
+        run: |
+          {
+            echo "# Observed recurring patterns"
+            echo
+            echo "- source Observation Fabric run: \`$SOURCE_RUN_ID\`"
+            jq -r '"- current observations examined: `\(.input_current_observation_count)`"' .local/observed_patterns.json
+            jq -r '"- exact semantic groups: `\(.pattern_count)`"' .local/observed_patterns.json
+            jq -r '"- OBSERVED_PATTERN: `\(.observed_pattern_count)`"' .local/observed_patterns.json
+            jq -r '"- UNBOUND: `\(.unbound_pattern_count)`"' .local/observed_patterns.json
+            echo
+            echo "## Evidence-gated observed patterns"
+            jq -r '.patterns[] | select(.state == "OBSERVED_PATTERN") | "- `\(.primitive) / \(.concept) / \(.geography)` — observations `\(.observation_count)`, actors `\(.actor_count)`, sources `\(.source_count)`, periods `\(.period_count)`, cautions `\(.evidence_cautions)`"' .local/observed_patterns.json
+            echo
+            echo "Pattern only: no latent-value, payer, payment, opportunity, regenerative-loop or commercial-rank promotion occurs here."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload observed-pattern artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: observed-pattern-live-state
+          path: |
+            .local/observed_patterns.json
+            .local/source_observation_run.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
