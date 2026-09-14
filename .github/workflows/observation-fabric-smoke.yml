@@ -1,0 +1,39 @@
+name: observation-fabric-smoke
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/observation_fabric.py"
+      - "src/observation_store.py"
+      - "src/observation_import.py"
+      - "src/semantic_kernel.py"
+      - "src/emergent_taxonomy.py"
+      - "scripts/build_observation_fabric_assessment.py"
+      - "tests/fixtures/observation_fabric_smoke.json"
+      - ".github/workflows/observation-fabric-smoke.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  assess:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run Observation Fabric tests
+        run: python -m unittest tests.test_observation_fabric -v
+      - name: Build heterogeneous smoke assessment
+        run: python scripts/build_observation_fabric_assessment.py --input tests/fixtures/observation_fabric_smoke.json --db observation_fabric.db --output observation_fabric_assessment.json
+      - name: Upload assessment artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: observation-fabric-smoke-${{ github.run_number }}
+          path: |
+            observation_fabric.db
+            observation_fabric_assessment.json
+          if-no-files-found: error
