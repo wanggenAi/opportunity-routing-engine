@@ -8,12 +8,59 @@ import json
 import sqlite3
 from pathlib import Path
 
+UPSTREAM_KEYS = (
+    "jiangsu_money_flow",
+    "regional_data",
+    "resource_underuse",
+)
+
 
 def _load(path: Path) -> dict:
     value = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(value, dict):
         raise ValueError(f"{path} must contain an object")
     return value
+
+
+def upstream_run_ids(data: dict) -> dict[str, int]:
+    manifest = data.get("upstream_manifest")
+    if not isinstance(manifest, dict):
+        raise SystemExit("upstream run provenance is incomplete")
+    runs = manifest.get("upstream_runs")
+    if not isinstance(runs, dict) or set(runs) != set(UPSTREAM_KEYS):
+        raise SystemExit("upstream run provenance is incomplete")
+
+    result: dict[str, int] = {}
+    for key in UPSTREAM_KEYS:
+        run = runs.get(key)
+        if not isinstance(run, dict):
+            raise SystemExit(f"upstream run metadata is invalid: {key}")
+        database_id = run.get("databaseId")
+        if isinstance(database_id, bool) or not isinstance(database_id, int) or database_id <= 0:
+            raise SystemExit(f"upstream run databaseId is invalid: {key}")
+        if run.get("conclusion") != "success":
+            raise SystemExit(f"upstream run is not successful: {key}")
+        status = run.get("status")
+        if status is not None and status != "completed":
+            raise SystemExit(f"upstream run is not completed: {key}")
+        result[key] = database_id
+    return result
+
+
+def validate_upstream_monotonicity(data: dict, previous: dict) -> None:
+    current_ids = upstream_run_ids(data)
+    previous_ids = upstream_run_ids(previous)
+    regressions = {
+        key: (previous_ids[key], current_ids[key])
+        for key in UPSTREAM_KEYS
+        if current_ids[key] < previous_ids[key]
+    }
+    if regressions:
+        detail = ", ".join(
+            f"{key}:{before}->{after}"
+            for key, (before, after) in sorted(regressions.items())
+        )
+        raise SystemExit(f"upstream run lineage regressed: {detail}")
 
 
 def main() -> int:
@@ -54,9 +101,7 @@ def main() -> int:
     if "PUBLICLY_LISTED_ASSET_OR_RIGHT" not in concepts:
         raise SystemExit("resource listing observation is missing")
 
-    manifest = data.get("upstream_manifest")
-    if not isinstance(manifest, dict) or len(manifest.get("upstream_runs", {})) != 3:
-        raise SystemExit("upstream run provenance is incomplete")
+    upstream_run_ids(data)
 
     connection = sqlite3.connect(args.store)
     try:
@@ -68,6 +113,7 @@ def main() -> int:
 
     if args.previous_assessment is not None:
         previous = _load(args.previous_assessment)
+        validate_upstream_monotonicity(data, previous)
         if data["current_observation_count"] < previous.get("current_observation_count", 0):
             raise SystemExit("durable current state shrank after restoring prior live artifact")
         if data["history_observation_count"] < previous.get("history_observation_count", 0):
@@ -79,6 +125,7 @@ def main() -> int:
         "history_observation_count": data["history_observation_count"],
         "transition_counts": data.get("transition_counts", {}),
         "source_counts": data.get("source_counts", {}),
+        "upstream_run_ids": upstream_run_ids(data),
     }, ensure_ascii=False, sort_keys=True))
     return 0
 
