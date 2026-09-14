@@ -132,7 +132,7 @@ class ObservedPatternTests(unittest.TestCase):
         self.assertEqual(strict_pattern.state, "UNBOUND")
         self.assertIn("INSUFFICIENT_SOURCE_DIVERSITY", strict_pattern.missing_pattern_evidence)
 
-    def test_summary_explicitly_refuses_commercial_ranking_or_promotion(self):
+    def test_summary_defaults_to_calibration_until_broad_research_coverage_exists(self):
         envelopes = (
             self._envelope(1, actor_id="actor-a", day=13),
             self._envelope(2, actor_id="actor-b", day=13),
@@ -143,8 +143,25 @@ class ObservedPatternTests(unittest.TestCase):
         self.assertEqual(summary["business_promotion"], "NOT_PROMOTED")
         self.assertEqual(summary["source_observation_run_id"], 123)
         self.assertEqual(summary["observed_pattern_count"], 1)
+        self.assertEqual(summary["research_scope_state"], "CALIBRATION_ONLY")
+        self.assertFalse(summary["broad_discovery_use_authorized"])
+        self.assertIn("CALIBRATION_SCOPE_NE_BROAD_MARKET_DISCOVERY", summary["governing_invariants"])
         self.assertNotIn("commercial_score", summary["patterns"][0])
         self.assertNotIn("opportunity_score", summary["patterns"][0])
+
+    def test_broad_scope_is_explicit_and_still_does_not_promote_business_truth(self):
+        envelopes = (
+            self._envelope(1, actor_id="actor-a", day=13),
+            self._envelope(2, actor_id="actor-b", day=13),
+            self._envelope(3, actor_id="actor-a", day=14),
+        )
+        summary = summarize_observed_patterns(
+            envelopes,
+            research_scope_state="BROAD_DISCOVERY_READY",
+        )
+        self.assertTrue(summary["broad_discovery_use_authorized"])
+        self.assertEqual(summary["business_promotion"], "NOT_PROMOTED")
+        self.assertIn("PATTERN_NE_OPPORTUNITY", summary["governing_invariants"])
 
 
 if __name__ == "__main__":
