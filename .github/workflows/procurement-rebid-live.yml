@@ -1,0 +1,150 @@
+name: procurement-rebid-live
+
+on:
+  workflow_run:
+    workflows: ["resource-imbalance-live"]
+    types: [completed]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/xuzhou_procurement_failures.py"
+      - "src/procurement_rebid.py"
+      - "scripts/collect_xuzhou_procurement_failures.py"
+      - "scripts/build_procurement_rebid_signals.py"
+      - "tests/test_procurement_rebid.py"
+      - ".github/workflows/procurement-rebid-live.yml"
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  sense-rebids:
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Resolve source Resource Imbalance run
+        id: source
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TRIGGER_RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+          if [[ -n "${TRIGGER_RUN_ID:-}" ]]; then
+            run_id="$TRIGGER_RUN_ID"
+          else
+            run_id="$(gh run list \
+              --repo "$GITHUB_REPOSITORY" \
+              --workflow resource-imbalance-live.yml \
+              --status success \
+              --limit 1 \
+              --json databaseId \
+              --jq '.[0].databaseId')"
+          fi
+          if [[ -z "${run_id:-}" || "$run_id" == "null" ]]; then
+            echo "No successful resource-imbalance-live run is available" >&2
+            exit 1
+          fi
+          echo "run_id=$run_id" >> "$GITHUB_OUTPUT"
+
+      - name: Download canonical live discovery artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: xuzhou-resource-imbalance-ledger
+          path: .local
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: ${{ steps.source.outputs.run_id }}
+
+      - name: Collect explicit failed procurement packages
+        run: |
+          python scripts/collect_xuzhou_procurement_failures.py \
+            --result-json .local/xz_procurement_awards.json \
+            --result-json .local/xz_seeded_procurement_awards.json \
+            --output .local/xz_procurement_failures.json
+
+      - name: Build strict rebid change signals
+        run: |
+          python scripts/build_procurement_rebid_signals.py \
+            --tender-json .local/xz_procurement_events.json \
+            --failure-json .local/xz_procurement_failures.json \
+            --max-days-after-failure 45 \
+            --output .local/xz_procurement_rebids.json
+
+      - name: Assert rebid truth boundaries
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          failures = json.loads(Path('.local/xz_procurement_failures.json').read_text(encoding='utf-8'))
+          rebids = json.loads(Path('.local/xz_procurement_rebids.json').read_text(encoding='utf-8'))
+
+          for item in failures['failures']:
+              if item.get('outcome_state') != 'EXPLICIT_PACKAGE_VOID':
+                  raise SystemExit('non-explicit package failure entered failure artifact')
+              if '此采购包已作废' not in str(item.get('outcome_text') or ''):
+                  raise SystemExit('failure artifact lacks source-explicit void marker')
+
+          forbidden = {'payer', 'paid_event_count', 'provider_actor', 'commercial_score'}
+          for signal in rebids['signals']:
+              if signal.get('change_type') != 'EXPLICIT_FAILED_PACKAGE_FOLLOWED_BY_SAME_PROGRAM_TENDER':
+                  raise SystemExit('rebid change type drifted')
+              if signal.get('evidence_state') != 'OBSERVED_SEQUENCE':
+                  raise SystemExit('rebid evidence state drifted')
+              if signal.get('package_mapping_state') != 'PROGRAM_LEVEL_ONLY_EXACT_PACKAGE_MAPPING_UNRESOLVED':
+                  raise SystemExit('rebid sensor inferred exact package mapping')
+              if forbidden.intersection(signal):
+                  raise SystemExit('rebid sensor manufactured downstream commercial truth')
+              if int(signal.get('days_after_failure') or 0) <= 0:
+                  raise SystemExit('rebid time sequence is not forward-moving')
+          PY
+
+      - name: Publish operator summary
+        env:
+          SOURCE_RUN_ID: ${{ steps.source.outputs.run_id }}
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          import os
+          from pathlib import Path
+
+          failures = json.loads(Path('.local/xz_procurement_failures.json').read_text(encoding='utf-8'))
+          rebids = json.loads(Path('.local/xz_procurement_rebids.json').read_text(encoding='utf-8'))
+          print('# Procurement rebid sensor')
+          print()
+          print(f"- source resource run: `{os.environ['SOURCE_RUN_ID']}`")
+          print(f"- explicit failed packages: `{failures['failed_package_count']}`")
+          print(f"- strict rebid signals: `{rebids['signal_count']}`")
+          print()
+          print('## Rebid signals')
+          for index, signal in enumerate(rebids['signals'], 1):
+              print(
+                  f"{index}. `{signal['capability_key']}` — actor `{signal['actor']}` — "
+                  f"failed `{signal['failed_packages']}` — new project `{signal['current_project_id']}` — "
+                  f"{signal['days_after_failure']} day(s) later — budget `{signal.get('current_budget_rmb')}`"
+              )
+          PY
+
+      - name: Upload rebid sensing artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: procurement-rebid-live-${{ github.run_number }}
+          path: |
+            .local/xz_procurement_failures.json
+            .local/xz_procurement_rebids.json
+          if-no-files-found: error
