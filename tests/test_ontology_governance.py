@@ -133,7 +133,7 @@ class OntologyGovernanceTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "contiguous"):
                 registry.register_version(skipped)
 
-    def test_rename_and_deprecation_preserve_history_and_lineage(self):
+    def test_rename_and_deprecation_preserve_history_and_block_reactivation(self):
         item = next(
             item for item in self.queue["items"]
             if item["candidate_concept"] == "SKILL_TO_WORK_MATCHING_INFRASTRUCTURE"
@@ -183,7 +183,6 @@ class OntologyGovernanceTests(unittest.TestCase):
                 to_version=1,
                 rationale="Version two retains lineage to the original label.",
             )
-            registry.register_version(deprecated)
             registry.activate(
                 renamed.concept_id,
                 2,
@@ -191,18 +190,65 @@ class OntologyGovernanceTests(unittest.TestCase):
                 activated_at="2026-09-14T21:10:00+08:00",
                 rationale="Activate reviewed rename.",
             )
+            with self.assertRaisesRegex(ValueError, "explicitly deactivated"):
+                registry.register_version(deprecated)
+            self.assertEqual(registry.active_version(renamed.concept_id), renamed)
+            self.assertEqual([spec.version for spec in registry.versions(first.concept_id)], [1, 2])
+
             registry.deactivate(renamed.concept_id)
+            registry.register_version(deprecated)
+            registry.add_lineage(
+                from_concept_id=renamed.concept_id,
+                from_version=2,
+                relation="DEPRECATED_BY",
+                to_concept_id=deprecated.concept_id,
+                to_version=3,
+                rationale="Explicit deprecation preserves the last eligible version in lineage.",
+            )
             self.assertIsNone(registry.active_version(renamed.concept_id))
+
             with self.assertRaisesRegex(ValueError, "deprecated ontology version"):
                 registry.activate(
                     deprecated.concept_id,
                     3,
                     activated_by="reviewer:test",
                     activated_at="2026-09-14T21:20:00+08:00",
-                    rationale="Should fail.",
+                    rationale="Deprecated version must stay inactive.",
                 )
+            with self.assertRaisesRegex(ValueError, "deprecated ontology concept"):
+                registry.activate(
+                    renamed.concept_id,
+                    2,
+                    activated_by="reviewer:test",
+                    activated_at="2026-09-14T21:21:00+08:00",
+                    rationale="Older eligible version must not resurrect a deprecated concept.",
+                )
+
+            attempted_revival = OntologyConceptVersion(
+                concept_id=first.concept_id,
+                version=4,
+                primitive=first.primitive,
+                preferred_label=renamed.preferred_label,
+                aliases=renamed.aliases,
+                definition=renamed.definition,
+                boundary=renamed.boundary,
+                counterexamples=renamed.counterexamples,
+                source_alignment_refs=renamed.source_alignment_refs,
+                supporting_claim_refs=renamed.supporting_claim_refs,
+                created_from_review_item_id=first.created_from_review_item_id,
+                change_kind="REVISE",
+                version_state="ELIGIBLE",
+                rationale="Attempt to revive the same stable concept identity after deprecation.",
+            )
+            with self.assertRaisesRegex(ValueError, "history is terminal"):
+                registry.register_version(attempted_revival)
+
             self.assertEqual([spec.version for spec in registry.versions(first.concept_id)], [1, 2, 3])
-            self.assertEqual(registry.lineage()[0]["relation"], "RENAMED_FROM")
+            self.assertEqual(registry.snapshot()["active_concept_count"], 0)
+            self.assertEqual(
+                {edge["relation"] for edge in registry.lineage()},
+                {"RENAMED_FROM", "DEPRECATED_BY"},
+            )
 
     def test_review_decision_schema_rejects_truth_smuggling_and_nonapproval_identity(self):
         item = self.queue["items"][0]
