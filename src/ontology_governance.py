@@ -9,7 +9,7 @@ The lifecycle is deliberately two-stage:
     -> immutable ontology version
     -> explicit activation
 
-The registry is domain-neutral and keeps historical versions plus lineage.  It does
+The registry is domain-neutral and keeps historical versions plus lineage. It does
 not create opportunity, payer, route, resource-availability or business truth.
 """
 
@@ -40,8 +40,11 @@ REVIEW_DECISIONS = frozenset(
         "REQUIRE_RENAME_REVIEW",
     }
 )
-CHANGE_KINDS = frozenset({"CREATE", "REVISE", "RENAME", "MERGE", "SPLIT"})
-LINEAGE_RELATIONS = frozenset({"REVISED_FROM", "RENAMED_FROM", "MERGED_FROM", "SPLIT_FROM"})
+CHANGE_KINDS = frozenset({"CREATE", "REVISE", "RENAME", "MERGE", "SPLIT", "DEPRECATE"})
+VERSION_STATES = frozenset({"ELIGIBLE", "DEPRECATED"})
+LINEAGE_RELATIONS = frozenset(
+    {"REVISED_FROM", "RENAMED_FROM", "MERGED_FROM", "SPLIT_FROM", "DEPRECATED_BY"}
+)
 
 
 def _require_text(name: str, value: object) -> str:
@@ -82,6 +85,7 @@ class OntologyConceptVersion:
     supporting_claim_refs: tuple[str, ...]
     created_from_review_item_id: str
     change_kind: str
+    version_state: str
     rationale: str
 
     def __post_init__(self) -> None:
@@ -99,10 +103,16 @@ class OntologyConceptVersion:
         _require_text("created_from_review_item_id", self.created_from_review_item_id)
         if self.change_kind not in CHANGE_KINDS:
             raise ValueError(f"unsupported change_kind: {self.change_kind}")
+        if self.version_state not in VERSION_STATES:
+            raise ValueError(f"unsupported version_state: {self.version_state}")
         if self.change_kind == "CREATE" and self.version != 1:
             raise ValueError("CREATE must use version 1")
         if self.change_kind != "CREATE" and self.version == 1:
             raise ValueError("non-CREATE versions must be > 1")
+        if self.change_kind == "DEPRECATE" and self.version_state != "DEPRECATED":
+            raise ValueError("DEPRECATE version must use DEPRECATED state")
+        if self.change_kind != "DEPRECATE" and self.version_state != "ELIGIBLE":
+            raise ValueError("non-DEPRECATE version must use ELIGIBLE state")
         _require_text("rationale", self.rationale)
         if self.preferred_label in self.aliases:
             raise ValueError("preferred_label must not be repeated as an alias")
@@ -140,7 +150,7 @@ class OntologyReviewDecision:
 def build_ontology_review_queue(observation_review: Mapping[str, Any]) -> dict[str, Any]:
     """Materialize governance work from a conservative observation-review artifact.
 
-    Only PROMOTION_REVIEW_READY assessments enter the queue.  The returned queue is
+    Only PROMOTION_REVIEW_READY assessments enter the queue. The returned queue is
     planning/governance state: it cannot activate or create an ontology node.
     """
 
@@ -260,8 +270,16 @@ def review_decision_from_dict(raw: Mapping[str, Any]) -> OntologyReviewDecision:
         reviewer_id=str(raw.get("reviewer_id") or "").strip(),
         reviewed_at=str(raw.get("reviewed_at") or "").strip(),
         rationale=str(raw.get("rationale") or "").strip(),
-        proposed_concept_id=(str(raw["proposed_concept_id"]).strip() if raw.get("proposed_concept_id") is not None else None),
-        proposed_label=(str(raw["proposed_label"]).strip() if raw.get("proposed_label") is not None else None),
+        proposed_concept_id=(
+            str(raw["proposed_concept_id"]).strip()
+            if raw.get("proposed_concept_id") is not None
+            else None
+        ),
+        proposed_label=(
+            str(raw["proposed_label"]).strip()
+            if raw.get("proposed_label") is not None
+            else None
+        ),
     )
 
 
@@ -279,6 +297,7 @@ CREATE TABLE IF NOT EXISTS ontology_concept_version (
     supporting_claim_refs_json TEXT NOT NULL,
     created_from_review_item_id TEXT NOT NULL,
     change_kind TEXT NOT NULL,
+    version_state TEXT NOT NULL,
     rationale TEXT NOT NULL,
     PRIMARY KEY (concept_id, version)
 );
@@ -364,8 +383,9 @@ class SQLiteOntologyRegistry:
                 INSERT INTO ontology_concept_version (
                     concept_id, version, primitive, preferred_label, aliases_json,
                     definition, boundary, counterexamples_json, source_alignment_refs_json,
-                    supporting_claim_refs_json, created_from_review_item_id, change_kind, rationale
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    supporting_claim_refs_json, created_from_review_item_id, change_kind,
+                    version_state, rationale
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     spec.concept_id.strip(),
@@ -380,6 +400,7 @@ class SQLiteOntologyRegistry:
                     _json_tuple(spec.supporting_claim_refs),
                     spec.created_from_review_item_id.strip(),
                     spec.change_kind,
+                    spec.version_state,
                     spec.rationale.strip(),
                 ),
             )
@@ -404,6 +425,7 @@ class SQLiteOntologyRegistry:
             supporting_claim_refs=_tuple_from_json(row["supporting_claim_refs_json"]),
             created_from_review_item_id=row["created_from_review_item_id"],
             change_kind=row["change_kind"],
+            version_state=row["version_state"],
             rationale=row["rationale"],
         )
 
@@ -423,8 +445,11 @@ class SQLiteOntologyRegistry:
         activated_at: str,
         rationale: str,
     ) -> None:
-        if self.get(concept_id, version) is None:
+        spec = self.get(concept_id, version)
+        if spec is None:
             raise KeyError((concept_id, version))
+        if spec.version_state != "ELIGIBLE":
+            raise ValueError("deprecated ontology version cannot be activated")
         actor = _require_text("activated_by", activated_by)
         at = _iso_datetime("activated_at", activated_at)
         why = _require_text("rationale", rationale)
@@ -546,6 +571,7 @@ def approved_new_concept_version(
         ),
         created_from_review_item_id=item_id,
         change_kind="CREATE",
+        version_state="ELIGIBLE",
         rationale=decision.rationale,
     )
 
@@ -556,7 +582,8 @@ GOVERNING_INVARIANTS = (
     "EXPLICIT_REVIEW_DECISION_NE_ACTIVE_TAXONOMY",
     "ONTOLOGY_VERSION_REQUIRES_EXPLICIT_ACTIVATION",
     "ONTOLOGY_VERSION_IS_APPEND_ONLY",
-    "RENAME_MERGE_SPLIT_REQUIRE_NEW_VERSION_AND_LINEAGE",
+    "RENAME_MERGE_SPLIT_DEPRECATE_REQUIRE_NEW_VERSION_AND_LINEAGE",
+    "DEPRECATED_VERSION_CANNOT_BE_REACTIVATED",
     "MODEL_SUGGESTION_NE_REVIEW_DECISION",
     "ONTOLOGY_CONCEPT_NE_BUSINESS_OPPORTUNITY",
     "UNKNOWN_NE_PASS",
