@@ -1,0 +1,348 @@
+{
+  "schema_version": "reviewed-research-observations.v1",
+  "semantics": "REVIEWED_SOURCE_CAPTURE_NOT_FULL_PAGE",
+  "run_id": "BROAD_DISCOVERY_RUN_001_2026-09-14",
+  "retrieved_at": "2026-09-14T12:57:06+08:00",
+  "records": [
+    {
+      "observation_id": "bd001-obs-js-household-h1-2026",
+      "research_evidence_id": "bd001-js-01",
+      "source_id": "JIANGSU_HOUSEHOLD_SURVEY",
+      "source_record_id": "2026-H1-income-consumption",
+      "source_tier": "OFFICIAL_STATISTICS_REGIONAL",
+      "source_origin_geography": "CN-JS",
+      "relevance_geographies": ["CN-JS"],
+      "observed_at": "2026-06-30T23:59:59+08:00",
+      "published_at": "2026-07-29T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; STRUCTURED_TABLE_FIELDS_ONLY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "Official Jiangsu H1 table reports per-capita disposable income 32,221 yuan (+4.9%), consumption expenditure 19,616 yuan (+1.9%), and property net income down 3.2% year on year.",
+      "captured_payload": {
+        "period": "2026-H1",
+        "per_capita_disposable_income_yuan": 32221,
+        "disposable_income_yoy_pct": 4.9,
+        "per_capita_consumption_expenditure_yuan": 19616,
+        "consumption_expenditure_yoy_pct": 1.9,
+        "property_net_income_yoy_pct": -3.2
+      },
+      "actor_ids": [],
+      "unknown_fields": ["SOURCE_PUBLICATION_TIME_NOT_DISCLOSED_DATE_ONLY"],
+      "claims": [
+        {
+          "claim_id": "income-level",
+          "primitive": "STATE",
+          "concept": "HOUSEHOLD_PER_CAPITA_DISPOSABLE_INCOME",
+          "epistemic_status": "OBSERVED",
+          "geography": "CN-JS",
+          "value": {"period": "2026-H1", "yuan": 32221, "yoy_pct": 4.9}
+        },
+        {
+          "claim_id": "consumption-flow",
+          "primitive": "FLOW",
+          "concept": "HOUSEHOLD_PER_CAPITA_CONSUMPTION_EXPENDITURE",
+          "epistemic_status": "OBSERVED",
+          "geography": "CN-JS",
+          "value": {"period": "2026-H1", "yuan": 19616, "yoy_pct": 1.9}
+        },
+        {
+          "claim_id": "property-income-change",
+          "primitive": "CHANGE",
+          "concept": "HOUSEHOLD_PROPERTY_NET_INCOME_CHANGE",
+          "epistemic_status": "OBSERVED",
+          "geography": "CN-JS",
+          "value": {"period": "2026-H1", "yoy_pct": -3.2}
+        }
+      ]
+    },
+    {
+      "observation_id": "bd001-obs-js-investment-2026m07",
+      "research_evidence_id": "bd001-js-02",
+      "source_id": "JIANGSU_FIXED_ASSET_INVESTMENT",
+      "source_record_id": "2026-01-07-economic-operation",
+      "source_tier": "PROVINCIAL_STATISTICS",
+      "source_origin_geography": "CN-JS",
+      "relevance_geographies": ["CN-JS"],
+      "observed_at": "2026-07-31T23:59:59+08:00",
+      "published_at": "2026-08-24T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; OFFICIAL_RELEASE_FIELDS_ONLY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "Jiangsu reports Jan-Jul fixed-asset investment down 9.5%, manufacturing investment down 0.1%, and equipment/tool investment up 15.8%; the detailed release reports IT/software equipment investment up 34.8%.",
+      "captured_payload": {
+        "period": "2026-01_to_2026-07",
+        "fixed_asset_investment_yoy_pct": -9.5,
+        "manufacturing_investment_yoy_pct": -0.1,
+        "equipment_tooling_investment_yoy_pct": 15.8,
+        "it_software_equipment_investment_yoy_pct": 34.8
+      },
+      "actor_ids": [],
+      "unknown_fields": ["SOURCE_PUBLICATION_TIME_NOT_DISCLOSED_DATE_ONLY"],
+      "claims": [
+        {
+          "claim_id": "fixed-investment-change",
+          "primitive": "FLOW",
+          "concept": "FIXED_ASSET_INVESTMENT_CHANGE",
+          "epistemic_status": "OBSERVED",
+          "geography": "CN-JS",
+          "value": {"period": "2026-01_to_2026-07", "yoy_pct": -9.5}
+        },
+        {
+          "claim_id": "manufacturing-investment-change",
+          "primitive": "FLOW",
+          "concept": "MANUFACTURING_INVESTMENT_CHANGE",
+          "epistemic_status": "OBSERVED",
+          "geography": "CN-JS",
+          "value": {"period": "2026-01_to_2026-07", "yoy_pct": -0.1}
+        },
+        {
+          "claim_id": "equipment-investment-change",
+          "primitive": "FLOW",
+          "concept": "EQUIPMENT_TOOLING_INVESTMENT_CHANGE",
+          "epistemic_status": "OBSERVED",
+          "geography": "CN-JS",
+          "value": {"period": "2026-01_to_2026-07", "yoy_pct": 15.8}
+        },
+        {
+          "claim_id": "it-equipment-investment-change",
+          "primitive": "FLOW",
+          "concept": "IT_SOFTWARE_EQUIPMENT_INVESTMENT_CHANGE",
+          "epistemic_status": "OBSERVED",
+          "geography": "CN-JS",
+          "value": {"period": "2026-01_to_2026-07", "yoy_pct": 34.8}
+        }
+      ]
+    },
+    {
+      "observation_id": "bd001-obs-xz-metro-idle-space-20260619",
+      "research_evidence_id": "bd001-xz-01",
+      "source_id": "XUZHOU_METRO_GROUP_PUBLIC_REPLY",
+      "source_record_id": "CPPCC-16-5-1199",
+      "source_tier": "LOCAL_STATE_ENTERPRISE_FIRST_PARTY",
+      "source_origin_geography": "CN-JS-XUZHOU",
+      "relevance_geographies": ["CN-JS-XUZHOU"],
+      "observed_at": "2026-06-19T11:31:06+08:00",
+      "published_at": "2026-06-19T11:31:06+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; FIRST_PARTY_REPLY_FACTS_ONLY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "Xuzhou Metro states that it launched an idle-asset activation program in 2025, uses one-station-one-strategy operation, and identifies multi-department approval and inconsistent standards as current activation frictions.",
+      "captured_payload": {
+        "program_started": 2025,
+        "core_station_count": 5,
+        "remaining_convenience_service_rooms_under_activation": 31,
+        "strategy": "ONE_STATION_ONE_STRATEGY",
+        "reported_friction": ["multi_department_approval", "duplicate_materials", "inconsistent_standards", "long_approval_cycle"]
+      },
+      "actor_ids": ["actor:xuzhou-metro-group"],
+      "unknown_fields": ["RESOURCE_MARKET_AVAILABILITY_UNKNOWN", "OPERATOR_PERMISSION_UNKNOWN"],
+      "claims": [
+        {
+          "claim_id": "idle-space-resource",
+          "primitive": "RESOURCE",
+          "concept": "IDLE_METRO_SPACE",
+          "epistemic_status": "OBSERVED",
+          "actor_id": "actor:xuzhou-metro-group",
+          "geography": "CN-JS-XUZHOU",
+          "value": {"program_started": 2025, "core_station_count": 5, "remaining_service_rooms": 31}
+        },
+        {
+          "claim_id": "repurposing-behavior",
+          "primitive": "BEHAVIOR",
+          "concept": "IDLE_SPACE_SCENARIO_REPURPOSING",
+          "epistemic_status": "OBSERVED",
+          "actor_id": "actor:xuzhou-metro-group",
+          "geography": "CN-JS-XUZHOU",
+          "value": {"strategy": "ONE_STATION_ONE_STRATEGY", "examples": ["convenience_service", "light_retail", "culture_tourism"]}
+        },
+        {
+          "claim_id": "approval-friction",
+          "primitive": "FRICTION",
+          "concept": "MULTI_DEPARTMENT_ASSET_ACTIVATION_APPROVAL_FRICTION",
+          "epistemic_status": "OBSERVED",
+          "actor_id": "actor:xuzhou-metro-group",
+          "geography": "CN-JS-XUZHOU",
+          "value": {"reported_issues": ["duplicate_materials", "inconsistent_standards", "long_approval_cycle"]}
+        }
+      ]
+    },
+    {
+      "observation_id": "bd001-obs-xz-economy-h1-2026",
+      "research_evidence_id": "bd001-xz-02",
+      "source_id": "JIANGSU_GOV_XUZHOU_H1_ECONOMY",
+      "source_record_id": "xuzhou-h1-2026-4846.9",
+      "source_tier": "PROVINCIAL_GOVERNMENT_LOCAL_ECONOMY",
+      "source_origin_geography": "CN-JS-XUZHOU",
+      "relevance_geographies": ["CN-JS-XUZHOU"],
+      "observed_at": "2026-06-30T23:59:59+08:00",
+      "published_at": "2026-07-31T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; GOVERNMENT_RELEASE_FIELDS_ONLY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "The Jiangsu government Xuzhou H1 release reports industrial value added +6.1%, software/information-technology services value added +15.2%, and online retail through public networks +13.0% year on year.",
+      "captured_payload": {
+        "period": "2026-H1",
+        "industrial_value_added_yoy_pct": 6.1,
+        "software_it_service_value_added_yoy_pct": 15.2,
+        "public_network_online_retail_yoy_pct": 13.0
+      },
+      "actor_ids": [],
+      "unknown_fields": ["SOURCE_PUBLICATION_TIME_NOT_DISCLOSED_DATE_ONLY"],
+      "claims": [
+        {
+          "claim_id": "industrial-change",
+          "primitive": "CHANGE",
+          "concept": "INDUSTRIAL_VALUE_ADDED_CHANGE",
+          "epistemic_status": "OBSERVED",
+          "geography": "CN-JS-XUZHOU",
+          "value": {"period": "2026-H1", "yoy_pct": 6.1}
+        },
+        {
+          "claim_id": "software-it-change",
+          "primitive": "CHANGE",
+          "concept": "SOFTWARE_IT_SERVICE_VALUE_ADDED_CHANGE",
+          "epistemic_status": "OBSERVED",
+          "geography": "CN-JS-XUZHOU",
+          "value": {"period": "2026-H1", "yoy_pct": 15.2}
+        },
+        {
+          "claim_id": "online-retail-change",
+          "primitive": "FLOW",
+          "concept": "PUBLIC_NETWORK_ONLINE_RETAIL_CHANGE",
+          "epistemic_status": "OBSERVED",
+          "geography": "CN-JS-XUZHOU",
+          "value": {"period": "2026-H1", "yoy_pct": 13.0}
+        }
+      ]
+    },
+    {
+      "observation_id": "bd001-obs-xz-primary-medical-ltc-20260119",
+      "research_evidence_id": "bd001-xz-03",
+      "source_id": "PEOPLE_DAILY_JIANGSU_LTC_REPORT",
+      "source_record_id": "41475716",
+      "source_tier": "NATIONAL_MEDIA_LOCAL_CASE",
+      "source_origin_geography": "CN-JS-XUZHOU",
+      "relevance_geographies": ["CN-JS-XUZHOU"],
+      "observed_at": "2026-01-19T00:00:00+08:00",
+      "published_at": "2026-01-19T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; SECONDARY_MEDIA_REPORT; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "People's Daily Jiangsu reports Xuzhou policies redirecting underused township medical resources into long-term-care service: 38 primary medical institutions, 286 dedicated staff, about 1,900 beneficiaries, LTC-fund spending above 42 million yuan and associated institutional revenue near 90 million yuan.",
+      "captured_payload": {
+        "primary_medical_institutions_in_ltc_network": 38,
+        "dedicated_medical_staff": 286,
+        "beneficiaries_cumulative": 1900,
+        "ltc_fund_expenditure_cny_lower_bound": 42000000,
+        "reported_comprehensive_revenue_cny_approx": 90000000
+      },
+      "actor_ids": [],
+      "unknown_fields": ["SOURCE_PUBLICATION_TIME_NOT_DISCLOSED_DATE_ONLY", "EXACT_FACILITY_LEVEL_UNDERUSE_NOT_ENUMERATED"],
+      "claims": [
+        {
+          "claim_id": "capacity-repurposing",
+          "primitive": "BEHAVIOR",
+          "concept": "PRIMARY_MEDICAL_CAPACITY_REPURPOSED_TO_LONG_TERM_CARE",
+          "epistemic_status": "REPORTED",
+          "geography": "CN-JS-XUZHOU",
+          "value": {"institutions": 38, "dedicated_staff": 286, "beneficiaries_cumulative": 1900}
+        },
+        {
+          "claim_id": "ltc-fund-flow",
+          "primitive": "FLOW",
+          "concept": "LONG_TERM_CARE_FUND_EXPENDITURE",
+          "epistemic_status": "REPORTED",
+          "geography": "CN-JS-XUZHOU",
+          "value": {"cny_lower_bound": 42000000}
+        },
+        {
+          "claim_id": "institution-revenue-outcome",
+          "primitive": "OUTCOME",
+          "concept": "MEDICAL_INSTITUTION_REVENUE_ASSOCIATED_WITH_LTC_MODEL",
+          "epistemic_status": "REPORTED",
+          "geography": "CN-JS-XUZHOU",
+          "value": {"cny_approx": 90000000}
+        }
+      ]
+    },
+    {
+      "observation_id": "bd001-obs-ai-customer-service-friction-h1-2026",
+      "research_evidence_id": "bd001-cn-05",
+      "source_id": "CNR_AI_CUSTOMER_SERVICE_REPORT",
+      "source_record_id": "527782902",
+      "source_tier": "NATIONAL_MEDIA_CONSUMER_COMPLAINT",
+      "source_origin_geography": "CN",
+      "relevance_geographies": ["CN"],
+      "observed_at": "2026-06-30T23:59:59+08:00",
+      "published_at": "2026-08-19T19:04:10+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; MEDIA_REPORT_OF_CONSUMER_ASSOCIATION_ANALYSIS; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "CNR reports that AI customer service became a new complaint hotspot in H1 2026, with repeated problems around blocked human escalation, disputed AI commitments and inaccurate responses that increase consumer resolution cost.",
+      "captured_payload": {
+        "period": "2026-H1",
+        "reported_hotspot": true,
+        "reported_issues": ["human_escalation_blocked", "ai_commitment_disputed", "inaccurate_generated_content"]
+      },
+      "actor_ids": [],
+      "unknown_fields": ["REPRESENTATIVE_POPULATION_SHARE_NOT_ESTABLISHED"],
+      "claims": [
+        {
+          "claim_id": "human-escalation-friction",
+          "primitive": "FRICTION",
+          "concept": "AI_CUSTOMER_SERVICE_HUMAN_ESCALATION_FRICTION",
+          "epistemic_status": "REPORTED",
+          "geography": "CN",
+          "value": {"period": "2026-H1", "reported_issue": true}
+        },
+        {
+          "claim_id": "unreliable-response-friction",
+          "primitive": "FRICTION",
+          "concept": "AI_CUSTOMER_SERVICE_RESPONSE_RELIABILITY_FRICTION",
+          "epistemic_status": "REPORTED",
+          "geography": "CN",
+          "value": {"period": "2026-H1", "issues": ["disputed_commitment", "inaccurate_content"]}
+        },
+        {
+          "claim_id": "complaint-hotspot",
+          "primitive": "OUTCOME",
+          "concept": "AI_CUSTOMER_SERVICE_COMPLAINT_HOTSPOT",
+          "epistemic_status": "REPORTED",
+          "geography": "CN",
+          "value": {"period": "2026-H1", "reported_hotspot": true}
+        }
+      ]
+    },
+    {
+      "observation_id": "bd001-obs-ai-governance-enforcement-20260706",
+      "research_evidence_id": "bd001-cn-06",
+      "source_id": "CAC_AI_APPLICATION_GOVERNANCE",
+      "source_record_id": "1785081384384987",
+      "source_tier": "REGULATOR_FIRST_PARTY",
+      "source_origin_geography": "CN",
+      "relevance_geographies": ["CN"],
+      "observed_at": "2026-07-06T17:00:00+08:00",
+      "published_at": "2026-07-06T17:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; REGULATOR_FIRST_PARTY_COUNTS_ONLY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "The CAC reports first-phase AI-application enforcement since April 2026: more than 14,000 violating AI products handled, more than 6 million illegal-information items removed, more than 26,000 accounts handled, 1,300 AI goods removed and 9 noncompliant open datasets removed.",
+      "captured_payload": {
+        "campaign_start": "2026-04",
+        "violating_ai_products_handled_lower_bound": 14000,
+        "illegal_information_removed_lower_bound": 6000000,
+        "accounts_handled_lower_bound": 26000,
+        "ai_goods_removed": 1300,
+        "open_datasets_removed": 9
+      },
+      "actor_ids": ["actor:central-cyberspace-affairs-commission-office"],
+      "unknown_fields": [],
+      "claims": [
+        {
+          "claim_id": "governance-enforcement",
+          "primitive": "CONSTRAINT",
+          "concept": "AI_APPLICATION_GOVERNANCE_ENFORCEMENT",
+          "epistemic_status": "OBSERVED",
+          "actor_id": "actor:central-cyberspace-affairs-commission-office",
+          "geography": "CN",
+          "value": {"campaign_start": "2026-04", "active": true}
+        },
+        {
+          "claim_id": "enforcement-outcome",
+          "primitive": "OUTCOME",
+          "concept": "AI_APPLICATION_ENFORCEMENT_ACTIONS",
+          "epistemic_status": "OBSERVED",
+          "actor_id": "actor:central-cyberspace-affairs-commission-office",
+          "geography": "CN",
+          "value": {"ai_products_handled_lower_bound": 14000, "illegal_information_removed_lower_bound": 6000000, "accounts_handled_lower_bound": 26000, "ai_goods_removed": 1300, "open_datasets_removed": 9}
+        }
+      ]
+    }
+  ]
+}

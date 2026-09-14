@@ -1,0 +1,108 @@
+name: broad-discovery-observation-bridge
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/research_observation_bridge.py"
+      - "scripts/build_reviewed_research_observations.py"
+      - "tests/test_research_observation_bridge.py"
+      - "data/research_runs/BROAD_DISCOVERY_RUN_001_2026-09-14/reviewed_observations.json"
+      - "data/research_runs/BROAD_DISCOVERY_RUN_001_2026-09-14/evidence.json"
+      - ".github/workflows/broad-discovery-observation-bridge.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: broad-discovery-observation-bridge
+  cancel-in-progress: false
+
+jobs:
+  normalize-reviewed-research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Recompute broad research coverage
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .local
+          python scripts/build_research_mission.py \
+            --mission data/research_missions/china_primary_broad_discovery.json \
+            --as-of-date 2026-09-14 \
+            --plan-output .local/research_mission_plan.json \
+            --coverage-output .local/planning_only_coverage.json
+          python scripts/assess_research_coverage.py \
+            --mission data/research_missions/china_primary_broad_discovery.json \
+            --plan .local/research_mission_plan.json \
+            --evidence data/research_runs/BROAD_DISCOVERY_RUN_001_2026-09-14/evidence.json \
+            --output .local/executed_research_coverage.json
+          test "$(jq -r '.state' .local/executed_research_coverage.json)" = "BROAD_DISCOVERY_READY"
+          test "$(jq -r '.broad_discovery_use_authorized' .local/executed_research_coverage.json)" = "true"
+
+      - name: Build reviewed Observation Fabric snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          scope="$(jq -r '.state' .local/executed_research_coverage.json)"
+          python scripts/build_reviewed_research_observations.py \
+            --research-evidence data/research_runs/BROAD_DISCOVERY_RUN_001_2026-09-14/evidence.json \
+            --reviewed data/research_runs/BROAD_DISCOVERY_RUN_001_2026-09-14/reviewed_observations.json \
+            --observations-output .local/research_observations.json \
+            --store-output .local/research_observations.sqlite \
+            --patterns-output .local/research_observed_patterns.json \
+            --research-scope-state "$scope"
+
+      - name: Validate observation and pattern boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(jq -r '.observation_count' .local/research_observations.json)" = "7"
+          test "$(jq -r '.business_promotion' .local/research_observations.json)" = "NOT_PROMOTED"
+          test "$(jq -r '.research_scope_state' .local/research_observed_patterns.json)" = "BROAD_DISCOVERY_READY"
+          test "$(jq -r '.business_promotion' .local/research_observed_patterns.json)" = "NOT_PROMOTED"
+          test "$(jq -r '.observed_pattern_count' .local/research_observed_patterns.json)" = "0"
+          if jq -e '.. | objects | has("payer") or has("paid_need") or has("opportunity_score") or has("route_testable")' .local/research_observations.json >/dev/null; then
+            echo "Commercial truth leaked into Observation Fabric" >&2
+            exit 1
+          fi
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Broad Discovery Observation Bridge"
+            echo
+            jq -r '"- research coverage: `\(.state)`"' .local/executed_research_coverage.json
+            jq -r '"- reviewed observations: `\(.observation_count)`"' .local/research_observations.json
+            jq -r '"- exact semantic groups: `\(.pattern_count)`"' .local/research_observed_patterns.json
+            jq -r '"- observed recurring patterns: `\(.observed_pattern_count)`"' .local/research_observed_patterns.json
+            jq -r '"- unbound groups: `\(.unbound_pattern_count)`"' .local/research_observed_patterns.json
+            echo
+            echo "Zero recurring patterns is a valid result. Broad research coverage does not lower recurrence, actor-diversity, time-persistence, or commercial gates."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload Observation Fabric artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: broad-discovery-observation-bridge-state
+          path: |
+            .local/executed_research_coverage.json
+            .local/research_observations.json
+            .local/research_observations.sqlite
+            .local/research_observed_patterns.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
