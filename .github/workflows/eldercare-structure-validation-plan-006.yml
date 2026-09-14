@@ -1,0 +1,119 @@
+name: eldercare-structure-validation-plan-006
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/structure_validation_planning.py"
+      - "src/structural_commercialization.py"
+      - "scripts/build_structure_validation_plan.py"
+      - "scripts/build_commercial_structure_probe.py"
+      - "scripts/build_broad_discovery_run_002_observation_review.py"
+      - "tests/test_structure_validation_planning.py"
+      - "tests/test_eldercare_structure_validation_plan_006.py"
+      - "data/research_runs/ELDERCARE_STRUCTURE_PROBE_005_2026-09-14/**"
+      - "data/research_runs/ELDERCARE_STRUCTURE_VALIDATION_PLAN_006_2026-09-14/**"
+      - "data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/**"
+      - ".github/workflows/eldercare-structure-validation-plan-006.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: eldercare-structure-validation-plan-006
+  cancel-in-progress: false
+
+jobs:
+  build-eldercare-validation-plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Rebuild upstream observation review
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .local
+          python scripts/build_broad_discovery_run_002_observation_review.py \
+            --mission data/research_missions/china_primary_broad_discovery.json \
+            --dynamic-terms data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/dynamic_terms.json \
+            --captures data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/captures.json \
+            --reviewed-dir data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/reviewed \
+            --alignments data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/concept_alignments_reviewed.json \
+            --summary-output .local/run002_observation_review.json \
+            --observations-output .local/run002_observations.json
+
+      - name: Rebuild eldercare structure probe
+        run: |
+          python scripts/build_commercial_structure_probe.py \
+            --recurrence .local/run002_observation_review.json \
+            --evidence data/research_runs/ELDERCARE_STRUCTURE_PROBE_005_2026-09-14/evidence.json \
+            --output .local/eldercare_structure_probe_005.json
+
+      - name: Build privacy-bounded validation queue and packets
+        run: |
+          python scripts/build_structure_validation_plan.py \
+            --commercial-structure .local/eldercare_structure_probe_005.json \
+            --profile data/research_runs/ELDERCARE_STRUCTURE_VALIDATION_PLAN_006_2026-09-14/profile.json \
+            --queue-output .local/eldercare_validation_queue_006.json \
+            --packets-output .local/eldercare_validation_packets_006.json
+
+      - name: Validate planning and privacy boundary
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(jq -r '.validation_profile.profile_id' .local/eldercare_validation_queue_006.json)" = "ELDERCARE_INSTITUTION_PROCESS_COMPOUNDING_V1"
+          test "$(jq -r '.validation_profile.case_unit' .local/eldercare_validation_queue_006.json)" = "DEIDENTIFIED_INSTITUTION_OR_PROCESS_EPISODE"
+          test "$(jq -r '.task_count' .local/eldercare_validation_queue_006.json)" = "3"
+          test "$(jq -r '.packet_count' .local/eldercare_validation_packets_006.json)" = "3"
+          test "$(jq -r '.business_promotion' .local/eldercare_validation_queue_006.json)" = "NOT_PROMOTED"
+          test "$(jq -r '.business_promotion' .local/eldercare_validation_packets_006.json)" = "NOT_PROMOTED"
+          test "$(jq -r '.source_missing_dimensions | join(",")' .local/eldercare_validation_queue_006.json)" = "COMPOUNDING"
+          jq -e '[.tasks[].target_gate] | sort == ["COMPOUNDING","LOCAL_CASE_PANEL","LOCAL_PAID_MANDATE"]' .local/eldercare_validation_queue_006.json >/dev/null
+          jq -e '[.tasks[] | select(.task_role == "CORE_MISSING_DIMENSION") | .target_gate] == ["COMPOUNDING"]' .local/eldercare_validation_queue_006.json >/dev/null
+          jq -e '.validation_profile.privacy_constraints | index("NO_PERSONAL_HEALTH_DATA") != null' .local/eldercare_validation_queue_006.json >/dev/null
+          jq -e '.validation_profile.privacy_constraints | index("NO_BENEFICIARY_IDENTITY") != null' .local/eldercare_validation_queue_006.json >/dev/null
+          jq -e '.validation_profile.prohibited_fields | index("diagnosis") != null and index("medical_record") != null and index("raw_health_data") != null' .local/eldercare_validation_queue_006.json >/dev/null
+          jq -e '[.packets[] | .privacy_constraints | index("NO_PERSONAL_HEALTH_DATA") != null] | all' .local/eldercare_validation_packets_006.json >/dev/null
+          if jq -e '.. | objects | has("opportunity_score") or has("commercial_score") or has("route_testable") or has("core_business_candidate") or has("payer_confirmed") or has("paid_need") or has("evidence_state")' .local/eldercare_validation_packets_006.json >/dev/null; then
+            echo "Truth promotion leaked into eldercare validation packets" >&2
+            exit 1
+          fi
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Eldercare Structure Validation Plan 006"
+            echo
+            jq -r '"- candidate: `\(.candidate_id)`"' .local/eldercare_validation_queue_006.json
+            jq -r '"- profile: `\(.validation_profile.profile_id)`"' .local/eldercare_validation_queue_006.json
+            jq -r '"- case unit: `\(.validation_profile.case_unit)`"' .local/eldercare_validation_queue_006.json
+            jq -r '"- tasks: `\(.task_count)` / packets: `\(.task_count)`"' .local/eldercare_validation_queue_006.json
+            jq -r '"- only core missing dimension: `\(.source_missing_dimensions)`"' .local/eldercare_validation_queue_006.json
+            echo
+            echo "The experiment is institution/process-level and de-identified. It does not collect beneficiary identity, diagnosis or medical records. It tests whether reused prior artifacts measurably improve later execution; it does not promote eldercare as a business."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload validation planning artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: eldercare-structure-validation-plan-006-state
+          path: |
+            .local/eldercare_structure_probe_005.json
+            .local/eldercare_validation_queue_006.json
+            .local/eldercare_validation_packets_006.json
+            data/research_runs/ELDERCARE_STRUCTURE_VALIDATION_PLAN_006_2026-09-14/profile.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
