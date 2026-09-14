@@ -1,0 +1,98 @@
+name: ontology-lifecycle-lineage-010
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/ontology_governance.py"
+      - "scripts/build_ontology_lifecycle_dry_run.py"
+      - "tests/test_ontology_governance.py"
+      - "tests/test_ontology_lifecycle_lineage.py"
+      - "docs/ONTOLOGY_GOVERNANCE.md"
+      - ".github/workflows/ontology-lifecycle-lineage-010.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ontology-lifecycle-lineage-010
+  cancel-in-progress: false
+
+jobs:
+  synthetic-lifecycle-lineage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Build synthetic lifecycle lineage artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .local
+          python scripts/build_ontology_lifecycle_dry_run.py \
+            --db .local/ontology-lifecycle-lineage-010.sqlite \
+            --output .local/ontology-lifecycle-lineage-010.json
+
+      - name: Require complete lifecycle lineage and zero production promotion
+        shell: bash
+        run: |
+          set -euo pipefail
+          artifact=.local/ontology-lifecycle-lineage-010.json
+          test "$(jq -r '.schema_version' "$artifact")" = "ontology-lifecycle-lineage-dry-run.v1"
+          test "$(jq -r '.synthetic_only' "$artifact")" = "true"
+          test "$(jq -r '.source' "$artifact")" = "SYNTHETIC_ONTOLOGY_LIFECYCLE_010"
+          test "$(jq -r '.registry_snapshot.version_count' "$artifact")" = "8"
+          test "$(jq -r '.registry_snapshot.active_concept_count' "$artifact")" = "0"
+          test "$(jq -r '.registry_snapshot.lineage_integrity' "$artifact")" = "VALIDATED"
+          test "$(jq -r '.registry_snapshot.lineage | length' "$artifact")" = "7"
+          test "$(jq -r '.lineage_relation_counts.REVISED_FROM' "$artifact")" = "1"
+          test "$(jq -r '.lineage_relation_counts.RENAMED_FROM' "$artifact")" = "1"
+          test "$(jq -r '.lineage_relation_counts.MERGED_FROM' "$artifact")" = "2"
+          test "$(jq -r '.lineage_relation_counts.SPLIT_FROM' "$artifact")" = "2"
+          test "$(jq -r '.lineage_relation_counts.DEPRECATED_BY' "$artifact")" = "1"
+          test "$(jq -r '.production_active_ontology_changes' "$artifact")" = "0"
+          test "$(jq -r '.taxonomy_promotion' "$artifact")" = "NOT_PROMOTED"
+          test "$(jq -r '.business_promotion' "$artifact")" = "NOT_PROMOTED"
+          jq -e '[.registry_snapshot.versions[].concept_id | startswith("concept:synthetic-lifecycle-010-")] | all' "$artifact" >/dev/null
+          jq -e '.truth_boundaries | index("SYNTHETIC_LIFECYCLE_NE_PRODUCTION_ONTOLOGY") != null and index("ONTOLOGY_CONCEPT_NE_BUSINESS_OPPORTUNITY") != null' "$artifact" >/dev/null
+          if jq -e '.. | objects | has("payer") or has("payer_confirmed") or has("paid_need") or has("route_testable") or has("transaction_ready")' "$artifact" >/dev/null; then
+            echo "Lifecycle dry run leaked commercial truth fields" >&2
+            exit 1
+          fi
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Ontology Lifecycle Lineage 010"
+            echo
+            echo "Synthetic lifecycle dry run only. No Run 003 review item is approved or activated."
+            echo
+            jq -r '"- versions: `\(.registry_snapshot.version_count)`"' .local/ontology-lifecycle-lineage-010.json
+            jq -r '"- lineage edges: `\(.registry_snapshot.lineage | length)`"' .local/ontology-lifecycle-lineage-010.json
+            jq -r '"- lineage integrity: `\(.registry_snapshot.lineage_integrity)`"' .local/ontology-lifecycle-lineage-010.json
+            jq -r '"- production active ontology changes: `\(.production_active_ontology_changes)`"' .local/ontology-lifecycle-lineage-010.json
+            jq -r '"- taxonomy promotion: `\(.taxonomy_promotion)`"' .local/ontology-lifecycle-lineage-010.json
+            jq -r '"- business promotion: `\(.business_promotion)`"' .local/ontology-lifecycle-lineage-010.json
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload synthetic lifecycle artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ontology-lifecycle-lineage-010-state
+          path: |
+            .local/ontology-lifecycle-lineage-010.json
+            .local/ontology-lifecycle-lineage-010.sqlite
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
