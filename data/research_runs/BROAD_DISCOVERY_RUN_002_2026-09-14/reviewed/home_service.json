@@ -1,0 +1,103 @@
+{
+  "schema_version": "reviewed-research-observations.v1",
+  "semantics": "REVIEWED_SOURCE_CAPTURE_NOT_FULL_PAGE",
+  "run_id": "BROAD_DISCOVERY_RUN_002_2026-09-14",
+  "retrieved_at": "2026-09-14T15:50:00+08:00",
+  "records": [
+    {
+      "observation_id": "bd002-obs-mofcom-home-service-202607",
+      "research_evidence_id": "cn-home-service-policy-1",
+      "source_id": "MOFCOM_HOME_SERVICE_POLICY",
+      "source_record_id": "2026-home-service-quality-policy",
+      "source_tier": "NATIONAL_POLICY",
+      "source_origin_geography": "CN",
+      "relevance_geographies": ["CN"],
+      "observed_at": "2026-07-01T00:00:00+08:00",
+      "published_at": "2026-07-01T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; POLICY_REQUIREMENTS_ONLY; POLICY_INTENT_NE_OUTCOME; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "MOFCOM's 2026 home-service quality policy promotes standardized and professional operators, credit verification, service-quality evaluation, model contracts, transparent pricing and qualified participation in home long-term-care services.",
+      "captured_payload": {"actions":["standardization","professionalization","credit_verification","service_quality_evaluation","model_contracts","transparent_pricing","qualified_long_term_care_participation"]},
+      "actor_ids": ["actor:mofcom-home-service-governance"],
+      "unknown_fields": ["POLICY_ACTION_NE_MARKET_ADOPTION","POLICY_ACTION_NE_PAID_DEMAND"],
+      "claims": [
+        {"claim_id":"formalization-action","primitive":"BEHAVIOR","concept":"HOME_SERVICE_FORMALIZATION_ACTION","epistemic_status":"OBSERVED","geography":"CN","value":{"actions":["credit_verification","service_quality_evaluation","model_contracts","transparent_pricing","long_term_care_entry"]},"actor_id":"actor:mofcom-home-service-governance"}
+      ]
+    },
+    {
+      "observation_id": "bd002-obs-js-home-service-202606",
+      "research_evidence_id": "js-home-service-policy-1",
+      "source_id": "JIANGSU_SERVICE_CONSUMPTION_POLICY",
+      "source_record_id": "2026-jiangsu-service-consumption-policy",
+      "source_tier": "PROVINCIAL_POLICY",
+      "source_origin_geography": "CN-JS",
+      "relevance_geographies": ["CN-JS"],
+      "observed_at": "2026-06-12T00:00:00+08:00",
+      "published_at": "2026-06-12T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; PROVINCIAL_POLICY_ACTIONS_ONLY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "Jiangsu's service-consumption policy calls for stronger home-service brands, expansion of home visits, use of eldercare consumption coupons, and integration of home services with eldercare, childcare and health services.",
+      "captured_payload": {"actions":["home_service_brand_building","home_visit_expansion","eldercare_coupon_use","home_service_eldercare_childcare_health_integration"]},
+      "actor_ids": ["actor:jiangsu-service-consumption-governance"],
+      "unknown_fields": ["POLICY_ACTION_NE_REALIZED_SERVICE_VOLUME","SUBSIDY_POLICY_NE_SETTLEMENT"],
+      "claims": [
+        {"claim_id":"care-integration-action","primitive":"BEHAVIOR","concept":"HOME_SERVICE_CARE_INTEGRATION_ACTION","epistemic_status":"OBSERVED","geography":"CN-JS","value":{"actions":["home_visit_expansion","eldercare_coupon_use","eldercare_childcare_health_integration"]},"actor_id":"actor:jiangsu-service-consumption-governance"}
+      ]
+    },
+    {
+      "observation_id": "bd002-obs-js-ai-home-service-202607",
+      "research_evidence_id": "source-js-ai-home-1",
+      "source_id": "JIANGSU_AI_CONSUMPTION_POLICY",
+      "source_record_id": "2026-07-07-jiangsu-ai-plus-consumption-home-service",
+      "source_tier": "PROVINCIAL_POLICY_SOURCE",
+      "source_origin_geography": "CN-JS",
+      "relevance_geographies": ["CN-JS"],
+      "observed_at": "2026-07-07T00:00:00+08:00",
+      "published_at": "2026-07-07T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; PROVINCIAL_AI_PLUS_POLICY_ACTIONS_ONLY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "Jiangsu's AI+ consumption plan calls for AI-enabled home-service platforms covering intelligent scheduling, route planning, identity/time verification and generation of service reports.",
+      "captured_payload": {"platform_capabilities":["intelligent_scheduling","route_planning","identity_verification","time_verification","service_report_generation"]},
+      "actor_ids": ["actor:jiangsu-ai-consumption-governance"],
+      "unknown_fields": ["POLICY_ACTION_NE_DEPLOYMENT","DIGITAL_PLATFORM_NE_TRUST_OUTCOME"],
+      "claims": [
+        {"claim_id":"digital-routing-action","primitive":"BEHAVIOR","concept":"HOME_SERVICE_DIGITAL_ROUTING_ACTION","epistemic_status":"OBSERVED","geography":"CN-JS","value":{"platform_capabilities":["intelligent_scheduling","route_planning","identity_time_verification","service_report_generation"]},"actor_id":"actor:jiangsu-ai-consumption-governance"}
+      ]
+    },
+    {
+      "observation_id": "bd002-obs-prepaid-risk-202607",
+      "research_evidence_id": "contra-prepay-risk-1",
+      "source_id": "YUNNAN_PREPAID_RISK_GUIDANCE",
+      "source_record_id": "2026-prepaid-consumption-risk-guidance",
+      "source_tier": "PROVINCIAL_CONSUMER_RISK_GUIDANCE",
+      "source_origin_geography": "CN",
+      "relevance_geographies": ["CN"],
+      "observed_at": "2026-07-14T00:00:00+08:00",
+      "published_at": "2026-07-14T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; OFFICIAL_RISK_GUIDANCE_SUMMARY_ONLY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "Provincial consumer-risk guidance lists service shrinkage, merchant disappearance and refund difficulty among recurring prepaid-consumption risks.",
+      "captured_payload": {"risk_types":["service_shrinkage","merchant_disappearance","refund_difficulty"]},
+      "actor_ids": ["actor:prepaid-service-consumers"],
+      "unknown_fields": ["RISK_GUIDANCE_NE_INCIDENT_RATE","PROVINCIAL_GUIDANCE_NE_NATIONAL_PREVALENCE"],
+      "claims": [
+        {"claim_id":"prepaid-risk-friction","primitive":"FRICTION","concept":"PREPAID_SERVICE_RISK_FRICTION","epistemic_status":"REPORTED","geography":"CN","value":{"risk_types":["service_shrinkage","merchant_disappearance","refund_difficulty"]},"actor_id":"actor:prepaid-service-consumers"}
+      ]
+    },
+    {
+      "observation_id": "bd002-obs-yantai-prepaid-complaints-2025",
+      "research_evidence_id": "contra-prepay-complaint-1",
+      "source_id": "YANTAI_CONSUMER_ASSOCIATION",
+      "source_record_id": "2025-prepaid-complaint-statistics",
+      "source_tier": "LOCAL_CONSUMER_ASSOCIATION",
+      "source_origin_geography": "CN",
+      "relevance_geographies": ["CN"],
+      "observed_at": "2025-12-31T23:59:59+08:00",
+      "published_at": "2026-03-15T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; LOCAL_COMPLAINT_STATISTICS_ONLY; LOCAL_SAMPLE_NE_NATIONAL_RATE; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "Yantai Consumer Association reports prepaid-card complaints were 19.7% of complaints in 2025, with merchant disappearance accounting for 78% of prepaid-card complaints; recurring issues included broken promises, refund difficulty and information opacity.",
+      "captured_payload": {"period":"2025","prepaid_share_of_complaints_pct":19.7,"merchant_disappearance_share_of_prepaid_complaints_pct":78.0,"issues":["broken_promises","refund_difficulty","information_opacity"]},
+      "actor_ids": ["actor:yantai-prepaid-service-consumers"],
+      "unknown_fields": ["LOCAL_COMPLAINT_MIX_NE_POPULATION_INCIDENCE","COMPLAINT_SHARE_NE_TRANSACTION_FAILURE_RATE"],
+      "claims": [
+        {"claim_id":"prepaid-complaint-friction","primitive":"FRICTION","concept":"PREPAID_SERVICE_COMPLAINT_FRICTION","epistemic_status":"OBSERVED","geography":"CN","value":{"period":"2025","prepaid_share_of_complaints_pct":19.7,"merchant_disappearance_share_pct":78.0,"issues":["broken_promises","refund_difficulty","information_opacity"]},"actor_id":"actor:yantai-prepaid-service-consumers"}
+      ]
+    }
+  ]
+}
