@@ -107,13 +107,16 @@ jobs:
             echo "# Pattern sustainability gate"
             echo
             echo "- source ObservedPattern run: \`$SOURCE_RUN_ID\`"
+            jq -r '"- research scope: `\(.source_research_scope_state)`"' .local/pattern_sustainability.json
+            jq -r '"- validation execution authorized: `\(.validation_execution_authorized)`"' .local/pattern_sustainability.json
             jq -r '"- observed patterns assessed: `\(.assessment_count)`"' .local/pattern_sustainability.json
+            jq -r '"- executable validation tasks: `\(.validation_task_count)`"' .local/pattern_sustainability.json
             jq -r '"- core business candidates created: `\(.core_business_candidate_count)`"' .local/pattern_sustainability.json
             echo
             echo "## Sustainability gaps"
             jq -r '.assessments[] | "- `\(.primitive) / \(.concept) / \(.geography)` — state `\(.core_business_state)` — missing `\(.missing_core_gates)`"' .local/pattern_sustainability.json
             echo
-            echo "Recurring evidence is preserved, but standardizability, repeat monetization, compounding, complementary-Actor structure and a regenerating event mechanism remain UNKNOWN until independently evidenced."
+            echo "Calibration/partial-scope patterns may diagnose missing evidence but cannot create an operator validation backlog. Broad coverage is required before validation execution is authorized."
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload sustainability-gap artifact

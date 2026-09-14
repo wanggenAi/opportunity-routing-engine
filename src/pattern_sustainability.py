@@ -68,8 +68,7 @@ class PatternSustainabilityAssessment:
             raise ValueError("pattern sustainability guard cannot promote business truth")
 
     def as_dict(self) -> dict:
-        rendered = asdict(self)
-        return rendered
+        return asdict(self)
 
 
 def _task(task_type: str, evidence_required: str, falsifier: str) -> dict[str, str]:
@@ -80,12 +79,19 @@ def _task(task_type: str, evidence_required: str, falsifier: str) -> dict[str, s
     }
 
 
-def assess_pattern_sustainability(pattern: dict) -> PatternSustainabilityAssessment:
+def assess_pattern_sustainability(
+    pattern: dict,
+    *,
+    allow_validation_tasks: bool = True,
+) -> PatternSustainabilityAssessment:
     """Assess what an observed pattern proves and, more importantly, does not prove.
 
     This first gate intentionally has no promotion path beyond ``PATTERN_ONLY``.
     Later evidence from transactions/outcomes or reviewed hypothesis records must be
     joined explicitly; recurrence is never allowed to self-promote into a business.
+
+    When the upstream research scope is calibration/partial, validation tasks may be
+    suppressed so framework test patterns do not become an operator execution queue.
     """
 
     if pattern.get("state") != "OBSERVED_PATTERN":
@@ -174,7 +180,7 @@ def assess_pattern_sustainability(pattern: dict) -> PatternSustainabilityAssessm
         "REGENERATING_EVENT_FLOW",
         "COMPLEMENTARY_ACTOR_STRUCTURE",
     )
-    tasks = (
+    candidate_tasks = (
         _task(
             "ESTABLISH_REUSABLE_TRANSFORMATION_MECHANISM",
             "Evidence from multiple independent cases that the same bounded intervention/template changes the repeated state with stable acceptance criteria.",
@@ -201,6 +207,7 @@ def assess_pattern_sustainability(pattern: dict) -> PatternSustainabilityAssessm
             "Every new event restarts discovery, trust, delivery design, and acquisition from zero.",
         ),
     )
+    tasks = candidate_tasks if allow_validation_tasks else ()
 
     return PatternSustainabilityAssessment(
         pattern_id=str(pattern["pattern_id"]),
@@ -231,8 +238,16 @@ def summarize_pattern_sustainability(
     if not isinstance(patterns, list):
         raise ValueError("source pattern artifact must contain patterns array")
 
+    research_scope_state = str(
+        observed_pattern_artifact.get("research_scope_state") or "CALIBRATION_ONLY"
+    )
+    validation_execution_authorized = research_scope_state == "BROAD_DISCOVERY_READY"
+
     assessments = tuple(
-        assess_pattern_sustainability(pattern)
+        assess_pattern_sustainability(
+            pattern,
+            allow_validation_tasks=validation_execution_authorized,
+        )
         for pattern in patterns
         if isinstance(pattern, dict) and pattern.get("state") == "OBSERVED_PATTERN"
     )
@@ -240,13 +255,17 @@ def summarize_pattern_sustainability(
         "schema_version": SUSTAINABILITY_SCHEMA_VERSION,
         "source_pattern_run_id": source_pattern_run_id,
         "source_observation_run_id": observed_pattern_artifact.get("source_observation_run_id"),
+        "source_research_scope_state": research_scope_state,
+        "validation_execution_authorized": validation_execution_authorized,
         "source_observed_pattern_count": observed_pattern_artifact.get("observed_pattern_count", 0),
         "assessment_count": len(assessments),
+        "validation_task_count": sum(len(item.validation_tasks) for item in assessments),
         "core_business_candidate_count": 0,
         "business_promotion": BUSINESS_PROMOTION,
         "assessment_semantics": "SUSTAINABILITY_GAP_DIAGNOSTIC_NOT_ARCHETYPE_PROMOTION",
         "assessments": [item.as_dict() for item in assessments],
         "governing_invariants": [
+            "CALIBRATION_PATTERN_NE_OPERATOR_VALIDATION_BACKLOG",
             "RECURRENCE_NE_DEMAND_PUMP",
             "MULTI_ACTOR_NE_POPULATION_PREVALENCE",
             "REPEATED_STRUCTURE_NE_STANDARDIZABLE_TRANSFORMATION",
