@@ -39,7 +39,10 @@ def assess_emergent_concept(
 
     This function never promotes a concept into canonical truth. It only moves
     repeated unexplained observations from RESIDUAL to CANDIDATE and finally to
-    PROMOTION_REVIEW_READY when simple diversity/persistence gates are met.
+    PROMOTION_REVIEW_READY when diversity/persistence gates are met.
+
+    INFERRED semantic claims are deliberately excluded from promotion evidence so
+    downstream interpretation cannot bootstrap itself into a taxonomy fact.
     """
 
     if not concept.strip():
@@ -53,7 +56,11 @@ def assess_emergent_concept(
         if value < 1:
             raise ValueError(f"{name} must be >= 1")
 
-    matched = tuple(item for item in observations if item.concept == concept)
+    matched = tuple(
+        item
+        for item in observations
+        if item.concept == concept and item.epistemic_status != "INFERRED"
+    )
     sources = {item.source_id for item in matched}
     actors = {item.actor_id for item in matched if item.actor_id}
     periods = {_period_key(item.observed_at) for item in matched}
