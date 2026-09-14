@@ -1,0 +1,156 @@
+name: observation-fabric-live
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 5 * * *"
+  workflow_run:
+    workflows:
+      - "jiangsu-money-flow-live"
+      - "regional-data-live"
+      - "resource-underuse-live"
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - "src/live_observation_adapters.py"
+      - "src/live_observation_pipeline.py"
+      - "scripts/build_live_observation_fabric.py"
+      - "scripts/resolve_live_observation_runs.sh"
+      - "scripts/validate_live_observation_fabric.py"
+      - "tests/test_live_observation_fabric.py"
+      - "docs/OBSERVATION_FABRIC.md"
+      - ".github/workflows/observation-fabric-live.yml"
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: observation-fabric-live
+  cancel-in-progress: false
+
+jobs:
+  build-live-fabric:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Resolve latest successful source runs
+        id: runs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash scripts/resolve_live_observation_runs.sh
+
+      - name: Download Jiangsu money-flow evidence
+        uses: actions/download-artifact@v4
+        with:
+          name: jiangsu-money-flow-evidence
+          path: .upstream/jiangsu
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: ${{ steps.runs.outputs.jiangsu_run_id }}
+
+      - name: Download Xuzhou regional evidence
+        uses: actions/download-artifact@v4
+        with:
+          name: regional-live-evidence
+          path: .upstream/regional
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: ${{ steps.runs.outputs.regional_run_id }}
+
+      - name: Download Xuzhou resource-underuse evidence
+        uses: actions/download-artifact@v4
+        with:
+          name: xuzhou-resource-underuse-evidence
+          path: .upstream/resource
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: ${{ steps.runs.outputs.resource_run_id }}
+
+      - name: Restore previous durable Observation Fabric state
+        if: steps.runs.outputs.previous_live_run_id != ''
+        uses: actions/download-artifact@v4
+        with:
+          name: observation-fabric-live-state
+          path: .previous
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: ${{ steps.runs.outputs.previous_live_run_id }}
+
+      - name: Prepare durable state
+        env:
+          PREVIOUS_LIVE_RUN_ID: ${{ steps.runs.outputs.previous_live_run_id }}
+        run: |
+          set -euo pipefail
+          mkdir -p .local
+          if [[ -n "${PREVIOUS_LIVE_RUN_ID:-}" ]]; then
+            test -f .previous/observation_fabric_live.sqlite
+            test -f .previous/observation_fabric_live_assessment.json
+            cp .previous/observation_fabric_live.sqlite .local/observation_fabric_live.sqlite
+          fi
+
+      - name: Ingest current real-world source artifacts
+        run: |
+          python scripts/build_live_observation_fabric.py \
+            --jiangsu-money-flow .upstream/jiangsu/jiangsu_money_flow.json \
+            --xuzhou-procurement .upstream/regional/xz_procurement_recent.json \
+            --resource-underuse .upstream/resource/xz_public_asset_underuse.json \
+            --resource-underuse .upstream/resource/xz_agency_asset_underuse.json \
+            --store .local/observation_fabric_live.sqlite \
+            --output .local/observation_fabric_live_assessment.json \
+            --current-jsonl .local/observation_fabric_current.jsonl \
+            --upstream-manifest .local/live_observation_upstream_manifest.json
+
+      - name: Validate live truth and durable-state continuity
+        env:
+          PREVIOUS_LIVE_RUN_ID: ${{ steps.runs.outputs.previous_live_run_id }}
+        run: |
+          set -euo pipefail
+          args=(
+            --assessment .local/observation_fabric_live_assessment.json
+            --store .local/observation_fabric_live.sqlite
+          )
+          if [[ -n "${PREVIOUS_LIVE_RUN_ID:-}" ]]; then
+            args+=(--previous-assessment .previous/observation_fabric_live_assessment.json)
+          fi
+          python scripts/validate_live_observation_fabric.py "${args[@]}"
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Live Observation Fabric"
+            echo
+            jq -r '"- current observations: `\(.current_observation_count)`"' .local/observation_fabric_live_assessment.json
+            jq -r '"- durable history observations: `\(.history_observation_count)`"' .local/observation_fabric_live_assessment.json
+            jq -r '"- transitions this run: `\(.transition_counts)`"' .local/observation_fabric_live_assessment.json
+            jq -r '"- source counts: `\(.source_counts)`"' .local/observation_fabric_live_assessment.json
+            jq -r '"- primitive counts: `\(.primitive_counts)`"' .local/observation_fabric_live_assessment.json
+            echo
+            echo "Observation only: no payer, payment, availability, permission, route-testable or opportunity promotion occurs here."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload durable live Observation Fabric state
+        uses: actions/upload-artifact@v4
+        with:
+          name: observation-fabric-live-state
+          path: |
+            .local/observation_fabric_live.sqlite
+            .local/observation_fabric_live_assessment.json
+            .local/observation_fabric_current.jsonl
+            .local/live_observation_upstream_manifest.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
