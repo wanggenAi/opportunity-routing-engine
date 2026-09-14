@@ -1,0 +1,84 @@
+{
+  "schema_version": "reviewed-research-observations.v1",
+  "semantics": "REVIEWED_SOURCE_CAPTURE_NOT_FULL_PAGE",
+  "run_id": "BROAD_DISCOVERY_RUN_002_2026-09-14",
+  "retrieved_at": "2026-09-14T15:50:00+08:00",
+  "records": [
+    {
+      "observation_id": "bd002-obs-js-care-coupon-202609",
+      "research_evidence_id": "js-care-coupon-1",
+      "source_id": "JIANGSU_ELDERCARE_COUPON_PROGRAM",
+      "source_record_id": "2026-09-eldercare-consumption-coupon-operation",
+      "source_tier": "PROVINCIAL_PROGRAM_OPERATIONS",
+      "source_origin_geography": "CN-JS",
+      "relevance_geographies": ["CN-JS"],
+      "observed_at": "2026-09-11T00:00:00+08:00",
+      "published_at": "2026-09-11T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; PROGRAM_OPERATION_VALUES_ONLY; CONSUMPTION_DRIVEN_NE_CAUSAL_INCREMENTALITY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "Jiangsu Civil Affairs reports 1.038 million eldercare consumption coupons issued, 208,000 disabled elderly beneficiaries, 573 million yuan redeemed and 1.817 billion yuan in eldercare consumption associated with the program, with home-service expansion as an implementation focus.",
+      "captured_payload": {"coupons_issued":1038000,"beneficiaries":208000,"redeemed_cny":573000000,"associated_eldercare_consumption_cny":1817000000,"implementation_focus":"expand_home_services"},
+      "actor_ids": ["actor:jiangsu-eldercare-coupon-program"],
+      "unknown_fields": ["ASSOCIATED_CONSUMPTION_NE_INCREMENTAL_CAUSAL_SPEND","SUBSIDY_REDEMPTION_NE_PRIVATE_PAYER"],
+      "claims": [
+        {"claim_id":"demand-subsidy-operation","primitive":"BEHAVIOR","concept":"ELDERCARE_DEMAND_SUBSIDY_OPERATION","epistemic_status":"OBSERVED","geography":"CN-JS","value":{"coupons_issued":1038000,"beneficiaries":208000,"redeemed_cny":573000000,"home_service_focus":true},"actor_id":"actor:jiangsu-eldercare-coupon-program"}
+      ]
+    },
+    {
+      "observation_id": "bd002-obs-js-healthcare-care-202605",
+      "research_evidence_id": "js-healthcare-care-1",
+      "source_id": "JIANGSU_MEDICAL_ELDERCARE_ACTION",
+      "source_record_id": "2026-medical-eldercare-action-plan",
+      "source_tier": "PROVINCIAL_HEALTH_POLICY",
+      "source_origin_geography": "CN-JS",
+      "relevance_geographies": ["CN-JS"],
+      "observed_at": "2026-05-31T00:00:00+08:00",
+      "published_at": "2026-05-31T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; ACTION_PLAN_REQUIREMENTS_ONLY; POLICY_TARGET_NE_REALIZED_CAPACITY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "Jiangsu medical-eldercare action plan requires county-level integrated facilities, promotes primary-health long-term-care zones, conversion of some secondary-or-below institutions toward rehabilitation/nursing, and expansion of home medical visits and family beds.",
+      "captured_payload": {"actions":["county_integrated_facilities","primary_health_long_term_care_zones","rehabilitation_nursing_conversion","home_medical_visit_expansion","family_bed_expansion"]},
+      "actor_ids": ["actor:jiangsu-medical-eldercare-system"],
+      "unknown_fields": ["POLICY_TARGET_NE_COMPLETED_CONVERSION","PLANNED_CAPACITY_NE_AVAILABLE_CAPACITY"],
+      "claims": [
+        {"claim_id":"medical-capacity-reconfiguration","primitive":"BEHAVIOR","concept":"MEDICAL_CAPACITY_RECONFIGURATION_FOR_ELDERCARE","epistemic_status":"OBSERVED","geography":"CN-JS","value":{"actions":["primary_health_long_term_care_zones","rehabilitation_nursing_conversion","home_medical_visits","family_beds"]},"actor_id":"actor:jiangsu-medical-eldercare-system"}
+      ]
+    },
+    {
+      "observation_id": "bd002-obs-xz-longcare-network-2025",
+      "research_evidence_id": "xz-longcare-system-1",
+      "source_id": "XUZHOU_LONG_TERM_CARE_SYSTEM",
+      "source_record_id": "2025-ltc-network-summary",
+      "source_tier": "LOCAL_FIRST_PARTY_MEDIA",
+      "source_origin_geography": "CN-JS-XUZHOU",
+      "relevance_geographies": ["CN-JS-XUZHOU"],
+      "observed_at": "2025-12-31T23:59:59+08:00",
+      "published_at": "2026-04-07T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; LOCAL_OFFICIAL_MEDIA_SYSTEM_SUMMARY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "Xuzhou official-media summary reports about 9.2434 million long-term-care-insurance participants and 64,337 beneficiaries in 2025, with 237 designated institutions including 66 medical nursing, 55 eldercare, 101 home-service, 13 assessment and 2 assistive-device institutions.",
+      "captured_payload": {"period":"2025","participants":9243400,"beneficiaries":64337,"designated_institutions":237,"medical_nursing":66,"eldercare":55,"home_service":101,"assessment":13,"assistive_devices":2},
+      "actor_ids": ["actor:xuzhou-ltc-service-network"],
+      "unknown_fields": ["MEDIA_SYSTEM_SUMMARY_NE_FACILITY_LEVEL_CAPACITY","DESIGNATED_INSTITUTION_NE_CURRENT_SPARE_CAPACITY"],
+      "claims": [
+        {"claim_id":"multi-provider-network-operation","primitive":"BEHAVIOR","concept":"LONG_TERM_CARE_MULTI_PROVIDER_NETWORK_OPERATION","epistemic_status":"REPORTED","geography":"CN-JS-XUZHOU","value":{"period":"2025","designated_institutions":237,"medical_nursing":66,"eldercare":55,"home_service":101,"assessment":13,"assistive_devices":2},"actor_id":"actor:xuzhou-ltc-service-network"}
+      ]
+    },
+    {
+      "observation_id": "bd002-obs-xz-longcare-outsourcing-202512",
+      "research_evidence_id": "xz-longcare-procurement-1",
+      "source_id": "XUZHOU_LTC_PROCUREMENT",
+      "source_record_id": "2025-12-23-ltc-administration-procurement-result",
+      "source_tier": "LOCAL_PUBLIC_PROCUREMENT_RESULT",
+      "source_origin_geography": "CN-JS-XUZHOU",
+      "relevance_geographies": ["CN-JS-XUZHOU"],
+      "observed_at": "2025-12-23T00:00:00+08:00",
+      "published_at": "2025-12-23T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; PROCUREMENT_RESULT_FIELDS_ONLY; AWARD_NE_SETTLEMENT; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "Xuzhou public procurement result records nine insurance institutions awarded long-term-care-insurance administration service packages for an estimated 9.2 million participants with a three-year service term; the result is award evidence, not settlement/payment proof.",
+      "captured_payload": {"awardee_count":9,"estimated_participants":9200000,"service_term_years":3,"unit_value_cny":3.2,"unit_value_interpretation":"NOT_USED_AS_TOTAL_PAYMENT"},
+      "actor_ids": ["actor:xuzhou-ltc-administration-procurement"],
+      "unknown_fields": ["PROCUREMENT_AWARD_NE_SETTLEMENT","UNIT_VALUE_BASIS_NOT_INTERPRETED_AS_TOTAL_PAYMENT","BUYER_NE_PROVEN_PAYER"],
+      "claims": [
+        {"claim_id":"administration-outsourcing","primitive":"BEHAVIOR","concept":"LONG_TERM_CARE_ADMINISTRATION_OUTSOURCING","epistemic_status":"OBSERVED","geography":"CN-JS-XUZHOU","value":{"awardee_count":9,"estimated_participants":9200000,"service_term_years":3},"actor_id":"actor:xuzhou-ltc-administration-procurement"}
+      ]
+    }
+  ]
+}

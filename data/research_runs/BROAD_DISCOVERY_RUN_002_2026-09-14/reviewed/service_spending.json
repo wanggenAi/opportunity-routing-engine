@@ -1,0 +1,65 @@
+{
+  "schema_version": "reviewed-research-observations.v1",
+  "semantics": "REVIEWED_SOURCE_CAPTURE_NOT_FULL_PAGE",
+  "run_id": "BROAD_DISCOVERY_RUN_002_2026-09-14",
+  "retrieved_at": "2026-09-14T15:50:00+08:00",
+  "records": [
+    {
+      "observation_id": "bd002-obs-nbs-service-consumption-2025",
+      "research_evidence_id": "cn-service-share-1",
+      "source_id": "NBS_HOUSEHOLD_CONSUMPTION",
+      "source_record_id": "2025-household-service-consumption",
+      "source_tier": "OFFICIAL_STATISTICS_ANALYSIS",
+      "source_origin_geography": "CN",
+      "relevance_geographies": ["CN"],
+      "observed_at": "2025-12-31T23:59:59+08:00",
+      "published_at": "2026-06-04T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; OFFICIAL_ANALYSIS_REPORTED_STATISTICS_ONLY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "NBS analysis reports 2025 per-capita service consumption expenditure of 13,602 yuan, 50.5% above 2020, representing 46.1% of per-capita consumption expenditure, 3.5 percentage points higher than 2020.",
+      "captured_payload": {"period":"2025","per_capita_service_consumption_cny":13602,"change_vs_2020_pct":50.5,"service_share_pct":46.1,"service_share_change_vs_2020_pp":3.5},
+      "actor_ids": ["actor:cn-households"],
+      "unknown_fields": ["AGGREGATE_SERVICE_SHARE_NE_CONSUMER_MOTIVE","SERVICE_SPENDING_NE_SERVICE_BUSINESS_OPPORTUNITY"],
+      "claims": [
+        {"claim_id":"service-share-flow","primitive":"FLOW","concept":"HOUSEHOLD_SERVICE_CONSUMPTION_FLOW","epistemic_status":"OBSERVED","geography":"CN","value":{"period":"2025","per_capita_cny":13602,"share_pct":46.1,"share_change_vs_2020_pp":3.5},"actor_id":"actor:cn-households"}
+      ]
+    },
+    {
+      "observation_id": "bd002-obs-js-consumption-h1-2026",
+      "research_evidence_id": "js-consumption-1",
+      "source_id": "JIANGSU_H1_CONSUMPTION",
+      "source_record_id": "2026-h1-consumption",
+      "source_tier": "PROVINCIAL_OFFICIAL_STATISTICS",
+      "source_origin_geography": "CN-JS",
+      "relevance_geographies": ["CN-JS"],
+      "observed_at": "2026-06-30T23:59:59+08:00",
+      "published_at": "2026-07-22T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; PROVINCIAL_RELEASE_FIELDS_ONLY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "Jiangsu H1 2026 release reports retail sales of consumer goods +0.9%, catering revenue +2.8%, and online retail of goods and services +5.2% year on year.",
+      "captured_payload": {"period":"2026-H1","retail_sales_yoy_pct":0.9,"catering_revenue_yoy_pct":2.8,"online_goods_services_retail_yoy_pct":5.2},
+      "actor_ids": ["actor:jiangsu-consumption-market"],
+      "unknown_fields": ["AGGREGATE_GROWTH_NE_HOUSEHOLD_PREFERENCE","ONLINE_GOODS_AND_SERVICES_NOT_SEPARATED"],
+      "claims": [
+        {"claim_id":"service-online-flow","primitive":"FLOW","concept":"JIANGSU_CONSUMPTION_FLOW_REALLOCATION","epistemic_status":"OBSERVED","geography":"CN-JS","value":{"period":"2026-H1","retail_sales_yoy_pct":0.9,"catering_yoy_pct":2.8,"online_goods_services_yoy_pct":5.2},"actor_id":"actor:jiangsu-consumption-market"}
+      ]
+    },
+    {
+      "observation_id": "bd002-obs-xz-service-economy-2026",
+      "research_evidence_id": "xz-service-economy-1",
+      "source_id": "XUZHOU_SERVICE_ECONOMY_REPORT",
+      "source_record_id": "2025-and-2026q1-service-economy",
+      "source_tier": "LOCAL_FIRST_PARTY_MEDIA",
+      "source_origin_geography": "CN-JS-XUZHOU",
+      "relevance_geographies": ["CN-JS-XUZHOU"],
+      "observed_at": "2026-03-31T23:59:59+08:00",
+      "published_at": "2026-06-28T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; LOCAL_OFFICIAL_MEDIA_SUMMARY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "Xuzhou official-media report says 2025 service-sector value added was 5508.47亿元, up 8.0%, representing 55.3% of GDP; Q1 2026 service value added grew 5.9%.",
+      "captured_payload": {"period_2025":"2025","service_value_added_100m_cny":5508.47,"service_value_added_yoy_pct":8.0,"service_share_of_gdp_pct":55.3,"q1_2026_service_yoy_pct":5.9},
+      "actor_ids": ["actor:xuzhou-service-economy"],
+      "unknown_fields": ["LOCAL_MEDIA_SUMMARY_NE_RAW_STATISTICAL_TABLE","SERVICE_SECTOR_GROWTH_NE_CONSUMER_MOTIVE"],
+      "claims": [
+        {"claim_id":"service-sector-flow","primitive":"FLOW","concept":"XUZHOU_SERVICE_SECTOR_FLOW_CHANGE","epistemic_status":"REPORTED","geography":"CN-JS-XUZHOU","value":{"period":"2025","value_added_100m_cny":5508.47,"yoy_pct":8.0,"share_of_gdp_pct":55.3,"q1_2026_yoy_pct":5.9},"actor_id":"actor:xuzhou-service-economy"}
+      ]
+    }
+  ]
+}

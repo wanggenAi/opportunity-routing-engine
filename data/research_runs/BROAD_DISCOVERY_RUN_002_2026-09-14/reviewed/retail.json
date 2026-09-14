@@ -1,0 +1,67 @@
+{
+  "schema_version": "reviewed-research-observations.v1",
+  "semantics": "REVIEWED_SOURCE_CAPTURE_NOT_FULL_PAGE",
+  "run_id": "BROAD_DISCOVERY_RUN_002_2026-09-14",
+  "retrieved_at": "2026-09-14T15:50:00+08:00",
+  "records": [
+    {
+      "observation_id": "bd002-obs-cn-retail-formats-202607",
+      "research_evidence_id": "cn-retail-channel-1",
+      "source_id": "NBS_RETAIL_FORMATS",
+      "source_record_id": "2026-01_to_2026-07-retail-format-sales",
+      "source_tier": "OFFICIAL_STATISTICS",
+      "source_origin_geography": "CN",
+      "relevance_geographies": ["CN"],
+      "observed_at": "2026-07-31T23:59:59+08:00",
+      "published_at": "2026-08-17T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; OFFICIAL_RELEASE_FORMAT_GROWTH_FIELDS_ONLY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "NBS Jan-Jul 2026 release reports sales growth of major retail formats: convenience stores +6.1%, supermarkets +3.8%, specialty stores -1.8%, department stores -2.4%, and brand-exclusive stores -9.3%.",
+      "captured_payload": {"period":"2026-01_to_2026-07","convenience_yoy_pct":6.1,"supermarket_yoy_pct":3.8,"specialty_yoy_pct":-1.8,"department_yoy_pct":-2.4,"brand_exclusive_yoy_pct":-9.3},
+      "actor_ids": ["actor:cn-convenience-retail-format","actor:cn-supermarket-retail-format","actor:cn-brand-exclusive-retail-format"],
+      "unknown_fields": ["FORMAT_GROWTH_NE_UNIT_ECONOMICS","AGGREGATE_FORMAT_NE_INDIVIDUAL_OPERATOR"],
+      "claims": [
+        {"claim_id":"convenience-change","primitive":"CHANGE","concept":"CONVENIENCE_RETAIL_SALES_CHANGE","epistemic_status":"OBSERVED","geography":"CN","value":{"period":"2026-01_to_2026-07","yoy_pct":6.1},"actor_id":"actor:cn-convenience-retail-format"},
+        {"claim_id":"supermarket-change","primitive":"CHANGE","concept":"SUPERMARKET_RETAIL_SALES_CHANGE","epistemic_status":"OBSERVED","geography":"CN","value":{"period":"2026-01_to_2026-07","yoy_pct":3.8},"actor_id":"actor:cn-supermarket-retail-format"},
+        {"claim_id":"brand-exclusive-change","primitive":"CHANGE","concept":"BRAND_EXCLUSIVE_RETAIL_SALES_CHANGE","epistemic_status":"OBSERVED","geography":"CN","value":{"period":"2026-01_to_2026-07","yoy_pct":-9.3},"actor_id":"actor:cn-brand-exclusive-retail-format"}
+      ]
+    },
+    {
+      "observation_id": "bd002-obs-ccfa-convenience-2025",
+      "research_evidence_id": "cn-convenience-industry-1",
+      "source_id": "CCFA_CONVENIENCE_REPORT",
+      "source_record_id": "2026-china-convenience-report-2025-data",
+      "source_tier": "INDUSTRY_ASSOCIATION_REPORT",
+      "source_origin_geography": "CN",
+      "relevance_geographies": ["CN"],
+      "observed_at": "2025-12-31T23:59:59+08:00",
+      "published_at": "2026-08-01T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; ASSOCIATION_REPORT_SUMMARY_FIELDS_ONLY; SECONDARY_TO_MEMBER_SURVEY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "CCFA's 2026 convenience-store report describes continued network expansion in 2025 while customer traffic and average ticket softened; sampled profitability indicators improved slightly and the report emphasizes efficiency-oriented operations.",
+      "captured_payload": {"period":"2025","non_fuel_top10_net_new_stores_lower_bound":10000,"customer_flow_direction":"DOWN_SLIGHTLY","average_ticket_direction":"DOWN_SLIGHTLY","sample_gross_margin_change_pp":0.3,"sample_net_margin_change_pp":0.2},
+      "actor_ids": ["actor:cn-convenience-store-sector"],
+      "unknown_fields": ["MEMBER_SAMPLE_NE_CENSUS","ASSOCIATION_REPORT_NE_OFFICIAL_STATISTICS","CAUSAL_DRIVER_UNKNOWN"],
+      "claims": [
+        {"claim_id":"convenience-unit-economics-change","primitive":"CHANGE","concept":"CONVENIENCE_NETWORK_AND_UNIT_ECONOMICS_CHANGE","epistemic_status":"REPORTED","geography":"CN","value":{"period":"2025","network_expansion":"CONTINUED","customer_flow":"DOWN_SLIGHTLY","average_ticket":"DOWN_SLIGHTLY","sample_gross_margin_change_pp":0.3,"sample_net_margin_change_pp":0.2},"actor_id":"actor:cn-convenience-store-sector"}
+      ]
+    },
+    {
+      "observation_id": "bd002-obs-ccfa-supermarket-top100-2025",
+      "research_evidence_id": "contra-supermarket-consolidation-1",
+      "source_id": "CCFA_SUPERMARKET_TOP100",
+      "source_record_id": "2025-supermarket-top100",
+      "source_tier": "INDUSTRY_ASSOCIATION_REPORT",
+      "source_origin_geography": "CN",
+      "relevance_geographies": ["CN"],
+      "observed_at": "2025-12-31T23:59:59+08:00",
+      "published_at": "2026-07-01T00:00:00+08:00",
+      "sampling_boundary": "REVIEWED_WEB_CAPTURE_NOT_FULL_PAGE; ASSOCIATION_TOP100_SUMMARY_ONLY; RETRIEVAL_TIME_BOUND_TO_RUN_PERSISTENCE",
+      "evidence_excerpt": "CCFA's 2025 supermarket Top100 summary reports comparable-company sales up 5.4% while store count fell 5.4%; around 60% of surveyed firms improved per-store operating performance.",
+      "captured_payload": {"period":"2025","same_sample_sales_yoy_pct":5.4,"store_count_yoy_pct":-5.4,"share_with_per_store_improvement_pct":60.0,"online_sales_share_pct":19.7},
+      "actor_ids": ["actor:cn-supermarket-top100"],
+      "unknown_fields": ["TOP100_NE_ALL_SUPERMARKETS","PER_STORE_IMPROVEMENT_NE_CAUSAL_CONSOLIDATION_PROOF"],
+      "claims": [
+        {"claim_id":"supermarket-consolidation-change","primitive":"CHANGE","concept":"SUPERMARKET_SCALE_CONSOLIDATION_CHANGE","epistemic_status":"REPORTED","geography":"CN","value":{"period":"2025","same_sample_sales_yoy_pct":5.4,"store_count_yoy_pct":-5.4,"share_with_per_store_improvement_pct":60.0},"actor_id":"actor:cn-supermarket-top100"}
+      ]
+    }
+  ]
+}
