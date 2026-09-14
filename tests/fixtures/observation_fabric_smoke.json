@@ -1,0 +1,140 @@
+[
+  {
+    "observation_id": "smoke-macro-1",
+    "source_id": "FIXTURE_CN_MACRO",
+    "source_record_id": "macro-release-1",
+    "source_locator": "fixture://macro/release-1",
+    "source_origin_geography": "CN",
+    "relevance_geographies": ["CN"],
+    "source_tier": "SYNTHETIC_ARCHITECTURE_FIXTURE",
+    "observed_at": "2026-09-01T00:00:00+08:00",
+    "published_at": "2026-09-10T10:00:00+08:00",
+    "retrieved_at": "2026-09-14T10:00:00+08:00",
+    "parser_version": "smoke.macro.v1",
+    "raw_payload_hash": "1111111111111111111111111111111111111111111111111111111111111111",
+    "sampling_boundary": "SYNTHETIC_AGGREGATE_MACRO_FIXTURE_NOT_WORLD_EVIDENCE",
+    "actor_ids": [],
+    "unknown_fields": ["actor", "payer", "commercial_opportunity"],
+    "evidence": [
+      {
+        "ref_id": "macro-e1",
+        "locator": "fixture://macro/release-1#metric",
+        "excerpt": "Synthetic macro fixture: retail flow changed year over year."
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "macro-flow",
+        "primitive": "FLOW",
+        "concept": "macro.retail_flow_yoy_change_fixture",
+        "epistemic_status": "OBSERVED",
+        "evidence_refs": ["macro-e1"],
+        "value": {"direction": "DOWN", "unit": "PERCENT_FIXTURE"},
+        "geography": "CN"
+      },
+      {
+        "claim_id": "macro-change",
+        "primitive": "CHANGE",
+        "concept": "macro.retail_flow_direction_change_fixture",
+        "epistemic_status": "OBSERVED",
+        "evidence_refs": ["macro-e1"],
+        "value": "DOWN",
+        "geography": "CN"
+      }
+    ],
+    "contradiction_refs": [],
+    "schema_version": "observation-envelope.v1"
+  },
+  {
+    "observation_id": "smoke-procurement-1",
+    "source_id": "FIXTURE_CN_PROCUREMENT",
+    "source_record_id": "procurement-result-1",
+    "source_locator": "fixture://procurement/result-1",
+    "source_origin_geography": "CN-JS-XZ",
+    "relevance_geographies": ["CN-JS-XZ"],
+    "source_tier": "SYNTHETIC_ARCHITECTURE_FIXTURE",
+    "observed_at": "2026-09-09T12:00:00+08:00",
+    "published_at": "2026-09-09T12:00:00+08:00",
+    "retrieved_at": "2026-09-14T10:00:00+08:00",
+    "parser_version": "smoke.procurement.v1",
+    "raw_payload_hash": "2222222222222222222222222222222222222222222222222222222222222222",
+    "sampling_boundary": "SYNTHETIC_PROCUREMENT_FIXTURE_NOT_WORLD_EVIDENCE",
+    "actor_ids": ["fixture-buyer-1"],
+    "unknown_fields": ["payer", "settlement", "supplier_availability"],
+    "evidence": [
+      {
+        "ref_id": "proc-e1",
+        "locator": "fixture://procurement/result-1#package-1",
+        "excerpt": "Synthetic procurement fixture: package explicitly voided."
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "proc-change",
+        "primitive": "CHANGE",
+        "concept": "procurement.package_voided_fixture",
+        "epistemic_status": "OBSERVED",
+        "evidence_refs": ["proc-e1"],
+        "value": true,
+        "actor_id": "fixture-buyer-1",
+        "geography": "CN-JS-XZ"
+      },
+      {
+        "claim_id": "proc-friction-hypothesis",
+        "primitive": "FRICTION",
+        "concept": "procurement.market_clearing_friction_fixture",
+        "epistemic_status": "INFERRED",
+        "evidence_refs": ["proc-e1"],
+        "value": true,
+        "actor_id": "fixture-buyer-1",
+        "geography": "CN-JS-XZ",
+        "inference_depth": 1
+      }
+    ],
+    "contradiction_refs": [],
+    "schema_version": "observation-envelope.v1"
+  },
+  {
+    "observation_id": "smoke-global-text-1",
+    "source_id": "FIXTURE_GLOBAL_REVIEWED_TEXT",
+    "source_record_id": "reviewed-post-1",
+    "source_locator": "fixture://global/reviewed-post-1",
+    "source_origin_geography": "GLOBAL",
+    "relevance_geographies": ["CN"],
+    "source_tier": "SYNTHETIC_ARCHITECTURE_FIXTURE",
+    "observed_at": "2026-09-13T20:00:00+08:00",
+    "published_at": "2026-09-13T20:00:00+08:00",
+    "retrieved_at": "2026-09-14T10:00:00+08:00",
+    "parser_version": "smoke.reviewed_text.v1",
+    "raw_payload_hash": "3333333333333333333333333333333333333333333333333333333333333333",
+    "sampling_boundary": "ONE_SYNTHETIC_REVIEWED_POST_NOT_POPULATION_EVIDENCE",
+    "actor_ids": ["fixture-author-1"],
+    "unknown_fields": ["population_prevalence", "domestic_behavior", "paid_need"],
+    "evidence": [
+      {
+        "ref_id": "text-e1",
+        "locator": "fixture://global/reviewed-post-1#claim",
+        "excerpt": "Synthetic reviewed text: everyone is saving money now."
+      },
+      {
+        "ref_id": "text-e2",
+        "locator": "fixture://global/reviewed-post-1#counter",
+        "excerpt": "Synthetic counterevidence fixture: no population sample is present."
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "text-perception",
+        "primitive": "PERCEPTION",
+        "concept": "social.everyone_saving_money_claim_fixture",
+        "epistemic_status": "REPORTED",
+        "evidence_refs": ["text-e1"],
+        "value": "everyone is saving money now",
+        "actor_id": "fixture-author-1",
+        "contradiction_refs": ["text-e2"]
+      }
+    ],
+    "contradiction_refs": ["text-e2"],
+    "schema_version": "observation-envelope.v1"
+  }
+]
