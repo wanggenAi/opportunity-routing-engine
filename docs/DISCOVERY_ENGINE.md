@@ -90,6 +90,31 @@ GLOBAL + DOMESTIC SENSOR FABRIC
 
 Explicit demand execution remains valid downstream, but it must not dominate discovery merely because it is easy to parse.
 
+### Two candidate classes — do not mix them
+
+The dynamic Sensor Fabric does not erase the constitutional distinction between latent-value discovery and already-articulated execution work.
+
+#### `LATENT_VALUE_ACTIVATION`
+
+A core discovery candidate where at least one side contains value that was not already operating as an explicit market offer or demand. It must preserve fields such as:
+
+```text
+hidden_or_underrecognized_value:
+why_value_is_not_recognized_or_realized:
+complementary_actor_hypothesis:
+transformation_mechanism:
+```
+
+#### `EXPLICIT_DEMAND_EXECUTION`
+
+A valid downstream route where the buyer, task or supply need is already substantially articulated and the main value is execution, outsourcing, matching or coordination.
+
+```text
+EXPLICIT_DEMAND_EXECUTION != CORE_LATENT_VALUE_DISCOVERY
+```
+
+This class may make money or provide bounded learning, but it must not become the engine's core discovery identity merely because structured feeds make it easy to observe.
+
 ## 4. Primary research domain — LOCKED
 
 Default priority:
@@ -317,10 +342,11 @@ perception_motive_behavior
 observed_state_change
 industry_market_structure
 actor
-hidden_or_underrecognized_value
+hidden_or_underrecognized_value:
+why_value_is_not_recognized_or_realized:
 recurrence_or_demand_pump
-complementary_actor_hypothesis
-transformation_mechanism
+complementary_actor_hypothesis:
+transformation_mechanism:
 why_exchange_does_not_already_happen
 evidence
 contradictions
