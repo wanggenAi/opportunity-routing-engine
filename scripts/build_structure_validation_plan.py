@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Materialize non-canonical validation queue and field packets from Run 003."""
+"""Materialize non-canonical structure validation queue and field packets."""
 
 from __future__ import annotations
 
@@ -28,12 +28,14 @@ def _load(path: Path) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--commercial-structure", type=Path, required=True)
+    parser.add_argument("--profile", type=Path)
     parser.add_argument("--queue-output", type=Path, required=True)
     parser.add_argument("--packets-output", type=Path, required=True)
     args = parser.parse_args()
 
     artifact = _load(args.commercial_structure)
-    queue = build_structure_validation_queue(artifact)
+    profile = _load(args.profile) if args.profile else None
+    queue = build_structure_validation_queue(artifact, profile=profile)
     packets = build_structure_field_packets(queue)
 
     args.queue_output.parent.mkdir(parents=True, exist_ok=True)
@@ -42,6 +44,7 @@ def main() -> int:
     args.packets_output.write_text(json.dumps(packets, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps({
         "candidate_id": queue["candidate_id"],
+        "validation_profile_id": queue["validation_profile"]["profile_id"],
         "task_count": queue["task_count"],
         "packet_count": packets["packet_count"],
         "business_promotion": queue["business_promotion"],
