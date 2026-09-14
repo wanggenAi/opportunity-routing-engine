@@ -26,7 +26,7 @@
     },
     {
       "seed_id": "household-balance-change",
-      "text": "居民 收入 就业 储蓄 信贷 家庭资产负债 变化",
+      "text": "居民 收入 储蓄 信贷 家庭资产负债 变化",
       "language": "zh-CN",
       "target_primitives": ["STATE", "CHANGE", "FLOW", "CONSTRAINT"]
     },
@@ -59,6 +59,90 @@
       "text": "China Chinese consumer enterprise technology resource behavior change",
       "language": "en",
       "target_primitives": ["CHANGE", "PERCEPTION", "BEHAVIOR", "RESOURCE", "FRICTION"]
+    },
+    {
+      "seed_id": "housing-rental-change",
+      "text": "住房 租房 二手房 居住成本 搬迁 居住选择 行为 变化",
+      "language": "zh-CN",
+      "target_primitives": ["STATE", "BEHAVIOR", "FLOW", "FRICTION"]
+    },
+    {
+      "seed_id": "health-aging-care-change",
+      "text": "健康 医疗 养老 老龄化 照护 康复 家庭负担 行为 变化",
+      "language": "zh-CN",
+      "target_primitives": ["ACTOR", "STATE", "MOTIVE", "BEHAVIOR", "FRICTION"]
+    },
+    {
+      "seed_id": "education-skills-change",
+      "text": "教育 培训 职业技能 考证 学习投入 就业能力 行为 变化",
+      "language": "zh-CN",
+      "target_primitives": ["CAPABILITY", "MOTIVE", "BEHAVIOR", "FLOW", "CONSTRAINT"]
+    },
+    {
+      "seed_id": "employment-career-change",
+      "text": "就业 招聘 工资 失业 转岗 灵活就业 职业选择 变化",
+      "language": "zh-CN",
+      "target_primitives": ["ACTOR", "STATE", "CHANGE", "BEHAVIOR", "FLOW"]
+    },
+    {
+      "seed_id": "food-retail-value-change",
+      "text": "餐饮 食品 零售 性价比 折扣 价格敏感 消费替代 变化",
+      "language": "zh-CN",
+      "target_primitives": ["PERCEPTION", "MOTIVE", "BEHAVIOR", "FLOW"]
+    },
+    {
+      "seed_id": "pet-companionship-change",
+      "text": "宠物 陪伴 养宠 支出 服务 医疗 寄养 消费行为 变化",
+      "language": "zh-CN",
+      "target_primitives": ["MOTIVE", "BEHAVIOR", "FLOW", "FRICTION"]
+    },
+    {
+      "seed_id": "local-service-time-change",
+      "text": "本地生活 家政 维修 跑腿 配送 便利 时间成本 服务体验 变化",
+      "language": "zh-CN",
+      "target_primitives": ["BEHAVIOR", "CAPABILITY", "FLOW", "FRICTION", "OUTCOME"]
+    },
+    {
+      "seed_id": "reuse-repair-rental-change",
+      "text": "二手 租赁 维修 翻新 回收 再利用 以旧换新 行为 变化",
+      "language": "zh-CN",
+      "target_primitives": ["RESOURCE", "BEHAVIOR", "FLOW", "FRICTION"]
+    },
+    {
+      "seed_id": "small-business-cashflow-change",
+      "text": "小微企业 个体户 门店 现金流 融资 成本 获客 经营压力 变化",
+      "language": "zh-CN",
+      "target_primitives": ["ACTOR", "STATE", "FLOW", "CONSTRAINT", "FRICTION"]
+    },
+    {
+      "seed_id": "logistics-warehouse-change",
+      "text": "物流 仓储 配送 运价 空仓 周转 库存 履约 变化",
+      "language": "zh-CN",
+      "target_primitives": ["RESOURCE", "STATE", "FLOW", "FRICTION", "OUTCOME"]
+    },
+    {
+      "seed_id": "manufacturing-capacity-change",
+      "text": "制造业 工厂 订单 设备 产能 开工率 外协 库存 能力 变化",
+      "language": "zh-CN",
+      "target_primitives": ["ACTOR", "RESOURCE", "CAPABILITY", "STATE", "FLOW"]
+    },
+    {
+      "seed_id": "platform-merchant-change",
+      "text": "电商 平台商家 流量 广告 获客 佣金 退货 渠道经营 变化",
+      "language": "zh-CN",
+      "target_primitives": ["ACTOR", "BEHAVIOR", "FLOW", "CONSTRAINT", "FRICTION"]
+    },
+    {
+      "seed_id": "finance-insurance-payment-change",
+      "text": "支付 信贷 保险 理财 风险偏好 利率 负债 金融行为 变化",
+      "language": "zh-CN",
+      "target_primitives": ["PERCEPTION", "MOTIVE", "BEHAVIOR", "FLOW", "CONSTRAINT"]
+    },
+    {
+      "seed_id": "digital-workflow-friction-change",
+      "text": "软件 App SaaS AI工具 数字化 工作流 功能投诉 人工绕行 变化",
+      "language": "zh-CN",
+      "target_primitives": ["CAPABILITY", "BEHAVIOR", "CONSTRAINT", "FRICTION", "OUTCOME"]
     }
   ],
   "lane_weights": {
