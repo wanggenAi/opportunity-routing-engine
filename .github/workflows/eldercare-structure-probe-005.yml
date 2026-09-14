@@ -45,8 +45,8 @@ jobs:
             --mission data/research_missions/china_primary_broad_discovery.json \
             --dynamic-terms data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/dynamic_terms.json \
             --captures data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/captures.json \
-            --reviewed-dir data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/reviewed_observations \
-            --alignments data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/reviewed_alignments.json \
+            --reviewed-dir data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/reviewed \
+            --alignments data/research_runs/BROAD_DISCOVERY_RUN_002_2026-09-14/concept_alignments_reviewed.json \
             --summary-output .local/run002_observation_review.json \
             --observations-output .local/run002_observations.json
 
