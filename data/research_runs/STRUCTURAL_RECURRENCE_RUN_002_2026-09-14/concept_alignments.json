@@ -1,0 +1,54 @@
+{
+  "schema_version": "reviewed-concept-alignment.v1",
+  "semantics": "CANDIDATE_SEMANTIC_ALIGNMENT_NOT_TAXONOMY_PROMOTION",
+  "run_id": "STRUCTURAL_RECURRENCE_RUN_002_2026-09-14",
+  "alignments": [
+    {
+      "alignment_id": "alignment-idle-asset-scenario-repurposing-v1",
+      "candidate_concept": "IDLE_ASSET_SCENARIO_REPURPOSING",
+      "primitive": "BEHAVIOR",
+      "definition": "An actor deliberately changes the operating function, user scenario, packaging, rights structure or service role of an underused/idle physical asset so the same underlying asset can produce a materially different useful output or utilization stream.",
+      "boundary": "Includes observed/reported functional or operating repurposing of already-existing underused physical space/assets. Excludes ordinary maintenance, pure sale without functional change, greenfield construction, financial refinancing without operating-function change, and policy intent with no actor execution event.",
+      "counterexamples": [
+        "An idle property is auctioned once with no new operating scenario.",
+        "A new building is constructed for its intended use rather than repurposed.",
+        "An asset is revalued or securitized without changing its operating function.",
+        "A policy encourages activation but no actor has executed a transformation."
+      ],
+      "supporting_claim_refs": [
+        "XUZHOU_METRO_GROUP_PUBLIC_REPLY::bd001-obs-xz-metro-idle-space-20260619::repurposing-behavior",
+        "JIANGYIN_FINANCE_STATE_ASSET_REPORT::sr002-obs-jiangyin-housing-repurpose-20260410::housing-rights-repurpose",
+        "NANJING_SASAC_HOTEL_SPACE_REPORT::sr002-obs-nanjing-hotel-space-20260424::hotel-space-multiuse",
+        "NANJING_SASAC_KINDERGARTEN_REPURPOSE_REPORT::sr002-obs-nanjing-kindergarten-20260513::kindergarten-mixed-use-repurpose",
+        "TIANNING_URBAN_MANAGEMENT_SPACE_REPLY::sr002-obs-tianning-edge-space-20260520::edge-space-composite-use",
+        "NANJING_SASAC_TALENT_APARTMENT_REPORT::sr002-obs-nanjing-talent-apartment-20260727::idle-housing-to-talent-apartments-a",
+        "JIANGSU_SASAC_HUAIAN_GUOLIAN_REPORT::sr002-obs-huaian-multi-asset-repurpose-20260826::multi-asset-functional-reshaping"
+      ],
+      "alignment_rationale": "Each supporting source-native claim describes an executed change in the use/operating scenario of an existing underused asset; their downstream industries differ deliberately. The alignment tests a low-level transformation mechanism rather than treating housing, metro retail, hotel space, urban edge space and energy assets as one industry."
+    },
+    {
+      "alignment_id": "alignment-ai-human-escalation-friction-v1",
+      "candidate_concept": "AI_HUMAN_ESCALATION_FRICTION",
+      "primitive": "FRICTION",
+      "definition": "A customer or workflow experiences avoidable loss of context, delay, repetition, responsibility ambiguity or service failure when an AI-handled interaction should transfer to a human or synchronize state with human service.",
+      "boundary": "Includes transfer/synchronization failure between AI and human service. Excludes general model hallucination that does not require handoff, dissatisfaction with a human agent alone, and the mere existence of an AI customer-service standard.",
+      "counterexamples": [
+        "An AI answer is wrong but is immediately corrected without transfer friction.",
+        "A human-only call center has a long queue with no AI handoff involved.",
+        "A standard is published but no transfer/synchronization problem is reported."
+      ],
+      "supporting_claim_refs": [
+        "CNR_AI_CUSTOMER_SERVICE_REPORT::bd001-obs-ai-customer-service-friction-h1-2026::human-escalation-friction",
+        "SAMR_GBT47746_INTERPRETATION::sr002-obs-ai-collaboration-friction-20260805::switching-friction"
+      ],
+      "alignment_rationale": "The consumer-complaint report and the national-standard interpretation independently describe human-transfer or synchronization failure. Evidence is still too thin and actor-poor to establish a recurring actor-level pattern, so this remains a candidate alignment."
+    }
+  ],
+  "truth_boundaries": [
+    "SOURCE_NATIVE_CONCEPTS_REMAIN_IMMUTABLE",
+    "ALIGNMENT_NE_CANONICAL_TAXONOMY",
+    "PROMOTION_REVIEW_READY_NE_PROMOTED",
+    "TAXONOMY_REVIEW_NE_OBSERVED_PATTERN",
+    "TAXONOMY_REVIEW_NE_BUSINESS_OPPORTUNITY"
+  ]
+}
