@@ -149,6 +149,15 @@ class ObservationEnvelope:
         if len(claim_ids) != len(set(claim_ids)):
             raise ValueError("duplicate claim_id")
 
+        declared_actors = set(self.actor_ids)
+        claim_actors = {claim.actor_id for claim in self.claims if claim.actor_id}
+        undeclared_actors = claim_actors - declared_actors
+        if undeclared_actors:
+            raise ValueError(
+                "claim actor_id must be declared in envelope actor_ids: "
+                f"{sorted(undeclared_actors)}"
+            )
+
         available_refs = set(evidence_ids)
         for claim in self.claims:
             missing = set(claim.evidence_refs) - available_refs
