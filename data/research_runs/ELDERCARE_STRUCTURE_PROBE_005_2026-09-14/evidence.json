@@ -1,0 +1,120 @@
+{
+  "schema_version": "structural-commercialization-evidence.v1",
+  "run_id": "ELDERCARE_STRUCTURE_PROBE_005_2026-09-14",
+  "candidate_id": "STRUCTURE-ELDERCARE-CAPACITY-ORCHESTRATION-001",
+  "candidate_concept": "ELDERCARE_CAPACITY_ORCHESTRATION",
+  "source_observation_review_run_id": "BROAD_DISCOVERY_RUN_002_OBSERVATION_REVIEW_2026-09-14",
+  "evidence": [
+    {
+      "evidence_id": "std-nhsa-unified-ltc-process",
+      "dimension": "STANDARDIZABILITY",
+      "source_id": "NHSA_NATIONAL_LTC_UNIFIED_PROCESS_2026",
+      "source_url": "https://www.nhsa.gov.cn/art/2026/3/26/art_14_20034.html",
+      "claim": "National LTC administration now uses a unified process, unified forms and a unified information subsystem covering disability assessment, service provision and reimbursement/settlement. This is direct evidence of reusable process and interface standardization, not evidence that a private orchestrator owns the process.",
+      "geography": "CN",
+      "observed_at": "2026-03-26",
+      "direct_process_specification": true
+    },
+    {
+      "evidence_id": "std-huaian-admin-contract-scope",
+      "dimension": "STANDARDIZABILITY",
+      "source_id": "HUAIAN_LTC_ADMIN_CONTRACT_2026",
+      "source_url": "https://czj.huaian.gov.cn/col/7644_475461/content/17698752/ff8080819ca07ac9019ca353ec1b0082.html",
+      "claim": "A signed Huaian LTC administration contract enumerates a bounded recurring scope: disability assessment, designated-provider agreement management, expense-detail preliminary review, audit, policy communication, training, consultation, complaint handling and fund monitoring.",
+      "geography": "CN-JS-HUAIAN",
+      "observed_at": "2026-02-14",
+      "direct_process_specification": true
+    },
+    {
+      "evidence_id": "actor-jiangsu-government-insurer-care-model",
+      "dimension": "COMPLEMENTARY_ACTOR_STRUCTURE",
+      "source_id": "JIANGSU_LTC_COORDINATION_MODEL",
+      "source_url": "https://ybj.jiangsu.gov.cn/art/2021/10/27/art_71899_10861802.html",
+      "claim": "Jiangsu explicitly describes a government-led, commercial-insurer-administered, care-institution-delivered LTC model; administration includes assessment, expense review, settlement, audit, service planning and quality tracking.",
+      "geography": "CN-JS",
+      "observed_at": "2021-10-27",
+      "actor_roles": ["GOVERNMENT_SUPERVISOR", "COMMERCIAL_INSURER_ADMINISTRATOR", "CARE_PROVIDER", "DISABLED_INSURED_BENEFICIARY"]
+    },
+    {
+      "evidence_id": "actor-xuzhou-multi-provider-network",
+      "dimension": "COMPLEMENTARY_ACTOR_STRUCTURE",
+      "source_id": "XUZHOU_LTC_SERVICE_NETWORK_2025",
+      "source_url": "https://szb.cnxz.com.cn/xzrb/pad/con/202604/07/content_48171.html",
+      "claim": "Xuzhou reports a designated LTC network spanning medical-nursing institutions, eldercare institutions, home-service institutions, assessment institutions and assistive-device institutions serving insured beneficiaries. Designation does not prove spare capacity.",
+      "geography": "CN-JS-XUZHOU",
+      "observed_at": "2025-12-31",
+      "actor_roles": ["MEDICAL_NURSING_PROVIDER", "ELDERCARE_PROVIDER", "HOME_SERVICE_PROVIDER", "ASSESSMENT_PROVIDER", "ASSISTIVE_DEVICE_PROVIDER", "BENEFICIARY"]
+    },
+    {
+      "evidence_id": "regen-national-ltc-workflow",
+      "dimension": "REGENERATING_EVENT_FLOW",
+      "source_id": "NHSA_NATIONAL_LTC_UNIFIED_PROCESS_2026",
+      "source_url": "https://www.nhsa.gov.cn/art/2026/3/26/art_14_20034.html",
+      "claim": "The nationally unified LTC workflow repeatedly processes disability assessment, care-service provision and reimbursement/settlement events; these are intrinsic lifecycle events of continuing LTC administration rather than unrelated founder-led lead generation.",
+      "geography": "CN",
+      "observed_at": "2026-03-26",
+      "event_types": ["DISABILITY_ASSESSMENT", "CARE_SERVICE_DELIVERY", "REIMBURSEMENT_SETTLEMENT"]
+    },
+    {
+      "evidence_id": "regen-xuzhou-home-care-workflow",
+      "dimension": "REGENERATING_EVENT_FLOW",
+      "source_id": "NHSA_XUZHOU_LTC_OPERATIONS_2026",
+      "source_url": "https://www.nhsa.gov.cn/art/2026/6/3/art_14_20840.html",
+      "claim": "Xuzhou describes recurring benefit applications, home disability assessments and repeated home-care visits. Each visit uses location check-in and uploads service-process records to the LTC management platform.",
+      "geography": "CN-JS-XUZHOU",
+      "observed_at": "2026-06-03",
+      "event_types": ["BENEFIT_APPLICATION", "HOME_DISABILITY_ASSESSMENT", "RECURRING_HOME_CARE_VISIT", "SERVICE_CHECKIN_UPLOAD"]
+    },
+    {
+      "evidence_id": "money-huaian-admin-renewal-contract",
+      "dimension": "REPEAT_MONETIZATION",
+      "source_id": "HUAIAN_LTC_ADMIN_CONTRACT_2026",
+      "source_url": "https://czj.huaian.gov.cn/col/7644_475461/content/17698752/ff8080819ca07ac9019ca353ec1b0082.html",
+      "claim": "Huaian published a signed 2026 renewal contract for LTC administration services with China Life Huaian branch. The contract total is CNY 6,620,303.03 for a nine-month performance period. This proves an accepted contracted payment basis, not settlement/payment completion.",
+      "geography": "CN-JS-HUAIAN",
+      "observed_at": "2026-02-14",
+      "payment_basis": "SIGNED_LTC_ADMINISTRATION_CONTRACT_CNY_6620303_03_NOT_SETTLEMENT",
+      "economic_exchange_observed": true
+    },
+    {
+      "evidence_id": "money-changzhou-admin-contract",
+      "dimension": "REPEAT_MONETIZATION",
+      "source_id": "CHANGZHOU_LTC_ADMIN_CONTRACT_2025",
+      "source_url": "https://zfcg.changzhou.gov.cn/html/ns/zfjzcg_htgg/559557909025655.html",
+      "claim": "Changzhou published a signed 2025 LTC service contract with Ping An Property & Casualty Jiangsu branch for CNY 22,440,000 and a one-year performance period. This is a second independent accepted payment basis for the LTC administration/service class, not proof of final settlement.",
+      "geography": "CN-JS-CHANGZHOU",
+      "observed_at": "2025-01-14",
+      "payment_basis": "SIGNED_LTC_SERVICE_CONTRACT_CNY_22440000_NOT_SETTLEMENT",
+      "economic_exchange_observed": true
+    },
+    {
+      "evidence_id": "compound-xuzhou-digital-efficiency-signal",
+      "dimension": "COMPOUNDING",
+      "source_id": "XUZHOU_LTC_DIGITAL_EFFICIENCY_REPORT",
+      "source_url": "https://chinajob.mohrss.gov.cn/h5/c/2023-10-31/389764.shtml",
+      "claim": "Xuzhou reports disability-assessment time falling from 60 days to 20 working days after third-party assessment cooperation, with intelligent-system use further improving review efficiency and a fastest reported benefit assessment of five working days. This is direct process-leverage evidence, but it does not isolate accumulated historical data, templates or rules as the cause of progressively better later cases.",
+      "geography": "CN-JS-XUZHOU",
+      "observed_at": "2023-10-31",
+      "outcome_linked_improvement": false
+    },
+    {
+      "evidence_id": "compound-suzhou-data-feedback-signal",
+      "dimension": "COMPOUNDING",
+      "source_id": "SUZHOU_LTC_INFORMATION_SUPERVISION_2024",
+      "source_url": "https://www.suzhou.gov.cn/szsrmzf/wsjkzccsjssqk/202406/4188023f6f644d729ed57e75a77f484f.shtml",
+      "claim": "Suzhou reports an LTC information system spanning application, assessment, admission, settlement and assessment/monitoring, with anomaly analysis and negative-list feedback used to improve supervision. The source does not provide a longitudinal before/after measure showing that accumulated history makes later routing or administration progressively cheaper, faster or more reliable.",
+      "geography": "CN-JS-SUZHOU",
+      "observed_at": "2024-06-01",
+      "outcome_linked_improvement": false
+    }
+  ],
+  "truth_boundaries": [
+    "SIGNED_CONTRACT_NE_SETTLEMENT",
+    "PROCUREMENT_OR_ADMINISTRATION_NE_PRIVATE_OPERATOR_FIT",
+    "DESIGNATED_PROVIDER_NE_SPARE_CAPACITY",
+    "STANDARDIZED_PROCESS_NE_PROFITABLE_ROUTE",
+    "DIGITAL_PROCESS_LEVERAGE_NE_COMPOUNDING",
+    "PROMOTION_REVIEW_READY_NE_BUSINESS",
+    "UNKNOWN_NE_PASS"
+  ]
+}

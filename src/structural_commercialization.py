@@ -180,9 +180,9 @@ def assess_structural_commercialization(
     task_map = {
         "STANDARDIZABILITY": "Find repeated bounded transformation steps and stable acceptance criteria across independent actors.",
         "COMPLEMENTARY_ACTOR_STRUCTURE": "Verify resource owner, transformation/operator and beneficiary/economic counterparty roles in real cases.",
-        "REGENERATING_EVENT_FLOW": "Verify natural recurring events such as vacancy, lease expiry, new idle status or repeated asset-list refresh.",
-        "REPEAT_MONETIZATION": "Verify repeated accepted service/transaction payment bases rather than budgets or asking prices.",
-        "COMPOUNDING": "Measure whether accumulated asset, tenant, pricing, approval or outcome data reduces later search/coordination/QA cost.",
+        "REGENERATING_EVENT_FLOW": "Verify a natural lifecycle, workflow or actor behavior that repeatedly emits new events without unrelated founder-led hunting.",
+        "REPEAT_MONETIZATION": "Verify repeated accepted service or transaction payment bases rather than budgets, asking prices or unaccepted quotes.",
+        "COMPOUNDING": "Measure whether accumulated data, templates, trust, routing, rules or prior outcomes reduce later search, coordination, QA or failure cost, or improve later acceptance.",
     }
     tasks = tuple(
         {"dimension": name, "task": task_map[name]}
