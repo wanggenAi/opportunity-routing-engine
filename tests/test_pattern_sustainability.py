@@ -106,7 +106,7 @@ class PatternSustainabilityTests(unittest.TestCase):
         self.assertEqual(result["core_business_candidate_count"], 0)
         self.assertEqual(result["business_promotion"], "NOT_PROMOTED")
         self.assertEqual(result["assessments"][0]["pattern_id"], "pattern-1")
-        self.assertEqual(result["assessments"][0]["validation_tasks"], [])
+        self.assertEqual(result["assessments"][0]["validation_tasks"], ())
 
     def test_broad_research_scope_can_create_validation_tasks_but_not_core_candidate(self):
         source = {
