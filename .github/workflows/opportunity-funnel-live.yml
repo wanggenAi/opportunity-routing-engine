@@ -5,6 +5,13 @@ on:
     workflows: ["resource-imbalance-live"]
     types: [completed]
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/opportunity_funnel.py"
+      - "scripts/build_opportunity_funnel.py"
+      - "tests/test_opportunity_funnel.py"
+      - ".github/workflows/opportunity-funnel-live.yml"
 
 permissions:
   contents: read
@@ -12,7 +19,7 @@ permissions:
 
 jobs:
   build-control-plane:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -93,15 +100,18 @@ jobs:
           PY
 
       - name: Publish operator summary
+        env:
+          SOURCE_RUN_ID: ${{ steps.source.outputs.run_id }}
         run: |
           python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json
+          import os
           from pathlib import Path
 
           data = json.loads(Path('.local/xz_opportunity_funnel.json').read_text(encoding='utf-8'))
           print('# Opportunity funnel control plane')
           print()
-          print(f"- source resource run: `{ '${{ steps.source.outputs.run_id }}' }`")
+          print(f"- source resource run: `{os.environ['SOURCE_RUN_ID']}`")
           print(f"- canonical records: `{data['record_count']}`")
           print(f"- status counts: `{data['status_counts']}`")
           print(f"- route-testable: `{data['route_testable_count']}`")
