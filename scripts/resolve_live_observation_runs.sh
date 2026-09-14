@@ -5,11 +5,38 @@ set -euo pipefail
 : "${GITHUB_REPOSITORY:?GITHUB_REPOSITORY is required}"
 : "${GITHUB_OUTPUT:?GITHUB_OUTPUT is required}"
 
-resolve_run() {
+resolve_upstream_run() {
   local workflow="$1"
-  gh run list \
+  local run_json database_id status conclusion
+
+  run_json="$(gh run list \
     --repo "$GITHUB_REPOSITORY" \
     --workflow "$workflow" \
+    --branch main \
+    --limit 1 \
+    --json databaseId,status,conclusion \
+    --jq '.[0] // empty')"
+
+  if [[ -z "$run_json" || "$run_json" == "null" ]]; then
+    echo "No main-branch run exists for upstream workflow $workflow" >&2
+    return 1
+  fi
+
+  database_id="$(jq -r '.databaseId // empty' <<<"$run_json")"
+  status="$(jq -r '.status // empty' <<<"$run_json")"
+  conclusion="$(jq -r '.conclusion // empty' <<<"$run_json")"
+  if [[ -z "$database_id" || "$status" != "completed" || "$conclusion" != "success" ]]; then
+    echo "Latest main-branch run for $workflow is not completed/success (id=${database_id:-unknown}, status=${status:-unknown}, conclusion=${conclusion:-unknown}); refusing to fall back to an older successful artifact" >&2
+    return 1
+  fi
+
+  echo "$database_id"
+}
+
+resolve_previous_live_run() {
+  gh run list \
+    --repo "$GITHUB_REPOSITORY" \
+    --workflow observation-fabric-live.yml \
     --branch main \
     --status success \
     --limit 1 \
@@ -17,22 +44,10 @@ resolve_run() {
     --jq '.[0].databaseId // empty'
 }
 
-jiangsu_run_id="$(resolve_run jiangsu-money-flow-live.yml)"
-regional_run_id="$(resolve_run regional-data-live.yml)"
-resource_run_id="$(resolve_run resource-underuse-live.yml)"
-previous_live_run_id="$(resolve_run observation-fabric-live.yml || true)"
-
-for pair in \
-  "jiangsu_run_id:$jiangsu_run_id" \
-  "regional_run_id:$regional_run_id" \
-  "resource_run_id:$resource_run_id"; do
-  name="${pair%%:*}"
-  value="${pair#*:}"
-  if [[ -z "$value" ]]; then
-    echo "No successful upstream run resolved for $name" >&2
-    exit 1
-  fi
-done
+jiangsu_run_id="$(resolve_upstream_run jiangsu-money-flow-live.yml)"
+regional_run_id="$(resolve_upstream_run regional-data-live.yml)"
+resource_run_id="$(resolve_upstream_run resource-underuse-live.yml)"
+previous_live_run_id="$(resolve_previous_live_run || true)"
 
 {
   echo "jiangsu_run_id=$jiangsu_run_id"
@@ -50,7 +65,7 @@ for spec in \
   run_id="${spec#*:}"
   gh run view "$run_id" \
     --repo "$GITHUB_REPOSITORY" \
-    --json databaseId,headSha,createdAt,updatedAt,url,conclusion,event \
+    --json databaseId,headSha,createdAt,updatedAt,url,status,conclusion,event \
     > ".local/${key}_run.json"
 done
 
