@@ -1,0 +1,140 @@
+name: live-observation-coverage-016
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/live_observation_coverage.py"
+      - "src/sensor_portfolio.py"
+      - "data/source_registry.csv"
+      - "scripts/build_live_observation_coverage.py"
+      - "tests/test_live_observation_coverage.py"
+      - "docs/LIVE_OBSERVATION_COVERAGE.md"
+      - ".github/workflows/live-observation-coverage-016.yml"
+  workflow_run:
+    workflows: ["observation-fabric-live"]
+    types: [completed]
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: live-observation-coverage-016
+  cancel-in-progress: false
+
+jobs:
+  reconcile-live-observation-coverage:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Resolve exact Observation Fabric run
+        id: resolve
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${{ github.event_name }}" == "workflow_run" ]]; then
+            run_id="${{ github.event.workflow_run.id }}"
+            conclusion="${{ github.event.workflow_run.conclusion }}"
+            status="${{ github.event.workflow_run.status }}"
+            head_sha="${{ github.event.workflow_run.head_sha }}"
+          else
+            run_json="$(gh run list \
+              --repo "$GITHUB_REPOSITORY" \
+              --workflow observation-fabric-live.yml \
+              --branch main \
+              --limit 1 \
+              --json databaseId,status,conclusion,headSha \
+              --jq '.[0] // empty')"
+            if [[ -z "$run_json" || "$run_json" == "null" ]]; then
+              echo "No main Observation Fabric run exists" >&2
+              exit 1
+            fi
+            run_id="$(jq -r '.databaseId // empty' <<<"$run_json")"
+            status="$(jq -r '.status // empty' <<<"$run_json")"
+            conclusion="$(jq -r '.conclusion // empty' <<<"$run_json")"
+            head_sha="$(jq -r '.headSha // empty' <<<"$run_json")"
+          fi
+          if [[ -z "$run_id" || "$status" != "completed" || "$conclusion" != "success" ]]; then
+            echo "Refusing non-success Observation Fabric run: id=${run_id:-unknown} status=${status:-unknown} conclusion=${conclusion:-unknown}" >&2
+            exit 1
+          fi
+          echo "run_id=$run_id" >> "$GITHUB_OUTPUT"
+          echo "head_sha=$head_sha" >> "$GITHUB_OUTPUT"
+
+      - name: Download latest durable Observation Fabric state
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .local/fabric
+          gh run download "${{ steps.resolve.outputs.run_id }}" \
+            --repo "$GITHUB_REPOSITORY" \
+            --name observation-fabric-live-state \
+            --dir .local/fabric
+          test -f .local/fabric/observation_fabric_live_assessment.json
+
+      - name: Build live observation coverage
+        run: |
+          python scripts/build_live_observation_coverage.py \
+            --source-registry data/source_registry.csv \
+            --fabric-assessment .local/fabric/observation_fabric_live_assessment.json \
+            --output .local/live_observation_coverage_016.json
+
+      - name: Prove current fail-closed coverage gap
+        shell: bash
+        run: |
+          set -euo pipefail
+          state=.local/live_observation_coverage_016.json
+          test "$(jq -r '.schema_version' "$state")" = "live-observation-coverage.v1"
+          test "$(jq -r '.production_live_registry_count' "$state")" = "8"
+          test "$(jq -r '.adapter_supported_production_count' "$state")" = "3"
+          test "$(jq -r '.observed_production_count' "$state")" = "3"
+          test "$(jq -r '.adapter_supported_not_observed_count' "$state")" = "0"
+          test "$(jq -r '.no_unified_adapter_count' "$state")" = "5"
+          test "$(jq -r '.observed_without_governed_support_count' "$state")" = "0"
+          test "$(jq -r '.observed_nonproduction_count' "$state")" = "0"
+          jq -e '.observed_production_source_ids | sort == ["EJY365_XZ_LINKED","JS_STATS","XZ_GGZY"]' "$state" >/dev/null
+          jq -e '.no_unified_adapter_source_ids | sort == ["CN_CUSTOMS","CN_NBS","CN_PBOC","CN_PBOC_JS","XZ_GOV_FINANCE_DEMAND"]' "$state" >/dev/null
+          jq -e '.latest_fabric_source_counts.JS_STATS > 0 and .latest_fabric_source_counts.XZ_GGZY > 0 and .latest_fabric_source_counts.EJY365_XZ_LINKED > 0' "$state" >/dev/null
+          jq -e '.truth_boundaries | index("ACTIVE_LIVE_REGISTRY_NE_OBSERVED_IN_FABRIC") != null and index("ADAPTER_SUPPORT_NE_CURRENT_OBSERVATION") != null and index("MISSING_FABRIC_SOURCE_NE_ZERO_WORLD_ACTIVITY") != null' "$state" >/dev/null
+          if jq -e '.. | objects | has("payer") or has("paid_need") or has("route_testable") or has("opportunity_score") or has("commercial_score") or has("active_version") or has("taxonomy_promotion") or has("business_promotion")' "$state" >/dev/null; then
+            echo "Live observation coverage artifact leaked downstream truth" >&2
+            exit 1
+          fi
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Live Observation Coverage 016"
+            echo
+            jq -r '"- production-live registry sources: `\(.production_live_registry_count)`"' .local/live_observation_coverage_016.json
+            jq -r '"- governed adapter-supported production sources: `\(.adapter_supported_production_count)`"' .local/live_observation_coverage_016.json
+            jq -r '"- actually observed in latest unified Fabric: `\(.observed_production_count)`"' .local/live_observation_coverage_016.json
+            jq -r '"- production sources with no unified adapter: `\(.no_unified_adapter_count)`"' .local/live_observation_coverage_016.json
+            jq -r '"- latest Fabric run: `${{ steps.resolve.outputs.run_id }}` / `${{ steps.resolve.outputs.head_sha }}`"'
+            echo "- registry liveness, adapter support and current observation remain separate states"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload live observation coverage artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-observation-coverage-016-state
+          path: .local/live_observation_coverage_016.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
