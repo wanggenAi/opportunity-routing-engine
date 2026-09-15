@@ -12,6 +12,8 @@ UPSTREAM_KEYS = (
     "jiangsu_money_flow",
     "regional_data",
     "resource_underuse",
+    "nbs_macro",
+    "pbc_jiangsu_credit",
 )
 
 
@@ -80,7 +82,13 @@ def main() -> int:
     if data.get("epistemic_counts", {}).keys() - {"OBSERVED"}:
         raise SystemExit("live ingress manufactured non-observed epistemic states")
 
-    required_sources = {"JS_STATS", "XZ_GGZY", "EJY365_XZ_LINKED"}
+    required_sources = {
+        "JS_STATS",
+        "XZ_GGZY",
+        "EJY365_XZ_LINKED",
+        "CN_NBS",
+        "CN_PBOC_JS",
+    }
     missing = required_sources - set(data.get("source_counts", {}))
     if missing:
         raise SystemExit(f"required live source families missing: {sorted(missing)}")
@@ -100,6 +108,12 @@ def main() -> int:
         raise SystemExit("procurement budget observation is missing")
     if "PUBLICLY_LISTED_ASSET_OR_RIGHT" not in concepts:
         raise SystemExit("resource listing observation is missing")
+    if "CN_RETAIL_CURRENT" not in concepts or "CN_RETAIL_YOY" not in concepts:
+        raise SystemExit("required NBS macro observations are missing")
+    if "CN_PBOC_JS_TOTAL_DEPOSITS_100M_CNY" not in concepts:
+        raise SystemExit("required PBC Jiangsu deposit observation is missing")
+    if "CN_PBOC_JS_TOTAL_LOANS_100M_CNY" not in concepts:
+        raise SystemExit("required PBC Jiangsu loan observation is missing")
 
     upstream_run_ids(data)
 
@@ -113,7 +127,11 @@ def main() -> int:
 
     if args.previous_assessment is not None:
         previous = _load(args.previous_assessment)
-        validate_upstream_monotonicity(data, previous)
+        # Older durable states may predate newly governed upstream families. They are
+        # valid bootstrap history, but once the new manifest exists it may never regress.
+        previous_runs = previous.get("upstream_manifest", {}).get("upstream_runs", {})
+        if isinstance(previous_runs, dict) and set(previous_runs) == set(UPSTREAM_KEYS):
+            validate_upstream_monotonicity(data, previous)
         if data["current_observation_count"] < previous.get("current_observation_count", 0):
             raise SystemExit("durable current state shrank after restoring prior live artifact")
         if data["history_observation_count"] < previous.get("history_observation_count", 0):
