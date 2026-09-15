@@ -1,0 +1,94 @@
+{
+  "schema_version": "sensor-evidence-channel-registry.v1",
+  "channels": [
+    {
+      "channel_id": "OFFICIAL_STRUCTURAL_BASELINE",
+      "description": "Official statistical, monetary, labor, trade and policy records that establish structural state/change/flow baselines.",
+      "semantic_dimensions": ["STATE", "CHANGE", "FLOW", "CONSTRAINT"],
+      "operational_source_ids": [
+        "CN_NBS",
+        "CN_MOFCOM_DATA",
+        "CN_MOFCOM_CIF",
+        "CN_PBOC",
+        "CN_PBOC_JS",
+        "CN_CUSTOMS",
+        "CN_MOHRSS",
+        "CN_CHINAJOB",
+        "JS_GOV",
+        "JS_STATS",
+        "XZ_GOV_STATS"
+      ],
+      "candidate_source_ids": []
+    },
+    {
+      "channel_id": "HARD_BEHAVIOR_MONEY",
+      "description": "Observed money, credit, trade, procurement, financing-demand, listing and transaction-adjacent traces that are harder than narrative intent but still do not prove payment or opportunity.",
+      "semantic_dimensions": ["STATE", "CHANGE", "FLOW", "RESOURCE", "BEHAVIOR"],
+      "operational_source_ids": [
+        "CN_PBOC",
+        "CN_PBOC_JS",
+        "CN_CUSTOMS",
+        "XZ_GOV_FINANCE_DEMAND",
+        "XZ_GGZY",
+        "EJY365_XZ_LINKED",
+        "JS_GGZY_XZ_MIRROR",
+        "XCMG_USED"
+      ],
+      "candidate_source_ids": []
+    },
+    {
+      "channel_id": "LOCAL_REALITY",
+      "description": "Local institutional, enterprise, media, asset and service evidence used to observe what is actually happening in Jiangsu/Xuzhou rather than infer local reality from national aggregates.",
+      "semantic_dimensions": ["ACTOR", "STATE", "CHANGE", "RESOURCE", "CAPABILITY", "FLOW", "CONSTRAINT", "FRICTION", "OUTCOME"],
+      "operational_source_ids": [
+        "CN_MOHRSS",
+        "CN_CHINAJOB",
+        "JS_GOV",
+        "XZ_GOV_FINANCE_DEMAND",
+        "XZ_GOV_STATS",
+        "XZ_GGZY",
+        "EJY365_XZ_LINKED",
+        "JS_GGZY_XZ_MIRROR",
+        "XZ_SME",
+        "XZ_DAILY",
+        "ECPMI",
+        "ONEWO",
+        "XCMG_USED"
+      ],
+      "candidate_source_ids": []
+    },
+    {
+      "channel_id": "SEARCH_INTENT",
+      "description": "Search-demand and audience-interest traces that can reveal emerging intent or salience before hard transactions are visible.",
+      "semantic_dimensions": ["PERCEPTION", "MOTIVE", "CHANGE"],
+      "operational_source_ids": ["BAIDU_INDEX"],
+      "candidate_source_ids": []
+    },
+    {
+      "channel_id": "SOCIAL_PUBLIC_DISCOURSE",
+      "description": "Public social/content discourse for perception, motive, behavior and friction discovery. Platform identity is a source surface, never an ontology category.",
+      "semantic_dimensions": ["PERCEPTION", "MOTIVE", "BEHAVIOR", "FRICTION", "CHANGE"],
+      "operational_source_ids": [
+        "WEIBO_PUBLIC",
+        "WEIBO_CLI",
+        "DOUYIN_OPENAPI",
+        "XHS_PUBLIC",
+        "DOUYIN_PUBLIC",
+        "ZHIHU_PUBLIC"
+      ],
+      "candidate_source_ids": [
+        "REDDIT_CHINA_AUX_CANDIDATE",
+        "X_CHINA_AUX_CANDIDATE",
+        "INSTAGRAM_CHINA_AUX_CANDIDATE",
+        "TELEGRAM_CHINA_AUX_CANDIDATE"
+      ]
+    },
+    {
+      "channel_id": "REPRESENTATIVE_RESEARCH",
+      "description": "Public research/report evidence intended to add sampled or synthesized population-level behavior context beyond anecdotal cases and official aggregates.",
+      "semantic_dimensions": ["STATE", "CHANGE", "PERCEPTION", "MOTIVE", "BEHAVIOR", "FRICTION", "OUTCOME"],
+      "operational_source_ids": ["QM"],
+      "candidate_source_ids": []
+    }
+  ]
+}
