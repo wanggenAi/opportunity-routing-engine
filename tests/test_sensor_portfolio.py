@@ -1,7 +1,11 @@
 import unittest
 from pathlib import Path
 
-from src.sensor_portfolio import OperationalSource, load_operational_sources, reconcile_sensor_portfolio
+from src.sensor_portfolio import (
+    OperationalSource,
+    load_operational_sources,
+    reconcile_sensor_portfolio,
+)
 from src.sensor_registry import SensorCandidate, load_sensor_candidates
 
 
@@ -9,7 +13,13 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class SensorPortfolioTests(unittest.TestCase):
-    def _operational(self, *, source_id="SYNTHETIC", status="ACTIVE_LIVE_TEST", access_mode="PUBLIC_JSON_API"):
+    def _operational(
+        self,
+        *,
+        source_id="SYNTHETIC",
+        status="ACTIVE_LIVE_TEST",
+        access_mode="PUBLIC_JSON_API",
+    ):
         return OperationalSource(
             source_id=source_id,
             name="Synthetic operational source",
@@ -76,38 +86,53 @@ class SensorPortfolioTests(unittest.TestCase):
         self.assertEqual(result["registered_manual_count"], 1)
         self.assertEqual(result["operational_production_live_count"], 0)
         self.assertEqual(result["production_coverage_count"], 0)
-        self.assertEqual(result["operational_sources"][0]["operational_class"], "REGISTERED_MANUAL")
+        self.assertEqual(
+            result["operational_sources"][0]["operational_class"],
+            "REGISTERED_MANUAL",
+        )
 
     def test_real_registry_distinguishes_live_manual_and_candidate_surfaces(self):
         operational = load_operational_sources(ROOT / "data/source_registry.csv")
         candidates = load_sensor_candidates(ROOT / "data/sensor_candidates.json")
         result = reconcile_sensor_portfolio(operational, candidates)
 
+        self.assertEqual(result["operational_registry_count"], 28)
+        self.assertEqual(result["operational_production_live_count"], 8)
+        self.assertEqual(result["production_coverage_count"], 8)
         self.assertEqual(result["candidate_registry_count"], 4)
         self.assertEqual(result["candidate_production_live_count"], 0)
         self.assertEqual(result["candidate_not_production_count"], 4)
         self.assertEqual(result["registry_mismatch_count"], 0)
         self.assertEqual(result["overlap_count"], 0)
-        self.assertGreater(result["operational_production_live_count"], 0)
-        self.assertEqual(
-            result["production_coverage_count"],
-            result["operational_production_live_count"],
-        )
 
         production = set(result["production_coverage_source_ids"])
         manual = set(result["registered_manual_source_ids"])
         candidate_only = set(result["candidate_only_source_ids"])
         operational_only = set(result["operational_only_source_ids"])
 
-        self.assertIn("CN_NBS", production)
-        self.assertIn("JS_STATS", production)
-        self.assertIn("XZ_GGZY", production)
-        self.assertIn("BAIDU_INDEX", manual)
-        self.assertIn("WEIBO_PUBLIC", manual)
-        self.assertIn("XHS_PUBLIC", manual)
-        self.assertIn("DOUYIN_PUBLIC", manual)
-        self.assertIn("ZHIHU_PUBLIC", manual)
-        self.assertFalse({"BAIDU_INDEX", "WEIBO_PUBLIC", "XHS_PUBLIC", "DOUYIN_PUBLIC", "ZHIHU_PUBLIC"} & production)
+        self.assertEqual(
+            production,
+            {
+                "CN_NBS",
+                "CN_PBOC",
+                "CN_PBOC_JS",
+                "CN_CUSTOMS",
+                "XZ_GOV_FINANCE_DEMAND",
+                "JS_STATS",
+                "XZ_GGZY",
+                "EJY365_XZ_LINKED",
+            },
+        )
+        self.assertTrue(
+            {
+                "BAIDU_INDEX",
+                "WEIBO_PUBLIC",
+                "XHS_PUBLIC",
+                "DOUYIN_PUBLIC",
+                "ZHIHU_PUBLIC",
+            }.issubset(manual)
+        )
+        self.assertFalse(manual & production)
         self.assertEqual(
             candidate_only,
             {
@@ -118,9 +143,16 @@ class SensorPortfolioTests(unittest.TestCase):
             },
         )
         self.assertIn("XHS_PUBLIC", operational_only)
-        self.assertIn("UNREGISTERED", "UNREGISTERED")  # keep no implicit source synthesis in test fixtures
-        self.assertIn("DISCOVERED_SOURCE_NE_PRODUCTION_COVERAGE", result["truth_boundaries"])
-        self.assertIn("MANUAL_SURFACE_NE_AUTOMATED_LIVE_SENSOR", result["truth_boundaries"])
+        self.assertNotIn("UNREGISTERED", operational_only)
+        self.assertNotIn("UNREGISTERED", candidate_only)
+        self.assertIn(
+            "DISCOVERED_SOURCE_NE_PRODUCTION_COVERAGE",
+            result["truth_boundaries"],
+        )
+        self.assertIn(
+            "MANUAL_SURFACE_NE_AUTOMATED_LIVE_SENSOR",
+            result["truth_boundaries"],
+        )
 
 
 if __name__ == "__main__":
