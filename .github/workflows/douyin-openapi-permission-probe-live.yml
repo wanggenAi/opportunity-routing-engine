@@ -1,0 +1,98 @@
+name: douyin-openapi-permission-probe-live
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 4 * * 1"
+  pull_request:
+    paths:
+      - "src/douyin_openapi_permission_probe.py"
+      - "scripts/collect_douyin_openapi_permission_evidence.py"
+      - "scripts/validate_douyin_openapi_permission_evidence.py"
+      - "tests/test_douyin_openapi_permission_probe.py"
+      - "docs/DOUYIN_OPENAPI_PERMISSION_PROBE.md"
+      - ".github/workflows/douyin-openapi-permission-probe-live.yml"
+  push:
+    branches: [main]
+    paths:
+      - "src/douyin_openapi_permission_probe.py"
+      - "scripts/collect_douyin_openapi_permission_evidence.py"
+      - "scripts/validate_douyin_openapi_permission_evidence.py"
+      - "tests/test_douyin_openapi_permission_probe.py"
+      - "docs/DOUYIN_OPENAPI_PERMISSION_PROBE.md"
+      - ".github/workflows/douyin-openapi-permission-probe-live.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: douyin-openapi-permission-probe-live-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  probe-official-permission-docs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect current official Douyin OpenAPI permission evidence
+        run: |
+          mkdir -p .local
+          python scripts/collect_douyin_openapi_permission_evidence.py \
+            --output .local/douyin_openapi_permission_evidence.json
+
+      - name: Validate fail-closed permission evidence
+        run: |
+          python scripts/validate_douyin_openapi_permission_evidence.py \
+            --input .local/douyin_openapi_permission_evidence.json
+
+      - name: Prove current permission boundary
+        shell: bash
+        run: |
+          set -euo pipefail
+          state=.local/douyin_openapi_permission_evidence.json
+          test "$(jq -r '.schema_version' "$state")" = "douyin-openapi-permission-probe.v1"
+          test "$(jq -r '.source_id' "$state")" = "DOUYIN_OPENAPI"
+          test "$(jq -r '.intended_scope' "$state")" = "video.search"
+          test "$(jq -r '.permission_class' "$state")" = "SPECIAL_PERMISSION"
+          test "$(jq -r '.permission_default_state' "$state")" = "DEFAULT_OFF"
+          test "$(jq -r '.permission_application_route' "$state")" = "MANAGEMENT_CENTER_APPLICATION"
+          test "$(jq -r '.application_approval_status' "$state")" = "NOT_ESTABLISHED"
+          test "$(jq -r '.intended_scope_free_quota_amount_status' "$state")" = "NOT_ESTABLISHED_FROM_PUBLIC_DOCS"
+          test "$(jq -r '.zero_incremental_fee_condition' "$state")" = "NOT_ESTABLISHED"
+          test "$(jq -r '.producer_trial_allowed' "$state")" = "false"
+          jq -e '.blockers | sort == ["APPLICATION_APPROVAL_NOT_ESTABLISHED","VIDEO_SEARCH_FREE_QUOTA_NOT_PUBLICLY_ESTABLISHED","VIDEO_SEARCH_SPECIAL_PERMISSION_DEFAULT_OFF","ZERO_INCREMENTAL_FEE_CONDITION_NOT_ESTABLISHED"]' "$state" >/dev/null
+          jq -e '.documents | length == 3' "$state" >/dev/null
+          jq -e '.truth_boundaries | index("OFFICIAL_SCOPE_EXISTS_NE_SCOPE_GRANTED") != null and index("FREE_QUOTA_EXISTS_NE_TARGET_SCOPE_FREE_QUOTA_PROVEN") != null and index("PERMISSION_EVIDENCE_NE_SOURCE_ACTIVATION") != null and index("UNKNOWN_NE_PASS") != null' "$state" >/dev/null
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Douyin OpenAPI Permission Probe"
+            echo
+            jq -r '"- intended scope: `\(.intended_scope)`"' .local/douyin_openapi_permission_evidence.json
+            jq -r '"- signal fit: `\(.signal_fit)`"' .local/douyin_openapi_permission_evidence.json
+            jq -r '"- permission class/default: `\(.permission_class)` / `\(.permission_default_state)`"' .local/douyin_openapi_permission_evidence.json
+            jq -r '"- producer trial allowed: `\(.producer_trial_allowed)`"' .local/douyin_openapi_permission_evidence.json
+            jq -r '"- blockers: `\(.blockers)`"' .local/douyin_openapi_permission_evidence.json
+            echo "- official public documentation only; no API credentials, no quota purchase, no source activation"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload Douyin permission evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: douyin-openapi-permission-evidence
+          path: .local/douyin_openapi_permission_evidence.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
