@@ -72,9 +72,9 @@ def _numeric(value: object, field: str) -> float:
     return float(value)
 
 
-def _same_number(left: object, right: str, field: str) -> float:
-    parsed = _numeric(left, field)
-    evidence = _number(right, field)
+def _same_number(value: object, source_cell: str, field: str) -> float:
+    parsed = _numeric(value, field)
+    evidence = _number(source_cell, field)
     if parsed != evidence:
         raise ValueError(f"{field} diverges from exact GACC row evidence")
     return parsed
@@ -133,11 +133,7 @@ def _validate_corroboration(payload: Mapping[str, Any]) -> tuple[str, str, str]:
     return period, url, digest
 
 
-def _row_evidence(
-    row: Mapping[str, Any],
-    *,
-    expected_table: int,
-) -> tuple[Mapping[str, Any], list[str], str, str, str]:
+def _row_evidence(row: Mapping[str, Any], *, expected_table: int) -> tuple[list[str], str, str]:
     evidence = _mapping(row.get("source_row_evidence"), "source_row_evidence")
     if evidence.get("contract") != "gacc-source-row-evidence.v1":
         raise ValueError("unsupported GACC row-evidence contract")
@@ -153,11 +149,10 @@ def _row_evidence(
         raise ValueError("GACC row identity diverges from exact evidence")
     locator = _official_gacc_http(evidence.get("source_url"), "source_row_evidence.source_url")
     raw_hash = _sha256(evidence.get("source_payload_sha256"), "source_row_evidence.source_payload_sha256")
-    row_hash = _sha256(evidence.get("row_sha256"), "source_row_evidence.row_sha256")
-    row_text = _text(evidence.get("row_text"), "source_row_evidence.row_text")
-    if row_text != " | ".join(cells):
+    _sha256(evidence.get("row_sha256"), "source_row_evidence.row_sha256")
+    if _text(evidence.get("row_text"), "source_row_evidence.row_text") != " | ".join(cells):
         raise ValueError("GACC row text diverges from row cells")
-    return evidence, cells, locator, raw_hash, row_hash
+    return cells, locator, raw_hash
 
 
 def _claim(
@@ -174,7 +169,6 @@ def _claim(
     entity_scope: str,
     geography: str,
     table_number: int,
-    corroboration_status: str,
     total_basis: str | None = None,
 ) -> SemanticClaim:
     payload: dict[str, Any] = {
@@ -185,7 +179,7 @@ def _claim(
         "entity_name": entity_name,
         "entity_scope": entity_scope,
         "table_number": table_number,
-        "corroboration_status": corroboration_status,
+        "corroboration_status": "PERIOD_IDENTITY_DIRECTION_CORROBORATED",
         "corroboration_basis": "PERIOD_IDENTITY_DIRECTION_ONLY",
         "monetary_value_comparison": "UNAVAILABLE_CROSS_CURRENCY",
     }
@@ -206,10 +200,11 @@ def _table8_envelope(
     row: Mapping[str, Any],
     *,
     period: str,
+    fetched_at: str,
     corroboration_url: str,
     corroboration_hash: str,
 ) -> ObservationEnvelope:
-    _, cells, locator, raw_hash, row_hash = _row_evidence(row, expected_table=8)
+    cells, locator, raw_hash = _row_evidence(row, expected_table=8)
     if row.get("total_basis") != "DERIVED_EXPORT_PLUS_IMPORT":
         raise ValueError("GACC table-8 total basis drifted")
 
@@ -229,26 +224,22 @@ def _table8_envelope(
     name = _text(row.get("name"), "row.name")
     if name.casefold() not in {"jiangsu", "jiangsu province", "xuzhou"}:
         raise ValueError("unexpected GACC table-8 governed row identity")
-    geography = "CN-JS" if name.casefold() != "xuzhou" else "CN-JS-XZ"
+    geography = "CN-JS-XZ" if name.casefold() == "xuzhou" else "CN-JS"
     entity_scope = "IMPORTER_EXPORTER_LOCATION"
     row_ref = "gacc-row:table8"
-    corroboration_ref = "jiangsu-https-corroboration"
-
     claims = (
-        _claim(claim_id="exports_month", primitive="FLOW", concept="CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_EXPORTS_MONTH", evidence_ref=row_ref, value=exports_month, unit="USD_THOUSAND", period=period, period_scope="MONTH", entity_name=name, entity_scope=entity_scope, geography=geography, table_number=8, corroboration_status="PERIOD_IDENTITY_DIRECTION_CORROBORATED"),
-        _claim(claim_id="exports_ytd", primitive="FLOW", concept="CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_EXPORTS_YTD", evidence_ref=row_ref, value=exports_ytd, unit="USD_THOUSAND", period=period, period_scope="YTD", entity_name=name, entity_scope=entity_scope, geography=geography, table_number=8, corroboration_status="PERIOD_IDENTITY_DIRECTION_CORROBORATED"),
-        _claim(claim_id="imports_month", primitive="FLOW", concept="CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_IMPORTS_MONTH", evidence_ref=row_ref, value=imports_month, unit="USD_THOUSAND", period=period, period_scope="MONTH", entity_name=name, entity_scope=entity_scope, geography=geography, table_number=8, corroboration_status="PERIOD_IDENTITY_DIRECTION_CORROBORATED"),
-        _claim(claim_id="imports_ytd", primitive="FLOW", concept="CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_IMPORTS_YTD", evidence_ref=row_ref, value=imports_ytd, unit="USD_THOUSAND", period=period, period_scope="YTD", entity_name=name, entity_scope=entity_scope, geography=geography, table_number=8, corroboration_status="PERIOD_IDENTITY_DIRECTION_CORROBORATED"),
-        _claim(claim_id="exports_yoy", primitive="CHANGE", concept="CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_EXPORTS_YOY", evidence_ref=row_ref, value=exports_yoy, unit="PERCENT", period=period, period_scope="YTD_REPORTED_CHANGE", entity_name=name, entity_scope=entity_scope, geography=geography, table_number=8, corroboration_status="PERIOD_IDENTITY_DIRECTION_CORROBORATED"),
-        _claim(claim_id="imports_yoy", primitive="CHANGE", concept="CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_IMPORTS_YOY", evidence_ref=row_ref, value=imports_yoy, unit="PERCENT", period=period, period_scope="YTD_REPORTED_CHANGE", entity_name=name, entity_scope=entity_scope, geography=geography, table_number=8, corroboration_status="PERIOD_IDENTITY_DIRECTION_CORROBORATED"),
+        _claim(claim_id="exports_month", primitive="FLOW", concept="CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_EXPORTS_MONTH", evidence_ref=row_ref, value=exports_month, unit="USD_THOUSAND", period=period, period_scope="MONTH", entity_name=name, entity_scope=entity_scope, geography=geography, table_number=8),
+        _claim(claim_id="exports_ytd", primitive="FLOW", concept="CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_EXPORTS_YTD", evidence_ref=row_ref, value=exports_ytd, unit="USD_THOUSAND", period=period, period_scope="YTD", entity_name=name, entity_scope=entity_scope, geography=geography, table_number=8),
+        _claim(claim_id="imports_month", primitive="FLOW", concept="CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_IMPORTS_MONTH", evidence_ref=row_ref, value=imports_month, unit="USD_THOUSAND", period=period, period_scope="MONTH", entity_name=name, entity_scope=entity_scope, geography=geography, table_number=8),
+        _claim(claim_id="imports_ytd", primitive="FLOW", concept="CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_IMPORTS_YTD", evidence_ref=row_ref, value=imports_ytd, unit="USD_THOUSAND", period=period, period_scope="YTD", entity_name=name, entity_scope=entity_scope, geography=geography, table_number=8),
+        _claim(claim_id="exports_yoy", primitive="CHANGE", concept="CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_EXPORTS_YOY", evidence_ref=row_ref, value=exports_yoy, unit="PERCENT", period=period, period_scope="YTD_REPORTED_CHANGE", entity_name=name, entity_scope=entity_scope, geography=geography, table_number=8),
+        _claim(claim_id="imports_yoy", primitive="CHANGE", concept="CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_IMPORTS_YOY", evidence_ref=row_ref, value=imports_yoy, unit="PERCENT", period=period, period_scope="YTD_REPORTED_CHANGE", entity_name=name, entity_scope=entity_scope, geography=geography, table_number=8),
     )
-    fetched_at = _text(_mapping(row.get("source_row_evidence"), "source_row_evidence").get("fetched_at_utc") or "1970-01-01T00:00:00+00:00", "row evidence fetched_at")
-    # Row evidence deliberately stores immutable source-row lineage, while fetch time lives
-    # on the table provenance. The adapter replaces this sentinel in the caller.
+    identity = f"{period}:table8:{name}"
     return ObservationEnvelope(
-        observation_id=_stable_id("obs:CN_CUSTOMS:table8", period, name, row_hash),
+        observation_id=_stable_id("obs:CN_CUSTOMS", identity),
         source_id="CN_CUSTOMS",
-        source_record_id=f"{period}:table8:{name}",
+        source_record_id=identity,
         source_locator=locator,
         source_origin_geography="CN",
         relevance_geographies=(geography,),
@@ -260,7 +251,7 @@ def _table8_envelope(
         sampling_boundary="GACC_TABLE_8_GOVERNED_ROWS_ONLY; IMPORTER_EXPORTER_LOCATION_NE_DOMESTIC_ORIGIN_DESTINATION; DERIVED_TOTAL_NOT_EMITTED",
         evidence=(
             EvidenceRef(ref_id=row_ref, locator=locator, excerpt=" | ".join(cells), content_hash=raw_hash),
-            EvidenceRef(ref_id=corroboration_ref, locator=corroboration_url, content_hash=corroboration_hash),
+            EvidenceRef(ref_id="jiangsu-https-corroboration", locator=corroboration_url, content_hash=corroboration_hash),
         ),
         claims=claims,
         unknown_fields=("domestic_origin_destination_mapping", "payer_identity", "payment_status", "opportunity_state"),
@@ -271,10 +262,17 @@ def _table11_envelope(
     row: Mapping[str, Any],
     *,
     period: str,
+    fetched_at: str,
     corroboration_url: str,
     corroboration_hash: str,
 ) -> ObservationEnvelope:
-    _, cells, locator, raw_hash, row_hash = _row_evidence(row, expected_table=11)
+    cells, locator, raw_hash = _row_evidence(row, expected_table=11)
+    if row.get("total_basis") != "EXPLICIT_GACC":
+        raise ValueError("GACC specific-area total must remain explicit source data")
+    name = _text(row.get("name"), "row.name")
+    if "xuzhou" not in name.casefold():
+        raise ValueError("unexpected governed GACC specific-area identity")
+
     fields = (
         ("total_month_usd_thousand", 1, "total_month", "FLOW", "CN_CUSTOMS_SPECIFIC_AREA_TOTAL_MONTH", "MONTH", "USD_THOUSAND"),
         ("total_ytd_usd_thousand", 2, "total_ytd", "FLOW", "CN_CUSTOMS_SPECIFIC_AREA_TOTAL_YTD", "YTD", "USD_THOUSAND"),
@@ -286,11 +284,6 @@ def _table11_envelope(
         ("exports_yoy_percent", 8, "exports_yoy", "CHANGE", "CN_CUSTOMS_SPECIFIC_AREA_EXPORTS_YOY", "YTD_REPORTED_CHANGE", "PERCENT"),
         ("imports_yoy_percent", 9, "imports_yoy", "CHANGE", "CN_CUSTOMS_SPECIFIC_AREA_IMPORTS_YOY", "YTD_REPORTED_CHANGE", "PERCENT"),
     )
-    if row.get("total_basis") != "EXPLICIT_GACC":
-        raise ValueError("GACC specific-area total must remain explicit source data")
-    name = _text(row.get("name"), "row.name")
-    if "xuzhou" not in name.casefold():
-        raise ValueError("unexpected governed GACC specific-area identity")
     row_ref = "gacc-row:table11"
     claims = tuple(
         _claim(
@@ -306,16 +299,15 @@ def _table11_envelope(
             entity_scope="SPECIFIC_CUSTOMS_AREA",
             geography="CN-JS-XZ",
             table_number=11,
-            corroboration_status="PERIOD_IDENTITY_DIRECTION_CORROBORATED",
             total_basis="EXPLICIT_GACC" if claim_id.startswith("total_") else None,
         )
         for field, index, claim_id, primitive, concept, scope, unit in fields
     )
-    fetched_at = _text(_mapping(row.get("source_row_evidence"), "source_row_evidence").get("fetched_at_utc") or "1970-01-01T00:00:00+00:00", "row evidence fetched_at")
+    identity = f"{period}:table11:{name}"
     return ObservationEnvelope(
-        observation_id=_stable_id("obs:CN_CUSTOMS:table11", period, name, row_hash),
+        observation_id=_stable_id("obs:CN_CUSTOMS", identity),
         source_id="CN_CUSTOMS",
-        source_record_id=f"{period}:table11:{name}",
+        source_record_id=identity,
         source_locator=locator,
         source_origin_geography="CN",
         relevance_geographies=("CN-JS-XZ",),
@@ -332,28 +324,6 @@ def _table11_envelope(
         claims=claims,
         unknown_fields=("whole_xuzhou_trade_flow", "domestic_origin_destination_mapping", "payer_identity", "payment_status", "opportunity_state"),
     )
-
-
-def _replace_times(envelope: ObservationEnvelope, fetched_at: str) -> ObservationEnvelope:
-    data = envelope.as_dict()
-    data["observed_at"] = fetched_at
-    data["retrieved_at"] = fetched_at
-    data["evidence"] = tuple(EvidenceRef(**item) for item in data["evidence"])
-    data["claims"] = tuple(
-        SemanticClaim(
-            **{
-                **item,
-                "evidence_refs": tuple(item["evidence_refs"]),
-                "contradiction_refs": tuple(item.get("contradiction_refs") or ()),
-            }
-        )
-        for item in data["claims"]
-    )
-    data["relevance_geographies"] = tuple(data["relevance_geographies"])
-    data["actor_ids"] = tuple(data.get("actor_ids") or ())
-    data["unknown_fields"] = tuple(data.get("unknown_fields") or ())
-    data["contradiction_refs"] = tuple(data.get("contradiction_refs") or ())
-    return ObservationEnvelope(**data)
 
 
 def gacc_trade_flow_observations(payload: Mapping[str, Any]) -> tuple[ObservationEnvelope, ...]:
@@ -378,18 +348,19 @@ def gacc_trade_flow_observations(payload: Mapping[str, Any]) -> tuple[Observatio
 
     envelopes: list[ObservationEnvelope] = []
     jiangsu = _mapping(payload.get("jiangsu_importer_exporter_location"), "jiangsu_importer_exporter_location")
-    envelopes.append(_replace_times(_table8_envelope(jiangsu, period=period, corroboration_url=corroboration_url, corroboration_hash=corroboration_hash), table8_time))
+    envelopes.append(_table8_envelope(jiangsu, period=period, fetched_at=table8_time, corroboration_url=corroboration_url, corroboration_hash=corroboration_hash))
 
     xuzhou_whole = payload.get("xuzhou_importer_exporter_location")
     if xuzhou_whole is not None:
-        envelopes.append(_replace_times(_table8_envelope(_mapping(xuzhou_whole, "xuzhou_importer_exporter_location"), period=period, corroboration_url=corroboration_url, corroboration_hash=corroboration_hash), table8_time))
+        envelopes.append(_table8_envelope(_mapping(xuzhou_whole, "xuzhou_importer_exporter_location"), period=period, fetched_at=table8_time, corroboration_url=corroboration_url, corroboration_hash=corroboration_hash))
 
     areas = payload.get("xuzhou_specific_areas")
-    if not isinstance(areas, list) or not areas:
-        raise ValueError("CN_CUSTOMS requires explicit Xuzhou specific-area evidence when whole-city row is absent")
+    if not isinstance(areas, list):
+        raise ValueError("CN_CUSTOMS Xuzhou specific-area collection must be a list")
+    if xuzhou_whole is None and not areas:
+        raise ValueError("CN_CUSTOMS has no explicit Xuzhou whole-city or specific-area evidence")
     for index, raw in enumerate(areas):
-        row = _mapping(raw, f"xuzhou_specific_areas[{index}]")
-        envelopes.append(_replace_times(_table11_envelope(row, period=period, corroboration_url=corroboration_url, corroboration_hash=corroboration_hash), table11_time))
+        envelopes.append(_table11_envelope(_mapping(raw, f"xuzhou_specific_areas[{index}]"), period=period, fetched_at=table11_time, corroboration_url=corroboration_url, corroboration_hash=corroboration_hash))
 
     return tuple(envelopes)
 
