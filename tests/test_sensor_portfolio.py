@@ -97,8 +97,8 @@ class SensorPortfolioTests(unittest.TestCase):
         result = reconcile_sensor_portfolio(operational, candidates)
 
         self.assertEqual(result["operational_registry_count"], 28)
-        self.assertEqual(result["operational_production_live_count"], 8)
-        self.assertEqual(result["production_coverage_count"], 8)
+        self.assertEqual(result["operational_production_live_count"], 9)
+        self.assertEqual(result["production_coverage_count"], 9)
         self.assertEqual(result["candidate_registry_count"], 4)
         self.assertEqual(result["candidate_production_live_count"], 0)
         self.assertEqual(result["candidate_not_production_count"], 4)
@@ -121,6 +121,7 @@ class SensorPortfolioTests(unittest.TestCase):
                 "JS_STATS",
                 "XZ_GGZY",
                 "EJY365_XZ_LINKED",
+                "QM",
             },
         )
         self.assertTrue(
