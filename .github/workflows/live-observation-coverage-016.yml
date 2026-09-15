@@ -2,16 +2,6 @@ name: live-observation-coverage-016
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "src/live_observation_coverage.py"
-      - "src/sensor_portfolio.py"
-      - "data/source_registry.csv"
-      - "scripts/build_live_observation_coverage.py"
-      - "tests/test_live_observation_coverage.py"
-      - "docs/LIVE_OBSERVATION_COVERAGE.md"
-      - ".github/workflows/live-observation-coverage-016.yml"
   workflow_run:
     workflows: ["observation-fabric-live"]
     types: [completed]
@@ -102,15 +92,15 @@ jobs:
           state=.local/live_observation_coverage_016.json
           test "$(jq -r '.schema_version' "$state")" = "live-observation-coverage.v1"
           test "$(jq -r '.production_live_registry_count' "$state")" = "8"
-          test "$(jq -r '.adapter_supported_production_count' "$state")" = "3"
-          test "$(jq -r '.observed_production_count' "$state")" = "3"
+          test "$(jq -r '.adapter_supported_production_count' "$state")" = "5"
+          test "$(jq -r '.observed_production_count' "$state")" = "5"
           test "$(jq -r '.adapter_supported_not_observed_count' "$state")" = "0"
-          test "$(jq -r '.no_unified_adapter_count' "$state")" = "5"
+          test "$(jq -r '.no_unified_adapter_count' "$state")" = "3"
           test "$(jq -r '.observed_without_governed_support_count' "$state")" = "0"
           test "$(jq -r '.observed_nonproduction_count' "$state")" = "0"
-          jq -e '.observed_production_source_ids | sort == ["EJY365_XZ_LINKED","JS_STATS","XZ_GGZY"]' "$state" >/dev/null
-          jq -e '.no_unified_adapter_source_ids | sort == ["CN_CUSTOMS","CN_NBS","CN_PBOC","CN_PBOC_JS","XZ_GOV_FINANCE_DEMAND"]' "$state" >/dev/null
-          jq -e '.latest_fabric_source_counts.JS_STATS > 0 and .latest_fabric_source_counts.XZ_GGZY > 0 and .latest_fabric_source_counts.EJY365_XZ_LINKED > 0' "$state" >/dev/null
+          jq -e '.observed_production_source_ids | sort == ["CN_NBS","CN_PBOC_JS","EJY365_XZ_LINKED","JS_STATS","XZ_GGZY"]' "$state" >/dev/null
+          jq -e '.no_unified_adapter_source_ids | sort == ["CN_CUSTOMS","CN_PBOC","XZ_GOV_FINANCE_DEMAND"]' "$state" >/dev/null
+          jq -e '.latest_fabric_source_counts.CN_NBS > 0 and .latest_fabric_source_counts.CN_PBOC_JS > 0 and .latest_fabric_source_counts.JS_STATS > 0 and .latest_fabric_source_counts.XZ_GGZY > 0 and .latest_fabric_source_counts.EJY365_XZ_LINKED > 0' "$state" >/dev/null
           jq -e '.truth_boundaries | index("ACTIVE_LIVE_REGISTRY_NE_OBSERVED_IN_FABRIC") != null and index("ADAPTER_SUPPORT_NE_CURRENT_OBSERVATION") != null and index("MISSING_FABRIC_SOURCE_NE_ZERO_WORLD_ACTIVITY") != null' "$state" >/dev/null
           if jq -e '.. | objects | has("payer") or has("paid_need") or has("route_testable") or has("opportunity_score") or has("commercial_score") or has("active_version") or has("taxonomy_promotion") or has("business_promotion")' "$state" >/dev/null; then
             echo "Live observation coverage artifact leaked downstream truth" >&2
