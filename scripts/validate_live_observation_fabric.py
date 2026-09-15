@@ -17,6 +17,7 @@ UPSTREAM_KEYS = (
     "pbc_money_flow",
     "xuzhou_financing_demand",
     "gacc_trade_flow",
+    "questmobile_public_research",
 )
 
 
@@ -94,6 +95,7 @@ def main() -> int:
         "CN_PBOC",
         "XZ_GOV_FINANCE_DEMAND",
         "CN_CUSTOMS",
+        "QM",
     }
     missing = required_sources - set(data.get("source_counts", {}))
     if missing:
@@ -143,16 +145,34 @@ def main() -> int:
     ):
         if concept not in concepts:
             raise SystemExit(f"required GACC trade-flow observation is missing: {concept}")
+    if "PUBLIC_RESEARCH_FINDING_EXCERPT" not in concepts:
+        raise SystemExit("required QuestMobile public research evidence is missing")
 
     upstream_run_ids(data)
 
     connection = sqlite3.connect(args.store)
     try:
         integrity = connection.execute("PRAGMA integrity_check").fetchone()[0]
+        qm_claim_rows = connection.execute(
+            """
+            SELECT primitive, concept, geography, epistemic_status
+            FROM observation_claim_index
+            WHERE source_id='QM'
+            """
+        ).fetchall()
     finally:
         connection.close()
     if integrity != "ok":
         raise SystemExit(f"SQLite integrity check failed: {integrity}")
+    if not qm_claim_rows:
+        raise SystemExit("QuestMobile claim index is empty")
+    for primitive, concept, geography, epistemic_status in qm_claim_rows:
+        if primitive != "EVIDENCE" or concept != "PUBLIC_RESEARCH_FINDING_EXCERPT":
+            raise SystemExit("QuestMobile research leaked beyond EVIDENCE claims")
+        if geography != "CN":
+            raise SystemExit("QuestMobile national research was relabeled as local geography")
+        if epistemic_status != "OBSERVED":
+            raise SystemExit("QuestMobile research claim epistemic state drifted")
 
     if args.previous_assessment is not None:
         previous = _load(args.previous_assessment)
@@ -171,6 +191,7 @@ def main() -> int:
         "transition_counts": data.get("transition_counts", {}),
         "source_counts": data.get("source_counts", {}),
         "upstream_run_ids": upstream_run_ids(data),
+        "questmobile_claim_count": len(qm_claim_rows),
     }, ensure_ascii=False, sort_keys=True))
     return 0
 
