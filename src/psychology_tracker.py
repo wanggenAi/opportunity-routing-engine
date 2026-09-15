@@ -8,6 +8,8 @@ Commercial rule: psychology is a sensor; behavior and money are corroboration.
 Ontology rule: PERCEPTION / MOTIVE / BEHAVIOR are stable primitives; named
 psychology concepts are an open namespace. The seed concepts below are advisory
 2026 vocabulary, never a validation boundary.
+Evidence rule: every signal and every non-zero corroboration value must retain
+explicit evidence lineage. A naked confidence scalar is not evidence.
 """
 
 from __future__ import annotations
@@ -66,6 +68,24 @@ def _require_psychology_primitive(value: str) -> str:
     return primitive
 
 
+def _validated_evidence_refs(
+    name: str,
+    values: Sequence[str],
+    *,
+    required: bool = False,
+) -> tuple[str, ...]:
+    if not isinstance(values, (tuple, list)):
+        raise ValueError(f"{name} must be a tuple/list of strings")
+    refs = tuple(values)
+    if any(not isinstance(ref, str) or not ref.strip() for ref in refs):
+        raise ValueError(f"{name} must contain non-empty strings")
+    if len(refs) != len(set(refs)):
+        raise ValueError(f"{name} must be unique")
+    if required and not refs:
+        raise ValueError(f"{name} is required")
+    return refs
+
+
 @dataclass(frozen=True)
 class PsychologySignal:
     signal_id: str
@@ -85,12 +105,37 @@ class PsychologySignal:
     sample_size: Optional[int] = None
     provenance_quality: str = "MEDIUM"
     semantic_primitive: str = "PERCEPTION"
+    key_evidence_refs: tuple[str, ...] = ()
+    behavior_evidence_refs: tuple[str, ...] = ()
+    money_evidence_refs: tuple[str, ...] = ()
+    representative_evidence_refs: tuple[str, ...] = ()
 
     def __post_init__(self) -> None:
         if self.source_type not in SOURCE_WEIGHTS:
             raise ValueError(f"unknown source_type: {self.source_type}")
         _require_open_concept(self.psychology_dimension)
         _require_psychology_primitive(self.semantic_primitive)
+        key_refs = _validated_evidence_refs(
+            "key_evidence_refs", self.key_evidence_refs, required=True
+        )
+        behavior_refs = _validated_evidence_refs(
+            "behavior_evidence_refs", self.behavior_evidence_refs
+        )
+        money_refs = _validated_evidence_refs(
+            "money_evidence_refs", self.money_evidence_refs
+        )
+        representative_refs = _validated_evidence_refs(
+            "representative_evidence_refs", self.representative_evidence_refs
+        )
+        key_set = set(key_refs)
+        for name, refs in (
+            ("behavior_evidence_refs", behavior_refs),
+            ("money_evidence_refs", money_refs),
+            ("representative_evidence_refs", representative_refs),
+        ):
+            if not set(refs).issubset(key_set):
+                raise ValueError(f"{name} must be included in key_evidence_refs")
+
         if not -1.0 <= self.direction <= 1.0:
             raise ValueError("direction must be between -1.0 and 1.0")
         for name, value in (
@@ -100,6 +145,20 @@ class PsychologySignal:
         ):
             if not 0.0 <= value <= 1.0:
                 raise ValueError(f"{name} must be between 0.0 and 1.0")
+
+        if self.behavior_corroboration > 0 and not behavior_refs:
+            raise ValueError(
+                "non-zero behavior_corroboration requires behavior_evidence_refs"
+            )
+        if self.money_corroboration > 0 and not money_refs:
+            raise ValueError(
+                "non-zero money_corroboration requires money_evidence_refs"
+            )
+
+        if self.representative_sample and not representative_refs:
+            raise ValueError(
+                "representative_sample=True requires representative_evidence_refs"
+            )
         if self.representative_share is not None:
             if not self.representative_sample:
                 raise ValueError(
@@ -107,8 +166,15 @@ class PsychologySignal:
                 )
             if not 0.0 <= self.representative_share <= 1.0:
                 raise ValueError("representative_share must be between 0.0 and 1.0")
-        if self.sample_size is not None and self.sample_size <= 0:
-            raise ValueError("sample_size must be positive")
+            if self.sample_size is None:
+                raise ValueError(
+                    "representative_share requires an explicit positive sample_size"
+                )
+        if self.sample_size is not None:
+            if self.sample_size <= 0:
+                raise ValueError("sample_size must be positive")
+            if not self.representative_sample:
+                raise ValueError("sample_size requires representative_sample=True")
         if self.provenance_quality not in {"LOW", "MEDIUM", "HIGH"}:
             raise ValueError("provenance_quality must be LOW, MEDIUM, or HIGH")
 
@@ -135,6 +201,10 @@ class PsychologySnapshot:
     representative_share: Optional[float]
     representative_sample_size: Optional[int]
     semantic_primitive: str = "PERCEPTION"
+    supporting_evidence_refs: tuple[str, ...] = ()
+    behavior_evidence_refs: tuple[str, ...] = ()
+    money_evidence_refs: tuple[str, ...] = ()
+    representative_evidence_refs: tuple[str, ...] = ()
 
     @property
     def concept(self) -> str:
@@ -161,8 +231,8 @@ def _signal_weight(signal: PsychologySignal, as_of: date, half_life_days: float)
     recency = _recency_weight(age, half_life_days)
     quality = _quality_weight(signal.provenance_quality)
 
-    # Social/search language remains useful as an early sensor, while behavior and
-    # money evidence raise the economic relevance of the same directional signal.
+    # Corroboration can increase economic relevance only because non-zero values
+    # have already been forced to carry explicit evidence refs by PsychologySignal.
     corroboration = 0.50 + 0.25 * signal.behavior_corroboration + 0.25 * signal.money_corroboration
     return source * recency * quality * corroboration
 
@@ -195,6 +265,18 @@ def _weighted_corroboration(
         weighted_sum += getattr(signal, field) * weight
         denominator += weight
     return 0.0 if denominator == 0 else weighted_sum / denominator
+
+
+def _unique_refs(signals: Sequence[PsychologySignal], field: str) -> tuple[str, ...]:
+    return tuple(
+        sorted(
+            {
+                ref
+                for signal in signals
+                for ref in getattr(signal, field)
+            }
+        )
+    )
 
 
 def _momentum(
@@ -280,7 +362,8 @@ def aggregate_snapshot(
     The named concept is deliberately open-ended. The result is not a population
     estimate unless a representative source explicitly supplies one. Primitive
     filtering prevents a same-named PERCEPTION, MOTIVE and BEHAVIOR concept from
-    being silently averaged together.
+    being silently averaged together. All returned corroboration retains refs to
+    the evidence that justified it.
     """
 
     concept = _require_open_concept(psychology_dimension)
@@ -331,4 +414,10 @@ def aggregate_snapshot(
         representative_share=rep_share,
         representative_sample_size=rep_sample_size,
         semantic_primitive=primitive,
+        supporting_evidence_refs=_unique_refs(selected, "key_evidence_refs"),
+        behavior_evidence_refs=_unique_refs(selected, "behavior_evidence_refs"),
+        money_evidence_refs=_unique_refs(selected, "money_evidence_refs"),
+        representative_evidence_refs=_unique_refs(
+            selected, "representative_evidence_refs"
+        ),
     )
