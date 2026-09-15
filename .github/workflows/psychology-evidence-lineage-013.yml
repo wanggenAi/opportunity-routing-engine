@@ -1,0 +1,92 @@
+name: psychology-evidence-lineage-013
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/psychology_tracker.py"
+      - "tests/test_psychology_tracker.py"
+      - "scripts/build_psychology_dynamic_concept_dry_run.py"
+      - "docs/PSYCHOLOGY_EVIDENCE_LINEAGE.md"
+      - ".github/workflows/psychology-evidence-lineage-013.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: psychology-evidence-lineage-013
+  cancel-in-progress: false
+
+jobs:
+  prove-evidence-lineage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Build synthetic evidence-lineage proof
+        run: |
+          mkdir -p .local
+          python scripts/build_psychology_dynamic_concept_dry_run.py \
+            .local/psychology_evidence_lineage_013.json
+
+      - name: Require evidence-bound corroboration
+        shell: bash
+        run: |
+          set -euo pipefail
+          state=.local/psychology_evidence_lineage_013.json
+          test "$(jq -r '.schema_version' "$state")" = "psychology-dynamic-concept-dry-run.v1"
+          test "$(jq -r '.synthetic_only' "$state")" = "true"
+          jq -e '.fail_closed_checks | to_entries | all(.value == true)' "$state" >/dev/null
+          test "$(jq -r '.social_search_only.confidence' "$state")" = "LOW"
+          test "$(jq -r '.social_search_only.behavior_evidence_refs | length' "$state")" = "0"
+          test "$(jq -r '.social_search_only.money_evidence_refs | length' "$state")" = "0"
+          test "$(jq -r '.social_search_only.supporting_evidence_refs | length' "$state")" = "5"
+          test "$(jq -r '.triangulated.confidence' "$state")" = "HIGH"
+          test "$(jq -r '.triangulated.behavior_evidence_refs | length' "$state")" = "5"
+          test "$(jq -r '.triangulated.money_evidence_refs | length' "$state")" = "5"
+          test "$(jq -r '.triangulated.supporting_evidence_refs | length' "$state")" = "15"
+          jq -e '(.triangulated.behavior_evidence_refs - .triangulated.supporting_evidence_refs) == []' "$state" >/dev/null
+          jq -e '(.triangulated.money_evidence_refs - .triangulated.supporting_evidence_refs) == []' "$state" >/dev/null
+          test "$(jq -r '.triangulated.representative_share' "$state")" = "null"
+          test "$(jq -r '.automatic_taxonomy_promotion_count' "$state")" = "0"
+          test "$(jq -r '.active_ontology_changes' "$state")" = "0"
+          test "$(jq -r '.taxonomy_promotion' "$state")" = "NOT_PROMOTED"
+          test "$(jq -r '.business_promotion' "$state")" = "NOT_PROMOTED"
+          jq -e '.truth_boundaries | index("PSYCHOLOGY_SIGNAL_REQUIRES_EVIDENCE_LINEAGE") != null and index("NONZERO_BEHAVIOR_CORROBORATION_REQUIRES_EVIDENCE") != null and index("NONZERO_MONEY_CORROBORATION_REQUIRES_EVIDENCE") != null' "$state" >/dev/null
+          if jq -e '.. | objects | has("payer") or has("paid_need") or has("route_testable") or has("opportunity_score") or has("commercial_score") or has("active_version") or has("activated_at")' "$state" >/dev/null; then
+            echo "Psychology evidence artifact leaked commercial truth or active ontology state" >&2
+            exit 1
+          fi
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Psychology Evidence Lineage 013"
+            echo
+            echo "- every signal requires source evidence lineage"
+            echo "- non-zero behavior/money corroboration requires bound evidence refs"
+            echo "- representative share requires method evidence and explicit sample size"
+            jq -r '"- social/search-only: `\(.social_search_only.confidence)` with `\(.social_search_only.supporting_evidence_refs | length)` source refs"' .local/psychology_evidence_lineage_013.json
+            jq -r '"- triangulated: `\(.triangulated.confidence)` with behavior refs `\(.triangulated.behavior_evidence_refs | length)` and money refs `\(.triangulated.money_evidence_refs | length)`"' .local/psychology_evidence_lineage_013.json
+            echo "- taxonomy/business promotion: NOT_PROMOTED"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload proof artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: psychology-evidence-lineage-013-state
+          path: .local/psychology_evidence_lineage_013.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true

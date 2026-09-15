@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a synthetic proof that psychology concepts are open and fail-closed."""
+"""Build a synthetic proof that psychology concepts and corroboration stay governed."""
 
 from __future__ import annotations
 
@@ -36,6 +36,17 @@ def _signal(
     money: float = 0.0,
 ) -> PsychologySignal:
     day = 10 + idx
+    key_refs = [f"evidence:synthetic-source-{idx}"]
+    behavior_refs = ()
+    money_refs = ()
+    if behavior > 0:
+        ref = f"evidence:synthetic-behavior-{idx}"
+        key_refs.append(ref)
+        behavior_refs = (ref,)
+    if money > 0:
+        ref = f"evidence:synthetic-money-{idx}"
+        key_refs.append(ref)
+        money_refs = (ref,)
     return PsychologySignal(
         signal_id=f"synthetic-{idx}",
         observed_at=date(2026, 9, day),
@@ -51,7 +62,33 @@ def _signal(
         money_corroboration=money,
         provenance_quality="HIGH",
         semantic_primitive=primitive,
+        key_evidence_refs=tuple(key_refs),
+        behavior_evidence_refs=behavior_refs,
+        money_evidence_refs=money_refs,
     )
+
+
+def _rejected(builder) -> bool:
+    try:
+        builder()
+    except ValueError:
+        return True
+    return False
+
+
+def _base_invalid_kwargs() -> dict:
+    return {
+        "signal_id": "synthetic-invalid",
+        "observed_at": date(2026, 9, 10),
+        "source_date": date(2026, 9, 10),
+        "source_type": "A_HARD_MONEY_BEHAVIOR",
+        "source_name": "synthetic-invalid-source",
+        "geography": "CN",
+        "actor_segment": "SYNTHETIC_CONSUMERS",
+        "psychology_dimension": "SYNTHETIC_INVALID_LINEAGE",
+        "direction": 0.5,
+        "intensity": 0.5,
+    }
 
 
 def build_dry_run() -> dict:
@@ -147,7 +184,47 @@ def build_dry_run() -> dict:
         semantic_primitive="MOTIVE",
     )
 
+    base = _base_invalid_kwargs()
+    representative_base = {**base, "source_type": "B_REPRESENTATIVE_RESEARCH"}
+    fail_closed_checks = {
+        "signal_without_key_evidence_rejected": _rejected(
+            lambda: PsychologySignal(**base)
+        ),
+        "naked_behavior_corroboration_rejected": _rejected(
+            lambda: PsychologySignal(
+                **base,
+                key_evidence_refs=("evidence:source",),
+                behavior_corroboration=0.8,
+            )
+        ),
+        "naked_money_corroboration_rejected": _rejected(
+            lambda: PsychologySignal(
+                **base,
+                key_evidence_refs=("evidence:source",),
+                money_corroboration=0.8,
+            )
+        ),
+        "detached_behavior_evidence_rejected": _rejected(
+            lambda: PsychologySignal(
+                **base,
+                key_evidence_refs=("evidence:source",),
+                behavior_corroboration=0.8,
+                behavior_evidence_refs=("evidence:not-in-signal-lineage",),
+            )
+        ),
+        "representative_share_without_method_evidence_rejected": _rejected(
+            lambda: PsychologySignal(
+                **representative_base,
+                key_evidence_refs=("evidence:survey",),
+                representative_sample=True,
+                representative_share=0.42,
+                sample_size=1200,
+            )
+        ),
+    }
+
     return {
+        # v1 remains backward compatible; the evidence-lineage fields are additive.
         "schema_version": "psychology-dynamic-concept-dry-run.v1",
         "synthetic_only": True,
         "stable_semantic_primitives": sorted(PSYCHOLOGY_PRIMITIVES),
@@ -166,6 +243,7 @@ def build_dry_run() -> dict:
             "perception_primitive": perception_snapshot.semantic_primitive,
             "motive_primitive": motive_snapshot.semantic_primitive,
         },
+        "fail_closed_checks": fail_closed_checks,
         "automatic_taxonomy_promotion_count": 0,
         "active_ontology_changes": 0,
         "taxonomy_promotion": "NOT_PROMOTED",
@@ -174,6 +252,10 @@ def build_dry_run() -> dict:
             "SEED_TAXONOMY_NE_VALIDATION_BOUNDARY",
             "NEW_PSYCHOLOGY_CONCEPT_NE_CORE_CODE_CHANGE",
             "STABLE_PRIMITIVE_NE_DYNAMIC_CONCEPT",
+            "PSYCHOLOGY_SIGNAL_REQUIRES_EVIDENCE_LINEAGE",
+            "NONZERO_BEHAVIOR_CORROBORATION_REQUIRES_EVIDENCE",
+            "NONZERO_MONEY_CORROBORATION_REQUIRES_EVIDENCE",
+            "REPRESENTATIVE_SHARE_REQUIRES_METHOD_AND_SAMPLE_SIZE",
             "SOCIAL_SALIENCE_NE_POPULATION_SHARE",
             "SEARCH_INTEREST_NE_PAID_DEMAND",
             "BEHAVIOR_CORROBORATION_NE_PAYER",
