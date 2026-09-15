@@ -4,9 +4,9 @@ Date: 2026-09-15
 Status: `P0 ACCESS ACQUISITION / FIELD READY`
 
 Parents:
-- `docs/launch/ACCESS_CAPITAL_AND_HOOK_GATE_2026-09-15.md`
-- `docs/field/OPERATOR_IDENTITY_PACKET_2026-09-15.md`
+- `docs/ACCESS_FEASIBILITY_GATE.md`
 - `docs/results/BR_XZ_005_ENTRY_DECISION_2026-09-13.md`
+- `docs/field/FIELD_RUN_001_XINDIE_2026-09-15.md`
 - issue `#143`
 
 ## Mission
@@ -34,7 +34,7 @@ Current Jiangsu technology-manager rules explicitly say technology-manager offic
 Current official rule:
 - https://www.jstec.com.cn/news/202602628049695003
 
-The Jiangsu platform's technology-manager filing guidance states the individual path as:
+The Jiangsu platform's published technology-manager filing guidance states the individual path as:
 
 ```text
 account registration
@@ -60,7 +60,7 @@ A July 2026 Xuzhou Daily report describes a real local structure:
 Source:
 - https://szb.cnxz.com.cn/xzrb/pad/con/202607/13/content_52654.html
 
-The CUMT National University Science Park currently reports active technology-manager training and its role in technology-transfer services.
+The CUMT National University Science Park currently reports active technology-manager training and technology-transfer activity.
 
 Current site:
 - https://www.cumtusp.com/
@@ -73,7 +73,7 @@ Do **not** approach an office with:
 
 That transfers all cost and reputation risk to the office.
 
-The office's institutional economics are closer to:
+The office's published institutional model is closer to:
 
 ```text
 MORE CAPABLE TECHNOLOGY MANAGERS
@@ -83,31 +83,51 @@ MORE CAPABLE TECHNOLOGY MANAGERS
 → STRONGER SERVICE PERFORMANCE / TRANSACTION FLOW
 ```
 
-Therefore the operator's proposed value is:
-- technical literacy sufficient to understand software/data/system problems;
+Therefore the operator's proposed contribution should be framed as:
+- relevant proofable technical/domain competence, disclosed only at runtime as needed;
 - willingness to perform structured enterprise-need discovery rather than generic sales;
 - ability to convert vague complaints into evidence-backed problem/task definitions;
 - ability to preserve source, acceptance and falsification boundaries;
 - willingness to begin under supervision / project cooperation and follow institutional rules;
-- potential to bring future externally discovered enterprise problems into the institution rather than bypass it.
+- willingness to route future externally discovered enterprise problems into the institution rather than bypass it where the institutional route adds value.
 
-This is a value hypothesis. The office must confirm whether it actually values these contributions.
+This remains a value hypothesis until the office confirms that it values the contribution.
 
-## Operator Hook to the institution
+## Operator-profile boundary
 
-Preferred positioning:
+The repository's existing access-feasibility record locks operator profile storage as:
 
-> 我不是来买一个证书，也不是希望借机构名义去企业推销。我是计算机工程和企业软件交付背景，现在想把自己的技术理解用于真实的企业需求挖掘：把企业说不清的问题结构化成可验证的技术需求、任务边界和验收条件。我的目标是先在现有规则下参与真实案例，最好有带教或项目合作机制，用结果证明能力。如果我以后自己发现企业问题，也希望能按机构规则进入平台，而不是绕开机构。
+`RUNTIME_PRIVATE_NOT_COMMITTED`
+
+Therefore this public mission intentionally does **not** commit a résumé, employer list, educational documents or other personal profile details.
+
+At runtime, the operator may use relevant, proofable endowments privately/orally to establish credibility with the specific institution.
+
+## Institution Hook
+
+The interaction should communicate this structure, without claiming unearned status:
+
+```text
+I am not trying to buy a credential
+→ I want to understand the current legitimate participation rules
+→ I can contribute relevant technical/domain capability and structured need discovery
+→ I prefer supervised/project-based proof over self-description
+→ I am willing to route real cases through the institution's rules where appropriate
+→ I want to know what concrete contribution would make participation useful to the office
+```
 
 Then ask only these concrete questions:
 
 1. 个人现在申请江苏技术经理人身份，需要哪些真实材料和能力证明？
 2. 申请技术经理人身份之前是否必须先参加培训或取得证书？
 3. 贵机构/合作事务所现在是否接受外部技术经理人以挂靠、项目合作或带教方式参与？
-4. 对一个有计算机工程和企业软件经验、但技术转移项目经验较少的人，最现实的第一种参与方式是什么？
+4. 对技术能力相关、但技术转移真实项目经验较少的申请人，最现实的第一种参与方式是什么？
 5. 是否存在由成熟技术经理人带着新人做真实企业需求挖掘的机制？
-6. 如果我自己发现一个企业技术问题，机构是否允许我按规范提交并由机构组织后续资源匹配/合同/结算？
-7. 在什么条件下，机构愿意正式向企业介绍我作为参与项目的人，而不是一个陌生个人？
+6. 如果个人自己发现一个企业技术问题，机构是否允许按规范提交并由机构组织后续资源匹配/合同/结算？
+7. 在什么条件下，机构愿意正式向企业介绍一个外部参与者作为项目成员，而不是一个陌生个人？
+8. 对机构而言，一个新人必须先带来什么、做到什么，才值得机构投入带教、企业入口和声誉资源？
+
+Question 8 is mandatory. It directly tests the institution's visible surplus instead of assuming that the institution should help.
 
 ## Evidence states
 
@@ -145,6 +165,7 @@ CURRENT CUMT EXTERNAL PARTICIPATION = UNKNOWN
 TRAINING REQUIREMENT FOR THIS OPERATOR = UNKNOWN
 SUPERVISED CASE AVAILABILITY = UNKNOWN
 FORMAL INTRODUCTION RIGHTS = UNKNOWN
+INSTITUTION-SPECIFIC COUNTERPART SURPLUS = UNKNOWN
 ```
 
 ## First contact hierarchy
@@ -162,7 +183,9 @@ Official source:
 
 Exact objective:
 
-> clarify the current individual filing requirements and whether training/certificate is a prerequisite.
+> clarify current individual filing requirements and whether training/certification is a prerequisite; ask which current Xuzhou office/local node is appropriate for an individual seeking real project-based participation.
+
+This is a legitimate public-window inquiry because the published contact is specifically for technology managers/offices.
 
 ### Step 2 — local affiliation / project-cooperation validation
 
@@ -170,7 +193,7 @@ Validate Jiangsu Huaihai Technology Property Rights Exchange Center as the first
 
 Objective:
 
-> determine whether the center currently accepts external individuals through affiliation/project cooperation, what the acceptance criteria are, and what real rights/duties follow.
+> determine whether the center currently accepts external individuals through affiliation/project cooperation, what the acceptance criteria are, what contribution the center expects, and what real rights/duties follow.
 
 ### Step 3 — CUMT Science Park practice/resource validation
 
@@ -188,6 +211,7 @@ Demote this route if:
 - the only available path is paid training with no operational role or case access;
 - no supervised or real project path exists;
 - affiliation provides no meaningful access, transaction infrastructure or legitimacy;
+- the institution cannot articulate any reason to invest time/reputation in the operator;
 - the institution's incentives do not align with the operator's contribution.
 
 ## Success criterion
@@ -207,4 +231,4 @@ Anything less is learning, not backing.
 
 ## Governing rule
 
-> **先借真实制度的势进入真实项目，再用结果积累自己的信用；不买空头身份，不借虚假名义，不把机构当免费介绍人。让机构也因为我们的参与获得更多真实需求、更清晰的问题和更高的项目转化概率，背书才可能从一次许可变成可复用的 Access Capital。**
+> **先借真实制度的势进入真实项目，再用结果积累自己的信用；不买空头身份，不借虚假名义，不把机构当免费介绍人。机构必须能从我们的参与中看到真实增量——更多真实需求、更清晰的问题、更高的项目转化概率或更强的执行能力——背书才可能从一次许可变成可复用的 Access Capital。**
