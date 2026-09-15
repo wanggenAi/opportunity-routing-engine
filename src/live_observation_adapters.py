@@ -12,7 +12,7 @@ from typing import Any, Mapping, Sequence
 
 from src.observation_fabric import EvidenceRef, ObservationEnvelope, SemanticClaim
 
-PARSER_VERSION = "live-observation-adapters.v1"
+PARSER_VERSION = "live-observation-adapters.v2"
 
 
 def _mapping(value: object, field: str) -> Mapping[str, Any]:
@@ -31,6 +31,17 @@ def _text(value: object, field: str) -> str:
     if not isinstance(value, str) or not value.strip():
         raise ValueError(f"{field} is required")
     return value.strip()
+
+
+def _optional_text(value: object, field: str) -> str | None:
+    """Preserve an optional source field as unknown instead of inventing a value."""
+
+    if value is None:
+        return None
+    if not isinstance(value, str):
+        raise ValueError(f"{field} must be a string or null")
+    normalized = value.strip()
+    return normalized or None
 
 
 def _sha256(value: object, field: str) -> str:
@@ -166,7 +177,7 @@ def xuzhou_procurement_observations(payload: Mapping[str, Any]) -> tuple[Observa
         raw_hash = _sha256(provenance.get("payload_sha256"), f"event {project_id}.payload_sha256")
         retrieved_at = _text(provenance.get("fetched_at_utc"), f"event {project_id}.fetched_at_utc")
         title = _text(event.get("title"), f"event {project_id}.title")
-        project_name = _text(event.get("project_name"), f"event {project_id}.project_name")
+        project_name = _optional_text(event.get("project_name"), f"event {project_id}.project_name")
 
         evidence = [EvidenceRef("notice", url, title, raw_hash)]
         claims: list[SemanticClaim] = [
@@ -230,6 +241,10 @@ def xuzhou_procurement_observations(payload: Mapping[str, Any]) -> tuple[Observa
                 )
             )
 
+        unknown_fields = ["buyer_actor", "exact_publication_time", "payment_status"]
+        if project_name is None:
+            unknown_fields.append("project_name")
+
         result.append(
             ObservationEnvelope(
                 observation_id=_stable_id("obs:XZ_GGZY:procurement", project_id, url),
@@ -247,7 +262,7 @@ def xuzhou_procurement_observations(payload: Mapping[str, Any]) -> tuple[Observa
                 evidence=tuple(evidence),
                 claims=tuple(claims),
                 actor_ids=(),
-                unknown_fields=("buyer_actor", "exact_publication_time", "payment_status"),
+                unknown_fields=tuple(unknown_fields),
             )
         )
     return tuple(result)
@@ -396,6 +411,7 @@ GOVERNING_INVARIANTS = (
     "PUBLISHER_NE_OWNER",
     "RELISTING_NE_UNDERUSE",
     "OBSERVED_UNDERUSE_REQUIRES_EXPLICIT_SOURCE_TEXT",
+    "OPTIONAL_SOURCE_FIELD_NE_INFERRED_VALUE",
     "NO_PAYER_PROMOTION",
     "NO_OPPORTUNITY_PROMOTION",
     "UNKNOWN_NE_PASS",

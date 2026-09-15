@@ -193,7 +193,7 @@ class LiveObservationPersistenceTests(unittest.TestCase):
             first,
             retrieved_at="2026-09-14T09:41:53+00:00",
             observed_at="2026-09-14T09:41:53+00:00",
-            parser_version="live-observation-adapters.v2",
+            parser_version=f"{first.parser_version}.test-revision",
         )
         with tempfile.TemporaryDirectory() as tmp:
             with SQLiteObservationStore(Path(tmp) / "live.db") as store:
