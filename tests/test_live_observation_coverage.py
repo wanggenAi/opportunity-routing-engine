@@ -96,26 +96,27 @@ class LiveObservationCoverageTests(unittest.TestCase):
                 adapter_support={"SUPPORTED": ("adapter",)},
             )
 
-    def test_current_registry_shape_exposes_five_unified_adapter_gaps(self):
+    def test_current_registry_manifest_exposes_three_remaining_adapter_gaps(self):
         operational = load_operational_sources(ROOT / "data/source_registry.csv")
+        # This intentionally models the pre-017 Fabric artifact. The two newly
+        # governed adapters must show as supported-but-not-yet-observed until the
+        # production Fabric actually ingests their artifacts.
         result = reconcile_live_observation_coverage(
             operational,
             _assessment({"JS_STATS": 1, "XZ_GGZY": 24, "EJY365_XZ_LINKED": 29}),
         )
         self.assertEqual(result["production_live_registry_count"], 8)
-        self.assertEqual(result["adapter_supported_production_count"], 3)
+        self.assertEqual(result["adapter_supported_production_count"], 5)
         self.assertEqual(result["observed_production_count"], 3)
-        self.assertEqual(result["adapter_supported_not_observed_count"], 0)
-        self.assertEqual(result["no_unified_adapter_count"], 5)
+        self.assertEqual(result["adapter_supported_not_observed_count"], 2)
+        self.assertEqual(
+            set(result["adapter_supported_not_observed_source_ids"]),
+            {"CN_NBS", "CN_PBOC_JS"},
+        )
+        self.assertEqual(result["no_unified_adapter_count"], 3)
         self.assertEqual(
             set(result["no_unified_adapter_source_ids"]),
-            {
-                "CN_NBS",
-                "CN_PBOC",
-                "CN_PBOC_JS",
-                "CN_CUSTOMS",
-                "XZ_GOV_FINANCE_DEMAND",
-            },
+            {"CN_PBOC", "CN_CUSTOMS", "XZ_GOV_FINANCE_DEMAND"},
         )
         self.assertEqual(
             set(result["observed_production_source_ids"]),
@@ -129,6 +130,27 @@ class LiveObservationCoverageTests(unittest.TestCase):
         self.assertIn(
             "MISSING_FABRIC_SOURCE_NE_ZERO_WORLD_ACTIVITY",
             result["truth_boundaries"],
+        )
+
+    def test_post_ingest_shape_reaches_five_of_eight_without_promoting_remaining_gaps(self):
+        operational = load_operational_sources(ROOT / "data/source_registry.csv")
+        result = reconcile_live_observation_coverage(
+            operational,
+            _assessment({
+                "CN_NBS": 4,
+                "CN_PBOC_JS": 1,
+                "JS_STATS": 1,
+                "XZ_GGZY": 24,
+                "EJY365_XZ_LINKED": 29,
+            }),
+        )
+        self.assertEqual(result["adapter_supported_production_count"], 5)
+        self.assertEqual(result["observed_production_count"], 5)
+        self.assertEqual(result["adapter_supported_not_observed_count"], 0)
+        self.assertEqual(result["no_unified_adapter_count"], 3)
+        self.assertEqual(
+            set(result["observed_production_source_ids"]),
+            {"CN_NBS", "CN_PBOC_JS", "JS_STATS", "XZ_GGZY", "EJY365_XZ_LINKED"},
         )
 
 
