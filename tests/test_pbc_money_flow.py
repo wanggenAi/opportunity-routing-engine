@@ -30,7 +30,7 @@ class PbcMoneyFlowTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             discover_latest_financial_report(doc)
 
-    def test_parses_current_report_without_zero_filling(self):
+    def test_parses_current_report_without_zero_filling_and_retains_source_excerpts(self):
         text = """
         文章来源： 2026-07-15 15:00:09
         社会融资规模存量同比增长7.4% 初步统计，2026年6月末社会融资规模存量为462.06万亿元，同比增长7.4%。
@@ -54,6 +54,23 @@ class PbcMoneyFlowTests(unittest.TestCase):
         self.assertEqual(parsed["metrics"]["m2_balance"]["yoy_pct"], 8.0)
         self.assertEqual(parsed["metrics"]["usd_cny_reference"]["value"], 6.8109)
         self.assertNotIn("nonexistent_metric", parsed["metrics"])
+        self.assertEqual(set(parsed["metrics"]), set(parsed["metric_evidence"]))
+        self.assertIn(
+            "社会融资规模存量为462.06万亿元",
+            parsed["metric_evidence"]["social_financing_stock"]["value_excerpt"],
+        )
+        self.assertIn(
+            "同比增长7.4%",
+            parsed["metric_evidence"]["social_financing_stock"]["yoy_excerpt"],
+        )
+        self.assertIn(
+            "人民币汇率为1美元兑6.8109元人民币",
+            parsed["metric_evidence"]["usd_cny_reference"]["value_excerpt"],
+        )
+        for key, evidence in parsed["metric_evidence"].items():
+            self.assertTrue(evidence["value_excerpt"], key)
+            if "yoy_pct" in parsed["metrics"][key]:
+                self.assertTrue(evidence.get("yoy_excerpt"), key)
 
     def test_parses_full_width_parentheses_and_spacing(self):
         text = """
@@ -72,8 +89,9 @@ class PbcMoneyFlowTests(unittest.TestCase):
         self.assertEqual(parsed["metrics"]["m2_balance"]["value"], 356.71)
         self.assertEqual(parsed["metrics"]["m1_balance"]["value"], 118.48)
         self.assertEqual(parsed["metrics"]["m0_balance"]["value"], 14.74)
+        self.assertIn("广义货币（ M2 ）余额356.71万亿元", parsed["metric_evidence"]["m2_balance"]["value_excerpt"])
 
-    def test_negative_yoy_preserves_sign(self):
+    def test_negative_yoy_preserves_sign_and_negative_source_excerpt(self):
         text = """
         文章来源： 2026-07-15 15:00:09
         社会融资规模存量为462.06万亿元，同比增长7.4%。
@@ -88,6 +106,7 @@ class PbcMoneyFlowTests(unittest.TestCase):
             source_url="https://www.pbc.gov.cn/report",
         )
         self.assertEqual(parsed["metrics"]["m1_balance"]["yoy_pct"], -4.0)
+        self.assertIn("同比下降4%", parsed["metric_evidence"]["m1_balance"]["yoy_excerpt"])
 
     def test_core_metrics_are_required(self):
         with self.assertRaises(ValueError):

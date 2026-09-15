@@ -3,11 +3,13 @@
 The People's Bank of China exposes a stable public HTML index for statistical
 interpretation releases. This adapter discovers the newest financial-statistics
 report from that official index, fetches the report, and extracts a deliberately
-small set of macro money-flow indicators while preserving source provenance.
+small set of macro money-flow indicators while preserving source provenance and
+metric-level source excerpts.
 
 Truth rules:
 - newest visible official release != today's data;
 - missing metric != zero;
+- parsed metric != evidence unless the exact source match is retained;
 - parser failure != economic observation;
 - no search-engine/private endpoint is used for production discovery.
 """
@@ -32,18 +34,26 @@ _M1 = r"狭义货币\s*[（(]\s*M1\s*[）)]"
 _M0 = r"流通中货币\s*[（(]\s*M0\s*[）)]"
 
 
-def _number(pattern: str, text: str) -> float | None:
+def _compact_excerpt(value: str) -> str:
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def _number_match(pattern: str, text: str) -> tuple[float, str] | None:
     match = re.search(pattern, text, flags=re.S)
-    return float(match.group(1)) if match else None
+    if not match:
+        return None
+    return float(match.group(1)), _compact_excerpt(match.group(0))
 
 
-def _signed_yoy(label: str, text: str) -> float | None:
+def _signed_yoy_match(label: str, text: str) -> tuple[float, str] | None:
     pattern = rf"{label}.*?同比(增长|下降)([0-9.]+)%"
     match = re.search(pattern, text, flags=re.S)
     if not match:
         return None
     value = float(match.group(2))
-    return -value if match.group(1) == "下降" else value
+    if match.group(1) == "下降":
+        value = -value
+    return value, _compact_excerpt(match.group(0))
 
 
 def discover_latest_financial_report(index_document: dict[str, Any]) -> dict[str, str]:
@@ -61,72 +71,87 @@ def parse_financial_report(*, title: str, text: str, source_url: str) -> dict[st
     release_date = release_match.group(1) if release_match else None
 
     metrics: dict[str, dict[str, Any]] = {}
+    metric_evidence: dict[str, dict[str, str]] = {}
 
-    def add(key: str, value: float | None, unit: str, *, yoy: float | None = None) -> None:
-        if value is None:
+    def add(
+        key: str,
+        value_match: tuple[float, str] | None,
+        unit: str,
+        *,
+        yoy_match: tuple[float, str] | None = None,
+    ) -> None:
+        if value_match is None:
             return
+        value, value_excerpt = value_match
         item: dict[str, Any] = {"value": value, "unit": unit}
-        if yoy is not None:
+        evidence: dict[str, str] = {"value_excerpt": value_excerpt}
+        if yoy_match is not None:
+            yoy, yoy_excerpt = yoy_match
             item["yoy_pct"] = yoy
+            evidence["yoy_excerpt"] = yoy_excerpt
         metrics[key] = item
+        metric_evidence[key] = evidence
 
     add(
         "social_financing_stock",
-        _number(r"社会融资规模存量为\s*([0-9.]+)万亿元", text),
+        _number_match(r"社会融资规模存量为\s*([0-9.]+)万亿元", text),
         "trillion_cny",
-        yoy=_number(r"社会融资规模存量为\s*[0-9.]+万亿元.*?同比增长\s*([0-9.]+)%", text),
+        yoy_match=_number_match(
+            r"社会融资规模存量为\s*[0-9.]+万亿元.*?同比增长\s*([0-9.]+)%",
+            text,
+        ),
     )
     add(
         "social_financing_flow_ytd",
-        _number(r"社会融资规模增量累计为\s*([0-9.]+)万亿元", text),
+        _number_match(r"社会融资规模增量累计为\s*([0-9.]+)万亿元", text),
         "trillion_cny",
     )
     add(
         "m2_balance",
-        _number(rf"{_M2}\s*余额为?\s*([0-9.]+)万亿元", text),
+        _number_match(rf"{_M2}\s*余额为?\s*([0-9.]+)万亿元", text),
         "trillion_cny",
-        yoy=_signed_yoy(_M2, text),
+        yoy_match=_signed_yoy_match(_M2, text),
     )
     add(
         "m1_balance",
-        _number(rf"{_M1}\s*余额为?\s*([0-9.]+)万亿元", text),
+        _number_match(rf"{_M1}\s*余额为?\s*([0-9.]+)万亿元", text),
         "trillion_cny",
-        yoy=_signed_yoy(_M1, text),
+        yoy_match=_signed_yoy_match(_M1, text),
     )
     add(
         "m0_balance",
-        _number(rf"{_M0}\s*余额为?\s*([0-9.]+)万亿元", text),
+        _number_match(rf"{_M0}\s*余额为?\s*([0-9.]+)万亿元", text),
         "trillion_cny",
-        yoy=_signed_yoy(_M0, text),
+        yoy_match=_signed_yoy_match(_M0, text),
     )
     add(
         "rmb_deposit_flow_ytd",
-        _number(r"人民币存款增加\s*([0-9.]+)万亿元", text),
+        _number_match(r"人民币存款增加\s*([0-9.]+)万亿元", text),
         "trillion_cny",
     )
     add(
         "rmb_loan_flow_ytd",
-        _number(r"人民币贷款增加\s*([0-9.]+)万亿元", text),
+        _number_match(r"人民币贷款增加\s*([0-9.]+)万亿元", text),
         "trillion_cny",
     )
     add(
         "interbank_lending_weighted_rate",
-        _number(r"同业拆借月加权平均利率为\s*([0-9.]+)%", text),
+        _number_match(r"同业拆借月加权平均利率为\s*([0-9.]+)%", text),
         "percent",
     )
     add(
         "pledged_repo_weighted_rate",
-        _number(r"质押式债券回购月加权平均利率为\s*([0-9.]+)%", text),
+        _number_match(r"质押式债券回购月加权平均利率为\s*([0-9.]+)%", text),
         "percent",
     )
     add(
         "fx_reserves",
-        _number(r"国家外汇储备余额\s*([0-9.]+)万亿美元", text),
+        _number_match(r"国家外汇储备余额\s*([0-9.]+)万亿美元", text),
         "trillion_usd",
     )
     add(
         "usd_cny_reference",
-        _number(r"人民币汇率为\s*1美元兑\s*([0-9.]+)元人民币", text),
+        _number_match(r"人民币汇率为\s*1美元兑\s*([0-9.]+)元人民币", text),
         "cny_per_usd",
     )
 
@@ -134,12 +159,15 @@ def parse_financial_report(*, title: str, text: str, source_url: str) -> dict[st
     core_present = sorted(core.intersection(metrics))
     if len(core_present) < 4:
         raise ValueError(f"PBC report core metrics incomplete: {core_present}")
+    if set(metrics) != set(metric_evidence):
+        raise ValueError("PBC metric evidence coverage diverges from parsed metrics")
 
     return {
         "title": title,
         "source_url": source_url,
         "release_date": release_date,
         "metrics": metrics,
+        "metric_evidence": metric_evidence,
         "metric_count": len(metrics),
         "core_metric_count": len(core_present),
         "core_metrics_present": core_present,
@@ -195,6 +223,7 @@ class PbcMoneyFlowAdapter:
             },
             "truth_note": (
                 "Metrics are parsed from the newest financial-statistics report visible on the "
-                "official PBC statistics interpretation index. Missing fields are omitted, never zero-filled."
+                "official PBC statistics interpretation index. Every serialized metric retains "
+                "the exact matched source excerpt; missing fields are omitted, never zero-filled."
             ),
         }
