@@ -185,6 +185,7 @@ def build_dry_run() -> dict:
     )
 
     base = _base_invalid_kwargs()
+    representative_base = {**base, "source_type": "B_REPRESENTATIVE_RESEARCH"}
     fail_closed_checks = {
         "signal_without_key_evidence_rejected": _rejected(
             lambda: PsychologySignal(**base)
@@ -213,8 +214,7 @@ def build_dry_run() -> dict:
         ),
         "representative_share_without_method_evidence_rejected": _rejected(
             lambda: PsychologySignal(
-                **base,
-                source_type="B_REPRESENTATIVE_RESEARCH",
+                **representative_base,
                 key_evidence_refs=("evidence:survey",),
                 representative_sample=True,
                 representative_share=0.42,
@@ -224,7 +224,8 @@ def build_dry_run() -> dict:
     }
 
     return {
-        "schema_version": "psychology-dynamic-concept-dry-run.v2",
+        # v1 remains backward compatible; the evidence-lineage fields are additive.
+        "schema_version": "psychology-dynamic-concept-dry-run.v1",
         "synthetic_only": True,
         "stable_semantic_primitives": sorted(PSYCHOLOGY_PRIMITIVES),
         "seed_concept_count": len(PSYCHOLOGY_SEED_CONCEPTS),
