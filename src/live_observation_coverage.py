@@ -27,6 +27,7 @@ UNIFIED_ADAPTER_SUPPORT: dict[str, tuple[str, ...]] = {
     ),
     "EJY365_XZ_LINKED": ("xuzhou_resource_underuse_observations",),
     "JS_GGZY_XZ_MIRROR": ("xuzhou_resource_underuse_observations",),
+    "XZ_GOV_FINANCE_DEMAND": ("xuzhou_financing_demand_observations",),
 }
 
 

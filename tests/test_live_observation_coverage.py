@@ -96,31 +96,7 @@ class LiveObservationCoverageTests(unittest.TestCase):
                 adapter_support={"SUPPORTED": ("adapter",)},
             )
 
-    def test_pre_pbc_ingest_shape_keeps_support_separate_from_observation(self):
-        operational = load_operational_sources(ROOT / "data/source_registry.csv")
-        result = reconcile_live_observation_coverage(
-            operational,
-            _assessment({
-                "CN_NBS": 4,
-                "CN_PBOC_JS": 1,
-                "JS_STATS": 1,
-                "XZ_GGZY": 24,
-                "EJY365_XZ_LINKED": 29,
-            }),
-        )
-        self.assertEqual(result["production_live_registry_count"], 8)
-        self.assertEqual(result["adapter_supported_production_count"], 6)
-        self.assertEqual(result["observed_production_count"], 5)
-        self.assertEqual(result["adapter_supported_not_observed_count"], 1)
-        self.assertEqual(result["adapter_supported_not_observed_source_ids"], ["CN_PBOC"])
-        self.assertEqual(result["no_unified_adapter_count"], 2)
-        self.assertEqual(
-            set(result["no_unified_adapter_source_ids"]),
-            {"CN_CUSTOMS", "XZ_GOV_FINANCE_DEMAND"},
-        )
-        self.assertEqual(result["observed_without_governed_support_count"], 0)
-
-    def test_post_pbc_ingest_shape_reaches_six_of_eight(self):
+    def test_pre_financing_demand_ingest_keeps_support_separate_from_observation(self):
         operational = load_operational_sources(ROOT / "data/source_registry.csv")
         result = reconcile_live_observation_coverage(
             operational,
@@ -134,18 +110,49 @@ class LiveObservationCoverageTests(unittest.TestCase):
             }),
         )
         self.assertEqual(result["production_live_registry_count"], 8)
-        self.assertEqual(result["adapter_supported_production_count"], 6)
+        self.assertEqual(result["adapter_supported_production_count"], 7)
         self.assertEqual(result["observed_production_count"], 6)
+        self.assertEqual(result["adapter_supported_not_observed_count"], 1)
+        self.assertEqual(
+            result["adapter_supported_not_observed_source_ids"],
+            ["XZ_GOV_FINANCE_DEMAND"],
+        )
+        self.assertEqual(result["no_unified_adapter_count"], 1)
+        self.assertEqual(result["no_unified_adapter_source_ids"], ["CN_CUSTOMS"])
+        self.assertEqual(result["observed_without_governed_support_count"], 0)
+
+    def test_post_financing_demand_ingest_reaches_seven_of_eight(self):
+        operational = load_operational_sources(ROOT / "data/source_registry.csv")
+        result = reconcile_live_observation_coverage(
+            operational,
+            _assessment({
+                "CN_NBS": 4,
+                "CN_PBOC": 1,
+                "CN_PBOC_JS": 1,
+                "JS_STATS": 1,
+                "XZ_GGZY": 24,
+                "EJY365_XZ_LINKED": 29,
+                "XZ_GOV_FINANCE_DEMAND": 1,
+            }),
+        )
+        self.assertEqual(result["production_live_registry_count"], 8)
+        self.assertEqual(result["adapter_supported_production_count"], 7)
+        self.assertEqual(result["observed_production_count"], 7)
         self.assertEqual(result["adapter_supported_not_observed_count"], 0)
-        self.assertEqual(result["no_unified_adapter_count"], 2)
+        self.assertEqual(result["no_unified_adapter_count"], 1)
         self.assertEqual(
             set(result["observed_production_source_ids"]),
-            {"CN_NBS", "CN_PBOC", "CN_PBOC_JS", "JS_STATS", "XZ_GGZY", "EJY365_XZ_LINKED"},
+            {
+                "CN_NBS",
+                "CN_PBOC",
+                "CN_PBOC_JS",
+                "JS_STATS",
+                "XZ_GGZY",
+                "EJY365_XZ_LINKED",
+                "XZ_GOV_FINANCE_DEMAND",
+            },
         )
-        self.assertEqual(
-            set(result["no_unified_adapter_source_ids"]),
-            {"CN_CUSTOMS", "XZ_GOV_FINANCE_DEMAND"},
-        )
+        self.assertEqual(result["no_unified_adapter_source_ids"], ["CN_CUSTOMS"])
         self.assertIn(
             "ACTIVE_LIVE_REGISTRY_NE_OBSERVED_IN_FABRIC",
             result["truth_boundaries"],

@@ -15,6 +15,7 @@ UPSTREAM_KEYS = (
     "nbs_macro",
     "pbc_jiangsu_credit",
     "pbc_money_flow",
+    "xuzhou_financing_demand",
 )
 
 
@@ -90,6 +91,7 @@ def main() -> int:
         "CN_NBS",
         "CN_PBOC_JS",
         "CN_PBOC",
+        "XZ_GOV_FINANCE_DEMAND",
     }
     missing = required_sources - set(data.get("source_counts", {}))
     if missing:
@@ -124,6 +126,13 @@ def main() -> int:
     ):
         if concept not in concepts:
             raise SystemExit(f"required national PBC observation is missing: {concept}")
+    for concept in (
+        "XZ_SCOPED_DIRECT_ENTERPRISE_FINANCING_DEMAND",
+        "XZ_SCOPED_GRANTED_CREDIT_AMOUNT",
+        "XZ_SCOPED_BENEFICIARY_ENTERPRISE_COUNT",
+    ):
+        if concept not in concepts:
+            raise SystemExit(f"required Xuzhou financing-demand observation is missing: {concept}")
 
     upstream_run_ids(data)
 
