@@ -121,7 +121,9 @@ def load_operational_sources(path: str | Path) -> tuple[OperationalSource, ...]:
         result: list[OperationalSource] = []
         seen: set[str] = set()
         for row in reader:
-            source = OperationalSource(**{key: str(row.get(key) or "").strip() for key in expected})
+            source = OperationalSource(
+                **{key: str(row.get(key) or "").strip() for key in expected}
+            )
             if source.source_id in seen:
                 raise ValueError(f"duplicate operational source_id: {source.source_id}")
             seen.add(source.source_id)
@@ -178,7 +180,7 @@ def reconcile_sensor_portfolio(
 
     mismatches: list[dict] = []
     operational_by_id = {item.source_id: item for item in operational}
-    candidate_by_id = {item.source_id: item for item in candidate_records}
+    candidate_by_id = {item["source_id"]: item for item in candidate_records}
     for source_id in overlap:
         op_live = operational_by_id[source_id].is_production_live
         cand_live = bool(candidate_by_id[source_id]["production_coverage"])
