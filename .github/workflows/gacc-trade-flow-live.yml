@@ -2,12 +2,26 @@ name: gacc-trade-flow-live
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/gacc_trade_flow.py"
+      - "src/gacc_trade_corroboration.py"
+      - "src/gacc_trade_row_evidence.py"
+      - "tests/test_gacc_trade_flow.py"
+      - "tests/test_gacc_trade_corroboration.py"
+      - "tests/test_gacc_trade_row_evidence.py"
+      - "scripts/collect_gacc_trade_flow.py"
+      - ".github/workflows/gacc-trade-flow-live.yml"
+      - "data/source_registry.csv"
   pull_request:
     paths:
       - "src/gacc_trade_flow.py"
       - "src/gacc_trade_corroboration.py"
+      - "src/gacc_trade_row_evidence.py"
       - "tests/test_gacc_trade_flow.py"
       - "tests/test_gacc_trade_corroboration.py"
+      - "tests/test_gacc_trade_row_evidence.py"
       - "scripts/collect_gacc_trade_flow.py"
       - ".github/workflows/gacc-trade-flow-live.yml"
       - "data/source_registry.csv"
@@ -33,6 +47,7 @@ jobs:
       - name: Validate GACC trade-flow evidence contract
         run: |
           python - <<'PY'
+          import hashlib
           import json
           from datetime import date
           from pathlib import Path
@@ -87,6 +102,34 @@ jobs:
               parsed = urlparse(meta['url'])
               if parsed.scheme != 'http' or parsed.hostname != 'english.customs.gov.cn' or not meta.get('payload_sha256'):
                   raise SystemExit(f"invalid official HTTP provenance for {key}: {meta}")
+
+          if data.get('row_evidence_contract') != 'gacc-source-row-evidence.v1' or data.get('row_evidence_complete') is not True:
+              raise SystemExit('GACC row-level evidence contract is incomplete')
+
+          def validate_row(row, table_number, provenance):
+              if row is None:
+                  return
+              evidence = row.get('source_row_evidence') or {}
+              cells = evidence.get('row_cells')
+              if evidence.get('contract') != 'gacc-source-row-evidence.v1':
+                  raise SystemExit(f"missing row evidence contract: {row.get('name')}")
+              if evidence.get('source_id') != 'CN_CUSTOMS' or evidence.get('table_number') != table_number:
+                  raise SystemExit(f"row evidence source/table mismatch: {row.get('name')}")
+              if evidence.get('source_url') != provenance.get('url') or evidence.get('source_payload_sha256') != provenance.get('payload_sha256'):
+                  raise SystemExit(f"row evidence provenance mismatch: {row.get('name')}")
+              if not isinstance(cells, list) or not cells or cells[0].strip().casefold() != row.get('name', '').strip().casefold():
+                  raise SystemExit(f"row evidence identity mismatch: {row.get('name')}")
+              if evidence.get('row_text') != ' | '.join(cells):
+                  raise SystemExit(f"row evidence text mismatch: {row.get('name')}")
+              digest = hashlib.sha256(json.dumps(cells, ensure_ascii=False, separators=(',', ':')).encode('utf-8')).hexdigest()
+              if evidence.get('row_sha256') != digest:
+                  raise SystemExit(f"row evidence hash mismatch: {row.get('name')}")
+
+          validate_row(jiangsu, 8, data['table_8_provenance'])
+          validate_row(data.get('xuzhou_importer_exporter_location'), 8, data['table_8_provenance'])
+          for row in data.get('xuzhou_specific_areas') or []:
+              validate_row(row, 11, data['table_11_provenance'])
+
           required = {
               'PLAINTEXT_HTTP_REQUIRES_CORROBORATION',
               'TABLE8_TOTAL_DERIVED_ONLY_FROM_COMPLETE_EXPORT_IMPORT',
@@ -98,6 +141,10 @@ jobs:
               'TRADE_FLOW_IS_NOT_SURPLUS_RESOURCE',
               'NO_TRANSACTION_BLOCKER_INFERENCE',
               'NO_OPPORTUNITY_INFERENCE',
+              'ROW_EVIDENCE_REQUIRES_STABLE_REFETCH',
+              'WHOLE_PAGE_HASH_NE_ROW_LEVEL_LINEAGE',
+              'CORROBORATION_GATE_NE_ROW_LEVEL_VALUE_CONFIRMATION',
+              'DERIVED_TOTAL_NE_SOURCE_CELL',
           }
           missing = sorted(required - set(data.get('truth_boundaries', [])))
           if missing:
@@ -105,6 +152,7 @@ jobs:
           print('period=', data['period'])
           print('transport_security=', data['transport_security'])
           print('corroboration_status=', status)
+          print('row_evidence_contract=', data['row_evidence_contract'])
           print('corroboration=', json.dumps(corr, ensure_ascii=False, sort_keys=True))
           print('jiangsu=', json.dumps(jiangsu, ensure_ascii=False, sort_keys=True))
           print('xuzhou_location=', json.dumps(data.get('xuzhou_importer_exporter_location'), ensure_ascii=False, sort_keys=True))
