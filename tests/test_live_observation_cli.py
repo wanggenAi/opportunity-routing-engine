@@ -23,6 +23,7 @@ class LiveObservationCliTests(unittest.TestCase):
         self.assertIn("--pbc-money-flow", completed.stdout)
         self.assertIn("--xuzhou-financing-demand", completed.stdout)
         self.assertIn("--gacc-trade-flow", completed.stdout)
+        self.assertIn("--questmobile-public-research", completed.stdout)
 
 
 if __name__ == "__main__":
