@@ -14,6 +14,7 @@ on:
       - "pbc-money-flow-live"
       - "xuzhou-enterprise-funding-demand-live"
       - "gacc-trade-flow-live"
+      - "questmobile-public-research-live"
     types: [completed]
   push:
     branches: [main]
@@ -22,6 +23,7 @@ on:
       - "src/live_observation_adapters.py"
       - "src/official_macro_observation_adapters.py"
       - "src/pbc_observation_adapter.py"
+      - "src/questmobile_research_observation_adapter.py"
       - "src/xuzhou_financing_demand_observation_adapter.py"
       - "src/live_observation_pipeline.py"
       - "scripts/build_live_observation_fabric.py"
@@ -31,10 +33,12 @@ on:
       - "tests/test_live_observation_fabric.py"
       - "tests/test_official_macro_observation_adapters.py"
       - "tests/test_pbc_observation_adapter.py"
+      - "tests/test_questmobile_research_observation_adapter.py"
       - "tests/test_xuzhou_financing_demand_observation_adapter.py"
       - "tests/test_live_observation_run_lineage.py"
       - "docs/OBSERVATION_FABRIC.md"
       - "docs/OFFICIAL_MACRO_OBSERVATION_ADAPTERS.md"
+      - "docs/QUESTMOBILE_PUBLIC_RESEARCH.md"
       - ".github/workflows/observation-fabric-live.yml"
 
 permissions:
@@ -140,6 +144,15 @@ jobs:
           repository: ${{ github.repository }}
           run-id: ${{ steps.runs.outputs.gacc_trade_flow_run_id }}
 
+      - name: Download public QuestMobile research evidence
+        uses: actions/download-artifact@v4
+        with:
+          name: questmobile-public-research-evidence
+          path: .upstream/questmobile
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: ${{ steps.runs.outputs.questmobile_public_research_run_id }}
+
       - name: Restore previous durable Observation Fabric state
         if: steps.runs.outputs.previous_live_run_id != ''
         uses: actions/download-artifact@v4
@@ -174,6 +187,7 @@ jobs:
             --pbc-money-flow .upstream/pbc/pbc_money_flow.json \
             --xuzhou-financing-demand .upstream/xuzhou_financing_demand/xuzhou_enterprise_funding_demand.json \
             --gacc-trade-flow .upstream/gacc/gacc_trade_flow.json \
+            --questmobile-public-research .upstream/questmobile/questmobile_public_research.json \
             --store .local/observation_fabric_live.sqlite \
             --output .local/observation_fabric_live_assessment.json \
             --current-jsonl .local/observation_fabric_current.jsonl \
@@ -193,9 +207,9 @@ jobs:
           fi
           python scripts/validate_live_observation_fabric.py "${args[@]}"
           state=.local/observation_fabric_live_assessment.json
-          jq -e '.source_counts.CN_NBS > 0 and .source_counts.CN_PBOC_JS > 0 and .source_counts.CN_PBOC > 0 and .source_counts.XZ_GOV_FINANCE_DEMAND > 0 and .source_counts.CN_CUSTOMS > 0' "$state" >/dev/null
+          jq -e '.source_counts.CN_NBS > 0 and .source_counts.CN_PBOC_JS > 0 and .source_counts.CN_PBOC > 0 and .source_counts.XZ_GOV_FINANCE_DEMAND > 0 and .source_counts.CN_CUSTOMS > 0 and .source_counts.QM > 0' "$state" >/dev/null
           jq -e '.epistemic_counts | keys == ["OBSERVED"]' "$state" >/dev/null
-          jq -e '.concepts | index("CN_RETAIL_CURRENT") != null and index("CN_RETAIL_YOY") != null and index("CN_PBOC_JS_TOTAL_DEPOSITS_100M_CNY") != null and index("CN_PBOC_JS_TOTAL_LOANS_100M_CNY") != null and index("CN_PBOC_SOCIAL_FINANCING_STOCK") != null and index("CN_PBOC_SOCIAL_FINANCING_FLOW_YTD") != null and index("CN_PBOC_M2_BALANCE") != null and index("CN_PBOC_M2_BALANCE_YOY") != null and index("XZ_SCOPED_DIRECT_ENTERPRISE_FINANCING_DEMAND") != null and index("XZ_SCOPED_GRANTED_CREDIT_AMOUNT") != null and index("XZ_SCOPED_BENEFICIARY_ENTERPRISE_COUNT") != null and index("CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_EXPORTS_YTD") != null and index("CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_IMPORTS_YTD") != null and index("CN_CUSTOMS_SPECIFIC_AREA_TOTAL_YTD") != null and index("CN_CUSTOMS_SPECIFIC_AREA_EXPORTS_YOY") != null' "$state" >/dev/null
+          jq -e '.concepts | index("CN_RETAIL_CURRENT") != null and index("CN_RETAIL_YOY") != null and index("CN_PBOC_JS_TOTAL_DEPOSITS_100M_CNY") != null and index("CN_PBOC_JS_TOTAL_LOANS_100M_CNY") != null and index("CN_PBOC_SOCIAL_FINANCING_STOCK") != null and index("CN_PBOC_SOCIAL_FINANCING_FLOW_YTD") != null and index("CN_PBOC_M2_BALANCE") != null and index("CN_PBOC_M2_BALANCE_YOY") != null and index("XZ_SCOPED_DIRECT_ENTERPRISE_FINANCING_DEMAND") != null and index("XZ_SCOPED_GRANTED_CREDIT_AMOUNT") != null and index("XZ_SCOPED_BENEFICIARY_ENTERPRISE_COUNT") != null and index("CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_EXPORTS_YTD") != null and index("CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_IMPORTS_YTD") != null and index("CN_CUSTOMS_SPECIFIC_AREA_TOTAL_YTD") != null and index("CN_CUSTOMS_SPECIFIC_AREA_EXPORTS_YOY") != null and index("PUBLIC_RESEARCH_FINDING_EXCERPT") != null' "$state" >/dev/null
 
       - name: Publish operator summary
         run: |
@@ -208,7 +222,7 @@ jobs:
             jq -r '"- source counts: `\(.source_counts)`"' .local/observation_fabric_live_assessment.json
             jq -r '"- primitive counts: `\(.primitive_counts)`"' .local/observation_fabric_live_assessment.json
             echo
-            echo "Observation only: Customs trade flow is corroboration-gated source fact, not domestic origin/destination, whole-Xuzhou truth, payment, paid need or opportunity; specific customs areas remain narrower than Xuzhou city; no availability, permission or route-testable promotion occurs here."
+            echo "Observation only: QuestMobile public research enters only as national EVIDENCE excerpts, not representative census truth, current Jiangsu/Xuzhou reality, paid demand, payer/payment or opportunity; Customs and all other source-specific truth boundaries remain unchanged."
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload durable live Observation Fabric state

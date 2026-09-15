@@ -33,25 +33,28 @@ These are registry records, not code enums. They may be revised, split or extend
 
 ## Current expected production result
 
-With the current registries and the 8/8 live Observation source coverage, three channels are genuinely observed:
+With QuestMobile public research promoted only after a successful real public producer run, the live Observation source set contains nine production sources. Four evidence channels are expected to be production-observed:
 
 - `OFFICIAL_STRUCTURAL_BASELINE`
 - `HARD_BEHAVIOR_MONEY`
 - `LOCAL_REALITY`
+- `REPRESENTATIVE_RESEARCH`
 
-Three remain explicit blind spots:
+Two remain explicit blind spots:
 
 - `SEARCH_INTENT`
 - `SOCIAL_PUBLIC_DISCOURSE`
-- `REPRESENTATIVE_RESEARCH`
 
-This is the important distinction: **8/8 production source coverage is not six-of-six evidence-channel coverage**.
+This is the important distinction: **9/9 production source coverage is still not six-of-six evidence-channel coverage**.
 
-For example, `BAIDU_INDEX` being registered and manually viewable does not make `SEARCH_INTENT` production-observed. Likewise, Weibo/Xiaohongshu/Douyin/Zhihu manual surfaces and Reddit/X/Instagram/Telegram candidates do not make `SOCIAL_PUBLIC_DISCOURSE` live China-primary evidence.
+`REPRESENTATIVE_RESEARCH` being observed through `QM` also does not mean its public reports are census-representative or locally valid for Jiangsu/Xuzhou. QuestMobile findings enter the Fabric as national `EVIDENCE` excerpts with representativeness and local applicability explicitly not established.
+
+`BAIDU_INDEX` being registered and manually viewable does not make `SEARCH_INTENT` production-observed. Likewise, Weibo/Xiaohongshu/Douyin/Zhihu manual surfaces and Reddit/X/Instagram/Telegram candidates do not make `SOCIAL_PUBLIC_DISCOURSE` live China-primary evidence.
 
 ## Truth boundaries
 
 - One observed source does not make a channel complete or representative.
+- An observed research channel does not establish representative population coverage.
 - Search salience is not paid demand.
 - Social discourse is not market demand.
 - A research report is not current local reality.

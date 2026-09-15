@@ -5,19 +5,6 @@ on:
   workflow_run:
     workflows: ["live-observation-coverage-016"]
     types: [completed]
-  push:
-    branches: [main]
-    paths:
-      - "src/sensor_evidence_channel_coverage.py"
-      - "src/sensor_portfolio.py"
-      - "src/sensor_registry.py"
-      - "data/evidence_channel_registry.json"
-      - "data/source_registry.csv"
-      - "data/sensor_candidates.json"
-      - "scripts/build_sensor_evidence_channel_coverage.py"
-      - "tests/test_sensor_evidence_channel_coverage.py"
-      - "docs/SENSOR_EVIDENCE_CHANNEL_COVERAGE.md"
-      - ".github/workflows/sensor-evidence-channel-coverage-021.yml"
 
 permissions:
   contents: read
@@ -101,27 +88,27 @@ jobs:
             --live-observation-coverage .upstream/live_coverage/live_observation_coverage_016.json \
             --output .local/sensor_evidence_channel_coverage_021.json
 
-      - name: Prove current sensing capability and blind spots
+      - name: Prove current sensing capability and remaining blind spots
         shell: bash
         run: |
           set -euo pipefail
           state=.local/sensor_evidence_channel_coverage_021.json
           test "$(jq -r '.schema_version' "$state")" = "sensor-evidence-channel-coverage.v1"
           test "$(jq -r '.channel_count' "$state")" = "6"
-          test "$(jq -r '.production_live_channel_count' "$state")" = "3"
-          test "$(jq -r '.observed_channel_count' "$state")" = "3"
-          test "$(jq -r '.blind_spot_channel_count' "$state")" = "3"
-          test "$(jq -r '.latest_live_observation_coverage.production_live_source_count' "$state")" = "8"
-          test "$(jq -r '.latest_live_observation_coverage.adapter_supported_source_count' "$state")" = "8"
-          test "$(jq -r '.latest_live_observation_coverage.observed_production_source_count' "$state")" = "8"
-          jq -e '.observed_channel_ids | sort == ["HARD_BEHAVIOR_MONEY","LOCAL_REALITY","OFFICIAL_STRUCTURAL_BASELINE"]' "$state" >/dev/null
-          jq -e '.blind_spot_channel_ids | sort == ["REPRESENTATIVE_RESEARCH","SEARCH_INTENT","SOCIAL_PUBLIC_DISCOURSE"]' "$state" >/dev/null
+          test "$(jq -r '.production_live_channel_count' "$state")" = "4"
+          test "$(jq -r '.observed_channel_count' "$state")" = "4"
+          test "$(jq -r '.blind_spot_channel_count' "$state")" = "2"
+          test "$(jq -r '.latest_live_observation_coverage.production_live_source_count' "$state")" = "9"
+          test "$(jq -r '.latest_live_observation_coverage.adapter_supported_source_count' "$state")" = "9"
+          test "$(jq -r '.latest_live_observation_coverage.observed_production_source_count' "$state")" = "9"
+          jq -e '.observed_channel_ids | sort == ["HARD_BEHAVIOR_MONEY","LOCAL_REALITY","OFFICIAL_STRUCTURAL_BASELINE","REPRESENTATIVE_RESEARCH"]' "$state" >/dev/null
+          jq -e '.blind_spot_channel_ids | sort == ["SEARCH_INTENT","SOCIAL_PUBLIC_DISCOURSE"]' "$state" >/dev/null
           jq -e '.unmapped_operational_source_ids == [] and .unmapped_candidate_source_ids == []' "$state" >/dev/null
-          jq -e '.mapped_observed_production_source_ids | sort == ["CN_CUSTOMS","CN_NBS","CN_PBOC","CN_PBOC_JS","EJY365_XZ_LINKED","JS_STATS","XZ_GGZY","XZ_GOV_FINANCE_DEMAND"]' "$state" >/dev/null
+          jq -e '.mapped_observed_production_source_ids | sort == ["CN_CUSTOMS","CN_NBS","CN_PBOC","CN_PBOC_JS","EJY365_XZ_LINKED","JS_STATS","QM","XZ_GGZY","XZ_GOV_FINANCE_DEMAND"]' "$state" >/dev/null
           jq -e '.channels[] | select(.channel_id == "SEARCH_INTENT") | .coverage_state == "REGISTERED_NONLIVE_ONLY" and .observed_production_source_ids == [] and .manual_surface_source_ids == ["BAIDU_INDEX"]' "$state" >/dev/null
           jq -e '.channels[] | select(.channel_id == "SOCIAL_PUBLIC_DISCOURSE") | .coverage_state == "REGISTERED_NONLIVE_ONLY" and .observed_production_source_ids == [] and (.candidate_source_ids | length) == 4 and .candidate_automation_ready_source_ids == []' "$state" >/dev/null
-          jq -e '.channels[] | select(.channel_id == "REPRESENTATIVE_RESEARCH") | .coverage_state == "REGISTERED_NONLIVE_ONLY" and .observed_production_source_ids == [] and .registered_operational_source_ids == ["QM"]' "$state" >/dev/null
-          jq -e '.truth_boundaries | index("SOURCE_COVERAGE_NE_EVIDENCE_CHANNEL_COVERAGE") != null and index("ONE_OBSERVED_SOURCE_NE_CHANNEL_COMPLETENESS") != null and index("SEARCH_SALIENCE_NE_PAID_DEMAND") != null and index("SOCIAL_DISCOURSE_NE_MARKET_DEMAND") != null and index("UNKNOWN_NE_PASS") != null' "$state" >/dev/null
+          jq -e '.channels[] | select(.channel_id == "REPRESENTATIVE_RESEARCH") | .coverage_state == "OBSERVED_PRODUCTION" and .production_live_source_ids == ["QM"] and .observed_production_source_ids == ["QM"]' "$state" >/dev/null
+          jq -e '.truth_boundaries | index("SOURCE_COVERAGE_NE_EVIDENCE_CHANNEL_COVERAGE") != null and index("ONE_OBSERVED_SOURCE_NE_CHANNEL_COMPLETENESS") != null and index("OBSERVED_CHANNEL_NE_REPRESENTATIVE_POPULATION_COVERAGE") != null and index("SEARCH_SALIENCE_NE_PAID_DEMAND") != null and index("SOCIAL_DISCOURSE_NE_MARKET_DEMAND") != null and index("UNKNOWN_NE_PASS") != null' "$state" >/dev/null
           if jq -e '.. | objects | has("payer") or has("paid_need") or has("route_testable") or has("opportunity_score") or has("commercial_score") or has("business_promotion") or has("taxonomy_promotion")' "$state" >/dev/null; then
             echo "Evidence channel coverage leaked downstream commercial or ontology truth" >&2
             exit 1
@@ -137,7 +124,7 @@ jobs:
             jq -r '"- explicit blind-spot channels: `\(.blind_spot_channel_count)`"' .local/sensor_evidence_channel_coverage_021.json
             jq -r '"- observed channels: `\(.observed_channel_ids)`"' .local/sensor_evidence_channel_coverage_021.json
             jq -r '"- blind spots: `\(.blind_spot_channel_ids)`"' .local/sensor_evidence_channel_coverage_021.json
-            echo "- 8/8 source ingestion does not imply full evidence-channel coverage"
+            echo "- 9/9 source ingestion does not imply complete evidence-channel coverage or representative population truth"
             echo "- latest live coverage run: `${{ steps.resolve.outputs.run_id }}` / `${{ steps.resolve.outputs.head_sha }}`"
           } >> "$GITHUB_STEP_SUMMARY"
 

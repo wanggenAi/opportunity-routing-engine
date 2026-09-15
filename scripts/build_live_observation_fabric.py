@@ -25,6 +25,9 @@ from src.official_macro_observation_adapters import (
     pbc_jiangsu_credit_observations,
 )
 from src.pbc_observation_adapter import pbc_money_flow_observations
+from src.questmobile_research_observation_adapter import (
+    questmobile_public_research_observations,
+)
 from src.xuzhou_financing_demand_observation_adapter import (
     xuzhou_financing_demand_observations,
 )
@@ -47,6 +50,7 @@ def build(
     pbc_money_flow_path: Path,
     xuzhou_financing_demand_path: Path,
     gacc_trade_flow_path: Path,
+    questmobile_public_research_path: Path,
     store_path: Path,
     output_path: Path,
     current_jsonl_path: Path,
@@ -67,6 +71,11 @@ def build(
         xuzhou_financing_demand_observations(_load_json(xuzhou_financing_demand_path))
     )
     envelopes.extend(gacc_trade_flow_observations(_load_json(gacc_trade_flow_path)))
+    envelopes.extend(
+        questmobile_public_research_observations(
+            _load_json(questmobile_public_research_path)
+        )
+    )
     if not envelopes:
         raise ValueError("live adapters produced no observations")
 
@@ -104,6 +113,7 @@ def main() -> int:
     parser.add_argument("--pbc-money-flow", type=Path, required=True)
     parser.add_argument("--xuzhou-financing-demand", type=Path, required=True)
     parser.add_argument("--gacc-trade-flow", type=Path, required=True)
+    parser.add_argument("--questmobile-public-research", type=Path, required=True)
     parser.add_argument("--store", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--current-jsonl", type=Path, required=True)
@@ -118,6 +128,7 @@ def main() -> int:
         pbc_money_flow_path=args.pbc_money_flow,
         xuzhou_financing_demand_path=args.xuzhou_financing_demand,
         gacc_trade_flow_path=args.gacc_trade_flow,
+        questmobile_public_research_path=args.questmobile_public_research,
         store_path=args.store,
         output_path=args.output,
         current_jsonl_path=args.current_jsonl,

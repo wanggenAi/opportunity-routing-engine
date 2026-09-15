@@ -20,6 +20,7 @@ PRODUCTION_IDS = {
     "CN_PBOC_JS",
     "EJY365_XZ_LINKED",
     "JS_STATS",
+    "QM",
     "XZ_GGZY",
     "XZ_GOV_FINANCE_DEMAND",
 }
@@ -49,26 +50,45 @@ class SensorEvidenceChannelCoverageTests(unittest.TestCase):
         channels = load_evidence_channel_registry(ROOT / "data/evidence_channel_registry.json")
         return operational, candidates, channels
 
-    def test_current_registry_exposes_three_observed_channels_and_three_blind_spots(self):
+    def test_current_registry_exposes_four_observed_channels_and_two_blind_spots(self):
         operational, candidates, channels = self._actual()
         result = reconcile_sensor_evidence_channel_coverage(
             operational, candidates, live_coverage(), channels
         )
         self.assertEqual(result["channel_count"], 6)
-        self.assertEqual(result["production_live_channel_count"], 3)
-        self.assertEqual(result["observed_channel_count"], 3)
-        self.assertEqual(result["blind_spot_channel_count"], 3)
+        self.assertEqual(result["production_live_channel_count"], 4)
+        self.assertEqual(result["observed_channel_count"], 4)
+        self.assertEqual(result["blind_spot_channel_count"], 2)
         self.assertEqual(
             set(result["observed_channel_ids"]),
-            {"OFFICIAL_STRUCTURAL_BASELINE", "HARD_BEHAVIOR_MONEY", "LOCAL_REALITY"},
+            {
+                "OFFICIAL_STRUCTURAL_BASELINE",
+                "HARD_BEHAVIOR_MONEY",
+                "LOCAL_REALITY",
+                "REPRESENTATIVE_RESEARCH",
+            },
         )
         self.assertEqual(
             set(result["blind_spot_channel_ids"]),
-            {"SEARCH_INTENT", "SOCIAL_PUBLIC_DISCOURSE", "REPRESENTATIVE_RESEARCH"},
+            {"SEARCH_INTENT", "SOCIAL_PUBLIC_DISCOURSE"},
         )
         self.assertEqual(result["unmapped_operational_source_ids"], [])
         self.assertEqual(result["unmapped_candidate_source_ids"], [])
         self.assertEqual(set(result["mapped_observed_production_source_ids"]), PRODUCTION_IDS)
+
+    def test_representative_research_is_observed_only_because_qm_is_live_and_observed(self):
+        operational, candidates, channels = self._actual()
+        result = reconcile_sensor_evidence_channel_coverage(
+            operational, candidates, live_coverage(), channels
+        )
+        row = next(
+            item for item in result["channels"] if item["channel_id"] == "REPRESENTATIVE_RESEARCH"
+        )
+        self.assertEqual(row["coverage_state"], "OBSERVED_PRODUCTION")
+        self.assertFalse(row["blind_spot"])
+        self.assertEqual(row["production_live_source_ids"], ["QM"])
+        self.assertEqual(row["observed_production_source_ids"], ["QM"])
+        self.assertEqual(row["registered_nonlive_source_ids"], [])
 
     def test_registered_manual_search_surface_is_not_observed_coverage(self):
         operational, candidates, channels = self._actual()
@@ -130,7 +150,7 @@ class SensorEvidenceChannelCoverageTests(unittest.TestCase):
     def test_stale_live_coverage_cannot_disagree_with_operational_registry(self):
         operational, candidates, channels = self._actual()
         stale = set(PRODUCTION_IDS)
-        stale.remove("CN_CUSTOMS")
+        stale.remove("QM")
         with self.assertRaisesRegex(ValueError, "diverges from operational registry"):
             reconcile_sensor_evidence_channel_coverage(
                 operational,

@@ -35,6 +35,18 @@ def _source(source_id, status="ACTIVE_LIVE_TEST"):
     )
 
 
+BASE_EIGHT = {
+    "CN_CUSTOMS": 3,
+    "CN_NBS": 4,
+    "CN_PBOC": 1,
+    "CN_PBOC_JS": 1,
+    "JS_STATS": 1,
+    "XZ_GGZY": 24,
+    "EJY365_XZ_LINKED": 29,
+    "XZ_GOV_FINANCE_DEMAND": 1,
+}
+
+
 class LiveObservationCoverageTests(unittest.TestCase):
     def test_registry_live_without_adapter_remains_explicit_gap(self):
         result = reconcile_live_observation_coverage(
@@ -96,84 +108,39 @@ class LiveObservationCoverageTests(unittest.TestCase):
                 adapter_support={"SUPPORTED": ("adapter",)},
             )
 
-    def test_pre_financing_and_gacc_ingest_keeps_support_separate_from_observation(self):
+    def test_pre_questmobile_ingest_keeps_new_live_source_explicitly_unobserved(self):
         operational = load_operational_sources(ROOT / "data/source_registry.csv")
         result = reconcile_live_observation_coverage(
             operational,
-            _assessment({
-                "CN_NBS": 4,
-                "CN_PBOC": 1,
-                "CN_PBOC_JS": 1,
-                "JS_STATS": 1,
-                "XZ_GGZY": 24,
-                "EJY365_XZ_LINKED": 29,
-            }),
+            _assessment(BASE_EIGHT),
         )
-        self.assertEqual(result["production_live_registry_count"], 8)
-        self.assertEqual(result["adapter_supported_production_count"], 8)
-        self.assertEqual(result["observed_production_count"], 6)
-        self.assertEqual(result["adapter_supported_not_observed_count"], 2)
-        self.assertEqual(
-            result["adapter_supported_not_observed_source_ids"],
-            ["CN_CUSTOMS", "XZ_GOV_FINANCE_DEMAND"],
-        )
-        self.assertEqual(result["no_unified_adapter_count"], 0)
-        self.assertEqual(result["observed_without_governed_support_count"], 0)
-
-    def test_pre_gacc_ingest_has_one_supported_not_observed_source(self):
-        operational = load_operational_sources(ROOT / "data/source_registry.csv")
-        result = reconcile_live_observation_coverage(
-            operational,
-            _assessment({
-                "CN_NBS": 4,
-                "CN_PBOC": 1,
-                "CN_PBOC_JS": 1,
-                "JS_STATS": 1,
-                "XZ_GGZY": 24,
-                "EJY365_XZ_LINKED": 29,
-                "XZ_GOV_FINANCE_DEMAND": 1,
-            }),
-        )
-        self.assertEqual(result["production_live_registry_count"], 8)
-        self.assertEqual(result["adapter_supported_production_count"], 8)
-        self.assertEqual(result["observed_production_count"], 7)
-        self.assertEqual(result["adapter_supported_not_observed_count"], 1)
-        self.assertEqual(result["adapter_supported_not_observed_source_ids"], ["CN_CUSTOMS"])
-        self.assertEqual(result["no_unified_adapter_count"], 0)
-
-    def test_post_gacc_ingest_reaches_eight_of_eight_without_claiming_domain_completeness(self):
-        operational = load_operational_sources(ROOT / "data/source_registry.csv")
-        result = reconcile_live_observation_coverage(
-            operational,
-            _assessment({
-                "CN_CUSTOMS": 3,
-                "CN_NBS": 4,
-                "CN_PBOC": 1,
-                "CN_PBOC_JS": 1,
-                "JS_STATS": 1,
-                "XZ_GGZY": 24,
-                "EJY365_XZ_LINKED": 29,
-                "XZ_GOV_FINANCE_DEMAND": 1,
-            }),
-        )
-        self.assertEqual(result["production_live_registry_count"], 8)
-        self.assertEqual(result["adapter_supported_production_count"], 8)
+        self.assertEqual(result["production_live_registry_count"], 9)
+        self.assertEqual(result["adapter_supported_production_count"], 9)
         self.assertEqual(result["observed_production_count"], 8)
+        self.assertEqual(result["adapter_supported_not_observed_count"], 1)
+        self.assertEqual(result["adapter_supported_not_observed_source_ids"], ["QM"])
+        self.assertEqual(result["no_unified_adapter_count"], 0)
+        qm = next(row for row in result["coverage_rows"] if row["source_id"] == "QM")
+        self.assertEqual(qm["coverage_state"], "ADAPTER_SUPPORTED_NOT_OBSERVED")
+        self.assertEqual(qm["adapter_names"], ["questmobile_public_research_observations"])
+
+    def test_post_questmobile_ingest_reaches_nine_of_nine_without_claiming_domain_completeness(self):
+        operational = load_operational_sources(ROOT / "data/source_registry.csv")
+        source_counts = dict(BASE_EIGHT)
+        source_counts["QM"] = 3
+        result = reconcile_live_observation_coverage(
+            operational,
+            _assessment(source_counts),
+        )
+        self.assertEqual(result["production_live_registry_count"], 9)
+        self.assertEqual(result["adapter_supported_production_count"], 9)
+        self.assertEqual(result["observed_production_count"], 9)
         self.assertEqual(result["adapter_supported_not_observed_count"], 0)
         self.assertEqual(result["no_unified_adapter_count"], 0)
         self.assertEqual(result["observed_without_governed_support_count"], 0)
         self.assertEqual(
             set(result["observed_production_source_ids"]),
-            {
-                "CN_CUSTOMS",
-                "CN_NBS",
-                "CN_PBOC",
-                "CN_PBOC_JS",
-                "JS_STATS",
-                "XZ_GGZY",
-                "EJY365_XZ_LINKED",
-                "XZ_GOV_FINANCE_DEMAND",
-            },
+            set(BASE_EIGHT) | {"QM"},
         )
         self.assertIn("OBSERVED_SOURCE_NE_COMPLETE_DOMAIN_COVERAGE", result["truth_boundaries"])
         self.assertIn("UNKNOWN_NE_PASS", result["truth_boundaries"])

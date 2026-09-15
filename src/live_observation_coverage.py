@@ -19,6 +19,7 @@ UNIFIED_ADAPTER_SUPPORT: dict[str, tuple[str, ...]] = {
     "CN_NBS": ("nbs_macro_watchlist_observations",),
     "CN_PBOC": ("pbc_money_flow_observations",),
     "CN_PBOC_JS": ("pbc_jiangsu_credit_observations",),
+    "QM": ("questmobile_public_research_observations",),
     "JS_STATS": ("jiangsu_money_flow_observations",),
     "XZ_GGZY": (
         "xuzhou_procurement_observations",
