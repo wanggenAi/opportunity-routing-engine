@@ -59,13 +59,30 @@ jobs:
                   raise SystemExit(f'unexpected PBC provenance URL: {meta["url"]}')
               if not meta.get('payload_sha256'):
                   raise SystemExit('missing PBC payload hash')
-          for metric in latest['metrics'].values():
+
+          metrics = latest.get('metrics') or {}
+          evidence = latest.get('metric_evidence') or {}
+          if set(metrics) != set(evidence):
+              raise SystemExit('PBC metric evidence coverage diverges from serialized metrics')
+          if latest.get('metric_count') != len(metrics):
+              raise SystemExit('PBC metric_count diverges from serialized metrics')
+          for key, metric in metrics.items():
               if metric.get('value') is None:
                   raise SystemExit('null metric must be omitted rather than serialized')
+              lineage = evidence.get(key) or {}
+              if not str(lineage.get('value_excerpt', '')).strip():
+                  raise SystemExit(f'PBC metric lacks source value excerpt: {key}')
+              if 'yoy_pct' in metric and not str(lineage.get('yoy_excerpt', '')).strip():
+                  raise SystemExit(f'PBC YoY metric lacks source change excerpt: {key}')
+
+          required = {'social_financing_stock', 'social_financing_flow_ytd', 'm2_balance', 'm1_balance', 'm0_balance'}
+          if not required.issubset(metrics):
+              raise SystemExit(f'PBC required metrics missing: {sorted(required - set(metrics))}')
           print('title=', latest['title'])
           print('release_date=', latest['release_date'])
           print('freshness=', data['freshness'])
-          print('metrics=', json.dumps(latest['metrics'], ensure_ascii=False, sort_keys=True))
+          print('metrics=', json.dumps(metrics, ensure_ascii=False, sort_keys=True))
+          print('metric_evidence=', json.dumps(evidence, ensure_ascii=False, sort_keys=True))
           PY
 
       - name: Upload PBC evidence artifact
