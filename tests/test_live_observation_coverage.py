@@ -96,7 +96,7 @@ class LiveObservationCoverageTests(unittest.TestCase):
                 adapter_support={"SUPPORTED": ("adapter",)},
             )
 
-    def test_pre_financing_demand_ingest_keeps_support_separate_from_observation(self):
+    def test_pre_financing_and_gacc_ingest_keeps_support_separate_from_observation(self):
         operational = load_operational_sources(ROOT / "data/source_registry.csv")
         result = reconcile_live_observation_coverage(
             operational,
@@ -110,18 +110,17 @@ class LiveObservationCoverageTests(unittest.TestCase):
             }),
         )
         self.assertEqual(result["production_live_registry_count"], 8)
-        self.assertEqual(result["adapter_supported_production_count"], 7)
+        self.assertEqual(result["adapter_supported_production_count"], 8)
         self.assertEqual(result["observed_production_count"], 6)
-        self.assertEqual(result["adapter_supported_not_observed_count"], 1)
+        self.assertEqual(result["adapter_supported_not_observed_count"], 2)
         self.assertEqual(
             result["adapter_supported_not_observed_source_ids"],
-            ["XZ_GOV_FINANCE_DEMAND"],
+            ["CN_CUSTOMS", "XZ_GOV_FINANCE_DEMAND"],
         )
-        self.assertEqual(result["no_unified_adapter_count"], 1)
-        self.assertEqual(result["no_unified_adapter_source_ids"], ["CN_CUSTOMS"])
+        self.assertEqual(result["no_unified_adapter_count"], 0)
         self.assertEqual(result["observed_without_governed_support_count"], 0)
 
-    def test_post_financing_demand_ingest_reaches_seven_of_eight(self):
+    def test_pre_gacc_ingest_has_one_supported_not_observed_source(self):
         operational = load_operational_sources(ROOT / "data/source_registry.csv")
         result = reconcile_live_observation_coverage(
             operational,
@@ -136,13 +135,37 @@ class LiveObservationCoverageTests(unittest.TestCase):
             }),
         )
         self.assertEqual(result["production_live_registry_count"], 8)
-        self.assertEqual(result["adapter_supported_production_count"], 7)
+        self.assertEqual(result["adapter_supported_production_count"], 8)
         self.assertEqual(result["observed_production_count"], 7)
+        self.assertEqual(result["adapter_supported_not_observed_count"], 1)
+        self.assertEqual(result["adapter_supported_not_observed_source_ids"], ["CN_CUSTOMS"])
+        self.assertEqual(result["no_unified_adapter_count"], 0)
+
+    def test_post_gacc_ingest_reaches_eight_of_eight_without_claiming_domain_completeness(self):
+        operational = load_operational_sources(ROOT / "data/source_registry.csv")
+        result = reconcile_live_observation_coverage(
+            operational,
+            _assessment({
+                "CN_CUSTOMS": 3,
+                "CN_NBS": 4,
+                "CN_PBOC": 1,
+                "CN_PBOC_JS": 1,
+                "JS_STATS": 1,
+                "XZ_GGZY": 24,
+                "EJY365_XZ_LINKED": 29,
+                "XZ_GOV_FINANCE_DEMAND": 1,
+            }),
+        )
+        self.assertEqual(result["production_live_registry_count"], 8)
+        self.assertEqual(result["adapter_supported_production_count"], 8)
+        self.assertEqual(result["observed_production_count"], 8)
         self.assertEqual(result["adapter_supported_not_observed_count"], 0)
-        self.assertEqual(result["no_unified_adapter_count"], 1)
+        self.assertEqual(result["no_unified_adapter_count"], 0)
+        self.assertEqual(result["observed_without_governed_support_count"], 0)
         self.assertEqual(
             set(result["observed_production_source_ids"]),
             {
+                "CN_CUSTOMS",
                 "CN_NBS",
                 "CN_PBOC",
                 "CN_PBOC_JS",
@@ -152,15 +175,8 @@ class LiveObservationCoverageTests(unittest.TestCase):
                 "XZ_GOV_FINANCE_DEMAND",
             },
         )
-        self.assertEqual(result["no_unified_adapter_source_ids"], ["CN_CUSTOMS"])
-        self.assertIn(
-            "ACTIVE_LIVE_REGISTRY_NE_OBSERVED_IN_FABRIC",
-            result["truth_boundaries"],
-        )
-        self.assertIn(
-            "MISSING_FABRIC_SOURCE_NE_ZERO_WORLD_ACTIVITY",
-            result["truth_boundaries"],
-        )
+        self.assertIn("OBSERVED_SOURCE_NE_COMPLETE_DOMAIN_COVERAGE", result["truth_boundaries"])
+        self.assertIn("UNKNOWN_NE_PASS", result["truth_boundaries"])
 
 
 if __name__ == "__main__":
