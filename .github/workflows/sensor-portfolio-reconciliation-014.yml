@@ -1,0 +1,92 @@
+name: sensor-portfolio-reconciliation-014
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/sensor_portfolio.py"
+      - "src/sensor_registry.py"
+      - "data/source_registry.csv"
+      - "data/sensor_candidates.json"
+      - "scripts/build_sensor_portfolio.py"
+      - "tests/test_sensor_portfolio.py"
+      - "docs/SENSOR_PORTFOLIO_RECONCILIATION.md"
+      - ".github/workflows/sensor-portfolio-reconciliation-014.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sensor-portfolio-reconciliation-014
+  cancel-in-progress: false
+
+jobs:
+  reconcile-sensor-portfolio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Build reconciled sensor portfolio
+        run: |
+          mkdir -p .local
+          python scripts/build_sensor_portfolio.py \
+            --source-registry data/source_registry.csv \
+            --candidates data/sensor_candidates.json \
+            --output .local/sensor_portfolio_reconciliation_014.json
+
+      - name: Prove fail-closed coverage accounting
+        shell: bash
+        run: |
+          set -euo pipefail
+          state=.local/sensor_portfolio_reconciliation_014.json
+          test "$(jq -r '.schema_version' "$state")" = "sensor-portfolio-reconciliation.v1"
+          test "$(jq -r '.candidate_registry_count' "$state")" = "4"
+          test "$(jq -r '.candidate_production_live_count' "$state")" = "0"
+          test "$(jq -r '.candidate_not_production_count' "$state")" = "4"
+          test "$(jq -r '.overlap_count' "$state")" = "0"
+          test "$(jq -r '.registry_mismatch_count' "$state")" = "0"
+          jq -e '.operational_registry_count >= 20' "$state" >/dev/null
+          jq -e '.operational_production_live_count > 0' "$state" >/dev/null
+          jq -e '.production_coverage_count == .operational_production_live_count' "$state" >/dev/null
+          jq -e '["CN_NBS","CN_PBOC","CN_PBOC_JS","CN_CUSTOMS","XZ_GOV_FINANCE_DEMAND","JS_STATS","XZ_GGZY","EJY365_XZ_LINKED"] - .production_coverage_source_ids == []' "$state" >/dev/null
+          jq -e '["BAIDU_INDEX","WEIBO_PUBLIC","XHS_PUBLIC","DOUYIN_PUBLIC","ZHIHU_PUBLIC"] - .registered_manual_source_ids == []' "$state" >/dev/null
+          jq -e '(["BAIDU_INDEX","WEIBO_PUBLIC","XHS_PUBLIC","DOUYIN_PUBLIC","ZHIHU_PUBLIC"] - (.registered_manual_source_ids - .production_coverage_source_ids)) == []' "$state" >/dev/null
+          jq -e '.candidate_only_source_ids | sort == ["INSTAGRAM_CHINA_AUX_CANDIDATE","REDDIT_CHINA_AUX_CANDIDATE","TELEGRAM_CHINA_AUX_CANDIDATE","X_CHINA_AUX_CANDIDATE"]' "$state" >/dev/null
+          jq -e '.truth_boundaries | index("DISCOVERED_SOURCE_NE_PRODUCTION_COVERAGE") != null and index("MANUAL_SURFACE_NE_AUTOMATED_LIVE_SENSOR") != null and index("REGISTERED_SOURCE_NE_LIVE_OBSERVATION") != null and index("REGISTRY_MISMATCH_NE_PASS") != null' "$state" >/dev/null
+          if jq -e '.. | objects | has("payer") or has("paid_need") or has("route_testable") or has("opportunity_score") or has("commercial_score") or has("active_version") or has("activated_at")' "$state" >/dev/null; then
+            echo "Sensor portfolio artifact leaked commercial truth or ontology activation" >&2
+            exit 1
+          fi
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Sensor Portfolio Reconciliation 014"
+            echo
+            jq -r '"- operational registry: `\(.operational_registry_count)`"' .local/sensor_portfolio_reconciliation_014.json
+            jq -r '"- production-live sensors: `\(.production_coverage_count)`"' .local/sensor_portfolio_reconciliation_014.json
+            jq -r '"- registered manual surfaces: `\(.registered_manual_count)`"' .local/sensor_portfolio_reconciliation_014.json
+            jq -r '"- dynamic candidates not in production: `\(.candidate_not_production_count)`"' .local/sensor_portfolio_reconciliation_014.json
+            jq -r '"- registry mismatches: `\(.registry_mismatch_count)`"' .local/sensor_portfolio_reconciliation_014.json
+            echo "- DISCOVERED/QUALIFIED/ACTIVE_READY/manual states do not count as production coverage"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload reconciled portfolio artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sensor-portfolio-reconciliation-014-state
+          path: .local/sensor_portfolio_reconciliation_014.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
