@@ -1,0 +1,92 @@
+name: psychology-dynamic-concepts-012
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/psychology_tracker.py"
+      - "tests/test_psychology_tracker.py"
+      - "scripts/build_psychology_dynamic_concept_dry_run.py"
+      - "docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md"
+      - ".github/workflows/psychology-dynamic-concepts-012.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: psychology-dynamic-concepts-012
+  cancel-in-progress: false
+
+jobs:
+  prove-open-psychology-concepts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Build synthetic dynamic concept proof
+        run: |
+          mkdir -p .local
+          python scripts/build_psychology_dynamic_concept_dry_run.py \
+            .local/psychology_dynamic_concepts_012.json
+
+      - name: Require open concept and truth boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          state=.local/psychology_dynamic_concepts_012.json
+          test "$(jq -r '.schema_version' "$state")" = "psychology-dynamic-concept-dry-run.v1"
+          test "$(jq -r '.synthetic_only' "$state")" = "true"
+          test "$(jq -r '.seed_concept_count' "$state")" = "12"
+          test "$(jq -r '.novel_concepts | length' "$state")" = "2"
+          jq -e '.novel_concepts_are_seed_nodes == [false, false]' "$state" >/dev/null
+          jq -e '.stable_semantic_primitives == ["BEHAVIOR", "MOTIVE", "PERCEPTION"]' "$state" >/dev/null
+          test "$(jq -r '.social_search_only.confidence' "$state")" = "LOW"
+          test "$(jq -r '.social_search_only.representative_share' "$state")" = "null"
+          test "$(jq -r '.triangulated.confidence' "$state")" = "HIGH"
+          test "$(jq -r '.triangulated.representative_share' "$state")" = "null"
+          test "$(jq -r '.primitive_isolation.perception_signal_count' "$state")" = "1"
+          test "$(jq -r '.primitive_isolation.motive_signal_count' "$state")" = "1"
+          test "$(jq -r '.primitive_isolation.perception_primitive' "$state")" = "PERCEPTION"
+          test "$(jq -r '.primitive_isolation.motive_primitive' "$state")" = "MOTIVE"
+          test "$(jq -r '.automatic_taxonomy_promotion_count' "$state")" = "0"
+          test "$(jq -r '.active_ontology_changes' "$state")" = "0"
+          test "$(jq -r '.taxonomy_promotion' "$state")" = "NOT_PROMOTED"
+          test "$(jq -r '.business_promotion' "$state")" = "NOT_PROMOTED"
+          jq -e '.truth_boundaries | index("SEED_TAXONOMY_NE_VALIDATION_BOUNDARY") != null and index("SOCIAL_SALIENCE_NE_POPULATION_SHARE") != null and index("PSYCHOLOGY_SIGNAL_NE_TAXONOMY_PROMOTION") != null' "$state" >/dev/null
+          if jq -e '.. | objects | has("payer") or has("paid_need") or has("route_testable") or has("opportunity_score") or has("commercial_score") or has("active_version") or has("activated_at")' "$state" >/dev/null; then
+            echo "Psychology proof leaked commercial truth or active ontology state" >&2
+            exit 1
+          fi
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Psychology Dynamic Concepts 012"
+            echo
+            jq -r '"- seed concepts remain advisory: `\(.seed_concept_count)`"' .local/psychology_dynamic_concepts_012.json
+            jq -r '"- novel concepts accepted outside seed taxonomy: `\(.novel_concepts | join(", "))`"' .local/psychology_dynamic_concepts_012.json
+            jq -r '"- social/search-only confidence: `\(.social_search_only.confidence)`"' .local/psychology_dynamic_concepts_012.json
+            jq -r '"- triangulated synthetic confidence: `\(.triangulated.confidence)`"' .local/psychology_dynamic_concepts_012.json
+            echo "- representative share remains null unless an explicit representative sample supplies it"
+            echo "- taxonomy/business promotion: NOT_PROMOTED"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload proof artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: psychology-dynamic-concepts-012-state
+          path: .local/psychology_dynamic_concepts_012.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
