@@ -9,17 +9,23 @@ on:
       - "jiangsu-money-flow-live"
       - "regional-data-live"
       - "resource-underuse-live"
+      - "discovery-data-live"
+      - "pbc-jiangsu-credit-live"
     types: [completed]
   push:
     branches: [main]
     paths:
       - "src/live_observation_adapters.py"
+      - "src/official_macro_observation_adapters.py"
       - "src/live_observation_pipeline.py"
       - "scripts/build_live_observation_fabric.py"
       - "scripts/resolve_live_observation_runs.sh"
       - "scripts/validate_live_observation_fabric.py"
       - "tests/test_live_observation_fabric.py"
+      - "tests/test_official_macro_observation_adapters.py"
+      - "tests/test_live_observation_run_lineage.py"
       - "docs/OBSERVATION_FABRIC.md"
+      - "docs/OFFICIAL_MACRO_OBSERVATION_ADAPTERS.md"
       - ".github/workflows/observation-fabric-live.yml"
 
 permissions:
@@ -80,6 +86,24 @@ jobs:
           repository: ${{ github.repository }}
           run-id: ${{ steps.runs.outputs.resource_run_id }}
 
+      - name: Download NBS macro evidence
+        uses: actions/download-artifact@v4
+        with:
+          name: nbs-live-evidence
+          path: .upstream/nbs
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: ${{ steps.runs.outputs.nbs_run_id }}
+
+      - name: Download PBC Jiangsu credit evidence
+        uses: actions/download-artifact@v4
+        with:
+          name: pbc-jiangsu-credit-evidence
+          path: .upstream/pbc_jiangsu
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          run-id: ${{ steps.runs.outputs.pbc_jiangsu_run_id }}
+
       - name: Restore previous durable Observation Fabric state
         if: steps.runs.outputs.previous_live_run_id != ''
         uses: actions/download-artifact@v4
@@ -109,6 +133,8 @@ jobs:
             --xuzhou-procurement .upstream/regional/xz_procurement_recent.json \
             --resource-underuse .upstream/resource/xz_public_asset_underuse.json \
             --resource-underuse .upstream/resource/xz_agency_asset_underuse.json \
+            --nbs-macro-watchlist .upstream/nbs/nbs_macro_watchlist_snapshot.json \
+            --pbc-jiangsu-credit .upstream/pbc_jiangsu/pbc_jiangsu_credit.json \
             --store .local/observation_fabric_live.sqlite \
             --output .local/observation_fabric_live_assessment.json \
             --current-jsonl .local/observation_fabric_current.jsonl \
@@ -127,6 +153,10 @@ jobs:
             args+=(--previous-assessment .previous/observation_fabric_live_assessment.json)
           fi
           python scripts/validate_live_observation_fabric.py "${args[@]}"
+          state=.local/observation_fabric_live_assessment.json
+          jq -e '.source_counts.CN_NBS > 0 and .source_counts.CN_PBOC_JS > 0' "$state" >/dev/null
+          jq -e '.epistemic_counts | keys == ["OBSERVED"]' "$state" >/dev/null
+          jq -e '.concepts | index("CN_RETAIL_CURRENT") != null and index("CN_RETAIL_YOY") != null and index("CN_PBOC_JS_TOTAL_DEPOSITS_100M_CNY") != null and index("CN_PBOC_JS_TOTAL_LOANS_100M_CNY") != null' "$state" >/dev/null
 
       - name: Publish operator summary
         run: |
@@ -139,7 +169,7 @@ jobs:
             jq -r '"- source counts: `\(.source_counts)`"' .local/observation_fabric_live_assessment.json
             jq -r '"- primitive counts: `\(.primitive_counts)`"' .local/observation_fabric_live_assessment.json
             echo
-            echo "Observation only: no payer, payment, availability, permission, route-testable or opportunity promotion occurs here."
+            echo "Observation only: macro aggregates are not individual demand; credit balances are not paid need; no payer, payment, availability, permission, route-testable or opportunity promotion occurs here."
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload durable live Observation Fabric state
