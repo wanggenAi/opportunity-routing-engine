@@ -23,6 +23,7 @@ from src.official_macro_observation_adapters import (
     nbs_macro_watchlist_observations,
     pbc_jiangsu_credit_observations,
 )
+from src.pbc_observation_adapter import pbc_money_flow_observations
 
 
 def _load_json(path: Path) -> dict:
@@ -39,6 +40,7 @@ def build(
     resource_paths: list[Path],
     nbs_path: Path,
     pbc_jiangsu_path: Path,
+    pbc_money_flow_path: Path,
     store_path: Path,
     output_path: Path,
     current_jsonl_path: Path,
@@ -54,6 +56,7 @@ def build(
         envelopes.extend(xuzhou_resource_underuse_observations(_load_json(path)))
     envelopes.extend(nbs_macro_watchlist_observations(_load_json(nbs_path)))
     envelopes.extend(pbc_jiangsu_credit_observations(_load_json(pbc_jiangsu_path)))
+    envelopes.extend(pbc_money_flow_observations(_load_json(pbc_money_flow_path)))
     if not envelopes:
         raise ValueError("live adapters produced no observations")
 
@@ -88,6 +91,7 @@ def main() -> int:
     parser.add_argument("--resource-underuse", type=Path, action="append", default=[])
     parser.add_argument("--nbs-macro-watchlist", type=Path, required=True)
     parser.add_argument("--pbc-jiangsu-credit", type=Path, required=True)
+    parser.add_argument("--pbc-money-flow", type=Path, required=True)
     parser.add_argument("--store", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--current-jsonl", type=Path, required=True)
@@ -99,6 +103,7 @@ def main() -> int:
         resource_paths=args.resource_underuse,
         nbs_path=args.nbs_macro_watchlist,
         pbc_jiangsu_path=args.pbc_jiangsu_credit,
+        pbc_money_flow_path=args.pbc_money_flow,
         store_path=args.store,
         output_path=args.output,
         current_jsonl_path=args.current_jsonl,
