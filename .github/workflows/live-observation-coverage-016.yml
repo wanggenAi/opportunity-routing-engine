@@ -85,23 +85,23 @@ jobs:
             --fabric-assessment .local/fabric/observation_fabric_live_assessment.json \
             --output .local/live_observation_coverage_016.json
 
-      - name: Prove current fail-closed coverage gap
+      - name: Prove all production-live sources are governed and observed
         shell: bash
         run: |
           set -euo pipefail
           state=.local/live_observation_coverage_016.json
           test "$(jq -r '.schema_version' "$state")" = "live-observation-coverage.v1"
           test "$(jq -r '.production_live_registry_count' "$state")" = "8"
-          test "$(jq -r '.adapter_supported_production_count' "$state")" = "7"
-          test "$(jq -r '.observed_production_count' "$state")" = "7"
+          test "$(jq -r '.adapter_supported_production_count' "$state")" = "8"
+          test "$(jq -r '.observed_production_count' "$state")" = "8"
           test "$(jq -r '.adapter_supported_not_observed_count' "$state")" = "0"
-          test "$(jq -r '.no_unified_adapter_count' "$state")" = "1"
+          test "$(jq -r '.no_unified_adapter_count' "$state")" = "0"
           test "$(jq -r '.observed_without_governed_support_count' "$state")" = "0"
           test "$(jq -r '.observed_nonproduction_count' "$state")" = "0"
-          jq -e '.observed_production_source_ids | sort == ["CN_NBS","CN_PBOC","CN_PBOC_JS","EJY365_XZ_LINKED","JS_STATS","XZ_GGZY","XZ_GOV_FINANCE_DEMAND"]' "$state" >/dev/null
-          jq -e '.no_unified_adapter_source_ids == ["CN_CUSTOMS"]' "$state" >/dev/null
-          jq -e '.latest_fabric_source_counts.CN_NBS > 0 and .latest_fabric_source_counts.CN_PBOC > 0 and .latest_fabric_source_counts.CN_PBOC_JS > 0 and .latest_fabric_source_counts.JS_STATS > 0 and .latest_fabric_source_counts.XZ_GGZY > 0 and .latest_fabric_source_counts.EJY365_XZ_LINKED > 0 and .latest_fabric_source_counts.XZ_GOV_FINANCE_DEMAND > 0' "$state" >/dev/null
-          jq -e '.truth_boundaries | index("ACTIVE_LIVE_REGISTRY_NE_OBSERVED_IN_FABRIC") != null and index("ADAPTER_SUPPORT_NE_CURRENT_OBSERVATION") != null and index("MISSING_FABRIC_SOURCE_NE_ZERO_WORLD_ACTIVITY") != null' "$state" >/dev/null
+          jq -e '.observed_production_source_ids | sort == ["CN_CUSTOMS","CN_NBS","CN_PBOC","CN_PBOC_JS","EJY365_XZ_LINKED","JS_STATS","XZ_GGZY","XZ_GOV_FINANCE_DEMAND"]' "$state" >/dev/null
+          jq -e '.adapter_supported_not_observed_source_ids == [] and .no_unified_adapter_source_ids == []' "$state" >/dev/null
+          jq -e '.latest_fabric_source_counts.CN_CUSTOMS > 0 and .latest_fabric_source_counts.CN_NBS > 0 and .latest_fabric_source_counts.CN_PBOC > 0 and .latest_fabric_source_counts.CN_PBOC_JS > 0 and .latest_fabric_source_counts.JS_STATS > 0 and .latest_fabric_source_counts.XZ_GGZY > 0 and .latest_fabric_source_counts.EJY365_XZ_LINKED > 0 and .latest_fabric_source_counts.XZ_GOV_FINANCE_DEMAND > 0' "$state" >/dev/null
+          jq -e '.truth_boundaries | index("ACTIVE_LIVE_REGISTRY_NE_OBSERVED_IN_FABRIC") != null and index("ADAPTER_SUPPORT_NE_CURRENT_OBSERVATION") != null and index("OBSERVED_SOURCE_NE_COMPLETE_DOMAIN_COVERAGE") != null and index("UNKNOWN_NE_PASS") != null' "$state" >/dev/null
           if jq -e '.. | objects | has("payer") or has("paid_need") or has("route_testable") or has("opportunity_score") or has("commercial_score") or has("active_version") or has("taxonomy_promotion") or has("business_promotion")' "$state" >/dev/null; then
             echo "Live observation coverage artifact leaked downstream truth" >&2
             exit 1
@@ -117,7 +117,7 @@ jobs:
             jq -r '"- actually observed in latest unified Fabric: `\(.observed_production_count)`"' .local/live_observation_coverage_016.json
             jq -r '"- production sources with no unified adapter: `\(.no_unified_adapter_count)`"' .local/live_observation_coverage_016.json
             jq -r '"- latest Fabric run: `${{ steps.resolve.outputs.run_id }}` / `${{ steps.resolve.outputs.head_sha }}`"'
-            echo "- registry liveness, adapter support and current observation remain separate states"
+            echo "- 8/8 means governed production-source ingestion, not complete domain/geographic coverage"
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload live observation coverage artifact

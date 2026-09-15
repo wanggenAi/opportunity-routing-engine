@@ -16,6 +16,7 @@ UPSTREAM_KEYS = (
     "pbc_jiangsu_credit",
     "pbc_money_flow",
     "xuzhou_financing_demand",
+    "gacc_trade_flow",
 )
 
 
@@ -92,6 +93,7 @@ def main() -> int:
         "CN_PBOC_JS",
         "CN_PBOC",
         "XZ_GOV_FINANCE_DEMAND",
+        "CN_CUSTOMS",
     }
     missing = required_sources - set(data.get("source_counts", {}))
     if missing:
@@ -133,6 +135,14 @@ def main() -> int:
     ):
         if concept not in concepts:
             raise SystemExit(f"required Xuzhou financing-demand observation is missing: {concept}")
+    for concept in (
+        "CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_EXPORTS_YTD",
+        "CN_CUSTOMS_IMPORTER_EXPORTER_LOCATION_IMPORTS_YTD",
+        "CN_CUSTOMS_SPECIFIC_AREA_TOTAL_YTD",
+        "CN_CUSTOMS_SPECIFIC_AREA_EXPORTS_YOY",
+    ):
+        if concept not in concepts:
+            raise SystemExit(f"required GACC trade-flow observation is missing: {concept}")
 
     upstream_run_ids(data)
 
@@ -146,8 +156,6 @@ def main() -> int:
 
     if args.previous_assessment is not None:
         previous = _load(args.previous_assessment)
-        # Older durable states may predate newly governed upstream families. They are
-        # valid bootstrap history, but once the current manifest exists it may never regress.
         previous_runs = previous.get("upstream_manifest", {}).get("upstream_runs", {})
         if isinstance(previous_runs, dict) and set(previous_runs) == set(UPSTREAM_KEYS):
             validate_upstream_monotonicity(data, previous)

@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+from src.gacc_trade_observation_adapter import gacc_trade_flow_observations
 from src.live_observation_adapters import (
     jiangsu_money_flow_observations,
     xuzhou_procurement_observations,
@@ -45,6 +46,7 @@ def build(
     pbc_jiangsu_path: Path,
     pbc_money_flow_path: Path,
     xuzhou_financing_demand_path: Path,
+    gacc_trade_flow_path: Path,
     store_path: Path,
     output_path: Path,
     current_jsonl_path: Path,
@@ -64,6 +66,7 @@ def build(
     envelopes.extend(
         xuzhou_financing_demand_observations(_load_json(xuzhou_financing_demand_path))
     )
+    envelopes.extend(gacc_trade_flow_observations(_load_json(gacc_trade_flow_path)))
     if not envelopes:
         raise ValueError("live adapters produced no observations")
 
@@ -100,6 +103,7 @@ def main() -> int:
     parser.add_argument("--pbc-jiangsu-credit", type=Path, required=True)
     parser.add_argument("--pbc-money-flow", type=Path, required=True)
     parser.add_argument("--xuzhou-financing-demand", type=Path, required=True)
+    parser.add_argument("--gacc-trade-flow", type=Path, required=True)
     parser.add_argument("--store", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--current-jsonl", type=Path, required=True)
@@ -113,6 +117,7 @@ def main() -> int:
         pbc_jiangsu_path=args.pbc_jiangsu_credit,
         pbc_money_flow_path=args.pbc_money_flow,
         xuzhou_financing_demand_path=args.xuzhou_financing_demand,
+        gacc_trade_flow_path=args.gacc_trade_flow,
         store_path=args.store,
         output_path=args.output,
         current_jsonl_path=args.current_jsonl,
