@@ -19,6 +19,10 @@ from src.live_observation_adapters import (
 )
 from src.live_observation_pipeline import ingest_live_observations, summarize_live_store
 from src.observation_store import SQLiteObservationStore
+from src.official_macro_observation_adapters import (
+    nbs_macro_watchlist_observations,
+    pbc_jiangsu_credit_observations,
+)
 
 
 def _load_json(path: Path) -> dict:
@@ -33,6 +37,8 @@ def build(
     jiangsu_path: Path,
     procurement_path: Path,
     resource_paths: list[Path],
+    nbs_path: Path,
+    pbc_jiangsu_path: Path,
     store_path: Path,
     output_path: Path,
     current_jsonl_path: Path,
@@ -46,6 +52,8 @@ def build(
     envelopes.extend(xuzhou_procurement_observations(_load_json(procurement_path)))
     for path in resource_paths:
         envelopes.extend(xuzhou_resource_underuse_observations(_load_json(path)))
+    envelopes.extend(nbs_macro_watchlist_observations(_load_json(nbs_path)))
+    envelopes.extend(pbc_jiangsu_credit_observations(_load_json(pbc_jiangsu_path)))
     if not envelopes:
         raise ValueError("live adapters produced no observations")
 
@@ -78,6 +86,8 @@ def main() -> int:
     parser.add_argument("--jiangsu-money-flow", type=Path, required=True)
     parser.add_argument("--xuzhou-procurement", type=Path, required=True)
     parser.add_argument("--resource-underuse", type=Path, action="append", default=[])
+    parser.add_argument("--nbs-macro-watchlist", type=Path, required=True)
+    parser.add_argument("--pbc-jiangsu-credit", type=Path, required=True)
     parser.add_argument("--store", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--current-jsonl", type=Path, required=True)
@@ -87,6 +97,8 @@ def main() -> int:
         jiangsu_path=args.jiangsu_money_flow,
         procurement_path=args.xuzhou_procurement,
         resource_paths=args.resource_underuse,
+        nbs_path=args.nbs_macro_watchlist,
+        pbc_jiangsu_path=args.pbc_jiangsu_credit,
         store_path=args.store,
         output_path=args.output,
         current_jsonl_path=args.current_jsonl,

@@ -17,6 +17,8 @@ from src.sensor_portfolio import OperationalSource
 # Governed source identities currently understood by the unified adapter layer.
 # This is intentionally narrower than "anything the generic function can parse".
 UNIFIED_ADAPTER_SUPPORT: dict[str, tuple[str, ...]] = {
+    "CN_NBS": ("nbs_macro_watchlist_observations",),
+    "CN_PBOC_JS": ("pbc_jiangsu_credit_observations",),
     "JS_STATS": ("jiangsu_money_flow_observations",),
     "XZ_GGZY": (
         "xuzhou_procurement_observations",
