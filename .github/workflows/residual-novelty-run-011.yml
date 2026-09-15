@@ -1,0 +1,109 @@
+name: residual-novelty-run-011
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/residual_novelty.py"
+      - "src/observed_patterns.py"
+      - "src/emergent_taxonomy.py"
+      - "src/observation_fabric.py"
+      - "scripts/build_residual_novelty_run.py"
+      - "scripts/build_broad_discovery_observation_review.py"
+      - "tests/test_residual_novelty.py"
+      - "data/research_missions/china_primary_broad_discovery.json"
+      - "data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14/**"
+      - "docs/RESIDUAL_NOVELTY_ENGINE.md"
+      - ".github/workflows/residual-novelty-run-011.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: residual-novelty-run-011
+  cancel-in-progress: false
+
+jobs:
+  build-residual-novelty:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Build Run 003 residual novelty state
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .local
+          python scripts/build_residual_novelty_run.py \
+            --mission data/research_missions/china_primary_broad_discovery.json \
+            --dynamic-terms data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14/dynamic_terms.json \
+            --captures data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14/captures.json \
+            --reviewed-dir data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14/reviewed \
+            --alignments data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14/concept_alignments_reviewed.json \
+            --output .local/residual_novelty_run_011.json
+
+      - name: Require residual and novelty truth boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          state=.local/residual_novelty_run_011.json
+          test "$(jq -r '.schema_version' "$state")" = "residual-novelty.v1"
+          test "$(jq -r '.source_current_observation_count' "$state")" = "18"
+          test "$(jq -r '.exact_observed_pattern_count' "$state")" = "0"
+          test "$(jq -r '.exact_unbound_pattern_count' "$state")" = "18"
+          test "$(jq -r '.residual_atom_count' "$state")" = "18"
+          test "$(jq -r '.reviewed_alignment_count' "$state")" = "5"
+          test "$(jq -r '.reviewed_alignment_state_counts.CANDIDATE' "$state")" = "3"
+          test "$(jq -r '.reviewed_alignment_state_counts.PROMOTION_REVIEW_READY' "$state")" = "2"
+          test "$(jq -r '.reviewed_clustered_residual_atom_count' "$state")" = "17"
+          test "$(jq -r '.unclustered_residual_atom_count' "$state")" = "1"
+          test "$(jq -r '.model_suggestion_count' "$state")" = "0"
+          test "$(jq -r '.automatic_alignment_creation_count' "$state")" = "0"
+          test "$(jq -r '.automatic_taxonomy_promotion_count' "$state")" = "0"
+          test "$(jq -r '.active_ontology_changes' "$state")" = "0"
+          test "$(jq -r '.taxonomy_promotion' "$state")" = "NOT_PROMOTED"
+          test "$(jq -r '.business_promotion' "$state")" = "NOT_PROMOTED"
+          jq -e '.unclustered_residuals | length == 1 and .[0].primitive == "CONSTRAINT" and .[0].concept == "TRADEIN_SUBSIDY_DEMAND_CONTAMINATION" and .[0].epistemic_counts.REPORTED == 1' "$state" >/dev/null
+          jq -e '[.residual_atoms[] | (.exact_pattern_state == "UNBOUND" and .taxonomy_promotion == "NOT_PROMOTED" and .business_promotion == "NOT_PROMOTED")] | all' "$state" >/dev/null
+          jq -e '[.reviewed_clusters[] | (.semantic_coherence_state == "EXPLICITLY_REVIEWED" and .taxonomy_promotion == "NOT_PROMOTED" and .business_promotion == "NOT_PROMOTED")] | all' "$state" >/dev/null
+          jq -e '.truth_boundaries | index("MODEL_CLUSTER_SUGGESTION_NE_REVIEWED_ALIGNMENT") != null and index("EVIDENCE_GATED_CLUSTER_NE_SEMANTIC_COHERENCE") != null and index("UNCLUSTERED_RESIDUAL_MUST_REMAIN_VISIBLE") != null' "$state" >/dev/null
+          if jq -e '.. | objects | has("payer") or has("paid_need") or has("opportunity_score") or has("commercial_score") or has("route_testable") or has("active_version") or has("activated_at")' "$state" >/dev/null; then
+            echo "Residual novelty artifact leaked commercial truth or active ontology state" >&2
+            exit 1
+          fi
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# Residual / Novelty Run 011"
+            echo
+            jq -r '"- exact UNBOUND patterns: `\(.exact_unbound_pattern_count)`"' .local/residual_novelty_run_011.json
+            jq -r '"- residual atoms preserved: `\(.residual_atom_count)`"' .local/residual_novelty_run_011.json
+            jq -r '"- explicitly reviewed alignments: `\(.reviewed_alignment_count)`"' .local/residual_novelty_run_011.json
+            jq -r '"- residual atoms covered by reviewed alignments: `\(.reviewed_clustered_residual_atom_count)`"' .local/residual_novelty_run_011.json
+            jq -r '"- unclustered residual atoms kept visible: `\(.unclustered_residual_atom_count)`"' .local/residual_novelty_run_011.json
+            echo
+            jq -r '.unclustered_residuals[] | "- residual kept open: `\(.primitive) / \(.concept)` — epistemic `\(.epistemic_counts)`"' .local/residual_novelty_run_011.json
+            echo
+            echo "Model grouping suggestions can be evidence-gated but cannot auto-create reviewed alignments or taxonomy. Run 003 creates no active ontology or business promotion."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload residual novelty artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: residual-novelty-run-011-state
+          path: .local/residual_novelty_run_011.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
