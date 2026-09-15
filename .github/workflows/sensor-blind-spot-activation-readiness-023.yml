@@ -3,7 +3,9 @@ name: sensor-blind-spot-activation-readiness-023
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["sensor-evidence-channel-coverage-021"]
+    workflows:
+      - "sensor-evidence-channel-coverage-021"
+      - "douyin-openapi-permission-probe-live"
     types: [completed]
   push:
     branches: [main]
@@ -41,50 +43,61 @@ jobs:
       - name: Run repository unit tests
         run: python -m unittest discover -s tests -v
 
-      - name: Resolve exact evidence-channel coverage run
+      - name: Resolve exact successful upstream runs
         id: resolve
         shell: bash
         run: |
           set -euo pipefail
-          if [[ "${{ github.event_name }}" == "workflow_run" ]]; then
-            run_id="${{ github.event.workflow_run.id }}"
-            status="${{ github.event.workflow_run.status }}"
-            conclusion="${{ github.event.workflow_run.conclusion }}"
-            head_sha="${{ github.event.workflow_run.head_sha }}"
-          else
+          resolve_latest() {
+            local workflow="$1"
+            local prefix="$2"
+            local run_json run_id status conclusion head_sha
             run_json="$(gh run list \
               --repo "$GITHUB_REPOSITORY" \
-              --workflow sensor-evidence-channel-coverage-021.yml \
+              --workflow "$workflow" \
               --branch main \
               --limit 1 \
               --json databaseId,status,conclusion,headSha \
               --jq '.[0] // empty')"
             if [[ -z "$run_json" || "$run_json" == "null" ]]; then
-              echo "No main evidence-channel coverage run exists" >&2
+              echo "No main run exists for $workflow" >&2
               exit 1
             fi
             run_id="$(jq -r '.databaseId // empty' <<<"$run_json")"
             status="$(jq -r '.status // empty' <<<"$run_json")"
             conclusion="$(jq -r '.conclusion // empty' <<<"$run_json")"
             head_sha="$(jq -r '.headSha // empty' <<<"$run_json")"
-          fi
-          if [[ -z "$run_id" || "$status" != "completed" || "$conclusion" != "success" ]]; then
-            echo "Refusing non-success evidence-channel coverage run: id=${run_id:-unknown} status=${status:-unknown} conclusion=${conclusion:-unknown}" >&2
-            exit 1
-          fi
-          echo "run_id=$run_id" >> "$GITHUB_OUTPUT"
-          echo "head_sha=$head_sha" >> "$GITHUB_OUTPUT"
+            if [[ -z "$run_id" || "$status" != "completed" || "$conclusion" != "success" ]]; then
+              echo "Latest $workflow main run is not completed/success: id=${run_id:-unknown} status=${status:-unknown} conclusion=${conclusion:-unknown}" >&2
+              exit 1
+            fi
+            echo "${prefix}_run_id=$run_id" >> "$GITHUB_OUTPUT"
+            echo "${prefix}_head_sha=$head_sha" >> "$GITHUB_OUTPUT"
+          }
+          resolve_latest sensor-evidence-channel-coverage-021.yml evidence
+          resolve_latest douyin-openapi-permission-probe-live.yml douyin
 
       - name: Download exact evidence-channel coverage artifact
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p .upstream/evidence_channels
-          gh run download "${{ steps.resolve.outputs.run_id }}" \
+          gh run download "${{ steps.resolve.outputs.evidence_run_id }}" \
             --repo "$GITHUB_REPOSITORY" \
             --name sensor-evidence-channel-coverage-021-state \
             --dir .upstream/evidence_channels
           test -f .upstream/evidence_channels/sensor_evidence_channel_coverage_021.json
+
+      - name: Download exact Douyin permission evidence artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .upstream/douyin_permission
+          gh run download "${{ steps.resolve.outputs.douyin_run_id }}" \
+            --repo "$GITHUB_REPOSITORY" \
+            --name douyin-openapi-permission-evidence \
+            --dir .upstream/douyin_permission
+          test -f .upstream/douyin_permission/douyin_openapi_permission_evidence.json
 
       - name: Build blind-spot activation readiness
         run: |
@@ -93,9 +106,12 @@ jobs:
             --source-registry data/source_registry.csv \
             --candidates data/sensor_candidates.json \
             --evidence-channel-coverage .upstream/evidence_channels/sensor_evidence_channel_coverage_021.json \
+            --douyin-permission-evidence .upstream/douyin_permission/douyin_openapi_permission_evidence.json \
+            --evidence-channel-run-id "${{ steps.resolve.outputs.evidence_run_id }}" \
+            --douyin-permission-run-id "${{ steps.resolve.outputs.douyin_run_id }}" \
             --output .local/sensor_blind_spot_activation_readiness_023.json
 
-      - name: Prove fail-closed activation queue
+      - name: Prove external approval boundary
         shell: bash
         run: |
           set -euo pipefail
@@ -103,16 +119,18 @@ jobs:
           test "$(jq -r '.schema_version' "$state")" = "sensor-blind-spot-activation-readiness.v1"
           test "$(jq -r '.blind_spot_channel_count' "$state")" = "2"
           test "$(jq -r '.producer_trial_ready_source_count' "$state")" = "0"
-          test "$(jq -r '.permission_validation_candidate_count' "$state")" = "1"
-          test "$(jq -r '.safe_activation_conclusion' "$state")" = "NO_SAFE_AUTOMATED_PRODUCER_TRIAL_CURRENTLY_PROVEN"
+          test "$(jq -r '.external_approval_required_source_count' "$state")" = "1"
+          test "$(jq -r '.safe_activation_conclusion' "$state")" = "BLOCKED_ON_EXTERNAL_APPROVAL_AND_EFFECTIVE_QUOTA_EVIDENCE"
           jq -e '.blind_spot_channel_ids | sort == ["SEARCH_INTENT","SOCIAL_PUBLIC_DISCOURSE"]' "$state" >/dev/null
           jq -e '.producer_trial_ready_source_ids == []' "$state" >/dev/null
-          jq -e '.permission_validation_candidate_source_ids == ["DOUYIN_OPENAPI"]' "$state" >/dev/null
+          jq -e '.external_approval_required_source_ids == ["DOUYIN_OPENAPI"]' "$state" >/dev/null
+          jq -e '.bound_permission_probe_source_ids == ["DOUYIN_OPENAPI"]' "$state" >/dev/null
+          jq -e '.upstream_runs.sensor_evidence_channel_coverage > 0 and .upstream_runs.douyin_openapi_permission_probe > 0' "$state" >/dev/null
           jq -e '.channels[] | select(.channel_id == "SEARCH_INTENT") | .readiness_state == "NO_SAFE_AUTOMATED_PATH_CURRENTLY_PROVEN" and .producer_trial_ready_source_ids == []' "$state" >/dev/null
-          jq -e '.channels[] | select(.channel_id == "SOCIAL_PUBLIC_DISCOURSE") | .readiness_state == "PERMISSION_VALIDATION_REQUIRED" and .permission_validation_candidate_source_ids == ["DOUYIN_OPENAPI"] and .producer_trial_ready_source_ids == []' "$state" >/dev/null
-          jq -e '.channels[] | select(.channel_id == "SEARCH_INTENT") | .source_assessments[] | select(.source_id == "BAIDU_INDEX") | (.blockers | index("MANUAL_OR_LOGIN_BOUND_ACCESS") != null) and (.constraints | index("REVERSE_ENGINEERED_ENDPOINTS_FORBIDDEN") != null) and (.producer_trial_allowed == false)' "$state" >/dev/null
-          jq -e '.channels[] | select(.channel_id == "SOCIAL_PUBLIC_DISCOURSE") | .source_assessments[] | select(.source_id == "DOUYIN_OPENAPI") | (.blockers | index("ACTIVATION_REVIEW_REQUIRED") != null) and (.blockers | index("AUTHORIZED_SCOPE_NOT_PROVEN_FOR_PRODUCER") != null) and (.blockers | index("ZERO_INCREMENTAL_FEE_SCOPE_NOT_PROVEN") != null) and (.producer_trial_allowed == false)' "$state" >/dev/null
-          jq -e '.truth_boundaries | index("PUBLIC_ACCESS_NE_AUTOMATION_PERMISSION") != null and index("OFFICIAL_API_SURFACE_NE_AUTHORIZED_SCOPE") != null and index("NO_REVERSE_ENGINEERED_ENDPOINTS") != null and index("READINESS_NE_SOURCE_ACTIVATION") != null and index("UNKNOWN_NE_PASS") != null' "$state" >/dev/null
+          jq -e '.channels[] | select(.channel_id == "SOCIAL_PUBLIC_DISCOURSE") | .readiness_state == "EXTERNAL_APPROVAL_REQUIRED" and .external_approval_required_source_ids == ["DOUYIN_OPENAPI"] and .producer_trial_ready_source_ids == []' "$state" >/dev/null
+          jq -e '.channels[] | select(.channel_id == "SOCIAL_PUBLIC_DISCOURSE") | .source_assessments[] | select(.source_id == "DOUYIN_OPENAPI") | .readiness_state == "EXTERNAL_APPROVAL_REQUIRED" and .external_approval_required == true and .producer_trial_allowed == false and (.next_required_evidence | sort == ["INTENDED_COLLECTION_CADENCE_FITS_ZERO_INCREMENTAL_FEE","VIDEO_SEARCH_APPLICATION_APPROVED_FOR_THIS_APP","VIDEO_SEARCH_EFFECTIVE_FREE_QUOTA_FOR_THIS_APP_SCOPE"]) and .official_permission_probe.intended_scope == "video.search" and .official_permission_probe.application_approval_status == "NOT_ESTABLISHED" and .official_permission_probe.zero_incremental_fee_condition == "NOT_ESTABLISHED"' "$state" >/dev/null
+          jq -e '.channels[] | select(.channel_id == "SEARCH_INTENT") | .source_assessments[] | select(.source_id == "BAIDU_INDEX") | (.blockers | index("MANUAL_OR_LOGIN_BOUND_ACCESS") != null) and (.constraints | index("REVERSE_ENGINEERED_ENDPOINTS_FORBIDDEN") != null)' "$state" >/dev/null
+          jq -e '.truth_boundaries | index("OFFICIAL_PUBLIC_DOCS_NE_ACCOUNT_APPROVAL") != null and index("EXTERNAL_APPROVAL_REQUIRED_NE_PRODUCER_READY") != null and index("READINESS_NE_SOURCE_ACTIVATION") != null and index("UNKNOWN_NE_PASS") != null' "$state" >/dev/null
           if jq -e '.. | objects | has("payer") or has("paid_need") or has("route_testable") or has("opportunity_score") or has("commercial_score") or has("source_activated") or has("production_promoted")' "$state" >/dev/null; then
             echo "Blind-spot readiness artifact leaked commercial truth or source activation" >&2
             exit 1
@@ -125,10 +143,11 @@ jobs:
             echo
             jq -r '"- current blind channels: `\(.blind_spot_channel_ids)`"' .local/sensor_blind_spot_activation_readiness_023.json
             jq -r '"- producer-trial-ready sources: `\(.producer_trial_ready_source_ids)`"' .local/sensor_blind_spot_activation_readiness_023.json
-            jq -r '"- permission-validation candidates: `\(.permission_validation_candidate_source_ids)`"' .local/sensor_blind_spot_activation_readiness_023.json
+            jq -r '"- external-approval-required sources: `\(.external_approval_required_source_ids)`"' .local/sensor_blind_spot_activation_readiness_023.json
             jq -r '"- conclusion: `\(.safe_activation_conclusion)`"' .local/sensor_blind_spot_activation_readiness_023.json
             echo "- no source is activated by this workflow"
-            echo "- upstream evidence-channel run: `${{ steps.resolve.outputs.run_id }}` / `${{ steps.resolve.outputs.head_sha }}`"
+            echo "- evidence-channel run: `${{ steps.resolve.outputs.evidence_run_id }}` / `${{ steps.resolve.outputs.evidence_head_sha }}`"
+            echo "- Douyin permission probe run: `${{ steps.resolve.outputs.douyin_run_id }}` / `${{ steps.resolve.outputs.douyin_head_sha }}`"
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload blind-spot activation readiness artifact

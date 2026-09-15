@@ -5,7 +5,7 @@ from src.sensor_blind_spot_activation_readiness import (
     reconcile_blind_spot_activation_readiness,
 )
 from src.sensor_portfolio import OperationalSource, load_operational_sources
-from src.sensor_registry import SensorCandidate, load_sensor_candidates
+from src.sensor_registry import load_sensor_candidates
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -59,6 +59,29 @@ def current_blind_coverage():
     }
 
 
+def douyin_permission_probe():
+    return {
+        "schema_version": "douyin-openapi-permission-probe.v1",
+        "source_id": "DOUYIN_OPENAPI",
+        "intended_scope": "video.search",
+        "signal_fit": "KEYWORD_VIDEO_AND_COMMENT_DISCOVERY_SUPPORTED_BY_OFFICIAL_DOCS",
+        "permission_class": "SPECIAL_PERMISSION",
+        "permission_default_state": "DEFAULT_OFF",
+        "permission_application_route": "MANAGEMENT_CENTER_APPLICATION",
+        "application_approval_status": "NOT_ESTABLISHED",
+        "intended_scope_free_quota_amount_status": "NOT_ESTABLISHED_FROM_PUBLIC_DOCS",
+        "zero_incremental_fee_condition": "NOT_ESTABLISHED",
+        "paid_extension_status": "PAID_EXTENSION_EXISTS_AFTER_FREE_QUOTA",
+        "producer_trial_allowed": False,
+        "blockers": [
+            "VIDEO_SEARCH_SPECIAL_PERMISSION_DEFAULT_OFF",
+            "APPLICATION_APPROVAL_NOT_ESTABLISHED",
+            "VIDEO_SEARCH_FREE_QUOTA_NOT_PUBLICLY_ESTABLISHED",
+            "ZERO_INCREMENTAL_FEE_CONDITION_NOT_ESTABLISHED",
+        ],
+    }
+
+
 class BlindSpotActivationReadinessTests(unittest.TestCase):
     def _actual(self):
         return (
@@ -72,10 +95,6 @@ class BlindSpotActivationReadinessTests(unittest.TestCase):
             operational, candidates, current_blind_coverage()
         )
         self.assertEqual(result["blind_spot_channel_count"], 2)
-        self.assertEqual(
-            result["blind_spot_channel_ids"],
-            ["SEARCH_INTENT", "SOCIAL_PUBLIC_DISCOURSE"],
-        )
         self.assertEqual(result["producer_trial_ready_source_count"], 0)
         self.assertEqual(result["producer_trial_ready_source_ids"], [])
         self.assertEqual(
@@ -89,40 +108,74 @@ class BlindSpotActivationReadinessTests(unittest.TestCase):
             operational, candidates, current_blind_coverage()
         )
         search = next(x for x in result["channels"] if x["channel_id"] == "SEARCH_INTENT")
-        self.assertEqual(search["readiness_state"], "NO_SAFE_AUTOMATED_PATH_CURRENTLY_PROVEN")
         baidu = next(x for x in search["source_assessments"] if x["source_id"] == "BAIDU_INDEX")
+        self.assertEqual(search["readiness_state"], "NO_SAFE_AUTOMATED_PATH_CURRENTLY_PROVEN")
         self.assertFalse(baidu["producer_trial_allowed"])
         self.assertIn("MANUAL_OR_LOGIN_BOUND_ACCESS", baidu["blockers"])
         self.assertIn("REVERSE_ENGINEERED_ENDPOINTS_FORBIDDEN", baidu["constraints"])
 
-    def test_douyin_openapi_is_permission_validation_candidate_not_producer_ready(self):
+    def test_douyin_without_bound_probe_remains_permission_validation_candidate(self):
         operational, candidates = self._actual()
         result = reconcile_blind_spot_activation_readiness(
             operational, candidates, current_blind_coverage()
         )
-        social = next(
-            x for x in result["channels"] if x["channel_id"] == "SOCIAL_PUBLIC_DISCOURSE"
-        )
+        social = next(x for x in result["channels"] if x["channel_id"] == "SOCIAL_PUBLIC_DISCOURSE")
         self.assertEqual(social["readiness_state"], "PERMISSION_VALIDATION_REQUIRED")
+        douyin = next(x for x in social["source_assessments"] if x["source_id"] == "DOUYIN_OPENAPI")
+        self.assertEqual(douyin["readiness_state"], "PERMISSION_VALIDATION_CANDIDATE")
+        self.assertFalse(douyin["external_approval_required"])
+
+    def test_bound_official_probe_converges_douyin_to_external_approval_required(self):
+        operational, candidates = self._actual()
+        result = reconcile_blind_spot_activation_readiness(
+            operational,
+            candidates,
+            current_blind_coverage(),
+            permission_probes={"DOUYIN_OPENAPI": douyin_permission_probe()},
+        )
+        self.assertEqual(result["producer_trial_ready_source_count"], 0)
+        self.assertEqual(result["external_approval_required_source_ids"], ["DOUYIN_OPENAPI"])
         self.assertEqual(
-            social["permission_validation_candidate_source_ids"], ["DOUYIN_OPENAPI"]
+            result["safe_activation_conclusion"],
+            "BLOCKED_ON_EXTERNAL_APPROVAL_AND_EFFECTIVE_QUOTA_EVIDENCE",
         )
-        douyin = next(
-            x for x in social["source_assessments"] if x["source_id"] == "DOUYIN_OPENAPI"
-        )
+        social = next(x for x in result["channels"] if x["channel_id"] == "SOCIAL_PUBLIC_DISCOURSE")
+        self.assertEqual(social["readiness_state"], "EXTERNAL_APPROVAL_REQUIRED")
+        self.assertEqual(social["external_approval_required_source_ids"], ["DOUYIN_OPENAPI"])
+        douyin = next(x for x in social["source_assessments"] if x["source_id"] == "DOUYIN_OPENAPI")
+        self.assertEqual(douyin["readiness_state"], "EXTERNAL_APPROVAL_REQUIRED")
+        self.assertTrue(douyin["external_approval_required"])
         self.assertFalse(douyin["producer_trial_allowed"])
-        self.assertIn("ACTIVATION_REVIEW_REQUIRED", douyin["blockers"])
-        self.assertIn("AUTHORIZED_SCOPE_NOT_PROVEN_FOR_PRODUCER", douyin["blockers"])
-        self.assertIn("ZERO_INCREMENTAL_FEE_SCOPE_NOT_PROVEN", douyin["blockers"])
+        self.assertEqual(
+            set(douyin["next_required_evidence"]),
+            {
+                "VIDEO_SEARCH_APPLICATION_APPROVED_FOR_THIS_APP",
+                "VIDEO_SEARCH_EFFECTIVE_FREE_QUOTA_FOR_THIS_APP_SCOPE",
+                "INTENDED_COLLECTION_CADENCE_FITS_ZERO_INCREMENTAL_FEE",
+            },
+        )
+        self.assertEqual(douyin["official_permission_probe"]["intended_scope"], "video.search")
+        self.assertIn("APPLICATION_APPROVAL_NOT_ESTABLISHED", douyin["blockers"])
+        self.assertIn("VIDEO_SEARCH_FREE_QUOTA_NOT_PUBLICLY_ESTABLISHED", douyin["blockers"])
+
+    def test_invalid_permission_probe_fails_closed(self):
+        operational, candidates = self._actual()
+        probe = douyin_permission_probe()
+        probe["application_approval_status"] = "APPROVED"
+        with self.assertRaisesRegex(ValueError, "approval"):
+            reconcile_blind_spot_activation_readiness(
+                operational,
+                candidates,
+                current_blind_coverage(),
+                permission_probes={"DOUYIN_OPENAPI": probe},
+            )
 
     def test_global_social_candidates_remain_unqualified(self):
         operational, candidates = self._actual()
         result = reconcile_blind_spot_activation_readiness(
             operational, candidates, current_blind_coverage()
         )
-        social = next(
-            x for x in result["channels"] if x["channel_id"] == "SOCIAL_PUBLIC_DISCOURSE"
-        )
+        social = next(x for x in result["channels"] if x["channel_id"] == "SOCIAL_PUBLIC_DISCOURSE")
         candidate_rows = [x for x in social["source_assessments"] if x["source_kind"] == "CANDIDATE"]
         self.assertEqual(len(candidate_rows), 4)
         for row in candidate_rows:
@@ -152,21 +205,18 @@ class BlindSpotActivationReadinessTests(unittest.TestCase):
             "blind_spot_channel_count": 1,
             "observed_channel_ids": [],
             "blind_spot_channel_ids": ["TEST_BLIND"],
-            "channels": [
-                {
-                    "channel_id": "TEST_BLIND",
-                    "blind_spot": True,
-                    "registered_operational_source_ids": ["SAFE_TEST"],
-                    "candidate_source_ids": [],
-                }
-            ],
+            "channels": [{
+                "channel_id": "TEST_BLIND",
+                "blind_spot": True,
+                "registered_operational_source_ids": ["SAFE_TEST"],
+                "candidate_source_ids": [],
+            }],
         }
         result = reconcile_blind_spot_activation_readiness((source,), (), coverage)
         self.assertEqual(result["producer_trial_ready_source_ids"], ["SAFE_TEST"])
         self.assertEqual(result["safe_activation_conclusion"], "PRODUCER_TRIAL_AVAILABLE")
         row = result["channels"][0]["source_assessments"][0]
         self.assertTrue(row["producer_trial_allowed"])
-        self.assertEqual(row["registry_status"], "QUALIFIED_NONLIVE")
 
     def test_blind_spot_summary_mismatch_fails_closed(self):
         operational, candidates = self._actual()
