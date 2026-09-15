@@ -52,6 +52,7 @@ pbc_jiangsu_run_id="$(resolve_upstream_run pbc-jiangsu-credit-live.yml)"
 pbc_run_id="$(resolve_upstream_run pbc-money-flow-live.yml)"
 xuzhou_financing_demand_run_id="$(resolve_upstream_run xuzhou-enterprise-funding-demand-live.yml)"
 gacc_trade_flow_run_id="$(resolve_upstream_run gacc-trade-flow-live.yml)"
+questmobile_public_research_run_id="$(resolve_upstream_run questmobile-public-research-live.yml)"
 previous_live_run_id="$(resolve_previous_live_run || true)"
 
 {
@@ -63,6 +64,7 @@ previous_live_run_id="$(resolve_previous_live_run || true)"
   echo "pbc_run_id=$pbc_run_id"
   echo "xuzhou_financing_demand_run_id=$xuzhou_financing_demand_run_id"
   echo "gacc_trade_flow_run_id=$gacc_trade_flow_run_id"
+  echo "questmobile_public_research_run_id=$questmobile_public_research_run_id"
   echo "previous_live_run_id=$previous_live_run_id"
 } >> "$GITHUB_OUTPUT"
 
@@ -75,7 +77,8 @@ for spec in \
   "pbc_jiangsu:$pbc_jiangsu_run_id" \
   "pbc:$pbc_run_id" \
   "xuzhou_financing_demand:$xuzhou_financing_demand_run_id" \
-  "gacc_trade_flow:$gacc_trade_flow_run_id"; do
+  "gacc_trade_flow:$gacc_trade_flow_run_id" \
+  "questmobile_public_research:$questmobile_public_research_run_id"; do
   key="${spec%%:*}"
   run_id="${spec#*:}"
   gh run view "$run_id" \
@@ -93,6 +96,7 @@ jq -n \
   --slurpfile pbc .local/pbc_run.json \
   --slurpfile xuzhou_financing_demand .local/xuzhou_financing_demand_run.json \
   --slurpfile gacc_trade_flow .local/gacc_trade_flow_run.json \
+  --slurpfile questmobile_public_research .local/questmobile_public_research_run.json \
   --arg previous_live_run_id "$previous_live_run_id" \
   '{
     resolved_at_utc: (now | todateiso8601),
@@ -104,7 +108,8 @@ jq -n \
       pbc_jiangsu_credit: $pbc_jiangsu[0],
       pbc_money_flow: $pbc[0],
       xuzhou_financing_demand: $xuzhou_financing_demand[0],
-      gacc_trade_flow: $gacc_trade_flow[0]
+      gacc_trade_flow: $gacc_trade_flow[0],
+      questmobile_public_research: $questmobile_public_research[0]
     },
     previous_live_run_id: (if $previous_live_run_id == "" then null else ($previous_live_run_id | tonumber) end),
     bootstrap: ($previous_live_run_id == "")
