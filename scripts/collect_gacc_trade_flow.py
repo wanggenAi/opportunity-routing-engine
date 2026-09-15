@@ -12,6 +12,7 @@ if str(ROOT) not in sys.path:
 
 from src.gacc_trade_corroboration import JiangsuTradeCorroborator
 from src.gacc_trade_flow import GaccTradeFlowAdapter
+from src.gacc_trade_row_evidence import enrich_gacc_trade_row_evidence
 
 
 def main() -> int:
@@ -19,7 +20,9 @@ def main() -> int:
     parser.add_argument("--output", default=".local/gacc_trade_flow.json")
     args = parser.parse_args()
 
-    payload = GaccTradeFlowAdapter().collect()
+    adapter = GaccTradeFlowAdapter()
+    payload = adapter.collect()
+    payload = enrich_gacc_trade_row_evidence(payload, client=adapter.client)
     payload = JiangsuTradeCorroborator().corroborate(payload)
     out = Path(args.output)
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -27,6 +30,7 @@ def main() -> int:
     print(f"wrote {out}")
     print("period=", payload["period"])
     print("corroboration_status=", payload["corroboration_status"])
+    print("row_evidence_contract=", payload["row_evidence_contract"])
     print("jiangsu_ytd_usd_thousand=", payload["jiangsu_importer_exporter_location"]["total_ytd_usd_thousand"])
     print("xuzhou_location=", json.dumps(payload["xuzhou_importer_exporter_location"], ensure_ascii=False, sort_keys=True))
     print("xuzhou_specific_areas=", json.dumps(payload["xuzhou_specific_areas"], ensure_ascii=False, sort_keys=True))
