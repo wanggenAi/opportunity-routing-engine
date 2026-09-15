@@ -5,6 +5,9 @@ social content. It aggregates already-normalized, provenance-retaining signals i
 bounded directional indexes used only for opportunity discovery.
 
 Commercial rule: psychology is a sensor; behavior and money are corroboration.
+Ontology rule: PERCEPTION / MOTIVE / BEHAVIOR are stable primitives; named
+psychology concepts are an open namespace. The seed concepts below are advisory
+2026 vocabulary, never a validation boundary.
 """
 
 from __future__ import annotations
@@ -22,20 +25,45 @@ SOURCE_WEIGHTS = {
     "D_SOCIAL_MEDIA_LANGUAGE": 0.35,
 }
 
-PSYCHOLOGY_DIMENSIONS = {
-    "SPENDING_CAUTION",
-    "VALUE_FOR_MONEY",
-    "SMALL_TRIAL_PREFERENCE",
-    "EXPERIENCE_ORIENTATION",
-    "EMOTIONAL_VALUE_SELF_REWARD",
-    "CONVENIENCE_TIME_VALUE",
-    "TRUST_RISK_AVERSION",
-    "QUALITY_UPGRADE_SELECTIVITY",
-    "HEALTH_LONGEVITY",
-    "SOCIAL_CONNECTION_BELONGING",
-    "REPAIR_REUSE_RENT",
-    "OUTCOME_CERTAINTY",
-}
+PSYCHOLOGY_PRIMITIVES = frozenset({"PERCEPTION", "MOTIVE", "BEHAVIOR"})
+
+# Advisory seed taxonomy only. New concepts MUST NOT require a core-code change.
+PSYCHOLOGY_SEED_CONCEPTS = frozenset(
+    {
+        "SPENDING_CAUTION",
+        "VALUE_FOR_MONEY",
+        "SMALL_TRIAL_PREFERENCE",
+        "EXPERIENCE_ORIENTATION",
+        "EMOTIONAL_VALUE_SELF_REWARD",
+        "CONVENIENCE_TIME_VALUE",
+        "TRUST_RISK_AVERSION",
+        "QUALITY_UPGRADE_SELECTIVITY",
+        "HEALTH_LONGEVITY",
+        "SOCIAL_CONNECTION_BELONGING",
+        "REPAIR_REUSE_RENT",
+        "OUTCOME_CERTAINTY",
+    }
+)
+
+# Backward-compatible import alias. This is intentionally NOT consulted by
+# validation or aggregation; callers must treat it as seed vocabulary only.
+PSYCHOLOGY_DIMENSIONS = PSYCHOLOGY_SEED_CONCEPTS
+
+
+def _require_open_concept(value: str) -> str:
+    concept = str(value or "").strip()
+    if not concept:
+        raise ValueError("psychology concept is required")
+    return concept
+
+
+def _require_psychology_primitive(value: str) -> str:
+    primitive = str(value or "").strip()
+    if primitive not in PSYCHOLOGY_PRIMITIVES:
+        raise ValueError(
+            "semantic_primitive must be one of PERCEPTION, MOTIVE, or BEHAVIOR"
+        )
+    return primitive
 
 
 @dataclass(frozen=True)
@@ -56,14 +84,13 @@ class PsychologySignal:
     representative_share: Optional[float] = None
     sample_size: Optional[int] = None
     provenance_quality: str = "MEDIUM"
+    semantic_primitive: str = "PERCEPTION"
 
     def __post_init__(self) -> None:
         if self.source_type not in SOURCE_WEIGHTS:
             raise ValueError(f"unknown source_type: {self.source_type}")
-        if self.psychology_dimension not in PSYCHOLOGY_DIMENSIONS:
-            raise ValueError(
-                f"unknown psychology_dimension: {self.psychology_dimension}"
-            )
+        _require_open_concept(self.psychology_dimension)
+        _require_psychology_primitive(self.semantic_primitive)
         if not -1.0 <= self.direction <= 1.0:
             raise ValueError("direction must be between -1.0 and 1.0")
         for name, value in (
@@ -85,6 +112,12 @@ class PsychologySignal:
         if self.provenance_quality not in {"LOW", "MEDIUM", "HIGH"}:
             raise ValueError("provenance_quality must be LOW, MEDIUM, or HIGH")
 
+    @property
+    def concept(self) -> str:
+        """Open concept namespace alias matching the canonical tracker schema."""
+
+        return self.psychology_dimension
+
 
 @dataclass(frozen=True)
 class PsychologySnapshot:
@@ -101,6 +134,11 @@ class PsychologySnapshot:
     money_corroboration: float
     representative_share: Optional[float]
     representative_sample_size: Optional[int]
+    semantic_primitive: str = "PERCEPTION"
+
+    @property
+    def concept(self) -> str:
+        return self.psychology_dimension
 
 
 def _as_date(value: date | datetime) -> date:
@@ -235,15 +273,18 @@ def aggregate_snapshot(
     actor_segment: str,
     psychology_dimension: str,
     window_days: int = 30,
+    semantic_primitive: str = "PERCEPTION",
 ) -> PsychologySnapshot:
     """Aggregate normalized signals into a directional discovery snapshot.
 
-    The result is deliberately not a population estimate unless a representative
-    source explicitly supplies one.
+    The named concept is deliberately open-ended. The result is not a population
+    estimate unless a representative source explicitly supplies one. Primitive
+    filtering prevents a same-named PERCEPTION, MOTIVE and BEHAVIOR concept from
+    being silently averaged together.
     """
 
-    if psychology_dimension not in PSYCHOLOGY_DIMENSIONS:
-        raise ValueError(f"unknown psychology_dimension: {psychology_dimension}")
+    concept = _require_open_concept(psychology_dimension)
+    primitive = _require_psychology_primitive(semantic_primitive)
     if window_days <= 0:
         raise ValueError("window_days must be positive")
 
@@ -253,7 +294,8 @@ def aggregate_snapshot(
         for s in signals
         if s.geography == geography
         and s.actor_segment == actor_segment
-        and s.psychology_dimension == psychology_dimension
+        and s.psychology_dimension == concept
+        and s.semantic_primitive == primitive
         and 0 <= (as_of_date - s.source_date).days <= window_days
     ]
 
@@ -277,7 +319,7 @@ def aggregate_snapshot(
     return PsychologySnapshot(
         geography=geography,
         actor_segment=actor_segment,
-        psychology_dimension=psychology_dimension,
+        psychology_dimension=concept,
         window_days=window_days,
         signal_count=len(selected),
         source_class_count=len({s.source_type for s in selected}),
@@ -288,4 +330,5 @@ def aggregate_snapshot(
         money_corroboration=money,
         representative_share=rep_share,
         representative_sample_size=rep_sample_size,
+        semantic_primitive=primitive,
     )
