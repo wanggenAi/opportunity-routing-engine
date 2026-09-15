@@ -59,7 +59,7 @@ jobs:
           jq -e '.operational_registry_count >= 20' "$state" >/dev/null
           jq -e '.operational_production_live_count > 0' "$state" >/dev/null
           jq -e '.production_coverage_count == .operational_production_live_count' "$state" >/dev/null
-          jq -e '["CN_NBS","CN_PBOC","CN_PBOC_JS","CN_CUSTOMS","XZ_GOV_FINANCE_DEMAND","JS_STATS","XZ_GGZY","EJY365_XZ_LINKED"] - .production_coverage_source_ids == []' "$state" >/dev/null
+          jq -e '["CN_NBS","CN_PBOC","CN_PBOC_JS","CN_CUSTOMS","XZ_GOV_FINANCE_DEMAND","JS_STATS","XZ_GGZY","EJY365_XZ_LINKED","QM"] - .production_coverage_source_ids == []' "$state" >/dev/null
           jq -e '["BAIDU_INDEX","WEIBO_PUBLIC","XHS_PUBLIC","DOUYIN_PUBLIC","ZHIHU_PUBLIC"] - .registered_manual_source_ids == []' "$state" >/dev/null
           jq -e '(["BAIDU_INDEX","WEIBO_PUBLIC","XHS_PUBLIC","DOUYIN_PUBLIC","ZHIHU_PUBLIC"] - (.registered_manual_source_ids - .production_coverage_source_ids)) == []' "$state" >/dev/null
           jq -e '.candidate_only_source_ids | sort == ["INSTAGRAM_CHINA_AUX_CANDIDATE","REDDIT_CHINA_AUX_CANDIDATE","TELEGRAM_CHINA_AUX_CANDIDATE","X_CHINA_AUX_CANDIDATE"]' "$state" >/dev/null
