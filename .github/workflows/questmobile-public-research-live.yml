@@ -1,0 +1,91 @@
+name: questmobile-public-research-live
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 4 * * 1,4"
+  pull_request:
+    paths:
+      - "src/questmobile_public_research.py"
+      - "scripts/collect_questmobile_public_research.py"
+      - "scripts/validate_questmobile_public_research.py"
+      - "tests/test_questmobile_public_research.py"
+      - "docs/QUESTMOBILE_PUBLIC_RESEARCH.md"
+      - ".github/workflows/questmobile-public-research-live.yml"
+  push:
+    branches: [main]
+    paths:
+      - "src/questmobile_public_research.py"
+      - "scripts/collect_questmobile_public_research.py"
+      - "scripts/validate_questmobile_public_research.py"
+      - "tests/test_questmobile_public_research.py"
+      - "docs/QUESTMOBILE_PUBLIC_RESEARCH.md"
+      - ".github/workflows/questmobile-public-research-live.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: questmobile-public-research-live
+  cancel-in-progress: false
+
+jobs:
+  collect-public-research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect current public QuestMobile research evidence
+        run: |
+          mkdir -p .local
+          python scripts/collect_questmobile_public_research.py \
+            --report-limit 5 \
+            --output .local/questmobile_public_research.json
+
+      - name: Validate QuestMobile public research evidence contract
+        run: |
+          set -euo pipefail
+          state=.local/questmobile_public_research.json
+          python scripts/validate_questmobile_public_research.py --input "$state"
+          test "$(jq -r '.schema_version' "$state")" = "questmobile-public-research.v1"
+          test "$(jq -r '.source_id' "$state")" = "QM"
+          jq -e '.data_available == true and .report_count >= 1 and .text_finding_count >= 1' "$state" >/dev/null
+          jq -e '[.reports[].source_url | startswith("https://www.questmobile.com.cn/research/report/")] | all' "$state" >/dev/null
+          jq -e '[.reports[].source_authority == "QuestMobile研究院"] | all' "$state" >/dev/null
+          jq -e '[.reports[].findings[]? | (.excerpt | length) > 0 and (.excerpt_sha256 | length) == 64] | all' "$state" >/dev/null
+          jq -e '.truth_boundaries | index("NO_LOGIN_OR_PAID_DATABASE") != null and index("NO_OCR_OR_IMAGE_METRIC_EXTRACTION") != null and index("RESEARCH_REPORT_NE_CURRENT_LOCAL_REALITY") != null and index("RESEARCH_FINDING_NE_PAID_DEMAND") != null and index("UNKNOWN_NE_PASS") != null' "$state" >/dev/null
+          if jq -e '.. | objects | has("paid_need") or has("payer_confirmed") or has("payment_confirmed") or has("route_testable") or has("opportunity_confirmed") or has("business_promotion") or has("taxonomy_promotion")' "$state" >/dev/null; then
+            echo "QuestMobile evidence artifact leaked downstream truth" >&2
+            exit 1
+          fi
+
+      - name: Publish operator summary
+        run: |
+          {
+            echo "# QuestMobile Public Research"
+            echo
+            jq -r '"- public reports collected: `\(.report_count)`"' .local/questmobile_public_research.json
+            jq -r '"- exact textual findings retained: `\(.text_finding_count)`"' .local/questmobile_public_research.json
+            jq -r '.reports[] | "- `\(.publication_date)` — \(.title) — findings `\(.finding_count)`"' .local/questmobile_public_research.json
+            echo
+            echo "Public research evidence only: report findings do not establish current Xuzhou reality, paid demand, payer/payment, or opportunity truth. Image-only evidence is not OCR'd in this producer."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload QuestMobile public research evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: questmobile-public-research-evidence
+          path: .local/questmobile_public_research.json
+          retention-days: 30
+          if-no-files-found: error
+          include-hidden-files: true
