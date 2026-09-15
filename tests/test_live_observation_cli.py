@@ -20,6 +20,7 @@ class LiveObservationCliTests(unittest.TestCase):
         self.assertIn("--resource-underuse", completed.stdout)
         self.assertIn("--nbs-macro-watchlist", completed.stdout)
         self.assertIn("--pbc-jiangsu-credit", completed.stdout)
+        self.assertIn("--pbc-money-flow", completed.stdout)
 
 
 if __name__ == "__main__":

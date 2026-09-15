@@ -12,6 +12,7 @@ def assessment(
     resource: int,
     nbs: int,
     pbc_jiangsu: int,
+    pbc: int,
 ) -> dict:
     return {
         "upstream_manifest": {
@@ -41,6 +42,11 @@ def assessment(
                     "status": "completed",
                     "conclusion": "success",
                 },
+                "pbc_money_flow": {
+                    "databaseId": pbc,
+                    "status": "completed",
+                    "conclusion": "success",
+                },
             }
         }
     }
@@ -48,8 +54,8 @@ def assessment(
 
 class LiveObservationRunLineageTests(unittest.TestCase):
     def test_same_or_newer_upstream_runs_are_allowed(self):
-        previous = assessment(100, 200, 300, 400, 500)
-        current = assessment(100, 201, 305, 400, 501)
+        previous = assessment(100, 200, 300, 400, 500, 600)
+        current = assessment(100, 201, 305, 400, 501, 601)
         validate_upstream_monotonicity(current, previous)
         self.assertEqual(
             upstream_run_ids(current),
@@ -59,18 +65,19 @@ class LiveObservationRunLineageTests(unittest.TestCase):
                 "resource_underuse": 305,
                 "nbs_macro": 400,
                 "pbc_jiangsu_credit": 501,
+                "pbc_money_flow": 601,
             },
         )
 
     def test_any_upstream_run_regression_fails_closed(self):
-        previous = assessment(100, 200, 300, 400, 500)
-        current = assessment(101, 200, 301, 399, 501)
-        with self.assertRaisesRegex(SystemExit, "nbs_macro:400->399"):
+        previous = assessment(100, 200, 300, 400, 500, 600)
+        current = assessment(101, 200, 301, 400, 501, 599)
+        with self.assertRaisesRegex(SystemExit, "pbc_money_flow:600->599"):
             validate_upstream_monotonicity(current, previous)
 
     def test_incomplete_or_non_successful_run_metadata_fails_closed(self):
-        data = assessment(100, 200, 300, 400, 500)
-        data["upstream_manifest"]["upstream_runs"]["pbc_jiangsu_credit"]["status"] = "in_progress"
+        data = assessment(100, 200, 300, 400, 500, 600)
+        data["upstream_manifest"]["upstream_runs"]["pbc_money_flow"]["status"] = "in_progress"
         with self.assertRaisesRegex(SystemExit, "not completed"):
             upstream_run_ids(data)
 
