@@ -31,6 +31,7 @@ def main() -> int:
     parser.add_argument("--source-registry", type=Path, default=Path("data/source_registry.csv"))
     parser.add_argument("--candidates", type=Path, default=Path("data/sensor_candidates.json"))
     parser.add_argument("--evidence-channel-coverage", type=Path, required=True)
+    parser.add_argument("--douyin-permission-evidence", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
 
@@ -38,6 +39,9 @@ def main() -> int:
         load_operational_sources(args.source_registry),
         load_sensor_candidates(args.candidates),
         _load_object(args.evidence_channel_coverage),
+        permission_probes={
+            "DOUYIN_OPENAPI": _load_object(args.douyin_permission_evidence),
+        },
     )
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(
