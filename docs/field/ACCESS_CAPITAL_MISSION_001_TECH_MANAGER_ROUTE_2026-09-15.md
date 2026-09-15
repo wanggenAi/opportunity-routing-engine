@@ -1,31 +1,63 @@
 # Access Capital Mission 001 — Technology-Manager Route
 
 Date: 2026-09-15
-Status: `P0 ACCESS ACQUISITION / FIELD READY`
+Status: `P0 ACCESS ACQUISITION / FIELD READY / ORCHESTRATOR-CORRECTED`
 
 Parents:
 - `docs/ACCESS_FEASIBILITY_GATE.md`
 - `docs/results/BR_XZ_005_ENTRY_DECISION_2026-09-13.md`
 - `docs/field/FIELD_RUN_001_XINDIE_2026-09-15.md`
+- `docs/field/ORCHESTRATOR_ROLE_AND_EXTERNAL_ARCHETYPES_2026-09-15.md`
 - issue `#143`
 
 ## Mission
 
-Acquire a **real, legitimate participation path** into Xuzhou's technology-transfer / enterprise-need discovery ecosystem before asking enterprise delivery owners for scarce time.
+Acquire a **real, legitimate access / sensing capability** into Xuzhou's technology-transfer / enterprise-need discovery ecosystem before asking enterprise delivery owners for scarce time.
+
+The technology-manager mechanism is not the founder's required occupation.
+
+It is one candidate source of:
+
+```text
+ACCESS_PROVIDER
++
+FIELD_SCOUT
++
+DOMAIN_TRANSLATOR
++
+INSTITUTIONAL TRANSACTION RAILS
+```
 
 The desired result is not a certificate and not a title.
 
 The desired result is one of:
 
 ```text
-ACCEPTED TECHNOLOGY-MANAGER IDENTITY PATH
-SIGNED / ACCEPTED AFFILIATION OR PROJECT-COOPERATION PATH
-SUPERVISED REAL CASE
-FORMAL INTRODUCTION UNDER AN INSTITUTIONAL ROLE
-ACCEPTED EXTERNALLY DISCOVERED CASE INTO THE INSTITUTIONAL WORKFLOW
+A. FOUNDER ACCESS ASSET
+   a legitimate identity / participation path that materially improves credibility or rule understanding
+
+B. ROUTABLE ACCESS CAPABILITY
+   an existing technology manager / practitioner agrees to perform bounded access or field-scout work under explicit incentives and evidence rules
+
+C. INSTITUTIONAL ROUTE
+   signed / accepted project cooperation, supervised real case, formal introduction, or accepted externally discovered case into the institutional workflow
 ```
 
 Anything weaker remains `ACCESS_CAPITAL_PARTIAL`.
+
+## Orchestrator boundary
+
+The founder must not silently become the default technology manager, field researcher or project executor merely because he can do the work.
+
+The preferred question is not:
+
+> How does the founder personally perform enterprise discovery?
+
+It is:
+
+> **What is the cheapest legitimate way to option the access / sensing role, and what evidence contract makes that role governable?**
+
+Founder participation is allowed when it is the cheapest honest calibration path, but founder execution must be recorded and replaced when a qualified external actor can perform the role more efficiently.
 
 ## Why this route is structurally aligned
 
@@ -47,7 +79,7 @@ and says affiliation with a technology-manager office is voluntary and bilateral
 Published guidance:
 - https://suzhou.jstec.com.cn/news/202420421398052624
 
-This means the operator is not inventing a social role. There is an existing institutional mechanism designed for individuals who perform technology-transfer / need-discovery work.
+This means the project is not inventing a social role. There is an existing institutional mechanism for individuals who perform technology-transfer / need-discovery work.
 
 ## Why Xuzhou is especially relevant
 
@@ -65,13 +97,17 @@ The CUMT National University Science Park currently reports active technology-ma
 Current site:
 - https://www.cumtusp.com/
 
-## Counterparty interest — why the office may care
+## Counterparty interest — why the office / scout may care
 
 Do **not** approach an office with:
 
 > “Can you give me a title or introduce me to companies?”
 
-That transfers all cost and reputation risk to the office.
+Do **not** approach an existing technology manager with:
+
+> “Go help me ask companies what they need.”
+
+Both transfer cost and reputation risk to the other actor without a visible return.
 
 The office's published institutional model is closer to:
 
@@ -83,15 +119,15 @@ MORE CAPABLE TECHNOLOGY MANAGERS
 → STRONGER SERVICE PERFORMANCE / TRANSACTION FLOW
 ```
 
-Therefore the operator's proposed contribution should be framed as:
-- relevant proofable technical/domain competence, disclosed only at runtime as needed;
-- willingness to perform structured enterprise-need discovery rather than generic sales;
-- ability to convert vague complaints into evidence-backed problem/task definitions;
-- ability to preserve source, acceptance and falsification boundaries;
-- willingness to begin under supervision / project cooperation and follow institutional rules;
-- willingness to route future externally discovered enterprise problems into the institution rather than bypass it where the institutional route adds value.
+A field scout / technology manager may value:
+- paid use of existing enterprise access or domain knowledge;
+- a clearer evidence protocol that turns vague conversations into qualified cases;
+- technical analysis / routing capability they do not personally have;
+- additional downstream project conversion opportunities;
+- transparent referral / discovery / project participation economics;
+- a route to bring discovered cases into a broader capability network.
 
-This remains a value hypothesis until the office confirms that it values the contribution.
+These are hypotheses until accepted by the specific actor.
 
 ## Operator-profile boundary
 
@@ -101,7 +137,7 @@ The repository's existing access-feasibility record locks operator profile stora
 
 Therefore this public mission intentionally does **not** commit a résumé, employer list, educational documents or other personal profile details.
 
-At runtime, the operator may use relevant, proofable endowments privately/orally to establish credibility with the specific institution.
+At runtime, relevant proofable founder endowments may be used privately/orally when they improve credibility, but they do not imply that the founder must perform the field role.
 
 ## Institution Hook
 
@@ -110,40 +146,70 @@ The interaction should communicate this structure, without claiming unearned sta
 ```text
 I am not trying to buy a credential
 → I want to understand the current legitimate participation rules
-→ I can contribute relevant technical/domain capability and structured need discovery
-→ I prefer supervised/project-based proof over self-description
+→ I am building a structured way to turn real enterprise problems into evidence-backed, routable projects
+→ I want to know whether your institution can support either project participation OR cooperation with existing technology managers
 → I am willing to route real cases through the institution's rules where appropriate
-→ I want to know what concrete contribution would make participation useful to the office
+→ I want to know what concrete contribution would make this useful to the office
 ```
 
-Then ask only these concrete questions:
+Then ask these concrete questions:
 
 1. 个人现在申请江苏技术经理人身份，需要哪些真实材料和能力证明？
 2. 申请技术经理人身份之前是否必须先参加培训或取得证书？
 3. 贵机构/合作事务所现在是否接受外部技术经理人以挂靠、项目合作或带教方式参与？
-4. 对技术能力相关、但技术转移真实项目经验较少的申请人，最现实的第一种参与方式是什么？
-5. 是否存在由成熟技术经理人带着新人做真实企业需求挖掘的机制？
-6. 如果个人自己发现一个企业技术问题，机构是否允许按规范提交并由机构组织后续资源匹配/合同/结算？
-7. 在什么条件下，机构愿意正式向企业介绍一个外部参与者作为项目成员，而不是一个陌生个人？
-8. 对机构而言，一个新人必须先带来什么、做到什么，才值得机构投入带教、企业入口和声誉资源？
+4. 如果不是由我本人亲自长期跑企业，是否允许与现有技术经理人按项目合作，由对方负责企业需求发现，我负责后续技术结构化、资源匹配和项目组织？
+5. 是否存在由成熟技术经理人发现需求、其他技术/项目人员参与分析和执行的协作机制？
+6. 如果我们自己发现一个企业技术问题，是否可以按平台或事务所规则提交，并由机构组织后续专家匹配、合同和结算？
+7. 技术经理人发现需求后，通常怎样确认其贡献、项目归属、佣金或后续参与权益？
+8. 在什么条件下，机构愿意正式向企业介绍一个外部项目组织者或合作团队，而不是一个陌生个人？
+9. 对机构而言，一个外部合作方必须先带来什么、做到什么，才值得机构投入企业入口和声誉资源？
 
-Question 8 is mandatory. It directly tests the institution's visible surplus instead of assuming that the institution should help.
+Questions 4, 5, 7 and 9 are mandatory. They test whether the technology-manager role can become a real **routable access/sensing capability**, instead of forcing founder self-employment.
+
+## Field-scout evidence contract
+
+If an existing technology manager / practitioner is willing to participate, do not merely ask for “需求”。
+
+Minimum qualified field packet:
+
+```text
+actor_org:
+actor_role:
+recent_event_or_task:
+original_problem_wording:
+current_workaround:
+known_cost_delay_or_people_days:
+payer_or_authority:
+why_not_already_solved:
+external_collaboration_boundary:
+what_the_actor_would_accept_as_improvement:
+source_or_provenance:
+confidence_and_unknowns:
+```
+
+Disallow promotion from vague statements such as:
+- “企业想数字化”
+- “老板对 AI 感兴趣”
+- “可能需要软件”
+- “有机会合作”
+
+The scout must be paid / rewarded only under transparent agreed terms. The system must not exploit professional access without compensation where value is created.
 
 ## Evidence states
 
 ```text
 PUBLIC_GUIDANCE_CONFIRMED
 → ELIGIBILITY_CLARIFIED
-→ IDENTITY_APPLICATION_READY
-→ IDENTITY_ACCEPTED
-→ OFFICE_CONVERSATION_ACCEPTED
-→ AFFILIATION_OR_PROJECT_COOPERATION_OFFERED
-→ SUPERVISED_CASE_ASSIGNED
-→ FORMAL_INTRODUCTION_GRANTED
+→ ROUTE_MODEL_CLARIFIED
+→ FOUNDER_IDENTITY_READY | EXTERNAL_SCOUT_DISCOVERED
+→ OFFICE_CONVERSATION_ACCEPTED | SCOUT_CONVERSATION_ACCEPTED
+→ AFFILIATION / PROJECT_COOPERATION / SCOUT_OPTIONED
+→ REAL_FIELD_PACKET
+→ FORMAL_INTRODUCTION_OR_ROUTABLE_CASE
 → ACCESS_CAPITAL_OPERATIONAL
 ```
 
-No certificate, training attendance or platform registration alone may promote the route to `ACCESS_CAPITAL_OPERATIONAL`.
+No certificate, training attendance, platform registration, public contact route or vague willingness alone may promote the route to `ACCESS_CAPITAL_OPERATIONAL`.
 
 ## Current truth
 
@@ -159,10 +225,12 @@ XUZHOU ENTERPRISE NEED-DISCOVERY PRACTICE = YES
 Still unknown:
 
 ```text
-CURRENT OPERATOR ELIGIBILITY = UNKNOWN
+FOUNDER ELIGIBILITY = UNKNOWN
+EXISTING TECH-MANAGER COOPERATION TERMS = UNKNOWN
 CURRENT HUAIHAI ACCEPTANCE = UNKNOWN
 CURRENT CUMT EXTERNAL PARTICIPATION = UNKNOWN
-TRAINING REQUIREMENT FOR THIS OPERATOR = UNKNOWN
+TRAINING REQUIREMENT = UNKNOWN
+SCOUT COMPENSATION / ATTRIBUTION MODEL = UNKNOWN
 SUPERVISED CASE AVAILABILITY = UNKNOWN
 FORMAL INTRODUCTION RIGHTS = UNKNOWN
 INSTITUTION-SPECIFIC COUNTERPART SURPLUS = UNKNOWN
@@ -181,19 +249,18 @@ Published current contact for technology managers/offices:
 Official source:
 - https://www.jstec.com.cn/news/202602628049694641
 
-Exact objective:
-
-> clarify current individual filing requirements and whether training/certification is a prerequisite; ask which current Xuzhou office/local node is appropriate for an individual seeking real project-based participation.
-
-This is a legitimate public-window inquiry because the published contact is specifically for technology managers/offices.
+Exact objectives:
+- clarify current individual filing requirements and whether training/certification is a prerequisite;
+- ask which current Xuzhou office/local node is appropriate;
+- clarify whether project cooperation may combine an existing technology manager's enterprise-discovery role with another participant's technical analysis / resource-routing role.
 
 ### Step 2 — local affiliation / project-cooperation validation
 
-Validate Jiangsu Huaihai Technology Property Rights Exchange Center as the first local affiliation/project-cooperation node because a 2026 Xuzhou report documents a real affiliated technology manager there.
+Validate Jiangsu Huaihai Technology Property Rights Exchange Center as the first local node because a 2026 Xuzhou report documents a real affiliated technology manager there.
 
 Objective:
 
-> determine whether the center currently accepts external individuals through affiliation/project cooperation, what the acceptance criteria are, what contribution the center expects, and what real rights/duties follow.
+> determine whether the center currently accepts external project organizers / individuals through affiliation or project cooperation, whether existing technology managers can participate as field scouts under explicit attribution/economics, and what real rights/duties follow.
 
 ### Step 3 — CUMT Science Park practice/resource validation
 
@@ -201,34 +268,46 @@ Validate whether the CUMT technology-manager office currently accepts external p
 
 Objective:
 
-> obtain a real practice route, not merely training attendance.
+> obtain a real access / sensing / resource-routing path, not merely training attendance.
+
+### Step 4 — existing practitioner option
+
+If the institutional model permits it, identify one existing technology manager / technology-transfer practitioner / equivalent field actor whose current access overlaps the target enterprise class.
+
+Objective:
+
+> option one real `FIELD_SCOUT_CAPABILITY` under explicit incentive + evidence rules without making founder fieldwork the default.
 
 ## Falsification
 
 Demote this route if:
-- the operator is ineligible under current rules;
-- local offices do not accept external individuals/project cooperation;
+- neither founder participation nor existing-practitioner cooperation is allowed under current rules;
+- local offices do not accept meaningful external project cooperation;
 - the only available path is paid training with no operational role or case access;
-- no supervised or real project path exists;
-- affiliation provides no meaningful access, transaction infrastructure or legitimacy;
-- the institution cannot articulate any reason to invest time/reputation in the operator;
-- the institution's incentives do not align with the operator's contribution.
+- no real sensing / case / introduction mechanism exists;
+- the technology manager cannot lawfully or practically share even de-identified problem evidence;
+- field-scout economics cannot be made attractive and transparent;
+- the institution cannot articulate any reason to invest time/reputation in the project;
+- the resulting route still requires the founder to perform recurring field labor with no credible replacement path.
 
 ## Success criterion
 
-This mission passes only when the operator obtains a **real accepted role or route** that materially changes the next enterprise conversation.
+This mission passes only when a **real accepted access / sensing route** materially changes the next enterprise conversation.
 
-Best evidence:
+Strong pass examples:
 
 ```text
-"You are accepted into X role / project-cooperation route.
-Here are the rules.
-Here is the person/case you may work with.
-You may represent that role within these boundaries."
+"You may participate under X project-cooperation rules; here is the real case / person / boundary."
 ```
 
-Anything less is learning, not backing.
+or:
+
+```text
+"This existing technology manager / practitioner agrees to discover and return qualified field evidence under these terms, and the institution recognizes the cooperation boundary."
+```
+
+Anything less is learning, not operational access capital.
 
 ## Governing rule
 
-> **先借真实制度的势进入真实项目，再用结果积累自己的信用；不买空头身份，不借虚假名义，不把机构当免费介绍人。机构必须能从我们的参与中看到真实增量——更多真实需求、更清晰的问题、更高的项目转化概率或更强的执行能力——背书才可能从一次许可变成可复用的 Access Capital。**
+> **技术经理人不是创始人的职业终点，而是一种可能被调用的入口、感知与翻译能力。能借真实制度进入就借制度的势；能调用已有技术经理人的企业入口，就不重复造一个必须由创始人亲自跑现场的岗位。我们要沉淀的是“谁能看到真实问题、按什么证据标准带回来、为什么愿意做、如何归因和分配收益”，而不是把创始人的时间填进每一次需求发现。**
