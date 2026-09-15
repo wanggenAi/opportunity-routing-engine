@@ -1,12 +1,13 @@
 # Field Run 001 — Xindie access-capital + demand-pump probe
 
 Date: 2026-09-15
-Status: `P0 SELECTED / ACCESS_BLOCKED / HOOK REDESIGN / EXTERNAL TRUTH PENDING`
+Status: `P0 SELECTED / ACCESS_BLOCKED / FIELD-SCOUT OPTIONING / EXTERNAL TRUTH PENDING`
 
 Parents:
 - `docs/launch/FIRST_EXTERNAL_VALUE_FLOW_MISSION_2026-09-15.md`
 - `docs/ACCESS_FEASIBILITY_GATE.md`
 - `docs/field/ACCESS_CAPITAL_MISSION_001_TECH_MANAGER_ROUTE_2026-09-15.md`
+- `docs/field/ORCHESTRATOR_ROLE_AND_EXTERNAL_ARCHETYPES_2026-09-15.md`
 - issue `#143`
 
 ## Why this route remains active
@@ -17,52 +18,49 @@ Selected enterprise Actor:
 
 `江苏新蝶数字科技（集团）有限公司 / 新蝶数科`
 
-Target role:
+Target enterprise role:
 
 `implementation manager / project manager / delivery-service owner / manufacturing digital-transformation delivery owner`
 
-The underlying commercial question remains:
+Underlying commercial question:
 
 > Does a current signed project contain a recent, repetitive, non-sensitive, lawfully externalizable task with explicit input/output/acceptance, and would the owner make a real economic commitment for accepted output?
 
-However, execution exposed an upstream truth gap before any enterprise contact occurred:
+Execution exposed two upstream truth gaps before any enterprise contact occurred:
 
-> **a public phone/email route does not give the operator a legitimate reason to consume a delivery owner's scarce attention.**
+1. a public phone/email route does not create legitimate access;
+2. the founder should not become the default field scout merely because the founder is capable of asking the questions.
 
-This is not a new doctrine. `docs/ACCESS_FEASIBILITY_GATE.md` already defines the canonical split:
+Canonical split:
 
 ```text
 VALUE / EXCHANGE TRUTH
 !=
-CURRENT OPERATOR ACCESS FEASIBILITY
+CURRENT ACCESS FEASIBILITY
 !=
 COUNTERPARTY VISIBLE SURPLUS
+!=
+WHO PERFORMS FIELD SENSING
 ```
 
-Therefore direct cold outreach is on hold until access and counterpart-visible surplus are strong enough.
+Therefore direct founder cold outreach remains on hold.
 
 ## Current public evidence — 2026-09-15
 
 ### E1 — current delivery-role hiring
 
-A currently indexed 2026 MES implementation-manager posting in Xuzhou describes work including:
-- project research / requirements investigation;
-- report and delivery-document preparation;
-- system testing;
-- user training;
-- project coordination;
-- delivery progress and quality ownership.
+A currently indexed 2026 MES implementation-manager posting in Xuzhou describes work including project research / requirements investigation, delivery-document preparation, system testing, user training, project coordination and delivery progress/quality ownership.
 
 This is evidence that such work classes exist inside active delivery operations.
 
-It is **not** evidence that any task may be subcontracted, externalized or paid to this operator.
+It is **not** evidence that any task may be subcontracted, externalized or paid to this project.
 
 Public source:
 - https://www.zhaopin.com/jobdetail/CC454334310J40655179914.htm
 
 ### E2 — active company / current delivery footprint
 
-Current recruiting pages describe the group as roughly 300–499 employees with ongoing enterprise/government digital-transformation delivery and current open roles.
+Current recruiting pages describe ongoing enterprise/government digital-transformation delivery and current open roles.
 
 Public sources:
 - https://www.zhaopin.com/companydetail/CZ454334310.htm
@@ -70,11 +68,9 @@ Public sources:
 
 ### E3 — recent recurring service work
 
-A July 2026 public procurement result records `江苏新蝶数字科技（集团）有限公司` as the supplier for a social-credit platform maintenance/service project at RMB 249,400/year, with a potential multi-year service period.
+A July 2026 public procurement result records `江苏新蝶数字科技（集团）有限公司` as supplier for a social-credit platform maintenance/service project at RMB 249,400/year, with a potential multi-year service period.
 
-This is evidence of active recurring service/operations work.
-
-It is **not** proof that any component is externally routable.
+This is evidence of active recurring service work, not proof that any component is externally routable.
 
 Public source:
 - https://www.bidcenter.com.cn/newscontent-433113655-4.html
@@ -96,73 +92,115 @@ TRUST
 WILLINGNESS_TO_DISCLOSE_TASK_TRUTH
 ```
 
-Therefore the old `R1 named/reachable Actor = PASS` interpretation was too permissive.
-
 ## Corrected route gates
 
 ```text
-R1a named/publicly reachable Actor         = PASS
-R1b operator credibility relevant          = RUNTIME_PRIVATE / NOT COMMITTED
-R1c legitimate backing / warm path         = UNKNOWN
-R1d counterpart-visible surplus            = HYPOTHESIS
-R2 concrete valued outcome / payer         = PLAUSIBLE, NOT PROVEN
-R3 capability/resource available cheaply   = PASS FOR FIRST PROBE ONLY
-R4 blocker specific enough to test         = PASS
-R5 low irreversible capital                = PASS
-R6 observable success/failure              = PASS
-R7 orchestration beyond introduction       = HYPOTHESIS
+R1a named/publicly reachable Actor             = PASS
+R1b legitimate backing / warm path             = UNKNOWN
+R1c counterpart-visible surplus                = HYPOTHESIS
+R1d routable field-scout / access capability   = UNKNOWN
+R2 concrete valued outcome / payer             = PLAUSIBLE, NOT PROVEN
+R3 execution capability available cheaply      = PLAUSIBLE, NOT YET OPTIONED
+R4 blocker specific enough to test             = PASS
+R5 low irreversible capital                    = PASS
+R6 observable success/failure                  = PASS
+R7 orchestration beyond introduction           = HYPOTHESIS
+R8 founder-replacement path                    = NOT YET PROVEN
 ```
 
 Current verdict:
 
-`DIRECT ENTERPRISE PROBE = HOLD`
+`DIRECT FOUNDER ENTERPRISE PROBE = HOLD`
 
-Reason:
+Current blockers:
 
-`AUTHORITY / ACCESS POTENTIAL` is now the first observed blocker.
+```text
+ACCESS / AUTHORITY
++
+COUNTERPART SURPLUS
++
+FIELD-SCOUT OPTIONING
+```
 
-## Operator profile boundary
+## Founder/operator role boundary
 
-The repository already locks operator profile storage as:
+The founder is the Orchestrator / Principal, not the default field researcher.
 
-`RUNTIME_PRIVATE_NOT_COMMITTED`
+The founder may use relevant proofable background at runtime to support credibility, but the preferred operating model is:
 
-Therefore no public file should become a personal résumé or identity dossier.
+```text
+FOUNDER / ORCHESTRATOR
+  defines evidence contract, incentive, Hook and routing rules
 
-At runtime, use only truthful, relevant, proofable operator endowments needed for the specific actor. They may improve credibility, but they never imply authority or counterpart consent.
+ACCESS PROVIDER / FIELD SCOUT
+  earns legitimate conversation and returns qualified field evidence
 
-## Access-capital routes — current order
+ENTERPRISE ACTOR
+  provides or rejects real task truth
+
+CAPABILITY PROVIDER
+  performs bounded work if economic commitment occurs
+
+VALIDATOR / ACCEPTANCE OWNER
+  verifies result
+```
+
+One person may temporarily hold multiple roles, but the roles remain explicit.
+
+## Access / field-scout routes — current order
 
 ### Route A — genuine warm professional path
 
-If a real trusted professional relationship can legitimately introduce the operator to a delivery owner, that is the lowest-friction path.
+If a real trusted professional relationship can legitimately introduce a delivery owner, it is the lowest-friction route.
 
-No invented relationship. No request that the introducer exaggerate status.
+The introducer needs explicit benefit or a valid pre-existing reason to help.
 
-The introducer still needs a reason to spend reputation capital.
+### Route B — existing technology manager / technology-transfer practitioner
 
-### Route B — technology-manager / technology-transfer backing
+Preferred interpretation of `ACCESS_CAPITAL_MISSION_001_TECH_MANAGER_ROUTE_2026-09-15.md`:
 
-Use `ACCESS_CAPITAL_MISSION_001_TECH_MANAGER_ROUTE_2026-09-15.md` to validate a real accepted role, supervised case, project-cooperation relationship or formal introduction.
+> find whether an existing qualified actor with enterprise access can become a callable `ACCESS_PROVIDER / FIELD_SCOUT`, under explicit incentive, attribution and evidence rules.
 
-Do not pay for a certificate merely to create appearance.
+The founder obtaining a technology-manager identity is optional and should be chosen only if it is cheaper/faster or materially improves control/credibility.
 
-Useful backing must be observable, for example:
-- accepted onboarding;
-- signed affiliation/project-cooperation rule;
-- supervised real case;
-- accepted externally discovered enterprise need;
-- formal introduction under the institution's role.
+### Route C — technology-manager / technology-transfer institution
 
-### Route C — Xuzhou digital-transformation research/service institution
+Use an institution to obtain legitimate project-cooperation rules, existing practitioner access, supervised real cases, transaction rails or formal introduction.
 
-Use a local research/service institution only if its own benefit is legible.
+Do not pay merely for a certificate or status appearance.
 
-Do not ask:
+### Route D — other domain sensor actors
 
-> "Please introduce me to some companies."
+Do not overfit to technology managers.
 
-The intermediary must be able to see concrete organizational value before it is asked to spend time or reputation.
+Equivalent field-scout candidates may include:
+- implementation consultants;
+- software/ERP/MES practitioners;
+- industrial-park service personnel;
+- equipment / automation distributors or after-sales engineers;
+- recruiters serving digital/industrial firms;
+- accountants / tax-service firms where process pain becomes visible;
+- retired engineers;
+- association/service staff;
+- other actors with lawful first-hand access to the target workflow.
+
+The title is secondary. The key question is whether the actor can return qualified, attributable, permission-safe field truth.
+
+## Field-scout Hook
+
+Do not ask a scout to “help us find needs.”
+
+The scout needs a reason to participate.
+
+Possible value hypotheses:
+- explicit referral / qualified-lead economics;
+- downstream project participation;
+- access to technical analysis / resource-routing ability the scout lacks;
+- a structured evidence method that improves their own conversion efficiency;
+- transparent attribution and no bypassing of their relationship where agreed;
+- repeatable cooperation if qualified cases settle.
+
+No compensation model is assumed until accepted by the real actor.
 
 ## Enterprise Hook — revised
 
@@ -170,39 +208,34 @@ Do not begin by asking the delivery owner to teach us about internal problems.
 
 Current bounded exchange hypothesis:
 
-> If you have one recent non-sensitive repetitive delivery task that consumes implementation-team time, give me only a de-identified sample or task description. I will return a bounded execution decision: input, output, acceptance rule, privacy/permission boundary, which steps require senior judgment, which steps are rule-executable, and a go/no-go externalization verdict. You do not need to disclose customer secrets or give production access. If it has no practical value, stop there. Only if you judge one real task routable do we discuss a paid pilot.
+> If you have one recent non-sensitive repetitive delivery task that consumes implementation-team time, provide only a de-identified sample or task description. The routing side returns a bounded execution decision: input, output, acceptance rule, privacy/permission boundary, which steps require senior judgment, which steps are rule-executable, and a go/no-go externalization verdict. No customer secrets or production access are required. If the result has no practical value, stop there. Only if one real task is judged routable do we discuss a paid pilot.
 
 Possible counterpart surplus:
 - clearer senior-vs-routine work boundary;
 - lower search/coordination cost around externalization decisions;
 - explicit acceptance/failure boundaries;
-- possible reduction of senior implementation time if a routable unit exists;
+- possible reduction of senior implementation time;
 - no obligation to proceed.
 
 Truth boundary:
 
 `HOOK HYPOTHESIS != COUNTERPART INTEREST`
 
-The Hook itself must be validated.
-
-## Contact structure — only after access + surplus are ready
-
-The first contact must establish, in this order:
+## Contact structure — after access + scout + surplus are ready
 
 ```text
 LEGITIMATE ENTRY CONTEXT
-→ RELEVANT OPERATOR CREDIBILITY
+→ RELEVANT ACCESS / SCOUT CREDIBILITY
 → COUNTERPART-VISIBLE SURPLUS
 → LOW-RISK FIRST COMMITMENT
+→ QUALIFIED FIELD PACKET
 ```
 
-Do not use the previous reception script as a default cold pitch.
+A public contact may be used to discover the correct route, but cannot be counted as successful target access.
 
-A public contact may be used to discover the correct institutional route, but cannot be counted as successful target access.
+## Field probe protocol
 
-## Field probe — after conversation permission
-
-Only after a delivery owner explicitly accepts the bounded conversation, ask:
+The following questions belong to the **Field Scout protocol**, not automatically to the founder:
 
 1. 过去30天，哪个已经签下来的项目最占实施人员时间？
 2. 里面有哪些事情重复、琐碎但必须完成？
@@ -210,7 +243,7 @@ Only after a delivery owner explicitly accepts the bounded conversation, ask:
 4. 最近一次这类任务是谁做的，大概花了多少人时/人天？
 5. 如果任务脱敏，合同和客户是否允许外部协作？
 6. 这类任务每个项目都会出现，还是偶发？
-7. 如果先把一个脱敏样本整理成明确输入、输出、验收、权限和失败规则，这个结果本身对你有没有用？若有用，你是否愿意再拿一个真实小任务做付费试验？
+7. 如果先把一个脱敏样本整理成明确输入、输出、验收、权限和失败规则，这个结果本身对你有没有用？若有用，是否愿意再拿一个真实小任务做付费试验？
 
 Do not lead the witness. Record exact wording and exact rejection reasons.
 
@@ -224,7 +257,8 @@ Allowed progression:
 
 ```text
 PUBLICLY_REACHABLE
-→ INTRODUCTION_READY
+→ SCOUT_OR_ACCESS_PATH_DISCOVERED
+→ SCOUT_OR_ACCESS_PATH_OPTIONED
 → ENGAGEMENT_READY
 → VALIDATION_ACCESS_READY
 → CONVERSATION_ACCEPTED
@@ -237,27 +271,27 @@ PUBLICLY_REACHABLE
 → REPEAT_SIGNAL
 ```
 
-The access states deliberately align with `docs/ACCESS_FEASIBILITY_GATE.md`.
-
 No LLM inference can promote state.
 
 ## Minimum evidence packet
 
-For access-stage responses, persist:
+For scout/access stage:
 
 ```text
 access_path:
-backing_or_referral:
+scout_actor_role:
+why_the_scout_has_legitimate_access:
+scout_incentive:
+attribution_or_non_bypass_terms_if_any:
+evidence_contract:
 backing_strength:
-operator_credibility_used_runtime_private:
 counterparty_visible_surplus:
-surplus_mechanism:
-first_commitment_requested:
 conversation_permission:
 exact_access_rejection_reason:
+founder_role_in_this_step:
 ```
 
-For task-stage responses, persist:
+For task stage:
 
 ```text
 contact_time:
@@ -265,6 +299,7 @@ contact_route:
 actor_org:
 actor_role:
 recent_task_or_event:
+original_problem_wording:
 current_workaround:
 current_cost_or_people_days:
 external_collaboration_allowed:
@@ -283,10 +318,12 @@ Do not store prohibited customer secrets, credentials, personal identifiers, pro
 
 ## Fast falsification conditions
 
-Demote the access route if:
-- claimed backing does not produce any accepted role or introduction;
-- an intermediary sees no benefit and will not spend reputation/time on the introduction;
-- the route cannot state a believable counterpart gain before asking for scarce time.
+Demote the access/scout route if:
+- no legitimate actor will spend access/reputation capital under acceptable economics;
+- the scout can return only vague “interest” rather than qualified evidence;
+- attribution/non-bypass/trust cannot be made acceptable;
+- an institution or scout sees no counterpart benefit;
+- the only workable method is recurring founder cold outreach.
 
 Demote the transaction route if:
 - no recurring bounded task exists;
@@ -299,6 +336,20 @@ Demote the transaction route if:
 
 A clean falsification is a successful experiment outcome.
 
+## Founder-dependence record
+
+Every attempt must additionally record:
+
+```text
+founder_roles_performed:
+founder_time_spent:
+why_founder_execution_was_required:
+which_role_should_be_external_next:
+replacement_evidence_required:
+```
+
+The first transaction may be founder-assisted. A reusable orchestration pattern may not depend on the founder filling recurring operational gaps.
+
 ## Immediate operating rule
 
 No new generic architecture work is justified.
@@ -306,10 +357,13 @@ No new generic architecture work is justified.
 The active P0 is now:
 
 ```text
-OBTAIN LEGITIMATE ACCESS
-→ MAKE COUNTERPART SURPLUS LEGIBLE
+IDENTIFY LEGITIMATE SENSOR / ACCESS ROLE
+→ OPTION THE ROLE OR ACCESS PATH
+→ ALIGN THE SCOUT'S INCENTIVE
+→ MAKE ENTERPRISE SURPLUS LEGIBLE
 → EARN CONVERSATION PERMISSION
-→ THEN ASK FOR TASK TRUTH
+→ CAPTURE QUALIFIED TASK TRUTH
+→ ORCHESTRATOR JUDGES / ROUTES
 ```
 
-The next truth must come from the actor who controls access, reputation or the delivery decision — not from another internal abstraction.
+The next truth should come from the actor who already controls access, field knowledge or the delivery decision — not from forcing the founder to become every missing role.
