@@ -15,6 +15,7 @@ def assessment(
     pbc: int,
     xuzhou_financing: int,
     gacc: int,
+    questmobile: int,
 ) -> dict:
     return {
         "upstream_manifest": {
@@ -59,6 +60,11 @@ def assessment(
                     "status": "completed",
                     "conclusion": "success",
                 },
+                "questmobile_public_research": {
+                    "databaseId": questmobile,
+                    "status": "completed",
+                    "conclusion": "success",
+                },
             }
         }
     }
@@ -66,8 +72,8 @@ def assessment(
 
 class LiveObservationRunLineageTests(unittest.TestCase):
     def test_same_or_newer_upstream_runs_are_allowed(self):
-        previous = assessment(100, 200, 300, 400, 500, 600, 700, 800)
-        current = assessment(100, 201, 305, 400, 501, 601, 702, 801)
+        previous = assessment(100, 200, 300, 400, 500, 600, 700, 800, 900)
+        current = assessment(100, 201, 305, 400, 501, 601, 702, 801, 902)
         validate_upstream_monotonicity(current, previous)
         self.assertEqual(
             upstream_run_ids(current),
@@ -80,18 +86,19 @@ class LiveObservationRunLineageTests(unittest.TestCase):
                 "pbc_money_flow": 601,
                 "xuzhou_financing_demand": 702,
                 "gacc_trade_flow": 801,
+                "questmobile_public_research": 902,
             },
         )
 
     def test_any_upstream_run_regression_fails_closed(self):
-        previous = assessment(100, 200, 300, 400, 500, 600, 700, 800)
-        current = assessment(101, 200, 301, 400, 501, 601, 701, 799)
-        with self.assertRaisesRegex(SystemExit, "gacc_trade_flow:800->799"):
+        previous = assessment(100, 200, 300, 400, 500, 600, 700, 800, 900)
+        current = assessment(101, 200, 301, 400, 501, 601, 701, 801, 899)
+        with self.assertRaisesRegex(SystemExit, "questmobile_public_research:900->899"):
             validate_upstream_monotonicity(current, previous)
 
     def test_incomplete_or_non_successful_run_metadata_fails_closed(self):
-        data = assessment(100, 200, 300, 400, 500, 600, 700, 800)
-        data["upstream_manifest"]["upstream_runs"]["gacc_trade_flow"]["status"] = "in_progress"
+        data = assessment(100, 200, 300, 400, 500, 600, 700, 800, 900)
+        data["upstream_manifest"]["upstream_runs"]["questmobile_public_research"]["status"] = "in_progress"
         with self.assertRaisesRegex(SystemExit, "not completed"):
             upstream_run_ids(data)
 
