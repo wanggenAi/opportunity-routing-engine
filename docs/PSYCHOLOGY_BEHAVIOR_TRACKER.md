@@ -1,14 +1,16 @@
-# Consumer Psychology & Behavior Tracker
+# Psychology & Behavior Engineering
 
-Status: `CANONICAL DISCOVERY MODULE`
+Status: `CANONICAL VALUE-FORMATION SENSOR`
 
-Effective: 2026-09-14
+Effective: 2026-09-16
 
 Parents:
+- `docs/LATENT_VALUE_DOCTRINE.md`
+- `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
 - `docs/DISCOVERY_ENGINE.md`
 - `docs/DYNAMIC_SENSOR_FABRIC.md`
 
-Its job is not to decide what "Chinese people think" from viral posts. Its job is to continuously detect **directional changes in Chinese consumer/actor decision logic** and connect those changes to observable behavior and money flow.
+Its job is not to decide what "Chinese people think" from viral posts, and not merely to mine complaints or explicit purchase wishes. Its deeper job is to continuously detect **changes in actor decision logic** and connect them to objective endowments, state transitions, observed behavior and economic reality so the system can reason about value structures that may not yet exist.
 
 ## 1. Research focus
 
@@ -20,7 +22,7 @@ LOCAL LENS: China → Jiangsu → Xuzhou
 AUXILIARY OBSERVATION: global public information
 ```
 
-Foreign/global social information may help explain China, reveal possible lead/lag patterns, expose failure modes, or show external perception/use of Chinese resources. It does not establish Chinese consumer psychology by itself.
+Foreign/global social information may help explain China, reveal possible lead/lag patterns, expose failure modes, or show external perception/use of Chinese resources. It does not establish Chinese psychology by itself.
 
 ## 2. Stable model, dynamic concepts
 
@@ -44,7 +46,91 @@ Seed concepts useful in 2026 include:
 
 These are **seed taxonomy nodes**, not discovery boundaries. New persistent behavior may create a new candidate concept without changing core code. Old concepts may be merged, split, renamed or deprecated with lineage preserved.
 
-## 3. Residual / novelty rule
+## 3. The real causal question
+
+The tracker should not begin with:
+
+> What are people complaining about and what can we sell them?
+
+It should reconstruct, where evidence allows:
+
+```text
+WHO IS THIS ACTOR / SEGMENT?
+↓
+WHAT OBJECTIVE ENDOWMENTS ALREADY EXIST?
+↓
+WHAT STATE IS THE ACTOR IN?
+↓
+WHAT CHANGED RECENTLY?
+↓
+HOW DOES THE ACTOR PERCEIVE THAT CHANGE?
+↓
+WHAT MOTIVES / FEARS / ASPIRATIONS BECOME SALIENT?
+↓
+WHAT BEHAVIORS FOLLOW?
+↓
+WHAT CONTRADICTIONS APPEAR BETWEEN RESOURCES, MOTIVES AND ACTUAL USE?
+↓
+WHAT RESOURCE–PSYCHOLOGY DISEQUILIBRIUM MAY EXIST?
+↓
+WHAT UNMET / UNFORMED OUTCOME MAY THE ACTOR BE MOVING TOWARD?
+```
+
+Psychology is therefore a **causal discovery input to Latent Value Formation**, not a decorative trend layer.
+
+## 4. Resource–Psychology Disequilibrium
+
+The tracker should help identify cases where objective resources and subjective/behavioral state no longer fit each other.
+
+Illustrative patterns:
+
+```text
+MONEY ↑ / TIME ↑
+BUT TRUSTED WAYS TO USE THEM FOR A NEW LIFE STATE ↓
+```
+
+```text
+EXPERIENCE ↑
+BUT CALLABLE ROLE / ORGANIZATIONAL IDENTITY ↓
+```
+
+```text
+DIGITAL CAPABILITY ↑ / TIME ↑
+BUT CLIENT ACCESS / TRUST / INDUSTRY CONTEXT ↓
+```
+
+```text
+CUSTOMER OR ATTENTION ACCESS EXISTS
+BUT EXECUTION / PRODUCTIZATION CAPABILITY IS WEAK
+```
+
+```text
+SPACE / EQUIPMENT / DATA EXISTS
+BUT THE OLD USE CASE NO LONGER FITS CURRENT BEHAVIOR
+```
+
+These are not products or demand statements. They are search zones for a possible `RESOURCE_PSYCHOLOGY_DISEQUILIBRIUM_HYPOTHESIS`.
+
+## 5. Contradiction is first-class signal
+
+The engine should actively preserve contradictions such as:
+- more free time but less daily structure;
+- deep expertise but fewer occasions to contribute;
+- more money but stronger fear of being cheated;
+- desire to keep up with technology but avoidance of complex tools;
+- high digital execution capacity but weak trust and income access;
+- abundant options but decision paralysis;
+- stated preference that conflicts with observed spending or behavior.
+
+A contradiction may indicate:
+1. a valuable state transition not yet served;
+2. a resource whose use case has changed;
+3. a hidden blocker;
+4. a false psychology thesis.
+
+The system must not force contradictions into one average sentiment score.
+
+## 6. Residual / novelty rule
 
 If observed behavior cannot be explained well by existing concepts, retain it as `RESIDUAL` / `UNBOUND` instead of forcing it into the nearest label.
 
@@ -63,13 +149,13 @@ UNMAPPED OBSERVATIONS
 
 Viral volume from one platform is insufficient for promotion.
 
-## 4. Core question
+## 7. Core question
 
-> Which perceptions and motives are becoming more or less salient for a defined Chinese actor segment, what behavior follows, and are those psychological signals corroborated by actual spending, search, booking, hiring, transaction, saving, substitution or workaround behavior?
+> Which perceptions and motives are becoming more or less salient for a defined actor segment, what objective state change preceded them, what behavior follows, what contradictions remain, and do those signals imply a falsifiable change in how existing resources may be valued or used?
 
-The tracker is a **hypothesis sensor**, not a commercial truth engine.
+The tracker is a **formation-hypothesis sensor**, not a commercial truth engine.
 
-## 5. Do not report fake population shares
+## 8. Do not report fake population shares
 
 Social platforms are not representative probability samples.
 
@@ -95,7 +181,7 @@ SOCIAL SALIENCE != POPULATION SHARE
 GLOBAL SALIENCE != CHINESE PREVALENCE
 ```
 
-## 6. Geography and transfer
+## 9. Geography and transfer
 
 Domestic evidence should be tracked at the most specific supported level:
 
@@ -121,7 +207,7 @@ TRANSFER_HYPOTHESIS
 
 but material promotion requires domestic corroboration.
 
-## 7. Global social layer
+## 10. Global social layer
 
 Lawful public/authorized sources may include current or future global communities, social platforms, forums, product-review sites, developer communities and video/comment ecosystems.
 
@@ -133,9 +219,9 @@ Useful China-related questions include:
 - what failure modes appeared abroad before domestic adoption matured;
 - whether global technology changes alter the value of a Chinese/Jiangsu/Xuzhou resource.
 
-The tracker must not turn this into an export-first strategy or infer Chinese consumer motives from foreign users.
+The tracker must not turn this into an export-first strategy or infer Chinese motives from foreign users.
 
-## 8. Domestic source classes
+## 11. Domestic source classes
 
 ### Tier A — hard money / behavior
 Official retail/service statistics, transaction/booking/payment aggregates, prices, paid volumes, hiring/outsourcing spend, resale/rental/repair transactions and other direct behavior evidence.
@@ -149,9 +235,9 @@ Search trends, public aggregate engagement, public trend lists and topic growth.
 ### Tier D — social / media language
 Public posts/comments where permitted, creator discourse, forums, video comments and news narratives.
 
-Tier D is valuable for early detection but cannot independently prove prevalence or willingness to pay.
+Tier D is especially useful for early observation of state, language, motive, workaround and contradiction. It cannot independently prove prevalence, underuse, willingness to pay or commercial value.
 
-## 9. Platform collection policy
+## 12. Platform collection policy
 
 Prefer:
 1. official/open APIs;
@@ -167,11 +253,12 @@ Do not:
 - collect private messages;
 - build unnecessary user-level psychographic profiles;
 - retain unnecessary handles, IDs, phone numbers or sensitive personal data;
-- infer sensitive traits from individuals.
+- infer sensitive traits from individuals;
+- use hidden psychological manipulation to make a formation hypothesis become true.
 
 Store aggregate/anonymized signal records whenever possible.
 
-## 10. Signal record schema
+## 13. Signal record schema
 
 ```text
 signal_id:
@@ -185,22 +272,28 @@ actor_segment:
 semantic_primitive: PERCEPTION / MOTIVE / BEHAVIOR
 concept:
 taxonomy_version:
+state_context: optional
+state_change_context: optional
+objective_endowment_refs: optional
 direction: optional
 intensity: optional
 behavior_corroboration:
 money_corroboration:
+contradictions: optional
+resource_psychology_disequilibrium_ref: optional
 representative_sample: YES / NO
 representative_share: optional
 sample_size: optional
 provenance_quality:
 key_evidence_refs:
-contradictions:
 notes:
 ```
 
 Unknown concept is allowed. `concept` is an open namespace.
 
-## 11. Time windows
+The psychology record may reference objective evidence, but it may not manufacture it.
+
+## 14. Time windows
 
 Maintain where practical:
 - 7-day fast signal;
@@ -210,7 +303,7 @@ Maintain where practical:
 
 Fast social spikes should decay quickly unless behavior/money data confirms them.
 
-## 12. Confidence rule
+## 15. Confidence rule
 
 `HIGH` confidence should generally require multiple source classes and at least one behavior/money source.
 
@@ -218,32 +311,62 @@ Social-content volume alone cannot produce `HIGH` confidence.
 
 Contradictory hard evidence must reduce confidence even when social salience is high.
 
-## 13. Opportunity bridge
+## 16. Formation bridge
 
 The tracker must not emit a startup idea directly.
 
-It emits evidence-bound hypotheses such as:
+It emits evidence-bound ingredients for value formation:
 
 ```text
-Chinese actor segment
-+ perception/motive change
-+ observed behavior change
-+ money corroboration
-→ investigate the resulting state/friction/resource change
+ACTOR SEGMENT
++
+OBJECTIVE STATE / STATE CHANGE
++
+PERCEPTION / MOTIVE CHANGE
++
+OBSERVED BEHAVIOR
++
+CONTRADICTION
+→ investigate RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
+→ infer UNMET / UNFORMED OUTCOME HYPOTHESIS
+→ search COMPLEMENTARY WORLD NODES
+→ design COUNTERFACTUAL EXCHANGE
+→ run CHEAP VALIDATION
 ```
 
-Then the Discovery Engine asks:
-- what structural state changed?
-- where is money actually moving?
-- what friction or underuse persists?
-- what hidden resource or deficit may exist?
-- is there a recurring pattern rather than a one-off event?
+Only later should strict transaction evidence be projected into:
+- NeedSignal;
+- ResourceSignal;
+- BlockerSignal;
+- payer;
+- payment evidence;
+- resource control/availability.
 
-Only downstream evidence gates decide need, payer, resource, blocker and route testability.
+```text
+PSYCHOLOGY HYPOTHESIS != DEMAND
+UNFORMED OUTCOME != DEMAND
+DEMAND != WILLINGNESS TO PAY
+WILLINGNESS TO PAY != TRANSACTION
+```
 
-## 14. Anti-confirmation-bias rule
+## 17. Social language as state evidence, not purchase intent
 
-For every promoted psychology thesis actively search for:
+Public language can be useful when it reveals statements such as:
+- a changed daily structure;
+- a newly available resource;
+- a lost role or channel;
+- fear, aspiration or avoidance;
+- a repeated workaround;
+- a conflict between capability and available opportunity;
+- a new adaptation behavior.
+
+A single sentence is not an individual psychological diagnosis and not a commercial lead by default.
+
+The engine should aggregate recurring structures across time, actors and source classes, then test whether the implied disequilibrium is real.
+
+## 18. Anti-confirmation-bias rule
+
+For every promoted psychology or formation thesis actively search for:
 - contradictory spend/saving behavior;
 - opposing actor segments;
 - local divergence from national evidence;
@@ -251,18 +374,23 @@ For every promoted psychology thesis actively search for:
 - policy/subsidy contamination;
 - platform algorithm distortion;
 - bots/coordinated manipulation;
-- seasonal/event effects.
+- seasonal/event effects;
+- evidence that the resource is not actually underused;
+- evidence that the supposed outcome is already solved cheaply;
+- evidence that behavior is expressive rather than action-oriented.
 
 Preserve disagreement rather than averaging it away.
 
-## 15. Engineering boundary
+## 19. Engineering boundary
 
-The engineering target is **normalization + provenance + time series + residual detection + corroboration**, not scraper breadth for its own sake.
+The engineering target is **normalization + provenance + time series + state linkage + residual detection + contradiction preservation + corroboration**, not scraper breadth for its own sake.
 
 Source adapters should be added when access is lawful/permitted, provenance can be retained, the source adds unique signal value, and collection reliability is acceptable.
 
 Platform additions must not require changes to semantic primitives.
 
-## 16. Governing invariant
+Do not build a giant social scraper before the value-formation contract can use the observations it already has.
 
-> **主要研究中国人的认知、动机、行为和真实钱流；全球社交与互联网信息只是增加观察半径。心理主题不是写死的枚举，无法解释的新行为应进入 residual pool，让 taxonomy 随证据生长。Psychology explains possible reasons; behavior and money decide whether those reasons matter economically.**
+## 20. Governing invariant
+
+> **心理行为工程不是“看看大家抱怨什么、想买什么”。它要观察 Actor 在什么状态、拥有什么、发生了什么变化、如何感受变化、产生了什么动机、真实行为怎样偏移，以及资源与心理/行为之间出现了什么矛盾。平台只是传感器。真正要寻找的是 Resource–Psychology Disequilibrium 和尚未成形的 outcome，再把它交给互补节点搜索与 Counterfactual Exchange Design。心理解释可能的方向，行为与钱帮助判断它是否真实；任何心理信号都不能直接升级成需求。**

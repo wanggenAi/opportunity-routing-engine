@@ -1,33 +1,41 @@
-# Discovery Engine — Latent Value Discovery Radar
+# Discovery Engine — Latent Value Formation Radar
 
 Status: `CANONICAL / LOCKED DISCOVERY LOGIC`
 
-Effective: 2026-09-14
+Effective: 2026-09-16
 
 Parents:
 - `docs/LATENT_VALUE_DOCTRINE.md`
+- `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
 - `docs/DYNAMIC_SENSOR_FABRIC.md`
 
-This document defines the front half of the Actor-First Regenerative Latent-Value Orchestration Engine.
+This document defines the front half of the Actor-First Regenerative Latent-Value Formation & Orchestration Engine.
 
 The engine does not begin from an explicit buyer, supplier, RFQ, procurement notice, current platform or fixed industry taxonomy. Those are sensor manifestations of deeper actor states.
+
+Its core job is not merely to discover demand. It is to identify **conditions from which a valuable exchange may form before a mature demand or product category exists**.
 
 ## 1. Core principle — LOCKED
 
 Begin with reality:
 
-> **What changed; which actors are entering new states; what resources, capabilities, perceptions, motives, behaviors, flows, constraints or frictions changed; and what value may now be idle, hidden, fragmented, mispriced, misallocated or newly combinable?**
+> **What objectively exists; what changed; which actors are entering new states; how perception, motive and behavior are changing; where objective endowments and actual utilization are becoming misaligned; what outcome may be forming before it is articulated; and what other world nodes could make that state transition possible?**
 
 Do not begin with:
 - a favored product or startup idea;
 - one procurement feed;
 - a supplier list;
+- an explicit-demand list;
 - a fixed social-platform list;
 - a fashionable technology;
 - the operator's existing skill;
 - today's taxonomy.
 
 A source adapter is an observer. A platform is not an ontology. A current candidate is a sample, not the business identity.
+
+```text
+DEMAND DISCOVERY != LATENT VALUE FORMATION
+```
 
 ## 2. Stable kernel, dynamic world model — LOCKED
 
@@ -69,7 +77,7 @@ OBSERVATION
 
 `UNKNOWN` is not failure. Forcing unknown reality into a known label is failure.
 
-## 3. Canonical discovery sequence — LOCKED
+## 3. Canonical formation sequence — LOCKED
 
 ```text
 GLOBAL + DOMESTIC SENSOR FABRIC
@@ -77,14 +85,19 @@ GLOBAL + DOMESTIC SENSOR FABRIC
 → STABLE SEMANTIC KERNEL
 → DYNAMIC / EMERGENT TAXONOMY
 → CHINA MACRO / MONEY FLOW / MARKET STRUCTURE
-→ CHINESE ACTOR STATE / PSYCHOLOGY / BEHAVIOR
-→ FRICTION / UNDERUSE / MISALLOCATION
-→ LATENT VALUE HYPOTHESIS
-→ RECURRING PATTERN / ARCHETYPE TEST
-→ COMPLEMENTARY ACTOR SEARCH
-→ TRANSFORMATION MECHANISM
-→ EVIDENCE / VALIDATION
-→ ONLY THEN NEED / RESOURCE / BLOCKER PROJECTION
+→ ACTOR + OBJECTIVE ENDOWMENTS
+→ STATE / STATE CHANGE
+→ PERCEPTION / MOTIVE
+→ OBSERVED BEHAVIOR
+→ FRICTION / UNDERUSE / MISALIGNMENT / CONTRADICTION
+→ RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
+→ UNMET / UNFORMED OUTCOME HYPOTHESIS
+→ COMPLEMENTARY WORLD-NODE SEARCH
+→ COUNTERFACTUAL EXCHANGE DESIGN
+→ WHY EXCHANGE DOES NOT ALREADY HAPPEN
+→ EVIDENCE / CONTRADICTION SEARCH
+→ CHEAPEST DECISIVE VALIDATION
+→ ONLY THEN NEED / RESOURCE / BLOCKER / PAYER PROJECTION
 → ORCHESTRATION / TRANSACTION DESIGN
 ```
 
@@ -92,17 +105,24 @@ Explicit demand execution remains valid downstream, but it must not dominate dis
 
 ### Two candidate classes — do not mix them
 
-The dynamic Sensor Fabric does not erase the constitutional distinction between latent-value discovery and already-articulated execution work.
+The dynamic Sensor Fabric does not erase the constitutional distinction between latent-value formation and already-articulated execution work.
 
 #### `LATENT_VALUE_ACTIVATION`
 
-A core discovery candidate where at least one side contains value that was not already operating as an explicit market offer or demand. It must preserve fields such as:
+A core formation candidate where at least one side contains value or an outcome that was not already operating as an explicit market offer or demand. It must preserve fields such as:
 
 ```text
-hidden_or_underrecognized_value:
-why_value_is_not_recognized_or_realized:
-complementary_actor_hypothesis:
-transformation_mechanism:
+objective_endowments
+observed_state / observed_change
+perception / motive / behavior
+resource_psychology_disequilibrium
+unmet_or_unformed_outcome_hypothesis
+hidden_or_underrecognized_value
+complementary_world_nodes
+counterfactual_exchange_design
+why_exchange_does_not_already_happen
+cheapest_decisive_validation
+kill_conditions
 ```
 
 #### `EXPLICIT_DEMAND_EXECUTION`
@@ -110,7 +130,7 @@ transformation_mechanism:
 A valid downstream route where the buyer, task or supply need is already substantially articulated and the main value is execution, outsourcing, matching or coordination.
 
 ```text
-EXPLICIT_DEMAND_EXECUTION != CORE_LATENT_VALUE_DISCOVERY
+EXPLICIT_DEMAND_EXECUTION != CORE_LATENT_VALUE_FORMATION
 ```
 
 This class may make money or provide bounded learning, but it must not become the engine's core discovery identity merely because structured feeds make it easy to observe.
@@ -134,6 +154,7 @@ The engine primarily studies:
 - domestic platform/ecosystem behavior;
 - Chinese market structure and money flow;
 - domestic resources, idle capacity and transaction friction;
+- state transitions that change the meaning/use of existing resources;
 - Jiangsu/Xuzhou divergence and locally verifiable actor states.
 
 Xuzhou is the first field laboratory because real-world validation is feasible, not because the model is local-only.
@@ -191,13 +212,26 @@ Track broad China reality before interpreting anecdotes:
 
 Macro indicators identify search zones; they do not prove a business.
 
-Ask where money accelerates/disappears, who gains/loses share, whether price or volume drives change, which actors are changing behavior, and what resources or frictions may result.
+Ask where money accelerates/disappears, who gains/loses share, whether price or volume drives change, which actors are entering new states, which resources are being repriced or stranded, and what psychology/behavior changes follow.
 
-## 8. Psychology / behavior before industry conclusion
+## 8. Psychology / behavior before product conclusion
 
 `PERCEPTION`, `MOTIVE` and `BEHAVIOR` are stable primitives. Theme names such as value-for-money or spending caution are seed concepts, not closed enums.
 
 The system should prefer what actors do over what they say they need.
+
+Reconstruct:
+
+```text
+ACTOR / SEGMENT
+→ OBJECTIVE ENDOWMENT
+→ CURRENT STATE
+→ CHANGE
+→ PERCEPTION
+→ MOTIVE
+→ BEHAVIOR
+→ CONTRADICTION
+```
 
 Observe, without treating this list as exhaustive:
 - repeated workarounds;
@@ -211,9 +245,12 @@ Observe, without treating this list as exhaustive:
 - hiring freezes plus project work;
 - fragmented purchasing;
 - recurring complaints with behavior change;
-- assets/skills generating low return despite adjacent demand growth.
+- assets/skills generating low return despite adjacent change;
+- newly available time, money, knowledge, access or attention whose old use structure has disappeared.
 
 Psychology must be corroborated by behavior and money where possible.
+
+The output is not `product idea`. It is evidence for a possible state transition, contradiction or `RESOURCE–PSYCHOLOGY DISEQUILIBRIUM`.
 
 ## 9. Actor state / endowment model
 
@@ -232,52 +269,88 @@ trust_or_reputation
 rights_or_access
 time_capacity
 space_equipment_capacity
+capital_or_budget_context
 demand_fragments
 constraints
+perception
+motive
+observed_behavior
+contradictions
 current_monetization
 current_workarounds
 ```
 
 An actor may contain deficits and resources simultaneously.
 
-## 10. Latent value and recurring pattern
+## 10. Resource–Psychology Disequilibrium and unformed outcome
 
-A core candidate must describe:
+A core formation candidate should state:
 
 ```text
-hidden_or_underrecognized_value
-why it is not realized
-what changed
+what objective endowments exist
+what changed in actor state
+what perception / motive evidence exists
+what observed behavior followed
+what resource appears underused / misaligned
+what contradiction exists between objective capacity and actual use
+resource_psychology_disequilibrium
+unmet_or_unformed_outcome_hypothesis
 supporting evidence
-unknowns
-whether the underlying friction/resource pattern recurs
-what naturally regenerates new events
+contradictions / unknowns
 ```
 
-A one-off order, failed tender, viral post or isolated complaint is an observation. It becomes strategically important when it contributes to a repeatable structure or when direct exceptional transaction evidence justifies a bounded one-off route test.
-
-Core preference:
+The outcome must remain product-agnostic long enough to search multiple complementary node combinations.
 
 ```text
-REPEATED ACTOR STATE CHANGE
-+ PERSISTENT FRICTION / UNDERUSE
-+ REUSABLE TRANSFORMATION MECHANISM
-+ REGENERATING EVENT FLOW
+UNFORMED OUTCOME != DEMAND
+PSYCHOLOGY != DEMAND
 ```
 
-## 11. Complementary actor search
+## 11. Complementary world-node search
 
-After identifying latent value, ask which other actor state becomes meaningfully better if the value is transformed and made callable.
+After identifying a disequilibrium and unformed outcome, ask what other real-world nodes could make the desired state transition possible.
 
-Search by state compatibility such as excess↔shortage, fragmented↔aggregatable, tacit knowledge↔repeated uncertainty, idle capacity↔utilization gap, local trust↔high acquisition cost, unused data↔repeated decisions.
+Search across:
+- people / groups;
+- organizations / institutions;
+- physical assets / spaces / equipment;
+- capability/process units;
+- channels / networks;
+- data / information;
+- capital / budget;
+- rights / access permissions;
+- software / AI / APIs;
+- trust / reputation relationships;
+- contracts / rules / standards;
+- recurring demand / event flows;
+- future node types not yet named.
+
+Search by state compatibility such as excess↔shortage, fragmented↔aggregatable, tacit knowledge↔repeated uncertainty, idle capacity↔newly valued outcome, local trust↔high acquisition cost, unused data↔repeated decisions.
 
 `Complementarity != Transactionability`.
 
-## 12. Transformation mechanism
+## 12. Counterfactual Exchange Design
 
-Explain how value changes state. Mechanisms may include aggregation, decomposition, standardization, verification, digitization, packaging, optioning, scheduling, acceptance criteria, trust boundaries, payment rules or combining weak assets into a viable route.
+Explain how value would be formed if currently unrelated nodes were connected.
 
-No transformation mechanism means the latent-value hypothesis is incomplete.
+Mechanisms may include aggregation, decomposition, standardization, verification, digitization, packaging, optioning, scheduling, acceptance criteria, trust boundaries, payment rules or combining weak assets into a viable route.
+
+The design must state:
+- origin actor current state;
+- desired/unformed outcome;
+- each complementary node and contribution;
+- controller/permission unknowns;
+- value created for each required participant;
+- why the exchange does not happen now;
+- orchestrator value beyond introduction;
+- cheapest decisive validation;
+- kill conditions.
+
+```text
+COUNTERFACTUAL EXCHANGE != ACCEPTED EXCHANGE
+```
+
+No transformation mechanism means the formation hypothesis is incomplete.
 
 ## 13. Why exchange does not already happen
 
@@ -285,9 +358,11 @@ State the structural blocker rather than saying only `lack of platform`.
 
 Possible mechanisms include search cost, packaging gaps, proof gaps, permission, trust, geography/time mismatch, minimum scale mismatch, quality acceptance, payer/beneficiary separation or coordination cost. The list is illustrative, not a taxonomy boundary.
 
-## 14. Evidence projection happens after discovery
+For truly unformed value, the blocker may also be that actors do not yet recognize a usable combination or outcome category.
 
-Only after a latent-value/complementarity hypothesis exists should evidence be projected into strict transaction primitives:
+## 14. Evidence projection happens after formation
+
+Only after a latent-value/complementarity hypothesis exists and cheap validation justifies promotion should evidence be projected into strict transaction primitives:
 
 ```text
 NeedSignal
@@ -300,9 +375,10 @@ Resource Control State
 ```
 
 ```text
-WORLD MODEL / LATENT VALUE
+WORLD MODEL / VALUE FORMATION
+→ FORMATION VALIDATION
 → EVIDENCE PROJECTION
-→ FAIL-CLOSED VALIDATION
+→ FAIL-CLOSED TRANSACTION VALIDATION
 → ROUTE TEST
 ```
 
@@ -315,21 +391,24 @@ PUBLIC RFQ / VIRAL TREND
 
 ## 15. Promotion states
 
-Discovery maturity may move through:
+Formation maturity may move through:
 
 ```text
 RESIDUAL / UNBOUND
-→ OBSERVED_PATTERN
-→ LATENT_VALUE_HYPOTHESIS
+→ OBSERVED_TRANSITION
+→ RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS
+→ LATENT_VALUE_FORMATION_HYPOTHESIS
 → COMPLEMENTARITY_HYPOTHESIS
 → VALIDATION_READY
 ```
 
-`VALIDATION_READY` does not imply paid need, resource availability, payer, legality, margin or transactionability.
+`VALIDATION_READY` means only that the counterfactual exchange deserves the cheapest decisive reality test.
+
+It does not imply paid need, resource availability, payer, legality, margin or transactionability.
 
 ## 16. Candidate output
 
-A core candidate should preserve at least:
+A core formation candidate should preserve at least:
 
 ```text
 candidate_id
@@ -338,18 +417,20 @@ source_geographies
 research_target_geography
 macro_signal
 money_flow
+actor / actor_segment
+objective_endowments
+observed_state
+observed_change
 perception_motive_behavior
-observed_state_change
-industry_market_structure
-actor
-hidden_or_underrecognized_value:
-why_value_is_not_recognized_or_realized:
-recurrence_or_demand_pump
-complementary_actor_hypothesis:
-transformation_mechanism:
-why_exchange_does_not_already_happen
-evidence
 contradictions
+underused_or_misaligned_value
+resource_psychology_disequilibrium
+unmet_or_unformed_outcome_hypothesis
+complementary_world_nodes
+counterfactual_exchange_design
+why_exchange_does_not_already_happen
+incremental_value_by_node
+evidence
 unknowns
 cheapest_decisive_validation
 kill_conditions
@@ -357,20 +438,22 @@ kill_conditions
 
 ## 17. Discovery priority
 
-Do not prioritize by easiest public data, clearest government record, operator skill fit, fastest monetization or first discovery.
+Do not prioritize by easiest public data, clearest government record, operator skill fit, fastest monetization, explicit-demand clarity or first discovery.
 
 Prefer:
-1. strong observed state change;
-2. plausible latent-value magnitude;
-3. meaningful complementarity;
-4. specific transformation mechanism;
-5. structural reason value remains unrealized;
-6. cheap decisive validation;
-7. recurring/regenerative potential;
-8. domestic relevance and execution feasibility for the China-first mandate.
+1. strong observed objective state change;
+2. evidenced resource/endowment significance;
+3. credible perception/motive/behavior linkage;
+4. meaningful resource–psychology disequilibrium or contradiction;
+5. a clear unmet/unformed outcome rather than premature product framing;
+6. heterogeneous complementary-node potential;
+7. specific counterfactual transformation mechanism;
+8. cheap decisive validation;
+9. recurring/regenerative potential;
+10. domestic relevance and execution feasibility for the China-first mandate.
 
-Operator fit is applied after independent opportunity truth exists.
+Operator fit is applied after independent formation truth exists.
 
 ## 18. Governing invariant
 
-> **全球都可以成为传感器，但主要研究中国现实：先从宏观、钱流、心理、行为、资源和摩擦看中国社会怎么变；国外信息用于增加观察半径、提供反证与迁移假设，而不是把项目带成跨境优先。平台和 taxonomy 都允许随世界生长，稳定的是语义内核、证据边界和事实晋级规则。最终在中国，优先江苏/徐州，寻找能够真实验证并形成可持续循环的价值结构。**
+> **全球都可以成为传感器，但核心不是“哪里已经有人说我要买什么”。先从宏观、钱流、Actor 的客观资源与状态变化、心理、动机和真实行为看现实怎么变，寻找 Resource–Psychology Disequilibrium 与矛盾；再推导尚未成形的 outcome，寻找世界另一处互补节点，设计 Counterfactual Exchange，并用最低成本验证。明确需求可以作为下游强证据，但不能因为容易抓取就反过来定义系统。平台和 taxonomy 都允许随世界生长，稳定的是语义内核、证据边界与事实晋级规则。**
