@@ -8,6 +8,8 @@ Code, data models, sensors, scoring, experiments, workflows and product ideas ex
 
 If a technically correct implementation pulls the system away from this doctrine, the implementation is wrong for this repository.
 
+The executable formation principle is defined in `docs/LATENT_VALUE_FORMATION_BRIDGE.md`. Despite the historical filename, that document is a constitutional discovery principle, not an optional implementation bridge.
+
 ## 1. The system does not begin with supply and demand
 
 The system begins with **reality and actors**.
@@ -19,14 +21,47 @@ The engine must not assume that an actor already understands:
 - what it can do;
 - what is underused;
 - what it lacks;
+- how its perception or motives are changing;
+- what outcome it is moving toward or away from;
 - what others may value;
 - what exchange structure could unlock value.
 
 Therefore the core object is not an explicit listing, RFQ, procurement notice, job post, sales lead or stated demand.
 
-Those are only observable manifestations of deeper states.
+Those are observable manifestations of deeper states and are valid downstream evidence. They do not define the core discovery problem.
 
-## 2. Both sides contain resources, deficits and latent value
+```text
+DEMAND DISCOVERY != LATENT VALUE FORMATION
+EXPLICIT DEMAND EXECUTION != CORE LATENT VALUE FORMATION
+```
+
+## 2. Commercial value does not have to pre-exist the discovery
+
+A resource may objectively exist while the commercial value structure that could emerge from it does not yet exist.
+
+The repository therefore distinguishes:
+
+```text
+OBJECTIVE ENDOWMENT EXISTS
+!=
+ENDOWMENT IS UTILIZED
+!=
+ACTOR RECOGNIZES ITS VALUE
+!=
+A MARKET / PRODUCT / SERVICE EXISTS
+!=
+PAID DEMAND EXISTS
+```
+
+The engine is allowed to reason about **value formation**: how objective resources, actor state transitions, psychology, behavior and complementary world nodes could combine into an exchange that nobody has yet organized.
+
+That reasoning is a hypothesis, not evidence that a business exists.
+
+The central principle is:
+
+> **Demand does not have to exist first. The conditions from which value may emerge can exist first. The system infers a falsifiable exchange from those conditions, then reality decides whether the exchange deserves to exist.**
+
+## 3. Actors are not fixed sides
 
 Do not model the world as:
 
@@ -38,18 +73,18 @@ Prefer:
 
 ```text
 ACTOR A
-  -> endowments
-  -> constraints
-  -> behavior
+  -> objective endowments
+  -> current state / state change
+  -> perception / motive / behavior
   -> unused / hidden / mispriced / uncombined value
-  -> deficits / frictions
+  -> deficits / frictions / contradictions
 
 ACTOR B
-  -> endowments
-  -> constraints
-  -> behavior
+  -> objective endowments
+  -> current state / state change
+  -> perception / motive / behavior
   -> unused / hidden / mispriced / uncombined value
-  -> deficits / frictions
+  -> deficits / frictions / contradictions
 ```
 
 Either actor may simultaneously be:
@@ -66,50 +101,117 @@ Either actor may simultaneously be:
 
 `NEED_ACTOR` and `RESOURCE_OWNER` are roles, not permanent identities.
 
-## 3. Latent value is first-class
+## 4. Resource–Psychology Disequilibrium is first-class
+
+A primary discovery zone is the mismatch between what an actor objectively has and what the actor's current psychology, behavior, environment and available routes allow those resources to become.
+
+```text
+OBJECTIVE ENDOWMENT
++
+STATE / STATE CHANGE
++
+PERCEPTION / MOTIVE
++
+OBSERVED BEHAVIOR
++
+UNDERUSE / MISALIGNMENT
+→ RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
+```
+
+This may appear as:
+- time without a valued new structure;
+- expertise without a callable role;
+- capital without trusted deployment routes;
+- technical capability without access, reputation or domain context;
+- customer access without execution capability;
+- equipment or space without a viable scenario;
+- attention without a transaction structure;
+- relationships without a mechanism that converts trust into accepted outcomes.
+
+These are search zones, not automatically opportunities.
+
+## 5. Latent value and unformed outcomes are first-class
 
 `LATENT_VALUE` means potentially realizable value that exists in an actor, resource, relationship, behavior pattern or structural position but is not yet fully recognized, packaged, connected, trusted, priced or activated.
 
-Examples include:
+`UNMET / UNFORMED OUTCOME` means a state transition that the actor may value or avoid, evidenced through state, perception, motive and behavior, but that has not yet been cleanly articulated as a purchasable product or explicit demand.
+
+Examples of latent value include:
 - idle time that can become bounded paid capability;
 - an experienced worker whose job title hides reusable expertise;
-- unused equipment whose profitable use case has not been recognized;
+- unused equipment whose valuable use case has not been recognized;
 - a community with trusted access but no transaction architecture;
-- repeated complaints that reveal a costly workaround but not yet explicit demand;
-- recurring demand that can itself become a valuable routing resource;
+- repeated complaints or adaptations that reveal a costly contradiction but not yet explicit demand;
+- recurring demand access that can itself become a routing resource;
 - a dataset, relationship, location, reputation or installed base whose value appears only when combined with another actor;
 - fragmented small capacities that become valuable only after aggregation and acceptance rules.
 
-Latent value is a **hypothesis until evidenced**.
+Latent value and unformed outcomes are **hypotheses until evidenced**.
 
 The engine must never declare value merely because it can imagine a use case.
 
-## 4. The canonical discovery chain
+## 6. The canonical discovery and formation chain
 
-The highest-order discovery chain is:
+The highest-order chain is:
 
 ```text
-ACTOR
--> ENDOWMENT / STATE
--> CHANGE
--> BEHAVIOR
--> FRICTION / UNDERUSE / MISALLOCATION
--> LATENT_VALUE_HYPOTHESIS
--> COMPLEMENTARY_ACTOR
--> EXCHANGE_HYPOTHESIS
--> BLOCKER
--> EVIDENCE
--> BOUNDED VALIDATION
--> ACCEPTED VALUE
--> SETTLEMENT
+WORLD SENSING
+-> ACTOR
+-> OBJECTIVE ENDOWMENT / STATE
+-> STATE CHANGE
+-> PERCEPTION / MOTIVE
+-> OBSERVED BEHAVIOR
+-> FRICTION / UNDERUSE / MISALLOCATION / CONTRADICTION
+-> RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
+-> UNMET / UNFORMED OUTCOME HYPOTHESIS
+-> COMPLEMENTARY WORLD-NODE SEARCH
+-> COUNTERFACTUAL EXCHANGE DESIGN
+-> WHY EXCHANGE DOES NOT ALREADY HAPPEN
+-> EVIDENCE / CONTRADICTION SEARCH
+-> CHEAP BOUNDED VALIDATION
+-> ONLY IF SUPPORTED: NEED / RESOURCE / BLOCKER / PAYER PROJECTION
+-> ROUTING / EXECUTION
+-> ACCEPTED VALUE / SETTLEMENT
 -> REPEAT / LEARNING / BETTER ALLOCATION
 ```
 
-`NeedSignal`, `ResourceSignal` and `BlockerSignal` are evidence projections inside this larger model.
+`NeedSignal`, `ResourceSignal` and `BlockerSignal` are fail-closed evidence projections inside this larger model.
 
 They must not shrink the engine into an explicit supply-demand matcher.
 
-## 5. Discovery must search for what actors do not know about themselves
+## 7. Psychology & Behavior Engineering is upstream of product ideas
+
+The psychology system is not merely a social-media complaint miner.
+
+It helps reconstruct:
+
+```text
+WHO / ACTOR SEGMENT
+→ OBJECTIVE ENDOWMENTS
+→ CURRENT STATE
+→ RECENT CHANGE
+→ PERCEPTION
+→ MOTIVE / FEAR / ASPIRATION
+→ OBSERVED BEHAVIOR
+→ CONTRADICTION
+→ RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
+→ POSSIBLE UNFORMED OUTCOME
+```
+
+The system should prefer behavior over self-description and corroborate psychology with money/behavior where possible.
+
+Platforms such as Douyin, Zhihu, Xiaohongshu, Reddit, X or future sources are sensors, not ontology.
+
+```text
+SOCIAL SALIENCE != POPULATION SHARE
+PSYCHOLOGY SIGNAL != DEMAND
+MOTIVE HYPOTHESIS != WILLINGNESS TO PAY
+BEHAVIOR SIGNAL != TRANSACTION
+```
+
+Do not build unnecessary individual psychographic profiles or infer sensitive traits.
+
+## 8. Discovery must search for what actors do not know about themselves
 
 The engine must search not only for stated needs and advertised resources, but also for observable evidence of:
 - idle or underused capacity;
@@ -128,60 +230,87 @@ The engine must search not only for stated needs and advertised resources, but a
 - information asymmetry;
 - recurring workarounds;
 - demand aggregation potential;
-- resources that become valuable only in combination.
+- resources that become valuable only in combination;
+- contradictions between endowment and behavior;
+- desired state transitions that are visible before a product category exists.
 
-The strongest discovery is often not "someone asked for X" but:
+The strongest discovery is often not `someone asked for X` but:
 
-> **something valuable is present, something costly is happening, and the actors have not yet formed the exchange that could connect them.**
+> **valuable conditions are present, actor states are changing, a contradiction is visible, and the actors have not yet formed the exchange that could create the new value.**
 
-## 6. Value creation is not mere matching
+## 9. Value creation is not mere matching
 
 The orchestrator must add incremental value by doing one or more of the following:
 - revealing hidden capability;
-- revealing hidden deficit;
+- revealing hidden deficit or unformed outcome;
+- identifying resource–psychology disequilibrium;
 - reframing or packaging a resource;
 - aggregating fragmented resources or demand;
 - decomposing vague outcomes into callable CapabilityUnits;
+- designing a counterfactual exchange;
 - designing trust and acceptance;
 - reducing information asymmetry;
 - lowering coordination cost;
 - creating a credible Hook;
 - aligning incentives;
-- designing a new exchange structure;
 - making an unavailable relationship executable and repeatable.
 
 A simple introduction is insufficient unless the introduction itself resolves a real recurring structural blocker.
 
-## 7. Evidence discipline remains absolute
+## 10. Counterfactual Exchange Design is a constitutional operation
+
+The engine must be able to ask:
+
+> **If currently separate real-world nodes were connected under explicit roles, incentives, permission, trust and acceptance, could a new exchange emerge that creates incremental value for every required participant?**
+
+The answer may describe a structure that does not currently exist as a mature market or product.
+
+This remains counterfactual until accepted by reality.
+
+```text
+COUNTERFACTUAL EXCHANGE != ACCEPTED EXCHANGE
+COMPLEMENTARITY != TRANSACTIONABILITY
+LATENT VALUE FORMATION != COMMERCIAL OPPORTUNITY
+```
+
+The design must preserve who controls each node, what each participant gains, why the exchange is absent today, what permissions matter, what the orchestrator contributes and what experiment can falsify the thesis.
+
+## 11. Evidence discipline remains absolute
 
 This doctrine does not authorize imagination to become truth.
 
 ```text
+OBJECTIVE RESOURCE EXISTS != COMMERCIAL VALUE EXISTS
 POTENTIAL VALUE != PROVEN VALUE
 LATENT_VALUE_HYPOTHESIS != RESOURCE
+UNFORMED OUTCOME HYPOTHESIS != DEMAND
 OBSERVED FRICTION != PAID NEED
+PSYCHOLOGY HYPOTHESIS != DEMAND
+DEMAND != WILLINGNESS TO PAY
+WILLINGNESS TO PAY != TRANSACTION
 RESOURCE EXISTS != UNDERUSED
 UNDERUSED != AVAILABLE
 COMPLEMENTARITY != TRANSACTIONABILITY
 ACTOR BENEFITS != ACTOR PAYS
+COUNTERFACTUAL EXCHANGE != ACCEPTED EXCHANGE
 UNKNOWN != PASS
 ```
 
-The purpose of the engine is to **discover boldly and promote conservatively**.
+The purpose of the engine is to **infer boldly and promote conservatively**.
 
 Hypothesis generation may be broad.
 Canonical promotion must remain fail-closed and evidence-bound.
 
-## 8. Architecture must follow cognition
+## 12. Architecture must follow cognition
 
 The repository must obey this dependency direction:
 
 ```text
 WORLD MODEL / DOCTRINE
         ↓
-DISCOVERY MODEL
+LATENT VALUE FORMATION MODEL
         ↓
-EVIDENCE MODEL
+DISCOVERY / EVIDENCE MODEL
         ↓
 DECISION / VALIDATION MODEL
         ↓
@@ -208,21 +337,22 @@ redefine the business architecture.
 A source adapter is an **observer**, not the strategy.
 A data field is an **observation**, not the ontology.
 A current opportunity is a **sample**, not the business identity.
+An explicit demand is a **downstream observation**, not the definition of opportunity formation.
 
-## 9. Architectural veto
+## 13. Architectural veto
 
 Before adding or materially expanding any feature, ask:
 
-1. What latent value, actor state, behavior, friction, resource or exchange structure does this help us observe, validate or activate?
-2. Does it improve the engine's ability to discover value that actors may not already have articulated?
-3. Does it preserve the distinction between hypothesis and evidence?
-4. Does it improve our ability to connect complementary actors without turning the operator into permanent sales/delivery labor?
-5. Is this generalizable system capability, or are we overfitting to one website, transaction or candidate?
+1. What actor state, objective endowment, psychology/behavior shift, disequilibrium, unformed outcome, complementary node or exchange structure does this help us observe, infer, validate or activate?
+2. Does it improve the engine's ability to form and test value structures that actors may not already have articulated?
+3. Does it preserve the distinction between inference and evidence?
+4. Does it improve our ability to connect complementary nodes without turning the operator into permanent sales/delivery labor?
+5. Is this generalizable system capability, or are we overfitting to one website, explicit demand, transaction or candidate?
 6. If this feature disappeared, would the core doctrine still be intact?
 
-If the answer to questions 1-4 is weak, the feature is not a core-priority feature even if it is technically useful.
+If answers 1–4 are weak, the feature is not a core-priority feature even if technically useful.
 
-## 10. Executable value requires operator-access truth and counterpart-visible surplus
+## 14. Executable value requires operator-access truth and counterpart-visible surplus
 
 The operator is also an `Actor` with real endowments, deficits, history, credibility, relationships, constraints and access rights.
 
@@ -236,7 +366,7 @@ CURRENT OPERATOR ACCESS / EXECUTION FEASIBILITY
 COUNTERPARTY VISIBLE SURPLUS
 ```
 
-A latent-value hypothesis may be true while the current operator still lacks a legitimate route to the relevant actor.
+A latent-value formation may be true while the current operator still lacks a legitimate route to the relevant actor.
 A legitimate route may exist while the actor still has no concrete reason to participate.
 
 Relevant `OperatorEndowment` may include, where evidenced and appropriate:
@@ -348,16 +478,18 @@ DISCOVERED VALUE = EXECUTABLE VALUE
 An opportunity may therefore be commercially attractive but temporarily `ACCESS_BLOCKED`.
 That is a route constraint, not evidence that the underlying latent value is false.
 
-## 11. Orchestrator identity
+## 15. Orchestrator identity
 
 The orchestrator is primarily responsible for:
 
 ```text
 SEE STRUCTURE
--> DISCOVER HIDDEN VALUE
--> FORM EXCHANGE HYPOTHESES
+-> OBSERVE OBJECTIVE ENDOWMENTS / STATE CHANGES
+-> IDENTIFY RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
+-> FORM UNMET / UNFORMED OUTCOME HYPOTHESES
+-> SEARCH COMPLEMENTARY WORLD NODES
+-> DESIGN COUNTERFACTUAL EXCHANGES
 -> PROVE WHAT IS REAL
--> DESIGN THE CONNECTION
 -> DEFINE RULES / TRUST / ACCEPTANCE
 -> ROUTE EXECUTION
 -> LEARN FROM OUTCOMES
@@ -365,10 +497,8 @@ SEE STRUCTURE
 
 The operator is not defined by personally selling, sourcing or delivering every transaction.
 
-The durable advantage is the ability to see and organize value that remains invisible or unusable in its current form.
+The durable advantage is the ability to see conditions from which value can form, test those structures against reality, and organize accepted circulation when they survive.
 
-## 12. Governing sentence
+## 16. Governing sentence
 
-> **先观其所自：不把世界预设成“需求方与供给方”，而是观察每个 Actor 已有什么、缺什么、正在发生什么、哪些价值被闲置、遮蔽、错配或尚未成形；再以证据证明潜在价值，以结构找到互补关系，同时诚实评估操盘者自身已有的能力、信用、后台、入口与缺口；只有在价值真实、关系可达、参与者能看见真实增量收益、规则可接受时，才以信任、激励和可验收能力让原本彼此无关的价值发生连接，使价值流动、交换、沉淀并形成可持续循环。**
-
-This doctrine is upstream of all implementation choices.
+> **先观其所自：不把世界预设成“需求方与供给方”，也不等待市场先把需求说出来。先观察每个 Actor 客观拥有什么、状态怎样变化、如何感受这种变化、动机与行为怎样偏移，以及“客观拥有”与“实际利用”之间出现了什么错位；再从这种 Resource–Psychology Disequilibrium 中推导尚未被清晰表达的结果，寻找世界另一处真实存在的互补节点，设计一种可能尚不存在的交换。推导不是事实，心理不是需求，需求不是付费，付费意愿也不是成交；只有现实验证、权限、参与者增量收益、验收与结算成立时，潜在价值才真正进入商业世界。**
