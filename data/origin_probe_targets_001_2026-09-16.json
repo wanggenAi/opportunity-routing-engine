@@ -1,0 +1,106 @@
+{
+  "artifact_id": "ORIGIN-PROBE-TARGETS-001-2026-09-16",
+  "observed_at": "2026-09-16",
+  "candidate_id": "XZ-NONOEM-MAINTENANCE-TRACE-AI-001",
+  "status": "PUBLIC_TARGET_POOL_READY_ORIGIN_TRUTH_STILL_BLOCKED",
+  "scope": "Xuzhou engineering-machinery independent/service/rental actors",
+  "purpose": "Identify a small, heterogeneous set of real origin-side actors where the existence, schema, ownership and reuse boundary of non-OEM maintenance/failure records can be tested without copying customer or equipment data.",
+  "what_is_not_the_missing_edge": [
+    "maintenance record digitization itself",
+    "generic equipment lifecycle SaaS",
+    "generic repair dispatch or work-order management",
+    "OEM telemetry collection",
+    "OEM-led predictive maintenance",
+    "generic high-quality dataset construction tooling"
+  ],
+  "surviving_missing_edge_question": "Do independent aftermarket actors hold lawfully reusable, cross-actor-comparable non-OEM failure/repair traces that are not already absorbed by OEM/platform data systems, and would those traces add enough incremental value to an industrial-AI/dataset buyer to support a paid pilot?",
+  "public_counterevidence": [
+    {
+      "source": "https://www.yweibao.com.cn/",
+      "fact": "Commercial industrial-maintenance SaaS already records repair history, equipment lifecycle records, work orders, inspections, spare parts and maintenance analytics."
+    },
+    {
+      "source": "https://www.idongdian.cn/",
+      "fact": "Commercial engineering-machinery IoT/rental management software already tracks alarms, repairs and maintenance across the equipment lifecycle."
+    },
+    {
+      "source": "https://www.hanyunplat.com/solutionDetails/66",
+      "fact": "XCMG/Hanyun already combines equipment fault data and repair data for lifecycle management and feeds those data back to manufacturer R&D."
+    },
+    {
+      "source": "https://jszwb.jiangsu.gov.cn/art/2025/7/15/art_88540_11601169.html",
+      "fact": "XCMG is already a national enterprise trusted-data-space pilot, so generic data-space infrastructure is not a missing edge."
+    },
+    {
+      "source": "https://szb.cnxz.com.cn/xzrb/pad/con/202605/12/content_49825.html",
+      "fact": "Two Xuzhou engineering-machinery high-quality dataset projects already cover second-hand machinery and vehicle-network data."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "ORIGIN-FT-001",
+      "name": "徐州福泰工程机械贸易有限公司",
+      "fit": "HIGH",
+      "public_state": "Current public site describes engineering-machinery repair, parts, rentals, a 6000-square-metre site with a repair workshop, 1000+ parts inventory and 1000+ terminal users; 2026 public activity is visible.",
+      "why_probe": "Combines repair + parts + rental + broad terminal-user exposure, increasing the chance that repeated fault/repair traces exist outside a pure OEM telemetry stream.",
+      "unknowns": ["record medium", "fields retained", "whether records are equipment-linked", "rights owner", "OEM/platform contract absorption", "reuse permission"],
+      "public_sources": ["https://www.xzftjx.com/", "https://b2bwiki.baidu.com/article/721615057138319361"]
+    },
+    {
+      "target_id": "ORIGIN-LX-002",
+      "name": "徐州路信工程机械租赁有限公司",
+      "fit": "HIGH",
+      "public_state": "Public site states nationwide equipment rental plus large/mid-size machinery field emergency repair, repair and maintenance services.",
+      "why_probe": "Own/rented equipment plus explicit field repair/maintenance makes it a direct test of whether operational traces remain local, oral/paper, or digitally retained.",
+      "unknowns": ["repair-history retention", "fault taxonomy", "parts/action records", "outcome/repeat-repair fields", "rights boundary"],
+      "public_sources": ["https://xzlxjx.top/"]
+    },
+    {
+      "target_id": "ORIGIN-YH-003",
+      "name": "徐州永合工程机械有限公司",
+      "fit": "HIGH",
+      "public_state": "Current public site states equipment rental and repair, 10+ rental product types, 200+ customers and a mixed-brand fleet including Wirtgen, Vogele, Volvo, BOMAG/Hamm and other road-machinery equipment.",
+      "why_probe": "Mixed-brand equipment is valuable for testing whether aftermarket records contain failure/repair information not confined to one OEM data ecosystem.",
+      "unknowns": ["whether repair work is internal fleet-only or external", "record schema", "brand-level comparability", "rights and confidentiality"],
+      "public_sources": ["https://www.xzyhgcjx.com/"]
+    },
+    {
+      "target_id": "ORIGIN-ZRD-004",
+      "name": "徐州众瑞达工程机械有限公司",
+      "fit": "MEDIUM_HIGH",
+      "public_state": "Current public site states 50+ equipment units, engineering-machinery rental, road construction and road maintenance/repair operations.",
+      "why_probe": "A fleet of 50+ units should create repeated maintenance events; this target tests the fleet-owner side even if external repair services are not the core business.",
+      "unknowns": ["maintenance is in-house or outsourced", "whether per-machine histories exist", "whether failure outcomes are retained", "rights boundary"],
+      "public_sources": ["https://www.yljzl.top/"]
+    },
+    {
+      "target_id": "ORIGIN-HT-005",
+      "name": "徐州市华通公路工程机械有限公司",
+      "fit": "MEDIUM_HIGH",
+      "public_state": "2026 public references describe a currently operating road-machinery rental/construction/technical-service company with about 80 major equipment units and regular maintenance; current public business information also reports the entity as active.",
+      "why_probe": "Larger owned fleet offers a contrast with smaller repair/rental actors and can test whether scale produces structured maintenance data or simply internal operational records.",
+      "unknowns": ["system used", "maintenance-history structure", "cross-brand coverage", "whether data is already captured by OEM systems", "reuse rights"],
+      "public_sources": ["https://www.dzwww.com/jixie/7adf10a6aa1081581.html", "https://www.025ct.com/zx/2026/0910/689420.html"]
+    }
+  ],
+  "probe_protocol": {
+    "data_copy": "PROHIBITED_AT_STAGE_1",
+    "customer_identifiers": "DO_NOT_REQUEST",
+    "equipment_serial_numbers": "DO_NOT_REQUEST",
+    "minimum_questions": [
+      "Do you keep a repair/maintenance history at all?",
+      "What medium: paper, Excel, ERP/SaaS, WeChat, technician memory, mixed?",
+      "What blank field names exist on a typical record?",
+      "Is the record linked to a specific equipment ID internally?",
+      "Do records distinguish symptom, diagnosis/root cause, action, replaced part and post-repair result?",
+      "Can repeated repair/rework be identified?",
+      "Who legally/contractually controls the record and derived use?",
+      "Do OEM, dealer, insurer, platform or customer contracts already receive/control the same information?",
+      "Would the actor consider a separately authorized, de-identified derived dataset if there were measurable economic value?"
+    ],
+    "pass_gate": "At least 3 of 5 actors retain non-trivial records with a minimum common schema; at least 2 have a plausible authorization path for de-identified derived use; records are not already fully absorbed by an OEM/platform contract.",
+    "next_only_after_pass": "Present only the abstracted common schema, not source records, to one industrial-AI/high-quality-dataset buyer and test incremental model/evaluation value plus paid-pilot intent.",
+    "kill_gate": "Kill if records are mostly oral/non-retained, common schema cannot be formed, rights cannot be cleared, or the same traces are already comprehensively captured by incumbent OEM/platform systems."
+  },
+  "external_contact_sent": false
+}
