@@ -1,21 +1,37 @@
-"""Fail-closed market-gap gate for latent-value formation hypotheses.
+"""Fail-closed market-gap and field-access gates for latent-value formation.
 
 A formation hypothesis is not worth field promotion merely because resources are
-underused and complementary.  Before a route is selected for field validation the
+underused and complementary. Before a route is selected for field validation the
 system must search for already-existing exchange structures and prove that a
 material edge is still missing.
 
-Core boundary:
+For the current P0 (first external truth), a second distinction also matters:
 
-    COMPLEMENTARITY
-    + COUNTERFACTUAL EXCHANGE
-    != MISSING EDGE
+    IMPORTANT / NOVEL HYPOTHESIS != GOOD FIRST FIELD ROUTE
 
-Promotion requires evidence for all three questions:
+A candidate can remain intellectually valid while being a poor first probe because
+truth requires enterprise procurement, proprietary data, large capital, a prior
+contract, or other heavy permission. P0 therefore prefers directly observable,
+reachable actor classes whose first falsification can be run cheaply and lawfully.
+This is a routing priority rule, not a claim that hard-access markets lack value.
+
+Core boundaries:
+
+    COMPLEMENTARITY + COUNTERFACTUAL EXCHANGE != MISSING EDGE
+    MISSING EDGE != P0 FIELD ACCESS
+    HIGH ACCESS FRICTION != BAD LONG-TERM OPPORTUNITY
+
+Missing-edge promotion requires evidence for all three questions:
 
 1. What exchange structures already exist for the same actor/outcome/geography?
 2. What material failure remains despite those structures?
 3. Why has the market not already closed that failure cheaply enough?
+
+P0 field priority additionally asks:
+
+4. Can the first decisive observation reach real actors without proprietary data,
+   enterprise procurement, large capital, sensitive dossiers, or a pre-existing
+   commercial contract?
 
 If an observed existing route already solves the target outcome adequately, the
 candidate is closed rather than "improved" into a new opportunity narrative.
@@ -34,6 +50,15 @@ class MissingEdgeState(str, Enum):
     STRUCTURAL_FAILURE_EVIDENCE_REQUIRED = "STRUCTURAL_FAILURE_EVIDENCE_REQUIRED"
     MISSING_EDGE_HYPOTHESIS = "MISSING_EDGE_HYPOTHESIS"
     VALIDATION_READY = "VALIDATION_READY"
+
+
+class FieldAccessState(str, Enum):
+    """Practical accessibility of the first decisive field probe."""
+
+    ACCESS_EVIDENCE_REQUIRED = "ACCESS_EVIDENCE_REQUIRED"
+    DIRECTLY_TESTABLE = "DIRECTLY_TESTABLE"
+    MEDIATED_TESTABLE = "MEDIATED_TESTABLE"
+    HIGH_FRICTION_DEFER = "HIGH_FRICTION_DEFER"
 
 
 @dataclass(frozen=True)
@@ -93,6 +118,35 @@ class MissingEdgeAssessment:
     counterevidence: Sequence[MissingEdgeCounterevidence] = field(default_factory=tuple)
 
 
+@dataclass(frozen=True)
+class FieldAccessProfile:
+    """Evidence-bound P0 accessibility profile.
+
+    This profile does not score market quality. It answers only whether the current
+    system can cheaply touch reality for the *first* decisive probe.
+
+    `reachable_actor_class` means real members of the actor class can be reached
+    through ordinary lawful channels; it does not mean any individual has consented.
+    `observable_without_proprietary_access` means the first hypothesis-killing facts
+    can be observed without requesting trade secrets, private datasets, credentials,
+    or internal production systems.
+    """
+
+    candidate_id: str
+    actor_segment: str
+    first_probe_description: str
+    access_evidence: Sequence[MissingEdgeEvidence]
+    reachable_actor_class: bool
+    observable_without_proprietary_access: bool
+    requires_enterprise_procurement: bool = False
+    requires_proprietary_data: bool = False
+    requires_large_capital: bool = False
+    requires_sensitive_personal_data: bool = False
+    requires_preexisting_contract: bool = False
+    intermediary_required: bool = False
+    notes: str = ""
+
+
 _REQUIRED_TEXT_FIELDS = (
     "candidate_id",
     "actor_segment",
@@ -107,6 +161,13 @@ _REQUIRED_TEXT_FIELDS = (
 )
 
 
+_FIELD_ACCESS_REQUIRED_TEXT_FIELDS = (
+    "candidate_id",
+    "actor_segment",
+    "first_probe_description",
+)
+
+
 def _usable_search_evidence(
     assessment: MissingEdgeAssessment,
 ) -> list[MissingEdgeEvidence]:
@@ -117,6 +178,10 @@ def _usable_failure_evidence(
     assessment: MissingEdgeAssessment,
 ) -> list[MissingEdgeEvidence]:
     return [item for item in assessment.structural_failure_evidence if item.is_usable()]
+
+
+def _usable_access_evidence(profile: FieldAccessProfile) -> list[MissingEdgeEvidence]:
+    return [item for item in profile.access_evidence if item.is_usable()]
 
 
 def _material_unresolved_counterevidence(
@@ -138,7 +203,7 @@ def validate_missing_edge(assessment: MissingEdgeAssessment) -> list[str]:
 
     ``VALIDATION_READY`` means only that a narrow missing-edge hypothesis has
     survived an existing-exchange search and has enough observed structural failure
-    to justify a cheap reality test.  It does not establish payer truth, permission,
+    to justify a cheap reality test. It does not establish payer truth, permission,
     transactionability, profit, or repeatability.
     """
 
@@ -178,6 +243,21 @@ def validate_missing_edge(assessment: MissingEdgeAssessment) -> list[str]:
     return errors
 
 
+def validate_field_access(profile: FieldAccessProfile) -> list[str]:
+    """Validate that P0 access claims are evidence-bound rather than convenient story."""
+
+    errors: list[str] = []
+    for name in _FIELD_ACCESS_REQUIRED_TEXT_FIELDS:
+        value = getattr(profile, name)
+        if not isinstance(value, str) or not value.strip():
+            errors.append(f"missing:{name}")
+
+    if not _usable_access_evidence(profile):
+        errors.append("missing:field_access_evidence")
+
+    return errors
+
+
 def missing_edge_state(assessment: MissingEdgeAssessment) -> MissingEdgeState:
     search_evidence = _usable_search_evidence(assessment)
     usable_routes = [route for route in assessment.existing_routes if route.is_usable()]
@@ -200,10 +280,58 @@ def missing_edge_state(assessment: MissingEdgeAssessment) -> MissingEdgeState:
     return MissingEdgeState.VALIDATION_READY
 
 
+def field_access_state(profile: FieldAccessProfile) -> FieldAccessState:
+    """Classify first-probe friction without ranking long-term market value."""
+
+    if validate_field_access(profile):
+        return FieldAccessState.ACCESS_EVIDENCE_REQUIRED
+
+    hard_access_requirements = (
+        profile.requires_enterprise_procurement,
+        profile.requires_proprietary_data,
+        profile.requires_large_capital,
+        profile.requires_sensitive_personal_data,
+        profile.requires_preexisting_contract,
+    )
+    if any(hard_access_requirements):
+        return FieldAccessState.HIGH_FRICTION_DEFER
+
+    if not profile.reachable_actor_class:
+        return FieldAccessState.HIGH_FRICTION_DEFER
+
+    if not profile.observable_without_proprietary_access:
+        return FieldAccessState.HIGH_FRICTION_DEFER
+
+    if profile.intermediary_required:
+        return FieldAccessState.MEDIATED_TESTABLE
+
+    return FieldAccessState.DIRECTLY_TESTABLE
+
+
 def field_validation_allowed(assessment: MissingEdgeAssessment) -> bool:
     """Whether the missing edge itself is ready for a cheap bounded field test."""
 
     return missing_edge_state(assessment) is MissingEdgeState.VALIDATION_READY
+
+
+def p0_access_priority_allowed(profile: FieldAccessProfile) -> bool:
+    """Whether a candidate is practical for the current first-truth P0."""
+
+    return field_access_state(profile) in {
+        FieldAccessState.DIRECTLY_TESTABLE,
+        FieldAccessState.MEDIATED_TESTABLE,
+    }
+
+
+def p0_field_validation_allowed(
+    assessment: MissingEdgeAssessment,
+    profile: FieldAccessProfile,
+) -> bool:
+    """Combined truth + access gate for P0 field execution."""
+
+    if assessment.candidate_id != profile.candidate_id:
+        return False
+    return field_validation_allowed(assessment) and p0_access_priority_allowed(profile)
 
 
 GOVERNING_INVARIANTS = (
@@ -214,5 +342,9 @@ GOVERNING_INVARIANTS = (
     "MISSING_EDGE_REQUIRES_OBSERVED_FAILURE_EVIDENCE",
     "ADEQUATE_EXISTING_ROUTE_CLOSES_CANDIDATE",
     "WHY_NOT_ALREADY_SOLVED_REQUIRES_EVIDENCE_NOT_STORY",
+    "MISSING_EDGE_NE_P0_FIELD_ACCESS",
+    "HIGH_ACCESS_FRICTION_NE_BAD_LONG_TERM_OPPORTUNITY",
+    "P0_PREFERS_OBSERVABLE_REACHABLE_LOW_PERMISSION_VALIDATION",
+    "FIELD_ACCESS_CLAIM_REQUIRES_EVIDENCE",
     "UNKNOWN_NE_PASS",
 )
