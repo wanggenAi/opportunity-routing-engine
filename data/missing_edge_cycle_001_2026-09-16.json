@@ -1,0 +1,108 @@
+{
+  "artifact_id": "MISSING-EDGE-CYCLE-001-2026-09-16",
+  "observed_at": "2026-09-16",
+  "scope": "China/Jiangsu/Xuzhou public evidence",
+  "status": "FAIL_CLOSED_MARKET_GAP_REASSESSMENT",
+  "question": "What complementary resources are still separated by a material missing edge after searching the exchange structures that already exist?",
+  "governing_invariants": [
+    "COMPLEMENTARITY_NE_MISSING_EDGE",
+    "MARKET_SIZE_NE_STRUCTURAL_FAILURE",
+    "COMPETITION_NE_OPPORTUNITY",
+    "EXISTING_EXCHANGE_SEARCH_REQUIRED_BEFORE_FIELD_PROMOTION",
+    "MISSING_EDGE_REQUIRES_OBSERVED_FAILURE_EVIDENCE",
+    "ADEQUATE_EXISTING_ROUTE_CLOSES_CANDIDATE",
+    "WHY_NOT_ALREADY_SOLVED_REQUIRES_EVIDENCE_NOT_STORY",
+    "UNKNOWN_NE_PASS"
+  ],
+  "reassessments": [
+    {
+      "candidate_id": "XZ-DIGITAL-ACCEPTANCE-001",
+      "prior_thesis": "digital-transformation acceptance blockers may create bounded specialist-routing tasks",
+      "existing_exchange_found": [
+        "Xuzhou already has first-batch full-chain digital-transformation service providers",
+        "government already procured digital-level assessment and third-party acceptance organizations",
+        "public/private research and service institutions already provide enterprise digital-transformation support"
+      ],
+      "missing_edge_state": "STRUCTURAL_FAILURE_EVIDENCE_REQUIRED",
+      "reason": "The ecosystem is real and crowded. Public evidence does not prove a recurring blocker class that incumbent providers cannot handle economically. Existing-provider completeness is counterevidence, not opportunity proof.",
+      "field_priority": "DEPRIORITIZE",
+      "kill_or_reopen_rule": "Reopen only if a controller supplies a live redacted blocker plus evidence that the incumbent route cannot solve it at acceptable cost/time/risk."
+    },
+    {
+      "candidate_id": "XZ-RETIREE-YOUNG-AI-MICROCELL",
+      "prior_thesis": "retired domain judgment plus younger AI execution may form a temporary acceptance-bounded micro-cell",
+      "existing_exchange_found": [
+        "multiple provinces already operate flexible/project-based Silver Engineer or retired high-skill talent programs",
+        "commercial expert-data vendors already organize domain experts for AI data production and evaluation",
+        "technology-manager and expert-enterprise matching mechanisms already organize flexible expertise"
+      ],
+      "missing_edge_state": "STRUCTURAL_FAILURE_EVIDENCE_REQUIRED",
+      "reason": "Retired-expert utilization and expert-plus-AI work are not unorganized categories. The exact micro-cell may still differ, but no observed failure yet proves that existing flexible expert routes leave a valuable uncovered interface.",
+      "field_priority": "DEPRIORITIZE_AS_STANDALONE_ROUTE",
+      "kill_or_reopen_rule": "Reopen only around a specific observed task where expert judgment and AI execution must be separated and current expert/consulting routes fail on economics, speed or acceptance."
+    },
+    {
+      "candidate_id": "XZ-SHARED-INSTRUMENT-OUTCOME-ROUTING",
+      "prior_thesis": "idle or externally shareable scientific instruments may be composed around SME testing outcomes",
+      "existing_exchange_found": [
+        "Jiangsu's science-resource platform lists 35,000+ shared instruments, 22,000+ service items and thousands of completed service transactions",
+        "Xuzhou Medical University exposes an external large-instrument sharing portal",
+        "Nanjing already has a market-operated vertical platform that lets SMEs reserve expensive biomedical instruments and technical services online"
+      ],
+      "missing_edge_state": "MARKET_ALREADY_CLOSED_FOR_SIMPLE_INSTRUMENT_SHARING",
+      "reason": "The generic exchange 'idle instrument -> external SME access' is already organized and transacting. A narrower 'problem semantics -> multi-instrument method chain -> interpretation' thesis would require fresh direct failure evidence and must not inherit the generic sharing thesis.",
+      "field_priority": "KILL_GENERIC_ROUTE",
+      "kill_or_reopen_rule": "Only reopen a narrower outcome-level route after observing a firm that can access instruments but still cannot economically translate its problem into a validated test-method chain."
+    },
+    {
+      "candidate_id": "XZ-NONOEM-MAINTENANCE-TRACE-AI-001",
+      "prior_thesis": "fragmented non-OEM maintenance/failure traces plus domain adjudication may become reusable industrial-AI training/evaluation assets",
+      "existing_exchange_found": [
+        "XCMG/Hanyun is already building an OEM-led engineering-machinery vehicle-network high-quality dataset for predictive maintenance and later aftermarket extension",
+        "commercial expert-data companies already provide expert annotation, quality control and evaluation workflows",
+        "high-quality industrial-dataset construction and evaluation platforms already exist"
+      ],
+      "observed_structural_failure": [
+        "current manufacturing-AI policy analysis still reports data barriers, weak interoperability and low data utilization as common problems",
+        "national high-quality-dataset policy explicitly pushes expert-deep-participation because data annotation is moving from labor-intensive to knowledge-intensive work",
+        "public OEM examples prove first-party data can be organized, but do not prove independent service/rental repair traces are already governed and reusable across actors"
+      ],
+      "missing_edge_hypothesis": "a rights-cleared cross-actor interface that turns narrow non-OEM fault/repair records plus domain-expert adjudication into model-ready evidence without requiring each small service actor to become a data company",
+      "why_not_already_solved_hypothesis": "record ownership and customer confidentiality are fragmented; schemas differ; labels are sparse; expert adjudication is expensive; and OEM-led data platforms have stronger control over first-party telemetry than over independent aftermarket traces",
+      "missing_edge_state": "MISSING_EDGE_HYPOTHESIS_WITH_ORIGIN_TRUTH_BLOCKER",
+      "field_priority": "PRIMARY_EMPIRICAL_PROBE",
+      "known_blockers": [
+        "No direct evidence yet that 5 independent Xuzhou service/rental actors retain comparable repair/failure records",
+        "No direct evidence yet that those actors can lawfully authorize reuse beyond operational service",
+        "No direct buyer evidence yet that the exact available fields add value beyond existing OEM/public datasets",
+        "Existing OEM aftermarket expansion may eventually close the edge"
+      ],
+      "cheapest_decisive_validation": "Without copying any customer or equipment data, inspect the blank schema/field names and rights boundary of maintenance records at 5 independent service/rental actors; only if at least 3 have comparable lawful record classes, present the abstracted schema to one industrial-AI/dataset buyer and ask whether it changes training/evaluation value enough to justify a paid pilot.",
+      "kill_conditions": [
+        "usable records do not exist or are mostly oral",
+        "rights cannot be cleared",
+        "schemas are too heterogeneous for a minimum common record",
+        "OEM/platform contracts already absorb the same traces",
+        "a buyer says the fields add no incremental model/evaluation value",
+        "economics require the founder to perform ongoing annotation or consulting labor"
+      ]
+    }
+  ],
+  "current_decision": {
+    "selected_for_next_research": "XZ-NONOEM-MAINTENANCE-TRACE-AI-001",
+    "selected_for_external_execution": false,
+    "reason": "It is the only current candidate that survives an existing-exchange search without pretending the edge is already proven. The next blocker is origin-side field truth, not more architecture or solution design.",
+    "external_outreach_sent": false
+  },
+  "sources": [
+    "https://www.digitalchina.gov.cn/2026/xwzx/szkx/202608/t20260825_5363049.htm",
+    "https://www.nda.gov.cn/sjj/zwgk/zjjd/0612/20260612222534802449334_pc.html",
+    "https://www.xcmg.com/aboutus/news-detail-1128818.htm",
+    "https://www.jiangsu.gov.cn/art/2026/7/21/art_33718_11808010.html",
+    "https://www.jssic.cn/",
+    "https://dygx.xzhmu.edu.cn/Customer/index/index.html",
+    "https://finance.sina.com.cn/jjxw/2026-06-15/doc-inicmnpi5263929.shtml",
+    "https://gxt.yn.gov.cn/zfxxgk/fdzdgknr/tzgg/202608/t20260831_3824730.html",
+    "https://rlsbj.cq.gov.cn/ztzl/txsgrcpy/202609/t20260904_16032735.html"
+  ]
+}
