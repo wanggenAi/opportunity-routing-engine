@@ -2,12 +2,18 @@ import unittest
 
 from src.missing_edge_gate import (
     ExistingExchangeRoute,
+    FieldAccessProfile,
+    FieldAccessState,
     MissingEdgeAssessment,
     MissingEdgeCounterevidence,
     MissingEdgeEvidence,
     MissingEdgeState,
+    field_access_state,
     field_validation_allowed,
     missing_edge_state,
+    p0_access_priority_allowed,
+    p0_field_validation_allowed,
+    validate_field_access,
     validate_missing_edge,
 )
 
@@ -85,6 +91,37 @@ class MissingEdgeGateTests(unittest.TestCase):
         payload.update(overrides)
         return MissingEdgeAssessment(**payload)
 
+    def _access_profile(self, **overrides):
+        payload = dict(
+            candidate_id="ME-001",
+            actor_segment="NEW_RETIREES_AND_UNIVERSITY_STUDENTS",
+            first_probe_description=(
+                "observe resource/state-change/behavior patterns through ordinary opt-in conversations "
+                "before proposing any product or asking for private records"
+            ),
+            access_evidence=(
+                MissingEdgeEvidence(
+                    "official:older-adult-ai-course",
+                    "older-adult AI learning programs expose a reachable public learning context",
+                ),
+                MissingEdgeEvidence(
+                    "official:student-opc-camp",
+                    "local university entrepreneurship programs expose a reachable student execution context",
+                ),
+            ),
+            reachable_actor_class=True,
+            observable_without_proprietary_access=True,
+            requires_enterprise_procurement=False,
+            requires_proprietary_data=False,
+            requires_large_capital=False,
+            requires_sensitive_personal_data=False,
+            requires_preexisting_contract=False,
+            intermediary_required=False,
+            notes="P0 access test only; no individual consent is implied by public reachability evidence.",
+        )
+        payload.update(overrides)
+        return FieldAccessProfile(**payload)
+
     def test_complete_missing_edge_can_be_validation_ready(self):
         assessment = self._assessment()
         self.assertEqual(validate_missing_edge(assessment), [])
@@ -158,6 +195,38 @@ class MissingEdgeGateTests(unittest.TestCase):
             MissingEdgeState.MISSING_EDGE_HYPOTHESIS,
         )
         self.assertFalse(field_validation_allowed(assessment))
+
+    def test_direct_human_actor_probe_is_p0_accessible(self):
+        profile = self._access_profile()
+        self.assertEqual(validate_field_access(profile), [])
+        self.assertEqual(field_access_state(profile), FieldAccessState.DIRECTLY_TESTABLE)
+        self.assertTrue(p0_access_priority_allowed(profile))
+
+    def test_mediated_actor_probe_can_still_be_p0_accessible(self):
+        profile = self._access_profile(intermediary_required=True)
+        self.assertEqual(field_access_state(profile), FieldAccessState.MEDIATED_TESTABLE)
+        self.assertTrue(p0_access_priority_allowed(profile))
+
+    def test_enterprise_procurement_or_proprietary_data_defers_p0(self):
+        profile = self._access_profile(
+            requires_enterprise_procurement=True,
+            requires_proprietary_data=True,
+        )
+        self.assertEqual(field_access_state(profile), FieldAccessState.HIGH_FRICTION_DEFER)
+        self.assertFalse(p0_access_priority_allowed(profile))
+
+    def test_missing_access_evidence_is_fail_closed(self):
+        profile = self._access_profile(access_evidence=())
+        self.assertIn("missing:field_access_evidence", validate_field_access(profile))
+        self.assertEqual(field_access_state(profile), FieldAccessState.ACCESS_EVIDENCE_REQUIRED)
+        self.assertFalse(p0_access_priority_allowed(profile))
+
+    def test_combined_p0_gate_requires_same_candidate_and_truth(self):
+        assessment = self._assessment()
+        profile = self._access_profile()
+        self.assertTrue(p0_field_validation_allowed(assessment, profile))
+        mismatch = self._access_profile(candidate_id="OTHER")
+        self.assertFalse(p0_field_validation_allowed(assessment, mismatch))
 
 
 if __name__ == "__main__":
