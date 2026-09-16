@@ -1,0 +1,232 @@
+{
+  "artifact_id": "ACCESSIBLE-POTENTIAL-FLOW-LAB-001-2026-09-17",
+  "observed_at": "2026-09-17",
+  "scope": "P0 field-priority scan with China/Xuzhou public evidence",
+  "status": "MULTI_ROUTE_ACCESSIBLE_FORMATION_LAB_NOT_BUSINESS_WINNER",
+  "purpose": "Find low-permission, low-cost reality probes where state change creates underused resources on one side and blocked outcomes on another, without preselecting an industry or product.",
+  "governing_invariants": [
+    "FORMATION_LAB_NE_BUSINESS_VERTICAL",
+    "ACTOR_CLASS_NE_PRODUCT",
+    "COMPLEMENTARITY_NE_MISSING_EDGE",
+    "MISSING_EDGE_NE_P0_FIELD_ACCESS",
+    "HIGH_ACCESS_FRICTION_NE_BAD_LONG_TERM_OPPORTUNITY",
+    "P0_PREFERS_OBSERVABLE_REACHABLE_LOW_PERMISSION_VALIDATION",
+    "STATE_CHANGE_CAN_CREATE_RESOURCE_GRADIENT",
+    "POTENTIAL_GRADIENT_NE_DEMAND",
+    "POTENTIAL_GRADIENT_NE_TRANSACTION",
+    "EXISTING_EXCHANGE_SEARCH_REQUIRED",
+    "FIELD_TRUTH_GT_INTERNAL_COMPLETENESS",
+    "UNKNOWN_NE_PASS"
+  ],
+  "seed_lenses_not_ontology": [
+    "time surplus <-> task or structure deficit",
+    "experience/judgment surplus <-> execution/context deficit",
+    "digital/AI execution surplus <-> real-world problem/trust deficit",
+    "space surplus <-> activity/community deficit",
+    "local knowledge/relationships surplus <-> packaging/distribution deficit",
+    "attention/community access surplus <-> organization/activation deficit",
+    "fragmented available time <-> asynchronous bounded task deficit",
+    "idle local asset surplus <-> route-to-market deficit"
+  ],
+  "selection_rule": {
+    "prefer": [
+      "real actors can be reached through ordinary lawful channels",
+      "first decisive facts are observable without proprietary data",
+      "no enterprise procurement is required for the first probe",
+      "no large capital is required for the first probe",
+      "no sensitive-personal-data dossier is needed",
+      "the state change and resource underuse can be observed before pitching a solution",
+      "existing routes can be checked quickly and the hypothesis can die cheaply"
+    ],
+    "defer_for_p0": [
+      "requires NDA or internal enterprise systems before learning anything decisive",
+      "requires data-rights negotiation before observing the underlying resource",
+      "requires procurement or a pre-existing contract",
+      "requires founder to build software before field truth",
+      "requires capital deployment to learn whether the gradient exists"
+    ]
+  },
+  "formation_labs": [
+    {
+      "candidate_id": "PF-INTERGEN-JUDGMENT-EXECUTION-001",
+      "actors": [
+        "new/recent retirees or other experienced people leaving a full-time organizational role",
+        "university students / younger AI-digital executors"
+      ],
+      "state_change": "retirement can abruptly remove the organization that previously converted experience, relationships and judgment into daily use; students simultaneously gain powerful AI/digital execution while still lacking real-world context, trust and problem access",
+      "potential_gradient": "experienced judgment, time and social context on one side; fast digital execution, learning capacity and AI leverage on the other",
+      "do_not_assume": [
+        "retiree marketplace",
+        "student freelancing",
+        "digital tutoring for older adults",
+        "generic expert consulting"
+      ],
+      "existing_exchange_counterevidence": [
+        "Silver Engineer / retired high-skill flexible-service programs already exist",
+        "older-adult AI learning and digital-assistance programs already exist",
+        "student entrepreneurship, internship and enterprise-project channels already exist"
+      ],
+      "missing_edge_question": "After subtracting those existing routes, are there recurring outcomes that experienced people want without returning to employment and that young executors cannot reach without domain judgment/trust, where a new bounded exchange would make both states better?",
+      "first_probe": "separate opt-in conversations with 5 experienced transition actors and 5 students; map state change, currently underused resources, repeated desired outcomes, current workarounds and rejected routes before proposing any pairing",
+      "access_state": "DIRECTLY_TESTABLE",
+      "field_priority": "FIRST_WAVE",
+      "kill_conditions": [
+        "no repeated underuse after the transition",
+        "no complementary blocked outcome appears across multiple actors",
+        "existing employment/expert/student-project routes already solve the same outcome adequately",
+        "value requires one side to become a disguised employee or cheap labor"
+      ]
+    },
+    {
+      "candidate_id": "PF-OFFPEAK-SPACE-LOCAL-HOST-002",
+      "actors": [
+        "small shops/community spaces with recurring off-peak idle capacity",
+        "residents/creators/retired teachers/hobby experts with a callable skill",
+        "nearby people seeking low-commitment activities or social connection"
+      ],
+      "state_change": "urban spaces and community facilities increasingly have measurable periods of underuse while more residents seek nearby low-cost learning, hobby and social activity",
+      "potential_gradient": "idle physical capacity + callable local skill + unmet nearby activity/time-slot demand",
+      "do_not_assume": [
+        "venue-rental platform",
+        "community class marketplace",
+        "generic coworking"
+      ],
+      "existing_exchange_counterevidence": [
+        "community shared-space and resident-host models already exist",
+        "commercial venue rental and event platforms already exist"
+      ],
+      "missing_edge_question": "Are there hyperlocal time slots where the owner values foot traffic/activation more than rent, a local host has underused skill, and residents want a tiny recurring outcome that existing venue/class routes are too expensive or formal to organize?",
+      "first_probe": "observe 5 nearby spaces at two off-peak windows and separately talk to 5 potential local hosts; no lease, renovation or event launch before repeated idle-time and host/outcome evidence appears",
+      "access_state": "DIRECTLY_OR_MEDIATED_TESTABLE",
+      "field_priority": "FIRST_WAVE",
+      "kill_conditions": [
+        "space is not actually idle",
+        "owners require normal commercial rent that removes surplus",
+        "existing community/commercial activity already satisfies the same outcome",
+        "coordination or liability cost exceeds the value"
+      ]
+    },
+    {
+      "candidate_id": "PF-MICROBUSINESS-REALPROBLEM-STUDENT-003",
+      "actors": [
+        "small local merchants / tiny organizations with bounded unresolved operational problems",
+        "students/young people seeking real projects and evidence of capability"
+      ],
+      "state_change": "AI lowers execution cost and makes smaller tasks technically solvable while students increasingly have tools but lack authentic problems; many tiny actors still have tasks too small or ambiguous for formal agencies",
+      "potential_gradient": "real problem access/trust on one side + low-cost modern execution on the other",
+      "do_not_assume": [
+        "digital marketing agency",
+        "outsourcing shop",
+        "student freelancing marketplace"
+      ],
+      "existing_exchange_counterevidence": [
+        "student enterprise practice and OPC programs already exist",
+        "freelance and agency markets already sell small-business digital services"
+      ],
+      "missing_edge_question": "Do recurring micro-problems exist that are below agency economic thresholds yet sufficiently real and bounded to create valuable proof for students without making them free labor?",
+      "first_probe": "collect 10 recent problems from reachable small actors using only problem/outcome/current-workaround/deadline fields; independently ask 10 students which exact task classes they can evidence and accept under bounded conditions",
+      "access_state": "DIRECTLY_TESTABLE",
+      "field_priority": "FIRST_WAVE_WITH_STRONG_MARKET_CLOSURE_TEST",
+      "kill_conditions": [
+        "problems are generic services already cheaply solved on existing platforms",
+        "business owners only want unpaid labor",
+        "tasks cannot be bounded or objectively accepted",
+        "student capability cannot be evidenced"
+      ]
+    },
+    {
+      "candidate_id": "PF-FRAGMENTED-TIME-ASYNC-TASK-004",
+      "actors": [
+        "caregivers / stay-at-home parents / others with fragmented but recurring available time",
+        "organizations with asynchronous bounded work"
+      ],
+      "state_change": "care responsibilities can remove contiguous work hours while leaving fragmented time and prior skills available",
+      "potential_gradient": "fragmented recurring time and skills <-> work that can be decomposed asynchronously",
+      "existing_exchange_counterevidence": [
+        "community flexible-employment programs already match caregivers to local microjobs",
+        "data labeling, customer service, content moderation and remote flexible jobs already exist"
+      ],
+      "missing_edge_question": "Is there a higher-value bounded task class that existing flexible-employment channels systematically fail to expose because they over-index on low-skill piecework?",
+      "first_probe": "research only; do not promote until a repeated task class and actor-side skill evidence appear beyond existing flexible-job supply",
+      "access_state": "DIRECTLY_TESTABLE_BUT_MARKET_LIKELY_PARTLY_CLOSED",
+      "field_priority": "SECOND_WAVE_SCAN",
+      "kill_conditions": [
+        "existing flexible-work routes already serve the same task/value level",
+        "only low-value piecework remains",
+        "coordination around fragmented time destroys task economics"
+      ]
+    },
+    {
+      "candidate_id": "PF-RETURNER-LOCAL-ASSET-MARKET-005",
+      "actors": [
+        "return-home young people with outside-market/digital capability",
+        "households/villages/local operators with underused spaces, products, knowledge or relationships"
+      ],
+      "state_change": "some young people return with digital and external-market knowledge while local physical/cultural/production assets remain underused or poorly connected to demand",
+      "potential_gradient": "local asset/context/trust <-> digital packaging/distribution/market access",
+      "existing_exchange_counterevidence": [
+        "national and local policy already explicitly promotes return-home entrepreneurship and idle-asset activation",
+        "many incubators and rural entrepreneurship parks already organize this exchange"
+      ],
+      "missing_edge_question": "At household or micro-community scale, are there assets too small or irregular for formal incubators but still able to support a low-cost new exchange?",
+      "first_probe": "only scan specific reachable assets and current non-use reasons; do not infer opportunity from the existence of rural idle assets",
+      "access_state": "MEDIATED_TESTABLE",
+      "field_priority": "SECOND_WAVE_NARROW_ONLY",
+      "kill_conditions": [
+        "formal programs already activate the same asset",
+        "asset use requires heavy permits/capital",
+        "route-to-market cost exceeds incremental value"
+      ]
+    },
+    {
+      "candidate_id": "PF-COMMUNITY-SKILL-ATTENTION-006",
+      "actors": [
+        "residents with underused non-sensitive skills or organizing ability",
+        "existing community attention/trust channels",
+        "neighbors with small recurring outcomes"
+      ],
+      "state_change": "community governance and shared-space programs are increasingly exposing resident skills and micro-needs that were previously private and disconnected",
+      "potential_gradient": "trusted local attention + resident capability + tiny recurring outcomes",
+      "existing_exchange_counterevidence": [
+        "community host, volunteer and shared-living-room models already exist"
+      ],
+      "missing_edge_question": "Which useful resident capabilities remain uncallable because volunteering and commercial services are both the wrong commitment level?",
+      "first_probe": "observe one community or residential cluster and record only recurring requests, resident-offered skills and current coordination failures; no resident profiling",
+      "access_state": "MEDIATED_TESTABLE",
+      "field_priority": "FIRST_OR_SECOND_WAVE",
+      "kill_conditions": [
+        "volunteer/community programs already close the same edge",
+        "no repeat outcome exists",
+        "trust/safety requirements make lightweight orchestration inappropriate"
+      ]
+    }
+  ],
+  "current_p0_decision": {
+    "single_business_route_selected": false,
+    "first_wave_labs": [
+      "PF-INTERGEN-JUDGMENT-EXECUTION-001",
+      "PF-OFFPEAK-SPACE-LOCAL-HOST-002",
+      "PF-MICROBUSINESS-REALPROBLEM-STUDENT-003"
+    ],
+    "parallel_scan": [
+      "PF-COMMUNITY-SKILL-ATTENTION-006",
+      "PF-FRAGMENTED-TIME-ASYNC-TASK-004",
+      "PF-RETURNER-LOCAL-ASSET-MARKET-005"
+    ],
+    "deprioritized_prior_route": "XZ-NONOEM-MAINTENANCE-TRACE-AI-001",
+    "deprioritized_reason": "The hypothesis may still be real, but its first decisive truth requires higher permission, data-rights and enterprise access than the accessible human/community formation labs. Keep it as backlog evidence, not current P0.",
+    "external_outreach_sent": false
+  },
+  "public_evidence": [
+    "https://szb.cnxz.com.cn/xzrb/pad/con/202603/27/content_47713.html",
+    "https://xzcxcy.xzit.edu.cn/21/ca/c2046a205258/page.htm",
+    "https://ltx.cumt.edu.cn/info/1045/2247.htm",
+    "https://szb.cnxz.com.cn/xzrb/pad/con/202608/24/content_55657.html",
+    "https://finance.sina.com.cn/jjxw/2026-07-24/doc-iniivyeq9226616.shtml",
+    "https://www.moe.gov.cn/srcsite/A12/s7060/202607/t20260706_1442807.html",
+    "https://sq.cqie.edu.cn/html/59/content/26/07/78940.shtml",
+    "https://www.ahq.gov.cn/xwzx/xzdt/202605/t20260529_2772099.html",
+    "https://www.cqyc.gov.cn/zwgk_204/zfxxgkmls/jytabl/rdjy/202606/t20260602_15721642.html",
+    "https://chinajob.mohrss.gov.cn/h5/c/2026-01-06/478197.shtml"
+  ]
+}
