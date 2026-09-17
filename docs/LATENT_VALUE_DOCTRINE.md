@@ -8,7 +8,7 @@ Code, data models, sensors, scoring, experiments, workflows and product ideas ex
 
 If a technically correct implementation pulls the system away from this doctrine, the implementation is wrong for this repository.
 
-The executable formation principle is defined in `docs/LATENT_VALUE_FORMATION_BRIDGE.md`. Despite the historical filename, that document is a constitutional discovery principle, not an optional implementation bridge.
+The executable formation principle is defined in `docs/LATENT_VALUE_FORMATION_BRIDGE.md`. The connection-discovery clarification is defined in `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`. These are constitutional discovery principles, not optional implementation notes.
 
 ## 1. The system does not begin with supply and demand
 
@@ -53,13 +53,21 @@ A MARKET / PRODUCT / SERVICE EXISTS
 PAID DEMAND EXISTS
 ```
 
-The engine is allowed to reason about **value formation**: how objective resources, actor state transitions, psychology, behavior and complementary world nodes could combine into an exchange that nobody has yet organized.
+The engine is allowed to reason about **value formation**: how objective resources, actor state transitions, psychology, behavior and complementary world nodes could participate in value that nobody has yet organized.
 
-That reasoning is a hypothesis, not evidence that a business exists.
+That reasoning is a hypothesis, not evidence that a business or even the connection exists.
 
 The central principle is:
 
-> **Demand does not have to exist first. The conditions from which value may emerge can exist first. The system infers a falsifiable exchange from those conditions, then reality decides whether the exchange deserves to exist.**
+> **Demand does not have to exist first. The conditions from which value may emerge can exist first. The system may infer unformed outcomes and search complementary nodes broadly, but it must discover evidence that reality is already exerting pressure toward a connection before that connection is promoted. Only then may it design the minimum exchange mechanics and let reality confirm or falsify the remaining uncertainty.**
+
+Therefore:
+
+```text
+CONNECTION INVENTION != CONNECTION DISCOVERY
+COMPLEMENTARITY != LATENT CONNECTION
+COUNTERFACTUAL EXCHANGE DESIGN != CONNECTION EVIDENCE
+```
 
 ## 3. Actors are not fixed sides
 
@@ -128,7 +136,7 @@ This may appear as:
 - attention without a transaction structure;
 - relationships without a mechanism that converts trust into accepted outcomes.
 
-These are search zones, not automatically opportunities.
+These are search zones, not automatically opportunities or connections.
 
 ## 5. Latent value and unformed outcomes are first-class
 
@@ -165,10 +173,13 @@ WORLD SENSING
 -> RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
 -> UNMET / UNFORMED OUTCOME HYPOTHESIS
 -> COMPLEMENTARY WORLD-NODE SEARCH
--> COUNTERFACTUAL EXCHANGE DESIGN
--> WHY EXCHANGE DOES NOT ALREADY HAPPEN
--> EVIDENCE / CONTRADICTION SEARCH
--> CHEAP BOUNDED VALIDATION
+-> CONNECTION-PRESSURE EVIDENCE
+-> PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
+-> OBSERVED MISSING EDGE / STRANDING BARRIER
+-> LATENT CONNECTION HYPOTHESIS
+-> CONTRADICTION SEARCH
+-> ONLY THEN: COUNTERFACTUAL EXCHANGE MECHANICS
+-> CHEAPEST DECISIVE REALITY CONFIRMATION
 -> ONLY IF SUPPORTED: NEED / RESOURCE / BLOCKER / PAYER PROJECTION
 -> ROUTING / EXECUTION
 -> ACCEPTED VALUE / SETTLEMENT
@@ -178,6 +189,8 @@ WORLD SENSING
 `NeedSignal`, `ResourceSignal` and `BlockerSignal` are fail-closed evidence projections inside this larger model.
 
 They must not shrink the engine into an explicit supply-demand matcher.
+
+Human outreach, calls and field visits are not the default discovery algorithm. They are scarce validation capital used after broad sensing has reduced the search space to an evidence-bound latent connection and one decisive unresolved fact.
 
 ## 7. Psychology & Behavior Engineering is upstream of product ideas
 
@@ -209,6 +222,8 @@ MOTIVE HYPOTHESIS != WILLINGNESS TO PAY
 BEHAVIOR SIGNAL != TRANSACTION
 ```
 
+Repeated workaround, substitution, referral and informal-coordination behavior may be especially important because it can expose connection pressure without an explicit market category.
+
 Do not build unnecessary individual psychographic profiles or infer sensitive traits.
 
 ## 8. Discovery must search for what actors do not know about themselves
@@ -232,11 +247,12 @@ The engine must search not only for stated needs and advertised resources, but a
 - demand aggregation potential;
 - resources that become valuable only in combination;
 - contradictions between endowment and behavior;
-- desired state transitions that are visible before a product category exists.
+- desired state transitions that are visible before a product category exists;
+- partial, informal, substitute or adjacent flows that reveal a relationship already trying to form.
 
-The strongest discovery is often not `someone asked for X` but:
+The strongest discovery is often not `someone asked for X` and not `A could help B`, but:
 
-> **valuable conditions are present, actor states are changing, a contradiction is visible, and the actors have not yet formed the exchange that could create the new value.**
+> **valuable conditions are present, actor states are changing, a contradiction is visible, and repeated real behavior shows value already trying to cross a boundary that the current exchange structure does not handle well.**
 
 ## 9. Value creation is not mere matching
 
@@ -244,10 +260,12 @@ The orchestrator must add incremental value by doing one or more of the followin
 - revealing hidden capability;
 - revealing hidden deficit or unformed outcome;
 - identifying resource–psychology disequilibrium;
+- discovering latent connection pressure;
+- distinguishing a real missing edge from an imagined one;
 - reframing or packaging a resource;
 - aggregating fragmented resources or demand;
 - decomposing vague outcomes into callable CapabilityUnits;
-- designing a counterfactual exchange;
+- designing minimum counterfactual exchange mechanics for an evidenced connection;
 - designing trust and acceptance;
 - reducing information asymmetry;
 - lowering coordination cost;
@@ -257,23 +275,43 @@ The orchestrator must add incremental value by doing one or more of the followin
 
 A simple introduction is insufficient unless the introduction itself resolves a real recurring structural blocker.
 
-## 10. Counterfactual Exchange Design is a constitutional operation
+## 10. Latent Connection Discovery is constitutional; Counterfactual Exchange Design is downstream
 
-The engine must be able to ask:
+The engine must first ask:
 
-> **If currently separate real-world nodes were connected under explicit roles, incentives, permission, trust and acceptance, could a new exchange emerge that creates incremental value for every required participant?**
+> **What evidence shows that currently separate real-world nodes are already being pushed toward the same value flow, while an observed missing edge prevents that flow from becoming normal?**
 
-The answer may describe a structure that does not currently exist as a mature market or product.
+A `LATENT CONNECTION` is not metaphysical certainty. It is an engineering hypothesis grounded in directional evidence such as:
+- repeated actor workarounds;
+- informal/manual exchange already approximating the relationship;
+- repeated failed attempts to cross the same boundary;
+- search, substitution, referral or coordination behavior;
+- a shared external change that produces stranded value on one side and costly pressure on another;
+- an adjacent or historical analogue under comparable constraints;
+- value already moving through a more expensive, slower, lower-trust or institutionally awkward route.
 
-This remains counterfactual until accepted by reality.
+Only after that relationship pressure is evidenced may the system ask:
+
+> **Given this evidenced latent connection, what minimum roles, incentives, permissions, trust, acceptance and settlement mechanics would let value flow with less friction?**
+
+That downstream operation is the historical `COUNTERFACTUAL EXCHANGE DESIGN`.
+
+The answer may describe mechanics that do not currently exist as a mature market or product, but it must not be used as evidence that the connection exists.
 
 ```text
-COUNTERFACTUAL EXCHANGE != ACCEPTED EXCHANGE
+CONNECTION INVENTION != CONNECTION DISCOVERY
+COMPLEMENTARITY != LATENT CONNECTION
+CONNECTION HYPOTHESIS != CONNECTION PRESSURE EVIDENCE
+MISSING EDGE HYPOTHESIS != OBSERVED MISSING EDGE
+COUNTERFACTUAL EXCHANGE != LATENT CONNECTION EVIDENCE
+LATENT CONNECTION != ACCEPTED EXCHANGE
 COMPLEMENTARITY != TRANSACTIONABILITY
 LATENT VALUE FORMATION != COMMERCIAL OPPORTUNITY
 ```
 
-The design must preserve who controls each node, what each participant gains, why the exchange is absent today, what permissions matter, what the orchestrator contributes and what experiment can falsify the thesis.
+The mechanism design must preserve who controls each node, what each participant gains, what observed barrier keeps the relationship incomplete, what permissions matter, what the orchestrator contributes and what experiment can falsify the remaining thesis.
+
+The goal is not to prohibit invention. It is to prevent invention from masquerading as discovery.
 
 ## 11. Evidence discipline remains absolute
 
@@ -290,7 +328,9 @@ DEMAND != WILLINGNESS TO PAY
 WILLINGNESS TO PAY != TRANSACTION
 RESOURCE EXISTS != UNDERUSED
 UNDERUSED != AVAILABLE
-COMPLEMENTARITY != TRANSACTIONABILITY
+COMPLEMENTARITY != LATENT CONNECTION
+CONNECTION HYPOTHESIS != CONNECTION PRESSURE EVIDENCE
+MISSING EDGE HYPOTHESIS != OBSERVED MISSING EDGE
 ACTOR BENEFITS != ACTOR PAYS
 COUNTERFACTUAL EXCHANGE != ACCEPTED EXCHANGE
 UNKNOWN != PASS
@@ -343,10 +383,10 @@ An explicit demand is a **downstream observation**, not the definition of opport
 
 Before adding or materially expanding any feature, ask:
 
-1. What actor state, objective endowment, psychology/behavior shift, disequilibrium, unformed outcome, complementary node or exchange structure does this help us observe, infer, validate or activate?
-2. Does it improve the engine's ability to form and test value structures that actors may not already have articulated?
+1. What actor state, objective endowment, psychology/behavior shift, disequilibrium, unformed outcome, complementary node, connection-pressure evidence or exchange structure does this help us observe, infer, validate or activate?
+2. Does it improve the engine's ability to discover value relationships that reality is already trying to form, rather than merely generate plausible combinations?
 3. Does it preserve the distinction between inference and evidence?
-4. Does it improve our ability to connect complementary nodes without turning the operator into permanent sales/delivery labor?
+4. Does it improve our ability to discover and activate complementary nodes without turning the operator into the primary search/sales/delivery labor?
 5. Is this generalizable system capability, or are we overfitting to one website, explicit demand, transaction or candidate?
 6. If this feature disappeared, would the core doctrine still be intact?
 
@@ -488,17 +528,19 @@ SEE STRUCTURE
 -> IDENTIFY RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
 -> FORM UNMET / UNFORMED OUTCOME HYPOTHESES
 -> SEARCH COMPLEMENTARY WORLD NODES
--> DESIGN COUNTERFACTUAL EXCHANGES
+-> DISCOVER CONNECTION PRESSURE / PARTIAL FLOWS / MISSING EDGES
+-> FORM LATENT CONNECTION HYPOTHESES
+-> DESIGN MINIMUM COUNTERFACTUAL EXCHANGE MECHANICS
 -> PROVE WHAT IS REAL
 -> DEFINE RULES / TRUST / ACCEPTANCE
 -> ROUTE EXECUTION
 -> LEARN FROM OUTCOMES
 ```
 
-The operator is not defined by personally selling, sourcing or delivering every transaction.
+The operator is not defined by personally selling, sourcing or delivering every transaction, nor by physically checking every plausible combination.
 
-The durable advantage is the ability to see conditions from which value can form, test those structures against reality, and organize accepted circulation when they survive.
+The durable advantage is the ability to see conditions from which value can form, discover the relationships reality is already pushing toward, test only the decisive remaining uncertainty, and organize accepted circulation when those relationships survive.
 
 ## 16. Governing sentence
 
-> **先观其所自：不把世界预设成“需求方与供给方”，也不等待市场先把需求说出来。先观察每个 Actor 客观拥有什么、状态怎样变化、如何感受这种变化、动机与行为怎样偏移，以及“客观拥有”与“实际利用”之间出现了什么错位；再从这种 Resource–Psychology Disequilibrium 中推导尚未被清晰表达的结果，寻找世界另一处真实存在的互补节点，设计一种可能尚不存在的交换。推导不是事实，心理不是需求，需求不是付费，付费意愿也不是成交；只有现实验证、权限、参与者增量收益、验收与结算成立时，潜在价值才真正进入商业世界。**
+> **先观其所自：不把世界预设成“需求方与供给方”，也不等待市场先把需求说出来。先观察每个 Actor 客观拥有什么、状态怎样变化、如何感受这种变化、动机与行为怎样偏移，以及“客观拥有”与“实际利用”之间出现了什么错位；再从这种 Resource–Psychology Disequilibrium 中推导尚未被清晰表达的结果，寻找真实存在的互补节点。但互补不是连接：系统必须继续寻找共同变化、重复绕行、替代行为、局部交换、失败尝试与真实阻塞留下的 Connection Pressure，发现现实已经在形成但尚未显现的价值通道。只有这些痕迹收敛以后，才设计最小 Counterfactual Exchange 机制，并把人的时间、信誉和现场行动用于最后一个关键未知量。推导不是事实，心理不是需求，连接假设不是连接证据，需求不是付费，付费意愿也不是成交；只有现实验证、权限、参与者增量收益、验收与结算成立时，潜在价值才真正进入商业世界。**

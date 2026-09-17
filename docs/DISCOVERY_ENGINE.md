@@ -2,10 +2,11 @@
 
 Status: `CANONICAL / LOCKED DISCOVERY LOGIC`
 
-Effective: 2026-09-16
+Effective: 2026-09-17
 
 Parents:
 - `docs/LATENT_VALUE_DOCTRINE.md`
+- `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`
 - `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
 - `docs/DYNAMIC_SENSOR_FABRIC.md`
 
@@ -13,13 +14,13 @@ This document defines the front half of the Actor-First Regenerative Latent-Valu
 
 The engine does not begin from an explicit buyer, supplier, RFQ, procurement notice, current platform or fixed industry taxonomy. Those are sensor manifestations of deeper actor states.
 
-Its core job is not merely to discover demand. It is to identify **conditions from which a valuable exchange may form before a mature demand or product category exists**.
+Its core job is not merely to discover demand. It is to identify **conditions from which a valuable exchange may form before a mature demand or product category exists**, and then discover whether reality is already exerting directional pressure toward a connection among those conditions.
 
 ## 1. Core principle — LOCKED
 
 Begin with reality:
 
-> **What objectively exists; what changed; which actors are entering new states; how perception, motive and behavior are changing; where objective endowments and actual utilization are becoming misaligned; what outcome may be forming before it is articulated; and what other world nodes could make that state transition possible?**
+> **What objectively exists; what changed; which actors are entering new states; how perception, motive and behavior are changing; where objective endowments and actual utilization are becoming misaligned; what outcome may be forming before it is articulated; what other world nodes could make that state transition possible; and what repeated real behavior shows that value is already trying to cross the boundary between them?**
 
 Do not begin with:
 - a favored product or startup idea;
@@ -29,12 +30,15 @@ Do not begin with:
 - a fixed social-platform list;
 - a fashionable technology;
 - the operator's existing skill;
-- today's taxonomy.
+- today's taxonomy;
+- a plausible A+B combination with no connection-pressure evidence.
 
 A source adapter is an observer. A platform is not an ontology. A current candidate is a sample, not the business identity.
 
 ```text
 DEMAND DISCOVERY != LATENT VALUE FORMATION
+CONNECTION INVENTION != CONNECTION DISCOVERY
+COMPLEMENTARITY != LATENT CONNECTION
 ```
 
 ## 2. Stable kernel, dynamic world model — LOCKED
@@ -93,10 +97,13 @@ GLOBAL + DOMESTIC SENSOR FABRIC
 → RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
 → UNMET / UNFORMED OUTCOME HYPOTHESIS
 → COMPLEMENTARY WORLD-NODE SEARCH
-→ COUNTERFACTUAL EXCHANGE DESIGN
-→ WHY EXCHANGE DOES NOT ALREADY HAPPEN
-→ EVIDENCE / CONTRADICTION SEARCH
-→ CHEAPEST DECISIVE VALIDATION
+→ CONNECTION-PRESSURE EVIDENCE
+→ PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
+→ OBSERVED MISSING EDGE / STRANDING BARRIER
+→ LATENT CONNECTION HYPOTHESIS
+→ CONTRADICTION SEARCH
+→ ONLY THEN: MINIMUM COUNTERFACTUAL EXCHANGE MECHANICS
+→ CHEAPEST DECISIVE REALITY CONFIRMATION
 → ONLY THEN NEED / RESOURCE / BLOCKER / PAYER PROJECTION
 → ORCHESTRATION / TRANSACTION DESIGN
 ```
@@ -119,11 +126,17 @@ resource_psychology_disequilibrium
 unmet_or_unformed_outcome_hypothesis
 hidden_or_underrecognized_value
 complementary_world_nodes
+connection_pressure_evidence
+partial_flow_or_workaround_evidence
+observed_missing_edge
+latent_connection_hypothesis
 counterfactual_exchange_design
 why_exchange_does_not_already_happen
 cheapest_decisive_validation
 kill_conditions
 ```
+
+`counterfactual_exchange_design` remains a compatibility field for downstream exchange mechanics. It is not connection evidence.
 
 #### `EXPLICIT_DEMAND_EXECUTION`
 
@@ -210,7 +223,7 @@ Track broad China reality before interpreting anecdotes:
 - technology / policy / regulation;
 - imports/exports where they explain domestic states or exceptional opportunities.
 
-Macro indicators identify search zones; they do not prove a business.
+Macro indicators identify search zones; they do not prove a business or latent connection.
 
 Ask where money accelerates/disappears, who gains/loses share, whether price or volume drives change, which actors are entering new states, which resources are being repriced or stranded, and what psychology/behavior changes follow.
 
@@ -246,11 +259,12 @@ Observe, without treating this list as exhaustive:
 - fragmented purchasing;
 - recurring complaints with behavior change;
 - assets/skills generating low return despite adjacent change;
-- newly available time, money, knowledge, access or attention whose old use structure has disappeared.
+- newly available time, money, knowledge, access or attention whose old use structure has disappeared;
+- partial/informal value flows that already approximate a possible connection.
 
 Psychology must be corroborated by behavior and money where possible.
 
-The output is not `product idea`. It is evidence for a possible state transition, contradiction or `RESOURCE–PSYCHOLOGY DISEQUILIBRIUM`.
+The output is not `product idea` or `connection fact`. It is evidence for a possible state transition, contradiction, `RESOURCE–PSYCHOLOGY DISEQUILIBRIUM` or connection-pressure search.
 
 ## 9. Actor state / endowment model
 
@@ -327,42 +341,67 @@ Search across:
 
 Search by state compatibility such as excess↔shortage, fragmented↔aggregatable, tacit knowledge↔repeated uncertainty, idle capacity↔newly valued outcome, local trust↔high acquisition cost, unused data↔repeated decisions.
 
-`Complementarity != Transactionability`.
+But this step only narrows the search space:
 
-## 12. Counterfactual Exchange Design
+```text
+COMPLEMENTARITY != LATENT CONNECTION
+A CAN HELP B != REALITY IS TRYING TO CONNECT A AND B
+```
 
-Explain how value would be formed if currently unrelated nodes were connected.
+## 12. Latent Connection Discovery and minimum exchange mechanics
 
-Mechanisms may include aggregation, decomposition, standardization, verification, digitization, packaging, optioning, scheduling, acceptance criteria, trust boundaries, payment rules or combining weak assets into a viable route.
+After complementary nodes are found, search for evidence that the relationship is already trying to form.
 
-The design must state:
+Connection-pressure evidence may include:
+- repeated workaround behavior;
+- manual or informal exchange;
+- repeated failed attempts to cross the same boundary;
+- substitution / referral / search behavior;
+- value already moving through an expensive, slow or low-trust route;
+- shared external change creating stranded value on one side and repeated pressure on another;
+- adjacent or historical analogues under comparable constraints.
+
+Then identify the **observed missing edge**, not merely a plausible blocker.
+
+Only after these are evidenced may the historical `Counterfactual Exchange Design` describe how value could flow more cleanly.
+
+Mechanics may include aggregation, decomposition, standardization, verification, digitization, packaging, optioning, scheduling, acceptance criteria, trust boundaries, payment rules or combining weak assets into a viable route.
+
+The mechanism description must state:
 - origin actor current state;
 - desired/unformed outcome;
 - each complementary node and contribution;
+- connection-pressure evidence;
+- observed missing edge;
 - controller/permission unknowns;
 - value created for each required participant;
-- why the exchange does not happen now;
 - orchestrator value beyond introduction;
-- cheapest decisive validation;
+- cheapest decisive reality confirmation;
 - kill conditions.
 
 ```text
-COUNTERFACTUAL EXCHANGE != ACCEPTED EXCHANGE
+CONNECTION HYPOTHESIS != CONNECTION PRESSURE EVIDENCE
+COUNTERFACTUAL EXCHANGE != LATENT CONNECTION EVIDENCE
+LATENT CONNECTION != ACCEPTED EXCHANGE
 ```
 
-No transformation mechanism means the formation hypothesis is incomplete.
+No connection-pressure evidence means the candidate stays below `VALIDATION_READY`, regardless of how elegant the mechanism sounds.
 
 ## 13. Why exchange does not already happen
 
-State the structural blocker rather than saying only `lack of platform`.
+State the observed structural blocker rather than saying only `lack of platform`.
 
 Possible mechanisms include search cost, packaging gaps, proof gaps, permission, trust, geography/time mismatch, minimum scale mismatch, quality acceptance, payer/beneficiary separation or coordination cost. The list is illustrative, not a taxonomy boundary.
 
-For truly unformed value, the blocker may also be that actors do not yet recognize a usable combination or outcome category.
+For truly unformed value, the blocker may also be that actors do not yet recognize a usable combination or outcome category, but that explanation remains a hypothesis until behavior or other attributable evidence supports it.
+
+```text
+MISSING EDGE HYPOTHESIS != OBSERVED MISSING EDGE
+```
 
 ## 14. Evidence projection happens after formation
 
-Only after a latent-value/complementarity hypothesis exists and cheap validation justifies promotion should evidence be projected into strict transaction primitives:
+Only after a latent-connection hypothesis exists and cheap confirmation justifies promotion should evidence be projected into strict transaction primitives:
 
 ```text
 NeedSignal
@@ -376,7 +415,10 @@ Resource Control State
 
 ```text
 WORLD MODEL / VALUE FORMATION
-→ FORMATION VALIDATION
+→ CONNECTION-PRESSURE EVIDENCE
+→ LATENT CONNECTION
+→ MINIMUM MECHANICS
+→ FORMATION CONFIRMATION
 → EVIDENCE PROJECTION
 → FAIL-CLOSED TRANSACTION VALIDATION
 → ROUTE TEST
@@ -387,6 +429,14 @@ not:
 ```text
 PUBLIC RFQ / VIRAL TREND
 → assume this is the business
+```
+
+and not:
+
+```text
+PLAUSIBLE PAIRING
+→ human outreach as search
+→ call it discovery
 ```
 
 ## 15. Promotion states
@@ -402,7 +452,9 @@ RESIDUAL / UNBOUND
 → VALIDATION_READY
 ```
 
-`VALIDATION_READY` means only that the counterfactual exchange deserves the cheapest decisive reality test.
+`COMPLEMENTARITY_HYPOTHESIS` means compatible nodes and plausible mechanics may exist, but connection-pressure evidence, missing-edge truth or contradiction resolution is incomplete.
+
+`VALIDATION_READY` means objective formation evidence now includes explicit `CONNECTION_PRESSURE`, an observed stranding barrier, behavior-corroborated psychology, evidenced complementary nodes and no unresolved material contradiction. Reality already provides enough directional evidence to justify spending scarce human/external validation capital on the remaining decisive uncertainty.
 
 It does not imply paid need, resource availability, payer, legality, margin or transactionability.
 
@@ -427,6 +479,10 @@ underused_or_misaligned_value
 resource_psychology_disequilibrium
 unmet_or_unformed_outcome_hypothesis
 complementary_world_nodes
+connection_pressure_evidence
+partial_flow_or_workaround_evidence
+observed_missing_edge
+latent_connection_hypothesis
 counterfactual_exchange_design
 why_exchange_does_not_already_happen
 incremental_value_by_node
@@ -435,6 +491,8 @@ unknowns
 cheapest_decisive_validation
 kill_conditions
 ```
+
+The persisted implementation may retain historical field names for compatibility, but promotion semantics follow this document.
 
 ## 17. Discovery priority
 
@@ -447,13 +505,15 @@ Prefer:
 4. meaningful resource–psychology disequilibrium or contradiction;
 5. a clear unmet/unformed outcome rather than premature product framing;
 6. heterogeneous complementary-node potential;
-7. specific counterfactual transformation mechanism;
-8. cheap decisive validation;
-9. recurring/regenerative potential;
-10. domestic relevance and execution feasibility for the China-first mandate.
+7. repeated connection-pressure evidence from workarounds/partial flows/substitutes/failed attempts or close analogues;
+8. an observed missing edge rather than an invented blocker;
+9. minimum counterfactual mechanics for the evidenced connection;
+10. a cheap decisive reality confirmation aimed at the weakest unresolved truth;
+11. recurring/regenerative potential;
+12. domestic relevance and execution feasibility for the China-first mandate.
 
 Operator fit is applied after independent formation truth exists.
 
 ## 18. Governing invariant
 
-> **全球都可以成为传感器，但核心不是“哪里已经有人说我要买什么”。先从宏观、钱流、Actor 的客观资源与状态变化、心理、动机和真实行为看现实怎么变，寻找 Resource–Psychology Disequilibrium 与矛盾；再推导尚未成形的 outcome，寻找世界另一处互补节点，设计 Counterfactual Exchange，并用最低成本验证。明确需求可以作为下游强证据，但不能因为容易抓取就反过来定义系统。平台和 taxonomy 都允许随世界生长，稳定的是语义内核、证据边界与事实晋级规则。**
+> **全球都可以成为传感器，但核心不是“哪里已经有人说我要买什么”，也不是“我们能想出哪两个资源应该连接”。先从宏观、钱流、Actor 的客观资源与状态变化、心理、动机和真实行为看现实怎么变，寻找 Resource–Psychology Disequilibrium 与矛盾；再推导尚未成形的 outcome，寻找真实存在的互补节点，并继续寻找重复绕行、局部交换、替代行为、失败尝试和真实阻塞留下的 Connection Pressure，发现现实正在形成但尚未显现的连接。只有连接证据收敛以后，才设计最小 Counterfactual Exchange 机制，并把人的时间与现场行动用在最后一个关键未知量。明确需求可以作为下游强证据，但不能因为容易抓取就反过来定义系统。平台和 taxonomy 都允许随世界生长，稳定的是语义内核、证据边界与事实晋级规则。**

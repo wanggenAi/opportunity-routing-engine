@@ -1,11 +1,12 @@
 # Formal Truth
 
-Last updated: 2026-09-16
+Last updated: 2026-09-17
 
 This document is the current commercial source of truth. Historical rankings and launch designs remain evidence, but they do not override the current truth stated here.
 
 Canonical foundations, in precedence order:
 - `docs/LATENT_VALUE_DOCTRINE.md`
+- `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`
 - `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
 - `docs/ACCESS_FEASIBILITY_GATE.md`
 - `docs/RESOURCE_ACTIVATION_THESIS.md`
@@ -20,7 +21,7 @@ Canonical foundations, in precedence order:
 - `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
 - `docs/OPPORTUNITY_SCORECARD.md`
 
-`docs/LATENT_VALUE_DOCTRINE.md` is constitutional. `docs/LATENT_VALUE_FORMATION_BRIDGE.md` is a locked constitutional discovery principle despite its historical filename. Lower-level models, source adapters, explicit-demand feeds, current candidates and implementation convenience cannot override them.
+`docs/LATENT_VALUE_DOCTRINE.md` is constitutional. `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md` and `docs/LATENT_VALUE_FORMATION_BRIDGE.md` are locked constitutional discovery principles. Lower-level models, source adapters, explicit-demand feeds, current candidates and implementation convenience cannot override them.
 
 ## 0. Latent-value formation purpose — LOCKED
 
@@ -28,7 +29,7 @@ The system does not exist merely to find a product, explicit demand, supplier, l
 
 Its highest-level commercial purpose is:
 
-> **observe reality deeply enough to identify objective resources, actor state transitions, psychology/behavior changes and contradictions from which a value structure may form before a mature demand or product exists; infer a falsifiable exchange among complementary world nodes; then let reality determine whether that exchange becomes accepted commercial value.**
+> **observe reality deeply enough to identify objective resources, actor state transitions, psychology/behavior changes, contradictions and repeated partial flows from which a value structure may form before a mature demand or product exists; discover evidence that reality is already exerting pressure toward a latent connection among complementary world nodes; only then design the minimum exchange mechanics and let reality determine whether that connection becomes accepted commercial value.**
 
 The system does not begin from a permanent `DEMAND SIDE -> SUPPLY SIDE` split.
 
@@ -72,10 +73,13 @@ WORLD SENSING
 → RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
 → UNMET / UNFORMED OUTCOME HYPOTHESIS
 → COMPLEMENTARY WORLD-NODE SEARCH
-→ COUNTERFACTUAL EXCHANGE DESIGN
-→ WHY EXCHANGE DOES NOT ALREADY HAPPEN
-→ EVIDENCE / CONTRADICTION SEARCH
-→ CHEAP BOUNDED VALIDATION
+→ CONNECTION-PRESSURE EVIDENCE
+→ PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
+→ OBSERVED MISSING EDGE / STRANDING BARRIER
+→ LATENT CONNECTION HYPOTHESIS
+→ CONTRADICTION SEARCH
+→ ONLY THEN: COUNTERFACTUAL EXCHANGE MECHANICS
+→ CHEAPEST DECISIVE REALITY CONFIRMATION
 → ONLY IF SUPPORTED: NEED / RESOURCE / BLOCKER / PAYER PROJECTION
 → ROUTING / ACCEPTANCE / SETTLEMENT
 → REPEAT / LEARNING / BETTER ALLOCATION
@@ -113,6 +117,12 @@ Demand Discovery != Latent Value Formation
 Inference != Fact
 Psychology Hypothesis != Demand
 Unformed Outcome Hypothesis != Demand
+Connection Invention != Connection Discovery
+Complementarity != Latent Connection
+Connection Hypothesis != Connection Pressure Evidence
+Missing Edge Hypothesis != Observed Missing Edge
+Counterfactual Exchange != Latent Connection Evidence
+Latent Connection != Accepted Exchange
 Demand != Willingness to Pay
 Willingness to Pay != Transaction
 Potential Value != Proven Value
@@ -141,9 +151,13 @@ Data Sources / Live Sensors
 → Resource–Psychology Disequilibrium
 → Unmet / Unformed Outcome Hypothesis
 → Complementary World-Node Search
-→ Counterfactual Exchange Design
-→ Evidence / Contradiction Search
-→ Cheap Bounded Validation
+→ Connection-Pressure Evidence
+→ Partial Flow / Workaround / Substitute / Adjacent Precedent
+→ Observed Missing Edge / Stranding Barrier
+→ Latent Connection Hypothesis
+→ Contradiction Search
+→ Minimum Counterfactual Exchange Mechanics
+→ Cheap Bounded Reality Confirmation
 → Only Later: Need / Resource / Blocker Evidence Projections
 → Resource Imbalance / Transaction Truth
 
@@ -165,6 +179,7 @@ A data field is an observation, not the ontology.
 A procurement feed is one sensor, not the business model.
 A current candidate is a sample, not the identity of the engine.
 An explicit demand is useful evidence, not the definition of opportunity discovery.
+A plausible combination is a hypothesis, not a discovered connection.
 
 ## 2. Discovery truth — LOCKED
 
@@ -190,7 +205,8 @@ Start from broad reality:
 - low utilization, repeated repricing, excess inventory and stranded assets;
 - relationships, trust, reputation, distribution and installed-base resources;
 - fragmented resources or demand that become valuable only after aggregation;
-- combinations whose value is not visible when each actor is viewed alone.
+- combinations whose value is not visible when each actor is viewed alone;
+- partial, informal, substitute or adjacent flows that show value already attempting to cross a boundary.
 
 Then zoom:
 
@@ -205,14 +221,20 @@ China
 → Resource–Psychology Disequilibrium
 → unmet / unformed outcome hypothesis
 → complementary world nodes
-→ counterfactual exchange design
-→ cheap validation
+→ connection-pressure evidence
+→ partial flow / workaround / substitute / adjacent precedent
+→ observed missing edge / stranding barrier
+→ latent connection hypothesis
+→ minimum exchange mechanics
+→ cheap reality confirmation
 → only after support: exact need/resource/blocker evidence
 → exact payer
 → exact transaction route
 ```
 
 The engine must search for **what actors may not know about themselves**: hidden capability, hidden deficit, underused relationships, changed resource meaning, packaging gaps, coordination gaps, unrealized exchange structures and outcomes that have not yet become explicit market categories.
+
+It must also search for **what reality is already trying to connect**: repeated workarounds, informal exchange, failed attempts, substitution, referrals and existing expensive routes that reveal directional pressure before a formal market exists.
 
 A primary search target is `RESOURCE–PSYCHOLOGY DISEQUILIBRIUM`: the mismatch between what an actor objectively has and what its current state, psychology, behavior, environment and available routes allow those resources to become.
 
@@ -230,7 +252,7 @@ Prefer lawful free/open/official data for the MVP. Paid connectors are not requi
 
 A data source must not redefine the ontology. Source-specific fields map into the world model; the world model must not be redesigned around the easiest available field.
 
-Easy-to-parse explicit demand must not receive first-found privilege over harder-to-observe value formation.
+Easy-to-parse explicit demand must not receive first-found privilege over harder-to-observe value formation or connection pressure.
 
 ## 4. Money-flow truth — LOCKED
 
@@ -244,7 +266,7 @@ Track levels, growth, acceleration, share shifts, national/provincial/local dive
 
 A public procurement budget is evidence of an intended bounded purchase process. It is not automatically evidence of completed payment, supply scarcity, private-market demand, formation novelty or orchestration margin.
 
-Money-flow evidence can reveal actor changes and value-formation search zones, but money movement alone does not prove an exchange opportunity.
+Money-flow evidence can reveal actor changes, workarounds and value-formation search zones, but money movement alone does not prove an exchange opportunity or latent connection.
 
 ## 5. Psychology / behavior truth — LOCKED
 
@@ -272,6 +294,7 @@ social-media salience != population share
 psychology hypothesis != demand
 motive hypothesis != willingness to pay
 behavior signal != transaction
+psychology story != connection pressure
 ```
 
 Track aggregate themes such as value-for-money, spending caution, convenience/time value, trust/risk aversion, experience orientation, selective quality upgrading, repair/reuse/rental, emotional value, health/longevity and outcome certainty without treating the list as a fixed ontology.
@@ -291,7 +314,10 @@ context change
 → contradiction / underuse / misalignment
 → unformed outcome / latent-value insight
 → complementary world-node structure
-→ counterfactual / actual exchange
+→ connection pressure / partial flow / workaround
+→ observed missing edge
+→ latent connection
+→ minimum counterfactual / actual exchange mechanics
 → first hook
 → first payer commitment
 → resource stack
@@ -347,6 +373,9 @@ Observed Friction != Paid Need
 Paid Need != Resource Imbalance
 Resource Exists != Resource Is Underused
 Underused != Available
+Complementarity != Latent Connection
+Connection Hypothesis != Connection Pressure Evidence
+Latent Connection != Accepted Exchange
 Complementarity != Transactionability
 Counterfactual Exchange != Accepted Exchange
 Relisting != Underuse
@@ -367,10 +396,10 @@ For procurement lifecycle evidence, matching `project_id` is necessary but not s
 The current production objective is to connect live source adapters to the broader value-formation model and Resource Imbalance Engine without semantic invention.
 
 Live normalization rules:
-- preserve observations that may matter to actor/endowment/state/psychology/behavior/contradiction formation even if they do not map to explicit demand;
+- preserve observations that may matter to actor/endowment/state/psychology/behavior/contradiction/connection-pressure formation even if they do not map to explicit demand;
 - use narrow, auditable capability classification where canonical promotion is involved;
 - ambiguous or unclassified evidence stays unbound;
-- do not use LLM confidence to manufacture a capability identity;
+- do not use LLM confidence to manufacture a capability identity or latent connection;
 - do not infer payer from beneficiary, project title or budget holder language without source evidence;
 - do not promote a procurement budget into `PAID` merely because money is quoted;
 - do not turn repeated asset listing into an observed blocker without evidence of the blocker type;
@@ -378,7 +407,7 @@ Live normalization rules:
 - for explicitly multi-package procurement, preserve package scope through lifecycle evidence; package-specific or package-unresolved settlement must not promote a project-level Need;
 - preserve the source item and the reason it did not promote.
 
-The unified live evidence system should show not only promoted pairs, but also why evidence remained formation hypothesis, `NEED_ONLY`, `RESOURCE_ONLY`, `PAIR_HYPOTHESIS` or unbound.
+The unified live evidence system should show not only promoted pairs, but also why evidence remained observation, formation hypothesis, complementarity hypothesis, `NEED_ONLY`, `RESOURCE_ONLY`, `PAIR_HYPOTHESIS` or unbound.
 
 ## 8A. Live resource sensing truth — LOCKED
 
@@ -395,6 +424,7 @@ SOURCE / PLATFORM / FIELD SENSOR
 → LATENT AFFORDANCE HYPOTHESES
 → RESOURCE–PSYCHOLOGY DISEQUILIBRIUM / FORMATION INPUTS
 → COMPLEMENTARY NODE SEARCH
+→ CONNECTION-PRESSURE / PARTIAL-FLOW EVIDENCE
 → REQUIREMENT CAPABILITY BUNDLE
 → CAPABILITY COVERAGE
 → CALLABILITY VERIFICATION
@@ -455,7 +485,7 @@ See `docs/LIVE_RESOURCE_SENSING.md`.
 Do not enter negotiation with only an idea and a request for cooperation.
 
 A credible Hook may be:
-- a bounded reality test derived from an evidenced formation hypothesis;
+- a bounded reality test derived from an evidence-bound latent connection;
 - pre-aggregated demand;
 - optioned/qualified supply;
 - verified information;
@@ -486,7 +516,7 @@ This is not permission for false demand, deceptive promises or hidden liabilitie
 
 The atomic execution unit is a `CapabilityUnit`, not a person/job title.
 
-The operator preferentially owns systems analysis, structural judgment, value-formation reasoning, actor/resource mapping, counterfactual exchange design, Hook design, transaction architecture, capability decomposition, acceptance/interface design, incentive design, route approval, trust/risk boundaries, exception arbitration and learning updates.
+The operator preferentially owns systems analysis, structural judgment, value-formation reasoning, actor/resource mapping, latent-connection discovery, connection-pressure evaluation, missing-edge identification, minimum counterfactual exchange mechanics, Hook design, transaction architecture, capability decomposition, acceptance/interface design, incentive design, route approval, trust/risk boundaries, exception arbitration and learning updates.
 
 Routine acquisition, sourcing, coding, research, delivery, QA, support and logistics are routable capabilities where feasible.
 
@@ -622,6 +652,8 @@ L6 delegated repeat/provider replacement/alternate route
 L7 recurring event/Demand Pump produces multiple transactions and routing improves
 ```
 
+Connection-pressure evidence lives inside pre-transaction formation maturity and does not itself advance a candidate to L2/L3.
+
 ## 15. Commercial truth rules — LOCKED
 
 ```text
@@ -630,6 +662,13 @@ Demand Discovery != Latent Value Formation
 Inference != Fact
 Psychology Hypothesis != Demand
 Unformed Outcome != Demand
+Connection Invention != Connection Discovery
+Complementarity != Latent Connection
+Connection Hypothesis != Connection Pressure Evidence
+Missing Edge Hypothesis != Observed Missing Edge
+Counterfactual Exchange != Latent Connection Evidence
+Latent Connection != Accepted Exchange
+Human Outreach != Primary Discovery Sensor
 Potential Value != Proven Value
 Latent Value Formation != Commercial Opportunity
 Complaint != Demand
@@ -680,7 +719,7 @@ Canonical historical outputs:
 - `docs/research/DISCOVERY_CYCLE_001_OPPORTUNITY_POOL_2026-09-10.md`
 - `docs/results/DISCOVERY_CYCLE_001_RANKING_2026-09-10.md`
 
-The Cycle 001 scores remain useful historical evidence. They are **not current success probabilities and no longer establish a canonical winner** after the Resource Imbalance reset and the later value-formation clarification.
+The Cycle 001 scores remain useful historical evidence. They are **not current success probabilities and no longer establish a canonical winner** after the Resource Imbalance reset and the later value-formation / latent-connection clarification.
 
 ## 17. Current project state — CANONICAL
 
@@ -698,8 +737,13 @@ actor/endowment/state/change evidence
 + resource–psychology disequilibrium hypothesis
 + unmet / unformed outcome hypothesis
 + complementary world-node hypothesis
-+ counterfactual exchange design
-+ cheap formation validation
++ connection-pressure evidence
++ partial flow / workaround / substitute / adjacent precedent where available
++ observed missing edge / stranding barrier
++ latent connection hypothesis
++ contradiction search
++ minimum counterfactual exchange mechanics
++ cheap decisive reality confirmation
 + only then live need/resource/blocker/payer evidence
 + operator access / backing feasibility
 + counterpart-visible surplus
@@ -710,7 +754,7 @@ actor/endowment/state/change evidence
 → cheapest decisive real-world transaction test
 ```
 
-## 18. Current production evidence — 2026-09-16
+## 18. Current production evidence — 2026-09-17
 
 Working live evidence paths already include national/Jiangsu/Xuzhou money-flow sources, Xuzhou public procurement, regional financing evidence, public resource-underuse sensors, psychology/behavior models, the `src/latent_value_formation.py` formation bridge and delegatable validation packets.
 
@@ -722,22 +766,26 @@ Resource-underuse Sensor 001 has verified that Xuzhou/Jiangsu official public-re
 - explicit `空置/闲置` evidence in some historical records;
 - repricing across repeated listings.
 
-These facts prove resource/underuse evidence only within their exact scope. They do not prove compatible paid demand or a valuable new formation.
+These facts prove resource/underuse evidence only within their exact scope. They do not prove compatible paid demand, a latent connection or a valuable new formation.
 
 The production system also has a source-agnostic live-resource sensing kernel that separates raw signal facts, explicit capability claims, deterministic capability inferences, capability confirmation, availability, permission, freshness and capability-bundle coverage. This implementation does not make any platform-specific social sensor canonical and does not treat inferred capability as callable resource.
 
-`src/latent_value_formation.py` already represents:
+`src/latent_value_formation.py` represents:
 - objective endowments/state/change;
 - psychology/motive/behavior evidence;
 - underuse/misalignment;
 - `resource_psychology_disequilibrium`;
 - `latent_outcome_hypothesis`;
 - heterogeneous complementary world nodes;
-- `counterfactual_exchange_design`;
+- explicit `CONNECTION_PRESSURE` evidence;
+- stranding barriers;
+- counterfactual exchange mechanics;
 - contradictions;
 - cheap decisive validation.
 
-The immediate gap is therefore **empirical feeding and testing of this formation layer**, not inventing another ontology.
+A formation without `CONNECTION_PRESSURE` may remain a complementarity hypothesis but cannot become `VALIDATION_READY`.
+
+The immediate gap is therefore **empirical feeding and testing of connection pressure and formation truth**, not inventing another ontology.
 
 Current explicit-demand field routes remain useful downstream probes. They must not pull the system back into `existing demand → find supply → match` as its core identity.
 
@@ -752,16 +800,18 @@ Engineering / empirical priority:
 6. feed evidence into `RESOURCE–PSYCHOLOGY DISEQUILIBRIUM` hypotheses;
 7. infer `UNMET / UNFORMED OUTCOME` hypotheses without turning them into products prematurely;
 8. search heterogeneous complementary world nodes;
-9. generate counterfactual exchange designs with explicit controller/permission unknowns, participant surplus, cheapest validation and kill conditions;
-10. run the cheapest empirical tests before declaring a market exists;
-11. only after support exists, project Need/Resource/Blocker/payer/payment truth and preserve fail-closed transaction gates;
-12. search for access/backing resources themselves: trusted introducers, institutions, parks, associations, authorized programs, committed complementary actors and recognized roles;
-13. require counterpart-visible surplus and a believable realization mechanism before meaningful outreach;
-14. route field-solvable evidence/access gaps into delegatable validation tasks;
-15. compare surviving formations under the same commercial and orchestration discipline;
-16. keep the founder as orchestration/routing control plane rather than default sales, implementation or delivery node.
+9. search for `CONNECTION_PRESSURE`: repeated workarounds, partial/informal flow, substitution, referrals, failed attempts, shared causal pressure and adjacent/historical analogues;
+10. separately identify the observed missing edge / stranding barrier rather than inventing it;
+11. only after 9–10 are supported, design the minimum exchange mechanics with explicit controller/permission unknowns, participant surplus, cheapest confirmation and kill conditions;
+12. spend human/external validation capital only on the single most decisive unresolved truth;
+13. only after support exists, project Need/Resource/Blocker/payer/payment truth and preserve fail-closed transaction gates;
+14. search for access/backing resources themselves: trusted introducers, institutions, parks, associations, authorized programs, committed complementary actors and recognized roles;
+15. require counterpart-visible surplus and a believable realization mechanism before meaningful outreach;
+16. route field-solvable evidence/access gaps into delegatable validation tasks;
+17. compare surviving formations under the same commercial and orchestration discipline;
+18. keep the founder as orchestration/routing control plane rather than default search, sales, implementation or delivery node.
 
-Under the current architecture freeze, do not answer this clarification by building more generic ontology, dashboards, agent frameworks or broad scraper fleets. Engineering is justified when it closes a repeated empirical truth/validation bottleneck.
+Under the current architecture freeze, do not answer this clarification by building more generic ontology, dashboards, agent frameworks or broad scraper fleets. Engineering is justified when it closes a repeated empirical truth/validation bottleneck or doctrine violation.
 
 ## 20. Software truth — LOCKED
 
@@ -779,7 +829,11 @@ Software is justified first where it removes repeated cognition, observation, ev
 - resource–psychology disequilibrium hypotheses;
 - unmet / unformed outcome hypotheses;
 - complementary world-node search;
-- counterfactual exchange designs;
+- connection-pressure evidence;
+- partial-flow / workaround / substitute evidence;
+- observed missing-edge / stranding-barrier evidence;
+- latent-connection hypotheses;
+- minimum counterfactual exchange mechanics;
 - formation validation / kill evidence;
 - normalized money-flow signals;
 - case records;
@@ -796,4 +850,4 @@ Code must remain downstream of cognition and architecture. A technically elegant
 
 ## 21. Governing truth — LOCKED
 
-> **不是需求先存在，我们再去满足；可能是构成价值的条件先存在，而商业结构尚未形成。先观察现实世界中的 Actor 客观拥有什么、状态发生了什么变化、如何感受这种变化、动机和真实行为怎样偏移，以及“客观拥有”与“实际利用”之间出现了什么 Resource–Psychology Disequilibrium；再从这些证据推导尚未成形的 outcome，寻找世界另一处真实存在的互补节点，设计 Counterfactual Exchange，并用最低成本让现实决定这种新交换能否成立。推导 ≠ 事实，心理 ≠ 需求，需求 ≠ 付费，付费意愿 ≠ 成交。Need / Resource / Blocker 是下游交易真实性闸门，不是系统的起点。发现和推演可以大胆，事实晋级必须保守；代码永远服务于认知与架构。**
+> **不是需求先存在，我们再去满足；可能是构成价值的条件先存在，而商业结构尚未形成。先观察现实世界中的 Actor 客观拥有什么、状态发生了什么变化、如何感受这种变化、动机和真实行为怎样偏移，以及“客观拥有”与“实际利用”之间出现了什么 Resource–Psychology Disequilibrium；再从这些证据推导尚未成形的 outcome，寻找世界另一处真实存在的互补节点。但互补不是连接，漂亮的 Counterfactual Exchange 也不是连接证据。系统必须继续寻找共同变化、重复绕行、替代行为、局部交换、失败尝试和真实阻塞留下的 Connection Pressure，发现现实正在形成但尚未显现的连接。只有这些痕迹收敛以后，才设计最小交换机制，并把人的时间、信誉与现场行动用于最后一个关键未知量。推导 ≠ 事实，心理 ≠ 需求，连接假设 ≠ 连接证据，需求 ≠ 付费，付费意愿 ≠ 成交。Need / Resource / Blocker 是下游交易真实性闸门，不是系统的起点。发现可以大胆，晋级必须保守；代码永远服务于认知与架构。**
