@@ -1,0 +1,95 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-014-ENTERPRISE-PROBE-TARGET-001-2026-09-17",
+  "observed_at": "2026-09-17",
+  "formation_id": "PF-INTL-STUDENT-MARKET-CONTEXT-014",
+  "parent_artifact": "CONNECTION-PRESSURE-SCAN-007-2026-09-17",
+  "status": "PUBLIC_RESEARCH_EXHAUSTED_TO_DIRECT_ENTERPRISE_TRUTH_BOUNDARY",
+  "purpose": "Narrow the enterprise-side validation target after local actor-pair connection pressure was evidenced. Do not infer the residual micro-context task from full-time cross-border hiring or from the existence of generic localization vendors.",
+  "sampling_observations": [
+    {
+      "actor": "江苏拓普控股（集团）有限公司",
+      "relationship_to_formation": "named participant in the 2026-05-18 Xuzhou cross-border talent event",
+      "public_observation": "Current Xuzhou full-time foreign-trade roles cover global B2B customer development, RFQ handling, social media, market research, regional marketing plans, order management and translation support.",
+      "implication": "MATURE_OR_INTERNALIZING_CROSS_BORDER_CAPABILITY",
+      "source": "https://www.zhaopin.com/jobdetail/CCL1429068400J40839639012.htm"
+    },
+    {
+      "actor": "徐州市科诺医学仪器设备有限公司",
+      "relationship_to_formation": "named participant in the 2026-05-18 Xuzhou cross-border talent event",
+      "public_observation": "The company publicly exposes an international-trade center and recruits international-market planning/operations and international-trade roles while already selling into many overseas markets.",
+      "implication": "MATURE_INTERNAL_CROSS_BORDER_ROUTE",
+      "sources": [
+        "https://www.kernelmed.com/Contactus",
+        "https://www.kernelmed.com/Socialtalents/"
+      ]
+    },
+    {
+      "actor": "江苏省精创电气股份有限公司",
+      "relationship_to_formation": "named participant in the 2026-05-18 Xuzhou cross-border talent event",
+      "public_observation": "Public corporate material reports local operating subsidiaries in the United States, United Kingdom, Brazil and Thailand, indicating a substantially internalized overseas operating structure.",
+      "implication": "MATURE_LOCALIZED_OVERSEAS_ROUTE",
+      "source": "public company prospectus / recruitment materials"
+    },
+    {
+      "actor": "徐州通鑫合进出口贸易有限公司",
+      "relationship_to_formation": "named participant in the 2026-05-18 Xuzhou cross-border talent event",
+      "public_observation": "The company operates a public export-facing website with a direct business email and public trade-data services record active export shipments/buyers. It is a substantially smaller direct exporter than the sampled firms with large internal overseas teams.",
+      "implication": "HIGHER_VALUE_DIRECT_RESIDUAL_TASK_PROBE_TARGET",
+      "public_contact": {
+        "email": "evservicetxh@gmail.com",
+        "source": "https://www.txhev.com/contact-us.html"
+      },
+      "trade_evidence_sources": [
+        "https://www.volza.com/company-profile/xuzhou-tongxinhe-import-export-trading-co-ltd-52066228/",
+        "https://www.txhev.com/contact-us.html"
+      ]
+    }
+  ],
+  "external_market_counterevidence": {
+    "observation": "Project-based and part-time native-language translation/localization/transcreation services already exist broadly in China, including remote/project-based native talent and culture-sensitive overseas marketing localization.",
+    "implication": "GENERIC_NATIVE_LANGUAGE_OR_LOCALIZATION_NE_MISSING_EDGE",
+    "sources": [
+      "https://www.chinateachjobs.com/jobs/native-talents-for-multiple-languages-full-time-and-part-time-yds/",
+      "https://m.zhaopin.com/jobs/CC284635010J40732473911.htm"
+    ]
+  },
+  "sampling_hypothesis_not_fact": "If a residual micro-context edge exists in Xuzhou, it is more likely to appear among smaller exporters/traders that cannot economically internalize a complete overseas-market team than among larger firms with dedicated international departments or local overseas subsidiaries. This is a targeting hypothesis only and must be tested directly.",
+  "direct_probe_target": {
+    "actor": "徐州通鑫合进出口贸易有限公司",
+    "reason": [
+      "participated in the exact local cross-border talent event",
+      "has current public export-facing operations",
+      "has a public direct business contact",
+      "appears smaller than sampled firms with mature internal overseas infrastructure",
+      "can answer the residual-task question without an institutional intermediary"
+    ],
+    "questions": [
+      "What was the most recent small overseas-market/context uncertainty that did not justify a full consulting engagement or hire?",
+      "How was it actually solved: customer/friend, internal staff, search, translator/agency, overseas contact or simply judgment under uncertainty?",
+      "Did the answer change a real quotation, customer approach, channel choice, product presentation or other decision?",
+      "Does the same class recur often enough to matter but too intermittently to justify a dedicated role?",
+      "Would an existing translation/localization provider already solve it cheaply enough?"
+    ],
+    "promotion_rule": "A single anecdote does not promote the formation. Seek repeated same-shaped residual tasks or a concrete current task/decision, then separately validate lawful capability supply and participant commitment.",
+    "kill_rule": "Kill the micro-context missing-edge hypothesis if current staff/customers/search/formal vendors solve these questions cheaply and reliably, or if no such question changes a real business decision."
+  },
+  "outreach_state": {
+    "institution_side_draft": "PREPARED_NOT_SENT",
+    "direct_enterprise_draft": "PREPARED_NOT_SENT",
+    "sent_in_this_step": 0,
+    "reason_not_sent": "Draft preparation is reversible. Sending is reserved for explicit execution of the final direct truth probe and must not be counted as progress by itself."
+  },
+  "next_blocker": "FIRST_DIRECT_ENTERPRISE_RESIDUAL_TASK_REPLY_OR_OTHER_PRIMARY_ACTOR_EVIDENCE",
+  "first_external_value_flow": "NOT_PROVEN",
+  "truth_boundaries": [
+    "FULL_TIME_HIRING_NE_RESIDUAL_MICRO_TASK",
+    "LOCALIZATION_VENDOR_EXISTS_NE_TARGET_MISSING_EDGE",
+    "SMALLER_EXPORTER_TARGETING_HYPOTHESIS_NE_FACT",
+    "PUBLIC_CONTACT_NE_ACTOR_INTEREST",
+    "DRAFT_PREPARED_NE_OUTREACH_SENT",
+    "OUTREACH_SENT_NE_CONNECTION_PRESSURE",
+    "ONE_ANECDOTE_NE_REPEATABLE_DEMAND",
+    "CONNECTION_PRESSURE_NE_ACCEPTED_EXCHANGE",
+    "UNKNOWN_NE_PASS"
+  ]
+}
