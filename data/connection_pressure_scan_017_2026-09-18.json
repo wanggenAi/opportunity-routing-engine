@@ -2,7 +2,7 @@
   "artifact_id": "CONNECTION-PRESSURE-SCAN-017-2026-09-18",
   "observed_at": "2026-09-18",
   "status": "EVIDENCE_ACCEPTANCE_GAP_EVENT_SCAN",
-  "purpose": "Deepen VERIFIABILITY_TRANSFORMATION and BOUNDARY_TRANSLATION using real Xuzhou enterprise requests where some evidence already exists but the receiving authority/counterparty still cannot act on it. Do not infer a consulting market from unresolved requests.",
+  "purpose": "Deepen VERIFIABILITY_TRANSFORMATION and BOUNDARY_TRANSLATION using real Xuzhou enterprise requests and procurement cases where some evidence already exists or must be produced, but the receiving decision owner still cannot act on it. Do not infer a consulting market from unresolved requests.",
   "findings": [
     {
       "id": "XZ-POWER-THIRD_PARTY_REPORT-NOT-ACTIONABLE-054",
@@ -49,6 +49,23 @@
         "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/rkjcs/art/2026/art_3fb4543dd46e481fab1098f6aaca5e9f.html",
         "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/rkjcs/art/2026/art_ea608a4306a34b8bb1f3c548a91cffa8.html"
       ]
+    },
+    {
+      "id": "CN-PROCUREMENT-EVIDENCE-ACCEPTANCE-058",
+      "state": "LOWER_PERMISSION_COMMERCIAL_REPLICATION",
+      "evidence": [
+        "Government-procurement practice published in 2026 reports recurring disputes over whether suppliers' test reports satisfy buyer requirements, including report authenticity, issuing-body qualification and exact parameter coverage.",
+        "One procurement case cancelled an initial award after the buyer/committee concluded the winning supplier's report issuer did not meet the tender's required certification condition.",
+        "Another case found the tender itself unreasonable because non-mandatory test reports normally requiring around 90 days had to be produced within a 21-day tender window, excluding suppliers that could not transform real product capability into the required proof fast enough.",
+        "Published procurement analysis also shows a winning result can be overturned when the report does not contain every parameter the tender language treated as evidence."
+      ],
+      "interpretation": "The acceptance gap also creates direct commercial loss: a supplier may have a product/capability but fail to turn it into buyer-accepted proof, while buyer evidence requirements can themselves be malformed. This is not a tender-consulting formation; it confirms that evidence schema is part of the exchange interface.",
+      "sources": [
+        "https://www.ccgp.gov.cn/llsw/202608/t20260804_27063468.htm",
+        "https://www.ccgp.gov.cn/llsw/202604/t20260410_26385405.htm",
+        "https://www.ccgp.gov.cn/llsw/202609/t20260911_27309184.htm",
+        "https://www.ccgp.gov.cn/llsw/202606/t20260609_26711589.htm"
+      ]
     }
   ],
   "search_rules_refined": [
@@ -70,12 +87,17 @@
     },
     {
       "name": "CROSS_SYSTEM_STATE_CONSISTENCY",
-      "pattern": "enterprise reality + regulator filing + bank/platform/utility decision state must describe the same transaction/resource in mutually compatible terms before the flow can continue"
+      "pattern": "enterprise reality + regulator filing + bank/platform/utility/buyer decision state must describe the same transaction/resource in mutually compatible terms before the flow can continue"
+    },
+    {
+      "name": "EVIDENCE_SCHEMA_IS_PART_OF_EXCHANGE_INTERFACE",
+      "pattern": "seller capability + buyer need do not form a usable exchange when the seller cannot produce buyer-recognized proof or the buyer's proof requirement is structurally impossible/unreasonable"
     }
   ],
   "do_not_infer": [
     "MORE_INSPECTION_SUPPLY_FROM_ONE_REJECTED_REPORT",
     "REGULATORY_CONSULTING_MARKET_FROM_ONE_DOCUMENT_MISMATCH",
+    "GENERIC_TENDER_CONSULTING_MARKET_FROM_REPORT_DISPUTES",
     "GENERIC_EVIDENCE_TRANSLATION_SERVICE_WITHOUT_REPEAT_ACTOR_COST",
     "ACCEPTANCE_GAP_RESOLVED_WITHOUT_PUBLIC_RESOLUTION_EVIDENCE"
   ],
@@ -94,6 +116,7 @@
     "EVIDENCE_EXISTS_NE_ACCEPTED_EVIDENCE",
     "TECHNICAL_VALIDITY_NE_REGULATORY_OR_COUNTERPARTY_ADMISSIBILITY",
     "THIRD_PARTY_REPORT_NE_DECISION_OWNER_ACCEPTANCE",
+    "SUPPLIER_CAPABILITY_NE_BUYER_ACCEPTED_PROOF",
     "DOCUMENT_MISMATCH_NE_NEW_MARKET_EDGE",
     "UNRESOLVED_REQUEST_NE_RESOLUTION_PATH",
     "FIRST_EXTERNAL_VALUE_FLOW_STILL_NOT_PROVEN"
