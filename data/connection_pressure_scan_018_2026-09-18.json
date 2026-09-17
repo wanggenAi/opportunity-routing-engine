@@ -1,0 +1,101 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-SCAN-018-2026-09-18",
+  "observed_at": "2026-09-18",
+  "status": "DECISION_TRANSITION_ACCEPTANCE_SCAN",
+  "purpose": "Refine the meaning of ACCEPTED in the external-value-flow state machine using cross-domain evidence. A delivered artifact is not accepted merely because it was received; acceptance requires a receiver-side observable state transition caused by the delivered capability/evidence/result. This deepens existing Outcome/Acceptance semantics and adds no new ontology.",
+  "findings": [
+    {
+      "id": "CN-AUTO-SUPPLIER-APPROVAL-059",
+      "state": "MATURE_RECEIVER_STATE_TRANSITION_ARCHETYPE",
+      "evidence": [
+        "A 2026 Jiangsu-listed automotive supplier describes new-supplier entry as a buyer-controlled qualification process that can take six to twelve months before the supplier is admitted to the OEM supplier system.",
+        "Project introduction then progresses through A/B/C/D sample states, OTS approval and PPAP approval; only after these buyer approvals does the product enter mass production."
+      ],
+      "interpretation": "Making a sample, submitting a design or passing an internal test is not acceptance. The economically meaningful transition is buyer-recognized supplier/project approval that unlocks mass production.",
+      "source": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518017.PDF"
+    },
+    {
+      "id": "JS-EQUIPMENT-BUYER-ACCEPTANCE-060",
+      "state": "DELIVERY_NE_OPERATIONAL_ACCEPTANCE",
+      "evidence": [
+        "A Jiangsu public equipment procurement requires delivery, installation, debugging and user training, but states that installation is complete only when the instrument operates normally and the buyer confirms it.",
+        "The service also requires training until users can independently operate the instrument."
+      ],
+      "interpretation": "Physical delivery and training activity are intermediate outputs. Acceptance is tied to receiver-confirmed operability and the receiving organization being able to use the capability.",
+      "source": "https://sthjj.nantong.gov.cn/ntshbj/cgzbgg/content/4a637777-75e8-45ea-8d99-9c440bc7244c.html"
+    },
+    {
+      "id": "CN-DETECTION-REMEDIATION-ACCEPTANCE-061",
+      "state": "REPORT_NE_FINAL_OUTCOME",
+      "evidence": [
+        "2026 fire/electrical testing procurement examples require corrective guidance and reinspection after nonconforming results rather than treating the first report as completed value.",
+        "Payment/acceptance can be staged around initial inspection, remediation, reinspection and buyer/final-recipient acceptance."
+      ],
+      "interpretation": "A diagnostic report can be valid yet leave the receiver's blocked state unchanged. For such workflows, accepted value is the verified transition to a compliant/usable state, not report generation alone.",
+      "sources": [
+        "https://www.bidcenter.com.cn/news-429967607-1.html",
+        "https://www.ixbang.com/bid/detail/0AED0FF2FB741D0D7C9B7826AD4B9859.html"
+      ]
+    },
+    {
+      "id": "JS-TECH-RESULT-PAYMENT-TRANSITION-062",
+      "state": "PAYMENT_AFTER_OBSERVED_RESULT_REPLICATES_ACCEPTANCE_RULE",
+      "evidence": [
+        "The Jiangsu first-use-then-pay technology-transfer case already persisted in Scan 015 triggered substantial payment only after the enterprise observed the expected technology effect and then expanded cooperation."
+      ],
+      "interpretation": "A receiver-side decision transition—payment and expanded cooperation after observed effect—is stronger acceptance evidence than delivery of a technology package or demonstration alone.",
+      "reference": "JS-TECH-PAY-AFTER-EVIDENCE-045"
+    },
+    {
+      "id": "STATE-MACHINE-ACCEPTANCE-SEMANTIC-063",
+      "state": "PROJECT_EXECUTION_RULE_REFINED",
+      "interpretation": "For Issue #143 and future reality experiments: DELIVERED means the promised bounded output reached the receiver. ACCEPTED requires receiver-side evidence that the output met the agreed acceptance interface and enabled/caused the relevant next state. Examples include production approval, permission/restoration, operational sign-off, independent task execution, payment release, supplier admission, restriction removal or another predefined decision transition. Receipt, silence, report issuance, code delivery or attendance alone are not ACCEPTED."
+    }
+  ],
+  "search_rules_refined": [
+    {
+      "name": "DECISION_TRANSITION_ACCEPTANCE",
+      "questions": [
+        "What receiver-side state was blocked before the exchange?",
+        "What exact state transition would count as acceptance?",
+        "Who has authority to declare or enact that transition?",
+        "What evidence proves the transition occurred?",
+        "Can the transition be causally linked to the delivered capability/evidence/result rather than to an unrelated event?"
+      ],
+      "relationship_to_existing_doctrine": "Refines existing Outcome/Acceptance semantics and Issue #143 state progression; no new ontology."
+    },
+    {
+      "name": "DELIVERABLE_NE_ACCEPTANCE",
+      "pattern": "artifact/service delivered != receiver state changed"
+    },
+    {
+      "name": "ACCEPTANCE_INTERFACE_MUST_BE_DEFINED_BEFORE_DELIVERY",
+      "pattern": "bounded task should specify the receiver authority, acceptance evidence and target state transition before economic commitment whenever possible"
+    }
+  ],
+  "field_state": {
+    "capability_proof_employer_probes_sent": 2,
+    "qualified_human_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "do_not_infer": [
+    "REPORT_ISSUED_AS_ACCEPTED",
+    "EMAIL_RECEIVED_AS_ACCEPTED",
+    "CODE_OR_DOCUMENT_DELIVERED_AS_ACCEPTED",
+    "TRAINING_ATTENDANCE_AS_CAPABILITY_ACCEPTANCE",
+    "SILENCE_AS_ACCEPTANCE"
+  ],
+  "next_scan_priority": [
+    "REAL_XUZHOU_WORKFLOW_WITH_EXPLICIT_ACCEPTANCE_TRANSITION_AND_BEFORE_AFTER_COST",
+    "SUCCESSFUL_REMEDIATION_ARTIFACT_THAT_CHANGED_A_PREVIOUSLY_BLOCKED_RECEIVER_STATE",
+    "POST_ACCEPTANCE_REPEAT_SIGNAL_AND_SETTLEMENT_EVIDENCE",
+    "CURRENT_HUMAN_REPLY_FROM_EXISTING_FIELD_PROBES"
+  ],
+  "truth_boundaries": [
+    "DELIVERED_NE_ACCEPTED",
+    "TECHNICALLY_CORRECT_NE_RECEIVER_ACCEPTED",
+    "ACTIVITY_COMPLETED_NE_OUTCOME_ACHIEVED",
+    "ACCEPTED_NE_SETTLED",
+    "FIRST_EXTERNAL_VALUE_FLOW_STILL_NOT_PROVEN"
+  ]
+}
