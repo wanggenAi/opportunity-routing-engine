@@ -1,0 +1,79 @@
+{
+  "artifact_id": "ENTITY-RESOLUTION-014-TONGXINHE-001-2026-09-17",
+  "observed_at": "2026-09-17",
+  "formation_id": "PF-INTL-STUDENT-MARKET-CONTEXT-014",
+  "corrects_artifact": "CONNECTION-PRESSURE-014-ENTERPRISE-PROBE-TARGET-001-2026-09-17",
+  "status": "TARGET_IDENTITY_RETAINED_THIRD_PARTY_TRADE_PROFILE_DEMOTED",
+  "purpose": "Prevent same-name/product-line conflation before any external outreach. Preserve only evidence that resolves to the intended EV-facing Xuzhou Tongxinhe actor with compatible name, location, website/contact or shipment address/product data.",
+  "resolved_target": {
+    "actor_name_cn": "徐州通鑫合进出口贸易有限公司",
+    "actor_name_en": "Xuzhou Tongxinhe Import & Export Trading Co., Ltd.",
+    "target_business_context": "electric-vehicle / electric-scooter export-facing business",
+    "public_contact_email": "evservicetxh@gmail.com",
+    "public_contact_phone": "+86 159 4901 0222",
+    "public_location": "Tongcheng Century Plaza, Yunhe/Canal Street, Pizhou, Jiangsu, China",
+    "event_participation": "Named participant in the 2026-05-18 Xuzhou 'Runqi Huhang' cross-border talent recruitment event.",
+    "identity_confidence": "SUFFICIENT_FOR_PUBLIC_BUSINESS_CONTACT_TARGETING_NOT_FOR_LEGAL_ENTITY_DUE_DILIGENCE"
+  },
+  "supporting_evidence": [
+    {
+      "source": "https://www.mjjssw.org.cn/show/40498",
+      "supports": "Exact Chinese company name is listed among participating enterprises in the 2026-05-18 cross-border talent event."
+    },
+    {
+      "source": "https://www.txhev.com/contact-us.html",
+      "supports": "Website gives the exact English company name, public EV-facing business contact email/phone, and a Pizhou Tongcheng Century Plaza address."
+    },
+    {
+      "source": "https://xztxhie.en.made-in-china.com/",
+      "supports": "Marketplace profile gives the exact English company name, Pizhou Tongcheng Century Square 5F Room 510 location, and Electric Vehicle as main product."
+    },
+    {
+      "source": "https://www.tendata.com/en/supplier/xuzhou-tong-xin-he-import-and-export-trading-co-lt-CHNN257b69c3311850a1e4e661a8199bed34.html",
+      "supports": "Third-party supplier profile explicitly links website txhev.com with EV/scooter/battery/bike-part products and the Tongcheng Century Plaza address."
+    },
+    {
+      "source": "https://www.volza.com//company-profile/energy-eco-blue-private-limited-85167604/",
+      "supports": "Buyer-side shipment record names XUZHOU TONGXINHE IMPORT AND EXPORT TRADING CO., LTD, gives a Tongcheng Century Square/Yunhe Town Pizhou shipper address, and describes electric-scooter CKD parts. Use only as shipment-level corroboration, not as full entity-profile authority."
+    }
+  ],
+  "invalidated_or_ambiguous_evidence": [
+    {
+      "source": "https://www.volza.com/company-profile/xuzhou-tongxinhe-import-export-trading-co-ltd-52066228/",
+      "previous_use": "Used in the corrected parent artifact as generic active-export/buyer evidence.",
+      "problem": "This profile attributes veneer/plywood HS codes and buyers to the same/similar English name, while other sources resolve the intended public contact/website to EV products. It may represent aliasing, a diversified product line, provider entity-merging, or another same-name record. Public evidence is insufficient to distinguish these possibilities.",
+      "new_status": "DO_NOT_USE_FOR_EV_TARGET_IDENTITY_OR_EV_EXPORT_ACTIVITY"
+    },
+    {
+      "observation": "Other web results expose separate same/similar 'Tongxinhe' agriculture/wood-facing business records at different addresses or product categories.",
+      "new_status": "DO_NOT_CONFLATE_WITH_EV_TARGET_WITHOUT_STABLE_LEGAL_IDENTIFIER"
+    }
+  ],
+  "correction_to_parent_artifact": {
+    "retain": [
+      "Exact event participation by Chinese company name",
+      "Public EV-facing website and direct business contact",
+      "Smaller-exporter targeting remains a hypothesis, not fact"
+    ],
+    "remove_from_reasoning": [
+      "The ambiguous Volza company-profile page as evidence of the EV target's active export products/buyers"
+    ],
+    "replacement_reasoning": "The target remains suitable for a bounded public-business-contact truth probe because it participated in the exact cross-border talent event and exposes an EV-facing public business channel corroborated by matching name/location/product sources. No claim about its current size, shipment volume, buyer count or full product portfolio is required."
+  },
+  "outreach_state": {
+    "direct_enterprise_draft": "PREPARED_NOT_SENT",
+    "recipient_alignment": "PUBLIC_EMAIL_MATCHES_TXHEV_EV_ENTITY",
+    "sent": 0,
+    "send_gate": "EXPLICIT_USER_SEND_INTENT_REQUIRED_AND_MESSAGE_MUST_NOT_RELY_ON_AMBIGUOUS_TRADE_PROFILE"
+  },
+  "formation_effect": "NONE",
+  "first_external_value_flow": "NOT_PROVEN",
+  "truth_boundaries": [
+    "SAME_OR_SIMILAR_COMPANY_NAME_NE_SAME_ENTITY_RECORD",
+    "TRADE_DATA_PROVIDER_PROFILE_NE_STABLE_ENTITY_RESOLUTION",
+    "PUBLIC_WEBSITE_NE_LEGAL_DUE_DILIGENCE",
+    "PUBLIC_CONTACT_NE_ACTOR_INTEREST",
+    "ENTITY_RESOLUTION_NE_DEMAND",
+    "CORRECT_TARGETING_NE_FORMATION_PROMOTION"
+  ]
+}
