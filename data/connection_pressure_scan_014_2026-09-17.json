@@ -1,0 +1,144 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-SCAN-014-2026-09-17",
+  "observed_at": "2026-09-17",
+  "status": "NONFINANCIAL_VERIFIABILITY_REPLICATION_AND_RIGHTS_COMPLETENESS_SCAN",
+  "purpose": "Extend Scan 013 empirically: test whether verifiability transformation also governs non-financial exchanges involving used equipment, human skill, supplier capability, product quality and digital/embedded rights. This is scan number 014 and is not Formation 014.",
+  "findings": [
+    {
+      "id": "XZ-USED-EQUIPMENT-LEGIBILITY-036",
+      "state": "MATURE_VERIFIABILITY_INFRASTRUCTURE_NOT_WHITESPACE",
+      "evidence": [
+        "XCMG's used-equipment platform has evolved into an end-to-end system covering equipment assessment, transaction, finance and logistics, and is building standardized datasets from transaction and equipment-operation data.",
+        "XCMG's training material explicitly identifies inconsistent appraisal standards, shortage of professional appraisers and incomplete valuation systems as factors that reduce used-equipment circulation efficiency and value.",
+        "Certified used-equipment auctions combine inspection/certification and remanufacturing standards with transaction channels; public XCMG material reports large-scale historical transaction volumes."
+      ],
+      "interpretation": "A used machine's physical existence is insufficient for efficient exchange; condition, history and value must become legible and credible to the buyer. Generic used-equipment appraisal/marketplace is already organized in this ecosystem.",
+      "sources": [
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202605/12/content_49825.html",
+        "https://www.xcmg.com/xgjsxy/peixun/jnrcpjnews-detail-1128776.htm",
+        "https://www.xcmg.com/aboutus/news-detail-1128464.htm"
+      ]
+    },
+    {
+      "id": "XZ-SKILL-LEGIBILITY-037",
+      "state": "CAPABILITY_LEGIBILITY_MECHANISM_EXISTING_SYSTEM_MATURE",
+      "evidence": [
+        "Xuzhou is expanding enterprise-led skill evaluation under the principle 'who uses, evaluates, certifies and takes responsibility', with practical ability, technical problem-solving and job performance used as core evidence rather than only education or seniority.",
+        "In the first four months of 2026 Xuzhou reported 11,611 newly certified high-skill workers and 1,535 new technician-or-above qualifications."
+      ],
+      "interpretation": "Human capability also needs a representation the receiving organization trusts. Generic skill-certification infrastructure is not a missing edge; useful residue would be high-value abilities that remain poorly represented by certificates, CVs or formal grades and are still judged through trial work, references, portfolios or prolonged observation.",
+      "sources": [
+        "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202605/t20260525_8574594.shtml",
+        "https://www.zgjssw.gov.cn/yaowen/202408/t20240801_8369404.shtml"
+      ]
+    },
+    {
+      "id": "XZ-SUPPLIER-CAPABILITY-LEGIBILITY-038",
+      "state": "BUYER_REQUIRES_MULTI_DIMENSIONAL_PROOF",
+      "evidence": [
+        "XCMG quality-management material describes supplier-entry and quality-control penetration through integrated systems and traceability rather than relying on supplier claims alone.",
+        "A recent supply-chain matching event with XCMG required participating manufacturers to present products/technical plans while buyer-side teams discussed supply capability, quality control and cooperation models; some reached preliminary cooperation intent."
+      ],
+      "interpretation": "Supplier capacity is not transactionally real merely because machinery or claimed capability exists; the buyer needs product, process, quality and delivery evidence expressed in its procurement coordinate system. This reinforces BOUNDARY_TRANSLATION plus VERIFIABILITY_TRANSFORMATION.",
+      "sources": [
+        "https://www.xcmg.com/aboutus/news-detail.jsp?id=1127973",
+        "https://zgjssw.gov.cn/shixianchuanzhen/suqian/202608/t20260825_8590160.shtml"
+      ]
+    },
+    {
+      "id": "XZ-AGRI-QUALITY-LEGIBILITY-039",
+      "state": "QUALITY_SIGNAL_INFRASTRUCTURE_EXISTING",
+      "evidence": [
+        "Five Xuzhou agricultural products entered the 2026 national distinctive/high-quality agricultural product list after multi-level review and may use the official mark in sales.",
+        "The system uses standardized production, quality evidence, certification/branding and increasingly traceability to turn otherwise hard-to-observe product quality into a market-recognizable signal."
+      ],
+      "interpretation": "Quality may exist before certification, but downstream buyers/consumers cannot fully observe it. Trusted marks and traceability reduce that verification gap. Generic agricultural certification/branding is not whitespace.",
+      "sources": [
+        "https://szb.cnxz.com.cn/xzrb/pc/con/202606/13/content_51292.html",
+        "https://zgjssw.gov.cn/yaowen/202606/t20260616_8578438.shtml"
+      ]
+    },
+    {
+      "id": "XZ-USED-EV-RIGHTS-BUNDLE-040",
+      "state": "REAL_TRANSACTION_FAILURE_FROM_INCOMPLETE_STATE_DISCLOSURE",
+      "evidence": [
+        "A Xuzhou court-explainer case describes a used new-energy vehicle whose physical ownership transfer was completed, but the buyer could not transfer the vehicle app/account because an outstanding loan/mortgage restriction remained.",
+        "The vehicle faced remote-lock risk and core digital-control functions were impaired; the legal explanation states that transfer of physical title alone did not complete the seller's obligations because account/intelligent-control rights are core to use."
+      ],
+      "mechanism": "PHYSICAL_ASSET_TRANSFER + HIDDEN ATTACHED LIEN/DIGITAL CONTROL/ACCOUNT STATE -> APPARENT EXCHANGE BUT INCOMPLETE USABLE RIGHTS",
+      "search_rule": "For connected/digital assets, model the transferable object as a rights/control bundle, not a single ownership field. Inspect debt, account binding, software entitlement, remote-control authority, warranty/service rights, licenses and data access when material.",
+      "source": "https://szb.cnxz.com.cn/dscb/pad/con/202607/10/content_52566.html"
+    },
+    {
+      "id": "XZ-STATE-TRACEABILITY-041",
+      "state": "NONFINANCIAL_REPLICATION_CONFIRMED",
+      "evidence": [
+        "Engineering-machinery quality systems, second-hand machine datasets, agricultural quality marks and enterprise skill evaluation all make otherwise hidden state observable through different forms of evidence and accountability.",
+        "The used-EV dispute shows the inverse case: an apparently completed transaction can fail when material state/right fields remain hidden."
+      ],
+      "interpretation": "VERIFIABILITY_TRANSFORMATION is therefore not limited to finance. It applies whenever exchange depends on a counterparty accepting claims about condition, capability, quality, rights or control."
+    },
+    {
+      "id": "XZ-CAPABILITY-PROOF-RESIDUE-042",
+      "state": "CURRENT_REAL_RESIDUE_EXISTING_REPAIR_PATH_ACTIVE",
+      "evidence": [
+        "A June 2026 Xuzhou report on industry-linked talent training states that enterprises can recruit graduates who interview well but cannot immediately perform on the shop floor; the report says some require three to five months of training before they can work effectively.",
+        "The local response is already moving toward enterprise orders, school-industry training, practical skill evaluation, internships and production-line learning, so the generic training/credential route is not absent."
+      ],
+      "interpretation": "This is direct evidence that existing credentials/interviews can leave a capability-proof gap with measurable onboarding cost. It does not prove demand for a new verification platform. The useful residual is the subset of roles where substantial re-verification/retraining remains after current enterprise-led training and skill-evaluation mechanisms.",
+      "next_truth": "Find named role/task classes where employers still incur repeated trial-work, retraining, supervision or failure cost after using current credentials/training routes, and identify what task-level proof would materially reduce that cost.",
+      "source": "https://szb.cnxz.com.cn/xzrb/pc/con/202606/13/content_51294.html"
+    }
+  ],
+  "search_rules_refined": [
+    {
+      "name": "STATE_LEGIBILITY_CHECK",
+      "questions": [
+        "What material state does the counterparty need to believe before acting?",
+        "Who produces the evidence?",
+        "Who verifies or is accountable for it?",
+        "Is the evidence current and decision-relevant rather than decorative?",
+        "Does making the state legible measurably change willingness to transact?"
+      ]
+    },
+    {
+      "name": "RIGHTS_BUNDLE_COMPLETENESS",
+      "questions": [
+        "What rights and control channels travel with the asset beyond physical title?",
+        "Are there liens, account bindings, software entitlements, remote-control rights, licenses, warranties, data access or service dependencies?",
+        "Can any retained third-party right materially prevent normal use after transfer?"
+      ]
+    },
+    {
+      "name": "CAPABILITY_PROOF_RESIDUE",
+      "questions": [
+        "Which valuable supplier/human capabilities remain difficult to prove through existing certification, CV, portfolio or quality systems?",
+        "What workaround does the buyer currently use: trial order, trial work, reference, on-site audit, sample, warranty, escrow or prolonged observation?",
+        "What is the measurable cost of that workaround?"
+      ]
+    }
+  ],
+  "closures": [
+    "GENERIC_USED_EQUIPMENT_APPRAISAL_OR_MARKETPLACE",
+    "GENERIC_SKILL_CERTIFICATION_PLATFORM",
+    "GENERIC_AGRICULTURAL_QUALITY_CERTIFICATION",
+    "GENERIC_SUPPLIER_DIRECTORY_WITHOUT_DECISION_RELEVANT_PROOF"
+  ],
+  "next_scan_priority": [
+    "NAMED_ROLE_TASK_CLASSES_WITH_POST_CREDENTIAL_RETRAINING_COST",
+    "CONNECTED_ASSET_RIGHTS_OR_CONTROL_STATE_HIDDEN_FROM_BUYER",
+    "CURRENT_FORCED_EXTERNAL_ROUTING_LEDGER",
+    "NON_AGRICULTURAL_RISK_BEARING_ORCHESTRATOR_REPLICATION"
+  ],
+  "truth_boundaries": [
+    "CERTIFICATE_NE_CAPABILITY",
+    "INTERVIEW_PERFORMANCE_NE_SHOPFLOOR_READINESS",
+    "RETRAINING_COST_NE_NEW_VERIFICATION_BUSINESS",
+    "PLATFORM_DATA_NE_TRUST_UNLESS_DECISION_RELEVANT",
+    "PHYSICAL_TITLE_TRANSFER_NE_COMPLETE_USABLE_RIGHTS",
+    "SUPPLIER_CLAIM_NE_BUYER_ACCEPTED_CAPABILITY",
+    "TRACEABILITY_INFRASTRUCTURE_NE_NEW_MARKET_EDGE",
+    "NO_NEW_FORMATION_WITHOUT_OBSERVED_RESIDUAL_COST_OR_PARTIAL_FLOW",
+    "FIRST_EXTERNAL_VALUE_FLOW_STILL_NOT_PROVEN"
+  ]
+}
