@@ -1,0 +1,53 @@
+{
+  "artifact_id": "EXTERNAL-OUTREACH-WAVE-002-2026-09-17",
+  "observed_at": "2026-09-17",
+  "status": "INCREMENTAL_OUTREACH_SENT_RESPONSE_PENDING",
+  "parent_artifact": "EXTERNAL-OUTREACH-WAVE-001-2026-09-17",
+  "formation_id": "PF-OPC-SILVER-CHANNEL-COPILOT-007",
+  "new_outreach_events": [
+    {
+      "side": "OPC",
+      "organization": "徐州工程学院创新创业教育学院",
+      "channel": "public_email",
+      "address": "zhh98@xzit.edu.cn",
+      "evidence": "publicly listed college contact mailbox; 2026 'Dream+' OPC training camp publicly listed 40 selected participants",
+      "request": "forward a non-sales anonymous validation invitation to relevant OPC participants asking for recent concrete commercial blockages, what current support failed to solve, and what bounded result would justify real commitment",
+      "state": "SENT_RESPONSE_PENDING"
+    },
+    {
+      "side": "SENIOR",
+      "organization": "中国矿业大学离退休工作处",
+      "channel": "public_email_followup",
+      "address": "ltxc@cumt.edu.cn",
+      "evidence": "public general mailbox for CUMT retirement affairs office",
+      "request": "more explicit follow-up asking which professional resources became underused after retirement, acceptable one-off bounded contribution, refusal/time boundaries, and fair non-unpaid compensation or reciprocity",
+      "state": "SENT_RESPONSE_PENDING"
+    }
+  ],
+  "verified_mailbox_truth": {
+    "sent_messages_found_in_gmail": 5,
+    "unique_public_recipient_addresses": 4,
+    "addresses": [
+      "cyzx85606576@163.com",
+      "ltxc@cumt.edu.cn",
+      "ltb@xzhmu.edu.cn",
+      "zhh98@xzit.edu.cn"
+    ],
+    "cumt_followup_count": 1,
+    "direct_actor_replies_at_capture": 0
+  },
+  "truth_boundaries": [
+    "SENT_NE_REPLY",
+    "REPLY_NE_REPEATED_GRADIENT",
+    "INSTITUTIONAL_GATEWAY_NE_ACTOR",
+    "FOLLOWUP_NE_PRESSURE_CAMPAIGN",
+    "SILENCE_NE_MARKET_REJECTION",
+    "NO_PAIRING_BEFORE_SEPARATE_SIDE_TRUTH",
+    "NO_PRODUCT_BUILD_BEFORE_QUALIFIED_ACTOR_RESPONSE"
+  ],
+  "next_blocker": "FIRST_QUALIFIED_ACTOR_RESPONSE",
+  "external_outreach_total_sent_messages": 5,
+  "external_outreach_unique_gateways": 4,
+  "economic_commitments": 0,
+  "pairings_attempted": 0
+}
