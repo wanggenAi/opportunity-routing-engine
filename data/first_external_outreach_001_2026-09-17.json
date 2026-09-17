@@ -1,0 +1,86 @@
+{
+  "artifact_id": "FIRST-EXTERNAL-OUTREACH-001-2026-09-17",
+  "observed_at": "2026-09-17",
+  "status": "OUTREACH_SENT_AWAITING_ACTOR_TRUTH",
+  "purpose": "Move the accessibility-first potential-flow hypotheses from public-research truth to direct actor-side truth without pitching a product or pre-pairing actors.",
+  "truth_boundaries": [
+    "OUTREACH_SENT_NE_VALIDATION_PASS",
+    "NO_REPLY_IS_NOT_POSITIVE_EVIDENCE",
+    "REPLY_NE_REPEATED_GRADIENT",
+    "INTEREST_NE_WILLINGNESS_TO_COMMIT",
+    "ADVICE_NE_BOUNDED_EXCHANGE",
+    "SEPARATE_ACTOR_SIDE_TRUTH_BEFORE_PAIRING",
+    "NO_SENSITIVE_PERSONAL_PROFILING",
+    "NO_PRODUCT_PITCH_BEFORE_REPEATED_BLOCKAGE",
+    "UNKNOWN_NE_PASS"
+  ],
+  "outreach_events": [
+    {
+      "outreach_id": "OUTREACH-OPC-001",
+      "candidate_id": "PF-OPC-SILVER-CHANNEL-COPILOT-007",
+      "actor_side": "YOUNG_OPC",
+      "channel": "EMAIL",
+      "recipient": "Xuzhou Institute of Technology Innovation and Entrepreneurship College",
+      "public_email": "zhh98@xzit.edu.cn",
+      "public_evidence": [
+        "2026 Xuzhou 'Dream+' OPC training camp had 40 selected participants and a public training contact",
+        "the college publicly lists the email used for this outreach"
+      ],
+      "request_shape": "request staff to forward an anonymous/non-sales validation invitation to relevant OPC participants",
+      "questions": [
+        "most recent case where product/technology was basically ready but commercial progress stalled",
+        "exact blockage: customer discovery, wrong decision maker, industry language, trust, pricing, decision chain, negotiation or other",
+        "what current incubator/mentor/community/business-matching route did and did not solve",
+        "whether one bounded senior-industry contribution would materially change the outcome",
+        "what result would be valuable enough for a real paid or reciprocal commitment rather than generic advice"
+      ],
+      "sent": true,
+      "reply_received": false,
+      "promotion_effect": "NONE_UNTIL_DIRECT_REPLY_EVIDENCE"
+    },
+    {
+      "outreach_id": "OUTREACH-SILVER-001",
+      "candidate_id": "PF-OPC-SILVER-CHANNEL-COPILOT-007",
+      "actor_side": "SENIOR_TRANSITION",
+      "channel": "EMAIL",
+      "recipient": "China University of Mining and Technology Retirement Affairs Office",
+      "public_email": "ltxc@cumt.edu.cn",
+      "public_evidence": [
+        "the office publicly serves CUMT retired faculty/staff and publishes a general contact mailbox",
+        "the office operates retiree activity, party-branch and next-generation-support structures"
+      ],
+      "request_shape": "request staff to forward a non-sales anonymous validation invitation to interested retired faculty/professionals",
+      "questions": [
+        "which valuable professional resources became materially underused after retirement",
+        "how existing reemployment, volunteering, advisory or lecture routes fit or fail",
+        "whether one-off bounded customer/industry/solution judgment is easier to accept than long-term consulting",
+        "what activities are acceptable versus explicitly refused and what time boundary is acceptable",
+        "what compensation or reciprocal outcome would be fair rather than unpaid help"
+      ],
+      "sent": true,
+      "reply_received": false,
+      "promotion_effect": "NONE_UNTIL_DIRECT_REPLY_EVIDENCE"
+    }
+  ],
+  "current_state": {
+    "PF-OPC-SILVER-CHANNEL-COPILOT-007": "DIRECT_ACTOR_OUTREACH_STARTED",
+    "PF-HIGHSKILL-CAREGIVER-FRACTIONAL-008": "PUBLIC_RESEARCH_ONLY",
+    "external_outreach_count": 2,
+    "direct_actor_replies": 0,
+    "economic_commitments": 0,
+    "pairings_attempted": 0,
+    "product_pitch_sent": false
+  },
+  "next_decisive_truth": [
+    "at least one direct young-OPC reply describing a recent bounded commercial blockage after existing support",
+    "at least one direct senior-transition reply describing a callable resource plus explicit refusal/commitment boundary",
+    "repeat evidence across multiple independent actors before any pairing",
+    "if access intermediaries decline or ignore outreach, seek alternative ordinary lawful actor channels rather than treating silence as market rejection"
+  ],
+  "sources": [
+    "https://xzcxcy.xzit.edu.cn/21/ca/c2046a205258/page.htm",
+    "https://xzcxcy.xzit.edu.cn/27/c7/c2046a206791/page.htm",
+    "https://ltx.cumt.edu.cn/bmgk/ryfg.htm",
+    "https://ltx.cumt.edu.cn/bmgk.htm"
+  ]
+}
