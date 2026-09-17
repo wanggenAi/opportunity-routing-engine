@@ -1,0 +1,34 @@
+{
+  "artifact_id": "OUTREACH-DELIVERY-STATE-001-2026-09-17",
+  "observed_at": "2026-09-17",
+  "status": "DELIVERY_PARTIALLY_CONFIRMED_QUALIFIED_REPLY_PENDING",
+  "formation_id": "PF-OPC-SILVER-CHANNEL-COPILOT-007",
+  "cumulative_sent_messages": 5,
+  "unique_public_recipient_addresses": 4,
+  "delivery_confirmations": [
+    {
+      "recipient": "cyzx85606576@163.com",
+      "organization": "徐州市创业工作指导中心 / 徐州市大学生创业园",
+      "evidence": "automatic receipt confirmation",
+      "state": "DELIVERY_CONFIRMED_NOT_ACTOR_RESPONSE"
+    },
+    {
+      "recipient": "ltb@xzhmu.edu.cn",
+      "organization": "徐州医科大学离退休人员工作办公室",
+      "evidence": "automatic receipt confirmation",
+      "state": "DELIVERY_CONFIRMED_NOT_ACTOR_RESPONSE"
+    }
+  ],
+  "qualified_actor_replies": 0,
+  "truth_boundaries": [
+    "EMAIL_SENT_NE_DELIVERED",
+    "DELIVERY_CONFIRMED_NE_ACTOR_RESPONSE",
+    "AUTO_REPLY_NE_INTEREST",
+    "ACTOR_RESPONSE_NE_REPEATED_GRADIENT",
+    "REPEATED_GRADIENT_NE_MISSING_EDGE",
+    "SILENCE_NE_MARKET_REJECTION"
+  ],
+  "next_blocker": "FIRST_QUALIFIED_HUMAN_REPLY_OR_DIRECT_ACTOR_RESPONSE",
+  "same_day_repeat_outreach": false,
+  "reason": "Do not spam institutional gateways; wait for human handling while continuing parallel low-permission potential-flow sensing."
+}
