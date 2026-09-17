@@ -26,7 +26,7 @@ Source: https://static.cninfo.com.cn/finalpage/2026-08-28/1225518017.PDF
 
 A Jiangsu environmental-monitoring equipment procurement requires delivery, installation, debugging and training, but states that installation is complete only when the instrument operates normally and the buyer confirms it. Training must also continue until the user's personnel can independently operate the instrument.
 
-Source: https://sthjj.nanjing.gov.cn/ntshjbhj/202603/t20260330_5814883.html
+Source: https://sthjj.nantong.gov.cn/ntshbj/cgzbgg/content/4a637777-75e8-45ea-8d99-9c440bc7244c.html
 
 The value is not the installation activity. The receiver must become capable of operating the equipment.
 
@@ -103,7 +103,7 @@ Only then should the project use `ACCEPTED`.
 
 ## Field truth
 
-Two employer capability-proof probes have been sent. Qualified human responses remain 0.
+Two direct employer capability-proof probes have been sent. Qualified human responses remain 0.
 
 Their current state is therefore still `SENT`, not `ACCEPTED`, regardless of delivery status.
 
