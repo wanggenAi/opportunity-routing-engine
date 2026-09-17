@@ -4,9 +4,9 @@ Instructions for AI agents, coding assistants and human contributors working in 
 
 ## Prime directive
 
-Build a truthful, evidence-driven **Actor-First Regenerative Latent-Value Formation & Orchestration Engine** whose highest-order purpose is not merely to find existing demand, but to detect the real-world conditions from which **new value structures may form before actors have articulated them as demand**.
+Build a truthful, evidence-driven **Actor-First Regenerative Latent-Value Formation & Orchestration Engine** whose highest-order purpose is not merely to find existing demand, but to detect the real-world conditions from which **new value structures may form before actors have articulated them as demand**, discover the latent connections reality is already trying to form, and organize those connections only after evidence justifies doing so.
 
-The repository does **not** begin from a fixed `DEMAND SIDE -> SUPPLY SIDE` model. It begins from actors, objective endowments, state changes, perception, motive, behavior, contradictions, underuse, misallocation and unrealized complementarities.
+The repository does **not** begin from a fixed `DEMAND SIDE -> SUPPLY SIDE` model. It begins from actors, objective endowments, state changes, perception, motive, behavior, contradictions, underuse, misallocation, unrealized complementarities and observable connection pressure.
 
 ```text
 WORLD SENSING
@@ -18,8 +18,13 @@ WORLD SENSING
 → RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
 → UNMET / UNFORMED OUTCOME HYPOTHESIS
 → COMPLEMENTARY WORLD NODES
-→ COUNTERFACTUAL EXCHANGE DESIGN
-→ CHEAP BOUNDED VALIDATION
+→ CONNECTION-PRESSURE EVIDENCE
+→ PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
+→ OBSERVED MISSING EDGE / STRANDING BARRIER
+→ LATENT CONNECTION HYPOTHESIS
+→ CONTRADICTION SEARCH
+→ ONLY THEN: COUNTERFACTUAL EXCHANGE MECHANICS
+→ CHEAP BOUNDED REALITY CONFIRMATION
 → ONLY IF SUPPORTED: NEED / RESOURCE / BLOCKER / PAYER PROJECTION
 → ROUTING / ACCEPTANCE / SETTLEMENT
 → REPEAT / LEARNING / BETTER ALLOCATION
@@ -27,11 +32,11 @@ WORLD SENSING
 
 The key rule is:
 
-> **Demand does not have to exist first. The conditions from which value may emerge can exist first. Infer a falsifiable exchange from those conditions, then let reality decide whether the exchange becomes real.**
+> **Demand does not have to exist first. The conditions from which value may emerge can exist first. But do not invent a connection from complementarity alone. Discover evidence that reality is already exerting pressure toward the connection, then design only the minimum mechanics and let reality confirm or falsify the remaining uncertainty.**
 
 `NeedSignal`, `ResourceSignal` and `BlockerSignal` are downstream fail-closed evidence projections. They must not shrink the engine into an explicit demand-matching system.
 
-Optimize for **truthful value formation + recurring accepted outcomes + delegatability + regenerative circulation + normalized orchestration economics**, not code volume, lead count, explicit-demand count, founder activity or narrative appeal.
+Optimize for **truthful value formation + discovered latent connections + recurring accepted outcomes + delegatability + regenerative circulation + normalized orchestration economics**, not code volume, lead count, explicit-demand count, founder activity or narrative appeal.
 
 **Code serves the doctrine. The doctrine does not bend to the convenience of code, a website, an API, an explicit-demand feed, a current candidate or a source schema.**
 
@@ -39,20 +44,21 @@ Optimize for **truthful value formation + recurring accepted outcomes + delegata
 
 Before changing business logic, read these in order:
 1. `docs/LATENT_VALUE_DOCTRINE.md`
-2. `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
-3. `docs/FORMAL_TRUTH.md`
-4. `docs/RESOURCE_ACTIVATION_THESIS.md`
-5. `docs/DISCOVERY_ENGINE.md`
-6. `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
-7. `docs/RESOURCE_IMBALANCE_ENGINE.md`
-8. `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
-9. `docs/ACTOR_MODEL.md`
-10. `docs/THESIS_TRANSACTION_GAPS.md`
-11. `docs/OPPORTUNITY_SCORECARD.md`
-12. `docs/ARCHITECTURE.md`
-13. current `docs/research/`, `docs/field/` and `docs/launch/` files relevant to the task.
+2. `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`
+3. `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
+4. `docs/FORMAL_TRUTH.md`
+5. `docs/RESOURCE_ACTIVATION_THESIS.md`
+6. `docs/DISCOVERY_ENGINE.md`
+7. `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
+8. `docs/RESOURCE_IMBALANCE_ENGINE.md`
+9. `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
+10. `docs/ACTOR_MODEL.md`
+11. `docs/THESIS_TRANSACTION_GAPS.md`
+12. `docs/OPPORTUNITY_SCORECARD.md`
+13. `docs/ARCHITECTURE.md`
+14. current `docs/research/`, `docs/field/` and `docs/launch/` files relevant to the task.
 
-`docs/LATENT_VALUE_DOCTRINE.md` is constitutional. `docs/LATENT_VALUE_FORMATION_BRIDGE.md` is also a locked constitutional discovery principle despite its historical filename. If another document, implementation or workflow conflicts with them, the lower-level artifact must change.
+`docs/LATENT_VALUE_DOCTRINE.md` is constitutional. `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md` and `docs/LATENT_VALUE_FORMATION_BRIDGE.md` are also locked constitutional discovery principles. If another document, implementation or workflow conflicts with them, the lower-level artifact must change.
 
 There is no active `EXP-*` opportunity layer after the 2026-09-10 reset. Do not recreate it unless the architecture is explicitly changed.
 
@@ -85,12 +91,13 @@ A data field is an observation, not the ontology.
 A current opportunity is a sample, not the business identity.
 A procurement feed is one sensor, not the business model.
 An explicit demand is evidence, not the definition of value formation.
+A plausible pairing is a hypothesis, not a discovered connection.
 
 Before adding or materially expanding a feature, answer:
-1. What objective endowment, actor state/change, psychology/behavior shift, contradiction, disequilibrium, unformed outcome, complementary node or exchange structure does this help observe, infer, validate or activate?
-2. Does it improve discovery of value structures that actors may not already have articulated?
+1. What objective endowment, actor state/change, psychology/behavior shift, contradiction, disequilibrium, unformed outcome, complementary node, connection-pressure evidence or exchange structure does this help observe, infer, validate or activate?
+2. Does it improve discovery of value relationships reality is already trying to form rather than merely generate plausible combinations?
 3. Does it preserve inference/evidence boundaries?
-4. Does it improve our ability to connect complementary nodes without making the operator permanent sales/delivery labor?
+4. Does it improve our ability to discover and activate complementary nodes without making the operator permanent search/sales/delivery labor?
 5. Is it reusable system capability rather than overfitting to one source, website, explicit demand, transaction or candidate?
 
 If answers 1–4 are weak, the feature is not a core-priority feature even if technically useful.
@@ -107,6 +114,13 @@ If answers 1–4 are weak, the feature is not a core-priority feature even if te
 - Unformed outcome hypothesis != demand.
 - Psychology hypothesis != demand.
 - Motive hypothesis != willingness to pay.
+- `CONNECTION INVENTION != CONNECTION DISCOVERY`.
+- `COMPLEMENTARITY != LATENT CONNECTION`.
+- `CONNECTION HYPOTHESIS != CONNECTION PRESSURE EVIDENCE`.
+- `MISSING EDGE HYPOTHESIS != OBSERVED MISSING EDGE`.
+- `COUNTERFACTUAL EXCHANGE != LATENT CONNECTION EVIDENCE`.
+- `LATENT CONNECTION != ACCEPTED EXCHANGE`.
+- Human outreach != primary discovery sensor.
 - Complaint != demand.
 - Demand != willingness to pay.
 - Willingness to pay != transaction.
@@ -150,7 +164,8 @@ Start from broad reality:
 - observable underused skills, assets, channels and productive capacity;
 - utilization changes, idle time, fragmentation, repeated repricing and stranded assets;
 - relationships, trust, reputation, access, distribution and installed-base resources;
-- combinations of resources whose value appears only when connected.
+- combinations of resources whose value appears only when connected;
+- repeated partial, informal, substitute and adjacent flows that may reveal a connection already trying to form.
 
 Then reconstruct:
 
@@ -165,11 +180,17 @@ ACTOR / SEGMENT
 → RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
 → UNMET / UNFORMED OUTCOME HYPOTHESIS
 → COMPLEMENTARY WORLD-NODE SEARCH
-→ COUNTERFACTUAL EXCHANGE DESIGN
-→ CHEAP VALIDATION
+→ CONNECTION-PRESSURE EVIDENCE
+→ PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
+→ OBSERVED MISSING EDGE / STRANDING BARRIER
+→ LATENT CONNECTION HYPOTHESIS
+→ MINIMUM COUNTERFACTUAL EXCHANGE MECHANICS
+→ CHEAP REALITY CONFIRMATION
 ```
 
 The engine must search for what actors may not know about themselves: hidden capability, hidden deficit, underused relationships, changed resource meaning, packaging gaps, coordination gaps, unrealized exchange structures and outcomes that have not yet become product categories.
+
+It must also search for what **reality is already trying to connect**: repeated workarounds, informal exchange, failed cross-boundary attempts, substitution, referrals, expensive legacy routes and shared state changes that expose directional pressure.
 
 Psychology signals must be tied to the same actor segment and corroborated with behavior before they can materially raise a formation hypothesis. Money evidence strengthens commercial relevance, but money is not required merely to form a bounded hypothesis worth testing.
 
@@ -192,7 +213,7 @@ The system should explicitly look for contradictions such as:
 - equipment/space/data but no current viable scenario;
 - attention but no transaction structure.
 
-A contradiction is a search signal, not a business verdict.
+A contradiction is a search signal, not a business verdict or connection proof.
 
 ## Psychology & behavior rule
 
@@ -212,26 +233,39 @@ STATE CHANGE
 
 Public/authorized social platforms, forums, reviews, search and comment ecosystems can expose language and behavior clues. Platforms are sensors, not strategy. Do not build individual psychographic dossiers or infer sensitive traits.
 
-A statement such as `I don't know what to do now`, `I want to learn X`, or `I cannot find work` is not automatically a lead, need or willingness-to-pay signal. It is an observation to connect with objective state/endowment evidence and repeated behavior.
+A statement such as `I don't know what to do now`, `I want to learn X`, or `I cannot find work` is not automatically a lead, need, connection or willingness-to-pay signal. It is an observation to connect with objective state/endowment evidence and repeated behavior.
 
-## Counterfactual Exchange Design rule
+## Latent Connection Discovery rule
 
-For a credible formation hypothesis ask:
+For a credible formation hypothesis, first ask:
 
-> **If currently unrelated real-world nodes were connected under explicit roles, incentives, permission, trust and acceptance, could a new exchange create incremental value for every required participant?**
+> **What evidence shows that currently separate real-world nodes are already being pushed toward the same value flow, while an observed missing edge prevents that flow from becoming normal?**
 
 The nodes may be people, groups, organizations, institutions, assets, spaces, equipment, capability/process units, channels, data, capital/budget, rights/access, software/AI/API, contracts/rules/standards, demand/event flows, trust/reputation relationships or new node types not yet named.
 
-Do not require the proposed structure to already exist as a standard product category.
+Do not require the eventual mechanism to already exist as a standard product category.
 
-But do require:
+But before `VALIDATION_READY`, do require:
 - evidenced node existence/state;
+- explicit `CONNECTION_PRESSURE` evidence;
+- an observed stranding barrier / missing edge;
 - explicit controller/permission unknowns;
-- a plausible contribution from each node;
-- a reason the exchange does not already happen;
-- participant surplus hypotheses;
-- a falsifiable cheapest validation;
+- participant-surplus hypotheses;
+- contradiction search;
+- a falsifiable cheapest reality confirmation;
 - kill conditions.
+
+Useful connection-pressure evidence can include repeated workarounds, informal/manual exchange, repeated failed attempts, substitution, referrals, shared causal pressure, expensive legacy routes and adjacent/historical analogues.
+
+Only after connection pressure is evidenced may `Counterfactual Exchange Design` describe the minimum roles, incentives, permissions, trust, acceptance and settlement mechanics needed to reduce friction.
+
+```text
+LATENT CONNECTION DISCOVERY
+PRECEDES
+COUNTERFACTUAL EXCHANGE DESIGN
+```
+
+A well-written exchange design is not evidence that the connection exists.
 
 ## Resource Imbalance rule — downstream promotion only
 
@@ -372,7 +406,8 @@ A repeatable business cannot depend on unpaid founder execution to appear profit
 
 The layer must add recurring value beyond introduction through one or more of:
 - revealing hidden capability, disequilibrium or unformed outcome;
-- counterfactual exchange design;
+- discovering connection pressure and the true missing edge;
+- designing minimum exchange mechanics for an evidenced latent connection;
 - reframing / packaging / aggregating resources;
 - requirement clarification;
 - decomposition;
@@ -402,7 +437,8 @@ Required maturity path:
 
 ```text
 FORMATION HYPOTHESIS
-→ CHEAP BOUNDED VALIDATION
+→ CONNECTION-PRESSURE EVIDENCE
+→ CHEAP BOUNDED REALITY CONFIRMATION
 → L3 real commitment
 → L4 accepted paid transaction + settlement
 → L5 repeat/referral
@@ -419,7 +455,7 @@ There is currently no permanent canonical business vertical.
 
 Existing explicit-demand field probes, including public technology-demand and digital-transformation routes, remain useful empirical tests. They are **downstream samples**, not the identity of the system and not evidence that the engine should become a demand-matching platform.
 
-The current formation capability already exists in `src/latent_value_formation.py`. The immediate architectural task is not another ontology rewrite. It is to ensure world sensing, objective resource/state evidence and psychology/behavior evidence feed that model empirically.
+The current formation capability exists in `src/latent_value_formation.py`. `VALIDATION_READY` now additionally requires explicit `CONNECTION_PRESSURE` evidence. The immediate architectural task is not another ontology rewrite. It is to ensure world sensing, objective resource/state evidence, psychology/behavior evidence, partial-flow/workaround evidence and observed missing edges feed that model empirically.
 
 Current priorities:
 1. maintain broad reality/money-flow/behavior sensors;
@@ -428,10 +464,12 @@ Current priorities:
 4. preserve contradictions rather than averaging them away;
 5. generate evidence-bound `RESOURCE_PSYCHOLOGY_DISEQUILIBRIUM` and `UNMET / UNFORMED OUTCOME` hypotheses;
 6. search heterogeneous complementary world nodes;
-7. generate counterfactual exchange designs with kill conditions;
-8. run cheap decisive validations;
-9. only after support exists, project Need/Resource/Blocker/payer truth and perform transaction gating;
-10. keep the founder as orchestration/routing control plane rather than default execution node.
+7. discover `CONNECTION_PRESSURE` through repeated workaround, partial flow, substitution, referral, failed-attempt, shared-pressure and analogue evidence;
+8. identify observed missing edges separately from imagined ones;
+9. only then design minimum exchange mechanics with kill conditions;
+10. use human/external validation capital on the single most decisive unresolved truth;
+11. only after support exists, project Need/Resource/Blocker/payer truth and perform transaction gating;
+12. keep the founder as orchestration/routing control plane rather than default search, sales or execution node.
 
 Do not resume an old launch merely because a launch document or open historical Issue exists.
 
@@ -447,6 +485,8 @@ FIELD TRUTH
 INTERNAL COMPLETENESS
 ```
 
+But field action is not a substitute for upstream discovery. Broad sensing should eliminate imagined connections before scarce external contact is spent.
+
 Add engineering only when it directly fixes a truth gap, access/validation blocker, repeated empirical bottleneck or doctrine violation.
 
 ## Success definition
@@ -456,8 +496,10 @@ The repository succeeds when it increasingly produces:
 - resource–psychology disequilibrium hypotheses;
 - unmet/unformed outcome hypotheses that were not already explicit demand;
 - heterogeneous complementary-node structures;
-- falsifiable counterfactual exchanges;
-- reality tests that kill weak formations quickly;
+- evidence-bound latent connections with explicit `CONNECTION_PRESSURE`;
+- observed missing edges rather than invented blockers;
+- minimum falsifiable exchange mechanics;
+- reality confirmations that kill weak formations quickly;
 - real payer commitment when a formation survives;
 - recurring event/Demand Pumps;
 - clear CapabilityUnits;
@@ -468,4 +510,4 @@ The repository succeeds when it increasingly produces:
 - repeated transactions from the same underlying structure;
 - outcome/reliability learning that improves future formation and routing.
 
-**The engine wins by seeing the conditions from which value can form, proving what is real and designing circulation — not by waiting for the market to publish a task and then matching it with a supplier.**
+**The engine wins by discovering the value channels reality is already trying to form, proving what is real and designing circulation only after the connection is evidenced — not by waiting for the market to publish a task, and not by imagining a pairing then using human effort as the search algorithm.**
