@@ -2,10 +2,11 @@
 
 Status: `CONSTITUTIONAL DISCOVERY PRINCIPLE / LOCKED`
 
-Effective: 2026-09-16
+Effective: 2026-09-17
 
 Parents:
 - `docs/LATENT_VALUE_DOCTRINE.md`
+- `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`
 - `docs/DISCOVERY_ENGINE.md`
 - `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
 - `docs/RESOURCE_ACTIVATION_THESIS.md`
@@ -36,15 +37,18 @@ PAID DEMAND EXISTS
 
 A resource can objectively exist while the commercial value that could later emerge from it does not yet exist as an exchange.
 
-The engine should be able to ask:
+But the engine must not jump from `A exists + B exists` to an invented connection. The upstream question is:
 
-> **Given what an actor objectively has, what state the actor is in, what has changed, how perception/motive/behavior is changing, and what complementary nodes exist elsewhere, is there a falsifiable value structure that does not yet exist but could create incremental value?**
+> **Given what real actors objectively have, what changed, what costs/workarounds/partial flows are already observable, and what complementary nodes exist elsewhere, is reality already exerting directional pressure toward a connection that current routes fail to realize?**
 
-This is not demand creation by imagination. It is evidence-bound **Latent Value Formation**.
+Only after that connection pressure is evidenced may the system ask what minimum exchange mechanics would let the value flow with less friction.
+
+This is not demand creation by imagination. It is evidence-bound **Latent Value Formation through Latent Connection Discovery**.
 
 ```text
 DEMAND DISCOVERY != LATENT VALUE FORMATION
 EXPLICIT DEMAND EXECUTION != CORE LATENT VALUE FORMATION
+CONNECTION INVENTION != CONNECTION DISCOVERY
 ```
 
 Explicit demand remains useful downstream. It must not define the discovery identity of the system.
@@ -68,11 +72,19 @@ UNMET / UNFORMED OUTCOME HYPOTHESIS
         ↓
 COMPLEMENTARY WORLD-NODE SEARCH
         ↓
-COUNTERFACTUAL EXCHANGE DESIGN
+CONNECTION-PRESSURE EVIDENCE
         ↓
-WHY EXCHANGE DOES NOT ALREADY HAPPEN
+PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
         ↓
-CHEAPEST DECISIVE VALIDATION
+OBSERVED MISSING EDGE / STRANDING BARRIER
+        ↓
+LATENT CONNECTION HYPOTHESIS
+        ↓
+CONTRADICTION SEARCH
+        ↓
+ONLY THEN: COUNTERFACTUAL EXCHANGE MECHANICS
+        ↓
+CHEAPEST DECISIVE REALITY CONFIRMATION
         ↓
 ONLY IF REALITY SUPPORTS IT: NEW COMMERCIAL STRUCTURE
         ↓
@@ -83,7 +95,9 @@ ROUTING / ACCEPTANCE / SETTLEMENT / LEARNING
 
 The key distinction is:
 
-> **Demand does not have to exist first. The conditions from which value could emerge may exist first. The system reasons from those conditions toward a new exchange hypothesis, then lets reality decide whether that exchange deserves to exist.**
+> **Demand does not have to exist first. The conditions from which value could emerge may exist first. But the system must discover evidence that reality is already pushing value across a boundary before it spends human validation capital designing or testing that connection.**
+
+The old shorthand `COUNTERFACTUAL EXCHANGE DESIGN` remains a downstream mechanism-design operation. It no longer proves that the connection itself exists.
 
 ## 3. Resource–Psychology Disequilibrium is a primary search zone
 
@@ -115,14 +129,14 @@ HAS DEEP INDUSTRY EXPERIENCE
 + RETIRES FROM FULL-TIME ROLE
 + STILL VALUES CONTRIBUTION / RELEVANCE
 + DOES NOT WANT ANOTHER FULL-TIME JOB
-→ potentially callable bounded expertise, if rights/proof/acceptance can be designed
+→ potentially callable bounded expertise, if reality also shows connection pressure toward a concrete use
 ```
 
 ```text
 HAS DIGITAL / AI EXECUTION CAPABILITY
 + HAS TIME
 + WEAK TRUST / CLIENT ACCESS / INDUSTRY CONTEXT
-→ underused execution capacity, not automatically market supply
+→ underused execution capacity, not automatically market supply or a connection
 ```
 
 ```text
@@ -130,10 +144,10 @@ HAS EQUIPMENT / SPACE / DATA / DISTRIBUTION
 + CURRENT UTILIZATION IS LOW
 + ADJACENT ACTORS ARE CHANGING BEHAVIOR
 + OLD PACKAGING NO LONGER FITS
-→ possible new combination, not automatically a business
+→ possible new combination, not automatically a business or latent connection
 ```
 
-The engine should search for the disequilibrium before inventing a product.
+The engine should search for the disequilibrium before inventing a product, then search for real connection-pressure evidence before inventing a route.
 
 ## 4. UNMET / UNFORMED OUTCOME
 
@@ -160,9 +174,10 @@ But:
 UNFORMED OUTCOME HYPOTHESIS != DEMAND
 DESIRED STATE != WILLINGNESS TO PAY
 PSYCHOLOGICAL TENSION != COMMERCIAL OPPORTUNITY
+UNFORMED OUTCOME != LATENT CONNECTION
 ```
 
-The outcome should stay product-agnostic long enough for the system to search heterogeneous world nodes and alternative transformations.
+The outcome should stay product-agnostic long enough for the system to search heterogeneous world nodes, connection pressure and alternative transformations.
 
 ## 5. Psychology & Behavior Engineering is a causal discovery input
 
@@ -196,6 +211,8 @@ Current examples such as Douyin, Zhihu, Xiaohongshu, Reddit, X or other communit
 
 The valuable signal is often not `I want to buy X`, but an actor unintentionally revealing a state transition, motive, workaround, contradiction or unused endowment.
 
+Repeated workarounds, substitutions, referrals and informal coordination are especially valuable because they may expose **connection pressure** before a formal market category exists.
+
 ## 6. Contradiction is first-class discovery evidence
 
 Many valuable formation hypotheses begin with a contradiction rather than a stated demand.
@@ -213,7 +230,7 @@ SPACE / EQUIPMENT EXISTS BUT SCENARIO / PACKAGING IS ABSENT
 ATTENTION EXISTS BUT TRANSACTION STRUCTURE IS ABSENT
 ```
 
-Contradictions do not prove opportunity. They identify places where the current arrangement may be leaving value unrealized.
+Contradictions do not prove opportunity or connection. They identify places where the current arrangement may be leaving value unrealized.
 
 The system should preserve contradictory evidence rather than averaging it away, because contradictions may either reveal the formation mechanism or falsify it.
 
@@ -230,10 +247,13 @@ ORIGIN_CHANGE
 UNDERUSE_MISALIGNMENT
 OBSERVED_BEHAVIOR
 COMPLEMENTARY_NODE
+CONNECTION_PRESSURE
 STRANDING_BARRIER
 ```
 
-A viral narrative about retirees, graduates, parents, merchants, enterprises or another group cannot manufacture an endowment, underuse state or complementary resource.
+`CONNECTION_PRESSURE` is the explicit bridge between plausible complementarity and a reality-grounded latent connection. It may be evidenced by repeated workarounds, partial/informal flows, failed attempts, substitutions, referrals, shared causal pressure, adjacent/historical analogues or other attributable observations showing that value is already trying to cross the boundary.
+
+A viral narrative about retirees, graduates, parents, merchants, enterprises or another group cannot manufacture an endowment, underuse state, complementary resource or connection pressure.
 
 Likewise:
 
@@ -242,6 +262,8 @@ OBJECTIVE RESOURCE != COMMERCIAL VALUE
 RESOURCE EXISTS != RESOURCE IS UNDERUSED
 UNDERUSED != AVAILABLE
 AVAILABLE != OPTIONED
+COMPLEMENTARITY != LATENT_CONNECTION
+CONNECTION_HYPOTHESIS != CONNECTION_PRESSURE_EVIDENCE
 ```
 
 These truths remain independent axes.
@@ -259,13 +281,14 @@ STATE CHANGE
 
 It can help infer why an objectively available resource is not being used in the old way and what classes of outcomes may become newly valued.
 
-It cannot prove demand.
+It cannot prove demand or a connection.
 
 ```text
 PSYCHOLOGY SIGNAL != DEMAND
 MOTIVE HYPOTHESIS != WILLINGNESS TO PAY
 BEHAVIOR SIGNAL != TRANSACTION
 SOCIAL SALIENCE != POPULATION SHARE
+PSYCHOLOGY STORY != CONNECTION PRESSURE
 INFERENCE != FACT
 ```
 
@@ -297,35 +320,56 @@ The node taxonomy stays open. The important fields are the node's observed state
 
 The engine should search across node types because value may emerge only from a combination that no participant currently describes as a product category.
 
-## 10. Counterfactual Exchange Design
-
-The central formation question is not:
-
-> What existing business should we copy?
-
-It is:
-
-> **If currently separate real-world nodes were connected under explicit roles, incentives, permission, trust and acceptance, could a new exchange create incremental value for all required participants?**
-
-This is a counterfactual until reality accepts it.
+But node existence and complementarity are only search-space reduction:
 
 ```text
-COUNTERFACTUAL EXCHANGE != ACCEPTED EXCHANGE
-COMPLEMENTARITY != TRANSACTIONABILITY
-LATENT VALUE FORMATION != COMMERCIAL OPPORTUNITY
+A CAN HELP B
+!=
+REALITY IS ALREADY PUSHING A AND B TOWARD EXCHANGE
 ```
 
-The design should explain:
+Only the second claim may support latent-connection promotion.
+
+## 10. Latent Connection Discovery precedes Counterfactual Exchange Mechanics
+
+The central upstream question is:
+
+> **What evidence shows that currently separate real-world nodes are already being pushed toward the same value flow, while an observed missing edge prevents that flow from becoming normal?**
+
+Useful evidence includes repeated manual workarounds, informal exchange, failed cross-boundary attempts, substitution, referral behavior, existing expensive routes and adjacent/historical structures.
+
+Only after that question has evidence may the engine ask:
+
+> **Given this evidenced latent connection, what minimum roles, incentives, permissions, trust, acceptance and settlement mechanics would reduce the friction?**
+
+That downstream operation is the repository's historical `Counterfactual Exchange Design`.
+
+```text
+LATENT_CONNECTION_DISCOVERY
+PRECEDES
+COUNTERFACTUAL_EXCHANGE_DESIGN
+
+COUNTERFACTUAL_EXCHANGE_DESIGN
+!=
+LATENT_CONNECTION_EVIDENCE
+
+COUNTERFACTUAL EXCHANGE
+!=
+ACCEPTED EXCHANGE
+```
+
+The mechanism design should explain:
+- what observed connection pressure it serves;
 - what state would change;
 - which nodes contribute what;
 - what the origin actor gains;
 - what complementary nodes gain;
-- why the exchange is absent today;
+- what observed missing edge blocks the relationship today;
 - which permissions/controllers matter;
 - what value the orchestrator adds beyond introduction;
-- what cheapest experiment can kill or support the hypothesis.
+- what single cheapest experiment can kill or support the remaining uncertainty.
 
-A strong design may describe a commercial structure that does not currently exist anywhere in a mature form.
+A mechanism may be novel even when the underlying relationship pressure is discovered rather than invented.
 
 ## 11. Maturity states
 
@@ -347,14 +391,14 @@ Objective endowments/state/change and a perception/motive signal coexist, but un
 Underuse/misalignment and observed behavior are evidenced; an unmet/unformed outcome can be stated without claiming a market exists.
 
 ### `COMPLEMENTARITY_HYPOTHESIS`
-One or more evidenced world nodes could plausibly change the state, and a counterfactual exchange has been designed, but evidence/contradictions remain incomplete.
+One or more evidenced world nodes could plausibly change the state, and minimum exchange mechanics may be describable, but **connection-pressure evidence, barrier truth or contradiction resolution is still incomplete**.
 
 ### `VALIDATION_READY`
-All formation evidence dimensions are present, psychology is behavior-corroborated, complementary nodes are evidenced, the stranding barrier is observed, and no material unresolved contradiction remains.
+All formation evidence dimensions are present, including explicit `CONNECTION_PRESSURE`; psychology is behavior-corroborated; complementary nodes are evidenced; the stranding barrier is observed; and no material unresolved contradiction remains.
 
 It means only:
 
-> run the cheapest decisive test.
+> reality already provides enough directional evidence to justify spending scarce human/external validation capital on the remaining decisive uncertainty.
 
 It does **not** mean payer, paid need, resource control, route testability, profitability or scale.
 
@@ -381,13 +425,21 @@ Another segment may contain:
 
 Complementary nodes may also include trusted communities/institutions, spaces, software/payment infrastructure, SMEs needing bounded judgment, existing service channels or future nodes not yet named.
 
+None of that proves that these nodes should be connected.
+
+Before field validation, the system must find evidence such as repeated informal cross-generation help, referrals, existing paid/unpaid substitutes, repeated attempts, adjacent precedents or other real behavior showing the relationship is already trying to form.
+
 The correct next question is not:
 
 > Should we build a senior-training app?
 
+Nor is it:
+
+> Could we connect seniors and young digital workers?
+
 It is:
 
-> Which evidenced combination changes a real state, creates surplus for every required node, and survives a real commitment test?
+> **What is reality already making these actors do around the missing connection, and which observed edge prevents that behavior from becoming an accepted value flow?**
 
 Possible formations can then be killed or strengthened independently.
 
@@ -415,13 +467,23 @@ This ordering is mandatory:
 
 ```text
 VALUE FORMATION REASONING
-→ CHEAP REALITY TEST
+→ LATENT CONNECTION PRESSURE
+→ MINIMUM EXCHANGE MECHANICS
+→ CHEAP REALITY CONFIRMATION
 → EVIDENCE PROJECTION
 → FAIL-CLOSED TRANSACTION VALIDATION
 → ORCHESTRATION
 ```
 
 not:
+
+```text
+PLAUSIBLE COMBINATION
+→ HUMAN OUTREACH AS SEARCH
+→ CALL IT DISCOVERY
+```
+
+and not:
 
 ```text
 EXPLICIT DEMAND FEED
@@ -442,18 +504,43 @@ Do not:
 
 People remain `ACTOR`s. Their time, knowledge, capability, trust and access may participate in value formation only under explicit voluntary terms.
 
-## 15. Governing invariants
+## 15. Human validation is scarce capital
+
+Founder time, field visits, phone calls, trusted introductions and counterpart attention are scarce resources.
+
+The system must use broad sensing and cross-source evidence to eliminate weak connection stories before external contact.
+
+Preferred sequence:
+
+```text
+SENSING
+→ CONNECTION PRESSURE
+→ CONTRADICTION / MISSING-EDGE CHECK
+→ RANKED LATENT CONNECTION
+→ SINGLE DECISIVE UNKNOWN
+→ TARGETED HUMAN / FIELD CONFIRMATION
+```
+
+A field probe should recover a recent concrete event, workaround, failed attempt, cost, authority boundary or commitment signal. It should not ask a person to validate an abstract solution story.
+
+## 16. Governing invariants
 
 ```text
 OBJECTIVE RESOURCE EXISTS != COMMERCIAL VALUE EXISTS
 DEMAND DISCOVERY != LATENT VALUE FORMATION
 INFERENCE != FACT
 PSYCHOLOGY HYPOTHESIS != DEMAND
+CONNECTION INVENTION != CONNECTION DISCOVERY
+COMPLEMENTARITY != LATENT CONNECTION
+CONNECTION HYPOTHESIS != CONNECTION PRESSURE EVIDENCE
+MISSING EDGE HYPOTHESIS != OBSERVED MISSING EDGE
+COUNTERFACTUAL EXCHANGE != LATENT CONNECTION EVIDENCE
+LATENT CONNECTION != ACCEPTED EXCHANGE
+HUMAN OUTREACH != PRIMARY DISCOVERY SENSOR
 DEMAND != WILLINGNESS TO PAY
 WILLINGNESS TO PAY != TRANSACTION
-COUNTERFACTUAL EXCHANGE != ACCEPTED EXCHANGE
 LATENT VALUE FORMATION != COMMERCIAL OPPORTUNITY
 UNKNOWN != PASS
 ```
 
-> **不是需求先存在，我们再去满足；可能是构成价值的客观条件先存在，而交换结构尚未形成。系统先观察 Actor 客观拥有什么、状态发生了什么变化、如何感受变化、动机如何变化、真实行为怎样偏移，以及“客观拥有”与“实际利用”之间出现了什么错位；再寻找世界另一处真实存在的互补节点，推演一种尚未存在的交换，并用最低成本让现实决定它能否成为价值。推导可以大胆，事实晋级必须保守。**
+> **不是先由我们想象 A 和 B 应该怎样连接，再让人去现实里替这个想法找证据。系统先观察 Actor 客观拥有什么、状态怎样变化、真实行为怎样偏移、哪些资源被阻塞，以及现实是否已经通过绕行、替代、局部交换、重复尝试和共同压力留下了“连接正在形成”的痕迹。只有这些痕迹收敛成 Connection Pressure，才允许设计最小交换机制，并把人的时间、信誉和现场行动用于最后一个关键未知量。不是创造一条漂亮的路，再问现实愿不愿意走；而是先发现现实已经踩出来的小径，再决定是否值得把它变成路。**
