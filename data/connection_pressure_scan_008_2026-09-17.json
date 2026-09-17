@@ -1,0 +1,221 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-SCAN-008-2026-09-17",
+  "observed_at": "2026-09-17",
+  "status": "RESIDUAL_FRICTION_SCAN_WITH_CLOSURES_AND_SENSOR_UPGRADES",
+  "doctrine": "Discover latent connections reality is already trying to form; treat mature organized exchanges as counterevidence and scan their residuals rather than inventing adjacent markets.",
+  "headline_metrics": {
+    "xuzhou_2025_registered_market_entities": 1518500,
+    "xuzhou_2025_enterprises": 396700,
+    "xuzhou_2025_12345_enterprise_requests": 17201,
+    "xuzhou_enterprise_service_platform_current_request_count": 20382,
+    "xuzhou_2026_first_scene_opportunities": 50,
+    "xuzhou_2026_first_scene_capabilities": 72,
+    "xuzhou_scene_projects_landed_over_previous_year_reported_2026_07_28": 285,
+    "xuzhou_technology_managers_reported_2026": "nearly_1000",
+    "xuzhou_2026_cross_border_ecommerce_registered_enterprises": "nearly_1000",
+    "xuzhou_cross_border_ecommerce_parks": 5,
+    "xuzhou_public_overseas_warehouses": 11,
+    "xuzhou_elderly_population_60_plus_household_registration": 2299800,
+    "xuzhou_2026_skill_training_level_items": 525,
+    "xuzhou_2026_special_skill_items": 74,
+    "xuzhou_2026_shortage_occupations": 174,
+    "xuzhou_industrial_solid_waste_utilization_rate_reported_2026": ">=95%"
+  },
+  "findings": [
+    {
+      "id": "XZ-SCENE-RESIDUAL-001",
+      "state": "HIGH_PRIORITY_SENSOR_NOT_FORMATION",
+      "connection_pressure": [
+        "Xuzhou publicly operates opportunity and capability lists rather than relying only on abstract policy.",
+        "The 2026 first batch contains 50 opportunity scenes and 72 capability scenes.",
+        "The city reports 285 scene projects landed over the previous year.",
+        "Technology managers already translate fuzzy enterprise pain into structured technical requirements and match experts."
+      ],
+      "counterevidence": [
+        "The city already has an explicit matching mechanism, so generic scene matching is not a missing edge.",
+        "Nearly 1000 technology managers and established expert/result databases already handle part of the translation layer."
+      ],
+      "residual_question": "Which opportunity-list items remain unmatched, delayed, repeatedly re-scoped, or dependent on manual translation after the existing scene/technology-manager machinery is used?",
+      "next_truth": "Obtain a current public scene-opportunity/capability list or aggregate status and identify stale/unmatched/slow items. Do not contact random enterprises before a residual item is visible.",
+      "promotion_gate": "Repeated residual class with a visible missing edge after current public/technology-manager routes.",
+      "sources": [
+        "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202602/t20260207_8556477.shtml",
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202607/28/content_53366.html",
+        "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202607/t20260713_8583095.shtml"
+      ]
+    },
+    {
+      "id": "XZ-AI-DIAGNOSIS-RESIDUAL-002",
+      "state": "GENERIC_ROUTE_ALREADY_ORGANIZED_SCAN_ONLY_RESIDUAL",
+      "connection_pressure": [
+        "Jiangsu is driving AI+manufacturing diagnosis toward near-universal coverage for above-scale industrial enterprises by 2027.",
+        "The official design explicitly says diagnose while building and use diagnosis to promote construction.",
+        "The province is building diagnostic service-provider pools and explicitly encourages frontline deployment engineer teams."
+      ],
+      "counterevidence": [
+        "Consulting, diagnosis, design, financing, transformation and hosting are explicitly encouraged as one-stop integrated services.",
+        "A generic diagnosis-to-implementation intermediary would duplicate a policy-backed market already forming."
+      ],
+      "residual_question": "After an official/qualified diagnosis, are there repeated bounded implementation tasks that are too small or operationally awkward for the primary provider but still materially block adoption?",
+      "next_truth": "Only reopen on a post-diagnosis residual packet from a real enterprise or service provider; do not sell generic AI consulting.",
+      "sources": [
+        "https://gxt.jiangsu.gov.cn/art/2026/6/10/art_6278_11783480.html",
+        "https://www.js.gov.cn/art/2026/9/16/art_46144_11830556.html",
+        "https://gxt.jiangsu.gov.cn/art/2026/4/14/art_6300_11757312.html"
+      ]
+    },
+    {
+      "id": "XZ-SME-DATA-COMPLIANCE-003",
+      "state": "STRUCTURAL_CONNECTION_PRESSURE_DIRECT_TASK_UNPROVEN",
+      "connection_pressure": [
+        "Xuzhou Data Regulation took effect 2026-07-01 and explicitly supports data compliance, security audit, risk assessment and low-cost data-hosting services for SMEs.",
+        "Xuzhou reports more than 1.5 million market entities, while the existing industrial-chain legal-service system has 44 direct service stations focused on key enterprises.",
+        "Local public analysis identifies limited SME/microbusiness coverage and relative shortage of professional talent for digital-economy/AI legal needs."
+      ],
+      "counterevidence": [
+        "Xuzhou already has 17 industrial-chain legal-service alliances and a digital legal-service platform with lawyers and enterprise users.",
+        "Policy support alone does not prove an SME will pay for a micro data-compliance task."
+      ],
+      "residual_question": "Do smaller firms repeatedly face bounded data/AI compliance or security decisions below the economics of a retained law firm or full consulting engagement?",
+      "next_truth": "Find direct SME examples of a recent data/AI use case delayed, rejected or reworked because authorization, personal information, data-cross-border, security classification or model-data provenance was unclear; capture workaround, cost and decision impact.",
+      "sources": [
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202604/14/content_48559.html",
+        "https://www.moj.gov.cn/pub/sfbgw/fzgz/fzgzggflfwx/fzgzlsgz/202501/t20250116_513188.html",
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202603/20/content_47384.html"
+      ]
+    },
+    {
+      "id": "XZ-ENTERPRISE-REQUEST-LEDGER-004",
+      "state": "HIGH_VALUE_SENSOR_AGGREGATE_CATEGORIES_MISSING",
+      "connection_pressure": [
+        "Xuzhou 12345 handled 17,201 enterprise requests in 2025.",
+        "The Xuzhou comprehensive enterprise-service platform currently reports more than 20,000 processed requests and more than 310,000 registered users."
+      ],
+      "counterevidence": [
+        "Raw request counts do not identify commercial unmet demand, repeated residuals, payer or missing capability.",
+        "The platform already routes many policy and administrative requests."
+      ],
+      "residual_question": "Which non-sensitive enterprise request categories recur after administrative/policy answers and remain unresolved because a private execution capability is missing or badly routed?",
+      "next_truth": "Seek aggregate categories/closure reasons, not company-level complaint data; use the ledger as a sensor, not a marketplace thesis.",
+      "sources": [
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202601/27/content_45293.html",
+        "https://xzsme.js.cn/"
+      ]
+    },
+    {
+      "id": "XZ-TECH-DEMAND-TRANSLATION-005",
+      "state": "GENERIC_ROUTE_ALREADY_ORGANIZED_USE_AS_ARCHETYPE",
+      "connection_pressure": [
+        "Local technology managers explicitly turn enterprise problems that firms cannot articulate into structured technical requirements.",
+        "Xuzhou reports nearly 1000 certified technology managers and a citywide recurring demand-mining mechanism.",
+        "One technology-manager office reported eight technology contracts worth nearly RMB 2 million in 2024."
+      ],
+      "decision": "Do not build a generic enterprise-problem-to-expert matching layer. Mine its residual queue, failures, time-to-match and classes that fall below institutional project economics.",
+      "sources": [
+        "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202607/t20260713_8583095.shtml"
+      ]
+    },
+    {
+      "id": "XZ-AGING-MEDICAL-ESCORT-006",
+      "state": "GENERIC_ROUTE_ALREADY_ORGANIZED",
+      "connection_pressure": [
+        "Xuzhou has more than 2.2998 million registered residents aged 60+ and explicitly identifies medical accompaniment as a pressing family need."
+      ],
+      "counterevidence": [
+        "The city has launched a five-district pilot with standardized training, certification, a city-level escort-worker registry, smart养老 platform order dispatch and supervision.",
+        "Generic elder medical escort is therefore already being organized end-to-end."
+      ],
+      "reopen_only_if": "A repeated after-visit/family coordination or county coverage residual appears outside the training-certification-dispatch loop.",
+      "sources": [
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202606/28/content_51967.html"
+      ]
+    },
+    {
+      "id": "XZ-SKILLS-TO-WORK-007",
+      "state": "GENERIC_ROUTE_ALREADY_ORGANIZED",
+      "connection_pressure": [
+        "Xuzhou's 2026 subsidized training catalog includes 525 skill-level items, 74 special abilities and 174 shortage occupations."
+      ],
+      "counterevidence": [
+        "Order-based and project-based training already exists, and providers receive additional subsidy preference when stable employment exceeds 50%.",
+        "Generic training-to-job matching is therefore not a missing edge."
+      ],
+      "reopen_only_if": "A specific skill class shows repeated certification without callable task evidence and employers use costly workarounds to verify ability.",
+      "sources": [
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202606/26/content_51879.html"
+      ]
+    },
+    {
+      "id": "XZ-IDLE-INDUSTRIAL-ASSET-008",
+      "state": "REAL_CONNECTION_PRESSURE_HIGH_PERMISSION_BACKLOG",
+      "connection_pressure": [
+        "Xuzhou Industrial Park reports cumulative activation of 1,018 mu of idle land and more than 150,000 square meters of standard factory space.",
+        "One 80-mu / 40,000+ square-meter asset required repeated negotiation and cross-department coordination before reuse."
+      ],
+      "counterevidence": [
+        "Debt, title and historical liabilities dominate the missing edge, making the route high-permission and legally complex.",
+        "Government/park coordination is already the natural orchestrator for many cases."
+      ],
+      "decision": "Backlog, not P0.",
+      "sources": [
+        "https://szb.cnxz.com.cn/xzrb/pc/con/202607/27/content_53322.html"
+      ]
+    },
+    {
+      "id": "XZ-WASTE-RESOURCE-009",
+      "state": "GENERIC_ROUTE_CLOSED_BY_HIGH_ORGANIZATION",
+      "connection_pressure": [
+        "Industrial byproducts and waste are real resource flows."
+      ],
+      "counterevidence": [
+        "Xuzhou reports industrial solid-waste utilization around/above 95%, 8.198 million tonnes annual recycling, digital full-chain tracking and large dedicated resource-utilization bases."
+      ],
+      "decision": "Do not reopen generic waste-to-resource matching. Only consider a specific residual material whose outlet is demonstrably missing.",
+      "sources": [
+        "https://www.cnxz.com.cn/newsDetail?DetailId=2025391692583710720",
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202608/15/content_54645.html"
+      ]
+    },
+    {
+      "id": "XZ-CLUSTER-SHARED-INFRA-010",
+      "state": "ARCHETYPE_FOR_RESIDUAL_SCAN_NOT_CURRENT_OPPORTUNITY",
+      "connection_pressure": [
+        "A specialized cat-litter cloud warehouse launched in April 2026 and gathered 30+ firms with nearly 300,000 shipments in under three months.",
+        "XCMG and local SMEs already operate shared intelligent-welding capacity.",
+        "Fengxian's 1400+ electric-tricycle/parts cluster is building dedicated component testing and trusted data-space infrastructure."
+      ],
+      "interpretation": "Shared specialized infrastructure is a naturally forming connection pattern in dense local clusters. The engine should scan other clusters for repeated fixed-cost capabilities that firms are already informally sharing but that have not yet become a formal shared node.",
+      "next_truth": "Compare glass, board/furniture, pet products, agricultural processing and other clusters for shared-but-informal inspection, packaging, localization, certification, after-sales, tooling or data capabilities. Promote only where partial sharing already exists.",
+      "sources": [
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202607/15/content_52777.html",
+        "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202510/t20251021_8530725.shtml",
+        "https://szb.cnxz.com.cn/xzrb/pc/con/202608/17/content_54689.html",
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202608/02/content_53605.html"
+      ]
+    }
+  ],
+  "portfolio_decision": {
+    "highest_value_new_sensor": "XZ-SCENE-RESIDUAL-001",
+    "strongest_new_direct_probe_candidate": "XZ-SME-DATA-COMPLIANCE-003",
+    "existing_active_direct_probe": "PF-INTL-STUDENT-MARKET-CONTEXT-014",
+    "supporting_sensor": "XZ-ENTERPRISE-REQUEST-LEDGER-004",
+    "archetype_scan": "XZ-CLUSTER-SHARED-INFRA-010",
+    "generic_routes_closed_or_deprioritized": [
+      "generic AI consulting / diagnosis-to-implementation brokerage",
+      "generic technology-demand-to-expert matching",
+      "generic elder medical escort",
+      "generic skills-training-to-job matching",
+      "generic industrial waste matching"
+    ],
+    "high_permission_backlog": "XZ-IDLE-INDUSTRIAL-ASSET-008"
+  },
+  "truth_boundaries": [
+    "PUBLIC_POLICY_NE_PAID_TASK",
+    "SCENE_LIST_NE_UNMATCHED_OPPORTUNITY",
+    "REQUEST_COUNT_NE_COMMERCIAL_DEMAND",
+    "SERVICE_COVERAGE_GAP_NE_WILLINGNESS_TO_PAY",
+    "EXISTING_SHARED_INFRA_NE_NEW_MISSING_EDGE",
+    "MATURE_ORGANIZED_EXCHANGE_IS_COUNTEREVIDENCE_TO_GENERIC_NEW_ROUTE",
+    "RESIDUAL_FRICTION_MUST_BE_OBSERVED_BEFORE_FORMATION_PROMOTION"
+  ]
+}
