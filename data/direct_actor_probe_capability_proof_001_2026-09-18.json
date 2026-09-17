@@ -1,0 +1,68 @@
+{
+  "artifact_id": "DIRECT-ACTOR-PROBE-CAPABILITY-PROOF-001-2026-09-18",
+  "observed_at": "2026-09-18",
+  "status": "DIRECT_EMPLOYER_PROBE_SENT_RESPONSE_PENDING",
+  "purpose": "Move Connection Pressure Scan 014 from public-evidence inference into direct employer truth. Test whether post-credential capability uncertainty creates material trial-work, training or supervision cost in a named current Xuzhou manufacturing hiring context.",
+  "parent_scan": "CONNECTION-PRESSURE-SCAN-014-2026-09-17",
+  "hypothesis_under_test": "For some skilled manufacturing roles, CVs, certificates and interviews do not make job-ready capability sufficiently legible; employers therefore rely on practical tests, trial work, training or supervision. A task-level, verifiable capability proof would matter only if it measurably reduces that residual cost beyond current methods.",
+  "named_actor": {
+    "organization": "江苏国润机械制造有限公司",
+    "actor_type": "manufacturing_employer",
+    "location": "徐州经济技术开发区",
+    "public_recruitment_context": [
+      "2026 public recruitment includes 30 welder openings with explicit practical welding-skill requirements.",
+      "2026 public recruitment includes a bending-worker trainee role requiring drawing comprehension and measuring-tool use, with a training agreement and directional cultivation.",
+      "Current public recruitment channels expose an HR/recruitment email suitable for a non-sales factual inquiry."
+    ],
+    "public_contact_used": "605572163@qq.com"
+  },
+  "probe": {
+    "channel": "email",
+    "gmail_message_id": "1a0b076e154fcad8",
+    "subject": "调研请教：焊工/折弯工招聘中，哪些能力最难在简历和面试里判断",
+    "questions": [
+      "Which skilled roles most often look acceptable in CV/interview but still require substantial training before independent work?",
+      "How is real capability currently verified: practical test, welding sample, drawing reading, measuring-tool operation, trial work or another method?",
+      "Do current methods already solve the problem, or is there still meaningful misclassification, repeated training or supervision cost?",
+      "Would a verifiable task-level capability proof before interview reduce later verification cost, or would it add little value?"
+    ],
+    "safety_and_scope": [
+      "independent research only",
+      "no recruiting intermediation",
+      "no training or software sales",
+      "no request for employee personal data",
+      "no request for salary, customer, process parameter or other commercial-sensitive information"
+    ],
+    "sent_state": "SENT",
+    "response_state": "PENDING"
+  },
+  "promotion_rules": [
+    "SENT_NE_DELIVERED",
+    "DELIVERED_NE_HUMAN_RESPONSE",
+    "HUMAN_RESPONSE_NE_RESIDUAL_COST",
+    "RESIDUAL_COST_NE_NEW_MARKET",
+    "PRACTICAL_TEST_EXISTS_NE_PRACTICAL_TEST_INADEQUATE",
+    "TRAINING_COST_NE_TASK_LEVEL_PROOF_WILL_REDUCE_COST",
+    "NO_PRODUCT_BUILD_BEFORE_REPEATED_DIRECT_EMPLOYER_TRUTH"
+  ],
+  "evidence_needed_for_next_state": [
+    "qualified employer/HR/production-training response",
+    "named role or task class with current post-screening verification/training cost",
+    "current workaround and whether it is considered adequate",
+    "specific failure mode not already solved by existing practical testing",
+    "decision-relevant acceptance criterion for any proposed task-level proof"
+  ],
+  "kill_conditions": [
+    "current practical tests and probation already make capability sufficiently legible at acceptable cost",
+    "training is primarily firm-specific onboarding rather than uncertainty about transferable capability",
+    "the residual cannot be separated from ordinary employee training",
+    "task-level proof would merely duplicate current weld tests, samples or trial work",
+    "no repeated employer-side cost appears across named role classes"
+  ],
+  "next_action": "Wait for a qualified response before any follow-up to this actor. In parallel identify at most one additional current Xuzhou employer with the same role-level residue for replication, without batch outreach.",
+  "public_sources": [
+    "https://www.sydw8.com/2026/0526/538690.html",
+    "https://www.zhaopin.com/jobdetail/CC490317120J40839206413.htm"
+  ],
+  "first_external_value_flow_state": "NOT_PROVEN"
+}
