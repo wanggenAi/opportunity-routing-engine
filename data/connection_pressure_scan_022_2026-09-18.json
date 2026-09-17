@@ -1,0 +1,134 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-SCAN-022-2026-09-18",
+  "observed_at": "2026-09-18",
+  "status": "FLEXIBILITY_AS_CALLABLE_RESOURCE_SCAN",
+  "purpose": "Test a cross-domain observation: latent value can exist not only in owned assets/capabilities but in an actor's bounded ability to shift timing, assignment, load or production configuration. Persist only as a search heuristic under existing doctrine, not as a new ontology or platform thesis.",
+  "findings": [
+    {
+      "id": "JS-LOAD-FLEXIBILITY-069",
+      "state": "MATURE_MARKETIZED_FLEXIBILITY",
+      "evidence": [
+        "Jiangsu's 2026 fast-response framework explicitly treats user-side flexible load as a resource that can be aggregated by virtual power plants/load aggregators and bid by price/capacity.",
+        "The mechanism requires measurement, control, verification and settlement rather than assuming theoretical flexibility.",
+        "Jiangning's operating virtual-power-plant case had 50 participating firms and 415.90 MW aggregated capacity by June 2026, with measurable upward/downward adjustable capability."
+      ],
+      "interpretation": "The valuable resource is not electricity equipment alone but the bounded option to change consumption at a specified time. Energy demand-response is mature/regulatory infrastructure, not whitespace.",
+      "sources": [
+        "https://www.js.gov.cn/art/2026/6/29/art_64797_11796105.html",
+        "https://fzggw.jiangsu.gov.cn/art/2025/12/25/art_84097_11698956.html",
+        "https://njsj.nanjing.gov.cn/njszwfwglbgs/202607/t20260717_5878875.html"
+      ]
+    },
+    {
+      "id": "JS-WORKFORCE-FLEXIBILITY-070",
+      "state": "REAL_CROSS_ENTERPRISE_REALLOCATION_WITH_RIGHTS_CONSTRAINTS",
+      "evidence": [
+        "In September 2026 Jingkou Economic Development Zone described one electronics manufacturer with a surge in orders and a shortage of skilled assemblers while another nearby firm had temporarily idle skilled workers because of order adjustment.",
+        "The zone organized cross-enterprise labor adjustment to preserve both production and employment.",
+        "Jiangsu public-policy discussion identifies contract, injury, social-insurance and worker-rights ambiguity as real constraints on shared employment."
+      ],
+      "interpretation": "Worker time can become temporarily reassignable capacity, but only with consent, skill compatibility and lawful responsibility allocation. Generic shared-employment platforms are not a low-permission whitespace thesis.",
+      "sources": [
+        "https://www.jsw.com.cn/2026/0910/1968559.shtml",
+        "https://jsnews.jschina.com.cn/jsyw/202602/t20260205_s69849819e4b0a8646682f6c4.shtml"
+      ]
+    },
+    {
+      "id": "JS-MANUFACTURING-FLEXIBILITY-071",
+      "state": "STANDARDIZED_TASK_REPRESENTATION_UNLOCKS_SHARED_CAPACITY",
+      "evidence": [
+        "Huipin Steel describes converting steel processing from coil-level production to demand-based pooled orders.",
+        "The platform uses standardized order dimensions and AI matching to dynamically route work across processing-center capacity.",
+        "The operating claim is shared manufacturing plus material-yield improvement, not merely a supplier directory."
+      ],
+      "interpretation": "Non-standard manufacturing capacity becomes more callable only after demand is translated into machine/commercial coordinates that can be compared and scheduled. This reinforces BOUNDARY_TRANSLATION before capacity routing.",
+      "sources": [
+        "https://www.huicut.com/index/index/index.html",
+        "https://www.huicut.com/index/index/about.html"
+      ]
+    },
+    {
+      "id": "JS-LAB-TIMESLOT-FLEXIBILITY-072",
+      "state": "PAIRWISE_QUEUE_IDLE_CAPACITY_ALREADY_ORGANIZED",
+      "evidence": [
+        "Yixing's 2026 shared scientific-resource program reported the paired condition directly: some enterprise equipment had low utilization while some laboratories were overloaded at busy times and idle at others.",
+        "A shared network involving 30 firms was formed to expose and route equipment/laboratory capacity.",
+        "Scientific-instrument reservation systems explicitly recycle available time slots through scheduling."
+      ],
+      "interpretation": "Time-slot capacity is perishable and can be routed when asset identity, access rules, skills and reservation state are legible. Generic laboratory-sharing platforms are already organized.",
+      "sources": [
+        "https://www.yixing.gov.cn/doc/2026/03/18/1385585.shtml",
+        "https://www.yixing.gov.cn/doc/2026/03/30/1387169.shtml"
+      ]
+    },
+    {
+      "id": "XZ-WAREHOUSE-GRAIN-073",
+      "state": "CONTRACT_GRAIN_VARIATION_ALREADY_PRESENT_NOT_WHITESPACE",
+      "evidence": [
+        "Xuzhou/Suining public-property listings show multi-thousand-square-metre cold-storage assets offered as 3-5 year whole-site leases and later transacted.",
+        "A commercial warehouse-matching network simultaneously lists Xuzhou demand at very different grains, including 100-square-metre frozen custody, 1000-square-metre sub-one-year ordinary storage and larger cold/bonded requirements."
+      ],
+      "interpretation": "Capacity fragmentation/shorter contract duration is already a real market service. Do not infer whitespace from one vacant large asset. The residual must be a specific incompatibility such as temperature class, qualification, location, minimum batch, handling or bonded status.",
+      "sources": [
+        "https://www.ejy365.com/info/ejy383031",
+        "https://www.ejy365.com/info/ejy381939",
+        "https://xuzhou.oym56lm.com/"
+      ]
+    }
+  ],
+  "search_rules_refined": [
+    {
+      "name": "FLEXIBILITY_CALLABILITY_GATE",
+      "questions": [
+        "What can the actor change without destroying its own core value: timing, load, assignment, sequence, capacity, location or configuration?",
+        "What is the valid time window before that flexibility expires?",
+        "Can the flexible quantity/state be measured and exposed in real time?",
+        "Who has legal/contractual authority to reassign it?",
+        "Can the receiving task be represented in compatible units?",
+        "What safety, quality, skill, labor, rights or settlement constraints apply?",
+        "How is successful response/use verified and paid/credited?"
+      ],
+      "relationship_to_existing_doctrine": "Cross-domain synthesis of TIME_TO_VALUE_GATE, DEMAND_AGGREGATION, BOUNDARY_TRANSLATION, VERIFIABILITY_TRANSFORMATION and ACCESS_THRESHOLD_COLLAPSE; not a new top-level ontology."
+    },
+    {
+      "name": "PERISHABLE_CAPACITY",
+      "pattern": "capacity/flexibility exists only in a bounded time window + unused window expires permanently + compatible demand exists -> routing value depends on timely state visibility and acceptance",
+      "boundary": "Unused time alone is not opportunity. Require authorization, compatibility, measurable value loss from expiry, and evidence that routing changes outcomes."
+    },
+    {
+      "name": "STANDARDIZATION_BEFORE_ROUTING",
+      "pattern": "heterogeneous task/capacity cannot be efficiently routed until both sides share decision-relevant coordinates",
+      "boundary": "A directory of idle assets/capabilities does not create callability when task specification, quality evidence, rights or acceptance conditions remain incomparable."
+    }
+  ],
+  "closures": [
+    "GENERIC_VIRTUAL_POWER_PLANT_OR_DEMAND_RESPONSE",
+    "GENERIC_SHARED_EMPLOYMENT_PLATFORM",
+    "GENERIC_SHARED_LAB_PLATFORM",
+    "GENERIC_RETURN_TRUCK_MATCHING",
+    "GENERIC_FRACTIONAL_WAREHOUSE_MATCHING",
+    "GENERIC_SHARED_MANUFACTURING_MARKETPLACE_WITHOUT_TASK_STANDARDIZATION"
+  ],
+  "next_scan_priority": [
+    "XUZHOU_NONSTANDARD_PERISHABLE_CAPACITY_WITH_REAL_EXPIRY_COST_AND_NO_MATURE_ROUTING",
+    "SMALL_MANUFACTURING_TASKS_REQUIRING_BOUNDARY_TRANSLATION_BEFORE_EXISTING_CAPACITY_CAN_ACCEPT",
+    "SHORT_LIVED_PROFESSIONAL_OR_TECHNICAL_CAPACITY_BLOCKED_BY_RIGHTS_OR_ACCEPTANCE_NOT_INFORMATION",
+    "CAPACITY_POOLS_WHERE_STATE_IS_KNOWN_BUT_CONTRACT_MINIMUM_OR_LIABILITY_PREVENTS_CALLABILITY",
+    "PRIVATE_B2B_FAILED_EXCHANGE_LEDGER",
+    "POST_VERIFICATION_RESIDUE_AFTER_EXISTING_CERTIFICATION_TRIAL_OR_INSPECTION"
+  ],
+  "field_state": {
+    "capability_proof_employer_probes_sent": 2,
+    "qualified_human_responses_last_checked": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "truth_boundaries": [
+    "THEORETICAL_FLEXIBILITY_NE_CALLABLE_RESOURCE",
+    "IDLE_TIME_NE_PERMISSION_TO_REALLOCATE",
+    "IDLE_CAPACITY_NE_COMPATIBLE_CAPACITY",
+    "AGGREGATOR_EXISTS_NE_LOCAL_MISSING_EDGE",
+    "STANDARDIZED_MARKET_EXISTS_NE_RESIDUAL_WHITESPACE",
+    "NO_NEW_FORMATION_WITHOUT_PAIRED_EXPIRY_COST_AND_CALLABLE_DEMAND_PRESSURE",
+    "FIRST_EXTERNAL_VALUE_FLOW_STILL_NOT_PROVEN"
+  ]
+}
