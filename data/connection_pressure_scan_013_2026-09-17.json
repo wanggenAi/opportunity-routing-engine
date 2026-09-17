@@ -1,0 +1,147 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-SCAN-013-2026-09-17",
+  "observed_at": "2026-09-17",
+  "status": "VERIFIABILITY_TRANSFORMATION_AND_RISK_ORCHESTRATION_SCAN",
+  "purpose": "Detect cases where value already exists but cannot flow because counterparties cannot verify, value, control, trust or safely commit to it; separately record cases where a credible orchestrator absorbs market/access risk so distributed actors can participate.",
+  "findings": [
+    {
+      "id": "XZ-VERIFIABILITY-WAREHOUSE-RECEIPT-028",
+      "state": "NATURAL_VALUE_FLOW_AFTER_TRUST_INFRASTRUCTURE",
+      "evidence": [
+        "In Xuzhou agricultural supply chains, inventory can become financeable after storage, warehouse-receipt evidence and bank-compatible control/verification are established.",
+        "A 2026 Xuzhou case reports warehouse-receipt lending around garlic inventory, with cumulative '仓单e贷' lending of about RMB 4 billion to 500+ dealers; the inventory existed before the loan, while the trusted representation made it acceptable collateral."
+      ],
+      "mechanism": "VALUABLE_RESOURCE_EXISTS + COUNTERPARTY_CANNOT_VERIFY_OR_CONTROL + STANDARDIZED_EVIDENCE/CUSTODY -> RESOURCE_BECOMES_TRANSACTIONABLE",
+      "source": "https://economy.jschina.com.cn/rddt/202607/t20260709_s6a4f3f7ae4b05b077e349efb.shtml"
+    },
+    {
+      "id": "XZ-VERIFIABILITY-IP-CREDIT-029",
+      "state": "REPLICATED_ACROSS_INTANGIBLE_ASSET",
+      "evidence": [
+        "Xuzhou reported RMB 3.424 billion of intellectual-property pledge financing in 2025, benefiting 500+ SMEs.",
+        "A 2026 Xuzhou bank case replaced heavy reliance on factory/land collateral with IP, R&D-team strength, innovation qualifications and policy-award evidence, providing an RMB 8 million unsecured revolving facility to a specialized chemical-materials company."
+      ],
+      "mechanism": "INTANGIBLE_CAPABILITY_EXISTS + LEGACY_COLLATERAL_MODEL_CANNOT_READ_IT + REGISTRATION/EVALUATION/ALTERNATIVE_CREDIT_EVIDENCE -> FINANCEABLE_ASSET",
+      "sources": [
+        "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202604/t20260428_8570578.shtml",
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202608/14/content_54478.html"
+      ]
+    },
+    {
+      "id": "XZ-VERIFIABILITY-DATA-ASSET-030",
+      "state": "INSTITUTIONALIZATION_IN_PROGRESS_NOT_NEW_MARKET_EDGE",
+      "evidence": [
+        "Xuzhou's Data Regulation, effective 2026-07-01, explicitly supports data-asset valuation, accounting, investment contribution and pledge financing and encourages standardized data-flow services.",
+        "Xuzhou has already registered data intellectual property and established local transaction standards; public reporting describes data/IP registration and licensing/finance infrastructure as an existing institutional route rather than an absent capability."
+      ],
+      "mechanism": "DATA_RESOURCE_EXISTS + RIGHTS/VALUE_NOT_LEGIBLE + REGISTRATION/STANDARDIZATION/VALUATION -> CALLABLE_ASSET",
+      "decision": "Use as a cross-domain replication of verifiability transformation. Do not promote generic data-asset consulting without actor-level residual evidence.",
+      "sources": [
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202604/14/content_48559.html",
+        "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202607/t20260707_8582025.shtml",
+        "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202511/t20251128_8542027.shtml"
+      ]
+    },
+    {
+      "id": "XZ-VERIFIABILITY-SUPPLYCHAIN-CREDIT-031",
+      "state": "COMMERCIAL_CREDIT_MADE_PORTABLE",
+      "evidence": [
+        "ICBC Xuzhou reported supply-chain financing above RMB 7.2 billion by April 2026, with RMB 2.321 billion in inclusive-finance balance.",
+        "Its model explicitly maps core-enterprise supply relationships and transaction/settlement behavior and uses the core firm's commercial credit to extend finance to downstream/upstream SMEs."
+      ],
+      "mechanism": "SME_TRANSACTION_HISTORY_EXISTS + BANK_CANNOT_DIRECTLY_TRUST_SMALL_ACTOR + CORE_RELATIONSHIP/EVIDENCE MAKES_CREDIT_PORTABLE -> FINANCE_REACHES_CHAIN_EDGE",
+      "decision": "Reference evidence for trust/legibility transformation, not a supply-chain-finance opportunity thesis.",
+      "source": "https://jsnews.jschina.com.cn/xz/a/202606/t20260623_s6a3a665be4b0f1b15e69b379.shtml"
+    },
+    {
+      "id": "XZ-RISK-ORCHESTRATOR-PET-LIVE-032",
+      "state": "STRONG_DISTRIBUTED_CAPACITY_ACTIVATION_ARCHETYPE",
+      "evidence": [
+        "A Jiawang village pet-cat project uses deposit adoption (or purchase), breeding support, veterinary/technical support and guaranteed repurchase.",
+        "Qualified kittens are promised 100% repurchase after defined age/weight/disease checks; participating households do not need to solve the final sales channel themselves and may return a healthy mother cat after two years under the published exit terms.",
+        "The launch reportedly attracted 26 households and two administrative villages."
+      ],
+      "mechanism": "DISTRIBUTED_LOCAL_CAPACITY + ACTOR_AVERSION_TO_ASSET/MARKET_RISK + ORCHESTRATOR_PROVIDES_STANDARD/INPUT/SUPPORT/OFFTAKE -> CAPACITY_BECOMES_CALLABLE",
+      "sources": [
+        "https://szb.cnxz.com.cn/xzrb/pc/att/202602/08/55a7ca4c-e5f6-44cc-aba7-0057d49d39a4.pdf",
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202602/02/content_45566.html"
+      ]
+    },
+    {
+      "id": "XZ-RISK-ORCHESTRATOR-ORDER-AGRICULTURE-033",
+      "state": "REPEATED_WITHIN_AGRICULTURAL_PRODUCTION_NETWORKS",
+      "evidence": [
+        "Xuzhou agricultural industrialization publicly uses enterprise + cooperative + base + farmer structures, order purchasing, floor-price/dividend arrangements, secondary returns and equity cooperation to connect small farmers to markets.",
+        "A Xuzhou wheat-chain initiative combines finance, inputs/services, technical guidance and order repurchase with floor-price / quality-price protection."
+      ],
+      "mechanism": "FRAGMENTED_PRODUCTION_CAPACITY + MARKET/PRICE/SALES_RISK + CREDIBLE OFFTAKE/COORDINATION NODE -> DISTRIBUTED PRODUCTION FLOW",
+      "boundary": "Evidence is strong in agriculture and pet breeding; do not generalize to every distributed-work model without cross-sector replication.",
+      "sources": [
+        "https://news.jschina.com.cn/yw/202509/t20250920_s68ce84b1e4b0927d30e42024.shtml",
+        "https://jsnews.jschina.com.cn/xz/a/202509/t20250911_s68c229dbe4b0a339ab15d003.shtml"
+      ]
+    },
+    {
+      "id": "XZ-BYPRODUCT-PETLITTER-RECOUPLING-034",
+      "state": "REAL_RESOURCE_RECOUPLING_CLASS_ALREADY_ORGANIZED",
+      "evidence": [
+        "Jiawang's plant-based cat-litter cluster uses soy/tofu residue, protein residue, corn starch and other plant/agricultural materials as production inputs; local reporting explicitly describes soybean residue being converted from waste into pet-product feedstock.",
+        "The cluster is already large and organized, so generic food/agriculture-byproduct-to-cat-litter matching is not whitespace."
+      ],
+      "mechanism": "LOW_VALUE_OR_BYPRODUCT_MATERIAL + ADJACENT_PROCESSABLE_DEMAND + STANDARDIZED PRODUCT USE -> CROSS_INDUSTRY RECOUPLING",
+      "decision": "Keep as residual-value / cross-industry recoupling archetype only. Do not infer a specific supplier-buyer link unless directly evidenced."
+    },
+    {
+      "id": "XZ-FORCED-EXTERNAL-ROUTING-LEDGER-035",
+      "state": "HIGHEST_INFORMATION_SENSOR_CURRENT_LEDGER_NOT_OBTAINED",
+      "evidence": [
+        "Historical Xuzhou inspection-center material reported hundreds of instruments per year being proxied to Nanjing/Suzhou when local legal testing capability was unavailable.",
+        "2026 public procurement also uses outside testing institutions, but outside supplier selection alone does not prove local capability absence; it may reflect procurement, scoring or capacity choices."
+      ],
+      "search_rule": "Separate FORCED_EXTERNAL_ROUTING (no local legal/technical capability) from NORMAL_EXTERNAL_PROCUREMENT (buyer choice). Only forced routing with current frequency/cost/delay is connection-pressure evidence.",
+      "next_truth": "Obtain current task/category-level residue: what Xuzhou firms still must send outside, why, how often, and what time/downtime/transport cost results.",
+      "truth_boundary": "OUTSIDE_PROVIDER_SELECTED_NE_LOCAL_CAPABILITY_ABSENT"
+    }
+  ],
+  "mechanisms_extracted": [
+    {
+      "name": "VERIFIABILITY_TRANSFORMATION",
+      "pattern": "resource/capability/value exists + counterparty cannot safely verify/value/control it + trusted representation/standard/evidence/custody makes it legible -> flow becomes possible",
+      "replicated_domains": ["inventory/warehouse receipt", "intellectual property", "data assets", "supply-chain commercial credit"],
+      "search_rule": "Look for resources that actors already value internally but counterparties refuse to transact against until evidence, rights, standards, custody or trusted scoring are added."
+    },
+    {
+      "name": "RISK_BEARING_ORCHESTRATOR",
+      "pattern": "distributed actor has usable capacity but cannot bear asset/market/access risk + credible orchestrator supplies standard/support/offtake/risk absorption -> capacity enters a network",
+      "replication_state": "STRONG_IN_AGRICULTURE_AND_PET_BREEDING_NOT_YET_CROSS_SECTOR_GENERALIZED",
+      "search_rule": "Seek non-agricultural cases where actors participate only after a third party commits demand/offtake, supplies assets, or absorbs a material downside."
+    },
+    {
+      "name": "FORCED_EXTERNAL_ROUTING_LEDGER",
+      "pattern": "local actor has repeated bounded task + task leaves region because capability is genuinely absent + measurable routing cost/delay/downtime -> local capability frontier residue",
+      "replication_state": "HISTORICAL_SENSOR_TEMPLATE_CURRENT_LEDGER_REQUIRED"
+    }
+  ],
+  "portfolio_after_scan": {
+    "formation_007": "DOWNGRADED_ACCESS_TRUST_PROBLEM_LEGIBILITY_EVIDENCE_STRONGER_THAN_SENIOR_JUDGMENT_EDGE",
+    "formation_014": "PUBLIC_RESEARCH_BOUNDARY_RESIDUAL_UNPROVEN_OUTREACH_NOT_SENT",
+    "generic_finance_products": "CLOSED_AS_REFERENCE_MECHANISMS_ONLY",
+    "generic_data_asset_services": "EXISTING_INSTITUTIONAL_ROUTE_RESIDUAL_ONLY",
+    "generic_byproduct_matching": "MATURE_IN_MULTIPLE_LOCAL_CHAINS_RESIDUAL_ONLY",
+    "next_scan_priority": [
+      "CURRENT_FORCED_EXTERNAL_ROUTING_LEDGER",
+      "NON_AGRICULTURAL_RISK_BEARING_ORCHESTRATOR_REPLICATION",
+      "RESOURCES_WITH_VALUE_BUT_LOW_COUNTERPARTY_LEGIBILITY"
+    ]
+  },
+  "truth_boundaries": [
+    "RESOURCE_VALUE_NE_TRANSACTIONABILITY",
+    "REGISTRATION_NE_MARKET_DEMAND",
+    "FINANCING_CASE_NE_NEW_FINTECH_OPPORTUNITY",
+    "ORCHESTRATOR_ARCHETYPE_NE_REPEATABLE_BUSINESS_FOR_US",
+    "OUTSIDE_PROVIDER_SELECTED_NE_LOCAL_CAPABILITY_ABSENT",
+    "BYPRODUCT_USE_CLASS_NE_DIRECT_SUPPLIER_BUYER_RELATIONSHIP",
+    "NO_NEW_FORMATION_WITHOUT_PAIRED_ACTOR_COST_AND_CALLABLE_SURPLUS",
+    "FIRST_EXTERNAL_VALUE_FLOW_STILL_NOT_PROVEN"
+  ]
+}
