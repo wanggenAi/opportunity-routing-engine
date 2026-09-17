@@ -1,0 +1,145 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-SCAN-015-2026-09-18",
+  "observed_at": "2026-09-18",
+  "status": "RISK_ALLOCATION_FIT_CROSS_DOMAIN_REPLICATION_SCAN",
+  "purpose": "Deepen the existing RISK_BEARING_ORCHESTRATOR and ACCESS_THRESHOLD_COLLAPSE mechanisms without creating a new ontology. Test whether latent value repeatedly begins to flow when ownership, performance, maintenance, residual-value, market or fulfillment risk is reassigned to the actor structurally better able to control it, and whether such reassignment requires trusted state/outcome verification.",
+  "findings": [
+    {
+      "id": "XZ-INDUSTRIAL-USE-RISK-UNBUNDLING-043",
+      "state": "REAL_MATURE_MECHANISM_NOT_WHITESPACE",
+      "evidence": [
+        "XCMG's current joint-leasing structure has the lessor purchase the equipment, lease it to the user and use a professional operations/maintenance party for servicing.",
+        "At lease end the user can renew, return or purchase the asset.",
+        "XCMG explicitly describes this structure as suitable for short-term, temporary or seasonal needs, with lower cost, no user-side repair/maintenance burden and reduced technology-obsolescence risk."
+      ],
+      "interpretation": "The receiving actor buys temporary use-value instead of taking the full ownership, maintenance, residual-value and obsolescence bundle. This is a risk-allocation refinement of ACCESS_THRESHOLD_COLLAPSE, not a new equipment-rental opportunity.",
+      "source": "https://www.xcmg.com/financial/financial-programmes.htm"
+    },
+    {
+      "id": "JS-ASSISTIVE-DEVICE-USE-RISK-UNBUNDLING-044",
+      "state": "CROSS_DOMAIN_REPLICATION_WITH_REAL_USAGE",
+      "evidence": [
+        "Wuxi reported nearly 1,500 assistive-device lending/rental service uses and eight smart rental points before the 2026 expansion.",
+        "By 2026 Wuxi had arranged 50 community assistive-device rental points and a 57-product rental catalogue spanning wheelchairs, care beds, oxygen concentrators, rehabilitation devices and other categories.",
+        "The 2026 product-entry rules require repeat clean/disinfection durability, supplier maintenance training, local after-sales presence and warranty support; eligible users can rent for two- or three-month periods rather than purchase the asset."
+      ],
+      "interpretation": "Short-duration rehabilitation need can be served without forcing the user to own an asset that may soon become idle. Ownership, cleaning, maintenance and reuse obligations remain with the specialized supply/rental system. The generic assistive-device rental route is already being organized and is not whitespace.",
+      "sources": [
+        "https://cl.wuxi.gov.cn/doc/2026/01/09/4715456.shtml",
+        "https://www.wuxi.gov.cn/doc/2026/05/22/4779809.shtml",
+        "https://mzj.wuxi.gov.cn/doc/2026/01/16/4719282.shtml"
+      ]
+    },
+    {
+      "id": "JS-TECH-PAY-AFTER-EVIDENCE-045",
+      "state": "REAL_PERFORMANCE_RISK_REALLOCATION",
+      "evidence": [
+        "A Jiangsu technology-transfer case used a first-use-then-pay arrangement: a university team let an SME test a technical result before committing to a full transfer payment.",
+        "After the technology reached the expected effect, the enterprise paid RMB 700,000 and expanded the subsequent cooperation to RMB 3 million.",
+        "The enterprise explicitly described the arrangement as reducing uncertainty around investing in new technology.",
+        "Jiangsu's current policy framework continues to support first-use-then-pay and allows guarantee/insurance support for this mode."
+      ],
+      "interpretation": "A transaction that is blocked by ex-ante performance uncertainty can form when payment is deferred until decision-relevant evidence exists and the technology provider/guarantee system temporarily bears more of the uncertainty. Generic technology-transfer services are not a new edge; the mechanism is evidence for risk-allocation fit.",
+      "sources": [
+        "https://jszwb.jiangsu.gov.cn/art/2025/2/18/art_71797_11494090.html",
+        "https://kxjst.jiangsu.gov.cn/art/2025/12/11/art_82571_11689218.html",
+        "https://www.js.gov.cn/art/2026/8/14/art_84418_11816317.html"
+      ]
+    },
+    {
+      "id": "JS-CONSUMER-FULFILLMENT-RISK-BUFFER-046",
+      "state": "NONFINANCIAL_RISK_BUFFER_REPLICATION",
+      "evidence": [
+        "Nantong's 2026 consumer-protection system reported more than 25,000 participating offline no-reason-return merchants on its return platform.",
+        "For hard cases involving refusal or delay, a government advance-payment fund pool provides priority compensation and then traces/recoveries from the responsible party."
+      ],
+      "interpretation": "Consumer willingness to transact can be strengthened when refund/fulfillment downside is buffered by an actor with enforcement and recovery capability. This is another non-agricultural replication of risk allocation, not a consumer-platform opportunity for this project.",
+      "source": "https://scjgj.jiangsu.gov.cn/art/2026/7/30/art_70155_11810738.html"
+    },
+    {
+      "id": "JS-RISK-ALLOCATION-REQUIRES-VERIFIABILITY-047",
+      "state": "CROSS_SCAN_COMPOUND_GATE_SUPPORTED",
+      "evidence": [
+        "First-use-then-pay requires a credible definition and observation of whether the technology reached the agreed effect before payment is triggered.",
+        "Equipment leasing depends on legible asset identity, use, maintenance and return/buyout state.",
+        "Assistive-device rental requires product qualification, cleaning/reuse rules, maintenance and after-sales accountability.",
+        "Advance refund mechanisms depend on transaction/merchant identity and a recoverable responsibility chain."
+      ],
+      "interpretation": "RISK_ALLOCATION_FIT and VERIFIABILITY_TRANSFORMATION are often a compound gate rather than independent mechanisms. Risk can be sustainably moved only when the state/outcome that triggers responsibility is measurable and trusted.",
+      "search_rule": "Before proposing a risk-sharing structure, identify the exact downside, the actor best able to control it, the evidence that determines when the downside occurred, and the party legally/economically accountable for settlement."
+    },
+    {
+      "id": "JS-AI-MANUFACTURING-ADOPTION-RISK-048",
+      "state": "REAL_POLICY_RECOGNITION_ACTOR_LEVEL_PAID_EDGE_UNPROVEN",
+      "evidence": [
+        "Jiangsu's 2026 AI+manufacturing plan explicitly uses risk compensation/financial support and asks insurers to explore targeted support around AI+manufacturing pilot/intermediate-test services.",
+        "Jiangsu's 2026 scene-opening policy encourages scene-innovation insurance and financial products that provide application-risk protection.",
+        "National/ provincial technology-insurance policy supports R&D-loss, technology-transfer-loss and first-set/first-batch insurance and explicitly contemplates insurance around first-use-then-pay technology transfer."
+      ],
+      "interpretation": "Institutions recognize that adoption risk can block new-technology flow, but policy recognition does not prove a current paid missing edge in Xuzhou. Do not promote an AI outcome-insurance or digital-transformation guarantee thesis without a named enterprise case where an otherwise-acceptable project is blocked specifically by outcome risk after existing pilots/subsidies/providers are considered.",
+      "sources": [
+        "https://gxt.jiangsu.gov.cn/art/2026/6/10/art_6278_11783480.html",
+        "https://fzggw.jiangsu.gov.cn/art/2026/7/13/art_84097_11803331.html",
+        "https://kxjst.jiangsu.gov.cn/art/2026/3/3/art_82570_11734720.html"
+      ]
+    }
+  ],
+  "search_rules_refined": [
+    {
+      "name": "RISK_ALLOCATION_FIT",
+      "questions": [
+        "Which exact downside prevents the exchange from happening?",
+        "Which actor currently bears that downside?",
+        "Can that actor materially control or diversify the risk?",
+        "Is there another actor that can control, pool, price, maintain, insure, recover or reuse the risk-bearing resource more efficiently?",
+        "When the risk is reassigned, does a real exchange or usage flow appear?"
+      ],
+      "relationship_to_existing_doctrine": "Deepening of RISK_BEARING_ORCHESTRATOR and ACCESS_THRESHOLD_COLLAPSE; not a new top-level ontology."
+    },
+    {
+      "name": "USE_VALUE_WITHOUT_FULL_OWNERSHIP_RISK",
+      "pattern": "high fixed-cost/reusable asset + intermittent or temporary need + ownership/maintenance/residual risk exceeds user's controllable benefit -> specialist owner retains asset/risk while user buys bounded use",
+      "boundary": "Do not infer whitespace from the existence of rental. Search only for a specific residual where temporary use is desired but current rental/shared-capability routes still impose oversized minimums, unavailable location, rights, maintenance or qualification constraints."
+    },
+    {
+      "name": "PAYMENT_AFTER_DECISION_RELEVANT_EVIDENCE",
+      "pattern": "valuable but uncertain technology/service + high upfront commitment risk + measurable result -> trial/use precedes full payment or payment scales with observed result",
+      "boundary": "Outcome-based contracting requires credible measurement and enforceable settlement. Do not call vague satisfaction-based promises a natural connection."
+    },
+    {
+      "name": "RISK_REALLOCATION_REQUIRES_VERIFIABILITY",
+      "pattern": "risk transfer without trusted state/outcome evidence creates moral hazard and dispute; durable reallocation requires legible trigger, responsibility and settlement evidence"
+    }
+  ],
+  "field_state": {
+    "capability_proof_employer_probes_sent": 2,
+    "qualified_human_responses": 0,
+    "decision": "DO_NOT_ADD_MORE_EMPLOYER_OUTREACH_FOR_VOLUME. Preserve SENT != RESPONSE and continue high-information public scanning while awaiting actor truth.",
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "closures": [
+    "GENERIC_EQUIPMENT_RENTAL_PLATFORM",
+    "GENERIC_ASSISTIVE_DEVICE_RENTAL",
+    "GENERIC_TECHNOLOGY_TRANSFER_MARKETPLACE",
+    "GENERIC_REFUND_GUARANTEE_PLATFORM",
+    "GENERIC_AI_OUTCOME_INSURANCE_WITHOUT_ACTOR_LEVEL_BLOCKER"
+  ],
+  "next_scan_priority": [
+    "NAMED_XUZHOU_EXCHANGE_BLOCKED_BY_MISALLOCATED_RISK_AFTER_CAPABILITY_MATCH",
+    "POST_VERIFICATION_RESIDUE_AFTER_EXISTING_CERTIFICATION_TRIAL_OR_INSPECTION",
+    "CURRENT_FORCED_EXTERNAL_ROUTING_LEDGER",
+    "CONNECTED_ASSET_RIGHTS_BUNDLE_FAILURES",
+    "REAL_AI_OR_DIGITAL_PROJECT_REJECTED_SPECIFICALLY_DUE_TO_OUTCOME_RISK"
+  ],
+  "truth_boundaries": [
+    "RISK_EXISTS_NE_MISSING_MARKET_EDGE",
+    "RENTAL_EXISTS_NE_WHITESPACE",
+    "POLICY_ENCOURAGES_INSURANCE_NE_ACTOR_WILLINGNESS_TO_PAY",
+    "RISK_TRANSFER_WITHOUT_VERIFIABILITY_NE_STABLE_CONNECTION",
+    "USE_VALUE_NE_OWNERSHIP_VALUE",
+    "SENT_EMAIL_NE_RESPONSE",
+    "TWO_OUTREACH_EVENTS_NE_REPLICATION",
+    "NO_NEW_FORMATION_WITHOUT_NAMED_ACTOR_COST_PLUS_PARTIAL_FLOW_OR_COMMITMENT",
+    "FIRST_EXTERNAL_VALUE_FLOW_STILL_NOT_PROVEN"
+  ]
+}
