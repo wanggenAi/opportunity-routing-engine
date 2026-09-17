@@ -36,7 +36,15 @@ The useful residual is therefore not “workers need certificates”. It is:
 
 > Which high-value abilities still cannot be represented accurately enough by certificates, CVs or formal grades, forcing employers to rely on trial work, references, portfolios, samples or prolonged observation?
 
-Only a current costly workaround would make this a connection-pressure candidate.
+A June 2026 Xuzhou industry-linked education report gives a current residual rather than a hypothetical one: enterprises can recruit graduates who interview well but still cannot work effectively on the shop floor and may require three to five months of training before they are usable in production. The same report describes the local repair path—enterprise orders, school-industry training, practical evaluation and production-line learning.
+
+Therefore:
+
+`INTERVIEW / CREDENTIAL -> EMPLOYMENT`
+
+is not always a complete connection. For some roles the real missing state is `TASK-LEVEL READINESS`.
+
+This still does **not** imply a new skill-verification platform. The next useful truth would be a named role/task class where employers continue to pay repeated trial-work, retraining, supervision or failure cost after using current enterprise-led training/evaluation routes.
 
 ## Supplier capability
 
