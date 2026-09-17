@@ -1,0 +1,158 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-SCAN-019-2026-09-18",
+  "observed_at": "2026-09-18",
+  "status": "RESIDUAL_RESOURCE_RECOUPLING_SCAN",
+  "purpose": "Deepen the existing latent-connection doctrine with cross-sector evidence on resource recoupling. The scan asks when one actor's costly output becomes another actor's accepted input, and separates mature circular-economy routes from unresolved residues. This is not a waste-matching business thesis and does not add a new ontology.",
+  "findings": [
+    {
+      "id": "XZ-BULK-SOLID-WASTE-MATURE-049",
+      "state": "MATURE_FLOW_NOT_WHITESPACE",
+      "evidence": [
+        "Xuzhou reports general industrial solid-waste comprehensive utilization above 95%.",
+        "Fengxian's bulk-solid-waste demonstration base reports annual absorption above one million tonnes, converting coal gangue and slag into green building materials.",
+        "Xuzhou has built citywide source-transfer-utilization-disposal governance and dedicated resource-circulation bases."
+      ],
+      "interpretation": "Generic industrial-waste matching is not a credible missing edge. The remaining residue is likely structurally harder than the already-utilized bulk stream and cannot be treated as opportunity merely because it is unutilized.",
+      "sources": [
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202608/15/content_54645.html",
+        "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202512/t20251211_8544989.shtml"
+      ]
+    },
+    {
+      "id": "XZ-SMALL-HAZWASTE-AGGREGATION-050",
+      "state": "MINIMUM_BATCH_THRESHOLD_ALREADY_BEING_ORGANIZED",
+      "evidence": [
+        "Xuzhou public reporting states that small and micro hazardous-waste producers previously faced collection difficulty and high cost.",
+        "The city has built centralized collection pilots serving more than one thousand small enterprises; later reporting states six centralized collection pilot units citywide.",
+        "Jiangsu continues to formalize centralized hazardous-waste collection rules in 2026."
+      ],
+      "interpretation": "This is a clean example of small-batch demand being aggregated until a regulated service becomes economically and operationally callable. It strengthens MINIMUM_SERVICE_UNIT_MISMATCH, but the generic hazardous-waste collection route is already organized.",
+      "sources": [
+        "https://www.cnxz.com.cn/newsDetail?DetailId=2025391692583710720",
+        "https://szb.cnxz.com.cn/xzrb/pad/con/202608/15/content_54645.html",
+        "https://sthjt.jiangsu.gov.cn/art/2026/7/21/art_89507_11806620.html"
+      ]
+    },
+    {
+      "id": "XZ-ALUMINUM-CIRCULAR-ORCHESTRATION-051",
+      "state": "NATURAL_ORCHESTRATOR_ALREADY_PRESENT",
+      "evidence": [
+        "Peixian's aluminum cluster uses a government-platform / chain-leader / enterprise-coordination model.",
+        "Local aluminum processors, recycling firms and logistics firms are organized into an alliance that jointly addresses raw-material procurement, market orders and solid-waste disposal.",
+        "The cluster explicitly describes circular co-existence and pooled resource use."
+      ],
+      "interpretation": "Where resource recoupling is valuable and repetitive, a chain-leader/cluster orchestrator can emerge naturally. Do not infer a need for a generic marketplace where such orchestration already exists.",
+      "source": "https://szb.cnxz.com.cn/xzrb/pad/con/202607/21/content_53061.html"
+    },
+    {
+      "id": "XZ-FOOD-BYPRODUCT-RECOUPLING-052",
+      "state": "MULTIPLE_EXISTING_PARTIAL_FLOWS",
+      "evidence": [
+        "Xuzhou's 2026 modern-food strategy explicitly promotes valorization of wheat bran, corn cobs and other processing byproducts.",
+        "A mature Tongshan mushroom chain has long purchased wheat bran and corn cobs from surrounding farmers and converted them into cultivation substrate.",
+        "Jiawang's plant-based cat-litter cluster already converts agricultural/plant residues into pet-product feedstock."
+      ],
+      "interpretation": "Food/agricultural byproduct recoupling is already real. The useful residue is not 'find a buyer for byproducts' but identify streams where variability, contamination, moisture, batch size, transport or required pretreatment prevents acceptance by an otherwise plausible downstream user.",
+      "sources": [
+        "https://zgjssw.gov.cn/shixianchuanzhen/xuzhou/202609/t20260916_8593345.shtml",
+        "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202108/t20210825_7205414.shtml"
+      ]
+    },
+    {
+      "id": "XZ-MANURE-CIRCULAR-CHAIN-053",
+      "state": "COLLECTION_PRETREATMENT_ACCEPTANCE_CHAIN_EXISTING",
+      "evidence": [
+        "Tongshan has built a 1+8+20+N livestock-manure resource-utilization structure using a district processing center, fermentation stations, collection points and socialized fertilizer-return services.",
+        "One anaerobic-digestion center can produce about 80,000 tonnes of solid organic fertilizer annually and supply surrounding growers at lower cost."
+      ],
+      "interpretation": "The successful connection is not raw manure directly matching cropland. Collection, fermentation, sanitation and standardized fertilizer output convert a problematic stream into a downstream-acceptable input.",
+      "source": "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202503/t20250330_8471640.shtml"
+    },
+    {
+      "id": "XZ-WATER-RECOUPLING-INFRASTRUCTURE-054",
+      "state": "INFRASTRUCTURE_DEPENDENT_FLOW_ALREADY_FORMING",
+      "evidence": [
+        "Xinyi Economic Development Zone has a reclaimed-water reuse and supporting pipeline project, showing that water recoupling often requires physical network infrastructure rather than simple information matching.",
+        "Xuzhou JinHong Steel reports rainwater collection and reclaimed-water reuse saving about 150,000 cubic metres of water annually."
+      ],
+      "interpretation": "Reclaimed-water connection is often permission/infrastructure intensive. Treat it as doctrine evidence, not a low-permission P0 route.",
+      "sources": [
+        "https://ggzy.zwb.xz.gov.cn/jyxx/003001/003001001/20251217/f9d1f992-f47d-422a-8371-b7d493c39792.html",
+        "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202603/t20260321_8564562.shtml"
+      ]
+    },
+    {
+      "id": "XZ-SECONDARY-INPUT-ACCEPTANCE-GATE-055",
+      "state": "SEARCH_RULE_REFINED_FROM_CROSS_CASE_EVIDENCE",
+      "evidence": [
+        "Industrial-resource standards, industrial-solid-waste utilization evaluation and clean-production standards continue to formalize quality, process and accountability requirements.",
+        "Successful local recoupling cases repeatedly include aggregation, pretreatment, standardization, traceability or a trusted orchestrator before downstream acceptance."
+      ],
+      "interpretation": "The missing connection often lies between 'waste exists' and 'buyer can safely treat it as input'. The system should search for the transformation that makes the stream decision-relevant and acceptable, not merely for another actor that nominally uses the same material class.",
+      "sources": [
+        "https://gxt.jiangsu.gov.cn/art/2026/4/23/art_6281_11761440.html",
+        "https://sthjt.jiangsu.gov.cn/art/2026/8/21/art_84025_11819185.html",
+        "https://gxt.jiangsu.gov.cn/art/2026/1/23/art_91356_11720986.html"
+      ]
+    }
+  ],
+  "search_rules_refined": [
+    {
+      "name": "SECONDARY_INPUT_ACCEPTANCE_GATE",
+      "questions": [
+        "What exact output is costly or unwanted for the source actor?",
+        "What exact input specification does the receiving actor accept?",
+        "Which state variables matter: composition, moisture, contamination, size, grade, consistency, legal classification or traceability?",
+        "What aggregation, testing, sorting, pretreatment or custody step is required before acceptance?",
+        "After transport, testing and pretreatment, is the net economics still positive?"
+      ],
+      "relationship_to_existing_doctrine": "Deepening of VERIFIABILITY_TRANSFORMATION, BOUNDARY_TRANSLATION, MINIMUM_SERVICE_UNIT_MISMATCH and residual-value recoupling; not a new ontology."
+    },
+    {
+      "name": "LAST_MILE_RESIDUE_IS_NOT_AUTOMATIC_OPPORTUNITY",
+      "pattern": "high overall utilization + small remaining residue may indicate the hardest, most regulated or intrinsically uneconomic streams rather than easy whitespace",
+      "boundary": "Require current category-level cost, failed workaround and a plausible downstream acceptance path before promotion."
+    },
+    {
+      "name": "RESOURCE_RECOUPLING_NET_ECONOMICS",
+      "questions": [
+        "What does the source currently pay to store, transport or dispose of the output?",
+        "What does the receiver currently pay for the substitute input?",
+        "What are transport, testing, aggregation, preprocessing, compliance and rejection costs?",
+        "Who bears quality/rejection/environmental liability?",
+        "Does a partial flow, long-term contract, repeated collection or current workaround already exist?"
+      ]
+    }
+  ],
+  "closures": [
+    "GENERIC_INDUSTRIAL_WASTE_MATCHING_PLATFORM",
+    "GENERIC_SMALL_HAZARDOUS_WASTE_COLLECTION",
+    "GENERIC_ALUMINUM_RECYCLING_MATCHING",
+    "GENERIC_FOOD_BYPRODUCT_MATCHING",
+    "GENERIC_MANURE_TO_FERTILIZER_MATCHING",
+    "GENERIC_RECLAIMED_WATER_MATCHING"
+  ],
+  "next_scan_priority": [
+    "CURRENT_XUZHOU_LOW_UTILIZATION_RESIDUE_CATEGORIES_WITH_SOURCE_SIDE_COST",
+    "SECONDARY_MATERIAL_STREAMS_REJECTED_DUE_TO_SPEC_VARIABILITY_OR_TESTING_COST",
+    "SMALL_BATCH_NON_HAZARDOUS_RESIDUES_WHERE_AGGREGATION_COST_EXCEEDS_MATERIAL_VALUE",
+    "LOCAL_BYPRODUCT_STREAM_WITH_PAIRED_DOWNSTREAM_SUBSTITUTE_INPUT_COST",
+    "CURRENT_FORCED_EXTERNAL_ROUTING_LEDGER",
+    "POST_VERIFICATION_RESIDUE_AFTER_EXISTING_CERTIFICATION_TRIAL_OR_INSPECTION"
+  ],
+  "field_state": {
+    "capability_proof_employer_probes_sent": 2,
+    "qualified_human_responses_last_checked": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "truth_boundaries": [
+    "WASTE_EXISTS_NE_CALLABLE_RESOURCE",
+    "POTENTIAL_USE_NE_BUYER_ACCEPTANCE",
+    "HIGH_RECYCLING_RATE_NE_EASY_RESIDUAL_OPPORTUNITY",
+    "OUTSIDE_PROCESSOR_NE_LOCAL_CAPABILITY_GAP",
+    "RESOURCE_MATCH_NE_POSITIVE_NET_ECONOMICS",
+    "POLICY_PROMOTION_NE_ACTOR_COMMITMENT",
+    "NO_NEW_FORMATION_WITHOUT_PAIRED_SOURCE_COST_AND_DOWNSTREAM_ACCEPTANCE_PRESSURE",
+    "FIRST_EXTERNAL_VALUE_FLOW_STILL_NOT_PROVEN"
+  ]
+}
