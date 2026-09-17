@@ -1,0 +1,72 @@
+{
+  "artifact_id": "FRACTIONAL-PROFESSIONAL-MARKET-CLOSURE-004-2026-09-17",
+  "observed_at": "2026-09-17",
+  "formation_id": "PF-HIGHSKILL-CAREGIVER-FRACTIONAL-008",
+  "status": "GENERIC_ROUTE_PARTLY_CLOSED_DOWNGRADE_FIRST_WAVE",
+  "purpose": "Test whether professional capability plus fragmented/flexible time is itself an unorganized missing edge before spending field-access effort.",
+  "current_market_evidence": [
+    {
+      "route": "professional part-time accounting",
+      "evidence": "Current Xuzhou recruitment results include part-time CPA roles and multiple accounting roles explicitly marked flexible or part-time, including day-rate work.",
+      "implication": "Professional accounting capacity already has visible market routes; generic fractional accounting is not a defensible missing edge."
+    },
+    {
+      "route": "remote / one-order-at-a-time professional design",
+      "evidence": "Current Xuzhou-targeted listings include part-time interior/design work described as no fixed office, online coordination, work from home and payment per order.",
+      "implication": "Outcome-like remote design exchange already exists in ordinary recruitment markets."
+    },
+    {
+      "route": "remote data / operations work",
+      "evidence": "Current Xuzhou-targeted listings include home-based part-time data-analysis work and part-time new-media operations.",
+      "implication": "Fragmented-time professional work is not absent as a category."
+    },
+    {
+      "route": "broad local gig / part-time discovery",
+      "evidence": "Current local recruitment systems expose a dedicated gig market and professional part-time categories such as accounting, design, legal, translation and IT/software.",
+      "implication": "A new generic marketplace or matching layer would duplicate already-visible discovery routes."
+    }
+  ],
+  "decision": {
+    "previous_state": "NARROW_BEFORE_OUTREACH",
+    "new_state": "SECOND_WAVE_CLOSURE_TEST_ONLY",
+    "first_wave": false,
+    "reason": "The broad professional-flexibility exchange is already materially organized by existing recruitment/gig routes. Remaining value, if any, must be evidenced as a repeated failure mode after those routes, not inferred from caregiver time constraints or professional capability alone.",
+    "no_outreach_for_generic_008": true
+  },
+  "reopen_only_if": [
+    "multiple capability-side actors with verifiable prior professional skills report the same material failure after trying current part-time, remote or freelance routes",
+    "multiple small operators report the same bounded professional outcome remains undone after considering current hiring, gig and agency routes",
+    "the failure is caused by a specific missing edge such as trust, acceptance design, coordination shape, liability allocation or time granularity rather than lack of listings",
+    "at least one outcome class can be accepted objectively and paid fairly without relying on constrained workers accepting discounted compensation",
+    "coordination cost stays below created surplus"
+  ],
+  "kill_if": [
+    "the only differentiation is branding the same part-time/freelance work around caregivers",
+    "the route merely aggregates listings already available on recruitment or gig platforms",
+    "the task class is already routinely bought per order or per day through existing channels",
+    "economics require underpayment or hidden unpaid coordination",
+    "no repeated post-platform failure appears in direct actor evidence"
+  ],
+  "truth_boundaries": [
+    "LISTING_EXISTS_NE_MARKET_SATISFACTION",
+    "PARTIAL_MARKET_CLOSURE_NE_COMPLETE_MARKET_EFFICIENCY",
+    "CAREGIVER_STATE_NE_UNMET_DEMAND",
+    "PROFESSIONAL_CAPABILITY_NE_MISSING_EDGE",
+    "PLATFORM_AVAILABILITY_NE_SUCCESSFUL_MATCH",
+    "REOPEN_REQUIRES_POST_EXISTING_ROUTE_FAILURE",
+    "NO_PRODUCT_OR_OUTREACH_FOR_GENERIC_ROUTE"
+  ],
+  "current_priority": {
+    "primary_first_wave": "PF-OPC-SILVER-CHANNEL-COPILOT-007",
+    "formation_008": "SECOND_WAVE_CLOSURE_TEST_ONLY",
+    "next_blocker": "DIRECT_ACTOR_TRUTH_FOR_007_OR_SPECIFIC_POST_PLATFORM_FAILURE_EVIDENCE_BEFORE_008_REOPENS"
+  },
+  "sources": [
+    "https://www.zhaopin.com/sou/jl637/kwA5U80J0/p1",
+    "https://www.zhaopin.com/zhaopin/7411ba7cb7924a289f56ea8442bedbdd/",
+    "https://www.zhaopin.com/zhaopin/e4eb0bebf2f74fc59292ce3d7c3b090f/",
+    "https://www.yupao.com/s/yp15841226/",
+    "https://m.58.com/xz/jianzhi/",
+    "https://www.xuzhouzhipin.com/Mobile/index/index.html"
+  ]
+}
