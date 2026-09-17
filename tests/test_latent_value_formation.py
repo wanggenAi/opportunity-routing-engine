@@ -87,6 +87,11 @@ class LatentValueFormationTests(unittest.TestCase):
                 FormationEvidenceKind.COMPLEMENTARY_NODE,
             ),
             FormationEvidenceRef(
+                "field:informal-crossgen",
+                "synthetic test evidence: repeated informal cross-generation help already approximates the proposed relationship",
+                FormationEvidenceKind.CONNECTION_PRESSURE,
+            ),
+            FormationEvidenceRef(
                 "field:trust-packaging",
                 "trust, packaging, role definition and acceptance prevent direct exchange",
                 FormationEvidenceKind.STRANDING_BARRIER,
@@ -139,7 +144,7 @@ class LatentValueFormationTests(unittest.TestCase):
         payload.update(overrides)
         return LatentValueFormationHypothesis(**payload)
 
-    def test_complete_resource_psychology_formation_can_be_validation_ready(self):
+    def test_complete_connection_evidenced_formation_can_be_validation_ready(self):
         hypothesis = self._hypothesis()
         self.assertEqual(validate_formation(hypothesis), [])
         self.assertEqual(formation_state(hypothesis), FormationState.VALIDATION_READY)
@@ -148,6 +153,22 @@ class LatentValueFormationTests(unittest.TestCase):
         self.assertEqual(candidate.candidate_class(), CandidateClass.LATENT_VALUE_ACTIVATION)
         self.assertEqual(candidate.source_mode, "LATENT_VALUE_DISCOVERY")
         self.assertEqual(validate_candidate(candidate), [])
+
+    def test_complementarity_and_exchange_design_without_connection_pressure_cannot_promote(self):
+        hypothesis = self._hypothesis(
+            evidence=tuple(
+                item
+                for item in self._hypothesis().evidence
+                if item.kind is not FormationEvidenceKind.CONNECTION_PRESSURE
+            )
+        )
+        errors = validate_formation(hypothesis)
+        self.assertIn("missing:evidence_kind:CONNECTION_PRESSURE", errors)
+        self.assertEqual(
+            formation_state(hypothesis), FormationState.COMPLEMENTARITY_HYPOTHESIS
+        )
+        with self.assertRaisesRegex(ValueError, "VALIDATION_READY"):
+            to_latent_value_candidate(hypothesis)
 
     def test_psychology_alone_cannot_manufacture_latent_value(self):
         hypothesis = self._hypothesis(
