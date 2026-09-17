@@ -1,0 +1,109 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-SCAN-016-2026-09-18",
+  "observed_at": "2026-09-18",
+  "status": "RIGHTS_BUNDLE_CONTROL_CONTINUITY_REPLICATION_SCAN",
+  "purpose": "Deepen RIGHTS_BUNDLE_COMPLETENESS using real failures where physical delivery, nominal transfer or employment exit occurs but material control/recovery channels remain with the wrong actor. This is a search-rule refinement, not a new ontology or account-transfer business thesis.",
+  "findings": [
+    {
+      "id": "XZ-USED-EV-RESIDUAL-CONTROL-049",
+      "state": "REAL_XUZHOU_TRANSACTION_FAILURE",
+      "evidence": [
+        "A Xuzhou used-new-energy-vehicle buyer paid in full and completed vehicle-title transfer but could not transfer the vehicle App/account.",
+        "The vehicle still had an unresolved finance/mortgage restriction and faced remote-lock risk; normal intelligent-control use was materially impaired.",
+        "The local court explainer treated account/intelligent-control transfer as a core part of seller performance, not an optional extra after physical title transfer."
+      ],
+      "interpretation": "Physical title transfer can leave the old/right-holding party or financing system with material technical control. Usable ownership requires control-state migration, not only registry title.",
+      "source": "https://szb.cnxz.com.cn/dscb/pad/con/202607/10/content_52566.html"
+    },
+    {
+      "id": "JS-VIRTUAL-ASSET-RECOVERY-CONTROL-050",
+      "state": "CROSS_DOMAIN_REVOCABILITY_FAILURE",
+      "evidence": [
+        "A 2026 Kunshan case involved a game account sold for value and then repeatedly recovered by the original holder through password-reset/fraudulent appeal channels and resold.",
+        "Payment and credential handover therefore did not eliminate the original holder's superior recovery capability."
+      ],
+      "interpretation": "If the transferor retains a stronger recovery/reset identity than the transferee, apparent control can be revoked after exchange. Credential delivery alone is not durable control transfer.",
+      "source": "https://www.jsfy.gov.cn/article/107745.html"
+    },
+    {
+      "id": "JS-ENTERPRISE-ADMIN-OFFBOARDING-051",
+      "state": "REAL_ENTERPRISE_CONTROL_CONTINUITY_FAILURE",
+      "evidence": [
+        "A 2026 Nantong criminal case involved a former network technician who retained highest-privilege account credentials after leaving the company.",
+        "He remotely deleted core data and backups, causing the enterprise information system to stop and business operations to be disrupted."
+      ],
+      "interpretation": "Employment termination did not complete authority termination. Enterprise asset/control continuity requires explicit privilege revocation and custody transfer, not only HR separation.",
+      "source": "https://www.jsfy.gov.cn/article/106872.html"
+    },
+    {
+      "id": "JS-PLATFORM-IDENTITY-ACCOUNT-BUNDLE-052",
+      "state": "PLATFORM_CONTRACT_RIGHTS_LIMIT_PRIVATE_TRANSFER",
+      "evidence": [
+        "Jiangsu court material shows account/store operations can carry independent economic value while platform identity, certification and user-agreement rights remain material to lawful control.",
+        "A 2026 Suzhou case concerning an authenticated platform account/store highlights that private cooperation/operation arrangements create disputes when account qualification and operating responsibility remain attached to another person's certified identity.",
+        "Other Jiangsu cases similarly show that a buyer can receive login/use credentials while the registered identity or platform relationship remains with the original account holder."
+      ],
+      "interpretation": "Some digital assets are not freely transferable objects; control is partly a contract/identity relationship with a platform. A transfer checklist must include platform consent/identity rules, not merely passwords and private contracts.",
+      "sources": [
+        "https://www.jsfy.gov.cn/article/107602.html",
+        "https://www.jsfy.gov.cn/article/107547.html"
+      ]
+    },
+    {
+      "id": "CN-SOFTWARE-RIGHT-WITHOUT-OPERABLE-ASSET-053",
+      "state": "RIGHT_EXISTS_OPERABILITY_UNPROVEN",
+      "evidence": [
+        "A 2026 judicial bankruptcy auction of software copyright expressly disclosed that the administrator had not taken custody of relevant registration certificates, software, source code or other physical/digital items and would deliver the asset as-is.",
+        "A copyright/legal right can therefore be transferable while the operational materials needed to use, maintain or reconstruct the software are absent."
+      ],
+      "interpretation": "Legal ownership of an intangible right is not equivalent to possession of an operable system. Transfer completeness must distinguish IP title, source/code, credentials, data, infrastructure, keys and maintenance knowledge.",
+      "source": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=2298783D79848839D85713D3DE17B896"
+    }
+  ],
+  "search_rules_refined": [
+    {
+      "name": "CONTROL_CONTINUITY_AFTER_TRANSFER",
+      "questions": [
+        "After sale, handover, outsourcing change or employee exit, who can still reset, recover, revoke, remotely lock, delete or materially alter the asset/service?",
+        "Which identity is authoritative to the platform/OEM/cloud provider rather than merely named in the private contract?",
+        "Have all privileged accounts, recovery channels, API keys, signing keys, remote-control roles and service-owner identities been migrated or revoked?",
+        "Can the receiver continue normal operation if the transferor disappears or becomes hostile?"
+      ],
+      "relationship_to_existing_doctrine": "Operational deepening of RIGHTS_BUNDLE_COMPLETENESS and VERIFIABILITY_TRANSFORMATION; not a new top-level ontology."
+    },
+    {
+      "name": "RESIDUAL_CONTROL_CHECK",
+      "pattern": "nominal transfer/exit completed + prior actor retains superior technical or identity recovery channel -> receiver's control is revocable or operations remain hostage",
+      "boundary": "A retained password is not by itself a market edge. Search for repeated bounded workflows with measurable loss/delay and a currently inadequate handover/control-verification route."
+    },
+    {
+      "name": "OPERABLE_ASSET_COMPLETENESS",
+      "pattern": "legal/physical title + missing source/data/credential/service entitlement/maintenance knowledge -> asset exists but use-value cannot reliably transfer"
+    }
+  ],
+  "closures": [
+    "GENERIC_ACCOUNT_ESCROW_PLATFORM_WITHOUT_ACTOR_RESIDUE",
+    "GENERIC_USED_EV_CHECKLIST_PRODUCT_WITHOUT_REPEAT_DEMAND",
+    "GENERIC_IT_OFFBOARDING_SERVICE_WITHOUT_NAMED_CURRENT_COST"
+  ],
+  "field_state": {
+    "capability_proof_employer_probes_sent": 2,
+    "qualified_human_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "next_scan_priority": [
+    "NAMED_XUZHOU_SME_WITH_CURRENT_PRIVILEGED_ACCESS_OR_VENDOR_HANDOVER_RISK",
+    "CONNECTED_ASSET_TRANSFER_WHERE_CONTROL_MIGRATION_HAS_MEASURABLE_COST",
+    "CURRENT_FORCED_EXTERNAL_ROUTING_LEDGER",
+    "SMALL_BATCH_OR_HETEROGENEOUS_MATERIAL_RESIDUE_AFTER_MATURE_INDUSTRIAL_SYMBIOSIS"
+  ],
+  "truth_boundaries": [
+    "TITLE_TRANSFER_NE_CONTROL_TRANSFER",
+    "CREDENTIAL_HANDOVER_NE_RECOVERY_RIGHT_TRANSFER",
+    "EMPLOYMENT_EXIT_NE_PRIVILEGE_REVOCATION",
+    "IP_OWNERSHIP_NE_OPERABLE_SOFTWARE_ASSET",
+    "PLATFORM_ACCOUNT_PRIVATE_CONTRACT_NE_PLATFORM_CONSENT",
+    "CONTROL_FAILURE_CASE_NE_NEW_MARKET_EDGE",
+    "FIRST_EXTERNAL_VALUE_FLOW_STILL_NOT_PROVEN"
+  ]
+}
