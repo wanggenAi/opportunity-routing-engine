@@ -1,12 +1,16 @@
 """Evidence-bound bridge from actor state + psychology to latent-value formation.
 
-This module exists upstream of canonical transaction promotion.  It connects
+This module exists upstream of canonical transaction promotion. It connects
 objective endowments/state changes with aggregate psychology/behavior evidence and
-heterogeneous complementary world nodes, then produces a falsifiable exchange
-hypothesis.
+heterogeneous complementary world nodes, then asks whether reality already shows
+pressure toward a latent connection between those nodes.
+
+Only after that connection pressure is evidenced may a counterfactual exchange
+mechanism become validation-ready. Counterfactual design describes execution
+mechanics for an evidenced connection; it must not manufacture the connection.
 
 It deliberately does *not* create paid demand, payer truth, resource availability,
-transactionability, or commercial opportunity truth.  Those remain downstream
+transactionability, or commercial opportunity truth. Those remain downstream
 Resource Imbalance / route-testability concerns.
 
 Core boundary:
@@ -15,11 +19,13 @@ Core boundary:
     + PSYCHOLOGY / BEHAVIOR EVIDENCE
     + UNDERUSE / MISALIGNMENT
     + COMPLEMENTARY WORLD NODES
-    -> LATENT VALUE FORMATION HYPOTHESIS
+    + CONNECTION PRESSURE EVIDENCE
+    -> LATENT CONNECTION / VALUE FORMATION HYPOTHESIS
+    -> COUNTERFACTUAL EXCHANGE MECHANICS
     != PAID NEED
     != TRANSACTION
 
-Psychology is aggregate/segment evidence.  This bridge must not be used to build
+Psychology is aggregate/segment evidence. This bridge must not be used to build
 unnecessary individual psychographic profiles or to infer sensitive traits.
 """
 
@@ -38,7 +44,7 @@ from src.psychology_tracker import PsychologySnapshot
 
 
 class FormationState(str, Enum):
-    """Maturity of a resource-psychology latent-value formation hypothesis."""
+    """Maturity of an evidence-bound latent-value formation hypothesis."""
 
     OBSERVED_TRANSITION = "OBSERVED_TRANSITION"
     RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS = (
@@ -58,6 +64,7 @@ class FormationEvidenceKind(str, Enum):
     UNDERUSE_MISALIGNMENT = "UNDERUSE_MISALIGNMENT"
     OBSERVED_BEHAVIOR = "OBSERVED_BEHAVIOR"
     COMPLEMENTARY_NODE = "COMPLEMENTARY_NODE"
+    CONNECTION_PRESSURE = "CONNECTION_PRESSURE"
     STRANDING_BARRIER = "STRANDING_BARRIER"
     COUNTERFACTUAL_PRECEDENT = "COUNTERFACTUAL_PRECEDENT"
     MONEY_BEHAVIOR = "MONEY_BEHAVIOR"
@@ -76,11 +83,12 @@ class FormationEvidenceRef:
 
 @dataclass(frozen=True)
 class ComplementaryWorldNode:
-    """A heterogeneous node that may contribute to a counterfactual exchange.
+    """A heterogeneous node that may participate in a latent connection.
 
-    ``node_type`` is intentionally open-ended.  It may describe a person, group,
+    ``node_type`` is intentionally open-ended. It may describe a person, group,
     organization, asset, channel, data source, space, equipment, capital, authority,
     software, trust relation, demand stream, or a future node type not yet named.
+    Node complementarity alone is not evidence that a latent connection exists.
     """
 
     node_id: str
@@ -117,8 +125,13 @@ class LatentValueFormationHypothesis:
     """A pre-demand hypothesis about value that may be formed by recombination.
 
     The origin actor is represented as an aggregate segment or non-personal actor
-    class.  Psychology evidence must come from ``PsychologySnapshot`` records with
+    class. Psychology evidence must come from ``PsychologySnapshot`` records with
     provenance retained by the psychology tracker.
+
+    ``counterfactual_exchange_design`` is retained for schema compatibility, but its
+    semantics are downstream: it describes minimum execution mechanics for an
+    already-evidenced latent connection. It is not evidence that the connection
+    exists and cannot by itself make the hypothesis validation-ready.
     """
 
     candidate_id: str
@@ -171,6 +184,7 @@ _VALIDATION_EVIDENCE_KINDS = frozenset(
         FormationEvidenceKind.UNDERUSE_MISALIGNMENT,
         FormationEvidenceKind.OBSERVED_BEHAVIOR,
         FormationEvidenceKind.COMPLEMENTARY_NODE,
+        FormationEvidenceKind.CONNECTION_PRESSURE,
         FormationEvidenceKind.STRANDING_BARRIER,
     }
 )
@@ -235,9 +249,11 @@ def validate_formation(
 ) -> list[str]:
     """Return fail-closed errors before a hypothesis becomes validation-ready.
 
-    ``VALIDATION_READY`` here means only that the counterfactual exchange is worth a
-    cheap bounded reality test.  It does not mean paid need, payer, resource control,
-    willingness to pay, or transactionability has been established.
+    ``VALIDATION_READY`` means that objective evidence shows enough directional
+    pressure toward the proposed latent connection to justify spending scarce human
+    or external validation capital on the remaining decisive uncertainty. It does
+    not mean paid need, payer, resource control, willingness to pay, or
+    transactionability has been established.
     """
 
     errors: list[str] = []
@@ -295,7 +311,7 @@ def validate_formation(
 
 
 def formation_state(hypothesis: LatentValueFormationHypothesis) -> FormationState:
-    """Infer formation maturity without silently manufacturing commercial truth."""
+    """Infer formation maturity without silently manufacturing connection truth."""
 
     kinds = evidence_kinds(hypothesis)
     objective_core = {
@@ -354,6 +370,9 @@ def _map_evidence_kind(kind: FormationEvidenceKind) -> EvidenceKind:
         return EvidenceKind.STRANDING_BARRIER
     if kind is FormationEvidenceKind.COUNTERFACTUAL_PRECEDENT:
         return EvidenceKind.VALUE_PRECEDENT
+    # Connection pressure is a formation-level relationship observation. The
+    # canonical discovery model currently has no dedicated relationship evidence
+    # enum, so preserve it as GENERAL_PATTERN rather than inventing a false state.
     return EvidenceKind.GENERAL_PATTERN
 
 
@@ -362,7 +381,7 @@ def to_latent_value_candidate(
 ) -> LatentValueCandidate:
     """Project a validated formation into the canonical latent-value model.
 
-    Projection is intentionally unavailable before ``VALIDATION_READY``.  Even after
+    Projection is intentionally unavailable before ``VALIDATION_READY``. Even after
     projection, the result remains ``LATENT_VALUE_DISCOVERY``; it does not create a
     NeedSignal, payer, payment evidence, ResourceSignal or route-testable status.
     """
@@ -425,6 +444,11 @@ GOVERNING_INVARIANTS = (
     "PSYCHOLOGY_SIGNAL_NE_DEMAND",
     "MOTIVE_HYPOTHESIS_NE_WILLINGNESS_TO_PAY",
     "BEHAVIOR_SIGNAL_NE_TRANSACTION",
+    "CONNECTION_INVENTION_NE_CONNECTION_DISCOVERY",
+    "COMPLEMENTARITY_NE_LATENT_CONNECTION",
+    "CONNECTION_HYPOTHESIS_NE_CONNECTION_PRESSURE_EVIDENCE",
+    "COUNTERFACTUAL_EXCHANGE_NE_LATENT_CONNECTION_EVIDENCE",
+    "LATENT_CONNECTION_NE_ACCEPTED_EXCHANGE",
     "COUNTERFACTUAL_EXCHANGE_NE_ACCEPTED_EXCHANGE",
     "LATENT_VALUE_FORMATION_NE_COMMERCIAL_OPPORTUNITY",
     "COMPLEMENTARITY_NE_TRANSACTIONABILITY",
