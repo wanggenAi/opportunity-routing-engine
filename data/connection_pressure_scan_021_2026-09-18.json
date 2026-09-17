@@ -66,6 +66,22 @@
         "The successful remedies differ—localization, priority scheduling, conditional approval with later verification, cross-department orchestration and pre-examination—but all reduce latency while preserving a trusted acceptance condition."
       ],
       "interpretation": "Availability must be modeled as capability plus latency relative to the actor's value window. A service that exists but arrives after the decision/order/production window is functionally unavailable."
+    },
+    {
+      "id": "XZ-TEMPORARY-SUBSTITUTE-CAPACITY-068",
+      "state": "LATENCY_BYPASS_BUFFER_REPLICATED_IN_MAINTENANCE",
+      "evidence": [
+        "Xuzhou Kangpujie Compressor publicly commits to 7x24 support and a free backup machine when a fault exceeds 72 hours.",
+        "Current Jiangsu equipment/IT maintenance procurements repeatedly require a temporary or equivalent backup machine/device when repair cannot be completed inside a stated continuity window.",
+        "The substitute is not the final repair; it preserves the user's operating value while the original asset remains unavailable."
+      ],
+      "interpretation": "When repair itself cannot finish before the continuity window, pooled substitute capacity can bypass latency rather than reduce it. This refines TIME_TO_VALUE_GATE plus shared-capability logic; it is not a generic backup-equipment marketplace.",
+      "sources": [
+        "https://www.kangpujie.com/",
+        "https://www.chinamae.com/purchases/405e354fd8b09c49286cf4806d5cd9f0.html",
+        "https://www.anfangzhaobiao.com/news-484d076958933044aff220d1a3490a5c/",
+        "https://jiangsu.jianyu360.cn/jybx/20260714_26071369319467.html"
+      ]
     }
   ],
   "search_rules_refined": [
@@ -97,19 +113,35 @@
         "Can evidence be prepared earlier so the critical path starts later?"
       ],
       "boundary": "Acceleration that removes necessary safety, quality, legal or acceptance controls is not a valid natural connection."
+    },
+    {
+      "name": "LATENCY_BYPASS_BUFFER",
+      "pattern": "critical asset/capability unavailable + restoration lead time exceeds continuity window + compatible pooled substitute exists -> temporary substitute preserves value flow while recovery continues",
+      "questions": [
+        "What function must remain continuous?",
+        "How much downtime is economically tolerable?",
+        "Is a temporary substitute technically interchangeable?",
+        "Who holds spare or idle compatible capacity?",
+        "What dispatch/install time is required?",
+        "What safety, calibration, data, warranty or liability constraints block substitution?",
+        "Is demand recurrent enough for pooling?"
+      ],
+      "boundary": "One backup promise does not prove whitespace; mature maintenance systems often bundle substitutes already."
     }
   ],
   "closures": [
     "GENERIC_EXPEDITED_SERVICE_BUSINESS",
     "GENERIC_GREEN_CHANNEL_CONSULTING",
     "GENERIC_APPROVAL_BYPASS",
-    "GENERIC_FAST_PATENT_SERVICE"
+    "GENERIC_FAST_PATENT_SERVICE",
+    "GENERIC_BACKUP_MACHINE_OR_LOANER_PLATFORM"
   ],
   "next_scan_priority": [
     "XUZHOU_PRIVATE_B2B_EVENTS_WHERE_ORDER_VALUE_EXPIRES_BEFORE STANDARD VERIFICATION_OR_SERVICE_COMPLETES",
     "REPEATED QUEUE_OR_WAITING_COST_AFTER_EXISTING CAPABILITY IS KNOWN",
     "CAPABILITIES THAT CAN MOVE TO THE ASSET/FACTORY INSTEAD OF MOVING THE ASSET",
     "DEMAND WINDOWS WHERE RESERVED OR FLEX CAPACITY ALREADY APPEARS",
+    "CRITICAL_XUZHOU_WORKFLOWS_WHERE_RESTORATION_LATENCY_EXCEEDS_CONTINUITY_WINDOW_AND_NO_SUBSTITUTE_POOL_IS_CALLABLE",
     "POST_QUALITY_SYSTEM_RESIDUE AFTER SQE_CQE_8D_AUDIT_INFRASTRUCTURE",
     "PRIVATE_B2B_FAILED_EXCHANGE_LEDGER"
   ],
@@ -125,6 +157,7 @@
     "LATENCY_REDUCTION_NE_PERMISSION_TO_REMOVE_SAFETY_OR_QUALITY_GATES",
     "ONE_URGENT_EVENT_NE_REPEATABLE_DEMAND",
     "NO_NEW_FORMATION_WITHOUT_REPEATED_TIME_COST_PLUS_PARTIAL_FLOW_OR_COMMITMENT",
+    "BACKUP_ASSET_EXISTS_NE_UNSERVED_SUBSTITUTE_CAPACITY_MARKET",
     "FIRST_EXTERNAL_VALUE_FLOW_STILL_NOT_PROVEN"
   ]
 }
