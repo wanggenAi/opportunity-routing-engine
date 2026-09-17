@@ -40,6 +40,30 @@ Source: https://xzsme.js.cn/
 
 `REAL_TRANSACTION_STATE != FILED_STATE != BANK-ACTIONABLE_STATE`
 
+## Lower-permission commercial replication: procurement
+
+The same structure exists outside regulatory approval.
+
+2026 government-procurement practice reports recurring disputes where suppliers have products/capability and submit test evidence, but the buyer's acceptance schema rejects the proof because of issuer qualification, parameter coverage, authenticity, or timing.
+
+Examples include:
+
+- an initial award being cancelled after the report issuer was judged not to meet the tender's required certification condition;
+- a tender being held unreasonable because it required non-mandatory reports that normally take about 90 days while allowing only 21 days from notice to bid deadline;
+- a procurement result being overturned because reports did not contain all parameters that the tender language required as proof.
+
+Sources:
+- https://www.ccgp.gov.cn/llsw/202608/t20260804_27063468.htm
+- https://www.ccgp.gov.cn/llsw/202604/t20260410_26385405.htm
+- https://www.ccgp.gov.cn/llsw/202609/t20260911_27309184.htm
+- https://www.ccgp.gov.cn/llsw/202606/t20260609_26711589.htm
+
+This gives the mechanism a direct economic boundary:
+
+`SUPPLIER_CAPABILITY != BUYER-ACCEPTED_PROOF`
+
+But it still does **not** prove demand for tender consulting.
+
 ## Why this is structural rather than anecdotal
 
 Jiangsu's Inspection and Testing Regulation makes evidence acceptance explicitly structured: test basis, data/results, sample acquisition, authorized signer, institution seal, qualification marks and subcontracting status all matter.
@@ -83,12 +107,17 @@ from
 
 These are different failure modes.
 
+### `EVIDENCE_SCHEMA_IS_PART_OF_EXCHANGE_INTERFACE`
+
+A seller's real capability and a buyer's real need still do not create a usable connection when the seller cannot produce buyer-recognized proof—or when the buyer's requested proof is itself structurally impossible or disproportionate.
+
 ## Boundaries
 
 This scan does **not** prove:
 
 - demand for generic regulatory consulting;
 - demand for another testing provider;
+- demand for generic tender consulting;
 - a paid evidence-translation market;
 - that any of the Xuzhou requests were ultimately solved in a particular way.
 
