@@ -77,6 +77,17 @@
         "The used-EV dispute shows the inverse case: an apparently completed transaction can fail when material state/right fields remain hidden."
       ],
       "interpretation": "VERIFIABILITY_TRANSFORMATION is therefore not limited to finance. It applies whenever exchange depends on a counterparty accepting claims about condition, capability, quality, rights or control."
+    },
+    {
+      "id": "XZ-CAPABILITY-PROOF-RESIDUE-042",
+      "state": "CURRENT_REAL_RESIDUE_EXISTING_REPAIR_PATH_ACTIVE",
+      "evidence": [
+        "A June 2026 Xuzhou report on industry-linked talent training states that enterprises can recruit graduates who interview well but cannot immediately perform on the shop floor; the report says some require three to five months of training before they can work effectively.",
+        "The local response is already moving toward enterprise orders, school-industry training, practical skill evaluation, internships and production-line learning, so the generic training/credential route is not absent."
+      ],
+      "interpretation": "This is direct evidence that existing credentials/interviews can leave a capability-proof gap with measurable onboarding cost. It does not prove demand for a new verification platform. The useful residual is the subset of roles where substantial re-verification/retraining remains after current enterprise-led training and skill-evaluation mechanisms.",
+      "next_truth": "Find named role/task classes where employers still incur repeated trial-work, retraining, supervision or failure cost after using current credentials/training routes, and identify what task-level proof would materially reduce that cost.",
+      "source": "https://szb.cnxz.com.cn/xzrb/pc/con/202606/13/content_51294.html"
     }
   ],
   "search_rules_refined": [
@@ -114,13 +125,15 @@
     "GENERIC_SUPPLIER_DIRECTORY_WITHOUT_DECISION_RELEVANT_PROOF"
   ],
   "next_scan_priority": [
-    "CAPABILITY_PROOF_RESIDUE_WHERE_FORMAL_CREDENTIALS_FAIL",
+    "NAMED_ROLE_TASK_CLASSES_WITH_POST_CREDENTIAL_RETRAINING_COST",
     "CONNECTED_ASSET_RIGHTS_OR_CONTROL_STATE_HIDDEN_FROM_BUYER",
     "CURRENT_FORCED_EXTERNAL_ROUTING_LEDGER",
     "NON_AGRICULTURAL_RISK_BEARING_ORCHESTRATOR_REPLICATION"
   ],
   "truth_boundaries": [
     "CERTIFICATE_NE_CAPABILITY",
+    "INTERVIEW_PERFORMANCE_NE_SHOPFLOOR_READINESS",
+    "RETRAINING_COST_NE_NEW_VERIFICATION_BUSINESS",
     "PLATFORM_DATA_NE_TRUST_UNLESS_DECISION_RELEVANT",
     "PHYSICAL_TITLE_TRANSFER_NE_COMPLETE_USABLE_RIGHTS",
     "SUPPLIER_CLAIM_NE_BUYER_ACCEPTED_CAPABILITY",
