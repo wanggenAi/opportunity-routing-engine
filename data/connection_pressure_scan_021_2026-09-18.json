@@ -1,0 +1,130 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-SCAN-021-2026-09-18",
+  "observed_at": "2026-09-18",
+  "status": "TIME_TO_VALUE_GATE_SCAN",
+  "purpose": "Deepen ACCESS_THRESHOLD_COLLAPSE and LOCAL_CAPABILITY_FRONTIER with temporal evidence. Test whether a capability can be physically/economically available yet functionally unavailable because its lead time exceeds the actor's order, production, seasonal, regulatory, logistics or innovation window. This is not a generic expedited-service thesis and adds no new top-level ontology.",
+  "findings": [
+    {
+      "id": "XZ-FLOWMETER-LATENCY-062",
+      "state": "LOCALIZATION_REMOVED_ORDER_AND_DOWNTIME_LATENCY",
+      "evidence": [
+        "Jiangsu Benyou Machinery previously had to dismantle and send a large-bore liquid flowmeter to Nanjing or farther for verification.",
+        "The round trip took roughly half a month, stopped the production line and delayed orders.",
+        "After Xuzhou obtained full-range verification capability, technicians calibrated the meter on site without dismantling or stopping production."
+      ],
+      "interpretation": "The capability existed regionally before 2026 but was operationally too slow/costly for the production context. Local callable capability changed time-to-value, not merely geographic convenience.",
+      "source": "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202603/t20260316_8561864.shtml"
+    },
+    {
+      "id": "JS-URGENT-METROLOGY-WINDOW-063",
+      "state": "REAL_ORDER_WINDOW_SHORTER_THAN_NORMAL_SERVICE_LEAD_TIME",
+      "evidence": [
+        "Jiangsu Yokogawa received an urgent customer order requiring delivery within one week and needed traceability/verification for 165 electromagnetic flowmeters.",
+        "The metrology center reported a normal two-week workload window for the task but ran a 7x24 response and completed it within one week.",
+        "The same center says its normal green-channel mechanism compresses service time by more than 40% on average."
+      ],
+      "interpretation": "A mature technical service can still be economically unavailable when ordinary lead time exceeds the customer's delivery window. Priority capacity and scheduling can be part of the connection interface.",
+      "source": "https://scjgj.jiangsu.gov.cn/art/2026/3/10/art_70155_11740123.html"
+    },
+    {
+      "id": "JS-SEASONAL-APPROVAL-WINDOW-064",
+      "state": "REGULATORY_LATENCY_WOULD_HAVE_DESTROYED_REAL_ORDER_VALUE",
+      "evidence": [
+        "Jiangsu Huayue Biotech installed a RMB 30 million carbonated-drink line and then received a 50,000-unit customer order during the short summer demand window.",
+        "A July 29 inspection found some non-material conditions not yet compliant; the conventional rectify/review/reinspection route would take weeks.",
+        "A commitment-based conditional approval allowed licensing first with bounded follow-up rectification and reinspection; production began immediately, later customer quality verification passed, and the RMB 500,000 order shipped.",
+        "The enterprise estimated the mechanism recovered at least about half a month of time."
+      ],
+      "interpretation": "Where safety-critical conditions remain enforceable, separating material blockers from remediable non-material defects can preserve market-window value without eliminating accountability. This is evidence for temporal acceptance design, not a license-bypass thesis.",
+      "source": "https://zgjssw.jschina.com.cn/shixianchuanzhen/huaian/202609/t20260908_8592431.shtml"
+    },
+    {
+      "id": "XZ-MULTI-PERMIT-LOGISTICS-LATENCY-065",
+      "state": "CROSS_DEPARTMENT_LATENCY_COLLAPSED_FOR_REAL_OPERATION",
+      "evidence": [
+        "Jiangsu Ocean Shipping needed waterway-transport permission, vessel registration, inspection certificate and operating certificate to launch a Xuzhou-Nanjing green inland-container route.",
+        "A coordinated green channel completed the required business in three days rather than forcing repeated cross-department submissions."
+      ],
+      "interpretation": "The service actors already existed; the missing edge was synchronized timing across multiple acceptance interfaces. This is a temporal form of boundary orchestration.",
+      "source": "https://news.10jqka.com.cn/20260621/c677593773.shtml"
+    },
+    {
+      "id": "JS-IP-TIME-TO-PROTECTION-066",
+      "state": "INNOVATION_VALUE_DEPENDS_ON_RIGHTS_ARRIVING_WITHIN_COMMERCIAL_WINDOW",
+      "evidence": [
+        "A Jiangsu patent pre-examination case reports pre-review compressed from seven working days to two and authorization compressed from roughly 18-24 months to about two months.",
+        "The protected technology later achieved operational transfer/use."
+      ],
+      "interpretation": "For time-sensitive innovation, the right may eventually exist but arrive too late to protect or support commercialization. Faster verification/rights issuance can alter whether latent value becomes transactionable.",
+      "source": "https://www.taizhou.gov.cn/xwzx/bmdt/art/2026/art_3ba191d3253e4ba5b38614cfc62ff4c3.html"
+    },
+    {
+      "id": "XZ-TIME-TO-VALUE-GATE-067",
+      "state": "CROSS_DOMAIN_REPLICATION_SUPPORTED",
+      "evidence": [
+        "Production metrology, urgent order calibration, seasonal food licensing, multi-permit logistics and IP protection all show real value loss when required capability/evidence/permission arrives after the actor's useful window.",
+        "The successful remedies differ—localization, priority scheduling, conditional approval with later verification, cross-department orchestration and pre-examination—but all reduce latency while preserving a trusted acceptance condition."
+      ],
+      "interpretation": "Availability must be modeled as capability plus latency relative to the actor's value window. A service that exists but arrives after the decision/order/production window is functionally unavailable."
+    }
+  ],
+  "search_rules_refined": [
+    {
+      "name": "TIME_TO_VALUE_GATE",
+      "questions": [
+        "What is the actor's latest useful completion time?",
+        "What is the ordinary lead time of the required capability, verification, permission or delivery?",
+        "What economic value disappears if completion occurs after the window?",
+        "Is the delay caused by geography, queueing, handoffs, batch minimums, evidence review, scheduling, transport or regulation?",
+        "What existing workaround is used: escalation, green channel, local substitute, overtime, pre-review, conditional acceptance or excess inventory?",
+        "Can latency be reduced without weakening the decision-relevant safety/quality/rights gate?"
+      ],
+      "relationship_to_existing_doctrine": "Temporal deepening of ACCESS_THRESHOLD_COLLAPSE, LOCAL_CAPABILITY_FRONTIER, BOUNDARY_TRANSLATION and DECISION_TRANSITION_ACCEPTANCE; not a new top-level ontology."
+    },
+    {
+      "name": "FUNCTIONAL_AVAILABILITY",
+      "pattern": "capability exists + actor can theoretically access/pay + ordinary lead time exceeds value window -> capability is functionally unavailable for that event",
+      "boundary": "Do not infer a market edge merely because someone wants faster service. Require measurable value loss, repeated pressure, and a lawful way to reduce latency."
+    },
+    {
+      "name": "LATENCY_REDUCTION_WITHOUT_GATE_REMOVAL",
+      "questions": [
+        "Which checks are materially necessary before action?",
+        "Which checks can safely run in parallel?",
+        "Which non-material defects can be corrected after provisional action with enforceable follow-up?",
+        "Can verification move to the actor rather than the asset moving to verification?",
+        "Can capacity be pre-positioned or reserved for deadline-sensitive events?",
+        "Can evidence be prepared earlier so the critical path starts later?"
+      ],
+      "boundary": "Acceleration that removes necessary safety, quality, legal or acceptance controls is not a valid natural connection."
+    }
+  ],
+  "closures": [
+    "GENERIC_EXPEDITED_SERVICE_BUSINESS",
+    "GENERIC_GREEN_CHANNEL_CONSULTING",
+    "GENERIC_APPROVAL_BYPASS",
+    "GENERIC_FAST_PATENT_SERVICE"
+  ],
+  "next_scan_priority": [
+    "XUZHOU_PRIVATE_B2B_EVENTS_WHERE_ORDER_VALUE_EXPIRES_BEFORE STANDARD VERIFICATION_OR_SERVICE_COMPLETES",
+    "REPEATED QUEUE_OR_WAITING_COST_AFTER_EXISTING CAPABILITY IS KNOWN",
+    "CAPABILITIES THAT CAN MOVE TO THE ASSET/FACTORY INSTEAD OF MOVING THE ASSET",
+    "DEMAND WINDOWS WHERE RESERVED OR FLEX CAPACITY ALREADY APPEARS",
+    "POST_QUALITY_SYSTEM_RESIDUE AFTER SQE_CQE_8D_AUDIT_INFRASTRUCTURE",
+    "PRIVATE_B2B_FAILED_EXCHANGE_LEDGER"
+  ],
+  "field_state": {
+    "capability_proof_employer_probes_sent": 2,
+    "qualified_human_responses_last_checked": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "truth_boundaries": [
+    "CAPABILITY_EXISTS_NE_FUNCTIONALLY_AVAILABLE",
+    "FASTER_NE_MORE_VALUABLE_WITHOUT_A_REAL_TIME_WINDOW",
+    "GREEN_CHANNEL_EXISTS_NE_NEW_MARKET_EDGE",
+    "LATENCY_REDUCTION_NE_PERMISSION_TO_REMOVE_SAFETY_OR_QUALITY_GATES",
+    "ONE_URGENT_EVENT_NE_REPEATABLE_DEMAND",
+    "NO_NEW_FORMATION_WITHOUT_REPEATED_TIME_COST_PLUS_PARTIAL_FLOW_OR_COMMITMENT",
+    "FIRST_EXTERNAL_VALUE_FLOW_STILL_NOT_PROVEN"
+  ]
+}
