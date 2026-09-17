@@ -9,27 +9,42 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
     def _read(self, relative_path: str) -> str:
         return (ROOT / relative_path).read_text(encoding="utf-8")
 
-    def test_latent_value_doctrine_is_constitutional_and_formation_first(self):
+    def test_latent_value_doctrine_is_constitutional_and_connection_discovery_first(self):
         doctrine = self._read("docs/LATENT_VALUE_DOCTRINE.md")
         self.assertIn("CONSTITUTIONAL / LOCKED", doctrine)
         self.assertIn("The system does not begin with supply and demand", doctrine)
         self.assertIn("Commercial value does not have to pre-exist the discovery", doctrine)
         self.assertIn("RESOURCE–PSYCHOLOGY DISEQUILIBRIUM", doctrine)
         self.assertIn("UNMET / UNFORMED OUTCOME", doctrine)
-        self.assertIn("COUNTERFACTUAL EXCHANGE DESIGN", doctrine)
-        self.assertIn("DEMAND DISCOVERY != LATENT VALUE FORMATION", doctrine)
-        self.assertIn("OBJECTIVE RESOURCE EXISTS != COMMERCIAL VALUE EXISTS", doctrine)
+        self.assertIn("CONNECTION-PRESSURE EVIDENCE", doctrine)
+        self.assertIn("LATENT CONNECTION HYPOTHESIS", doctrine)
+        self.assertIn("Counterfactual Exchange Design is downstream", doctrine)
+        self.assertIn("CONNECTION INVENTION != CONNECTION DISCOVERY", doctrine)
+        self.assertIn("COMPLEMENTARITY != LATENT CONNECTION", doctrine)
         self.assertIn("UNKNOWN != PASS", doctrine)
 
-    def test_formation_principle_is_constitutional_and_upstream_of_demand(self):
+    def test_latent_connection_discovery_principle_is_constitutional(self):
+        principle = self._read("docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md")
+        self.assertIn("CONSTITUTIONAL / LOCKED", principle)
+        self.assertIn("Discover latent connections that reality is already trying to form", principle)
+        self.assertIn("CONNECTION INVENTION", principle)
+        self.assertIn("CONNECTION DISCOVERY", principle)
+        self.assertIn("CONNECTION_PRESSURE", principle)
+        self.assertIn("HUMAN OUTREACH != PRIMARY DISCOVERY SENSOR", principle)
+        self.assertIn("The goal is not to prohibit invention", principle)
+        self.assertIn("现实已经踩出来的小径", principle)
+
+    def test_formation_principle_requires_connection_pressure_before_validation(self):
         formation = self._read("docs/LATENT_VALUE_FORMATION_BRIDGE.md")
         self.assertIn("CONSTITUTIONAL DISCOVERY PRINCIPLE / LOCKED", formation)
         self.assertIn("DEMAND DISCOVERY != LATENT VALUE FORMATION", formation)
         self.assertIn("RESOURCE–PSYCHOLOGY DISEQUILIBRIUM", formation)
         self.assertIn("UNMET / UNFORMED OUTCOME HYPOTHESIS", formation)
-        self.assertIn("COUNTERFACTUAL EXCHANGE DESIGN", formation)
-        self.assertIn("ONLY IF REALITY SUPPORTS IT: NEW COMMERCIAL STRUCTURE", formation)
-        self.assertIn("PSYCHOLOGY HYPOTHESIS != DEMAND", formation)
+        self.assertIn("CONNECTION-PRESSURE EVIDENCE", formation)
+        self.assertIn("LATENT CONNECTION HYPOTHESIS", formation)
+        self.assertIn("Latent Connection Discovery precedes Counterfactual Exchange Mechanics", formation)
+        self.assertIn("COMPLEMENTARITY != LATENT_CONNECTION", formation)
+        self.assertIn("HUMAN OUTREACH != PRIMARY DISCOVERY SENSOR", formation)
         self.assertIn("WILLINGNESS TO PAY != TRANSACTION", formation)
 
     def test_agents_makes_formation_doctrine_binding_for_future_changes(self):
@@ -41,15 +56,15 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("A procurement feed is one sensor, not the business model", agents)
         self.assertIn("NeedSignal`, `ResourceSignal` and `BlockerSignal` are downstream", agents)
         self.assertIn("RESOURCE–PSYCHOLOGY DISEQUILIBRIUM", agents)
-        self.assertIn("Counterfactual Exchange Design rule", agents)
 
-    def test_formal_truth_preserves_formation_and_fail_closed_promotion(self):
+    def test_formal_truth_preserves_connection_discovery_and_fail_closed_promotion(self):
         truth = self._read("docs/FORMAL_TRUTH.md")
         self.assertIn("Actor-First Regenerative Latent-Value Formation & Orchestration Engine", truth)
         self.assertIn("infer boldly and promote conservatively", truth)
         self.assertIn("Objective Resource Exists != Commercial Value Exists", truth)
         self.assertIn("Psychology Hypothesis != Demand", truth)
-        self.assertIn("Counterfactual Exchange != Accepted Exchange", truth)
+        self.assertIn("Connection Invention != Connection Discovery", truth)
+        self.assertIn("Connection Hypothesis != Connection Pressure Evidence", truth)
         self.assertIn("Need / Resource / Blocker` is the current fail-closed evidence gate", truth)
         self.assertIn("Code must remain downstream of cognition and architecture", truth)
 
@@ -59,7 +74,6 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("Demand does not have to exist first", readme)
         self.assertIn("RESOURCE–PSYCHOLOGY DISEQUILIBRIUM", readme)
         self.assertIn("UNMET / UNFORMED OUTCOME HYPOTHESIS", readme)
-        self.assertIn("COUNTERFACTUAL EXCHANGE DESIGN", readme)
         self.assertIn("Resource Imbalance Engine — downstream truth gate", readme)
 
     def test_psychology_is_causal_formation_input_not_pain_point_mining(self):
