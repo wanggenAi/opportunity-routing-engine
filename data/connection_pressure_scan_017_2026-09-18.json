@@ -1,0 +1,101 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-SCAN-017-2026-09-18",
+  "observed_at": "2026-09-18",
+  "status": "EVIDENCE_ACCEPTANCE_GAP_EVENT_SCAN",
+  "purpose": "Deepen VERIFIABILITY_TRANSFORMATION and BOUNDARY_TRANSLATION using real Xuzhou enterprise requests where some evidence already exists but the receiving authority/counterparty still cannot act on it. Do not infer a consulting market from unresolved requests.",
+  "findings": [
+    {
+      "id": "XZ-POWER-THIRD_PARTY_REPORT-NOT-ACTIONABLE-054",
+      "state": "REAL_ENTERPRISE_EVENT_ACCEPTANCE_GAP_UNRESOLVED",
+      "evidence": [
+        "A Xuzhou enterprise reported a power outage after the utility attributed a grid impact to enterprise electrical equipment and required professional inspection before restoration.",
+        "The enterprise used a third-party inspection organization and no fault point was found, yet the utility still had not restored power at the time of the published request."
+      ],
+      "interpretation": "The business did obtain a technical verification artifact, but that artifact did not yet satisfy the decision-owner's acceptance condition. This is not proof that more inspection supply is missing.",
+      "unknown": "The public request stream does not expose the final resolution or which evidence/standard/coordination step ultimately unlocked restoration.",
+      "source": "https://xzsme.js.cn/"
+    },
+    {
+      "id": "XZ-IMPORTED-PRESSURE-VESSEL-EVIDENCE-MISMATCH-055",
+      "state": "REAL_STANDARD_ACCEPTANCE_GAP",
+      "evidence": [
+        "A Xuzhou enterprise reported six imported pressure vessels that could not be registered because the available factory inspection certificates did not meet domestic safety-technical-specification requirements."
+      ],
+      "interpretation": "Evidence existed, but provenance/content/standard compatibility was insufficient for the receiving regulatory workflow. The missing element is accepted evidence, not the mere existence of a certificate.",
+      "unknown": "The final remediation path is not publicly exposed in the request stream.",
+      "source": "https://xzsme.js.cn/"
+    },
+    {
+      "id": "XZ-OUTBOUND-INVESTMENT-FILING-BANK-EVIDENCE-MISMATCH-056",
+      "state": "REAL_CROSS_ORGANIZATION_REPRESENTATION_MISMATCH",
+      "evidence": [
+        "A Xuzhou enterprise reported that a bank would not execute an overseas-project funds remittance because the filed/verified record did not reflect the in-kind-investment structure actually involved.",
+        "The enterprise sought to change the in-kind portion to monetary funds because the representation mismatch blocked the transaction."
+      ],
+      "interpretation": "The connection was blocked by inconsistent state representation across enterprise filing, regulatory record and bank execution logic—not by absence of capital or bank transfer capability.",
+      "source": "https://xzsme.js.cn/"
+    },
+    {
+      "id": "JS-FORMAL-EVIDENCE-ACCEPTANCE-SCHEMA-057",
+      "state": "RULE_SYSTEM_CONFIRMS_ACCEPTANCE_IS_STRUCTURED",
+      "evidence": [
+        "The Jiangsu Inspection and Testing Regulation requires reports to identify sample acquisition, test basis, data/results, authorized signer, institution seal and applicable qualification marks, and regulates subcontracting/record retention.",
+        "2025 national supervision results published in 2026 found reports that were false/untrue, outside recognized capability scope, used expired qualification, lacked proper signatures/seals, or violated required methods/data handling.",
+        "The 2026 national one-list/one-database rule limits when CMA qualification marks can be used and explicitly distinguishes tests that may be technically performed from reports that carry formal qualification effect."
+      ],
+      "interpretation": "Evidence acceptance is not binary evidence/no-evidence. Provenance, scope, method, identity, qualification, standard and responsibility chain determine whether an artifact can enter the receiver's decision process.",
+      "sources": [
+        "https://www.jsrd.gov.cn/qwfb/sjfg/202510/t20251015_1221350.shtml",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/rkjcs/art/2026/art_3fb4543dd46e481fab1098f6aaca5e9f.html",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/rkjcs/art/2026/art_ea608a4306a34b8bb1f3c548a91cffa8.html"
+      ]
+    }
+  ],
+  "search_rules_refined": [
+    {
+      "name": "EVIDENCE_ACCEPTANCE_GAP",
+      "pattern": "evidence exists + receiving decision owner still cannot rely/act -> inspect acceptance schema before hypothesizing more supply",
+      "questions": [
+        "Who is the actual decision owner that must accept the evidence?",
+        "What exact standard, scope, provenance, identity, qualification or format makes evidence admissible/actionable to that actor?",
+        "Was the evidence produced by an actor recognized for this exact decision purpose?",
+        "Does the receiving actor require a different test basis, authorized signer, chain of custody, account/filing state or regulatory mapping?",
+        "What was the last accepted artifact in a successful comparable case?"
+      ],
+      "relationship_to_existing_doctrine": "Deepening of VERIFIABILITY_TRANSFORMATION and BOUNDARY_TRANSLATION; not a new top-level ontology."
+    },
+    {
+      "name": "VERIFICATION_NE_ACCEPTANCE",
+      "pattern": "technically plausible result/certificate/report != receiver-recognized decision evidence"
+    },
+    {
+      "name": "CROSS_SYSTEM_STATE_CONSISTENCY",
+      "pattern": "enterprise reality + regulator filing + bank/platform/utility decision state must describe the same transaction/resource in mutually compatible terms before the flow can continue"
+    }
+  ],
+  "do_not_infer": [
+    "MORE_INSPECTION_SUPPLY_FROM_ONE_REJECTED_REPORT",
+    "REGULATORY_CONSULTING_MARKET_FROM_ONE_DOCUMENT_MISMATCH",
+    "GENERIC_EVIDENCE_TRANSLATION_SERVICE_WITHOUT_REPEAT_ACTOR_COST",
+    "ACCEPTANCE_GAP_RESOLVED_WITHOUT_PUBLIC_RESOLUTION_EVIDENCE"
+  ],
+  "field_state": {
+    "capability_proof_employer_probes_sent": 2,
+    "qualified_human_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "next_scan_priority": [
+    "REPEATED_XUZHOU_EVENTS_WHERE_EXISTING_EVIDENCE_FAILS_RECEIVER_ACCEPTANCE",
+    "FINAL_ACCEPTED_ARTIFACT_OR_REMEDIATION_PATH_FOR_A_REAL_EVENT",
+    "CURRENT_FORCED_EXTERNAL_ROUTING_LEDGER",
+    "LOW_PERMISSION_WORKFLOW_WHERE_ACCEPTANCE_SCHEMA_CAN_BE_MADE_LEGIBLE_WITHOUT_REGULATORY_INTERMEDIATION"
+  ],
+  "truth_boundaries": [
+    "EVIDENCE_EXISTS_NE_ACCEPTED_EVIDENCE",
+    "TECHNICAL_VALIDITY_NE_REGULATORY_OR_COUNTERPARTY_ADMISSIBILITY",
+    "THIRD_PARTY_REPORT_NE_DECISION_OWNER_ACCEPTANCE",
+    "DOCUMENT_MISMATCH_NE_NEW_MARKET_EDGE",
+    "UNRESOLVED_REQUEST_NE_RESOLUTION_PATH",
+    "FIRST_EXTERNAL_VALUE_FLOW_STILL_NOT_PROVEN"
+  ]
+}
