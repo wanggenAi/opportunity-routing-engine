@@ -135,6 +135,57 @@ It is evidence that `RIGHTS_BUNDLE_COMPLETENESS` also has a time dimension.
 
 A right that becomes usable after the commercial window can have much lower practical value.
 
+## 6. When repair cannot be faster, reality may bypass latency with substitute capacity
+
+A second temporal repair pattern appears in maintenance systems.
+
+Xuzhou Kangpujie Compressor publicly advertises 7×24 support and a free backup machine if a fault lasts more than 72 hours. Current Jiangsu equipment and IT maintenance requirements show the same logic in unrelated contexts: when repair cannot restore the original device inside the allowed continuity window, the provider supplies a temporary or equivalent backup device so operations can continue.
+
+Sources:
+- https://www.kangpujie.com/
+- https://www.chinamae.com/purchases/405e354fd8b09c49286cf4806d5cd9f0.html
+- https://www.anfangzhaobiao.com/news-484d076958933044aff220d1a3490a5c/
+- https://jiangsu.jianyu360.cn/jybx/20260714_26071369319467.html
+
+The mechanism is different from acceleration:
+
+~~~text
+ORIGINAL ASSET FAILS
++
+RESTORATION LEAD TIME > CONTINUITY WINDOW
++
+SUBSTITUTABLE POOLED ASSET EXISTS
+↓
+TEMPORARY SUBSTITUTE PRESERVES FUNCTION
+WHILE ORIGINAL RECOVERY CONTINUES
+~~~
+
+This links `TIME_TO_VALUE_GATE` with existing shared-capability logic, but it is **not** permission to invent a backup-machine marketplace. Mature maintenance systems often bundle this function already.
+
+The useful residual is narrower:
+
+> a critical workflow repeatedly loses value because restoration is too slow **and** no compatible temporary substitute can be called inside the continuity window.
+
+### LATENCY_BYPASS_BUFFER
+
+Ask:
+- what exact function must stay alive?
+- how much downtime is tolerable?
+- is a substitute technically interchangeable?
+- who already holds spare or idle capacity?
+- how quickly can it be dispatched and installed?
+- what calibration, safety, data, warranty or liability constraints block substitution?
+- is the event recurrent enough for pooling to make economic sense?
+
+Hard boundary:
+
+~~~text
+BACKUP_ASSET_EXISTS
+!=
+UNSERVED_SUBSTITUTE_CAPACITY_MARKET
+~~~
+
+
 # TIME_TO_VALUE_GATE
 
 For every candidate connection ask:
@@ -205,13 +256,15 @@ Closed as generic whitespace:
 - expedited-service marketplace;
 - green-channel consulting;
 - approval bypass;
-- fast-patent service.
+- fast-patent service;
+- generic backup-machine / loaner marketplace.
 
 High-information residues retained:
 - private B2B orders that expire before standard verification/service completes;
 - recurring queue/waiting cost despite known existing capability;
 - assets that still travel long distance to specialist capability when capability could potentially travel;
 - demand windows where reserved/flexible capacity is already forming;
+- critical workflows where restoration latency exceeds the continuity window and no callable substitute pool exists;
 - post-quality-system residue after SQE/CQE/8D/audit infrastructure;
 - private B2B failed-exchange evidence.
 
