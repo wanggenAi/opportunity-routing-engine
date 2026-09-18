@@ -9,6 +9,7 @@ Canonical foundations, in precedence order:
 - `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`
 - `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
 - `docs/ACCESS_FEASIBILITY_GATE.md`
+- `docs/OPPORTUNITY_MOBILIZATION_GATE.md`
 - `docs/RESOURCE_ACTIVATION_THESIS.md`
 - `docs/DATA_SOURCE_REGISTRY.md`
 - `docs/DISCOVERY_ENGINE.md`
@@ -655,6 +656,77 @@ LOCAL FIELD PRIOR != UNIVERSAL FACT
 ```
 
 The engine must prefer opportunities where access gaps can be bridged transparently through real backing, trusted introductions, authorized roles, already-committed complementary actors or directly legible economics rather than deceptive status claims, PPT persuasion or permanent founder hustling.
+
+## 13B. Mobilization potential — LOCKED
+
+Reality validity, reachability and mobilization are separate axes.
+
+```text
+REALITY VALIDITY != MOBILIZATION POTENTIAL
+MOBILIZATION POTENTIAL != MARKET VALIDATION
+MARKET VALIDATION != REPEATABLE BUSINESS
+```
+
+After connection pressure and a narrow observed missing edge are established, the current-stage system must prefer routes where both sides already show observable motion toward exchange.
+
+The required commercial shape is:
+
+```text
+STRONG DEMAND PULL
++
+HUNGRY / IDLE SUPPLY
++
+ABUNDANT CALLABLE RESOURCE
++
+EXISTING PARTIAL FLOW
++
+NARROW MISSING EDGE
++
+REACHABILITY A/B
++
+LOW ACTIVATION COST
++
+CLEAR MONEY FLOW
++
+REPEATABILITY
++
+SELF-PROPULSION
++
+ROUTER CAN EXIT THE RECURRING LOOP
+```
+
+The canonical evaluation dimensions are:
+- demand urgency;
+- supply hunger;
+- resource abundance;
+- activation ease;
+- value capture;
+- repeatability;
+- self-propulsion;
+- operator exit.
+
+Every non-zero mobilization claim requires attributable evidence. Market size, founder enthusiasm, theoretical complementarity and the founder's willingness to personally hustle cannot substitute for observed actor behavior.
+
+For every retained candidate the scan must also produce a **Rooter execution map** that states:
+- the demand actor and what it is already doing;
+- the supply/resource actor and what it is already doing;
+- the observed partial flow;
+- the exact missing edge;
+- the smallest routable task unit;
+- who actually executes;
+- acceptance evidence;
+- payer and money flow;
+- the operator's control-plane role;
+- recurring work the operator must not personally perform;
+- the path by which the operator exits recurring acquisition/delivery.
+
+Current-stage founder attention should be concentrated on candidates that are both Reachability A/B and Mobilization HIGH.
+
+A real but low-mobilization candidate may remain observed without becoming a founder action item.
+
+The governing shorthand is:
+
+> **两边都已经很想动，中间只缺一座桥；根哥搭桥，不背人过河。**
 
 ## 14. Evidence maturity — LOCKED
 
