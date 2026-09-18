@@ -1,0 +1,103 @@
+{
+  "scan_id": "OPPORTUNITY_MOBILIZATION_SCAN_013",
+  "date": "2026-09-18",
+  "title": "Cross-service handoff / responsibility kill sweep",
+  "purpose": "Test whether already-existing adjacent services leave a neutral handoff gap in responsibility, evidence, access, scheduling or acceptance, without turning Rooter into a project manager/general contractor.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "scan_rule": [
+    "HANDOFF PAIN != OPEN ROUTING GAP",
+    "MULTI-PARTY COMPLEXITY != PROJECT-MANAGEMENT OPPORTUNITY",
+    "If buyers solve the handoff by assigning end-to-end responsibility to one prime contractor, no neutral orchestration residual is proven.",
+    "If the vertical provider itself expands into pickup, transport, install, commissioning, acceptance and after-sales, the handoff is already absorbed."
+  ],
+  "patterns_tested": [
+    {
+      "pattern": "industrial automation supply -> integration -> commissioning -> final acceptance",
+      "observed_pressure": "Hardware, cabinet integration, field wiring, system tuning, documentation, training and acceptance must line up; a handoff failure can delay production.",
+      "incumbent_evidence": [
+        "Current Jiangsu procurement terms assign equipment supply, cabinet integration, field assembly/wiring, commissioning and final acceptance to one contractor.",
+        "Contract terms tie most payment to final acceptance and retain warranty money, making the prime contractor accountable for the complete outcome."
+      ],
+      "judgment": "CLOSED_PRIME_CONTRACTOR_ROUTE",
+      "source": "https://www.yfbzb.com/winbid/detail/20260909_629555024.html"
+    },
+    {
+      "pattern": "audio/system equipment removal -> wiring -> installation -> integration -> test acceptance",
+      "observed_pressure": "Old-equipment removal, civil work, cabling, multi-system integration, acoustic tuning and third-party testing cross multiple specialties.",
+      "incumbent_evidence": [
+        "Current procurement assigns all removal, cabling, installation, system integration and test-report obligations to the supplier.",
+        "If third-party acceptance fails, the supplier must rework at its own cost until compliant."
+      ],
+      "judgment": "CLOSED_CONTRACTUAL_RESPONSIBILITY_ROUTE",
+      "source": "https://www.yfbzb.com/inviteBid/detail/20260902_627412085.html"
+    },
+    {
+      "pattern": "precision-equipment / factory relocation handoff",
+      "observed_pressure": "Survey, dismantling, protection, lifting, transport, positioning, installation and recommissioning must preserve equipment condition and schedule.",
+      "incumbent_evidence": [
+        "Jiangsu relocation providers already sell turnkey workflows from site survey through dismantling, transport, positioning, installation and commissioning.",
+        "The stated value proposition is explicitly to remove multi-vendor coordination and handoff risk."
+      ],
+      "judgment": "CLOSED_TURNKEY_SERVICE_ROUTE",
+      "sources": [
+        "https://www.dcjmby.com/",
+        "https://szhuachuan.com/ser.asp?prosmallkind=189",
+        "https://www.szhuachuan.com/"
+      ]
+    },
+    {
+      "pattern": "calibration / instrument lifecycle handoff",
+      "observed_pressure": "Asset ledger, calibration, pickup/delivery, repair, subcontracted capability, expedited handling and return-to-service can otherwise span several vendors.",
+      "incumbent_evidence": [
+        "Current calibration providers already bundle asset-ledger management, on-site calibration, pickup/delivery, maintenance/repair, subcontracting and expedited service.",
+        "Local Jiangsu calibration providers also sell calibration + maintenance + repair + training as one technical-service route."
+      ],
+      "judgment": "CLOSED_VERTICAL_FULL_LIFECYCLE_ROUTE",
+      "sources": [
+        "https://www.sgsonline.com.cn/sku/product/111",
+        "https://huayitesting.com/index.html"
+      ]
+    },
+    {
+      "pattern": "equipment delivery -> installation -> trial run -> training -> maintenance",
+      "observed_pressure": "Mechanical/electrical installation, process setup, operator readiness and acceptance must all complete before production.",
+      "incumbent_evidence": [
+        "Current Jiangsu equipment suppliers commonly provide installation, commissioning, trial operation, training, maintenance and parts support.",
+        "Some service providers explicitly advertise transport, installation, testing, repair and lifecycle support for any brand/specification."
+      ],
+      "judgment": "CLOSED_OEM_FULL_LIFECYCLE_ROUTE",
+      "sources": [
+        "https://lavomech.com/",
+        "https://www.beiren-tech.com/zhsyb/",
+        "https://powerkeeper.cn/service/byq",
+        "https://www.js-longxu.com/index.php?a=lists&c=index&catid=30&m=content"
+      ]
+    }
+  ],
+  "cross_industry_result": {
+    "observed_market_response": [
+      "When handoff risk is economically meaningful, buyers often collapse responsibility into a prime contractor.",
+      "Vertical service providers expand their scope to include adjacent pickup/transport/install/commissioning/acceptance/after-sales steps.",
+      "Payment and warranty structures make the accountable provider own final acceptance rather than leave a neutral interface unmanaged."
+    ],
+    "named_post_incumbent_handoff_loss": "NOT_BOUND",
+    "rooter_risk": "A neutral layer inserted between existing providers would tend to inherit scheduling, scope, responsibility and acceptance management, becoming a project manager/general contractor rather than an exit-able routing control plane."
+  },
+  "scan_conclusion": {
+    "retained_candidates": [],
+    "retained_count": 0,
+    "new_p0_promotions": 0,
+    "human_action_required_now": false,
+    "first_external_value_flow": "NOT_PROVEN",
+    "material_learning": [
+      "Real handoff pain often causes responsibility consolidation rather than creation of a neutral intermediary.",
+      "A generic coordination layer has weak value when one prime contractor or vertical provider can own end-to-end acceptance.",
+      "A candidate must therefore show a repeated residual after prime-contracting/full-lifecycle service is considered, not merely multi-party complexity."
+    ],
+    "current_best_next_truth": "Fresh Scan 014 should return to broader Xuzhou/Jiangsu reality changes and observed economic behavior, but preserve all accumulated kill rules. Search for a current repeated flow where both sides already act and no incumbent vertical can simply absorb the missing edge by expanding scope. Do not start from another generic service, trust, substitution, liquidation or project-coordination category."
+  }
+}
