@@ -1,0 +1,131 @@
+{
+  "evidence_packet_id": "RCL_003A_MOBILIZATION_RECHECK_001",
+  "date": "2026-09-18",
+  "candidate_id": "RCL-003A-GUOJI-ATOMIC-CLUSTER-POWDER",
+  "purpose": "Recheck the concrete resource-first watch under the current Bilateral Pull, Mobilization, Reachability and cheap-decisive-validation rules. Do not turn measured material novelty into invented demand.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "resource_side": {
+    "actor": "徐州国基原子制造有限公司",
+    "truth": [
+      "The company publicly has special-metal atomic-cluster powder and explicitly states that downstream application is still unresolved.",
+      "Nanjing University reports hundred-gram-scale W and Ni cluster powders.",
+      "A W-Ni-Fe powder-metallurgy sheet using the cluster-powder route showed nearly 20% higher tensile strength in published research.",
+      "Published research also reports an atomic-scale Ni powder route that lowers a representative engine-casing repair process temperature from about 1200 C to below 1000 C."
+    ],
+    "pull": "STRONG_SUPPLY_SIDE_APPLICATION_SEARCH",
+    "current_behavior": "The resource owner is actively seeking downstream application partners through public expert/technology-transfer mechanisms."
+  },
+  "demand_side_recheck": {
+    "named_paid_buyer_for_guoji_property": "NOT_FOUND",
+    "observed_exact_demand_pull": "NO",
+    "adjacent_real_pains": [
+      {
+        "problem": "Large high-density tungsten-alloy billets can suffer poor core mechanical properties under traditional sintering.",
+        "counterevidence": "A named Chinese producer publicly reports solving the problem through a multi-step sintering process, with core elongation improving from about 2% to about 20% and tensile strength above 900 MPa.",
+        "meaning": "The pain is real, but it does not prove buyers are pulling for Guoji atomic-cluster powder; an incumbent process route already solves a closely related problem."
+      },
+      {
+        "problem": "Aero-engine ring/casing repair has real melt-pool, residual-stress and temperature-field control problems.",
+        "counterevidence": "Current aviation-engine technology-cooperation routes already commission specialist research for repair-process control. No public evidence binds Guoji Ni cluster powder as the missing material for a named buyer.",
+        "meaning": "Adjacent repair pressure is real but property-to-task compatibility remains an inference."
+      },
+      {
+        "problem": "Jiangsu aviation deep-maintenance actors report high-temperature repair, deformation and welding-quality challenges.",
+        "counterevidence": "These are high-permission certified repair contexts with existing specialist process-development channels.",
+        "meaning": "The task is not a cheap low-permission reality test."
+      }
+    ],
+    "boundary": "ADJACENT_INDUSTRIAL_PAIN != BUYER_PULL_FOR_THIS_RESOURCE"
+  },
+  "existing_connection_routes": [
+    {
+      "route": "江苏省科技专家进企业 / 江苏技术产权交易市场",
+      "fact": "Guoji's application-search problem is already explicitly carried through government/expert technology-transfer matching. Public reporting says it is seeking downstream application-development partners.",
+      "implication": "The generic bridge 'new material owner needs application partners' already has an orchestrator."
+    },
+    {
+      "route": "科创中国科技创新创效行动",
+      "fact": "Current cooperation-demand pages explicitly seek market/application partners and technology resources for atomic-cluster equipment/nanomaterials.",
+      "implication": "Generic technology-to-application matching is not an unserved Rooter route."
+    },
+    {
+      "route": "原子级制造创新发展联盟 / industry conferences",
+      "fact": "Current industry events include application competitions, IP/financing connection and upstream/downstream collaboration.",
+      "implication": "The resource is already inside an organized application-transfer ecosystem."
+    }
+  ],
+  "contradiction_preserved": {
+    "official_or_high_authority_side": "2026 Jiangsu technology-transfer reporting quotes Guoji saying how to apply the new material is still a blank and it is seeking downstream partners.",
+    "lower_authority_marketing_side": "A testing-instrument vendor marketing article says Guoji powder is widely used in batteries, aerospace coatings and semiconductor devices.",
+    "treatment": "Do not average the claims. Treat the vendor article as unverified marketing evidence and retain the official application-blank statement as the stronger current truth until direct commercial applications are independently evidenced."
+  },
+  "mobilization_recheck": {
+    "demand_urgency": 0,
+    "supply_hunger": 3,
+    "resource_abundance": 1,
+    "activation_ease": 1,
+    "value_capture": 1,
+    "repeatability": 1,
+    "self_propulsion": 0,
+    "operator_exit": 2,
+    "grade": "LOW / FAIL_CLOSED",
+    "bilateral_pull": "FAIL",
+    "reason": "Supply-side application search is explicit, but no named demand actor is observed actively paying cost and seeking this exact material capability. The route would require Rooter to invent applications and persuade buyers one by one."
+  },
+  "validation_friction": {
+    "w_ni_fe_coupon_test": "Technically possible at laboratory scale, but no named buyer task or paid limit is bound, so a coupon test would be solution-first experimentation rather than a decisive commercial test.",
+    "aero_engine_repair": "HIGH_PERMISSION / HIGH_VALIDATION",
+    "regulatory_evidence": "Civil aviation rules require approved design/material/process evidence and repair-scheme controls for relevant changes; engine material/process verification can require extensive compliance evidence.",
+    "current_stage_fit": "POOR"
+  },
+  "rooter_execution_map_recheck": {
+    "demand_actor": "NOT_BOUND",
+    "supply_actor": "徐州国基原子制造有限公司",
+    "partial_flow": "resource owner -> expert/technology-transfer ecosystem -> potential application partners",
+    "observed_missing_edge": "NO",
+    "minimum_task_unit": "not commercially defined because no named buyer task exists",
+    "executor": "would require materials/process R&D teams and qualified downstream validation actors",
+    "acceptance": "would depend on task-specific materials/process qualification",
+    "payer": "NOT_BOUND",
+    "money_flow": "NOT_BOUND",
+    "operator_role_if_attempted": "application scouting + technical hypothesis generation + partner recruitment",
+    "operator_non_role_violation": "This would make Rooter the permanent application-search/R&D business-development labor rather than a routing control plane over an already-forming bilateral flow.",
+    "bypass_risk": "HIGH once a material owner and application partner are introduced",
+    "operator_exit": "WEAK_UNTIL_REPEATABLE_APPLICATION_CLASS_EXISTS"
+  },
+  "decisive_result": {
+    "judgment": "DEPRIORITIZE_CURRENT_PRIORITY / SINGLE_SIDED_APPLICATION_SEARCH / EXISTING_TECH_TRANSFER_ROUTE / HIGH_VALIDATION_FRICTION / TECHNOLOGY_SENSOR_ONLY",
+    "why_not_close_resource_truth": "The resource and measured properties remain real and may become commercially important.",
+    "why_close_current_opportunity_priority": "The current project seeks self-propelled bilateral flow with a narrow missing edge. RCL-003A currently has supply-side application hunger but no observed demand-side pull, no payer, no money flow, no observed missing edge after existing technology-transfer routes, and expensive qualification in the closest high-value tasks."
+  },
+  "human_probe": {
+    "released": false,
+    "reason": "Calling Guoji or downstream manufacturers now would ask humans to help discover an application. That violates the rule that human validation is the last surgical confirmation after public evidence has already narrowed a bilateral residual."
+  },
+  "portfolio_effect": {
+    "rcl_001": "DEPRIORITIZED_BY_MOBILIZATION_GATE / existing probes still 0 qualified replies",
+    "rcl_002": "SECONDARY / PUBLIC_EVIDENCE_NOT_ADVANCING",
+    "rcl_003a": "TECHNOLOGY_SENSOR_ONLY / NOT_CURRENT_PRIORITY",
+    "rcl_004": "HIGH_PERMISSION / NOT_P0",
+    "rcl_005": "CLOSED_GENERIC_ROUTE",
+    "rcl_006": "OBSERVE_ONLY / NAMED_BUYER_COST_MISSING",
+    "active_current_priority_candidate": "NONE"
+  },
+  "next_action": "Existing residual portfolio no longer contains a current HIGH-Mobilization, high-reachability route with an observed missing edge. Resume a fresh opportunity scan under the locked Mobilization doctrine, prioritizing Xuzhou/Jiangsu bilateral pull and minimum-service-unit mismatch. Do not reopen closed or downgraded patterns.",
+  "sources": [
+    "https://ksaq.jstec.com.cn/news/202618328051021864",
+    "https://www.nju.edu.cn/info/1056/474691.htm",
+    "https://www.nju.edu.cn/info/1056/409491.htm",
+    "https://finance.sina.com.cn/enterprise/central/2026-03-26/doc-inhsicus0268793.shtml",
+    "https://ast.aecc.cn/420/gsyw/jshzxq/index.html",
+    "https://news.2500sz.com/doc/2025/04/28/1147967.shtml",
+    "https://xxgk.mot.gov.cn/jigou/fgs/202403/t20240311_4051654.html",
+    "https://www.caac.gov.cn/HDJL/YJZJ/202208/P020220808402682481607.pdf",
+    "https://kczg.zgclmlhh.org.cn/r/applyneed/detail?applyneedid=4457953220689395712",
+    "https://www.zidonghua.com.cn/news/exhibition/143421.html"
+  ]
+}
