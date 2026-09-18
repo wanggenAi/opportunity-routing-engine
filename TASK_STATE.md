@@ -3,76 +3,68 @@
 Operational handoff only. GitHub live state wins if anything below conflicts with repository facts.
 
 ## Current Mission
-`FIRST_EXTERNAL_VALUE_FLOW` remains the commercial mission. Durable ChatGPT/web-session recovery is now installed so future work resumes from repository truth rather than chat history.
+`FIRST_EXTERNAL_VALUE_FLOW` remains the commercial mission. Durable ChatGPT/web-session recovery is installed; resume from GitHub truth, not chat history.
 
 ## Goal
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify the active route and preserve the evidence without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Do not scan new opportunity categories. Resolve the existing decisive truth around `OMS-016-XUZHOU-EMERGENCY-HYDRAULIC-HOSE-RESTORATION`: bind one recent Xuzhou hose-failure workaround/time/cost and determine whether local hose nodes already provide dependable fast mobile fabrication/installation. Kill the route if existing response is already low-friction.
+Do not scan new opportunity categories. `OMS-016-XUZHOU-EMERGENCY-HYDRAULIC-HOSE-RESTORATION` is now closed for current priority because no observed post-incumbent missing edge or non-bypassable orchestration value was established. Resume the already-persisted `OMS-006-AI-BUILT-APP-PRODUCTION-READINESS-MICROREVIEW` only at its existing decisive truth: China payer evidence + recurring non-founder demand pump.
 
 ## Current Phase
-`RECOVERY_PROTOCOL_COMPLETE / BUSINESS_RESEARCH_READY_TO_RESUME`
+`OMS_016_CLOSED / OMS_006_PUBLIC_RESEARCH_RESUMED`
 
 ## Last Verified Main
-`7520ab0385ec57f82cd27740576897fbe00aa711` — PR #206 recovery implementation merged after CI #574 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
+`b1f8d5b7b377bde1540b840a9bae8a52cff2a38b` — live main observed before the OMS-016 closure branch was created. PR #206 recovery implementation had already merged and the final recovery checkpoint was present.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-None.
+`field/oms-016-decisive-truth-001`
 
 ## Active PR
-None. PR #206 — `Add durable ChatGPT task recovery checkpoints` — merged.
+Not yet opened at this checkpoint.
 
 ## CI
-- PR #206 head `99b06c0c038af427fa2a67344b7acecdc15d0848`
-- Actions run #574, run id `35338521667`
-- job `test`: `success`
-- `python -m unittest discover -s tests -v`: 722 tests, OK
-- recovery-contract tests: 3/3 passed
-- merge SHA: `7520ab0385ec57f82cd27740576897fbe00aa711`
-- no separate push-triggered workflow run was exposed for the merge SHA
-- run #574 emitted no separate GitHub Actions artifact
+- Last verified recovery CI: PR #206 Actions #574, success, 722 tests OK.
+- Current OMS-016 closure branch CI: pending until PR is opened.
+- No workflow artifact is claimed unless GitHub actually emits one.
 
 ## Latest Artifact / Persisted State
-- `data/opportunity_mobilization_scan_007_2026-09-18.json`
-- `field/opportunity-mobilization-scan-007.md`
-- Issue #143 latest commercial sync: Scan 007.
-- Workflow artifact: none for CI #574; persisted repository files above are the current durable commercial artifacts.
+- New branch artifact: `data/oms_016_decisive_truth_001_2026-09-18.json`
+- New branch field note: `field/oms-016-decisive-truth-001.md`
+- Prior main artifacts remain `data/opportunity_mobilization_scan_007_2026-09-18.json` and `field/opportunity-mobilization-scan-007.md`.
+- Workflow artifact: none currently claimed.
 
 ## Completed
 - Opportunity mobilization scans 001–007 are persisted on `main`.
-- Scan 007 retained `OMS-016` only as `RETAIN_NARROW_WATCH / NOT_P0`.
-- Current external-flow truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
-- Two prior external probes produced zero qualified responses.
-- `AGENTS.md` now locks GitHub current state as operational source of truth and requires resume-before-replan behavior.
-- Session startup now requires live `main`, recent history, open PRs, active Issues, Actions/CI, artifacts, `TASK_STATE.md` and referenced persisted state.
-- Long tasks now checkpoint by focused commits / PR / CI / persisted evidence instead of relying on chat continuity.
-- `TASK_STATE.md` now provides the compact handoff state and explicitly yields to live GitHub facts on conflict.
-- `tests/test_repository_recovery_contract.py` protects the recovery contract.
-- PR #206 passed CI #574 with 722 tests and was squash-merged.
-- No Opportunity Engine redesign, Semantic Kernel change, taxonomy expansion, new opportunity scan, score change or unrelated refactor was made.
+- OMS-016 was deeply narrowed in scan 007 and then rechecked against incumbent/local service reality.
+- Targeted public research confirmed strong incumbent service and local hydraulic/hose capability but did not establish the required observed post-incumbent routing gap.
+- OMS-016 current judgment changed to `CLOSE_NO_OBSERVED_MISSING_EDGE / PATTERN_SENSOR_ONLY`.
+- No founder probe was released; human outreach would have been searching for the opportunity rather than confirming one high-information residual.
+- `OMS-006-AI-BUILT-APP-PRODUCTION-READINESS-MICROREVIEW` is selected as the next existing route, not a new scan.
+- External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
+- Two prior external probes still have zero qualified responses.
 
 ## Current Findings
-- `OMS-016`: real downtime problem + abundant local hydraulic capability, but recent local event truth, workaround economics, callable urgent mobile supply and non-bypassable orchestration value are unproven.
-- Reachability grade A does not override the Mobilization gate.
-- No founder probe is currently released.
-- Existing persisted JSON, field reports, PRs, CI runs and Issue #143 comments remain the durable evidence objects; do not duplicate them into a second ledger.
-- Recovery rule: if this file and live GitHub disagree, reconcile to GitHub and repair this file at the next safe checkpoint.
+- OMS-016: real downtime problem + real local capability + real incumbent service, but no observed post-incumbent missing edge, high bypass risk, unproven self-propulsion and unproven neutral orchestration value.
+- Absence of a visible citywide neutral mobile-hose platform is not evidence of whitespace.
+- XCMG publishes 4-hour response and 24-hour general-fault repair; local multi-brand repair and fluid-connection actors also exist.
+- OMS-006 remains `RETAIN_WATCH / NOT_P0 / BUYER_PAYMENT_AND_DEMAND_PUMP_REQUIRED`.
+- OMS-006 must not be promoted from founder fit, AI trend salience or global payment evidence alone.
 
 ## Blockers
-- No named recent Xuzhou hydraulic-hose failure with measured workaround time/cost.
-- No proof that at least two local hose/service nodes want and can accept bounded urgent mobile work.
-- No proof that current OEM/dealer/mobile-service response leaves a material routing gap.
-- `OMS-016` bypass risk remains high.
+- OMS-006 China payer truth remains unproven.
+- No recurring non-founder demand pump is bound for OMS-006.
+- Domestic automated review / freelancer / security-provider counterevidence may already close the route.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-Resume only the existing OMS-016 decisive-truth research: establish one recent Xuzhou hose-failure workaround/time/cost and test whether fast local mobile hose response is already routine. Do not start a new opportunity scan before resolving that truth or explicitly changing the mission.
+Public-research OMS-006 only: determine whether Chinese AI-built-app owners already pay for independent human production-readiness judgment and whether a recurring non-founder acquisition channel naturally produces these buyers. Kill the route if domestic existing routes already solve the unit or if acquisition requires founder-led education.
 
 ## Do Not Repeat
+- Do not reopen OMS-016 merely by shrinking it to mixed-brand, out-of-warranty or sub-four-hour edge cases without new direct residual evidence.
 - Do not reopen generic overseas field-service routing closed in scan 004 unless new direct evidence changes the residual.
 - Do not repeat the generic routes closed in scan 006: elastic warehouse/micro-capacity routing, generic PLC/industrial repair microtasks, independent used-heavy-equipment inspection, generic local field-evidence crowdsourcing, generic small-software acceptance/testing routing.
 - Do not repeat the generic routes closed in scan 007: small-batch surface treatment, generic cutting-tool regrinding, obsolete PLC/automation spare sourcing, generic no-drawing reverse engineering/replication.
