@@ -6,89 +6,85 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 `FIRST_EXTERNAL_VALUE_FLOW` remains the commercial mission. Durable ChatGPT/web-session recovery is installed; resume from GitHub truth, not chat history.
 
 ## Goal
-Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify the active route and preserve the evidence without repeating completed work.
+Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-`RCL-003A-GUOJI-ATOMIC-CLUSTER-POWDER` has now been rechecked under Bilateral Pull and Mobilization and should be deprioritized from current opportunity work: the resource owner is actively seeking applications, but no named demand actor is observed pulling the exact capability, generic technology-transfer routes already exist, and the closest high-value validation surfaces are long-cycle/high-permission. After this recheck merges, the existing residual portfolio has no current HIGH-Mobilization candidate. Resume a fresh opportunity scan under the locked doctrine rather than inventing applications for old candidates.
+The old residual portfolio is exhausted for current priority. Resume a fresh Xuzhou/Jiangsu opportunity scan under the locked Mobilization doctrine. A new direct local signal has reopened only one previously generic-closed residual for narrow research: on-site industrial 3D scanning / reverse engineering for large, immovable or no-drawing parts. Do not promote it unless a non-founder demand pump and post-incumbent orchestration value are evidenced.
 
 ## Current Phase
-`RCL_003A_DEPRIORITIZED / EXISTING_PORTFOLIO_EXHAUSTED / FRESH_SCAN_NEXT`
+`EXISTING_PORTFOLIO_EXHAUSTED / FRESH_SCAN_008_ACTIVE`
 
 ## Last Verified Main
-`98e585a2f1689560a0f6448d9111b4286b387c98` — live main observed before the RCL-003A recheck branch was created. The current branch has not yet merged at this checkpoint.
+`d1d4f38d16794f22b34ddde4c123bd90a92dbc12` — PR #209 RCL-003A Mobilization recheck merged after CI #583 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-`field/rcl-003a-mobilization-recheck-001`
+None at this checkpoint.
 
 ## Active PR
-Not yet opened at this checkpoint.
+None. PR #209 — `Deprioritize RCL-003A on bilateral pull` — merged.
 
 ## CI
-- Last verified business CI: PR #208 Actions #580, success.
-- Current RCL-003A recheck branch CI: pending until PR is opened.
-- No workflow artifact is claimed unless GitHub actually emits one.
+- PR #209 head `092fb8668747d1214f31e8613643d9a494cb3d67`
+- Actions run #583, run id `35342814739`
+- workflow `ci`: success
+- merge SHA: `d1d4f38d16794f22b34ddde4c123bd90a92dbc12`
+- run #583 emitted no separate GitHub Actions artifact
 
 ## Latest Artifact / Persisted State
-- New branch artifact: `data/rcl_003a_mobilization_recheck_001_2026-09-18.json`
-- New branch field note: `field/rcl-003a-mobilization-recheck-001.md`
-- Prior main state: `data/oms_006_decisive_truth_001_2026-09-18.json`
-- Workflow artifact: none currently claimed.
+- `data/rcl_003a_mobilization_recheck_001_2026-09-18.json`
+- `field/rcl-003a-mobilization-recheck-001.md`
+- workflow artifact: none for CI #583
 
 ## Completed
-- Opportunity mobilization scans 001–007 are persisted.
-- OMS-016 is closed as `CLOSE_NO_OBSERVED_MISSING_EDGE / PATTERN_SENSOR_ONLY`.
-- OMS-006 is closed as `CLOSE_EXISTING_DIRECT_ROUTE / NO_OBSERVED_ORCHESTRATION_RESIDUAL / PATTERN_SENSOR_ONLY`.
-- RCL-003A has been rechecked against exact measured material coordinates rather than generic new-material narratives.
-- Guoji supply/resource truth and measured W/Ni material properties remain real.
-- No named buyer-side payer/cost was bound to the exact measured property.
-- A closely related high-density tungsten-alloy mechanical-property problem has a published incumbent multi-step-sintering solution.
-- Aero-engine repair has adjacent temperature/residual-stress pressure but is high-permission and does not directly bind Guoji powder as the missing material.
-- Guoji's generic application-search problem is already carried by Jiangsu technology-transfer/expert mechanisms and other industry collaboration channels.
-- Bilateral Pull for RCL-003A fails: supply-side application hunger is explicit; demand-side pull for the exact capability is not observed.
-- RCL-003A current judgment is `DEPRIORITIZE_CURRENT_PRIORITY / SINGLE_SIDED_APPLICATION_SEARCH / EXISTING_TECH_TRANSFER_ROUTE / HIGH_VALIDATION_FRICTION / TECHNOLOGY_SENSOR_ONLY`.
-- No founder probe is released.
+- OMS-016 closed.
+- OMS-006 closed.
+- RCL-003A deprioritized to `SINGLE_SIDED_APPLICATION_SEARCH / TECHNOLOGY_SENSOR_ONLY`.
+- Existing residual portfolio no longer contains a current HIGH-Mobilization candidate.
+- Issue #143 is synced through PR #209.
+- No founder probe has been released from these routes.
 - External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 - Two prior external probes still have zero qualified responses.
 
-## Current Findings
-- `RESOURCE EXISTS + OWNER WANTS APPLICATIONS` is not the same as bilateral pull.
-- Adjacent tungsten-alloy or aero-repair problems do not prove a latent connection to Guoji cluster powder.
-- A supplier-marketing article claims broad applications, while 2026 Jiangsu technology-transfer reporting directly quotes Guoji saying application is still a blank; preserve the contradiction and prefer the higher-authority/direct quote until commercial applications are independently evidenced.
-- The likely Rooter role here would be permanent application scouting, technical hypothesis generation, buyer persuasion and validation coordination, which violates the desired routing-control-plane position.
-- Existing residual portfolio status:
-  - RCL-001: deprioritized by Mobilization; two existing probes still no qualified replies.
-  - RCL-002: public evidence not advancing.
-  - RCL-003A: technology sensor only.
-  - RCL-004: high permission.
-  - RCL-005: generic route closed.
-  - RCL-006: named buyer cost missing.
-  - OMS-006 / OMS-016: closed.
-- Therefore `ACTIVE_CURRENT_PRIORITY_CANDIDATE = NONE`.
+## Current Fresh-Scan Findings
+- Generic small-micro hazardous-waste collection is already routed in Xuzhou: five centralized collection pilots serve 1100+ small firms.
+- Generic small-batch local packaging is already served by low-MOQ / local-delivery providers.
+- A new 2026-09-08 Xuzhou Daily report materially changes the old reverse-engineering closure:
+  - 徐州多帮三维科技 says it surveyed nearly ten local manufacturing firms before launch;
+  - the survey found local reverse-engineering demand and difficulty finding providers;
+  - current customers include large engineering-machinery deformation-repair scanning/modeling, AMG body-part scanning/3D-print trial work, and a 17m large-component project;
+  - the firm says online-platform acquisition performed poorly, earning only about RMB 7000 in six months, and later shifted to precise local industrial-park outreach.
+- Current supply is no longer singular:
+  - 徐州多帮三维科技 is active and recruits part-time reverse-engineering designers;
+  - 徐州华顺测控 now advertises 3D scanning + reverse engineering + materials/CAE capability;
+  - regional mobile scanning providers can travel to sites.
+- Large repeat users may internalize the capability: 徐州徐工港口机械 publicly procured a 3D scanner in 2026.
+- Therefore the only live hypothesis is not generic reverse engineering. It is a narrow local/on-site service-unit question for occasional users with large/immovable/no-drawing parts.
+- Self-propulsion is currently weak because the clearest local provider says growth required targeted industrial-park visits rather than natural online inbound.
 
 ## Blockers
-- No current candidate combines observed bilateral pull, narrow missing edge, high reachability, low permission, clear money flow, self-propulsion and operator exit.
+- No named Xuzhou demand actor is yet publicly bound to a recent paid outsourced on-site scan with workaround cost/lead time.
+- Existing local providers may already close the route directly.
+- No recurring non-founder inbound demand pump is evidenced.
+- Value capture for a separate Rooter orchestration layer is unproven and bypass risk may be high.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-After this recheck is merged and checkpointed, resume a fresh opportunity scan. Start from Xuzhou/Jiangsu reality and prioritize minimum-service-unit mismatch where both sides are already acting now. Aggressively search incumbents before retaining anything. Do not reopen closed/deprioritized patterns and do not use founder contact as a discovery sensor.
+Fresh Scan 008 only. Deep-check the narrow on-site reverse-engineering residual against incumbents and self-propulsion, while killing other fresh patterns aggressively. Retain at most 3–5 candidates. If local service providers already solve it directly or every sale requires targeted factory outreach, keep it as a pattern sensor / NOT_P0 rather than promoting it.
 
 ## Do Not Repeat
-- Do not reopen RCL-003A merely because a material property sounds compatible with an adjacent industrial pain; require named buyer pull, paid residual and cheap test.
-- Do not treat generic technology-transfer/application-search demand as a Rooter opportunity; existing mechanisms already serve it.
-- Do not reopen OMS-006 by shrinking it to review-only, short duration, one stack or arbitrary price bands without new direct post-incumbent payer evidence.
-- Do not reopen OMS-016 without new direct post-incumbent residual evidence.
-- Do not reopen generic overseas field service closed in scan 004.
-- Do not repeat generic routes closed in scans 006 and 007.
-- Do not revive RCL-001 because it is easy to contact; Mobilization governs.
-- Do not rebuild already-merged Reachability or Mobilization gates.
-- Do not restart background analysis because a chat changes.
+- Do not reopen generic reverse engineering merely because national demand exists; only the new Xuzhou local/on-site residual is eligible for recheck.
+- Do not reopen RCL-003A without named buyer pull and cheap validation.
+- Do not reopen OMS-006/016 or generic overseas field service without new direct residual evidence.
+- Do not repeat generic routes closed in scans 006/007.
+- Do not revive RCL-001 because it is easy to contact.
+- Do not use founder outreach to discover a missing edge.
+- Do not build new ontology/scoring/agent architecture.
 
 ## Guardrails
-- Preserve the Actor-First Regenerative Latent-Value Formation & Orchestration Engine and locked doctrine.
-- `COMPLEMENTARITY != LATENT CONNECTION`; `UNKNOWN != PASS`; inference never promotes external truth.
-- Founder remains routing/orchestration control plane, not application scout, sales rep, consultant or delivery worker.
-- Prefer evidence-bound falsification and the smallest decisive truth over scope expansion.
-- No broad marketplace/app/agent-framework build before repeated value flow.
+- Preserve the locked Actor-First / Mobilization / Reachability doctrine.
+- `COMPLEMENTARITY != LATENT CONNECTION`; `UNKNOWN != PASS`.
+- Founder remains routing control plane, not salesperson, technician, consultant or delivery labor.
+- Prefer evidence-bound falsification and the smallest decisive truth.
