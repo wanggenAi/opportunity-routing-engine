@@ -1,0 +1,143 @@
+{
+  "scan_id": "OPPORTUNITY_MOBILIZATION_SCAN_008",
+  "date": "2026-09-18",
+  "purpose": "Fresh Xuzhou/Jiangsu scan after the prior residual portfolio was exhausted. Retain only material new evidence that changes a prior judgment; aggressively close patterns already routed.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "closures": [
+    {
+      "candidate_id": "SCAN008-SMALL-MICRO-HAZARDOUS-WASTE-COLLECTION",
+      "judgment": "CLOSED_EXISTING_ROUTE",
+      "evidence": "Xuzhou already has five centralized small/micro hazardous-waste collection pilots serving more than 1100 small firms.",
+      "reason": "The exact aggregation/routing structure is already operating. Do not build another generic small-firm hazardous-waste routing layer.",
+      "source": "https://www.cnxz.com.cn/newsDetail?DetailId=2025391692583710720"
+    }
+  ],
+  "retained_candidate": {
+    "candidate_id": "OMS-017-XUZHOU-ONSITE-INDUSTRIAL-REVERSE-ENGINEERING",
+    "title": "On-site 3D scanning / reverse engineering for large, immovable or no-drawing industrial parts",
+    "judgment": "REOPEN_NARROW_WATCH / LOCAL_DEMAND_REAL / SUPPLY_EMERGING / SELF_PROPULSION_WEAK / NOT_P0",
+    "why_reopened": "Scan 007 closed generic no-drawing reverse engineering because mature national providers already existed. A new 2026-09-08 Xuzhou Daily report now supplies direct local evidence that nearly ten Xuzhou manufacturers were interviewed and local enterprises had reverse-engineering demand but difficulty finding local providers. That is material new evidence for a local/on-site residual, not a reason to reopen generic reverse engineering.",
+    "reality_change": [
+      "Portable industrial 3D scanning makes large/immovable equipment measurable on site without full disassembly.",
+      "Xuzhou manufacturing and engineering-machinery density creates recurring physical objects whose drawings may be missing, damaged or unavailable.",
+      "Local specialized supply is emerging but still young."
+    ],
+    "actor_a": {
+      "type": "Xuzhou manufacturer / engineering-machinery owner needing one-off on-site scan, deformation capture, no-drawing reconstruction or repair model",
+      "named_paid_actor": "NOT_YET_BOUND",
+      "observed_demand_evidence": [
+        "徐州多帮三维科技 reports surveying nearly ten local manufacturers before launch; the survey concluded local enterprises had reverse-engineering demand but struggled to find providers.",
+        "The same firm reports real customer work including large-tonnage engineering-machinery deformation-repair scanning/modeling, Mercedes-AMG body-part scanning/modeling/3D-print trials, and a 17m large-component project."
+      ]
+    },
+    "actor_b": {
+      "type": "local/regional 3D scanning + reverse-modeling execution node",
+      "named_supply": [
+        "徐州多帮三维科技有限责任公司",
+        "徐州华顺测控技术有限公司",
+        "南京宁瑞计量设备有限公司"
+      ],
+      "supply_hunger_evidence": [
+        "徐州多帮三维科技 recruits part-time reverse-engineering/modeling designers at about RMB 60-80/hour.",
+        "Local provider growth efforts and flexible designer recruitment suggest callable labor exists, but spare field-scanning capacity is not directly quantified."
+      ]
+    },
+    "observed_connection_pressure": [
+      "Local manufacturers were directly interviewed and reported difficulty finding reverse-engineering providers.",
+      "Real local projects already connect physical industrial assets to scanning/modeling services.",
+      "Regional providers market on-site scanning for large equipment that cannot easily be removed."
+    ],
+    "current_workaround": [
+      "find a local scanning/reverse-engineering provider directly",
+      "call a regional provider to travel to site",
+      "use internal engineering staff/manual measurement",
+      "for large repeat users, purchase a scanner and internalize capability"
+    ],
+    "current_workaround_cost": "PARTIALLY_EVIDENCED / NOT_BOUND_TO_ONE_NAMED_XUZHOU_BUYER_EVENT",
+    "incumbent_counterevidence": [
+      "徐州多帮三维科技 now exists locally and already serves real projects.",
+      "徐州华顺测控 offers local 3D scanning, reverse engineering, materials analysis and simulation.",
+      "南京宁瑞 markets nationwide/on-site scanning for large machinery and no-drawing equipment.",
+      "徐州徐工港口机械 publicly procured a 3D scanner in 2026, showing large repeat users may internalize the capability."
+    ],
+    "missing_edge": "POSSIBLE but NOT OBSERVED strongly enough for P0: occasional local manufacturers with large/immovable/no-drawing parts may still lack a low-friction way to define the scan/model task, find available field capture capacity, route modeling work, enforce accuracy/format acceptance and settle without building the capability in-house.",
+    "minimum_service_unit": "one on-site industrial object scan plus bounded reverse-model deliverable",
+    "rooter_execution_map": {
+      "demand_actor": "occasional-use manufacturer/equipment owner",
+      "supply_actor": "field scanner + reverse-modeling engineer/provider",
+      "task_definition": "object/location/access + size/material/surface + required accuracy + output STEP/IGES/CAD/point cloud + repair/manufacturing purpose + confidentiality/IP boundary",
+      "executor": "qualified scanning provider and/or remote reverse-modeling engineer",
+      "acceptance": "agreed scan accuracy, coverage, file format, usable CAD/STEP/IGES deliverable and fit/geometry check where applicable",
+      "payer": "manufacturer/equipment owner",
+      "money_flow": "payer -> orchestration layer -> field-scan/modeling node",
+      "operator_role": "standardize intake, route local capture and modeling capacity, QA acceptance, settlement and performance history",
+      "operator_non_role": "do not personally scan, model or sell consulting hours",
+      "bypass_risk": "HIGH",
+      "operator_exit": "TECHNICALLY_POSSIBLE but commercially unproven"
+    },
+    "reachability": {
+      "supply_side": "A/B — multiple named Xuzhou/regional providers are publicly reachable",
+      "demand_side": "C/UNBOUND — real local projects exist but no named current payer event with workaround cost is publicly bound",
+      "current_stage": "NOT_P0"
+    },
+    "mobilization": {
+      "demand_urgency": 2,
+      "supply_hunger": 3,
+      "resource_abundance": 2,
+      "activation_ease": 2,
+      "value_capture": 1,
+      "repeatability": 2,
+      "self_propulsion": 1,
+      "operator_exit": 3,
+      "grade": "LOW / NARROW WATCH",
+      "hard_gate_reason": "The strongest local provider explicitly reports that online acquisition performed poorly and growth required targeted industrial-park visits. That is direct evidence against a self-propelled demand pump."
+    },
+    "self_propulsion_counterevidence": [
+      "徐州多帮三维科技 says it tried online technical-service platforms intensively but generated only about RMB 7000 in revenue over six months, with proceeds largely consumed by acquisition.",
+      "The company then shifted toward local industrial-park connection and targeted visits.",
+      "This suggests the service business can be real while the Rooter platform thesis remains weak."
+    ],
+    "cheapest_decisive_reality_probe": {
+      "released": false,
+      "reason": "No named demand actor with a recent paid workaround and no non-founder demand pump are yet bound. Calling factories now would still be discovery-by-outreach.",
+      "public_research_next": "Find a named Xuzhou manufacturer/equipment owner with a recent outsourced on-site scan/reverse-engineering event, actual time/cost/decision path, and evidence of how the buyer found the provider. Determine whether demand naturally enters through repair/MRO/search/procurement channels or requires provider-led industrial-park sales."
+    },
+    "kill_conditions": [
+      "Local providers already solve on-site scan + reverse modeling directly at acceptable speed and price.",
+      "Most buyers who need the service repeatedly simply buy scanners or build internal capability.",
+      "Customer acquisition requires targeted factory visits or founder/provider education for each project.",
+      "After one successful job, buyer and provider bypass any routing layer and no recurring QA/availability value remains.",
+      "Task confidentiality/IP or technical scoping is too bespoke to standardize."
+    ],
+    "promotion_conditions": [
+      "One named Xuzhou demand actor has a recent paid on-site scan/reverse-engineering event with measurable workaround time/cost.",
+      "At least two replaceable providers accept the same bounded intake and acceptance schema.",
+      "A recurring non-founder inbound source exists, such as repair/MRO events, procurement/search demand or partner channels.",
+      "Rooter adds recurring availability/QA/acceptance value beyond introduction.",
+      "The transaction can be completed without Rooter doing scanning/modeling or one-by-one enterprise sales."
+    ],
+    "sources": [
+      "https://szb.cnxz.com.cn/xzrb/pad/con/202609/08/content_56400.html",
+      "https://www.521hs.com/ProShow.asp?ShowID=133",
+      "https://www.521hs.com/",
+      "https://gscan.cn/sys-nd/45.html",
+      "https://gscan.cn/",
+      "https://www.bidcenter.com.cn/enterprise/xzxggkjxyxgs4586372/1"
+    ]
+  },
+  "scan_conclusion": {
+    "new_p0_promotions": 0,
+    "retained_candidates": [
+      "OMS-017-XUZHOU-ONSITE-INDUSTRIAL-REVERSE-ENGINEERING"
+    ],
+    "reopened_prior_generic_route": true,
+    "reopen_scope": "LOCAL_ONSITE_LARGE_IMMOVABLE_NO_DRAWING_RESIDUAL_ONLY",
+    "human_action_required_now": false,
+    "first_external_value_flow": "NOT_PROVEN",
+    "current_best_next_truth": "Bind one named Xuzhou buyer's recent outsourced on-site reverse-engineering event and its actual acquisition/workaround path. The decisive question is not whether demand exists; it is whether demand self-propels into a routable channel and whether Rooter adds non-bypassable value after local providers already exist."
+  }
+}
