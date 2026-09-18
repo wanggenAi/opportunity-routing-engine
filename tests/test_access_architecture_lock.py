@@ -25,6 +25,8 @@ class AccessArchitectureLockTests(unittest.TestCase):
         self.assertIn("docs/ACCESS_FEASIBILITY_GATE.md", text)
         self.assertIn("Operator access feasibility — LOCKED", text)
         self.assertIn("ACCESS_BLOCKED", text)
+        self.assertIn("REACHABILITY GATE", text)
+        self.assertIn("Only Reachability **A/B**", text)
 
     def test_access_doc_requires_backing_and_real_counterparty_gain(self):
         text = ACCESS_DOC.read_text(encoding="utf-8")
@@ -33,6 +35,10 @@ class AccessArchitectureLockTests(unittest.TestCase):
         self.assertIn("Counterparty visible surplus", text)
         self.assertIn("PPT / REPORT != HOOK BY DEFAULT", text)
         self.assertIn("LOCAL FIELD PRIOR != UNIVERSAL FACT", text)
+        self.assertIn("Reachability Gate", text)
+        self.assertIn("can_contact_within_24h", text)
+        self.assertIn("can_physically_verify_within_72h", text)
+        self.assertIn("Only **A/B**", text)
 
     def test_current_candidate_access_states_are_fail_closed(self):
         data = json.loads(ACCESS_DATA.read_text(encoding="utf-8"))
