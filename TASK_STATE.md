@@ -9,73 +9,66 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 009 is complete with zero retained candidates. Natural recurring order flow is necessary but not sufficient: emergency rental, on-site balancing, quality sorting/rework, small maintenance procurement, MRO emergency sourcing, urgent machining and generic small-material-unit routing are already handled by mature direct/provider/platform/framework routes. After this negative scan merges, shift Fresh Scan 010 away from standard industrial service categories and search inside already-running flows for repeated value destruction: downgrade, discard, rework, stranded residual capacity, acceptance loss or transaction-size loss that incumbents still leave unresolved.
+Fresh Scan 009 is merged with zero retained candidates. Fresh Scan 010 is active and must search inside already-running flows for repeated measurable value destruction—downgrade, discard, rework, idle residual capacity, acceptance loss or transaction-size loss—rather than enumerate standard industrial services. Retain only a post-incumbent residual with bilateral action, natural demand entry, clear money flow, low permission, self-propulsion and operator exit.
 
 ## Current Phase
-`SCAN_009_NEGATIVE_COMPLETE / RETAINED_ZERO / SCAN_010_NEXT`
+`SCAN_009_MERGED / RETAINED_ZERO / FRESH_SCAN_010_ACTIVE`
 
 ## Last Verified Main
-`000b74e4089670199652193eeab4943811d3f741` — live main observed before the Scan 009 branch was populated. Current branch has not yet merged at this checkpoint.
+`af04689f5baf0f3323ee944f3c5908842eed7ce8` — PR #212 Scan 009 merged after CI #592 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-`field/opportunity-mobilization-scan-009`
+None.
 
 ## Active PR
-Not yet opened at this checkpoint.
+None. PR #212 — `Persist opportunity mobilization scan 009` — merged.
 
 ## CI
-- Last verified business CI: PR #211 Actions #589, success.
-- Current Scan 009 branch CI: pending until PR is opened.
-- No workflow artifact is claimed unless GitHub actually emits one.
+- PR #212 head `56c4e40bf04c8c3ad4239766b799016ec5d30129`
+- Actions run #592, run id `35347113696`
+- workflow `ci`: success
+- merge SHA: `af04689f5baf0f3323ee944f3c5908842eed7ce8`
+- run #592 emitted no separate GitHub Actions artifact
 
 ## Latest Artifact / Persisted State
-- Branch artifact: `data/opportunity_mobilization_scan_009_2026-09-18.json`
-- Branch field note: `field/opportunity-mobilization-scan-009.md`
-- Prior merged evidence: `data/oms_017_decisive_truth_001_2026-09-18.json`
-- Workflow artifact: none currently claimed.
+- `data/opportunity_mobilization_scan_009_2026-09-18.json`
+- `field/opportunity-mobilization-scan-009.md`
+- Issue #143 synced through Scan 009
+- workflow artifact: none for CI #592
 
 ## Completed
 - OMS-016 closed.
 - OMS-006 closed.
 - RCL-003A deprioritized to technology sensor only.
 - OMS-017 closed as a real service business but failed Rooter channel.
-- Fresh Scan 009 started only from natural recurring order/event channels.
-- Scan 009 tested and closed:
-  - emergency generator rental;
-  - temporary/mobile air-compressor rental;
-  - on-site dynamic balancing;
-  - emergency third-party quality sorting/rework/containment;
-  - small recurring repair/maintenance procurement;
-  - emergency MRO/spare procurement;
-  - urgent local/online CNC machining;
-  - generic small-material-unit/offcut mismatch.
-- Additional generic directions such as urgent fastener procurement, generic enterprise problem/resource matching and generic exporter service routing were also not retained.
-- `RETAINED_CANDIDATES = 0`.
-- No founder probe is released.
+- Scan 009 completed with `RETAINED_CANDIDATES = 0`.
+- Closed in Scan 009: emergency generator rental, temporary/mobile air-compressor rental, on-site dynamic balancing, emergency quality sorting/rework/containment, small recurring repair/maintenance procurement, emergency MRO/spare sourcing, urgent machining and generic small-material-unit/offcut mismatch.
+- No founder probe released.
 - External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 - Two prior external probes still have zero qualified responses.
+- Fresh Scan 010 started.
+- Early Scan 010 observation: repeated Xuzhou idle-asset relistings and whole-lot/no-split terms prove transaction friction can be real, including multi-listing price reductions.
+- That observation is not retained as a candidate because generic industrial-asset liquidation already has mature nationwide marketplaces, auctions, buyer pools and disposal services; public/state-owned asset cases also carry compliance, transfer, guarantee, removal and title risk that would push Rooter toward asset-dealer/liquidator work.
 
 ## Current Findings
 - `NATURAL ORDER FLOW != ROOTER OPPORTUNITY`.
-- High-frequency urgent industrial events are often the categories with the strongest incumbent rental/service/procurement/MRO control planes.
-- Emergency quality-service networks already provide dispatch, execution, replacement and multi-city coverage.
-- Framework procurement already absorbs many fragmented low-value maintenance orders.
-- MRO platforms already absorb massive-SKU sourcing/inventory/matching/fulfillment.
-- Urgent machining and minimum-material-unit mismatches are already productized by current direct/online manufacturing routes.
-- The next useful search zone is not another standard technical service category.
-- Search inside existing flows for repeated measurable value destruction that current routes do not remove.
+- `REPEATED RELISTING != BUNDLE-MISMATCH OPPORTUNITY`; single equipment can also relist repeatedly.
+- A public platform supporting both split and whole-lot auctions means whole-lot choice is not simply a software capability gap.
+- High fixed transaction cost can destroy value in small public-asset lots, but this is currently high-permission/compliance-heavy rather than a clean low-capital Rooter wedge.
+- Scan 010 should continue looking for the same value-destruction mechanism in lower-permission private-market flows.
 
 ## Blockers
-- No current candidate combines bilateral action, narrow post-incumbent missing edge, high reachability, low permission, clear money flow, natural demand entry, self-propulsion and operator exit.
+- No current candidate combines bilateral action, observed value loss, narrow post-incumbent missing edge, natural demand entry, replaceable supply, clear money flow, low permission and operator exit.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-After Scan 009 merges, start Fresh Scan 010. Search Xuzhou/Jiangsu flows where a product/resource/capability is already moving but loses value through downgrade, discard, rework, idle residual capacity, acceptance mismatch or transaction-size mismatch. Require observed current cost and an incumbent-gap check before retaining anything. Do not commit Scan 010 unless judgment materially changes.
+Continue Fresh Scan 010. Search lower-permission Xuzhou/Jiangsu private-market flows where usable products/resources are repeatedly downgraded, discarded, reworked or stranded while another actor already buys the same functional resource. Aggressively search incumbent liquidation/reuse/recycling routes before retaining anything. Do not commit Scan 010 unless judgment materially changes.
 
 ## Do Not Repeat
+- Do not promote whole-lot public idle-asset disposal merely from repeat relisting; generic asset-liquidation platforms and public-asset compliance already exist.
 - Do not repeat the Scan 009 generic categories merely because urgency/bilateral activity is high.
 - Do not reopen OMS-017, generic reverse engineering, OMS-016, OMS-006, RCL-003A, generic overseas field service, or generic routes closed in scans 006/007 without new direct residual evidence.
 - Do not treat a recurring order as proof that the current route is incomplete.
@@ -86,5 +79,5 @@ After Scan 009 merges, start Fresh Scan 010. Search Xuzhou/Jiangsu flows where a
 ## Guardrails
 - Preserve the locked Actor-First / Reachability / Mobilization doctrine.
 - `COMPLEMENTARITY != LATENT CONNECTION`; `UNKNOWN != PASS`.
-- Founder remains routing control plane, not salesperson, technician, consultant or delivery labor.
+- Founder remains routing control plane, not salesperson, asset dealer, recycler, technician, consultant or delivery labor.
 - Prefer evidence-bound falsification and the smallest decisive truth.
