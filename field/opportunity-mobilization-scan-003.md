@@ -157,9 +157,11 @@ ServiceNow now ships a contractor marketplace inside Field Service Management. N
 
 The only residual worth keeping is narrower.
 
+A second incumbent search shows that even the **software control plane** is not empty: overseas-aftermarket systems already manage work orders, SOPs, service-provider records, evidence, acceptance and settlement. Therefore we must not build another overseas after-sales/FSM system.
+
 # Narrow missing-edge hypothesis
 
-> **Smaller and mid-sized Chinese equipment OEMs may still lack one China-side control plane that turns OEM SOP, warranty/acceptance rules and technical responsibility into routable local work orders across multiple destination-country providers.**
+> **Smaller and mid-sized Chinese equipment OEMs may still lack accountable execution supply behind the work order: one China-side, multi-country service layer with real qualified local industrial providers, provider substitution after failure, and continuity of field evidence/acceptance across countries — while the OEM retains technical and warranty authority.**
 
 The unit is:
 
@@ -183,9 +185,9 @@ SETTLEMENT
 PROVIDER PERFORMANCE HISTORY
 ```
 
-The value, if real, is not introduction.
+The value, if real, is not introduction and not software configuration.
 
-It is continuity and accountability across providers/countries.
+It is **execution continuity and accountability** across providers/countries: who can actually go, whether they are qualified, whether they can be replaced, what evidence they return, and whether the OEM can accept the result.
 
 ---
 
@@ -369,10 +371,19 @@ Do **not** send the founder into enterprise sales.
 
 The next decisive truth is buyer-side:
 
-> **After an OEM already has agents/EPCs/local contractors, does managing qualification, SOP, acceptance, warranty/accountability and multiple country providers remain painful enough that it wants one accountable China-side control plane?**
+> **After an OEM already has agents/EPCs and FSM/work-order software, does it still fail to obtain reliable, replaceable local industrial execution for a bounded task — causing measurable travel, delay, downtime or acceptance cost?**
 
 Resolve that publicly if possible. If public evidence is exhausted, this becomes the first bounded OEM question worth one unit of human validation capital.
 
 Until then:
 
 **FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN.**
+
+
+## Additional incumbent boundary — software is not the opportunity
+
+Current overseas-aftermarket products already support multi-country service-provider management, SOP/work-order standardization, evidence capture, acceptance, settlement and global maintenance records. This closes the generic “build an overseas after-sales control system” route.
+
+Sources:
+- https://www.shouhouyi.com/contents/4/4437.html
+- https://www.shb.ltd/corporate/news/2026/07/21/%E5%94%AE%E5%90%8E%E5%AE%9D%E5%85%A8%E9%93%BE%E8%B7%AFAI%E5%94%AE%E5%90%8E%E6%9C%8D%E5%8A%A1%E4%BD%93%E7%B3%BB-%E5%8A%A9%E5%8A%9B%E5%88%B6%E9%80%A0%E4%BC%81%E4%B8%9A%E4%BB%8E%E6%88%90%E6%9C%AC%E4%B8%AD%E5%BF%83%E8%BD%AC%E5%90%91%E4%BB%B7%E5%80%BC%E4%B8%AD%E5%BF%83/432?id=432
