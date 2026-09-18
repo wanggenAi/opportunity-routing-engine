@@ -1,0 +1,130 @@
+{
+  "scan_id": "OPPORTUNITY_MOBILIZATION_SCAN_017",
+  "date": "2026-09-19",
+  "title": "Ad-hoc micro-network / chat-market kill sweep",
+  "purpose": "Search current Xuzhou/Jiangsu peer groups, association chats and ad-hoc micro-networks that already exchange tiny inventory, capacity, tasks or local help. Retain only if repeated transactions are current and a control-plane gap remains after alliances/platforms are considered.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "scan_rule": [
+    "AD-HOC GROUP EXISTS != OPEN ROOTER GAP",
+    "GROUP TRANSACTIONS != MONETIZABLE CONTROL PLANE",
+    "If a cluster already formalized chat coordination into an alliance/platform, the route is closed.",
+    "If a group intentionally only publishes information and parties immediately transact directly, introduction is highly bypassable and recurring value capture is weak.",
+    "A candidate needs unresolved live availability, acceptance, trust, settlement or replacement friction after current marketplaces are considered."
+  ],
+  "patterns_tested": [
+    {
+      "pattern": "small-order production alliance / peer capacity sharing",
+      "named_example": "扬州毛绒玩具小单快返联盟",
+      "observed_network": [
+        "Orders can come from the alliance, member firms or external customers.",
+        "Order specifications, quantity, quality, delivery, price and payment terms are standardized.",
+        "Members confirm acceptance quickly, report production schedules and publish shortage sourcing inside the alliance.",
+        "The alliance uses shared information tools, initially including WeChat/shared documents, and tracks delivery quality and capacity."
+      ],
+      "missing_edge": "THE CONTROL PLANE IS ALREADY BEING BUILT BY THE CLUSTER",
+      "judgment": "CLOSED_EXISTING_ALLIANCE_CONTROL_PLANE",
+      "sources": [
+        "https://yztoy.cn/nd.jsp?fromColId=2&id=269",
+        "https://yztoy.cn/nd.jsp?fromColId=2&id=265",
+        "https://yztoy.cn/nd.jsp?fromColId=2&id=268"
+      ]
+    },
+    {
+      "pattern": "Xuzhou engineering-machinery supply-chain peer/order collaboration",
+      "observed_network": [
+        "Chain leaders already drive digital order receipt, fulfillment and supplier collaboration.",
+        "Supply-chain resources are being integrated through existing digital systems and chain-leader governance.",
+        "City-level industry programs explicitly promote order/data collaboration across upstream/downstream firms."
+      ],
+      "missing_edge": "NO INDEPENDENT MICRO-NETWORK GAP OBSERVED",
+      "judgment": "CLOSED_CHAIN_LEADER_DIGITAL_ROUTE",
+      "sources": [
+        "https://finance.sina.com.cn/esg/2026-08-01/doc-inikurwp0714507.shtml",
+        "https://www.jiangsu.gov.cn/art/2026/7/21/art_33718_11808010.html",
+        "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202602/t20260205_8556093.shtml"
+      ]
+    },
+    {
+      "pattern": "farm-machinery peer finding / informal operator network",
+      "named_platform": "马力多",
+      "observed_network": [
+        "Xuzhou-based platform connects farmers and machinery operators.",
+        "Users can post farm-work demand and operators can find work.",
+        "The platform adds dispatch, agricultural inputs, parts and ecosystem services."
+      ],
+      "missing_edge": "FORMER INFORMAL RELATIONSHIP SEARCH IS ALREADY PRODUCTIZED",
+      "judgment": "CLOSED_EXISTING_AGRICULTURAL_CONTROL_PLANE",
+      "source": "https://www.maliduo.com/about.html"
+    },
+    {
+      "pattern": "furniture/home-service merchant overflow dispatch groups",
+      "observed_network": [
+        "Local groups publish real jobs and workers self-claim tasks.",
+        "Group organizers may explicitly state that parties transact directly and risk is self-borne."
+      ],
+      "incumbent_counterevidence": [
+        "Large national furniture/home-service platforms already provide dispatch, guaranteed transaction flows, service tracking, warranties and enormous provider networks.",
+        "The missing trust/acceptance/settlement features of chat groups are already available in mature vertical platforms."
+      ],
+      "judgment": "CLOSED_EXISTING_VERTICAL_PLATFORM_ROUTE",
+      "sources": [
+        "https://jiazhenggongren.com/category-54-%E5%BE%90%E5%B7%9E.html",
+        "https://m.wanshifuapp.com/",
+        "https://www.qbdj.vip/",
+        "https://m.jdd51.com/"
+      ]
+    },
+    {
+      "pattern": "machining order groups / external-processing chat markets",
+      "observed_network": [
+        "Current machining communities receive actual customer machining inquiries and immediately publish them to paid order groups.",
+        "Capable factories contact the customer directly.",
+        "Providers pay for group/community access and exposure."
+      ],
+      "value_capture_counterevidence": [
+        "The group operator explicitly positions itself as information publication rather than transaction execution and does not take transaction spread/commission.",
+        "Current machining B2B platforms already have very large registered supplier pools and tens of thousands of RFQs.",
+        "Generic small-batch machining and urgent machining routes were already closed in prior scans."
+      ],
+      "rooter_risk": "The strongest observed monetization is selling information/access to suppliers; buyer-provider transactions bypass the intermediary immediately.",
+      "judgment": "CLOSED_INFORMATION_MARKET / HIGH_BYPASS / EXISTING_B2B_PLATFORMS",
+      "sources": [
+        "https://www.gejigeji.cn/",
+        "https://www.gejigeji.cn/h-nd-1566.html",
+        "https://www.vtoall.com/"
+      ]
+    },
+    {
+      "pattern": "generic home-service dispatch groups",
+      "observed_network": [
+        "Merchants publish jobs, local workers contact the merchant privately, prices settle directly, and group rules attempt to suppress poaching or arbitrary price increases.",
+        "Some groups explicitly state that they only provide information and do not bear transaction risk."
+      ],
+      "meaning": "This proves information-only micro-networks can remain active even when formal platforms exist.",
+      "why_not_candidate": [
+        "Mature guaranteed-transaction vertical platforms already offer the missing trust/service features.",
+        "Actors using the group appear to value low-cost/direct access; that behavior may reflect commission avoidance rather than willingness to pay for a heavier control plane.",
+        "Generic home services were already closed."
+      ],
+      "judgment": "PATTERN_SENSOR_ONLY / NO_NEW_ROUTE"
+    }
+  ],
+  "cross_industry_result": {
+    "retained_candidates": [],
+    "retained_count": 0,
+    "new_p0_promotions": 0,
+    "human_action_required_now": false,
+    "material_learning": [
+      "Micro-networks can be real and active without creating a durable Rooter opportunity.",
+      "Mature clusters often evolve chat coordination into formal order/capacity alliances themselves.",
+      "Information-only groups can persist because participants prefer direct contact and low intermediation cost; this can be hostile to transaction-fee value capture.",
+      "The next useful question is why actors deliberately bypass formal platforms when they already exist: unresolved platform friction versus simple fee avoidance/direct relationship preference."
+    ],
+    "current_best_next_truth": "Fresh Scan 018 should test platform-bypass persistence. Search current cases where actors intentionally leave or avoid a mature platform and revert to groups/direct contact. Retain only if the reason is a repeated unsolved transaction friction that Rooter can remove while still retaining value; kill if behavior is mainly commission avoidance, off-platform repeat relationships or regulatory evasion."
+  },
+  "first_external_value_flow": "NOT_PROVEN"
+}
