@@ -216,6 +216,61 @@ It is closer to:
 
 > a credible orchestrator who can bring together resources and relationships so each participating actor can see and realize a concrete gain.
 
+## Reachability Gate — current-stage hard filter
+
+For the current P0, access feasibility is not complete until the system can answer:
+
+> **If we validate tomorrow, where do we go, who do we contact, through which public route, and can one bounded reality probe happen within 24–72 hours without heavy permission, capital, or founder labor?**
+
+Every candidate considered for deep validation / Formation promotion / field experiment must carry:
+
+```text
+REACHABILITY
+
+named_actor
+location
+public_contact_route
+physical_access_route
+decision_maker_distance
+permission_level
+capital_required_before_contact
+can_contact_within_24h
+can_physically_verify_within_72h
+```
+
+The field record must make the next reality contact concrete enough to answer:
+
+```text
+WHERE DO WE GO?
+WHO DO WE CONTACT?
+WHAT RECENT REAL EVENT DO WE ASK ABOUT?
+```
+
+Current-stage grades:
+
+- **A** — Xuzhou-local, named actor, direct public route, physical route, low permission, direct/one-hop decision path, zero pre-contact capital, contactable within 24h and physically verifiable within 72h.
+- **B** — Xuzhou/Jiangsu and still concretely reachable through lawful public/institutional routes with low/medium permission; may require one mediation step or lack the full A-level immediacy.
+- **C** — real actor exists, but distance, multi-hop access, slower verification, or similar friction makes it a low-priority current-stage route.
+- **D** — high permission/capital/proprietary-data/pre-contract burden, no lawful practical route, or otherwise unsuitable for current P0 execution.
+
+Only **A/B** may pass the current P0 reachability priority gate.
+
+This is not a market ranking. A C/D candidate can still contain real latent value; it is simply not allowed to consume scarce human validation capital now.
+
+Hard boundaries:
+
+```text
+PUBLIC ACTOR != HIGH REACHABILITY
+PUBLIC EMAIL != DECISION-MAKER ACCESS
+NAMED ACTOR != 24H CONTACTABILITY
+CONTACTABILITY != PHYSICAL VERIFIABILITY
+THEORETICAL VALUE != CURRENT-STAGE PRIORITY
+REACHABILITY GRADE != MARKET ATTRACTIVENESS
+C/D REACHABILITY != P0 PROMOTION
+```
+
+Human action is reserved for hypotheses where public research is already exhausted, connection pressure is evidenced, the missing edge is narrow, the actor is easy to reach, and one answer can materially kill or promote the hypothesis.
+
 ## Access states
 
 ```text
