@@ -1,0 +1,115 @@
+{
+  "artifact_id": "RESIDUAL-CANDIDATE-LEDGER-002-2026-09-18",
+  "observed_at": "2026-09-18",
+  "status": "CANDIDATE_DELTA_ONLY_NOT_NEW_FORMATION",
+  "purpose": "Update Residual Candidate Ledger 001 only where evidence materially changed a surviving route. Do not resume unbounded mechanism accumulation and do not treat technology novelty as opportunity evidence.",
+  "field_truth": {
+    "direct_employer_capability_proof_probes_sent": 2,
+    "qualified_human_responses": 0,
+    "delivery_failures_observed": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "outreach_policy": "DO_NOT_ADD_MORE_EMPLOYER_EMAILS_FOR_VOLUME"
+  },
+  "candidate_deltas": [
+    {
+      "candidate_id": "RCL-001-POST-CREDENTIAL-CAPABILITY-PROOF",
+      "previous_state": "P0_ACTIVE_ACTOR_TRUTH_PENDING",
+      "new_state": "P0_ACTIVE_ACTOR_TRUTH_PENDING",
+      "delta": "NO_NEW_ACTOR_TRUTH",
+      "decision": "Keep waiting for a qualified employer response or explicit rejection/no-residual signal. No third employer probe merely to raise sample count."
+    },
+    {
+      "candidate_id": "RCL-002-SME-LOCAL-MARKET-FACT-RESIDUE",
+      "previous_state": "SECONDARY_ACTOR_TRUTH_REQUIRED",
+      "new_state": "SECONDARY_ACTOR_TRUTH_REQUIRED_PUBLIC_EVIDENCE_NOT_ADVANCING",
+      "delta": "Targeted public research continued to find mature feedback and service routes but did not produce a named smaller-exporter loss event caused by one granular target-market fact after those routes were considered.",
+      "decision": "Do not promote or add broad outreach. Reopen field action only from one specific exporter decision event with current workaround and consequence."
+    },
+    {
+      "candidate_id": "RCL-003-RESOURCE-FIRST-APPLICATION-DISCOVERY",
+      "previous_state": "HIGH_VALUE_LONG_CYCLE_WATCH",
+      "new_state": "CONCRETE_RESOURCE_FOUND_BUYER_COST_UNPROVEN",
+      "delta": "A named Xuzhou resource now satisfies the resource-first side strongly enough to become a concrete watch object.",
+      "concrete_resource": {
+        "sub_id": "RCL-003A-GUOJI-ATOMIC-CLUSTER-POWDER",
+        "actor": "徐州国基原子制造有限公司",
+        "state": "MEASURED_RESOURCE_EXISTS_APPLICATION_PORTFOLIO_UNRESOLVED",
+        "resource_truth": [
+          "Jiangsu public reporting states the company has successfully produced special-metal atomic-cluster powders and its R&D engineer explicitly said the material is new and how to apply it is still an open question; the company is seeking downstream application partners.",
+          "Xuzhou/Nanjing University reporting says the company can stably produce metal-cluster powders below 10 nm and reach about 5 nm.",
+          "Nanjing University reports hundred-gram-scale W and Ni cluster-powder preparation and a W-Ni-Fe powder-metallurgy sheet with tensile strength improved by nearly 20%.",
+          "Nanjing University also reports that atomic-scale Ni powder can reduce a representative engine-casing repair process from about 1200 C to below 1000 C."
+        ],
+        "partial_flow": "Measured-property and laboratory/application evidence exists, but a repeatable industrial application portfolio is not yet publicly established by the company.",
+        "candidate_cost_side": [
+          "Xuzhou XCMG Mining Machinery publicly reports core-part fatigue/short service life/high replacement cost and a strength-versus-lightweighting conflict.",
+          "This is only an adjacent paid pain. The same event already connected XCMG with an expert team using other fatigue/material/simulation routes, so it does not prove atomic-cluster powder is the missing edge."
+        ],
+        "lowest_cost_next_truth": "Find one named industrial task where current repair/sintering/joining temperature, residual stress, fatigue loss or material strength creates measurable cost, and define a coupon/sample acceptance test that compares the cluster powder against the incumbent material under the same task.",
+        "promotion_gate": [
+          "Named buyer-side current cost",
+          "Property-to-task compatibility stated in buyer decision coordinates",
+          "Bounded sample or coupon test",
+          "Predefined acceptance metric",
+          "Evidence that existing powders/processes do not already solve the task acceptably"
+        ],
+        "kill_conditions": [
+          "The measured advantage disappears at relevant industrial process conditions",
+          "Required qualification/validation cycle makes the route unsuitable for low-cost reality testing",
+          "Existing mature powders/processes solve the buyer task at lower total cost",
+          "The company already has adequate downstream application routes and the apparent application gap is only ordinary sales expansion"
+        ],
+        "sources": [
+          "https://kxjst.jiangsu.gov.cn/art/2026/6/29/art_82538_11796235.html",
+          "https://kxjst.jiangsu.gov.cn/art/2026/7/6/art_82539_11799463.html",
+          "https://www.nju.edu.cn/info/1056/463241.htm",
+          "https://www.nju.edu.cn/info/1056/474691.htm",
+          "https://www.nju.edu.cn/info/1056/409491.htm"
+        ]
+      },
+      "comparators_rejected_or_downgraded": [
+        {
+          "name": "High-power ultra-low-temperature battery",
+          "reason": "Already progressed through market research, repeated samples and real scenario validation in industrial drones/high-altitude or low-temperature applications; this is application scaling, not undiscovered application.",
+          "source": "https://gx.china.com.cn/2026-06/29/content_43454407.html"
+        },
+        {
+          "name": "CUMT smoke-environment isolation-switch state detection patent",
+          "reason": "Already has a defined use case and completed a 2026 patent transfer; not a resource awaiting discovery of its application.",
+          "source": "https://dsi.cumt.edu.cn/info/1141/8069.htm"
+        }
+      ],
+      "decision": "RCL-003 remains non-P0. The concrete resource improves observability of the route but does not justify field contact until buyer-side cost is narrowed to one task."
+    },
+    {
+      "candidate_id": "RCL-006-POST-VERIFICATION-SUPPLIER-CAPABILITY",
+      "previous_state": "OBSERVE_ONLY_NAMED_BUYER_COST_MISSING",
+      "new_state": "OBSERVE_ONLY_NAMED_BUYER_COST_MISSING",
+      "delta": "Public examples continue to show that acceptance or inspection can be followed by later operating defects, but this does not prove a missing supplier-verification market after mature qualification systems.",
+      "decision": "Do not promote until one named buyer shows measurable avoidable loss after ordinary supplier qualification, sample/trial, audit and acceptance."
+    }
+  ],
+  "portfolio_after_update": {
+    "p0": "RCL-001-POST-CREDENTIAL-CAPABILITY-PROOF",
+    "secondary": "RCL-002-SME-LOCAL-MARKET-FACT-RESIDUE",
+    "concrete_watch": "RCL-003A-GUOJI-ATOMIC-CLUSTER-POWDER",
+    "observe_only": "RCL-006-POST-VERIFICATION-SUPPLIER-CAPABILITY",
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "research_rule_refined": [
+    "RESOURCE_FIRST_APPLICATION_DISCOVERY requires a resource that demonstrably exists before its valuable application is settled; a mature product looking for more customers is not enough.",
+    "Novelty, laboratory performance and government promotion do not establish a downstream connection.",
+    "Do not pair a resource with a nearby industrial pain merely because technical vocabulary overlaps.",
+    "A concrete RCL-003 route needs measured property -> named paid pain -> bounded sample test -> buyer acceptance metric.",
+    "When public research can still identify the buyer-side last uncertainty, preserve human validation capital."
+  ],
+  "truth_boundaries": [
+    "APPLICATION_BLANK_STATEMENT != MARKET_DEMAND",
+    "LAB_PROPERTY != INDUSTRIAL_ADVANTAGE",
+    "ADJACENT_BUYER_PAIN != RESOURCE_TASK_COMPATIBILITY",
+    "GOVERNMENT_PATIENT_CAPITAL != COMMERCIAL_VALIDATION",
+    "TECHNOLOGY_NOVELTY != OPPORTUNITY",
+    "TWO_SENT_EMAILS != REPLICATION",
+    "FIRST_EXTERNAL_VALUE_FLOW_STILL_NOT_PROVEN"
+  ]
+}
