@@ -4,6 +4,7 @@ from src.missing_edge_gate import (
     ExistingExchangeRoute,
     FieldAccessProfile,
     FieldAccessState,
+    ReachabilityGrade,
     MissingEdgeAssessment,
     MissingEdgeCounterevidence,
     MissingEdgeEvidence,
@@ -13,6 +14,7 @@ from src.missing_edge_gate import (
     missing_edge_state,
     p0_access_priority_allowed,
     p0_field_validation_allowed,
+    reachability_grade,
     validate_field_access,
     validate_missing_edge,
 )
@@ -117,6 +119,15 @@ class MissingEdgeGateTests(unittest.TestCase):
             requires_sensitive_personal_data=False,
             requires_preexisting_contract=False,
             intermediary_required=False,
+            named_actor="徐州可验证测试主体",
+            location="CN-JS-XZ / 徐州",
+            public_contact_route="public phone/email published by the named actor",
+            physical_access_route="public business/office address in Xuzhou",
+            decision_maker_distance="DIRECT",
+            permission_level="LOW",
+            capital_required_before_contact=0,
+            can_contact_within_24h=True,
+            can_physically_verify_within_72h=True,
             notes="P0 access test only; no individual consent is implied by public reachability evidence.",
         )
         payload.update(overrides)
@@ -199,13 +210,56 @@ class MissingEdgeGateTests(unittest.TestCase):
     def test_direct_human_actor_probe_is_p0_accessible(self):
         profile = self._access_profile()
         self.assertEqual(validate_field_access(profile), [])
+        self.assertEqual(reachability_grade(profile), ReachabilityGrade.A)
         self.assertEqual(field_access_state(profile), FieldAccessState.DIRECTLY_TESTABLE)
         self.assertTrue(p0_access_priority_allowed(profile))
 
     def test_mediated_actor_probe_can_still_be_p0_accessible(self):
-        profile = self._access_profile(intermediary_required=True)
+        profile = self._access_profile(
+            intermediary_required=True,
+            decision_maker_distance="ONE_HOP",
+        )
+        self.assertEqual(reachability_grade(profile), ReachabilityGrade.B)
         self.assertEqual(field_access_state(profile), FieldAccessState.MEDIATED_TESTABLE)
         self.assertTrue(p0_access_priority_allowed(profile))
+
+    def test_named_actor_and_concrete_contact_routes_are_required(self):
+        profile = self._access_profile(
+            named_actor="",
+            public_contact_route="",
+            physical_access_route="",
+        )
+        errors = validate_field_access(profile)
+        self.assertIn("missing:named_actor", errors)
+        self.assertIn("missing:public_contact_route", errors)
+        self.assertIn("missing:physical_access_route", errors)
+        self.assertEqual(reachability_grade(profile), ReachabilityGrade.UNASSESSED)
+        self.assertFalse(p0_access_priority_allowed(profile))
+
+    def test_remote_or_multi_hop_actor_is_grade_c_and_deferred_from_p0(self):
+        profile = self._access_profile(
+            location="Shanghai",
+            decision_maker_distance="MULTI_HOP",
+            can_physically_verify_within_72h=False,
+        )
+        self.assertEqual(reachability_grade(profile), ReachabilityGrade.C)
+        self.assertEqual(field_access_state(profile), FieldAccessState.LOW_REACHABILITY_DEFER)
+        self.assertFalse(p0_access_priority_allowed(profile))
+
+    def test_high_permission_actor_is_grade_d_and_deferred_from_p0(self):
+        profile = self._access_profile(permission_level="HIGH")
+        self.assertEqual(reachability_grade(profile), ReachabilityGrade.D)
+        self.assertEqual(field_access_state(profile), FieldAccessState.HIGH_FRICTION_DEFER)
+        self.assertFalse(p0_access_priority_allowed(profile))
+
+    def test_xuzhou_grade_a_requires_zero_precontact_capital_and_72h_physical_route(self):
+        profile = self._access_profile(capital_required_before_contact=100)
+        self.assertEqual(reachability_grade(profile), ReachabilityGrade.B)
+        self.assertTrue(p0_access_priority_allowed(profile))
+
+        slower = self._access_profile(can_physically_verify_within_72h=False)
+        self.assertEqual(reachability_grade(slower), ReachabilityGrade.B)
+        self.assertTrue(p0_access_priority_allowed(slower))
 
     def test_enterprise_procurement_or_proprietary_data_defers_p0(self):
         profile = self._access_profile(
