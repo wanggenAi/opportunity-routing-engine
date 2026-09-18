@@ -9,33 +9,35 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 010 is complete with zero retained candidates. Generic value destruction—idle assets, stagnant inventory, reusable packaging, project surplus, agricultural downgrade and industrial off-grade material—is already heavily routed by liquidation, recycling, reconditioning, processing, tail-stock and secondary-market channels. After this negative scan merges, Fresh Scan 011 must search only for post-secondary-market failures: seller + buyer + marketplace already exist, but exchange still repeatedly fails because condition evidence, grading, specification translation, acceptance, trust, permission or settlement cannot be cheaply standardized.
+Fresh Scan 010 is merged with zero retained candidates. Fresh Scan 011 is active only after a secondary/used-goods market already exists: seller + buyer + marketplace are present, but search for repeated exchange failure caused by condition evidence, grading, specification translation, acceptance, trust or settlement. Early evidence shows mature vertical markets increasingly internalize these functions themselves. Retain only a post-incumbent residual that survives this integrated trust/acceptance layer.
 
 ## Current Phase
-`SCAN_010_NEGATIVE_COMPLETE / RETAINED_ZERO / SCAN_011_NEXT`
+`SCAN_010_MERGED / RETAINED_ZERO / FRESH_SCAN_011_ACTIVE`
 
 ## Last Verified Main
-`3ab21218b563b636e2f129b16b987ee774ec34d7` — live main observed before the Scan 010 branch was populated. Current branch has not yet merged at this checkpoint.
+`0542b032147067737bc6e7f634468389e92777c8` — PR #213 Scan 010 merged after CI #595 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-`field/opportunity-mobilization-scan-010`
+None.
 
 ## Active PR
-Not yet opened at this checkpoint.
+None. PR #213 — `Persist opportunity mobilization scan 010` — merged.
 
 ## CI
-- Last verified business CI: PR #212 Actions #592, success.
-- Current Scan 010 branch CI: pending until PR is opened.
-- No workflow artifact is claimed unless GitHub actually emits one.
+- PR #213 head `e49c4b9e1ccdbeb0f4499a42efe6571c7bafc9a7`
+- Actions run #595, run id `35347980990`
+- workflow `ci`: success
+- merge SHA: `0542b032147067737bc6e7f634468389e92777c8`
+- run #595 emitted no separate GitHub Actions artifact
 
 ## Latest Artifact / Persisted State
-- Branch artifact: `data/opportunity_mobilization_scan_010_2026-09-18.json`
-- Branch field note: `field/opportunity-mobilization-scan-010.md`
-- Prior merged artifact: `data/opportunity_mobilization_scan_009_2026-09-18.json`
-- Workflow artifact: none currently claimed.
+- `data/opportunity_mobilization_scan_010_2026-09-18.json`
+- `field/opportunity-mobilization-scan-010.md`
+- Issue #143 synced through Scan 010
+- workflow artifact: none for CI #595
 
 ## Completed
 - OMS-016 closed.
@@ -43,44 +45,41 @@ Not yet opened at this checkpoint.
 - RCL-003A deprioritized to technology sensor only.
 - OMS-017 closed as a real service business but failed Rooter channel.
 - Scan 009 completed with zero retained candidates.
-- Scan 010 tested value-destruction/stranded-resource patterns rather than standard service categories.
-- Whole-lot public idle assets show real transaction friction but are not retained: generic liquidation platforms exist and public/state-owned cases are permission/compliance/title/removal heavy.
-- Generic stagnant inventory/tail stock is closed by mature inventory-disposal/secondary-market platforms.
-- Reusable IBC/industrial packaging is closed by collection, cleaning, reconditioning and reuse networks.
-- Project-completion surplus cable/electrical/material stock is already sold through direct resale, specialist surplus buyers, redundant-inventory systems and asset markets.
-- Agricultural downgrade/surplus is already routed by cold chain, processing, storage, export and origin-market channels.
-- Off-grade/secondary-grade industrial raw material is already traded through specialized plastic, steel and raw-material secondary/spot markets.
-- `RETAINED_CANDIDATES = 0`.
+- Scan 010 completed with zero retained candidates.
+- Generic stranded-value routes are closed: whole-lot liquidation, stagnant inventory/tail stock, reusable industrial packaging, project surplus, agricultural downgrade and off-grade raw material.
 - No founder probe released.
 - External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 - Two prior external probes still have zero qualified responses.
+- Fresh Scan 011 started.
+- Early Scan 011 evidence:
+  - retired/degraded PV components have an active national standard for echelon use and a 2026 platform integrating EL/power testing, traceability, quality scoring, pricing, buy/sell and recycling;
+  - used machine-tool platforms already integrate multi-step condition inspection, detailed reports, escrow, transaction guarantee and logistics;
+  - used lab/medical-equipment platforms already integrate third-party condition testing, standardized pricing, transport/installation and after-sales;
+  - electronic-component markets already provide very low minimum-unit authenticity tests, X-Ray, decap and platform authenticated-stock programs.
 
 ## Current Findings
-- `VALUE DESTRUCTION != ROUTING GAP`.
-- `REPEATED RELISTING != BUNDLE-MISMATCH OPPORTUNITY`.
-- `USABLE SURPLUS != STRANDED RESOURCE` when a mature secondary market already exists.
-- Price discount, downgrade or resale below original procurement price does not establish Rooter value.
-- The next useful search zone is after the secondary market already exists, not before it.
-- A credible Scan 011 candidate must show a repeated transaction failure after seller, buyer and marketplace are all present.
+- `ACCEPTANCE / TRUST PROBLEM != OPEN CONTROL-PLANE GAP`.
+- Mature secondary markets often evolve from listing/matching into integrated inspection, grading, provenance, escrow, warranty and logistics.
+- A generic independent inspection layer is not a candidate when the vertical market already bundles it into the transaction.
+- Scan 011 must look after those trust/acceptance services, not recreate them.
 
 ## Blockers
-- No current candidate combines bilateral action, observed post-incumbent transaction failure, narrow missing edge, high reachability, low permission, clear money flow, self-propulsion and operator exit.
+- No current candidate combines bilateral action, repeated post-market transaction failure, narrow missing edge after integrated trust services, high reachability, low permission, clear money flow, self-propulsion and operator exit.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-After Scan 010 merges, start Fresh Scan 011. Search current Xuzhou/Jiangsu secondary-market or reuse flows where seller, buyer and transaction channel already exist but trades still fail/reprice/return because condition evidence, grading, specification translation, acceptance, trust, permission or settlement is unresolved. Do not continue generic waste/surplus/dead-stock scanning. Do not commit Scan 011 unless judgment materially changes.
+Continue Fresh Scan 011. Recheck at least one additional hard-to-grade secondary industrial asset class. If the same integrated inspection/grading/guarantee pattern holds and no post-market residual survives, persist Scan 011 as a negative cross-industry result and move the next scan away from generic trust/condition verification.
 
 ## Do Not Repeat
-- Do not repeat generic whole-lot liquidation, stagnant inventory, reusable packaging, project surplus, agricultural downgrade or off-grade raw-material ideas without a post-secondary-market residual.
-- Do not repeat Scan 009 service/rental/MRO categories merely because urgency is high.
-- Do not reopen OMS-017, generic reverse engineering, OMS-016, OMS-006, RCL-003A, generic overseas field service, or generic routes closed in scans 006/007 without new direct residual evidence.
-- Do not treat discounting or relisting as proof of an open route.
-- Do not revive RCL-001 because it is easy to contact.
+- Do not build an independent generic inspection/verification marketplace where vertical secondary markets already provide reports, grading, escrow or warranty.
+- Do not repeat Scan 010 generic waste/surplus/dead-stock routes without a post-secondary-market residual.
+- Do not repeat Scan 009 standard service/rental/MRO categories.
+- Do not reopen OMS-017, OMS-016, OMS-006, RCL-003A or generic routes closed earlier without new direct residual evidence.
 - Do not use founder outreach as the discovery sensor.
 - Do not build ontology/scoring/agent architecture.
 
 ## Guardrails
 - Preserve the locked Actor-First / Reachability / Mobilization doctrine.
 - `COMPLEMENTARITY != LATENT CONNECTION`; `UNKNOWN != PASS`.
-- Founder remains routing control plane, not salesperson, asset dealer, recycler, technician, consultant or delivery labor.
+- Founder remains routing control plane, not inspector, guarantor, recycler, dealer, salesperson or delivery labor.
 - Prefer evidence-bound falsification and the smallest decisive truth.
