@@ -1,0 +1,146 @@
+{
+  "scan_id": "OPPORTUNITY_MOBILIZATION_SCAN_003",
+  "date": "2026-09-18",
+  "purpose": "Test whether the overseas industrial field-service residual is one isolated exporter case or a repeated Xuzhou OEM demand pattern with independently hungry local-service supply.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "candidate": {
+    "candidate_id": "OMS-005B-XUZHOU-OEM-GLOBAL-FIELD-SERVICE-OVERFLOW",
+    "parent_candidate": "OMS-005A-PENGCHENG-KENYA-INDUSTRIAL-FIELD-MICROTASK",
+    "demand_cluster": {
+      "geography": "徐州 / 江苏",
+      "observed_named_actors": [
+        {
+          "actor": "松谷激光科技（江苏）有限公司",
+          "evidence": "Current Xuzhou/Suining overseas after-sales engineer role requires customer-site installation, training, process commissioning and fault troubleshooting; US visa preferred."
+        },
+        {
+          "actor": "中航迈特增材制造（徐州）有限公司 / 中航迈特",
+          "evidence": "Current overseas after-sales role handles overseas 3D-printer installation/commissioning/training/service and requires overseas travel; company is simultaneously expanding overseas sales/channel capability."
+        },
+        {
+          "actor": "徐州徐工矿业机械有限公司 / 徐工集团",
+          "evidence": "Current overseas-service roles cover overseas maintenance, operation training, field support and short overseas debugging support."
+        },
+        {
+          "actor": "徐州鹏程电气有限公司",
+          "evidence": "Recent Kenya exhibition created a concrete follow-up local operating-condition test after an EPC measured equipment interfaces."
+        }
+      ],
+      "interpretation": "Cross-border OEM engineer dispatch is a repeated observable operating pattern in Xuzhou equipment manufacturing, not a single-company hypothetical need."
+    },
+    "supply_cluster": {
+      "observed_named_actors": [
+        {
+          "actor": "Mehnert GmbH",
+          "region": "Europe / US",
+          "evidence": "Industrial field-service provider publicly markets local execution for machine builders/OEMs and a Shanghai-based business-development signal explicitly seeks a first strategic Chinese equipment-company customer."
+        },
+        {
+          "actor": "MEEKEE",
+          "region": "India",
+          "evidence": "Markets on-ground commissioning/training/breakdown response specifically to Chinese OEMs; publicly claims existing work for a Chinese casting-equipment OEM and quotes local service from about USD 250/day."
+        },
+        {
+          "actor": "Klose Industrial Service",
+          "region": "Europe / APAC / US",
+          "evidence": "Offers outsourced/whitelabel installation, commissioning and ongoing field service to machine builders/OEMs under OEM documentation and acceptance criteria."
+        },
+        {
+          "actor": "Naleno / MyMobiForce",
+          "region": "multi-country",
+          "evidence": "Field-service marketplaces demonstrate global contractor routing, work-order approval and payments, but are materially stronger in IT/networking/generic field service than OEM-specific industrial machinery commissioning."
+        }
+      ],
+      "interpretation": "Supply-side willingness and execution capability are real; generic local-engineer availability is not the missing edge."
+    },
+    "adjacent_objective_evidence": [
+      "宇晶股份 public financing material states overseas technical support/after-sales currently relies mainly on domestic remote guidance or temporary dispatched staff; response efficiency is low and the company plans local service teams.",
+      "A current Wuxi industrial-automation overseas-engineer role explicitly splits work: outsourced providers perform positioning/installation/basic commissioning while HQ technicians support precision commissioning and qualification.",
+      "ServiceNow now has a Field Service Marketplace for pushing work-order tasks to eligible contractors, confirming that contractor-marketplace mechanics themselves are mature."
+    ],
+    "observed_partial_flow": [
+      "OEMs hire and dispatch their own overseas service engineers.",
+      "OEMs use agents/EPCs/local contractors for selected lower-level tasks.",
+      "Local industrial service providers seek OEM work and can operate under OEM documentation/acceptance.",
+      "Contractor marketplaces already route generic field-service tasks."
+    ],
+    "strongest_counterevidence": [
+      "Klose already offers whitelabel field service under OEM acceptance criteria across multiple regions.",
+      "Mehnert is directly trying to acquire Chinese equipment makers, which can remove the need for an intermediary.",
+      "Naleno/MyMobiForce/ServiceNow show contractor routing, approval and payment are not novel mechanics.",
+      "Large OEMs such as XCMG and mature brands can build their own local networks."
+    ],
+    "narrowed_missing_edge_hypothesis": "The remaining possible gap is not technician search. It is a China-side, multi-country control plane for smaller/mid-sized equipment OEMs that converts OEM SOP/acceptance/liability boundaries into routable local field tasks, chooses among country-specific providers, preserves evidence/quality history, coordinates remote OEM escalation and settlement, and avoids requiring a separate direct provider relationship in every country.",
+    "rooter_execution_map": {
+      "demand_actor": "Xuzhou/Jiangsu equipment OEM with intermittent overseas onsite work that does not justify owned service staff in every destination",
+      "supply_actor": "country-specific industrial field-service providers and licensed technicians",
+      "partial_flow": "OEM travel + agents/EPCs + direct local contractors + outsourced field-service providers already coexist",
+      "missing_edge": "UNPROVEN: whether OEMs experience enough multi-provider/multi-country acceptance and accountability friction to pay a separate control-plane orchestrator",
+      "task_unit": "one OEM-defined installation / survey / SAT / commissioning-support / diagnosis / maintenance work order",
+      "executor": "qualified local industrial service provider",
+      "acceptance": "OEM SOP + qualification check + evidence package + measurements/test data + customer/OEM signoff",
+      "payer": "OEM or contractually responsible overseas buyer",
+      "money_flow": "payer -> orchestration/control-plane layer -> local service provider",
+      "operator_role": "China-side intake, task schema, provider graph, qualification, routing, remote expert coordination, evidence/acceptance, settlement and cross-job performance data",
+      "operator_non_role": "not the onsite engineer; not a visa/travel agency; not generic lead generation; not the party assuming unlicensed technical liability",
+      "exit_path": "repeatable OEM task templates + multi-provider graph + acceptance/reputation data + delegated operations"
+    },
+    "reachability": {
+      "demand_side": "A/B for several Xuzhou/Jiangsu actors via public recruiting/company channels",
+      "supply_side": "C currently; public online contacts exist but providers are outside Jiangsu/overseas",
+      "combined_current_stage": "NOT A/B END-TO-END"
+    },
+    "mobilization": {
+      "demand_urgency": 3,
+      "supply_hunger": 3,
+      "resource_abundance": 2,
+      "activation_ease": 2,
+      "value_capture": 2,
+      "repeatability": 3,
+      "self_propulsion": 1,
+      "operator_exit": 2,
+      "grade": "LOW / NOT_CURRENT_STAGE_PRIORITY",
+      "explanation": "Bilateral pull is now materially stronger and economic spread is plausible, but demand self-propulsion and willingness to pay a separate orchestration layer remain unproven. Founder-led OEM sales would currently still be required."
+    },
+    "kill_conditions": [
+      "Named Xuzhou OEMs say overseas service travel is normal/acceptable and local partner management is not a material recurring cost.",
+      "OEMs can directly contract one existing provider such as Klose/Mehnert/country partner with little search, qualification or acceptance friction.",
+      "The proposed value collapses to referral/lead generation and can be bypassed after one introduction.",
+      "Each task is too OEM-specific to standardize enough for provider substitution or operator exit.",
+      "Liability/warranty/IP rules require the OEM's own employee for most commercially important tasks."
+    ],
+    "promotion_conditions": [
+      "At least one named Xuzhou/Jiangsu OEM confirms a recent overseas work order where existing agent/provider management still caused measurable travel, delay, downtime, acceptance or coordination cost.",
+      "The OEM would prefer one China-side accountable interface across more than one destination/provider rather than separately sourcing each local firm.",
+      "At least two independent local providers accept OEM-defined SOP/evidence/white-label or equivalent execution terms.",
+      "A bounded work order has clear provider payout and a credible separate orchestration margin.",
+      "Demand can originate from a recurring channel or installed-base workflow rather than founder cold-selling every job."
+    ],
+    "current_judgment": "BILATERAL_PULL_CONFIRMED / ROUTING_GAP_UNPROVEN / NOT_P0"
+  },
+  "portfolio_effect": {
+    "oms_005a_pengcheng_kenya": "Retained as one concrete sensor case under the broader cluster candidate, not independently promoted.",
+    "current_best_next_truth": "Do not contact foreign providers merely to collect partners. First resolve the buyer-side control-plane question with public evidence or one later bounded OEM truth probe: are multi-country local-service provider qualification, acceptance, accountability and settlement materially painful after agents/EPCs already exist?",
+    "human_action_required_now": false,
+    "next_public_search": "Look for named equipment OEM disclosures/cases where local-service outsourcing exists but cross-provider quality, qualification, acceptance, warranty or accountability remains costly; prefer Xuzhou/Jiangsu."
+  },
+  "sources": [
+    "https://www.zhaopin.com/jobdetail/CCL1473884580J40925515012.htm",
+    "https://www.nanjixiong.com/forum.php?mod=viewthread&tid=182223",
+    "https://www.zhaopin.com/jobdetail/CC464414780J40845365914.htm",
+    "https://www.zhaopin.com/jobdetail/CC120076170J40868039412.htm",
+    "https://www.ccpitjs.org/art/2026/7/27/art_2093_80252.html",
+    "https://www.linkedin.com/in/sharon-h-005337338",
+    "https://www.linkedin.com/posts/meekeein_chineseoem-industrialmachinery-indiamanufacturing-activity-7454228074268635138-C-mc",
+    "https://klose-group.com/solutions/machine-builders",
+    "https://www.naleno.com/about",
+    "https://www.mymobiforce.com/",
+    "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12470621&stockid=002943",
+    "https://cn.linkedin.com/jobs/view/%E6%B5%B7%E5%A4%96%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E5%A1%9E%E5%B0%94%E7%BB%B4%E4%BA%9A%EF%BC%89-at-%E6%97%A0%E9%94%A1%E7%88%B1%E6%80%9D%E9%80%9A%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4420007661",
+    "https://www.servicenow.com/docs/r/field-service-management/fsm-marketplace.html"
+  ]
+}
