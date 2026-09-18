@@ -9,73 +9,77 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 011 is complete with zero retained candidates. Across retired PV, used machine tools, used lab/scientific equipment, electronic components, used compressors and used industrial automation/power equipment, mature vertical markets already internalize inspection, grading, provenance, reporting, escrow, refurbishment, warranty and logistics. After merge, Fresh Scan 012 must move away from generic trust/condition verification and search specification/substitution translation failures inside existing procurement/secondary channels.
+Fresh Scan 011 is merged with zero retained candidates. Fresh Scan 012 is active on specification/substitution translation failures inside existing procurement channels. Early evidence strongly suggests simple substitution is already handled by cross-reference catalogs/tools, while complex migration is absorbed by OEM/application-engineering/retrofit services. Retain only a repeated, named, post-incumbent compatibility failure that can be objectively accepted without making Rooter the permanent application engineer.
 
 ## Current Phase
-`SCAN_011_NEGATIVE_COMPLETE / RETAINED_ZERO / SCAN_012_NEXT`
+`SCAN_011_MERGED / RETAINED_ZERO / FRESH_SCAN_012_ACTIVE`
 
 ## Last Verified Main
-`0e70a0c912dd085ac7e5d8ba7ee7c973fc3d39e0` — live main observed before the Scan 011 branch was populated. Current branch has not yet merged at this checkpoint.
+`1242d44266fae895496d7361a95aea8f2b9437c9` — PR #214 Scan 011 merged after CI #598 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-`field/opportunity-mobilization-scan-011`
+None.
 
 ## Active PR
-Not yet opened at this checkpoint.
+None. PR #214 — `Persist opportunity mobilization scan 011` — merged.
 
 ## CI
-- Last verified business CI: PR #213 Actions #595, success.
-- Current Scan 011 branch CI: pending until PR is opened.
-- No workflow artifact is claimed unless GitHub actually emits one.
+- PR #214 head `b679aa84a6de881d543b48befb08f238066d3d9e`
+- Actions run #598, run id `35348403120`
+- workflow `ci`: success
+- merge SHA: `1242d44266fae895496d7361a95aea8f2b9437c9`
+- run #598 emitted no separate GitHub Actions artifact
 
 ## Latest Artifact / Persisted State
-- Branch artifact: `data/opportunity_mobilization_scan_011_2026-09-18.json`
-- Branch field note: `field/opportunity-mobilization-scan-011.md`
-- Prior merged artifact: `data/opportunity_mobilization_scan_010_2026-09-18.json`
-- Workflow artifact: none currently claimed.
+- `data/opportunity_mobilization_scan_011_2026-09-18.json`
+- `field/opportunity-mobilization-scan-011.md`
+- Issue #143 synced through Scan 011
+- workflow artifact: none for CI #598
 
 ## Completed
 - Prior closed/deprioritized candidates remain unchanged.
-- Scan 009 and Scan 010 both completed with zero retained candidates.
-- Scan 011 tested post-secondary-market trust/acceptance residuals.
-- Retired PV component reuse now has an active national standard plus integrated test/grade/trace/price/buy/sell/recycle platform capability.
-- Used machine-tool markets already integrate condition inspection, detailed reports, escrow/guarantee and logistics.
-- Used laboratory/scientific equipment markets already integrate third-party certification, standardized pricing, calibration/maintenance, logistics, installation and after-sales.
-- Electronic-component markets already provide very low minimum-unit authenticity testing, X-Ray, decap and authenticated-stock/supplier-verification mechanisms.
-- Used compressor markets already integrate inspection, performance testing, refurbishment and long warranty.
-- Used robots/motors directionally show the same inspection/refurbishment/warranty pattern.
-- `RETAINED_CANDIDATES = 0`.
+- Scans 009, 010 and 011 all completed with zero retained candidates.
+- Generic trust/condition verification is now closed across multiple secondary-market verticals.
 - No founder probe released.
 - External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 - Two prior external probes still have zero qualified responses.
+- Fresh Scan 012 started.
+- Early Scan 012 counterevidence:
+  - bearing cross-brand replacement databases already exist;
+  - Siemens/Keyence/Schneider publish discontinued-model replacement guidance;
+  - Siemens retrofit configurators can map old-drive parameters into replacement drives;
+  - ABB and third-party industrial providers sell upgrade/retrofit/commissioning services;
+  - Donaldson publishes broad replacement-filter portfolios;
+  - seal suppliers provide parameter/standard/cross-reference selection;
+  - Shell provides equipment oil recommendations and cross-brand substitution advice.
 
 ## Current Findings
-- `ACCEPTANCE / TRUST PROBLEM != OPEN CONTROL-PLANE GAP`.
-- Mature vertical markets commonly evolve from listing/matching into inspection, grading, provenance, reports, escrow, logistics, refurbishment and warranty.
-- The minimum verification unit can become very small and cheap; small transactions alone do not create a verification gap.
-- A standalone generic inspection/trust layer is not current priority when the vertical transaction venue already absorbs it.
+- `SPECIFICATION TRANSLATION != OPEN ROUTING GAP`.
+- Simple equivalence can be catalog/tool-driven.
+- Complex substitution often requires application engineering, installation, programming or commissioning and is already served as an OEM/integrator upgrade project.
+- A Rooter layer that must interpret every application itself becomes the application engineer and violates operator exit.
 
 ## Blockers
-- No current candidate combines bilateral action, repeated post-market transaction failure after integrated trust services, narrow missing edge, high reachability, low permission, clear money flow, self-propulsion and operator exit.
+- No named Xuzhou/Jiangsu buyer has yet been bound to a repeated compatibility/substitution loss that remains after current OEM/distributor/application-engineer routes.
+- No current candidate combines bilateral pull, narrow post-incumbent compatibility gap, natural demand entry, objective acceptance, low permission, value capture and operator exit.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-After Scan 011 merges, start Fresh Scan 012. Search current Xuzhou/Jiangsu procurement or secondary channels for repeated specification/substitution translation failures: buyer has a functional requirement, compatible supply exists, but model numbers, standards, interfaces, dimensions, materials or performance envelopes cannot be safely mapped by current catalog/search/distributor routes. Require a named repeated cost, objective compatibility acceptance and low-permission validation before retaining anything.
+Continue Fresh Scan 012 only until the cross-industry substitution result is decisive. If no post-incumbent residual survives, persist Scan 012 as a negative result and move away from generic specification translation. Do not retain migration work that requires Rooter to become the permanent controls/application engineer.
 
 ## Do Not Repeat
-- Do not build generic inspection/verification marketplaces where vertical markets already integrate condition evidence, grading, escrow or warranty.
-- Do not repeat Scan 010 generic value-destruction/surplus routes.
-- Do not repeat Scan 009 standard service/rental/MRO routes.
+- Do not reopen generic trust/inspection routes closed by Scan 011.
+- Do not treat a discontinued model or difficult cross-reference as an opportunity when OEM/distributor migration guidance already exists.
+- Do not repeat Scan 010 value-destruction/surplus routes or Scan 009 service/rental/MRO routes.
 - Do not reopen earlier closed candidates without new direct residual evidence.
-- Do not infer a specification-translation opportunity merely because substitution is technically hard.
 - Do not use founder outreach as the discovery sensor.
 - Do not build ontology/scoring/agent architecture.
 
 ## Guardrails
 - Preserve the locked Actor-First / Reachability / Mobilization doctrine.
 - `COMPLEMENTARITY != LATENT CONNECTION`; `UNKNOWN != PASS`.
-- Founder remains routing control plane, not inspector, application engineer, guarantor, dealer, salesperson or delivery labor.
+- Founder remains routing control plane, not application engineer, programmer, installer, inspector, salesperson or delivery labor.
 - Prefer evidence-bound falsification and the smallest decisive truth.
