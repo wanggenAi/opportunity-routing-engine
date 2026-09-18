@@ -9,69 +9,65 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 012 is merged with zero retained candidates. Fresh Scan 013 is active only on observed handoff failures between already-existing services. Early evidence shows buyers often eliminate handoff ambiguity by assigning supply + installation + commissioning + final acceptance to one accountable contractor, while vertical providers extend into turnkey relocation, calibration/repair logistics and full-lifecycle service. Retain only a named repeated gap that survives these responsibility-consolidation routes.
+Fresh Scan 013 is complete with zero retained candidates. Cross-service handoff pain is real, but buyers commonly collapse responsibility into one prime/turnkey contractor and vertical providers expand into pickup, transport, install, commissioning, acceptance and after-sales. No named post-turnkey residual was bound that Rooter could own without becoming project manager/general contractor. After merge, Fresh Scan 014 must return to broad Xuzhou/Jiangsu reality changes while preserving all accumulated kill rules.
 
 ## Current Phase
-`SCAN_012_MERGED / RETAINED_ZERO / FRESH_SCAN_013_ACTIVE`
+`SCAN_013_NEGATIVE_COMPLETE / RETAINED_ZERO / SCAN_014_NEXT`
 
 ## Last Verified Main
-`2f6c6816bfb5e73a16652d2e116e87885f36eb81` — PR #215 Scan 012 merged after CI #601 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
+`16b4695f2db3f1588debdfe97d9690869f167af3` — live main observed before the Scan 013 branch was populated. Current branch has not yet merged at this checkpoint.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-None.
+`field/opportunity-mobilization-scan-013`
 
 ## Active PR
-None. PR #215 — `Persist opportunity mobilization scan 012` — merged.
+Not yet opened at this checkpoint.
 
 ## CI
-- PR #215 head `be3c552074ef339ac8eb5d565572175b91636549`
-- Actions run #601, run id `35348891485`
-- workflow `ci`: success
-- merge SHA: `2f6c6816bfb5e73a16652d2e116e87885f36eb81`
-- run #601 emitted no separate GitHub Actions artifact
+- Last verified business CI: PR #215 Actions #601, success.
+- Current Scan 013 branch CI: pending until PR is opened.
+- No workflow artifact is claimed unless GitHub actually emits one.
 
 ## Latest Artifact / Persisted State
-- `data/opportunity_mobilization_scan_012_2026-09-18.json`
-- `field/opportunity-mobilization-scan-012.md`
-- Issue #143 synced through Scan 012
-- workflow artifact: none for CI #601
+- Branch artifact: `data/opportunity_mobilization_scan_013_2026-09-18.json`
+- Branch field note: `field/opportunity-mobilization-scan-013.md`
+- Prior merged artifact: `data/opportunity_mobilization_scan_012_2026-09-18.json`
+- Workflow artifact: none currently claimed.
 
 ## Completed
 - Prior closed/deprioritized candidates remain unchanged.
 - Scans 009–012 all completed with zero retained candidates.
-- Generic specification/substitution translation is now closed: simple substitution is tool/catalog driven; complex substitution is OEM/integrator engineering.
+- Scan 013 tested responsibility/evidence/scheduling/acceptance handoffs between existing services.
+- Current industrial automation procurement can assign supply, integration, field wiring, commissioning, training and final acceptance to one contractor.
+- Multi-system installation procurement can assign removal, cabling, installation, system integration, test reports, third-party-acceptance remediation and final acceptance to one supplier.
+- Precision-equipment/factory relocation markets already sell survey-to-dismantle-to-transport-to-install-to-commission turnkey service.
+- Calibration providers already bundle asset management, pickup/delivery, repair/maintenance, subcontracting and expedited handling.
+- Equipment OEM/service providers already extend into installation, commissioning, trial operation, training, maintenance and spare-parts support.
+- `RETAINED_CANDIDATES = 0`.
 - No founder probe released.
 - External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 - Two prior external probes still have zero qualified responses.
-- Fresh Scan 013 started.
-- Early Scan 013 evidence:
-  - current procurement contracts often assign hardware supply, cabinet integration, field wiring, system commissioning, documentation/training and final acceptance to one contractor;
-  - audio/system procurements similarly put removal, cabling, installation, integration, third-party-test remediation and final acceptance on one supplier;
-  - precision-equipment relocation firms sell survey, dismantling, protection, lifting, transport, positioning, installation and commissioning as one turnkey route;
-  - calibration providers bundle asset ledger, on-site calibration, pickup/delivery, repair/maintenance, subcontracting and expedited handling;
-  - equipment OEM/service providers commonly include installation, commissioning, trial operation, training, maintenance and parts support.
 
 ## Current Findings
 - `HANDOFF PAIN != OPEN ROUTING GAP`.
-- When cross-provider handoff risk is material, buyers frequently contractually collapse responsibility into a prime/turnkey provider.
-- Vertical service providers also expand their own boundary to absorb pickup, transport, installation, commissioning, acceptance and after-sales.
-- A neutral handoff router is weak if the incumbent response is simply to make one provider accountable end-to-end.
-- Generic multi-party complexity must not become a project-management thesis.
+- Economically meaningful handoff risk often causes responsibility consolidation into a prime/turnkey/full-lifecycle provider.
+- A neutral handoff router inserted between existing providers tends to inherit scope, schedule, access, evidence and acceptance responsibility and become a project manager/general contractor.
+- Generic multi-party complexity is not current opportunity evidence.
+- No named post-turnkey, low-permission, standardizable handoff residual is evidenced.
 
 ## Blockers
-- No named Xuzhou/Jiangsu transaction is bound to repeated measurable handoff loss after turnkey/general-contractor/full-lifecycle routes are considered.
-- No current candidate combines bilateral pull, post-incumbent handoff failure, standardized interface, low permission, natural demand entry, value capture and operator exit.
+- No current candidate combines bilateral pull, named measurable post-incumbent cost, narrow missing edge, high reachability, low permission, natural demand entry, value capture, self-propulsion and operator exit.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-Continue Fresh Scan 013 only until the cross-industry handoff result is decisive. If no post-turnkey residual survives, persist Scan 013 as a negative result. The next search must then move away from generic handoff/project coordination and return to broader reality changes or a more fundamental transaction barrier.
+After Scan 013 merges, start Fresh Scan 014 from broad current Xuzhou/Jiangsu reality changes and observed actor behavior, not another abstract mechanism class. Preserve all prior closed-pattern exclusions. Retain only an evidenced flow whose missing edge cannot be trivially absorbed by a mature vertical provider expanding its scope.
 
 ## Do Not Repeat
-- Do not create a generic project-management, general-contractor or coordination marketplace from multi-party complexity.
-- Do not reopen specification translation, generic trust/inspection, surplus/value-destruction, standard service/rental/MRO or earlier closed routes without new direct residual evidence.
+- Do not create generic project-management/general-contractor/coordination marketplace theses from multi-party complexity.
+- Do not reopen generic specification translation, trust/inspection, value-destruction/surplus, service/rental/MRO or earlier closed routes without new direct residual evidence.
 - Do not use founder outreach as the discovery sensor.
 - Do not build ontology/scoring/agent architecture.
 
