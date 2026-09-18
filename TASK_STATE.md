@@ -24,11 +24,11 @@ Do not scan new opportunity categories. Resolve the existing decisive truth arou
 `chore/durable-task-recovery`
 
 ## Active PR
-`PENDING`
+#206 — `Add durable ChatGPT task recovery checkpoints` (open).
 
 ## CI
 Baseline: PR #205 CI run #571, run id `35338004896`, `success`.
-Recovery branch CI: `PENDING`.
+Recovery branch CI: `PENDING` for the latest PR #206 head.
 
 ## Latest Artifact / Persisted State
 - `data/opportunity_mobilization_scan_007_2026-09-18.json`
@@ -42,7 +42,9 @@ Recovery branch CI: `PENDING`.
 - Current external-flow truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 - Two prior external probes produced zero qualified responses.
 - Existing `AGENTS.md` already preserves the Actor-First latent-value doctrine, truth boundaries, Semantic Kernel direction and founder-as-orchestrator constraints.
-- Recovery work has identified that no `TASK_STATE.md` existed and no separate durable-resume protocol existed.
+- Recovery work confirmed that no `TASK_STATE.md` existed and no separate durable-resume protocol existed.
+- `AGENTS.md` now contains the locked GitHub-first durable execution/recovery protocol on this branch.
+- `TASK_STATE.md` and `tests/test_repository_recovery_contract.py` now exist on PR #206.
 
 ## Current Findings
 - `OMS-016`: real downtime problem + abundant local hydraulic capability, but recent local event truth, workaround economics, callable urgent mobile supply and non-bypassable orchestration value are unproven.
@@ -58,7 +60,7 @@ Recovery branch CI: `PENDING`.
 - Recovery branch has not yet passed CI/merge.
 
 ## Next Action
-Finish this recovery branch through PR -> CI -> merge -> main verification, then checkpoint this file with the merged facts. Do not resume opportunity scanning during this engineering task.
+Finish PR #206 through CI -> merge -> main verification, then checkpoint this file with the merged facts. Do not resume opportunity scanning during this engineering task.
 
 ## Do Not Repeat
 - Do not reopen generic overseas field-service routing closed in scan 004 unless new direct evidence changes the residual.
