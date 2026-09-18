@@ -1,0 +1,152 @@
+{
+  "artifact_id": "REACHABILITY-PORTFOLIO-RECHECK-001-2026-09-18",
+  "observed_at": "2026-09-18",
+  "status": "MATERIAL_PORTFOLIO_NARROWING_AFTER_REACHABILITY_GATE",
+  "purpose": "Re-evaluate the existing residual portfolio after the canonical Reachability Gate was merged. This artifact does not create a new Formation, ontology, score, or business thesis. It only changes current-stage field priority where named-actor reachability is now sufficiently evidenced.",
+  "main_basis": {
+    "reachability_gate_merge_sha": "8c29efd23a644d290a82bc8a6056ad71e975f414",
+    "issue_143_state": "OPEN_FIRST_EXTERNAL_VALUE_FLOW_NOT_PROVEN",
+    "field_truth": {
+      "employer_probes_sent": 2,
+      "qualified_human_responses": 0,
+      "gmail_recheck": "Both existing probe threads still contain only the originally sent message; no external reply was present at recheck.",
+      "email_sent_ne_response": true,
+      "first_external_value_flow": "NOT_PROVEN"
+    }
+  },
+  "portfolio_recheck": [
+    {
+      "candidate_id": "RCL-001-POST-CREDENTIAL-CAPABILITY-PROOF",
+      "current_state": "P0_ACTIVE_ONE_A_GRADE_ACTOR_TRUTH_PENDING",
+      "reason_for_change": "The candidate itself is not newly promoted. The new evidence resolves one exact local actor as a high-reachability route for the already-existing decisive uncertainty.",
+      "reachability": {
+        "named_actor": "江苏国润机械制造有限公司",
+        "location": "江苏省徐州市贾汪区 / 徐州经济技术开发区徐海路199号",
+        "public_contact_route": "Public company phone + public recruitment phone/email + active recruitment HR channel; the existing field probe was already sent to the published recruitment mailbox.",
+        "physical_access_route": "Public company/recruitment address at 徐海路199号; current recruitment page binds the same employer to that work location.",
+        "decision_maker_distance": "DIRECT",
+        "permission_level": "LOW",
+        "capital_required_before_contact": 0,
+        "can_contact_within_24h": true,
+        "can_physically_verify_within_72h": true,
+        "grade": "A"
+      },
+      "connection_pressure": "Current recruiting explicitly specifies observable task capability and training/practical-performance requirements rather than credentials alone; a direct employer probe is already testing whether material verification/training cost remains after current methods.",
+      "current_workaround": "CV/certificate/interview plus practical task checks, trial work, training, supervision and probation where applicable.",
+      "real_cost_state": "UNCONFIRMED_AFTER_EXISTING_WORKAROUNDS",
+      "existing_market_service": "Recruitment screening, skill certificates, practical tests, probation and training already exist.",
+      "missing_edge": "Only the residual employer cost that remains AFTER existing practical verification/training methods; no credential/test product is assumed.",
+      "lowest_cost_reality_probe": "One bounded factual phone/HR conversation with the same named employer. Ask for the most recent real case where an apparently qualified candidate still required material trial-work/training/supervision before independent work, what the employer did, and the actual time/people/rework cost.",
+      "kill_condition": "Employer reports that current practical tests, trial work, probation and training already resolve the uncertainty at acceptable cost, or cannot identify repeated material post-screening loss.",
+      "promotion_condition": "A qualified employer describes a recent repeated case with measurable residual cost after existing screening AND identifies a specific evidence/verification gap whose reduction would change a hiring/onboarding decision.",
+      "human_action_policy": "This is eligible for one surgical reality contact because public research is exhausted and one answer can kill or materially promote the residual. Do not expand outreach volume first.",
+      "sources": [
+        "https://www.grmmglobal.com/zh/",
+        "https://www.zhaopin.com/jobdetail/CC490317120J40839206413.htm"
+      ]
+    },
+    {
+      "candidate_id": "RCL-001-XCMG-SECOND-PROBE",
+      "current_state": "RESPONSE_PENDING_REACHABILITY_NOT_FULLY_BOUND",
+      "reachability": {
+        "named_actor": "徐州徐工挖掘机械有限公司",
+        "location": "徐州",
+        "public_contact_route": "Current recruitment email already used by the existing probe.",
+        "physical_access_route": "NOT_YET_BOUND_TO_THE_SAME_LEGAL_ENTITY_WITH_SUFFICIENT_CURRENT_EVIDENCE",
+        "decision_maker_distance": "UNKNOWN",
+        "permission_level": "LOW",
+        "capital_required_before_contact": 0,
+        "can_contact_within_24h": true,
+        "can_physically_verify_within_72h": false,
+        "grade": "UNASSESSED"
+      },
+      "decision": "Do not infer A/B from a group-level XCMG address or generic corporate phone. Wait for the existing response or bind an exact same-entity physical route before any further field promotion."
+    },
+    {
+      "candidate_id": "RCL-002-SME-LOCAL-MARKET-FACT-RESIDUE",
+      "current_state": "SECONDARY_UNASSESSED_NO_DECISIVE_NAMED_RESIDUAL",
+      "reachability": {
+        "grade": "UNASSESSED",
+        "reason": "Named Xuzhou/Suining exporters exist, but the repository still lacks one named actor with a specific recent country-decision residual that survived test orders, distributors, platforms, public overseas-service nodes and other mature routes."
+      },
+      "counterevidence": "Current Shaji evidence shows mature borrow-the-boat / partner-led export routes and expanding local cross-border support, so generic exporter local-context service remains closed.",
+      "decision": "No human probe until one exact irreversible decision event and unresolved information residue are evidenced publicly."
+    },
+    {
+      "candidate_id": "RCL-003-RESOURCE-FIRST-APPLICATION-DISCOVERY",
+      "current_state": "WATCH_NOT_P0",
+      "reachability": {
+        "named_actor": "徐州国基原子制造有限公司",
+        "location": "徐州高新区",
+        "grade": "UNASSESSED_FOR_P0",
+        "reason": "A named resource owner exists, but no exact buyer-side recent paid residual, public contact/physical probe packet, or bounded compatibility test is yet bound."
+      },
+      "counterevidence": "The company is already participating in government/expert application-matching activity, so generic technology-to-application matching is a mature route.",
+      "decision": "Do not ask the founder/user to visit. Reopen only when a named downstream actor has a measured paid problem matched to measured material properties and a bounded sample/test can falsify compatibility."
+    },
+    {
+      "candidate_id": "RCL-004-EVIDENCE-ACCEPTANCE-REPAIR",
+      "current_state": "D_HIGH_PERMISSION_NOT_P0",
+      "decision": "Keep out of current P0 because authoritative acceptance/regulatory/system-of-record control makes first validation high-permission."
+    },
+    {
+      "candidate_id": "RCL-005-OPC-ACCESS-TRUST-RESIDUE",
+      "current_state": "CLOSED_GENERIC_ROUTE",
+      "decision": "Parks, incubators, technology managers and scene systems already perform access/trust orchestration. Reopen only on a named task that remains blocked after those routes."
+    },
+    {
+      "candidate_id": "RCL-006-POST-VERIFICATION-SUPPLIER-CAPABILITY",
+      "current_state": "UNASSESSED_NO_NAMED_BUYER_COST",
+      "decision": "No promotion and no founder field action until a named buyer-side recent failure remains after audit/sample/trial/PPAP/OTS or equivalent existing verification."
+    }
+  ],
+  "new_observations_not_promoted": [
+    {
+      "observation": "Xuzhou High-Tech Zone temporary power-capacity sharing",
+      "observed_connection_pressure": "A new factory's switchgear capacity was insufficient and ordinary expansion would take roughly three months; the park coordinated surrounding enterprises to stagger production and temporarily free power capacity while expansion proceeded.",
+      "classification": "REAL_PARTIAL_FLOW_REFERENCE_ONLY",
+      "why_not_candidate": "The park already supplied the coordination/trust/permission layer and successfully solved the case. Generic enterprise power-sharing orchestration is therefore not whitespace.",
+      "source": "https://szb.cnxz.com.cn/xzrb/pad/con/202603/13/content_47071.html"
+    },
+    {
+      "observation": "Large-flowmeter calibration formerly routed outside Xuzhou",
+      "observed_connection_pressure": "A Xuzhou manufacturer previously dismantled a large liquid flowmeter and sent it to Nanjing or farther, causing roughly half a month of turnaround and production-line/order delay.",
+      "classification": "FORCED_EXTERNAL_ROUTING_ARCHETYPE_SOLVED",
+      "why_not_candidate": "Xuzhou Inspection & Testing Center has now localized full-range/on-site calibration and removed the observed cost. Scan adjacent still-forced tasks; do not copy the solved service.",
+      "source": "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202603/t20260316_8561864.shtml"
+    },
+    {
+      "observation": "2026 Xuzhou product-quality testing includes out-of-city winning laboratories",
+      "classification": "OBSERVATION_ONLY_NOT_FORCED_ROUTING",
+      "truth_boundary": "An out-of-city award proves a transaction route, not local capability absence or a missing edge. Price, scope, qualification, scoring or procurement design may explain the award.",
+      "source": "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004006/20260625/a28e6bc8-34ea-42b8-9902-2a7a2ec3ea69.html"
+    },
+    {
+      "observation": "Xuzhou Industrial Park repeatedly coordinates idle-land/factory activation across many departments",
+      "classification": "REAL_MANUAL_COORDINATION_EXISTING_ORCHESTRATOR",
+      "why_not_candidate": "The park has a dedicated 40-person integrated service team and full-process agency route; generic coordination platform absence is contradicted.",
+      "source": "https://szb.cnxz.com.cn/xzrb/pc/con/202607/27/content_53322.html"
+    }
+  ],
+  "current_best_next_truth": {
+    "candidate_id": "RCL-001-POST-CREDENTIAL-CAPABILITY-PROOF",
+    "actor": "江苏国润机械制造有限公司",
+    "why_highest_information_gain": "It is the only surviving route currently combining an already-evidenced connection-pressure hypothesis with a named Xuzhou actor, direct public recruitment contact, exact physical location, low permission, zero pre-contact capital, and one answer capable of killing or promoting the narrow residual.",
+    "probe": [
+      "最近一次出现“简历/证书/面试看起来可以，但到试焊、现场操作或试岗后才发现不能独立完成任务”的情况是什么？",
+      "当时最后怎么处理：直接淘汰、延长试岗、安排师傅带、返工还是培训？",
+      "这一次大概占用了多少招聘/班组/师傅时间，有没有返工、延期或用工缺口成本？",
+      "现有试焊、试岗、培训和 probation 如果已经足够低成本解决，请直接按反证记录并关闭残差。"
+    ],
+    "execution_order": "Use one bounded phone/HR conversation first. Do not default to a physical visit; physical reachability is a fallback property, not permission to spend founder time.",
+    "state_effect": "NONE_UNTIL_QUALIFIED_EXTERNAL_RESPONSE_IS_CAPTURED"
+  },
+  "portfolio_rule": [
+    "Reachability is part of current-stage opportunity quality, not a market-size score.",
+    "Named actor without concrete lawful access remains fail-closed.",
+    "Human field action is permitted only when public research is exhausted and one bounded answer can kill or promote the thesis.",
+    "Out-of-city procurement does not equal forced external routing.",
+    "A successful government/park workaround proves a mechanism but usually also proves an existing orchestrator; search the residual after that route.",
+    "Do not create a new Formation from this recheck."
+  ]
+}
