@@ -1,0 +1,119 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-SCAN-025-2026-09-18",
+  "observed_at": "2026-09-18",
+  "status": "COMPATIBILITY_CONVERSION_COST_SCAN",
+  "purpose": "Deepen STANDARDIZATION_BEFORE_ROUTING and COMPATIBILITY_WEIGHTED_DENSITY. Apparently similar demand is not economically aggregatable unless the conversion cost between task variants and a common capability/acceptance interface is low enough. This scan treats changeover, protocol translation, qualification scope, tooling and standards as exchange friction, not as a new ontology.",
+  "findings": [
+    {
+      "id": "XZ-MINUTE-LEVEL-CHANGEOVER-066",
+      "state": "REAL_COMPATIBILITY_ENGINEERING",
+      "evidence": [
+        "Dongxing Xuzhou factory operates automated lines with minute-level rapid changeover for multi-variety, small-batch production.",
+        "The factory uses integrated scheduling, sensing and automated control rather than assuming different product variants are naturally interchangeable."
+      ],
+      "interpretation": "Small batches become aggregatable on one production system only after setup/changeover cost is engineered downward. Free nominal capacity without low conversion cost would not be equally callable.",
+      "source": "https://szb.cnxz.com.cn/xzrb/pad/con/202603/11/content_46961.html"
+    },
+    {
+      "id": "JS-THREE-MINUTE-CHANGEOVER-067",
+      "state": "STANDARDIZATION_REDUCES_VARIANT_SWITCH_COST",
+      "evidence": [
+        "A Jiangsu advanced intelligent-factory case uses modular workstation design, standardized process modules and rapid reconfiguration for high-mix low-volume production.",
+        "A related factory case reports scan-based changeover shortened to about three minutes and explicitly identifies inconsistent equipment communication protocols as an implementation obstacle."
+      ],
+      "interpretation": "Compatibility is engineered through modularity, common interfaces and standardized process state. Protocol mismatch is the inverse case: capacity can exist but remain non-composable.",
+      "source": "https://www.wimc.org.cn/news_show.aspx?id=1053"
+    },
+    {
+      "id": "JS-TESTING-SCOPE-COMPATIBILITY-068",
+      "state": "LEGAL_TECHNICAL_SCOPE_LIMITS_ROUTABILITY",
+      "evidence": [
+        "Jiangsu Medical Device Testing Institute's 2026 CNAS/CMA review evaluated specific added testing items/parameters; the institute expected 278 new parameters and about 2,491 total parameters after approval.",
+        "Testing capability is therefore parameter/method/scope specific rather than equivalent to generic laboratory availability."
+      ],
+      "interpretation": "A nearby laboratory with spare time is not automatically compatible with a task. Legal qualification, method, instrument range and accepted standard are part of task compatibility.",
+      "source": "https://da.jiangsu.gov.cn/art/2026/8/27/art_84602_11821530.html"
+    },
+    {
+      "id": "JS-MULTI-STANDARD-TRANSLATION-069",
+      "state": "STANDARD_TRANSLATION_EXPANDS_CALLABLE_MARKET",
+      "evidence": [
+        "A Changzhou testing/verification organization covers Chinese, European, US and Japanese vehicle/charging standards and offers a one-test/multi-market pathway.",
+        "Public reporting says local firms can avoid sending products overseas for repeated certification and can save more than RMB 2 million per certification case."
+      ],
+      "interpretation": "The underlying product may be identical, but different market standards fragment the acceptance interface. A trusted translation/testing layer converts one technical artifact into multiple accepted representations and thereby expands callability.",
+      "source": "https://www.jiangsu.gov.cn/art/2026/9/15/art_33718_11829839.html"
+    },
+    {
+      "id": "XZ-VARIANT-EXPANSION-070",
+      "state": "SUPPLY_CHAIN_FLEXIBILITY_REQUIRED_BY_DOWNSTREAM_VARIETY",
+      "evidence": [
+        "A Xuzhou engineering-machinery supplier expanded from roughly a dozen standard cylinder products to more than 200 variants and invested in production-line modification to support rapid switching for small-batch, multi-variety orders.",
+        "The change was described as necessary to keep pace with downstream flexible demand."
+      ],
+      "interpretation": "Downstream variety propagates compatibility cost upstream. Shared or routed capacity remains viable only if variant-switch cost does not overwhelm the value of smaller orders.",
+      "source": "https://m.ourjiangsu.com/news/2026/5/20/1506694906969686016.html"
+    },
+    {
+      "id": "JS-COMPATIBILITY-CONVERSION-071",
+      "state": "CROSS_DOMAIN_REPLICATION_CONFIRMED",
+      "evidence": [
+        "Manufacturing requires setup/tooling/protocol compatibility.",
+        "Testing requires scope/method/standard compatibility.",
+        "Cross-market acceptance requires standards translation.",
+        "Earlier shared transport, laboratory, waste and expert-routing examples likewise require compatible time, material or task representations."
+      ],
+      "interpretation": "Raw demand density should be discounted by the cost of converting each variant into the common execution and acceptance coordinates of the shared node."
+    }
+  ],
+  "search_rules_refined": [
+    {
+      "name": "COMPATIBILITY_CONVERSION_COST",
+      "questions": [
+        "What must change before task B can use the same capability as task A?",
+        "How much time, tooling, qualification, setup, cleaning, translation, calibration, data mapping or retraining is required?",
+        "Does this conversion cost scale per task, per batch or once per interface?",
+        "After including conversion cost, does aggregation still create positive surplus?"
+      ],
+      "relationship_to_existing_doctrine": "Deepening of STANDARDIZATION_BEFORE_ROUTING and COMPATIBILITY_WEIGHTED_DENSITY; not a new top-level ontology."
+    },
+    {
+      "name": "COMMON_EXECUTION_AND_ACCEPTANCE_COORDINATES",
+      "questions": [
+        "Can different tasks be represented using the same process/specification fields?",
+        "Can the same capability execute them without excessive reconfiguration?",
+        "Can the receiver accept outputs under a common or translatable evidence standard?"
+      ]
+    },
+    {
+      "name": "CHANGEOVER_COST_AS_DENSITY_DISCOUNT",
+      "pattern": "apparent recurring volume - setup/changeover/translation/qualification burden = economically routable volume",
+      "boundary": "This is a qualitative search heuristic, not a numerical scoring formula."
+    }
+  ],
+  "hard_boundaries": [
+    "SAME_CATEGORY_NE_SAME_ROUTABILITY",
+    "FREE_CAPACITY_NE_COMPATIBLE_CAPACITY",
+    "ACTOR_COUNT_NE_COMPATIBLE_TASK_DENSITY",
+    "STANDARD_EXISTS_NE_CROSS_STANDARD_ACCEPTANCE",
+    "TECHNICAL_CAPABILITY_NE_LEGAL_SCOPE",
+    "AGGREGATION_NE_POSITIVE_UNIT_ECONOMICS_AFTER_CHANGEOVER",
+    "COMPATIBILITY_ENGINEERING_NE_NEW_MARKET_EDGE"
+  ],
+  "closures": [
+    "GENERIC_FLEXIBLE_MANUFACTURING_PLATFORM",
+    "GENERIC_MULTI_STANDARD_CERTIFICATION_THESIS",
+    "GENERIC_LAB_MATCHING_WITHOUT_SCOPE_COMPATIBILITY"
+  ],
+  "next_scan_priority": [
+    "REAL_TASK_POOLS_WHERE_CHANGEOVER_COST_DESTROYS APPARENT_BASELOAD",
+    "TASKS_BECOMING_ROUTABLE_AFTER_STANDARDIZED_INPUT_OR_ACCEPTANCE_INTERFACE",
+    "COMMON_CAPABILITIES_WITH_HIGH_PER_JOB_TRANSLATION_COST",
+    "CASES_WHERE MODULARIZATION TURNS ONE_OFF_CUSTOM_WORK INTO REPEATABLE FLOW"
+  ],
+  "field_state": {
+    "capability_proof_employer_probes_sent": 2,
+    "qualified_human_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  }
+}
