@@ -1,6 +1,6 @@
 # Formal Truth
 
-Last updated: 2026-09-17
+Last updated: 2026-09-18
 
 This document is the current commercial source of truth. Historical rankings and launch designs remain evidence, but they do not override the current truth stated here.
 
@@ -608,6 +608,23 @@ DIRECT OUTREACH ONLY WHEN COUNTERPARTY SURPLUS IS IMMEDIATELY LEGIBLE
 
 A public contact window is a legitimate entry mechanism, but not strong backing by default.
 
+Current-stage P0 additionally requires a concrete **REACHABILITY GATE** before scarce human validation capital is spent.
+
+The candidate must name the real actor, location, public contact route, physical access route, decision-maker distance, permission level, pre-contact capital burden, 24h contactability and 72h physical-verification feasibility.
+
+Only Reachability **A/B** may enter current P0 field promotion. C is retained/deprioritized; D is fail-closed from current execution unless new access evidence changes it.
+
+```text
+PUBLIC ACTOR != HIGH REACHABILITY
+EMAIL_SENT != RESPONSE
+RESPONSE != PROBLEM
+PROBLEM != COMMITMENT
+COMMITMENT != TRANSACTION
+REACHABILITY != MARKET QUALITY
+```
+
+The operator's real-world action is a scarce resource. It is used only after public research has already established connection pressure, a narrow missing edge and a bounded question whose answer can materially kill or promote the thesis.
+
 Canonical access states:
 
 ```text
@@ -807,9 +824,10 @@ Engineering / empirical priority:
 13. only after support exists, project Need/Resource/Blocker/payer/payment truth and preserve fail-closed transaction gates;
 14. search for access/backing resources themselves: trusted introducers, institutions, parks, associations, authorized programs, committed complementary actors and recognized roles;
 15. require counterpart-visible surplus and a believable realization mechanism before meaningful outreach;
-16. route field-solvable evidence/access gaps into delegatable validation tasks;
-17. compare surviving formations under the same commercial and orchestration discipline;
-18. keep the founder as orchestration/routing control plane rather than default search, sales, implementation or delivery node.
+16. apply the REACHABILITY GATE before deep validation / Formation promotion / field experiment; prefer named Xuzhou actors that can be contacted within 24h and physically verified within 72h;
+17. route field-solvable evidence/access gaps into delegatable validation tasks;
+18. compare surviving formations under the same commercial and orchestration discipline;
+19. keep the founder as orchestration/routing control plane rather than default search, sales, implementation or delivery node.
 
 Under the current architecture freeze, do not answer this clarification by building more generic ontology, dashboards, agent frameworks or broad scraper fleets. Engineering is justified when it closes a repeated empirical truth/validation bottleneck or doctrine violation.
 
