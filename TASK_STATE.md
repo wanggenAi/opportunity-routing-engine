@@ -9,72 +9,71 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-`OMS-017-XUZHOU-ONSITE-INDUSTRIAL-REVERSE-ENGINEERING` is now closed as a Rooter route. The underlying local service business is real, but direct local evidence shows weak natural/online acquisition and material dependence on industrial-park connection and targeted visits. Current local/regional providers already deliver the service, repeat-heavy buyers can internalize scanning, and no recurring non-founder demand pump or non-bypassable orchestration value was observed. After merge, resume fresh scanning from already-flowing bilateral action rather than service categories that require provider-led market education.
+No active current-priority candidate remains after OMS-017 closure. Resume fresh Xuzhou/Jiangsu scanning from recurring events where buyers already enter a channel and suppliers already seek utilization/orders. Prioritize narrow post-incumbent gaps in routing, trust, acceptance, service-unit granularity or settlement. Do not start from a service category that needs provider-led market education.
 
 ## Current Phase
-`OMS_017_CLOSED / ACTIVE_CURRENT_PRIORITY_NONE / FRESH_SCAN_NEXT`
+`OMS_017_CLOSED / ACTIVE_CURRENT_PRIORITY_NONE / FRESH_SCAN_009_ACTIVE`
 
 ## Last Verified Main
-`09190ace8cb4b75b021cc89565b7514a7d4d3709` — live main observed before the OMS-017 decisive-truth branch was completed. Current branch has not yet merged at this checkpoint.
+`b0e083c8f98f593ffe0920501ef258874696ba42` — PR #211 OMS-017 closure merged after CI #589 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-`field/oms-017-decisive-truth-001`
+None.
 
 ## Active PR
-Not yet opened at this checkpoint.
+None. PR #211 — `Close OMS-017 on self-propulsion evidence` — merged.
 
 ## CI
-- Last verified business CI: PR #210 Actions #586, success.
-- Current OMS-017 closure branch CI: pending until PR is opened.
-- No workflow artifact is claimed unless GitHub actually emits one.
+- PR #211 head `12cc7974173949b92a26768361db0696c5fefa48`
+- Actions run #589, run id `35346460011`
+- workflow `ci`: success
+- merge SHA: `b0e083c8f98f593ffe0920501ef258874696ba42`
+- run #589 emitted no separate GitHub Actions artifact
 
 ## Latest Artifact / Persisted State
-- Branch artifact: `data/oms_017_decisive_truth_001_2026-09-18.json`
-- Branch field note: `field/oms-017-decisive-truth-001.md`
-- Prior merged scan: `data/opportunity_mobilization_scan_008_2026-09-18.json`
-- Workflow artifact: none currently claimed.
+- `data/oms_017_decisive_truth_001_2026-09-18.json`
+- `field/oms-017-decisive-truth-001.md`
+- Issue #143 synced through OMS-017 closure
+- workflow artifact: none for CI #589
 
 ## Completed
 - OMS-016 closed.
 - OMS-006 closed.
 - RCL-003A deprioritized to technology sensor only.
-- Scan 008 reopened only the Xuzhou local/on-site reverse-engineering residual.
-- OMS-017 now has a decisive commercial recheck.
-- Real local demand and paid project direction remain supported.
-- The strongest local provider directly reports that online technical-platform acquisition generated only about RMB 7000 over six months and was largely consumed by customer acquisition.
-- The provider then shifted toward local industrial connections, targeted industrial-park visits and social-content outreach.
-- Local direct service supply already exists; regional mobile scanning supply also exists.
-- A large repeat Xuzhou user publicly procured its own 3D scanner, confirming internalization as a substitute.
-- No clean recurring buyer-side procurement/search/MRO channel was bound that creates tasks before provider sales outreach.
-- Rooter-specific recurring value beyond introduction/initial scoping remains unobserved and bypass risk is high.
-- OMS-017 current judgment is `CLOSE_ROOTER_ROUTE / REAL_SERVICE_BUSINESS_BUT_FOUNDER_SALES_DEPENDENT / PATTERN_SENSOR_ONLY`.
-- No founder probe is released.
+- OMS-017 closed as `CLOSE_ROOTER_ROUTE / REAL_SERVICE_BUSINESS_BUT_FOUNDER_SALES_DEPENDENT / PATTERN_SENSOR_ONLY`.
+- Scan 008's reopened local reverse-engineering residual was falsified on self-propulsion rather than on service-demand existence.
+- Local direct providers already exist; repeat-heavy buyers can internalize scanning equipment.
+- No recurring non-founder demand pump or recurring Rooter value beyond introduction was observed.
+- No founder probe was released.
 - External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 - Two prior external probes still have zero qualified responses.
+- Fresh Scan 009 has started.
+- Initial Scan 009 closures/counterevidence:
+  - emergency generator rental in Xuzhou is already a mature direct-rental market with local stock, flexible duration and rapid response;
+  - temporary/mobile air-compressor rental is already productized;
+  - on-site dynamic balancing is already sold as a direct industrial service;
+  - these are not open Rooter routes.
 
 ## Current Findings
 - `REAL SERVICE BUSINESS != SELF-PROPELLED ROUTING BUSINESS`.
-- Portable/on-site 3D scanning is a useful minimum-service-unit pattern sensor, but this specific local market currently requires material provider-led acquisition.
-- Task definition and acceptance can be standardized, but the missing business component is the Demand Pump.
-- Direct local providers already own the customer relationship.
-- Repeat-heavy buyers can internalize equipment.
-- A simple routing/introduction layer has high bypass risk.
-- Therefore `ACTIVE_CURRENT_PRIORITY_CANDIDATE = NONE`.
+- Search priority must now start from natural recurring inbound/event channels rather than technically interesting service units.
+- Strong candidates must show demand actors already posting/buying/queuing/searching without founder education and supply actors already trying to sell/utilize capacity.
+- Mature rental/service categories with direct providers should be killed quickly.
 
 ## Blockers
-- No current candidate combines observed bilateral pull, narrow missing edge, natural recurring demand entry, replaceable supply, clear money flow, low permission and operator exit.
+- No current candidate combines observed bilateral pull, narrow post-incumbent missing edge, natural recurring demand entry, replaceable supply, clear money flow, low permission and operator exit.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-After this closure merges, resume fresh Xuzhou/Jiangsu scanning. Start from current recurring events where buyers are already entering a channel and suppliers are already seeking utilization/orders. Prioritize a narrow post-incumbent missing edge in routing, trust, acceptance, service-unit granularity or settlement. Do not use founder outreach to create the demand side.
+Continue Fresh Scan 009. Search current Xuzhou/Jiangsu recurring order/event channels for situations where buyers already enter naturally and suppliers are already hungry, then identify only the residual that incumbent platforms/providers fail to route. Retain at most 3–5 candidates and aggressively close mature categories.
 
 ## Do Not Repeat
-- Do not reopen OMS-017 merely because reverse-engineering demand is real; require new direct evidence of a recurring non-founder demand pump and recurring Rooter value after direct providers exist.
-- Do not reopen generic reverse engineering.
-- Do not reopen RCL-003A, OMS-006, OMS-016, generic overseas field service or generic routes closed in scans 006/007 without new direct residual evidence.
+- Do not reopen OMS-017 merely because reverse-engineering demand is real.
+- Do not reopen generic reverse engineering, OMS-016, OMS-006, RCL-003A, generic overseas field service, or generic routes closed in scans 006/007 without new direct residual evidence.
+- Do not treat mature rental/service categories as whitespace merely because demand urgency is high.
 - Do not revive RCL-001 because it is easy to contact.
 - Do not use founder outreach as the discovery sensor.
 - Do not build ontology/scoring/agent architecture.
@@ -82,5 +81,5 @@ After this closure merges, resume fresh Xuzhou/Jiangsu scanning. Start from curr
 ## Guardrails
 - Preserve the locked Actor-First / Reachability / Mobilization doctrine.
 - `COMPLEMENTARITY != LATENT CONNECTION`; `UNKNOWN != PASS`.
-- Founder remains routing control plane, not salesperson, scanner, modeler, consultant or delivery labor.
+- Founder remains routing control plane, not salesperson, technician, consultant or delivery labor.
 - Prefer evidence-bound falsification and the smallest decisive truth.
