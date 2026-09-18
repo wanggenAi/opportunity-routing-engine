@@ -9,41 +9,44 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 008 has one retained narrow watch only: `OMS-017-XUZHOU-ONSITE-INDUSTRIAL-REVERSE-ENGINEERING`. Generic reverse engineering remains closed. The route is NOT_P0 because self-propulsion, named buyer workaround economics and non-bypassable Rooter value are unproven. Continue public research only on one named Xuzhou buyer's recent outsourced on-site scan/reverse-engineering event and its actual acquisition path.
+Fresh Scan 008 retained one narrow watch only: `OMS-017-XUZHOU-ONSITE-INDUSTRIAL-REVERSE-ENGINEERING`. Generic reverse engineering remains closed. The route is NOT_P0 because self-propulsion, named buyer workaround economics and non-bypassable Rooter value are unproven. Continue public research only on one named Xuzhou buyer's recent outsourced on-site scan/reverse-engineering event and its actual acquisition path.
 
 ## Current Phase
-`SCAN_008_REOPEN_NARROW_REVERSE_ENGINEERING_WATCH / NOT_P0`
+`SCAN_008_MERGED / OMS_017_PUBLIC_RESEARCH_ACTIVE / NOT_P0`
 
 ## Last Verified Main
-`4baea9df345c5dbf1b2047c0832a47893995eec8` — live main observed before the Scan 008 branch was created. This branch has not yet merged at this checkpoint.
+`4051ddec9b8bb0b097958b24208c8807b0f14a1d` — PR #210 Scan 008 merged after CI #586 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-`field/opportunity-mobilization-scan-008`
+None.
 
 ## Active PR
-Not yet opened at this checkpoint.
+None. PR #210 — `Persist opportunity mobilization scan 008` — merged.
 
 ## CI
-- Last verified business CI: PR #209 Actions #583, success.
-- Current Scan 008 branch CI: pending until PR is opened.
-- No workflow artifact is claimed unless GitHub actually emits one.
+- PR #210 head `528cc5bc9d4a4de2124d6a8422e48e4299ce9bdb`
+- Actions run #586, run id `35343458128`
+- workflow `ci`: success
+- merge SHA: `4051ddec9b8bb0b097958b24208c8807b0f14a1d`
+- run #586 emitted no separate GitHub Actions artifact
+- no separate push-triggered workflow run is claimed for the merge SHA
 
 ## Latest Artifact / Persisted State
-- New branch artifact: `data/opportunity_mobilization_scan_008_2026-09-18.json`
-- New branch field note: `field/opportunity-mobilization-scan-008.md`
-- Prior main state: `data/rcl_003a_mobilization_recheck_001_2026-09-18.json`
-- Workflow artifact: none currently claimed.
+- `data/opportunity_mobilization_scan_008_2026-09-18.json`
+- `field/opportunity-mobilization-scan-008.md`
+- Issue #143 synced through Scan 008
+- workflow artifact: none for CI #586
 
 ## Completed
 - OMS-016 closed.
 - OMS-006 closed.
 - RCL-003A deprioritized to technology sensor only.
-- Existing residual portfolio was exhausted and Fresh Scan 008 started.
-- Generic small/micro hazardous-waste routing was rechecked and remains closed because Xuzhou already has five centralized collection pilots serving 1100+ small firms.
-- New direct Xuzhou evidence materially changed the old generic reverse-engineering closure only for a narrow local/on-site residual.
+- Existing residual portfolio was exhausted and Fresh Scan 008 completed.
+- Generic small/micro hazardous-waste routing remains closed because Xuzhou already has five centralized collection pilots serving 1100+ small firms.
+- New direct Xuzhou evidence materially changed the old reverse-engineering closure only for a narrow local/on-site residual.
 - 徐州多帮三维科技 reports interviewing nearly ten local manufacturers before launch and finding local reverse-engineering demand with difficulty finding providers.
 - The same source reports real large engineering-machinery deformation-repair scanning/modeling, Mercedes-AMG body-part scan/model/3D-print trials and a 17m large-component project.
 - Supply is not singular: local Xuzhou providers plus regional mobile-scanning supply exist; flexible reverse-modeling labor is visible.
@@ -60,12 +63,13 @@ Not yet opened at this checkpoint.
 - Existing local providers may already solve field scan + reverse modeling directly.
 - Supply-side reachability is A/B; demand-side current payer event remains unbound.
 - Technical task decomposition is good: object/site/accuracy/output can be standardized and scanning can be separated from modeling.
+- Public procurement search has not yet produced a clean named Xuzhou manufacturing buyer purchasing on-site reverse-engineering as a service; visible demand is still mainly provider-reported projects or equipment purchases.
 - Commercial Rooter value is weak until availability/QA/acceptance value survives direct buyer-provider contact.
 - Bypass risk is high.
 - Self-propulsion is currently 1/3 and therefore the hard Mobilization gate fails.
 
 ## Blockers
-- No named Xuzhou buyer publicly bound to one recent paid outsourced on-site scan/reverse-engineering event with time/cost/workaround.
+- No named Xuzhou buyer publicly bound to one recent paid outsourced on-site scan/reverse-engineering event with time/cost/workaround/acquisition path.
 - No evidence that buyer demand naturally enters a recurring non-founder channel.
 - No proof that two or more providers accept one common intake/acceptance schema.
 - No proof that Rooter adds recurring value beyond introduction.
