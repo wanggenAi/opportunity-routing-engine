@@ -20,7 +20,7 @@ class OpportunityMobilizationArchitectureLockTests(unittest.TestCase):
 
     def test_scorecard_requires_mobilization_before_current_stage_priority(self):
         text = SCORECARD.read_text(encoding="utf-8")
-        self.assertIn("Opportunity Mobilization Gate", text)
+        self.assertIn("docs/OPPORTUNITY_MOBILIZATION_GATE.md", text)
         self.assertIn("G7 — Mobilization potential", text)
         self.assertIn("bilateral pull", text)
         self.assertIn("operator exit", text)
