@@ -9,68 +9,68 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 016 is complete with zero retained candidates. Repeated manual workarounds are strong connection-pressure evidence only when they remain unresolved. The strongest Xuzhou examples—cross-city calibration with half-month downtime, repeated internal traceability debugging, loading queues—were already closed by local capability or productized scheduling. Peer borrowing/order sharing is real but mature clusters often institutionalize it through alliances, emergency sourcing or dense local supply. After merge, Fresh Scan 017 should search current ad-hoc micro-networks that are already forming themselves but still lack task schema, live availability, acceptance, trust history or settlement.
+Fresh Scan 016 is merged with zero retained candidates. Fresh Scan 017 is active and searches only current ad-hoc micro-networks already exchanging tiny inventory, capacity, tasks, local help or queue access through association chats, peer groups or introductions. Retain only if repeated transactions are current, measurable friction remains, and no mature alliance/platform already provides live availability, task schema, acceptance, trust and settlement.
 
 ## Current Phase
-`SCAN_016_NEGATIVE_COMPLETE / RETAINED_ZERO / SCAN_017_NEXT`
+`SCAN_016_MERGED / RETAINED_ZERO / FRESH_SCAN_017_ACTIVE`
 
 ## Last Verified Main
-`b1a5d54e93c176fabfc20d0b867699d01763591a` — state-only Scan 016 start checkpoint on main before this branch was populated. Current branch has not yet merged.
+`acf7a1d5a788083673f63d81b242253523eca0fc` — PR #219 Scan 016 merged after CI #613 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-`field/opportunity-mobilization-scan-016`
+None.
 
 ## Active PR
-Not yet opened at this checkpoint.
+None. PR #219 — `Persist opportunity mobilization scan 016` — merged.
 
 ## CI
-- Last verified business CI: PR #218 Actions #610, success.
-- Current Scan 016 branch CI: pending until PR is opened.
-- No workflow artifact is claimed unless GitHub actually emits one.
+- PR #219 head `97b2482bef3fe53aad729714119d272da6356ae6`
+- Actions run #613, run id `35407466326`
+- workflow `ci`: success
+- merge SHA: `acf7a1d5a788083673f63d81b242253523eca0fc`
+- run #613 emitted no separate GitHub Actions artifact
 
 ## Latest Artifact / Persisted State
-- Branch artifact: `data/opportunity_mobilization_scan_016_2026-09-19.json`
-- Branch field note: `field/opportunity-mobilization-scan-016.md`
-- Prior merged evidence: `data/opportunity_mobilization_scan_015_2026-09-19.json`
-- Workflow artifact: none currently claimed.
+- `data/opportunity_mobilization_scan_016_2026-09-19.json`
+- `field/opportunity-mobilization-scan-016.md`
+- Issue #143 synced through Scan 016
+- workflow artifact: none for CI #613
 
 ## Completed
 - Prior closed/deprioritized candidates remain unchanged.
-- Scans 009–015 completed with zero retained candidates.
-- Scan 016 tested current informal/manual workaround patterns.
-- 江苏本优机械's prior cross-city large-bore-flowmeter calibration workaround caused roughly half a month round trip plus line stoppage/order delay, but 2026 local on-site calibration capability has already removed the gap.
-- 徐工特种工程机械 internal technicians repeatedly adjusted a new online inspection system because traceability was unstable; Xuzhou's inspection/testing center arrived the next day and closed the issue in two days.
-- Truck loading queues are real but observed cases are being solved by enterprise scheduling/parking coordination and commercial yard appointment systems.
-- Peer borrowing of tiny materials, peer inventory and shared capacity is a real industrial behavior; mature clusters can formalize it through associations, alliances and emergency sourcing networks.
-- No current named Xuzhou actor was bound to an unresolved peer-borrowing/manual workaround with quantified time/money cost after current local/platform routes were considered.
-- Weak generic claims that buyers rely on acquaintances/WeChat were rejected.
-- Phone/WeChat/Excel after-sales dispatch was rejected as a mature internal work-order/SaaS category.
-- `RETAINED_CANDIDATES = 0`.
+- Scans 009–016 all completed with zero retained candidates.
 - No founder probe released.
 - External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 - Two prior external probes still have zero qualified responses.
+- Fresh Scan 017 started on already-forming ad-hoc micro-networks.
+- Early counterevidence:
+  - Yangzhou plush-toy firms already formalize small-order/capacity/material coordination through a small-order-fast-return alliance with shared order information, capacity status, rapid acceptance, shortage sourcing, progress tracking and performance evaluation.
+  - Xuzhou engineering-machinery chain leaders already use digital supply-chain order/fulfillment collaboration.
+  - Xuzhou-based 马力多 already productizes farmer-to-machinery-operator matching, dispatch and related ecosystem services.
+  - Furniture installation/repair micro-tasks already have very large national provider networks with guaranteed transactions.
+  - Generic machining-order groups are already served by dedicated B2B order platforms and paid order groups.
 
 ## Current Findings
-- `MANUAL WORKAROUND != CURRENT OPEN GAP`.
-- A solved workaround is a high-quality mechanism sensor, not a live candidate.
-- Peer-to-peer micro-resource exchange is real, but a candidate exists only if the ad-hoc network is currently transacting and no alliance/platform already owns the flow.
-- Recent named-event evidence outranks industry stereotypes.
+- `AD-HOC GROUP EXISTS != OPEN ROOTER GAP`.
+- Mature clusters can evolve informal group coordination into explicit order-sharing/capacity platforms.
+- A surviving candidate must be caught before or despite that institutionalization and must show repeated current transactions, not merely group membership.
+- Generic agriculture, furniture after-sales and machining-order networks are already platformized.
 
 ## Blockers
-- No current unresolved Xuzhou/Jiangsu manual workaround with measurable cost and a post-incumbent missing edge is bound.
-- No candidate combines bilateral pull, observed informal flow, high reachability, low permission, clear money flow, self-propulsion and operator exit.
+- No current Xuzhou/Jiangsu ad-hoc micro-network is yet bound to repeated transactions plus a measurable unresolved trust/availability/acceptance/settlement failure after incumbent platforms are considered.
+- No candidate combines bilateral pull, current peer transactions, narrow post-incumbent missing edge, high reachability, low permission, clear money flow, self-propulsion and operator exit.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-After Scan 016 merges, start Fresh Scan 017. Search Xuzhou/Jiangsu ad-hoc micro-networks already exchanging tiny inventory, capacity, tasks, local help or queue access through association chats, peer groups and introductions. Require repeated current transactions, measurable friction and proof that no mature alliance/platform already provides live availability, acceptance, trust and settlement.
+Continue Fresh Scan 017 only. Search smaller Xuzhou/Jiangsu clusters and peer networks for current repeated exchanges that still run through chats/introductions without an operating alliance/platform. Require a named transaction pattern, measurable friction and a control-plane edge that survives direct-provider/platform countersearch. Do not persist Scan 017 unless judgment materially changes.
 
 ## Do Not Repeat
-- Do not reopen solved flowmeter calibration or traceability-debugging cases.
-- Do not promote generic acquaintance/WeChat behavior without named recent transactions.
-- Do not treat an already-operating association/alliance/platform as an open route.
+- Do not treat Yangzhou small-order-fast-return alliance as an opportunity; it already implements the control plane.
+- Do not reopen generic farm-machinery matching, furniture after-sales, machining-order matching or XCMG supply-chain collaboration.
+- Do not promote an association/chat group without repeated current transactions and measurable unresolved friction.
 - Do not reopen earlier closed generic categories without new direct residual evidence.
 - Do not use founder outreach as the discovery sensor.
 - Do not build ontology/scoring/agent architecture.
@@ -78,5 +78,5 @@ After Scan 016 merges, start Fresh Scan 017. Search Xuzhou/Jiangsu ad-hoc micro-
 ## Guardrails
 - Preserve the locked Actor-First / Reachability / Mobilization doctrine.
 - `COMPLEMENTARITY != LATENT CONNECTION`; `UNKNOWN != PASS`.
-- Founder remains routing control plane, not courier, association salesperson, maintenance manager, prime contractor, inspector or delivery labor.
+- Founder remains routing control plane, not association salesperson, shop-floor dispatcher, courier, prime contractor or delivery labor.
 - Prefer evidence-bound falsification and the smallest decisive truth.
