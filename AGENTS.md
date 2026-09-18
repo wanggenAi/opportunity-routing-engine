@@ -40,6 +40,49 @@ Optimize for **truthful value formation + discovered latent connections + recurr
 
 **Code serves the doctrine. The doctrine does not bend to the convenience of code, a website, an API, an explicit-demand feed, a current candidate or a source schema.**
 
+## Durable execution and recovery protocol — LOCKED
+
+GitHub's current repository state is the operational source of truth for project progress. Chat context is disposable transport; it is never authoritative project state.
+
+At the start of every non-trivial task, before planning new work:
+1. resolve the current `main` HEAD and inspect recent git history;
+2. inspect open pull requests and their exact head SHAs;
+3. inspect the active/open Issues relevant to the current mission;
+4. inspect GitHub Actions / CI for the relevant commit or PR head;
+5. inspect workflow artifacts when they exist;
+6. read `TASK_STATE.md`;
+7. read the persisted JSON, ledgers, result packets or other durable artifacts referenced by `TASK_STATE.md`.
+
+Do not ask the user to restate project background merely because a chat restarted. Do not infer progress from chat memory. Do not redo work already present on `main` and already verified by repository evidence.
+
+If GitHub facts and `TASK_STATE.md` disagree, GitHub wins. Correct `TASK_STATE.md` at the next safe checkpoint instead of forcing reality to match stale state.
+
+For long tasks, work in small, independently verifiable stages. A useful stage should end in one or more durable checkpoints such as:
+- a focused commit;
+- a pushed branch;
+- a pull request with exact head SHA;
+- a CI run with recorded conclusion;
+- a persisted JSON / ledger / result packet;
+- a workflow artifact when the workflow actually emits one;
+- an Issue update that points to the durable repository evidence.
+
+After every material stage, refresh `TASK_STATE.md` with facts, evidence pointers, the current blocker and exactly one best next action. Keep it compact. It is an operational handoff record, not a narrative log and not a duplicate of Issues, PR descriptions, scan reports or research documents.
+
+On interruption, timeout, connection loss or a new chat, resume before replanning:
+`LIVE GITHUB STATE -> TASK_STATE -> referenced durable evidence -> next unresolved action`.
+
+Do not create a second checkpoint system when an existing repository ledger, persisted JSON, PR, Issue or workflow artifact already carries the needed evidence. `TASK_STATE.md` should point to those objects rather than copy their contents.
+
+A state-only checkpoint commit necessarily advances `main`. Therefore `Last Verified Main` in `TASK_STATE.md` means the latest functional/CI-verified main SHA observed before the state checkpoint write. On every resume, resolve live `main` first; if newer material commits exist, reconcile and update the file.
+
+Before ending a long task, leave `TASK_STATE.md` in a handoff-ready state:
+- no imaginary CI or artifact claims;
+- no stale active PR/branch claims when they can be resolved;
+- completed work separated from blockers;
+- exactly one next action;
+- explicit do-not-repeat items;
+- current doctrine guardrails preserved.
+
 ## Constitutional source of truth
 
 Before changing business logic, read these in order:
