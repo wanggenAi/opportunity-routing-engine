@@ -9,66 +9,69 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 013 is merged with zero retained candidates. Fresh Scan 014 is active from broad current Xuzhou/Jiangsu reality changes and observed actor behavior, not a preselected mechanism class. Preserve all accumulated kill rules. Retain only a current flow with bilateral action, an observed post-incumbent missing edge, high reachability, low permission, clear money flow, self-propulsion and operator exit that cannot simply be absorbed by a mature vertical provider.
+Fresh Scan 014 is complete with zero retained candidates. Broad current Xuzhou/Jiangsu state changes—including fragmented export orders, full-capacity manufacturing, temporary power-capacity mismatch, global bonded repair, aging-care demand and general proxy services—do not survive the post-incumbent/permission gate as current low-permission Rooter routes. After this negative scan merges, Fresh Scan 015 should search explicit recent transaction failures after an incumbent route already exists: repeated failed private procurement, repeated outsourcing rejection, repeated cross-city workaround, failed acceptance or transactions visibly retried by the same actor.
 
 ## Current Phase
-`SCAN_013_MERGED / RETAINED_ZERO / FRESH_SCAN_014_ACTIVE`
+`SCAN_014_NEGATIVE_COMPLETE / RETAINED_ZERO / SCAN_015_NEXT`
 
 ## Last Verified Main
-`251649e618758cd881b29423ad191111052b062f` — PR #216 Scan 013 merged after CI #604 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
+`992a9fe5457c203e4573e90d9e1b8dc004ef8a75` — live main observed before the Scan 014 branch was populated. Current branch has not yet merged at this checkpoint.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-None.
+`field/opportunity-mobilization-scan-014`
 
 ## Active PR
-None. PR #216 — `Persist opportunity mobilization scan 013` — merged.
+Not yet opened at this checkpoint.
 
 ## CI
-- PR #216 head `4e4ccb85c428450bbb6c38519cec81fcc8efd4a3`
-- Actions run #604, run id `35349205625`
-- workflow `ci`: success
-- merge SHA: `251649e618758cd881b29423ad191111052b062f`
-- run #604 emitted no separate GitHub Actions artifact
+- Last verified business CI: PR #216 Actions #604, success.
+- Current Scan 014 branch CI: pending until PR is opened.
+- No workflow artifact is claimed unless GitHub actually emits one.
 
 ## Latest Artifact / Persisted State
-- `data/opportunity_mobilization_scan_013_2026-09-18.json`
-- `field/opportunity-mobilization-scan-013.md`
-- Issue #143 synced through Scan 013
-- workflow artifact: none for CI #604
+- Branch artifact: `data/opportunity_mobilization_scan_014_2026-09-19.json`
+- Branch field note: `field/opportunity-mobilization-scan-014.md`
+- Prior merged evidence: `data/opportunity_mobilization_scan_013_2026-09-18.json`
+- Workflow artifact: none currently claimed.
 
 ## Completed
 - Prior closed/deprioritized candidates remain unchanged.
-- Scans 009–013 all completed with zero retained candidates.
-- Generic handoff/project-coordination opportunity is now closed unless a named post-turnkey residual appears.
+- Scans 009–013 completed with zero retained candidates.
+- Scan 014 re-opened the search space broadly across current Xuzhou/Jiangsu reality changes rather than another mechanism category.
+- Fragmented high-frequency export “细单” is real, but cross-border e-commerce, overseas warehouses, market-procurement and customs/logistics channels already absorb much of the fragmentation.
+- Xuzhou plant-based cat-litter export compliance friction is real, but current customs support already provides full-chain quality/compliance assistance and certificate/inspection channels.
+- Full-capacity manufacturing and buyer future-capacity locking show strong bilateral pressure, but the clearest categories are highly customized/qualified OEM markets rather than low-permission neutral routing.
+- A temporary industrial power-capacity mismatch produced a textbook latent connection, but Jiangsu has already institutionalized flexible-load / virtual-power-plant / load-aggregator participation; this is a regulated pattern sensor, not a current Rooter wedge.
+- Global after-sales repair returning to Jiangsu is a strong new flow but is already routed through bonded-repair policy, qualified enterprises, comprehensive bonded zones and customs supervision.
+- Aging/medical-care pressure is real, but Xuzhou is already building county-town-village养老 networks, medical+养老 integration, long-term-care insurance and professional medical-companion supply.
+- General household “代服务” demand is real, but local reporting already shows thousands of platform shops and mature order activity.
+- Public-space/preschool-to-elder-care repurposing is a real resource-reallocation pattern but high-permission and institution-led.
+- `RETAINED_CANDIDATES = 0`.
 - No founder probe released.
 - External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 - Two prior external probes still have zero qualified responses.
-- Fresh Scan 014 started from current reality changes.
-- Early Scan 014 observations:
-  - Jiangsu foreign-trade orders are becoming smaller, higher-frequency, more diverse and shorter-cycle; cross-border e-commerce, overseas warehouses and market-procurement channels already absorb much of this fragmentation.
-  - Xuzhou plant-based cat-litter exports show country-specific compliance/standard recognition friction, but customs already provides full-chain quality guidance, remote local inspection and cloud certificate issuance.
-  - Xuzhou/Jiangsu contains current manufacturing expansion and full-capacity pockets, but capacity pressure alone is not a routing gap.
-  - Xuzhou's first overseas-aircraft inbound repair flow is real but specialized/high-permission and currently owned by the MRO/customs route.
 
 ## Current Findings
-- Trends and state changes are search signals, not opportunity verdicts.
-- `SMALLER ORDERS != MISSING EDGE`; current cross-border channels explicitly exist to make fragmented orders viable.
+- `TREND != BUSINESS`.
+- `SMALLER ORDERS != MISSING EDGE`.
 - `CAPACITY PRESSURE != CAPACITY-ROUTING GAP`.
 - `NEW INTERNATIONAL FLOW != LOW-PERMISSION ROOTER WEDGE`.
-- Scan 014 must bind actor behavior + current workaround/cost before retaining anything.
+- Strong bilateral pressure often causes incumbents, institutions or regulators to expand scope quickly.
+- The next candidate must be observed after that adaptation, not inferred from the original pressure.
+- Household/public-service scarcity is not automatically a private low-permission platform opportunity.
 
 ## Blockers
-- No current candidate combines bilateral pull, observed post-incumbent missing edge, high reachability, low permission, natural demand entry, value capture, self-propulsion and operator exit.
+- No current candidate combines bilateral pull, an observed post-incumbent missing edge, high reachability, low permission, natural demand entry, clear money flow, self-propulsion and operator exit.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-Continue Fresh Scan 014 from current Xuzhou/Jiangsu enterprise and household behavior. Prefer repeated state changes that cause actors to spend, queue, reroute, outsource or leave capacity unused despite current platforms/services. Aggressively search incumbents before retaining anything. Do not commit Scan 014 unless judgment materially changes.
+After Scan 014 merges, start Fresh Scan 015. Search explicit recent transaction failures after an incumbent channel already exists: repeated failed private procurement, repeated outsourcing rejection, repeated cross-city workaround, failed acceptance or transactions visibly retried by the same actor. Prefer private/low-permission cases. Do not treat a public tender failure by itself as proof of a commercial opportunity.
 
 ## Do Not Repeat
-- Do not promote fragmented export orders, capacity growth or new international service flows merely from trend evidence.
+- Do not promote fragmented export orders, capacity growth, temporary power mismatch, global bonded repair, aging-care pressure or general proxy services merely from trend evidence.
 - Do not reopen generic project coordination, specification translation, trust/inspection, surplus/value-destruction, standard service/rental/MRO or earlier closed routes without new direct residual evidence.
 - Do not use founder outreach as the discovery sensor.
 - Do not build ontology/scoring/agent architecture.
@@ -76,5 +79,5 @@ Continue Fresh Scan 014 from current Xuzhou/Jiangsu enterprise and household beh
 ## Guardrails
 - Preserve the locked Actor-First / Reachability / Mobilization doctrine.
 - `COMPLEMENTARITY != LATENT CONNECTION`; `UNKNOWN != PASS`.
-- Founder remains routing control plane, not project manager, general contractor, application engineer, inspector, salesperson or delivery labor.
+- Founder remains routing control plane, not project manager, general contractor, application engineer, inspector, salesperson, regulated load aggregator or delivery labor.
 - Prefer evidence-bound falsification and the smallest decisive truth.
