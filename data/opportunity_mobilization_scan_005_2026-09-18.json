@@ -1,0 +1,138 @@
+{
+  "scan_id": "OPPORTUNITY_MOBILIZATION_SCAN_005",
+  "date": "2026-09-18",
+  "purpose": "Search for a new high-mobilization opportunity after closing generic overseas field service; test AI-built-app production-readiness review as a minimum-service-unit mismatch rather than a consulting business.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "candidate": {
+    "candidate_id": "OMS-006-AI-BUILT-APP-PRODUCTION-READINESS-MICROREVIEW",
+    "title": "Human production-readiness micro-review for AI/vibe-coded applications",
+    "reality_change": [
+      "AI coding tools have lowered the cost of producing working software and expanded the builder population beyond traditional software teams.",
+      "Chinese AI-coding communities publicly show solo/nontraditional builders shipping real mini-programs and applications, including projects with thousands to tens of thousands of users.",
+      "Security/engineering research and practitioner guidance repeatedly show that AI-built applications can be functionally working while still carrying security, architecture, data, deployment and maintainability risk."
+    ],
+    "demand_side": {
+      "observed_actors": [
+        "TRAE community solo builders shipping live mini-programs/apps",
+        "nontechnical/product/operations builders using AI coding to publish real tools",
+        "small teams moving prototypes toward real users, payments, data and public deployment"
+      ],
+      "observed_pressure": [
+        "Public Chinese engineering content repeatedly describes the 'works but not safe/confident to ship' problem.",
+        "One TRAE case publicly reports 30k registered users from a vibe-coded mini-program, proving AI-built software is reaching real users rather than remaining demo-only.",
+        "Global providers already sell fixed-price human production-readiness/security audits specifically for AI-built apps, proving some buyers pay for judgment after AI has produced working code."
+      ],
+      "payer_truth_china": "UNPROVEN",
+      "urgency_score": 2
+    },
+    "supply_side": {
+      "observed_resources": [
+        "Large pool of experienced software engineers accessible through Chinese flexible-work platforms.",
+        "Platforms such as 之马工场 explicitly recruit technical workers who want tasks allocated without business-development/price-negotiation burden.",
+        "General freelance developer platforms provide additional replaceable engineering supply."
+      ],
+      "hunger_score": 3,
+      "abundance_score": 3
+    },
+    "observed_existing_routes": [
+      "Claude/Cursor and domestic AI coding products provide automated code review.",
+      "Vibe CSA and similar tools automate AI-oriented code/security analysis.",
+      "Public checklists help builders self-audit before launch.",
+      "Traditional security/code-audit consultancies provide deeper reviews.",
+      "Global niche providers now productize human AI-app production-readiness audits at fixed prices.",
+      "General freelance platforms can source developers but do not by themselves prove a standardized review product."
+    ],
+    "global_value_capture_evidence": [
+      "ProductionReady.co publishes a fixed USD 1,500–3,000 Vibe Code Audit with structured findings and remediation roadmap.",
+      "NexAI Advisors publishes a USD 500 discovery/review unit and USD 1,500–2,500 production-readiness audit.",
+      "Upwork sellers publish AI-built-app reviews as low as about USD 250.",
+      "Other providers publish human-run reviews from hundreds to several thousand USD."
+    ],
+    "minimum_service_unit_mismatch": {
+      "incumbent_large_unit": "Traditional security audit / consulting engagement / rebuild project / full outsourced development.",
+      "emerging_small_unit": "60–120 minute or tightly bounded senior-engineer judgment + automated evidence pack + severity-ranked report + go/no-go/remediation priority.",
+      "economic_tension": "Many solo AI-built apps are early and low-revenue, so full formal audit economics can exceed the value of the project; pure AI self-review lacks independent human judgment.",
+      "exact_gap_status": "HYPOTHESIS / CHINA PAYER NOT YET PROVEN"
+    },
+    "narrowed_missing_edge_hypothesis": "There may be a China-market gap for a low-minimum-service-unit, fixed-scope human production-readiness review that sits between automated AI self-review and expensive consulting/security engagements. The channel would standardize intake/evidence, route each project to a qualified senior reviewer, enforce a common acceptance/report schema, and settle per review without requiring the operator to perform the review.",
+    "rooter_execution_map": {
+      "demand_actor": "AI/vibe-coded app builder before public launch, payment integration, customer handoff or material traffic",
+      "supply_actor": "experienced software/security/architecture engineer willing to monetize spare judgment capacity",
+      "partial_flow": "builders already use AI review/checklists or ask general developers; global agencies already sell human reviews; engineers already participate in flexible work",
+      "missing_edge": "UNPROVEN in China: a trusted fixed-scope small review unit with standard evidence/acceptance and reviewer substitution",
+      "task_unit": "one bounded repository/application production-readiness review",
+      "automated_prework": "build/test/dependency/secret/config evidence packet where possible",
+      "executor": "qualified senior engineer/reviewer; specialist escalation only when needed",
+      "acceptance": "standard report covering security, auth/data, architecture, deployment, testing/rollback and prioritized severity; evidence attached; optional short debrief",
+      "payer": "application owner/builder",
+      "money_flow": "builder -> orchestration layer -> reviewer",
+      "operator_role": "define task schema, intake, evidence automation, reviewer graph, routing, QA, acceptance, settlement and reviewer performance history",
+      "operator_non_role": "do not personally review every repository; do not become the implementation contractor; do not represent the review as formal certification/penetration test when it is not",
+      "exit_path": "standard intake + evidence packet + reviewer specialization/routing + report schema + delegated QA"
+    },
+    "reachability": {
+      "current_demand_side": "C / online-public but not bound to Xuzhou/Jiangsu named payer",
+      "current_supply_side": "B/C / online supply is abundant but not yet bound to one Jiangsu reviewer",
+      "current_stage": "NOT_P0"
+    },
+    "mobilization": {
+      "demand_urgency": 2,
+      "supply_hunger": 3,
+      "resource_abundance": 3,
+      "activation_ease": 3,
+      "value_capture": 2,
+      "repeatability": 2,
+      "self_propulsion": 1,
+      "operator_exit": 3,
+      "grade": "LOW / STRATEGIC WATCH",
+      "explanation": "The structure has strong resource abundance, easy digital execution and global payment evidence. It remains LOW under the hard gate because China payer truth and a non-founder demand pump are unproven; self-propulsion is only 1."
+    },
+    "strongest_counterevidence": [
+      "Automated AI review quality is improving rapidly and may compress willingness to pay for shallow human review.",
+      "Global human audit providers are proliferating, so the model itself is not novel.",
+      "General freelance platforms can source senior developers directly.",
+      "Formal security/penetration/compliance needs may require specialist firms and cannot be safely collapsed into a generic reviewer task.",
+      "If customer acquisition is one-by-one founder education, this becomes a consultancy rather than a self-propelled routing system."
+    ],
+    "kill_conditions": [
+      "Chinese builders consistently rely on automated review and show no willingness to pay for independent human judgment.",
+      "Existing domestic platforms already offer an equivalent fixed-scope small human review at acceptable price/turnaround.",
+      "Review scope cannot be standardized enough for reviewer substitution and consistent acceptance.",
+      "Most economically meaningful buyers require formal pentest/compliance/certification rather than this lighter review.",
+      "Demand acquisition requires founder-led sales for every review."
+    ],
+    "promotion_conditions": [
+      "One named Chinese builder with a live/near-live AI-built product accepts a bounded paid review unit or provides a recent paid workaround.",
+      "At least two qualified reviewers accept the same task/report schema and payout logic.",
+      "The review can be completed without the operator doing core technical delivery.",
+      "A recurring demand pump can be bound: AI-coding community, tool ecosystem, incubator, training cohort, app-launch workflow or another channel that continually produces launch-ready projects.",
+      "The spread between payer price, reviewer payout and QA/tool cost leaves credible orchestration margin."
+    ],
+    "current_judgment": "RETAIN_WATCH / NOT_P0 / BUYER_PAYMENT_AND_DEMAND_PUMP_REQUIRED"
+  },
+  "comparison_with_closed_patterns": {
+    "why_not_generic_freelancing": "The target unit is a standardized judgment/acceptance product, not open-ended developer labor.",
+    "why_not_generic_security_audit": "Scope is production-readiness triage for small AI-built apps; formal pentest/compliance remains a separate specialist escalation.",
+    "why_operator_fit_is_higher": "The operator can design evidence/task/acceptance/routing mechanics from software-engineering knowledge while delegating recurring technical review."
+  },
+  "current_best_next_truth": "Bind one real Chinese AI-app builder at the moment immediately before launch/real users and determine the actual current workaround, perceived downside, and willingness to pay for a fixed-scope independent human production-readiness review. In parallel bind at least two reviewers to the same report schema. Do not pitch/build before buyer payment truth.",
+  "human_action_required_now": false,
+  "sources": [
+    "https://arxiv.org/abs/2606.23130",
+    "https://forum.trae.cn/t/topic/830",
+    "https://forum.trae.cn/top",
+    "https://forum.trae.cn/c/10-category/25-category/25",
+    "https://lay-quq.github.io/vibe-coding-launch-security-checklist/",
+    "https://github.com/ok-helloworld/vibe-csa",
+    "https://developer.volcengine.com/articles/7541228757999157289",
+    "https://www.zhimawork.com/",
+    "https://productionready.co/vibe-code-audit/",
+    "https://nexaiadvisors.com/services/production-ready-review",
+    "https://www.upwork.com/services/product/development-it-a-full-security-and-code-audit-of-your-ai-built-app-in-3-days-2097337547492979661",
+    "https://axonbuild.com/blog/vibe-coding-security-audit/"
+  ]
+}
