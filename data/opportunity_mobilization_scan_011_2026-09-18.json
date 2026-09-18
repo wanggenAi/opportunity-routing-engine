@@ -1,0 +1,118 @@
+{
+  "scan_id": "OPPORTUNITY_MOBILIZATION_SCAN_011",
+  "date": "2026-09-18",
+  "title": "Post-secondary-market trust / acceptance kill sweep",
+  "purpose": "Search markets where seller, buyer and secondary-market channel already exist but exchange is impaired by condition evidence, grading, authenticity, provenance, acceptance, trust or transaction guarantee. Test whether vertical incumbents have already internalized those control-plane functions.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "scan_rule": [
+    "ACCEPTANCE / TRUST PROBLEM != OPEN CONTROL-PLANE GAP",
+    "A listing marketplace may be immature, but a mature vertical market often evolves into inspection + grading + pricing + escrow + warranty + logistics.",
+    "Do not create a generic independent inspection marketplace when the transaction venue already bundles trust evidence."
+  ],
+  "patterns_tested": [
+    {
+      "pattern": "retired / degraded photovoltaic-module secondary use",
+      "original_missing_edge": "No detection, no standardized condition grade, no trustworthy price, uncertain reuse eligibility.",
+      "incumbent_evidence": [
+        "GB/T 45075-2024 is already in force for echelon use of retired PV modules.",
+        "2026 national policy explicitly pushes retirement evaluation, inspection methods, trading platforms and standardized reuse.",
+        "A 2026 national PV reuse platform now combines EL/power testing, traceability, quality scoring, pricing, buy/sell and recycling."
+      ],
+      "judgment": "CLOSED_NEWLY_INTEGRATED_VERTICAL_ROUTE",
+      "sources": [
+        "https://std.samr.gov.cn/gb/search/gbDetailed?id=%2FEeZ4r97WL0%3D&mode=p",
+        "https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2026/art_95cd611e3c664dfc96cd76ace1aa24d7.html",
+        "https://www.pv-re.com/",
+        "https://zhengqi.hsw.cn/system/2026/0820/1803138.shtml"
+      ]
+    },
+    {
+      "pattern": "used CNC / machine-tool trading",
+      "original_missing_edge": "Buyer cannot infer precision, wear, electrical condition or repair history from listing data.",
+      "incumbent_evidence": [
+        "Current used-machine platforms advertise multi-step inspection, precision/performance/electrical tests and detailed reports.",
+        "They also provide escrow/transaction guarantee, dispute handling and nationwide logistics.",
+        "High-end machine-tool markets increasingly add traceable inspection and equipment-selection support."
+      ],
+      "judgment": "CLOSED_INTEGRATED_INSPECTION_ESCROW_ROUTE",
+      "sources": [
+        "https://www.wiek.cn/",
+        "https://www.jd35.com/"
+      ]
+    },
+    {
+      "pattern": "used laboratory / medical / scientific equipment",
+      "original_missing_edge": "Condition, runtime, maintenance/calibration history and transport/installation risk block trust.",
+      "incumbent_evidence": [
+        "Suzhou-based Baixiaobang already combines buyer/seller listing, third-party certification across 20+ indicators, standardized pricing, performance/safety tests, maintenance/calibration, transport, installation, repair and after-sales.",
+        "The platform explicitly positions inspection evidence as the basis for safe used-equipment transactions."
+      ],
+      "judgment": "CLOSED_INTEGRATED_VERTICAL_ROUTE",
+      "sources": [
+        "https://www.baixiaobanglab.cn/aboutus",
+        "https://www.baixiaobanglab.cn/security"
+      ]
+    },
+    {
+      "pattern": "secondary-market / scarce electronic components",
+      "original_missing_edge": "Buyer faces counterfeit, re-marked, refurbished or wrong-batch IC risk even when stock is available.",
+      "incumbent_evidence": [
+        "Cloud Han/ICKey already sells extremely small-unit authenticity services: appearance, X-Ray, decap, solderability and combinations at tens to hundreds of RMB.",
+        "Specialized labs already provide full IC authenticity, DPA, failure analysis and reliability testing.",
+        "Huaqiang Electronics already combines supplier verification, authenticated original-stock labels, physical inspection and random quality checks."
+      ],
+      "judgment": "CLOSED_LOW_MINIMUM_UNIT_VERIFICATION_ROUTE",
+      "sources": [
+        "https://www.ickey.cn/iqc",
+        "https://www.iclabcn.com/service/ic/",
+        "https://www.hqew.com/zt/yuanzhuang",
+        "https://about.hqew.com/OriginalStock/buyer"
+      ]
+    },
+    {
+      "pattern": "used air compressors / industrial power equipment",
+      "original_missing_edge": "Running hours, air-end wear, motor/oil-system condition and repair history are difficult to verify remotely.",
+      "incumbent_evidence": [
+        "Current used-compressor providers advertise factory-level inspection, performance testing, full reports, OEM-standard refurbishment and 12-18 month warranty.",
+        "OEMs also provide trade-in/evaluation routes.",
+        "The market therefore already converts condition uncertainty into inspection + refurbishment + warranty."
+      ],
+      "judgment": "CLOSED_INTEGRATED_RECONDITIONING_ROUTE",
+      "sources": [
+        "https://aczof.com/services",
+        "https://www.atlascopco.com.cn/zh-cn/compressors/24-trade-in"
+      ]
+    },
+    {
+      "pattern": "used industrial robots / motors",
+      "original_missing_edge": "Condition and hidden-life risk can make secondhand automation/power equipment hard to trust.",
+      "incumbent_evidence": [
+        "KUKA sells inspected used robots with quality categories, warranty and support.",
+        "Industrial motor/robot service markets already combine testing, refurbishment, commissioning and warranty rather than leaving trust as a standalone gap."
+      ],
+      "judgment": "CLOSED_DIRECTIONALLY",
+      "sources": [
+        "https://www.kuka.cn/zh-cn/services/kuka-used-robots",
+        "https://www.hhrobotics.cn/"
+      ]
+    }
+  ],
+  "scan_conclusion": {
+    "retained_candidates": [],
+    "retained_count": 0,
+    "new_p0_promotions": 0,
+    "human_action_required_now": false,
+    "first_external_value_flow": "NOT_PROVEN",
+    "material_learning": [
+      "Trust, condition and acceptance friction can be commercially important without leaving room for a separate Rooter layer.",
+      "Across multiple verticals, mature secondary markets internalize inspection, grading, provenance, standardized reports, escrow, logistics, refurbishment and warranty.",
+      "The minimum verification unit can become very small and cheap, eliminating the thesis that independent verification is necessarily too expensive for small transactions.",
+      "A credible next candidate must survive after both the marketplace and its integrated trust/acceptance layer are considered."
+    ],
+    "current_best_next_truth": "Fresh Scan 012 should move away from generic condition verification. Search for specification/substitution translation failures inside existing procurement/secondary channels: buyer has an explicit functional requirement and supply exists, but transaction fails because equivalent models, standards, interfaces or compatibility cannot be safely translated by current catalog/search/distributor routes. Require a named repeated cost and low-permission bounded acceptance before retaining anything."
+  }
+}
