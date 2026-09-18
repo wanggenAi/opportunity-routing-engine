@@ -12,6 +12,7 @@ Read with:
 - `docs/DISCOVERY_ENGINE.md`
 - `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
 - `docs/ACTOR_MODEL.md`
+- `docs/OPPORTUNITY_MOBILIZATION_GATE.md`
 
 ## Hard / strategic gates
 
@@ -60,12 +61,31 @@ Result: `PASS / UNKNOWN / FAIL`
 
 A one-off transaction may still be tested for learning, but **G6 must PASS before an opportunity becomes a core `REPEATABLE` / `SCALE_CANDIDATE` system**.
 
+### G7 — Mobilization potential / bilateral pull / self-propulsion
+Once reality validity and a narrow missing edge are established, does the route contain enough actor energy to move with little founder push?
+
+Answer:
+- Is the demand side already taking observable action to solve the problem rather than merely expressing interest?
+- Is the supply/resource side already seeking utilization, income, orders, application or an outlet?
+- Are callable resources abundant enough to route and replace?
+- Can the first useful flow activate with low permission and low capital?
+- Is there credible economic room for the orchestration layer after payouts, QA, failure and acquisition cost?
+- Does the behavior repeat?
+- Once the route is visible, can actors continue entering without founder persuasion on every transaction?
+- Can the operator eventually exit recurring sales and delivery while routing, acceptance and settlement continue?
+
+Result: `HIGH / MEDIUM / LOW / UNASSESSED`
+
+A high G7 requires evidence-backed bilateral pull, clear value capture, repeatability, self-propulsion and operator exit. It does not prove market validation.
+
 ### Gate policy
 
 - A `FAIL` on G0–G3 blocks the proposed transaction test in that form.
 - G4–G6 may be `UNKNOWN` when the test explicitly exists to resolve them.
 - G4, G5 and G6 must all `PASS` before promotion to repeatable/core platform status.
-- Founder willingness to personally perform acquisition or delivery never converts G4 or G6 into PASS.
+- Current-stage founder attention should prefer Reachability A/B candidates with G7 `HIGH`; a truthful but low-mobilization candidate may stay in the ledger without consuming founder attention.
+- Founder willingness to personally perform acquisition or delivery never converts G4, G6 or G7 into PASS/HIGH.
+- G7 is evaluated by `docs/OPPORTUNITY_MOBILIZATION_GATE.md` and is separate from the 100-point weighted score below.
 
 ## Weighted score — exactly 100 points
 
