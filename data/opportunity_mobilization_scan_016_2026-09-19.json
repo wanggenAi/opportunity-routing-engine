@@ -1,0 +1,121 @@
+{
+  "scan_id": "OPPORTUNITY_MOBILIZATION_SCAN_016",
+  "date": "2026-09-19",
+  "title": "Informal/manual workaround scan",
+  "purpose": "Search for recent Xuzhou/Jiangsu private-actor behavior where owners/employees manually transport, wait, borrow, call acquaintances, use informal groups or split tasks because formal channels do not fit the required unit/speed/access. Retain only a current unresolved workaround with measurable time/money loss after incumbent routes are checked.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "scan_rule": [
+    "MANUAL WORKAROUND != CURRENT OPEN GAP",
+    "A solved manual workaround is a mechanism precedent, not a current candidate.",
+    "INDUSTRY STEREOTYPE ABOUT ACQUAINTANCES / WECHAT != EVIDENCE",
+    "Peer borrowing/order sharing is real, but mature clusters can institutionalize it through alliances, platforms or emergency sourcing networks."
+  ],
+  "patterns_tested": [
+    {
+      "pattern": "large-bore flowmeter cross-city calibration",
+      "named_actor": "江苏本优机械有限公司",
+      "observed_manual_workaround": [
+        "The large-bore liquid flowmeter previously had to be dismantled and transported to Nanjing or farther for calibration.",
+        "Round trip took about half a month.",
+        "The production line stopped and orders were delayed."
+      ],
+      "current_resolution": [
+        "In 2026 Xuzhou local inspection/calibration capacity gained full-range qualification.",
+        "Technicians now perform on-site online calibration without dismantling or stopping production."
+      ],
+      "judgment": "SOLVED_MECHANISM_PRECEDENT / NOT_CANDIDATE",
+      "source": "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202603/t20260316_8561864.shtml"
+    },
+    {
+      "pattern": "new production test system lacks traceability method",
+      "named_actor": "徐工特种工程机械有限公司",
+      "observed_manual_workaround": [
+        "A newly introduced automated online inspection system could not produce stable traceable results.",
+        "Company technicians repeatedly adjusted the equipment but data remained unstable."
+      ],
+      "current_resolution": [
+        "One call to the Xuzhou inspection/testing center triggered an on-site multidisciplinary team the next day.",
+        "The traceability problem was closed in two days."
+      ],
+      "judgment": "SOLVED_LOCAL_CAPABILITY_ROUTE / NOT_CANDIDATE",
+      "source": "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202603/t20260316_8561864.shtml"
+    },
+    {
+      "pattern": "truck waits outside factory for concentrated loading/unloading",
+      "observed_manual_workaround": [
+        "Drivers wait roadside because loading/unloading depends on enterprise scheduling.",
+        "Concentrated loading creates queues and idle driver/vehicle time."
+      ],
+      "counterevidence": [
+        "The observed Jiangsu case was resolved through parking coordination and enterprise staggered loading.",
+        "Commercial yard/vehicle appointment systems already productize queue scheduling and gate/loading coordination."
+      ],
+      "judgment": "SOLVED_OR_PRODUCTIZED_YARD_ROUTE",
+      "sources": [
+        "https://jsnews.jschina.com.cn/nt/a/202508/t20250828_s68b00ea8e4b09ac140bc31b3.shtml",
+        "https://www.sohu.com/a/1014009246_122717451"
+      ]
+    },
+    {
+      "pattern": "peer-to-peer emergency borrowing / shared materials / shared capacity",
+      "mechanism_evidence": [
+        "Industry-association precedent shows firms sharing workers/capacity for urgent orders, buying peers' available inventory when procurement lead time is too slow, and borrowing tiny amounts of material for samples that do not meet supplier MOQ.",
+        "A 2026 Yangzhou plush-toy small-order-fast-return alliance explicitly provides order sharing and capacity matching.",
+        "Specialized emergency component sourcing services already advertise coordination of hidden inventory from peers/upstream/downstream when normal market stock cannot meet lead time."
+      ],
+      "xuzhou_recheck": [
+        "Xuzhou Ma Po glass suppliers publicly advertise dense integrated local supply chains, thousands of existing SKUs, small/large batch production and rapid scheduling.",
+        "No named current Xuzhou actor was found publicly documenting a quantified peer-borrowing workaround that remains unresolved."
+      ],
+      "judgment": "MECHANISM_REAL / NO_CURRENT_XUZHOU_RESIDUAL_BOUND",
+      "sources": [
+        "https://www.sohu.com/a/756931274_121406675",
+        "https://yztoy.cn/nd.jsp?fromColId=2&id=265",
+        "https://inotoday.cn/customized-sourcing/",
+        "https://zh.gyglass.com/",
+        "https://zh.gyglass.com/faq/"
+      ]
+    },
+    {
+      "pattern": "industrial buyers rely on acquaintances / phone / informal groups",
+      "evidence_quality": "WEAK",
+      "observed_sources": [
+        "Current marketing/industry content states some industrial maintenance/equipment buyers still use acquaintance/referral behavior.",
+        "No high-authority named recent Xuzhou transaction with quantified cost was bound."
+      ],
+      "counterevidence": [
+        "Industrial service marketplaces, direct providers, MRO platforms and increasingly digital supply-chain systems already cover broad categories.",
+        "Marketing copy cannot establish a missing edge."
+      ],
+      "judgment": "REJECT_WEAK_EVIDENCE"
+    },
+    {
+      "pattern": "industrial after-sales requests scattered across phone/WeChat/email",
+      "manual_workaround": "Some equipment-service teams manually copy requests into spreadsheets and forward them to engineer groups for claim/assignment.",
+      "counterevidence": "This is an internal workflow/SaaS problem; mature field-service/work-order products already provide intake, dispatch, accountability and history.",
+      "judgment": "CLOSED_INTERNAL_SOFTWARE_WORKFLOW",
+      "sources": [
+        "https://qingflow.com/knowledge/5142",
+        "https://equipment.qingflow.com/"
+      ]
+    }
+  ],
+  "cross_industry_result": {
+    "retained_candidates": [],
+    "retained_count": 0,
+    "new_p0_promotions": 0,
+    "human_action_required_now": false,
+    "material_learning": [
+      "The strongest manual-workaround evidence often appears publicly when the gap has already been solved; solved cases are useful mechanism sensors but not opportunities.",
+      "Manual peer borrowing/order sharing is a real market behavior, but mature clusters often formalize it through alliances, emergency sourcing, local dense supply or digital coordination.",
+      "A usable candidate requires a current named actor still performing the workaround after current local/platform routes exist.",
+      "Weak claims that buyers rely on acquaintances/WeChat cannot replace recent event evidence."
+    ],
+    "current_best_next_truth": "Fresh Scan 017 should search places where actors are already building their own ad-hoc micro-networks because no single incumbent owns the flow: recurring peer-to-peer resource exchange, task-sharing or queueing behavior visible in private-market communities. Require evidence of repeated transactions, money/time cost and the absence of an already-operating alliance/platform before retaining anything."
+  },
+  "first_external_value_flow": "NOT_PROVEN"
+}
