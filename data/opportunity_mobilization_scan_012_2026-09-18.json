@@ -1,0 +1,115 @@
+{
+  "scan_id": "OPPORTUNITY_MOBILIZATION_SCAN_012",
+  "date": "2026-09-18",
+  "title": "Specification / substitution translation kill sweep",
+  "purpose": "Search existing industrial procurement channels where buyer need and supply both exist but exchange might fail because model numbers, standards, interfaces, dimensions, materials or performance envelopes cannot be safely translated. Test whether simple equivalence is already tool-driven and complex migration is already absorbed by OEM/distributor/application-engineering services.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "scan_rule": [
+    "SPECIFICATION TRANSLATION != OPEN ROUTING GAP",
+    "TECHNICAL DIFFICULTY != COMMERCIAL MISSING EDGE",
+    "A discontinued model does not create whitespace when cross-reference/migration guidance already exists.",
+    "If the residual requires case-by-case engineering, programming, installation or commissioning, Rooter becomes the application engineer rather than a routing control plane."
+  ],
+  "patterns_tested": [
+    {
+      "pattern": "bearing cross-brand substitution",
+      "buyer_risk": "Wrong fit/load/speed/environment selection can create premature failure and downtime.",
+      "incumbent_evidence": [
+        "Current cross-brand bearing replacement databases map third-party models to standardized dimensions/forms.",
+        "Major bearing suppliers publish cross-reference tools and require compatibility confirmation for application-specific cases.",
+        "Application-specific selection is already handled by bearing suppliers/distributors through one-to-one selection support."
+      ],
+      "named_post_incumbent_buyer_loss": "NOT_FOUND",
+      "judgment": "CLOSED_TOOL_PLUS_APPLICATION_ENGINEERING_ROUTE",
+      "sources": [
+        "https://www.caloc.cn/replace",
+        "https://www.nsk.com/tools-resources/bearing-cross-reference/"
+      ]
+    },
+    {
+      "pattern": "discontinued PLC/HMI/drive replacement",
+      "buyer_risk": "A replacement may be electrically/mechanically compatible but still require parameter, wiring, communication or program migration.",
+      "incumbent_evidence": [
+        "Siemens, Keyence and Schneider publish discontinued-model replacement tables/guidance.",
+        "Siemens retrofit configurators can select replacement drives and convert old-drive parameter sets.",
+        "Siemens and ABB sell engineered retrofit/modernization services covering evaluation, migration, installation, commissioning and warranty.",
+        "Third-party industrial automation providers already sell PLC/drive/servo upgrade and replacement selection plus commissioning."
+      ],
+      "named_post_incumbent_buyer_loss": "NOT_FOUND",
+      "judgment": "CLOSED_OEM_INTEGRATOR_MIGRATION_ROUTE",
+      "sources": [
+        "https://support.industry.siemens.com/",
+        "https://www.keyence.com.cn/",
+        "https://www.se.com/cn/zh/",
+        "https://www.siemens.com/",
+        "https://new.abb.com/drives/services/engineering-and-consulting/retrofit"
+      ]
+    },
+    {
+      "pattern": "hydraulic/seal/interface substitution",
+      "buyer_risk": "Dimensions can match while pressure, material, seal hardness, chemical compatibility or standard/interface details differ.",
+      "incumbent_evidence": [
+        "Hydraulic quick-coupling interfaces are governed by current GB/ISO-derived standards.",
+        "Seal suppliers expose structured selectors by ID, cross-section, material, hardness and standard plus cross-reference data.",
+        "Specialized distributors already provide technical confirmation for uncertain replacements."
+      ],
+      "named_post_incumbent_buyer_loss": "NOT_FOUND",
+      "judgment": "CLOSED_STANDARD_PLUS_DISTRIBUTOR_ENGINEERING_ROUTE",
+      "sources": [
+        "https://openstd.samr.gov.cn/",
+        "https://www.seal-o-ring.com/"
+      ]
+    },
+    {
+      "pattern": "filter replacement",
+      "buyer_risk": "Wrong micron rating, media, flow, pressure or dimensions can damage equipment or fail acceptance.",
+      "incumbent_evidence": [
+        "Donaldson and other filtration suppliers publish broad OEM replacement/cross-reference portfolios.",
+        "Specialized filter suppliers already provide replacement selection and application guidance."
+      ],
+      "named_post_incumbent_buyer_loss": "NOT_FOUND",
+      "judgment": "CLOSED_CROSS_REFERENCE_ROUTE",
+      "sources": [
+        "https://www.donaldson.com/",
+        "https://shop.donaldson.com/"
+      ]
+    },
+    {
+      "pattern": "industrial lubricant cross-brand substitution",
+      "buyer_risk": "Viscosity class alone is insufficient; additives, OEM approvals, material compatibility and operating condition matter.",
+      "incumbent_evidence": [
+        "Shell's current technical assistant provides equipment-specific recommendations and other-brand product replacement suggestions.",
+        "Lubricant OEM/distributor technical support already owns application-specific confirmation."
+      ],
+      "named_post_incumbent_buyer_loss": "NOT_FOUND",
+      "judgment": "CLOSED_OEM_RECOMMENDATION_ROUTE",
+      "sources": [
+        "https://www.shell.com.cn/"
+      ]
+    }
+  ],
+  "cross_industry_result": {
+    "simple_substitution": "Increasingly represented as searchable structured data: cross-reference tables, catalogs, selectors and AI recommendation tools.",
+    "complex_substitution": "Becomes application engineering / retrofit / commissioning and is already sold by OEMs, authorized distributors and system integrators.",
+    "rooter_problem": "A neutral layer that safely resolves the hard cases would need persistent engineering judgment, site/application context, configuration responsibility and sometimes programming/commissioning. That violates operator exit.",
+    "named_buyer_truth": "Targeted Xuzhou/Jiangsu searches did not bind one named buyer with repeated measurable substitution loss that remained after current OEM/distributor/application-engineering routes."
+  },
+  "scan_conclusion": {
+    "retained_candidates": [],
+    "retained_count": 0,
+    "new_p0_promotions": 0,
+    "human_action_required_now": false,
+    "first_external_value_flow": "NOT_PROVEN",
+    "material_learning": [
+      "Specification complexity can be real while the commercial bridge is already present.",
+      "Simple equivalence is increasingly data/tool infrastructure.",
+      "Complex equivalence is usually an engineering service, not a neutral routing gap.",
+      "A Rooter route fails if recurring value depends on Rooter personally interpreting each application or owning migration/commissioning liability."
+    ],
+    "current_best_next_truth": "Fresh Scan 013 should move away from generic substitution and search actual cross-service handoff failures inside existing transactions: one provider completes its bounded part, another provider or buyer must continue, but the transaction repeatedly stalls because responsibility, evidence, scheduling or acceptance falls between already-existing services. Retain only a named repeated real event with measurable cost and a low-permission standardized handoff edge; do not create a generic project-management thesis."
+  }
+}
