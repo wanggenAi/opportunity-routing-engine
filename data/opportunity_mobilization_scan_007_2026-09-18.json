@@ -1,0 +1,236 @@
+{
+  "scan_id": "OPPORTUNITY_MOBILIZATION_SCAN_007",
+  "date": "2026-09-18",
+  "purpose": "Continue the minimum-service-unit scan, aggressively close generic routes already served by incumbents, and retain only a narrow Xuzhou emergency-hydraulic-hose routing residual for further public research.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "closures": [
+    {
+      "candidate_id": "OMS-012-MICROBATCH-SURFACE-TREATMENT",
+      "title": "Small-batch heat-treatment / anodizing / plating routing",
+      "observed_pressure": "Small batches can be harmed by minimum batch charges and external-process coordination.",
+      "counterevidence": [
+        "Current machining/finishing providers publicly support 1-piece prototypes and small-batch surface treatment.",
+        "Integrated CNC + finishing providers already bundle quoting, process selection, finishing and delivery.",
+        "Public pricing guidance explicitly recognizes minimum charges, but this alone does not prove a routing gap."
+      ],
+      "current_judgment": "CLOSED_GENERIC_ROUTE",
+      "reopen_only_if": "A named Xuzhou/Jiangsu buyer is repeatedly forced to pay a minimum batch/furnace charge or delay because current small-batch finishing providers cannot accept the exact material/process/acceptance combination.",
+      "sources": [
+        "https://www.ruijin-cnc.com/products/surface-treatment",
+        "https://www.fusort.com/cn/product/surface-treatment-finishing.html",
+        "https://www.metaiot.cn/ai-quote/guide/surface-treatment",
+        "https://www.needmakes.com/capabilities/finish/anodizing/"
+      ]
+    },
+    {
+      "candidate_id": "OMS-013-CUTTING-TOOL-REGRIND-ROUTING",
+      "title": "Small-lot CNC cutting-tool regrinding routing",
+      "observed_pressure": "Worn carbide tools are recurring assets; factories want lower replacement cost and regrinders want recurring workload.",
+      "counterevidence": [
+        "OSG China already offers regrinding, including third-party tool products, with local sales contact and return delivery.",
+        "刀聚云 already describes order digitization and C2M workflow for the tooling industry.",
+        "智刀云 already aggregates a large cutting-tool procurement/manufacturing ecosystem."
+      ],
+      "current_judgment": "CLOSED_GENERIC_ROUTE",
+      "reopen_only_if": "A named local factory has a recurring class of tools that existing OEM/regrind channels reject or process too slowly, with measurable tool-cost or downtime impact.",
+      "sources": [
+        "https://www.chinaosg.com/products/tool",
+        "https://www.demina.cn/profile.html",
+        "https://cutseek.com/landing/5"
+      ]
+    },
+    {
+      "candidate_id": "OMS-014-OBSOLETE-AUTOMATION-SPARES",
+      "title": "Discontinued PLC / industrial automation spare-part sourcing",
+      "observed_pressure": "A missing obsolete controller or module can hold an old production asset offline.",
+      "counterevidence": [
+        "Multiple current suppliers explicitly specialize in obsolete and hard-to-find PLC/DCS/HMI/drive parts.",
+        "Existing services already perform global sourcing, model verification, substitute-part analysis, used/refurbished sourcing and door-to-door delivery."
+      ],
+      "current_judgment": "CLOSED_GENERIC_ROUTE",
+      "reopen_only_if": "A named local asset owner has a specific obsolete part that mature global sourcing networks cannot locate or safely substitute, and the unresolved outage cost is measurable.",
+      "sources": [
+        "https://www.edvxm.com/",
+        "https://www.partnerplc.com/zh",
+        "https://aoctrl.com/",
+        "https://fengtengdcs.com/about/"
+      ]
+    },
+    {
+      "candidate_id": "OMS-015-NO-DRAWING-REVERSE-ENGINEERING",
+      "title": "No-drawing old-part reverse engineering and replication",
+      "observed_pressure": "Legacy parts can fail after drawings and original suppliers disappear.",
+      "counterevidence": [
+        "Current reverse-engineering providers explicitly sell 3D scanning, CAD reconstruction and old-part replication.",
+        "Some providers combine scanning, reverse engineering and direct manufacturing / 3D printing / machining.",
+        "Small-lot sourcing providers already advertise one-piece reverse-engineered replacement parts."
+      ],
+      "current_judgment": "CLOSED_GENERIC_ROUTE",
+      "reopen_only_if": "A named local machine owner has a specific failed part for which existing reverse-engineering providers cannot meet the time-to-value, material, tolerance or acceptance requirement.",
+      "sources": [
+        "https://casaim-service.com/",
+        "https://www.casaim.com/server/",
+        "https://fentex.jp/zh/",
+        "https://www.3devok.cn/solution/reverse-engineering"
+      ]
+    }
+  ],
+  "retained_candidate": {
+    "candidate_id": "OMS-016-XUZHOU-EMERGENCY-HYDRAULIC-HOSE-RESTORATION",
+    "title": "Xuzhou emergency hydraulic-hose restoration routing",
+    "reality_change": [
+      "Xuzhou remains a dense engineering-machinery and hydraulic-supply cluster.",
+      "Hydraulic hose failure is a stop-work event for many mobile and industrial machines.",
+      "Mobile hose workshops prove that one-site hose fabrication/replacement can be delivered as a narrow emergency task rather than a full maintenance contract."
+    ],
+    "actor_a": {
+      "type": "construction-machinery owner / rental operator / industrial asset operator with a failed hydraulic hose",
+      "named_reachable_example": "徐州众瑞达工程机械有限公司",
+      "public_contact_route": "18913499195",
+      "evidence_boundary": "Public evidence proves a reachable local operator with a fleet, not that this actor has a recent hose-failure event."
+    },
+    "actor_b": {
+      "type": "local hydraulic-hose fabricator / hose shop / hydraulic service node",
+      "named_reachable_examples": [
+        "徐州永达液压设备有限公司",
+        "中华为业（徐州）",
+        "徐州苏强格液压有限公司",
+        "local high-pressure-hose shops visible in Xuzhou business listings"
+      ],
+      "observed_capability": "hose assemblies, fittings, crimping/manufacturing and local hydraulic service capability exist in Xuzhou",
+      "supply_hunger_evidence": "徐州永达 currently recruits sales capacity to find leads and customers; this is only weak-to-moderate hunger evidence, not proof of spare emergency-response capacity."
+    },
+    "demand_pull": {
+      "grade": 3,
+      "evidence": [
+        "OEM/service guidance explicitly treats hose failure as a source of equipment downtime.",
+        "Hydraulic-hose vendors describe leakage/burst events as causing stop-work and delayed schedules.",
+        "Emergency mobile hose service exists internationally precisely to reduce unplanned downtime."
+      ],
+      "named_recent_xuzhou_event": "UNPROVEN"
+    },
+    "supply_hunger": {
+      "grade": 2,
+      "reason": "Local hose/repair supply is abundant and at least one local hose firm is actively recruiting sales, but willingness to take small urgent mobile jobs is not yet publicly established."
+    },
+    "resource_abundance": {
+      "grade": 3,
+      "evidence": [
+        "Xuzhou has multiple hose, hydraulic-component and engineering-machinery repair businesses.",
+        "徐州苏强格 publicly reports a local hose-assembly production base with large annual capacity.",
+        "中华为业 in Xuzhou sells hose assemblies, fittings and fluid-connection systems."
+      ]
+    },
+    "observed_connection_pressure": "When a hose fails, the machine needs one correctly specified hose assembly immediately; current public local evidence is dominated by factory supply, stores, OEM service and general repair rather than a clearly visible citywide mobile-hose dispatch layer.",
+    "current_workaround_hypothesis": [
+      "call OEM/dealer service",
+      "call a known repair shop",
+      "remove old hose and transport it to a hose shop for matching/crimping",
+      "wait for a part or service technician",
+      "use temporary low-pressure operation only when safe"
+    ],
+    "workaround_truth_status": "NOT YET BOUND TO ONE RECENT XUZHOU EVENT",
+    "existing_market_service": [
+      "HANSA-FLEX sells mobile hydraulic service and reports only three mobile service vehicles in China in its public China profile.",
+      "Hydroscand China advertises mobile hose field service and a Nanjing-area phone route.",
+      "XCMG and other OEMs operate broad service and spare-parts networks.",
+      "Local Xuzhou hose makers and shops supply assemblies and fittings."
+    ],
+    "why_existing_route_may_be_incomplete": [
+      "Public China mobile-hose networks exist, so the service concept itself is not novel.",
+      "The unresolved question is geographic/service-density coverage in Xuzhou for non-OEM or out-of-warranty machines and mixed brands.",
+      "Public Xuzhou results do not yet show a mature neutral dispatch network that identifies the hose/fitting, finds the nearest available crimp capability, sends fabrication/installation to the machine and closes acceptance."
+    ],
+    "missing_edge": "POSSIBLE: last-mile emergency orchestration from failed machine -> hose identification -> available compatible hose/fitting/crimp node -> field delivery/install -> pressure/leak acceptance.",
+    "minimum_service_unit": "restore one failed hydraulic hose circuit on one machine",
+    "rooter_execution_map": {
+      "demand_actor": "machine owner/operator with active downtime",
+      "supply_actor": "local compatible hose/crimp/service node",
+      "partial_flow": "operators already call OEMs, repair shops and hose suppliers; mobile hose service is proven elsewhere",
+      "missing_edge": "neutral local availability + specification + dispatch + evidence + acceptance layer may be missing",
+      "task_definition": "machine/location + hose/fitting/photo/old-hose evidence + pressure/application + access constraints",
+      "executor": "qualified hose fabrication / field-service provider, not Rooter",
+      "acceptance": "correct hose/fittings installed, no leakage at controlled test pressure, machine function restored, evidence recorded",
+      "payer": "machine owner / rental operator / responsible maintenance party",
+      "money_flow": "payer -> orchestration layer -> hose/service node",
+      "value_capture": "emergency convenience/coordination spread plus optional dispatch/service fee",
+      "operator_role": "intake schema, compatibility routing, availability check, dispatch, evidence, acceptance, settlement, provider history",
+      "operator_non_role": "do not personally crimp hoses, diagnose unsafe hydraulic systems, or perform recurring field labor",
+      "bypass_risk": "HIGH for repeated buyer-provider pairs; defensibility would require multi-provider availability, response-time reliability, compatibility history and emergency routing rather than simple introduction",
+      "operator_exit": "possible if intake, compatibility, provider availability, dispatch and acceptance can be delegated/systemized"
+    },
+    "reachability": {
+      "grade": "A",
+      "named_actor": "徐州众瑞达工程机械有限公司",
+      "location": "Xuzhou",
+      "public_contact_route": "18913499195",
+      "physical_access_route": "local Xuzhou operator; exact visit address available from public company materials/search",
+      "decision_maker_distance": "likely owner/manager-level public business phone, but not yet verified",
+      "permission_level": "LOW",
+      "capital_required_before_contact": 0,
+      "can_contact_within_24h": true,
+      "can_physically_verify_within_72h": true,
+      "caveat": "Reachability A does not promote the candidate because recent-event and current-workaround truth are still unbound."
+    },
+    "mobilization": {
+      "demand_urgency": 3,
+      "supply_hunger": 2,
+      "resource_abundance": 3,
+      "activation_ease": 2,
+      "value_capture": 2,
+      "repeatability": 3,
+      "self_propulsion": 2,
+      "operator_exit": 3,
+      "grade": "MEDIUM / NARROW WATCH",
+      "hard_gate_reason": "No named recent Xuzhou hose-failure event, no measured current workaround time/cost, and no proof that local supply wants/has capacity for urgent mobile jobs."
+    },
+    "cheapest_decisive_reality_probe": {
+      "status": "NOT YET RELEASED TO FOUNDER",
+      "reason": "Public research has narrowed the question, but Mobilization is not HIGH under the evidence gate.",
+      "future_question_if_released": "Ask one fleet/repair operator only about the most recent hydraulic-hose failure: when, what machine, how they got the replacement made, who they called, whether the hose was removed and transported, total wait/downtime, total cost, and why OEM/mobile service was or was not used."
+    },
+    "kill_conditions": [
+      "Xuzhou operators already have dependable 24/7 OEM/dealer/mobile-hose response at acceptable time and price.",
+      "Local hose shops commonly provide rapid on-site fabrication/installation directly, making routing redundant.",
+      "Most failures require broader hydraulic diagnosis/repair rather than a bounded hose-restoration unit.",
+      "Compatibility/safety information cannot be standardized enough for safe routing.",
+      "Repeat buyers simply call the same hose shop after first use and orchestration adds no recurring value."
+    ],
+    "promotion_conditions": [
+      "One named Xuzhou operator provides a recent real hose-failure event with measurable downtime/cost and a fragmented workaround.",
+      "At least two independent local hose/service nodes confirm they can accept the same bounded emergency task and disclose service radius/availability.",
+      "The operator can define a safe minimum intake/acceptance schema without performing hydraulic diagnosis.",
+      "The route beats the current workaround on time-to-restoration without requiring inventory ownership.",
+      "A repeatable inbound demand pump exists around urgent search/maintenance channels rather than founder-by-founder enterprise sales."
+    ],
+    "current_judgment": "RETAIN_NARROW_WATCH / NOT_P0 / RECENT_EVENT_AND_LOCAL_MOBILE_SUPPLY_TRUTH_REQUIRED",
+    "sources": [
+      "https://www.hansa-flex.com.cn/company/home",
+      "https://hydroscand.cn/",
+      "https://www.zhaopin.com/jobdetail/CC834068630J41000344304.htm",
+      "https://www.china-based.com/",
+      "https://www.chinastronger.com/",
+      "https://www.semmachinery.com/CN/products/hydraulics/hy-hose.html",
+      "https://www.rmyyqc.com/news/2715.html",
+      "https://www.yljzl.top/"
+    ]
+  },
+  "portfolio_delta": {
+    "new_p0_candidate": false,
+    "retained_narrow_watch": "OMS-016-XUZHOU-EMERGENCY-HYDRAULIC-HOSE-RESTORATION",
+    "closed_generic_routes": [
+      "small-batch surface-treatment routing",
+      "generic cutting-tool regrinding routing",
+      "generic obsolete automation-spare sourcing",
+      "generic no-drawing reverse-engineering/replication"
+    ],
+    "human_probe_released": false,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "current_best_next_truth": "Continue public research specifically on Xuzhou emergency hydraulic-hose restoration: bind one recent local failure/workaround and determine whether local hose nodes already provide fast mobile fabrication/installation. Kill immediately if dependable local mobile service is already routine.",
+  "human_action_required_now": false
+}
