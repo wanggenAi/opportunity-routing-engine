@@ -1,0 +1,152 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-SCAN-023-2026-09-18",
+  "observed_at": "2026-09-18",
+  "status": "SPATIAL_DENSITY_CALLABILITY_SCAN",
+  "purpose": "Deepen existing ACCESS_THRESHOLD_COLLAPSE, FLEXIBILITY_CALLABILITY_GATE and TIME_TO_VALUE_GATE with cross-domain evidence that a resource/capability can be real yet non-callable when distance, route density, collection density, transport burden or infrastructure cost exceeds the value window. This is a search-rule refinement, not a new ontology or location-platform thesis.",
+  "findings": [
+    {
+      "id": "XZ-LOCAL-METROLOGY-RADIUS-053",
+      "state": "REAL_VALUE_FLOW_AFTER_CAPABILITY_LOCALIZATION",
+      "evidence": [
+        "A Xuzhou manufacturer previously had to dismantle a large-bore liquid flowmeter and send it to Nanjing or farther for verification.",
+        "The round trip took about half a month and caused production-line downtime and order-delay risk.",
+        "After Xuzhou Inspection and Testing Center obtained full-range liquid-flowmeter verification capability, technicians could calibrate the meter on site without dismantling or stopping production."
+      ],
+      "interpretation": "The technical verification capability existed regionally before it existed locally, but the old spatial/handling cost made it functionally unavailable inside the manufacturer's production window. Local capability changed callability, not merely geographic convenience.",
+      "source": "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202603/t20260316_8561864.shtml"
+    },
+    {
+      "id": "XZ-CUSTOM-BUS-DENSITY-054",
+      "state": "REAL_DEMAND_AGGREGATION_AFTER_SPATIOTEMPORAL_CLUSTERING",
+      "evidence": [
+        "Xuzhou operates more than 140 customized bus routes and serves more than 85 enterprises/institutions with recurring commuter services.",
+        "The service explicitly maps employee residential distribution, peak commute times and route preferences before forming a route.",
+        "Public reporting says enterprise commuting cost falls by about 20%, while the bus operator improves vehicle/driver utilization and secures stable recurring demand."
+      ],
+      "interpretation": "Individual trips are not the resource. A callable transport route appears only when origin, destination and time demand become dense enough to support a repeatable route. This is spatial plus temporal demand aggregation, not generic mobility whitespace.",
+      "source": "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202602/t20260210_8556821.shtml"
+    },
+    {
+      "id": "JS-SHARED-LAB-DENSITY-055",
+      "state": "REAL_LOCAL_SHARED_CAPABILITY_AFTER_CLUSTER_DENSITY",
+      "evidence": [
+        "Seven food-production enterprises in one Nanjing market all faced testing limitations despite some having their own small laboratories.",
+        "A shared laboratory was established locally with specialist support.",
+        "Reported testing cost fell about 80% and report lead time fell from about three days to one day."
+      ],
+      "interpretation": "Shared specialist capability becomes economical when multiple repeated needs are geographically concentrated enough to amortize equipment, reagents and expert-time cost. Existing shared-lab systems are not whitespace; the mechanism is evidence for density-sensitive callability.",
+      "sources": [
+        "https://finance.jschina.com.cn/tj/scjd/202412/t20241211_s67b307cbe4b06b14f8cc89eb.shtml",
+        "https://gjzx.jschina.com.cn/TodayJiangsu/202405/t20240527_8274870.shtml"
+      ]
+    },
+    {
+      "id": "JS-SMALL-HAZWASTE-AGGREGATION-056",
+      "state": "REAL_MINIMUM_BATCH_AND_DENSITY_PROBLEM_ALREADY_ORGANIZED",
+      "evidence": [
+        "Jiangsu explicitly describes small hazardous-waste generators as facing difficult disposal access and high cost.",
+        "By the end of 2024, 95 centralized collection entities served more than 59,000 small-quantity waste-generating enterprises."
+      ],
+      "interpretation": "A compliant disposal chain can exist yet remain inaccessible to a small generator because each individual batch is too small and geographically dispersed. Collection nodes make the flow callable by aggregating volume and routes. Generic hazardous-waste collection is regulated and already organized, so this is mechanism evidence only.",
+      "source": "https://gjzx.jschina.com.cn/PressConference/202506/t20250630_8500005.shtml"
+    },
+    {
+      "id": "JS-WASTE-HEAT-RADIUS-057",
+      "state": "REAL_PHYSICAL_NETWORK_CREATES_EFFECTIVE_MARKET_RADIUS",
+      "evidence": [
+        "A Yangzhou environmental industrial park connected waste-incineration power-plant residual heat to other enterprises through a district heating network and developed five heat users.",
+        "A Lianyungang industrial-waste-heat project used about 4 km of steam pipeline plus hot/cold-water pipelines to serve nearby breeding, hospitality and greenhouse users."
+      ],
+      "interpretation": "Heat can have positive use value and still be economically unusable without nearby demand and physical infrastructure. The connection is bounded by an effective service radius that can be changed by pipes, network density and anchor users.",
+      "sources": [
+        "https://jsnews.jschina.com.cn/yz/a/202303/t20230306_3175396.shtml",
+        "https://jsnews.jschina.com.cn/lyg/a/202111/t20211126_2900470.shtml"
+      ]
+    },
+    {
+      "id": "JS-WASTEWATER-CARBON-SOURCE-PROXIMITY-058",
+      "state": "REAL_CROSS_ENTERPRISE_SYMBIOSIS_WITH_LOCATION_AS_GATE",
+      "evidence": [
+        "A Liyang wastewater operator identified brewery wastewater as a usable supplemental carbon source while the treatment plant was paying for external carbon source.",
+        "The parties explicitly evaluated wastewater quality and the geographic relationship between brewery and treatment plant, ran tests, obtained environmental approval and signed a raw-water agreement.",
+        "Reported external carbon-source dosage fell from about 175 mg/L to 35 mg/L during the trial while discharge quality remained satisfactory."
+      ],
+      "interpretation": "Material complementarity alone did not create the exchange. Quality, non-toxicity, distance, testability, regulator acceptance and a contract all had to fit simultaneously. Spatial economics is one gate inside the broader SECONDARY_INPUT_ACCEPTANCE_GATE.",
+      "source": "https://gongyi.jschina.com.cn/gdxw/202506/t20250623_3565638.shtml"
+    },
+    {
+      "id": "JS-SPATIAL-CALLABILITY-059",
+      "state": "CROSS_DOMAIN_REPLICATION_CONFIRMED",
+      "evidence": [
+        "Metrology, commuting, laboratory testing, hazardous-waste collection, waste heat and wastewater reuse all change viability when distance/density/infrastructure changes.",
+        "The same capability or resource can therefore be economically callable in one local topology and functionally unavailable in another."
+      ],
+      "interpretation": "Spatial distance is not a descriptive field only. For high-transport-cost, time-sensitive, on-site, perishable or infrastructure-bound flows, spatial density and effective service radius are part of the exchange economics."
+    }
+  ],
+  "search_rules_refined": [
+    {
+      "name": "SPATIAL_ECONOMIC_RADIUS",
+      "questions": [
+        "What is the maximum distance or travel/handling time before transport, downtime, spoilage, response or infrastructure cost exceeds the value of the exchange?",
+        "Is the resource physically movable, digitally movable, or must capability move to the actor?",
+        "Can localization, mobile service, a hub, pipeline, cold chain or other infrastructure expand the effective radius?"
+      ],
+      "relationship_to_existing_doctrine": "Spatial deepening of ACCESS_THRESHOLD_COLLAPSE, TIME_TO_VALUE_GATE and FLEXIBILITY_CALLABILITY_GATE; not a new top-level ontology."
+    },
+    {
+      "name": "DENSITY_THRESHOLD_BEFORE_ORCHESTRATION",
+      "questions": [
+        "How many similar bounded needs must coexist in a geographic/time window before a shared route, lab, collection node or specialist becomes economical?",
+        "Is the demand recurring enough to support fixed coordination cost?",
+        "Does aggregation reduce cost without destroying service quality, permissions or acceptance?"
+      ]
+    },
+    {
+      "name": "RADIUS_EXPANSION_MECHANISMS",
+      "mechanisms": [
+        "localize capability",
+        "move the specialist/equipment instead of the object",
+        "aggregate dispersed small batches",
+        "build a hub or shared node",
+        "build physical network infrastructure",
+        "standardize the task enough for remote or pooled execution"
+      ],
+      "boundary": "A mechanism is not valuable merely because it expands reach; verify that the new radius creates a real accepted exchange."
+    },
+    {
+      "name": "SPATIAL_COST_MUST_BE_IN_EXCHANGE_MODEL",
+      "pattern": "resource/capability exists + actor need exists + transport/latency/handling/infrastructure cost exceeds obtainable surplus -> connection remains latent until density/localization/mobility/network changes the economics"
+    }
+  ],
+  "closures": [
+    "GENERIC_CUSTOM_BUS_PLATFORM",
+    "GENERIC_SHARED_LAB_PLATFORM",
+    "GENERIC_HAZARDOUS_WASTE_COLLECTION",
+    "GENERIC_DISTRICT_HEATING_OR_WASTE_HEAT_BUSINESS",
+    "GENERIC_LOCAL_TESTING_PLATFORM"
+  ],
+  "next_scan_priority": [
+    "CURRENT_XUZHOU_TASKS_OUTSIDE_EFFECTIVE_SERVICE_RADIUS_DESPITE_EXISTING_CAPABILITY",
+    "HEAVY_LOW_VALUE_OR_PERISHABLE_OUTPUTS_WHERE_LOGISTICS_DOMINATE_VALUE",
+    "ON_SITE_SPECIALIST_TASKS_WHERE_MOBILITY_CAN_EXPAND_CALLABILITY",
+    "CLUSTERS_CLOSE_TO_BUT_BELOW_SHARED_CAPABILITY_DENSITY_THRESHOLD",
+    "DISTINGUISH_TRUE_SPATIAL_GAP_FROM_ALREADY_MATURE_LOCAL_SERVICE_MARKET"
+  ],
+  "field_state": {
+    "capability_proof_employer_probes_sent": 2,
+    "qualified_human_responses": 0,
+    "decision": "NO_ADDITIONAL_OUTREACH_FOR_VOLUME; continue higher-information scanning while waiting for direct actor truth.",
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "truth_boundaries": [
+    "GEOGRAPHIC_PROXIMITY_NE_DEMAND",
+    "COLOCATION_NE_TRANSACTION",
+    "DENSITY_NE_WHITESPACE",
+    "INFRASTRUCTURE_BUILD_NE_MISSING_MARKET",
+    "CAPABILITY_EXISTS_NE_SPATIALLY_CALLABLE_CAPABILITY",
+    "AGGREGATION_NE_PERMISSION_OR_ACCEPTANCE",
+    "NO_NEW_FORMATION_WITHOUT_NAMED_ACTOR_COST_PLUS_CALLABLE_COUNTERPARTY_OR_PARTIAL_FLOW",
+    "FIRST_EXTERNAL_VALUE_FLOW_STILL_NOT_PROVEN"
+  ]
+}
