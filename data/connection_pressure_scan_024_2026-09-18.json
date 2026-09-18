@@ -1,0 +1,127 @@
+{
+  "artifact_id": "CONNECTION-PRESSURE-SCAN-024-2026-09-18",
+  "observed_at": "2026-09-18",
+  "status": "BASELOAD_COMMITMENT_AND_COMPATIBILITY_WEIGHTED_DENSITY_SCAN",
+  "purpose": "Refine DENSITY_THRESHOLD_BEFORE_ORCHESTRATION and FLEXIBILITY_CALLABILITY_GATE: raw actor count or stated interest is insufficient. A shared node becomes economically callable only when enough compatible, recurring and sufficiently committed workload exists to cover fixed coordination/capability cost. This is not a new ontology or shared-service business thesis.",
+  "findings": [
+    {
+      "id": "XZ-CUSTOM-BUS-BASELOAD-060",
+      "state": "REAL_RECURRING_PAID_BASELOAD",
+      "evidence": [
+        "Xuzhou has more than 140 customized bus routes and provides regular commuting service to more than 85 enterprises/institutions.",
+        "Enterprise routes are designed from employee residential distribution, commute peaks and route preferences, rather than raw employee count.",
+        "Public reporting says enterprise demand is stable and willingness to pay is strong; annual enterprise commuting service exceeds 2 million passenger trips and the operator locks long-term stable ridership."
+      ],
+      "interpretation": "The shared route is supported by repeatable paid load with compatible origin/destination/time structure. Potential riders alone would not create the route.",
+      "source": "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202602/t20260210_8556821.shtml"
+    },
+    {
+      "id": "JS-DRONE-SHARED-TASK-BASELOAD-061",
+      "state": "REAL_TASK_AGGREGATION_NOT_EQUIPMENT_INTEREST",
+      "evidence": [
+        "Guannan integrates actual flight requirements from 11 townships and 19 departments into one shared-operation system.",
+        "Participating units purchase flight services on demand rather than each owning drones, training pilots and maintaining fleets.",
+        "Public reporting says the unified shared model reduces single-flight cost by more than 60%."
+      ],
+      "interpretation": "A callable shared drone capability emerged from real task flow that can be centrally scheduled, not from generic institutional interest in drones.",
+      "source": "https://www.jiangsu.gov.cn/art/2026/7/20/art_33718_11805793.html"
+    },
+    {
+      "id": "JS-SHARED-MANUFACTURING-THROUGHPUT-062",
+      "state": "REAL_HIGH_THROUGHPUT_SUPPORTS_FIXED_CAPABILITY",
+      "evidence": [
+        "Binhai Green-Island intelligent manufacturing service center centralizes high-investment/high-pollution downstream processes such as spraying.",
+        "Its spraying center processes more than 6 million parts per year for local enterprises."
+      ],
+      "interpretation": "The node is supported by measurable recurring compatible throughput large enough to amortize fixed equipment, governance and environmental-control cost. A list of firms that might need spraying would not be equivalent evidence.",
+      "source": "https://jsnews.jschina.com.cn/yc/a/202605/t20260520_s6a0d44a6e4b0fd0345232e69.shtml"
+    },
+    {
+      "id": "XZ-SHARED-WELDING-COMPATIBILITY-063",
+      "state": "REAL_SHARED_CAPABILITY_WITH_TASK_COMPATIBILITY",
+      "evidence": [
+        "XCMG exposes intelligent welding capability and has co-built a shared welding center with more than 30 local SMEs.",
+        "The underlying system is a specific production capability with measurable weld quality and efficiency improvements, not a generic expert-sharing pool."
+      ],
+      "interpretation": "Thirty firms matter only because sufficiently compatible welding tasks can be routed through a common capability and acceptance interface. Raw SME count is not the economic density.",
+      "source": "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202510/t20251021_8530725.shtml"
+    },
+    {
+      "id": "JS-COMPATIBILITY-WEIGHTED-DENSITY-064",
+      "state": "CROSS_DOMAIN_REPLICATION_CONFIRMED",
+      "evidence": [
+        "Bus demand must align in geography and time.",
+        "Drone demand must be expressible as schedulable flight tasks.",
+        "Shared manufacturing demand must fit common process specifications.",
+        "Shared laboratory and waste-collection systems from earlier scans likewise require compatible test classes or waste categories rather than raw actor count."
+      ],
+      "interpretation": "Economic density is compatibility-weighted and commitment-weighted. Heterogeneous or hypothetical demand should not be summed as if fungible."
+    },
+    {
+      "id": "XZ-BASELOAD-ISSUE143-MIRROR-065",
+      "state": "FIELD_TRUTH_AND_SYSTEM_ECONOMICS_ALIGN",
+      "evidence": [
+        "Issue #143 already distinguishes interest from economic commitment at the single-exchange level.",
+        "Shared-node evidence shows the same rule at system scale: prospective users do not finance fixed capability; recurring accepted task volume does."
+      ],
+      "interpretation": "The project should use the same epistemic discipline at both levels: INTEREST != COMMITMENT and POTENTIAL_VOLUME != BASELOAD."
+    }
+  ],
+  "search_rules_refined": [
+    {
+      "name": "BASELOAD_COMMITMENT_GATE",
+      "questions": [
+        "What recurring task volume already occurs, rather than might occur?",
+        "Who actually pays, orders, schedules or commits that volume?",
+        "What fixed capability/coordination cost must the baseline load cover?",
+        "What minimum frequency or throughput keeps the node economically viable?",
+        "Can one anchor buyer, route, contract or workload cover the fixed floor while long-tail actors add utilization?"
+      ],
+      "relationship_to_existing_doctrine": "Refinement of DENSITY_THRESHOLD_BEFORE_ORCHESTRATION and FLEXIBILITY_CALLABILITY_GATE; not a new top-level ontology."
+    },
+    {
+      "name": "COMPATIBILITY_WEIGHTED_DENSITY",
+      "questions": [
+        "Are the tasks compatible enough to share the same equipment, specialist, route, standard, time window or acceptance interface?",
+        "What fraction of observed demand is actually fungible/routable through the same node?",
+        "Does heterogeneity create setup/changeover/translation/quality cost that destroys the apparent density?"
+      ]
+    },
+    {
+      "name": "ANCHOR_LOAD_WITHOUT_FALSE_DEMAND",
+      "questions": [
+        "Is there a named actor with recurring accepted demand?",
+        "Is the anchor relationship already evidenced by purchase/service/contract/operational use rather than stated interest?",
+        "Would the shared node still survive if speculative long-tail demand disappeared?"
+      ],
+      "boundary": "An anchor is evidence of baseline economics only; it does not prove a scalable market or profitability."
+    }
+  ],
+  "hard_boundaries": [
+    "INTERESTED_ACTORS_NE_BASELOAD",
+    "POTENTIAL_VOLUME_NE_COMMITTED_VOLUME",
+    "RAW_DENSITY_NE_COMPATIBLE_DENSITY",
+    "ONE_OFF_TRANSACTION_NE_STABLE_NODE",
+    "ACTOR_COUNT_NE_ROUTABLE_TASK_COUNT",
+    "COMMITTED_VOLUME_NE_PROFITABILITY",
+    "ANCHOR_CUSTOMER_NE_REPEATABLE_MARKET"
+  ],
+  "closures": [
+    "GENERIC_SHARED_SERVICE_PLATFORM_FROM_SURVEYED_INTEREST",
+    "GENERIC_SHARED_CAPACITY_NODE_WITHOUT_RECURRING_TASK_VOLUME",
+    "GENERIC_AGGREGATION_THESIS_USING_RAW_ACTOR_COUNT"
+  ],
+  "next_scan_priority": [
+    "NODES_WITH_HIGH_STATED_INTEREST_BUT_INSUFFICIENT_REAL_THROUGHPUT",
+    "SHARED_CAPABILITY_NODES_WITH_ONE_ANCHOR_PLUS_LONG_TAIL_DEMAND",
+    "CASES_WHERE HETEROGENEITY DESTROYS APPARENT DENSITY",
+    "FAILED_SHARED_FACILITY_OR_ROUTE_AFTER_BASELOAD_COLLAPSE",
+    "REAL_MINIMUM_VIABLE_THROUGHPUT_OR_FREQUENCY_EVIDENCE"
+  ],
+  "field_state": {
+    "capability_proof_employer_probes_sent": 2,
+    "qualified_human_responses": 0,
+    "decision": "DO_NOT_ADD_OUTREACH_FOR_VOLUME.",
+    "first_external_value_flow": "NOT_PROVEN"
+  }
+}
