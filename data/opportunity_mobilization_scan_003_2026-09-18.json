@@ -72,14 +72,15 @@
       "Klose already offers whitelabel field service under OEM acceptance criteria across multiple regions.",
       "Mehnert is directly trying to acquire Chinese equipment makers, which can remove the need for an intermediary.",
       "Naleno/MyMobiForce/ServiceNow show contractor routing, approval and payment are not novel mechanics.",
-      "Large OEMs such as XCMG and mature brands can build their own local networks."
+      "Large OEMs such as XCMG and mature brands can build their own local networks.",
+      "售意达/售后宝 and enterprise FSM products already manage overseas work orders, SOPs, external service providers, evidence, acceptance, settlement and global service records; software workflow/control-plane mechanics alone are market-served."
     ],
-    "narrowed_missing_edge_hypothesis": "The remaining possible gap is not technician search. It is a China-side, multi-country control plane for smaller/mid-sized equipment OEMs that converts OEM SOP/acceptance/liability boundaries into routable local field tasks, chooses among country-specific providers, preserves evidence/quality history, coordinates remote OEM escalation and settlement, and avoids requiring a separate direct provider relationship in every country.",
+    "narrowed_missing_edge_hypothesis": "The surviving possible gap is not technician search and not aftermarket/FSM software. It is accountable execution supply: a China-side multi-country service layer for smaller/mid-sized equipment OEMs that has real qualified local industrial providers behind the work order, can substitute providers after failure, and owns provider qualification + execution evidence + acceptance continuity across countries while the OEM retains technical/warranty authority.",
     "rooter_execution_map": {
       "demand_actor": "Xuzhou/Jiangsu equipment OEM with intermittent overseas onsite work that does not justify owned service staff in every destination",
       "supply_actor": "country-specific industrial field-service providers and licensed technicians",
       "partial_flow": "OEM travel + agents/EPCs + direct local contractors + outsourced field-service providers already coexist",
-      "missing_edge": "UNPROVEN: whether OEMs experience enough multi-provider/multi-country acceptance and accountability friction to pay a separate control-plane orchestrator",
+      "missing_edge": "UNPROVEN: after agents/EPCs and existing FSM software exist, whether OEMs still lack reliable, replaceable local industrial execution capacity with one accountable interface for provider qualification, field evidence, acceptance and replacement.",
       "task_unit": "one OEM-defined installation / survey / SAT / commissioning-support / diagnosis / maintenance work order",
       "executor": "qualified local industrial service provider",
       "acceptance": "OEM SOP + qualification check + evidence package + measurements/test data + customer/OEM signoff",
@@ -111,7 +112,8 @@
       "OEMs can directly contract one existing provider such as Klose/Mehnert/country partner with little search, qualification or acceptance friction.",
       "The proposed value collapses to referral/lead generation and can be bypassed after one introduction.",
       "Each task is too OEM-specific to standardize enough for provider substitution or operator exit.",
-      "Liability/warranty/IP rules require the OEM's own employee for most commercially important tasks."
+      "Liability/warranty/IP rules require the OEM's own employee for most commercially important tasks.",
+      "Existing FSM software plus the OEM's current agent/service-provider pool already gives reliable execution, replacement and accountability; only software setup/configuration remains."
     ],
     "promotion_conditions": [
       "At least one named Xuzhou/Jiangsu OEM confirms a recent overseas work order where existing agent/provider management still caused measurable travel, delay, downtime, acceptance or coordination cost.",
@@ -124,7 +126,7 @@
   },
   "portfolio_effect": {
     "oms_005a_pengcheng_kenya": "Retained as one concrete sensor case under the broader cluster candidate, not independently promoted.",
-    "current_best_next_truth": "Do not contact foreign providers merely to collect partners. First resolve the buyer-side control-plane question with public evidence or one later bounded OEM truth probe: are multi-country local-service provider qualification, acceptance, accountability and settlement materially painful after agents/EPCs already exist?",
+    "current_best_next_truth": "Resolve the execution-supply question, not the software question: after agents/EPCs and FSM/work-order systems already exist, does a named Xuzhou/Jiangsu OEM still fail to obtain reliable, replaceable local industrial execution for a bounded task, with measurable travel/delay/downtime/acceptance cost?",
     "human_action_required_now": false,
     "next_public_search": "Look for named equipment OEM disclosures/cases where local-service outsourcing exists but cross-provider quality, qualification, acceptance, warranty or accountability remains costly; prefer Xuzhou/Jiangsu."
   },
@@ -141,6 +143,8 @@
     "https://www.mymobiforce.com/",
     "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12470621&stockid=002943",
     "https://cn.linkedin.com/jobs/view/%E6%B5%B7%E5%A4%96%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E5%A1%9E%E5%B0%94%E7%BB%B4%E4%BA%9A%EF%BC%89-at-%E6%97%A0%E9%94%A1%E7%88%B1%E6%80%9D%E9%80%9A%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4420007661",
-    "https://www.servicenow.com/docs/r/field-service-management/fsm-marketplace.html"
+    "https://www.servicenow.com/docs/r/field-service-management/fsm-marketplace.html",
+    "https://www.shouhouyi.com/contents/4/4437.html",
+    "https://www.shb.ltd/corporate/news/2026/07/21/%E5%94%AE%E5%90%8E%E5%AE%9D%E5%85%A8%E9%93%BE%E8%B7%AFAI%E5%94%AE%E5%90%8E%E6%9C%8D%E5%8A%A1%E4%BD%93%E7%B3%BB-%E5%8A%A9%E5%8A%9B%E5%88%B6%E9%80%A0%E4%BC%81%E4%B8%9A%E4%BB%8E%E6%88%90%E6%9C%AC%E4%B8%AD%E5%BF%83%E8%BD%AC%E5%90%91%E4%BB%B7%E5%80%BC%E4%B8%AD%E5%BF%83/432?id=432"
   ]
 }
