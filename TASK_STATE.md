@@ -9,77 +9,72 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 011 is merged with zero retained candidates. Fresh Scan 012 is active on specification/substitution translation failures inside existing procurement channels. Early evidence strongly suggests simple substitution is already handled by cross-reference catalogs/tools, while complex migration is absorbed by OEM/application-engineering/retrofit services. Retain only a repeated, named, post-incumbent compatibility failure that can be objectively accepted without making Rooter the permanent application engineer.
+Fresh Scan 012 is complete with zero retained candidates. Simple model/brand equivalence is increasingly handled by cross-reference data, catalogs and recommendation tools; complex substitution is already absorbed by OEM/distributor/application-engineering/retrofit services. No named Xuzhou/Jiangsu buyer was bound to a repeated measurable compatibility loss remaining after those routes. After merge, Fresh Scan 013 may search only for real handoff failures between already-existing services, not a generic project-management thesis.
 
 ## Current Phase
-`SCAN_011_MERGED / RETAINED_ZERO / FRESH_SCAN_012_ACTIVE`
+`SCAN_012_NEGATIVE_COMPLETE / RETAINED_ZERO / SCAN_013_NEXT`
 
 ## Last Verified Main
-`1242d44266fae895496d7361a95aea8f2b9437c9` — PR #214 Scan 011 merged after CI #598 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
+`9b201f0db4c4a559b106b03024edd410e4b12221` — live main observed before the Scan 012 branch was populated. Current branch has not yet merged at this checkpoint.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-None.
+`field/opportunity-mobilization-scan-012`
 
 ## Active PR
-None. PR #214 — `Persist opportunity mobilization scan 011` — merged.
+Not yet opened at this checkpoint.
 
 ## CI
-- PR #214 head `b679aa84a6de881d543b48befb08f238066d3d9e`
-- Actions run #598, run id `35348403120`
-- workflow `ci`: success
-- merge SHA: `1242d44266fae895496d7361a95aea8f2b9437c9`
-- run #598 emitted no separate GitHub Actions artifact
+- Last verified business CI: PR #214 Actions #598, success.
+- Current Scan 012 branch CI: pending until PR is opened.
+- No workflow artifact is claimed unless GitHub actually emits one.
 
 ## Latest Artifact / Persisted State
-- `data/opportunity_mobilization_scan_011_2026-09-18.json`
-- `field/opportunity-mobilization-scan-011.md`
-- Issue #143 synced through Scan 011
-- workflow artifact: none for CI #598
+- Branch artifact: `data/opportunity_mobilization_scan_012_2026-09-18.json`
+- Branch field note: `field/opportunity-mobilization-scan-012.md`
+- Prior merged artifact: `data/opportunity_mobilization_scan_011_2026-09-18.json`
+- Workflow artifact: none currently claimed.
 
 ## Completed
 - Prior closed/deprioritized candidates remain unchanged.
-- Scans 009, 010 and 011 all completed with zero retained candidates.
-- Generic trust/condition verification is now closed across multiple secondary-market verticals.
+- Scans 009, 010 and 011 completed with zero retained candidates.
+- Scan 012 tested specification/substitution translation inside existing industrial procurement channels.
+- Bearing cross-brand substitution is already supported by cross-reference databases and supplier/application-engineer confirmation.
+- PLC/HMI/drive replacement is already supported by OEM replacement tables, retrofit configurators, parameter conversion and engineered modernization/commissioning services.
+- Hydraulic/seal/interface substitution is already supported by standards, structured selectors, cross-reference and distributor technical confirmation.
+- Filter replacement is already supported by broad OEM cross-reference portfolios and technical selection.
+- Lubricant substitution is already supported by equipment-specific and cross-brand recommendation tools plus OEM technical service.
+- Targeted Xuzhou/Jiangsu searches did not bind one named buyer with repeated measurable substitution loss after current OEM/distributor/application-engineering routes.
+- `RETAINED_CANDIDATES = 0`.
 - No founder probe released.
 - External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 - Two prior external probes still have zero qualified responses.
-- Fresh Scan 012 started.
-- Early Scan 012 counterevidence:
-  - bearing cross-brand replacement databases already exist;
-  - Siemens/Keyence/Schneider publish discontinued-model replacement guidance;
-  - Siemens retrofit configurators can map old-drive parameters into replacement drives;
-  - ABB and third-party industrial providers sell upgrade/retrofit/commissioning services;
-  - Donaldson publishes broad replacement-filter portfolios;
-  - seal suppliers provide parameter/standard/cross-reference selection;
-  - Shell provides equipment oil recommendations and cross-brand substitution advice.
 
 ## Current Findings
 - `SPECIFICATION TRANSLATION != OPEN ROUTING GAP`.
-- Simple equivalence can be catalog/tool-driven.
-- Complex substitution often requires application engineering, installation, programming or commissioning and is already served as an OEM/integrator upgrade project.
-- A Rooter layer that must interpret every application itself becomes the application engineer and violates operator exit.
+- Simple equivalence increasingly becomes structured searchable data.
+- Complex substitution becomes application engineering, retrofit, programming, installation or commissioning and is already sold by OEMs/integrators.
+- A Rooter layer that must repeatedly interpret application conditions and own compatibility/migration risk becomes the permanent application engineer.
+- No post-incumbent, low-permission, objectively accepted substitution residual is currently evidenced.
 
 ## Blockers
-- No named Xuzhou/Jiangsu buyer has yet been bound to a repeated compatibility/substitution loss that remains after current OEM/distributor/application-engineer routes.
-- No current candidate combines bilateral pull, narrow post-incumbent compatibility gap, natural demand entry, objective acceptance, low permission, value capture and operator exit.
+- No current candidate combines bilateral pull, named post-incumbent compatibility loss, narrow missing edge, natural demand entry, objective acceptance, low permission, value capture and operator exit.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-Continue Fresh Scan 012 only until the cross-industry substitution result is decisive. If no post-incumbent residual survives, persist Scan 012 as a negative result and move away from generic specification translation. Do not retain migration work that requires Rooter to become the permanent controls/application engineer.
+After Scan 012 merges, start Fresh Scan 013 only on observed handoff failures between already-existing services. Search named recent transactions where Provider A finishes a bounded part, Provider B/buyer must continue, but responsibility, evidence, scheduling/access or acceptance falls between them and causes measurable cost. Retain only if neither incumbent already owns the handoff and the interface can be standardized without Rooter becoming project manager/engineer.
 
 ## Do Not Repeat
-- Do not reopen generic trust/inspection routes closed by Scan 011.
-- Do not treat a discontinued model or difficult cross-reference as an opportunity when OEM/distributor migration guidance already exists.
-- Do not repeat Scan 010 value-destruction/surplus routes or Scan 009 service/rental/MRO routes.
-- Do not reopen earlier closed candidates without new direct residual evidence.
+- Do not treat difficult substitution as a candidate when cross-reference/OEM/distributor engineering already handles it.
+- Do not reopen generic trust/inspection, surplus/value-destruction, service/rental/MRO or earlier closed routes without new direct residual evidence.
+- Do not create a generic project-management or system-integration thesis from multi-party complexity.
 - Do not use founder outreach as the discovery sensor.
 - Do not build ontology/scoring/agent architecture.
 
 ## Guardrails
 - Preserve the locked Actor-First / Reachability / Mobilization doctrine.
 - `COMPLEMENTARITY != LATENT CONNECTION`; `UNKNOWN != PASS`.
-- Founder remains routing control plane, not application engineer, programmer, installer, inspector, salesperson or delivery labor.
+- Founder remains routing control plane, not application engineer, programmer, installer, inspector, project manager, salesperson or delivery labor.
 - Prefer evidence-bound falsification and the smallest decisive truth.
