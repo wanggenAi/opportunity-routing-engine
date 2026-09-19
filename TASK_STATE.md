@@ -4,28 +4,43 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Execute the 2026-09-19 clean-slate commercial reset, then begin the first scan of the new Attraction Field epoch.
+The 2026-09-19 clean-slate commercial reset is complete.
 
-User directive:
-- all old commercial cases have no active meaning;
-- clear them rather than continue, demote or inherit them;
-- restart scanning from zero using the corrected broad-reality + Attraction Field logic.
+Start the first commercial scan of the new Attraction Field epoch from zero. Pre-reset cases have no active commercial meaning.
+
+## Goal
+
+Run `ATTRACTION_SCAN_001` from broad current reality and retain only independently evidenced formations that survive structural truth, connection-pressure, three-sided Attraction Field and Drift Audit.
+
+## Current Unique Commercial Research Goal
+
+Discover a new high-attraction value field where:
+- Actor A has an evidence-backed reason to move now;
+- Actor B has an evidence-backed reason to move now;
+- the connection creates a large, legible state-dependent value jump;
+- the missing edge is narrow enough to route;
+- activation friction is bounded relative to surplus;
+- the operator strongly wants to own the bridge;
+- the operator is not recurring search/sales/delivery labor;
+- successful routing can compound into trust, data, access, coverage or lower future routing cost.
+
+No inherited vertical, geography, asset class, candidate, score, parent or watchlist may constrain the search.
 
 ## Active Commercial Epoch
 
 `ATTRACTION_FIELD_V1`
 
-Machine-readable state:
+Machine-readable authority:
 - `data/commercial_reset_state.json`
 
-Active portfolio:
+Portfolio:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - ACTIVE TRANSACTION UNITS = 0
 - ACTIVE PARENT FORMATIONS = 0
 - INHERITED WATCHLIST = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
-Historical case policy:
+Historical-case policy:
 - GIT HISTORY ONLY;
 - NOT ACTIVE INPUT;
 - NOT PARENTAGE;
@@ -33,146 +48,105 @@ Historical case policy:
 - NOT FALLBACK;
 - NOT WATCHLIST.
 
-A similar structure may return only through independent current evidence and receives a new identity.
-
-## Goal
-
-Complete the clean-slate reset without restoring historical commercial cases, then begin `ATTRACTION_SCAN_001` from broad current reality.
-
-## Current Unique Commercial Research Goal
-
-Discover a new, independently evidenced high-attraction value field where A wants to move, B wants to move, and the operator wants to own the bridge without becoming recurring delivery labor. No inherited vertical, candidate, score, parent or watchlist may constrain the search.
-
 ## Current Phase
 
-CLEAN_SLATE_CASE_RESET_IN_PROGRESS / PRE_RESET_CASE_TREE_CLEARED_ON_BRANCH / ATTRACTION_SCAN_001_AFTER_MERGE
+CLEAN_SLATE_RESET_MERGED / OLD_ISSUES_CLOSED / ATTRACTION_SCAN_001_READY
 
 ## Last Verified Main
 
-Live main before this reset branch: `1ca8b9fcdef358e360415419d56eae821074fef9`.
+Functional main: `e31ef6cbf3069fd7435982bf59ef3270c877ac6a` — PR #262 squash-merged.
 
-Last doctrine functional merge: `1f734f361e299de35210519a922ee74cb993a5ea` via PR #261.
+PR #262 head: `5d06a7664b8699be93d445220ed2b8818a322df6`.
 
-PR CI #786 / run `35437792674`: success.
+PR CI #797 / run `35438821048`: success, 688 tests.
 
-## Active Branch
-
-`feature/clean-slate-attraction-reset`
-
-Reset-tree commit:
-- `32ddb6a66cabb382910aa7e1cb706463b553c0db`
-
-## Active PR
-
-Not opened yet at this checkpoint.
-
-## CI
-
-- PR #262 head currently includes the reset and fixture-decoupling changes.
-- CI #788 / run `35438574647`: failed because surviving generic tests still referenced deleted historical fixtures and because TASK_STATE missed required recovery headings.
-- Fix strategy: replace historical fixtures with case-neutral synthetic fixtures / clean-slate mission; do not restore historical cases.
-- Next CI run pending after this commit.
-
-## Latest Artifact / Persisted State
-
-- `data/commercial_reset_state.json` — machine-readable active commercial epoch and empty candidate state.
-- `data/research_missions/attraction_field_broad_reality.json` — case-neutral clean-slate broad-reality research mission.
-- `field/README.md` — active field workspace reset boundary.
-- `docs/research/README.md` — active research workspace reset boundary.
-
-## Completed
-
-- Removed the pre-reset commercial case corpus from the active tree.
-- Locked Git history as audit-only, not candidate memory.
-- Created `ATTRACTION_FIELD_V1`.
-- Reset active candidates, transaction units, parent formations and inherited watchlists to zero.
-- Replaced surviving test dependencies on historical cases with clean-slate or synthetic fixtures.
-- Preserved generic sensing, causal, evidence and orchestration capabilities.
-
-## Current Findings
-
-- The first reset CI proved several generic tests were coupled to historical case files; that coupling itself violated the clean-slate boundary.
-- Generic research infrastructure can be preserved without retaining the historical cases by using a clean-slate broad-reality mission.
-- Generic governance, observation and commercialization tests can use synthetic evidence rather than real retired cases.
-- No historical case needs to be restored to keep the engine testable.
-
-## Reset Scope Completed on Branch
-
-Removed from the active tree:
-- all prior `field/` commercial scan/probe artifacts;
-- prior `docs/field/` field packets;
-- prior `docs/launch/` launch cards;
-- prior `docs/results/` candidate/result packets;
-- prior `docs/validation/` candidate packets;
-- prior case-specific `docs/research/` runs, leaving only reusable method material plus a new reset README;
-- prior case/research-run JSON data and candidate ledgers;
-- prior numbered research-run fixtures;
-- case-specific workflow definitions tied to those retired runs;
-- fixture tests whose only purpose was to validate removed historical cases.
-
-Preserved:
-- constitutional doctrine;
-- Attraction Field doctrine;
-- generic sensing/evidence code;
-- source registries and reusable templates;
-- causal descent;
-- latent connection discovery;
-- capability/resource models;
-- orchestration and transaction truth gates;
-- CI/recovery infrastructure.
-
-## New Scan Contract
-
-Next scan ID:
-`ATTRACTION_SCAN_001`
-
-It must:
-1. start from broad current reality;
-2. avoid inherited vertical/geography/asset assumptions;
-3. search observable state changes, contradictions, workarounds and partial flows;
-4. derive structural friction before connection design;
-5. require connection pressure and an observed missing edge;
-6. require A-side attraction evidence;
-7. require B-side attraction evidence;
-8. record operator / Rooter strategic attraction separately;
-9. include activation friction + self-propulsion;
-10. include a Drift Audit;
-11. treat incumbent presence as evidence about flow resolution, not automatic rejection;
-12. keep promotion fail-closed.
-
-No product design, pricing or outreach before a formation survives these gates.
+A later state-only `[skip ci]` commit may advance live main without changing functional truth.
 
 ## Active Issue
 
-#143 remains the single P0 mission issue, but its old launch-card body is stale and must be rewritten/updated after reset merge.
+#143 — `P0: Clean-slate Attraction Field → first external value flow`.
 
-All old candidate/cycle Issues must be closed as superseded by the clean-slate reset.
+All pre-reset candidate/cycle/build issues were closed as superseded by the reset:
+#10, #11, #54, #56, #58, #59, #60, #71, #77.
+
+## Active Branch
+
+None.
+
+## Active PR
+
+None. PR #262 is merged.
+
+## CI
+
+- PR #262 reset head: `5d06a7664b8699be93d445220ed2b8818a322df6`
+- PR CI #797 / run `35438821048`: success
+- merge SHA: `e31ef6cbf3069fd7435982bf59ef3270c877ac6a`
+
+## Latest Artifact / Persisted State
+
+- `data/commercial_reset_state.json` — empty active candidate state and epoch authority.
+- `data/research_missions/attraction_field_broad_reality.json` — clean-slate broad-reality mission.
+- `field/README.md` — field reset boundary.
+- `docs/research/README.md` — research reset boundary.
+- `docs/OPPORTUNITY_ATTRACTION_FIELD.md` — three-sided attraction + anti-drift doctrine.
+- `docs/ROUTABLE_WORLD_NODES.md` — case-neutral heterogeneous world-node model.
+
+## Completed
+
+- Removed 279 pre-reset commercial-case artifacts / case workflows / case-only fixtures from the active tree.
+- Removed historical candidates, transaction units, parents and watchlists from active state.
+- Decoupled generic tests from historical commercial fixtures using clean-slate/synthetic fixtures.
+- Preserved reusable sensing, evidence, causal, connection, capability, orchestration and recovery infrastructure.
+- Merged reset PR #262.
+- Closed all obsolete open case/cycle/build issues.
+- Rewrote #143 for the new epoch.
+
+## Current Findings
+
+- The prior repository allowed historical commercial cases to survive through artifacts, tests, workflows and Issues even after candidates were demoted.
+- That inheritance path is now cut: `GIT HISTORY != CANDIDATE POOL`.
+- The research control plane now has a broad, case-neutral Attraction Field mission rather than a candidate-derived mission.
+- No old case needs to be restored for the engine to remain testable.
+- A historically similar structure may reappear only through independent current evidence and receives a new identity.
 
 ## Blockers
 
-Reset branch still needs:
-1. PR;
-2. CI;
-3. fix any stale test/reference failures;
-4. merge;
-5. close obsolete case Issues;
-6. rewrite #143 for the new epoch;
-7. begin ATTRACTION_SCAN_001.
+No reset blocker remains.
+
+The only blocker is empirical: no newly discovered formation has yet survived the new doctrine.
 
 ## Next Action
 
-Open the reset PR, run CI, fix failures, merge, reconcile Issues, then immediately begin ATTRACTION_SCAN_001 from broad current reality.
+Run `ATTRACTION_SCAN_001` now.
+
+Required:
+1. start from broad current reality;
+2. deliberately inspect multiple forms of human, household, consumer, SME, enterprise, city, cross-border, technology/AI, relationship/trust, time/access/capacity, institutional and physical-resource change as evidence warrants;
+3. no fixed quota and no fabricated breadth;
+4. no inherited industrial/Xuzhou/stranded-unit recursion;
+5. search behavior/workarounds/partial flows before designing exchange;
+6. require structural friction + connection pressure + observed missing edge;
+7. include A-side attraction evidence;
+8. include B-side attraction evidence;
+9. record operator attraction separately;
+10. include activation friction, non-labor test and self-propulsion;
+11. include a Drift Audit;
+12. do not auto-kill because an incumbent exists;
+13. fail closed.
+
+No product design, pricing, recruitment or outreach.
 
 ## Do Not Repeat
 
 - Do not restore deleted historical cases from Git history.
-- Do not resume old Scan 020/021 numbering.
-- Do not treat old issues as fallback routes.
+- Do not resume old Scan numbering.
+- Do not treat closed historical Issues as fallback routes.
 - Do not default to Xuzhou, industrial B2B, inventory, equipment, experts or public procurement.
-- Do not use old scores or old demotions as priors.
+- Do not use old scores, old retentions or old demotions as priors.
 - Do not confuse source availability with opportunity importance.
-- Do not confuse cleverness with participant pull.
-- Do not use founder excitement as market evidence.
+- Do not confuse a clever connection with participant attraction.
+- Do not use founder excitement as demand evidence.
 - Do not make the operator recurring search/sales/delivery labor.
 
 ## Guardrails
@@ -184,6 +158,7 @@ Open the reset PR, run CI, fix failures, merge, reconcile Issues, then immediate
 - HISTORICAL CASE != ACTIVE INPUT.
 - GIT HISTORY != CANDIDATE POOL.
 - EXISTING ACTOR != FLOW SOLVED.
+- INCUMBENT PRESENCE != AUTOMATIC KILL.
 - FOUNDER EXCITEMENT != PARTICIPANT PULL.
 - ATTRACTION != VALIDATION.
 - FOUNDER AS PERMANENT HUMAN SEARCH ENGINE = FAIL.
