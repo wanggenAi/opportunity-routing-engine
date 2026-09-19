@@ -136,6 +136,16 @@ Likewise, a manufacturer saying "we need more capacity" may be naming a surface 
 
 These formulations are **not automatically true because they sound deeper**. They must be treated as competing outcome hypotheses and tested against observed choice, sacrifice, substitution, workaround, persistence and contradiction.
 
+The selected latent outcome must carry an explicit rationale tied to evidence. A deeper-sounding objective is not accepted merely because it is more abstract.
+
+```text
+SELECTED LATENT OUTCOME
+REQUIRES
+EVIDENCE-BOUND SELECTION RATIONALE
+```
+
+When the same surface behavior admits materially different outcome interpretations, preserve those alternatives instead of silently choosing the most commercially convenient one.
+
 ## 3B. Causal descent is recursive, not one jump
 
 Do not perform one rhetorical "why" and call the result structural.
