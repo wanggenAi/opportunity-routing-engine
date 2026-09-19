@@ -1,0 +1,169 @@
+{
+  "scan_id": "OPPORTUNITY_MOBILIZATION_SCAN_024",
+  "date": "2026-09-19",
+  "title": "Buyer-cost-first current private-market event scan",
+  "purpose": "Stop mechanism-first opportunity generation. Bind a named current Xuzhou/Jiangsu private actor to an observed economic cost first; only then inspect the current workaround, incumbents and any post-incumbent missing edge.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "scan_rule": [
+    "BUYER COST FIRST",
+    "NAMED COST EVENT != OPEN ROUTING GAP",
+    "LOST ORDERS != ROUTABLE OVERFLOW",
+    "Do not promote from a provider price list or a plausible mechanism.",
+    "A candidate requires a named current actor, observed cost or workaround, and an observed post-incumbent missing edge."
+  ],
+  "bound_cost_events": [
+    {
+      "actor": "徐州科亚机电有限公司",
+      "geography": "江苏徐州丰县",
+      "event_date": "2026-06-24",
+      "actor_type": "private manufacturing enterprise",
+      "observed_cost_event": "The company reported that overseas orders for its self-developed wireless controller exceeded what it could fulfill, and it gave up part of those overseas orders in order to preserve on-time delivery.",
+      "cost_type": "FOREGONE_ORDER / LOST_OUTPUT_OPPORTUNITY",
+      "cost_amount": "UNKNOWN",
+      "observed_workaround": [
+        "Internal product/process redesign increased output from roughly 200 units/hour for the prior wired controller to roughly 800-900 units/hour for the wireless controller.",
+        "Despite that internal throughput improvement, public reporting still states that part of overseas demand was declined."
+      ],
+      "current_market_context": [
+        "Fengxian currently has more than 1,400 complete-vehicle and parts manufacturers.",
+        "The local cluster reports a 30-minute procurement circle for almost all vehicle parts except chips.",
+        "Local controller and electric-vehicle manufacturers publicly advertise manufacturing, customization, private-label or sample-based processing capability."
+      ],
+      "incumbent_or_substitute_routes": [
+        "Dense local same-industry manufacturing capacity",
+        "Existing controller manufacturers",
+        "Existing private-label / sample-based processing",
+        "Existing vertically integrated electric-drive manufacturers"
+      ],
+      "observed_post_incumbent_missing_edge": "NO",
+      "unproven_possible_constraints": [
+        "IP or proprietary process transfer",
+        "quality consistency",
+        "certification",
+        "test/acceptance requirements",
+        "component sourcing",
+        "commercial willingness to outsource"
+      ],
+      "constraint_note": "These possible constraints are hypotheses only. No current public evidence found in this scan proves which one, if any, prevents overflow production from being routed to existing local capacity.",
+      "reachability": "PUBLIC_CONTACT_ROUTE_EXISTS_BUT_NOT_RELEASED",
+      "judgment": "CLOSED_NO_OBSERVED_MISSING_EDGE",
+      "sources": [
+        "https://www.xhby.net/content/s6a3b6e52e4b010b7fda2187a.html",
+        "https://zgjssw.jschina.com.cn/yaowen/202609/t20260913_8593060.shtml",
+        "https://www.aichangjia.com/factory/52123.html",
+        "https://www.jumboot.com.cn/"
+      ],
+      "residual_audit": {
+        "status": "COMPLETE",
+        "search_scope": [
+          "outsourcing / subcontracting / OEM / delegated production",
+          "supplier and second-source behavior",
+          "quality-system and certification constraints",
+          "production-line / expansion evidence"
+        ],
+        "attributable_findings": [
+          "Current public materials confirm Keya operates a deeply integrated in-house controller manufacturing and quality stack, including SMT/placement, wave soldering, automated test capability and automotive quality-system claims.",
+          "Current public reporting confirms a dense Fengxian vehicle/parts cluster and nearby alternative manufacturing capability.",
+          "No attributable public evidence found in this audit states that Keya attempted subcontracting/second-source production and was blocked, refused it for a stated reason, or faced a named IP/quality/certification/component constraint that prevents overflow routing."
+        ],
+        "observed_missing_edge_after_audit": "NO",
+        "closure_reason": "REAL_BUYER_COST_BUT_NO_OBSERVED_POST_INCUMBENT_MISSING_EDGE",
+        "sources": [
+          "https://www.xhby.net/content/s6a3b6e52e4b010b7fda2187a.html",
+          "https://zgjssw.jschina.com.cn/yaowen/202609/t20260913_8593060.shtml",
+          "https://www.coatingol.com/xinxi/article-iewy-68609.html",
+          "https://www.aichangjia.com/factory/52123.html",
+          "https://www.jumboot.com.cn/"
+        ]
+      }
+    },
+    {
+      "actor": "江苏本优机械有限公司",
+      "geography": "江苏徐州",
+      "event_date": "2026-03-10",
+      "actor_type": "manufacturing enterprise",
+      "observed_cost_event": "A large-diameter liquid flowmeter previously had to be removed and shipped to Nanjing or farther for verification; the round trip took roughly half a month, stopping the production line and delaying orders.",
+      "cost_type": "DOWNTIME / ORDER_DELAY",
+      "cost_amount": "UNKNOWN",
+      "observed_workaround": "Off-site instrument verification requiring removal and transport.",
+      "current_solution": "The Xuzhou Inspection and Testing Center obtained local full-range verification capability and performed on-site calibration without shutdown or removal.",
+      "observed_post_incumbent_missing_edge": "NO",
+      "judgment": "CLOSED_BY_CURRENT_LOCAL_INSTITUTIONAL_ROUTE",
+      "source": "https://www.zgjssw.gov.cn/shixianchuanzhen/xuzhou/202603/t20260316_8561864.shtml"
+    },
+    {
+      "actor": "江苏弘盛新材料（集团）股份有限公司",
+      "geography": "江苏南通海安",
+      "event_date": "2026-04-27",
+      "actor_type": "manufacturing/export enterprise",
+      "observed_cost_event": "Export logistics previously cost about RMB 4,100 per container; the current rail route lowers it to about RMB 2,700 for roughly 100 containers per month.",
+      "cost_type": "LOGISTICS_COST",
+      "observed_savings": "More than RMB 100,000 per month reported.",
+      "current_solution": "Existing sea-rail multimodal logistics route.",
+      "observed_post_incumbent_missing_edge": "NO",
+      "judgment": "CLOSED_BY_CURRENT_MULTIMODAL_ROUTE",
+      "source": "https://www.zgjssw.gov.cn/shixianchuanzhen/nantong/202604/t20260427_8570309.shtml"
+    },
+    {
+      "actor": "江苏金洲粮油食品有限公司",
+      "geography": "江苏南通海安",
+      "event_date": "2026-04-27",
+      "actor_type": "private grain/oil enterprise",
+      "observed_cost_event": "The company described the prior all-road route from Shanghai Port as high-cost and exposed to port congestion and complicated transfer procedures.",
+      "cost_type": "LOGISTICS_COST / DELAY_RISK",
+      "observed_savings": "About RMB 5 million of logistics cost saved in 2025 after switching to the current water route.",
+      "current_solution": "Existing Shanghai Port to Hai'an inland-waterway route via Fengshan Port.",
+      "observed_post_incumbent_missing_edge": "NO",
+      "judgment": "CLOSED_BY_CURRENT_MULTIMODAL_ROUTE",
+      "source": "https://www.zgjssw.gov.cn/shixianchuanzhen/nantong/202604/t20260427_8570309.shtml"
+    },
+    {
+      "actor": "江苏鹏飞集团股份有限公司",
+      "geography": "江苏南通海安",
+      "event_date": "2026-04-27",
+      "actor_type": "manufacturing enterprise",
+      "observed_cost_event": "Direct road transport of shield-machine forgings to Shanghai Port was reported as expensive.",
+      "cost_type": "LOGISTICS_COST",
+      "observed_savings": "Current water route reduced a large-container transport cost from about RMB 3,000 to RMB 1,800, around 40%.",
+      "current_solution": "Existing Fengshan Port water route.",
+      "observed_post_incumbent_missing_edge": "NO",
+      "judgment": "CLOSED_BY_CURRENT_MULTIMODAL_ROUTE",
+      "source": "https://www.zgjssw.gov.cn/shixianchuanzhen/nantong/202604/t20260427_8570309.shtml"
+    }
+  ],
+  "rejected_weak_evidence_classes": [
+    {
+      "class": "anonymous buyer case in provider marketing copy",
+      "reason": "FAIL_NAMED_ACTOR"
+    },
+    {
+      "class": "provider capability or price list without a named buyer cost event",
+      "reason": "FAIL_BUYER_COST_FIRST"
+    },
+    {
+      "class": "named cost event already eliminated by a current incumbent route",
+      "reason": "NO_POST_INCUMBENT_RESIDUAL"
+    }
+  ],
+  "cross_industry_result": {
+    "bound_cost_event_count": 5,
+    "open_residual_observations": 0,
+    "retained_candidates": [],
+    "retained_count": 0,
+    "new_p0_promotions": 0,
+    "human_action_required_now": false,
+    "material_learning": [
+      "Buyer-cost-first produces materially stronger evidence than mechanism-first scanning because it starts from observed economic pressure.",
+      "A named actor losing orders is still not an opportunity until the reason existing capacity, suppliers or platforms cannot absorb the overflow is observed.",
+      "Keya's foregone overseas orders are real, but the targeted residual audit found no attributable public evidence of a post-incumbent routing barrier.",
+      "Integrated manufacturing, patents, quality systems or strong in-house process capability cannot be converted into an outsourcing barrier by inference alone.",
+      "Several other named cost events were real but already closed by current institutional or multimodal routes."
+    ],
+    "current_best_next_truth": "Close the Keya observation fail-closed and start Fresh Scan 025 under the same BUYER COST FIRST rule. Search new current Xuzhou/Jiangsu private-market events; require a named actor plus observed economic cost and an observed post-incumbent missing edge before any candidate is retained."
+  },
+  "first_external_value_flow": "NOT_PROVEN"
+}
