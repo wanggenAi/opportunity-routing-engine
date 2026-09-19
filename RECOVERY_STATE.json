@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "generation": 1,
+  "repository": "wanggenAi/opportunity-routing-engine",
+  "status": "IN_PROGRESS",
+  "task_key": "install-web-session-recovery-v2",
+  "stage": "INSTALL_PROTOCOL",
+  "last_observed_main_sha": "3f9407e0575cf2f6051d956684005e5c682bc5eb",
+  "work_branch": "chore/web-session-recovery-v2",
+  "work_head_sha": "3f9407e0575cf2f6051d956684005e5c682bc5eb",
+  "active_pr": null,
+  "ci": {
+    "run_id": null,
+    "status": "NOT_STARTED",
+    "conclusion": null
+  },
+  "production_or_artifact": {
+    "status": "NOT_APPLICABLE",
+    "evidence": []
+  },
+  "completed": [
+    "created chore/web-session-recovery-v2 from observed main",
+    "created permanent state/chatgpt-recovery branch"
+  ],
+  "next_action": "Install and validate durable web-session recovery protocol on the work branch, open PR, run CI, merge if green, then checkpoint the merged main state.",
+  "do_not_repeat": [
+    "do not restart repository analysis from chat history",
+    "do not overwrite unrelated active business work",
+    "do not treat this checkpoint as stronger than live GitHub refs, PRs, Actions, artifacts, or persisted data"
+  ],
+  "concurrent_context": "PR #230 is already merged; preserve the structural-friction doctrine now on main.",
+  "updated_at_utc": null
+}
