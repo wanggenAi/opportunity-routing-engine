@@ -4,198 +4,138 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Discovery-drift correction and Attraction Field doctrine are merged.
+Execute the 2026-09-19 clean-slate commercial reset, then begin the first scan of the new Attraction Field epoch.
 
-The engine must now resume broad white-portfolio regenerative sensing without inheriting Scan 020's industrial / stranded-unit bias.
+User directive:
+- all old commercial cases have no active meaning;
+- clear them rather than continue, demote or inherit them;
+- restart scanning from zero using the corrected broad-reality + Attraction Field logic.
 
-Locked corrections:
-- BROAD REALITY > CURRENT SEARCH LENS;
-- SEARCH LENS != ONTOLOGY;
-- TRANSFERABLE OBJECTIVE STRANDED UNIT is one heuristic only;
-- INDUSTRIAL B2B != DEFAULT WORLD;
-- EXISTING ACTOR != FLOW SOLVED;
-- INCUMBENT PRESENCE != AUTOMATIC KILL;
-- 诱惑力 / ATTRACTION FIELD is a first-class current-stage priority dimension.
+## Active Commercial Epoch
 
-Attraction is separated into:
-1. A-side voluntary energy;
-2. B-side voluntary energy;
-3. operator / Rooter strategic activation.
+`ATTRACTION_FIELD_V1`
 
-A/B attraction requires behavior evidence. Operator attraction is a strategic attention signal and must never be used as market evidence.
+Machine-readable state:
+- `data/commercial_reset_state.json`
 
-Portfolio:
+Active portfolio:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - ACTIVE TRANSACTION UNITS = 0
-- FORMAL LATENT CONNECTION PROMOTIONS = 0
+- ACTIVE PARENT FORMATIONS = 0
+- INHERITED WATCHLIST = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
-No product, pricing, recruitment or outreach is authorized.
+Historical case policy:
+- GIT HISTORY ONLY;
+- NOT ACTIVE INPUT;
+- NOT PARENTAGE;
+- NOT PRIOR;
+- NOT FALLBACK;
+- NOT WATCHLIST.
 
-## Goal
-
-Launch Regenerative Formation Scan 021 as a genuinely broad white-portfolio scan.
-
-Search for high-attraction value fields across broad reality rather than continuing the legacy-industrial / stranded-unit recursion.
-
-Preserve:
-- REALITY > COGNITION > SCHEMA
-- BROAD REALITY > CURRENT SEARCH LENS
-- SEARCH LENS != ONTOLOGY
-- EXISTING ACTOR != FLOW SOLVED
-- INCUMBENT PRESENCE != AUTOMATIC KILL
-- FOUNDER EXCITEMENT != PARTICIPANT PULL
-- STRUCTURAL TRUTH != ATTRACTION
-- ATTRACTION != VALIDATION
-- FOUNDER AS PERMANENT HUMAN SEARCH ENGINE = FAIL
-- UNKNOWN != PASS
-
-## Current Unique Commercial Research Goal
-
-Find formations where:
-- Actor A has a real state/endowment tension and evidence-backed reason to move;
-- Actor B has a complementary state/outcome tension and evidence-backed reason to move;
-- the connection creates a large and legible value jump;
-- the missing edge is narrow enough to route;
-- activation friction is bounded relative to the surplus;
-- the operator strongly wants to own the bridge;
-- the operator is not required to become recurring search/sales/delivery labor;
-- successful routing can compound into better trust, data, access, coverage or lower future routing cost.
-
-Do not preselect an industry, asset class or transaction unit.
+A similar structure may return only through independent current evidence and receives a new identity.
 
 ## Current Phase
 
-ATTRACTION_FIELD_DOCTRINE_MERGED / DISCOVERY_DRIFT_CORRECTED / COMMERCIAL_CANDIDATES_ZERO / SCAN_021_READY
+CLEAN_SLATE_CASE_RESET_IN_PROGRESS / PRE_RESET_CASE_TREE_CLEARED_ON_BRANCH / ATTRACTION_SCAN_001_AFTER_MERGE
 
 ## Last Verified Main
 
-Functional main: `1f734f361e299de35210519a922ee74cb993a5ea` — PR #261 squash-merged.
+Live main before this reset branch: `1ca8b9fcdef358e360415419d56eae821074fef9`.
 
-PR #261 head: `0add5629bd692662bef7fca6f84c2fd7416780ab`.
+Last doctrine functional merge: `1f734f361e299de35210519a922ee74cb993a5ea` via PR #261.
 
-PR CI #786 (run id `35437792674`): success.
-
-The available GitHub connector exposes PR-triggered workflow runs for commit lookup but does not enumerate the separate main-push run here, so no unverified main-push CI claim is recorded.
-
-A later state-only `[skip ci]` checkpoint may advance live main without changing functional truth.
-
-## Active Issue
-
-#143 — P0: First external value flow — field proof, not more architecture.
-
-Doctrine correction should be treated as complete. Return immediately to empirical sensing.
-
-No outreach is authorized.
+PR CI #786 / run `35437792674`: success.
 
 ## Active Branch
 
-None. `feature/attraction-field-anti-drift` is merged and is not an active source of truth.
+`feature/clean-slate-attraction-reset`
+
+Reset-tree commit:
+- `32ddb6a66cabb382910aa7e1cb706463b553c0db`
 
 ## Active PR
 
-None. PR #261 — `Add attraction-field priority and anti-drift doctrine` — is merged.
+Not opened yet at this checkpoint.
 
-## CI
+## Reset Scope Completed on Branch
 
-- PR #261 head: `0add5629bd692662bef7fca6f84c2fd7416780ab`
-- PR CI #786 (run id `35437792674`): success
-- merge SHA: `1f734f361e299de35210519a922ee74cb993a5ea`
-- separate main-push workflow conclusion: not asserted because the current connector does not enumerate that event through commit lookup
+Removed from the active tree:
+- all prior `field/` commercial scan/probe artifacts;
+- prior `docs/field/` field packets;
+- prior `docs/launch/` launch cards;
+- prior `docs/results/` candidate/result packets;
+- prior `docs/validation/` candidate packets;
+- prior case-specific `docs/research/` runs, leaving only reusable method material plus a new reset README;
+- prior case/research-run JSON data and candidate ledgers;
+- prior numbered research-run fixtures;
+- case-specific workflow definitions tied to those retired runs;
+- fixture tests whose only purpose was to validate removed historical cases.
 
-## Latest Artifact / Persisted State
+Preserved:
+- constitutional doctrine;
+- Attraction Field doctrine;
+- generic sensing/evidence code;
+- source registries and reusable templates;
+- causal descent;
+- latent connection discovery;
+- capability/resource models;
+- orchestration and transaction truth gates;
+- CI/recovery infrastructure.
 
-Doctrine:
-- docs/OPPORTUNITY_ATTRACTION_FIELD.md
-- docs/LATENT_VALUE_DOCTRINE.md
-- docs/FORMAL_TRUTH.md
-- docs/OPPORTUNITY_SCORECARD.md
-- AGENTS.md
+## New Scan Contract
 
-Last empirical formation artifacts:
-- data/regenerative_formation_scan_020_lineage_accountability_verdict_2026-09-19.json
-- field/regenerative-formation-scan-020-lineage-accountability-verdict.md
+Next scan ID:
+`ATTRACTION_SCAN_001`
 
-## Completed
+It must:
+1. start from broad current reality;
+2. avoid inherited vertical/geography/asset assumptions;
+3. search observable state changes, contradictions, workarounds and partial flows;
+4. derive structural friction before connection design;
+5. require connection pressure and an observed missing edge;
+6. require A-side attraction evidence;
+7. require B-side attraction evidence;
+8. record operator / Rooter strategic attraction separately;
+9. include activation friction + self-propulsion;
+10. include a Drift Audit;
+11. treat incumbent presence as evidence about flow resolution, not automatic rejection;
+12. keep promotion fail-closed.
 
-### Anti-drift correction
-Fresh scans may not silently inherit the previous candidate's industry, asset type or search lens.
+No product design, pricing or outreach before a formation survives these gates.
 
-### Search-lens demotion
-TRANSFERABLE OBJECTIVE STRANDED UNIT remains useful but is no longer the next scan's governing ontology.
+## Active Issue
 
-### Incumbent correction
-An existing platform, broker, distributor, institution or service provider does not automatically kill a formation. The scan must test whether the relevant value flow is actually resolved for the target actor/state population.
+#143 remains the single P0 mission issue, but its old launch-card body is stale and must be rewritten/updated after reset merge.
 
-### Attraction Field
-诱惑力 is now formalized as three distinct vectors:
-- A-side attraction;
-- B-side attraction;
-- operator / Rooter attraction.
-
-Attraction is weakest-link dominated. A strong side cannot average away an indifferent side.
-
-### Attraction Brief
-Every retained formation must state:
-- why A wants to move now;
-- evidence of A motion;
-- why B wants to move now;
-- evidence of B motion;
-- why the operator actively wants to own the bridge;
-- what recurring operator labor must disappear;
-- what surprising value jump the connection creates;
-- remaining activation friction;
-- why successful routing can self-propel.
-
-### Drift Audit
-Every white-portfolio scan must explicitly check:
-- prior-vertical recursion;
-- search-lens lock-in;
-- industrial/inventory/professional-service over-selection;
-- incumbent auto-kill;
-- analyst-story attraction versus participant evidence.
-
-## Current Findings
-
-- A plausible connection can be structurally real and still too inert to deserve founder attention.
-- Bilateral motion is necessary but not sufficient for this founder-priority system; operator strategic attraction also matters.
-- Strong formations should make participant surplus legible enough that persuasion burden falls.
-- The strongest “wow” is not novelty alone; it is a surprising state-dependent value jump plus evidence that both sides already want the resulting movement.
-- Operator attraction should come from owning and improving the bridge, not from being the hero who personally performs the work.
+All old candidate/cycle Issues must be closed as superseded by the clean-slate reset.
 
 ## Blockers
 
-No doctrine blocker remains.
-
-The blocker is empirical: Scan 021 must discover a formation that survives structural truth, participant pull, attraction, missing-edge and orchestration tests.
+Reset branch still needs:
+1. PR;
+2. CI;
+3. fix any stale test/reference failures;
+4. merge;
+5. close obsolete case Issues;
+6. rewrite #143 for the new epoch;
+7. begin ATTRACTION_SCAN_001.
 
 ## Next Action
 
-Run Regenerative Formation Scan 021 from broad reality.
-
-The scan must:
-- deliberately reopen different forms of social, consumer, household, SME, enterprise, city, cross-border, technology, relationship/trust, time/access/capacity and physical-asset reality as evidence warrants;
-- avoid a fixed category quota and never fabricate weak directions just for breadth;
-- not default to industrial B2B;
-- not start from TRANSFERABLE OBJECTIVE STRANDED UNIT;
-- include an Attraction Brief for each retained formation;
-- include a Drift Audit;
-- treat incumbents as evidence about flow resolution rather than automatic rejection;
-- prioritize formations where A wants to move, B wants to move and the operator wants to own the bridge;
-- keep all promotion fail-closed and evidence-bound.
-
-No product design, pricing or outreach.
+Open the reset PR, run CI, fix failures, merge, reconcile Issues, then immediately begin ATTRACTION_SCAN_001 from broad current reality.
 
 ## Do Not Repeat
 
-- Do not let Scan 020's final search lens become the permanent discovery model.
-- Do not default to industrial B2B.
-- Do not over-select inventory, equipment, technical experts or professional services because they are easy to index.
-- Do not kill a formation merely because a platform/service/distributor already exists.
-- Do not confuse a clever connection with participant attraction.
-- Do not use founder excitement as demand evidence.
-- Do not keep a logically coherent but low-attraction formation as the current founder priority.
-- Do not make the operator permanent sales/search/delivery labor.
+- Do not restore deleted historical cases from Git history.
+- Do not resume old Scan 020/021 numbering.
+- Do not treat old issues as fallback routes.
+- Do not default to Xuzhou, industrial B2B, inventory, equipment, experts or public procurement.
+- Do not use old scores or old demotions as priors.
+- Do not confuse source availability with opportunity importance.
+- Do not confuse cleverness with participant pull.
+- Do not use founder excitement as market evidence.
+- Do not make the operator recurring search/sales/delivery labor.
 
 ## Guardrails
 
@@ -203,8 +143,9 @@ No product design, pricing or outreach.
 - REALITY > COGNITION > SCHEMA.
 - BROAD REALITY > CURRENT SEARCH LENS.
 - SEARCH LENS != ONTOLOGY.
+- HISTORICAL CASE != ACTIVE INPUT.
+- GIT HISTORY != CANDIDATE POOL.
 - EXISTING ACTOR != FLOW SOLVED.
-- STRUCTURAL FRICTION != MISSING EDGE.
 - FOUNDER EXCITEMENT != PARTICIPANT PULL.
 - ATTRACTION != VALIDATION.
 - FOUNDER AS PERMANENT HUMAN SEARCH ENGINE = FAIL.
