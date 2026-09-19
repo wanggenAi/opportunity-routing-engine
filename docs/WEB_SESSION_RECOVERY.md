@@ -97,6 +97,8 @@ Recovery is a **control-plane concern only**.
 
 Checkpoint commits use messages beginning with `[skip ci] recovery:` and remain on `state/chatgpt-recovery`. The branch is not a feature branch, must not be opened as a PR, and must not be merged into `main`. Installation and future workflow changes must verify that checkpoint commits do not trigger business workflows.
 
+For a recovery-only PR, run the required PR checks on the head commit, then use a merge/squash commit whose message includes `[skip ci]`. This prevents the documentation/control-plane merge itself from launching duplicate main-push CI, scans, tagging or production workflows. Never use this optimization for a PR that changes business/runtime behavior.
+
 ## Fenced single-writer and compare-and-swap
 
 The state-file blob SHA plus monotonically increasing `generation` form the writer fence.
