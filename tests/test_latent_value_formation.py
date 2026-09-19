@@ -87,6 +87,18 @@ class LatentValueFormationTests(unittest.TestCase):
                         "the segment consistently prefers only passive leisure outcomes",
                     ),
                 ),
+                LatentOutcomeHypothesis(
+                    outcome_id="OUTCOME-RETIREMENT-2",
+                    statement=(
+                        "prioritize passive leisure and unstructured autonomy rather than "
+                        "convert experience into additional productive contribution"
+                    ),
+                    truth_state=CausalTruthState.INFERRED,
+                    evidence_refs=("survey:state", "research:underuse"),
+                    falsifiers=(
+                        "the segment repeatedly chooses bounded contribution when autonomy is preserved",
+                    ),
+                ),
             ),
             selected_outcome_id="OUTCOME-RETIREMENT-1",
             outcome_selection_rationale=(
@@ -136,6 +148,11 @@ class LatentValueFormationTests(unittest.TestCase):
                 ),
             ),
             lead_constraint_ids=("C-ROLE-PACKAGING",),
+            outcome_selection_evidence_refs=(
+                "behavior:learning-travel",
+                "survey:state",
+            ),
+            deeper_search_would_change_decision=False,
             stop_reason=CausalStopReason.INTERVENTION_RELEVANT_BOUNDARY,
             stop_rationale=(
                 "the current causal frontier is already specific enough to change "
@@ -425,11 +442,19 @@ class LatentValueFormationTests(unittest.TestCase):
             **{
                 **causal.__dict__,
                 "surface_evidence_refs": ("research:underuse", "survey:state"),
-                "outcome_hypotheses": (objective_outcome,),
+                "outcome_hypotheses": (
+                    objective_outcome,
+                    causal.outcome_hypotheses[1],
+                ),
+                "outcome_selection_evidence_refs": (
+                    "research:underuse",
+                    "survey:state",
+                ),
             }
         )
         hypothesis = self._hypothesis(
             psychology_snapshots=(),
+            observed_behavior="",
             causal_descent=objective_causal,
             evidence=tuple(
                 item
@@ -443,6 +468,28 @@ class LatentValueFormationTests(unittest.TestCase):
         )
         self.assertEqual(validate_formation(hypothesis), [])
         self.assertEqual(formation_state(hypothesis), FormationState.VALIDATION_READY)
+
+    def test_complementary_node_refs_must_bind_to_formation_evidence(self):
+        base = self._hypothesis()
+        broken_nodes = (
+            ComplementaryWorldNode(
+                node_id="UNBOUND-NODE",
+                node_type="GROUP",
+                observed_state="a plausible complementary state",
+                contribution_hypothesis="could contribute capability",
+                evidence_refs=("source:not-in-evidence-packet",),
+            ),
+        )
+        hypothesis = self._hypothesis(complementary_nodes=broken_nodes)
+        errors = validate_formation(hypothesis)
+        self.assertIn(
+            "unbound_complementary_node_evidence_ref:UNBOUND-NODE:source:not-in-evidence-packet",
+            errors,
+        )
+        self.assertEqual(
+            formation_state(hypothesis),
+            FormationState.LATENT_CONNECTION_EVIDENCED,
+        )
 
     def test_persistent_mismatch_can_form_without_recent_change(self):
         base = self._hypothesis()
