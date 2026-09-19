@@ -1,0 +1,194 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_016_LOCATION_BOUND_CAUSAL_DESCENT",
+  "date": "2026-09-19",
+  "title": "Causal descent on location-bound lease-succession assets",
+  "parent_scan": "REGENERATIVE_FORMATION_SCAN_015_LOCATION_BOUND_SUCCESSION",
+  "objective": "Determine whether same-dwelling lease succession creates an open, repeatable control plane for residual household assets or whether the apparent value flow is subordinate to the housing transaction and already absorbed by incumbent actors.",
+  "truth_rules": [
+    "PRIMARY_TRANSACTION_DOMINATES_SIDE_CAR_VALUE",
+    "EXACT_ADDRESS_VALUE != OPEN CONTROL PLANE",
+    "FREE_ASSET CANNOT RESCUE A BAD PRIMARY MATCH",
+    "LANDLORD_CONSENT_AND_HANDOVER_RULES_ARE_CAUSAL",
+    "DISPOSAL_FALLBACK_REDUCES_SUCCESSOR_DEPENDENCE",
+    "FURNISHED_RENTAL_IS_A_SUBSTITUTE_FOR_PREDECESSOR_ASSET_INHERITANCE",
+    "SIDE_CAR_FLOW_ATTACHED_TO_A_DOMINANT_TRANSACTION_IS_USUALLY_ABSORBED_BY_THE_DOMINANT_TRANSACTION_OWNER",
+    "UNKNOWN != PASS"
+  ],
+  "selected_latent_outcomes": {
+    "outgoing_renter": {
+      "primary": "FAST_LOW_FRICTION_UNIT_CLEARANCE_UNDER_MOVE_DEADLINE",
+      "secondary": "RECOVER_RESIDUAL_VALUE_WHEN_CONVENIENT",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "fact": "A 2026 Shenzhen renter who was relocated for work after ten months could not practically take more than RMB 10,000 of self-purchased furniture and transferred it to the next tenant at a discount.",
+          "source": "https://global.hk01.com/%E4%B8%AD%E5%9B%BD%E8%A7%82%E5%AF%9F/60344465/%E6%B7%B1%E5%9C%B3%E7%A7%9F%E6%A5%BC%E5%A6%82%E8%A7%81%E5%B7%A5-%E4%B8%9A%E4%B8%BB%E5%8C%96%E8%BA%ABhr%E6%9F%A5%E8%83%8C%E6%99%AF-%E6%B7%B1%E6%BC%82%E5%8F%B9-%E6%9C%89%E9%92%B1%E4%BA%A4%E7%A7%9F%E9%83%BD%E6%9C%AA%E5%BF%85%E4%BD%8F%E5%BE%97"
+        },
+        {
+          "fact": "Beijing's 2026 Jingcai Recycling service offers one-click online appointments for bulky household item pickup, including sofas, mattresses and wardrobes, providing a standardized clearance fallback even when no successor wants the items.",
+          "source": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202605/t20260520_4658914.html"
+        }
+      ],
+      "interpretation": "The move deadline and clearance obligation dominate. Residual-value recovery is valuable but subordinate when time, transport or handover pressure becomes binding."
+    },
+    "incoming_renter": {
+      "primary": "ACCEPTABLE_HOUSING_MATCH_WITH_LOW_SETUP_FRICTION",
+      "secondary": "CHEAP_OR_INCLUDED_FURNITURE_IF_PREFERENCES_FIT",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "fact": "Current Ziroom listings continue to compete on fully furnished, appliance-equipped, move-in-ready housing, directly solving setup friction without requiring predecessor-to-successor asset transfer.",
+          "source": "https://www.ziroom.com/"
+        },
+        {
+          "fact": "A current 2026 Shenzhen transfer listing bundles furniture with the tenancy ('转租可送家具'), showing furniture functions as a sidecar to the housing listing rather than an independent primary transaction.",
+          "source": "https://www.wellcee.com/tw/rent-apartment/1778680906006641"
+        },
+        {
+          "fact": "An older Shenzhen calibration case showed furniture discounted toward free still failed to produce a successor when the underlying room/rent/location match was weak.",
+          "source": "https://m.huxiu.com/article/2363437.html",
+          "evidence_role": "historical causal contradiction"
+        }
+      ],
+      "interpretation": "The incoming renter chooses the dwelling first. Predecessor assets can reduce setup cost only after the primary housing match passes."
+    },
+    "landlord_or_operator": {
+      "primary": "CONTRACT_COMPLIANT_CLEAN_HANDOVER_AND_LOW_VACANCY",
+      "secondary": "PRESERVE_USEFUL_FURNISHING_WHEN_IT_IMPROVES_THE_NEXT_LEASE",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "fact": "Current national model housing-rental contracts include a formal handover inventory for accessories, facilities, equipment, furniture, appliances and decoration, placing retained-item truth inside the landlord-tenant lease boundary.",
+          "source": "https://htsfwb.samr.gov.cn/View?id=2340996b-882d-47a4-b74d-c30784628737"
+        },
+        {
+          "fact": "Another national model contract explicitly governs tenant-added items, restoration, compensation, gratuitous transfer to the landlord and disposal of unremoved items after notice.",
+          "source": "https://htsfwb.samr.gov.cn/View?id=b914dd8a-0cd6-4c84-a93a-337b32ae1082"
+        }
+      ],
+      "interpretation": "The landlord already has formal authority over handover, retained improvements/items and abandonment. Any successor-asset flow must pass through that control plane."
+    }
+  },
+  "competing_causal_hypotheses": [
+    {
+      "hypothesis": "H1_EXACT_ADDRESS_CREATES_UNIQUE_SUCCESSOR_VALUE",
+      "state": "SUPPORTED_BUT_CONDITIONAL",
+      "reason": "Bulky/fitted assets can be worth more to the next occupant of the same dwelling because transport, dismantling and refitting disappear.",
+      "falsifier": "If successor willingness remains low after the housing match is already accepted, address-specific value is too weak to matter commercially."
+    },
+    {
+      "hypothesis": "H2_FRAGMENTED_DISCOVERY_IS_THE_GOVERNING_CONSTRAINT",
+      "state": "WEAKENED",
+      "reason": "Housing listings already carry furniture-transfer terms, so the dominant discovery surface can expose the sidecar without a separate market.",
+      "evidence": [
+        {
+          "fact": "A current Shenzhen Wellcee listing directly combines tenancy transfer and furniture giveaway in one listing.",
+          "source": "https://www.wellcee.com/tw/rent-apartment/1778680906006641"
+        }
+      ]
+    },
+    {
+      "hypothesis": "H3_INVENTORY_CONDITION_SETTLEMENT_TRUST_IS_THE_GOVERNING_CONSTRAINT",
+      "state": "NOT_PROVEN_AS_INDEPENDENT",
+      "reason": "Condition/inventory truth matters, but lease handover contracts already enumerate furniture/appliances and landlord approval governs retained property. No repeated independent paid demand for a separate trust layer was established."
+    },
+    {
+      "hypothesis": "H4_TIMING_OVERLAP_IS_THE_GOVERNING_CONSTRAINT",
+      "state": "PLAUSIBLE_BUT_NOT_A_SEPARATE_CONTROL_PLANE",
+      "reason": "Outgoing and incoming tenants must overlap enough to transfer assets, but the lease/broker/landlord already controls vacancy timing and successor selection."
+    },
+    {
+      "hypothesis": "H5_DISPOSAL_TRANSPORT_ECONOMICS_DRIVE_THE_FLOW",
+      "state": "STRONGLY_SUPPORTED_FOR_OUTGOING_SIDE",
+      "reason": "Bulky-item removal has real cost and deadline pressure, but standardized recycling/clearance services provide a fallback that does not require successor matching."
+    }
+  ],
+  "incumbent_substitutes": [
+    {
+      "mechanism": "FURNISHED_RENTAL_OPERATOR",
+      "effect": "Solves incoming setup friction upstream by standardizing furniture/appliances as part of the housing product.",
+      "evidence": [
+        {
+          "fact": "Current Ziroom listings advertise full furniture/appliances and move-in-ready inventory.",
+          "source": "https://www.ziroom.com/"
+        },
+        {
+          "fact": "Ziroom's apartment model describes standardized decoration plus branded furniture/appliances and ongoing operational services.",
+          "source": "https://apartment.ziroom.com/project/aboutZra.html"
+        }
+      ]
+    },
+    {
+      "mechanism": "LANDLORD_LEASE_HANDOVER",
+      "effect": "Owns consent, inventory, item retention, restoration, compensation and abandonment treatment.",
+      "evidence": [
+        {
+          "source": "https://htsfwb.samr.gov.cn/View?id=2340996b-882d-47a4-b74d-c30784628737"
+        },
+        {
+          "source": "https://htsfwb.samr.gov.cn/View?id=b914dd8a-0cd6-4c84-a93a-337b32ae1082"
+        }
+      ]
+    },
+    {
+      "mechanism": "RECYCLING_CLEARANCE_SERVICE",
+      "effect": "Provides an outgoing-renter fallback when no successor wants the assets.",
+      "evidence": [
+        {
+          "source": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202605/t20260520_4658914.html"
+        }
+      ]
+    },
+    {
+      "mechanism": "RENTAL_PLATFORM_TRANSITION_SERVICES",
+      "effect": "Large rental platforms already expand around move events with moving/cleaning and related services.",
+      "evidence": [
+        {
+          "source": "https://www.news.cn/house/20260706/31ddb867a4734d2ba337f9a05c469bbf/c.html"
+        }
+      ]
+    }
+  ],
+  "causal_frontier": {
+    "accepted_chain": [
+      "A move/lease-termination deadline creates a high-priority need to clear the unit.",
+      "Residual-value recovery is desirable but subordinate to clearing the unit on time.",
+      "The next tenant values predecessor assets only after the primary housing match already passes.",
+      "Landlord/broker/platform controls the primary housing succession and contractual handover.",
+      "If same-address transfer fails, recycling/clearance and furnished-rental alternatives absorb much of the remaining problem."
+    ],
+    "hierarchy": "HOUSING_MATCH_AND_LANDLORD_CONTROL > TURNOVER_CLEARANCE > RESIDUAL_ASSET_VALUE",
+    "stop_reason": "INTERVENTION_RELEVANT_BOUNDARY",
+    "stop_rationale": "The sidecar flow has real address-specific value, but the decisive transaction and permission boundary is the lease itself. The dominant transaction owner already has the cheapest path to expose, approve or absorb the sidecar.",
+    "decision_stable": true
+  },
+  "primary_decision": {
+    "formation": "LOCATION_BOUND_SUCCESSION_ASSET_FLOW",
+    "new_state": "DEMOTED_FROM_PRIMARY_FORMATION",
+    "reason": "No independent recurring missing edge remains after accounting for the dominant housing transaction, landlord handover authority, listing-level furniture bundling, furnished-rental substitutes and disposal fallbacks.",
+    "preserve_as": [
+      "TRANSITION_BOUND_RESIDUAL_VALUE_ARCHETYPE",
+      "EVIDENCE_THAT_LOCATION_AND_TIME_CAN_CHANGE RESOURCE VALUE",
+      "CAUTION THAT SIDE_CAR FLOWS ARE OFTEN ABSORBED BY DOMINANT_TRANSACTION OWNERS",
+      "SEARCH HEURISTIC FOR TRANSITIONS WHERE NO DOMINANT OWNER EXISTS"
+    ]
+  },
+  "meta_rule": {
+    "name": "DOMINANT_TRANSACTION_ABSORPTION_RULE",
+    "statement": "A side-car value flow attached to a dominant transaction is usually weak as an independent Rooter opportunity when the dominant transaction owner already controls identity, permission, timing, settlement or handover.",
+    "examples": [
+      "institutional co-residence -> eldercare institution/public program owns governance",
+      "community-space reuse -> asset owner/community authorizes operator",
+      "lease-succession furniture -> landlord/rental platform owns lease handover"
+    ],
+    "search_implication": "Prefer transition boundaries where the primary transaction itself has no natural control-plane owner or where incumbent ownership repeatedly fails in an observable, costly way."
+  },
+  "portfolio_state": {
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "formal_latent_connection_promotions": 0,
+    "primary_formation_direction": null,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "next_action": "Return to fresh life-world sensing with the dominant-transaction absorption rule. Prioritize recurring transition boundaries with meaningful value where identity, permission, timing, settlement and accountability are fragmented across actors rather than already concentrated in one institution/platform/landlord. Do not create products, pricing or outreach."
+}
