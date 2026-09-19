@@ -63,26 +63,27 @@ Do not promote this to a canonical latent connection until portability and self-
 Keep `LWA-VALUE-TRANSLATION` separate; its primary edge is product/value conversion and distribution, not general relationship infrastructure.
 
 ## Current Phase
-`LIFE_WORLD_MISSING_EDGE_SCAN_003_ACTIVE / TWO_ARCHETYPES_SPLIT / PORTABILITY_SELF_PROPULSION_NEXT`
+`LIFE_WORLD_MISSING_EDGE_SCAN_003_MERGED / MAIN_GREEN / TWO_ARCHETYPES_SPLIT / PORTABILITY_SELF_PROPULSION_NEXT`
 
 ## Last Verified Main
-`01bc0dbdf92e494d104e336e5c4b759ee50778be` — PR #241 squash-merged. Main CI run #747 (run id `35423715645`) passed on this functional SHA. Live main later advanced with state-only checkpoint `28c770bf5e7608792d9d068ef78a99d34e5dd4e5`.
-
-The current missing-edge discrimination work is on an unmerged feature branch and must pass PR CI before changing functional main truth.
+`45c80e90c717a385870552d0cc8532f56c5e1a42` — PR #242 squash-merged. Main CI run #749 (run id `35423945295`) passed on this exact SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Issue #143 remains the eventual external-truth mission anchor. No outreach is authorized because formation truth remains upstream.
+Issue #143 remains the eventual external-truth mission anchor. Scan 003 was synced in comment id `5739649792`. No outreach is authorized because formation truth remains upstream.
 
 ## Active Branch
-`feature/life-world-missing-edge-discrimination`
+None. `feature/life-world-missing-edge-discrimination` is merged and is not an active source of truth.
 
 ## Active PR
-None yet.
+None. PR #242 (`Discriminate life-world intergenerational missing edges`) is merged.
 
 ## CI
-No CI has run yet on the current branch.
+- PR #242 final head: `61838c14e38bd8f58f806054e763b62cb252a7a5`
+- PR CI: run #748, success
+- merge SHA: `45c80e90c717a385870552d0cc8532f56c5e1a42`
+- main CI: run #749, run id `35423945295`, success
 
 ## Latest Artifact / Persisted State
 Current discrimination scan:
