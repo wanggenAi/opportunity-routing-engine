@@ -66,6 +66,7 @@ class RepositoryRecoveryContractTests(unittest.TestCase):
         self.assertIn("[skip ci] recovery:", protocol)
         self.assertIn("recovery-only PR", protocol)
         self.assertIn("maximum serialized size: 16 KiB", protocol)
+        self.assertIn("no private customer/user PII", protocol)
 
 
     def test_recovery_state_example_is_bounded_and_valid(self):
