@@ -134,11 +134,27 @@ class OntologyGovernanceTests(unittest.TestCase):
         with SQLiteOntologyRegistry(":memory:") as registry:
             registry.register_version(first)
             registry.register_version(renamed)
+            registry.add_lineage(
+                from_concept_id=renamed.concept_id,
+                from_version=2,
+                relation="RENAMED_FROM",
+                to_concept_id=first.concept_id,
+                to_version=1,
+                rationale="Synthetic rename lineage.",
+            )
             registry.activate(renamed.concept_id, 2, activated_by="reviewer:test", activated_at="2026-09-19T21:10:00+08:00", rationale="Activate rename.")
             with self.assertRaisesRegex(ValueError, "explicitly deactivated"):
                 registry.register_version(deprecated)
             registry.deactivate(renamed.concept_id)
             registry.register_version(deprecated)
+            registry.add_lineage(
+                from_concept_id=renamed.concept_id,
+                from_version=2,
+                relation="DEPRECATED_BY",
+                to_concept_id=deprecated.concept_id,
+                to_version=3,
+                rationale="Synthetic deprecation lineage.",
+            )
             with self.assertRaisesRegex(ValueError, "deprecated ontology version"):
                 registry.activate(deprecated.concept_id, 3, activated_by="reviewer:test", activated_at="2026-09-19T21:20:00+08:00", rationale="Must fail.")
             self.assertEqual([spec.version for spec in registry.versions(first.concept_id)], [1, 2, 3])
