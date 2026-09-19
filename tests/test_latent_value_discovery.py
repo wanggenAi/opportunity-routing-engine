@@ -145,7 +145,7 @@ class LatentValueDiscoveryTests(unittest.TestCase):
             "explicit_demand_execution_is_not_core_latent_value_discovery",
             validate_candidate(candidate),
         )
-        self.assertEqual(discovery_state(candidate), DiscoveryState.COMPLEMENTARITY_HYPOTHESIS)
+        self.assertEqual(discovery_state(candidate), DiscoveryState.LATENT_CONNECTION_EVIDENCED)
 
     def test_missing_hidden_value_fails_closed(self):
         candidate = self._candidate(hidden_or_underrecognized_value="")
@@ -155,7 +155,7 @@ class LatentValueDiscoveryTests(unittest.TestCase):
     def test_missing_transformation_mechanism_cannot_be_validation_ready(self):
         candidate = self._candidate(transformation_mechanism="")
         self.assertIn("missing:transformation_mechanism", validate_candidate(candidate))
-        self.assertEqual(discovery_state(candidate), DiscoveryState.LATENT_VALUE_HYPOTHESIS)
+        self.assertEqual(discovery_state(candidate), DiscoveryState.LATENT_CONNECTION_EVIDENCED)
 
     def test_dict_guard_rejects_old_supply_demand_record_shape(self):
         record = {
