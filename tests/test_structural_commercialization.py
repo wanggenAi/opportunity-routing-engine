@@ -30,9 +30,15 @@ class StructuralCommercializationTests(unittest.TestCase):
         payload = json.loads((RUN_DIR / "evidence.json").read_text(encoding="utf-8"))
         return payload, tuple(evidence_from_dict(item) for item in payload["evidence"])
 
-    def test_candidate_is_latent_value_validation_ready_but_not_business_truth(self):
+    def test_legacy_candidate_requires_structural_friction_requalification(self):
         candidate = json.loads((RUN_DIR / "candidate.json").read_text(encoding="utf-8"))
-        self.assertEqual(validate_candidate_record(candidate), [])
+        errors = validate_candidate_record(candidate)
+        self.assertIn("missing:surface_phenomenon_or_friction", errors)
+        self.assertIn("missing:latent_outcome_hypothesis", errors)
+        self.assertIn("missing:structural_friction_hypothesis", errors)
+        self.assertIn("structural_friction_not_evidenced", errors)
+        self.assertIn("missing:alternative_explanations", errors)
+        self.assertIn("missing:evidence_kind:STRUCTURAL_FRICTION", errors)
         self.assertEqual(candidate["source_mode"], "LATENT_VALUE_DISCOVERY")
         self.assertNotIn("business_promotion", candidate)
         self.assertNotIn("opportunity_score", candidate)
