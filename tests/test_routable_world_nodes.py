@@ -2,7 +2,7 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DOC = ROOT / "docs" / "field" / "ROUTABLE_WORLD_NODES_2026-09-16.md"
+DOC = ROOT / "docs" / "ROUTABLE_WORLD_NODES.md"
 
 
 class RoutableWorldNodesTests(unittest.TestCase):
