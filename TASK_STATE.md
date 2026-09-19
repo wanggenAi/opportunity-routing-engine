@@ -12,7 +12,7 @@ Result:
 
 - the same-address effect is real because it can eliminate dismantling/transport cost;
 - outgoing-renter pressure is primarily fast compliant clearance with minimum net loss, not maximizing resale;
-- incoming-renter demand is primarily for a suitable move-in-ready dwelling, not predecessor assets as a standalone purchase;
+- incoming-renter demand is primarily a suitable move-in-ready dwelling, not predecessor assets as a standalone purchase;
 - housing match precedes predecessor-asset value;
 - landlord/property consent and handover control are structurally unavoidable;
 - current rental listings already express furnished state, free successor items, paid appliance transfers and direct landlord re-signing;
@@ -58,33 +58,40 @@ Find a transition boundary where:
 
 ## Current Phase
 
-REGENERATIVE_FORMATION_SCAN_016_CAUSAL_DESCENT_COMPLETE / LOCATION_BOUND_SUCCESSION_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_REGENERATIVE_SENSING_NEXT
+REGENERATIVE_FORMATION_SCAN_016_MERGED / MAIN_GREEN / LOCATION_BOUND_SUCCESSION_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_REGENERATIVE_SENSING_NEXT
 
 ## Last Verified Main
 
-Live main at branch creation: `4988c72bacdb972dfdd2ac0298a28eabef0dd189` — state-only `[skip ci]` checkpoint after Scan 015.
+Functional main: `b95d6136287752932d1af5b7f6ed15c2ccbad546` — PR #256 squash-merged.
 
-Last verified functional main: `aebcee2a03564bb3c60a5e308137ce71c670560c` — PR #255 squash-merged; main CI #774 (run id `35428967000`) passed on that functional SHA.
+Main CI #777 (run id `35433695066`) passed on that exact functional SHA.
+
+A later state-only `[skip ci]` checkpoint may advance live main without changing functional truth.
 
 ## Active Issue
 
 #143 — P0: First external value flow — field proof, not more architecture.
 
+Scan 016 final verdict synced in comment id `5740657433`.
+
 No outreach is authorized.
 
 ## Active Branch
 
-feature/regenerative-formation-scan-016-succession-causal-descent until merged.
+None. `feature/regenerative-formation-scan-016-succession-causal-descent` is merged and is not an active source of truth.
 
 ## Active PR
 
-#256 — `Demote lease-succession assets after causal descent` — open on branch `feature/regenerative-formation-scan-016-succession-causal-descent`.
+None. PR #256 — `Demote lease-succession assets after causal descent` — is merged.
 
 ## CI
 
-- PR #256 head before this fix: `17e00b4a42fc690c7a49620863a1b3dad5bf241e`
-- PR CI #775 (run id `35433637049`): failed only because TASK_STATE recovery-contract tests require the `## Last Verified Main` and `## CI` headings.
-- This commit restores those required operational sections; next PR-head CI must be green before merge.
+- initial PR #256 head: `17e00b4a42fc690c7a49620863a1b3dad5bf241e`
+- PR CI #775 (run id `35433637049`): failed because TASK_STATE recovery-contract tests required the `## Last Verified Main` and `## CI` headings
+- fixed PR head: `d186ec83725f4c71e6c17439b844baab6d579204`
+- PR CI #776 (run id `35433672128`): success
+- merge SHA: `b95d6136287752932d1af5b7f6ed15c2ccbad546`
+- main CI #777 (run id `35433695066`): success
 
 ## Latest Artifact / Persisted State
 
