@@ -6,9 +6,14 @@
   "active_transaction_units": [],
   "active_parent_formations": [],
   "inherited_watchlist": [],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_001-F1"
+  ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "next_scan_id": "ATTRACTION_SCAN_001",
+  "last_completed_scan_id": "ATTRACTION_SCAN_001",
+  "next_scan_id": "ATTRACTION_SCAN_002",
+  "current_research_action": "CAUSAL_DESCENT_ATTRACTION_SCAN_001_F1",
   "required_scan_controls": [
     "BROAD_REALITY",
     "ATTRACTION_BRIEF",
@@ -17,6 +22,8 @@
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
+    "ATTRACTION_SCAN_001 completed with zero commercial candidate promotions.",
+    "ATTRACTION_SCAN_001-F1 is a research formation only and must pass causal descent before any commercial promotion.",
     "Deleted files and closed case issues must not be automatically recovered as candidates.",
     "Reusable engine code and evidence infrastructure are preserved."
   ]
