@@ -458,6 +458,30 @@ Examples:
 
 A probe result may falsify the hypothesis. It does not automatically promote a business.
 
+## 9A. Causal lineage must be persisted, not merely named
+
+A candidate cannot become structurally evidenced by carrying a label such as `causal_descent_record_id` or a polished root-cause sentence.
+
+Promotion requires the full causal lineage to remain inspectable:
+- surface evidence refs;
+- competing latent-outcome hypotheses;
+- competing structural constraints and any parent/child depth;
+- supporting and contradicting refs;
+- discriminating evidence;
+- falsifiers;
+- lead constraint(s);
+- explicit stop reason.
+
+Every causal evidence reference must bind to evidence actually present in the candidate/formation evidence packet.
+
+```text
+CAUSAL RECORD ID != CAUSAL EVIDENCE
+UNBOUND CAUSAL EVIDENCE REF != EVIDENCE
+DENORMALIZED SUMMARY != CANONICAL CAUSAL LINEAGE
+```
+
+If a human-readable summary conflicts with the structured causal record, the candidate fails closed. Do not silently rewrite the lineage to fit the summary.
+
 ## 10. Anti-story discipline
 
 Deep inference increases discovery power and also increases hallucination risk.
