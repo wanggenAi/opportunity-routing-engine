@@ -37,6 +37,10 @@
           {
             "fact": "National old-scientist/engineer enterprise-support programs report about 108,000 older technical workers serving 12,000 enterprises and solving more than 40,000 technical problems.",
             "source": "https://www.cncaprc.gov.cn/xxllsy/769341.jhtml"
+          },
+          {
+            "fact": "A 2026 manufacturing report describes a 70+ process expert working with AI engineers to distill decades of tacit operating judgment into AI-usable knowledge because retirement would otherwise risk 'people leave, know-how disappears'.",
+            "source": "https://sh.people.com.cn/n2/2026/0824/c138654-41675784.html"
           }
         ],
         "latent_endowments": [
@@ -94,6 +98,10 @@
           {
             "fact": "Jiangsu expert-enterprise visits found strong digital/intelligent transformation intent and composite technical-talent gaps in manufacturing firms.",
             "source": "https://kxjst.jiangsu.gov.cn/art/2026/7/6/art_82539_11799463.html"
+          },
+          {
+            "fact": "MIIT states AI-era software work raises the value of demand understanding, architecture, integration and validation, while hybrid talent that understands both software and industry knowledge is especially scarce; FDE-type roles are emerging.",
+            "source": "https://www.miit.gov.cn/xwfb/xwfbh/bxwfbh/art/2026/art_95c0b992336a4cb1b87ec3ccc576a669.html"
           }
         ]
       },
@@ -117,10 +125,14 @@
         {
           "pattern": "a Jiangsu family-factory example shows an earlier AI platform plan had stalled for lack of professional talent, then a younger family successor with trusted access took ownership of the digital transformation effort",
           "source": "https://news.jschina.com.cn/yw/202512/t20251231_s6954ef71e4b0be5ef3af4cc2.shtml"
+        },
+        {
+          "pattern": "manufacturers are beginning to pair senior tacit process experts with AI engineers to convert decades of difficult-to-articulate shop-floor judgment into model/agent-callable knowledge before retirement",
+          "source": "https://sh.people.com.cn/n2/2026/0824/c138654-41675784.html"
         }
       ],
-      "partial_flow_interpretation": "Reality already forms the composite through kinship, internal employment, government-organized expert visits, old-expert workstations and youth innovation teams. These are substitute channels showing directional pressure; they do not yet prove a missing market edge.",
-      "recurring_missing_edge_hypothesis": "External formation of a trusted, callable composite capability may be difficult because industrial context/reputation resides with senior/domain actors while AI/digital execution resides with younger actors, and enterprises do not have a normal low-friction way to assemble, trust, scope and accept that composite outside family/internal/institutional channels.",
+      "partial_flow_interpretation": "Reality already forms the composite through kinship, internal employment, government-organized expert visits, old-expert workstations, youth innovation teams and direct senior-expert × AI-engineer knowledge-extraction projects. These are substitute/partial channels showing directional pressure; they still do not prove one commercial missing edge.",
+      "recurring_missing_edge_hypothesis": "Two related missing-edge hypotheses remain open: (1) a trusted callable composite of domain cognition + AI/digital execution is difficult to assemble outside kinship/internal/institutional channels; (2) senior tacit industrial know-how is difficult to extract, structure, validate and make callable before retirement because the knowledge holder and AI implementation capability sit in different trust/context systems. Neither is yet OBSERVED as the canonical missing edge.",
       "missing_edge_truth_state": "INFERRED_NOT_OBSERVED",
       "demand_pump_hypothesis": [
         "continuous retirement/succession creates new stranded domain cognition",
@@ -135,7 +147,7 @@
         "Kinship cases may work specifically because ownership authority/trust cannot be reproduced externally.",
         "If real enterprises simply need full-time composite employees, there may be no separate orchestration layer."
       ],
-      "decisive_next_evidence": "Search for repeated current workarounds and failures specifically caused by the separation of domain trust/context from AI/digital execution: reliance on owners' children/young relatives, rehiring retirees plus young implementers, internal 'translator' roles, failed AI/vendor projects due to domain-context gaps, or recurring expert+young-team pairings. Only if those converge should a canonical MISSING_EDGE be promoted.",
+      "decisive_next_evidence": "Distinguish the two hypotheses. Search for repeated current evidence of: (a) firms losing/rehiring senior know-how after retirement; (b) stalled AI/digital projects because implementers cannot understand tacit process context; (c) firms creating ad-hoc senior-expert + young/AI-engineer pairs; (d) family successors acting as trust translators; and (e) whether existing FDE/digital-transformation/knowledge-management vendors already normalize either route. Promote no MISSING_EDGE until one pattern survives contradiction search.",
       "product_design_allowed": false,
       "transaction_search_allowed": false
     },
@@ -215,7 +227,8 @@
     "RFZ-001 is less formed: evidence for durable populations and connection pressure exists, but the recurring missing edge is still inferred rather than observed.",
     "The correct next move is not to design a 'senior + youth + SME' product. It is to hunt the workaround/failure layer that reveals whether the external composite capability is a real latent connection or merely an attractive narrative.",
     "Family succession is useful as an adjacent natural experiment because kinship supplies trust/access/context. It may reveal which edge an external structure would have to reproduce, but it does not prove that edge can be commercialized.",
-    "Explicit job posts, gigs and budgets remain downstream evidence and are not active scan seeds."
+    "Explicit job posts, gigs and budgets remain downstream evidence and are not active scan seeds.",
+    "The 'people leave, know-how disappears' pattern may be a more fundamental resource-state disequilibrium than generic senior employment: AI changes the economic callability of tacit industrial cognition. This remains a formation hypothesis until recurrence, control and incumbent substitution are audited."
   ],
   "portfolio_state": {
     "active_commercial_candidates": 0,
@@ -230,5 +243,5 @@
     "formal_latent_connection_promotions": 0,
     "first_external_value_flow": "NOT_PROVEN"
   },
-  "next_action": "Deepen RFZ-001 only at the connection-pressure/missing-edge layer. Search current repeated workarounds, failed AI/digital transformation attempts, informal cross-generational pairings and trust/context substitutes. Do not design a service, search for buyers, calculate price or contact actors. Kill RFZ-001 if the evidence shows existing vendors/internal hiring/institutions already normalize the flow or if kinship/internal authority is the non-transferable reason the observed precedents work."
+  "next_action": "Deepen RFZ-001 by discriminating two causal/connection hypotheses: trusted cross-generational composite capability versus tacit industrial-knowledge extraction/callability. Search repeated workarounds, retirement knowledge-loss events, stalled AI projects caused by context gaps, ad-hoc senior+young pairings and incumbent FDE/knowledge-management solutions. No product design, buyer search, pricing or outreach."
 }
