@@ -9,65 +9,67 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 021 is merged with zero retained candidates. Fresh Scan 022 is active and tests Minimum Service Unit Mismatch inside responsibility functions: named current small Xuzhou/Jiangsu transactions where professional inspection, testing aggregation, managed dispatch, acceptance or risk protection exists but the transaction is below the provider's economic minimum, forcing self-inspection, self-transport, self-coordination or uninsured risk. Price/minimum evidence alone is insufficient; require an observed workaround and measurable cost/risk.
+Fresh Scan 022 is complete with zero retained candidates. Minimum-service-unit mismatch inside responsibility functions is real, but broad demand causes markets/public infrastructure to compress professional services into shared labs, per-order inspection, per-ticket evidence and single-unit fulfillment. No current named Xuzhou/Jiangsu actor remained stuck in a measurable self-service workaround after these micro-service routes were considered. After merge, Fresh Scan 023 should search bounded low-permission responsibility tasks whose fixed context-acquisition/judgment/local-interpretation cost prevents pure ticket-level commoditization, while avoiding generic local field-evidence crowdsourcing already closed in Scan 006.
 
 ## Current Phase
-`SCAN_021_MERGED / RETAINED_ZERO / FRESH_SCAN_022_ACTIVE`
+`SCAN_022_NEGATIVE_COMPLETE / RETAINED_ZERO / SCAN_023_NEXT`
 
 ## Last Verified Main
-`b8d016bbf809de787dee03444ee1e72a9d17c3ef` — PR #224 Scan 021 merged after CI #628 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
+`001bf719c81a31335e3e28bd7434e7cb456e7dbe` — state-only Scan 022 start checkpoint on main before this branch was populated. Current branch has not yet merged.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-None.
+`field/opportunity-mobilization-scan-022`
 
 ## Active PR
-None. PR #224 — `Persist opportunity mobilization scan 021` — merged.
+Not yet opened at this checkpoint.
 
 ## CI
-- PR #224 head `4544d99509b5c467b9159cd05b6006702f1f509a`
-- Actions run #628, run id `35409862156`
-- workflow `ci`: success
-- merge SHA: `b8d016bbf809de787dee03444ee1e72a9d17c3ef`
-- run #628 emitted no separate GitHub Actions artifact
+- Last verified business CI: PR #224 Actions #628, success.
+- Current Scan 022 branch CI: pending until PR is opened.
+- No workflow artifact is claimed unless GitHub actually emits one.
 
 ## Latest Artifact / Persisted State
-- `data/opportunity_mobilization_scan_021_2026-09-19.json`
-- `field/opportunity-mobilization-scan-021.md`
-- Issue #143 synced through Scan 021
-- workflow artifact: none for CI #628
+- Branch artifact: `data/opportunity_mobilization_scan_022_2026-09-19.json`
+- Branch field note: `field/opportunity-mobilization-scan-022.md`
+- Prior merged evidence: `data/opportunity_mobilization_scan_021_2026-09-19.json`
+- Workflow artifact: none currently claimed.
 
 ## Completed
 - Prior closed/deprioritized candidates remain unchanged.
-- Scans 009–021 all completed with zero retained candidates.
+- Scans 009–021 completed with zero retained candidates.
+- Scan 022 tested Minimum Service Unit Mismatch inside professional responsibility functions.
+- 南京六城食品 is a strong named solved precedent: it previously maintained its own lab and still outsourced tests outside its capability; a shared lab reduced per-variety/per-batch cost below RMB 30, cut cost about 80% and shortened reporting from roughly three days to one day.
+- Xinghua small food enterprises provide a cluster-level solved precedent: shared labs reduced average annual testing cost from about RMB 140,000 to about RMB 20,000.
+- Commercial third-party inspection is already sold around RMB 500–550 per bounded visit/order for small-batch use.
+- Parcel/return inspection evidence is already sold at RMB 2–6 per ticket, proving extreme micro-unit compression is possible when the task is standardized.
+- Cross-border fulfillment already supports one-piece/no-minimum small-batch units in current offerings.
+- Current Xuzhou quality/certification assistance is broad; no named unresolved local micro-unit gap was bound.
+- `RETAINED_CANDIDATES = 0`.
 - No founder probe released.
 - External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 - Two prior external probes still have zero qualified responses.
-- Fresh Scan 022 started.
-- Early Scan 022 counterevidence:
-  - current inspection platforms already expose standardized small-order pricing in the hundreds of RMB rather than requiring large consulting projects;
-  - parcel/returns logistics already offers photo/basic inspection at single-ticket micro-prices;
-  - cross-border fulfillment providers can accept no-minimum or single-piece inbound orders;
-  - Xuzhou testing aggregation already uses group-buy economics, pickup/delivery and multi-lab routing.
-- Therefore professional-responsibility minimum-unit mismatch cannot be inferred from day-rate/minimum-price evidence alone.
 
 ## Current Findings
 - `PROFESSIONAL MINIMUM PRICE != OBSERVED MICRO-UNIT GAP`.
-- Mature markets repeatedly compress responsibility functions into smaller service units when demand is broad enough.
-- Scan 022 requires a named actor actually self-inspecting/self-transporting/self-coordinating or accepting risk because the professional unit is uneconomic.
+- `MINIMUM SERVICE UNIT MISMATCH` is real, but mature markets often respond with pooling, standardization and per-ticket decomposition.
+- Provider day rates or minimum charges alone cannot establish a candidate.
+- A valid residual requires a named current actor still performing a costly workaround after shared/micro-service incumbents are considered.
+- The next interesting class must resist micro-unit compression because each transaction requires context/judgment/local interpretation, while remaining bounded and low-permission.
 
 ## Blockers
-- No named current Xuzhou/Jiangsu small actor with a measurable workaround caused by responsibility-service minimum economics is yet bound.
+- No current named Xuzhou/Jiangsu small actor remains stuck below the economic minimum of a responsibility service after current shared/micro-service routes.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-Continue Fresh Scan 022 only. Search current named Xuzhou/Jiangsu SMEs/small exporters/small equipment owners for recent self-inspection, self-delivery, skipped third-party verification or uninsured acceptance explicitly caused by order size/service minimum/fixed cost. Aggressively check micro-service incumbents. Do not persist Scan 022 unless judgment materially changes.
+After Scan 022 merges, start Fresh Scan 023. Search named Xuzhou/Jiangsu transactions where a small bounded responsibility task still requires transaction-specific context acquisition, judgment or local interpretation that prevents simple per-ticket service, causing a current manual workaround. Do not reopen generic field-evidence crowdsourcing; require measurable time/money/risk and objective acceptance.
 
 ## Do Not Repeat
-- Do not infer opportunity from inspection/testing price lists alone.
-- Do not reopen generic testing aggregation, inspection, fulfillment, equipment dispatch or prior closed responsibility routes.
+- Do not infer opportunity from inspection/testing price lists.
+- Do not reopen shared testing, generic inspection, parcel evidence, fulfillment or earlier closed responsibility routes.
+- Do not reopen generic local field-evidence crowdsourcing from Scan 006.
 - Do not release founder outreach until a narrow public residual is evidenced.
 - Do not build ontology/scoring/agent architecture.
 
