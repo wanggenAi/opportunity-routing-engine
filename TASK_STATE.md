@@ -3,11 +3,19 @@
 Operational handoff only. GitHub live state wins if anything below conflicts with repository facts.
 
 ## Current Mission
-The active commercial search remains formation-first and regenerative, but the current primary sensing domain has been corrected toward **everyday life**.
+The active commercial search remains formation-first and focused on everyday intergenerational life-world flows.
 
-The user's long-standing calibration example is now explicit: younger people and retired/low-age older adults may each hold large, replenishing pools of underused everyday resources. The system should search how these resources already leak toward each other in ordinary life before looking at industrial/internal-enterprise structures.
+The current active family is:
 
-All explicit task/gig/budget/quote examples remain downstream calibration only.
+`LWF-INTERGEN-001 — Young people × retired/low-age older adults everyday mutual-value field`
+
+All explicit job/gig/budget/quote examples remain downstream calibration only.
+
+The latest discrimination pass rejects one universal “intergenerational platform” thesis and splits the family into two deeper archetypes:
+- `LWA-RELATIONSHIP` — trusted reciprocal exchange operating layer;
+- `LWA-VALUE-TRANSLATION` — latent capability-to-market translation layer.
+
+Neither is a commercial candidate yet.
 
 ## Goal
 Preserve:
@@ -16,15 +24,14 @@ Preserve:
 REALITY > COGNITION > SCHEMA
 ```
 
-and search:
+and the life-world formation path:
 
 ```text
 EVERYDAY ACTORS
-→ OBJECTIVE ENDOWMENTS
-→ RETIREMENT / YOUTH LIFE STATE
+→ ENDOWMENTS / STATE
 → UNDERUSE / CONTRADICTION
-→ RECIPROCAL LATENT OUTCOMES
-→ PARTIAL REAL-LIFE EXCHANGE
+→ RECIPROCAL LATENT OUTCOME
+→ PARTIAL REAL-LIFE FLOW
 → CONNECTION PRESSURE
 → RECURRING MISSING EDGE
 → DEMAND PUMP
@@ -32,47 +39,57 @@ EVERYDAY ACTORS
 → only later: product / payer / transaction
 ```
 
-The target is a long-lived river of value, not a single service request.
+The current focus is no longer “find more examples.” It is to determine whether the discovered missing edge is portable, durable and self-propelling.
 
 ## Current Unique Commercial Research Goal
-Discriminate the deeper missing edge across the active life-world intergenerational formation family `LWF-INTERGEN-001`.
+Deepen `LWA-RELATIONSHIP` only at portability/self-propulsion level.
 
-Current active formation zones:
-- `LWF-001` spare housing / affordable youth living × companionship / everyday support;
-- `LWF-002` retired time / childcare experience × young dual-income family time scarcity;
-- `LWF-003` retired life/local/craft knowledge × youth digital capability and reciprocal learning;
-- `LWF-004` retired craft/life production × youth design / storytelling / distribution.
+Current working missing-edge hypothesis:
 
-Cross-domain hypothesis:
-unrelated generations may lack a trusted, bounded, reciprocal relationship infrastructure that makes everyday value safely callable outside kinship/community/institution-led programs.
+> In non-kin everyday exchange, the scarce resource is often not the underlying room, time, skill or help. It is an operating layer that makes the reciprocal relationship legible, bounded, credible, accountable and durable enough for strangers to let value flow.
 
-Do not promote this hypothesis until it survives domain-specific contradiction search.
+Recurring functions observed across housing, childcare and skill exchange:
+- make offers/wants legible;
+- verify identity/eligibility;
+- match by fit/place/time;
+- define reciprocal obligations and boundaries;
+- create a trusted interaction context;
+- record service/reputation/reciprocity;
+- handle exception/liability/escalation;
+- preserve continuity/exit/replacement.
+
+Do not promote this to a canonical latent connection until portability and self-propulsion survive contradiction search.
+
+Keep `LWA-VALUE-TRANSLATION` separate; its primary edge is product/value conversion and distribution, not general relationship infrastructure.
 
 ## Current Phase
-`LIFE_WORLD_INTERGENERATIONAL_SCAN_002_MERGED / MAIN_GREEN / ACTIVE_CANDIDATES_ZERO / CROSS_DOMAIN_MISSING_EDGE_DISCRIMINATION_NEXT`
+`LIFE_WORLD_MISSING_EDGE_SCAN_003_ACTIVE / TWO_ARCHETYPES_SPLIT / PORTABILITY_SELF_PROPULSION_NEXT`
 
 ## Last Verified Main
-`01bc0dbdf92e494d104e336e5c4b759ee50778be` — PR #241 squash-merged. Main CI run #747 (run id `35423715645`) passed on this exact SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
+`01bc0dbdf92e494d104e336e5c4b759ee50778be` — PR #241 squash-merged. Main CI run #747 (run id `35423715645`) passed on this functional SHA. Live main later advanced with state-only checkpoint `28c770bf5e7608792d9d068ef78a99d34e5dd4e5`.
+
+The current missing-edge discrimination work is on an unmerged feature branch and must pass PR CI before changing functional main truth.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Issue #143 remains the eventual external-truth mission anchor. Life-world scan results were synced in comment id `5739621829`. No outreach is authorized because formation truth is still upstream.
+Issue #143 remains the eventual external-truth mission anchor. No outreach is authorized because formation truth remains upstream.
 
 ## Active Branch
-None. `feature/life-world-intergenerational-formation` is merged and is not an active source of truth.
+`feature/life-world-missing-edge-discrimination`
 
 ## Active PR
-None. PR #241 (`Recenter regenerative discovery on everyday intergenerational value fields`) is merged.
+None yet.
 
 ## CI
-- PR #241 final head: `383fc34d7d1b07ac0c6b79fdcf243376c387549d`
-- PR CI: run #746, success
-- merge SHA: `01bc0dbdf92e494d104e336e5c4b759ee50778be`
-- main CI: run #747, run id `35423715645`, success
+No CI has run yet on the current branch.
 
 ## Latest Artifact / Persisted State
-Primary current scan:
+Current discrimination scan:
+- `data/regenerative_formation_scan_003_missing_edge_discrimination_2026-09-19.json`
+- `field/regenerative-formation-scan-003-missing-edge-discrimination.md`
+
+Parent life-world scan:
 - `data/regenerative_formation_scan_002_life_world_2026-09-19.json`
 - `field/regenerative-formation-scan-002-life-world.md`
 
@@ -81,128 +98,113 @@ Current doctrine/reset:
 - `AGENTS.md`
 - `docs/FORMAL_TRUTH.md`
 
-Previous industrial scan:
-- `data/regenerative_formation_scan_001_2026-09-19.json`
-- `field/regenerative-formation-scan-001.md`
-
-Industrial RFZ-001 is now `SECONDARY_REFERENCE_NOT_CURRENT_PRIMARY_SCAN`.
-
 All task-first / CSVF / Shanghai wine-shop artifacts remain historical/downstream calibration only.
 
 ## Completed
-- Re-centered the active scan on ordinary daily life rather than enterprises/internal employee structures.
-- Searched current cross-generational life-world evidence.
-- Persisted `LWF-INTERGEN-001` as a formation family, not a business.
-- Persisted four distinct life-world formation zones rather than collapsing them prematurely.
-
-### LWF-001 — housing / companionship
-- Shanghai 2026 policy response explicitly links youth housing pressure with elder companionship through intergenerational co-living/service-for-housing.
-- Changzhou 2026 public eldercare institution allows 22-40 year-olds to exchange 10-20 monthly volunteer hours for discounted/free accommodation.
-- Suzhou has similar youth co-living practice.
-- Missing edge remains inferred: fit, trust, privacy, liability, boundary and continuity.
-
-### LWF-002 — retired childcare time / young-parent time scarcity
-- Multi-city “共享奶奶” flows connect healthy 50-65-ish retirees with dual-income families.
-- One community model had delivered 3,472 child-service instances by end-2024.
-- The school/work “4:30” mismatch is recurrent rather than one-off.
-- Some beneficiary families form a “反哺联盟” that later helps older residents, showing actual reciprocity.
-- Safety/liability/licensing boundaries remain critical.
-
-### LWF-003 — reciprocal life/digital skills
-- Shanghai launched “和100位长辈交换技能”: youth wanted dialect, market-shopping, knitting, woodwork; elders wanted smartphone/video skills.
-- Current communities show elders teaching traditional/life skills while youth teach digital creation.
-- Xuzhou has direct local evidence: students teach video calling; a retired carpenter teaches woodwork; a retired engineer and students turn “老徐州记忆” into short video.
-- Large-scale youth digital-support networks show the digital-help side is recurrent, not isolated.
-- Commercial value remains UNKNOWN and may be primarily social.
-
-### LWF-004 — retired craft production / youth design-distribution
-- Shaoxing's six-year cross-generational basket collaboration shows a concrete value-formation effect: roughly RMB 6 low-demand traditional baskets became roughly RMB 60 youth-reframed cultural products with demand exceeding supply.
-- Elders produce; youth design/package/promote/distribute; 80% of proceeds return to artisans.
-- Shanghai “退休市集” and Beijing “银发匠人” provide adjacent examples.
-- This is the strongest current economic partial-flow evidence, but generality beyond craft/cultural goods remains UNKNOWN.
-
-### Cross-domain pattern
-Across housing, childcare, reciprocal skills and craft commercialization, successful flows repeatedly depend on a trusted organizer:
-- community;
-- school;
--养老 institution;
-- social organization;
-- workshop/market organizer.
-
-These layers repeatedly provide some combination of discovery, identity, screening, trust, space, scheduling, rules, accountability, reciprocity and continuity.
-
-A cross-domain missing-edge hypothesis now exists:
-`TRUSTED RELATIONSHIP INFRASTRUCTURE FOR NON-KIN INTERGENERATIONAL EXCHANGE`.
-
-It is NOT promoted.
-
-- Industrial RFZ-001 was demoted to secondary reference.
-- Active commercial candidates remain 0.
-- Active transaction units remain 0.
-- No product, pricing or outreach was created.
+- Ran cross-domain missing-edge discrimination across LWF-001..004.
+- Rejected the weak unification “all intergenerational flows need one generic platform.”
+- Found strong repeated overlap across LWF-001 housing, LWF-002 childcare and LWF-003 skills:
+  - identity / eligibility;
+  - matching;
+  - boundary definition;
+  - reciprocal obligation;
+  - trust backing;
+  - reputation / record;
+  - risk/escalation;
+  - continuity.
+- Established that the shared pattern is more specific than abstract trust.
+- Preserved `LWA-RELATIONSHIP` as a cross-domain recurring-edge hypothesis, not a canonical latent connection.
+- Found strongest organizer-necessity evidence in shared-grandma models:
+  - formal recruitment/screening;
+  - community-facilitated matching;
+  - agreements;
+  - communication groups;
+  - school documentation;
+  - responsibility boundaries;
+  - insurance/risk mechanisms.
+- Preserved direct counterfactual evidence that parents often reject stranger-to-stranger childcare despite willingness to pay because unaudited identity/safety/liability risk is too high.
+- Found matching/safety/supervision/trust barriers independently in general skill exchange.
+- Found that Shanghai cross-generational skills exchange itself depended on demand collection, professional social-organization facilitation and organized offline settings.
+- Found housing/co-living similarly depends on standards, risk control, exchange rules and institution/government backing.
+- Rejected LWF-004 craft commercialization as part of the same primary edge.
+- Created separate `LWA-VALUE-TRANSLATION` archetype for:
+  - capability discovery;
+  - product conversion;
+  - design/quality adaptation;
+  - aggregation;
+  - brand/story;
+  - modern channel access;
+  - repeat market operations.
+- Found current Beijing/Fengtai programs already demonstrate this value-conversion chain at non-trivial scale.
+- Added time-bank counterevidence:
+  - Shanghai already has city-level exchange recording and large service volume;
+  - current research still finds credit, liquidity, service-quality and participation problems;
+  - this falsifies the simplistic thesis that matching + points alone solve reciprocal exchange.
+- Sent no outreach, designed no product and calculated no price.
 
 ## Current Findings
-- The user's original younger-person × retired-person example is not a single opportunity; it is a family of visible everyday-life latent-value fields.
-- The strongest formation signal is not “old people need help.” It is **bidirectional underused value**.
-- Housing, childcare, skills and craft flows all show real partial exchange, not theoretical complementarity.
-- Xuzhou itself contains visible reciprocal cross-generational examples, so this is not only a Shanghai/Beijing phenomenon.
-- The same organizer/trust scaffold appears repeatedly across otherwise different domains, which may indicate a deeper missing edge.
-- But it may also be false unification: childcare safety, housing privacy and craft distribution may be fundamentally different barriers.
-- LWF-004 is the clearest case where cross-generational recombination visibly increases economic value, but it is not yet evidence of a broad market archetype.
+- One universal edge across all four LWF zones is rejected.
+- `LWA-RELATIONSHIP` survives across housing, childcare and skills as a recurring structural pattern.
+- `LWA-VALUE-TRANSLATION` is a separate pattern for turning hidden/underpriced senior productive capability into contemporary market form.
+- The relationship-layer hypothesis is not “trust marketplace.” It is a more concrete operating layer combining legibility, verification, bounded reciprocity, accountability and continuity.
+- Existing public/community/time-bank infrastructure already owns parts of this layer; any future latent connection must explain why those systems remain fragmented, low-liquidity or institution-bound.
+- Time-bank evidence suggests a key deeper issue may be **portable credibility and future reciprocity liquidity**, not just matchmaking.
+- Commercial value remains UNKNOWN.
+- Active commercial candidates remain 0.
+- Formal latent-connection promotions remain 0.
 
 ## Blockers
-The life-world formation family cannot promote until the system distinguishes:
+`LWA-RELATIONSHIP` cannot promote until these are answered:
 
-1. one shared relationship-infrastructure gap versus several unrelated domain-specific gaps;
-2. genuine reciprocal willingness versus activity participation caused mainly by community organization;
-3. repeatable circulation versus one-off events/volunteer programs;
-4. commercializable surplus versus social/public-good value;
-5. durable organizer value versus participants bypassing after first connection;
-6. scalable trust/safety mechanisms versus irreducibly local relationship trust.
+1. Is trust/reputation portable across communities/institutions, or does every new context reset trust to zero?
+2. Do participants repeat exchanges after the initial organizer-led event?
+3. Can reciprocity/credits be redeemed outside the original group and over long time periods?
+4. Does organizer withdrawal collapse the flow?
+5. Do successful exchanges create organic future exchanges, or must the organizer continuously push activity?
+6. Can a common relationship operating layer survive domain-specific housing/childcare/safety rules?
+7. Why have existing time-bank/community systems not become normal everyday exchange infrastructure?
+8. Is there any commercially capturable surplus, or is the structure fundamentally public/voluntary?
 
 `ACTIVE COMMERCIAL CANDIDATES = 0`.
 
 `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 
 ## Next Action
-Run a cross-domain missing-edge discrimination pass across `LWF-001..004`.
+Do not add new life domains.
 
-Search specifically for:
-- failed or abandoned intergenerational matches;
-- trust/privacy/safety incidents or concerns;
-- why community/institution involvement was necessary;
-- whether relationships continue after organizer withdrawal;
-- participant willingness for paid/reciprocal exchange;
-- how reciprocity is recorded;
-- whether the same identity/screening/boundary/accountability mechanisms recur across domains;
-- incumbent platforms/services that already solve these edges.
+Deepen `LWA-RELATIONSHIP` using public evidence for:
+- cross-community / cross-city portability;
+- participant repeat behavior;
+- exchange persistence after initial organization;
+- portable reputation / reciprocity records;
+- liquidity and redemption failure in time banks;
+- why local trust does or does not travel;
+- whether successful matches self-propagate;
+- existing systems that already solve portability.
 
-If the same missing edge survives at least multiple distinct life domains, preserve it as a deeper latent-connection hypothesis.
+In parallel, keep `LWA-VALUE-TRANSLATION` separate and only test whether the same hidden-capability → contemporary-market conversion pattern repeats beyond traditional handicrafts.
 
-If barriers are domain-specific, keep the formations separate.
-
-Do not design an “intergenerational platform,” price a service or contact actors yet.
+No product design, pricing or outreach.
 
 ## Do Not Repeat
-- Do not make industrial/internal-enterprise examples the primary current scan.
-- Do not reduce young × retired to “young serve elders.”
-- Do not reduce it to “eldercare.”
-- Do not assume all older-adult value is professional expertise.
-- Do not collapse housing, childcare, skills and craft into one business without shared-edge evidence.
-- Do not treat a volunteer/community program as proof of private paid demand.
-- Do not infer commercialization from social value.
-- Do not start from explicit jobs/gigs/budgets/quotes.
-- Do not design a platform before the relationship infrastructure gap is evidenced.
-- Do not contact actors yet.
+- Do not collapse LWF-001..004 into one generic intergenerational platform.
+- Do not use “trust” as an unstructured explanation.
+- Do not merge LWA-RELATIONSHIP and LWA-VALUE-TRANSLATION.
+- Do not treat organizer presence alone as proof of a missing edge.
+- Do not treat time-bank points/matching as evidence that sustainable reciprocity is solved.
+- Do not promote social/public-good value into commercial opportunity.
+- Do not add more example domains before portability is tested.
+- Do not start from jobs/gigs/budgets/quotes.
+- Do not price or contact actors yet.
 
 ## Guardrails
 - GitHub live state is operational source of truth.
 - `REALITY > COGNITION > SCHEMA`.
-- `LIFE_WORLD OBSERVATION > ENTERPRISE-CONVENIENCE BIAS` for the current scan.
 - `MUTUAL BENEFIT != LATENT CONNECTION`.
-- `COMMUNITY PROGRAM != OPEN COMMERCIAL EDGE`.
-- `PARTIAL FLOW != MISSING EDGE`.
+- `ORGANIZER PRESENT != SAME MISSING EDGE`.
+- `TRUST != SUFFICIENT EXPLANATION`.
+- `PARTIAL FLOW != OPEN COMMERCIAL EDGE`.
+- `LEDGER / POINTS / MATCHING != TRUSTED RECIPROCAL EXCHANGE INFRASTRUCTURE`.
 - `SOCIAL VALUE != COMMERCIAL VALUE`.
-- `ONE EXAMPLE != REGENERATIVE FIELD`.
 - `UNKNOWN != PASS`.
 - Infer broadly; promote conservatively.
