@@ -231,6 +231,61 @@ If answers 1–4 are weak, the feature is not a core-priority feature even if te
 - Preserve provenance, dates and contradictions.
 - Separate subsidized/officially promoted outcomes from independent payer evidence.
 
+## Regenerative formation search rule — LOCKED
+
+Do not begin opportunity discovery from an explicit job, gig, RFQ, marketplace task, buyer brief, quoted budget, provider price or visible transaction spread.
+
+Those are downstream transaction observations. They may validate or falsify an independently discovered formation later, but they must not define the upstream search space.
+
+Preferred discovery object:
+
+```text
+LARGE / REPLENISHING ACTOR POPULATION A
++ DURABLE ENDOWMENT / STATE DISEQUILIBRIUM A
++ LARGE / REPLENISHING COMPLEMENTARY NODE POPULATION B
++ DURABLE ENDOWMENT / STATE DISEQUILIBRIUM B
++ REPEATED CONNECTION PRESSURE
++ PARTIAL / INFORMAL / EXPENSIVE / FAILED FLOW
++ RECURRING MISSING EDGE
++ RECURRING EVENT SOURCE / DEMAND PUMP
+→ POSSIBLE REGENERATIVE VALUE FIELD
+```
+
+The engine should look for **potential-energy gradients** that persist before a market category is fully formed. A valid search zone should usually involve large or replenishing actor/resource populations, repeated state transitions, persistent underuse/mismatch and evidence that value is already trying to cross the boundary through workarounds, referrals, substitutes, internal coordination, expensive legacy routes or other partial flows.
+
+Before treating a formation as commercially interesting, explicitly ask:
+- what keeps replenishing Actor/Node A?
+- what keeps replenishing Actor/Node B?
+- what recurring event keeps regenerating the pressure?
+- what partial flow proves reality is already trying to connect them?
+- what missing edge repeatedly prevents normal circulation?
+- can that edge be standardized without making the founder the permanent provider?
+- does successful routing create trust/data/coverage that makes the next routing better?
+- is the field broad enough that a single observed transaction is merely one manifestation?
+
+Hard boundaries:
+
+```text
+EXPLICIT TASK != DISCOVERY SEED
+ONE LIVE TRANSACTION != DEMAND PUMP
+PRICE SPREAD != LATENT CONNECTION
+BUYER BUDGET != FORMATION EVIDENCE
+PROVIDER QUOTE != CONNECTION PRESSURE
+RECURRING FOUNDER SEARCH != REGENERATIVE DEMAND
+```
+
+The target hierarchy is:
+
+```text
+Observation
+→ Pattern
+→ Opportunity Archetype
+→ Regenerative Loop
+→ Business System
+```
+
+A one-off task may later buy validation evidence, but it cannot become the core discovery object until the underlying regenerative field has been independently evidenced.
+
 ## Formation-first discovery rule
 
 Do not start from the operator's existing skills, a favored product, a fashionable technology, a known procurement feed, a supplier catalog or an already-articulated demand list.

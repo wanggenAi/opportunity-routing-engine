@@ -262,5 +262,8 @@
     "The next search should not broaden into generic errands. It should search fresh current cross-geography tasks where remote buyers need local presence, evidence collection or bounded commercial legwork and where the work is safe, lawful and non-regulated.",
     "A live buyer task is now bound for CSVF-003, but truthful margin still requires a same-scope executor quote; generic day rates must not be extrapolated into a 21-shop cost."
   ],
-  "next_action": "Validate the live Shanghai Wine Shop Survey transaction unit. Without contacting the buyer, bind an exact or near-exact executor cost for visiting 21 named/defined Shanghai shops with shelf-photo evidence. If public evidence cannot bind full-scope cost, prepare one bounded executor-quote request and ask the user for explicit authorization before sending it. Do not claim operator margin before that."
+  "next_action": "Validate the live Shanghai Wine Shop Survey transaction unit. Without contacting the buyer, bind an exact or near-exact executor cost for visiting 21 named/defined Shanghai shops with shelf-photo evidence. If public evidence cannot bind full-scope cost, prepare one bounded executor-quote request and ask the user for explicit authorization before sending it. Do not claim operator margin before that.",
+  "active_status": "HISTORICAL_SUPERSEDED",
+  "superseded_by": "docs/research/REGENERATIVE_FLOW_DISCOVERY_RESET_2026-09-19.md",
+  "discovery_use": "DOWNSTREAM_CALIBRATION_ONLY__DO_NOT_SEED_ACTIVE_DISCOVERY"
 }

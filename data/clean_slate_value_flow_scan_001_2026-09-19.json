@@ -190,5 +190,8 @@
     "external_actions_sent": 0,
     "first_external_value_flow": "NOT_PROVEN"
   },
-  "next_action": "Validate the three fresh flows only at transaction-unit level. For each, find one current buyer-side task with a concrete budget/acceptance boundary and one independent provider quote/availability signal. Kill any flow that cannot produce a simple buyer-task-provider-margin equation without building infrastructure first."
+  "next_action": "Validate the three fresh flows only at transaction-unit level. For each, find one current buyer-side task with a concrete budget/acceptance boundary and one independent provider quote/availability signal. Kill any flow that cannot produce a simple buyer-task-provider-margin equation without building infrastructure first.",
+  "active_status": "HISTORICAL_SUPERSEDED",
+  "superseded_by": "docs/research/REGENERATIVE_FLOW_DISCOVERY_RESET_2026-09-19.md",
+  "discovery_use": "DOWNSTREAM_CALIBRATION_ONLY__DO_NOT_SEED_ACTIVE_DISCOVERY"
 }

@@ -1,3 +1,7 @@
+> **SUPERSEDED — HISTORICAL / DOWNSTREAM CALIBRATION ONLY**
+>
+> Superseded by `docs/research/REGENERATIVE_FLOW_DISCOVERY_RESET_2026-09-19.md`.
+> This file must not seed active discovery, candidate priority or outreach. Its task/buyer/quote examples are downstream calibration only.
 # Clean-Slate Value-Flow Scan 001 — Start From Money-Producing Connections
 
 Date: **2026-09-19**
