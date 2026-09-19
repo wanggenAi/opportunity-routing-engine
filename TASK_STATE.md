@@ -9,45 +9,43 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 025 is research-complete with zero retained candidates. Direct current recruitment evidence proves that Xuzhou manufacturers repeatedly pay internal humans to own supplier discovery, backup-source creation, external-capacity allocation, production tracking, quality acceptance and exception closure. The strongest event is 江苏微迈思半导体科技有限公司, currently listing five external-procurement-supervisor openings at RMB 7,000-10,000 per person. However, HAIZOL and IMEfuture already productize much of the same sourcing and non-standard-procurement surface, and no attributable evidence shows why these current internal roles cannot be replaced or materially reduced by an external control plane. Do not infer the missing edge. Next search must move closer to external willingness-to-pay.
+Fresh Scan 025 is merged with zero retained candidates. Current direct hiring evidence proves that Xuzhou manufacturers pay internal humans to own supplier discovery, backup-source creation, external-capacity allocation, production tracking, quality acceptance and exception closure, but it does not prove willingness to externalize that responsibility. Fresh Scan 026 therefore moves to `CURRENT EXTERNALIZED WORKAROUND FIRST`: search named current Xuzhou/Jiangsu private actors that already use external third-party execution and still pay an internal control layer to compare providers, monitor delivery, resolve exceptions or switch routes. Require a directly observed post-provider residual before retaining anything.
 
 ## Current Phase
-`SCAN_025_RESEARCH_COMPLETE / PAID_INTERNAL_WORKAROUNDS_4 / RESIDUALS_ZERO / RETAINED_ZERO`
+`SCAN_025_MERGED / RETAINED_ZERO / FRESH_SCAN_026_START`
 
 ## Last Verified Main
-`1fe2aa5ec06a9e3d376c4e18fe5a2bd8df065644` — Scan 025 start checkpoint on main after PR #227 Scan 024 merged and CI #638 passed.
+`ee90060c7b9ff739f972b9115408c7eaa29e5884` — PR #228 Scan 025 squash-merged after final head CI #641 passed.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-`field/opportunity-mobilization-scan-025`
+None yet. Create the Scan 026 branch from this checkpoint.
 
 ## Active PR
-Not yet opened at this checkpoint.
+None. PR #228 — `Persist opportunity mobilization scan 025` — merged.
 
 ## CI
-- Last verified merged CI: PR #227 Actions #638, success.
-- Current Scan 025 branch CI: pending until PR is opened.
-- No workflow artifact is claimed unless GitHub actually emits one.
+- PR #228 final head `d674e0939f2a7f11c06fe3579a54103ddb0282c6`
+- Actions run #641, run id `35411577386`
+- workflow `ci`: success
+- merge SHA: `ee90060c7b9ff739f972b9115408c7eaa29e5884`
+- run #641 emitted no separate GitHub Actions artifact
 
 ## Latest Artifact / Persisted State
-- Branch artifact: `data/opportunity_mobilization_scan_025_2026-09-19.json`
-- Branch field note: `field/opportunity-mobilization-scan-025.md`
-- Prior merged artifact: `data/opportunity_mobilization_scan_024_2026-09-19.json`
-- Workflow artifact: none currently claimed.
+- `data/opportunity_mobilization_scan_025_2026-09-19.json`
+- `field/opportunity-mobilization-scan-025.md`
+- Issue #143 synced through Scan 025
+- workflow artifact: none for CI #641
 
 ## Completed
 - Prior closed/deprioritized candidates remain unchanged.
-- Scans 009-024 completed with zero retained candidates.
-- Scan 025 kept `BUYER COST FIRST` and shifted to direct current operating evidence.
-- 江苏微迈思半导体科技有限公司 currently lists five external-procurement-supervisor openings at RMB 7,000-10,000/person, covering supplier development, external production tracking, quality acceptance, exception closure and cost control.
-- 江苏通扬装备科技有限公司 currently pays for supplier discovery, backup-source creation, single-source-risk reduction, supplier qualification and performance management.
-- 格利尔数码科技股份有限公司's 2026 half-year report confirms recurring outsourced production due to capacity constraints; a current Xuzhou external-planning role owns capacity allocation, progress, material, quality, rework and supplier-performance control.
-- 徐州信航国际贸易有限公司 currently pays RMB 4,000-7,000 for a small-firm supplier/export back-office coordination role.
-- HAIZOL currently covers factory/supplier discovery, quote comparison, engineer assistance, NDA, one-stop non-standard delivery and production-node tracking.
-- IMEfuture currently covers non-standard procurement project management, external-production progress, supplier delivery-risk control, receiving/inspection collaboration, supplier scoring and sourcing.
-- No attributable current evidence shows a specific post-platform responsibility gap at the named firms.
+- Scans 009-025 completed with zero retained candidates.
+- Scan 025 confirmed repeated current paid internal coordination around supplier sourcing, backup-source creation, external manufacturing, quality, delivery and export back-office work.
+- 江苏微迈思半导体科技有限公司 currently lists multiple external-procurement-supervisor roles; 江苏通扬装备科技有限公司, 格利尔数码科技股份有限公司 and 徐州信航国际贸易有限公司 provide corroborating paid-workaround evidence.
+- HAIZOL and IMEfuture already productize much of the generic non-standard procurement / supplier-control surface.
+- No attributable post-platform missing edge was bound.
 - `RETAINED_CANDIDATES = 0`.
 - No founder probe released.
 - Two prior external probes still have zero qualified responses.
@@ -58,19 +56,19 @@ Not yet opened at this checkpoint.
 - `PAID INTERNAL COORDINATOR != EXTERNAL ROUTING WHITESPACE`.
 - `ACTIVE HIRING != WILLINGNESS TO OUTSOURCE`.
 - `PLATFORM COVERAGE + INTERNAL HIRING = RESIDUAL QUESTION, NOT RESIDUAL PROOF`.
-- The manufacturing supplier/external-production control-plane function is economically real, but externalizable whitespace is not proven.
+- The next evidence level is a named actor already paying an external provider while still carrying measurable internal coordination cost or fallback behavior.
 
 ## Blockers
 - No current candidate combines observed external willingness-to-pay, an observed post-provider missing edge, bilateral pull, high reachability, low permission, clear money flow, self-propulsion and operator exit.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-After Scan 025 is merged, start Fresh Scan 026 with `CURRENT EXTERNALIZED WORKAROUND FIRST`. Search current named Xuzhou/Jiangsu private actors already repeatedly paying an external third party for supplier coordination, logistics coordination, inspection/acceptance, compliance, sales-channel execution, export support or another recurring responsibility. Require an observed post-provider residual such as dissatisfaction, fallback to manual work, repeated switching, multi-provider fragmentation, missed delivery, unresolved acceptance or duplicated internal labor. Retain nothing merely because outsourcing exists.
+Start Fresh Scan 026 with `CURRENT EXTERNALIZED WORKAROUND FIRST`. Search current named Xuzhou/Jiangsu private actors already using external third parties for supplier, logistics, inspection, compliance, export or other recurring execution, while direct current evidence also shows an internal layer still comparing providers, monitoring performance, handling exceptions, switching routes or duplicating work. Audit mature control-plane incumbents before any promotion.
 
 ## Do Not Repeat
-- Do not convert current procurement hiring into a procurement-outsourcing startup thesis.
-- Do not infer trust, ERP access, confidentiality, technical judgment or authority barriers without attributable evidence.
-- Do not reopen Keya overflow unless new attributable evidence shows a specific failed/rejected external-capacity route or named barrier.
+- Do not convert procurement hiring into a procurement-outsourcing startup thesis.
+- Do not infer why internal roles persist without attributable evidence.
+- Do not reopen Keya overflow without new direct evidence of a specific failed/rejected external-capacity route.
 - Do not return to abstract mechanism-first scans.
 - Do not promote from provider capability pages alone.
 - Do not release founder outreach until a narrow externalized residual is evidenced.
