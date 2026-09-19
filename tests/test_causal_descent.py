@@ -70,6 +70,10 @@ class CausalDescentTests(unittest.TestCase):
             surface_evidence_refs=("behavior:applications",),
             outcome_hypotheses=(outcome,),
             selected_outcome_id="OUTCOME-1",
+            outcome_selection_rationale=(
+                "observed choices and sacrifices fit this product-agnostic state "
+                "transition better than the nearby alternative explanations"
+            ),
             constraint_hypotheses=constraints,
             lead_constraint_ids=("C1",),
             stop_reason=CausalStopReason.INTERVENTION_RELEVANT_BOUNDARY,
