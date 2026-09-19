@@ -9,47 +9,44 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 024 is complete. Buyer-cost-first bound five named current economic-cost events, but retained zero candidates. 徐州科亚机电有限公司 was the strongest event because it publicly reported giving up part of its overseas wireless-controller orders, yet a targeted residual audit found no attributable evidence explaining why dense existing Fengxian/Jiangsu manufacturing capacity cannot absorb that overflow. Integrated process, patents, quality systems and certification cannot be converted into an outsourcing barrier by inference. Close Keya fail-closed and continue Fresh Scan 025 with the same buyer-cost-first discipline.
+Fresh Scan 024 is merged with zero retained candidates. Buyer-cost-first improved evidence quality but still produced no observed post-incumbent missing edge. Fresh Scan 025 must continue `BUYER COST FIRST` on new current Xuzhou/Jiangsu private-market events. Start from a named private actor paying extra, waiting, rerouting, losing output or repeatedly using a costly workaround; then inspect the actual workaround and current incumbents. Retain nothing unless a residual missing edge is directly evidenced.
 
 ## Current Phase
-`SCAN_024_NEGATIVE_COMPLETE / BOUND_COST_EVENTS_5 / RESIDUALS_ZERO / RETAINED_ZERO / SCAN_025_NEXT`
+`SCAN_024_MERGED / RETAINED_ZERO / FRESH_SCAN_025_START`
 
 ## Last Verified Main
-`e587f207c1741e1515c29bc2fc72c09c51fa07de` — state-only Scan 024 start checkpoint on main. PR #227 is active from this point; last verified business CI before this branch was PR #226 Actions #634 success.
+`2390e03dbc44cd3ef6a63b4363678fe41693e6ef` — PR #227 Scan 024 squash-merged after final head CI #638 passed.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-`field/opportunity-mobilization-scan-024`
+None yet. Create the Scan 025 branch from this checkpoint.
 
 ## Active PR
-#227 — `Persist opportunity mobilization scan 024`.
+None. PR #227 — `Persist opportunity mobilization scan 024` — merged.
 
 ## CI
-- PR #227 earlier head `12a1fb354e52861c6a5280cd3d17067809d95558` passed Actions #637.
-- This residual-audit update advances the PR head, so CI must be re-verified on the new exact head before merge.
-- No workflow artifact is claimed unless GitHub actually emits one.
+- PR #227 final head `ace213c075111dd0edcffdc421ece80329a53cbb`
+- Actions run #638, run id `35411200825`
+- workflow `ci`: success
+- merge SHA: `2390e03dbc44cd3ef6a63b4363678fe41693e6ef`
+- run #638 emitted no separate GitHub Actions artifact
 
 ## Latest Artifact / Persisted State
-- Branch artifact: `data/opportunity_mobilization_scan_024_2026-09-19.json`
-- Branch field note: `field/opportunity-mobilization-scan-024.md`
-- Prior merged evidence: `data/opportunity_mobilization_scan_023_2026-09-19.json`
-- Workflow artifact: none currently claimed for the new head.
+- `data/opportunity_mobilization_scan_024_2026-09-19.json`
+- `field/opportunity-mobilization-scan-024.md`
+- Issue #143 synced through Scan 024
+- workflow artifact: none for CI #638
 
 ## Completed
 - Prior closed/deprioritized candidates remain unchanged.
-- Scans 009–023 completed with zero retained candidates.
-- Scan 024 changed the search order to `BUYER COST FIRST`.
+- Scans 009–024 completed with zero retained candidates.
+- Scan 024 established `BUYER COST FIRST` as the current search order.
 - Five named current cost events were bound.
-- 徐州科亚机电有限公司 had real foregone overseas orders because fulfillment capacity was insufficient.
-- A targeted Keya residual audit searched outsourcing/subcontracting/second-source, supplier, production-line and quality/certification evidence.
-- Public evidence confirms deep in-house manufacturing/quality capability and a dense nearby manufacturing cluster.
-- No attributable public evidence establishes a failed/rejected external-capacity route or a named post-incumbent barrier.
-- Keya is closed as `CLOSED_NO_OBSERVED_MISSING_EDGE`.
-- 江苏本优机械有限公司's calibration downtime is closed by a current local on-site institutional route.
-- 江苏弘盛新材料、江苏金洲粮油、江苏鹏飞集团 had real logistics costs, but current multimodal routes already materially reduce them.
-- `RETAINED_CANDIDATES = 0`.
+- 徐州科亚机电有限公司 had real foregone overseas orders, but a targeted residual audit found no attributable public evidence of a failed/rejected external-capacity route or named post-incumbent barrier.
+- Keya closed as `CLOSED_NO_OBSERVED_MISSING_EDGE`.
+- Other Scan 024 named cost events were already closed by current local institutional or multimodal routes.
 - No founder probe released.
 - Two prior external probes still have zero qualified responses.
 - External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
@@ -59,14 +56,14 @@ Fresh Scan 024 is complete. Buyer-cost-first bound five named current economic-c
 - `NAMED COST EVENT != OPEN ROUTING GAP`.
 - `LOST ORDERS != ROUTABLE OVERFLOW`.
 - `INTEGRATED QUALITY STACK != PROVEN OUTSOURCING BARRIER`.
-- Real economic loss remains below promotion until an observed missing edge survives current suppliers, platforms and substitute routes.
+- A real economic cost remains below promotion until an observed missing edge survives current suppliers, platforms and substitute routes.
 
 ## Blockers
 - No current candidate combines a named private buyer cost, observed post-incumbent missing edge, bilateral pull, high reachability, low permission, clear money flow, self-propulsion and operator exit.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-After PR #227 merges, start Fresh Scan 025 with `BUYER COST FIRST`. Search new current Xuzhou/Jiangsu private-market events and require a named actor plus observed economic cost. Then inspect the actual workaround and current incumbents. Retain nothing unless a post-incumbent missing edge is directly evidenced.
+Start Fresh Scan 025 with `BUYER COST FIRST`. Search new current Xuzhou/Jiangsu private-market events. Require a named private actor plus observed economic cost/workaround before inspecting mechanisms. For each event, search the current solution and retain only an evidenced post-incumbent residual.
 
 ## Do Not Repeat
 - Do not reopen Keya overflow unless new attributable evidence appears showing a specific failed/rejected external-capacity route or named barrier.
