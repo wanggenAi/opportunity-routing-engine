@@ -27,6 +27,18 @@ class CausalDescentTests(unittest.TestCase):
                 "the segment consistently prefers only formal full-time employment",
             ),
         )
+        alternative_outcome = LatentOutcomeHypothesis(
+            outcome_id="OUTCOME-2",
+            statement=(
+                "obtain stable income primarily through conventional full-time work "
+                "rather than bounded capability exchange"
+            ),
+            truth_state=CausalTruthState.INFERRED,
+            evidence_refs=("behavior:applications",),
+            falsifiers=(
+                "actors repeatedly reject suitable full-time roles while pursuing bounded tasks",
+            ),
+        )
         constraints = (
             StructuralConstraintHypothesis(
                 constraint_id="C1",
@@ -68,7 +80,7 @@ class CausalDescentTests(unittest.TestCase):
             current_state="time and basic capability exist but monetization is irregular",
             surface_phenomenon="repeated job/part-time search with poor fit",
             surface_evidence_refs=("behavior:applications",),
-            outcome_hypotheses=(outcome,),
+            outcome_hypotheses=(outcome, alternative_outcome),
             selected_outcome_id="OUTCOME-1",
             outcome_selection_rationale=(
                 "observed choices and sacrifices fit this product-agnostic state "
@@ -76,6 +88,11 @@ class CausalDescentTests(unittest.TestCase):
             ),
             constraint_hypotheses=constraints,
             lead_constraint_ids=("C1",),
+            outcome_selection_evidence_refs=(
+                "behavior:applications",
+                "behavior:task-seeking",
+            ),
+            deeper_search_would_change_decision=False,
             stop_reason=CausalStopReason.INTERVENTION_RELEVANT_BOUNDARY,
             stop_rationale=(
                 "the current causal frontier is already specific enough to change "
@@ -94,6 +111,15 @@ class CausalDescentTests(unittest.TestCase):
         self.assertEqual(
             causal_descent_state(record),
             CausalDescentState.EVIDENCED_STRUCTURAL_FRICTION,
+        )
+
+    def test_one_latent_outcome_is_not_enough_for_promotion(self):
+        record = self._record(
+            outcome_hypotheses=(self._record().outcome_hypotheses[0],)
+        )
+        self.assertIn(
+            "missing:competing_latent_outcome",
+            validate_causal_descent_for_promotion(record),
         )
 
     def test_one_plausible_story_is_not_enough_for_promotion(self):
@@ -216,6 +242,17 @@ class CausalDescentTests(unittest.TestCase):
             validate_causal_descent_for_promotion(record),
         )
 
+    def test_intervention_stop_requires_decision_stability(self):
+        record = self._record(deeper_search_would_change_decision=None)
+        self.assertIn(
+            "intervention_boundary_requires_decision_stability",
+            validate_causal_descent(record),
+        )
+        self.assertEqual(
+            causal_descent_state(record),
+            CausalDescentState.CAUSAL_HYPOTHESIS_SET,
+        )
+
     def test_intervention_stop_requires_actionable_implication(self):
         causal = self._record()
         broken_lead = StructuralConstraintHypothesis(
@@ -232,6 +269,37 @@ class CausalDescentTests(unittest.TestCase):
         )
         self.assertIn(
             "intervention_boundary_requires_implication:C1",
+            validate_causal_descent(record),
+        )
+
+    def test_persisted_parser_fails_closed_on_non_string_refs_and_non_boolean_probe(self):
+        from src.causal_descent import causal_descent_from_mapping
+
+        raw = self._record().as_dict()
+        raw["surface_evidence_refs"] = [123]
+        with self.assertRaisesRegex(ValueError, "must contain only strings"):
+            causal_descent_from_mapping(raw)
+
+        raw = self._record().as_dict()
+        raw["probe_eligible"] = "false"
+        with self.assertRaisesRegex(ValueError, "probe_eligible must be a boolean"):
+            causal_descent_from_mapping(raw)
+
+    def test_recursive_depth_cannot_skip_a_layer(self):
+        causal = self._record()
+        child = StructuralConstraintHypothesis(
+            constraint_id="C3",
+            outcome_id="OUTCOME-1",
+            depth=3,
+            parent_constraint_id="C1",
+            causal_claim="a deeper but discontinuous explanation",
+            mechanism="depth cannot jump over an unrepresented causal layer",
+        )
+        record = self._record(
+            constraint_hypotheses=causal.constraint_hypotheses + (child,)
+        )
+        self.assertIn(
+            "constraint_depth_skips_recursive_layer:C3",
             validate_causal_descent(record),
         )
 
