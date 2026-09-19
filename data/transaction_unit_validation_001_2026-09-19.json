@@ -144,6 +144,23 @@
         "compatible_market_cost_signal_rmb_per_day": [
           280,
           350
+        ],
+        "current_same_city_supply": [
+          {
+            "provider": "Shanghai bilingual onsite assistant on Fiverr",
+            "public_price_usd": 100,
+            "scope": "short offline Shanghai field task, maximum 4 working hours onsite; photo/video verification and simple offline errands available",
+            "source": "https://www.fiverr.com/menglan9711/be-your-onsite-assistant-runner-and-exhibition-support-in-shanghai",
+            "compatibility": "PARTIAL",
+            "note": "Public price proves same-city paid execution supply, but does not quote the 21-shop survey scope."
+          },
+          {
+            "provider_market": "China mystery-shopper / evaluator networks",
+            "fact": "Current platforms maintain flexible paid evaluators for retail/store visits and evidence-based reports.",
+            "source": "https://www.bareinternational.com.cn/evaluators",
+            "compatibility": "STRUCTURAL_SUPPLY_ONLY",
+            "note": "Project-specific pay is not public, so this is availability infrastructure rather than a compatible quote."
+          }
         ]
       },
       "economics": {
@@ -181,9 +198,45 @@
           "single settlement/accountability point"
         ]
       },
-      "state": "FLOW_STRUCTURE_VALIDATED__NO_LIVE_BUYER_TASK_TODAY",
-      "decision": "MAKE_PRIMARY_SEARCH_DIRECTION",
-      "blocker": "The observed paid task expired on 2026-09-16. A new currently actionable buyer task must be found before any external action."
+      "state": "LIVE_BUYER_TASK_BOUND__SAME_SCOPE_PROVIDER_QUOTE_MISSING",
+      "decision": "PRIMARY_TRANSACTION_UNIT",
+      "blocker": "Bind one or more independent Shanghai executor quotes/availability signals for the exact 21-shop task or an equivalent route/time specification before claiming margin.",
+      "live_buyer_search": {
+        "status": "LIVE_BUYER_TASK_FOUND__EXECUTOR_COST_FOR_SAME_SCOPE_NOT_YET_BOUND",
+        "buyer": "Wine Services, Bordeaux, France",
+        "posted": "2026-09-17/18 according to current Upwork crawl",
+        "location": "Shanghai",
+        "task": [
+          "visit 21 wine shops",
+          "take shelf photos with readable wine labels",
+          "obtain complete inventory where possible"
+        ],
+        "payment": {
+          "total_budget_usd": 525,
+          "per_complete_satisfactory_shop_usd": 25,
+          "per_missed_or_incomplete_shop_usd": 6,
+          "travel_included_in_rate": true
+        },
+        "acceptance": "Complete and satisfactory photo report per shop; labels must be clearly readable.",
+        "buyer_quality_signal": {
+          "historical_spend_usd": 19000,
+          "hires": 55,
+          "active_hires": 3
+        },
+        "competition_signal": {
+          "proposals": "10-15",
+          "interviewing": 0,
+          "note": "A mature marketplace already exposes the task to direct freelancers; operator value must be more than introduction."
+        },
+        "source": "https://www.upwork.com/freelance-jobs/apply/Shanghai-Wine-Shop-Survey_~022100554984121028743/",
+        "evidence_warning": "The page was posted yesterday/two days ago and exposes current proposal activity, but also shows an obviously inconsistent deadline of Nov 17, 2025. Treat deadline as UNKNOWN until confirmed; do not silently correct it."
+      },
+      "economics_live_unit": {
+        "buyer_revenue_bound_usd": 525,
+        "compatible_full_scope_provider_cost": "UNKNOWN",
+        "operator_margin": "UNKNOWN",
+        "reason": "A public Shanghai provider price exists for a 4-hour field block, but no independent full-scope quote for 21 wine shops is bound. Do not multiply or extrapolate without route/time evidence."
+      }
     }
   ],
   "portfolio_after_validation": {
@@ -198,14 +251,16 @@
     ],
     "formal_opportunity_promotions": 0,
     "external_actions_sent": 0,
-    "first_external_value_flow": "NOT_PROVEN"
+    "first_external_value_flow": "NOT_PROVEN",
+    "live_transaction_unit": "CSVF-003 / Shanghai Wine Shop Survey"
   },
   "key_learning": [
     "A visible price spread is not enough; the operator must own a missing edge that current buyer/provider channels do not already solve.",
     "CSVF-001 proves routable unit economics but not operator necessity because a mature freelancer marketplace already owns matching for the observed buyer.",
     "CSVF-002 fails the current unit test because the observed buyer is itself an intermediary and compatible provider economics are not bound.",
     "CSVF-003 best matches the original business logic: buyer cannot easily access local presence, local capable people exist, the task is checklist-bounded, acceptance is explicit, and the buyer visibly experiences a search/screening friction.",
-    "The next search should not broaden into generic errands. It should search fresh current cross-geography tasks where remote buyers need local presence, evidence collection or bounded commercial legwork and where the work is safe, lawful and non-regulated."
+    "The next search should not broaden into generic errands. It should search fresh current cross-geography tasks where remote buyers need local presence, evidence collection or bounded commercial legwork and where the work is safe, lawful and non-regulated.",
+    "A live buyer task is now bound for CSVF-003, but truthful margin still requires a same-scope executor quote; generic day rates must not be extrapolated into a 21-shop cost."
   ],
-  "next_action": "Search only for fresh currently actionable CSVF-003-type buyer tasks posted within the latest 7-14 days and scheduled after the current date. Bind one buyer budget, location, checklist, deadline and contact route; then independently bind 2-3 suitable executor price/availability signals in that city before requesting authorization for any outreach."
+  "next_action": "Validate the live Shanghai Wine Shop Survey transaction unit. Without contacting the buyer, bind an exact or near-exact executor cost for visiting 21 named/defined Shanghai shops with shelf-photo evidence. If public evidence cannot bind full-scope cost, prepare one bounded executor-quote request and ask the user for explicit authorization before sending it. Do not claim operator margin before that."
 }
