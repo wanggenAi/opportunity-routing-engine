@@ -84,6 +84,7 @@ class LatentValueCandidate:
     structural_friction_hypothesis: str = ""
     structural_friction_truth_state: str = "INFERRED"
     alternative_explanations: tuple[str, ...] = ()
+    persistent_mismatch: str = ""
     causal_descent_record_id: str = ""
     causal_stop_reason: str = ""
     connection_pressure_hypothesis: str = ""
@@ -102,7 +103,6 @@ _REQUIRED_FIELDS = (
     "candidate_id",
     "actor",
     "observed_state",
-    "observed_change",
     "hidden_or_underrecognized_value",
     "why_value_is_not_recognized_or_realized",
     "complementary_actor_hypothesis",
@@ -159,6 +159,12 @@ def validate_candidate(candidate: LatentValueCandidate) -> list[str]:
         value = getattr(candidate, name)
         if not isinstance(value, str) or not value.strip():
             errors.append(f"missing:{name}")
+
+    if not (
+        candidate.observed_change.strip()
+        or candidate.persistent_mismatch.strip()
+    ):
+        errors.append("missing:observed_change_or_persistent_mismatch")
 
     usable_evidence = [item for item in candidate.evidence if item.is_usable()]
     if not usable_evidence:
@@ -268,6 +274,15 @@ def validate_candidate_record(record: Mapping[str, object]) -> list[str]:
         if not isinstance(value, str) or not value.strip():
             errors.append(f"missing:{name}")
 
+    observed_change = record.get("observed_change")
+    persistent_mismatch = record.get("persistent_mismatch")
+    if not (
+        isinstance(observed_change, str) and observed_change.strip()
+    ) and not (
+        isinstance(persistent_mismatch, str) and persistent_mismatch.strip()
+    ):
+        errors.append("missing:observed_change_or_persistent_mismatch")
+
     evidence = record.get("evidence")
     if not isinstance(evidence, Iterable) or isinstance(evidence, (str, bytes)):
         errors.append("missing:evidence")
@@ -305,6 +320,8 @@ def validate_candidate_record(record: Mapping[str, object]) -> list[str]:
 
 GOVERNING_INVARIANTS = (
     "RESOURCE_LABEL_NOT_REQUIRED_FOR_VALUE_TO_EXIST",
+    "RECENT_CHANGE_NE_UNIVERSAL_DISCOVERY_GATE",
+    "PERSISTENT_STRUCTURAL_MISMATCH_MAY_BE_DISCOVERY_EVIDENCE",
     "DEMAND_LABEL_NOT_REQUIRED_FOR_DEFICIT_TO_EXIST",
     "SURFACE_FRICTION_NE_STRUCTURAL_FRICTION",
     "STRUCTURAL_FRICTION_HYPOTHESIS_NE_EVIDENCED_STRUCTURAL_FRICTION",
