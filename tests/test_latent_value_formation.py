@@ -393,7 +393,7 @@ class LatentValueFormationTests(unittest.TestCase):
         )
         self.assertEqual(
             formation_state(hypothesis),
-            FormationState.LATENT_CONNECTION_EVIDENCED,
+            FormationState.RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS,
         )
 
     def test_heterogeneous_nonhuman_nodes_are_first_class(self):
