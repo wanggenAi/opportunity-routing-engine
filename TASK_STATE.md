@@ -74,25 +74,23 @@ Require discriminating evidence and falsifiers.
 
 ## Current Phase
 
-`REGENERATIVE_FORMATION_SCAN_013_ACTIVE / WIDE_SCAN_COMPLETE / INTERGENERATIONAL_FORMATION_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO`
+`REGENERATIVE_FORMATION_SCAN_013_MERGED / MAIN_GREEN / INTERGENERATIONAL_FORMATION_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO / CAUSAL_DESCENT_NEXT`
 
 ## Last Verified Main
 
-`29c9fa46eb88fbee015b63569103c6cddedf1ba8` — PR #252 squash-merged. Main CI run #767 (run id `35427958382`) passed on this exact functional SHA.
-
-Current Scan 013 work is on a feature branch and is not yet main truth.
+`04cf32b93b86ce7104fbe29e258a14256234bc6f` — PR #253 squash-merged. Main CI run #769 (run id `35428329604`) passed on this exact functional SHA. A later state-only `[skip ci]` checkpoint may advance live main without changing functional truth.
 
 ## Active Issue
 
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Scan 012 was synced in comment id `5740078953`.
+Scan 012 was synced in comment id `5740078953`. Scan 013 was synced in comment id `5740107387`.
 
 No outreach is authorized. Current work remains upstream formation research.
 
 ## Active Branch
 
-`feature/regenerative-formation-scan-013-life-world`
+None. `feature/regenerative-formation-scan-013-life-world` is merged through PR #253 and is not an active source of truth.
 
 Historical branches named Scan 013 belong to earlier scan families:
 - `feature/connection-pressure-scan-013` — stale, no unique commits vs current main;
@@ -102,11 +100,14 @@ They are not the active Regenerative Formation Scan 013.
 
 ## Active PR
 
-None yet.
+None. PR #253 (`Persist fresh everyday-life regenerative formation scan 013`) is merged.
 
 ## CI
 
-No PR CI has run yet on Regenerative Formation Scan 013.
+- PR #253 final head: `cc1e591dbefe41ebfa9a436bd7322aec208b2748`
+- PR CI: run #768 (run id `35428306511`), success
+- merge SHA: `04cf32b93b86ce7104fbe29e258a14256234bc6f`
+- main CI: run #769 (run id `35428329604`), success
 
 ## Latest Artifact / Persisted State
 
