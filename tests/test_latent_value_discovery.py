@@ -44,6 +44,18 @@ class LatentValueDiscoveryTests(unittest.TestCase):
                         "the knowledge cannot be abstracted beyond the original expert",
                     ),
                 ),
+                LatentOutcomeHypothesis(
+                    outcome_id="OUTCOME-FACTORY-RETENTION",
+                    statement=(
+                        "keep diagnostic capability inside the original employment "
+                        "relationship rather than externalize it as a callable unit"
+                    ),
+                    truth_state=CausalTruthState.INFERRED,
+                    evidence_refs=("origin", "structure"),
+                    falsifiers=(
+                        "rights-cleared bounded knowledge is repeatedly used outside the original role",
+                    ),
+                ),
             ),
             selected_outcome_id="OUTCOME-FACTORY-KNOWLEDGE",
             outcome_selection_rationale=(
@@ -92,6 +104,8 @@ class LatentValueDiscoveryTests(unittest.TestCase):
                 ),
             ),
             lead_constraint_ids=("C-PACKAGING",),
+            outcome_selection_evidence_refs=("origin", "pressure"),
+            deeper_search_would_change_decision=False,
             stop_reason=CausalStopReason.INTERVENTION_RELEVANT_BOUNDARY,
             stop_rationale=(
                 "the current causal frontier is already specific enough to change "
@@ -241,6 +255,36 @@ class LatentValueDiscoveryTests(unittest.TestCase):
         errors = validate_candidate(candidate)
         self.assertIn("structural_friction_projection_mismatch", errors)
 
+    def test_multi_causal_summary_must_match_full_canonical_frontier(self):
+        causal = self._causal_descent()
+        second = StructuralConstraintHypothesis(
+            **{
+                **causal.constraint_hypotheses[1].__dict__,
+                "truth_state": CausalTruthState.EVIDENCED_STRUCTURE,
+                "support_refs": ("origin",),
+                "discriminating_evidence_refs": ("pressure",),
+                "intervention_implication": (
+                    "test transferability separately from packaging and rights"
+                ),
+            }
+        )
+        multi = CausalDescentRecord(
+            **{
+                **causal.__dict__,
+                "constraint_hypotheses": (
+                    causal.constraint_hypotheses[0],
+                    second,
+                ),
+                "lead_constraint_ids": ("C-PACKAGING", "C-CONTEXT-SPECIFIC"),
+                "stop_reason": CausalStopReason.MULTI_CAUSAL_FRONTIER,
+            }
+        )
+        candidate = self._candidate(causal_descent=multi)
+        self.assertIn(
+            "structural_friction_projection_mismatch",
+            validate_candidate(candidate),
+        )
+
     def test_causal_evidence_refs_must_bind_to_candidate_evidence(self):
         causal = self._causal_descent()
         broken_constraint = StructuralConstraintHypothesis(
@@ -268,6 +312,20 @@ class LatentValueDiscoveryTests(unittest.TestCase):
             discovery_state(candidate),
             DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS,
         )
+
+    def test_legacy_stranding_barrier_normalizes_to_canonical_missing_edge(self):
+        candidate = self._candidate(
+            evidence=tuple(
+                EvidenceRef(item.source_id, item.claim, (
+                    EvidenceKind.STRANDING_BARRIER
+                    if item.kind is EvidenceKind.MISSING_EDGE
+                    else item.kind
+                ))
+                for item in self._candidate().evidence
+            )
+        )
+        self.assertEqual(missing_validation_evidence(candidate), [])
+        self.assertNotIn("missing:evidence_kind:MISSING_EDGE", validate_candidate(candidate))
 
     def test_connection_truth_is_required_before_exchange_mechanics(self):
         candidate = self._candidate(
