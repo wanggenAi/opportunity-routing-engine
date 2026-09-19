@@ -151,6 +151,7 @@ class CausalDescentRecord:
     constraint_hypotheses: Sequence[StructuralConstraintHypothesis]
     lead_constraint_ids: tuple[str, ...]
     stop_reason: CausalStopReason | None = None
+    stop_rationale: str = ""
     decisive_unknown: str = ""
     probe_eligible: bool = False
     notes: str = ""
@@ -172,6 +173,7 @@ class CausalDescentRecord:
             ],
             "lead_constraint_ids": list(self.lead_constraint_ids),
             "stop_reason": self.stop_reason.value if self.stop_reason else None,
+            "stop_rationale": self.stop_rationale,
             "decisive_unknown": self.decisive_unknown,
             "probe_eligible": self.probe_eligible,
             "notes": self.notes,
@@ -304,6 +306,7 @@ def causal_descent_from_mapping(raw: Mapping[str, object]) -> CausalDescentRecor
             field_name="lead_constraint_ids",
         ),
         stop_reason=stop_reason,
+        stop_rationale=str(raw.get("stop_rationale") or ""),
         decisive_unknown=str(raw.get("decisive_unknown") or ""),
         probe_eligible=bool(raw.get("probe_eligible", False)),
         notes=str(raw.get("notes") or ""),
@@ -410,6 +413,21 @@ def validate_causal_descent(record: CausalDescentRecord) -> list[str]:
 
     if record.stop_reason is not None and not record.lead_constraint_ids:
         errors.append("stop_reason_requires_lead_constraint")
+
+    if record.stop_reason is not None and not record.stop_rationale.strip():
+        errors.append("stop_reason_requires_rationale")
+
+    if record.stop_reason is CausalStopReason.INTERVENTION_RELEVANT_BOUNDARY:
+        lead_constraints = [
+            constraints[item]
+            for item in record.lead_constraint_ids
+            if item in constraints
+        ]
+        for constraint in lead_constraints:
+            if not constraint.intervention_implication.strip():
+                errors.append(
+                    f"intervention_boundary_requires_implication:{constraint.constraint_id}"
+                )
 
     if (
         record.stop_reason is CausalStopReason.MULTI_CAUSAL_FRONTIER
@@ -594,6 +612,9 @@ def validate_causal_descent_for_promotion(
     elif record.stop_reason is CausalStopReason.EVIDENCE_LIMIT_REACHED:
         errors.append("causal_evidence_limit_reached")
 
+    if record.stop_reason and not record.stop_rationale.strip():
+        errors.append("missing:causal_stop_rationale")
+
     return list(dict.fromkeys(errors))
 
 
@@ -607,6 +628,7 @@ GOVERNING_INVARIANTS = (
     "STRUCTURAL_FRICTION_MAY_BE_MULTI_CAUSAL",
     "STRUCTURAL_FRICTION_NE_MISSING_EDGE",
     "CAUSAL_DESCENT_STOPS_AT_DEEPEST_DECISION_USEFUL_FALSIFIABLE_FRONTIER",
+    "CAUSAL_STOP_REASON_REQUIRES_RATIONALE",
     "INFERRED_STRUCTURE_MAY_GUIDE_EXPLORATION_BUT_NOT_PROMOTION",
     "DECISIVE_UNKNOWN_MAY_JUSTIFY_BOUNDED_PROBE",
     "UNKNOWN_NE_PASS",
