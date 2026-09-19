@@ -233,6 +233,34 @@ class LatentValueDiscoveryTests(unittest.TestCase):
         errors = validate_candidate(candidate)
         self.assertIn("structural_friction_projection_mismatch", errors)
 
+    def test_causal_evidence_refs_must_bind_to_candidate_evidence(self):
+        causal = self._causal_descent()
+        broken_constraint = StructuralConstraintHypothesis(
+            **{
+                **causal.constraint_hypotheses[0].__dict__,
+                "support_refs": ("source:not-in-packet",),
+            }
+        )
+        causal = CausalDescentRecord(
+            **{
+                **causal.__dict__,
+                "constraint_hypotheses": (
+                    broken_constraint,
+                    causal.constraint_hypotheses[1],
+                ),
+            }
+        )
+        candidate = self._candidate(causal_descent=causal)
+        errors = validate_candidate(candidate)
+        self.assertIn(
+            "causal_descent:unbound_evidence_ref:source:not-in-packet",
+            errors,
+        )
+        self.assertEqual(
+            discovery_state(candidate),
+            DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS,
+        )
+
     def test_connection_truth_is_required_before_exchange_mechanics(self):
         candidate = self._candidate(
             connection_pressure_hypothesis="",
