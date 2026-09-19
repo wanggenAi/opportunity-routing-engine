@@ -60,37 +60,40 @@ Find a recurring structure where:
 
 ## Current Phase
 
-REGENERATIVE_FORMATION_SCAN_018_CAUSAL_DESCENT_COMPLETE / SERVICE_THRESHOLD_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_REGENERATIVE_SENSING_NEXT
+REGENERATIVE_FORMATION_SCAN_018_MERGED / MAIN_GREEN / SERVICE_THRESHOLD_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_REGENERATIVE_SENSING_NEXT
 
 ## Last Verified Main
 
-Live main at branch creation includes state-only checkpoint `2b3b693aefd05fb8068bbb230d07f2bc3e5b7f8a` after Scan 017.
+Functional main: `702928b0efdbea89046f5496a8158ce3b7c7411a` — PR #258 squash-merged.
 
-Last verified functional main: `9060ed2ea025f0897d7371f715e91ec7616a3e6f` — PR #257 squash-merged.
+PR CI #780 (run id `35434376509`): success.
 
-PR CI #778 (run id `35434185969`): success.
+Main CI #781 (run id `35434408107`): success on that exact functional SHA.
 
-Main CI #779 (run id `35434228767`): success.
+A later state-only `[skip ci]` checkpoint may advance live main without changing functional truth.
 
 ## Active Issue
 
 #143 — P0: First external value flow — field proof, not more architecture.
 
-Scan 017 final status synced in comment id `5740716010`.
+Scan 018 final verdict synced in comment id `5740732944`.
 
 No outreach is authorized.
 
 ## Active Branch
 
-`feature/regenerative-formation-scan-018-service-threshold-verdict`
+None. `feature/regenerative-formation-scan-018-service-threshold-verdict` is merged and is not an active source of truth.
 
 ## Active PR
 
-To be created for Scan 018.
+None. PR #258 — `Demote sparse installed-base service threshold after causal descent` — is merged.
 
 ## CI
 
-No Scan 018 PR-head CI yet. Require green before merge.
+- PR #258 head: `3ad8d5df8a8898803780a91469c4517087863bee`
+- PR CI #780 (run id `35434376509`): success
+- merge SHA: `702928b0efdbea89046f5496a8158ce3b7c7411a`
+- main CI #781 (run id `35434408107`): success
 
 ## Latest Artifact / Persisted State
 
