@@ -16,9 +16,11 @@ WORLD SENSING
 → OBSERVED BEHAVIOR
 → SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
 → RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
-→ LATENT / UNFORMED OUTCOME HYPOTHESIS
-→ STRUCTURAL FRICTION HYPOTHESIS
-→ CROSS-EVIDENCE + ALTERNATIVE-EXPLANATION SEARCH
+→ COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES
+→ RECURSIVE CAUSAL DESCENT
+→ COMPETING STRUCTURAL FRICTION HYPOTHESES
+→ DISCRIMINATING EVIDENCE + FALSIFIERS + CONTRADICTION SEARCH
+→ DECISION-USEFUL CAUSAL FRONTIER
 → EVIDENCED STRUCTURAL FRICTION
 → COMPLEMENTARY WORLD NODES
 → CONNECTION-PRESSURE EVIDENCE
@@ -35,7 +37,7 @@ WORLD SENSING
 
 The key rule is:
 
-> **Demand does not have to exist first, and the first visible friction is not necessarily the real opportunity. Treat surface pain as a sensor: infer the actor's latent desired state, test the deeper structural friction that prevents that state transition, then discover evidence that reality is already exerting pressure toward a connection among complementary nodes. Only after those layers are evidence-bound should the system design minimum exchange mechanics and let reality confirm or falsify the remaining uncertainty.**
+> **Demand does not have to exist first, and neither the first visible friction nor the Actor's stated request is assumed to reveal the governing structure. Treat surface pain as a sensor. Generate competing product-agnostic outcome hypotheses, descend recursively through competing causal explanations, require discriminating evidence and falsifiers, and stop only at the deepest decision-useful falsifiable causal frontier. Psychology is one sensor, not a universal gate. Only after structural truth and downstream connection truth are evidence-bound may the system design minimum exchange mechanics.**
 
 `NeedSignal`, `ResourceSignal` and `BlockerSignal` are downstream fail-closed evidence projections. They must not shrink the engine into an explicit demand-matching system.
 
@@ -159,7 +161,11 @@ If answers 1–4 are weak, the feature is not a core-priority feature even if te
 - `SURFACE PHENOMENON != STRUCTURAL FRICTION`.
 - `SURFACE FRICTION != OPPORTUNITY`.
 - `STATED NEED != LATENT OUTCOME`.
+- `LATENT OUTCOME HYPOTHESIS != EVIDENCED LATENT OUTCOME`.
 - `OBSERVED COST != ROOT CAUSE`.
+- `ONE PLAUSIBLE EXPLANATION != STRUCTURAL TRUTH`.
+- `DEEPER STORY != DEEPER TRUTH`.
+- `PSYCHOLOGY EVIDENCE != UNIVERSAL FORMATION GATE`.
 - `STRUCTURAL FRICTION HYPOTHESIS != EVIDENCED STRUCTURAL FRICTION`.
 - `STRUCTURAL FRICTION != MISSING EDGE`.
 - `BUYER COST FIRST != CONSTITUTION`.
@@ -291,6 +297,36 @@ SURFACE FRICTION
 ```
 
 `STRUCTURAL FRICTION` explains why the Actor cannot reach the desired state under current structures. `MISSING EDGE` explains why identified complementary nodes cannot form normal value flow. Do not collapse them.
+
+## Causal descent v2 rule — LOCKED
+
+For every material surface signal, the engine must preserve a falsifiable causal chain rather than jump directly from symptom to product.
+
+```text
+SURFACE SIGNAL
+→ competing LATENT OUTCOME hypotheses
+→ competing STRUCTURAL CONSTRAINT hypotheses
+→ deeper child constraints where warranted
+→ discriminating evidence / contradictions / falsifiers
+→ explicit causal stop reason
+→ EVIDENCED STRUCTURAL FRICTION
+```
+
+Do not assume a single root cause. The accepted frontier may be multi-causal.
+
+Valid stop reasons are:
+- `INTERVENTION_RELEVANT_BOUNDARY`;
+- `NO_DEEPER_FALSIFIABLE_LAYER`;
+- `EVIDENCE_LIMIT_REACHED`;
+- `MULTI_CAUSAL_FRONTIER`.
+
+`EVIDENCE_LIMIT_REACHED` preserves UNKNOWN and cannot promote.
+
+An inferred structural hypothesis may guide **exploratory** complementary-node search, analogue search and discriminating evidence collection. It may not promote a candidate or justify exchange design.
+
+Psychology/perception/motive evidence is optional when objective behavior, state, institutional, technical or process evidence is sufficient. If psychology is used, it must be provenance-bound and behavior-corroborated.
+
+The canonical implementation is `src/causal_descent.py`. Do not bypass it by stuffing a deeper-sounding sentence into a generic `friction` field.
 
 ## Resource–Psychology Disequilibrium rule
 
@@ -560,11 +596,12 @@ Current priorities:
 2. expand objective endowment, state-transition and resource-underuse sensing;
 3. link psychology/motive evidence to the same actor segment and observed behavior;
 4. preserve contradictions rather than averaging them away;
-5. generate evidence-bound `RESOURCE_PSYCHOLOGY_DISEQUILIBRIUM` and `UNMET / UNFORMED OUTCOME` hypotheses;
-6. search heterogeneous complementary world nodes;
-7. discover `CONNECTION_PRESSURE` through repeated workaround, partial flow, substitution, referral, failed-attempt, shared-pressure and analogue evidence;
-8. identify observed missing edges separately from imagined ones;
-9. only then design minimum exchange mechanics with kill conditions;
+5. generate competing product-agnostic latent-outcome hypotheses from observed state/behavior/endowments;
+6. perform recursive causal descent with competing structural explanations, discriminating evidence, falsifiers and an explicit stop rule;
+7. only after structural truth is evidenced, formally promote heterogeneous complementary world-node search;
+8. discover `CONNECTION_PRESSURE` through repeated workaround, partial flow, substitution, referral, failed-attempt, shared-pressure and analogue evidence;
+9. identify observed missing edges separately from structural friction and imagined blockers;
+10. only after an evidenced latent connection, design minimum exchange mechanics with kill conditions;
 10. use human/external validation capital on the single most decisive unresolved truth;
 11. only after support exists, project Need/Resource/Blocker/payer truth and perform transaction gating;
 12. keep the founder as orchestration/routing control plane rather than default search, sales or execution node.
