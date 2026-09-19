@@ -1,0 +1,54 @@
+{
+  "schema_version": "causal-descent.v1",
+  "formation_id": "ATTRACTION_SCAN_002-F1",
+  "resolved_date": "2026-09-19",
+  "verdict": "DEMOTED_FROM_CURRENT_COMMERCIAL_FORMATION",
+  "commercial_candidate": false,
+  "evidence_state": {
+    "idle_private_capacity": "EVIDENCED",
+    "nearby_charging_demand": "EVIDENCED",
+    "technical_sharing_stack": "MATURE",
+    "property_support_bottleneck": "EVIDENCED",
+    "standardized_permission_unit": "NOT_PROVEN",
+    "founder_independent_activation": "NOT_PROVEN"
+  },
+  "incumbent_resolution": {
+    "discovery_payment_sharing": [
+      "STAR_CHARGE_RENREN_STATION",
+      "PRIVATE_SHARING_PLATFORMS"
+    ],
+    "gate_lock_charger_integration": [
+      "CURRENT_CHARGING_SAAS_STACKS"
+    ],
+    "multi_party_settlement": [
+      "CURRENT_CHARGING_PLATFORM_SETTLEMENT"
+    ],
+    "remaining_friction": [
+      "PROPERTY_ACCESS",
+      "PARKING_RIGHTS",
+      "COMMON_AREA_RULES",
+      "POWER_CAPACITY",
+      "SAFETY_LIABILITY",
+      "LOCAL_ECONOMICS",
+      "PHYSICAL_DEPLOYMENT"
+    ]
+  },
+  "strongest_surviving_learning": {
+    "primitive": "CONTROL_RIGHT_CONCENTRATION_PERMISSION_DENSITY",
+    "status": "RESEARCH_LEARNING_ONLY",
+    "statement": "stranded supply and active demand are insufficient when the permissions required to activate value are fragmented across many local actors"
+  },
+  "operator_non_labor_test": "FAIL_CURRENT_GENERAL_FORM",
+  "self_propulsion": "UNPROVEN",
+  "operator_economic_surplus": "NOT_PROVEN",
+  "next_action": "RUN_ATTRACTION_SCAN_003",
+  "prohibitions": [
+    "NO_CHARGING_APP",
+    "NO_HARDWARE_INTEGRATOR",
+    "NO_PROPERTY_BD_AGENCY",
+    "NO_HARDWARE_PURCHASE",
+    "NO_RECRUITMENT",
+    "NO_OUTREACH",
+    "NO_FALLBACK_CANDIDATE"
+  ]
+}
