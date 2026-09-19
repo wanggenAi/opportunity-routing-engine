@@ -2,21 +2,24 @@
 
 Constitutional parent: `docs/LATENT_VALUE_DOCTRINE.md`.
 
+Constitutional causal-depth rule: `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`.
+
 ## 1. System objective
 
 Build a reusable engine that discovers and activates unrealized value in the real world by:
 
 1. observing actors, endowments, constraints, state changes and behavior;
-2. detecting friction, underuse, misallocation, fragmentation and costly workarounds;
-3. forming evidence-linked `LatentValueHypothesis` records;
-4. finding complementary actors whose resources, deficits, access, trust or flows may combine into new value;
-5. proving canonical Need / Resource / Blocker / payer / payment evidence without semantic invention;
-6. defining a bounded transaction objective;
-7. decomposing the objective into `CapabilityUnit`s;
-8. routing those units to suitable resources/providers;
-9. designing incentives, interfaces, trust, acceptance and replacement;
-10. executing and settling;
-11. learning from real performance and improving future discovery/routing.
+2. detecting surface phenomena, friction, underuse, misallocation, fragmentation and costly workarounds;
+3. inferring product-agnostic latent outcomes and falsifiable structural-friction hypotheses, then separating `OBSERVED`, `INFERRED` and `EVIDENCED_STRUCTURE`;
+4. forming evidence-linked `LatentValueHypothesis` records;
+5. finding complementary actors whose resources, deficits, access, trust or flows may remove an evidenced structural constraint and combine into new value;
+6. proving canonical Need / Resource / Blocker / payer / payment evidence without semantic invention;
+7. defining a bounded transaction objective;
+8. decomposing the objective into `CapabilityUnit`s;
+9. routing those units to suitable resources/providers;
+10. designing incentives, interfaces, trust, acceptance and replacement;
+11. executing and settling;
+12. learning from real performance and improving future discovery/routing.
 
 The architecture is domain-agnostic, provider-agnostic and source-agnostic. The operator is not the default capability provider.
 
@@ -57,11 +60,21 @@ CHANGE
         ↓
 BEHAVIOR
         ↓
-FRICTION / UNDERUSE / MISALLOCATION / WORKAROUND
+SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
+        ↓
+LATENT / UNFORMED OUTCOME HYPOTHESIS
+        ↓
+STRUCTURAL FRICTION HYPOTHESIS
+        ↓
+ALTERNATIVE-EXPLANATION / CONTRADICTION SEARCH
+        ↓
+EVIDENCED STRUCTURAL FRICTION
         ↓
 LATENT VALUE HYPOTHESIS
         ↓
 COMPLEMENTARY ACTOR SEARCH
+        ↓
+CONNECTION PRESSURE + OBSERVED INTER-NODE MISSING EDGE
         ↓
 EXCHANGE HYPOTHESIS
         ↓
@@ -144,8 +157,34 @@ Evidence-linked change between states. Change is often more informative than a s
 ### `Endowment`
 A thing an actor has or can potentially mobilize: capability, asset, time, relationship, trust, audience, access, data, location, installed base, recurring demand flow, inventory, process or other usable input.
 
+### `SurfaceFriction`
+Observed recurring cost, delay, shortage, workaround, uncertainty, rejection, coordination burden, access gap or other visible symptom.
+
+Surface friction is an evidence-bearing sensor. It is not automatically the root cause, paid demand or an opportunity.
+
+### `StructuralFrictionHypothesis`
+A falsifiable causal claim about the underlying structure that prevents an Actor from reaching a product-agnostic latent desired state.
+
+Minimum conceptual fields:
+
+```text
+id
+actor_ids
+surface_observation_refs
+latent_outcome_hypothesis
+causal_claim
+truth_state: OBSERVED / INFERRED / EVIDENCED_STRUCTURE
+alternative_explanations
+discriminating_evidence
+falsifiers
+```
+
+`STRUCTURAL_FRICTION_HYPOTHESIS != EVIDENCED_STRUCTURAL_FRICTION`.
+
+`STRUCTURAL_FRICTION != MISSING_EDGE`: structural friction concerns the blocked Actor state transition; a missing edge concerns why identified complementary nodes cannot form normal value flow.
+
 ### `Friction`
-Observed recurring cost, delay, workaround, uncertainty, rejection, coordination burden, access gap or structural obstacle.
+Compatibility umbrella for observed or inferred obstacles. New discovery logic must preserve whether the record is surface-level or structural rather than collapsing both into one field.
 
 Friction is not automatically paid demand.
 
