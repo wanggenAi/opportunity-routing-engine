@@ -63,8 +63,12 @@ class FormationState(str, Enum):
     """Maturity of an evidence-bound latent-value formation hypothesis."""
 
     OBSERVED_TRANSITION = "OBSERVED_TRANSITION"
+    RESOURCE_STATE_MISALIGNMENT_HYPOTHESIS = (
+        "RESOURCE_STATE_MISALIGNMENT_HYPOTHESIS"
+    )
+    # Backward-compatible alias. Psychology is not a universal formation gate.
     RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS = (
-        "RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS"
+        "RESOURCE_STATE_MISALIGNMENT_HYPOTHESIS"
     )
     STRUCTURAL_FRICTION_HYPOTHESIS = "STRUCTURAL_FRICTION_HYPOTHESIS"
     STRUCTURAL_FRICTION_EVIDENCED = "STRUCTURAL_FRICTION_EVIDENCED"
@@ -170,7 +174,6 @@ class LatentValueFormationHypothesis:
     observed_state: str
     observed_change: str
     underused_or_misaligned_value: str
-    resource_psychology_disequilibrium: str
     observed_behavior: str
     latent_outcome_hypothesis: str
     complementary_nodes: Sequence[ComplementaryWorldNode]
@@ -188,6 +191,7 @@ class LatentValueFormationHypothesis:
     )
     alternative_explanations: tuple[str, ...] = ()
     resource_state_disequilibrium: str = ""
+    resource_psychology_disequilibrium: str = ""
     persistent_mismatch: str = ""
     causal_descent: CausalDescentRecord | None = None
     connection_pressure_hypothesis: str = ""
@@ -225,7 +229,6 @@ _VALIDATION_EVIDENCE_KINDS = frozenset(
         FormationEvidenceKind.OBJECTIVE_ENDOWMENT,
         FormationEvidenceKind.ORIGIN_STATE,
         FormationEvidenceKind.UNDERUSE_MISALIGNMENT,
-        FormationEvidenceKind.OBSERVED_BEHAVIOR,
         FormationEvidenceKind.STRUCTURAL_FRICTION,
         FormationEvidenceKind.COMPLEMENTARY_NODE,
         FormationEvidenceKind.CONNECTION_PRESSURE,
@@ -261,15 +264,6 @@ def _usable_psychology_snapshots(
         if snapshot.actor_segment == hypothesis.actor_segment
         and snapshot.supporting_evidence_refs
     ]
-
-
-def _has_perception_or_motive(
-    hypothesis: LatentValueFormationHypothesis,
-) -> bool:
-    return any(
-        snapshot.semantic_primitive in {"PERCEPTION", "MOTIVE"}
-        for snapshot in _usable_psychology_snapshots(hypothesis)
-    )
 
 
 def _has_behavior_corroboration(
@@ -429,19 +423,18 @@ def formation_state(hypothesis: LatentValueFormationHypothesis) -> FormationStat
             or hypothesis.resource_psychology_disequilibrium.strip()
         )
     ):
-        return FormationState.RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS
+        return FormationState.RESOURCE_STATE_MISALIGNMENT_HYPOTHESIS
 
     usable_psychology = _usable_psychology_snapshots(hypothesis)
     if not (
         FormationEvidenceKind.UNDERUSE_MISALIGNMENT in kinds
-        and FormationEvidenceKind.OBSERVED_BEHAVIOR in kinds
         and (
             not usable_psychology
             or _has_behavior_corroboration(hypothesis)
         )
         and hypothesis.latent_outcome_hypothesis.strip()
     ):
-        return FormationState.RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS
+        return FormationState.RESOURCE_STATE_MISALIGNMENT_HYPOTHESIS
 
     if not (
         hypothesis.surface_phenomenon_or_friction.strip()
@@ -643,6 +636,7 @@ GOVERNING_INVARIANTS = (
     "PSYCHOLOGY_SIGNAL_NE_DEMAND",
     "PSYCHOLOGY_EVIDENCE_NE_UNIVERSAL_FORMATION_GATE",
     "OBJECTIVE_CAUSAL_EVIDENCE_MAY_FORM_STRUCTURE_WITHOUT_PSYCHOLOGY",
+    "OBSERVED_BEHAVIOR_NE_UNIVERSAL_FORMATION_GATE",
     "CAUSAL_EVIDENCE_REF_MUST_BIND_TO_FORMATION_EVIDENCE",
     "MOTIVE_HYPOTHESIS_NE_WILLINGNESS_TO_PAY",
     "BEHAVIOR_SIGNAL_NE_TRANSACTION",
