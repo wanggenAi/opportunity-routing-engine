@@ -28,6 +28,7 @@ class DiscoveryState(str, Enum):
     LATENT_VALUE_HYPOTHESIS = "LATENT_VALUE_HYPOTHESIS"
     STRUCTURAL_FRICTION_HYPOTHESIS = "STRUCTURAL_FRICTION_HYPOTHESIS"
     COMPLEMENTARITY_HYPOTHESIS = "COMPLEMENTARITY_HYPOTHESIS"
+    LATENT_CONNECTION_EVIDENCED = "LATENT_CONNECTION_EVIDENCED"
     VALIDATION_READY = "VALIDATION_READY"
 
 
@@ -42,6 +43,8 @@ class EvidenceKind(str, Enum):
     ORIGIN_CHANGE = "ORIGIN_CHANGE"
     STRUCTURAL_FRICTION = "STRUCTURAL_FRICTION"
     COMPLEMENTARY_STATE = "COMPLEMENTARY_STATE"
+    CONNECTION_PRESSURE = "CONNECTION_PRESSURE"
+    MISSING_EDGE = "MISSING_EDGE"
     STRANDING_BARRIER = "STRANDING_BARRIER"
     VALUE_PRECEDENT = "VALUE_PRECEDENT"
     GENERAL_PATTERN = "GENERAL_PATTERN"
@@ -81,6 +84,11 @@ class LatentValueCandidate:
     structural_friction_hypothesis: str = ""
     structural_friction_truth_state: str = "INFERRED"
     alternative_explanations: tuple[str, ...] = ()
+    causal_descent_record_id: str = ""
+    causal_stop_reason: str = ""
+    connection_pressure_hypothesis: str = ""
+    observed_missing_edge: str = ""
+    latent_connection_hypothesis: str = ""
     evidence: Sequence[EvidenceRef] = field(default_factory=tuple)
     source_mode: str = "LATENT_VALUE_DISCOVERY"
 
@@ -109,6 +117,11 @@ _REQUIRED_FIELDS = (
     "surface_phenomenon_or_friction",
     "latent_outcome_hypothesis",
     "structural_friction_hypothesis",
+    "causal_descent_record_id",
+    "causal_stop_reason",
+    "connection_pressure_hypothesis",
+    "observed_missing_edge",
+    "latent_connection_hypothesis",
 )
 
 _VALIDATION_EVIDENCE_KINDS = frozenset(
@@ -116,7 +129,7 @@ _VALIDATION_EVIDENCE_KINDS = frozenset(
         EvidenceKind.ORIGIN_STATE,
         EvidenceKind.STRUCTURAL_FRICTION,
         EvidenceKind.COMPLEMENTARY_STATE,
-        EvidenceKind.STRANDING_BARRIER,
+        EvidenceKind.CONNECTION_PRESSURE,
     }
 )
 
@@ -129,7 +142,13 @@ def missing_validation_evidence(candidate: LatentValueCandidate) -> list[Evidenc
     """Evidence dimensions still missing before a candidate is field-test ready."""
 
     present = evidence_kinds(candidate)
-    return sorted(_VALIDATION_EVIDENCE_KINDS - present, key=lambda item: item.value)
+    missing = set(_VALIDATION_EVIDENCE_KINDS - present)
+    if not {
+        EvidenceKind.MISSING_EDGE,
+        EvidenceKind.STRANDING_BARRIER,
+    }.intersection(present):
+        missing.add(EvidenceKind.MISSING_EDGE)
+    return sorted(missing, key=lambda item: item.value)
 
 
 def validate_candidate(candidate: LatentValueCandidate) -> list[str]:
@@ -192,15 +211,27 @@ def discovery_state(candidate: LatentValueCandidate) -> DiscoveryState:
     ):
         return DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS
 
-    if not (
-        candidate.complementary_actor_hypothesis.strip()
-        and candidate.transformation_mechanism.strip()
-        and candidate.why_exchange_does_not_already_happen.strip()
-    ):
+    if not candidate.complementary_actor_hypothesis.strip():
         return DiscoveryState.LATENT_VALUE_HYPOTHESIS
 
-    if validate_candidate(candidate):
+    kinds = evidence_kinds(candidate)
+    if not (
+        candidate.connection_pressure_hypothesis.strip()
+        and EvidenceKind.CONNECTION_PRESSURE in kinds
+        and candidate.observed_missing_edge.strip()
+        and {EvidenceKind.MISSING_EDGE, EvidenceKind.STRANDING_BARRIER}.intersection(kinds)
+        and candidate.latent_connection_hypothesis.strip()
+    ):
         return DiscoveryState.COMPLEMENTARITY_HYPOTHESIS
+
+    if not (
+        candidate.transformation_mechanism.strip()
+        and candidate.why_exchange_does_not_already_happen.strip()
+    ):
+        return DiscoveryState.LATENT_CONNECTION_EVIDENCED
+
+    if validate_candidate(candidate):
+        return DiscoveryState.LATENT_CONNECTION_EVIDENCED
 
     return DiscoveryState.VALIDATION_READY
 
@@ -278,6 +309,9 @@ GOVERNING_INVARIANTS = (
     "SURFACE_FRICTION_NE_STRUCTURAL_FRICTION",
     "STRUCTURAL_FRICTION_HYPOTHESIS_NE_EVIDENCED_STRUCTURAL_FRICTION",
     "STRUCTURAL_FRICTION_NE_MISSING_EDGE",
+    "CONNECTION_PRESSURE_NE_COMPLEMENTARITY",
+    "MISSING_EDGE_NE_STRUCTURAL_FRICTION",
+    "COUNTERFACTUAL_EXCHANGE_FOLLOWS_EVIDENCED_CONNECTION",
     "BUYER_COST_FIRST_NE_CONSTITUTION",
     "POTENTIAL_VALUE_NE_PROVEN_VALUE",
     "COMPLEMENTARITY_NE_TRANSACTIONABILITY",
