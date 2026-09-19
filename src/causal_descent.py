@@ -151,6 +151,8 @@ class CausalDescentRecord:
     outcome_selection_rationale: str
     constraint_hypotheses: Sequence[StructuralConstraintHypothesis]
     lead_constraint_ids: tuple[str, ...]
+    outcome_selection_evidence_refs: tuple[str, ...] = ()
+    deeper_search_would_change_decision: bool | None = None
     stop_reason: CausalStopReason | None = None
     stop_rationale: str = ""
     decisive_unknown: str = ""
@@ -170,10 +172,16 @@ class CausalDescentRecord:
             ],
             "selected_outcome_id": self.selected_outcome_id,
             "outcome_selection_rationale": self.outcome_selection_rationale,
+            "outcome_selection_evidence_refs": list(
+                self.outcome_selection_evidence_refs
+            ),
             "constraint_hypotheses": [
                 item.as_dict() for item in self.constraint_hypotheses
             ],
             "lead_constraint_ids": list(self.lead_constraint_ids),
+            "deeper_search_would_change_decision": (
+                self.deeper_search_would_change_decision
+            ),
             "stop_reason": self.stop_reason.value if self.stop_reason else None,
             "stop_rationale": self.stop_rationale,
             "decisive_unknown": self.decisive_unknown,
@@ -187,10 +195,26 @@ def _string_tuple(value: object, *, field_name: str) -> tuple[str, ...]:
         return ()
     if not isinstance(value, Sequence) or isinstance(value, (str, bytes)):
         raise ValueError(f"{field_name} must be a list of strings")
-    items = tuple(str(item) for item in value)
+    if any(not isinstance(item, str) for item in value):
+        raise ValueError(f"{field_name} must contain only strings")
+    items = tuple(value)
     if any(not item.strip() for item in items):
         raise ValueError(f"{field_name} contains an empty value")
     return items
+
+
+def _bool_value(value: object, *, field_name: str) -> bool:
+    if not isinstance(value, bool):
+        raise ValueError(f"{field_name} must be a boolean")
+    return value
+
+
+def _optional_bool_value(value: object, *, field_name: str) -> bool | None:
+    if value is None:
+        return None
+    if not isinstance(value, bool):
+        raise ValueError(f"{field_name} must be a boolean or null")
+    return value
 
 
 def causal_descent_from_mapping(raw: Mapping[str, object]) -> CausalDescentRecord:
@@ -310,10 +334,21 @@ def causal_descent_from_mapping(raw: Mapping[str, object]) -> CausalDescentRecor
             raw.get("lead_constraint_ids"),
             field_name="lead_constraint_ids",
         ),
+        outcome_selection_evidence_refs=_string_tuple(
+            raw.get("outcome_selection_evidence_refs"),
+            field_name="outcome_selection_evidence_refs",
+        ),
+        deeper_search_would_change_decision=_optional_bool_value(
+            raw.get("deeper_search_would_change_decision"),
+            field_name="deeper_search_would_change_decision",
+        ),
         stop_reason=stop_reason,
         stop_rationale=str(raw.get("stop_rationale") or ""),
         decisive_unknown=str(raw.get("decisive_unknown") or ""),
-        probe_eligible=bool(raw.get("probe_eligible", False)),
+        probe_eligible=_bool_value(
+            raw.get("probe_eligible", False),
+            field_name="probe_eligible",
+        ),
         notes=str(raw.get("notes") or ""),
     )
 
@@ -356,6 +391,14 @@ def validate_causal_descent(record: CausalDescentRecord) -> list[str]:
     elif not record.outcome_selection_rationale.strip():
         errors.append("selected_outcome_requires_rationale")
 
+    if not record.outcome_selection_evidence_refs:
+        errors.append("selected_outcome_requires_evidence")
+    elif any(
+        not isinstance(ref, str) or not ref.strip()
+        for ref in record.outcome_selection_evidence_refs
+    ):
+        errors.append("invalid:outcome_selection_evidence_refs")
+
     for outcome in record.outcome_hypotheses:
         if not outcome.is_usable():
             errors.append(f"invalid:outcome:{outcome.outcome_id or 'UNKNOWN'}")
@@ -384,10 +427,23 @@ def validate_causal_descent(record: CausalDescentRecord) -> list[str]:
                 errors.append(
                     f"constraint_parent_not_found:{constraint.constraint_id}"
                 )
-            elif parent.depth >= constraint.depth:
-                errors.append(
-                    f"constraint_depth_not_deeper_than_parent:{constraint.constraint_id}"
-                )
+            else:
+                if parent.outcome_id != constraint.outcome_id:
+                    errors.append(
+                        f"constraint_parent_wrong_outcome:{constraint.constraint_id}"
+                    )
+                if parent.depth >= constraint.depth:
+                    errors.append(
+                        f"constraint_depth_not_deeper_than_parent:{constraint.constraint_id}"
+                    )
+                elif constraint.depth != parent.depth + 1:
+                    errors.append(
+                        f"constraint_depth_skips_recursive_layer:{constraint.constraint_id}"
+                    )
+        elif constraint.depth != 1:
+            errors.append(
+                f"root_constraint_depth_must_be_one:{constraint.constraint_id}"
+            )
 
         if constraint.truth_state is CausalTruthState.EVIDENCED_STRUCTURE:
             if not constraint.support_refs:
@@ -415,6 +471,12 @@ def validate_causal_descent(record: CausalDescentRecord) -> list[str]:
         ):
             errors.append(f"lead_constraint_wrong_outcome:{constraint_id}")
 
+    if (
+        record.deeper_search_would_change_decision is not None
+        and not isinstance(record.deeper_search_would_change_decision, bool)
+    ):
+        errors.append("invalid:deeper_search_would_change_decision")
+
     if record.probe_eligible and not record.decisive_unknown.strip():
         errors.append("probe_eligible_requires_decisive_unknown")
 
@@ -435,6 +497,8 @@ def validate_causal_descent(record: CausalDescentRecord) -> list[str]:
                 errors.append(
                     f"intervention_boundary_requires_implication:{constraint.constraint_id}"
                 )
+        if record.deeper_search_would_change_decision is not False:
+            errors.append("intervention_boundary_requires_decision_stability")
 
     if (
         record.stop_reason is CausalStopReason.MULTI_CAUSAL_FRONTIER
@@ -495,6 +559,9 @@ def causal_descent_state(record: CausalDescentRecord) -> CausalDescentState:
     ):
         return CausalDescentState.CAUSAL_HYPOTHESIS_SET
 
+    if validate_causal_descent(record):
+        return CausalDescentState.CAUSAL_HYPOTHESIS_SET
+
     return CausalDescentState.EVIDENCED_STRUCTURAL_FRICTION
 
 
@@ -506,6 +573,7 @@ def causal_evidence_refs(record: CausalDescentRecord) -> set[str]:
     """Return every provenance reference used to support or contradict causal claims."""
 
     refs = set(record.surface_evidence_refs)
+    refs.update(record.outcome_selection_evidence_refs)
     for outcome in record.outcome_hypotheses:
         refs.update(outcome.evidence_refs)
         refs.update(outcome.contradiction_refs)
@@ -566,10 +634,14 @@ def validate_causal_projection(
         for item in record.lead_constraint_ids
         if item in constraints
     ]
-    if len(lead) == 1 and _normalized_text(lead[0].causal_claim) != _normalized_text(
-        structural_friction_hypothesis
-    ):
-        errors.append("structural_friction_projection_mismatch")
+    if lead:
+        expected_structural_projection = " + ".join(
+            item.causal_claim for item in lead
+        )
+        if _normalized_text(expected_structural_projection) != _normalized_text(
+            structural_friction_hypothesis
+        ):
+            errors.append("structural_friction_projection_mismatch")
 
     if record_id and record_id != record.record_id:
         errors.append("causal_descent_record_id_mismatch")
@@ -599,12 +671,17 @@ def validate_causal_descent_for_promotion(
     ):
         errors.append("causal_descent_not_evidenced")
 
+    outcomes = list(record.outcome_hypotheses)
     selected = _outcomes(record).get(record.selected_outcome_id)
+    if len(outcomes) < 2:
+        errors.append("missing:competing_latent_outcome")
     if (
         selected is not None
         and selected.truth_state is not CausalTruthState.EVIDENCED_STRUCTURE
     ):
         errors.append("latent_outcome_not_evidenced")
+    if not record.outcome_selection_evidence_refs:
+        errors.append("missing:outcome_selection_evidence")
 
     same_outcome_constraints = [
         item
@@ -630,6 +707,8 @@ GOVERNING_INVARIANTS = (
     "STATED_REQUEST_NE_LATENT_OUTCOME",
     "LATENT_OUTCOME_HYPOTHESIS_NE_FACT",
     "SELECTED_LATENT_OUTCOME_REQUIRES_EXPLICIT_RATIONALE",
+    "SELECTED_LATENT_OUTCOME_REQUIRES_BOUND_EVIDENCE",
+    "COMPETING_LATENT_OUTCOMES_PRECEDE_SELECTION",
     "ONE_PLAUSIBLE_CAUSE_NE_STRUCTURAL_TRUTH",
     "DEEPER_STORY_NE_DEEPER_TRUTH",
     "ROOT_CAUSE_LANGUAGE_NE_SINGLE_CAUSE_ASSUMPTION",
@@ -637,6 +716,8 @@ GOVERNING_INVARIANTS = (
     "STRUCTURAL_FRICTION_NE_MISSING_EDGE",
     "CAUSAL_DESCENT_STOPS_AT_DEEPEST_DECISION_USEFUL_FALSIFIABLE_FRONTIER",
     "CAUSAL_STOP_REASON_REQUIRES_RATIONALE",
+    "INTERVENTION_BOUNDARY_REQUIRES_DECISION_STABILITY",
+    "CAUSAL_LINEAGE_DEPTH_MUST_BE_RECURSIVE",
     "INFERRED_STRUCTURE_MAY_GUIDE_EXPLORATION_BUT_NOT_PROMOTION",
     "DECISIVE_UNKNOWN_MAY_JUSTIFY_BOUNDED_PROBE",
     "UNKNOWN_NE_PASS",
