@@ -8,7 +8,7 @@ Code, data models, sensors, scoring, experiments, workflows and product ideas ex
 
 If a technically correct implementation pulls the system away from this doctrine, the implementation is wrong for this repository.
 
-The executable formation principle is defined in `docs/LATENT_VALUE_FORMATION_BRIDGE.md`. The connection-discovery clarification is defined in `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`. These are constitutional discovery principles, not optional implementation notes.
+The executable formation principle is defined in `docs/LATENT_VALUE_FORMATION_BRIDGE.md`. The causal-depth rule is defined in `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`. The connection-discovery clarification is defined in `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`. These are constitutional discovery principles, not optional implementation notes.
 
 ## 1. The system does not begin with supply and demand
 
@@ -59,11 +59,15 @@ That reasoning is a hypothesis, not evidence that a business or even the connect
 
 The central principle is:
 
-> **Demand does not have to exist first. The conditions from which value may emerge can exist first. The system may infer unformed outcomes and search complementary nodes broadly, but it must discover evidence that reality is already exerting pressure toward a connection before that connection is promoted. Only then may it design the minimum exchange mechanics and let reality confirm or falsify the remaining uncertainty.**
+> **Demand does not have to exist first, and a visible pain point does not have to reveal the true commercial structure. The conditions from which value may emerge can exist first. The system may infer a product-agnostic latent outcome and the deeper structural friction that prevents an actor from reaching it; it must label that inference honestly, corroborate it, and only then search complementary nodes broadly. It must still discover evidence that reality is exerting pressure toward a connection before that connection is promoted. Only then may it design the minimum exchange mechanics and let reality confirm or falsify the remaining uncertainty.**
 
 Therefore:
 
 ```text
+SURFACE FRICTION != STRUCTURAL FRICTION
+STRUCTURAL FRICTION HYPOTHESIS != EVIDENCED STRUCTURAL FRICTION
+STRUCTURAL FRICTION != MISSING EDGE
+BUYER COST FIRST != CONSTITUTION
 CONNECTION INVENTION != CONNECTION DISCOVERY
 COMPLEMENTARITY != LATENT CONNECTION
 COUNTERFACTUAL EXCHANGE DESIGN != CONNECTION EVIDENCE
@@ -158,6 +162,44 @@ Latent value and unformed outcomes are **hypotheses until evidenced**.
 
 The engine must never declare value merely because it can imagine a use case.
 
+## 5A. Surface friction and structural friction are different layers
+
+A visible problem is often only the first observable consequence of a deeper constraint.
+
+```text
+SURFACE PHENOMENON / SURFACE FRICTION
+!=
+STRUCTURAL FRICTION
+!=
+MISSING EDGE
+```
+
+The engine must use causal descent:
+
+```text
+OBSERVED EVENT
+→ what state is the Actor actually trying to reach or avoid?
+→ product-agnostic LATENT / UNFORMED OUTCOME
+→ what deeper condition prevents that state transition?
+→ STRUCTURAL FRICTION HYPOTHESIS
+→ alternative explanations + contradiction search
+→ EVIDENCED STRUCTURAL FRICTION
+```
+
+A structural friction may be invisible in the actor's own stated language. For example, “cannot find suitable work” may expose a deeper inability to convert bounded capability/time into trusted paid outcomes without a full employment package. “Capacity shortage” may expose a deeper inability to call trusted elastic capacity under quality/IP/acceptance constraints. These examples are hypotheses until corroborated.
+
+Every causal layer must preserve truth state:
+
+```text
+OBSERVED
+INFERRED
+EVIDENCED_STRUCTURE
+```
+
+`OBSERVED != INFERRED`. `INFERRED != EVIDENCED_STRUCTURE`.
+
+A scan heuristic such as `BUYER COST FIRST` or `CURRENT EXTERNALIZED WORKAROUND FIRST` may be useful for one cycle, but no heuristic may replace this doctrine.
+
 ## 6. The canonical discovery and formation chain
 
 The highest-order chain is:
@@ -169,13 +211,16 @@ WORLD SENSING
 -> STATE CHANGE
 -> PERCEPTION / MOTIVE
 -> OBSERVED BEHAVIOR
--> FRICTION / UNDERUSE / MISALLOCATION / CONTRADICTION
+-> SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
 -> RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
--> UNMET / UNFORMED OUTCOME HYPOTHESIS
+-> LATENT / UNFORMED OUTCOME HYPOTHESIS
+-> STRUCTURAL FRICTION HYPOTHESIS
+-> CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+-> EVIDENCED STRUCTURAL FRICTION
 -> COMPLEMENTARY WORLD-NODE SEARCH
 -> CONNECTION-PRESSURE EVIDENCE
 -> PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
--> OBSERVED MISSING EDGE / STRANDING BARRIER
+-> OBSERVED MISSING EDGE / STRANDING BARRIER BETWEEN NODES
 -> LATENT CONNECTION HYPOTHESIS
 -> CONTRADICTION SEARCH
 -> ONLY THEN: COUNTERFACTUAL EXCHANGE MECHANICS
@@ -190,7 +235,7 @@ WORLD SENSING
 
 They must not shrink the engine into an explicit supply-demand matcher.
 
-Human outreach, calls and field visits are not the default discovery algorithm. They are scarce validation capital used after broad sensing has reduced the search space to an evidence-bound latent connection and one decisive unresolved fact.
+Human outreach, calls and field visits are not the default discovery algorithm. They are scarce validation capital. A bounded probe may occur before a missing edge is fully public when broad sensing has already established a real actor/state pattern, a bounded structural-friction hypothesis and one decisive unresolved causal fact. Such a case must be marked `DECISIVE_UNKNOWN / PROBE_ELIGIBLE`; the probe tests the narrow causal unknown and does not itself promote a business.
 
 ## 7. Psychology & Behavior Engineering is upstream of product ideas
 
