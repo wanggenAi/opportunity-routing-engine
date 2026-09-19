@@ -52,13 +52,13 @@ Historical-case policy:
 
 ## Last Verified Main
 
-Main before this branch: `0b31ef33b458f205ba230ebad100064bc2d33f54`.
+`4b10ea2793fe4ac2994310d8cfb33966e070ba44` — PR #267 squash-merged.
 
-PR #266 merge SHA: `8957a469df518558498d28caf14e12eb52f227a1`.
+PR #267 head: `fda6ddc824be7087bfafd18902e1e2ece1d36be9`.
 
-PR #266 CI #806 / run `35440924553`: success.
+PR #267 CI #808 / run `35441226027`: success.
 
-The branch base includes the later state-only Scan 002-F1 close checkpoint.
+PR #266 merge SHA: `8957a469df518558498d28caf14e12eb52f227a1`; CI #806 succeeded.
 
 ## Active Issue
 
@@ -66,17 +66,17 @@ The branch base includes the later state-only Scan 002-F1 close checkpoint.
 
 ## Active Branch
 
-`feature/attraction-scan-003`
+None.
 
 ## Active PR
 
-Not opened yet at this checkpoint.
+None. PR #267 is merged.
 
 ## CI
 
-Pending for `feature/attraction-scan-003`.
-
-No production code or doctrine change is intended in this scan checkpoint.
+- PR #267 / run `35441226027`: success.
+- Scan 003 is persisted on main.
+- No production code or doctrine changed.
 
 ## Latest Artifact / Persisted State
 
