@@ -164,6 +164,35 @@ class CausalDescentTests(unittest.TestCase):
         self.assertIn("missing:discriminating_evidence:C1", errors)
         self.assertIn("missing:constraint_falsifiers:C1", errors)
 
+    def test_persisted_round_trip_preserves_causal_lineage(self):
+        from src.causal_descent import causal_descent_from_mapping
+
+        record = self._record()
+        restored = causal_descent_from_mapping(record.as_dict())
+        self.assertEqual(restored, record)
+        self.assertEqual(validate_causal_descent_for_promotion(restored), [])
+
+    def test_evidence_limit_cannot_promote_even_when_current_frontier_is_supported(self):
+        record = self._record(stop_reason=CausalStopReason.EVIDENCE_LIMIT_REACHED)
+        self.assertEqual(
+            causal_descent_state(record),
+            CausalDescentState.CAUSAL_HYPOTHESIS_SET,
+        )
+        errors = validate_causal_descent_for_promotion(record)
+        self.assertIn("causal_evidence_limit_reached", errors)
+        self.assertIn("causal_descent_not_evidenced", errors)
+
+    def test_multi_causal_stop_requires_multiple_evidenced_leads(self):
+        record = self._record(stop_reason=CausalStopReason.MULTI_CAUSAL_FRONTIER)
+        self.assertIn(
+            "multi_causal_frontier_requires_multiple_lead_constraints",
+            validate_causal_descent(record),
+        )
+        self.assertEqual(
+            causal_descent_state(record),
+            CausalDescentState.CAUSAL_HYPOTHESIS_SET,
+        )
+
     def test_stop_reason_is_part_of_deep_causal_discipline(self):
         record = self._record(stop_reason=None)
         self.assertEqual(
