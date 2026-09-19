@@ -134,12 +134,14 @@ Likewise, a manufacturer saying "we need more capacity" may be naming a surface 
 
 > absorb temporary order peaks with trusted elastic production while preserving quality, IP, certification, acceptance and delivery certainty without permanent fixed-capacity expansion.
 
-These formulations are **not automatically true because they sound deeper**. They must be treated as competing outcome hypotheses and tested against observed choice, sacrifice, substitution, workaround, persistence and contradiction.
+These formulations are **not automatically true because they sound deeper**. They must be tested against observed choice, sacrifice, substitution, workaround, persistence and contradiction. The engine should actively search for materially different outcome interpretations when the evidence is ambiguous.
 
-The selected latent outcome must carry an explicit rationale tied to durable evidence. A deeper-sounding objective is not accepted merely because it is more abstract. Promotion requires competing latent-outcome hypotheses plus explicit selection-evidence references that bind to the same persisted evidence packet.
+The selected latent outcome must carry an explicit rationale tied to durable evidence. A deeper-sounding objective is not accepted merely because it is more abstract. Promotion requires explicit selection-evidence references that bind to the same persisted evidence packet. Competing latent outcomes are required when credible alternatives actually exist; they are not a numeric ritual.
 
 ```text
-COMPETING LATENT OUTCOMES
+ONE OR MORE LATENT OUTCOME HYPOTHESES AS REALITY WARRANTS
++
+MATERIAL ALTERNATIVES PRESERVED WHEN PRESENT
 +
 SELECTED LATENT OUTCOME
 +
@@ -148,7 +150,7 @@ BOUND SELECTION EVIDENCE
 SELECTION RATIONALE
 ```
 
-When the same surface behavior admits materially different outcome interpretations, preserve those alternatives instead of silently choosing the most commercially convenient one.
+When the same surface behavior admits materially different outcome interpretations, preserve those alternatives instead of silently choosing the most commercially convenient one. When no material alternative survives honest search, do not fabricate one merely to satisfy a schema.
 
 ## 3B. Causal descent is recursive, not one jump
 
@@ -194,13 +196,15 @@ Real systems are often multi-causal.
 
 The objective is **not** to discover a single philosophical "root cause". The objective is to identify the deepest **decision-useful, falsifiable causal frontier** supported by evidence.
 
-For every serious structural-friction hypothesis, maintain at least:
+For every serious structural-friction hypothesis, actively search for:
 - the leading explanation;
-- at least one plausible competing explanation;
-- evidence supporting each;
-- evidence contradicting each;
-- what observation would discriminate between them;
+- materially plausible competing explanations, when any survive honest search;
+- evidence supporting the retained explanations;
+- evidence contradicting them;
+- observations that would discriminate among live alternatives;
 - explicit falsifiers.
+
+Do not fabricate a competing explanation solely to satisfy a schema. A single evidenced cause may be the current causal frontier when alternatives were genuinely searched, evidence is discriminating, falsifiers are explicit and unresolved contradictions do not justify another live explanation. Hypothesis cardinality is not epistemic rigor.
 
 ```text
 ONE PLAUSIBLE EXPLANATION
