@@ -9,74 +9,81 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 019 is complete with zero retained candidates. Durable middle-layer value is now more clearly defined: counterparties keep paying after they know each other only when the middle layer continuously owns responsibility such as independent acceptance, escrow/dispute protection, inventory availability/replenishment, regulated liability, insurance/compliance, settlement or geographic coverage. The strongest examples are already mature vertical platforms or regulated/high-liability roles. After merge, Fresh Scan 020 should search smaller Xuzhou/Jiangsu private markets where a human coordinator/agent is already paid repeatedly after direct contact because they personally own replacement, acceptance, settlement, availability or responsibility, but the function is not yet maturely productized and can be standardized without Rooter becoming a regulated principal.
+Fresh Scan 019 is merged with zero retained candidates. Fresh Scan 020 is active and searches smaller Xuzhou/Jiangsu markets where known counterparties repeatedly pay a human coordinator because that person continues to own responsibility. The strongest current lead is Pizhou garlic brokerage: current brokers advertise one-stop procurement/storage/sale/processing/packaging responsibility and the industry still has a very large broker population. Do not promote it until public research determines whether that human responsibility remains post-incumbent after current garlic trading platforms, electronic settlement/QC, grading standards and direct repeat buyer-broker relationships are considered.
 
 ## Current Phase
-`SCAN_019_NEGATIVE_COMPLETE / RETAINED_ZERO / SCAN_020_NEXT`
+`SCAN_019_MERGED / SCAN_020_PIZHOU_GARLIC_DEEP_CHECK / NOT_P0`
 
 ## Last Verified Main
-`56c38961fd1ee6f5765a447aae465ac549bdb13c` — state-only Scan 019 start checkpoint on main before this branch was populated. Current branch has not yet merged.
+`c52175f19bc6a47b3716d4cd84ef9385d925a3cd` — PR #222 Scan 019 merged after CI #622 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-`field/opportunity-mobilization-scan-019`
+None.
 
 ## Active PR
-Not yet opened at this checkpoint.
+None. PR #222 — `Persist opportunity mobilization scan 019` — merged.
 
 ## CI
-- Last verified business CI: PR #221 Actions #619, success.
-- Current Scan 019 branch CI: pending until PR is opened.
-- No workflow artifact is claimed unless GitHub actually emits one.
+- PR #222 head `0004e72dd33b6217b813a58c3e4530c6f4eeb8cf`
+- Actions run #622, run id `35409309408`
+- workflow `ci`: success
+- merge SHA: `c52175f19bc6a47b3716d4cd84ef9385d925a3cd`
+- run #622 emitted no separate GitHub Actions artifact
 
 ## Latest Artifact / Persisted State
-- Branch artifact: `data/opportunity_mobilization_scan_019_2026-09-19.json`
-- Branch field note: `field/opportunity-mobilization-scan-019.md`
-- Prior merged evidence: `data/opportunity_mobilization_scan_018_2026-09-19.json`
-- Workflow artifact: none currently claimed.
+- `data/opportunity_mobilization_scan_019_2026-09-19.json`
+- `field/opportunity-mobilization-scan-019.md`
+- Issue #143 synced through Scan 019
+- workflow artifact: none for CI #622
 
 ## Completed
 - Prior closed/deprioritized candidates remain unchanged.
-- Scans 009–018 completed with zero retained candidates.
-- Scan 019 inverted the bypass question and studied why known counterparties continue paying a middle layer.
-- Independent product/factory inspection demonstrates recurring payment for neutral acceptance evidence rather than introduction.
-- Trade Assurance demonstrates recurring value from payment custody, order evidence, dispute/refund mechanics and enforcement.
-- VMI/consignment demonstrates recurring value from availability, replenishment, usage evidence and consumption-based settlement.
-- Network-freight platforms demonstrate recurring value from carrier responsibility, qualification, settlement, records and disputes.
-- Flexible-work platforms demonstrate recurring value from payroll, insurance, claims and compliance, but the route is mature/regulatory and already deprioritized.
-- Equipment-rental/insurance platforms demonstrate recurring value from condition evidence, fulfillment, insurance and risk control.
-- Agricultural social-service platforms demonstrate recurring value from authenticated dispatch, execution evidence and acceptance.
-- No smaller Xuzhou/Jiangsu market was bound where the same responsibility function remains informally paid yet unproductized.
-- `RETAINED_CANDIDATES = 0`.
+- Scans 009–019 all completed with zero retained candidates.
+- Scan 019 established `NON_BYPASSABLE VALUE = RECURRING RESPONSIBILITY`.
+- Fresh Scan 020 found a current local analogue worth deep-checking rather than promoting:
+  - Pizhou garlic industry reporting describes roughly ten thousand garlic brokers;
+  - current named broker pages advertise long-running one-stop `代收/代储/代卖/代加工/代包装` services;
+  - current garlic price reporting still separates broker/agency fees and local handling costs from commodity price;
+  - current live markets contain active buy/sell flows and old/repeat buyers.
+- The human broker role therefore appears to carry execution responsibility beyond first introduction.
+- Existing incumbent/counterevidence is also strong:
+  - 51garlic / International Garlic Trade Network already provides price, buy/sell posts, broker directory, warehouse/logistics and direct contact;
+  - other garlic electronic markets/platforms advertise electronic settlement, third-party QC, fund custody, deposits and warehouse/logistics;
+  - national garlic grade standard is already effective and Pizhou actively standardized sorting-machine aperture/pricing/grade behavior in 2026;
+  - no strong post-standardization public evidence of unresolved grade disputes has yet been bound.
 - No founder probe released.
 - External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 - Two prior external probes still have zero qualified responses.
 
 ## Current Findings
-- `INTRODUCTION IS NOT DURABLE VALUE`.
-- `NON_BYPASSABLE VALUE = RECURRING RESPONSIBILITY`.
-- The most defensible control-plane functions are acceptance, liability, replacement, escrow, financing, compliance, aggregation, settlement and geographic coverage.
-- Mature vertical markets tend to absorb these functions into TIC providers, platforms, insurers, distributors, VMI operators or regulated principals.
-- If Rooter must become carrier, insurer, employer, inventory owner or prime contractor to retain margin, the route violates current low-permission/low-capital constraints.
+- Pizhou garlic is stronger than a generic brokerage story because repeated human responsibility is visible.
+- Existing broker = current bridge; therefore a new Rooter layer must prove a residual after the broker, not merely digitize broker discovery.
+- Current likely Rooter residual, if any, would have to be recurring multi-broker availability/replacement, independent acceptance evidence or settlement/dispute history.
+- Direct repeat buyer-broker relationships create high bypass risk.
+- Grading friction cannot be assumed unresolved after 2026 standardization.
 
 ## Blockers
-- No current Xuzhou/Jiangsu small-market analogue is bound where counterparties know each other but still repeatedly pay an informal coordinator for a responsibility function that can be standardized/delegated.
+- No current post-incumbent failure is yet bound showing why a buyer who already has a good Pizhou broker still needs a separate Rooter layer.
+- Current exact broker-fee economics and responsibility on a named recent repeat transaction remain unbound.
+- It is not yet established whether Pizhou-specific electronic trading/settlement/QC already closes the residual.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-After Scan 019 merges, start Fresh Scan 020. Search Xuzhou/Jiangsu private markets for recurring paid human coordinators/agents who remain in the loop after buyer-supplier direct contact because they guarantee replacement, acceptance, settlement, availability or responsibility. Reject one-time brokers. Reject functions already maturely platformized. Reject any route requiring Rooter to become a regulated principal.
+Continue Scan 020 public research only. Determine whether Pizhou-specific current digital/electronic trading infrastructure already owns grading evidence, escrow/settlement, broker replacement and logistics; then bind or reject one post-incumbent residual for a repeat buyer who already knows the broker. If no such residual is observed, close the Rooter route while retaining Pizhou brokers as a strong pattern sensor for paid recurring responsibility.
 
 ## Do Not Repeat
-- Do not promote platform bypass, flying orders or private-domain migration.
-- Do not build a cheaper intermediary where users want to eliminate intermediaries.
-- Do not reopen freight, restaurant, home-service, machining, VMI, flexible labor, generic third-party inspection, generic escrow or earlier closed routes without a new residual.
-- Do not use founder outreach as the discovery sensor.
-- Do not build ontology/scoring/agent architecture.
+- Do not promote garlic merely because brokers are numerous or fees exist.
+- Do not treat broker discovery/directories as the missing edge.
+- Do not assume grading disputes remain unresolved after 2026 standardization.
+- Do not turn Rooter into garlic trader, inventory holder, cold-storage operator, grader or price speculator.
+- Do not release founder outreach until a narrow post-incumbent residual is publicly evidenced.
+- Do not reopen earlier closed generic brokerage/platform routes without new residual evidence.
 
 ## Guardrails
 - Preserve the locked Actor-First / Reachability / Mobilization doctrine.
 - `COMPLEMENTARITY != LATENT CONNECTION`; `UNKNOWN != PASS`.
-- Founder remains routing control plane, not carrier, insurer, employer, inventory owner, prime contractor, payment middleman or delivery labor.
+- Founder remains routing control plane, not commodity trader, cold-storage operator, broker-salesperson or delivery labor.
 - Prefer evidence-bound falsification and the smallest decisive truth.
