@@ -334,6 +334,20 @@ An `INFERRED` causal structure may guide exploratory node search and evidence co
 
 The executable causal model is `src/causal_descent.py`.
 
+## 2C. Causal-lineage persistence truth — LOCKED
+
+`EVIDENCED_STRUCTURE` is not a string-level assertion.
+
+The durable object must retain the complete causal lineage and bind every causal support/contradiction/discriminating reference to the persisted evidence packet.
+
+```text
+CAUSAL RECORD ID != CAUSAL EVIDENCE
+UNBOUND CAUSAL EVIDENCE REF != EVIDENCE
+SUMMARY TEXT != CANONICAL CAUSAL LINEAGE
+```
+
+Projected summary fields must remain consistent with the canonical lineage. This prevents a generated report from changing the apparent cause while reusing an unrelated evidence packet.
+
 ## 3. Data-source truth — LOCKED
 
 Opportunity discovery must not depend on ad-hoc web searching alone.
