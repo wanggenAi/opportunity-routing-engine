@@ -42,11 +42,13 @@ Portfolio:
 
 ## Last Verified Main
 
-Main before this branch: `94086e5392e16b86b23cab4019ea3395fcb8448b`.
+`8957a469df518558498d28caf14e12eb52f227a1` — PR #266 squash-merged.
 
-PR #265 merge SHA: `2d68707a9f8a76a66893fa47af8f6e650b2f3d59`.
+PR #266 head after recovery-contract fix: `a96e62a184ef58db42098a6389afff063346d127`.
 
-PR #265 CI #803 / run `35440717907`: success.
+PR #266 CI #806 / run `35440924553`: success.
+
+PR #265 merge SHA: `2d68707a9f8a76a66893fa47af8f6e650b2f3d59`; CI #803 succeeded.
 
 ## Active Issue
 
@@ -54,19 +56,20 @@ PR #265 CI #803 / run `35440717907`: success.
 
 ## Active Branch
 
-`feature/attraction-scan-002-f1-causal-descent`
+None.
 
 ## Active PR
 
-PR #266 — `Resolve Attraction Scan 002 F1 after permission causal descent`.
+None. PR #266 is merged.
 
 ## CI
 
-- PR #266 CI #805 / run `35440889653`: failed only because this checkpoint omitted the required `## Current Unique Commercial Research Goal` recovery heading.
-- Commercial/research verdict is unchanged.
-- This commit restores the recovery contract; rerun CI before merge.
+- Initial PR #266 CI #805 / run `35440889653` failed only because `TASK_STATE.md` omitted one required recovery-contract heading.
+- Recovery heading was restored without changing the commercial verdict.
+- PR #266 CI #806 / run `35440924553`: success.
+- PR #266 is merged on main.
 
-No production code or doctrine change is intended.
+No production code or doctrine change was made.
 
 ## Latest Artifact / Persisted State
 
