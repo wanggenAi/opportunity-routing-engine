@@ -30,15 +30,20 @@ class StructuralCommercializationTests(unittest.TestCase):
         payload = json.loads((RUN_DIR / "evidence.json").read_text(encoding="utf-8"))
         return payload, tuple(evidence_from_dict(item) for item in payload["evidence"])
 
-    def test_legacy_candidate_requires_structural_friction_requalification(self):
+    def test_candidate_is_requalified_under_structural_friction_gate(self):
         candidate = json.loads((RUN_DIR / "candidate.json").read_text(encoding="utf-8"))
-        errors = validate_candidate_record(candidate)
-        self.assertIn("missing:surface_phenomenon_or_friction", errors)
-        self.assertIn("missing:latent_outcome_hypothesis", errors)
-        self.assertIn("missing:structural_friction_hypothesis", errors)
-        self.assertIn("structural_friction_not_evidenced", errors)
-        self.assertIn("missing:alternative_explanations", errors)
-        self.assertIn("missing:evidence_kind:STRUCTURAL_FRICTION", errors)
+        self.assertEqual(validate_candidate_record(candidate), [])
+        self.assertEqual(
+            candidate["structural_friction_truth_state"],
+            "EVIDENCED_STRUCTURE",
+        )
+        self.assertGreaterEqual(len(candidate["alternative_explanations"]), 2)
+        structural_sources = {
+            item["source_id"]
+            for item in candidate["evidence"]
+            if item.get("kind") == "STRUCTURAL_FRICTION"
+        }
+        self.assertGreaterEqual(len(structural_sources), 2)
         self.assertEqual(candidate["source_mode"], "LATENT_VALUE_DISCOVERY")
         self.assertNotIn("business_promotion", candidate)
         self.assertNotIn("opportunity_score", candidate)
