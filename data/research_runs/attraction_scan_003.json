@@ -1,0 +1,81 @@
+{
+  "schema_version": "attraction-scan.v1",
+  "scan_id": "ATTRACTION_SCAN_003",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-19",
+  "status": "COMPLETE",
+  "inherited_case_inputs": [],
+  "active_commercial_candidate_promotions": [],
+  "retained_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_003-F1",
+      "title": "AI CUSTOM-SERVICE ACCEPTANCE RAIL",
+      "state": "RETAINED_FOR_CAUSAL_DESCENT",
+      "a_side_motion": "EVIDENCED",
+      "b_side_motion": "EVIDENCED",
+      "transaction_control_rights": "RELATIVELY_CONCENTRATED",
+      "structural_friction": "EVIDENCED",
+      "generic_marketplace_gap": "NOT_A_GAP",
+      "generic_ai_evaluation_gap": "NOT_A_GAP",
+      "formal_testing_gap": "NOT_A_GAP",
+      "observed_missing_edge": "TRANSACTION_SIZED_ACCEPTANCE_SPEC_AND_EXECUTABLE_EVIDENCE_PACK_UNPROVEN",
+      "operator_non_labor_test": "UNPROVEN",
+      "self_propulsion": "PLAUSIBLE_UNPROVEN",
+      "barbell_economics": "DECISIVE_UNKNOWN",
+      "commercial_candidate": false,
+      "next_decisive_unknowns": [
+        "existence and size of an economically viable middle ticket band",
+        "minutes-not-hours acceptance-pack generation",
+        "one or two categories with mostly executable low-judgment acceptance",
+        "bilateral willingness to freeze acceptance before work begins",
+        "measurable reduction in rework refund or tail-payment disputes",
+        "compatibility with existing marketplace payment and dispute rails",
+        "incumbent coverage of the exact middle market",
+        "non-founder acquisition route",
+        "measurement versus liability boundary",
+        "human judgment share in evaluation"
+      ]
+    }
+  ],
+  "demoted_directions": [
+    {
+      "direction": "GENERIC_SERVICE_MARKETPLACE",
+      "reason": "matching payment and dispute infrastructure already mature; no generic missing edge"
+    },
+    {
+      "direction": "AI_CUSTOMER_SERVICE_QA",
+      "reason": "standards cloud evaluation and intelligent QA vendors already cover generic testing/quality functions"
+    },
+    {
+      "direction": "RENTAL_USE_RIGHT_ROUTING",
+      "reason": "marketplaces already integrate discovery credit inspection condition reports and standards; residual is asset operations"
+    },
+    {
+      "direction": "SELF_SERVICE_LOCAL_SPACES",
+      "reason": "fast growth but discovery booking access and merchant-ops layers already exist; residual physical operations"
+    },
+    {
+      "direction": "INBOUND_TOURISM_SERVICE_ORCHESTRATION",
+      "reason": "real friction but large OTAs actively aggregate multilingual content payment booking inventory and local operations"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_scan_vertical": false,
+    "broad_reality_inspected": true,
+    "incumbent_auto_kill": false,
+    "incumbent_capabilities_credited": true,
+    "participant_behavior_used": true,
+    "operator_excitement_used_as_demand": false,
+    "fail_closed": true
+  },
+  "next_action": "CAUSAL_DESCENT_ATTRACTION_SCAN_003_F1",
+  "prohibitions": [
+    "NO_AI_DEV_SHOP",
+    "NO_GENERIC_MARKETPLACE",
+    "NO_PRODUCT_BUILD",
+    "NO_PRICING",
+    "NO_RECRUITMENT",
+    "NO_OUTREACH",
+    "NO_COMMERCIAL_PROMOTION"
+  ]
+}
