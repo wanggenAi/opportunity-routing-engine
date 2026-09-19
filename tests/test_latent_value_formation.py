@@ -197,7 +197,10 @@ class LatentValueFormationTests(unittest.TestCase):
             underused_or_misaligned_value="time, experience and purchasing power are not fully converted into valued post-retirement outcomes",
             resource_psychology_disequilibrium="objective time/experience endowments rise while actors seek autonomy, relevance and modern-life connection without a trusted route",
             observed_behavior="learning, travel, interest groups, digital-tool adoption and selective continued work appear as adaptation behaviors",
-            latent_outcome_hypothesis="a bounded way to turn post-retirement time/experience into chosen modern-life or productive outcomes",
+            latent_outcome_hypothesis=(
+                "turn post-retirement time and experience into chosen modern-life "
+                "or productive outcomes without returning to a full-time role"
+            ),
             complementary_nodes=(
                 ComplementaryWorldNode(
                     node_id="YOUNG_DIGITAL_EXECUTION_POOL",
@@ -223,8 +226,14 @@ class LatentValueFormationTests(unittest.TestCase):
             orchestrator_value_capture_hypothesis="fee only if the orchestrator materially reduces search, packaging, trust, coordination and acceptance cost",
             cheapest_decisive_validation="test one narrowly defined outcome with a small segment and real opt-in behavior before claiming demand",
             kill_conditions="no repeated behavior, no participant surplus, no willingness to make a real commitment, or trust/coordination cost consumes the value",
-            surface_phenomenon_or_friction="retirement creates a mismatch between new discretionary time/experience and the limited forms in which those endowments can be used",
-            structural_friction_hypothesis="useful time and experience are poorly packaged into bounded, trusted and acceptance-ready roles that preserve autonomy",
+            surface_phenomenon_or_friction=(
+                "new discretionary time and experience are not consistently converted "
+                "into chosen useful or productive outcomes"
+            ),
+            structural_friction_hypothesis=(
+                "useful time and experience are not packaged into bounded, trusted "
+                "and acceptance-ready roles that preserve autonomy"
+            ),
             structural_friction_truth_state=StructuralFrictionTruthState.EVIDENCED_STRUCTURE,
             alternative_explanations=(
                 "the observed behavior may be leisure preference rather than blocked productive participation",
@@ -294,6 +303,20 @@ class LatentValueFormationTests(unittest.TestCase):
         errors = validate_formation(hypothesis)
         self.assertIn(
             "causal_descent:missing:competing_causal_explanation",
+            errors,
+        )
+        self.assertEqual(
+            formation_state(hypothesis),
+            FormationState.STRUCTURAL_FRICTION_HYPOTHESIS,
+        )
+
+    def test_formation_summary_cannot_drift_from_causal_lineage(self):
+        hypothesis = self._hypothesis(
+            structural_friction_hypothesis="a convenient but different explanation"
+        )
+        errors = validate_formation(hypothesis)
+        self.assertIn(
+            "causal_descent:structural_friction_projection_mismatch",
             errors,
         )
         self.assertEqual(
