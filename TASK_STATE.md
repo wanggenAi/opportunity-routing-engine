@@ -62,31 +62,34 @@ Do not design a marketplace, escrow, inventory product, moving service or outrea
 
 ## Current Phase
 
-REGENERATIVE_FORMATION_SCAN_015_ACTIVE / WIDE_SCAN_COMPLETE / LOCATION_BOUND_SUCCESSION_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO
+REGENERATIVE_FORMATION_SCAN_015_MERGED / MAIN_GREEN / LOCATION_BOUND_SUCCESSION_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO / CAUSAL_DESCENT_NEXT
 
 ## Last Verified Main
 
-6ae3da9b952e6bae73b6218e25c391aeb072fe86 — PR #254 squash-merged. Main CI #772 (run id 35428698369) passed on this exact functional SHA. A later state-only [skip ci] checkpoint advanced live main to 5d5ce20e54cc64cfc5f941a2c18d6005d4e84bef without changing functional truth.
+aebcee2a03564bb3c60a5e308137ce71c670560c — PR #255 squash-merged. Main CI #774 (run id 35428967000) passed on this exact functional SHA. A later state-only [skip ci] checkpoint may advance live main without changing functional truth.
 
 ## Active Issue
 
 #143 — P0: First external value flow — field proof, not more architecture.
 
-Scan 014 was synced in comment id 5740143570.
+Scan 014 was synced in comment id 5740143570. Scan 015 was synced in comment id 5740170649.
 
 No outreach is authorized.
 
 ## Active Branch
 
-feature/regenerative-formation-scan-015-location-bound-succession
+None. feature/regenerative-formation-scan-015-location-bound-succession is merged through PR #255 and is not an active source of truth.
 
 ## Active PR
 
-None yet.
+None. PR #255 — `Retain location-bound lease succession for causal descent` — is merged.
 
 ## CI
 
-No PR CI has run yet on Scan 015.
+- PR #255 head: `ab193cf712a82a679af93126f8e7078eabc34c32`
+- PR CI #773 (run id `35428933790`): success
+- merge SHA: `aebcee2a03564bb3c60a5e308137ce71c670560c`
+- main CI #774 (run id `35428967000`): success
 
 ## Latest Artifact / Persisted State
 
