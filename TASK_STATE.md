@@ -55,13 +55,13 @@ Historical-case policy:
 
 ## Last Verified Main
 
-Main before this branch: `109b12f328ca807cb4655deae738e01495597494`.
+`8c86fedee1048f241e1ecacbf61a71e259927dd1` — PR #264 squash-merged.
 
-PR #263 merge SHA: `36ea9897aab630e236f10460447fcff908276c4d`.
+PR #264 head: `0edde55c4491688e649a292d6ad9ae1eb34c0a89`.
 
-PR #263 CI #799 / run `35440354166`: success.
+PR #264 CI #801 / run `35440531659`: success.
 
-A later state-only `[skip ci]` commit advanced main to the branch base.
+PR #263 merge SHA: `36ea9897aab630e236f10460447fcff908276c4d`; CI #799 succeeded.
 
 ## Active Issue
 
@@ -69,17 +69,17 @@ A later state-only `[skip ci]` commit advanced main to the branch base.
 
 ## Active Branch
 
-`feature/attraction-scan-001-f1-causal-descent`
+None.
 
 ## Active PR
 
-Not opened yet at this checkpoint.
+None. PR #264 is merged.
 
 ## CI
 
-Pending for this causal-descent checkpoint.
-
-No production code or doctrine change is intended; this branch resolves empirical research state.
+- PR #264 / run `35440531659`: success.
+- F1 causal-descent verdict is persisted on main.
+- No production code or doctrine changed.
 
 ## Latest Artifact / Persisted State
 
