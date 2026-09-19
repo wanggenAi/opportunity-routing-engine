@@ -298,6 +298,18 @@ class LatentValueFormationTests(unittest.TestCase):
         self.assertEqual(candidate.source_mode, "LATENT_VALUE_DISCOVERY")
         self.assertEqual(validate_candidate(candidate), [])
 
+    def test_state_machine_exposes_latent_value_formation_stage(self):
+        hypothesis = self._hypothesis(
+            surface_phenomenon_or_friction="",
+            structural_friction_hypothesis="",
+            structural_friction_truth_state=StructuralFrictionTruthState.INFERRED,
+            causal_descent=None,
+        )
+        self.assertEqual(
+            formation_state(hypothesis),
+            FormationState.LATENT_VALUE_FORMATION_HYPOTHESIS,
+        )
+
     def test_surface_friction_without_evidenced_structure_cannot_promote(self):
         hypothesis = self._hypothesis(
             structural_friction_truth_state=StructuralFrictionTruthState.INFERRED,
