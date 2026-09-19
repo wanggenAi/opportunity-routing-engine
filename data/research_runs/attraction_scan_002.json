@@ -1,0 +1,74 @@
+{
+  "schema_version": "attraction-scan.v1",
+  "scan_id": "ATTRACTION_SCAN_002",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-19",
+  "status": "COMPLETE",
+  "inherited_case_inputs": [],
+  "active_commercial_candidate_promotions": [],
+  "retained_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_002-F1",
+      "title": "RESIDENTIAL PRIVATE-CHARGER PERMISSION POOL",
+      "state": "RETAINED_FOR_CAUSAL_DESCENT",
+      "a_side_motion": "EVIDENCED",
+      "b_side_motion": "EVIDENCED",
+      "permission_actor_control": "EVIDENCED",
+      "structural_friction": "EVIDENCED",
+      "technical_platform_gap": "NOT_A_GAP",
+      "observed_missing_edge": "PERMISSION_GOVERNANCE_HYPOTHESIS_UNPROVEN",
+      "operator_non_labor_test": "UNPROVEN",
+      "self_propulsion": "UNPROVEN",
+      "commercial_candidate": false,
+      "next_decisive_unknowns": [
+        "why existing private-charger platforms fail to enter otherwise suitable communities",
+        "whether permission can be concentrated through property groups or parking operators",
+        "retrofit and integration cost across charger gate and parking systems",
+        "legal and economic allocation of electricity service and property revenue",
+        "transaction density after activation",
+        "whether governance can be standardized without community-by-community founder labor"
+      ]
+    }
+  ],
+  "demoted_directions": [
+    {
+      "direction": "HOUSEHOLD_REPAIR_ROUTING",
+      "reason": "real price/trust pain but many current transparent dispatch platforms; residual depends on local diagnosis workmanship and QA"
+    },
+    {
+      "direction": "FLEXIBLE_LABOR_ROUTING",
+      "reason": "mature public/commercial zero-gig matching and outsourcing operations; no new narrow missing edge established"
+    },
+    {
+      "direction": "HOME_AND_COMMUNITY_ELDER_SERVICES",
+      "reason": "real demand but vulnerable-person safety and continuous local delivery dominate; integrated platforms/institutions already expanding"
+    },
+    {
+      "direction": "LOCAL_SPORTS_EXPERIENCE_ROUTING",
+      "reason": "rapid service-consumption growth but mature discovery booking and merchant platforms"
+    },
+    {
+      "direction": "SME_DIGITIZATION_OPC_SUPPORT",
+      "reason": "broad heterogeneous need; remaining work tends toward integration implementation consulting rather than narrow bilateral edge"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_scan_vertical": false,
+    "broad_reality_inspected": true,
+    "incumbent_auto_kill": false,
+    "incumbent_capabilities_credited": true,
+    "software_gap_assumed": false,
+    "participant_behavior_used": true,
+    "operator_excitement_used_as_demand": false,
+    "fail_closed": true
+  },
+  "next_action": "CAUSAL_DESCENT_ATTRACTION_SCAN_002_F1",
+  "prohibitions": [
+    "NO_PRODUCT_BUILD",
+    "NO_PRICING",
+    "NO_RECRUITMENT",
+    "NO_OUTREACH",
+    "NO_HARDWARE_PROCUREMENT",
+    "NO_COMMERCIAL_PROMOTION"
+  ]
+}
