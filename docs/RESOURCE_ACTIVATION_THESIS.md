@@ -4,6 +4,8 @@ Status: `CANONICAL / LOCKED PRINCIPLE`
 
 Constitutional parent: `docs/LATENT_VALUE_DOCTRINE.md`.
 
+Causal-depth constraint: `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`.
+
 ## Purpose
 
 The system does not exist merely to discover a profitable product category, an explicit demand list or a supplier list.
@@ -181,14 +183,17 @@ For every candidate actor/market, ask:
 1. What does this actor have that may be underused, hidden, fragmented or misallocated?
 2. What does this actor repeatedly struggle with, overpay for, delay, improvise or leave unresolved?
 3. What changed in its environment, incentives, psychology, workflow or utilization?
-4. What latent value hypothesis follows from those observations?
-5. Which other actor has a complementary state, resource, deficit, access or flow?
-6. Why are they not already transacting?
-7. Is the blocker information, trust, packaging, geography, time, price, coordination, payer shift or technology?
-8. Can the blocker be reduced without large irreversible capital?
-9. Can a small Hook convert a discovered resource into an optioned resource or a latent deficit into a real commitment?
-10. Does the resulting exchange improve value for participants, not only the orchestrator?
-11. Can the loop regenerate?
+4. Which parts are directly observed surface phenomena rather than explanations?
+5. What product-agnostic state is the actor actually trying to reach or avoid?
+6. What structural-friction hypothesis explains why that state transition is blocked?
+7. What alternative explanations could fit the same behavior, and what evidence distinguishes them?
+8. Only after the structural layer is evidenced: which other actor/node has a complementary state, resource, deficit, access or flow?
+9. What connection-pressure evidence shows reality is already pushing those nodes together?
+10. What inter-node missing edge prevents normal flow?
+11. Can the blocker be reduced without large irreversible capital?
+12. Can a small Hook convert a discovered resource into an optioned resource or a latent deficit into a real commitment?
+13. Does the resulting exchange improve value for participants, not only the orchestrator?
+14. Can the loop regenerate?
 
 ## Orchestrator role
 
