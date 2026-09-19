@@ -336,6 +336,18 @@ Psychology/perception/motive evidence is optional when objective behavior, state
 
 The canonical implementation is `src/causal_descent.py`. Do not bypass it by stuffing a deeper-sounding sentence into a generic `friction` field.
 
+### Causal lineage persistence — LOCKED
+
+A causal record id, root-cause label or prose summary is not evidence. Any formation/candidate that claims `EVIDENCED_STRUCTURE` must carry the inspectable structured causal lineage, and every support/contradiction/discriminating reference in that lineage must bind to evidence in the same durable evidence packet.
+
+```text
+CAUSAL RECORD ID != CAUSAL EVIDENCE
+UNBOUND CAUSAL EVIDENCE REF != EVIDENCE
+DENORMALIZED CAUSAL SUMMARY MUST MATCH CANONICAL CAUSAL LINEAGE
+```
+
+Persisted JSON and generated artifacts must fail closed if the structured lineage is missing, malformed, evidence-unbound or inconsistent with the projected Actor/current-state/surface/outcome/structural-friction summaries.
+
 ## Resource–Psychology Disequilibrium rule
 
 A primary search zone is a mismatch between:
