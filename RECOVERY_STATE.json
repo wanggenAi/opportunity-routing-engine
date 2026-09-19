@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generation": 4,
+  "generation": 5,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "WAITING_CI",
+  "status": "IDLE",
   "task_key": "install-web-session-recovery-v2",
-  "stage": "MERGED_MAIN_CI_PENDING",
+  "stage": "RECOVERY_V2_INSTALLED_AND_VERIFIED",
   "last_observed_main_sha": "892dd22fd3ed0e0d1fd4a1602f8785e9c258fc3a",
-  "work_branch": "chore/web-session-recovery-v2",
-  "work_head_sha": "2e45f572839e3c2349fd610603631d9d0e0dac68",
-  "active_pr": 231,
+  "work_branch": null,
+  "work_head_sha": null,
+  "active_pr": null,
   "ci": {
     "run_id": 35413843116,
-    "status": "QUEUED",
-    "conclusion": null
+    "status": "COMPLETED",
+    "conclusion": "SUCCESS"
   },
   "production_or_artifact": {
     "status": "NOT_APPLICABLE",
@@ -24,9 +24,11 @@
     "locked recovery precedence, checkpoint boundaries, CAS writes, stale detection, and crash-window reconciliation in AGENTS.md",
     "extended tests/test_repository_recovery_contract.py so CI enforces the recovery contract",
     "opened recovery-hardening PR #231",
-    "PR #231 passed head CI #656 and squash-merged as 892dd22fd3ed0e0d1fd4a1602f8785e9c258fc3a"
+    "PR #231 passed head CI #656 and squash-merged as 892dd22fd3ed0e0d1fd4a1602f8785e9c258fc3a",
+    "main CI #657 succeeded for merged recovery protocol",
+    "verified AGENTS.md, docs/WEB_SESSION_RECOVERY.md, and repository recovery contract test on live main"
   ],
-  "next_action": "Consume main CI #657 for merge SHA 892dd22fd3ed0e0d1fd4a1602f8785e9c258fc3a. If green, verify main files and mark DONE/IDLE.",
+  "next_action": "For the next task, read live GitHub first, then this recovery checkpoint, then TASK_STATE.md; reconcile and continue the first unfinished business stage.",
   "do_not_repeat": [
     "do not restart repository analysis from chat history",
     "do not overwrite unrelated active business work",
