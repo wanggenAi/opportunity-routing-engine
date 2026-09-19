@@ -43,5 +43,20 @@ class RepositoryRecoveryContractTests(unittest.TestCase):
         self.assertIn("exactly one", (ROOT / "AGENTS.md").read_text(encoding="utf-8"))
 
 
+    def test_web_session_checkpoint_branch_is_locked(self):
+        agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
+        protocol = (ROOT / "docs" / "WEB_SESSION_RECOVERY.md").read_text(encoding="utf-8")
+        self.assertIn("## Durable web-session checkpoint branch — LOCKED", agents)
+        self.assertIn("state/chatgpt-recovery:RECOVERY_STATE.json", agents)
+        self.assertIn("live GitHub refs/PRs/Actions/artifacts/persisted data > recovery checkpoint", agents)
+        for state in ("FRESH", "STALE", "CONFLICTED"):
+            self.assertIn(state, agents)
+        self.assertIn("## Atomic checkpoint procedure", protocol)
+        self.assertIn("## Mandatory checkpoint boundaries", protocol)
+        self.assertIn("## Resume algorithm", protocol)
+        self.assertIn("## Crash-window rule", protocol)
+        self.assertIn("GitHub Contents API updates use the current blob SHA", protocol)
+
+
 if __name__ == "__main__":
     unittest.main()
