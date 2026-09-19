@@ -10,7 +10,7 @@ from src.research_execution_capture import (
 )
 
 
-MISSION = Path("data/research_missions/china_primary_broad_discovery.json")
+MISSION = Path("data/research_missions/attraction_field_broad_reality.json")
 
 
 class ResearchExecutionCaptureTests(unittest.TestCase):
@@ -21,9 +21,9 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
     def _capture(self, **overrides):
         payload = {
             "evidence_id": "ev-001",
-            "mission_id": "CHINA_PRIMARY_BROAD_DISCOVERY_V1",
+            "mission_id": "ATTRACTION_FIELD_BROAD_REALITY_V1",
             "lane": "CHINA_CORE",
-            "seed_id": "resident-decision-change",
+            "seed_id": "household-life-stage-transition",
             "source_url": "https://www.stats.gov.cn/example",
             "source_family": "official_statistics",
             "origin_geography": "CN",
@@ -41,7 +41,7 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
         evidence = bind_capture_to_plan(plan, capture)
         expected = next(
             item for item in plan["queries"]
-            if item["lane"] == "CHINA_CORE" and item["seed_id"] == "resident-decision-change"
+            if item["lane"] == "CHINA_CORE" and item["seed_id"] == "household-life-stage-transition"
         )
         self.assertEqual(evidence["query_id"], expected["query_id"])
         self.assertEqual(evidence["source_url"], capture.source_url)
@@ -55,7 +55,7 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "exactly one research query task"):
             bind_capture_to_plan(
                 plan,
-                self._capture(lane="GLOBAL_AUXILIARY", seed_id="pet-companionship-change"),
+                self._capture(lane="GLOBAL_AUXILIARY", seed_id="repair-reuse-circular-flow"),
             )
 
     def test_capture_mission_mismatch_fails_closed(self):
@@ -79,7 +79,7 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
         plan = self._plan()
         foreign = self._capture(
             lane="GLOBAL_AUXILIARY",
-            seed_id="resident-decision-change",
+            seed_id="household-life-stage-transition",
             origin_geography="GLOBAL",
             relevance_geography="CN",
             domestic_corroboration_ref="domestic-001",
