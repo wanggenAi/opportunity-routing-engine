@@ -177,7 +177,7 @@ Canonical causal-depth record for one Actor/surface signal.
 It preserves:
 - surface evidence;
 - multiple product-agnostic latent-outcome hypotheses where the surface signal is ambiguous;
-- a selected outcome with an explicit truth state and evidence-bound selection rationale;
+- a selected outcome with an explicit truth state, bound selection-evidence references and a written selection rationale;
 - multiple structural-constraint hypotheses;
 - parent/child depth when deeper layers are claimed;
 - supporting and contradicting evidence;
@@ -185,6 +185,7 @@ It preserves:
 - falsifiers;
 - one or more lead constraints;
 - a causal stop reason plus written stop rationale;
+- for an intervention boundary, an explicit decision-stability assertion that deeper descent would not change the next intervention-relevant decision;
 - an optional single decisive unknown for a bounded probe.
 
 Canonical implementation: `src/causal_descent.py`.
@@ -211,6 +212,8 @@ actor_ids
 surface_observation_refs
 latent_outcome_hypotheses
 selected_outcome_id
+outcome_selection_evidence_refs
+outcome_selection_rationale
 causal_claim
 parent_constraint_id
 causal_depth
@@ -221,6 +224,8 @@ contradicting_evidence
 discriminating_evidence
 falsifiers
 causal_stop_reason
+causal_stop_rationale
+deeper_search_would_change_decision
 ```
 
 `STRUCTURAL_FRICTION_HYPOTHESIS != EVIDENCED_STRUCTURAL_FRICTION`.
