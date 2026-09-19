@@ -452,14 +452,20 @@ def formation_state(hypothesis: LatentValueFormationHypothesis) -> FormationStat
                 and _has_behavior_corroboration(hypothesis)
             )
         )
-        and hypothesis.latent_outcome_hypothesis.strip()
     ):
+        return FormationState.RESOURCE_STATE_MISALIGNMENT_HYPOTHESIS
+
+    if not hypothesis.latent_outcome_hypothesis.strip():
         return FormationState.RESOURCE_STATE_MISALIGNMENT_HYPOTHESIS
 
     if not (
         hypothesis.surface_phenomenon_or_friction.strip()
         and hypothesis.structural_friction_hypothesis.strip()
-        and FormationEvidenceKind.STRUCTURAL_FRICTION in kinds
+    ):
+        return FormationState.LATENT_VALUE_FORMATION_HYPOTHESIS
+
+    if not (
+        FormationEvidenceKind.STRUCTURAL_FRICTION in kinds
         and hypothesis.structural_friction_truth_state
         is StructuralFrictionTruthState.EVIDENCED_STRUCTURE
         and hypothesis.causal_descent is not None
@@ -495,10 +501,7 @@ def formation_state(hypothesis: LatentValueFormationHypothesis) -> FormationStat
         hypothesis.connection_pressure_hypothesis.strip()
         and FormationEvidenceKind.CONNECTION_PRESSURE in kinds
         and hypothesis.observed_missing_edge.strip()
-        and {
-            FormationEvidenceKind.MISSING_EDGE,
-            FormationEvidenceKind.STRANDING_BARRIER,
-        }.intersection(kinds)
+        and FormationEvidenceKind.MISSING_EDGE in kinds
         and hypothesis.latent_connection_hypothesis.strip()
     ):
         return FormationState.COMPLEMENTARITY_HYPOTHESIS
