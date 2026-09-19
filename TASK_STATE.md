@@ -5,19 +5,15 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 ## Current Mission
 The active search remains formation-first and centered on everyday young people × retired/low-age older adults.
 
-The current primary formation direction is:
+The current primary formation direction remains:
 
 `LATENT HUMAN-ASSET LEGIBILITY / ACTIVATION`
 
-Scan 010 has now evidenced a recurring source-side legibility friction:
+Scan 011 materially weakens blanket source-first discovery.
 
-```text
-RETIREMENT / LATER-LIFE TRANSITION
-→ PRIOR INSTITUTIONAL ADDRESS WEAKENS
-→ SOME CAPABILITY BECOMES INVISIBLE / UNNAMED
-→ ACTIVE DISCOVERY / ELICITATION MAKES IT LEGIBLE
-→ ONLY THEN CAN SELECTION / TRANSLATION / MARKET MECHANISMS OPERATE
-```
+Current formation state:
+
+`LEGIBILITY FRICTION REAL / VALUE DENSITY HIGHLY HETEROGENEOUS / BLANKET DISCOVERY WEAKENED`
 
 No commercial candidate has been promoted.
 
@@ -28,189 +24,201 @@ Preserve:
 REALITY > COGNITION > SCHEMA
 ```
 
-and determine whether this hidden-asset pool is dense and valuable enough to sustain discovery economically.
+and determine whether selective activation can preserve a meaningful latent-value field after generic/low-density discovery is removed.
 
-The next truth boundary is no longer "can we find people?"
+Current path:
 
-It is:
+```text
+RETIREMENT / LATER-LIFE STATE CHANGE
+→ CAPABILITY MAY LOSE INSTITUTIONAL ADDRESS
+→ SELECTIVE DISCOVERY / ELICITATION
+→ MAKE RELEVANT ASSET LEGIBLE
+→ REPEATED USE / VALUE
+→ LEARNING / REFERRAL / LOWER FUTURE DISCOVERY COST
+```
 
-> **How much repeated downstream value emerges per unit of discovery effort?**
+A broad map of retired people is not the goal.
 
 ## Current Unique Commercial Research Goal
-Audit **value density and discovery economics**.
+Audit three possible **discovery-cost reducers**:
 
-Search:
-- mapped people → activated people → repeatedly useful people;
-- utilization rate of silver-talent pools;
-- repeated engagements per activated person;
-- ordinary/tacit capabilities that generated real repeated value;
-- discovery labor required per useful asset;
-- whether referrals reduce source-acquisition cost;
-- whether retirement-transition capture is cheaper than later rediscovery;
-- whether source maps accumulate durable local knowledge/trust;
-- whether high-value hits are common enough to finance misses.
+1. `RETIREMENT-TRANSITION CAPTURE`
+   - preserve role/context/skill/interest/willingness at the moment of retirement.
+
+2. `USE-CASE-INFORMED DISCOVERY`
+   - begin from a recurring structural event/need class and search only for relevant latent capability.
+   - this is not job/gig-first discovery; the seed must be a recurring life-world/system event.
+
+3. `SOCIAL REFERRAL DISCOVERY`
+   - use trusted activated participants to reveal other hidden capability.
 
 Decisive question:
 
-> Is the source pool economically dense enough that a repeatable discovery/activation layer can exist outside publicly subsidized community infrastructure?
+> Can selective discovery surface ordinary/tacit older-adult assets at materially lower acquisition cost while producing repeated downstream use?
 
-Do not select a product.
+Kill the broad formation if high-value density remains concentrated only in already-legible professional roles.
+
+Do not choose a product.
 
 ## Current Phase
-`FORMATION_SCAN_010_MERGED / MAIN_GREEN / SOURCE_LEGIBILITY_FRICTION_EVIDENCED / PRIVATE_REPLICABILITY_UNKNOWN / VALUE_DENSITY_AUDIT_NEXT`
+`FORMATION_SCAN_011_ACTIVE / VALUE_DENSITY_HETEROGENEOUS / BLANKET_DISCOVERY_WEAKENED / SELECTIVE_ACTIVATION_AUDIT_NEXT`
 
 ## Last Verified Main
-`6131cb30c034ba465d5a8636031836135b433702` — PR #250 squash-merged. Main CI run #763 (run id `35427537682`) passed on this exact functional SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
+`6131cb30c034ba465d5a8636031836135b433702` — PR #250 squash-merged. Main CI run #763 (run id `35427537682`) passed on this exact functional SHA. Live main later advanced with state-only checkpoint `4498a25b8587345d370bab74178b470d94fcc4dd`.
+
+The current Scan 011 work is on an unmerged feature branch and must pass PR CI before becoming functional main truth.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Scan 008 was synced in comment id `5739966795`. Scan 009 was synced in comment id `5739981405`. Scan 010 was synced in comment id `5740026636`.
+Scan 009 was synced in comment id `5739981405`. Scan 010 was synced in comment id `5740026636`.
 
 No outreach is authorized. Current work remains upstream formation research.
 
 ## Active Branch
-None. `feature/source-legibility-scan-010` is merged and is not an active source of truth.
+`feature/value-density-scan-011`
 
 ## Active PR
-None. PR #250 (`Audit source-side legibility of latent older-adult assets`) is merged.
+None yet.
 
 ## CI
-- PR #250 final head: `253a8071e7769dbafaf89de448848ac1377d0044`
-- PR CI: run #762, run id `35427476037`, success
-- merge SHA: `6131cb30c034ba465d5a8636031836135b433702`
-- main CI: run #763, run id `35427537682`, success
+No CI has run yet on Scan 011.
 
 ## Latest Artifact / Persisted State
 Current:
-- `data/regenerative_formation_scan_010_source_legibility_2026-09-19.json`
-- `field/regenerative-formation-scan-010-source-legibility.md`
+- `data/regenerative_formation_scan_011_value_density_2026-09-19.json`
+- `field/regenerative-formation-scan-011-value-density.md`
 
 Parents:
+- `data/regenerative_formation_scan_010_source_legibility_2026-09-19.json`
+- `field/regenerative-formation-scan-010-source-legibility.md`
 - `data/regenerative_formation_scan_009_vt_b_rejection_audit_2026-09-19.json`
-- `field/regenerative-formation-scan-009-rejection-audit.md`
-- `data/regenerative_formation_scan_008_vt_b_value_form_routing_2026-09-19.json`
 
 ## Completed
-- Rebased the active work on live main after detecting that Scan 009 had already merged through PR #248.
-- Closed redundant PR #249 rather than overwriting newer main truth.
-- Shifted from generic routing/selection toward source-side discovery and legibility.
-- Found repeated current evidence that silver-talent systems rely on:
-  - phone contact;
-  - home visits;
-  - questionnaires;
-  - grid/community workers;
-  - building-by-building screening;
-  - carpet-style mapping;
-  - organization recommendation;
-  - resident recommendation;
-  - personal self-nomination;
-  - targeted invitation.
-- Found that current self-nomination/intake often depends on prior institutional language:
-  - former work unit;
-  - title/position;
-  - predefined service fields;
-  - professional categories.
-- Found current programs that deliberately add interests/hobbies and local hidden "能人" because formal professional categories are insufficient for everyday capability discovery.
-- Preserved a retirement-transition-capture pattern:
-  - one-person-one-file;
-  - immediate post-retirement talent-pool intake;
-  - professional specialty + interest capture.
-- Formed a cautious causal hypothesis:
-  `RETIREMENT LEGIBILITY BREAK` — retirement can remove the institutional address that previously made capability visible even though the capability remains.
-- Found current selectivity:
-  - Longchang mapped/registered 138 people and admitted 53 to its first pool (~38.4%); this is a public-service selection ratio, not a market-value hit rate.
-  - Fengtai discovered 40+ special-capability older residents but initially appointed five core artisans for brand-level development.
-- Found that human-asset maps require continuous refresh:
-  - quarterly mapping;
-  - half-year updates;
-  - annual review;
-  - dynamic entry/exit.
-- Found strong local-access dependence:
-  - current discovery repeatedly uses community/grid/social infrastructure;
-  - one adjacent mutual-aid model uses 200+ grid workers for carpet-style mapping.
-- Preserved social referral channels:
-  - organization recommendation;
-  - resident nomination;
-  - self-nomination;
-  - industry recommendation.
-- Did NOT infer a self-replenishing success-generated source loop.
-- Preserved major existing-infrastructure counterevidence:
-  - Hunan reports 131 silver-talent pools / 23,000 people;
-  - Xinghua reports 2,819 retired cadres in a silver-talent pool.
-- Therefore talent databases themselves are not whitespace.
-- Refined the surviving formation to:
-  `LATENT HUMAN-ASSET LEGIBILITY / ACTIVATION`.
+- Closed duplicate PR #249 after live main showed Scan 009 had already merged through PR #248.
+- Completed and merged Scan 010 through PR #250.
+- Started Scan 011 from live main checkpoint after Scan 010.
+- Audited value density rather than adding more source-discovery examples.
+- Found a strong density split.
+
+### VD-1 — role-legible / demand-legible professional capability
+- Chongqing reports 1,019 hired retired high-level/high-skill talents in 2025 with:
+  - 1.1 million patient visits;
+  - 540 teaching classes;
+  - 7,000+ training/consulting service instances;
+  - about RMB200 million direct economic benefit.
+- A rehired clinician individually accumulated 30,000+ patient consultations over 10+ years.
+- Nan'an used 39 retired mediators to handle 572 disputes in 2024 with 92% success.
+- Conclusion:
+  high repeated value density is real when capability and recurring use-case are already legible.
+
+### VD-2 — explicit demand routing
+- Fujian reports 3,098 online service requests and 3,028 matches by Feb 2026, 97.7% success.
+- Conclusion:
+  once demand and professional supply are legible, matching can be operationally tractable.
+
+### VD-3 — large pools / opaque member activation
+- Quanzhou: 3,126 talents and 500+ service events, but no unique-active-member denominator.
+- Zhejiang: 48,324 talents, no comparable active/dormant member rate in the aggregate report.
+- Hunan: 23,000 managed talents, same denominator problem.
+- Conclusion:
+  pool size cannot be used as evidence of callable/repeated value density.
+
+### VD-4 — explicit underutilization signal
+- Liancheng's 2026 rectification explicitly addresses “银发人才作用发挥不明显” despite a 208-person pool.
+- Shaoxing has 5,100+ people in a pool but still needs concentrated mapping/demand interviews to convert supply into callable service projects.
+- Conclusion:
+  database membership does not equal activation.
+
+### VD-5 — ordinary/tacit capability
+- Beijing Silver Artisan:
+  - 42 incubated artisans;
+  - 72 market events;
+  - 800+ classes;
+  - 3,000+ works sold;
+  - aggregate artisan income > RMB250,000;
+  - highest individual increase nearly RMB30,000.
+- Conclusion:
+  everyday capability can produce repeated social/market use, but private monetary capture is more modest and uneven than high-demand professional roles.
+
+### Discovery-economics update
+- Successful public/community systems heavily subsidize:
+  - discovery;
+  - local trust/access;
+  - coordination;
+  - space;
+  - insurance;
+  - continuous operation.
+- Therefore public-output numbers cannot be treated as private discovery economics.
+- Broad supply-first mapping is economically weakened.
+- Value density appears higher when a recurring use-case is already legible; this is a cross-case inference, not a measured universal law.
+- Retirement-transition capture remains a plausible discovery-cost reducer, but no direct cost-savings evidence is yet available.
 - Selected no product and sent no outreach.
 
 ## Current Findings
-- `OLDER PERSON != SELF-DESCRIBING ASSET`.
-- Formal talent systems are good at credentialed, named, institutionally legible capability.
-- Everyday/tacit capability often requires active elicitation and local social knowledge.
-- Retirement may weaken capability legibility by removing employer/role/project context.
-- Human-asset discovery is currently high-touch.
-- Discovery maps decay and require ongoing updates.
-- Social referral channels exist, but success-generated acquisition is not proven.
-- Existing public/community systems already do large-scale silver-talent discovery.
-- The unresolved question is whether they systematically miss economically useful everyday/tacit assets.
-- `SOURCE LEGIBILITY FRICTION = EVIDENCED`.
-- `PRIVATE REPLICABILITY = UNKNOWN`.
-- `ECONOMIC VALUE DENSITY = UNKNOWN`.
+- `POOL SIZE != ACTIVE UTILIZATION`.
+- `MATCH RATE != VALUE DENSITY`.
+- `BENEFICIARY COUNT != ACTIVE TALENT RATE`.
+- `PROFESSIONAL ROLE DENSITY != EVERYDAY TACIT-ASSET DENSITY`.
+- `VOLUNTEER OUTPUT != COMMERCIAL SURPLUS`.
+- `DISCOVERY FRICTION EXISTS != DISCOVERY BUSINESS EXISTS`.
+- Older-adult hidden assets are real, but their economic density is highly heterogeneous.
+- The strongest repeated economic use appears in capabilities that already have clear roles and recurring use cases.
+- Ordinary/tacit assets can become repeatedly useful, but observed monetary capture is weaker/uneven and discovery is support-heavy.
+- A private “map everybody first” model is therefore weakened.
+- Current formation survives only if selective activation can reduce discovery cost while preserving genuinely hidden/tacit assets.
 - Active commercial candidates remain 0.
 
 ## Blockers
 The formation cannot promote until evidence establishes:
 
-1. enough useful-value density among ordinary hidden assets;
-2. meaningful downstream utilization after discovery;
-3. repeated value per activated person;
-4. discovery cost low enough relative to downstream value;
-5. referral/transition-capture mechanisms that reduce source-acquisition cost;
-6. private or portable access that does not assume community authority;
-7. evidence that current talent/community systems systematically miss valuable everyday/tacit assets;
-8. a durable role not eliminated by elder self-service AI.
+1. selective activation materially lowers discovery cost;
+2. ordinary/tacit assets remain discoverable under selective mechanisms;
+3. activated hidden assets receive repeated downstream use;
+4. retirement-transition capture produces later utilization rather than a larger dormant database;
+5. social referrals are generated by successful activation, not only organizational recommendation;
+6. private/portable trust can replace part of community access;
+7. value density is not concentrated solely in already-legible credentialed roles.
 
 `ACTIVE COMMERCIAL CANDIDATES = 0`.
 
 `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 
 ## Next Action
-Run a value-density and discovery-economics audit.
+Run a selective-activation audit.
 
 Prioritize:
-- pool size versus actual utilization;
-- number of services/classes/sales/outcomes per active person;
-- active versus dormant database members;
-- ordinary/tacit asset hit rates;
-- repeat downstream use;
-- source-referral behavior;
-- discovery labor intensity;
-- transition-capture versus late rediscovery.
+- retirement-event capture systems;
+- one-person-one-file transition mechanisms;
+- recurring life-world/use-case categories that can reveal relevant older capability without blanket mapping;
+- participant referrals after successful activation;
+- evidence that discovery cost falls over time;
+- whether hidden/tacit assets, not just credentialed experts, survive these filters;
+- repeated utilization after activation.
 
-Kill the formation if high-value hits are too sparse, discovery remains permanently community-labor intensive, or current systems already capture the economically useful pool.
+Kill `LATENT HUMAN-ASSET LEGIBILITY / ACTIVATION` as a broad private formation if selective mechanisms still require community-scale labor or mainly rediscover already-legible professional talent.
 
-Do not return to finished products or generic market routing.
+Do not return to finished products or generic matching.
 
 No product design, pricing or outreach.
 
 ## Do Not Repeat
-- Do not treat a talent database as whitespace.
-- Do not equate pool size with useful-value density.
-- Do not equate referral channels with a self-replenishing acquisition loop.
-- Do not assume community access can be privately replicated.
-- Do not call every retired person a hidden asset holder.
-- Do not return to generic product-market curation.
+- Do not equate talent-pool size with utilization.
+- Do not infer active-member rates from aggregate event/beneficiary counts.
+- Do not treat explicit professional high-value use as proof of hidden-asset density.
+- Do not treat public subsidy as private economics.
+- Do not revive blanket carpet-style mapping as the default.
 - Do not choose a product.
 - Do not contact actors yet.
 
 ## Guardrails
 - GitHub live state is operational source of truth.
 - `REALITY > COGNITION > SCHEMA`.
-- `OLDER PERSON != SELF-DESCRIBING ASSET`.
-- `FORMAL CREDENTIAL VISIBILITY != EVERYDAY CAPABILITY LEGIBILITY`.
-- `DATABASE PRESENCE != CALLABLE VALUE`.
-- `COMMUNITY ACCESS != PRIVATE REPLICABILITY`.
-- `MAPPING MANY PEOPLE != HIGH VALUE-ASSET DENSITY`.
-- `REFERRAL CHANNEL != SELF-REPLENISHING DISCOVERY LOOP`.
+- `POOL SIZE != ACTIVE UTILIZATION`.
+- `MATCH RATE != VALUE DENSITY`.
+- `BENEFICIARY COUNT != ACTIVE TALENT RATE`.
+- `PROFESSIONAL ROLE DENSITY != EVERYDAY TACIT-ASSET DENSITY`.
+- `VOLUNTEER OUTPUT != COMMERCIAL SURPLUS`.
+- `DISCOVERY FRICTION EXISTS != DISCOVERY BUSINESS EXISTS`.
 - `UNKNOWN != PASS`.
 - Infer broadly; promote conservatively.
