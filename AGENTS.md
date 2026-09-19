@@ -14,13 +14,16 @@ WORLD SENSING
 → STATE / STATE CHANGE
 → PERCEPTION / MOTIVE
 → OBSERVED BEHAVIOR
-→ FRICTION / UNDERUSE / MISALIGNMENT / CONTRADICTION
+→ SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
 → RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
-→ UNMET / UNFORMED OUTCOME HYPOTHESIS
+→ LATENT / UNFORMED OUTCOME HYPOTHESIS
+→ STRUCTURAL FRICTION HYPOTHESIS
+→ CROSS-EVIDENCE + ALTERNATIVE-EXPLANATION SEARCH
+→ EVIDENCED STRUCTURAL FRICTION
 → COMPLEMENTARY WORLD NODES
 → CONNECTION-PRESSURE EVIDENCE
 → PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
-→ OBSERVED MISSING EDGE / STRANDING BARRIER
+→ OBSERVED MISSING EDGE / STRANDING BARRIER BETWEEN NODES
 → LATENT CONNECTION HYPOTHESIS
 → CONTRADICTION SEARCH
 → ONLY THEN: COUNTERFACTUAL EXCHANGE MECHANICS
@@ -32,7 +35,7 @@ WORLD SENSING
 
 The key rule is:
 
-> **Demand does not have to exist first. The conditions from which value may emerge can exist first. But do not invent a connection from complementarity alone. Discover evidence that reality is already exerting pressure toward the connection, then design only the minimum mechanics and let reality confirm or falsify the remaining uncertainty.**
+> **Demand does not have to exist first, and the first visible friction is not necessarily the real opportunity. Treat surface pain as a sensor: infer the actor's latent desired state, test the deeper structural friction that prevents that state transition, then discover evidence that reality is already exerting pressure toward a connection among complementary nodes. Only after those layers are evidence-bound should the system design minimum exchange mechanics and let reality confirm or falsify the remaining uncertainty.**
 
 `NeedSignal`, `ResourceSignal` and `BlockerSignal` are downstream fail-closed evidence projections. They must not shrink the engine into an explicit demand-matching system.
 
@@ -87,21 +90,22 @@ Before ending a long task, leave `TASK_STATE.md` in a handoff-ready state:
 
 Before changing business logic, read these in order:
 1. `docs/LATENT_VALUE_DOCTRINE.md`
-2. `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`
-3. `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
-4. `docs/FORMAL_TRUTH.md`
-5. `docs/RESOURCE_ACTIVATION_THESIS.md`
-6. `docs/DISCOVERY_ENGINE.md`
-7. `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
-8. `docs/RESOURCE_IMBALANCE_ENGINE.md`
-9. `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
-10. `docs/ACTOR_MODEL.md`
-11. `docs/THESIS_TRANSACTION_GAPS.md`
-12. `docs/OPPORTUNITY_SCORECARD.md`
-13. `docs/ARCHITECTURE.md`
-14. current `docs/research/`, `docs/field/` and `docs/launch/` files relevant to the task.
+2. `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`
+3. `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`
+4. `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
+5. `docs/FORMAL_TRUTH.md`
+6. `docs/RESOURCE_ACTIVATION_THESIS.md`
+7. `docs/DISCOVERY_ENGINE.md`
+8. `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
+9. `docs/RESOURCE_IMBALANCE_ENGINE.md`
+10. `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
+11. `docs/ACTOR_MODEL.md`
+12. `docs/THESIS_TRANSACTION_GAPS.md`
+13. `docs/OPPORTUNITY_SCORECARD.md`
+14. `docs/ARCHITECTURE.md`
+15. current `docs/research/`, `docs/field/` and `docs/launch/` files relevant to the task.
 
-`docs/LATENT_VALUE_DOCTRINE.md` is constitutional. `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md` and `docs/LATENT_VALUE_FORMATION_BRIDGE.md` are also locked constitutional discovery principles. If another document, implementation or workflow conflicts with them, the lower-level artifact must change.
+`docs/LATENT_VALUE_DOCTRINE.md` is constitutional. `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`, `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md` and `docs/LATENT_VALUE_FORMATION_BRIDGE.md` are also locked constitutional discovery principles. If another document, implementation or workflow conflicts with them, the lower-level artifact must change.
 
 There is no active `EXP-*` opportunity layer after the 2026-09-10 reset. Do not recreate it unless the architecture is explicitly changed.
 
@@ -152,6 +156,15 @@ If answers 1–4 are weak, the feature is not a core-priority feature even if te
 - `OBJECTIVE RESOURCE EXISTS != COMMERCIAL VALUE EXISTS`.
 - `DEMAND DISCOVERY != LATENT VALUE FORMATION`.
 - Inference != fact.
+- `SURFACE PHENOMENON != STRUCTURAL FRICTION`.
+- `SURFACE FRICTION != OPPORTUNITY`.
+- `STATED NEED != LATENT OUTCOME`.
+- `OBSERVED COST != ROOT CAUSE`.
+- `STRUCTURAL FRICTION HYPOTHESIS != EVIDENCED STRUCTURAL FRICTION`.
+- `STRUCTURAL FRICTION != MISSING EDGE`.
+- `BUYER COST FIRST != CONSTITUTION`.
+- `EXTERNALIZED WORKAROUND FIRST != CONSTITUTION`.
+- `OBSERVED != INFERRED != EVIDENCED_STRUCTURE`.
 - Potential value != proven value.
 - Latent-value formation hypothesis != commercial opportunity.
 - Unformed outcome hypothesis != demand.
@@ -219,13 +232,16 @@ ACTOR / SEGMENT
 → STATE CHANGE
 → PERCEPTION / MOTIVE
 → BEHAVIOR
-→ CONTRADICTION
+→ SURFACE PHENOMENON / SURFACE FRICTION / CONTRADICTION
 → RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
-→ UNMET / UNFORMED OUTCOME HYPOTHESIS
+→ LATENT / UNFORMED OUTCOME HYPOTHESIS
+→ STRUCTURAL FRICTION HYPOTHESIS
+→ CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+→ EVIDENCED STRUCTURAL FRICTION
 → COMPLEMENTARY WORLD-NODE SEARCH
 → CONNECTION-PRESSURE EVIDENCE
 → PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
-→ OBSERVED MISSING EDGE / STRANDING BARRIER
+→ OBSERVED MISSING EDGE / STRANDING BARRIER BETWEEN NODES
 → LATENT CONNECTION HYPOTHESIS
 → MINIMUM COUNTERFACTUAL EXCHANGE MECHANICS
 → CHEAP REALITY CONFIRMATION
@@ -236,6 +252,45 @@ The engine must search for what actors may not know about themselves: hidden cap
 It must also search for what **reality is already trying to connect**: repeated workarounds, informal exchange, failed cross-boundary attempts, substitution, referrals, expensive legacy routes and shared state changes that expose directional pressure.
 
 Psychology signals must be tied to the same actor segment and corroborated with behavior before they can materially raise a formation hypothesis. Money evidence strengthens commercial relevance, but money is not required merely to form a bounded hypothesis worth testing.
+
+## Structural Friction Discovery rule — LOCKED
+
+Surface pain is an observation layer, not the terminal discovery object.
+
+For any meaningful cost, shortage, complaint, delay, workaround, idle resource or stated need, ask:
+
+1. What is directly observed?
+2. What state is the Actor actually trying to reach or avoid?
+3. What product-agnostic latent outcome follows from state, psychology and behavior?
+4. What deeper structural condition prevents that transition?
+5. What alternative explanations could also fit the same surface event?
+6. What additional evidence would distinguish them?
+
+Use three truth states:
+
+```text
+OBSERVED
+→ INFERRED
+→ EVIDENCED_STRUCTURE
+```
+
+Do not promote an inferred causal story as fact. A structural-friction hypothesis becomes `EVIDENCED_STRUCTURE` only when converging behavior, objective state, money/time sacrifice, repeated workaround/failure, independent source classes or comparable evidence survives contradiction search.
+
+Discovery may enter through `BUYER COST FIRST`, `BEHAVIOR FIRST`, `STATE CHANGE FIRST`, `RESOURCE UNDERUSE FIRST`, `RESOURCE–PSYCHOLOGY DISEQUILIBRIUM FIRST`, `PARTIAL FLOW FIRST`, `CURRENT EXTERNALIZED WORKAROUND FIRST` or another evidence-bearing route. These are scan heuristics, not constitutional doctrine.
+
+A bounded human probe is allowed before a missing edge is fully public when broad sensing has already isolated one decisive causal unknown. Mark it `DECISIVE_UNKNOWN / PROBE_ELIGIBLE`; ask about the narrow uncertainty, not for generic pain points or business ideas.
+
+```text
+SURFACE FRICTION
+→ LATENT OUTCOME
+→ STRUCTURAL FRICTION
+→ COMPLEMENTARY WORLD NODES
+→ CONNECTION PRESSURE
+→ MISSING EDGE
+→ LATENT CONNECTION
+```
+
+`STRUCTURAL FRICTION` explains why the Actor cannot reach the desired state under current structures. `MISSING EDGE` explains why identified complementary nodes cannot form normal value flow. Do not collapse them.
 
 ## Resource–Psychology Disequilibrium rule
 
