@@ -227,6 +227,54 @@ A current candidate is a sample, not the identity of the engine.
 An explicit demand is useful evidence, not the definition of opportunity discovery.
 A plausible combination is a hypothesis, not a discovered connection.
 
+## 1A. Regenerative formation object — LOCKED
+
+The preferred upstream discovery object is a **regenerative value field**, not an explicit transaction.
+
+```text
+LARGE / REPLENISHING ACTOR POPULATION A
++ DURABLE ENDOWMENT / STATE DISEQUILIBRIUM A
++ LARGE / REPLENISHING COMPLEMENTARY NODE POPULATION B
++ DURABLE ENDOWMENT / STATE DISEQUILIBRIUM B
++ REPEATED CONNECTION PRESSURE
++ PARTIAL / INFORMAL / EXPENSIVE / FAILED FLOW
++ RECURRING MISSING EDGE
++ RECURRING EVENT SOURCE / DEMAND PUMP
+→ POSSIBLE REGENERATIVE VALUE FIELD
+```
+
+This object remains a hypothesis until the material claims are evidence-bound. It does not create a business, payer, route or transaction by itself.
+
+Explicit jobs, gigs, RFQs, tenders, marketplace tasks, buyer briefs, budgets, provider quotes and price spreads are **downstream transaction observations**. They may validate or falsify a formation after the upstream field independently exists. They must not define the discovery seed.
+
+```text
+EXPLICIT TASK != DISCOVERY SEED
+ONE LIVE TRANSACTION != DEMAND PUMP
+BUYER BUDGET != LATENT VALUE FORMATION
+PROVIDER QUOTE != CONNECTION PRESSURE
+PRICE SPREAD != MISSING EDGE
+RECURRING FOUNDER SEARCH != REGENERATIVE DEMAND
+```
+
+A preferred field should have:
+- a large or replenishing actor/resource population on each relevant side;
+- a state transition or event source that keeps regenerating pressure without founder effort;
+- real partial flows, workarounds, referrals, substitutions or failed attempts showing that reality is already trying to connect the nodes;
+- a missing edge similar enough across events to be potentially standardizable;
+- an orchestration role that can improve through trust, data, coverage and routing history without making the founder the permanent provider.
+
+The commercial hierarchy is:
+
+```text
+Observation
+→ Pattern
+→ Opportunity Archetype
+→ Regenerative Loop
+→ Business System
+```
+
+A one-off transaction may buy learning. It cannot define the core opportunity until regenerative circulation is independently evidenced.
+
 ## 2. Discovery truth — LOCKED
 
 Do not start from the operator's skills, a favored technology, an old launch document, one remembered idea, a supplier catalog or an explicit demand feed.
