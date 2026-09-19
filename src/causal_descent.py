@@ -705,9 +705,13 @@ def validate_causal_descent_for_promotion(
 ) -> list[str]:
     """Fail closed before causal structure may drive candidate promotion.
 
-    Hypothesis generation can be broad. Promotion requires competing explanations,
+    Hypothesis generation can be broad. Promotion requires evidence-bound selection,
     falsifiability, discriminating evidence and an explicit stop rule so the system
     does not mistake a compelling story for a deep causal truth.
+
+    A fixed hypothesis count is not epistemic rigor. Material alternatives must be
+    preserved when reality supports them, but the validator must never force an agent
+    to fabricate a second outcome or cause merely to satisfy schema cardinality.
     """
 
     errors = validate_causal_descent(record)
@@ -718,10 +722,7 @@ def validate_causal_descent_for_promotion(
     ):
         errors.append("causal_descent_not_evidenced")
 
-    outcomes = list(record.outcome_hypotheses)
     selected = _outcomes(record).get(record.selected_outcome_id)
-    if len(outcomes) < 2:
-        errors.append("missing:competing_latent_outcome")
     if (
         selected is not None
         and selected.truth_state is not CausalTruthState.EVIDENCED_STRUCTURE
@@ -729,14 +730,6 @@ def validate_causal_descent_for_promotion(
         errors.append("latent_outcome_not_evidenced")
     if not record.outcome_selection_evidence_refs:
         errors.append("missing:outcome_selection_evidence")
-
-    same_outcome_constraints = [
-        item
-        for item in record.constraint_hypotheses
-        if item.outcome_id == record.selected_outcome_id
-    ]
-    if len(same_outcome_constraints) < 2:
-        errors.append("missing:competing_causal_explanation")
 
     if not record.stop_reason:
         errors.append("missing:causal_stop_reason")
@@ -755,7 +748,11 @@ GOVERNING_INVARIANTS = (
     "LATENT_OUTCOME_HYPOTHESIS_NE_FACT",
     "SELECTED_LATENT_OUTCOME_REQUIRES_EXPLICIT_RATIONALE",
     "SELECTED_LATENT_OUTCOME_REQUIRES_BOUND_EVIDENCE",
-    "COMPETING_LATENT_OUTCOMES_PRECEDE_SELECTION",
+    "MATERIAL_ALTERNATIVES_MUST_BE_PRESERVED_WHEN_REAL",
+    "HYPOTHESIS_CARDINALITY_NE_EPISTEMIC_RIGOR",
+    "DO_NOT_FABRICATE_COMPETING_HYPOTHESES_FOR_SCHEMA",
+    "REALITY_FIRST_COGNITION_SECOND_SCHEMA_THIRD",
+    "STATE_MACHINE_NE_REQUIRED_DISCOVERY_PATH",
     "ONE_PLAUSIBLE_CAUSE_NE_STRUCTURAL_TRUTH",
     "DEEPER_STORY_NE_DEEPER_TRUTH",
     "ROOT_CAUSE_LANGUAGE_NE_SINGLE_CAUSE_ASSUMPTION",
