@@ -4,180 +4,198 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Regenerative Formation Scan 016 completed causal descent on the only formation retained by Scan 015:
+Regenerative Formation Scan 017 resumed white-portfolio sensing after Scan 016 demoted lease-succession assets.
 
-LOCATION-BOUND SUCCESSION ASSET FLOW
+Two attractive structures were demoted:
 
-Result:
+1. EXACT-SPEC RESIDUAL REPAIR MATERIALS
+   - exact batch/model repair value is real;
+   - project-specific replacement tile, find-tile apps, B2B reallocation and surplus-material marketplaces already normalize the identity key;
+   - do not build a generic leftover-material marketplace.
 
-- the same-address effect is real because it can eliminate dismantling/transport cost;
-- outgoing-renter pressure is primarily fast compliant clearance with minimum net loss, not maximizing resale;
-- incoming-renter demand is primarily a suitable move-in-ready dwelling, not predecessor assets as a standalone purchase;
-- housing match precedes predecessor-asset value;
-- landlord/property consent and handover control are structurally unavoidable;
-- current rental listings already express furnished state, free successor items, paid appliance transfers and direct landlord re-signing;
-- inventory/condition is already part of the rental handover boundary;
-- no repeated costly independent missing edge is evidenced.
+2. GENERIC CROSS-BORDER PHYSICAL PROOF
+   - repeated city-specific site/factory verification demand is real;
+   - Confirmis, Golden Relay, white-label China field operators, QC firms and on-demand inspection networks already own/normalize the control plane;
+   - low-skill visual-verification unit economics are weak;
+   - do not build a generic verifier marketplace.
 
-Therefore:
+One new research formation is retained for causal descent only:
 
-LOCATION-BOUND SUCCESSION ASSET FLOW = DEMOTED FROM PRIMARY COMMERCIAL FORMATION.
+SPARSE INSTALLED-BASE SERVICE THRESHOLD GAP
 
-Preserve only as:
-- a routing primitive;
-- a turnover-workflow optimization pattern;
-- a future bounded feature if direct repeated incumbent failure evidence appears.
+Working structure:
+
+EXPORTING INDUSTRIAL-EQUIPMENT OEM
++ SPARSE / GROWING ASEAN INSTALLED BASE
++ PRODUCT KNOWLEDGE / PARTS / REMOTE EXPERT
+↕
+TRAINING + AUTHORIZATION + TRUST + DISPATCH + WARRANTY BOUNDARY
+↕
+LOCAL MULTI-BRAND INDUSTRIAL SERVICE CAPACITY
+→ END CUSTOMER NEEDING FAST COMMISSIONING / REPAIR / MAINTENANCE
+
+Hypothesis:
+
+There may be a persistent middle state where local service is already necessary but an owned local engineer/service center/parts warehouse is still uneconomic.
+
+This is NOT a commercial candidate.
 
 Portfolio:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - ACTIVE TRANSACTION UNITS = 0
 - FORMAL LATENT CONNECTION PROMOTIONS = 0
+- RETAINED RESEARCH FORMATIONS = 1
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
-No product, pricing or outreach is authorized.
+No technician recruitment, OEM outreach, pricing or software build is authorized.
 
 ## Goal
 
-Resume fresh regenerative sensing only after applying the new ATTRIBUTE-COLLAPSE FILTER.
+Run causal descent on the sparse-installed-base threshold before any missing-edge or product claim.
 
 Preserve:
 - REALITY > COGNITION > SCHEMA
 - ROUTING KEY VALUE != SEPARATE COMMERCIAL CONTROL PLANE
 - WORKFLOW ATTRIBUTE != OPEN MISSING EDGE
-- HOUSING MATCH PRECEDES PREDECESSOR-ASSET VALUE
+- EXISTING SOFTWARE != EXISTING FIELD CAPACITY
+- EXISTING FIELD CAPACITY != OEM-AUTHORIZED PORTABLE CAPABILITY
+- RETAINED FORMATION != COMMERCIAL CANDIDATE
 - UNKNOWN != PASS
 
 ## Current Unique Commercial Research Goal
 
-Find a transition boundary where:
-1. value is stranded before an incumbent transaction exists;
-2. no natural controller already owns both sides;
-3. a new routing key changes who can transact rather than merely adding information to an existing listing;
-4. repeated workaround/failure exists before any product design;
-5. normalized orchestration value could survive without founder labor.
+Determine whether a recurring economic boundary exists between:
+
+REMOTE-ONLY / FLY-IN OEM SERVICE
+
+and
+
+FULLY INTERNALIZED LOCAL SERVICE NETWORK.
+
+Required questions:
+1. At what installed-base/service-call density does local service become necessary?
+2. How long does the sparse-middle state persist?
+3. Who actually pays and owns warranty/service responsibility?
+4. Which equipment families allow bounded work by locally trained multi-brand technicians?
+5. How much model-specific training/tooling is required?
+6. Can OEM authorization and liability be standardized?
+7. Does spare-parts lead time dominate the value of local technician response?
+8. Is the distributor already the natural control-plane owner?
+9. Can normalized orchestration margin survive training, travel, QA, rework, liability and coordination?
 
 ## Current Phase
 
-REGENERATIVE_FORMATION_SCAN_016_MERGED / MAIN_GREEN / LOCATION_BOUND_SUCCESSION_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_REGENERATIVE_SENSING_NEXT
+REGENERATIVE_FORMATION_SCAN_017_RESEARCH_PERSISTED / SERVICE_THRESHOLD_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO / PR_PENDING
 
 ## Last Verified Main
 
-Functional main: `b95d6136287752932d1af5b7f6ed15c2ccbad546` — PR #256 squash-merged.
+Live main at branch creation: `1983bb0a21c5c9b1f847addb7358ef7d1613823f` — state-only `[skip ci]` checkpoint after Scan 016.
+
+Last verified functional main: `b95d6136287752932d1af5b7f6ed15c2ccbad546` — PR #256 squash-merged.
 
 Main CI #777 (run id `35433695066`) passed on that exact functional SHA.
-
-A later state-only `[skip ci]` checkpoint may advance live main without changing functional truth.
 
 ## Active Issue
 
 #143 — P0: First external value flow — field proof, not more architecture.
 
-Scan 016 final verdict synced in comment id `5740657433`.
-
 No outreach is authorized.
 
 ## Active Branch
 
-None. `feature/regenerative-formation-scan-016-succession-causal-descent` is merged and is not an active source of truth.
+`feature/regenerative-formation-scan-017-service-threshold-gap`
 
 ## Active PR
 
-None. PR #256 — `Demote lease-succession assets after causal descent` — is merged.
+To be created for Scan 017.
 
 ## CI
 
-- initial PR #256 head: `17e00b4a42fc690c7a49620863a1b3dad5bf241e`
-- PR CI #775 (run id `35433637049`): failed because TASK_STATE recovery-contract tests required the `## Last Verified Main` and `## CI` headings
-- fixed PR head: `d186ec83725f4c71e6c17439b844baab6d579204`
-- PR CI #776 (run id `35433672128`): success
-- merge SHA: `b95d6136287752932d1af5b7f6ed15c2ccbad546`
-- main CI #777 (run id `35433695066`): success
+No Scan 017 PR-head CI yet. Run CI after PR creation and require green before merge.
 
 ## Latest Artifact / Persisted State
 
 Current:
+- data/regenerative_formation_scan_017_service_threshold_gap_2026-09-19.json
+- field/regenerative-formation-scan-017-service-threshold-gap.md
+
+Parent:
 - data/regenerative_formation_scan_016_succession_causal_descent_2026-09-19.json
 - field/regenerative-formation-scan-016-succession-causal-descent.md
 
-Parent:
-- data/regenerative_formation_scan_015_location_bound_succession_2026-09-19.json
-- field/regenerative-formation-scan-015-location-bound-succession.md
-
 ## Completed
 
-### Selected causal outcomes
+### Demoted: exact-spec residual repair materials
 
-Outgoing renter:
-FAST COMPLIANT UNIT CLEARANCE WITH MINIMUM NET LOSS.
+The value asymmetry is real, but exact project/model/batch matching is already being standardized by existing specialty markets and tile-finding channels.
 
-Incoming renter:
-MOVE-IN READINESS AT ACCEPTABLE TOTAL HOUSING COST.
+### Demoted: generic cross-border physical proof
 
-Landlord/property:
-FAST LOW-RISK TURNOVER INTO A RENTABLE/HANDOVER-COMPLIANT STATE.
+Repeated physical evidence demand is real, but verifier/QC control planes already exist and low-skill jobs carry weak unit economics.
 
-### Governing constraints
+### Retained: sparse installed-base service threshold
 
-1. Transport/disassembly economics — evidenced primary.
-2. Housing-match precedence — evidenced primary.
-3. Landlord/property consent and handover control — evidenced primary.
-4. Timing overlap — plausible but not shown to govern repeated failure.
-5. Inventory/condition trust — real but already embedded in house handover.
-6. Fragmented discovery — not proven decisive because rental listings already carry the relevant information.
+Evidence establishes:
+- emerging markets increasingly require long-term O&M/local capability, not equipment-only delivery;
+- large OEMs internalize service networks when scale justifies it;
+- manufacturers actively recruit local service partners;
+- OEMs can legitimately partner with third-party regional field-service networks;
+- multi-brand local technical service is possible in some equipment categories.
 
-### Decision
-
-Exact-address succession has real routing-key value, but the value collapses into an incumbent rental transaction.
-
-ROUTING KEY VALUE != SEPARATE COMMERCIAL CONTROL PLANE.
-
-No independent missing edge was established.
+What remains unknown is whether the sparse-middle state is persistent and economically orchestratable.
 
 ## Current Findings
 
-- Furniture/appliance configuration matters to renters, but primarily as a property attribute.
-- Current Shenzhen listings show native transfer patterns ranging from free successor items to separately priced appliances.
-- Large-furniture transport/removal cost can consume most resale value, making clearance the stronger outgoing objective.
-- Lease-return state, furniture inventory and landlord consent place the property actor directly inside the boundary.
-- Same-address succession can improve an existing turnover workflow without creating a new private market layer.
+- The strongest fresh structure is a threshold problem, not a marketplace problem.
+- Large OEM service networks are counterevidence to a universal missing edge.
+- Third-party service partnerships are evidence of real connection pressure.
+- Service software already coordinates known resources; software is not the missing supply.
+- EOR can hire local engineers; employment infrastructure is not the missing technical capability.
+- A credible future edge would have to bind OEM authority/knowledge/parts to portable local field capability with repeatable SLA and economics.
 - ACTIVE COMMERCIAL CANDIDATES = 0.
 
 ## Blockers
 
-There is no active retained formation from Scan 016.
-
-The next formation may not promote unless it survives the ATTRIBUTE-COLLAPSE FILTER:
-1. not merely an attribute of an incumbent transaction;
-2. no natural controller already owns permission/settlement/handover;
-3. repeated costly workaround/failure is observable;
-4. connection pressure exists before exchange design;
-5. the new routing key changes possible counterparties or value flow;
-6. payer and normalized orchestration economics remain plausible.
+The formation cannot promote until evidence establishes:
+1. a persistent installed-base/service-density middle zone;
+2. actual payer/service-responsibility structure;
+3. portable local capability for at least one equipment family;
+4. bounded training/certification cost;
+5. warranty and liability acceptability;
+6. parts logistics that do not overwhelm field-response value;
+7. a repeated missing edge beyond direct distributor/service-partner contracting;
+8. normalized orchestration economics.
 
 ## Next Action
 
-Run a fresh white-portfolio ordinary-life regenerative scan.
+Run focused causal descent on SPARSE INSTALLED-BASE SERVICE THRESHOLD GAP.
 
-Search preferentially for:
-- transitions that strand capability/assets/access before any normal market listing exists;
-- cross-boundary flows where each side is controlled by a different actor and neither actor owns orchestration;
-- recurring state changes that create complementary nodes but no incumbent handover owner;
-- repeated manual referrals/workarounds that reveal connection pressure;
-- cases where a new routing key changes who can transact, not just listing metadata.
+Search specifically for:
+- small/mid-size Chinese equipment exporters with real overseas installed bases;
+- current ASEAN service-partner recruitment;
+- distributor/service contracts and warranty responsibility;
+- independent ASEAN multi-brand service firms accepting OEM-authorized work;
+- technician certification/training time and tools;
+- warranty exclusions for third-party repair;
+- field-call pricing, travel and response SLA;
+- spare-parts lead time and local stock requirements;
+- failed local-partner attempts and quality inconsistency;
+- service-call frequency by machine family.
 
-Do not reopen lease-succession assets unless new evidence shows repeated costly unowned failure.
+Do not choose a vertical or design a technician marketplace yet.
 
 No product design, pricing or outreach.
 
 ## Do Not Repeat
 
-- Do not call same-address value a missing edge by itself.
-- Do not build a secondhand marketplace.
-- Do not infer predecessor-asset demand from general renter preference for furnished homes.
-- Do not confuse clearance pressure with willingness to pay.
-- Do not treat landlord/property as a peripheral participant.
-- Do not create inspection, escrow, inventory or moving tooling without direct failure evidence.
-- Do not return to lease succession merely because it is intuitively elegant.
+- Do not call all overseas after-sales an opportunity.
+- Do not assume every machine can be serviced by a generic technician.
+- Do not treat field-service SaaS as evidence of available technician supply.
+- Do not ignore distributors that already own service.
+- Do not infer payer willingness from customer downtime alone.
+- Do not use vendor-reported cost figures as independently verified economics.
+- Do not recruit local technicians before authorization/liability and case density are understood.
+- Do not build software.
 
 ## Guardrails
 
@@ -186,5 +204,7 @@ No product design, pricing or outreach.
 - STRUCTURAL FRICTION != MISSING EDGE.
 - ROUTING KEY VALUE != SEPARATE COMMERCIAL CONTROL PLANE.
 - WORKFLOW ATTRIBUTE != OPEN MISSING EDGE.
+- EXISTING SOFTWARE != EXISTING FIELD CAPACITY.
+- EXISTING FIELD CAPACITY != OEM-AUTHORIZED PORTABLE CAPABILITY.
 - UNKNOWN != PASS.
 - Infer broadly; promote conservatively.
