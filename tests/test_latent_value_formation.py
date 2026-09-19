@@ -89,6 +89,10 @@ class LatentValueFormationTests(unittest.TestCase):
                 ),
             ),
             selected_outcome_id="OUTCOME-RETIREMENT-1",
+            outcome_selection_rationale=(
+                "observed choices and sacrifices fit this product-agnostic state "
+                "transition better than the nearby alternative explanations"
+            ),
             constraint_hypotheses=(
                 StructuralConstraintHypothesis(
                     constraint_id="C-ROLE-PACKAGING",
