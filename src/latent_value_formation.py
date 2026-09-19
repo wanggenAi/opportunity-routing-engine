@@ -409,7 +409,7 @@ def _map_evidence_kind(kind: FormationEvidenceKind) -> EvidenceKind:
     if kind is FormationEvidenceKind.ORIGIN_CHANGE:
         return EvidenceKind.ORIGIN_CHANGE
     if kind is FormationEvidenceKind.STRUCTURAL_FRICTION:
-        return EvidenceKind.ORIGIN_STATE
+        return EvidenceKind.STRUCTURAL_FRICTION
     if kind is FormationEvidenceKind.COMPLEMENTARY_NODE:
         return EvidenceKind.COMPLEMENTARY_STATE
     if kind is FormationEvidenceKind.STRANDING_BARRIER:
@@ -480,6 +480,11 @@ def to_latent_value_candidate(
         ),
         cheapest_decisive_validation=hypothesis.cheapest_decisive_validation,
         kill_conditions=hypothesis.kill_conditions,
+        surface_phenomenon_or_friction=hypothesis.surface_phenomenon_or_friction,
+        latent_outcome_hypothesis=hypothesis.latent_outcome_hypothesis,
+        structural_friction_hypothesis=hypothesis.structural_friction_hypothesis,
+        structural_friction_truth_state=hypothesis.structural_friction_truth_state.value,
+        alternative_explanations=hypothesis.alternative_explanations,
         evidence=evidence,
         source_mode="LATENT_VALUE_DISCOVERY",
     )
