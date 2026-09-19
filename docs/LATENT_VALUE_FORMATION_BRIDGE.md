@@ -67,13 +67,17 @@ OBSERVED BEHAVIOR
         ↓
 SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
         ↓
-RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
+RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM
         ↓
-LATENT / UNFORMED OUTCOME HYPOTHESIS
+COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES
         ↓
-STRUCTURAL FRICTION HYPOTHESIS
+RECURSIVE CAUSAL DESCENT
         ↓
-CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+COMPETING STRUCTURAL FRICTION HYPOTHESES
+        ↓
+DISCRIMINATING EVIDENCE / FALSIFIERS / CONTRADICTION SEARCH
+        ↓
+DECISION-USEFUL CAUSAL FRONTIER
         ↓
 EVIDENCED STRUCTURAL FRICTION
         ↓
@@ -83,7 +87,7 @@ CONNECTION-PRESSURE EVIDENCE
         ↓
 PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
         ↓
-OBSERVED MISSING EDGE / STRANDING BARRIER
+OBSERVED MISSING EDGE
         ↓
 LATENT CONNECTION HYPOTHESIS
         ↓
@@ -102,7 +106,7 @@ ROUTING / ACCEPTANCE / SETTLEMENT / LEARNING
 
 The key distinction is:
 
-> **Demand does not have to exist first, and the first visible pain is not assumed to be the true friction. The system must descend from observable behavior into a product-agnostic latent outcome and a corroborated structural-friction hypothesis. Only then should it commit to complementary-node discovery, and it must still discover evidence that reality is already pushing value across the boundary before it spends human validation capital designing or testing that connection.**
+> **Demand does not have to exist first. Neither the first visible pain nor the Actor's stated request is assumed to reveal the governing structure. The system must generate competing product-agnostic outcome hypotheses, descend recursively through competing causal explanations, preserve falsifiers and discriminating evidence, and stop only at the deepest decision-useful falsifiable causal frontier. Psychology may contribute but is not mandatory. Only after structural truth is evidenced may the system formally promote complementary-node search; only after connection pressure and a distinct missing edge are evidenced may it design exchange mechanics.**
 
 The old shorthand `COUNTERFACTUAL EXCHANGE DESIGN` remains a downstream mechanism-design operation. It no longer proves that the connection itself exists.
 
@@ -112,9 +116,11 @@ A surface friction is an evidence-bearing symptom, not the final opportunity obj
 
 ```text
 SURFACE PHENOMENON
-→ LATENT STATE TRANSITION
-→ STRUCTURAL FRICTION HYPOTHESIS
-→ EVIDENCE / CONTRADICTION SEARCH
+→ competing LATENT STATE TRANSITION hypotheses
+→ competing STRUCTURAL FRICTION hypotheses
+→ recursive deeper constraint hypotheses where warranted
+→ discriminating evidence / contradiction search / falsifiers
+→ explicit causal stop reason
 → EVIDENCED STRUCTURAL FRICTION
 ```
 
@@ -128,15 +134,48 @@ INFERRED
 EVIDENCED_STRUCTURE
 ```
 
-The engine may infer a structural cause from state, psychology and behavior, but the inference must remain falsifiable and product-agnostic. It must actively test alternative explanations.
+The engine may infer structural causes from objective state, behavior, psychology where relevant, institutional rules, technical constraints, rights/access, time/space, trust, money/time sacrifice and repeated workarounds. Inference must remain product-agnostic and falsifiable. A single plausible explanation is not enough; competing latent outcomes, competing causal explanations, bound outcome-selection evidence and discriminating evidence are required before promotion.
 
 `STRUCTURAL FRICTION` is upstream of the later inter-node `MISSING EDGE`: the former explains the blocked Actor state transition; the latter explains why complementary nodes cannot transact or coordinate normally.
 
 Current scan orders such as `BUYER COST FIRST` and `CURRENT EXTERNALIZED WORKAROUND FIRST` remain valid sensors, not constitutional definitions.
 
-## 3. Resource–Psychology Disequilibrium is a primary search zone
+## 2B. Decision-useful causal frontier
 
-A primary discovery target is a mismatch between what an actor objectively possesses and what the actor's current psychology, behavior, environment and available routes allow those resources to become.
+The engine is not required to discover one metaphysical root cause.
+
+Real blocked transitions may have multiple causal constraints. Causal descent stops at the deepest layer that is:
+- falsifiable from observable evidence; and
+- decision-relevant to what resources/interfaces/rights/trust/capabilities would have to change.
+
+Valid stop reasons:
+
+```text
+INTERVENTION_RELEVANT_BOUNDARY
+NO_DEEPER_FALSIFIABLE_LAYER
+EVIDENCE_LIMIT_REACHED
+MULTI_CAUSAL_FRONTIER
+```
+
+`EVIDENCE_LIMIT_REACHED` preserves UNKNOWN and cannot promote. `INTERVENTION_RELEVANT_BOUNDARY` requires both an actionable intervention implication and an explicit decision-stability assertion that deeper search would not change the next decision.
+
+An `INFERRED` causal structure may guide exploratory node search and evidence collection. It may not become candidate truth. The executable model is `src/causal_descent.py`.
+
+## 2C. Psychology is optional causal evidence
+
+Psychology is important when motive, fear, autonomy, identity, trust, avoidance or aspiration materially explains behavior.
+
+But objective industrial, technical, institutional or process evidence may establish structural friction without a psychology layer.
+
+```text
+NO PSYCHOLOGY SIGNAL != NO STRUCTURAL FRICTION
+```
+
+If psychology is used, it must be provenance-bound and behavior-corroborated.
+
+## 3. Resource / State / Psychology Disequilibrium is a primary search zone
+
+A primary discovery target is a mismatch between what an actor objectively possesses and what the actor's current state, behavior, psychology when relevant, environment and available routes allow those resources to become.
 
 ```text
 OBJECTIVE ENDOWMENT
@@ -146,7 +185,7 @@ CURRENT STATE
 ACTOR WANTS / AVOIDS / ADAPTS TOWARD A DIFFERENT STATE
 +
 CURRENT ROUTES FAIL TO USE THE ENDOWMENT WELL
-→ RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
+→ RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM
 ```
 
 Illustrative structures include:
@@ -273,18 +312,21 @@ The system should preserve contradictory evidence rather than averaging it away,
 
 Psychology may not fill objective evidence gaps.
 
-Formation-ready reasoning separately requires evidence for:
+Formation-ready reasoning separately requires the canonical evidence dimensions that are actually relevant to the claimed path:
 
 ```text
 OBJECTIVE_ENDOWMENT
 ORIGIN_STATE
-ORIGIN_CHANGE
 UNDERUSE_MISALIGNMENT
-OBSERVED_BEHAVIOR
+STRUCTURAL_FRICTION
 COMPLEMENTARY_NODE
 CONNECTION_PRESSURE
-STRANDING_BARRIER
+MISSING_EDGE
 ```
+
+`ORIGIN_CHANGE` is required when the formation relies on a claimed recent state change. A durable `PERSISTENT_MISMATCH` may instead support discovery when no recent change exists.
+
+`OBSERVED_BEHAVIOR` is an evidence channel, not a universal gate. Objective technical, institutional, process, rights/access or other state evidence may support causal structure without a behavior signal. If psychology is used, however, the psychological claim must still be tied to the same actor segment and behavior-corroborated.
 
 `CONNECTION_PRESSURE` is the explicit bridge between plausible complementarity and a reality-grounded latent connection. It may be evidenced by repeated workarounds, partial/informal flows, failed attempts, substitutions, referrals, shared causal pressure, adjacent/historical analogues or other attributable observations showing that value is already trying to cross the boundary.
 
@@ -410,26 +452,40 @@ A mechanism may be novel even when the underlying relationship pressure is disco
 
 ```text
 OBSERVED_TRANSITION
-→ RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS
+→ RESOURCE_STATE_MISALIGNMENT_HYPOTHESIS
 → LATENT_VALUE_FORMATION_HYPOTHESIS
+→ STRUCTURAL_FRICTION_HYPOTHESIS
+→ STRUCTURAL_FRICTION_EVIDENCED
 → COMPLEMENTARITY_HYPOTHESIS
+→ LATENT_CONNECTION_EVIDENCED
 → VALIDATION_READY
 ```
 
-### `OBSERVED_TRANSITION`
-A state change or psychology signal is visible, but objective resource/state evidence or psychology linkage is incomplete.
+`RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS` remains a compatibility alias only. Psychology is not part of the canonical state name because it is not a universal gate.
 
-### `RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS`
-Objective endowments/state/change and a perception/motive signal coexist, but underuse or behavior linkage is not yet strong enough.
+### `OBSERVED_TRANSITION`
+Some state/endowment signal exists, but the objective resource/state basis is not yet sufficient to form a bounded mismatch hypothesis.
+
+### `RESOURCE_STATE_MISALIGNMENT_HYPOTHESIS`
+Objective endowments/state and underuse or mismatch are visible, but the product-agnostic latent outcome is not yet sufficiently stated. Psychology and observed behavior may contribute when relevant but are not universal prerequisites.
 
 ### `LATENT_VALUE_FORMATION_HYPOTHESIS`
-Underuse/misalignment and observed behavior are evidenced; an unmet/unformed outcome can be stated without claiming a market exists.
+A product-agnostic latent outcome can be stated, but the causal structure blocking that transition has not yet been bounded as a structural-friction hypothesis.
+
+### `STRUCTURAL_FRICTION_HYPOTHESIS`
+Competing causal explanations exist, but the canonical causal lineage has not yet satisfied the evidence, falsifier, discriminating-evidence and stop-rule contract.
+
+### `STRUCTURAL_FRICTION_EVIDENCED`
+The decision-useful causal frontier is evidence-bound and promotable. Complementary world nodes have not yet been sufficiently established.
 
 ### `COMPLEMENTARITY_HYPOTHESIS`
-One or more evidenced world nodes could plausibly change the state, and minimum exchange mechanics may be describable, but **connection-pressure evidence, barrier truth or contradiction resolution is still incomplete**.
+One or more evidenced world nodes could plausibly affect the blocked transition, but complementarity alone is not a connection. Connection pressure and/or the observed inter-node missing edge are still incomplete.
+
+### `LATENT_CONNECTION_EVIDENCED`
+Connection pressure, an observed canonical `MISSING_EDGE`, and the latent-connection hypothesis are evidence-bound, but downstream minimum exchange mechanics or another validation-ready requirement is still incomplete.
 
 ### `VALIDATION_READY`
-All formation evidence dimensions are present, including explicit `CONNECTION_PRESSURE`; psychology is behavior-corroborated; complementary nodes are evidenced; the stranding barrier is observed; and no material unresolved contradiction remains.
+The full upstream causal and connection truth contracts pass, minimum exchange mechanics are stated, any psychology used is behavior-corroborated, complementary-node evidence is bound, and no material unresolved contradiction remains.
 
 It means only:
 
@@ -579,3 +635,5 @@ UNKNOWN != PASS
 ```
 
 > **不是先由我们想象 A 和 B 应该怎样连接，再让人去现实里替这个想法找证据。系统先观察 Actor 客观拥有什么、状态怎样变化、真实行为怎样偏移、哪些资源被阻塞，以及现实是否已经通过绕行、替代、局部交换、重复尝试和共同压力留下了“连接正在形成”的痕迹。只有这些痕迹收敛成 Connection Pressure，才允许设计最小交换机制，并把人的时间、信誉和现场行动用于最后一个关键未知量。不是创造一条漂亮的路，再问现实愿不愿意走；而是先发现现实已经踩出来的小径，再决定是否值得把它变成路。**
+
+Legacy `STRANDING_BARRIER` is accepted only at compatibility boundaries and is normalized to canonical `MISSING_EDGE`; new canonical records must use `MISSING_EDGE`.

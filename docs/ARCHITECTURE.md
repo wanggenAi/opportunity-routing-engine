@@ -10,16 +10,17 @@ Build a reusable engine that discovers and activates unrealized value in the rea
 
 1. observing actors, endowments, constraints, state changes and behavior;
 2. detecting surface phenomena, friction, underuse, misallocation, fragmentation and costly workarounds;
-3. inferring product-agnostic latent outcomes and falsifiable structural-friction hypotheses, then separating `OBSERVED`, `INFERRED` and `EVIDENCED_STRUCTURE`;
-4. forming evidence-linked `LatentValueHypothesis` records;
-5. finding complementary actors whose resources, deficits, access, trust or flows may remove an evidenced structural constraint and combine into new value;
-6. proving canonical Need / Resource / Blocker / payer / payment evidence without semantic invention;
-7. defining a bounded transaction objective;
-8. decomposing the objective into `CapabilityUnit`s;
-9. routing those units to suitable resources/providers;
-10. designing incentives, interfaces, trust, acceptance and replacement;
-11. executing and settling;
-12. learning from real performance and improving future discovery/routing.
+3. generating competing product-agnostic latent-outcome hypotheses, performing recursive causal descent through competing structural constraints, and separating `OBSERVED`, `INFERRED` and `EVIDENCED_STRUCTURE`;
+4. stopping at the deepest decision-useful falsifiable causal frontier rather than assuming one metaphysical root cause;
+5. forming evidence-linked `LatentValueHypothesis` records;
+6. finding complementary actors whose resources, deficits, access, trust or flows may remove an evidenced structural constraint and combine into new value;
+7. proving canonical Need / Resource / Blocker / payer / payment evidence without semantic invention;
+8. defining a bounded transaction objective;
+9. decomposing the objective into `CapabilityUnit`s;
+10. routing those units to suitable resources/providers;
+11. designing incentives, interfaces, trust, acceptance and replacement;
+12. executing and settling;
+13. learning from real performance and improving future discovery/routing.
 
 The architecture is domain-agnostic, provider-agnostic and source-agnostic. The operator is not the default capability provider.
 
@@ -62,11 +63,15 @@ BEHAVIOR
         ↓
 SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
         ↓
-LATENT / UNFORMED OUTCOME HYPOTHESIS
+COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES
         ↓
-STRUCTURAL FRICTION HYPOTHESIS
+RECURSIVE CAUSAL DESCENT
         ↓
-ALTERNATIVE-EXPLANATION / CONTRADICTION SEARCH
+COMPETING STRUCTURAL FRICTION HYPOTHESES
+        ↓
+DISCRIMINATING EVIDENCE / FALSIFIERS / CONTRADICTION SEARCH
+        ↓
+DECISION-USEFUL CAUSAL FRONTIER
         ↓
 EVIDENCED STRUCTURAL FRICTION
         ↓
@@ -74,9 +79,13 @@ LATENT VALUE HYPOTHESIS
         ↓
 COMPLEMENTARY ACTOR SEARCH
         ↓
-CONNECTION PRESSURE + OBSERVED INTER-NODE MISSING EDGE
+CONNECTION PRESSURE
         ↓
-EXCHANGE HYPOTHESIS
+OBSERVED INTER-NODE MISSING EDGE
+        ↓
+LATENT CONNECTION HYPOTHESIS
+        ↓
+ONLY THEN EXCHANGE HYPOTHESIS
         ↓
 NEED / RESOURCE / BLOCKER EVIDENCE PROJECTIONS
         ↓
@@ -162,6 +171,36 @@ Observed recurring cost, delay, shortage, workaround, uncertainty, rejection, co
 
 Surface friction is an evidence-bearing sensor. It is not automatically the root cause, paid demand or an opportunity.
 
+### `CausalDescentRecord`
+Canonical causal-depth record for one Actor/surface signal.
+
+It preserves:
+- surface evidence;
+- multiple product-agnostic latent-outcome hypotheses where the surface signal is ambiguous;
+- a selected outcome with an explicit truth state, bound selection-evidence references and a written selection rationale;
+- multiple structural-constraint hypotheses;
+- parent/child depth when deeper layers are claimed;
+- supporting and contradicting evidence;
+- discriminating evidence;
+- falsifiers;
+- one or more lead constraints;
+- a causal stop reason plus written stop rationale;
+- for an intervention boundary, an explicit decision-stability assertion that deeper descent would not change the next intervention-relevant decision;
+- an optional single decisive unknown for a bounded probe.
+
+Canonical implementation: `src/causal_descent.py`.
+
+A lead causal frontier may be multi-causal.
+
+```text
+ONE PLAUSIBLE CAUSE != STRUCTURAL TRUTH
+DEEPER STORY != DEEPER TRUTH
+```
+
+Psychology is optional evidence inside this causal model, not a universal prerequisite.
+
+The causal record is persisted as structured lineage, not as a foreign-key-shaped claim with no inspectable body. Its evidence references must resolve against the formation/candidate evidence packet. Human-readable causal summary fields are denormalized projections and may not override the structured record.
+
 ### `StructuralFrictionHypothesis`
 A falsifiable causal claim about the underlying structure that prevents an Actor from reaching a product-agnostic latent desired state.
 
@@ -171,12 +210,22 @@ Minimum conceptual fields:
 id
 actor_ids
 surface_observation_refs
-latent_outcome_hypothesis
+latent_outcome_hypotheses
+selected_outcome_id
+outcome_selection_evidence_refs
+outcome_selection_rationale
 causal_claim
+parent_constraint_id
+causal_depth
 truth_state: OBSERVED / INFERRED / EVIDENCED_STRUCTURE
 alternative_explanations
+supporting_evidence
+contradicting_evidence
 discriminating_evidence
 falsifiers
+causal_stop_reason
+causal_stop_rationale
+deeper_search_would_change_decision
 ```
 
 `STRUCTURAL_FRICTION_HYPOTHESIS != EVIDENCED_STRUCTURAL_FRICTION`.
@@ -549,10 +598,13 @@ Discovery lifecycle:
 ```text
 OBSERVATION
 → ACTOR_STATE
-→ CHANGE / FRICTION / UNDERUSE
-→ LATENT_VALUE_HYPOTHESIS
-→ COMPLEMENTARITY_HYPOTHESIS
-→ EXCHANGE_HYPOTHESIS
+→ SURFACE SIGNAL / UNDERUSE / CONTRADICTION
+→ LATENT OUTCOME HYPOTHESIS
+→ STRUCTURAL FRICTION HYPOTHESIS
+→ STRUCTURAL FRICTION EVIDENCED
+→ COMPLEMENTARITY HYPOTHESIS
+→ LATENT CONNECTION EVIDENCED
+→ EXCHANGE HYPOTHESIS
 → EVIDENCE PROJECTION
 → ROUTE_TESTABLE
 ```
@@ -656,6 +708,7 @@ Potential modules only after evidence justifies them:
 - `actor_state`
 - `actor_change`
 - `endowments`
+- `causal_descent`
 - `latent_value_hypotheses`
 - `complementarity_graph`
 - `exchange_hypotheses`

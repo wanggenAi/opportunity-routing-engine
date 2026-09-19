@@ -30,7 +30,7 @@ class LVXZ001AResidualTacitKnowledgeTests(unittest.TestCase):
         self.assertEqual(self.record["claimed_discovery_state"], "COMPLEMENTARITY_HYPOTHESIS")
         self.assertEqual(self.record["known_missing_evidence"], ["STRANDING_BARRIER"])
         errors = validate_candidate_record(self.record)
-        self.assertIn("missing:evidence_kind:STRANDING_BARRIER", errors)
+        self.assertIn("missing:evidence_kind:MISSING_EDGE", errors)
         self.assertNotIn("missing:evidence_kind:ORIGIN_STATE", errors)
         self.assertNotIn("missing:evidence_kind:COMPLEMENTARY_STATE", errors)
 

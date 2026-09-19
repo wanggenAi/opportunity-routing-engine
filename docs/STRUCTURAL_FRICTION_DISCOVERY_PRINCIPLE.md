@@ -70,7 +70,16 @@ SURFACE FRICTION != OPPORTUNITY
 
 The purpose of the visible signal is to trigger **causal descent**.
 
-## 3. Causal descent — infer the actor's real state transition
+A recent change is useful but not mandatory. Some valuable structures are persistent mismatches that have existed for years and only become visible when examined from a different causal level.
+
+```text
+NO RECENT CHANGE != NO STRUCTURAL FRICTION
+PERSISTENT MISMATCH MAY BE THE SIGNAL
+```
+
+The system must not bias discovery only toward fresh events merely because change is easier to observe.
+
+## 3. Causal descent — reconstruct the Actor's hidden state transition
 
 For a meaningful observation, reconstruct:
 
@@ -100,6 +109,136 @@ Do not prematurely translate:
 - “idle equipment” into “needs a rental platform”.
 
 Ask what state transition is actually blocked.
+
+## 3A. The latent outcome is itself a hypothesis
+
+The Actor's spoken request is not automatically the Actor's governing objective.
+
+The engine must separate:
+
+```text
+STATED REQUEST
+!=
+REVEALED DIRECTION OF BEHAVIOR
+!=
+LATENT / UNFORMED OUTCOME HYPOTHESIS
+!=
+EVIDENCED LATENT OUTCOME
+```
+
+A student saying "I need a part-time job" may be describing one available route, while repeated behavior may reveal a deeper desired transition such as:
+
+> convert bounded time/capability into income, experience and useful participation without accepting the constraints of a full-time employment package.
+
+Likewise, a manufacturer saying "we need more capacity" may be naming a surface solution rather than the desired state:
+
+> absorb temporary order peaks with trusted elastic production while preserving quality, IP, certification, acceptance and delivery certainty without permanent fixed-capacity expansion.
+
+These formulations are **not automatically true because they sound deeper**. They must be treated as competing outcome hypotheses and tested against observed choice, sacrifice, substitution, workaround, persistence and contradiction.
+
+The selected latent outcome must carry an explicit rationale tied to durable evidence. A deeper-sounding objective is not accepted merely because it is more abstract. Promotion requires competing latent-outcome hypotheses plus explicit selection-evidence references that bind to the same persisted evidence packet.
+
+```text
+COMPETING LATENT OUTCOMES
++
+SELECTED LATENT OUTCOME
++
+BOUND SELECTION EVIDENCE
++
+SELECTION RATIONALE
+```
+
+When the same surface behavior admits materially different outcome interpretations, preserve those alternatives instead of silently choosing the most commercially convenient one.
+
+## 3B. Causal descent is recursive, not one jump
+
+Do not perform one rhetorical "why" and call the result structural.
+
+A causal descent may contain multiple layers:
+
+```text
+SURFACE:
+cannot find suitable work
+↓
+PROXIMATE:
+available openings do not fit time / location / schedule
+↓
+DEEPER:
+economically useful capability is packaged mainly as full jobs/projects
+↓
+STRUCTURAL:
+small capability units are not legible, trusted, accepted and settled cheaply
+```
+
+Or:
+
+```text
+SURFACE:
+orders are lost during capacity peaks
+↓
+PROXIMATE:
+internal production capacity is insufficient
+↓
+DEEPER:
+outside capacity exists but switching is risky
+↓
+STRUCTURAL:
+production capability is not callable as a bounded, trusted, acceptance-compatible elastic unit
+```
+
+The engine must preserve the chain rather than overwrite the surface event with the latest interpretation.
+
+## 3C. Do not assume one metaphysical root cause
+
+Real systems are often multi-causal.
+
+The objective is **not** to discover a single philosophical "root cause". The objective is to identify the deepest **decision-useful, falsifiable causal frontier** supported by evidence.
+
+For every serious structural-friction hypothesis, maintain at least:
+- the leading explanation;
+- at least one plausible competing explanation;
+- evidence supporting each;
+- evidence contradicting each;
+- what observation would discriminate between them;
+- explicit falsifiers.
+
+```text
+ONE PLAUSIBLE EXPLANATION
+!=
+STRUCTURAL TRUTH
+```
+
+Multiple constraints may remain simultaneously true. When removing any one of them would still leave the state transition blocked, the causal frontier is multi-causal and must be represented that way.
+
+Observed behavior is highly useful but is not a universal prerequisite. Some structural constraints are evidenced directly through technical, institutional, rights/access, process, contractual, spatial/temporal or other objective state evidence.
+
+```text
+NO OBSERVED-BEHAVIOR SIGNAL != NO STRUCTURAL FRICTION
+```
+
+If psychology is used, behavior corroboration is still required for the psychological claim itself.
+
+## 3D. Stop rule — do not descend forever
+
+"Go deeper" can itself become storytelling. The engine therefore stops causal descent when it reaches the deepest layer that is both:
+
+1. falsifiable from observable evidence; and
+2. decision-relevant — a deeper explanation would not materially change which real-world resources, interfaces, rights, trust mechanisms or capabilities must be discovered or activated.
+
+A stop reason must include a written rationale explaining why further descent would no longer change the next decision, is not falsifiable with available evidence, has reached an evidence boundary, or is genuinely multi-causal. The enum label alone is not sufficient.
+
+For `INTERVENTION_RELEVANT_BOUNDARY`, the executable record must additionally assert that deeper search would **not** change the next decision. If deeper search could still change the relevant resource, interface, rights, trust, capability, coordination or acceptance structure, the frontier is not stable enough to promote.
+
+Valid stop reasons include:
+
+```text
+INTERVENTION_RELEVANT_BOUNDARY
+NO_DEEPER_FALSIFIABLE_LAYER
+EVIDENCE_LIMIT_REACHED
+MULTI_CAUSAL_FRONTIER
+```
+
+`EVIDENCE_LIMIT_REACHED` does not mean PASS. It means the deeper causal truth remains unknown.
 
 ## 4. Structural friction is deeper than a named pain point
 
@@ -185,6 +324,35 @@ INFERRED != EVIDENCED_STRUCTURE
 EVIDENCED_STRUCTURE != COMMERCIAL OPPORTUNITY
 ```
 
+## 5A. Psychology is one causal sensor, not a universal gate
+
+The user's intended system can infer from psychology/behavior **or** from objective real-world structure.
+
+Valid causal evidence may come from:
+- observed behavior and revealed preference;
+- money/time sacrifice;
+- repeated workaround or substitution;
+- state transitions;
+- objective underuse/misalignment;
+- institutional rules and rights;
+- repeated process failure;
+- technical constraints;
+- spatial/temporal mismatch;
+- trust/acceptance requirements;
+- psychology/perception/motive where relevant.
+
+Psychology can be highly valuable when the blocked transition depends on autonomy, fear, status, identity, convenience, trust, avoidance or aspiration.
+
+But:
+
+```text
+NO PSYCHOLOGY SIGNAL
+!=
+NO STRUCTURAL FRICTION
+```
+
+Enterprise, technical and institutional structures may be evidenced without a psychology layer. If psychology is used, it must remain evidence-bound and behavior-corroborated.
+
 ## 6. Multiple valid discovery entry points
 
 No single scan heuristic may become constitutional.
@@ -212,6 +380,29 @@ EXTERNALIZED WORKAROUND FIRST != LATENT VALUE DOCTRINE
 ```
 
 A named buyer cost is strong evidence, but an opportunity may begin before a buyer has articulated or priced the outcome.
+
+## 6A. Exploration may branch before proof; promotion may not
+
+The engine must remain capable of discovering combinations nobody has named yet.
+
+Therefore an `INFERRED` structural-friction hypothesis may be used to **explore** possible complementary world nodes, analogues and discriminating evidence.
+
+But inferred structure cannot:
+- promote a candidate;
+- become a claimed fact;
+- justify a broad founder outreach campaign;
+- justify building the exchange mechanism;
+- bypass contradiction search.
+
+```text
+INFERRED STRUCTURE
+→ MAY GUIDE EXPLORATION
+
+EVIDENCED STRUCTURE
+→ MAY DRIVE PROMOTION
+```
+
+This distinction preserves generative discovery without allowing elegant stories to masquerade as reality.
 
 ## 7. Structural friction precedes complementary-node commitment
 
@@ -293,6 +484,30 @@ Examples:
 
 A probe result may falsify the hypothesis. It does not automatically promote a business.
 
+## 9A. Causal lineage must be persisted, not merely named
+
+A candidate cannot become structurally evidenced by carrying a label such as `causal_descent_record_id` or a polished root-cause sentence.
+
+Promotion requires the full causal lineage to remain inspectable:
+- surface evidence refs;
+- competing latent-outcome hypotheses;
+- competing structural constraints and any parent/child depth;
+- supporting and contradicting refs;
+- discriminating evidence;
+- falsifiers;
+- lead constraint(s);
+- explicit stop reason.
+
+Every causal evidence reference must bind to evidence actually present in the candidate/formation evidence packet.
+
+```text
+CAUSAL RECORD ID != CAUSAL EVIDENCE
+UNBOUND CAUSAL EVIDENCE REF != EVIDENCE
+DENORMALIZED SUMMARY != CANONICAL CAUSAL LINEAGE
+```
+
+If a human-readable summary conflicts with the structured causal record, the candidate fails closed. Do not silently rewrite the lineage to fit the summary.
+
 ## 10. Anti-story discipline
 
 Deep inference increases discovery power and also increases hallucination risk.
@@ -310,12 +525,11 @@ For every structural-friction hypothesis, require:
 Do not reward a hypothesis merely because it is intellectually elegant or novel.
 
 ```text
-DEEPER STORY != DEEPER TRUTH
 NOVEL INTERPRETATION != LATENT VALUE
 CAUSAL PLAUSIBILITY != CAUSAL EVIDENCE
 ```
 
-The engine should **infer boldly, test causally, and promote conservatively**.
+The engine should **infer broadly, descend causally, compare explanations, test counterfactually, and promote conservatively**.
 
 ## 11. Promotion discipline
 
@@ -344,7 +558,11 @@ A commercial candidate still requires the later layers:
 SURFACE PHENOMENON != STRUCTURAL FRICTION
 SURFACE FRICTION != OPPORTUNITY
 STATED NEED != LATENT OUTCOME
+LATENT OUTCOME HYPOTHESIS != EVIDENCED LATENT OUTCOME
 OBSERVED COST != ROOT CAUSE
+ONE PLAUSIBLE EXPLANATION != STRUCTURAL TRUTH
+DEEPER STORY != DEEPER TRUTH
+PSYCHOLOGY EVIDENCE != UNIVERSAL FORMATION GATE
 STRUCTURAL FRICTION HYPOTHESIS != EVIDENCED STRUCTURAL FRICTION
 STRUCTURAL FRICTION != MISSING EDGE
 BUYER COST FIRST != CONSTITUTION
@@ -360,4 +578,4 @@ UNKNOWN != PASS
 
 ## 13. Governing sentence
 
-> **不要把“看见了一个痛点”误认为“发现了机会”。表层摩擦只是入口。系统要继续向下追问：这个 Actor 真正想完成什么状态转换，现实中的什么结构使它无法完成；再去寻找世界中哪些尚未被组织、调用或重新包装的资源能够解除这个结构性约束。表层问题可以人人都看见，真正的价值在于从行为、心理、客观状态和反事实证据中推导并验证那个尚未被命名的结构性摩擦；随后再证明现实是否正在把互补节点推向同一条价值通道。**
+> **不要把“看见了一个痛点”误认为“发现了机会”。表层摩擦只是传感器，Actor 自己说出的需求也只是一个解释入口。系统要从客观状态、真实行为、资源禀赋、心理动机（如适用）、替代/绕行、付出的时间和金钱继续向下做因果下降：先提出多个“Actor 真正想完成什么状态转换”的候选解释，再提出多个“什么结构阻止这个转换”的竞争性因果假设，用反证、区分性证据和可证伪条件淘汰漂亮故事，直到抵达最深的、对决策有用且仍可验证的因果前沿。这个前沿可以是多因的，也不等于后续节点之间的 Missing Edge。只有结构性摩擦被证据支持以后，才允许把它用于正式的互补节点、连接压力和潜在连接晋级；推导阶段可以大胆，事实晋级必须保守。**

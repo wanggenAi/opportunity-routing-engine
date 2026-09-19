@@ -13,10 +13,12 @@ WORLD SENSING
 → PERCEPTION / MOTIVE
 → OBSERVED BEHAVIOR
 → SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
-→ RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
-→ LATENT / UNFORMED OUTCOME HYPOTHESIS
-→ STRUCTURAL FRICTION HYPOTHESIS
-→ CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+→ RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM
+→ COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES
+→ RECURSIVE CAUSAL DESCENT
+→ COMPETING STRUCTURAL FRICTION HYPOTHESES
+→ DISCRIMINATING EVIDENCE / FALSIFIERS / CONTRADICTION SEARCH
+→ DECISION-USEFUL CAUSAL FRONTIER
 → EVIDENCED STRUCTURAL FRICTION
 → COMPLEMENTARY WORLD NODES
 → CONNECTION-PRESSURE EVIDENCE
@@ -34,7 +36,7 @@ WORLD SENSING
 
 The key distinction is:
 
-> **Demand does not have to exist first, and the first visible pain is not assumed to be the real opportunity. Surface friction is a sensor. The engine descends into the actor's product-agnostic latent outcome and deeper structural friction, corroborates that structure, and only then searches complementary nodes and evidence that reality is already pushing value across a boundary.**
+> **Demand does not have to exist first, and neither the first visible pain nor the Actor's stated request is assumed to reveal the real opportunity. Surface friction is a sensor. The engine generates competing latent-outcome and structural-cause hypotheses, descends recursively until the deepest decision-useful falsifiable causal frontier, and only then promotes complementary-node and connection discovery. Psychology may help explain the transition but is not a universal gate.**
 
 ```text
 DEMAND DISCOVERY != LATENT VALUE FORMATION

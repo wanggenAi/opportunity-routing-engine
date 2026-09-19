@@ -23,7 +23,7 @@ class LVXZ003AConditionMonitoringTests(unittest.TestCase):
 
     def test_research_capability_does_not_satisfy_stranding_barrier(self):
         errors = validate_candidate_record(self.record)
-        self.assertIn("missing:evidence_kind:STRANDING_BARRIER", errors)
+        self.assertIn("missing:evidence_kind:MISSING_EDGE", errors)
         self.assertNotIn("missing:evidence_kind:ORIGIN_STATE", errors)
         self.assertNotIn("missing:evidence_kind:COMPLEMENTARY_STATE", errors)
 
