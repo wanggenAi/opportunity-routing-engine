@@ -1,0 +1,129 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_018_SERVICE_THRESHOLD_VERDICT",
+  "date": "2026-09-19",
+  "title": "Causal verdict on sparse installed-base service threshold",
+  "parent_scan": "REGENERATIVE_FORMATION_SCAN_017_SERVICE_THRESHOLD_GAP",
+  "objective": "Determine whether the real service-density middle zone creates an independent missing edge or is already absorbed by authorized partner and white-label field-service institutions.",
+  "truth_rules": [
+    "REALITY > COGNITION > SCHEMA",
+    "A REAL ECONOMIC THRESHOLD != AN OPEN CONTROL PLANE",
+    "FRAGMENTED COVERAGE != STRUCTURAL MISSING EDGE",
+    "LOCAL FIELD CAPACITY != OEM AUTHORIZATION",
+    "FAST LOCAL HANDS WITHOUT PARTS/DOCUMENTATION/AUTHORIZATION != FAST RESTORATION",
+    "UNKNOWN != PASS"
+  ],
+  "threshold_verdict": {
+    "state": "SUPPORTED_AS_MARKET_STRUCTURE",
+    "finding": "Service density plausibly changes the efficient organizational form from remote/fly-in support to partner networks and eventually owned local service.",
+    "evidence_role": "mechanism, not commercial promotion"
+  },
+  "institutional_form": {
+    "state": "EVIDENCED",
+    "governing_form": "AUTHORIZED_DISTRIBUTOR_SERVICE_PARTNER_OR_WHITE_LABEL_FIELD_NETWORK",
+    "evidence": [
+      {
+        "fact": "Noch markets a white-label OEM field network including OEM-procedure training, warranty service, commissioning, corrective/preventive maintenance, documentation and escalation.",
+        "source": "https://nochpower.com/partners"
+      },
+      {
+        "fact": "Quest provides white-label field execution for OEMs with installation, maintenance, upgrades, training and outcome-based SLAs.",
+        "source": "https://www.questinc.com/oemservices/field-services"
+      },
+      {
+        "fact": "Prohoc describes global OEM field-service mobilization for assembly, installation, commissioning, maintenance, repair and upgrades.",
+        "source": "https://prohoc.fi/the-invisible-backbone-of-global-industrial-service/"
+      }
+    ]
+  },
+  "china_asean_residual_test": {
+    "state": "WEAKENED_NOT_OPEN_GENERIC_EDGE",
+    "evidence": [
+      {
+        "fact": "ASEAN Machine operates a China–Thailand industrial bridge with China-side and Thailand-side teams, factory audits, FAT, Thai SAT/commissioning, operator training, spare-parts kit, parts SLA and after-sales pipeline.",
+        "sources": [
+          "https://www.aseanmachine.com/en",
+          "https://www.aseanmachine.com/en/china-sourcing",
+          "https://www.aseanmachine.com/en/cases"
+        ]
+      },
+      {
+        "fact": "A current Thai recruitment page describes the China Machinery & Electronic Products (Thailand) Service Center as an online platform + offline showroom + local service team with Thai–Chinese pre/after-sales support.",
+        "source": "https://www.jobthai.com/th/company/job/1915207"
+      }
+    ],
+    "interpretation": "Bilingual contracting/local presence/training/commissioning/parts coordination can already be integrated by existing intermediaries."
+  },
+  "competing_hypotheses": [
+    {
+      "id": "H1_LOCAL_TECH_DISCOVERY",
+      "state": "REJECTED_AS_PRIMARY",
+      "finding": "Local multi-brand service firms and field networks already exist."
+    },
+    {
+      "id": "H2_TRAINING_CERTIFICATION",
+      "state": "INCUMBENT_INSTITUTIONAL_FUNCTION",
+      "finding": "Training and certification are standard elements of authorized partner/white-label programs."
+    },
+    {
+      "id": "H3_LANGUAGE_CONTRACT_PAYMENT",
+      "state": "NOT_PROVEN_DECISIVE",
+      "finding": "Existing China–Thailand bridges already integrate bilingual/local commercial and service functions."
+    },
+    {
+      "id": "H4_SERVICE_DENSITY_THRESHOLD",
+      "state": "SUPPORTED",
+      "finding": "A real middle zone exists conceptually and is supported by observed staged service-network organization."
+    },
+    {
+      "id": "H5_PARTNER_NETWORK_GOVERNING_FORM",
+      "state": "SUPPORTED_PRIMARY",
+      "finding": "Distributor/authorized-service/white-label network is the normal economic response to sparse local installed base."
+    }
+  ],
+  "causal_frontier": {
+    "stop_reason": "INTERVENTION_RELEVANT_BOUNDARY",
+    "governing_structure": [
+      "foreign equipment sale creates installed-base service obligations",
+      "local-response pressure rises with installed base",
+      "owned service remains uneconomic at sparse density",
+      "authorized distributor/service partner/white-label field network absorbs the middle zone",
+      "OEM retains authority over model knowledge, warranty, parts and documentation"
+    ]
+  },
+  "missing_edge": {
+    "state": "NOT_EVIDENCED",
+    "reason": "The retained formation maps to existing institutional service-partner architecture. Geographic fragmentation alone does not establish an independent unowned control plane."
+  },
+  "verdict": {
+    "formation": "SPARSE INSTALLED-BASE SERVICE THRESHOLD GAP",
+    "state": "DEMOTED_FROM_PRIMARY_COMMERCIAL_FORMATION",
+    "preserve_as": [
+      "service-density market-entry diagnostic",
+      "authorized-service-partner structural pattern",
+      "future vertical/geography-specific watch condition when direct uncovered installed-base evidence appears"
+    ]
+  },
+  "portfolio_after_scan": {
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "formal_latent_connection_promotions": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "meta_learning": [
+    "A persistent economic threshold can be real without an open control plane when partner networks are the normal institutional form.",
+    "Fragmented coverage does not equal a structural missing edge.",
+    "Fast local hands without parts, documentation and authorization do not guarantee fast restoration."
+  ],
+  "next_action": {
+    "mode": "FRESH_REGENERATIVE_SENSING",
+    "bias": "PRE_MARKET_STRANDED_VALUE",
+    "requirements": [
+      "prefer resources/capabilities stranded before a normal transaction already exists",
+      "reject structures naturally owned by distributor/platform/employer/property/service-network controllers",
+      "require repeated workaround or failed connection pressure",
+      "require routing to change feasible counterparties rather than merely select a partner",
+      "require recurring orchestration value beyond introduction",
+      "do not reopen generic ASEAN after-sales without a specific uncovered vertical-geography-installed-base cluster"
+    ]
+  }
+}
