@@ -4,33 +4,34 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Resolve causal descent on:
+Advance:
 
-`ATTRACTION_SCAN_003-F1 — AI CUSTOM-SERVICE ACCEPTANCE RAIL`.
+`ATTRACTION_SCAN_003-F1 — AI CUSTOM-SERVICE ACCEPTANCE RAIL`
 
-Verdict:
+through the cheapest reality-confirmation stage without building a product.
 
-`SURVIVES_CAUSAL_DESCENT / READY_FOR_CHEAP_REALITY_CONFIRMATION / NOT_A_COMMERCIAL_CANDIDATE`.
+Reality Confirmation 001 result:
 
-The formation is narrowed to lightweight executable acceptance evidence for middle-value AI workflow / tool-using Agent delivery.
+`PUBLIC_ARTIFACT_CONFIRMATION_PASSED / BILATERAL_ADOPTION_UNPROVEN`.
+
+The formation remains **research-only**.
 
 ## Goal
 
-Spend only enough external validation capital to answer the missing human/economic question:
+Obtain one bounded two-sided commitment signal for a specific live AI workflow/Agent transaction.
 
-Will real buyers and providers adopt a frozen, executable acceptance object before work begins, and can it be created with low enough manual effort to improve transaction closeout?
-
-Do not build software first.
+Do not spend more desk research pretending it can answer willingness-to-adopt.
 
 ## Current Unique Commercial Research Goal
 
-Obtain real transaction evidence for or against:
+Test whether a real buyer and real provider, on the same current AI workflow/Agent transaction, will freeze a compact executable acceptance object before work starts and use its evidence for pass/fail/retest/closeout.
 
-`PROJECT BRIEF → FROZEN ACCEPTANCE CONDITIONS → EXECUTABLE RUN → EVIDENCE PACK → PASS/FAIL/RETEST`
-
-for a current middle-value AI workflow/Agent transaction.
-
-The formation survives only if both sides value the object, the work is mostly machine-observable, setup is lightweight, and the object can improve closeout without becoming requirements/QA consulting.
+The formation survives only if:
+- both sides value the object;
+- the missing fields can be filled without open-ended consulting;
+- most acceptance remains machine-observable;
+- transaction value can support the added friction;
+- the operator is not the recurring QA/requirements expert.
 
 ## Active Commercial Epoch
 
@@ -54,17 +55,17 @@ Historical-case policy:
 
 ## Current Phase
 
-`ATTRACTION_SCAN_003_F1_SURVIVES_CAUSAL_DESCENT / CHEAP_REALITY_CONFIRMATION_READY`
+`SCAN_003_F1_PUBLIC_ARTIFACT_CONFIRMED / BILATERAL_COMMITMENT_REQUIRED`
 
 ## Last Verified Main
 
-`03b4e3248cc0cf5f000ee54b9cccfaa0df9278e4` — PR #268 squash-merged.
+Main before this branch: `3561dc16cab6499ca1d437be1e85172ff02e81a8`.
 
-PR #268 head: `dc38a5aee0604ddb78f9933b880d6701b1f39aaf`.
+PR #268 merge SHA: `03b4e3248cc0cf5f000ee54b9cccfaa0df9278e4`.
 
 PR #268 CI #810 / run `35441396014`: success.
 
-PR #267 merge SHA: `4b10ea2793fe4ac2994310d8cfb33966e070ba44`; CI #808 succeeded.
+The branch base includes the later state-only causal-descent close checkpoint.
 
 ## Active Issue
 
@@ -72,129 +73,151 @@ PR #267 merge SHA: `4b10ea2793fe4ac2994310d8cfb33966e070ba44`; CI #808 succeeded
 
 ## Active Branch
 
-None.
+`feature/scan-003-f1-reality-confirmation-001`
 
 ## Active PR
 
-None. PR #268 is merged.
+Not opened yet at this checkpoint.
 
 ## CI
 
-- PR #268 / run `35441396014`: success.
-- Scan 003-F1 causal-descent verdict is persisted on main.
-- No production code or doctrine changed.
+Pending for Reality Confirmation 001.
+
+No production code or doctrine change is intended.
 
 ## Latest Artifact / Persisted State
 
+- `docs/research/ATTRACTION_SCAN_003_F1_REALITY_CONFIRMATION_001_2026-09-19.md`
+- `data/research_runs/attraction_scan_003_f1_reality_confirmation_001.json`
 - `docs/research/ATTRACTION_SCAN_003_F1_CAUSAL_DESCENT_2026-09-19.md`
 - `data/research_runs/attraction_scan_003_f1_causal_descent.json`
-- `docs/research/ATTRACTION_SCAN_003_2026-09-19.md`
-- `data/research_runs/attraction_scan_003.json`
 - `data/commercial_reset_state.json`
 
 ## Completed
 
-- Separated generic acceptance knowledge from executed/reproducible transaction evidence.
-- Credited free acceptance templates and provider-side staged delivery practices.
-- Credited marketplace milestones/payment/dispute rails.
-- Credited cloud Agent evaluation and formal third-party testing.
-- Credited current paid project diagnosis/PoC acceptance consulting.
-- Confirmed current offering evidence spanning very low-price AI services through roughly 10k–40k RMB listed Agent/workflow packages.
-- Confirmed formal acceptance testing can itself cost thousands to tens of thousands, making the middle band worth further falsification.
-- Narrowed the formation to tool-using workflows/Agents where state transitions and execution traces are machine-observable.
-- Rejected open-ended creative AI work as the primary wedge.
-- Applied operator non-labor, compounding and control-right tests.
+- Used a current 2026-09-05 logistics-industry Agent procurement as the primary buyer-side reality artifact.
+- Derived a 12-condition acceptance skeleton from the public brief.
+- Verified that the relevant workflow exposes machine-observable actions/state changes rather than only subjective language quality.
+- Separated machine-executable tests from missing bilateral parameters/fixtures.
+- Identified 10 bounded missing input groups required to freeze the acceptance contract.
+- Confirmed the public brief is sufficient for an acceptance skeleton but not a frozen contract.
+- Used a separate current AI Agent provider listing only to verify current package/acceptance market shape; did not pretend it was the same transaction.
+- Preserved the key truth boundary: no bilateral commitment, adoption or willingness-to-pay has been observed.
 
 ## Current Findings
 
-### What survives
+### Primary current buyer artifact
 
-The missing object is not a checklist.
+`物流运输行业客服值班AI智能体软件开发`, published 2026-09-05.
 
-It may be:
+Observed workflow:
+- detect prompts in an existing BS system;
+- automatically execute allowed confirmation/response actions;
+- convert response information to text;
+- notify designated people by phone/WeChat/SMS;
+- query system data by keyword/dropdown;
+- export result data to a table;
+- run on an edge-computing terminal.
 
-`EXECUTED + VERSIONED + REPRODUCIBLE ACCEPTANCE EVIDENCE`.
+This is a strong fit for the narrowed tool-using Agent wedge because delivery changes observable external state.
 
-For AI workflow/Agent delivery, observable facts can include:
-- tool/API calls;
-- state changes;
-- permission checks;
-- fallback/human-review gates;
-- logs/traces;
-- latency/cost;
-- retries;
-- deterministic assertions around workflow completion.
+### Acceptance skeleton result
 
-### Why the ticket-size barbell does not yet kill F1
+12 bounded conditions were derivable:
+- environment/version identity;
+- prompt detection;
+- correct response action;
+- action safety boundary;
+- response extraction;
+- notification routing;
+- notification failure handling;
+- keyword query;
+- dropdown query;
+- table export;
+- session/failure recovery;
+- complete reproducible evidence.
 
-- very low-ticket AI service work is too small for a separate layer;
-- formal enterprise projects can already buy conventional QA/consulting;
-- current service listings show a real intermediate offering band around several-thousand to tens-of-thousands RMB;
-- formal independent testing can be disproportionately expensive for that band.
+After fixtures/thresholds are frozen, all 12 can be substantially machine-verified.
 
-This proves only that a plausible economic gap exists, not willingness to pay.
+### Important negative result
 
-### Why F1 still is not a commercial candidate
+The public brief alone cannot freeze the contract.
 
-Missing real evidence:
-- bilateral adoption before work begins;
-- willingness to pay or materially prefer the transaction with the acceptance object;
-- minutes-not-hours setup;
-- buyer trust in the resulting evidence;
-- marketplace/payment recognition/use;
-- template reuse across transactions.
+Missing bilateral inputs include:
+- exact modules/prompts;
+- allowed action mapping;
+- human approval boundary;
+- required response fields;
+- notification recipients/channels/SLA;
+- query/export fixtures;
+- retry/escalation policy;
+- runtime versions;
+- evidence/privacy rules.
+
+This means a structured intake step remains necessary.
+
+It does **not yet** prove recurring open-ended consulting is necessary.
+
+### Validation state
+
+`PUBLIC ARTIFACT CONFIRMATION = PASSED`.
+
+`SAME-TRANSACTION BILATERAL ADOPTION = NOT PROVEN`.
+
+`WILLINGNESS TO PAY = NOT PROVEN`.
+
+`COMMERCIAL CANDIDATE = NO`.
 
 ## Blockers
 
-The blocker is now external reality:
+Desk research is no longer the decisive blocker.
 
-`BILATERAL ADOPTION / ECONOMIC VALUE OF THE ACCEPTANCE OBJECT = NOT PROVEN`.
+The blocker is:
 
-Technical product construction would not answer this.
+`REAL BUYER + REAL PROVIDER + SAME TRANSACTION + PRE-WORK ACCEPTANCE COMMITMENT`.
+
+Without that, more architecture, templates or market reports do not advance truth.
 
 ## Next Action
 
-Create a **cheap reality-confirmation packet**, not a product.
+When an authorized communication channel is available, run **one bounded bilateral validation**, not sales outreach.
 
-Required evidence target:
-1. identify a current real AI workflow/Agent transaction state;
-2. obtain a real brief/listing/SOW or equivalent public/current transaction artifact;
-3. derive 5–15 measurable acceptance conditions;
-4. separate automatically executable checks from human/domain checks;
-5. estimate setup effort truthfully;
-6. determine whether provider-side and buyer-side incentives both exist;
-7. seek the cheapest real commitment signal before any build;
-8. fail closed if normal milestones are sufficient or the pack becomes consulting.
+Target:
+1. one current AI workflow/Agent provider;
+2. one current buyer/project or one provider with a live buyer project;
+3. use the existing 12-condition skeleton;
+4. ask them to fill/freeze the missing fields;
+5. record whether both sides would actually use it for closeout/retest;
+6. record setup effort;
+7. record willingness to pay or a weaker but real commitment signal;
+8. fail closed if the normal contract/milestone process is already sufficient.
 
-No SaaS, marketplace, escrow, generic evaluator, pricing page or scale build.
+Until then:
+- do not build;
+- do not mass-contact;
+- do not promote.
 
 ## Do Not Repeat
 
-- Do not broaden F1 back to all AI custom services.
-- Do not sell an acceptance checklist.
-- Do not build generic Agent eval tooling.
-- Do not become a requirements consultant.
-- Do not become a manual QA shop.
-- Do not become a dispute adjudicator.
-- Do not assume current listed prices equal market distribution.
-- Do not count technical feasibility as demand.
-- Do not promote before bilateral real-world evidence.
-- Do not revive Scan 001/002 or pre-reset formations.
+- Do not count a public listing as bilateral validation.
+- Do not count a provider price page as willingness to pay for this layer.
+- Do not broaden back to all AI services.
+- Do not sell a checklist.
+- Do not build software before adoption evidence.
+- Do not invent a buyer/provider response.
+- Do not claim a candidate.
+- Do not revive prior scans.
 
 ## Guardrails
 
 - GitHub live state is operational source of truth.
 - REALITY > COGNITION > SCHEMA.
-- BROAD REALITY > CURRENT SEARCH LENS.
+- PUBLIC ARTIFACT != BILATERAL COMMITMENT.
+- TRANSACTION SHAPE FIT != WILLINGNESS TO PAY.
+- STRUCTURED MISSING FIELDS != AUTOMATIC CONSULTING.
+- MACHINE-VERIFIABLE != MARKET-VALIDATED.
 - FREE TEMPLATE != EXECUTED EVIDENCE.
-- TRANSACTION VOLUME != ACCEPTANCE-LAYER DEMAND.
-- TESTABILITY != WILLINGNESS TO PAY.
-- MIDDLE PRICE BAND != MARKET VALIDATION.
-- AI EVALUATION != TRANSACTION ACCEPTANCE BY DEFAULT.
-- EXISTING ACTOR != FLOW SOLVED.
-- INCUMBENT PRESENCE != AUTOMATIC KILL.
-- RESIDUAL FRICTION != NEW BUSINESS BY DEFAULT.
 - FOUNDER AS PERMANENT REQUIREMENTS / QA CONSULTANT = FAIL.
-- PLAUSIBLE != PASS.
+- NO PRODUCT BUILD TO ANSWER A HUMAN WILLINGNESS QUESTION.
 - UNKNOWN != PASS.
 - Infer broadly; promote conservatively.

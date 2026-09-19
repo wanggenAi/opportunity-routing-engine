@@ -26,7 +26,13 @@
   "last_completed_scan_id": "ATTRACTION_SCAN_003",
   "last_resolved_formation_id": "ATTRACTION_SCAN_002-F1",
   "next_scan_id": "ATTRACTION_SCAN_004",
-  "current_research_action": "CHEAP_REALITY_CONFIRMATION_ATTRACTION_SCAN_003_F1",
+  "current_research_action": "BILATERAL_COMMITMENT_SIGNAL_ATTRACTION_SCAN_003_F1",
+  "current_validation_state": {
+    "formation_id": "ATTRACTION_SCAN_003-F1",
+    "public_artifact_confirmation": "PASSED",
+    "bilateral_commitment": "NOT_PROVEN",
+    "commercial_candidate": false
+  },
   "required_scan_controls": [
     "BROAD_REALITY",
     "ATTRACTION_BRIEF",
@@ -36,14 +42,14 @@
   "research_learnings": [
     "ORDER_SPEC_ACCEPTANCE_CAN_BE_MORE_RELEVANT_THAN_GENERIC_SUPPLIER_IDENTITY",
     "PERMISSION_DENSITY_AND_CONTROL_RIGHT_CONCENTRATION_MATTER_FOR_ROUTABILITY",
-    "FREE_ACCEPTANCE_KNOWLEDGE_IS_NOT_THE_SAME_AS_EXECUTED_REPRODUCIBLE_TRANSACTION_EVIDENCE"
+    "FREE_ACCEPTANCE_KNOWLEDGE_IS_NOT_THE_SAME_AS_EXECUTED_REPRODUCIBLE_TRANSACTION_EVIDENCE",
+    "TOOL_USING_AGENT_WORKFLOWS_CAN_YIELD_BOUNDED_MACHINE_VERIFIABLE_ACCEPTANCE_SKELETONS_FROM_REAL_PROJECT_BRIEFS"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
-    "ATTRACTION_SCAN_001-F1 and ATTRACTION_SCAN_002-F1 are demoted and not fallback/watchlist candidates.",
-    "ATTRACTION_SCAN_003-F1 survives causal descent but is not a commercial candidate.",
-    "The surviving wedge is narrowed to middle-value AI workflow/tool-using Agent delivery where acceptance evidence can be machine-observable.",
-    "The next permitted spend is cheap external reality confirmation, not product construction.",
-    "Bilateral adoption and willingness to pay remain unproven."
+    "ATTRACTION_SCAN_003-F1 remains research-only and is not a commercial candidate.",
+    "Public-artifact reality confirmation passed against a current logistics Agent procurement brief.",
+    "The current blocker is same-transaction bilateral adoption and economic commitment, not technical architecture.",
+    "Do not build a product to answer a human willingness question."
   ]
 }

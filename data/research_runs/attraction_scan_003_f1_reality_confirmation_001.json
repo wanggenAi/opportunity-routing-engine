@@ -1,0 +1,95 @@
+{
+  "schema_version": "reality-confirmation.v1",
+  "validation_id": "ATTRACTION_SCAN_003_F1_REALITY_CONFIRMATION_001",
+  "formation_id": "ATTRACTION_SCAN_003-F1",
+  "as_of_date": "2026-09-19",
+  "mode": "PUBLIC_CURRENT_TRANSACTION_ARTIFACT_NO_OUTREACH",
+  "result": "PUBLIC_ARTIFACT_CONFIRMATION_PASSED_BILATERAL_ADOPTION_UNPROVEN",
+  "commercial_candidate": false,
+  "primary_buyer_artifact": {
+    "title": "物流运输行业客服值班AI智能体软件开发",
+    "published_date": "2026-09-05",
+    "status": "ONGOING_AT_OBSERVATION",
+    "url": "https://www.zbj.com/xq/uEZnTKn1MVoRm1PJ.html",
+    "observable_workflow": [
+      "detect prompts in an existing BS system",
+      "execute allowed confirm/response actions",
+      "convert response information to text",
+      "notify designated people by phone WeChat and SMS",
+      "query data using keywords or dropdowns",
+      "export query data to a table",
+      "operate on an edge-computing terminal"
+    ]
+  },
+  "provider_reference_artifact": {
+    "title": "ai智能体搭建大模型Agent语音陪伴客服数字人",
+    "url": "https://www.zbj.com/fw/2389233.html",
+    "observed_price_points_rmb": [
+      200,
+      10000,
+      40000
+    ],
+    "observed_delivery_structure": [
+      "staged acceptance/payment",
+      "testing and acceptance",
+      "source-code delivery",
+      "deployment",
+      "project staff"
+    ],
+    "note": "not the provider for the primary buyer artifact; used only as current market-shape reference"
+  },
+  "acceptance_conditions": [
+    "ENVIRONMENT_IDENTITY",
+    "PROMPT_DETECTION",
+    "CORRECT_RESPONSE_ACTION",
+    "ACTION_SAFETY_BOUNDARY",
+    "RESPONSE_TO_TEXT_EXTRACTION",
+    "NOTIFICATION_ROUTING",
+    "NOTIFICATION_FAILURE_FALLBACK",
+    "KEYWORD_QUERY",
+    "DROPDOWN_QUERY",
+    "TABLE_EXPORT",
+    "FAILURE_SESSION_RECOVERY",
+    "EVIDENCE_COMPLETENESS"
+  ],
+  "machine_verifiable_after_freeze": 12,
+  "frozen_from_public_brief_alone": 0,
+  "missing_bilateral_inputs": [
+    "in_scope_modules",
+    "prompt_inventory",
+    "prompt_to_action_mapping",
+    "action_whitelist_and_human_approval_boundary",
+    "required_response_fields",
+    "recipient_channel_mapping_and_latency",
+    "query_export_fixtures_expected_outputs",
+    "failure_retry_escalation_policy",
+    "runtime_versions",
+    "evidence_retention_privacy_constraints"
+  ],
+  "passed": [
+    "real_current_buyer_workflow_exists",
+    "state_changes_are_machine_observable",
+    "bounded_acceptance_skeleton_can_be_derived_without_inventing_business_process",
+    "missing_values_are_representable_as_structured_inputs",
+    "current_provider_market_uses_acceptance_payment_boundaries",
+    "wedge_is_distinct_from_free_checklist"
+  ],
+  "not_proven": [
+    "same_transaction_bilateral_adoption",
+    "willingness_to_pay",
+    "willingness_to_freeze_before_work",
+    "real_setup_effort",
+    "marketplace_payment_recognition",
+    "evidence_pack_trust",
+    "template_reuse"
+  ],
+  "new_state": "READY_FOR_BILATERAL_COMMITMENT_SIGNAL",
+  "next_action": "ONE_BOUNDED_TWO_SIDED_VALIDATION_SIGNAL_WHEN_AUTHORIZED_CHANNEL_AVAILABLE",
+  "prohibitions": [
+    "NO_PRODUCT_BUILD",
+    "NO_PUBLIC_PRODUCT_PAGE",
+    "NO_MARKET_VALIDATION_CLAIM",
+    "NO_MASS_OUTREACH",
+    "NO_PRIVATE_CONTACT_SCRAPING"
+  ]
+}
