@@ -15,7 +15,7 @@ WORLD SENSING
 → PERCEPTION / MOTIVE
 → OBSERVED BEHAVIOR
 → SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
-→ RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
+→ RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM
 → COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES
 → RECURSIVE CAUSAL DESCENT
 → COMPETING STRUCTURAL FRICTION HYPOTHESES
@@ -239,10 +239,12 @@ ACTOR / SEGMENT
 → PERCEPTION / MOTIVE
 → BEHAVIOR
 → SURFACE PHENOMENON / SURFACE FRICTION / CONTRADICTION
-→ RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
-→ LATENT / UNFORMED OUTCOME HYPOTHESIS
-→ STRUCTURAL FRICTION HYPOTHESIS
-→ CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+→ RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM
+→ COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES
+→ RECURSIVE CAUSAL DESCENT
+→ COMPETING STRUCTURAL FRICTION HYPOTHESES
+→ DISCRIMINATING EVIDENCE / FALSIFIERS / CONTRADICTION SEARCH
+→ DECISION-USEFUL CAUSAL FRONTIER
 → EVIDENCED STRUCTURAL FRICTION
 → COMPLEMENTARY WORLD-NODE SEARCH
 → CONNECTION-PRESSURE EVIDENCE
@@ -257,7 +259,7 @@ The engine must search for what actors may not know about themselves: hidden cap
 
 It must also search for what **reality is already trying to connect**: repeated workarounds, informal exchange, failed cross-boundary attempts, substitution, referrals, expensive legacy routes and shared state changes that expose directional pressure.
 
-Psychology signals must be tied to the same actor segment and corroborated with behavior before they can materially raise a formation hypothesis. Money evidence strengthens commercial relevance, but money is not required merely to form a bounded hypothesis worth testing.
+Psychology signals, when used, must be tied to the same actor segment and corroborated with behavior before they can materially raise a formation hypothesis. Psychology is not mandatory when objective state/process/technical/institutional evidence already supports the causal structure. Money evidence strengthens commercial relevance, but money is not required merely to form a bounded hypothesis worth testing.
 
 ## Structural Friction Discovery rule — LOCKED
 
@@ -608,9 +610,9 @@ Current priorities:
 8. discover `CONNECTION_PRESSURE` through repeated workaround, partial flow, substitution, referral, failed-attempt, shared-pressure and analogue evidence;
 9. identify observed missing edges separately from structural friction and imagined blockers;
 10. only after an evidenced latent connection, design minimum exchange mechanics with kill conditions;
-10. use human/external validation capital on the single most decisive unresolved truth;
-11. only after support exists, project Need/Resource/Blocker/payer truth and perform transaction gating;
-12. keep the founder as orchestration/routing control plane rather than default search, sales or execution node.
+11. use human/external validation capital on the single most decisive unresolved truth;
+12. only after support exists, project Need/Resource/Blocker/payer truth and perform transaction gating;
+13. keep the founder as orchestration/routing control plane rather than default search, sales or execution node.
 
 Do not resume an old launch merely because a launch document or open historical Issue exists.
 
