@@ -473,6 +473,66 @@ def causal_descent_state(record: CausalDescentRecord) -> CausalDescentState:
     return CausalDescentState.EVIDENCED_STRUCTURAL_FRICTION
 
 
+def _normalized_text(value: str) -> str:
+    return " ".join(value.split()).strip().casefold()
+
+
+def validate_causal_projection(
+    record: CausalDescentRecord,
+    *,
+    actor: str,
+    current_state: str,
+    surface_phenomenon: str,
+    latent_outcome_hypothesis: str,
+    structural_friction_hypothesis: str,
+    record_id: str = "",
+    stop_reason: str = "",
+) -> list[str]:
+    """Prevent denormalized summaries from drifting from canonical causal lineage."""
+
+    errors: list[str] = []
+
+    if _normalized_text(record.actor) != _normalized_text(actor):
+        errors.append("causal_descent_actor_mismatch")
+    if _normalized_text(record.current_state) != _normalized_text(current_state):
+        errors.append("causal_current_state_projection_mismatch")
+    if _normalized_text(record.surface_phenomenon) != _normalized_text(
+        surface_phenomenon
+    ):
+        errors.append("surface_phenomenon_projection_mismatch")
+
+    outcomes = {item.outcome_id: item for item in record.outcome_hypotheses}
+    selected = outcomes.get(record.selected_outcome_id)
+    if selected is None:
+        errors.append("causal_descent_selected_outcome_missing")
+    elif _normalized_text(selected.statement) != _normalized_text(
+        latent_outcome_hypothesis
+    ):
+        errors.append("latent_outcome_projection_mismatch")
+
+    constraints = {
+        item.constraint_id: item for item in record.constraint_hypotheses
+    }
+    lead = [
+        constraints[item]
+        for item in record.lead_constraint_ids
+        if item in constraints
+    ]
+    if len(lead) == 1 and _normalized_text(lead[0].causal_claim) != _normalized_text(
+        structural_friction_hypothesis
+    ):
+        errors.append("structural_friction_projection_mismatch")
+
+    if record_id and record_id != record.record_id:
+        errors.append("causal_descent_record_id_mismatch")
+
+    expected_stop = record.stop_reason.value if record.stop_reason is not None else ""
+    if stop_reason and stop_reason != expected_stop:
+        errors.append("causal_stop_reason_mismatch")
+
+    return errors
+
+
 def validate_causal_descent_for_promotion(
     record: CausalDescentRecord,
 ) -> list[str]:
