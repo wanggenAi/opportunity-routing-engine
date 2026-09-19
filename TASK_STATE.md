@@ -4,24 +4,27 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Correct discovery drift before Regenerative Formation Scan 021.
+Discovery-drift correction and Attraction Field doctrine are merged.
 
-User-directed doctrine correction:
-- broad reality must remain above any temporary search lens;
-- the previous candidate's industry / asset type must not silently become the next scan's world model;
-- TRANSFERABLE OBJECTIVE STRANDED UNIT is only one heuristic, not the commercial ontology;
-- industrial B2B, inventory and professional-service cases must not dominate simply because they are easy to index;
-- incumbent presence is evidence about current flow resolution, not an automatic kill condition;
-- 诱惑力 / ATTRACTION FIELD is now a first-class current-stage priority dimension.
+The engine must now resume broad white-portfolio regenerative sensing without inheriting Scan 020's industrial / stranded-unit bias.
 
-Attraction must separate:
+Locked corrections:
+- BROAD REALITY > CURRENT SEARCH LENS;
+- SEARCH LENS != ONTOLOGY;
+- TRANSFERABLE OBJECTIVE STRANDED UNIT is one heuristic only;
+- INDUSTRIAL B2B != DEFAULT WORLD;
+- EXISTING ACTOR != FLOW SOLVED;
+- INCUMBENT PRESENCE != AUTOMATIC KILL;
+- 诱惑力 / ATTRACTION FIELD is a first-class current-stage priority dimension.
+
+Attraction is separated into:
 1. A-side voluntary energy;
 2. B-side voluntary energy;
 3. operator / Rooter strategic activation.
 
 A/B attraction requires behavior evidence. Operator attraction is a strategic attention signal and must never be used as market evidence.
 
-Portfolio remains:
+Portfolio:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - ACTIVE TRANSACTION UNITS = 0
 - FORMAL LATENT CONNECTION PROMOTIONS = 0
@@ -31,9 +34,9 @@ No product, pricing, recruitment or outreach is authorized.
 
 ## Goal
 
-Resume broad white-portfolio regenerative sensing after this doctrine correction is merged.
+Launch Regenerative Formation Scan 021 as a genuinely broad white-portfolio scan.
 
-The next scan must search for high-attraction value fields across broad reality rather than continue the legacy-industrial / stranded-unit recursion.
+Search for high-attraction value fields across broad reality rather than continuing the legacy-industrial / stranded-unit recursion.
 
 Preserve:
 - REALITY > COGNITION > SCHEMA
@@ -63,94 +66,123 @@ Do not preselect an industry, asset class or transaction unit.
 
 ## Current Phase
 
-DISCOVERY_DRIFT_CORRECTION / ATTRACTION_FIELD_DOCTRINE_IN_PROGRESS / COMMERCIAL_CANDIDATES_ZERO / SCAN_021_AFTER_MERGE
+ATTRACTION_FIELD_DOCTRINE_MERGED / DISCOVERY_DRIFT_CORRECTED / COMMERCIAL_CANDIDATES_ZERO / SCAN_021_READY
 
 ## Last Verified Main
 
-Functional main before this doctrine branch: `8060f48780575680247f6613c22759085f721e9e` — PR #260 squash-merged.
+Functional main: `1f734f361e299de35210519a922ee74cb993a5ea` — PR #261 squash-merged.
 
-PR CI #784 (run id `35434757283`): success.
+PR #261 head: `0add5629bd692662bef7fca6f84c2fd7416780ab`.
 
-Main CI #785 (run id `35434780158`): success on that exact functional SHA.
+PR CI #786 (run id `35437792674`): success.
 
-Latest state-only main observed before branch creation: `f6cbf6750ef7150ad77da0988913daa98c2919f8`.
+The available GitHub connector exposes PR-triggered workflow runs for commit lookup but does not enumerate the separate main-push run here, so no unverified main-push CI claim is recorded.
+
+A later state-only `[skip ci]` checkpoint may advance live main without changing functional truth.
 
 ## Active Issue
 
 #143 — P0: First external value flow — field proof, not more architecture.
 
-The doctrine correction is justified because the current search bias itself was causing field-discovery drift. After merge, return immediately to empirical sensing.
+Doctrine correction should be treated as complete. Return immediately to empirical sensing.
 
 No outreach is authorized.
 
 ## Active Branch
 
-`feature/attraction-field-anti-drift`
+None. `feature/attraction-field-anti-drift` is merged and is not an active source of truth.
 
 ## Active PR
 
-Not opened yet at this checkpoint.
+None. PR #261 — `Add attraction-field priority and anti-drift doctrine` — is merged.
 
 ## CI
 
-Pending for the doctrine-correction branch.
+- PR #261 head: `0add5629bd692662bef7fca6f84c2fd7416780ab`
+- PR CI #786 (run id `35437792674`): success
+- merge SHA: `1f734f361e299de35210519a922ee74cb993a5ea`
+- separate main-push workflow conclusion: not asserted because the current connector does not enumerate that event through commit lookup
 
 ## Latest Artifact / Persisted State
 
-New doctrine artifact on active branch:
+Doctrine:
 - docs/OPPORTUNITY_ATTRACTION_FIELD.md
+- docs/LATENT_VALUE_DOCTRINE.md
+- docs/FORMAL_TRUTH.md
+- docs/OPPORTUNITY_SCORECARD.md
+- AGENTS.md
 
-Last empirical formation artifacts remain:
+Last empirical formation artifacts:
 - data/regenerative_formation_scan_020_lineage_accountability_verdict_2026-09-19.json
 - field/regenerative-formation-scan-020-lineage-accountability-verdict.md
 
 ## Completed
 
-### Drift diagnosis
-The prior search had become too narrow around industrial B2B, idle/stranded objective units and incumbent-existence kill logic.
+### Anti-drift correction
+Fresh scans may not silently inherit the previous candidate's industry, asset type or search lens.
 
-### Attraction-field design
-诱惑力 is no longer treated as a vague “wow” reaction. It has three separately recorded vectors:
-- A-side pull;
-- B-side pull;
-- operator attraction.
+### Search-lens demotion
+TRANSFERABLE OBJECTIVE STRANDED UNIT remains useful but is no longer the next scan's governing ontology.
 
-### Evidence boundary
-Participant attraction requires evidence. Operator attraction allocates founder attention but cannot validate the market.
+### Incumbent correction
+An existing platform, broker, distributor, institution or service provider does not automatically kill a formation. The scan must test whether the relevant value flow is actually resolved for the target actor/state population.
 
-### Existing-player correction
-An incumbent only proves that a route exists. The scan must still ask whether the relevant value flow is actually resolved for the target actor/state population.
+### Attraction Field
+诱惑力 is now formalized as three distinct vectors:
+- A-side attraction;
+- B-side attraction;
+- operator / Rooter attraction.
+
+Attraction is weakest-link dominated. A strong side cannot average away an indifferent side.
+
+### Attraction Brief
+Every retained formation must state:
+- why A wants to move now;
+- evidence of A motion;
+- why B wants to move now;
+- evidence of B motion;
+- why the operator actively wants to own the bridge;
+- what recurring operator labor must disappear;
+- what surprising value jump the connection creates;
+- remaining activation friction;
+- why successful routing can self-propel.
+
+### Drift Audit
+Every white-portfolio scan must explicitly check:
+- prior-vertical recursion;
+- search-lens lock-in;
+- industrial/inventory/professional-service over-selection;
+- incumbent auto-kill;
+- analyst-story attraction versus participant evidence.
 
 ## Current Findings
 
 - A plausible connection can be structurally real and still too inert to deserve founder attention.
-- Bilateral motion is necessary but not sufficient for the user's commercial system; operator strategic attraction also matters.
-- The strongest structures create a state-dependent value jump that is easy for both sides to understand.
-- High attraction should reduce persuasion burden rather than increase founder hustling.
-- White-portfolio sensing must explicitly audit domain/lens drift.
+- Bilateral motion is necessary but not sufficient for this founder-priority system; operator strategic attraction also matters.
+- Strong formations should make participant surplus legible enough that persuasion burden falls.
+- The strongest “wow” is not novelty alone; it is a surprising state-dependent value jump plus evidence that both sides already want the resulting movement.
+- Operator attraction should come from owning and improving the bridge, not from being the hero who personally performs the work.
 
 ## Blockers
 
-Doctrine branch still needs:
-1. PR;
-2. CI;
-3. merge;
-4. main verification;
-5. stable handoff update.
+No doctrine blocker remains.
 
-No Scan 021 evidence should be promoted before the correction is merged.
+The blocker is empirical: Scan 021 must discover a formation that survives structural truth, participant pull, attraction, missing-edge and orchestration tests.
 
 ## Next Action
 
-Open the doctrine-correction PR, run CI, fix any failure, merge, verify main, then launch Regenerative Formation Scan 021 as a genuinely broad white-portfolio scan.
+Run Regenerative Formation Scan 021 from broad reality.
 
-Scan 021 must:
-- start from broad reality rather than TRANSFERABLE OBJECTIVE STRANDED UNIT;
-- deliberately inspect multiple kinds of actor/state change without a fixed quota;
-- include an Attraction Brief for retained formations;
+The scan must:
+- deliberately reopen different forms of social, consumer, household, SME, enterprise, city, cross-border, technology, relationship/trust, time/access/capacity and physical-asset reality as evidence warrants;
+- avoid a fixed category quota and never fabricate weak directions just for breadth;
+- not default to industrial B2B;
+- not start from TRANSFERABLE OBJECTIVE STRANDED UNIT;
+- include an Attraction Brief for each retained formation;
 - include a Drift Audit;
-- treat incumbents as evidence about flow resolution, not automatic rejection;
-- prioritize formations where A wants to move, B wants to move and the operator wants to own the bridge.
+- treat incumbents as evidence about flow resolution rather than automatic rejection;
+- prioritize formations where A wants to move, B wants to move and the operator wants to own the bridge;
+- keep all promotion fail-closed and evidence-bound.
 
 No product design, pricing or outreach.
 
