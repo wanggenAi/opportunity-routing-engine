@@ -66,8 +66,102 @@
     "Observed public/SOE activation mechanisms may be policy-specific and may not generalize to private owners or to an independent paid orchestration role."
   ],
   "causal_descent_record_id": "CD-IDLE-ASSET-REPURPOSING-001",
-  "causal_stop_reason": "MULTI_CAUSAL_FRONTIER",
+  "causal_stop_reason": "INTERVENTION_RELEVANT_BOUNDARY",
   "connection_pressure_hypothesis": "Repeated entrusted operation, standardized leasing/platform use and executed asset transactions show owners and market operators already trying to move underused assets into new operating states rather than merely discussing the possibility.",
   "observed_missing_edge": "Before value can flow normally, asset facts, permissible use, rights/approval boundaries, operating responsibility and transaction/acceptance rules must be normalized into an explicit interface between owner, operator/platform and market counterparty.",
-  "latent_connection_hypothesis": "Underused asset owners and professional operators/market counterparties can form repeated value flows when asset constraints and operating responsibilities are made legible, permissioned and acceptance-ready."
+  "latent_connection_hypothesis": "Underused asset owners and professional operators/market counterparties can form repeated value flows when asset constraints and operating responsibilities are made legible, permissioned and acceptance-ready.",
+  "causal_descent": {
+    "record_id": "CD-IDLE-ASSET-REPURPOSING-001",
+    "actor": "owner or manager of low-utilization physical/public assets",
+    "current_state": "assets can remain vacant, low-utilization, fragmented, misconfigured for current demand, or trapped in static administrative use",
+    "surface_phenomenon": "Existing physical/public assets repeatedly remain vacant, low-utilization or mismatched to current use while owners and governments repeatedly inspect, repackage, lease, entrust, repurpose or marketize them through separate processes.",
+    "surface_evidence_refs": [
+      "STRUCTURAL_RECURRENCE_RUN_002",
+      "LUAN_GGZY_ASSET_OPERATION_TENDER_2026"
+    ],
+    "outcome_hypotheses": [
+      {
+        "outcome_id": "OUTCOME-ACTIVATE-EXISTING-ASSET",
+        "statement": "Move an already-owned asset into a materially higher-utilization, revenue-producing or service-producing state without requiring the owner to build a new asset or personally operate every possible use scenario.",
+        "truth_state": "EVIDENCED_STRUCTURE",
+        "evidence_refs": [
+          "STRUCTURAL_RECURRENCE_RUN_002",
+          "LUAN_GGZY_ASSET_OPERATION_TENDER_2026",
+          "NANJING_GGZY_ASSET_TRANSACTIONS_H1_2026"
+        ],
+        "contradiction_refs": [],
+        "falsifiers": [
+          "Comparable owners do not seek higher utilization, operating income or service output even when lawful activation routes are available."
+        ]
+      }
+    ],
+    "selected_outcome_id": "OUTCOME-ACTIVATE-EXISTING-ASSET",
+    "constraint_hypotheses": [
+      {
+        "constraint_id": "C-ASSET-CALLABILITY",
+        "outcome_id": "OUTCOME-ACTIVATE-EXISTING-ASSET",
+        "depth": 1,
+        "causal_claim": "The asset is not natively callable as a permissioned, constraint-explicit, acceptance-ready operating unit: facts, rights, approvals, operating responsibility, tenant/operator fit and transaction workflow remain fragmented across administrative and market interfaces, so a potentially useful asset cannot be reconfigured and routed cheaply or repeatedly.",
+        "mechanism": "Asset facts, permissible use, rights, approvals, operating responsibility and transaction rules must be translated into a bounded operating interface before an external operator or market counterparty can safely act.",
+        "truth_state": "EVIDENCED_STRUCTURE",
+        "parent_constraint_id": "",
+        "support_refs": [
+          "PUDONG_GOV_2026_ASSET_RULES",
+          "SHENZHEN_SASAC_RENTAL_RULES_2026"
+        ],
+        "contradiction_refs": [],
+        "discriminating_evidence_refs": [
+          "SHENZHEN_SASAC_RENTAL_RULES_2026",
+          "LUAN_GGZY_ASSET_OPERATION_TENDER_2026"
+        ],
+        "falsifiers": [
+          "Comparable assets with unstructured rights and responsibility boundaries activate as cheaply and repeatedly as assets routed through explicit entrustment and standardized transaction interfaces."
+        ],
+        "intervention_implication": "Make asset constraints, rights, responsibilities and acceptance conditions legible before routing the asset to an operator or market counterparty."
+      },
+      {
+        "constraint_id": "C-WEAK-END-USER-DEMAND",
+        "outcome_id": "OUTCOME-ACTIVATE-EXISTING-ASSET",
+        "depth": 1,
+        "causal_claim": "Low utilization may instead be driven mainly by weak end-user demand, poor location or intrinsically low asset quality rather than interface fragmentation.",
+        "mechanism": "Even a perfectly structured and permissioned asset would remain underused if the downstream use case has insufficient economic or service demand.",
+        "truth_state": "INFERRED",
+        "parent_constraint_id": "",
+        "support_refs": [
+          "STRUCTURAL_RECURRENCE_RUN_002"
+        ],
+        "contradiction_refs": [],
+        "discriminating_evidence_refs": [],
+        "falsifiers": [
+          "Comparable assets gain materially better utilization after rights, packaging and operating interfaces are normalized without a material change in location or underlying asset quality."
+        ],
+        "intervention_implication": "Do not treat interface normalization as sufficient when downstream use demand is absent."
+      },
+      {
+        "constraint_id": "C-POLICY-SPECIFICITY",
+        "outcome_id": "OUTCOME-ACTIVATE-EXISTING-ASSET",
+        "depth": 1,
+        "causal_claim": "The observed activation pattern may be specific to public/SOE governance and policy mechanisms rather than a generalizable owner-side structural friction.",
+        "mechanism": "Administrative mandates, public-asset rules or policy objectives may create routes that do not exist for ordinary private owners.",
+        "truth_state": "INFERRED",
+        "parent_constraint_id": "",
+        "support_refs": [
+          "STRUCTURAL_RECURRENCE_RUN_002"
+        ],
+        "contradiction_refs": [],
+        "discriminating_evidence_refs": [],
+        "falsifiers": [
+          "Independent private owners exhibit the same bounded rights, packaging and operator-interface problem and pay to resolve it."
+        ],
+        "intervention_implication": "Treat private-market generalization as unproven until independently observed."
+      }
+    ],
+    "lead_constraint_ids": [
+      "C-ASSET-CALLABILITY"
+    ],
+    "stop_reason": "INTERVENTION_RELEVANT_BOUNDARY",
+    "decisive_unknown": "",
+    "probe_eligible": false,
+    "notes": "This causal record requalifies a historical research structure only. It does not promote a current business route."
+  }
 }
