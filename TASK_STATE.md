@@ -18,6 +18,12 @@ Run `ATTRACTION_SCAN_003` with zero active and zero retained formations.
 
 Favor evidence where supply/capability and demand are already moving **and the permission required to connect them is concentrated enough to route**, without turning that learning into a fixed ontology.
 
+## Current Unique Commercial Research Goal
+
+Discover a new high-attraction formation from current broad reality where bilateral motion is evidenced, the decisive missing edge survives incumbent credit, control rights are sufficiently routable, and recurring operator work can remain orchestration rather than founder-led sales, project delivery or exception handling.
+
+The permission-density learning may sharpen falsification, but it must not constrain Scan 003 into a predetermined resource class, geography or business model.
+
 ## Active Commercial Epoch
 
 `ATTRACTION_FIELD_V1`
@@ -28,7 +34,7 @@ Portfolio:
 - ACTIVE PARENT FORMATIONS = 0
 - INHERITED WATCHLIST = 0
 - RETAINED RESEARCH FORMATIONS = 0
-- FIRST_EXTERNAL VALUE FLOW = NOT_PROVEN
+- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
 ## Current Phase
 
@@ -52,11 +58,13 @@ PR #265 CI #803 / run `35440717907`: success.
 
 ## Active PR
 
-Not opened yet at this checkpoint.
+PR #266 — `Resolve Attraction Scan 002 F1 after permission causal descent`.
 
 ## CI
 
-Pending for this causal-descent checkpoint.
+- PR #266 CI #805 / run `35440889653`: failed only because this checkpoint omitted the required `## Current Unique Commercial Research Goal` recovery heading.
+- Commercial/research verdict is unchanged.
+- This commit restores the recovery contract; rerun CI before merge.
 
 No production code or doctrine change is intended.
 
