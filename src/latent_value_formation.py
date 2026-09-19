@@ -467,16 +467,14 @@ def _map_evidence_kind(kind: FormationEvidenceKind) -> EvidenceKind:
         return EvidenceKind.STRUCTURAL_FRICTION
     if kind is FormationEvidenceKind.COMPLEMENTARY_NODE:
         return EvidenceKind.COMPLEMENTARY_STATE
-    if kind in {
-        FormationEvidenceKind.MISSING_EDGE,
-        FormationEvidenceKind.STRANDING_BARRIER,
-    }:
+    if kind is FormationEvidenceKind.CONNECTION_PRESSURE:
+        return EvidenceKind.CONNECTION_PRESSURE
+    if kind is FormationEvidenceKind.MISSING_EDGE:
+        return EvidenceKind.MISSING_EDGE
+    if kind is FormationEvidenceKind.STRANDING_BARRIER:
         return EvidenceKind.STRANDING_BARRIER
     if kind is FormationEvidenceKind.COUNTERFACTUAL_PRECEDENT:
         return EvidenceKind.VALUE_PRECEDENT
-    # Connection pressure is a formation-level relationship observation. The
-    # canonical discovery model currently has no dedicated relationship evidence
-    # enum, so preserve it as GENERAL_PATTERN rather than inventing a false state.
     return EvidenceKind.GENERAL_PATTERN
 
 
@@ -544,6 +542,20 @@ def to_latent_value_candidate(
         structural_friction_hypothesis=hypothesis.structural_friction_hypothesis,
         structural_friction_truth_state=hypothesis.structural_friction_truth_state.value,
         alternative_explanations=hypothesis.alternative_explanations,
+        causal_descent_record_id=(
+            hypothesis.causal_descent.record_id
+            if hypothesis.causal_descent is not None
+            else ""
+        ),
+        causal_stop_reason=(
+            hypothesis.causal_descent.stop_reason.value
+            if hypothesis.causal_descent is not None
+            and hypothesis.causal_descent.stop_reason is not None
+            else ""
+        ),
+        connection_pressure_hypothesis=hypothesis.connection_pressure_hypothesis,
+        observed_missing_edge=hypothesis.observed_missing_edge,
+        latent_connection_hypothesis=hypothesis.latent_connection_hypothesis,
         evidence=evidence,
         source_mode="LATENT_VALUE_DISCOVERY",
     )
