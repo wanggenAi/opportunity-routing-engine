@@ -174,14 +174,16 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("The system's job is to discover the **exchange structure**", thesis)
         self.assertIn("LATENT_VALUE_HYPOTHESIS != VERIFIED RESOURCE", thesis)
 
-    def test_cycle_002_no_longer_ranks_existing_outsourcing_as_core(self):
-        result = self._read("docs/results/DISCOVERY_CYCLE_002_PRELIMINARY_2026-09-12.md")
-        money = self._read("docs/results/DISCOVERY_CYCLE_002_MONEY_CAPTURE_2026-09-12.md")
-        self.assertIn("CORE LATENT-VALUE SEARCH ONLY", result)
-        self.assertIn("Tacit industrial knowledge", result)
-        self.assertIn("Fragmented small demand", result)
-        self.assertIn("DOWNGRADED / EXPLICIT_DEMAND_EXECUTION / NOT CORE DISCOVERY", money)
-        self.assertIn("A route can be profitable and still be architecturally secondary", money)
+    def test_clean_slate_epoch_blocks_historical_case_inheritance(self):
+        agents = self._read("AGENTS.md")
+        truth = self._read("docs/FORMAL_TRUTH.md")
+        reset = self._read("data/commercial_reset_state.json")
+        self.assertIn("GIT HISTORY != CANDIDATE POOL", agents)
+        self.assertIn("PRE-RESET CASE != ACTIVE INPUT", agents)
+        self.assertIn("ATTRACTION_FIELD_V1", truth)
+        self.assertIn("ATTRACTION_SCAN_001", truth)
+        self.assertIn("GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT", reset)
+
 
 
 if __name__ == "__main__":
