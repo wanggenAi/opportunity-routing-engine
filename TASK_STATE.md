@@ -59,28 +59,29 @@ Decisive question:
 Kill the line if discovery is too labor-intensive, low-yield, already normalized by talent/community systems, or produces too little downstream value.
 
 ## Current Phase
-`FORMATION_SCAN_009_ACTIVE / GENERIC_ROUTING_DEMOTED / LATENT_HUMAN_ASSET_LEGIBILITY_PRIMARY / SOURCE_DISCOVERY_AUDIT_NEXT`
+`FORMATION_SCAN_009_MERGED / MAIN_GREEN / GENERIC_ROUTING_DEMOTED / LATENT_HUMAN_ASSET_LEGIBILITY_PRIMARY / SOURCE_DISCOVERY_AUDIT_NEXT`
 
 ## Last Verified Main
-`5e431e5e359175fac310b0d0326f184c778a3e0c` — PR #247 squash-merged. Main CI run #759 (run id `35427030326`) passed on this functional SHA. Live main later advanced with state-only checkpoint `0275c126e83fb88d29cc8b206d0e23da36706b06`.
-
-The current Scan 009 work is on an unmerged feature branch and must pass PR CI before becoming functional main truth.
+`c7cbaa6deac3ac1185884bdb6b731f9899d2ce2c` — PR #248 squash-merged. Main CI run #761 (run id `35427182009`) passed on this exact functional SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Scan 008 was synced in comment id `5739966795`.
+Scan 008 was synced in comment id `5739966795`. Scan 009 was synced in comment id `5739981405`.
 
 No outreach is authorized. Current work remains upstream formation research.
 
 ## Active Branch
-`feature/vt-b-rejection-audit-scan-009`
+None. `feature/vt-b-rejection-audit-scan-009` is merged and is not an active source of truth.
 
 ## Active PR
-None yet.
+None. PR #248 (`Demote generic routing and isolate latent human-asset legibility`) is merged.
 
 ## CI
-No CI has run yet on Scan 009.
+- PR #248 final head: `417db93a5e3c8358a3a1e78eee8807babda91b28`
+- PR CI: run #760, success
+- merge SHA: `c7cbaa6deac3ac1185884bdb6b731f9899d2ce2c`
+- main CI: run #761, run id `35427182009`, success
 
 ## Latest Artifact / Persisted State
 Current:
