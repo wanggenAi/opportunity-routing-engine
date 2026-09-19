@@ -3,219 +3,249 @@
 Operational handoff only. GitHub live state wins if anything below conflicts with repository facts.
 
 ## Current Mission
+
 The active search remains formation-first and centered on ordinary life.
 
-Scan 012 demotes `LATENT HUMAN-ASSET LEGIBILITY / ACTIVATION` as the primary formation.
+Regenerative Formation Scan 013 restarted from a white portfolio after Scan 012 demoted generic older-adult hidden-asset discovery.
 
-The factual friction remains real:
-- retirement can make capability lose its institutional address;
-- active elicitation can recover hidden value.
+Wide sensing retained exactly one research formation:
 
-But current evidence does not support generic older-adult hidden-asset discovery as a broad, privately sustainable regenerative river.
+`INTERGENERATIONAL HOUSING × COMPANIONSHIP EXCHANGE`
 
-The user's core calibration family remains open:
+This is **not** a commercial candidate.
 
-`YOUNG PEOPLE × RETIRED / LOW-AGE OLDER ADULTS × EVERYDAY LIFE`
+Observed reality is strong enough for causal descent:
+- youth exchange bounded volunteer/companionship contribution for discounted or free accommodation;
+- the pattern is operating across multiple cities/institutions;
+- eldercare/public actors independently describe youth housing pressure, older-adult companionship needs and underused/imbalanced institutional capacity;
+- multiple programs use explicit service-time → accommodation exchange.
 
-No commercial candidate has been promoted.
+But the governing structural cause and any open missing edge remain UNKNOWN.
+
+```text
+RETAINED RESEARCH FORMATION = 1
+ACTIVE COMMERCIAL CANDIDATES = 0
+FORMAL LATENT CONNECTION PROMOTIONS = 0
+FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
+```
 
 ## Goal
-Return to broad world sensing without carrying the failed formation as an active prior.
+
+Run recursive causal descent before any exchange design.
 
 Preserve:
 
 ```text
 REALITY > COGNITION > SCHEMA
+
+INTERESTING EXCHANGE != BUSINESS
+BILATERAL DISEQUILIBRIUM != EVIDENCED MISSING EDGE
+PUBLIC PROGRAM SUCCESS != PRIVATE ORCHESTRATION ECONOMICS
+STRUCTURAL FRICTION != MISSING EDGE
+UNKNOWN != PASS
 ```
 
-and search:
-
-```text
-LARGE / REPLENISHING ACTOR POPULATION A
-+ DURABLE UNDERUSED ENDOWMENT / STATE DISEQUILIBRIUM A
-+
-LARGE / REPLENISHING ACTOR POPULATION B
-+ COMPLEMENTARY ENDOWMENT / STATE DISEQUILIBRIUM B
-+
-REPEATED PARTIAL / INFORMAL / EXPENSIVE FLOW
-+
-RECURRING MISSING EDGE
-+
-NATURAL EVENT SOURCE / DEMAND PUMP
-→ POSSIBLE REGENERATIVE VALUE FIELD
-```
-
-Do not start from explicit jobs, products, gigs, marketplaces or buyer budgets.
+Do not start from an app, marketplace, pricing, buyer budget or founder-delivered service.
 
 ## Current Unique Commercial Research Goal
-Run a **fresh everyday-life regenerative formation scan**.
 
-Priority sensing domains:
-- homes / neighborhoods;
-- family routines;
-- young-adult transitions;
-- retirement transitions;
-- migration / local integration;
-- housing / unused space;
-- time scarcity / time surplus;
-- practical life competence;
-- care and support boundaries;
-- local knowledge;
-- idle physical/social resources;
-- recurring coordination failures.
+Discriminate the causal structure of the retained intergenerational housing/companionship formation.
 
-Young × retired remains an important calibration lens, but do not force every new formation to use that pairing.
+At minimum compare:
 
-For each formation zone require:
-- both sides have large/replenishing potential;
-- the pressure recurs without founder sales;
-- reality already leaks across the boundary;
-- the missing edge is not merely generic matching;
-- the edge is not already normalized by current institutions/platforms;
-- the operator could eventually own the flow without permanent bespoke delivery.
+1. `HOUSING_PRICE_DISEQUILIBRIUM`
+   - low-cost accommodation is the dominant youth outcome.
+
+2. `UNDERUSED_INSTITUTIONAL_CAPACITY`
+   - suitable space has low marginal utilization and youth occupancy improves asset value.
+
+3. `OLDER_ADULT_SOCIAL_CONTACT_DEFICIT`
+   - ordinary intergenerational contact has persistent value that professional staffing does not substitute.
+
+4. `TRUST_RESPONSIBILITY_OPERATING_BOUNDARY`
+   - screening, duty scope, safety, emergencies, insurance, rules, contribution verification, conflict and replacement block repeatable exchange.
+
+5. `PUBLIC_PROGRAM_ECONOMICS`
+   - the exchange works only because institutions/public systems absorb rent discount, coordination and trust costs.
+
+Do not assume #4 merely because it sounds like an orchestration product.
+
+Require discriminating evidence and falsifiers.
 
 ## Current Phase
-`FORMATION_SCAN_012_MERGED / MAIN_GREEN / LATENT_HUMAN_ASSET_LEGIBILITY_DEMOTED / ACTIVE_PRIMARY_NONE / FRESH_LIFE_WORLD_SENSING_NEXT`
+
+`REGENERATIVE_FORMATION_SCAN_013_ACTIVE / WIDE_SCAN_COMPLETE / INTERGENERATIONAL_FORMATION_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO`
 
 ## Last Verified Main
-`29c9fa46eb88fbee015b63569103c6cddedf1ba8` — PR #252 squash-merged. Main CI run #767 (run id `35427958382`) passed on this exact functional SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
+
+`29c9fa46eb88fbee015b63569103c6cddedf1ba8` — PR #252 squash-merged. Main CI run #767 (run id `35427958382`) passed on this exact functional SHA.
+
+Current Scan 013 work is on a feature branch and is not yet main truth.
 
 ## Active Issue
+
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Scan 010 was synced in comment id `5740026636`. Scan 011 was synced in comment id `5740047510`. Scan 012 was synced in comment id `5740078953`.
+Scan 012 was synced in comment id `5740078953`.
 
 No outreach is authorized. Current work remains upstream formation research.
 
 ## Active Branch
-None. `feature/selective-activation-verdict-scan-012` is merged and is not an active source of truth.
+
+`feature/regenerative-formation-scan-013-life-world`
+
+Historical branches named Scan 013 belong to earlier scan families:
+- `feature/connection-pressure-scan-013` — stale, no unique commits vs current main;
+- `field/opportunity-mobilization-scan-013` — old 2026-09-18 opportunity-mobilization scan, behind current main.
+
+They are not the active Regenerative Formation Scan 013.
 
 ## Active PR
-None. PR #252 (`Demote generic hidden-asset discovery after selective-activation audit`) is merged.
+
+None yet.
 
 ## CI
-- PR #252 final head: `e71c4880fe76ac0e3d2a78963453665bf79d8c9c`
-- PR CI: run #766, success
-- merge SHA: `29c9fa46eb88fbee015b63569103c6cddedf1ba8`
-- main CI: run #767, run id `35427958382`, success
+
+No PR CI has run yet on Regenerative Formation Scan 013.
 
 ## Latest Artifact / Persisted State
+
 Current:
+- `data/regenerative_formation_scan_013_fresh_life_world_2026-09-19.json`
+- `field/regenerative-formation-scan-013-fresh-life-world.md`
+
+Parent:
 - `data/regenerative_formation_scan_012_selective_activation_verdict_2026-09-19.json`
 - `field/regenerative-formation-scan-012-selective-activation-verdict.md`
 
-Parents:
-- `data/regenerative_formation_scan_011_value_density_2026-09-19.json`
-- `field/regenerative-formation-scan-011-value-density.md`
-- `data/regenerative_formation_scan_010_source_legibility_2026-09-19.json`
-
 ## Completed
-- Completed and merged Scan 011 through PR #251 and main CI #765.
-- Tested three candidate discovery-cost reducers.
 
-### A. Retirement-transition capture
-- Current systems capture one-person-one-file records, professional specialties, interests and willingness at/near retirement.
-- This clearly preserves context and lowers later rediscovery cost.
-- But current examples are mostly cadres/institutionally known retirees.
-- It therefore mainly preserves already-legible identity rather than proving low-cost discovery of arbitrary everyday/tacit assets.
+### Wide ordinary-life sensing
 
-### B. Use-case-informed discovery
-- Minqing: 43 effective needs → 39 matched projects using resident order / platform dispatch / talent acceptance / evaluation.
-- A Hunan community combines resource mapping + resident questionnaires and reports 98% demand-response rate.
-- Xinghua converts a 2,819-person pool into 12 defined service projects across six service domains.
-- This mechanism is efficient but increasingly resembles mature demand/service routing rather than a unique hidden-asset infrastructure.
+Tested and demoted:
 
-### C. Social referral
-- Organization recommendation, resident nomination and self-nomination are real discovery channels.
-- Adjacent community models show social propagation can happen.
-- But no strong evidence shows:
-  successful asset activation → another high-value elder referral → falling discovery cost → repeated loop.
+#### A. Low-age elder → high-age elder time exchange
+- Strong regenerative circulation is real.
+- Nanjing reports 1,300+ stations, 94,000 volunteers, 1.47 million orders and 920,000 stored hours.
+- National 2026 policy defines mutual eldercare as voluntary/non-profit.
+- Preserve as regenerative-mechanism calibration, not a private primary.
 
-### Ordinary/tacit capability
-- Fengtai and Silver Artisan still prove that overlooked community craft/knowledge can be discovered and activated.
-- But the discovery is category-focused and community/social-organization dependent rather than generic/cheap.
+#### B. Shared off-peak parking
+- Bilateral time-shifted mismatch is real.
+- Shanghai already normalizes discovery, online signing and fulfilment through official parking infrastructure.
+- Generic routing edge is demoted.
 
-### Self-selection counterevidence
-- Current reporting shows ordinary retirees entering newly visible roles such as short-drama acting, livestreaming, dance teaching/performance and silver-age content/community roles.
-- When a role becomes socially legible, some supply self-selects.
-- This weakens the need for a universal discovery intermediary.
+#### C. Generic elder-service routing
+- Family/service fragmentation remains real.
+- Public/basic-service platforms are expanding data integration, discovery, capacity visibility and matching.
+- Any private residual must be observed after that adaptation.
 
-### Verdict
-- `LATENT HUMAN-ASSET LEGIBILITY / ACTIVATION` is DEMOTED from primary formation.
-- Preserve it as:
-  - a real friction;
-  - a sensor;
-  - a subsystem within category-specific flows;
-  - a clue about retirement transition.
-- Reject the unsupported commercial claim that generic older-adult hidden-asset discovery is itself a broad private regenerative river.
-- Preserve `YOUNG × RETIRED EVERYDAY LIFE` as a calibration family.
-- Active commercial candidates remain 0.
-- No product, price or outreach created.
+#### D. Household idle-goods recirculation
+- Idle resource pool is real.
+- National policy and current platforms already expand online booking, home pickup, unified recycling and secondhand channels.
+- Generic recirculation is demoted.
+
+### Retained research formation
+
+`INTERGENERATIONAL HOUSING × COMPANIONSHIP EXCHANGE`
+
+Evidence spans:
+- Shanghai;
+- Changzhou/Wujin;
+- Suzhou;
+- Jinyun;
+- a weak exploratory Xuzhou field signal.
+
+Why retained:
+- actor populations replenish;
+- the exchange exists before founder sales;
+- multiple cities independently reproduce the structure;
+- accommodation ↔ bounded companionship/volunteer contribution is an executed value flow;
+- pressure spans housing, space, time, social contact and belonging rather than a single posted task.
+
+Why not promoted:
+- causal structure is ambiguous;
+- private payer is not established;
+- public/institutional normalization is advancing;
+- volunteer/public-interest orientation may dominate economics;
+- management, safety, responsibility and retention costs are material;
+- no open inter-node missing edge has yet been evidenced.
 
 ## Current Findings
-- `REAL FRICTION != STANDALONE COMMERCIAL RIVER`.
-- `LOWER DISCOVERY COST != HIDDEN-ASSET DENSITY`.
-- `RETIREMENT CAPTURE MAY PRESERVE EXISTING LEGIBILITY RATHER THAN DISCOVER NEW VALUE`.
-- `USE-CASE-INFORMED DISCOVERY MAY COLLAPSE INTO ORDINARY DEMAND MATCHING`.
-- `ORGANIZATIONAL REFERRAL != SUCCESS-GENERATED REFERRAL LOOP`.
-- `SELF-SELECTION AFTER ROLE EMERGENCE WEAKENS THE NEED FOR A GENERAL DISCOVERY INTERMEDIARY`.
-- One attempted young × retired riverbed has been rejected; the broader life-world calibration is not rejected.
-- Current primary formation direction is NONE.
+
+- `ONE RETAINED FORMATION ZONE != PROMOTED OPPORTUNITY`.
+- `REPEATED REAL EXCHANGE IS STRONGER THAN COMPLEMENTARITY, BUT STILL UPSTREAM OF MISSING-EDGE TRUTH`.
+- `PUBLIC PLATFORM FORMATION IS MATERIAL COUNTEREVIDENCE TO A PRIVATE ROUTING THESIS`.
+- `VOLUNTEER EXCHANGE != PAID DEMAND`.
+- `SOCIAL VALUE != NORMALIZED ORCHESTRATION MARGIN`.
+- `MANAGEMENT FRICTION MAY BE A CAUSE, A COST, OR BOTH; DO NOT LABEL IT THE MISSING EDGE PREMATURELY`.
+- Scan 012's demotion remains valid; Scan 013 did not reactivate generic hidden-asset discovery.
+- Young × retired remains useful as a calibration family, but the retained formation is now a specific observed exchange, not a demographic thesis.
 
 ## Blockers
-No current formation is strong enough to promote.
 
-The next formation scan must avoid:
-- carrying forward hidden-asset discovery as a default answer;
-- merely renaming existing community/public service mechanisms;
-- generic matching;
-- task-first demand;
-- enterprise/internal-only bias.
+The retained formation cannot promote until evidence establishes:
+
+1. the selected latent outcome for youth;
+2. the selected latent outcome for older adults and/or the institution;
+3. the governing structural constraint;
+4. discriminating evidence against competing explanations;
+5. a decision-stable causal frontier;
+6. whether suitable underused capacity is sufficiently dense and legally usable;
+7. whether youth retention survives service burden and house rules;
+8. whether companionship/social outcomes persist beyond narrative anecdotes;
+9. whether public/institutional subsidy is required;
+10. whether any recurring missing edge remains after current public/institutional platform adaptation;
+11. a plausible private payer and normalized orchestration economics before any commercial promotion.
 
 `ACTIVE COMMERCIAL CANDIDATES = 0`.
 
 `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 
 ## Next Action
-Start a fresh everyday-life regenerative formation scan from a white active portfolio.
 
-Use broad sensing, especially:
-- young people;
-- low-age retirees;
-- homes;
-- neighborhoods;
-- family routines;
-- migration;
-- housing/space;
-- time surplus/scarcity;
-- practical life skills;
-- local social capital;
-- recurring care/coordination;
-- idle household/community resources.
+Run a focused causal-descent scan on `LIFE013_A_INTERGENERATIONAL_HOUSING_COMPANIONSHIP`.
 
-For each retained formation, require repeated leakage/workaround evidence and a natural Demand Pump before considering a missing edge.
+Do not design the product.
 
-Do not start from jobs, products, gigs, marketplace tasks or buyer budgets.
+Search specifically for:
+- participant retention / churn;
+- institution occupancy and suitable spare-capacity evidence;
+- rent/subsidy economics;
+- manager coordination labor;
+- screening / safety / insurance / duty-boundary practice;
+- elder outcome evidence;
+- youth outcome evidence beyond low rent;
+- failed or discontinued programs;
+- whether government/platform adaptation closes the supposed edge;
+- comparable private-household homeshare leakage, if it actually exists.
+
+Then persist competing latent outcomes, competing causal explanations, discriminating evidence, contradictions, falsifiers and an explicit causal stop reason.
+
+Only after structural truth is evidenced may the system search for complementary nodes and an observed missing edge.
 
 No product design, pricing or outreach.
 
 ## Do Not Repeat
-- Do not reactivate generic hidden-asset discovery because much research was invested in it.
-- Do not treat a real social friction as automatically commercial.
-- Do not force the next formation to involve retirees.
-- Do not abandon young × retired as a calibration family merely because this riverbed failed.
-- Do not return to enterprise/internal examples as the primary scan.
-- Do not choose a product.
+
+- Do not promote cross-generational co-living because the story is attractive.
+- Do not call safety/trust/contracting the missing edge before causal descent proves it.
+- Do not treat Shanghai's planned digital platform as proof that another platform is needed.
+- Do not confuse rent discount with payer willingness.
+- Do not treat volunteer hours as commercial revenue.
+- Do not generalize institution-based exchange into private-home homeshare without evidence.
+- Do not reactivate generic human-asset discovery.
+- Do not return to generic matching.
 - Do not contact actors yet.
 
 ## Guardrails
+
 - GitHub live state is operational source of truth.
 - `REALITY > COGNITION > SCHEMA`.
-- `REAL FRICTION != STANDALONE COMMERCIAL RIVER`.
-- `LOWER DISCOVERY COST != HIDDEN-ASSET DENSITY`.
-- `RETIREMENT CAPTURE MAY PRESERVE EXISTING LEGIBILITY RATHER THAN DISCOVER NEW VALUE`.
-- `USE-CASE-INFORMED DISCOVERY MAY COLLAPSE INTO ORDINARY DEMAND MATCHING`.
-- `ORGANIZATIONAL REFERRAL != SUCCESS-GENERATED REFERRAL LOOP`.
-- `ONE FAILED FORMATION != FAILED CALIBRATION FAMILY`.
+- `STRUCTURAL FRICTION != MISSING EDGE`.
+- `REPEATED LEAKAGE != COMMERCIAL CANDIDATE`.
+- `PUBLIC PROGRAM SUCCESS != PRIVATE ORCHESTRATION ECONOMICS`.
+- `VOLUNTEER EXCHANGE != PAID DEMAND`.
+- `ONE RETAINED FORMATION != BUSINESS`.
 - `UNKNOWN != PASS`.
 - Infer broadly; promote conservatively.

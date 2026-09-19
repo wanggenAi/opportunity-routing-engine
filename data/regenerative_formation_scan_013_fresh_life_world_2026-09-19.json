@@ -1,0 +1,172 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_013_FRESH_LIFE_WORLD",
+  "date": "2026-09-19",
+  "title": "Fresh everyday-life regenerative sensing after hidden-asset demotion",
+  "parent_scan": "REGENERATIVE_FORMATION_SCAN_012_SELECTIVE_ACTIVATION_VERDICT",
+  "objective": "Restart from ordinary life with a white active portfolio and search for large/replenishing actor populations with complementary state disequilibria, repeated real leakage, a non-generic recurring boundary problem and a natural demand/event pump. Do not start from products, jobs, gigs, marketplaces or buyer budgets.",
+  "truth_rules": [
+    "REALITY > COGNITION > SCHEMA",
+    "REPEATED LEAKAGE != COMMERCIAL CANDIDATE",
+    "BILATERAL DISEQUILIBRIUM != EVIDENCED MISSING EDGE",
+    "PUBLIC PROGRAM SUCCESS != PRIVATE ORCHESTRATION ECONOMICS",
+    "PLATFORM NORMALIZATION CAN DESTROY AN APPARENT ROUTING GAP",
+    "VOLUNTEER EXCHANGE != PAID DEMAND",
+    "ONE RETAINED FORMATION ZONE != PROMOTED OPPORTUNITY",
+    "UNKNOWN != PASS"
+  ],
+  "portfolio_before_scan": {
+    "active_commercial_candidates": 0,
+    "primary_formation_direction": null,
+    "preserved_calibration_family": "YOUNG × RETIRED / LOW-AGE OLDER ADULTS × EVERYDAY LIFE"
+  },
+  "formation_zones": [
+    {
+      "id": "LIFE013_A_INTERGENERATIONAL_HOUSING_COMPANIONSHIP",
+      "state": "RETAIN_FOR_CAUSAL_DESCENT_ONLY",
+      "actor_a": "young adults with meaningful urban housing-cost or housing-stability pressure",
+      "actor_b": "older-adult living/eldercare environments with companionship demand and/or underused residential capacity",
+      "observed_exchange": "youth receive discounted or free accommodation in exchange for bounded non-professional companionship/volunteer contribution",
+      "evidence": [
+        {
+          "fact": "Shanghai Civil Affairs explicitly recognizes the combined pressures of eldercare-institution utilization imbalance, youth housing cost/commuting pressure and older residents' non-professional companionship needs; it is studying a municipal intergenerational-co-living digital platform and encouraging enterprise participation.",
+          "source": "https://mzj.sh.gov.cn/MZ_zhuzhan2595_0-2-8-2593/20260608/f8e3a1fa11094a2483d149feb4fb9747.html"
+        },
+        {
+          "fact": "Changzhou Wujin's Qiyuan Qingshe program admits 22–40 year old youth; 20 volunteer hours per month can exchange for a free standard room and 10 hours for half-price accommodation. The mechanism was still operating in September 2026.",
+          "source": "https://www.wj.gov.cn/html/czwj/2026/FAOOPMFJ_0916/562106.html"
+        },
+        {
+          "fact": "Suzhou Civil Affairs publicized a 25-year-old participant paying RMB 200 per month while providing less than four hours of volunteer service per week, showing strong youth-side salience and an already-operating exchange rather than a hypothetical pairing.",
+          "source": "https://minzhengju.suzhou.gov.cn/mzj/qglh/202603/4341ca164f334a098d5b761171dccca5.shtml"
+        },
+        {
+          "fact": "Jinyun's intergenerational co-residence program had accumulated 82 dynamic youth residents, 20 currently resident, 6,246 volunteer hours and RMB 208,200 of rent reduction by March 2026.",
+          "source": "https://zj.people.com.cn/n2/2026/0308/c370990-41518056.html"
+        },
+        {
+          "fact": "A 2025 Jinyun case study reports 28 youth, 2,376 volunteer hours and expansion to other subsidiaries, while also recording background-check, management, schedule, lifestyle, language and retention problems.",
+          "source": "https://www.researchgate.net/publication/392686534_Research_on_the_Intergenerational_Co-Residence_Endowment_Model_in_Jinyun_County"
+        },
+        {
+          "fact": "A 2026 Xuzhou student field study across three eldercare institutions reports high older-adult acceptance and independently surfaces safety guarantees, service-exchange standards and shared-space rules as implementation concerns.",
+          "source": "https://hs.china.com.cn/2026-02/28/content_43362285.html",
+          "evidence_role": "weak/local exploratory signal; not sufficient for promotion"
+        }
+      ],
+      "why_retained": [
+        "both actor populations replenish",
+        "the exchange has repeated across multiple cities and institutions",
+        "the pressure exists before founder sales",
+        "the value flow is not merely an imagined complementarity",
+        "the exchange combines housing capacity, time/companionship and belonging rather than a single explicit gig"
+      ],
+      "competing_latent_outcome_hypotheses": {
+        "youth": [
+          "lower and more stable housing cost",
+          "urban belonging / social support",
+          "meaningful low-intensity contribution without becoming a care worker"
+        ],
+        "older_adult_or_institution": [
+          "more frequent ordinary human contact and social vitality",
+          "better utilization of suitable underused residential space",
+          "younger-age participation in non-professional community life"
+        ]
+      },
+      "counterevidence_and_kill_risks": [
+        "government and eldercare institutions may normalize the model directly, reducing room for an independent orchestration layer",
+        "the current exchange is often volunteer/public-interest oriented rather than market-priced",
+        "background checks, duty boundaries, emergency handling, lifestyle conflict and retention create real operating cost",
+        "housing discounts may be economically supported by institution/public resources and therefore cannot be treated as private gross margin",
+        "youth participation can be sensitive to time burden and rules",
+        "companionship must not drift into unqualified care labor or substitute for professional staffing"
+      ],
+      "not_yet_evidenced": [
+        "the governing structural constraint",
+        "an observed recurring missing edge that remains open after current institutions adapt",
+        "a private payer with repeatable willingness to pay",
+        "positive normalized orchestration economics",
+        "portable trust/risk infrastructure across institutions",
+        "whether institution capacity is sufficiently underused and legally convertible at meaningful density",
+        "whether a household/private-home variant has comparable real leakage"
+      ],
+      "promotion_status": "NOT_A_COMMERCIAL_CANDIDATE",
+      "next_test": "Run recursive causal descent on the institution-based exchange first. Compare competing explanations: housing-price disequilibrium, institutional capacity utilization, elder social-companionship deficit, or trust/responsibility boundary. Only after the governing constraint is evidenced should the system search for an inter-node missing edge."
+    },
+    {
+      "id": "LIFE013_B_MUTUAL_ELDER_TIME_EXCHANGE",
+      "state": "DEMOTE_AS_PRIVATE_PRIMARY__PRESERVE_AS_REGENERATIVE_CALIBRATION",
+      "evidence": [
+        {
+          "fact": "Nanjing reports 1,300+ mutual-care stations covering more than 99% of communities, 94,000 registered volunteers, 1.47 million service orders and 920,000 stored service hours.",
+          "source": "https://www.nanjing.gov.cn/zt/njstdylfwgzlfz/hzsjpt20240819/202605/t20260522_5844787.html"
+        },
+        {
+          "fact": "National 2026 policy defines mutual eldercare as voluntary, non-profit help among neighbors/community residents.",
+          "source": "https://www.gov.cn/zhengce/zhengceku/202604/content_7067394.htm"
+        }
+      ],
+      "verdict": "Strong proof that regenerative circulation can exist, but the primary mechanism is explicitly community/public-interest and non-profit. Do not misclassify it as an open private commercial river."
+    },
+    {
+      "id": "LIFE013_C_SHARED_OFFPEAK_PARKING",
+      "state": "DEMOTED_NORMALIZED_INFRASTRUCTURE",
+      "evidence": [
+        {
+          "fact": "Shanghai's official parking system supports online discovery and contracting for off-peak shared parking; by end-2024 the city reported 44,000 shared spaces.",
+          "source": "https://jtw.sh.gov.cn/jyjabljg/20251211/4097c8e924384f79bc715d4ab4165031.html"
+        },
+        {
+          "fact": "In 2026 Shanghai districts continue routing residents to apply for off-peak shared road parking directly through the Shanghai Parking app.",
+          "source": "https://www.shanghai.gov.cn/nw17239/20260709/8d6b09bd98044573ad9db333ab774068.html"
+        }
+      ],
+      "verdict": "The bilateral time-shifted parking mismatch is real, but discovery/signing/fulfilment is already being normalized as public digital infrastructure. Generic routing adds little unique edge."
+    },
+    {
+      "id": "LIFE013_D_GENERIC_ELDER_SERVICE_ROUTING",
+      "state": "DEMOTED_PLATFORM_NORMALIZATION",
+      "evidence": [
+        {
+          "fact": "Shanghai is building integrated elder-service data/platform infrastructure and expanding searchable service/capacity/quality information plus supply-demand matching models.",
+          "source": "https://mzj.sh.gov.cn/MZ_zhuzhan2595_0-2-8-2593/20260608/c606caccea8049729808a0867c2fcf41.html"
+        }
+      ],
+      "verdict": "Remote-family coordination and fragmented elder services remain real frictions, but a generic booking/dispatch/matching layer is being institutionalized. Any private residual must be evidenced after this adaptation, not assumed."
+    },
+    {
+      "id": "LIFE013_E_HOUSEHOLD_IDLE_GOODS_REUSE",
+      "state": "DEMOTED_MATURE_CHANNEL_EXPANSION",
+      "evidence": [
+        {
+          "fact": "The 2026 national green-consumption action explicitly supports online appointment recycling, home pickup, a unified recycling platform, internet-enabled secondhand commerce, consignment and community flea markets.",
+          "source": "https://www.mofcom.gov.cn/gztz/art/2026/art_bc2dca6b29f144dbb1583d74af2bcfc4.html"
+        }
+      ],
+      "verdict": "Idle household goods are a real resource pool, but current policy and market channels already expand discovery, pickup and resale. Generic neighborhood recirculation is not retained."
+    }
+  ],
+  "cross_scan_verdict": {
+    "retained_research_zones": [
+      "LIFE013_A_INTERGENERATIONAL_HOUSING_COMPANIONSHIP"
+    ],
+    "active_commercial_candidates": 0,
+    "formal_latent_connection_promotions": 0,
+    "new_p0_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "interpretation": "Fresh life-world sensing did not produce a business to launch. It produced one empirically repeated bilateral exchange that deserves causal descent before any missing-edge or business claim."
+  },
+  "next_action": {
+    "mode": "CAUSAL_DESCENT_ON_RETAINED_FORMATION",
+    "formation": "LIFE013_A_INTERGENERATIONAL_HOUSING_COMPANIONSHIP",
+    "requirements": [
+      "separate youth latent outcome from stated low-rent request",
+      "separate older-adult companionship outcome from staffing shortage",
+      "separate institution capacity-utilization motive from elder outcome",
+      "generate competing structural causes rather than jump to trust/platform/product",
+      "collect discriminating evidence and contradictions",
+      "identify whether the accepted causal frontier is intervention-relevant and decision-stable",
+      "do not promote a missing edge until structural truth is evidenced",
+      "do not design product, pricing or outreach"
+    ]
+  }
+}
