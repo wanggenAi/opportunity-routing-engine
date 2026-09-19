@@ -87,7 +87,7 @@ CONNECTION-PRESSURE EVIDENCE
         ↓
 PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
         ↓
-OBSERVED MISSING EDGE / STRANDING BARRIER
+OBSERVED MISSING EDGE
         ↓
 LATENT CONNECTION HYPOTHESIS
         ↓
@@ -134,7 +134,7 @@ INFERRED
 EVIDENCED_STRUCTURE
 ```
 
-The engine may infer structural causes from objective state, behavior, psychology where relevant, institutional rules, technical constraints, rights/access, time/space, trust, money/time sacrifice and repeated workarounds. Inference must remain product-agnostic and falsifiable. A single plausible explanation is not enough; competing explanations and discriminating evidence are required before promotion.
+The engine may infer structural causes from objective state, behavior, psychology where relevant, institutional rules, technical constraints, rights/access, time/space, trust, money/time sacrifice and repeated workarounds. Inference must remain product-agnostic and falsifiable. A single plausible explanation is not enough; competing latent outcomes, competing causal explanations, bound outcome-selection evidence and discriminating evidence are required before promotion.
 
 `STRUCTURAL FRICTION` is upstream of the later inter-node `MISSING EDGE`: the former explains the blocked Actor state transition; the latter explains why complementary nodes cannot transact or coordinate normally.
 
@@ -157,7 +157,7 @@ EVIDENCE_LIMIT_REACHED
 MULTI_CAUSAL_FRONTIER
 ```
 
-`EVIDENCE_LIMIT_REACHED` preserves UNKNOWN and cannot promote.
+`EVIDENCE_LIMIT_REACHED` preserves UNKNOWN and cannot promote. `INTERVENTION_RELEVANT_BOUNDARY` requires both an actionable intervention implication and an explicit decision-stability assertion that deeper search would not change the next decision.
 
 An `INFERRED` causal structure may guide exploratory node search and evidence collection. It may not become candidate truth. The executable model is `src/causal_descent.py`.
 
@@ -618,3 +618,5 @@ UNKNOWN != PASS
 ```
 
 > **不是先由我们想象 A 和 B 应该怎样连接，再让人去现实里替这个想法找证据。系统先观察 Actor 客观拥有什么、状态怎样变化、真实行为怎样偏移、哪些资源被阻塞，以及现实是否已经通过绕行、替代、局部交换、重复尝试和共同压力留下了“连接正在形成”的痕迹。只有这些痕迹收敛成 Connection Pressure，才允许设计最小交换机制，并把人的时间、信誉和现场行动用于最后一个关键未知量。不是创造一条漂亮的路，再问现实愿不愿意走；而是先发现现实已经踩出来的小径，再决定是否值得把它变成路。**
+
+Legacy `STRANDING_BARRIER` is accepted only at compatibility boundaries and is normalized to canonical `MISSING_EDGE`; new canonical records must use `MISSING_EDGE`.
