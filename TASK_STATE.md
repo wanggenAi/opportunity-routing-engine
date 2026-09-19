@@ -55,28 +55,29 @@ Decisive question:
 Do not select a product.
 
 ## Current Phase
-`FORMATION_SCAN_008_ACTIVE / VALUE_FORM_ROUTING_PARTIALLY_OBSERVED / MANUAL_CURATOR_DEPENDENCE_STRONG / REJECTION_SELECTION_AUDIT_NEXT`
+`FORMATION_SCAN_008_MERGED / MAIN_GREEN / VALUE_FORM_ROUTING_PARTIALLY_OBSERVED / MANUAL_CURATOR_DEPENDENCE_STRONG / REJECTION_SELECTION_AUDIT_NEXT`
 
 ## Last Verified Main
-`1f8146a099d59785578a80b18f87540e31e04fea` — PR #246 squash-merged. Main CI run #757 (run id `35426877317`) passed on this functional SHA. Live main later advanced with state-only checkpoint `bccf75d4a4bb3f5de4c370a7df5c2ce7ed651714`.
-
-The current Scan 008 work is on an unmerged feature branch and must pass PR CI before becoming functional main truth.
+`5e431e5e359175fac310b0d0326f184c778a3e0c` — PR #247 squash-merged. Main CI run #759 (run id `35427030326`) passed on this exact functional SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Scan 007 was synced in comment id `5739953888`.
+Scan 007 was synced in comment id `5739953888`. Scan 008 was synced in comment id `5739966795`.
 
 No outreach is authorized. Current work remains upstream formation research.
 
 ## Active Branch
-`feature/vt-b-value-form-routing-scan-008`
+None. `feature/vt-b-value-form-routing-scan-008` is merged and is not an active source of truth.
 
 ## Active PR
-None yet.
+None. PR #247 (`Observe and narrow the VT-B value-form routing function`) is merged.
 
 ## CI
-No CI has run yet on Scan 008.
+- PR #247 final head: `3931d3bdafb7d86a6dabaa87118ec8e6f10e7f2b`
+- PR CI: run #758, success
+- merge SHA: `5e431e5e359175fac310b0d0326f184c778a3e0c`
+- main CI: run #759, run id `35427030326`, success
 
 ## Latest Artifact / Persisted State
 Current:
