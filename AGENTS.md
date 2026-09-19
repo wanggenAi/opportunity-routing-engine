@@ -298,6 +298,12 @@ SURFACE FRICTION
 
 `STRUCTURAL FRICTION` explains why the Actor cannot reach the desired state under current structures. `MISSING EDGE` explains why identified complementary nodes cannot form normal value flow. Do not collapse them.
 
+Recent change is not a universal gate. Persistent observable mismatch may enter causal descent when actor state, behavior, endowment and friction are evidence-bound.
+
+```text
+NO RECENT CHANGE != NO STRUCTURAL FRICTION
+```
+
 ## Causal descent v2 rule — LOCKED
 
 For every material surface signal, the engine must preserve a falsifiable causal chain rather than jump directly from symptom to product.
