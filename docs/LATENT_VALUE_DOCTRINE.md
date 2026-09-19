@@ -35,6 +35,8 @@ The engine should actively search for materially different outcome and causal ex
 
 Discovery may be fluid, nonlinear and generative. Promotion remains strict about evidence binding, provenance, falsifiability, contradiction handling, unresolved unknowns and stop semantics.
 
+Causal depth numbers are descriptive aids, not proof of depth. Parent/child ordering must remain internally consistent, but the engine must not require `1 → 2 → 3 → 4` or invent intermediate causal layers merely to make numbering contiguous.
+
 A rule is justified when it prevents an unsupported inference from being promoted as truth. If a rule mainly suppresses potentially useful exploration, forces artificial narrative structure or rewards form-filling over understanding, it must be weakened, moved downstream or removed.
 
 ## 1. The system does not begin with supply and demand
