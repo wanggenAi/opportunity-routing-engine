@@ -56,26 +56,27 @@ Prove or kill:
 Do not choose a product yet.
 
 ## Current Phase
-`FORMATION_SCAN_005_ACTIVE / LWA_R2_DEMOTED / LWA_VALUE_TRANSLATION_PRIMARY / GENERALITY_REGENERATIVE_LOOP_NEXT`
+`FORMATION_SCAN_005_MERGED / MAIN_GREEN / LWA_R2_DEMOTED / LWA_VALUE_TRANSLATION_PRIMARY / GENERALITY_REGENERATIVE_LOOP_NEXT`
 
 ## Last Verified Main
-`85cf08d10cee929b87c80bfbac1e237dadc8df28` — PR #243 squash-merged. Main CI run #751 (run id `35424084946`) passed on this exact SHA.
-
-The current Scan 005 work is on an unmerged feature branch and must pass PR CI before becoming functional main truth.
+`b441a5e6689ee60353fa9540d58b8030b776e50f` — PR #244 squash-merged. Main CI run #753 (run id `35424356365`) passed on this exact SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-No outreach is authorized. Current work remains upstream formation research.
+Scan 005 was synced to Issue #143 in comment id `5739694500`. No outreach is authorized. Current work remains upstream formation research.
 
 ## Active Branch
-`feature/lwa-r2-value-translation-scan-005`
+None. `feature/lwa-r2-value-translation-scan-005` is merged and is not an active source of truth.
 
 ## Active PR
-None yet.
+None. PR #244 (`Demote programmed reciprocity and deepen intergenerational value translation`) is merged.
 
 ## CI
-No CI has run yet on Scan 005.
+- PR #244 final head: `312e744b04b132591e5a5935b6a450d1e4c4fa70`
+- PR CI: run #752, success
+- merge SHA: `b441a5e6689ee60353fa9540d58b8030b776e50f`
+- main CI: run #753, run id `35424356365`, success
 
 ## Latest Artifact / Persisted State
 Current:
