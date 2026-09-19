@@ -1,0 +1,59 @@
+{
+  "schema_version": "causal-descent.v1",
+  "formation_id": "ATTRACTION_SCAN_003-F1",
+  "resolved_date": "2026-09-19",
+  "verdict": "SURVIVES_CAUSAL_DESCENT_READY_FOR_CHEAP_REALITY_CONFIRMATION",
+  "commercial_candidate": false,
+  "narrowed_formation": "LIGHTWEIGHT_EXECUTABLE_ACCEPTANCE_EVIDENCE_FOR_MIDDLE_VALUE_AI_WORKFLOW_AGENT_DELIVERY",
+  "evidence_state": {
+    "ai_service_market_motion": "EVIDENCED",
+    "acceptance_friction": "EVIDENCED",
+    "middle_value_offering_band": "EVIDENCED_AS_CURRENT_LISTINGS_NOT_POPULATION_DISTRIBUTION",
+    "generic_payment_marketplace_gap": "NOT_A_GAP",
+    "free_acceptance_knowledge_gap": "NOT_A_GAP",
+    "generic_eval_engine_gap": "NOT_A_GAP",
+    "formal_testing_gap": "NOT_A_GAP",
+    "consulting_gap": "NOT_A_GAP",
+    "transaction_specific_executable_evidence_edge": "STRUCTURALLY_DISTINCT_UNVALIDATED",
+    "bilateral_adoption": "NOT_PROVEN",
+    "willingness_to_pay": "NOT_PROVEN"
+  },
+  "strongest_wedge": {
+    "category": "AI_WORKFLOW_TOOL_USING_AGENT",
+    "reason": "state transitions tool calls permissions fallback traces latency cost and retries are comparatively machine-observable",
+    "rejected_adjacent_categories": [
+      "OPEN_ENDED_CREATIVE_GENERATION",
+      "GENERIC_AI_CODED_WEBSITES",
+      "HUMAN_LABEL_HEAVY_RAG_AS_PRIMARY_WEDGE"
+    ]
+  },
+  "incumbent_resolution": {
+    "discovery_matching": "MATURE",
+    "payment_dispute": "MATURE",
+    "acceptance_templates": "COMMODITIZED_FREE",
+    "agent_evaluation": "MATURE",
+    "formal_testing": "MATURE",
+    "project_diagnosis_acceptance_consulting": "EXISTS",
+    "lightweight_transaction_specific_executable_evidence": "DECISIVE_UNKNOWN"
+  },
+  "operator_non_labor_test": "CONDITIONAL_PASS_FOR_CHEAP_VALIDATION_ONLY",
+  "self_propulsion": "PLAUSIBLE_UNPROVEN",
+  "control_rights": "RELATIVELY_CONCENTRATED",
+  "next_action": "CREATE_AND_RUN_CHEAP_REALITY_CONFIRMATION_PACKET_WITHOUT_PRODUCT_BUILD",
+  "fail_conditions": [
+    "normal milestone descriptions are sufficient for participants",
+    "transaction value cannot support any extra acceptance friction",
+    "acceptance requires deep recurring domain consulting",
+    "only one transaction side values the object",
+    "acceptance pack generation requires substantial manual work"
+  ],
+  "prohibitions": [
+    "NO_PRODUCT_BUILD",
+    "NO_SAAS",
+    "NO_MARKETPLACE",
+    "NO_ESCROW",
+    "NO_GENERIC_AGENT_EVAL",
+    "NO_PRICING_PAGE",
+    "NO_SCALE_CLAIM"
+  ]
+}
