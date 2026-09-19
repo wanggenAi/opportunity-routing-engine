@@ -3,11 +3,11 @@
 Operational handoff only. GitHub live state wins if anything below conflicts with repository facts.
 
 ## Current Mission
-The active commercial search has been reset at the discovery-philosophy layer.
+The active commercial search remains formation-first and regenerative, but the current primary sensing domain has been corrected toward **everyday life**.
 
-All task-first, gig-first, buyer-budget-first and transaction-spread examples — including CSVF-001/002/003 and the Shanghai wine-shop task — are historical/downstream calibration only. They must not seed active discovery.
+The user's long-standing calibration example is now explicit: younger people and retired/low-age older adults may each hold large, replenishing pools of underused everyday resources. The system should search how these resources already leak toward each other in ordinary life before looking at industrial/internal-enterprise structures.
 
-The active mission is to discover **regenerative latent-value fields**: large/replenishing actor populations with durable state/endowment disequilibria, repeated connection pressure, partial/informal/expensive flows, a recurring missing edge and a natural Demand Pump.
+All explicit task/gig/budget/quote examples remain downstream calibration only.
 
 ## Goal
 Preserve:
@@ -16,181 +16,192 @@ Preserve:
 REALITY > COGNITION > SCHEMA
 ```
 
-and the formation-first path:
+and search:
 
 ```text
-BROAD WORLD SENSING
-→ ACTOR / ENDOWMENT / STATE
+EVERYDAY ACTORS
+→ OBJECTIVE ENDOWMENTS
+→ RETIREMENT / YOUTH LIFE STATE
 → UNDERUSE / CONTRADICTION
-→ LATENT OUTCOME
-→ STRUCTURAL FRICTION
-→ COMPLEMENTARY NODES
+→ RECIPROCAL LATENT OUTCOMES
+→ PARTIAL REAL-LIFE EXCHANGE
 → CONNECTION PRESSURE
-→ PARTIAL / INFORMAL / EXPENSIVE FLOW
 → RECURRING MISSING EDGE
 → DEMAND PUMP
 → LATENT CONNECTION
-→ only later: exchange mechanics / payer / transaction
+→ only later: product / payer / transaction
 ```
 
-The target is not a one-off job. The target is a repeatable value channel that reality is already trying to form.
+The target is a long-lived river of value, not a single service request.
 
 ## Current Unique Commercial Research Goal
-Deepen `RFZ-001` only at the **connection-pressure / recurring-missing-edge** layer.
+Discriminate the deeper missing edge across the active life-world intergenerational formation family `LWF-INTERGEN-001`.
 
-RFZ-001:
-cross-generational industrial cognition × young AI/digital execution × traditional-enterprise transformation pressure.
+Current active formation zones:
+- `LWF-001` spare housing / affordable youth living × companionship / everyday support;
+- `LWF-002` retired time / childcare experience × young dual-income family time scarcity;
+- `LWF-003` retired life/local/craft knowledge × youth digital capability and reciprocal learning;
+- `LWF-004` retired craft/life production × youth design / storytelling / distribution.
 
-Two competing missing-edge hypotheses remain open:
-1. enterprises cannot easily assemble a trusted external composite of domain cognition + AI/digital execution outside family/internal/institutional channels;
-2. senior tacit industrial know-how becomes stranded at retirement because firms lack a repeatable way to extract, validate, structure and make that cognition callable by younger people/software/AI.
+Cross-domain hypothesis:
+unrelated generations may lack a trusted, bounded, reciprocal relationship infrastructure that makes everyday value safely callable outside kinship/community/institution-led programs.
 
-Do not design a product, search explicit buyers, calculate price or contact actors until one recurring missing edge is actually evidenced.
+Do not promote this hypothesis until it survives domain-specific contradiction search.
 
 ## Current Phase
-`REGENERATIVE_FLOW_RESET_MERGED / MAIN_GREEN / ACTIVE_CANDIDATES_ZERO / RFZ_001_CAUSAL_DISCRIMINATION_NEXT`
+`LIFE_WORLD_INTERGENERATIONAL_SCAN_002_ACTIVE / ACTIVE_CANDIDATES_ZERO / CROSS_DOMAIN_MISSING_EDGE_DISCRIMINATION_NEXT`
 
 ## Last Verified Main
-`e3cbbf7b3eb0daebd63bef44e1fea7142c85943f` — PR #240 squash-merged. Main CI run #745 (run id `35423368600`) passed on this exact SHA. The state-only checkpoint commit that updates this file may advance live `main` with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
+`e3cbbf7b3eb0daebd63bef44e1fea7142c85943f` — regenerative reset PR #240 squash-merged. Main CI run #745 (run id `35423368600`) passed on this functional SHA. Live main later advanced with state-only checkpoint `3023a1e9dfb550152af9be4674a8b253be11951c`.
+
+The current life-world scan is on an unmerged feature branch and must pass PR CI before becoming functional main truth.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Regenerative reset and Formation Scan 001 were synced to Issue #143 in comment id `5739576549`.
-
-Issue #143 remains the eventual external-truth mission anchor, but its previous task-first route comments are historical. No field action is currently authorized because upstream connection truth has been reset.
+Issue #143 remains the eventual external-truth mission anchor. No outreach is authorized because formation truth is still upstream.
 
 ## Active Branch
-None. `feature/regenerative-flow-reset` is merged and is not an active source of truth.
+`feature/life-world-intergenerational-formation`
 
 ## Active PR
-None. PR #240 (`Reset discovery to regenerative latent-value formation`) is merged.
+None yet.
 
 ## CI
-- PR #240 final head: `e6f0acc7ca1a0f1237d3f6460cb206225971c52c`
-- PR CI: run #744, run id `35423343944`, success
-- merge SHA: `e3cbbf7b3eb0daebd63bef44e1fea7142c85943f`
-- main CI: run #745, run id `35423368600`, success
+No CI has run yet on the current life-world branch.
 
 ## Latest Artifact / Persisted State
-Active discovery reset:
-- `docs/research/REGENERATIVE_FLOW_DISCOVERY_RESET_2026-09-19.md`
+Primary current scan:
+- `data/regenerative_formation_scan_002_life_world_2026-09-19.json`
+- `field/regenerative-formation-scan-002-life-world.md`
 
-Active formation scan:
+Current doctrine/reset:
+- `docs/research/REGENERATIVE_FLOW_DISCOVERY_RESET_2026-09-19.md`
+- `AGENTS.md`
+- `docs/FORMAL_TRUTH.md`
+
+Previous industrial scan:
 - `data/regenerative_formation_scan_001_2026-09-19.json`
 - `field/regenerative-formation-scan-001.md`
 
-Doctrine updates:
-- `AGENTS.md` — locked regenerative formation search rule.
-- `docs/FORMAL_TRUTH.md` — locked regenerative formation object.
+Industrial RFZ-001 is now `SECONDARY_REFERENCE_NOT_CURRENT_PRIMARY_SCAN`.
 
-Superseded downstream calibration only:
-- `docs/research/CLEAN_SLATE_COMMERCIAL_RESET_2026-09-19.md`
-- `data/clean_slate_value_flow_scan_001_2026-09-19.json`
-- `field/clean-slate-value-flow-scan-001.md`
-- `data/transaction_unit_validation_001_2026-09-19.json`
-- `field/transaction-unit-validation-001.md`
-- `field/bounded-executor-quote-request-001.md`
-- CSVF-001 / CSVF-002 / CSVF-003 and the Shanghai wine-shop unit.
-
-All older pre-reset commercial cases also remain historical only.
+All task-first / CSVF / Shanghai wine-shop artifacts remain historical/downstream calibration only.
 
 ## Completed
-- Re-read the constitutional discovery documents before changing the active search direction.
-- Confirmed that the previous task-first clean-slate search contradicted locked doctrine: explicit jobs/RFQs/tasks are downstream evidence, not core latent-value formation.
-- Created and merged the regenerative-flow discovery reset.
-- Locked into `AGENTS.md`:
-  - `EXPLICIT TASK != DISCOVERY SEED`;
-  - `ONE LIVE TRANSACTION != DEMAND PUMP`;
-  - `PRICE SPREAD != LATENT CONNECTION`;
-  - `BUYER BUDGET != FORMATION EVIDENCE`;
-  - `PROVIDER QUOTE != CONNECTION PRESSURE`;
-  - `RECURRING FOUNDER SEARCH != REGENERATIVE DEMAND`.
-- Locked the regenerative value-field object into `docs/FORMAL_TRUTH.md`.
-- Marked the recent Clean-Slate/CSVF/task-first artifacts `SUPERSEDED / HISTORICAL / DOWNSTREAM CALIBRATION ONLY`.
-- Reset active commercial candidates to 0 and active transaction units to 0.
-- Executed a fresh formation-first scan without using job/task feeds as seeds.
-- Persisted:
-  - `RFZ-001` cross-generational industrial cognition × AI/digital execution;
-  - `RFZ-002` shared manufacturing capacity circulation;
-  - `RFZ-003` industrial byproduct/energy circular symbiosis.
-- Classified RFZ-002 and RFZ-003 as benchmark/maturing fields, not active business candidates.
-- Found broad current evidence that RFZ-001's component populations are large/replenishing:
-  - Jiangsu has 12,000+ silver professional talents in enterprise-support pools;
-  - national old-tech-worker programmes report about 108,000 participants serving 12,000 enterprises and solving 40,000+ technical problems;
-  - Jiangsu plans 200,000+ AI training instances annually, including 50,000+ for youth.
-- Found repeated partial-flow evidence:
-  - senior experts repeatedly enter enterprises;
-  - silver experts train and jointly attack problems with young technical backbones;
-  - young internal teams convert AI tools into real enterprise operations;
-  - family succession lets digitally capable younger family members enter traditional factories through pre-existing trust/access;
-  - manufacturers are beginning to pair senior tacit-process experts directly with AI engineers to capture know-how before retirement.
-- Found a deeper `人走技绝` signal: a 70+ manufacturing expert is working with AI engineers to distill decades of tacit process judgment into AI-callable knowledge before retirement.
-- Preserved two competing RFZ-001 missing-edge hypotheses rather than collapsing them.
-- PR #240 and main CI #745 are green.
-- Sent no outreach, designed no product and calculated no transaction margin.
+- Re-centered the active scan on ordinary daily life rather than enterprises/internal employee structures.
+- Searched current cross-generational life-world evidence.
+- Persisted `LWF-INTERGEN-001` as a formation family, not a business.
+- Persisted four distinct life-world formation zones rather than collapsing them prematurely.
+
+### LWF-001 — housing / companionship
+- Shanghai 2026 policy response explicitly links youth housing pressure with elder companionship through intergenerational co-living/service-for-housing.
+- Changzhou 2026 public eldercare institution allows 22-40 year-olds to exchange 10-20 monthly volunteer hours for discounted/free accommodation.
+- Suzhou has similar youth co-living practice.
+- Missing edge remains inferred: fit, trust, privacy, liability, boundary and continuity.
+
+### LWF-002 — retired childcare time / young-parent time scarcity
+- Multi-city “共享奶奶” flows connect healthy 50-65-ish retirees with dual-income families.
+- One community model had delivered 3,472 child-service instances by end-2024.
+- The school/work “4:30” mismatch is recurrent rather than one-off.
+- Some beneficiary families form a “反哺联盟” that later helps older residents, showing actual reciprocity.
+- Safety/liability/licensing boundaries remain critical.
+
+### LWF-003 — reciprocal life/digital skills
+- Shanghai launched “和100位长辈交换技能”: youth wanted dialect, market-shopping, knitting, woodwork; elders wanted smartphone/video skills.
+- Current communities show elders teaching traditional/life skills while youth teach digital creation.
+- Xuzhou has direct local evidence: students teach video calling; a retired carpenter teaches woodwork; a retired engineer and students turn “老徐州记忆” into short video.
+- Large-scale youth digital-support networks show the digital-help side is recurrent, not isolated.
+- Commercial value remains UNKNOWN and may be primarily social.
+
+### LWF-004 — retired craft production / youth design-distribution
+- Shaoxing's six-year cross-generational basket collaboration shows a concrete value-formation effect: roughly RMB 6 low-demand traditional baskets became roughly RMB 60 youth-reframed cultural products with demand exceeding supply.
+- Elders produce; youth design/package/promote/distribute; 80% of proceeds return to artisans.
+- Shanghai “退休市集” and Beijing “银发匠人” provide adjacent examples.
+- This is the strongest current economic partial-flow evidence, but generality beyond craft/cultural goods remains UNKNOWN.
+
+### Cross-domain pattern
+Across housing, childcare, reciprocal skills and craft commercialization, successful flows repeatedly depend on a trusted organizer:
+- community;
+- school;
+-养老 institution;
+- social organization;
+- workshop/market organizer.
+
+These layers repeatedly provide some combination of discovery, identity, screening, trust, space, scheduling, rules, accountability, reciprocity and continuity.
+
+A cross-domain missing-edge hypothesis now exists:
+`TRUSTED RELATIONSHIP INFRASTRUCTURE FOR NON-KIN INTERGENERATIONAL EXCHANGE`.
+
+It is NOT promoted.
+
+- Industrial RFZ-001 was demoted to secondary reference.
+- Active commercial candidates remain 0.
+- Active transaction units remain 0.
+- No product, pricing or outreach was created.
 
 ## Current Findings
-- The previous “find a live paid task → find a provider → take spread” model is explicitly superseded as an upstream discovery method.
-- RFZ-002 shared manufacturing is a strong calibration example of the desired end-state: recurrent idle capacity + recurrent small-firm deficit + repeated flow + standardizable routing + recurring order cycles. Its generic missing edge is already being productized.
-- RFZ-003 circular industrial symbiosis is another strong regenerative benchmark: production continuously regenerates byproducts and input demand, while regulation/quality/logistics already shape the river.
-- RFZ-001 is the only active **formation zone**, not an opportunity.
-- RFZ-001 has strong evidence of durable potential-energy fields and partial flows, but the canonical recurring `MISSING_EDGE` is still UNKNOWN.
-- Family succession is an adjacent natural experiment: kinship supplies trust/access/context and shows what happens when young digital execution can actually enter an old industrial asset. It does not prove that a non-family commercial mechanism is viable.
-- `人走技绝` may be a deeper resource-state disequilibrium than generic senior employment: AI is changing the economic callability of tacit industrial cognition.
-- Current FDE / AI consultancy / digital-transformation / knowledge-management structures may already own all or part of the edge and must be treated as contradiction evidence.
-- No business vertical is selected.
+- The user's original younger-person × retired-person example is not a single opportunity; it is a family of visible everyday-life latent-value fields.
+- The strongest formation signal is not “old people need help.” It is **bidirectional underused value**.
+- Housing, childcare, skills and craft flows all show real partial exchange, not theoretical complementarity.
+- Xuzhou itself contains visible reciprocal cross-generational examples, so this is not only a Shanghai/Beijing phenomenon.
+- The same organizer/trust scaffold appears repeatedly across otherwise different domains, which may indicate a deeper missing edge.
+- But it may also be false unification: childcare safety, housing privacy and craft distribution may be fundamentally different barriers.
+- LWF-004 is the clearest case where cross-generational recombination visibly increases economic value, but it is not yet evidence of a broad market archetype.
 
 ## Blockers
-RFZ-001 cannot promote until evidence distinguishes the competing missing-edge hypotheses.
+The life-world formation family cannot promote until the system distinguishes:
 
-Still UNKNOWN:
-1. whether enterprises repeatedly suffer a **trust/context assembly gap** between domain experts and AI/digital executors;
-2. whether they repeatedly suffer a **tacit-knowledge extraction/callability gap** around retirement/turnover;
-3. whether either gap survives current internal hiring, FDE, consulting, knowledge-management, expert-network and public-institution routes;
-4. whether the edge is similar enough across enterprises to standardize;
-5. whether recurrence is strong enough to form a real Demand Pump rather than a set of bespoke projects.
+1. one shared relationship-infrastructure gap versus several unrelated domain-specific gaps;
+2. genuine reciprocal willingness versus activity participation caused mainly by community organization;
+3. repeatable circulation versus one-off events/volunteer programs;
+4. commercializable surplus versus social/public-good value;
+5. durable organizer value versus participants bypassing after first connection;
+6. scalable trust/safety mechanisms versus irreducibly local relationship trust.
 
 `ACTIVE COMMERCIAL CANDIDATES = 0`.
 
 `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 
 ## Next Action
-Deepen `RFZ-001` by searching only for discriminating evidence at the workaround/failure layer:
-- retirement/turnover knowledge-loss events;
-- firms retaining/rehiring senior experts because knowledge cannot transfer;
-- AI/digital projects stalling because implementers lack tacit process/business context;
-- ad-hoc senior-expert + young/AI-engineer pairings;
-- family/insider trust acting as a substitute for the missing edge;
-- incumbent FDE / digital-transformation / knowledge-management routes that may already normalize the flow.
+Run a cross-domain missing-edge discrimination pass across `LWF-001..004`.
 
-Kill RFZ-001 if the evidence shows the flow is already normalized, the apparent edge is not recurring/standardizable, or family/internal authority is the non-transferable reason the precedents work.
+Search specifically for:
+- failed or abandoned intergenerational matches;
+- trust/privacy/safety incidents or concerns;
+- why community/institution involvement was necessary;
+- whether relationships continue after organizer withdrawal;
+- participant willingness for paid/reciprocal exchange;
+- how reciprocity is recorded;
+- whether the same identity/screening/boundary/accountability mechanisms recur across domains;
+- incumbent platforms/services that already solve these edges.
 
-Do not search explicit buyer tasks, provider quotes, prices or gigs in the next stage.
+If the same missing edge survives at least multiple distinct life domains, preserve it as a deeper latent-connection hypothesis.
+
+If barriers are domain-specific, keep the formations separate.
+
+Do not design an “intergenerational platform,” price a service or contact actors yet.
 
 ## Do Not Repeat
-- Do not reactivate CSVF-001/002/003 or the Shanghai wine-shop task as active discovery.
-- Do not start from job posts, gigs, tenders, RFQs, buyer budgets or provider quotes.
-- Do not treat one transaction as a Demand Pump.
-- Do not infer a latent connection from two complementary populations alone.
-- Do not design “retired experts + young AI” as a service before the missing edge is observed.
-- Do not turn RFZ-001 into an expert marketplace, gig platform, consulting offer or training product.
-- Do not treat policy programmes as independent commercial proof.
-- Do not confuse partial flow with an open market gap.
-- Do not collapse the two RFZ-001 missing-edge hypotheses.
-- Do not contact actors until one narrow decisive unknown remains after broad evidence.
-- Do not calculate pricing before downstream transaction projection is justified.
+- Do not make industrial/internal-enterprise examples the primary current scan.
+- Do not reduce young × retired to “young serve elders.”
+- Do not reduce it to “eldercare.”
+- Do not assume all older-adult value is professional expertise.
+- Do not collapse housing, childcare, skills and craft into one business without shared-edge evidence.
+- Do not treat a volunteer/community program as proof of private paid demand.
+- Do not infer commercialization from social value.
+- Do not start from explicit jobs/gigs/budgets/quotes.
+- Do not design a platform before the relationship infrastructure gap is evidenced.
+- Do not contact actors yet.
 
 ## Guardrails
-- GitHub live state is the operational source of truth.
+- GitHub live state is operational source of truth.
 - `REALITY > COGNITION > SCHEMA`.
-- `DEMAND DISCOVERY != LATENT VALUE FORMATION`.
-- `EXPLICIT TASK != DISCOVERY SEED`.
-- `ONE LIVE TRANSACTION != DEMAND PUMP`.
-- `COMPLEMENTARITY != LATENT CONNECTION`.
-- `CONNECTION HYPOTHESIS != CONNECTION PRESSURE EVIDENCE`.
-- `PARTIAL FLOW != OBSERVED MISSING EDGE`.
-- `PRICE SPREAD != LATENT CONNECTION`.
-- `REGENERATIVE EVENT FLOW > ONE-OFF TRANSACTION`.
+- `LIFE_WORLD OBSERVATION > ENTERPRISE-CONVENIENCE BIAS` for the current scan.
+- `MUTUAL BENEFIT != LATENT CONNECTION`.
+- `COMMUNITY PROGRAM != OPEN COMMERCIAL EDGE`.
+- `PARTIAL FLOW != MISSING EDGE`.
+- `SOCIAL VALUE != COMMERCIAL VALUE`.
+- `ONE EXAMPLE != REGENERATIVE FIELD`.
 - `UNKNOWN != PASS`.
-- Infer broadly and fluidly; promote conservatively.
+- Infer broadly; promote conservatively.
