@@ -17,6 +17,7 @@ from src.causal_descent import (
     CausalDescentRecord,
     causal_descent_from_mapping,
     validate_causal_descent_for_promotion,
+    validate_causal_projection,
 )
 
 
@@ -156,20 +157,18 @@ def missing_validation_evidence(candidate: LatentValueCandidate) -> list[Evidenc
     return sorted(missing, key=lambda item: item.value)
 
 
-def _normalized_text(value: str) -> str:
-    return " ".join(value.split()).strip().casefold()
-
-
 def _causal_projection_errors(
     *,
     actor: str,
+    current_state: str,
+    surface_phenomenon: str,
     latent_outcome_hypothesis: str,
     structural_friction_hypothesis: str,
     causal_descent: CausalDescentRecord | None,
     causal_descent_record_id: str = "",
     causal_stop_reason: str = "",
 ) -> list[str]:
-    """Ensure denormalized candidate summaries cannot drift from causal lineage."""
+    """Require promotable causal lineage, not an ID or narrative summary."""
 
     if causal_descent is None:
         return ["missing:causal_descent"]
@@ -178,46 +177,18 @@ def _causal_projection_errors(
         f"causal_descent:{error}"
         for error in validate_causal_descent_for_promotion(causal_descent)
     ]
-
-    if _normalized_text(causal_descent.actor) != _normalized_text(actor):
-        errors.append("causal_descent_actor_mismatch")
-
-    outcomes = {
-        item.outcome_id: item for item in causal_descent.outcome_hypotheses
-    }
-    selected = outcomes.get(causal_descent.selected_outcome_id)
-    if selected is None:
-        errors.append("causal_descent_selected_outcome_missing")
-    elif _normalized_text(selected.statement) != _normalized_text(
-        latent_outcome_hypothesis
-    ):
-        errors.append("latent_outcome_projection_mismatch")
-
-    constraints = {
-        item.constraint_id: item
-        for item in causal_descent.constraint_hypotheses
-    }
-    lead = [
-        constraints[item]
-        for item in causal_descent.lead_constraint_ids
-        if item in constraints
-    ]
-    if len(lead) == 1 and _normalized_text(lead[0].causal_claim) != _normalized_text(
-        structural_friction_hypothesis
-    ):
-        errors.append("structural_friction_projection_mismatch")
-
-    if causal_descent_record_id and causal_descent_record_id != causal_descent.record_id:
-        errors.append("causal_descent_record_id_mismatch")
-
-    expected_stop = (
-        causal_descent.stop_reason.value
-        if causal_descent.stop_reason is not None
-        else ""
+    errors.extend(
+        validate_causal_projection(
+            causal_descent,
+            actor=actor,
+            current_state=current_state,
+            surface_phenomenon=surface_phenomenon,
+            latent_outcome_hypothesis=latent_outcome_hypothesis,
+            structural_friction_hypothesis=structural_friction_hypothesis,
+            record_id=causal_descent_record_id,
+            stop_reason=causal_stop_reason,
+        )
     )
-    if causal_stop_reason and causal_stop_reason != expected_stop:
-        errors.append("causal_stop_reason_mismatch")
-
     return errors
 
 
@@ -255,6 +226,8 @@ def validate_candidate(candidate: LatentValueCandidate) -> list[str]:
     errors.extend(
         _causal_projection_errors(
             actor=candidate.actor,
+            current_state=candidate.observed_state,
+            surface_phenomenon=candidate.surface_phenomenon_or_friction,
             latent_outcome_hypothesis=candidate.latent_outcome_hypothesis,
             structural_friction_hypothesis=candidate.structural_friction_hypothesis,
             causal_descent=candidate.causal_descent,
@@ -294,6 +267,8 @@ def discovery_state(candidate: LatentValueCandidate) -> DiscoveryState:
         and EvidenceKind.STRUCTURAL_FRICTION in evidence_kinds(candidate)
         and not _causal_projection_errors(
             actor=candidate.actor,
+            current_state=candidate.observed_state,
+            surface_phenomenon=candidate.surface_phenomenon_or_friction,
             latent_outcome_hypothesis=candidate.latent_outcome_hypothesis,
             structural_friction_hypothesis=candidate.structural_friction_hypothesis,
             causal_descent=candidate.causal_descent,
@@ -406,6 +381,10 @@ def validate_candidate_record(record: Mapping[str, object]) -> list[str]:
         errors.extend(
             _causal_projection_errors(
                 actor=str(record.get("actor") or ""),
+                current_state=str(record.get("observed_state") or ""),
+                surface_phenomenon=str(
+                    record.get("surface_phenomenon_or_friction") or ""
+                ),
                 latent_outcome_hypothesis=str(
                     record.get("latent_outcome_hypothesis") or ""
                 ),
