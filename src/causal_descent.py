@@ -203,6 +203,19 @@ def _string_tuple(value: object, *, field_name: str) -> tuple[str, ...]:
     return items
 
 
+def _ensure_string_fields(
+    raw: Mapping[str, object],
+    field_names: Sequence[str],
+    *,
+    prefix: str = "",
+) -> None:
+    for field_name in field_names:
+        value = raw.get(field_name)
+        if value is not None and not isinstance(value, str):
+            qualified = f"{prefix}.{field_name}" if prefix else field_name
+            raise ValueError(f"{qualified} must be a string")
+
+
 def _bool_value(value: object, *, field_name: str) -> bool:
     if not isinstance(value, bool):
         raise ValueError(f"{field_name} must be a boolean")
@@ -228,6 +241,11 @@ def causal_descent_from_mapping(raw: Mapping[str, object]) -> CausalDescentRecor
     for index, item in enumerate(raw_outcomes):
         if not isinstance(item, Mapping):
             raise ValueError(f"outcome_hypotheses[{index}] must be an object")
+        _ensure_string_fields(
+            item,
+            ("outcome_id", "statement", "truth_state"),
+            prefix=f"outcome_hypotheses[{index}]",
+        )
         try:
             truth_state = CausalTruthState(str(item.get("truth_state") or "INFERRED"))
         except ValueError as exc:
@@ -264,6 +282,19 @@ def causal_descent_from_mapping(raw: Mapping[str, object]) -> CausalDescentRecor
     for index, item in enumerate(raw_constraints):
         if not isinstance(item, Mapping):
             raise ValueError(f"constraint_hypotheses[{index}] must be an object")
+        _ensure_string_fields(
+            item,
+            (
+                "constraint_id",
+                "outcome_id",
+                "causal_claim",
+                "mechanism",
+                "truth_state",
+                "parent_constraint_id",
+                "intervention_implication",
+            ),
+            prefix=f"constraint_hypotheses[{index}]",
+        )
         try:
             truth_state = CausalTruthState(str(item.get("truth_state") or "INFERRED"))
         except ValueError as exc:
@@ -306,6 +337,22 @@ def causal_descent_from_mapping(raw: Mapping[str, object]) -> CausalDescentRecor
                 ),
             )
         )
+
+    _ensure_string_fields(
+        raw,
+        (
+            "record_id",
+            "actor",
+            "current_state",
+            "surface_phenomenon",
+            "selected_outcome_id",
+            "outcome_selection_rationale",
+            "stop_reason",
+            "stop_rationale",
+            "decisive_unknown",
+            "notes",
+        ),
+    )
 
     raw_stop = raw.get("stop_reason")
     stop_reason: CausalStopReason | None = None
