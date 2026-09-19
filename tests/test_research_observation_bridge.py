@@ -1,52 +1,113 @@
-import json
+import copy
 import tempfile
 import unittest
 from pathlib import Path
 
 from src.observation_store import SQLiteObservationStore
 from src.observed_patterns import summarize_observed_patterns
-from src.research_observation_bridge import (
-    build_reviewed_research_observations,
-    summarize_reviewed_research_observations,
-)
+from src.research_observation_bridge import build_reviewed_research_observations, summarize_reviewed_research_observations
 
 
-RUN_DIR = Path("data/research_runs/BROAD_DISCOVERY_RUN_001_2026-09-14")
+def _fixtures():
+    evidence = {
+        "evidence": [
+            {
+                "evidence_id": "ev-official",
+                "source_url": "https://example.test/official",
+                "source_family": "OFFICIAL",
+                "origin_geography": "CN",
+                "relevance_geography": "CN",
+            },
+            {
+                "evidence_id": "ev-community",
+                "source_url": "https://example.test/community",
+                "source_family": "PUBLIC_COMMUNITY",
+                "origin_geography": "CN",
+                "relevance_geography": "CN",
+            },
+        ]
+    }
+    reviewed = {
+        "schema_version": "reviewed-research-observations.v1",
+        "semantics": "REVIEWED_SOURCE_CAPTURE_NOT_FULL_PAGE",
+        "retrieved_at": "2026-09-19T12:00:00+08:00",
+        "records": [
+            {
+                "observation_id": "obs-official",
+                "research_evidence_id": "ev-official",
+                "source_origin_geography": "CN",
+                "relevance_geographies": ["CN"],
+                "sampling_boundary": "SYNTHETIC_TEST_NOT_FULL_PAGE",
+                "captured_payload": {"fixture": "official"},
+                "actor_ids": ["actor:synthetic-a"],
+                "evidence_excerpt": "Synthetic observation for bridge behavior only.",
+                "source_id": "SYNTHETIC_OFFICIAL",
+                "source_record_id": "record-a",
+                "source_tier": "TEST",
+                "observed_at": "2026-09-18T10:00:00+08:00",
+                "unknown_fields": ["PERMISSION_UNKNOWN"],
+                "claims": [
+                    {
+                        "claim_id": "claim-a",
+                        "primitive": "BEHAVIOR",
+                        "concept": "SYNTHETIC_WORKAROUND",
+                        "epistemic_status": "OBSERVED",
+                        "actor_id": "actor:synthetic-a",
+                        "geography": "CN",
+                    }
+                ],
+            },
+            {
+                "observation_id": "obs-community",
+                "research_evidence_id": "ev-community",
+                "source_origin_geography": "CN",
+                "relevance_geographies": ["CN"],
+                "sampling_boundary": "SYNTHETIC_TEST_NOT_FULL_PAGE",
+                "captured_payload": {"fixture": "community"},
+                "actor_ids": ["actor:synthetic-b"],
+                "evidence_excerpt": "Synthetic community report for bridge behavior only.",
+                "source_id": "SYNTHETIC_COMMUNITY",
+                "source_record_id": "record-b",
+                "source_tier": "TEST",
+                "observed_at": "2026-09-19T10:00:00+08:00",
+                "unknown_fields": [],
+                "claims": [
+                    {
+                        "claim_id": "claim-b",
+                        "primitive": "PERCEPTION",
+                        "concept": "SYNTHETIC_REPORTED_SIGNAL",
+                        "epistemic_status": "REPORTED",
+                        "actor_id": "actor:synthetic-b",
+                        "geography": "CN",
+                    }
+                ],
+            },
+        ],
+    }
+    return evidence, reviewed
 
 
 class ResearchObservationBridgeTests(unittest.TestCase):
     def _build(self):
-        evidence = json.loads((RUN_DIR / "evidence.json").read_text(encoding="utf-8"))
-        reviewed = json.loads((RUN_DIR / "reviewed_observations.json").read_text(encoding="utf-8"))
+        evidence, reviewed = _fixtures()
         return build_reviewed_research_observations(evidence, reviewed)
 
-    def test_reviewed_run_builds_seven_truth_bounded_observations(self):
+    def test_reviewed_fixture_builds_truth_bounded_observations(self):
         envelopes = self._build()
-        self.assertEqual(len(envelopes), 7)
-        self.assertEqual(len({item.observation_id for item in envelopes}), 7)
+        self.assertEqual(len(envelopes), 2)
         self.assertTrue(all("NOT_FULL_PAGE" in item.sampling_boundary for item in envelopes))
         self.assertTrue(all(len(item.raw_payload_hash) == 64 for item in envelopes))
         summary = summarize_reviewed_research_observations(envelopes)
         self.assertEqual(summary["business_promotion"], "NOT_PROMOTED")
         self.assertNotIn("opportunity_score", summary)
 
-    def test_secondary_media_claims_remain_reported(self):
+    def test_public_community_claim_remains_reported(self):
         envelopes = {item.observation_id: item for item in self._build()}
-        ltc = envelopes["bd001-obs-xz-primary-medical-ltc-20260119"]
-        self.assertEqual({claim.epistemic_status for claim in ltc.claims}, {"REPORTED"})
-        ai_cs = envelopes["bd001-obs-ai-customer-service-friction-h1-2026"]
-        self.assertEqual({claim.epistemic_status for claim in ai_cs.claims}, {"REPORTED"})
+        self.assertEqual({claim.epistemic_status for claim in envelopes["obs-community"].claims}, {"REPORTED"})
 
-    def test_first_party_xuzhou_metro_keeps_resource_permission_unknown(self):
+    def test_unknown_fields_survive_without_manufacturing_permission(self):
         envelopes = {item.observation_id: item for item in self._build()}
-        metro = envelopes["bd001-obs-xz-metro-idle-space-20260619"]
-        self.assertIn("RESOURCE_MARKET_AVAILABILITY_UNKNOWN", metro.unknown_fields)
-        self.assertIn("OPERATOR_PERMISSION_UNKNOWN", metro.unknown_fields)
-        self.assertEqual(metro.actor_ids, ("actor:xuzhou-metro-group",))
-        self.assertEqual(
-            {claim.primitive for claim in metro.claims},
-            {"RESOURCE", "BEHAVIOR", "FRICTION"},
-        )
+        self.assertIn("PERMISSION_UNKNOWN", envelopes["obs-official"].unknown_fields)
 
     def test_research_observations_persist_without_manufacturing_recurrence(self):
         envelopes = self._build()
@@ -55,28 +116,22 @@ class ResearchObservationBridgeTests(unittest.TestCase):
                 transitions = [store.ingest(item) for item in envelopes]
                 current = tuple(store.iter_current())
             self.assertEqual({item.kind for item in transitions}, {"FIRST_SEEN"})
-            self.assertEqual(len(current), 7)
-
-        patterns = summarize_observed_patterns(
-            envelopes,
-            research_scope_state="BROAD_DISCOVERY_READY",
-        )
-        self.assertEqual(patterns["research_scope_state"], "BROAD_DISCOVERY_READY")
-        self.assertTrue(patterns["broad_discovery_use_authorized"])
+            self.assertEqual(len(current), 2)
+        patterns = summarize_observed_patterns(envelopes, research_scope_state="BROAD_DISCOVERY_READY")
         self.assertEqual(patterns["observed_pattern_count"], 0)
         self.assertGreater(patterns["unbound_pattern_count"], 0)
         self.assertEqual(patterns["business_promotion"], "NOT_PROMOTED")
 
     def test_unknown_research_evidence_id_fails_closed(self):
-        evidence = json.loads((RUN_DIR / "evidence.json").read_text(encoding="utf-8"))
-        reviewed = json.loads((RUN_DIR / "reviewed_observations.json").read_text(encoding="utf-8"))
+        evidence, reviewed = _fixtures()
+        reviewed = copy.deepcopy(reviewed)
         reviewed["records"][0]["research_evidence_id"] = "missing"
         with self.assertRaisesRegex(ValueError, "unknown research evidence id"):
             build_reviewed_research_observations(evidence, reviewed)
 
     def test_commercial_truth_field_is_rejected(self):
-        evidence = json.loads((RUN_DIR / "evidence.json").read_text(encoding="utf-8"))
-        reviewed = json.loads((RUN_DIR / "reviewed_observations.json").read_text(encoding="utf-8"))
+        evidence, reviewed = _fixtures()
+        reviewed = copy.deepcopy(reviewed)
         reviewed["records"][0]["payer"] = "invented"
         with self.assertRaisesRegex(ValueError, "commercial truth leaked"):
             build_reviewed_research_observations(evidence, reviewed)

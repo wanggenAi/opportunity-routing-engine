@@ -16,13 +16,13 @@ from src.research_control_plane import (
 class ResearchControlPlaneTests(unittest.TestCase):
     def _mission(self):
         payload = json.loads(
-            Path("data/research_missions/china_primary_broad_discovery.json").read_text(
+            Path("data/research_missions/attraction_field_broad_reality.json").read_text(
                 encoding="utf-8"
             )
         )
         return mission_from_dict(payload)
 
-    def test_china_primary_plan_has_bounded_unique_multi_lane_budget(self):
+    def test_clean_slate_plan_has_bounded_unique_multi_lane_budget(self):
         mission = self._mission()
         plan = build_research_plan(mission)
         self.assertEqual(plan["query_count"], 60)

@@ -483,31 +483,39 @@ Scores never override failed/unknown truth gates. G4–G6 must all PASS before a
 
 ## 15. Current project state
 
-The repository now has an evidence-bound connection gate in `src/latent_value_formation.py`, `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md` and `docs/LATENT_VALUE_FORMATION_BRIDGE.md`. The current priority is not to invent another ontology layer. It is to connect broad world sensing, objective resource/state evidence and psychology/behavior evidence into **empirical formation hypotheses**, discover `CONNECTION_PRESSURE`, and spend field energy only on the remaining decisive uncertainty.
+The commercial case layer was reset on **2026-09-19**.
 
-Current explicit-demand field routes remain useful downstream validation samples. They are not the business identity of the engine and must not pull discovery back into demand-first matching.
+There are currently:
+- no active commercial candidates;
+- no inherited transaction units;
+- no parent formations;
+- no historical watchlist fallbacks;
+- no active launch route.
 
-The decisive upstream evidence work is to improve:
-- objective actor/endowment sensing;
-- state-transition sensing;
-- psychology/motive/behavior sensing;
-- contradiction detection;
-- resource-underuse / misalignment evidence;
-- complementary world-node discovery;
-- repeated workaround / partial-flow / substitution evidence;
-- connection-pressure evidence;
-- observed missing-edge evidence;
-- minimum exchange mechanics with explicit falsification.
+Reusable sensing, evidence, causal-reasoning and orchestration capabilities remain.
 
-No candidate becomes canonical merely because it has a clear existing demand, a plausible resource pairing or a well-written exchange design.
+The active commercial epoch is `ATTRACTION_FIELD_V1`. New scanning starts from `ATTRACTION_SCAN_001`.
 
-## 16. Historical candidate status
+Historical case artifacts removed by the reset remain available only through Git history for audit. They are not active discovery inputs and must not be automatically revived.
 
-Earlier discovery work ranked `Property-Anchored Community Living-Service Orchestration Backend` as a structural candidate and produced a launch design. That result remains useful historical evidence, but it is **not the current canonical #1** and must not receive first-found privilege.
+The next scan starts from broad current reality and applies:
+- structural-friction truth;
+- latent-connection evidence;
+- three-sided Attraction Field;
+- Drift Audit;
+- fail-closed promotion.
 
-Likewise, industrial overflow, youth micro-experience, skills-to-income, pet-care, digital-transformation acceptance and other experiments remain evidence/candidate records rather than automatic current priorities.
+## 16. Clean-slate rule
 
-They may re-enter only through current formation, connection-evidence and validation rules.
+```text
+GIT HISTORY != CANDIDATE POOL
+OLD CASE != PRIOR
+OLD SCORE != CURRENT EVIDENCE
+OLD VERTICAL != NEXT SEARCH SPACE
+INDEPENDENT REDISCOVERY != REVIVAL
+```
+
+A previously explored structure may reappear only if current evidence independently rediscovers it. It then receives a new identity and is evaluated from zero.
 
 ## 17. Commercial discipline
 

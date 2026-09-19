@@ -1,7 +1,4 @@
 import unittest
-from pathlib import Path
-
-from scripts.build_residual_novelty_run import build_residual_novelty_run
 from src.emergent_taxonomy import ReviewedConceptAlignment
 from src.observation_fabric import EvidenceRef, ObservationEnvelope, SemanticClaim
 from src.residual_novelty import (
@@ -14,9 +11,6 @@ from src.residual_novelty import (
 )
 
 
-ROOT = Path(__file__).resolve().parents[1]
-RUN_DIR = ROOT / "data/research_runs/BROAD_DISCOVERY_RUN_003_2026-09-14"
-MISSION = ROOT / "data/research_missions/china_primary_broad_discovery.json"
 
 
 class ResidualNoveltyTests(unittest.TestCase):
@@ -172,37 +166,6 @@ class ResidualNoveltyTests(unittest.TestCase):
         self.assertEqual(len(result.source_residual_ids), 2)
         self.assertEqual(result.taxonomy_promotion, "NOT_PROMOTED")
         self.assertEqual(result.business_promotion, "NOT_PROMOTED")
-
-    def test_run003_preserves_one_unclustered_constraint_instead_of_forcing_full_coverage(self):
-        summary = build_residual_novelty_run(
-            mission_path=MISSION,
-            dynamic_terms_path=RUN_DIR / "dynamic_terms.json",
-            captures_path=RUN_DIR / "captures.json",
-            reviewed_dir=RUN_DIR / "reviewed",
-            alignments_path=RUN_DIR / "concept_alignments_reviewed.json",
-        )
-        self.assertEqual(summary["source_current_observation_count"], 18)
-        self.assertEqual(summary["exact_observed_pattern_count"], 0)
-        self.assertEqual(summary["exact_unbound_pattern_count"], 18)
-        self.assertEqual(summary["residual_atom_count"], 18)
-        self.assertEqual(summary["reviewed_alignment_count"], 5)
-        self.assertEqual(
-            summary["reviewed_alignment_state_counts"],
-            {"CANDIDATE": 3, "PROMOTION_REVIEW_READY": 2},
-        )
-        self.assertEqual(summary["reviewed_clustered_residual_atom_count"], 17)
-        self.assertEqual(summary["unclustered_residual_atom_count"], 1)
-        self.assertEqual(summary["model_suggestion_count"], 0)
-        self.assertEqual(summary["automatic_alignment_creation_count"], 0)
-        self.assertEqual(summary["automatic_taxonomy_promotion_count"], 0)
-        self.assertEqual(summary["active_ontology_changes"], 0)
-        self.assertEqual(summary["taxonomy_promotion"], "NOT_PROMOTED")
-        self.assertEqual(summary["business_promotion"], "NOT_PROMOTED")
-        residual = summary["unclustered_residuals"][0]
-        self.assertEqual(residual["primitive"], "CONSTRAINT")
-        self.assertEqual(residual["concept"], "TRADEIN_SUBSIDY_DEMAND_CONTAMINATION")
-        self.assertEqual(residual["epistemic_counts"], {"REPORTED": 1})
-        self.assertIn("UNCLUSTERED_RESIDUAL_MUST_REMAIN_VISIBLE", summary["truth_boundaries"])
 
     def test_summary_with_model_suggestion_never_auto_creates_alignment(self):
         envelopes = self._clusterable_envelopes()

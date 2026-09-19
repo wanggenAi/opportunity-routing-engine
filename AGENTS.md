@@ -132,9 +132,35 @@ Before changing business logic, read these in order:
 
 `docs/LATENT_VALUE_DOCTRINE.md` is constitutional. `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`, `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md` and `docs/LATENT_VALUE_FORMATION_BRIDGE.md` are also locked constitutional discovery principles. `docs/OPPORTUNITY_ATTRACTION_FIELD.md` is the locked strategic discovery/attention principle for participant pull, operator activation and anti-drift. If another document, implementation or workflow conflicts with them, the lower-level artifact must change.
 
-There is no active `EXP-*` opportunity layer after the 2026-09-10 reset. Do not recreate it unless the architecture is explicitly changed.
+There is no inherited commercial opportunity layer. The active case epoch is `ATTRACTION_FIELD_V1` from the 2026-09-19 reset. Pre-reset cases are Git-history-only and must not be revived as current inputs.
 
 When a major assumption changes, update `docs/FORMAL_TRUTH.md` in the same change.
+
+## Commercial case epoch reset — LOCKED
+
+The active commercial case space was reset on **2026-09-19** into epoch `ATTRACTION_FIELD_V1`.
+
+This is stronger than demotion or watchlist status.
+
+```text
+PRE-RESET CASE != ACTIVE INPUT
+GIT HISTORY != CANDIDATE POOL
+CLOSED HISTORICAL ISSUE != FALLBACK ROUTE
+DELETED CASE ARTIFACT != PRIOR
+OLD SCORE != CURRENT EVIDENCE
+OLD SCAN PARENTAGE != NEW SCAN PARENTAGE
+```
+
+Rules:
+- all commercial cases, field scans, launch cards, result packets and candidate ledgers deleted by the reset are audit history only;
+- do not restore, inherit, compare against, descend from or reopen a deleted pre-reset case merely because Git history, a commit, an old Issue or an old conversation still mentions it;
+- no pre-reset candidate has watchlist, parent, prior, benchmark or fallback status;
+- a formerly explored structure may appear again only if **current broad-reality sensing independently rediscovers it** under the current doctrine; in that event it is a new formation with new evidence, not a revived case;
+- new commercial scan numbering starts at `ATTRACTION_SCAN_001`;
+- `data/commercial_reset_state.json` is the machine-readable active case epoch;
+- reusable engine code, source adapters, evidence schemas and truth rules survive the reset because they are capabilities, not commercial cases.
+
+The reset must not be reversed to make continuation easier.
 
 ## Architectural dependency direction — LOCKED
 
@@ -719,28 +745,26 @@ Do not build a broad marketplace first.
 
 ## Current project truth
 
-There is currently no permanent canonical business vertical.
+There is currently **no active commercial candidate, transaction unit, inherited parent formation, watchlist fallback or launch route**.
 
-Existing explicit-demand field probes, including public technology-demand and digital-transformation routes, remain useful empirical tests. They are **downstream samples**, not the identity of the system and not evidence that the engine should become a demand-matching platform.
+The commercial case layer was intentionally cleared on 2026-09-19. Historical field scans, old Xuzhou/industrial/consumer/eldercare candidates, prior launch cards and old result packets are not current evidence inputs. They remain recoverable through Git history for audit only.
 
-The current formation capability exists in `src/latent_value_formation.py`. `VALIDATION_READY` now additionally requires explicit `CONNECTION_PRESSURE` evidence. The immediate architectural task is not another ontology rewrite. It is to ensure world sensing, objective resource/state evidence, psychology/behavior evidence, partial-flow/workaround evidence and observed missing edges feed that model empirically.
+The current formation capability exists in `src/latent_value_formation.py`. `VALIDATION_READY` requires explicit `CONNECTION_PRESSURE` evidence. The next empirical task is a genuinely fresh `ATTRACTION_SCAN_001`.
 
 Current priorities:
-1. maintain broad reality/money-flow/behavior sensors;
-2. expand objective endowment, state-transition and resource-underuse sensing;
-3. link psychology/motive evidence to the same actor segment and observed behavior;
-4. preserve contradictions rather than averaging them away;
-5. generate competing product-agnostic latent-outcome hypotheses from observed state/behavior/endowments;
-6. perform recursive causal descent with competing structural explanations, discriminating evidence, falsifiers and an explicit stop rule;
-7. only after structural truth is evidenced, formally promote heterogeneous complementary world-node search;
-8. discover `CONNECTION_PRESSURE` through repeated workaround, partial flow, substitution, referral, failed-attempt, shared-pressure and analogue evidence;
-9. identify observed missing edges separately from structural friction and imagined blockers;
-10. only after an evidenced latent connection, design minimum exchange mechanics with kill conditions;
-11. use human/external validation capital on the single most decisive unresolved truth;
-12. only after support exists, project Need/Resource/Blocker/payer truth and perform transaction gating;
-13. keep the founder as orchestration/routing control plane rather than default search, sales or execution node.
+1. begin from broad current reality, not an inherited vertical or historical candidate;
+2. observe objective endowments, actor state/state-change, psychology/behavior where relevant and real workarounds/partial flows;
+3. generate competing product-agnostic outcome and structural-friction hypotheses;
+4. descend causally and preserve contradictions/falsifiers;
+5. search heterogeneous complementary nodes only after structural truth is credible;
+6. discover `CONNECTION_PRESSURE` and an observed missing edge;
+7. require an Attraction Brief with separately evidenced A-side pull and B-side pull plus explicit operator strategic attraction;
+8. run a Drift Audit before retaining any formation;
+9. treat incumbent presence as evidence about flow resolution, not automatic rejection;
+10. use human/external validation only on the decisive remaining unknown;
+11. keep the founder as orchestration/routing control plane rather than default search, sales or execution node.
 
-Do not resume an old launch merely because a launch document or open historical Issue exists.
+Do not resume any old launch, candidate, scan family or Issue as a fallback. If a similar structure is independently rediscovered, treat it as a new case in the new epoch.
 
 ## Architecture freeze discipline
 

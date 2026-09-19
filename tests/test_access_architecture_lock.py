@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCTRINE = ROOT / "docs" / "LATENT_VALUE_DOCTRINE.md"
 FORMAL = ROOT / "docs" / "FORMAL_TRUTH.md"
 ACCESS_DOC = ROOT / "docs" / "ACCESS_FEASIBILITY_GATE.md"
-ACCESS_DATA = ROOT / "data" / "cycle002_access_feasibility_2026-09-12.json"
+RESET_STATE = ROOT / "data" / "commercial_reset_state.json"
 
 
 class AccessArchitectureLockTests(unittest.TestCase):
@@ -40,14 +40,14 @@ class AccessArchitectureLockTests(unittest.TestCase):
         self.assertIn("can_physically_verify_within_72h", text)
         self.assertIn("Only **A/B**", text)
 
-    def test_current_candidate_access_states_are_fail_closed(self):
-        data = json.loads(ACCESS_DATA.read_text(encoding="utf-8"))
-        by_id = {item["candidate_id"]: item for item in data["assessments"]}
-        self.assertEqual(by_id["LV-XZ-001A"]["access_state"], "ACCESS_BLOCKED")
-        self.assertEqual(by_id["LV-XZ-003A"]["access_state"], "INTRODUCTION_READY")
-        self.assertEqual(by_id["LV-XZ-004"]["access_state"], "ACCESS_BLOCKED")
-        self.assertEqual(data["operator_profile_storage"], "RUNTIME_PRIVATE_NOT_COMMITTED")
-        self.assertIn("COUNTERPARTY_VISIBLE_SURPLUS", data["principle"])
+    def test_clean_slate_has_no_inherited_candidate_access_state(self):
+        data = json.loads(RESET_STATE.read_text(encoding="utf-8"))
+        self.assertEqual(data["active_commercial_candidates"], [])
+        self.assertEqual(data["active_transaction_units"], [])
+        self.assertEqual(data["active_parent_formations"], [])
+        self.assertEqual(data["inherited_watchlist"], [])
+        self.assertEqual(data["historical_case_policy"], "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT")
+
 
 
 if __name__ == "__main__":

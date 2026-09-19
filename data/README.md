@@ -2,6 +2,22 @@
 
 This directory contains schemas, small reproducible samples, source registries, validation templates, and non-sensitive reference data for the discovery engine.
 
+## Commercial case reset
+
+The active commercial case epoch was reset on 2026-09-19.
+
+`commercial_reset_state.json` is the machine-readable authority for the empty active candidate state.
+
+Historical case JSON, research-run fixtures, field packets and candidate ledgers were removed from the active tree. Git history is audit history only and must not be treated as a candidate source.
+
+The files retained in this directory are reusable schemas, registries, templates and source/sensor configuration. Their existence does **not** privilege any geography, vertical, actor type or prior commercial thesis.
+
+```text
+SOURCE != STRATEGY
+SENSOR != CASE
+REGISTRY != CANDIDATE POOL
+```
+
 ## Current discovery data model
 
 - `source_registry.csv` — recurring source inventory and access/automation state.

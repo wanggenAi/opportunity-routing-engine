@@ -1012,121 +1012,121 @@ LLM Confidence != Commercial Evidence
 UNKNOWN != PASS
 ```
 
-## 16. Discovery Cycle 001 — HISTORICAL BASELINE, COMPLETE
+## 16. Commercial case reset epoch — CANONICAL / LOCKED
 
-Cycle 001 ran a clean-slate public-web discovery pass across China → Jiangsu → Xuzhou and produced:
-- expanded source registry;
-- money-flow snapshot;
-- psychology/behavior snapshot;
-- success/failure mechanism library;
-- 38 opportunity seeds;
-- comparable G0-G6 ranking;
-- historical launch designs.
+On **2026-09-19**, the commercial case layer was deliberately reset.
 
-Canonical historical outputs:
-- `docs/research/DISCOVERY_CYCLE_001_MONEY_FLOW_2026-09-10.md`
-- `docs/research/DISCOVERY_CYCLE_001_PSYCHOLOGY_BEHAVIOR_2026-09-10.md`
-- `docs/research/DISCOVERY_CYCLE_001_CASE_MECHANISMS_2026-09-10.md`
-- `docs/research/DISCOVERY_CYCLE_001_OPPORTUNITY_POOL_2026-09-10.md`
-- `docs/results/DISCOVERY_CYCLE_001_RANKING_2026-09-10.md`
+Active epoch:
 
-The Cycle 001 scores remain useful historical evidence. They are **not current success probabilities and no longer establish a canonical winner** after the Resource Imbalance reset and the later value-formation / latent-connection clarification.
+```text
+ATTRACTION_FIELD_V1
+```
+
+Current active state:
+
+```text
+ACTIVE COMMERCIAL CANDIDATES = 0
+ACTIVE TRANSACTION UNITS = 0
+ACTIVE PARENT FORMATIONS = 0
+INHERITED WATCHLIST = 0
+FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
+NEXT SCAN = ATTRACTION_SCAN_001
+```
+
+All pre-reset opportunity seeds, field scans, candidate ledgers, launch cards, result packets and candidate-specific research outputs removed by the reset are **Git-history-only audit material**.
+
+```text
+PRE-RESET CASE != CURRENT EVIDENCE INPUT
+HISTORICAL SCORE != CURRENT PRIOR
+OLD REJECTION != CURRENT REJECTION
+OLD RETENTION != CURRENT RETENTION
+OLD CASE FAMILY != NEW SCAN PARENT
+GIT HISTORY != WATCHLIST
+```
+
+A structurally similar formation may reappear only through independent current evidence. If that happens, it is a new case and must satisfy the current doctrine from zero.
+
+Machine-readable authority: `data/commercial_reset_state.json`.
 
 ## 17. Current project state — CANONICAL
 
-**There is currently no canonical #1 business project.**
+There is **no canonical #1 business project and no inherited candidate pool**.
 
-Property-Anchored Community Living-Service Orchestration Backend, Industrial Service Overflow Routing Network, stock-home turnover, export operations, procurement support, visitor/merchant routing, machinery aftermarket, digital-transformation acceptance and every other historical/current field candidate are evidence/candidate records only.
+The system retains reusable cognition and infrastructure:
+- broad reality sensing;
+- evidence/provenance;
+- actor/endowment/state modeling;
+- causal descent;
+- latent connection discovery;
+- missing-edge discipline;
+- capability/resource sensing;
+- transaction truth gates;
+- orchestration logic;
+- Attraction Field and anti-drift rules.
 
-No candidate receives first-found privilege or survives merely because a launch document, Issue, explicit demand or prior score exists.
+These capabilities must not smuggle old cases back into the search space.
 
-A candidate may become current #1 only after a fresh comparable process based on the current evidence discipline:
+The next commercial object must be formed from current evidence through:
 
 ```text
-actor/endowment/state/change evidence
-+ perception/motive/behavior evidence
-+ resource–psychology disequilibrium hypothesis
-+ unmet / unformed outcome hypothesis
-+ complementary world-node hypothesis
-+ connection-pressure evidence
-+ partial flow / workaround / substitute / adjacent precedent where available
-+ observed missing edge / stranding barrier
-+ latent connection hypothesis
-+ contradiction search
-+ minimum counterfactual exchange mechanics
-+ cheap decisive reality confirmation
-+ only then live need/resource/blocker/payer evidence
-+ operator access / backing feasibility
-+ counterpart-visible surplus
-→ transaction classification
-→ evidence-backed candidate pool
-→ same G0-G6 comparison
-→ selected Hook
-→ cheapest decisive real-world transaction test
+BROAD CURRENT REALITY
+→ ACTOR / ENDOWMENT / STATE / CHANGE
+→ BEHAVIOR / WORKAROUND / PARTIAL FLOW
+→ LATENT OUTCOME HYPOTHESES
+→ CAUSAL DESCENT
+→ EVIDENCED STRUCTURAL FRICTION
+→ COMPLEMENTARY NODES
+→ CONNECTION PRESSURE
+→ OBSERVED MISSING EDGE
+→ LATENT CONNECTION
+→ ATTRACTION BRIEF
+→ DRIFT AUDIT
+→ CHEAP DECISIVE CONFIRMATION
+→ ONLY THEN TRANSACTION TRUTH
 ```
 
-## 18. Current production evidence — 2026-09-17
+No industry, geography, asset class, prior candidate or source adapter is the default business search space.
 
-Working live evidence paths already include national/Jiangsu/Xuzhou money-flow sources, Xuzhou public procurement, regional financing evidence, public resource-underuse sensors, psychology/behavior models, the `src/latent_value_formation.py` formation bridge and delegatable validation packets.
+## 18. Current production capability — 2026-09-19
 
-These source paths are observers. They are not the engine's business identity.
+Working code and source infrastructure remain useful only as **observation and reasoning capability**.
 
-Resource-underuse Sensor 001 has verified that Xuzhou/Jiangsu official public-resource sources can expose:
-- discovered public assets;
-- repeated listings / allocation friction;
-- explicit `空置/闲置` evidence in some historical records;
-- repricing across repeated listings.
+Source adapters, macro feeds, local feeds, research controls, resource/capability models and prior generic validators survive the reset because:
 
-These facts prove resource/underuse evidence only within their exact scope. They do not prove compatible paid demand, a latent connection or a valuable new formation.
+```text
+SENSOR != CASE
+ENGINE CAPABILITY != BUSINESS CANDIDATE
+SOURCE REGISTRY != SEARCH ONTOLOGY
+```
 
-The production system also has a source-agnostic live-resource sensing kernel that separates raw signal facts, explicit capability claims, deterministic capability inferences, capability confirmation, availability, permission, freshness and capability-bundle coverage. This implementation does not make any platform-specific social sensor canonical and does not treat inferred capability as callable resource.
+Current sources may contribute evidence, but they do not define which categories Scan 001 must explore. Xuzhou, industrial B2B, public procurement, idle assets or any other historically convenient source surface must not receive first-found privilege.
 
-`src/latent_value_formation.py` represents:
-- objective endowments/state/change;
-- psychology/motive/behavior evidence;
-- underuse/misalignment;
-- `resource_psychology_disequilibrium`;
-- `latent_outcome_hypothesis`;
-- heterogeneous complementary world nodes;
-- explicit `CONNECTION_PRESSURE` evidence;
-- stranding barriers;
-- counterfactual exchange mechanics;
-- contradictions;
-- cheap decisive validation.
+The engine must use `docs/OPPORTUNITY_ATTRACTION_FIELD.md` to distinguish:
+- A-side voluntary energy;
+- B-side voluntary energy;
+- operator / Rooter strategic attraction;
+- activation friction;
+- self-propulsion.
 
-A formation without `CONNECTION_PRESSURE` may remain a complementarity hypothesis but cannot become `VALIDATION_READY`.
+Participant attraction requires evidence. Operator attraction allocates founder attention and never manufactures market truth.
 
-The immediate gap is therefore **empirical feeding and testing of connection pressure and formation truth**, not inventing another ontology.
+## 19. Current next action — CANONICAL
 
-Current explicit-demand field routes remain useful downstream probes. They must not pull the system back into `existing demand → find supply → match` as its core identity.
+Run **ATTRACTION_SCAN_001** as a true white-portfolio scan.
 
-## 19. Current next actions — CANONICAL
+Required behavior:
+1. reopen broad reality across human life, households, consumers, SMEs, enterprises, cities, cross-border flows, technology/AI, relationships/trust, time/access/capacity, institutions and physical assets as current evidence warrants;
+2. do not impose a fixed category quota and do not fabricate weak categories for breadth;
+3. do not inherit the pre-reset industrial/Xuzhou/stranded-unit recursion;
+4. search for strong state-dependent value jumps and observable voluntary motion;
+5. for every retained formation, write the full Attraction Brief;
+6. run the Drift Audit before promotion;
+7. do not auto-kill because an incumbent exists; determine whether the relevant flow is actually solved;
+8. preserve contradictions and kill weak formations quickly;
+9. do not design product/pricing/outreach before a formation survives structural truth + connection pressure + Attraction Field;
+10. keep all promotion fail-closed.
 
-Engineering / empirical priority:
-1. maintain broad macro, money-flow and live evidence sensors;
-2. improve objective actor/endowment/state-transition evidence;
-3. improve lawful psychology/motive/behavior sensing and same-segment linkage;
-4. preserve contradictions and residual observations rather than forcing them into fixed labels;
-5. expand observable resource-underuse/misalignment evidence;
-6. feed evidence into `RESOURCE–PSYCHOLOGY DISEQUILIBRIUM` hypotheses;
-7. infer `UNMET / UNFORMED OUTCOME` hypotheses without turning them into products prematurely;
-8. search heterogeneous complementary world nodes;
-9. search for `CONNECTION_PRESSURE`: repeated workarounds, partial/informal flow, substitution, referrals, failed attempts, shared causal pressure and adjacent/historical analogues;
-10. separately identify the observed missing edge / stranding barrier rather than inventing it;
-11. only after 9–10 are supported, design the minimum exchange mechanics with explicit controller/permission unknowns, participant surplus, cheapest confirmation and kill conditions;
-12. spend human/external validation capital only on the single most decisive unresolved truth;
-13. only after support exists, project Need/Resource/Blocker/payer/payment truth and preserve fail-closed transaction gates;
-14. search for access/backing resources themselves: trusted introducers, institutions, parks, associations, authorized programs, committed complementary actors and recognized roles;
-15. require counterpart-visible surplus and a believable realization mechanism before meaningful outreach;
-16. apply the REACHABILITY GATE before deep validation / Formation promotion / field experiment; prefer named Xuzhou actors that can be contacted within 24h and physically verified within 72h;
-17. route field-solvable evidence/access gaps into delegatable validation tasks;
-18. compare surviving formations under the same commercial and orchestration discipline;
-19. require a retained formation to include an Attraction Brief that separates A-side pull, B-side pull and operator attraction;
-20. include a Drift Audit in fresh white-portfolio scans so the previous vertical or search lens does not silently become the ontology;
-21. treat incumbent presence as evidence about flow resolution, not an automatic kill condition;
-22. keep the founder as orchestration/routing control plane rather than default search, sales, implementation or delivery node.
-
-Under the current architecture freeze, do not answer this clarification by building more generic ontology, dashboards, agent frameworks or broad scraper fleets. Engineering is justified when it closes a repeated empirical truth/validation bottleneck or doctrine violation.
+Current founder attention should go only to formations where A wants to move, B wants to move, and the operator genuinely wants to own the bridge without becoming recurring manual labor.
 
 ## 20. Software truth — LOCKED
 

@@ -249,6 +249,26 @@ Ask instead:
 
 If the current route already makes the value flow normal for the relevant population, demote it. If not, continue causal descent.
 
+## 7A. Clean-slate epoch rule
+
+The 2026-09-19 commercial reset clears all pre-reset formations from current strategic memory.
+
+Historical cases may not be used as:
+- parents;
+- priors;
+- watchlist fallbacks;
+- benchmark candidates;
+- search prompts;
+- default examples to continue;
+- negative constraints that prevent independent rediscovery.
+
+```text
+HISTORICAL CASE MEMORY != CURRENT WORLD EVIDENCE
+INDEPENDENT REDISCOVERY != CASE REVIVAL
+```
+
+If current reality independently regenerates a structure similar to a deleted historical case, evaluate it from zero using current evidence and give it a new `ATTRACTION_SCAN_*` identity.
+
 ## 8. Current-stage priority rule
 
 For current founder attention, prefer formations where:
