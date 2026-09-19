@@ -1,0 +1,82 @@
+{
+  "schema_version": "attraction-scan.v1",
+  "scan_id": "ATTRACTION_SCAN_001",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-19",
+  "status": "COMPLETE",
+  "inherited_case_inputs": [],
+  "active_commercial_candidate_promotions": [],
+  "retained_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_001-F1",
+      "title": "TRUSTED SMALL-BATCH CHINA SOURCING PROOF LAYER",
+      "state": "RETAINED_FOR_CAUSAL_DESCENT",
+      "a_side_motion": "EVIDENCED",
+      "b_side_motion": "EVIDENCED",
+      "structural_friction": "EVIDENCED_BUT_CAUSAL_STRUCTURE_INCOMPLETE",
+      "connection_pressure": "EVIDENCED",
+      "observed_missing_edge": "INFERRED_DECISIVE_UNKNOWN",
+      "operator_non_labor_test": "UNPROVEN",
+      "self_propulsion": "UNPROVEN",
+      "commercial_candidate": false,
+      "next_decisive_unknowns": [
+        "which buyer state remains unresolved by marketplaces, sourcing agents and inspection firms",
+        "whether the decisive object is supplier verification, order proof, sample proof or pre-shipment acceptance",
+        "which proof elements persist across repeat orders",
+        "whether verification economics work for small and medium orders",
+        "whether acquisition and execution can route without recurring founder labor"
+      ]
+    }
+  ],
+  "demoted_directions": [
+    {
+      "direction": "SOCIALIZED_MEDICAL_ACCOMPANIMENT",
+      "reason": "real demand but increasingly standardized by institutions/platforms; vulnerable-person and local execution burden remains"
+    },
+    {
+      "direction": "SCARCE_APPOINTMENT_QUEUE_ACCESS",
+      "reason": "strong demand but no legitimate freely routable supply; public-interest/platform allocation constraints"
+    },
+    {
+      "direction": "COMMUNITY_IDLE_SPACE_ROUTING",
+      "reason": "asset controller naturally owns permission and scheduling; independent missing edge not established"
+    },
+    {
+      "direction": "PET_HOME_ENTRY_CARE",
+      "reason": "existing category plus home-access/safety/privacy and recurring human-delivery burden"
+    },
+    {
+      "direction": "SME_AI_SERVICE_ROUTING",
+      "reason": "strong macro pull but current delivery evidence remains integration/FDE heavy; non-labor missing edge not established"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "single_lens_became_ontology": false,
+    "incumbent_auto_kill": false,
+    "participant_behavior_used": true,
+    "operator_excitement_used_as_demand": false,
+    "fail_closed": true
+  },
+  "source_urls": [
+    "https://zgjssw.gov.cn/yaowen/202609/t20260918_8593559.shtml",
+    "https://www.qima.com/newsroom/news/news-q3-2026-barometer",
+    "https://www.samr.gov.cn/xw/sj/art/2026/art_6a45b2d82ea14ed6bbfd432dce7279cb.html",
+    "https://paper.people.com.cn/rmrb/pc/content/202609/04/content_30178989.html",
+    "https://society.people.com.cn/n1/2026/0908/c1008-40794286.html",
+    "https://www.digitalchina.gov.cn/2026/xwzx/szkx/202609/t20260901_5366208.htm",
+    "https://www.reddit.com/r/Business_in_China/comments/1w5bqjc/looking_for_sourcing_agent_china/",
+    "https://www.reddit.com/r/Business_in_China/comments/1w7vxvs/agents_for_high_quality_sourcing_in_china/",
+    "https://www.reddit.com/r/Business_China/comments/1uilmxx/sourcing_from_china_as_a_small_business_is_a_35/",
+    "https://www.reddit.com/r/Business_in_China/comments/1wglivo/how_did_you_land_your_first_overseas_b2b_customer/",
+    "https://www.reddit.com/r/Business_China/comments/1vyvvy0/how_much_can_you_actually_learn_about_a_supplier/"
+  ],
+  "next_action": "CAUSAL_DESCENT_ATTRACTION_SCAN_001_F1",
+  "prohibitions": [
+    "NO_PRODUCT_DESIGN",
+    "NO_PRICING",
+    "NO_RECRUITMENT",
+    "NO_OUTREACH",
+    "NO_COMMERCIAL_PROMOTION"
+  ]
+}
