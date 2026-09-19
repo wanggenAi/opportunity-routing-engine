@@ -79,14 +79,47 @@ Result: `HIGH / MEDIUM / LOW / UNASSESSED`
 
 A high G7 requires evidence-backed bilateral pull, clear value capture, repeatability, self-propulsion and operator exit. It does not prove market validation.
 
+### G8 — Attraction field / 诱惑力
+
+Does the formation create strong voluntary pull for both key participant sides **and** strong strategic activation for the operator?
+
+Evaluate separately:
+
+**A-side attraction**
+- Why does A want to release, activate, reroute or exchange what it has now?
+- What observed behavior proves that motion?
+- Is the upside immediately legible relative to A's status quo?
+
+**B-side attraction**
+- Why does B want the reachable outcome now?
+- What observed behavior proves that pull?
+- Is the benefit large enough to overcome switching, trust and coordination friction?
+
+**Operator / Rooter attraction**
+- Does the operator actively want to own this bridge rather than merely believe the service can be sold?
+- Is the interesting work primarily sensing, structuring, routing and compounding rather than repetitive delivery?
+- Can the operator see fast learning, meaningful upside and a route to control-plane value?
+
+**Connection amplifier**
+- Does the connection create a surprising but legible value jump?
+- Does one successful flow make the next flow easier?
+- Is explanation / permission / behavior-change burden low enough relative to the surplus?
+
+Result: `HIGH / MEDIUM / LOW / UNASSESSED`
+
+G8 is weakest-link dominated. Founder excitement cannot compensate for weak participant pull, and participant pull cannot make a formation a current founder-priority business when the operator has persistently low strategic attraction.
+
+G8 does not prove validation and does not override G0–G7.
+
 ### Gate policy
 
 - A `FAIL` on G0–G3 blocks the proposed transaction test in that form.
 - G4–G6 may be `UNKNOWN` when the test explicitly exists to resolve them.
 - G4, G5 and G6 must all `PASS` before promotion to repeatable/core platform status.
-- Current-stage founder attention should prefer Reachability A/B candidates with G7 `HIGH`; a truthful but low-mobilization candidate may stay in the ledger without consuming founder attention.
-- Founder willingness to personally perform acquisition or delivery never converts G4, G6 or G7 into PASS/HIGH.
+- Current-stage founder attention should prefer Reachability A/B candidates with G7 `HIGH` **and G8 `HIGH`**; a truthful but low-mobilization or low-attraction candidate may stay in the ledger without consuming founder attention.
+- Founder willingness to personally perform acquisition or delivery never converts G4, G6, G7 or G8 into PASS/HIGH.
 - G7 is evaluated by `docs/OPPORTUNITY_MOBILIZATION_GATE.md` and is separate from the 100-point weighted score below.
+- G8 is evaluated by `docs/OPPORTUNITY_ATTRACTION_FIELD.md` and is also separate from the 100-point weighted score below. It allocates scarce founder attention; it is not market validation.
 
 ## Weighted score — exactly 100 points
 
@@ -236,6 +269,10 @@ Replacement design:
 Orchestrator recurring value:
 Regenerative loop:
 Hard gates G0-G6:
+Mobilization G7:
+Attraction field G8 — A / B / operator / overall:
+Attraction Brief evidence:
+Drift Audit:
 Weighted score / penalties / final score:
 Evidence maturity L0-L7:
 Cash contribution margin:
@@ -248,4 +285,4 @@ Success threshold / stop rule:
 
 ## Governing principle
 
-**Score the circulating system that completes repeated transactions, not the founder's willingness to personally hustle for the next job.**
+**Score the circulating system that completes repeated transactions, not the founder's willingness to personally hustle for the next job. Then allocate founder attention to formations where participant pull is real and the operator genuinely wants to own the bridge.**
