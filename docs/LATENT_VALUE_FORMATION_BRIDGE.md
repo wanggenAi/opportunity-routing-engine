@@ -67,13 +67,17 @@ OBSERVED BEHAVIOR
         ↓
 SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
         ↓
-RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
+RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM
         ↓
-LATENT / UNFORMED OUTCOME HYPOTHESIS
+COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES
         ↓
-STRUCTURAL FRICTION HYPOTHESIS
+RECURSIVE CAUSAL DESCENT
         ↓
-CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+COMPETING STRUCTURAL FRICTION HYPOTHESES
+        ↓
+DISCRIMINATING EVIDENCE / FALSIFIERS / CONTRADICTION SEARCH
+        ↓
+DECISION-USEFUL CAUSAL FRONTIER
         ↓
 EVIDENCED STRUCTURAL FRICTION
         ↓
@@ -102,7 +106,7 @@ ROUTING / ACCEPTANCE / SETTLEMENT / LEARNING
 
 The key distinction is:
 
-> **Demand does not have to exist first, and the first visible pain is not assumed to be the true friction. The system must descend from observable behavior into a product-agnostic latent outcome and a corroborated structural-friction hypothesis. Only then should it commit to complementary-node discovery, and it must still discover evidence that reality is already pushing value across the boundary before it spends human validation capital designing or testing that connection.**
+> **Demand does not have to exist first. Neither the first visible pain nor the Actor's stated request is assumed to reveal the governing structure. The system must generate competing product-agnostic outcome hypotheses, descend recursively through competing causal explanations, preserve falsifiers and discriminating evidence, and stop only at the deepest decision-useful falsifiable causal frontier. Psychology may contribute but is not mandatory. Only after structural truth is evidenced may the system formally promote complementary-node search; only after connection pressure and a distinct missing edge are evidenced may it design exchange mechanics.**
 
 The old shorthand `COUNTERFACTUAL EXCHANGE DESIGN` remains a downstream mechanism-design operation. It no longer proves that the connection itself exists.
 
@@ -112,9 +116,11 @@ A surface friction is an evidence-bearing symptom, not the final opportunity obj
 
 ```text
 SURFACE PHENOMENON
-→ LATENT STATE TRANSITION
-→ STRUCTURAL FRICTION HYPOTHESIS
-→ EVIDENCE / CONTRADICTION SEARCH
+→ competing LATENT STATE TRANSITION hypotheses
+→ competing STRUCTURAL FRICTION hypotheses
+→ recursive deeper constraint hypotheses where warranted
+→ discriminating evidence / contradiction search / falsifiers
+→ explicit causal stop reason
 → EVIDENCED STRUCTURAL FRICTION
 ```
 
@@ -128,15 +134,48 @@ INFERRED
 EVIDENCED_STRUCTURE
 ```
 
-The engine may infer a structural cause from state, psychology and behavior, but the inference must remain falsifiable and product-agnostic. It must actively test alternative explanations.
+The engine may infer structural causes from objective state, behavior, psychology where relevant, institutional rules, technical constraints, rights/access, time/space, trust, money/time sacrifice and repeated workarounds. Inference must remain product-agnostic and falsifiable. A single plausible explanation is not enough; competing explanations and discriminating evidence are required before promotion.
 
 `STRUCTURAL FRICTION` is upstream of the later inter-node `MISSING EDGE`: the former explains the blocked Actor state transition; the latter explains why complementary nodes cannot transact or coordinate normally.
 
 Current scan orders such as `BUYER COST FIRST` and `CURRENT EXTERNALIZED WORKAROUND FIRST` remain valid sensors, not constitutional definitions.
 
-## 3. Resource–Psychology Disequilibrium is a primary search zone
+## 2B. Decision-useful causal frontier
 
-A primary discovery target is a mismatch between what an actor objectively possesses and what the actor's current psychology, behavior, environment and available routes allow those resources to become.
+The engine is not required to discover one metaphysical root cause.
+
+Real blocked transitions may have multiple causal constraints. Causal descent stops at the deepest layer that is:
+- falsifiable from observable evidence; and
+- decision-relevant to what resources/interfaces/rights/trust/capabilities would have to change.
+
+Valid stop reasons:
+
+```text
+INTERVENTION_RELEVANT_BOUNDARY
+NO_DEEPER_FALSIFIABLE_LAYER
+EVIDENCE_LIMIT_REACHED
+MULTI_CAUSAL_FRONTIER
+```
+
+`EVIDENCE_LIMIT_REACHED` preserves UNKNOWN and cannot promote.
+
+An `INFERRED` causal structure may guide exploratory node search and evidence collection. It may not become candidate truth. The executable model is `src/causal_descent.py`.
+
+## 2C. Psychology is optional causal evidence
+
+Psychology is important when motive, fear, autonomy, identity, trust, avoidance or aspiration materially explains behavior.
+
+But objective industrial, technical, institutional or process evidence may establish structural friction without a psychology layer.
+
+```text
+NO PSYCHOLOGY SIGNAL != NO STRUCTURAL FRICTION
+```
+
+If psychology is used, it must be provenance-bound and behavior-corroborated.
+
+## 3. Resource / State / Psychology Disequilibrium is a primary search zone
+
+A primary discovery target is a mismatch between what an actor objectively possesses and what the actor's current state, behavior, psychology when relevant, environment and available routes allow those resources to become.
 
 ```text
 OBJECTIVE ENDOWMENT
@@ -146,7 +185,7 @@ CURRENT STATE
 ACTOR WANTS / AVOIDS / ADAPTS TOWARD A DIFFERENT STATE
 +
 CURRENT ROUTES FAIL TO USE THE ENDOWMENT WELL
-→ RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
+→ RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM
 ```
 
 Illustrative structures include:
