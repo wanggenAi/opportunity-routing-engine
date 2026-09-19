@@ -52,19 +52,6 @@ The state branch must never be merged as application code merely to "apply" a ch
 
 The current schema is version 2. Allowed status values are `IDLE`, `IN_PROGRESS`, `WAITING_CI`, `WAITING_PRODUCTION`, `BLOCKED`, and `DONE`. The machine-checkable example is `.github/recovery/RECOVERY_STATE.example.json`; `scripts/validate_recovery_state.py` validates shape, bounds and obvious secret leakage without third-party dependencies.
 
-## Atomic checkpoint procedure
-
-For every checkpoint write:
-
-1. re-read live GitHub state needed for the current stage;
-2. fetch the latest `RECOVERY_STATE.json` from `state/chatgpt-recovery`;
-3. reconcile any drift before writing;
-4. increment `generation`;
-5. update only facts that were actually observed;
-6. write with the current blob SHA; on SHA conflict, re-read and reconcile instead of force-overwriting.
-
-A checkpoint is evidence of the last observed state, not a lock on reality.
-
 ## Adaptive checkpoint sizing
 
 Checkpoint frequency is driven by **loss cost**, not by tool-call count or a fixed timer.
