@@ -201,6 +201,40 @@ class CausalDescentTests(unittest.TestCase):
             CausalDescentState.CAUSAL_HYPOTHESIS_SET,
         )
 
+    def test_selected_outcome_and_stop_reason_require_rationales(self):
+        record = self._record(outcome_selection_rationale="")
+        self.assertIn(
+            "selected_outcome_requires_rationale",
+            validate_causal_descent(record),
+        )
+
+        record = self._record(stop_rationale="")
+        errors = validate_causal_descent(record)
+        self.assertIn("stop_reason_requires_rationale", errors)
+        self.assertIn(
+            "missing:causal_stop_rationale",
+            validate_causal_descent_for_promotion(record),
+        )
+
+    def test_intervention_stop_requires_actionable_implication(self):
+        causal = self._record()
+        broken_lead = StructuralConstraintHypothesis(
+            **{
+                **causal.constraint_hypotheses[0].__dict__,
+                "intervention_implication": "",
+            }
+        )
+        record = self._record(
+            constraint_hypotheses=(
+                broken_lead,
+                causal.constraint_hypotheses[1],
+            )
+        )
+        self.assertIn(
+            "intervention_boundary_requires_implication:C1",
+            validate_causal_descent(record),
+        )
+
     def test_stop_reason_is_part_of_deep_causal_discipline(self):
         record = self._record(stop_reason=None)
         self.assertEqual(
