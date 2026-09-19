@@ -317,6 +317,8 @@ SURFACE SIGNAL
 
 Do not assume a single root cause. A real blocked transition may remain multi-causal.
 
+The selected latent outcome must have an explicit evidence-bound selection rationale. A causal stop must also have a written rationale; a label alone cannot terminate descent. Psychology, observed behavior and recent change are powerful evidence classes, not universal prerequisites when other objective causal evidence is sufficient.
+
 The engine stops descending only when one of these is explicit:
 
 ```text
