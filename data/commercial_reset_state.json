@@ -6,14 +6,20 @@
   "active_transaction_units": [],
   "active_parent_formations": [],
   "inherited_watchlist": [],
-  "retained_research_formations": [
-    "ATTRACTION_SCAN_001-F1"
+  "retained_research_formations": [],
+  "resolved_research_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_001-F1",
+      "verdict": "DEMOTED_FROM_CURRENT_COMMERCIAL_FORMATION",
+      "resolved_date": "2026-09-19"
+    }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
   "last_completed_scan_id": "ATTRACTION_SCAN_001",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_001-F1",
   "next_scan_id": "ATTRACTION_SCAN_002",
-  "current_research_action": "CAUSAL_DESCENT_ATTRACTION_SCAN_001_F1",
+  "current_research_action": "RUN_ATTRACTION_SCAN_002",
   "required_scan_controls": [
     "BROAD_REALITY",
     "ATTRACTION_BRIEF",
@@ -23,7 +29,8 @@
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
     "ATTRACTION_SCAN_001 completed with zero commercial candidate promotions.",
-    "ATTRACTION_SCAN_001-F1 is a research formation only and must pass causal descent before any commercial promotion.",
+    "ATTRACTION_SCAN_001-F1 was demoted after causal descent and incumbent-resolution analysis.",
+    "Order-specific acceptance design survives only as an abstract research learning, not a candidate or watchlist item.",
     "Deleted files and closed case issues must not be automatically recovered as candidates.",
     "Reusable engine code and evidence infrastructure are preserved."
   ]
