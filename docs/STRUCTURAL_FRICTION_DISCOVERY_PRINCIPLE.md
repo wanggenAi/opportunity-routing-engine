@@ -221,6 +221,8 @@ If psychology is used, behavior corroboration is still required for the psycholo
 1. falsifiable from observable evidence; and
 2. decision-relevant — a deeper explanation would not materially change which real-world resources, interfaces, rights, trust mechanisms or capabilities must be discovered or activated.
 
+A stop reason must include a written rationale explaining why further descent would no longer change the next decision, is not falsifiable with available evidence, has reached an evidence boundary, or is genuinely multi-causal. The enum label alone is not sufficient.
+
 Valid stop reasons include:
 
 ```text
