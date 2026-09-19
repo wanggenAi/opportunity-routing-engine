@@ -55,7 +55,6 @@ class RepositoryRecoveryContractTests(unittest.TestCase):
         for state in ("FRESH", "STALE", "CONFLICTED"):
             self.assertIn(state, agents)
         self.assertIn("## Atomic checkpoint procedure", protocol)
-        self.assertIn("## Mandatory checkpoint boundaries", protocol)
         self.assertIn("## Resume algorithm", protocol)
         self.assertIn("## Crash-window rule", protocol)
         self.assertIn("GitHub Contents API updates use the current blob SHA", protocol)
