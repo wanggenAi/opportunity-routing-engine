@@ -1,0 +1,296 @@
+{
+  "mission_id": "ATTRACTION_FIELD_BROAD_REALITY_V1",
+  "as_of_date": "2026-09-19",
+  "primary_geography": "CN",
+  "zoom_geographies": [
+    "CN-JS",
+    "CN-JS-XUZHOU"
+  ],
+  "objective_primitives": [
+    "ACTOR",
+    "STATE",
+    "CHANGE",
+    "RESOURCE",
+    "CAPABILITY",
+    "PERCEPTION",
+    "MOTIVE",
+    "BEHAVIOR",
+    "FLOW",
+    "CONSTRAINT",
+    "FRICTION",
+    "OUTCOME"
+  ],
+  "seeds": [
+    {
+      "seed_id": "household-life-stage-transition",
+      "text": "家庭 生命周期 迁移 婚育 独居 照护 居住 决策 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "ACTOR",
+        "STATE",
+        "CHANGE",
+        "MOTIVE",
+        "BEHAVIOR"
+      ]
+    },
+    {
+      "seed_id": "consumer-tradeoff-change",
+      "text": "消费者 性价比 便利 品质 时间 体验 替代 决策 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "PERCEPTION",
+        "MOTIVE",
+        "BEHAVIOR",
+        "FLOW"
+      ]
+    },
+    {
+      "seed_id": "work-career-income-transition",
+      "text": "就业 职业 收入 转岗 自雇 副业 工作方式 状态 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "ACTOR",
+        "STATE",
+        "CHANGE",
+        "CAPABILITY",
+        "BEHAVIOR"
+      ]
+    },
+    {
+      "seed_id": "small-business-operating-friction",
+      "text": "小微企业 个体户 门店 经营 现金流 获客 履约 协调 摩擦 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "ACTOR",
+        "STATE",
+        "FLOW",
+        "CONSTRAINT",
+        "FRICTION"
+      ]
+    },
+    {
+      "seed_id": "enterprise-process-workaround",
+      "text": "企业 流程 人工绕行 重复协调 审批 交付 采购 售后 摩擦 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "BEHAVIOR",
+        "FLOW",
+        "CONSTRAINT",
+        "FRICTION",
+        "OUTCOME"
+      ]
+    },
+    {
+      "seed_id": "city-space-mobility-change",
+      "text": "城市 空间 通勤 社区 商圈 出行 场地 利用 行为 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "STATE",
+        "RESOURCE",
+        "BEHAVIOR",
+        "FLOW",
+        "FRICTION"
+      ]
+    },
+    {
+      "seed_id": "cross-border-movement-friction",
+      "text": "跨境 出海 采购 销售 支付 物流 本地化 信任 协调 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "ACTOR",
+        "FLOW",
+        "CONSTRAINT",
+        "FRICTION",
+        "OUTCOME"
+      ]
+    },
+    {
+      "seed_id": "ai-capability-adoption-change",
+      "text": "AI 智能体 自动化 新能力 成本下降 使用行为 工作流 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "CHANGE",
+        "CAPABILITY",
+        "BEHAVIOR",
+        "FLOW",
+        "FRICTION"
+      ]
+    },
+    {
+      "seed_id": "trust-relationship-routing",
+      "text": "信任 口碑 熟人 关系 渠道 推荐 背书 交易路径 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "RESOURCE",
+        "PERCEPTION",
+        "BEHAVIOR",
+        "FLOW",
+        "CONSTRAINT"
+      ]
+    },
+    {
+      "seed_id": "time-attention-coordination",
+      "text": "时间 注意力 排队 等待 预约 协调 碎片时间 行为 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "RESOURCE",
+        "STATE",
+        "BEHAVIOR",
+        "FRICTION",
+        "OUTCOME"
+      ]
+    },
+    {
+      "seed_id": "access-rights-permission",
+      "text": "权限 资格 访问 名额 使用权 许可 门槛 获取 路径 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "RESOURCE",
+        "STATE",
+        "CONSTRAINT",
+        "FLOW",
+        "FRICTION"
+      ]
+    },
+    {
+      "seed_id": "underused-capacity-general",
+      "text": "低利用 闲置 空余 能力 资源 空间 设备 时间 渠道 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "RESOURCE",
+        "CAPABILITY",
+        "STATE",
+        "FRICTION"
+      ]
+    },
+    {
+      "seed_id": "channel-distribution-mismatch",
+      "text": "渠道 分发 流量 客户触达 供给曝光 转化 获客 路径 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "RESOURCE",
+        "BEHAVIOR",
+        "FLOW",
+        "FRICTION"
+      ]
+    },
+    {
+      "seed_id": "manual-workaround-repetition",
+      "text": "微信群 Excel 电话 人工转介绍 临时协调 重复绕行 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "BEHAVIOR",
+        "FLOW",
+        "CONSTRAINT",
+        "FRICTION"
+      ]
+    },
+    {
+      "seed_id": "delay-uncertainty-avoidance",
+      "text": "等待 延迟 不确定 风险 备选 兜底 加急 行为 成本 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "MOTIVE",
+        "BEHAVIOR",
+        "CONSTRAINT",
+        "FRICTION",
+        "OUTCOME"
+      ]
+    },
+    {
+      "seed_id": "identity-status-transition",
+      "text": "身份 状态 角色 退休 毕业 搬迁 新手 新进入者 资源意义 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "ACTOR",
+        "STATE",
+        "CHANGE",
+        "RESOURCE",
+        "MOTIVE"
+      ]
+    },
+    {
+      "seed_id": "family-care-health-burden",
+      "text": "家庭 照护 健康 康复 陪护 责任 时间负担 行为 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "ACTOR",
+        "STATE",
+        "MOTIVE",
+        "BEHAVIOR",
+        "FRICTION"
+      ]
+    },
+    {
+      "seed_id": "learning-skill-application",
+      "text": "学习 技能 经验 知识 应用 变现 使用场景 能力错配 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "CAPABILITY",
+        "RESOURCE",
+        "MOTIVE",
+        "BEHAVIOR",
+        "FRICTION"
+      ]
+    },
+    {
+      "seed_id": "repair-reuse-circular-flow",
+      "text": "维修 翻新 二手 再利用 回收 租赁 闲置流转 行为 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "RESOURCE",
+        "BEHAVIOR",
+        "FLOW",
+        "FRICTION"
+      ]
+    },
+    {
+      "seed_id": "service-experience-gap",
+      "text": "服务 体验 售后 响应 便利 透明 信任 投诉 替代 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "PERCEPTION",
+        "BEHAVIOR",
+        "FRICTION",
+        "OUTCOME"
+      ]
+    },
+    {
+      "seed_id": "price-value-repricing",
+      "text": "价格 价值 重定价 降价 涨价 补贴 付费 替代 选择 变化",
+      "language": "zh-CN",
+      "target_primitives": [
+        "STATE",
+        "PERCEPTION",
+        "BEHAVIOR",
+        "FLOW",
+        "CHANGE"
+      ]
+    }
+  ],
+  "lane_weights": {
+    "CHINA_CORE": 35,
+    "JIANGSU_ZOOM": 15,
+    "XUZHOU_ZOOM": 15,
+    "GLOBAL_AUXILIARY": 15,
+    "CONTRADICTION_SEARCH": 10,
+    "SOURCE_DISCOVERY": 10
+  },
+  "freshness_days": 30,
+  "max_query_count": 60,
+  "max_results_per_query": 20,
+  "max_results_per_host": 20,
+  "min_independent_hosts": 12,
+  "min_source_families": 6,
+  "max_single_host_share": 0.2,
+  "max_global_auxiliary_share": 0.3,
+  "require_domestic_corroboration_for_global": true,
+  "cross_border_mode": "EXCEPTION_ONLY",
+  "allowed_execution_modes": [
+    "INTERACTIVE_AGENT_WEB",
+    "DIRECT_PUBLIC_SOURCE",
+    "AUTHORIZED_API",
+    "AUTHORIZED_EXPORT",
+    "PUBLIC_MANUAL"
+  ]
+}
