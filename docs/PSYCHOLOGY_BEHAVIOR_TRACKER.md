@@ -326,11 +326,15 @@ PERCEPTION / MOTIVE CHANGE
 +
 OBSERVED BEHAVIOR
 +
-CONTRADICTION
+SURFACE PHENOMENON / CONTRADICTION
 → investigate RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
-→ infer UNMET / UNFORMED OUTCOME HYPOTHESIS
+→ infer PRODUCT-AGNOSTIC LATENT / UNFORMED OUTCOME HYPOTHESIS
+→ infer STRUCTURAL FRICTION HYPOTHESIS
+→ search ALTERNATIVE EXPLANATIONS / DISCRIMINATING EVIDENCE
+→ promote only when supported to EVIDENCED_STRUCTURE
 → search COMPLEMENTARY WORLD NODES
-→ design COUNTERFACTUAL EXCHANGE
+→ discover CONNECTION PRESSURE + MISSING EDGE
+→ only then design COUNTERFACTUAL EXCHANGE
 → run CHEAP VALIDATION
 ```
 
@@ -344,6 +348,8 @@ Only later should strict transaction evidence be projected into:
 
 ```text
 PSYCHOLOGY HYPOTHESIS != DEMAND
+SURFACE PHENOMENON != STRUCTURAL FRICTION
+STRUCTURAL FRICTION HYPOTHESIS != EVIDENCED STRUCTURAL FRICTION
 UNFORMED OUTCOME != DEMAND
 DEMAND != WILLINGNESS TO PAY
 WILLINGNESS TO PAY != TRANSACTION
@@ -393,4 +399,4 @@ Do not build a giant social scraper before the value-formation contract can use 
 
 ## 20. Governing invariant
 
-> **心理行为工程不是“看看大家抱怨什么、想买什么”。它要观察 Actor 在什么状态、拥有什么、发生了什么变化、如何感受变化、产生了什么动机、真实行为怎样偏移，以及资源与心理/行为之间出现了什么矛盾。平台只是传感器。真正要寻找的是 Resource–Psychology Disequilibrium 和尚未成形的 outcome，再把它交给互补节点搜索与 Counterfactual Exchange Design。心理解释可能的方向，行为与钱帮助判断它是否真实；任何心理信号都不能直接升级成需求。**
+> **心理行为工程不是“看看大家抱怨什么、想买什么”。它要观察 Actor 在什么状态、拥有什么、发生了什么变化、如何感受变化、产生了什么动机、真实行为怎样偏移，以及资源与心理/行为之间出现了什么矛盾。表层痛点只是传感器；系统要继续反推 Actor 真正试图完成的状态转换，以及阻止该转换的结构性摩擦，并用行为、客观状态、钱与反证去区分“推导”与“事实”。只有结构性摩擦获得证据以后，才进入互补节点与连接压力搜索。任何心理信号都不能直接升级成需求或商业机会。**
