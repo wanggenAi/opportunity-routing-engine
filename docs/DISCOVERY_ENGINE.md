@@ -133,6 +133,7 @@ surface_phenomenon_or_friction
 latent_outcome_hypotheses
 selected_latent_outcome
 latent_outcome_truth_state
+outcome_selection_rationale
 structural_friction_hypotheses
 lead_structural_constraints
 structural_friction_truth_state
@@ -140,6 +141,7 @@ alternative_explanations
 discriminating_evidence
 falsifiers
 causal_stop_reason
+causal_stop_rationale
 structural_friction_evidence
 hidden_or_underrecognized_value
 complementary_world_nodes
@@ -383,7 +385,7 @@ A single deeper-sounding sentence is not a causal model. A promotable causal rec
 - discriminating evidence;
 - falsifiers;
 - the current lead constraint(s);
-- an explicit stop reason.
+- an explicit stop reason and written stop rationale.
 
 The accepted frontier may be multi-causal.
 
