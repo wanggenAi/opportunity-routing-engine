@@ -141,8 +141,19 @@ _VALIDATION_EVIDENCE_KINDS = frozenset(
 )
 
 
+def _canonical_evidence_kind(kind: EvidenceKind) -> EvidenceKind:
+    # Compatibility-only legacy label. Canonical ontology uses MISSING_EDGE.
+    if kind is EvidenceKind.STRANDING_BARRIER:
+        return EvidenceKind.MISSING_EDGE
+    return kind
+
+
 def evidence_kinds(candidate: LatentValueCandidate) -> set[EvidenceKind]:
-    return {item.kind for item in candidate.evidence if item.is_usable()}
+    return {
+        _canonical_evidence_kind(item.kind)
+        for item in candidate.evidence
+        if item.is_usable()
+    }
 
 
 def missing_validation_evidence(candidate: LatentValueCandidate) -> list[EvidenceKind]:
@@ -150,10 +161,7 @@ def missing_validation_evidence(candidate: LatentValueCandidate) -> list[Evidenc
 
     present = evidence_kinds(candidate)
     missing = set(_VALIDATION_EVIDENCE_KINDS - present)
-    if not {
-        EvidenceKind.MISSING_EDGE,
-        EvidenceKind.STRANDING_BARRIER,
-    }.intersection(present):
+    if EvidenceKind.MISSING_EDGE not in present:
         missing.add(EvidenceKind.MISSING_EDGE)
     return sorted(missing, key=lambda item: item.value)
 
@@ -340,7 +348,10 @@ def _record_evidence_kinds(record: Mapping[str, object]) -> set[str]:
                 and isinstance(claim, str)
                 and claim.strip()
             ):
-                kinds.add(kind.strip())
+                normalized = kind.strip()
+                if normalized == "STRANDING_BARRIER":
+                    normalized = "MISSING_EDGE"
+                kinds.add(normalized)
     return kinds
 
 
@@ -428,7 +439,7 @@ def validate_candidate_record(record: Mapping[str, object]) -> list[str]:
         if kind.value not in present_kinds:
             errors.append(f"missing:evidence_kind:{kind.value}")
 
-    if not {"MISSING_EDGE", "STRANDING_BARRIER"}.intersection(present_kinds):
+    if "MISSING_EDGE" not in present_kinds:
         errors.append("missing:evidence_kind:MISSING_EDGE")
 
     return errors
@@ -444,6 +455,7 @@ GOVERNING_INVARIANTS = (
     "STRUCTURAL_FRICTION_NE_MISSING_EDGE",
     "CONNECTION_PRESSURE_NE_COMPLEMENTARITY",
     "MISSING_EDGE_NE_STRUCTURAL_FRICTION",
+    "LEGACY_STRANDING_BARRIER_NORMALIZES_TO_MISSING_EDGE",
     "COUNTERFACTUAL_EXCHANGE_FOLLOWS_EVIDENCED_CONNECTION",
     "BUYER_COST_FIRST_NE_CONSTITUTION",
     "POTENTIAL_VALUE_NE_PROVEN_VALUE",
