@@ -477,6 +477,29 @@ def _normalized_text(value: str) -> str:
     return " ".join(value.split()).strip().casefold()
 
 
+def causal_evidence_refs(record: CausalDescentRecord) -> set[str]:
+    """Return every provenance reference used to support or contradict causal claims."""
+
+    refs = set(record.surface_evidence_refs)
+    for outcome in record.outcome_hypotheses:
+        refs.update(outcome.evidence_refs)
+        refs.update(outcome.contradiction_refs)
+    for constraint in record.constraint_hypotheses:
+        refs.update(constraint.support_refs)
+        refs.update(constraint.contradiction_refs)
+        refs.update(constraint.discriminating_evidence_refs)
+    return {ref for ref in refs if ref.strip()}
+
+
+def unbound_causal_evidence_refs(
+    record: CausalDescentRecord,
+    available_refs: set[str],
+) -> tuple[str, ...]:
+    """Fail closed when causal claims cite evidence not present in the evidence packet."""
+
+    return tuple(sorted(causal_evidence_refs(record) - available_refs))
+
+
 def validate_causal_projection(
     record: CausalDescentRecord,
     *,
