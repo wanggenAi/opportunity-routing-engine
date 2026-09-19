@@ -9,66 +9,67 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 022 is merged with zero retained candidates. Fresh Scan 023 is active and tests whether bounded responsibility tasks resist micro-unit commoditization because each transaction requires context acquisition, judgment or local interpretation. Early evidence shows that context-heavy work is still routinely standardized by vertical providers into bounded factory-audit, supervision, measurement, acceptance and used-equipment inspection units. Retain only if a named current Xuzhou/Jiangsu actor is still performing a measurable manual workaround after these vertical routes are considered.
+Fresh Scan 023 is complete with zero retained candidates. Transaction-specific context, judgment and local interpretation do not by themselves prevent micro-service commoditization: current vertical providers already standardize factory audits, loading supervision, site measurement, waterproof acceptance, used-equipment condition reports and home-service execution. No named current Xuzhou/Jiangsu actor remained in a measurable manual workaround after these routes were considered. After merge, Fresh Scan 024 should stop abstract mechanism-first scanning and return to broad current private-market events under a strict buyer-cost-first rule.
 
 ## Current Phase
-`SCAN_022_MERGED / RETAINED_ZERO / FRESH_SCAN_023_ACTIVE`
+`SCAN_023_NEGATIVE_COMPLETE / RETAINED_ZERO / SCAN_024_BUYER_COST_FIRST_NEXT`
 
 ## Last Verified Main
-`85cb62d0adf43a0ec94559646c047d33d0defae2` — PR #225 Scan 022 merged after CI #631 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
+`85946105987416a04569be7d39a3171c5af0ddb3` — state-only Scan 023 start checkpoint on main before this branch was populated. Current branch has not yet merged.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-None.
+`field/opportunity-mobilization-scan-023`
 
 ## Active PR
-None. PR #225 — `Persist opportunity mobilization scan 022` — merged.
+Not yet opened at this checkpoint.
 
 ## CI
-- PR #225 head `b6d22151c99402c41e92ad048fe91afb95d1dbd8`
-- Actions run #631, run id `35410092042`
-- workflow `ci`: success
-- merge SHA: `85cb62d0adf43a0ec94559646c047d33d0defae2`
-- run #631 emitted no separate GitHub Actions artifact
+- Last verified business CI: PR #225 Actions #631, success.
+- Current Scan 023 branch CI: pending until PR is opened.
+- No workflow artifact is claimed unless GitHub actually emits one.
 
 ## Latest Artifact / Persisted State
-- `data/opportunity_mobilization_scan_022_2026-09-19.json`
-- `field/opportunity-mobilization-scan-022.md`
-- Issue #143 synced through Scan 022
-- workflow artifact: none for CI #631
+- Branch artifact: `data/opportunity_mobilization_scan_023_2026-09-19.json`
+- Branch field note: `field/opportunity-mobilization-scan-023.md`
+- Prior merged evidence: `data/opportunity_mobilization_scan_022_2026-09-19.json`
+- Workflow artifact: none currently claimed.
 
 ## Completed
 - Prior closed/deprioritized candidates remain unchanged.
-- Scans 009–022 all completed with zero retained candidates.
-- Scan 022 confirmed responsibility minimum-unit mismatch is real but broadly compressible through pooled/shared/per-ticket services.
-- Fresh Scan 023 started.
-- Current Scan 023 counterevidence:
-  - factory audit/supplier assessment is already sold as a bounded service around hundreds of RMB;
-  - loading supervision/product inspection is mature;
-  - Xuzhou waterproof acceptance is sold as a bounded on-site service around RMB 200;
-  - custom-home measurement is routinely bundled/free and can be routed through national service networks;
-  - used-equipment condition inspection already standardizes transaction-specific identity/configuration/function/defect/repair-risk context into inspection reports;
-  - large-scale home-installation networks already route measurement/installation/repair with platform guarantee and replacement.
-- No named current Xuzhou/Jiangsu manual workaround remains bound after these routes.
+- Scans 009–022 completed with zero retained candidates.
+- Scan 023 tested context-heavy bounded responsibility tasks.
+- Factory/supplier audit is already productized as a bounded low-hundreds-RMB service in current offerings.
+- Loading supervision/product inspection is already a mature third-party inspection route.
+- Xuzhou custom door/window measurement and broader custom-home measurement are bundled/free and routable through vertical providers/platforms.
+- Xuzhou-facing waterproof acceptance is already sold as a bounded local on-site service.
+- Used-equipment condition assessment already encodes identity/configuration/function/defect/history/removal context into standardized third-party reports.
+- Home installation/repair networks already route context-heavy local tasks through large replaceable execution pools with platform protection.
+- No named current Xuzhou/Jiangsu manual workaround survived these incumbent checks.
+- `RETAINED_CANDIDATES = 0`.
+- No founder probe released.
+- External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
+- Two prior external probes still have zero qualified responses.
 
 ## Current Findings
 - `CONTEXT REQUIRED != NON-COMMODITIZABLE`.
-- `LOCAL JUDGMENT != OPEN ROOTING GAP`.
-- Vertical providers can encode transaction context into checklists, measurement schemas, acceptance criteria and reports.
-- The next candidate must have a context variable that cannot be cheaply captured by an incumbent schema yet still produces objective bounded acceptance.
+- `LOCAL JUDGMENT != OPEN ROUTING GAP`.
+- Vertical providers can standardize context through intake schemas, checklists, measurements, acceptance criteria and reports.
+- Further abstract mechanism scans risk looping without increasing truth.
 
 ## Blockers
-- No named current Xuzhou/Jiangsu actor is bound to a context-heavy micro-task whose workaround remains costly after vertical service routes are considered.
+- No current candidate combines a named private buyer cost, bilateral pull, observed post-incumbent missing edge, high reachability, low permission, clear money flow, self-propulsion and operator exit.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-Finish Fresh Scan 023 fail-closed unless one named current manual workaround survives. If none survives, persist Scan 023 and move the next scan away from another abstract mechanism family; return to current private-market events and require a concrete buyer-side cost before mechanism labeling.
+After Scan 023 merges, start Fresh Scan 024 with BUYER COST FIRST. Search current Xuzhou/Jiangsu private-market events and retain nothing until a named private actor is observed paying extra, waiting, rerouting, losing output or repeatedly using a workaround. Only after binding the event classify the mechanism and search incumbents.
 
 ## Do Not Repeat
+- Do not start Scan 024 from another abstract mechanism category.
 - Do not reopen generic factory audit, inspection, field-evidence, custom measurement, used-equipment inspection, home installation or prior closed vertical routes.
-- Do not infer opportunity merely because each transaction needs local context.
+- Do not infer opportunity merely because a task needs local context.
 - Do not release founder outreach until a narrow public residual is evidenced.
 - Do not build ontology/scoring/agent architecture.
 
