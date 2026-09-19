@@ -3,7 +3,7 @@
 Operational handoff only. GitHub live state wins if anything below conflicts with repository facts.
 
 ## Current Mission
-Business discovery is resumed under the merged reality-first / fluid-cognition constitution. Fresh Scan 027 is complete and persisted. The commercial mission remains first external value flow, but no new external action has been released yet.
+Business discovery is resumed under the merged reality-first / fluid-cognition constitution. Fresh Scan 028 is complete on the active PR branch and has reduced R027-TRACK-A to one bounded office-specific access/economics probe.
 
 ## Goal
 Use broad, adaptive discovery while preserving fail-closed truth promotion:
@@ -12,136 +12,107 @@ Use broad, adaptive discovery while preserving fail-closed truth promotion:
 REALITY > COGNITION > SCHEMA
 ```
 
-Discovery may enter, branch, backtrack or reframe through any evidence-bearing layer. A scan heuristic is never the constitution.
+For the current route, distinguish:
+```text
+PUBLIC TRANSACTION RAIL
+!=
+OFFICE-SPECIFIC ACCESS
+!=
+COMMISSION ECONOMICS
+!=
+FIRST EXTERNAL VALUE FLOW
+```
+
+## Current Unique Commercial Research Goal
+Prove or kill the immediate Jiangsu/Xuzhou technical-manager existing-rail route for first external value flow.
+
+Current question:
+Can an external project-based operator with a self-sourced qualified enterprise technology demand/project enter an existing Xuzhou technical-manager office's contract / invoice / commission rail under economically usable terms?
 
 ## Current Phase
-`FRESH_SCAN_027_MERGED / MAIN_GREEN / DISCOVERY_RESUMED / SCAN_028_NEXT`
+`SCAN_028_PR_ACTIVE / PUBLIC_TRANSACTION_RAIL_PROVEN / PRIVATE_TERMS_UNKNOWN / BOUNDED_HUMAN_PROBE_READY`
 
 ## Last Verified Main
-`bc8e49355d874bcf32e480d72a82da73542da7e7` — PR #236 squash-merged. Main CI run #735 (run id `35421409839`) passed on this exact SHA. The state-only checkpoint commit that updates this file may advance live `main` with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
+`bc8e49355d874bcf32e480d72a82da73542da7e7` — PR #236 squash-merged; main CI run #735 (run id `35421409839`) passed on this exact functional SHA. Live main later advanced with state-only checkpoint `26b96fc72ec9605988fd777556a40dcd6f4f6eb3`.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Scan 027 results were synced to Issue #143 in comment id `5739352749`.
-
 ## Active Branch
-None. `feature/fresh-scan-027-reality-first` is merged and is not an active source of truth.
+`feature/scan-028-technical-manager-rail`
 
 ## Active PR
-None. PR #236 (`Run reality-first fresh scan 027`) is merged.
+PR #237 — `Audit technical-manager transaction rail in scan 028`.
+
+Current head before this TASK_STATE update: `3d30a8ded4550916ae56319324bbcc60cd6d2ac5`.
 
 ## CI
-- PR #236 final head: `9d178a4f912d1caa5609f7cf479e605d9b725426`
-- PR CI: run #734, run id `35421346902`, success
-- merge SHA: `bc8e49355d874bcf32e480d72a82da73542da7e7`
-- main CI: run #735, run id `35421409839`, success
+- Initial PR #237 CI: run #736, run id `35421703916`, failed only because the prior TASK_STATE checkpoint omitted required recovery-contract headings.
+- Scan 028 research artifacts themselves did not cause the observed failure.
+- After this recovery-contract correction, CI must be rerun on the new PR head before merge.
 
-## Latest Persisted Scan
+## Latest Artifact / Persisted State
+Scan 028 branch artifacts:
+- `data/opportunity_mobilization_scan_028_2026-09-19.json`
+- `field/opportunity-mobilization-scan-028.md`
+- `field/bounded-human-probe-028-a-technical-manager-rail.md`
+
+Latest merged prior scan:
 - `data/opportunity_mobilization_scan_027_2026-09-19.json`
 - `field/opportunity-mobilization-scan-027.md`
 
-Scan 027 executed:
-- China core
-- Jiangsu zoom
-- Xuzhou zoom
-- global auxiliary
-- contradiction/incumbent search
-- source / transaction-rail discovery
-
-Result:
-- retained live tracks: 3
-- formal opportunity promotions: 0
-- new P0 promotions: 0
-- new external actions: 0
-- `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`
-
-## Current Live Tracks
-
-### R027-TRACK-A — Existing technical-manager transaction rail
-State: `ROUTE_TESTABLE_EXISTING_RAIL`.
-
-Current evidence shows Jiangsu/Xuzhou already has:
-- technical-manager offices;
-- technical-demand / expert / result infrastructure;
-- contract / invoice / service-income rails;
-- project-cooperation attachment;
-- commission settlement by agreement;
-- partnership / OPC operating routes;
-- live technical transactions.
-
-This is **not** a new-market-whitespace claim.
-
-Decisive unknown:
-Can a project-based external operator with self-sourced qualified projects enter an existing Xuzhou/Jiangsu technical-manager office's transaction/settlement rail, and under what exact qualification, attachment, commission, contract, acceptance and settlement terms?
-
-### R027-TRACK-B — Resource-first application discovery
-State: `LATENT_VALUE_HYPOTHESIS_WITH_CONNECTION_PRESSURE / MISSING_EDGE_NOT_EVIDENCED`.
-
-A named Xuzhou novel-material resource owner has a real resource but publicly unresolved downstream applications. Existing concept-validation and technical-transfer infrastructure means the missing edge must be proven **after** incumbent routes are considered.
-
-Decisive unknown:
-Find a named novel-resource owner that has attempted available transfer/concept-validation routes and still has a specific unowned application-discovery/validation responsibility.
-
-### R027-TRACK-C — Long-tail overseas field-service orchestration
-State: `LATENT_CONNECTION_HYPOTHESIS / NAMED_ACTOR_AND_SURVIVING_MISSING_EDGE_NOT_BOUND`.
-
-Export/service pressure is real, but generic overseas after-sales software, BPO and service-network categories already exist.
-
-Decisive unknown:
-Find one named smaller Jiangsu/Xuzhou exporter already paying external overseas-support providers yet still losing time/money/orders because no qualified local on-site technical resource can own diagnosis/repair, warranty-quality acceptance and settlement in a long-tail country.
-
-## Killed / Deprioritized in Scan 027
-Do not reopen these as generic whitespace without new contradictory evidence:
-- generic overseas compliance / legal / tax / IP concierge;
-- generic CBAM / DPP / carbon-data orchestration;
-- generic overseas after-sales software / call-center platform;
-- generic technology matching marketplace;
-- generic property / EHS / testing / maintenance / logistics control-plane.
+## Completed
+- Verified current 2026 Jiangsu Technical Manager Office rule.
+- Publicly established that offices may recruit social/external technical managers and use project cooperation to establish affiliation.
+- Publicly established that offices and affiliated technical managers may settle technology-transfer service commission by agreement.
+- Publicly established that offices provide transaction-service contract signing, invoicing and settlement support.
+- Publicly established that offices may lawfully obtain service income.
+- Publicly established that professional/social technical managers may use partnership or OPC operating entities to apply for market-oriented office status without the ordinary Article 5 scale/history requirements.
+- Verified current 2026 training still uses the `双选 / 挂靠` practical cooperation mechanism.
+- Preserved 2024 official technical-manager registration guidance only as continuity evidence, not as proof of every 2026 office's exact intake procedure.
+- Verified national 2026 technology-contract rules recognize technology intermediary contracts as a technology-service-contract type.
+- Identified China University of Mining and Technology National University Science Park Science & Technology Services Department as the cleanest first Xuzhou probe target.
+- Prepared a single bounded probe; no outreach has been sent.
+- Corrected TASK_STATE structure to satisfy the repository recovery contract.
 
 ## Current Findings
-- A valuable commercial discovery does not have to be a new market category. A legitimate existing transaction rail may be better than building another marketplace.
-- Existing-rail discovery, latent-value formation and latent-connection discovery are different epistemic objects and must not be collapsed into one score.
-- Technical-manager infrastructure is currently the closest route to bounded external-value-flow testing, but access/settlement terms are not yet established.
-- Resource-first application discovery remains a real formation pattern, but existing concept-validation / transfer infrastructure is strong counterevidence against a generic new intermediary.
-- Rapid export growth creates service pressure, but generic overseas-after-sales categories are already productized; only a narrower named-actor residual may survive.
-- The reality-first constitution improved the scan by allowing evidence to determine the entry path instead of forcing Scan 026's heuristic.
+- Track A truth state is now `PUBLIC_TRANSACTION_RAIL_PROVEN / PRIVATE_TERMS_UNKNOWN`.
+- The remaining unknown is not whether the institutional rail exists; it is whether a specific Xuzhou office will admit the current operator and under what economics.
+- Current 2026 public rules do not provide one mandatory technical-manager commission percentage, office service-fee percentage, universal settlement trigger or universal self-sourced-project acceptance rule.
+- The 2026 rule says commission settlement is `按约定`; older historical fee/split conventions must not be treated as current truth.
+- Existing-office project cooperation is the lowest-friction first test. Creating an OPC/partnership office is a possible later route, not a prerequisite for the first transaction.
+- More generic web research has diminishing value; the decisive uncertainty is now counterparty-specific.
 
-## External Truth
-- prior external probes sent: 2
-- qualified external responses: 0
-- new external actions in Scan 027: 0
-- `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`
+## Blockers
+The immediate route is blocked by five office-specific unknowns:
+1. external/project-based intake: YES/NO;
+2. mandatory individual qualification / platform-registration order;
+3. contract and invoice controller;
+4. commission basis;
+5. commission settlement trigger.
+
+Until these are answered, `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 
 ## Next Action
-Run **Scan 028 on R027-TRACK-A first**. Use public evidence to map the exact current entry / attachment / qualification / project-cooperation / commission / contract / invoice / acceptance / settlement rail for a project-based technical manager through existing Xuzhou/Jiangsu technical-manager offices. In parallel, preserve only meaningful new named-actor evidence for Tracks B and C.
-
-Do **not** contact anyone until a specific bounded probe is written and explicitly authorized.
+Obtain explicit user authorization for the single bounded human probe in `field/bounded-human-probe-028-a-technical-manager-rail.md`. If authorized, contact only the preferred first target, persist the exact response, and do not contact a second office unless the first route is closed or materially incomplete.
 
 ## Do Not Repeat
-- Do not turn `CURRENT_EXTERNALIZED_WORKAROUND_FIRST`, `BUYER_COST_FIRST` or any other scan heuristic into the constitution.
-- Do not force all retained tracks into one opportunity score when their epistemic maturity differs.
-- Do not call an existing transaction rail “whitespace”.
-- Do not rebuild a technology marketplace merely because technical transfer is valuable.
-- Do not infer an application-discovery gap merely because a new resource has unknown applications.
-- Do not infer overseas-service whitespace from export growth or internal service hiring alone.
-- Do not reopen generic categories already killed by current incumbent evidence without new contradictory evidence.
-- Do not make schema shape reality or fabricate alternatives/layers for a validator.
-- Do not promote a plausible story without evidence, falsifiers, contradiction search and explicit stop semantics.
-- Do not contact external actors until a bounded probe is written and explicitly authorized.
+- Do not keep broad-searching for what is now an office-specific contractual/economic unknown.
+- Do not treat project-cooperation permission as guaranteed acceptance by every office.
+- Do not treat `佣金按约定` as a known commission rate.
+- Do not reuse historical fixed fee/split figures as 2026 truth.
+- Do not treat technology-manager identity or training as automatically sufficient for office acceptance.
+- Do not build a new marketplace or own technical-manager office before testing the existing rail.
+- Do not spray outreach across multiple offices.
+- Do not infer customer commitment from contract/invoice infrastructure.
+- Do not contact external actors without explicit authorization.
 
 ## Guardrails
 - GitHub live state is the operational source of truth.
 - `REALITY > COGNITION > SCHEMA`.
-- `SCAN HEURISTIC != CONSTITUTION`.
-- `SCHEMA CONFORMANCE != TRUTH`.
-- `HYPOTHESIS CARDINALITY != EPISTEMIC RIGOR`.
-- `STATE MACHINE != REQUIRED DISCOVERY PATH`.
-- `STATED NEED != LATENT OUTCOME`.
-- `ONE PLAUSIBLE EXPLANATION != STRUCTURAL TRUTH`.
-- `DEEPER STORY != DEEPER TRUTH`.
-- `STRUCTURAL FRICTION != MISSING EDGE`.
-- `COMPLEMENTARITY != LATENT CONNECTION`.
-- `COUNTERFACTUAL EXCHANGE != LATENT CONNECTION EVIDENCE`.
+- `PUBLIC RAIL != GUARANTEED ACCESS`.
+- `COMMISSION ALLOWED != COMMISSION RATE KNOWN`.
+- `CONTRACT INFRASTRUCTURE != CUSTOMER COMMITMENT`.
+- `TECHNICAL MANAGER IDENTITY != OFFICE ACCEPTANCE`.
 - `UNKNOWN != PASS`.
 - Infer broadly/boldly for discovery; promote conservatively.
