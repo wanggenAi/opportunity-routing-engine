@@ -322,6 +322,8 @@ SURFACE SIGNAL
 
 Do not assume a single root cause. The accepted frontier may be multi-causal.
 
+Every selected latent outcome requires an evidence-bound selection rationale. Every causal stop requires a written stop rationale; a stop-reason enum by itself is not enough. Do not force psychology, observed behavior or a recent change when objective technical/institutional/process/state evidence already supports the causal structure.
+
 Valid stop reasons are:
 - `INTERVENTION_RELEVANT_BOUNDARY`;
 - `NO_DEEPER_FALSIFIABLE_LAYER`;
