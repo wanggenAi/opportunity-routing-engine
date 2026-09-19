@@ -206,6 +206,14 @@ STRUCTURAL TRUTH
 
 Multiple constraints may remain simultaneously true. When removing any one of them would still leave the state transition blocked, the causal frontier is multi-causal and must be represented that way.
 
+Observed behavior is highly useful but is not a universal prerequisite. Some structural constraints are evidenced directly through technical, institutional, rights/access, process, contractual, spatial/temporal or other objective state evidence.
+
+```text
+NO OBSERVED-BEHAVIOR SIGNAL != NO STRUCTURAL FRICTION
+```
+
+If psychology is used, behavior corroboration is still required for the psychological claim itself.
+
 ## 3D. Stop rule — do not descend forever
 
 "Go deeper" can itself become storytelling. The engine therefore stops causal descent when it reaches the deepest layer that is both:
