@@ -39,6 +39,12 @@ from dataclasses import dataclass, field
 from enum import Enum
 from typing import Sequence
 
+from src.causal_descent import (
+    CausalDescentRecord,
+    CausalDescentState,
+    causal_descent_state,
+    validate_causal_descent_for_promotion,
+)
 from src.latent_value_discovery import (
     EvidenceKind,
     EvidenceRef,
@@ -55,8 +61,10 @@ class FormationState(str, Enum):
         "RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS"
     )
     STRUCTURAL_FRICTION_HYPOTHESIS = "STRUCTURAL_FRICTION_HYPOTHESIS"
+    STRUCTURAL_FRICTION_EVIDENCED = "STRUCTURAL_FRICTION_EVIDENCED"
     LATENT_VALUE_FORMATION_HYPOTHESIS = "LATENT_VALUE_FORMATION_HYPOTHESIS"
     COMPLEMENTARITY_HYPOTHESIS = "COMPLEMENTARITY_HYPOTHESIS"
+    LATENT_CONNECTION_EVIDENCED = "LATENT_CONNECTION_EVIDENCED"
     VALIDATION_READY = "VALIDATION_READY"
 
 
@@ -79,6 +87,7 @@ class FormationEvidenceKind(str, Enum):
     STRUCTURAL_FRICTION = "STRUCTURAL_FRICTION"
     COMPLEMENTARY_NODE = "COMPLEMENTARY_NODE"
     CONNECTION_PRESSURE = "CONNECTION_PRESSURE"
+    MISSING_EDGE = "MISSING_EDGE"
     STRANDING_BARRIER = "STRANDING_BARRIER"
     COUNTERFACTUAL_PRECEDENT = "COUNTERFACTUAL_PRECEDENT"
     MONEY_BEHAVIOR = "MONEY_BEHAVIOR"
@@ -172,6 +181,11 @@ class LatentValueFormationHypothesis:
         StructuralFrictionTruthState.INFERRED
     )
     alternative_explanations: tuple[str, ...] = ()
+    resource_state_disequilibrium: str = ""
+    causal_descent: CausalDescentRecord | None = None
+    connection_pressure_hypothesis: str = ""
+    observed_missing_edge: str = ""
+    latent_connection_hypothesis: str = ""
     psychology_snapshots: Sequence[PsychologySnapshot] = field(default_factory=tuple)
     evidence: Sequence[FormationEvidenceRef] = field(default_factory=tuple)
     contradictions: Sequence[ContradictionEvidence] = field(default_factory=tuple)
@@ -184,11 +198,13 @@ _REQUIRED_TEXT_FIELDS = (
     "observed_state",
     "observed_change",
     "underused_or_misaligned_value",
-    "resource_psychology_disequilibrium",
     "observed_behavior",
     "latent_outcome_hypothesis",
     "surface_phenomenon_or_friction",
     "structural_friction_hypothesis",
+    "connection_pressure_hypothesis",
+    "observed_missing_edge",
+    "latent_connection_hypothesis",
     "counterfactual_exchange_design",
     "why_exchange_does_not_already_happen",
     "incremental_value_for_origin_actor",
@@ -208,7 +224,6 @@ _VALIDATION_EVIDENCE_KINDS = frozenset(
         FormationEvidenceKind.STRUCTURAL_FRICTION,
         FormationEvidenceKind.COMPLEMENTARY_NODE,
         FormationEvidenceKind.CONNECTION_PRESSURE,
-        FormationEvidenceKind.STRANDING_BARRIER,
     }
 )
 
@@ -223,7 +238,13 @@ def missing_validation_evidence(
     hypothesis: LatentValueFormationHypothesis,
 ) -> list[FormationEvidenceKind]:
     present = evidence_kinds(hypothesis)
-    return sorted(_VALIDATION_EVIDENCE_KINDS - present, key=lambda item: item.value)
+    missing = set(_VALIDATION_EVIDENCE_KINDS - present)
+    if not {
+        FormationEvidenceKind.MISSING_EDGE,
+        FormationEvidenceKind.STRANDING_BARRIER,
+    }.intersection(present):
+        missing.add(FormationEvidenceKind.MISSING_EDGE)
+    return sorted(missing, key=lambda item: item.value)
 
 
 def _usable_psychology_snapshots(
@@ -302,16 +323,27 @@ def validate_formation(
         errors.append(f"missing:evidence_kind:{kind.value}")
 
     usable_psychology = _usable_psychology_snapshots(hypothesis)
-    if not usable_psychology:
-        errors.append("missing:psychology_evidence")
-    elif not _has_perception_or_motive(hypothesis):
-        errors.append("missing:perception_or_motive_evidence")
-
     if usable_psychology and not _has_behavior_corroboration(hypothesis):
         errors.append("missing:psychology_behavior_corroboration")
 
+    if not (
+        hypothesis.resource_state_disequilibrium.strip()
+        or hypothesis.resource_psychology_disequilibrium.strip()
+    ):
+        errors.append("missing:resource_state_or_psychology_disequilibrium")
+
     if hypothesis.structural_friction_truth_state is not StructuralFrictionTruthState.EVIDENCED_STRUCTURE:
         errors.append("structural_friction_not_evidenced")
+
+    if hypothesis.causal_descent is None:
+        errors.append("missing:causal_descent")
+    else:
+        if hypothesis.causal_descent.actor != hypothesis.actor_segment:
+            errors.append("causal_descent_actor_mismatch")
+        for causal_error in validate_causal_descent_for_promotion(
+            hypothesis.causal_descent
+        ):
+            errors.append(f"causal_descent:{causal_error}")
 
     if not hypothesis.alternative_explanations:
         errors.append("missing:alternative_explanations")
@@ -357,12 +389,12 @@ def formation_state(hypothesis: LatentValueFormationHypothesis) -> FormationStat
     if not objective_core or not hypothesis.objective_endowments:
         return FormationState.OBSERVED_TRANSITION
 
-    if not _has_perception_or_motive(hypothesis):
-        return FormationState.OBSERVED_TRANSITION
-
     if not (
         hypothesis.underused_or_misaligned_value.strip()
-        and hypothesis.resource_psychology_disequilibrium.strip()
+        and (
+            hypothesis.resource_state_disequilibrium.strip()
+            or hypothesis.resource_psychology_disequilibrium.strip()
+        )
     ):
         return FormationState.RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS
 
@@ -381,19 +413,42 @@ def formation_state(hypothesis: LatentValueFormationHypothesis) -> FormationStat
         and FormationEvidenceKind.STRUCTURAL_FRICTION in kinds
         and hypothesis.structural_friction_truth_state
         is StructuralFrictionTruthState.EVIDENCED_STRUCTURE
+        and hypothesis.causal_descent is not None
+        and causal_descent_state(hypothesis.causal_descent)
+        is CausalDescentState.EVIDENCED_STRUCTURAL_FRICTION
+        and not validate_causal_descent_for_promotion(hypothesis.causal_descent)
     ):
         return FormationState.STRUCTURAL_FRICTION_HYPOTHESIS
 
     if not (
         hypothesis.complementary_nodes
         and FormationEvidenceKind.COMPLEMENTARY_NODE in kinds
-        and hypothesis.counterfactual_exchange_design.strip()
+    ):
+        return FormationState.STRUCTURAL_FRICTION_EVIDENCED
+
+    if not (
+        hypothesis.connection_pressure_hypothesis.strip()
+        and FormationEvidenceKind.CONNECTION_PRESSURE in kinds
+        and hypothesis.observed_missing_edge.strip()
+        and {
+            FormationEvidenceKind.MISSING_EDGE,
+            FormationEvidenceKind.STRANDING_BARRIER,
+        }.intersection(kinds)
+        and hypothesis.latent_connection_hypothesis.strip()
+    ):
+        return FormationState.COMPLEMENTARITY_HYPOTHESIS
+
+    if _material_unresolved_contradictions(hypothesis):
+        return FormationState.COMPLEMENTARITY_HYPOTHESIS
+
+    if not (
+        hypothesis.counterfactual_exchange_design.strip()
         and hypothesis.why_exchange_does_not_already_happen.strip()
     ):
-        return FormationState.LATENT_VALUE_FORMATION_HYPOTHESIS
+        return FormationState.LATENT_CONNECTION_EVIDENCED
 
     if validate_formation(hypothesis):
-        return FormationState.COMPLEMENTARITY_HYPOTHESIS
+        return FormationState.LATENT_CONNECTION_EVIDENCED
 
     return FormationState.VALIDATION_READY
 
@@ -412,7 +467,10 @@ def _map_evidence_kind(kind: FormationEvidenceKind) -> EvidenceKind:
         return EvidenceKind.STRUCTURAL_FRICTION
     if kind is FormationEvidenceKind.COMPLEMENTARY_NODE:
         return EvidenceKind.COMPLEMENTARY_STATE
-    if kind is FormationEvidenceKind.STRANDING_BARRIER:
+    if kind in {
+        FormationEvidenceKind.MISSING_EDGE,
+        FormationEvidenceKind.STRANDING_BARRIER,
+    }:
         return EvidenceKind.STRANDING_BARRIER
     if kind is FormationEvidenceKind.COUNTERFACTUAL_PRECEDENT:
         return EvidenceKind.VALUE_PRECEDENT
@@ -461,7 +519,8 @@ def to_latent_value_candidate(
         observed_change=hypothesis.observed_change,
         hidden_or_underrecognized_value=hypothesis.underused_or_misaligned_value,
         why_value_is_not_recognized_or_realized=(
-            hypothesis.resource_psychology_disequilibrium
+            hypothesis.resource_state_disequilibrium
+            or hypothesis.resource_psychology_disequilibrium
         ),
         complementary_actor_hypothesis=node_hypothesis,
         complementary_actor_state=node_states,
@@ -493,10 +552,14 @@ def to_latent_value_candidate(
 GOVERNING_INVARIANTS = (
     "OBJECTIVE_RESOURCE_NE_UTILIZED_RESOURCE",
     "PSYCHOLOGY_SIGNAL_NE_DEMAND",
+    "PSYCHOLOGY_EVIDENCE_NE_UNIVERSAL_FORMATION_GATE",
+    "OBJECTIVE_CAUSAL_EVIDENCE_MAY_FORM_STRUCTURE_WITHOUT_PSYCHOLOGY",
     "MOTIVE_HYPOTHESIS_NE_WILLINGNESS_TO_PAY",
     "BEHAVIOR_SIGNAL_NE_TRANSACTION",
     "SURFACE_FRICTION_NE_STRUCTURAL_FRICTION",
     "STRUCTURAL_FRICTION_HYPOTHESIS_NE_EVIDENCED_STRUCTURAL_FRICTION",
+    "ONE_PLAUSIBLE_CAUSE_NE_STRUCTURAL_TRUTH",
+    "CAUSAL_DESCENT_STOPS_AT_DECISION_USEFUL_FALSIFIABLE_FRONTIER",
     "STRUCTURAL_FRICTION_NE_MISSING_EDGE",
     "BUYER_COST_FIRST_NE_CONSTITUTION",
     "CONNECTION_INVENTION_NE_CONNECTION_DISCOVERY",
