@@ -16,6 +16,7 @@ from typing import Iterable, Mapping, Sequence
 from src.causal_descent import (
     CausalDescentRecord,
     causal_descent_from_mapping,
+    unbound_causal_evidence_refs,
     validate_causal_descent_for_promotion,
     validate_causal_projection,
 )
@@ -167,6 +168,7 @@ def _causal_projection_errors(
     causal_descent: CausalDescentRecord | None,
     causal_descent_record_id: str = "",
     causal_stop_reason: str = "",
+    available_evidence_refs: set[str] | None = None,
 ) -> list[str]:
     """Require promotable causal lineage, not an ID or narrative summary."""
 
@@ -189,6 +191,12 @@ def _causal_projection_errors(
             stop_reason=causal_stop_reason,
         )
     )
+    if available_evidence_refs is not None:
+        for ref in unbound_causal_evidence_refs(
+            causal_descent,
+            available_evidence_refs,
+        ):
+            errors.append(f"causal_descent:unbound_evidence_ref:{ref}")
     return errors
 
 
@@ -233,6 +241,11 @@ def validate_candidate(candidate: LatentValueCandidate) -> list[str]:
             causal_descent=candidate.causal_descent,
             causal_descent_record_id=candidate.causal_descent_record_id,
             causal_stop_reason=candidate.causal_stop_reason,
+            available_evidence_refs={
+                item.source_id
+                for item in candidate.evidence
+                if item.is_usable()
+            },
         )
     )
 
@@ -274,6 +287,11 @@ def discovery_state(candidate: LatentValueCandidate) -> DiscoveryState:
             causal_descent=candidate.causal_descent,
             causal_descent_record_id=candidate.causal_descent_record_id,
             causal_stop_reason=candidate.causal_stop_reason,
+            available_evidence_refs={
+                item.source_id
+                for item in candidate.evidence
+                if item.is_usable()
+            },
         )
     ):
         return DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS
@@ -396,6 +414,12 @@ def validate_candidate_record(record: Mapping[str, object]) -> list[str]:
                     record.get("causal_descent_record_id") or ""
                 ),
                 causal_stop_reason=str(record.get("causal_stop_reason") or ""),
+                available_evidence_refs={
+                    str(item.get("source_id") or "")
+                    for item in record.get("evidence", [])
+                    if isinstance(item, Mapping)
+                    and str(item.get("source_id") or "").strip()
+                },
             )
         )
 
@@ -425,6 +449,7 @@ GOVERNING_INVARIANTS = (
     "POTENTIAL_VALUE_NE_PROVEN_VALUE",
     "COMPLEMENTARITY_NE_TRANSACTIONABILITY",
     "CAUSAL_RECORD_ID_NE_CAUSAL_EVIDENCE",
+    "CAUSAL_EVIDENCE_REF_MUST_BIND_TO_PERSISTED_EVIDENCE",
     "DENORMALIZED_CAUSAL_SUMMARY_MUST_MATCH_CAUSAL_LINEAGE",
     "NARRATIVE_COMPLETENESS_NE_EVIDENCE_COMPLETENESS",
     "EXPLICIT_DEMAND_EXECUTION_NE_CORE_LATENT_VALUE_DISCOVERY",
