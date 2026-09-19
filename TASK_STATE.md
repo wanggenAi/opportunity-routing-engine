@@ -35,6 +35,14 @@ Historical case policy:
 
 A similar structure may return only through independent current evidence and receives a new identity.
 
+## Goal
+
+Complete the clean-slate reset without restoring historical commercial cases, then begin `ATTRACTION_SCAN_001` from broad current reality.
+
+## Current Unique Commercial Research Goal
+
+Discover a new, independently evidenced high-attraction value field where A wants to move, B wants to move, and the operator wants to own the bridge without becoming recurring delivery labor. No inherited vertical, candidate, score, parent or watchlist may constrain the search.
+
 ## Current Phase
 
 CLEAN_SLATE_CASE_RESET_IN_PROGRESS / PRE_RESET_CASE_TREE_CLEARED_ON_BRANCH / ATTRACTION_SCAN_001_AFTER_MERGE
@@ -57,6 +65,36 @@ Reset-tree commit:
 ## Active PR
 
 Not opened yet at this checkpoint.
+
+## CI
+
+- PR #262 head currently includes the reset and fixture-decoupling changes.
+- CI #788 / run `35438574647`: failed because surviving generic tests still referenced deleted historical fixtures and because TASK_STATE missed required recovery headings.
+- Fix strategy: replace historical fixtures with case-neutral synthetic fixtures / clean-slate mission; do not restore historical cases.
+- Next CI run pending after this commit.
+
+## Latest Artifact / Persisted State
+
+- `data/commercial_reset_state.json` — machine-readable active commercial epoch and empty candidate state.
+- `data/research_missions/attraction_field_broad_reality.json` — case-neutral clean-slate broad-reality research mission.
+- `field/README.md` — active field workspace reset boundary.
+- `docs/research/README.md` — active research workspace reset boundary.
+
+## Completed
+
+- Removed the pre-reset commercial case corpus from the active tree.
+- Locked Git history as audit-only, not candidate memory.
+- Created `ATTRACTION_FIELD_V1`.
+- Reset active candidates, transaction units, parent formations and inherited watchlists to zero.
+- Replaced surviving test dependencies on historical cases with clean-slate or synthetic fixtures.
+- Preserved generic sensing, causal, evidence and orchestration capabilities.
+
+## Current Findings
+
+- The first reset CI proved several generic tests were coupled to historical case files; that coupling itself violated the clean-slate boundary.
+- Generic research infrastructure can be preserved without retaining the historical cases by using a clean-slate broad-reality mission.
+- Generic governance, observation and commercialization tests can use synthetic evidence rather than real retired cases.
+- No historical case needs to be restored to keep the engine testable.
 
 ## Reset Scope Completed on Branch
 
