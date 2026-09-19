@@ -39,6 +39,21 @@ class Cycle002HiddenValueBatch1Tests(unittest.TestCase):
                 errors,
                 candidate["candidate_id"],
             )
+            self.assertIn("missing:causal_descent_record_id", errors, candidate["candidate_id"])
+            self.assertIn("missing:causal_stop_reason", errors, candidate["candidate_id"])
+            self.assertIn("missing:connection_pressure_hypothesis", errors, candidate["candidate_id"])
+            self.assertIn("missing:observed_missing_edge", errors, candidate["candidate_id"])
+            self.assertIn("missing:latent_connection_hypothesis", errors, candidate["candidate_id"])
+            self.assertIn(
+                "missing:evidence_kind:CONNECTION_PRESSURE",
+                errors,
+                candidate["candidate_id"],
+            )
+            self.assertIn(
+                "missing:evidence_kind:MISSING_EDGE",
+                errors,
+                candidate["candidate_id"],
+            )
 
     def test_lower_maturity_candidates_fail_closed_on_declared_missing_evidence(self):
         lower = [
@@ -60,6 +75,8 @@ class Cycle002HiddenValueBatch1Tests(unittest.TestCase):
             # evidence dimension rather than silently grandfathering old candidates.
             self.assertTrue(declared.issubset(observed_missing), candidate["candidate_id"])
             self.assertIn("STRUCTURAL_FRICTION", observed_missing, candidate["candidate_id"])
+            self.assertIn("CONNECTION_PRESSURE", observed_missing, candidate["candidate_id"])
+            self.assertIn("MISSING_EDGE", observed_missing, candidate["candidate_id"])
 
     def test_candidate_ids_are_unique(self):
         ids = [candidate["candidate_id"] for candidate in self.candidates]
