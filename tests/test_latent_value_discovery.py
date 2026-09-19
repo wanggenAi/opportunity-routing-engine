@@ -83,6 +83,16 @@ class LatentValueDiscoveryTests(unittest.TestCase):
         self.assertEqual(missing_validation_evidence(candidate), [])
         self.assertEqual(discovery_state(candidate), DiscoveryState.VALIDATION_READY)
 
+    def test_persistent_mismatch_can_replace_recent_change(self):
+        candidate = self._candidate(
+            observed_change="",
+            persistent_mismatch=(
+                "person-bound knowledge remains structurally hard to call over time"
+            ),
+        )
+        self.assertEqual(validate_candidate(candidate), [])
+        self.assertEqual(discovery_state(candidate), DiscoveryState.VALIDATION_READY)
+
     def test_surface_story_without_evidenced_structural_friction_fails_closed(self):
         candidate = self._candidate(structural_friction_truth_state="INFERRED")
         errors = validate_candidate(candidate)
