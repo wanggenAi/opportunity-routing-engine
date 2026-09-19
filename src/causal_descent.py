@@ -25,7 +25,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from enum import Enum
-from typing import Sequence
+from typing import Mapping, Sequence
 
 
 class CausalTruthState(str, Enum):
@@ -74,6 +74,16 @@ class LatentOutcomeHypothesis:
             and all(isinstance(ref, str) and ref.strip() for ref in self.evidence_refs)
         )
 
+    def as_dict(self) -> dict[str, object]:
+        return {
+            "outcome_id": self.outcome_id,
+            "statement": self.statement,
+            "truth_state": self.truth_state.value,
+            "evidence_refs": list(self.evidence_refs),
+            "contradiction_refs": list(self.contradiction_refs),
+            "falsifiers": list(self.falsifiers),
+        }
+
 
 @dataclass(frozen=True)
 class StructuralConstraintHypothesis:
@@ -103,6 +113,22 @@ class StructuralConstraintHypothesis:
             and self.mechanism.strip()
         )
 
+    def as_dict(self) -> dict[str, object]:
+        return {
+            "constraint_id": self.constraint_id,
+            "outcome_id": self.outcome_id,
+            "depth": self.depth,
+            "causal_claim": self.causal_claim,
+            "mechanism": self.mechanism,
+            "truth_state": self.truth_state.value,
+            "parent_constraint_id": self.parent_constraint_id,
+            "support_refs": list(self.support_refs),
+            "contradiction_refs": list(self.contradiction_refs),
+            "discriminating_evidence_refs": list(self.discriminating_evidence_refs),
+            "falsifiers": list(self.falsifiers),
+            "intervention_implication": self.intervention_implication,
+        }
+
 
 @dataclass(frozen=True)
 class CausalDescentRecord:
@@ -128,6 +154,160 @@ class CausalDescentRecord:
     decisive_unknown: str = ""
     probe_eligible: bool = False
     notes: str = ""
+
+
+    def as_dict(self) -> dict[str, object]:
+        return {
+            "record_id": self.record_id,
+            "actor": self.actor,
+            "current_state": self.current_state,
+            "surface_phenomenon": self.surface_phenomenon,
+            "surface_evidence_refs": list(self.surface_evidence_refs),
+            "outcome_hypotheses": [
+                item.as_dict() for item in self.outcome_hypotheses
+            ],
+            "selected_outcome_id": self.selected_outcome_id,
+            "constraint_hypotheses": [
+                item.as_dict() for item in self.constraint_hypotheses
+            ],
+            "lead_constraint_ids": list(self.lead_constraint_ids),
+            "stop_reason": self.stop_reason.value if self.stop_reason else None,
+            "decisive_unknown": self.decisive_unknown,
+            "probe_eligible": self.probe_eligible,
+            "notes": self.notes,
+        }
+
+
+def _string_tuple(value: object, *, field_name: str) -> tuple[str, ...]:
+    if value is None:
+        return ()
+    if not isinstance(value, Sequence) or isinstance(value, (str, bytes)):
+        raise ValueError(f"{field_name} must be a list of strings")
+    items = tuple(str(item) for item in value)
+    if any(not item.strip() for item in items):
+        raise ValueError(f"{field_name} contains an empty value")
+    return items
+
+
+def causal_descent_from_mapping(raw: Mapping[str, object]) -> CausalDescentRecord:
+    """Parse persisted causal lineage without silently accepting malformed enums."""
+
+    raw_outcomes = raw.get("outcome_hypotheses")
+    if not isinstance(raw_outcomes, Sequence) or isinstance(raw_outcomes, (str, bytes)):
+        raise ValueError("outcome_hypotheses must be a list")
+
+    outcomes: list[LatentOutcomeHypothesis] = []
+    for index, item in enumerate(raw_outcomes):
+        if not isinstance(item, Mapping):
+            raise ValueError(f"outcome_hypotheses[{index}] must be an object")
+        try:
+            truth_state = CausalTruthState(str(item.get("truth_state") or "INFERRED"))
+        except ValueError as exc:
+            raise ValueError(
+                f"invalid outcome truth_state at index {index}"
+            ) from exc
+        outcomes.append(
+            LatentOutcomeHypothesis(
+                outcome_id=str(item.get("outcome_id") or ""),
+                statement=str(item.get("statement") or ""),
+                truth_state=truth_state,
+                evidence_refs=_string_tuple(
+                    item.get("evidence_refs"),
+                    field_name=f"outcome_hypotheses[{index}].evidence_refs",
+                ),
+                contradiction_refs=_string_tuple(
+                    item.get("contradiction_refs"),
+                    field_name=f"outcome_hypotheses[{index}].contradiction_refs",
+                ),
+                falsifiers=_string_tuple(
+                    item.get("falsifiers"),
+                    field_name=f"outcome_hypotheses[{index}].falsifiers",
+                ),
+            )
+        )
+
+    raw_constraints = raw.get("constraint_hypotheses")
+    if not isinstance(raw_constraints, Sequence) or isinstance(
+        raw_constraints, (str, bytes)
+    ):
+        raise ValueError("constraint_hypotheses must be a list")
+
+    constraints: list[StructuralConstraintHypothesis] = []
+    for index, item in enumerate(raw_constraints):
+        if not isinstance(item, Mapping):
+            raise ValueError(f"constraint_hypotheses[{index}] must be an object")
+        try:
+            truth_state = CausalTruthState(str(item.get("truth_state") or "INFERRED"))
+        except ValueError as exc:
+            raise ValueError(
+                f"invalid constraint truth_state at index {index}"
+            ) from exc
+        depth = item.get("depth", 0)
+        if not isinstance(depth, int) or isinstance(depth, bool):
+            raise ValueError(f"constraint_hypotheses[{index}].depth must be an integer")
+        constraints.append(
+            StructuralConstraintHypothesis(
+                constraint_id=str(item.get("constraint_id") or ""),
+                outcome_id=str(item.get("outcome_id") or ""),
+                depth=depth,
+                causal_claim=str(item.get("causal_claim") or ""),
+                mechanism=str(item.get("mechanism") or ""),
+                truth_state=truth_state,
+                parent_constraint_id=str(item.get("parent_constraint_id") or ""),
+                support_refs=_string_tuple(
+                    item.get("support_refs"),
+                    field_name=f"constraint_hypotheses[{index}].support_refs",
+                ),
+                contradiction_refs=_string_tuple(
+                    item.get("contradiction_refs"),
+                    field_name=f"constraint_hypotheses[{index}].contradiction_refs",
+                ),
+                discriminating_evidence_refs=_string_tuple(
+                    item.get("discriminating_evidence_refs"),
+                    field_name=(
+                        f"constraint_hypotheses[{index}]."
+                        "discriminating_evidence_refs"
+                    ),
+                ),
+                falsifiers=_string_tuple(
+                    item.get("falsifiers"),
+                    field_name=f"constraint_hypotheses[{index}].falsifiers",
+                ),
+                intervention_implication=str(
+                    item.get("intervention_implication") or ""
+                ),
+            )
+        )
+
+    raw_stop = raw.get("stop_reason")
+    stop_reason: CausalStopReason | None = None
+    if raw_stop not in (None, ""):
+        try:
+            stop_reason = CausalStopReason(str(raw_stop))
+        except ValueError as exc:
+            raise ValueError("invalid causal stop_reason") from exc
+
+    return CausalDescentRecord(
+        record_id=str(raw.get("record_id") or ""),
+        actor=str(raw.get("actor") or ""),
+        current_state=str(raw.get("current_state") or ""),
+        surface_phenomenon=str(raw.get("surface_phenomenon") or ""),
+        surface_evidence_refs=_string_tuple(
+            raw.get("surface_evidence_refs"),
+            field_name="surface_evidence_refs",
+        ),
+        outcome_hypotheses=tuple(outcomes),
+        selected_outcome_id=str(raw.get("selected_outcome_id") or ""),
+        constraint_hypotheses=tuple(constraints),
+        lead_constraint_ids=_string_tuple(
+            raw.get("lead_constraint_ids"),
+            field_name="lead_constraint_ids",
+        ),
+        stop_reason=stop_reason,
+        decisive_unknown=str(raw.get("decisive_unknown") or ""),
+        probe_eligible=bool(raw.get("probe_eligible", False)),
+        notes=str(raw.get("notes") or ""),
+    )
 
 
 def _outcomes(record: CausalDescentRecord) -> dict[str, LatentOutcomeHypothesis]:
@@ -231,6 +411,12 @@ def validate_causal_descent(record: CausalDescentRecord) -> list[str]:
     if record.stop_reason is not None and not record.lead_constraint_ids:
         errors.append("stop_reason_requires_lead_constraint")
 
+    if (
+        record.stop_reason is CausalStopReason.MULTI_CAUSAL_FRONTIER
+        and len(record.lead_constraint_ids) < 2
+    ):
+        errors.append("multi_causal_frontier_requires_multiple_lead_constraints")
+
     return errors
 
 
@@ -275,6 +461,15 @@ def causal_descent_state(record: CausalDescentRecord) -> CausalDescentState:
     ):
         return CausalDescentState.CAUSAL_HYPOTHESIS_SET
 
+    if record.stop_reason is CausalStopReason.EVIDENCE_LIMIT_REACHED:
+        return CausalDescentState.CAUSAL_HYPOTHESIS_SET
+
+    if (
+        record.stop_reason is CausalStopReason.MULTI_CAUSAL_FRONTIER
+        and len(lead) < 2
+    ):
+        return CausalDescentState.CAUSAL_HYPOTHESIS_SET
+
     return CausalDescentState.EVIDENCED_STRUCTURAL_FRICTION
 
 
@@ -313,6 +508,8 @@ def validate_causal_descent_for_promotion(
 
     if not record.stop_reason:
         errors.append("missing:causal_stop_reason")
+    elif record.stop_reason is CausalStopReason.EVIDENCE_LIMIT_REACHED:
+        errors.append("causal_evidence_limit_reached")
 
     return list(dict.fromkeys(errors))
 
