@@ -1,0 +1,232 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_009_VT_B_REJECTION_SELECTION",
+  "date": "2026-09-19",
+  "title": "Negative-evidence audit of VT-B rejection, selection and cheap validation",
+  "parent_scan": "REGENERATIVE_FORMATION_SCAN_008_VT_B_VALUE_FORM_ROUTING",
+  "objective": "Test whether current VT-B operators use recurring evidence-based rejection/selection rules or whether value-form routing remains irreducible curator taste.",
+  "truth_rules": [
+    "DISCOVERY != SELECTION",
+    "SELECTION != TRANSLATION",
+    "CHEAP TEST != MARKET PROOF",
+    "SELL_THROUGH != CULTURAL FIDELITY",
+    "FAILURE TO SELL IS VALID EVIDENCE",
+    "A REUSABLE REJECTION KERNEL != AN OPEN BUSINESS EDGE",
+    "RIGHTS STRUCTURE MAY STANDARDIZE WHILE SPLIT PERCENTAGES DO NOT"
+  ],
+  "observed_negative_evidence": [
+    {
+      "pattern": "legacy form can be genuinely unmarketable even when the underlying capability is strong",
+      "evidence": [
+        {
+          "fact": "The original Shaoxing West-Lake baskets were highly homogeneous, old-fashioned in shape/color, low-use-context fit and remained unsold even at about RMB6; earlier attempts such as stalls and second-hand platforms reportedly produced little response.",
+          "source": "https://www.sina.cn/news/detail/5338388320487238.html"
+        },
+        {
+          "fact": "A 2026 craft-market discussion states that labor-intensive handmade goods without distinctive design/artistic value can fail to gain market recognition even when labor time is high.",
+          "source": "https://epaper.tianjinwe.com/tjrb/html/2026-03/03/content_143096_3185862.htm"
+        }
+      ],
+      "implication": "The older asset may be real while the current value form deserves rejection."
+    },
+    {
+      "pattern": "channel/context can invalidate a previously successful form",
+      "evidence": [
+        {
+          "fact": "Tǎmadrama observed that after entering a shopping mall, product-only retail did not attract the surrounding resident customer base sufficiently; it added pottery classes and later livestream selling.",
+          "source": "https://www.jingan.gov.cn/rmtzx/003008/003008004/20250916/dde899c5-7220-4a10-ab75-f77a2c1f3c25.html"
+        }
+      ],
+      "implication": "A form that worked in one traffic/context regime can fail in another; routing requires context-sensitive kill/switch rules."
+    },
+    {
+      "pattern": "traditional form pushed directly to a new market can underperform",
+      "evidence": [
+        {
+          "fact": "Funan willow-weaving firms reported that directly taking traditional local styles overseas produced mediocre market response; they later adapted color, dimensions and product use to regional consumer habits and used small-batch trial sales before iterative optimization.",
+          "source": "https://fbh.anhuinews.com/project/202608/t20260827_9533549.html"
+        }
+      ],
+      "implication": "Target-user/use-context fit must be tested; heritage value alone does not carry across markets."
+    },
+    {
+      "pattern": "formal channels use explicit delisting rules",
+      "evidence": [
+        {
+          "fact": "A 2026-2027 Guangdong intangible-cultural-heritage museum retail operator notice requires dynamic product refresh and states that products with poor sales should be replaced or delisted; it also requires quality checks, stable pricing, IP compliance and after-sales mechanisms.",
+          "source": "https://www.qianlima.com/bid-628505515.html",
+          "evidence_role": "channel-operation benchmark; not specifically a senior-asset program"
+        }
+      ],
+      "implication": "At the channel layer, kill criteria are normal operating practice rather than an exception."
+    }
+  ],
+  "observed_selection_methods": [
+    {
+      "method": "peer scoring before production",
+      "evidence": {
+        "fact": "In the current Shaoxing basket program, student designers first make design images and have student groups view, rate and score them; higher-scoring designs are then incorporated into products.",
+        "source": "https://www.yzwb.net/news/yw/202609/t20260914_392413.html"
+      },
+      "signal_type": "target-cohort preference proxy",
+      "cost_class": "LOW"
+    },
+    {
+      "method": "small-batch market trial before scaling",
+      "evidence": {
+        "fact": "Funan willow-weaving operators use small-batch trial sales and optimize based on market feedback after tailoring product use/color/size to target regions.",
+        "source": "https://fbh.anhuinews.com/project/202608/t20260827_9533549.html"
+      },
+      "signal_type": "real purchase response",
+      "cost_class": "LOW_TO_MEDIUM"
+    },
+    {
+      "method": "real-channel sell-through and context observation",
+      "evidence": {
+        "fact": "Tǎmadrama changed from product-only retail toward classes and livestream after observing mall-customer behavior and channel performance.",
+        "source": "https://www.jingan.gov.cn/rmtzx/003008/003008004/20250916/dde899c5-7220-4a10-ab75-f77a2c1f3c25.html"
+      },
+      "signal_type": "channel conversion / footfall behavior",
+      "cost_class": "MEDIUM"
+    },
+    {
+      "method": "formal portfolio pruning",
+      "evidence": {
+        "fact": "Current cultural retail operating rules explicitly require poor-selling products to be replaced or removed from shelves.",
+        "source": "https://www.qianlima.com/bid-628505515.html",
+        "evidence_role": "adjacent channel benchmark"
+      },
+      "signal_type": "sell-through threshold",
+      "cost_class": "ONGOING_OPERATIONS"
+    }
+  ],
+  "cross_operator_selection_kernel": {
+    "state": "PARTIALLY_CONVERGENT",
+    "criteria": [
+      {
+        "criterion": "target user / use-scenario fit",
+        "evidence": [
+          "traditional local forms underperformed when pushed unchanged to other markets",
+          "product-only retail underperformed when mall context favored experience",
+          "successful redesigns made older products fit commuting, gifting, home and younger-consumer scenarios"
+        ]
+      },
+      {
+        "criterion": "practical or experiential utility",
+        "evidence": [
+          "current craft guidance repeatedly distinguishes products that re-enter daily life from display-only forms",
+          "retail/context evidence shows experience/class forms can outperform pure product form in some settings"
+        ]
+      },
+      {
+        "criterion": "distinctiveness / contemporary design fit",
+        "evidence": [
+          "high labor time without distinctive design may not earn market recognition",
+          "Shaoxing uses redesign and peer scoring before incorporating new patterns/forms"
+        ]
+      },
+      {
+        "criterion": "cost / price / production feasibility",
+        "evidence": [
+          "current commercialization practice treats cost-to-terminal-price relationship as a viability boundary",
+          "complex/high-cost craft categories face limited addressable demand even when quality is strong"
+        ]
+      },
+      {
+        "criterion": "channel/context fit",
+        "evidence": [
+          "mall, street/pop-up, livestream, class and overseas consumer contexts produce different responses",
+          "operators switch form/channel when observed behavior changes"
+        ]
+      },
+      {
+        "criterion": "quality / safety / rights compliance",
+        "evidence": [
+          "formal retail channels require quality inspection, after-sales handling and IP compliance",
+          "current copyright practice shows provenance and licensing matter before scaled derivative use"
+        ]
+      },
+      {
+        "criterion": "cheap evidence before deeper investment",
+        "evidence": [
+          "peer score before production",
+          "small-batch trial sale",
+          "real-channel feedback",
+          "delist/reroute after weak response"
+        ]
+      }
+    ],
+    "interpretation": "A first-stage rejection/selection kernel is increasingly evidence-driven and partially reusable. It is not purely curator taste."
+  },
+  "curator_dependence_update": {
+    "previous_state": "STRONG_MANUAL_CURATOR_DEPENDENCE",
+    "new_state": "FRONT_END_SELECTION_PARTIALLY_STANDARDIZABLE__CREATIVE_VALUE_FORM_ROUTING_REMAINS_HUMAN_HEAVY",
+    "explanation": [
+      "Operators can standardize early rejection around user fit, use scenario, cost, production feasibility, compliance and cheap market signals.",
+      "What remains highly human is choosing and creating the specific contemporary expression: product architecture, story, aesthetic, class/experience design and channel strategy.",
+      "Evidence can eliminate bad routes earlier, but it does not automatically invent the good route."
+    ]
+  },
+  "rights_revenue_sharing_audit": {
+    "state": "STRUCTURAL_CONVERGENCE__NO_UNIVERSAL_SPLIT",
+    "actual_patterns": [
+      {
+        "fact": "Shaoxing basket program uses an explicit public 80% producer / 20% community-fund revenue split.",
+        "source": "https://app.xinhuanet.com/news/article.html?articleId=2026090370923013799d45f3addd371a1aed6a7f"
+      },
+      {
+        "fact": "National copyright reporting shows folk artists increasingly register works, license derivative development and receive ongoing per-unit/royalty-style income instead of one-time sale only.",
+        "source": "https://www.ncac.gov.cn/xxfb/yjdt/202607/t20260720_999619.html"
+      },
+      {
+        "fact": "Current copyright pilot reporting shows standardized authorization can turn one work into repeated licensing revenue; some local artists report multi-use authorization income materially above one-off sales.",
+        "source": "https://www.ncac.gov.cn/xxfb/yjdt/202608/t20260811_1002953.html"
+      },
+      {
+        "fact": "Fengtai plans IP protection and artisan certification as part of the operating layer but does not publish a universal revenue split.",
+        "source": "https://www.bjft.gov.cn/fengtaishibao/html/2026-02/04/content_9501_19279615.htm"
+      }
+    ],
+    "conflict_evidence": [
+      {
+        "fact": "Current craft-design research documents recurring economic-distribution and IP conflicts between tradition holders and designers; one cited pattern required renegotiation from one-time payment toward base license plus tiered sharing after disagreement about contribution value.",
+        "source": "https://www.cnacs.net.cn/14/202603/8034.html"
+      }
+    ],
+    "conclusion": "Reusable structure exists at the level of consent/provenance/licensing/attribution/revenue-sharing agreements, but no universal split percentage is supported. Economic contribution remains negotiated and context-dependent."
+  },
+  "adjacent_normative_test_protocol": {
+    "state": "SUPPORTING_NOT_DIRECT_OBSERVATION",
+    "evidence": [
+      {
+        "fact": "A 2026 design study proposes resource intake → AI/design generation → expert validation → prototype → user testing → batch conversion, with virtual samples, surveys and small-batch trials judged by clicks, favorites, trial reviews and conversion rates.",
+        "source": "https://www.hljnews.cn/wtjy/content/2026-05/29/content_894180.html"
+      }
+    ],
+    "role": "This is not proof that senior-asset operators already use a universal protocol. It shows the observed selection signals can be expressed as a known low-cost product-validation discipline."
+  },
+  "decisive_verdict": {
+    "selection_logic": "PARTIALLY_STANDARDIZABLE",
+    "value_form_creation": "STILL_HUMAN_HEAVY",
+    "rejection_rules": "PARTIALLY_OBSERVED_ACROSS_OPERATORS",
+    "rights_structure": "PARTIALLY_STANDARDIZABLE",
+    "revenue_split_percentage": "NOT_STANDARDIZABLE_FROM_CURRENT_EVIDENCE",
+    "open_market_edge": "UNKNOWN",
+    "core_statement": "The strongest reusable primitive is not automatic value-form recommendation. It is evidence-guided portfolio formation: reject weak source/form/channel combinations cheaply, deepen only assets that survive user/use/cost/quality/context tests, then let human creative routing operate on a smaller qualified set."
+  },
+  "contradiction_audit": [
+    "This evidence-guided selection discipline is not unique to older-adult assets; it is standard product/portfolio management in many creative markets.",
+    "Existing designers, retailers and cultural operators already perform these functions.",
+    "The elder-source-specific problem may therefore lie upstream in capability discovery/provenance or downstream in rights/channel access, not in generic testing methodology.",
+    "Selection criteria can be standardized without making value creation itself scalable.",
+    "Public/community infrastructure still subsidizes discovery, space, trust and youth participation in several strongest cases."
+  ],
+  "portfolio_state": {
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "formal_latent_connection_promotions": 0,
+    "primary_formation_direction": "VT-B market-utilization translation",
+    "current_function_state": "EVIDENCE_GUIDED_SELECTION_KERNEL_PARTIALLY_OBSERVED__CREATIVE_ROUTING_HUMAN_HEAVY__OPEN_EDGE_UNKNOWN",
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "next_action": "Audit transfer learning and elder-specific irreducible friction. Search whether operators accumulate reusable knowledge from one successful/rejected elder asset to improve future unrelated selections; whether the same criteria transfer across craft, teaching, memory, knowledge and content; and which frictions remain specifically because the source is an older person's embodied/rights-sensitive asset rather than any ordinary creative product. Kill the generalized routing thesis if the remaining work reduces to generic product management plus manual creative direction."
+}
