@@ -1,5 +1,12 @@
 import unittest
 
+from src.causal_descent import (
+    CausalDescentRecord,
+    CausalStopReason,
+    CausalTruthState,
+    LatentOutcomeHypothesis,
+    StructuralConstraintHypothesis,
+)
 from src.latent_value_discovery import (
     CandidateClass,
     DiscoveryState,
@@ -14,6 +21,76 @@ from src.latent_value_discovery import (
 
 
 class LatentValueDiscoveryTests(unittest.TestCase):
+    def _causal_descent(self):
+        return CausalDescentRecord(
+            record_id="CD-FACTORY-KNOWLEDGE-001",
+            actor="factory veteran technicians",
+            current_state="deep tacit fault-diagnosis knowledge remains person-bound",
+            surface_phenomenon=(
+                "valuable diagnostic knowledge remains person-bound while access "
+                "to it becomes less reliable"
+            ),
+            surface_evidence_refs=("origin", "structure"),
+            outcome_hypotheses=(
+                LatentOutcomeHypothesis(
+                    outcome_id="OUTCOME-FACTORY-KNOWLEDGE",
+                    statement=(
+                        "convert bounded tacit diagnostic capability into trusted "
+                        "callable outcomes without requiring the original full-time role"
+                    ),
+                    truth_state=CausalTruthState.EVIDENCED_STRUCTURE,
+                    evidence_refs=("origin", "pressure"),
+                    falsifiers=(
+                        "the knowledge cannot be abstracted beyond the original expert",
+                    ),
+                ),
+            ),
+            selected_outcome_id="OUTCOME-FACTORY-KNOWLEDGE",
+            constraint_hypotheses=(
+                StructuralConstraintHypothesis(
+                    constraint_id="C-PACKAGING",
+                    outcome_id="OUTCOME-FACTORY-KNOWLEDGE",
+                    depth=1,
+                    causal_claim=(
+                        "knowledge is not represented as a bounded, rights-cleared, "
+                        "evidence-backed and acceptance-ready capability unit"
+                    ),
+                    mechanism=(
+                        "external users cannot cheaply verify rights, scope, reliability "
+                        "or acceptance for person-bound diagnostic knowledge"
+                    ),
+                    truth_state=CausalTruthState.EVIDENCED_STRUCTURE,
+                    support_refs=("structure", "barrier"),
+                    discriminating_evidence_refs=("pressure",),
+                    falsifiers=(
+                        "equivalent rights-cleared bounded modules already clear repeatedly",
+                    ),
+                    intervention_implication=(
+                        "make the knowledge rights-cleared, bounded, evidenced and accepted"
+                    ),
+                ),
+                StructuralConstraintHypothesis(
+                    constraint_id="C-CONTEXT-SPECIFIC",
+                    outcome_id="OUTCOME-FACTORY-KNOWLEDGE",
+                    depth=1,
+                    causal_claim=(
+                        "the apparent stranding may instead be caused by knowledge that "
+                        "is too context-specific to transfer"
+                    ),
+                    mechanism=(
+                        "value disappears outside the original machine, team or expert context"
+                    ),
+                    truth_state=CausalTruthState.INFERRED,
+                    support_refs=("origin",),
+                    falsifiers=(
+                        "the same bounded diagnostic rule works across independent cases",
+                    ),
+                ),
+            ),
+            lead_constraint_ids=("C-PACKAGING",),
+            stop_reason=CausalStopReason.INTERVENTION_RELEVANT_BOUNDARY,
+        )
+
     def _candidate(self, **overrides):
         payload = dict(
             candidate_id="LV-001",
@@ -39,6 +116,7 @@ class LatentValueDiscoveryTests(unittest.TestCase):
                 "the knowledge may be too context-specific to abstract",
                 "existing service providers may already package the relevant capability adequately",
             ),
+            causal_descent=self._causal_descent(),
             causal_descent_record_id="CD-FACTORY-KNOWLEDGE-001",
             causal_stop_reason="INTERVENTION_RELEVANT_BOUNDARY",
             connection_pressure_hypothesis=(
@@ -102,10 +180,27 @@ class LatentValueDiscoveryTests(unittest.TestCase):
             DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS,
         )
 
-    def test_structural_friction_needs_alternative_explanations(self):
+    def test_outer_alternative_summary_is_not_a_substitute_for_causal_competition(self):
         candidate = self._candidate(alternative_explanations=())
+        self.assertEqual(validate_candidate(candidate), [])
+        self.assertEqual(discovery_state(candidate), DiscoveryState.VALIDATION_READY)
+
+        one_story = self._causal_descent()
+        one_story = CausalDescentRecord(
+            **{
+                **one_story.__dict__,
+                "constraint_hypotheses": (one_story.constraint_hypotheses[0],),
+            }
+        )
+        candidate = self._candidate(
+            alternative_explanations=(),
+            causal_descent=one_story,
+        )
         errors = validate_candidate(candidate)
-        self.assertIn("missing:alternative_explanations", errors)
+        self.assertIn(
+            "causal_descent:missing:competing_causal_explanation",
+            errors,
+        )
         self.assertEqual(
             discovery_state(candidate),
             DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS,
@@ -121,6 +216,22 @@ class LatentValueDiscoveryTests(unittest.TestCase):
         self.assertIn("missing:evidence_kind:CONNECTION_PRESSURE", errors)
         self.assertIn("missing:evidence_kind:MISSING_EDGE", errors)
         self.assertEqual(discovery_state(candidate), DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS)
+
+    def test_causal_record_id_alone_is_not_causal_evidence(self):
+        candidate = self._candidate(causal_descent=None)
+        errors = validate_candidate(candidate)
+        self.assertIn("missing:causal_descent", errors)
+        self.assertEqual(
+            discovery_state(candidate),
+            DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS,
+        )
+
+    def test_denormalized_causal_summary_cannot_drift_from_lineage(self):
+        candidate = self._candidate(
+            structural_friction_hypothesis="a different convenient story"
+        )
+        errors = validate_candidate(candidate)
+        self.assertIn("structural_friction_projection_mismatch", errors)
 
     def test_connection_truth_is_required_before_exchange_mechanics(self):
         candidate = self._candidate(
