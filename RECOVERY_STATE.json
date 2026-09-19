@@ -1,18 +1,18 @@
 {
   "schema_version": 2,
-  "generation": 6,
+  "generation": 7,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "IN_PROGRESS",
+  "status": "WAITING_CI",
   "task_key": "harden-recovery-v3-noninterference",
-  "stage": "DESIGN_AND_IMPLEMENT",
+  "stage": "V3_PR_CI",
   "last_observed_main_sha": "892dd22fd3ed0e0d1fd4a1602f8785e9c258fc3a",
   "work_branch": "chore/web-session-recovery-v3",
-  "work_head_sha": "892dd22fd3ed0e0d1fd4a1602f8785e9c258fc3a",
-  "active_pr": null,
+  "work_head_sha": "daf2eab729590cad266e7e77a94ccec05d27aea3",
+  "active_pr": 232,
   "ci": {
-    "run_id": null,
-    "head_sha": null,
-    "status": "NOT_STARTED",
+    "run_id": 35415016113,
+    "head_sha": "daf2eab729590cad266e7e77a94ccec05d27aea3",
+    "status": "IN_PROGRESS",
     "conclusion": null
   },
   "production_or_artifact": {
@@ -26,9 +26,10 @@
   },
   "completed": [
     "v2 recovery protocol is merged and verified",
-    "confirmed state/chatgpt-recovery currently triggers zero GitHub Actions runs"
+    "confirmed state/chatgpt-recovery currently triggers zero GitHub Actions runs",
+    "implemented v3 adaptive checkpoints, zero-runtime isolation, fencing, write-ahead intent, idempotent retry rules, bounded schema validator and recovery-only merge suppression"
   ],
-  "next_action": "Implement adaptive/coalesced checkpoints, fenced single-writer and write-ahead intent semantics, idempotent retry rules, corruption recovery, strict size/schema checks, and zero-runtime-coupling guards.",
+  "next_action": "Wait for PR #232 head CI. If green and mergeable, squash-merge with a [skip ci] merge commit so recovery-only integration does not trigger main-push business workflows, then verify live main files directly.",
   "do_not_repeat": [
     "do not put recovery reads or writes on any business runtime path",
     "do not trigger production workflows from checkpoint commits",
