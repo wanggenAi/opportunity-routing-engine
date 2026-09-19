@@ -62,28 +62,29 @@ For each determine:
 Do not select a product yet.
 
 ## Current Phase
-`FORMATION_SCAN_006_ACTIVE / ORDINARY_SOURCE_POOL_PARTIAL / ACQUISITION_LOOP_UNPROVEN / VT_A_VT_B_DISCRIMINATION_NEXT`
+`FORMATION_SCAN_006_MERGED / MAIN_GREEN / ORDINARY_SOURCE_POOL_PARTIAL / ACQUISITION_LOOP_UNPROVEN / VT_A_VT_B_DISCRIMINATION_NEXT`
 
 ## Last Verified Main
-`b441a5e6689ee60353fa9540d58b8030b776e50f` — PR #244 squash-merged. Main CI run #753 (run id `35424356365`) passed on this exact functional SHA. Live main later advanced with state-only checkpoint `8e1646f9b7292f1417d3a7a905532c35d6c52d96`.
-
-The current Scan 006 work is on an unmerged feature branch and must pass PR CI before becoming functional main truth.
+`31aba351135195fea5bc11fba0e27bb2ccc1617d` — PR #245 squash-merged. Main CI run #755 (run id `35424517418`) passed on this exact functional SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Scan 005 was synced in comment id `5739694500`.
+Scan 005 was synced in comment id `5739694500`. Scan 006 was synced in comment id `5739710066`.
 
 No outreach is authorized. Current work remains upstream formation research.
 
 ## Active Branch
-`feature/value-translation-regenerative-loop-scan-006`
+None. `feature/value-translation-regenerative-loop-scan-006` is merged and is not an active source of truth.
 
 ## Active PR
-None yet.
+None. PR #245 (`Audit regenerative loop in intergenerational value translation`) is merged.
 
 ## CI
-No CI has run yet on Scan 006.
+- PR #245 final head: `572d0477eed677d61b638b7209ec534e8bec6bf1`
+- PR CI: run #754, success
+- merge SHA: `31aba351135195fea5bc11fba0e27bb2ccc1617d`
+- main CI: run #755, run id `35424517418`, success
 
 ## Latest Artifact / Persisted State
 Current:
