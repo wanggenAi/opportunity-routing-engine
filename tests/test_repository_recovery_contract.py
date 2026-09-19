@@ -64,6 +64,7 @@ class RepositoryRecoveryContractTests(unittest.TestCase):
         self.assertIn("## Fenced single-writer and compare-and-swap", protocol)
         self.assertIn("## Write-ahead intent and ambiguous outcomes", protocol)
         self.assertIn("[skip ci] recovery:", protocol)
+        self.assertIn("recovery-only PR", protocol)
         self.assertIn("maximum serialized size: 16 KiB", protocol)
 
 
