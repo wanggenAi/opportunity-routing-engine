@@ -11,6 +11,7 @@ Canonical foundations, in precedence order:
 - `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
 - `docs/ACCESS_FEASIBILITY_GATE.md`
 - `docs/OPPORTUNITY_MOBILIZATION_GATE.md`
+- `docs/OPPORTUNITY_ATTRACTION_FIELD.md`
 - `docs/RESOURCE_ACTIVATION_THESIS.md`
 - `docs/DATA_SOURCE_REGISTRY.md`
 - `docs/DISCOVERY_ENGINE.md`
@@ -906,6 +907,49 @@ The governing shorthand is:
 
 > **两边都已经很想动，中间只缺一座桥；根哥搭桥，不背人过河。**
 
+## 13C. Attraction field / 诱惑力 — LOCKED
+
+Mobilization answers whether the actors are already moving. Attraction asks whether the formation contains enough voluntary surplus and strategic desire that the route is naturally compelling rather than merely possible.
+
+Keep three vectors separate:
+
+```text
+A-SIDE ATTRACTION
+B-SIDE ATTRACTION
+OPERATOR / ROOTER ATTRACTION
+```
+
+A-side and B-side attraction require attributable participant evidence. Operator attraction is an explicit founder-priority signal and is never market evidence.
+
+High current-stage attraction means:
+- A immediately sees why releasing/activating its resource/state is better than the status quo;
+- B immediately sees why reaching the outcome is better than waiting or using the current route;
+- both sides show behavior consistent with that pull;
+- the connection creates a material state-dependent value jump;
+- remaining activation friction is bounded;
+- the operator strongly wants to control and improve the bridge;
+- the operator does not have to become the permanent delivery worker;
+- successful routing can create compounding data, trust, access, coverage or lower future routing cost.
+
+```text
+FOUNDER EXCITEMENT != PARTICIPANT PULL
+THEORETICAL SURPLUS != VOLUNTARY ENERGY
+EXISTING ACTOR != FLOW SOLVED
+INCUMBENT PRESENCE != AUTOMATIC KILL
+BROAD REALITY > CURRENT SEARCH LENS
+SEARCH LENS != ONTOLOGY
+```
+
+Attraction is weakest-link dominated. A high score on one side does not compensate for a dead side.
+
+Every retained formation must include an Attraction Brief and every white-portfolio scan must include a Drift Audit as defined in `docs/OPPORTUNITY_ATTRACTION_FIELD.md`.
+
+Current founder attention should prefer candidates that are Reachability A/B, Mobilization HIGH and Attraction Field HIGH. A real but low-attraction candidate may remain in the ledger without becoming the next founder action item.
+
+The governing shorthand is:
+
+> **A 想放出来，B 想拿到手，根哥想搭这座桥；三边都不用被硬推，连接以后价值自己往前走。**
+
 ## 14. Evidence maturity — LOCKED
 
 ```text
@@ -1077,7 +1121,10 @@ Engineering / empirical priority:
 16. apply the REACHABILITY GATE before deep validation / Formation promotion / field experiment; prefer named Xuzhou actors that can be contacted within 24h and physically verified within 72h;
 17. route field-solvable evidence/access gaps into delegatable validation tasks;
 18. compare surviving formations under the same commercial and orchestration discipline;
-19. keep the founder as orchestration/routing control plane rather than default search, sales, implementation or delivery node.
+19. require a retained formation to include an Attraction Brief that separates A-side pull, B-side pull and operator attraction;
+20. include a Drift Audit in fresh white-portfolio scans so the previous vertical or search lens does not silently become the ontology;
+21. treat incumbent presence as evidence about flow resolution, not an automatic kill condition;
+22. keep the founder as orchestration/routing control plane rather than default search, sales, implementation or delivery node.
 
 Under the current architecture freeze, do not answer this clarification by building more generic ontology, dashboards, agent frameworks or broad scraper fleets. Engineering is justified when it closes a repeated empirical truth/validation bottleneck or doctrine violation.
 
