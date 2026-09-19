@@ -360,9 +360,7 @@ def validate_formation(
         ):
             errors.append(f"causal_descent:{causal_error}")
 
-    if not hypothesis.alternative_explanations:
-        errors.append("missing:alternative_explanations")
-    elif any(
+    if any(
         not isinstance(value, str) or not value.strip()
         for value in hypothesis.alternative_explanations
     ):
@@ -427,7 +425,6 @@ def formation_state(hypothesis: LatentValueFormationHypothesis) -> FormationStat
     if not (
         hypothesis.surface_phenomenon_or_friction.strip()
         and hypothesis.structural_friction_hypothesis.strip()
-        and hypothesis.alternative_explanations
         and FormationEvidenceKind.STRUCTURAL_FRICTION in kinds
         and hypothesis.structural_friction_truth_state
         is StructuralFrictionTruthState.EVIDENCED_STRUCTURE
@@ -561,6 +558,7 @@ def to_latent_value_candidate(
         structural_friction_hypothesis=hypothesis.structural_friction_hypothesis,
         structural_friction_truth_state=hypothesis.structural_friction_truth_state.value,
         alternative_explanations=hypothesis.alternative_explanations,
+        causal_descent=hypothesis.causal_descent,
         causal_descent_record_id=(
             hypothesis.causal_descent.record_id
             if hypothesis.causal_descent is not None
