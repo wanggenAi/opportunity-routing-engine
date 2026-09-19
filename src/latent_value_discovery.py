@@ -315,6 +315,9 @@ def validate_candidate_record(record: Mapping[str, object]) -> list[str]:
         if kind.value not in present_kinds:
             errors.append(f"missing:evidence_kind:{kind.value}")
 
+    if not {"MISSING_EDGE", "STRANDING_BARRIER"}.intersection(present_kinds):
+        errors.append("missing:evidence_kind:MISSING_EDGE")
+
     return errors
 
 
