@@ -65,7 +65,7 @@ When reviewing or adding a rule, ask:
 
 Strengthen the former. Default to weakening, moving downstream or removing the latter.
 
-State-machine labels describe epistemic maturity; they are not a mandatory traversal order. Discovery may be nonlinear. Promotion must still be evidence-bound, falsifiable, contradiction-aware and fail-closed.
+State-machine labels describe epistemic maturity; they are not a mandatory traversal order. Discovery may be nonlinear. Causal depth labels are also descriptive: preserve valid parent/child direction, but never invent intermediate layers to force contiguous numbering. Promotion must still be evidence-bound, falsifiable, contradiction-aware and fail-closed.
 
 ## Durable execution and recovery protocol — LOCKED
 
