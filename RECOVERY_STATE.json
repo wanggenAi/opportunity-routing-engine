@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generation": 2,
+  "generation": 3,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "IN_PROGRESS",
+  "status": "WAITING_CI",
   "task_key": "install-web-session-recovery-v2",
-  "stage": "PR_READY",
+  "stage": "PR_OPEN_CI_PENDING",
   "last_observed_main_sha": "3f9407e0575cf2f6051d956684005e5c682bc5eb",
   "work_branch": "chore/web-session-recovery-v2",
   "work_head_sha": "2e45f572839e3c2349fd610603631d9d0e0dac68",
-  "active_pr": null,
+  "active_pr": 231,
   "ci": {
     "run_id": null,
-    "status": "NOT_STARTED",
+    "status": "PENDING_DISCOVERY",
     "conclusion": null
   },
   "production_or_artifact": {
@@ -22,9 +22,10 @@
     "created permanent state/chatgpt-recovery branch and seeded RECOVERY_STATE.json",
     "added docs/WEB_SESSION_RECOVERY.md",
     "locked recovery precedence, checkpoint boundaries, CAS writes, stale detection, and crash-window reconciliation in AGENTS.md",
-    "extended tests/test_repository_recovery_contract.py so CI enforces the recovery contract"
+    "extended tests/test_repository_recovery_contract.py so CI enforces the recovery contract",
+    "opened recovery-hardening PR #231"
   ],
-  "next_action": "Open a dedicated recovery-hardening PR, checkpoint the PR identity, then consume CI instead of restarting work.",
+  "next_action": "Read CI/checks for PR #231; fix only real failures. If green and mergeable, merge, verify live main, then mark recovery state DONE/IDLE.",
   "do_not_repeat": [
     "do not restart repository analysis from chat history",
     "do not overwrite unrelated active business work",
