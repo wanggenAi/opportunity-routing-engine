@@ -1,5 +1,12 @@
 import unittest
 
+from src.causal_descent import (
+    CausalDescentRecord,
+    CausalStopReason,
+    CausalTruthState,
+    LatentOutcomeHypothesis,
+    StructuralConstraintHypothesis,
+)
 from src.latent_value_discovery import CandidateClass, validate_candidate
 from src.latent_value_formation import (
     ComplementaryWorldNode,
@@ -55,6 +62,79 @@ class LatentValueFormationTests(unittest.TestCase):
             representative_evidence_refs=(),
         )
 
+    def _causal_descent(self):
+        return CausalDescentRecord(
+            record_id="CD-RETIREMENT-001",
+            actor="NEW_RETIREES",
+            current_state=(
+                "work-defined daily structure is being replaced by self-directed time"
+            ),
+            surface_phenomenon=(
+                "new discretionary time and experience are not consistently converted "
+                "into chosen useful or productive outcomes"
+            ),
+            surface_evidence_refs=("research:underuse", "behavior:learning-travel"),
+            outcome_hypotheses=(
+                LatentOutcomeHypothesis(
+                    outcome_id="OUTCOME-RETIREMENT-1",
+                    statement=(
+                        "turn post-retirement time and experience into chosen modern-life "
+                        "or productive outcomes without returning to a full-time role"
+                    ),
+                    truth_state=CausalTruthState.EVIDENCED_STRUCTURE,
+                    evidence_refs=("behavior:learning-travel", "survey:state"),
+                    falsifiers=(
+                        "the segment consistently prefers only passive leisure outcomes",
+                    ),
+                ),
+            ),
+            selected_outcome_id="OUTCOME-RETIREMENT-1",
+            constraint_hypotheses=(
+                StructuralConstraintHypothesis(
+                    constraint_id="C-ROLE-PACKAGING",
+                    outcome_id="OUTCOME-RETIREMENT-1",
+                    depth=1,
+                    causal_claim=(
+                        "useful time and experience are not packaged into bounded, trusted "
+                        "and acceptance-ready roles that preserve autonomy"
+                    ),
+                    mechanism=(
+                        "the available contribution structures are too coarse, identity-bound "
+                        "or trust-heavy for low-commitment participation"
+                    ),
+                    truth_state=CausalTruthState.EVIDENCED_STRUCTURE,
+                    support_refs=("analysis:structural-friction", "field:trust-packaging"),
+                    discriminating_evidence_refs=("field:informal-crossgen",),
+                    falsifiers=(
+                        "bounded trusted roles already clear repeatedly without this friction",
+                    ),
+                    intervention_implication=(
+                        "make contribution units legible, bounded, trusted and acceptance-ready"
+                    ),
+                ),
+                StructuralConstraintHypothesis(
+                    constraint_id="C-LEISURE-PREFERENCE",
+                    outcome_id="OUTCOME-RETIREMENT-1",
+                    depth=1,
+                    causal_claim=(
+                        "the observed pattern may primarily reflect leisure preference rather "
+                        "than blocked productive participation"
+                    ),
+                    mechanism=(
+                        "actors may not value additional structured contribution even if a "
+                        "trusted route exists"
+                    ),
+                    truth_state=CausalTruthState.INFERRED,
+                    support_refs=("survey:state",),
+                    falsifiers=(
+                        "actors repeatedly choose bounded contribution when trust and autonomy are preserved",
+                    ),
+                ),
+            ),
+            lead_constraint_ids=("C-ROLE-PACKAGING",),
+            stop_reason=CausalStopReason.INTERVENTION_RELEVANT_BOUNDARY,
+        )
+
     def _hypothesis(self, **overrides):
         evidence = (
             FormationEvidenceRef(
@@ -100,7 +180,7 @@ class LatentValueFormationTests(unittest.TestCase):
             FormationEvidenceRef(
                 "field:trust-packaging",
                 "trust, packaging, role definition and acceptance prevent direct exchange",
-                FormationEvidenceKind.STRANDING_BARRIER,
+                FormationEvidenceKind.MISSING_EDGE,
             ),
         )
         payload = dict(
@@ -149,6 +229,23 @@ class LatentValueFormationTests(unittest.TestCase):
             alternative_explanations=(
                 "the observed behavior may be leisure preference rather than blocked productive participation",
                 "existing community and market routes may already satisfy the relevant segment",
+            ),
+            resource_state_disequilibrium=(
+                "time and experience endowments are available, but current role/acceptance "
+                "structures do not convert them into bounded chosen outcomes"
+            ),
+            causal_descent=self._causal_descent(),
+            connection_pressure_hypothesis=(
+                "repeated informal cross-generation help indicates actors are already "
+                "approximating a bounded contribution relationship"
+            ),
+            observed_missing_edge=(
+                "no normal low-cost interface combines role definition, trust, acceptance "
+                "and settlement for the bounded exchange"
+            ),
+            latent_connection_hypothesis=(
+                "retiree time/experience and younger digital execution can form a repeated "
+                "bounded exchange through a trusted acceptance interface"
             ),
             psychology_snapshots=(self._psychology_snapshot(),),
             evidence=evidence,
@@ -218,6 +315,26 @@ class LatentValueFormationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "VALIDATION_READY"):
             to_latent_value_candidate(hypothesis)
 
+    def test_exchange_mechanics_are_downstream_of_evidenced_connection(self):
+        hypothesis = self._hypothesis(
+            counterfactual_exchange_design="",
+            why_exchange_does_not_already_happen="",
+        )
+        self.assertEqual(
+            formation_state(hypothesis),
+            FormationState.LATENT_CONNECTION_EVIDENCED,
+        )
+        self.assertIn("missing:counterfactual_exchange_design", validate_formation(hypothesis))
+        self.assertIn(
+            "missing:why_exchange_does_not_already_happen",
+            validate_formation(hypothesis),
+        )
+
+    def test_objective_causal_evidence_does_not_require_psychology(self):
+        hypothesis = self._hypothesis(psychology_snapshots=())
+        self.assertNotIn("missing:psychology_evidence", validate_formation(hypothesis))
+        self.assertEqual(formation_state(hypothesis), FormationState.VALIDATION_READY)
+
     def test_psychology_alone_cannot_manufacture_latent_value(self):
         hypothesis = self._hypothesis(
             objective_endowments=(),
@@ -244,7 +361,7 @@ class LatentValueFormationTests(unittest.TestCase):
         self.assertNotIn("payer", candidate.__dataclass_fields__)
         self.assertNotIn("payment_evidence", candidate.__dataclass_fields__)
 
-    def test_behavior_corroboration_is_required_before_validation_ready(self):
+    def test_if_psychology_is_used_it_requires_behavior_corroboration(self):
         snapshot = self._psychology_snapshot(behavior_corroborated=False)
         hypothesis = self._hypothesis(psychology_snapshots=(snapshot,))
         self.assertIn(
@@ -253,7 +370,7 @@ class LatentValueFormationTests(unittest.TestCase):
         )
         self.assertEqual(
             formation_state(hypothesis),
-            FormationState.RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS,
+            FormationState.LATENT_CONNECTION_EVIDENCED,
         )
 
     def test_heterogeneous_nonhuman_nodes_are_first_class(self):
