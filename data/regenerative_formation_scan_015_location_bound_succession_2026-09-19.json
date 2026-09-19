@@ -1,0 +1,182 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_015_LOCATION_BOUND_SUCCESSION",
+  "date": "2026-09-19",
+  "title": "Fresh life-world sensing with boundary-ownership filter",
+  "parent_scan": "REGENERATIVE_FORMATION_SCAN_014_INTERGENERATIONAL_CAUSAL_DESCENT",
+  "objective": "Resume white-portfolio ordinary-life sensing while explicitly rejecting formations whose apparent control plane is already naturally owned by platforms, communities, properties or public institutions.",
+  "truth_rules": [
+    "REALITY > COGNITION > SCHEMA",
+    "REAL DEMAND != OPEN CONTROL PLANE",
+    "UNUSED RESOURCE != ROUTABLE COMMERCIAL SUPPLY",
+    "COMMUNITY PROGRAM != PRIVATE MISSING EDGE",
+    "A PLATFORM ALREADY STANDARDIZING TRUST IS STRONG COUNTEREVIDENCE",
+    "LOCATION/TIME CAN BE A ROUTING KEY",
+    "RETAINED FORMATION != COMMERCIAL CANDIDATE",
+    "UNKNOWN != PASS"
+  ],
+  "portfolio_before_scan": {
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "primary_formation_direction": null,
+    "household_homeshare": "WATCHLIST_ONLY"
+  },
+  "wide_scan": [
+    {
+      "id": "LIFE015_A_PET_HOME_ENTRY_CARE",
+      "state": "DEMOTED_NORMALIZING_PRIVATE_MARKET",
+      "observed_pressure": "pet owners repeatedly need care during travel/overtime while allowing a stranger into the home creates safety, privacy and animal-risk concerns",
+      "evidence": [
+        {
+          "fact": "A 2026 Wuhan report describes an upstart pet-home-care platform already covering 12 cities with 1,500+ signed pet sitters, continuous livestreaming, platform customer-service supervision and reported repeat purchase of 80–90%.",
+          "source": "https://news.cjn.cn/whpd/yw_19947/202607/t5316771.htm"
+        },
+        {
+          "fact": "Other 2026 reporting describes strong holiday demand and explicitly identifies contracts, insurance, platform discipline and standardized rules as the industry's path from informal providers to professional service.",
+          "source": "https://sh.people.com.cn/n2/2026/0224/c176738-41507326.html"
+        }
+      ],
+      "verdict": "The trust boundary is real, but private platforms are already turning it into a standardized control plane. Do not rediscover pet care as a missing edge."
+    },
+    {
+      "id": "LIFE015_B_SHARED_GRANDPARENT_CHILD_PICKUP",
+      "state": "DEMOTED_COMMUNITY_VOLUNTEER_CONTROL",
+      "observed_pressure": "dual-income parents face the 16:30 school-pickup gap while healthy retired residents have time, local presence and childcare experience",
+      "evidence": [
+        {
+          "fact": "The shared-grandmother model has appeared across multiple cities and is coordinated by communities as volunteer mutual aid.",
+          "source": "https://www.zyshgzb.gov.cn/n1/2025/0403/c460343-40453028.html"
+        },
+        {
+          "fact": "A 2026 Zhejiang program set 17:30–19:00 precisely around the school/work timing gap; 35 child places across two communities filled in less than half a day.",
+          "source": "https://finance.sina.com.cn/jjxw/2026-03-26/doc-inhshaik3142035.shtml"
+        },
+        {
+          "fact": "Health Times reported in 2026 that community-coordinated shared-grandmother programs have become sustained mechanisms for pickup and after-school companionship.",
+          "source": "https://paper.people.com.cn/jksb/pad/content/202603/20/content_30148690.html"
+        }
+      ],
+      "verdict": "Strong bilateral timing complementarity exists, but child safety and volunteer orientation make the community the natural coordinator. No private control plane is promoted."
+    },
+    {
+      "id": "LIFE015_C_SHARED_HOUSEHOLD_TOOLS",
+      "state": "DEMOTED_COMMUNITY_PUBLIC_GOOD",
+      "observed_pressure": "households buy low-frequency tools while nearby households simultaneously hold idle tools",
+      "evidence": [
+        {
+          "fact": "People's Daily proposed community shared toolboxes in August 2026 because buying rarely used tools is uneconomic and calling repair workers can cost more than the task.",
+          "source": "https://society.people.com.cn/n1/2026/0817/c1008-40780525.html"
+        },
+        {
+          "fact": "Operating community tool corners in 2026 use donated/purchased inventory, simple self-registration and often no deposit or rental fee, with the community/property layer maintaining the stock.",
+          "source": "https://www.peopleweekly.cn/html/2026/chengshi_0701/272621.html"
+        }
+      ],
+      "verdict": "The resource mismatch is real, but centralizing tools into a community-owned pool collapses the peer-to-peer routing problem and leaves weak private economics."
+    },
+    {
+      "id": "LIFE015_D_YOUTH_NIGHT_SPACE",
+      "state": "DEMOTED_INSTITUTIONALLY_ROUTABLE_MARKET",
+      "observed_pressure": "community/public space is idle at certain hours while young adults want nearby low-cost learning, work and social space",
+      "evidence": [
+        {
+          "fact": "A 2026 community night-school case raised evening utilization from below 20% to 85% by reusing existing public rooms across time slots.",
+          "source": "https://www.bhxf.gov.cn/DocHtml/1/26/07/00078559.html"
+        },
+        {
+          "fact": "Yantai Laishan reports a tiered public-space operating model and 330+ projects using qualified third-party operators, including low-cost evening programs.",
+          "source": "https://ytdangjian.yantai.gov.cn/col/col101296/art/2026/art_8c991e5fbd0842acb2cac5168b9a4fd9.html"
+        },
+        {
+          "fact": "Tianfu New Area is actively seeking uses/operators for more than 500,000 square meters of idle community carriers.",
+          "source": "https://www.nbd.com.cn/articles/2026-07-29/4525617.html"
+        }
+      ],
+      "verdict": "The time-shifted space mismatch is large, but the asset owner/community already controls access and is directly recruiting operators. A generic space-routing platform is not retained."
+    },
+    {
+      "id": "LIFE015_E_LOCATION_BOUND_LEASE_SUCCESSION_ASSETS",
+      "state": "RETAIN_FOR_CAUSAL_DESCENT_ONLY",
+      "working_name": "LOCATION-BOUND SUCCESSION ASSET FLOW",
+      "actors": [
+        "outgoing renter facing move/disposal cost and residual-value loss",
+        "incoming renter facing setup/procurement cost and time",
+        "landlord/property actor seeking low-vacancy, low-friction turnover"
+      ],
+      "observed_exchange": "furniture/appliances and other room-specific items are transferred or gifted together with a rental succession because their value is materially higher in the same dwelling than after disassembly, transport or disposal",
+      "evidence": [
+        {
+          "fact": "A current 2026 Shenzhen transfer listing explicitly offers furniture with the room ('转租可送家具'), showing that room succession and residual household assets are already bundled in real tenant behavior.",
+          "source": "https://www.wellcee.com/tw/rent-apartment/1778680906006641"
+        },
+        {
+          "fact": "A 2026 Shenzhen renter profile reports a tenant spending more than RMB 10,000 furnishing an initially sparse rental, then being relocated for work after ten months; because taking the furniture was impractical, she transferred it to the next tenant at roughly 70% of cost and personally helped the landlord find that successor.",
+          "source": "https://global.hk01.com/%E4%B8%AD%E5%9B%BD%E8%A7%82%E5%AF%9F/60344465/%E6%B7%B1%E5%9C%B3%E7%A7%9F%E6%A5%BC%E5%A6%82%E8%A7%81%E5%B7%A5-%E4%B8%9A%E4%B8%BB%E5%8C%96%E8%BA%ABhr%E6%9F%A5%E8%83%8C%E6%99%AF-%E6%B7%B1%E6%BC%82%E5%8F%B9-%E6%9C%89%E9%92%B1%E4%BA%A4%E7%A7%9F%E9%83%BD%E6%9C%AA%E5%BF%85%E4%BD%8F%E5%BE%97"
+        },
+        {
+          "fact": "2026 university graduation flea markets repeatedly describe the need to lighten luggage and solve the disposal/movement of items graduates cannot take away, showing a recurrent transition-event pump for residual assets even though campus markets are not the same formation.",
+          "source": "https://sjxy.nwsuaf.edu.cn/xsgzB/xsgzxB/3356d13b7d7c411fba33390900662bc6.htm",
+          "evidence_role": "adjacent transition-pressure evidence"
+        }
+      ],
+      "structural_hypothesis": {
+        "state": "UNRESOLVED",
+        "proposition": "The dwelling/address plus lease-turnover event may be a stronger routing key than item category. The most efficient buyer for some bulky or fit-specific assets may be the next occupant of the exact same dwelling.",
+        "candidate_latent_outcomes": {
+          "outgoing_renter": "recover residual value while avoiding dismantling, transport, disposal and time cost",
+          "incoming_renter": "reduce setup cost/time and gain items already fitted to the dwelling",
+          "landlord_or_operator": "reduce vacancy/turnover friction and preserve a more move-in-ready unit"
+        }
+      },
+      "counterevidence": [
+        {
+          "fact": "The same current rental listing already carries furniture-transfer information, indicating that existing rental marketplaces can bundle the flow without a new platform.",
+          "source": "https://www.wellcee.com/tw/rent-apartment/1778680906006641"
+        },
+        {
+          "fact": "A well-documented Shenzhen transfer case from 2023 showed furniture discounted from 80% to effectively free yet still failing to create a successor tenant when the underlying housing demand did not match.",
+          "source": "https://m.huxiu.com/article/2363437.html",
+          "evidence_role": "older contradiction/calibration only"
+        },
+        {
+          "fact": "Large rental platforms already bundle transition services such as moving and cleaning into graduate-rental offerings, showing incumbents can expand around the move event.",
+          "source": "https://www.news.cn/house/20260706/31ddb867a4734d2ba337f9a05c469bbf/c.html"
+        }
+      ],
+      "not_yet_evidenced": [
+        "frequency/density of same-dwelling asset succession across mainstream mainland rentals",
+        "residual value net of condition, depreciation and landlord constraints",
+        "whether outgoing and incoming tenants overlap in time often enough",
+        "whether landlord/property/rental platform is already the natural control-plane owner",
+        "whether a missing edge exists beyond simply adding furniture notes to a transfer listing",
+        "whether settlement, inventory, consent or timing failure is repeated and costly",
+        "who would pay for orchestration and how much",
+        "whether economics survive outside high-churn rental districts"
+      ],
+      "promotion_status": "NOT_A_COMMERCIAL_CANDIDATE",
+      "next_test": "Run causal descent on the lease-turnover event. Determine whether the governing friction is housing succession itself, disposal/transport economics, inventory/condition trust, landlord consent, timing overlap, or fragmented cross-platform discovery. Kill the formation if current rental/property actors already solve the useful boundary at low marginal cost."
+    }
+  ],
+  "cross_scan_verdict": {
+    "active_commercial_candidates": 0,
+    "formal_latent_connection_promotions": 0,
+    "active_transaction_units": 0,
+    "retained_research_formations": [
+      "LIFE015_E_LOCATION_BOUND_LEASE_SUCCESSION_ASSETS"
+    ],
+    "first_external_value_flow": "NOT_PROVEN",
+    "meta_learning": "Community/public-resource formations repeatedly collapse into natural institutional control planes. The search should preferentially inspect transition boundaries where neither side naturally owns the handoff."
+  },
+  "next_action": {
+    "mode": "CAUSAL_DESCENT",
+    "formation": "LIFE015_E_LOCATION_BOUND_LEASE_SUCCESSION_ASSETS",
+    "requirements": [
+      "separate housing-transfer demand from residual-asset demand",
+      "test whether exact-address succession materially changes asset value",
+      "identify current control-plane owner at the turnover event",
+      "look for repeated failed handoffs, not attractive anecdotes",
+      "test incumbent rental-platform adaptation",
+      "quantify transaction value and orchestration margin before promotion",
+      "do not design a marketplace, escrow, inventory tool or moving service yet"
+    ]
+  }
+}
