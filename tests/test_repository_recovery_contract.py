@@ -50,7 +50,7 @@ class RepositoryRecoveryContractTests(unittest.TestCase):
         agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
         protocol = (ROOT / "docs" / "WEB_SESSION_RECOVERY.md").read_text(encoding="utf-8")
         self.assertIn("## Durable web-session checkpoint branch — LOCKED", agents)
-        self.assertIn("state/chatgpt-recovery:RECOVERY_STATE.json", agents)
+        self.assertIn("recovery/tasks/<task_key>.json", agents)
         self.assertIn("live GitHub refs/PRs/Actions/artifacts/persisted data > recovery checkpoint", agents)
         for state in ("FRESH", "STALE", "CONFLICTED"):
             self.assertIn(state, agents)
@@ -59,6 +59,7 @@ class RepositoryRecoveryContractTests(unittest.TestCase):
         self.assertIn("## Crash-window rule", protocol)
         self.assertIn("GitHub Contents API updates use the current blob SHA", protocol)
         self.assertIn("## Adaptive checkpoint sizing", protocol)
+        self.assertIn("## Task-scoped concurrency", protocol)
         self.assertIn("## Non-interference invariant — zero business-runtime tax", protocol)
         self.assertIn("## Fenced single-writer and compare-and-swap", protocol)
         self.assertIn("## Write-ahead intent and ambiguous outcomes", protocol)
@@ -68,7 +69,7 @@ class RepositoryRecoveryContractTests(unittest.TestCase):
 
 
     def test_recovery_state_example_is_bounded_and_valid(self):
-        example = ROOT / ".github" / "recovery" / "RECOVERY_STATE.example.json"
+        example = ROOT / ".github" / "recovery" / "TASK_CHECKPOINT.example.json"
         raw = example.read_bytes()
         self.assertLessEqual(len(raw), 16 * 1024)
         data = json.loads(raw)
