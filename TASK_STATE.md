@@ -49,26 +49,27 @@ unrelated generations may lack a trusted, bounded, reciprocal relationship infra
 Do not promote this hypothesis until it survives domain-specific contradiction search.
 
 ## Current Phase
-`LIFE_WORLD_INTERGENERATIONAL_SCAN_002_ACTIVE / ACTIVE_CANDIDATES_ZERO / CROSS_DOMAIN_MISSING_EDGE_DISCRIMINATION_NEXT`
+`LIFE_WORLD_INTERGENERATIONAL_SCAN_002_MERGED / MAIN_GREEN / ACTIVE_CANDIDATES_ZERO / CROSS_DOMAIN_MISSING_EDGE_DISCRIMINATION_NEXT`
 
 ## Last Verified Main
-`e3cbbf7b3eb0daebd63bef44e1fea7142c85943f` — regenerative reset PR #240 squash-merged. Main CI run #745 (run id `35423368600`) passed on this functional SHA. Live main later advanced with state-only checkpoint `3023a1e9dfb550152af9be4674a8b253be11951c`.
-
-The current life-world scan is on an unmerged feature branch and must pass PR CI before becoming functional main truth.
+`01bc0dbdf92e494d104e336e5c4b759ee50778be` — PR #241 squash-merged. Main CI run #747 (run id `35423715645`) passed on this exact SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Issue #143 remains the eventual external-truth mission anchor. No outreach is authorized because formation truth is still upstream.
+Issue #143 remains the eventual external-truth mission anchor. Life-world scan results were synced in comment id `5739621829`. No outreach is authorized because formation truth is still upstream.
 
 ## Active Branch
-`feature/life-world-intergenerational-formation`
+None. `feature/life-world-intergenerational-formation` is merged and is not an active source of truth.
 
 ## Active PR
-None yet.
+None. PR #241 (`Recenter regenerative discovery on everyday intergenerational value fields`) is merged.
 
 ## CI
-No CI has run yet on the current life-world branch.
+- PR #241 final head: `383fc34d7d1b07ac0c6b79fdcf243376c387549d`
+- PR CI: run #746, success
+- merge SHA: `01bc0dbdf92e494d104e336e5c4b759ee50778be`
+- main CI: run #747, run id `35423715645`, success
 
 ## Latest Artifact / Persisted State
 Primary current scan:
