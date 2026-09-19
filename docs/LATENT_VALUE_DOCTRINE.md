@@ -8,7 +8,7 @@ Code, data models, sensors, scoring, experiments, workflows and product ideas ex
 
 If a technically correct implementation pulls the system away from this doctrine, the implementation is wrong for this repository.
 
-The executable formation principle is defined in `docs/LATENT_VALUE_FORMATION_BRIDGE.md`. The causal-depth rule is defined in `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`. The connection-discovery clarification is defined in `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`. These are constitutional discovery principles, not optional implementation notes.
+The executable formation principle is defined in `docs/LATENT_VALUE_FORMATION_BRIDGE.md`. The causal-depth rule is defined in `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`. The connection-discovery clarification is defined in `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`. These are constitutional discovery principles, not optional implementation notes. The strategic attraction and anti-drift discipline is defined in `docs/OPPORTUNITY_ATTRACTION_FIELD.md`.
 
 ## 0. Reality first, cognition second, schema third
 
@@ -614,6 +614,48 @@ DISCOVERED VALUE = EXECUTABLE VALUE
 
 An opportunity may therefore be commercially attractive but temporarily `ACCESS_BLOCKED`.
 That is a route constraint, not evidence that the underlying latent value is false.
+
+## 14A. Attraction field and founder-priority truth
+
+Commercial truth and strategic attraction are separate.
+
+A formation may be real yet unattractive to the current operator. A formation may also excite the operator while participant pull is weak. Neither condition should be hidden.
+
+For current opportunity attention, model three distinct attraction vectors:
+
+```text
+A-SIDE VOLUNTARY ENERGY
++
+B-SIDE VOLUNTARY ENERGY
++
+OPERATOR STRATEGIC ACTIVATION
+```
+
+A-side and B-side attraction require participant evidence. Operator attraction is an explicit strategic preference and cannot validate demand.
+
+The preferred formation has:
+- a clear state improvement for A;
+- a clear state improvement for B;
+- observable motion from both sides rather than theoretical benefit only;
+- a narrow missing edge;
+- low enough activation friction relative to the value unlocked;
+- a compelling reason for the operator to own the routing/control layer;
+- a credible path to remove the operator from recurring acquisition and delivery.
+
+Treat attraction as weakest-link dominated. Do not average away an indifferent side.
+
+```text
+FOUNDER EXCITEMENT != PARTICIPANT PULL
+LOGICAL COHERENCE != HIGH ATTRACTION
+EXISTING ACTOR != FLOW SOLVED
+SEARCH LENS != ONTOLOGY
+```
+
+A fresh scan must preserve world breadth. Physical assets, transferable rights, industrial systems, professional expertise, households, consumers, cities, cross-border flows, technology adoption, relationships, trust, distribution and other value-bearing structures are all possible search zones. The most recent retained or rejected candidate must not silently become the next scan's ontology.
+
+A formation with low attraction may remain true and worth observing. It should not consume current founder attention merely because it is analytically defensible.
+
+See `docs/OPPORTUNITY_ATTRACTION_FIELD.md`.
 
 ## 15. Orchestrator identity
 
