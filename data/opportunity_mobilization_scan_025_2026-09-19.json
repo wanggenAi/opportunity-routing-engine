@@ -1,0 +1,186 @@
+{
+  "scan_id": "OPPORTUNITY_MOBILIZATION_SCAN_025",
+  "date": "2026-09-19",
+  "title": "Buyer-cost-first scan — paid internal external-supply coordination",
+  "purpose": "Continue buyer-cost-first using direct current operating evidence. Bind named Xuzhou/Jiangsu companies that are actively paying dedicated humans to solve recurring supplier, external-manufacturing, quality, delivery or export-coordination work. Then test whether mature external platforms leave an observed residual that a new orchestration layer could own.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "scan_rule": [
+    "BUYER COST FIRST",
+    "PAID INTERNAL COORDINATOR != EXTERNAL ROUTING WHITESPACE",
+    "ACTIVE HIRING != WILLINGNESS TO OUTSOURCE",
+    "PLATFORM COVERAGE + INTERNAL HIRING = RESIDUAL QUESTION, NOT RESIDUAL PROOF",
+    "Retain nothing without an observed post-incumbent missing edge."
+  ],
+  "bound_paid_workaround_events": [
+    {
+      "actor": "江苏微迈思半导体科技有限公司",
+      "geography": "江苏徐州鼓楼区",
+      "actor_type": "private semiconductor-equipment manufacturer",
+      "current_evidence": [
+        "A current recruitment page lists five openings for external-procurement supervisors at RMB 7,000-10,000 per person.",
+        "The role covers supplier development and negotiation, order placement, production-process tracking, outsourced-part procurement, inbound confirmation, quality acceptance, abnormal-quality closure, budgeting and cost control.",
+        "A second current external-procurement-supervisor listing requires end-to-end capability from new-product development through shipment."
+      ],
+      "observed_economic_commitment": "MULTIPLE_PAID_FULL_TIME_EXTERNAL_PROCUREMENT_ROLES",
+      "workaround_type": "INTERNAL_HUMAN_CONTROL_PLANE",
+      "recurring_responsibility": [
+        "supplier sourcing",
+        "commercial negotiation",
+        "outsourced production tracking",
+        "quality acceptance",
+        "exception closure",
+        "cost control"
+      ],
+      "current_incumbent_counterevidence": [
+        "HAIZOL currently provides non-standard-part supplier discovery, quote comparison, engineer assistance, NDA support, production-node tracking and one-stop delivery.",
+        "IMEfuture currently provides non-standard procurement project management, external-production progress visibility, supplier delivery-risk control, receiving/inspection coordination, supplier scoring and sourcing."
+      ],
+      "observed_post_incumbent_missing_edge": "NOT_BOUND",
+      "unknown": "Public evidence does not show whether the company has tried these external platforms/services, why internal responsibility remains necessary, or whether it would externalize the role.",
+      "judgment": "STRONG_PAID_WORKAROUND / OBSERVATION_ONLY / NO_PROMOTION",
+      "sources": [
+        "https://www.zhaopin.com/companydetail/CZL1224344980.htm",
+        "https://www.zhaopin.com/jobdetail/CCL1224344980J40898487008.htm",
+        "https://cn.haizol.com/buyer-service/service",
+        "https://www.imefuture.com/shangyun/"
+      ]
+    },
+    {
+      "actor": "江苏通扬装备科技有限公司",
+      "geography": "江苏徐州铜山区",
+      "actor_type": "private equipment manufacturer",
+      "current_evidence": [
+        "A current supplier-development role is dedicated to machining, welding, castings, standard parts, electrical components and outsourced processing.",
+        "The role explicitly exists to develop new and backup suppliers, reduce single-source risk, compare prices, audit supplier qualifications and sites, and continuously manage supplier performance.",
+        "A current recruitment aggregator shows the Xuzhou supplier-development role around RMB 6,000-7,000."
+      ],
+      "observed_economic_commitment": "PAID_FULL_TIME_SUPPLIER_DEVELOPMENT_ROLE",
+      "workaround_type": "INTERNAL_HUMAN_CONTROL_PLANE",
+      "recurring_responsibility": [
+        "supplier discovery",
+        "backup-source creation",
+        "single-source-risk reduction",
+        "supplier qualification",
+        "cost comparison",
+        "performance management"
+      ],
+      "current_incumbent_counterevidence": [
+        "HAIZOL offers factory databases, supplier matching, quote comparison and verified manufacturing resources.",
+        "IMEfuture offers sourcing, supplier databases and supplier-performance management for non-standard procurement."
+      ],
+      "observed_post_incumbent_missing_edge": "NOT_BOUND",
+      "unknown": "The reason a current external platform cannot replace or materially reduce this in-house role is not publicly attributable.",
+      "judgment": "PAID_WORKAROUND / OBSERVATION_ONLY / NO_PROMOTION",
+      "sources": [
+        "https://www.zhaopin.com/jobdetail/CCL1494213180J40889620505.htm",
+        "https://www.liepin.com/zpgenhuoyuan/",
+        "https://cn.haizol.com/about/productservice",
+        "https://www.imefuture.com/feibiaoGJ/"
+      ]
+    },
+    {
+      "actor": "格利尔数码科技股份有限公司",
+      "geography": "江苏徐州铜山区",
+      "actor_type": "manufacturing enterprise",
+      "current_evidence": [
+        "The company's 2026 half-year report states that some magnetic-component production is outsourced because of capacity limits; it selects external suppliers after considering process complexity and required capacity.",
+        "A current external-planning role dynamically allocates orders across external factories based on internal load, supplier capacity and lead time; it tracks material, quality, delivery, rework and supplier performance."
+      ],
+      "observed_economic_commitment": "RECURRING_EXTERNAL_MANUFACTURING_PLUS_PAID_INTERNAL_PLANNING",
+      "workaround_type": "INTERNAL_CONTROL_PLANE_OVER_EXTERNAL_FACTORY_NETWORK",
+      "recurring_responsibility": [
+        "capacity allocation",
+        "external production planning",
+        "delivery-risk prediction",
+        "material and loss tracking",
+        "quality and rework exception closure",
+        "supplier performance review"
+      ],
+      "current_incumbent_counterevidence": [
+        "HAIZOL and IMEfuture currently productize supplier discovery, non-standard procurement, progress visibility and delivery-risk management."
+      ],
+      "observed_post_incumbent_missing_edge": "NOT_BOUND",
+      "unknown": "Current evidence proves the control-plane function and recurring external flow, but not a market gap that a third party can own better than the firm's internal planner.",
+      "judgment": "STRONG_PATTERN_SENSOR / NO_PROMOTION",
+      "sources": [
+        "https://wap.stockstar.com/detail/SN2026082600004170",
+        "https://www.zhaopin.com/jobdetail/CC708676520J41015664304.htm",
+        "https://cn.haizol.com/buyer-service/service",
+        "https://www.imefuture.com/shangyun/"
+      ]
+    },
+    {
+      "actor": "徐州信航国际贸易有限公司",
+      "geography": "江苏徐州鼓楼区",
+      "actor_type": "small private trading company",
+      "current_evidence": [
+        "A current business-assistant role pays RMB 4,000-7,000 and combines domestic supplier development, supplier comparison/follow-up, complete export-document preparation, contract handling, CAD checking and data analysis."
+      ],
+      "observed_economic_commitment": "PAID_FULL_TIME_TRADE_BACKOFFICE_COORDINATION",
+      "workaround_type": "INTERNAL_HUMAN_CONTROL_PLANE",
+      "current_incumbent_counterevidence": [
+        "Supplier-discovery platforms, freight forwarders, customs agents, trade SaaS and export-service providers already cover large parts of this workflow."
+      ],
+      "observed_post_incumbent_missing_edge": "NOT_BOUND",
+      "judgment": "PAID_WORKAROUND / FRAGMENTED_EXISTING_TOOLS / NO_PROMOTION",
+      "source": "https://www.zhaopin.com/jobdetail/CC517405920J40888160013.htm"
+    }
+  ],
+  "rejected_or_closed_events": [
+    {
+      "actor": "江苏呜咔咔宠物用品有限公司",
+      "event": "The company had difficulty identifying entry standards across export countries.",
+      "current_solution": "Xuzhou Customs currently provides targeted standard guidance, remote inspection and cloud certification that compress clearance time and logistics cost.",
+      "judgment": "CLOSED_BY_CURRENT_INSTITUTIONAL_ROUTE"
+    },
+    {
+      "actor": "江苏中科智储科技有限公司",
+      "event": "A current role offers RMB 8,000 base plus commission for a full-factory industrial-ice sales contractor responsible for selling 500 tonnes/day, channel building, inventory absorption and collections.",
+      "reason_rejected": "RESOURCE_SIDE_SALES_CHANNEL_EVENT; not used to satisfy BUYER COST FIRST, and the role would pull Rooter toward founder-heavy sales/distribution execution without an observed missing edge.",
+      "judgment": "REJECT_CURRENT_SCAN"
+    }
+  ],
+  "incumbent_audit": {
+    "HAIZOL": [
+      "supplier database and factory search",
+      "quote comparison",
+      "professional engineer assistance",
+      "NDA support",
+      "one-stop non-standard part/module/product delivery",
+      "production-node tracking",
+      "supplier management and settlement capabilities"
+    ],
+    "IMEfuture": [
+      "non-standard procurement project management",
+      "BOM and drawing collaboration",
+      "external-production progress visibility",
+      "supplier delivery-risk control",
+      "receiving/inspection collaboration",
+      "supplier scoring and database",
+      "sourcing"
+    ],
+    "result": "MATURE_FUNCTIONAL_COVERAGE_EXISTS"
+  },
+  "cross_industry_result": {
+    "bound_paid_workaround_events": 4,
+    "open_residual_observations": 0,
+    "retained_candidates": [],
+    "retained_count": 0,
+    "new_p0_promotions": 0,
+    "human_action_required_now": false,
+    "material_learning": [
+      "Direct recruitment data is a high-signal sensor because it shows what firms are currently willing to pay humans to own.",
+      "Xuzhou manufacturers are repeatedly paying for supplier sourcing, backup-source development, external capacity allocation, quality acceptance, progress tracking and exception closure.",
+      "This strongly validates recurring supplier/external-production orchestration as a real economic function.",
+      "Current industrial platforms already productize much of the same functional surface.",
+      "The continued existence of internal roles does not by itself prove an externalizable gap: the reason internal responsibility persists remains unknown.",
+      "A new router cannot be promoted merely by proposing that it replace a procurement employee."
+    ],
+    "current_best_next_truth": "Fresh Scan 026 should stay cost-first but prefer CURRENT EXTERNALIZED WORKAROUNDS: named Xuzhou/Jiangsu private actors already paying a third party repeatedly for supplier, logistics, inspection, compliance, sales-channel or other coordination responsibility, where current evidence also shows dissatisfaction, fallback behavior, multi-provider switching or another post-provider residual. This is closer to proven external willingness-to-pay than internal hiring."
+  },
+  "first_external_value_flow": "NOT_PROVEN"
+}
