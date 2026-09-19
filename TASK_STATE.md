@@ -9,13 +9,15 @@ The current active family is:
 
 `LWF-INTERGEN-001 — Young people × retired/low-age older adults everyday mutual-value field`
 
-All explicit job/gig/budget/quote examples remain downstream calibration only.
+The latest work has moved from “shared missing edge” to **portability and self-propulsion**.
 
-The latest discrimination pass rejects one universal “intergenerational platform” thesis and splits the family into two deeper archetypes:
-- `LWA-RELATIONSHIP` — trusted reciprocal exchange operating layer;
-- `LWA-VALUE-TRANSLATION` — latent capability-to-market translation layer.
+The relationship archetype is now split into:
+- `LWA-R1` — high-trust / high-liability reciprocal life support;
+- `LWA-R2` — lower-risk reciprocal capability exchange.
 
-Neither is a commercial candidate yet.
+`LWA-VALUE-TRANSLATION` remains separate.
+
+No commercial candidate has been promoted.
 
 ## Goal
 Preserve:
@@ -24,188 +26,167 @@ Preserve:
 REALITY > COGNITION > SCHEMA
 ```
 
-and the life-world formation path:
+and require:
 
 ```text
-EVERYDAY ACTORS
-→ ENDOWMENTS / STATE
-→ UNDERUSE / CONTRADICTION
-→ RECIPROCAL LATENT OUTCOME
-→ PARTIAL REAL-LIFE FLOW
-→ CONNECTION PRESSURE
-→ RECURRING MISSING EDGE
+PARTIAL FLOW
+→ REPEATED FLOW
+→ PORTABLE TRUST / RECIPROCITY
+→ SELF-PROPULSION
 → DEMAND PUMP
-→ LATENT CONNECTION
-→ only later: product / payer / transaction
+→ only later: LATENT CONNECTION / TRANSACTION
 ```
 
-The current focus is no longer “find more examples.” It is to determine whether the discovered missing edge is portable, durable and self-propelling.
+The decisive issue is no longer whether communities can create exchanges. They can.
+
+The issue is whether the exchange can survive movement across people, time, communities and organizer boundaries.
 
 ## Current Unique Commercial Research Goal
-Deepen `LWA-RELATIONSHIP` only at portability/self-propulsion level.
+Deepen `LWA-R2` only.
 
-Current working missing-edge hypothesis:
+Search for low-risk, non-kin intergenerational capability exchange where:
+- one initial meeting leads to later exchange;
+- participants repeat without organizer prompting;
+- successful participants refer others;
+- reputation/history carries across encounters;
+- reciprocity does not disappear when people move contexts;
+- the relationship itself produces more relationship flow.
 
-> In non-kin everyday exchange, the scarce resource is often not the underlying room, time, skill or help. It is an operating layer that makes the reciprocal relationship legible, bounded, credible, accountable and durable enough for strangers to let value flow.
+Decisive question:
 
-Recurring functions observed across housing, childcare and skill exchange:
-- make offers/wants legible;
-- verify identity/eligibility;
-- match by fit/place/time;
-- define reciprocal obligations and boundaries;
-- create a trusted interaction context;
-- record service/reputation/reciprocity;
-- handle exception/liability/escalation;
-- preserve continuity/exit/replacement.
+> Does one successful low-risk intergenerational exchange naturally generate the next exchange?
 
-Do not promote this to a canonical latent connection until portability and self-propulsion survive contradiction search.
-
-Keep `LWA-VALUE-TRANSLATION` separate; its primary edge is product/value conversion and distribution, not general relationship infrastructure.
+In parallel, keep `LWA-VALUE-TRANSLATION` separate and test only whether hidden senior capability repeatedly becomes contemporary/callable economic value beyond handicrafts.
 
 ## Current Phase
-`LIFE_WORLD_MISSING_EDGE_SCAN_003_MERGED / MAIN_GREEN / TWO_ARCHETYPES_SPLIT / PORTABILITY_SELF_PROPULSION_NEXT`
+`LIFE_WORLD_PORTABILITY_SCAN_004_ACTIVE / PORTABILITY_GAP_EVIDENCED / SELF_PROPULSION_NOT_EVIDENCED / LWA_R2_NEXT`
 
 ## Last Verified Main
-`45c80e90c717a385870552d0cc8532f56c5e1a42` — PR #242 squash-merged. Main CI run #749 (run id `35423945295`) passed on this exact SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
+`45c80e90c717a385870552d0cc8532f56c5e1a42` — PR #242 squash-merged. Main CI run #749 (run id `35423945295`) passed on this functional SHA. Live main later advanced with state-only checkpoint `189700d7b0094ff6a7048e1aae68b3daf84c8ba9`.
+
+The current portability/self-propulsion work is on an unmerged feature branch and must pass PR CI before becoming functional main truth.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Issue #143 remains the eventual external-truth mission anchor. Scan 003 was synced in comment id `5739649792`. No outreach is authorized because formation truth remains upstream.
+Issue #143 remains the eventual external-truth mission anchor. No outreach is authorized because formation truth remains upstream.
 
 ## Active Branch
-None. `feature/life-world-missing-edge-discrimination` is merged and is not an active source of truth.
+`feature/life-world-portability-self-propulsion`
 
 ## Active PR
-None. PR #242 (`Discriminate life-world intergenerational missing edges`) is merged.
+None yet.
 
 ## CI
-- PR #242 final head: `61838c14e38bd8f58f806054e763b62cb252a7a5`
-- PR CI: run #748, success
-- merge SHA: `45c80e90c717a385870552d0cc8532f56c5e1a42`
-- main CI: run #749, run id `35423945295`, success
+No CI has run yet on the current branch.
 
 ## Latest Artifact / Persisted State
-Current discrimination scan:
+Current scan:
+- `data/regenerative_formation_scan_004_portability_self_propulsion_2026-09-19.json`
+- `field/regenerative-formation-scan-004-portability-self-propulsion.md`
+
+Parent scan:
 - `data/regenerative_formation_scan_003_missing_edge_discrimination_2026-09-19.json`
 - `field/regenerative-formation-scan-003-missing-edge-discrimination.md`
 
-Parent life-world scan:
+Life-world parent:
 - `data/regenerative_formation_scan_002_life_world_2026-09-19.json`
 - `field/regenerative-formation-scan-002-life-world.md`
 
-Current doctrine/reset:
-- `docs/research/REGENERATIVE_FLOW_DISCOVERY_RESET_2026-09-19.md`
-- `AGENTS.md`
-- `docs/FORMAL_TRUTH.md`
-
-All task-first / CSVF / Shanghai wine-shop artifacts remain historical/downstream calibration only.
-
 ## Completed
-- Ran cross-domain missing-edge discrimination across LWF-001..004.
-- Rejected the weak unification “all intergenerational flows need one generic platform.”
-- Found strong repeated overlap across LWF-001 housing, LWF-002 childcare and LWF-003 skills:
-  - identity / eligibility;
-  - matching;
-  - boundary definition;
-  - reciprocal obligation;
-  - trust backing;
-  - reputation / record;
-  - risk/escalation;
-  - continuity.
-- Established that the shared pattern is more specific than abstract trust.
-- Preserved `LWA-RELATIONSHIP` as a cross-domain recurring-edge hypothesis, not a canonical latent connection.
-- Found strongest organizer-necessity evidence in shared-grandma models:
-  - formal recruitment/screening;
-  - community-facilitated matching;
-  - agreements;
-  - communication groups;
-  - school documentation;
-  - responsibility boundaries;
-  - insurance/risk mechanisms.
-- Preserved direct counterfactual evidence that parents often reject stranger-to-stranger childcare despite willingness to pay because unaudited identity/safety/liability risk is too high.
-- Found matching/safety/supervision/trust barriers independently in general skill exchange.
-- Found that Shanghai cross-generational skills exchange itself depended on demand collection, professional social-organization facilitation and organized offline settings.
-- Found housing/co-living similarly depends on standards, risk control, exchange rules and institution/government backing.
-- Rejected LWF-004 craft commercialization as part of the same primary edge.
-- Created separate `LWA-VALUE-TRANSLATION` archetype for:
-  - capability discovery;
-  - product conversion;
-  - design/quality adaptation;
-  - aggregation;
-  - brand/story;
-  - modern channel access;
-  - repeat market operations.
-- Found current Beijing/Fengtai programs already demonstrate this value-conversion chain at non-trivial scale.
-- Added time-bank counterevidence:
-  - Shanghai already has city-level exchange recording and large service volume;
-  - current research still finds credit, liquidity, service-quality and participation problems;
-  - this falsifies the simplistic thesis that matching + points alone solve reciprocal exchange.
-- Sent no outreach, designed no product and calculated no price.
+- Tested whether the shared relationship edge is portable across community/time/organizer boundaries.
+- Found current 2026 evidence that time-bank participants explicitly worry about:
+  - future redemption;
+  - moving to another community;
+  - future provider scarcity;
+  - usefulness of later redemption.
+- Found current research that universal deposit/redemption barriers restrict liquidity and that weak credit guarantees reduce long-term trust.
+- Found a concrete locality-bound implementation where moving household registration out of the city closes the account and converts time credits to a one-off subsidy instead of portable future service rights.
+- Therefore `PORTABILITY_GAP = EVIDENCED`.
+- Tested self-propulsion.
+- Found current research showing weak internal participant momentum and difficulty scaling mutual-aid systems sustainably despite long-running pilots.
+- Preserved historical mechanism evidence that some time-bank activity degraded after a professional social-work team exited.
+- Therefore `SELF_PROPULSION = NOT EVIDENCED`; organizer dependence is real enough to treat as a structural possibility.
+- Refined the missing-edge hypothesis from generic trust/matching into:
+  - portable identity/reputation;
+  - legible offer/want;
+  - bounded reciprocal obligation;
+  - contribution/service history;
+  - credible future reciprocity claim;
+  - exception/dispute history;
+  - continuity across time and context.
+- Split the relationship archetype by risk class:
+  - `LWA-R1`: housing + childcare; persistent institutional/risk governance may be structurally required;
+  - `LWA-R2`: lower-risk skill/local-life/digital exchange; cleaner test bed for portability and self-propulsion.
+- Preserved the truth that an organizer may be part of the production function, not merely temporary launch friction.
+- Deepened time-bank counterevidence:
+  - points/ledgers can record contribution;
+  - they do not guarantee future liquidity, quality, transferability or institutional continuity.
+- Ran parallel `LWA-VALUE-TRANSLATION` check beyond handicrafts.
+- Found 2026 evidence of retired engineers' knowledge being converted into community science education and a Hangzhou pilot converting older adults' cooking/family-education experience into callable AI Skills.
+- Therefore value translation may extend beyond physical crafts, but the younger-person counterpart and commercial circulation remain unbound.
+- No product, price or outreach was created.
 
 ## Current Findings
-- One universal edge across all four LWF zones is rejected.
-- `LWA-RELATIONSHIP` survives across housing, childcare and skills as a recurring structural pattern.
-- `LWA-VALUE-TRANSLATION` is a separate pattern for turning hidden/underpriced senior productive capability into contemporary market form.
-- The relationship-layer hypothesis is not “trust marketplace.” It is a more concrete operating layer combining legibility, verification, bounded reciprocity, accountability and continuity.
-- Existing public/community/time-bank infrastructure already owns parts of this layer; any future latent connection must explain why those systems remain fragmented, low-liquidity or institution-bound.
-- Time-bank evidence suggests a key deeper issue may be **portable credibility and future reciprocity liquidity**, not just matchmaking.
-- Commercial value remains UNKNOWN.
+- `LOCAL TRUST != PORTABLE TRUST`.
+- `RECORDED CREDIT != LIQUID RECIPROCITY`.
+- `ORGANIZED ACTIVITY != SELF_PROPULSION`.
+- The hardest relationship-layer problem is not initial matching; it is continuity of trust and reciprocal claims across time/place/organizer boundaries.
+- Current community/time-bank systems show that local organizations can manufacture trust, but that trust often does not travel.
+- A credible future reciprocal claim requires enough future supply, accepted valuation, quality and durable institutional/network continuity.
+- High-risk life-support domains may legitimately require persistent institutional backing and may never be suitable for lightweight peer-to-peer circulation.
+- `LWA-R2` is now the cleanest formation test for a self-propelling intergenerational relationship loop.
+- `LWA-VALUE-TRANSLATION` appears broader than crafts, but is not yet proven as an intergenerational regenerative economic field.
 - Active commercial candidates remain 0.
-- Formal latent-connection promotions remain 0.
 
 ## Blockers
-`LWA-RELATIONSHIP` cannot promote until these are answered:
+`LWA-R2` cannot promote until evidence shows:
 
-1. Is trust/reputation portable across communities/institutions, or does every new context reset trust to zero?
-2. Do participants repeat exchanges after the initial organizer-led event?
-3. Can reciprocity/credits be redeemed outside the original group and over long time periods?
-4. Does organizer withdrawal collapse the flow?
-5. Do successful exchanges create organic future exchanges, or must the organizer continuously push activity?
-6. Can a common relationship operating layer survive domain-specific housing/childcare/safety rules?
-7. Why have existing time-bank/community systems not become normal everyday exchange infrastructure?
-8. Is there any commercially capturable surplus, or is the structure fundamentally public/voluntary?
+1. repeat exchange after the first organizer-led encounter;
+2. organic referrals / new matches generated by prior successful exchanges;
+3. portable reputation/history rather than trust reset every time;
+4. reciprocity that remains meaningful across time and context;
+5. a recurring reason to return without staff continuously programming activity;
+6. enough scale/replenishment to form a Demand Pump;
+7. evidence that existing generic skill/community platforms do not already normalize the flow.
+
+`LWA-VALUE-TRANSLATION` cannot deepen into a broader intergenerational thesis until younger complementary capacity and repeated value capture are observed outside craft-specific examples.
 
 `ACTIVE COMMERCIAL CANDIDATES = 0`.
 
 `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 
 ## Next Action
-Do not add new life domains.
+Search only for evidence relevant to `LWA-R2` self-propulsion:
+- repeated low-risk intergenerational skill/local-life exchanges;
+- repeat pairings;
+- referrals;
+- participant-created follow-on activity;
+- reputation/history reuse;
+- community-to-community portability;
+- evidence that exchange continues after the organizer's first event.
 
-Deepen `LWA-RELATIONSHIP` using public evidence for:
-- cross-community / cross-city portability;
-- participant repeat behavior;
-- exchange persistence after initial organization;
-- portable reputation / reciprocity records;
-- liquidity and redemption failure in time banks;
-- why local trust does or does not travel;
-- whether successful matches self-propagate;
-- existing systems that already solve portability.
+In parallel, collect only high-quality evidence of `LWA-VALUE-TRANSLATION` beyond handicrafts where older-adult capability is converted into recurring contemporary/callable value.
 
-In parallel, keep `LWA-VALUE-TRANSLATION` separate and only test whether the same hidden-capability → contemporary-market conversion pattern repeats beyond traditional handicrafts.
-
-No product design, pricing or outreach.
+Do not add more broad domains. Do not design a platform, price a service or contact actors.
 
 ## Do Not Repeat
-- Do not collapse LWF-001..004 into one generic intergenerational platform.
-- Do not use “trust” as an unstructured explanation.
-- Do not merge LWA-RELATIONSHIP and LWA-VALUE-TRANSLATION.
-- Do not treat organizer presence alone as proof of a missing edge.
-- Do not treat time-bank points/matching as evidence that sustainable reciprocity is solved.
-- Do not promote social/public-good value into commercial opportunity.
-- Do not add more example domains before portability is tested.
-- Do not start from jobs/gigs/budgets/quotes.
-- Do not price or contact actors yet.
+- Do not call a points ledger a solution to reciprocity.
+- Do not equate local community trust with portable trust.
+- Do not treat organizer-led recurring events as self-propulsion.
+- Do not force housing/childcare into peer-to-peer models if institutional backing is structurally necessary.
+- Do not merge LWA-R1, LWA-R2 and LWA-VALUE-TRANSLATION.
+- Do not start from explicit jobs/gigs/budgets/quotes.
+- Do not design product/pricing/outreach yet.
 
 ## Guardrails
 - GitHub live state is operational source of truth.
 - `REALITY > COGNITION > SCHEMA`.
-- `MUTUAL BENEFIT != LATENT CONNECTION`.
-- `ORGANIZER PRESENT != SAME MISSING EDGE`.
-- `TRUST != SUFFICIENT EXPLANATION`.
-- `PARTIAL FLOW != OPEN COMMERCIAL EDGE`.
-- `LEDGER / POINTS / MATCHING != TRUSTED RECIPROCAL EXCHANGE INFRASTRUCTURE`.
+- `LOCAL TRUST != PORTABLE TRUST`.
+- `RECORDED CREDIT != LIQUID RECIPROCITY`.
+- `ORGANIZED ACTIVITY != SELF_PROPULSION`.
+- `REPEAT EVENT != REGENERATIVE LOOP`.
+- `INSTITUTIONAL BACKING MAY BE STRUCTURAL NOT TEMPORARY`.
 - `SOCIAL VALUE != COMMERCIAL VALUE`.
 - `UNKNOWN != PASS`.
 - Infer broadly; promote conservatively.
