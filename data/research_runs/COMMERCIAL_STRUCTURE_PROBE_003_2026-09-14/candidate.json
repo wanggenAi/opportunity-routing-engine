@@ -93,6 +93,22 @@
         "falsifiers": [
           "Comparable owners do not seek higher utilization, operating income or service output even when lawful activation routes are available."
         ]
+      },
+      {
+        "outcome_id": "OUTCOME-PRESERVE-STATIC-CONTROL",
+        "statement": "Preserve direct owner control and administrative simplicity even when that leaves some lawful utilization or operating value unrealized.",
+        "truth_state": "INFERRED",
+        "evidence_refs": [
+          "STRUCTURAL_RECURRENCE_RUN_002",
+          "PUDONG_GOV_2026_ASSET_RULES"
+        ],
+        "contradiction_refs": [
+          "LUAN_GGZY_ASSET_OPERATION_TENDER_2026",
+          "NANJING_GGZY_ASSET_TRANSACTIONS_H1_2026"
+        ],
+        "falsifiers": [
+          "Comparable owners repeatedly accept entrusted operation or market transactions when bounded rights and responsibilities are made explicit."
+        ]
       }
     ],
     "selected_outcome_id": "OUTCOME-ACTIVATE-EXISTING-ASSET",
@@ -164,6 +180,11 @@
     "probe_eligible": false,
     "notes": "This causal record requalifies a historical research structure only. It does not promote a current business route.",
     "stop_rationale": "The evidence already distinguishes a bounded asset-callability interface from generic low utilization; deeper causes such as demand quality and policy specificity remain explicit alternatives, but they do not change the next structural test of rights, packaging and operating responsibility.",
-    "outcome_selection_rationale": "Repeated repurposing, entrusted operation and executed lease/operating-right transactions show that the relevant owner-side direction is higher useful utilization or operating value from an already-owned asset, rather than merely observing vacancy as an isolated condition."
+    "outcome_selection_rationale": "Repeated repurposing, entrusted operation and executed lease/operating-right transactions show that the relevant owner-side direction is higher useful utilization or operating value from an already-owned asset, rather than merely observing vacancy as an isolated condition.",
+    "outcome_selection_evidence_refs": [
+      "LUAN_GGZY_ASSET_OPERATION_TENDER_2026",
+      "NANJING_GGZY_ASSET_TRANSACTIONS_H1_2026"
+    ],
+    "deeper_search_would_change_decision": false
   }
 }
