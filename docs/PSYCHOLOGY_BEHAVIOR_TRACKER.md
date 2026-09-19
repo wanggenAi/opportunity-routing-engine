@@ -313,9 +313,9 @@ Contradictory hard evidence must reduce confidence even when social salience is 
 
 ## 16. Formation bridge
 
-The tracker must not emit a startup idea directly.
+The tracker must not emit a startup idea directly, and psychology is not a universal prerequisite for value formation. Objective state, process, technical, institutional, rights/access, trust and economic evidence may establish structural friction without a psychology signal.
 
-It emits evidence-bound ingredients for value formation:
+It emits evidence-bound ingredients for value formation when psychology/behavior is relevant:
 
 ```text
 ACTOR SEGMENT
@@ -328,9 +328,10 @@ OBSERVED BEHAVIOR
 +
 SURFACE PHENOMENON / CONTRADICTION
 → investigate RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
-→ infer PRODUCT-AGNOSTIC LATENT / UNFORMED OUTCOME HYPOTHESIS
-→ infer STRUCTURAL FRICTION HYPOTHESIS
-→ search ALTERNATIVE EXPLANATIONS / DISCRIMINATING EVIDENCE
+→ generate competing PRODUCT-AGNOSTIC LATENT / UNFORMED OUTCOME HYPOTHESES
+→ perform recursive causal descent through competing STRUCTURAL FRICTION HYPOTHESES
+→ search DISCRIMINATING EVIDENCE / CONTRADICTIONS / FALSIFIERS
+→ stop at the deepest decision-useful falsifiable causal frontier
 → promote only when supported to EVIDENCED_STRUCTURE
 → search COMPLEMENTARY WORLD NODES
 → discover CONNECTION PRESSURE + MISSING EDGE
@@ -348,6 +349,7 @@ Only later should strict transaction evidence be projected into:
 
 ```text
 PSYCHOLOGY HYPOTHESIS != DEMAND
+PSYCHOLOGY EVIDENCE != UNIVERSAL FORMATION GATE
 SURFACE PHENOMENON != STRUCTURAL FRICTION
 STRUCTURAL FRICTION HYPOTHESIS != EVIDENCED STRUCTURAL FRICTION
 UNFORMED OUTCOME != DEMAND
