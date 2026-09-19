@@ -6,6 +6,7 @@ Effective: 2026-09-17
 
 Parents:
 - `docs/LATENT_VALUE_DOCTRINE.md`
+- `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`
 - `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
 - `docs/FORMAL_TRUTH.md`
 
@@ -80,14 +81,26 @@ The system must not claim that a connection “should exist” merely because an
 
 ## 3. Canonical discovery chain
 
+Latent-connection discovery is downstream of causal-depth discovery. The first visible pain is not assumed to be the governing friction.
+
 The constitutional upstream chain is:
 
 ```text
 WORLD / STATE CHANGE
         ↓
-ACTOR A + OBJECTIVE ENDOWMENT / UNDERUSE / PRESSURE
+ACTOR + OBJECTIVE ENDOWMENT / STATE / BEHAVIOR
         ↓
-ACTOR B / NODE B + OBJECTIVE ENDOWMENT / COST / PRESSURE
+SURFACE PHENOMENON / SURFACE FRICTION
+        ↓
+LATENT / UNFORMED OUTCOME HYPOTHESIS
+        ↓
+STRUCTURAL FRICTION HYPOTHESIS
+        ↓
+CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+        ↓
+EVIDENCED STRUCTURAL FRICTION
+        ↓
+COMPLEMENTARY WORLD-NODE SEARCH
         ↓
 STRUCTURAL COMPLEMENTARITY
         ↓
@@ -95,7 +108,7 @@ CONNECTION-PRESSURE EVIDENCE
         ↓
 PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
         ↓
-OBSERVED MISSING EDGE / STRANDING BARRIER
+OBSERVED MISSING EDGE / STRANDING BARRIER BETWEEN NODES
         ↓
 LATENT CONNECTION HYPOTHESIS
         ↓
@@ -124,6 +137,30 @@ COMPLEMENTARY NODES
 → IDENTIFY THE MISSING EDGE
 → DESIGN ONLY THE MINIMUM EXECUTION MECHANICS
 → USE HUMAN REALITY CONTACT AS THE LAST DECISIVE TEST
+```
+
+## 3A. Structural friction is not the missing edge
+
+These two concepts must not collapse into one another.
+
+```text
+STRUCTURAL FRICTION
+=
+why an Actor cannot reach its latent desired state under current structures
+
+MISSING EDGE
+=
+why identified complementary nodes cannot convert their complementarity into normal value flow
+```
+
+A visible cost may reveal neither one directly. The engine may need to infer the deeper structural friction first, corroborate it, then search which complementary nodes are relevant. Only after those nodes are identified can the inter-node missing edge be meaningfully investigated.
+
+Therefore:
+
+```text
+SURFACE COST != ROOT CAUSE
+ROOT-CAUSE HYPOTHESIS != EVIDENCED STRUCTURAL FRICTION
+STRUCTURAL FRICTION != MISSING EDGE
 ```
 
 ## 4. Connection-pressure evidence
@@ -224,7 +261,9 @@ MACHINE / DOCUMENT / MARKET / BEHAVIOR SENSING
 
 Human action is the surgeon's final cut: precise, bounded and aimed at the weakest unresolved truth.
 
-A field probe should ask about recent concrete events, current workarounds, failed attempts, cost, approval authority and commitment—not ask actors to endorse an abstract idea.
+The weakest unresolved truth may be a structural-causality question before a public missing edge is fully established. When broad sensing has already narrowed the uncertainty to one causal fact, the hypothesis may be marked `DECISIVE_UNKNOWN / PROBE_ELIGIBLE`. This does not make human outreach the primary discovery sensor and does not promote the candidate.
+
+A field probe should ask about recent concrete events, current workarounds, failed attempts, cost, approval authority and the narrow causal uncertainty—not ask actors to endorse an abstract idea.
 
 ## 8. Promotion discipline
 
@@ -259,6 +298,16 @@ Do not force every future phenomenon into today's examples. Preserve residuals a
 The goal is not to prohibit invention. The goal is to prevent invention from masquerading as discovery.
 
 ## 10. Governing invariants
+
+Additional upstream invariants:
+
+```text
+SURFACE PHENOMENON != STRUCTURAL FRICTION
+STRUCTURAL FRICTION HYPOTHESIS != EVIDENCED STRUCTURAL FRICTION
+STRUCTURAL FRICTION != MISSING EDGE
+BUYER COST FIRST != CONSTITUTION
+```
+
 
 ```text
 CONNECTION_INVENTION != CONNECTION_DISCOVERY
