@@ -1,0 +1,211 @@
+{
+  "validation_id": "TRANSACTION_UNIT_VALIDATION_001",
+  "date": "2026-09-19",
+  "parent_scan": "CLEAN_SLATE_VALUE_FLOW_SCAN_001",
+  "purpose": "Bind each fresh flow to buyer money, provider cost/availability, acceptance and operator spread. Kill or downgrade flows where the observed market already owns the routing layer or where compatible unit economics cannot be bound.",
+  "results": [
+    {
+      "candidate_id": "CSVF-001",
+      "name": "Local commercial content micro-orders",
+      "buyer_unit": {
+        "status": "BOUND_CURRENT",
+        "task": "Remote short-video packaging/editing; project basis; roughly one workday; ongoing 1-2 videos per week.",
+        "buyer_budget_rmb": 500,
+        "buyer_experience_requirement": "3+ years preferred",
+        "source": "https://www.yuanjisong.com/job/allcity/yunying"
+      },
+      "provider_unit": {
+        "status": "BOUND_PUBLIC_PRICE",
+        "provider_profile": "5-year video editor offering short-video/口播/e-commerce editing",
+        "quoted_range_rmb_per_video": [
+          150,
+          300
+        ],
+        "included": [
+          "single-order delivery",
+          "up to 2 free revisions",
+          "remote work"
+        ],
+        "source": "https://www.ukezhitan.com/resource/42975635701661696"
+      },
+      "economics": {
+        "buyer_price_rmb": 500,
+        "provider_cost_range_rmb": [
+          150,
+          300
+        ],
+        "theoretical_gross_spread_range_rmb": [
+          200,
+          350
+        ],
+        "warning": "This is gross spread only, before platform fees, tax, coordination time, failed delivery/rework and customer acquisition."
+      },
+      "acceptance": {
+        "buyer_side": "One fast-packaged Douyin short-video project; detailed acceptance standard not publicly bound.",
+        "provider_side": "Provider publicly offers 2 free revisions.",
+        "state": "PARTIALLY_BOUND"
+      },
+      "operator_edge_audit": {
+        "result": "WEAK_FOR_THIS_EXACT_BUYER",
+        "reason": "The buyer is already using a mature freelancer marketplace and has dozens of direct applicants. Re-inserting another matcher does not yet show durable incremental value.",
+        "durable_value_needed": [
+          "buyer outside mature marketplace",
+          "quality guarantee",
+          "replacement",
+          "multi-video recurring intake",
+          "faster brief-to-accepted-output"
+        ]
+      },
+      "state": "UNIT_ECONOMICS_CALIBRATION_ONLY__DO_NOT_PROMOTE",
+      "decision": "DEPRIORITIZE_AS_FIRST_FLOW",
+      "rationale": "Price spread exists, but the exact observed transaction already has a mature matching rail. The spread proves the work unit can be routed, not that our operator layer is needed."
+    },
+    {
+      "candidate_id": "CSVF-002",
+      "name": "SME AI / office-workflow micro-project routing",
+      "buyer_unit": {
+        "status": "BOUND_BUT_INTERMEDIATED",
+        "task": "Lightweight AI application projects: agents, knowledge bases, Dify/n8n/Coze integrations, RPA, data sync, reports, CRM and APIs.",
+        "buyer_payout_signal_rmb_per_project": 5000,
+        "source": "https://www.zhaopin.com/zhaopin/3392a386946d41f58e90aab2676d8cd2/",
+        "evidence_note": "The observed buyer-side actor is itself a project-coordination company recruiting developers and routing projects."
+      },
+      "provider_unit": {
+        "status": "SUPPLY_EXISTS_BUT_COMPATIBLE_QUOTE_NOT_BOUND",
+        "examples": [
+          {
+            "fact": "Independent provider offers enterprise AI apps/agents/knowledge bases/automation workflows with a very broad 200-20,000 RMB range.",
+            "source": "https://www.ukezhitan.com/resource/10529337131994112"
+          },
+          {
+            "fact": "Current remote AI application interns/part-time developers can be found at 200-300 RMB/day, but this does not prove they can independently deliver the same 5,000 RMB project specification.",
+            "source": "https://ready-2-remote.com/analyze/recvtnaCEiRKGW"
+          }
+        ]
+      },
+      "economics": {
+        "status": "NOT_BOUND",
+        "reason": "No independent provider quote was found for the same scoped deliverable at a known lower cost. Skill/scope compatibility is unresolved."
+      },
+      "operator_edge_audit": {
+        "result": "REDUNDANT_IN_OBSERVED_CASE",
+        "reason": "The observed 5,000-RMB-per-project actor already performs project coordination, quoting and developer routing. Adding our layer would duplicate an existing intermediary."
+      },
+      "state": "FAIL_CURRENT_TRANSACTION_UNIT",
+      "decision": "KILL_FROM_ACTIVE_THREE",
+      "revival_condition": "Only reopen with a direct SME buyer outside an existing AI agency/platform plus a compatible independent implementer quote for the same bounded acceptance tests."
+    },
+    {
+      "candidate_id": "CSVF-003",
+      "name": "Local-presence field microtasks",
+      "buyer_unit": {
+        "status": "BOUND_RECENT_BUT_EXPIRED",
+        "task_date": "2026-09-16",
+        "posted_date": "2026-09-10",
+        "buyer": "Polish building-materials company",
+        "task": [
+          "attend ASE China 2026 in Shanghai for one day",
+          "identify relevant manufacturers",
+          "ask predefined questions in Chinese",
+          "check basic product/certification information",
+          "collect cards/catalogues",
+          "take photos",
+          "submit a short summary"
+        ],
+        "budget_rmb_per_day": [
+          700,
+          800
+        ],
+        "explicit_requirements": [
+          "fluent Chinese",
+          "basic English communication",
+          "reliable",
+          "comfortable approaching exhibitors",
+          "smartphone"
+        ],
+        "source": "https://www.reddit.com/r/AskChina/comments/1wcbrn7/"
+      },
+      "provider_side": {
+        "status": "STRONG_AVAILABILITY_AND_MARKET_RATE_SIGNAL",
+        "evidence": [
+          {
+            "fact": "The buyer post itself received multiple willing applicants, including a former foreign-trade salesperson with flooring/exhibition experience and a civil-engineering master's student.",
+            "source": "https://www.reddit.com/r/AskChina/comments/1wcbrn7/"
+          },
+          {
+            "fact": "Current Shanghai exhibition English-assistance labor is advertised around 280 RMB/day for simple English-capable event work.",
+            "source": "https://m.yupao.com/zhaogong/380632997.html"
+          },
+          {
+            "fact": "A current Shanghai brand field-research project pays project assistants about 350 RMB/day for in-person store contact/research support.",
+            "source": "https://www.deizao.net/m/index/shixixq/jobid/167363"
+          }
+        ],
+        "compatible_market_cost_signal_rmb_per_day": [
+          280,
+          350
+        ]
+      },
+      "economics": {
+        "buyer_budget_range_rmb": [
+          700,
+          800
+        ],
+        "compatible_market_cost_signal_rmb": [
+          280,
+          350
+        ],
+        "theoretical_gross_spread_range_rmb": [
+          350,
+          520
+        ],
+        "warning": "This is not a provider-specific quote for the expired buyer task. It is a market-cost window. Travel, briefing, QA, payment, failure replacement and acquisition costs are not included."
+      },
+      "acceptance": {
+        "state": "STRONGLY_BOUND",
+        "shape": "Predefined checklist + required manufacturer information + photos/cards/catalogues + short post-event summary by deadline."
+      },
+      "operator_edge_audit": {
+        "result": "STRONGEST_OF_CURRENT_FLOWS",
+        "direct_evidence": [
+          "Buyer explicitly asked where to find a reliable local person.",
+          "Multiple potential executors appeared quickly.",
+          "A commenter noted the high applicant volume itself creates a screening problem."
+        ],
+        "operator_value": [
+          "translate buyer request into checklist",
+          "screen English/local-fit/reliability",
+          "select one executor",
+          "brief and verify evidence",
+          "replace no-show/failure",
+          "single settlement/accountability point"
+        ]
+      },
+      "state": "FLOW_STRUCTURE_VALIDATED__NO_LIVE_BUYER_TASK_TODAY",
+      "decision": "MAKE_PRIMARY_SEARCH_DIRECTION",
+      "blocker": "The observed paid task expired on 2026-09-16. A new currently actionable buyer task must be found before any external action."
+    }
+  ],
+  "portfolio_after_validation": {
+    "active_primary_search": [
+      "CSVF-003"
+    ],
+    "calibration_only": [
+      "CSVF-001"
+    ],
+    "killed_from_active_set": [
+      "CSVF-002"
+    ],
+    "formal_opportunity_promotions": 0,
+    "external_actions_sent": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "key_learning": [
+    "A visible price spread is not enough; the operator must own a missing edge that current buyer/provider channels do not already solve.",
+    "CSVF-001 proves routable unit economics but not operator necessity because a mature freelancer marketplace already owns matching for the observed buyer.",
+    "CSVF-002 fails the current unit test because the observed buyer is itself an intermediary and compatible provider economics are not bound.",
+    "CSVF-003 best matches the original business logic: buyer cannot easily access local presence, local capable people exist, the task is checklist-bounded, acceptance is explicit, and the buyer visibly experiences a search/screening friction.",
+    "The next search should not broaden into generic errands. It should search fresh current cross-geography tasks where remote buyers need local presence, evidence collection or bounded commercial legwork and where the work is safe, lawful and non-regulated."
+  ],
+  "next_action": "Search only for fresh currently actionable CSVF-003-type buyer tasks posted within the latest 7-14 days and scheduled after the current date. Bind one buyer budget, location, checklist, deadline and contact route; then independently bind 2-3 suitable executor price/availability signals in that city before requesting authorization for any outreach."
+}
