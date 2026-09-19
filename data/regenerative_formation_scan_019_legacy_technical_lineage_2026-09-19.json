@@ -1,0 +1,149 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_019_LEGACY_TECHNICAL_LINEAGE",
+  "date": "2026-09-19",
+  "title": "Pre-market stranded-value scan for legacy technical lineage",
+  "parent_scan": "REGENERATIVE_FORMATION_SCAN_018_SERVICE_THRESHOLD_VERDICT",
+  "objective": "Search for hidden resources whose value emerges under a specific state before a normal transaction exists.",
+  "truth_rules": [
+    "REALITY > COGNITION > SCHEMA",
+    "PRE_MARKET STRANDED VALUE > IMPROVING AN EXISTING LISTING",
+    "MODEL-SPECIFIC TACIT KNOWLEDGE != GENERIC ENGINEERING LABOR",
+    "PUBLIC PROFESSIONAL LINEAGE != PRIVATE/PROPRIETARY INFORMATION",
+    "RETAINED FORMATION != COMMERCIAL CANDIDATE",
+    "UNKNOWN != PASS"
+  ],
+  "wide_scan": [
+    {
+      "id": "SCAN019_A_SURPLUS_MRO",
+      "state": "DEMOTED_MATURE_SPECIALTY_MARKET",
+      "observed_pressure": "One plant's obsolete spare inventory can be another plant's line-down critical part.",
+      "counterevidence": [
+        "verified surplus/obsolete MRO catalogues already exist",
+        "enterprise surplus disposition platforms already identify and resell idle spares",
+        "reverse engineering and on-demand machining cover missing references"
+      ],
+      "sources": [
+        "https://indess.app/parts",
+        "https://indess.app/faq",
+        "https://sparetech.io/solving-industrial-surplus",
+        "https://mroexchange.com/blogs/the-mro-exchange-blog/industrial-surplus-market-trends-2026"
+      ],
+      "verdict": "Exact-part-number surplus routing is already a developed specialty market."
+    },
+    {
+      "id": "SCAN019_B_SHARED_LAB_PILOT_CAPACITY",
+      "state": "DEMOTED_INSTITUTIONAL_RESOURCE_POOL",
+      "observed_pressure": "SMEs lack expensive testing/pilot equipment while public and enterprise equipment can be underused.",
+      "sources": [
+        "https://gz.people.com.cn/n2/2026/0630/c411535-41625715.html",
+        "https://finance.sina.com.cn/jjxw/2026-08-13/doc-inincafc3690959.shtml",
+        "https://news.10jqka.com.cn/20260617/c677546983.shtml"
+      ],
+      "verdict": "Government, industrial parks and specialist platforms are actively building the natural access/control plane."
+    },
+    {
+      "id": "SCAN019_C_REUSABLE_FACTORY_AUDIT_EVIDENCE",
+      "state": "DEMOTED_EXISTING_TRUST_NETWORK",
+      "observed_pressure": "Factories face repetitive buyer due-diligence audits.",
+      "source": "https://www.sedex.com/zh",
+      "verdict": "Sedex/SMETA already standardizes shareable audit evidence specifically to reduce duplicate audits."
+    },
+    {
+      "id": "SCAN019_D_LEGACY_TECHNICAL_LINEAGE",
+      "state": "RETAIN_FOR_CAUSAL_DESCENT_ONLY",
+      "working_name": "LEGACY TECHNICAL LINEAGE ROUTING",
+      "observed_pressure": "Legacy assets remain productive after OEM support, documentation and original human knowledge disappear; a line-down or migration can make former OEM/project-specific tacit knowledge disproportionately valuable.",
+      "actors": [
+        "factory or asset owner with unsupported legacy equipment",
+        "legacy service integrator or maintenance contractor",
+        "former OEM / retired controls / commissioning / maintenance engineer",
+        "optional insurer, legal/forensic or engineering party"
+      ],
+      "evidence": [
+        {
+          "fact": "A 2026 PLC migration case describes missing source, an engineer who retired a decade earlier and outdated printed logic.",
+          "source": "https://sescorp.com.br/insights/plc-migration-without-a-shutdown"
+        },
+        {
+          "fact": "A 2026 PLCtalk request explicitly seeks a retired Rockwell/Allen-Bradley controls engineer for paid consulting, preferring steel-industry experience.",
+          "source": "https://www.plctalk.net/forums/threads/looking-for-retired-rockwell-allen-bradley-controls-engineer-paid-consulting.149545/"
+        },
+        {
+          "fact": "A 2026 Motion case reports sourcing specialized obsolete-spindle repair partners including former employees of original manufacturers; reported repair turnaround was 3-4 weeks versus more than 20 weeks for replacement/reverse-engineered new spindles.",
+          "source": "https://view.publitas.com/88583/2910875/pdfs/971359eb-b9f7-4fa4-b060-a83d74648d3f.pdf",
+          "evidence_role": "vendor case study; performance not independently audited"
+        },
+        {
+          "fact": "Compass Engineering markets legacy instrument support from former OEM staff and factory-trained engineers.",
+          "source": "https://compassengr.com/"
+        },
+        {
+          "fact": "A retired-engineer matching event connected veteran Japanese manufacturing engineers with industrial companies seeking technical guidance.",
+          "source": "https://blog.orskorea.com/japan-excellent-retired-engineers-matching-consultation/"
+        },
+        {
+          "fact": "A technical-advisor search case reports identifying retiring/retired engineers using public patent and academic-paper traces for an industrial client.",
+          "source": "https://www.genius-japan.com/en/consul-case/"
+        }
+      ],
+      "counterevidence": [
+        {
+          "fact": "Specialist legacy controls firms already perform unsupported PLC/DCS migration, reverse engineering and logic recovery.",
+          "sources": [
+            "https://atgcontrols.com/system-migration-and-revamp/",
+            "https://www.jcindustries.fr/en/maintenance-of-legacy-equipment/",
+            "https://www.rgttechnology.com/"
+          ]
+        },
+        {
+          "fact": "Generic expert networks already assemble engineering and former-executive specialists.",
+          "source": "https://newtroubleshooter.com/expert-network"
+        },
+        {
+          "fact": "Reverse engineering can often substitute for unavailable original human knowledge.",
+          "sources": [
+            "https://powerdrivecle.com/reverse-engineering",
+            "https://speed3dmold.com/replacement-casting"
+          ]
+        }
+      ],
+      "structural_hypothesis": "Technical-lineage matching by OEM/model/project/controls history may identify uniquely relevant former personnel who can reduce diagnostic uncertainty faster than generic service search.",
+      "not_yet_evidenced": [
+        "frequency at which former-OEM/project-specific knowledge is decisive",
+        "safe/legal boundary for former employee knowledge",
+        "professional liability model",
+        "repeatable public-data lineage reconstruction",
+        "short bounded consultation willingness",
+        "payer willingness and urgency economics",
+        "incremental value beyond specialist legacy-service firms",
+        "non-boutique scalable expert discovery/vetting"
+      ],
+      "promotion_status": "NOT_A_COMMERCIAL_CANDIDATE",
+      "next_test": "Run causal descent on when historical human lineage outperforms normal service, reverse engineering and generic expert search."
+    }
+  ],
+  "cross_scan_verdict": {
+    "active_commercial_candidates": 0,
+    "formal_latent_connection_promotions": 0,
+    "active_transaction_units": 0,
+    "retained_research_formations": [
+      "SCAN019_D_LEGACY_TECHNICAL_LINEAGE"
+    ],
+    "first_external_value_flow": "NOT_PROVEN",
+    "meta_learning": "Tacit historical knowledge can be a stranded asset whose value is activated by a specific legacy-system failure state; the relevant routing key may be technical lineage rather than job title."
+  },
+  "next_action": {
+    "mode": "CAUSAL_DESCENT",
+    "formation": "SCAN019_D_LEGACY_TECHNICAL_LINEAGE",
+    "requirements": [
+      "prove lineage is repeatedly decisive",
+      "separate public professional history from proprietary employer knowledge",
+      "define safe advisory scope and liability",
+      "test public-data recoverability of lineage",
+      "identify payer and downtime economics",
+      "test incumbent legacy-service absorption",
+      "reject boutique founder-heavy headhunting",
+      "no recruitment, outreach, pricing or marketplace build"
+    ]
+  }
+}
