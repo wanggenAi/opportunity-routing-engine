@@ -1,39 +1,38 @@
 {
-  "schema_version": 1,
-  "generation": 5,
+  "schema_version": 2,
+  "generation": 6,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "IDLE",
-  "task_key": "install-web-session-recovery-v2",
-  "stage": "RECOVERY_V2_INSTALLED_AND_VERIFIED",
+  "status": "IN_PROGRESS",
+  "task_key": "harden-recovery-v3-noninterference",
+  "stage": "DESIGN_AND_IMPLEMENT",
   "last_observed_main_sha": "892dd22fd3ed0e0d1fd4a1602f8785e9c258fc3a",
-  "work_branch": null,
-  "work_head_sha": null,
+  "work_branch": "chore/web-session-recovery-v3",
+  "work_head_sha": "892dd22fd3ed0e0d1fd4a1602f8785e9c258fc3a",
   "active_pr": null,
   "ci": {
-    "run_id": 35413843116,
-    "status": "COMPLETED",
-    "conclusion": "SUCCESS"
+    "run_id": null,
+    "head_sha": null,
+    "status": "NOT_STARTED",
+    "conclusion": null
   },
   "production_or_artifact": {
     "status": "NOT_APPLICABLE",
     "evidence": []
   },
+  "pending_operation": null,
+  "health": {
+    "recovery": "HEALTHY",
+    "last_error": null
+  },
   "completed": [
-    "created permanent state/chatgpt-recovery branch and seeded RECOVERY_STATE.json",
-    "added docs/WEB_SESSION_RECOVERY.md",
-    "locked recovery precedence, checkpoint boundaries, CAS writes, stale detection, and crash-window reconciliation in AGENTS.md",
-    "extended tests/test_repository_recovery_contract.py so CI enforces the recovery contract",
-    "opened recovery-hardening PR #231",
-    "PR #231 passed head CI #656 and squash-merged as 892dd22fd3ed0e0d1fd4a1602f8785e9c258fc3a",
-    "main CI #657 succeeded for merged recovery protocol",
-    "verified AGENTS.md, docs/WEB_SESSION_RECOVERY.md, and repository recovery contract test on live main"
+    "v2 recovery protocol is merged and verified",
+    "confirmed state/chatgpt-recovery currently triggers zero GitHub Actions runs"
   ],
-  "next_action": "For the next task, read live GitHub first, then this recovery checkpoint, then TASK_STATE.md; reconcile and continue the first unfinished business stage.",
+  "next_action": "Implement adaptive/coalesced checkpoints, fenced single-writer and write-ahead intent semantics, idempotent retry rules, corruption recovery, strict size/schema checks, and zero-runtime-coupling guards.",
   "do_not_repeat": [
-    "do not restart repository analysis from chat history",
-    "do not overwrite unrelated active business work",
-    "do not treat this checkpoint as stronger than live GitHub refs, PRs, Actions, artifacts, or persisted data"
-  ],
-  "concurrent_context": "PR #230 is already merged; preserve the structural-friction doctrine now on main.",
-  "updated_at_utc": null
+    "do not put recovery reads or writes on any business runtime path",
+    "do not trigger production workflows from checkpoint commits",
+    "do not checkpoint read-only polling or every tool call",
+    "do not retry ambiguous non-idempotent external side effects without provider-side reconciliation"
+  ]
 }
