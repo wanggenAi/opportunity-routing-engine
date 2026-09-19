@@ -82,7 +82,7 @@ WORLD SENSING
 → COMPLEMENTARY WORLD-NODE SEARCH
 → CONNECTION-PRESSURE EVIDENCE
 → PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
-→ OBSERVED MISSING EDGE / STRANDING BARRIER BETWEEN NODES
+→ OBSERVED MISSING EDGE BETWEEN NODES
 → LATENT CONNECTION HYPOTHESIS
 → CONTRADICTION SEARCH
 → ONLY THEN: COUNTERFACTUAL EXCHANGE MECHANICS
@@ -126,6 +126,7 @@ Surface Phenomenon != Structural Friction
 Surface Friction != Opportunity
 Stated Need != Latent Outcome
 Latent Outcome Hypothesis != Evidenced Latent Outcome
+One Latent Outcome Story != Evidenced Outcome Selection
 Observed Cost != Root Cause
 One Plausible Explanation != Structural Truth
 Deeper Story != Deeper Truth
@@ -152,6 +153,7 @@ resource is spare != provider will supply it
 DISCOVERED != OPTIONED
 Complementarity != Transactionability
 Counterfactual Exchange != Accepted Exchange
+Legacy STRANDING_BARRIER == Compatibility Alias for Canonical MISSING_EDGE
 UNKNOWN != PASS
 ```
 
@@ -1050,3 +1052,5 @@ Code must remain downstream of cognition and architecture. A technically elegant
 ## 21. Governing truth — LOCKED
 
 > **不是需求先存在，我们再去满足；可能是构成价值的条件先存在，而商业结构尚未形成。先观察现实世界中的 Actor 客观拥有什么、状态发生了什么变化、如何感受这种变化、动机和真实行为怎样偏移，以及“客观拥有”与“实际利用”之间出现了什么 Resource–Psychology Disequilibrium；再从这些证据推导尚未成形的 outcome，寻找世界另一处真实存在的互补节点。但互补不是连接，漂亮的 Counterfactual Exchange 也不是连接证据。系统必须继续寻找共同变化、重复绕行、替代行为、局部交换、失败尝试和真实阻塞留下的 Connection Pressure，发现现实正在形成但尚未显现的连接。只有这些痕迹收敛以后，才设计最小交换机制，并把人的时间、信誉与现场行动用于最后一个关键未知量。推导 ≠ 事实，心理 ≠ 需求，连接假设 ≠ 连接证据，需求 ≠ 付费，付费意愿 ≠ 成交。Need / Resource / Blocker 是下游交易真实性闸门，不是系统的起点。发现可以大胆，晋级必须保守；代码永远服务于认知与架构。**
+
+A causal record may promote only when persisted selection evidence binds to the evidence packet, recursive parent/depth lineage is internally consistent, and an `INTERVENTION_RELEVANT_BOUNDARY` is decision-stable. Narrative rationale without these executable checks is insufficient.
