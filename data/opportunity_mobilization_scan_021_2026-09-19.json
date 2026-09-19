@@ -1,0 +1,109 @@
+{
+  "scan_id": "OPPORTUNITY_MOBILIZATION_SCAN_021",
+  "date": "2026-09-19",
+  "title": "Recurring responsibility + replaceable execution kill sweep",
+  "purpose": "Search Xuzhou/Jiangsu private markets where the same bounded outcome recurs, the coordinator remains valuable, but execution nodes frequently need substitution due availability, geography or acceptance failure. Retain only if replacement friction remains after current platforms/aggregators/framework routes are considered.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "scan_rule": [
+    "REPLACEABLE EXECUTION != WHITESPACE",
+    "If replacement is frequent and valuable, the market often creates a platform, aggregator or framework supplier.",
+    "A coordinator can be durable only if replacement history/acceptance remains post-incumbent.",
+    "Do not reopen mature labor, home-service, freight, equipment-rental, calibration/testing or prime-contractor categories."
+  ],
+  "patterns_tested": [
+    {
+      "pattern": "engineering-equipment rental / substitute machine dispatch",
+      "desired_structure": "same project outcome, individual equipment/driver availability changes, coordinator finds substitute",
+      "incumbent_evidence": [
+        "机械星球 already provides nearby equipment search, merchant qualification, device status, dispatch-to-site, fulfillment tracking and after-sales.",
+        "Its merchant tools expose device status/location, scheduling, contracts, reconciliation and driver fulfillment.",
+        "找重工 already sells broad short/long-term equipment categories with nearby dispatch, fast ordering, settlement and insurance/finance/parts support."
+      ],
+      "judgment": "CLOSED_MATURE_REPLACEMENT_CONTROL_PLANE",
+      "sources": [
+        "https://www.jxxqtech.com/about",
+        "https://www.jxxqtech.com/download",
+        "https://www.zhaozhonggong.com/",
+        "https://www.zhaozhonggong.com/machineowner-join.html"
+      ]
+    },
+    {
+      "pattern": "multi-laboratory testing/calibration coordination",
+      "desired_structure": "customer has recurring heterogeneous test/calibration needs; actual lab must change by scope/location/qualification; coordinator remains responsible",
+      "local_xuzhou_evidence": [
+        "徐州中准检测认证有限公司 explicitly states that individual laboratories have limited scopes and that it maintains long-term cooperation with multiple third-party labs and city metrology institutes.",
+        "It markets one-stop resolution of multiple testing needs, group-buy pricing, on-site testing and pickup/delivery to avoid customers repeatedly searching and transporting instruments."
+      ],
+      "meaning": "This is almost exactly the desired Rooter structure: one accountable coordinator, replaceable specialized execution nodes, aggregation economics and logistics.",
+      "judgment": "PATTERN_PROVEN_BUT_LOCAL_INCUMBENT_ALREADY_EXISTS",
+      "sources": [
+        "https://www.0516jiance.com/",
+        "https://www.0516jiance.com/guanyuwomen.html"
+      ]
+    },
+    {
+      "pattern": "small third-party acceptance / on-site inspection",
+      "desired_structure": "buyer repeatedly needs bounded acceptance but field inspector can vary",
+      "incumbent_evidence": [
+        "Third-party quality/inspection services are already sold across Jiangsu with recurring field coverage.",
+        "Current Jiangsu procurement allows professional third-party quality/acceptance services at relatively small project values as well as large ones.",
+        "Commercial inspection firms provide broad product/category and geographic coverage."
+      ],
+      "judgment": "CLOSED_EXISTING_TIC_ROUTE",
+      "sources": [
+        "https://www.bidcenter.com.cn/hotlist-1-32-b6bc35210464a89fbb84d70021e7673f.html",
+        "https://www.csjcs.com/news/shangxun/qiye/amlhbmdzdS1qeGxxamN5eGdz"
+      ]
+    },
+    {
+      "pattern": "short-duration specialist manufacturing diagnosis",
+      "desired_structure": "factory needs an expert briefly; expert identity can vary; coordinator guarantees outcome/replacement",
+      "counterevidence": [
+        "江苏省“人工智能+制造” already builds vetted diagnostic-service-provider pools and routes online/offline diagnosis through institutional platforms.",
+        "Industrial fault/RCA and condition-monitoring services were already closed in Scan 015 because mature specialist providers exist.",
+        "No named Xuzhou private buyer was found repeatedly paying a neutral coordinator to replace unavailable experts after these routes."
+      ],
+      "judgment": "NO_POST_INCUMBENT_RESIDUAL_BOUND",
+      "sources": [
+        "https://gxt.jiangsu.gov.cn/art/2026/4/14/art_6300_11757312.html",
+        "https://www.ewe.cn/newsinfo-5695.html"
+      ]
+    },
+    {
+      "pattern": "home/consumer service replacement guarantee",
+      "desired_structure": "platform replaces worker when unavailable/poor quality",
+      "counterevidence": [
+        "This replacement/quality/after-sales function is already a defining feature of mature home-service platforms.",
+        "The category is labor-heavy and already outside the preferred Rooter search space."
+      ],
+      "judgment": "CLOSED_MATURE_PLATFORM_AND_USER_FIT"
+    },
+    {
+      "pattern": "large recurring facility/maintenance replacement",
+      "desired_structure": "buyer needs continuous outcome and supplier must replace personnel/equipment when absent",
+      "counterevidence": [
+        "Large buyers solve this through multi-year framework/outsourced maintenance contracts or prime service providers.",
+        "The accountable contractor already owns staff substitution, emergency response and final service continuity."
+      ],
+      "judgment": "CLOSED_FRAMEWORK_PRIME_CONTRACTOR_ROUTE"
+    }
+  ],
+  "cross_industry_result": {
+    "retained_candidates": [],
+    "retained_count": 0,
+    "new_p0_promotions": 0,
+    "human_action_required_now": false,
+    "material_learning": [
+      "Recurring responsibility plus replaceable execution is a valid Rooter shape, but it is especially likely to produce an incumbent aggregator/platform.",
+      "Xuzhou testing/calibration provides a direct local proof: a coordinator explicitly aggregates multiple specialized labs, pickup/delivery and volume pricing.",
+      "Equipment-rental platforms prove the same pattern through live availability, dispatch, fulfillment and substitute capacity.",
+      "The next search should move one level down: cases where mature responsibility aggregators exist only for large/high-value orders, while small transactions are still forced into self-service/manual workarounds because fixed coordination/inspection/dispatch cost is too high."
+    ],
+    "current_best_next_truth": "Fresh Scan 022 should test minimum-service-unit mismatch inside responsibility functions themselves. Search for small Xuzhou/Jiangsu buyers whose transaction is too small for professional inspection, one-stop testing, managed inventory, dispatch or acceptance services, causing them to self-inspect, self-transport, self-coordinate or accept uninsured risk. Require a named recent small transaction and measurable workaround cost before retaining anything."
+  },
+  "first_external_value_flow": "NOT_PROVEN"
+}
