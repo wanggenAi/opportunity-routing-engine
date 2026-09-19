@@ -4,40 +4,36 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-The 2026-09-19 clean-slate commercial reset is complete.
+`ATTRACTION_SCAN_001` is complete.
 
-Start the first commercial scan of the new Attraction Field epoch from zero. Pre-reset cases have no active commercial meaning.
+Continue the first clean-slate formation that survived broad-reality sensing:
+
+`ATTRACTION_SCAN_001-F1 — TRUSTED SMALL-BATCH CHINA SOURCING PROOF LAYER`.
+
+Do not promote it yet.
 
 ## Goal
 
-Run `ATTRACTION_SCAN_001` from broad current reality and retain only independently evidenced formations that survive structural truth, connection-pressure, three-sided Attraction Field and Drift Audit.
+Run causal descent and incumbent-resolution analysis until the system can answer whether a narrow, independently routable proof-to-commit edge actually remains for small/medium overseas buyers sourcing from China.
 
 ## Current Unique Commercial Research Goal
 
-Discover a new high-attraction value field where:
-- Actor A has an evidence-backed reason to move now;
-- Actor B has an evidence-backed reason to move now;
-- the connection creates a large, legible state-dependent value jump;
-- the missing edge is narrow enough to route;
-- activation friction is bounded relative to surplus;
-- the operator strongly wants to own the bridge;
-- the operator is not recurring search/sales/delivery labor;
-- successful routing can compound into trust, data, access, coverage or lower future routing cost.
+Determine whether the observed bilateral motion:
 
-No inherited vertical, geography, asset class, candidate, score, parent or watchlist may constrain the search.
+`FLEXIBLE CHINA SME SUPPLY ↔ OVERSEAS SMB BUYER PURCHASE INTENT`
+
+is blocked by a **narrow, repeated, economically routable trust / verification / acceptance edge**, rather than merely by work that existing sourcing agents, marketplaces and inspection firms already solve.
 
 ## Active Commercial Epoch
 
 `ATTRACTION_FIELD_V1`
-
-Machine-readable authority:
-- `data/commercial_reset_state.json`
 
 Portfolio:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - ACTIVE TRANSACTION UNITS = 0
 - ACTIVE PARENT FORMATIONS = 0
 - INHERITED WATCHLIST = 0
+- RETAINED RESEARCH FORMATIONS = 1
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
 Historical-case policy:
@@ -50,104 +46,118 @@ Historical-case policy:
 
 ## Current Phase
 
-CLEAN_SLATE_RESET_MERGED / OLD_ISSUES_CLOSED / ATTRACTION_SCAN_001_READY
+`ATTRACTION_SCAN_001_COMPLETE / F1_CAUSAL_DESCENT_REQUIRED`
 
 ## Last Verified Main
 
-Functional main: `e31ef6cbf3069fd7435982bf59ef3270c877ac6a` — PR #262 squash-merged.
+Live main before this branch: `3148be7c2b6969b9655e45b3dae4da7819a547a6`.
 
-PR #262 head: `5d06a7664b8699be93d445220ed2b8818a322df6`.
+Functional reset main: `e31ef6cbf3069fd7435982bf59ef3270c877ac6a` — PR #262.
 
-PR CI #797 / run `35438821048`: success, 688 tests.
-
-A later state-only `[skip ci]` commit may advance live main without changing functional truth.
+PR #262 CI #797 / run `35438821048`: success, 688 tests.
 
 ## Active Issue
 
 #143 — `P0: Clean-slate Attraction Field → first external value flow`.
 
-All pre-reset candidate/cycle/build issues were closed as superseded by the reset:
-#10, #11, #54, #56, #58, #59, #60, #71, #77.
-
 ## Active Branch
 
-None.
+`feature/attraction-scan-001`
 
 ## Active PR
 
-None. PR #262 is merged.
+Not opened yet at this checkpoint.
 
 ## CI
 
-- PR #262 reset head: `5d06a7664b8699be93d445220ed2b8818a322df6`
-- PR CI #797 / run `35438821048`: success
-- merge SHA: `e31ef6cbf3069fd7435982bf59ef3270c877ac6a`
+Pending for `feature/attraction-scan-001`.
+
+No production code or doctrine changes are intended in this scan checkpoint; this branch persists current empirical research state and recovery state.
 
 ## Latest Artifact / Persisted State
 
-- `data/commercial_reset_state.json` — empty active candidate state and epoch authority.
-- `data/research_missions/attraction_field_broad_reality.json` — clean-slate broad-reality mission.
-- `field/README.md` — field reset boundary.
-- `docs/research/README.md` — research reset boundary.
-- `docs/OPPORTUNITY_ATTRACTION_FIELD.md` — three-sided attraction + anti-drift doctrine.
-- `docs/ROUTABLE_WORLD_NODES.md` — case-neutral heterogeneous world-node model.
+- `docs/research/ATTRACTION_SCAN_001_2026-09-19.md` — full broad-reality scan, Attraction Brief and Drift Audit.
+- `data/research_runs/attraction_scan_001.json` — machine-readable scan state.
+- `data/commercial_reset_state.json` — active epoch authority; zero commercial candidates; one retained research formation.
+- `data/research_missions/attraction_field_broad_reality.json` — broad-reality mission.
+- `docs/OPPORTUNITY_ATTRACTION_FIELD.md` — three-sided attraction doctrine.
 
 ## Completed
 
-- Removed 279 pre-reset commercial-case artifacts / case workflows / case-only fixtures from the active tree.
-- Removed historical candidates, transaction units, parents and watchlists from active state.
-- Decoupled generic tests from historical commercial fixtures using clean-slate/synthetic fixtures.
-- Preserved reusable sensing, evidence, causal, connection, capability, orchestration and recovery infrastructure.
-- Merged reset PR #262.
-- Closed all obsolete open case/cycle/build issues.
-- Rewrote #143 for the new epoch.
+- Ran the first post-reset broad-reality scan without restoring historical cases.
+- Inspected household/care, scarce consumer access, community space, pet care, SME AI adoption and cross-border sourcing/trust evidence.
+- Kept promotion fail-closed.
+- Promoted zero commercial candidates.
+- Retained exactly one research formation for causal descent: `ATTRACTION_SCAN_001-F1`.
+- Recorded A-side attraction, B-side attraction, operator attraction, non-labor test, activation friction, self-propulsion and Drift Audit.
+- Persisted current source set and decisive unknowns.
 
 ## Current Findings
 
-- The prior repository allowed historical commercial cases to survive through artifacts, tests, workflows and Issues even after candidates were demoted.
-- That inheritance path is now cut: `GIT HISTORY != CANDIDATE POOL`.
-- The research control plane now has a broad, case-neutral Attraction Field mission rather than a candidate-derived mission.
-- No old case needs to be restored for the engine to remain testable.
-- A historically similar structure may reappear only through independent current evidence and receives a new identity.
+### Evidence that survives
+
+A-side:
+- current Jiangsu SMEs are accepting smaller, higher-frequency export orders;
+- at least one current China supplier explicitly reports overseas trust/counterfeit concerns as a sales barrier and offers independent lab verification.
+
+B-side:
+- current overseas buyers repeatedly seek trustworthy China sourcing, supplier verification, factory checks, samples, QC, transparent commissions and pre-shipment inspection;
+- QIMA 2026 data shows rising inspection demand in China from emerging-market buyers and materially higher AQL failure rates for those buyers.
+
+Structural hypothesis:
+- the buyer's real need may be a bounded proof-to-commit chain, not merely supplier discovery;
+- seller capability can remain commercially stranded when buyer trust is insufficient.
+
+### What is still unknown
+
+- whether existing agents / marketplaces / inspection firms already solve this exact buyer state;
+- whether the missing edge is supplier identity, order-specific proof, sample acceptance or pre-shipment acceptance;
+- whether evidence can be standardized enough to avoid bespoke founder work;
+- whether small-order economics support independent verification;
+- whether repeat outcomes create reusable trust data.
+
+Therefore:
+
+`ATTRACTION_SCAN_001-F1 != COMMERCIAL CANDIDATE`.
 
 ## Blockers
 
-No reset blocker remains.
+The only blocker is empirical / causal:
 
-The only blocker is empirical: no newly discovered formation has yet survived the new doctrine.
+`OBSERVED MISSING EDGE = NOT YET PROVEN`.
+
+Do not treat bilateral interest as proof that a new orchestration layer is needed.
 
 ## Next Action
 
-Run `ATTRACTION_SCAN_001` now.
+Run causal descent on `ATTRACTION_SCAN_001-F1`.
 
-Required:
-1. start from broad current reality;
-2. deliberately inspect multiple forms of human, household, consumer, SME, enterprise, city, cross-border, technology/AI, relationship/trust, time/access/capacity, institutional and physical-resource change as evidence warrants;
-3. no fixed quota and no fabricated breadth;
-4. no inherited industrial/Xuzhou/stranded-unit recursion;
-5. search behavior/workarounds/partial flows before designing exchange;
-6. require structural friction + connection pressure + observed missing edge;
-7. include A-side attraction evidence;
-8. include B-side attraction evidence;
-9. record operator attraction separately;
-10. include activation friction, non-labor test and self-propulsion;
-11. include a Drift Audit;
-12. do not auto-kill because an incumbent exists;
-13. fail closed.
+Required sequence:
 
-No product design, pricing, recruitment or outreach.
+1. map the buyer's actual decision path from product need to payment;
+2. map the supplier's path from capability to trusted order;
+3. identify every actor already performing discovery, verification, inspection, lab testing, sample handling, payment protection and logistics;
+4. separate `SUPPLIER DISCOVERY` from `SUPPLIER PROOF` from `ORDER ACCEPTANCE`;
+5. determine where buyers still perform repeated manual workaround despite incumbents;
+6. determine which evidence/proof units can be standardized and reused;
+7. test whether a narrow missing edge remains after incumbent capabilities are fully credited;
+8. test non-labor economics conceptually before any external contact;
+9. fail closed if the route collapses into generic sourcing-agent labor;
+10. only after the causal edge is evidenced, define the cheapest decisive reality confirmation.
+
+No product design, pricing, recruitment or outreach yet.
 
 ## Do Not Repeat
 
 - Do not restore deleted historical cases from Git history.
-- Do not resume old Scan numbering.
-- Do not treat closed historical Issues as fallback routes.
-- Do not default to Xuzhou, industrial B2B, inventory, equipment, experts or public procurement.
-- Do not use old scores, old retentions or old demotions as priors.
-- Do not confuse source availability with opportunity importance.
-- Do not confuse a clever connection with participant attraction.
-- Do not use founder excitement as demand evidence.
-- Do not make the operator recurring search/sales/delivery labor.
+- Do not treat F1 as a commercial candidate merely because both sides show motion.
+- Do not jump directly to “做采购代理 / sourcing agent”.
+- Do not make the operator personally source, negotiate, inspect, visit factories, chase samples or ship every order.
+- Do not assume Alibaba / sourcing agents / QIMA solve the flow; verify the exact residual state.
+- Do not assume incumbents fail merely because buyers still complain; locate the precise unresolved edge.
+- Do not use Reddit as a population estimate.
+- Do not design software before the missing edge is proven.
+- Do not begin outreach yet.
 
 ## Guardrails
 
@@ -160,6 +170,8 @@ No product design, pricing, recruitment or outreach.
 - EXISTING ACTOR != FLOW SOLVED.
 - INCUMBENT PRESENCE != AUTOMATIC KILL.
 - FOUNDER EXCITEMENT != PARTICIPANT PULL.
+- BILATERAL MOTION != MISSING EDGE.
+- TRUST FRICTION != NEW BUSINESS BY DEFAULT.
 - ATTRACTION != VALIDATION.
 - FOUNDER AS PERMANENT HUMAN SEARCH ENGINE = FAIL.
 - UNKNOWN != PASS.
