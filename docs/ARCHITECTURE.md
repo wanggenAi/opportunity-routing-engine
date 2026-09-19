@@ -198,6 +198,8 @@ DEEPER STORY != DEEPER TRUTH
 
 Psychology is optional evidence inside this causal model, not a universal prerequisite.
 
+The causal record is persisted as structured lineage, not as a foreign-key-shaped claim with no inspectable body. Its evidence references must resolve against the formation/candidate evidence packet. Human-readable causal summary fields are denormalized projections and may not override the structured record.
+
 ### `StructuralFrictionHypothesis`
 A falsifiable causal claim about the underlying structure that prevents an Actor from reaching a product-agnostic latent desired state.
 
