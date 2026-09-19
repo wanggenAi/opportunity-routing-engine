@@ -47,6 +47,7 @@ from src.causal_descent import (
     CausalDescentRecord,
     CausalDescentState,
     causal_descent_state,
+    unbound_causal_evidence_refs,
     validate_causal_descent_for_promotion,
     validate_causal_projection,
 )
@@ -369,6 +370,16 @@ def validate_formation(
             structural_friction_hypothesis=hypothesis.structural_friction_hypothesis,
         ):
             errors.append(f"causal_descent:{projection_error}")
+        available_evidence_refs = {
+            item.source_id
+            for item in hypothesis.evidence
+            if item.is_usable()
+        }
+        for ref in unbound_causal_evidence_refs(
+            hypothesis.causal_descent,
+            available_evidence_refs,
+        ):
+            errors.append(f"causal_descent:unbound_evidence_ref:{ref}")
 
     if any(
         not isinstance(value, str) or not value.strip()
@@ -449,6 +460,14 @@ def formation_state(hypothesis: LatentValueFormationHypothesis) -> FormationStat
             surface_phenomenon=hypothesis.surface_phenomenon_or_friction,
             latent_outcome_hypothesis=hypothesis.latent_outcome_hypothesis,
             structural_friction_hypothesis=hypothesis.structural_friction_hypothesis,
+        )
+        and not unbound_causal_evidence_refs(
+            hypothesis.causal_descent,
+            {
+                item.source_id
+                for item in hypothesis.evidence
+                if item.is_usable()
+            },
         )
     ):
         return FormationState.STRUCTURAL_FRICTION_HYPOTHESIS
@@ -624,6 +643,7 @@ GOVERNING_INVARIANTS = (
     "PSYCHOLOGY_SIGNAL_NE_DEMAND",
     "PSYCHOLOGY_EVIDENCE_NE_UNIVERSAL_FORMATION_GATE",
     "OBJECTIVE_CAUSAL_EVIDENCE_MAY_FORM_STRUCTURE_WITHOUT_PSYCHOLOGY",
+    "CAUSAL_EVIDENCE_REF_MUST_BIND_TO_FORMATION_EVIDENCE",
     "MOTIVE_HYPOTHESIS_NE_WILLINGNESS_TO_PAY",
     "BEHAVIOR_SIGNAL_NE_TRANSACTION",
     "SURFACE_FRICTION_NE_STRUCTURAL_FRICTION",
