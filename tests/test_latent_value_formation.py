@@ -324,6 +324,34 @@ class LatentValueFormationTests(unittest.TestCase):
             FormationState.STRUCTURAL_FRICTION_HYPOTHESIS,
         )
 
+    def test_causal_refs_must_bind_to_formation_evidence(self):
+        causal = self._causal_descent()
+        broken_constraint = StructuralConstraintHypothesis(
+            **{
+                **causal.constraint_hypotheses[0].__dict__,
+                "support_refs": ("source:not-in-formation-evidence",),
+            }
+        )
+        causal = CausalDescentRecord(
+            **{
+                **causal.__dict__,
+                "constraint_hypotheses": (
+                    broken_constraint,
+                    causal.constraint_hypotheses[1],
+                ),
+            }
+        )
+        hypothesis = self._hypothesis(causal_descent=causal)
+        errors = validate_formation(hypothesis)
+        self.assertIn(
+            "causal_descent:unbound_evidence_ref:source:not-in-formation-evidence",
+            errors,
+        )
+        self.assertEqual(
+            formation_state(hypothesis),
+            FormationState.STRUCTURAL_FRICTION_HYPOTHESIS,
+        )
+
     def test_missing_structural_friction_evidence_cannot_promote(self):
         hypothesis = self._hypothesis(
             evidence=tuple(
