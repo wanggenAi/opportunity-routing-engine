@@ -61,28 +61,29 @@ Kill the broad formation if high-value density remains concentrated only in alre
 Do not choose a product.
 
 ## Current Phase
-`FORMATION_SCAN_011_ACTIVE / VALUE_DENSITY_HETEROGENEOUS / BLANKET_DISCOVERY_WEAKENED / SELECTIVE_ACTIVATION_AUDIT_NEXT`
+`FORMATION_SCAN_011_MERGED / MAIN_GREEN / VALUE_DENSITY_HETEROGENEOUS / BLANKET_DISCOVERY_WEAKENED / SELECTIVE_ACTIVATION_AUDIT_NEXT`
 
 ## Last Verified Main
-`6131cb30c034ba465d5a8636031836135b433702` — PR #250 squash-merged. Main CI run #763 (run id `35427537682`) passed on this exact functional SHA. Live main later advanced with state-only checkpoint `4498a25b8587345d370bab74178b470d94fcc4dd`.
-
-The current Scan 011 work is on an unmerged feature branch and must pass PR CI before becoming functional main truth.
+`580ac6a0bf54b73e7cefb47bb139f0f78c50f110` — PR #251 squash-merged. Main CI run #765 (run id `35427758716`) passed on this exact functional SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Scan 009 was synced in comment id `5739981405`. Scan 010 was synced in comment id `5740026636`.
+Scan 009 was synced in comment id `5739981405`. Scan 010 was synced in comment id `5740026636`. Scan 011 was synced in comment id `5740047510`.
 
 No outreach is authorized. Current work remains upstream formation research.
 
 ## Active Branch
-`feature/value-density-scan-011`
+None. `feature/value-density-scan-011` is merged and is not an active source of truth.
 
 ## Active PR
-None yet.
+None. PR #251 (`Audit value density and discovery economics of latent older-adult assets`) is merged.
 
 ## CI
-No CI has run yet on Scan 011.
+- PR #251 final head: `526d7169e6f8f8f589510f3366b187814c6ce1be`
+- PR CI: run #764, success
+- merge SHA: `580ac6a0bf54b73e7cefb47bb139f0f78c50f110`
+- main CI: run #765, run id `35427758716`, success
 
 ## Latest Artifact / Persisted State
 Current:
