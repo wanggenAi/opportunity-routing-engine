@@ -9,73 +9,73 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 Prove a real external commitment -> delivery -> acceptance -> settlement flow, or decisively falsify candidates without repeating completed work.
 
 ## Current Unique Commercial Research Goal
-Fresh Scan 017 is merged with zero retained candidates. Fresh Scan 018 is active and tests platform-bypass persistence: why actors with mature platforms available still move to WeChat/direct/off-platform deals. Retain only if the bypass is caused by a repeated unresolved transaction friction—urgency, micro-unit economics, live availability, unusual acceptance or replacement—not simply commission avoidance, private repeat relationships or evasion of platform controls.
+Fresh Scan 018 is complete with zero retained candidates. Current platform-bypass evidence is dominated by commission avoidance, direct-repeat relationship ownership or deliberate disintermediation rather than unresolved platform capability. After merge, Fresh Scan 019 should invert the search: find markets where buyer and supplier already know each other but still voluntarily keep paying a middle layer on repeated transactions. Persistent payment after direct contact is evidence of non-bypassable control-plane value. Then look for a smaller Xuzhou/Jiangsu market where the same function exists informally but is not yet maturely productized.
 
 ## Current Phase
-`SCAN_017_MERGED / RETAINED_ZERO / FRESH_SCAN_018_ACTIVE`
+`SCAN_018_NEGATIVE_COMPLETE / RETAINED_ZERO / SCAN_019_NEXT`
 
 ## Last Verified Main
-`5da6f7b7e7d40d6b05979209931774b22435267e` — PR #220 Scan 017 merged after CI #616 passed. This file is a state-only checkpoint written after that verified main and therefore advances `main` by one metadata commit.
+`858dc5a230cff9effd2da9fe29cf6b376fd2a3fc` — state-only Scan 018 start checkpoint on main before this branch was populated. Current branch has not yet merged.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
 ## Active Branch
-None.
+`field/opportunity-mobilization-scan-018`
 
 ## Active PR
-None. PR #220 — `Persist opportunity mobilization scan 017` — merged.
+Not yet opened at this checkpoint.
 
 ## CI
-- PR #220 head `2be364abed77308e68f6df30a094b11b8f326dc4`
-- Actions run #616, run id `35407697416`
-- workflow `ci`: success
-- merge SHA: `5da6f7b7e7d40d6b05979209931774b22435267e`
-- run #616 emitted no separate GitHub Actions artifact
+- Last verified business CI: PR #220 Actions #616, success.
+- Current Scan 018 branch CI: pending until PR is opened.
+- No workflow artifact is claimed unless GitHub actually emits one.
 
 ## Latest Artifact / Persisted State
-- `data/opportunity_mobilization_scan_017_2026-09-19.json`
-- `field/opportunity-mobilization-scan-017.md`
-- Issue #143 synced through Scan 017
-- workflow artifact: none for CI #616
+- Branch artifact: `data/opportunity_mobilization_scan_018_2026-09-19.json`
+- Branch field note: `field/opportunity-mobilization-scan-018.md`
+- Prior merged evidence: `data/opportunity_mobilization_scan_017_2026-09-19.json`
+- Workflow artifact: none currently claimed.
 
 ## Completed
 - Prior closed/deprioritized candidates remain unchanged.
-- Scans 009–017 all completed with zero retained candidates.
+- Scans 009–017 completed with zero retained candidates.
+- Scan 018 tested why actors deliberately bypass mature platforms.
+- Freight off-platform behavior was directly bound to a stated fee-saving rationale and materially higher risk outside platform protection.
+- Current service-retail rules explicitly govern “flying orders,” proving bypass is real but not proving a platform-function gap.
+- Restaurant/private-domain software explicitly sells platform-customer migration as a commission/promotion-cost reduction and customer-ownership strategy.
+- Appliance-repair evidence shows high platform take can distort technician behavior, but the market already includes zero-/low-commission alternatives and guaranteed platforms.
+- Machining markets already include zero-commission demand publishing/matching plus direct buyer-factory contact.
+- No current case was bound where users bypass a low-/zero-commission platform because of a specific unresolved micro-unit, live-availability, acceptance or replacement defect.
+- `RETAINED_CANDIDATES = 0`.
 - No founder probe released.
 - External truth remains `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 - Two prior external probes still have zero qualified responses.
-- Fresh Scan 018 started.
-- Current bypass evidence:
-  - mature platforms explicitly maintain anti-flying-order rules because merchants/users sometimes move payment off-platform;
-  - a 2026 freight case records a driver proposing WeChat/off-platform settlement under the stated rationale of saving platform fees; the off-platform move reduced platform protection and exposed the shipper to serious risk;
-  - restaurant/private-domain tools explicitly market migration of platform customers to WeChat/self-operated ordering to reduce platform commission and promotion fees;
-  - home-service markets already contain both guaranteed/escrow platforms and zero-/low-commission alternatives.
 
 ## Current Findings
 - `PLATFORM BYPASS != PLATFORM CAPABILITY GAP`.
-- Off-platform migration can be a deliberate economic choice to avoid fees or preserve direct repeat relationships.
-- The presence of escrow/trust/monitoring on-platform does not prevent actors from leaving if they value fee avoidance more highly.
-- A Rooter model that depends on transaction commission is structurally weak where the dominant bypass motive is fee avoidance.
-- Off-platform risk events can actually strengthen the value of incumbent platform protection rather than create a new neutral router.
+- `FEE AVOIDANCE != ROOTER OPPORTUNITY`.
+- Direct-repeat relationships are structurally hostile to a transaction-commission intermediary unless the middle layer owns recurring value that cannot be removed.
+- Off-platform fraud/risk can strengthen incumbent platform protection rather than justify another neutral router.
+- Low/no-commission alternatives already exist in several tested markets.
 
 ## Blockers
-- No current bypass pattern is yet bound to an unresolved friction that current low-/zero-commission or guaranteed platforms cannot already address.
-- No candidate combines bilateral pull, deliberate platform bypass for non-fee reasons, narrow post-incumbent missing edge, clear money flow and non-bypassable Rooter value.
+- No bypass pattern is bound to a non-fee residual that current mature platforms cannot already handle.
+- No candidate combines bilateral pull, repeated unresolved transaction friction, non-bypassable Rooter value, high reachability, low permission, clear money flow and operator exit.
 - `FIRST_EXTERNAL_VALUE_FLOW` remains unproven.
 
 ## Next Action
-Continue Fresh Scan 018 only. Search for cases where actors bypass mature platforms even when fee/commission pressure is low or zero, and bind the actual reason. Retain only if the reason is a repeated service-unit/availability/acceptance/replacement failure that persists across current platforms. If bypass is mainly fee avoidance/direct repeat, close the pattern and move on.
+After Scan 018 merges, start Fresh Scan 019. Search current markets where buyer and supplier already know each other yet repeatedly continue paying a middle layer. Identify the durable function being purchased—availability, replacement, liability, acceptance, financing, compliance, aggregation, settlement or geographic coverage. Then search for a smaller Xuzhou/Jiangsu analogue where that same function is informally performed and not already owned by a mature incumbent.
 
 ## Do Not Repeat
-- Do not treat platform flying orders or private-domain migration as opportunity by default.
-- Do not treat off-platform risk as evidence that another intermediary is needed when the incumbent already provides protection.
-- Do not reopen home-service, freight, restaurant, machining or other previously closed generic routes without a new non-fee residual.
+- Do not promote platform bypass, flying orders or private-domain migration by default.
+- Do not build a cheaper intermediary where users' objective is to eliminate intermediaries.
+- Do not reopen freight, restaurant, home-service, machining or prior closed generic routes without a new non-fee residual.
 - Do not use founder outreach as the discovery sensor.
 - Do not build ontology/scoring/agent architecture.
 
 ## Guardrails
 - Preserve the locked Actor-First / Reachability / Mobilization doctrine.
 - `COMPLEMENTARITY != LATENT CONNECTION`; `UNKNOWN != PASS`.
-- Founder remains routing control plane, not platform evasion layer, payment middleman, lead broker or delivery labor.
+- Founder remains routing control plane, not platform-evasion layer, payment middleman, lead broker or delivery labor.
 - Prefer evidence-bound falsification and the smallest decisive truth.

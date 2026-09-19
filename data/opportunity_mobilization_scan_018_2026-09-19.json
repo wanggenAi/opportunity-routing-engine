@@ -1,0 +1,119 @@
+{
+  "scan_id": "OPPORTUNITY_MOBILIZATION_SCAN_018",
+  "date": "2026-09-19",
+  "title": "Platform-bypass motive scan",
+  "purpose": "Determine why actors knowingly leave mature transaction platforms for WeChat/direct/off-platform deals. Retain only if the bypass is caused by an unresolved transaction-unit/availability/acceptance/replacement failure that a Rooter control plane can remove while retaining recurring value.",
+  "live_field_truth": {
+    "external_probes_sent": 2,
+    "qualified_external_responses": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "scan_rule": [
+    "PLATFORM BYPASS != PLATFORM CAPABILITY GAP",
+    "FEE AVOIDANCE != ROOTER OPPORTUNITY",
+    "DIRECT REPEAT RELATIONSHIP != DEMAND FOR A HEAVIER INTERMEDIARY",
+    "Off-platform risk can strengthen incumbent platform protection rather than create a new routing layer.",
+    "A candidate requires evidence that users bypass because the platform transaction unit itself fails even when fee pressure is low."
+  ],
+  "patterns_tested": [
+    {
+      "pattern": "freight-platform off-platform contact/payment",
+      "observed_behavior": [
+        "A 2026 freight case records a driver proposing WeChat/off-platform settlement to a shipper under the stated rationale of easier detail coordination and saving platform fees.",
+        "The shipper accepted because both sides expected lower cost."
+      ],
+      "failure_after_bypass": [
+        "The platform service fee had already been charged at order access, so the claimed saving was misleading.",
+        "The off-platform move reduced transaction protection and became part of a serious cargo-risk event."
+      ],
+      "meaning": "Bypass was not evidence that a new router was needed; incumbent platform monitoring/protection had positive value.",
+      "judgment": "FEE_AVOIDANCE / RISK_INCREASES_OFF_PLATFORM / NO_NEW_ROUTE",
+      "sources": [
+        "https://news.sina.com.cn/c/2026-07-27/doc-inikfsve9826089.shtml",
+        "https://xxgk.mot.gov.cn/2020/xzgfxwj/202601/t20260126_4199002.html"
+      ]
+    },
+    {
+      "pattern": "service-retail merchant flying orders",
+      "observed_behavior": "Current platform rules explicitly define and govern merchants inducing users to cancel/avoid platform transactions and pay by cash, Alipay, WeChat or other off-platform channels.",
+      "meaning": "Flying orders are sufficiently common to require formal anti-bypass rules, but the rule itself does not show platform incapability.",
+      "judgment": "BYPASS_REAL / MOTIVE_NOT_A_NEW_GAP",
+      "sources": [
+        "https://rules-center.meituan.com/m/detail/guize/1173?activeRule=1",
+        "https://rules-center.meituan.com/m/detail/guize/416017"
+      ]
+    },
+    {
+      "pattern": "restaurant/private-domain migration",
+      "observed_behavior": "Current private-domain software explicitly markets moving platform food-delivery customers into WeChat/self-operated ordering.",
+      "stated_motive": [
+        "reduce platform commission and promotion cost",
+        "retain repeat customers in owned private-domain channels",
+        "run membership/recharge/coupon operations directly"
+      ],
+      "meaning": "The bypass product is itself designed around fee reduction and customer ownership, not an unsolved routing/acceptance problem.",
+      "judgment": "COMMISSION_AVOIDANCE_AND_DIRECT_REPEAT / NO_ROOTER_GAP",
+      "source": "https://www.youzan.com/chanpin/waimaiyouli"
+    },
+    {
+      "pattern": "home-service platform/off-platform work",
+      "observed_pressure": [
+        "Current reporting shows some maintenance platforms can impose very high effective platform shares in certain service categories.",
+        "High platform take can compress technician income and contribute to off-platform add-on pricing or independent work."
+      ],
+      "counterevidence": [
+        "The market already contains multiple guaranteed/escrow platforms.",
+        "The market also contains zero- or low-commission alternatives, including platforms that explicitly advertise no commission or current technician commission exemption.",
+        "Therefore high commission is a competitive platform-pricing problem, not a missing Rooter function."
+      ],
+      "judgment": "PLATFORM_PRICING_COMPETITION / NO_DISTINCT_ROUTE",
+      "sources": [
+        "https://www.bbtnews.com.cn/2026/0402/589588.shtml",
+        "https://www.bbtnews.com.cn/2026/0402/589622.shtml",
+        "https://apps.apple.com/cn/app/%E6%AD%A3%E4%BA%8B%E5%A4%9A%E6%8E%A5%E5%8D%95-%E9%99%84%E8%BF%91%E5%B8%88%E5%82%85%E5%AE%89%E8%A3%85%E7%BB%B4%E4%BF%AE%E5%B9%B3%E5%8F%B0/id1143453476",
+        "https://www.jdd51.com/index/official/masterInResidence"
+      ]
+    },
+    {
+      "pattern": "machining platform/group direct contact",
+      "observed_behavior": [
+        "Machining communities and platforms can provide free/zero-commission demand publication and supplier discovery.",
+        "Current machining platforms advertise 0 transaction commission for buyers and very large factory networks."
+      ],
+      "why_it_matters": "If participants still prefer direct contact, commission avoidance alone cannot justify building another marketplace; direct relationship itself is part of the desired transaction model.",
+      "judgment": "LOW_COMMISSION_ALREADY_AVAILABLE / HIGH_BYPASS / NO_NEW_CONTROL_PLANE",
+      "sources": [
+        "https://www.xtwaixie.com/",
+        "https://www.gejigeji.cn/"
+      ]
+    },
+    {
+      "pattern": "low/no-commission home-service platforms",
+      "observed_behavior": [
+        "Some current platforms explicitly advertise technician no-commission or zero-commission models while retaining matching/order tooling.",
+        "Other mature platforms provide escrow, monitoring, warranty and dispute handling."
+      ],
+      "result": "No current evidence was bound showing users systematically leave these low/no-commission platforms because of a specific unresolved micro-unit, live-availability, acceptance or replacement defect.",
+      "judgment": "NO_NON_FEE_BYPASS_RESIDUAL_BOUND",
+      "sources": [
+        "https://www.jdd51.com/index/official/masterInResidence",
+        "https://apps.apple.com/cn/app/%E6%AD%A3%E4%BA%8B%E5%A4%9A%E6%8E%A5%E5%8D%95-%E9%99%84%E8%BF%91%E5%B8%88%E5%82%85%E5%AE%89%E8%A3%85%E7%BB%B4%E4%BF%AE%E5%B9%B3%E5%8F%B0/id1143453476",
+        "https://www.zysaz.com/"
+      ]
+    }
+  ],
+  "cross_industry_result": {
+    "retained_candidates": [],
+    "retained_count": 0,
+    "new_p0_promotions": 0,
+    "human_action_required_now": false,
+    "material_learning": [
+      "Platform bypass often expresses economic disintermediation rather than demand for a better intermediary.",
+      "Where users primarily avoid fees or preserve direct repeat relationships, transaction-commission Rooter economics are structurally weak.",
+      "Off-platform fraud/risk events can increase the value of incumbent platform protection rather than reveal a new neutral layer.",
+      "Low/no-commission alternatives already exist in several service and manufacturing markets, yet no current non-fee bypass residual was bound."
+    ],
+    "current_best_next_truth": "Fresh Scan 019 should invert the search: find current markets where buyer and supplier already know each other yet continue paying a middle layer repeatedly. Persistent voluntary payment after direct contact is evidence of non-bypassable value. Identify what the intermediary owns—availability, liability, acceptance, financing, replacement, compliance, aggregation or settlement—and search for a smaller Xuzhou/Jiangsu market where the same value exists informally but is not yet owned by a mature incumbent."
+  },
+  "first_external_value_flow": "NOT_PROVEN"
+}
