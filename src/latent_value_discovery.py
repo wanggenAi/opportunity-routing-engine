@@ -13,6 +13,12 @@ from dataclasses import dataclass, field
 from enum import Enum
 from typing import Iterable, Mapping, Sequence
 
+from src.causal_descent import (
+    CausalDescentRecord,
+    causal_descent_from_mapping,
+    validate_causal_descent_for_promotion,
+)
+
 
 class CandidateClass(str, Enum):
     """Architectural class of a discovered commercial hypothesis."""
@@ -85,6 +91,7 @@ class LatentValueCandidate:
     structural_friction_truth_state: str = "INFERRED"
     alternative_explanations: tuple[str, ...] = ()
     persistent_mismatch: str = ""
+    causal_descent: CausalDescentRecord | None = None
     causal_descent_record_id: str = ""
     causal_stop_reason: str = ""
     connection_pressure_hypothesis: str = ""
@@ -117,8 +124,6 @@ _REQUIRED_FIELDS = (
     "surface_phenomenon_or_friction",
     "latent_outcome_hypothesis",
     "structural_friction_hypothesis",
-    "causal_descent_record_id",
-    "causal_stop_reason",
     "connection_pressure_hypothesis",
     "observed_missing_edge",
     "latent_connection_hypothesis",
@@ -151,6 +156,71 @@ def missing_validation_evidence(candidate: LatentValueCandidate) -> list[Evidenc
     return sorted(missing, key=lambda item: item.value)
 
 
+def _normalized_text(value: str) -> str:
+    return " ".join(value.split()).strip().casefold()
+
+
+def _causal_projection_errors(
+    *,
+    actor: str,
+    latent_outcome_hypothesis: str,
+    structural_friction_hypothesis: str,
+    causal_descent: CausalDescentRecord | None,
+    causal_descent_record_id: str = "",
+    causal_stop_reason: str = "",
+) -> list[str]:
+    """Ensure denormalized candidate summaries cannot drift from causal lineage."""
+
+    if causal_descent is None:
+        return ["missing:causal_descent"]
+
+    errors = [
+        f"causal_descent:{error}"
+        for error in validate_causal_descent_for_promotion(causal_descent)
+    ]
+
+    if _normalized_text(causal_descent.actor) != _normalized_text(actor):
+        errors.append("causal_descent_actor_mismatch")
+
+    outcomes = {
+        item.outcome_id: item for item in causal_descent.outcome_hypotheses
+    }
+    selected = outcomes.get(causal_descent.selected_outcome_id)
+    if selected is None:
+        errors.append("causal_descent_selected_outcome_missing")
+    elif _normalized_text(selected.statement) != _normalized_text(
+        latent_outcome_hypothesis
+    ):
+        errors.append("latent_outcome_projection_mismatch")
+
+    constraints = {
+        item.constraint_id: item
+        for item in causal_descent.constraint_hypotheses
+    }
+    lead = [
+        constraints[item]
+        for item in causal_descent.lead_constraint_ids
+        if item in constraints
+    ]
+    if len(lead) == 1 and _normalized_text(lead[0].causal_claim) != _normalized_text(
+        structural_friction_hypothesis
+    ):
+        errors.append("structural_friction_projection_mismatch")
+
+    if causal_descent_record_id and causal_descent_record_id != causal_descent.record_id:
+        errors.append("causal_descent_record_id_mismatch")
+
+    expected_stop = (
+        causal_descent.stop_reason.value
+        if causal_descent.stop_reason is not None
+        else ""
+    )
+    if causal_stop_reason and causal_stop_reason != expected_stop:
+        errors.append("causal_stop_reason_mismatch")
+
+    return errors
+
+
 def validate_candidate(candidate: LatentValueCandidate) -> list[str]:
     """Return fail-closed validation errors for a core discovery candidate."""
 
@@ -176,13 +246,22 @@ def validate_candidate(candidate: LatentValueCandidate) -> list[str]:
     if candidate.structural_friction_truth_state != "EVIDENCED_STRUCTURE":
         errors.append("structural_friction_not_evidenced")
 
-    if not candidate.alternative_explanations:
-        errors.append("missing:alternative_explanations")
-    elif any(
+    if any(
         not isinstance(value, str) or not value.strip()
         for value in candidate.alternative_explanations
     ):
         errors.append("invalid:alternative_explanations")
+
+    errors.extend(
+        _causal_projection_errors(
+            actor=candidate.actor,
+            latent_outcome_hypothesis=candidate.latent_outcome_hypothesis,
+            structural_friction_hypothesis=candidate.structural_friction_hypothesis,
+            causal_descent=candidate.causal_descent,
+            causal_descent_record_id=candidate.causal_descent_record_id,
+            causal_stop_reason=candidate.causal_stop_reason,
+        )
+    )
 
     if (
         candidate.hidden_or_underrecognized_value.strip()
@@ -212,8 +291,15 @@ def discovery_state(candidate: LatentValueCandidate) -> DiscoveryState:
         and candidate.latent_outcome_hypothesis.strip()
         and candidate.structural_friction_hypothesis.strip()
         and candidate.structural_friction_truth_state == "EVIDENCED_STRUCTURE"
-        and candidate.alternative_explanations
         and EvidenceKind.STRUCTURAL_FRICTION in evidence_kinds(candidate)
+        and not _causal_projection_errors(
+            actor=candidate.actor,
+            latent_outcome_hypothesis=candidate.latent_outcome_hypothesis,
+            structural_friction_hypothesis=candidate.structural_friction_hypothesis,
+            causal_descent=candidate.causal_descent,
+            causal_descent_record_id=candidate.causal_descent_record_id,
+            causal_stop_reason=candidate.causal_stop_reason,
+        )
     ):
         return DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS
 
@@ -297,18 +383,42 @@ def validate_candidate_record(record: Mapping[str, object]) -> list[str]:
     if record.get("structural_friction_truth_state") != "EVIDENCED_STRUCTURE":
         errors.append("structural_friction_not_evidenced")
 
-    alternatives = record.get("alternative_explanations")
+    alternatives = record.get("alternative_explanations", [])
     if not isinstance(alternatives, Iterable) or isinstance(alternatives, (str, bytes)):
-        errors.append("missing:alternative_explanations")
+        errors.append("invalid:alternative_explanations")
+    elif any(
+        not isinstance(value, str) or not value.strip()
+        for value in alternatives
+    ):
+        errors.append("invalid:alternative_explanations")
+
+    causal_descent: CausalDescentRecord | None = None
+    raw_causal = record.get("causal_descent")
+    if not isinstance(raw_causal, Mapping):
+        errors.append("missing:causal_descent")
     else:
-        alternative_items = list(alternatives)
-        if not alternative_items:
-            errors.append("missing:alternative_explanations")
-        elif any(
-            not isinstance(value, str) or not value.strip()
-            for value in alternative_items
-        ):
-            errors.append("invalid:alternative_explanations")
+        try:
+            causal_descent = causal_descent_from_mapping(raw_causal)
+        except ValueError as exc:
+            errors.append(f"invalid:causal_descent:{exc}")
+
+    if causal_descent is not None:
+        errors.extend(
+            _causal_projection_errors(
+                actor=str(record.get("actor") or ""),
+                latent_outcome_hypothesis=str(
+                    record.get("latent_outcome_hypothesis") or ""
+                ),
+                structural_friction_hypothesis=str(
+                    record.get("structural_friction_hypothesis") or ""
+                ),
+                causal_descent=causal_descent,
+                causal_descent_record_id=str(
+                    record.get("causal_descent_record_id") or ""
+                ),
+                causal_stop_reason=str(record.get("causal_stop_reason") or ""),
+            )
+        )
 
     present_kinds = _record_evidence_kinds(record)
     for kind in sorted(_VALIDATION_EVIDENCE_KINDS, key=lambda item: item.value):
@@ -335,6 +445,8 @@ GOVERNING_INVARIANTS = (
     "BUYER_COST_FIRST_NE_CONSTITUTION",
     "POTENTIAL_VALUE_NE_PROVEN_VALUE",
     "COMPLEMENTARITY_NE_TRANSACTIONABILITY",
+    "CAUSAL_RECORD_ID_NE_CAUSAL_EVIDENCE",
+    "DENORMALIZED_CAUSAL_SUMMARY_MUST_MATCH_CAUSAL_LINEAGE",
     "NARRATIVE_COMPLETENESS_NE_EVIDENCE_COMPLETENESS",
     "EXPLICIT_DEMAND_EXECUTION_NE_CORE_LATENT_VALUE_DISCOVERY",
     "VALUE_DISCOVERY_PRECEDES_ORCHESTRATION",
