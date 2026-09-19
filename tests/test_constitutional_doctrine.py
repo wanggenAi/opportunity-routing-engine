@@ -89,7 +89,7 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("Latent-Value Formation & Orchestration Engine", readme)
         self.assertIn("Demand does not have to exist first", readme)
         self.assertIn("RESOURCE–PSYCHOLOGY DISEQUILIBRIUM", readme)
-        self.assertIn("UNMET / UNFORMED OUTCOME HYPOTHESIS", readme)
+        self.assertIn("LATENT / UNFORMED OUTCOME HYPOTHESIS", readme)
         self.assertIn("STRUCTURAL FRICTION HYPOTHESIS", readme)
         self.assertIn("Surface friction is not the discovery endpoint", readme)
         self.assertIn("Resource Imbalance Engine — downstream truth gate", readme)
@@ -109,7 +109,7 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("Two candidate classes — do not mix them", discovery)
         self.assertIn("EXPLICIT_DEMAND_EXECUTION != CORE_LATENT_VALUE_FORMATION", discovery)
         self.assertIn("RESOURCE–PSYCHOLOGY DISEQUILIBRIUM", discovery)
-        self.assertIn("UNMET / UNFORMED OUTCOME HYPOTHESIS", discovery)
+        self.assertIn("LATENT / UNFORMED OUTCOME HYPOTHESIS", discovery)
         self.assertIn("Counterfactual Exchange Design", discovery)
         self.assertIn("VALUE_DISCOVERY_PRECEDES_ORCHESTRATION", self._read("src/latent_value_discovery.py"))
 
