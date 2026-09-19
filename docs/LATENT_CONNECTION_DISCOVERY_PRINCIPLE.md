@@ -92,11 +92,15 @@ ACTOR + OBJECTIVE ENDOWMENT / STATE / BEHAVIOR
         ↓
 SURFACE PHENOMENON / SURFACE FRICTION
         ↓
-LATENT / UNFORMED OUTCOME HYPOTHESIS
+COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES
         ↓
-STRUCTURAL FRICTION HYPOTHESIS
+RECURSIVE CAUSAL DESCENT
         ↓
-CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+COMPETING STRUCTURAL FRICTION HYPOTHESES
+        ↓
+DISCRIMINATING EVIDENCE / FALSIFIERS / CONTRADICTION SEARCH
+        ↓
+DECISION-USEFUL CAUSAL FRONTIER
         ↓
 EVIDENCED STRUCTURAL FRICTION
         ↓
@@ -108,7 +112,7 @@ CONNECTION-PRESSURE EVIDENCE
         ↓
 PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
         ↓
-OBSERVED MISSING EDGE / STRANDING BARRIER BETWEEN NODES
+OBSERVED MISSING EDGE BETWEEN NODES
         ↓
 LATENT CONNECTION HYPOTHESIS
         ↓
@@ -326,3 +330,5 @@ UNKNOWN != PASS
 ```
 
 > **我们不以人的想象规定资源应该怎样结合，而是先看现实本身正在把哪些 Actor、资源、能力与压力推向同一条价值通道。系统的智能首先用于发现这种“已经在发生但尚未完成”的连接：共同变化、资源势差、重复绕行、局部交换、替代行为和真实阻塞都在留下痕迹。只有这些痕迹收敛以后，才设计最小的连接机制，并把人的时间、信誉与现场行动用于最后一个关键未知量。不是创造一条漂亮的路，再问现实愿不愿意走；而是先发现现实已经踩出来的小径，再决定是否值得把它变成路。**
+
+Compatibility note: legacy persisted evidence labeled `STRANDING_BARRIER` is normalized to canonical `MISSING_EDGE`. The legacy term must not re-enter new canonical ontology or state transitions.
