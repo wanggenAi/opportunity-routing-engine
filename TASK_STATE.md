@@ -75,28 +75,29 @@ For each formation zone require:
 - the operator could eventually own the flow without permanent bespoke delivery.
 
 ## Current Phase
-`FORMATION_SCAN_012_ACTIVE / LATENT_HUMAN_ASSET_LEGIBILITY_DEMOTED / ACTIVE_PRIMARY_NONE / FRESH_LIFE_WORLD_SENSING_NEXT`
+`FORMATION_SCAN_012_MERGED / MAIN_GREEN / LATENT_HUMAN_ASSET_LEGIBILITY_DEMOTED / ACTIVE_PRIMARY_NONE / FRESH_LIFE_WORLD_SENSING_NEXT`
 
 ## Last Verified Main
-`580ac6a0bf54b73e7cefb47bb139f0f78c50f110` — PR #251 squash-merged. Main CI run #765 (run id `35427758716`) passed on this exact functional SHA. Live main later advanced with state-only checkpoint `4b51d8112be54607042a532d2bfe7648eb47b565`.
-
-The current Scan 012 work is on an unmerged feature branch and must pass PR CI before becoming functional main truth.
+`29c9fa46eb88fbee015b63569103c6cddedf1ba8` — PR #252 squash-merged. Main CI run #767 (run id `35427958382`) passed on this exact functional SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Scan 010 was synced in comment id `5740026636`. Scan 011 was synced in comment id `5740047510`.
+Scan 010 was synced in comment id `5740026636`. Scan 011 was synced in comment id `5740047510`. Scan 012 was synced in comment id `5740078953`.
 
 No outreach is authorized. Current work remains upstream formation research.
 
 ## Active Branch
-`feature/selective-activation-verdict-scan-012`
+None. `feature/selective-activation-verdict-scan-012` is merged and is not an active source of truth.
 
 ## Active PR
-None yet.
+None. PR #252 (`Demote generic hidden-asset discovery after selective-activation audit`) is merged.
 
 ## CI
-No CI has run yet on Scan 012.
+- PR #252 final head: `e71c4880fe76ac0e3d2a78963453665bf79d8c9c`
+- PR CI: run #766, success
+- merge SHA: `29c9fa46eb88fbee015b63569103c6cddedf1ba8`
+- main CI: run #767, run id `35427958382`, success
 
 ## Latest Artifact / Persisted State
 Current:
