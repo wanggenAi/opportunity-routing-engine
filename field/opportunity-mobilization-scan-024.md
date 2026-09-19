@@ -83,6 +83,34 @@ Judgment:
 
 No founder outreach is released yet.
 
+## Residual audit — closed
+
+A targeted follow-up searched for attributable evidence of:
+
+- outsourcing / subcontracting / OEM / second-source production;
+- supplier qualification or refusal;
+- IP/process-transfer constraints;
+- quality, certification or test constraints;
+- component bottlenecks;
+- current capacity expansion behavior.
+
+Public materials confirm that Keya has a deep in-house manufacturing and quality stack, including placement/SMT equipment, wave-soldering equipment, automated testing, patents and automotive quality-system claims. They also confirm abundant nearby Fengxian manufacturing capacity.
+
+Those facts still do **not** prove why overflow production is not externalized.
+
+The audit found no attributable public statement that Keya tried an external-capacity route and failed, rejected such a route for a stated reason, or is blocked by a named IP/quality/certification/component constraint.
+
+Additional audit source:
+- https://www.coatingol.com/xinxi/article-iewy-68609.html
+
+Therefore the residual closes fail-closed:
+
+`REAL BUYER COST + NO OBSERVED POST-INCUMBENT MISSING EDGE = NO CANDIDATE`
+
+Final Keya judgment:
+
+`CLOSED_NO_OBSERVED_MISSING_EDGE`
+
 ## Named cost events that are already closed
 
 ### 江苏本优机械有限公司 — verification downtime
@@ -145,7 +173,7 @@ These are not retained merely because the underlying pain was real.
 
 `BOUND_COST_EVENTS = 5`
 
-`OPEN_RESIDUAL_OBSERVATIONS = 1`
+`OPEN_RESIDUAL_OBSERVATIONS = 0`
 
 `RETAINED_CANDIDATES = 0`
 
@@ -165,14 +193,12 @@ But the evidence boundary still matters:
 
 # `NAMED COST EVENT != OPEN ROUTING GAP`
 
-The next task is not another broad mechanism scan.
+The narrow Keya residual audit is now complete and closed with no observed post-incumbent missing edge.
 
-It is a narrow **residual audit** around the Keya event:
+The next task is **Fresh Scan 025**, still under `BUYER COST FIRST`:
 
-1. look for attributable evidence of subcontracting / outsourced production / second-source behavior;
-2. look for explicit refusal or failure to use those routes;
-3. look for observed IP, quality, certification, test, supplier-qualification or component constraints;
-4. determine whether the existing 1,400+ firm cluster can actually absorb the relevant controller overflow under Keya's acceptance requirements;
-5. only if a real missing edge is bound should a counterfactual routing mechanism be designed.
-
-If the missing edge cannot be bound, close this event and continue buyer-cost-first scanning elsewhere.
+1. search new current Xuzhou/Jiangsu private-market events;
+2. bind a named actor to a real economic cost first;
+3. inspect the current workaround and incumbents;
+4. retain only if an observed residual remains after those routes;
+5. do not return to abstract mechanism-first ideation.
