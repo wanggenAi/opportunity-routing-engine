@@ -31,8 +31,21 @@ class LatentValueDiscoveryTests(unittest.TestCase):
             orchestrator_value_capture_hypothesis="fee for verified packaging, routing, acceptance and reliability",
             cheapest_decisive_validation="test one rights-cleared fault domain with one expert and one real user",
             kill_conditions="rights cannot be cleared, knowledge cannot be abstracted, or counterpart gets no measurable value",
+            surface_phenomenon_or_friction="valuable diagnostic knowledge remains person-bound while access to it becomes less reliable",
+            latent_outcome_hypothesis="convert bounded tacit diagnostic capability into trusted callable outcomes without requiring the original full-time role",
+            structural_friction_hypothesis="knowledge is not represented as a bounded, rights-cleared, evidence-backed and acceptance-ready capability unit",
+            structural_friction_truth_state="EVIDENCED_STRUCTURE",
+            alternative_explanations=(
+                "the knowledge may be too context-specific to abstract",
+                "existing service providers may already package the relevant capability adequately",
+            ),
             evidence=(
                 EvidenceRef("origin", "person-bound knowledge observed", EvidenceKind.ORIGIN_STATE),
+                EvidenceRef(
+                    "structure",
+                    "current work packaging cannot make the capability callable under bounded trust and acceptance rules",
+                    EvidenceKind.STRUCTURAL_FRICTION,
+                ),
                 EvidenceRef("complement", "counterparty state observed", EvidenceKind.COMPLEMENTARY_STATE),
                 EvidenceRef("barrier", "packaging or rights barrier observed", EvidenceKind.STRANDING_BARRIER),
             ),
@@ -46,6 +59,24 @@ class LatentValueDiscoveryTests(unittest.TestCase):
         self.assertEqual(validate_candidate(candidate), [])
         self.assertEqual(missing_validation_evidence(candidate), [])
         self.assertEqual(discovery_state(candidate), DiscoveryState.VALIDATION_READY)
+
+    def test_surface_story_without_evidenced_structural_friction_fails_closed(self):
+        candidate = self._candidate(structural_friction_truth_state="INFERRED")
+        errors = validate_candidate(candidate)
+        self.assertIn("structural_friction_not_evidenced", errors)
+        self.assertEqual(
+            discovery_state(candidate),
+            DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS,
+        )
+
+    def test_structural_friction_needs_alternative_explanations(self):
+        candidate = self._candidate(alternative_explanations=())
+        errors = validate_candidate(candidate)
+        self.assertIn("missing:alternative_explanations", errors)
+        self.assertEqual(
+            discovery_state(candidate),
+            DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS,
+        )
 
     def test_one_generic_source_cannot_make_story_validation_ready(self):
         candidate = self._candidate(
