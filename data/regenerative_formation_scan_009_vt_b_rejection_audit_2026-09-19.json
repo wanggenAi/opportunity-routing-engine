@@ -1,0 +1,129 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_009_VT_B_REJECTION_AUDIT",
+  "date": "2026-09-19",
+  "title": "Rejection audit: separate generic product curation from elder-specific latent-asset friction",
+  "parent_scan": "REGENERATIVE_FORMATION_SCAN_008_VT_B_VALUE_FORM_ROUTING",
+  "purpose": "Use failure/rejection evidence to determine whether value-form routing is a unique intergenerational missing edge or mostly ordinary product/market curation, and isolate any genuinely elder-specific upstream friction that survives.",
+  "truth_rules": [
+    "GENERIC PRODUCT-MARKET FIT != UNIQUE INTERGENERATIONAL EDGE",
+    "CHANNEL FAILURE != HIDDEN-ASSET FAILURE",
+    "LOW MARGIN != LATENT CONNECTION",
+    "CURATION FUNCTION != DISTINCT MARKET INFRASTRUCTURE",
+    "SOURCE-SIDE LEGIBILITY MAY PRECEDE NORMAL MARKET MECHANISMS",
+    "OLDER PERSON != SELF-DESCRIBING ASSET"
+  ],
+  "rejection_evidence": [
+    {
+      "signal": "CHANNEL ABSENCE",
+      "fact": "A 2026 community handcraft study reports 83.3% of community workers saying there is no fixed sales point; products are often sold only at occasional holiday stalls.",
+      "source": "https://tidenews.com.cn/tmh_news.html?id=6a6b1285f2c7840001982c9a",
+      "interpretation": "An otherwise usable capability can remain non-economic simply because there is no durable route to buyers."
+    },
+    {
+      "signal": "LOW UNIT ECONOMICS",
+      "fact": "The same study reports material, thread and packaging costs while low-price selling produces too little surplus even to subsidize class materials.",
+      "source": "https://tidenews.com.cn/tmh_news.html?id=6a6b1285f2c7840001982c9a",
+      "interpretation": "Emotional/cultural value does not automatically produce margin."
+    },
+    {
+      "signal": "WEAK DIFFERENTIATION / STORY LEGIBILITY",
+      "fact": "Community staff report that the personal therapeutic/story context behind each elder-made item is rarely surfaced, making it difficult to stimulate purchase interest.",
+      "source": "https://tidenews.com.cn/tmh_news.html?id=6a6b1285f2c7840001982c9a",
+      "interpretation": "The raw object alone may not expose the value that gives it differentiation."
+    },
+    {
+      "signal": "WRONG VALUE FORM FOR CHANNEL",
+      "fact": "Tǎmadrama found that product-only retail did not attract the new mall's surrounding resident customer base; the operator added hands-on classes and livestreaming.",
+      "source": "https://www.jingan.gov.cn/rmtzx/003008/003008004/20250916/dde899c5-7220-4a10-ab75-f77a2c1f3c25.html",
+      "interpretation": "A translated asset can fail because its form/channel fit is wrong, even when the underlying capability is viable."
+    },
+    {
+      "signal": "SELECTION BEFORE INVESTMENT",
+      "fact": "Fengtai discovered 40+ capable older residents, appointed a smaller core group, and planned professional deep development for selected works rather than developing every discovered asset.",
+      "source": "https://www.bjft.gov.cn/fengtaishibao/html/2026-02/04/content_9501_19279615.htm",
+      "interpretation": "The system already behaves as if only a subset of latent assets deserves deeper translation investment."
+    }
+  ],
+  "adjacent_selection_criteria": [
+    {
+      "fact": "Shanghai's 2026 silver-economy innovation competition evaluates technical maturity, IP, industrialization prospects, business-model feasibility, market fit, usability/user experience and real-scene matching.",
+      "source": "https://mzj.sh.gov.cn/MZ_zhuzhan23_0-2-8/20260630/bee4781694d940839d8fade6807388f7.html",
+      "evidence_role": "adjacent market-selection benchmark, not direct elder-asset evidence"
+    }
+  ],
+  "convergent_rejection_signals": [
+    "channel fit",
+    "unit economics / cost",
+    "consumer usefulness / experience",
+    "modern aesthetic or format fit",
+    "differentiation / story legibility",
+    "repeatable production or delivery",
+    "rights / IP clarity",
+    "market/scenario fit"
+  ],
+  "discrimination_result": {
+    "value_form_routing": {
+      "prior_state": "PARTIALLY_OBSERVED__GENERALIZED_OPEN_EDGE_UNKNOWN",
+      "new_state": "REAL_FUNCTION__MOST_SELECTION_LOGIC_LOOKS_LIKE_GENERIC_PRODUCT_MARKET_CURATION__DEMOTED_AS_UNIQUE_EDGE",
+      "reasoning": [
+        "The observed rejection criteria substantially overlap ordinary product management, merchandising and market-validation criteria.",
+        "Existing designers, retail operators, social enterprises and channel partners already perform these functions.",
+        "The presence of older actors changes source material but does not by itself create a new routing science.",
+        "Therefore generalized 'value-form routing' is not currently supported as a distinctive missing edge."
+      ]
+    },
+    "elder_specific_upstream_friction": {
+      "state": "SURVIVES_AND_NARROWS",
+      "label": "LATENT HUMAN-ASSET LEGIBILITY / ACTIVATION",
+      "statement": "Before ordinary product/market mechanisms can work, many older-adult assets are not visible or legible as assets at all. They may exist only as habits, memories, tacit know-how, hobbies, local relationships, teaching ability or unpriced craft inside a person's everyday life.",
+      "observed_indicators": [
+        {
+          "fact": "Fengtai had to conduct community-level mapping to discover 40+ older residents with capabilities; the program describes these capabilities as scattered/hidden in communities.",
+          "source": "https://www.bjft.gov.cn/fengtaishibao/html/2026-06/29/content_9500_19659829.htm"
+        },
+        {
+          "fact": "Beijing Silver Artisan explicitly frames the problem as older artisans being hidden and unknown until a social-service operator discovers and activates them.",
+          "source": "https://www.bjyouth.gov.cn/news/mediaFocus/826558700261445.html"
+        },
+        {
+          "fact": "Fudan's memoir process requires trained interviewing, background research and narrative elicitation because life-history value is fragmented and embodied rather than already packaged as a product.",
+          "source": "https://news.fudan.edu.cn/2026/0327/c5a148510/page.htm"
+        },
+        {
+          "fact": "Hangzhou's AI-Skill pilot requires older adults to externalize accumulated cooking/family-education experience into structured callable form, showing the source knowledge is initially embodied and not machine-callable.",
+          "source": "https://stcn.com/article/detail/4173334.html"
+        }
+      ],
+      "possible_functions": [
+        "discover capability that the person may not name as an asset",
+        "elicit/observe tacit knowledge or practical skill",
+        "separate personal meaning from transferable utility",
+        "establish provenance/consent/rights",
+        "make the asset legible enough for ordinary product/market/channel mechanisms to evaluate it",
+        "triage: translate / preserve / market / teach / ignore"
+      ]
+    }
+  },
+  "deeper_causal_model": {
+    "before": "OLDER ASSET → VALUE-FORM ROUTING → MARKET",
+    "after": "EMBODIED / INVISIBLE OLDER-ASSET → LEGIBILITY / ACTIVATION → then ordinary curation / product-market mechanisms",
+    "key_learning": "The distinctive intergenerational friction may sit before product-market fit. Markets cannot route what they cannot see, describe, permission or compare."
+  },
+  "contradictions": [
+    "Existing talent databases and community talent pools may already solve obvious/high-signal capabilities.",
+    "Many ordinary older adults may not hold transferable assets worth activating.",
+    "Asset discovery can become expensive qualitative interviewing with weak hit rate.",
+    "AI may increasingly help older people self-externalize their own knowledge, reducing the need for a human discovery layer.",
+    "Communities have privileged trust/access that may be difficult for a private operator to replicate.",
+    "The surviving friction may have high social value but insufficient private willingness to pay."
+  ],
+  "portfolio_state": {
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "formal_latent_connection_promotions": 0,
+    "primary_formation_direction": "OLDER-ADULT LATENT HUMAN-ASSET LEGIBILITY / ACTIVATION",
+    "vt_b_value_form_routing_status": "SECONDARY_DOWNSTREAM_FUNCTION",
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "next_action": "Audit the source-side discovery/legibility layer. Search how programs actually find hidden older capabilities: self-nomination vs door-to-door/community mapping vs referrals; hit/selection rates; what kinds of capabilities remain invisible to talent databases; whether one activated elder refers others; and whether current silver-talent databases only capture explicit professional credentials while missing everyday/tacit assets. Kill the line if discovery is too labor-intensive, low-yield, or already normalized by community/talent systems."
+}
