@@ -26,6 +26,7 @@ class DiscoveryState(str, Enum):
 
     OBSERVED_PATTERN = "OBSERVED_PATTERN"
     LATENT_VALUE_HYPOTHESIS = "LATENT_VALUE_HYPOTHESIS"
+    STRUCTURAL_FRICTION_HYPOTHESIS = "STRUCTURAL_FRICTION_HYPOTHESIS"
     COMPLEMENTARITY_HYPOTHESIS = "COMPLEMENTARITY_HYPOTHESIS"
     VALIDATION_READY = "VALIDATION_READY"
 
@@ -39,6 +40,7 @@ class EvidenceKind(str, Enum):
 
     ORIGIN_STATE = "ORIGIN_STATE"
     ORIGIN_CHANGE = "ORIGIN_CHANGE"
+    STRUCTURAL_FRICTION = "STRUCTURAL_FRICTION"
     COMPLEMENTARY_STATE = "COMPLEMENTARY_STATE"
     STRANDING_BARRIER = "STRANDING_BARRIER"
     VALUE_PRECEDENT = "VALUE_PRECEDENT"
@@ -74,6 +76,11 @@ class LatentValueCandidate:
     orchestrator_value_capture_hypothesis: str
     cheapest_decisive_validation: str
     kill_conditions: str
+    surface_phenomenon_or_friction: str = ""
+    latent_outcome_hypothesis: str = ""
+    structural_friction_hypothesis: str = ""
+    structural_friction_truth_state: str = "INFERRED"
+    alternative_explanations: tuple[str, ...] = ()
     evidence: Sequence[EvidenceRef] = field(default_factory=tuple)
     source_mode: str = "LATENT_VALUE_DISCOVERY"
 
@@ -99,11 +106,15 @@ _REQUIRED_FIELDS = (
     "orchestrator_value_capture_hypothesis",
     "cheapest_decisive_validation",
     "kill_conditions",
+    "surface_phenomenon_or_friction",
+    "latent_outcome_hypothesis",
+    "structural_friction_hypothesis",
 )
 
 _VALIDATION_EVIDENCE_KINDS = frozenset(
     {
         EvidenceKind.ORIGIN_STATE,
+        EvidenceKind.STRUCTURAL_FRICTION,
         EvidenceKind.COMPLEMENTARY_STATE,
         EvidenceKind.STRANDING_BARRIER,
     }
@@ -137,6 +148,17 @@ def validate_candidate(candidate: LatentValueCandidate) -> list[str]:
     if candidate.candidate_class() is CandidateClass.EXPLICIT_DEMAND_EXECUTION:
         errors.append("explicit_demand_execution_is_not_core_latent_value_discovery")
 
+    if candidate.structural_friction_truth_state != "EVIDENCED_STRUCTURE":
+        errors.append("structural_friction_not_evidenced")
+
+    if not candidate.alternative_explanations:
+        errors.append("missing:alternative_explanations")
+    elif any(
+        not isinstance(value, str) or not value.strip()
+        for value in candidate.alternative_explanations
+    ):
+        errors.append("invalid:alternative_explanations")
+
     if (
         candidate.hidden_or_underrecognized_value.strip()
         == candidate.complementary_actor_state.strip()
@@ -159,6 +181,16 @@ def discovery_state(candidate: LatentValueCandidate) -> DiscoveryState:
 
     if not candidate.hidden_or_underrecognized_value.strip():
         return DiscoveryState.OBSERVED_PATTERN
+
+    if not (
+        candidate.surface_phenomenon_or_friction.strip()
+        and candidate.latent_outcome_hypothesis.strip()
+        and candidate.structural_friction_hypothesis.strip()
+        and candidate.structural_friction_truth_state == "EVIDENCED_STRUCTURE"
+        and candidate.alternative_explanations
+        and EvidenceKind.STRUCTURAL_FRICTION in evidence_kinds(candidate)
+    ):
+        return DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS
 
     if not (
         candidate.complementary_actor_hypothesis.strip()
@@ -227,6 +259,10 @@ def validate_candidate_record(record: Mapping[str, object]) -> list[str]:
 GOVERNING_INVARIANTS = (
     "RESOURCE_LABEL_NOT_REQUIRED_FOR_VALUE_TO_EXIST",
     "DEMAND_LABEL_NOT_REQUIRED_FOR_DEFICIT_TO_EXIST",
+    "SURFACE_FRICTION_NE_STRUCTURAL_FRICTION",
+    "STRUCTURAL_FRICTION_HYPOTHESIS_NE_EVIDENCED_STRUCTURAL_FRICTION",
+    "STRUCTURAL_FRICTION_NE_MISSING_EDGE",
+    "BUYER_COST_FIRST_NE_CONSTITUTION",
     "POTENTIAL_VALUE_NE_PROVEN_VALUE",
     "COMPLEMENTARITY_NE_TRANSACTIONABILITY",
     "NARRATIVE_COMPLETENESS_NE_EVIDENCE_COMPLETENESS",
