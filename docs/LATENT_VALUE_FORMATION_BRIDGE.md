@@ -312,18 +312,21 @@ The system should preserve contradictory evidence rather than averaging it away,
 
 Psychology may not fill objective evidence gaps.
 
-Formation-ready reasoning separately requires evidence for:
+Formation-ready reasoning separately requires the canonical evidence dimensions that are actually relevant to the claimed path:
 
 ```text
 OBJECTIVE_ENDOWMENT
 ORIGIN_STATE
-ORIGIN_CHANGE
 UNDERUSE_MISALIGNMENT
-OBSERVED_BEHAVIOR
+STRUCTURAL_FRICTION
 COMPLEMENTARY_NODE
 CONNECTION_PRESSURE
-STRANDING_BARRIER
+MISSING_EDGE
 ```
+
+`ORIGIN_CHANGE` is required when the formation relies on a claimed recent state change. A durable `PERSISTENT_MISMATCH` may instead support discovery when no recent change exists.
+
+`OBSERVED_BEHAVIOR` is an evidence channel, not a universal gate. Objective technical, institutional, process, rights/access or other state evidence may support causal structure without a behavior signal. If psychology is used, however, the psychological claim must still be tied to the same actor segment and behavior-corroborated.
 
 `CONNECTION_PRESSURE` is the explicit bridge between plausible complementarity and a reality-grounded latent connection. It may be evidenced by repeated workarounds, partial/informal flows, failed attempts, substitutions, referrals, shared causal pressure, adjacent/historical analogues or other attributable observations showing that value is already trying to cross the boundary.
 
@@ -449,26 +452,40 @@ A mechanism may be novel even when the underlying relationship pressure is disco
 
 ```text
 OBSERVED_TRANSITION
-→ RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS
+→ RESOURCE_STATE_MISALIGNMENT_HYPOTHESIS
 → LATENT_VALUE_FORMATION_HYPOTHESIS
+→ STRUCTURAL_FRICTION_HYPOTHESIS
+→ STRUCTURAL_FRICTION_EVIDENCED
 → COMPLEMENTARITY_HYPOTHESIS
+→ LATENT_CONNECTION_EVIDENCED
 → VALIDATION_READY
 ```
 
-### `OBSERVED_TRANSITION`
-A state change or psychology signal is visible, but objective resource/state evidence or psychology linkage is incomplete.
+`RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS` remains a compatibility alias only. Psychology is not part of the canonical state name because it is not a universal gate.
 
-### `RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS`
-Objective endowments/state/change and a perception/motive signal coexist, but underuse or behavior linkage is not yet strong enough.
+### `OBSERVED_TRANSITION`
+Some state/endowment signal exists, but the objective resource/state basis is not yet sufficient to form a bounded mismatch hypothesis.
+
+### `RESOURCE_STATE_MISALIGNMENT_HYPOTHESIS`
+Objective endowments/state and underuse or mismatch are visible, but the product-agnostic latent outcome is not yet sufficiently stated. Psychology and observed behavior may contribute when relevant but are not universal prerequisites.
 
 ### `LATENT_VALUE_FORMATION_HYPOTHESIS`
-Underuse/misalignment and observed behavior are evidenced; an unmet/unformed outcome can be stated without claiming a market exists.
+A product-agnostic latent outcome can be stated, but the causal structure blocking that transition has not yet been bounded as a structural-friction hypothesis.
+
+### `STRUCTURAL_FRICTION_HYPOTHESIS`
+Competing causal explanations exist, but the canonical causal lineage has not yet satisfied the evidence, falsifier, discriminating-evidence and stop-rule contract.
+
+### `STRUCTURAL_FRICTION_EVIDENCED`
+The decision-useful causal frontier is evidence-bound and promotable. Complementary world nodes have not yet been sufficiently established.
 
 ### `COMPLEMENTARITY_HYPOTHESIS`
-One or more evidenced world nodes could plausibly change the state, and minimum exchange mechanics may be describable, but **connection-pressure evidence, barrier truth or contradiction resolution is still incomplete**.
+One or more evidenced world nodes could plausibly affect the blocked transition, but complementarity alone is not a connection. Connection pressure and/or the observed inter-node missing edge are still incomplete.
+
+### `LATENT_CONNECTION_EVIDENCED`
+Connection pressure, an observed canonical `MISSING_EDGE`, and the latent-connection hypothesis are evidence-bound, but downstream minimum exchange mechanics or another validation-ready requirement is still incomplete.
 
 ### `VALIDATION_READY`
-All formation evidence dimensions are present, including explicit `CONNECTION_PRESSURE`; psychology is behavior-corroborated; complementary nodes are evidenced; the stranding barrier is observed; and no material unresolved contradiction remains.
+The full upstream causal and connection truth contracts pass, minimum exchange mechanics are stated, any psychology used is behavior-corroborated, complementary-node evidence is bound, and no material unresolved contradiction remains.
 
 It means only:
 
