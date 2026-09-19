@@ -248,6 +248,22 @@ def validate_candidate_record(record: Mapping[str, object]) -> list[str]:
     if record.get("source_mode") == "EXPLICIT_DEMAND":
         errors.append("explicit_demand_execution_is_not_core_latent_value_discovery")
 
+    if record.get("structural_friction_truth_state") != "EVIDENCED_STRUCTURE":
+        errors.append("structural_friction_not_evidenced")
+
+    alternatives = record.get("alternative_explanations")
+    if not isinstance(alternatives, Iterable) or isinstance(alternatives, (str, bytes)):
+        errors.append("missing:alternative_explanations")
+    else:
+        alternative_items = list(alternatives)
+        if not alternative_items:
+            errors.append("missing:alternative_explanations")
+        elif any(
+            not isinstance(value, str) or not value.strip()
+            for value in alternative_items
+        ):
+            errors.append("invalid:alternative_explanations")
+
     present_kinds = _record_evidence_kinds(record)
     for kind in sorted(_VALIDATION_EVIDENCE_KINDS, key=lambda item: item.value):
         if kind.value not in present_kinds:
