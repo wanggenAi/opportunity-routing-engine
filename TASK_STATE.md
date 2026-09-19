@@ -85,33 +85,40 @@ Required questions:
 
 ## Current Phase
 
-REGENERATIVE_FORMATION_SCAN_017_RESEARCH_PERSISTED / SERVICE_THRESHOLD_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO / PR_PENDING
+REGENERATIVE_FORMATION_SCAN_017_MERGED / MAIN_GREEN / SERVICE_THRESHOLD_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO / SCAN_018_CAUSAL_DESCENT_NEXT
 
 ## Last Verified Main
 
-Live main at branch creation: `1983bb0a21c5c9b1f847addb7358ef7d1613823f` — state-only `[skip ci]` checkpoint after Scan 016.
+Functional main: `9060ed2ea025f0897d7371f715e91ec7616a3e6f` — PR #257 squash-merged.
 
-Last verified functional main: `b95d6136287752932d1af5b7f6ed15c2ccbad546` — PR #256 squash-merged.
+PR CI #778 (run id `35434185969`) passed.
 
-Main CI #777 (run id `35433695066`) passed on that exact functional SHA.
+Main CI #779 (run id `35434228767`) passed on that exact functional SHA.
+
+A later state-only `[skip ci]` checkpoint may advance live main without changing functional truth.
 
 ## Active Issue
 
 #143 — P0: First external value flow — field proof, not more architecture.
 
+Scan 017 final status synced in comment id `5740716010`.
+
 No outreach is authorized.
 
 ## Active Branch
 
-`feature/regenerative-formation-scan-017-service-threshold-gap`
+None. `feature/regenerative-formation-scan-017-service-threshold-gap` is merged and is not an active source of truth.
 
 ## Active PR
 
-To be created for Scan 017.
+None. PR #257 — `Retain sparse installed-base service threshold for causal descent` — is merged.
 
 ## CI
 
-No Scan 017 PR-head CI yet. Run CI after PR creation and require green before merge.
+- PR #257 head: `87b6b52c14307fbca99386ea3e39a7c57f3bb656`
+- PR CI #778 (run id `35434185969`): success
+- merge SHA: `9060ed2ea025f0897d7371f715e91ec7616a3e6f`
+- main CI #779 (run id `35434228767`): success
 
 ## Latest Artifact / Persisted State
 
