@@ -115,6 +115,8 @@ Forced Competing Story != Causal Discipline
 
 Material alternatives must be preserved when they are real. Artificial alternatives must not be invented to satisfy a fixed count.
 
+Causal depth is relational, not ceremonial. Parent/child direction must remain coherent, but contiguous numeric layers are not required and must not be manufactured.
+
 Resource state must remain explicit:
 
 ```text
