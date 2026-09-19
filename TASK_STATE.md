@@ -4,213 +4,175 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Regenerative Formation Scan 019 resumed white-portfolio sensing under a PRE-MARKET STRANDED VALUE bias.
+Regenerative Formation Scan 020 completed causal descent on LEGACY TECHNICAL LINEAGE ROUTING.
 
-Demoted:
-1. SURPLUS MRO / OBSOLETE SPARE ROUTING
-   - value asymmetry is real;
-   - verified surplus marketplaces, enterprise disposition platforms and reverse-engineering channels already own the part-number routing problem.
+Result:
+- technical lineage is genuinely valuable as a relevance signal;
+- former-OEM/project-specific experience can improve legacy-system support;
+- operational customers usually buy an accountable result, not an expert identity;
+- specialist legacy-service firms already package former-OEM expertise with parts, tools, authorization, testing and responsibility;
+- mature expert networks already custom-recruit former employees for bounded compliance-screened advisory calls;
+- confidentiality/trade-secret duties limit routable historical knowledge;
+- reverse engineering and retrofit remain substitutes;
+- standalone lineage routing is boutique, high-touch and founder-dependent.
 
-2. SHARED LAB / PILOT CAPACITY
-   - equipment scarcity and idle capacity are real;
-   - government/public service platforms, industrial parks and vertical commercial platforms naturally own access/compliance.
+Therefore:
 
-3. REUSABLE FACTORY-AUDIT EVIDENCE
-   - duplicate audit friction is real;
-   - Sedex/SMETA already standardizes shareable evidence to reduce repeated audits.
+LEGACY TECHNICAL LINEAGE ROUTING = DEMOTED FROM PRIMARY COMMERCIAL FORMATION.
 
-Retained for causal descent only:
-
-LEGACY TECHNICAL LINEAGE ROUTING
-
-Working structure:
-
-LEGACY ASSET
-+ OEM / MODEL / SERIAL / CONTROLS / PROJECT HISTORY
-+ SUPPORT DISCONTINUITY
-+ HIGH UNCERTAINTY / DOWNTIME
-↕
-TECHNICAL-LINEAGE GRAPH
-↕
-FORMER OEM / RETIRED CONTROLS / COMMISSIONING / MAINTENANCE PERSON
-WITH DIRECT OR NEAR-DIRECT HISTORICAL KNOWLEDGE
-
-Observed signals:
-- current legacy-system cases explicitly describe retired original engineers and lost source/documentation;
-- a 2026 PLC forum request directly seeks a retired Rockwell/Allen-Bradley engineer for paid consulting;
-- a Motion case reports sourcing former employees of original spindle manufacturers as part of a much faster obsolete-equipment repair path;
-- former-OEM staff are already monetized inside some specialist service firms;
-- retired-engineer matching programs prove hidden senior technical supply can be reconstructed.
-
-This is NOT a commercial candidate.
+Preserve only:
+- TECHNICAL_LINEAGE as a future routing/ranking primitive;
+- former-OEM/project history as service-provider evidence;
+- future vertical-specific use where accountable service exists but lineage remains poorly indexed.
 
 Portfolio:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - ACTIVE TRANSACTION UNITS = 0
 - FORMAL LATENT CONNECTION PROMOTIONS = 0
-- RETAINED RESEARCH FORMATIONS = 1
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
-No expert recruitment, factory outreach, pricing, scraping/private-data build or marketplace is authorized.
+No product, pricing, recruitment or outreach is authorized.
 
 ## Goal
 
-Run causal descent on when historical human technical lineage materially outperforms:
-- normal OEM/service search;
-- generic engineering consultants;
-- specialist legacy-system integrators;
-- reverse engineering.
+Resume fresh regenerative sensing with TRANSFERABLE OBJECTIVE STRANDED UNIT bias.
 
 Preserve:
 - REALITY > COGNITION > SCHEMA
-- PRE-MARKET STRANDED VALUE > IMPROVING AN EXISTING LISTING
-- MODEL-SPECIFIC TACIT KNOWLEDGE != GENERIC ENGINEERING LABOR
-- PUBLIC PROFESSIONAL LINEAGE != PRIVATE/PROPRIETARY INFORMATION
-- RETAINED FORMATION != COMMERCIAL CANDIDATE
+- HIGH INFORMATION VALUE != STANDALONE TRANSACTION VALUE
+- EXPERT IDENTITY != ACCOUNTABLE TECHNICAL OUTCOME
+- VALUABLE BECAUSE IT IS CONFIDENTIAL != LEGALLY ROUTABLE KNOWLEDGE
+- FOUNDER AS PERMANENT HUMAN SEARCH ENGINE = FAIL
 - UNKNOWN != PASS
 
 ## Current Unique Commercial Research Goal
 
-Determine whether technical-lineage matching forms a repeated, safe and economically meaningful routing boundary.
-
-Required questions:
-1. How often is former-OEM/project-specific human knowledge actually decisive?
-2. Can lineage be reconstructed from public professional traces without private data?
-3. What knowledge can former employees legally share?
-4. Can engagements be bounded to historical explanation/diagnostic context rather than unauthorized safety-critical repair?
-5. Who pays?
-6. Does downtime avoided justify discovery/vetting fees?
-7. Will former engineers accept short on-demand consultations?
-8. Do specialist legacy-service firms already own the relevant alumni networks?
-9. Can discovery/vetting be standardized, or does every case become boutique headhunting?
+Find a stranded unit where:
+1. the valuable object/resource/right/capacity itself can be lawfully transferred or routed;
+2. connection itself produces most of the buyer outcome;
+3. deep professional liability is not the core value;
+4. the unit can be objectively indexed;
+5. matching can be standardized;
+6. no platform/distributor/institution naturally owns both sides;
+7. founder work is replaceable.
 
 ## Current Phase
 
-REGENERATIVE_FORMATION_SCAN_019_MERGED / MAIN_GREEN / LEGACY_TECHNICAL_LINEAGE_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO / SCAN_020_CAUSAL_DESCENT_NEXT
+REGENERATIVE_FORMATION_SCAN_020_CAUSAL_DESCENT_COMPLETE / TECHNICAL_LINEAGE_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_REGENERATIVE_SENSING_NEXT
 
 ## Last Verified Main
 
-Functional main: `24dd50df79fb5783aae20d21b90619cd497a30ce` — PR #259 squash-merged.
+Live main at branch creation includes state-only checkpoint be32a0c473000bf45cfd8ea6868156e8827d8360 after Scan 019.
 
-PR CI #782 (run id `35434556467`): success.
+Last verified functional main: 24dd50df79fb5783aae20d21b90619cd497a30ce — PR #259 squash-merged.
 
-Main CI #783 (run id `35434592507`): success on that exact functional SHA.
+PR CI #782 (run id 35434556467): success.
 
-A later state-only `[skip ci]` checkpoint may advance live main without changing functional truth.
+Main CI #783 (run id 35434592507): success.
 
 ## Active Issue
 
 #143 — P0: First external value flow — field proof, not more architecture.
 
-Scan 019 final status synced in comment id `5740751041`.
+Scan 019 final status synced in comment id 5740751041.
 
 No outreach is authorized.
 
 ## Active Branch
 
-None. `feature/regenerative-formation-scan-019-legacy-technical-lineage` is merged and is not an active source of truth.
+feature/regenerative-formation-scan-020-lineage-accountability-verdict
 
 ## Active PR
 
-None. PR #259 — `Retain legacy technical lineage for causal descent` — is merged.
+To be created for Scan 020.
 
 ## CI
 
-- PR #259 head: `cea8cad15100b01986f475120e877d7faaca84ce`
-- PR CI #782 (run id `35434556467`): success
-- merge SHA: `24dd50df79fb5783aae20d21b90619cd497a30ce`
-- main CI #783 (run id `35434592507`): success
+No Scan 020 PR-head CI yet. Require green before merge.
 
 ## Latest Artifact / Persisted State
 
 Current:
+- data/regenerative_formation_scan_020_lineage_accountability_verdict_2026-09-19.json
+- field/regenerative-formation-scan-020-lineage-accountability-verdict.md
+
+Parent:
 - data/regenerative_formation_scan_019_legacy_technical_lineage_2026-09-19.json
 - field/regenerative-formation-scan-019-legacy-technical-lineage.md
 
-Parent:
-- data/regenerative_formation_scan_018_service_threshold_verdict_2026-09-19.json
-- field/regenerative-formation-scan-018-service-threshold-verdict.md
-
 ## Completed
 
-### Demoted: surplus MRO
+### Technical lineage value
+Supported as a relevance/ranking signal.
 
-Part-number identity value is real but already standardized by mature specialty markets.
+### Operational ownership
+Specialist legacy-service firms are the natural owner when the buyer needs a repaired, migrated, tested or safe result.
 
-### Demoted: shared lab / pilot capacity
+### Advisory ownership
+Expert networks already own compliance-screened custom expert recruitment for bounded non-confidential calls.
 
-Resource mismatch is real but the natural controller is public/institutional/specialist platform infrastructure.
+### Confidentiality boundary
+Former-employer proprietary/trade-secret knowledge is not legitimate transaction value.
 
-### Demoted: reusable factory-audit evidence
+### Substitute path
+Reverse engineering / logic recovery / retrofit can replace missing historical memory.
 
-Sedex/SMETA already owns the duplicate-audit reduction boundary.
-
-### Retained: legacy technical lineage
-
-Direct signals now exist for:
-- retired original engineer / lost system knowledge;
-- manual paid search for retired model/industry-specific controls expertise;
-- former-OEM employees participating in faster legacy repair;
-- retired-engineer matching and technical-advisor discovery.
+### Decision
+Technical lineage is an input to service/expert selection, not an independent general transaction unit.
 
 ## Current Findings
 
-- The potentially scarce asset is historical model/project knowledge, not engineering labor generally.
-- Technical lineage may be an identity graph: OEM → machine family → model/project → former role → person.
-- The value is state-dependent: low most days, high during line-down, migration, forensic reconstruction or unsupported maintenance.
-- Specialist legacy-service firms and reverse engineering are strong substitutes and counterevidence.
-- Legal/IP/confidentiality and safety/liability may kill the formation.
+- Former-OEM engineers are repeatedly monetized, but commonly inside accountable service firms.
+- Existing expert networks can custom-recruit experts and screen confidentiality/conflicts.
+- A standalone router would sit between expert network and service contractor without owning the customer result.
+- Manual lineage reconstruction recreates boutique headhunting.
 - ACTIVE COMMERCIAL CANDIDATES = 0.
 
 ## Blockers
 
-The formation cannot promote until evidence establishes:
-1. repeated cases where lineage is decisive;
-2. lawful non-proprietary advisory scope;
-3. safe liability boundary;
-4. repeatable public-data lineage discovery;
-5. willing expert supply;
-6. identifiable payer;
-7. downtime/uncertainty economics;
-8. incremental value beyond legacy-service firms;
-9. non-boutique normalized orchestration.
+There is no active retained formation from Scan 020.
+
+The next formation may not promote unless:
+1. the unit itself is legally transferable;
+2. objective identifiers exist;
+3. matching creates the outcome rather than merely identifying a professional;
+4. liability is bounded;
+5. transaction frequency is repeatable;
+6. incumbent ownership is absent;
+7. normalized orchestration can be automated/delegated.
 
 ## Next Action
 
-Run focused causal descent on LEGACY TECHNICAL LINEAGE ROUTING.
+Run a fresh white-portfolio regenerative scan with TRANSFERABLE OBJECTIVE STRANDED UNIT bias.
 
-Search specifically for:
-- current paid requests seeking retired/former OEM engineers for specific legacy systems;
-- cases where former original personnel materially shortened diagnosis/recovery;
-- specialist firms that use alumni/former-OEM networks;
-- legal boundaries for former employees discussing historical technical knowledge;
-- professional liability for retired engineering consultants;
-- bounded remote advisory models;
-- expert-call economics;
-- examples where reverse engineering made original human history unnecessary;
-- public lineage signals from patents, publications, project histories and professional profiles.
+Prefer:
+- idle or stranded rights/capacity/assets with objective identifiers;
+- time/geography/specification mismatches with direct economic loss;
+- counterparty sets not already visible through normal platforms;
+- units where matching itself unlocks value;
+- structures standardizable into data + routing + settlement without founder expertise.
 
-Kill the formation if lineage is rare, legally unusable, unsafe, or already fully absorbed by specialist service firms.
+Do not reopen generic legacy-engineer routing.
 
 No product design, pricing or outreach.
 
 ## Do Not Repeat
 
-- Do not call this a retired-engineer marketplace.
-- Do not infer value from seniority alone.
-- Do not solicit confidential source code, drawings, trade secrets or customer data.
-- Do not assume a former employee is legally free to disclose historical knowledge.
-- Do not route unlicensed experts into safety-critical field decisions.
-- Do not confuse generic controls expertise with direct technical lineage.
-- Do not build scraping/private-profile infrastructure.
-- Do not recruit experts yet.
+- Do not build a retired-engineer marketplace.
+- Do not build former-OEM directories.
+- Do not depend on confidential/trade-secret knowledge.
+- Do not confuse relevant expert identity with accountable delivery.
+- Do not build expert search that requires case-by-case founder research.
+- Do not ignore mature expert networks or specialist legacy-service firms.
+- Do not route unlicensed people into safety-critical work.
 
 ## Guardrails
 
 - GitHub live state is operational source of truth.
 - REALITY > COGNITION > SCHEMA.
 - STRUCTURAL FRICTION != MISSING EDGE.
-- PRE-MARKET STRANDED VALUE > IMPROVING AN EXISTING LISTING.
-- PUBLIC PROFESSIONAL LINEAGE != PRIVATE/PROPRIETARY INFORMATION.
+- HIGH INFORMATION VALUE != STANDALONE TRANSACTION VALUE.
+- EXPERT IDENTITY != ACCOUNTABLE TECHNICAL OUTCOME.
+- FOUNDER AS PERMANENT HUMAN SEARCH ENGINE = FAIL.
 - UNKNOWN != PASS.
 - Infer broadly; promote conservatively.
