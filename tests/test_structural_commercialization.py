@@ -38,6 +38,19 @@ class StructuralCommercializationTests(unittest.TestCase):
             "EVIDENCED_STRUCTURE",
         )
         self.assertGreaterEqual(len(candidate["alternative_explanations"]), 2)
+        self.assertIn("causal_descent", candidate)
+        self.assertEqual(
+            candidate["causal_descent"]["record_id"],
+            candidate["causal_descent_record_id"],
+        )
+        self.assertEqual(
+            candidate["causal_descent"]["stop_reason"],
+            "INTERVENTION_RELEVANT_BOUNDARY",
+        )
+        self.assertGreaterEqual(
+            len(candidate["causal_descent"]["constraint_hypotheses"]),
+            2,
+        )
         structural_sources = {
             item["source_id"]
             for item in candidate["evidence"]
