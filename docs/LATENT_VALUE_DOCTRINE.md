@@ -10,6 +10,33 @@ If a technically correct implementation pulls the system away from this doctrine
 
 The executable formation principle is defined in `docs/LATENT_VALUE_FORMATION_BRIDGE.md`. The causal-depth rule is defined in `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`. The connection-discovery clarification is defined in `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`. These are constitutional discovery principles, not optional implementation notes.
 
+## 0. Reality first, cognition second, schema third
+
+The repository must preserve this order:
+
+```text
+REALITY > COGNITION > SCHEMA
+```
+
+Reality is not required to arrive in the order of a state machine, table, JSON schema or canonical diagram. Cognition may enter through any evidence-bearing point, move forward or backward, branch, merge, revisit an earlier interpretation, discover a missing Actor late, or replace an earlier causal frame when new evidence changes the world model.
+
+Schemas, enums, validators and maturity states exist to **preserve, audit and prevent false promotion of understanding**. They do not generate reality and must not become a cage around exploration.
+
+Therefore:
+
+```text
+SCHEMA CONFORMANCE != TRUTH
+STATE MACHINE != REQUIRED DISCOVERY PATH
+HYPOTHESIS CARDINALITY != EPISTEMIC RIGOR
+FORCED COMPETING STORY != CAUSAL DISCIPLINE
+```
+
+The engine should actively search for materially different outcome and causal explanations whenever reality is ambiguous. When a credible alternative exists, preserve it. When no material alternative survives honest search, do not invent a second story merely to satisfy a numeric gate.
+
+Discovery may be fluid, nonlinear and generative. Promotion remains strict about evidence binding, provenance, falsifiability, contradiction handling, unresolved unknowns and stop semantics.
+
+A rule is justified when it prevents an unsupported inference from being promoted as truth. If a rule mainly suppresses potentially useful exploration, forces artificial narrative structure or rewards form-filling over understanding, it must be weakened, moved downstream or removed.
+
 ## 1. The system does not begin with supply and demand
 
 The system begins with **reality and actors**.
@@ -59,7 +86,7 @@ That reasoning is a hypothesis, not evidence that a business or even the connect
 
 The central principle is:
 
-> **Demand does not have to exist first, and neither a visible pain point nor the Actor's stated request is assumed to reveal the true commercial structure. The conditions from which value may emerge can exist first. The system may generate competing product-agnostic outcome hypotheses and recursively descend through competing causal explanations; it must preserve falsifiers, discriminating evidence and an explicit stop rule, and only an evidenced decision-useful causal frontier may drive formal promotion. It must still discover real connection pressure and a distinct inter-node missing edge before exchange mechanics are designed.**
+> **Demand does not have to exist first, and neither a visible pain point nor the Actor's stated request is assumed to reveal the true commercial structure. The conditions from which value may emerge can exist first. The system may generate one or many product-agnostic outcome hypotheses and recursively descend through causal explanations, preserving material alternatives whenever reality is genuinely ambiguous. It must preserve falsifiers, discriminating evidence and an explicit stop rule, and only an evidenced decision-useful causal frontier may drive formal promotion. It must never fabricate extra hypotheses simply to satisfy a schema. It must still discover real connection pressure and a distinct inter-node missing edge before exchange mechanics are designed.**
 
 Therefore:
 
@@ -195,9 +222,9 @@ The engine must use recursive causal descent:
 
 ```text
 OBSERVED EVENT
-→ competing hypotheses about the state the Actor is trying to reach or avoid
-→ competing product-agnostic LATENT / UNFORMED OUTCOMES
-→ competing structural conditions that may prevent the transition
+→ one or more hypotheses about the state the Actor is trying to reach or avoid
+→ product-agnostic LATENT / UNFORMED OUTCOMES, preserving material alternatives when present
+→ structural conditions that may prevent the transition, preserving material alternatives when present
 → deeper child constraints where evidence warrants
 → discriminating evidence + contradictions + falsifiers
 → explicit causal stop reason
