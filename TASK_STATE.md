@@ -58,37 +58,40 @@ Find a stranded unit where:
 
 ## Current Phase
 
-REGENERATIVE_FORMATION_SCAN_020_CAUSAL_DESCENT_COMPLETE / TECHNICAL_LINEAGE_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_REGENERATIVE_SENSING_NEXT
+REGENERATIVE_FORMATION_SCAN_020_MERGED / MAIN_GREEN / TECHNICAL_LINEAGE_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_REGENERATIVE_SENSING_NEXT
 
 ## Last Verified Main
 
-Live main at branch creation includes state-only checkpoint be32a0c473000bf45cfd8ea6868156e8827d8360 after Scan 019.
+Functional main: `8060f48780575680247f6613c22759085f721e9e` — PR #260 squash-merged.
 
-Last verified functional main: 24dd50df79fb5783aae20d21b90619cd497a30ce — PR #259 squash-merged.
+PR CI #784 (run id `35434757283`): success.
 
-PR CI #782 (run id 35434556467): success.
+Main CI #785 (run id `35434780158`): success on that exact functional SHA.
 
-Main CI #783 (run id 35434592507): success.
+A later state-only `[skip ci]` checkpoint may advance live main without changing functional truth.
 
 ## Active Issue
 
 #143 — P0: First external value flow — field proof, not more architecture.
 
-Scan 019 final status synced in comment id 5740751041.
+Scan 020 final verdict synced in comment id `5740768423`.
 
 No outreach is authorized.
 
 ## Active Branch
 
-feature/regenerative-formation-scan-020-lineage-accountability-verdict
+None. `feature/regenerative-formation-scan-020-lineage-accountability-verdict` is merged and is not an active source of truth.
 
 ## Active PR
 
-To be created for Scan 020.
+None. PR #260 — `Demote legacy technical lineage after accountability descent` — is merged.
 
 ## CI
 
-No Scan 020 PR-head CI yet. Require green before merge.
+- PR #260 head: `988d2627e3a2466fd85887b18386a27ea595b22a`
+- PR CI #784 (run id `35434757283`): success
+- merge SHA: `8060f48780575680247f6613c22759085f721e9e`
+- main CI #785 (run id `35434780158`): success
 
 ## Latest Artifact / Persisted State
 
