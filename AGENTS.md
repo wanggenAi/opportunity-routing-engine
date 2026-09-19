@@ -125,11 +125,12 @@ Before changing business logic, read these in order:
 10. `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
 11. `docs/ACTOR_MODEL.md`
 12. `docs/THESIS_TRANSACTION_GAPS.md`
-13. `docs/OPPORTUNITY_SCORECARD.md`
-14. `docs/ARCHITECTURE.md`
-15. current `docs/research/`, `docs/field/` and `docs/launch/` files relevant to the task.
+13. `docs/OPPORTUNITY_ATTRACTION_FIELD.md`
+14. `docs/OPPORTUNITY_SCORECARD.md`
+15. `docs/ARCHITECTURE.md`
+16. current `docs/research/`, `docs/field/` and `docs/launch/` files relevant to the task.
 
-`docs/LATENT_VALUE_DOCTRINE.md` is constitutional. `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`, `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md` and `docs/LATENT_VALUE_FORMATION_BRIDGE.md` are also locked constitutional discovery principles. If another document, implementation or workflow conflicts with them, the lower-level artifact must change.
+`docs/LATENT_VALUE_DOCTRINE.md` is constitutional. `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`, `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md` and `docs/LATENT_VALUE_FORMATION_BRIDGE.md` are also locked constitutional discovery principles. `docs/OPPORTUNITY_ATTRACTION_FIELD.md` is the locked strategic discovery/attention principle for participant pull, operator activation and anti-drift. If another document, implementation or workflow conflicts with them, the lower-level artifact must change.
 
 There is no active `EXP-*` opportunity layer after the 2026-09-10 reset. Do not recreate it unless the architecture is explicitly changed.
 
@@ -285,6 +286,37 @@ Observation
 ```
 
 A one-off task may later buy validation evidence, but it cannot become the core discovery object until the underlying regenerative field has been independently evidenced.
+
+## Attraction-field and anti-drift rule — LOCKED
+
+The engine must not reward a merely plausible connection that requires everyone to be pushed.
+
+For every retained formation, separately establish:
+- **A-side attraction**: why the resource/endowment actor wants to move now, with behavior evidence;
+- **B-side attraction**: why the complementary/outcome actor wants the reachable result now, with behavior evidence;
+- **operator attraction**: why the operator actively wants to own the bridge rather than merely perform or sell a job;
+- **activation friction**: what persuasion, permission, trust, integration, capital or behavior change still stands between the actors;
+- **self-propulsion**: why successful routing makes the next flow easier rather than recreating founder labor.
+
+Operator attraction is a strategic attention signal, never a substitute for market evidence.
+
+Use these rules:
+
+```text
+FOUNDER EXCITEMENT != PARTICIPANT PULL
+EXISTING ACTOR != FLOW SOLVED
+INCUMBENT PRESENCE != AUTOMATIC KILL
+BROAD REALITY > CURRENT SEARCH LENS
+SEARCH LENS != ONTOLOGY
+INDUSTRIAL B2B != DEFAULT WORLD
+TRANSFERABLE OBJECTIVE STRANDED UNIT != TOTAL COMMERCIAL WORLD MODEL
+```
+
+A white-portfolio scan must reopen broad reality rather than recursively inherit the previous candidate's industry, asset type or search lens. Deliberately counter-sample outside the prior vertical when the evidence allows it. Do not impose a fixed category quota or fabricate weak directions merely to appear broad.
+
+Every retained formation must include the Attraction Brief defined in `docs/OPPORTUNITY_ATTRACTION_FIELD.md`. Every white-portfolio scan must include a Drift Audit covering vertical lock-in, search-lens lock-in, industrial/inventory/professional-service over-selection, incumbent auto-kill and analyst-story attraction.
+
+A high-attraction structure should make the participant surplus legible and voluntary: A wants to release/activate something, B wants to obtain the outcome, and the operator wants to control the bridge without carrying recurring delivery. Attraction guides attention; evidence gates promotion.
 
 ## Formation-first discovery rule
 
