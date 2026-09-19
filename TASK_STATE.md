@@ -4,27 +4,33 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-`ATTRACTION_SCAN_003` is complete.
-
-Continue the only formation retained from the third clean-slate scan:
+Resolve causal descent on:
 
 `ATTRACTION_SCAN_003-F1 — AI CUSTOM-SERVICE ACCEPTANCE RAIL`.
 
-Do not promote it yet.
+Verdict:
+
+`SURVIVES_CAUSAL_DESCENT / READY_FOR_CHEAP_REALITY_CONFIRMATION / NOT_A_COMMERCIAL_CANDIDATE`.
+
+The formation is narrowed to lightweight executable acceptance evidence for middle-value AI workflow / tool-using Agent delivery.
 
 ## Goal
 
-Determine whether a low-friction, transaction-sized AI acceptance object can occupy a real economic middle between:
-- low-ticket gig work where extra acceptance cost is uneconomic; and
-- high-ticket enterprise work where formal SOW, QA, evaluation labs and consultants already exist.
+Spend only enough external validation capital to answer the missing human/economic question:
+
+Will real buyers and providers adopt a frozen, executable acceptance object before work begins, and can it be created with low enough manual effort to improve transaction closeout?
+
+Do not build software first.
 
 ## Current Unique Commercial Research Goal
 
-Test whether current AI custom-service transactions contain a repeated, economically meaningful missing edge at:
+Obtain real transaction evidence for or against:
 
-`PRE-CONTRACT ACCEPTANCE SPEC → EXECUTABLE TEST → DELIVERY EVIDENCE → CLOSEOUT`
+`PROJECT BRIEF → FROZEN ACCEPTANCE CONDITIONS → EXECUTABLE RUN → EVIDENCE PACK → PASS/FAIL/RETEST`
 
-that can be standardized with low manual expert labor, can attach to existing marketplace/payment rails, and can reduce rework/refund/tail-payment friction enough to create voluntary pull on both sides.
+for a current middle-value AI workflow/Agent transaction.
+
+The formation survives only if both sides value the object, the work is mostly machine-observable, setup is lightweight, and the object can improve closeout without becoming requirements/QA consulting.
 
 ## Active Commercial Epoch
 
@@ -48,17 +54,17 @@ Historical-case policy:
 
 ## Current Phase
 
-`ATTRACTION_SCAN_003_COMPLETE / F1_CAUSAL_DESCENT_REQUIRED`
+`ATTRACTION_SCAN_003_F1_SURVIVES_CAUSAL_DESCENT / CHEAP_REALITY_CONFIRMATION_READY`
 
 ## Last Verified Main
 
-`4b10ea2793fe4ac2994310d8cfb33966e070ba44` — PR #267 squash-merged.
+Main before this branch: `0507f006bb1cd7c37d9d0f444df02db9c8d39b7e`.
 
-PR #267 head: `fda6ddc824be7087bfafd18902e1e2ece1d36be9`.
+PR #267 merge SHA: `4b10ea2793fe4ac2994310d8cfb33966e070ba44`.
 
 PR #267 CI #808 / run `35441226027`: success.
 
-PR #266 merge SHA: `8957a469df518558498d28caf14e12eb52f227a1`; CI #806 succeeded.
+The branch base includes the later state-only Scan 003 close checkpoint.
 
 ## Active Issue
 
@@ -66,127 +72,113 @@ PR #266 merge SHA: `8957a469df518558498d28caf14e12eb52f227a1`; CI #806 succeeded
 
 ## Active Branch
 
-None.
+`feature/attraction-scan-003-f1-causal-descent`
 
 ## Active PR
 
-None. PR #267 is merged.
+Not opened yet at this checkpoint.
 
 ## CI
 
-- PR #267 / run `35441226027`: success.
-- Scan 003 is persisted on main.
-- No production code or doctrine changed.
+Pending for this causal-descent checkpoint.
+
+No production code or doctrine change is intended.
 
 ## Latest Artifact / Persisted State
 
-- `docs/research/ATTRACTION_SCAN_003_2026-09-19.md` — broad-reality Scan 003, Attraction Brief and Drift Audit.
-- `data/research_runs/attraction_scan_003.json` — machine-readable Scan 003 state.
-- `data/commercial_reset_state.json` — active epoch authority.
-- prior Scan 001/002 causal-descent artifacts remain audit evidence only.
+- `docs/research/ATTRACTION_SCAN_003_F1_CAUSAL_DESCENT_2026-09-19.md`
+- `data/research_runs/attraction_scan_003_f1_causal_descent.json`
+- `docs/research/ATTRACTION_SCAN_003_2026-09-19.md`
+- `data/research_runs/attraction_scan_003.json`
+- `data/commercial_reset_state.json`
 
 ## Completed
 
-- Reopened broad current reality after Scan 002-F1 demotion.
-- Inspected AI custom services, generic light-service marketplaces, AI customer-service/evaluation, rental/use-right economy, self-service local spaces and inbound tourism friction.
-- Credited generic marketplace payment/dispute infrastructure.
-- Credited current cloud Agent evaluation and formal third-party testing.
-- Credited a direct adjacent AI-project diagnosis/acceptance service.
-- Promoted zero commercial candidates.
-- Retained exactly one research formation: `ATTRACTION_SCAN_003-F1`.
-- Identified the ticket-size barbell as a decisive kill test.
-- Explicitly tested control-right concentration, operator non-labor and self-propulsion.
+- Separated generic acceptance knowledge from executed/reproducible transaction evidence.
+- Credited free acceptance templates and provider-side staged delivery practices.
+- Credited marketplace milestones/payment/dispute rails.
+- Credited cloud Agent evaluation and formal third-party testing.
+- Credited current paid project diagnosis/PoC acceptance consulting.
+- Confirmed current offering evidence spanning very low-price AI services through roughly 10k–40k RMB listed Agent/workflow packages.
+- Confirmed formal acceptance testing can itself cost thousands to tens of thousands, making the middle band worth further falsification.
+- Narrowed the formation to tool-using workflows/Agents where state transitions and execution traces are machine-observable.
+- Rejected open-ended creative AI work as the primary wedge.
+- Applied operator non-labor, compounding and control-right tests.
 
 ## Current Findings
 
-### Evidence that survives
+### What survives
 
-A-side:
-- current AI service supply and transaction volume are large and rapidly growing;
-- provider-side subjective acceptance can create scope creep, rework and tail-payment disputes.
+The missing object is not a checklist.
 
-B-side:
-- buyers and procurement teams repeatedly need measurable AI/Agent acceptance beyond a persuasive demo;
-- AI output variability, workflow/tool execution, permissions, logs, cost and version context make “done” harder to define than fixed-feature software.
+It may be:
 
-### Incumbent capabilities already credited
+`EXECUTED + VERSIONED + REPRODUCIBLE ACCEPTANCE EVIDENCE`.
 
-Current infrastructure already covers:
-- marketplace matching / payment / dispute;
-- escrow or milestone-style outsourcing transactions;
-- Agent evaluation datasets/rules/judges;
-- cloud AI evaluation;
-- third-party software/AI acceptance testing;
-- AI project diagnosis / PoC / acceptance consulting.
+For AI workflow/Agent delivery, observable facts can include:
+- tool/API calls;
+- state changes;
+- permission checks;
+- fallback/human-review gates;
+- logs/traces;
+- latency/cost;
+- retries;
+- deterministic assertions around workflow completion.
 
-Therefore:
+### Why the ticket-size barbell does not yet kill F1
 
-`GENERIC MARKETPLACE != MISSING EDGE`
+- very low-ticket AI service work is too small for a separate layer;
+- formal enterprise projects can already buy conventional QA/consulting;
+- current service listings show a real intermediate offering band around several-thousand to tens-of-thousands RMB;
+- formal independent testing can be disproportionately expensive for that band.
 
-`AI EVALUATION ENGINE != MISSING EDGE`
+This proves only that a plausible economic gap exists, not willingness to pay.
 
-`THIRD-PARTY TEST LAB != MISSING EDGE`.
+### Why F1 still is not a commercial candidate
 
-### Surviving hypothesis
-
-A narrower object may remain:
-
-`TRANSACTION-SIZED ACCEPTANCE CONTRACT + EXECUTABLE TEST/EVIDENCE PACK`.
-
-It would need to:
-- be frozen before work begins;
-- be generated with low manual labor;
-- make delivery evidence reproducible;
-- attach to existing transaction rails rather than replace them;
-- fit a middle-value transaction band;
-- reduce disputes/rework enough to justify its cost.
-
-Truth state:
-
-`HYPOTHESIZED / NOT YET PROVEN`.
-
-### Barbell risk
-
-Low-ticket work may not support a separate acceptance cost.
-
-High-ticket work already supports formal procurement/testing/consulting.
-
-F1 survives only if a meaningful middle band exists.
+Missing real evidence:
+- bilateral adoption before work begins;
+- willingness to pay or materially prefer the transaction with the acceptance object;
+- minutes-not-hours setup;
+- buyer trust in the resulting evidence;
+- marketplace/payment recognition/use;
+- template reuse across transactions.
 
 ## Blockers
 
-The blocker is causal/economic:
+The blocker is now external reality:
 
-`DOES AN AUTOMATABLE MIDDLE-MARKET ACCEPTANCE EDGE ACTUALLY EXIST?`
+`BILATERAL ADOPTION / ECONOMIC VALUE OF THE ACCEPTANCE OBJECT = NOT PROVEN`.
+
+Technical product construction would not answer this.
 
 ## Next Action
 
-Run causal descent on `ATTRACTION_SCAN_003-F1`.
+Create a **cheap reality-confirmation packet**, not a product.
 
-Required:
-1. map transaction-value bands and incumbent options by band;
-2. select 1–2 concrete AI-service categories for acceptance-decomposition;
-3. separate objective executable checks from subjective/domain judgment;
-4. test how much manual work is required to generate the acceptance object;
-5. test whether both parties have incentive to freeze it before work;
-6. inspect whether current adjacent providers already solve the exact middle band;
-7. test integration with existing payment/dispute milestones conceptually;
-8. test liability / guarantee boundary;
-9. test whether templates/evidence can compound across transactions;
-10. fail closed if the layer becomes QA consulting, bespoke specification work or dispute mediation.
+Required evidence target:
+1. identify a current real AI workflow/Agent transaction state;
+2. obtain a real brief/listing/SOW or equivalent public/current transaction artifact;
+3. derive 5–15 measurable acceptance conditions;
+4. separate automatically executable checks from human/domain checks;
+5. estimate setup effort truthfully;
+6. determine whether provider-side and buyer-side incentives both exist;
+7. seek the cheapest real commitment signal before any build;
+8. fail closed if normal milestones are sufficient or the pack becomes consulting.
 
-No product design, pricing, recruitment or outreach yet.
+No SaaS, marketplace, escrow, generic evaluator, pricing page or scale build.
 
 ## Do Not Repeat
 
-- Do not turn F1 into an AI development agency.
-- Do not build another freelance marketplace.
-- Do not build generic Agent evaluation tooling.
-- Do not duplicate formal testing labs.
-- Do not assume millions of AI-service orders imply willingness to buy acceptance.
-- Do not ignore the low-ticket/high-ticket barbell.
-- Do not count manual specification consulting as scalable orchestration.
-- Do not begin seller/buyer outreach yet.
+- Do not broaden F1 back to all AI custom services.
+- Do not sell an acceptance checklist.
+- Do not build generic Agent eval tooling.
+- Do not become a requirements consultant.
+- Do not become a manual QA shop.
+- Do not become a dispute adjudicator.
+- Do not assume current listed prices equal market distribution.
+- Do not count technical feasibility as demand.
+- Do not promote before bilateral real-world evidence.
 - Do not revive Scan 001/002 or pre-reset formations.
 
 ## Guardrails
@@ -194,17 +186,15 @@ No product design, pricing, recruitment or outreach yet.
 - GitHub live state is operational source of truth.
 - REALITY > COGNITION > SCHEMA.
 - BROAD REALITY > CURRENT SEARCH LENS.
-- SEARCH LENS != ONTOLOGY.
+- FREE TEMPLATE != EXECUTED EVIDENCE.
 - TRANSACTION VOLUME != ACCEPTANCE-LAYER DEMAND.
 - TESTABILITY != WILLINGNESS TO PAY.
+- MIDDLE PRICE BAND != MARKET VALIDATION.
 - AI EVALUATION != TRANSACTION ACCEPTANCE BY DEFAULT.
-- CONCENTRATED CONTROL RIGHTS IMPROVE ROUTABILITY BUT DO NOT PROVE VALUE CAPTURE.
 - EXISTING ACTOR != FLOW SOLVED.
 - INCUMBENT PRESENCE != AUTOMATIC KILL.
 - RESIDUAL FRICTION != NEW BUSINESS BY DEFAULT.
-- FOUNDER EXCITEMENT != PARTICIPANT PULL.
-- ATTRACTION != VALIDATION.
-- FOUNDER AS PERMANENT QA / REQUIREMENTS CONSULTANT = FAIL.
+- FOUNDER AS PERMANENT REQUIREMENTS / QA CONSULTANT = FAIL.
 - PLAUSIBLE != PASS.
 - UNKNOWN != PASS.
 - Infer broadly; promote conservatively.
