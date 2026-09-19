@@ -609,3 +609,16 @@ The repository succeeds when it increasingly produces:
 - outcome/reliability learning that improves future formation and routing.
 
 **The engine wins by discovering the value channels reality is already trying to form, proving what is real and designing circulation only after the connection is evidenced — not by waiting for the market to publish a task, and not by imagining a pairing then using human effort as the search algorithm.**
+
+## Durable web-session checkpoint branch — LOCKED
+
+For ChatGPT Plus web sessions and any other long-running agent session that can stall or disappear, use the repository-level recovery protocol in `docs/WEB_SESSION_RECOVERY.md`.
+
+- The permanent volatile checkpoint is `state/chatgpt-recovery:RECOVERY_STATE.json`.
+- Recovery precedence is: live GitHub refs/PRs/Actions/artifacts/persisted data > recovery checkpoint > `TASK_STATE.md` > chat history.
+- Before a long wait or external run, and after each remotely durable milestone, update the recovery checkpoint. Do not defer all checkpointing until task completion.
+- Checkpoint updates are compare-and-swap writes: fetch the latest state-file blob SHA, reconcile live GitHub, increment `generation`, then update using that SHA. On conflict, re-read; never force-overwrite.
+- On a new chat, first classify the checkpoint as `FRESH`, `STALE`, or `CONFLICTED` by comparing it with live GitHub. A moved `main` alone is not failure, especially when automated workflows persist runtime data.
+- If GitHub proves that a commit, PR, CI result, merge, production run, or artifact already exists, consume that evidence and continue from the first unfinished stage. Never repeat work merely because the previous chat ended before writing its next checkpoint.
+- `TASK_STATE.md` remains the stable mission handoff; the recovery-state branch is the volatile execution cursor. Keep both concise and never let either override live GitHub truth.
+
