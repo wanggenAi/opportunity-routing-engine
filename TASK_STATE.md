@@ -4,249 +4,259 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-The active search remains formation-first and centered on ordinary life.
+Regenerative Formation Scan 014 completed causal descent on the only research formation retained by Scan 013: INTERGENERATIONAL HOUSING × COMPANIONSHIP EXCHANGE.
 
-Regenerative Formation Scan 013 restarted from a white portfolio after Scan 012 demoted generic older-adult hidden-asset discovery.
+The institution-based formation is now DEMOTED FROM PRIVATE PRIMARY FORMATION.
 
-Wide sensing retained exactly one research formation:
+Accepted structural model:
 
-`INTERGENERATIONAL HOUSING × COMPANIONSHIP EXCHANGE`
+YOUTH ↔ ELDERCARE INSTITUTION / PUBLIC PROGRAM ↔ OLDER ADULT
 
-This is **not** a commercial candidate.
+The eldercare institution/public program is not a passive supply node. It is the natural local control-plane owner because it already controls accommodation, vulnerable-resident access, screening, training, contracts, house rules, service accounting, monitoring, conflict/exit, safety and regulatory responsibility.
 
-Observed reality is strong enough for causal descent:
-- youth exchange bounded volunteer/companionship contribution for discounted or free accommodation;
-- the pattern is operating across multiple cities/institutions;
-- eldercare/public actors independently describe youth housing pressure, older-adult companionship needs and underused/imbalanced institutional capacity;
-- multiple programs use explicit service-time → accommodation exchange.
-
-But the governing structural cause and any open missing edge remain UNKNOWN.
-
-```text
-RETAINED RESEARCH FORMATION = 1
-ACTIVE COMMERCIAL CANDIDATES = 0
-FORMAL LATENT CONNECTION PROMOTIONS = 0
-FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-```
+Portfolio state:
+- ACTIVE COMMERCIAL CANDIDATES = 0
+- ACTIVE TRANSACTION UNITS = 0
+- FORMAL LATENT CONNECTION PROMOTIONS = 0
+- PRIMARY FORMATION DIRECTION = NONE
+- PRIVATE-HOUSEHOLD HOMESHARE = WATCHLIST ONLY
+- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
 ## Goal
 
-Run recursive causal descent before any exchange design.
+Return to broad ordinary-life sensing after closing the institution-based intergenerational formation.
 
 Preserve:
+- REALITY > COGNITION > SCHEMA
+- OBSERVED EXCHANGE != OPEN EDGE
+- CONTROL-PLANE VALUE != UNOWNED CONTROL PLANE
+- FOREIGN PROOF != LOCAL LEAKAGE
+- SOCIAL VALUE != PRIVATE MARGIN
+- UNKNOWN != PASS
 
-```text
-REALITY > COGNITION > SCHEMA
-
-INTERESTING EXCHANGE != BUSINESS
-BILATERAL DISEQUILIBRIUM != EVIDENCED MISSING EDGE
-PUBLIC PROGRAM SUCCESS != PRIVATE ORCHESTRATION ECONOMICS
-STRUCTURAL FRICTION != MISSING EDGE
-UNKNOWN != PASS
-```
-
-Do not start from an app, marketplace, pricing, buyer budget or founder-delivered service.
+Do not build products from Scan 014. Do not treat a real governance function as an unowned missing edge.
 
 ## Current Unique Commercial Research Goal
 
-Discriminate the causal structure of the retained intergenerational housing/companionship formation.
+Return to fresh ordinary-life regenerative sensing after closing the institution-based intergenerational formation.
 
-At minimum compare:
+The next primary scan must start from a white active portfolio and search for a genuinely unowned or repeatedly failing control plane after incumbent adaptation.
 
-1. `HOUSING_PRICE_DISEQUILIBRIUM`
-   - low-cost accommodation is the dominant youth outcome.
+Private-household homeshare remains watchlist-only and must not be promoted from foreign analogues without current mainland-China executed leakage.
 
-2. `UNDERUSED_INSTITUTIONAL_CAPACITY`
-   - suitable space has low marginal utilization and youth occupancy improves asset value.
+## Completed
 
-3. `OLDER_ADULT_SOCIAL_CONTACT_DEFICIT`
-   - ordinary intergenerational contact has persistent value that professional staffing does not substitute.
+- Completed Scan 014 causal descent across H1–H5.
+- Selected youth primary latent outcome as affordable/stable urban housing.
+- Selected older-adult primary latent outcome as ordinary intergenerational companionship/social vitality.
+- Established the triadic China structure: YOUTH ↔ ELDERCARE INSTITUTION/PUBLIC PROGRAM ↔ OLDER ADULT.
+- Established that trust/safety/responsibility governance is real but currently institution-owned.
+- Demoted institution-based intergenerational co-residence from private primary formation.
+- Preserved private-household homeshare as watchlist/geographic-transfer hypothesis only.
+- Created the Scan 014 JSON and field report.
+- Opened PR #254.
+- PR CI #770 failed only because this TASK_STATE rewrite omitted four required recovery-contract headings; the commercial research artifacts were not the cause.
 
-4. `TRUST_RESPONSIBILITY_OPERATING_BOUNDARY`
-   - screening, duty scope, safety, emergencies, insurance, rules, contribution verification, conflict and replacement block repeatable exchange.
+## Current Findings
 
-5. `PUBLIC_PROGRAM_ECONOMICS`
-   - the exchange works only because institutions/public systems absorb rent discount, coordination and trust costs.
+- CONTROL-PLANE VALUE != UNOWNED CONTROL PLANE.
+- OBSERVED EXCHANGE != OPEN EDGE.
+- HOUSING PRICE WEDGE is a strong youth-side demand pump.
+- ORDINARY INTERGENERATIONAL SOCIAL CONTACT is a real older-adult outcome, but private payer willingness is unproven.
+- EMPTY ELDERCARE BED != LEGAL / SUITABLE YOUTH ROOM.
+- GOVERNANCE / RESPONSIBILITY BOUNDARY is real, but current institutions already own it locally.
+- PUBLIC / INSTITUTION PROGRAM ECONOMICS may dominate current China cases.
+- FOREIGN HOMESHARE MONETIZATION != MAINLAND CHINA OPEN EDGE.
+- ACTIVE COMMERCIAL CANDIDATES = 0.
 
-Do not assume #4 merely because it sounds like an orchestration product.
+## Current Causal Findings
 
-Require discriminating evidence and falsifiers.
+### Youth
+
+Primary latent outcome: AFFORDABLE / STABLE URBAN HOUSING. Confidence HIGH.
+
+Evidence includes a Suzhou participant paying roughly RMB 200/month versus a reported comparable room around RMB 2,000/month, explicit rent-pressure motivation, substantial applicant surplus and multi-year participation.
+
+Secondary belonging/relational value is plausible but not shown to independently drive participation without the housing-price wedge.
+
+### Older adult
+
+Primary latent outcome: ORDINARY INTERGENERATIONAL SOCIAL CONTACT / COMPANIONSHIP. Confidence MEDIUM-HIGH.
+
+Current programs frame youth activity as non-professional companionship/social vitality, not cheap replacement for licensed/professional care.
+
+Social value is supported. Independent private willingness to pay is not.
+
+### Institution
+
+System-level occupancy pressure is real, but EMPTY ELDERCARE BED != LEGAL / SUITABLE YOUTH ROOM.
+
+Underused capacity is supported at aggregate level; dense convertible youth-room supply remains unproven.
+
+## Competing-Cause Verdicts
+
+1. H1 HOUSING_PRICE_DISEQUILIBRIUM
+   - STRONGLY SUPPORTED as youth-side demand pump.
+   - Necessary driver, not complete formation explanation.
+
+2. H2 UNDERUSED_INSTITUTIONAL_CAPACITY
+   - SUPPORTED AT SYSTEM LEVEL.
+   - Unit-level suitability/legal convertibility unresolved.
+
+3. H3 OLDER_ADULT_SOCIAL_CONTACT_DEFICIT
+   - SUPPORTED as repeated social outcome.
+   - Monetization/payer remains UNKNOWN.
+
+4. H4 TRUST_RESPONSIBILITY_OPERATING_BOUNDARY
+   - STRONGLY SUPPORTED as governance constraint.
+   - NOT an open missing edge: institutions already perform screening, testing, training, contracting, monitoring and exit because they bear the local risk.
+
+5. H5 PUBLIC_OR_INSTITUTION_PROGRAM_ECONOMICS
+   - MATERIAL AND POSSIBLY DOMINANT.
+   - China cases are commonly government-guided, institution-operated, volunteer-framed and heavily discounted, with coordination/risk absorbed by the institution/public layer.
+
+## Accepted Causal Frontier
+
+Decision-stable frontier:
+- Youth participation is powered primarily by a large housing-price wedge.
+- Older-adult value is ordinary social contact/companionship, not professional care substitution.
+- Institution value plausibly combines suitable-space utilization, resident experience and policy/social value.
+- Co-residence with vulnerable residents requires high-touch local governance.
+- In current China institution-based cases, that governance is already owned by the institution/public program that bears safety and operating responsibility.
+
+No independent recurring missing edge is established.
+
+Therefore the system must not descend into app features, screening software, insurance wrappers, contract templates, service-hours ledgers or matching algorithms and then mistake those components for a business.
+
+## International Analogue
+
+Homeshare programs abroad prove that screening, matching and ongoing support can be a chargeable economic function.
+
+But many mature programs are charities/not-for-profits or cost-recovery models. International monetization proves mechanism possibility, not a current mainland-China open edge or high-margin private control plane.
+
+## Household Homeshare Watchlist
+
+PRIVATE-HOUSEHOLD INTERGENERATIONAL HOMESHARE is structurally different because no eldercare institution automatically owns the control plane.
+
+However, Scan 014 did not establish strong current mainland-China evidence of repeated executed household-homeshare flow.
+
+Keep it WATCHLIST ONLY. Reactivate only if current mainland-China evidence shows:
+- actual older householders repeatedly offering rooms;
+- actual young participants repeatedly accepting;
+- repeated matches beyond a one-off story;
+- material governance friction;
+- a real external broker/program role;
+- payment or buyer-side willingness to pay for that governance.
+
+Do not infer domestic market truth from foreign analogues.
 
 ## Current Phase
 
-`REGENERATIVE_FORMATION_SCAN_013_MERGED / MAIN_GREEN / INTERGENERATIONAL_FORMATION_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO / CAUSAL_DESCENT_NEXT`
+REGENERATIVE_FORMATION_SCAN_014_ACTIVE / CAUSAL_FRONTIER_ACCEPTED / INSTITUTION_MODEL_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_LIFE_WORLD_SENSING_NEXT
 
 ## Last Verified Main
 
-`04cf32b93b86ce7104fbe29e258a14256234bc6f` — PR #253 squash-merged. Main CI run #769 (run id `35428329604`) passed on this exact functional SHA. A later state-only `[skip ci]` checkpoint may advance live main without changing functional truth.
+04cf32b93b86ce7104fbe29e258a14256234bc6f — PR #253 squash-merged. Main CI run #769 (run id 35428329604) passed on this exact functional SHA. A later state-only [skip ci] checkpoint advanced live main without changing functional truth.
 
 ## Active Issue
 
-#143 — `P0: First external value flow — field proof, not more architecture`.
+#143 — P0: First external value flow — field proof, not more architecture.
 
-Scan 012 was synced in comment id `5740078953`. Scan 013 was synced in comment id `5740107387`.
+Scan 013 was synced in comment id 5740107387.
 
-No outreach is authorized. Current work remains upstream formation research.
+No outreach is authorized.
 
 ## Active Branch
 
-None. `feature/regenerative-formation-scan-013-life-world` is merged through PR #253 and is not an active source of truth.
-
-Historical branches named Scan 013 belong to earlier scan families:
-- `feature/connection-pressure-scan-013` — stale, no unique commits vs current main;
-- `field/opportunity-mobilization-scan-013` — old 2026-09-18 opportunity-mobilization scan, behind current main.
-
-They are not the active Regenerative Formation Scan 013.
+feature/regenerative-formation-scan-014-causal-descent
 
 ## Active PR
 
-None. PR #253 (`Persist fresh everyday-life regenerative formation scan 013`) is merged.
+PR #254 — `Resolve intergenerational co-residence causal frontier` — open.
 
 ## CI
 
-- PR #253 final head: `cc1e591dbefe41ebfa9a436bd7322aec208b2748`
-- PR CI: run #768 (run id `35428306511`), success
-- merge SHA: `04cf32b93b86ce7104fbe29e258a14256234bc6f`
-- main CI: run #769 (run id `35428329604`), success
+- PR #254 head before recovery-contract fix: `5df178fca0b57a8c42745061a4d48ca2acbfaafc`
+- PR CI #770 (run id `35428639622`) failed because TASK_STATE omitted four repository-required recovery headings.
+- Failure was operational-state schema only; Scan 014 JSON/field conclusions were not invalidated.
+- This commit restores the required headings; the next PR CI must pass before merge.
 
 ## Latest Artifact / Persisted State
 
 Current:
-- `data/regenerative_formation_scan_013_fresh_life_world_2026-09-19.json`
-- `field/regenerative-formation-scan-013-fresh-life-world.md`
+- data/regenerative_formation_scan_014_intergenerational_causal_descent_2026-09-19.json
+- field/regenerative-formation-scan-014-intergenerational-causal-descent.md
 
 Parent:
-- `data/regenerative_formation_scan_012_selective_activation_verdict_2026-09-19.json`
-- `field/regenerative-formation-scan-012-selective-activation-verdict.md`
+- data/regenerative_formation_scan_013_fresh_life_world_2026-09-19.json
+- field/regenerative-formation-scan-013-fresh-life-world.md
 
-## Completed
+## Primary Decision
 
-### Wide ordinary-life sensing
+INSTITUTION_BASED_INTERGENERATIONAL_HOUSING_COMPANIONSHIP = DEMOTED FROM PRIVATE PRIMARY FORMATION.
 
-Tested and demoted:
+Preserve as:
+- TRIADIC VALUE-EXCHANGE ARCHETYPE;
+- evidence that a large housing-price wedge can mobilize youth into social-contribution flows;
+- evidence that governed co-residence requires screening/rules/monitoring/exit;
+- sensor for future household-homeshare leakage.
 
-#### A. Low-age elder → high-age elder time exchange
-- Strong regenerative circulation is real.
-- Nanjing reports 1,300+ stations, 94,000 volunteers, 1.47 million orders and 920,000 stored hours.
-- National 2026 policy defines mutual eldercare as voluntary/non-profit.
-- Preserve as regenerative-mechanism calibration, not a private primary.
+Commercial proof that remains absent:
 
-#### B. Shared off-peak parking
-- Bilateral time-shifted mismatch is real.
-- Shanghai already normalizes discovery, online signing and fulfilment through official parking infrastructure.
-- Generic routing edge is demoted.
+INSTITUTION REPEATEDLY FAILS AT A PORTABLE GOVERNANCE FUNCTION + WANTS AN EXTERNAL PARTY TO OWN IT + EXTERNAL OWNERSHIP LOWERS COST/RISK + NORMALIZED PRIVATE MARGIN SURVIVES.
 
-#### C. Generic elder-service routing
-- Family/service fragmentation remains real.
-- Public/basic-service platforms are expanding data integration, discovery, capacity visibility and matching.
-- Any private residual must be observed after that adaptation.
-
-#### D. Household idle-goods recirculation
-- Idle resource pool is real.
-- National policy and current platforms already expand online booking, home pickup, unified recycling and secondhand channels.
-- Generic recirculation is demoted.
-
-### Retained research formation
-
-`INTERGENERATIONAL HOUSING × COMPANIONSHIP EXCHANGE`
-
-Evidence spans:
-- Shanghai;
-- Changzhou/Wujin;
-- Suzhou;
-- Jinyun;
-- a weak exploratory Xuzhou field signal.
-
-Why retained:
-- actor populations replenish;
-- the exchange exists before founder sales;
-- multiple cities independently reproduce the structure;
-- accommodation ↔ bounded companionship/volunteer contribution is an executed value flow;
-- pressure spans housing, space, time, social contact and belonging rather than a single posted task.
-
-Why not promoted:
-- causal structure is ambiguous;
-- private payer is not established;
-- public/institutional normalization is advancing;
-- volunteer/public-interest orientation may dominate economics;
-- management, safety, responsibility and retention costs are material;
-- no open inter-node missing edge has yet been evidenced.
-
-## Current Findings
-
-- `ONE RETAINED FORMATION ZONE != PROMOTED OPPORTUNITY`.
-- `REPEATED REAL EXCHANGE IS STRONGER THAN COMPLEMENTARITY, BUT STILL UPSTREAM OF MISSING-EDGE TRUTH`.
-- `PUBLIC PLATFORM FORMATION IS MATERIAL COUNTEREVIDENCE TO A PRIVATE ROUTING THESIS`.
-- `VOLUNTEER EXCHANGE != PAID DEMAND`.
-- `SOCIAL VALUE != NORMALIZED ORCHESTRATION MARGIN`.
-- `MANAGEMENT FRICTION MAY BE A CAUSE, A COST, OR BOTH; DO NOT LABEL IT THE MISSING EDGE PREMATURELY`.
-- Scan 012's demotion remains valid; Scan 013 did not reactivate generic hidden-asset discovery.
-- Young × retired remains useful as a calibration family, but the retained formation is now a specific observed exchange, not a demographic thesis.
+Without that chain, do not create an outsourced Rooter layer.
 
 ## Blockers
 
-The retained formation cannot promote until evidence establishes:
+No current formation is strong enough to promote.
 
-1. the selected latent outcome for youth;
-2. the selected latent outcome for older adults and/or the institution;
-3. the governing structural constraint;
-4. discriminating evidence against competing explanations;
-5. a decision-stable causal frontier;
-6. whether suitable underused capacity is sufficiently dense and legally usable;
-7. whether youth retention survives service burden and house rules;
-8. whether companionship/social outcomes persist beyond narrative anecdotes;
-9. whether public/institutional subsidy is required;
-10. whether any recurring missing edge remains after current public/institutional platform adaptation;
-11. a plausible private payer and normalized orchestration economics before any commercial promotion.
+Before any new formation can advance, require:
+- repeated real leakage/workaround evidence;
+- a natural event/demand pump;
+- an intervention-relevant structural constraint;
+- a control plane that is genuinely unowned or repeatedly failing after incumbent adaptation;
+- an observed missing edge distinct from structural friction;
+- payer/economic evidence before commercial promotion.
 
-`ACTIVE COMMERCIAL CANDIDATES = 0`.
-
-`FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
+Current execution blocker: PR #254 must return green CI after restoring the recovery-contract headings.
 
 ## Next Action
 
-Run a focused causal-descent scan on `LIFE013_A_INTERGENERATIONAL_HOUSING_COMPANIONSHIP`.
+Start a fresh ordinary-life regenerative scan from a white active portfolio.
 
-Do not design the product.
+Do not carry institution-based intergenerational co-residence forward as an active prior.
 
-Search specifically for:
-- participant retention / churn;
-- institution occupancy and suitable spare-capacity evidence;
-- rent/subsidy economics;
-- manager coordination labor;
-- screening / safety / insurance / duty-boundary practice;
-- elder outcome evidence;
-- youth outcome evidence beyond low rent;
-- failed or discontinued programs;
-- whether government/platform adaptation closes the supposed edge;
-- comparable private-household homeshare leakage, if it actually exists.
+Do not spend the next scan trying to rescue private-household homeshare from foreign analogues. It stays watchlist-only until local executed leakage appears.
 
-Then persist competing latent outcomes, competing causal explanations, discriminating evidence, contradictions, falsifiers and an explicit causal stop reason.
-
-Only after structural truth is evidenced may the system search for complementary nodes and an observed missing edge.
+Search again for:
+- large/replenishing actor populations;
+- durable underused endowments/state disequilibria;
+- repeated real leakage/workarounds;
+- a recurring boundary failure not already naturally owned by an incumbent institution;
+- a natural demand/event pump;
+- a control plane that is genuinely unowned or repeatedly failing after incumbent adaptation.
 
 No product design, pricing or outreach.
 
 ## Do Not Repeat
 
-- Do not promote cross-generational co-living because the story is attractive.
-- Do not call safety/trust/contracting the missing edge before causal descent proves it.
-- Do not treat Shanghai's planned digital platform as proof that another platform is needed.
-- Do not confuse rent discount with payer willingness.
-- Do not treat volunteer hours as commercial revenue.
-- Do not generalize institution-based exchange into private-home homeshare without evidence.
-- Do not reactivate generic human-asset discovery.
-- Do not return to generic matching.
+- Do not build an institution co-living matching app.
+- Do not build screening/KYC, service-hour ledgers, insurance or contract tooling merely because those functions exist.
+- Do not confuse the institution's internal governance burden with an external missing edge.
+- Do not treat foreign Homeshare fees as China payer proof.
+- Do not treat empty eldercare beds as convertible youth-room supply.
+- Do not treat volunteer hours as revenue.
+- Do not revive generic human-asset discovery.
 - Do not contact actors yet.
 
 ## Guardrails
 
 - GitHub live state is operational source of truth.
-- `REALITY > COGNITION > SCHEMA`.
-- `STRUCTURAL FRICTION != MISSING EDGE`.
-- `REPEATED LEAKAGE != COMMERCIAL CANDIDATE`.
-- `PUBLIC PROGRAM SUCCESS != PRIVATE ORCHESTRATION ECONOMICS`.
-- `VOLUNTEER EXCHANGE != PAID DEMAND`.
-- `ONE RETAINED FORMATION != BUSINESS`.
-- `UNKNOWN != PASS`.
+- REALITY > COGNITION > SCHEMA.
+- STRUCTURAL FRICTION != MISSING EDGE.
+- CONTROL-PLANE VALUE != UNOWNED CONTROL PLANE.
+- FOREIGN PROOF != LOCAL LEAKAGE.
+- SOCIAL VALUE != PRIVATE MARGIN.
+- UNKNOWN != PASS.
 - Infer broadly; promote conservatively.
