@@ -133,6 +133,10 @@ class LatentValueFormationTests(unittest.TestCase):
             ),
             lead_constraint_ids=("C-ROLE-PACKAGING",),
             stop_reason=CausalStopReason.INTERVENTION_RELEVANT_BOUNDARY,
+            stop_rationale=(
+                "the current causal frontier is already specific enough to change "
+                "which interface or capability must be tested next"
+            ),
         )
 
     def _hypothesis(self, **overrides):
