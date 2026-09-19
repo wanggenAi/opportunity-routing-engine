@@ -411,6 +411,39 @@ class LatentValueFormationTests(unittest.TestCase):
         self.assertNotIn("missing:psychology_evidence", validate_formation(hypothesis))
         self.assertEqual(formation_state(hypothesis), FormationState.VALIDATION_READY)
 
+    def test_objective_structure_can_form_without_behavior_signal(self):
+        base = self._hypothesis()
+        causal = self._causal_descent()
+        selected = causal.outcome_hypotheses[0]
+        objective_outcome = LatentOutcomeHypothesis(
+            **{
+                **selected.__dict__,
+                "evidence_refs": ("research:underuse", "survey:state"),
+            }
+        )
+        objective_causal = CausalDescentRecord(
+            **{
+                **causal.__dict__,
+                "surface_evidence_refs": ("research:underuse", "survey:state"),
+                "outcome_hypotheses": (objective_outcome,),
+            }
+        )
+        hypothesis = self._hypothesis(
+            psychology_snapshots=(),
+            causal_descent=objective_causal,
+            evidence=tuple(
+                item
+                for item in base.evidence
+                if item.kind is not FormationEvidenceKind.OBSERVED_BEHAVIOR
+            ),
+        )
+        self.assertNotIn(
+            "missing:evidence_kind:OBSERVED_BEHAVIOR",
+            validate_formation(hypothesis),
+        )
+        self.assertEqual(validate_formation(hypothesis), [])
+        self.assertEqual(formation_state(hypothesis), FormationState.VALIDATION_READY)
+
     def test_persistent_mismatch_can_form_without_recent_change(self):
         base = self._hypothesis()
         hypothesis = self._hypothesis(
