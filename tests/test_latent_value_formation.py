@@ -335,6 +335,29 @@ class LatentValueFormationTests(unittest.TestCase):
         self.assertNotIn("missing:psychology_evidence", validate_formation(hypothesis))
         self.assertEqual(formation_state(hypothesis), FormationState.VALIDATION_READY)
 
+    def test_persistent_mismatch_can_form_without_recent_change(self):
+        base = self._hypothesis()
+        hypothesis = self._hypothesis(
+            observed_change="",
+            persistent_mismatch=(
+                "the same role-packaging mismatch persists across the observed period"
+            ),
+            evidence=tuple(
+                item
+                for item in base.evidence
+                if item.kind is not FormationEvidenceKind.ORIGIN_CHANGE
+            ),
+        )
+        self.assertNotIn(
+            "missing:observed_change_or_persistent_mismatch",
+            validate_formation(hypothesis),
+        )
+        self.assertNotIn(
+            "missing:evidence_kind:ORIGIN_CHANGE",
+            validate_formation(hypothesis),
+        )
+        self.assertEqual(formation_state(hypothesis), FormationState.VALIDATION_READY)
+
     def test_psychology_alone_cannot_manufacture_latent_value(self):
         hypothesis = self._hypothesis(
             objective_endowments=(),
