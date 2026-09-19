@@ -208,7 +208,6 @@ _REQUIRED_TEXT_FIELDS = (
     "geography",
     "observed_state",
     "underused_or_misaligned_value",
-    "observed_behavior",
     "latent_outcome_hypothesis",
     "surface_phenomenon_or_friction",
     "structural_friction_hypothesis",
@@ -236,10 +235,23 @@ _VALIDATION_EVIDENCE_KINDS = frozenset(
 )
 
 
+def _canonical_evidence_kind(
+    kind: FormationEvidenceKind,
+) -> FormationEvidenceKind:
+    # Compatibility-only legacy label. Canonical ontology uses MISSING_EDGE.
+    if kind is FormationEvidenceKind.STRANDING_BARRIER:
+        return FormationEvidenceKind.MISSING_EDGE
+    return kind
+
+
 def evidence_kinds(
     hypothesis: LatentValueFormationHypothesis,
 ) -> set[FormationEvidenceKind]:
-    return {item.kind for item in hypothesis.evidence if item.is_usable()}
+    return {
+        _canonical_evidence_kind(item.kind)
+        for item in hypothesis.evidence
+        if item.is_usable()
+    }
 
 
 def missing_validation_evidence(
@@ -247,10 +259,7 @@ def missing_validation_evidence(
 ) -> list[FormationEvidenceKind]:
     present = evidence_kinds(hypothesis)
     missing = set(_VALIDATION_EVIDENCE_KINDS - present)
-    if not {
-        FormationEvidenceKind.MISSING_EDGE,
-        FormationEvidenceKind.STRANDING_BARRIER,
-    }.intersection(present):
+    if FormationEvidenceKind.MISSING_EDGE not in present:
         missing.add(FormationEvidenceKind.MISSING_EDGE)
     return sorted(missing, key=lambda item: item.value)
 
@@ -329,13 +338,19 @@ def validate_formation(
     usable_evidence = [item for item in hypothesis.evidence if item.is_usable()]
     if not usable_evidence:
         errors.append("missing:evidence")
+    available_evidence_refs = {
+        item.source_id for item in usable_evidence
+    }
 
     for kind in missing_validation_evidence(hypothesis):
         errors.append(f"missing:evidence_kind:{kind.value}")
 
     usable_psychology = _usable_psychology_snapshots(hypothesis)
-    if usable_psychology and not _has_behavior_corroboration(hypothesis):
-        errors.append("missing:psychology_behavior_corroboration")
+    if usable_psychology:
+        if not hypothesis.observed_behavior.strip():
+            errors.append("missing:observed_behavior_for_psychology_corroboration")
+        if not _has_behavior_corroboration(hypothesis):
+            errors.append("missing:psychology_behavior_corroboration")
 
     if not (
         hypothesis.resource_state_disequilibrium.strip()
@@ -364,11 +379,6 @@ def validate_formation(
             structural_friction_hypothesis=hypothesis.structural_friction_hypothesis,
         ):
             errors.append(f"causal_descent:{projection_error}")
-        available_evidence_refs = {
-            item.source_id
-            for item in hypothesis.evidence
-            if item.is_usable()
-        }
         for ref in unbound_causal_evidence_refs(
             hypothesis.causal_descent,
             available_evidence_refs,
@@ -397,6 +407,13 @@ def validate_formation(
         ]
         for node_id in invalid_nodes:
             errors.append(f"invalid:complementary_node:{node_id}")
+        for node in hypothesis.complementary_nodes:
+            if not node.is_usable():
+                continue
+            for ref in sorted(set(node.evidence_refs) - available_evidence_refs):
+                errors.append(
+                    f"unbound_complementary_node_evidence_ref:{node.node_id}:{ref}"
+                )
 
     if _material_unresolved_contradictions(hypothesis):
         errors.append("unresolved_material_contradiction")
@@ -430,7 +447,10 @@ def formation_state(hypothesis: LatentValueFormationHypothesis) -> FormationStat
         FormationEvidenceKind.UNDERUSE_MISALIGNMENT in kinds
         and (
             not usable_psychology
-            or _has_behavior_corroboration(hypothesis)
+            or (
+                hypothesis.observed_behavior.strip()
+                and _has_behavior_corroboration(hypothesis)
+            )
         )
         and hypothesis.latent_outcome_hypothesis.strip()
     ):
@@ -514,10 +534,11 @@ def _map_evidence_kind(kind: FormationEvidenceKind) -> EvidenceKind:
         return EvidenceKind.COMPLEMENTARY_STATE
     if kind is FormationEvidenceKind.CONNECTION_PRESSURE:
         return EvidenceKind.CONNECTION_PRESSURE
-    if kind is FormationEvidenceKind.MISSING_EDGE:
+    if kind in {
+        FormationEvidenceKind.MISSING_EDGE,
+        FormationEvidenceKind.STRANDING_BARRIER,
+    }:
         return EvidenceKind.MISSING_EDGE
-    if kind is FormationEvidenceKind.STRANDING_BARRIER:
-        return EvidenceKind.STRANDING_BARRIER
     if kind is FormationEvidenceKind.COUNTERFACTUAL_PRECEDENT:
         return EvidenceKind.VALUE_PRECEDENT
     return EvidenceKind.GENERAL_PATTERN
@@ -637,6 +658,9 @@ GOVERNING_INVARIANTS = (
     "PSYCHOLOGY_EVIDENCE_NE_UNIVERSAL_FORMATION_GATE",
     "OBJECTIVE_CAUSAL_EVIDENCE_MAY_FORM_STRUCTURE_WITHOUT_PSYCHOLOGY",
     "OBSERVED_BEHAVIOR_NE_UNIVERSAL_FORMATION_GATE",
+    "PSYCHOLOGY_IF_USED_REQUIRES_BOUND_BEHAVIOR_CORROBORATION",
+    "COMPLEMENTARY_NODE_EVIDENCE_REF_MUST_BIND_TO_FORMATION_EVIDENCE",
+    "LEGACY_STRANDING_BARRIER_NORMALIZES_TO_MISSING_EDGE",
     "CAUSAL_EVIDENCE_REF_MUST_BIND_TO_FORMATION_EVIDENCE",
     "MOTIVE_HYPOTHESIS_NE_WILLINGNESS_TO_PAY",
     "BEHAVIOR_SIGNAL_NE_TRANSACTION",
