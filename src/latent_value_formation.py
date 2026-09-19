@@ -1,9 +1,10 @@
-"""Evidence-bound bridge from actor state + psychology to latent-value formation.
+"""Evidence-bound bridge from actor state to latent-value formation.
 
 This module exists upstream of canonical transaction promotion. It connects
-objective endowments/state changes with aggregate psychology/behavior evidence and
-heterogeneous complementary world nodes, then asks whether reality already shows
-pressure toward a latent connection between those nodes.
+objective endowments/state changes with observed behavior, optional aggregate
+psychology evidence, explicit causal descent and heterogeneous complementary world
+nodes, then asks whether reality already shows pressure toward a latent connection
+between those nodes.
 
 Only after that connection pressure is evidenced may a counterfactual exchange
 mechanism become validation-ready. Counterfactual design describes execution
@@ -16,12 +17,14 @@ Resource Imbalance / route-testability concerns.
 Core boundary:
 
     OBJECTIVE ENDOWMENT / STATE / CHANGE
-    + PSYCHOLOGY / BEHAVIOR EVIDENCE
+    + OBSERVED BEHAVIOR
+    + OPTIONAL PSYCHOLOGY EVIDENCE
     + SURFACE PHENOMENON / UNDERUSE / MISALIGNMENT
-    -> LATENT / UNFORMED OUTCOME HYPOTHESIS
-    -> STRUCTURAL FRICTION HYPOTHESIS
-    + ALTERNATIVE-EXPLANATION / CORROBORATING EVIDENCE
-    -> EVIDENCED STRUCTURAL FRICTION
+    -> COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES
+    -> RECURSIVE CAUSAL DESCENT
+    -> COMPETING STRUCTURAL FRICTION HYPOTHESES
+    + DISCRIMINATING / CONTRADICTING EVIDENCE + FALSIFIERS
+    -> EVIDENCED DECISION-USEFUL CAUSAL FRONTIER
     + COMPLEMENTARY WORLD NODES
     + CONNECTION PRESSURE EVIDENCE
     -> LATENT CONNECTION / VALUE FORMATION HYPOTHESIS
@@ -29,8 +32,9 @@ Core boundary:
     != PAID NEED
     != TRANSACTION
 
-Psychology is aggregate/segment evidence. This bridge must not be used to build
-unnecessary individual psychographic profiles or to infer sensitive traits.
+Psychology is an optional aggregate/segment causal sensor, not a universal gate.
+This bridge must not be used to build unnecessary individual psychographic profiles
+or to infer sensitive traits.
 """
 
 from __future__ import annotations
@@ -398,10 +402,14 @@ def formation_state(hypothesis: LatentValueFormationHypothesis) -> FormationStat
     ):
         return FormationState.RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS
 
+    usable_psychology = _usable_psychology_snapshots(hypothesis)
     if not (
         FormationEvidenceKind.UNDERUSE_MISALIGNMENT in kinds
         and FormationEvidenceKind.OBSERVED_BEHAVIOR in kinds
-        and _has_behavior_corroboration(hypothesis)
+        and (
+            not usable_psychology
+            or _has_behavior_corroboration(hypothesis)
+        )
         and hypothesis.latent_outcome_hypothesis.strip()
     ):
         return FormationState.RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS
