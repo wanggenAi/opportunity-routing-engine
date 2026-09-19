@@ -95,10 +95,12 @@ GLOBAL + DOMESTIC SENSOR FABRIC
 → PERCEPTION / MOTIVE
 → OBSERVED BEHAVIOR
 → SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
-→ RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
-→ LATENT / UNFORMED OUTCOME HYPOTHESIS
-→ STRUCTURAL FRICTION HYPOTHESIS
-→ CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+→ RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM
+→ COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES
+→ RECURSIVE CAUSAL DESCENT
+→ COMPETING STRUCTURAL FRICTION HYPOTHESES
+→ DISCRIMINATING EVIDENCE / FALSIFIERS / CONTRADICTION SEARCH
+→ DECISION-USEFUL CAUSAL FRONTIER
 → EVIDENCED STRUCTURAL FRICTION
 → COMPLEMENTARY WORLD-NODE SEARCH
 → CONNECTION-PRESSURE EVIDENCE
@@ -126,12 +128,18 @@ A core formation candidate where at least one side contains value or an outcome 
 objective_endowments
 observed_state / observed_change
 perception / motive / behavior
-resource_psychology_disequilibrium
+resource_state_or_psychology_disequilibrium
 surface_phenomenon_or_friction
-latent_or_unformed_outcome_hypothesis
-structural_friction_hypothesis
+latent_outcome_hypotheses
+selected_latent_outcome
+latent_outcome_truth_state
+structural_friction_hypotheses
+lead_structural_constraints
 structural_friction_truth_state
 alternative_explanations
+discriminating_evidence
+falsifiers
+causal_stop_reason
 structural_friction_evidence
 hidden_or_underrecognized_value
 complementary_world_nodes
@@ -338,11 +346,12 @@ For each material formation:
 ```text
 OBSERVED FACTS
 → SURFACE PHENOMENON / SURFACE FRICTION
-→ ACTOR'S PRODUCT-AGNOSTIC LATENT STATE TRANSITION
-→ STRUCTURAL FRICTION HYPOTHESIS
-→ ALTERNATIVE EXPLANATIONS
-→ DISCRIMINATING EVIDENCE
-→ EVIDENCED STRUCTURAL FRICTION
+→ COMPETING PRODUCT-AGNOSTIC LATENT STATE TRANSITIONS
+→ COMPETING STRUCTURAL FRICTION HYPOTHESES
+→ RECURSIVE DEEPER CONSTRAINTS WHERE WARRANTED
+→ DISCRIMINATING EVIDENCE + CONTRADICTIONS + FALSIFIERS
+→ EXPLICIT CAUSAL STOP REASON
+→ EVIDENCED DECISION-USEFUL CAUSAL FRONTIER
 ```
 
 Truth states are:
@@ -361,6 +370,26 @@ CURRENT EXTERNALIZED WORKAROUND FIRST != LATENT VALUE DOCTRINE
 ```
 
 A `DECISIVE_UNKNOWN / PROBE_ELIGIBLE` state is allowed when public/authorized sensing has isolated one causal uncertainty whose answer would strongly falsify or support the structural-friction hypothesis. Human contact must test that one uncertainty and must not become generic discovery labor.
+
+### Causal-depth implementation rule
+
+The canonical executable model is `src/causal_descent.py`.
+
+A single deeper-sounding sentence is not a causal model. A promotable causal record must preserve:
+- competing latent-outcome hypotheses;
+- competing structural constraints;
+- parent/child depth where a deeper layer is claimed;
+- supporting and contradicting evidence;
+- discriminating evidence;
+- falsifiers;
+- the current lead constraint(s);
+- an explicit stop reason.
+
+The accepted frontier may be multi-causal.
+
+Psychology is optional. If used, it must be behavior-corroborated. Objective state, process, institutional, technical, rights/access, trust and economic evidence may independently support structural friction.
+
+An inferred causal structure may guide **exploratory** complementary-node search. Formal candidate promotion still requires `EVIDENCED_STRUCTURE`.
 
 ## 11. Complementary world-node search
 
@@ -488,13 +517,17 @@ Formation maturity may move through:
 ```text
 RESIDUAL / UNBOUND
 → OBSERVED_TRANSITION
-→ RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS
-→ LATENT_VALUE_FORMATION_HYPOTHESIS
+→ RESOURCE_STATE_OR_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS
+→ STRUCTURAL_FRICTION_HYPOTHESIS
+→ STRUCTURAL_FRICTION_EVIDENCED
 → COMPLEMENTARITY_HYPOTHESIS
+→ LATENT_CONNECTION_EVIDENCED
 → VALIDATION_READY
 ```
 
-`COMPLEMENTARITY_HYPOTHESIS` means compatible nodes and plausible mechanics may exist, but connection-pressure evidence, missing-edge truth or contradiction resolution is incomplete.
+`COMPLEMENTARITY_HYPOTHESIS` means compatible nodes exist, but connection-pressure evidence, missing-edge truth or contradiction resolution is incomplete. Exchange mechanics must not be used to compensate for this missing connection truth.
+
+`LATENT_CONNECTION_EVIDENCED` means connection pressure plus a distinct inter-node missing edge are supported strongly enough that minimum exchange mechanics may now be designed. It is still not paid demand or a commercial opportunity.
 
 `VALIDATION_READY` means objective formation evidence now includes explicit `CONNECTION_PRESSURE`, an observed stranding barrier, behavior-corroborated psychology, evidenced complementary nodes and no unresolved material contradiction. Reality already provides enough directional evidence to justify spending scarce human/external validation capital on the remaining decisive uncertainty.
 
