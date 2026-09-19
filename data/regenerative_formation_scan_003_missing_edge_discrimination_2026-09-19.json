@@ -1,0 +1,228 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_003_MISSING_EDGE_DISCRIMINATION",
+  "date": "2026-09-19",
+  "title": "Cross-domain missing-edge discrimination for everyday intergenerational value fields",
+  "parent_scan": "REGENERATIVE_FORMATION_SCAN_002_LIFE_WORLD",
+  "purpose": "Test whether LWF-001..004 share one recurring missing edge or whether the apparent commonality is only organizer presence masking domain-specific barriers.",
+  "governing_truth": [
+    "MUTUAL BENEFIT != LATENT CONNECTION",
+    "ORGANIZER PRESENT != SAME MISSING EDGE",
+    "TRUST != SUFFICIENT EXPLANATION",
+    "PARTIAL FLOW != OPEN COMMERCIAL EDGE",
+    "CROSS_DOMAIN RECURRENCE MUST SURVIVE CONTRADICTION SEARCH",
+    "SOCIAL VALUE != COMMERCIAL VALUE"
+  ],
+  "domain_discrimination": [
+    {
+      "id": "LWF-001",
+      "domain": "intergenerational co-living / housing exchange",
+      "evidence": [
+        {
+          "fact": "Shanghai's 2026 official response frames cross-generational co-living as government-guided, institution-led and socially participated, and explicitly calls for policy standards, risk control and a city-level digital platform.",
+          "source": "https://mzj.sh.gov.cn/MZ_zhuzhan2595_0-2-8-2593/20260608/f8e3a1fa11094a2483d149feb4fb9747.html"
+        },
+        {
+          "fact": "Research on institutional intergenerational co-living reports low standardization, unclear exchange/settlement rules, weak dispute rules, information gaps and difficulty extending trust beyond familiar social relations.",
+          "source": "https://www.sohu.com/a/865429023_121117494"
+        }
+      ],
+      "recurring_edge_components": [
+        "identity / eligibility verification",
+        "clear reciprocal obligations",
+        "privacy and living-boundary rules",
+        "dispute handling",
+        "trusted institutional backing",
+        "continuity / exit rules"
+      ],
+      "domain_specific_components": [
+        "housing regulation",
+        "property/tenancy arrangements",
+        "residential privacy",
+        "institutional accommodation rules"
+      ],
+      "conclusion": "SHARED_RELATIONSHIP_EDGE_PRESENT_BUT_DOMAIN_SPECIFIC_HOUSING_LAYER_REQUIRED"
+    },
+    {
+      "id": "LWF-002",
+      "domain": "shared-grandma / childcare support",
+      "evidence": [
+        {
+          "fact": "2026 reporting on mature shared-grandma practice shows the organizer performs applicant screening, face-to-face matching, tripartite agreement witnessing, dedicated communication groups, school documentation, responsibility rules and insurance/risk mechanisms.",
+          "source": "https://paper.people.com.cn/jksb/pad/content/202603/20/content_30148690.html"
+        },
+        {
+          "fact": "The central social-work authority notes that shared-grandma models still face trust deficits and unclear incentives, and recommends insurance and other guarantee mechanisms for reliable continuous service.",
+          "source": "https://www.zyshgzb.gov.cn/n1/2025/0403/c460343-40453028.html"
+        },
+        {
+          "fact": "Recent reporting explicitly contrasts community-organized models with private stranger-to-stranger arrangements, where parents describe safety and liability concerns as too high.",
+          "source": "https://m.thepaper.cn/newsDetail_forward_32127948"
+        }
+      ],
+      "recurring_edge_components": [
+        "identity/background screening",
+        "trust backing",
+        "scope/boundary definition",
+        "schedule reliability",
+        "insurance/liability allocation",
+        "incident escalation",
+        "continuity / replacement"
+      ],
+      "domain_specific_components": [
+        "child safeguarding",
+        "school pickup authorization",
+        "caregiving competence",
+        "heightened liability"
+      ],
+      "conclusion": "SHARED_RELATIONSHIP_EDGE_STRONGLY_PRESENT__SAFETY_SENSITIVE_DOMAIN"
+    },
+    {
+      "id": "LWF-003",
+      "domain": "reciprocal skill exchange",
+      "evidence": [
+        {
+          "fact": "A youth survey found skill exchange commonly blocked by poor matching efficiency (53.1%), privacy/safety risk (51.6%) and lack of effective supervision (21.5%); respondents also wanted stronger trust/community mechanisms and offline organization.",
+          "source": "https://news.youth.cn/jsxw/202504/t20250423_15961004.htm"
+        },
+        {
+          "fact": "Shanghai's cross-generational skill-exchange project emerged only after a local action group conducted interviews, demand collection, categorization and organized workshops/community events with a professional social organization.",
+          "source": "https://www.shcn.gov.cn/col7343/20240805/1264165.html"
+        },
+        {
+          "fact": "Current commentary on skill exchange recommends credit evaluation, public spaces and institutional support because spontaneous stranger exchange has trust, safety and continuity limitations.",
+          "source": "https://www.chsi.com.cn/jyzx/jysp/202601/20260114/2293448179.html"
+        }
+      ],
+      "recurring_edge_components": [
+        "capability legibility",
+        "want/offer matching",
+        "identity and trust",
+        "safe offline meeting context",
+        "supervision / reputation",
+        "reciprocity expectation",
+        "continuity"
+      ],
+      "domain_specific_components": [
+        "skill-quality ambiguity",
+        "difficulty valuing unlike skills",
+        "some skills unsuitable for casual exchange"
+      ],
+      "conclusion": "SHARED_RELATIONSHIP_EDGE_PRESENT__LOWER_SAFETY_INTENSITY_THAN_CHILDCARE"
+    },
+    {
+      "id": "LWF-004",
+      "domain": "senior craft production × youth design/distribution",
+      "evidence": [
+        {
+          "fact": "The Beijing 'silver artisan' program explicitly uses a full value-conversion chain: artisan discovery, capability cultivation, product conversion, income-generating sales and transmission, with 42 artisans, 72 market events, 800+ classes and 3,000+ products sold.",
+          "source": "https://www.bjyouth.gov.cn/news/mediaFocus/826558700261445.html"
+        },
+        {
+          "fact": "Fengtai's 2026 '银创工坊' describes the core problem as scattered hidden elder skills needing aggregation, branding, display, community activity and market linkage; 38 community pilots and nearly 200 artisans are already in the system.",
+          "source": "https://www.bjft.gov.cn/fengtaishibao/html/2026-06/29/content_9500_19659829.htm"
+        },
+        {
+          "fact": "Current local research finds elder handicraft commercialization still constrained mainly by lack of sales channels; community staff report 83.3% naming channel shortage as a main obstacle.",
+          "source": "https://tidenews.com.cn/tmh_news.html?id=6a687fdf94099e00013236a2"
+        }
+      ],
+      "recurring_edge_components": [
+        "capability discovery / aggregation",
+        "product reframing",
+        "design and quality adaptation",
+        "story/brand translation",
+        "market/channel access",
+        "ongoing merchandising and operations"
+      ],
+      "shared_relationship_components": [
+        "trust between artisan and organizer",
+        "role/benefit clarity"
+      ],
+      "conclusion": "DIFFERENT_PRIMARY_EDGE__VALUE_TRANSLATION_AND_DISTRIBUTION_NOT_GENERAL_RELATIONSHIP_INFRASTRUCTURE"
+    }
+  ],
+  "cross_domain_result": {
+    "universal_edge_across_all_four": false,
+    "split_archetypes": [
+      {
+        "archetype_id": "LWA-RELATIONSHIP",
+        "name": "Trusted reciprocal exchange operating layer",
+        "member_zones": [
+          "LWF-001",
+          "LWF-002",
+          "LWF-003"
+        ],
+        "state": "CROSS_DOMAIN_RECURRING_EDGE_EVIDENCED_IN_PART__NOT_CANONICAL_LATENT_CONNECTION",
+        "recurring_components": [
+          "make offers/wants legible",
+          "verify identity / eligibility",
+          "match by fit, geography and time",
+          "define reciprocal obligations and boundaries",
+          "create a trusted offline/real-life interaction context",
+          "record service / reciprocity / reputation",
+          "provide accountability, escalation and continuity",
+          "carry domain-appropriate insurance/risk safeguards where needed"
+        ],
+        "evidence_basis": "Housing, childcare and skill exchange independently show that organizer scaffolding repeatedly supplies substantially overlapping functions. The overlap is stronger than generic 'trust' but not yet sufficient to prove one reusable commercial system.",
+        "major_contradiction": "Current public/community/time-bank institutions already perform many of these functions, and some domains may be public-good/volunteer systems rather than commercial markets."
+      },
+      {
+        "archetype_id": "LWA-VALUE-TRANSLATION",
+        "name": "Latent capability-to-market translation layer",
+        "member_zones": [
+          "LWF-004"
+        ],
+        "state": "SEPARATE_ARCHETYPE__ECONOMIC_PARTIAL_FLOW_OBSERVED",
+        "recurring_components": [
+          "discover hidden senior productive capability",
+          "reframe it into contemporary product/service form",
+          "adapt design/quality",
+          "aggregate supply",
+          "brand/story",
+          "distribute through modern channels",
+          "operate repeat sales"
+        ],
+        "evidence_basis": "The strongest economic examples succeed through product conversion and distribution, not merely through safe relationship matching.",
+        "major_contradiction": "May remain a craft/cultural-goods niche rather than a broad cross-generational economic field."
+      }
+    ]
+  },
+  "time_bank_and_institution_counterevidence": [
+    {
+      "fact": "Shanghai's time-bank system already records service, standardizes exchange and uses city-level coordination; by Aug 2025 it had 11,839 service providers, 240,085 service hours and 15,410 older service recipients.",
+      "source": "https://mzj.sh.gov.cn/MZ_zhuzhan2595_0-2-8-2593/20260608/f8e3a1fa11094a2483d149feb4fb9747.html"
+    },
+    {
+      "fact": "2026 research on time banks still finds weak credit guarantees, non-unified redemption, quality-standard gaps and imbalanced participant supply, showing that 'record time and match people' alone does not solve sustainable reciprocal exchange.",
+      "source": "https://doi.org/10.12677/ar.2026.138543"
+    },
+    {
+      "fact": "A 2026 Beijing report shows volunteers still worry whether saved service time can be redeemed in the future; suggested fixes include unified platforms, common valuation rules, risk notices and government credit backing.",
+      "source": "https://sc.people.com.cn/n2/2026/0826/c345167-41678024.html"
+    }
+  ],
+  "deeper_interpretation": {
+    "rejected_unification": "A single generic 'intergenerational platform' is not supported.",
+    "surviving_hypothesis": "For everyday non-kin exchanges whose value is primarily relational/reciprocal rather than product-market conversion, the repeated missing-edge pattern is not simple matching. It is a trusted reciprocal exchange operating layer that makes capabilities/needs legible, bounds obligations, carries identity/reputation, and provides continuity/recourse across repeated exchanges.",
+    "truth_state": "EVIDENCED_PATTERN__LATENT_CONNECTION_NOT_YET_PROMOTED",
+    "reason_not_promoted": [
+      "commercial surplus is not established",
+      "public/community institutions already own much of the edge",
+      "domain safety/regulatory constraints differ materially",
+      "it is not yet shown that one common mechanism can operate across domains without losing local trust",
+      "it is not yet shown that participants will use the layer outside institution-led contexts"
+    ]
+  },
+  "next_action": "Do not add new domains. Deepen LWA-RELATIONSHIP only by testing portability and self-propulsion: search evidence of cross-community/cross-institution portability, participant return/repeat behavior, persistent use after initial organizer-led events, willingness to carry reputation/reciprocity across contexts, and why existing time-bank/community systems fail to become normal daily exchange infrastructure. In parallel, keep LWA-VALUE-TRANSLATION separate and only test whether its pattern repeats beyond traditional handicrafts.",
+  "portfolio_state": {
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "active_formation_family": "LWF-INTERGEN-001",
+    "active_archetype_hypotheses": [
+      "LWA-RELATIONSHIP",
+      "LWA-VALUE-TRANSLATION"
+    ],
+    "formal_latent_connection_promotions": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  }
+}
