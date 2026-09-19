@@ -57,28 +57,29 @@ Decisive question:
 Do not select a product.
 
 ## Current Phase
-`FORMATION_SCAN_010_ACTIVE / SOURCE_LEGIBILITY_FRICTION_EVIDENCED / PRIVATE_REPLICABILITY_UNKNOWN / VALUE_DENSITY_AUDIT_NEXT`
+`FORMATION_SCAN_010_MERGED / MAIN_GREEN / SOURCE_LEGIBILITY_FRICTION_EVIDENCED / PRIVATE_REPLICABILITY_UNKNOWN / VALUE_DENSITY_AUDIT_NEXT`
 
 ## Last Verified Main
-`c7cbaa6deac3ac1185884bdb6b731f9899d2ce2c` — PR #248 squash-merged. Main CI run #761 (run id `35427182009`) passed on this exact functional SHA. Live main later advanced with state-only checkpoint `b16838b7ef7bd5177495f065a57e876bbabba0f8`.
-
-The current Scan 010 work is on an unmerged feature branch and must pass PR CI before becoming functional main truth.
+`6131cb30c034ba465d5a8636031836135b433702` — PR #250 squash-merged. Main CI run #763 (run id `35427537682`) passed on this exact functional SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Scan 008 was synced in comment id `5739966795`. Scan 009 was synced in comment id `5739981405`.
+Scan 008 was synced in comment id `5739966795`. Scan 009 was synced in comment id `5739981405`. Scan 010 was synced in comment id `5740026636`.
 
 No outreach is authorized. Current work remains upstream formation research.
 
 ## Active Branch
-`feature/source-legibility-scan-010`
+None. `feature/source-legibility-scan-010` is merged and is not an active source of truth.
 
 ## Active PR
-None yet.
+None. PR #250 (`Audit source-side legibility of latent older-adult assets`) is merged.
 
 ## CI
-No CI has run yet on Scan 010.
+- PR #250 final head: `253a8071e7769dbafaf89de448848ac1377d0044`
+- PR CI: run #762, run id `35427476037`, success
+- merge SHA: `6131cb30c034ba465d5a8636031836135b433702`
+- main CI: run #763, run id `35427537682`, success
 
 ## Latest Artifact / Persisted State
 Current:
