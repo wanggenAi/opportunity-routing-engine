@@ -152,34 +152,36 @@ Do not infer domestic market truth from foreign analogues.
 
 ## Current Phase
 
-REGENERATIVE_FORMATION_SCAN_014_ACTIVE / CAUSAL_FRONTIER_ACCEPTED / INSTITUTION_MODEL_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_LIFE_WORLD_SENSING_NEXT
+REGENERATIVE_FORMATION_SCAN_014_MERGED / MAIN_GREEN / INSTITUTION_MODEL_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_LIFE_WORLD_SENSING_NEXT
 
 ## Last Verified Main
 
-04cf32b93b86ce7104fbe29e258a14256234bc6f — PR #253 squash-merged. Main CI run #769 (run id 35428329604) passed on this exact functional SHA. A later state-only [skip ci] checkpoint advanced live main without changing functional truth.
+6ae3da9b952e6bae73b6218e25c391aeb072fe86 — PR #254 squash-merged. Main CI run #772 (run id 35428698369) passed on this exact functional SHA. A later state-only [skip ci] checkpoint may advance live main without changing functional truth.
 
 ## Active Issue
 
 #143 — P0: First external value flow — field proof, not more architecture.
 
-Scan 013 was synced in comment id 5740107387.
+Scan 013 was synced in comment id 5740107387. Scan 014 was synced in comment id 5740143570.
 
 No outreach is authorized.
 
 ## Active Branch
 
-feature/regenerative-formation-scan-014-causal-descent
+None. feature/regenerative-formation-scan-014-causal-descent is merged through PR #254 and is not an active source of truth.
 
 ## Active PR
 
-PR #254 — `Resolve intergenerational co-residence causal frontier` — open.
+None. PR #254 — `Resolve intergenerational co-residence causal frontier` — is merged.
 
 ## CI
 
-- PR #254 head before recovery-contract fix: `5df178fca0b57a8c42745061a4d48ca2acbfaafc`
-- PR CI #770 (run id `35428639622`) failed because TASK_STATE omitted four repository-required recovery headings.
-- Failure was operational-state schema only; Scan 014 JSON/field conclusions were not invalidated.
-- This commit restores the required headings; the next PR CI must pass before merge.
+- PR #254 initial head: `5df178fca0b57a8c42745061a4d48ca2acbfaafc`
+- PR CI #770 (run id `35428639622`) failed only because TASK_STATE omitted four repository-required recovery headings.
+- Recovery-contract fix head: `e000837b5d0c6efbdb19586865bfa4a24bcda666`
+- PR CI #771 (run id `35428677740`): success
+- merge SHA: `6ae3da9b952e6bae73b6218e25c391aeb072fe86`
+- main CI #772 (run id `35428698369`): success
 
 ## Latest Artifact / Persisted State
 
@@ -219,7 +221,7 @@ Before any new formation can advance, require:
 - an observed missing edge distinct from structural friction;
 - payer/economic evidence before commercial promotion.
 
-Current execution blocker: PR #254 must return green CI after restoring the recovery-contract headings.
+Current execution blocker: none. No formation is currently strong enough to promote; the next work item is fresh broad ordinary-life sensing.
 
 ## Next Action
 
