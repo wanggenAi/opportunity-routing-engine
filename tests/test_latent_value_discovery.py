@@ -89,6 +89,10 @@ class LatentValueDiscoveryTests(unittest.TestCase):
             ),
             lead_constraint_ids=("C-PACKAGING",),
             stop_reason=CausalStopReason.INTERVENTION_RELEVANT_BOUNDARY,
+            stop_rationale=(
+                "the current causal frontier is already specific enough to change "
+                "which interface or capability must be tested next"
+            ),
         )
 
     def _candidate(self, **overrides):
