@@ -39,7 +39,7 @@
         "Existing private-label / sample-based processing",
         "Existing vertically integrated electric-drive manufacturers"
       ],
-      "observed_post_incumbent_missing_edge": "NOT_BOUND",
+      "observed_post_incumbent_missing_edge": "NO",
       "unproven_possible_constraints": [
         "IP or proprietary process transfer",
         "quality consistency",
@@ -50,13 +50,36 @@
       ],
       "constraint_note": "These possible constraints are hypotheses only. No current public evidence found in this scan proves which one, if any, prevents overflow production from being routed to existing local capacity.",
       "reachability": "PUBLIC_CONTACT_ROUTE_EXISTS_BUT_NOT_RELEASED",
-      "judgment": "BOUND_COST_EVENT / OBSERVATION_ONLY / NO_PROMOTION",
+      "judgment": "CLOSED_NO_OBSERVED_MISSING_EDGE",
       "sources": [
         "https://www.xhby.net/content/s6a3b6e52e4b010b7fda2187a.html",
         "https://zgjssw.jschina.com.cn/yaowen/202609/t20260913_8593060.shtml",
         "https://www.aichangjia.com/factory/52123.html",
         "https://www.jumboot.com.cn/"
-      ]
+      ],
+      "residual_audit": {
+        "status": "COMPLETE",
+        "search_scope": [
+          "outsourcing / subcontracting / OEM / delegated production",
+          "supplier and second-source behavior",
+          "quality-system and certification constraints",
+          "production-line / expansion evidence"
+        ],
+        "attributable_findings": [
+          "Current public materials confirm Keya operates a deeply integrated in-house controller manufacturing and quality stack, including SMT/placement, wave soldering, automated test capability and automotive quality-system claims.",
+          "Current public reporting confirms a dense Fengxian vehicle/parts cluster and nearby alternative manufacturing capability.",
+          "No attributable public evidence found in this audit states that Keya attempted subcontracting/second-source production and was blocked, refused it for a stated reason, or faced a named IP/quality/certification/component constraint that prevents overflow routing."
+        ],
+        "observed_missing_edge_after_audit": "NO",
+        "closure_reason": "REAL_BUYER_COST_BUT_NO_OBSERVED_POST_INCUMBENT_MISSING_EDGE",
+        "sources": [
+          "https://www.xhby.net/content/s6a3b6e52e4b010b7fda2187a.html",
+          "https://zgjssw.jschina.com.cn/yaowen/202609/t20260913_8593060.shtml",
+          "https://www.coatingol.com/xinxi/article-iewy-68609.html",
+          "https://www.aichangjia.com/factory/52123.html",
+          "https://www.jumboot.com.cn/"
+        ]
+      }
     },
     {
       "actor": "江苏本优机械有限公司",
@@ -128,8 +151,7 @@
   ],
   "cross_industry_result": {
     "bound_cost_event_count": 5,
-    "open_residual_observations": 1,
-    "open_residual_actor": "徐州科亚机电有限公司",
+    "open_residual_observations": 0,
     "retained_candidates": [],
     "retained_count": 0,
     "new_p0_promotions": 0,
@@ -137,11 +159,11 @@
     "material_learning": [
       "Buyer-cost-first produces materially stronger evidence than mechanism-first scanning because it starts from observed economic pressure.",
       "A named actor losing orders is still not an opportunity until the reason existing capacity, suppliers or platforms cannot absorb the overflow is observed.",
-      "Xuzhou Keya is the first strong current Scan-024 observation: real foregone orders are public, but the missing edge between excess demand and abundant local manufacturing capacity remains unknown.",
-      "Several other named cost events were real but already closed by current institutional or multimodal routes.",
-      "The next decisive public question is not what service to invent; it is why Keya's overflow demand is not already routed through the dense Fengxian production cluster."
+      "Keya's foregone overseas orders are real, but the targeted residual audit found no attributable public evidence of a post-incumbent routing barrier.",
+      "Integrated manufacturing, patents, quality systems or strong in-house process capability cannot be converted into an outsourcing barrier by inference alone.",
+      "Several other named cost events were real but already closed by current institutional or multimodal routes."
     ],
-    "current_best_next_truth": "Run a narrow residual audit around the Keya overflow event. Search only for attributable evidence of outsourcing/subcontracting behavior, refusal, quality/IP/certification constraints, supplier qualification, capacity-sharing attempts or other observed reasons existing local controller/manufacturing capacity cannot absorb the overflow. If no missing edge can be bound, close the event and continue buyer-cost-first scanning elsewhere."
+    "current_best_next_truth": "Close the Keya observation fail-closed and start Fresh Scan 025 under the same BUYER COST FIRST rule. Search new current Xuzhou/Jiangsu private-market events; require a named actor plus observed economic cost and an observed post-incumbent missing edge before any candidate is retained."
   },
   "first_external_value_flow": "NOT_PROVEN"
 }
