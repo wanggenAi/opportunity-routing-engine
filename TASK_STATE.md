@@ -61,28 +61,29 @@ Test:
 7. whether operator value persists after the first translation.
 
 ## Current Phase
-`FORMATION_SCAN_007_ACTIVE / VT_A_DEMOTED / VT_B_PRIMARY / DISCOVERY_VALUE_FORM_ROUTING_NEXT`
+`FORMATION_SCAN_007_MERGED / MAIN_GREEN / VT_A_DEMOTED / VT_B_PRIMARY / DISCOVERY_VALUE_FORM_ROUTING_NEXT`
 
 ## Last Verified Main
-`31aba351135195fea5bc11fba0e27bb2ccc1617d` — PR #245 squash-merged. Main CI run #755 (run id `35424517418`) passed on this functional SHA. Live main later advanced with state-only checkpoint `3675b02e1b83172c3e0b596730bd364e60058e0d`.
-
-The current Scan 007 work is on an unmerged feature branch and must pass PR CI before becoming functional main truth.
+`1f8146a099d59785578a80b18f87540e31e04fea` — PR #246 squash-merged. Main CI run #757 (run id `35426877317`) passed on this exact functional SHA. The state-only checkpoint commit that updates this file may advance live main with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Scan 006 was synced in comment id `5739710066`.
+Scan 006 was synced in comment id `5739710066`. Scan 007 was synced in comment id `5739953888`.
 
 No outreach is authorized. Current work remains upstream formation research.
 
 ## Active Branch
-`feature/vt-a-vt-b-discrimination-scan-007`
+None. `feature/vt-a-vt-b-discrimination-scan-007` is merged and is not an active source of truth.
 
 ## Active PR
-None yet.
+None. PR #246 (`Discriminate VT-A and VT-B regenerative flow mechanics`) is merged.
 
 ## CI
-No CI has run yet on Scan 007.
+- PR #246 final head: `5dacc7aaf191dffea51311d0a5a7536274cf8089`
+- PR CI: run #756, success
+- merge SHA: `1f8146a099d59785578a80b18f87540e31e04fea`
+- main CI: run #757, run id `35426877317`, success
 
 ## Latest Artifact / Persisted State
 Current:
