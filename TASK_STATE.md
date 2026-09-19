@@ -41,24 +41,29 @@ For each fresh flow, bind:
 No pre-reset candidate may be revived without fresh post-reset evidence.
 
 ## Current Phase
-`CLEAN_SLATE_RESET_ACTIVE / VALUE_FLOW_SCAN_001_PERSISTED / PRE_RESET_CASES_INACTIVE / TRANSACTION_UNIT_VALIDATION_NEXT`
+`CLEAN_SLATE_RESET_MERGED / MAIN_GREEN / PRE_RESET_CASES_INACTIVE / TRANSACTION_UNIT_VALIDATION_NEXT`
 
 ## Last Verified Main
-`bef7217d169a23b8ff2e5a7bf4c922e39daf8e89` — PR #237 functional main CI run #738 (run id `35421761861`) passed on this exact SHA. Live main later advanced with state-only checkpoint `cb1b0444204f8d873352566d8574015af8272118`.
+`71c8f55e36b01465ef985cc78f8dc5cebb2685c3` — PR #238 squash-merged. Main CI run #740 (run id `35422252170`) passed on this exact SHA. The state-only checkpoint commit that updates this file may advance live `main` with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-The issue remains the mission anchor only. Its previous route-specific comments are historical context and are not active candidate instructions after this reset.
+Clean-slate reset was synced to Issue #143 in comment id `5739446249`.
+
+The issue remains the mission anchor only. Its older route-specific comments are historical context and are not active candidate instructions after this reset.
 
 ## Active Branch
-`feature/clean-slate-value-flow-001`
+None. `feature/clean-slate-value-flow-001` is merged and is not an active source of truth.
 
 ## Active PR
-None yet for the clean-slate reset branch.
+None. PR #238 (`Reset active portfolio and start clean-slate value-flow scan`) is merged.
 
 ## CI
-No CI has run yet on the clean-slate branch. A PR must be opened and CI must pass before merge.
+- PR #238 final head: `ab7eb58412461c9f05dce38049b2151e45df3395`
+- PR CI: run #739, run id `35422237679`, success
+- merge SHA: `71c8f55e36b01465ef985cc78f8dc5cebb2685c3`
+- main CI: run #740, run id `35422252170`, success
 
 ## Latest Artifact / Persisted State
 Active reset:
@@ -89,6 +94,7 @@ Historical files remain in Git for audit/regression but are not active priors.
 - Found current government and enterprise evidence that SMEs lack AI talent and already use flexible/project-based AI implementation.
 - Found a current direct buyer example of a foreign company offering about RMB 700-800 for one day of checklist-driven exhibition field research by a local student/part-timer.
 - Sent no outreach and made no formal opportunity promotion.
+- PR #238 and main CI are green.
 
 ## Current Findings
 - The cleanest commercial signal is a task that already has a buyer, bounded output, acceptance condition and current payment.
