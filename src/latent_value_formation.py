@@ -590,9 +590,9 @@ def to_latent_value_candidate(
         complementary_actor_hypothesis=node_hypothesis,
         complementary_actor_state=node_states,
         transformation_mechanism=hypothesis.counterfactual_exchange_design,
-        why_exchange_does_not_already_happen=(
-            hypothesis.why_exchange_does_not_already_happen
-        ),
+        # Legacy narrative projection. The canonical inter-node blocker is
+        # observed_missing_edge; do not allow an older prose field to redefine it.
+        why_exchange_does_not_already_happen=hypothesis.observed_missing_edge,
         incremental_value_for_origin_actor=(
             hypothesis.incremental_value_for_origin_actor
         ),
