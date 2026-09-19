@@ -152,6 +152,13 @@ Psychology may be absent in an otherwise valid structural formation. Objective b
 NO PSYCHOLOGY SIGNAL != NO STRUCTURAL FRICTION
 ```
 
+A recent state change can create a new opportunity surface, but a persistent structural mismatch may also contain latent value. Do not reject a formation solely because the underlying condition is longstanding.
+
+```text
+RECENT CHANGE != UNIVERSAL DISCOVERY REQUIREMENT
+PERSISTENT MISMATCH MAY BE FIRST-CLASS EVIDENCE
+```
+
 ## 5. Latent value and unformed outcomes are first-class
 
 `LATENT_VALUE` means potentially realizable value that exists in an actor, resource, relationship, behavior pattern or structural position but is not yet fully recognized, packaged, connected, trusted, priced or activated.
