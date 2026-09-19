@@ -133,6 +133,8 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM", discovery)
         self.assertIn("COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES", discovery)
         self.assertIn("Counterfactual Exchange Design", discovery)
+        self.assertIn("outcome_selection_evidence_refs", discovery)
+        self.assertIn("deeper_search_would_change_decision", discovery)
         self.assertIn("src/causal_descent.py", discovery)
         self.assertIn("LATENT_CONNECTION_EVIDENCED", discovery)
         causal = self._read("src/causal_descent.py")
@@ -149,6 +151,8 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("ENDOWMENT / STATE / CONSTRAINTS", architecture)
         self.assertIn("LATENT VALUE HYPOTHESIS", architecture)
         self.assertIn("COMPLEMENTARY ACTOR SEARCH", architecture)
+        self.assertIn("outcome_selection_evidence_refs", architecture)
+        self.assertIn("deeper_search_would_change_decision", architecture)
         self.assertIn("LatentValueHypothesis != Verified Resource", architecture)
         self.assertIn("The engine is not a database of buyers and suppliers", architecture)
 
