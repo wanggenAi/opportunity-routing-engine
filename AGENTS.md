@@ -45,6 +45,28 @@ Optimize for **truthful value formation + discovered latent connections + recurr
 
 **Code serves the doctrine. The doctrine does not bend to the convenience of code, a website, an API, an explicit-demand feed, a current candidate or a source schema.**
 
+## Reality-first adaptive cognition — LOCKED
+
+Preserve this ordering:
+
+```text
+REALITY > COGNITION > SCHEMA
+```
+
+Discovery is allowed to behave like an adaptive flow rather than a railroad. It may enter through any evidence-bearing layer, branch, revisit earlier interpretations, infer backward from a downstream anomaly, merge causal paths, discover new Actors late, or replace an earlier frame when evidence changes.
+
+Schemas, validators, state machines and canonical chains exist to prevent unsupported claims from being promoted as truth and to make reasoning auditable. They must not force reality into a preselected sequence.
+
+Do not use fixed hypothesis counts as a substitute for causal rigor. Actively search for material alternatives where ambiguity exists and preserve them when found. If no credible alternative survives honest search, do not fabricate one merely to satisfy a schema.
+
+When reviewing or adding a rule, ask:
+
+> **Does this rule prevent false promotion, or does it merely suppress exploration?**
+
+Strengthen the former. Default to weakening, moving downstream or removing the latter.
+
+State-machine labels describe epistemic maturity; they are not a mandatory traversal order. Discovery may be nonlinear. Promotion must still be evidence-bound, falsifiable, contradiction-aware and fail-closed.
+
 ## Durable execution and recovery protocol — LOCKED
 
 GitHub's current repository state is the operational source of truth for project progress. Chat context is disposable transport; it is never authoritative project state.
@@ -162,7 +184,7 @@ If answers 1–4 are weak, the feature is not a core-priority feature even if te
 - `SURFACE FRICTION != OPPORTUNITY`.
 - `STATED NEED != LATENT OUTCOME`.
 - `LATENT OUTCOME HYPOTHESIS != EVIDENCED LATENT OUTCOME`.
-- Competing latent outcomes plus bound selection evidence are required before causal promotion.
+- Material latent-outcome alternatives must be preserved when reality supports them; never fabricate alternatives to satisfy a fixed count. Bound selection evidence is required before causal promotion.
 - `OBSERVED COST != ROOT CAUSE`.
 - `ONE PLAUSIBLE EXPLANATION != STRUCTURAL TRUTH`.
 - `DEEPER STORY != DEEPER TRUTH`.
