@@ -1,0 +1,151 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_004_PORTABILITY_SELF_PROPULSION",
+  "date": "2026-09-19",
+  "title": "Portability and self-propulsion audit for everyday intergenerational reciprocal exchange",
+  "parent_scan": "REGENERATIVE_FORMATION_SCAN_003_MISSING_EDGE_DISCRIMINATION",
+  "purpose": "Test whether the shared relationship-layer hypothesis can become a regenerative value field rather than remaining institution-bound community programming.",
+  "focus_archetype": "LWA-RELATIONSHIP",
+  "governing_truth": [
+    "LOCAL TRUST != PORTABLE TRUST",
+    "RECORDED CREDIT != LIQUID RECIPROCITY",
+    "ORGANIZED ACTIVITY != SELF_PROPULSION",
+    "REPEAT EVENT != REGENERATIVE LOOP",
+    "INSTITUTIONAL BACKING MAY BE STRUCTURAL NOT TEMPORARY"
+  ],
+  "findings": {
+    "portability": {
+      "state": "PORTABILITY_GAP_EVIDENCED",
+      "evidence": [
+        {
+          "fact": "A current 2026 Beijing report records volunteers asking whether saved service time will remain redeemable years later and what happens if they move to another community; legal commentary recommends unified city-level transferability and government credit backing.",
+          "source": "https://sc.people.com.cn/n2/2026/0826/c345167-41678024.html"
+        },
+        {
+          "fact": "Current 2026 research based on Nanjing/Shanghai practice identifies barriers to universal deposit/redemption as a direct cause of liquidity blockage and weak long-term trust.",
+          "source": "https://doi.org/10.12677/ar.2026.138543"
+        },
+        {
+          "fact": "Zhangjiagang's public time-bank rules show an example of locality-bound value: when a participant moves household registration out of the city, the account is closed and time credits are converted to a one-off cash subsidy rather than remaining portable service claims.",
+          "source": "https://www.zjg.gov.cn/zjg/glzd/system.shtml"
+        }
+      ],
+      "interpretation": "The reciprocal asset is often valid only inside the institution/community that issued it. Moving across geography or governance boundaries can reset or extinguish the claim. This weakens the promise that present contribution creates durable future reciprocal rights."
+    },
+    "self_propulsion": {
+      "state": "SELF_PROPULSION_NOT_EVIDENCED__ORGANIZER_DEPENDENCE_EVIDENCED",
+      "evidence": [
+        {
+          "fact": "Current 2026 time-bank research reports insufficient internal momentum caused by participant-structure imbalance, weak credit guarantees and quality-standard gaps.",
+          "source": "https://doi.org/10.12677/ar.2026.138543"
+        },
+        {
+          "fact": "A 2026 academic review of mutual-aid eldercare says many pilots have existed for more than a decade but large-scale sustainable expansion remains elusive, with many projects remaining demonstration-style sites.",
+          "source": "https://opaj.napstic.cn/periodicalArticle/0120260802406759"
+        },
+        {
+          "fact": "Historical field research documents organizer withdrawal failure: after a professional social-work team exited a time-bank pilot at the end of its service term, some community activity degraded and communication channels became inactive.",
+          "source": "https://html.rhhz.net/shgzygl/html/1586502160548-1305891357.htm",
+          "evidence_role": "historical mechanism evidence, not current prevalence proof"
+        }
+      ],
+      "interpretation": "Current evidence does not show that the relationship network naturally continues after organizer stimulus. In many implementations, the organizer is part of the production function rather than merely a launch catalyst."
+    },
+    "credit_and_liquidity": {
+      "state": "DEEPER_EDGE_EVIDENCED",
+      "evidence": [
+        {
+          "fact": "Current Beijing participants identify future redeemability itself as the core confidence problem: they may contribute now but cannot know whether enough future providers, useful redemption options or institutional continuity will exist.",
+          "source": "https://sc.people.com.cn/n2/2026/0826/c345167-41678024.html"
+        },
+        {
+          "fact": "Current research describes weak credit guarantees, limited universal redemption and service-quality inconsistency as barriers to turning accumulated time into credible future rights.",
+          "source": "https://doi.org/10.12677/ar.2026.138543"
+        },
+        {
+          "fact": "Research on time-bank startup logic identifies unstable participant expectations, weak trust, uneven value measurement and fragmented management as recurring structural problems.",
+          "source": "https://cjournal.hep.com.cn/1671-1653/CN/1217459968510070823"
+        }
+      ],
+      "interpretation": "The deeper resource may not be 'points'. It may be a credible portable claim on future reciprocal capacity, backed by standards, quality, liquidity and institutional continuity."
+    },
+    "domain_risk_split": {
+      "state": "ONE_SHARED_SUBSTRATE__DIFFERENT_EXECUTION_RISK_CLASSES",
+      "classes": [
+        {
+          "class_id": "LWA-R1",
+          "name": "high-trust / high-liability reciprocal life support",
+          "domains": [
+            "LWF-001 housing",
+            "LWF-002 childcare"
+          ],
+          "conclusion": "These domains likely require persistent institutional or regulated trust anchors. Full peer-to-peer self-propulsion may be undesirable because privacy, child safety, housing and liability rules are structural."
+        },
+        {
+          "class_id": "LWA-R2",
+          "name": "lower-risk reciprocal capability exchange",
+          "domains": [
+            "LWF-003 skills / local-life knowledge / digital help"
+          ],
+          "conclusion": "This domain has fewer safety constraints and is the cleaner place to test whether portable reputation, reciprocal records and repeated local exchange can become self-propelling outside a heavy institution."
+        }
+      ]
+    }
+  },
+  "relationship_archetype_update": {
+    "previous_state": "CROSS_DOMAIN_RECURRING_EDGE_EVIDENCED_IN_PART__NOT_CANONICAL_LATENT_CONNECTION",
+    "new_state": "PORTABILITY_GAP_EVIDENCED__SELF_PROPULSION_NOT_EVIDENCED__LAYERED_EDGE_HYPOTHESIS",
+    "layered_hypothesis": {
+      "common_substrate": [
+        "portable identity / reputation",
+        "legible offer and want",
+        "bounded reciprocal obligation",
+        "service / contribution record",
+        "credible future reciprocity claim",
+        "exception / dispute history",
+        "continuity across time and context"
+      ],
+      "domain_governance_layer": [
+        "housing-specific privacy / tenancy / residence rules",
+        "childcare-specific safeguarding / pickup / liability rules",
+        "skill-exchange-specific quality / supervision rules"
+      ],
+      "caution": "This is a structural hypothesis, not a product architecture."
+    }
+  },
+  "value_translation_parallel_check": {
+    "archetype": "LWA-VALUE-TRANSLATION",
+    "state": "BROADER_THAN_HANDICRAFTS_PLAUSIBLE__NOT_YET_EVIDENCED_AS_MARKET",
+    "evidence": [
+      {
+        "fact": "Fengtai's 2026 silver-capability program includes not only crafts but retired engineers delivering aerospace science education, suggesting the hidden-capability problem extends beyond physical handicrafts.",
+        "source": "https://www.bjft.gov.cn/fengtaishibao/html/2026-06/29/content_9500_19659829.htm"
+      },
+      {
+        "fact": "A September 2026 Hangzhou pilot trains older adults to turn accumulated experience into callable AI Skills; examples include cooking experience and family-education knowledge.",
+        "source": "https://stcn.com/article/detail/4173334.html"
+      }
+    ],
+    "interpretation": "The underlying formation may be broader: retirement strands useful experience in forms that modern distribution/software cannot call directly, while digital/AI tooling can reduce conversion cost. Young-digital participation is still only partially evidenced in this broader form, so no intergenerational commercial thesis is promoted."
+  },
+  "decisive_learning": [
+    "The relationship archetype's hardest problem is not initial matching. It is continuity of trust and reciprocity across time, place and organizer boundaries.",
+    "A local community can manufacture trust through social capital, but that trust often does not travel.",
+    "A ledger can record contribution without guaranteeing future liquidity, quality or redemption.",
+    "For high-risk domains, persistent institutional backing may be a feature rather than a removable friction.",
+    "The cleanest test bed for self-propelling intergenerational reciprocity is lower-risk skill/local-life exchange, not childcare or housing.",
+    "LWA-VALUE-TRANSLATION may extend beyond crafts into knowledge/experience digitization, but the role of younger counterparts and recurring commercial demand remain unbound."
+  ],
+  "portfolio_state": {
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "active_formation_family": "LWF-INTERGEN-001",
+    "active_archetype_hypotheses": [
+      "LWA-R1 high-trust reciprocal life support",
+      "LWA-R2 lower-risk reciprocal capability exchange",
+      "LWA-VALUE-TRANSLATION hidden capability to modern market/callable form"
+    ],
+    "formal_latent_connection_promotions": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "next_action": "Deepen LWA-R2 first. Search for repeated low-risk, non-kin intergenerational skill/local-life exchanges that persist beyond one organizer-led event, create repeat pairings or referrals, carry reputation across encounters, and show a recurring reason people return. Separately, test whether LWA-VALUE-TRANSLATION appears in everyday non-craft domains with actual repeated value capture. Do not design a platform, set prices or contact actors."
+}
