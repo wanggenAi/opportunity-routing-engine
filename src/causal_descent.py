@@ -148,6 +148,7 @@ class CausalDescentRecord:
     surface_evidence_refs: tuple[str, ...]
     outcome_hypotheses: Sequence[LatentOutcomeHypothesis]
     selected_outcome_id: str
+    outcome_selection_rationale: str
     constraint_hypotheses: Sequence[StructuralConstraintHypothesis]
     lead_constraint_ids: tuple[str, ...]
     stop_reason: CausalStopReason | None = None
@@ -168,6 +169,7 @@ class CausalDescentRecord:
                 item.as_dict() for item in self.outcome_hypotheses
             ],
             "selected_outcome_id": self.selected_outcome_id,
+            "outcome_selection_rationale": self.outcome_selection_rationale,
             "constraint_hypotheses": [
                 item.as_dict() for item in self.constraint_hypotheses
             ],
@@ -300,6 +302,9 @@ def causal_descent_from_mapping(raw: Mapping[str, object]) -> CausalDescentRecor
         ),
         outcome_hypotheses=tuple(outcomes),
         selected_outcome_id=str(raw.get("selected_outcome_id") or ""),
+        outcome_selection_rationale=str(
+            raw.get("outcome_selection_rationale") or ""
+        ),
         constraint_hypotheses=tuple(constraints),
         lead_constraint_ids=_string_tuple(
             raw.get("lead_constraint_ids"),
@@ -348,6 +353,8 @@ def validate_causal_descent(record: CausalDescentRecord) -> list[str]:
 
     if record.selected_outcome_id not in outcomes:
         errors.append("selected_outcome_not_found")
+    elif not record.outcome_selection_rationale.strip():
+        errors.append("selected_outcome_requires_rationale")
 
     for outcome in record.outcome_hypotheses:
         if not outcome.is_usable():
@@ -622,6 +629,7 @@ GOVERNING_INVARIANTS = (
     "SURFACE_SIGNAL_NE_CAUSAL_EXPLANATION",
     "STATED_REQUEST_NE_LATENT_OUTCOME",
     "LATENT_OUTCOME_HYPOTHESIS_NE_FACT",
+    "SELECTED_LATENT_OUTCOME_REQUIRES_EXPLICIT_RATIONALE",
     "ONE_PLAUSIBLE_CAUSE_NE_STRUCTURAL_TRUTH",
     "DEEPER_STORY_NE_DEEPER_TRUTH",
     "ROOT_CAUSE_LANGUAGE_NE_SINGLE_CAUSE_ASSUMPTION",
