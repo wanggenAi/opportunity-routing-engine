@@ -36,6 +36,39 @@ Preserve:
 
 Do not build products from Scan 014. Do not treat a real governance function as an unowned missing edge.
 
+## Current Unique Commercial Research Goal
+
+Return to fresh ordinary-life regenerative sensing after closing the institution-based intergenerational formation.
+
+The next primary scan must start from a white active portfolio and search for a genuinely unowned or repeatedly failing control plane after incumbent adaptation.
+
+Private-household homeshare remains watchlist-only and must not be promoted from foreign analogues without current mainland-China executed leakage.
+
+## Completed
+
+- Completed Scan 014 causal descent across H1–H5.
+- Selected youth primary latent outcome as affordable/stable urban housing.
+- Selected older-adult primary latent outcome as ordinary intergenerational companionship/social vitality.
+- Established the triadic China structure: YOUTH ↔ ELDERCARE INSTITUTION/PUBLIC PROGRAM ↔ OLDER ADULT.
+- Established that trust/safety/responsibility governance is real but currently institution-owned.
+- Demoted institution-based intergenerational co-residence from private primary formation.
+- Preserved private-household homeshare as watchlist/geographic-transfer hypothesis only.
+- Created the Scan 014 JSON and field report.
+- Opened PR #254.
+- PR CI #770 failed only because this TASK_STATE rewrite omitted four required recovery-contract headings; the commercial research artifacts were not the cause.
+
+## Current Findings
+
+- CONTROL-PLANE VALUE != UNOWNED CONTROL PLANE.
+- OBSERVED EXCHANGE != OPEN EDGE.
+- HOUSING PRICE WEDGE is a strong youth-side demand pump.
+- ORDINARY INTERGENERATIONAL SOCIAL CONTACT is a real older-adult outcome, but private payer willingness is unproven.
+- EMPTY ELDERCARE BED != LEGAL / SUITABLE YOUTH ROOM.
+- GOVERNANCE / RESPONSIBILITY BOUNDARY is real, but current institutions already own it locally.
+- PUBLIC / INSTITUTION PROGRAM ECONOMICS may dominate current China cases.
+- FOREIGN HOMESHARE MONETIZATION != MAINLAND CHINA OPEN EDGE.
+- ACTIVE COMMERCIAL CANDIDATES = 0.
+
 ## Current Causal Findings
 
 ### Youth
@@ -139,11 +172,14 @@ feature/regenerative-formation-scan-014-causal-descent
 
 ## Active PR
 
-None yet.
+PR #254 — `Resolve intergenerational co-residence causal frontier` — open.
 
 ## CI
 
-No PR CI has run yet on Scan 014.
+- PR #254 head before recovery-contract fix: `5df178fca0b57a8c42745061a4d48ca2acbfaafc`
+- PR CI #770 (run id `35428639622`) failed because TASK_STATE omitted four repository-required recovery headings.
+- Failure was operational-state schema only; Scan 014 JSON/field conclusions were not invalidated.
+- This commit restores the required headings; the next PR CI must pass before merge.
 
 ## Latest Artifact / Persisted State
 
@@ -170,6 +206,20 @@ Commercial proof that remains absent:
 INSTITUTION REPEATEDLY FAILS AT A PORTABLE GOVERNANCE FUNCTION + WANTS AN EXTERNAL PARTY TO OWN IT + EXTERNAL OWNERSHIP LOWERS COST/RISK + NORMALIZED PRIVATE MARGIN SURVIVES.
 
 Without that chain, do not create an outsourced Rooter layer.
+
+## Blockers
+
+No current formation is strong enough to promote.
+
+Before any new formation can advance, require:
+- repeated real leakage/workaround evidence;
+- a natural event/demand pump;
+- an intervention-relevant structural constraint;
+- a control plane that is genuinely unowned or repeatedly failing after incumbent adaptation;
+- an observed missing edge distinct from structural friction;
+- payer/economic evidence before commercial promotion.
+
+Current execution blocker: PR #254 must return green CI after restoring the recovery-contract headings.
 
 ## Next Action
 
