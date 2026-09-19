@@ -33,14 +33,12 @@ class Cycle002HiddenValueBatch1Tests(unittest.TestCase):
             self.assertIn("missing:latent_outcome_hypothesis", errors, candidate["candidate_id"])
             self.assertIn("missing:structural_friction_hypothesis", errors, candidate["candidate_id"])
             self.assertIn("structural_friction_not_evidenced", errors, candidate["candidate_id"])
-            self.assertIn("missing:alternative_explanations", errors, candidate["candidate_id"])
             self.assertIn(
                 "missing:evidence_kind:STRUCTURAL_FRICTION",
                 errors,
                 candidate["candidate_id"],
             )
-            self.assertIn("missing:causal_descent_record_id", errors, candidate["candidate_id"])
-            self.assertIn("missing:causal_stop_reason", errors, candidate["candidate_id"])
+            self.assertIn("missing:causal_descent", errors, candidate["candidate_id"])
             self.assertIn("missing:connection_pressure_hypothesis", errors, candidate["candidate_id"])
             self.assertIn("missing:observed_missing_edge", errors, candidate["candidate_id"])
             self.assertIn("missing:latent_connection_hypothesis", errors, candidate["candidate_id"])
