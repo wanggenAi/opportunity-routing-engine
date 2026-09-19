@@ -35,6 +35,17 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("BUYER COST FIRST != CONSTITUTION", principle)
         self.assertIn("DECISIVE_UNKNOWN / PROBE_ELIGIBLE", principle)
 
+    def test_structural_friction_principle_requires_competing_causal_descent(self):
+        principle = self._read("docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md")
+        self.assertIn("Causal descent is recursive, not one jump", principle)
+        self.assertIn("ONE PLAUSIBLE EXPLANATION", principle)
+        self.assertIn("decision-useful, falsifiable causal frontier", principle)
+        self.assertIn("INTERVENTION_RELEVANT_BOUNDARY", principle)
+        self.assertIn("MULTI_CAUSAL_FRONTIER", principle)
+        self.assertIn("Psychology is one causal sensor, not a universal gate", principle)
+        self.assertIn("INFERRED STRUCTURE", principle)
+        self.assertIn("MAY GUIDE EXPLORATION", principle)
+
     def test_latent_connection_discovery_principle_is_constitutional(self):
         principle = self._read("docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md")
         self.assertIn("CONSTITUTIONAL / LOCKED", principle)
@@ -73,10 +84,13 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
     def test_formal_truth_preserves_connection_discovery_and_fail_closed_promotion(self):
         truth = self._read("docs/FORMAL_TRUTH.md")
         self.assertIn("Actor-First Regenerative Latent-Value Formation & Orchestration Engine", truth)
-        self.assertIn("infer boldly and promote conservatively", truth)
+        self.assertIn("infer broadly, descend causally, compare explanations, and promote conservatively", truth)
         self.assertIn("Objective Resource Exists != Commercial Value Exists", truth)
         self.assertIn("Psychology Hypothesis != Demand", truth)
         self.assertIn("Surface Phenomenon != Structural Friction", truth)
+        self.assertIn("Latent Outcome Hypothesis != Evidenced Latent Outcome", truth)
+        self.assertIn("One Plausible Explanation != Structural Truth", truth)
+        self.assertIn("Psychology Evidence != Universal Formation Gate", truth)
         self.assertIn("Structural Friction Hypothesis != Evidenced Structural Friction", truth)
         self.assertIn("Buyer Cost First != Constitution", truth)
         self.assertIn("Connection Invention != Connection Discovery", truth)
@@ -108,9 +122,17 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("Latent Value Formation Radar", discovery)
         self.assertIn("Two candidate classes — do not mix them", discovery)
         self.assertIn("EXPLICIT_DEMAND_EXECUTION != CORE_LATENT_VALUE_FORMATION", discovery)
-        self.assertIn("RESOURCE–PSYCHOLOGY DISEQUILIBRIUM", discovery)
-        self.assertIn("LATENT / UNFORMED OUTCOME HYPOTHESIS", discovery)
+        self.assertIn("RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM", discovery)
+        self.assertIn("COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES", discovery)
         self.assertIn("Counterfactual Exchange Design", discovery)
+        self.assertIn("src/causal_descent.py", discovery)
+        self.assertIn("LATENT_CONNECTION_EVIDENCED", discovery)
+        causal = self._read("src/causal_descent.py")
+        self.assertIn("ONE_PLAUSIBLE_CAUSE_NE_STRUCTURAL_TRUTH", causal)
+        self.assertIn(
+            "CAUSAL_DESCENT_STOPS_AT_DEEPEST_DECISION_USEFUL_FALSIFIABLE_FRONTIER",
+            causal,
+        )
         self.assertIn("VALUE_DISCOVERY_PRECEDES_ORCHESTRATION", self._read("src/latent_value_discovery.py"))
 
     def test_architecture_cannot_collapse_back_to_explicit_matching(self):
