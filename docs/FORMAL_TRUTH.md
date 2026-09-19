@@ -72,10 +72,12 @@ WORLD SENSING
 → PERCEPTION / MOTIVE
 → OBSERVED BEHAVIOR
 → SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
-→ RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
-→ LATENT / UNFORMED OUTCOME HYPOTHESIS
-→ STRUCTURAL FRICTION HYPOTHESIS
-→ CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+→ RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM
+→ COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES
+→ RECURSIVE CAUSAL DESCENT
+→ COMPETING STRUCTURAL FRICTION HYPOTHESES
+→ DISCRIMINATING EVIDENCE / FALSIFIERS / CONTRADICTION SEARCH
+→ DECISION-USEFUL CAUSAL FRONTIER
 → EVIDENCED STRUCTURAL FRICTION
 → COMPLEMENTARY WORLD-NODE SEARCH
 → CONNECTION-PRESSURE EVIDENCE
@@ -92,7 +94,7 @@ WORLD SENSING
 
 `NeedSignal`, `ResourceSignal` and `BlockerSignal` are downstream evidence projections inside this larger model. They do not define the whole ontology.
 
-The engine must **infer boldly and promote conservatively**.
+The engine must **infer broadly, descend causally, compare explanations, and promote conservatively**.
 
 Hypothesis generation may be broad. Canonical promotion remains fail-closed and evidence-bound.
 
@@ -123,7 +125,11 @@ Inference != Fact
 Surface Phenomenon != Structural Friction
 Surface Friction != Opportunity
 Stated Need != Latent Outcome
+Latent Outcome Hypothesis != Evidenced Latent Outcome
 Observed Cost != Root Cause
+One Plausible Explanation != Structural Truth
+Deeper Story != Deeper Truth
+Psychology Evidence != Universal Formation Gate
 Structural Friction Hypothesis != Evidenced Structural Friction
 Structural Friction != Missing Edge
 Buyer Cost First != Constitution
@@ -162,10 +168,12 @@ Data Sources / Live Sensors
 → State / State Change
 → Perception / Motive / Behavior
 → Surface Phenomenon / Surface Friction / Underuse / Contradiction
-→ Resource–Psychology Disequilibrium
-→ Latent / Unformed Outcome Hypothesis
-→ Structural Friction Hypothesis
-→ Cross-Evidence / Alternative-Explanation Search
+→ Resource / State / Psychology Disequilibrium
+→ Competing Latent / Unformed Outcome Hypotheses
+→ Recursive Causal Descent
+→ Competing Structural Friction Hypotheses
+→ Discriminating Evidence / Falsifiers / Contradiction Search
+→ Decision-Useful Causal Frontier
 → Evidenced Structural Friction
 → Complementary World-Node Search
 → Connection-Pressure Evidence
@@ -256,7 +264,7 @@ The engine must search for **what actors may not know about themselves**: hidden
 
 It must also search for **what reality is already trying to connect**: repeated workarounds, informal exchange, failed attempts, substitution, referrals and existing expensive routes that reveal directional pressure before a formal market exists.
 
-A primary search target is `RESOURCE–PSYCHOLOGY DISEQUILIBRIUM`: the mismatch between what an actor objectively has and what its current state, psychology, behavior, environment and available routes allow those resources to become.
+A primary search target is a resource/state/behavior disequilibrium: the mismatch between what an actor objectively has and what its current state, psychology when relevant, behavior, environment and available routes allow those resources to become. Psychology is one useful explanatory layer, not a universal gate.
 
 Macro growth is search-direction evidence, not business proof.
 
@@ -290,6 +298,41 @@ SURFACE PHENOMENON / SURFACE FRICTION
 Current-cycle heuristics such as `BUYER COST FIRST` and `CURRENT EXTERNALIZED WORKAROUND FIRST` may improve evidence quality, but they are not constitutional search definitions and must not exclude behavior-first, state-change-first, underuse-first, psychology/disequilibrium-first, partial-flow-first or contradiction-first discovery.
 
 A targeted human contact may be used at `DECISIVE_UNKNOWN / PROBE_ELIGIBLE` when one bounded causal uncertainty remains after broad sensing. The contact must test that uncertainty rather than ask for generic pain points or idea endorsement.
+
+## 2B. Causal-depth truth — LOCKED
+
+Structural-friction discovery is not a one-step rewrite of a visible symptom.
+
+The canonical causal layer is:
+
+```text
+SURFACE SIGNAL
+→ competing LATENT OUTCOME hypotheses
+→ competing STRUCTURAL CONSTRAINT hypotheses
+→ recursive deeper causes where evidence warrants
+→ discriminating evidence / contradictions / falsifiers
+→ explicit stop reason
+→ deepest decision-useful falsifiable causal frontier
+```
+
+Do not assume a single root cause. A real blocked transition may remain multi-causal.
+
+The engine stops descending only when one of these is explicit:
+
+```text
+INTERVENTION_RELEVANT_BOUNDARY
+NO_DEEPER_FALSIFIABLE_LAYER
+EVIDENCE_LIMIT_REACHED
+MULTI_CAUSAL_FRONTIER
+```
+
+`EVIDENCE_LIMIT_REACHED` preserves UNKNOWN.
+
+Psychology/perception/motive is an optional causal sensor, not a universal prerequisite. Objective behavior, state, process, institutional, technical, rights, trust or economic evidence may establish structural friction without psychology. If psychology is used, it must remain provenance-bound and behavior-corroborated.
+
+An `INFERRED` causal structure may guide exploratory node search and evidence collection, but only `EVIDENCED_STRUCTURE` may drive formal candidate promotion.
+
+The executable causal model is `src/causal_descent.py`.
 
 ## 3. Data-source truth — LOCKED
 
