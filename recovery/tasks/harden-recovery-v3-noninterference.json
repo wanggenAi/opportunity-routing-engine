@@ -1,19 +1,19 @@
 {
   "schema_version": 2,
-  "generation": 8,
+  "generation": 9,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "WAITING_CI",
+  "status": "DONE",
   "task_key": "harden-recovery-v3-noninterference",
-  "stage": "V3_PR_CI",
-  "last_observed_main_sha": "892dd22fd3ed0e0d1fd4a1602f8785e9c258fc3a",
-  "work_branch": "chore/web-session-recovery-v3",
-  "work_head_sha": "bfd01f250e981d5be1fd8d51cc9b9c9ebddbf469",
-  "active_pr": 232,
+  "stage": "V3_MERGED_VERIFIED",
+  "last_observed_main_sha": "6d355d15c68dec567cdff602fd523252841403f3",
+  "work_branch": null,
+  "work_head_sha": null,
+  "active_pr": null,
   "ci": {
     "run_id": 35415349072,
     "head_sha": "bfd01f250e981d5be1fd8d51cc9b9c9ebddbf469",
-    "status": "QUEUED",
-    "conclusion": null
+    "status": "COMPLETED",
+    "conclusion": "SUCCESS"
   },
   "production_or_artifact": {
     "status": "NOT_APPLICABLE",
@@ -29,9 +29,13 @@
     "confirmed state/chatgpt-recovery currently triggers zero GitHub Actions runs",
     "implemented v3 adaptive checkpoints, zero-runtime isolation, fencing, write-ahead intent, idempotent retry rules, bounded schema validator and recovery-only merge suppression",
     "migrated recovery to task-scoped checkpoints so independent tasks cannot overwrite one another",
-    "added public-repo privacy guardrails and filesystem-safe task identities"
+    "added public-repo privacy guardrails and filesystem-safe task identities",
+    "PR #232 passed CI #672",
+    "squash-merged with [skip ci] as 6d355d15c68dec567cdff602fd523252841403f3",
+    "verified recovery-only merge triggered zero main-push Actions runs",
+    "verified task-scoped recovery protocol, validator and example on live main"
   ],
-  "next_action": "Wait for PR #232 CI #672. If green and mergeable, squash-merge with [skip ci] in the merge commit, verify live main directly, then complete and prune this task checkpoint.",
+  "next_action": "Resume the commercial mission from live GitHub and TASK_STATE.md; no recovery-hardening task remains active.",
   "do_not_repeat": [
     "do not put recovery reads or writes on any business runtime path",
     "do not trigger production workflows from checkpoint commits",
