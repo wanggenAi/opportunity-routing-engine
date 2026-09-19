@@ -1,3 +1,7 @@
+> **SUPERSEDED — HISTORICAL / DOWNSTREAM CALIBRATION ONLY**
+>
+> Superseded by `docs/research/REGENERATIVE_FLOW_DISCOVERY_RESET_2026-09-19.md`.
+> This file must not seed active discovery, candidate priority or outreach. Its task/buyer/quote examples are downstream calibration only.
 # Bounded Executor Quote Request 001 — Shanghai 21-Store Photo Survey
 
 Date: **2026-09-19**
