@@ -6,12 +6,15 @@
   "active_transaction_units": [],
   "active_parent_formations": [],
   "inherited_watchlist": [],
-  "retained_research_formations": [
-    "ATTRACTION_SCAN_002-F1"
-  ],
+  "retained_research_formations": [],
   "resolved_research_formations": [
     {
       "formation_id": "ATTRACTION_SCAN_001-F1",
+      "verdict": "DEMOTED_FROM_CURRENT_COMMERCIAL_FORMATION",
+      "resolved_date": "2026-09-19"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_002-F1",
       "verdict": "DEMOTED_FROM_CURRENT_COMMERCIAL_FORMATION",
       "resolved_date": "2026-09-19"
     }
@@ -19,21 +22,24 @@
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
   "last_completed_scan_id": "ATTRACTION_SCAN_002",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_001-F1",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_002-F1",
   "next_scan_id": "ATTRACTION_SCAN_003",
-  "current_research_action": "CAUSAL_DESCENT_ATTRACTION_SCAN_002_F1",
+  "current_research_action": "RUN_ATTRACTION_SCAN_003",
   "required_scan_controls": [
     "BROAD_REALITY",
     "ATTRACTION_BRIEF",
     "DRIFT_AUDIT",
     "FAIL_CLOSED_PROMOTION"
   ],
+  "research_learnings": [
+    "ORDER_SPEC_ACCEPTANCE_CAN_BE_MORE_RELEVANT_THAN_GENERIC_SUPPLIER_IDENTITY",
+    "PERMISSION_DENSITY_AND_CONTROL_RIGHT_CONCENTRATION_MATTER_FOR_ROUTABILITY"
+  ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
-    "ATTRACTION_SCAN_001-F1 was demoted after causal descent.",
-    "ATTRACTION_SCAN_002 completed with zero commercial candidate promotions.",
-    "ATTRACTION_SCAN_002-F1 is a research formation only; its hypothesized gap is property/community permission orchestration, not charging software.",
-    "Existing private-charger sharing platforms and technical stacks must be fully credited during causal descent.",
+    "ATTRACTION_SCAN_001-F1 and ATTRACTION_SCAN_002-F1 are both demoted and are not fallback/watchlist candidates.",
+    "ATTRACTION_SCAN_002-F1 failed because the residual permission layer was not proven standardized or founder-independent after incumbent capabilities were credited.",
+    "Research learnings are abstractions only and must not become fixed search ontology.",
     "Deleted files and closed case issues must not be automatically recovered as candidates."
   ]
 }
