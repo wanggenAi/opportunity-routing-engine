@@ -4,30 +4,27 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Resolve `ATTRACTION_SCAN_001-F1` and return to broad current reality.
+`ATTRACTION_SCAN_002` is complete.
 
-Causal descent is complete:
+Continue the only formation retained from the second clean-slate scan:
 
-`ATTRACTION_SCAN_001-F1 — TRUSTED SMALL-BATCH CHINA SOURCING PROOF LAYER`
+`ATTRACTION_SCAN_002-F1 — RESIDENTIAL PRIVATE-CHARGER PERMISSION POOL`.
 
-is **DEMOTED FROM CURRENT COMMERCIAL FORMATION**.
+Do not promote it yet.
 
 ## Goal
 
-Start `ATTRACTION_SCAN_002` from broad current reality with no active or retained commercial formation.
+Determine whether private residential charging contains a narrow, repeatable **permission/governance routing edge** after existing charging platforms, hardware stacks and settlement systems are fully credited.
 
-The next scan must not recursively continue cross-border sourcing merely because Scan 001 ended there.
+The mission is not to build another charger app.
 
 ## Current Unique Commercial Research Goal
 
-Discover a new high-attraction value field where:
-- A-side motion is current and evidence-backed;
-- B-side pull is current and evidence-backed;
-- the missing edge remains after fully crediting incumbents;
-- the edge is narrow enough to route;
-- activation friction is bounded;
-- the operator can own orchestration without recurring personal search/sales/delivery labor;
-- repeated routing can compound.
+Test whether:
+
+`IDLE PRIVATE CHARGER + NEARBY EV DEMAND`
+
+remains blocked by a standardized, economically routable property/community permission edge, or whether the residual business is merely bespoke property sales + hardware deployment + local operations.
 
 ## Active Commercial Epoch
 
@@ -38,7 +35,7 @@ Portfolio:
 - ACTIVE TRANSACTION UNITS = 0
 - ACTIVE PARENT FORMATIONS = 0
 - INHERITED WATCHLIST = 0
-- RETAINED RESEARCH FORMATIONS = 0
+- RETAINED RESEARCH FORMATIONS = 1
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
 Historical-case policy:
@@ -51,17 +48,17 @@ Historical-case policy:
 
 ## Current Phase
 
-`ATTRACTION_SCAN_001_F1_RESOLVED / ATTRACTION_SCAN_002_READY`
+`ATTRACTION_SCAN_002_COMPLETE / F1_CAUSAL_DESCENT_REQUIRED`
 
 ## Last Verified Main
 
-`8c86fedee1048f241e1ecacbf61a71e259927dd1` — PR #264 squash-merged.
+Main before this branch: `186928ad0ace334c61c5c30602c25107d65906b1`.
 
-PR #264 head: `0edde55c4491688e649a292d6ad9ae1eb34c0a89`.
+PR #264 merge SHA: `8c86fedee1048f241e1ecacbf61a71e259927dd1`.
 
 PR #264 CI #801 / run `35440531659`: success.
 
-PR #263 merge SHA: `36ea9897aab630e236f10460447fcff908276c4d`; CI #799 succeeded.
+The main branch base includes the later state-only F1-close checkpoint.
 
 ## Active Issue
 
@@ -69,133 +66,120 @@ PR #263 merge SHA: `36ea9897aab630e236f10460447fcff908276c4d`; CI #799 succeeded
 
 ## Active Branch
 
-None.
+`feature/attraction-scan-002`
 
 ## Active PR
 
-None. PR #264 is merged.
+Not opened yet at this checkpoint.
 
 ## CI
 
-- PR #264 / run `35440531659`: success.
-- F1 causal-descent verdict is persisted on main.
-- No production code or doctrine changed.
+Pending for `feature/attraction-scan-002`.
+
+No production code or doctrine change is intended in this scan checkpoint.
 
 ## Latest Artifact / Persisted State
 
-- `docs/research/ATTRACTION_SCAN_001_F1_CAUSAL_DESCENT_2026-09-19.md` — incumbent-resolution and causal verdict.
-- `data/research_runs/attraction_scan_001_f1_causal_descent.json` — machine-readable F1 resolution.
-- `docs/research/ATTRACTION_SCAN_001_2026-09-19.md` — original scan.
-- `data/research_runs/attraction_scan_001.json` — original scan state.
+- `docs/research/ATTRACTION_SCAN_002_2026-09-19.md` — broad-reality scan, Attraction Brief and Drift Audit.
+- `data/research_runs/attraction_scan_002.json` — machine-readable Scan 002 state.
 - `data/commercial_reset_state.json` — active epoch authority.
+- `docs/research/ATTRACTION_SCAN_001_F1_CAUSAL_DESCENT_2026-09-19.md` — previous formation resolution.
 
 ## Completed
 
-- Fully credited Alibaba Trade Assurance rather than treating an incumbent as a keyword.
-- Fully credited Alibaba Verified Supplier third-party assessment.
-- Fully credited Alibaba order-linked Inspection Solutions.
-- Fully credited Accio Sourcing Toolkit for supplier matching, vetting, outreach, negotiation and order workflow.
-- Fully credited QIMA manufacturing audits and production-stage / pre-shipment inspections.
-- Mapped the remaining buyer uncertainty after those capabilities.
-- Tested the strongest residual: order-specific acceptance design.
-- Applied operator non-labor and self-propulsion tests.
-- Demoted F1 rather than forcing it into a sourcing-agent business.
+- Reopened broad current reality after Scan 001-F1 demotion.
+- Inspected private residential charging, household repair, flexible labor, elder services, local sports/experience consumption and SME digitization/OPC support.
+- Credited current incumbents rather than assuming a missing software platform.
+- Promoted zero commercial candidates.
+- Retained exactly one research formation: `ATTRACTION_SCAN_002-F1`.
+- Reframed the possible edge from “sharing charger app” to property/community permission + access + settlement.
+- Recorded third permission actor explicitly.
+- Applied Attraction Field, operator non-labor test and Drift Audit.
 
 ## Current Findings
 
-### What remains true
+### Evidence that survives
 
-- China-side flexible exporters want overseas demand.
-- Overseas SMB buyers want lower sourcing risk.
-- Supplier / agent trust and product-quality uncertainty are real.
-- A good sample does not automatically prove production consistency.
-- Order-specific acceptance criteria matter.
+A-side:
+- private chargers can have substantial idle windows;
+- real community sharing pilots exist.
 
-### Why F1 does not survive
+B-side:
+- residents without fixed installable spaces face recurring nearby charging scarcity;
+- current community reports still show “车多桩少” and charging competition.
 
-The generic route is already materially covered:
+Permission side:
+- property/community actors control entry, parking order, common-area coordination and safety;
+- policy explicitly supports property participation, cost/revenue sharing and unified residential charging service models.
 
-`REQUIREMENT → DISCOVERY → VETTING → NEGOTIATION → PAYMENT PROTECTION → INSPECTION → LOGISTICS / DISPUTE`.
+### Incumbent capabilities already credited
 
-Current infrastructure includes:
-- Accio for sourcing/vetting/negotiation workflow;
-- Alibaba Verified Supplier for third-party supplier assessment;
-- Trade Assurance for payment/order protection;
-- Alibaba Inspection Solutions for order-linked inspection;
-- QIMA and similar firms for independent audits, lab testing and production-stage inspections.
-
-The strongest residual is `ORDER_SPEC_ACCEPTANCE_DESIGN`.
-
-But:
-- simple cases increasingly have templates/tooling;
-- complex cases require category-specific technical/regulatory judgment;
-- QIMA already offers pre-designed and customizable inspection checklists;
-- willingness to pay for an independent new layer is unproven;
-- cross-category reuse is weak;
-- the remaining high-value work tends toward expert/founder labor.
+Existing systems already provide:
+- reservation;
+- charger authorization;
+- smart-lock control;
+- gate integration;
+- automated payment;
+- owner/property/platform settlement;
+- multi-tenant management;
+- remote operations;
+- charging-protocol integration.
 
 Therefore:
 
-`RESIDUAL FRICTION != NEW BUSINESS BY DEFAULT`.
+`SOFTWARE PLATFORM != MISSING EDGE`.
 
-### Attraction result
+### Decisive unknown
 
-- A-side: high motion.
-- B-side: high motion.
-- Operator: low-to-medium after incumbent coverage is credited.
-- Weakest link: not high.
+`PROPERTY / COMMUNITY PERMISSION ORCHESTRATION = HYPOTHESIZED, NOT PROVEN`.
 
-### Final verdict
+Need to know whether existing operators still face a repeatable unresolved boundary at:
+- property-group acquisition;
+- resident/owner consent;
+- common-area rules;
+- power capacity;
+- charger compatibility;
+- retrofit economics;
+- insurance / liability;
+- revenue split;
+- local service.
 
-`ATTRACTION_SCAN_001-F1 = DEMOTED`.
-
-It is not a candidate, parent, watchlist item or fallback.
-
-Only the abstract learning survives:
-
-`PROOF OBJECT MAY BE ORDER-SPEC ACCEPTANCE, NOT GENERIC SUPPLIER IDENTITY`.
-
-That learning must not constrain Scan 002.
+If every community requires bespoke negotiation and deployment, F1 fails the operator non-labor test.
 
 ## Blockers
 
-No blocker remains on F1.
+The blocker is causal:
 
-The system again has no retained formation.
-
-The empirical blocker for the P0 mission remains:
-
-`NO NEW FORMATION HAS YET SURVIVED TO EXTERNAL VALUE FLOW`.
+`IS PERMISSION A STANDARDIZABLE ROUTABLE UNIT, OR JUST PROJECT WORK?`
 
 ## Next Action
 
-Run `ATTRACTION_SCAN_002` now.
+Run causal descent on `ATTRACTION_SCAN_002-F1`.
 
 Required:
-1. reopen broad current reality;
-2. do not default to cross-border sourcing;
-3. do not default to industrial B2B, Xuzhou, inventory, equipment or experts;
-4. inspect current actor/state changes and workarounds;
-5. demand bilateral motion before retention;
-6. credit incumbents by capability, not by name;
-7. require an observed narrow missing edge;
-8. apply three-sided Attraction Field;
-9. apply operator non-labor test;
-10. apply Drift Audit;
-11. fail closed.
+1. map all actors and control rights;
+2. separate technical availability from legal/operational permission;
+3. identify existing private-sharing operators and what they actually deliver;
+4. identify the exact work needed to activate one community;
+5. determine whether property groups can authorize multi-community rollout;
+6. estimate retrofit/integration objects, not product price;
+7. inspect settlement, insurance and liability structure;
+8. inspect transaction density / charger-owner economics;
+9. apply founder non-labor test;
+10. demote immediately if the residual is bespoke property sales / hardware project delivery.
 
-No product design, pricing, recruitment or outreach until a new formation survives.
+No product design, pricing, recruitment, outreach or hardware purchase.
 
 ## Do Not Repeat
 
-- Do not revive F1 as a sourcing-agent service.
-- Do not preserve F1 as a fallback route.
-- Do not build a supplier-verification SaaS from this evidence.
-- Do not build a generic supplier trust score.
-- Do not equate buyer anxiety with a paid missing edge.
-- Do not equate residual friction with a new business.
-- Do not let Scan 001's cross-border ending become Scan 002's starting ontology.
-- Do not restore pre-reset cases.
+- Do not call “idle chargers + charging demand” a business by itself.
+- Do not build another charging app.
+- Do not ignore existing sharing platforms.
+- Do not treat software capability as the missing edge.
+- Do not assume property permission is standardized.
+- Do not let operator excitement replace evidence.
+- Do not start local property outreach yet.
+- Do not revive Scan 001-F1 or pre-reset cases.
 
 ## Guardrails
 
@@ -203,14 +187,14 @@ No product design, pricing, recruitment or outreach until a new formation surviv
 - REALITY > COGNITION > SCHEMA.
 - BROAD REALITY > CURRENT SEARCH LENS.
 - SEARCH LENS != ONTOLOGY.
-- HISTORICAL CASE != ACTIVE INPUT.
-- GIT HISTORY != CANDIDATE POOL.
+- EXISTING ASSET + DEMAND != ROUTABLE FLOW.
+- PERMISSION IS AN ACTOR / CONTROL RIGHT.
+- SOFTWARE PLATFORM != MISSING EDGE.
 - EXISTING ACTOR != FLOW SOLVED.
 - INCUMBENT PRESENCE != AUTOMATIC KILL.
-- RESIDUAL FRICTION != NEW BUSINESS BY DEFAULT.
 - FOUNDER EXCITEMENT != PARTICIPANT PULL.
 - BILATERAL MOTION != MISSING EDGE.
 - ATTRACTION != VALIDATION.
-- FOUNDER AS PERMANENT HUMAN SEARCH ENGINE = FAIL.
+- FOUNDER AS PERMANENT HUMAN SALES / PROJECT MANAGER = FAIL.
 - UNKNOWN != PASS.
 - Infer broadly; promote conservatively.
