@@ -565,6 +565,7 @@ class LatentValueFormationTests(unittest.TestCase):
         )
 
     def test_heterogeneous_nonhuman_nodes_are_first_class(self):
+        base = self._hypothesis()
         hypothesis = self._hypothesis(
             complementary_nodes=(
                 ComplementaryWorldNode(
@@ -583,7 +584,20 @@ class LatentValueFormationTests(unittest.TestCase):
                     controller_or_owner="software provider",
                     evidence_refs=("software:capability",),
                 ),
-            )
+            ),
+            evidence=base.evidence
+            + (
+                FormationEvidenceRef(
+                    "space:utilization",
+                    "measured weekday space is underused",
+                    FormationEvidenceKind.COMPLEMENTARY_NODE,
+                ),
+                FormationEvidenceRef(
+                    "software:capability",
+                    "booking and payment capability exists",
+                    FormationEvidenceKind.COMPLEMENTARY_NODE,
+                ),
+            ),
         )
         self.assertEqual(validate_formation(hypothesis), [])
         candidate = to_latent_value_candidate(hypothesis)
