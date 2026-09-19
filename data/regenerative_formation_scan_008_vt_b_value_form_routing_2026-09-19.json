@@ -1,0 +1,151 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_008_VT_B_VALUE_FORM_ROUTING",
+  "date": "2026-09-19",
+  "title": "Observed value-form routing and manual curator dependence in VT-B",
+  "parent_scan": "REGENERATIVE_FORMATION_SCAN_007_VT_A_VT_B_DISCRIMINATION",
+  "purpose": "Test whether successful VT-B operators actually perform discovery→selection→small-scale validation→value-form switching→channel routing, and whether this repeated function is the latent riverbed rather than any specific craft/content product.",
+  "truth_rules": [
+    "ASSET EXISTS != MARKETABLE ASSET",
+    "TRANSLATION FORM MUST BE SELECTED",
+    "PILOT / FEEDBACK CAN CHANGE VALUE FORM",
+    "ROUTING JUDGMENT != ROUTINE DIGITAL CONVERSION",
+    "MANUAL CURATION != OPEN MARKET EDGE",
+    "OBSERVED OPERATOR FUNCTION != UNSERVED OPPORTUNITY"
+  ],
+  "observed_selection_funnels": [
+    {
+      "actor": "Fengtai / Yue-Fengjiang Silver Workshop",
+      "source_pool": "community-level elder capability discovery",
+      "evidence": [
+        {
+          "fact": "The street first mapped and discovered 40+ older residents with special capabilities; five were appointed core artisans in the initial brand launch.",
+          "source": "https://www.bjft.gov.cn/fengtaishibao/html/2026-02/04/content_9501_19279615.htm"
+        },
+        {
+          "fact": "A professional design partner planned to select 20 works for deep development, while the brand planned a first batch of 30 products.",
+          "source": "https://www.bjft.gov.cn/fengtaishibao/html/2026-02/04/content_9501_19279615.htm"
+        },
+        {
+          "fact": "The operating model includes a dedicated company responsible for product design, production and marketing, plus future IP protection and artisan-level certification.",
+          "source": "https://www.bjft.gov.cn/fengtaishibao/html/2026-02/04/content_9501_19279615.htm"
+        }
+      ],
+      "interpretation": "This is an explicit funnel: discover many capabilities → select a smaller subset → deepen only selected works → formalize brand/product/channel operations. Selection precedes scale."
+    },
+    {
+      "actor": "Tǎmadrama retirement market / Shanghai",
+      "source_pool": "retired makers plus young original brands",
+      "evidence": [
+        {
+          "fact": "The operator began from a small youth-entrepreneurship/pop-up context, then attracted 40+ original brands and moved into a core shopping mall after observing strong street traffic.",
+          "source": "https://www.jingan.gov.cn/rmtzx/003008/003008004/20250916/dde899c5-7220-4a10-ab75-f77a2c1f3c25.html"
+        },
+        {
+          "fact": "After mall entry, the operator observed that product-only retail did not sufficiently attract surrounding residents, then changed the value form by adding hands-on pottery classes.",
+          "source": "https://www.jingan.gov.cn/rmtzx/003008/003008004/20250916/dde899c5-7220-4a10-ab75-f77a2c1f3c25.html"
+        },
+        {
+          "fact": "The operator also added livestream selling after building community recognition, with one reported livestream session exceeding RMB10,000 in sales.",
+          "source": "https://www.jingan.gov.cn/rmtzx/003008/003008004/20250916/dde899c5-7220-4a10-ab75-f77a2c1f3c25.html"
+        }
+      ],
+      "interpretation": "This is a clear feedback loop: market context changed → product-only form underperformed → operator introduced experience/learning and livestream channels. The same source capability was rerouted into different modern forms."
+    },
+    {
+      "actor": "Beijing Silver Artisan / RuiFeng social-service operator",
+      "source_pool": "hidden community non-heritage artisans",
+      "evidence": [
+        {
+          "fact": "The project operates a full chain described as artisan discovery → cultivation → product conversion → income-generating sales → transmission.",
+          "source": "https://www.bjyouth.gov.cn/news/mediaFocus/826558700261445.html"
+        },
+        {
+          "fact": "42 artisans have supported 72 market-sales events, 800+ public classes and 3,000+ product sales, showing one capability can be routed into multiple value forms.",
+          "source": "https://www.bjyouth.gov.cn/news/mediaFocus/826558700261445.html"
+        },
+        {
+          "fact": "The project links to major commercial channels and reports artisans self-running recurring community classes.",
+          "source": "https://www.bjyouth.gov.cn/news/mediaFocus/826558700261445.html"
+        }
+      ],
+      "interpretation": "The operator does not merely sell products. It routes the same underlying capability to product, class, community and commercial-channel forms."
+    }
+  ],
+  "observed_value_form_routing": {
+    "state": "PARTIALLY_OBSERVED",
+    "common_functions": [
+      "discover hidden elder capability",
+      "screen/select only a subset for deeper investment",
+      "choose a value form rather than assuming one",
+      "use professional design/curation/operations",
+      "test through markets/events/channels",
+      "observe downstream response",
+      "change form/channel when the first route underperforms",
+      "reuse successful capability across products/classes/content/activities"
+    ],
+    "strongest_evidence": "Tǎmadrama explicitly changed from product-only retail to experiential classes and livestream after observing mall-context behavior; Fengtai explicitly selects a subset of works for deep development from a larger capability pool.",
+    "implication": "VALUE-FORM SELECTION AND ROUTING is an observed function in successful VT-B flows, not only an inferred theoretical layer."
+  },
+  "manual_curator_dependence": {
+    "state": "STRONG",
+    "evidence": [
+      "community staff manually discover elder capabilities",
+      "professional design teams manually select works",
+      "operators manually decide which products to deepen",
+      "store operators manually interpret customer/context feedback and change format",
+      "social organizations manually connect commercial channels"
+    ],
+    "implication": "Current flows depend heavily on human curator/operator judgment. The function is real, but it may already be the core labor of existing organizers rather than an open missing edge."
+  },
+  "learning_loop": {
+    "state": "EARLY_PARTIAL_EVIDENCE",
+    "observed": [
+      "street/pop-up demand informed mall expansion",
+      "mall response caused a shift from product-only to experience/class format",
+      "community recognition enabled livestream routing",
+      "commercial-channel linkage expanded after successful market activity",
+      "selection funnels limit deep development to a subset of discovered assets"
+    ],
+    "not_yet_observed": [
+      "formal reusable scoring/selection criteria across categories",
+      "evidence that one project's feedback systematically improves future unrelated elder-asset selection",
+      "organic elder-to-elder referral as the dominant source acquisition mechanism",
+      "portable rights/revenue-sharing standard across categories",
+      "low-cost rejection/testing protocol before designer/operator labor is committed"
+    ]
+  },
+  "deeper_missing_edge_update": {
+    "previous_label": "OLDER-ASSET DISCOVERY + VALUE-FORM TRANSLATION + ROUTING",
+    "new_state": "OBSERVED_OPERATOR_FUNCTION / GENERALIZED_OPEN_EDGE_UNKNOWN",
+    "refined_statement": "Successful VT-B operators repeatedly perform a human judgment layer that converts an invisible elder capability into one or more appropriate value forms, tests those forms in real channels, and reroutes the asset when feedback changes. The open question is whether this judgment can be made reusable across communities/categories or remains bespoke curator work.",
+    "possible_core_friction": "Hidden older-adult assets are not self-describing. Neither the elder nor a generic digital tool necessarily knows whether a capability should become a product, class, experience, content asset, cultural service or knowledge tool, nor which downstream channel will validate it.",
+    "caution": "Do not turn this into a recommendation engine/product concept until repeated selection criteria and cross-category transfer learning are evidenced."
+  },
+  "contradiction_audit": [
+    {
+      "contradiction": "Existing operators already perform the routing function.",
+      "implication": "The function's existence does not prove whitespace. A new entrant needs a narrower unsolved edge, not another curator layer."
+    },
+    {
+      "contradiction": "Selection may be fundamentally taste/context dependent.",
+      "implication": "If success depends on founder/design taste and local relationships, the edge may resist standardization."
+    },
+    {
+      "contradiction": "Public/community subsidies and free space reduce the apparent economics of successful examples.",
+      "implication": "Observed flow strength may not survive normal commercial cost structures."
+    },
+    {
+      "contradiction": "Only a minority of discovered capabilities are selected for deep development.",
+      "implication": "The source pool can be large while viable translated assets remain sparse."
+    }
+  ],
+  "portfolio_state": {
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "formal_latent_connection_promotions": 0,
+    "primary_formation_direction": "VT-B",
+    "primary_missing_edge_state": "VALUE_FORM_ROUTING_PARTIALLY_OBSERVED__GENERALIZED_OPEN_EDGE_UNKNOWN",
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "next_action": "Run a rejection-and-selection-criteria audit, not another success-case scan. Search for what elder capabilities are rejected, what specific signals operators use to select/deepen assets, how pilots are killed or changed, whether different operators converge on similar criteria, and whether rights/revenue-sharing practices repeat. The goal is to determine if value-form routing can become a reusable orchestration primitive or remains bespoke curator judgment."
+}
