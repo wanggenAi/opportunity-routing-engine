@@ -183,6 +183,27 @@ class LatentValueDiscoveryTests(unittest.TestCase):
         self.assertEqual(missing_validation_evidence(candidate), [])
         self.assertEqual(discovery_state(candidate), DiscoveryState.VALIDATION_READY)
 
+    def test_state_machine_preserves_latent_and_structural_boundaries(self):
+        latent_only = self._candidate(
+            structural_friction_hypothesis="",
+            structural_friction_truth_state="INFERRED",
+            causal_descent=None,
+            causal_descent_record_id="",
+            causal_stop_reason="",
+        )
+        self.assertEqual(
+            discovery_state(latent_only),
+            DiscoveryState.LATENT_VALUE_HYPOTHESIS,
+        )
+
+        evidenced_structure = self._candidate(
+            complementary_actor_hypothesis="",
+        )
+        self.assertEqual(
+            discovery_state(evidenced_structure),
+            DiscoveryState.STRUCTURAL_FRICTION_EVIDENCED,
+        )
+
     def test_persistent_mismatch_can_replace_recent_change(self):
         candidate = self._candidate(
             observed_change="",
