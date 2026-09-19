@@ -1,0 +1,234 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_001",
+  "date": "2026-09-19",
+  "title": "Formation-first scan of regenerative latent-value fields",
+  "parent_reset": "docs/research/REGENERATIVE_FLOW_DISCOVERY_RESET_2026-09-19.md",
+  "active_prior_cases": [],
+  "prior_case_policy": "ALL_TASK_FIRST_AND_PRE_RESET_CASES_HISTORICAL_ONLY",
+  "objective": "Identify large/replenishing actor populations with durable endowment/state disequilibria, repeated connection pressure, partial/informal/expensive flows, recurring missing-edge hypotheses and natural Demand Pumps. Do not start from explicit jobs, gigs, buyer budgets or provider quotes.",
+  "governing_truth": [
+    "REALITY > COGNITION > SCHEMA",
+    "DEMAND DISCOVERY != LATENT VALUE FORMATION",
+    "EXPLICIT TASK != DISCOVERY SEED",
+    "ONE LIVE TRANSACTION != DEMAND PUMP",
+    "COMPLEMENTARITY != LATENT CONNECTION",
+    "CONNECTION HYPOTHESIS != CONNECTION PRESSURE EVIDENCE",
+    "PARTIAL FLOW PRECEDES EXCHANGE DESIGN",
+    "REGENERATIVE EVENT FLOW > ONE-OFF TRANSACTION"
+  ],
+  "formation_zones": [
+    {
+      "formation_zone_id": "RFZ-001",
+      "name": "Cross-generational industrial cognition + AI execution field",
+      "shorthand": "厂二代效应去血缘化 / domain-trust × young-digital-execution",
+      "status": "FORMATION_ZONE__CONNECTION_PRESSURE_PARTIAL__MISSING_EDGE_INFERRED",
+      "actor_population_a": {
+        "label": "retired / senior industry experts and first-generation industrial operators",
+        "replenishing_mechanism": [
+          "ongoing retirement of experienced engineers/managers/technical staff",
+          "large-scale succession of first-generation private manufacturing entrepreneurs",
+          "accumulated domain knowledge, relationships, credibility and tacit process knowledge remain after full-time role changes"
+        ],
+        "evidence": [
+          {
+            "fact": "Jiangsu reports more than 12,000 professional 'silver' talents in economics, technology and management in provincial/local talent pools, with recurring enterprise-request / department-dispatch / expert-accept service.",
+            "source": "https://mzt.jiangsu.gov.cn/art/2026/5/15/art_55087_11771770.html"
+          },
+          {
+            "fact": "National old-scientist/engineer enterprise-support programs report about 108,000 older technical workers serving 12,000 enterprises and solving more than 40,000 technical problems.",
+            "source": "https://www.cncaprc.gov.cn/xxllsy/769341.jhtml"
+          }
+        ],
+        "latent_endowments": [
+          "deep domain judgment",
+          "tacit process knowledge",
+          "supplier/customer/industry context",
+          "reputation and trust",
+          "ability to distinguish real operational constraints from superficial technical requests"
+        ],
+        "disequilibrium_hypothesis": "High-value tacit industrial cognition remains economically useful after retirement/succession, but current callability is often institution-, relationship- or volunteer-mediated rather than a normal external capability layer."
+      },
+      "actor_population_b": {
+        "label": "young AI/digital executors and early-career technical talent",
+        "replenishing_mechanism": [
+          "Jiangsu plans 200,000+ AI technical-skill training instances annually",
+          "at least 50,000 AI training instances annually for youth cohorts",
+          "AI tools rapidly lower implementation barriers and continuously create new capable executors"
+        ],
+        "evidence": [
+          {
+            "fact": "Jiangsu's 2026 AI skills action plans more than 200,000 AI training instances annually, including at least 50,000 for graduates and other youth groups.",
+            "source": "https://www.jiangsu.gov.cn/art/2026/7/9/art_60085_11801230.html"
+          },
+          {
+            "fact": "Jiangsu training policy and current AI training bases emphasize real enterprise scenes because generic tool knowledge is insufficient.",
+            "source": "https://jsnews.jschina.com.cn/nj/a/202608/t20260810_s6a8e5913e4b0eb7bb0f9ffb7.shtml"
+          }
+        ],
+        "latent_endowments": [
+          "AI/tool adaptability",
+          "automation/prototyping capability",
+          "digital content/data/software execution",
+          "learning speed",
+          "available career-building effort"
+        ],
+        "disequilibrium_hypothesis": "Digital execution capability is growing faster than trusted access to real industrial context, decision authority and domain knowledge."
+      },
+      "complementary_node_c": {
+        "label": "traditional SMEs / industrial operators with recurring digital and AI transformation pressure",
+        "replenishing_mechanism": [
+          "persistent technology change",
+          "recurring operating/process problems",
+          "AI adoption expanding from pilots toward thousands of factories and enterprises",
+          "continuous succession and digital-transformation cycles"
+        ],
+        "evidence": [
+          {
+            "fact": "A current Nanjing AI industry report says enterprises often do not lack technology or application scenes; they lack people who simultaneously understand business, AI and the scene.",
+            "source": "https://jsnews.jschina.com.cn/nj/a/202608/t20260810_s6a8e5913e4b0eb7bb0f9ffb7.shtml"
+          },
+          {
+            "fact": "Jiangsu's AI+manufacturing plan explicitly organizes precise matching between AI talent and manufacturing enterprises.",
+            "source": "https://gxt.jiangsu.gov.cn/art/2026/6/10/art_6278_11783480.html"
+          },
+          {
+            "fact": "Jiangsu expert-enterprise visits found strong digital/intelligent transformation intent and composite technical-talent gaps in manufacturing firms.",
+            "source": "https://kxjst.jiangsu.gov.cn/art/2026/7/6/art_82539_11799463.html"
+          }
+        ]
+      },
+      "observed_connection_pressure": [
+        {
+          "pattern": "senior expertise already flows repeatedly into enterprises through silver-expert service teams/workstations",
+          "source": "https://mzt.jiangsu.gov.cn/art/2026/5/15/art_55087_11771770.html"
+        },
+        {
+          "pattern": "older technical workers nationally already serve thousands of firms and solve tens of thousands of technical problems",
+          "source": "https://www.cncaprc.gov.cn/xxllsy/769341.jhtml"
+        },
+        {
+          "pattern": "young internal teams are already translating AI tooling into operations, safety, procurement and governance inside enterprises",
+          "source": "https://jsgzw.jiangsu.gov.cn/art/2026/8/14/art_61984_11817511.html"
+        },
+        {
+          "pattern": "manufacturing succession acts as a natural experiment: when family trust/access is available, younger digitally capable successors can inject new methods into traditional factories",
+          "source": "https://paper.people.com.cn/rmrbhwb/pc/content/202606/24/content_30164563.html"
+        },
+        {
+          "pattern": "a Jiangsu family-factory example shows an earlier AI platform plan had stalled for lack of professional talent, then a younger family successor with trusted access took ownership of the digital transformation effort",
+          "source": "https://news.jschina.com.cn/yw/202512/t20251231_s6954ef71e4b0be5ef3af4cc2.shtml"
+        }
+      ],
+      "partial_flow_interpretation": "Reality already forms the composite through kinship, internal employment, government-organized expert visits, old-expert workstations and youth innovation teams. These are substitute channels showing directional pressure; they do not yet prove a missing market edge.",
+      "recurring_missing_edge_hypothesis": "External formation of a trusted, callable composite capability may be difficult because industrial context/reputation resides with senior/domain actors while AI/digital execution resides with younger actors, and enterprises do not have a normal low-friction way to assemble, trust, scope and accept that composite outside family/internal/institutional channels.",
+      "missing_edge_truth_state": "INFERRED_NOT_OBSERVED",
+      "demand_pump_hypothesis": [
+        "continuous retirement/succession creates new stranded domain cognition",
+        "continuous AI/tool change creates new execution cohorts and new enterprise transformation gaps",
+        "recurring SME operating problems create repeated scenes rather than one transaction",
+        "each successful composite engagement could create reusable domain patterns, trust and routing history"
+      ],
+      "contradiction_and_incumbent_search": [
+        "AI consultancies, digital-transformation vendors, FDE-style roles, technical-expert institutions and internal enterprise youth teams may already own much of this edge.",
+        "Government/institutional programs may indicate the missing edge is mainly public coordination rather than a private commercial structure.",
+        "Senior expertise may be highly idiosyncratic and non-callable; young execution may require too much supervision.",
+        "Kinship cases may work specifically because ownership authority/trust cannot be reproduced externally.",
+        "If real enterprises simply need full-time composite employees, there may be no separate orchestration layer."
+      ],
+      "decisive_next_evidence": "Search for repeated current workarounds and failures specifically caused by the separation of domain trust/context from AI/digital execution: reliance on owners' children/young relatives, rehiring retirees plus young implementers, internal 'translator' roles, failed AI/vendor projects due to domain-context gaps, or recurring expert+young-team pairings. Only if those converge should a canonical MISSING_EDGE be promoted.",
+      "product_design_allowed": false,
+      "transaction_search_allowed": false
+    },
+    {
+      "formation_zone_id": "RFZ-002",
+      "name": "Shared manufacturing capacity circulation",
+      "status": "REGENERATIVE_FLOW_OBSERVED__CATEGORY_MATURING__BENCHMARK",
+      "actor_population_a": {
+        "label": "manufacturers with underused advanced equipment/capacity",
+        "evidence": [
+          {
+            "fact": "A furniture manufacturer opened surplus welding robots, laser cutters and automatic spraying capacity after digital transformation to improve off-season equipment utilization.",
+            "source": "https://www.lf.gov.cn/Item/156605.aspx"
+          }
+        ]
+      },
+      "actor_population_b": {
+        "label": "small/micro manufacturers lacking stable capacity or advanced equipment",
+        "evidence": [
+          {
+            "fact": "Bazhou furniture cluster has 4,000+ firms, more than 80% small/micro, with unstable capacity and uneven equipment levels.",
+            "source": "https://www.lf.gov.cn/Item/156605.aspx"
+          }
+        ]
+      },
+      "observed_connection_pressure": [
+        "surplus capacity is publicly quantified and matched to smaller firms by product type and delivery cycle",
+        "one factory reportedly served 22 firms, with shared capacity reaching 30%",
+        "shared manufacturing has expanded across major clusters and thousands of enterprises"
+      ],
+      "partial_flow": "Equipment/capacity sharing is already a real recurring flow, not a hypothetical connection.",
+      "missing_edge_truth_state": "LARGELY_PRODUCTIZED_BY_SHARED_FACTORY_AND_INDUSTRIAL_BRAIN_MODELS",
+      "demand_pump": "order volatility, peak/off-peak capacity mismatch, equipment upgrade asymmetry and recurring production cycles",
+      "benchmark_learning": "This is a strong canonical example of the target structure: durable surplus + durable deficit + repeated flow + standardizable matching/acceptance + recurring event source. It is primarily a benchmark because the category is already being deliberately institutionalized and platformized.",
+      "source": "https://www.lf.gov.cn/Item/154580.aspx",
+      "active_business_candidate": false
+    },
+    {
+      "formation_zone_id": "RFZ-003",
+      "name": "Industrial byproduct / energy circular symbiosis",
+      "status": "REGENERATIVE_FLOW_OBSERVED__INSTITUTIONALIZING__BENCHMARK",
+      "actor_population_a": {
+        "label": "industrial firms continuously producing byproducts/waste/energy streams",
+        "disequilibrium": "disposal/cost/liability on one side can contain recoverable material or energy value"
+      },
+      "actor_population_b": {
+        "label": "nearby firms/processes that can consume secondary materials, recovered salts, waste heat/energy or other byproduct streams",
+        "disequilibrium": "input/resource cost can coexist with nearby stranded secondary-resource output"
+      },
+      "observed_connection_pressure": [
+        {
+          "fact": "Jiangsu explicitly promotes enterprise-to-enterprise waste mutual supply and cascade energy use and describes the need to unblock circular-chain links.",
+          "source": "https://sthjt.jiangsu.gov.cn/art/2026/7/6/art_83601_11799505.html"
+        },
+        {
+          "fact": "Yangzhou chemical park reports actual upstream/downstream circular chains and describes industrial waste becoming 'flowing wealth' through park-level allocation.",
+          "source": "https://sthjt.jiangsu.gov.cn/art/2026/5/18/art_84025_11772523.html"
+        }
+      ],
+      "partial_flow": "Existing park-level examples already convert waste/byproducts into inputs and recoverable material.",
+      "missing_edge_truth_state": "PARTLY_OWNED_BY_PARK_PLANNING_REGULATION_TECH_AND_DIGITAL_GOVERNANCE",
+      "demand_pump": "continuous industrial production regenerates both byproduct output and material/energy input demand",
+      "contradiction_and_constraints": [
+        "waste classification and hazardous-material regulation",
+        "quality/specification compatibility",
+        "transport economics",
+        "process stability",
+        "liability and permit boundaries",
+        "park-specific physical proximity"
+      ],
+      "benchmark_learning": "This is another canonical regenerative field, but the generic connection is already recognized and institutionally organized. Any future business search would need a narrower unresolved recurring edge after regulation/quality/logistics incumbents are considered.",
+      "active_business_candidate": false
+    }
+  ],
+  "cross_zone_learning": [
+    "RFZ-002 and RFZ-003 demonstrate what a real regenerative field looks like: the two-sided gradient persists, events recur without founder sales effort, partial flows already exist, and the market/institutions can standardize the missing edge.",
+    "RFZ-001 is less formed: evidence for durable populations and connection pressure exists, but the recurring missing edge is still inferred rather than observed.",
+    "The correct next move is not to design a 'senior + youth + SME' product. It is to hunt the workaround/failure layer that reveals whether the external composite capability is a real latent connection or merely an attractive narrative.",
+    "Family succession is useful as an adjacent natural experiment because kinship supplies trust/access/context. It may reveal which edge an external structure would have to reproduce, but it does not prove that edge can be commercialized.",
+    "Explicit job posts, gigs and budgets remain downstream evidence and are not active scan seeds."
+  ],
+  "portfolio_state": {
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "active_formation_zones": [
+      "RFZ-001"
+    ],
+    "benchmark_formation_zones": [
+      "RFZ-002",
+      "RFZ-003"
+    ],
+    "formal_latent_connection_promotions": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "next_action": "Deepen RFZ-001 only at the connection-pressure/missing-edge layer. Search current repeated workarounds, failed AI/digital transformation attempts, informal cross-generational pairings and trust/context substitutes. Do not design a service, search for buyers, calculate price or contact actors. Kill RFZ-001 if the evidence shows existing vendors/internal hiring/institutions already normalize the flow or if kinship/internal authority is the non-transferable reason the observed precedents work."
+}
