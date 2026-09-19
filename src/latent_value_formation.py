@@ -17,7 +17,11 @@ Core boundary:
 
     OBJECTIVE ENDOWMENT / STATE / CHANGE
     + PSYCHOLOGY / BEHAVIOR EVIDENCE
-    + UNDERUSE / MISALIGNMENT
+    + SURFACE PHENOMENON / UNDERUSE / MISALIGNMENT
+    -> LATENT / UNFORMED OUTCOME HYPOTHESIS
+    -> STRUCTURAL FRICTION HYPOTHESIS
+    + ALTERNATIVE-EXPLANATION / CORROBORATING EVIDENCE
+    -> EVIDENCED STRUCTURAL FRICTION
     + COMPLEMENTARY WORLD NODES
     + CONNECTION PRESSURE EVIDENCE
     -> LATENT CONNECTION / VALUE FORMATION HYPOTHESIS
@@ -50,9 +54,18 @@ class FormationState(str, Enum):
     RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS = (
         "RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS"
     )
+    STRUCTURAL_FRICTION_HYPOTHESIS = "STRUCTURAL_FRICTION_HYPOTHESIS"
     LATENT_VALUE_FORMATION_HYPOTHESIS = "LATENT_VALUE_FORMATION_HYPOTHESIS"
     COMPLEMENTARITY_HYPOTHESIS = "COMPLEMENTARITY_HYPOTHESIS"
     VALIDATION_READY = "VALIDATION_READY"
+
+
+class StructuralFrictionTruthState(str, Enum):
+    """Truth boundary for causal-depth claims."""
+
+    OBSERVED = "OBSERVED"
+    INFERRED = "INFERRED"
+    EVIDENCED_STRUCTURE = "EVIDENCED_STRUCTURE"
 
 
 class FormationEvidenceKind(str, Enum):
@@ -63,6 +76,7 @@ class FormationEvidenceKind(str, Enum):
     ORIGIN_CHANGE = "ORIGIN_CHANGE"
     UNDERUSE_MISALIGNMENT = "UNDERUSE_MISALIGNMENT"
     OBSERVED_BEHAVIOR = "OBSERVED_BEHAVIOR"
+    STRUCTURAL_FRICTION = "STRUCTURAL_FRICTION"
     COMPLEMENTARY_NODE = "COMPLEMENTARY_NODE"
     CONNECTION_PRESSURE = "CONNECTION_PRESSURE"
     STRANDING_BARRIER = "STRANDING_BARRIER"
@@ -152,6 +166,12 @@ class LatentValueFormationHypothesis:
     orchestrator_value_capture_hypothesis: str
     cheapest_decisive_validation: str
     kill_conditions: str
+    surface_phenomenon_or_friction: str = ""
+    structural_friction_hypothesis: str = ""
+    structural_friction_truth_state: StructuralFrictionTruthState = (
+        StructuralFrictionTruthState.INFERRED
+    )
+    alternative_explanations: tuple[str, ...] = ()
     psychology_snapshots: Sequence[PsychologySnapshot] = field(default_factory=tuple)
     evidence: Sequence[FormationEvidenceRef] = field(default_factory=tuple)
     contradictions: Sequence[ContradictionEvidence] = field(default_factory=tuple)
@@ -167,6 +187,8 @@ _REQUIRED_TEXT_FIELDS = (
     "resource_psychology_disequilibrium",
     "observed_behavior",
     "latent_outcome_hypothesis",
+    "surface_phenomenon_or_friction",
+    "structural_friction_hypothesis",
     "counterfactual_exchange_design",
     "why_exchange_does_not_already_happen",
     "incremental_value_for_origin_actor",
@@ -183,6 +205,7 @@ _VALIDATION_EVIDENCE_KINDS = frozenset(
         FormationEvidenceKind.ORIGIN_CHANGE,
         FormationEvidenceKind.UNDERUSE_MISALIGNMENT,
         FormationEvidenceKind.OBSERVED_BEHAVIOR,
+        FormationEvidenceKind.STRUCTURAL_FRICTION,
         FormationEvidenceKind.COMPLEMENTARY_NODE,
         FormationEvidenceKind.CONNECTION_PRESSURE,
         FormationEvidenceKind.STRANDING_BARRIER,
@@ -287,6 +310,17 @@ def validate_formation(
     if usable_psychology and not _has_behavior_corroboration(hypothesis):
         errors.append("missing:psychology_behavior_corroboration")
 
+    if hypothesis.structural_friction_truth_state is not StructuralFrictionTruthState.EVIDENCED_STRUCTURE:
+        errors.append("structural_friction_not_evidenced")
+
+    if not hypothesis.alternative_explanations:
+        errors.append("missing:alternative_explanations")
+    elif any(
+        not isinstance(value, str) or not value.strip()
+        for value in hypothesis.alternative_explanations
+    ):
+        errors.append("invalid:alternative_explanations")
+
     for snapshot in hypothesis.psychology_snapshots:
         if snapshot.actor_segment != hypothesis.actor_segment:
             errors.append(
@@ -341,6 +375,16 @@ def formation_state(hypothesis: LatentValueFormationHypothesis) -> FormationStat
         return FormationState.RESOURCE_PSYCHOLOGY_MISALIGNMENT_HYPOTHESIS
 
     if not (
+        hypothesis.surface_phenomenon_or_friction.strip()
+        and hypothesis.structural_friction_hypothesis.strip()
+        and hypothesis.alternative_explanations
+        and FormationEvidenceKind.STRUCTURAL_FRICTION in kinds
+        and hypothesis.structural_friction_truth_state
+        is StructuralFrictionTruthState.EVIDENCED_STRUCTURE
+    ):
+        return FormationState.STRUCTURAL_FRICTION_HYPOTHESIS
+
+    if not (
         hypothesis.complementary_nodes
         and FormationEvidenceKind.COMPLEMENTARY_NODE in kinds
         and hypothesis.counterfactual_exchange_design.strip()
@@ -364,6 +408,8 @@ def _map_evidence_kind(kind: FormationEvidenceKind) -> EvidenceKind:
         return EvidenceKind.ORIGIN_STATE
     if kind is FormationEvidenceKind.ORIGIN_CHANGE:
         return EvidenceKind.ORIGIN_CHANGE
+    if kind is FormationEvidenceKind.STRUCTURAL_FRICTION:
+        return EvidenceKind.STRUCTURAL_FRICTION
     if kind is FormationEvidenceKind.COMPLEMENTARY_NODE:
         return EvidenceKind.COMPLEMENTARY_STATE
     if kind is FormationEvidenceKind.STRANDING_BARRIER:
@@ -434,6 +480,11 @@ def to_latent_value_candidate(
         ),
         cheapest_decisive_validation=hypothesis.cheapest_decisive_validation,
         kill_conditions=hypothesis.kill_conditions,
+        surface_phenomenon_or_friction=hypothesis.surface_phenomenon_or_friction,
+        latent_outcome_hypothesis=hypothesis.latent_outcome_hypothesis,
+        structural_friction_hypothesis=hypothesis.structural_friction_hypothesis,
+        structural_friction_truth_state=hypothesis.structural_friction_truth_state.value,
+        alternative_explanations=hypothesis.alternative_explanations,
         evidence=evidence,
         source_mode="LATENT_VALUE_DISCOVERY",
     )
@@ -444,6 +495,10 @@ GOVERNING_INVARIANTS = (
     "PSYCHOLOGY_SIGNAL_NE_DEMAND",
     "MOTIVE_HYPOTHESIS_NE_WILLINGNESS_TO_PAY",
     "BEHAVIOR_SIGNAL_NE_TRANSACTION",
+    "SURFACE_FRICTION_NE_STRUCTURAL_FRICTION",
+    "STRUCTURAL_FRICTION_HYPOTHESIS_NE_EVIDENCED_STRUCTURAL_FRICTION",
+    "STRUCTURAL_FRICTION_NE_MISSING_EDGE",
+    "BUYER_COST_FIRST_NE_CONSTITUTION",
     "CONNECTION_INVENTION_NE_CONNECTION_DISCOVERY",
     "COMPLEMENTARITY_NE_LATENT_CONNECTION",
     "CONNECTION_HYPOTHESIS_NE_CONNECTION_PRESSURE_EVIDENCE",

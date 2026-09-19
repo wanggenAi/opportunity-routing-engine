@@ -20,7 +20,7 @@ class Cycle002HiddenValueBatch1Tests(unittest.TestCase):
         for candidate in self.candidates:
             self.assertNotEqual(candidate.get("source_mode"), "EXPLICIT_DEMAND")
 
-    def test_validation_ready_claims_have_all_required_evidence_dimensions(self):
+    def test_legacy_validation_ready_claims_are_requalified_under_structural_friction_gate(self):
         ready = [
             candidate
             for candidate in self.candidates
@@ -28,8 +28,17 @@ class Cycle002HiddenValueBatch1Tests(unittest.TestCase):
         ]
         self.assertGreaterEqual(len(ready), 1)
         for candidate in ready:
-            self.assertEqual(validate_candidate_record(candidate), [], candidate["candidate_id"])
-            self.assertEqual(candidate.get("known_missing_evidence"), [])
+            errors = validate_candidate_record(candidate)
+            self.assertIn("missing:surface_phenomenon_or_friction", errors, candidate["candidate_id"])
+            self.assertIn("missing:latent_outcome_hypothesis", errors, candidate["candidate_id"])
+            self.assertIn("missing:structural_friction_hypothesis", errors, candidate["candidate_id"])
+            self.assertIn("structural_friction_not_evidenced", errors, candidate["candidate_id"])
+            self.assertIn("missing:alternative_explanations", errors, candidate["candidate_id"])
+            self.assertIn(
+                "missing:evidence_kind:STRUCTURAL_FRICTION",
+                errors,
+                candidate["candidate_id"],
+            )
 
     def test_lower_maturity_candidates_fail_closed_on_declared_missing_evidence(self):
         lower = [
@@ -46,7 +55,11 @@ class Cycle002HiddenValueBatch1Tests(unittest.TestCase):
                 for error in errors
                 if error.startswith("missing:evidence_kind:")
             }
-            self.assertEqual(observed_missing, declared, candidate["candidate_id"])
+            # This artifact predates the structural-friction constitution. Preserve its
+            # historical declarations, but the current validator must add the new causal
+            # evidence dimension rather than silently grandfathering old candidates.
+            self.assertTrue(declared.issubset(observed_missing), candidate["candidate_id"])
+            self.assertIn("STRUCTURAL_FRICTION", observed_missing, candidate["candidate_id"])
 
     def test_candidate_ids_are_unique(self):
         ids = [candidate["candidate_id"] for candidate in self.candidates]

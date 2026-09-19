@@ -12,13 +12,16 @@ WORLD SENSING
 → STATE / STATE CHANGE
 → PERCEPTION / MOTIVE
 → OBSERVED BEHAVIOR
-→ FRICTION / UNDERUSE / MISALIGNMENT / CONTRADICTION
+→ SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
 → RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
-→ UNMET / UNFORMED OUTCOME HYPOTHESIS
+→ LATENT / UNFORMED OUTCOME HYPOTHESIS
+→ STRUCTURAL FRICTION HYPOTHESIS
+→ CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+→ EVIDENCED STRUCTURAL FRICTION
 → COMPLEMENTARY WORLD NODES
 → CONNECTION-PRESSURE EVIDENCE
 → PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
-→ OBSERVED MISSING EDGE / STRANDING BARRIER
+→ OBSERVED MISSING EDGE / STRANDING BARRIER BETWEEN NODES
 → LATENT CONNECTION HYPOTHESIS
 → CONTRADICTION SEARCH
 → ONLY THEN: COUNTERFACTUAL EXCHANGE MECHANICS
@@ -31,7 +34,7 @@ WORLD SENSING
 
 The key distinction is:
 
-> **Demand does not have to exist first. The conditions from which value can emerge may exist first. But plausible complementarity is not a discovered connection: the engine must find evidence that reality is already pushing value across a boundary before it spends human validation capital designing or testing that connection.**
+> **Demand does not have to exist first, and the first visible pain is not assumed to be the real opportunity. Surface friction is a sensor. The engine descends into the actor's product-agnostic latent outcome and deeper structural friction, corroborates that structure, and only then searches complementary nodes and evidence that reality is already pushing value across a boundary.**
 
 ```text
 DEMAND DISCOVERY != LATENT VALUE FORMATION
@@ -75,6 +78,7 @@ The Formation / Discovery Engine asks **what new value structure may be possible
 
 Canonical foundations:
 - `docs/LATENT_VALUE_DOCTRINE.md`
+- `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`
 - `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`
 - `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
 - `docs/FORMAL_TRUTH.md`
@@ -88,6 +92,32 @@ Canonical foundations:
 - `docs/HOOK_ORCHESTRATION_DESIGN.md`
 - `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
 - `docs/OPPORTUNITY_SCORECARD.md`
+
+### Surface friction is not the discovery endpoint
+
+The engine explicitly distinguishes:
+
+```text
+SURFACE PHENOMENON / SURFACE FRICTION
+!=
+STRUCTURAL FRICTION
+!=
+MISSING EDGE
+!=
+COMMERCIAL OPPORTUNITY
+```
+
+The first visible cost, complaint or workaround triggers causal descent:
+
+```text
+OBSERVED
+→ INFERRED
+→ EVIDENCED_STRUCTURE
+```
+
+`BUYER COST FIRST` and `CURRENT EXTERNALIZED WORKAROUND FIRST` are valid scan heuristics, not constitutional doctrine. Behavior-first, state-change-first, underuse-first, psychology/disequilibrium-first, partial-flow-first and contradiction-first discovery remain valid.
+
+See `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`.
 
 ## 1. Core identity
 
@@ -127,13 +157,15 @@ PERCEPTION / MOTIVE
 +
 OBSERVED BEHAVIOR
 +
-UNDERUSE / MISALIGNMENT / CONTRADICTION
+SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
 → RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
-→ UNMET / UNFORMED OUTCOME HYPOTHESIS
+→ LATENT / UNFORMED OUTCOME HYPOTHESIS
+→ STRUCTURAL FRICTION HYPOTHESIS
+→ EVIDENCED STRUCTURAL FRICTION
 +
 COMPLEMENTARY WORLD NODES
 → CONNECTION PRESSURE
-→ OBSERVED MISSING EDGE
+→ OBSERVED MISSING EDGE BETWEEN NODES
 → LATENT CONNECTION
 → MINIMUM EXCHANGE MECHANICS
 → CHEAP REALITY CONFIRMATION

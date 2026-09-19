@@ -23,6 +23,18 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("COMPLEMENTARITY != LATENT CONNECTION", doctrine)
         self.assertIn("UNKNOWN != PASS", doctrine)
 
+    def test_structural_friction_discovery_is_constitutional_and_causal(self):
+        principle = self._read("docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md")
+        self.assertIn("CONSTITUTIONAL / LOCKED", principle)
+        self.assertIn("SURFACE PHENOMENON / SURFACE FRICTION", principle)
+        self.assertIn("STRUCTURAL FRICTION", principle)
+        self.assertIn("STRUCTURAL FRICTION != MISSING EDGE", principle)
+        self.assertIn("OBSERVED", principle)
+        self.assertIn("INFERRED", principle)
+        self.assertIn("EVIDENCED_STRUCTURE", principle)
+        self.assertIn("BUYER COST FIRST != CONSTITUTION", principle)
+        self.assertIn("DECISIVE_UNKNOWN / PROBE_ELIGIBLE", principle)
+
     def test_latent_connection_discovery_principle_is_constitutional(self):
         principle = self._read("docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md")
         self.assertIn("CONSTITUTIONAL / LOCKED", principle)
@@ -50,6 +62,7 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
     def test_agents_makes_formation_doctrine_binding_for_future_changes(self):
         agents = self._read("AGENTS.md")
         self.assertIn("docs/LATENT_VALUE_DOCTRINE.md", agents)
+        self.assertIn("docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md", agents)
         self.assertIn("docs/LATENT_VALUE_FORMATION_BRIDGE.md", agents)
         self.assertIn("Code serves the doctrine", agents)
         self.assertIn("Architectural dependency direction — LOCKED", agents)
@@ -63,6 +76,9 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("infer boldly and promote conservatively", truth)
         self.assertIn("Objective Resource Exists != Commercial Value Exists", truth)
         self.assertIn("Psychology Hypothesis != Demand", truth)
+        self.assertIn("Surface Phenomenon != Structural Friction", truth)
+        self.assertIn("Structural Friction Hypothesis != Evidenced Structural Friction", truth)
+        self.assertIn("Buyer Cost First != Constitution", truth)
         self.assertIn("Connection Invention != Connection Discovery", truth)
         self.assertIn("Connection Hypothesis != Connection Pressure Evidence", truth)
         self.assertIn("Need / Resource / Blocker` is the current fail-closed evidence gate", truth)
@@ -73,7 +89,9 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("Latent-Value Formation & Orchestration Engine", readme)
         self.assertIn("Demand does not have to exist first", readme)
         self.assertIn("RESOURCE–PSYCHOLOGY DISEQUILIBRIUM", readme)
-        self.assertIn("UNMET / UNFORMED OUTCOME HYPOTHESIS", readme)
+        self.assertIn("LATENT / UNFORMED OUTCOME HYPOTHESIS", readme)
+        self.assertIn("STRUCTURAL FRICTION HYPOTHESIS", readme)
+        self.assertIn("Surface friction is not the discovery endpoint", readme)
         self.assertIn("Resource Imbalance Engine — downstream truth gate", readme)
 
     def test_psychology_is_causal_formation_input_not_pain_point_mining(self):
@@ -91,7 +109,7 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("Two candidate classes — do not mix them", discovery)
         self.assertIn("EXPLICIT_DEMAND_EXECUTION != CORE_LATENT_VALUE_FORMATION", discovery)
         self.assertIn("RESOURCE–PSYCHOLOGY DISEQUILIBRIUM", discovery)
-        self.assertIn("UNMET / UNFORMED OUTCOME HYPOTHESIS", discovery)
+        self.assertIn("LATENT / UNFORMED OUTCOME HYPOTHESIS", discovery)
         self.assertIn("Counterfactual Exchange Design", discovery)
         self.assertIn("VALUE_DISCOVERY_PRECEDES_ORCHESTRATION", self._read("src/latent_value_discovery.py"))
 

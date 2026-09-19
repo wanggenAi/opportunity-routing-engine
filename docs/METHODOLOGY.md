@@ -8,14 +8,21 @@ Strategic kernel: `docs/RESOURCE_ORCHESTRATION_KERNEL.md`.
 
 The method is empirical:
 
-> Observe actors and changing behavior, find a valuable desired outcome, identify the payer, decompose the outcome into capability units, route those units to resources, define incentives/trust/acceptance, execute, settle and learn.
+> Observe actors and changing behavior; treat the visible pain as a sensor rather than a root-cause verdict; infer the product-agnostic state transition the actor is trying to make; test the deeper structural friction preventing it; discover complementary nodes and connection pressure; then identify payer/economic truth, decompose the validated outcome into capability units, route resources, define incentives/trust/acceptance, execute, settle and learn.
 
 ## 2. Unit of opportunity analysis
 
-The discovery unit remains:
+The upstream discovery unit becomes:
 
 ```text
-Actor × Change × Friction × Desired Outcome × Payer
+Actor × Change × Behavior × Surface Phenomenon
+× Latent Outcome × Structural Friction × Evidence State
+```
+
+Only later does transaction analysis add:
+
+```text
+Complementary Nodes × Connection Pressure × Missing Edge × Payer
 ```
 
 The execution unit becomes:
@@ -30,11 +37,16 @@ Do not begin from a product, platform, provider list or assumed operator task.
 
 ```text
 ACTOR / CHANGE / BEHAVIOR
-→ FRICTION
-→ DESIRED OUTCOME
+→ SURFACE PHENOMENON / SURFACE FRICTION
+→ PRODUCT-AGNOSTIC LATENT / UNFORMED OUTCOME
+→ STRUCTURAL FRICTION HYPOTHESIS
+→ ALTERNATIVE EXPLANATIONS / CONTRADICTION SEARCH
+→ EVIDENCED STRUCTURAL FRICTION
+→ COMPLEMENTARY WORLD NODES
+→ CONNECTION PRESSURE / PARTIAL FLOW
+→ OBSERVED OR DECISIVELY TESTABLE MISSING EDGE
 → BENEFICIARY
-→ PAYER
-→ CURRENT WORKAROUND
+→ PAYER / ECONOMIC TRUTH
 → TRANSACTION OBJECTIVE
 → CAPABILITY DECOMPOSITION
 → CAPABILITY UNITS
@@ -52,23 +64,72 @@ ACTOR / CHANGE / BEHAVIOR
 ### A — Actor / change
 Identify who is changing and what changed.
 
-### B — Behavior / friction
-Find observable behavior, delay, cost, risk, mismatch, idle resource or repeated workaround.
+### B — Behavior / surface phenomenon
+Find observable behavior, delay, cost, risk, mismatch, idle resource, repeated workaround, failed attempt or contradiction.
 
-### C — Desired outcome
-Write the need as an outcome, not a product request:
+Label direct facts `OBSERVED`. Do not assume the visible symptom is the governing problem.
 
-> `[actor] needs [measurable outcome] under [constraints] because the current workaround costs [money/time/risk/opportunity].`
+### C — Latent / unformed outcome
+Ask what product-agnostic state the actor is actually trying to reach or avoid.
 
-### D — Beneficiary / payer
+A stated request is evidence, not necessarily the latent outcome.
+
+Examples:
+- “find a job” may sit above a deeper outcome such as converting bounded time/capability into income, experience and useful participation under acceptable constraints;
+- “more production capacity” may sit above a deeper outcome such as obtaining trusted elastic capacity without permanent fixed expansion or loss of quality/IP/acceptance control.
+
+These are hypotheses until corroborated.
+
+### D — Structural friction causal descent
+Ask why the actor cannot reach that latent state under current social/economic/technical structures.
+
+Record:
+
+```text
+surface_observation:
+latent_outcome_hypothesis:
+structural_friction_hypothesis:
+truth_state: OBSERVED / INFERRED / EVIDENCED_STRUCTURE
+alternative_explanations:
+discriminating_evidence:
+falsifiers:
+```
+
+`STRUCTURAL FRICTION != MISSING EDGE`.
+
+### E — Complementary nodes / connection pressure
+Only after the structural layer is bounded, search for resources/capabilities/relationships whose activation could remove the constraint. Then look for repeated workaround, partial flow, substitution, referral, failed boundary crossing or other evidence that reality is already pushing those nodes together.
+
+### F — Beneficiary / payer
 Separate who receives value from who pays.
 
 Test direct, family, employer, institution, sponsor, supplier, merchant, platform and multi-sided payer structures where relevant.
 
-### E — Payment evidence
+### G — Payment evidence
 Look for actual purchases, budgets, procurement, hiring, paid substitutes, deposits, costly workarounds, sponsor spend, repeat behavior and explicit economic loss.
 
+Payment evidence strengthens transaction truth. It is not required merely to form a structural-friction hypothesis.
+
 Complaint and interest remain weak evidence.
+
+## 4A. Discovery entry points are plural
+
+Current scanning may use any evidence-bearing entry point:
+
+```text
+BUYER COST FIRST
+BEHAVIOR FIRST
+STATE CHANGE FIRST
+RESOURCE UNDERUSE FIRST
+RESOURCE–PSYCHOLOGY DISEQUILIBRIUM FIRST
+PARTIAL FLOW / WORKAROUND FIRST
+CURRENT EXTERNALIZED WORKAROUND FIRST
+CONTRADICTION FIRST
+```
+
+These are search heuristics. None is constitutional.
+
+A human contact may be used at `DECISIVE_UNKNOWN / PROBE_ELIGIBLE` when broad sensing has isolated one causal question whose answer would strongly support or kill the structural-friction hypothesis. The question must be narrow; generic “what problems do you have?” interviewing is not the discovery method.
 
 ## 5. Convert demand into a transaction objective
 
@@ -372,4 +433,4 @@ If the operator temporarily performs one of those roles, the system should treat
 
 ## 19. Governing maxim
 
-**Find the outcome. Split the work. Price the capabilities. Route the resources. Verify the result. Settle everyone. Learn which combination works.**
+**See the symptom. Infer the state transition. Prove the structural friction. Discover the connection pressure. Then split the work, price the capabilities, route the resources, verify the result, settle everyone, and learn which structure truly moves value.**

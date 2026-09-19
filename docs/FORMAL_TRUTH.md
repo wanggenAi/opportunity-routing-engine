@@ -1,11 +1,12 @@
 # Formal Truth
 
-Last updated: 2026-09-18
+Last updated: 2026-09-19
 
 This document is the current commercial source of truth. Historical rankings and launch designs remain evidence, but they do not override the current truth stated here.
 
 Canonical foundations, in precedence order:
 - `docs/LATENT_VALUE_DOCTRINE.md`
+- `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`
 - `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`
 - `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
 - `docs/ACCESS_FEASIBILITY_GATE.md`
@@ -22,7 +23,7 @@ Canonical foundations, in precedence order:
 - `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
 - `docs/OPPORTUNITY_SCORECARD.md`
 
-`docs/LATENT_VALUE_DOCTRINE.md` is constitutional. `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md` and `docs/LATENT_VALUE_FORMATION_BRIDGE.md` are locked constitutional discovery principles. Lower-level models, source adapters, explicit-demand feeds, current candidates and implementation convenience cannot override them.
+`docs/LATENT_VALUE_DOCTRINE.md` is constitutional. `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`, `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md` and `docs/LATENT_VALUE_FORMATION_BRIDGE.md` are locked constitutional discovery principles. Lower-level models, source adapters, explicit-demand feeds, current candidates and implementation convenience cannot override them.
 
 ## 0. Latent-value formation purpose — LOCKED
 
@@ -30,7 +31,7 @@ The system does not exist merely to find a product, explicit demand, supplier, l
 
 Its highest-level commercial purpose is:
 
-> **observe reality deeply enough to identify objective resources, actor state transitions, psychology/behavior changes, contradictions and repeated partial flows from which a value structure may form before a mature demand or product exists; discover evidence that reality is already exerting pressure toward a latent connection among complementary world nodes; only then design the minimum exchange mechanics and let reality determine whether that connection becomes accepted commercial value.**
+> **observe reality deeply enough to identify objective resources, actor state transitions, psychology/behavior changes and visible frictions; descend beneath the visible symptom to infer and corroborate the product-agnostic state transition the Actor is trying to make and the deeper structural friction preventing it; then discover evidence that reality is already exerting pressure toward a latent connection among complementary world nodes; only then design the minimum exchange mechanics and let reality determine whether that connection becomes accepted commercial value.**
 
 The system does not begin from a permanent `DEMAND SIDE -> SUPPLY SIDE` split.
 
@@ -70,13 +71,16 @@ WORLD SENSING
 → STATE CHANGE
 → PERCEPTION / MOTIVE
 → OBSERVED BEHAVIOR
-→ FRICTION / UNDERUSE / MISALIGNMENT / CONTRADICTION
+→ SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
 → RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
-→ UNMET / UNFORMED OUTCOME HYPOTHESIS
+→ LATENT / UNFORMED OUTCOME HYPOTHESIS
+→ STRUCTURAL FRICTION HYPOTHESIS
+→ CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+→ EVIDENCED STRUCTURAL FRICTION
 → COMPLEMENTARY WORLD-NODE SEARCH
 → CONNECTION-PRESSURE EVIDENCE
 → PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
-→ OBSERVED MISSING EDGE / STRANDING BARRIER
+→ OBSERVED MISSING EDGE / STRANDING BARRIER BETWEEN NODES
 → LATENT CONNECTION HYPOTHESIS
 → CONTRADICTION SEARCH
 → ONLY THEN: COUNTERFACTUAL EXCHANGE MECHANICS
@@ -116,6 +120,15 @@ Therefore:
 Objective Resource Exists != Commercial Value Exists
 Demand Discovery != Latent Value Formation
 Inference != Fact
+Surface Phenomenon != Structural Friction
+Surface Friction != Opportunity
+Stated Need != Latent Outcome
+Observed Cost != Root Cause
+Structural Friction Hypothesis != Evidenced Structural Friction
+Structural Friction != Missing Edge
+Buyer Cost First != Constitution
+Externalized Workaround First != Constitution
+Observed != Inferred != Evidenced Structure
 Psychology Hypothesis != Demand
 Unformed Outcome Hypothesis != Demand
 Connection Invention != Connection Discovery
@@ -148,13 +161,16 @@ Data Sources / Live Sensors
 → Actor + Objective Endowment
 → State / State Change
 → Perception / Motive / Behavior
-→ Friction / Underuse / Misalignment / Contradiction
+→ Surface Phenomenon / Surface Friction / Underuse / Contradiction
 → Resource–Psychology Disequilibrium
-→ Unmet / Unformed Outcome Hypothesis
+→ Latent / Unformed Outcome Hypothesis
+→ Structural Friction Hypothesis
+→ Cross-Evidence / Alternative-Explanation Search
+→ Evidenced Structural Friction
 → Complementary World-Node Search
 → Connection-Pressure Evidence
 → Partial Flow / Workaround / Substitute / Adjacent Precedent
-→ Observed Missing Edge / Stranding Barrier
+→ Observed Missing Edge / Stranding Barrier Between Nodes
 → Latent Connection Hypothesis
 → Contradiction Search
 → Minimum Counterfactual Exchange Mechanics
@@ -218,13 +234,16 @@ China
 → district/county/industry/actor cluster
 → actor objective endowment / state / change
 → perception / motive / behavior
-→ contradiction / underuse / misalignment
+→ surface phenomenon / visible friction / contradiction / underuse
 → Resource–Psychology Disequilibrium
-→ unmet / unformed outcome hypothesis
+→ latent / unformed outcome hypothesis
+→ structural friction hypothesis
+→ cross-evidence / alternative-explanation search
+→ evidenced structural friction
 → complementary world nodes
 → connection-pressure evidence
 → partial flow / workaround / substitute / adjacent precedent
-→ observed missing edge / stranding barrier
+→ observed missing edge / stranding barrier between nodes
 → latent connection hypothesis
 → minimum exchange mechanics
 → cheap reality confirmation
@@ -240,6 +259,37 @@ It must also search for **what reality is already trying to connect**: repeated 
 A primary search target is `RESOURCE–PSYCHOLOGY DISEQUILIBRIUM`: the mismatch between what an actor objectively has and what its current state, psychology, behavior, environment and available routes allow those resources to become.
 
 Macro growth is search-direction evidence, not business proof.
+
+## 2A. Structural-friction truth — LOCKED
+
+A visible problem is a sensor, not a root-cause verdict.
+
+For every material observation, preserve three layers:
+
+```text
+OBSERVED
+→ INFERRED
+→ EVIDENCED_STRUCTURE
+```
+
+The system must ask:
+
+```text
+SURFACE PHENOMENON / SURFACE FRICTION
+→ what state is the Actor actually trying to reach or avoid?
+→ LATENT / UNFORMED OUTCOME
+→ what structural condition prevents that transition?
+→ STRUCTURAL FRICTION HYPOTHESIS
+→ what alternative explanations fit?
+→ what evidence discriminates among them?
+→ EVIDENCED STRUCTURAL FRICTION
+```
+
+`STRUCTURAL FRICTION` is not the same as the later `MISSING EDGE`. Structural friction explains the blocked Actor state transition; the missing edge explains why identified complementary nodes cannot form normal value flow.
+
+Current-cycle heuristics such as `BUYER COST FIRST` and `CURRENT EXTERNALIZED WORKAROUND FIRST` may improve evidence quality, but they are not constitutional search definitions and must not exclude behavior-first, state-change-first, underuse-first, psychology/disequilibrium-first, partial-flow-first or contradiction-first discovery.
+
+A targeted human contact may be used at `DECISIVE_UNKNOWN / PROBE_ELIGIBLE` when one bounded causal uncertainty remains after broad sensing. The contact must test that uncertainty rather than ask for generic pain points or idea endorsement.
 
 ## 3. Data-source truth — LOCKED
 

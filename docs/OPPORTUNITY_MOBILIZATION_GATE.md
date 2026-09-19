@@ -5,6 +5,7 @@ Status: `CANONICAL / CURRENT-STAGE PRIORITY`
 Effective: 2026-09-18
 
 Parents:
+- `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`
 - `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`
 - `docs/ACCESS_FEASIBILITY_GATE.md`
 - `docs/OPPORTUNITY_SCORECARD.md`
@@ -14,7 +15,7 @@ Parents:
 
 A candidate may be real, reachable and still be commercially unattractive for the current operator.
 
-After reality has established connection pressure and a narrow missing edge, the system must ask:
+After reality has established an evidenced structural friction, connection pressure and a narrow inter-node missing edge, the system must ask:
 
 > **If the missing edge is opened, will both sides already want to move through it with little founder push?**
 
@@ -56,7 +57,15 @@ ONE PROFITABLE DEAL
 REPEATABLE FLOW
 ```
 
-Mobilization can only amplify an already evidenced latent connection. It cannot rescue a speculative connection.
+Mobilization can only amplify an already evidenced latent connection. It cannot rescue a speculative connection, and it cannot substitute a visible buyer pain for deeper structural-friction discovery.
+
+```text
+BUYER COST != ROOT CAUSE
+DEMAND PULL != LATENT OUTCOME
+STRUCTURAL FRICTION != MISSING EDGE
+```
+
+Buyer cost, outsourcing, waiting, search and workaround behavior are powerful mobilization evidence once their causal role is understood; they are not the constitutional starting ontology.
 
 ## 3. Bilateral Pull
 

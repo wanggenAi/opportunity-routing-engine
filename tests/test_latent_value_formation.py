@@ -8,6 +8,7 @@ from src.latent_value_formation import (
     FormationEvidenceRef,
     FormationState,
     LatentValueFormationHypothesis,
+    StructuralFrictionTruthState,
     formation_state,
     to_latent_value_candidate,
     validate_formation,
@@ -82,6 +83,11 @@ class LatentValueFormationTests(unittest.TestCase):
                 FormationEvidenceKind.OBSERVED_BEHAVIOR,
             ),
             FormationEvidenceRef(
+                "analysis:structural-friction",
+                "cross-source behavior supports a structural inability to convert the desired state through current packaging, trust and acceptance routes",
+                FormationEvidenceKind.STRUCTURAL_FRICTION,
+            ),
+            FormationEvidenceRef(
                 "labor:youth",
                 "younger digital-capability group has execution capacity and weak access to trusted paid work",
                 FormationEvidenceKind.COMPLEMENTARY_NODE,
@@ -137,6 +143,13 @@ class LatentValueFormationTests(unittest.TestCase):
             orchestrator_value_capture_hypothesis="fee only if the orchestrator materially reduces search, packaging, trust, coordination and acceptance cost",
             cheapest_decisive_validation="test one narrowly defined outcome with a small segment and real opt-in behavior before claiming demand",
             kill_conditions="no repeated behavior, no participant surplus, no willingness to make a real commitment, or trust/coordination cost consumes the value",
+            surface_phenomenon_or_friction="retirement creates a mismatch between new discretionary time/experience and the limited forms in which those endowments can be used",
+            structural_friction_hypothesis="useful time and experience are poorly packaged into bounded, trusted and acceptance-ready roles that preserve autonomy",
+            structural_friction_truth_state=StructuralFrictionTruthState.EVIDENCED_STRUCTURE,
+            alternative_explanations=(
+                "the observed behavior may be leisure preference rather than blocked productive participation",
+                "existing community and market routes may already satisfy the relevant segment",
+            ),
             psychology_snapshots=(self._psychology_snapshot(),),
             evidence=evidence,
             contradictions=(),
@@ -153,6 +166,41 @@ class LatentValueFormationTests(unittest.TestCase):
         self.assertEqual(candidate.candidate_class(), CandidateClass.LATENT_VALUE_ACTIVATION)
         self.assertEqual(candidate.source_mode, "LATENT_VALUE_DISCOVERY")
         self.assertEqual(validate_candidate(candidate), [])
+
+    def test_surface_friction_without_evidenced_structure_cannot_promote(self):
+        hypothesis = self._hypothesis(
+            structural_friction_truth_state=StructuralFrictionTruthState.INFERRED,
+        )
+        errors = validate_formation(hypothesis)
+        self.assertIn("structural_friction_not_evidenced", errors)
+        self.assertEqual(
+            formation_state(hypothesis),
+            FormationState.STRUCTURAL_FRICTION_HYPOTHESIS,
+        )
+
+    def test_structural_friction_requires_alternative_explanation_search(self):
+        hypothesis = self._hypothesis(alternative_explanations=())
+        errors = validate_formation(hypothesis)
+        self.assertIn("missing:alternative_explanations", errors)
+        self.assertEqual(
+            formation_state(hypothesis),
+            FormationState.STRUCTURAL_FRICTION_HYPOTHESIS,
+        )
+
+    def test_missing_structural_friction_evidence_cannot_promote(self):
+        hypothesis = self._hypothesis(
+            evidence=tuple(
+                item
+                for item in self._hypothesis().evidence
+                if item.kind is not FormationEvidenceKind.STRUCTURAL_FRICTION
+            )
+        )
+        errors = validate_formation(hypothesis)
+        self.assertIn("missing:evidence_kind:STRUCTURAL_FRICTION", errors)
+        self.assertEqual(
+            formation_state(hypothesis),
+            FormationState.STRUCTURAL_FRICTION_HYPOTHESIS,
+        )
 
     def test_complementarity_and_exchange_design_without_connection_pressure_cannot_promote(self):
         hypothesis = self._hypothesis(

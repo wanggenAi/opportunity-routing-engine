@@ -6,6 +6,7 @@ Effective: 2026-09-17
 
 Parents:
 - `docs/LATENT_VALUE_DOCTRINE.md`
+- `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`
 - `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`
 - `docs/LATENT_VALUE_FORMATION_BRIDGE.md`
 - `docs/DYNAMIC_SENSOR_FABRIC.md`
@@ -20,7 +21,7 @@ Its core job is not merely to discover demand. It is to identify **conditions fr
 
 Begin with reality:
 
-> **What objectively exists; what changed; which actors are entering new states; how perception, motive and behavior are changing; where objective endowments and actual utilization are becoming misaligned; what outcome may be forming before it is articulated; what other world nodes could make that state transition possible; and what repeated real behavior shows that value is already trying to cross the boundary between them?**
+> **What objectively exists; what changed; which actors are entering new states; how perception, motive and behavior are changing; what visible symptom or workaround appears; what product-agnostic state the Actor is actually trying to reach; what deeper structural friction prevents that transition; what other world nodes could remove that structural constraint; and what repeated real behavior shows that value is already trying to cross the boundary between them?**
 
 Do not begin with:
 - a favored product or startup idea;
@@ -93,9 +94,12 @@ GLOBAL + DOMESTIC SENSOR FABRIC
 → STATE / STATE CHANGE
 → PERCEPTION / MOTIVE
 → OBSERVED BEHAVIOR
-→ FRICTION / UNDERUSE / MISALIGNMENT / CONTRADICTION
+→ SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
 → RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
-→ UNMET / UNFORMED OUTCOME HYPOTHESIS
+→ LATENT / UNFORMED OUTCOME HYPOTHESIS
+→ STRUCTURAL FRICTION HYPOTHESIS
+→ CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+→ EVIDENCED STRUCTURAL FRICTION
 → COMPLEMENTARY WORLD-NODE SEARCH
 → CONNECTION-PRESSURE EVIDENCE
 → PARTIAL FLOW / WORKAROUND / SUBSTITUTE / ADJACENT PRECEDENT
@@ -123,7 +127,12 @@ objective_endowments
 observed_state / observed_change
 perception / motive / behavior
 resource_psychology_disequilibrium
-unmet_or_unformed_outcome_hypothesis
+surface_phenomenon_or_friction
+latent_or_unformed_outcome_hypothesis
+structural_friction_hypothesis
+structural_friction_truth_state
+alternative_explanations
+structural_friction_evidence
 hidden_or_underrecognized_value
 complementary_world_nodes
 connection_pressure_evidence
@@ -264,7 +273,7 @@ Observe, without treating this list as exhaustive:
 
 Psychology must be corroborated by behavior and money where possible.
 
-The output is not `product idea` or `connection fact`. It is evidence for a possible state transition, contradiction, `RESOURCE–PSYCHOLOGY DISEQUILIBRIUM` or connection-pressure search.
+The output is not `product idea` or `connection fact`. It is evidence for a possible state transition, contradiction, `RESOURCE–PSYCHOLOGY DISEQUILIBRIUM`, latent outcome or structural-friction hypothesis. The engine must descend beneath the visible symptom before committing to complementary-node search.
 
 ## 9. Actor state / endowment model
 
@@ -320,6 +329,39 @@ UNFORMED OUTCOME != DEMAND
 PSYCHOLOGY != DEMAND
 ```
 
+## 10A. Structural-friction causal descent — LOCKED
+
+The engine must not convert the first visible pain directly into a product category, supplier search or marketplace idea.
+
+For each material formation:
+
+```text
+OBSERVED FACTS
+→ SURFACE PHENOMENON / SURFACE FRICTION
+→ ACTOR'S PRODUCT-AGNOSTIC LATENT STATE TRANSITION
+→ STRUCTURAL FRICTION HYPOTHESIS
+→ ALTERNATIVE EXPLANATIONS
+→ DISCRIMINATING EVIDENCE
+→ EVIDENCED STRUCTURAL FRICTION
+```
+
+Truth states are:
+
+```text
+OBSERVED
+INFERRED
+EVIDENCED_STRUCTURE
+```
+
+Examples of scan entry points include buyer cost, behavior change, state change, resource underuse, resource–psychology disequilibrium, partial flow, externalized workaround and contradiction. None is the constitutional definition of discovery.
+
+```text
+BUYER COST FIRST != LATENT VALUE DOCTRINE
+CURRENT EXTERNALIZED WORKAROUND FIRST != LATENT VALUE DOCTRINE
+```
+
+A `DECISIVE_UNKNOWN / PROBE_ELIGIBLE` state is allowed when public/authorized sensing has isolated one causal uncertainty whose answer would strongly falsify or support the structural-friction hypothesis. Human contact must test that one uncertainty and must not become generic discovery labor.
+
 ## 11. Complementary world-node search
 
 After identifying a disequilibrium and unformed outcome, ask what other real-world nodes could make the desired state transition possible.
@@ -361,7 +403,7 @@ Connection-pressure evidence may include:
 - shared external change creating stranded value on one side and repeated pressure on another;
 - adjacent or historical analogues under comparable constraints.
 
-Then identify the **observed missing edge**, not merely a plausible blocker.
+Then identify the **observed missing edge between the complementary nodes**, not merely a plausible blocker. This is downstream of structural-friction discovery: the structural friction explains why the Actor cannot reach the desired state; the missing edge explains why the identified nodes cannot form normal value flow.
 
 Only after these are evidenced may the historical `Counterfactual Exchange Design` describe how value could flow more cleanly.
 
