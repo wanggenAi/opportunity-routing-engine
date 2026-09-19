@@ -35,6 +35,7 @@ class DiscoveryState(str, Enum):
     OBSERVED_PATTERN = "OBSERVED_PATTERN"
     LATENT_VALUE_HYPOTHESIS = "LATENT_VALUE_HYPOTHESIS"
     STRUCTURAL_FRICTION_HYPOTHESIS = "STRUCTURAL_FRICTION_HYPOTHESIS"
+    STRUCTURAL_FRICTION_EVIDENCED = "STRUCTURAL_FRICTION_EVIDENCED"
     COMPLEMENTARITY_HYPOTHESIS = "COMPLEMENTARITY_HYPOTHESIS"
     LATENT_CONNECTION_EVIDENCED = "LATENT_CONNECTION_EVIDENCED"
     VALIDATION_READY = "VALIDATION_READY"
@@ -284,7 +285,11 @@ def discovery_state(candidate: LatentValueCandidate) -> DiscoveryState:
         candidate.surface_phenomenon_or_friction.strip()
         and candidate.latent_outcome_hypothesis.strip()
         and candidate.structural_friction_hypothesis.strip()
-        and candidate.structural_friction_truth_state == "EVIDENCED_STRUCTURE"
+    ):
+        return DiscoveryState.LATENT_VALUE_HYPOTHESIS
+
+    if not (
+        candidate.structural_friction_truth_state == "EVIDENCED_STRUCTURE"
         and EvidenceKind.STRUCTURAL_FRICTION in evidence_kinds(candidate)
         and not _causal_projection_errors(
             actor=candidate.actor,
@@ -305,14 +310,14 @@ def discovery_state(candidate: LatentValueCandidate) -> DiscoveryState:
         return DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS
 
     if not candidate.complementary_actor_hypothesis.strip():
-        return DiscoveryState.LATENT_VALUE_HYPOTHESIS
+        return DiscoveryState.STRUCTURAL_FRICTION_EVIDENCED
 
     kinds = evidence_kinds(candidate)
     if not (
         candidate.connection_pressure_hypothesis.strip()
         and EvidenceKind.CONNECTION_PRESSURE in kinds
         and candidate.observed_missing_edge.strip()
-        and {EvidenceKind.MISSING_EDGE, EvidenceKind.STRANDING_BARRIER}.intersection(kinds)
+        and EvidenceKind.MISSING_EDGE in kinds
         and candidate.latent_connection_hypothesis.strip()
     ):
         return DiscoveryState.COMPLEMENTARITY_HYPOTHESIS
