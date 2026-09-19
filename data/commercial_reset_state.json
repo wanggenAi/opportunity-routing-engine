@@ -6,7 +6,9 @@
   "active_transaction_units": [],
   "active_parent_formations": [],
   "inherited_watchlist": [],
-  "retained_research_formations": [],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_003-F1"
+  ],
   "resolved_research_formations": [
     {
       "formation_id": "ATTRACTION_SCAN_001-F1",
@@ -21,10 +23,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_002",
+  "last_completed_scan_id": "ATTRACTION_SCAN_003",
   "last_resolved_formation_id": "ATTRACTION_SCAN_002-F1",
-  "next_scan_id": "ATTRACTION_SCAN_003",
-  "current_research_action": "RUN_ATTRACTION_SCAN_003",
+  "next_scan_id": "ATTRACTION_SCAN_004",
+  "current_research_action": "CAUSAL_DESCENT_ATTRACTION_SCAN_003_F1",
   "required_scan_controls": [
     "BROAD_REALITY",
     "ATTRACTION_BRIEF",
@@ -37,9 +39,11 @@
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
-    "ATTRACTION_SCAN_001-F1 and ATTRACTION_SCAN_002-F1 are both demoted and are not fallback/watchlist candidates.",
-    "ATTRACTION_SCAN_002-F1 failed because the residual permission layer was not proven standardized or founder-independent after incumbent capabilities were credited.",
-    "Research learnings are abstractions only and must not become fixed search ontology.",
+    "ATTRACTION_SCAN_001-F1 and ATTRACTION_SCAN_002-F1 are demoted and not fallback/watchlist candidates.",
+    "ATTRACTION_SCAN_003 completed with zero commercial candidate promotions.",
+    "ATTRACTION_SCAN_003-F1 is research-only; the hypothesized edge is transaction-sized acceptance specification plus executable evidence for AI custom services.",
+    "Generic marketplace, escrow, Agent evaluation and formal third-party testing capabilities are explicitly credited.",
+    "The ticket-size barbell is a decisive kill test.",
     "Deleted files and closed case issues must not be automatically recovered as candidates."
   ]
 }
