@@ -6,6 +6,7 @@ Effective: 2026-09-17
 
 Parents:
 - `docs/LATENT_VALUE_DOCTRINE.md`
+- `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`
 - `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md`
 - `docs/DISCOVERY_ENGINE.md`
 - `docs/PSYCHOLOGY_BEHAVIOR_TRACKER.md`
@@ -39,7 +40,7 @@ A resource can objectively exist while the commercial value that could later eme
 
 But the engine must not jump from `A exists + B exists` to an invented connection. The upstream question is:
 
-> **Given what real actors objectively have, what changed, what costs/workarounds/partial flows are already observable, and what complementary nodes exist elsewhere, is reality already exerting directional pressure toward a connection that current routes fail to realize?**
+> **Given what real actors objectively have, what changed and what visible costs/workarounds/behaviors appear, what product-agnostic state transition is the actor actually trying to make, what deeper structural friction prevents it, and—only after that causal layer is bounded—what complementary nodes exist elsewhere and is reality already exerting directional pressure toward a connection that current routes fail to realize?**
 
 Only after that connection pressure is evidenced may the system ask what minimum exchange mechanics would let the value flow with less friction.
 
@@ -64,11 +65,17 @@ PERCEPTION / MOTIVE
         ↓
 OBSERVED BEHAVIOR
         ↓
-UNDERUSE / MISALIGNMENT
+SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
         ↓
 RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
         ↓
-UNMET / UNFORMED OUTCOME HYPOTHESIS
+LATENT / UNFORMED OUTCOME HYPOTHESIS
+        ↓
+STRUCTURAL FRICTION HYPOTHESIS
+        ↓
+CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+        ↓
+EVIDENCED STRUCTURAL FRICTION
         ↓
 COMPLEMENTARY WORLD-NODE SEARCH
         ↓
@@ -95,9 +102,37 @@ ROUTING / ACCEPTANCE / SETTLEMENT / LEARNING
 
 The key distinction is:
 
-> **Demand does not have to exist first. The conditions from which value could emerge may exist first. But the system must discover evidence that reality is already pushing value across a boundary before it spends human validation capital designing or testing that connection.**
+> **Demand does not have to exist first, and the first visible pain is not assumed to be the true friction. The system must descend from observable behavior into a product-agnostic latent outcome and a corroborated structural-friction hypothesis. Only then should it commit to complementary-node discovery, and it must still discover evidence that reality is already pushing value across the boundary before it spends human validation capital designing or testing that connection.**
 
 The old shorthand `COUNTERFACTUAL EXCHANGE DESIGN` remains a downstream mechanism-design operation. It no longer proves that the connection itself exists.
+
+## 2A. Surface-to-structure causal descent
+
+A surface friction is an evidence-bearing symptom, not the final opportunity object.
+
+```text
+SURFACE PHENOMENON
+→ LATENT STATE TRANSITION
+→ STRUCTURAL FRICTION HYPOTHESIS
+→ EVIDENCE / CONTRADICTION SEARCH
+→ EVIDENCED STRUCTURAL FRICTION
+```
+
+Keep causal truth explicit:
+
+```text
+OBSERVED
+!=
+INFERRED
+!=
+EVIDENCED_STRUCTURE
+```
+
+The engine may infer a structural cause from state, psychology and behavior, but the inference must remain falsifiable and product-agnostic. It must actively test alternative explanations.
+
+`STRUCTURAL FRICTION` is upstream of the later inter-node `MISSING EDGE`: the former explains the blocked Actor state transition; the latter explains why complementary nodes cannot transact or coordinate normally.
+
+Current scan orders such as `BUYER COST FIRST` and `CURRENT EXTERNALIZED WORKAROUND FIRST` remain valid sensors, not constitutional definitions.
 
 ## 3. Resource–Psychology Disequilibrium is a primary search zone
 
