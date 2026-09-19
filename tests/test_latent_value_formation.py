@@ -321,13 +321,13 @@ class LatentValueFormationTests(unittest.TestCase):
             FormationState.STRUCTURAL_FRICTION_HYPOTHESIS,
         )
 
-    def test_structured_causal_competition_replaces_duplicate_alternative_summary(self):
+    def test_structured_causal_truth_does_not_require_duplicate_competition(self):
         hypothesis = self._hypothesis(alternative_explanations=())
         self.assertEqual(validate_formation(hypothesis), [])
         self.assertEqual(formation_state(hypothesis), FormationState.VALIDATION_READY)
 
         causal = self._causal_descent()
-        one_story = CausalDescentRecord(
+        single_evidenced_frontier = CausalDescentRecord(
             **{
                 **causal.__dict__,
                 "constraint_hypotheses": (causal.constraint_hypotheses[0],),
@@ -335,17 +335,10 @@ class LatentValueFormationTests(unittest.TestCase):
         )
         hypothesis = self._hypothesis(
             alternative_explanations=(),
-            causal_descent=one_story,
+            causal_descent=single_evidenced_frontier,
         )
-        errors = validate_formation(hypothesis)
-        self.assertIn(
-            "causal_descent:missing:competing_causal_explanation",
-            errors,
-        )
-        self.assertEqual(
-            formation_state(hypothesis),
-            FormationState.STRUCTURAL_FRICTION_HYPOTHESIS,
-        )
+        self.assertEqual(validate_formation(hypothesis), [])
+        self.assertEqual(formation_state(hypothesis), FormationState.VALIDATION_READY)
 
     def test_formation_summary_cannot_drift_from_causal_lineage(self):
         hypothesis = self._hypothesis(
