@@ -9,6 +9,7 @@ Compare opportunities using commercial truth **and strategic fit for a sustainab
 A founder-operated service can be commercially real yet strategically weak if it cannot be decomposed, delegated, replaced, repeatedly sourced, or governed economically.
 
 Read with:
+- `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`
 - `docs/DISCOVERY_ENGINE.md`
 - `docs/RESOURCE_ORCHESTRATION_KERNEL.md`
 - `docs/ACTOR_MODEL.md`
@@ -62,7 +63,7 @@ Result: `PASS / UNKNOWN / FAIL`
 A one-off transaction may still be tested for learning, but **G6 must PASS before an opportunity becomes a core `REPEATABLE` / `SCALE_CANDIDATE` system**.
 
 ### G7 — Mobilization potential / bilateral pull / self-propulsion
-Once reality validity and a narrow missing edge are established, does the route contain enough actor energy to move with little founder push?
+Once a surface symptom has been causally descended into an evidenced structural friction, and reality validity plus a narrow inter-node missing edge are established, does the route contain enough actor energy to move with little founder push?
 
 Answer:
 - Is the demand side already taking observable action to solve the problem rather than merely expressing interest?
