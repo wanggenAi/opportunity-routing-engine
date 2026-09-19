@@ -164,7 +164,7 @@ class CausalDescentTests(unittest.TestCase):
         self.assertIn("missing:discriminating_evidence:C1", errors)
         self.assertIn("missing:constraint_falsifiers:C1", errors)
 
-    def test_stop_reason_is_part_of_deep-causal_discipline(self):
+    def test_stop_reason_is_part_of_deep_causal_discipline(self):
         record = self._record(stop_reason=None)
         self.assertEqual(
             causal_descent_state(record),
