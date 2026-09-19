@@ -136,12 +136,16 @@ Likewise, a manufacturer saying "we need more capacity" may be naming a surface 
 
 These formulations are **not automatically true because they sound deeper**. They must be treated as competing outcome hypotheses and tested against observed choice, sacrifice, substitution, workaround, persistence and contradiction.
 
-The selected latent outcome must carry an explicit rationale tied to evidence. A deeper-sounding objective is not accepted merely because it is more abstract.
+The selected latent outcome must carry an explicit rationale tied to durable evidence. A deeper-sounding objective is not accepted merely because it is more abstract. Promotion requires competing latent-outcome hypotheses plus explicit selection-evidence references that bind to the same persisted evidence packet.
 
 ```text
+COMPETING LATENT OUTCOMES
++
 SELECTED LATENT OUTCOME
-REQUIRES
-EVIDENCE-BOUND SELECTION RATIONALE
++
+BOUND SELECTION EVIDENCE
++
+SELECTION RATIONALE
 ```
 
 When the same surface behavior admits materially different outcome interpretations, preserve those alternatives instead of silently choosing the most commercially convenient one.
@@ -222,6 +226,8 @@ If psychology is used, behavior corroboration is still required for the psycholo
 2. decision-relevant — a deeper explanation would not materially change which real-world resources, interfaces, rights, trust mechanisms or capabilities must be discovered or activated.
 
 A stop reason must include a written rationale explaining why further descent would no longer change the next decision, is not falsifiable with available evidence, has reached an evidence boundary, or is genuinely multi-causal. The enum label alone is not sufficient.
+
+For `INTERVENTION_RELEVANT_BOUNDARY`, the executable record must additionally assert that deeper search would **not** change the next decision. If deeper search could still change the relevant resource, interface, rights, trust, capability, coordination or acceptance structure, the frontier is not stable enough to promote.
 
 Valid stop reasons include:
 
