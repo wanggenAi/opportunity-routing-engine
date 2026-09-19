@@ -4,73 +4,99 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Regenerative Formation Scan 018 completed causal descent on the only formation retained by Scan 017:
+Regenerative Formation Scan 019 resumed white-portfolio sensing under a PRE-MARKET STRANDED VALUE bias.
 
-SPARSE INSTALLED-BASE SERVICE THRESHOLD GAP
+Demoted:
+1. SURPLUS MRO / OBSOLETE SPARE ROUTING
+   - value asymmetry is real;
+   - verified surplus marketplaces, enterprise disposition platforms and reverse-engineering channels already own the part-number routing problem.
 
-Result:
+2. SHARED LAB / PILOT CAPACITY
+   - equipment scarcity and idle capacity are real;
+   - government/public service platforms, industrial parks and vertical commercial platforms naturally own access/compliance.
 
-- the service-density threshold is real enough to preserve as a market-structure primitive;
-- sparse installed base can make local response necessary before an owned local service organization is economic;
-- however, the normal institutional solution is already distributor / authorized service partner / white-label field-service capacity;
-- global OEM field-service providers already package training, warranty work, commissioning, maintenance, documentation and SLA accountability;
-- China → Thailand industrial bridges already integrate bilingual teams, FAT/SAT, commissioning, training, parts SLA and local after-sales;
-- local industrial service capacity exists across multiple ASEAN markets;
-- parts, warranty, proprietary knowledge and authorization remain OEM/distributor-governed;
-- geographic fragmentation alone does not establish an unowned missing edge.
+3. REUSABLE FACTORY-AUDIT EVIDENCE
+   - duplicate audit friction is real;
+   - Sedex/SMETA already standardizes shareable evidence to reduce repeated audits.
 
-Therefore:
+Retained for causal descent only:
 
-SPARSE INSTALLED-BASE SERVICE THRESHOLD GAP = DEMOTED FROM PRIMARY COMMERCIAL FORMATION.
+LEGACY TECHNICAL LINEAGE ROUTING
 
-Preserve only as:
-- a service-density market-entry diagnostic;
-- an authorized-service-partner structural pattern;
-- a future vertical × geography watch condition if direct uncovered installed-base evidence appears.
+Working structure:
+
+LEGACY ASSET
++ OEM / MODEL / SERIAL / CONTROLS / PROJECT HISTORY
++ SUPPORT DISCONTINUITY
++ HIGH UNCERTAINTY / DOWNTIME
+↕
+TECHNICAL-LINEAGE GRAPH
+↕
+FORMER OEM / RETIRED CONTROLS / COMMISSIONING / MAINTENANCE PERSON
+WITH DIRECT OR NEAR-DIRECT HISTORICAL KNOWLEDGE
+
+Observed signals:
+- current legacy-system cases explicitly describe retired original engineers and lost source/documentation;
+- a 2026 PLC forum request directly seeks a retired Rockwell/Allen-Bradley engineer for paid consulting;
+- a Motion case reports sourcing former employees of original spindle manufacturers as part of a much faster obsolete-equipment repair path;
+- former-OEM staff are already monetized inside some specialist service firms;
+- retired-engineer matching programs prove hidden senior technical supply can be reconstructed.
+
+This is NOT a commercial candidate.
 
 Portfolio:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - ACTIVE TRANSACTION UNITS = 0
 - FORMAL LATENT CONNECTION PROMOTIONS = 0
+- RETAINED RESEARCH FORMATIONS = 1
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
-No product, pricing, technician recruitment or OEM outreach is authorized.
+No expert recruitment, factory outreach, pricing, scraping/private-data build or marketplace is authorized.
 
 ## Goal
 
-Return to fresh regenerative sensing with a stronger PRE-MARKET STRANDED VALUE bias.
+Run causal descent on when historical human technical lineage materially outperforms:
+- normal OEM/service search;
+- generic engineering consultants;
+- specialist legacy-system integrators;
+- reverse engineering.
 
 Preserve:
 - REALITY > COGNITION > SCHEMA
-- A REAL ECONOMIC THRESHOLD != AN OPEN CONTROL PLANE
-- FRAGMENTED COVERAGE != STRUCTURAL MISSING EDGE
-- LOCAL FIELD CAPACITY != OEM AUTHORIZATION
-- FAST LOCAL HANDS WITHOUT PARTS/DOCUMENTATION/AUTHORIZATION != FAST RESTORATION
+- PRE-MARKET STRANDED VALUE > IMPROVING AN EXISTING LISTING
+- MODEL-SPECIFIC TACIT KNOWLEDGE != GENERIC ENGINEERING LABOR
+- PUBLIC PROFESSIONAL LINEAGE != PRIVATE/PROPRIETARY INFORMATION
+- RETAINED FORMATION != COMMERCIAL CANDIDATE
 - UNKNOWN != PASS
 
 ## Current Unique Commercial Research Goal
 
-Find a recurring structure where:
-1. valuable capability/resource/access is stranded before a normal transaction already exists;
-2. no distributor/platform/employer/property owner/service network naturally owns both sides;
-3. repeated workarounds/referrals reveal connection pressure;
-4. the routing key changes the feasible counterparty set;
-5. orchestration adds recurring value beyond introduction;
-6. founder execution can be replaced.
+Determine whether technical-lineage matching forms a repeated, safe and economically meaningful routing boundary.
+
+Required questions:
+1. How often is former-OEM/project-specific human knowledge actually decisive?
+2. Can lineage be reconstructed from public professional traces without private data?
+3. What knowledge can former employees legally share?
+4. Can engagements be bounded to historical explanation/diagnostic context rather than unauthorized safety-critical repair?
+5. Who pays?
+6. Does downtime avoided justify discovery/vetting fees?
+7. Will former engineers accept short on-demand consultations?
+8. Do specialist legacy-service firms already own the relevant alumni networks?
+9. Can discovery/vetting be standardized, or does every case become boutique headhunting?
 
 ## Current Phase
 
-REGENERATIVE_FORMATION_SCAN_018_MERGED / MAIN_GREEN / SERVICE_THRESHOLD_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_REGENERATIVE_SENSING_NEXT
+REGENERATIVE_FORMATION_SCAN_019_RESEARCH_PERSISTED / LEGACY_TECHNICAL_LINEAGE_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO / PR_PENDING
 
 ## Last Verified Main
 
-Functional main: `702928b0efdbea89046f5496a8158ce3b7c7411a` — PR #258 squash-merged.
+Live main at branch creation includes state-only checkpoint `493331966a6799be5aa52dd0c6c68176adfdd2e7` after Scan 018.
+
+Last verified functional main: `702928b0efdbea89046f5496a8158ce3b7c7411a` — PR #258 squash-merged.
 
 PR CI #780 (run id `35434376509`): success.
 
-Main CI #781 (run id `35434408107`): success on that exact functional SHA.
-
-A later state-only `[skip ci]` checkpoint may advance live main without changing functional truth.
+Main CI #781 (run id `35434408107`): success.
 
 ## Active Issue
 
@@ -82,123 +108,106 @@ No outreach is authorized.
 
 ## Active Branch
 
-None. `feature/regenerative-formation-scan-018-service-threshold-verdict` is merged and is not an active source of truth.
+`feature/regenerative-formation-scan-019-legacy-technical-lineage`
 
 ## Active PR
 
-None. PR #258 — `Demote sparse installed-base service threshold after causal descent` — is merged.
+To be created for Scan 019.
 
 ## CI
 
-- PR #258 head: `3ad8d5df8a8898803780a91469c4517087863bee`
-- PR CI #780 (run id `35434376509`): success
-- merge SHA: `702928b0efdbea89046f5496a8158ce3b7c7411a`
-- main CI #781 (run id `35434408107`): success
+No Scan 019 PR-head CI yet. Require green before merge.
 
 ## Latest Artifact / Persisted State
 
 Current:
+- data/regenerative_formation_scan_019_legacy_technical_lineage_2026-09-19.json
+- field/regenerative-formation-scan-019-legacy-technical-lineage.md
+
+Parent:
 - data/regenerative_formation_scan_018_service_threshold_verdict_2026-09-19.json
 - field/regenerative-formation-scan-018-service-threshold-verdict.md
 
-Parent:
-- data/regenerative_formation_scan_017_service_threshold_gap_2026-09-19.json
-- field/regenerative-formation-scan-017-service-threshold-gap.md
-
 ## Completed
 
-### Service-density threshold
+### Demoted: surplus MRO
 
-Supported as a real organizational/economic mechanism.
+Part-number identity value is real but already standardized by mature specialty markets.
 
-### Natural institutional form
+### Demoted: shared lab / pilot capacity
 
-Distributor / authorized service partner / white-label field-service network.
+Resource mismatch is real but the natural controller is public/institutional/specialist platform infrastructure.
 
-### China → ASEAN residual test
+### Demoted: reusable factory-audit evidence
 
-The generic residual edge is weakened by current China–Thailand service-center infrastructure that already integrates:
-- Chinese sourcing/engineering;
-- Thai local team;
-- FAT/SAT;
-- commissioning;
-- operator training;
-- parts commitments;
-- after-sales.
+Sedex/SMETA already owns the duplicate-audit reduction boundary.
 
-### Governing constraints
+### Retained: legacy technical lineage
 
-1. OEM authorization and warranty.
-2. Product-specific knowledge/software/tooling.
-3. Spare-parts access and logistics.
-4. Documentation and acceptance.
-5. Sufficient service density to amortize training.
-6. Distributor/service-partner commercial ownership.
-
-### Decision
-
-A persistent service threshold is real, but does not create an independent generic control plane.
-
-A REAL ECONOMIC THRESHOLD != AN OPEN CONTROL PLANE.
-
-FRAGMENTED COVERAGE != STRUCTURAL MISSING EDGE.
+Direct signals now exist for:
+- retired original engineer / lost system knowledge;
+- manual paid search for retired model/industry-specific controls expertise;
+- former-OEM employees participating in faster legacy repair;
+- retired-engineer matching and technical-advisor discovery.
 
 ## Current Findings
 
-- Generic technician discovery is not the missing edge.
-- Training/certification is already part of authorized partner models.
-- Bilingual/local contracting is not proven to be a decisive open gap.
-- Fast local hands cannot solve downtime without parts, authorization and documentation.
-- A future opportunity would need privileged evidence in a specific vertical × geography × installed-base cluster, not a generic ASEAN thesis.
+- The potentially scarce asset is historical model/project knowledge, not engineering labor generally.
+- Technical lineage may be an identity graph: OEM → machine family → model/project → former role → person.
+- The value is state-dependent: low most days, high during line-down, migration, forensic reconstruction or unsupported maintenance.
+- Specialist legacy-service firms and reverse engineering are strong substitutes and counterevidence.
+- Legal/IP/confidentiality and safety/liability may kill the formation.
 - ACTIVE COMMERCIAL CANDIDATES = 0.
 
 ## Blockers
 
-There is no active retained formation from Scan 018.
-
-Any future industrial-after-sales formation must start with direct evidence of:
-1. a specific installed-base cluster;
-2. repeated failed service coverage;
-3. an identifiable payer;
-4. OEM authorization path;
-5. portable bounded technical work;
-6. parts/documentation availability;
-7. positive normalized economics;
-8. incumbent partner-network failure.
+The formation cannot promote until evidence establishes:
+1. repeated cases where lineage is decisive;
+2. lawful non-proprietary advisory scope;
+3. safe liability boundary;
+4. repeatable public-data lineage discovery;
+5. willing expert supply;
+6. identifiable payer;
+7. downtime/uncertainty economics;
+8. incremental value beyond legacy-service firms;
+9. non-boutique normalized orchestration.
 
 ## Next Action
 
-Run a fresh white-portfolio regenerative scan with PRE-MARKET STRANDED VALUE bias.
+Run focused causal descent on LEGACY TECHNICAL LINEAGE ROUTING.
 
-Prefer:
-- value/capability stranded before a normal transaction exists;
-- cross-boundary complementarity without a natural institutional controller;
-- recurring life/work/asset state transitions;
-- repeated manual referrals and workarounds;
-- hidden but objective resources that can become legible without founder-heavy discovery;
-- routing keys that create a new feasible counterparty set.
+Search specifically for:
+- current paid requests seeking retired/former OEM engineers for specific legacy systems;
+- cases where former original personnel materially shortened diagnosis/recovery;
+- specialist firms that use alumni/former-OEM networks;
+- legal boundaries for former employees discussing historical technical knowledge;
+- professional liability for retired engineering consultants;
+- bounded remote advisory models;
+- expert-call economics;
+- examples where reverse engineering made original human history unnecessary;
+- public lineage signals from patents, publications, project histories and professional profiles.
 
-Do not reopen generic ASEAN industrial after-sales.
+Kill the formation if lineage is rare, legally unusable, unsafe, or already fully absorbed by specialist service firms.
 
 No product design, pricing or outreach.
 
 ## Do Not Repeat
 
-- Do not equate a real service threshold with an open market.
-- Do not build a technician marketplace.
-- Do not build an ASEAN service-partner directory.
-- Do not treat uneven country coverage as a missing edge by itself.
-- Do not ignore distributors and authorized service partners.
-- Do not separate technician dispatch from parts/warranty/documentation.
-- Do not contact OEMs based only on the abstract thesis.
-- Do not build software.
+- Do not call this a retired-engineer marketplace.
+- Do not infer value from seniority alone.
+- Do not solicit confidential source code, drawings, trade secrets or customer data.
+- Do not assume a former employee is legally free to disclose historical knowledge.
+- Do not route unlicensed experts into safety-critical field decisions.
+- Do not confuse generic controls expertise with direct technical lineage.
+- Do not build scraping/private-profile infrastructure.
+- Do not recruit experts yet.
 
 ## Guardrails
 
 - GitHub live state is operational source of truth.
 - REALITY > COGNITION > SCHEMA.
 - STRUCTURAL FRICTION != MISSING EDGE.
-- A REAL ECONOMIC THRESHOLD != AN OPEN CONTROL PLANE.
-- FRAGMENTED COVERAGE != STRUCTURAL MISSING EDGE.
+- PRE-MARKET STRANDED VALUE > IMPROVING AN EXISTING LISTING.
+- PUBLIC PROFESSIONAL LINEAGE != PRIVATE/PROPRIETARY INFORMATION.
 - UNKNOWN != PASS.
 - Infer broadly; promote conservatively.
