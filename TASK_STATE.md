@@ -60,6 +60,12 @@ Find a transition boundary where:
 
 REGENERATIVE_FORMATION_SCAN_016_CAUSAL_DESCENT_COMPLETE / LOCATION_BOUND_SUCCESSION_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_REGENERATIVE_SENSING_NEXT
 
+## Last Verified Main
+
+Live main at branch creation: `4988c72bacdb972dfdd2ac0298a28eabef0dd189` — state-only `[skip ci]` checkpoint after Scan 015.
+
+Last verified functional main: `aebcee2a03564bb3c60a5e308137ce71c670560c` — PR #255 squash-merged; main CI #774 (run id `35428967000`) passed on that functional SHA.
+
 ## Active Issue
 
 #143 — P0: First external value flow — field proof, not more architecture.
@@ -72,7 +78,13 @@ feature/regenerative-formation-scan-016-succession-causal-descent until merged.
 
 ## Active PR
 
-To be created for Scan 016.
+#256 — `Demote lease-succession assets after causal descent` — open on branch `feature/regenerative-formation-scan-016-succession-causal-descent`.
+
+## CI
+
+- PR #256 head before this fix: `17e00b4a42fc690c7a49620863a1b3dad5bf241e`
+- PR CI #775 (run id `35433637049`): failed only because TASK_STATE recovery-contract tests require the `## Last Verified Main` and `## CI` headings.
+- This commit restores those required operational sections; next PR-head CI must be green before merge.
 
 ## Latest Artifact / Persisted State
 
