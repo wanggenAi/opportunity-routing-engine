@@ -70,6 +70,15 @@ SURFACE FRICTION != OPPORTUNITY
 
 The purpose of the visible signal is to trigger **causal descent**.
 
+A recent change is useful but not mandatory. Some valuable structures are persistent mismatches that have existed for years and only become visible when examined from a different causal level.
+
+```text
+NO RECENT CHANGE != NO STRUCTURAL FRICTION
+PERSISTENT MISMATCH MAY BE THE SIGNAL
+```
+
+The system must not bias discovery only toward fresh events merely because change is easier to observe.
+
 ## 3. Causal descent — reconstruct the Actor's hidden state transition
 
 For a meaningful observation, reconstruct:
