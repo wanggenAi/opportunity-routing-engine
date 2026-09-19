@@ -483,14 +483,6 @@ def validate_causal_descent(record: CausalDescentRecord) -> list[str]:
                     errors.append(
                         f"constraint_depth_not_deeper_than_parent:{constraint.constraint_id}"
                     )
-                elif constraint.depth != parent.depth + 1:
-                    errors.append(
-                        f"constraint_depth_skips_recursive_layer:{constraint.constraint_id}"
-                    )
-        elif constraint.depth != 1:
-            errors.append(
-                f"root_constraint_depth_must_be_one:{constraint.constraint_id}"
-            )
 
         if constraint.truth_state is CausalTruthState.EVIDENCED_STRUCTURE:
             if not constraint.support_refs:
@@ -761,7 +753,8 @@ GOVERNING_INVARIANTS = (
     "CAUSAL_DESCENT_STOPS_AT_DEEPEST_DECISION_USEFUL_FALSIFIABLE_FRONTIER",
     "CAUSAL_STOP_REASON_REQUIRES_RATIONALE",
     "INTERVENTION_BOUNDARY_REQUIRES_DECISION_STABILITY",
-    "CAUSAL_LINEAGE_DEPTH_MUST_BE_RECURSIVE",
+    "CAUSAL_LINEAGE_PARENTAGE_MUST_BE_CONSISTENT",
+    "CAUSAL_DEPTH_IS_RELATIVE_NOT_A_REQUIRED_SEQUENCE",
     "INFERRED_STRUCTURE_MAY_GUIDE_EXPLORATION_BUT_NOT_PROMOTION",
     "DECISIVE_UNKNOWN_MAY_JUSTIFY_BOUNDED_PROBE",
     "UNKNOWN_NE_PASS",
