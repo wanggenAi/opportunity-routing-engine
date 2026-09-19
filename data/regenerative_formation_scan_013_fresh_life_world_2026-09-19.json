@@ -1,0 +1,301 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_013_FRESH_LIFE_WORLD",
+  "date": "2026-09-19",
+  "title": "Fresh everyday-life regenerative formation sensing after demoting generic hidden-asset discovery",
+  "parent_scan": "REGENERATIVE_FORMATION_SCAN_012_SELECTIVE_ACTIVATION_VERDICT",
+  "purpose": "Restart from a white active portfolio and sense ordinary-life potential gradients without carrying hidden-asset discovery, gigs, products or explicit tasks as priors.",
+  "governing_truth": [
+    "REALITY > COGNITION > SCHEMA",
+    "ONE FAILED FORMATION != FAILED CALIBRATION FAMILY",
+    "EXPLICIT TASK != DISCOVERY SEED",
+    "COLOCATION != LATENT CONNECTION",
+    "IDLE RESOURCE != OPPORTUNITY",
+    "COMMUNITY PROGRAM != OPEN COMMERCIAL EDGE",
+    "VISIBLE FLOW != UNSERVED EDGE"
+  ],
+  "scan_scope": [
+    "homes and neighborhoods",
+    "young-adult/new-resident daily life",
+    "low-age retirees and long-term residents",
+    "time-of-day mismatch",
+    "fixed community infrastructure",
+    "rare-use household assets",
+    "local presence and micro-coordination",
+    "shared physical space and neighborhood integration"
+  ],
+  "formation_zones": [
+    {
+      "id": "FLW-013-A",
+      "name": "Age-segmented community infrastructure × all-age recurring everyday demand",
+      "state": "REGENERATIVE_FLOW_OBSERVED__OPERATING_MODEL_MATURING__BENCHMARK_NOT_ACTIVE_CANDIDATE",
+      "potential_a": {
+        "label": "elder-oriented/community fixed infrastructure",
+        "endowments": [
+          "existing kitchens and dining rooms",
+          "community service space",
+          "staff and operating systems",
+          "fixed location close to residents",
+          "periods of underuse/off-peak capacity",
+          "public/community trust"
+        ],
+        "disequilibrium": "many elder-service facilities need higher utilization and more sustainable operating economics while preserving elder-service priority"
+      },
+      "potential_b": {
+        "label": "young workers / parents / students / general residents",
+        "endowments": [
+          "recurring purchasing demand",
+          "high frequency local foot traffic"
+        ],
+        "disequilibrium": "daily need for affordable, healthy, close-to-home meals and neighborhood third spaces; working families also face cooking/time pressure"
+      },
+      "partial_flows": [
+        {
+          "fact": "Yancheng Tinghu's elder canteens have expanded into all-age canteens serving older adults, young office workers and children; operators extend service hours and adjust menus to fit workers/children.",
+          "source": "https://www.tinghu.gov.cn/art/2026/8/11/art_16618_4446096.html"
+        },
+        {
+          "fact": "Shanghai Ganquan's elder canteen explicitly frames all-age traffic as a way to reduce subsidy dependence and pursue 'self-generated operating blood'; it attracts surrounding office workers and uses afternoon idle periods for cooking classes.",
+          "source": "https://www.shpt.gov.cn/gqjd-jiedaozhen/sqfc-sqzcgqjd/20260609/970564.html"
+        },
+        {
+          "fact": "Beijing Tongyun and Taizhou Hailing similarly report elder canteens becoming all-age shared kitchens with extended hours and continued youth/family demand.",
+          "sources": [
+            "https://www.bjwmb.gov.cn/wmdt/tzq/10134457.html",
+            "https://www.tzhl.gov.cn/xwzx/hlyw/art/2026/art_f43a0d2f32b94f92acecb218e1184a6d.html"
+          ]
+        }
+      ],
+      "demand_pump": [
+        "three meals every day",
+        "workday time scarcity",
+        "continuous aging-service infrastructure operation",
+        "fixed-capacity economics recur every operating day"
+      ],
+      "candidate_missing_edge": "time-slot / menu / pricing / programming / access design that lets age-specific fixed assets serve complementary all-age demand without crowding out protected users",
+      "contradiction": [
+        "current public/community and third-party operators already perform this conversion",
+        "the underlying function resembles ordinary foodservice / space operations rather than a hidden new market",
+        "subsidies and public rent/space can materially change economics",
+        "foodservice regulation and local foot traffic dominate outcome"
+      ],
+      "verdict": "Use as a canonical life-world regenerative benchmark. The river is real, but generic operation is already visible and maturing; no open edge is evidenced."
+    },
+    {
+      "id": "FLW-013-B",
+      "name": "Rare-use household/community assets × recurring episodic micro-needs",
+      "state": "REAL_POTENTIAL_GRADIENT__PARTIAL_FLOW_OBSERVED__LOW_VALUE_AND_SIMPLE_EDGE__BENCHMARK",
+      "potential_a": {
+        "label": "idle physical household/community assets",
+        "endowments": [
+          "power tools",
+          "ladders",
+          "hand tools",
+          "strollers",
+          "wheelchairs",
+          "carts",
+          "rarely used household equipment"
+        ],
+        "disequilibrium": "households purchase/store assets used only a few times; items occupy space while identical needs recur nearby"
+      },
+      "potential_b": {
+        "label": "neighbors with episodic household needs",
+        "disequilibrium": "buying a whole asset for one small repair/use is expensive and wasteful; professional call-out fees can exceed the value of the task"
+      },
+      "partial_flows": [
+        {
+          "fact": "People's Daily in Aug 2026 explicitly described the recurring household pattern: drill/pipe wrench/pump needed for tiny repairs, buying is uneconomic and professional call-out fees can be disproportionate; it proposed neighborhood shared toolboxes.",
+          "source": "https://society.people.com.cn/n1/2026/0817/c1008-40780525.html"
+        },
+        {
+          "fact": "Multiple current communities operate shared tool stations/houses; residents donate idle tools and borrow them through registration.",
+          "sources": [
+            "https://xfw.ankang.gov.cn/Content-2926977.html",
+            "https://qsq.gov.cn/zwgk/jczwgk/jczwgk_gzdt/202606/t20260625_930553.html",
+            "https://finance.sina.com.cn/roll/2026-06-03/doc-iniacnuq4184552.shtml"
+          ]
+        },
+        {
+          "fact": "A Ningbo community expanded the circulation set beyond tools to strollers, rehabilitation wheelchairs and other rarely used household items.",
+          "source": "https://nb.ifeng.com/c/8wRVEzvZrsY"
+        }
+      ],
+      "demand_pump": [
+        "household repairs and one-off use cases recur continuously across many households",
+        "new residents repeatedly create setup/repair needs",
+        "assets remain idle between uses"
+      ],
+      "candidate_missing_edge": "local inventory visibility + custody/maintenance + simple borrowing rules; for skill-dependent items, access to someone who knows how to use them",
+      "contradiction": [
+        "the basic missing edge is simple and already being solved with physical shared stations",
+        "multiple software prototypes already reproduce LBS inventory/borrowing",
+        "ticket value is low",
+        "maintenance/liability/custody can consume much of private surplus",
+        "community/property is a natural low-cost operator"
+      ],
+      "verdict": "Real regenerative circulation, but weak private whitespace and low economic density. Keep as benchmark, not active candidate."
+    },
+    {
+      "id": "FLW-013-C",
+      "name": "Workday household absence × persistent neighborhood local presence",
+      "state": "FORMATION_ZONE__STRONG_PRESSURE_AND_LEAKAGE__CANONICAL_MISSING_EDGE_UNBOUND",
+      "potential_a": {
+        "label": "working-age / mobile / young households",
+        "state_pressure": [
+          "adults are physically absent for long workday periods",
+          "many households have pets, deliveries, repair appointments, plants, children or older family members requiring occasional local presence",
+          "new-city/young households often have weak nearby family networks"
+        ]
+      },
+      "potential_b": {
+        "label": "low-age retirees / home-based residents / long-term neighbors",
+        "endowments": [
+          "repeated daytime neighborhood presence",
+          "local route familiarity",
+          "small practical skills",
+          "existing building/community familiarity",
+          "time flexibility"
+        ]
+      },
+      "partial_flows": [
+        {
+          "fact": "Current community mutual-aid systems repeatedly route very small local needs such as package pickup, appliance repair, item purchase and other doorstep services to nearby residents with time/skills.",
+          "source": "https://zj.people.com.cn/n2/2026/0901/c370990-41683384.html"
+        },
+        {
+          "fact": "A Beijing community has two retirees in their seventies performing frequent mobile neighborhood repair, showing persistent local presence plus practical skill already becoming a repeated micro-service flow.",
+          "source": "https://xinwen.bjd.com.cn/content/s696e3044d5dedd6a22d1f38d.html"
+        },
+        {
+          "fact": "A Shenzhen community moved from lending tools to recruiting local skilled residents because residents often had tools but lacked the practical ability to solve small household problems.",
+          "source": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12976592.html"
+        },
+        {
+          "fact": "Young/new-resident communities report weak local familiar networks and recurring reliance on organized local volunteers/services for childcare, elder support and everyday needs.",
+          "sources": [
+            "https://www.zyshgzb.gov.cn/n1/2026/0708/c462430-40755874.html",
+            "https://shgz.nanjing.gov.cn/jczl/zlcxgc/202607/t20260723_5881994.html"
+          ]
+        }
+      ],
+      "recurring_event_source": [
+        "every workday creates household absence",
+        "deliveries/repairs/pet/home micro-events recur unpredictably",
+        "young/new-city migration repeatedly creates households without nearby kin",
+        "retirement continually replenishes daytime local presence"
+      ],
+      "missing_edge_hypotheses": [
+        {
+          "label": "GENERIC NEIGHBOR MATCHING",
+          "state": "WEAK / CROWDED",
+          "reason": "Numerous community platforms, commercial last-mile services and current app prototypes already offer local task matching."
+        },
+        {
+          "label": "TRUSTED STANDING LOCAL PROXY",
+          "state": "UNBOUND",
+          "statement": "The deeper edge may be not one-task matching but a persistent, permissioned local person/relationship able to absorb heterogeneous small household presence events over time.",
+          "caution": "Current evidence shows workarounds but does not prove households want one standing proxy, that retirees want the role, or that liability/boundary can be standardized."
+        }
+      ],
+      "incumbents_and_counterevidence": [
+        {
+          "fact": "Commercial last-mile/community-service operators already offer package pickup, local delivery, pet care, home service and skill sharing.",
+          "source": "https://www.bmsml.com/"
+        },
+        {
+          "fact": "Multiple current product prototypes explicitly target the same neighborhood micro-task gradient with LBS matching, identity review, payment and ratings.",
+          "sources": [
+            "https://forum.trae.cn/t/topic/48944",
+            "https://forum.trae.cn/t/topic/174106"
+          ],
+          "evidence_role": "idea/competition evidence, not proof of commercial adoption"
+        },
+        {
+          "fact": "Mutual-aid eldercare policy explicitly institutionalizes low-age retirees and local residents as neighborhood support supply, reducing whitespace in elder-support subdomains.",
+          "source": "https://www.cncaprc.gov.cn/xxzcfg/771355.jhtml"
+        }
+      ],
+      "decisive_next_evidence": "Do not build a neighborhood task platform. Search whether families repeatedly rely on the same trusted nearby person across multiple heterogeneous household events; whether that relationship persists across months/years; what causes it to form; and what breaks when the person is unavailable. Kill if the pattern reduces to existing property/home-service/task marketplaces."
+    },
+    {
+      "id": "FLW-013-D",
+      "name": "Young/new-city weak local roots × aging-neighborhood stable social capital and underused space",
+      "state": "FORMATION_ZONE__PARTIAL_FLOW_OBSERVED__COMMERCIAL_EDGE_WEAK",
+      "potential_a": {
+        "label": "young migrants / new-city residents",
+        "state_pressure": [
+          "high mobility",
+          "weak neighborhood ties",
+          "lack of local familiar networks",
+          "need for affordable housing, third space and belonging"
+        ]
+      },
+      "potential_b": {
+        "label": "older neighborhoods / long-term residents",
+        "endowments": [
+          "stable local knowledge",
+          "neighborhood routines and social capital",
+          "legacy shops and daily-life services",
+          "underused/common spaces",
+          "urban location"
+        ],
+        "state_pressure": [
+          "aging population",
+          "declining/underused common areas in some neighborhoods",
+          "need for new foot traffic and participation"
+        ]
+      },
+      "partial_flows": [
+        {
+          "fact": "Shanghai Pengpu embedded a roughly 2,000-person youth rental community inside an older residential area; young renters use old-neighborhood shops/public spaces and interact naturally with long-term residents through shared daily routines and pet/social spaces.",
+          "source": "https://www.shanghai.gov.cn/nw4411/20260708/fef0ac0aee364ce1ac538abfe4f00968.html?siteId=1"
+        },
+        {
+          "fact": "Current community-space redesigns repeatedly turn underused corners/overhead spaces into shared living rooms, night-school or hobby spaces run by a mix of young residents and retired residents.",
+          "sources": [
+            "https://finance.sina.com.cn/jjxw/2026-07-24/doc-iniivyeq9226616.shtml",
+            "https://www.xinhuanet.com/20260915/1f1957f439be4e7bb602a8c05c8c204b/c.html"
+          ]
+        }
+      ],
+      "recurring_event_source": [
+        "continuous youth migration into cities",
+        "continuous aging of established neighborhoods",
+        "daily need for food, leisure, study, pets and social contact",
+        "underused local spaces recur as neighborhood stock"
+      ],
+      "candidate_missing_edge": "low-pressure repeated co-presence/routines and shared spaces that let stable local social capital and young demand meet without formal matching",
+      "contradiction": [
+        "community/real-estate operators already intentionally design this",
+        "value capture may accrue mainly to landlords, retail and public-space operators rather than the intergenerational relationship",
+        "the edge may simply be urban design/community operations",
+        "social benefit can be high with no distinct private orchestration layer"
+      ],
+      "verdict": "Interesting life-world formation sensor, but commercial missing edge is weak/unbound. Keep as secondary research zone."
+    }
+  ],
+  "cross_zone_learning": [
+    "Fresh life-world sensing produces several real regenerative flows, but most obvious surface mechanisms are already being institutionalized by community/property/service operators.",
+    "The strongest recurring ordinary-life gradients are often about time, location and fixed-asset utilization rather than hidden talent.",
+    "Young × retired remains visible most strongly through asymmetric local presence: working-age households leave the neighborhood during the day while retirees/long-term residents remain locally available.",
+    "Generic matching is not a viable new thesis; it is already crowded and repeatedly reinvented.",
+    "The only still-interesting deeper question in FLW-013-C is whether repeated household absence produces a durable 'trusted standing local proxy' relationship rather than isolated tasks.",
+    "FLW-013-A and FLW-013-B are useful benchmarks: they show how ordinary-life circulation becomes obvious once the resource and repeated event are simple enough."
+  ],
+  "portfolio_state": {
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "formal_latent_connection_promotions": 0,
+    "active_formation_zones": [
+      "FLW-013-C workday household absence × persistent neighborhood local presence"
+    ],
+    "secondary_research_zones": [
+      "FLW-013-D young/new-city weak roots × aging-neighborhood social capital"
+    ],
+    "benchmark_maturing_flows": [
+      "FLW-013-A age-segmented infrastructure × all-age demand",
+      "FLW-013-B rare-use household assets × episodic micro-needs"
+    ],
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "next_action": "Deepen only FLW-013-C at the relationship/workaround layer. Search ordinary households that repeatedly rely on the same nearby non-kin person for heterogeneous daytime presence events (pet, parcel, repair access, plant/home check, child/elder micro-support), persistence over time, permission/boundary/compensation patterns, and counterevidence from property/home-service platforms. Do not search one-off gigs. Kill FLW-013-C if the recurrent unit remains one task rather than one durable local relationship."
+}
