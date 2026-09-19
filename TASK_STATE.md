@@ -4,180 +4,180 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Regenerative Formation Scan 015 resumed white-portfolio ordinary-life sensing after Scan 014 demoted institution-based intergenerational co-residence.
-
-Wide sensing again killed several real but already-owned control planes:
-- pet home-entry care: specialized platforms are already standardizing trust, livestreaming and supervision;
-- shared-grandparent child pickup: community/volunteer coordination naturally owns the safety boundary;
-- household shared tools: community/property pooling collapses the peer-to-peer routing problem;
-- youth night-space / idle community-space reuse: communities/public asset owners already recruit and authorize operators.
-
-One new research formation is retained for causal descent only:
+Regenerative Formation Scan 016 completed causal descent on the only formation retained by Scan 015:
 
 LOCATION-BOUND SUCCESSION ASSET FLOW
 
-Working structure:
+Result:
 
-OUTGOING RENTER + LOCATION-BOUND RESIDUAL ASSETS
-↔ SAME DWELLING / LEASE-TURNOVER EVENT ↔
-INCOMING RENTER + SETUP NEED
-+ LANDLORD/PROPERTY TURNOVER INCENTIVE
+- the same-address effect is real because it can eliminate dismantling/transport cost;
+- outgoing-renter pressure is primarily fast compliant clearance with minimum net loss, not maximizing resale;
+- incoming-renter demand is primarily for a suitable move-in-ready dwelling, not predecessor assets as a standalone purchase;
+- housing match precedes predecessor-asset value;
+- landlord/property consent and handover control are structurally unavoidable;
+- current rental listings already express furnished state, free successor items, paid appliance transfers and direct landlord re-signing;
+- inventory/condition is already part of the rental handover boundary;
+- no repeated costly independent missing edge is evidenced.
 
-Observed leakage exists: current 2026 Shenzhen transfer listings explicitly bundle furniture with the room, and a 2026 renter case describes more than RMB 10,000 of self-purchased furniture being transferred to the next tenant after a work relocation made moving it impractical.
+Therefore:
 
-This is NOT a commercial candidate.
+LOCATION-BOUND SUCCESSION ASSET FLOW = DEMOTED FROM PRIMARY COMMERCIAL FORMATION.
+
+Preserve only as:
+- a routing primitive;
+- a turnover-workflow optimization pattern;
+- a future bounded feature if direct repeated incumbent failure evidence appears.
 
 Portfolio:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - ACTIVE TRANSACTION UNITS = 0
 - FORMAL LATENT CONNECTION PROMOTIONS = 0
-- RETAINED RESEARCH FORMATIONS = 1
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
+
+No product, pricing or outreach is authorized.
 
 ## Goal
 
-Run causal descent on the lease-turnover event before any missing-edge or product claim.
+Resume fresh regenerative sensing only after applying the new ATTRIBUTE-COLLAPSE FILTER.
 
 Preserve:
 - REALITY > COGNITION > SCHEMA
-- REAL DEMAND != OPEN CONTROL PLANE
-- LOCATION/TIME CAN BE A ROUTING KEY
-- ASSET VALUE CANNOT RESCUE A BAD HOUSING MATCH
-- RETAINED FORMATION != COMMERCIAL CANDIDATE
+- ROUTING KEY VALUE != SEPARATE COMMERCIAL CONTROL PLANE
+- WORKFLOW ATTRIBUTE != OPEN MISSING EDGE
+- HOUSING MATCH PRECEDES PREDECESSOR-ASSET VALUE
 - UNKNOWN != PASS
 
 ## Current Unique Commercial Research Goal
 
-Determine whether exact-address lease succession creates a repeatable economic boundary that is not already cheaply owned by the landlord, broker, property manager or rental platform.
-
-Required questions:
-1. Is the outgoing renter optimizing residual-value recovery, fast clearance, or both?
-2. Is the incoming renter willing to pay for inherited items or are they merely a weak inducement attached to the housing decision?
-3. Does the landlord gain enough from a furnished/low-friction succession to participate?
-4. Which friction actually governs the handoff: disposal/transport economics, timing overlap, inventory/condition trust, landlord consent, settlement or fragmented discovery?
-5. Who currently owns the turnover control plane?
-6. Does exact-address succession add enough value to support an economic unit after depreciation and coordination cost?
-
-Do not design a marketplace, escrow, inventory product, moving service or outreach workflow before these questions are resolved.
+Find a transition boundary where:
+1. value is stranded before an incumbent transaction exists;
+2. no natural controller already owns both sides;
+3. a new routing key changes who can transact rather than merely adding information to an existing listing;
+4. repeated workaround/failure exists before any product design;
+5. normalized orchestration value could survive without founder labor.
 
 ## Current Phase
 
-REGENERATIVE_FORMATION_SCAN_015_MERGED / MAIN_GREEN / LOCATION_BOUND_SUCCESSION_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO / CAUSAL_DESCENT_NEXT
+REGENERATIVE_FORMATION_SCAN_016_CAUSAL_DESCENT_COMPLETE / LOCATION_BOUND_SUCCESSION_DEMOTED / COMMERCIAL_CANDIDATES_ZERO / FRESH_REGENERATIVE_SENSING_NEXT
 
 ## Last Verified Main
 
-aebcee2a03564bb3c60a5e308137ce71c670560c — PR #255 squash-merged. Main CI #774 (run id 35428967000) passed on this exact functional SHA. A later state-only [skip ci] checkpoint may advance live main without changing functional truth.
+Live main at branch creation: `4988c72bacdb972dfdd2ac0298a28eabef0dd189` — state-only `[skip ci]` checkpoint after Scan 015.
+
+Last verified functional main: `aebcee2a03564bb3c60a5e308137ce71c670560c` — PR #255 squash-merged; main CI #774 (run id `35428967000`) passed on that functional SHA.
 
 ## Active Issue
 
 #143 — P0: First external value flow — field proof, not more architecture.
 
-Scan 014 was synced in comment id 5740143570. Scan 015 was synced in comment id 5740170649.
-
 No outreach is authorized.
 
 ## Active Branch
 
-None. feature/regenerative-formation-scan-015-location-bound-succession is merged through PR #255 and is not an active source of truth.
+feature/regenerative-formation-scan-016-succession-causal-descent until merged.
 
 ## Active PR
 
-None. PR #255 — `Retain location-bound lease succession for causal descent` — is merged.
+#256 — `Demote lease-succession assets after causal descent` — open on branch `feature/regenerative-formation-scan-016-succession-causal-descent`.
 
 ## CI
 
-- PR #255 head: `ab193cf712a82a679af93126f8e7078eabc34c32`
-- PR CI #773 (run id `35428933790`): success
-- merge SHA: `aebcee2a03564bb3c60a5e308137ce71c670560c`
-- main CI #774 (run id `35428967000`): success
+- PR #256 head before this fix: `17e00b4a42fc690c7a49620863a1b3dad5bf241e`
+- PR CI #775 (run id `35433637049`): failed only because TASK_STATE recovery-contract tests require the `## Last Verified Main` and `## CI` headings.
+- This commit restores those required operational sections; next PR-head CI must be green before merge.
 
 ## Latest Artifact / Persisted State
 
 Current:
+- data/regenerative_formation_scan_016_succession_causal_descent_2026-09-19.json
+- field/regenerative-formation-scan-016-succession-causal-descent.md
+
+Parent:
 - data/regenerative_formation_scan_015_location_bound_succession_2026-09-19.json
 - field/regenerative-formation-scan-015-location-bound-succession.md
 
-Parent:
-- data/regenerative_formation_scan_014_intergenerational_causal_descent_2026-09-19.json
-- field/regenerative-formation-scan-014-intergenerational-causal-descent.md
-
 ## Completed
 
-### Wide-scan demotions
+### Selected causal outcomes
 
-- PET HOME-ENTRY CARE: demand/trust friction real, but specialized private platforms are already standardizing the control plane.
-- SHARED-GRANDPARENT CHILD PICKUP: strong timing complementarity, but community/volunteer governance naturally owns the safety boundary.
-- SHARED HOUSEHOLD TOOLS: low-frequency resource mismatch real, but community-owned pooling is already a lower-complexity solution with weak private economics.
-- YOUTH NIGHT SPACE / IDLE COMMUNITY SPACE: time-shifted utilization gap real, but public/community asset owners directly authorize and recruit operators, including marketized third parties.
+Outgoing renter:
+FAST COMPLIANT UNIT CLEARANCE WITH MINIMUM NET LOSS.
 
-### Retained formation
+Incoming renter:
+MOVE-IN READINESS AT ACCEPTABLE TOTAL HOUSING COST.
 
-LOCATION-BOUND SUCCESSION ASSET FLOW is retained because:
-- current executed leakage exists;
-- lease/move transitions regenerate naturally;
-- the same dwelling may materially change the best successor for bulky/fitted assets;
-- outgoing renter, incoming renter and landlord can all have aligned transition outcomes;
-- generic item-category marketplaces may not capture the address/time coupling.
+Landlord/property:
+FAST LOW-RISK TURNOVER INTO A RENTABLE/HANDOVER-COMPLIANT STATE.
+
+### Governing constraints
+
+1. Transport/disassembly economics — evidenced primary.
+2. Housing-match precedence — evidenced primary.
+3. Landlord/property consent and handover control — evidenced primary.
+4. Timing overlap — plausible but not shown to govern repeated failure.
+5. Inventory/condition trust — real but already embedded in house handover.
+6. Fragmented discovery — not proven decisive because rental listings already carry the relevant information.
+
+### Decision
+
+Exact-address succession has real routing-key value, but the value collapses into an incumbent rental transaction.
+
+ROUTING KEY VALUE != SEPARATE COMMERCIAL CONTROL PLANE.
+
+No independent missing edge was established.
 
 ## Current Findings
 
-- COMMUNITY/PUBLIC-RESOURCE FORMATIONS OFTEN COLLAPSE INTO NATURAL INSTITUTIONAL CONTROL PLANES.
-- The next useful search frontier is transition boundaries where no actor obviously owns the handoff.
-- Current 2026 Shenzhen behavior proves that rental succession and furniture transfer can be bundled in practice.
-- Exact-address succession is a plausible routing key, but its incremental economic value is unproven.
-- Existing rental listings can already include furniture, which is immediate counterevidence to a new platform thesis.
-- Older calibration shows free/cheap furniture cannot compensate for a bad underlying housing match.
-- Large rental platforms already expand into moving/cleaning around the turnover event.
+- Furniture/appliance configuration matters to renters, but primarily as a property attribute.
+- Current Shenzhen listings show native transfer patterns ranging from free successor items to separately priced appliances.
+- Large-furniture transport/removal cost can consume most resale value, making clearance the stronger outgoing objective.
+- Lease-return state, furniture inventory and landlord consent place the property actor directly inside the boundary.
+- Same-address succession can improve an existing turnover workflow without creating a new private market layer.
 - ACTIVE COMMERCIAL CANDIDATES = 0.
 
 ## Blockers
 
-The retained formation cannot promote until evidence establishes:
-1. density/frequency of same-dwelling asset succession in mainstream mainland rentals;
-2. the primary outgoing and incoming latent outcomes;
-3. net residual value after depreciation, condition and landlord constraints;
-4. whether turnover timing overlap is common enough;
-5. whether landlord/property/rental platforms already own the useful boundary;
-6. a repeated costly handoff failure beyond simply adding furniture notes to a rental listing;
-7. a decision-stable causal frontier;
-8. a plausible payer and normalized orchestration economics.
+There is no active retained formation from Scan 016.
+
+The next formation may not promote unless it survives the ATTRIBUTE-COLLAPSE FILTER:
+1. not merely an attribute of an incumbent transaction;
+2. no natural controller already owns permission/settlement/handover;
+3. repeated costly workaround/failure is observable;
+4. connection pressure exists before exchange design;
+5. the new routing key changes possible counterparties or value flow;
+6. payer and normalized orchestration economics remain plausible.
 
 ## Next Action
 
-Run focused causal descent on LOCATION-BOUND SUCCESSION ASSET FLOW.
+Run a fresh white-portfolio ordinary-life regenerative scan.
 
-Search specifically for:
-- current transfer listings that price or gift furniture/appliances with the tenancy;
-- landlord/operator policies on retained tenant furniture;
-- move-out clearance/disposal costs and deadlines;
-- incoming-renter willingness to accept/pay for predecessor assets;
-- timing failures between outgoing and incoming renters;
-- inventory/condition/ownership disputes;
-- property-manager or rental-platform handover mechanisms;
-- failed attempts where furniture value could not overcome housing mismatch;
-- any standardized same-address succession practice in high-churn rental markets.
+Search preferentially for:
+- transitions that strand capability/assets/access before any normal market listing exists;
+- cross-boundary flows where each side is controlled by a different actor and neither actor owns orchestration;
+- recurring state changes that create complementary nodes but no incumbent handover owner;
+- repeated manual referrals/workarounds that reveal connection pressure;
+- cases where a new routing key changes who can transact, not just listing metadata.
 
-Then select the governing constraint or kill the formation.
+Do not reopen lease-succession assets unless new evidence shows repeated costly unowned failure.
 
 No product design, pricing or outreach.
 
 ## Do Not Repeat
 
-- Do not call this a secondhand marketplace.
-- Do not call the address a missing edge before causal descent.
-- Do not assume next tenants want predecessor furniture.
-- Do not infer market size from graduation flea markets.
-- Do not treat '送家具' in a listing as payer willingness.
-- Do not ignore landlord consent/control.
-- Do not build escrow, inspection, inventory or moving tooling before a repeated boundary failure is evidenced.
-- Do not contact actors yet.
+- Do not call same-address value a missing edge by itself.
+- Do not build a secondhand marketplace.
+- Do not infer predecessor-asset demand from general renter preference for furnished homes.
+- Do not confuse clearance pressure with willingness to pay.
+- Do not treat landlord/property as a peripheral participant.
+- Do not create inspection, escrow, inventory or moving tooling without direct failure evidence.
+- Do not return to lease succession merely because it is intuitively elegant.
 
 ## Guardrails
 
 - GitHub live state is operational source of truth.
 - REALITY > COGNITION > SCHEMA.
 - STRUCTURAL FRICTION != MISSING EDGE.
-- LOCATION/TIME CAN BE A ROUTING KEY, BUT MUST BE PROVEN.
-- EXISTING BUNDLING IS COUNTEREVIDENCE TO A NEW CONTROL PLANE.
+- ROUTING KEY VALUE != SEPARATE COMMERCIAL CONTROL PLANE.
+- WORKFLOW ATTRIBUTE != OPEN MISSING EDGE.
 - UNKNOWN != PASS.
 - Infer broadly; promote conservatively.
