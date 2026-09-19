@@ -1,0 +1,62 @@
+{
+  "schema_version": "causal-descent.v1",
+  "formation_id": "ATTRACTION_SCAN_001-F1",
+  "resolved_date": "2026-09-19",
+  "verdict": "DEMOTED_FROM_CURRENT_COMMERCIAL_FORMATION",
+  "commercial_candidate": false,
+  "evidence_state": {
+    "bilateral_motion": "EVIDENCED",
+    "trust_quality_friction": "EVIDENCED",
+    "generic_proof_to_commit_missing_edge": "NOT_PROVEN",
+    "incumbent_coverage": "MATERIAL",
+    "residual_non_labor_edge": "NOT_PROVEN"
+  },
+  "incumbent_resolution": {
+    "supplier_discovery_and_negotiation": [
+      "ACCIO_SOURCING_TOOLKIT"
+    ],
+    "supplier_identity_and_capability": [
+      "ALIBABA_VERIFIED_SUPPLIER",
+      "THIRD_PARTY_AUDIT"
+    ],
+    "payment_and_order_protection": [
+      "ALIBABA_TRADE_ASSURANCE"
+    ],
+    "order_linked_inspection": [
+      "ALIBABA_INSPECTION_SOLUTIONS"
+    ],
+    "independent_audit_and_quality": [
+      "QIMA_MANUFACTURING_AUDIT",
+      "QIMA_PRODUCT_INSPECTIONS",
+      "QIMA_PSI"
+    ]
+  },
+  "strongest_residual": {
+    "primitive": "ORDER_SPEC_ACCEPTANCE_DESIGN",
+    "status": "RESEARCH_LEARNING_ONLY",
+    "reasons_not_promoted": [
+      "existing inspection providers already expose product checklists and customizable acceptance criteria",
+      "simple categories are increasingly served by templates and AI sourcing tools",
+      "complex categories require specialist technical or regulatory judgment",
+      "independent willingness to pay for a separate acceptance-design layer is unproven",
+      "cross-category standardization and repeatable non-founder execution are unproven"
+    ]
+  },
+  "attraction_after_descent": {
+    "a_side": "HIGH_EVIDENCED_MOTION",
+    "b_side": "HIGH_EVIDENCED_MOTION",
+    "operator": "LOW_TO_MEDIUM_AFTER_INCUMBENT_CREDIT",
+    "weakest_link": "NOT_HIGH"
+  },
+  "operator_non_labor_test": "FAIL_CURRENT_GENERAL_FORM",
+  "self_propulsion": "WEAK_NOT_ENOUGH_TO_SAVE_FORMATION",
+  "next_action": "RUN_ATTRACTION_SCAN_002",
+  "prohibitions": [
+    "NO_SOURCING_AGENT_SERVICE",
+    "NO_PRODUCT_BUILD",
+    "NO_PRICING",
+    "NO_RECRUITMENT",
+    "NO_OUTREACH",
+    "NO_FALLBACK_CANDIDATE"
+  ]
+}
