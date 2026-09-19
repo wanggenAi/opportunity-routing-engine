@@ -429,18 +429,20 @@ class LatentValueFormationTests(unittest.TestCase):
         self.assertEqual(validate_formation(hypothesis), [])
         self.assertEqual(formation_state(hypothesis), FormationState.VALIDATION_READY)
 
-    def test_psychology_must_refer_to_same_actor_segment(self):
+    def test_if_psychology_is_supplied_it_must_refer_to_same_actor_segment(self):
         hypothesis = self._hypothesis(
             psychology_snapshots=(
                 self._psychology_snapshot(actor_segment="UNEMPLOYED_GRADUATES"),
             )
         )
         errors = validate_formation(hypothesis)
-        self.assertIn("missing:psychology_evidence", errors)
         self.assertIn(
             "psychology_actor_segment_mismatch:UNEMPLOYED_GRADUATES", errors
         )
-        self.assertEqual(formation_state(hypothesis), FormationState.OBSERVED_TRANSITION)
+        self.assertEqual(
+            formation_state(hypothesis),
+            FormationState.LATENT_CONNECTION_EVIDENCED,
+        )
 
     def test_money_evidence_is_not_required_to_form_hypothesis(self):
         hypothesis = self._hypothesis()
