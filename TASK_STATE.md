@@ -3,142 +3,145 @@
 Operational handoff only. GitHub live state wins if anything below conflicts with repository facts.
 
 ## Current Mission
-Bottom-layer latent-value / causal-discovery correctness is complete for the current scope, including the reality-first / fluid-cognition correction. Business discovery and execution are intentionally paused; do not infer permission to start a new scan from older checkpoints.
+Business discovery is resumed under the merged reality-first / fluid-cognition constitution. Fresh Scan 027 is complete and persisted. The commercial mission remains first external value flow, but no new external action has been released yet.
 
 ## Goal
-Keep discovery cognition adaptive while truth promotion remains auditable and fail-closed:
+Use broad, adaptive discovery while preserving fail-closed truth promotion:
 
 ```text
 REALITY > COGNITION > SCHEMA
 ```
 
-Discovery may enter, branch, backtrack or reframe through any evidence-bearing layer. Schemas/state machines preserve maturity and provenance; they do not dictate how reality must reveal itself.
-
-Canonical truth flow remains:
-
-```text
-WORLD / ACTOR / STATE
-→ surface signal
-→ one or more product-agnostic latent-outcome hypotheses as reality warrants
-→ preserve material alternatives when genuinely present
-→ recursive causal lineage
-→ preserve material causal alternatives when genuinely present
-→ evidence + contradictions + discriminating evidence + falsifiers
-→ deepest decision-useful falsifiable causal frontier
-→ evidenced structural friction
-→ complementary nodes
-→ connection pressure
-→ observed missing edge
-→ evidenced latent connection
-→ only then exchange mechanics
-```
-
-## Current Unique Commercial Research Goal
-PAUSED for this checkpoint. Fresh Scan 027 was **not** started in this task, and no customer/supplier/opportunity/outreach work was performed.
-
-If commercial research is explicitly resumed later, it must use the merged reality-first causal constitution.
+Discovery may enter, branch, backtrack or reframe through any evidence-bearing layer. A scan heuristic is never the constitution.
 
 ## Current Phase
-`REALITY_FIRST_FLUID_COGNITION_MERGED / MAIN_GREEN / BUSINESS_DISCOVERY_PAUSED`
+`FRESH_SCAN_027_MERGED / MAIN_GREEN / DISCOVERY_RESUMED / SCAN_028_NEXT`
 
 ## Last Verified Main
-`f2e1e3b7f8833321b174e6c55c89b09816f10e55` — PR #235 squash-merged. Main CI run #733 (run id `35420735838`) passed on this exact SHA. The state-only checkpoint commit that updates this file may advance live `main` with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
+`bc8e49355d874bcf32e480d72a82da73542da7e7` — PR #236 squash-merged. Main CI run #735 (run id `35421409839`) passed on this exact SHA. The state-only checkpoint commit that updates this file may advance live `main` with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
 
 ## Active Issue
-#143 — `P0: First external value flow — field proof, not more architecture` remains the commercial mission anchor, but it was not executed in this task.
+#143 — `P0: First external value flow — field proof, not more architecture`.
+
+Scan 027 results were synced to Issue #143 in comment id `5739352749`.
 
 ## Active Branch
-None for the completed reality-first/fluid-cognition task. PR #235's branch is merged and is not an active source of truth.
+None. `feature/fresh-scan-027-reality-first` is merged and is not an active source of truth.
 
 ## Active PR
-None. PR #235 (`Make discovery reality-first and schema-light`) is merged.
+None. PR #236 (`Run reality-first fresh scan 027`) is merged.
 
 ## CI
-- PR #235 final head: `db90afba8483f2aaf74eb7d4a5b74775e731d568`
-- final PR-head CI: run #732, run id `35420713161`, success
-- merge SHA: `f2e1e3b7f8833321b174e6c55c89b09816f10e55`
-- main CI: run #733, run id `35420735838`, success
-- No business/production scan workflow was intentionally started by this doctrine-only task.
+- PR #236 final head: `9d178a4f912d1caa5609f7cf479e605d9b725426`
+- PR CI: run #734, run id `35421346902`, success
+- merge SHA: `bc8e49355d874bcf32e480d72a82da73542da7e7`
+- main CI: run #735, run id `35421409839`, success
 
-## Latest Artifact / Persisted State
-The latest business/research artifacts remain the prior verified artifacts; this task changed doctrine, causal validation semantics and regression tests, not business evidence:
-- `commercial-structure-probe-003-state` — artifact id `10576906020`, SHA-256 `f4d3c42b9fe49e9168e664f133534e903179a41d61f8338caef4d79875d07b61`
-- `structure-validation-plan-004-state` — artifact id `10576174801`, SHA-256 `b8f356ab7ef2a0e1a39d2b9dea14351d5693176108b364d841f04d1e41e57bd0`
-- `psychology-dynamic-concepts-012-state` — artifact id `10576019944`, SHA-256 `222fd07e6f9f4c63471f91ac8bbc69337f870f735440dfb1d41c7a6e00a3021a`
-- `src/causal_descent.py` remains the canonical persisted causal-lineage implementation.
-- Legacy `STRANDING_BARRIER` remains compatibility-only and normalizes to canonical `MISSING_EDGE`.
+## Latest Persisted Scan
+- `data/opportunity_mobilization_scan_027_2026-09-19.json`
+- `field/opportunity-mobilization-scan-027.md`
 
-## Completed
-- Locked `REALITY > COGNITION > SCHEMA` into `LATENT_VALUE_DOCTRINE`, `STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE`, `FORMAL_TRUTH` and `AGENTS.md`.
-- Discovery is explicitly allowed to be nonlinear: enter from any evidence-bearing point, branch, backtrack, reframe, discover Actors late and revise earlier causal interpretations.
-- State-machine labels are epistemic maturity descriptions, not a required traversal order.
-- Removed the hard promotion gate requiring at least two latent-outcome hypotheses.
-- Removed the hard promotion gate requiring at least two same-outcome causal explanations.
-- Material alternatives must still be actively sought and preserved when reality is genuinely ambiguous.
-- The system must not fabricate a second outcome/cause merely to satisfy schema cardinality.
-- Removed ceremonial causal-depth requirements: root depth no longer must equal 1 and child depth no longer must be numerically contiguous.
-- Parent/child causal direction, same-outcome lineage and relative deeper-than-parent ordering remain enforced.
-- The system must not invent intermediate causal layers merely to make `1 → 2 → 3 → 4` contiguous.
-- Promotion remains strict on evidence-bound outcome selection, evidenced truth state, support, discriminating evidence, falsifiers, contradictions/unknowns, explicit stop rationale and decision stability.
-- Multi-causal frontiers remain first-class when multiple causes are actually supported.
-- `EVIDENCE_LIMIT_REACHED` still preserves UNKNOWN and cannot promote.
-- Psychology, observed behavior and recent change remain optional sensors rather than universal discovery gates.
-- `STRUCTURAL_FRICTION != MISSING_EDGE`, `COMPLEMENTARITY != LATENT CONNECTION`, and exchange mechanics remain downstream of evidenced connection truth.
-- Regression tests now protect against reintroducing fixed hypothesis counts or contiguous-depth rituals.
-- No Fresh Scan 027 or other new opportunity discovery was started.
+Scan 027 executed:
+- China core
+- Jiangsu zoom
+- Xuzhou zoom
+- global auxiliary
+- contradiction/incumbent search
+- source / transaction-rail discovery
+
+Result:
+- retained live tracks: 3
+- formal opportunity promotions: 0
+- new P0 promotions: 0
+- new external actions: 0
+- `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`
+
+## Current Live Tracks
+
+### R027-TRACK-A — Existing technical-manager transaction rail
+State: `ROUTE_TESTABLE_EXISTING_RAIL`.
+
+Current evidence shows Jiangsu/Xuzhou already has:
+- technical-manager offices;
+- technical-demand / expert / result infrastructure;
+- contract / invoice / service-income rails;
+- project-cooperation attachment;
+- commission settlement by agreement;
+- partnership / OPC operating routes;
+- live technical transactions.
+
+This is **not** a new-market-whitespace claim.
+
+Decisive unknown:
+Can a project-based external operator with self-sourced qualified projects enter an existing Xuzhou/Jiangsu technical-manager office's transaction/settlement rail, and under what exact qualification, attachment, commission, contract, acceptance and settlement terms?
+
+### R027-TRACK-B — Resource-first application discovery
+State: `LATENT_VALUE_HYPOTHESIS_WITH_CONNECTION_PRESSURE / MISSING_EDGE_NOT_EVIDENCED`.
+
+A named Xuzhou novel-material resource owner has a real resource but publicly unresolved downstream applications. Existing concept-validation and technical-transfer infrastructure means the missing edge must be proven **after** incumbent routes are considered.
+
+Decisive unknown:
+Find a named novel-resource owner that has attempted available transfer/concept-validation routes and still has a specific unowned application-discovery/validation responsibility.
+
+### R027-TRACK-C — Long-tail overseas field-service orchestration
+State: `LATENT_CONNECTION_HYPOTHESIS / NAMED_ACTOR_AND_SURVIVING_MISSING_EDGE_NOT_BOUND`.
+
+Export/service pressure is real, but generic overseas after-sales software, BPO and service-network categories already exist.
+
+Decisive unknown:
+Find one named smaller Jiangsu/Xuzhou exporter already paying external overseas-support providers yet still losing time/money/orders because no qualified local on-site technical resource can own diagnosis/repair, warranty-quality acceptance and settlement in a long-tail country.
+
+## Killed / Deprioritized in Scan 027
+Do not reopen these as generic whitespace without new contradictory evidence:
+- generic overseas compliance / legal / tax / IP concierge;
+- generic CBAM / DPP / carbon-data orchestration;
+- generic overseas after-sales software / call-center platform;
+- generic technology matching marketplace;
+- generic property / EHS / testing / maintenance / logistics control-plane.
 
 ## Current Findings
-- The prior causal model correctly prevented shallow narrative promotion, but two protections had become overly mechanical: fixed hypothesis cardinality and contiguous depth numbering.
-- Epistemic rigor comes from evidence quality, falsifiability, contradiction handling and promotion discipline — not from the number of hypotheses or numbered layers.
-- `ONE PLAUSIBLE EXPLANATION != STRUCTURAL TRUTH` still holds: one cause is not true merely because it is the only story recorded. It may promote only when it independently satisfies the evidence/falsifier/stop contract.
-- `SCHEMA CONFORMANCE != TRUTH`.
-- `HYPOTHESIS CARDINALITY != EPISTEMIC RIGOR`.
-- `STATE MACHINE != REQUIRED DISCOVERY PATH`.
-- `FORCED COMPETING STORY != CAUSAL DISCIPLINE`.
-- Discovery remains broad and fluid; promotion remains conservative and fail-closed.
+- A valuable commercial discovery does not have to be a new market category. A legitimate existing transaction rail may be better than building another marketplace.
+- Existing-rail discovery, latent-value formation and latent-connection discovery are different epistemic objects and must not be collapsed into one score.
+- Technical-manager infrastructure is currently the closest route to bounded external-value-flow testing, but access/settlement terms are not yet established.
+- Resource-first application discovery remains a real formation pattern, but existing concept-validation / transfer infrastructure is strong counterevidence against a generic new intermediary.
+- Rapid export growth creates service pressure, but generic overseas-after-sales categories are already productized; only a narrower named-actor residual may survive.
+- The reality-first constitution improved the scan by allowing evidence to determine the entry path instead of forcing Scan 026's heuristic.
 
-## Blockers
-No known unresolved bottom-layer causal-discovery blocker remains within this task's defined scope. The system still cannot make semantic evidence true merely because a record is structurally valid; real-world claims remain dependent on attributable evidence and later reality validation.
-
-Commercial truth is unchanged and intentionally out of scope: `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
+## External Truth
+- prior external probes sent: 2
+- qualified external responses: 0
+- new external actions in Scan 027: 0
+- `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`
 
 ## Next Action
-STOP. Await an explicit new instruction. Do **not** start Fresh Scan 027, opportunity discovery, outreach, customer/supplier search or other business execution from this checkpoint.
+Run **Scan 028 on R027-TRACK-A first**. Use public evidence to map the exact current entry / attachment / qualification / project-cooperation / commission / contract / invoice / acceptance / settlement rail for a project-based technical manager through existing Xuzhou/Jiangsu technical-manager offices. In parallel, preserve only meaningful new named-actor evidence for Tracks B and C.
+
+Do **not** contact anyone until a specific bounded probe is written and explicitly authorized.
 
 ## Do Not Repeat
-- Do not make schema shape the source of reality.
-- Do not reintroduce fixed hypothesis-count gates.
-- Do not invent alternative outcomes/causes to satisfy a validator.
-- Do not require contiguous causal depth numbers or fabricate missing intermediate layers.
-- Do not treat state-machine ordering as a mandatory discovery path.
-- Do not treat stated need as latent-outcome truth.
-- Do not promote a plausible story without evidence, falsifiers and explicit stop semantics.
-- Do not force multi-causal reality into a single root cause.
-- Do not make psychology, observed behavior or recent change universal formation gates.
-- Do not collapse structural friction into the inter-node missing edge.
-- Do not treat complementarity as connection evidence.
-- Do not let exchange design manufacture connection pressure or missing-edge truth.
-- Do not let legacy compatibility labels redefine canonical ontology.
-- Do not allow denormalized summaries to override structured causal lineage.
-- Do not grandfather historical artifacts through newer truth gates.
-- Do not start Scan 027 or any business work without a new explicit instruction.
+- Do not turn `CURRENT_EXTERNALIZED_WORKAROUND_FIRST`, `BUYER_COST_FIRST` or any other scan heuristic into the constitution.
+- Do not force all retained tracks into one opportunity score when their epistemic maturity differs.
+- Do not call an existing transaction rail “whitespace”.
+- Do not rebuild a technology marketplace merely because technical transfer is valuable.
+- Do not infer an application-discovery gap merely because a new resource has unknown applications.
+- Do not infer overseas-service whitespace from export growth or internal service hiring alone.
+- Do not reopen generic categories already killed by current incumbent evidence without new contradictory evidence.
+- Do not make schema shape reality or fabricate alternatives/layers for a validator.
+- Do not promote a plausible story without evidence, falsifiers, contradiction search and explicit stop semantics.
+- Do not contact external actors until a bounded probe is written and explicitly authorized.
 
 ## Guardrails
 - GitHub live state is the operational source of truth.
 - `REALITY > COGNITION > SCHEMA`.
+- `SCAN HEURISTIC != CONSTITUTION`.
 - `SCHEMA CONFORMANCE != TRUTH`.
 - `HYPOTHESIS CARDINALITY != EPISTEMIC RIGOR`.
 - `STATE MACHINE != REQUIRED DISCOVERY PATH`.
-- `FORCED COMPETING STORY != CAUSAL DISCIPLINE`.
 - `STATED NEED != LATENT OUTCOME`.
-- `LATENT OUTCOME HYPOTHESIS != EVIDENCED LATENT OUTCOME`.
 - `ONE PLAUSIBLE EXPLANATION != STRUCTURAL TRUTH`.
 - `DEEPER STORY != DEEPER TRUTH`.
-- `UNKNOWN != PASS`.
-- `PSYCHOLOGY EVIDENCE != UNIVERSAL FORMATION GATE`.
-- `OBSERVED BEHAVIOR != UNIVERSAL FORMATION GATE`.
-- `RECENT CHANGE != UNIVERSAL DISCOVERY GATE`.
 - `STRUCTURAL FRICTION != MISSING EDGE`.
 - `COMPLEMENTARITY != LATENT CONNECTION`.
 - `COUNTERFACTUAL EXCHANGE != LATENT CONNECTION EVIDENCE`.
+- `UNKNOWN != PASS`.
 - Infer broadly/boldly for discovery; promote conservatively.
