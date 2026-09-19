@@ -104,7 +104,7 @@ class LatentValueFormationTests(unittest.TestCase):
                     ),
                     truth_state=CausalTruthState.EVIDENCED_STRUCTURE,
                     support_refs=("analysis:structural-friction", "field:trust-packaging"),
-                    discriminating_evidence_refs=("field:informal-crossgen",),
+                    discriminating_evidence_refs=("analysis:structural-friction",),
                     falsifiers=(
                         "bounded trusted roles already clear repeatedly without this friction",
                     ),
