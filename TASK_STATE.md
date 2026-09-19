@@ -59,13 +59,13 @@ Historical-case policy:
 
 ## Last Verified Main
 
-Main before this branch: `3561dc16cab6499ca1d437be1e85172ff02e81a8`.
+`33e9bc3531fecd9be0406d221669d527abbbd29e` — PR #269 squash-merged.
 
-PR #268 merge SHA: `03b4e3248cc0cf5f000ee54b9cccfaa0df9278e4`.
+PR #269 head: `9c33853c6a8b27f3bbca3711a3cc44acd8ebee0b`.
 
-PR #268 CI #810 / run `35441396014`: success.
+PR #269 CI #812 / run `35449532503`: success.
 
-The branch base includes the later state-only causal-descent close checkpoint.
+PR #268 merge SHA: `03b4e3248cc0cf5f000ee54b9cccfaa0df9278e4`; CI #810 succeeded.
 
 ## Active Issue
 
@@ -73,17 +73,17 @@ The branch base includes the later state-only causal-descent close checkpoint.
 
 ## Active Branch
 
-`feature/scan-003-f1-reality-confirmation-001`
+None.
 
 ## Active PR
 
-Not opened yet at this checkpoint.
+None. PR #269 is merged.
 
 ## CI
 
-Pending for Reality Confirmation 001.
-
-No production code or doctrine change is intended.
+- PR #269 / run `35449532503`: success.
+- Reality Confirmation 001 is persisted on main.
+- No production code or doctrine changed.
 
 ## Latest Artifact / Persisted State
 
