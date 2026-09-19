@@ -1,0 +1,95 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_020_LINEAGE_ACCOUNTABILITY_VERDICT",
+  "date": "2026-09-19",
+  "title": "Causal verdict on legacy technical lineage routing",
+  "parent_scan": "REGENERATIVE_FORMATION_SCAN_019_LEGACY_TECHNICAL_LINEAGE",
+  "objective": "Determine whether technical lineage is an independent routable transaction unit or primarily an input to accountable expert/service institutions.",
+  "truth_rules": [
+    "REALITY > COGNITION > SCHEMA",
+    "HIGH INFORMATION VALUE != STANDALONE TRANSACTION VALUE",
+    "EXPERT IDENTITY != ACCOUNTABLE TECHNICAL OUTCOME",
+    "VALUABLE BECAUSE IT IS CONFIDENTIAL != LEGALLY ROUTABLE KNOWLEDGE",
+    "FOUNDER AS PERMANENT HUMAN SEARCH ENGINE = FAIL",
+    "UNKNOWN != PASS"
+  ],
+  "findings": [
+    {
+      "fact": "Former-OEM expertise is economically real and is packaged by specialist service firms.",
+      "sources": [
+        "https://arjavinpower.com/about/",
+        "https://conceptpartsolutions.com/about",
+        "https://www.evergreencrane.com/"
+      ]
+    },
+    {
+      "fact": "Mature expert networks already custom-recruit experts and operate confidentiality/conflict controls.",
+      "sources": [
+        "https://glg.com/compliance",
+        "https://www.thirdbridge.com/en-us/about-us/compliance/policies/expert-terms-and-conditions",
+        "https://www.guidepoint.com/services/compliance/compliance-faqs/"
+      ]
+    },
+    {
+      "fact": "Former-employee knowledge can create trade-secret/confidentiality disputes when proprietary technical material is involved.",
+      "source": "https://law.justia.com/cases/federal/district-courts/indiana/inndce/1%3A2021cv00274/107773/163/",
+      "caveat": "Single US case; structural risk evidence only."
+    },
+    {
+      "fact": "Reverse engineering, logic recovery and retrofit provide substitute recovery paths.",
+      "sources": [
+        "https://atgcontrols.com/system-migration-and-revamp/",
+        "https://powerdrivecle.com/reverse-engineering",
+        "https://speed3dmold.com/replacement-casting"
+      ]
+    }
+  ],
+  "competing_hypotheses": [
+    {
+      "id": "H1_EXACT_FORMER_PERSON_AS_PRODUCT",
+      "state": "REJECTED_AS_GENERAL_PRODUCT"
+    },
+    {
+      "id": "H2_LINEAGE_AS_RANKING_SIGNAL",
+      "state": "SUPPORTED"
+    },
+    {
+      "id": "H3_NEUTRAL_LINEAGE_MARKETPLACE",
+      "state": "NOT_EVIDENCED"
+    },
+    {
+      "id": "H4_SPECIALIST_SERVICE_FIRM_OWNER",
+      "state": "SUPPORTED_PRIMARY"
+    },
+    {
+      "id": "H5_ADVISORY_ONLY_EDGE",
+      "state": "INCUMBENT_CONTROL_PLANE_EXISTS"
+    }
+  ],
+  "founder_dependence": {
+    "state": "FAIL",
+    "reason": "Standalone routing repeatedly recreates boutique lineage research, vetting, compliance screening and handoff without owning the service result."
+  },
+  "missing_edge": {
+    "state": "NOT_EVIDENCED",
+    "reason": "Technical lineage is a matching/ranking attribute inside existing expert/service transactions rather than a complete independent transaction unit."
+  },
+  "verdict": {
+    "formation": "LEGACY TECHNICAL LINEAGE ROUTING",
+    "state": "DEMOTED_FROM_PRIMARY_COMMERCIAL_FORMATION",
+    "preserve_as": [
+      "TECHNICAL_LINEAGE routing/ranking primitive",
+      "former-OEM/project history as service-provider evidence",
+      "future vertical-specific signal only where accountable service exists and lineage remains poorly indexed"
+    ]
+  },
+  "portfolio_after_scan": {
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "formal_latent_connection_promotions": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "next_action": {
+    "mode": "FRESH_REGENERATIVE_SENSING",
+    "bias": "TRANSFERABLE_OBJECTIVE_STRANDED_UNIT"
+  }
+}
