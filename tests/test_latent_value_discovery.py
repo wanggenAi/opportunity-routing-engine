@@ -86,7 +86,7 @@ class LatentValueDiscoveryTests(unittest.TestCase):
         self.assertIn("missing:evidence_kind:ORIGIN_STATE", errors)
         self.assertIn("missing:evidence_kind:COMPLEMENTARY_STATE", errors)
         self.assertIn("missing:evidence_kind:STRANDING_BARRIER", errors)
-        self.assertEqual(discovery_state(candidate), DiscoveryState.COMPLEMENTARITY_HYPOTHESIS)
+        self.assertEqual(discovery_state(candidate), DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS)
 
     def test_explicit_demand_execution_is_not_core_latent_value_discovery(self):
         candidate = self._candidate(source_mode="EXPLICIT_DEMAND")
