@@ -4,7 +4,7 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-`ATTRACTION_SCAN_001` is complete.
+`ATTRACTION_SCAN_001` is complete and merged through PR #263.
 
 Continue the first clean-slate formation that survived broad-reality sensing:
 
@@ -22,7 +22,7 @@ Determine whether the observed bilateral motion:
 
 `FLEXIBLE CHINA SME SUPPLY ↔ OVERSEAS SMB BUYER PURCHASE INTENT`
 
-is blocked by a **narrow, repeated, economically routable trust / verification / acceptance edge**, rather than merely by work that existing sourcing agents, marketplaces and inspection firms already solve.
+is blocked by a **narrow, repeated, economically routable trust / verification / acceptance edge**, rather than merely by work that existing marketplaces, sourcing agents, inspection firms and labs already solve.
 
 ## Active Commercial Epoch
 
@@ -46,15 +46,17 @@ Historical-case policy:
 
 ## Current Phase
 
-`ATTRACTION_SCAN_001_COMPLETE / F1_CAUSAL_DESCENT_REQUIRED`
+`ATTRACTION_SCAN_001_MERGED / F1_CAUSAL_DESCENT_REQUIRED`
 
 ## Last Verified Main
 
-Live main before this branch: `3148be7c2b6969b9655e45b3dae4da7819a547a6`.
+Live main: `36ea9897aab630e236f10460447fcff908276c4d` — PR #263 squash-merged.
+
+PR #263 head: `7549acf43e6fa0b2ce54955485cfb5b38c9ebf10`.
+
+PR CI #799 / run `35440354166`: success.
 
 Functional reset main: `e31ef6cbf3069fd7435982bf59ef3270c877ac6a` — PR #262.
-
-PR #262 CI #797 / run `35438821048`: success, 688 tests.
 
 ## Active Issue
 
@@ -62,17 +64,17 @@ PR #262 CI #797 / run `35438821048`: success, 688 tests.
 
 ## Active Branch
 
-`feature/attraction-scan-001`
+None.
 
 ## Active PR
 
-Not opened yet at this checkpoint.
+None. PR #263 is merged.
 
 ## CI
 
-Pending for `feature/attraction-scan-001`.
-
-No production code or doctrine changes are intended in this scan checkpoint; this branch persists current empirical research state and recovery state.
+- PR #263 / run `35440354166`: success.
+- Scan 001 persisted to main.
+- No production code or doctrine changed in Scan 001.
 
 ## Latest Artifact / Persisted State
 
@@ -84,37 +86,50 @@ No production code or doctrine changes are intended in this scan checkpoint; thi
 
 ## Completed
 
-- Ran the first post-reset broad-reality scan without restoring historical cases.
+- Ran and merged the first post-reset broad-reality scan without restoring historical cases.
 - Inspected household/care, scarce consumer access, community space, pet care, SME AI adoption and cross-border sourcing/trust evidence.
 - Kept promotion fail-closed.
 - Promoted zero commercial candidates.
 - Retained exactly one research formation for causal descent: `ATTRACTION_SCAN_001-F1`.
 - Recorded A-side attraction, B-side attraction, operator attraction, non-labor test, activation friction, self-propulsion and Drift Audit.
 - Persisted current source set and decisive unknowns.
+- Verified PR #263 CI green before merge.
 
 ## Current Findings
 
 ### Evidence that survives
 
 A-side:
-- current Jiangsu SMEs are accepting smaller, higher-frequency export orders;
-- at least one current China supplier explicitly reports overseas trust/counterfeit concerns as a sales barrier and offers independent lab verification.
+- current China SMEs show willingness to accept smaller, higher-frequency export orders;
+- current suppliers report overseas trust/counterfeit concerns as a sales barrier and willingness to use independent verification.
 
 B-side:
 - current overseas buyers repeatedly seek trustworthy China sourcing, supplier verification, factory checks, samples, QC, transparent commissions and pre-shipment inspection;
-- QIMA 2026 data shows rising inspection demand in China from emerging-market buyers and materially higher AQL failure rates for those buyers.
+- 2026 inspection data shows growing China-sourcing inspection demand from emerging-market buyers and non-trivial quality failure risk.
 
-Structural hypothesis:
-- the buyer's real need may be a bounded proof-to-commit chain, not merely supplier discovery;
-- seller capability can remain commercially stranded when buyer trust is insufficient.
+### Incumbent-resolution evidence already established
+
+- Alibaba Trade Assurance covers payment protection, order-condition enforcement, disputes and certain logistics/after-sales protection.
+- Alibaba Verified Supplier uses third-party on-site verification and publishes assessment information.
+- QIMA provides supplier audits, lab testing and pre-shipment inspection.
+
+Therefore F1 cannot survive merely as:
+- supplier discovery;
+- generic supplier verification;
+- generic factory audit;
+- generic QC;
+- escrow / order protection;
+- generic sourcing-agent labor.
+
+The residual edge, if any, must be narrower.
 
 ### What is still unknown
 
-- whether existing agents / marketplaces / inspection firms already solve this exact buyer state;
-- whether the missing edge is supplier identity, order-specific proof, sample acceptance or pre-shipment acceptance;
-- whether evidence can be standardized enough to avoid bespoke founder work;
-- whether small-order economics support independent verification;
-- whether repeat outcomes create reusable trust data.
+- whether a decision-quality proof chain remains fragmented for a specific small/medium buyer state;
+- whether the decisive object is supplier identity, quote/spec normalization, sample acceptance, order-specific proof or pre-shipment acceptance;
+- whether evidence can be standardized and reused across repeat orders;
+- whether small-order economics support the verification stack;
+- whether orchestration can work without recurring founder search/sales/delivery labor.
 
 Therefore:
 
@@ -136,13 +151,13 @@ Required sequence:
 
 1. map the buyer's actual decision path from product need to payment;
 2. map the supplier's path from capability to trusted order;
-3. identify every actor already performing discovery, verification, inspection, lab testing, sample handling, payment protection and logistics;
-4. separate `SUPPLIER DISCOVERY` from `SUPPLIER PROOF` from `ORDER ACCEPTANCE`;
-5. determine where buyers still perform repeated manual workaround despite incumbents;
-6. determine which evidence/proof units can be standardized and reused;
-7. test whether a narrow missing edge remains after incumbent capabilities are fully credited;
-8. test non-labor economics conceptually before any external contact;
-9. fail closed if the route collapses into generic sourcing-agent labor;
+3. fully credit incumbent capabilities;
+4. separate `SUPPLIER DISCOVERY`, `SUPPLIER PROOF`, `ORDER PROOF`, `ACCEPTANCE`, `PAYMENT PROTECTION` and `LOGISTICS`;
+5. find where buyers still perform repeated manual workaround despite incumbents;
+6. determine which proof units can be standardized/reused;
+7. test whether a narrow missing edge remains;
+8. test non-labor economics conceptually before external contact;
+9. fail closed if the route collapses into sourcing-agent/project-management labor;
 10. only after the causal edge is evidenced, define the cheapest decisive reality confirmation.
 
 No product design, pricing, recruitment or outreach yet.
@@ -153,8 +168,8 @@ No product design, pricing, recruitment or outreach yet.
 - Do not treat F1 as a commercial candidate merely because both sides show motion.
 - Do not jump directly to “做采购代理 / sourcing agent”.
 - Do not make the operator personally source, negotiate, inspect, visit factories, chase samples or ship every order.
-- Do not assume Alibaba / sourcing agents / QIMA solve the flow; verify the exact residual state.
-- Do not assume incumbents fail merely because buyers still complain; locate the precise unresolved edge.
+- Do not duplicate Alibaba Trade Assurance / Verified Supplier / QIMA as if those capabilities do not exist.
+- Do not assume incumbents fully solve the flow without locating the exact buyer state.
 - Do not use Reddit as a population estimate.
 - Do not design software before the missing edge is proven.
 - Do not begin outreach yet.
