@@ -1,0 +1,150 @@
+{
+  "scan_id": "REGENERATIVE_FORMATION_SCAN_017_SERVICE_THRESHOLD_GAP",
+  "date": "2026-09-19",
+  "title": "White-portfolio scan for non-attribute cross-boundary routing",
+  "parent_scan": "REGENERATIVE_FORMATION_SCAN_016_SUCCESSION_CAUSAL_DESCENT",
+  "objective": "Find a recurrent transition boundary where a routing key changes who can perform work, rather than merely enriching an incumbent transaction.",
+  "truth_rules": [
+    "REALITY > COGNITION > SCHEMA",
+    "ROUTING KEY VALUE != SEPARATE COMMERCIAL CONTROL PLANE",
+    "WORKFLOW ATTRIBUTE != OPEN MISSING EDGE",
+    "EXISTING SOFTWARE != EXISTING FIELD CAPACITY",
+    "EXISTING FIELD CAPACITY != OEM-AUTHORIZED PORTABLE CAPABILITY",
+    "RETAINED FORMATION != COMMERCIAL CANDIDATE",
+    "UNKNOWN != PASS"
+  ],
+  "wide_scan": [
+    {
+      "id": "SCAN017_A_EXACT_SPEC_RESIDUAL_REPAIR_MATERIALS",
+      "state": "DEMOTED_NORMALIZING_SPECIALTY_MARKET",
+      "observed_pressure": "Exact model/color/batch repair materials can have low commodity value but high avoided-rework value.",
+      "counterevidence": [
+        "project/development-specific replacement tile is already marketed directly",
+        "tile-finding apps advertise rare/discontinued requests, image recognition and idle-tile resale",
+        "B2B find-tile/reallocation workflows already exist",
+        "international surplus-building-material marketplaces already match specific-batch leftovers"
+      ],
+      "verdict": "Real identity-key value, but the identity key is already normalizing into specialty-market metadata and search."
+    },
+    {
+      "id": "SCAN017_B_GENERIC_CROSS_BORDER_PHYSICAL_PROOF",
+      "state": "DEMOTED_CONTROL_PLANE_ALREADY_OWNED",
+      "observed_pressure": "Remote buyers and risk teams repeatedly need physical China site/factory evidence.",
+      "evidence": [
+        {
+          "fact": "A current QC provider is recruiting a nationwide China freelance-inspector network by geography, travel radius, AQL skill, reporting and response time.",
+          "source": "https://www.upwork.com/freelance-jobs/apply/Quality-Inspection-Team-China_~022089967451964929037/"
+        },
+        {
+          "fact": "Confirmis repeatedly outsources standardized city-specific site-verification tasks in China.",
+          "sources": [
+            "https://www.freelancer.com/projects/photography/site-verification-shanghai-china-40690648",
+            "https://www.freelancer.com/projects/photography/site-verification-hangzhou-china",
+            "https://www.freelancer.com/projects/photography/site-verification-xiamen-china",
+            "https://www.freelancer.com/projects/photography/site-verification-guangdong-china"
+          ]
+        }
+      ],
+      "counterevidence": [
+        "Confirmis already owns a global site-verifier control plane",
+        "Golden Relay sells China site verification and white-label evidence",
+        "China business-travel operators offer white-label on-ground support",
+        "mature inspection companies and on-demand inspection models already coordinate higher-skill QC"
+      ],
+      "verdict": "Generic physical proof and inspection dispatch are already owned/normalizing; low-skill unit economics are weak."
+    },
+    {
+      "id": "SCAN017_C_SPARSE_INSTALLED_BASE_SERVICE_THRESHOLD",
+      "working_name": "SPARSE INSTALLED-BASE SERVICE THRESHOLD GAP",
+      "state": "RETAIN_FOR_CAUSAL_DESCENT_ONLY",
+      "structural_hypothesis": "A persistent middle zone exists where an equipment OEM has enough installed base in an ASEAN market to require fast local field service but not enough density to economically internalize a local engineer, service center and parts warehouse.",
+      "actors": [
+        "exporting industrial-equipment OEM with sparse/growing foreign installed base",
+        "local multi-brand industrial service company or technician",
+        "end customer needing commissioning, maintenance or downtime recovery",
+        "OEM remote expert / technical authority / parts owner",
+        "optional distributor controlling commercial relationship"
+      ],
+      "evidence": [
+        {
+          "fact": "A 2026 advanced-manufacturing globalization white paper says emerging-market demand is shifting from equipment delivery toward turnkey + long-term O&M + local capability building, and cites professional installation/commissioning/O&M shortages in markets such as Indonesia.",
+          "source": "https://segg.sh.gov.cn/zxfw/yjbg/hybg/zgytyzysb/index/2954ed0d924a4441b1b1d4bb3d6acac6.pdf"
+        },
+        {
+          "fact": "Large exporters such as SINOTRUK operate extensive overseas dealer/service/parts networks and recruit dedicated international after-sales roles, showing that dense installed bases can internalize service.",
+          "source": "https://jobs.blcu.edu.cn/front/zph.jspa?tid=869"
+        },
+        {
+          "fact": "Xi'an Cummins recruits overseas technical support specifically to develop/improve repair capability, supervise service-network performance and parts availability, and resolve overseas service issues.",
+          "source": "https://www.xcec.com.cn/index.php/contact/recruit/id/12.html"
+        },
+        {
+          "fact": "An industrial machinery manufacturer publicly recruits service/support partners across ASEAN countries.",
+          "source": "https://in.linkedin.com/company/trufmac-global-pvt-ltd"
+        },
+        {
+          "fact": "Nikkiso formed a 2026 strategic service partnership with an established Southeast Asian workshop/field-service network, proving OEM technical authority can combine with third-party local field capacity.",
+          "source": "https://nikkisoceig.com/news/nikkiso-opens-first-marine-hub-to-support-southeast-asia-market"
+        },
+        {
+          "fact": "Category-specific multi-brand field service exists in Southeast Asia, including VFD lifecycle service and other multi-brand maintenance models.",
+          "sources": [
+            "https://ducheng-industrial.com/",
+            "https://www.wemaintain.com/en-sg/offer/endtoend"
+          ]
+        }
+      ],
+      "cost_signal": {
+        "state": "VENDOR_REPORTED_NOT_INDEPENDENTLY_VERIFIED",
+        "source": "https://www.storin.com/zh/news/your-equipment-can-go-global-but-can-your-service-team/",
+        "claims": [
+          "RMB 150k-300k comprehensive cost for one overseas engineer deployment/project",
+          "5-14 day overseas response versus 24-48 hour customer expectation",
+          "overseas after-sales cost 15-25% of contract value versus 5-8% domestically"
+        ]
+      },
+      "existing_control_planes": [
+        "OEM/distributor authorized service networks",
+        "category-specific independent service firms",
+        "EOR/global-employment providers",
+        "after-sales field-service SaaS",
+        "local distributors and spare-parts channels"
+      ],
+      "not_yet_evidenced": [
+        "persistent installed-base density threshold rather than short transition",
+        "repeat service-call density by equipment family",
+        "OEM willingness to pay a neutral orchestrator rather than distributor/local partner directly",
+        "portable local technician capability after bounded OEM training",
+        "warranty/authorization/liability structure",
+        "training and tooling cost versus expected case flow",
+        "parts/logistics not dominating technician-response value",
+        "positive normalized orchestration margin"
+      ],
+      "promotion_status": "NOT_A_COMMERCIAL_CANDIDATE",
+      "next_test": "Run causal descent on the installed-base threshold, payer, capability portability, authorization/liability, learning cost, parts boundary, incumbent ownership and normalized economics."
+    }
+  ],
+  "cross_scan_verdict": {
+    "active_commercial_candidates": 0,
+    "formal_latent_connection_promotions": 0,
+    "active_transaction_units": 0,
+    "retained_research_formations": [
+      "SCAN017_C_SPARSE_INSTALLED_BASE_SERVICE_THRESHOLD"
+    ],
+    "first_external_value_flow": "NOT_PROVEN",
+    "meta_learning": "The strongest fresh boundary is not generic field labor but the possible economic gap between remote-only support and an OEM-owned local service network."
+  },
+  "next_action": {
+    "mode": "CAUSAL_DESCENT",
+    "formation": "SCAN017_C_SPARSE_INSTALLED_BASE_SERVICE_THRESHOLD",
+    "requirements": [
+      "prove a persistent sparse-installed-base middle zone",
+      "identify actual payer and service responsibility",
+      "test which equipment capabilities are portable to local multi-brand technicians",
+      "resolve warranty/liability/authorization",
+      "measure training/tooling/parts and travel economics",
+      "determine whether distributor or existing service firm already naturally owns the boundary",
+      "do not recruit technicians, contact OEMs, set pricing or build software yet"
+    ]
+  }
+}
