@@ -223,31 +223,24 @@ class LatentValueDiscoveryTests(unittest.TestCase):
             DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS,
         )
 
-    def test_outer_alternative_summary_is_not_a_substitute_for_causal_competition(self):
+    def test_outer_alternative_summary_does_not_force_causal_cardinality(self):
         candidate = self._candidate(alternative_explanations=())
         self.assertEqual(validate_candidate(candidate), [])
         self.assertEqual(discovery_state(candidate), DiscoveryState.VALIDATION_READY)
 
-        one_story = self._causal_descent()
-        one_story = CausalDescentRecord(
+        causal = self._causal_descent()
+        single_evidenced_frontier = CausalDescentRecord(
             **{
-                **one_story.__dict__,
-                "constraint_hypotheses": (one_story.constraint_hypotheses[0],),
+                **causal.__dict__,
+                "constraint_hypotheses": (causal.constraint_hypotheses[0],),
             }
         )
         candidate = self._candidate(
             alternative_explanations=(),
-            causal_descent=one_story,
+            causal_descent=single_evidenced_frontier,
         )
-        errors = validate_candidate(candidate)
-        self.assertIn(
-            "causal_descent:missing:competing_causal_explanation",
-            errors,
-        )
-        self.assertEqual(
-            discovery_state(candidate),
-            DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS,
-        )
+        self.assertEqual(validate_candidate(candidate), [])
+        self.assertEqual(discovery_state(candidate), DiscoveryState.VALIDATION_READY)
 
     def test_one_generic_source_cannot_make_story_validation_ready(self):
         candidate = self._candidate(

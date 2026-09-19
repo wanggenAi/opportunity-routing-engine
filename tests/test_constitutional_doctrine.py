@@ -22,6 +22,9 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("CONNECTION INVENTION != CONNECTION DISCOVERY", doctrine)
         self.assertIn("COMPLEMENTARITY != LATENT CONNECTION", doctrine)
         self.assertIn("UNKNOWN != PASS", doctrine)
+        self.assertIn("REALITY > COGNITION > SCHEMA", doctrine)
+        self.assertIn("HYPOTHESIS CARDINALITY != EPISTEMIC RIGOR", doctrine)
+        self.assertIn("STATE MACHINE != REQUIRED DISCOVERY PATH", doctrine)
 
     def test_structural_friction_discovery_is_constitutional_and_causal(self):
         principle = self._read("docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md")
@@ -47,6 +50,8 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("Psychology is one causal sensor, not a universal gate", principle)
         self.assertIn("INFERRED STRUCTURE", principle)
         self.assertIn("MAY GUIDE EXPLORATION", principle)
+        self.assertIn("Do not fabricate a competing explanation solely to satisfy a schema", principle)
+        self.assertIn("Hypothesis cardinality is not epistemic rigor", principle)
 
     def test_latent_connection_discovery_principle_is_constitutional(self):
         principle = self._read("docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md")
@@ -86,6 +91,9 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("A procurement feed is one sensor, not the business model", agents)
         self.assertIn("NeedSignal`, `ResourceSignal` and `BlockerSignal` are downstream", agents)
         self.assertIn("RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM", agents)
+        self.assertIn("Reality-first adaptive cognition", agents)
+        self.assertIn("REALITY > COGNITION > SCHEMA", agents)
+        self.assertIn("Do not use fixed hypothesis counts as a substitute for causal rigor", agents)
 
     def test_formal_truth_preserves_connection_discovery_and_fail_closed_promotion(self):
         truth = self._read("docs/FORMAL_TRUTH.md")
@@ -105,6 +113,9 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
         self.assertIn("Connection Hypothesis != Connection Pressure Evidence", truth)
         self.assertIn("Need / Resource / Blocker` is the current fail-closed evidence gate", truth)
         self.assertIn("Code must remain downstream of cognition and architecture", truth)
+        self.assertIn("REALITY > COGNITION > SCHEMA", truth)
+        self.assertIn("Schema Conformance != Truth", truth)
+        self.assertIn("Hypothesis Cardinality != Epistemic Rigor", truth)
 
     def test_readme_surfaces_formation_as_repository_identity(self):
         readme = self._read("README.md")

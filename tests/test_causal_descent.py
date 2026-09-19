@@ -113,23 +113,17 @@ class CausalDescentTests(unittest.TestCase):
             CausalDescentState.EVIDENCED_STRUCTURAL_FRICTION,
         )
 
-    def test_one_latent_outcome_is_not_enough_for_promotion(self):
+    def test_single_evidenced_outcome_does_not_require_fabricated_alternative(self):
         record = self._record(
             outcome_hypotheses=(self._record().outcome_hypotheses[0],)
         )
-        self.assertIn(
-            "missing:competing_latent_outcome",
-            validate_causal_descent_for_promotion(record),
-        )
+        self.assertEqual(validate_causal_descent_for_promotion(record), [])
 
-    def test_one_plausible_story_is_not_enough_for_promotion(self):
+    def test_single_evidenced_constraint_does_not_require_fabricated_competitor(self):
         record = self._record(
             constraint_hypotheses=(self._record().constraint_hypotheses[0],)
         )
-        self.assertIn(
-            "missing:competing_causal_explanation",
-            validate_causal_descent_for_promotion(record),
-        )
+        self.assertEqual(validate_causal_descent_for_promotion(record), [])
 
     def test_inferred_lead_can_be_decisive_unknown_without_becoming_truth(self):
         inferred = StructuralConstraintHypothesis(
@@ -285,20 +279,24 @@ class CausalDescentTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "probe_eligible must be a boolean"):
             causal_descent_from_mapping(raw)
 
-    def test_recursive_depth_cannot_skip_a_layer(self):
+    def test_recursive_depth_may_skip_numbers_without_fabricating_layers(self):
         causal = self._record()
         child = StructuralConstraintHypothesis(
             constraint_id="C3",
             outcome_id="OUTCOME-1",
             depth=3,
             parent_constraint_id="C1",
-            causal_claim="a deeper but discontinuous explanation",
-            mechanism="depth cannot jump over an unrepresented causal layer",
+            causal_claim="a deeper explanation discovered without an artificial middle layer",
+            mechanism="parentage and relative depth carry the causal ordering",
         )
         record = self._record(
             constraint_hypotheses=causal.constraint_hypotheses + (child,)
         )
-        self.assertIn(
+        self.assertNotIn(
+            "constraint_depth_not_deeper_than_parent:C3",
+            validate_causal_descent(record),
+        )
+        self.assertNotIn(
             "constraint_depth_skips_recursive_layer:C3",
             validate_causal_descent(record),
         )

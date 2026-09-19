@@ -98,6 +98,25 @@ The engine must **infer broadly, descend causally, compare explanations, and pro
 
 Hypothesis generation may be broad. Canonical promotion remains fail-closed and evidence-bound.
 
+The higher-order ordering rule is:
+
+```text
+REALITY > COGNITION > SCHEMA
+```
+
+Schemas and state machines preserve and audit understanding; they do not dictate how reality must reveal itself. Discovery may move nonlinearly across evidence-bearing layers and revise prior interpretations. Strictness belongs primarily at truth promotion boundaries, not at idea generation boundaries.
+
+```text
+Schema Conformance != Truth
+State Machine != Required Discovery Path
+Hypothesis Cardinality != Epistemic Rigor
+Forced Competing Story != Causal Discipline
+```
+
+Material alternatives must be preserved when they are real. Artificial alternatives must not be invented to satisfy a fixed count.
+
+Causal depth is relational, not ceremonial. Parent/child direction must remain coherent, but contiguous numeric layers are not required and must not be manufactured.
+
 Resource state must remain explicit:
 
 ```text
