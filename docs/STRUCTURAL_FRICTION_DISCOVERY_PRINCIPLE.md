@@ -190,6 +190,8 @@ production capability is not callable as a bounded, trusted, acceptance-compatib
 
 The engine must preserve the chain rather than overwrite the surface event with the latest interpretation.
 
+The chain is causal lineage, not a required numbering ritual. A child must genuinely be deeper than its parent, but depth labels may be sparse and discovery may jump to a deeper evidenced mechanism before every intermediate explanatory layer is known. Do not fabricate a `depth=2` story merely because an evidenced `depth=3` mechanism was discovered.
+
 ## 3C. Do not assume one metaphysical root cause
 
 Real systems are often multi-causal.
