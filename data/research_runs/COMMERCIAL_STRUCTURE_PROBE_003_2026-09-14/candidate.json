@@ -35,6 +35,24 @@
       "source_id": "NANJING_GGZY_ASSET_TRANSACTIONS_H1_2026",
       "claim": "Repeated executed leases, operating-right transactions and disposals demonstrate realized value once assets reach market channels.",
       "kind": "VALUE_PRECEDENT"
+    },
+    {
+      "source_id": "PUDONG_GOV_2026_ASSET_RULES",
+      "claim": "Entrusted asset operation requires explicit agreements and standardized responsibilities for maintenance, rent/property-fee collection and invoicing, showing that moving an asset into active use depends on a defined rights-and-operating interface rather than simple discovery alone.",
+      "kind": "STRUCTURAL_FRICTION"
+    },
+    {
+      "source_id": "SHENZHEN_SASAC_RENTAL_RULES_2026",
+      "claim": "State-owned asset rental is routed through a standardized platform with structured asset intake and explicit entrustment arrangements, evidencing recurring fragmentation that must be normalized before assets can be exposed to market counterparties.",
+      "kind": "STRUCTURAL_FRICTION"
     }
+  ],
+  "surface_phenomenon_or_friction": "Existing physical/public assets repeatedly remain vacant, low-utilization or mismatched to current use while owners and governments repeatedly inspect, repackage, lease, entrust, repurpose or marketize them through separate processes.",
+  "latent_outcome_hypothesis": "Move an already-owned asset into a materially higher-utilization, revenue-producing or service-producing state without requiring the owner to build a new asset or personally operate every possible use scenario.",
+  "structural_friction_hypothesis": "The asset is not natively callable as a permissioned, constraint-explicit, acceptance-ready operating unit: facts, rights, approvals, operating responsibility, tenant/operator fit and transaction workflow remain fragmented across administrative and market interfaces, so a potentially useful asset cannot be reconfigured and routed cheaply or repeatedly.",
+  "structural_friction_truth_state": "EVIDENCED_STRUCTURE",
+  "alternative_explanations": [
+    "Low utilization may be caused mainly by weak end-user demand, poor location or intrinsically low asset quality rather than fragmented rights, packaging and operating interfaces.",
+    "Observed public/SOE activation mechanisms may be policy-specific and may not generalize to private owners or to an independent paid orchestration role."
   ]
 }
