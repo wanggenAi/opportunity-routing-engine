@@ -45,6 +45,16 @@
       "source_id": "SHENZHEN_SASAC_RENTAL_RULES_2026",
       "claim": "State-owned asset rental is routed through a standardized platform with structured asset intake and explicit entrustment arrangements, evidencing recurring fragmentation that must be normalized before assets can be exposed to market counterparties.",
       "kind": "STRUCTURAL_FRICTION"
+    },
+    {
+      "source_id": "LUAN_GGZY_ASSET_OPERATION_TENDER_2026",
+      "claim": "A resource owner is already procuring an external professional operator, evidencing an active owner-to-operator flow rather than hypothetical complementarity.",
+      "kind": "CONNECTION_PRESSURE"
+    },
+    {
+      "source_id": "PUDONG_GOV_2026_ASSET_RULES",
+      "claim": "Entrusted operation requires explicit agreements and standardized responsibility for maintenance, rent/property-fee collection and invoicing, evidencing the inter-node interface that must exist before normal owner-operator value flow can occur.",
+      "kind": "MISSING_EDGE"
     }
   ],
   "surface_phenomenon_or_friction": "Existing physical/public assets repeatedly remain vacant, low-utilization or mismatched to current use while owners and governments repeatedly inspect, repackage, lease, entrust, repurpose or marketize them through separate processes.",
@@ -54,5 +64,10 @@
   "alternative_explanations": [
     "Low utilization may be caused mainly by weak end-user demand, poor location or intrinsically low asset quality rather than fragmented rights, packaging and operating interfaces.",
     "Observed public/SOE activation mechanisms may be policy-specific and may not generalize to private owners or to an independent paid orchestration role."
-  ]
+  ],
+  "causal_descent_record_id": "CD-IDLE-ASSET-REPURPOSING-001",
+  "causal_stop_reason": "MULTI_CAUSAL_FRONTIER",
+  "connection_pressure_hypothesis": "Repeated entrusted operation, standardized leasing/platform use and executed asset transactions show owners and market operators already trying to move underused assets into new operating states rather than merely discussing the possibility.",
+  "observed_missing_edge": "Before value can flow normally, asset facts, permissible use, rights/approval boundaries, operating responsibility and transaction/acceptance rules must be normalized into an explicit interface between owner, operator/platform and market counterparty.",
+  "latent_connection_hypothesis": "Underused asset owners and professional operators/market counterparties can form repeated value flows when asset constraints and operating responsibilities are made legible, permissioned and acceptance-ready."
 }
