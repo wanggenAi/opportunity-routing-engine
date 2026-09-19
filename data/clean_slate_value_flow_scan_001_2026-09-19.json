@@ -1,0 +1,194 @@
+{
+  "scan_id": "CLEAN_SLATE_VALUE_FLOW_SCAN_001",
+  "date": "2026-09-19",
+  "title": "White-paper restart: directly routable paid value flows",
+  "reset_parent": "docs/research/CLEAN_SLATE_COMMERCIAL_RESET_2026-09-19.md",
+  "active_prior_cases": [],
+  "prior_case_policy": "ALL_PRE_RESET_CASES_HISTORICAL_ONLY",
+  "objective": "Find current two-sided value flows where one side has underused time/skill/capacity and the other side already pays for a bounded result; prefer flows that can be manually routed and settled before any platform, qualification system or institutional rail is built.",
+  "governing_logic": [
+    "REALITY > COGNITION > SCHEMA",
+    "REAL PAIN_OR_UNUSED_CAPACITY + CURRENT_PAID_OUTCOME + BOUNDED_TASK + ACCEPTANCE + SETTLEMENT",
+    "MONEY_PATH_BEFORE_ARCHITECTURE",
+    "CONNECT_AND_ORGANIZE_NOT_PERMANENTLY_DELIVER",
+    "PAST_CASE != ACTIVE_PRIOR"
+  ],
+  "current_supply_pressure": {
+    "observed": [
+      {
+        "fact": "China's 2026 youth-employment policy explicitly supports flexible employment for graduates in digital, creative and platform-economy work.",
+        "source": "https://www.gov.cn/zhengce/zhengceku/202603/content_7063305.htm"
+      },
+      {
+        "fact": "Current job markets show students and young workers accepting task-based, remote, content, data and other flexible work; this is used only as evidence of available/aspiring flexible capacity, not proof of any one candidate's supply sufficiency.",
+        "sources": [
+          "https://www.zhaopin.com/jobdetail/CC867397270J40885396005.htm",
+          "https://www.zhaopin.com/jobdetail/CC132228090J40998585404.htm",
+          "https://www.zhaopin.com/zhaopin/4d2ee7740bdc429aa644318adca9cef6/"
+        ]
+      }
+    ]
+  },
+  "candidate_flows": [
+    {
+      "candidate_id": "CSVF-001",
+      "name": "Local commercial content micro-orders",
+      "simple_description": "A local merchant/manufacturer buys one concrete video/photo/content deliverable; a young creator/student/freelancer produces it; the operator defines the brief, selects the creator, checks acceptance and settles the unit.",
+      "side_a_underused_capacity": "Young creators/students/freelancers with phone/camera/editing ability, available time and desire for paid portfolio/income.",
+      "side_b_current_paid_need": "Small businesses and manufacturers need product videos, short-form content, photography and edits but do not always need or want a full-time employee/agency retainer.",
+      "current_transaction_evidence": [
+        {
+          "fact": "A current Jiangsu machinery company explicitly recruits a part-time video creator with remote production, per-shoot/per-video settlement, buyer confirmation as acceptance, and 1-2 revision rounds.",
+          "source": "https://www.zhaopin.com/jobdetail/CC622881630J40871045001.htm"
+        },
+        {
+          "fact": "Current Jiangsu part-time content work shows per-video settlement and flexible student/worker participation.",
+          "source": "https://www.zhaopin.com/jobdetail/CC867397270J40885396005.htm"
+        },
+        {
+          "fact": "Current Xuzhou listings show businesses using part-time/short-form content labor and product-promotion roles, confirming local task demand exists.",
+          "sources": [
+            "https://www.zhaopin.com/zhaopin/927c74c3cadb4e55b10a92c84045d9b7/",
+            "https://www.zhaopin.com/jobdetail/CCL1526321110J40863610701.htm"
+          ]
+        }
+      ],
+      "bounded_unit_examples": [
+        "one product video from brief to accepted final cut",
+        "one on-site product/photo shoot with defined shot list",
+        "one batch of 5-10 platform-ready clips from provided material"
+      ],
+      "acceptance_shape": "Buyer-approved final media against brief, format, deadline and revision limit.",
+      "money_path": "buyer pays per unit -> creator receives delivery fee -> operator retains explicit coordination/acceptance margin",
+      "operator_nonlabor_role": [
+        "translate buyer need into brief",
+        "select creator",
+        "set deadline and revision boundary",
+        "quality/acceptance check",
+        "replace failed creator",
+        "settlement"
+      ],
+      "contradictions": [
+        "Freelance/content platforms and local agencies already exist.",
+        "Very simple editing is commoditized and low-margin.",
+        "If buyer and creator repeat directly after the first order, the operator may be bypassed unless it owns ongoing task intake, quality assurance or replacement."
+      ],
+      "current_state": "DIRECT_PAID_FLOW_OBSERVED__OPERATOR_EDGE_UNPROVEN",
+      "first_test": "Find one current local business with a single bounded content task and one creator willing to quote it; compare buyer budget, creator price, acceptance requirements and operator margin before any platform build."
+    },
+    {
+      "candidate_id": "CSVF-002",
+      "name": "SME AI / office-workflow micro-project routing",
+      "simple_description": "A small enterprise has one concrete workflow/data/AI task; an AI-literate young operator/freelancer implements the bounded result; the connector scopes, matches, verifies and settles.",
+      "side_a_underused_capacity": "Young people who can use ChatGPT/Codex/Claude, Excel/PowerBI, Dify/n8n/RPA and light development but lack a steady flow of real business projects.",
+      "side_b_current_paid_need": "SMEs that want practical AI/data/workflow results but lack in-house AI staff.",
+      "current_transaction_evidence": [
+        {
+          "fact": "A 2026 government survey in Changzhou found 41% of surveyed enterprises report lack of AI management/R&D/operations talent; 72% have no dedicated AI talent and rely on external cooperation, while 41% report no current cooperation but an intention to cooperate.",
+          "source": "https://www.zhonglou.gov.cn/html/czzl/2026/OKKJPNFI_0417/390642.html"
+        },
+        {
+          "fact": "A current Jiangsu company advertises a flexible/part-time AI application role focused on AI-enabling existing web systems, workflow automation, enterprise data cleanup and knowledge-base construction.",
+          "source": "https://www.zhaopin.com/jobdetail/CC343037930J40901972313.htm"
+        },
+        {
+          "fact": "A current project-based AI service team advertises enterprise AI/automation projects as bounded work units delivered by part-time developers and settled by project milestones, which proves projectization is feasible but also proves incumbents exist.",
+          "source": "https://www.zhaopin.com/jobdetail/CCL1528060070J40932076112.htm"
+        }
+      ],
+      "bounded_unit_examples": [
+        "automate one recurring Excel/report workflow",
+        "build one internal FAQ/knowledge-base assistant from a defined document set",
+        "connect one form/CRM/notification workflow",
+        "clean and structure one bounded historical data set"
+      ],
+      "acceptance_shape": "Defined workflow works on buyer-provided sample cases and passes agreed output checks.",
+      "money_path": "enterprise pays per micro-project -> external implementer receives project fee -> operator retains scope/matching/QA margin",
+      "operator_nonlabor_role": [
+        "extract bounded business problem",
+        "reject scope creep",
+        "match implementer",
+        "define test cases",
+        "acceptance verification",
+        "replacement/escalation"
+      ],
+      "contradictions": [
+        "AI implementation agencies and freelance platforms already exist.",
+        "Technical scope can expand and create warranty/support burden.",
+        "The operator edge is weak if every project requires bespoke technical consulting by the founder."
+      ],
+      "current_state": "DIRECT_PAID_FLOW_OBSERVED__ROUTABILITY_PLAUSIBLE__OPERATOR_EDGE_UNPROVEN",
+      "first_test": "Use one small buyer workflow with a 1-3 day acceptance boundary; do not sell a transformation program."
+    },
+    {
+      "candidate_id": "CSVF-003",
+      "name": "Local-presence field microtasks",
+      "simple_description": "A remote company needs a trusted person physically present in another city/country for a short checklist-driven task; a local student/young worker executes the visit; the operator matches, briefs, verifies evidence and settles.",
+      "side_a_underused_capacity": "Local students/young residents with time, smartphone, language/local knowledge and willingness to do short paid field tasks.",
+      "side_b_current_paid_need": "Remote/foreign companies that need an exhibition visit, store check, supplier/site verification, photos, information collection or other physical presence without sending their own employee.",
+      "current_transaction_evidence": [
+        {
+          "fact": "On 2026-09-10 a Polish building-materials company publicly sought one English-capable Chinese student/part-timer for a one-day Shanghai exhibition market-research task, with a clear checklist and about RMB 700-800 compensation.",
+          "source": "https://www.reddit.com/r/AskChina/comments/1wcbrn7/"
+        },
+        {
+          "fact": "Current Xuzhou listings show banks/service firms paying local part-timers for on-site business verification and photo evidence, proving physical verification can be atomized into paid local tasks.",
+          "source": "https://www.zhaopin.com/zhaopin/4d2ee7740bdc429aa644318adca9cef6/"
+        },
+        {
+          "fact": "A current global-local execution provider sells market visits, store visits, photo/video records, exhibition execution and other local-person tasks, proving the category exists and providing incumbent counterevidence.",
+          "source": "https://wisefieldinsights.com/"
+        }
+      ],
+      "bounded_unit_examples": [
+        "one exhibition-day research checklist with photos, contacts and summary",
+        "one store/site visit with timestamped photo/video evidence",
+        "one supplier/product existence verification",
+        "one local appointment or information-collection visit"
+      ],
+      "acceptance_shape": "Checklist completion plus required evidence packet delivered by deadline.",
+      "money_path": "remote buyer pays task price -> local executor receives task fee -> operator retains sourcing/briefing/verification/replacement margin",
+      "operator_nonlabor_role": [
+        "turn request into checklist",
+        "verify executor identity/fit",
+        "brief and schedule",
+        "evidence QA",
+        "replace no-show/failed executor",
+        "settlement"
+      ],
+      "contradictions": [
+        "Local research/inspection/BPO firms and global freelancer platforms already exist.",
+        "Safety, privacy, trespass, debt collection and regulated inspection tasks must be excluded.",
+        "One-off tasks may not repeat unless the operator finds a recurring buyer segment such as exhibitions, distributed retail checks or cross-border supplier verification."
+      ],
+      "current_state": "DIRECT_PAID_FLOW_OBSERVED__HIGH_IMMEDIACY__REPEATABILITY_AND_OPERATOR_EDGE_UNPROVEN",
+      "first_test": "Capture one legitimate checklist-based field task from a remote buyer and source one local executor; exclude debt collection, covert surveillance, regulated inspections and unsafe visits."
+    }
+  ],
+  "rejected_on_clean_slate": [
+    {
+      "pattern": "identity/qualification-first opportunity",
+      "reason": "violates clean-slate money-first logic unless the qualification is inherently required to deliver the paid outcome"
+    },
+    {
+      "pattern": "policy-subsidy-first route",
+      "reason": "money depends on institutional process rather than immediate counterparty value"
+    },
+    {
+      "pattern": "build-a-marketplace-first",
+      "reason": "two-sided platform construction is not required to prove one value flow"
+    },
+    {
+      "pattern": "generic consulting",
+      "reason": "unclear bounded deliverable/acceptance encourages founder labor and long sales cycles"
+    }
+  ],
+  "scan_result": {
+    "prior_cases_active": 0,
+    "fresh_candidate_flows": 3,
+    "formal_opportunity_promotions": 0,
+    "external_actions_sent": 0,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "next_action": "Validate the three fresh flows only at transaction-unit level. For each, find one current buyer-side task with a concrete budget/acceptance boundary and one independent provider quote/availability signal. Kill any flow that cannot produce a simple buyer-task-provider-margin equation without building infrastructure first."
+}
