@@ -243,5 +243,8 @@
     "formal_latent_connection_promotions": 0,
     "first_external_value_flow": "NOT_PROVEN"
   },
-  "next_action": "Deepen RFZ-001 by discriminating two causal/connection hypotheses: trusted cross-generational composite capability versus tacit industrial-knowledge extraction/callability. Search repeated workarounds, retirement knowledge-loss events, stalled AI projects caused by context gaps, ad-hoc senior+young pairings and incumbent FDE/knowledge-management solutions. No product design, buyer search, pricing or outreach."
+  "next_action": "Deepen RFZ-001 by discriminating two causal/connection hypotheses: trusted cross-generational composite capability versus tacit industrial-knowledge extraction/callability. Search repeated workarounds, retirement knowledge-loss events, stalled AI projects caused by context gaps, ad-hoc senior+young pairings and incumbent FDE/knowledge-management solutions. No product design, buyer search, pricing or outreach.",
+  "active_status": "SECONDARY_REFERENCE_NOT_CURRENT_PRIMARY_SCAN",
+  "superseded_as_primary_by": "data/regenerative_formation_scan_002_life_world_2026-09-19.json",
+  "note": "Industrial RFZ-001 remains useful formation evidence, but the current active scan priority is everyday-life intergenerational formation as explicitly requested by the user."
 }
