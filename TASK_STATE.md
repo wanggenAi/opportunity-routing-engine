@@ -3,148 +3,190 @@
 Operational handoff only. GitHub live state wins if anything below conflicts with repository facts.
 
 ## Current Mission
-The active commercial portfolio remains under the clean-slate reset. All pre-reset cases are historical only. Transaction-unit validation reduced the fresh portfolio to one primary live transaction direction: CSVF-003 local-presence field microtasks.
+The active commercial search has been reset again at the discovery-philosophy layer.
+
+All prior task-first, gig-first, buyer-budget-first and transaction-spread examples — including CSVF-001/002/003 and the Shanghai wine-shop task — are historical/downstream calibration only. They must not seed active discovery.
+
+The active mission is now to discover **regenerative latent-value fields**: large/replenishing actor populations with durable state/endowment disequilibria, repeated connection pressure, partial/informal/expensive flows, a recurring missing edge and a natural Demand Pump.
 
 ## Goal
-Preserve:
+Preserve the constitutional order:
 
 ```text
 REALITY > COGNITION > SCHEMA
 ```
 
-and require:
+and the formation-first path:
 
 ```text
-BUYER TASK
-+
-BUYER MONEY
-+
-COMPATIBLE PROVIDER
-+
-PROVIDER COST
-+
-ACCEPTANCE
-=
-VISIBLE OPERATOR ECONOMICS
+BROAD WORLD SENSING
+→ ACTOR / ENDOWMENT / STATE
+→ UNDERUSE / CONTRADICTION
+→ LATENT OUTCOME
+→ STRUCTURAL FRICTION
+→ COMPLEMENTARY NODES
+→ CONNECTION PRESSURE
+→ PARTIAL / INFORMAL / EXPENSIVE FLOW
+→ RECURRING MISSING EDGE
+→ DEMAND PUMP
+→ LATENT CONNECTION
+→ only later: exchange mechanics / payer / transaction
 ```
 
-A price spread alone is not enough. The operator must own a real missing edge that current channels do not already solve.
+The target is not a one-off job. The target is a repeatable value channel that reality is already trying to form.
 
 ## Current Unique Commercial Research Goal
-Complete the economics test for the live CSVF-003 Shanghai field-task transaction unit.
+Deepen `RFZ-001` only at the **connection-pressure / recurring-missing-edge** layer.
 
-Current buyer:
-Wine Services (Bordeaux) seeks Shanghai execution for 21 wine-shop visits with shelf-photo evidence and pays US$25 per complete satisfactory store, up to US$525.
+RFZ-001:
+cross-generational industrial cognition × young AI/digital execution × traditional enterprise transformation pressure.
 
-Current unresolved truth:
-bind one exact/near-exact executor quote for the same 21-store scope before claiming operator margin.
+Two competing missing-edge hypotheses remain open:
+1. enterprises cannot easily assemble a trusted external composite of domain cognition + AI/digital execution outside family/internal/institutional channels;
+2. senior tacit industrial know-how becomes stranded at retirement because firms lack a repeatable way to extract, validate, structure and make that cognition callable by younger people/software/AI.
+
+Do not design a product, search for buyers, calculate price or contact actors until one recurring missing edge is actually evidenced.
 
 ## Current Phase
-`TRANSACTION_UNIT_VALIDATION_001_MERGED / MAIN_GREEN / CSVF_003_PRIMARY / LIVE_BUYER_BOUND / EXECUTOR_QUOTE_REQUIRED`
+`REGENERATIVE_FLOW_RESET_ACTIVE / ACTIVE_CANDIDATES_ZERO / FORMATION_SCAN_001_PERSISTED / RFZ_001_CAUSAL_DISCRIMINATION_NEXT`
 
 ## Last Verified Main
-`ec33fa0b7ecddbba2f3d11a2ee9950dc407aeeff` — PR #239 squash-merged. Main CI run #743 (run id `35422715005`) passed on this exact SHA. The state-only checkpoint commit that updates this file may advance live `main` with `[skip ci]`; this SHA remains the latest functional/CI-verified main before that checkpoint write.
+`ec33fa0b7ecddbba2f3d11a2ee9950dc407aeeff` — PR #239 squash-merged. Main CI run #743 (run id `35422715005`) passed on this exact functional SHA. Live main later advanced with state-only checkpoint `c2d8ee8c6a5e33d26a85add334c9541fc9ccafac`.
+
+The current regenerative reset is on an unmerged feature branch and must pass PR CI before changing functional main truth.
 
 ## Active Issue
 #143 — `P0: First external value flow — field proof, not more architecture`.
 
-Transaction-unit validation 001 was synced to Issue #143 in comment id `5739500087`.
+Issue #143 remains the eventual external-truth mission anchor, but its previous task-first route comments are historical. No field action is currently authorized because upstream connection truth has been reset.
 
 ## Active Branch
-None. `feature/transaction-unit-validation-001` is merged and is not an active source of truth.
+`feature/regenerative-flow-reset`
 
 ## Active PR
-None. PR #239 (`Validate clean-slate transaction units and bind live field buyer`) is merged.
+None yet. Open a focused PR after this checkpoint update.
 
 ## CI
-- PR #239 final head: `ba4bebe813da30e7913e0ccec66a561d013cfe68`
-- PR CI: run #742, run id `35422697875`, success
-- merge SHA: `ec33fa0b7ecddbba2f3d11a2ee9950dc407aeeff`
-- main CI: run #743, run id `35422715005`, success
+No CI has run yet on the current regenerative reset branch.
 
 ## Latest Artifact / Persisted State
-- `data/transaction_unit_validation_001_2026-09-19.json`
-- `field/transaction-unit-validation-001.md`
-- `field/bounded-executor-quote-request-001.md`
+Active discovery reset:
+- `docs/research/REGENERATIVE_FLOW_DISCOVERY_RESET_2026-09-19.md`
 
-Clean-slate parents:
+Active formation scan:
+- `data/regenerative_formation_scan_001_2026-09-19.json`
+- `field/regenerative-formation-scan-001.md`
+
+Doctrine updates:
+- `AGENTS.md` — new locked regenerative formation search rule.
+- `docs/FORMAL_TRUTH.md` — new locked regenerative formation object.
+
+Superseded downstream calibration only:
 - `docs/research/CLEAN_SLATE_COMMERCIAL_RESET_2026-09-19.md`
 - `data/clean_slate_value_flow_scan_001_2026-09-19.json`
 - `field/clean-slate-value-flow-scan-001.md`
+- `data/transaction_unit_validation_001_2026-09-19.json`
+- `field/transaction-unit-validation-001.md`
+- `field/bounded-executor-quote-request-001.md`
+- CSVF-001 / CSVF-002 / CSVF-003 and the Shanghai wine-shop unit.
 
-All pre-reset cases remain historical only.
+All older pre-reset commercial cases also remain historical only.
 
 ## Completed
-- Validated CSVF-001 with a current buyer unit and independent provider price.
-- CSVF-001 buyer price around RMB 500/project vs provider public price around RMB 150–300/video produces a theoretical gross calibration spread of RMB 200–350 before costs.
-- Downgraded CSVF-001 because the exact buyer already uses a mature freelancer marketplace; spread does not prove operator necessity.
-- Tested CSVF-002 against current project-routing and independent AI-supply evidence.
-- Killed CSVF-002 from the active set because the observed buyer-side actor is itself an intermediary and compatible same-scope provider economics are not bound.
-- Preserved the expired Polish exhibition task only as CSVF-003 calibration evidence.
-- Bound a fresh live CSVF-003 buyer task: Wine Services / Shanghai Wine Shop Survey.
-- Bound buyer economics: US$25 per complete satisfactory store, 21 stores, stated maximum US$525; US$6 for missed/incomplete locations.
-- Bound acceptance: readable shelf/label photos and inventory where possible.
-- Bound buyer credibility: about US$19K historical marketplace spend, 55 hires and 3 active hires.
-- Preserved source inconsistency: the fresh 2026 listing also displays a 2025 deadline, therefore deadline remains UNKNOWN.
-- Bound same-city execution supply: a Shanghai onsite provider publicly offers US$100 for up to 4 onsite hours and supports photo/video verification.
-- Refused to extrapolate a 4-hour price into 21-store full-scope cost.
-- Ran a final public-price search and found no trustworthy exact/near-exact public total quote for the 21-store scope.
-- Prepared `field/bounded-executor-quote-request-001.md` with the exact 21-store specification; it is NOT SENT.
-- Found additional repeatability evidence: Wine Services publicly describes recurring annual field/data collection across global markets including China/Shanghai; this strengthens buyer-side recurrence but does not establish our margin.
-- Sent no outreach.
+- Re-read the constitutional discovery documents before changing the active search direction.
+- Confirmed that the previous task-first clean-slate search contradicted the locked doctrine: explicit jobs/RFQs/tasks are downstream evidence, not core latent-value formation.
+- Created `REGENERATIVE_FLOW_DISCOVERY_RESET_2026-09-19.md`.
+- Locked into `AGENTS.md`:
+  - `EXPLICIT TASK != DISCOVERY SEED`;
+  - `ONE LIVE TRANSACTION != DEMAND PUMP`;
+  - `PRICE SPREAD != LATENT CONNECTION`;
+  - `BUYER BUDGET != FORMATION EVIDENCE`;
+  - `PROVIDER QUOTE != CONNECTION PRESSURE`;
+  - `RECURRING FOUNDER SEARCH != REGENERATIVE DEMAND`.
+- Locked the regenerative value-field object into `docs/FORMAL_TRUTH.md`.
+- Marked the recent Clean-Slate/CSVF/task-first artifacts explicitly `SUPERSEDED / HISTORICAL / DOWNSTREAM CALIBRATION ONLY`.
+- Reset active commercial candidates to 0 and active transaction units to 0.
+- Executed a fresh formation-first scan without using job/task feeds as seeds.
+- Persisted three formation zones:
+  - `RFZ-001` cross-generational industrial cognition × AI/digital execution;
+  - `RFZ-002` shared manufacturing capacity circulation;
+  - `RFZ-003` industrial byproduct/energy circular symbiosis.
+- Classified RFZ-002 and RFZ-003 as benchmark/maturing fields, not active business candidates.
+- Found broad current evidence that RFZ-001's component populations are large/replenishing:
+  - Jiangsu has 12,000+ silver professional talents in enterprise-support pools;
+  - national old-tech-worker programmes report 108,000 participants serving 12,000 enterprises and solving 40,000+ technical problems;
+  - Jiangsu plans 200,000+ AI training instances annually, including 50,000+ for youth.
+- Found repeated partial-flow evidence:
+  - senior experts repeatedly enter enterprises;
+  - silver experts train and jointly attack problems with young technical backbones;
+  - young internal teams convert AI tools into real enterprise operations;
+  - private-enterprise succession lets digitally capable younger family members enter traditional factories through pre-existing trust/access;
+  - manufacturers are beginning to pair senior tacit-process experts directly with AI engineers to capture know-how before retirement.
+- Found a deeper `人走技绝` signal: a 70+ manufacturing expert is working with AI engineers to distill decades of tacit process judgment into AI-callable knowledge before retirement.
+- Preserved two competing RFZ-001 missing-edge hypotheses rather than collapsing them.
+- Sent no outreach, designed no product and calculated no transaction margin.
 
 ## Current Findings
-- CSVF-001 = `UNIT_ECONOMICS_CALIBRATION_ONLY`.
-- CSVF-002 = `KILLED_FROM_ACTIVE_SET`.
-- CSVF-003 = `PRIMARY_TRANSACTION_UNIT`.
-- This live Shanghai task is the first post-reset unit with buyer, money and acceptance simultaneously bound.
-- Same-city execution supply exists, but compatible full-scope provider cost remains UNKNOWN.
-- Operator margin remains UNKNOWN.
-- The buyer already has 10–15 direct proposals on a mature marketplace, so introduction alone is not our durable value.
-- If economics survive, operator value must be managed execution: route decomposition, executor selection, evidence QA, replacement, consistency and one accountable outcome.
-- Buyer-side recurrence appears real: Wine Services runs recurring field/data collection across multiple markets, including China/Shanghai.
-- Public research has reached diminishing returns on exact executor pricing. The next evidence is a counterparty quote, not more generic browsing.
+- The previous “find a live paid task → find a provider → take spread” model is explicitly superseded as an upstream discovery method.
+- RFZ-002 shared manufacturing is a strong calibration example of the desired end-state: recurrent idle capacity + recurrent small-firm deficit + repeated flow + standardizable routing + recurring order cycles. Its generic missing edge is already being productized.
+- RFZ-003 circular industrial symbiosis is another strong regenerative benchmark: production continuously regenerates byproducts and input demand, but regulation/quality/logistics already shape the river.
+- RFZ-001 is the only active **formation zone**, not an opportunity.
+- RFZ-001 has strong evidence of durable potential-energy fields and partial flows, but the canonical recurring `MISSING_EDGE` is still UNKNOWN.
+- Family succession is an adjacent natural experiment: kinship supplies trust/access/context and shows what happens when young digital execution can actually enter an old industrial asset. It does not prove that a non-family commercial mechanism is viable.
+- `人走技绝` may be a deeper resource-state disequilibrium than generic senior employment: AI is changing the economic callability of tacit industrial cognition.
+- Current FDE / AI consultancy / digital-transformation / knowledge-management structures may already own all or part of the edge and must be treated as contradiction evidence.
+- No business vertical is selected.
 
 ## Blockers
-The live equation remains:
+RFZ-001 cannot promote until evidence distinguishes the competing missing-edge hypotheses.
 
-```text
-Buyer task = BOUND
-Buyer money = BOUND
-Acceptance = BOUND
-Same-city provider supply = BOUND
-Compatible 21-store provider cost = UNKNOWN
-Operator margin = UNKNOWN
-```
+Still UNKNOWN:
+1. whether enterprises repeatedly suffer a **trust/context assembly gap** between domain experts and AI/digital executors;
+2. whether they repeatedly suffer a **tacit-knowledge extraction/callability gap** around retirement/turnover;
+3. whether either gap survives current internal hiring, FDE, consulting, knowledge-management, expert-network and public-institution routes;
+4. whether the edge is similar enough across enterprises to standardize;
+5. whether recurrence is strong enough to form a real Demand Pump rather than a set of bespoke projects.
 
-A counterparty-specific executor quote is required.
+`ACTIVE COMMERCIAL CANDIDATES = 0`.
 
 `FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN`.
 
 ## Next Action
-Obtain one exact executor quote for the specification in `field/bounded-executor-quote-request-001.md`.
+Deepen `RFZ-001` by searching only for discriminating evidence at the workaround/failure layer:
+- retirement/turnover knowledge-loss events;
+- firms rehiring or retaining senior experts because knowledge cannot transfer;
+- AI/digital projects stalling because implementers lack tacit process/business context;
+- ad-hoc senior-expert + young/AI-engineer pairings;
+- family/insider trust acting as a substitute for the missing edge;
+- incumbent FDE / digital-transformation / knowledge-management routes that may already normalize the flow.
 
-This chat has not sent any external message. Do not calculate profit until the quote is bound. After a quote is available, persist the exact total cost, travel treatment, expected days, refusal pricing, start availability and replacement terms, then compute the first truthful operator-economics equation.
+Kill RFZ-001 if the evidence shows the flow is already normalized, the apparent edge is not recurring/standardizable, or family/internal authority is the non-transferable reason the precedents work.
+
+Do not search explicit buyer tasks, provider quotes, prices or gigs in the next stage.
 
 ## Do Not Repeat
-- Do not reactivate any pre-reset case.
-- Do not reopen CSVF-002 without a direct SME buyer and compatible provider quote.
-- Do not promote CSVF-001 merely because a gross spread exists.
-- Do not treat a marketplace listing as proof that our intermediary is needed.
-- Do not extrapolate a 4-hour provider price into a 21-store project cost.
-- Do not silently repair inconsistent source metadata.
-- Do not broaden CSVF-003 into professional interpretation, regulated inspection, debt collection, covert surveillance or unsafe errands.
-- Do not claim profit until same-scope provider cost is bound.
-- Do not continue generic web searching for a quote after public evidence has saturated.
-- Do not send external messages without explicit authorization and an available authorized interaction channel.
+- Do not reactivate CSVF-001/002/003 or the Shanghai wine-shop task as active discovery.
+- Do not start from job posts, gigs, tenders, RFQs, buyer budgets or provider quotes.
+- Do not treat one transaction as a Demand Pump.
+- Do not infer a latent connection from two complementary populations alone.
+- Do not design “retired experts + young AI” as a service before the missing edge is observed.
+- Do not turn RFZ-001 into an expert marketplace, gig platform, consulting offer or training product.
+- Do not treat policy programmes as independent commercial proof.
+- Do not confuse partial flow with an open market gap.
+- Do not collapse the two RFZ-001 missing-edge hypotheses.
+- Do not contact actors until one narrow decisive unknown remains after broad evidence.
+- Do not calculate pricing before downstream transaction projection is justified.
 
 ## Guardrails
 - GitHub live state is the operational source of truth.
 - `REALITY > COGNITION > SCHEMA`.
-- `HISTORICAL CASE != ACTIVE CANDIDATE`.
-- `PRICE SPREAD != OPERATOR MISSING EDGE`.
-- `SAME-CITY SUPPLY != SAME-SCOPE QUOTE`.
-- `BUYER + MONEY + ACCEPTANCE != PROFIT UNTIL PROVIDER COST IS BOUND`.
-- `INTRODUCTION != DURABLE ORCHESTRATION VALUE`.
+- `DEMAND DISCOVERY != LATENT VALUE FORMATION`.
+- `EXPLICIT TASK != DISCOVERY SEED`.
+- `ONE LIVE TRANSACTION != DEMAND PUMP`.
+- `COMPLEMENTARITY != LATENT CONNECTION`.
+- `CONNECTION HYPOTHESIS != CONNECTION PRESSURE EVIDENCE`.
+- `PARTIAL FLOW != OBSERVED MISSING EDGE`.
+- `PRICE SPREAD != LATENT CONNECTION`.
+- `REGENERATIVE EVENT FLOW > ONE-OFF TRANSACTION`.
 - `UNKNOWN != PASS`.
-- Infer broadly/boldly for discovery; promote conservatively.
+- Infer broadly and fluidly; promote conservatively.
