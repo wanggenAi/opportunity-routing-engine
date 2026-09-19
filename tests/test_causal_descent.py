@@ -73,6 +73,10 @@ class CausalDescentTests(unittest.TestCase):
             constraint_hypotheses=constraints,
             lead_constraint_ids=("C1",),
             stop_reason=CausalStopReason.INTERVENTION_RELEVANT_BOUNDARY,
+            stop_rationale=(
+                "the current causal frontier is already specific enough to change "
+                "which interface or capability must be tested next"
+            ),
             decisive_unknown="",
             probe_eligible=False,
         )
