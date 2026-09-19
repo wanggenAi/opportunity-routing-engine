@@ -186,6 +186,7 @@ class LatentValueFormationHypothesis:
     )
     alternative_explanations: tuple[str, ...] = ()
     resource_state_disequilibrium: str = ""
+    persistent_mismatch: str = ""
     causal_descent: CausalDescentRecord | None = None
     connection_pressure_hypothesis: str = ""
     observed_missing_edge: str = ""
@@ -200,7 +201,6 @@ _REQUIRED_TEXT_FIELDS = (
     "actor_segment",
     "geography",
     "observed_state",
-    "observed_change",
     "underused_or_misaligned_value",
     "observed_behavior",
     "latent_outcome_hypothesis",
@@ -222,7 +222,6 @@ _VALIDATION_EVIDENCE_KINDS = frozenset(
     {
         FormationEvidenceKind.OBJECTIVE_ENDOWMENT,
         FormationEvidenceKind.ORIGIN_STATE,
-        FormationEvidenceKind.ORIGIN_CHANGE,
         FormationEvidenceKind.UNDERUSE_MISALIGNMENT,
         FormationEvidenceKind.OBSERVED_BEHAVIOR,
         FormationEvidenceKind.STRUCTURAL_FRICTION,
@@ -311,6 +310,18 @@ def validate_formation(
         if not isinstance(value, str) or not value.strip():
             errors.append(f"missing:{name}")
 
+    if not (
+        hypothesis.observed_change.strip()
+        or hypothesis.persistent_mismatch.strip()
+    ):
+        errors.append("missing:observed_change_or_persistent_mismatch")
+
+    if (
+        hypothesis.observed_change.strip()
+        and FormationEvidenceKind.ORIGIN_CHANGE not in evidence_kinds(hypothesis)
+    ):
+        errors.append("missing:evidence_kind:ORIGIN_CHANGE")
+
     if not hypothesis.objective_endowments:
         errors.append("missing:objective_endowments")
     elif any(
@@ -387,7 +398,6 @@ def formation_state(hypothesis: LatentValueFormationHypothesis) -> FormationStat
     objective_core = {
         FormationEvidenceKind.OBJECTIVE_ENDOWMENT,
         FormationEvidenceKind.ORIGIN_STATE,
-        FormationEvidenceKind.ORIGIN_CHANGE,
     }.issubset(kinds)
 
     if not objective_core or not hypothesis.objective_endowments:
@@ -523,6 +533,7 @@ def to_latent_value_candidate(
         actor=hypothesis.actor_segment,
         observed_state=hypothesis.observed_state,
         observed_change=hypothesis.observed_change,
+        persistent_mismatch=hypothesis.persistent_mismatch,
         hidden_or_underrecognized_value=hypothesis.underused_or_misaligned_value,
         why_value_is_not_recognized_or_realized=(
             hypothesis.resource_state_disequilibrium
@@ -571,6 +582,8 @@ def to_latent_value_candidate(
 
 GOVERNING_INVARIANTS = (
     "OBJECTIVE_RESOURCE_NE_UTILIZED_RESOURCE",
+    "RECENT_CHANGE_NE_UNIVERSAL_DISCOVERY_GATE",
+    "PERSISTENT_STRUCTURAL_MISMATCH_MAY_BE_DISCOVERY_EVIDENCE",
     "PSYCHOLOGY_SIGNAL_NE_DEMAND",
     "PSYCHOLOGY_EVIDENCE_NE_UNIVERSAL_FORMATION_GATE",
     "OBJECTIVE_CAUSAL_EVIDENCE_MAY_FORM_STRUCTURE_WITHOUT_PSYCHOLOGY",
