@@ -59,12 +59,16 @@ That reasoning is a hypothesis, not evidence that a business or even the connect
 
 The central principle is:
 
-> **Demand does not have to exist first, and a visible pain point does not have to reveal the true commercial structure. The conditions from which value may emerge can exist first. The system may infer a product-agnostic latent outcome and the deeper structural friction that prevents an actor from reaching it; it must label that inference honestly, corroborate it, and only then search complementary nodes broadly. It must still discover evidence that reality is exerting pressure toward a connection before that connection is promoted. Only then may it design the minimum exchange mechanics and let reality confirm or falsify the remaining uncertainty.**
+> **Demand does not have to exist first, and neither a visible pain point nor the Actor's stated request is assumed to reveal the true commercial structure. The conditions from which value may emerge can exist first. The system may generate competing product-agnostic outcome hypotheses and recursively descend through competing causal explanations; it must preserve falsifiers, discriminating evidence and an explicit stop rule, and only an evidenced decision-useful causal frontier may drive formal promotion. It must still discover real connection pressure and a distinct inter-node missing edge before exchange mechanics are designed.**
 
 Therefore:
 
 ```text
 SURFACE FRICTION != STRUCTURAL FRICTION
+STATED NEED != LATENT OUTCOME
+LATENT OUTCOME HYPOTHESIS != EVIDENCED LATENT OUTCOME
+ONE PLAUSIBLE EXPLANATION != STRUCTURAL TRUTH
+DEEPER STORY != DEEPER TRUTH
 STRUCTURAL FRICTION HYPOTHESIS != EVIDENCED STRUCTURAL FRICTION
 STRUCTURAL FRICTION != MISSING EDGE
 BUYER COST FIRST != CONSTITUTION
@@ -113,21 +117,21 @@ Either actor may simultaneously be:
 
 `NEED_ACTOR` and `RESOURCE_OWNER` are roles, not permanent identities.
 
-## 4. Resource–Psychology Disequilibrium is first-class
+## 4. Resource / State / Psychology Disequilibrium is first-class
 
-A primary discovery zone is the mismatch between what an actor objectively has and what the actor's current psychology, behavior, environment and available routes allow those resources to become.
+A primary discovery zone is the mismatch between what an actor objectively has and what the actor's current state, behavior, psychology when relevant, environment and available routes allow those resources to become. Psychology is a useful causal sensor, not a universal prerequisite.
 
 ```text
 OBJECTIVE ENDOWMENT
 +
 STATE / STATE CHANGE
 +
-PERCEPTION / MOTIVE
+PERCEPTION / MOTIVE WHEN RELEVANT
 +
 OBSERVED BEHAVIOR
 +
 UNDERUSE / MISALIGNMENT
-→ RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
+→ RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM
 ```
 
 This may appear as:
@@ -141,6 +145,12 @@ This may appear as:
 - relationships without a mechanism that converts trust into accepted outcomes.
 
 These are search zones, not automatically opportunities or connections.
+
+Psychology may be absent in an otherwise valid structural formation. Objective behavior, process, institutional, technical, rights/access, trust or economic evidence may establish the blocked transition directly.
+
+```text
+NO PSYCHOLOGY SIGNAL != NO STRUCTURAL FRICTION
+```
 
 ## 5. Latent value and unformed outcomes are first-class
 
@@ -174,17 +184,21 @@ STRUCTURAL FRICTION
 MISSING EDGE
 ```
 
-The engine must use causal descent:
+The engine must use recursive causal descent:
 
 ```text
 OBSERVED EVENT
-→ what state is the Actor actually trying to reach or avoid?
-→ product-agnostic LATENT / UNFORMED OUTCOME
-→ what deeper condition prevents that state transition?
-→ STRUCTURAL FRICTION HYPOTHESIS
-→ alternative explanations + contradiction search
+→ competing hypotheses about the state the Actor is trying to reach or avoid
+→ competing product-agnostic LATENT / UNFORMED OUTCOMES
+→ competing structural conditions that may prevent the transition
+→ deeper child constraints where evidence warrants
+→ discriminating evidence + contradictions + falsifiers
+→ explicit causal stop reason
+→ deepest decision-useful falsifiable causal frontier
 → EVIDENCED STRUCTURAL FRICTION
 ```
+
+Do not assume a single root cause. A structural frontier may remain multi-causal.
 
 A structural friction may be invisible in the actor's own stated language. For example, “cannot find suitable work” may expose a deeper inability to convert bounded capability/time into trusted paid outcomes without a full employment package. “Capacity shortage” may expose a deeper inability to call trusted elastic capacity under quality/IP/acceptance constraints. These examples are hypotheses until corroborated.
 
@@ -212,10 +226,12 @@ WORLD SENSING
 -> PERCEPTION / MOTIVE
 -> OBSERVED BEHAVIOR
 -> SURFACE PHENOMENON / SURFACE FRICTION / UNDERUSE / CONTRADICTION
--> RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
--> LATENT / UNFORMED OUTCOME HYPOTHESIS
--> STRUCTURAL FRICTION HYPOTHESIS
--> CROSS-EVIDENCE / ALTERNATIVE-EXPLANATION SEARCH
+-> RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM
+-> COMPETING LATENT / UNFORMED OUTCOME HYPOTHESES
+-> RECURSIVE CAUSAL DESCENT
+-> COMPETING STRUCTURAL FRICTION HYPOTHESES
+-> DISCRIMINATING EVIDENCE / FALSIFIERS / CONTRADICTION SEARCH
+-> DECISION-USEFUL CAUSAL FRONTIER
 -> EVIDENCED STRUCTURAL FRICTION
 -> COMPLEMENTARY WORLD-NODE SEARCH
 -> CONNECTION-PRESSURE EVIDENCE
@@ -237,11 +253,11 @@ They must not shrink the engine into an explicit supply-demand matcher.
 
 Human outreach, calls and field visits are not the default discovery algorithm. They are scarce validation capital. A bounded probe may occur before a missing edge is fully public when broad sensing has already established a real actor/state pattern, a bounded structural-friction hypothesis and one decisive unresolved causal fact. Such a case must be marked `DECISIVE_UNKNOWN / PROBE_ELIGIBLE`; the probe tests the narrow causal unknown and does not itself promote a business.
 
-## 7. Psychology & Behavior Engineering is upstream of product ideas
+## 7. Psychology & Behavior Engineering is an optional upstream causal sensor
 
 The psychology system is not merely a social-media complaint miner.
 
-It helps reconstruct:
+When psychology is relevant, it helps reconstruct:
 
 ```text
 WHO / ACTOR SEGMENT
@@ -252,7 +268,7 @@ WHO / ACTOR SEGMENT
 → MOTIVE / FEAR / ASPIRATION
 → OBSERVED BEHAVIOR
 → CONTRADICTION
-→ RESOURCE–PSYCHOLOGY DISEQUILIBRIUM
+→ RESOURCE / STATE / PSYCHOLOGY DISEQUILIBRIUM
 → POSSIBLE UNFORMED OUTCOME
 ```
 
