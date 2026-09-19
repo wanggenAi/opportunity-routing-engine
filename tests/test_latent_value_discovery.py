@@ -39,6 +39,20 @@ class LatentValueDiscoveryTests(unittest.TestCase):
                 "the knowledge may be too context-specific to abstract",
                 "existing service providers may already package the relevant capability adequately",
             ),
+            causal_descent_record_id="CD-FACTORY-KNOWLEDGE-001",
+            causal_stop_reason="INTERVENTION_RELEVANT_BOUNDARY",
+            connection_pressure_hypothesis=(
+                "repeated expert dependence and ad-hoc referral behavior show value already "
+                "trying to move from person-bound knowledge toward external users"
+            ),
+            observed_missing_edge=(
+                "rights-cleared packaging, trust, proof and acceptance are not available "
+                "as a normal interface between the expert knowledge and external users"
+            ),
+            latent_connection_hypothesis=(
+                "rights-cleared tacit diagnostic knowledge can become a callable bounded "
+                "capability for external users when proof and acceptance are standardized"
+            ),
             evidence=(
                 EvidenceRef("origin", "person-bound knowledge observed", EvidenceKind.ORIGIN_STATE),
                 EvidenceRef(
@@ -47,7 +61,16 @@ class LatentValueDiscoveryTests(unittest.TestCase):
                     EvidenceKind.STRUCTURAL_FRICTION,
                 ),
                 EvidenceRef("complement", "counterparty state observed", EvidenceKind.COMPLEMENTARY_STATE),
-                EvidenceRef("barrier", "packaging or rights barrier observed", EvidenceKind.STRANDING_BARRIER),
+                EvidenceRef(
+                    "pressure",
+                    "repeated workarounds and referrals show actors already trying to cross the boundary",
+                    EvidenceKind.CONNECTION_PRESSURE,
+                ),
+                EvidenceRef(
+                    "barrier",
+                    "packaging or rights barrier blocks the observed partial flow",
+                    EvidenceKind.MISSING_EDGE,
+                ),
             ),
         )
         payload.update(overrides)
@@ -85,8 +108,35 @@ class LatentValueDiscoveryTests(unittest.TestCase):
         errors = validate_candidate(candidate)
         self.assertIn("missing:evidence_kind:ORIGIN_STATE", errors)
         self.assertIn("missing:evidence_kind:COMPLEMENTARY_STATE", errors)
-        self.assertIn("missing:evidence_kind:STRANDING_BARRIER", errors)
+        self.assertIn("missing:evidence_kind:CONNECTION_PRESSURE", errors)
+        self.assertIn("missing:evidence_kind:MISSING_EDGE", errors)
         self.assertEqual(discovery_state(candidate), DiscoveryState.STRUCTURAL_FRICTION_HYPOTHESIS)
+
+    def test_connection_truth_is_required_before_exchange_mechanics(self):
+        candidate = self._candidate(
+            connection_pressure_hypothesis="",
+            observed_missing_edge="",
+            latent_connection_hypothesis="",
+        )
+        errors = validate_candidate(candidate)
+        self.assertIn("missing:connection_pressure_hypothesis", errors)
+        self.assertIn("missing:observed_missing_edge", errors)
+        self.assertIn("missing:latent_connection_hypothesis", errors)
+        self.assertEqual(
+            discovery_state(candidate),
+            DiscoveryState.COMPLEMENTARITY_HYPOTHESIS,
+        )
+
+    def test_exchange_mechanics_can_remain_empty_after_connection_is_evidenced(self):
+        candidate = self._candidate(
+            transformation_mechanism="",
+            why_exchange_does_not_already_happen="",
+        )
+        self.assertEqual(
+            discovery_state(candidate),
+            DiscoveryState.LATENT_CONNECTION_EVIDENCED,
+        )
+        self.assertIn("missing:transformation_mechanism", validate_candidate(candidate))
 
     def test_explicit_demand_execution_is_not_core_latent_value_discovery(self):
         candidate = self._candidate(source_mode="EXPLICIT_DEMAND")
