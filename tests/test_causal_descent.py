@@ -279,20 +279,24 @@ class CausalDescentTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "probe_eligible must be a boolean"):
             causal_descent_from_mapping(raw)
 
-    def test_recursive_depth_cannot_skip_a_layer(self):
+    def test_recursive_depth_may_skip_numbers_without_fabricating_layers(self):
         causal = self._record()
         child = StructuralConstraintHypothesis(
             constraint_id="C3",
             outcome_id="OUTCOME-1",
             depth=3,
             parent_constraint_id="C1",
-            causal_claim="a deeper but discontinuous explanation",
-            mechanism="depth cannot jump over an unrepresented causal layer",
+            causal_claim="a deeper explanation discovered without an artificial middle layer",
+            mechanism="parentage and relative depth carry the causal ordering",
         )
         record = self._record(
             constraint_hypotheses=causal.constraint_hypotheses + (child,)
         )
-        self.assertIn(
+        self.assertNotIn(
+            "constraint_depth_not_deeper_than_parent:C3",
+            validate_causal_descent(record),
+        )
+        self.assertNotIn(
             "constraint_depth_skips_recursive_layer:C3",
             validate_causal_descent(record),
         )
