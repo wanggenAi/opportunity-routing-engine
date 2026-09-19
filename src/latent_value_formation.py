@@ -48,6 +48,7 @@ from src.causal_descent import (
     CausalDescentState,
     causal_descent_state,
     validate_causal_descent_for_promotion,
+    validate_causal_projection,
 )
 from src.latent_value_discovery import (
     EvidenceKind,
@@ -359,6 +360,15 @@ def validate_formation(
             hypothesis.causal_descent
         ):
             errors.append(f"causal_descent:{causal_error}")
+        for projection_error in validate_causal_projection(
+            hypothesis.causal_descent,
+            actor=hypothesis.actor_segment,
+            current_state=hypothesis.observed_state,
+            surface_phenomenon=hypothesis.surface_phenomenon_or_friction,
+            latent_outcome_hypothesis=hypothesis.latent_outcome_hypothesis,
+            structural_friction_hypothesis=hypothesis.structural_friction_hypothesis,
+        ):
+            errors.append(f"causal_descent:{projection_error}")
 
     if any(
         not isinstance(value, str) or not value.strip()
@@ -432,6 +442,14 @@ def formation_state(hypothesis: LatentValueFormationHypothesis) -> FormationStat
         and causal_descent_state(hypothesis.causal_descent)
         is CausalDescentState.EVIDENCED_STRUCTURAL_FRICTION
         and not validate_causal_descent_for_promotion(hypothesis.causal_descent)
+        and not validate_causal_projection(
+            hypothesis.causal_descent,
+            actor=hypothesis.actor_segment,
+            current_state=hypothesis.observed_state,
+            surface_phenomenon=hypothesis.surface_phenomenon_or_friction,
+            latent_outcome_hypothesis=hypothesis.latent_outcome_hypothesis,
+            structural_friction_hypothesis=hypothesis.structural_friction_hypothesis,
+        )
     ):
         return FormationState.STRUCTURAL_FRICTION_HYPOTHESIS
 
@@ -506,6 +524,27 @@ def to_latent_value_candidate(
     if formation_state(hypothesis) is not FormationState.VALIDATION_READY:
         raise ValueError("formation must be VALIDATION_READY before projection")
 
+    causal = hypothesis.causal_descent
+    if causal is None:
+        raise ValueError("validated formation unexpectedly lacks causal_descent")
+    outcomes = {item.outcome_id: item for item in causal.outcome_hypotheses}
+    selected_outcome = outcomes[causal.selected_outcome_id]
+    constraints = {
+        item.constraint_id: item for item in causal.constraint_hypotheses
+    }
+    lead_constraints = [
+        constraints[item]
+        for item in causal.lead_constraint_ids
+    ]
+    structural_projection = " + ".join(
+        item.causal_claim for item in lead_constraints
+    )
+    alternative_projection = tuple(
+        item.causal_claim
+        for item in causal.constraint_hypotheses
+        if item.constraint_id not in set(causal.lead_constraint_ids)
+    )
+
     nodes = [node for node in hypothesis.complementary_nodes if node.is_usable()]
     node_hypothesis = "; ".join(
         f"{node.node_type}:{node.node_id} -> {node.contribution_hypothesis}"
@@ -528,7 +567,7 @@ def to_latent_value_candidate(
     return LatentValueCandidate(
         candidate_id=hypothesis.candidate_id,
         actor=hypothesis.actor_segment,
-        observed_state=hypothesis.observed_state,
+        observed_state=causal.current_state,
         observed_change=hypothesis.observed_change,
         persistent_mismatch=hypothesis.persistent_mismatch,
         hidden_or_underrecognized_value=hypothesis.underused_or_misaligned_value,
@@ -553,12 +592,12 @@ def to_latent_value_candidate(
         ),
         cheapest_decisive_validation=hypothesis.cheapest_decisive_validation,
         kill_conditions=hypothesis.kill_conditions,
-        surface_phenomenon_or_friction=hypothesis.surface_phenomenon_or_friction,
-        latent_outcome_hypothesis=hypothesis.latent_outcome_hypothesis,
-        structural_friction_hypothesis=hypothesis.structural_friction_hypothesis,
+        surface_phenomenon_or_friction=causal.surface_phenomenon,
+        latent_outcome_hypothesis=selected_outcome.statement,
+        structural_friction_hypothesis=structural_projection,
         structural_friction_truth_state=hypothesis.structural_friction_truth_state.value,
-        alternative_explanations=hypothesis.alternative_explanations,
-        causal_descent=hypothesis.causal_descent,
+        alternative_explanations=alternative_projection,
+        causal_descent=causal,
         causal_descent_record_id=(
             hypothesis.causal_descent.record_id
             if hypothesis.causal_descent is not None
