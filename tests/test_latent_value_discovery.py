@@ -46,6 +46,10 @@ class LatentValueDiscoveryTests(unittest.TestCase):
                 ),
             ),
             selected_outcome_id="OUTCOME-FACTORY-KNOWLEDGE",
+            outcome_selection_rationale=(
+                "observed choices and sacrifices fit this product-agnostic state "
+                "transition better than the nearby alternative explanations"
+            ),
             constraint_hypotheses=(
                 StructuralConstraintHypothesis(
                     constraint_id="C-PACKAGING",
