@@ -86,37 +86,40 @@ Required questions:
 
 ## Current Phase
 
-REGENERATIVE_FORMATION_SCAN_019_RESEARCH_PERSISTED / LEGACY_TECHNICAL_LINEAGE_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO / PR_PENDING
+REGENERATIVE_FORMATION_SCAN_019_MERGED / MAIN_GREEN / LEGACY_TECHNICAL_LINEAGE_RETAINED_FOR_CAUSAL_DESCENT / COMMERCIAL_CANDIDATES_ZERO / SCAN_020_CAUSAL_DESCENT_NEXT
 
 ## Last Verified Main
 
-Live main at branch creation includes state-only checkpoint `493331966a6799be5aa52dd0c6c68176adfdd2e7` after Scan 018.
+Functional main: `24dd50df79fb5783aae20d21b90619cd497a30ce` — PR #259 squash-merged.
 
-Last verified functional main: `702928b0efdbea89046f5496a8158ce3b7c7411a` — PR #258 squash-merged.
+PR CI #782 (run id `35434556467`): success.
 
-PR CI #780 (run id `35434376509`): success.
+Main CI #783 (run id `35434592507`): success on that exact functional SHA.
 
-Main CI #781 (run id `35434408107`): success.
+A later state-only `[skip ci]` checkpoint may advance live main without changing functional truth.
 
 ## Active Issue
 
 #143 — P0: First external value flow — field proof, not more architecture.
 
-Scan 018 final verdict synced in comment id `5740732944`.
+Scan 019 final status synced in comment id `5740751041`.
 
 No outreach is authorized.
 
 ## Active Branch
 
-`feature/regenerative-formation-scan-019-legacy-technical-lineage`
+None. `feature/regenerative-formation-scan-019-legacy-technical-lineage` is merged and is not an active source of truth.
 
 ## Active PR
 
-To be created for Scan 019.
+None. PR #259 — `Retain legacy technical lineage for causal descent` — is merged.
 
 ## CI
 
-No Scan 019 PR-head CI yet. Require green before merge.
+- PR #259 head: `cea8cad15100b01986f475120e877d7faaca84ce`
+- PR CI #782 (run id `35434556467`): success
+- merge SHA: `24dd50df79fb5783aae20d21b90619cd497a30ce`
+- main CI #783 (run id `35434592507`): success
 
 ## Latest Artifact / Persisted State
 
