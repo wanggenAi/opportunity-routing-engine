@@ -106,10 +106,10 @@ Xiaozhi/Bearhome:
 
 ## Last Verified Main
 
-`433108d0eb5ae8674a0b9fdc652752e92191b8ed`
-— squash merge of PR #300, `Advance Scan 015 F1 Gate A to Wave 1 sent state`.
+`5070f02401dffcb6b3bf612f23eb61ce93f86007`
+— squash merge of PR #301, `Sync recovery checkpoint after Wave 1 sent`.
 
-PR #300 head CI #882 passed before merge.
+PR #301 head CI #884 passed before merge.
 
 ## Active Issue
 
@@ -117,11 +117,11 @@ PR #300 head CI #882 passed before merge.
 
 ## Active Branch
 
-None. Current canonical state is on `main`.
+`feature/scan015-f1-provider-response-intake`
 
 ## Active PR
 
-None. PR #300 is merged.
+Not opened yet for provider-response intake checkpoint.
 
 ## CI
 
@@ -138,6 +138,7 @@ PR #297 / CI #876 succeeded.
 PR #298 / CI #878 succeeded.
 PR #299 / CI #880 succeeded.
 PR #300 / CI #882 succeeded.
+PR #301 / CI #884 succeeded.
 
 ## Latest Artifact / Persisted State
 
@@ -181,11 +182,12 @@ Engineering:
 - PR #298 Gate A Wave 1 outreach-readiness checkpoint is merged and green.
 - PR #299 recovery checkpoint is merged and green.
 - PR #300 Wave 1 sent-state checkpoint is merged and green.
-- No engineering blocker remains.
+- PR #301 recovery checkpoint is merged and green.
+- Current provider-response intake checkpoint PR/CI is not yet complete.
 
 Research:
 1. public docs prove technical post-inspection/payment outcome visibility on at least Suhuanji and Xiaozhi, but cross-rail comparison/retention/derived-model rights remain UNKNOWN; same-layer public rights search has reached a useful ceiling;
-2. Wave 1 was sent on 2026-09-20 to Aihuishou and Xiaozhi/Bearhome; obtain and classify written confirmation from at least two overlapping 3C rails that anonymous outcome data may be retained and used for future routing; vague cooperation/API-access language does not pass;
+2. Wave 1 was sent on 2026-09-20 to Aihuishou and Xiaozhi/Bearhome; current Gmail check shows no replies and no delivery-failure notice; obtain and classify written confirmation from at least two overlapping 3C rails that anonymous outcome data may be retained and used for future routing; vague cooperation/API-access language does not pass;
 3. Suhuanji now has explicit valuation→quote→payment/time technical closure and same-parent-domain identity linkage, but its verified Open Platform business email/phone endpoint remains unresolved;
 4. production onboarding is not zero-friction: Xiaozhi requires enterprise qualification and Aihuishou channel settlement requires VAT invoicing capability;
 5. a deeper neutral-incumbent search must not reveal the exact realized-payout graph;
@@ -204,7 +206,7 @@ Scan 015 PR #288 is merged and green.
 
 Gate A public technical falsification is complete with `PARTIAL_PASS_RIGHTS_UNKNOWN`.
 
-Wave 1 was sent on 2026-09-20 to Aihuishou and Xiaozhi/Bearhome. The full Wave 2 questionnaire and pass/fail response rubric are ready. Public-rights search has reached its useful ceiling. Gate B discovery preflight is prepared but unpublished. The single best next decisive action is to receive and classify official written provider responses. No Gate B transaction execution before Gate A rights are bounded.
+Wave 1 was sent on 2026-09-20 to Aihuishou and Xiaozhi/Bearhome. No reply or delivery failure is currently observed. The provider-response intake state, full Wave 2 questionnaire and pass/fail response rubric are ready. Public-rights search has reached its useful ceiling. Gate B discovery preflight is prepared but unpublished. The single best next decisive action is to receive and classify the first actual official written provider response. No Gate B transaction execution before Gate A rights are bounded.
 
 The remaining bounded validations are:
 
@@ -249,6 +251,7 @@ Kill F1 if either hard gate fails.
 - Do not promote because the idea feels attractive.
 - Do not mark a draft as sent, a sent message as permission, or silence as rights failure.
 - Do not infer provider response until an actual inbound message exists.
+- Preserve raw provider wording/message identity separately from R1–R8 interpretation.
 
 ## Guardrails
 
