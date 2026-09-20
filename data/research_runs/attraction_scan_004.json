@@ -1,0 +1,111 @@
+{
+  "schema_version": "attraction-scan.v2",
+  "scan_id": "ATTRACTION_SCAN_004",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-20",
+  "status": "COMPLETE",
+  "search_mode": "CLEAN_SLATE_ATTRACTION_FIRST_CHAINED_WEB_RESEARCH",
+  "inherited_case_inputs": [],
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_004-F1",
+      "title": "LEGACY EQUIPMENT HARVEST PARTS GRAPH",
+      "chinese_title": "工业旧设备器官库",
+      "state": "HIGH_ATTRACTION_BEACON_RETAINED_FOR_CAUSAL_DESCENT",
+      "attraction_profile": {
+        "a_voluntary_motion": 3,
+        "b_voluntary_motion": 3,
+        "state_dependent_value_jump": 3,
+        "decision_window": 3,
+        "bridge_compression": 2,
+        "activation_ease": 2,
+        "self_propulsion": 2,
+        "operator_control": 2
+      },
+      "pareto_frontier": true,
+      "commercial_candidate": false,
+      "mechanism": "retiring or idle parent machines become searchable donor-part reservoirs for still-operating compatible legacy equipment",
+      "observed_motion": [
+        "2026 China equipment-renewal and circular-use policy increases retired-equipment flow",
+        "public auctions and used-equipment markets expose active disposal supply",
+        "current legacy-equipment operators use emergency spares, shared parts libraries, used parts, local replacement and reverse engineering"
+      ],
+      "residual_missing_edge": "cross-source parent-machine to harvestable-component to compatible-installed-machine graph with condition and verification state",
+      "incumbent_credit": [
+        "whole-machine used-equipment marketplaces",
+        "industrial auction platforms",
+        "MRO and OEM spare networks",
+        "specialist DCS PLC spare libraries",
+        "used dismantled-parts dealers",
+        "reverse engineering and on-demand manufacturing"
+      ],
+      "global_mechanism_analogue": "SurplusGLOBAL / SemiMarket semiconductor Harvest Parts and tool-part relationship model",
+      "next_decisive_unknowns": [
+        "one live China-side hard-to-find or discontinued non-safety-critical part situation",
+        "one independently located compatible donor machine or donor component",
+        "harvest feasibility and economics",
+        "evidence-based compatibility without bespoke founder diagnosis",
+        "delegated condition testing",
+        "buyer acceptance of verified donor parts",
+        "initial equipment-family density",
+        "China incumbent coverage of the exact cross-source graph"
+      ]
+    }
+  ],
+  "pareto_frontier": [
+    "ATTRACTION_SCAN_004-F1"
+  ],
+  "hard_floor_demotions": [
+    {
+      "direction": "GENERIC_INDUSTRIAL_DOWNTIME_RECOVERY_ROUTER",
+      "reason": "too broad; diagnosis and multi-path engineering judgment create operator-labor risk"
+    },
+    {
+      "direction": "COMPUTE_CAPACITY_POOLING",
+      "reason": "national and regional compute platforms already target distributed and idle capacity"
+    },
+    {
+      "direction": "FLEXIBLE_ENERGY_VPP",
+      "reason": "strong economic energy but regulation integration qualification and incumbent scale reduce operator accessibility"
+    },
+    {
+      "direction": "SHARED_MANUFACTURING",
+      "reason": "current platforms already aggregate capacity at meaningful scale"
+    },
+    {
+      "direction": "SCIENTIFIC_INSTRUMENT_SHARING",
+      "reason": "government and university sharing platforms already provide access and pricing"
+    },
+    {
+      "direction": "PARKING_CHARGER_TIME_SHARING",
+      "reason": "local permission density plus active government and platform programs"
+    },
+    {
+      "direction": "OVERSEAS_RETURNED_INVENTORY_LIQUIDATION",
+      "reason": "overseas warehouse providers already offer resale consignment wholesale liquidation and destruction"
+    },
+    {
+      "direction": "OVERSEAS_FIELD_SERVICE_NETWORK",
+      "reason": "third-party networks dispatch SaaS local parts pools and brand service centers already exist"
+    },
+    {
+      "direction": "ENTERPRISE_TECHNICAL_BOUNTY",
+      "reason": "institutional matchmaking exists and delivery remains project expert labor"
+    },
+    {
+      "direction": "ELDERCARE_CAPACITY_ROUTING",
+      "reason": "trust staffing clinical insurance and local operations make the bridge too wide"
+    }
+  ],
+  "truth_boundaries": [
+    "HIGH_ATTRACTION_BEACON_NE_COMMERCIAL_CANDIDATE",
+    "GLOBAL_ANALOGUE_NE_CHINA_DEMAND_PROOF",
+    "SEARCH_ABSENCE_NE_PROVEN_MARKET_GAP",
+    "USED_EQUIPMENT_MARKETPLACE_NE_HARVEST_PARTS_GRAPH",
+    "GENERIC_REPAIR_NE_ROUTING_CONTROL",
+    "UNKNOWN_NE_PASS"
+  ],
+  "next_action": "PUBLIC_ARTIFACT_FALSIFICATION_ONE_LIVE_PART_TO_INDEPENDENT_DONOR_ROUTE",
+  "first_external_value_flow": "NOT_PROVEN"
+}
