@@ -14,6 +14,30 @@ VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
 ```
 
+## Goal
+
+Keep broad current-reality discovery running continuously while each retained formation
+is validated independently. Preserve hard gates: discoverability, match resolvability,
+callable action, non-generic edge, operator non-labor and real economics.
+
+## Current Unique Commercial Research Goal
+
+There is no single vertical-specific goal while parallel discovery is active.
+
+The portfolio goal is:
+
+```text
+BROAD CURRENT REALITY
+→ HIGH-ATTRACTION BEACONS
+→ CHEAP DECISIVE FALSIFICATION
+→ INDEPENDENT VALIDATION QUEUES
+→ FIRST REAL EXTERNAL VALUE FLOW
+```
+
+Current bounded formation proofs:
+- Scan 015-F1: written cross-rail outcome-data rights + organic inbound intent.
+- Scan 016-F1: two real 9610 cross-customs return rails + non-consulting operator economics.
+
 ## Current Phase
 
 `PARALLEL_DISCOVERY_AND_VALIDATION`
@@ -101,6 +125,40 @@ Next:
 Scan 017 must restart from broad current reality. It must not use used-device recycling
 or 9610 reverse logistics as required verticals, priors or default search terms.
 
+## Completed
+
+- kept Scan 015-F1 in its provider-response validation queue;
+- completed independent broad Scan 016 across eight unrelated current-reality lanes;
+- retained only Scan 016-F1 for cheap falsification;
+- removed used-device-specific seeds from the broad-reality mission;
+- persisted Scan 016 research state and parallel portfolio state;
+- added regression tests for broad-scan non-inheritance.
+
+## Current Findings
+
+- waiting on one provider does not justify pausing discovery;
+- 2026 nationwide 9610 cross-customs returns create a newly movable legal route choice;
+- generic reverse-logistics optimization is already platformized, so only the narrow
+  China re-entry routing edge remains worth testing;
+- private charging, VPP, elderly voucher routing, AI compliance, domestic services,
+  gig matching and insurance routing failed current hard-floor tests.
+
+## Blockers
+
+Engineering:
+- PR #304 CI #890 failed because the mission parser rejects an added top-level field
+  and TASK_STATE omitted required recovery headings; both are being corrected on the
+  same branch.
+
+Research:
+- Scan 015-F1 still has zero compatible written provider confirmations.
+- Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return
+  rails and operator economics that do not collapse to consulting/lead generation.
+
+Commercial:
+- no commercial candidate;
+- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN.
+
 ## Last Verified Main
 
 `9b88785b0138b6c309cf8a63d579cb73796fe756`
@@ -116,9 +174,14 @@ or 9610 reverse logistics as required verticals, priors or default search terms.
 
 ## Active PR
 
-Not opened yet for Scan 016.
+#304 — `Run Scan 016 in parallel with provider-response validation`.
 
-## Latest Durable Artifacts
+## CI
+
+PR #304 / CI #890 failed on recovery-contract/schema compatibility and is being fixed.
+No business-truth failure was observed in that run.
+
+## Latest Artifact / Persisted State
 
 New on current branch:
 - `docs/research/ATTRACTION_SCAN_016_2026-09-20.md`
@@ -144,6 +207,20 @@ ACTIVE_FORMATION_VERTICAL_MUST_NOT_SEED_NEW_BROAD_SCAN
 ```
 
 Generic structural learnings may survive. Candidate-specific vertical priors may not.
+
+## Guardrails
+
+- GitHub live state wins.
+- Attraction first for attention; evidence first for truth.
+- Validation latency must not freeze discovery.
+- Active candidate verticals must not seed the next broad scan.
+- A_VISIBLE + B_VISIBLE + MATCH_RESOLVABLE remains required.
+- ACTION_GATE_CALLABILITY remains a hard floor.
+- GENERIC_AGENT_SUBSTITUTABILITY remains a hard kill.
+- NO_RECURRING_FOUNDER_ACQUISITION.
+- NO_RECURRING_EXPERT_DELIVERY.
+- UNKNOWN != PASS.
+- Do not manufacture multiple winners to satisfy a quota.
 
 ## Commercial Truth
 
