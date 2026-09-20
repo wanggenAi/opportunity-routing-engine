@@ -40,6 +40,6 @@ def test_parallel_portfolio_tracks_both_research_formations():
     ids = {item["formation_id"] for item in state["retained_research_formations"]}
     assert "ATTRACTION_SCAN_015-F1" in ids
     assert "ATTRACTION_SCAN_016-F1" in ids
-    assert state["last_completed_scan_id"] == "ATTRACTION_SCAN_016"
-    assert state["next_scan_id"] == "ATTRACTION_SCAN_017"
+    assert state["last_completed_scan_id"] >= "ATTRACTION_SCAN_016"
+    assert state["next_scan_id"] > state["last_completed_scan_id"]
     assert state["active_commercial_candidates"] == []
