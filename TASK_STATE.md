@@ -106,10 +106,10 @@ Xiaozhi/Bearhome:
 
 ## Last Verified Main
 
-`fab05b3facd181f4287e63287375f2eb59d626bd`
-— squash merge of PR #288, `Retain Scan 015 realized-payout router beacon`.
+`d6d6a8fcf8f5389d5e222932c54e4c16c361d477`
+— squash merge of PR #289, `Checkpoint Scan 015 F1 Gate A rights unknown`.
 
-CI #857 passed on the PR head before merge.
+PR #289 head CI #860 passed before merge.
 
 ## Active Issue
 
@@ -117,15 +117,16 @@ CI #857 passed on the PR head before merge.
 
 ## Active Branch
 
-`feature/scan015-f1-gate-a-public-rights`
+None. Current canonical state is on `main`.
 
 ## Active PR
 
-Not opened yet for Gate A checkpoint.
+None. PR #289 is merged.
 
 ## CI
 
-PR #288 / CI #857 succeeded. Gate A checkpoint CI pending.
+PR #288 / CI #857 succeeded.
+PR #289 / CI #860 succeeded.
 
 ## Latest Artifact / Persisted State
 
@@ -156,8 +157,9 @@ Changed:
 ## Blockers
 
 Engineering:
-- Scan 015 PR #288 merged to main at `fab05b3facd181f4287e63287375f2eb59d626bd`; CI #857 passed.
-- Gate A public-rights checkpoint PR/CI not yet complete.
+- Scan 015 PR #288 merged; CI #857 passed.
+- Gate A public-rights checkpoint PR #289 merged to main at `d6d6a8fcf8f5389d5e222932c54e4c16c361d477`; CI #860 passed.
+- No engineering blocker remains for the current research checkpoint.
 
 Research:
 1. public docs prove technical post-inspection/payment outcome visibility on at least Suhuanji and Xiaozhi, but cross-rail comparison/retention/derived-model rights remain UNKNOWN;
