@@ -22,14 +22,6 @@
       "state": "RESEARCH_BEACON_RETAINED_FOR_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
       "retained_date": "2026-09-20",
       "commercial_candidate": false
-    },
-    {
-      "formation_id": "ATTRACTION_SCAN_021-F1",
-      "title": "SME_OVERDUE_PAYMENT_EVIDENCE_COMPILER",
-      "chinese_title": "中小企业逾期回款证据编译器",
-      "state": "RESEARCH_BEACON_RETAINED_FOR_PAYER_LEGAL_BOUNDARY_AND_DISCOVERABILITY_FALSIFICATION",
-      "retained_date": "2026-09-20",
-      "commercial_candidate": false
     }
   ],
   "resolved_research_formations": [
@@ -52,14 +44,19 @@
       "formation_id": "ATTRACTION_SCAN_004-F1",
       "verdict": "DEMOTED_INFORMATION_CAPTURE_BOTTLENECK",
       "resolved_date": "2026-09-20"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_021-F1",
+      "verdict": "DEMOTED_GENERIC_AGENT_SUBSTITUTABLE_AND_VALUE_LAYER_SQUEEZED",
+      "resolved_date": "2026-09-20"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
   "last_completed_scan_id": "ATTRACTION_SCAN_021",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_021-F1",
   "next_scan_id": "ATTRACTION_SCAN_022",
-  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_SCAN021_F1_AND_FORMATION_DIVERSE_SCAN022",
+  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_FORMATION_DIVERSE_SCAN022",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -258,7 +255,12 @@
     "LEGAL_SERVICE_BOUNDARY_AND_EXACT_PAYER_WILLINGNESS_ARE_HARD_UNKNOWNS",
     "GENERIC_SHARED_MANUFACTURING_IS_REAL_VALUE_CREATION_BUT_CURRENTLY_INCUMBENT_CROWDED",
     "NEW_COMPLIANCE_RULE_WITHOUT_PAYER_PULL_IS_NOT_A_COMMERCIAL_FORMATION",
-    "SCAN_021_FORMATION_DIVERSITY_SURFACED_NON_ROUTER_RIGHTS_EXECUTION_BEACON"
+    "SCAN_021_FORMATION_DIVERSITY_SURFACED_NON_ROUTER_RIGHTS_EXECUTION_BEACON",
+    "DIRECT_CASH_PAIN_CAN_BE_REAL_WHILE_THE_PROPOSED_SOFTWARE_LAYER_IS_COMMERCIALLY_WEAK",
+    "PRIVATE_DOCUMENTS_PLUS_PUBLIC_RULE_SCHEMA_IS_GENERIC_AGENT_SUBSTITUTABLE_UNLESS_A_DISTINCT_CONTROL_ASSET_EXISTS",
+    "FREE_OFFICIAL_RAIL_PLUS_PUBLIC_INTEREST_SUPPORT_COMPRESSES_WILLINGNESS_TO_PAY_FOR_NARROW_PREPARATION",
+    "WHEN_SIMPLE_CASES_COMMODITIZE_AND_COMPLEX_CASES_REQUIRE_LICENSED_EXPERTS_THE_MIDDLE_AUTOMATION_LAYER_CAN_BE_SQUEEZED",
+    "SCAN_021_F1_DEMOTED_AFTER_CHEAP_FALSIFICATION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -311,7 +313,12 @@
     "Official complaint handling has demonstrated realized recovery value, but exact third-party payer willingness for the proposed self-serve compiler remains unproven.",
     "Scan 021-F1 must fail closed on disputed legal facts, legal strategy, representation, negotiation, litigation and arbitration.",
     "Generic shared-manufacturing capacity matching was demoted despite real value because current platforms already offer capacity listing, AI quoting, matching and collaboration workflows.",
-    "Scan 022 must not inherit overdue-payment, legal-tech, complaint-platform or rights-execution vertical terms."
+    "Scan 022 must not inherit overdue-payment, legal-tech, complaint-platform or rights-execution vertical terms.",
+    "ATTRACTION_SCAN_021-F1 cheap falsification completed on 2026-09-20.",
+    "The official complaint rail and structured form are directly available, and current rules encourage public-interest legal services; the narrow packet-preparation layer therefore faces free-substitute pressure.",
+    "Generic AI/legal-document tools can already reproduce the low-complexity drafting bridge from private user facts plus public rules.",
+    "Current lawyer guidance and paid collection engagements occupy the high-complexity judgment/representation layer, producing a value-layer squeeze around the proposed middle product.",
+    "Scan 021-F1 is removed from active validation and must not be revived without evidence of a non-generic control asset or native paid machine rail."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -324,11 +331,6 @@
         "formation_id": "ATTRACTION_SCAN_016-F1",
         "state": "CHEAP_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
         "next_action": "VERIFY_TWO_INDEPENDENT_9610_CROSS_CUSTOMS_RETURN_RAILS_AND_NON_CONSULTING_ECONOMICS"
-      },
-      {
-        "formation_id": "ATTRACTION_SCAN_021-F1",
-        "state": "CHEAP_PAYER_LEGAL_BOUNDARY_DISCOVERABILITY_AND_INCUMBENT_FALSIFICATION",
-        "next_action": "VERIFY_EXACT_PAYER_INTENT_ORGANIC_DISCOVERY_LEGAL_BOUNDARY_AND_EXACT_INCUMBENT_ABSENCE"
       }
     ],
     "discovery": {
