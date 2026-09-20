@@ -45,6 +45,17 @@
       ]
     },
     {
+      "seed_id": "user-owned-passive-realization-telemetry",
+      "text": "真实履约结果天然出现在用户已有设备或业务系统中 可经授权被动自动采集 多个独立付费执行轨道已可机器调用 用户会低摩擦反复切换或复购 单一供应商与现有聚合器都看不到标准化跨轨道真实结果",
+      "language": "zh-CN",
+      "target_primitives": [
+        "RESOURCE",
+        "STATE",
+        "BEHAVIOR",
+        "OUTCOME"
+      ]
+    },
+    {
       "seed_id": "self-revealing-paid-rails-outcome-uncertainty",
       "text": "高意图事件会主动暴露 多个独立执行方已有标准化付费调用轨道 真正优劣只有履约后结果才能知道 单个平台无法看到跨轨道结果历史 优先寻找可由完成交易沉淀的独立机器路由资产",
       "language": "zh-CN",
