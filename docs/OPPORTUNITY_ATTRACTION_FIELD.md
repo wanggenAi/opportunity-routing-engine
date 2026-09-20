@@ -346,7 +346,71 @@ join. Callability is necessary, not sufficient.
 Canonical executable dimension:
 `action_gate_callability` in `src/attraction_discovery.py`.
 
-## 4C. Multiple strong signals use a Pareto frontier
+## 4C. Router distinctiveness / generic-Agent substitutability is a hard kill
+
+A callable rail can still be commercially empty for the operator.
+
+Once a general-purpose Agent can read the user's ordinary intent/context, inspect the
+official Skill/MCP/API schema and make the same routing decision, the missing edge is
+no longer owned by a distinct router.
+
+Ask:
+
+> **What reusable routing asset does the operator own that a competent general Agent
+> plus the official rail cannot reproduce from the same context?**
+
+Potentially distinctive assets can include:
+- a cross-domain compatibility or eligibility graph not owned by either rail;
+- outcome-derived acceptance/rejection history;
+- a continuously maintained multi-rail constraint graph;
+- permissioned/proprietary evidence unavailable to the generic Agent;
+- a machine-executable specialized routing model whose value compounds from real
+  outcomes.
+
+These are asset classes, not automatic opportunity proof.
+
+Hard rules:
+
+```text
+USER INTENT / ORDINARY CONTEXT
++ OFFICIAL RAIL SCHEMA
++ GENERAL AGENT REASONING
+→ SAME ROUTING DECISION
+= GENERIC_AGENT_SUBSTITUTABLE
+→ LOW CURRENT ATTRACTION
+
+NEW MCP / SKILL / API
+!=
+NEW ROUTING BUSINESS
+
+NATIVE COMMISSION
++ GENERIC AGENT FEATURE
+=
+DISTRIBUTION / AUDIENCE ECONOMICS, NOT DISTINCT ROUTING CONTROL
+```
+
+This kill must be evidence-bound. Do not declare substitutability merely because an
+LLM sounds capable; show that the rail or a general Agent can actually obtain the
+required inputs and perform the materially equivalent selection/action.
+
+The opposite boundary is also strict:
+
+```text
+NOT GENERIC-AGENT SUBSTITUTABLE
+AND
+NOT RECURRING-EXPERT DEPENDENT
+```
+
+The desired decision edge is specialized, reusable, machine-resolvable and compounding.
+If specialization means a founder/expert must interpret every case, the existing
+expert-matching hard kill still applies.
+
+Canonical executable kill:
+`generic_agent_substitutable` in `src/attraction_discovery.py`.
+
+This is a binary evidence-bound veto, not a Pareto objective.
+
+## 4D. Multiple strong signals use a Pareto frontier
 
 Once several signals have already passed the hard `HIGH_ATTRACTION_BEACON` floor,
 do not collapse the critical attraction dimensions into one weighted score.
@@ -415,6 +479,12 @@ Why do I actively want to own this bridge rather than merely sell a service?
 
 OPERATOR NON-LABOR TEST:
 What recurring work must not depend on me personally?
+
+ROUTER DISTINCTIVENESS:
+What reusable routing asset exists beyond ordinary user context plus the official rail?
+
+GENERIC-AGENT SUBSTITUTION TEST:
+Could a competent general Agent reproduce the same decision from the same context and rail schema?
 
 CONNECTION WOW:
 What becomes surprisingly valuable only because these nodes are connected?
