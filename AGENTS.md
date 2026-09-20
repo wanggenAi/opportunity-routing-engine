@@ -126,9 +126,10 @@ Before changing business logic, read these in order:
 11. `docs/ACTOR_MODEL.md`
 12. `docs/THESIS_TRANSACTION_GAPS.md`
 13. `docs/OPPORTUNITY_ATTRACTION_FIELD.md`
-14. `docs/OPPORTUNITY_SCORECARD.md`
-15. `docs/ARCHITECTURE.md`
-16. current `docs/research/`, `docs/field/` and `docs/launch/` files relevant to the task.
+14. `docs/ENGINEERING_METHOD_SELECTION.md`
+15. `docs/OPPORTUNITY_SCORECARD.md`
+16. `docs/ARCHITECTURE.md`
+17. current `docs/research/`, `docs/field/` and `docs/launch/` files relevant to the task.
 
 `docs/LATENT_VALUE_DOCTRINE.md` is constitutional. `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`, `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md` and `docs/LATENT_VALUE_FORMATION_BRIDGE.md` are also locked constitutional discovery principles. `docs/OPPORTUNITY_ATTRACTION_FIELD.md` is the locked strategic discovery/attention principle for participant pull, operator activation and anti-drift. If another document, implementation or workflow conflicts with them, the lower-level artifact must change.
 
