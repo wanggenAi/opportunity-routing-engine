@@ -1,0 +1,57 @@
+{
+  "schema_version": "attraction-scan.v3",
+  "scan_id": "ATTRACTION_SCAN_005",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-20",
+  "status": "COMPLETE",
+  "search_mode": "DISCOVERABILITY_FIRST_CLEAN_SLATE_CHAINED_WEB_RESEARCH",
+  "inherited_case_inputs": [],
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_formations": [],
+  "pareto_eligible": [],
+  "pareto_frontier": [],
+  "strongest_near_miss": {
+    "formation": "REGULATORY_DELTA_CROSS_REGISTRY_OBLIGATION_GAP",
+    "example": "CHINA_ROHS_2026_EXPANSION",
+    "state": "RESEARCH_NEAR_MISS_NOT_RETAINED",
+    "positive": [
+      "official future rule transition",
+      "public compliance-result query",
+      "some upstream product registries provide full/incremental data",
+      "join keys can include producer product name model and category"
+    ],
+    "kills": [
+      "immediate output is mainly a qualified prospect list",
+      "testing/certification providers already have strong upstream access",
+      "compliance software already automates regulation/product status",
+      "no direct control of the compliance transaction",
+      "unit economics not proven extraordinary",
+      "2027-08-01 deadline weakens immediate urgency"
+    ]
+  },
+  "demoted_directions": [
+    "CCC_TRANSITION_CERTIFIER_MATCHING",
+    "ONLINE_INDUSTRIAL_PRODUCT_COMPLIANCE",
+    "ENVIRONMENTAL_PERMIT_SERVICE_ROUTING",
+    "PUBLIC_ASSET_LEASING_TO_BRAND_EXPANSION",
+    "FAILED_TENDER_REBID_INTELLIGENCE",
+    "BID_CONSORTIUM_QUALIFICATION_COMPLEMENT",
+    "BID_AWARD_TO_FINANCE_OR_GUARANTEE",
+    "IP_STATUS_TO_AGENCY_SERVICE",
+    "BANKRUPTCY_ASSET_TO_BUYER_ROUTING",
+    "MEDICAL_DEVICE_RECALL_TO_REPLACEMENT_ROUTING"
+  ],
+  "scan_learnings": [
+    "DISCOVERABILITY_IS_NECESSARY_NOT_SUFFICIENT",
+    "VISIBLE_PROSPECT_NE_ROUTABLE_VALUE",
+    "PUBLIC_STATE_CHANGE_TO_STANDARD_SERVICE_OFTEN_COLLAPSES_TO_LEAD_GENERATION",
+    "SAME_DOMAIN_PLATFORM_OFTEN_ALREADY_OWNS_OBVIOUS_MATCHING_LAYER",
+    "PREFER_CROSS_DOMAIN_JOINS_BETWEEN_INDEPENDENT_DATA_UNIVERSES",
+    "JOIN_SHOULD_DIRECTLY_CHANGE_ALLOCATION_TRANSACTION_ACCESS_OR_TIMING",
+    "NO_SINGLE_INCUMBENT_SHOULD_ALREADY_OWN_BOTH_DATA_WORLDS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_006",
+  "next_action": "CROSS_DOMAIN_VISIBLE_DATA_HIDDEN_ECONOMIC_RELATION_CLEAN_SLATE_SCAN",
+  "first_external_value_flow": "NOT_PROVEN"
+}
