@@ -106,10 +106,10 @@ Xiaozhi/Bearhome:
 
 ## Last Verified Main
 
-`f1dfd485533aa3985001083d050ee68edab019fe`
-— squash merge of PR #292, `Lock Scan 015 F1 written-rights response rubric`.
+`9c8d856865c3348c1e897d37504f5b6cb7f51cde`
+— squash merge of PR #293, `Strengthen Scan 015 F1 Suhuanji technical closure`.
 
-PR #292 head CI #866 passed before merge.
+PR #293 head CI #868 passed before merge.
 
 ## Active Issue
 
@@ -117,11 +117,11 @@ PR #292 head CI #866 passed before merge.
 
 ## Active Branch
 
-`feature/scan015-f1-suhuanji-technical-closure`
+`feature/scan015-f1-public-rights-ceiling`
 
 ## Active PR
 
-Not opened yet for the Suhuanji technical-closure checkpoint.
+Not opened yet for the public-rights search-ceiling checkpoint.
 
 ## CI
 
@@ -130,6 +130,7 @@ PR #289 / CI #860 succeeded.
 PR #290 / CI #862 succeeded.
 PR #291 / CI #864 succeeded.
 PR #292 / CI #866 succeeded.
+PR #293 / CI #868 succeeded.
 
 ## Latest Artifact / Persisted State
 
@@ -165,10 +166,11 @@ Engineering:
 - No engineering blocker remains for the current research checkpoint.
 - PR #291 outreach-readiness checkpoint is merged and green.
 - PR #292 written-rights response-rubric checkpoint is merged and green.
-- Current Suhuanji technical-closure checkpoint PR/CI is not yet complete.
+- PR #293 Suhuanji technical-closure checkpoint is merged and green.
+- Current public-rights search-ceiling checkpoint PR/CI is not yet complete.
 
 Research:
-1. public docs prove technical post-inspection/payment outcome visibility on at least Suhuanji and Xiaozhi, but cross-rail comparison/retention/derived-model rights remain UNKNOWN;
+1. public docs prove technical post-inspection/payment outcome visibility on at least Suhuanji and Xiaozhi, but cross-rail comparison/retention/derived-model rights remain UNKNOWN; same-layer public rights search has reached a useful ceiling;
 2. obtain written confirmation from at least two overlapping 3C rails that anonymous outcome data may be retained and used for future routing; vague cooperation/API-access language does not pass;
 3. Suhuanji now has explicit valuation→quote→payment/time technical closure, but its verified public business contact endpoint remains unresolved;
 4. production onboarding is not zero-friction: Xiaozhi requires enterprise qualification and Aihuishou channel settlement requires VAT invoicing capability;
@@ -187,7 +189,7 @@ Scan 015 PR #288 is merged and green.
 
 Gate A public technical falsification is complete with `PARTIAL_PASS_RIGHTS_UNKNOWN`.
 
-Canonical inquiry packet and pass/fail response rubric are ready. Next, obtain written rights confirmation from at least two rails before Gate B transaction execution.
+Canonical inquiry packet and pass/fail response rubric are ready. Public-rights search has reached its useful ceiling. Next decisive evidence must be an official written provider response or current partner agreement from at least two rails before Gate B transaction execution.
 
 The remaining bounded validations are:
 
@@ -219,6 +221,7 @@ Kill F1 if either hard gate fails.
 - Do not build a full App before the two gates pass.
 - Do not store name/mobile/address/payment identifiers as the routing asset.
 - Do not treat search absence as incumbent-gap proof.
+- Do not repeat same-layer public rights searches after the current ceiling unless a new source surface appears.
 - Do not promote because the idea feels attractive.
 
 ## Guardrails
