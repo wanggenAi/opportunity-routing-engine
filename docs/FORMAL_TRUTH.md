@@ -1143,6 +1143,10 @@ BROAD REALITY
 `src/attraction_discovery.py` is the canonical pre-formation attention gate.
 Attraction decides where to look first; evidence decides what may be believed.
 
+When multiple signals pass the hard attraction floor, use
+`src/attraction_frontier.py` for Pareto / non-dominated attention allocation.
+A weighted total score is not canonical for choosing among high-attraction signals.
+
 Required behavior:
 1. reopen broad current reality;
 2. preserve causal descent, connection pressure and Attraction Brief;
@@ -1172,6 +1176,25 @@ Canonical implementation: `src/attraction_leverage.py`.
 
 This gate controls whether a formation is worth scarce external validation. It does
 not prove willingness to pay or promote a business.
+
+### 19B. Scientific method-selection truth — LOCKED
+
+Engineering methods are selected because their assumptions match a real decision
+problem, not because they are fashionable or mathematically sophisticated.
+
+Canonical discipline:
+`docs/ENGINEERING_METHOD_SELECTION.md`.
+
+Current justified method:
+- attraction hard floor;
+- Pareto non-dominated sorting among surviving signals;
+- simple transparent `O(n^2)` implementation until measured scale justifies more
+  complex skyline/index algorithms.
+
+```text
+MATURE METHOD + WRONG ASSUMPTIONS = WRONG SYSTEM
+SIMPLE METHOD + CORRECT INVARIANTS > FANCY METHOD + STORY
+```
 
 ## 20. Software truth — LOCKED
 
