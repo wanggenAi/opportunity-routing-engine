@@ -6,7 +6,14 @@
   "active_transaction_units": [],
   "active_parent_formations": [],
   "inherited_watchlist": [],
-  "retained_research_formations": [],
+  "retained_research_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_004-F1",
+      "title": "LEGACY EQUIPMENT HARVEST PARTS GRAPH",
+      "state": "HIGH_ATTRACTION_BEACON_RETAINED_FOR_CAUSAL_DESCENT",
+      "commercial_candidate": false
+    }
+  ],
   "resolved_research_formations": [
     {
       "formation_id": "ATTRACTION_SCAN_001-F1",
@@ -26,19 +33,20 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_003",
+  "last_completed_scan_id": "ATTRACTION_SCAN_004",
   "last_resolved_formation_id": "ATTRACTION_SCAN_003-F1",
-  "next_scan_id": "ATTRACTION_SCAN_004",
-  "current_research_action": "ATTRACTION_SCAN_004_ATTRACTION_FIRST_REALITY_SENSING",
+  "next_scan_id": "ATTRACTION_SCAN_005",
+  "current_research_action": "ATTRACTION_SCAN_004_F1_CAUSAL_DESCENT_AND_PUBLIC_ARTIFACT_FALSIFICATION",
   "current_validation_state": {
-    "formation_id": null,
-    "public_artifact_confirmation": null,
-    "bilateral_commitment": "NOT_APPLICABLE",
+    "formation_id": "ATTRACTION_SCAN_004-F1",
+    "public_artifact_confirmation": "NOT_RUN",
+    "bilateral_commitment": "NOT_RUN",
     "commercial_candidate": false
   },
   "required_scan_controls": [
     "BROAD_REALITY",
     "ATTRACTION_FIRST_BEACON",
+    "PARETO_FRONTIER_AFTER_HARD_FLOOR",
     "VALUE_CHAIN_LEVERAGE",
     "ATTRACTION_BRIEF",
     "DRIFT_AUDIT",
@@ -49,14 +57,17 @@
     "PERMISSION_DENSITY_AND_CONTROL_RIGHT_CONCENTRATION_MATTER_FOR_ROUTABILITY",
     "FREE_ACCEPTANCE_KNOWLEDGE_IS_NOT_THE_SAME_AS_EXECUTED_REPRODUCIBLE_TRANSACTION_EVIDENCE",
     "TOOL_USING_AGENT_WORKFLOWS_CAN_YIELD_BOUNDED_MACHINE_VERIFIABLE_ACCEPTANCE_SKELETONS_FROM_REAL_PROJECT_BRIEFS",
-    "REAL_FRICTION_CAN_BE_COMMERCIALLY_WEAK_WHEN_VALUE_ALLOCATION_IS_ALREADY_LOCKED"
+    "REAL_FRICTION_CAN_BE_COMMERCIALLY_WEAK_WHEN_VALUE_ALLOCATION_IS_ALREADY_LOCKED",
+    "RETIRING_WHOLE_MACHINE_CAN_BE_LOW_VALUE_WHILE_ONE_HARVESTABLE_COMPONENT_CAN_HAVE_DOWNTIME_LINKED_VALUE",
+    "PARENT_MACHINE_TO_COMPONENT_RELATIONSHIP_CAN_BE_A_PLATFORM_DATA_ASSET_WHEN_LEGACY_SPARES_ARE_FRAGMENTED",
+    "GLOBAL_SEMICONDUCTOR_HARVEST_PARTS_ANALOGUE_VALIDATES_MECHANISM_NOT_CHINA_DEMAND"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
-    "ATTRACTION_SCAN_003-F1 was demoted on 2026-09-20 because its default intervention point is downstream of major value allocation and decision rights.",
-    "Attraction is now the first discovery-attention premise: broad reality -> attraction signal harvest -> high-attraction beacon -> causal descent.",
-    "High attraction requires bilateral voluntary motion, a large state-dependent value jump, a still-movable decision window, a narrow disproportionate unlock, bounded activation, self-propulsion, and operator control without recurring founder labor.",
-    "The prepared Scan 003 F1 outreach draft must not be sent.",
+    "ATTRACTION_SCAN_003-F1 remains demoted and its prepared outreach must not be sent.",
+    "ATTRACTION_SCAN_004 was run as a clean-slate chained web scan without inheriting prior candidate verticals.",
+    "The only current HIGH_ATTRACTION_BEACON is ATTRACTION_SCAN_004-F1: Legacy Equipment Harvest Parts Graph / 工业旧设备器官库.",
+    "F1 is a research formation only. It must be falsified by tracing one real current hard-to-find part to an independent compatible donor source before any commercial promotion.",
     "FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN."
   ]
 }

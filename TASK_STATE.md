@@ -2,78 +2,147 @@
 
 Operational handoff only. GitHub live state wins if anything below conflicts with repository facts.
 
-This checkpoint records verified repository/control-plane state only; it does not promote any commercial truth.
-
 ## Current Mission
 
-Run `ATTRACTION_SCAN_004` under the corrected **ATTRACTION-FIRST** discovery order.
+Continue from completed clean-slate `ATTRACTION_SCAN_004`.
 
-Do not resume `ATTRACTION_SCAN_003-F1`.
-Do not send the prepared AI Agent acceptance-validation draft.
+Current retained research formation:
+
+`ATTRACTION_SCAN_004-F1 — LEGACY EQUIPMENT HARVEST PARTS GRAPH / 工业旧设备器官库`
+
+Do not revive Scan 001/002/003 cases.
+Do not send the cancelled Scan 003 Agent-acceptance outreach.
 
 ## Goal
 
-Discover a genuinely high-attraction latent value channel, not merely a real friction.
+Falsify or strengthen one unusually high-attraction latent value channel without
+building a product or inventing transaction truth.
 
-The next retained formation must be something that is compelling before product design:
-both sides are already moving, the state-dependent value jump is large, important
-decisions are still movable, the missing bridge is narrow relative to the value it
-unlocks, and the operator can own routing/control rather than recurring labor.
+The current hypothesis is:
+
+```text
+RETIRING / IDLE INDUSTRIAL MACHINE
+→ identify recoverable donor organs
+→ verified machine/part/compatibility relationship
+→ route to a still-operating compatible legacy machine
+→ restore production or avoid long OEM delay
+```
+
+The opportunity is not generic used-equipment resale, generic MRO, generic repair,
+reverse engineering, or a broad maintenance marketplace.
 
 ## Current Unique Commercial Research Goal
 
-Find one current, evidence-backed `HIGH_ATTRACTION_BEACON` from broad Chinese reality
-that satisfies the attraction-first floor before deep causal descent.
+Answer one decisive question:
 
-Required high-attraction dimensions:
-- A-side voluntary motion;
-- B-side voluntary motion;
-- sharp state-dependent value jump;
-- decision window still materially movable;
-- bridge compression: narrow edge / disproportionate unlock;
-- low enough activation and explanation burden;
-- self-propulsion after successful routing;
-- operator control without recurring founder delivery or per-transaction founder sales.
+> Can one real current China-side hard-to-find / discontinued non-safety-critical
+> industrial part situation be independently traced to a compatible donor machine or
+> donor component from another current source, using evidence rather than bespoke
+> founder engineering judgment?
 
-Weakest-link dominated: do not average away a dead side.
+If no, demote F1.
+
+If yes, continue causal descent on compatibility, harvest economics, verification,
+liability and repeatability.
 
 ## Current Phase
 
-`SCAN_004_ATTRACTION_FIRST_REALITY_SENSING`
+`SCAN_004_F1_PUBLIC_ARTIFACT_FALSIFICATION_PENDING`
 
-Canonical discovery order:
+## Attraction status
+
+Hard-floor profile:
 
 ```text
-BROAD CURRENT REALITY
-→ ATTRACTION SIGNAL HARVEST
-→ HIGH_ATTRACTION_BEACON
-→ ONLY THEN DEEP CAUSAL DESCENT
-→ COMPLEMENTARY WORLD NODES
-→ CONNECTION PRESSURE
-→ OBSERVED MISSING EDGE
-→ LATENT CONNECTION
-→ VALUE-CHAIN LEVERAGE / INTERVENTION TIMING
-→ ATTRACTION BRIEF + DRIFT AUDIT
-→ CHEAP DECISIVE REALITY CONFIRMATION
-→ TRANSACTION TRUTH
+A-side voluntary motion        = 3
+B-side voluntary motion        = 3
+state-dependent value jump     = 3
+decision window                = 3
+bridge compression             = 2
+activation ease                = 2
+self-propulsion                = 2
+operator control               = 2
 ```
 
-Attraction decides where to look first.
-Evidence decides what may be believed.
+State:
+
+`HIGH_ATTRACTION_BEACON`
+
+Current Pareto frontier:
+
+`{ ATTRACTION_SCAN_004-F1 }`
+
+This is attention allocation only.
+
+`HIGH_ATTRACTION_BEACON != COMMERCIAL_CANDIDATE`.
+
+## Why the attraction is high
+
+A-side:
+- 2026 equipment-renewal policy increases retired / idle equipment flow;
+- public exchanges, auctions and used-equipment markets show active disposal supply.
+
+B-side:
+- legacy industrial operators already use emergency spare libraries, used parts,
+  substitution, repair and reverse engineering because OEM parts can be discontinued
+  or slow.
+
+Value jump:
+- a component with low visibility/value inside a retired machine can become
+  economically important when it restores a compatible production asset.
+
+Decision window:
+- when an installed machine fails, sourcing and recovery decisions are immediate and
+  still open.
+
+Potential bridge:
+- parent-machine → component → compatibility → condition → harvest source.
+
+## Global mechanism analogue
+
+2026 SurplusGLOBAL / SemiMarket semiconductor evidence independently demonstrates:
+- harvested parts from donor tools;
+- parent-tool organization;
+- tool–part / BOM relationship building;
+- AI/OCR classification;
+- parts verification;
+- sellers scrapping usable inventory because visibility is poor;
+- buyers facing downtime because legacy parts are hard to source.
+
+This validates the mechanism only.
+
+It does not prove general industrial demand in China.
+
+## China incumbent credit
+
+Already present:
+- industrial used-equipment marketplaces;
+- industrial auctions / public asset exchanges;
+- OEM and MRO spare networks;
+- specialist DCS/PLC spare libraries;
+- dismantled-used-parts sellers;
+- reverse engineering;
+- on-demand manufacturing;
+- repair marketplaces.
+
+The residual hypothesis is **not** that these capabilities are absent.
+
+The residual is whether their fragmented inventories are missing a reusable,
+cross-source parent-machine → harvested-part → compatible-installed-machine graph.
+
+Search absence is not proof.
 
 ## Last Verified Main
 
-`23132790124b88bc46b2aecddc2630c2213ddce7`
-— squash merge of PR #272, `Engineer attraction selection with Pareto frontier`.
+Functional main before this Scan 004 branch:
 
-Verified on main:
-- CI #825 / run `35486141396`: success;
-- research-mission-plan run #4 / `35485818545`: success;
-- research plan artifact `research-mission-plan-state`, artifact id `10597650161`;
-- generated mission id `ATTRACTION_FIELD_BROAD_REALITY_V1`;
-- generated query count = 60;
-- unique query count = 60;
-- coverage state = `CALIBRATION_ONLY` because planning succeeded but broad internet evidence has not yet been executed.
+`23132790124b88bc46b2aecddc2630c2213ddce7`
+
+PR #272 main CI:
+- CI #825 / run `35486141396`: success.
+
+Post-merge control-plane checkpoint:
+- PR #273 merged.
 
 ## Active Issue
 
@@ -81,174 +150,149 @@ Verified on main:
 
 ## Active Branch
 
-None for commercial research.
-
-This handoff-only checkpoint branch is:
-`feature/attraction-frontier-postmerge-state`.
+`feature/attraction-scan-004-clean-slate`
 
 ## Active PR
 
-None for business/architecture work.
-
-PR #270, PR #271 and PR #272 are merged.
+Not opened yet at this checkpoint.
 
 ## CI
 
-Latest business/architecture verification:
-- PR #272 head CI #824: success;
-- main CI #825: success;
-- main research-mission-plan run #4: success.
-
-The production research-plan workflow now points to:
-`data/research_missions/attraction_field_broad_reality.json`.
+Pending for the Scan 004 branch / PR.
 
 ## Latest Artifact / Persisted State
 
-Canonical implementation:
-- `src/attraction_discovery.py` — pre-formation attraction beacon;
-- `src/attraction_leverage.py` — value-chain position / intervention-timing gate;
-- `src/attraction_frontier.py` — Pareto / non-dominated attention allocation across multiple high-attraction signals;
-- `src/research_control_plane.py` — supports `attention_mode = ATTRACTION_FIRST`.
+New:
+- `docs/research/ATTRACTION_SCAN_004_2026-09-20.md`
+- `data/research_runs/attraction_scan_004.json`
 
-Canonical doctrine/state:
-- `AGENTS.md`;
-- `docs/OPPORTUNITY_ATTRACTION_FIELD.md`;
-- `docs/FORMAL_TRUTH.md`;
-- `docs/INTERNET_RESEARCH_CONTROL_PLANE.md`;
-- `docs/ENGINEERING_METHOD_SELECTION.md`;
-- `data/commercial_reset_state.json`;
-- `data/research_missions/attraction_field_broad_reality.json`.
+Canonical controls:
+- `src/attraction_discovery.py`
+- `src/attraction_frontier.py`
+- `src/attraction_leverage.py`
+- `docs/ENGINEERING_METHOD_SELECTION.md`
 
-Resolved prior formation:
-- `docs/research/ATTRACTION_SCAN_003_F1_ATTRACTION_REASSESSMENT_2026-09-20.md`.
-
-Production planning artifact:
-- workflow run `35485818545`;
-- artifact `10597650161`;
-- state remains `CALIBRATION_ONLY` until real provenance-bearing research results are collected.
+Machine state:
+- `data/commercial_reset_state.json`
 
 ## Completed
 
-- Demoted `ATTRACTION_SCAN_003-F1 — AI CUSTOM-SERVICE ACCEPTANCE RAIL`.
-- Removed it from retained research formations.
-- Cancelled its planned bilateral outreach; draft remains `DO NOT SEND`.
-- Added attraction-first engineering rules with hard weakest-link floors.
-- Added a separate value-chain leverage gate so late/locked process frictions do not consume validation capital.
-- Rewrote the broad research mission from category/pain-point seeds to attraction-signal seeds.
-- Rewired the production research workflow to the real attraction-field mission file.
-- Preserved research mission identity so old capture contracts do not fail only because of a version rename.
-- Updated capture tests to the new attraction-first seed set.
-- PR #270 merged.
-- PR #272 merged with scientific method-selection doctrine and Pareto frontier.
-- Main CI #825 and production research-mission workflow both passed.
+- ignored all previous Scan candidate directions as active search priors;
+- ran broad China-primary chained web research across unrelated reality lanes;
+- used global sources only for mechanism analogues / contradiction / incumbent discovery;
+- counter-searched apparently attractive directions before retention;
+- demoted compute pooling, flexible energy/VPP, shared manufacturing, scientific
+  instrument sharing, parking/charging sharing, overseas return liquidation, overseas
+  field service, technical bounties and elder-care capacity routing for current
+  attention;
+- tested generic industrial downtime recovery routing and demoted it as too broad /
+  expert-labor-heavy;
+- retained one high-attraction beacon: Legacy Equipment Harvest Parts Graph;
+- persisted Scan 004 narrative and machine-readable truth;
+- kept active commercial candidates at zero.
 
 ## Current Findings
 
-The prior failure mode was not inability to find real friction. It was **attention-order error**.
-
-Old effective behavior:
+The strongest fresh clean-slate structure is:
 
 ```text
-REAL FRICTION
-→ DEEP RESEARCH
-→ CONNECTION DESIGN
-→ LATE ATTRACTION JUDGMENT
+MACHINE A IS LEAVING SERVICE
+AND MAY BE WORTH LITTLE AS A WHOLE / SCRAP ASSET
+
+BUT
+
+ONE OF ITS COMPONENTS
+CAN BE WORTH DISPROPORTIONATELY MORE
+TO MACHINE B THAT IS STILL PRODUCING AND CURRENTLY BLOCKED
 ```
 
-Corrected behavior:
+The key data object may therefore be:
 
 ```text
-BROAD REALITY
-→ HIGH-ENERGY / HIGH-ATTRACTION SIGNALS FIRST
-→ ONLY STRONG BEACONS RECEIVE DEEP RESEARCH
+PARENT_MACHINE
+↕
+PART / MODULE
+↕
+COMPATIBILITY
+↕
+CONDITION / TEST EVIDENCE
+↕
+HARVESTABLE SOURCE
+↕
+ACTIVE INSTALLED MACHINE NEED
 ```
 
-Operational definition of the desired “wow”:
+This is more attractive than generic repair matching because the bridge may be
+standardizable as identity/compatibility/routing data rather than recurring expert
+maintenance labor.
 
-```text
-A ALREADY WANTS TO MOVE
-+ B ALREADY WANTS TO MOVE
-+ CONNECTION CREATES A LARGE BEFORE/AFTER VALUE JUMP
-+ MONEY / ACCESS / RIGHTS / RESOURCE DECISIONS ARE STILL MOVABLE
-+ THE MISSING BRIDGE IS SMALLER THAN THE VALUE IT UNLOCKS
-+ PARTICIPANTS UNDERSTAND THE BENEFIT WITHOUT LONG EDUCATION
-+ ONE SUCCESS MAKES THE NEXT EASIER
-+ OPERATOR OWNS ROUTING RATHER THAN DOING THE JOB
-= HIGH-ATTRACTION DISCOVERY BEACON
-```
-
-This is not a numeric average. A dead critical dimension blocks high-attraction status.
+But the bridge is not yet proven in China's general industrial market.
 
 ## Blockers
 
-Engineering blockers: none.
+No engineering blocker.
 
-Research blocker:
-- the production mission is planned but not yet executed against the live internet;
-- `CALIBRATION_ONLY` means there is no new broad Scan 004 evidence yet.
+Research blockers:
+- no same-case China-side live part → independent donor route has been demonstrated;
+- exact China incumbent coverage remains incomplete;
+- compatibility may require bespoke engineering;
+- harvest may be uneconomic when sellers require whole-machine sale;
+- testing / warranty / liability may destroy low-friction routing;
+- safety-critical categories must be excluded or separately governed.
 
 Commercial blockers:
-- no Scan 004 formation exists yet;
 - ACTIVE COMMERCIAL CANDIDATES = 0;
-- RETAINED RESEARCH FORMATIONS = 0;
-- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN.
+- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN;
+- no willingness-to-pay evidence;
+- no same-transaction buyer/seller commitment.
 
 ## Next Action
 
-Execute `ATTRACTION_SCAN_004` from the current attraction-first 60-query mission.
+Run exactly one public-artifact falsification:
 
-Execution discipline:
-1. sample broad current reality rather than inherit the AI-Agent vertical;
-2. harvest evidence of voluntary motion, state-dependent value jumps and still-open decision windows;
-3. form **multiple** attraction beacons before committing to a vertical;
-4. apply `src/attraction_discovery.py` hard floors first;
-5. if multiple `HIGH_ATTRACTION_BEACON` signals survive, apply
-   `src/attraction_frontier.py` and spend first deep-discovery effort on the
-   Pareto/non-dominated frontier rather than a weighted total-score winner;
-6. then run causal descent, complementary-node search, connection-pressure and missing-edge tests;
-7. apply `src/attraction_leverage.py` before scarce external validation;
-8. retain zero formations if none genuinely produces the desired attraction.
+1. find one current China-side hard-to-find / discontinued, non-safety-critical
+   industrial component situation;
+2. preserve exact equipment/part identity evidence;
+3. search independent idle-equipment, auction, dismantling and used-parts sources for
+   a compatible donor;
+4. determine whether compatibility can be evidenced without bespoke founder diagnosis;
+5. estimate whether harvest/test/logistics are plausible relative to the avoided
+   sourcing delay;
+6. record a hard result:
+   - `DONOR_ROUTE_EVIDENCED`,
+   - `NO_DONOR_ROUTE_FOUND`,
+   - or `EXPERT_JUDGMENT_REQUIRED / FORMATION_WEAKENED`.
 
-Engineering-method rule:
-- introduce algorithms/data structures/models only when a current invariant or
-  decision failure justifies them;
-- write assumptions and failure modes;
-- prefer the simplest mature method that works at measured scale;
-- do not turn engineering sophistication into a substitute for reality evidence.
+Do not contact a buyer or seller yet.
 
 ## Do Not Repeat
 
-- Do not continue Scan 003 F1 because prior research effort exists.
-- Do not send the prepared Scan 003 provider email.
-- Do not start from “what pain points exist?” and only score attraction at the end.
-- Do not start from “what services are people buying?”.
-- Do not start from “what can AI automate?”.
-- Do not inherit the previous industry or asset type.
-- Do not treat real friction as high attraction by default.
-- Do not let TAM, novelty or a clever story compensate for weak participant motion.
-- Do not average attraction dimensions.
-- Do not use late-stage process neatness as a substitute for control of value flow.
-- Do not make founder labor or founder cold outreach the recurring engine.
-- Do not build product/pricing before transaction truth.
+- Do not use old Scan candidates as search priors.
+- Do not broaden F1 back into a generic maintenance platform.
+- Do not claim “China has no such platform” from search absence.
+- Do not confuse whole-machine marketplaces with the hypothesized harvested-parts graph.
+- Do not treat the semiconductor global analogue as China demand proof.
+- Do not buy inventory.
+- Do not recruit dismantlers.
+- Do not build a marketplace.
+- Do not cold-email factories.
+- Do not manually become the repair engineer.
+- Do not promote on attraction alone.
 
 ## Guardrails
 
-- GitHub live state is the operational source of truth.
+- GitHub live state wins.
 - Attraction first for attention; evidence first for truth.
-- `HIGH_ATTRACTION_BEACON != MARKET_VALIDATION`.
-- `REAL_FRICTION != ATTRACTIVE_POSITION`.
-- `LATE_STAGE_PROCESS_IMPROVEMENT != COMMERCIAL_LEVERAGE`.
-- A/B voluntary motion must be evidence-backed.
-- A still-movable decision window is required by default.
-- A late-stage opportunity may survive only when it still controls value/payment release, prevents material economic loss/risk, satisfies a hard compliance/safety boundary, or determines transaction completion.
-- Country/industry psychology may modify a case only with current evidence; do not hard-code stereotypes.
-- Founder/operator preference never manufactures participant demand.
+- Hard attraction floor precedes Pareto.
+- Pareto is attention allocation, not commercial truth.
+- Global analogue != China proof.
+- Search absence != missing-edge proof.
+- Used equipment != verified donor part.
+- Physical compatibility != safe/allowed substitution.
+- Non-safety-critical initial scope only.
+- Founder engineering labor cannot be the recurring bridge.
 - UNKNOWN != PASS.
 - Infer broadly; retain conservatively.
-- Multi-objective attraction is non-compensatory: hard floor before Pareto frontier.
-- Pareto position is an attention allocator, not commercial truth.
-- Weighted attraction totals must not manufacture a winner.
-- Algorithm/model choice must follow a real invariant and explicit assumptions; no cargo-cult complexity.
 
 ## Active Commercial Epoch
 
@@ -259,5 +303,6 @@ Portfolio:
 - ACTIVE TRANSACTION UNITS = 0
 - ACTIVE PARENT FORMATIONS = 0
 - INHERITED WATCHLIST = 0
-- RETAINED RESEARCH FORMATIONS = 0
+- RETAINED RESEARCH FORMATIONS = 1
+- RETAINED = `ATTRACTION_SCAN_004-F1`
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
