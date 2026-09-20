@@ -31,10 +31,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_004",
+  "last_completed_scan_id": "ATTRACTION_SCAN_005",
   "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
-  "next_scan_id": "ATTRACTION_SCAN_005",
-  "current_research_action": "ATTRACTION_SCAN_005_DISCOVERABILITY_FIRST_CLEAN_SLATE_REALITY_SENSING",
+  "next_scan_id": "ATTRACTION_SCAN_006",
+  "current_research_action": "ATTRACTION_SCAN_006_CROSS_DOMAIN_VISIBLE_DATA_HIDDEN_ECONOMIC_RELATION",
   "current_validation_state": {
     "formation_id": null,
     "public_artifact_confirmation": null,
@@ -66,15 +66,21 @@
     "LARGE_VALUE_GAP_WITHOUT_DISCOVERABILITY_IS_HIDDEN_POTENTIAL_NOT_HIGH_ATTRACTION",
     "BOTH_SIDES_MUST_BE_DISCOVERABLE_BEFORE_ROUTING_CAN_BE_CALLED_NARROW",
     "MATCH_RESOLVABILITY_MUST_NOT_REQUIRE_RECURRING_EXPERT_INTERPRETATION",
-    "SCRAPING_HARDER_DOES_NOT_CREATE_ADDRESSABILITY"
+    "SCRAPING_HARDER_DOES_NOT_CREATE_ADDRESSABILITY",
+    "DISCOVERABILITY_IS_NECESSARY_NOT_SUFFICIENT",
+    "VISIBLE_PROSPECT_IS_NOT_THE_SAME_AS_ROUTABLE_VALUE",
+    "PUBLIC_STATE_CHANGE_TO_STANDARD_SERVICE_OFTEN_COLLAPSES_TO_LEAD_GENERATION",
+    "SAME_DOMAIN_PLATFORM_OFTEN_ALREADY_OWNS_THE_OBVIOUS_MATCH",
+    "PREFER_CROSS_DOMAIN_JOINS_BETWEEN_INDEPENDENT_DATA_UNIVERSES",
+    "THE_JOIN_SHOULD_DIRECTLY_CHANGE_ALLOCATION_TRANSACTION_ACCESS_OR_TIMING"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
-    "ATTRACTION_SCAN_003-F1 remains demoted and its prepared outreach must not be sent.",
-    "ATTRACTION_SCAN_004-F1 is demoted despite a real value jump because A-side supply, B-side demand and compatibility are not reliably discoverable/resolvable without recurring manual search or expert interpretation.",
-    "Current scans must treat A-side discoverability, B-side discoverability and match resolvability as non-compensatory hard attraction gates.",
-    "Prefer opportunity surfaces where reality already emits dense searchable digital traces; do not first build a sensor network just to make the market visible.",
-    "ACTIVE COMMERCIAL CANDIDATES and RETAINED RESEARCH FORMATIONS remain zero.",
+    "ATTRACTION_SCAN_004-F1 remains demoted for information capture bottleneck.",
+    "ATTRACTION_SCAN_005 completed with zero high-attraction beacons and zero retained formations.",
+    "China RoHS cross-registry obligation-gap was the strongest near-miss but was not retained because it primarily collapses to qualified lead generation and incumbents already own strong compliance access.",
+    "Discoverability is necessary but not sufficient: visible prospect != routable value.",
+    "Next search prefers cross-domain joins where no incumbent owns both data worlds and the join directly changes an economic allocation/transaction/access/timing decision.",
     "FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN."
   ]
 }

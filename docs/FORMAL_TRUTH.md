@@ -1112,82 +1112,65 @@ Participant attraction requires evidence. Operator attraction allocates founder 
 
 ## 19. Current next action — CANONICAL
 
-`ATTRACTION_SCAN_004-F1 — LEGACY EQUIPMENT HARVEST PARTS GRAPH / 工业旧设备器官库`
-is demoted from current high-attraction status.
+`ATTRACTION_SCAN_005` completed under the discoverability-first hard gate.
 
-The underlying value transformation remains real: a component inside a retiring
-machine can be worth much more to a still-operating compatible asset.
-
-But the formation fails a newly explicit capture-feasibility truth:
-- supply-side donor units are not reliably visible at component level;
-- demand-side exact failure events are fragmented and often private;
-- compatibility frequently requires case-specific expert interpretation;
-- repeated routing would therefore depend on manual information hunting before value
-  can even be captured.
-
-This is not a narrow missing edge.
-
-```text
-LARGE VALUE GAP
-+
-LOW DISCOVERABILITY
-+
-LOW MATCH RESOLVABILITY
-=
-HIDDEN POTENTIAL / LOW CURRENT ATTRACTION
-```
-
-Current state:
+Result:
 - ACTIVE COMMERCIAL CANDIDATES = 0
-- RETAINED RESEARCH FORMATIONS = 0
 - HIGH_ATTRACTION_BEACONS = 0
+- RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-- NEXT = `ATTRACTION_SCAN_005`
+- NEXT = `ATTRACTION_SCAN_006`
 
-Run `ATTRACTION_SCAN_005` from broad current reality with **discoverability as a hard
-front-door gate**.
+The strongest Scan 005 near-miss was a cross-registry regulatory obligation-gap
+structure using China RoHS as the concrete example. It was **not retained**.
 
-The search should prefer realities where:
-- A-side units repeatedly self-reveal in public/platform/API/registry/event/transaction
-  traces;
-- B-side units or state-change events repeatedly self-reveal while decisions remain
-  open;
-- the A↔B match can be resolved from accessible identifiers, attributes or rules;
-- the operator does not first need to build a private sensor network or perform
-  recurring detective work.
+Why:
+- public/full product data can make affected populations unusually discoverable;
+- regulation can create a deterministic future obligation;
+- but the immediate output still collapses toward a qualified prospect list;
+- testing/certification incumbents already own strong upstream access;
+- compliance software already covers much of rule-to-product interpretation;
+- no evidence established direct operator control of the compliance transaction;
+- ordinary unit economics did not establish an extraordinary routing surplus.
 
-Canonical pre-formation hard-floor dimensions now include:
-- A-side voluntary motion;
-- B-side voluntary motion;
-- state-dependent value jump;
-- decision window;
-- bridge compression;
-- activation ease;
-- self-propulsion;
-- operator control;
-- **A-side discoverability**;
-- **B-side discoverability**;
-- **match resolvability**.
-
-Canonical implementation:
-- `src/attraction_discovery.py`;
-- `src/attraction_frontier.py`.
+New scan-level truth:
 
 ```text
-THE WORLD ALREADY EMITS THE SIGNAL
-→ WE NOTICE A NON-OBVIOUS CONNECTION
-→ A SMALL ROUTING LAYER UNLOCKS VALUE
+DISCOVERABILITY IS NECESSARY, NOT SUFFICIENT
+VISIBLE PROSPECT != ROUTABLE VALUE
+PUBLIC STATE CHANGE -> STANDARD SERVICE PROVIDER
+OFTEN COLLAPSES TO LEAD GENERATION
 ```
 
-is preferred over:
+Scan 006 should search from broad current reality for:
+
+`CROSS-DOMAIN VISIBLE DATA / HIDDEN ECONOMIC RELATION`.
+
+Prefer two independently maintained data universes where:
+1. both sides are continuously observable;
+2. neither incumbent naturally owns the other dataset;
+3. a stable, evidence-backed join key exists;
+4. the join directly changes allocation, transaction, access, timing, rights, inventory
+   or another economic state;
+5. value appears because of the join itself, not merely because a provider receives a
+   better prospect list;
+6. the router can capture value without recurring founder sales, search, consulting,
+   inventory ownership or delivery.
 
 ```text
-FIRST BUILD A SENSOR NETWORK
-→ THEN BUILD A MARKET GRAPH
-→ THEN MAYBE DISCOVER A TRANSACTION
+DATA WORLD A
++
+INDEPENDENT DATA WORLD B
++
+NON-OBVIOUS RULE-RESOLVABLE JOIN
++
+DIRECT ECONOMIC STATE CHANGE
++
+NO SINGLE INCUMBENT OWNS BOTH
+→ WORTH ATTRACTION TESTING
 ```
 
-Attraction decides where to look first; evidence decides what may be believed.
+Retain zero again if no such structure survives.
 
 ### 19A. Value-chain leverage truth — LOCKED
 
