@@ -24,7 +24,7 @@
   "seeds": [
     {
       "seed_id": "paid-ugly-workaround",
-      "text": "正常内部路径突然失效 设备故障 订单插单 供应延误 排队爆满 缺货等异常已被系统发现 人员仍需电话 微信 多平台人工寻找替代",
+      "text": "以前需要 打电话 打开App 网页 搜索 客服询价 的实体商品 本地服务 专业服务 在2026开始出现 Skill MCP API Agent下单 但上游真实需求事件仍在另一个系统",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
@@ -101,7 +101,7 @@
     },
     {
       "seed_id": "decision-window-open",
-      "text": "私有异常发生后 损失时钟开始 但仍存在短暂可行动窗口 可立即购买 预订 切换 调度 替代资源",
+      "text": "服务交易轨道刚变成 Agent 可搜索 选择 确认 下单 支付 且用户的高意图决策窗口仍开放",
       "language": "zh-CN",
       "target_primitives": [
         "ACTOR",
@@ -112,7 +112,7 @@
     },
     {
       "seed_id": "premium-for-speed-access",
-      "text": "为避免停机 违约 延误 试验中断 现场停工 等明确损失 已经愿意为即时替代资源支付溢价",
+      "text": "某个外部状态变化让用户现在就愿意付费使用刚刚机器可购买的服务 而不是普通低意图浏览",
       "language": "zh-CN",
       "target_primitives": [
         "MOTIVE",
@@ -145,7 +145,7 @@
     },
     {
       "seed_id": "dense-digital-exhaust-bilateral",
-      "text": "异常事件在私有 ERP MES LIMS IoT 工作流中机器可见 外部替代资源同时有实时库存 空位 价格 交期 和可调用交易动作",
+      "text": "一边是独立可观察的高意图状态事件 一边是刚开放 Skill MCP API Agent交易的服务资源 两边尚未被同一平台完整连接",
       "language": "zh-CN",
       "target_primitives": [
         "ACTOR",
@@ -221,7 +221,7 @@
     },
     {
       "seed_id": "platform-leakage-offplatform",
-      "text": "内部系统掌握异常和损失时钟 外部平台掌握替代资源与交易轨道 但任一方都尚未同时拥有异常事件与可执行替代",
+      "text": "原业务系统掌握高意图事件 新Agent服务轨道掌握可执行供给 由于轨道刚开放 尚未形成原生事件到行动连接",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
@@ -243,7 +243,7 @@
     },
     {
       "seed_id": "repeat-route-compounds",
-      "text": "每次异常 到 替代资源选择 到 下单预约 到 结果 可沉淀兼容 时效 成本 成功率 让下一次自动切换更准确",
+      "text": "高意图事件 到 新可调用服务选择 到 Agent下单支付 到 履约结果 可重复并沉淀服务覆盖 成功率 时效 价格与匹配规则",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
