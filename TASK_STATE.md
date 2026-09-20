@@ -4,138 +4,118 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Run `ATTRACTION_SCAN_005` from a clean slate with **discoverability/addressability as a
-hard attraction gate**.
+Run `ATTRACTION_SCAN_006` from a clean slate.
 
-Do not continue `ATTRACTION_SCAN_004-F1`.
-Do not revive Scan 001/002/003 formations.
-Do not send the cancelled Scan 003 Agent-acceptance outreach.
+Search target:
+
+`CROSS-DOMAIN VISIBLE DATA / HIDDEN ECONOMIC RELATION`
+
+Do not continue any Scan 001-005 formation.
 
 ## Goal
 
-Find a genuinely high-attraction value channel where the world already emits enough
-signal that the operator can capture the route without first building a private sensor
-network.
+Find a genuinely high-attraction value route formed by a non-obvious join between two
+independently maintained, continuously observable data worlds.
+
+The join must directly change an economic state, not merely create a prospect.
 
 Preferred shape:
 
 ```text
-A ALREADY MOVING
-+ B ALREADY MOVING
-+ LARGE STATE-DEPENDENT VALUE JUMP
-+ DECISION WINDOW STILL OPEN
-+ A IS DISCOVERABLE
-+ B IS DISCOVERABLE
-+ A↔B MATCH IS RESOLVABLE
-+ NARROW ROUTING EDGE
-+ LOW RECURRING FOUNDER SEARCH/LABOR
-+ SELF-PROPULSION
+DATA WORLD A IS ALREADY PUBLIC / ACCESSIBLE
++
+DATA WORLD B IS ALREADY PUBLIC / ACCESSIBLE
++
+NO SINGLE INCUMBENT NATURALLY OWNS BOTH
++
+STABLE JOIN KEY / RULE EXISTS
++
+JOIN CHANGES MONEY / RESOURCE / RIGHTS / INVENTORY / ACCESS / TIMING
++
+A AND B ALREADY WANT TO MOVE
++
+ROUTER DOES NOT BECOME SALES / SEARCH / DELIVERY LABOR
 → HIGH-ATTRACTION BEACON
 ```
 
 ## Current Unique Commercial Research Goal
 
-Find one current China-primary reality structure where:
+Find one current China-primary cross-domain join where:
 
-1. A-side moving units repeatedly self-reveal through public/platform/API/registry/
-   event/transaction/community traces;
-2. B-side moving units or state-change events repeatedly self-reveal while decisions
-   remain open;
-3. the A↔B match can be determined from accessible identifiers/attributes/rules rather
-   than recurring expert judgment;
-4. the connection creates a large and legible value jump;
-5. the operator can own routing/control without recurring search, sales or delivery.
+1. A units are continuously enumerable;
+2. B units/events are continuously enumerable;
+3. A↔B compatibility is rule/machine resolvable;
+4. the join itself changes an allocation/transaction/access/timing decision;
+5. no incumbent already controls both data worlds and the action gate;
+6. the operator can capture part of the resulting value flow;
+7. the route compounds rather than recreating founder search/sales.
 
 If none exists, retain zero formations.
 
 ## Current Phase
 
-`SCAN_005_DISCOVERABILITY_FIRST_CLEAN_SLATE_REALITY_SENSING`
+`SCAN_006_CROSS_DOMAIN_VISIBLE_DATA_HIDDEN_ECONOMIC_RELATION`
 
-## Correction from Scan 004
+## Scan 005 result
 
-`ATTRACTION_SCAN_004-F1 — LEGACY EQUIPMENT HARVEST PARTS GRAPH / 工业旧设备器官库`
-is demoted.
+`ATTRACTION_SCAN_005` completed with:
+
+- ACTIVE COMMERCIAL CANDIDATES = 0
+- HIGH_ATTRACTION_BEACONS = 0
+- RETAINED RESEARCH FORMATIONS = 0
+- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
+
+Strongest near-miss:
+
+`REGULATORY_DELTA_CROSS_REGISTRY_OBLIGATION_GAP`
+using China RoHS 2026 expansion as the concrete test.
+
+It was not retained.
 
 Why:
-- real donor-part reuse behavior exists;
-- real value jump exists;
-- but exact donor supply is fragmented and often hidden inside whole-machine/private
-  inventories;
-- exact demand events are fragmented/private;
-- compatibility often requires bespoke engineering;
-- repeated routing therefore begins with manual information hunting.
+- source topology was unusually good;
+- some product populations can be bulk enumerated;
+- compliance state can be queried;
+- but the output mainly becomes a qualified future-obligation prospect list;
+- service providers already own strong regulatory/customer access;
+- compliance tooling is mature;
+- direct transaction control and extraordinary route economics were not proven.
 
-Verdict:
+## Current Findings
 
-`DEMOTED_INFORMATION_CAPTURE_BOTTLENECK`
-
-The prior HIGH_ATTRACTION classification was wrong under the corrected doctrine.
-
-## New hard-floor dimensions
-
-Canonical `src/attraction_discovery.py` now requires:
-- A-side voluntary motion;
-- B-side voluntary motion;
-- state-dependent value jump;
-- decision window;
-- bridge compression;
-- activation ease;
-- self-propulsion;
-- operator control;
-- **A-side discoverability**;
-- **B-side discoverability**;
-- **match resolvability**.
-
-Additional immediate kills:
-- recurring founder search required;
-- recurring expert matching required.
-
-These are non-compensatory.
-
-A huge value gap cannot rescue invisible supply, invisible demand or an unresolvable
-match.
-
-## Search preference
-
-Prefer realities where both sides already leave dense digital exhaust:
-
-- public transaction/order/event streams;
-- standardized platform listings;
-- searchable registries;
-- APIs;
-- machine-readable government data;
-- price/capacity/status feeds;
-- public tenders/results where useful as evidence;
-- large communities with repeated self-published structured intent;
-- existing workflow/software exhaust.
-
-The desired form is:
+Scan 005 established:
 
 ```text
-THE WORLD ALREADY EMITS THE SIGNAL
-→ SYSTEM DETECTS A NON-OBVIOUS CONNECTION
-→ SMALL ROUTING LAYER UNLOCKS LARGE VALUE
+DISCOVERABILITY IS NECESSARY NOT SUFFICIENT
+VISIBLE PROSPECT != ROUTABLE VALUE
+PUBLIC DATA VOLUME != COMMERCIAL LEVERAGE
+PUBLIC STATE CHANGE -> STANDARD SERVICE
+OFTEN BECOMES LEAD GENERATION
 ```
 
-Reject the form:
+The new preferred search topology is cross-domain rather than same-domain matching.
 
-```text
-FIRST BUILD A SENSOR NETWORK
-→ THEN BUILD A MARKET GRAPH
-→ THEN MAYBE FIND A TRANSACTION
-```
+Same-domain matching is frequently already owned by:
+- the platform;
+- the regulator;
+- the service provider;
+- a vertical SaaS/data vendor.
+
+The more interesting residual may exist where two different institutions/platforms
+publish different halves of an economically important state, but neither has reason to
+join them.
 
 ## Last Verified Main
 
 `1959949c25afd7f47e772c18cdcadc5e66029529`
-— squash merge of PR #276, `Make discoverability a hard attraction gate`.
+— functional merge of PR #276.
 
 Verified:
-- PR #276 head CI #832: success;
 - main CI #833 / run `35488228380`: success;
 - research-mission-plan #5 / run `35488228371`: success;
-- artifact `research-mission-plan-state` id `10598107025`, digest `sha256:3e586b9c31119ad947078f9fd0f3578d58b6f3fc6d0dbddb0394e7c13009763f`.
+- artifact id `10598107025`.
+
+A later control-plane-only checkpoint PR #277 also merged.
 
 ## Active Issue
 
@@ -143,81 +123,46 @@ Verified:
 
 ## Active Branch
 
-None for business/research work.
-
-This handoff-only checkpoint branch is:
-`feature/discoverability-postmerge-state`
+`feature/attraction-scan-005-zero-retention`
 
 ## Active PR
 
-None for business/research work.
-
-PR #276 is merged.
+Not opened yet.
 
 ## CI
 
-Latest verified:
-- PR #276 head CI #832: success;
-- main CI #833: success;
-- research-mission-plan #5: success.
+Pending for the Scan 005 persistence branch.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `docs/research/ATTRACTION_SCAN_004_F1_DISCOVERABILITY_REASSESSMENT_2026-09-20.md`
+- `docs/research/ATTRACTION_SCAN_005_2026-09-20.md`
+- `data/research_runs/attraction_scan_005.json`
 
-Changed canonical controls:
-- `src/attraction_discovery.py`
-- `src/attraction_frontier.py`
-- `src/research_control_plane.py`
-- `docs/OPPORTUNITY_ATTRACTION_FIELD.md`
-- `docs/FORMAL_TRUTH.md`
-- `AGENTS.md`
-- `data/research_missions/attraction_field_broad_reality.json`
+Updated:
 - `data/commercial_reset_state.json`
+- `data/research_missions/attraction_field_broad_reality.json`
+- `docs/FORMAL_TRUTH.md`
 
 ## Completed
 
-- identified information capture as the fatal Scan 004 omission;
-- demoted Scan 004 F1 from high-attraction status;
-- removed all retained research formations;
-- added A-side discoverability, B-side discoverability and match resolvability to the
-  executable attraction hard floor;
-- added recurring founder-search and recurring expert-match kill conditions;
-- added the three capture dimensions to Pareto objectives;
-- rewired the research executor contract to collect discoverability evidence;
-- shifted the active research mission toward dense bilateral digital exhaust;
-- updated canonical doctrine and formal truth.
-
-## Current Findings
-
-The Scan 004 correction is now explicit:
-
-```text
-REAL VALUE GAP
-WITHOUT
-SCALABLE A-SIDE VISIBILITY
-AND
-SCALABLE B-SIDE VISIBILITY
-AND
-RESOLVABLE MATCH LOGIC
-=
-NOT CURRENT HIGH ATTRACTION
-```
-
-The system should now prefer opportunity surfaces where the internet/platform/software
-environment already emits enough structured evidence to make the route visible before
-the operator invests in custom sensing.
-
-No current formation survives this corrected hard floor.
+- executed a discoverability-first chained web scan across unrelated data worlds;
+- rejected same-domain matches already owned by platforms/incumbents;
+- rejected pure regulatory/service lead-generation patterns;
+- rejected bankruptcy/auction arbitrage because B-side demand is not equivalently
+  visible and condition requires manual due diligence;
+- verified NMPA UDI as an example of genuine bulk/full/incremental source topology;
+- tested China RoHS as the strongest cross-registry near-miss and did not retain it;
+- preserved zero-retention truth;
+- retargeted research mission wording toward cross-domain hidden joins.
 
 ## Blockers
 
 Engineering:
-- none.
+- Scan 005 persistence branch CI not yet verified.
 
 Research:
-- Scan 005 has not yet been executed.
+- Scan 006 has not yet executed.
 - no current HIGH_ATTRACTION_BEACON exists.
 
 Commercial:
@@ -228,38 +173,41 @@ Commercial:
 
 ## Next Action
 
-Execute `ATTRACTION_SCAN_005` from broad current reality.
+Finish PR/CI/merge for Scan 005 persistence, then execute
+`ATTRACTION_SCAN_006`.
 
-Search discipline:
-1. do not inherit industrial equipment or any previous vertical;
-2. first look for high-value state changes with dense bilateral observable traces;
-3. require a named recurring source surface for A;
-4. require a named recurring source surface for B;
-5. require a machine/rule-resolvable join key or compatibility relation;
-6. apply `src/attraction_discovery.py` before deep research;
-7. apply Pareto only among signals that survive all hard floors;
-8. retain zero if the route requires recurring detective work.
+Scan 006 search discipline:
+1. reopen broad current reality; do not inherit RoHS/compliance as a favored vertical;
+2. look for two independent, continuously observable data universes;
+3. require a stable join key;
+4. require the join itself to alter economic state;
+5. reject outputs that are merely better cold-call lists;
+6. reject cases where one platform already owns both data and action;
+7. reject recurring founder search, consulting, inventory ownership or delivery;
+8. apply attraction hard floors before deep research;
+9. apply Pareto only after all hard floors survive;
+10. retain zero again if necessary.
 
 ## Do Not Repeat
 
-- Do not rescue Scan 004 F1 by searching harder.
-- Do not equate scraping effort with discoverability.
-- Do not call a theoretically searchable actor population addressable.
-- Do not use private/offline inventory archaeology as the core route.
-- Do not use recurring founder cold calls to create visibility.
-- Do not use recurring expert interpretation to create a match.
-- Do not let a huge theoretical value gap compensate for hidden data.
-- Do not inherit old cases as priors.
-- Do not build product/pricing before transaction truth.
+- Do not revive Scan 004 equipment harvesting.
+- Do not promote China RoHS merely because the data is elegant.
+- Do not mistake full data downloads for a business.
+- Do not mistake an exact prospect for a routable transaction.
+- Do not build a generic compliance lead database.
+- Do not default back to procurement/tender intelligence.
+- Do not inherit prior verticals as search priors.
+- Do not lower the attraction threshold to avoid a zero-result scan.
 
 ## Guardrails
 
 - GitHub live state wins.
 - Attraction first for attention; evidence first for truth.
-- `VALUE_GAP_WITHOUT_DISCOVERABILITY != HIGH_ATTRACTION`.
-- `SCRAPING_HARDER != ADDRESSABILITY`.
-- `FOUNDER_HUNTING != ROUTING_CONTROL`.
-- `A_VISIBLE + B_VISIBLE + MATCH_RESOLVABLE` is required for current high attraction.
+- A_VISIBLE + B_VISIBLE + MATCH_RESOLVABLE remains required.
+- VISIBLE_PROSPECT != ROUTABLE_VALUE.
+- PUBLIC_DATA != OPERATOR_CONTROL.
+- SAME_DOMAIN_PLATFORM_OWNS_BOTH -> DEFAULT DEMOTION.
+- JOIN should directly alter allocation/transaction/access/timing.
 - Hard attraction floor precedes Pareto.
 - UNKNOWN != PASS.
 - Infer broadly; retain conservatively.
