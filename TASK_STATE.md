@@ -106,10 +106,10 @@ Xiaozhi/Bearhome:
 
 ## Last Verified Main
 
-`5070f02401dffcb6b3bf612f23eb61ce93f86007`
-— squash merge of PR #301, `Sync recovery checkpoint after Wave 1 sent`.
+`c4304a5346c61dd0d1d9c5e708bff83c9325aa19`
+— squash merge of PR #302, `Prepare Scan 015 F1 provider response intake`.
 
-PR #301 head CI #884 passed before merge.
+PR #302 head CI #886 passed before merge.
 
 ## Active Issue
 
@@ -117,11 +117,11 @@ PR #301 head CI #884 passed before merge.
 
 ## Active Branch
 
-`feature/scan015-f1-provider-response-intake`
+None. Current canonical state is on `main`.
 
 ## Active PR
 
-Not opened yet for provider-response intake checkpoint.
+None. PR #302 is merged.
 
 ## CI
 
@@ -139,6 +139,7 @@ PR #298 / CI #878 succeeded.
 PR #299 / CI #880 succeeded.
 PR #300 / CI #882 succeeded.
 PR #301 / CI #884 succeeded.
+PR #302 / CI #886 succeeded.
 
 ## Latest Artifact / Persisted State
 
@@ -183,7 +184,8 @@ Engineering:
 - PR #299 recovery checkpoint is merged and green.
 - PR #300 Wave 1 sent-state checkpoint is merged and green.
 - PR #301 recovery checkpoint is merged and green.
-- Current provider-response intake checkpoint PR/CI is not yet complete.
+- PR #302 provider-response intake checkpoint is merged and green.
+- No engineering blocker remains.
 
 Research:
 1. public docs prove technical post-inspection/payment outcome visibility on at least Suhuanji and Xiaozhi, but cross-rail comparison/retention/derived-model rights remain UNKNOWN; same-layer public rights search has reached a useful ceiling;
