@@ -1,0 +1,108 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_021",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-20",
+  "status": "COMPLETE",
+  "search_mode": "FORMATION_DIVERSE_CLEAN_SLATE_ATTRACTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_021-F1",
+      "title": "SME_OVERDUE_PAYMENT_EVIDENCE_COMPILER",
+      "chinese_title": "中小企业逾期回款证据编译器",
+      "state": "RESEARCH_BEACON_RETAINED_FOR_PAYER_LEGAL_BOUNDARY_AND_DISCOVERABILITY_FALSIFICATION",
+      "commercial_candidate": false,
+      "mechanism_class": "RIGHTS_EXECUTION_COMPILATION",
+      "mechanism": "A self-serve system ingests contract, delivery/acceptance, reconciliation, settlement and payment records; checks bounded eligibility and timing rules; identifies missing evidence; and compiles a structured complaint packet plus the correct official complaint path while failing closed on disputed or ambiguous legal questions.",
+      "operator_asset": "Versioned complaint-evidence schema, rule-to-document mappings, deficiency taxonomy, and non-identifying workflow outcome telemetry that can improve packet completeness without requiring recurring founder judgment.",
+      "public_action_rail": "NATIONAL_AND_PROVINCIAL_SME_OVERDUE_PAYMENT_COMPLAINT_PLATFORM",
+      "attraction_profile": {
+        "a_voluntary_motion": 3,
+        "b_voluntary_motion": 2,
+        "state_dependent_value_jump": 3,
+        "decision_window": 3,
+        "bridge_compression": 3,
+        "activation_ease": 2,
+        "self_propulsion": 2,
+        "operator_control": 2,
+        "a_discoverability": 2,
+        "b_discoverability": 3,
+        "match_resolvability": 3,
+        "action_gate_callability": 2
+      },
+      "proven_signals": [
+        "2026_POLICY_TIGHTENING_ON_SME_PAYMENT_RECOVERY",
+        "DRAFT_COMPLAINT_RULE_STANDARDIZES_CORE_SUBMISSION_FIELDS_AND_EVIDENCE",
+        "NATIONAL_ONE_STOP_COMPLAINT_RAIL_EXISTS",
+        "PUBLIC_LOCAL_RESULTS_SHOW_COMPLAINT_RAIL_CAN_CONVERT_TO_REAL_RECOVERY",
+        "ADJACENT_ENTERPRISES_PAY_FOR_LEGAL_AUTOMATION_AND_STANDARDIZED_COLLECTION_DOCUMENTS"
+      ],
+      "decisive_unknowns": [
+        "EXACT_PAYER_WILLINGNESS_FOR_SELF_SERVE_COMPLAINT_PACKET_COMPILATION",
+        "ORGANIC_HIGH_INTENT_DISCOVERABILITY_WITHOUT_RECURRING_FOUNDER_SALES",
+        "NON_LAW_FIRM_PRODUCT_BOUNDARY_FOR_RULE_APPLICATION_AND_DOCUMENT_GENERATION",
+        "NO_EXACT_INCUMBENT_SPECIALIZED_ON_THIS_ADMINISTRATIVE_COMPLAINT_WORKFLOW",
+        "OUTCOME_TELEMETRY_CAN_BE_COLLECTED_LAWFULLY_AND_WITH_USER_CONSENT",
+        "MANUAL_OFFICIAL_SUBMISSION_FRICTION_DOES_NOT_DESTROY_CONVERSION"
+      ],
+      "fail_closed_boundary": "Do not represent users, promise recovery, decide genuinely disputed legal facts, or automate court/arbitration strategy. Ambiguous or disputed matters must route to qualified legal professionals.",
+      "next_action": "CHEAP_FALSIFY_EXACT_PAYER_DISCOVERABILITY_LEGAL_BOUNDARY_AND_INCUMBENT_ABSENCE"
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_021-F1"
+  ],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1",
+    "ATTRACTION_SCAN_016-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "GENERIC_SHARED_MANUFACTURING_CAPACITY_PLATFORM",
+      "mechanism_class": "STRANDED_RESOURCE_ACTIVATION",
+      "verdict": "DEMOTED_INCUMBENT_CROWDED",
+      "evidence_summary": "Real order decomposition and idle-capacity activation produce measurable value, but multiple current platforms already combine capacity listing, AI quoting, matching, workflow and settlement/collaboration."
+    },
+    {
+      "title": "SMALL_PROCESSOR_UNIFIED_PRIVACY_COMPLIANCE_FOR_MALLS_AND_PARKS",
+      "mechanism_class": "MACHINE_EXECUTABLE_COMPLIANCE",
+      "verdict": "DEMOTED_PAYER_PULL_NOT_PROVEN",
+      "evidence_summary": "The 2026 simplified personal-information rule creates a one-to-many compliance structure for managed commercial properties and parks, but exact buyer willingness for a lightweight software layer was not established."
+    },
+    {
+      "title": "ELECTRONIC_TRADE_DOCUMENT_TRANSITION_LAYER",
+      "mechanism_class": "RIGHTS_AND_STANDARD_TRANSITION",
+      "verdict": "DEMOTED_CONTROL_SURFACE_INTERNALIZED",
+      "evidence_summary": "The electronic-document transition is real, but banks, carriers, platform operators and existing document systems already occupy the execution surface."
+    },
+    {
+      "title": "SMALL_ENTERPRISE_SAFETY_STANDARD_COMPLIANCE_TOOL",
+      "mechanism_class": "MACHINE_EXECUTABLE_COMPLIANCE",
+      "verdict": "DEMOTED_MANDATORY_PULL_NOT_PROVEN",
+      "evidence_summary": "A new simplified small-enterprise safety standard exists, but mandatory adoption and exact payer pull were not established."
+    }
+  ],
+  "hard_floor_demotions": [
+    "GENERIC_SHARED_MANUFACTURING_PLATFORM_ALREADY_COMPETITIVE_AND_PLATFORMIZED",
+    "UNIFIED_SMALL_PROCESSOR_PRIVACY_COMPLIANCE_HAS_NO_EXACT_PAYER_PROOF",
+    "ELECTRONIC_TRADE_DOCUMENT_EXECUTION_SURFACE_ALREADY_OWNED_BY_INCUMBENTS",
+    "SMALL_ENTERPRISE_SAFETY_STANDARD_TOOL_LACKS_MANDATORY_OR_PAID_PULL"
+  ],
+  "scan_learnings": [
+    "DIRECT_CASH_RECOVERY_STATE_CAN_OUTPULL_GENERIC_COMPLIANCE",
+    "STANDARDIZED_ADMINISTRATIVE_EVIDENCE_REQUIREMENTS_CAN_FORM_A_MACHINE_EXECUTABLE_BRIDGE_WITHOUT_ROUTING",
+    "OFFICIAL_COMPLAINT_RECOVERY_OUTCOMES_PROVE_RAIL_VALUE_NOT_THIRD_PARTY_PAYER_WILLINGNESS",
+    "GENERIC_AR_SAAS_DOES_NOT_ESTABLISH_AN_EXACT_COMPLAINT_EVIDENCE_COMPILER_INCUMBENT",
+    "LEGAL_SERVICE_BOUNDARY_AND_EXACT_PAYER_WILLINGNESS_ARE_HARD_UNKNOWNS",
+    "GENERIC_SHARED_MANUFACTURING_IS_REAL_VALUE_CREATION_BUT_CURRENTLY_INCUMBENT_CROWDED",
+    "NEW_COMPLIANCE_RULE_WITHOUT_PAYER_PULL_IS_NOT_A_COMMERCIAL_FORMATION",
+    "FORMATION_DIVERSITY_SURFACED_A_NON_ROUTER_RIGHTS_EXECUTION_BEACON"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_022",
+  "next_search_boundary": "FORMATION_DIVERSE_BROAD_REALITY_NO_SCAN021_VERTICAL_INHERITANCE",
+  "next_action": "PARALLEL_FALSIFY_SCAN021_F1_AND_START_SCAN022_WITHOUT_PAYMENT_RECOVERY_VERTICAL_INHERITANCE",
+  "first_external_value_flow": "NOT_PROVEN"
+}
