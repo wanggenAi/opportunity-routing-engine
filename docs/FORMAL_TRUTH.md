@@ -1112,53 +1112,66 @@ Participant attraction requires evidence. Operator attraction allocates founder 
 
 ## 19. Current next action — CANONICAL
 
-`ATTRACTION_SCAN_006` completed under the cross-domain hidden-join search.
+`ATTRACTION_SCAN_007` completed under the visible-data + hidden-join + callable-action search.
 
 Result:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-- NEXT = `ATTRACTION_SCAN_007`
+- NEXT = `ATTRACTION_SCAN_008`
 
-Scan 006 tested cross-domain joins across shortage supply, waste/material flows, freight
-capacity, construction earth, rooftop/grid capacity, tradable resource rights,
-unclaimed money, global procurement and data markets.
+Scan 007 tested whether a visible/resolvable match could actually enter a repeatable
+economic action rail.
 
-The scan found useful joins but no current high-attraction route.
-
-New truth:
+Key result:
 
 ```text
-VISIBLE JOIN != ACTIONABLE VALUE ROUTE
-DISCOVERABILITY + MATCH RESOLVABILITY != ACTION CONTROL
-DECISION SUPPORT != ROUTING CONTROL
+CALLABLE ACTION GATE IS NECESSARY
+BUT
+CASE-BY-CASE PERMISSION != TRANSACTION RAIL
+VISIBLE MATCH + MANUAL APPROVAL != HIGH ATTRACTION
+NATIVE TRANSACTIONABILITY > PERMISSION ARCHAEOLOGY
 ```
 
-The route remains weak when the actual economic state-change button is exclusively
-owned by:
-- a regulator;
-- a statutory administrator;
-- an exchange;
-- a grid/infrastructure operator;
-- the original marketplace;
-- another incumbent that already controls allocation or settlement.
+Evidence across event registrations, exhibition booths, cloud commitments and B2B
+aggregation showed that "can sometimes be transferred" is not enough. The action must
+be repeatable under stable, enumerable rules.
 
-Run `ATTRACTION_SCAN_007` from broad current reality with working search label:
+Canonical attraction hard floors now include:
+- A-side voluntary motion;
+- B-side voluntary motion;
+- state-dependent value jump;
+- decision window;
+- bridge compression;
+- activation ease;
+- self-propulsion;
+- operator control;
+- A-side discoverability;
+- B-side discoverability;
+- match resolvability;
+- **action-gate callability**.
 
-`VISIBLE DATA + HIDDEN JOIN + CALLABLE ACTION GATE`.
+Canonical implementation:
+- `src/attraction_discovery.py`;
+- `src/attraction_frontier.py`.
 
-Prefer formations where:
-1. A and B continuously self-reveal;
-2. both sides already show motion;
-3. the join is objectively resolvable;
-4. the join creates a large state-dependent value jump;
-5. participants/operator can actually call the action/transaction/settlement rail;
-6. no single incumbent already owns both the information relation and the action gate;
-7. successful routing can compound without recurring founder search, cold sales,
-   consulting, inventory ownership or delivery.
+Run `ATTRACTION_SCAN_008` from broad current reality with working search label:
 
-Retain zero again if no such structure survives.
+`INDEPENDENT SIGNAL × OPEN TRANSACTION RAIL`.
+
+Prefer:
+1. an already-open/native/self-service transaction or settlement rail;
+2. an independent external signal not naturally owned by that rail;
+3. a stable machine-resolvable join;
+4. bilateral motion;
+5. a large value jump caused by acting on the external signal;
+6. evidence that the rail owner has not already productized the signal;
+7. a capture path that does not require inventory ownership, consulting, manual
+   permission checks or recurring cold sales.
+
+Retain zero again if the external signal is already integrated, the rail is not truly
+open/repeatable, or the benefit is only informational.
 
 ### 19A. Value-chain leverage truth — LOCKED
 
