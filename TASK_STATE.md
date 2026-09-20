@@ -106,10 +106,10 @@ Xiaozhi/Bearhome:
 
 ## Last Verified Main
 
-`9c8d856865c3348c1e897d37504f5b6cb7f51cde`
-— squash merge of PR #293, `Strengthen Scan 015 F1 Suhuanji technical closure`.
+`9dbe03578e98bab8129d2e74cf58ac8f6c6c0ba7`
+— squash merge of PR #294, `Mark Scan 015 F1 public-rights search ceiling`.
 
-PR #293 head CI #868 passed before merge.
+PR #294 head CI #870 passed before merge.
 
 ## Active Issue
 
@@ -117,11 +117,11 @@ PR #293 head CI #868 passed before merge.
 
 ## Active Branch
 
-`feature/scan015-f1-public-rights-ceiling`
+None. Current canonical state is on `main`.
 
 ## Active PR
 
-Not opened yet for the public-rights search-ceiling checkpoint.
+None. PR #294 is merged.
 
 ## CI
 
@@ -131,6 +131,7 @@ PR #290 / CI #862 succeeded.
 PR #291 / CI #864 succeeded.
 PR #292 / CI #866 succeeded.
 PR #293 / CI #868 succeeded.
+PR #294 / CI #870 succeeded.
 
 ## Latest Artifact / Persisted State
 
@@ -167,7 +168,8 @@ Engineering:
 - PR #291 outreach-readiness checkpoint is merged and green.
 - PR #292 written-rights response-rubric checkpoint is merged and green.
 - PR #293 Suhuanji technical-closure checkpoint is merged and green.
-- Current public-rights search-ceiling checkpoint PR/CI is not yet complete.
+- PR #294 public-rights search-ceiling checkpoint is merged and green.
+- No engineering blocker remains.
 
 Research:
 1. public docs prove technical post-inspection/payment outcome visibility on at least Suhuanji and Xiaozhi, but cross-rail comparison/retention/derived-model rights remain UNKNOWN; same-layer public rights search has reached a useful ceiling;
