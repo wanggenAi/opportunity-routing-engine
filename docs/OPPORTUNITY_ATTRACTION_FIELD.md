@@ -18,6 +18,10 @@ PARTICIPANT VOLUNTARY ENERGY
 OPERATOR STRATEGIC ACTIVATION
 +
 LOW ENOUGH ACTIVATION FRICTION
++
+DISCOVERABLE / ADDRESSABLE MOVING UNITS
++
+RESOLVABLE A↔B MATCH
 → STRONG ATTRACTION FIELD
 ```
 
@@ -38,7 +42,11 @@ Search first for combinations such as:
 - a narrow missing connection whose removal changes the reachable state sharply;
 - behavior where successful routing naturally makes the next routing easier;
 - a bridge the operator can own as a control/routing layer rather than perform as a
-  recurring job.
+  recurring job;
+- A-side and B-side moving units already leaving dense public, platform, API,
+  registry, transaction, community or other scalable digital traces;
+- a match relation that can be resolved from accessible identity/rule evidence rather
+  than recurring bespoke expert interpretation.
 
 Canonical pre-formation beacon: `src/attraction_discovery.py`.
 
@@ -202,7 +210,86 @@ ATTRACTION FIELD = weakest critical attraction vector
 
 as a reasoning rule, not a numeric equation.
 
-## 4A. Multiple strong signals use a Pareto frontier
+## 4A. Discoverability / addressability is a hard attraction gate
+
+A large value gap is not enough.
+
+The operator must be able to **see the moving units while the decision window is
+still open**.
+
+Every high-attraction formation must separately establish:
+
+### A-side discoverability
+
+Can the relevant resource/supply units be repeatedly discovered through scalable
+observable traces such as:
+- public listings;
+- platform feeds;
+- searchable registries/databases;
+- APIs;
+- transaction/event streams;
+- structured public documents;
+- permissioned partner data;
+- repeated self-published intent in large communities?
+
+If each unit requires private relationships, site visits, cold calling, manual
+inventory archaeology or one-off detective work, current attraction is low.
+
+### B-side discoverability
+
+Can the relevant demand/state-change event be detected repeatedly while the actor can
+still choose a route?
+
+If demand becomes visible only after bespoke outreach, closed-network referrals or
+after the decision is already locked, current attraction is low.
+
+### Match resolvability
+
+Once A and B are visible, can the system determine whether they can actually connect
+from accessible evidence?
+
+Prefer:
+- exact identifiers;
+- standardized attributes;
+- explicit compatibility rules;
+- location/time/capacity fields;
+- machine-readable constraints;
+- reusable verification logic.
+
+Demote when every match requires:
+- bespoke engineering;
+- manual expert judgment;
+- physical investigation before identity is known;
+- founder-specific interpretation;
+- repeated human detective work.
+
+Hard rule:
+
+```text
+VALUE GAP WITHOUT DISCOVERABILITY
+= HIDDEN POTENTIAL, NOT CURRENT HIGH ATTRACTION
+
+A VISIBLE + B VISIBLE + MATCH RESOLVABLE
+= CAPTURABLE OPPORTUNITY SURFACE
+```
+
+And:
+
+```text
+SCRAPING HARDER != DISCOVERABILITY
+MORE SEARCH QUERIES != ADDRESSABLE MARKET
+FOUNDER HUNTING != ROUTING CONTROL
+FIRST BUILD A SENSOR NETWORK != NARROW BRIDGE
+```
+
+Canonical executable dimensions:
+- `a_discoverability`;
+- `b_discoverability`;
+- `match_resolvability`.
+
+All three are hard-floor dimensions in `src/attraction_discovery.py`.
+
+## 4B. Multiple strong signals use a Pareto frontier
 
 Once several signals have already passed the hard `HIGH_ATTRACTION_BEACON` floor,
 do not collapse the critical attraction dimensions into one weighted score.
@@ -220,7 +307,10 @@ Critical objectives are currently:
 - bridge compression;
 - activation ease;
 - self-propulsion;
-- operator control.
+- operator control;
+- A-side discoverability;
+- B-side discoverability;
+- match resolvability.
 
 The first deep-discovery attention set is the non-dominated frontier.
 
@@ -276,6 +366,16 @@ What permission, education, trust, integration, capital or behavior change is st
 
 SELF-PROPULSION:
 After the first successful route, what makes the next route easier or more likely?
+
+A-SIDE DISCOVERABILITY:
+Where do the relevant A units continuously become visible without bespoke hunting?
+
+B-SIDE DISCOVERABILITY:
+Where do the relevant B events/units continuously become visible while decisions are open?
+
+MATCH RESOLVABILITY:
+What accessible identifiers/rules let the system decide whether A and B can connect
+without recurring expert interpretation?
 ```
 
 Participant attraction must preserve truth states such as `OBSERVED / INFERRED / EVIDENCED_STRUCTURE`. Operator attraction may be recorded directly as a strategic preference, but it must remain separate from market evidence.
@@ -393,7 +493,9 @@ For current founder attention, prefer formations where:
 - activation friction is bounded;
 - the operator has high strategic attraction;
 - the operator can stay in orchestration rather than recurring execution;
-- successful routing can compound into data, trust, access, coverage or lower future routing cost.
+- successful routing can compound into data, trust, access, coverage or lower future routing cost;
+- both sides are discoverable from scalable observable traces;
+- the match relation can be resolved without recurring expert search/interpretation.
 
 A logically valid but low-attraction formation may remain in the ledger. It should not consume scarce founder attention merely because it can be defended analytically.
 
