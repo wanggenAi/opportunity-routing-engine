@@ -28,7 +28,22 @@
         "quotePrice",
         "partner-stored order relationship"
       ],
-      "data_reuse_right": "UNKNOWN"
+      "data_reuse_right": "UNKNOWN",
+      "estimate_to_realized_payout_data_closure": "PASS",
+      "partner_user_order_relationship": "PASS",
+      "observed_fields": [
+        "valuationPrice",
+        "quotePrice",
+        "channelPrice",
+        "paymentStatus",
+        "paymentAmount",
+        "paymentTime",
+        "transactionSuccessTime",
+        "channelOrderId"
+      ],
+      "public_business_contact": "UNRESOLVED",
+      "commission_terms": "UNKNOWN",
+      "cross_rail_reuse_right": "UNKNOWN"
     },
     "XIAOZHI_BEARHOME": {
       "technical_outcome_visibility": "PASS",
