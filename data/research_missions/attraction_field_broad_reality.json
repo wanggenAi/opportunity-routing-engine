@@ -134,7 +134,7 @@
     },
     {
       "seed_id": "fragmented-supply-urgent-demand",
-      "text": "大量分散小供给 难触达 与 集中急需需求 同时存在 但无法低摩擦连接",
+      "text": "大量分散小供给 与 集中急需需求 同时存在 且两边已有公开可搜索痕迹 只缺低摩擦连接",
       "language": "zh-CN",
       "target_primitives": [
         "ACTOR",
@@ -144,11 +144,11 @@
       ]
     },
     {
-      "seed_id": "expertise-without-callable-route",
-      "text": "有真实经验 技能 专业能力 但没有可调用角色 同时有人反复付费求助",
+      "seed_id": "dense-digital-exhaust-bilateral",
+      "text": "需求与供给 两边都在 公开平台 列表 API 招投标 社区 交易流 日志 中持续留下可搜索结构化痕迹",
       "language": "zh-CN",
       "target_primitives": [
-        "CAPABILITY",
+        "ACTOR",
         "RESOURCE",
         "BEHAVIOR",
         "FLOW"
@@ -243,7 +243,7 @@
     },
     {
       "seed_id": "repeat-route-compounds",
-      "text": "同类交易反复发生 第一次靠人工 后续因名单 信誉 数据 规则 路由明显更容易",
+      "text": "同类交易反复发生 且每次路由沉淀 可复用名单 结构化身份 规则 信誉 数据 让下一次自动更容易",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",

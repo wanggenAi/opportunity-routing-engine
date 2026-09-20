@@ -411,6 +411,9 @@ def build_research_plan(
                     "ACTIVATION_EASE",
                     "SELF_PROPULSION",
                     "OPERATOR_CONTROL_WITHOUT_RECURRING_LABOR",
+                    "A_SIDE_DISCOVERABILITY",
+                    "B_SIDE_DISCOVERABILITY",
+                    "MATCH_RESOLVABILITY_WITHOUT_RECURRING_EXPERT_LABOR",
                 ]
                 if mission.attention_mode == "ATTRACTION_FIRST"
                 else []
