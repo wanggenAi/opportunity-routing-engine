@@ -321,11 +321,5 @@
     "AUTHORIZED_API",
     "AUTHORIZED_EXPORT",
     "PUBLIC_MANUAL"
-  ],
-  "discovery_concurrency": {
-    "validation_wait_does_not_block_discovery": true,
-    "active_formations_must_not_seed_new_broad_scan": true,
-    "active_formation_validation_queue_is_separate": true,
-    "next_scan_must_restart_from_broad_current_reality": true
-  }
+  ]
 }
