@@ -35,6 +35,9 @@ PARETO_OBJECTIVES: tuple[str, ...] = (
     "activation_ease",
     "self_propulsion",
     "operator_control",
+    "a_discoverability",
+    "b_discoverability",
+    "match_resolvability",
 )
 
 
@@ -183,5 +186,6 @@ GOVERNING_INVARIANTS = (
     "NON_COMPENSATORY_OBJECTIVES_NE_WEIGHTED_TOTAL_SCORE",
     "DOMINATED_SIGNAL_SHOULD_NOT_CONSUME_FIRST_DEEP_DIVE_ATTENTION",
     "IDENTICAL_NON_DOMINATED_VECTORS_MAY_COEXIST",
+    "DISCOVERABILITY_AND_MATCH_RESOLVABILITY_ARE_NON_COMPENSATORY",
     "ALGORITHM_COMPLEXITY_MUST_BE_JUSTIFIED_BY_MEASURED_SCALE",
 )
