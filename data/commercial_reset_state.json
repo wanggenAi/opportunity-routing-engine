@@ -31,10 +31,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_010",
+  "last_completed_scan_id": "ATTRACTION_SCAN_011",
   "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
-  "next_scan_id": "ATTRACTION_SCAN_011",
-  "current_research_action": "ATTRACTION_SCAN_011_PRIVATE_CONTEXT_X_PUBLIC_LIVE_RAIL_X_PAID_MACHINE_DECISION",
+  "next_scan_id": "ATTRACTION_SCAN_012",
+  "current_research_action": "ATTRACTION_SCAN_012_PRIVATE_EXCEPTION_EVENT_X_OPEN_FAILOVER_RAIL",
   "current_validation_state": {
     "formation_id": null,
     "public_artifact_confirmation": null,
@@ -101,18 +101,24 @@
     "PUBLIC_PUBLIC_GENERAL_RULE_ROUTING_COMMODITIZES_QUICKLY",
     "PRIVATE_CONTEXT_ALONE_IS_NOT_A_MOAT",
     "PRIVATE_CONTEXT_X_EXTERNAL_LIVE_RAIL_MAY_PRESERVE_UNOWNED_JOIN",
-    "PREFER_PRIVATE_CONTEXT_X_PUBLIC_LIVE_RAIL_X_PAID_MACHINE_DECISION"
+    "PREFER_PRIVATE_CONTEXT_X_PUBLIC_LIVE_RAIL_X_PAID_MACHINE_DECISION",
+    "PRIVATE_CONTEXT_PLUS_LIVE_EXTERNAL_RESOURCE_DOES_NOT_IMPLY_UNOWNED_ROUTING_EDGE",
+    "VALUABLE_EXTERNAL_PLATFORMS_MOVE_UPSTREAM_INTO_PRIVATE_WORKFLOWS",
+    "PRIVATE_CONTEXT_ALONE_IS_ERODED_BY_ERP_MES_LIMS_API_INTEGRATION",
+    "TRANSIENT_PRIVATE_EXCEPTION_MAY_PRESERVE_TIMING_ASYMMETRY",
+    "FAILOVER_RAIL_MUST_BE_MACHINE_CALLABLE_NOT_MERELY_SEARCHABLE",
+    "PREFER_PRIVATE_EXCEPTION_EVENT_X_OPEN_FAILOVER_RAIL"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
-    "Scans 004-009 remain resolved/demoted under current attraction truth.",
-    "ATTRACTION_SCAN_010 completed with zero high-attraction beacons and zero retained formations.",
-    "Intent-driven skill discovery is now evidenced through current remote skill-market discovery tooling.",
-    "Machine-native per-use settlement and live paid Skills are now evidenced through current AI payment/Skill infrastructure.",
-    "The remaining commercial unknown is not generic payment or skill publication; it is finding a high-value routing decision not already absorbed by an incumbent.",
-    "Generic public-data plus public-rule decisions repeatedly collapse into platformized/free/mature products.",
-    "Private context can preserve an unowned cross-domain join only when no mature incumbent already accepts that private state as a standard input.",
-    "Next search target is private current context joined with a separate live public/partner resource/action rail through a paid machine decision function.",
+    "Scans 004-010 remain resolved/demoted under current attraction truth.",
+    "ATTRACTION_SCAN_011 completed with zero high-attraction beacons and zero retained formations.",
+    "Private context plus a live external resource is not enough; valuable platforms often move upstream into ERP/MES/LIMS/telemetry/procurement workflows and absorb the join.",
+    "Production-exception to on-demand manufacturing is economically real but current Xometry/1688/ERP integration pressure is already strong.",
+    "Lab-instrument failure/queue to external shared instruments has real supply and demand but fails general action-gate callability and machine-resolvable method matching.",
+    "Equipment breakdown to rental/replacement is increasingly integrated by OEM industrial platforms.",
+    "Urgent MRO shortage to live stock is already productized through procurement/VMI/channel stacks.",
+    "Next search target is a transient private exception event with a short loss clock and a truly machine-callable external failover rail that no incumbent already controls end-to-end.",
     "FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN."
   ]
 }
