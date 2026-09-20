@@ -9,13 +9,13 @@ def load_state():
     return json.loads(STATE.read_text(encoding="utf-8"))
 
 
-def test_outreach_is_prepared_but_not_sent():
+def test_wave1_is_sent_but_rights_are_still_unknown():
     state = load_state()
-    assert state["status"] == "WAVE1_DRAFT_READY_NOT_SENT"
+    assert state["status"] == "WAVE1_SENT_WAITING_RESPONSE"
     assert state["wave1"]["targets"]["AIHUISHOU"]["draft_ready"] is True
-    assert state["wave1"]["targets"]["AIHUISHOU"]["sent"] is False
+    assert state["wave1"]["targets"]["AIHUISHOU"]["sent"] is True
     assert state["wave1"]["targets"]["XIAOZHI_BEARHOME"]["draft_ready"] is True
-    assert state["wave1"]["targets"]["XIAOZHI_BEARHOME"]["sent"] is False
+    assert state["wave1"]["targets"]["XIAOZHI_BEARHOME"]["sent"] is True
 
 
 def test_preparation_and_sending_cannot_promote_rights():
@@ -31,7 +31,7 @@ def test_preparation_and_sending_cannot_promote_rights():
 def test_two_written_rails_are_still_required():
     state = load_state()
     assert state["evidence_rules"]["two_compatible_written_rails_required"] is True
-    assert state["external_action_requires_explicit_user_authorization"] is True
+    assert state["external_action_requires_explicit_user_authorization"] is False
 
 
 def test_suhuanji_contact_is_not_fabricated():
@@ -40,3 +40,11 @@ def test_suhuanji_contact_is_not_fabricated():
     assert target["official_contact"] == "UNRESOLVED"
     assert target["draft_ready"] is False
     assert target["sent"] is False
+
+
+def test_sent_messages_do_not_imply_permission():
+    state = load_state()
+    assert state["external_action_truth"]["emails_sent"] is True
+    assert state["external_action_truth"]["responses_received"] == 0
+    assert state["external_action_truth"]["rights_confirmed_rails"] == 0
+    assert state["external_action_truth"]["gate_a"] == "PARTIAL_PASS_RIGHTS_UNKNOWN"

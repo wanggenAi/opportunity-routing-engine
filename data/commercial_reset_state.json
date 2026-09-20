@@ -64,7 +64,7 @@
     "gate_b_discovery_infrastructure": "PASS",
     "gate_b_organic_seller_intent": "NOT_PROVEN",
     "suhuanji_public_business_endpoint": "UNRESOLVED",
-    "gate_a_outreach": "WAVE1_DRAFT_READY_NOT_SENT",
+    "gate_a_outreach": "WAVE1_SENT_WAITING_RESPONSE",
     "gate_a_verified_outreach_targets": 2,
     "gate_a_provider_responses": 0,
     "gate_a_rights_confirmed_rails": 0
@@ -195,7 +195,10 @@
     "DRAFT_READY_DOES_NOT_MEAN_SENT",
     "SENT_OUTREACH_DOES_NOT_MEAN_RIGHTS_CONFIRMED",
     "NO_RESPONSE_IS_NOT_RIGHTS_FAIL",
-    "BEARHOME_OFFICIAL_PHONE_CAN_ROUTE_TO_BUSINESS_OWNER_BUT_VERBAL_PERMISSION_IS_NOT_CANONICAL_PASS"
+    "BEARHOME_OFFICIAL_PHONE_CAN_ROUTE_TO_BUSINESS_OWNER_BUT_VERBAL_PERMISSION_IS_NOT_CANONICAL_PASS",
+    "WAVE1_PROVIDER_OUTREACH_WAS_SENT_TO_TWO_VERIFIED_RAIL_CONTACTS",
+    "SENT_EMAIL_IS_EXTERNAL_ACTION_BUT_NOT_RIGHTS_EVIDENCE",
+    "NEXT_DECISIVE_EVIDENCE_IS_PROVIDER_WRITTEN_RESPONSE"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -223,6 +226,7 @@
     "Suhuanji current API now explicitly closes valuation→quote→payment amount/time→transaction success data for a partner-maintained order relationship; reuse rights remain unknown.",
     "Public rights search has reached a useful ceiling: no current public surface explicitly grants cross-rail anonymous outcome retention/derived routing rights. Do not repeat same-layer searching by default.",
     "Gate B fail-closed preflight exists in GitHub but is not publicly published; Agent/Skill discovery infrastructure is real while organic used-device seller intent remains unproven.",
-    "Wave 1 outreach is now optimized to three decisive rights questions for Aihuishou and Xiaozhi/Bearhome; drafts remain unsent and create no rights evidence."
+    "Wave 1 outreach is now optimized to three decisive rights questions for Aihuishou and Xiaozhi/Bearhome; drafts remain unsent and create no rights evidence.",
+    "Wave 1 rights inquiries were sent on 2026-09-20 to the verified Aihuishou and Xiaozhi/Bearhome contacts; Gate A remains rights-unknown until written replies are classified."
   ]
 }

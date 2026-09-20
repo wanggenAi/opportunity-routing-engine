@@ -2,7 +2,7 @@
 
 Date: 2026-09-20  
 Formation: `ATTRACTION_SCAN_015-F1 — USED-DEVICE REALIZED-PAYOUT ROUTER`  
-Status: `WAVE1_DRAFT_READY_NOT_SENT`
+Status: `WAVE1_SENT_WAITING_RESPONSE`
 
 ## Purpose
 
@@ -204,9 +204,17 @@ Do not mark rights confirmed from silence.
 The next evidence-producing action is provider-facing Wave 1 outreach to the two
 verified contacts.
 
-Because sending creates an external communication in the user's name, it requires
-explicit user authorization before execution.
+User authorization was obtained and Wave 1 was sent to the two verified contacts on
+2026-09-20.
 
-Until then:
+Sending does not change rights truth.
+
+Next:
+- wait for provider replies;
+- preserve the exact written response;
+- classify each reply against the locked response rubric;
+- use Wave 2 only for missing dimensions.
+
+Until compatible written replies exist from at least two rails:
 
 `GATE_A = PARTIAL_PASS_RIGHTS_UNKNOWN`.
