@@ -43,12 +43,14 @@
   "last_completed_scan_id": "ATTRACTION_SCAN_015",
   "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
   "next_scan_id": "ATTRACTION_SCAN_016",
-  "current_research_action": "ATTRACTION_SCAN_015_F1_RIGHTS_AND_INBOUND_DISCOVERY_FALSIFICATION",
+  "current_research_action": "ATTRACTION_SCAN_015_F1_GATE_A_WRITTEN_RIGHTS_CONFIRMATION",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
-    "public_artifact_confirmation": "NOT_RUN",
+    "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
     "bilateral_commitment": "NOT_PROVEN",
-    "commercial_candidate": false
+    "commercial_candidate": false,
+    "gate_a": "PARTIAL_PASS_RIGHTS_UNKNOWN",
+    "gate_b": "NOT_RUN"
   },
   "required_scan_controls": [
     "BROAD_REALITY",
@@ -146,7 +148,12 @@
     "NATIVE_COMMISSION_EXISTS_ON_MULTIPLE_CURRENT_RECYCLING_RAILS",
     "ROUTER_CAN_DELEGATE_PHYSICAL_INSPECTION_TO_RAILS_AND_REMAIN_MACHINE_RESOLVABLE",
     "AGENT_NATIVE_INBOUND_DISTRIBUTION_REMAINS_A_DECISIVE_UNKNOWN",
-    "CROSS_PLATFORM_DATA_USE_RIGHTS_MUST_BE_PROVEN_BEFORE_PROMOTION"
+    "CROSS_PLATFORM_DATA_USE_RIGHTS_MUST_BE_PROVEN_BEFORE_PROMOTION",
+    "TRANSACTION_OUTCOME_VISIBILITY_DOES_NOT_IMPLY_CROSS_RAIL_DATA_REUSE_RIGHT",
+    "SUHUANJI_AND_XIAOZHI_PUBLIC_DOCS_PROVE_PARTNER_VISIBLE_POST_INSPECTION_OR_PAYMENT_OUTCOMES",
+    "AIHUISHOU_PUBLIC_OPEN_PLATFORM_REQUIRES_COOPERATION_AGREEMENT_BEFORE_CHANNEL_ACCESS",
+    "CROSS_PLATFORM_COMPARISON_AND_DERIVED_MODEL_RIGHTS_REMAIN_UNKNOWN_UNTIL_WRITTEN_CONFIRMATION",
+    "PREFER_ANONYMIZED_NON_IDENTIFYING_OUTCOME_ASSET_BUT_CONTRACT_RESTRICTIONS_STILL_APPLY"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -166,6 +173,8 @@
     "The retained asset is cross-rail estimate-to-inspection-to-accept/reject-to-payment outcome history, not public quote comparison.",
     "Aihuishou and Xiaozhi expose current native channel/promotion commissions; Suhuanji and Xiaozhi expose detailed order/outcome APIs.",
     "Current blockers are cross-platform data-use rights and proof of self-revealing Agent/Skill inbound demand without recurring founder acquisition.",
-    "F1 is not a commercial candidate; FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN."
+    "F1 is not a commercial candidate; FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.",
+    "F1 Gate A public-document pass confirms technical outcome visibility but not cross-rail reuse rights.",
+    "Gate A remains NOT PASSED until at least two overlapping 3C rails give written confirmation on anonymous outcome retention and future routing use."
   ]
 }
