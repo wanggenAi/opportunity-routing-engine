@@ -22,6 +22,14 @@
       "state": "RESEARCH_BEACON_RETAINED_FOR_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
       "retained_date": "2026-09-20",
       "commercial_candidate": false
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_021-F1",
+      "title": "SME_OVERDUE_PAYMENT_EVIDENCE_COMPILER",
+      "chinese_title": "中小企业逾期回款证据编译器",
+      "state": "RESEARCH_BEACON_RETAINED_FOR_PAYER_LEGAL_BOUNDARY_AND_DISCOVERABILITY_FALSIFICATION",
+      "retained_date": "2026-09-20",
+      "commercial_candidate": false
     }
   ],
   "resolved_research_formations": [
@@ -48,10 +56,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_020",
+  "last_completed_scan_id": "ATTRACTION_SCAN_021",
   "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
-  "next_scan_id": "ATTRACTION_SCAN_021",
-  "current_research_action": "PARALLEL_VALIDATION_SCAN015_F1_SCAN016_F1_AND_FORMATION_DIVERSE_SCAN021",
+  "next_scan_id": "ATTRACTION_SCAN_022",
+  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_SCAN021_F1_AND_FORMATION_DIVERSE_SCAN022",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -242,7 +250,15 @@
     "ROUTING_IS_A_PREFERRED_MECHANISM_WHEN_REALITY_SUPPORTS_IT_NOT_A_CONSTITUTIONAL_REQUIREMENT",
     "COMMERCIAL_HARD_FLOORS_MUST_SURVIVE_MECHANISM_RESET",
     "NEXT_SCAN_MUST_RESTART_FORMATION_DIVERSE_FROM_BROAD_REALITY",
-    "SCAN_020_SEARCH_MECHANISM_BIAS_DETECTED_AND_CORRECTED"
+    "SCAN_020_SEARCH_MECHANISM_BIAS_DETECTED_AND_CORRECTED",
+    "DIRECT_CASH_RECOVERY_STATE_CAN_OUTPULL_GENERIC_COMPLIANCE",
+    "STANDARDIZED_ADMINISTRATIVE_EVIDENCE_REQUIREMENTS_CAN_FORM_A_MACHINE_EXECUTABLE_BRIDGE_WITHOUT_ROUTING",
+    "OFFICIAL_COMPLAINT_RECOVERY_OUTCOMES_PROVE_RAIL_VALUE_NOT_THIRD_PARTY_PAYER_WILLINGNESS",
+    "GENERIC_AR_SAAS_DOES_NOT_ESTABLISH_AN_EXACT_COMPLAINT_EVIDENCE_COMPILER_INCUMBENT",
+    "LEGAL_SERVICE_BOUNDARY_AND_EXACT_PAYER_WILLINGNESS_ARE_HARD_UNKNOWNS",
+    "GENERIC_SHARED_MANUFACTURING_IS_REAL_VALUE_CREATION_BUT_CURRENTLY_INCUMBENT_CROWDED",
+    "NEW_COMPLIANCE_RULE_WITHOUT_PAYER_PULL_IS_NOT_A_COMMERCIAL_FORMATION",
+    "SCAN_021_FORMATION_DIVERSITY_SURFACED_NON_ROUTER_RIGHTS_EXECUTION_BEACON"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -289,7 +305,13 @@
     "Scan 020 will test passive user-owned realization telemetry that can automatically improve frequent low-friction routing decisions.",
     "ATTRACTION_SCAN_020 completed with zero new retained formations and detected search-mechanism overfitting toward multi-provider routers.",
     "Proxy, multi-CDN RUM, multi-ESP email, coding-agent routing and cloud-browser routing all show that software markets rapidly productize passive outcome routing.",
-    "Scan 021 resets mechanism inheritance while preserving commercial hard floors; routing remains eligible but is no longer the required shape."
+    "Scan 021 resets mechanism inheritance while preserving commercial hard floors; routing remains eligible but is no longer the required shape.",
+    "ATTRACTION_SCAN_021 completed with one retained non-router research beacon and zero commercial promotions.",
+    "Scan 021-F1 is an SME overdue-payment evidence compiler: a bounded self-serve evidence completeness and official-complaint packet workflow, not a law firm or debt-collection service.",
+    "Official complaint handling has demonstrated realized recovery value, but exact third-party payer willingness for the proposed self-serve compiler remains unproven.",
+    "Scan 021-F1 must fail closed on disputed legal facts, legal strategy, representation, negotiation, litigation and arbitration.",
+    "Generic shared-manufacturing capacity matching was demoted despite real value because current platforms already offer capacity listing, AI quoting, matching and collaboration workflows.",
+    "Scan 022 must not inherit overdue-payment, legal-tech, complaint-platform or rights-execution vertical terms."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -302,12 +324,17 @@
         "formation_id": "ATTRACTION_SCAN_016-F1",
         "state": "CHEAP_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
         "next_action": "VERIFY_TWO_INDEPENDENT_9610_CROSS_CUSTOMS_RETURN_RAILS_AND_NON_CONSULTING_ECONOMICS"
+      },
+      {
+        "formation_id": "ATTRACTION_SCAN_021-F1",
+        "state": "CHEAP_PAYER_LEGAL_BOUNDARY_DISCOVERABILITY_AND_INCUMBENT_FALSIFICATION",
+        "next_action": "VERIFY_EXACT_PAYER_INTENT_ORGANIC_DISCOVERY_LEGAL_BOUNDARY_AND_EXACT_INCUMBENT_ABSENCE"
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_021",
+      "next_scan_id": "ATTRACTION_SCAN_022",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "FORMATION_DIVERSE_CLEAN_SLATE_ATTRACTION"
+      "search_boundary": "FORMATION_DIVERSE_BROAD_REALITY_NO_SCAN021_VERTICAL_INHERITANCE"
     }
   }
 }

@@ -4,51 +4,47 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Run broad commercial discovery and retained-formation validation in parallel, while preventing both
-vertical inheritance and **mechanism inheritance** from shrinking the search space.
+Run broad commercial discovery and retained-formation validation in parallel, without allowing either
+candidate verticals or previously successful mechanisms to become hidden search priors.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
 PAST MECHANISM != FUTURE ONTOLOGY
 ZERO RETENTION IS VALID
+UNKNOWN != PASS
 ```
 
 ## Goal
 
-Reach the first real external value flow by discovering high-attraction value formations, not by
-forcing reality into one preferred technical shape.
+Reach the first real external value flow through a high-attraction formation that survives participant pull,
+discoverability, machine-executable delivery, founder-independence, operator advantage and evidenced economics.
 
 ## Current Unique Commercial Research Goal
 
 Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic inbound intent.
 - `ATTRACTION_SCAN_016-F1` — two callable 9610 cross-customs return rails + non-consulting economics.
+- `ATTRACTION_SCAN_021-F1` — exact payer willingness + organic discovery + legal boundary + exact-incumbent falsification for the SME overdue-payment evidence compiler.
+
+None is a commercial candidate.
 
 Discovery queue:
+- `ATTRACTION_SCAN_022 — FORMATION_DIVERSE_BROAD_REALITY_NO_SCAN021_VERTICAL_INHERITANCE`.
 
-`ATTRACTION_SCAN_021 — FORMATION_DIVERSE_CLEAN_SLATE_ATTRACTION`
-
-Scan 021 may discover routing, but routing is no longer mandatory. Competing mechanisms include:
-- stranded-resource activation;
-- rights/access/timing asymmetry;
-- trust/verification bridges;
-- distribution breakthroughs;
-- shared infrastructure;
-- standardized coordination compression;
-- machine-executable compliance;
-- pooled purchasing/demand;
-- agent-native paid capabilities;
-- other evidence-backed value formations.
+Scan 022 must not inherit overdue-payment, legal-tech, complaint-platform, debt-collection, rights-execution,
+or any Scan 015/016 active vertical as a search prior.
 
 ## Current Phase
 
-`SCAN_020_COMPLETE_READY_FOR_FORMATION_DIVERSE_SCAN_021`
+`ATTRACTION_SCAN_021_COMPLETE_PENDING_PR_CI_MERGE`
 
 ## Last Verified Main
 
-`8aa02def1308f40ef301e6c9082bbd03070cfda7`
-— squash merge of PR #308, `Complete Scan 019 paid-outcome routing falsification`.
+`6574afc5e17aa01c9c7c924128348f1ed988ca77`
+— squash merge of PR #309, Scan 020 mechanism-bias reset.
+
+Main CI #903 and the research mission workflow were verified successful before Scan 021 began.
 
 ## Active Issue
 
@@ -56,67 +52,74 @@ Scan 021 may discover routing, but routing is no longer mandatory. Competing mec
 
 ## Active Branch
 
-`feature/scan020-mechanism-bias-reset`
+`feature/scan021-formation-diverse`
 
 ## Active PR
 
-Not opened yet for Scan 020.
+#310 — `Complete formation-diverse Scan 021`.
 
 ## CI
 
-No Scan 020 PR CI run yet.
+PR CI #904 failed only because this file temporarily omitted recovery-contract headings.
+The Scan 021 commercial truth and persisted JSON remain unchanged. Re-run CI after restoring this contract.
 
 ## Latest Artifact / Persisted State
 
-New on current branch:
-- `docs/research/ATTRACTION_SCAN_020_2026-09-20.md`
-- `data/research_runs/attraction_scan_020.json`
+New:
+- `docs/research/ATTRACTION_SCAN_021_2026-09-20.md`
+- `data/research_runs/attraction_scan_021.json`
+- `tests/test_attraction_scan_021_formation_diverse.py`
 
 Updated:
 - `data/commercial_reset_state.json`
-- `data/research_missions/attraction_field_broad_reality.json`
 - `TASK_STATE.md`
 
 ## Completed
 
-- tested passive outcome routing in residential/scraping proxies;
-- tested RUM-driven multi-CDN routing;
-- tested multi-ESP transactional-email routing;
-- tested execution-grounded coding-agent/model routing;
-- tested cloud-browser provider routing;
-- confirmed each obvious software-infrastructure case already has an active routing/control layer;
-- detected that successive failure-derived scan boundaries had become a hidden router ontology;
-- removed recent router-specific mechanism seeds from the broad-reality mission;
-- added formation-diverse seeds while preserving commercial hard floors.
+Scan 021 completed a formation-diverse clean-slate pass rather than another router-only scan.
+
+Results:
+- commercial promotions = 0;
+- new retained research beacons = 1;
+- `ATTRACTION_SCAN_021-F1 — SME_OVERDUE_PAYMENT_EVIDENCE_COMPILER` retained for cheap falsification only;
+- generic shared manufacturing / idle-capacity matching demoted as incumbent-crowded;
+- unified small-processor privacy compliance for malls/parks demoted because exact payer pull is unproven;
+- electronic trade-document transition demoted because incumbents already occupy the execution surface;
+- small-enterprise safety-standard tooling demoted because mandatory/payer pull is unproven;
+- first external value flow remains `NOT_PROVEN`.
 
 ## Current Findings
 
-The main Scan-020 finding is methodological:
+Scan 021 proves the mechanism reset is working: a non-router rights-execution formation survived research
+attention without being promoted commercially.
 
-```text
-REALITY > COGNITION > SCHEMA
-ALSO MEANS
-REALITY > FAVORITE BUSINESS MECHANISM
-```
+The retained F1 is not generic AR SaaS and not a law firm. Its hypothesized machine role is bounded factual
+document extraction, completeness checking, official-rule mapping, packet generation and routing the user to
+the official complaint entry. The user remains the complainant.
 
-Recent router lessons remain useful evidence, but the next scan must not begin by requiring:
-- multiple providers;
-- cross-rail outcome history;
-- an API router;
-- passive telemetry;
-- commission economics.
-
-Those are eligible mechanisms, not constitutional requirements.
+Why it survived research retention:
+- September 2026 policy tightening creates a current timing event;
+- a national/provincial official complaint rail exists;
+- the 2026-09-14 draft complaint procedure defines a bounded core evidence packet;
+- public local-government results show complaint handling can convert into real recovered cash;
+- adjacent paid legal automation establishes only adjacent payer behavior, not exact payer proof.
 
 ## Blockers
 
 Engineering:
-- Scan 020 branch has not yet completed PR / CI / merge.
+- PR #310 must pass CI after restoring the recovery-contract headings, then merge and verify main.
 
-Research:
-- Scan 015-F1 still has zero compatible written provider confirmations.
-- Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return rails.
-- Scan 021 has not started.
+Research for Scan 021-F1:
+- exact willingness to pay for the narrow self-serve complaint compiler is unknown;
+- founder-free organic acquisition at the moment of overdue-payment pain is unknown;
+- exact boundary between permitted software/information workflow and regulated lawyer/legal-service work is unknown;
+- exact-incumbent absence is not proven;
+- lawful user-consented outcome telemetry is not proven;
+- manual official-submission conversion friction is unknown.
+
+Parallel validation:
+- Scan 015-F1 still awaits compatible written provider confirmation;
+- Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return rails and non-consulting economics.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -124,18 +127,19 @@ Commercial:
 
 ## Next Action
 
-Complete Scan 020 PR / CI / merge, then start `ATTRACTION_SCAN_021` as a genuinely
-formation-diverse broad-reality scan without router-mechanism inheritance.
+Finish PR #310 CI / merge / main verification. Then run the cheapest F1 falsification package in parallel with
+Scan 022 broad discovery: exact-incumbent search, exact payer-intent test, organic discoverability test,
+legal-boundary review, and a fail-closed packet prototype against current official evidence requirements.
 
 ## Do Not Repeat
 
-- Do not ask only "where is another multi-provider router?"
-- Do not turn a useful prior mechanism into the ontology of opportunity.
-- Do not restore deleted candidate-specific seeds.
-- Do not weaken discoverability, transactionability, operator-non-labor or evidence standards.
-- Do not use Scan 015/016/eSIM/proxy/CDN/email/coding-agent verticals as Scan 021 priors.
-- Do not manufacture a winner because Scan 020 has zero retention.
-- UNKNOWN != PASS.
+- Do not turn the Scan 021 rights-execution mechanism into the next ontology.
+- Do not call complaint-rail recovery figures proof that a third-party software product will be paid for.
+- Do not call adjacent legal-AI pricing proof of exact payer willingness.
+- Do not claim exact incumbent absence from search-result absence.
+- Do not automate disputed legal conclusions or pretend to be a lawyer.
+- Do not revive generic shared-manufacturing platform building as a new opportunity.
+- Do not weaken founder-independence, evidence, payer, or actionability floors.
 
 ## Guardrails
 
@@ -144,12 +148,12 @@ formation-diverse broad-reality scan without router-mechanism inheritance.
 - REALITY > COGNITION > SCHEMA.
 - ROUTING_IS_OPTIONAL_MECHANISM_NOT_CONSTITUTION.
 - A/B voluntary energy must be evidence-backed.
-- Discoverability/addressability must be sufficient for the formation being proposed.
-- The value bridge must be executable without recurring founder hunt.
+- Discoverability/addressability must be sufficient for the formation.
+- The bridge must execute without recurring founder hunt.
 - NO_RECURRING_FOUNDER_ACQUISITION.
 - NO_RECURRING_EXPERT_DELIVERY.
 - Operator advantage must compound through data, rights, workflow position, trust, distribution,
   standardized capability or another reusable asset.
-- Payment/economics must become externally evidenced before commercial promotion.
+- Payment/economics must be externally evidenced before commercial promotion.
 - UNKNOWN != PASS.
 - Infer broadly; retain conservatively.
