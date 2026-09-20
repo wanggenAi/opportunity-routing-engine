@@ -43,7 +43,8 @@
       ],
       "public_business_contact": "UNRESOLVED",
       "commission_terms": "UNKNOWN",
-      "cross_rail_reuse_right": "UNKNOWN"
+      "cross_rail_reuse_right": "UNKNOWN",
+      "partner_decision_layer_with_rail_execution": "PASS_CREATE_ONLY"
     },
     "XIAOZHI_BEARHOME": {
       "technical_outcome_visibility": "PASS",
@@ -83,5 +84,14 @@
     "exact_neutral_cross_rail_realized_payout_router": "NOT_ESTABLISHED",
     "absence_proven": false
   },
-  "response_rubric": "docs/research/ATTRACTION_SCAN_015_F1_RIGHTS_RESPONSE_RUBRIC.md"
+  "response_rubric": "docs/research/ATTRACTION_SCAN_015_F1_RIGHTS_RESPONSE_RUBRIC.md",
+  "public_rights_search": {
+    "status": "CEILING_REACHED",
+    "explicit_cross_rail_derivative_data_grant": "NOT_FOUND_ON_PUBLIC_SURFACES",
+    "inference_policy": "NOT_FOUND_DOES_NOT_EQUAL_DENIED",
+    "next_evidence_class": [
+      "CURRENT_PARTNER_AGREEMENT",
+      "OFFICIAL_WRITTEN_BUSINESS_RESPONSE"
+    ]
+  }
 }
