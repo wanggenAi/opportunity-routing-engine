@@ -14,6 +14,14 @@
       "state": "HIGH_ATTRACTION_BEACON_RETAINED_FOR_CAUSAL_DESCENT",
       "retained_date": "2026-09-20",
       "commercial_candidate": false
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_016-F1",
+      "title": "9610_CROSS_CUSTOMS_RETURN_ROUTER",
+      "chinese_title": "跨境电商9610跨关区退货路由",
+      "state": "RESEARCH_BEACON_RETAINED_FOR_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
+      "retained_date": "2026-09-20",
+      "commercial_candidate": false
     }
   ],
   "resolved_research_formations": [
@@ -40,10 +48,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_015",
+  "last_completed_scan_id": "ATTRACTION_SCAN_016",
   "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
-  "next_scan_id": "ATTRACTION_SCAN_016",
-  "current_research_action": "ATTRACTION_SCAN_015_F1_GATE_A_WRITTEN_RIGHTS_CONFIRMATION",
+  "next_scan_id": "ATTRACTION_SCAN_017",
+  "current_research_action": "PARALLEL_VALIDATION_SCAN015_F1_AND_BROAD_DISCOVERY_SCAN017",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -51,7 +59,7 @@
     "commercial_candidate": false,
     "gate_a": "PARTIAL_PASS_RIGHTS_UNKNOWN",
     "gate_b": "NOT_RUN",
-    "gate_a_outreach_packet": "READY_NOT_SENT",
+    "gate_a_outreach_packet": "WAVE1_SENT",
     "enterprise_onboarding_constraint": "PROVEN",
     "written_rights_response_rubric": "READY",
     "public_rights_risk": "NEGATIVE_SIGNAL_NEEDS_PARTNER_CONTRACT_OVERRIDE",
@@ -204,7 +212,13 @@
     "PROVIDER_RESPONSE_INTAKE_MUST_SEPARATE_RAW_WRITTEN_EVIDENCE_FROM_CLASSIFICATION",
     "NO_RESPONSE_YET_IS_NOT_RIGHTS_FAIL",
     "VAGUE_PROVIDER_LANGUAGE_MUST_ONLY_UPDATE_DIMENSIONS_EXPLICITLY_ANSWERED",
-    "NDA_OR_ONBOARDING_REQUIRED_IS_A_DISCLOSURE_PATH_NOT_AUTOMATIC_PASS_OR_FAIL"
+    "NDA_OR_ONBOARDING_REQUIRED_IS_A_DISCLOSURE_PATH_NOT_AUTOMATIC_PASS_OR_FAIL",
+    "WAITING_FOR_EXTERNAL_VALIDATION_MUST_NOT_FREEZE_DISCOVERY",
+    "ACTIVE_FORMATION_VERTICAL_MUST_NOT_SEED_NEXT_BROAD_SCAN",
+    "POLICY_CAN_CREATE_ROUTING_EDGE_WHEN_A_FIXED_ROUTE_BECOMES_A_CHOICE_SET",
+    "SCAN_016_RETAINED_9610_CROSS_CUSTOMS_RETURN_ROUTER_FOR_CHEAP_FALSIFICATION",
+    "GENERIC_REVERSE_LOGISTICS_OPTIMIZATION_IS_ALREADY_PLATFORMIZED",
+    "SCAN_016_F1_MULTI_RAIL_9610_CALLABILITY_AND_OPERATOR_ECONOMICS_REMAIN_UNPROVEN"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -234,6 +248,27 @@
     "Gate B fail-closed preflight exists in GitHub but is not publicly published; Agent/Skill discovery infrastructure is real while organic used-device seller intent remains unproven.",
     "Wave 1 outreach is now optimized to three decisive rights questions for Aihuishou and Xiaozhi/Bearhome; drafts remain unsent and create no rights evidence.",
     "Wave 1 rights inquiries were sent on 2026-09-20 to the verified Aihuishou and Xiaozhi/Bearhome contacts; Gate A remains rights-unknown until written replies are classified.",
-    "Immediate Gmail check after Wave 1 found no provider replies and no delivery-failure notice; provider-response intake state and follow-up classes are now prepared."
-  ]
+    "Immediate Gmail check after Wave 1 found no provider replies and no delivery-failure notice; provider-response intake state and follow-up classes are now prepared.",
+    "ATTRACTION_SCAN_016 completed while Scan 015-F1 remained in provider-response wait state.",
+    "Scan 016 retained 9610 cross-customs return routing as a research beacon only; it is not a commercial candidate.",
+    "Broad discovery is now explicitly decoupled from active formation validation so waiting states cannot freeze or bias the next scan."
+  ],
+  "parallel_workstreams": {
+    "validation": [
+      {
+        "formation_id": "ATTRACTION_SCAN_015-F1",
+        "state": "GATE_A_WAITING_WRITTEN_PROVIDER_RESPONSE",
+        "next_action": "CLASSIFY_FIRST_ACTUAL_OFFICIAL_WRITTEN_RESPONSE"
+      },
+      {
+        "formation_id": "ATTRACTION_SCAN_016-F1",
+        "state": "CHEAP_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
+        "next_action": "VERIFY_TWO_INDEPENDENT_9610_CROSS_CUSTOMS_RETURN_RAILS_AND_NON_CONSULTING_ECONOMICS"
+      }
+    ],
+    "discovery": {
+      "next_scan_id": "ATTRACTION_SCAN_017",
+      "active_candidate_verticals_may_seed_scan": false
+    }
+  }
 }

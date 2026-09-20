@@ -1,0 +1,69 @@
+{
+  "schema_version": "attraction-scan.v13",
+  "scan_id": "ATTRACTION_SCAN_016",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-20",
+  "status": "COMPLETE",
+  "search_mode": "PARALLEL_BROAD_REALITY_WHILE_EXISTING_VALIDATION_WAITS",
+  "inherited_active_formation_as_seed": false,
+  "active_commercial_candidate_promotions": [],
+  "retained_research_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_016-F1",
+      "title": "9610_CROSS_CUSTOMS_RETURN_ROUTER",
+      "chinese_title": "跨境电商9610跨关区退货路由",
+      "state": "RESEARCH_BEACON_RETAINED_FOR_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
+      "commercial_candidate": false,
+      "mechanism": "route an already-triggered overseas 9610 return among legally eligible China return sites/reverse rails by expected realized recovery value, cost and time",
+      "structural_trigger": "2026-04-01 nationwide 9610 cross-customs-district return choice",
+      "operator_asset": "cross-provider realized reverse-cost, clearance-time, inbound-time and recoverability outcome graph",
+      "attraction_profile": {
+        "a_voluntary_motion": 3,
+        "b_voluntary_motion": 2,
+        "state_dependent_value_jump": 3,
+        "decision_window": 3,
+        "bridge_compression": 2,
+        "activation_ease": 2,
+        "self_propulsion": 2,
+        "operator_control": 2,
+        "a_discoverability": 2,
+        "b_discoverability": 2,
+        "match_resolvability": 2,
+        "action_gate_callability": 2
+      },
+      "decisive_unknowns": [
+        "TWO_INDEPENDENT_9610_CROSS_CUSTOMS_RETURN_RAILS",
+        "STRUCTURED_QUOTE_ORDER_STATUS_OUTCOME_EXCHANGE",
+        "CROSS_PROVIDER_NON_IDENTIFYING_OUTCOME_RETENTION_RIGHT",
+        "LIVE_SELLER_OR_ERP_RETURN_EVENT_DISCOVERABILITY",
+        "NON_CONSULTING_OPERATOR_ECONOMICS",
+        "EXACT_NEUTRAL_9610_RETURN_ROUTER_INCUMBENT_ABSENCE"
+      ],
+      "next_action": "VERIFY_TWO_REAL_9610_RETURN_RAILS_AND_OPERATOR_ECONOMICS"
+    }
+  ],
+  "hard_floor_demotions": [
+    "PRIVATE_EV_CHARGING_SHARING_CONTROL_SURFACE_ALREADY_PLATFORMIZED",
+    "VPP_INCUMBENT_AGGREGATOR_CONTROL_AND_ENTERPRISE_ACQUISITION_DEPENDENCE",
+    "ELDERCARE_VOUCHER_OFFICIAL_PLATFORM_OWNS_ACTION_LOOP",
+    "AI_APP_COMPLIANCE_COLLAPSES_TO_RULE_ASSISTANCE_OR_CONSULTING",
+    "DOMESTIC_SERVICE_MATCHING_ALREADY_PLATFORMIZED_AND_HUMAN_DELIVERY_DOMINANT",
+    "FLEXIBLE_EMPLOYMENT_MATCHING_ALREADY_PLATFORMIZED",
+    "INSURANCE_ROUTING_REGULATED_AND_MATURE_AGGREGATORS_OCCUPY_CONTROL_SURFACE"
+  ],
+  "scan_learnings": [
+    "WAITING_FOR_EXTERNAL_VALIDATION_MUST_NOT_FREEZE_DISCOVERY",
+    "ACTIVE_FORMATION_VERTICAL_MUST_NOT_SEED_NEXT_BROAD_SCAN",
+    "POLICY_CAN_CREATE_A_NEW_ROUTING_EDGE_BY_TURNING_A_FIXED_ROUTE_INTO_A_CHOICE_SET",
+    "NEW_POLICY_IS_NOT_BUSINESS_WITHOUT_DISCOVERABILITY_CALLABILITY_AND_ECONOMICS",
+    "GENERIC_REVERSE_LOGISTICS_OPTIMIZATION_IS_ALREADY_PLATFORMIZED",
+    "THE_NARROW_9610_CHINA_REENTRY_ROUTE_REMAINS_WORTH_CHEAP_FALSIFICATION",
+    "MULTI_RAIL_EXECUTION_MUST_BE_PROVEN_BEFORE_PROMOTION"
+  ],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_017",
+  "next_action": "PARALLEL_SCAN_017_AND_SCAN_016_F1_CHEAP_CALLABILITY_FALSIFICATION",
+  "first_external_value_flow": "NOT_PROVEN"
+}
