@@ -23,6 +23,83 @@
   "attention_mode": "ATTRACTION_FIRST",
   "seeds": [
     {
+      "seed_id": "formation-diversity-no-mechanism-inheritance",
+      "text": "从真实社会变化出发 不预设必须是路由器 市场平台 API 聚合器 或结果图 允许资源激活 权利 信任 分销 标准化协调 共享基础设施 数据产品 Agent原生能力 等不同价值形成机制竞争",
+      "language": "zh-CN",
+      "target_primitives": [
+        "ACTOR",
+        "RESOURCE",
+        "CAPABILITY",
+        "FLOW"
+      ]
+    },
+    {
+      "seed_id": "distribution-access-breakthrough",
+      "text": "已有真实能力或商品长期卡在获客 分销 触达 交易入口 但新的平台 Agent 渠道 规则或接口突然让低成本规模化触达成为可能",
+      "language": "zh-CN",
+      "target_primitives": [
+        "ACTOR",
+        "CAPABILITY",
+        "CHANGE",
+        "FLOW"
+      ]
+    },
+    {
+      "seed_id": "trust-proof-as-bridge",
+      "text": "供需双方已经想交易 但因为身份 资质 真实性 履约证明 结果证明 信任成本而反复失败 寻找可标准化自动验证且能直接释放交易的证明层",
+      "language": "zh-CN",
+      "target_primitives": [
+        "PERCEPTION",
+        "CONSTRAINT",
+        "FLOW",
+        "OUTCOME"
+      ]
+    },
+    {
+      "seed_id": "shared-infrastructure-unlocks-small-actor",
+      "text": "原本只有大机构承担得起的设备 渠道 合规 系统 数据 能力正在平台化共享 中小参与者因此第一次可以低成本使用并形成新业务",
+      "language": "zh-CN",
+      "target_primitives": [
+        "RESOURCE",
+        "CAPABILITY",
+        "CHANGE",
+        "OUTCOME"
+      ]
+    },
+    {
+      "seed_id": "coordination-compression-with-existing-payment",
+      "text": "多人多步骤通过微信 电话 Excel 群聊反复协调且已经有人付费解决 寻找能把协调压缩成标准流程并让运营者不成为永久人工节点的结构",
+      "language": "zh-CN",
+      "target_primitives": [
+        "BEHAVIOR",
+        "FLOW",
+        "FRICTION",
+        "OUTCOME"
+      ]
+    },
+    {
+      "seed_id": "compliance-transition-machine-service",
+      "text": "新法规 标准 认证 报送 要求让大量主体必须行动 寻找可被软件标准化执行并持续更新而非逐单咨询的合规转换服务",
+      "language": "zh-CN",
+      "target_primitives": [
+        "CHANGE",
+        "CONSTRAINT",
+        "CAPABILITY",
+        "FLOW"
+      ]
+    },
+    {
+      "seed_id": "pooled-bargaining-or-demand-aggregation",
+      "text": "大量分散小额需求单独议价弱或门槛高 但汇总后可以获得价格 配额 服务等级或供应资格优势 寻找可自动聚合并分配收益的机制",
+      "language": "zh-CN",
+      "target_primitives": [
+        "ACTOR",
+        "RESOURCE",
+        "FLOW",
+        "OUTCOME"
+      ]
+    },
+    {
       "seed_id": "broad-reality-no-active-vertical-inheritance",
       "text": "从当前社会真实变化重新开始 不使用任何正在验证的候选 行业 资产类型 或既有结论作为下一轮搜索先验",
       "language": "zh-CN",
@@ -41,72 +118,6 @@
         "CHANGE",
         "CONSTRAINT",
         "FLOW",
-        "OUTCOME"
-      ]
-    },
-    {
-      "seed_id": "user-owned-passive-realization-telemetry",
-      "text": "真实履约结果天然出现在用户已有设备或业务系统中 可经授权被动自动采集 多个独立付费执行轨道已可机器调用 用户会低摩擦反复切换或复购 单一供应商与现有聚合器都看不到标准化跨轨道真实结果",
-      "language": "zh-CN",
-      "target_primitives": [
-        "RESOURCE",
-        "STATE",
-        "BEHAVIOR",
-        "OUTCOME"
-      ]
-    },
-    {
-      "seed_id": "self-revealing-paid-rails-outcome-uncertainty",
-      "text": "高意图事件会主动暴露 多个独立执行方已有标准化付费调用轨道 真正优劣只有履约后结果才能知道 单个平台无法看到跨轨道结果历史 优先寻找可由完成交易沉淀的独立机器路由资产",
-      "language": "zh-CN",
-      "target_primitives": [
-        "BEHAVIOR",
-        "FLOW",
-        "OUTCOME",
-        "RESOURCE"
-      ]
-    },
-    {
-      "seed_id": "cross-domain-transient-state-join",
-      "text": "两个成熟且独立的平台各自掌握局部真实状态 单个平台都无法看到决定经济结果的跨域瞬时连接 优先寻找时间窗口短 可机器解析 可直接改变真实动作 且执行结果可回流的状态连接",
-      "language": "zh-CN",
-      "target_primitives": [
-        "STATE",
-        "CHANGE",
-        "FLOW",
-        "OUTCOME"
-      ]
-    },
-    {
-      "seed_id": "outcome-asset-not-public-parameter-graph",
-      "text": "不要再把公开规格 参数 目录 编成一个更整齐的图谱 优先寻找只有真实交易结果才会产生的机器可维护接受拒绝资产 并要求结果直接改变下一次真实行动",
-      "language": "zh-CN",
-      "target_primitives": [
-        "RESOURCE",
-        "BEHAVIOR",
-        "FLOW",
-        "OUTCOME"
-      ]
-    },
-    {
-      "seed_id": "transaction-generated-acceptance-graph",
-      "text": "高意图事件已经进入可调用交易轨道 每次接受 拒绝 成功 失败 退款 改派 兼容 成本 时效结果会自然回流形成跨路由接受图 且该图不是单一平台天然拥有 通用Agent无法仅靠公开参数可靠重建",
-      "language": "zh-CN",
-      "target_primitives": [
-        "STATE",
-        "BEHAVIOR",
-        "FLOW",
-        "OUTCOME"
-      ]
-    },
-    {
-      "seed_id": "paid-ugly-workaround",
-      "text": "用户已有高意图 且交易轨道可调用 但正确选择仍依赖跨域兼容 资格 约束 接受历史 或结果数据 通用Agent仅看提示词与官方API无法可靠完成",
-      "language": "zh-CN",
-      "target_primitives": [
-        "BEHAVIOR",
-        "FLOW",
-        "FRICTION",
         "OUTCOME"
       ]
     },
@@ -130,17 +141,6 @@
         "STATE",
         "BEHAVIOR",
         "FRICTION"
-      ]
-    },
-    {
-      "seed_id": "state-dependent-repricing",
-      "text": "同一可调用轨道中 只有结合独立专业规则图 兼容图 资格图 历史结果 才能知道此刻应选哪个动作 且选择会显著改变经济结果",
-      "language": "zh-CN",
-      "target_primitives": [
-        "STATE",
-        "CHANGE",
-        "RESOURCE",
-        "OUTCOME"
       ]
     },
     {
@@ -221,17 +221,6 @@
       ]
     },
     {
-      "seed_id": "dense-digital-exhaust-bilateral",
-      "text": "高意图事件和可执行轨道都机器可见 但关键决策边依赖第三套可持续维护的专业路由资产 而非普通自然语言推荐",
-      "language": "zh-CN",
-      "target_primitives": [
-        "ACTOR",
-        "RESOURCE",
-        "BEHAVIOR",
-        "FLOW"
-      ]
-    },
-    {
       "seed_id": "manual-coordination-stack",
       "text": "微信 Excel 电话 群接龙 私聊 多人反复协调 才能完成高价值结果",
       "language": "zh-CN",
@@ -297,17 +286,6 @@
       ]
     },
     {
-      "seed_id": "platform-leakage-offplatform",
-      "text": "轨道平台拥有商品服务与交易能力 用户拥有当前上下文 但双方都不拥有决定正确连接所需的独立跨域规则或结果资产",
-      "language": "zh-CN",
-      "target_primitives": [
-        "BEHAVIOR",
-        "FLOW",
-        "CONSTRAINT",
-        "FRICTION"
-      ]
-    },
-    {
       "seed_id": "time-sensitive-capacity-match",
       "text": "临时 高峰 加急 短时需求 与 可调用空余人力 设备 时间窗口 同时出现",
       "language": "zh-CN",
@@ -316,17 +294,6 @@
         "RESOURCE",
         "CAPABILITY",
         "FLOW"
-      ]
-    },
-    {
-      "seed_id": "repeat-route-compounds",
-      "text": "每次专业路由的接受 拒绝 兼容 成本 时效 结果 可沉淀进机器路由资产 让下一次决策变得更准确且非通用Agent可直接复制",
-      "language": "zh-CN",
-      "target_primitives": [
-        "BEHAVIOR",
-        "FLOW",
-        "RESOURCE",
-        "OUTCOME"
       ]
     }
   ],

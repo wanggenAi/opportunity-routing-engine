@@ -4,17 +4,20 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Run broad commercial discovery and retained-formation validation in parallel.
+Run broad commercial discovery and retained-formation validation in parallel, while preventing both
+vertical inheritance and **mechanism inheritance** from shrinking the search space.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
+PAST MECHANISM != FUTURE ONTOLOGY
 ZERO RETENTION IS VALID
 ```
 
 ## Goal
 
-Reach the first real external value flow without lowering hard gates to manufacture a candidate.
+Reach the first real external value flow by discovering high-attraction value formations, not by
+forcing reality into one preferred technical shape.
 
 ## Current Unique Commercial Research Goal
 
@@ -22,31 +25,30 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic inbound intent.
 - `ATTRACTION_SCAN_016-F1` — two callable 9610 cross-customs return rails + non-consulting economics.
 
-Discovery queue next boundary:
+Discovery queue:
 
-```text
-USER-OWNED PASSIVE REALIZATION TELEMETRY
-+
-MULTIPLE PAID CALLABLE RAILS
-+
-LOW-FRICTION REPEAT / SWITCH
-+
-TRANSACTION-LINKED ECONOMICS
-+
-NO SUPER-AGGREGATOR OWNS THE JOIN
-→ POSSIBLE SELF-COMPOUNDING ROUTING ASSET
-```
+`ATTRACTION_SCAN_021 — FORMATION_DIVERSE_CLEAN_SLATE_ATTRACTION`
 
-This is a structural mechanism only. It must not inherit eSIM, used-device recycling or 9610 returns as a vertical prior.
+Scan 021 may discover routing, but routing is no longer mandatory. Competing mechanisms include:
+- stranded-resource activation;
+- rights/access/timing asymmetry;
+- trust/verification bridges;
+- distribution breakthroughs;
+- shared infrastructure;
+- standardized coordination compression;
+- machine-executable compliance;
+- pooled purchasing/demand;
+- agent-native paid capabilities;
+- other evidence-backed value formations.
 
 ## Current Phase
 
-`SCAN_019_COMPLETE_READY_FOR_SCAN_020`
+`SCAN_020_COMPLETE_READY_FOR_FORMATION_DIVERSE_SCAN_021`
 
 ## Last Verified Main
 
-`f1c492366b91399efa8f7ea6172cd744fd3f0d85`
-— squash merge of PR #307, `Complete Scan 018 transient-exception falsification`.
+`8aa02def1308f40ef301e6c9082bbd03070cfda7`
+— squash merge of PR #308, `Complete Scan 019 paid-outcome routing falsification`.
 
 ## Active Issue
 
@@ -54,21 +56,21 @@ This is a structural mechanism only. It must not inherit eSIM, used-device recyc
 
 ## Active Branch
 
-`feature/scan019-paid-outcome-routing`
+`feature/scan020-mechanism-bias-reset`
 
 ## Active PR
 
-Not opened yet for Scan 019.
+Not opened yet for Scan 020.
 
 ## CI
 
-No Scan 019 PR CI run yet.
+No Scan 020 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New on current branch:
-- `docs/research/ATTRACTION_SCAN_019_2026-09-20.md`
-- `data/research_runs/attraction_scan_019.json`
+- `docs/research/ATTRACTION_SCAN_020_2026-09-20.md`
+- `data/research_runs/attraction_scan_020.json`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -77,63 +79,44 @@ Updated:
 
 ## Completed
 
-Scan 019 tested:
-- used-car realized-sale routing;
-- gold/jewelry realized-payout routing;
-- courier/same-city routing;
-- GPU/compute routing;
-- cross-platform advertising allocation;
-- recruitment-channel realized-hire routing;
-- repair/after-sales routing;
-- roadside-assistance meta-routing;
-- multi-operator broadband installation routing;
-- travel-eSIM realized-connectivity routing;
-- airport-transfer routing;
-- car-rental routing;
-- travel-insurance routing.
-
-No new formation survived all hard floors.
+- tested passive outcome routing in residential/scraping proxies;
+- tested RUM-driven multi-CDN routing;
+- tested multi-ESP transactional-email routing;
+- tested execution-grounded coding-agent/model routing;
+- tested cloud-browser provider routing;
+- confirmed each obvious software-infrastructure case already has an active routing/control layer;
+- detected that successive failure-derived scan boundaries had become a hidden router ontology;
+- removed recent router-specific mechanism seeds from the broad-reality mission;
+- added formation-diverse seeds while preserving commercial hard floors.
 
 ## Current Findings
 
-The core Scan-019 result is:
+The main Scan-020 finding is methodological:
 
 ```text
-MULTIPLE APIS
-+
-NATIVE COMMISSION
-+
-POST-EXECUTION OUTCOME
-!=
-DISTINCT ROUTING ASSET
+REALITY > COGNITION > SCHEMA
+ALSO MEANS
+REALITY > FAVORITE BUSINESS MECHANISM
 ```
 
-Failure A:
-```text
-EXISTING SUPER-AGGREGATOR
-→ ALREADY SEES MULTI-SUPPLIER ORDERS + OUTCOMES
-→ NO DISTINCT CROSS-RAIL HISTORY
-```
+Recent router lessons remain useful evidence, but the next scan must not begin by requiring:
+- multiple providers;
+- cross-rail outcome history;
+- an API router;
+- passive telemetry;
+- commission economics.
 
-Failure B:
-```text
-DECISIVE REALIZED EXPERIENCE IS USER-OWNED
-BUT
-REQUIRES EXTRA APP / ACTIVE TEST / TELEMETRY ACTION
-→ OUTCOME DOES NOT NATURALLY COMPOUND
-```
-
-Travel eSIM was the closest new direction but remains a near miss, not a retained formation.
+Those are eligible mechanisms, not constitutional requirements.
 
 ## Blockers
 
 Engineering:
-- Scan 019 branch has not yet completed PR / CI / merge.
+- Scan 020 branch has not yet completed PR / CI / merge.
 
 Research:
 - Scan 015-F1 still has zero compatible written provider confirmations.
 - Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return rails.
-- Scan 020 has not started.
+- Scan 021 has not started.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -141,33 +124,32 @@ Commercial:
 
 ## Next Action
 
-Complete Scan 019 PR / CI / merge, then start `ATTRACTION_SCAN_020` from broad current
-reality under the passive user-owned realization telemetry boundary.
+Complete Scan 020 PR / CI / merge, then start `ATTRACTION_SCAN_021` as a genuinely
+formation-diverse broad-reality scan without router-mechanism inheritance.
 
 ## Do Not Repeat
 
-- Do not promote an affiliate comparison page as routing control.
-- Do not count multiple suppliers inside one super-aggregator as independent rails.
-- Do not treat commission as proof of a distinct routing contribution.
-- Do not treat occasional editorial tests as a transaction-generated outcome asset.
-- Do not require users to repeatedly perform manual tests and call that self-propulsion.
-- Do not use eSIM, roadside rescue, gold recycling, Scan 015 or Scan 016 as Scan 020 priors.
-- Do not manufacture a winner because Scan 019 has zero retention.
+- Do not ask only "where is another multi-provider router?"
+- Do not turn a useful prior mechanism into the ontology of opportunity.
+- Do not restore deleted candidate-specific seeds.
+- Do not weaken discoverability, transactionability, operator-non-labor or evidence standards.
+- Do not use Scan 015/016/eSIM/proxy/CDN/email/coding-agent verticals as Scan 021 priors.
+- Do not manufacture a winner because Scan 020 has zero retention.
 - UNKNOWN != PASS.
 
 ## Guardrails
 
 - GitHub live state wins.
 - Attraction first for attention; evidence first for truth.
-- A_VISIBLE + B_VISIBLE + MATCH_RESOLVABLE remains required.
-- BILATERAL_MOTION remains required.
-- ACTION_GATE_CALLABILITY remains a hard floor.
-- GENERIC_AGENT_SUBSTITUTABILITY remains a hard kill.
+- REALITY > COGNITION > SCHEMA.
+- ROUTING_IS_OPTIONAL_MECHANISM_NOT_CONSTITUTION.
+- A/B voluntary energy must be evidence-backed.
+- Discoverability/addressability must be sufficient for the formation being proposed.
+- The value bridge must be executable without recurring founder hunt.
 - NO_RECURRING_FOUNDER_ACQUISITION.
 - NO_RECURRING_EXPERT_DELIVERY.
-- OUTCOME_DATA_MUST_FLOW_BACK_TO_ROUTER.
-- ONE_RAIL_MUST_NOT_ALREADY_OWN_THE_DECISIVE_CROSS_RAIL_HISTORY.
-- SUPER_AGGREGATOR_INTERNAL_OUTCOME_GRAPH != INDEPENDENT_ROUTER_ASSET.
-- USER_OWNED_RESULT_ONLY_COUNTS_IF_COLLECTION_CAN_BE_PASSIVE_AND_REPEATABLE.
+- Operator advantage must compound through data, rights, workflow position, trust, distribution,
+  standardized capability or another reusable asset.
+- Payment/economics must become externally evidenced before commercial promotion.
 - UNKNOWN != PASS.
 - Infer broadly; retain conservatively.

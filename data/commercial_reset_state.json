@@ -48,10 +48,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_019",
+  "last_completed_scan_id": "ATTRACTION_SCAN_020",
   "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
-  "next_scan_id": "ATTRACTION_SCAN_020",
-  "current_research_action": "PARALLEL_VALIDATION_SCAN015_F1_SCAN016_F1_AND_BROAD_DISCOVERY_SCAN020",
+  "next_scan_id": "ATTRACTION_SCAN_021",
+  "current_research_action": "PARALLEL_VALIDATION_SCAN015_F1_SCAN016_F1_AND_FORMATION_DIVERSE_SCAN021",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -236,7 +236,13 @@
     "DECISIVE_USER_EXPERIENCE_THAT_REQUIRES_EXTRA_ACTIVE_TELEMETRY_WEAKENS_SELF_PROPULSION",
     "TRAVEL_ESIM_PROVES_MULTIPLE_INDEPENDENT_DIGITAL_RAILS_AND_NATIVE_ECONOMICS_CAN_EXIST_WITHOUT_A_NATURALLY_COMPOUNDING_ROUTER_ASSET",
     "NEXT_SEARCH_SHOULD_TEST_USER_OWNED_PASSIVE_REALIZATION_TELEMETRY_X_CALLABLE_RAILS_X_LOW_FRICTION_REPEAT_SWITCH",
-    "SCAN_019_ZERO_RETENTION_AFTER_PAID_OUTCOME_ROUTING_FALSIFICATION"
+    "SCAN_019_ZERO_RETENTION_AFTER_PAID_OUTCOME_ROUTING_FALSIFICATION",
+    "PASSIVE_USER_OWNED_TELEMETRY_PLUS_LOW_SWITCHING_COST_ATTRACTS_FAST_ROUTER_PRODUCTIZATION",
+    "SUCCESSIVE_FAILURE_DERIVED_SEARCH_BOUNDARIES_CAN_BECOME_A_HIDDEN_MECHANISM_ONTOLOGY",
+    "ROUTING_IS_A_PREFERRED_MECHANISM_WHEN_REALITY_SUPPORTS_IT_NOT_A_CONSTITUTIONAL_REQUIREMENT",
+    "COMMERCIAL_HARD_FLOORS_MUST_SURVIVE_MECHANISM_RESET",
+    "NEXT_SCAN_MUST_RESTART_FORMATION_DIVERSE_FROM_BROAD_REALITY",
+    "SCAN_020_SEARCH_MECHANISM_BIAS_DETECTED_AND_CORRECTED"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -280,7 +286,10 @@
     "ATTRACTION_SCAN_019 completed with zero new retained formations and zero commercial promotions.",
     "Travel eSIM was the closest new direction: multiple independent partner APIs and native economics exist, but the decisive user-side connectivity outcome does not naturally return with each sale and performance-aware affiliate comparison is already active.",
     "Roadside-assistance network meta-routing and gold realized-payout routing remained near misses but failed open multi-network economics/distribution or independent-rail control tests.",
-    "Scan 020 will test passive user-owned realization telemetry that can automatically improve frequent low-friction routing decisions."
+    "Scan 020 will test passive user-owned realization telemetry that can automatically improve frequent low-friction routing decisions.",
+    "ATTRACTION_SCAN_020 completed with zero new retained formations and detected search-mechanism overfitting toward multi-provider routers.",
+    "Proxy, multi-CDN RUM, multi-ESP email, coding-agent routing and cloud-browser routing all show that software markets rapidly productize passive outcome routing.",
+    "Scan 021 resets mechanism inheritance while preserving commercial hard floors; routing remains eligible but is no longer the required shape."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -296,9 +305,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_020",
+      "next_scan_id": "ATTRACTION_SCAN_021",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "USER_OWNED_PASSIVE_REALIZATION_TELEMETRY_X_MULTIPLE_PAID_CALLABLE_RAILS_X_LOW_FRICTION_REPEAT_SWITCH"
+      "search_boundary": "FORMATION_DIVERSE_CLEAN_SLATE_ATTRACTION"
     }
   }
 }

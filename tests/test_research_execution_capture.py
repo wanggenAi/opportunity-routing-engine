@@ -23,7 +23,7 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
             "evidence_id": "ev-001",
             "mission_id": "ATTRACTION_FIELD_BROAD_REALITY_V1",
             "lane": "CHINA_CORE",
-            "seed_id": "paid-ugly-workaround",
+            "seed_id": "formation-diversity-no-mechanism-inheritance",
             "source_url": "https://www.stats.gov.cn/example",
             "source_family": "official_statistics",
             "origin_geography": "CN",
@@ -41,7 +41,7 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
         evidence = bind_capture_to_plan(plan, capture)
         expected = next(
             item for item in plan["queries"]
-            if item["lane"] == "CHINA_CORE" and item["seed_id"] == "paid-ugly-workaround"
+            if item["lane"] == "CHINA_CORE" and item["seed_id"] == "formation-diversity-no-mechanism-inheritance"
         )
         self.assertEqual(evidence["query_id"], expected["query_id"])
         self.assertEqual(evidence["source_url"], capture.source_url)
@@ -50,12 +50,20 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
         plan = self._plan()
         with self.assertRaisesRegex(ValueError, "exactly one research query task"):
             bind_capture_to_plan(plan, self._capture(seed_id="not-in-plan"))
-        # GLOBAL_AUXILIARY currently receives only 9 mission slots; this seed is
-        # intentionally outside those slots even though it remains a valid mission seed.
+        # Pick a seed that is genuinely present in the China lane but not allocated
+        # to GLOBAL_AUXILIARY. This keeps the test about lane/plan binding rather than
+        # coupling it to any historical bootstrap seed name.
+        china_seeds = {
+            item["seed_id"] for item in plan["queries"] if item["lane"] == "CHINA_CORE"
+        }
+        global_seeds = {
+            item["seed_id"] for item in plan["queries"] if item["lane"] == "GLOBAL_AUXILIARY"
+        }
+        china_only_seed = next(seed_id for seed_id in china_seeds if seed_id not in global_seeds)
         with self.assertRaisesRegex(ValueError, "exactly one research query task"):
             bind_capture_to_plan(
                 plan,
-                self._capture(lane="GLOBAL_AUXILIARY", seed_id="repeat-route-compounds"),
+                self._capture(lane="GLOBAL_AUXILIARY", seed_id=china_only_seed),
             )
 
     def test_capture_mission_mismatch_fails_closed(self):
@@ -79,7 +87,7 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
         plan = self._plan()
         foreign = self._capture(
             lane="GLOBAL_AUXILIARY",
-            seed_id="paid-ugly-workaround",
+            seed_id="formation-diversity-no-mechanism-inheritance",
             origin_geography="GLOBAL",
             relevance_geography="CN",
             domestic_corroboration_ref="domestic-001",
