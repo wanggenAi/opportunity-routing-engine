@@ -24,7 +24,7 @@
   "seeds": [
     {
       "seed_id": "paid-ugly-workaround",
-      "text": "用户已经在 Agent 软件 工作流中主动表达 选择 匹配 核验 采购 交易需求 但仍需人工跨系统比对规则 数据 资源 才能做决定",
+      "text": "用户 企业 已在 Agent 工作区 私有文件 BOM 设备状态 资格 合同 订单 库存 代码仓库 中暴露当前状态 仍需人工跨到外部市场 注册库 供应资源 规则轨道做决定",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
@@ -145,7 +145,7 @@
     },
     {
       "seed_id": "dense-digital-exhaust-bilateral",
-      "text": "用户高意图在 Agent 或机器工作流中自然出现 同时存在可被调用的付费 Skill API 工具 能完成跨源匹配 兼容性 资格 路由判断",
+      "text": "私有当前状态可由 Agent 直接读取 外部资源 市场 注册库 交易轨道持续可查 且两者的 join 能改变当下购买 申请 替换 预订 分配结果",
       "language": "zh-CN",
       "target_primitives": [
         "ACTOR",
@@ -221,7 +221,7 @@
     },
     {
       "seed_id": "platform-leakage-offplatform",
-      "text": "用户意图已由平台或 Agent 捕获 但关键资源分散在另一数据或交易系统 可由第三方机器路由能力直接改变选择或交易 且无需自行获客",
+      "text": "外部平台拥有公开资源或交易轨道 但不拥有用户此刻的私有项目 BOM 设备 资格 合同 库存 上下文 因此关键 join 仍在平台边界之外",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
@@ -243,7 +243,7 @@
     },
     {
       "seed_id": "repeat-route-compounds",
-      "text": "Agent 意图 到 机器路由调用 到 原生按次付费 到 真实行动结果 可重复 每次结果沉淀规则 证据 覆盖 让下一次更自动",
+      "text": "私有上下文 到 外部实时轨道 到 机器决策 到 原生付费 到 行动结果 可重复 结果沉淀为兼容 资格 路由 供应覆盖证据",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
