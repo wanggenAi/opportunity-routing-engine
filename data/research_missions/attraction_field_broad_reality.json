@@ -24,7 +24,7 @@
   "seeds": [
     {
       "seed_id": "paid-ugly-workaround",
-      "text": "用户 企业 已在 Agent 工作区 私有文件 BOM 设备状态 资格 合同 订单 库存 代码仓库 中暴露当前状态 仍需人工跨到外部市场 注册库 供应资源 规则轨道做决定",
+      "text": "正常内部路径突然失效 设备故障 订单插单 供应延误 排队爆满 缺货等异常已被系统发现 人员仍需电话 微信 多平台人工寻找替代",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
@@ -101,7 +101,7 @@
     },
     {
       "seed_id": "decision-window-open",
-      "text": "外部状态变化发生后 决策窗口仍开放 且参与者可在标准规则下立即下单 预订 交易 申请 转让 结算",
+      "text": "私有异常发生后 损失时钟开始 但仍存在短暂可行动窗口 可立即购买 预订 切换 调度 替代资源",
       "language": "zh-CN",
       "target_primitives": [
         "ACTOR",
@@ -112,7 +112,7 @@
     },
     {
       "seed_id": "premium-for-speed-access",
-      "text": "为了 更快 更确定 更容易获得 愿意加价 付费 加急 替代 购买通道",
+      "text": "为避免停机 违约 延误 试验中断 现场停工 等明确损失 已经愿意为即时替代资源支付溢价",
       "language": "zh-CN",
       "target_primitives": [
         "MOTIVE",
@@ -145,7 +145,7 @@
     },
     {
       "seed_id": "dense-digital-exhaust-bilateral",
-      "text": "私有当前状态可由 Agent 直接读取 外部资源 市场 注册库 交易轨道持续可查 且两者的 join 能改变当下购买 申请 替换 预订 分配结果",
+      "text": "异常事件在私有 ERP MES LIMS IoT 工作流中机器可见 外部替代资源同时有实时库存 空位 价格 交期 和可调用交易动作",
       "language": "zh-CN",
       "target_primitives": [
         "ACTOR",
@@ -221,7 +221,7 @@
     },
     {
       "seed_id": "platform-leakage-offplatform",
-      "text": "外部平台拥有公开资源或交易轨道 但不拥有用户此刻的私有项目 BOM 设备 资格 合同 库存 上下文 因此关键 join 仍在平台边界之外",
+      "text": "内部系统掌握异常和损失时钟 外部平台掌握替代资源与交易轨道 但任一方都尚未同时拥有异常事件与可执行替代",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
@@ -243,7 +243,7 @@
     },
     {
       "seed_id": "repeat-route-compounds",
-      "text": "私有上下文 到 外部实时轨道 到 机器决策 到 原生付费 到 行动结果 可重复 结果沉淀为兼容 资格 路由 供应覆盖证据",
+      "text": "每次异常 到 替代资源选择 到 下单预约 到 结果 可沉淀兼容 时效 成本 成功率 让下一次自动切换更准确",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
