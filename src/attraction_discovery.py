@@ -2,7 +2,8 @@
 
 The engine should not begin by collecting every real friction and only later ask
 whether anyone cares. It should preferentially search where reality already shows
-voluntary energy and a large state-dependent value jump.
+voluntary energy, a large state-dependent value jump, and a route that is actually
+observable enough to capture.
 
 This module is an attention allocator, not commercial proof. It decides whether a
 reality pattern deserves expensive causal descent and external validation effort.
@@ -43,8 +44,15 @@ class AttractionDiscoveryProfile:
       2 = observable/material
       3 = intense/repeated/direct
 
+    Discoverability dimensions ask whether the operator can repeatedly see the moving
+    units through public/searchable/partner-accessible/structured traces without
+    bespoke offline hunting. Match resolvability asks whether the A↔B compatibility
+    relation can be established from accessible evidence rather than recurring expert
+    interpretation.
+
     HIGH_ATTRACTION_BEACON is weakest-link dominated. Large upside cannot compensate
-    for a dead participant side, a locked decision window or founder labor.
+    for a dead participant side, a locked decision window, invisible counterparties,
+    an unresolvable match, or founder labor.
     """
 
     signal_id: str
@@ -62,6 +70,11 @@ class AttractionDiscoveryProfile:
     self_propulsion: int
     operator_control: int
 
+    # Capture feasibility: can the operator actually see and join the moving units?
+    a_discoverability: int = 0
+    b_discoverability: int = 0
+    match_resolvability: int = 0
+
     a_motion_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     b_motion_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     value_jump_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
@@ -70,9 +83,14 @@ class AttractionDiscoveryProfile:
     activation_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     self_propulsion_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     operator_control_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
+    a_discoverability_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
+    b_discoverability_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
+    match_resolvability_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
 
     founder_delivery_required: bool = False
     founder_sales_required_per_transaction: bool = False
+    founder_search_required_per_transaction: bool = False
+    expert_matching_required_per_transaction: bool = False
     explanation_burden_high: bool = False
 
 
@@ -85,6 +103,9 @@ _SCORE_EVIDENCE = {
     "activation_ease": "activation_evidence",
     "self_propulsion": "self_propulsion_evidence",
     "operator_control": "operator_control_evidence",
+    "a_discoverability": "a_discoverability_evidence",
+    "b_discoverability": "b_discoverability_evidence",
+    "match_resolvability": "match_resolvability_evidence",
 }
 
 
@@ -131,10 +152,14 @@ def attraction_beacon_state(profile: AttractionDiscoveryProfile) -> AttractionBe
         profile.bridge_compression,
         profile.activation_ease,
         profile.operator_control,
+        profile.a_discoverability,
+        profile.b_discoverability,
+        profile.match_resolvability,
     )
 
     # Immediate kills: no bilateral motion, value already locked, tiny state jump,
-    # or a bridge whose value is recurring founder labor/sales.
+    # invisible/expensive-to-find counterparties, recurring expert matching, or a
+    # bridge whose value is recurring founder labor/search/sales.
     if (
         profile.a_voluntary_motion <= 1
         or profile.b_voluntary_motion <= 1
@@ -142,14 +167,19 @@ def attraction_beacon_state(profile: AttractionDiscoveryProfile) -> AttractionBe
         or profile.decision_window <= 1
         or profile.bridge_compression <= 1
         or profile.operator_control <= 1
+        or profile.a_discoverability <= 1
+        or profile.b_discoverability <= 1
+        or profile.match_resolvability <= 1
         or profile.founder_delivery_required
         or profile.founder_sales_required_per_transaction
+        or profile.founder_search_required_per_transaction
+        or profile.expert_matching_required_per_transaction
         or profile.explanation_burden_high
     ):
         return AttractionBeaconState.LOW_ATTRACTION
 
-    # Strong attraction means no critical side needs to be pushed and the bridge
-    # releases a legible value jump while decisions are still movable.
+    # Strong attraction means no critical side needs to be pushed or manually hunted,
+    # and the bridge releases a legible value jump while decisions are still movable.
     if all(value >= 2 for value in core) and profile.self_propulsion >= 2:
         return AttractionBeaconState.HIGH_ATTRACTION_BEACON
 
@@ -175,7 +205,10 @@ def attraction_beacon_summary(profile: AttractionDiscoveryProfile) -> dict[str, 
             "STATE_DEPENDENT_VALUE_JUMP_REQUIRED",
             "DECISION_WINDOW_MUST_STILL_BE_MOVABLE",
             "NARROW_BRIDGE_SHOULD_UNLOCK_DISPROPORTIONATE_VALUE",
+            "BOTH_SIDES_MUST_BE_DISCOVERABLE_WITHOUT_BESPOKE_HUNTING",
+            "MATCH_MUST_BE_RESOLVABLE_WITHOUT_RECURRING_EXPERT_INTERPRETATION",
             "WEAKEST_LINK_DOMINATES",
+            "FOUNDER_SEARCH_NE_OPERATOR_CONTROL",
             "FOUNDER_LABOR_NE_OPERATOR_CONTROL",
             "CLEVER_STORY_NE_PARTICIPANT_PULL",
             "HIGH_ATTRACTION_NE_MARKET_VALIDATION",
