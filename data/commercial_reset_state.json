@@ -6,14 +6,7 @@
   "active_transaction_units": [],
   "active_parent_formations": [],
   "inherited_watchlist": [],
-  "retained_research_formations": [
-    {
-      "formation_id": "ATTRACTION_SCAN_004-F1",
-      "title": "LEGACY EQUIPMENT HARVEST PARTS GRAPH",
-      "state": "HIGH_ATTRACTION_BEACON_RETAINED_FOR_CAUSAL_DESCENT",
-      "commercial_candidate": false
-    }
-  ],
+  "retained_research_formations": [],
   "resolved_research_formations": [
     {
       "formation_id": "ATTRACTION_SCAN_001-F1",
@@ -29,24 +22,31 @@
       "formation_id": "ATTRACTION_SCAN_003-F1",
       "verdict": "DEMOTED_WEAK_DOWNSTREAM_ATTRACTION",
       "resolved_date": "2026-09-20"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_004-F1",
+      "verdict": "DEMOTED_INFORMATION_CAPTURE_BOTTLENECK",
+      "resolved_date": "2026-09-20"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
   "last_completed_scan_id": "ATTRACTION_SCAN_004",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_003-F1",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
   "next_scan_id": "ATTRACTION_SCAN_005",
-  "current_research_action": "ATTRACTION_SCAN_004_F1_EXACT_CROSS_ENTERPRISE_DONOR_ROUTE_FALSIFICATION",
+  "current_research_action": "ATTRACTION_SCAN_005_DISCOVERABILITY_FIRST_CLEAN_SLATE_REALITY_SENSING",
   "current_validation_state": {
-    "formation_id": "ATTRACTION_SCAN_004-F1",
-    "public_artifact_confirmation": "PARTIAL_PASS_INTRA_ENTERPRISE_DONOR_BEHAVIOR_CONFIRMED_EXTERNAL_DONOR_CANDIDATE_FOUND",
-    "cross_enterprise_exact_compatibility": "NOT_PROVEN",
-    "bilateral_commitment": "NOT_RUN",
+    "formation_id": null,
+    "public_artifact_confirmation": null,
+    "bilateral_commitment": "NOT_APPLICABLE",
     "commercial_candidate": false
   },
   "required_scan_controls": [
     "BROAD_REALITY",
     "ATTRACTION_FIRST_BEACON",
+    "A_SIDE_DISCOVERABILITY",
+    "B_SIDE_DISCOVERABILITY",
+    "MATCH_RESOLVABILITY",
     "PARETO_FRONTIER_AFTER_HARD_FLOOR",
     "VALUE_CHAIN_LEVERAGE",
     "ATTRACTION_BRIEF",
@@ -62,15 +62,19 @@
     "RETIRING_WHOLE_MACHINE_CAN_BE_LOW_VALUE_WHILE_ONE_HARVESTABLE_COMPONENT_CAN_HAVE_DOWNTIME_LINKED_VALUE",
     "PARENT_MACHINE_TO_COMPONENT_RELATIONSHIP_CAN_BE_A_PLATFORM_DATA_ASSET_WHEN_LEGACY_SPARES_ARE_FRAGMENTED",
     "GLOBAL_SEMICONDUCTOR_HARVEST_PARTS_ANALOGUE_VALIDATES_MECHANISM_NOT_CHINA_DEMAND",
-    "INTRA_ENTERPRISE_DONOR_PART_REUSE_IS_DIRECTLY_OBSERVED_IN_A_CURRENT_CHINA_INDUSTRIAL_CASE"
+    "INTRA_ENTERPRISE_DONOR_PART_REUSE_IS_DIRECTLY_OBSERVED_IN_A_CURRENT_CHINA_INDUSTRIAL_CASE",
+    "LARGE_VALUE_GAP_WITHOUT_DISCOVERABILITY_IS_HIDDEN_POTENTIAL_NOT_HIGH_ATTRACTION",
+    "BOTH_SIDES_MUST_BE_DISCOVERABLE_BEFORE_ROUTING_CAN_BE_CALLED_NARROW",
+    "MATCH_RESOLVABILITY_MUST_NOT_REQUIRE_RECURRING_EXPERT_INTERPRETATION",
+    "SCRAPING_HARDER_DOES_NOT_CREATE_ADDRESSABILITY"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
     "ATTRACTION_SCAN_003-F1 remains demoted and its prepared outreach must not be sent.",
-    "ATTRACTION_SCAN_004-F1 remains the only current high-attraction research formation.",
-    "Public Artifact Confirmation 001 directly confirms one 2026 China industrial case using an actuator head dismantled elsewhere because the original spare was discontinued.",
-    "Independent used IQ12 + IB4 donor-market candidates exist, but exact compatibility with the China case is not proven from public artifacts.",
-    "Cross-enterprise harvested-parts routing remains unproven; no commercial promotion.",
+    "ATTRACTION_SCAN_004-F1 is demoted despite a real value jump because A-side supply, B-side demand and compatibility are not reliably discoverable/resolvable without recurring manual search or expert interpretation.",
+    "Current scans must treat A-side discoverability, B-side discoverability and match resolvability as non-compensatory hard attraction gates.",
+    "Prefer opportunity surfaces where reality already emits dense searchable digital traces; do not first build a sensor network just to make the market visible.",
+    "ACTIVE COMMERCIAL CANDIDATES and RETAINED RESEARCH FORMATIONS remain zero.",
     "FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN."
   ]
 }
