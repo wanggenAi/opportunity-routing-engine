@@ -372,7 +372,10 @@ BROAD CURRENT REALITY
     + decision window still movable
     + narrow bridge / disproportionate unlock
     + low explanation/activation burden
-    + operator control without recurring labor
+    + A-side discoverability
+    + B-side discoverability
+    + match resolvability without recurring expert interpretation
+    + operator control without recurring search/labor
     + plausible self-propulsion)
 → ONLY THEN DEEP CAUSAL DESCENT
 → COMPLEMENTARY NODES
@@ -391,8 +394,8 @@ Rules:
 - low-attraction reality can remain research context but must not consume scarce founder
   attention or external validation merely because it is true;
 - no dimension may be averaged away: a dead A side, dead B side, locked decision
-  window, weak value jump, high explanation burden or recurring founder labor kills
-  current high-attraction status;
+  window, weak value jump, hidden A/B units, unresolvable matches, high explanation
+  burden or recurring founder search/labor kills current high-attraction status;
 - prefer non-obvious connections that feel obvious after explanation because a small
   bridge releases a large, immediately legible state change;
 - `HIGH_ATTRACTION_BEACON != COMMERCIAL_VALIDATION`.
@@ -406,7 +409,10 @@ For every retained formation, separately establish:
 - **B-side attraction**: why the complementary/outcome actor wants the reachable result now, with behavior evidence;
 - **operator attraction**: why the operator actively wants to own the bridge rather than merely perform or sell a job;
 - **activation friction**: what persuasion, permission, trust, integration, capital or behavior change still stands between the actors;
-- **self-propulsion**: why successful routing makes the next flow easier rather than recreating founder labor.
+- **A-side discoverability**: where supply/resource units continuously become visible without bespoke hunting;
+- **B-side discoverability**: where demand/state-change events continuously become visible while decisions remain open;
+- **match resolvability**: what accessible identity/rule evidence allows A↔B matching without recurring expert interpretation;
+- **self-propulsion**: why successful routing makes the next flow easier rather than recreating founder labor/search.
 
 Operator attraction is a strategic attention signal, never a substitute for market evidence.
 
@@ -420,6 +426,9 @@ BROAD REALITY > CURRENT SEARCH LENS
 SEARCH LENS != ONTOLOGY
 INDUSTRIAL B2B != DEFAULT WORLD
 TRANSFERABLE OBJECTIVE STRANDED UNIT != TOTAL COMMERCIAL WORLD MODEL
+VALUE GAP WITHOUT DISCOVERABILITY != CURRENT HIGH ATTRACTION
+SCRAPING HARDER != ADDRESSABLE MARKET
+FOUNDER HUNTING != ROUTING CONTROL
 ```
 
 ## Value-chain leverage / intervention timing rule — LOCKED
