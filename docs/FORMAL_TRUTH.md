@@ -1112,70 +1112,76 @@ Participant attraction requires evidence. Operator attraction allocates founder 
 
 ## 19. Current next action — CANONICAL
 
-`ATTRACTION_SCAN_012` completed under the private-exception × open-failover search.
+`ATTRACTION_SCAN_013` completed under the newly-callable-rail × unowned-signal search.
 
 Result:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-- NEXT = `ATTRACTION_SCAN_013`
+- NEXT = `ATTRACTION_SCAN_014`
 
-Scan 012 established the current failover-integration trap:
+Scan 013 established a new hard boundary:
 
 ```text
-STANDARDIZED + MACHINE-CALLABLE + REPEATED FAILOVER
-→ INCUMBENT INTEGRATION PRESSURE
-
-UNOWNED + PHYSICAL + HETEROGENEOUS FAILOVER
-→ QUOTE / APPROVAL / DIAGNOSIS / MANUAL-DISPATCH PRESSURE
+NEWLY CALLABLE RAIL
++ SIMPLE / GENERIC INTENT-TO-ACTION MAPPING
+= GENERAL AGENT FEATURE
+!= DISTINCT ROUTING BUSINESS
 ```
 
-Evidence:
-- WFM + flexible-labor platforms already convert sudden empty shifts into external
-  worker tasks automatically;
-- logistics platforms already detect exceptions and re-tender/reroute;
-- payment orchestration already performs intelligent channel routing/failover;
-- EV/charging ecosystems integrate low-battery state with charger discovery and
-  roadside assistance;
-- cloud-warehouse markets expose capacity but do not yet prove general instant
-  acquisition of a new warehouse relationship;
-- emergency physical services retain field-specific manual gates.
+Current evidence includes:
+- DiDi MCP: estimate, order creation, status, cancellation and driver location;
+- CaoCao: direct ride ordering plus enterprise scene/policy parameters;
+- 1688: natural-language procurement that clarifies category/budget/spec and executes
+  search through checkout;
+- Meituan Xiaotuan: real-time contextual decision support plus order/ride/reservation;
+- McDonald's MCP: ordering and merchant actions;
+- FlyAI: Agent-native travel search plus native developer commission.
 
-The new 2026 mechanism shift is Agent commerce.
+These rails confirm that app/browser actions are rapidly becoming ordinary Agent
+capabilities. New callability is therefore not itself an operator control point.
 
-Current Agent Pay documentation establishes that an existing merchant/service Skill
-can own:
-- search;
-- selection;
-- confirmation;
-- order creation;
-and then hand payment to a payment Skill for completion and fulfillment continuation.
+New evidence-bound hard kill:
 
-Therefore a previously app/browser/manual-orderable service can become machine-callable
-without the event-side incumbent owning that rail yet.
+`generic_agent_substitutable`.
 
-Run `ATTRACTION_SCAN_013` from broad current reality with working label:
+If ordinary user context + the official rail schema + general Agent reasoning can
+reproduce the materially same routing decision, the signal is LOW_ATTRACTION even when
+the rail is callable and participant motion is real.
 
-`NEWLY CALLABLE PHYSICAL/SERVICE RAIL × UNOWNED HIGH-INTENT SIGNAL`.
+This prevents native commission or fresh MCP availability from being mistaken for a
+routing moat.
+
+Run `ATTRACTION_SCAN_014` from broad current reality with working label:
+
+`NON-GENERIC DECISION EDGE × CALLABLE ACTION RAIL`.
 
 Prefer formations where:
-1. the resource/service was historically bought through app/browser/contact/manual
-   ordering;
-2. it has only recently become API/MCP/Skill/Agent-callable;
-3. selection, price/quote, order/booking and result state are sufficiently callable;
-4. a separate high-intent state/event exists outside the rail owner's system;
-5. that event creates a large state-dependent value jump for using the rail now;
-6. the event-side incumbent has not already integrated the newly callable rail;
-7. match/eligibility is machine-resolvable;
-8. the router can capture value through native machine payment/attribution;
-9. repeated outcomes compound route coverage and matching evidence.
+1. a real high-intent state/event is observable;
+2. a callable action rail already exists;
+3. ordinary user context plus official rail capabilities are insufficient to choose
+   the correct route;
+4. a reusable specialized routing asset resolves that decision;
+5. the asset is not already owned by the rail owner or mature incumbent;
+6. the asset is machine-executable without recurring expert judgment;
+7. outcomes compound compatibility, eligibility, acceptance, constraint or route
+   history;
+8. the decision changes a real economic action;
+9. the operator can capture value without recurring acquisition, sales or delivery.
 
-This is an integration-lag search, not an AI-tool search and not a sector commitment.
+Hard middle boundary:
 
-Retain zero if Agent-callability is payment-only, if merchant-by-merchant onboarding
-becomes recurring operator work, if the event-side incumbent already offers the same
-substitute, or if expert diagnosis/negotiation remains necessary per transaction.
+```text
+NOT GENERIC-AGENT SUBSTITUTABLE
+AND
+NOT RECURRING-EXPERT DEPENDENT
+→ SPECIALIZED + REUSABLE + MACHINE-RESOLVABLE + COMPOUNDING
+```
+
+Retain zero if specialization is only prompt wording, if public information lets a
+generic Agent derive the same answer, if the rail owner already owns the decisive
+rule/data, or if every case requires founder/expert interpretation.
 
 ### 19A. Value-chain leverage truth — LOCKED
 
