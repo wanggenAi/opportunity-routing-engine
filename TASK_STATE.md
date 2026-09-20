@@ -128,12 +128,14 @@ FIRST BUILD A SENSOR NETWORK
 
 ## Last Verified Main
 
-`921f03dd02ed81795dca41c65bb0efc0fb2d5c92`
-— squash merge of PR #275, Scan 004 F1 public-artifact confirmation.
+`1959949c25afd7f47e772c18cdcadc5e66029529`
+— squash merge of PR #276, `Make discoverability a hard attraction gate`.
 
 Verified:
-- PR #275 CI #829: success;
-- main CI #830 / run `35487092724`: success.
+- PR #276 head CI #832: success;
+- main CI #833 / run `35488228380`: success;
+- research-mission-plan #5 / run `35488228371`: success;
+- artifact `research-mission-plan-state` id `10598107025`, digest `sha256:3e586b9c31119ad947078f9fd0f3578d58b6f3fc6d0dbddb0394e7c13009763f`.
 
 ## Active Issue
 
@@ -141,15 +143,23 @@ Verified:
 
 ## Active Branch
 
-`feature/discoverability-hard-gate`
+None for business/research work.
+
+This handoff-only checkpoint branch is:
+`feature/discoverability-postmerge-state`
 
 ## Active PR
 
-Not opened yet.
+None for business/research work.
+
+PR #276 is merged.
 
 ## CI
 
-Pending for the discoverability hard-gate branch.
+Latest verified:
+- PR #276 head CI #832: success;
+- main CI #833: success;
+- research-mission-plan #5: success.
 
 ## Latest Artifact / Persisted State
 
@@ -204,7 +214,7 @@ No current formation survives this corrected hard floor.
 ## Blockers
 
 Engineering:
-- branch tests/CI not yet verified.
+- none.
 
 Research:
 - Scan 005 has not yet been executed.
@@ -218,8 +228,7 @@ Commercial:
 
 ## Next Action
 
-Finish CI/merge for the discoverability hard gate, then execute
-`ATTRACTION_SCAN_005` from broad current reality.
+Execute `ATTRACTION_SCAN_005` from broad current reality.
 
 Search discipline:
 1. do not inherit industrial equipment or any previous vertical;
