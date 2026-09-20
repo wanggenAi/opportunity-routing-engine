@@ -61,11 +61,11 @@ Evidence decides what may be believed.
 
 ## Last Verified Main
 
-`ee472b66da1201603fb4b0e670752f73827ac495`
-— squash merge of PR #270, `Make attraction the first discovery premise`.
+`23132790124b88bc46b2aecddc2630c2213ddce7`
+— squash merge of PR #272, `Engineer attraction selection with Pareto frontier`.
 
 Verified on main:
-- CI #822 / run `35485818516`: success;
+- CI #825 / run `35486141396`: success;
 - research-mission-plan run #4 / `35485818545`: success;
 - research plan artifact `research-mission-plan-state`, artifact id `10597650161`;
 - generated mission id `ATTRACTION_FIELD_BROAD_REALITY_V1`;
@@ -82,19 +82,19 @@ Verified on main:
 None for commercial research.
 
 This handoff-only checkpoint branch is:
-`feature/attraction-first-postmerge-state`.
+`feature/attraction-frontier-postmerge-state`.
 
 ## Active PR
 
 None for business/architecture work.
 
-PR #270 is merged.
+PR #270, PR #271 and PR #272 are merged.
 
 ## CI
 
 Latest business/architecture verification:
-- PR #270 head CI #821: success;
-- main CI #822: success;
+- PR #272 head CI #824: success;
+- main CI #825: success;
 - main research-mission-plan run #4: success.
 
 The production research-plan workflow now points to:
@@ -105,6 +105,7 @@ The production research-plan workflow now points to:
 Canonical implementation:
 - `src/attraction_discovery.py` — pre-formation attraction beacon;
 - `src/attraction_leverage.py` — value-chain position / intervention-timing gate;
+- `src/attraction_frontier.py` — Pareto / non-dominated attention allocation across multiple high-attraction signals;
 - `src/research_control_plane.py` — supports `attention_mode = ATTRACTION_FIRST`.
 
 Canonical doctrine/state:
@@ -112,6 +113,7 @@ Canonical doctrine/state:
 - `docs/OPPORTUNITY_ATTRACTION_FIELD.md`;
 - `docs/FORMAL_TRUTH.md`;
 - `docs/INTERNET_RESEARCH_CONTROL_PLANE.md`;
+- `docs/ENGINEERING_METHOD_SELECTION.md`;
 - `data/commercial_reset_state.json`;
 - `data/research_missions/attraction_field_broad_reality.json`.
 
@@ -135,7 +137,8 @@ Production planning artifact:
 - Preserved research mission identity so old capture contracts do not fail only because of a version rename.
 - Updated capture tests to the new attraction-first seed set.
 - PR #270 merged.
-- Main CI and production research-mission workflow both passed.
+- PR #272 merged with scientific method-selection doctrine and Pareto frontier.
+- Main CI #825 and production research-mission workflow both passed.
 
 ## Current Findings
 
