@@ -23,6 +23,28 @@
   "attention_mode": "ATTRACTION_FIRST",
   "seeds": [
     {
+      "seed_id": "cross-rail-outcome-rights",
+      "text": "交易轨道本身会返回最终结果 但必须核验路由者是否有权跨平台比较并沉淀非身份化结果数据 单个平台不能天然拥有完整跨轨道历史",
+      "language": "zh-CN",
+      "target_primitives": [
+        "RESOURCE",
+        "CONSTRAINT",
+        "FLOW",
+        "OUTCOME"
+      ]
+    },
+    {
+      "seed_id": "realized-payout-not-display-quote",
+      "text": "用户正在出售闲置数码设备 多个回收轨道都有公开估价 但真正经济结果要到质检后才出现 优先寻找预估价到最终到账价 接受拒绝 退回 时效的跨轨道历史",
+      "language": "zh-CN",
+      "target_primitives": [
+        "STATE",
+        "BEHAVIOR",
+        "FLOW",
+        "OUTCOME"
+      ]
+    },
+    {
       "seed_id": "outcome-asset-not-public-parameter-graph",
       "text": "不要再把公开规格 参数 目录 编成一个更整齐的图谱 优先寻找只有真实交易结果才会产生的机器可维护接受拒绝资产 并要求结果直接改变下一次真实行动",
       "language": "zh-CN",

@@ -1,0 +1,80 @@
+{
+  "schema_version": "attraction-scan.v12",
+  "scan_id": "ATTRACTION_SCAN_015",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-20",
+  "status": "COMPLETE",
+  "search_mode": "TRANSACTION_GENERATED_ACCEPTANCE_GRAPH_X_CALLABLE_ACTION_RAIL",
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_015-F1",
+      "title": "USED_DEVICE_REALIZED_PAYOUT_ROUTER",
+      "chinese_title": "二手数码实际到手价路由",
+      "state": "HIGH_ATTRACTION_BEACON_RETAINED_FOR_CAUSAL_DESCENT",
+      "commercial_candidate": false,
+      "generic_agent_substitutable": false,
+      "attraction_profile": {
+        "a_voluntary_motion": 3,
+        "b_voluntary_motion": 3,
+        "state_dependent_value_jump": 2,
+        "decision_window": 3,
+        "bridge_compression": 2,
+        "activation_ease": 2,
+        "self_propulsion": 2,
+        "operator_control": 2,
+        "a_discoverability": 2,
+        "b_discoverability": 3,
+        "match_resolvability": 2,
+        "action_gate_callability": 3
+      },
+      "pareto_frontier": true,
+      "mechanism": "route a used-device seller by expected final realized payout and downside/time risk using cross-rail estimate-to-inspection-to-payment outcomes",
+      "operator_asset": "cross-rail realized-payout acceptance/rejection/time-to-cash graph",
+      "callable_rails": [
+        "AIHUISHOU_OPEN_PLATFORM",
+        "SUHUANJI_OPEN_PLATFORM",
+        "XIAOZHI_BEARHOME_OPEN_PLATFORM"
+      ],
+      "proven_native_economics": [
+        "AIHUISHOU_CHANNEL_COMMISSION",
+        "XIAOZHI_COMPLETED_ORDER_PROMOTION_COMMISSION"
+      ],
+      "primary_unknowns": [
+        "CROSS_RAIL_DATA_USE_AND_COMPARISON_RIGHTS",
+        "AT_LEAST_TWO_RAILS_RETURN_FINAL_INSPECTED_OR_SETTLEMENT_OUTCOMES_IN_PRODUCTION",
+        "NEUTRAL_REALIZED_PAYOUT_ROUTER_INCUMBENT_ABSENCE",
+        "AGENT_NATIVE_INBOUND_INTENT_WITHOUT_RECURRING_FOUNDER_DISTRIBUTION",
+        "COLD_START_VALUE_BEFORE_LARGE_PROPRIETARY_HISTORY"
+      ],
+      "next_action": "RIGHTS_CALLABILITY_AND_INBOUND_DISCOVERY_FALSIFICATION"
+    }
+  ],
+  "retained_formations": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "pareto_eligible": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "pareto_frontier": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "hard_floor_demotions": [
+    "PAYMENT_SUCCESS_ROUTING_ALREADY_PRODUCTIZED",
+    "SMS_MULTI_CHANNEL_ROUTING_ALREADY_PRODUCTIZED",
+    "SAME_CITY_DELIVERY_ROUTING_ALREADY_PRODUCTIZED",
+    "GENERIC_MODEL_API_ROUTING_ALREADY_PRODUCTIZED"
+  ],
+  "scan_learnings": [
+    "DISPLAYED_ESTIMATE_IS_NOT_THE_DECISIVE_OUTCOME_IN_USED_DEVICE_RECYCLING",
+    "POST_INSPECTION_FINAL_PAYOUT_CAN_CREATE_TRANSACTION_GENERATED_ROUTING_DATA",
+    "CROSS_RAIL_REALIZED_PAYOUT_HISTORY_IS_DISTINCT_FROM_QUOTE_COMPARISON",
+    "NATIVE_COMMISSION_EXISTS_ON_MULTIPLE_CURRENT_RECYCLING_RAILS",
+    "ROUTER_CAN_DELEGATE_PHYSICAL_INSPECTION_TO_RAILS_AND_REMAIN_MACHINE_RESOLVABLE",
+    "AGENT_NATIVE_INBOUND_DISTRIBUTION_REMAINS_A_DECISIVE_UNKNOWN",
+    "CROSS_PLATFORM_DATA_USE_RIGHTS_MUST_BE_PROVEN_BEFORE PROMOTION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_016",
+  "next_action": "ATTRACTION_SCAN_015_F1_RIGHTS_AND_INBOUND_DISCOVERY_FALSIFICATION",
+  "first_external_value_flow": "NOT_PROVEN"
+}
