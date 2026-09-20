@@ -106,10 +106,10 @@ Xiaozhi/Bearhome:
 
 ## Last Verified Main
 
-`9dbe03578e98bab8129d2e74cf58ac8f6c6c0ba7`
-— squash merge of PR #294, `Mark Scan 015 F1 public-rights search ceiling`.
+`9f71c4adb0a672024b8c9c219391791c0b3f656d`
+— squash merge of PR #295, `Sync recovery checkpoint after Gate A public-rights ceiling`.
 
-PR #294 head CI #870 passed before merge.
+PR #295 head CI #872 passed before merge.
 
 ## Active Issue
 
@@ -117,11 +117,11 @@ PR #294 head CI #870 passed before merge.
 
 ## Active Branch
 
-None. Current canonical state is on `main`.
+`feature/scan015-f1-gate-b-preflight`
 
 ## Active PR
 
-None. PR #294 is merged.
+Not opened yet for Gate B preflight checkpoint.
 
 ## CI
 
@@ -132,6 +132,7 @@ PR #291 / CI #864 succeeded.
 PR #292 / CI #866 succeeded.
 PR #293 / CI #868 succeeded.
 PR #294 / CI #870 succeeded.
+PR #295 / CI #872 succeeded.
 
 ## Latest Artifact / Persisted State
 
@@ -169,16 +170,18 @@ Engineering:
 - PR #292 written-rights response-rubric checkpoint is merged and green.
 - PR #293 Suhuanji technical-closure checkpoint is merged and green.
 - PR #294 public-rights search-ceiling checkpoint is merged and green.
-- No engineering blocker remains.
+- PR #295 recovery checkpoint is merged and green.
+- Current Gate B preflight checkpoint PR/CI is not yet complete.
 
 Research:
 1. public docs prove technical post-inspection/payment outcome visibility on at least Suhuanji and Xiaozhi, but cross-rail comparison/retention/derived-model rights remain UNKNOWN; same-layer public rights search has reached a useful ceiling;
 2. obtain written confirmation from at least two overlapping 3C rails that anonymous outcome data may be retained and used for future routing; vague cooperation/API-access language does not pass;
-3. Suhuanji now has explicit valuation→quote→payment/time technical closure, but its verified public business contact endpoint remains unresolved;
+3. Suhuanji now has explicit valuation→quote→payment/time technical closure and same-parent-domain identity linkage, but its verified Open Platform business email/phone endpoint remains unresolved;
 4. production onboarding is not zero-friction: Xiaozhi requires enterprise qualification and Aihuishou channel settlement requires VAT invoicing capability;
 5. a deeper neutral-incumbent search must not reveal the exact realized-payout graph;
-6. inbound Agent/Skill discoverability must produce self-revealing high-intent events without recurring founder marketing;
-7. cold-start usefulness before proprietary history is unproven.
+6. Agent/Skill discovery infrastructure is now verified, but real used-device seller intent flowing through it without founder distribution remains NOT_PROVEN;
+7. Gate B preflight is prepared but not published; founder-distributed links, paid acquisition, developer-only installs and synthetic prompts cannot count as demand proof;
+8. cold-start usefulness before proprietary history is unproven.
 
 Commercial:
 - F1 is not a commercial candidate;
@@ -191,7 +194,7 @@ Scan 015 PR #288 is merged and green.
 
 Gate A public technical falsification is complete with `PARTIAL_PASS_RIGHTS_UNKNOWN`.
 
-Canonical inquiry packet and pass/fail response rubric are ready. Public-rights search has reached its useful ceiling. Next decisive evidence must be an official written provider response or current partner agreement from at least two rails before Gate B transaction execution.
+Canonical inquiry packet and pass/fail response rubric are ready. Public-rights search has reached its useful ceiling. Gate B discovery preflight is also prepared but unpublished. The single best next decisive action remains obtaining an official written provider response or current partner agreement from at least two rails before any Gate B transaction execution.
 
 The remaining bounded validations are:
 
@@ -204,11 +207,18 @@ Public docs already prove technical outcome visibility. Now verify in writing fo
 - router remains channel/router rather than recycler/principal.
 
 ### Gate B — inbound intent
-Create the smallest non-transactional public Agent Skill/MCP discovery artifact around:
+A fail-closed unpublished Skill preflight now exists around:
 "compare expected final realized payout, not just displayed estimates."
 
-Do not place orders and do not collect identity yet. Measure whether the capability can
-receive self-revealing sell/recycle intent without recurring founder distribution.
+Current preflight truth:
+- discovery infrastructure = PASS;
+- public publication path = PASS on the Skills Hub;
+- consumer Agent surface = currently real;
+- organic qualified used-device seller invocation = NOT_PROVEN;
+- public experiment = NOT_PUBLISHED;
+- transaction execution = BLOCKED_BY_GATE_A.
+
+When release is justified, measure platform-native discovery only. Founder links, paid traffic, friends/family, developer-only installs and synthetic prompts cannot satisfy Gate B.
 
 Kill F1 if either hard gate fails.
 
@@ -221,6 +231,8 @@ Kill F1 if either hard gate fails.
 - Do not perform physical grading.
 - Do not cold-message sellers to manufacture demand.
 - Do not build a full App before the two gates pass.
+- Do not publicly publish the Gate B draft as a live router or imply real cross-rail ranking while Gate A rights remain unknown.
+- Do not count founder-distributed links, paid traffic, friends/family, developer-only installs or synthetic prompts as Gate B evidence.
 - Do not store name/mobile/address/payment identifiers as the routing asset.
 - Do not treat search absence as incumbent-gap proof.
 - Do not repeat same-layer public rights searches after the current ceiling unless a new source surface appears.
