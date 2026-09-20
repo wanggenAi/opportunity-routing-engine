@@ -23,6 +23,28 @@
   "attention_mode": "ATTRACTION_FIRST",
   "seeds": [
     {
+      "seed_id": "outcome-asset-not-public-parameter-graph",
+      "text": "不要再把公开规格 参数 目录 编成一个更整齐的图谱 优先寻找只有真实交易结果才会产生的机器可维护接受拒绝资产 并要求结果直接改变下一次真实行动",
+      "language": "zh-CN",
+      "target_primitives": [
+        "RESOURCE",
+        "BEHAVIOR",
+        "FLOW",
+        "OUTCOME"
+      ]
+    },
+    {
+      "seed_id": "transaction-generated-acceptance-graph",
+      "text": "高意图事件已经进入可调用交易轨道 每次接受 拒绝 成功 失败 退款 改派 兼容 成本 时效结果会自然回流形成跨路由接受图 且该图不是单一平台天然拥有 通用Agent无法仅靠公开参数可靠重建",
+      "language": "zh-CN",
+      "target_primitives": [
+        "STATE",
+        "BEHAVIOR",
+        "FLOW",
+        "OUTCOME"
+      ]
+    },
+    {
       "seed_id": "paid-ugly-workaround",
       "text": "用户已有高意图 且交易轨道可调用 但正确选择仍依赖跨域兼容 资格 约束 接受历史 或结果数据 通用Agent仅看提示词与官方API无法可靠完成",
       "language": "zh-CN",
