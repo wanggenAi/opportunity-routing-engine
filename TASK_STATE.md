@@ -14,42 +14,39 @@ ZERO RETENTION IS VALID
 
 ## Goal
 
-Reach the first real external value flow without lowering hard gates merely to keep a
-candidate count above zero.
+Reach the first real external value flow without lowering hard gates to manufacture a candidate.
 
 ## Current Unique Commercial Research Goal
 
-There is no single vertical-specific discovery goal.
+Validation queue:
+- `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic inbound intent.
+- `ATTRACTION_SCAN_016-F1` — two callable 9610 cross-customs return rails + non-consulting economics.
 
-Current validation queue:
-- `ATTRACTION_SCAN_015-F1` — prove written cross-rail outcome-data rights and organic inbound intent.
-- `ATTRACTION_SCAN_016-F1` — prove two callable 9610 cross-customs return rails and non-consulting economics.
-
-Current discovery goal:
+Discovery queue next boundary:
 
 ```text
-MATURE PLATFORM A STATE
+SELF-REVEALING HIGH-INTENT EVENT
 +
-MATURE INDEPENDENT PLATFORM B STATE
+MULTIPLE INDEPENDENT PAID CALLABLE RAILS
 +
-TIME-SENSITIVE CROSS-DOMAIN JOIN
+POST-EXECUTION OUTCOME UNCERTAINTY
 +
-JOIN CHANGES A REAL ACTION
+NO SINGLE RAIL OWNS CROSS-RAIL HISTORY
 +
-OUTCOME FLOWS BACK
-+
-NO RECURRING EXPERT / FOUNDER EXECUTION
-→ POSSIBLE UNOWNED ROUTING EDGE
+TRANSACTION-LINKED OPERATOR ECONOMICS
+→ POSSIBLE ROUTING ASSET
 ```
+
+This mechanism is generic. It must not inherit used-device recycling or 9610 returns as a vertical prior.
 
 ## Current Phase
 
-`SCAN_017_COMPLETE_READY_FOR_SCAN_018`
+`SCAN_018_COMPLETE_READY_FOR_SCAN_019`
 
 ## Last Verified Main
 
-`c1fe941c4d7591fda29a1a5d3c8d350ce4cfb4dc`
-— squash merge of PR #305, `Sync Scan 016 merged checkpoint`.
+`94484570bf0d104038708158620dfff9dcce6d1d`
+— squash merge of PR #306, `Complete Scan 017 with zero new retention`.
 
 ## Active Issue
 
@@ -57,21 +54,21 @@ NO RECURRING EXPERT / FOUNDER EXECUTION
 
 ## Active Branch
 
-`feature/scan017-broad-reality`
+`feature/scan018-transient-exception-joins`
 
 ## Active PR
 
-Not opened yet for Scan 017.
+Not opened yet for Scan 018.
 
 ## CI
 
-No Scan 017 PR CI run yet.
+No Scan 018 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New on current branch:
-- `docs/research/ATTRACTION_SCAN_017_2026-09-20.md`
-- `data/research_runs/attraction_scan_017.json`
+- `docs/research/ATTRACTION_SCAN_018_2026-09-20.md`
+- `data/research_runs/attraction_scan_018.json`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -80,45 +77,44 @@ Updated:
 
 ## Completed
 
-- ran Scan 017 from broad current reality without using Scan 015/016 verticals as priors;
-- searched current 2026 changes across electronic trade documents, shared commercial-space
-  test capacity, retired PV modules, carbon-footprint certification, green certificates,
-  engineering-equipment sharing, low-altitude flight services and environmental-right markets;
-- contradicted the electronic-document router with live DCSA cross-platform interoperability
-  plus bank/platform finance integration;
-- rejected commercial-space test capacity because recurring engineering matching remains material;
-- rejected retired-PV routing because physical inspection/manual quotation remains a hard dependency;
-- rejected carbon certification, green certificates, equipment sharing, low-altitude services and
-  environmental rights where the obvious control layer is already platform/exchange owned;
-- retained zero new formations;
-- defined Scan 018 around time-sensitive cross-domain state joins.
+- tested hospital-discharge → home-nursing capacity;
+- tested certificate-expiry → renewal/deployment action;
+- tested freight quoted/planned → realized cost/transit outcomes;
+- tested new-energy heavy-truck freight state → charging/swap state;
+- tested compute workload → electricity/green-energy state;
+- tested empty-container return deadline → depot/appointment state;
+- tested cold-chain temperature exception → emergency cold-storage/vehicle capacity;
+- tested weather/harvest shock → grain-drying capacity;
+- retained zero new formations after contradiction search.
 
 ## Current Findings
 
-`ATTRACTION_SCAN_017 = COMPLETE / ZERO NEW RETENTION`.
-
-The key learning is:
+The strongest Scan-018 learning is:
 
 ```text
-NEW POLICY / STANDARD / DIGITAL RIGHT
-+
-NEW REGISTRY / API / MARKETPLACE
-DOES NOT CREATE AN INDEPENDENT ROUTER
-WHEN THE SAME INFRASTRUCTURE ALSO OWNS
-MATCHING + INTEROPERABILITY + ACTION + SETTLEMENT
+DIGITIZED HIGH-LOSS EXCEPTION
+→ MATURE INDUSTRY CONTROL PLANE TENDS TO ABSORB IT
+
+UNDER-DIGITIZED HIGH-LOSS EXCEPTION
+→ PHONE / EXPERT / BESPOKE COORDINATION TENDS TO REMAIN
+
+CROSS-DOMAIN JOIN ALONE
+!=
+INDEPENDENT ROUTING CONTROL
 ```
 
-The next search must move outside single-platform control surfaces.
+The residual search must combine self-revealing intent, already-callable paid rails and
+transaction-generated outcome uncertainty.
 
 ## Blockers
 
 Engineering:
-- Scan 017 branch has not yet completed PR / CI / merge.
+- Scan 018 branch has not yet completed PR / CI / merge.
 
 Research:
-- Scan 015-F1: zero compatible written provider confirmations.
-- Scan 016-F1: two real callable 9610 cross-customs return rails remain unproven.
-- Scan 018 has not started.
+- Scan 015-F1 still has zero compatible written provider confirmations.
+- Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return rails.
+- Scan 019 has not started.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -126,18 +122,17 @@ Commercial:
 
 ## Next Action
 
-Complete Scan 017 PR / CI / merge, then start `ATTRACTION_SCAN_018` from broad current
-reality using the cross-domain transient-state boundary without inheriting a vertical.
+Complete Scan 018 PR / CI / merge, then start `ATTRACTION_SCAN_019` from broad current
+reality under the self-revealing-intent × paid-callable-rails × outcome-uncertainty boundary.
 
 ## Do Not Repeat
 
-- Do not retain electronic trade-document routing merely because the law is new.
-- Do not mistake platform fragmentation for a moat when interoperable standards are live.
-- Do not retain commercial-space shared capacity without machine-resolvable matching.
-- Do not retain retired-PV routing while physical inspection/manual quote remains decisive.
-- Do not build another registry, directory, marketplace or policy chatbot around an official control plane.
-- Do not manufacture a winner because a scan has zero retention.
-- Do not use Scan 015 or Scan 016 verticals as Scan 018 priors.
+- Do not retain a cross-domain exception merely because the penalty is large.
+- Do not mistake alerting/visibility for callable action.
+- Do not build another TMS/WMS/control tower around an exception already being internalized.
+- Do not accept phone-call/manual dispatch as action callability.
+- Do not use Scan 015/016 verticals as Scan 019 priors.
+- Do not manufacture a winner because Scan 018 has zero retention.
 - UNKNOWN != PASS.
 
 ## Guardrails
@@ -150,8 +145,7 @@ reality using the cross-domain transient-state boundary without inheriting a ver
 - GENERIC_AGENT_SUBSTITUTABILITY remains a hard kill.
 - NO_RECURRING_FOUNDER_ACQUISITION.
 - NO_RECURRING_EXPERT_DELIVERY.
-- PLATFORM_EXISTS != OPPORTUNITY.
-- NEW_POLICY != BUSINESS.
-- INTEROPERABILITY_GAP != MOAT when the ecosystem is actively standardizing it.
+- OUTCOME_DATA_MUST_FLOW_BACK_TO_ROUTER.
+- ONE_RAIL_MUST_NOT_ALREADY_OWN_THE_DECISIVE_CROSS_RAIL_HISTORY.
 - UNKNOWN != PASS.
 - Infer broadly; retain conservatively.
