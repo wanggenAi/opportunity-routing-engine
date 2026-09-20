@@ -301,3 +301,52 @@ as evidence until an actual provider response exists.
 Gate A remains:
 
 `PARTIAL_PASS_RIGHTS_UNKNOWN`.
+
+
+## Public rights-risk signal — Aihuishou
+
+A deeper official-source pass found a material caution in Aihuishou's current public
+consumer terms/privacy materials:
+
+- the current user-service agreement says that, unless law permits or Aihuishou gives
+  written permission, users may not copy/modify platform operational or client/server
+  interaction data or create derivative works through unauthorized third-party access;
+- the privacy policy says partner access to shared personal information is limited to
+  lawful, necessary and explicitly stated service purposes, and partners may not use
+  that shared personal information for unrelated purposes.
+
+Sources:
+- https://pages.aihuishou.com/content/help/user-protocol
+- https://pages.aihuishou.com/content/help/privacyV2
+
+These consumer/public terms are **not** a substitute for the separate channel
+cooperation agreement and therefore do not prove that an authorized channel cannot use
+properly anonymized outcome statistics.
+
+They do prove that:
+
+`WRITTEN_PERMISSION_IS_A_HARD_REQUIREMENT_NOT_AN_OPTIONAL_NICE_TO_HAVE`.
+
+Do not infer partner derivative-data rights from technical API access.
+
+## Deeper neutral-incumbent search
+
+A current web pass found:
+- repeated advice and editorial/marketing content telling users to compare multiple
+  recycling platforms;
+- JiMao's current "competitor quote + add-on" mechanism, where a user can upload a
+  competing platform quote and JiMao may add value;
+- many single-platform articles comparing estimated versus final payout.
+
+Representative source:
+- https://www.jiumao100.com/news/qyxinwen/1607.html
+
+Current search did **not** establish a mature neutral product whose core asset is
+cross-platform empirical estimate→inspection→accept/reject→final-payment history and
+whose routing action allocates future orders among independent rails.
+
+Truth remains:
+
+`EXACT_NEUTRAL_REALIZED_PAYOUT_ROUTER_INCUMBENT = NOT_ESTABLISHED`.
+
+This is not evidence of absence. Continue contradiction search before promotion.
