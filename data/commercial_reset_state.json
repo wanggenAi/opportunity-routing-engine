@@ -48,10 +48,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_018",
+  "last_completed_scan_id": "ATTRACTION_SCAN_019",
   "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
-  "next_scan_id": "ATTRACTION_SCAN_019",
-  "current_research_action": "PARALLEL_VALIDATION_SCAN015_F1_SCAN016_F1_AND_BROAD_DISCOVERY_SCAN019",
+  "next_scan_id": "ATTRACTION_SCAN_020",
+  "current_research_action": "PARALLEL_VALIDATION_SCAN015_F1_SCAN016_F1_AND_BROAD_DISCOVERY_SCAN020",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -230,7 +230,13 @@
     "DIGITIZED_EXCEPTIONS_TEND_TO_BE_ABSORBED_BY_INDUSTRY_CONTROL_PLANES",
     "UNDER_DIGITIZED_EXCEPTIONS_TEND_TO_FAIL_CALLABILITY_OR_EXPERT_INDEPENDENCE",
     "CROSS_DOMAIN_JOIN_ALONE_IS_NOT_DISTINCT_OPERATOR_CONTROL",
-    "SCAN_018_ZERO_RETENTION_AFTER_TRANSIENT_EXCEPTION_FALSIFICATION"
+    "SCAN_018_ZERO_RETENTION_AFTER_TRANSIENT_EXCEPTION_FALSIFICATION",
+    "MULTIPLE_APIS_PLUS_NATIVE_COMMISSION_PLUS_POST_EXECUTION_OUTCOME_DOES_NOT_IMPLY_DISTINCT_ROUTING_ASSET",
+    "SUPER_AGGREGATOR_OWNERSHIP_KILLS_CROSS_RAIL_DATA_DISTINCTIVENESS",
+    "DECISIVE_USER_EXPERIENCE_THAT_REQUIRES_EXTRA_ACTIVE_TELEMETRY_WEAKENS_SELF_PROPULSION",
+    "TRAVEL_ESIM_PROVES_MULTIPLE_INDEPENDENT_DIGITAL_RAILS_AND_NATIVE_ECONOMICS_CAN_EXIST_WITHOUT_A_NATURALLY_COMPOUNDING_ROUTER_ASSET",
+    "NEXT_SEARCH_SHOULD_TEST_USER_OWNED_PASSIVE_REALIZATION_TELEMETRY_X_CALLABLE_RAILS_X_LOW_FRICTION_REPEAT_SWITCH",
+    "SCAN_019_ZERO_RETENTION_AFTER_PAID_OUTCOME_ROUTING_FALSIFICATION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -270,7 +276,11 @@
     "Scan 018 will search for time-sensitive cross-domain joins between mature independent platforms rather than another newly launched platform.",
     "ATTRACTION_SCAN_018 completed with zero new retained formations and zero commercial promotions.",
     "Container free-time exceptions, cold-chain temperature excursions and grain-drying shortages are real high-loss windows, but current action surfaces are already being absorbed by port/TMS/cold-chain/agricultural service platforms.",
-    "Scan 019 will require self-revealing high intent plus multiple paid callable rails plus post-execution outcome uncertainty, without inheriting any active vertical."
+    "Scan 019 will require self-revealing high intent plus multiple paid callable rails plus post-execution outcome uncertainty, without inheriting any active vertical.",
+    "ATTRACTION_SCAN_019 completed with zero new retained formations and zero commercial promotions.",
+    "Travel eSIM was the closest new direction: multiple independent partner APIs and native economics exist, but the decisive user-side connectivity outcome does not naturally return with each sale and performance-aware affiliate comparison is already active.",
+    "Roadside-assistance network meta-routing and gold realized-payout routing remained near misses but failed open multi-network economics/distribution or independent-rail control tests.",
+    "Scan 020 will test passive user-owned realization telemetry that can automatically improve frequent low-friction routing decisions."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -286,9 +296,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_019",
+      "next_scan_id": "ATTRACTION_SCAN_020",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "SELF_REVEALING_HIGH_INTENT_X_MULTIPLE_PAID_CALLABLE_RAILS_X_POST_EXECUTION_OUTCOME_UNCERTAINTY"
+      "search_boundary": "USER_OWNED_PASSIVE_REALIZATION_TELEMETRY_X_MULTIPLE_PAID_CALLABLE_RAILS_X_LOW_FRICTION_REPEAT_SWITCH"
     }
   }
 }
