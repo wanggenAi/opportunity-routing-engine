@@ -31,10 +31,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_006",
+  "last_completed_scan_id": "ATTRACTION_SCAN_007",
   "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
-  "next_scan_id": "ATTRACTION_SCAN_007",
-  "current_research_action": "ATTRACTION_SCAN_007_VISIBLE_DATA_HIDDEN_JOIN_CALLABLE_ACTION_GATE",
+  "next_scan_id": "ATTRACTION_SCAN_008",
+  "current_research_action": "ATTRACTION_SCAN_008_INDEPENDENT_SIGNAL_X_OPEN_TRANSACTION_RAIL",
   "current_validation_state": {
     "formation_id": null,
     "public_artifact_confirmation": null,
@@ -47,6 +47,7 @@
     "A_SIDE_DISCOVERABILITY",
     "B_SIDE_DISCOVERABILITY",
     "MATCH_RESOLVABILITY",
+    "ACTION_GATE_CALLABILITY",
     "PARETO_FRONTIER_AFTER_HARD_FLOOR",
     "VALUE_CHAIN_LEVERAGE",
     "ATTRACTION_BRIEF",
@@ -78,15 +79,21 @@
     "REGULATED_RIGHTS_WITH_HIGH_VALUE_TEND_TO_HAVE_EXCHANGE_OWNED_ACTION_GATES",
     "DIRECT_MONEY_WITHOUT_BILATERAL_MOTION_IS_NOT_CURRENT_HIGH_ATTRACTION",
     "DECISION_SUPPORT_JOIN_IS_NOT_ROUTING_CONTROL",
-    "CALLABLE_ACTION_GATE_SHOULD_BE_TESTED_BEFORE_HIGH_ATTRACTION_PROMOTION"
+    "CALLABLE_ACTION_GATE_SHOULD_BE_TESTED_BEFORE_HIGH_ATTRACTION_PROMOTION",
+    "CALLABLE_ACTION_GATE_IS_NON_COMPENSATORY",
+    "CALLABLE_ACTION_DOES_NOT_IMPLY_CATEGORY_STANDARDIZATION",
+    "CASE_BY_CASE_PERMISSION_IS_NOT_A_TRANSACTION_RAIL",
+    "NATIVE_TRANSACTIONABILITY_BEATS_PERMISSION_ARCHAEOLOGY",
+    "MATURE_ACTION_API_PLUS_MATURE_HIDDEN_JOIN_IS_NOT_AN_OPPORTUNITY"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
-    "Scan 004-F1 remains demoted for information-capture bottleneck.",
-    "Scan 005 completed with zero high-attraction beacons; visible prospect is not routable value.",
-    "Scan 006 completed with zero high-attraction beacons; visible cross-domain joins still fail when the real allocation/settlement action gate belongs to a platform, exchange, regulator, grid operator or statutory administrator.",
-    "The strongest Scan 006 near-misses were rooftop-resource × grid-open-capacity and unclaimed-bankruptcy-distribution × beneficiary identity; neither survived.",
-    "Next search requires a callable action gate in addition to bilateral visibility, motion and match resolvability.",
+    "Scans 004-006 remain resolved/demoted under current attraction truth.",
+    "ATTRACTION_SCAN_007 completed with zero high-attraction beacons and zero retained formations.",
+    "Scan 007 established action-gate callability as a non-compensatory hard attraction dimension.",
+    "A visible resolvable match is not enough when economic execution requires category-fragmented or case-by-case permission.",
+    "Native/self-service/API transaction rails are positive actionability benchmarks, but mature rails do not create an opportunity when incumbents already own the useful signal/join.",
+    "Next search target is an independent external signal that can drive an already-open transaction rail before the rail owner has productized the signal.",
     "FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN."
   ]
 }

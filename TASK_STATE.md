@@ -4,126 +4,114 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Run `ATTRACTION_SCAN_007` from a clean slate.
+Run `ATTRACTION_SCAN_008` from a clean slate.
 
 Working search target:
 
-`VISIBLE DATA + HIDDEN JOIN + CALLABLE ACTION GATE`
+`INDEPENDENT SIGNAL × OPEN TRANSACTION RAIL`
 
-Do not continue any Scan 001-006 formation.
+Do not continue any Scan 001-007 formation.
 
 ## Goal
 
-Find a genuinely high-attraction value route where:
+Find a genuinely high-attraction route where an independent external state/event signal
+can drive an already-open transaction rail before the rail owner has productized that
+signal.
+
+Preferred shape:
 
 ```text
-A IS VISIBLE AND MOVING
+A/B ALREADY VISIBLE + MOVING
 +
-B IS VISIBLE AND MOVING
+EXTERNAL SIGNAL IS CONTINUOUSLY OBSERVABLE
 +
 MATCH IS RULE-RESOLVABLE
 +
-JOIN CREATES LARGE VALUE JUMP
+TRANSACTION / BOOKING / TRANSFER / SETTLEMENT RAIL IS NATIVE + REPEATABLE
 +
-ACTION / TRANSACTION / SETTLEMENT RAIL IS CALLABLE
+EXTERNAL SIGNAL CHANGES WHAT / WHEN / HOW TO TRANSACT
 +
-NO SINGLE INCUMBENT ALREADY OWNS BOTH RELATION AND ACTION GATE
+LARGE VALUE JUMP
 +
-ROUTER DOES NOT BECOME SEARCH / SALES / CONSULTING / INVENTORY / DELIVERY LABOR
+RAIL OWNER HAS NOT ALREADY INTEGRATED THE SIGNAL
++
+OPERATOR CAN CAPTURE ROUTING VALUE WITHOUT MANUAL PERMISSION / CONSULTING / INVENTORY
 → HIGH-ATTRACTION BEACON
 ```
 
 ## Current Unique Commercial Research Goal
 
-Find one current China-primary structure where a non-obvious cross-domain join can be
-turned into an actual economic state change without first obtaining a regulator,
-platform or incumbent's discretionary cooperation.
-
-Required:
-1. continuously observable A;
-2. continuously observable B;
-3. bilateral voluntary motion;
-4. stable join key;
-5. direct economic consequence;
-6. participant/operator-accessible action rail;
-7. operator capture path;
-8. compounding/repeatability.
+Find one China-primary structure where:
+1. the economic action rail already exists and is callable under stable rules;
+2. a separate data/event world exposes a useful signal;
+3. a stable join links the signal to the action object;
+4. acting on the signal materially changes economics, timing, allocation or access;
+5. incumbents have not already integrated the signal;
+6. the operator can capture value without recurring search/sales/delivery.
 
 If none exists, retain zero.
 
 ## Current Phase
 
-`SCAN_007_VISIBLE_DATA_HIDDEN_JOIN_CALLABLE_ACTION_GATE`
+`SCAN_008_INDEPENDENT_SIGNAL_X_OPEN_TRANSACTION_RAIL`
 
-## Scan 006 result
+## Scan 007 result
 
-`ATTRACTION_SCAN_006` completed with:
-
+`ATTRACTION_SCAN_007` completed with:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
-Scan 006 searched:
-- shortage-drug supply;
-- solid-waste / by-product routing;
-- freight / empty-return capacity;
-- construction earth / waste;
-- roof-resource × grid-open capacity;
-- water / pollution / carbon rights;
-- unclaimed bankruptcy distributions;
-- global public procurement × Chinese supply;
-- data-asset/data-product markets.
+Directions tested included:
+- electronic component lifecycle/EOL signal × live purchasable inventory;
+- transferable event registrations;
+- exhibition booth rights;
+- cloud reserved commitments;
+- B2B MOQ/demand aggregation.
 
 ## Current Findings
 
-Scan 006 established:
+Scan 007 established:
 
 ```text
-VISIBLE JOIN != ACTIONABLE VALUE ROUTE
-DISCOVERABILITY + MATCH RESOLVABILITY != ACTION CONTROL
-DECISION SUPPORT != ROUTING CONTROL
+CALLABLE ACTION GATE IS NECESSARY
+CASE-BY-CASE PERMISSION != TRANSACTION RAIL
+VISIBLE MATCH + MANUAL APPROVAL != HIGH ATTRACTION
+NATIVE TRANSACTIONABILITY > PERMISSION ARCHAEOLOGY
 ```
 
-Strongest near-misses:
+Positive actionability benchmark:
+- native quote / booking / cancel / status APIs such as modern cargo booking rails.
 
-### Rooftop resources × grid-open capacity
+But:
+- a mature action rail is not itself an opportunity;
+- electronic-component lifecycle/procurement joins are already deeply productized by
+  incumbent BOM intelligence platforms;
+- event/booking transferability is often category- or organizer-specific;
+- exhibition rights commonly prohibit transfer without written permission;
+- existing marketplaces already own many obvious aggregation/secondary-market joins.
 
-Both data worlds can be public and the join improves project screening.
+New executable hard floor:
+`action_gate_callability`.
 
-It failed because:
-- roof condition, load-bearing, electricity consumption, owner credit/control and
-  final grid approval remain material;
-- public roof opportunities often already solicit investors;
-- the join helps decisions but does not itself control the transaction.
-
-### Unclaimed bankruptcy distribution × beneficiary identity
-
-This directly points to existing money and can include exact beneficiary/amount/deadline.
-
-It failed because:
-- administrators already own notification/payment duties;
-- many beneficiaries are not actively moving;
-- nonreceipt commonly reflects failed contact, invalid accounts, dissolved entities or
-  abandonment;
-- monetization drifts toward finder/legal/claims-recovery service.
-
-### Tradable rights
-
-Water, pollution and carbon rights have strong bilateral motion and direct value.
-
-They failed because:
-- the action/settlement gate is already the regulated exchange or official platform.
+Score meaning:
+- 0 = no lawful/usable action rail observed;
+- 1 = fragmented, case-by-case or incumbent-discretionary permission;
+- 2 = stable repeatable rules with self-service or standard onboarding;
+- 3 = native API / transaction / booking / transfer / settlement rail.
 
 ## Last Verified Main
 
-`ddd9de35f55c9e3a48338bf9cd07dc9b482c812e`
-— squash merge of PR #278, `Persist zero-retention Attraction Scan 005`.
+`c8c9e21d449d9c8fab08343540da694359a0f543`
+— squash merge of PR #279, `Persist zero-retention Attraction Scan 006`.
 
 Verified:
-- PR #278 head CI #835: success;
-- main CI #836 / run `35489461177`: success;
-- research-mission-plan #6 / run `35489461166`: success.
+- PR #279 head CI #837: success;
+- main CI #838 / run `35489854881`: success;
+- research-mission-plan #7 / run `35489854878`: success;
+- artifact `research-mission-plan-state` id `10597943915`, digest
+  `sha256:3612fcaf5e0409ee43ced90d2224aaa4304fddda9623af419c3741e74f844245`.
 
 ## Active Issue
 
@@ -131,7 +119,7 @@ Verified:
 
 ## Active Branch
 
-`feature/attraction-scan-006-zero-retention`
+`feature/action-gate-hard-floor`
 
 ## Active PR
 
@@ -139,35 +127,46 @@ Not opened yet.
 
 ## CI
 
-Pending for Scan 006 persistence branch.
+Pending for the Scan 007 / action-gate branch.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `docs/research/ATTRACTION_SCAN_006_2026-09-20.md`
-- `data/research_runs/attraction_scan_006.json`
+- `docs/research/ATTRACTION_SCAN_007_2026-09-20.md`
+- `data/research_runs/attraction_scan_007.json`
 
-Updated:
+Changed:
+- `src/attraction_discovery.py`
+- `src/attraction_frontier.py`
+- `src/research_control_plane.py`
+- `tests/test_attraction_discovery.py`
+- `tests/test_attraction_frontier.py`
+- `tests/test_research_control_plane.py`
+- `docs/OPPORTUNITY_ATTRACTION_FIELD.md`
+- `AGENTS.md`
+- `docs/FORMAL_TRUTH.md`
 - `data/commercial_reset_state.json`
 - `data/research_missions/attraction_field_broad_reality.json`
-- `docs/FORMAL_TRUTH.md`
 
 ## Completed
 
-- executed cross-domain visible-data / hidden-economic-relation search;
-- tested physical flows, regulated rights, direct-money claims and global procurement;
-- credited mature marketplaces, official platforms, exchanges and statutory action gates;
-- refused to promote decision-support joins as routing control;
-- retained zero high-attraction beacons;
-- retargeted the next search toward callable action gates.
+- executed Scan 007 across native API/action rails and manually permissioned transfer surfaces;
+- used mature booking/action APIs as positive actionability benchmarks, not opportunities;
+- killed electronic-component lifecycle × inventory because incumbents already integrate the useful join;
+- killed generic event-registration resale because transfer rules are fragmented across organizers;
+- killed exhibition booth resale because transfer is commonly restricted;
+- killed cloud commitment resale as provider-owned/eligibility-bound;
+- killed generic MOQ aggregation as already platformized;
+- added action-gate callability to the attraction hard floor and Pareto dimensions;
+- retargeted Scan 008 toward independent signals driving already-open transaction rails.
 
 ## Blockers
 
 Engineering:
-- Scan 006 persistence branch CI not yet verified.
+- branch CI not yet verified.
 
 Research:
-- Scan 007 has not yet executed.
+- Scan 008 has not yet executed.
 - no current HIGH_ATTRACTION_BEACON exists.
 
 Commercial:
@@ -178,29 +177,28 @@ Commercial:
 
 ## Next Action
 
-Finish PR/CI/merge for Scan 006 persistence, then execute `ATTRACTION_SCAN_007`.
+Finish PR/CI/merge for the Scan 007 action-gate correction, then execute
+`ATTRACTION_SCAN_008`.
 
-Scan 007 discipline:
-1. reopen broad reality;
-2. require A/B visibility and bilateral motion;
-3. require a stable machine/rule-resolvable join;
-4. require direct economic state change;
-5. identify the exact action/settlement rail before deep research;
-6. reject cases where action is monopolized by a platform/regulator/exchange incumbent;
-7. reject pure decision-support, lead lists and alerts;
-8. reject recurring founder search/sales/consulting/inventory/delivery;
-9. apply Pareto only after all hard floors survive;
-10. retain zero again if necessary.
+Scan 008 discipline:
+1. reopen broad reality; do not inherit components/events/cloud as favored verticals;
+2. start from open/native action rails;
+3. search for independent external signals the rail owner does not already use;
+4. require stable join keys and bilateral motion;
+5. require the signal to change a real transaction, not merely produce an alert;
+6. reject mature integrations;
+7. reject manual permission, consulting, inventory ownership and recurring cold sales;
+8. apply all attraction hard floors before Pareto;
+9. retain zero again if necessary.
 
 ## Do Not Repeat
 
-- Do not revive Scan 004 equipment harvesting.
-- Do not revive Scan 005 RoHS/compliance near-miss.
-- Do not treat a useful join as a business merely because it improves decisions.
-- Do not treat exchange-traded rights as an external router opportunity.
-- Do not treat unclaimed money as bilateral motion when the beneficiary is inactive.
-- Do not default to same-domain marketplaces.
-- Do not lower the threshold to avoid a zero-result scan.
+- Do not revive any Scan 001-007 formation.
+- Do not treat API availability as opportunity proof.
+- Do not call organizer-by-organizer permission a transaction rail.
+- Do not build a secondary market where underlying rights are usually non-transferable.
+- Do not rediscover mature BOM/lifecycle intelligence.
+- Do not lower the attraction threshold to avoid another zero-result scan.
 
 ## Guardrails
 
@@ -208,9 +206,9 @@ Scan 007 discipline:
 - Attraction first for attention; evidence first for truth.
 - A_VISIBLE + B_VISIBLE + MATCH_RESOLVABLE remains required.
 - BILATERAL_MOTION remains required.
-- VISIBLE_JOIN != ACTIONABLE_VALUE_ROUTE.
-- DECISION_SUPPORT != ROUTING_CONTROL.
-- ACTION_GATE_OWNED_BY_INCUMBENT -> DEFAULT DEMOTION for current operator attention.
+- ACTION_GATE_CALLABILITY is a hard floor.
+- CASE_BY_CASE_PERMISSION != TRANSACTION_RAIL.
+- MATURE_OPEN_RAIL != OPPORTUNITY.
 - Hard attraction floor precedes Pareto.
 - UNKNOWN != PASS.
 - Infer broadly; retain conservatively.

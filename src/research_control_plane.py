@@ -414,6 +414,7 @@ def build_research_plan(
                     "A_SIDE_DISCOVERABILITY",
                     "B_SIDE_DISCOVERABILITY",
                     "MATCH_RESOLVABILITY_WITHOUT_RECURRING_EXPERT_LABOR",
+                    "CALLABLE_REPEATABLE_ACTION_OR_SETTLEMENT_GATE",
                 ]
                 if mission.attention_mode == "ATTRACTION_FIRST"
                 else []

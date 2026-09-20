@@ -69,6 +69,10 @@ class ResearchControlPlaneTests(unittest.TestCase):
             "MATCH_RESOLVABILITY_WITHOUT_RECURRING_EXPERT_LABOR",
             plan["executor_contract"]["attraction_signal_contract"],
         )
+        self.assertIn(
+            "CALLABLE_REPEATABLE_ACTION_OR_SETTLEMENT_GATE",
+            plan["executor_contract"]["attraction_signal_contract"],
+        )
 
     def test_dynamic_terms_are_prioritized_without_changing_ontology(self):
         mission = self._mission()

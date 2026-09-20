@@ -375,6 +375,7 @@ BROAD CURRENT REALITY
     + A-side discoverability
     + B-side discoverability
     + match resolvability without recurring expert interpretation
+    + callable repeatable action/transaction/settlement rail
     + operator control without recurring search/labor
     + plausible self-propulsion)
 → ONLY THEN DEEP CAUSAL DESCENT
@@ -394,8 +395,9 @@ Rules:
 - low-attraction reality can remain research context but must not consume scarce founder
   attention or external validation merely because it is true;
 - no dimension may be averaged away: a dead A side, dead B side, locked decision
-  window, weak value jump, hidden A/B units, unresolvable matches, high explanation
-  burden or recurring founder search/labor kills current high-attraction status;
+  window, weak value jump, hidden A/B units, unresolvable matches, non-callable or
+  case-by-case action gates, high explanation burden or recurring founder search/labor
+  kills current high-attraction status;
 - prefer non-obvious connections that feel obvious after explanation because a small
   bridge releases a large, immediately legible state change;
 - `HIGH_ATTRACTION_BEACON != COMMERCIAL_VALIDATION`.
@@ -412,6 +414,7 @@ For every retained formation, separately establish:
 - **A-side discoverability**: where supply/resource units continuously become visible without bespoke hunting;
 - **B-side discoverability**: where demand/state-change events continuously become visible while decisions remain open;
 - **match resolvability**: what accessible identity/rule evidence allows A↔B matching without recurring expert interpretation;
+- **action-gate callability**: what stable repeatable transaction/reservation/transfer/application/settlement rail changes the economic state after a match;
 - **self-propulsion**: why successful routing makes the next flow easier rather than recreating founder labor/search.
 
 Operator attraction is a strategic attention signal, never a substitute for market evidence.
@@ -429,6 +432,8 @@ TRANSFERABLE OBJECTIVE STRANDED UNIT != TOTAL COMMERCIAL WORLD MODEL
 VALUE GAP WITHOUT DISCOVERABILITY != CURRENT HIGH ATTRACTION
 SCRAPING HARDER != ADDRESSABLE MARKET
 FOUNDER HUNTING != ROUTING CONTROL
+CASE_BY_CASE_PERMISSION != TRANSACTION RAIL
+VISIBLE MATCH WITHOUT CALLABLE ACTION != HIGH ATTRACTION
 ```
 
 ## Value-chain leverage / intervention timing rule — LOCKED

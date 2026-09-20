@@ -48,7 +48,15 @@ class AttractionDiscoveryProfile:
     units through public/searchable/partner-accessible/structured traces without
     bespoke offline hunting. Match resolvability asks whether the A↔B compatibility
     relation can be established from accessible evidence rather than recurring expert
-    interpretation.
+    interpretation. Action-gate callability asks whether a successful match can enter
+    a stable, repeatable transaction / reservation / transfer / application /
+    settlement rail without case-by-case gatekeeper permission.
+
+    Score guidance for action_gate_callability:
+      0 = no lawful/usable action rail observed
+      1 = fragmented, case-by-case, incumbent-discretionary or manual-permission gate
+      2 = stable rules with repeatable self-service/standard onboarding
+      3 = native API/transaction rail or standardized settlement path
 
     HIGH_ATTRACTION_BEACON is weakest-link dominated. Large upside cannot compensate
     for a dead participant side, a locked decision window, invisible counterparties,
@@ -70,10 +78,11 @@ class AttractionDiscoveryProfile:
     self_propulsion: int
     operator_control: int
 
-    # Capture feasibility: can the operator actually see and join the moving units?
+    # Capture feasibility: can the operator actually see, match and execute?
     a_discoverability: int = 0
     b_discoverability: int = 0
     match_resolvability: int = 0
+    action_gate_callability: int = 0
 
     a_motion_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     b_motion_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
@@ -86,6 +95,7 @@ class AttractionDiscoveryProfile:
     a_discoverability_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     b_discoverability_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     match_resolvability_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
+    action_gate_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
 
     founder_delivery_required: bool = False
     founder_sales_required_per_transaction: bool = False
@@ -106,6 +116,7 @@ _SCORE_EVIDENCE = {
     "a_discoverability": "a_discoverability_evidence",
     "b_discoverability": "b_discoverability_evidence",
     "match_resolvability": "match_resolvability_evidence",
+    "action_gate_callability": "action_gate_evidence",
 }
 
 
@@ -155,6 +166,7 @@ def attraction_beacon_state(profile: AttractionDiscoveryProfile) -> AttractionBe
         profile.a_discoverability,
         profile.b_discoverability,
         profile.match_resolvability,
+        profile.action_gate_callability,
     )
 
     # Immediate kills: no bilateral motion, value already locked, tiny state jump,
@@ -170,6 +182,7 @@ def attraction_beacon_state(profile: AttractionDiscoveryProfile) -> AttractionBe
         or profile.a_discoverability <= 1
         or profile.b_discoverability <= 1
         or profile.match_resolvability <= 1
+        or profile.action_gate_callability <= 1
         or profile.founder_delivery_required
         or profile.founder_sales_required_per_transaction
         or profile.founder_search_required_per_transaction
@@ -207,6 +220,8 @@ def attraction_beacon_summary(profile: AttractionDiscoveryProfile) -> dict[str, 
             "NARROW_BRIDGE_SHOULD_UNLOCK_DISPROPORTIONATE_VALUE",
             "BOTH_SIDES_MUST_BE_DISCOVERABLE_WITHOUT_BESPOKE_HUNTING",
             "MATCH_MUST_BE_RESOLVABLE_WITHOUT_RECURRING_EXPERT_INTERPRETATION",
+            "ACTION_GATE_MUST_BE_REPEATABLE_AND_CALLABLE",
+            "CASE_BY_CASE_PERMISSION_NE_TRANSACTION_RAIL",
             "WEAKEST_LINK_DOMINATES",
             "FOUNDER_SEARCH_NE_OPERATOR_CONTROL",
             "FOUNDER_LABOR_NE_OPERATOR_CONTROL",
