@@ -1,0 +1,60 @@
+{
+  "schema_version": "formation-gate-validation.v1",
+  "formation_id": "ATTRACTION_SCAN_015-F1",
+  "gate_id": "GATE_A_RIGHTS_CALLABILITY",
+  "as_of_date": "2026-09-20",
+  "status": "PARTIAL_PASS_RIGHTS_UNKNOWN",
+  "commercial_candidate": false,
+  "technical_findings": {
+    "callable_partner_rails": "PASS",
+    "overlapping_3c_rails": "PASS",
+    "partner_visible_post_inspection_or_payment_outcome": "PASS",
+    "multiple_native_economic_rails": "PASS"
+  },
+  "rights_findings": {
+    "cross_rail_comparison_right": "UNKNOWN",
+    "non_identifying_outcome_retention_right": "UNKNOWN",
+    "derived_routing_model_right": "UNKNOWN",
+    "competitor_benchmark_display_right": "UNKNOWN"
+  },
+  "rail_findings": {
+    "SUHUANJI": {
+      "technical_outcome_visibility": "PASS",
+      "evidence": [
+        "QUOTATION_MODIFICATION",
+        "PAYMENT_SUCCESS",
+        "PAYMENT_FAILURE",
+        "paymentAmount",
+        "quotePrice",
+        "partner-stored order relationship"
+      ],
+      "data_reuse_right": "UNKNOWN"
+    },
+    "XIAOZHI_BEARHOME": {
+      "technical_outcome_visibility": "PASS",
+      "evidence": [
+        "post-inspection valid price/order detail",
+        "confirm-or-return",
+        "order lifecycle",
+        "callbacks",
+        "analytics"
+      ],
+      "data_reuse_right": "UNKNOWN"
+    },
+    "AIHUISHOU": {
+      "callable_partner_rail": "PASS",
+      "commission": "PASS",
+      "partner_agreement_required": "PASS",
+      "final_outcome_field_visibility": "UNKNOWN_FROM_PUBLIC_DOCS",
+      "data_reuse_right": "UNKNOWN"
+    }
+  },
+  "privacy_boundary": {
+    "retain_personal_identifiers": false,
+    "preferred_asset": "anonymous_or_non_identifying_device_quote_inspection_acceptance_payout_time_outcomes",
+    "contract_restrictions_still_apply": true
+  },
+  "decisive_unknown": "TWO_RAIL_WRITTEN_CONFIRMATION_OF_CROSS_RAIL_NON_IDENTIFYING_OUTCOME_USE",
+  "next_action": "OBTAIN_WRITTEN_RIGHTS_CONFIRMATION_FROM_AT_LEAST_TWO_OVERLAPPING_3C_RAILS",
+  "first_external_value_flow": "NOT_PROVEN"
+}
