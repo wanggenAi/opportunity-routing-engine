@@ -1112,65 +1112,59 @@ Participant attraction requires evidence. Operator attraction allocates founder 
 
 ## 19. Current next action — CANONICAL
 
-`ATTRACTION_SCAN_010` completed under the agent-native-intent × paid-machine-routing search.
+`ATTRACTION_SCAN_011` completed under the private-context × public-live-rail search.
 
 Result:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-- NEXT = `ATTRACTION_SCAN_011`
+- NEXT = `ATTRACTION_SCAN_012`
 
-Scan 010 resolves two prior mechanism unknowns:
-
-```text
-INTENT-DRIVEN SKILL DISCOVERY EXISTS
-MACHINE-NATIVE PER-USE SETTLEMENT EXISTS
-LIVE DISCOVERABLE PAID MACHINE CAPABILITIES EXIST
-```
-
-Therefore the current bottleneck is not generic Skill publication, checkout or machine payment.
-
-The stronger negative result is:
+Scan 011 established:
 
 ```text
-PUBLIC INTENT / PUBLIC IDENTIFIER
-+
-PUBLIC DATA / PUBLIC CATALOG
-+
-GENERAL RULE
-→ TENDS TO BE ABSORBED BY PLATFORM / INCUMBENT / FREE TOOL
+PRIVATE CONTEXT + LIVE EXTERNAL RESOURCE != UNOWNED ROUTING EDGE
+VALUABLE EXTERNAL PLATFORMS MOVE UPSTREAM INTO PRIVATE WORKFLOWS
+ERP / MES / LIMS / TELEMETRY / PROCUREMENT INTEGRATION CAN ERASE THE JOIN
+SEARCHABLE FALLBACK != CALLABLE FAILOVER RAIL
 ```
 
-This pattern held across model routing, standards validity, tender checking,
-policy/subsidy matching, VIN/parts lookup, laboratory routing, tariff lookup and other
-generic public-data decisions.
+Tested directions:
+- production exception → external on-demand manufacturing;
+- lab instrument outage/full queue → external shared instrument;
+- equipment breakdown → external rental/replacement;
+- urgent MRO shortage → live industrial inventory.
 
-Private context creates a more defensible search boundary only when the incumbent
-does not already accept that private state as a standard product input. Private
-repository context, for example, is not enough by itself because SCA/SBOM products
-already join repository state to public vulnerability/license intelligence.
+Each contained real economic motion, but none survived every current hard floor.
 
-Run `ATTRACTION_SCAN_011` from broad current reality with working label:
+The strongest correction is that stable private state is itself an attractive target for
+incumbent integration. The more durable asymmetry may instead occur at the moment of a
+**transient private exception**, when a previously adequate internal route suddenly
+fails and a short loss clock starts.
 
-`PRIVATE CONTEXT × PUBLIC LIVE RAIL × PAID MACHINE DECISION`.
+Run `ATTRACTION_SCAN_012` from broad current reality with working label:
+
+`PRIVATE EXCEPTION EVENT × OPEN FAILOVER RAIL`.
 
 Prefer formations where:
-1. a user/enterprise already has current private state inside an Agent/workflow;
-2. a separate public/partner resource, registry, market or transaction rail is live;
-3. the external rail owner does not possess enough private context to precompute the
-   decisive answer;
-4. joining the two worlds changes a live purchase, allocation, eligibility,
-   replacement, booking, application or other economic action;
-5. the join is machine-resolvable without recurring expert interpretation;
-6. no incumbent already owns the complete private-context × external-rail join;
-7. the machine function can be discovered/invoked repeatedly and paid natively;
-8. the operator owns routing logic/data rather than recurring acquisition, sales or
-   delivery.
+1. a normal route is already active before the event;
+2. a private machine-observable exception abruptly makes that route inadequate;
+3. delay produces a rapidly increasing and legible loss;
+4. the decision window is short but still open;
+5. an external standardized substitute exists;
+6. availability, quote/price and action are machine-callable under stable rules;
+7. neither incumbent side already owns both event detection and the failover rail;
+8. the switch is machine-resolvable without recurring expert interpretation;
+9. the operator can remain a reusable paid machine-routing function;
+10. repeated exceptions improve route coverage and outcome evidence.
 
-Private context is not itself a moat. Retain zero if the private state is already a
-standard input to a mature product, if output remains advisory only, or if each case
-still requires bespoke expert work.
+Retain zero if:
+- fallback is merely searchable;
+- human negotiation/approval is required per event;
+- the substitute object is not standardized enough for machine matching;
+- an incumbent already owns event detection and failover;
+- enterprise-by-enterprise consulting or recurring acquisition/delivery is necessary.
 
 ### 19A. Value-chain leverage truth — LOCKED
 
