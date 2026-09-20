@@ -55,7 +55,9 @@
     "enterprise_onboarding_constraint": "PROVEN",
     "written_rights_response_rubric": "READY",
     "public_rights_risk": "NEGATIVE_SIGNAL_NEEDS_PARTNER_CONTRACT_OVERRIDE",
-    "neutral_incumbent_search": "NO_EXACT_ROUTER_ESTABLISHED_NOT_PROOF_OF_ABSENCE"
+    "neutral_incumbent_search": "NO_EXACT_ROUTER_ESTABLISHED_NOT_PROOF_OF_ABSENCE",
+    "suhuanji_technical_data_closure": "PASS",
+    "suhuanji_public_business_contact": "UNRESOLVED"
   },
   "required_scan_controls": [
     "BROAD_REALITY",
@@ -165,7 +167,10 @@
     "AIHUISHOU_PUBLIC_TERMS_CREATE_NEGATIVE_SIGNAL_FOR_UNAUTHORIZED_DATA_DERIVATION",
     "WRITTEN_PARTNER_PERMISSION_IS_HARD_REQUIREMENT_FOR_CROSS_RAIL_OUTCOME_ASSET",
     "VAGUE_COOPERATION_LANGUAGE_DOES_NOT_SATISFY_DATA_REUSE_RIGHT",
-    "EXACT_NEUTRAL_REALIZED_PAYOUT_ROUTER_INCUMBENT_NOT_ESTABLISHED_BUT_ABSENCE_NOT_PROVEN"
+    "EXACT_NEUTRAL_REALIZED_PAYOUT_ROUTER_INCUMBENT_NOT_ESTABLISHED_BUT_ABSENCE_NOT_PROVEN",
+    "SUHUANJI_ESTIMATE_TO_REALIZED_PAYOUT_DATA_CLOSURE_IS_EXPLICIT_IN_CURRENT_API",
+    "PARTNER_OWNED_USER_ORDER_RELATIONSHIP_CAN_COEXIST_WITH_RAIL_EXECUTION",
+    "DO_NOT_SUBSTITUTE_LOOKALIKE_BRANDS_FOR_UNRESOLVED_OFFICIAL_BUSINESS_CONTACT"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -189,6 +194,7 @@
     "F1 Gate A public-document pass confirms technical outcome visibility but not cross-rail reuse rights.",
     "Gate A remains NOT PASSED until at least two overlapping 3C rails give written confirmation on anonymous outcome retention and future routing use.",
     "F1 Gate A outreach packet is ready for Aihuishou and Xiaozhi/Bearhome; no provider response exists yet.",
-    "Xiaozhi production API requires enterprise qualification; Aihuishou channel settlement requires invoicing capability."
+    "Xiaozhi production API requires enterprise qualification; Aihuishou channel settlement requires invoicing capability.",
+    "Suhuanji current API now explicitly closes valuation→quote→payment amount/time→transaction success data for a partner-maintained order relationship; reuse rights remain unknown."
   ]
 }

@@ -350,3 +350,60 @@ Truth remains:
 `EXACT_NEUTRAL_REALIZED_PAYOUT_ROUTER_INCUMBENT = NOT_ESTABLISHED`.
 
 This is not evidence of absence. Continue contradiction search before promotion.
+
+
+## Suhuanji — stronger transaction-data closure
+
+A fresh pass over the current Open Platform documentation strengthens the technical
+half of Gate A.
+
+The documentation explicitly treats the integrator as a **合作平台** and requires the
+partner to maintain its own user/order relationship. It exposes:
+
+- pre-order valuation: `valuationPrice`;
+- order quote: `quotePrice`;
+- channel-side commercial price: `channelPrice`;
+- payment status: `paymentStatus`;
+- payment amount: `paymentAmount`;
+- payment time: `paymentTime`;
+- transaction-success time: `transactionSuccessTime`;
+- partner order identifier: `channelOrderId`.
+
+The platform also allows the partner to apply its own marketing adjustment through
+`channelPrice`.
+
+Source:
+- https://open.suhuanji.com/
+
+This proves a stronger machine-observable chain:
+
+```text
+PARTNER USER/ORDER RELATIONSHIP
+→ VALUATION
+→ QUOTE / QUOTE MODIFICATION
+→ ACCEPT/REJECT / TERMINAL STATE
+→ PAYMENT AMOUNT + PAYMENT TIME
+→ TRANSACTION SUCCESS TIME
+```
+
+Truth:
+
+`SUHUANJI_ESTIMATE_TO_REALIZED_PAYOUT_DATA_CLOSURE = PASS`.
+
+It still does **not** prove:
+- cross-competitor comparison permission;
+- post-fulfillment non-identifying retention rights;
+- future routing/model use rights;
+- competitor benchmarking permission;
+- channel commission terms.
+
+The documentation says APP Key / APP Secret must be obtained by contacting Suhuanji
+business staff, but the current public documentation does not expose a verifiable
+business email or telephone endpoint.
+
+Truth:
+
+`SUHUANJI_PUBLIC_BUSINESS_CONTACT = UNRESOLVED`.
+
+Do not substitute similarly named recycling companies or unverified third-party
+contacts.

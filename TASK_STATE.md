@@ -106,10 +106,10 @@ Xiaozhi/Bearhome:
 
 ## Last Verified Main
 
-`0d563179e3756fb72f1f0bb322b26a36ff3f5f42`
-— squash merge of PR #291, `Checkpoint Scan 015 F1 outreach readiness`.
+`f1dfd485533aa3985001083d050ee68edab019fe`
+— squash merge of PR #292, `Lock Scan 015 F1 written-rights response rubric`.
 
-PR #291 head CI #864 passed before merge.
+PR #292 head CI #866 passed before merge.
 
 ## Active Issue
 
@@ -117,11 +117,11 @@ PR #291 head CI #864 passed before merge.
 
 ## Active Branch
 
-`feature/scan015-f1-rights-response-rubric`
+`feature/scan015-f1-suhuanji-technical-closure`
 
 ## Active PR
 
-Not opened yet for the written-rights response-rubric checkpoint.
+Not opened yet for the Suhuanji technical-closure checkpoint.
 
 ## CI
 
@@ -129,6 +129,7 @@ PR #288 / CI #857 succeeded.
 PR #289 / CI #860 succeeded.
 PR #290 / CI #862 succeeded.
 PR #291 / CI #864 succeeded.
+PR #292 / CI #866 succeeded.
 
 ## Latest Artifact / Persisted State
 
@@ -163,15 +164,17 @@ Engineering:
 - Gate A public-rights checkpoint PR #289 merged to main at `d6d6a8fcf8f5389d5e222932c54e4c16c361d477`; CI #860 passed.
 - No engineering blocker remains for the current research checkpoint.
 - PR #291 outreach-readiness checkpoint is merged and green.
-- Current written-rights response-rubric checkpoint PR/CI is not yet complete.
+- PR #292 written-rights response-rubric checkpoint is merged and green.
+- Current Suhuanji technical-closure checkpoint PR/CI is not yet complete.
 
 Research:
 1. public docs prove technical post-inspection/payment outcome visibility on at least Suhuanji and Xiaozhi, but cross-rail comparison/retention/derived-model rights remain UNKNOWN;
 2. obtain written confirmation from at least two overlapping 3C rails that anonymous outcome data may be retained and used for future routing; vague cooperation/API-access language does not pass;
-3. production onboarding is not zero-friction: Xiaozhi requires enterprise qualification and Aihuishou channel settlement requires VAT invoicing capability;
-4. a deeper neutral-incumbent search must not reveal the exact realized-payout graph;
-5. inbound Agent/Skill discoverability must produce self-revealing high-intent events without recurring founder marketing;
-6. cold-start usefulness before proprietary history is unproven.
+3. Suhuanji now has explicit valuation→quote→payment/time technical closure, but its verified public business contact endpoint remains unresolved;
+4. production onboarding is not zero-friction: Xiaozhi requires enterprise qualification and Aihuishou channel settlement requires VAT invoicing capability;
+5. a deeper neutral-incumbent search must not reveal the exact realized-payout graph;
+6. inbound Agent/Skill discoverability must produce self-revealing high-intent events without recurring founder marketing;
+7. cold-start usefulness before proprietary history is unproven.
 
 Commercial:
 - F1 is not a commercial candidate;
