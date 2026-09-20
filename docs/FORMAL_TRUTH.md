@@ -1112,66 +1112,48 @@ Participant attraction requires evidence. Operator attraction allocates founder 
 
 ## 19. Current next action — CANONICAL
 
-`ATTRACTION_SCAN_007` completed under the visible-data + hidden-join + callable-action search.
+`ATTRACTION_SCAN_008` completed under the independent-signal × open-transaction-rail search.
 
 Result:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-- NEXT = `ATTRACTION_SCAN_008`
+- NEXT = `ATTRACTION_SCAN_009`
 
-Scan 007 tested whether a visible/resolvable match could actually enter a repeatable
-economic action rail.
-
-Key result:
+Scan 008 established three distinct truths:
 
 ```text
-CALLABLE ACTION GATE IS NECESSARY
-BUT
-CASE-BY-CASE PERMISSION != TRANSACTION RAIL
-VISIBLE MATCH + MANUAL APPROVAL != HIGH ATTRACTION
-NATIVE TRANSACTIONABILITY > PERMISSION ARCHAEOLOGY
+OPEN TRANSACTION RAIL + EXTERNAL SIGNAL != OPPORTUNITY
+NATIVE COMMISSION + COLD ACQUISITION = MARKETING, NOT ROUTING CONTROL
+SELF-REVEALING INTENT WITHOUT ROUTER TAKE-RATE = SUPPLIER / SALES WORK
 ```
 
-Evidence across event registrations, exhibition booths, cloud commitments and B2B
-aggregation showed that "can sometimes be transferred" is not enough. The action must
-be repeatable under stable, enumerable rules.
+Positive mechanism evidence now exists for:
+- open/native booking and transaction rails;
+- native third-party commission / reseller / attribution rails;
+- self-revealing high-intent demand such as RFQ markets.
 
-Canonical attraction hard floors now include:
-- A-side voluntary motion;
-- B-side voluntary motion;
-- state-dependent value jump;
-- decision window;
-- bridge compression;
-- activation ease;
-- self-propulsion;
-- operator control;
-- A-side discoverability;
-- B-side discoverability;
-- match resolvability;
-- **action-gate callability**.
+But current evidence did not establish all three properties in one China-primary route
+without turning the operator into a supplier, audience builder, sales team or delivery
+node.
 
-Canonical implementation:
-- `src/attraction_discovery.py`;
-- `src/attraction_frontier.py`.
+Run `ATTRACTION_SCAN_009` from broad current reality with working search label:
 
-Run `ATTRACTION_SCAN_008` from broad current reality with working search label:
+`SELF-REVEALING INTENT × NATIVE TAKE-RATE RAIL`.
 
-`INDEPENDENT SIGNAL × OPEN TRANSACTION RAIL`.
+Prefer formations where:
+1. buyers/users voluntarily emit high-intent demand before cold outreach;
+2. the intent is structured enough for machine/rule matching;
+3. a separate catalog/service rail can complete the action under stable rules;
+4. the rail natively attributes/settles value to a third-party router/referrer/reseller;
+5. the operator does not become supplier, negotiator, inventory holder or delivery
+   provider;
+6. the incumbent has not already integrated the intent surface;
+7. repeated routing compounds through intent/match/outcome data.
 
-Prefer:
-1. an already-open/native/self-service transaction or settlement rail;
-2. an independent external signal not naturally owned by that rail;
-3. a stable machine-resolvable join;
-4. bilateral motion;
-5. a large value jump caused by acting on the external signal;
-6. evidence that the rail owner has not already productized the signal;
-7. a capture path that does not require inventory ownership, consulting, manual
-   permission checks or recurring cold sales.
-
-Retain zero again if the external signal is already integrated, the rail is not truly
-open/repeatable, or the benefit is only informational.
+Retain zero again if the mechanism reduces to ordinary affiliate marketing, supplier
+quotation work, SEO/content acquisition or manual sales.
 
 ### 19A. Value-chain leverage truth — LOCKED
 
