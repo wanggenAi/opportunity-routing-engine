@@ -25,6 +25,10 @@ def profile(signal_id: str, **overrides):
         activation_ease=2,
         self_propulsion=2,
         operator_control=2,
+        a_discoverability=2,
+        b_discoverability=2,
+        match_resolvability=2,
+        action_gate_callability=2,
         a_motion_evidence=ev(signal_id + "-a"),
         b_motion_evidence=ev(signal_id + "-b"),
         value_jump_evidence=ev(signal_id + "-value"),
@@ -33,6 +37,10 @@ def profile(signal_id: str, **overrides):
         activation_evidence=ev(signal_id + "-activation"),
         self_propulsion_evidence=ev(signal_id + "-self"),
         operator_control_evidence=ev(signal_id + "-operator"),
+        a_discoverability_evidence=ev(signal_id + "-a-discoverability"),
+        b_discoverability_evidence=ev(signal_id + "-b-discoverability"),
+        match_resolvability_evidence=ev(signal_id + "-match"),
+        action_gate_evidence=ev(signal_id + "-action"),
     )
     values.update(overrides)
     return AttractionDiscoveryProfile(**values)
@@ -71,6 +79,7 @@ def test_low_attraction_signal_never_enters_frontier_even_if_other_dimensions_ar
         a_discoverability=3,
         b_discoverability=3,
         match_resolvability=3,
+        action_gate_callability=3,
     )
 
     result = non_dominated_layers([late, valid])
@@ -103,3 +112,17 @@ def test_duplicate_signal_ids_fail_closed():
         assert "duplicate attraction signal ids" in str(exc)
     else:
         raise AssertionError("duplicate ids must fail closed")
+
+
+def test_action_gate_is_non_compensatory_in_frontier():
+    valid = profile("valid")
+    blocked = profile(
+        "blocked",
+        state_dependent_value_jump=3,
+        operator_control=3,
+        action_gate_callability=1,
+        action_gate_evidence=ev("blocked-case-by-case-permission"),
+    )
+    result = non_dominated_layers([valid, blocked])
+    assert result.frontier_signal_ids == ("valid",)
+    assert result.excluded_signal_ids == ("blocked",)
