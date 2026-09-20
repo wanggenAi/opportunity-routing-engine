@@ -24,7 +24,7 @@
   "seeds": [
     {
       "seed_id": "paid-ugly-workaround",
-      "text": "以前需要 打电话 打开App 网页 搜索 客服询价 的实体商品 本地服务 专业服务 在2026开始出现 Skill MCP API Agent下单 但上游真实需求事件仍在另一个系统",
+      "text": "用户已有高意图 且交易轨道可调用 但正确选择仍依赖跨域兼容 资格 约束 接受历史 或结果数据 通用Agent仅看提示词与官方API无法可靠完成",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
@@ -57,7 +57,7 @@
     },
     {
       "seed_id": "state-dependent-repricing",
-      "text": "两个公开数据集合一旦交叉匹配 就直接改变 价格 资源分配 权利 交易 时机 或访问结果",
+      "text": "同一可调用轨道中 只有结合独立专业规则图 兼容图 资格图 历史结果 才能知道此刻应选哪个动作 且选择会显著改变经济结果",
       "language": "zh-CN",
       "target_primitives": [
         "STATE",
@@ -145,7 +145,7 @@
     },
     {
       "seed_id": "dense-digital-exhaust-bilateral",
-      "text": "一边是独立可观察的高意图状态事件 一边是刚开放 Skill MCP API Agent交易的服务资源 两边尚未被同一平台完整连接",
+      "text": "高意图事件和可执行轨道都机器可见 但关键决策边依赖第三套可持续维护的专业路由资产 而非普通自然语言推荐",
       "language": "zh-CN",
       "target_primitives": [
         "ACTOR",
@@ -221,7 +221,7 @@
     },
     {
       "seed_id": "platform-leakage-offplatform",
-      "text": "原业务系统掌握高意图事件 新Agent服务轨道掌握可执行供给 由于轨道刚开放 尚未形成原生事件到行动连接",
+      "text": "轨道平台拥有商品服务与交易能力 用户拥有当前上下文 但双方都不拥有决定正确连接所需的独立跨域规则或结果资产",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
@@ -243,7 +243,7 @@
     },
     {
       "seed_id": "repeat-route-compounds",
-      "text": "高意图事件 到 新可调用服务选择 到 Agent下单支付 到 履约结果 可重复并沉淀服务覆盖 成功率 时效 价格与匹配规则",
+      "text": "每次专业路由的接受 拒绝 兼容 成本 时效 结果 可沉淀进机器路由资产 让下一次决策变得更准确且非通用Agent可直接复制",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
