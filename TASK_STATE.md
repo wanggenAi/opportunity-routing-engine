@@ -146,9 +146,7 @@ or 9610 reverse logistics as required verticals, priors or default search terms.
 ## Blockers
 
 Engineering:
-- PR #304 CI #890 failed because the mission parser rejects an added top-level field
-  and TASK_STATE omitted required recovery headings; both are being corrected on the
-  same branch.
+- PR #304 merged to main at `d99b2243440db5dda546c6be694ae5fc0b5793e5`; corrected CI #891 succeeded.
 
 Research:
 - Scan 015-F1 still has zero compatible written provider confirmations.
@@ -161,8 +159,8 @@ Commercial:
 
 ## Last Verified Main
 
-`9b88785b0138b6c309cf8a63d579cb73796fe756`
-— recovery checkpoint after provider-response intake.
+`d99b2243440db5dda546c6be694ae5fc0b5793e5`
+— squash merge of PR #304, `Run Scan 016 in parallel with provider-response validation`.
 
 ## Active Issue
 
@@ -170,16 +168,16 @@ Commercial:
 
 ## Active Branch
 
-`feature/scan016-parallel-broad-reality`
+None. Current canonical state is on `main`.
 
 ## Active PR
 
-#304 — `Run Scan 016 in parallel with provider-response validation`.
+None. PR #304 is merged.
 
 ## CI
 
-PR #304 / CI #890 failed on recovery-contract/schema compatibility and is being fixed.
-No business-truth failure was observed in that run.
+PR #304 initial CI #890 failed on recovery-contract/schema compatibility.
+The branch was corrected and PR #304 CI #891 succeeded before merge.
 
 ## Latest Artifact / Persisted State
 
@@ -245,6 +243,5 @@ Generic structural learnings may survive. Candidate-specific vertical priors may
 
 ## Next Action
 
-Finish the Scan 016 branch checkpoint through PR / CI / merge, then continue
-`ATTRACTION_SCAN_017` from clean broad current reality while both retained formations
-remain in independent validation queues.
+Continue `ATTRACTION_SCAN_017` from clean broad current reality while Scan 015-F1 and
+Scan 016-F1 remain in independent validation queues.
