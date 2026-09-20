@@ -1112,73 +1112,65 @@ Participant attraction requires evidence. Operator attraction allocates founder 
 
 ## 19. Current next action — CANONICAL
 
-`ATTRACTION_SCAN_009` completed under the self-revealing-intent × native-take-rate search.
+`ATTRACTION_SCAN_010` completed under the agent-native-intent × paid-machine-routing search.
 
 Result:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-- NEXT = `ATTRACTION_SCAN_010`
+- NEXT = `ATTRACTION_SCAN_011`
 
-Scan 009 established:
+Scan 010 resolves two prior mechanism unknowns:
 
 ```text
-NATIVE THIRD-PARTY PAYOUT USUALLY PAYS FOR A DISTINCT CONTRIBUTION ROLE
-SETTLEMENT INFRASTRUCTURE != ROUTING ECONOMICS
-REFERRAL BOUNTY + RECURRING SEARCH = ACQUISITION LABOR
-CLOSED / FUTURE ENTRY RAIL != CURRENT ACTION RAIL
-MACHINE-CALLABLE CAPABILITY CAN ITSELF BE A PAID NON-HUMAN ROLE
+INTENT-DRIVEN SKILL DISCOVERY EXISTS
+MACHINE-NATIVE PER-USE SETTLEMENT EXISTS
+LIVE DISCOVERABLE PAID MACHINE CAPABILITIES EXIST
 ```
 
-Current evidence across service marketplaces, referral systems, payment rails and
-Agent ecosystems shows that third-party payout is normally attached to one of:
-- customer/opportunity acquisition;
-- sales/closing;
-- product/supply ownership;
-- human delivery;
-- a reusable digital capability.
+Therefore the current bottleneck is not generic Skill publication, checkout or machine payment.
 
-The first four usually fail the current operator non-labor target when they recur per
-transaction. The fifth is structurally different because a machine asset can execute
-repeatedly without recurring founder labor.
+The stronger negative result is:
 
-Fresh 2026 infrastructure evidence:
-- Alipay AI Pay now exposes native Skill/API/Agent payment and settlement;
-- SkillPay can sell a Skill across supported Agent environments and settle proceeds
-  directly to the developer;
-- Machine Pay supports metered machine/API charging;
-- Agent Pay connects Agent-side purchase intent to merchant-side order/payment rails.
+```text
+PUBLIC INTENT / PUBLIC IDENTIFIER
++
+PUBLIC DATA / PUBLIC CATALOG
++
+GENERAL RULE
+→ TENDS TO BE ABSORBED BY PLATFORM / INCUMBENT / FREE TOOL
+```
 
-These mechanisms do not by themselves prove a high-attraction business. In
-particular, current public evidence does not yet prove that a new independent routing
-Skill is automatically discovered/invoked from user intent without audience building.
+This pattern held across model routing, standards validity, tender checking,
+policy/subsidy matching, VIN/parts lookup, laboratory routing, tariff lookup and other
+generic public-data decisions.
 
-Run `ATTRACTION_SCAN_010` from broad current reality with working label:
+Private context creates a more defensible search boundary only when the incumbent
+does not already accept that private state as a standard product input. Private
+repository context, for example, is not enough by itself because SCA/SBOM products
+already join repository state to public vulnerability/license intelligence.
 
-`AGENT-NATIVE INTENT × PAID MACHINE ROUTING FUNCTION`.
+Run `ATTRACTION_SCAN_011` from broad current reality with working label:
+
+`PRIVATE CONTEXT × PUBLIC LIVE RAIL × PAID MACHINE DECISION`.
 
 Prefer formations where:
-1. a user naturally emits a high-intent economic decision inside an Agent or machine
-   workflow;
-2. the decision requires a narrow high-value cross-source join, compatibility,
-   eligibility, allocation or route-selection function;
-3. the function can be executed by a reusable machine capability rather than
-   recurring human expertise;
-4. the Agent ecosystem can discover/invoke that capability under stable rules;
-5. the capability has native per-use/per-call/per-result settlement;
-6. the operator does not manually acquire each user and does not own inventory or
-   human delivery;
-7. the output changes a real economic action rather than producing generic content;
-8. repeated calls improve the routing asset through structured evidence/outcomes.
+1. a user/enterprise already has current private state inside an Agent/workflow;
+2. a separate public/partner resource, registry, market or transaction rail is live;
+3. the external rail owner does not possess enough private context to precompute the
+   decisive answer;
+4. joining the two worlds changes a live purchase, allocation, eligibility,
+   replacement, booking, application or other economic action;
+5. the join is machine-resolvable without recurring expert interpretation;
+6. no incumbent already owns the complete private-context × external-rail join;
+7. the machine function can be discovered/invoked repeatedly and paid natively;
+8. the operator owns routing logic/data rather than recurring acquisition, sales or
+   delivery.
 
-This is not a generic "build an AI tool" mission. The paid machine capability must
-perform a real economic routing function between independently existing states,
-resources or transaction rails.
-
-Retain zero again if discovery still requires audience building, the paid object is
-generic content generation, recurring consulting remains necessary, or the output
-does not alter a real action.
+Private context is not itself a moat. Retain zero if the private state is already a
+standard input to a mature product, if output remains advisory only, or if each case
+still requires bespoke expert work.
 
 ### 19A. Value-chain leverage truth — LOCKED
 
