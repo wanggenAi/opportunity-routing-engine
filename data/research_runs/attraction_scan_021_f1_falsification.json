@@ -1,0 +1,78 @@
+{
+  "schema_version": "formation-falsification.v1",
+  "formation_id": "ATTRACTION_SCAN_021-F1",
+  "as_of_date": "2026-09-20",
+  "prior_state": "RESEARCH_BEACON_RETAINED_FOR_PAYER_LEGAL_BOUNDARY_AND_DISCOVERABILITY_FALSIFICATION",
+  "verdict": "DEMOTED_GENERIC_AGENT_SUBSTITUTABLE_AND_VALUE_LAYER_SQUEEZED",
+  "commercial_candidate": false,
+  "retain_for_active_validation": false,
+  "first_external_value_flow": "NOT_PROVEN",
+  "decisive_kills": [
+    {
+      "kill": "GENERIC_AGENT_SUBSTITUTABILITY",
+      "status": "FAIL",
+      "reason": "The proposed core bridge is private user documents plus a public structured complaint schema. Current generic AI/document tools can already draft collection documents from user facts, while the official complaint form itself enumerates required fields and attachments. No distinct operator-controlled data or execution rail is required for the basic output."
+    },
+    {
+      "kill": "EXACT_PAYER_WILLINGNESS",
+      "status": "NOT_PROVEN_WITH_NEGATIVE_PRESSURE",
+      "reason": "The official complaint rail is free and public. The governing regulation encourages public-interest legal services for SME payment disputes. Search found paid collection/legal services, but not evidence that SMEs currently pay for the narrow self-serve complaint-packet compiler as a standalone product."
+    },
+    {
+      "kill": "VALUE_LAYER_SQUEEZE",
+      "status": "FAIL",
+      "reason": "Low-complexity factual drafting/completeness work is increasingly free or generic-AI substitutable; high-complexity disputed cases require legal judgment, negotiation, preservation, litigation/arbitration or representation and are already served by licensed lawyers and collection engagements."
+    },
+    {
+      "kill": "COMPOUNDING_OPERATOR_ASSET",
+      "status": "NOT_PROVEN",
+      "reason": "The official platform owns the submission and result rail. User-provided documents alone do not create a reusable proprietary edge, and outcome feedback is not naturally returned to a third-party compiler."
+    }
+  ],
+  "evidence": [
+    {
+      "source_type": "OFFICIAL",
+      "title": "全国违约拖欠中小企业款项投诉平台",
+      "url": "https://sme-dj.miit.gov.cn/",
+      "fact": "Official national and provincial complaint entry is directly available to SMEs."
+    },
+    {
+      "source_type": "OFFICIAL",
+      "title": "保障中小企业款项支付条例",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2025/art_2610a93b60554b9c81d6e37c2bc8232f.html",
+      "fact": "Article 30 encourages legal service institutions to provide public-interest legal services for SME payment disputes."
+    },
+    {
+      "source_type": "OFFICIAL",
+      "title": "保障中小企业款项支付投诉处理登记表",
+      "url": "https://interests.ssme.sh.gov.cn/demands/form.html",
+      "fact": "The public complaint form already exposes structured identity, contract, amount, facts, evidence and undertaking fields."
+    },
+    {
+      "source_type": "PROFESSIONAL_BODY",
+      "title": "律师办理企业应收账款业务操作指引（2026）（试行）",
+      "url": "https://info.lawyers.org.cn/info/20bfcad74f7c43ae9c0fdc7ce557c05d",
+      "fact": "Current lawyer guidance frames enterprise receivables as a full-lifecycle legal service including negotiation, letters, mediation, litigation, arbitration, preservation and enforcement."
+    },
+    {
+      "source_type": "MARKET",
+      "title": "南京紫金商业管理有限公司应收账款清收风险代理项目",
+      "url": "https://www.yfbzb.com/winbid/detail/20260811_621437621.html",
+      "fact": "A current paid collection engagement shows outcome-based lawyer bids at 6%, 9% and 10% of recovered funds, evidencing paid demand for the high-complexity professional layer rather than the narrow document compiler."
+    },
+    {
+      "source_type": "MARKET",
+      "title": "AI 法律文书生成器",
+      "url": "https://www.utoolhub.com/legalcraft",
+      "fact": "Free generic AI document generation already covers collection letters and related legal-document drafts, supporting commodity pressure on simple drafting."
+    }
+  ],
+  "retained_learning": [
+    "DIRECT_CASH_PAIN_CAN_BE_REAL_WHILE_THE_PROPOSED_SOFTWARE_LAYER_IS_COMMERCIALLY_WEAK",
+    "PRIVATE_DOCUMENTS_PLUS_PUBLIC_RULE_SCHEMA_IS_GENERIC_AGENT_SUBSTITUTABLE_UNLESS_A_DISTINCT_CONTROL_ASSET_EXISTS",
+    "FREE_OFFICIAL_RAIL_PLUS_PUBLIC_INTEREST_SUPPORT_COMPRESSES_WILLINGNESS_TO_PAY_FOR_NARROW_PREPARATION",
+    "WHEN_SIMPLE_CASES_COMMODITIZE_AND_COMPLEX_CASES_REQUIRE_LICENSED_EXPERTS_THE_MIDDLE_AUTOMATION_LAYER_CAN_BE_SQUEEZED",
+    "REALIZED_VALUE_OF_AN_OFFICIAL_RAIL_DOES_NOT_IMPLY_THIRD_PARTY_OPERATOR_ECONOMICS"
+  ],
+  "next_action": "REMOVE_FROM_ACTIVE_VALIDATION_AND_CONTINUE_SCAN022_WITHOUT_VERTICAL_INHERITANCE"
+}
