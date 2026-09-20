@@ -59,7 +59,11 @@
     "suhuanji_technical_data_closure": "PASS",
     "suhuanji_public_business_contact": "UNRESOLVED",
     "public_rights_search": "CEILING_REACHED",
-    "next_decisive_evidence": "OFFICIAL_WRITTEN_PROVIDER_RESPONSE_OR_PARTNER_AGREEMENT"
+    "next_decisive_evidence": "OFFICIAL_WRITTEN_PROVIDER_RESPONSE_OR_PARTNER_AGREEMENT",
+    "gate_b_preflight": "PREPARED_NOT_PUBLISHED",
+    "gate_b_discovery_infrastructure": "PASS",
+    "gate_b_organic_seller_intent": "NOT_PROVEN",
+    "suhuanji_public_business_endpoint": "UNRESOLVED"
   },
   "required_scan_controls": [
     "BROAD_REALITY",
@@ -176,7 +180,13 @@
     "PUBLIC_RIGHTS_SEARCH_CEILING_REACHED_FOR_F1",
     "PUBLIC_ABSENCE_OF_DATA_REUSE_GRANT_IS_NOT_A_DENIAL",
     "SUHUANJI_CREATE_ONLY_SEPARATES_PARTNER_DECISION_LAYER_FROM_RAIL_FULFILLMENT",
-    "NEXT_DECISIVE_RIGHTS_EVIDENCE_MUST_BE_PARTNER_AGREEMENT_OR_OFFICIAL_WRITTEN_RESPONSE"
+    "NEXT_DECISIVE_RIGHTS_EVIDENCE_MUST_BE_PARTNER_AGREEMENT_OR_OFFICIAL_WRITTEN_RESPONSE",
+    "PUBLIC_SKILL_DISCOVERY_INFRASTRUCTURE_DOES_NOT_PROVE_USED_DEVICE_SELLER_INTENT",
+    "QIANWEN_PUBLIC_SKILLS_HUB_IS_DISCOVERABLE_BUT_AGENT_CLIENT_AUDIENCE_IS_NOT_A_SIDE_PROOF",
+    "QIANWEN_CONSUMER_AGENT_SURFACE_EXISTS_BUT_FOUNDER_FREE_USED_DEVICE_INBOUND_REMAINS_UNPROVEN",
+    "ONEKEY_MCP_MARKETPLACE_IS_CALLABLE_DISCOVERY_INFRASTRUCTURE_NOT_CONSUMER_SELLER_FLOW",
+    "GATE_B_MUST_EXCLUDE_FOUNDER_DISTRIBUTED_PAID_AND_SYNTHETIC_TRAFFIC_FROM_DEMAND_PROOF",
+    "SUHUANJI_SAME_DOMAIN_IDENTITY_IS_VERIFIED_BUT_OPEN_PLATFORM_BUSINESS_ENDPOINT_REMAINS_UNRESOLVED"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -202,6 +212,7 @@
     "F1 Gate A outreach packet is ready for Aihuishou and Xiaozhi/Bearhome; no provider response exists yet.",
     "Xiaozhi production API requires enterprise qualification; Aihuishou channel settlement requires invoicing capability.",
     "Suhuanji current API now explicitly closes valuation→quote→payment amount/time→transaction success data for a partner-maintained order relationship; reuse rights remain unknown.",
-    "Public rights search has reached a useful ceiling: no current public surface explicitly grants cross-rail anonymous outcome retention/derived routing rights. Do not repeat same-layer searching by default."
+    "Public rights search has reached a useful ceiling: no current public surface explicitly grants cross-rail anonymous outcome retention/derived routing rights. Do not repeat same-layer searching by default.",
+    "Gate B fail-closed preflight exists in GitHub but is not publicly published; Agent/Skill discovery infrastructure is real while organic used-device seller intent remains unproven."
   ]
 }

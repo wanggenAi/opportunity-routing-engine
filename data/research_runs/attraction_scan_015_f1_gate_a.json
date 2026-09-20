@@ -44,7 +44,11 @@
       "public_business_contact": "UNRESOLVED",
       "commission_terms": "UNKNOWN",
       "cross_rail_reuse_right": "UNKNOWN",
-      "partner_decision_layer_with_rail_execution": "PASS_CREATE_ONLY"
+      "partner_decision_layer_with_rail_execution": "PASS_CREATE_ONLY",
+      "domain_identity_link": "PASS_SAME_PARENT_DOMAIN",
+      "public_icp": "沪ICP备2023021516号",
+      "open_platform_public_business_endpoint": "UNRESOLVED",
+      "contact_integrity_rule": "DO_NOT_USE_LOOKALIKE_OR_UNATTRIBUTED_THIRD_PARTY_CONTACTS"
     },
     "XIAOZHI_BEARHOME": {
       "technical_outcome_visibility": "PASS",

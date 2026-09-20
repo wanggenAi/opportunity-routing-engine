@@ -480,3 +480,36 @@ simple embedded quote widget.
 
 It still does not grant the rights to retain rail-returned outcomes for cross-rail
 future routing.
+
+
+## Suhuanji official-contact trace
+
+A dedicated contact-resolution pass was performed without substituting similarly named
+brands.
+
+Verified:
+- `open.suhuanji.com` is the active Open Platform documentation host;
+- `m.suhuanji.com` is a consumer/merchant-facing surface under the same parent domain;
+- the mobile site publicly displays `沪ICP备2023021516号`.
+
+Sources:
+- https://open.suhuanji.com/
+- https://m.suhuanji.com/
+
+The Open Platform still instructs integrators to contact "速换机商务" for APP Key /
+APP Secret, but no current verifiable business email or phone endpoint was found on the
+public Open Platform surface.
+
+The mobile surface contains a merchant/store onboarding form, but that is not treated
+as proof of the Open Platform business contact because its purpose is different.
+
+Truth:
+
+`SUHUANJI_DOMAIN_IDENTITY_LINK = PASS`.
+
+`SUHUANJI_OPEN_PLATFORM_PUBLIC_BUSINESS_ENDPOINT = UNRESOLVED`.
+
+Do not use:
+- contacts belonging to "速回收";
+- similarly named "速换机科技" entities without domain/legal-entity linkage;
+- scraped third-party phone numbers lacking official-domain attribution.
