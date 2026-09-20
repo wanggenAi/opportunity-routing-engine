@@ -126,9 +126,10 @@ Before changing business logic, read these in order:
 11. `docs/ACTOR_MODEL.md`
 12. `docs/THESIS_TRANSACTION_GAPS.md`
 13. `docs/OPPORTUNITY_ATTRACTION_FIELD.md`
-14. `docs/OPPORTUNITY_SCORECARD.md`
-15. `docs/ARCHITECTURE.md`
-16. current `docs/research/`, `docs/field/` and `docs/launch/` files relevant to the task.
+14. `docs/ENGINEERING_METHOD_SELECTION.md`
+15. `docs/OPPORTUNITY_SCORECARD.md`
+16. `docs/ARCHITECTURE.md`
+17. current `docs/research/`, `docs/field/` and `docs/launch/` files relevant to the task.
 
 `docs/LATENT_VALUE_DOCTRINE.md` is constitutional. `docs/STRUCTURAL_FRICTION_DISCOVERY_PRINCIPLE.md`, `docs/LATENT_CONNECTION_DISCOVERY_PRINCIPLE.md` and `docs/LATENT_VALUE_FORMATION_BRIDGE.md` are also locked constitutional discovery principles. `docs/OPPORTUNITY_ATTRACTION_FIELD.md` is the locked strategic discovery/attention principle for participant pull, operator activation and anti-drift. If another document, implementation or workflow conflicts with them, the lower-level artifact must change.
 
@@ -313,6 +314,48 @@ Observation
 
 A one-off task may later buy validation evidence, but it cannot become the core discovery object until the underlying regenerative field has been independently evidenced.
 
+## Scientific engineering method selection — LOCKED
+
+Use mature data structures, algorithms, design patterns, statistical methods and mathematical models when they encode a real repository invariant or materially improve a real decision.
+
+Do not cargo-cult sophistication.
+
+Required method-selection chain:
+
+```text
+REAL PROBLEM
+→ EXPLICIT INVARIANT / DECISION FAILURE
+→ METHOD WITH MATCHING ASSUMPTIONS
+→ EXECUTABLE IMPLEMENTATION
+→ TESTABLE DECISION IMPROVEMENT
+→ KEEP / REVISE / REMOVE
+```
+
+Before introducing a non-trivial method, state:
+- the concrete problem;
+- the invariant it must preserve;
+- why the method matches that problem;
+- its assumptions;
+- its failure mode;
+- the observable benefit;
+- why its complexity is justified now;
+- what measured condition would justify replacing it with something more complex.
+
+Current justified attraction method:
+- hard `HIGH_ATTRACTION_BEACON` floor first;
+- Pareto / non-dominated sorting second via `src/attraction_frontier.py`;
+- no weighted total score may override a weak critical attraction dimension.
+
+For current Scan-scale candidate counts, transparent `O(n^2)` Pareto comparison is preferred over more complex skyline/index structures. Complexity may increase only after measured scale makes this a real bottleneck.
+
+```text
+ALGORITHM != TRUTH
+MODEL != REALITY
+SCORE != VALUE
+COMPLEXITY != RIGOR
+SIMPLE METHOD + CORRECT INVARIANTS > FANCY METHOD + WRONG ASSUMPTIONS
+```
+
 ## Attraction-first discovery order — LOCKED
 
 Attraction is the **first attention-allocation premise**, not a late score applied after
@@ -339,7 +382,7 @@ BROAD CURRENT REALITY
 → CHEAP REALITY CONFIRMATION
 ```
 
-Use `src/attraction_discovery.py` as the canonical pre-formation discovery beacon.
+Use `src/attraction_discovery.py` as the canonical pre-formation discovery beacon. When multiple signals pass that hard floor, use `src/attraction_frontier.py` to compute the non-dominated attention frontier before selecting deep-dive order.
 
 Rules:
 - attraction decides **where to look first**;
