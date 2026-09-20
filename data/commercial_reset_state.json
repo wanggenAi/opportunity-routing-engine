@@ -6,7 +6,16 @@
   "active_transaction_units": [],
   "active_parent_formations": [],
   "inherited_watchlist": [],
-  "retained_research_formations": [],
+  "retained_research_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_015-F1",
+      "title": "USED_DEVICE_REALIZED_PAYOUT_ROUTER",
+      "chinese_title": "二手数码实际到手价路由",
+      "state": "HIGH_ATTRACTION_BEACON_RETAINED_FOR_CAUSAL_DESCENT",
+      "retained_date": "2026-09-20",
+      "commercial_candidate": false
+    }
+  ],
   "resolved_research_formations": [
     {
       "formation_id": "ATTRACTION_SCAN_001-F1",
@@ -31,14 +40,14 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_014",
+  "last_completed_scan_id": "ATTRACTION_SCAN_015",
   "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
-  "next_scan_id": "ATTRACTION_SCAN_015",
-  "current_research_action": "ATTRACTION_SCAN_015_TRANSACTION_GENERATED_ACCEPTANCE_GRAPH_X_CALLABLE_ACTION_RAIL",
+  "next_scan_id": "ATTRACTION_SCAN_016",
+  "current_research_action": "ATTRACTION_SCAN_015_F1_RIGHTS_AND_INBOUND_DISCOVERY_FALSIFICATION",
   "current_validation_state": {
-    "formation_id": null,
-    "public_artifact_confirmation": null,
-    "bilateral_commitment": "NOT_APPLICABLE",
+    "formation_id": "ATTRACTION_SCAN_015-F1",
+    "public_artifact_confirmation": "NOT_RUN",
+    "bilateral_commitment": "NOT_PROVEN",
     "commercial_candidate": false
   },
   "required_scan_controls": [
@@ -130,7 +139,14 @@
     "OUTCOME_DERIVED_ROUTING_ASSET_IS_STRONGER_THAN_PUBLIC_PARAMETER_GRAPH",
     "COMPOUNDING_REQUIRES_ROUTED_TRANSACTION_OUTCOMES_TO_FLOW_BACK_TO_THE_ROUTER",
     "RAIL_OWNER_MUST_NOT_ALREADY_OWN_THE_SAME_ACCEPT_REJECT_HISTORY",
-    "PREFER_TRANSACTION_GENERATED_ACCEPTANCE_GRAPH_X_CALLABLE_ACTION_RAIL"
+    "PREFER_TRANSACTION_GENERATED_ACCEPTANCE_GRAPH_X_CALLABLE_ACTION_RAIL",
+    "DISPLAYED_ESTIMATE_IS_NOT_THE_DECISIVE_OUTCOME_IN_USED_DEVICE_RECYCLING",
+    "POST_INSPECTION_FINAL_PAYOUT_CAN_CREATE_TRANSACTION_GENERATED_ROUTING_DATA",
+    "CROSS_RAIL_REALIZED_PAYOUT_HISTORY_IS_DISTINCT_FROM_QUOTE_COMPARISON",
+    "NATIVE_COMMISSION_EXISTS_ON_MULTIPLE_CURRENT_RECYCLING_RAILS",
+    "ROUTER_CAN_DELEGATE_PHYSICAL_INSPECTION_TO_RAILS_AND_REMAIN_MACHINE_RESOLVABLE",
+    "AGENT_NATIVE_INBOUND_DISTRIBUTION_REMAINS_A_DECISIVE_UNKNOWN",
+    "CROSS_PLATFORM_DATA_USE_RIGHTS_MUST_BE_PROVEN_BEFORE_PROMOTION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -145,6 +161,11 @@
     "ATTRACTION_SCAN_014 completed with zero high-attraction beacons and zero retained formations.",
     "Industrial cross-brand substitution remained expert-dependent; component/BOM and automotive fitment graphs are already platformized; model routing is gateway-native.",
     "MCP tool reliability/semantic routing was the nearest miss, but independent routers, health-grade vendors and platform gateways already occupy the same control surface.",
-    "Next search target is a transaction-generated acceptance graph where real routed outcomes compound an operator-owned machine decision asset."
+    "Next search target is a transaction-generated acceptance graph where real routed outcomes compound an operator-owned machine decision asset.",
+    "ATTRACTION_SCAN_015 retained one high-attraction research formation: ATTRACTION_SCAN_015-F1 used-device realized-payout router.",
+    "The retained asset is cross-rail estimate-to-inspection-to-accept/reject-to-payment outcome history, not public quote comparison.",
+    "Aihuishou and Xiaozhi expose current native channel/promotion commissions; Suhuanji and Xiaozhi expose detailed order/outcome APIs.",
+    "Current blockers are cross-platform data-use rights and proof of self-revealing Agent/Skill inbound demand without recurring founder acquisition.",
+    "F1 is not a commercial candidate; FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN."
   ]
 }
