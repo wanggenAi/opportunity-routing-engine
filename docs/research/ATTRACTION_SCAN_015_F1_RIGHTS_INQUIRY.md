@@ -110,3 +110,23 @@ Phone-only verbal statements are discovery evidence, not canonical PASS.
 | Router may remain channel, not principal | INFERRED / CONFIRM | INFERRED / CONFIRM | INFERRED / CONFIRM |
 
 Do not convert `INFERRED` to `PASS` without written confirmation.
+
+
+## Outreach sequencing
+
+This file is the **Wave 2 full questionnaire**, not the preferred first-touch email.
+
+Wave 1 execution is defined in:
+
+`docs/research/ATTRACTION_SCAN_015_F1_OUTREACH_EXECUTION_2026-09-20.md`
+
+Wave 1 asks only:
+1. multi-rail comparison permission;
+2. non-identifying outcome retention + future routing/statistical use;
+3. competitor-benchmark / derived-model restrictions or the disclosure path.
+
+Use this full eight-question packet only after:
+- the provider indicates the model is potentially compatible; or
+- a vague first response needs exact contractual clarification.
+
+Do not treat a short commercial reply as completion of this full checklist.
