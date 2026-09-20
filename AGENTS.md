@@ -313,6 +313,47 @@ Observation
 
 A one-off task may later buy validation evidence, but it cannot become the core discovery object until the underlying regenerative field has been independently evidenced.
 
+## Attraction-first discovery order — LOCKED
+
+Attraction is the **first attention-allocation premise**, not a late score applied after
+the engine has already spent most of its effort on a weak formation.
+
+The discovery order is:
+
+```text
+BROAD CURRENT REALITY
+→ ATTRACTION SIGNAL HARVEST
+→ HIGH-ATTRACTION BEACONS
+   (bilateral voluntary motion
+    + large state-dependent value jump
+    + decision window still movable
+    + narrow bridge / disproportionate unlock
+    + low explanation/activation burden
+    + operator control without recurring labor
+    + plausible self-propulsion)
+→ ONLY THEN DEEP CAUSAL DESCENT
+→ COMPLEMENTARY NODES
+→ CONNECTION PRESSURE
+→ MISSING EDGE
+→ TRUTH / INCUMBENT / CONTRADICTION TESTS
+→ CHEAP REALITY CONFIRMATION
+```
+
+Use `src/attraction_discovery.py` as the canonical pre-formation discovery beacon.
+
+Rules:
+- attraction decides **where to look first**;
+- evidence decides **what may be believed**;
+- do not collect every observable friction and hope scoring later will rescue focus;
+- low-attraction reality can remain research context but must not consume scarce founder
+  attention or external validation merely because it is true;
+- no dimension may be averaged away: a dead A side, dead B side, locked decision
+  window, weak value jump, high explanation burden or recurring founder labor kills
+  current high-attraction status;
+- prefer non-obvious connections that feel obvious after explanation because a small
+  bridge releases a large, immediately legible state change;
+- `HIGH_ATTRACTION_BEACON != COMMERCIAL_VALIDATION`.
+
 ## Attraction-field and anti-drift rule — LOCKED
 
 The engine must not reward a merely plausible connection that requires everyone to be pushed.
