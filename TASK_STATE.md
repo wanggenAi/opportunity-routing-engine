@@ -4,114 +4,117 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Run `ATTRACTION_SCAN_010` from a clean slate.
+Run `ATTRACTION_SCAN_011` from a clean slate.
 
 Working search target:
 
-`AGENT-NATIVE INTENT × PAID MACHINE ROUTING FUNCTION`
+`PRIVATE CONTEXT × PUBLIC LIVE RAIL × PAID MACHINE DECISION`
 
-Do not continue any Scan 001-009 formation as an inherited candidate.
+Do not continue any Scan 001-010 formation as an inherited candidate.
 
 ## Goal
 
-Find one high-attraction route where a user naturally emits a high-intent economic
-decision inside an Agent/machine workflow and a reusable machine routing function can
-resolve a valuable cross-source decision under native per-use settlement.
+Find one high-attraction structure where the user/enterprise already carries private
+current state inside an Agent/workflow and a reusable machine function joins that state
+to a separate live public/partner resource or action rail in order to change a real
+economic decision.
 
 Preferred shape:
 
 ```text
-USER INTENT ALREADY EXISTS INSIDE AGENT / MACHINE WORKFLOW
+PRIVATE CURRENT STATE ALREADY PRESENT IN WORKFLOW
 +
-REAL ECONOMIC DECISION WINDOW IS OPEN
+SEPARATE LIVE EXTERNAL RESOURCE / REGISTRY / MARKET / ACTION RAIL
 +
-NARROW CROSS-SOURCE JOIN / COMPATIBILITY / ELIGIBILITY / ROUTING PROBLEM
+EXTERNAL PLATFORM CANNOT PRECOMPUTE ANSWER WITHOUT PRIVATE STATE
 +
-MACHINE-DELEGATABLE DECISION FUNCTION
+NARROW MACHINE-RESOLVABLE JOIN
 +
-STABLE SKILL / API DISCOVERY OR INVOCATION
+LIVE ECONOMIC DECISION WINDOW
 +
-NATIVE PER-USE / PER-CALL / PER-RESULT PAYMENT
+STABLE INVOCATION / ACTION RAIL
 +
-NO COLD ACQUISITION / INVENTORY / HUMAN DELIVERY
+NATIVE PER-USE MACHINE PAYMENT
 +
-OUTPUT CHANGES A REAL ACTION
+NO COLD ACQUISITION / INVENTORY / HUMAN DELIVERY / RECURRING EXPERT WORK
 +
-OUTCOMES COMPOUND INTO A BETTER ROUTING ASSET
+OUTCOME COMPOUNDS ROUTING LOGIC / COVERAGE
 → HIGH-ATTRACTION BEACON
 ```
 
 ## Current Unique Commercial Research Goal
 
 Find one China-primary structure where:
-1. high-intent economic intent appears naturally inside an Agent/machine workflow;
-2. a narrow cross-source compatibility, eligibility, allocation or route decision is required;
-3. the decision can be executed by a reusable machine capability;
-4. discovery/invocation is repeatable without founder-by-founder acquisition;
-5. the capability can be paid natively per use/call/result;
-6. the output changes a real economic action;
-7. repeated calls compound routing evidence and capability.
+1. meaningful private current context naturally exists before our intervention;
+2. a separate external resource/action universe is current and callable;
+3. the decisive join is not already owned by the external platform or a mature incumbent;
+4. the join changes an immediate economic action;
+5. matching/eligibility/compatibility is machine-resolvable;
+6. the machine capability can be discovered/invoked repeatedly;
+7. native per-use/per-call payment exists;
+8. recurring founder search, sales, expert interpretation and delivery are absent.
 
 If none exists, retain zero.
 
 ## Current Phase
 
-`SCAN_010_AGENT_NATIVE_INTENT_X_PAID_MACHINE_ROUTING_FUNCTION`
+`SCAN_011_PRIVATE_CONTEXT_X_PUBLIC_LIVE_RAIL_X_PAID_MACHINE_DECISION`
 
 ## Current Findings
 
-Scan 009 produced zero retained formations but established a new executable frontier:
-- native third-party payout usually compensates a distinct contribution role;
-- recurring acquisition, sales and delivery remain founder-labor failures;
-- reusable machine capability can be a non-human paid contribution role;
-- Alipay AI Pay / SkillPay / Machine Pay prove current machine-native payment rails;
-- intent-driven automatic discovery/invocation of a new independent routing capability remains unproven.
+Scan 010 resolved important infrastructure uncertainty:
+- natural-language intent can trigger skill discovery across remote markets;
+- machine-native per-use settlement exists;
+- live paid Skills using HTTP 402/A2M-style payment exist;
+- generic public-data/public-rule routing is usually already commoditized or platformized;
+- private context can preserve an unowned join only when incumbents do not already ingest that context as a standard input.
 
-## Scan 009 result
+Current strongest residual topology:
 
-`ATTRACTION_SCAN_009` completed with:
+```text
+PRIVATE CURRENT STATE
+×
+EXTERNAL LIVE RAIL
+×
+UNOWNED CROSS-DOMAIN JOIN
+×
+PAID MACHINE DECISION
+```
+
+## Scan 010 result
+
+`ATTRACTION_SCAN_010` completed with:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
-Key findings:
-- ZBJ/ESN proves role-based automated settlement, but paid roles collapse to
-  acquisition, sales or delivery;
-- open referral/bounty systems prove outcome attribution, but require recurring
-  candidate/customer search;
-- generic payment split rails solve settlement, not demand/match/routing economics;
-- Baidu AgentBuilder's old commerce-agent route is not a current new-operator entry
-  rail because the live site says creation/workflow entries were expected to go
-  offline on 2026-08-31;
-- Qianwen's current public open-platform page marks Skill access as forthcoming;
-- Alipay AI Pay proves native Agent transaction, Skill/API charging and settlement,
-  but current public evidence does not prove automatic intent-driven discovery of a
-  new independent routing Skill.
+Mechanisms confirmed:
+- intent-driven Skill discovery;
+- machine-native per-use settlement;
+- live discoverable paid machine capability.
 
-New structural learning:
-
-```text
-NATIVE THIRD-PARTY PAYOUT
-→ USUALLY COMPENSATES A DISTINCT CONTRIBUTION ROLE
-
-HUMAN ACQUISITION / SALES / DELIVERY
-→ FAILS CURRENT NON-LABOR TARGET WHEN RECURRING
-
-REUSABLE MACHINE CAPABILITY
-→ CAN BE A PAID ROLE WITHOUT RECURRING FOUNDER LABOR
-```
+Directions killed included:
+- generic model routing;
+- standards validity checking;
+- tender/bid compliance;
+- policy/subsidy matching;
+- VIN/parts/component cross-reference;
+- laboratory/certification routing;
+- private repo × public vulnerability/license data;
+- seller SKU × platform compliance rules;
+- generic tariff/FTA lookup;
+- current private-equipment × open spare route, because a complete callable cross-enterprise route remains unproven.
 
 ## Last Verified Main
 
-`9e94533610dbcda9d651d2265f1d19e419bc79b7`
-— squash merge of PR #281, `Persist zero-retention Attraction Scan 008`.
+`efedde6a4be5e7b5d07b074fd2a59426f797b9e0`
+— squash merge of PR #282, `Persist zero-retention Attraction Scan 009`.
 
-Verified pre-merge:
-- PR #281 head `dd8bc43a05336fa57d75f24efa5e3c351332a79f`;
-- CI run #841 / `35492405427`: success.
-
-No separate post-merge main CI claim is made here unless later observed.
+Verified:
+- PR #282 final head `c0eb6b9e39669f15bded4d399621692c56412287`;
+- CI #844 / run `35495556387`: success;
+- PR #282 merged at 2026-09-20T06:57:39Z.
 
 ## Active Issue
 
@@ -119,26 +122,21 @@ No separate post-merge main CI claim is made here unless later observed.
 
 ## Active Branch
 
-`feature/attraction-scan-009-zero-retention`
+`feature/attraction-scan-010-zero-retention`
 
 ## Active PR
 
-#282 — `Persist zero-retention Attraction Scan 009`.
+Not opened yet.
 
 ## CI
 
-PR #282 CI #843 / run `35495434673`: failed only on repository recovery-contract headings.
-Required headings missing from TASK_STATE.md:
-- `## Current Unique Commercial Research Goal`
-- `## Current Findings`
-
-This checkpoint fixes those contract failures; rerun/next CI must be verified before merge.
+Pending for Scan 010 persistence branch.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `docs/research/ATTRACTION_SCAN_009_2026-09-20.md`
-- `data/research_runs/attraction_scan_009.json`
+- `docs/research/ATTRACTION_SCAN_010_2026-09-20.md`
+- `data/research_runs/attraction_scan_010.json`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -148,29 +146,23 @@ Updated:
 
 ## Completed
 
-- merged PR #281 after successful head CI;
-- executed Scan 009 across service-marketplace role splits, referral/bounty systems,
-  payment/settlement rails and current Agent ecosystems;
-- rejected native payouts that require recurring founder acquisition/search/sales or
-  delivery;
-- refused to treat generic split-payment infrastructure as routing economics;
-- rejected Baidu's old AgentBuilder commerce path as a current new-operator route
-  because current creation entry is not proven open;
-- refused to promote Qianwen Skill before the public entry is open;
-- confirmed Alipay AI Pay / SkillPay / Machine Pay as current machine-native
-  monetization infrastructure;
+- completed and merged Scan 009 persistence in PR #282 after fixing the repository recovery contract;
+- executed Scan 010 across current skill discovery/payment infrastructure and multiple economic decision categories;
+- confirmed intent-driven remote Skill discovery;
+- confirmed machine-native per-use settlement and a live paid VIN lookup Skill;
+- killed generic public/public decision routers that are already productized;
+- tested private-context routes and rejected private repository state as sufficient differentiation because mature SCA products already own that join;
 - retained zero high-attraction beacons;
-- retargeted Scan 010 to agent-native intent × paid machine routing function.
+- retargeted Scan 011 to private context × external live rail × paid machine decision.
 
 ## Blockers
 
 Engineering:
-- PR #282 CI #843 failed on two missing TASK_STATE recovery-contract headings; fix is being committed and CI must return green before merge.
+- Scan 010 persistence PR/CI/merge not yet complete.
 
 Research:
 - no current HIGH_ATTRACTION_BEACON exists;
-- native intent-driven discovery/invocation of a third-party paid routing capability
-  is not yet proven.
+- no specific private-context × external-live-rail join has yet survived incumbent and actionability tests.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0;
@@ -180,28 +172,27 @@ Commercial:
 
 ## Next Action
 
-Verify the TASK_STATE recovery-contract fix in PR #282 CI, merge only after green, then continue `ATTRACTION_SCAN_010`.
+Finish PR/CI/merge for Scan 010 persistence, then execute `ATTRACTION_SCAN_011`.
 
-Scan 010 discipline:
-1. reopen broad current reality; AI infrastructure is a mechanism, not the ontology;
-2. start from high-intent decisions already occurring inside Agent/machine workflows;
-3. require a real economic action window, not generic information consumption;
-4. find narrow machine-resolvable joins/constraints that materially change action;
-5. require stable skill/API discovery or invocation without founder-by-founder user acquisition;
-6. require native machine payment/settlement;
-7. reject generic content generation and generic "AI tools";
-8. reject recurring consulting, sales, manual research and human delivery;
-9. apply every existing attraction hard floor before Pareto;
+Scan 011 discipline:
+1. reopen broad reality; do not make AI/Skill ecosystems the ontology;
+2. start from private state already present in user/enterprise workflows;
+3. pair it with a separate live external resource/action universe;
+4. require the join to change a live economic action;
+5. kill cases where a mature incumbent already ingests the same private state;
+6. require machine-resolvable compatibility/eligibility/routing;
+7. require a callable action rail and native machine settlement;
+8. reject recurring expert interpretation, consulting, search, sales and delivery;
+9. apply all current attraction hard floors before Pareto;
 10. retain zero again if necessary.
 
 ## Do Not Repeat
 
-- Do not revive any Scan 001-009 formation as a candidate.
-- Do not treat settlement technology as opportunity proof.
-- Do not treat referral commission as passive when sourcing must recur manually.
-- Do not treat an announced/future Skill rail as currently callable.
-- Do not treat a closed legacy platform entry as current activation.
-- Do not turn Scan 010 into a generic AI-tool brainstorm.
+- Do not revive any Scan 001-010 formation as a candidate.
+- Do not treat private data/context itself as a moat.
+- Do not rebuild SCA/SBOM, generic bid checking, generic policy matching, generic lab matching or generic public-data lookup.
+- Do not treat paid-Skill infrastructure as opportunity proof.
+- Do not build a generic AI tool simply because Machine Pay exists.
 - Do not lower the attraction threshold to avoid another zero-result scan.
 
 ## Guardrails
@@ -211,10 +202,10 @@ Scan 010 discipline:
 - A_VISIBLE + B_VISIBLE + MATCH_RESOLVABLE remains required.
 - BILATERAL_MOTION remains required.
 - ACTION_GATE_CALLABILITY remains a hard floor.
-- MACHINE_PAYABLE != AUTOMATICALLY_DISCOVERABLE.
-- PAID_SKILL != HIGH_ATTRACTION_ROUTE.
-- SETTLEMENT_RAIL != ROUTING_CONTROL.
-- REUSABLE_MACHINE_ROLE may satisfy non-labor economics only when real action changes.
+- PRIVATE_CONTEXT != MOAT.
+- MACHINE_PAYABLE != HIGH_ATTRACTION.
+- PUBLIC_PUBLIC_GENERAL_RULE_ROUTING_COMMODITIZES_QUICKLY.
+- PRIVATE_X_PUBLIC_JOIN must remain outside incumbent ownership.
 - Hard attraction floor precedes Pareto.
 - UNKNOWN != PASS.
 - Infer broadly; retain conservatively.
