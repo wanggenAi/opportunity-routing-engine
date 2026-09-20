@@ -106,10 +106,10 @@ Xiaozhi/Bearhome:
 
 ## Last Verified Main
 
-`9f71c4adb0a672024b8c9c219391791c0b3f656d`
-— squash merge of PR #295, `Sync recovery checkpoint after Gate A public-rights ceiling`.
+`df0310de1e7f832d4fdaa66457823e4fd6404475`
+— squash merge of PR #296, `Prepare Scan 015 F1 Gate B inbound discovery preflight`.
 
-PR #295 head CI #872 passed before merge.
+PR #296 head CI #874 passed before merge.
 
 ## Active Issue
 
@@ -117,11 +117,11 @@ PR #295 head CI #872 passed before merge.
 
 ## Active Branch
 
-`feature/scan015-f1-gate-b-preflight`
+None. Current canonical state is on `main`.
 
 ## Active PR
 
-Not opened yet for Gate B preflight checkpoint.
+None. PR #296 is merged.
 
 ## CI
 
@@ -133,6 +133,7 @@ PR #292 / CI #866 succeeded.
 PR #293 / CI #868 succeeded.
 PR #294 / CI #870 succeeded.
 PR #295 / CI #872 succeeded.
+PR #296 / CI #874 succeeded.
 
 ## Latest Artifact / Persisted State
 
@@ -171,7 +172,8 @@ Engineering:
 - PR #293 Suhuanji technical-closure checkpoint is merged and green.
 - PR #294 public-rights search-ceiling checkpoint is merged and green.
 - PR #295 recovery checkpoint is merged and green.
-- Current Gate B preflight checkpoint PR/CI is not yet complete.
+- PR #296 Gate B preflight checkpoint is merged and green.
+- No engineering blocker remains.
 
 Research:
 1. public docs prove technical post-inspection/payment outcome visibility on at least Suhuanji and Xiaozhi, but cross-rail comparison/retention/derived-model rights remain UNKNOWN; same-layer public rights search has reached a useful ceiling;
