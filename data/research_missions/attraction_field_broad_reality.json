@@ -45,6 +45,17 @@
       ]
     },
     {
+      "seed_id": "cross-domain-transient-state-join",
+      "text": "两个成熟且独立的平台各自掌握局部真实状态 单个平台都无法看到决定经济结果的跨域瞬时连接 优先寻找时间窗口短 可机器解析 可直接改变真实动作 且执行结果可回流的状态连接",
+      "language": "zh-CN",
+      "target_primitives": [
+        "STATE",
+        "CHANGE",
+        "FLOW",
+        "OUTCOME"
+      ]
+    },
+    {
       "seed_id": "outcome-asset-not-public-parameter-graph",
       "text": "不要再把公开规格 参数 目录 编成一个更整齐的图谱 优先寻找只有真实交易结果才会产生的机器可维护接受拒绝资产 并要求结果直接改变下一次真实行动",
       "language": "zh-CN",

@@ -4,163 +4,52 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Run commercial discovery and formation validation **in parallel**.
-
-A provider-response wait, regulatory wait or other external latency on one formation must not
-freeze the broad-reality discovery loop.
+Run broad commercial discovery and retained-formation validation in parallel.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
+ZERO RETENTION IS VALID
 ```
 
 ## Goal
 
-Keep broad current-reality discovery running continuously while each retained formation
-is validated independently. Preserve hard gates: discoverability, match resolvability,
-callable action, non-generic edge, operator non-labor and real economics.
+Reach the first real external value flow without lowering hard gates merely to keep a
+candidate count above zero.
 
 ## Current Unique Commercial Research Goal
 
-There is no single vertical-specific goal while parallel discovery is active.
+There is no single vertical-specific discovery goal.
 
-The portfolio goal is:
+Current validation queue:
+- `ATTRACTION_SCAN_015-F1` — prove written cross-rail outcome-data rights and organic inbound intent.
+- `ATTRACTION_SCAN_016-F1` — prove two callable 9610 cross-customs return rails and non-consulting economics.
+
+Current discovery goal:
 
 ```text
-BROAD CURRENT REALITY
-→ HIGH-ATTRACTION BEACONS
-→ CHEAP DECISIVE FALSIFICATION
-→ INDEPENDENT VALIDATION QUEUES
-→ FIRST REAL EXTERNAL VALUE FLOW
+MATURE PLATFORM A STATE
++
+MATURE INDEPENDENT PLATFORM B STATE
++
+TIME-SENSITIVE CROSS-DOMAIN JOIN
++
+JOIN CHANGES A REAL ACTION
++
+OUTCOME FLOWS BACK
++
+NO RECURRING EXPERT / FOUNDER EXECUTION
+→ POSSIBLE UNOWNED ROUTING EDGE
 ```
-
-Current bounded formation proofs:
-- Scan 015-F1: written cross-rail outcome-data rights + organic inbound intent.
-- Scan 016-F1: two real 9610 cross-customs return rails + non-consulting operator economics.
 
 ## Current Phase
 
-`PARALLEL_DISCOVERY_AND_VALIDATION`
-
-## Live Portfolio
-
-### ATTRACTION_SCAN_015-F1 — USED-DEVICE REALIZED-PAYOUT ROUTER
-
-State:
-`GATE_A_WAITING_WRITTEN_PROVIDER_RESPONSE`
-
-Truth:
-- Wave 1 rights inquiries were sent on 2026-09-20 to Aihuishou and Xiaozhi/Bearhome.
-- Last Gmail verification observed no reply and no delivery failure.
-- public technical outcome visibility = PASS on current rails;
-- cross-rail comparison / anonymous retention / derived-routing rights = UNKNOWN;
-- compatible written rails = 0;
-- commercial candidate = false.
-
-Next decisive event:
-preserve and classify the first actual official written provider response using the
-existing R1-R8 intake rubric.
-
-Do not treat silence as failure or permission.
-
-### ATTRACTION_SCAN_016-F1 — 9610 CROSS-CUSTOMS RETURN ROUTER
-
-State:
-`RESEARCH_BEACON_RETAINED_FOR_CALLABILITY_AND_ECONOMICS_FALSIFICATION`
-
-Structural trigger:
-from 2026-04-01, 9610 cross-border e-commerce retail export returns may return through
-eligible customs-supervised sites outside the original export customs district.
-
-Potential edge:
-
-```text
-LIVE OVERSEAS RETURN EVENT
-+
-MULTIPLE LEGALLY ELIGIBLE CHINA RETURN SITES / REVERSE RAILS
-+
-REALIZED COST / CLEARANCE TIME / INBOUND / RECOVERY OUTCOMES
-→ EXPECTED REALIZED RECOVERY-VALUE ROUTING
-```
-
-Current proof:
-- new legal choice set = PASS;
-- real pilot transaction volume = PASS;
-- machine-shaped overseas return / inspection APIs = PASS;
-- generic reverse-logistics optimization = already platformized;
-- exact neutral 9610 China re-entry router = NOT ESTABLISHED, not proof of absence;
-- two independent callable 9610 cross-customs return rails = NOT PROVEN;
-- operator non-consulting economics = NOT PROVEN;
-- commercial candidate = false.
-
-Cheapest next falsification:
-verify two independent providers that can actually execute 9610 cross-customs return
-into eligible China sites and expose a stable quote/order/status/outcome path; then
-verify operator economics that do not collapse to customs consulting or lead generation.
-
-## Scan 016 Breadth Result
-
-Demoted in the same scan:
-- private EV charging sharing — obvious booking/access/payment/revenue-share control
-  surface already platformized;
-- virtual power plants — incumbent aggregators own market/grid execution and enterprise
-  onboarding remains material;
-- elderly-care subsidy/voucher routing — official platform owns provider discovery,
-  request, voucher and settlement loop;
-- AI application filing/compliance — collapses toward rule assistance / consulting;
-- domestic-service matching — mature marketplace plus human delivery;
-- flexible-employment matching — already platformized;
-- insurance/open-platform routing — regulated and mature aggregators occupy the control
-  surface.
-
-No direction was retained merely because the market is large.
-
-## Discovery Queue
-
-`ATTRACTION_SCAN_016 = COMPLETE`
-
-Next:
-`ATTRACTION_SCAN_017`
-
-Scan 017 must restart from broad current reality. It must not use used-device recycling
-or 9610 reverse logistics as required verticals, priors or default search terms.
-
-## Completed
-
-- kept Scan 015-F1 in its provider-response validation queue;
-- completed independent broad Scan 016 across eight unrelated current-reality lanes;
-- retained only Scan 016-F1 for cheap falsification;
-- removed used-device-specific seeds from the broad-reality mission;
-- persisted Scan 016 research state and parallel portfolio state;
-- added regression tests for broad-scan non-inheritance.
-
-## Current Findings
-
-- waiting on one provider does not justify pausing discovery;
-- 2026 nationwide 9610 cross-customs returns create a newly movable legal route choice;
-- generic reverse-logistics optimization is already platformized, so only the narrow
-  China re-entry routing edge remains worth testing;
-- private charging, VPP, elderly voucher routing, AI compliance, domestic services,
-  gig matching and insurance routing failed current hard-floor tests.
-
-## Blockers
-
-Engineering:
-- PR #304 merged to main at `d99b2243440db5dda546c6be694ae5fc0b5793e5`; corrected CI #891 succeeded.
-
-Research:
-- Scan 015-F1 still has zero compatible written provider confirmations.
-- Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return
-  rails and operator economics that do not collapse to consulting/lead generation.
-
-Commercial:
-- no commercial candidate;
-- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN.
+`SCAN_017_COMPLETE_READY_FOR_SCAN_018`
 
 ## Last Verified Main
 
-`d99b2243440db5dda546c6be694ae5fc0b5793e5`
-— squash merge of PR #304, `Run Scan 016 in parallel with provider-response validation`.
+`c1fe941c4d7591fda29a1a5d3c8d350ce4cfb4dc`
+— squash merge of PR #305, `Sync Scan 016 merged checkpoint`.
 
 ## Active Issue
 
@@ -168,80 +57,101 @@ Commercial:
 
 ## Active Branch
 
-None. Current canonical state is on `main`.
+`feature/scan017-broad-reality`
 
 ## Active PR
 
-None. PR #304 is merged.
+Not opened yet for Scan 017.
 
 ## CI
 
-PR #304 initial CI #890 failed on recovery-contract/schema compatibility.
-The branch was corrected and PR #304 CI #891 succeeded before merge.
+No Scan 017 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New on current branch:
-- `docs/research/ATTRACTION_SCAN_016_2026-09-20.md`
-- `data/research_runs/attraction_scan_016.json`
+- `docs/research/ATTRACTION_SCAN_017_2026-09-20.md`
+- `data/research_runs/attraction_scan_017.json`
 
 Updated:
-- `data/research_missions/attraction_field_broad_reality.json`
 - `data/commercial_reset_state.json`
+- `data/research_missions/attraction_field_broad_reality.json`
 - `TASK_STATE.md`
 
-## Discovery Bias Fix
+## Completed
 
-The broad-reality mission previously contained active-formation-specific seeds around
-used-device realized payout and cross-rail rights.
+- ran Scan 017 from broad current reality without using Scan 015/016 verticals as priors;
+- searched current 2026 changes across electronic trade documents, shared commercial-space
+  test capacity, retired PV modules, carbon-footprint certification, green certificates,
+  engineering-equipment sharing, low-altitude flight services and environmental-right markets;
+- contradicted the electronic-document router with live DCSA cross-platform interoperability
+  plus bank/platform finance integration;
+- rejected commercial-space test capacity because recurring engineering matching remains material;
+- rejected retired-PV routing because physical inspection/manual quotation remains a hard dependency;
+- rejected carbon certification, green certificates, equipment sharing, low-altitude services and
+  environmental rights where the obvious control layer is already platform/exchange owned;
+- retained zero new formations;
+- defined Scan 018 around time-sensitive cross-domain state joins.
 
-Those seeds are removed from the broad scan mission.
+## Current Findings
 
-Locked execution rule:
+`ATTRACTION_SCAN_017 = COMPLETE / ZERO NEW RETENTION`.
+
+The key learning is:
 
 ```text
-WAITING_FOR_EXTERNAL_VALIDATION_MUST_NOT_FREEZE_DISCOVERY
-ACTIVE_FORMATION_VERTICAL_MUST_NOT_SEED_NEW_BROAD_SCAN
+NEW POLICY / STANDARD / DIGITAL RIGHT
++
+NEW REGISTRY / API / MARKETPLACE
+DOES NOT CREATE AN INDEPENDENT ROUTER
+WHEN THE SAME INFRASTRUCTURE ALSO OWNS
+MATCHING + INTEROPERABILITY + ACTION + SETTLEMENT
 ```
 
-Generic structural learnings may survive. Candidate-specific vertical priors may not.
+The next search must move outside single-platform control surfaces.
+
+## Blockers
+
+Engineering:
+- Scan 017 branch has not yet completed PR / CI / merge.
+
+Research:
+- Scan 015-F1: zero compatible written provider confirmations.
+- Scan 016-F1: two real callable 9610 cross-customs return rails remain unproven.
+- Scan 018 has not started.
+
+Commercial:
+- ACTIVE COMMERCIAL CANDIDATES = 0.
+- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN.
+
+## Next Action
+
+Complete Scan 017 PR / CI / merge, then start `ATTRACTION_SCAN_018` from broad current
+reality using the cross-domain transient-state boundary without inheriting a vertical.
+
+## Do Not Repeat
+
+- Do not retain electronic trade-document routing merely because the law is new.
+- Do not mistake platform fragmentation for a moat when interoperable standards are live.
+- Do not retain commercial-space shared capacity without machine-resolvable matching.
+- Do not retain retired-PV routing while physical inspection/manual quote remains decisive.
+- Do not build another registry, directory, marketplace or policy chatbot around an official control plane.
+- Do not manufacture a winner because a scan has zero retention.
+- Do not use Scan 015 or Scan 016 verticals as Scan 018 priors.
+- UNKNOWN != PASS.
 
 ## Guardrails
 
 - GitHub live state wins.
 - Attraction first for attention; evidence first for truth.
-- Validation latency must not freeze discovery.
-- Active candidate verticals must not seed the next broad scan.
 - A_VISIBLE + B_VISIBLE + MATCH_RESOLVABLE remains required.
+- BILATERAL_MOTION remains required.
 - ACTION_GATE_CALLABILITY remains a hard floor.
 - GENERIC_AGENT_SUBSTITUTABILITY remains a hard kill.
 - NO_RECURRING_FOUNDER_ACQUISITION.
 - NO_RECURRING_EXPERT_DELIVERY.
+- PLATFORM_EXISTS != OPPORTUNITY.
+- NEW_POLICY != BUSINESS.
+- INTEROPERABILITY_GAP != MOAT when the ecosystem is actively standardizing it.
 - UNKNOWN != PASS.
-- Do not manufacture multiple winners to satisfy a quota.
-
-## Commercial Truth
-
-- ACTIVE COMMERCIAL CANDIDATES = 0
-- ACTIVE TRANSACTION UNITS = 0
-- RETAINED RESEARCH FORMATIONS = 2
-  - ATTRACTION_SCAN_015-F1
-  - ATTRACTION_SCAN_016-F1
-- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-
-## Do Not Repeat
-
-- Do not stop scanning merely because an existing formation is waiting on a third party.
-- Do not use an active formation as the search prior for the next broad scan.
-- Do not promote Scan 016-F1 as generic reverse-logistics software.
-- Do not turn Scan 016-F1 into customs consulting, warehouse lead generation or manual
-  shipment coordination.
-- Do not assume a return-order API proves 9610 cross-customs re-entry callability.
-- Do not treat search absence as incumbent absence.
-- Do not manufacture multiple winners to satisfy a quota.
-- UNKNOWN != PASS.
-
-## Next Action
-
-Continue `ATTRACTION_SCAN_017` from clean broad current reality while Scan 015-F1 and
-Scan 016-F1 remain in independent validation queues.
+- Infer broadly; retain conservatively.
