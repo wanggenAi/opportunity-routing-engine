@@ -1,0 +1,36 @@
+{
+  "schema_version": "attraction-scan.v5",
+  "scan_id": "ATTRACTION_SCAN_007",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-20",
+  "status": "COMPLETE",
+  "search_mode": "VISIBLE_DATA_HIDDEN_JOIN_CALLABLE_ACTION_GATE",
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_formations": [],
+  "pareto_eligible": [],
+  "pareto_frontier": [],
+  "benchmark": {
+    "pattern": "NATIVE_ACTION_RAIL",
+    "example": "CATHAY_CARGO_API",
+    "state": "BENCHMARK_NOT_OPPORTUNITY"
+  },
+  "demoted_directions": [
+    "COMPONENT_LIFECYCLE_RISK_X_LIVE_PURCHASABLE_INVENTORY",
+    "TRANSFERABLE_EVENT_REGISTRATION_SECONDARY_MARKET",
+    "EXHIBITION_BOOTH_SECONDARY_TRANSFER",
+    "CLOUD_RESERVED_COMMITMENT_SECONDARY_ROUTING",
+    "B2B_MOQ_DEMAND_AGGREGATION"
+  ],
+  "scan_learnings": [
+    "CALLABLE_ACTION_GATE_IS_NON_COMPENSATORY",
+    "CALLABLE_ACTION_DOES_NOT_IMPLY_CATEGORY_STANDARDIZATION",
+    "CASE_BY_CASE_PERMISSION_IS_NOT_A_TRANSACTION_RAIL",
+    "NATIVE_TRANSACTIONABILITY_BEATS_PERMISSION_ARCHAEOLOGY",
+    "MATURE_ACTION_API_PLUS_MATURE_HIDDEN_JOIN_IS_NOT_AN_OPPORTUNITY",
+    "ACTION_GATE_CALLABILITY_SHOULD_BE_A_HARD_ATTRACTION_DIMENSION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_008",
+  "next_action": "INDEPENDENT_SIGNAL_X_OPEN_TRANSACTION_RAIL_SCAN",
+  "first_external_value_flow": "NOT_PROVEN"
+}
