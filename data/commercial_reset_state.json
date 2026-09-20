@@ -67,7 +67,9 @@
     "gate_a_outreach": "WAVE1_SENT_WAITING_RESPONSE",
     "gate_a_verified_outreach_targets": 2,
     "gate_a_provider_responses": 0,
-    "gate_a_rights_confirmed_rails": 0
+    "gate_a_rights_confirmed_rails": 0,
+    "provider_response_intake": "READY",
+    "delivery_failure_observed": false
   },
   "required_scan_controls": [
     "BROAD_REALITY",
@@ -198,7 +200,11 @@
     "BEARHOME_OFFICIAL_PHONE_CAN_ROUTE_TO_BUSINESS_OWNER_BUT_VERBAL_PERMISSION_IS_NOT_CANONICAL_PASS",
     "WAVE1_PROVIDER_OUTREACH_WAS_SENT_TO_TWO_VERIFIED_RAIL_CONTACTS",
     "SENT_EMAIL_IS_EXTERNAL_ACTION_BUT_NOT_RIGHTS_EVIDENCE",
-    "NEXT_DECISIVE_EVIDENCE_IS_PROVIDER_WRITTEN_RESPONSE"
+    "NEXT_DECISIVE_EVIDENCE_IS_PROVIDER_WRITTEN_RESPONSE",
+    "PROVIDER_RESPONSE_INTAKE_MUST_SEPARATE_RAW_WRITTEN_EVIDENCE_FROM_CLASSIFICATION",
+    "NO_RESPONSE_YET_IS_NOT_RIGHTS_FAIL",
+    "VAGUE_PROVIDER_LANGUAGE_MUST_ONLY_UPDATE_DIMENSIONS_EXPLICITLY_ANSWERED",
+    "NDA_OR_ONBOARDING_REQUIRED_IS_A_DISCLOSURE_PATH_NOT_AUTOMATIC_PASS_OR_FAIL"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -227,6 +233,7 @@
     "Public rights search has reached a useful ceiling: no current public surface explicitly grants cross-rail anonymous outcome retention/derived routing rights. Do not repeat same-layer searching by default.",
     "Gate B fail-closed preflight exists in GitHub but is not publicly published; Agent/Skill discovery infrastructure is real while organic used-device seller intent remains unproven.",
     "Wave 1 outreach is now optimized to three decisive rights questions for Aihuishou and Xiaozhi/Bearhome; drafts remain unsent and create no rights evidence.",
-    "Wave 1 rights inquiries were sent on 2026-09-20 to the verified Aihuishou and Xiaozhi/Bearhome contacts; Gate A remains rights-unknown until written replies are classified."
+    "Wave 1 rights inquiries were sent on 2026-09-20 to the verified Aihuishou and Xiaozhi/Bearhome contacts; Gate A remains rights-unknown until written replies are classified.",
+    "Immediate Gmail check after Wave 1 found no provider replies and no delivery-failure notice; provider-response intake state and follow-up classes are now prepared."
   ]
 }
