@@ -106,10 +106,10 @@ Xiaozhi/Bearhome:
 
 ## Last Verified Main
 
-`df0310de1e7f832d4fdaa66457823e4fd6404475`
-— squash merge of PR #296, `Prepare Scan 015 F1 Gate B inbound discovery preflight`.
+`18467ab1ba4a69804bf8e702158b19a29329445b`
+— squash merge of PR #297, `Sync recovery checkpoint after Gate B preflight`.
 
-PR #296 head CI #874 passed before merge.
+PR #297 head CI #876 passed before merge.
 
 ## Active Issue
 
@@ -117,11 +117,11 @@ PR #296 head CI #874 passed before merge.
 
 ## Active Branch
 
-None. Current canonical state is on `main`.
+`feature/scan015-f1-outreach-execution-ready`
 
 ## Active PR
 
-None. PR #296 is merged.
+Not opened yet for Gate A Wave 1 outreach-readiness checkpoint.
 
 ## CI
 
@@ -134,6 +134,7 @@ PR #293 / CI #868 succeeded.
 PR #294 / CI #870 succeeded.
 PR #295 / CI #872 succeeded.
 PR #296 / CI #874 succeeded.
+PR #297 / CI #876 succeeded.
 
 ## Latest Artifact / Persisted State
 
@@ -173,11 +174,12 @@ Engineering:
 - PR #294 public-rights search-ceiling checkpoint is merged and green.
 - PR #295 recovery checkpoint is merged and green.
 - PR #296 Gate B preflight checkpoint is merged and green.
-- No engineering blocker remains.
+- PR #297 recovery checkpoint is merged and green.
+- Current Gate A Wave 1 outreach-readiness checkpoint PR/CI is not yet complete.
 
 Research:
 1. public docs prove technical post-inspection/payment outcome visibility on at least Suhuanji and Xiaozhi, but cross-rail comparison/retention/derived-model rights remain UNKNOWN; same-layer public rights search has reached a useful ceiling;
-2. obtain written confirmation from at least two overlapping 3C rails that anonymous outcome data may be retained and used for future routing; vague cooperation/API-access language does not pass;
+2. obtain written confirmation from at least two overlapping 3C rails that anonymous outcome data may be retained and used for future routing; Wave 1 drafts are ready for Aihuishou and Xiaozhi/Bearhome but remain unsent; vague cooperation/API-access language does not pass;
 3. Suhuanji now has explicit valuation→quote→payment/time technical closure and same-parent-domain identity linkage, but its verified Open Platform business email/phone endpoint remains unresolved;
 4. production onboarding is not zero-friction: Xiaozhi requires enterprise qualification and Aihuishou channel settlement requires VAT invoicing capability;
 5. a deeper neutral-incumbent search must not reveal the exact realized-payout graph;
@@ -196,12 +198,12 @@ Scan 015 PR #288 is merged and green.
 
 Gate A public technical falsification is complete with `PARTIAL_PASS_RIGHTS_UNKNOWN`.
 
-Canonical inquiry packet and pass/fail response rubric are ready. Public-rights search has reached its useful ceiling. Gate B discovery preflight is also prepared but unpublished. The single best next decisive action remains obtaining an official written provider response or current partner agreement from at least two rails before any Gate B transaction execution.
+Wave 1 outreach execution packet, the full Wave 2 questionnaire, and the pass/fail response rubric are ready. Public-rights search has reached its useful ceiling. Gate B discovery preflight is prepared but unpublished. The single best next decisive action is provider-facing Wave 1 outreach to Aihuishou and Xiaozhi/Bearhome; because sending communicates externally in the user's name, execution requires explicit user authorization. No Gate B transaction execution before Gate A rights are bounded.
 
 The remaining bounded validations are:
 
 ### Gate A — written rights confirmation
-Public docs already prove technical outcome visibility. Now verify in writing for at least two overlapping 3C rails:
+Wave 1 short-form outreach is ready but NOT SENT. Public docs already prove technical outcome visibility. Verify in writing for at least two overlapping 3C rails:
 - permission to retain minimized non-identifying outcomes;
 - side-by-side comparison/routing permission;
 - permission to use anonymous cross-rail outcome statistics for future routing/derived models;
@@ -239,6 +241,7 @@ Kill F1 if either hard gate fails.
 - Do not treat search absence as incumbent-gap proof.
 - Do not repeat same-layer public rights searches after the current ceiling unless a new source surface appears.
 - Do not promote because the idea feels attractive.
+- Do not mark a draft as sent, a sent message as permission, or silence as rights failure.
 
 ## Guardrails
 
