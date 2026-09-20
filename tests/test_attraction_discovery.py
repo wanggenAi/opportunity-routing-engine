@@ -139,3 +139,20 @@ def test_native_transaction_api_is_strong_action_gate_evidence():
         action_gate_evidence=ev("native-api-order-booking-settlement"),
     )
     assert attraction_beacon_state(p) is AttractionBeaconState.HIGH_ATTRACTION_BEACON
+
+
+def test_generic_agent_substitutability_requires_evidence():
+    p = profile(generic_agent_substitutable=True)
+    assert attraction_beacon_state(p) is AttractionBeaconState.UNASSESSED
+    assert discovery_attention_allowed(p) is False
+
+
+def test_generic_agent_substitutability_kills_high_attraction():
+    p = profile(
+        generic_agent_substitutable=True,
+        generic_agent_substitution_evidence=ev(
+            "general-agent-plus-official-rail-reproduces-same-route"
+        ),
+    )
+    assert attraction_beacon_state(p) is AttractionBeaconState.LOW_ATTRACTION
+    assert discovery_attention_allowed(p) is False
