@@ -48,10 +48,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_017",
+  "last_completed_scan_id": "ATTRACTION_SCAN_018",
   "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
-  "next_scan_id": "ATTRACTION_SCAN_018",
-  "current_research_action": "PARALLEL_VALIDATION_SCAN015_F1_SCAN016_F1_AND_BROAD_DISCOVERY_SCAN018",
+  "next_scan_id": "ATTRACTION_SCAN_019",
+  "current_research_action": "PARALLEL_VALIDATION_SCAN015_F1_SCAN016_F1_AND_BROAD_DISCOVERY_SCAN019",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -225,7 +225,12 @@
     "HIGH_VALUE_SHARED_CAPACITY_IS_NOT_ROUTABLE_WHEN_EACH_MATCH_REQUIRES_EXPERT_CONFIGURATION_JUDGMENT",
     "PHYSICAL_CONDITION_MARKETS_REMAIN_LOW_CALLABILITY_UNTIL_STANDARD_INSPECTION_AND_ORDER_RAILS_EXIST",
     "NEXT_SEARCH_SHOULD_TARGET_CROSS_DOMAIN_STATE_JOINS_BETWEEN_MATURE_INDEPENDENT_PLATFORMS",
-    "SCAN_017_ZERO_RETENTION_AFTER_HARD_FLOOR_FALSIFICATION"
+    "SCAN_017_ZERO_RETENTION_AFTER_HARD_FLOOR_FALSIFICATION",
+    "TRANSIENT_EXCEPTION_VALUE_DOES_NOT_IMPLY_AN_UNOWNED_ROUTING_LAYER",
+    "DIGITIZED_EXCEPTIONS_TEND_TO_BE_ABSORBED_BY_INDUSTRY_CONTROL_PLANES",
+    "UNDER_DIGITIZED_EXCEPTIONS_TEND_TO_FAIL_CALLABILITY_OR_EXPERT_INDEPENDENCE",
+    "CROSS_DOMAIN_JOIN_ALONE_IS_NOT_DISTINCT_OPERATOR_CONTROL",
+    "SCAN_018_ZERO_RETENTION_AFTER_TRANSIENT_EXCEPTION_FALSIFICATION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -262,7 +267,10 @@
     "ATTRACTION_SCAN_017 completed with zero new retained formations and zero commercial promotions.",
     "Electronic trade-document interoperability was demoted because DCSA/platform/bank infrastructure is actively internalizing the interoperability and finance connection layer.",
     "Commercial-space shared test capacity and retired-PV recycling show real value but fail current expert-independence or action-callability floors.",
-    "Scan 018 will search for time-sensitive cross-domain joins between mature independent platforms rather than another newly launched platform."
+    "Scan 018 will search for time-sensitive cross-domain joins between mature independent platforms rather than another newly launched platform.",
+    "ATTRACTION_SCAN_018 completed with zero new retained formations and zero commercial promotions.",
+    "Container free-time exceptions, cold-chain temperature excursions and grain-drying shortages are real high-loss windows, but current action surfaces are already being absorbed by port/TMS/cold-chain/agricultural service platforms.",
+    "Scan 019 will require self-revealing high intent plus multiple paid callable rails plus post-execution outcome uncertainty, without inheriting any active vertical."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -278,9 +286,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_018",
+      "next_scan_id": "ATTRACTION_SCAN_019",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "TIME_SENSITIVE_CROSS_DOMAIN_STATE_JOIN_BETWEEN_MATURE_INDEPENDENT_PLATFORMS"
+      "search_boundary": "SELF_REVEALING_HIGH_INTENT_X_MULTIPLE_PAID_CALLABLE_RAILS_X_POST_EXECUTION_OUTCOME_UNCERTAINTY"
     }
   }
 }

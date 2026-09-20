@@ -45,6 +45,17 @@
       ]
     },
     {
+      "seed_id": "self-revealing-paid-rails-outcome-uncertainty",
+      "text": "高意图事件会主动暴露 多个独立执行方已有标准化付费调用轨道 真正优劣只有履约后结果才能知道 单个平台无法看到跨轨道结果历史 优先寻找可由完成交易沉淀的独立机器路由资产",
+      "language": "zh-CN",
+      "target_primitives": [
+        "BEHAVIOR",
+        "FLOW",
+        "OUTCOME",
+        "RESOURCE"
+      ]
+    },
+    {
       "seed_id": "cross-domain-transient-state-join",
       "text": "两个成熟且独立的平台各自掌握局部真实状态 单个平台都无法看到决定经济结果的跨域瞬时连接 优先寻找时间窗口短 可机器解析 可直接改变真实动作 且执行结果可回流的状态连接",
       "language": "zh-CN",
