@@ -24,7 +24,7 @@
   "seeds": [
     {
       "seed_id": "paid-ugly-workaround",
-      "text": "买家已经主动求购 求推荐 求预订 求解决方案 但仍靠群聊 帖子 RFQ 手工问答 找商品服务 且存在可直接成交的标准轨道",
+      "text": "用户已经在 Agent 软件 工作流中主动表达 选择 匹配 核验 采购 交易需求 但仍需人工跨系统比对规则 数据 资源 才能做决定",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
@@ -145,7 +145,7 @@
     },
     {
       "seed_id": "dense-digital-exhaust-bilateral",
-      "text": "买家 用户 主动公开或机器可见地表达高意图需求 RFQ 求购 预订意图 同时另一系统有原生可成交且第三方可归因分佣的轨道",
+      "text": "用户高意图在 Agent 或机器工作流中自然出现 同时存在可被调用的付费 Skill API 工具 能完成跨源匹配 兼容性 资格 路由判断",
       "language": "zh-CN",
       "target_primitives": [
         "ACTOR",
@@ -221,7 +221,7 @@
     },
     {
       "seed_id": "platform-leakage-offplatform",
-      "text": "买家意图在平台A自发暴露 商品服务在平台B可直接成交 且平台B有第三方CPS 分销 转售 佣金归因 但A与B未被自动连接",
+      "text": "用户意图已由平台或 Agent 捕获 但关键资源分散在另一数据或交易系统 可由第三方机器路由能力直接改变选择或交易 且无需自行获客",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
@@ -243,7 +243,7 @@
     },
     {
       "seed_id": "repeat-route-compounds",
-      "text": "高意图表达 到 商品服务匹配 到 平台成交 到 第三方佣金归因 可机器复用 每次结果让下一次匹配更自动",
+      "text": "Agent 意图 到 机器路由调用 到 原生按次付费 到 真实行动结果 可重复 每次结果沉淀规则 证据 覆盖 让下一次更自动",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",

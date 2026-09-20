@@ -4,108 +4,114 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Run `ATTRACTION_SCAN_009` from a clean slate.
+Run `ATTRACTION_SCAN_010` from a clean slate.
 
 Working search target:
 
-`SELF-REVEALING INTENT × NATIVE TAKE-RATE RAIL`
+`AGENT-NATIVE INTENT × PAID MACHINE ROUTING FUNCTION`
 
-Do not continue any Scan 001-008 formation.
+Do not continue any Scan 001-009 formation as an inherited candidate.
 
 ## Goal
 
-Find a genuinely high-attraction route where the demand side exposes itself before
-cold outreach and the transaction rail natively rewards the router.
+Find one high-attraction route where a user naturally emits a high-intent economic
+decision inside an Agent/machine workflow and a reusable machine routing function can
+resolve a valuable cross-source decision under native per-use settlement.
 
 Preferred shape:
 
 ```text
-BUYER / USER VOLUNTARILY EMITS HIGH-INTENT DEMAND
+USER INTENT ALREADY EXISTS INSIDE AGENT / MACHINE WORKFLOW
 +
-INTENT IS MACHINE/RULE MATCHABLE
+REAL ECONOMIC DECISION WINDOW IS OPEN
 +
-SUPPLY / SERVICE CATALOG IS DIRECTLY TRANSACTABLE
+NARROW CROSS-SOURCE JOIN / COMPATIBILITY / ELIGIBILITY / ROUTING PROBLEM
 +
-ACTION RAIL IS NATIVE + REPEATABLE
+MACHINE-DELEGATABLE DECISION FUNCTION
 +
-THIRD-PARTY ROUTER HAS NATIVE ATTRIBUTION / TAKE-RATE
+STABLE SKILL / API DISCOVERY OR INVOCATION
 +
-NO INVENTORY / DELIVERY / SUPPLIER EXECUTION / COLD SALES
+NATIVE PER-USE / PER-CALL / PER-RESULT PAYMENT
 +
-MATCH CREATES LARGE, LEGIBLE VALUE
+NO COLD ACQUISITION / INVENTORY / HUMAN DELIVERY
 +
-REPEATED OUTCOMES IMPROVE ROUTING
+OUTPUT CHANGES A REAL ACTION
++
+OUTCOMES COMPOUND INTO A BETTER ROUTING ASSET
 → HIGH-ATTRACTION BEACON
 ```
 
 ## Current Unique Commercial Research Goal
 
 Find one China-primary structure where:
-1. high-intent demand continuously self-reveals;
-2. the intent has a stable identity/attribute structure;
-3. supply/service options are callable through an open action rail;
-4. a third-party router is natively attributed/paid;
-5. matching and routing can occur without becoming the provider or manually selling;
-6. the intent surface and monetizable rail are not already integrated by one incumbent;
-7. repeated routing compounds.
+1. high-intent economic intent appears naturally inside an Agent/machine workflow;
+2. a narrow cross-source compatibility, eligibility, allocation or route decision is required;
+3. the decision can be executed by a reusable machine capability;
+4. discovery/invocation is repeatable without founder-by-founder acquisition;
+5. the capability can be paid natively per use/call/result;
+6. the output changes a real economic action;
+7. repeated calls compound routing evidence and capability.
 
 If none exists, retain zero.
 
 ## Current Phase
 
-`SCAN_009_SELF_REVEALING_INTENT_X_NATIVE_TAKE_RATE_RAIL`
+`SCAN_010_AGENT_NATIVE_INTENT_X_PAID_MACHINE_ROUTING_FUNCTION`
 
-## Scan 008 result
+## Current Findings
 
-`ATTRACTION_SCAN_008` completed with:
+Scan 009 produced zero retained formations but established a new executable frontier:
+- native third-party payout usually compensates a distinct contribution role;
+- recurring acquisition, sales and delivery remain founder-labor failures;
+- reusable machine capability can be a non-human paid contribution role;
+- Alipay AI Pay / SkillPay / Machine Pay prove current machine-native payment rails;
+- intent-driven automatic discovery/invocation of a new independent routing capability remains unproven.
+
+## Scan 009 result
+
+`ATTRACTION_SCAN_009` completed with:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
-Positive mechanism findings:
-- native/open booking and transaction rails exist;
-- native affiliate/reseller/commission attribution rails exist;
-- self-revealing RFQ demand exists.
+Key findings:
+- ZBJ/ESN proves role-based automated settlement, but paid roles collapse to
+  acquisition, sales or delivery;
+- open referral/bounty systems prove outcome attribution, but require recurring
+  candidate/customer search;
+- generic payment split rails solve settlement, not demand/match/routing economics;
+- Baidu AgentBuilder's old commerce-agent route is not a current new-operator entry
+  rail because the live site says creation/workflow entries were expected to go
+  offline on 2026-08-31;
+- Qianwen's current public open-platform page marks Skill access as forthcoming;
+- Alipay AI Pay proves native Agent transaction, Skill/API charging and settlement,
+  but current public evidence does not prove automatic intent-driven discovery of a
+  new independent routing Skill.
 
-But no current China-primary case combined those properties without collapsing into
-marketing, supplier sales or mature incumbent integration.
-
-## Current Findings
-
-Scan 008 established:
+New structural learning:
 
 ```text
-OPEN TRANSACTION RAIL + EXTERNAL SIGNAL != OPPORTUNITY
-NATIVE OPERATOR TAKE-RATE IS REAL
-AFFILIATE RAIL + COLD ACQUISITION = MARKETING
-SELF-REVEALING INTENT WITHOUT ROUTER TAKE-RATE = SUPPLIER SALES
+NATIVE THIRD-PARTY PAYOUT
+→ USUALLY COMPENSATES A DISTINCT CONTRIBUTION ROLE
+
+HUMAN ACQUISITION / SALES / DELIVERY
+→ FAILS CURRENT NON-LABOR TARGET WHEN RECURRING
+
+REUSABLE MACHINE CAPABILITY
+→ CAN BE A PAID ROLE WITHOUT RECURRING FOUNDER LABOR
 ```
-
-Examples of native operator take-rate rails:
-- Fliggy AI travel partner attribution/commission;
-- Elong hotel distribution/booking commission;
-- Alibaba Cloud Marketplace reseller/promotion commission;
-- Taobao/Xianyu/local-life CPS ecosystems.
-
-Strongest self-revealing intent benchmark:
-- Alibaba International RFQ: buyers actively publish demand and APIs expose RFQ
-  search/detail/recommendation/quotation.
-
-But RFQ economics currently bind the responder as supplier/merchant rather than proving
-a native third-party router take-rate.
 
 ## Last Verified Main
 
-`e0e8187a265cfc1a1118445856d76b81e3bb6089`
-— squash merge of PR #280, `Make callable action rails a hard attraction gate`.
+`9e94533610dbcda9d651d2265f1d19e419bc79b7`
+— squash merge of PR #281, `Persist zero-retention Attraction Scan 008`.
 
-Verified:
-- PR #280 head CI #839: success;
-- main CI #840 / run `35492080808`: success;
-- research-mission-plan #8 / run `35492080833`: success;
-- artifact `research-mission-plan-state` id `10599044082`;
-- artifact digest `sha256:10ef01b8164b6dccde0703781d224a3c47dff12b4db6641240c782047c300d7d`.
+Verified pre-merge:
+- PR #281 head `dd8bc43a05336fa57d75f24efa5e3c351332a79f`;
+- CI run #841 / `35492405427`: success.
+
+No separate post-merge main CI claim is made here unless later observed.
 
 ## Active Issue
 
@@ -113,49 +119,58 @@ Verified:
 
 ## Active Branch
 
-`feature/attraction-scan-008-zero-retention`
+`feature/attraction-scan-009-zero-retention`
 
 ## Active PR
 
-Not opened yet.
+#282 — `Persist zero-retention Attraction Scan 009`.
 
 ## CI
 
-Pending for Scan 008 persistence branch.
+PR #282 CI #843 / run `35495434673`: failed only on repository recovery-contract headings.
+Required headings missing from TASK_STATE.md:
+- `## Current Unique Commercial Research Goal`
+- `## Current Findings`
+
+This checkpoint fixes those contract failures; rerun/next CI must be verified before merge.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `docs/research/ATTRACTION_SCAN_008_2026-09-20.md`
-- `data/research_runs/attraction_scan_008.json`
+- `docs/research/ATTRACTION_SCAN_009_2026-09-20.md`
+- `data/research_runs/attraction_scan_009.json`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `data/research_missions/attraction_field_broad_reality.json`
 - `docs/FORMAL_TRUTH.md`
+- `TASK_STATE.md`
 
 ## Completed
 
-- executed Scan 008 from open/native transaction rails outward;
-- killed travel disruption → booking because current products already integrate the signal;
-- killed event/weather → hotel action as mature revenue management;
-- killed compute load → spot allocation as provider-integrated;
-- killed judicial auction signal → bidding as analytics/capital risk;
-- killed ecommerce trend → procurement as platform-integrated;
-- confirmed native third-party commission/attribution rails in travel/cloud/affiliate ecosystems;
-- confirmed large self-revealing RFQ demand and API access;
-- refused to equate affiliate monetization with routing control;
+- merged PR #281 after successful head CI;
+- executed Scan 009 across service-marketplace role splits, referral/bounty systems,
+  payment/settlement rails and current Agent ecosystems;
+- rejected native payouts that require recurring founder acquisition/search/sales or
+  delivery;
+- refused to treat generic split-payment infrastructure as routing economics;
+- rejected Baidu's old AgentBuilder commerce path as a current new-operator route
+  because current creation entry is not proven open;
+- refused to promote Qianwen Skill before the public entry is open;
+- confirmed Alipay AI Pay / SkillPay / Machine Pay as current machine-native
+  monetization infrastructure;
 - retained zero high-attraction beacons;
-- retargeted Scan 009 to self-revealing intent × native take-rate.
+- retargeted Scan 010 to agent-native intent × paid machine routing function.
 
 ## Blockers
 
 Engineering:
-- Scan 008 persistence branch CI not yet verified.
+- PR #282 CI #843 failed on two missing TASK_STATE recovery-contract headings; fix is being committed and CI must return green before merge.
 
 Research:
-- Scan 009 has not yet executed.
-- no current HIGH_ATTRACTION_BEACON exists.
+- no current HIGH_ATTRACTION_BEACON exists;
+- native intent-driven discovery/invocation of a third-party paid routing capability
+  is not yet proven.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0;
@@ -165,28 +180,29 @@ Commercial:
 
 ## Next Action
 
-Finish PR/CI/merge for Scan 008 persistence, then execute `ATTRACTION_SCAN_009`.
+Verify the TASK_STATE recovery-contract fix in PR #282 CI, merge only after green, then continue `ATTRACTION_SCAN_010`.
 
-Scan 009 discipline:
-1. reopen broad reality; do not inherit travel/cloud/RFQ as favored verticals;
-2. search for self-revealing high-intent demand surfaces;
-3. require machine/rule-resolvable intent;
-4. require an open/native action rail;
-5. require native third-party attribution/take-rate;
-6. reject audience building, SEO/content traffic and cold outreach as the main acquisition engine;
-7. reject cases where the router must become supplier/agent/consultant/delivery provider;
-8. reject mature platform integrations;
-9. apply all attraction hard floors before Pareto;
+Scan 010 discipline:
+1. reopen broad current reality; AI infrastructure is a mechanism, not the ontology;
+2. start from high-intent decisions already occurring inside Agent/machine workflows;
+3. require a real economic action window, not generic information consumption;
+4. find narrow machine-resolvable joins/constraints that materially change action;
+5. require stable skill/API discovery or invocation without founder-by-founder user acquisition;
+6. require native machine payment/settlement;
+7. reject generic content generation and generic "AI tools";
+8. reject recurring consulting, sales, manual research and human delivery;
+9. apply every existing attraction hard floor before Pareto;
 10. retain zero again if necessary.
 
 ## Do Not Repeat
 
-- Do not revive any Scan 001-008 formation.
-- Do not treat affiliate APIs as a business without self-revealing intent.
-- Do not treat RFQ supplier quotation economics as router economics.
-- Do not count cold outreach or content traffic as self-revealing intent capture.
-- Do not build a generic affiliate recommender.
-- Do not lower the threshold to avoid another zero-result scan.
+- Do not revive any Scan 001-009 formation as a candidate.
+- Do not treat settlement technology as opportunity proof.
+- Do not treat referral commission as passive when sourcing must recur manually.
+- Do not treat an announced/future Skill rail as currently callable.
+- Do not treat a closed legacy platform entry as current activation.
+- Do not turn Scan 010 into a generic AI-tool brainstorm.
+- Do not lower the attraction threshold to avoid another zero-result scan.
 
 ## Guardrails
 
@@ -195,9 +211,10 @@ Scan 009 discipline:
 - A_VISIBLE + B_VISIBLE + MATCH_RESOLVABLE remains required.
 - BILATERAL_MOTION remains required.
 - ACTION_GATE_CALLABILITY remains a hard floor.
-- NATIVE_TAKE_RATE != OPPORTUNITY.
-- AFFILIATE_RAIL + COLD_ACQUISITION = MARKETING.
-- SELF_REVEALING_INTENT + NATIVE_TAKE_RATE is a preferred search topology, not proof.
+- MACHINE_PAYABLE != AUTOMATICALLY_DISCOVERABLE.
+- PAID_SKILL != HIGH_ATTRACTION_ROUTE.
+- SETTLEMENT_RAIL != ROUTING_CONTROL.
+- REUSABLE_MACHINE_ROLE may satisfy non-labor economics only when real action changes.
 - Hard attraction floor precedes Pareto.
 - UNKNOWN != PASS.
 - Infer broadly; retain conservatively.

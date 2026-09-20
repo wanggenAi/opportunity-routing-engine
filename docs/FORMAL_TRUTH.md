@@ -1,6 +1,6 @@
 # Formal Truth
 
-Last updated: 2026-09-19
+Last updated: 2026-09-20
 
 This document is the current commercial source of truth. Historical rankings and launch designs remain evidence, but they do not override the current truth stated here.
 
@@ -1112,48 +1112,73 @@ Participant attraction requires evidence. Operator attraction allocates founder 
 
 ## 19. Current next action — CANONICAL
 
-`ATTRACTION_SCAN_008` completed under the independent-signal × open-transaction-rail search.
+`ATTRACTION_SCAN_009` completed under the self-revealing-intent × native-take-rate search.
 
 Result:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-- NEXT = `ATTRACTION_SCAN_009`
+- NEXT = `ATTRACTION_SCAN_010`
 
-Scan 008 established three distinct truths:
+Scan 009 established:
 
 ```text
-OPEN TRANSACTION RAIL + EXTERNAL SIGNAL != OPPORTUNITY
-NATIVE COMMISSION + COLD ACQUISITION = MARKETING, NOT ROUTING CONTROL
-SELF-REVEALING INTENT WITHOUT ROUTER TAKE-RATE = SUPPLIER / SALES WORK
+NATIVE THIRD-PARTY PAYOUT USUALLY PAYS FOR A DISTINCT CONTRIBUTION ROLE
+SETTLEMENT INFRASTRUCTURE != ROUTING ECONOMICS
+REFERRAL BOUNTY + RECURRING SEARCH = ACQUISITION LABOR
+CLOSED / FUTURE ENTRY RAIL != CURRENT ACTION RAIL
+MACHINE-CALLABLE CAPABILITY CAN ITSELF BE A PAID NON-HUMAN ROLE
 ```
 
-Positive mechanism evidence now exists for:
-- open/native booking and transaction rails;
-- native third-party commission / reseller / attribution rails;
-- self-revealing high-intent demand such as RFQ markets.
+Current evidence across service marketplaces, referral systems, payment rails and
+Agent ecosystems shows that third-party payout is normally attached to one of:
+- customer/opportunity acquisition;
+- sales/closing;
+- product/supply ownership;
+- human delivery;
+- a reusable digital capability.
 
-But current evidence did not establish all three properties in one China-primary route
-without turning the operator into a supplier, audience builder, sales team or delivery
-node.
+The first four usually fail the current operator non-labor target when they recur per
+transaction. The fifth is structurally different because a machine asset can execute
+repeatedly without recurring founder labor.
 
-Run `ATTRACTION_SCAN_009` from broad current reality with working search label:
+Fresh 2026 infrastructure evidence:
+- Alipay AI Pay now exposes native Skill/API/Agent payment and settlement;
+- SkillPay can sell a Skill across supported Agent environments and settle proceeds
+  directly to the developer;
+- Machine Pay supports metered machine/API charging;
+- Agent Pay connects Agent-side purchase intent to merchant-side order/payment rails.
 
-`SELF-REVEALING INTENT × NATIVE TAKE-RATE RAIL`.
+These mechanisms do not by themselves prove a high-attraction business. In
+particular, current public evidence does not yet prove that a new independent routing
+Skill is automatically discovered/invoked from user intent without audience building.
+
+Run `ATTRACTION_SCAN_010` from broad current reality with working label:
+
+`AGENT-NATIVE INTENT × PAID MACHINE ROUTING FUNCTION`.
 
 Prefer formations where:
-1. buyers/users voluntarily emit high-intent demand before cold outreach;
-2. the intent is structured enough for machine/rule matching;
-3. a separate catalog/service rail can complete the action under stable rules;
-4. the rail natively attributes/settles value to a third-party router/referrer/reseller;
-5. the operator does not become supplier, negotiator, inventory holder or delivery
-   provider;
-6. the incumbent has not already integrated the intent surface;
-7. repeated routing compounds through intent/match/outcome data.
+1. a user naturally emits a high-intent economic decision inside an Agent or machine
+   workflow;
+2. the decision requires a narrow high-value cross-source join, compatibility,
+   eligibility, allocation or route-selection function;
+3. the function can be executed by a reusable machine capability rather than
+   recurring human expertise;
+4. the Agent ecosystem can discover/invoke that capability under stable rules;
+5. the capability has native per-use/per-call/per-result settlement;
+6. the operator does not manually acquire each user and does not own inventory or
+   human delivery;
+7. the output changes a real economic action rather than producing generic content;
+8. repeated calls improve the routing asset through structured evidence/outcomes.
 
-Retain zero again if the mechanism reduces to ordinary affiliate marketing, supplier
-quotation work, SEO/content acquisition or manual sales.
+This is not a generic "build an AI tool" mission. The paid machine capability must
+perform a real economic routing function between independently existing states,
+resources or transaction rails.
+
+Retain zero again if discovery still requires audience building, the paid object is
+generic content generation, recurring consulting remains necessary, or the output
+does not alter a real action.
 
 ### 19A. Value-chain leverage truth — LOCKED
 
