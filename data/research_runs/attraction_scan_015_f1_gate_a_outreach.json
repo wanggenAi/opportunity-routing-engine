@@ -1,0 +1,57 @@
+{
+  "schema_version": "gate-a-outreach-execution.v1",
+  "formation_id": "ATTRACTION_SCAN_015-F1",
+  "as_of_date": "2026-09-20",
+  "status": "WAVE1_DRAFT_READY_NOT_SENT",
+  "gate_a": "PARTIAL_PASS_RIGHTS_UNKNOWN",
+  "public_rights_search": "CEILING_REACHED",
+  "wave1": {
+    "decisive_questions": [
+      "MULTI_RAIL_COMPARISON_PERMISSION",
+      "NON_IDENTIFYING_OUTCOME_RETENTION_AND_FUTURE_ROUTING_USE",
+      "COMPETITOR_BENCHMARK_DERIVED_MODEL_RESTRICTIONS_OR_DISCLOSURE_PATH"
+    ],
+    "targets": {
+      "AIHUISHOU": {
+        "official_contact": "dennis.xie@atrenew.com",
+        "contact_source": "https://next-neon.aihuishou.com/",
+        "draft_ready": true,
+        "sent": false,
+        "provider_response": false,
+        "rights_state": "UNKNOWN"
+      },
+      "XIAOZHI_BEARHOME": {
+        "official_contact": "service@bearhome.cn",
+        "official_phone": "400-155-5151",
+        "contact_source": "https://www.bearhome.cn/",
+        "draft_ready": true,
+        "sent": false,
+        "provider_response": false,
+        "rights_state": "UNKNOWN"
+      },
+      "SUHUANJI": {
+        "contact_source": "https://open.suhuanji.com/",
+        "official_contact": "UNRESOLVED",
+        "draft_ready": false,
+        "sent": false,
+        "provider_response": false,
+        "rights_state": "UNKNOWN"
+      }
+    }
+  },
+  "wave2_full_questionnaire": "docs/research/ATTRACTION_SCAN_015_F1_RIGHTS_INQUIRY.md",
+  "response_rubric": "docs/research/ATTRACTION_SCAN_015_F1_RIGHTS_RESPONSE_RUBRIC.md",
+  "evidence_rules": {
+    "draft_ready_does_not_mean_sent": true,
+    "sent_does_not_mean_permission": true,
+    "vague_commercial_reply_does_not_mean_pass": true,
+    "phone_only_permission_does_not_mean_pass": true,
+    "no_response_does_not_mean_fail": true,
+    "two_compatible_written_rails_required": true
+  },
+  "next_action": "USER_AUTHORIZED_SEND_WAVE1_TO_AI-HUISHOU_AND_XIAOZHI_BEARHOME",
+  "external_action_requires_explicit_user_authorization": true,
+  "rights_confirmed_rails": 0,
+  "provider_responses": 0,
+  "first_external_value_flow": "NOT_PROVEN"
+}
