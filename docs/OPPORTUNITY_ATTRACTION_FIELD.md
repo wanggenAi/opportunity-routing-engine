@@ -46,7 +46,9 @@ Search first for combinations such as:
 - A-side and B-side moving units already leaving dense public, platform, API,
   registry, transaction, community or other scalable digital traces;
 - a match relation that can be resolved from accessible identity/rule evidence rather
-  than recurring bespoke expert interpretation.
+  than recurring bespoke expert interpretation;
+- a stable action / transaction / reservation / transfer / settlement rail that can
+  be repeatedly called under known rules instead of case-by-case permission.
 
 Canonical pre-formation beacon: `src/attraction_discovery.py`.
 
@@ -289,7 +291,62 @@ Canonical executable dimensions:
 
 All three are hard-floor dimensions in `src/attraction_discovery.py`.
 
-## 4B. Multiple strong signals use a Pareto frontier
+## 4B. Callable action gate is a hard attraction gate
+
+Seeing both sides and resolving the match is still insufficient.
+
+After the system says "A should connect to B", ask:
+
+> **What exact repeatable action changes the economic state?**
+
+Examples of strong action rails:
+- native order / booking / reservation API;
+- standardized marketplace checkout;
+- self-service transfer under stable rules;
+- standard application/acceptance workflow;
+- participant-callable settlement;
+- contractually predictable transaction rail.
+
+Examples of weak action rails:
+- "ask customer service whether this one may be transferred";
+- manual organizer approval for every transaction;
+- venue-by-venue contract interpretation;
+- regulator/exchange/platform discretion that the operator cannot invoke;
+- offline negotiation before the asset/right can legally move;
+- a "match" that ends only in a phone call or sales lead.
+
+Score guidance for `action_gate_callability`:
+
+```text
+0 = no lawful/usable action rail observed
+1 = fragmented / case-by-case / incumbent-discretionary permission
+2 = stable repeatable rules with self-service or standard onboarding
+3 = native API / transaction / booking / transfer / settlement rail
+```
+
+Hard rules:
+
+```text
+VISIBLE MATCH WITHOUT CALLABLE ACTION
+= INSIGHT, NOT CURRENT HIGH ATTRACTION
+
+CASE-BY-CASE PERMISSION
+!=
+TRANSACTION RAIL
+
+NATIVE TRANSACTIONABILITY
+>
+MANUAL PERMISSION ARCHAEOLOGY
+```
+
+A high score does not imply an opportunity: mature hotel, air-cargo and component
+markets can have excellent APIs while incumbents already own the economically useful
+join. Callability is necessary, not sufficient.
+
+Canonical executable dimension:
+`action_gate_callability` in `src/attraction_discovery.py`.
+
+## 4C. Multiple strong signals use a Pareto frontier
 
 Once several signals have already passed the hard `HIGH_ATTRACTION_BEACON` floor,
 do not collapse the critical attraction dimensions into one weighted score.
@@ -310,7 +367,8 @@ Critical objectives are currently:
 - operator control;
 - A-side discoverability;
 - B-side discoverability;
-- match resolvability.
+- match resolvability;
+- action-gate callability.
 
 The first deep-discovery attention set is the non-dominated frontier.
 
@@ -376,6 +434,11 @@ Where do the relevant B events/units continuously become visible while decisions
 MATCH RESOLVABILITY:
 What accessible identifiers/rules let the system decide whether A and B can connect
 without recurring expert interpretation?
+
+ACTION GATE:
+After the match is known, what standardized action actually changes the economic
+state? Is it callable repeatedly under stable rules, or does each case require new
+permission/negotiation?
 ```
 
 Participant attraction must preserve truth states such as `OBSERVED / INFERRED / EVIDENCED_STRUCTURE`. Operator attraction may be recorded directly as a strategic preference, but it must remain separate from market evidence.
@@ -495,7 +558,8 @@ For current founder attention, prefer formations where:
 - the operator can stay in orchestration rather than recurring execution;
 - successful routing can compound into data, trust, access, coverage or lower future routing cost;
 - both sides are discoverable from scalable observable traces;
-- the match relation can be resolved without recurring expert search/interpretation.
+- the match relation can be resolved without recurring expert search/interpretation;
+- the economic action/settlement rail is repeatably callable under stable rules.
 
 A logically valid but low-attraction formation may remain in the ledger. It should not consume scarce founder attention merely because it can be defended analytically.
 
