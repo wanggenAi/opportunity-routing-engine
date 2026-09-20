@@ -4,114 +4,108 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Run `ATTRACTION_SCAN_008` from a clean slate.
+Run `ATTRACTION_SCAN_009` from a clean slate.
 
 Working search target:
 
-`INDEPENDENT SIGNAL × OPEN TRANSACTION RAIL`
+`SELF-REVEALING INTENT × NATIVE TAKE-RATE RAIL`
 
-Do not continue any Scan 001-007 formation.
+Do not continue any Scan 001-008 formation.
 
 ## Goal
 
-Find a genuinely high-attraction route where an independent external state/event signal
-can drive an already-open transaction rail before the rail owner has productized that
-signal.
+Find a genuinely high-attraction route where the demand side exposes itself before
+cold outreach and the transaction rail natively rewards the router.
 
 Preferred shape:
 
 ```text
-A/B ALREADY VISIBLE + MOVING
+BUYER / USER VOLUNTARILY EMITS HIGH-INTENT DEMAND
 +
-EXTERNAL SIGNAL IS CONTINUOUSLY OBSERVABLE
+INTENT IS MACHINE/RULE MATCHABLE
 +
-MATCH IS RULE-RESOLVABLE
+SUPPLY / SERVICE CATALOG IS DIRECTLY TRANSACTABLE
 +
-TRANSACTION / BOOKING / TRANSFER / SETTLEMENT RAIL IS NATIVE + REPEATABLE
+ACTION RAIL IS NATIVE + REPEATABLE
 +
-EXTERNAL SIGNAL CHANGES WHAT / WHEN / HOW TO TRANSACT
+THIRD-PARTY ROUTER HAS NATIVE ATTRIBUTION / TAKE-RATE
 +
-LARGE VALUE JUMP
+NO INVENTORY / DELIVERY / SUPPLIER EXECUTION / COLD SALES
 +
-RAIL OWNER HAS NOT ALREADY INTEGRATED THE SIGNAL
+MATCH CREATES LARGE, LEGIBLE VALUE
 +
-OPERATOR CAN CAPTURE ROUTING VALUE WITHOUT MANUAL PERMISSION / CONSULTING / INVENTORY
+REPEATED OUTCOMES IMPROVE ROUTING
 → HIGH-ATTRACTION BEACON
 ```
 
 ## Current Unique Commercial Research Goal
 
 Find one China-primary structure where:
-1. the economic action rail already exists and is callable under stable rules;
-2. a separate data/event world exposes a useful signal;
-3. a stable join links the signal to the action object;
-4. acting on the signal materially changes economics, timing, allocation or access;
-5. incumbents have not already integrated the signal;
-6. the operator can capture value without recurring search/sales/delivery.
+1. high-intent demand continuously self-reveals;
+2. the intent has a stable identity/attribute structure;
+3. supply/service options are callable through an open action rail;
+4. a third-party router is natively attributed/paid;
+5. matching and routing can occur without becoming the provider or manually selling;
+6. the intent surface and monetizable rail are not already integrated by one incumbent;
+7. repeated routing compounds.
 
 If none exists, retain zero.
 
 ## Current Phase
 
-`SCAN_008_INDEPENDENT_SIGNAL_X_OPEN_TRANSACTION_RAIL`
+`SCAN_009_SELF_REVEALING_INTENT_X_NATIVE_TAKE_RATE_RAIL`
 
-## Scan 007 result
+## Scan 008 result
 
-`ATTRACTION_SCAN_007` completed with:
+`ATTRACTION_SCAN_008` completed with:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
-Directions tested included:
-- electronic component lifecycle/EOL signal × live purchasable inventory;
-- transferable event registrations;
-- exhibition booth rights;
-- cloud reserved commitments;
-- B2B MOQ/demand aggregation.
+Positive mechanism findings:
+- native/open booking and transaction rails exist;
+- native affiliate/reseller/commission attribution rails exist;
+- self-revealing RFQ demand exists.
+
+But no current China-primary case combined those properties without collapsing into
+marketing, supplier sales or mature incumbent integration.
 
 ## Current Findings
 
-Scan 007 established:
+Scan 008 established:
 
 ```text
-CALLABLE ACTION GATE IS NECESSARY
-CASE-BY-CASE PERMISSION != TRANSACTION RAIL
-VISIBLE MATCH + MANUAL APPROVAL != HIGH ATTRACTION
-NATIVE TRANSACTIONABILITY > PERMISSION ARCHAEOLOGY
+OPEN TRANSACTION RAIL + EXTERNAL SIGNAL != OPPORTUNITY
+NATIVE OPERATOR TAKE-RATE IS REAL
+AFFILIATE RAIL + COLD ACQUISITION = MARKETING
+SELF-REVEALING INTENT WITHOUT ROUTER TAKE-RATE = SUPPLIER SALES
 ```
 
-Positive actionability benchmark:
-- native quote / booking / cancel / status APIs such as modern cargo booking rails.
+Examples of native operator take-rate rails:
+- Fliggy AI travel partner attribution/commission;
+- Elong hotel distribution/booking commission;
+- Alibaba Cloud Marketplace reseller/promotion commission;
+- Taobao/Xianyu/local-life CPS ecosystems.
 
-But:
-- a mature action rail is not itself an opportunity;
-- electronic-component lifecycle/procurement joins are already deeply productized by
-  incumbent BOM intelligence platforms;
-- event/booking transferability is often category- or organizer-specific;
-- exhibition rights commonly prohibit transfer without written permission;
-- existing marketplaces already own many obvious aggregation/secondary-market joins.
+Strongest self-revealing intent benchmark:
+- Alibaba International RFQ: buyers actively publish demand and APIs expose RFQ
+  search/detail/recommendation/quotation.
 
-New executable hard floor:
-`action_gate_callability`.
-
-Score meaning:
-- 0 = no lawful/usable action rail observed;
-- 1 = fragmented, case-by-case or incumbent-discretionary permission;
-- 2 = stable repeatable rules with self-service or standard onboarding;
-- 3 = native API / transaction / booking / transfer / settlement rail.
+But RFQ economics currently bind the responder as supplier/merchant rather than proving
+a native third-party router take-rate.
 
 ## Last Verified Main
 
-`c8c9e21d449d9c8fab08343540da694359a0f543`
-— squash merge of PR #279, `Persist zero-retention Attraction Scan 006`.
+`e0e8187a265cfc1a1118445856d76b81e3bb6089`
+— squash merge of PR #280, `Make callable action rails a hard attraction gate`.
 
 Verified:
-- PR #279 head CI #837: success;
-- main CI #838 / run `35489854881`: success;
-- research-mission-plan #7 / run `35489854878`: success;
-- artifact `research-mission-plan-state` id `10597943915`, digest
-  `sha256:3612fcaf5e0409ee43ced90d2224aaa4304fddda9623af419c3741e74f844245`.
+- PR #280 head CI #839: success;
+- main CI #840 / run `35492080808`: success;
+- research-mission-plan #8 / run `35492080833`: success;
+- artifact `research-mission-plan-state` id `10599044082`;
+- artifact digest `sha256:10ef01b8164b6dccde0703781d224a3c47dff12b4db6641240c782047c300d7d`.
 
 ## Active Issue
 
@@ -119,7 +113,7 @@ Verified:
 
 ## Active Branch
 
-`feature/action-gate-hard-floor`
+`feature/attraction-scan-008-zero-retention`
 
 ## Active PR
 
@@ -127,46 +121,40 @@ Not opened yet.
 
 ## CI
 
-Pending for the Scan 007 / action-gate branch.
+Pending for Scan 008 persistence branch.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `docs/research/ATTRACTION_SCAN_007_2026-09-20.md`
-- `data/research_runs/attraction_scan_007.json`
+- `docs/research/ATTRACTION_SCAN_008_2026-09-20.md`
+- `data/research_runs/attraction_scan_008.json`
 
-Changed:
-- `src/attraction_discovery.py`
-- `src/attraction_frontier.py`
-- `src/research_control_plane.py`
-- `tests/test_attraction_discovery.py`
-- `tests/test_attraction_frontier.py`
-- `tests/test_research_control_plane.py`
-- `docs/OPPORTUNITY_ATTRACTION_FIELD.md`
-- `AGENTS.md`
-- `docs/FORMAL_TRUTH.md`
+Updated:
 - `data/commercial_reset_state.json`
 - `data/research_missions/attraction_field_broad_reality.json`
+- `docs/FORMAL_TRUTH.md`
 
 ## Completed
 
-- executed Scan 007 across native API/action rails and manually permissioned transfer surfaces;
-- used mature booking/action APIs as positive actionability benchmarks, not opportunities;
-- killed electronic-component lifecycle × inventory because incumbents already integrate the useful join;
-- killed generic event-registration resale because transfer rules are fragmented across organizers;
-- killed exhibition booth resale because transfer is commonly restricted;
-- killed cloud commitment resale as provider-owned/eligibility-bound;
-- killed generic MOQ aggregation as already platformized;
-- added action-gate callability to the attraction hard floor and Pareto dimensions;
-- retargeted Scan 008 toward independent signals driving already-open transaction rails.
+- executed Scan 008 from open/native transaction rails outward;
+- killed travel disruption → booking because current products already integrate the signal;
+- killed event/weather → hotel action as mature revenue management;
+- killed compute load → spot allocation as provider-integrated;
+- killed judicial auction signal → bidding as analytics/capital risk;
+- killed ecommerce trend → procurement as platform-integrated;
+- confirmed native third-party commission/attribution rails in travel/cloud/affiliate ecosystems;
+- confirmed large self-revealing RFQ demand and API access;
+- refused to equate affiliate monetization with routing control;
+- retained zero high-attraction beacons;
+- retargeted Scan 009 to self-revealing intent × native take-rate.
 
 ## Blockers
 
 Engineering:
-- branch CI not yet verified.
+- Scan 008 persistence branch CI not yet verified.
 
 Research:
-- Scan 008 has not yet executed.
+- Scan 009 has not yet executed.
 - no current HIGH_ATTRACTION_BEACON exists.
 
 Commercial:
@@ -177,28 +165,28 @@ Commercial:
 
 ## Next Action
 
-Finish PR/CI/merge for the Scan 007 action-gate correction, then execute
-`ATTRACTION_SCAN_008`.
+Finish PR/CI/merge for Scan 008 persistence, then execute `ATTRACTION_SCAN_009`.
 
-Scan 008 discipline:
-1. reopen broad reality; do not inherit components/events/cloud as favored verticals;
-2. start from open/native action rails;
-3. search for independent external signals the rail owner does not already use;
-4. require stable join keys and bilateral motion;
-5. require the signal to change a real transaction, not merely produce an alert;
-6. reject mature integrations;
-7. reject manual permission, consulting, inventory ownership and recurring cold sales;
-8. apply all attraction hard floors before Pareto;
-9. retain zero again if necessary.
+Scan 009 discipline:
+1. reopen broad reality; do not inherit travel/cloud/RFQ as favored verticals;
+2. search for self-revealing high-intent demand surfaces;
+3. require machine/rule-resolvable intent;
+4. require an open/native action rail;
+5. require native third-party attribution/take-rate;
+6. reject audience building, SEO/content traffic and cold outreach as the main acquisition engine;
+7. reject cases where the router must become supplier/agent/consultant/delivery provider;
+8. reject mature platform integrations;
+9. apply all attraction hard floors before Pareto;
+10. retain zero again if necessary.
 
 ## Do Not Repeat
 
-- Do not revive any Scan 001-007 formation.
-- Do not treat API availability as opportunity proof.
-- Do not call organizer-by-organizer permission a transaction rail.
-- Do not build a secondary market where underlying rights are usually non-transferable.
-- Do not rediscover mature BOM/lifecycle intelligence.
-- Do not lower the attraction threshold to avoid another zero-result scan.
+- Do not revive any Scan 001-008 formation.
+- Do not treat affiliate APIs as a business without self-revealing intent.
+- Do not treat RFQ supplier quotation economics as router economics.
+- Do not count cold outreach or content traffic as self-revealing intent capture.
+- Do not build a generic affiliate recommender.
+- Do not lower the threshold to avoid another zero-result scan.
 
 ## Guardrails
 
@@ -206,9 +194,10 @@ Scan 008 discipline:
 - Attraction first for attention; evidence first for truth.
 - A_VISIBLE + B_VISIBLE + MATCH_RESOLVABLE remains required.
 - BILATERAL_MOTION remains required.
-- ACTION_GATE_CALLABILITY is a hard floor.
-- CASE_BY_CASE_PERMISSION != TRANSACTION_RAIL.
-- MATURE_OPEN_RAIL != OPPORTUNITY.
+- ACTION_GATE_CALLABILITY remains a hard floor.
+- NATIVE_TAKE_RATE != OPPORTUNITY.
+- AFFILIATE_RAIL + COLD_ACQUISITION = MARKETING.
+- SELF_REVEALING_INTENT + NATIVE_TAKE_RATE is a preferred search topology, not proof.
 - Hard attraction floor precedes Pareto.
 - UNKNOWN != PASS.
 - Infer broadly; retain conservatively.

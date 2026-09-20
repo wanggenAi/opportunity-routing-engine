@@ -31,10 +31,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_007",
+  "last_completed_scan_id": "ATTRACTION_SCAN_008",
   "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
-  "next_scan_id": "ATTRACTION_SCAN_008",
-  "current_research_action": "ATTRACTION_SCAN_008_INDEPENDENT_SIGNAL_X_OPEN_TRANSACTION_RAIL",
+  "next_scan_id": "ATTRACTION_SCAN_009",
+  "current_research_action": "ATTRACTION_SCAN_009_SELF_REVEALING_INTENT_X_NATIVE_TAKE_RATE_RAIL",
   "current_validation_state": {
     "formation_id": null,
     "public_artifact_confirmation": null,
@@ -84,16 +84,21 @@
     "CALLABLE_ACTION_DOES_NOT_IMPLY_CATEGORY_STANDARDIZATION",
     "CASE_BY_CASE_PERMISSION_IS_NOT_A_TRANSACTION_RAIL",
     "NATIVE_TRANSACTIONABILITY_BEATS_PERMISSION_ARCHAEOLOGY",
-    "MATURE_ACTION_API_PLUS_MATURE_HIDDEN_JOIN_IS_NOT_AN_OPPORTUNITY"
+    "MATURE_ACTION_API_PLUS_MATURE_HIDDEN_JOIN_IS_NOT_AN_OPPORTUNITY",
+    "OPEN_TRANSACTION_RAIL_PLUS_EXTERNAL_SIGNAL_DOES_NOT_IMPLY_OPPORTUNITY",
+    "NATIVE_OPERATOR_TAKE_RATE_IS_STRONGER_THAN_GENERIC_MONETIZATION_THEORY",
+    "AFFILIATE_RAIL_PLUS_COLD_ACQUISITION_IS_MARKETING_NOT_ROUTING_CONTROL",
+    "SELF_REVEALING_INTENT_WITHOUT_ROUTER_TAKE_RATE_COLLAPSES_TO_SUPPLIER_SALES",
+    "PREFER_SELF_REVEALING_INTENT_X_NATIVE_TAKE_RATE_RAIL"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
-    "Scans 004-006 remain resolved/demoted under current attraction truth.",
-    "ATTRACTION_SCAN_007 completed with zero high-attraction beacons and zero retained formations.",
-    "Scan 007 established action-gate callability as a non-compensatory hard attraction dimension.",
-    "A visible resolvable match is not enough when economic execution requires category-fragmented or case-by-case permission.",
-    "Native/self-service/API transaction rails are positive actionability benchmarks, but mature rails do not create an opportunity when incumbents already own the useful signal/join.",
-    "Next search target is an independent external signal that can drive an already-open transaction rail before the rail owner has productized the signal.",
+    "Scans 004-007 remain resolved/demoted under current attraction truth.",
+    "ATTRACTION_SCAN_008 completed with zero high-attraction beacons and zero retained formations.",
+    "Scan 008 confirmed that open transaction rails and native third-party commission/attribution rails exist in travel, cloud marketplace and affiliate ecosystems.",
+    "Native commission is not enough when the router must manufacture traffic, cold-acquire users or become the supplier.",
+    "Alibaba International RFQ confirms large self-revealing high-intent demand and API access, but current evidence proves supplier quotation economics rather than native third-party router take-rate.",
+    "Next search target is self-revealing high-intent demand combined with native third-party attribution/take-rate and an open action rail.",
     "FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN."
   ]
 }
