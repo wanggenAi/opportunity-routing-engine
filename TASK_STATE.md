@@ -2,6 +2,8 @@
 
 Operational handoff only. GitHub live state wins if anything below conflicts with repository facts.
 
+This checkpoint records verified repository/control-plane state only; it does not promote any commercial truth.
+
 ## Current Mission
 
 Run `ATTRACTION_SCAN_004` under the corrected **ATTRACTION-FIRST** discovery order.
