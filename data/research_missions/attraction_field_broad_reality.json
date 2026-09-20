@@ -101,7 +101,7 @@
     },
     {
       "seed_id": "decision-window-open",
-      "text": "双方正在决策 且匹配后可以直接申请 预订 交易 下单 分配 转让 结算 而不是只能生成线索",
+      "text": "外部状态变化发生后 决策窗口仍开放 且参与者可在标准规则下立即下单 预订 交易 申请 转让 结算",
       "language": "zh-CN",
       "target_primitives": [
         "ACTOR",
@@ -145,7 +145,7 @@
     },
     {
       "seed_id": "dense-digital-exhaust-bilateral",
-      "text": "两个独立数据世界持续公开结构化信号 且 join 后存在参与者或运营者可调用的交易 分配 结算 行动入口",
+      "text": "独立外部事件或数据持续公开 同时另一系统已有可直接下单 预订 交易 申请 结算的开放原生轨道 但两者尚未被连接",
       "language": "zh-CN",
       "target_primitives": [
         "ACTOR",
@@ -221,7 +221,7 @@
     },
     {
       "seed_id": "platform-leakage-offplatform",
-      "text": "平台内发现 平台外成交 私域迁移 绕平台 联系 说明标准通道未承载真实价值流",
+      "text": "原交易平台有开放行动轨道 但关键外部信号来自另一数据世界 平台尚未利用该信号驱动选择 时机 或路由",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
@@ -243,7 +243,7 @@
     },
     {
       "seed_id": "repeat-route-compounds",
-      "text": "跨域 join 和行动入口可规则化复用 每次成交沉淀 join key 结果 信誉 规则 让下一次更自动",
+      "text": "独立信号到开放交易轨道的 join 可机器复用 每次真实动作沉淀规则 结果 价格 信誉 让下一次更自动",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
