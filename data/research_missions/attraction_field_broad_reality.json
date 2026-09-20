@@ -23,23 +23,23 @@
   "attention_mode": "ATTRACTION_FIRST",
   "seeds": [
     {
-      "seed_id": "cross-rail-outcome-rights",
-      "text": "交易轨道本身会返回最终结果 但必须核验路由者是否有权跨平台比较并沉淀非身份化结果数据 单个平台不能天然拥有完整跨轨道历史",
+      "seed_id": "broad-reality-no-active-vertical-inheritance",
+      "text": "从当前社会真实变化重新开始 不使用任何正在验证的候选 行业 资产类型 或既有结论作为下一轮搜索先验",
       "language": "zh-CN",
       "target_primitives": [
-        "RESOURCE",
-        "CONSTRAINT",
-        "FLOW",
-        "OUTCOME"
+        "ACTOR",
+        "STATE",
+        "CHANGE",
+        "BEHAVIOR"
       ]
     },
     {
-      "seed_id": "realized-payout-not-display-quote",
-      "text": "用户正在出售闲置数码设备 多个回收轨道都有公开估价 但真正经济结果要到质检后才出现 优先寻找预估价到最终到账价 接受拒绝 退回 时效的跨轨道历史",
+      "seed_id": "policy-opens-new-choice-set",
+      "text": "政策 制度 平台规则 或基础设施变化 将过去固定 不可选 的路径突然变成多个合法可选动作 优先寻找决策窗口已打开且真实执行结果可回流的路由机会",
       "language": "zh-CN",
       "target_primitives": [
-        "STATE",
-        "BEHAVIOR",
+        "CHANGE",
+        "CONSTRAINT",
         "FLOW",
         "OUTCOME"
       ]
@@ -321,5 +321,11 @@
     "AUTHORIZED_API",
     "AUTHORIZED_EXPORT",
     "PUBLIC_MANUAL"
-  ]
+  ],
+  "discovery_concurrency": {
+    "validation_wait_does_not_block_discovery": true,
+    "active_formations_must_not_seed_new_broad_scan": true,
+    "active_formation_validation_queue_is_separate": true,
+    "next_scan_must_restart_from_broad_current_reality": true
+  }
 }
