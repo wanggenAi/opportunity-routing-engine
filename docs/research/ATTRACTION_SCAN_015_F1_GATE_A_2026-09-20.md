@@ -252,3 +252,52 @@ Prepare/send the same concise cooperation-rights inquiry to:
 Until two written confirmations exist:
 
 `GATE_A = NOT PASSED`.
+
+
+## Additional activation constraints confirmed
+
+Public partner onboarding now adds two concrete setup requirements:
+
+### Xiaozhi / Bearhome
+
+The current Open Platform documentation says production access requires merchant
+registration and enterprise qualification, including business-license and legal-person
+identity materials. Individual developers are not currently supported for API access.
+
+Source:
+- https://www.bearhome.cn/open-platform/recycle
+
+Truth:
+`ENTERPRISE_ENTITY_REQUIRED_FOR_PRODUCTION_API = PROVEN`.
+
+### Aihuishou
+
+The current Open Platform FAQ states that channel commission / old-device settlement
+is monthly and the channel must issue a VAT invoice.
+
+Source:
+- https://next-neon.aihuishou.com/
+
+Truth:
+`CHANNEL_INVOICING_CAPABILITY_REQUIRED_FOR_SETTLEMENT = PROVEN`.
+
+These are bounded one-time/administrative activation costs, not recurring transaction
+labor. They do not kill F1 by themselves, but they must be included in activation
+friction and cannot be treated as zero-cost API access.
+
+## Outreach readiness
+
+The canonical written-rights inquiry is complete in:
+
+`docs/research/ATTRACTION_SCAN_015_F1_RIGHTS_INQUIRY.md`
+
+Current verified public contacts:
+- Aihuishou channel cooperation: `dennis.xie@atrenew.com`
+- Bearhome/Xiaozhi business cooperation: `service@bearhome.cn`, 400-155-5151
+
+The inquiry has been prepared for review but no external message is treated as sent or
+as evidence until an actual provider response exists.
+
+Gate A remains:
+
+`PARTIAL_PASS_RIGHTS_UNKNOWN`.

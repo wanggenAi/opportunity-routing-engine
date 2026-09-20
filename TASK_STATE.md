@@ -106,10 +106,10 @@ Xiaozhi/Bearhome:
 
 ## Last Verified Main
 
-`d6d6a8fcf8f5389d5e222932c54e4c16c361d477`
-— squash merge of PR #289, `Checkpoint Scan 015 F1 Gate A rights unknown`.
+`3e85467758c6fa9b94d06308ca9b64792f01c1ab`
+— squash merge of PR #290, `Sync Gate A recovery checkpoint`.
 
-PR #289 head CI #860 passed before merge.
+PR #290 head CI #862 passed before merge.
 
 ## Active Issue
 
@@ -117,16 +117,17 @@ PR #289 head CI #860 passed before merge.
 
 ## Active Branch
 
-None. Current canonical state is on `main`.
+`feature/scan015-f1-gate-a-outreach-ready`
 
 ## Active PR
 
-None. PR #289 is merged.
+Not opened yet for the outreach-readiness checkpoint.
 
 ## CI
 
 PR #288 / CI #857 succeeded.
 PR #289 / CI #860 succeeded.
+PR #290 / CI #862 succeeded.
 
 ## Latest Artifact / Persisted State
 
@@ -160,13 +161,15 @@ Engineering:
 - Scan 015 PR #288 merged; CI #857 passed.
 - Gate A public-rights checkpoint PR #289 merged to main at `d6d6a8fcf8f5389d5e222932c54e4c16c361d477`; CI #860 passed.
 - No engineering blocker remains for the current research checkpoint.
+- Current outreach-readiness checkpoint PR/CI is not yet complete.
 
 Research:
 1. public docs prove technical post-inspection/payment outcome visibility on at least Suhuanji and Xiaozhi, but cross-rail comparison/retention/derived-model rights remain UNKNOWN;
 2. obtain written confirmation from at least two overlapping 3C rails that anonymous outcome data may be retained and used for future routing;
-3. a deeper neutral-incumbent search must not reveal the exact realized-payout graph;
-4. inbound Agent/Skill discoverability must produce self-revealing high-intent events without recurring founder marketing;
-5. cold-start usefulness before proprietary history is unproven.
+3. production onboarding is not zero-friction: Xiaozhi requires enterprise qualification and Aihuishou channel settlement requires VAT invoicing capability;
+4. a deeper neutral-incumbent search must not reveal the exact realized-payout graph;
+5. inbound Agent/Skill discoverability must produce self-revealing high-intent events without recurring founder marketing;
+6. cold-start usefulness before proprietary history is unproven.
 
 Commercial:
 - F1 is not a commercial candidate;
@@ -179,7 +182,7 @@ Scan 015 PR #288 is merged and green.
 
 Gate A public technical falsification is complete with `PARTIAL_PASS_RIGHTS_UNKNOWN`.
 
-Next, obtain written rights confirmation from at least two rails before Gate B transaction execution.
+Canonical inquiry packet is ready. Next, obtain written rights confirmation from at least two rails before Gate B transaction execution.
 
 The remaining bounded validations are:
 

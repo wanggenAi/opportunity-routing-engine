@@ -50,7 +50,9 @@
     "bilateral_commitment": "NOT_PROVEN",
     "commercial_candidate": false,
     "gate_a": "PARTIAL_PASS_RIGHTS_UNKNOWN",
-    "gate_b": "NOT_RUN"
+    "gate_b": "NOT_RUN",
+    "gate_a_outreach_packet": "READY_NOT_SENT",
+    "enterprise_onboarding_constraint": "PROVEN"
   },
   "required_scan_controls": [
     "BROAD_REALITY",
@@ -153,7 +155,10 @@
     "SUHUANJI_AND_XIAOZHI_PUBLIC_DOCS_PROVE_PARTNER_VISIBLE_POST_INSPECTION_OR_PAYMENT_OUTCOMES",
     "AIHUISHOU_PUBLIC_OPEN_PLATFORM_REQUIRES_COOPERATION_AGREEMENT_BEFORE_CHANNEL_ACCESS",
     "CROSS_PLATFORM_COMPARISON_AND_DERIVED_MODEL_RIGHTS_REMAIN_UNKNOWN_UNTIL_WRITTEN_CONFIRMATION",
-    "PREFER_ANONYMIZED_NON_IDENTIFYING_OUTCOME_ASSET_BUT_CONTRACT_RESTRICTIONS_STILL_APPLY"
+    "PREFER_ANONYMIZED_NON_IDENTIFYING_OUTCOME_ASSET_BUT_CONTRACT_RESTRICTIONS_STILL_APPLY",
+    "XIAOZHI_PRODUCTION_API_REQUIRES_ENTERPRISE_QUALIFICATION",
+    "AIHUISHOU_CHANNEL_SETTLEMENT_REQUIRES_VAT_INVOICE",
+    "PARTNER_ONBOARDING_IS_BOUNDED_ACTIVATION_FRICTION_NOT_ZERO_COST_API_ACCESS"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -175,6 +180,8 @@
     "Current blockers are cross-platform data-use rights and proof of self-revealing Agent/Skill inbound demand without recurring founder acquisition.",
     "F1 is not a commercial candidate; FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.",
     "F1 Gate A public-document pass confirms technical outcome visibility but not cross-rail reuse rights.",
-    "Gate A remains NOT PASSED until at least two overlapping 3C rails give written confirmation on anonymous outcome retention and future routing use."
+    "Gate A remains NOT PASSED until at least two overlapping 3C rails give written confirmation on anonymous outcome retention and future routing use.",
+    "F1 Gate A outreach packet is ready for Aihuishou and Xiaozhi/Bearhome; no provider response exists yet.",
+    "Xiaozhi production API requires enterprise qualification; Aihuishou channel settlement requires invoicing capability."
   ]
 }
