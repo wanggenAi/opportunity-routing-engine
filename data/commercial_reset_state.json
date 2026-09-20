@@ -31,10 +31,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_011",
+  "last_completed_scan_id": "ATTRACTION_SCAN_012",
   "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
-  "next_scan_id": "ATTRACTION_SCAN_012",
-  "current_research_action": "ATTRACTION_SCAN_012_PRIVATE_EXCEPTION_EVENT_X_OPEN_FAILOVER_RAIL",
+  "next_scan_id": "ATTRACTION_SCAN_013",
+  "current_research_action": "ATTRACTION_SCAN_013_NEWLY_CALLABLE_PHYSICAL_SERVICE_RAIL_X_UNOWNED_HIGH_INTENT_SIGNAL",
   "current_validation_state": {
     "formation_id": null,
     "public_artifact_confirmation": null,
@@ -107,18 +107,25 @@
     "PRIVATE_CONTEXT_ALONE_IS_ERODED_BY_ERP_MES_LIMS_API_INTEGRATION",
     "TRANSIENT_PRIVATE_EXCEPTION_MAY_PRESERVE_TIMING_ASYMMETRY",
     "FAILOVER_RAIL_MUST_BE_MACHINE_CALLABLE_NOT_MERELY_SEARCHABLE",
-    "PREFER_PRIVATE_EXCEPTION_EVENT_X_OPEN_FAILOVER_RAIL"
+    "PREFER_PRIVATE_EXCEPTION_EVENT_X_OPEN_FAILOVER_RAIL",
+    "STANDARDIZED_CALLABLE_REPEATED_FAILOVER_ATTRACTS_INCUMBENT_INTEGRATION",
+    "UNOWNED_PHYSICAL_FAILOVER_OFTEN_REMAINS_MANUAL",
+    "RESOURCE_VISIBILITY_PLUS_EXECUTION_API_DOES_NOT_PROVE_NEW_RESOURCE_ACQUISITION_CALLABILITY",
+    "FAILOVER_INTEGRATION_TRAP_IS_CURRENT_SEARCH_BOUNDARY",
+    "AGENT_PAY_CAN_MAKE_EXISTING_GOODS_AND_SERVICE_FLOWS_AGENT_CALLABLE",
+    "MERCHANT_SKILL_CAN_OWN_SEARCH_SELECT_CONFIRM_ORDER_BEFORE_PAYMENT",
+    "NEWLY_CALLABLE_SERVICE_RAILS_MAY_CREATE_TEMPORARY_INTEGRATION_LAG",
+    "PREFER_NEWLY_CALLABLE_RAIL_X_UNOWNED_HIGH_INTENT_SIGNAL"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
-    "Scans 004-010 remain resolved/demoted under current attraction truth.",
-    "ATTRACTION_SCAN_011 completed with zero high-attraction beacons and zero retained formations.",
-    "Private context plus a live external resource is not enough; valuable platforms often move upstream into ERP/MES/LIMS/telemetry/procurement workflows and absorb the join.",
-    "Production-exception to on-demand manufacturing is economically real but current Xometry/1688/ERP integration pressure is already strong.",
-    "Lab-instrument failure/queue to external shared instruments has real supply and demand but fails general action-gate callability and machine-resolvable method matching.",
-    "Equipment breakdown to rental/replacement is increasingly integrated by OEM industrial platforms.",
-    "Urgent MRO shortage to live stock is already productized through procurement/VMI/channel stacks.",
-    "Next search target is a transient private exception event with a short loss clock and a truly machine-callable external failover rail that no incumbent already controls end-to-end.",
+    "Scans 004-011 remain resolved/demoted under current attraction truth.",
+    "ATTRACTION_SCAN_012 completed with zero high-attraction beacons and zero retained formations.",
+    "Flexible-labor vacancies, logistics disruptions, payment failures and EV charging/rescue demonstrate that standardized callable high-frequency failover tends to be integrated by incumbents.",
+    "Warehouse overflow and emergency physical services demonstrate the opposite failure: the resource may be visible and urgent while new-resource acquisition still requires contact, quote, approval or manual dispatch.",
+    "This creates a failover integration trap: callable failover is rapidly integrated; unowned physical failover is often not callable.",
+    "Current 2026 Agent commerce changes the boundary because an existing merchant/service can expose search, selection, order and payment flows through Skills/Agent Pay.",
+    "Next search target is a newly callable physical/service rail with a separate high-intent state/event that incumbent systems have not yet integrated.",
     "FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN."
   ]
 }
