@@ -29,6 +29,7 @@ def profile(**overrides):
         a_discoverability=3,
         b_discoverability=3,
         match_resolvability=3,
+        action_gate_callability=3,
         a_motion_evidence=ev("a"),
         b_motion_evidence=ev("b"),
         value_jump_evidence=ev("value"),
@@ -40,6 +41,7 @@ def profile(**overrides):
         a_discoverability_evidence=ev("a-discoverability"),
         b_discoverability_evidence=ev("b-discoverability"),
         match_resolvability_evidence=ev("match-resolvability"),
+        action_gate_evidence=ev("action-gate"),
     )
     values.update(overrides)
     return AttractionDiscoveryProfile(**values)
@@ -112,3 +114,28 @@ def test_unresolvable_match_kills_high_attraction_even_with_large_value_jump():
         state_dependent_value_jump=3,
     )
     assert attraction_beacon_state(p) is AttractionBeaconState.LOW_ATTRACTION
+
+
+def test_uncallable_action_gate_kills_high_attraction():
+    p = profile(
+        action_gate_callability=1,
+        action_gate_evidence=ev("requires-case-by-case-incumbent-permission"),
+    )
+    assert attraction_beacon_state(p) is AttractionBeaconState.LOW_ATTRACTION
+    assert discovery_attention_allowed(p) is False
+
+
+def test_stable_callable_action_gate_can_survive_with_other_hard_floors():
+    p = profile(
+        action_gate_callability=2,
+        action_gate_evidence=ev("standard-self-service-transaction-rail"),
+    )
+    assert attraction_beacon_state(p) is AttractionBeaconState.HIGH_ATTRACTION_BEACON
+
+
+def test_native_transaction_api_is_strong_action_gate_evidence():
+    p = profile(
+        action_gate_callability=3,
+        action_gate_evidence=ev("native-api-order-booking-settlement"),
+    )
+    assert attraction_beacon_state(p) is AttractionBeaconState.HIGH_ATTRACTION_BEACON
