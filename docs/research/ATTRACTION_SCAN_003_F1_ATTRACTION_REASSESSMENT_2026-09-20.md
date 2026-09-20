@@ -40,27 +40,23 @@ than to:
 Therefore the formation is downstream of the main value-creation and value-allocation
 decision.
 
-## China-market correction
+## Market-context boundary
 
-Current enterprise AI evidence increases, rather than reduces, this concern:
-- enterprise AI programs face strong ROI and business-case pressure;
-- many deployments still produce only local benefits;
-- unclear business cases, hidden implementation complexity and short-term delivery
-  pressure remain material barriers.
+The demotion does not require a blanket claim that Chinese buyers never care about
+acceptance. That would be too broad.
 
-This means a new independent layer that appears only near project closeout must show
-unusually strong payment-release, risk-control or dispute-prevention leverage. Generic
-"better acceptance" is not enough.
+The stronger and more transferable finding is structural:
 
-Supporting context:
-- Deloitte / HKU 2026 AI Adoption Index:
-  https://www.deloitte.com/cn/zh/services/consulting/perspectives/hku-and-deloitte-china-ai-adoption-index-2026.html
-- Deloitte 2026 TMT prediction on GenAI moving from exploration toward ROI realization:
-  https://www.deloitte.com/content/dam/assets-zone1/cn/zh/docs/industries/technology-media-telecommunications/2026/cn-tmt-predictions-2026-gen-ai-inside-software.pdf
-- Supreme People's Court software-project payment case showing acceptance/payment can
-  matter, but also illustrating that the commercially material issue is release of
-  money/control, not acceptance ceremony by itself:
-  https://www.court.gov.cn/zixun/xiangqing/500531.html
+- when budget, vendor and scope are already substantially committed;
+- when most value creation/allocation has already occurred;
+- when the remaining bridge mainly improves closeout process quality;
+
+the formation has weak default attraction unless the bridge still controls payment
+release, prevents material loss/risk, satisfies a hard compliance/safety boundary, or
+determines whether the transaction can complete.
+
+Country/industry-specific acceptance behavior may strengthen or weaken this conclusion
+only when supported by current evidence.
 
 ## New doctrine extracted from the failure
 
