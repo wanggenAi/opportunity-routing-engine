@@ -21,7 +21,48 @@ LOW ENOUGH ACTIVATION FRICTION
 → STRONG ATTRACTION FIELD
 ```
 
-Attraction affects discovery attention and founder-priority allocation. It does **not** replace evidence, payment truth, safety, legality, transactionability or validation.
+Attraction is the **first discovery-attention premise**: it decides which parts of broad reality deserve deep investigation before scarce research and validation effort is spent. It does **not** replace evidence, payment truth, safety, legality, transactionability or validation. Attraction decides where to look first; evidence decides what may be believed.
+
+## 0A. Attraction-first search order
+
+Do not begin from a catalog of needs, industries, explicit tasks or every observable
+friction. Begin from **high-energy reality signals**.
+
+Search first for combinations such as:
+- actors already spending money, time, reputation or workaround effort to move;
+- an underused/cheap/stranded resource that becomes disproportionately valuable in a
+  different actor state;
+- repeated attempts by two sides to reach one another through clumsy substitutes;
+- a decision window in which budget, access, vendor choice, rights or resource
+  allocation are still movable;
+- a narrow missing connection whose removal changes the reachable state sharply;
+- behavior where successful routing naturally makes the next routing easier;
+- a bridge the operator can own as a control/routing layer rather than perform as a
+  recurring job.
+
+Canonical pre-formation beacon: `src/attraction_discovery.py`.
+
+```text
+BROAD REALITY
+→ ATTRACTION SIGNAL HARVEST
+→ HIGH_ATTRACTION_BEACON
+→ CAUSAL / STRUCTURAL TRUTH DESCENT
+→ CONNECTION PRESSURE
+→ MISSING EDGE
+→ VALIDATION
+```
+
+The engine must not invert this into:
+
+```text
+EVERY FRICTION
+→ LONG RESEARCH
+→ PRODUCT IDEA
+→ ATTRACTION SCORE AT THE END
+```
+
+The second sequence wastes attention on low-energy, downstream or merely tidy
+problems.
 
 ## 1. Attraction is not hype
 
