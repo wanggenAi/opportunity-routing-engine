@@ -47,6 +47,16 @@ class ResearchControlPlaneTests(unittest.TestCase):
         self.assertFalse(plan["executor_contract"]["captcha_or_antibot_bypass_allowed"])
         self.assertFalse(plan["executor_contract"]["source_discovery_implies_activation"])
         self.assertFalse(plan["executor_contract"]["foreign_signal_implies_china_fact"])
+        self.assertEqual(plan["mission"]["attention_mode"], "ATTRACTION_FIRST")
+        self.assertEqual(plan["executor_contract"]["attention_mode"], "ATTRACTION_FIRST")
+        self.assertIn(
+            "STATE_DEPENDENT_VALUE_JUMP",
+            plan["executor_contract"]["attraction_signal_contract"],
+        )
+        self.assertIn(
+            "DECISION_WINDOW_STILL_MOVABLE",
+            plan["executor_contract"]["attraction_signal_contract"],
+        )
 
     def test_dynamic_terms_are_prioritized_without_changing_ontology(self):
         mission = self._mission()

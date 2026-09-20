@@ -100,6 +100,37 @@ GLOBAL SALIENCE != CHINESE PREVALENCE
 GLOBAL SOURCE COVERAGE != DOMESTIC CORROBORATION
 ```
 
+## 4A. Attraction-first attention mode
+
+The active commercial-discovery mission uses `attention_mode = ATTRACTION_FIRST`.
+
+This changes **what broad research looks for first**, not what counts as truth.
+
+The executor should preferentially harvest evidence of:
+- A-side voluntary motion;
+- B-side voluntary motion;
+- sharp state-dependent value differences;
+- still-open budget/vendor/access/resource decisions;
+- narrow bridges that could unlock disproportionate value;
+- bounded activation/explanation burden;
+- self-propulsion after successful routing;
+- operator control without recurring founder delivery.
+
+The production mission is:
+
+`data/research_missions/attraction_field_broad_reality.json`
+
+and the production planning workflow must point to that file.
+
+```text
+ATTRACTION FIRST FOR ATTENTION
+EVIDENCE FIRST FOR TRUTH
+```
+
+This is not permission to optimize search for novelty or hype. Every attraction
+signal still requires provenance-bearing observations and later causal/structural
+verification.
+
 ## 5. Research lanes
 
 The first control-plane version uses six **research-control lanes**, not world-taxonomy categories:
@@ -249,7 +280,7 @@ HARD AUTOMATION != USELESS SOURCE
 
 Initial implementation:
 - `src/research_control_plane.py` — mission, query expansion, evidence coverage audit;
-- `data/research_missions/china_primary_broad_discovery.json` — bootstrap mission config;
+- `data/research_missions/attraction_field_broad_reality.json` — active attraction-first broad-reality mission config;
 - `scripts/build_research_mission.py` — deterministic mission artifact builder;
 - `.github/workflows/research-mission-plan.yml` — production planning artifact.
 

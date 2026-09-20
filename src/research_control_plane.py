@@ -80,6 +80,7 @@ class ResearchMission:
     require_domestic_corroboration_for_global: bool = True
     cross_border_mode: str = "EXCEPTION_ONLY"
     allowed_execution_modes: tuple[str, ...] = DEFAULT_EXECUTION_MODES
+    attention_mode: str = "BROAD_REALITY"
 
     def __post_init__(self) -> None:
         if not self.mission_id.strip():
@@ -119,6 +120,8 @@ class ResearchMission:
                 raise ValueError(f"{name} must be in (0, 1]")
         if self.cross_border_mode not in {"DISABLED", "EXCEPTION_ONLY"}:
             raise ValueError("cross_border_mode must be DISABLED or EXCEPTION_ONLY")
+        if self.attention_mode not in {"BROAD_REALITY", "ATTRACTION_FIRST"}:
+            raise ValueError("attention_mode must be BROAD_REALITY or ATTRACTION_FIRST")
         if not self.allowed_execution_modes:
             raise ValueError("allowed_execution_modes are required")
 
@@ -227,6 +230,7 @@ def mission_from_dict(raw: Mapping[str, Any]) -> ResearchMission:
         "require_domestic_corroboration_for_global",
         "cross_border_mode",
         "allowed_execution_modes",
+        "attention_mode",
     }
     unknown = set(raw) - allowed
     if unknown:
@@ -258,6 +262,7 @@ def mission_from_dict(raw: Mapping[str, Any]) -> ResearchMission:
         allowed_execution_modes=tuple(
             str(v).strip() for v in raw.get("allowed_execution_modes", DEFAULT_EXECUTION_MODES) if str(v).strip()
         ),
+        attention_mode=str(raw.get("attention_mode", "BROAD_REALITY")).strip(),
     )
 
 
@@ -374,6 +379,7 @@ def build_research_plan(
             "max_global_auxiliary_share": mission.max_global_auxiliary_share,
             "require_domestic_corroboration_for_global": mission.require_domestic_corroboration_for_global,
             "cross_border_mode": mission.cross_border_mode,
+            "attention_mode": mission.attention_mode,
         },
         "dynamic_term_count": len(dynamic_seeds),
         "lane_query_budget": slots,
@@ -394,6 +400,26 @@ def build_research_plan(
                 "SOURCE_PERMISSION_BLOCKED",
                 "MARGINAL_SOURCE_DIVERSITY_EXHAUSTED",
             ],
+            "attention_mode": mission.attention_mode,
+            "attraction_signal_contract": (
+                [
+                    "A_SIDE_VOLUNTARY_MOTION",
+                    "B_SIDE_VOLUNTARY_MOTION",
+                    "STATE_DEPENDENT_VALUE_JUMP",
+                    "DECISION_WINDOW_STILL_MOVABLE",
+                    "BRIDGE_COMPRESSION",
+                    "ACTIVATION_EASE",
+                    "SELF_PROPULSION",
+                    "OPERATOR_CONTROL_WITHOUT_RECURRING_LABOR",
+                ]
+                if mission.attention_mode == "ATTRACTION_FIRST"
+                else []
+            ),
+            "attention_truth_boundary": (
+                "ATTRACTION_DECIDES_WHERE_TO_LOOK_FIRST_EVIDENCE_DECIDES_WHAT_TO_BELIEVE"
+                if mission.attention_mode == "ATTRACTION_FIRST"
+                else "BROAD_REALITY_COVERAGE_ONLY"
+            ),
         },
         "truth_boundaries": [
             "RESEARCH_PLAN_NE_EVIDENCE",
@@ -402,6 +428,7 @@ def build_research_plan(
             "SOURCE_DISCOVERY_NE_SOURCE_ACTIVATION",
             "COVERAGE_NE_COMMERCIAL_TRUTH",
             "CROSS_BORDER_EXCEPTION_ONLY",
+            "ATTRACTION_BEACON_NE_COMMERCIAL_VALIDATION",
         ],
     }
 

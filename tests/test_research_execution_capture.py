@@ -23,7 +23,7 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
             "evidence_id": "ev-001",
             "mission_id": "ATTRACTION_FIELD_BROAD_REALITY_V1",
             "lane": "CHINA_CORE",
-            "seed_id": "household-life-stage-transition",
+            "seed_id": "paid-ugly-workaround",
             "source_url": "https://www.stats.gov.cn/example",
             "source_family": "official_statistics",
             "origin_geography": "CN",
@@ -41,7 +41,7 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
         evidence = bind_capture_to_plan(plan, capture)
         expected = next(
             item for item in plan["queries"]
-            if item["lane"] == "CHINA_CORE" and item["seed_id"] == "household-life-stage-transition"
+            if item["lane"] == "CHINA_CORE" and item["seed_id"] == "paid-ugly-workaround"
         )
         self.assertEqual(evidence["query_id"], expected["query_id"])
         self.assertEqual(evidence["source_url"], capture.source_url)
@@ -55,7 +55,7 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "exactly one research query task"):
             bind_capture_to_plan(
                 plan,
-                self._capture(lane="GLOBAL_AUXILIARY", seed_id="repair-reuse-circular-flow"),
+                self._capture(lane="GLOBAL_AUXILIARY", seed_id="repeat-route-compounds"),
             )
 
     def test_capture_mission_mismatch_fails_closed(self):
@@ -79,7 +79,7 @@ class ResearchExecutionCaptureTests(unittest.TestCase):
         plan = self._plan()
         foreign = self._capture(
             lane="GLOBAL_AUXILIARY",
-            seed_id="household-life-stage-transition",
+            seed_id="paid-ugly-workaround",
             origin_geography="GLOBAL",
             relevance_geography="CN",
             domestic_corroboration_ref="domestic-001",
