@@ -1112,50 +1112,82 @@ Participant attraction requires evidence. Operator attraction allocates founder 
 
 ## 19. Current next action — CANONICAL
 
-`ATTRACTION_SCAN_003-F1 — AI CUSTOM-SERVICE ACCEPTANCE RAIL` is demoted.
+`ATTRACTION_SCAN_004-F1 — LEGACY EQUIPMENT HARVEST PARTS GRAPH / 工业旧设备器官库`
+is demoted from current high-attraction status.
 
-The technical finding survives: tool-using Agent projects can expose bounded,
-machine-verifiable acceptance conditions. The commercial formation does not survive
-current strategic-attention rules because its default intervention point is too
-downstream: vendor/budget/scope are substantially committed and the remaining value is
-primarily closeout/retest process quality rather than control of value formation.
+The underlying value transformation remains real: a component inside a retiring
+machine can be worth much more to a still-operating compatible asset.
+
+But the formation fails a newly explicit capture-feasibility truth:
+- supply-side donor units are not reliably visible at component level;
+- demand-side exact failure events are fragmented and often private;
+- compatibility frequently requires case-specific expert interpretation;
+- repeated routing would therefore depend on manual information hunting before value
+  can even be captured.
+
+This is not a narrow missing edge.
+
+```text
+LARGE VALUE GAP
++
+LOW DISCOVERABILITY
++
+LOW MATCH RESOLVABILITY
+=
+HIDDEN POTENTIAL / LOW CURRENT ATTRACTION
+```
 
 Current state:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - RETAINED RESEARCH FORMATIONS = 0
+- HIGH_ATTRACTION_BEACONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-- NEXT = `ATTRACTION_SCAN_004`
+- NEXT = `ATTRACTION_SCAN_005`
 
-Run `ATTRACTION_SCAN_004` from broad current reality. Do not inherit the AI-Agent
-vertical merely because Scan 003 ended there.
+Run `ATTRACTION_SCAN_005` from broad current reality with **discoverability as a hard
+front-door gate**.
 
-The scan must now be **attraction-first**:
+The search should prefer realities where:
+- A-side units repeatedly self-reveal in public/platform/API/registry/event/transaction
+  traces;
+- B-side units or state-change events repeatedly self-reveal while decisions remain
+  open;
+- the A↔B match can be resolved from accessible identifiers, attributes or rules;
+- the operator does not first need to build a private sensor network or perform
+  recurring detective work.
+
+Canonical pre-formation hard-floor dimensions now include:
+- A-side voluntary motion;
+- B-side voluntary motion;
+- state-dependent value jump;
+- decision window;
+- bridge compression;
+- activation ease;
+- self-propulsion;
+- operator control;
+- **A-side discoverability**;
+- **B-side discoverability**;
+- **match resolvability**.
+
+Canonical implementation:
+- `src/attraction_discovery.py`;
+- `src/attraction_frontier.py`.
 
 ```text
-BROAD REALITY
-→ ATTRACTION SIGNAL HARVEST
-→ HIGH_ATTRACTION_BEACON
-→ ONLY THEN DEEP CAUSAL DESCENT
-→ CONNECTION PRESSURE / MISSING EDGE
-→ REALITY CONFIRMATION
+THE WORLD ALREADY EMITS THE SIGNAL
+→ WE NOTICE A NON-OBVIOUS CONNECTION
+→ A SMALL ROUTING LAYER UNLOCKS VALUE
 ```
 
-`src/attraction_discovery.py` is the canonical pre-formation attention gate.
+is preferred over:
+
+```text
+FIRST BUILD A SENSOR NETWORK
+→ THEN BUILD A MARKET GRAPH
+→ THEN MAYBE DISCOVER A TRANSACTION
+```
+
 Attraction decides where to look first; evidence decides what may be believed.
-
-When multiple signals pass the hard attraction floor, use
-`src/attraction_frontier.py` for Pareto / non-dominated attention allocation.
-A weighted total score is not canonical for choosing among high-attraction signals.
-
-Required behavior:
-1. reopen broad current reality;
-2. preserve causal descent, connection pressure and Attraction Brief;
-3. before external contact, run the value-chain leverage gate;
-4. prefer positions where money/resource allocation/decision rights are still movable;
-5. demote downstream convenience layers unless absence blocks a transaction, controls
-   payment/value release, or prevents material economic/compliance/safety loss;
-6. preserve contradictions and kill weak formations quickly;
-7. keep all promotion fail-closed.
 
 ### 19A. Value-chain leverage truth — LOCKED
 
