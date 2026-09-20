@@ -57,6 +57,18 @@ class ResearchControlPlaneTests(unittest.TestCase):
             "DECISION_WINDOW_STILL_MOVABLE",
             plan["executor_contract"]["attraction_signal_contract"],
         )
+        self.assertIn(
+            "A_SIDE_DISCOVERABILITY",
+            plan["executor_contract"]["attraction_signal_contract"],
+        )
+        self.assertIn(
+            "B_SIDE_DISCOVERABILITY",
+            plan["executor_contract"]["attraction_signal_contract"],
+        )
+        self.assertIn(
+            "MATCH_RESOLVABILITY_WITHOUT_RECURRING_EXPERT_LABOR",
+            plan["executor_contract"]["attraction_signal_contract"],
+        )
 
     def test_dynamic_terms_are_prioritized_without_changing_ontology(self):
         mission = self._mission()
