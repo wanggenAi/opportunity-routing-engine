@@ -68,6 +68,9 @@ def test_low_attraction_signal_never_enters_frontier_even_if_other_dimensions_ar
         activation_ease=3,
         self_propulsion=3,
         operator_control=3,
+        a_discoverability=3,
+        b_discoverability=3,
+        match_resolvability=3,
     )
 
     result = non_dominated_layers([late, valid])
