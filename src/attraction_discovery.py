@@ -50,7 +50,10 @@ class AttractionDiscoveryProfile:
     relation can be established from accessible evidence rather than recurring expert
     interpretation. Action-gate callability asks whether a successful match can enter
     a stable, repeatable transaction / reservation / transfer / application /
-    settlement rail without case-by-case gatekeeper permission.
+    settlement rail without case-by-case gatekeeper permission. Generic-Agent
+    substitutability asks whether a general-purpose Agent can reproduce the proposed
+    bridge from ordinary user context plus the official rail schema, without any
+    distinct operator-owned routing asset.
 
     Score guidance for action_gate_callability:
       0 = no lawful/usable action rail observed
@@ -96,12 +99,14 @@ class AttractionDiscoveryProfile:
     b_discoverability_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     match_resolvability_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     action_gate_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
+    generic_agent_substitution_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
 
     founder_delivery_required: bool = False
     founder_sales_required_per_transaction: bool = False
     founder_search_required_per_transaction: bool = False
     expert_matching_required_per_transaction: bool = False
     explanation_burden_high: bool = False
+    generic_agent_substitutable: bool = False
 
 
 _SCORE_EVIDENCE = {
@@ -139,6 +144,11 @@ def validate_attraction_profile(profile: AttractionDiscoveryProfile) -> list[str
         if value > 0 and not _usable(getattr(profile, evidence_name)):
             errors.append(f"missing_evidence:{score_name}")
 
+    if profile.generic_agent_substitutable and not _usable(
+        profile.generic_agent_substitution_evidence
+    ):
+        errors.append("missing_evidence:generic_agent_substitutable")
+
     return errors
 
 
@@ -171,7 +181,8 @@ def attraction_beacon_state(profile: AttractionDiscoveryProfile) -> AttractionBe
 
     # Immediate kills: no bilateral motion, value already locked, tiny state jump,
     # invisible/expensive-to-find counterparties, recurring expert matching, or a
-    # bridge whose value is recurring founder labor/search/sales.
+    # bridge whose value is recurring founder labor/search/sales, or a bridge that a
+    # general-purpose Agent can reproduce without a distinct operator-owned asset.
     if (
         profile.a_voluntary_motion <= 1
         or profile.b_voluntary_motion <= 1
@@ -188,6 +199,7 @@ def attraction_beacon_state(profile: AttractionDiscoveryProfile) -> AttractionBe
         or profile.founder_search_required_per_transaction
         or profile.expert_matching_required_per_transaction
         or profile.explanation_burden_high
+        or profile.generic_agent_substitutable
     ):
         return AttractionBeaconState.LOW_ATTRACTION
 
@@ -225,6 +237,7 @@ def attraction_beacon_summary(profile: AttractionDiscoveryProfile) -> dict[str, 
             "WEAKEST_LINK_DOMINATES",
             "FOUNDER_SEARCH_NE_OPERATOR_CONTROL",
             "FOUNDER_LABOR_NE_OPERATOR_CONTROL",
+            "GENERIC_AGENT_FEATURE_NE_OPERATOR_CONTROL",
             "CLEVER_STORY_NE_PARTICIPANT_PULL",
             "HIGH_ATTRACTION_NE_MARKET_VALIDATION",
         ],
