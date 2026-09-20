@@ -407,3 +407,76 @@ Truth:
 
 Do not substitute similarly named recycling companies or unverified third-party
 contacts.
+
+
+## Public-rights search ceiling
+
+A targeted current-web pass searched the official/public surfaces for all three rails
+for terms around:
+- cooperation agreement;
+- data ownership;
+- retention;
+- anonymized statistics;
+- competitor comparison;
+- benchmarking;
+- derivative/model use.
+
+Result:
+
+```text
+AIHUISHOU
+  public technical/channel material = present
+  public consumer data-use restriction signal = present
+  explicit partner cross-rail derivative-data grant = NOT FOUND
+
+XIAOZHI / BEARHOME
+  public technical/outcome material = present
+  enterprise onboarding = present
+  explicit partner cross-rail derivative-data grant = NOT FOUND
+
+SUHUANJI
+  public technical/outcome material = strong
+  partner-owned valuation/order execution path = present
+  explicit partner cross-rail derivative-data grant = NOT FOUND
+```
+
+Truth:
+
+`PUBLIC_RIGHTS_SEARCH_CEILING_REACHED = TRUE`.
+
+This does **not** mean rights are denied.
+It means current public evidence cannot upgrade R1/R3/R4/R5.
+
+Further same-layer web searching should not be treated as the default next action.
+The decisive evidence must now come from:
+1. a current partner agreement supplied by the rail; or
+2. an official written business response.
+
+## Suhuanji execution-layer separation
+
+The current Suhuanji API exposes `/order/createOnly`.
+
+Its documentation explicitly says that a cooperation platform with its **own category
+valuation logic** does not need to use Suhuanji's goods/valuation interfaces; it may
+create the order itself and push the order into Suhuanji for execution.
+
+Source:
+- https://open.suhuanji.com/
+
+This strengthens:
+
+```text
+ROUTER-OWNED DECISION / VALUATION LAYER
+→ RAIL-OWNED PHYSICAL FULFILLMENT
+→ RAIL RETURNS QUOTE / PAYMENT / TERMINAL OUTCOME
+```
+
+Truth:
+
+`SUHUANJI_SUPPORTS_PARTNER_DECISION_LAYER_WITH_RAIL_EXECUTION = PASS`.
+
+This is technically favorable for F1 because the router need not collapse into a
+simple embedded quote widget.
+
+It still does not grant the rights to retain rail-returned outcomes for cross-rail
+future routing.
