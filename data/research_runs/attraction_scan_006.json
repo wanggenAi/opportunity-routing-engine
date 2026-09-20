@@ -1,0 +1,37 @@
+{
+  "schema_version": "attraction-scan.v4",
+  "scan_id": "ATTRACTION_SCAN_006",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-20",
+  "status": "COMPLETE",
+  "search_mode": "CROSS_DOMAIN_VISIBLE_DATA_HIDDEN_ECONOMIC_RELATION",
+  "inherited_case_inputs": [],
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_formations": [],
+  "pareto_eligible": [],
+  "pareto_frontier": [],
+  "near_misses": [
+    {
+      "formation": "ROOFTOP_RESOURCE_X_GRID_OPEN_CAPACITY",
+      "state": "NOT_RETAINED",
+      "kill": "JOIN_IMPROVES_SCREENING_BUT_PHYSICAL_CREDIT_CONTROL_AND_GRID_APPROVAL_KEEP_BRIDGE_WIDE"
+    },
+    {
+      "formation": "UNCLAIMED_BANKRUPTCY_DISTRIBUTION_X_BENEFICIARY_IDENTITY",
+      "state": "NOT_RETAINED",
+      "kill": "DIRECT_MONEY_BUT_B_SIDE_MOTION_WEAK_AND_STATUTORY_ADMINISTRATOR_ALREADY_OWNS_NOTIFICATION_AND_PAYMENT_GATE"
+    }
+  ],
+  "scan_learnings": [
+    "VISIBLE_JOIN_NE_ACTIONABLE_VALUE_ROUTE",
+    "DISCOVERABILITY_AND_MATCH_RESOLVABILITY_DO_NOT_IMPLY_ACTION_CONTROL",
+    "REGULATED_RIGHTS_WITH_HIGH_VALUE_TEND_TO_HAVE_EXCHANGE_OWNED_ACTION_GATES",
+    "DIRECT_MONEY_WITHOUT_BILATERAL_MOTION_IS_NOT_CURRENT_HIGH_ATTRACTION",
+    "DECISION_SUPPORT_JOIN_NE_ROUTING_CONTROL",
+    "CALLABLE_ACTION_GATE_SHOULD_BE_TESTED_BEFORE_HIGH_ATTRACTION_PROMOTION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_007",
+  "next_action": "VISIBLE_DATA_HIDDEN_JOIN_CALLABLE_ACTION_GATE_SCAN",
+  "first_external_value_flow": "NOT_PROVEN"
+}

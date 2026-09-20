@@ -4,118 +4,126 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Run `ATTRACTION_SCAN_006` from a clean slate.
+Run `ATTRACTION_SCAN_007` from a clean slate.
 
-Search target:
+Working search target:
 
-`CROSS-DOMAIN VISIBLE DATA / HIDDEN ECONOMIC RELATION`
+`VISIBLE DATA + HIDDEN JOIN + CALLABLE ACTION GATE`
 
-Do not continue any Scan 001-005 formation.
+Do not continue any Scan 001-006 formation.
 
 ## Goal
 
-Find a genuinely high-attraction value route formed by a non-obvious join between two
-independently maintained, continuously observable data worlds.
-
-The join must directly change an economic state, not merely create a prospect.
-
-Preferred shape:
+Find a genuinely high-attraction value route where:
 
 ```text
-DATA WORLD A IS ALREADY PUBLIC / ACCESSIBLE
+A IS VISIBLE AND MOVING
 +
-DATA WORLD B IS ALREADY PUBLIC / ACCESSIBLE
+B IS VISIBLE AND MOVING
 +
-NO SINGLE INCUMBENT NATURALLY OWNS BOTH
+MATCH IS RULE-RESOLVABLE
 +
-STABLE JOIN KEY / RULE EXISTS
+JOIN CREATES LARGE VALUE JUMP
 +
-JOIN CHANGES MONEY / RESOURCE / RIGHTS / INVENTORY / ACCESS / TIMING
+ACTION / TRANSACTION / SETTLEMENT RAIL IS CALLABLE
 +
-A AND B ALREADY WANT TO MOVE
+NO SINGLE INCUMBENT ALREADY OWNS BOTH RELATION AND ACTION GATE
 +
-ROUTER DOES NOT BECOME SALES / SEARCH / DELIVERY LABOR
+ROUTER DOES NOT BECOME SEARCH / SALES / CONSULTING / INVENTORY / DELIVERY LABOR
 → HIGH-ATTRACTION BEACON
 ```
 
 ## Current Unique Commercial Research Goal
 
-Find one current China-primary cross-domain join where:
+Find one current China-primary structure where a non-obvious cross-domain join can be
+turned into an actual economic state change without first obtaining a regulator,
+platform or incumbent's discretionary cooperation.
 
-1. A units are continuously enumerable;
-2. B units/events are continuously enumerable;
-3. A↔B compatibility is rule/machine resolvable;
-4. the join itself changes an allocation/transaction/access/timing decision;
-5. no incumbent already controls both data worlds and the action gate;
-6. the operator can capture part of the resulting value flow;
-7. the route compounds rather than recreating founder search/sales.
+Required:
+1. continuously observable A;
+2. continuously observable B;
+3. bilateral voluntary motion;
+4. stable join key;
+5. direct economic consequence;
+6. participant/operator-accessible action rail;
+7. operator capture path;
+8. compounding/repeatability.
 
-If none exists, retain zero formations.
+If none exists, retain zero.
 
 ## Current Phase
 
-`SCAN_006_CROSS_DOMAIN_VISIBLE_DATA_HIDDEN_ECONOMIC_RELATION`
+`SCAN_007_VISIBLE_DATA_HIDDEN_JOIN_CALLABLE_ACTION_GATE`
 
-## Scan 005 result
+## Scan 006 result
 
-`ATTRACTION_SCAN_005` completed with:
+`ATTRACTION_SCAN_006` completed with:
 
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
-Strongest near-miss:
-
-`REGULATORY_DELTA_CROSS_REGISTRY_OBLIGATION_GAP`
-using China RoHS 2026 expansion as the concrete test.
-
-It was not retained.
-
-Why:
-- source topology was unusually good;
-- some product populations can be bulk enumerated;
-- compliance state can be queried;
-- but the output mainly becomes a qualified future-obligation prospect list;
-- service providers already own strong regulatory/customer access;
-- compliance tooling is mature;
-- direct transaction control and extraordinary route economics were not proven.
+Scan 006 searched:
+- shortage-drug supply;
+- solid-waste / by-product routing;
+- freight / empty-return capacity;
+- construction earth / waste;
+- roof-resource × grid-open capacity;
+- water / pollution / carbon rights;
+- unclaimed bankruptcy distributions;
+- global public procurement × Chinese supply;
+- data-asset/data-product markets.
 
 ## Current Findings
 
-Scan 005 established:
+Scan 006 established:
 
 ```text
-DISCOVERABILITY IS NECESSARY NOT SUFFICIENT
-VISIBLE PROSPECT != ROUTABLE VALUE
-PUBLIC DATA VOLUME != COMMERCIAL LEVERAGE
-PUBLIC STATE CHANGE -> STANDARD SERVICE
-OFTEN BECOMES LEAD GENERATION
+VISIBLE JOIN != ACTIONABLE VALUE ROUTE
+DISCOVERABILITY + MATCH RESOLVABILITY != ACTION CONTROL
+DECISION SUPPORT != ROUTING CONTROL
 ```
 
-The new preferred search topology is cross-domain rather than same-domain matching.
+Strongest near-misses:
 
-Same-domain matching is frequently already owned by:
-- the platform;
-- the regulator;
-- the service provider;
-- a vertical SaaS/data vendor.
+### Rooftop resources × grid-open capacity
 
-The more interesting residual may exist where two different institutions/platforms
-publish different halves of an economically important state, but neither has reason to
-join them.
+Both data worlds can be public and the join improves project screening.
+
+It failed because:
+- roof condition, load-bearing, electricity consumption, owner credit/control and
+  final grid approval remain material;
+- public roof opportunities often already solicit investors;
+- the join helps decisions but does not itself control the transaction.
+
+### Unclaimed bankruptcy distribution × beneficiary identity
+
+This directly points to existing money and can include exact beneficiary/amount/deadline.
+
+It failed because:
+- administrators already own notification/payment duties;
+- many beneficiaries are not actively moving;
+- nonreceipt commonly reflects failed contact, invalid accounts, dissolved entities or
+  abandonment;
+- monetization drifts toward finder/legal/claims-recovery service.
+
+### Tradable rights
+
+Water, pollution and carbon rights have strong bilateral motion and direct value.
+
+They failed because:
+- the action/settlement gate is already the regulated exchange or official platform.
 
 ## Last Verified Main
 
-`1959949c25afd7f47e772c18cdcadc5e66029529`
-— functional merge of PR #276.
+`ddd9de35f55c9e3a48338bf9cd07dc9b482c812e`
+— squash merge of PR #278, `Persist zero-retention Attraction Scan 005`.
 
 Verified:
-- main CI #833 / run `35488228380`: success;
-- research-mission-plan #5 / run `35488228371`: success;
-- artifact id `10598107025`.
-
-A later control-plane-only checkpoint PR #277 also merged.
+- PR #278 head CI #835: success;
+- main CI #836 / run `35489461177`: success;
+- research-mission-plan #6 / run `35489461166`: success.
 
 ## Active Issue
 
@@ -123,7 +131,7 @@ A later control-plane-only checkpoint PR #277 also merged.
 
 ## Active Branch
 
-`feature/attraction-scan-005-zero-retention`
+`feature/attraction-scan-006-zero-retention`
 
 ## Active PR
 
@@ -131,13 +139,13 @@ Not opened yet.
 
 ## CI
 
-Pending for the Scan 005 persistence branch.
+Pending for Scan 006 persistence branch.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `docs/research/ATTRACTION_SCAN_005_2026-09-20.md`
-- `data/research_runs/attraction_scan_005.json`
+- `docs/research/ATTRACTION_SCAN_006_2026-09-20.md`
+- `data/research_runs/attraction_scan_006.json`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -146,23 +154,20 @@ Updated:
 
 ## Completed
 
-- executed a discoverability-first chained web scan across unrelated data worlds;
-- rejected same-domain matches already owned by platforms/incumbents;
-- rejected pure regulatory/service lead-generation patterns;
-- rejected bankruptcy/auction arbitrage because B-side demand is not equivalently
-  visible and condition requires manual due diligence;
-- verified NMPA UDI as an example of genuine bulk/full/incremental source topology;
-- tested China RoHS as the strongest cross-registry near-miss and did not retain it;
-- preserved zero-retention truth;
-- retargeted research mission wording toward cross-domain hidden joins.
+- executed cross-domain visible-data / hidden-economic-relation search;
+- tested physical flows, regulated rights, direct-money claims and global procurement;
+- credited mature marketplaces, official platforms, exchanges and statutory action gates;
+- refused to promote decision-support joins as routing control;
+- retained zero high-attraction beacons;
+- retargeted the next search toward callable action gates.
 
 ## Blockers
 
 Engineering:
-- Scan 005 persistence branch CI not yet verified.
+- Scan 006 persistence branch CI not yet verified.
 
 Research:
-- Scan 006 has not yet executed.
+- Scan 007 has not yet executed.
 - no current HIGH_ATTRACTION_BEACON exists.
 
 Commercial:
@@ -173,41 +178,39 @@ Commercial:
 
 ## Next Action
 
-Finish PR/CI/merge for Scan 005 persistence, then execute
-`ATTRACTION_SCAN_006`.
+Finish PR/CI/merge for Scan 006 persistence, then execute `ATTRACTION_SCAN_007`.
 
-Scan 006 search discipline:
-1. reopen broad current reality; do not inherit RoHS/compliance as a favored vertical;
-2. look for two independent, continuously observable data universes;
-3. require a stable join key;
-4. require the join itself to alter economic state;
-5. reject outputs that are merely better cold-call lists;
-6. reject cases where one platform already owns both data and action;
-7. reject recurring founder search, consulting, inventory ownership or delivery;
-8. apply attraction hard floors before deep research;
+Scan 007 discipline:
+1. reopen broad reality;
+2. require A/B visibility and bilateral motion;
+3. require a stable machine/rule-resolvable join;
+4. require direct economic state change;
+5. identify the exact action/settlement rail before deep research;
+6. reject cases where action is monopolized by a platform/regulator/exchange incumbent;
+7. reject pure decision-support, lead lists and alerts;
+8. reject recurring founder search/sales/consulting/inventory/delivery;
 9. apply Pareto only after all hard floors survive;
 10. retain zero again if necessary.
 
 ## Do Not Repeat
 
 - Do not revive Scan 004 equipment harvesting.
-- Do not promote China RoHS merely because the data is elegant.
-- Do not mistake full data downloads for a business.
-- Do not mistake an exact prospect for a routable transaction.
-- Do not build a generic compliance lead database.
-- Do not default back to procurement/tender intelligence.
-- Do not inherit prior verticals as search priors.
-- Do not lower the attraction threshold to avoid a zero-result scan.
+- Do not revive Scan 005 RoHS/compliance near-miss.
+- Do not treat a useful join as a business merely because it improves decisions.
+- Do not treat exchange-traded rights as an external router opportunity.
+- Do not treat unclaimed money as bilateral motion when the beneficiary is inactive.
+- Do not default to same-domain marketplaces.
+- Do not lower the threshold to avoid a zero-result scan.
 
 ## Guardrails
 
 - GitHub live state wins.
 - Attraction first for attention; evidence first for truth.
 - A_VISIBLE + B_VISIBLE + MATCH_RESOLVABLE remains required.
-- VISIBLE_PROSPECT != ROUTABLE_VALUE.
-- PUBLIC_DATA != OPERATOR_CONTROL.
-- SAME_DOMAIN_PLATFORM_OWNS_BOTH -> DEFAULT DEMOTION.
-- JOIN should directly alter allocation/transaction/access/timing.
+- BILATERAL_MOTION remains required.
+- VISIBLE_JOIN != ACTIONABLE_VALUE_ROUTE.
+- DECISION_SUPPORT != ROUTING_CONTROL.
+- ACTION_GATE_OWNED_BY_INCUMBENT -> DEFAULT DEMOTION for current operator attention.
 - Hard attraction floor precedes Pareto.
 - UNKNOWN != PASS.
 - Infer broadly; retain conservatively.

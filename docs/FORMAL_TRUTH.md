@@ -1112,63 +1112,51 @@ Participant attraction requires evidence. Operator attraction allocates founder 
 
 ## 19. Current next action — CANONICAL
 
-`ATTRACTION_SCAN_005` completed under the discoverability-first hard gate.
+`ATTRACTION_SCAN_006` completed under the cross-domain hidden-join search.
 
 Result:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-- NEXT = `ATTRACTION_SCAN_006`
+- NEXT = `ATTRACTION_SCAN_007`
 
-The strongest Scan 005 near-miss was a cross-registry regulatory obligation-gap
-structure using China RoHS as the concrete example. It was **not retained**.
+Scan 006 tested cross-domain joins across shortage supply, waste/material flows, freight
+capacity, construction earth, rooftop/grid capacity, tradable resource rights,
+unclaimed money, global procurement and data markets.
 
-Why:
-- public/full product data can make affected populations unusually discoverable;
-- regulation can create a deterministic future obligation;
-- but the immediate output still collapses toward a qualified prospect list;
-- testing/certification incumbents already own strong upstream access;
-- compliance software already covers much of rule-to-product interpretation;
-- no evidence established direct operator control of the compliance transaction;
-- ordinary unit economics did not establish an extraordinary routing surplus.
+The scan found useful joins but no current high-attraction route.
 
-New scan-level truth:
+New truth:
 
 ```text
-DISCOVERABILITY IS NECESSARY, NOT SUFFICIENT
-VISIBLE PROSPECT != ROUTABLE VALUE
-PUBLIC STATE CHANGE -> STANDARD SERVICE PROVIDER
-OFTEN COLLAPSES TO LEAD GENERATION
+VISIBLE JOIN != ACTIONABLE VALUE ROUTE
+DISCOVERABILITY + MATCH RESOLVABILITY != ACTION CONTROL
+DECISION SUPPORT != ROUTING CONTROL
 ```
 
-Scan 006 should search from broad current reality for:
+The route remains weak when the actual economic state-change button is exclusively
+owned by:
+- a regulator;
+- a statutory administrator;
+- an exchange;
+- a grid/infrastructure operator;
+- the original marketplace;
+- another incumbent that already controls allocation or settlement.
 
-`CROSS-DOMAIN VISIBLE DATA / HIDDEN ECONOMIC RELATION`.
+Run `ATTRACTION_SCAN_007` from broad current reality with working search label:
 
-Prefer two independently maintained data universes where:
-1. both sides are continuously observable;
-2. neither incumbent naturally owns the other dataset;
-3. a stable, evidence-backed join key exists;
-4. the join directly changes allocation, transaction, access, timing, rights, inventory
-   or another economic state;
-5. value appears because of the join itself, not merely because a provider receives a
-   better prospect list;
-6. the router can capture value without recurring founder sales, search, consulting,
-   inventory ownership or delivery.
+`VISIBLE DATA + HIDDEN JOIN + CALLABLE ACTION GATE`.
 
-```text
-DATA WORLD A
-+
-INDEPENDENT DATA WORLD B
-+
-NON-OBVIOUS RULE-RESOLVABLE JOIN
-+
-DIRECT ECONOMIC STATE CHANGE
-+
-NO SINGLE INCUMBENT OWNS BOTH
-→ WORTH ATTRACTION TESTING
-```
+Prefer formations where:
+1. A and B continuously self-reveal;
+2. both sides already show motion;
+3. the join is objectively resolvable;
+4. the join creates a large state-dependent value jump;
+5. participants/operator can actually call the action/transaction/settlement rail;
+6. no single incumbent already owns both the information relation and the action gate;
+7. successful routing can compound without recurring founder search, cold sales,
+   consulting, inventory ownership or delivery.
 
 Retain zero again if no such structure survives.
 
