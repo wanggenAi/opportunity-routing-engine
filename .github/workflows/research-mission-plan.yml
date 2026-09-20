@@ -41,7 +41,7 @@ jobs:
           set -euo pipefail
           mkdir -p .local
           python scripts/build_research_mission.py \
-            --mission data/research_missions/china_primary_broad_discovery.json \
+            --mission data/research_missions/attraction_field_broad_reality.json \
             --as-of-date "$(date -u +%F)" \
             --plan-output .local/research_mission_plan.json \
             --coverage-output .local/research_coverage.json
