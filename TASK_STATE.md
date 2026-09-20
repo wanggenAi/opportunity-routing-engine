@@ -41,9 +41,31 @@ OUTCOMES COMPOUND INTO A BETTER ROUTING ASSET
 → HIGH-ATTRACTION BEACON
 ```
 
+## Current Unique Commercial Research Goal
+
+Find one China-primary structure where:
+1. high-intent economic intent appears naturally inside an Agent/machine workflow;
+2. a narrow cross-source compatibility, eligibility, allocation or route decision is required;
+3. the decision can be executed by a reusable machine capability;
+4. discovery/invocation is repeatable without founder-by-founder acquisition;
+5. the capability can be paid natively per use/call/result;
+6. the output changes a real economic action;
+7. repeated calls compound routing evidence and capability.
+
+If none exists, retain zero.
+
 ## Current Phase
 
 `SCAN_010_AGENT_NATIVE_INTENT_X_PAID_MACHINE_ROUTING_FUNCTION`
+
+## Current Findings
+
+Scan 009 produced zero retained formations but established a new executable frontier:
+- native third-party payout usually compensates a distinct contribution role;
+- recurring acquisition, sales and delivery remain founder-labor failures;
+- reusable machine capability can be a non-human paid contribution role;
+- Alipay AI Pay / SkillPay / Machine Pay prove current machine-native payment rails;
+- intent-driven automatic discovery/invocation of a new independent routing capability remains unproven.
 
 ## Scan 009 result
 
@@ -101,11 +123,16 @@ No separate post-merge main CI claim is made here unless later observed.
 
 ## Active PR
 
-Not opened yet.
+#282 — `Persist zero-retention Attraction Scan 009`.
 
 ## CI
 
-Pending for Scan 009 persistence branch.
+PR #282 CI #843 / run `35495434673`: failed only on repository recovery-contract headings.
+Required headings missing from TASK_STATE.md:
+- `## Current Unique Commercial Research Goal`
+- `## Current Findings`
+
+This checkpoint fixes those contract failures; rerun/next CI must be verified before merge.
 
 ## Latest Artifact / Persisted State
 
@@ -138,7 +165,7 @@ Updated:
 ## Blockers
 
 Engineering:
-- Scan 009 persistence PR/CI/merge not yet complete.
+- PR #282 CI #843 failed on two missing TASK_STATE recovery-contract headings; fix is being committed and CI must return green before merge.
 
 Research:
 - no current HIGH_ATTRACTION_BEACON exists;
@@ -153,7 +180,7 @@ Commercial:
 
 ## Next Action
 
-Finish PR/CI/merge for Scan 009 persistence, then execute `ATTRACTION_SCAN_010`.
+Verify the TASK_STATE recovery-contract fix in PR #282 CI, merge only after green, then continue `ATTRACTION_SCAN_010`.
 
 Scan 010 discipline:
 1. reopen broad current reality; AI infrastructure is a mechanism, not the ontology;
