@@ -57,7 +57,9 @@
     "public_rights_risk": "NEGATIVE_SIGNAL_NEEDS_PARTNER_CONTRACT_OVERRIDE",
     "neutral_incumbent_search": "NO_EXACT_ROUTER_ESTABLISHED_NOT_PROOF_OF_ABSENCE",
     "suhuanji_technical_data_closure": "PASS",
-    "suhuanji_public_business_contact": "UNRESOLVED"
+    "suhuanji_public_business_contact": "UNRESOLVED",
+    "public_rights_search": "CEILING_REACHED",
+    "next_decisive_evidence": "OFFICIAL_WRITTEN_PROVIDER_RESPONSE_OR_PARTNER_AGREEMENT"
   },
   "required_scan_controls": [
     "BROAD_REALITY",
@@ -170,7 +172,11 @@
     "EXACT_NEUTRAL_REALIZED_PAYOUT_ROUTER_INCUMBENT_NOT_ESTABLISHED_BUT_ABSENCE_NOT_PROVEN",
     "SUHUANJI_ESTIMATE_TO_REALIZED_PAYOUT_DATA_CLOSURE_IS_EXPLICIT_IN_CURRENT_API",
     "PARTNER_OWNED_USER_ORDER_RELATIONSHIP_CAN_COEXIST_WITH_RAIL_EXECUTION",
-    "DO_NOT_SUBSTITUTE_LOOKALIKE_BRANDS_FOR_UNRESOLVED_OFFICIAL_BUSINESS_CONTACT"
+    "DO_NOT_SUBSTITUTE_LOOKALIKE_BRANDS_FOR_UNRESOLVED_OFFICIAL_BUSINESS_CONTACT",
+    "PUBLIC_RIGHTS_SEARCH_CEILING_REACHED_FOR_F1",
+    "PUBLIC_ABSENCE_OF_DATA_REUSE_GRANT_IS_NOT_A_DENIAL",
+    "SUHUANJI_CREATE_ONLY_SEPARATES_PARTNER_DECISION_LAYER_FROM_RAIL_FULFILLMENT",
+    "NEXT_DECISIVE_RIGHTS_EVIDENCE_MUST_BE_PARTNER_AGREEMENT_OR_OFFICIAL_WRITTEN_RESPONSE"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -195,6 +201,7 @@
     "Gate A remains NOT PASSED until at least two overlapping 3C rails give written confirmation on anonymous outcome retention and future routing use.",
     "F1 Gate A outreach packet is ready for Aihuishou and Xiaozhi/Bearhome; no provider response exists yet.",
     "Xiaozhi production API requires enterprise qualification; Aihuishou channel settlement requires invoicing capability.",
-    "Suhuanji current API now explicitly closes valuation→quote→payment amount/time→transaction success data for a partner-maintained order relationship; reuse rights remain unknown."
+    "Suhuanji current API now explicitly closes valuation→quote→payment amount/time→transaction success data for a partner-maintained order relationship; reuse rights remain unknown.",
+    "Public rights search has reached a useful ceiling: no current public surface explicitly grants cross-rail anonymous outcome retention/derived routing rights. Do not repeat same-layer searching by default."
   ]
 }
