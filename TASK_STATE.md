@@ -194,6 +194,120 @@ Instead search current broad reality for **high-energy mismatches** such as:
 Only after a high-attraction beacon appears should the engine spend substantial
 research effort proving the causal structure and missing edge.
 
+
+## Goal
+
+Make `ATTRACTION_SCAN_004` search from attraction first, then spend deep causal
+research only on high-attraction reality signals.
+
+## Current Unique Commercial Research Goal
+
+Discover one current, evidence-backed `HIGH_ATTRACTION_BEACON` whose two participant
+sides already show voluntary motion, whose value jump is large, whose decision window
+is still movable, and whose missing bridge can be owned as an orchestration layer
+without recurring founder labor.
+
+Do not inherit the AI-Agent vertical.
+
+## Last Verified Main
+
+`50693c2f7c546785a967052252a854eced6c4eb5`
+— `[skip ci] state: close Scan 003 F1 reality confirmation 001`.
+
+## Active Branch
+
+`feature/attraction-leverage-gate`
+
+## Active PR
+
+PR #270 — `Make attraction the first discovery premise`.
+
+## CI
+
+PR #270 CI run #814 / run `35485608417` failed only because the rewritten
+`TASK_STATE.md` omitted recovery-contract section headings. The attraction tests
+were not identified as failing. This checkpoint adds the required operational
+sections; the next PR-head CI run must be green before merge.
+
+## Latest Artifact / Persisted State
+
+- `src/attraction_discovery.py`
+- `src/attraction_leverage.py`
+- `tests/test_attraction_discovery.py`
+- `tests/test_attraction_leverage.py`
+- `docs/research/ATTRACTION_SCAN_003_F1_ATTRACTION_REASSESSMENT_2026-09-20.md`
+- `data/commercial_reset_state.json`
+- `docs/OPPORTUNITY_ATTRACTION_FIELD.md`
+- `docs/FORMAL_TRUTH.md`
+
+## Completed
+
+- Demoted `ATTRACTION_SCAN_003-F1` for weak downstream attraction.
+- Cancelled its planned outreach path; prepared draft remains `DO NOT SEND`.
+- Added an attraction-first discovery beacon with weakest-link hard floors.
+- Added a separate value-chain leverage / intervention-timing gate.
+- Made attraction the first discovery-attention premise in AGENTS and formal doctrine.
+- Reset active commercial research state to `ATTRACTION_SCAN_004`.
+- Opened PR #270.
+- Ran CI once; repository-recovery contract caught missing task-state headings.
+
+## Current Findings
+
+The previous system did not fail because it could not detect real friction. It failed
+because it treated attraction too late.
+
+Corrected principle:
+
+```text
+ATTRACTION FIRST FOR ATTENTION
+EVIDENCE FIRST FOR TRUTH
+```
+
+A high-attraction beacon requires all critical dimensions to survive. A large market,
+clever story or technically real pain cannot compensate for:
+- a dead participant side;
+- a locked decision window;
+- a weak state-dependent value jump;
+- a bridge that is actually the whole service;
+- high explanation/activation burden;
+- recurring founder sales/delivery;
+- no self-propulsion.
+
+## Blockers
+
+Engineering blocker:
+- PR #270 must pass CI after restoring required `TASK_STATE.md` recovery headings.
+
+Commercial blocker:
+- none yet, because Scan 004 has not begun.
+- the next work is broad current-reality sensing for high-attraction beacons, not
+  external outreach.
+
+## Next Action
+
+1. get PR #270 CI green;
+2. merge PR #270;
+3. verify `main`;
+4. begin `ATTRACTION_SCAN_004` using attraction-first reality sensing;
+5. collect several broad high-energy reality signals before deep-diving any one
+   vertical;
+6. deep-dive only signals that pass the canonical attraction beacon;
+7. retain zero formations if none is truly strong.
+
+## Guardrails
+
+- Attraction guides discovery attention; it does not manufacture truth.
+- Weakest-link rule: do not average away a dead attraction dimension.
+- A/B behavior evidence is required; theoretical surplus is not enough.
+- Decision rights and value allocation must still be materially movable unless a
+  late-stage bridge directly controls value/payment release or material loss.
+- “Wow” must come from disproportionate state change, not novelty or hype.
+- Do not inherit the previous vertical.
+- Do not send the cancelled Scan 003 F1 outreach.
+- Do not build a product before transaction truth.
+- Do not let founder labor become the missing edge.
+- GitHub live state wins over this file.
+
 ## Do Not Repeat
 
 - Do not continue Scan 003 F1 merely because public research was already done.
