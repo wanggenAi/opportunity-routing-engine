@@ -36,10 +36,11 @@
   "last_completed_scan_id": "ATTRACTION_SCAN_004",
   "last_resolved_formation_id": "ATTRACTION_SCAN_003-F1",
   "next_scan_id": "ATTRACTION_SCAN_005",
-  "current_research_action": "ATTRACTION_SCAN_004_F1_CAUSAL_DESCENT_AND_PUBLIC_ARTIFACT_FALSIFICATION",
+  "current_research_action": "ATTRACTION_SCAN_004_F1_EXACT_CROSS_ENTERPRISE_DONOR_ROUTE_FALSIFICATION",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_004-F1",
-    "public_artifact_confirmation": "NOT_RUN",
+    "public_artifact_confirmation": "PARTIAL_PASS_INTRA_ENTERPRISE_DONOR_BEHAVIOR_CONFIRMED_EXTERNAL_DONOR_CANDIDATE_FOUND",
+    "cross_enterprise_exact_compatibility": "NOT_PROVEN",
     "bilateral_commitment": "NOT_RUN",
     "commercial_candidate": false
   },
@@ -60,14 +61,16 @@
     "REAL_FRICTION_CAN_BE_COMMERCIALLY_WEAK_WHEN_VALUE_ALLOCATION_IS_ALREADY_LOCKED",
     "RETIRING_WHOLE_MACHINE_CAN_BE_LOW_VALUE_WHILE_ONE_HARVESTABLE_COMPONENT_CAN_HAVE_DOWNTIME_LINKED_VALUE",
     "PARENT_MACHINE_TO_COMPONENT_RELATIONSHIP_CAN_BE_A_PLATFORM_DATA_ASSET_WHEN_LEGACY_SPARES_ARE_FRAGMENTED",
-    "GLOBAL_SEMICONDUCTOR_HARVEST_PARTS_ANALOGUE_VALIDATES_MECHANISM_NOT_CHINA_DEMAND"
+    "GLOBAL_SEMICONDUCTOR_HARVEST_PARTS_ANALOGUE_VALIDATES_MECHANISM_NOT_CHINA_DEMAND",
+    "INTRA_ENTERPRISE_DONOR_PART_REUSE_IS_DIRECTLY_OBSERVED_IN_A_CURRENT_CHINA_INDUSTRIAL_CASE"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
     "ATTRACTION_SCAN_003-F1 remains demoted and its prepared outreach must not be sent.",
-    "ATTRACTION_SCAN_004 was run as a clean-slate chained web scan without inheriting prior candidate verticals.",
-    "The only current HIGH_ATTRACTION_BEACON is ATTRACTION_SCAN_004-F1: Legacy Equipment Harvest Parts Graph / 工业旧设备器官库.",
-    "F1 is a research formation only. It must be falsified by tracing one real current hard-to-find part to an independent compatible donor source before any commercial promotion.",
+    "ATTRACTION_SCAN_004-F1 remains the only current high-attraction research formation.",
+    "Public Artifact Confirmation 001 directly confirms one 2026 China industrial case using an actuator head dismantled elsewhere because the original spare was discontinued.",
+    "Independent used IQ12 + IB4 donor-market candidates exist, but exact compatibility with the China case is not proven from public artifacts.",
+    "Cross-enterprise harvested-parts routing remains unproven; no commercial promotion.",
     "FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN."
   ]
 }

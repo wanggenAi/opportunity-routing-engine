@@ -1,0 +1,62 @@
+{
+  "schema_version": "attraction-reality-confirmation.v1",
+  "confirmation_id": "ATTRACTION_SCAN_004_F1_PUBLIC_ARTIFACT_CONFIRMATION_001",
+  "formation_id": "ATTRACTION_SCAN_004-F1",
+  "as_of_date": "2026-09-20",
+  "verdict": "PARTIAL_PASS",
+  "truth": {
+    "intra_enterprise_donor_behavior": "CONFIRMED",
+    "external_donor_candidate": "CONFIRMED",
+    "exact_cross_enterprise_compatibility": "NOT_PROVEN",
+    "commercial_candidate": false,
+    "first_external_value_flow": "NOT_PROVEN"
+  },
+  "china_case": {
+    "source_url": "https://www.bidcenter.com.cn/news-430389654-1.html",
+    "organization": "Shaanxi Yanchang China Coal Yulin",
+    "published_date": "2026-07-14",
+    "equipment_context": "D-type filter inlet electric valve",
+    "problem": "internal mechanical wear; original old complete-set spare discontinued",
+    "recovery_behavior": "uses electric actuator heads dismantled from other places and combines them with procured IB4 gearboxes for repair/reuse",
+    "target_family": "ROTORK IQ12 / IB4",
+    "stock_state": "zero"
+  },
+  "external_donor_candidates": [
+    {
+      "source_url": "https://www.ebay.com/itm/285113704183",
+      "family": "ROTORK IQ12 FA10 B4 with IB4 gearbox",
+      "condition": "USED",
+      "exact_compatibility": "UNPROVEN"
+    },
+    {
+      "source_url": "https://www.ebay.com/itm/115624347856",
+      "family": "ROTORK IQ12 FA10 B4 with IB4 gearbox",
+      "condition": "USED",
+      "exact_compatibility": "UNPROVEN"
+    }
+  ],
+  "compatibility_unknowns": [
+    "voltage_phase",
+    "50_60hz_speed_configuration",
+    "flange_interface",
+    "stem_coupling",
+    "torque_configuration",
+    "control_generation",
+    "environmental_rating",
+    "load_condition"
+  ],
+  "next_test_surface": {
+    "family": "PLC_AND_INDUSTRIAL_CONTROL_MODULES",
+    "rationale": "exact order numbers, lifecycle status and used inventory are easier to verify objectively than mechanical assemblies",
+    "example_order_number": "6ES7314-6EH04-0AB0",
+    "example_lifecycle": "PRODUCT_PHASE_OUT",
+    "same_case_route": "NOT_PROVEN"
+  },
+  "truth_boundaries": [
+    "ONE_INTERNAL_DONOR_BEHAVIOR_NE_CROSS_ENTERPRISE_MARKET",
+    "SAME_PRODUCT_FAMILY_NE_VERIFIED_COMPATIBILITY",
+    "USED_LISTING_NE_HARVEST_ROUTE",
+    "SEARCH_ABSENCE_NE_MARKET_GAP",
+    "PARTIAL_PASS_NE_COMMERCIAL_PROMOTION"
+  ]
+}

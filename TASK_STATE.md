@@ -47,7 +47,7 @@ liability and repeatability.
 
 ## Current Phase
 
-`SCAN_004_F1_PUBLIC_ARTIFACT_FALSIFICATION_PENDING`
+`SCAN_004_F1_PUBLIC_ARTIFACT_CONFIRMATION_001_PARTIAL_PASS`
 
 ## Attraction status
 
@@ -134,15 +134,12 @@ Search absence is not proof.
 
 ## Last Verified Main
 
-Functional main before this Scan 004 branch:
+`afbb26d5b8333a3f90b3f634c2376e2401c0fd9c`
+— squash merge of PR #274, `Persist clean-slate Attraction Scan 004`.
 
-`23132790124b88bc46b2aecddc2630c2213ddce7`
-
-PR #272 main CI:
-- CI #825 / run `35486141396`: success.
-
-Post-merge control-plane checkpoint:
-- PR #273 merged.
+Verified:
+- PR #274 CI #827 / run `35486913638`: success;
+- main CI #828 / run `35487004637`: success.
 
 ## Active Issue
 
@@ -150,21 +147,23 @@ Post-merge control-plane checkpoint:
 
 ## Active Branch
 
-`feature/attraction-scan-004-clean-slate`
+`feature/scan004-f1-public-artifact-confirmation`
 
 ## Active PR
 
-Not opened yet at this checkpoint.
+Not opened yet for Public Artifact Confirmation 001.
 
 ## CI
 
-Pending for the Scan 004 branch / PR.
+Scan 004 PR #274 and merged main are green. Confirmation 001 branch CI will run after PR creation.
 
 ## Latest Artifact / Persisted State
 
-New:
+New/current:
 - `docs/research/ATTRACTION_SCAN_004_2026-09-20.md`
 - `data/research_runs/attraction_scan_004.json`
+- `docs/research/ATTRACTION_SCAN_004_F1_PUBLIC_ARTIFACT_CONFIRMATION_001_2026-09-20.md`
+- `data/research_runs/attraction_scan_004_f1_public_artifact_confirmation_001.json`
 
 Canonical controls:
 - `src/attraction_discovery.py`
@@ -190,6 +189,10 @@ Machine state:
 - retained one high-attraction beacon: Legacy Equipment Harvest Parts Graph;
 - persisted Scan 004 narrative and machine-readable truth;
 - kept active commercial candidates at zero.
+- directly confirmed a 2026 China industrial operator using an actuator head dismantled from elsewhere because the original spare was discontinued;
+- found independent current used IQ12 + IB4 donor-market candidates;
+- refused to claim compatibility because voltage/speed/flange/coupling/torque/control-generation details remain unproven;
+- classified Public Artifact Confirmation 001 as a partial pass, not a commercial promotion.
 
 ## Current Findings
 
@@ -228,12 +231,27 @@ maintenance labor.
 
 But the bridge is not yet proven in China's general industrial market.
 
+Public Artifact Confirmation 001 strengthens the mechanism:
+- intra-enterprise donor-organ reuse is directly observed in a current China case;
+- external used donor inventory for the same broad actuator/gearbox family exists;
+- exact cross-enterprise compatibility remains unproven.
+
+Current truth:
+
+```text
+INTRA_ENTERPRISE_DONOR_BEHAVIOR = CONFIRMED
+EXTERNAL_DONOR_CANDIDATE = CONFIRMED
+CROSS_ENTERPRISE_EXACT_COMPATIBILITY = NOT_PROVEN
+COMMERCIAL_CANDIDATE = NO
+```
+
 ## Blockers
 
 No engineering blocker.
 
 Research blockers:
-- no same-case China-side live part → independent donor route has been demonstrated;
+- one China-side intra-enterprise donor behavior is confirmed, but no exact cross-enterprise China donor route has been demonstrated;
+- independent used donor candidates exist for the same broad IQ12 + IB4 family, but exact electrical/mechanical compatibility is unproven;
 - exact China incumbent coverage remains incomplete;
 - compatibility may require bespoke engineering;
 - harvest may be uneconomic when sellers require whole-machine sale;
@@ -248,22 +266,35 @@ Commercial blockers:
 
 ## Next Action
 
-Run exactly one public-artifact falsification:
+Run the next cheapest falsification on a more objectively identifiable equipment family.
 
-1. find one current China-side hard-to-find / discontinued, non-safety-critical
-   industrial component situation;
-2. preserve exact equipment/part identity evidence;
-3. search independent idle-equipment, auction, dismantling and used-parts sources for
-   a compatible donor;
-4. determine whether compatibility can be evidenced without bespoke founder diagnosis;
-5. estimate whether harvest/test/logistics are plausible relative to the avoided
-   sourcing delay;
-6. record a hard result:
-   - `DONOR_ROUTE_EVIDENCED`,
-   - `NO_DONOR_ROUTE_FOUND`,
-   - or `EXPERT_JUDGMENT_REQUIRED / FORMATION_WEAKENED`.
+Priority test surface:
+`PLC / INDUSTRIAL CONTROL MODULES`.
 
-Do not contact a buyer or seller yet.
+Reason:
+- exact manufacturer order numbers are public;
+- lifecycle / phase-out status is often official;
+- used/refurbished supply can be independently searched;
+- compatibility is more enumerable than a mechanical assembly.
+
+Required proof chain:
+
+```text
+CURRENT CHINA INSTALLED-ASSET NEED
+→ EXACT DISCONTINUED / PHASE-OUT PART NUMBER
+→ INDEPENDENT CURRENT DONOR / USED SOURCE
+→ OBJECTIVE COMPATIBILITY EVIDENCE
+→ CONDITION / TEST EVIDENCE
+```
+
+Current seed:
+`Siemens 6ES7314-6EH04-0AB0`.
+
+Do not call this route proven until the buyer-side need and the donor-side identity
+refer to the exact compatible order number/revision and the source is current.
+
+If repeated public-artifact attempts require bespoke engineering judgment or cannot
+close the identity chain, demote F1.
 
 ## Do Not Repeat
 
