@@ -106,10 +106,10 @@ Xiaozhi/Bearhome:
 
 ## Last Verified Main
 
-`b292bd25e05d817fb62a5b2ba2df09a38b21f106`
-— squash merge of PR #299, `Sync recovery checkpoint after Gate A Wave 1 readiness`.
+`433108d0eb5ae8674a0b9fdc652752e92191b8ed`
+— squash merge of PR #300, `Advance Scan 015 F1 Gate A to Wave 1 sent state`.
 
-PR #299 head CI #880 passed before merge.
+PR #300 head CI #882 passed before merge.
 
 ## Active Issue
 
@@ -117,11 +117,11 @@ PR #299 head CI #880 passed before merge.
 
 ## Active Branch
 
-`feature/scan015-f1-wave1-sent`
+None. Current canonical state is on `main`.
 
 ## Active PR
 
-Not opened yet for Wave 1 sent-state checkpoint.
+None. PR #300 is merged.
 
 ## CI
 
@@ -137,6 +137,7 @@ PR #296 / CI #874 succeeded.
 PR #297 / CI #876 succeeded.
 PR #298 / CI #878 succeeded.
 PR #299 / CI #880 succeeded.
+PR #300 / CI #882 succeeded.
 
 ## Latest Artifact / Persisted State
 
@@ -179,7 +180,8 @@ Engineering:
 - PR #297 recovery checkpoint is merged and green.
 - PR #298 Gate A Wave 1 outreach-readiness checkpoint is merged and green.
 - PR #299 recovery checkpoint is merged and green.
-- Current Wave 1 sent-state checkpoint PR/CI is not yet complete.
+- PR #300 Wave 1 sent-state checkpoint is merged and green.
+- No engineering blocker remains.
 
 Research:
 1. public docs prove technical post-inspection/payment outcome visibility on at least Suhuanji and Xiaozhi, but cross-rail comparison/retention/derived-model rights remain UNKNOWN; same-layer public rights search has reached a useful ceiling;
