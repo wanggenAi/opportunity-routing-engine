@@ -56,5 +56,17 @@
   },
   "decisive_unknown": "TWO_RAIL_WRITTEN_CONFIRMATION_OF_CROSS_RAIL_NON_IDENTIFYING_OUTCOME_USE",
   "next_action": "OBTAIN_WRITTEN_RIGHTS_CONFIRMATION_FROM_AT_LEAST_TWO_OVERLAPPING_3C_RAILS",
-  "first_external_value_flow": "NOT_PROVEN"
+  "first_external_value_flow": "NOT_PROVEN",
+  "public_rights_risk": {
+    "aihuishou_consumer_terms": "NEGATIVE_SIGNAL_WRITTEN_PERMISSION_REQUIRED",
+    "partner_contract_override_status": "UNKNOWN",
+    "implication": "DO_NOT_INFER_DERIVATIVE_DATA_RIGHT_FROM_API_ACCESS"
+  },
+  "incumbent_search": {
+    "quote_comparison_behavior": "OBSERVED",
+    "competitor_quote_matching": "OBSERVED_JIUMAO",
+    "exact_neutral_cross_rail_realized_payout_router": "NOT_ESTABLISHED",
+    "absence_proven": false
+  },
+  "response_rubric": "docs/research/ATTRACTION_SCAN_015_F1_RIGHTS_RESPONSE_RUBRIC.md"
 }
