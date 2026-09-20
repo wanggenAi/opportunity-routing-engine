@@ -1,0 +1,55 @@
+{
+  "schema_version": "gate-b-inbound-preflight.v1",
+  "formation_id": "ATTRACTION_SCAN_015-F1",
+  "as_of_date": "2026-09-20",
+  "status": "PREPARED_NOT_PUBLISHED",
+  "gate_b": "NOT_RUN",
+  "gate_a_dependency": "PARTIAL_PASS_RIGHTS_UNKNOWN",
+  "hypothesis": "A real used-device seller can self-reveal through a platform-native Agent/Skill discovery surface and ask for expected-final-realized-payout routing without recurring founder distribution.",
+  "surfaces": {
+    "qianwen_ai_skills_hub": {
+      "discovery_infrastructure": "PASS",
+      "public_publish_path": "PASS",
+      "audience": "AGENT_CLIENT_USERS",
+      "qualified_used_device_seller_intent": "NOT_PROVEN"
+    },
+    "qianwen_app_third_party_agent": {
+      "consumer_surface": "PASS_CURRENT_PUBLIC_EVIDENCE",
+      "third_party_enterprise_opening": "PASS_CURRENT_PUBLIC_EVIDENCE",
+      "self_service_entry_for_this_operator": "UNKNOWN",
+      "organic_used_device_seller_invocation": "NOT_PROVEN"
+    },
+    "onekey_mcp": {
+      "market_discovery": "PASS",
+      "callable_from_agents": "PASS",
+      "provider_onboarding": "REQUIRED",
+      "current_provider_path": "CAN_BE_INVITE_ONLY",
+      "end_user_seller_intent": "NOT_PROVEN"
+    }
+  },
+  "experiment": {
+    "artifact_path": "experiments/scan015_f1_gate_b_skill/SKILL.md",
+    "published": false,
+    "transaction_execution": false,
+    "real_platform_quotes": false,
+    "collects_personal_data": false,
+    "founder_distribution_allowed_as_gate_evidence": false,
+    "paid_acquisition_allowed_as_gate_evidence": false,
+    "synthetic_prompts_allowed_as_gate_evidence": false,
+    "required_positive_events": [
+      "organic_market_search_install",
+      "organic_agent_invocation",
+      "qualified_sell_intent",
+      "routing_value_request"
+    ]
+  },
+  "preflight_verdict": "DISCOVERY_INFRASTRUCTURE_PASS_SELLER_INTENT_NOT_PROVEN",
+  "promotion_rule": "REPEATED_PLATFORM_NATIVE_DISCOVERY_TO_UNSOLICITED_QUALIFIED_SELL_INTENT_WITHOUT_FOUNDER_DISTRIBUTION",
+  "kill_rules": [
+    "ONLY_FOUNDER_DISTRIBUTED_TRAFFIC",
+    "DEVELOPER_INSTALLS_WITHOUT_REAL_SELL_INTENT",
+    "RECURRING_MANUAL_ACQUISITION_REQUIRED"
+  ],
+  "publication_gate": "DO_NOT_PUBLISH_AS_LIVE_ROUTER_UNTIL_GATE_A_RIGHTS_ARE_BOUNDED",
+  "first_external_value_flow": "NOT_PROVEN"
+}
