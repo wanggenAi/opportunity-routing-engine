@@ -12,11 +12,10 @@ def load(path):
 
 
 def test_validation_wait_does_not_block_broad_discovery():
-    mission = load(MISSION)
-    policy = mission["discovery_concurrency"]
-    assert policy["validation_wait_does_not_block_discovery"] is True
-    assert policy["active_formations_must_not_seed_new_broad_scan"] is True
-    assert policy["active_formation_validation_queue_is_separate"] is True
+    scan = load(SCAN)
+    assert scan["search_mode"] == "PARALLEL_BROAD_REALITY_WHILE_EXISTING_VALIDATION_WAITS"
+    assert scan["inherited_active_formation_as_seed"] is False
+    assert "ATTRACTION_SCAN_015-F1" in scan["parallel_validation_queue"]
 
 
 def test_active_used_device_formation_is_not_a_broad_scan_seed():
