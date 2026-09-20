@@ -4,117 +4,107 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Run `ATTRACTION_SCAN_011` from a clean slate.
+Run `ATTRACTION_SCAN_012` from a clean slate.
 
 Working search target:
 
-`PRIVATE CONTEXT × PUBLIC LIVE RAIL × PAID MACHINE DECISION`
+`PRIVATE EXCEPTION EVENT × OPEN FAILOVER RAIL`
 
-Do not continue any Scan 001-010 formation as an inherited candidate.
+Do not continue any Scan 001-011 formation as an inherited candidate.
 
 ## Goal
 
-Find one high-attraction structure where the user/enterprise already carries private
-current state inside an Agent/workflow and a reusable machine function joins that state
-to a separate live public/partner resource or action rail in order to change a real
-economic decision.
+Find one high-attraction route where a private system detects a transient exception
+that starts a real loss clock and a reusable machine function can switch the affected
+unit into a separate, truly callable external substitute rail before the decision
+window closes.
 
 Preferred shape:
 
 ```text
-PRIVATE CURRENT STATE ALREADY PRESENT IN WORKFLOW
+NORMAL ROUTE ALREADY ACTIVE
 +
-SEPARATE LIVE EXTERNAL RESOURCE / REGISTRY / MARKET / ACTION RAIL
+PRIVATE MACHINE-OBSERVABLE EXCEPTION
 +
-EXTERNAL PLATFORM CANNOT PRECOMPUTE ANSWER WITHOUT PRIVATE STATE
+RAPID / LEGIBLE LOSS CLOCK
 +
-NARROW MACHINE-RESOLVABLE JOIN
+SHORT BUT OPEN DECISION WINDOW
 +
-LIVE ECONOMIC DECISION WINDOW
+STANDARDIZED SUBSTITUTE OBJECT
 +
-STABLE INVOCATION / ACTION RAIL
+EXTERNAL LIVE AVAILABILITY + PRICE/QUOTE + ACTION
 +
-NATIVE PER-USE MACHINE PAYMENT
+NO INCUMBENT OWNS EVENT + FAILOVER END-TO-END
 +
-NO COLD ACQUISITION / INVENTORY / HUMAN DELIVERY / RECURRING EXPERT WORK
+MACHINE-RESOLVABLE SWITCH
 +
-OUTCOME COMPOUNDS ROUTING LOGIC / COVERAGE
+NATIVE MACHINE PAYMENT
++
+NO RECURRING EXPERT / SALES / DELIVERY
 → HIGH-ATTRACTION BEACON
 ```
 
 ## Current Unique Commercial Research Goal
 
 Find one China-primary structure where:
-1. meaningful private current context naturally exists before our intervention;
-2. a separate external resource/action universe is current and callable;
-3. the decisive join is not already owned by the external platform or a mature incumbent;
-4. the join changes an immediate economic action;
-5. matching/eligibility/compatibility is machine-resolvable;
-6. the machine capability can be discovered/invoked repeatedly;
-7. native per-use/per-call payment exists;
-8. recurring founder search, sales, expert interpretation and delivery are absent.
+1. a private workflow already knows the normal route and detects the exception;
+2. the exception materially changes the value of an external substitute now;
+3. waiting creates measurable loss rather than mere inconvenience;
+4. substitute availability and action are exposed under stable machine-callable rules;
+5. compatibility/eligibility can be resolved without recurring human expertise;
+6. neither incumbent side already controls the complete event-to-failover loop;
+7. the operator can be a machine routing layer rather than an enterprise consultant;
+8. repeated events compound routing data and performance.
 
 If none exists, retain zero.
 
 ## Current Phase
 
-`SCAN_011_PRIVATE_CONTEXT_X_PUBLIC_LIVE_RAIL_X_PAID_MACHINE_DECISION`
+`SCAN_012_PRIVATE_EXCEPTION_EVENT_X_OPEN_FAILOVER_RAIL`
 
 ## Current Findings
 
-Scan 010 resolved important infrastructure uncertainty:
-- natural-language intent can trigger skill discovery across remote markets;
-- machine-native per-use settlement exists;
-- live paid Skills using HTTP 402/A2M-style payment exist;
-- generic public-data/public-rule routing is usually already commoditized or platformized;
-- private context can preserve an unowned join only when incumbents do not already ingest that context as a standard input.
+Scan 011 completed with zero retained formations.
 
-Current strongest residual topology:
+The decisive learning is:
 
 ```text
-PRIVATE CURRENT STATE
-×
-EXTERNAL LIVE RAIL
-×
-UNOWNED CROSS-DOMAIN JOIN
-×
-PAID MACHINE DECISION
+STATIC PRIVATE CONTEXT IS NOT ENOUGH
+VALUABLE PLATFORMS INTEGRATE UPSTREAM
+TRANSIENT EXCEPTION TIMING MAY PRESERVE AN UNOWNED EDGE
+SEARCHABLE SUBSTITUTE != CALLABLE FAILOVER
 ```
 
-## Scan 010 result
+Strong near-misses killed in Scan 011:
+- production exception → external on-demand manufacturing:
+  real urgent outsourcing behavior and strong transaction rails, but Xometry/1688 and
+  ERP/MES integration already move across the private/external boundary;
+- lab instrument outage/full queue → external shared instrument:
+  large external resource pool, but conditional sharing, sample/method review and
+  manual approval make the general action rail non-callable;
+- equipment breakdown → external equipment rental/replacement:
+  digital rental rails exist, but OEM industrial platforms already connect telemetry,
+  fault response and rental/service;
+- urgent MRO shortage → live industrial inventory:
+  procurement/VMI stacks already productize emergency sourcing and channel ordering.
 
-`ATTRACTION_SCAN_010` completed with:
+## Scan 011 result
+
+`ATTRACTION_SCAN_011` completed with:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 
-Mechanisms confirmed:
-- intent-driven Skill discovery;
-- machine-native per-use settlement;
-- live discoverable paid machine capability.
-
-Directions killed included:
-- generic model routing;
-- standards validity checking;
-- tender/bid compliance;
-- policy/subsidy matching;
-- VIN/parts/component cross-reference;
-- laboratory/certification routing;
-- private repo × public vulnerability/license data;
-- seller SKU × platform compliance rules;
-- generic tariff/FTA lookup;
-- current private-equipment × open spare route, because a complete callable cross-enterprise route remains unproven.
-
 ## Last Verified Main
 
-`efedde6a4be5e7b5d07b074fd2a59426f797b9e0`
-— squash merge of PR #282, `Persist zero-retention Attraction Scan 009`.
+`daaed31a0e9db05bdee5511525c40c3899efd11d`
+— squash merge of PR #283, `Persist zero-retention Attraction Scan 010`.
 
 Verified:
-- PR #282 final head `c0eb6b9e39669f15bded4d399621692c56412287`;
-- CI #844 / run `35495556387`: success;
-- PR #282 merged at 2026-09-20T06:57:39Z.
+- PR #283 head `6b421db7ca4c6904bab481cac4f6272740a69618`;
+- CI #846 / run `35495881761`: success;
+- PR #283 merged successfully.
 
 ## Active Issue
 
@@ -122,7 +112,7 @@ Verified:
 
 ## Active Branch
 
-`feature/attraction-scan-010-zero-retention`
+`feature/attraction-scan-011-zero-retention`
 
 ## Active PR
 
@@ -130,13 +120,13 @@ Not opened yet.
 
 ## CI
 
-Pending for Scan 010 persistence branch.
+Pending for Scan 011 persistence branch.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `docs/research/ATTRACTION_SCAN_010_2026-09-20.md`
-- `data/research_runs/attraction_scan_010.json`
+- `docs/research/ATTRACTION_SCAN_011_2026-09-20.md`
+- `data/research_runs/attraction_scan_011.json`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -146,23 +136,25 @@ Updated:
 
 ## Completed
 
-- completed and merged Scan 009 persistence in PR #282 after fixing the repository recovery contract;
-- executed Scan 010 across current skill discovery/payment infrastructure and multiple economic decision categories;
-- confirmed intent-driven remote Skill discovery;
-- confirmed machine-native per-use settlement and a live paid VIN lookup Skill;
-- killed generic public/public decision routers that are already productized;
-- tested private-context routes and rejected private repository state as sufficient differentiation because mature SCA products already own that join;
+- executed Scan 011 across manufacturing failover, scientific-instrument sharing,
+  equipment rental/replacement and urgent MRO procurement;
+- confirmed private-state economic triggers are real;
+- rejected manufacturing failover because incumbent marketplace/workflow integration is already advancing across the boundary;
+- rejected general scientific-instrument failover because action/compatibility remain too manual;
+- rejected equipment-rental failover where OEM telemetry/service platforms already own the edge;
+- rejected urgent MRO routing because procurement/VMI/channel systems already productize it;
 - retained zero high-attraction beacons;
-- retargeted Scan 011 to private context × external live rail × paid machine decision.
+- retargeted Scan 012 to transient private exception × open failover rail.
 
 ## Blockers
 
 Engineering:
-- Scan 010 persistence PR/CI/merge not yet complete.
+- Scan 011 persistence PR/CI/merge not yet complete.
 
 Research:
 - no current HIGH_ATTRACTION_BEACON exists;
-- no specific private-context × external-live-rail join has yet survived incumbent and actionability tests.
+- no failover rail has yet shown all of: transient private event, loss clock, standardized
+  substitute, machine-callable availability/action and unowned event-to-rail bridge.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0;
@@ -172,28 +164,29 @@ Commercial:
 
 ## Next Action
 
-Finish PR/CI/merge for Scan 010 persistence, then execute `ATTRACTION_SCAN_011`.
+Finish PR/CI/merge for Scan 011 persistence, then execute `ATTRACTION_SCAN_012`.
 
-Scan 011 discipline:
-1. reopen broad reality; do not make AI/Skill ecosystems the ontology;
-2. start from private state already present in user/enterprise workflows;
-3. pair it with a separate live external resource/action universe;
-4. require the join to change a live economic action;
-5. kill cases where a mature incumbent already ingests the same private state;
-6. require machine-resolvable compatibility/eligibility/routing;
-7. require a callable action rail and native machine settlement;
-8. reject recurring expert interpretation, consulting, search, sales and delivery;
-9. apply all current attraction hard floors before Pareto;
-10. retain zero again if necessary.
+Scan 012 discipline:
+1. reopen broad reality; "exception" is a search topology, not an industry;
+2. require a normal route to have worked before the exception;
+3. require a machine-observable private exception and a real loss clock;
+4. require an external standardized substitute;
+5. require live availability plus callable price/quote and transaction/booking action;
+6. kill rails that still depend on manual negotiation/approval;
+7. kill cases where event detection and failover are already owned by one incumbent;
+8. require machine-resolvable compatibility/eligibility;
+9. reject recurring enterprise consulting, acquisition, sales and delivery;
+10. apply all attraction hard floors before Pareto and retain zero if necessary.
 
 ## Do Not Repeat
 
-- Do not revive any Scan 001-010 formation as a candidate.
-- Do not treat private data/context itself as a moat.
-- Do not rebuild SCA/SBOM, generic bid checking, generic policy matching, generic lab matching or generic public-data lookup.
-- Do not treat paid-Skill infrastructure as opportunity proof.
-- Do not build a generic AI tool simply because Machine Pay exists.
-- Do not lower the attraction threshold to avoid another zero-result scan.
+- Do not revive any Scan 001-011 formation as a candidate.
+- Do not retry generic manufacturing-capacity matching.
+- Do not retry generic shared-instrument search.
+- Do not retry generic equipment-rental discovery.
+- Do not retry generic urgent-MRO procurement.
+- Do not treat a searchable external catalog as a failover rail.
+- Do not lower callability or matching floors to keep a near-miss.
 
 ## Guardrails
 
@@ -203,9 +196,9 @@ Scan 011 discipline:
 - BILATERAL_MOTION remains required.
 - ACTION_GATE_CALLABILITY remains a hard floor.
 - PRIVATE_CONTEXT != MOAT.
-- MACHINE_PAYABLE != HIGH_ATTRACTION.
-- PUBLIC_PUBLIC_GENERAL_RULE_ROUTING_COMMODITIZES_QUICKLY.
-- PRIVATE_X_PUBLIC_JOIN must remain outside incumbent ownership.
+- PRIVATE_EXCEPTION != OPPORTUNITY.
+- SEARCHABLE_SUBSTITUTE != CALLABLE_FAILOVER.
+- LOSS_CLOCK should materially change routing value.
 - Hard attraction floor precedes Pareto.
 - UNKNOWN != PASS.
 - Infer broadly; retain conservatively.
