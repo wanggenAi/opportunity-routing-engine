@@ -182,7 +182,7 @@ It is:
 | Dimension | Aihuishou | Xiaozhi/Bearhome | Suhuanji |
 | --- | --- | --- | --- |
 | R1 multi-rail comparison | UNKNOWN | UNKNOWN | UNKNOWN |
-| R2 final-outcome visibility | UNKNOWN_PUBLIC | PASS | PASS |
+| R2 final-outcome visibility | UNKNOWN_PUBLIC | PASS | PASS_STRONG_DATA_CLOSURE |
 | R3 non-identifying retention | UNKNOWN | UNKNOWN | UNKNOWN |
 | R4 future derived routing use | UNKNOWN | UNKNOWN | UNKNOWN |
 | R5 benchmark/ranking | UNKNOWN | UNKNOWN | UNKNOWN |
@@ -192,3 +192,15 @@ It is:
 
 No row above may be upgraded from inference/unknown without current attributable written
 evidence.
+
+
+## Suhuanji contact integrity rule
+
+The current Open Platform says credentials require contact with Suhuanji business
+staff, but no current verifiable public email/phone endpoint has been established.
+
+Until an official endpoint is verified:
+
+`DO_NOT_CONTACT_LOOKALIKE_BRANDS_OR_INFER_CORPORATE_IDENTITY`.
+
+Technical API evidence remains usable; outreach evidence does not.
