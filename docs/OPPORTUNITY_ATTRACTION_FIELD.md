@@ -269,6 +269,36 @@ INDEPENDENT REDISCOVERY != CASE REVIVAL
 
 If current reality independently regenerates a structure similar to a deleted historical case, evaluate it from zero using current evidence and give it a new `ATTRACTION_SCAN_*` identity.
 
+## 7B. Value-chain leverage and intervention timing — LOCKED
+
+Attraction is not only about whether both sides would like an improved state. It also
+depends on **where the bridge sits relative to value allocation and decision rights**.
+
+Before a formation can consume scarce external validation, classify:
+- intervention stage;
+- decision mobility;
+- economic proximity;
+- consequence if the bridge is absent;
+- observed/inferred participant pull.
+
+Default demotion applies when:
+- intervention occurs at closeout or after the transaction;
+- budget, vendor, scope and most value allocation are already locked;
+- the bridge primarily improves process quality;
+- absence causes only delay, rework or minor friction.
+
+```text
+REAL FRICTION != ATTRACTIVE POSITION
+MONEY ALREADY ALLOCATED != HIGH COMMERCIAL ENERGY
+LATE-STAGE CONVENIENCE != STRATEGIC CONTROL POINT
+```
+
+A late-stage position survives only if it still controls payment/value release,
+prevents material economic loss/risk, satisfies a hard compliance/safety boundary,
+or determines whether the transaction can complete.
+
+Canonical executable gate: `src/attraction_leverage.py`.
+
 ## 8. Current-stage priority rule
 
 For current founder attention, prefer formations where:
