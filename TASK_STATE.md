@@ -4,44 +4,42 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Run:
+Run `ATTRACTION_SCAN_004` under the corrected **ATTRACTION-FIRST** discovery order.
 
-`ATTRACTION_SCAN_004`
+Do not resume `ATTRACTION_SCAN_003-F1`.
+Do not send the prepared AI Agent acceptance-validation draft.
 
-under the corrected **ATTRACTION-FIRST discovery order**.
+## Goal
 
-Do not continue `ATTRACTION_SCAN_003-F1`.
-Do not send the prepared AI Agent acceptance-validation email.
+Discover a genuinely high-attraction latent value channel, not merely a real friction.
 
-## Why the prior formation was demoted
+The next retained formation must be something that is compelling before product design:
+both sides are already moving, the state-dependent value jump is large, important
+decisions are still movable, the missing bridge is narrow relative to the value it
+unlocks, and the operator can own routing/control rather than recurring labor.
 
-`ATTRACTION_SCAN_003-F1 — AI CUSTOM-SERVICE ACCEPTANCE RAIL` contained real
-acceptance friction and technically machine-verifiable structure, but its commercial
-position was too downstream.
+## Current Unique Commercial Research Goal
 
-Default intervention point:
-- buyer has already decided to buy;
-- provider is already chosen;
-- budget/scope are substantially fixed;
-- most project value has already been created/allocated;
-- the remaining problem is mainly closeout / acceptance / retest quality.
+Find one current, evidence-backed `HIGH_ATTRACTION_BEACON` from broad Chinese reality
+that satisfies the attraction-first floor before deep causal descent.
 
-Therefore:
+Required high-attraction dimensions:
+- A-side voluntary motion;
+- B-side voluntary motion;
+- sharp state-dependent value jump;
+- decision window still materially movable;
+- bridge compression: narrow edge / disproportionate unlock;
+- low enough activation and explanation burden;
+- self-propulsion after successful routing;
+- operator control without recurring founder delivery or per-transaction founder sales.
 
-```text
-REAL FRICTION = YES
-TECHNICAL VERIFIABILITY = YES
-STRONG COMMERCIAL ATTRACTION = NO
-VALUE-CHAIN LEVERAGE = WEAK_DOWNSTREAM
-COMMERCIAL CANDIDATE = NO
-RETAINED RESEARCH FORMATION = NO
-```
+Weakest-link dominated: do not average away a dead side.
 
-## Corrected discovery doctrine
+## Current Phase
 
-Attraction is now the **first attention-allocation premise**.
+`SCAN_004_ATTRACTION_FIRST_REALITY_SENSING`
 
-Canonical order:
+Canonical discovery order:
 
 ```text
 BROAD CURRENT REALITY
@@ -61,74 +59,178 @@ BROAD CURRENT REALITY
 Attraction decides where to look first.
 Evidence decides what may be believed.
 
-## High-Attraction Beacon — required
+## Last Verified Main
 
-A reality pattern receives deep discovery attention only when evidence supports a
-strong combination of:
+`ee472b66da1201603fb4b0e670752f73827ac495`
+— squash merge of PR #270, `Make attraction the first discovery premise`.
 
-1. **A-side voluntary motion**
-   - A is already spending time/money/effort/reputation or using workarounds;
-   - A does not need to be educated into caring.
+Verified on main:
+- CI #822 / run `35485818516`: success;
+- research-mission-plan run #4 / `35485818545`: success;
+- research plan artifact `research-mission-plan-state`, artifact id `10597650161`;
+- generated mission id `ATTRACTION_FIELD_BROAD_REALITY_V1`;
+- generated query count = 60;
+- unique query count = 60;
+- coverage state = `CALIBRATION_ONLY` because planning succeeded but broad internet evidence has not yet been executed.
 
-2. **B-side voluntary motion**
-   - B is already searching, paying, waiting, substituting, bypassing or sacrificing;
-   - B does not merely have a theoretical benefit.
+## Active Issue
 
-3. **Large state-dependent value jump**
-   - the same resource/capability/access becomes much more valuable in B's current
-     state;
-   - the before/after contrast is immediately legible.
+#143 — `P0: Clean-slate Attraction Field → first external value flow`.
 
-4. **Movable decision window**
-   - budget, vendor, access, scope, rights or resource allocation are still open or
-     materially movable;
-   - value has not already been mostly allocated.
+## Active Branch
 
-5. **Bridge compression**
-   - a relatively narrow missing edge can unlock a disproportionately large state
-     change;
-   - the bridge is not the whole service/product delivery.
+None for commercial research.
 
-6. **Low enough activation / explanation burden**
-   - participants do not require long education, persuasion or behavior change before
-     seeing why they should move.
+This handoff-only checkpoint branch is:
+`feature/attraction-first-postmerge-state`.
 
-7. **Self-propulsion**
-   - after one successful route, trust/data/access/coverage/behavior makes the next
-     route easier.
+## Active PR
 
-8. **Operator control without recurring labor**
-   - the operator owns routing/orchestration/control;
-   - founder delivery or founder sales per transaction is not the engine.
+None for business/architecture work.
 
-Weakest-link dominated:
-a dead participant side, locked decision window, weak value jump, high explanation
-burden or founder labor prevents `HIGH_ATTRACTION_BEACON`.
+PR #270 is merged.
+
+## CI
+
+Latest business/architecture verification:
+- PR #270 head CI #821: success;
+- main CI #822: success;
+- main research-mission-plan run #4: success.
+
+The production research-plan workflow now points to:
+`data/research_missions/attraction_field_broad_reality.json`.
+
+## Latest Artifact / Persisted State
 
 Canonical implementation:
-- `src/attraction_discovery.py`
-- `src/attraction_leverage.py`
+- `src/attraction_discovery.py` — pre-formation attraction beacon;
+- `src/attraction_leverage.py` — value-chain position / intervention-timing gate;
+- `src/research_control_plane.py` — supports `attention_mode = ATTRACTION_FIRST`.
 
-## What “wow” means operationally
+Canonical doctrine/state:
+- `AGENTS.md`;
+- `docs/OPPORTUNITY_ATTRACTION_FIELD.md`;
+- `docs/FORMAL_TRUTH.md`;
+- `docs/INTERNET_RESEARCH_CONTROL_PLANE.md`;
+- `data/commercial_reset_state.json`;
+- `data/research_missions/attraction_field_broad_reality.json`.
 
-The target is not novelty or a clever sentence.
+Resolved prior formation:
+- `docs/research/ATTRACTION_SCAN_003_F1_ATTRACTION_REASSESSMENT_2026-09-20.md`.
 
-Preferred reaction:
+Production planning artifact:
+- workflow run `35485818545`;
+- artifact `10597650161`;
+- state remains `CALIBRATION_ONLY` until real provenance-bearing research results are collected.
 
-> “原来这两边能这样接。一旦接上，价值一下就变了，而且两边本来就在往这里走。”
+## Completed
 
-Engineering translation:
+- Demoted `ATTRACTION_SCAN_003-F1 — AI CUSTOM-SERVICE ACCEPTANCE RAIL`.
+- Removed it from retained research formations.
+- Cancelled its planned bilateral outreach; draft remains `DO NOT SEND`.
+- Added attraction-first engineering rules with hard weakest-link floors.
+- Added a separate value-chain leverage gate so late/locked process frictions do not consume validation capital.
+- Rewrote the broad research mission from category/pain-point seeds to attraction-signal seeds.
+- Rewired the production research workflow to the real attraction-field mission file.
+- Preserved research mission identity so old capture contracts do not fail only because of a version rename.
+- Updated capture tests to the new attraction-first seed set.
+- PR #270 merged.
+- Main CI and production research-mission workflow both passed.
+
+## Current Findings
+
+The prior failure mode was not inability to find real friction. It was **attention-order error**.
+
+Old effective behavior:
 
 ```text
-OBSERVED VOLUNTARY MOTION
-+ SHARP STATE-DEPENDENT SURPLUS
-+ STILL-MOVABLE DECISION RIGHTS
-+ NARROW MISSING EDGE
-+ LOW EXPLANATION BURDEN
-+ SELF-PROPULSION
-+ ROUTER CONTROL
+REAL FRICTION
+→ DEEP RESEARCH
+→ CONNECTION DESIGN
+→ LATE ATTRACTION JUDGMENT
+```
+
+Corrected behavior:
+
+```text
+BROAD REALITY
+→ HIGH-ENERGY / HIGH-ATTRACTION SIGNALS FIRST
+→ ONLY STRONG BEACONS RECEIVE DEEP RESEARCH
+```
+
+Operational definition of the desired “wow”:
+
+```text
+A ALREADY WANTS TO MOVE
++ B ALREADY WANTS TO MOVE
++ CONNECTION CREATES A LARGE BEFORE/AFTER VALUE JUMP
++ MONEY / ACCESS / RIGHTS / RESOURCE DECISIONS ARE STILL MOVABLE
++ THE MISSING BRIDGE IS SMALLER THAN THE VALUE IT UNLOCKS
++ PARTICIPANTS UNDERSTAND THE BENEFIT WITHOUT LONG EDUCATION
++ ONE SUCCESS MAKES THE NEXT EASIER
++ OPERATOR OWNS ROUTING RATHER THAN DOING THE JOB
 = HIGH-ATTRACTION DISCOVERY BEACON
 ```
+
+This is not a numeric average. A dead critical dimension blocks high-attraction status.
+
+## Blockers
+
+Engineering blockers: none.
+
+Research blocker:
+- the production mission is planned but not yet executed against the live internet;
+- `CALIBRATION_ONLY` means there is no new broad Scan 004 evidence yet.
+
+Commercial blockers:
+- no Scan 004 formation exists yet;
+- ACTIVE COMMERCIAL CANDIDATES = 0;
+- RETAINED RESEARCH FORMATIONS = 0;
+- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN.
+
+## Next Action
+
+Execute `ATTRACTION_SCAN_004` from the current attraction-first 60-query mission.
+
+Execution discipline:
+1. sample broad current reality rather than inherit the AI-Agent vertical;
+2. harvest evidence of voluntary motion, state-dependent value jumps and still-open decision windows;
+3. form several attraction beacons before committing to a vertical;
+4. apply `src/attraction_discovery.py` first;
+5. deep-dive only `HIGH_ATTRACTION_BEACON` signals;
+6. then run causal descent, complementary-node search, connection-pressure and missing-edge tests;
+7. apply `src/attraction_leverage.py` before scarce external validation;
+8. retain zero formations if none genuinely produces the desired attraction.
+
+## Do Not Repeat
+
+- Do not continue Scan 003 F1 because prior research effort exists.
+- Do not send the prepared Scan 003 provider email.
+- Do not start from “what pain points exist?” and only score attraction at the end.
+- Do not start from “what services are people buying?”.
+- Do not start from “what can AI automate?”.
+- Do not inherit the previous industry or asset type.
+- Do not treat real friction as high attraction by default.
+- Do not let TAM, novelty or a clever story compensate for weak participant motion.
+- Do not average attraction dimensions.
+- Do not use late-stage process neatness as a substitute for control of value flow.
+- Do not make founder labor or founder cold outreach the recurring engine.
+- Do not build product/pricing before transaction truth.
+
+## Guardrails
+
+- GitHub live state is the operational source of truth.
+- Attraction first for attention; evidence first for truth.
+- `HIGH_ATTRACTION_BEACON != MARKET_VALIDATION`.
+- `REAL_FRICTION != ATTRACTIVE_POSITION`.
+- `LATE_STAGE_PROCESS_IMPROVEMENT != COMMERCIAL_LEVERAGE`.
+- A/B voluntary motion must be evidence-backed.
+- A still-movable decision window is required by default.
+- A late-stage opportunity may survive only when it still controls value/payment release, prevents material economic loss/risk, satisfies a hard compliance/safety boundary, or determines transaction completion.
+- Country/industry psychology may modify a case only with current evidence; do not hard-code stereotypes.
+- Founder/operator preference never manufactures participant demand.
+- UNKNOWN != PASS.
+- Infer broadly; retain conservatively.
 
 ## Active Commercial Epoch
 
@@ -141,199 +243,3 @@ Portfolio:
 - INHERITED WATCHLIST = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-
-## Current Phase
-
-`SCAN_004_ATTRACTION_FIRST_REALITY_SENSING`
-
-## Active Issue
-
-#143 — `P0: Clean-slate Attraction Field → first external value flow`.
-
-## Active Branch / PR
-
-Implementation branch:
-- `feature/attraction-leverage-gate`
-
-PR:
-- not opened yet at this checkpoint.
-
-## Current engineering correction
-
-Added:
-- `src/attraction_discovery.py` — attraction-first pre-formation beacon;
-- `src/attraction_leverage.py` — value-chain position / intervention timing gate;
-- tests for both;
-- doctrine updates in `AGENTS.md`, `docs/OPPORTUNITY_ATTRACTION_FIELD.md`,
-  `docs/FORMAL_TRUTH.md`;
-- Scan 003 F1 demotion artifact;
-- machine-readable commercial reset state updated for Scan 004.
-
-## Scan 004 search behavior
-
-Do not start from:
-- “what services are people buying?”;
-- “what pain points exist?”;
-- “what industry is growing?”;
-- “what can AI automate?”;
-- the previous AI-Agent vertical.
-
-Instead search current broad reality for **high-energy mismatches** such as:
-- actors repeatedly paying an ugly workaround while a cheaper/idle complement exists;
-- scarce access on one side and unused access/capability on another;
-- people already forming informal/manual exchange because the standard route is bad;
-- money/resource allocation decisions that are actively being made now;
-- sharp lifecycle/state transitions that abruptly change the value of existing
-  resources;
-- repeated queues, bypasses, resale, referrals, intermediaries, substitutions or
-  coordination hacks;
-- resources that are low-value to their owner but high-value to another actor in a
-  specific current state;
-- connections whose first successful route creates trust/data/access that compounds.
-
-Only after a high-attraction beacon appears should the engine spend substantial
-research effort proving the causal structure and missing edge.
-
-
-## Goal
-
-Make `ATTRACTION_SCAN_004` search from attraction first, then spend deep causal
-research only on high-attraction reality signals.
-
-## Current Unique Commercial Research Goal
-
-Discover one current, evidence-backed `HIGH_ATTRACTION_BEACON` whose two participant
-sides already show voluntary motion, whose value jump is large, whose decision window
-is still movable, and whose missing bridge can be owned as an orchestration layer
-without recurring founder labor.
-
-Do not inherit the AI-Agent vertical.
-
-## Last Verified Main
-
-`50693c2f7c546785a967052252a854eced6c4eb5`
-— `[skip ci] state: close Scan 003 F1 reality confirmation 001`.
-
-## Active Branch
-
-`feature/attraction-leverage-gate`
-
-## Active PR
-
-PR #270 — `Make attraction the first discovery premise`.
-
-## CI
-
-PR #270 CI run #814 / run `35485608417` failed only because the rewritten
-`TASK_STATE.md` omitted recovery-contract section headings. The attraction tests
-were not identified as failing. This checkpoint adds the required operational
-sections; the next PR-head CI run must be green before merge.
-
-## Latest Artifact / Persisted State
-
-- `src/attraction_discovery.py`
-- `src/attraction_leverage.py`
-- `tests/test_attraction_discovery.py`
-- `tests/test_attraction_leverage.py`
-- `docs/research/ATTRACTION_SCAN_003_F1_ATTRACTION_REASSESSMENT_2026-09-20.md`
-- `data/commercial_reset_state.json`
-- `docs/OPPORTUNITY_ATTRACTION_FIELD.md`
-- `docs/FORMAL_TRUTH.md`
-
-## Completed
-
-- Demoted `ATTRACTION_SCAN_003-F1` for weak downstream attraction.
-- Cancelled its planned outreach path; prepared draft remains `DO NOT SEND`.
-- Added an attraction-first discovery beacon with weakest-link hard floors.
-- Added a separate value-chain leverage / intervention-timing gate.
-- Made attraction the first discovery-attention premise in AGENTS and formal doctrine.
-- Reset active commercial research state to `ATTRACTION_SCAN_004`.
-- Opened PR #270.
-- Ran CI once; repository-recovery contract caught missing task-state headings.
-
-## Current Findings
-
-The previous system did not fail because it could not detect real friction. It failed
-because it treated attraction too late.
-
-Corrected principle:
-
-```text
-ATTRACTION FIRST FOR ATTENTION
-EVIDENCE FIRST FOR TRUTH
-```
-
-A high-attraction beacon requires all critical dimensions to survive. A large market,
-clever story or technically real pain cannot compensate for:
-- a dead participant side;
-- a locked decision window;
-- a weak state-dependent value jump;
-- a bridge that is actually the whole service;
-- high explanation/activation burden;
-- recurring founder sales/delivery;
-- no self-propulsion.
-
-## Blockers
-
-Engineering blocker:
-- PR #270 must pass CI after restoring required `TASK_STATE.md` recovery headings.
-
-Commercial blocker:
-- none yet, because Scan 004 has not begun.
-- the next work is broad current-reality sensing for high-attraction beacons, not
-  external outreach.
-
-## Next Action
-
-1. get PR #270 CI green;
-2. merge PR #270;
-3. verify `main`;
-4. begin `ATTRACTION_SCAN_004` using attraction-first reality sensing;
-5. collect several broad high-energy reality signals before deep-diving any one
-   vertical;
-6. deep-dive only signals that pass the canonical attraction beacon;
-7. retain zero formations if none is truly strong.
-
-## Guardrails
-
-- Attraction guides discovery attention; it does not manufacture truth.
-- Weakest-link rule: do not average away a dead attraction dimension.
-- A/B behavior evidence is required; theoretical surplus is not enough.
-- Decision rights and value allocation must still be materially movable unless a
-  late-stage bridge directly controls value/payment release or material loss.
-- “Wow” must come from disproportionate state change, not novelty or hype.
-- Do not inherit the previous vertical.
-- Do not send the cancelled Scan 003 F1 outreach.
-- Do not build a product before transaction truth.
-- Do not let founder labor become the missing edge.
-- GitHub live state wins over this file.
-
-## Do Not Repeat
-
-- Do not continue Scan 003 F1 merely because public research was already done.
-- Do not send the prepared provider outreach draft.
-- Do not treat a real friction as attractive by default.
-- Do not use downstream process quality as a substitute for value-chain leverage.
-- Do not average attraction dimensions into a flattering score.
-- Do not let a big TAM or clever story compensate for weak participant motion.
-- Do not turn “wow” into novelty hunting without evidence.
-- Do not inherit the previous vertical.
-- Do not build a product before transaction truth.
-- Do not make founder labor the missing edge.
-
-## Governing shorthand
-
-```text
-ATTRACTION FIRST FOR ATTENTION.
-EVIDENCE FIRST FOR TRUTH.
-
-A 想动
-+ B 想动
-+ 接上以后价值跃迁很大
-+ 钱/资源/决策还没锁死
-+ 缺的桥很窄
-+ 不需要长期教育
-+ 接一次以后越来越容易
-+ 根哥控制路由而不是亲自干活
-→ 才值得深挖
-```
