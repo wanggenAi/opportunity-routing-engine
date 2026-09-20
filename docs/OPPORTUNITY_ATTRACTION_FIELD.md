@@ -202,6 +202,49 @@ ATTRACTION FIELD = weakest critical attraction vector
 
 as a reasoning rule, not a numeric equation.
 
+## 4A. Multiple strong signals use a Pareto frontier
+
+Once several signals have already passed the hard `HIGH_ATTRACTION_BEACON` floor,
+do not collapse the critical attraction dimensions into one weighted score.
+
+Use Pareto dominance:
+
+> Signal X dominates Signal Y only when X is no worse on every critical attraction
+> dimension and strictly better on at least one.
+
+Critical objectives are currently:
+- A-side voluntary motion;
+- B-side voluntary motion;
+- state-dependent value jump;
+- movable decision window;
+- bridge compression;
+- activation ease;
+- self-propulsion;
+- operator control.
+
+The first deep-discovery attention set is the non-dominated frontier.
+
+Canonical implementation:
+`src/attraction_frontier.py`.
+
+This produces **attention tiers**, not a commercial ranking or probability estimate.
+
+```text
+HARD FLOOR
+→ PARETO FRONTIER
+→ DEEP DISCOVERY
+```
+
+not:
+
+```text
+WEIGHTED TOTAL SCORE
+→ DECLARE A WINNER
+```
+
+The reason is structural: these dimensions are not safely exchangeable. A better value
+jump cannot compensate for a weaker decision window or dead participant pull.
+
 ## 5. Required Attraction Brief for retained formations
 
 Every retained formation must state, in plain language:
