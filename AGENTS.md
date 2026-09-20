@@ -338,6 +338,29 @@ INDUSTRIAL B2B != DEFAULT WORLD
 TRANSFERABLE OBJECTIVE STRANDED UNIT != TOTAL COMMERCIAL WORLD MODEL
 ```
 
+## Value-chain leverage / intervention timing rule — LOCKED
+
+A formation may contain real friction and still be strategically unattractive because the intervention sits after most value has already been allocated.
+
+Before spending scarce human/external validation capital, explicitly classify:
+- `INTERVENTION_STAGE`: discovery / pre-commitment / commitment / execution / closeout / post-transaction;
+- `DECISION_MOBILITY`: are budget, vendor, scope, resource allocation or transaction terms still open, partially movable or locked?
+- `ECONOMIC_PROXIMITY`: does the bridge directly affect revenue/budget, material cost/risk, transaction enablement, or merely process quality?
+- `ABSENCE_CONSEQUENCE`: without the bridge, is the transaction blocked, is material value lost, is there only delay/rework, or merely minor friction?
+- `PARTICIPANT_PULL`: what behavior shows that participants want this state change rather than the analyst merely observing an imperfection?
+
+Use `src/attraction_leverage.py` as the canonical categorical gate before external validation.
+
+```text
+REAL FRICTION != ATTRACTIVE POSITION
+LATE-STAGE PROCESS IMPROVEMENT != COMMERCIAL LEVERAGE
+VALUE ALREADY ALLOCATED + DECISIONS LOCKED -> DEFAULT DEMOTION
+```
+
+Closeout/post-transaction opportunities are not automatically forbidden, but they survive only when the layer still controls payment/value release, prevents material economic loss/risk, satisfies a hard compliance/safety boundary, or determines whether the transaction can complete.
+
+Do not spend founder/outreach capital merely because a process can be improved.
+
 A white-portfolio scan must reopen broad reality rather than recursively inherit the previous candidate's industry, asset type or search lens. Deliberately counter-sample outside the prior vertical when the evidence allows it. Do not impose a fixed category quota or fabricate weak directions merely to appear broad.
 
 Every retained formation must include the Attraction Brief defined in `docs/OPPORTUNITY_ATTRACTION_FIELD.md`. Every white-portfolio scan must include a Drift Audit covering vertical lock-in, search-lens lock-in, industrial/inventory/professional-service over-selection, incumbent auto-kill and analyst-story attraction.
@@ -749,7 +772,7 @@ There is currently **no active commercial candidate, transaction unit, inherited
 
 The commercial case layer was intentionally cleared on 2026-09-19. Historical field scans, old Xuzhou/industrial/consumer/eldercare candidates, prior launch cards and old result packets are not current evidence inputs. They remain recoverable through Git history for audit only.
 
-The current formation capability exists in `src/latent_value_formation.py`. `VALIDATION_READY` requires explicit `CONNECTION_PRESSURE` evidence. The next empirical task is a genuinely fresh `ATTRACTION_SCAN_001`.
+The current formation capability exists in `src/latent_value_formation.py`. `VALIDATION_READY` requires explicit `CONNECTION_PRESSURE` evidence, but scarce external validation additionally requires the value-chain leverage gate in `src/attraction_leverage.py`. `ATTRACTION_SCAN_003-F1` was demoted on 2026-09-20 for weak downstream leverage. The next empirical task is a genuinely fresh `ATTRACTION_SCAN_004`.
 
 Current priorities:
 1. begin from broad current reality, not an inherited vertical or historical candidate;
@@ -759,10 +782,11 @@ Current priorities:
 5. search heterogeneous complementary nodes only after structural truth is credible;
 6. discover `CONNECTION_PRESSURE` and an observed missing edge;
 7. require an Attraction Brief with separately evidenced A-side pull and B-side pull plus explicit operator strategic attraction;
-8. run a Drift Audit before retaining any formation;
-9. treat incumbent presence as evidence about flow resolution, not automatic rejection;
-10. use human/external validation only on the decisive remaining unknown;
-11. keep the founder as orchestration/routing control plane rather than default search, sales or execution node.
+8. require the value-chain leverage / intervention-timing gate before spending external validation capital;
+9. run a Drift Audit before retaining any formation;
+10. treat incumbent presence as evidence about flow resolution, not automatic rejection;
+11. use human/external validation only on the decisive remaining unknown after leverage survives;
+12. keep the founder as orchestration/routing control plane rather than default search, sales or execution node.
 
 Do not resume any old launch, candidate, scan family or Issue as a fallback. If a similar structure is independently rediscovered, treat it as a new case in the new epoch.
 
