@@ -1112,59 +1112,70 @@ Participant attraction requires evidence. Operator attraction allocates founder 
 
 ## 19. Current next action — CANONICAL
 
-`ATTRACTION_SCAN_011` completed under the private-context × public-live-rail search.
+`ATTRACTION_SCAN_012` completed under the private-exception × open-failover search.
 
 Result:
 - ACTIVE COMMERCIAL CANDIDATES = 0
 - HIGH_ATTRACTION_BEACONS = 0
 - RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-- NEXT = `ATTRACTION_SCAN_012`
+- NEXT = `ATTRACTION_SCAN_013`
 
-Scan 011 established:
+Scan 012 established the current failover-integration trap:
 
 ```text
-PRIVATE CONTEXT + LIVE EXTERNAL RESOURCE != UNOWNED ROUTING EDGE
-VALUABLE EXTERNAL PLATFORMS MOVE UPSTREAM INTO PRIVATE WORKFLOWS
-ERP / MES / LIMS / TELEMETRY / PROCUREMENT INTEGRATION CAN ERASE THE JOIN
-SEARCHABLE FALLBACK != CALLABLE FAILOVER RAIL
+STANDARDIZED + MACHINE-CALLABLE + REPEATED FAILOVER
+→ INCUMBENT INTEGRATION PRESSURE
+
+UNOWNED + PHYSICAL + HETEROGENEOUS FAILOVER
+→ QUOTE / APPROVAL / DIAGNOSIS / MANUAL-DISPATCH PRESSURE
 ```
 
-Tested directions:
-- production exception → external on-demand manufacturing;
-- lab instrument outage/full queue → external shared instrument;
-- equipment breakdown → external rental/replacement;
-- urgent MRO shortage → live industrial inventory.
+Evidence:
+- WFM + flexible-labor platforms already convert sudden empty shifts into external
+  worker tasks automatically;
+- logistics platforms already detect exceptions and re-tender/reroute;
+- payment orchestration already performs intelligent channel routing/failover;
+- EV/charging ecosystems integrate low-battery state with charger discovery and
+  roadside assistance;
+- cloud-warehouse markets expose capacity but do not yet prove general instant
+  acquisition of a new warehouse relationship;
+- emergency physical services retain field-specific manual gates.
 
-Each contained real economic motion, but none survived every current hard floor.
+The new 2026 mechanism shift is Agent commerce.
 
-The strongest correction is that stable private state is itself an attractive target for
-incumbent integration. The more durable asymmetry may instead occur at the moment of a
-**transient private exception**, when a previously adequate internal route suddenly
-fails and a short loss clock starts.
+Current Agent Pay documentation establishes that an existing merchant/service Skill
+can own:
+- search;
+- selection;
+- confirmation;
+- order creation;
+and then hand payment to a payment Skill for completion and fulfillment continuation.
 
-Run `ATTRACTION_SCAN_012` from broad current reality with working label:
+Therefore a previously app/browser/manual-orderable service can become machine-callable
+without the event-side incumbent owning that rail yet.
 
-`PRIVATE EXCEPTION EVENT × OPEN FAILOVER RAIL`.
+Run `ATTRACTION_SCAN_013` from broad current reality with working label:
+
+`NEWLY CALLABLE PHYSICAL/SERVICE RAIL × UNOWNED HIGH-INTENT SIGNAL`.
 
 Prefer formations where:
-1. a normal route is already active before the event;
-2. a private machine-observable exception abruptly makes that route inadequate;
-3. delay produces a rapidly increasing and legible loss;
-4. the decision window is short but still open;
-5. an external standardized substitute exists;
-6. availability, quote/price and action are machine-callable under stable rules;
-7. neither incumbent side already owns both event detection and the failover rail;
-8. the switch is machine-resolvable without recurring expert interpretation;
-9. the operator can remain a reusable paid machine-routing function;
-10. repeated exceptions improve route coverage and outcome evidence.
+1. the resource/service was historically bought through app/browser/contact/manual
+   ordering;
+2. it has only recently become API/MCP/Skill/Agent-callable;
+3. selection, price/quote, order/booking and result state are sufficiently callable;
+4. a separate high-intent state/event exists outside the rail owner's system;
+5. that event creates a large state-dependent value jump for using the rail now;
+6. the event-side incumbent has not already integrated the newly callable rail;
+7. match/eligibility is machine-resolvable;
+8. the router can capture value through native machine payment/attribution;
+9. repeated outcomes compound route coverage and matching evidence.
 
-Retain zero if:
-- fallback is merely searchable;
-- human negotiation/approval is required per event;
-- the substitute object is not standardized enough for machine matching;
-- an incumbent already owns event detection and failover;
-- enterprise-by-enterprise consulting or recurring acquisition/delivery is necessary.
+This is an integration-lag search, not an AI-tool search and not a sector commitment.
+
+Retain zero if Agent-callability is payment-only, if merchant-by-merchant onboarding
+becomes recurring operator work, if the event-side incumbent already offers the same
+substitute, or if expert diagnosis/negotiation remains necessary per transaction.
 
 ### 19A. Value-chain leverage truth — LOCKED
 
