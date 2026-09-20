@@ -1,0 +1,142 @@
+{
+  "schema_version": "gate-a-provider-response-intake.v1",
+  "formation_id": "ATTRACTION_SCAN_015-F1",
+  "as_of_date": "2026-09-20",
+  "gate_a": "PARTIAL_PASS_RIGHTS_UNKNOWN",
+  "providers": {
+    "AIHUISHOU": {
+      "outreach_sent": true,
+      "sent_date": "2026-09-20",
+      "response_received": false,
+      "response_message_id": null,
+      "response_sender": null,
+      "received_at": null,
+      "classification": "NO_RESPONSE_YET",
+      "dimensions": {
+        "R1": "UNKNOWN",
+        "R2": "UNKNOWN_PUBLIC",
+        "R3": "UNKNOWN",
+        "R4": "UNKNOWN",
+        "R5": "UNKNOWN",
+        "R6": "PARTIAL_PASS_PUBLIC",
+        "R7": "CONDITIONAL_INFERENCE",
+        "R8": "UNKNOWN_CONTRACT"
+      },
+      "evidence": [],
+      "missing": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8"
+      ]
+    },
+    "XIAOZHI_BEARHOME": {
+      "outreach_sent": true,
+      "sent_date": "2026-09-20",
+      "response_received": false,
+      "response_message_id": null,
+      "response_sender": null,
+      "received_at": null,
+      "classification": "NO_RESPONSE_YET",
+      "dimensions": {
+        "R1": "UNKNOWN",
+        "R2": "PASS_PUBLIC_TECHNICAL",
+        "R3": "UNKNOWN",
+        "R4": "UNKNOWN",
+        "R5": "UNKNOWN",
+        "R6": "PARTIAL_PASS_PUBLIC",
+        "R7": "CONDITIONAL_INFERENCE",
+        "R8": "UNKNOWN_CONTRACT"
+      },
+      "evidence": [],
+      "missing": [
+        "R1",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8"
+      ]
+    },
+    "SUHUANJI": {
+      "outreach_sent": false,
+      "sent_date": null,
+      "response_received": false,
+      "response_message_id": null,
+      "response_sender": null,
+      "received_at": null,
+      "classification": "CONTACT_UNRESOLVED",
+      "dimensions": {
+        "R1": "UNKNOWN",
+        "R2": "PASS_STRONG_DATA_CLOSURE",
+        "R3": "UNKNOWN",
+        "R4": "UNKNOWN",
+        "R5": "UNKNOWN",
+        "R6": "UNKNOWN",
+        "R7": "CONDITIONAL_INFERENCE",
+        "R8": "UNKNOWN_CONTRACT"
+      },
+      "evidence": [],
+      "missing": [
+        "R1",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8"
+      ]
+    }
+  },
+  "valid_dimension_states": [
+    "PASS",
+    "CONDITIONAL_PASS",
+    "UNKNOWN",
+    "FAIL",
+    "UNKNOWN_PUBLIC",
+    "PASS_PUBLIC_TECHNICAL",
+    "PASS_STRONG_DATA_CLOSURE",
+    "PARTIAL_PASS_PUBLIC",
+    "CONDITIONAL_INFERENCE",
+    "UNKNOWN_CONTRACT"
+  ],
+  "response_classes": [
+    "COMPATIBLE_EXPLICIT",
+    "COMPATIBLE_BUT_INCOMPLETE",
+    "NDA_OR_ONBOARDING_REQUIRED",
+    "VAGUE_COMMERCIAL",
+    "INCOMPATIBLE_EXPLICIT",
+    "NO_RESPONSE_YET"
+  ],
+  "gate_rule": {
+    "required_compatible_written_rails": 2,
+    "decisive_dimensions": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R6",
+      "R7"
+    ],
+    "no_material_fail": [
+      "R5",
+      "R8"
+    ]
+  },
+  "truth_rules": [
+    "RAW_PROVIDER_TEXT_MUST_BE_PRESERVED_SEPARATELY_FROM_INTERPRETATION",
+    "OFFICIAL_WRITTEN_REPLY_DOES_NOT_AUTO_PASS_ALL_DIMENSIONS",
+    "SILENCE_IS_NOT_FAIL",
+    "GENERIC_COOPERATION_LANGUAGE_IS_UNKNOWN",
+    "PHONE_ONLY_PERMISSION_IS_NOT_CANONICAL_PASS",
+    "TWO_COMPATIBLE_WRITTEN_RAILS_REQUIRED"
+  ],
+  "provider_responses": 0,
+  "compatible_written_rails": 0,
+  "next_action": "WAIT_FOR_OFFICIAL_WRITTEN_PROVIDER_RESPONSE"
+}
