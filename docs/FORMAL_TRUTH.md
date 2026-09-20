@@ -1129,6 +1129,20 @@ Current state:
 Run `ATTRACTION_SCAN_004` from broad current reality. Do not inherit the AI-Agent
 vertical merely because Scan 003 ended there.
 
+The scan must now be **attraction-first**:
+
+```text
+BROAD REALITY
+→ ATTRACTION SIGNAL HARVEST
+→ HIGH_ATTRACTION_BEACON
+→ ONLY THEN DEEP CAUSAL DESCENT
+→ CONNECTION PRESSURE / MISSING EDGE
+→ REALITY CONFIRMATION
+```
+
+`src/attraction_discovery.py` is the canonical pre-formation attention gate.
+Attraction decides where to look first; evidence decides what may be believed.
+
 Required behavior:
 1. reopen broad current reality;
 2. preserve causal descent, connection pressure and Attraction Brief;
