@@ -4,34 +4,131 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Advance:
+Run:
 
-`ATTRACTION_SCAN_003-F1 — AI CUSTOM-SERVICE ACCEPTANCE RAIL`
+`ATTRACTION_SCAN_004`
 
-through the cheapest reality-confirmation stage without building a product.
+under the corrected **ATTRACTION-FIRST discovery order**.
 
-Reality Confirmation 001 result:
+Do not continue `ATTRACTION_SCAN_003-F1`.
+Do not send the prepared AI Agent acceptance-validation email.
 
-`PUBLIC_ARTIFACT_CONFIRMATION_PASSED / BILATERAL_ADOPTION_UNPROVEN`.
+## Why the prior formation was demoted
 
-The formation remains **research-only**.
+`ATTRACTION_SCAN_003-F1 — AI CUSTOM-SERVICE ACCEPTANCE RAIL` contained real
+acceptance friction and technically machine-verifiable structure, but its commercial
+position was too downstream.
 
-## Goal
+Default intervention point:
+- buyer has already decided to buy;
+- provider is already chosen;
+- budget/scope are substantially fixed;
+- most project value has already been created/allocated;
+- the remaining problem is mainly closeout / acceptance / retest quality.
 
-Obtain one bounded two-sided commitment signal for a specific live AI workflow/Agent transaction.
+Therefore:
 
-Do not spend more desk research pretending it can answer willingness-to-adopt.
+```text
+REAL FRICTION = YES
+TECHNICAL VERIFIABILITY = YES
+STRONG COMMERCIAL ATTRACTION = NO
+VALUE-CHAIN LEVERAGE = WEAK_DOWNSTREAM
+COMMERCIAL CANDIDATE = NO
+RETAINED RESEARCH FORMATION = NO
+```
 
-## Current Unique Commercial Research Goal
+## Corrected discovery doctrine
 
-Test whether a real buyer and real provider, on the same current AI workflow/Agent transaction, will freeze a compact executable acceptance object before work starts and use its evidence for pass/fail/retest/closeout.
+Attraction is now the **first attention-allocation premise**.
 
-The formation survives only if:
-- both sides value the object;
-- the missing fields can be filled without open-ended consulting;
-- most acceptance remains machine-observable;
-- transaction value can support the added friction;
-- the operator is not the recurring QA/requirements expert.
+Canonical order:
+
+```text
+BROAD CURRENT REALITY
+→ ATTRACTION SIGNAL HARVEST
+→ HIGH_ATTRACTION_BEACON
+→ ONLY THEN DEEP CAUSAL DESCENT
+→ COMPLEMENTARY WORLD NODES
+→ CONNECTION PRESSURE
+→ OBSERVED MISSING EDGE
+→ LATENT CONNECTION
+→ VALUE-CHAIN LEVERAGE / INTERVENTION TIMING
+→ ATTRACTION BRIEF + DRIFT AUDIT
+→ CHEAP DECISIVE REALITY CONFIRMATION
+→ TRANSACTION TRUTH
+```
+
+Attraction decides where to look first.
+Evidence decides what may be believed.
+
+## High-Attraction Beacon — required
+
+A reality pattern receives deep discovery attention only when evidence supports a
+strong combination of:
+
+1. **A-side voluntary motion**
+   - A is already spending time/money/effort/reputation or using workarounds;
+   - A does not need to be educated into caring.
+
+2. **B-side voluntary motion**
+   - B is already searching, paying, waiting, substituting, bypassing or sacrificing;
+   - B does not merely have a theoretical benefit.
+
+3. **Large state-dependent value jump**
+   - the same resource/capability/access becomes much more valuable in B's current
+     state;
+   - the before/after contrast is immediately legible.
+
+4. **Movable decision window**
+   - budget, vendor, access, scope, rights or resource allocation are still open or
+     materially movable;
+   - value has not already been mostly allocated.
+
+5. **Bridge compression**
+   - a relatively narrow missing edge can unlock a disproportionately large state
+     change;
+   - the bridge is not the whole service/product delivery.
+
+6. **Low enough activation / explanation burden**
+   - participants do not require long education, persuasion or behavior change before
+     seeing why they should move.
+
+7. **Self-propulsion**
+   - after one successful route, trust/data/access/coverage/behavior makes the next
+     route easier.
+
+8. **Operator control without recurring labor**
+   - the operator owns routing/orchestration/control;
+   - founder delivery or founder sales per transaction is not the engine.
+
+Weakest-link dominated:
+a dead participant side, locked decision window, weak value jump, high explanation
+burden or founder labor prevents `HIGH_ATTRACTION_BEACON`.
+
+Canonical implementation:
+- `src/attraction_discovery.py`
+- `src/attraction_leverage.py`
+
+## What “wow” means operationally
+
+The target is not novelty or a clever sentence.
+
+Preferred reaction:
+
+> “原来这两边能这样接。一旦接上，价值一下就变了，而且两边本来就在往这里走。”
+
+Engineering translation:
+
+```text
+OBSERVED VOLUNTARY MOTION
++ SHARP STATE-DEPENDENT SURPLUS
++ STILL-MOVABLE DECISION RIGHTS
++ NARROW MISSING EDGE
++ LOW EXPLANATION BURDEN
++ SELF-PROPULSION
++ ROUTER CONTROL
+= HIGH-ATTRACTION DISCOVERY BEACON
+```
 
 ## Active Commercial Epoch
 
@@ -42,182 +139,87 @@ Portfolio:
 - ACTIVE TRANSACTION UNITS = 0
 - ACTIVE PARENT FORMATIONS = 0
 - INHERITED WATCHLIST = 0
-- RETAINED RESEARCH FORMATIONS = 1
+- RETAINED RESEARCH FORMATIONS = 0
 - FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-
-Historical-case policy:
-- GIT HISTORY ONLY;
-- NOT ACTIVE INPUT;
-- NOT PARENTAGE;
-- NOT PRIOR;
-- NOT FALLBACK;
-- NOT WATCHLIST.
 
 ## Current Phase
 
-`SCAN_003_F1_PUBLIC_ARTIFACT_CONFIRMED / BILATERAL_COMMITMENT_REQUIRED`
-
-## Last Verified Main
-
-`33e9bc3531fecd9be0406d221669d527abbbd29e` — PR #269 squash-merged.
-
-PR #269 head: `9c33853c6a8b27f3bbca3711a3cc44acd8ebee0b`.
-
-PR #269 CI #812 / run `35449532503`: success.
-
-PR #268 merge SHA: `03b4e3248cc0cf5f000ee54b9cccfaa0df9278e4`; CI #810 succeeded.
+`SCAN_004_ATTRACTION_FIRST_REALITY_SENSING`
 
 ## Active Issue
 
 #143 — `P0: Clean-slate Attraction Field → first external value flow`.
 
-## Active Branch
+## Active Branch / PR
 
-None.
+Implementation branch:
+- `feature/attraction-leverage-gate`
 
-## Active PR
+PR:
+- not opened yet at this checkpoint.
 
-None. PR #269 is merged.
+## Current engineering correction
 
-## CI
+Added:
+- `src/attraction_discovery.py` — attraction-first pre-formation beacon;
+- `src/attraction_leverage.py` — value-chain position / intervention timing gate;
+- tests for both;
+- doctrine updates in `AGENTS.md`, `docs/OPPORTUNITY_ATTRACTION_FIELD.md`,
+  `docs/FORMAL_TRUTH.md`;
+- Scan 003 F1 demotion artifact;
+- machine-readable commercial reset state updated for Scan 004.
 
-- PR #269 / run `35449532503`: success.
-- Reality Confirmation 001 is persisted on main.
-- No production code or doctrine changed.
+## Scan 004 search behavior
 
-## Latest Artifact / Persisted State
+Do not start from:
+- “what services are people buying?”;
+- “what pain points exist?”;
+- “what industry is growing?”;
+- “what can AI automate?”;
+- the previous AI-Agent vertical.
 
-- `docs/research/ATTRACTION_SCAN_003_F1_REALITY_CONFIRMATION_001_2026-09-19.md`
-- `data/research_runs/attraction_scan_003_f1_reality_confirmation_001.json`
-- `docs/research/ATTRACTION_SCAN_003_F1_CAUSAL_DESCENT_2026-09-19.md`
-- `data/research_runs/attraction_scan_003_f1_causal_descent.json`
-- `data/commercial_reset_state.json`
+Instead search current broad reality for **high-energy mismatches** such as:
+- actors repeatedly paying an ugly workaround while a cheaper/idle complement exists;
+- scarce access on one side and unused access/capability on another;
+- people already forming informal/manual exchange because the standard route is bad;
+- money/resource allocation decisions that are actively being made now;
+- sharp lifecycle/state transitions that abruptly change the value of existing
+  resources;
+- repeated queues, bypasses, resale, referrals, intermediaries, substitutions or
+  coordination hacks;
+- resources that are low-value to their owner but high-value to another actor in a
+  specific current state;
+- connections whose first successful route creates trust/data/access that compounds.
 
-## Completed
-
-- Used a current 2026-09-05 logistics-industry Agent procurement as the primary buyer-side reality artifact.
-- Derived a 12-condition acceptance skeleton from the public brief.
-- Verified that the relevant workflow exposes machine-observable actions/state changes rather than only subjective language quality.
-- Separated machine-executable tests from missing bilateral parameters/fixtures.
-- Identified 10 bounded missing input groups required to freeze the acceptance contract.
-- Confirmed the public brief is sufficient for an acceptance skeleton but not a frozen contract.
-- Used a separate current AI Agent provider listing only to verify current package/acceptance market shape; did not pretend it was the same transaction.
-- Preserved the key truth boundary: no bilateral commitment, adoption or willingness-to-pay has been observed.
-
-## Current Findings
-
-### Primary current buyer artifact
-
-`物流运输行业客服值班AI智能体软件开发`, published 2026-09-05.
-
-Observed workflow:
-- detect prompts in an existing BS system;
-- automatically execute allowed confirmation/response actions;
-- convert response information to text;
-- notify designated people by phone/WeChat/SMS;
-- query system data by keyword/dropdown;
-- export result data to a table;
-- run on an edge-computing terminal.
-
-This is a strong fit for the narrowed tool-using Agent wedge because delivery changes observable external state.
-
-### Acceptance skeleton result
-
-12 bounded conditions were derivable:
-- environment/version identity;
-- prompt detection;
-- correct response action;
-- action safety boundary;
-- response extraction;
-- notification routing;
-- notification failure handling;
-- keyword query;
-- dropdown query;
-- table export;
-- session/failure recovery;
-- complete reproducible evidence.
-
-After fixtures/thresholds are frozen, all 12 can be substantially machine-verified.
-
-### Important negative result
-
-The public brief alone cannot freeze the contract.
-
-Missing bilateral inputs include:
-- exact modules/prompts;
-- allowed action mapping;
-- human approval boundary;
-- required response fields;
-- notification recipients/channels/SLA;
-- query/export fixtures;
-- retry/escalation policy;
-- runtime versions;
-- evidence/privacy rules.
-
-This means a structured intake step remains necessary.
-
-It does **not yet** prove recurring open-ended consulting is necessary.
-
-### Validation state
-
-`PUBLIC ARTIFACT CONFIRMATION = PASSED`.
-
-`SAME-TRANSACTION BILATERAL ADOPTION = NOT PROVEN`.
-
-`WILLINGNESS TO PAY = NOT PROVEN`.
-
-`COMMERCIAL CANDIDATE = NO`.
-
-## Blockers
-
-Desk research is no longer the decisive blocker.
-
-The blocker is:
-
-`REAL BUYER + REAL PROVIDER + SAME TRANSACTION + PRE-WORK ACCEPTANCE COMMITMENT`.
-
-Without that, more architecture, templates or market reports do not advance truth.
-
-## Next Action
-
-When an authorized communication channel is available, run **one bounded bilateral validation**, not sales outreach.
-
-Target:
-1. one current AI workflow/Agent provider;
-2. one current buyer/project or one provider with a live buyer project;
-3. use the existing 12-condition skeleton;
-4. ask them to fill/freeze the missing fields;
-5. record whether both sides would actually use it for closeout/retest;
-6. record setup effort;
-7. record willingness to pay or a weaker but real commitment signal;
-8. fail closed if the normal contract/milestone process is already sufficient.
-
-Until then:
-- do not build;
-- do not mass-contact;
-- do not promote.
+Only after a high-attraction beacon appears should the engine spend substantial
+research effort proving the causal structure and missing edge.
 
 ## Do Not Repeat
 
-- Do not count a public listing as bilateral validation.
-- Do not count a provider price page as willingness to pay for this layer.
-- Do not broaden back to all AI services.
-- Do not sell a checklist.
-- Do not build software before adoption evidence.
-- Do not invent a buyer/provider response.
-- Do not claim a candidate.
-- Do not revive prior scans.
+- Do not continue Scan 003 F1 merely because public research was already done.
+- Do not send the prepared provider outreach draft.
+- Do not treat a real friction as attractive by default.
+- Do not use downstream process quality as a substitute for value-chain leverage.
+- Do not average attraction dimensions into a flattering score.
+- Do not let a big TAM or clever story compensate for weak participant motion.
+- Do not turn “wow” into novelty hunting without evidence.
+- Do not inherit the previous vertical.
+- Do not build a product before transaction truth.
+- Do not make founder labor the missing edge.
 
-## Guardrails
+## Governing shorthand
 
-- GitHub live state is operational source of truth.
-- REALITY > COGNITION > SCHEMA.
-- PUBLIC ARTIFACT != BILATERAL COMMITMENT.
-- TRANSACTION SHAPE FIT != WILLINGNESS TO PAY.
-- STRUCTURED MISSING FIELDS != AUTOMATIC CONSULTING.
-- MACHINE-VERIFIABLE != MARKET-VALIDATED.
-- FREE TEMPLATE != EXECUTED EVIDENCE.
-- FOUNDER AS PERMANENT REQUIREMENTS / QA CONSULTANT = FAIL.
-- NO PRODUCT BUILD TO ANSWER A HUMAN WILLINGNESS QUESTION.
-- UNKNOWN != PASS.
-- Infer broadly; promote conservatively.
+```text
+ATTRACTION FIRST FOR ATTENTION.
+EVIDENCE FIRST FOR TRUTH.
+
+A 想动
++ B 想动
++ 接上以后价值跃迁很大
++ 钱/资源/决策还没锁死
++ 缺的桥很窄
++ 不需要长期教育
++ 接一次以后越来越容易
++ 根哥控制路由而不是亲自干活
+→ 才值得深挖
+```
