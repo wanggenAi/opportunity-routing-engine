@@ -1,0 +1,115 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_022",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-20",
+  "status": "COMPLETE",
+  "search_mode": "FORMATION_DIVERSE_BROAD_REALITY_NO_SCAN021_VERTICAL_INHERITANCE",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_022-F1",
+      "title": "BATTERY_EXCISE_TAX_EVIDENCE_RECONCILER",
+      "chinese_title": "电池消费税抵扣与减免证据对账器",
+      "state": "RESEARCH_BEACON_RETAINED_FOR_PAYER_INCUMBENT_DATA_FRICTION_AND_GENERIC_AGENT_FALSIFICATION",
+      "commercial_candidate": false,
+      "mechanism_class": "MANDATORY_FINANCIAL_EVIDENCE_RECONCILIATION",
+      "mechanism": "A self-serve reconciliation layer imports battery purchase/import/processing tax documents plus production-consumption records, produces the statutory battery tax-credit ledger, flags unreconciled eligible credits and missing exemption evidence, and generates accountant-reviewable declaration inputs while failing closed on ambiguous tax classification.",
+      "timing_event": "China battery excise-tax policy changed on 2026-09-01; relevant batteries moved to 2% tax, rising to 4% from 2027-09-01, while specified new-technology batteries remain temporarily exempt subject to national-standard evidence.",
+      "direct_value_link": "Credits depend on actual production usage and valid tax documents; exemption depends on qualified test reports and SKU/accounting/invoice alignment. Missed reconciliation can directly affect tax cash outflow.",
+      "operator_asset_hypothesis": "Reusable import adapters for ERP/Excel/invoice exports, rule-versioned reconciliation tests, exception taxonomy and non-identifying reconciliation patterns. This is hypothesis only and must survive generic-agent/ERP-incumbent falsification.",
+      "fail_closed_boundary": "Do not decide genuinely ambiguous product tax classification, replace a tax professional, submit tax declarations, or assert eligibility without the required source records and test evidence.",
+      "attraction_profile": {
+        "mandatory_motion": 3,
+        "state_dependent_value_jump": 3,
+        "decision_window": 3,
+        "recurring_event_frequency": 3,
+        "bridge_compression": 3,
+        "activation_ease": 2,
+        "self_propulsion": 2,
+        "operator_control": 1,
+        "buyer_discoverability": 2,
+        "machine_resolvability": 2,
+        "generic_agent_resistance": 1
+      },
+      "proven_signals": [
+        "POLICY_EFFECTIVE_2026_09_01",
+        "DIRECT_2_PERCENT_TAX_NOW_AND_4_PERCENT_FROM_2027_09_01",
+        "STATUTORY_BATTERY_TAX_CREDIT_LEDGER_REQUIRED",
+        "CREDIT_CALCULATION_DEPENDS_ON_ACTUAL_PRODUCTION_USAGE",
+        "EXEMPTION_REQUIRES_QUALIFIED_TEST_REPORT_AND_PRODUCT_LIST_ALIGNMENT",
+        "PUBLIC_COMPANY_RESPONSES_SHOW_PRICE_AND_INTERNAL_MANAGEMENT_IMPACT"
+      ],
+      "decisive_unknowns": [
+        "EXACT_WILLINGNESS_TO_PAY_FOR_STANDALONE_RECONCILIATION_SOFTWARE",
+        "EXACT_ERP_TAX_SOFTWARE_INCUMBENT_RESPONSE",
+        "GENERIC_AGENT_OR_EXCEL_SUBSTITUTABILITY_AFTER_DATA_EXPORT",
+        "SELF_SERVE_IMPORT_FROM_REAL_PRODUCTION_AND_INVOICE_SYSTEMS",
+        "TARGET_SEGMENT_SIZE_AND_ORGANIC_HIGH_INTENT_DISCOVERABILITY",
+        "NON_CONSULTING_TAX_LIABILITY_BOUNDARY",
+        "COMPOUNDING_OPERATOR_ASSET_BEYOND_PUBLIC_RULES_AND_CUSTOMER_DATA"
+      ],
+      "next_action": "CHEAP_FALSIFY_PAYER_INCUMBENT_DATA_IMPORT_GENERIC_AGENT_AND_OPERATOR_ASSET"
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_022-F1"
+  ],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1",
+    "ATTRACTION_SCAN_016-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "GENERIC_AI_AGENT_SECURITY_TESTING_PLATFORM",
+      "mechanism_class": "SECURITY_TESTING_AND_CERTIFICATION",
+      "verdict": "DEMOTED_HIGH_DEMAND_LOW_WHITE_SPACE",
+      "evidence_summary": "Policy and procurement prove current paid demand, but cloud security vendors, professional labs, public research platforms and emerging certification/testing frameworks already occupy the generic evaluation surface."
+    },
+    {
+      "title": "CBAM_EVIDENCE_AND_VERIFICATION_WORKBENCH",
+      "mechanism_class": "CROSS_BORDER_COMPLIANCE",
+      "verdict": "DEMOTED_CURRENT_INCUMBENT_CROWDING",
+      "evidence_summary": "The 2026 verification phase creates real cost and evidence-chain pressure, but dedicated Chinese CBAM SaaS and full-service platforms already sell monitoring, supplier collaboration, verification preparation and reporting."
+    },
+    {
+      "title": "PPE_SELECTION_AND_STANDARD_COMPLIANCE_ENGINE",
+      "mechanism_class": "MANDATORY_PRODUCT_COMPLIANCE",
+      "verdict": "DEMOTED_GENERIC_RULE_AND_TESTING_SERVICE",
+      "evidence_summary": "Forty mandatory PPE standards took effect on 2026-09-01, but the obvious layer is public-rule selection plus established product testing/certification and supplier catalogs."
+    },
+    {
+      "title": "BATTERY_FULL_LIFECYCLE_TRACEABILITY_CONNECTOR",
+      "mechanism_class": "MANDATORY_DATA_REPORTING",
+      "verdict": "DEMOTED_CONTROL_PLANE_INTERNALIZED",
+      "evidence_summary": "Battery traceability is mandatory and machine-readable, but the national lifecycle traceability platform already owns the reporting/control surface."
+    },
+    {
+      "title": "INDUSTRIAL_ROBOT_SAFETY_ASSESSMENT_AUTOMATION",
+      "mechanism_class": "SAFETY_ASSESSMENT",
+      "verdict": "DEMOTED_EXPERT_AND_CERTIFICATION_HEAVY",
+      "evidence_summary": "New mandatory industrial-robot safety projects increase future demand, but risk assessment/testing is already anchored in specialist institutes, certification bodies and expert system integration."
+    }
+  ],
+  "hard_floor_demotions": [
+    "GENERIC_AGENT_SECURITY_TESTING_ALREADY_CROWDED",
+    "CBAM_TOOLING_ALREADY_HAS_SPECIALIZED_SAAS_AND_SERVICE_INCUMBENTS",
+    "PPE_RULE_MAPPING_ALONE_IS_GENERIC_AGENT_SUBSTITUTABLE",
+    "BATTERY_TRACEABILITY_CONTROL_SURFACE_IS_NATIONAL_PLATFORM_OWNED",
+    "ROBOT_SAFETY_REQUIRES_SPECIALIST_TESTING_AND_CERTIFICATION"
+  ],
+  "scan_learnings": [
+    "A_NEW_TAX_LEDGER_CAN_CREATE_DIRECT_CASH_LINKED_RECONCILIATION_WORK",
+    "TRANSACTION_DOCUMENTS_X_PRODUCTION_CONSUMPTION_IS_STRONGER_THAN_PUBLIC_RULE_DOCUMENT_GENERATION",
+    "NEWLY_MANDATED_RECONCILIATION_STILL_FAILS_IF_ERP_OR_GENERIC_AGENT_CAN_ABSORB_IT",
+    "POLICY_TIMING_CAN_CREATE_A_TEMPORARY_WHITE_SPACE_BUT_NOT_A_COMPOUNDING_ASSET_BY_ITSELF",
+    "PAID_MARKET_DEMAND_DOES_NOT_IMPLY_WHITE_SPACE_WHEN_CERTIFICATION_INCUMBENTS_ALREADY_CONTROL_DELIVERY",
+    "SCAN_022_RETAINS_ONE_FINANCIAL_RECONCILIATION_BEACON_WITH_ZERO_COMMERCIAL_PROMOTIONS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_023",
+  "next_search_boundary": "FORMATION_DIVERSE_BROAD_REALITY_NO_BATTERY_TAX_VERTICAL_INHERITANCE",
+  "next_action": "PARALLEL_FALSIFY_SCAN022_F1_AND_START_SCAN023_WITHOUT_BATTERY_TAX_VERTICAL_INHERITANCE",
+  "first_external_value_flow": "NOT_PROVEN"
+}
