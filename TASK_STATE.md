@@ -45,7 +45,7 @@ The decisive next proof is not another market-size argument. It is:
 
 ## Current Phase
 
-`SCAN_015_F1_RIGHTS_CALLABILITY_AND_INBOUND_DISCOVERY_FALSIFICATION`
+`SCAN_015_F1_GATE_A_WRITTEN_RIGHTS_CONFIRMATION`
 
 ## Current Findings
 
@@ -106,10 +106,10 @@ Xiaozhi/Bearhome:
 
 ## Last Verified Main
 
-`0d5e5a0a64e3863d5639ab55b72e3d89e7e0fd8c`
-— squash merge of PR #287, `Persist zero-retention Attraction Scan 014`.
+`fab05b3facd181f4287e63287375f2eb59d626bd`
+— squash merge of PR #288, `Retain Scan 015 realized-payout router beacon`.
 
-This is the pre-Scan-015 baseline. Live GitHub state wins after the current branch moves.
+CI #857 passed on the PR head before merge.
 
 ## Active Issue
 
@@ -117,19 +117,23 @@ This is the pre-Scan-015 baseline. Live GitHub state wins after the current bran
 
 ## Active Branch
 
-`feature/attraction-scan-015-realized-payout-router`
+`feature/scan015-f1-gate-a-public-rights`
 
 ## Active PR
 
-Not opened yet.
+Not opened yet for Gate A checkpoint.
 
 ## CI
 
-Pending for Scan 015 research/state branch.
+PR #288 / CI #857 succeeded. Gate A checkpoint CI pending.
 
 ## Latest Artifact / Persisted State
 
-New:
+New on current Gate A branch:
+- `docs/research/ATTRACTION_SCAN_015_F1_GATE_A_2026-09-20.md`
+- `data/research_runs/attraction_scan_015_f1_gate_a.json`
+
+Already on main from Scan 015:
 - `docs/research/ATTRACTION_SCAN_015_2026-09-20.md`
 - `data/research_runs/attraction_scan_015.json`
 
@@ -152,11 +156,12 @@ Changed:
 ## Blockers
 
 Engineering:
-- Scan 015 PR/CI/merge not yet complete.
+- Scan 015 PR #288 merged to main at `fab05b3facd181f4287e63287375f2eb59d626bd`; CI #857 passed.
+- Gate A public-rights checkpoint PR/CI not yet complete.
 
 Research:
-1. partner contract/data rights for side-by-side routing and retention of minimized outcome data are not proven;
-2. at least two production 3C rails must expose enough final inspected/settlement outcome to the partner;
+1. public docs prove technical post-inspection/payment outcome visibility on at least Suhuanji and Xiaozhi, but cross-rail comparison/retention/derived-model rights remain UNKNOWN;
+2. obtain written confirmation from at least two overlapping 3C rails that anonymous outcome data may be retained and used for future routing;
 3. a deeper neutral-incumbent search must not reveal the exact realized-payout graph;
 4. inbound Agent/Skill discoverability must produce self-revealing high-intent events without recurring founder marketing;
 5. cold-start usefulness before proprietary history is unproven.
@@ -168,16 +173,20 @@ Commercial:
 
 ## Next Action
 
-Finish Scan 015 PR/CI/merge.
+Scan 015 PR #288 is merged and green.
 
-Then run two bounded falsifications:
+Gate A public technical falsification is complete with `PARTIAL_PASS_RIGHTS_UNKNOWN`.
 
-### Gate A — rights/callability
-Verify current terms/docs or partner-accessible evidence for at least two overlapping 3C rails:
-- final inspected/settlement outcome visibility;
+Next, obtain written rights confirmation from at least two rails before Gate B transaction execution.
+
+The remaining bounded validations are:
+
+### Gate A — written rights confirmation
+Public docs already prove technical outcome visibility. Now verify in writing for at least two overlapping 3C rails:
 - permission to retain minimized non-identifying outcomes;
 - side-by-side comparison/routing permission;
-- commission settlement;
+- permission to use anonymous cross-rail outcome statistics for future routing/derived models;
+- commission settlement event;
 - router remains channel/router rather than recycler/principal.
 
 ### Gate B — inbound intent
