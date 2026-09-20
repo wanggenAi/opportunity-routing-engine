@@ -31,10 +31,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_009",
+  "last_completed_scan_id": "ATTRACTION_SCAN_010",
   "last_resolved_formation_id": "ATTRACTION_SCAN_004-F1",
-  "next_scan_id": "ATTRACTION_SCAN_010",
-  "current_research_action": "ATTRACTION_SCAN_010_AGENT_NATIVE_INTENT_X_PAID_MACHINE_ROUTING_FUNCTION",
+  "next_scan_id": "ATTRACTION_SCAN_011",
+  "current_research_action": "ATTRACTION_SCAN_011_PRIVATE_CONTEXT_X_PUBLIC_LIVE_RAIL_X_PAID_MACHINE_DECISION",
   "current_validation_state": {
     "formation_id": null,
     "public_artifact_confirmation": null,
@@ -95,17 +95,24 @@
     "REFERRAL_BOUNTY_PLUS_RECURRING_SEARCH_IS_ACQUISITION_LABOR",
     "CLOSED_OR_FUTURE_ENTRY_RAIL_FAILS_CURRENT_ACTIVATION",
     "MACHINE_CAPABILITY_CAN_BE_A_PAID_NON_HUMAN_CONTRIBUTION_ROLE",
-    "PREFER_AGENT_NATIVE_INTENT_X_PAID_MACHINE_ROUTING_FUNCTION"
+    "PREFER_AGENT_NATIVE_INTENT_X_PAID_MACHINE_ROUTING_FUNCTION",
+    "PAYMENT_INFRASTRUCTURE_IS_NO_LONGER_PRIMARY_UNKNOWN",
+    "SKILL_DISCOVERY_INFRASTRUCTURE_IS_NO_LONGER_PRIMARY_UNKNOWN",
+    "PUBLIC_PUBLIC_GENERAL_RULE_ROUTING_COMMODITIZES_QUICKLY",
+    "PRIVATE_CONTEXT_ALONE_IS_NOT_A_MOAT",
+    "PRIVATE_CONTEXT_X_EXTERNAL_LIVE_RAIL_MAY_PRESERVE_UNOWNED_JOIN",
+    "PREFER_PRIVATE_CONTEXT_X_PUBLIC_LIVE_RAIL_X_PAID_MACHINE_DECISION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
-    "Scans 004-008 remain resolved/demoted under current attraction truth.",
-    "ATTRACTION_SCAN_009 completed with zero high-attraction beacons and zero retained formations.",
-    "Current evidence shows native third-party payouts usually compensate acquisition, sales, delivery, owned supply or owned reusable digital capability rather than neutral routing alone.",
-    "Baidu AgentBuilder's old creation route is not a current new-operator rail because the live site states creation/workflow entries were expected to go offline on 2026-08-31.",
-    "Qianwen's current open-platform page marks Skill access as forthcoming rather than currently open.",
-    "Alipay AI Pay now proves native Skill/API/Agent payment and settlement, including SkillPay and Machine Pay, but automatic intent-driven discovery of a new routing Skill is not yet proven.",
-    "Next search target is agent-native self-revealing intent combined with a machine-delegatable economic routing function and native per-use settlement.",
+    "Scans 004-009 remain resolved/demoted under current attraction truth.",
+    "ATTRACTION_SCAN_010 completed with zero high-attraction beacons and zero retained formations.",
+    "Intent-driven skill discovery is now evidenced through current remote skill-market discovery tooling.",
+    "Machine-native per-use settlement and live paid Skills are now evidenced through current AI payment/Skill infrastructure.",
+    "The remaining commercial unknown is not generic payment or skill publication; it is finding a high-value routing decision not already absorbed by an incumbent.",
+    "Generic public-data plus public-rule decisions repeatedly collapse into platformized/free/mature products.",
+    "Private context can preserve an unowned cross-domain join only when no mature incumbent already accepts that private state as a standard input.",
+    "Next search target is private current context joined with a separate live public/partner resource/action rail through a paid machine decision function.",
     "FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN."
   ]
 }
