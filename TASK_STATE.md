@@ -179,6 +179,28 @@ Changed canonical controls:
 - shifted the active research mission toward dense bilateral digital exhaust;
 - updated canonical doctrine and formal truth.
 
+## Current Findings
+
+The Scan 004 correction is now explicit:
+
+```text
+REAL VALUE GAP
+WITHOUT
+SCALABLE A-SIDE VISIBILITY
+AND
+SCALABLE B-SIDE VISIBILITY
+AND
+RESOLVABLE MATCH LOGIC
+=
+NOT CURRENT HIGH ATTRACTION
+```
+
+The system should now prefer opportunity surfaces where the internet/platform/software
+environment already emits enough structured evidence to make the route visible before
+the operator invests in custom sensing.
+
+No current formation survives this corrected hard floor.
+
 ## Blockers
 
 Engineering:
