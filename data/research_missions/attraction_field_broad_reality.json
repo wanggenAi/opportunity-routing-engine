@@ -101,7 +101,7 @@
     },
     {
       "seed_id": "decision-window-open",
-      "text": "正在选供应商 分预算 定方案 选渠道 分配资源 尚未锁定 决策窗口",
+      "text": "双方正在决策 且匹配后可以直接申请 预订 交易 下单 分配 转让 结算 而不是只能生成线索",
       "language": "zh-CN",
       "target_primitives": [
         "ACTOR",
@@ -145,7 +145,7 @@
     },
     {
       "seed_id": "dense-digital-exhaust-bilateral",
-      "text": "两个彼此独立的数据世界 都持续公开产生结构化信号 但行业通常不会把它们做 join",
+      "text": "两个独立数据世界持续公开结构化信号 且 join 后存在参与者或运营者可调用的交易 分配 结算 行动入口",
       "language": "zh-CN",
       "target_primitives": [
         "ACTOR",
@@ -243,7 +243,7 @@
     },
     {
       "seed_id": "repeat-route-compounds",
-      "text": "跨域 join 可规则化复用 每次路由沉淀 join key 规则 信誉 结果数据 下一次自动更容易",
+      "text": "跨域 join 和行动入口可规则化复用 每次成交沉淀 join key 结果 信誉 规则 让下一次更自动",
       "language": "zh-CN",
       "target_primitives": [
         "BEHAVIOR",
