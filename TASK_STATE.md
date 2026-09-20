@@ -195,12 +195,21 @@ Execute `ATTRACTION_SCAN_004` from the current attraction-first 60-query mission
 Execution discipline:
 1. sample broad current reality rather than inherit the AI-Agent vertical;
 2. harvest evidence of voluntary motion, state-dependent value jumps and still-open decision windows;
-3. form several attraction beacons before committing to a vertical;
-4. apply `src/attraction_discovery.py` first;
-5. deep-dive only `HIGH_ATTRACTION_BEACON` signals;
+3. form **multiple** attraction beacons before committing to a vertical;
+4. apply `src/attraction_discovery.py` hard floors first;
+5. if multiple `HIGH_ATTRACTION_BEACON` signals survive, apply
+   `src/attraction_frontier.py` and spend first deep-discovery effort on the
+   Pareto/non-dominated frontier rather than a weighted total-score winner;
 6. then run causal descent, complementary-node search, connection-pressure and missing-edge tests;
 7. apply `src/attraction_leverage.py` before scarce external validation;
 8. retain zero formations if none genuinely produces the desired attraction.
+
+Engineering-method rule:
+- introduce algorithms/data structures/models only when a current invariant or
+  decision failure justifies them;
+- write assumptions and failure modes;
+- prefer the simplest mature method that works at measured scale;
+- do not turn engineering sophistication into a substitute for reality evidence.
 
 ## Do Not Repeat
 
@@ -231,6 +240,10 @@ Execution discipline:
 - Founder/operator preference never manufactures participant demand.
 - UNKNOWN != PASS.
 - Infer broadly; retain conservatively.
+- Multi-objective attraction is non-compensatory: hard floor before Pareto frontier.
+- Pareto position is an attention allocator, not commercial truth.
+- Weighted attraction totals must not manufacture a winner.
+- Algorithm/model choice must follow a real invariant and explicit assumptions; no cargo-cult complexity.
 
 ## Active Commercial Epoch
 
