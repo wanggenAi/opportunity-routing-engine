@@ -1112,21 +1112,52 @@ Participant attraction requires evidence. Operator attraction allocates founder 
 
 ## 19. Current next action — CANONICAL
 
-Run **ATTRACTION_SCAN_001** as a true white-portfolio scan.
+`ATTRACTION_SCAN_003-F1 — AI CUSTOM-SERVICE ACCEPTANCE RAIL` is demoted.
+
+The technical finding survives: tool-using Agent projects can expose bounded,
+machine-verifiable acceptance conditions. The commercial formation does not survive
+current strategic-attention rules because its default intervention point is too
+downstream: vendor/budget/scope are substantially committed and the remaining value is
+primarily closeout/retest process quality rather than control of value formation.
+
+Current state:
+- ACTIVE COMMERCIAL CANDIDATES = 0
+- RETAINED RESEARCH FORMATIONS = 0
+- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
+- NEXT = `ATTRACTION_SCAN_004`
+
+Run `ATTRACTION_SCAN_004` from broad current reality. Do not inherit the AI-Agent
+vertical merely because Scan 003 ended there.
 
 Required behavior:
-1. reopen broad reality across human life, households, consumers, SMEs, enterprises, cities, cross-border flows, technology/AI, relationships/trust, time/access/capacity, institutions and physical assets as current evidence warrants;
-2. do not impose a fixed category quota and do not fabricate weak categories for breadth;
-3. do not inherit the pre-reset industrial/Xuzhou/stranded-unit recursion;
-4. search for strong state-dependent value jumps and observable voluntary motion;
-5. for every retained formation, write the full Attraction Brief;
-6. run the Drift Audit before promotion;
-7. do not auto-kill because an incumbent exists; determine whether the relevant flow is actually solved;
-8. preserve contradictions and kill weak formations quickly;
-9. do not design product/pricing/outreach before a formation survives structural truth + connection pressure + Attraction Field;
-10. keep all promotion fail-closed.
+1. reopen broad current reality;
+2. preserve causal descent, connection pressure and Attraction Brief;
+3. before external contact, run the value-chain leverage gate;
+4. prefer positions where money/resource allocation/decision rights are still movable;
+5. demote downstream convenience layers unless absence blocks a transaction, controls
+   payment/value release, or prevents material economic/compliance/safety loss;
+6. preserve contradictions and kill weak formations quickly;
+7. keep all promotion fail-closed.
 
-Current founder attention should go only to formations where A wants to move, B wants to move, and the operator genuinely wants to own the bridge without becoming recurring manual labor.
+### 19A. Value-chain leverage truth — LOCKED
+
+```text
+REAL FRICTION != ATTRACTIVE POSITION
+LATE-STAGE PROCESS IMPROVEMENT != COMMERCIAL LEVERAGE
+VALUE ALREADY ALLOCATED + DECISIONS LOCKED -> DEFAULT DEMOTION
+```
+
+Canonical dimensions:
+- intervention stage;
+- decision mobility;
+- economic proximity;
+- participant pull;
+- absence consequence.
+
+Canonical implementation: `src/attraction_leverage.py`.
+
+This gate controls whether a formation is worth scarce external validation. It does
+not prove willingness to pay or promote a business.
 
 ## 20. Software truth — LOCKED
 
