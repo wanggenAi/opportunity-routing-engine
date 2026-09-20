@@ -48,6 +48,14 @@ NO RECURRING ACQUISITION / SALES / DELIVERY
 
 If none exists, retain zero.
 
+## Current Unique Commercial Research Goal
+
+Find one China-primary structure where real routed transactions themselves generate a
+reusable cross-route acceptance asset. The decisive evidence must come from observed
+accept/reject/success/failure/cost/time outcomes rather than a public parameter graph,
+and the resulting asset must improve the next machine-executable routing decision
+without recurring founder or expert judgment.
+
 ## Current Phase
 
 `SCAN_014_PR_CI_MERGE_THEN_SCAN_015_TRANSACTION_GENERATED_ACCEPTANCE_GRAPH`
@@ -102,11 +110,11 @@ This is the pre-Scan-014 baseline. Live GitHub state wins after the current bran
 
 ## Active PR
 
-Not opened yet.
+#287 — `Persist zero-retention Attraction Scan 014`.
 
 ## CI
 
-Pending for Scan 014 research/state branch.
+PR #287 CI #854 / run `35507188960` failed only because `TASK_STATE.md` omitted the required `Current Unique Commercial Research Goal` recovery heading. This commit restores the recovery contract; rerun/new head CI pending.
 
 ## Latest Artifact / Persisted State
 
