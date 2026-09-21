@@ -1,0 +1,106 @@
+{
+  "schema_version": "attraction-scan.v40",
+  "scan_id": "ATTRACTION_SCAN_061",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_SIDE_REPEATED_WORKAROUND_SPEND_OR_MULTI_LINE_ITEM_STACK_EVIDENCE_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_JOB_POSTING_AS_SOLE_SIGNAL_NO_EXISTING_PRODUCTIZED_SERVICE_AS_PRIMARY_SIGNAL_NO_SCAN058_TO_SCAN060_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_061-F1",
+      "title": "MULTI_MARKETPLACE_INVENTORY_MANUAL_RECONCILIATION",
+      "chinese_title": "多平台电商库存每日手工对账与扣减",
+      "evidence_class": "CURRENT_BUYER_SIDE_REPEATED_DAILY_WORKAROUND_SHOPIFY_AMAZON_EBAY_PLUS_MASTER_SPREADSHEET_MANUAL_INVENTORY_REMOVAL",
+      "verdict": "DEMOTED_EXACT_MULTICHANNEL_INVENTORY_SYNC_CATEGORY_DENSE_INCUMBENT_SURFACE",
+      "evidence_summary": "A current Shopify seller reports maintaining Shopify, Amazon, eBay and a master spreadsheet, then manually removing sold inventory from all three platforms each morning. That is direct buyer-side repeated workaround evidence. Exact-incumbent preflight closes the gap: Sellbrite currently centralizes listings, inventory and orders across Amazon, eBay and Shopify and automatically syncs quantities; Shopify's app marketplace exposes hundreds of multi-channel inventory-sync apps. The pain is real, but the control surface is already a mature software category."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_061-F2",
+      "title": "SHORT_TERM_RENTAL_CALENDAR_CLEANER_PRICING_STACK",
+      "chinese_title": "短租日历、清洁与定价多工具拼装",
+      "evidence_class": "CURRENT_BUYER_SIDE_MULTI_LINE_ITEM_STACK_AIRBNB_VRBO_CLEANING_MARKETPLACE_PRICING_TOOL_AND_CALENDAR_SYNC_RISK",
+      "verdict": "DEMOTED_EXACT_STR_OPERATIONS_AND_CLEANER_AUTOMATION_CONTROL_SURFACE",
+      "evidence_summary": "A one-property host reports paying for a pricing system, using a cleaning marketplace and needing Airbnb/VRBO calendar synchronization because ordinary calendar integration caused double-booking risk. Other hosts describe manually texting cleaners and wanting automatic calendar updates. Turno already syncs Airbnb, Vrbo and other booking calendars, auto-schedules cleaners, automates payments, checklists and issue reporting; Breezeway and PMS products cover adjacent operations. The observed stack is genuine, but the missing edge is already productized."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_061-F3",
+      "title": "MULTI_BUSINESS_LOW_VOLUME_ACCOUNTING_CONSOLIDATION",
+      "chinese_title": "多小微主体低成本会计统一管理",
+      "evidence_class": "CURRENT_BUYER_SIDE_REPEATED_SOFTWARE_TRIAL_AND_MULTI_ENTITY_COST_WORKAROUND_ACROSS_MULTIPLE_SMALL_BUSINESSES_AND_DBAS",
+      "verdict": "DEMOTED_MATURE_MULTI_COMPANY_ACCOUNTING_CATEGORY_PLUS_ACCOUNTING_CONFIGURATION_TAIL",
+      "evidence_summary": "A current small-business owner with multiple businesses/DBAs reports trying QuickBooks, FreshBooks, Wave, Harvest and others while still missing essential functionality without paying hundreds monthly. QuickBooks confirms each company file normally requires a separate paid subscription, so the cost friction is real. But Odoo currently supports multiple companies in one database with shared data and aggregated reporting, and broader multi-entity accounting is an established category. Residual fit depends on bookkeeping structure, entity separation and accounting configuration rather than an unowned normalized machine edge."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_061-F4",
+      "title": "SOLO_ACCOUNTING_PRACTICE_SOFTWARE_STACK_CONSOLIDATION",
+      "chinese_title": "个人会计事务所多软件栈整合",
+      "evidence_class": "CURRENT_BUYER_SIDE_EXPLICIT_198_DOLLAR_MONTHLY_MULTI_TOOL_STACK_KARBON_DOCUSIGN_CALENDLY_LOOM_AND_CONSOLIDATION_REQUEST",
+      "verdict": "DEMOTED_EXACT_ALL_IN_ONE_ACCOUNTING_PRACTICE_MANAGEMENT_CATEGORY",
+      "evidence_summary": "A solo accounting practice reports $198/month across Karbon, DocuSign, Calendly and Loom and asks whether the stack can be consolidated. Canopy currently markets an all-in-one accounting practice system that combines client management, documents/e-sign, workflow, billing, intake, portal and communications under one record and login. The workaround spend is direct and quantified, but the requested consolidation is already the explicit product thesis of a mature vertical platform."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_061-F5",
+      "title": "CONSTRUCTION_CREW_SCHEDULING_EXCEL_PLUS_QUICKBOOKS_WORKAROUND",
+      "chinese_title": "施工队排班 Excel 与 QuickBooks 分裂工作流",
+      "evidence_class": "CURRENT_BUYER_SIDE_REPEATED_EXCEL_CREW_CALENDAR_WITH_20_CREWS_WHILE_QUICKBOOKS_OWNS_OTHER_BACK_OFFICE_FUNCTIONS",
+      "verdict": "DEMOTED_EXACT_CREW_SCHEDULING_AND_QUICKBOOKS_INTEGRATION_CATEGORY",
+      "evidence_summary": "A construction company with about 20 crews reports using an Excel calendar for crew scheduling while QuickBooks handles most other functions, and wants a simpler reliable scheduler rather than another oversized platform. Workyard and other construction workforce products already provide drag-and-drop crew scheduling, mobile updates, job coding and QuickBooks/payroll integrations. The buyer's packaging preference is valid, but the underlying coordination edge is already directly served."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_061-F6",
+      "title": "PODCAST_PRODUCTION_DISTRIBUTION_SUBSCRIPTION_SPRAWL",
+      "chinese_title": "播客制作、托管与分发订阅碎片化",
+      "evidence_class": "CURRENT_BUYER_SIDE_EXPLICIT_SUBSCRIPTION_FATIGUE_AND_MULTI_TOOL_WORKFLOW_SELECTION_FOR_PODCAST_PRODUCTION_DISTRIBUTION_AND_PROMOTION",
+      "verdict": "DEMOTED_NATIVE_ALL_IN_ONE_PODCAST_CREATION_HOSTING_DISTRIBUTION_PLUS_CREATIVE_GROWTH_TAIL",
+      "evidence_summary": "A current podcaster describes being overwhelmed by many apps and explicitly wants to avoid a large stack of monthly subscriptions for production, hosting, distribution and promotion. Riverside now supports recording, editing, hosting and automatic distribution to Apple Podcasts, Spotify and YouTube in one place; Spotify for Creators provides hosting, broad distribution, analytics, monetization and growth tooling. The standardized production/distribution layer is consolidating natively, while residual audience growth remains creative/channel-specific rather than a normalized machine-executable operator unit."
+    }
+  ],
+  "hard_floor_demotions": [
+    "MULTICHANNEL_INVENTORY_FAILS_WHITE_SPACE_WHEN_EXACT_SOFTWARE_ALREADY_SYNCS_SHOPIFY_AMAZON_EBAY_INVENTORY_AND_ORDERS_FROM_ONE_CONTROL_PLANE",
+    "SHORT_TERM_RENTAL_STACK_FAILS_WHITE_SPACE_WHEN_CURRENT_STR_OPERATIONS_PRODUCTS_ALREADY_SYNC_BOOKINGS_AUTO_SCHEDULE_CLEANERS_AND_MANAGE_TURNOVER_WORK",
+    "MULTI_BUSINESS_ACCOUNTING_FAILS_DISTINCT_EDGE_WHEN_MULTI_COMPANY_ACCOUNTING_ALREADY_EXISTS_AND_THE_RESIDUAL_IS_ENTITY_SPECIFIC_ACCOUNTING_CONFIGURATION",
+    "ACCOUNTING_PRACTICE_TOOL_SPRAWL_FAILS_WHITE_SPACE_WHEN_VERTICAL_ALL_IN_ONE_PLATFORMS_EXPLICITLY_CONSOLIDATE_CRM_ESIGN_WORKFLOW_DOCUMENTS_BILLING_AND_INTAKE",
+    "CONSTRUCTION_CREW_SCHEDULING_FAILS_WHITE_SPACE_WHEN_CREW_SCHEDULERS_ALREADY_INTEGRATE_DIRECTLY_WITH_QUICKBOOKS_AND_FIELD_TIME_DATA",
+    "PODCAST_TOOL_SPRAWL_FAILS_DISTINCT_MACHINE_LAYER_WHEN_CREATION_EDITING_HOSTING_DISTRIBUTION_AND_ANALYTICS_ARE_CONSOLIDATING_NATIVELY_WHILE_GROWTH_REMAINS_CREATIVE"
+  ],
+  "scan_learnings": [
+    "BUYER_SIDE_REPEATED_WORKAROUND_EVIDENCE_IS_STRONGER_THAN_STARTING_FROM_A_SELLER_DEFINED_CATEGORY_BECAUSE_IT_OBSERVES_THE_UNSATISFIED_FLOW_BEFORE_PRODUCT_SELECTION",
+    "MULTI_TOOL_OR_SPREADSHEET_WORKAROUNDS_DO_NOT_PROVE_WHITE_SPACE_WHEN_AN_EXACT_SYNC_OR_ALL_IN_ONE_CONTROL_SURFACE_ALREADY_EXISTS",
+    "PACKAGING_PRICING_OR_ADOPTION_FRICTION_IS_NOT_A_DISTINCT_OPERATOR_ASSET_BY_ITSELF",
+    "BUYERS_MAY_KEEP_A_FRAGMENTED_STACK_EVEN_WHEN_A_MATURE_CONSOLIDATED_PRODUCT_EXISTS_DUE_SWITCHING_COST_FEATURE_PREFERENCE_OR_CONFIGURATION",
+    "ONE_BUYER_SIDE_WORKAROUND_SAMPLE_IS_NOT_ENOUGH_TO_DERIVE_A_NEW_MECHANISM_ONTOLOGY",
+    "NEXT_DISCOVERY_SHOULD_RUN_A_SECOND_INDEPENDENT_FORMATION_DIVERSE_BUYER_SIDE_WORKAROUND_SAMPLE_BEFORE_CHANGING_THE_SEARCH_RULE",
+    "SCAN061_ZERO_RETENTION_AFTER_EXACT_SYNC_ALL_IN_ONE_AND_VERTICAL_CONTROL_SURFACE_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_062",
+  "next_search_boundary": "SECOND_INDEPENDENT_BROAD_CURRENT_BUYER_SIDE_REPEATED_WORKAROUND_SPEND_OR_MULTI_LINE_ITEM_STACK_EVIDENCE_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_SELLER_DEFINED_CATEGORY_AS_PRIMARY_SIGNAL_NO_SCAN061_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN062_SECOND_INDEPENDENT_BUYER_SIDE_WORKAROUND_SAMPLE_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/shopify/comments/1veu85a/how_to_consolidate_inventory_across_multiple/",
+    "https://support.sellbrite.com/en/articles/3367149-how-does-sellbrite-work",
+    "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync/all?feature_handles%5B%5D=cf.inventory_sync.sync_type.multi_channel",
+    "https://www.reddit.com/r/airbnb_hosts/comments/1nsummx/pms_just_to_sync_airbnbvrbo_for_one_property/",
+    "https://www.reddit.com/r/airbnb_hosts/comments/1vnqbo0/sharing_calender_with_cleaners/",
+    "https://turno.com/",
+    "https://www.breezeway.io/integrations/airbnb",
+    "https://www.reddit.com/r/smallbusiness/comments/1wkn3xt/suggestions_for_accounting_software_for_multiple/",
+    "https://quickbooks.intuit.com/learn-support/en-us/help-article/account-management/create-add-another-company-file-quickbooks-online/L1WEnRQs1_US_en_US",
+    "https://www.odoo.com/documentation/19.0/applications/general/companies/multi_company.html",
+    "https://www.reddit.com/r/smallbusiness/comments/1s71fcf/added_up_my_software_costs_for_running_a_solo/",
+    "https://www.getcanopy.com/",
+    "https://www.reddit.com/r/Construction/comments/1ox38u0/does_anyone_have_any_recommendations_for_a/",
+    "https://www.workyard.com/compare/construction-scheduling-software",
+    "https://www.reddit.com/r/podcasting/comments/1qxjo3i/if_starting_a_podcast_now_what_appstech_would_you/",
+    "https://support.riverside.com/hc/en-us/articles/28858024864285-Hosting-Overview",
+    "https://creators.spotify.com/features/podcast"
+  ]
+}
