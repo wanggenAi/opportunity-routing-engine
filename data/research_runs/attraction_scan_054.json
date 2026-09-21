@@ -1,0 +1,105 @@
+{
+  "schema_version": "attraction-scan.v33",
+  "scan_id": "ATTRACTION_SCAN_054",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "CURRENT_RECURRING_PAID_SINGLE_EXCEPTION_CLASS_FIXED_REMEDIATION_OPEN_ACTION_API_DIRECT_ECONOMIC_SETTLEMENT_NO_BROAD_OPERATIONS_ROLE_NO_PLATFORM_APPROVAL_NO_REGULATED_SIGNATURE_NO_SCAN053_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_054-F1",
+      "title": "PRECHARGEBACK_ALERT_AUTOMATED_REFUND",
+      "chinese_title": "银行卡预拒付预警自动退款",
+      "evidence_class": "CURRENT_NETWORK_ALERT_WITH_API_ACTION_AND_DIRECT_AVOIDED_DISPUTE_COST",
+      "verdict": "DEMOTED_EXACT_PRECHARGEBACK_AUTOMATION_CONTROL_SURFACE",
+      "evidence_summary": "Ethoca/Verifi alerts expose a narrow, time-bounded exception with a fixed remediation: refund or report resolution before a chargeback posts. Kount exposes an Alerts Actions API, Justt exposes pre-chargeback outcome APIs, and Chargeflow already ingests network alerts, matches transactions, automates eligible refunds/resolution, and reports outcomes. The machine action and economic unit are real, but the exact control loop is already productized."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_054-F2",
+      "title": "STRIPE_DUPLICATE_CHARGE_REFUND",
+      "chinese_title": "Stripe 重复扣款自动识别与退款",
+      "evidence_class": "CURRENT_RECURRING_DUPLICATE_CHARGE_SUPPORT_EVENT_WITH_OPEN_REFUND_API",
+      "verdict": "DEMOTED_GENERIC_AGENT_CONTROL_SURFACE_AND_UPSTREAM_IDEMPOTENCY_PREVENTION",
+      "evidence_summary": "Stripe provides callable refund APIs and idempotency primitives, making the remediation technically deterministic. Macha already offers an end-to-end agent that classifies duplicate-charge tickets, verifies matching Stripe payments, creates the refund, replies and closes the ticket. The residual value is therefore either upstream prevention through idempotency or a generic support-agent workflow rather than a distinct operator-owned control layer."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_054-F3",
+      "title": "SUPPLIER_DUPLICATE_PAYMENT_RECOVERY",
+      "chinese_title": "供应商重复付款追偿",
+      "evidence_class": "CURRENT_SUCCESS_FEE_RECOVERY_WITH_DIRECT_CASH_REFUND_OR_OFFSET",
+      "verdict": "DEMOTED_EXACT_AUTONOMOUS_SUPPLIER_RECOVERY_AND_EXTERNAL_COUNTERPARTY_DEPENDENCE",
+      "evidence_summary": "Duplicate supplier payments create direct recoverable cash and support contingency pricing. Recoup already detects billing errors, files claims and chases suppliers autonomously, while established recovery firms charge against actual recoveries by cash refund or supplier offset. The final settlement still depends on supplier cooperation unless the client has a direct offset right, and the exact recovery category is already mature."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_054-F4",
+      "title": "AMAZON_FBA_RESIDUAL_REIMBURSEMENT_CLAIM",
+      "chinese_title": "Amazon FBA 残余赔付申诉",
+      "evidence_class": "CURRENT_PLATFORM_REIMBURSEMENT_EVENT_WITH_DIRECT_SELLER_CREDIT",
+      "verdict": "DEMOTED_PLATFORM_NATIVE_AUTOMATION_APPROVAL_AND_DENSE_EXACT_INCUMBENTS",
+      "evidence_summary": "Amazon now proactively reimburses most FBA warehouse lost/damaged and customer-return cases, leaving narrower manual claim windows for residual cases. The platform alone determines eligibility and settlement, while 2026 reimbursement tools and services already monitor accounts and file eligible claims. The remaining unit is both platform-controlled and densely served."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_054-F5",
+      "title": "GOOGLE_ADS_INVALID_TRAFFIC_CREDIT_CLAIM",
+      "chinese_title": "Google Ads 无效流量费用追偿",
+      "evidence_class": "CURRENT_AD_SPEND_CREDIT_WITH_DIRECT_BILLING_ADJUSTMENT",
+      "verdict": "DEMOTED_PLATFORM_OWNED_DETECTION_APPROVAL_AND_EXACT_REFUND_AUTOMATION",
+      "evidence_summary": "Google automatically filters most invalid traffic before billing and automatically issues credits when later detection qualifies; unresolved cases can be submitted for investigation but Google specialists determine the outcome. Tapper already markets automatic refund-claim filing and recovery tracking. The economic result is direct, but detection, approval and settlement remain owned by Google."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_054-F6",
+      "title": "CLOUD_SLA_SERVICE_CREDIT_RECOVERY",
+      "chinese_title": "云服务 SLA 违约积分追偿",
+      "evidence_class": "CURRENT_CONTRACTUAL_SERVICE_CREDIT_WITH_MEASURABLE_OUTAGE_AND_BILLING_RESULT",
+      "verdict": "DEMOTED_EXACT_SUCCESS_FEE_AUTOMATION_AND_PROVIDER_CLAIM_APPROVAL",
+      "evidence_summary": "AWS and Google Cloud SLAs define measurable outage thresholds and direct service-credit schedules, but customers must submit evidence and providers confirm eligibility. Next Signal already monitors providers, calculates eligibility, assembles claims and charges a percentage of recovered credits. This is a crisp money loop, yet the exact automation and success-fee business already exist and final settlement remains provider-approved."
+    }
+  ],
+  "hard_floor_demotions": [
+    "PRECHARGEBACK_ALERT_REFUNDS_FAIL_WHITE_SPACE_WHEN_CHARGEFLOW_KOUNT_AND_JUSTT_ALREADY_OWN_ALERT_TO_REFUND_OR_OUTCOME_CONTROL_LOOPS",
+    "STRIPE_DUPLICATE_CHARGE_REFUNDS_FAIL_DISTINCTNESS_WHEN_GENERIC_SUPPORT_AGENTS_ALREADY_EXECUTE_THE_FLOW_AND_IDEMPOTENCY_PREVENTS_THE_ROOT_EXCEPTION",
+    "SUPPLIER_DUPLICATE_PAYMENT_RECOVERY_FAILS_WHITE_SPACE_AND_OPERATOR_CONTROL_WHEN_AUTONOMOUS_RECOVERY_PRODUCTS_ALREADY_EXIST_AND_FINAL_REFUND_DEPENDS_ON_SUPPLIER_COOPERATION",
+    "FBA_REIMBURSEMENT_FAILS_OPEN_ACTION_CONTROL_WHEN_AMAZON_AUTOMATES_MOST_CASES_AND_RETAINS_ELIGIBILITY_AND_SETTLEMENT_AUTHORITY",
+    "GOOGLE_ADS_INVALID_TRAFFIC_RECOVERY_FAILS_OPERATOR_CONTROL_WHEN_GOOGLE_OWNS_DETECTION_INVESTIGATION_AND_CREDIT_ISSUANCE",
+    "CLOUD_SLA_CREDIT_RECOVERY_FAILS_WHITE_SPACE_WHEN_SUCCESS_FEE_AUTOMATION_ALREADY_EXISTS_AND_PROVIDER_CONFIRMATION_REMAINS_REQUIRED"
+  ],
+  "scan_learnings": [
+    "FIXED_REMEDIATION_PLUS_OPEN_API_DOES_NOT_CREATE_WHITE_SPACE_WHEN_AN_EXACT_CONTROL_SURFACE_ALREADY_EXISTS",
+    "DIRECT_ECONOMIC_SETTLEMENT_ATTRACTS_SUCCESS_FEE_AND_NATIVE_AUTOMATION_QUICKLY",
+    "PLATFORM_ISSUED_CREDITS_REIMBURSEMENTS_AND_REFUNDS_REMAIN_PLATFORM_CONTROLLED_EVEN_WHEN_EVIDENCE_IS_MACHINE_READABLE",
+    "PREVENTABLE_EXCEPTION_CLASSES_OFTEN_COLLAPSE_UPSTREAM_INTO_NATIVE_IDEMPOTENCY_OR_CONTROL_LOGIC",
+    "EXTERNAL_COUNTERPARTY_RECOVERY_IS_NOT_OPERATOR_CONTROL_WITHOUT_CALLABLE_SETTLEMENT_RIGHT",
+    "NEXT_DISCOVERY_SHOULD_LEAVE_REFUND_REIMBURSEMENT_CREDIT_RECOVERY_FAMILY_AND_TEST_NON_RECOVERY_FIXED_STATE_TRANSITIONS_WITH_DIRECT_MARGIN_OR_REVENUE_OUTCOME",
+    "SCAN054_ZERO_RETENTION_AFTER_EXACT_CONTROL_SURFACE_PLATFORM_APPROVAL_AND_PREVENTION_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_055",
+  "next_search_boundary": "CURRENT_RECURRING_PAID_NON_RECOVERY_SINGLE_STATE_TRANSITION_FIXED_MACHINE_ACTION_DIRECT_PAYER_MARGIN_OR_REVENUE_OUTCOME_OPEN_ACTION_RIGHTS_NO_REFUND_REIMBURSEMENT_CREDIT_DISPUTE_FAMILY_NO_PLATFORM_APPROVAL_NO_REGULATED_SIGNATURE_NO_SCAN054_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN055_FROM_NON_RECOVERY_FIXED_STATE_TRANSITIONS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://developer.kount.com/hc/en-us/articles/4411045463956-Receive-Alerts-in-Chargeback-Management",
+    "https://developers.justt.ai/reference/prechargebackalertscontroller_createoutcome",
+    "https://docs.chargeflow.io/docs/merchants/alerts",
+    "https://docs.stripe.com/terminal/features/refunds",
+    "https://docs.stripe.com/api/idempotent_requests",
+    "https://www.getmacha.com/use-cases/resolve-duplicate-charge-complaints",
+    "https://supplierrecoverysoftware.com/",
+    "https://www.twice2much.com/",
+    "https://sellercentral.amazon.com/seller-forums/discussions/t/5ea3aa16-d268-4ec6-af9e-a2af448bb46b",
+    "https://www.helium10.com/tools/operations/refund-genie/",
+    "https://www.pattern.com/feature/reimbursements",
+    "https://support.google.com/google-ads/answer/11182074?hl=en",
+    "https://tapper.ai/blog/how-to-automatically-claim-google-ads-refunds-for-invalid-clicks",
+    "https://aws.amazon.com/compute/sla/",
+    "https://cloud.google.com/terms/backupdr/sla",
+    "https://www.nextsignal.io/resources/next-signal-platform-faqs"
+  ]
+}
