@@ -63,10 +63,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_030",
+  "last_completed_scan_id": "ATTRACTION_SCAN_031",
   "last_resolved_formation_id": "ATTRACTION_SCAN_024-F1",
-  "next_scan_id": "ATTRACTION_SCAN_031",
-  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_NON_GENERIC_EXCEPTION_SCAN031",
+  "next_scan_id": "ATTRACTION_SCAN_032",
+  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_BROAD_REALITY_RESET_SCAN032",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -319,7 +319,13 @@
     "GENERIC_RPA_IDP_LOW_CODE_AND_VERTICAL_SAAS_ABSORB_RULE_STABLE_CROSS_SYSTEM_BRIDGES",
     "A_SURVIVING_SINGLE_OWNER_EDGE_MUST_DEPEND_ON_NON_GENERIC_EXCEPTION_STATE_NOT_MERE_DATA_MOVEMENT",
     "THE_EXCEPTION_DECISION_MUST_REMAIN_MACHINE_RESOLVABLE_WITHOUT_RECURRING_EXPERT_JUDGMENT",
-    "SCAN_030_ZERO_RETENTION_AFTER_SINGLE_OWNER_AUTOMATION_FALSIFICATION"
+    "SCAN_030_ZERO_RETENTION_AFTER_SINGLE_OWNER_AUTOMATION_FALSIFICATION",
+    "NON_GENERIC_EXCEPTION_DECISION_IS_STRONGER_THAN_COPY_PASTE_BUT_STILL_ATTRACTS_NATIVE_AND_SPECIALIZED_CONTROL_PLANES",
+    "SYSTEMS_OF_RECORD_MOVE_UPSTREAM_FROM_ALERTING_INTO_DECISION_AND_REMEDIATION",
+    "ONCE_EXCEPTION_STATE_IS_STANDARDIZABLE_THE_VALUE_LAYER_CAN_BE_ABSORBED_AS_A_PLATFORM_FEATURE",
+    "SINGLE_OWNER_ACTION_RIGHTS_DO_NOT_CREATE_OPERATOR_ASSET_IF_THE_DECISION_GRAPH_IS_PUBLIC_OR_COPYABLE",
+    "SUCCESSIVE_FAILURE_DERIVED_BOUNDARIES_ARE_AGAIN_BECOMING_A_HIDDEN_SEARCH_ONTOLOGY",
+    "SCAN_031_ZERO_RETENTION_AND_RESET_TO_BROAD_UNRELATED_REALITY"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -428,7 +434,10 @@
     "Scan 030 removes two-sided-market formation entirely and searches single-owner workflows where input and action rights already belong to the same actor.",
     "ATTRACTION_SCAN_030 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
     "Logistics AR/AP reconciliation, manufacturing BOM/report synchronization, cross-border declaration re-entry, chain-store omnichannel settlement and small-logistics WeChat/Excel capture all show real manual work but are already directly addressed by ERP/TMS/BMS/RPA/IDP/low-code or vertical SaaS.",
-    "Scan 031 will test formation-diverse high-consequence exceptions where generic data movement is insufficient but a bounded non-generic machine state may still exist."
+    "Scan 031 will test formation-diverse high-consequence exceptions where generic data movement is insufficient but a bounded non-generic machine state may still exist.",
+    "ATTRACTION_SCAN_031 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
+    "App-review rejection, payment holds, IAM exceptions, production incidents, manufacturing rush-order exceptions, procurement acknowledgments and e-commerce listing violations all have current native or specialized decision/remediation control surfaces.",
+    "The sequence from pre-platform exchange to single-owner integration to non-generic exceptions became another failure-derived narrowing bias; Scan 032 resets to broad unrelated current reality while preserving hard floors."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -444,9 +453,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_031",
+      "next_scan_id": "ATTRACTION_SCAN_032",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "FORMATION_DIVERSE_SINGLE_OWNER_HIGH_CONSEQUENCE_EXCEPTIONS_NON_GENERIC_STATE_NOT_DATA_MOVEMENT_INPUT_AND_ACTION_RIGHTS_OWNED_NO_RECURRING_EXPERT"
+      "search_boundary": "BROAD_CURRENT_REALITY_RESET_SAMPLE_UNRELATED_DOMAINS_NO_FAILURE_DERIVED_SHAPE_NO_ACTIVE_VERTICAL_OR_MECHANISM_INHERITANCE_KEEP_COMMERCIAL_HARD_FLOORS"
     }
   },
   "system_learnings": [
@@ -487,6 +496,8 @@
     "TWO_SIDED_MARKET_FORMATION_SHOULD_BE_REMOVED_WHEN_TRUST_SUPPLY_AND_FULFILLMENT_DOMINATE_THE_BRIDGE",
     "SINGLE_OWNER_INPUT_AND_ACTION_RIGHTS_IS_THE_NEXT_SEARCH_BOUNDARY",
     "SINGLE_OWNER_WORKFLOW_IS_NOT_ENOUGH_IF_THE_TRANSFORMATION_IS_GENERIC",
-    "NON_GENERIC_EXCEPTION_DECISION_IS_THE_NEXT_FALSIFICATION_LAYER"
+    "NON_GENERIC_EXCEPTION_DECISION_IS_THE_NEXT_FALSIFICATION_LAYER",
+    "EXCEPTION_AUTOMATION_IS_BEING_INTERNALIZED_BY_SYSTEMS_OF_RECORD_AND_VERTICAL_AI",
+    "FAILURE_DERIVED_NARROWING_MUST_PERIODICALLY_RESET_TO_BROAD_REALITY"
   ]
 }
