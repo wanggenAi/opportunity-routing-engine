@@ -1,0 +1,129 @@
+{
+  "schema_version": "attraction-scan.v30",
+  "scan_id": "ATTRACTION_SCAN_051",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "FRESH_CURRENT_REALITY_RECURRING_PAID_OUTCOME_WITH_MACHINE_VERIFIABLE_ACCEPTANCE_AND_REPLACEABLE_EXECUTION_NO_EXTERNAL_ALGORITHM_AS_PRIMARY_SUCCESS_CONTROLLER_NO_SCAN050_VERTICAL_INHERITANCE_REQUIRE_REPEATABLE_UNIT_ECONOMICS_AND_OPERATOR_CONTROL_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_051-F1",
+      "title": "MULTILINGUAL_AUDIO_ANNOTATION_CAPACITY_ROUTER",
+      "chinese_title": "多语言语音标注产能路由",
+      "state": "RESEARCH_BEACON_RETAINED_FOR_DEMAND_LEAKAGE_SUPPLY_DISCOVERABILITY_QA_ECONOMICS_AND_FOUNDER_FREE_ACQUISITION_FALSIFICATION",
+      "commercial_candidate": false,
+      "observed_money_motion": [
+        "A current French conversational-audio buyer posts $15,000 fixed price and explicitly requires a vendor/agency/team rather than individual freelancers, asks for capacity in accepted audio hours, 98%+ accuracy, QA process and ability to scale, and has already hired one provider.",
+        "A current European Portuguese project exposes roughly 300 accepted audio hours and pays based on accepted audio hours rather than working time, with 20 freelancers requested and 11 already hired.",
+        "A current Canadian French project exposes roughly 500 accepted audio hours, pays per accepted audio hour, requires paid qualification, and has already hired multiple contributors.",
+        "A current French transcription quality-manager role is 30+ hours/week for 6+ months and exists specifically to manage quality across large-volume annotation work."
+      ],
+      "acceptance_unit": "QA_APPROVED_AUDIO_HOUR_OR_BATCH",
+      "replaceable_execution_unit": "NATIVE_LANGUAGE_ANNOTATOR_OR_QA_REVIEWER_MATCHED_BY_LOCALE_CAPACITY_AND_QUALITY_HISTORY",
+      "incumbent_preflight": "Managed-service incumbents such as LXT already offer speech/linguistics/transcription delivery and crowd-as-a-service. Incumbent presence is strong, but current buyers still procure outside those platforms and explicitly seek external vendor/team capacity, so residual demand leakage is proven enough for cheap falsification rather than immediate closure.",
+      "operator_asset_hypothesis": "locale-specific supply graph + qualification/QA pass history + accepted-audio-hour throughput + rework/latency/capacity records",
+      "primary_unknowns": [
+        "WHETHER_DEMAND_IS_FRAGMENTED_ENOUGH_ACROSS_BUYERS_TO_SUPPORT_REPEATABLE_FOUNDER_FREE_INBOUND",
+        "WHETHER_NATIVE_ANNOTATOR_SUPPLY_CAN_BE_DISCOVERED_AND_QUALIFIED_WITHOUT_MANUAL_RECRUITING_EVERY_PROJECT",
+        "WHETHER_QA_CAN_BE_STANDARDIZED_ENOUGH_TO_AVOID_RECURRING_LINGUISTIC_EXPERT_MANAGEMENT",
+        "WHETHER_NET_MARGIN_SURVIVES_ANNOTATOR_PAY_QA_REWORK_PROJECT_MANAGEMENT_AND_MARKETPLACE_FEES",
+        "WHETHER_DATA_CONFIDENTIALITY_AND_PLATFORM_TERMS_ALLOW_CROSS_PROJECT_NONCONTENT_PERFORMANCE_METADATA_TO_COMPOUND",
+        "WHETHER_LXT_APPEN_RWS_TELUS_APPLAUSE_AND_SIMILAR_MANAGED_SERVICES_ALREADY_CAPTURE_THE_SAME_BUYER_SEGMENT_AT_ACCEPTABLE_PRICE_AND_SPEED"
+      ],
+      "next_action": "CHEAP_FALSIFY_MULTI_BUYER_RECURRENCE_SUPPLY_DEPTH_QA_AUTOMATION_MARGIN_CONTROL_SURFACE_AND_FOUNDER_FREE_DISCOVERY"
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_051-F1"
+  ],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_051-F1",
+      "title": "MULTILINGUAL_AUDIO_ANNOTATION_CAPACITY_ROUTER",
+      "chinese_title": "多语言语音标注产能路由",
+      "evidence_class": "MULTI_BUYER_ACCEPTED_UNIT_PRICING_WITH_VENDOR_TEAM_DEMAND_AND_REPLACEABLE_LANGUAGE_SUPPLY",
+      "verdict": "RETAINED_FOR_CHEAP_FALSIFICATION",
+      "evidence_summary": "Several current buyers expose accepted-audio-hour or QA-approved batch units across French, Canadian French, European Portuguese and Hindi; one $15,000 job explicitly wants an established vendor/team and scalable capacity. Managed incumbents exist, but current external procurement proves demand leakage. Retain only to falsify demand recurrence, supply depth, QA standardization, unit economics, rights and founder-free acquisition."
+    },
+    {
+      "title": "MOBILE_APP_CROWD_QA_TEST_EXECUTION",
+      "chinese_title": "移动应用众测执行",
+      "evidence_class": "CURRENT_RECURRING_PAID_TEST_CASE_EXECUTION_WITH_CLEAR_DEFECT_OUTPUT",
+      "verdict": "DEMOTED_EXACT_MATURE_CROWDTESTING_ORCHESTRATION_PLATFORMS",
+      "evidence_summary": "A current mobile-app engagement pays testers to execute test cases and report defects for three months, but Testlio and Applause already own the exact managed loop: source/match testers, run cycles across locations/devices, triage results and integrate defect reports into client workflows."
+    },
+    {
+      "title": "ONGOING_BOOKKEEPING_AND_BANK_RECONCILIATION",
+      "chinese_title": "持续记账与银行对账",
+      "evidence_class": "CURRENT_RECURRING_PAID_ACCURATE_BOOKS_AND_RECONCILIATION_OUTCOME",
+      "verdict": "DEMOTED_NATIVE_ACCOUNTING_AI_AUTOMATION_AND_ACCOUNTING_EXPERT_BOUNDARY",
+      "evidence_summary": "A current buyer wants ongoing accurate records, categorization, bank/credit-card reconciliation and discrepancy resolution. QuickBooks Accounting AI now categorizes transactions, compares statements, identifies differences and suggests fixes while collaborating with human experts; the remaining boundary carries accounting judgment and client-specific responsibility."
+    },
+    {
+      "title": "CONSTRUCTION_QUANTITY_TAKEOFF_AND_BOQ_PRODUCTION",
+      "chinese_title": "施工工程量计算与 BOQ 产出",
+      "evidence_class": "CURRENT_RECURRING_PER_PROJECT_MEASUREMENT_AND_ESTIMATE_OUTPUT",
+      "verdict": "DEMOTED_MATURE_AI_TAKEOFF_CONTROL_SURFACE_AND_ESTIMATOR_EXPERTISE",
+      "evidence_summary": "A current contractor seeks long-term takeoffs, BOQs and estimates across repeated projects. Kreo now automatically extracts quantities from drawings and produces measurements/BOQs/estimates, while bid-ready scope gaps, labor/material assumptions and commercial risk still require estimator judgment."
+    },
+    {
+      "title": "ECOMMERCE_PRODUCT_PHOTO_RETOUCHING_PER_IMAGE",
+      "chinese_title": "电商商品图按张精修",
+      "evidence_class": "CURRENT_RECURRING_PER_IMAGE_ACCEPTANCE_WITH_FIXED_UNIT_PRICING",
+      "verdict": "DEMOTED_EXACT_HIGH_VOLUME_HYBRID_RETOUCHING_SERVICE",
+      "evidence_summary": "A current jewelry brand wants ongoing fixed-price-per-image retouching with paid tests and strict preservation of real product geometry. Pixelz already offers high-volume hybrid AI-plus-human retouching, jewelry support, standardized specifications, QA, turnaround tracking and per-image/service pricing at scale."
+    },
+    {
+      "title": "ECOMMERCE_PRODUCT_CATALOG_SKU_MAPPING_AND_ENRICHMENT",
+      "chinese_title": "电商商品目录 SKU 映射与数据补全",
+      "evidence_class": "CURRENT_RECURRING_ACCURACY_CRITICAL_PER_SKU_CATALOG_WORK",
+      "verdict": "DEMOTED_MATURE_AGENTIC_PIM_ENRICHMENT_AND_GOVERNED_CATALOG_AUTOMATION",
+      "evidence_summary": "Current catalog jobs require exact SKU matching, specification research, duplicate avoidance and ongoing listing maintenance. Akeneo's 2026 Product Cloud now researches missing attributes on the live web, performs AI enrichment, catalog expansion, validation and governed mapping, directly occupying the scalable product-data loop."
+    }
+  ],
+  "hard_floor_demotions": [
+    "CROWD_QA_FAILS_WHITE_SPACE_WHEN_TESTER_SOURCING_MATCHING_EXECUTION_TRIAGE_AND_RESULTS_ROUTING_ARE_ALREADY_MATURE_MANAGED_PLATFORMS",
+    "BOOKKEEPING_RECONCILIATION_FAILS_MACHINE_FIRST_INDEPENDENCE_WHEN_NATIVE_ACCOUNTING_AI_ABSORBS_ROUTINE_WORK_AND_ACCOUNTING_JUDGMENT_REMAINS",
+    "CONSTRUCTION_TAKEOFF_FAILS_WHEN_AI_TAKEOFF_SOFTWARE_OWNS_MEASUREMENT_AND_BID_READY_SCOPE_STILL_NEEDS_EXPERT_ESTIMATOR_JUDGMENT",
+    "PRODUCT_RETOUCHING_FAILS_WHEN_EXACT_HIGH_VOLUME_AI_HUMAN_SERVICE_ALREADY_OWNS_SPEC_QA_AND_PER_IMAGE_DELIVERY",
+    "CATALOG_ENRICHMENT_FAILS_WHEN_AGENTIC_PIM_SYSTEMS_ALREADY_OWN_RESEARCH_MAPPING_VALIDATION_AND_CONTINUOUS_ENRICHMENT",
+    "AUDIO_ANNOTATION_IS_RESEARCH_ONLY_UNTIL_MULTI_BUYER_DEMAND_SUPPLY_DEPTH_QA_STANDARDIZATION_MARGIN_RIGHTS_AND_FOUNDER_FREE_DISCOVERY_SURVIVE"
+  ],
+  "scan_learnings": [
+    "MACHINE_VERIFIABLE_ACCEPTANCE_PLUS_REPLACEABLE_EXECUTION_SELECTS_FOR_BPO_AND_MANAGED_SERVICE_CATEGORIES",
+    "EXACT_MANAGED_SERVICE_INCUMBENTS_KILL_MOST_MATURE_UNIT_WORK_EVEN_WHEN_FREELANCE_BUYERS_STILL_EXIST",
+    "AUDIO_ANNOTATION_IS_DIFFERENT_BECAUSE_CURRENT_BUYERS_EXPLICITLY_PROCURE_VENDOR_TEAM_CAPACITY_AND_ACCEPTED_AUDIO_HOURS_ACROSS_MULTIPLE_LOCALES",
+    "CURRENT_EXTERNAL_PROCUREMENT_DESPITE_MATURE_INCUMBENTS_IS_EVIDENCE_OF_DEMAND_LEAKAGE_NOT_PROOF_OF_A_NEW_BUSINESS",
+    "ACCEPTED_AUDIO_HOUR_AND_QA_APPROVED_BATCH_ARE_STRONGER_ROUTABLE_UNITS_THAN_GENERIC_HOURLY_EXPERT_WORK",
+    "SCAN_051_RETAINS_ONE_RESEARCH_BEACON_AND_MAKES_ZERO_COMMERCIAL_PROMOTIONS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_052",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_RECURRING_MACHINE_VERIFIABLE_REPLACEABLE_OUTCOME_UNIT_NO_AUDIO_ANNOTATION_OR_SCAN051_VERTICAL_INHERITANCE_REAPPLY_ALL_HARD_FLOORS_AND_TEST_RESIDUAL_DEMAND_LEAKAGE_AFTER_INCUMBENT_PREFLIGHT",
+  "next_action": "PARALLEL_CHEAP_FALSIFY_SCAN051_F1_AND_START_SCAN052_WITHOUT_AUDIO_ANNOTATION_INHERITANCE_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.upwork.com/freelance-jobs/apply/French-Audio-Annotation-Transcription-Vendor-Needed-Large-Scale-Project_~022099469148477771257/",
+    "https://www.upwork.com/freelance-jobs/apply/European-Portuguese-Customer-Service-Audio-Transcription-Annotation-Multiple-Hires_~022098100286104189246/",
+    "https://www.upwork.com/freelance-jobs/apply/Canadian-French-Natural-Conversation-Annotation_~022099508021402643277/",
+    "https://www.upwork.com/freelance-jobs/apply/Quality-Manager-for-French-Transcription-Projects_~022098409378991088785/",
+    "https://www.lxt.ai/",
+    "https://www.upwork.com/freelance-jobs/apply/Testers-Needed-France-Saudi-Arabia-and-Chile_~022100926649823691033/",
+    "https://www.testlio.com/solutions/functional-testing",
+    "https://www.applause.com/functional-testing/",
+    "https://www.upwork.com/freelance-jobs/apply/Bookkeeper-Needed-for-Ongoing-Company-Bookkeeping-Financial-Records_~022101349092344402910/",
+    "https://quickbooks.intuit.com/accounting-agent/",
+    "https://www.upwork.com/freelance-jobs/apply/General-Construction-Estimator_~022095549393089187341/",
+    "https://www.kreo.net/solutions/ai-construction-takeoff-sofware",
+    "https://www.upwork.com/freelance-jobs/apply/High-End-Jewelry-Photo-Retoucher-Needed-for-Professional-Product-Images_~022100127071829571254/",
+    "https://www.pixelz.com/ecommerce/",
+    "https://www.upwork.com/freelance-jobs/apply/Computer-Equipment-And-Peripheral-Product-Listing-Specialist_~022094865135244475807/",
+    "https://help.akeneo.com/2026/july-2026-serenity-updates",
+    "https://www.akeneo.com/"
+  ]
+}
