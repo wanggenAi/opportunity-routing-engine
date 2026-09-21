@@ -34,7 +34,7 @@ Scan 035 retained no new formation.
 
 ## Current Phase
 
-`SCAN_035_AND_JEV_PHASE1_MERGED_SCAN_036_READY`
+`JEV_PHASE2_CURRENT_SCAN_ROUTING_BRIDGE_VALIDATION`
 
 ## Last Verified Main
 
@@ -49,11 +49,11 @@ PR-head CI and live Jev calibration were green before merge. Live GitHub remains
 
 ## Active Branch
 
-None. Jev Phase 1 branch merged.
+`feat/jev-advisory-routing-bridge-20260921`
 
 ## Active PR
 
-None for Jev Phase 1. PR #331 merged as `add577dd66d568c40e4d59bef77373dbdb1bb362`.
+#332 — `feat: make Jev routing safe for current scans` — open; validate auto current-scan resolution and deterministic effective-route override.
 
 ## CI
 
@@ -114,7 +114,7 @@ Validation:
 - Scan 015-F1 awaits written provider response and organic founder-free inbound evidence.
 
 Engineering:
-- No current Jev Phase 1 blocker. Keep Jev shadow/advisory until calibration includes genuinely open Scan 036 formations.
+- PR #332 needs CI + real Jev calibration before merge. Automatic research dispatch remains disabled.
 
 Discovery:
 - Scan 036 has not yet started; its research order remains payer/workaround signal -> delivery prefilter -> exact incumbent preflight -> deep research.
@@ -125,7 +125,7 @@ Commercial:
 
 ## Next Action
 
-Start Scan 036 from payer/workaround signal -> delivery prefilter -> exact-incumbent preflight, and use Jev only as a shadow research-routing second opinion on the resulting persisted formations.
+Complete PR #332 CI/live calibration and merge only if `auto` resolves the persisted current scan and authoritative closures deterministically override any conflicting Jev raw route.
 
 ## Do Not Repeat
 
@@ -167,4 +167,4 @@ Start Scan 036 from payer/workaround signal -> delivery prefilter -> exact-incum
 - Phase 1 merged in PR #331 as `add577dd66d568c40e4d59bef77373dbdb1bb362`.
 - Live calibration run `35564919132` used served model `jev-1.13.0`: 6/6 Scan 035 formations succeeded, all routed `NO_FURTHER_RESEARCH`, all attention `LOW`, failed=0.
 - The binary incumbent-preflight subquestion was noisier than the final route on already-closed records; no individual Jev sub-answer may trigger action by itself.
-- Phase 1 uploads PR/manual-run artifacts only; it does not persist Jev output to main.
+- Phase 1 uploads PR/manual-run artifacts only; it does not persist Jev output to main.\n- Phase 2 in PR #332 adds `model_research_route` vs `effective_research_route`, deterministic closure override, route-alignment telemetry, `automatic_research_dispatch_allowed=false`, and automatic current-scan resolution.
