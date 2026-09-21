@@ -1,0 +1,95 @@
+{
+  "schema_version": "formation-falsification.v1",
+  "formation_id": "ATTRACTION_SCAN_022-F1",
+  "as_of_date": "2026-09-21",
+  "prior_state": "RESEARCH_BEACON_RETAINED_FOR_PAYER_INCUMBENT_DATA_FRICTION_AND_GENERIC_AGENT_FALSIFICATION",
+  "verdict": "DEMOTED_ERP_ABSORPTION_AND_NONCOMPOUNDING_COMPLIANCE_LAYER",
+  "commercial_candidate": false,
+  "retain_for_active_validation": false,
+  "first_external_value_flow": "NOT_PROVEN",
+  "decisive_kills": [
+    {
+      "kill": "GENERIC_AGENT_OR_EXCEL_SUBSTITUTABILITY",
+      "status": "FAIL",
+      "reason": "For the bounded cases that can be handled without tax judgment, the official rules reduce the core reconciliation to structured invoice/tax-document facts, actual production-use quantities and deterministic calculations. The official interpretation publishes worked formulas, so after ordinary data export the narrow ledger/output layer is reproducible with spreadsheet/agent tooling rather than requiring a distinct operator-controlled asset."
+    },
+    {
+      "kill": "INCUMBENT_ERP_TAX_FEATURE_ABSORPTION",
+      "status": "FAIL",
+      "reason": "Current enterprise tax products already integrate business/production and finance data, invoice intake and deduction, automated tax calculation, declaration generation, policy-rule updates and audit trails. The proposed battery-specific reconciler sits inside an existing ERP/tax control surface that can absorb a new rule more naturally than a standalone entrant."
+    },
+    {
+      "kill": "FOUNDER_INDEPENDENT_DATA_IMPORT",
+      "status": "NOT_PROVEN_WITH_NEGATIVE_PRESSURE",
+      "reason": "The only plausible differentiation is joining customer invoice/tax documents to ERP/MES production-consumption and product evidence. Those source systems and schemas vary by enterprise; without native system position, a third party risks recurring customer-specific implementation and mapping work."
+    },
+    {
+      "kill": "VALUE_LAYER_SQUEEZE",
+      "status": "FAIL",
+      "reason": "Simple ledger/reconciliation cases are structured enough for incumbent tax software, spreadsheets or generic agents. Hard cases involve product-scope classification, mixed technologies, export allocation and other tax interpretation that the product must fail closed on and that professional tax advisers already address."
+    },
+    {
+      "kill": "EXACT_PAYER_WILLINGNESS",
+      "status": "NOT_PROVEN_WITH_NEGATIVE_PRESSURE",
+      "reason": "Search found broad paid enterprise tax software and professional tax advisory activity, but no current evidence that battery manufacturers pay separately for a standalone battery-consumption-tax reconciliation layer rather than using existing finance/ERP/tax staff and systems."
+    },
+    {
+      "kill": "COMPOUNDING_OPERATOR_ASSET",
+      "status": "FAIL",
+      "reason": "The governing rules are public and the decisive invoice, production-consumption, SKU and test-report data are customer-owned. The workflow does not naturally return a cross-customer outcome signal or execution right that compounds into a proprietary operator asset."
+    }
+  ],
+  "evidence": [
+    {
+      "source_type": "OFFICIAL",
+      "title": "财政部 海关总署 税务总局关于调整部分电池消费税政策的公告",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5251171/content.html",
+      "fact": "From 2026-09-01 specified batteries are taxed at 2%, rising to 4% from 2027-09-01; specified new-technology batteries receive temporary exemptions subject to standards."
+    },
+    {
+      "source_type": "OFFICIAL",
+      "title": "国家税务总局关于电池消费税征收管理有关事项的公告",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c100012/c5251620/content.html",
+      "fact": "Taxpayers using tax-paid batteries to continue producing taxable batteries must establish the battery tax-credit ledger; exemption evidence must align test-report product lists with accounting and invoice names/specifications/models."
+    },
+    {
+      "source_type": "OFFICIAL",
+      "title": "关于《国家税务总局关于电池消费税征收管理有关事项的公告》的解读",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c100015/c5251623/content.html",
+      "fact": "Worked examples calculate deductible tax from invoice/tax-payment amounts and actual production-use ratios, showing a deterministic structured core for uncomplicated cases."
+    },
+    {
+      "source_type": "OFFICIAL",
+      "title": "消费税政策即问即答之三",
+      "url": "https://www.chinatax.gov.cn/chinatax/c102414/c5252006/content.html",
+      "fact": "Current official Q&A covers product-scope, mixed-cell, export and timing edge cases, showing that the difficult remainder is substantive tax classification and interpretation rather than mere ledger generation."
+    },
+    {
+      "source_type": "INCUMBENT",
+      "title": "金蝶EAS Cloud企业税务管理系统",
+      "url": "https://www.kingdee.com/products/eascloud_taxation.html",
+      "fact": "Current tax software integrates internal business/finance systems with tax systems and supports automated invoice intake, tax calculation, declaration, tax archives and risk management."
+    },
+    {
+      "source_type": "INCUMBENT",
+      "title": "财税管理系统2026选型：一体化管控财税，合规高效两不误",
+      "url": "https://www.kingdee.com/resources/articles/1493612047122906049",
+      "fact": "Current manufacturing-focused tax/ERP tooling advertises production-finance linkage, invoice-to-production matching, automatic deduction handling and rapid adaptation to new tax policies."
+    },
+    {
+      "source_type": "PROFESSIONAL_SERVICE",
+      "title": "税务快讯｜德勤解读电池产品消费税新规：重塑产业格局",
+      "url": "https://finance.sina.com.cn/wm/2026-07-24/doc-iniixfyc4889686.shtml",
+      "fact": "Professional tax advisers already frame the new battery tax as a supply-chain, pricing, classification and compliance problem requiring enterprise impact analysis, evidencing an expert layer around the non-deterministic cases."
+    }
+  ],
+  "retained_learning": [
+    "MANDATORY_CASH_LINKED_WORKFLOW_CAN_STILL_BE_A_FEATURE_NOT_A_BUSINESS",
+    "DETERMINISTIC_PUBLIC_RULE_X_CUSTOMER_EXPORTS_IS_WEAK_OPERATOR_CONTROL",
+    "NATIVE_ERP_POSITION_CAN_ABSORB_NEW_TAX_RECONCILIATION_FASTER_THAN_STANDALONE_SOFTWARE",
+    "WHEN_SIMPLE_CASES_ARE_SPREADSHEETABLE_AND_HARD_CASES_REQUIRE_TAX_JUDGMENT_THE_MIDDLE_LAYER_IS_SQUEEZED",
+    "CUSTOMER_SPECIFIC_INTEGRATION_IS_NOT_FOUNDER_INDEPENDENCE",
+    "CONFIDENTIAL_CUSTOMER_DATA_WITHOUT_CROSS_CUSTOMER_OUTCOME_FEEDBACK_DOES_NOT_CREATE_A_COMPOUNDING_ASSET"
+  ],
+  "next_action": "REMOVE_FROM_ACTIVE_VALIDATION_AND_CONTINUE_FORMATION_DIVERSE_SCAN023"
+}
