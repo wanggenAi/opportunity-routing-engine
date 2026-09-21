@@ -1,0 +1,107 @@
+{
+  "schema_version": "attraction-scan.v42",
+  "scan_id": "ATTRACTION_SCAN_063",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_SIDE_PERSISTENT_WORKAROUND_AFTER_ACTIVE_OR_PAID_INCUMBENT_ADOPTION_OR_FAILED_SOFTWARE_ATTEMPT_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_RESIDUAL_EDGE_EXACT_INCUMBENT_PREFLIGHT_NO_SCAN061_OR_SCAN062_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_063-F1",
+      "title": "SALESFORCE_OUTLOOK_ACTIVITY_CAPTURE_RESIDUAL_WORKAROUND",
+      "chinese_title": "Salesforce 与 Outlook 活动同步残余 workaround",
+      "evidence_class": "CURRENT_ACTIVE_SALESFORCE_BUYER_CYCLED_NATIVE_AND_THIRD_PARTY_EMAIL_LOGGING_OPTIONS_AND_STILL_TESTS_MIDDLEWARE_FOR_QUERYABLE_ACTIVITY_RECORDS",
+      "verdict": "DEMOTED_ACTIVE_NATIVE_ARCHITECTURE_MIGRATION_PLUS_EXISTING_THIRD_PARTY_INTEGRATION_SURFACE",
+      "evidence_summary": "A current Salesforce buyer reports cycling through Outlook integration, Einstein Activity Capture, Cirrus Insight, BCC logging and other plugins, then testing middleware because no option fully met automatic inbound/outbound logging, participant matching and reportability requirements. This is strong post-incumbent residual evidence. However Salesforce is actively migrating EAC to Sync Email as Salesforce Activity, which stores captured emails as standard Activity/EmailMessage records usable by standard reports, workflows, APIs and customizable matching flows. The residual is therefore inside an active native platform migration plus a mature integration ecosystem rather than an unowned stable operator edge."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_063-F2",
+      "title": "JIRA_ADVANCED_PLANS_PORTFOLIO_CAPACITY_SHADOW_EXCEL",
+      "chinese_title": "Jira Advanced Plans 组合容量规划影子 Excel",
+      "evidence_class": "CURRENT_ACTIVE_JIRA_ADVANCED_ROADMAPS_BUYER_REBUILDS_QUARTERLY_CAPACITY_ROLLUP_IN_EXCEL_AFTER_MULTI_PROJECT_TRUST_BREAKDOWN",
+      "verdict": "DEMOTED_NATIVE_JIRA_PLANS_CAPACITY_SURFACE_PLUS_SCALE_CONFIGURATION_LIMITS",
+      "evidence_summary": "A current Jira Data Center user says the PMO rebuilds capacity rollups in Excel every quarterly planning cycle despite Advanced Roadmaps because mixed team structures across dozens of projects make the numbers lose trust quickly. Jira Plans already provides cross-team capacity, dependencies, scenarios, hierarchy and program-board views, and Atlassian documents practical plan-size/team/work-source constraints. The pain is real and persists after adoption, but the residual is a combination of plan configuration, data quality, scale limits and portfolio judgment inside an actively developed native control surface."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_063-F3",
+      "title": "WORKDAY_FINANCIALS_EXCEL_REPORTING_RESIDUAL",
+      "chinese_title": "Workday Financials 财务 Excel 报表残余工作",
+      "evidence_class": "CURRENT_ACTIVE_WORKDAY_FINANCIALS_USERS_REPORT_RECURRING_PERIOD_END_MANUAL_EFFORT_AND_CONTROL_RISK_AROUND_EXCEL_REPORTING",
+      "verdict": "DEMOTED_OFFICIAL_OFFICECONNECT_EXCEL_BRIDGE_PLUS_FINANCE_MODELING_JUDGMENT_TAIL",
+      "evidence_summary": "Current Workday Financials practitioners describe manual effort every accounting period and specifically call out limits around refreshing Workday reporting into Excel/Power BI under common security configurations. Workday itself ships OfficeConnect, an Excel add-in that queries Workday financial-model data and refreshes financial reports directly in Excel. The remaining friction is security/configuration, report-model design and finance-specific judgment, not an unowned standardized machine bridge."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_063-F4",
+      "title": "SERVICENOW_ROLE_AWARE_GUIDANCE_MAINTENANCE",
+      "chinese_title": "ServiceNow 角色感知操作指引维护",
+      "evidence_class": "CURRENT_ACTIVE_SERVICENOW_ADMIN_MANUALLY_UPDATES_USER_GUIDANCE_AFTER_FORM_AND_WORKFLOW_CHANGES_AND_REJECTS_GUIDED_TOURS_AS_INSUFFICIENT",
+      "verdict": "DEMOTED_ACTIVE_DYNAMIC_GUIDANCE_NATIVE_ABSORPTION_PLUS_OCM_CONFIGURATION_TAIL",
+      "evidence_summary": "A current ServiceNow administrator says built-in help is too generic and manually maintains user guidance after form/workflow changes, with different roles seeing different forms and views; the admin explicitly evaluated Guided Tours and found them insufficient. ServiceNow's 2026 Dynamic Guidance is now positioned as contextual real-time in-workflow assistance that complements Guided Tours and uses configured documentation/content sources. External digital-adoption tools also target role-aware overlays. The residual is being absorbed by native adoption tooling and still depends on organizational change management and instance-specific configuration."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_063-F5",
+      "title": "EPIC_COGITO_ADHOC_SQL_TO_EXCEL_ANALYST_WORKAROUND",
+      "chinese_title": "Epic Cogito 临时 SQL 到 Excel 分析人工层",
+      "evidence_class": "CURRENT_ACTIVE_EPIC_HEALTH_SYSTEM_ANALYST_RUNS_SSMD_SQL_AND_EXPORTS_TO_EXCEL_FOR_CLINICAL_AND_FINANCE_ADHOC_REPORTING_DESPITE_COGITO_CERTIFICATION",
+      "verdict": "DEMOTED_NATIVE_COGITO_SELF_SERVICE_ANALYTICS_PLUS_DOMAIN_SEMANTICS_AND_GOVERNANCE_TAIL",
+      "evidence_summary": "A current Epic analyst at a large health system reports that much of the job is running SQL against Epic reporting stores and exporting results to Excel for clinicians, doctors and finance users, despite being certified in Cogito/Caboodle/Clarity. Epic's Cogito stack already includes Reporting Workbench, Radar and SlicerDicer self-service analytics; health systems actively train end users on these tools. The residual concentrates in complex data semantics, governance, access controls and bespoke analytical interpretation rather than a normalized founder-independent software edge."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_063-F6",
+      "title": "OPERA_CLOUD_FRONT_DESK_CHECKIN_MANUAL_DEFERRAL",
+      "chinese_title": "OPERA Cloud 前台入住信息延后补录 workaround",
+      "evidence_class": "CURRENT_ACTIVE_OPERA_CLOUD_USER_CREATES_PLACEHOLDER_RESERVATIONS_AND_STORES_ID_DETAILS_IN_TEXT_EDITOR_DURING_BUSY_CHECKIN_THEN_BACKFILLS_LATER",
+      "verdict": "DEMOTED_NATIVE_PREREGISTRATION_MOBILE_CHECKIN_AND_MATURE_OHIP_PARTNER_ECOSYSTEM",
+      "evidence_summary": "A current hotel front-desk user who migrated to OPERA Cloud says walk-in check-in requires too many clicks, so during busy periods they create placeholder reservations and temporarily record ID details outside the PMS for later entry; their IT team is willing to expose API keys. Oracle currently supports configurable check-in steps, ID-scanning partner integration, mobile preregistration, OHIP REST APIs with prebuilt contactless check-in recipes, and mature OPERA-integrated products such as Canary mobile check-in. The exact experience gap is already an active native/partner ecosystem surface rather than stable white space."
+    }
+  ],
+  "hard_floor_demotions": [
+    "SALESFORCE_EMAIL_LOGGING_FAILS_STABLE_WHITE_SPACE_WHEN_THE_PLATFORM_IS_ACTIVELY_MIGRATING_EAC_TO_STANDARD_ACTIVITY_RECORDS_WITH_REPORTING_WORKFLOW_API_AND_MATCHING_SUPPORT",
+    "JIRA_PORTFOLIO_EXCEL_FAILS_DISTINCT_OPERATOR_ASSET_WHEN_PLANS_ALREADY_OWNS_CROSS_TEAM_CAPACITY_DEPENDENCY_AND_SCENARIO_CONTROL_AND_THE_RESIDUAL_IS_CONFIGURATION_SCALE_OR_DATA_TRUST",
+    "WORKDAY_FINANCIALS_EXCEL_FAILS_WHITE_SPACE_WHEN_OFFICECONNECT_IS_THE_OFFICIAL_REFRESHABLE_EXCEL_BRIDGE_AND_THE_RESIDUAL_IS_SECURITY_CONFIGURATION_OR_FINANCE_MODELING_JUDGMENT",
+    "SERVICENOW_GUIDANCE_FAILS_DURABLE_EDGE_WHEN_DYNAMIC_GUIDANCE_AND_EXTERNAL_DAP_TOOLS_ARE_ACTIVELY_ABSORBING_CONTEXTUAL_ROLE_AWARE_IN_WORKFLOW_ASSISTANCE",
+    "EPIC_ADHOC_REPORTING_FAILS_MACHINE_EDGE_WHEN_COGITO_ALREADY_PROVIDES_SELF_SERVICE_REPORTING_AND_THE_RESIDUAL_IS_DATA_SEMANTICS_GOVERNANCE_ACCESS_AND_ANALYTICAL_JUDGMENT",
+    "OPERA_CHECKIN_FAILS_WHITE_SPACE_WHEN_NATIVE_PREREGISTRATION_ID_SCAN_CONTROLS_OHIP_APIS_AND_PARTNER_MOBILE_CHECKIN_PRODUCTS_ALREADY_OCCUPY_THE_EXACT_CONTROL_SURFACE"
+  ],
+  "scan_learnings": [
+    "PERSISTENT_WORKAROUND_AFTER_PAID_OR_ACTIVE_INCUMBENT_ADOPTION_IS_MATERIALLY_STRONGER_EVIDENCE_THAN_SPREADSHEET_USE_ALONE",
+    "POST_INCUMBENT_RESIDUAL_DOES_NOT_IMPLY_DURABLE_WHITE_SPACE_WHEN_THE_INCUMBENT_IS_ACTIVELY_MIGRATING_OR_EXPANDING_INTO_THE_RESIDUAL",
+    "CURRENT_PRODUCT_ROADMAP_AND_PARTNER_ECOSYSTEM_ABSORPTION_MUST_BE_PREFLIGHTED_ALONGSIDE_STATIC_EXACT_INCUMBENTS",
+    "A_FAILED_NATIVE_FEATURE_CAN_STILL_LEAVE_ONLY_CONFIGURATION_DATA_QUALITY_GOVERNANCE_OR_ORGANIZATIONAL_CHANGE_MANAGEMENT_AS_THE_RESIDUAL",
+    "THE_NEXT_STRONGER_PAYER_SIGNAL_IS_PARALLEL_SPEND_ON_THE_INCUMBENT_AND_A_SEPARATE_RECURRING_EXTERNAL_WORKAROUND_FOR_THE_SAME_OUTCOME",
+    "THREE_BUYER_SIDE_PASSES_JUSTIFY_ESCALATING_FROM_PAIN_EVIDENCE_TO_DOUBLE_SPEND_EVIDENCE_WITHOUT_FIXING_A_PRODUCT_MECHANISM",
+    "SCAN063_ZERO_RETENTION_AFTER_ACTIVE_NATIVE_ROADMAP_PARTNER_ECOSYSTEM_AND_EXPERT_CONFIGURATION_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_064",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_SIDE_ACTIVE_OR_PAID_INCUMBENT_PLUS_SEPARATE_RECURRING_EXTERNAL_WORKAROUND_SPEND_FOR_THE_SAME_OUTCOME_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_RESIDUAL_EXACT_INCUMBENT_AND_ROADMAP_PREFLIGHT_NO_SCAN061_TO_SCAN063_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN064_FROM_PARALLEL_INCUMBENT_PLUS_EXTERNAL_WORKAROUND_SPEND_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/salesforce/comments/1syz3x8/salesforce_outlook_in_2026_is_anyone_actually/",
+    "https://help.salesforce.com/s/articleView?id=004633781&language=en_US&type=1",
+    "https://help.salesforce.com/s/articleView?id=sales.eac_email_activity.htm&language=en_US&type=5",
+    "https://www.reddit.com/r/AIDeveloperNews/comments/1v7xa33/anyone_moved_portfolio_planning_off_jira_without/",
+    "https://www.atlassian.com/software/jira/guides/advanced-roadmaps/overview",
+    "https://support.atlassian.com/jira-software-cloud/docs/limits-on-plan-size-in-advanced-roadmaps/",
+    "https://www.reddit.com/r/workday/comments/1vtn322/unpopular_opinion_workday_financials_doesnt_need/",
+    "https://doc.workday.com/admin-guide/ko-kr/financial-management/-0/officeconnect-/uvy1645571165544.html?toc=2.20.5",
+    "https://www.reddit.com/r/servicenow/comments/1vz588t/what_tools_do_you_recommend_to_drive_servicenow/",
+    "https://www.servicenow.com/community/servicenow-ai-platform-blog/platform-academy-january-27th-2025-go-from-zero-to-hero/bc-p/3554091",
+    "https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/exploring-guided-tours.html",
+    "https://www.reddit.com/r/healthIT/comments/1uj0br6/question_from_newer_epic_analyst/",
+    "https://health.ucdavis.edu/data/tools.html",
+    "https://medicine.yale.edu/ybic/research-informatics-office/data-resources-services/self-service-tools/slicerdicer/",
+    "https://www.reddit.com/r/askhotels/comments/1swzz5j/check_in_automation/",
+    "https://docs.oracle.com/en/industries/hospitality/opera-cloud/26.2/ocsuh/c_booking_reservations_pre_register_arrival_reservations.htm",
+    "https://www.oracle.com/hospitality/integration-platform/",
+    "https://www.canarytechnologies.com/integrations/oracle-and-canary-partnership"
+  ]
+}
