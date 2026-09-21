@@ -1,0 +1,110 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_029",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "CURRENT_SELF_ORGANIZED_PRE_PLATFORM_BEHAVIOR_WITH_REAL_EXCHANGE_NO_DOMINANT_CONTROL_SURFACE_NO_PRIOR_VERTICAL_OR_MECHANISM_INHERITANCE",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1",
+    "ATTRACTION_SCAN_016-F1"
+  ],
+  "observed_self_organized_exchanges": [
+    {
+      "title": "PARK_SHARED_EMPLOYEE_GROUP",
+      "chinese_title": "园区共享员工群",
+      "current_bridge": "工会/园区人员收集企业阶段性用工需求与职工可用时间，在微信群中人工撮合，并配套培训、沟通和权益保障。",
+      "real_exchange_evidence": "宁波园区共享员工群覆盖62家企业、376名职工，已实现数百人次共享调配；企业旺季补岗和职工淡季增收均有真实交换。",
+      "commercial_read": "真实交换成立，但价值依赖持续的人力供给、岗位匹配、劳动合规和履约管理；2026年腾讯地图等平台已经把临时招工、打卡、薪资结算产品化。"
+    },
+    {
+      "title": "PAID_DAZI_GROUPS_AND_AA_ORGANIZERS",
+      "chinese_title": "付费搭子群与AA组局",
+      "current_bridge": "个人主理人在短视频/社交平台引流进微信群，收取小额入群费，组织活动、AA、商家合作和群内匹配。",
+      "real_exchange_evidence": "2026年报道显示同城搭子群已形成收费和商家导流模式，群主收9.9—39.9元入群费，线下活动通常AA。",
+      "commercial_read": "真实付费成立，但核心资产是持续流量、社群氛围和线下组织；活动报名、AA、群管理和同城匹配工具已经成熟，剩余价值高度依赖人工运营。"
+    },
+    {
+      "title": "SURPLUS_MEAL_WECHAT_GROUP",
+      "chinese_title": "余量餐微信群低价流转",
+      "current_bridge": "餐饮商户把当日合规余量餐通过微信群提前发布，社区或取餐点连接错峰用餐人群，线下取餐。",
+      "real_exchange_evidence": "2026年浙江松阳已有社区+商户用微信群每天公布余量餐，以低价有偿方式服务外卖骑手等群体。",
+      "commercial_read": "供需真实，但惜食魔法袋已覆盖300多个城市和大量商户；食品安全、时效、线下取货也要求本地运营，不是轻软件微边。"
+    },
+    {
+      "title": "LOGISTICS_PARK_CAPACITY_ALLIANCE",
+      "chinese_title": "物流园运力与仓储共享联盟",
+      "current_bridge": "园区企业通过自发联盟共享运力、仓储和企业资源，由园区/联盟人工协调需求、金融和合作关系。",
+      "real_exchange_evidence": "2026年长沙雨花物流园企业自愿加入联盟，共享运力并盘活大规模仓储资源。",
+      "commercial_read": "资源价值高，但动作依赖真实仓库、车辆、合同、现场调度和本地企业关系；联盟/园区本身已成为控制节点，独立薄软件容易退化成线索平台。"
+    },
+    {
+      "title": "INDUSTRIAL_PARK_SUPPLY_DEMAND_BULLETIN",
+      "chinese_title": "工业园企业供需公告撮合",
+      "current_bridge": "园区通过公众号、表单/KDocs收集企业采购、销售、服务外包和产能合作需求，公开联系人后由企业直接人工对接。",
+      "real_exchange_evidence": "2026年上海青浦工业园官方上线企业上下游供需合作专栏，要求企业提交规格、数量、预算、交付和联系方式。",
+      "commercial_read": "机器化匹配很容易想象，但缺口本质上是B2B线索发现；交易、验厂、合同、履约仍由企业自行完成，且园区已经免费提供发布入口。"
+    }
+  ],
+  "examined_formations": [
+    {
+      "title": "SHARED_EMPLOYEE_MATCHING_LAYER",
+      "chinese_title": "共享员工自动撮合层",
+      "mechanism_class": "TEMPORARY_LABOR_COORDINATION",
+      "verdict": "DEMOTED_HUMAN_SUPPLY_COMPLIANCE_AND_PLATFORMIZATION",
+      "evidence_summary": "Self-organized groups prove demand, but value depends on recurring worker supply, qualification, scheduling, labor compliance and settlement. Current flexible-labor platforms and Tencent Maps already productize nearby job posting, attendance and pay settlement."
+    },
+    {
+      "title": "DAZI_GROUP_OPERATING_SYSTEM",
+      "chinese_title": "搭子社群主理人运营系统",
+      "mechanism_class": "COMMUNITY_COORDINATION",
+      "verdict": "DEMOTED_MATURE_EVENT_TOOLS_AND_RECURRING_COMMUNITY_OPERATIONS",
+      "evidence_summary": "Paid groups and AA activities are real, but signup/payment/AA/reminders are already standard WeChat mini-program capabilities; the scarce part is continued traffic, moderation and offline organization."
+    },
+    {
+      "title": "SURPLUS_MEAL_GROUP_ROUTER",
+      "chinese_title": "余量餐微信群路由层",
+      "mechanism_class": "PERISHABLE_SURPLUS_EXCHANGE",
+      "verdict": "DEMOTED_EXACT_SURPLUS_FOOD_PLATFORM_AND_PHYSICAL_FULFILLMENT",
+      "evidence_summary": "The self-organized flow is real, but established surplus-food platforms already connect merchants and users at scale; food safety, timing and pickup are physical local operations."
+    },
+    {
+      "title": "PARK_LOGISTICS_SHARED_CAPACITY_LAYER",
+      "chinese_title": "园区物流共享容量层",
+      "mechanism_class": "PHYSICAL_RESOURCE_SHARING",
+      "verdict": "DEMOTED_ALLIANCE_CONTROL_AND_PHYSICAL_OPERATIONS",
+      "evidence_summary": "Park alliances already coordinate shared transport/warehouse resources. The remaining work is local relationship, contract and physical scheduling/fulfillment rather than a reusable founder-independent software edge."
+    },
+    {
+      "title": "PARK_SUPPLY_DEMAND_AUTOMATCH",
+      "chinese_title": "园区供需自动匹配层",
+      "mechanism_class": "B2B_LEAD_MATCHING",
+      "verdict": "DEMOTED_FREE_PUBLIC_BULLETIN_AND_LEAD_GENERATION_ONLY",
+      "evidence_summary": "Industrial parks already collect structured purchase/sale requirements and expose direct contacts. Automating text matching does not create transaction rights, proprietary outcomes or a compounding operator asset."
+    }
+  ],
+  "hard_floor_demotions": [
+    "SELF_ORGANIZED_GROUP_DOES_NOT_IMPLY_SOFTWARE_WHITE_SPACE",
+    "TWO_SIDED_EXCHANGE_FAILS_IF_SCALING_REQUIRES_RECURRING_SUPPLY_ACQUISITION_OR_COMMUNITY_OPERATIONS",
+    "PHYSICAL_RESOURCE_SHARING_FAILS_LIGHTWEIGHT_EXECUTION_WHEN_LOCAL_SCHEDULING_AND_FULFILLMENT_ARE_INTRINSIC",
+    "FREE_PUBLIC_BULLETIN_PLUS_DIRECT_CONTACT_COLLAPSES_AUTOMATCH_TO_LEAD_GENERATION",
+    "TRUST_SETTLEMENT_AND_COMPLIANCE_GAPS_OFTEN_REQUIRE_PLATFORM_OPERATIONS_NOT_A_THIN_MICRO_EDGE"
+  ],
+  "scan_learnings": [
+    "PREPLATFORM_SELF_ORGANIZATION_IS_GOOD_EVIDENCE_OF_REAL_FLOW_BUT_NOT_SUFFICIENT_EVIDENCE_OF_A_SOFTWARE_EDGE",
+    "WHEN_THE_MANUAL_BRIDGE_IS_TRUST_SUPPLY_COMPLIANCE_OR_PHYSICAL_FULFILLMENT_AUTOMATION_DOES_NOT_REMOVE_THE_CORE_WORK",
+    "WECHAT_GROUP_FRICTION_IS_OFTEN_ALREADY_COMMODITIZED_BY_SIGNUP_PAYMENT_AA_AND_GROUP_MANAGEMENT_TOOLS",
+    "B2B_BULLETIN_AUTOMATION_WITHOUT_ACTION_RIGHTS_IS_LEAD_GENERATION_NOT_CONTROL",
+    "NEXT_SEARCH_SHOULD_REMOVE_TWO_SIDED_MARKET_FORMATION_AND_NEW_SUPPLY_ACQUISITION_FROM_THE_PROBLEM_SHAPE",
+    "SCAN_029_ZERO_RETENTION_AFTER_PREPLATFORM_EXCHANGE_FALSIFICATION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_030",
+  "next_search_boundary": "CURRENT_SINGLE_OWNER_MANUAL_CROSS_SYSTEM_WORKFLOW_INPUT_AND_ACTION_RIGHTS_ALREADY_OWNED_NO_NEW_SUPPLY_NO_MARKETPLACE_NO_PRIOR_VERTICAL_INHERITANCE",
+  "next_action": "START_SCAN030_FROM_ONE_ACTOR_WORKFLOWS_WHERE_DATA_AND_ACTION_RIGHTS_ALREADY_EXIST_BUT_CHAT_EXCEL_COPY_PASTE_OR_MANUAL_RECONCILIATION_STILL_BRIDGES_SYSTEMS",
+  "first_external_value_flow": "NOT_PROVEN"
+}
