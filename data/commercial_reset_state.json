@@ -22,6 +22,14 @@
       "state": "RESEARCH_BEACON_RETAINED_FOR_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
       "retained_date": "2026-09-20",
       "commercial_candidate": false
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_024-F1",
+      "title": "MULTI_PROVIDER_PREPAID_QUOTA_POOL_ROUTER",
+      "chinese_title": "多模型预付额度池消耗路由器",
+      "state": "RESEARCH_BEACON_RETAINED_FOR_PAYER_FEATURE_ABSORPTION_SAVINGS_AND_OPERATOR_ASSET_FALSIFICATION",
+      "retained_date": "2026-09-21",
+      "commercial_candidate": false
     }
   ],
   "resolved_research_formations": [
@@ -58,10 +66,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_023",
+  "last_completed_scan_id": "ATTRACTION_SCAN_024",
   "last_resolved_formation_id": "ATTRACTION_SCAN_022-F1",
-  "next_scan_id": "ATTRACTION_SCAN_024",
-  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_HIGH_ENERGY_MICRO_EDGE_SCAN024",
+  "next_scan_id": "ATTRACTION_SCAN_025",
+  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_SCAN024_F1_AND_HIGH_ENERGY_MICRO_EDGE_SCAN025",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -265,7 +273,13 @@
     "PRIVATE_DOCUMENTS_PLUS_PUBLIC_RULE_SCHEMA_IS_GENERIC_AGENT_SUBSTITUTABLE_UNLESS_A_DISTINCT_CONTROL_ASSET_EXISTS",
     "FREE_OFFICIAL_RAIL_PLUS_PUBLIC_INTEREST_SUPPORT_COMPRESSES_WILLINGNESS_TO_PAY_FOR_NARROW_PREPARATION",
     "WHEN_SIMPLE_CASES_COMMODITIZE_AND_COMPLEX_CASES_REQUIRE_LICENSED_EXPERTS_THE_MIDDLE_AUTOMATION_LAYER_CAN_BE_SQUEEZED",
-    "SCAN_021_F1_DEMOTED_AFTER_CHEAP_FALSIFICATION"
+    "SCAN_021_F1_DEMOTED_AFTER_CHEAP_FALSIFICATION",
+    "A_HOT_MARKET_CAN_CONTAIN_A_NARROW_UNOWNED_STATE_EVEN_WHEN_THE_WHOLE_GATEWAY_MARKET_IS_CROWDED",
+    "PREPAID_CAPACITY_EXPIRY_IS_DIFFERENT_FROM_DOLLAR_BUDGET_ENFORCEMENT",
+    "PROVIDER_NATIVE_REMAINING_QUOTA_API_CAN_TURN_PROCUREMENT_ENTITLEMENT_INTO_MACHINE_ROUTING_STATE",
+    "OPEN_FEATURE_REQUEST_FROM_A_MATURE_GATEWAY_IS_EVIDENCE_OF_A_REAL_GAP_NOT_PROOF_OF_A_BUSINESS",
+    "FEATURE_GAP_MUST_BE_KILLED_IF_INCUMBENTS_CAN_ABSORB_IT_FASTER_THAN_A_DISTINCT_OPERATOR_ASSET_CAN_FORM",
+    "SCAN_024_RETAINED_PREPAID_QUOTA_MICRO_EDGE_FOR_CHEAP_FALSIFICATION_ONLY"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -336,7 +350,13 @@
     "ATTRACTION_SCAN_023 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
     "Scan 023 deliberately corrected policy-document discovery bias by starting from observable voluntary spending, renting, traveling, searching and substitution behavior.",
     "Robot rental, inbound visitor services, event commerce, smart-glasses trial and home care all showed real participant energy but failed current control-surface or founder-independent-delivery floors.",
-    "Scan 024 will search for narrow unowned machine-resolvable micro-edges inside high-energy existing flows rather than another whole marketplace or policy workflow."
+    "Scan 024 will search for narrow unowned machine-resolvable micro-edges inside high-energy existing flows rather than another whole marketplace or policy workflow.",
+    "ATTRACTION_SCAN_024 completed on 2026-09-21 with one research-only micro-edge and zero commercial promotions.",
+    "Scan 024-F1 targets utilization of already-paid multi-provider AI quota/package capacity before reset or expiry; it is not generic model-cost routing.",
+    "Tencent exposes Token Plan package/subpackage balance and expiry by API; Alibaba exposes Token Plan usage and package state through official machine-invocable tooling and OpenAPI.",
+    "LiteLLM issue #31823 explicitly requests provider quota pools/package-based routing as a first-class feature, validating the gap while also creating rapid feature-absorption risk.",
+    "Cloudflare/Kong current public gateway controls validate budget-governance demand but do not by themselves prove external prepaid provider-package entitlement routing.",
+    "Scan 025 must not inherit LLM, Token Plan, quota-pool or gateway terms as a search prior."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -349,12 +369,17 @@
         "formation_id": "ATTRACTION_SCAN_016-F1",
         "state": "CHEAP_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
         "next_action": "VERIFY_TWO_INDEPENDENT_9610_CROSS_CUSTOMS_RETURN_RAILS_AND_NON_CONSULTING_ECONOMICS"
+      },
+      {
+        "formation_id": "ATTRACTION_SCAN_024-F1",
+        "state": "CHEAP_PAYER_FEATURE_ABSORPTION_SAVINGS_SECURITY_AND_OPERATOR_ASSET_FALSIFICATION",
+        "next_action": "VERIFY_PAYER_REAL_SAVINGS_PROVIDER_STATE_FEATURE_ABSORPTION_SECURITY_AND_DISTINCT_OPERATOR_ASSET"
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_024",
+      "next_scan_id": "ATTRACTION_SCAN_025",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "HIGH_ENERGY_EXISTING_FLOWS_FIND_UNOWNED_MICRO_EDGES_NO_WHOLE_MARKETPLACE_OR_POLICY_PRIOR"
+      "search_boundary": "HIGH_ENERGY_MICRO_EDGE_NO_LLM_QUOTA_OR_ACTIVE_VERTICAL_INHERITANCE"
     }
   },
   "system_learnings": [
@@ -375,6 +400,9 @@
     "WHOLE_MARKETPLACE_OPPORTUNITIES_SHOULD_BE_KILLED_EARLY_WHEN_DISCOVERY_MATCHING_AND_TRANSACTION_ARE_ALREADY_INTERNALIZED",
     "HUMAN_SERVICE_DEMAND_IS_NOT_ENOUGH_IF_THE_OPERATOR_MUST_RECUR_SUPPLY_ACQUISITION_QUALITY_CONTROL_OR_DELIVERY",
     "NEXT_SEARCH_SHOULD_LOOK_FOR_NARROW_UNOWNED_MICRO_EDGES_INSIDE_HIGH_ENERGY_EXISTING_FLOWS_RATHER_THAN_BUILDING_ANOTHER_WHOLE_MARKETPLACE",
-    "SCAN_023_ZERO_RETENTION_AFTER_VOLUNTARY_FLOW_HARD_FLOOR_FALSIFICATION"
+    "SCAN_023_ZERO_RETENTION_AFTER_VOLUNTARY_FLOW_HARD_FLOOR_FALSIFICATION",
+    "PREPAID_QUOTA_STATE_CAN_BE_MACHINE_RESOLVABLE_ACROSS_MULTIPLE_PROVIDER_ECOSYSTEMS",
+    "DOLLAR_BUDGET_CONTROL_IS_NOT_THE_SAME_AS_EXPIRING_ENTITLEMENT_UTILIZATION",
+    "MATURE_GATEWAY_FEATURE_REQUEST_CAN_REVEAL_A_MICRO_EDGE_AND_SIMULTANEOUSLY_WARN_OF_FAST_ABSORPTION"
   ]
 }
