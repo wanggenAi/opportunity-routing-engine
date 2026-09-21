@@ -6,7 +6,7 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 050 tested six recurring paid outcomes rather than one-time build budgets: email inbox placement, Amazon PPC profitability, technical SEO health, CRM data quality, multichannel ecommerce stockout/exception control, and pay-per-qualified-lead acquisition. The payer/outcome signal is stronger, but every formation still fails because the exact loop is already productized, the primary success variable is externally platform-controlled, or recurring human/expert execution remains core.
+Scan 051 tested six recurring paid outcome units with machine-verifiable acceptance and replaceable execution. Five collapsed into mature managed-service or native-automation control surfaces. One research beacon survived cheap-retention preflight: multilingual audio annotation capacity, where current buyers still expose vendor/team demand, QA-approved audio-hour or batch acceptance, and replaceable locale-specific execution despite strong incumbent managed services.
 
 ```text
 OBSERVED PAID / CONTRACTED MICRO-FLOW
@@ -38,21 +38,23 @@ Resolved recently:
 - `ATTRACTION_SCAN_049` — zero retention after recent paid workflow implementation budgets failed independent-control and recurring-outcome floors.
 - `ATTRACTION_SCAN_050` — zero retention after recurring measurable outcomes failed mature-control, external-algorithm or recurring-execution floors.
 
-Discovery queue:
-- `ATTRACTION_SCAN_051 — FRESH_CURRENT_REALITY_RECURRING_PAID_OUTCOME_WITH_MACHINE_VERIFIABLE_ACCEPTANCE_AND_REPLACEABLE_EXECUTION_NO_EXTERNAL_ALGORITHM_AS_PRIMARY_SUCCESS_CONTROLLER_NO_SCAN050_VERTICAL_INHERITANCE_REQUIRE_REPEATABLE_UNIT_ECONOMICS_AND_OPERATOR_CONTROL_EXACT_INCUMBENT_PREFLIGHT_FIRST`.
+Research queue:
+- `ATTRACTION_SCAN_051-F1` — cheap falsification of multi-buyer recurrence, supply depth, QA standardization, normalized unit economics, rights, incumbent absorption and founder-free demand acquisition.
 
-Scan 050 retained zero new formations and made zero commercial promotions.
+Discovery queue:
+- `ATTRACTION_SCAN_052 — BROAD_CURRENT_REALITY_RECURRING_MACHINE_VERIFIABLE_REPLACEABLE_OUTCOME_UNIT_NO_AUDIO_ANNOTATION_OR_SCAN051_VERTICAL_INHERITANCE_REAPPLY_ALL_HARD_FLOORS_AND_TEST_RESIDUAL_DEMAND_LEAKAGE_AFTER_INCUMBENT_PREFLIGHT`.
+
+Scan 051 retained one research beacon, made zero commercial promotions, and FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_050_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_051_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`0a09bd6aaea7edf3695421365a9ef9fb92b1f40b`
-— squash merge of PR #347, `Separate implementation spend from recurring outcome flow in Scan 049`.
+`6bcc75ba45757b052aabf06863d992bdad52c382`
+— squash merge of PR #348, `Require machine-verifiable recurring outcomes in Scan 050`.
 
-PR #347 CI run `35600606842` completed `success`. Jev run `35600606740` completed `success`: 6/6 `NO_FURTHER_RESEARCH`, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -60,11 +62,11 @@ PR #347 CI run `35600606842` completed `success`. Jev run `35600606740` complete
 
 ## Active Branch
 
-`research/attraction-scan-050`.
+`research/attraction-scan-051`.
 
 ## Active PR
 
-Pending creation for Scan 050. Live GitHub state is authoritative.
+Pending creation for Scan 051. Live GitHub state is authoritative.
 
 ## CI
 
@@ -80,9 +82,9 @@ Pending creation for Scan 050. Live GitHub state is authoritative.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_050.json`
-- `docs/research/ATTRACTION_SCAN_050_2026-09-21.md`
-- `tests/test_attraction_scan_050_recurring_outcome_gate.py`
+- `data/research_runs/attraction_scan_051.json`
+- `docs/research/ATTRACTION_SCAN_051_2026-09-21.md`
+- `tests/test_attraction_scan_051_routable_unit_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -107,16 +109,16 @@ Results:
 ## Current Findings
 
 ```text
-RECURRING PAYMENT
+MACHINE-VERIFIABLE ACCEPTANCE
 +
-MEASURABLE OUTCOME
+REPLACEABLE EXECUTION
++
+CURRENT PAID DEMAND
 !=
-INDEPENDENT DURABLE CONTROL
+UNOWNED REPEATABLE BUSINESS
 ```
 
-Scan 050 materially strengthened the demand signal: buyers repeatedly pay for inbox placement, ad profitability, site health, clean CRM data, low stockout/defect rates and accepted qualified leads. Yet those outcomes still fail the project thesis when an exact software control surface already exists, when Google/Gmail/Amazon owns the decisive success variable, or when delivery remains recurring expert/acquisition work.
-
-Scan 051 therefore keeps recurring outcome spend but requires a tighter execution shape: machine-verifiable acceptance, replaceable execution, repeatable unit economics, and no external platform algorithm as the primary controller of success.
+Scan 051 shows that this stricter filter selects heavily for BPO and managed-service categories, where incumbents already own most mature loops. Multilingual audio annotation remains research-worthy only because several current buyers still procure external vendor/team capacity using accepted-audio-hour or QA-approved batch units. That residual demand leakage is evidence for causal descent, not proof of commercial white space.
 
 ## Validation Status
 
@@ -138,9 +140,10 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 050 is complete with zero retained formations and zero commercial promotions.
-- Six recurring measurable outcome flows were closed because exact products own the loop, external platform algorithms control success, or recurring expert/acquisition work remains core.
-- Scan 051 keeps outcome spend but requires machine-verifiable acceptance, replaceable execution, repeatable unit economics and operator control before deep causal research.
+- Scan 051 is complete with one retained research beacon and zero commercial promotions.
+- Five machine-verifiable/replacement-friendly flows were closed because mature managed-service or native automation already owns the loop.
+- `ATTRACTION_SCAN_051-F1` remains research-only pending falsification of demand recurrence, supply discoverability, QA standardization, normalized margin, rights and founder-free acquisition.
+- Scan 052 must remain broad and must not inherit audio annotation as its search ontology.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -148,7 +151,7 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 050 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev allows `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 051 from recurring paid outcome units with machine-verifiable acceptance and replaceable execution.
+Create the Scan 051 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev routes `ATTRACTION_SCAN_051-F1` to `CAUSAL_DESCENT`, execute bounded cheap falsification while independently starting Scan 052 from a broad current-reality search. Do not promote F1 without evidenced normalized economics and founder-free demand.
 
 ## Do Not Repeat
 
@@ -183,6 +186,7 @@ Create the Scan 050 PR, run repository CI and live Jev, consume the continuation
 - Do not retain an agentic workflow when the decisive authorization, payment or action rail belongs to the platform/processors.
 
 - Do not mistake recurring outcome spend for operator control when an external platform algorithm determines the primary result.
+- Do not treat external audio-annotation procurement despite incumbents as commercial white space; prove repeatable buyer leakage, QA delegation, normalized margin and founder-free acquisition first.
 - Do not retain performance-based work when recurring acquisition or expert judgment remains the core delivery engine.
 
 ## Guardrails
