@@ -6,17 +6,17 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 059 completed a second broad, formation-diverse pass using stronger recurring-spend and contract-to-hire evidence across bookkeeping, recruiting, medical billing, affiliate partnerships, appointment setting and email marketing. All six were demoted after exact-incumbent preflight separated the increasingly native repeatable machine layer from the residual human judgment, relationship, consent, compliance or accountable-ownership tail.
+Scan 060 changed evidence source from hiring signals to direct productized-service purchases across WordPress care, virtual assistance, design subscriptions, podcast postproduction, managed QA and CAD/design services. All six were demoted: either the exact outcome is already a mature managed-service category, or the purchased unit remains recurring human capacity/judgment after automation absorbs the standard layer.
 
 ```text
-STRONG RECURRING HUMAN SPEND
-→ EXACT INCUMBENT PREFLIGHT
-→ SEPARATE NATIVE MACHINE LAYER FROM HUMAN RESIDUAL
-→ TEST WHETHER RESIDUAL IS A REPLACEABLE OPERATOR UNIT
-→ FAIL CLOSED IF JUDGMENT / RELATIONSHIP / CONSENT / ACCOUNTABILITY REMAINS CORE
+DIRECT PRODUCTIZED-SERVICE PURCHASE
+→ PROVES MONEY MOTION
+→ CHECK WHETHER THE SIGNAL IS ALREADY THE INCUMBENT CATEGORY
+→ SEPARATE AUTOMATED STANDARD LAYER FROM HUMAN RESIDUAL
+→ FAIL CLOSED IF THE SERVICE IS HUMAN CAPACITY OR THE EXACT OUTCOME IS ALREADY PACKAGED
 ```
 
-Two broad role-based scans now show that job postings are useful attraction evidence but weak evidence of a distinct scalable operator layer. Scan 060 changes the evidence source toward non-role buying signals rather than deriving another mechanism ontology.
+The evidence-source change improved payer certainty but introduced seller-selection bias: starting from an already-priced service often means starting inside an already-formed category. Scan 061 moves the observation point to buyer-side repeated workaround spend before a single vendor has packaged the complete outcome.
 
 ## Goal
 
@@ -39,22 +39,23 @@ Resolved recently:
 - `ATTRACTION_SCAN_057` — zero retention after niche external triggers proved absorbed by exact vertical/native rule automation.
 - `ATTRACTION_SCAN_058` — zero retention after broad current paid work failed exact-product, official-integration, low-unit-economics or recurring expert/signoff floors.
 - `ATTRACTION_SCAN_059` — zero retention after strong recurring/contract-to-hire role spend failed native-AI/incumbent and human-residual floors.
+- `ATTRACTION_SCAN_060` — zero retention after direct non-role purchases proved either exact productized-service saturation or recurring human residual delivery.
 
 Discovery queue:
-- `ATTRACTION_SCAN_060 — BROAD_CURRENT_PAID_OUTCOMES_NON_ROLE_BUYING_SIGNALS_REPEAT_PURCHASE_OR_PRODUCTIZED_SERVICE_SPEND_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_JOB_POSTING_AS_SOLE_PAYER_EVIDENCE_NO_SCAN058_OR_SCAN059_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_061 — BROAD_CURRENT_BUYER_SIDE_REPEATED_WORKAROUND_SPEND_OR_MULTI_LINE_ITEM_STACK_EVIDENCE_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_JOB_POSTING_AS_SOLE_SIGNAL_NO_EXISTING_PRODUCTIZED_SERVICE_AS_PRIMARY_SIGNAL_NO_SCAN058_TO_SCAN060_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_059_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_060_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`2a819cc67644843369762d7c5f971d68b8113c1f`
-— squash merge of PR #356, `Close broad paid-work traps in Scan 058`.
+`e8080fc571d21c41eeaed5a5952f61612a2299e2`
+— squash merge of PR #357, `Close recurring role traps in Scan 059`.
 
-PR #356 main CI and Jev completed successfully. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #357 PR CI and Jev completed successfully before merge; main push CI and Jev also completed successfully. PR Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -62,11 +63,11 @@ PR #356 main CI and Jev completed successfully. Jev: 6/6 `NO_FURTHER_RESEARCH`, 
 
 ## Active Branch
 
-`research/attraction-scan-059`.
+`research/attraction-scan-060`.
 
 ## Active PR
 
-Pending creation for Scan 059. Live GitHub state is authoritative.
+Pending creation for Scan 060. Live GitHub state is authoritative.
 
 ## CI
 
@@ -82,9 +83,9 @@ Pending creation for Scan 059. Live GitHub state is authoritative.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_059.json`
-- `docs/research/ATTRACTION_SCAN_059_2026-09-21.md`
-- `tests/test_attraction_scan_059_recurring_role_gate.py`
+- `data/research_runs/attraction_scan_060.json`
+- `docs/research/ATTRACTION_SCAN_060_2026-09-21.md`
+- `tests/test_attraction_scan_060_non_role_purchase_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -109,16 +110,16 @@ Results:
 ## Current Findings
 
 ```text
-STRONG RECURRING HUMAN SPEND
-!=
-DISTINCT REPEATABLE OPERATOR LAYER
+DIRECT PRODUCTIZED-SERVICE PURCHASE
+PROVES MONEY MOTION
+BUT OFTEN OBSERVES AN ALREADY-FORMED CATEGORY
 ```
 
-Scan 059 deliberately strengthened the payer signal: every sample had long-duration, contract-to-hire or explicit recurring/performance-paid work. That still produced zero retention.
+Scan 060 replaced job-posting payer evidence with direct purchases: monthly WordPress care, monthly virtual-assistant capacity, unlimited design subscriptions, per-episode/monthly podcast production, monthly QA-as-a-Service and flat-rate/on-demand CAD design.
 
-QuickBooks, Greenhouse, Waystar, impact.com, HighLevel and Klaviyo now automate large parts of the repeatable execution layer in their respective categories. The remaining paid human scope concentrates in accounting or hiring judgment, regulated exceptions, persuasion and relationships, consent/compliance, creative strategy and accountable approval.
+This strengthened evidence that buyers actually pay. It did not produce a retained formation. WordPress care and managed QA are already exact mature service categories; virtual assistance is explicitly recurring human capacity; design and podcast production have native AI absorbing standard output while humans retain taste/editorial judgment; CAD automation reduces drafting work but leaves project-specific engineering judgment and liability.
 
-After Scan 058 + 059, the next useful change is not another failure-derived mechanism. Scan 060 should change evidence source and sample current repeat purchases, productized service spend or other non-role buying signals; a job posting may corroborate but must not be the sole payer evidence.
+The next useful move is another evidence-source correction, not a new mechanism. Scan 061 should start from buyer-side repeated workaround spend or multi-line-item stacks before a single seller has already packaged the whole outcome. Existing services and job posts may corroborate, but neither can be the primary signal.
 
 ## Validation Status
 
@@ -140,10 +141,11 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 059 is complete with zero active retained formations and zero commercial promotions.
-- Strong recurring-spend and contract-to-hire evidence did not overcome exact incumbent/native-AI absorption.
-- Two broad role-based samples now justify changing the evidence source before deriving another mechanism ontology.
-- Scan 060 must use non-role buying signals and cannot use a job posting as the sole payer evidence.
+- Scan 060 is complete with zero active retained formations and zero commercial promotions.
+- Direct non-role buying signals improved payer certainty but were biased toward already-formed productized-service categories.
+- Productized human capacity is not founder-independent machine delivery.
+- Native AI/software often owns the standardized layer while managed services monetize human exceptions, taste, domain judgment or accountability.
+- Scan 061 must start from buyer-side repeated workaround spend or a multi-line-item workaround stack, not from a job posting or an already-packaged service as the primary signal.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -151,9 +153,14 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 059 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 060 from non-role buying signals such as repeat purchases or productized-service spend. Do not use job postings as the sole payer evidence in Scan 060.
+Create the Scan 060 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 061 from buyer-side repeated workaround spend or multi-line-item stacks before the complete outcome is already packaged by one incumbent.
 
 ## Do Not Repeat
+
+- Do not treat an existing productized-service price page as white-space evidence; it proves money motion and simultaneously proves that at least one incumbent already packages the outcome.
+- Do not treat a flat monthly subscription as machine-executable delivery when the purchased unit is dedicated human hours, designer time, QA engineers or other recurring expert capacity.
+- Do not promote WordPress care, generic VA subscriptions, design subscriptions, podcast postproduction, managed QA or CAD services from Scan 060; each failed incumbent-saturation, automation or human-residual floors.
+- In Scan 061, do not start from a seller-defined service category. Start from buyer-side repeated workaround spending before a single vendor owns the complete outcome.
 
 - Do not treat long duration, contract-to-hire or performance pay as evidence that the repeatable operator layer is unowned.
 - Do not use job postings as the sole payer evidence in Scan 060; two broad role-based passes show that employers may keep buying human accountability after native software absorbs the routine layer.
