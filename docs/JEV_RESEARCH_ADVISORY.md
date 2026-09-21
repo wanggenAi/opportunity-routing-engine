@@ -28,7 +28,8 @@ This matches the current Scan 036 research order without turning that order into
 
 The contract is fail-closed:
 
-- `authority=SHADOW_RESEARCH_ADVISORY_ONLY`;\n- `automatic_research_dispatch_allowed=false`;
+- `authority=SHADOW_RESEARCH_ADVISORY_ONLY`;
+- `automatic_research_dispatch_allowed=false` inside the Jev advisory itself;
 - `commercial_promotion_authority=false`;
 - `mutates_commercial_state=false`;
 - `may_reverse_existing_demotions=false`;
@@ -80,3 +81,34 @@ That is intentional. It provides a useful calibration set: Jev can demonstrate r
 Phase 1 calibration on Scan 035 served `jev-1.13.0` and returned six successful `NO_FURTHER_RESEARCH` routes with zero failures. The individual incumbent-preflight binary question was noisier than the final route, which is why no individual sub-answer can dispatch work.
 
 Phase 2 adds the deterministic effective-route bridge and automatic current-scan resolution. Advisory artifacts remain non-authoritative and are not persisted into commercial truth. Automatic commercial promotion remains outside Jev authority.
+
+
+## Phase 3 — agent continuation
+
+Jev remains a typed decision gate. It does **not** execute web research, mutate commercial truth, or create a new ChatGPT/web-session turn by itself.
+
+The runner now also writes `jev_continuation_directive.json`. This is a separate control-plane record for an already-running repository agent. It converts the effective Jev route into one of:
+
+- `ADVANCE_TO_NEXT_SCAN` when every evaluated formation is already closed;
+- `EXECUTE_RESEARCH_QUEUE` when reversible research remains;
+- `STOP_FOR_HUMAN_REVIEW` when Jev returns `HUMAN_REVIEW`, the advisory fails, or the route is not safely executable.
+
+Per-formation actions are bounded to:
+
+- `RUN_EXACT_INCUMBENT_PREFLIGHT`;
+- `RUN_CAUSAL_DESCENT`;
+- `DROP_FROM_CURRENT_RESEARCH_QUEUE`;
+- `REQUIRE_HUMAN_REVIEW`.
+
+The continuation directive explicitly keeps:
+
+- `automatic_research_execution_by_jev=false`;
+- `commercial_promotion_authority=false`;
+- `mutates_commercial_state=false`;
+- `external_side_effects_allowed=false`;
+- `may_reverse_existing_demotions=false`;
+- `UNKNOWN != PASS`.
+
+The repository-agent rule is different from granting Jev execution authority: when `autonomous_continuation_allowed=true`, an agent that is already working on the repository should consume the directive and continue the next reversible research stage in the **same task/session** instead of returning control merely to ask the user to type “continue”.
+
+A terminated browser session still cannot be resurrected by Jev. Durable recovery remains the responsibility of `state/chatgpt-recovery`, `RECOVERY_STATE.json`, and the per-task recovery checkpoints.
