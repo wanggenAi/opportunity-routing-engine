@@ -1,0 +1,141 @@
+{
+  "schema_version": "attraction-scan.v22",
+  "scan_id": "ATTRACTION_SCAN_043",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_EXTERNALLY_DISCOVERABLE_HIGH_COST_STATE_OR_FLOW_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_DISTINCT_COMPOUNDING_OPERATOR_ASSET_NO_MATURE_CONTROL_SURFACE_NO_RECURRING_EXPERT_DELIVERY_EXCLUDE_CLAIMS_REFUNDS_GRANTS_TAX_RELIEF_VENDOR_DEPRECATION_AND_GENERIC_MIGRATION_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "validation_checkpoint": {
+    "formation_id": "ATTRACTION_SCAN_015-F1",
+    "checked_at": "2026-09-21",
+    "wave1_sent_targets": [
+      "service@bearhome.cn",
+      "dennis.xie@atrenew.com"
+    ],
+    "incoming_written_provider_responses": 0,
+    "verdict": "WAITING_WRITTEN_PROVIDER_RESPONSE_NO_RESPONSE_IS_NOT_DENIAL"
+  },
+  "examined_formations": [
+    {
+      "title": "ECOMMERCE_PRODUCT_FEED_DISAPPROVAL_MANAGEMENT",
+      "chinese_title": "电商商品Feed拒登与多渠道Feed托管",
+      "payer_evidence": "Current managed feed services publish recurring prices from tens of dollars to four figures per month; VersaFeed starts its small-business fully managed service at $1,495/month.",
+      "repeated_workaround": "Merchants and agencies repeatedly repair disapprovals, attribute gaps, taxonomy mapping, sync and channel-specific feed rules.",
+      "machine_delivery": "Most catalog validation, mapping, title transformation and feed publishing is machine-executable.",
+      "compounding_asset_test": "Cross-customer rule/outcome learning can exist, but mature feed platforms and managed services already own this exact feedback loop.",
+      "incumbent_preflight": "FEEDONOMICS_PRODUCTSUP_DATAFEEDWATCH_SHOPPINGFEEDER_NEXTFEED_AND_MULTIPLE_MANAGED_AGENCIES",
+      "verdict": "DEMOTED_DIRECT_PAYER_PROVEN_BUT_EXACT_FEED_CONTROL_CATEGORY_MATURE",
+      "source_urls": [
+        "https://www.versafeed.com/pricing-small-business/",
+        "https://www.shoppingfeeder.com/pricing/new",
+        "https://www.nx-feed.com/",
+        "https://www.1digitalagency.com/google-shopping-feed-management/"
+      ]
+    },
+    {
+      "title": "EDI_TRADING_PARTNER_ONBOARDING_AND_MAPPING",
+      "chinese_title": "EDI交易伙伴接入与映射托管",
+      "payer_evidence": "Orderful publishes $189/month per trading-partner connection and describes mid-sized legacy implementation costs commonly reaching $50k-$200k; managed EDI is an established paid operating category.",
+      "repeated_workaround": "Mapping, testing, certification, partner onboarding, spec changes and transaction exceptions recur across trading relationships.",
+      "machine_delivery": "Mapping and validation are increasingly automatable and API-first.",
+      "compounding_asset_test": "A trading-partner network and prebuilt maps are highly compounding assets, but that is precisely the moat already owned by SPS Commerce, TrueCommerce, Orderful, Cleo and peers.",
+      "incumbent_preflight": "MATURE_NETWORK_AND_MANAGED_SERVICE_INCUMBENTS_OWN_PREBUILT_CONNECTIONS_MAPPING_TESTING_AND_ONBOARDING",
+      "verdict": "DEMOTED_COMPOUNDING_ASSET_IS_REAL_BUT_ALREADY_OWNED_BY_MATURE_EDI_NETWORKS",
+      "source_urls": [
+        "https://www.orderful.com/blog/edi-pricing-guide",
+        "https://www.truecommerce.com/solutions/edi-onboard-suppliers/",
+        "https://www.spscommerce.com/products/relationship-management/",
+        "https://www.orderful.com/blog/best-ai-edi-platforms-2026"
+      ]
+    },
+    {
+      "title": "CONSTRUCTION_TAKEOFF_AND_ESTIMATING",
+      "chinese_title": "建筑算量与投标估算",
+      "payer_evidence": "Current outsourced takeoff providers publish per-project prices from hundreds to many thousands of dollars and embedded estimator retainers around $9k-$14k/month.",
+      "repeated_workaround": "Contractors repeatedly outsource or spend internal estimator hours on takeoff before bids.",
+      "machine_delivery": "AI takeoff and estimate drafting are now commercially available across many trades.",
+      "compounding_asset_test": "Historical takeoff corrections and trade-specific cost catalogs could compound, but exact AI estimating products already implement these assets and final bid-grade judgment remains customer/trade specific.",
+      "incumbent_preflight": "MULTIPLE_CURRENT_AI_TAKEOFF_ESTIMATING_PRODUCTS_AND_OUTSOURCED_ESTIMATING_SERVICES",
+      "verdict": "DEMOTED_PAID_WORKAROUND_PROVEN_BUT_CROWDED_AI_CATEGORY_AND_RECURRING_BID_JUDGMENT",
+      "source_urls": [
+        "https://vortexestimating.com/services/construction-takeoff/pricing/",
+        "https://p2pestimating.com/",
+        "https://www.constructconnect.com/blog/ai-powered-takeoff-and-estimating-software-a-contractors-guide-to-the-top-players-in-2026",
+        "https://orysai.com/"
+      ]
+    },
+    {
+      "title": "SECURITY_QUESTIONNAIRE_AND_RFP_RESPONSE",
+      "chinese_title": "安全问卷与RFP响应自动化",
+      "payer_evidence": "Current products charge by questionnaire, project or annual allowance; 2026 market surveys show enterprise annual pricing and transaction-like questionnaire pricing.",
+      "repeated_workaround": "Security and sales teams repeatedly answer near-identical questionnaires and RFP content, often blocking deals.",
+      "machine_delivery": "Approved-answer retrieval, source citation, drafting, spreadsheet handling and review routing are machine-executable.",
+      "compounding_asset_test": "Approved answer libraries and evidence graphs compound, but the category already contains many mature and AI-native products.",
+      "incumbent_preflight": "CONVEYOR_LOOPIO_RESPONSIVE_VANTA_DRATA_SECURITYPAL_HYPERCOMPLY_AND_MANY_AI_NATIVE_PRODUCTS",
+      "verdict": "DEMOTED_DIRECT_PAYER_AND_COMPOUNDING_KNOWLEDGE_ASSET_ALREADY_PLATFORMIZED",
+      "source_urls": [
+        "https://www.thestandardanswer.com/articles/security-questionnaire-automation-vendor-landscape",
+        "https://sequesto.com/resources/articles/security-questionnaire-response/best-security-questionnaire-automation-software-2026",
+        "https://www.g2.com/categories/rfp/themes/security-questionnaires-automation"
+      ]
+    },
+    {
+      "title": "SHORT_FORM_VIDEO_EDITING_RETAINER",
+      "chinese_title": "短视频剪辑月度托管",
+      "payer_evidence": "Current agencies publish monthly retainers from hundreds to several thousand dollars for recurring Reels, Shorts and TikTok production.",
+      "repeated_workaround": "Businesses continuously outsource editing capacity to maintain posting cadence.",
+      "machine_delivery": "Captioning, clipping, reframing, templating and bulk generation are increasingly automated.",
+      "compounding_asset_test": "Brand/style memory can accumulate but is customer-specific; creative selection and performance strategy remain recurring judgment while low-cost AI tools commoditize the mechanical layer.",
+      "incumbent_preflight": "MANY_HUMAN_AGENCIES_AND_LOW_COST_AI_EDITING_PRODUCTS_ALREADY_SERVE_THE_SAME_OUTPUT",
+      "verdict": "DEMOTED_STRONG_PAYER_SIGNAL_BUT_RECURRING_CREATIVE_DELIVERY_AND_GENERIC_AI_SUBSTITUTION",
+      "source_urls": [
+        "https://thevisiostudios.com/",
+        "https://www.marshframe.com/",
+        "https://tizer.video/"
+      ]
+    },
+    {
+      "title": "AMAZON_SELLER_ACCOUNT_APPEAL_AND_REINSTATEMENT",
+      "chinese_title": "Amazon卖家账号申诉与恢复",
+      "payer_evidence": "Specialist providers publish $499-$699 appeal packages, $1,500-$5,000 higher-touch services and recurring account-protection plans.",
+      "repeated_workaround": "Sellers repeatedly seek outside help after deactivations, listing removals and rejected appeals.",
+      "machine_delivery": "Document intake, policy matching, evidence packaging and draft generation can be partly automated.",
+      "compounding_asset_test": "Historical violation-to-evidence-to-outcome knowledge can compound, but platform-specific specialist firms already hold this know-how and difficult cases require bespoke expert or legal judgment.",
+      "incumbent_preflight": "MULTIPLE_LONG_RUNNING_APPEAL_CONSULTANTS_AND_ATTORNEY_LED_SERVICES_WITH_END_TO_END_CASE_HANDLING",
+      "verdict": "DEMOTED_HIGH_WILLINGNESS_TO_PAY_BUT_MATURE_SPECIALIST_CATEGORY_AND_CASE_SPECIFIC_EXPERT_JUDGMENT",
+      "source_urls": [
+        "https://amzappealpros.com/services/",
+        "https://www.ecommercechris.com/amazon-appeal/",
+        "https://www.amazonsellers.attorney/",
+        "https://sellercentral.amazon.com/seller-forums/discussions/t/1548523b-96be-4bcc-a7da-fc97953bdc2a"
+      ]
+    }
+  ],
+  "hard_floor_demotions": [
+    "DIRECT_PAYER_EVIDENCE_DOES_NOT_OVERRIDE_EXACT_INCUMBENT_CONTROL",
+    "A_COMPOUNDING_ASSET_IS_NOT_WHITE_SPACE_IF_MATURE_INCUMBENTS_ALREADY_OWN_THE_SAME_ASSET",
+    "CUSTOMER_SPECIFIC_MEMORY_OR_STYLE_IS_NOT_A_CROSS_CUSTOMER_OPERATOR_MOAT",
+    "HIGH_TICKET_HUMAN_SERVICE_IS_NOT_FOUNDER_INDEPENDENT_WHEN_RECURRING_EXPERT_JUDGMENT_REMAINS",
+    "GENERIC_AI_AUTOMATION_OF_A_PAID_SERVICE_IS_NOT_A_DISTINCT_BUSINESS_WHEN_THE_CATEGORY_ALREADY_PRODUCTIZED"
+  ],
+  "scan_learnings": [
+    "SCAN_043_ZERO_RETENTION_AFTER_DIRECT_PAYER_PLUS_COMPOUNDING_ASSET_PREFLIGHT",
+    "DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_IS_USEFUL_FOR_ATTRACTION_BUT_NOT_FOR_WHITE_SPACE",
+    "THE_STRONGEST_COMPOUNDING_ASSETS_ARE_OFTEN_VISIBLE_BECAUSE_MATURE_CATEGORY_LEADERS_ALREADY_OWN_THEM",
+    "HIGH_SERVICE_PRICES_CAN_MASK_RECURRING_HUMAN_JUDGMENT_RATHER_THAN_SOFTWARE_LEVERAGE",
+    "CUSTOMER_SPECIFIC_CONTEXT_IS_WEAK_UNLESS_EXECUTION_CREATES_A_REUSABLE_CROSS_CUSTOMER_ASSET_WITH_VALID_RIGHTS",
+    "SCAN_044_SHOULD_REQUIRE_EVIDENCE_THAT_EACH_EXECUTION_ITSELF_CREATES_OR_STRENGTHENS_AN_OPERATOR_OWNED_REUSABLE_ASSET_NOT_JUST_THEORY"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_044",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_EACH_EXECUTION_CREATES_OR_STRENGTHENS_OPERATOR_OWNED_REUSABLE_ASSET_OUTCOME_DATA_NETWORK_RELATIONSHIP_VERIFIED_CAPABILITY_REPUTATION_OR_RIGHTS_ASSET_WITH_LEGAL_REUSE_NO_MATURE_INCUMBENT_SAME_ASSET_NO_RECURRING_EXPERT_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "next_action": "TRIGGER_JEV_ON_SCAN043_THEN_FOLLOW_TYPED_CONTINUATION_DIRECTIVE",
+  "first_external_value_flow": "NOT_PROVEN"
+}
