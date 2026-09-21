@@ -34,14 +34,14 @@ Scan 035 retained no new formation.
 
 ## Current Phase
 
-`SCAN_035_MERGED_SCAN_036_READY_PARALLEL_JEV_SHADOW_VALIDATION`
+`SCAN_035_AND_JEV_PHASE1_MERGED_SCAN_036_READY`
 
 ## Last Verified Main
 
-`a6aa428f833146da3307ed607bff00d082589775`
-— squash merge of PR #330, `Complete Scan 035 digital payer scan with zero retention`.
+`add577dd66d568c40e4d59bef77373dbdb1bb362`
+— squash merge of PR #331, `feat: add Jev shadow research advisory`.
 
-Live GitHub remains authoritative; re-read main and Actions before claiming any later state.
+PR-head CI and live Jev calibration were green before merge. Live GitHub remains authoritative for any newer main or Actions state.
 
 ## Active Issue
 
@@ -49,15 +49,17 @@ Live GitHub remains authoritative; re-read main and Actions before claiming any 
 
 ## Active Branch
 
-`feat/jev-research-advisory-20260921`
+None. Jev Phase 1 branch merged.
 
 ## Active PR
 
-#331 — `feat: add Jev shadow research advisory` — open. It is advisory research-routing only and must not mutate commercial truth.
+None for Jev Phase 1. PR #331 merged as `add577dd66d568c40e4d59bef77373dbdb1bb362`.
 
 ## CI
 
-PR #331 checks are pending at this checkpoint. Do not claim green until GitHub Actions reports terminal success. The Jev live job may safely emit `SKIPPED_NO_SECRET` if `TYPESAFE_API_KEY` is not configured in this repository.
+- PR #331 repository CI run `35564919130` completed `success`.
+- Jev workflow run `35564919132` completed `success`; contracts and live-shadow jobs both passed.
+- The commercial repository has `TYPESAFE_API_KEY`; the run required and obtained real Jev success rather than `SKIPPED_NO_SECRET`.
 
 ## Latest Artifact / Persisted State
 
@@ -112,7 +114,7 @@ Validation:
 - Scan 015-F1 awaits written provider response and organic founder-free inbound evidence.
 
 Engineering:
-- PR #331 must pass deterministic authority-boundary tests and, when the repo secret is available, bounded live Jev calibration.
+- No current Jev Phase 1 blocker. Keep Jev shadow/advisory until calibration includes genuinely open Scan 036 formations.
 
 Discovery:
 - Scan 036 has not yet started; its research order remains payer/workaround signal -> delivery prefilter -> exact incumbent preflight -> deep research.
@@ -123,7 +125,7 @@ Commercial:
 
 ## Next Action
 
-Complete PR #331 validation and merge only if the advisory boundary remains fail-closed; then resume Scan 036 from exact-incumbent preflight without treating Jev confidence as evidence.
+Start Scan 036 from payer/workaround signal -> delivery prefilter -> exact-incumbent preflight, and use Jev only as a shadow research-routing second opinion on the resulting persisted formations.
 
 ## Do Not Repeat
 
@@ -162,4 +164,7 @@ Complete PR #331 validation and merge only if the advisory boundary remains fail
 - Jev may advise research sequencing only: no commercial promotion authority, no commercial-state mutation, no reversal of DEMOTED verdicts, no active-candidate creation.
 - `LLM confidence != commercial evidence`; `UNKNOWN != PASS`.
 - Initial calibration set is persisted Scan 035 (six examined formations, zero retained/commercial promotions).
+- Phase 1 merged in PR #331 as `add577dd66d568c40e4d59bef77373dbdb1bb362`.
+- Live calibration run `35564919132` used served model `jev-1.13.0`: 6/6 Scan 035 formations succeeded, all routed `NO_FURTHER_RESEARCH`, all attention `LOW`, failed=0.
+- The binary incumbent-preflight subquestion was noisier than the final route on already-closed records; no individual Jev sub-answer may trigger action by itself.
 - Phase 1 uploads PR/manual-run artifacts only; it does not persist Jev output to main.
