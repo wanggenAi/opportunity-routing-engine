@@ -22,14 +22,6 @@
       "state": "RESEARCH_BEACON_RETAINED_FOR_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
       "retained_date": "2026-09-20",
       "commercial_candidate": false
-    },
-    {
-      "formation_id": "ATTRACTION_SCAN_022-F1",
-      "title": "BATTERY_EXCISE_TAX_EVIDENCE_RECONCILER",
-      "chinese_title": "电池消费税抵扣与减免证据对账器",
-      "state": "RESEARCH_BEACON_RETAINED_FOR_PAYER_INCUMBENT_DATA_FRICTION_AND_GENERIC_AGENT_FALSIFICATION",
-      "retained_date": "2026-09-20",
-      "commercial_candidate": false
     }
   ],
   "resolved_research_formations": [
@@ -57,14 +49,19 @@
       "formation_id": "ATTRACTION_SCAN_021-F1",
       "verdict": "DEMOTED_GENERIC_AGENT_SUBSTITUTABLE_AND_VALUE_LAYER_SQUEEZED",
       "resolved_date": "2026-09-20"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_022-F1",
+      "verdict": "DEMOTED_ERP_ABSORPTION_AND_NONCOMPOUNDING_COMPLIANCE_LAYER",
+      "resolved_date": "2026-09-21"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
   "last_completed_scan_id": "ATTRACTION_SCAN_022",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_021-F1",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_022-F1",
   "next_scan_id": "ATTRACTION_SCAN_023",
-  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_SCAN022_F1_AND_FORMATION_DIVERSE_SCAN023",
+  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_FORMATION_DIVERSE_SCAN023",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -330,7 +327,12 @@
     "ATTRACTION_SCAN_022 completed with one research-only beacon and zero commercial promotions.",
     "Scan 022-F1 is a battery excise-tax evidence reconciler: recurring invoice/tax-document × production-consumption × product/test-evidence reconciliation, not tax advice or declaration agency work.",
     "Official 2026 battery consumption-tax rules create a mandatory ledger and direct cash-linked reconciliation state, but exact payer willingness, self-serve data import, generic-agent/Excel substitutability, ERP response and a compounding operator asset remain unproven.",
-    "Scan 023 must not inherit battery-tax terms as a search prior."
+    "Scan 023 must not inherit battery-tax terms as a search prior.",
+    "ATTRACTION_SCAN_022-F1 cheap falsification completed on 2026-09-21.",
+    "The official battery-tax ledger is real and cash-linked, but the uncomplicated calculation core is deterministic from public rules, invoice/tax documents and actual production-use data.",
+    "Existing enterprise tax/ERP systems already occupy the natural invoice-production-tax data position and can absorb new reconciliation rules as features.",
+    "The difficult remainder contains product-scope/export/mixed-technology tax interpretation and therefore reintroduces expert judgment.",
+    "Scan 022-F1 is removed from active validation; Scan 023 must not inherit battery-tax terms as a search prior."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -343,11 +345,6 @@
         "formation_id": "ATTRACTION_SCAN_016-F1",
         "state": "CHEAP_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
         "next_action": "VERIFY_TWO_INDEPENDENT_9610_CROSS_CUSTOMS_RETURN_RAILS_AND_NON_CONSULTING_ECONOMICS"
-      },
-      {
-        "formation_id": "ATTRACTION_SCAN_022-F1",
-        "state": "CHEAP_PAYER_INCUMBENT_DATA_FRICTION_AND_GENERIC_AGENT_FALSIFICATION",
-        "next_action": "VERIFY_PAYER_INCUMBENT_SELF_SERVE_IMPORT_GENERIC_AGENT_AND_OPERATOR_ASSET"
       }
     ],
     "discovery": {
@@ -361,6 +358,13 @@
     "TRANSACTION_DOCUMENTS_X_PRODUCTION_CONSUMPTION_IS_STRONGER_THAN_PUBLIC_RULE_DOCUMENT_GENERATION",
     "NEWLY_MANDATED_RECONCILIATION_STILL_FAILS_IF_ERP_OR_GENERIC_AGENT_CAN_ABSORB_IT",
     "POLICY_TIMING_CAN_CREATE_A_TEMPORARY_WHITE_SPACE_BUT_NOT_A_COMPOUNDING_ASSET_BY_ITSELF",
-    "SCAN_022_RETAINED_BATTERY_TAX_RECONCILIATION_FOR_CHEAP_FALSIFICATION_ONLY"
+    "SCAN_022_RETAINED_BATTERY_TAX_RECONCILIATION_FOR_CHEAP_FALSIFICATION_ONLY",
+    "MANDATORY_CASH_LINKED_WORKFLOW_CAN_STILL_BE_A_FEATURE_NOT_A_BUSINESS",
+    "DETERMINISTIC_PUBLIC_RULE_X_CUSTOMER_EXPORTS_IS_WEAK_OPERATOR_CONTROL",
+    "NATIVE_ERP_POSITION_CAN_ABSORB_NEW_TAX_RECONCILIATION_FASTER_THAN_STANDALONE_SOFTWARE",
+    "WHEN_SIMPLE_CASES_ARE_SPREADSHEETABLE_AND_HARD_CASES_REQUIRE_TAX_JUDGMENT_THE_MIDDLE_LAYER_IS_SQUEEZED",
+    "CUSTOMER_SPECIFIC_INTEGRATION_IS_NOT_FOUNDER_INDEPENDENCE",
+    "CONFIDENTIAL_CUSTOMER_DATA_WITHOUT_CROSS_CUSTOMER_OUTCOME_FEEDBACK_DOES_NOT_CREATE_A_COMPOUNDING_ASSET",
+    "SCAN_022_F1_DEMOTED_AFTER_CHEAP_FALSIFICATION"
   ]
 }
