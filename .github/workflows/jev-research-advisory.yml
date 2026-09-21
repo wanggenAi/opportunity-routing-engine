@@ -22,6 +22,7 @@ on:
       - 'src/jev_research_advisory.py'
       - 'tools/run_jev_research_advisory.py'
       - 'tests/test_jev_research_advisory.py'
+      - 'tests/test_jev_continuation.py'
       - '.github/workflows/jev-research-advisory.yml'
       - 'docs/JEV_RESEARCH_ADVISORY.md'
       - 'data/research_runs/attraction_scan_*.json'
@@ -85,7 +86,7 @@ jobs:
       - name: Validate shadow authority boundary
         run: |
           python tools/run_jev_research_advisory.py --help > /dev/null
-          python -m unittest discover -s tests -p 'test_jev_research_advisory.py' -v
+          python -m unittest discover -s tests -p 'test_jev*.py' -v
 
   live-shadow:
     if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
@@ -134,6 +135,17 @@ jobs:
           else
             echo '# Jev Opportunity Research Advisory' >> "$GITHUB_STEP_SUMMARY"
             echo 'No advisory artifact was produced.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [[ -f .artifacts/jev-research-advisory/jev_continuation_directive.json ]]; then
+            {
+              echo
+              echo '## Agent continuation directive'
+              jq -r '"- next action: `\(.next_action)`"' .artifacts/jev-research-advisory/jev_continuation_directive.json
+              jq -r '"- autonomous continuation allowed: `\(.autonomous_continuation_allowed)`"' .artifacts/jev-research-advisory/jev_continuation_directive.json
+              jq -r '"- human intervention required: `\(.human_intervention_required)`"' .artifacts/jev-research-advisory/jev_continuation_directive.json
+              echo
+              echo 'Jev does not execute research or create a new ChatGPT turn; an already-running repository agent consumes this directive and continues reversible research without asking the user to type continue.'
+            } >> "$GITHUB_STEP_SUMMARY"
           fi
       - name: Upload advisory artifact
         if: always()

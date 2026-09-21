@@ -34,14 +34,14 @@ Scan 035 retained no new formation.
 
 ## Current Phase
 
-`JEV_PHASE2_MERGED_SCAN_036_READY`
+`JEV_PHASE3_AGENT_CONTINUATION_IMPLEMENTATION`
 
 ## Last Verified Main
 
-`bb4b1ae6c97e8f5abf802390dc21f17cfecc1260`
-— squash merge of PR #332, `feat: make Jev routing safe for current scans`.
+`f58decfaf9edf428ac1b6b7062841b465d879871`
+— current main before Jev Phase 3; main-push Jev run `35568692859` completed successfully on `ATTRACTION_SCAN_035`.
 
-PR-head repository CI and real Jev calibration were green before merge. The later `c795122dc3dc9b8bd7f2afa8717dcdf62c04fda5` commit is state-only.
+Phase 2 remains merged and healthy. Phase 3 is adding an explicit machine-readable agent continuation directive without granting Jev execution or commercial authority.
 
 ## Active Issue
 
@@ -49,11 +49,11 @@ PR-head repository CI and real Jev calibration were green before merge. The late
 
 ## Active Branch
 
-None. Jev Phase 2 merged.
+`feat/jev-agent-continuation-20260921`.
 
 ## Active PR
 
-None for Jev integration. PR #331 and PR #332 are both merged.
+Phase 3 branch is active; PR will be opened after tests/docs are committed. PR #331 and PR #332 are both merged.
 
 ## CI
 
@@ -116,9 +116,10 @@ Validation:
 - Scan 015-F1 awaits written provider response and organic founder-free inbound evidence.
 
 Engineering:
-- No current Jev integration blocker.
-- Automatic research dispatch remains disabled.
-- Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
+- Phase 3 is wiring the Jev result into an agent-session continuation directive.
+- Jev itself remains non-executing and non-commercial; `automatic_research_execution_by_jev=false`.
+- The active repository agent must continue reversible research automatically when the continuation directive allows it, without asking the user to type `continue`.
+- Open-record Jev calibration still begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
 - Scan 036 has not yet started; its research order remains payer/workaround signal -> delivery prefilter -> exact incumbent preflight -> deep research.
@@ -129,7 +130,7 @@ Commercial:
 
 ## Next Action
 
-Start Scan 036 with the existing payer/workaround -> delivery prefilter -> exact-incumbent preflight order; when Scan 036 persists, Jev should automatically evaluate that current scan as a shadow second opinion.
+Complete Jev Phase 3: validate the continuation directive, merge it only with green CI/live Jev, then start Scan 036. Once a scan update triggers Jev, the active agent must consume the directive and continue the next reversible research stage in the same task instead of waiting for a user `continue` message.
 
 ## Do Not Repeat
 
@@ -176,3 +177,16 @@ Start Scan 036 with the existing payer/workaround -> delivery prefilter -> exact
 - Phase 2 live run `35565385231` auto-resolved `ATTRACTION_SCAN_035`; served model `jev-1.13.0`; 6/6 succeeded; raw routes 6/6 `NO_FURTHER_RESEARCH`; effective routes 6/6 `NO_FURTHER_RESEARCH`; alignment 6/6 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`; attention 6/6 `LOW`.
 - After prompt calibration, `needs_exact_incumbent_preflight` became false on all six already-closed records (probabilities 0.18–0.32), removing the Phase 1 repeat-preflight noise.
 - Advisory artifacts remain non-authoritative and are not persisted into commercial truth.\n- Main push trigger now includes `data/research_runs/attraction_scan_*.json` and `data/commercial_reset_state.json`, so newly persisted scans automatically launch the Jev advisory workflow.
+
+
+## Jev Phase 3
+
+Goal: convert the advisory result into a durable agent-control instruction so the active GPT/agent does not stop after every branch decision.
+
+Planned/implemented on `feat/jev-agent-continuation-20260921`:
+- add `OPPORTUNITY_JEV_AGENT_CONTINUATION_V1`;
+- emit `.artifacts/jev-research-advisory/jev_continuation_directive.json`;
+- map effective routes to `ADVANCE_TO_NEXT_SCAN`, `EXECUTE_RESEARCH_QUEUE`, or `STOP_FOR_HUMAN_REVIEW`;
+- keep `automatic_research_execution_by_jev=false`, `commercial_promotion_authority=false`, `external_side_effects_allowed=false`;
+- lock AGENTS.md so an already-running repository agent must consume the directive and continue reversible research without asking the user to type `continue`;
+- retain web-session recovery as the fallback when the browser task itself terminates.
