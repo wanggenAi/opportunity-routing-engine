@@ -6,13 +6,15 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 036 verified that moving exact incumbent preflight before deep causal descent materially reduces wasted research. Six broad formations were killed at preflight because current products resolved the same control loop.
+Scan 037 tested the stronger post-incumbent question: manual work can persist even when the exact software control surface already exists. Residual leakage must therefore be causally classified before deep research.
 
 ```text
 PAYER / WORKAROUND SIGNAL
 → DELIVERY PREFILTER
 → EXACT INCUMBENT PREFLIGHT
-→ REQUIRE OBSERVED RESIDUAL LEAKAGE / UNOWNED ACTION EDGE
+→ OBSERVED RESIDUAL LEAKAGE
+→ CLASSIFY CAUSE
+→ REQUIRE STRUCTURAL CONTROL-RIGHT / DATA-RIGHT / CROSS-SYSTEM ACTION GAP
 → ONLY THEN DEEP CAUSAL DESCENT
 ```
 
@@ -28,20 +30,20 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Discovery queue:
-- `ATTRACTION_SCAN_037 — BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_THEN_REQUIRE_OBSERVED_RESIDUAL_LEAKAGE_OR_UNOWNED_ACTION_EDGE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
+- `ATTRACTION_SCAN_038 — BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_REQUIRE_RESIDUAL_LEAKAGE_CAUSED_BY_STRUCTURAL_CONTROL_RIGHT_DATA_RIGHT_OR_CROSS_SYSTEM_ACTION_GAP_NOT_ADOPTION_IMPLEMENTATION_OR_DISCIPLINE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
 
-Scan 036 retained no new formation.
+Scan 037 retained no new formation.
 
 ## Current Phase
 
-`SCAN_036_COMPLETE_PR_PENDING_JEV_CONTINUATION`
+`SCAN_037_COMPLETE_PR_PENDING_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`ce7d8b007740a3b0d276ff17101776818bd35ace`
-— squash merge of PR #333, `feat: let Jev drive active agent continuation`.
+`a60bda8094053a99c2c185e482cb40ff7d1e32e7`
+— squash merge of PR #334, `Complete Scan 036 exact-incumbent preflight`.
 
-Merged-main CI run `35573523396` succeeded. Merged-main live Jev run `35573523386` succeeded on `ATTRACTION_SCAN_035` and emitted `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+Merged-main CI run `35574318823` succeeded. Merged-main live Jev run `35574318818` succeeded on `ATTRACTION_SCAN_036`: 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and it emitted `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -49,11 +51,11 @@ Merged-main CI run `35573523396` succeeded. Merged-main live Jev run `3557352338
 
 ## Active Branch
 
-`research/attraction-scan-036`.
+`research/attraction-scan-037`.
 
 ## Active PR
 
-Pending creation for Scan 036.
+Pending creation for Scan 037.
 
 ## CI
 
@@ -66,13 +68,14 @@ Pending creation for Scan 036.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_036.json`
-- `docs/research/ATTRACTION_SCAN_036_2026-09-21.md`
-- `tests/test_attraction_scan_036_incumbent_preflight.py`
+- `data/research_runs/attraction_scan_037.json`
+- `docs/research/ATTRACTION_SCAN_037_2026-09-21.md`
+- `tests/test_attraction_scan_037_residual_leakage.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
+- `tests/test_jev_research_advisory.py` (scan-number-agnostic expectation)
 
 ## Completed
 
@@ -93,14 +96,14 @@ Results:
 ## Current Findings
 
 ```text
-EARLY EXACT INCUMBENT PREFLIGHT
+MANUAL WORK PERSISTS
 +
-SAME-CONTROL-LOOP TEST
-=
-CHEAP KILL BEFORE DEEP CAUSAL DESCENT
+EXACT PRODUCT EXISTS
+!=
+WHITE SPACE
 ```
 
-Scan 036 examined six unrelated paid/workaround formations and retained none because current incumbents already resolve the same operational control loop. The next search must not reject merely because incumbents exist; it must look for observed residual leakage, workaround, exclusion, delay or an unowned action edge after preflight.
+Scan 037 found real residual manual work in six unrelated domains, but causal classification showed that the leakage came from non-adoption, implementation debt, field discipline, participant non-response/data quality, payment-rail fragmentation or irreducible professional judgment. None exposed a distinct operator-controlled action edge.
 
 ## Validation Status
 
@@ -122,8 +125,8 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 036 is complete with zero retention.
-- Scan 037 has not started; it keeps breadth and hard floors while requiring observed post-incumbent residual leakage or an unowned action edge before deep causal descent.
+- Scan 037 is complete with zero retention.
+- Scan 038 has not started; it must distinguish structural control/data/action-right gaps from mere software non-adoption or implementation leakage.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -131,12 +134,13 @@ Commercial:
 
 ## Next Action
 
-Merge Scan 036 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, begin Scan 037 in the same task without waiting for another user `continue`.
+Merge Scan 037 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 038 in the same task.
 
 ## Do Not Repeat
 
 - Do not deep-research a candidate before checking exact current incumbents.
-- Do not treat incumbent presence alone as a kill; verify whether the incumbent resolves the same value flow and whether residual leakage is observed.
+- Do not treat incumbent presence alone as a kill; verify whether the incumbent resolves the same value flow and why residual leakage still exists.
+- Do not treat manual work, spreadsheet use or poor adoption as proof of an unowned control edge.
 - Do not turn the incumbent-preflight process improvement into a required opportunity mechanism.
 - Do not let Scan 035 verticals seed Scan 036.
 - Do not lower hard floors because discovery continues to close at zero.
