@@ -6,22 +6,14 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 034 raised research-signal quality by requiring direct existing payment or repeated observed workaround
-evidence before deep research. It still closed at zero because payer evidence did not override platform control,
-human/physical delivery, commodity APIs or exact incumbents.
-
-Scan 035 keeps that evidence priority and adds an early delivery-shape kill: do not spend deep research budget
-on formations whose paid unit is obviously recurring human time, physical custody/field work or capture of a
-platform-owned scarce resource.
+Scan 035 showed that even direct payer + digital/delegatable delivery categories can already be densely
+productized. Scan 036 therefore changes research order, not opportunity shape:
 
 ```text
-VALIDATION QUEUE != DISCOVERY QUEUE
-DIRECT_PAYER_OR_WORKAROUND_EVIDENCE_FIRST
-DIGITAL_OR_DELEGATABLE_DELIVERY_BEFORE_DEEP_RESEARCH
-NO_REQUIRED_PRODUCT_SHAPE
-HARD_FLOORS_STAY
-ZERO RETENTION IS VALID
-UNKNOWN != PASS
+PAYER / WORKAROUND SIGNAL
+→ DELIVERY PREFILTER
+→ EXACT INCUMBENT PREFLIGHT
+→ ONLY THEN DEEP CAUSAL DESCENT
 ```
 
 ## Goal
@@ -36,20 +28,20 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Discovery queue:
-- `ATTRACTION_SCAN_035 — BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_PLUS_DIGITAL_OR_DELEGATABLE_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM_KEEP_COMMERCIAL_HARD_FLOORS`.
+- `ATTRACTION_SCAN_036 — BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_BEFORE_DEEP_RESEARCH_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
 
-Scan 034 retained no new formation.
+Scan 035 retained no new formation.
 
 ## Current Phase
 
-`SCAN_034_COMPLETE_PENDING_PR_CI_MERGE`
+`SCAN_035_COMPLETE_PENDING_PR_CI_MERGE`
 
 ## Last Verified Main
 
-`ded73bc2614adbd71c5943c9fc5cfbeb3ef9ed0c`
-— squash merge of PR #328, `Complete Scan 033 second broad sample with zero retention`.
+`9d286ee441e7b8e0ea319e2736bd78afc64d526f`
+— squash merge of PR #329, `Complete Scan 034 payer-workaround scan with zero retention`.
 
-Main CI #940 verified successful.
+Main CI should be re-read from GitHub before claiming green.
 
 ## Active Issue
 
@@ -57,22 +49,22 @@ Main CI #940 verified successful.
 
 ## Active Branch
 
-`feature/scan034-payer-workaround-zero-retention`
+`feature/scan035-digital-payer-zero-retention`
 
 ## Active PR
 
-Not opened yet for Scan 034. Check GitHub live state first.
+Not opened yet for Scan 035. Check GitHub live state first.
 
 ## CI
 
-No Scan 034 PR CI run yet.
+No Scan 035 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_034.json`
-- `docs/research/ATTRACTION_SCAN_034_2026-09-21.md`
-- `tests/test_attraction_scan_034_payer_workaround.py`
+- `data/research_runs/attraction_scan_035.json`
+- `docs/research/ATTRACTION_SCAN_035_2026-09-21.md`
+- `tests/test_attraction_scan_035_digital_payer.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -80,39 +72,31 @@ Updated:
 
 ## Completed
 
-Scan 034 sampled only current formations with direct payer evidence or repeated observed workaround behavior.
+Scan 035 kept direct payer/repeated-workaround evidence and removed obvious recurring-human/physical delivery
+before deep research.
 
 Results:
 - commercial promotions = 0;
 - retained research formations = 0;
-- AI-to-human customer-service continuity demoted because current CCaaS already preserves AI context and executes human handoff;
-- WeChat/Excel CRM backfill demoted because CRM/SCRM/low-code products already own multi-source capture, deduplication and synchronization;
-- paid queue/reservation proxy services demoted because they capture scarce platform/public resources rather than create legitimate new supply;
-- general proxy/lifestyle services demoted because the unit sold is recurring human time and physical execution;
-- home organization and in-home pet care demoted because direct payer pull is real but human field delivery remains the product and vertical platforms already exist;
-- AI bid-document production demoted because multiple exact specialized products already own parsing/generation/scoring/compliance workflows;
-- enterprise content moderation demoted because direct payer pull is already served by hyperscaler paid APIs;
-- document digitization demoted because mature BPO/IDP/finance automation owns the control surface;
+- GEO brand visibility demoted because multiple current SaaS/services already publish paid plans and full monitoring/content workflows;
+- App/SDK privacy compliance demoted because current security platforms already sell automated scanning and remediation-related services;
+- AIGC commercial-rights proof demoted because generation/asset platforms issue the strongest native authorization evidence while third-party rights remain fact-specific;
+- AI job-application/resume automation demoted because multiple paid tools and recruitment-platform-native assistants already exist;
+- short-video labeling automation demoted because platforms own the required publishing labels/review and creator-risk tooling already exists;
+- software localization/translation demoted because enterprise translation/API/private-deployment products are mature;
 - FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
 
-The strongest Scan 034 result is:
-
 ```text
-DIRECT PAYMENT
-OR
-REPEATED WORKAROUND
-=
-BETTER RESEARCH INPUT
-
-BUT NOT
-=
-COMMERCIAL PROMOTION
+DIRECT PAYER
++ DIGITAL DELIVERY
+!=
+UNOWNED CONTROL EDGE
 ```
 
-The next efficiency improvement is to kill obvious recurring-human/physical/resource-capture formations before
-spending deep-search budget.
+The main process bottleneck is now obvious: exact incumbent checks should happen before expensive causal descent,
+not after a candidate already looks attractive.
 
 ## Validation Status
 
@@ -128,10 +112,10 @@ Validation:
 - Scan 015-F1 awaits written provider response and organic founder-free inbound evidence.
 
 Engineering:
-- Scan 034 branch needs PR, CI, merge and main verification.
+- Scan 035 branch needs PR, CI, merge and main verification.
 
 Discovery:
-- Scan 035 has not yet started.
+- Scan 036 has not yet started.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -139,23 +123,20 @@ Commercial:
 
 ## Next Action
 
-1. Complete Scan 034 PR / CI / merge.
-2. Start Scan 035 with direct payer or repeated workaround evidence.
-3. Before deep research, kill formations whose paid unit is clearly:
-   - recurring human labor;
-   - physical custody/field execution;
-   - platform/public scarce-resource capture.
-4. Keep Scan 015 waiting unless an actual provider reply arrives.
-
-This remains mechanism-neutral. Do not require AI, routing, recovery, marketplace, integration or compliance.
+1. Complete Scan 035 PR / CI / merge.
+2. Start Scan 036 with this research order:
+   - direct payer/repeated workaround evidence;
+   - digital/delegatable delivery prefilter;
+   - exact-incumbent/control-loop preflight;
+   - only survivors receive deep research.
+3. Keep Scan 015 waiting unless an actual provider reply arrives.
 
 ## Do Not Repeat
 
-- Do not use direct payment as a waiver for founder-independent delivery.
-- Do not deep-research obvious human-time businesses.
-- Do not treat unfair queue/resource capture as value creation.
-- Do not let Scan 034 verticals seed Scan 035.
-- Do not lower hard floors because the queue has one retained beacon.
+- Do not deep-research a candidate before checking exact current incumbents.
+- Do not turn the incumbent-preflight process improvement into a required opportunity mechanism.
+- Do not let Scan 035 verticals seed Scan 036.
+- Do not lower hard floors because discovery continues to close at zero.
 - Do not repeat Scan 015 public rights archaeology while written evidence is outstanding.
 
 ## Guardrails
@@ -165,6 +146,7 @@ This remains mechanism-neutral. Do not require AI, routing, recovery, marketplac
 - REALITY > COGNITION > SCHEMA.
 - DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_FIRST.
 - DIGITAL_OR_DELEGATABLE_DELIVERY_PREFILTER.
+- EXACT_INCUMBENT_PREFLIGHT_BEFORE_DEEP_RESEARCH.
 - NO_REQUIRED_PRODUCT_SHAPE.
 - ROUTING_IS_OPTIONAL_MECHANISM_NOT_CONSTITUTION.
 - A/B voluntary energy must be evidence-backed.
