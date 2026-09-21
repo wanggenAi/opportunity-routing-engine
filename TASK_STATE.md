@@ -6,7 +6,7 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 049 tested six workflows that became visible or materially changed after 2026-07-01: browser-agent backoffice, job-application agents, WhatsApp action agents, AI video pipelines, agentic-commerce checkout, and document-routing agents. All have current payer evidence, but each collapses into horizontal platform control, payment/network control, exact incumbent automation, or client-specific implementation rather than a recurring independent operator value flow.
+Scan 050 tested six recurring paid outcomes rather than one-time build budgets: email inbox placement, Amazon PPC profitability, technical SEO health, CRM data quality, multichannel ecommerce stockout/exception control, and pay-per-qualified-lead acquisition. The payer/outcome signal is stronger, but every formation still fails because the exact loop is already productized, the primary success variable is externally platform-controlled, or recurring human/expert execution remains core.
 
 ```text
 OBSERVED PAID / CONTRACTED MICRO-FLOW
@@ -36,22 +36,23 @@ Resolved recently:
 - `ATTRACTION_SCAN_047` — zero retention after six observed paid flows failed control, mature-surface or expert-delivery hard floors.
 - `ATTRACTION_SCAN_048` — zero retention after six event-driven machine-state money loops failed exact full-loop product saturation preflight.
 - `ATTRACTION_SCAN_049` — zero retention after recent paid workflow implementation budgets failed independent-control and recurring-outcome floors.
+- `ATTRACTION_SCAN_050` — zero retention after recurring measurable outcomes failed mature-control, external-algorithm or recurring-execution floors.
 
 Discovery queue:
-- `ATTRACTION_SCAN_050 — FRESH_CURRENT_REALITY_DIRECT_RECURRING_OUTCOME_SPEND_OR_REPEATED_WORKAROUND_NO_AI_AGENT_BUILD_CONFIGURATION_NO_SCAN049_VERTICAL_INHERITANCE_REQUIRE_POST_EXECUTION_MEASURABLE_OUTCOME_AND_INDEPENDENT_NONPLATFORM_ACTION_RIGHT_EXACT_INCUMBENT_PREFLIGHT_FIRST`.
+- `ATTRACTION_SCAN_051 — FRESH_CURRENT_REALITY_RECURRING_PAID_OUTCOME_WITH_MACHINE_VERIFIABLE_ACCEPTANCE_AND_REPLACEABLE_EXECUTION_NO_EXTERNAL_ALGORITHM_AS_PRIMARY_SUCCESS_CONTROLLER_NO_SCAN050_VERTICAL_INHERITANCE_REQUIRE_REPEATABLE_UNIT_ECONOMICS_AND_OPERATOR_CONTROL_EXACT_INCUMBENT_PREFLIGHT_FIRST`.
 
-Scan 049 retained zero new formations and made zero commercial promotions.
+Scan 050 retained zero new formations and made zero commercial promotions.
 
 ## Current Phase
 
-`SCAN_049_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_050_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`8f5900631313bf7c8acb3916977ba401efde6982`
-— squash merge of PR #346, `Close saturated event-driven money loops in Scan 048`.
+`0a09bd6aaea7edf3695421365a9ef9fb92b1f40b`
+— squash merge of PR #347, `Separate implementation spend from recurring outcome flow in Scan 049`.
 
-PR #346 CI run `35598103956` completed `success`. Jev run `35598103977` completed `success`: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #347 CI run `35600606842` completed `success`. Jev run `35600606740` completed `success`: 6/6 `NO_FURTHER_RESEARCH`, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -59,11 +60,11 @@ PR #346 CI run `35598103956` completed `success`. Jev run `35598103977` complete
 
 ## Active Branch
 
-`research/attraction-scan-049`.
+`research/attraction-scan-050`.
 
 ## Active PR
 
-Pending creation for Scan 049. Live GitHub state is authoritative.
+Pending creation for Scan 050. Live GitHub state is authoritative.
 
 ## CI
 
@@ -79,9 +80,9 @@ Pending creation for Scan 049. Live GitHub state is authoritative.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_049.json`
-- `docs/research/ATTRACTION_SCAN_049_2026-09-21.md`
-- `tests/test_attraction_scan_049_recent_workflow_gate.py`
+- `data/research_runs/attraction_scan_050.json`
+- `docs/research/ATTRACTION_SCAN_050_2026-09-21.md`
+- `tests/test_attraction_scan_050_recurring_outcome_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -106,16 +107,16 @@ Results:
 ## Current Findings
 
 ```text
-RECENT WORKFLOW
+RECURRING PAYMENT
 +
-DIRECT IMPLEMENTATION PAYMENT
+MEASURABLE OUTCOME
 !=
-RECURRING INDEPENDENT OUTCOME FLOW
+INDEPENDENT DURABLE CONTROL
 ```
 
-Scan 049 shows that post-July browser/agent workflows can attract paid build budgets quickly while still failing the business thesis. Horizontal agent platforms absorb execution primitives, payment networks own decisive authorization/settlement rails, and the residual work is often customer-specific integration or creative judgment.
+Scan 050 materially strengthened the demand signal: buyers repeatedly pay for inbox placement, ad profitability, site health, clean CRM data, low stockout/defect rates and accepted qualified leads. Yet those outcomes still fail the project thesis when an exact software control surface already exists, when Google/Gmail/Amazon owns the decisive success variable, or when delivery remains recurring expert/acquisition work.
 
-The next discovery improvement is to start from repeated buyer payment for measurable outcomes rather than from one-time tool construction. Scan 050 therefore requires recurring outcome spend or repeated paid workarounds, a measurable post-execution result, and an independently controllable non-platform action right before deep causal research.
+Scan 051 therefore keeps recurring outcome spend but requires a tighter execution shape: machine-verifiable acceptance, replaceable execution, repeatable unit economics, and no external platform algorithm as the primary controller of success.
 
 ## Validation Status
 
@@ -137,9 +138,9 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 049 is complete with zero retained formations and zero commercial promotions.
-- Six recent paid workflows were closed because the durable control surface belongs to horizontal platforms/payment rails or the residual value remains customer-specific implementation.
-- Scan 050 starts from recurring measurable outcome spend or repeated paid workarounds, with independent non-platform action rights and exact-incumbent preflight required before deep research.
+- Scan 050 is complete with zero retained formations and zero commercial promotions.
+- Six recurring measurable outcome flows were closed because exact products own the loop, external platform algorithms control success, or recurring expert/acquisition work remains core.
+- Scan 051 keeps outcome spend but requires machine-verifiable acceptance, replaceable execution, repeatable unit economics and operator control before deep causal research.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -147,7 +148,7 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 049 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev allows `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 050 from recurring measurable outcome spend rather than one-time tool-build budgets.
+Create the Scan 050 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev allows `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 051 from recurring paid outcome units with machine-verifiable acceptance and replaceable execution.
 
 ## Do Not Repeat
 
@@ -180,6 +181,9 @@ Create the Scan 049 PR, run repository CI and live Jev, consume the continuation
 
 - Do not count an AI-agent implementation contract as recurring demand for an independent operator.
 - Do not retain an agentic workflow when the decisive authorization, payment or action rail belongs to the platform/processors.
+
+- Do not mistake recurring outcome spend for operator control when an external platform algorithm determines the primary result.
+- Do not retain performance-based work when recurring acquisition or expert judgment remains the core delivery engine.
 
 ## Guardrails
 
