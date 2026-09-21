@@ -33,14 +33,14 @@ Discovery queue:
 
 ## Current Phase
 
-`SCAN_023_COMPLETE_PENDING_PR_CI_MERGE`
+`SCAN_023_MERGED_READY_FOR_SCAN_024`
 
 ## Last Verified Main
 
-`e6e4004845403750e2e0609500e0d878dbbf5994`
-— squash merge of PR #313, `Demote Scan 022 F1 after cheap falsification`.
+`693082593e9102495bdbe0bd89e2a8e39b3dee41`
+— squash merge of PR #314, `Complete voluntary-energy-first Scan 023`.
 
-PR #313 CI #911 verified successful.
+PR #314 CI #913 verified successful.
 
 ## Active Issue
 
@@ -48,26 +48,25 @@ PR #313 CI #911 verified successful.
 
 ## Active Branch
 
-`feature/scan023-voluntary-flow-scan`
+None. Resume from current `main`.
 
 ## Active PR
 
-Not opened yet for Scan 023. Check GitHub live state first.
+None.
 
 ## CI
 
-No Scan 023 PR CI run yet.
+PR #314 CI #913 passed before merge.
 
 ## Latest Artifact / Persisted State
 
-New:
+Scan 023:
 - `data/research_runs/attraction_scan_023.json`
 - `docs/research/ATTRACTION_SCAN_023_2026-09-21.md`
 - `tests/test_attraction_scan_023_voluntary_flow.py`
 
-Updated:
+Commercial state:
 - `data/commercial_reset_state.json`
-- `TASK_STATE.md`
 
 ## Completed
 
@@ -79,11 +78,11 @@ service demand and accepted substitutes.
 
 Results:
 - commercial promotions = 0;
-- retained research beacons = 0;
+- retained Scan 023 research beacons = 0;
 - robot event rental meta-routing demoted because multi-brand rental platforms already own matching and
   fulfillment remains engineer/transport/operator heavy;
-- inbound visitor all-in-one orchestration demoted because city/payment platforms are already aggregating
-  payment, travel, ticketing, tax-refund and multilingual local-life rails;
+- inbound visitor all-in-one orchestration demoted because city/payment platforms already aggregate payment,
+  travel, ticketing, tax-refund and multilingual local-life rails;
 - smart-glasses cross-brand try-before-buy networking demoted because brands and optical retailers are
   internalizing physical trial and fitting;
 - event-day microservice routing demoted because ticket-root/local-commerce rails already aggregate discovery
@@ -105,7 +104,7 @@ IS THERE AN UNOWNED CONTROL EDGE?
 High voluntary energy is now preferred as a discovery seed, but whole-marketplace aggregation should be killed
 early when incumbents already own discovery, matching and transaction.
 
-Scan 024 should stay inside high-energy flows but search one level deeper:
+Scan 024 must search one level deeper:
 
 ```text
 HIGH-ENERGY EXISTING FLOW
@@ -119,11 +118,11 @@ HIGH-ENERGY EXISTING FLOW
 ## Blockers
 
 Validation:
-- Scan 015-F1 still awaits compatible written provider confirmation; the latest Gmail check found no new provider reply.
+- Scan 015-F1 still awaits compatible written provider confirmation; the 2026-09-21 Gmail check found no new provider reply.
 - Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return rails and non-consulting economics.
 
-Engineering:
-- Scan 023 branch needs PR, CI, merge and main verification.
+Discovery:
+- Scan 024 has not yet started.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -131,8 +130,7 @@ Commercial:
 
 ## Next Action
 
-Complete Scan 023 PR / CI / merge, then start Scan 024 from high-energy existing flows and search for narrow,
-machine-resolvable, unowned micro-edges.
+Start Scan 024 from high-energy existing flows and search for narrow, machine-resolvable, unowned micro-edges.
 
 Do not seed Scan 024 with a current or recently killed vertical, and do not use policy change or "build a
 marketplace" as the default search lens.
