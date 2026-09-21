@@ -584,6 +584,97 @@ def _summary(rows: list[Mapping[str, Any]]) -> dict[str, Any]:
     }
 
 
+
+CONTINUATION_CONTRACT = "OPPORTUNITY_JEV_AGENT_CONTINUATION_V1"
+
+_CONTINUATION_ACTION_BY_ROUTE = {
+    "NO_FURTHER_RESEARCH": "DROP_FROM_CURRENT_RESEARCH_QUEUE",
+    "EXACT_INCUMBENT_PREFLIGHT": "RUN_EXACT_INCUMBENT_PREFLIGHT",
+    "CAUSAL_DESCENT": "RUN_CAUSAL_DESCENT",
+    "HUMAN_REVIEW": "REQUIRE_HUMAN_REVIEW",
+}
+
+
+def build_continuation_directive(payload: Mapping[str, Any]) -> dict[str, Any]:
+    """Convert a Jev advisory into a bounded agent-continuation control record.
+
+    This does not execute research itself and never grants commercial authority.
+    It tells an already-running agent whether it should continue autonomously
+    through the next reversible research step instead of returning control to
+    the user merely to ask for "continue".
+    """
+
+    rows = payload.get("rows") if isinstance(payload.get("rows"), list) else []
+    execution_status = str(payload.get("execution_status") or "UNKNOWN")
+    dispatch_items: list[dict[str, Any]] = []
+    human_review_required = False
+
+    for row in rows:
+        if not isinstance(row, Mapping) or row.get("status") != "SUCCESS":
+            human_review_required = True
+            continue
+        route = str(row.get("effective_research_route") or "")
+        action = _CONTINUATION_ACTION_BY_ROUTE.get(route, "REQUIRE_HUMAN_REVIEW")
+        if action == "REQUIRE_HUMAN_REVIEW":
+            human_review_required = True
+        dispatch_items.append(
+            {
+                "formation_id": str(row.get("formation_id") or ""),
+                "effective_research_route": route,
+                "action": action,
+                "attention_priority": str(
+                    (
+                        row.get("decisions", {})
+                        .get("attention_priority", {})
+                        .get("choice", "")
+                    )
+                    if isinstance(row.get("decisions"), Mapping)
+                    and isinstance(row.get("decisions", {}).get("attention_priority"), Mapping)
+                    else ""
+                ),
+                "state_fingerprint": str(row.get("state_fingerprint") or ""),
+            }
+        )
+
+    if execution_status != "SUCCESS" or not rows:
+        human_review_required = True
+
+    executable = [
+        item
+        for item in dispatch_items
+        if item["action"] in {"RUN_EXACT_INCUMBENT_PREFLIGHT", "RUN_CAUSAL_DESCENT"}
+    ]
+
+    if human_review_required:
+        next_action = "STOP_FOR_HUMAN_REVIEW"
+        autonomous_continuation_allowed = False
+    elif executable:
+        next_action = "EXECUTE_RESEARCH_QUEUE"
+        autonomous_continuation_allowed = True
+    else:
+        next_action = "ADVANCE_TO_NEXT_SCAN"
+        autonomous_continuation_allowed = True
+
+    return {
+        "contract": CONTINUATION_CONTRACT,
+        "source_advisory_contract": str(payload.get("contract") or ""),
+        "source_scan_id": str(payload.get("input_scan_id") or ""),
+        "source_scan_path": str(payload.get("input_scan_path") or ""),
+        "execution_status": execution_status,
+        "next_action": next_action,
+        "autonomous_continuation_allowed": autonomous_continuation_allowed,
+        "human_intervention_required": human_review_required,
+        "agent_session_continuation_only": True,
+        "automatic_research_execution_by_jev": False,
+        "commercial_promotion_authority": False,
+        "mutates_commercial_state": False,
+        "external_side_effects_allowed": False,
+        "may_reverse_existing_demotions": False,
+        "unknown_is_pass": False,
+        "dispatch_items": dispatch_items,
+    }
+
+
 def render_advisory_markdown(payload: Mapping[str, Any]) -> str:
     summary = payload.get("summary") if isinstance(payload.get("summary"), Mapping) else {}
     lines = [
