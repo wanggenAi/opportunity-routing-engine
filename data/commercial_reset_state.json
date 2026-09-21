@@ -14,14 +14,6 @@
       "state": "HIGH_ATTRACTION_BEACON_RETAINED_FOR_CAUSAL_DESCENT",
       "retained_date": "2026-09-20",
       "commercial_candidate": false
-    },
-    {
-      "formation_id": "ATTRACTION_SCAN_016-F1",
-      "title": "9610_CROSS_CUSTOMS_RETURN_ROUTER",
-      "chinese_title": "跨境电商9610跨关区退货路由",
-      "state": "RESEARCH_BEACON_RETAINED_FOR_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
-      "retained_date": "2026-09-20",
-      "commercial_candidate": false
     }
   ],
   "resolved_research_formations": [
@@ -59,14 +51,19 @@
       "formation_id": "ATTRACTION_SCAN_024-F1",
       "verdict": "DEMOTED_ACTIVE_OPEN_SOURCE_CONTROL_SURFACE_AND_NONCOMPOUNDING_GATEWAY_FEATURE",
       "resolved_date": "2026-09-21"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_016-F1",
+      "verdict": "DEMOTED_UNPROVEN_TWO_RAIL_9610_CALLABILITY_AND_PLATFORM_OWNED_VALUE_LAYER",
+      "resolved_date": "2026-09-21"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
   "last_completed_scan_id": "ATTRACTION_SCAN_031",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_024-F1",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_016-F1",
   "next_scan_id": "ATTRACTION_SCAN_032",
-  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_BROAD_REALITY_RESET_SCAN032",
+  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_BROAD_REALITY_RESET_SCAN032",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -325,7 +322,14 @@
     "ONCE_EXCEPTION_STATE_IS_STANDARDIZABLE_THE_VALUE_LAYER_CAN_BE_ABSORBED_AS_A_PLATFORM_FEATURE",
     "SINGLE_OWNER_ACTION_RIGHTS_DO_NOT_CREATE_OPERATOR_ASSET_IF_THE_DECISION_GRAPH_IS_PUBLIC_OR_COPYABLE",
     "SUCCESSIVE_FAILURE_DERIVED_BOUNDARIES_ARE_AGAIN_BECOMING_A_HIDDEN_SEARCH_ONTOLOGY",
-    "SCAN_031_ZERO_RETENTION_AND_RESET_TO_BROAD_UNRELATED_REALITY"
+    "SCAN_031_ZERO_RETENTION_AND_RESET_TO_BROAD_UNRELATED_REALITY",
+    "PHYSICAL_MULTI_PORT_AVAILABILITY_IS_NOT_THE_SAME_AS_TWO_INDEPENDENT_CALLABLE_TRANSACTION_RAILS",
+    "GENERIC_RETURN_APIS_DO_NOT_PROVE_SPECIAL_CUSTOMS_REENTRY_CALLABILITY",
+    "COST_SAVINGS_TO_SELLER_DO_NOT_PROVE_NEUTRAL_ROUTER_ECONOMICS",
+    "CUSTOMS_CONNECTED_PLATFORM_OR_ENTERPRISE_SYSTEMS_CAN_OWN_THE_DECISIVE_ACTION_GATE",
+    "MATURE_GENERIC_RETURN_ROUTING_COMPRESSES_VALUE_TO_THE_SPECIAL_CUSTOMS_LAYER_WHERE_OPEN_CALLABILITY_MUST_BE_PROVEN",
+    "FAIL_CLOSED_AFTER_PUBLIC_EVIDENCE_CEILING_IF_NONCOMPENSATORY_CALLABILITY_AND_ECONOMICS_REMAIN_UNPROVEN",
+    "SCAN_016_F1_DEMOTED_AFTER_FINAL_CALLABILITY_AND_ECONOMICS_FALSIFICATION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -437,7 +441,12 @@
     "Scan 031 will test formation-diverse high-consequence exceptions where generic data movement is insufficient but a bounded non-generic machine state may still exist.",
     "ATTRACTION_SCAN_031 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
     "App-review rejection, payment holds, IAM exceptions, production incidents, manufacturing rush-order exceptions, procurement acknowledgments and e-commerce listing violations all have current native or specialized decision/remediation control surfaces.",
-    "The sequence from pre-platform exchange to single-owner integration to non-generic exceptions became another failure-derived narrowing bias; Scan 032 resets to broad unrelated current reality while preserving hard floors."
+    "The sequence from pre-platform exchange to single-owner integration to non-generic exceptions became another failure-derived narrowing bias; Scan 032 resets to broad unrelated current reality while preserving hard floors.",
+    "ATTRACTION_SCAN_016-F1 final cheap falsification completed on 2026-09-21.",
+    "Nationwide legal availability and multiple real 9610 cross-customs physical routes are proven, and generic reverse-logistics APIs exist.",
+    "Two independent neutral third-party-callable 9610 quote/order/status/outcome rails, cross-provider outcome reuse rights and non-consulting operator economics remain unproven after public evidence reached a useful ceiling.",
+    "Generic return routing/rate comparison is already a mature control surface, leaving the exact customs-action layer as the only distinct residual layer; that layer failed the current callability/economics gate.",
+    "Scan 016-F1 is removed from active validation and must not be revived from additional port-support announcements alone."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -445,11 +454,6 @@
         "formation_id": "ATTRACTION_SCAN_015-F1",
         "state": "GATE_A_WAITING_WRITTEN_PROVIDER_RESPONSE",
         "next_action": "CLASSIFY_FIRST_ACTUAL_OFFICIAL_WRITTEN_RESPONSE"
-      },
-      {
-        "formation_id": "ATTRACTION_SCAN_016-F1",
-        "state": "CHEAP_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
-        "next_action": "VERIFY_TWO_INDEPENDENT_9610_CROSS_CUSTOMS_RETURN_RAILS_AND_NON_CONSULTING_ECONOMICS"
       }
     ],
     "discovery": {
@@ -498,6 +502,8 @@
     "SINGLE_OWNER_WORKFLOW_IS_NOT_ENOUGH_IF_THE_TRANSFORMATION_IS_GENERIC",
     "NON_GENERIC_EXCEPTION_DECISION_IS_THE_NEXT_FALSIFICATION_LAYER",
     "EXCEPTION_AUTOMATION_IS_BEING_INTERNALIZED_BY_SYSTEMS_OF_RECORD_AND_VERTICAL_AI",
-    "FAILURE_DERIVED_NARROWING_MUST_PERIODICALLY_RESET_TO_BROAD_REALITY"
+    "FAILURE_DERIVED_NARROWING_MUST_PERIODICALLY_RESET_TO_BROAD_REALITY",
+    "PORT_DIVERSITY_WITHOUT_NEUTRAL_TRANSACTION_CALLABILITY_IS_NOT_A_ROUTING_BUSINESS",
+    "NONCOMPENSATORY_CALLABILITY_AND_ECONOMICS_GATES_SHOULD_CLOSE_LONG_RUNNING_BEACONS_AT_PUBLIC_EVIDENCE_CEILING"
   ]
 }

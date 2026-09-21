@@ -4,21 +4,21 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Reach the first real external value flow while validating retained formations in parallel.
+Reach the first real external value flow while keeping discovery independent from validation.
 
-Scan 031 showed that even non-generic high-consequence exception decisions are rapidly becoming native system
-or vertical-AI control surfaces. More importantly, the recent sequence of failure-derived search boundaries
-was becoming another hidden ontology.
+The long-running Scan 016-F1 9610 return-router beacon is now resolved/demoted. Physical and regulatory
+multi-route availability is real, but the exact neutral third-party transaction rail and operator economics
+did not survive the non-compensatory validation gates.
 
-Discovery therefore resets to broad unrelated current reality in Scan 032. Keep commercial hard floors, but
-do not inherit the recent shapes.
+Discovery remains reset to broad unrelated current reality in Scan 032.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
-FAILURE_DERIVED_BOUNDARY != WORLD_MODEL
+PHYSICAL_ROUTE != CALLABLE_TRANSACTION_RAIL
+GENERIC_API != SPECIAL_CUSTOMS_ACTION_RAIL
+SELLER_SAVINGS != ROUTER_ECONOMICS
 BROAD_CURRENT_REALITY_RESET
-HARD_FLOORS_STAY
 ZERO RETENTION IS VALID
 UNKNOWN != PASS
 ```
@@ -33,24 +33,23 @@ surface absorption pressure.
 
 Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic inbound intent.
-- `ATTRACTION_SCAN_016-F1` — prove two independent third-party-callable 9610 cross-customs return rails,
-  structured quote/order/status/outcome exchange and non-consulting economics, or demote.
+
+Resolved:
+- `ATTRACTION_SCAN_016-F1` — demoted after final callability/economics falsification.
 
 Discovery queue:
 - `ATTRACTION_SCAN_032 — BROAD_CURRENT_REALITY_RESET_SAMPLE_UNRELATED_DOMAINS_NO_FAILURE_DERIVED_SHAPE_NO_ACTIVE_VERTICAL_OR_MECHANISM_INHERITANCE_KEEP_COMMERCIAL_HARD_FLOORS`.
 
-Scan 031 retained no new formation.
-
 ## Current Phase
 
-`SCAN_031_COMPLETE_PENDING_PR_CI_MERGE`
+`SCAN_016_F1_DEMOTED_PENDING_PR_CI_MERGE_AND_SCAN032_ACTIVE`
 
 ## Last Verified Main
 
-`e034af44598707d0d096b2c53b6f6fce2d1288cb`
-— squash merge of PR #324, `Complete Scan 030 single-owner automation falsification`.
+`3d01f11b8e4e40b792c0bf74ae7be502aee9f94c`
+— squash merge of PR #325, `Complete Scan 031 exception automation falsification`.
 
-Main CI #932 verified successful.
+Main CI #934 verified successful.
 
 ## Active Issue
 
@@ -58,22 +57,22 @@ Main CI #932 verified successful.
 
 ## Active Branch
 
-`feature/scan031-exception-automation-zero-retention`
+`feature/scan016-f1-final-falsification`
 
 ## Active PR
 
-Not opened yet for Scan 031. Check GitHub live state first.
+Not opened yet for Scan 016-F1 final falsification. Check GitHub live state first.
 
 ## CI
 
-No Scan 031 PR CI run yet.
+No PR CI run yet for the Scan 016-F1 final falsification branch.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_031.json`
-- `docs/research/ATTRACTION_SCAN_031_2026-09-21.md`
-- `tests/test_attraction_scan_031_exception_automation.py`
+- `data/research_runs/attraction_scan_016_f1_falsification.json`
+- `docs/research/ATTRACTION_SCAN_016_F1_CHEAP_FALSIFICATION_2026-09-21.md`
+- `tests/test_attraction_scan_016_f1_falsification.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -81,66 +80,77 @@ Updated:
 
 ## Completed
 
-Scan 031 tested formation-diverse high-consequence exceptions where one actor already owned input and action
-rights, generic field mapping was insufficient, and a bounded domain decision appeared possible.
+### Scan 016-F1 final falsification
 
-Results:
-- commercial promotions = 0;
-- retained research formations = 0;
-- App Store rejection remediation demoted because exact specialized assistants already diagnose, precheck and guide fixes/appeals;
-- payment-hold/rejection decisions demoted because bank and ERP systems expose native decision APIs and automatic retry/exception handling;
-- IAM exceptions demoted because identity/cloud control planes already troubleshoot, approve, assign and remediate access;
-- production incidents demoted because AI-SRE platforms already correlate telemetry, diagnose and ship fixes;
-- manufacturing rush-order/capacity exceptions demoted because AI APS already simulates constraints and rescheduling decisions;
-- procurement acknowledgment exceptions demoted because current Copilot+SAP architectures already match, auto-confirm and escalate discrepancies;
-- e-commerce policy exceptions demoted because platform-native remediation plus specialized AI seller tools already occupy the surface;
-- FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
+Proven:
+- GACC Announcement 2026 No.24 made 9610 cross-customs-district returns nationally available from 2026-04-01.
+- Real physical cross-district execution is proven in Hangzhou and other routes.
+- Generic reverse-logistics and warehouse-return APIs exist through 4PX, Cainiao and mature returns platforms.
+
+Not proven after the cheap public-evidence ceiling:
+- two independent neutral third-party-callable **9610 cross-customs** quote/order/status/outcome rails;
+- cross-provider non-identifying outcome retention/reuse rights;
+- native non-consulting operator economics.
+
+Additional negative pressure:
+- real 9610 flows are embedded in platform/enterprise/customs operating relationships;
+- GACC requires enterprise production-system data to be opened to or integrated with Customs;
+- mature returns products already own generic return routing, carrier configuration, rates, labels and APIs.
+
+Verdict:
+
+`DEMOTED_UNPROVEN_TWO_RAIL_9610_CALLABILITY_AND_PLATFORM_OWNED_VALUE_LAYER`
+
+Do not revive Scan 016-F1 because another port or customs district announces support.
 
 ## Current Findings
 
-The strongest Scan 031 result is:
-
 ```text
-NON-GENERIC EXCEPTION
-CAN STILL BECOME A STANDARD CONTROL-PLANE FEATURE
-ONCE ITS STATE SCHEMA STABILIZES
+PORT CAN PROCESS A RETURN
+!=
+NEUTRAL ROUTER CAN CALL THE RAIL
+
+GENERIC RETURN API
+!=
+9610 CROSS-CUSTOMS TRANSACTION API
+
+REAL SELLER SAVINGS
+!=
+THIRD-PARTY ROUTER ECONOMICS
 ```
 
-And the methodological result is equally important:
-
-```text
-SCAN 029 -> 030 -> 031
-WAS BECOMING FAILURE-DERIVED SEARCH OVERFITTING
-```
-
-Do not continue by inventing an even narrower exception class.
+The non-compensatory callability/economics gates are now doing their job: a research beacon cannot remain
+active indefinitely merely because the underlying policy and pain are real.
 
 ## Validation Status
 
-Scan 015-F1:
-- Gmail re-check on 2026-09-21 still shows no new incoming written reply from the Wave 1 provider targets.
-- State remains waiting; no response is not a fail.
+Scan 015-F1 remains the only retained validation beacon.
+- Gmail check on 2026-09-21 found no new incoming written reply from the Wave 1 provider targets.
+- No response is not a denial.
+- Do not repeat public rights searching; the next decisive evidence is an actual provider written response or agreement.
 
-Scan 016-F1:
-- legal/national availability is proven;
-- multiple real physical return routes are proven;
-- structured return/logistics APIs exist generally across 4PX/Cainiao/AfterShip;
-- global return routing/rate comparison is already a mature product surface;
-- what remains unproven is the exact special layer: two independent third-party-callable **9610 cross-customs**
-  China re-entry rails + structured outcome exchange + independent operator economics.
-- next action is a decisive cheap falsification, not more policy confirmation.
+## Discovery Status
+
+Scan 032 has started as a broad reality reset.
+
+Initial unrelated current signals include:
+- agricultural production-service outsourcing/托管;
+- silver-economy community experience + assistive-device rental;
+- fast-growing pet insurance;
+- circular-economy/reuse and remanufacturing activity.
+
+These are reality samples, not retained formations.
 
 ## Blockers
 
 Validation:
-- Scan 015-F1 awaits written provider response.
-- Scan 016-F1 must either prove exact callability/economics or be demoted.
+- Scan 015-F1 awaits written provider response and still lacks proof of organic founder-free inbound intent.
 
 Engineering:
-- Scan 031 branch needs PR, CI, merge and main verification.
+- Scan 016-F1 demotion branch needs PR, CI, merge and main verification.
 
 Discovery:
-- Scan 032 has not yet started.
+- Scan 032 broad sampling is in progress.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -148,19 +158,19 @@ Commercial:
 
 ## Next Action
 
-1. Complete Scan 031 PR / CI / merge.
-2. Perform a decisive Scan 016-F1 callability/economics falsification.
-3. Start Scan 032 from broad unrelated current reality, without deriving its search shape from the recent failed mechanisms.
-4. Leave Scan 015 waiting unless an actual written provider reply arrives.
+1. Complete Scan 016-F1 demotion PR / CI / merge.
+2. Continue Scan 032 broad unrelated reality sampling and falsification.
+3. Leave Scan 015 waiting unless an actual provider written reply arrives.
 
 ## Do Not Repeat
 
-- Do not narrow Scan 032 into "the next exception."
-- Do not inherit marketplace, recovery, routing, integration or exception as required shapes.
-- Do not promote Scan 016 from port-level or generic-return API evidence.
-- Do not classify Scan 015 no-response as a denial.
-- Do not manufacture a retained formation because discovery has had a long zero-retention run.
-- Do not weaken commercial hard floors.
+- Do not revive Scan 016 from legal/physical route availability alone.
+- Do not substitute generic logistics APIs for exact 9610 transaction callability.
+- Do not infer operator economics from seller cost savings.
+- Do not repeat public rights searching for Scan 015 while written provider evidence is outstanding.
+- Do not let Scan 016 or Scan 015 seed Scan 032.
+- Do not derive Scan 032 from the recent failure shapes.
+- Do not manufacture a retained formation because the queue is shrinking.
 
 ## Guardrails
 
@@ -169,6 +179,8 @@ Commercial:
 - REALITY > COGNITION > SCHEMA.
 - BROAD_CURRENT_REALITY_RESET.
 - FAILURE_DERIVED_BOUNDARY_IS_NOT_ONTOLOGY.
+- CALLABLE_ACTION_GATE_IS_NON_COMPENSATORY.
+- ECONOMICS_GATE_IS_NON_COMPENSATORY.
 - ROUTING_IS_OPTIONAL_MECHANISM_NOT_CONSTITUTION.
 - A/B voluntary energy must be evidence-backed.
 - Discoverability/addressability must be sufficient for the formation.
