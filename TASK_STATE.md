@@ -6,15 +6,14 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 038 verified that even a genuine structural control/data/action gap is insufficient if an independent operator cannot obtain or compound the missing right/data position.
+Scan 039 verified the next hard gate: even when a customer can authorize an independent operator to use the required contracts, invoices, logs, reports or account permissions, the opportunity still fails if the entire recovery loop is already a mature product category.
 
 ```text
-PAYER / WORKAROUND SIGNAL
-→ DELIVERY PREFILTER
-→ EXACT INCUMBENT PREFLIGHT
-→ STRUCTURAL CONTROL / DATA / CROSS-SYSTEM ACTION GAP
-→ IDENTIFY WHO HOLDS THE MISSING RIGHT
-→ REQUIRE OPERATOR-ACCESSIBLE / COMPOUNDABLE RIGHT OR DATA POSITION
+STRUCTURAL GAP
+→ OPERATOR-ACCESSIBLE CUSTOMER / PUBLIC DATA
+→ OPERATOR-AUTHORIZED ACTION RIGHT
+→ DIRECT RECOVERY ECONOMICS
+→ EXACT END-TO-END INCUMBENT PREFLIGHT
 → ONLY THEN DEEP CAUSAL DESCENT
 ```
 
@@ -30,20 +29,20 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Discovery queue:
-- `ATTRACTION_SCAN_039 — BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_REQUIRE_STRUCTURAL_CONTROL_RIGHT_DATA_RIGHT_OR_CROSS_SYSTEM_ACTION_GAP_AND_OPERATOR_ACCESSIBLE_RIGHTS_OR_DATA_POSITION_NOT_ALREADY_BUNDLED_BY_INCUMBENT_NETWORK_PLATFORM_REGULATED_ACTOR_OR_ENDPOINT_OWNER_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
+- `ATTRACTION_SCAN_040 — BROAD_CURRENT_REALITY_RECENTLY_CREATED_OR_EXPANDED_MONETARY_ENTITLEMENT_RULE_POLICY_OR_CONTRACT_CHANGE_DIRECT_PAYER_OR_RECOVERY_VALUE_DIGITAL_OR_DELEGATABLE_DELIVERY_OPERATOR_ACCESSIBLE_CUSTOMER_OR_PUBLIC_DATA_EXACT_END_TO_END_INCUMBENT_PREFLIGHT_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
 
-Scan 038 retained no new formation.
+Scan 039 retained no new formation.
 
 ## Current Phase
 
-`SCAN_038_COMPLETE_PR_PENDING_JEV_CONTINUATION`
+`SCAN_039_COMPLETE_PR_PENDING_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`5745ef89058b22972bdb67079b359f396dfa8954`
-— squash merge of PR #335, `Classify post-incumbent leakage in Scan 037`.
+`ca219c76e5bf7c682d8cfe28e10bedaae9e8fdda`
+— squash merge of PR #336, `Test operator-accessible rights in Scan 038`.
 
-Merged-main CI run `35574849692` succeeded. Merged-main live Jev run `35574849844` succeeded on `ATTRACTION_SCAN_037`: 6/6 routes `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+Merged-main CI run `35575273298` and merged-main live Jev run `35575273151` completed successfully. Scan 038 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -51,11 +50,11 @@ Merged-main CI run `35574849692` succeeded. Merged-main live Jev run `3557484984
 
 ## Active Branch
 
-`research/attraction-scan-038`.
+`research/attraction-scan-039`.
 
 ## Active PR
 
-Pending creation for Scan 038.
+Pending creation for Scan 039.
 
 ## CI
 
@@ -68,9 +67,9 @@ Pending creation for Scan 038.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_038.json`
-- `docs/research/ATTRACTION_SCAN_038_2026-09-21.md`
-- `tests/test_attraction_scan_038_operator_rights.py`
+- `data/research_runs/attraction_scan_039.json`
+- `docs/research/ATTRACTION_SCAN_039_2026-09-21.md`
+- `tests/test_attraction_scan_039_recovery_category.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -97,12 +96,14 @@ Results:
 ```text
 STRUCTURAL GAP
 +
-NO OPERATOR-ACCESSIBLE RIGHT / DATA POSITION
-=
-NOT A DURABLE BUSINESS EDGE
+CUSTOMER-AUTHORIZED RIGHTS
++
+DIRECT RECOVERY ECONOMICS
+!=
+WHITE SPACE
 ```
 
-Scan 038 found six real cross-system gaps, but the rights required to execute them were already held or bundled by payment/commerce control planes, endpoint owners, vendor trust networks, regulated customs/logistics specialists or OEM workflows. Scan 039 therefore asks whether an independent operator can actually access and compound the missing right/data position.
+Scan 039 found six executable recovery loops, but all six had exact products already monitoring, detecting, filing and tracking claims to credit. The next timing edge moves earlier: recently created or materially expanded monetary entitlements before a stable recovery category forms.
 
 ## Validation Status
 
@@ -124,8 +125,8 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 038 is complete with zero retention.
-- Scan 039 has not started; it requires both a structural gap and an operator-accessible rights/data position not already bundled by incumbent control planes.
+- Scan 039 is complete with zero retention.
+- Scan 040 has not started; it targets recently created or expanded monetary entitlements/rules with operator-accessible inputs and no exact end-to-end recovery incumbent.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -133,7 +134,7 @@ Commercial:
 
 ## Next Action
 
-Merge Scan 038 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 039 in the same task.
+Merge Scan 039 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 040 in the same task.
 
 ## Do Not Repeat
 
@@ -141,6 +142,7 @@ Merge Scan 038 after CI, consume the triggered Jev continuation directive, and i
 - Do not treat incumbent presence alone as a kill; verify whether the incumbent resolves the same value flow and why residual leakage still exists.
 - Do not treat manual work, spreadsheet use or poor adoption as proof of an unowned control edge.
 - Do not mistake a real structural gap for an operator-owned asset; identify who actually controls the required rights/data/action.
+- Do not mistake contingency pricing or customer authorization for white space; exact recovery categories must still be preflighted.
 - Do not turn the incumbent-preflight process improvement into a required opportunity mechanism.
 - Do not let Scan 035 verticals seed Scan 036.
 - Do not lower hard floors because discovery continues to close at zero.
