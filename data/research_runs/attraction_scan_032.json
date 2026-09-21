@@ -1,0 +1,87 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_032",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_RESET_SAMPLE_UNRELATED_DOMAINS_NO_FAILURE_DERIVED_SHAPE_NO_ACTIVE_VERTICAL_OR_MECHANISM_INHERITANCE_KEEP_COMMERCIAL_HARD_FLOORS",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "reality_signals": [
+    "AGRICULTURAL_PRODUCTION_OUTSOURCING_AND托管_CONTINUES_TO_EXPAND_WITH_FORMAL_SERVICE_ENTITIES",
+    "REHABILITATION_ASSISTIVE_DEVICE_RENTAL_IS_BEING_EXPANDED_BUT_CURRENT_USER_EXPERIENCE_SHOWS_AVAILABILITY_FITTING_AND_LOCAL_SERVICE_GAPS",
+    "HIGH_END_SCIENTIFIC_INSTRUMENTS_AND_LAB_CAPACITY_ARE_OPENING_TO_ENTERPRISES",
+    "PET_INSURANCE_PREMIUM_AND_USER_ADOPTION_ARE_RISING_QUICKLY",
+    "AUTOMOTIVE_AFTERMARKET_POLICY_IS_EXPANDING_REPAIR_RENTAL_CLASSIC_CAR_RV_AND_MOTORSPORT_CONSUMPTION",
+    "CIRCULAR_ECONOMY_AND_REMANUFACTURING_ACTIVITY_IS_EXPANDING_IN_INDUSTRIAL_ASSETS"
+  ],
+  "examined_formations": [
+    {
+      "title": "SMALL_FARM_AGRICULTURAL_SERVICE_ORCHESTRATOR",
+      "chinese_title": "小农户农业托管服务编排层",
+      "mechanism_class": "PHYSICAL_PRODUCTION_SERVICE",
+      "verdict": "DEMOTED_PUBLIC_SERVICE_NETWORK_AND_RECURRING_FIELD_DELIVERY",
+      "evidence_summary": "Current 2026 programs already select qualified service entities, aggregate smallholder demand through collectives/托管员, use formal service contracts and increasingly require information-platform/telemetry oversight. The delivered value remains plowing, sowing, crop protection and harvesting in the field."
+    },
+    {
+      "title": "ASSISTIVE_DEVICE_RENTAL_AVAILABILITY_AND_FIT_ROUTER",
+      "chinese_title": "康复辅具租赁可用性与适配路由",
+      "mechanism_class": "ASSISTIVE_DEVICE_SERVICE",
+      "verdict": "DEMOTED_LOCAL_FITTING_DELIVERY_MAINTENANCE_AND_PUBLIC_NETWORK",
+      "evidence_summary": "Real users report difficulty knowing what can actually be rented, cross-district constraints and providers unwilling to rent some high-end devices. But current policy is explicitly building platform+center+station networks, and the residual value requires fitting, home trial, delivery, instruction, maintenance, disinfection and recovery."
+    },
+    {
+      "title": "SHARED_HIGH_END_LAB_CAPACITY_ROUTER",
+      "chinese_title": "高端实验仪器共享容量路由",
+      "mechanism_class": "SCIENTIFIC_RESOURCE_SHARING",
+      "verdict": "DEMOTED_PUBLIC_OPEN_PLATFORM_AND_EXPERT_TESTING_DEPENDENCE",
+      "evidence_summary": "Suzhou and Hefei are opening high-end analysis/testing platforms to enterprises, proving real resource sharing. But sample preparation, method selection, instrument configuration and result interpretation remain expert services, while the host lab/platform owns equipment scheduling and acceptance."
+    },
+    {
+      "title": "PET_INSURANCE_LIFECYCLE_HEALTH_COORDINATOR",
+      "chinese_title": "宠物险全生命周期健康协同层",
+      "mechanism_class": "INSURANCE_AND_CARE_COORDINATION",
+      "verdict": "DEMOTED_INSURER_CLAIMS_DATA_AND_PROFESSIONAL_CARE_CONTROL",
+      "evidence_summary": "Pet insurance adoption is rising rapidly and insurers are expanding from reimbursement toward lifecycle health management. The strongest data asset is insurer-owned claims/provider history while diagnosis/treatment remains professional veterinary delivery."
+    },
+    {
+      "title": "AUTOMOTIVE_AFTERMARKET_CROSS_SERVICE_ORCHESTRATOR",
+      "chinese_title": "汽车后市场跨服务编排层",
+      "mechanism_class": "AFTERMARKET_SERVICE_COMMERCE",
+      "verdict": "DEMOTED_BROAD_POLICY_SIGNAL_WITHOUT_UNOWNED_CONTROL_EDGE",
+      "evidence_summary": "Repair, insurance, rental, RV/camping, motorsport and classic-car services are being encouraged as growth areas, but the broad bundle does not identify a narrow unowned action loop; physical service networks, insurers, rental companies and specialized operators retain execution."
+    },
+    {
+      "title": "INDUSTRIAL_REMANUFACTURING_RESOURCE_ROUTER",
+      "chinese_title": "工业再制造资源路由层",
+      "mechanism_class": "CIRCULAR_INDUSTRIAL_ASSET",
+      "verdict": "DEMOTED_CAPITAL_INTENSIVE_PHYSICAL_ASSET_CHAIN",
+      "evidence_summary": "Industrial remanufacturing and circular-economy activity is expanding, including newer equipment categories, but collection, inspection, repair, certification, inventory and resale are physical/capital-intensive industrial operations rather than a thin founder-independent control edge."
+    }
+  ],
+  "hard_floor_demotions": [
+    "FIELD_SERVICE_AND_PHYSICAL_DELIVERY_REMAIN_CORE_IN_AGRICULTURAL托管_AND_ASSISTIVE_DEVICE_RENTAL",
+    "SCIENTIFIC_RESOURCE_SHARING_REQUIRES_EXPERT_METHOD_AND_INTERPRETATION_WHILE_HOST_PLATFORM_OWNS_CAPACITY",
+    "INSURER_OWNED_CLAIMS_DATA_AND_VETERINARY_DELIVERY_LIMIT_NEUTRAL_PET_HEALTH_CONTROL",
+    "BROAD_MARKET_GROWTH_POLICY_DOES_NOT_ESTABLISH_A_NARROW_UNOWNED_ACTION_LOOP",
+    "CAPITAL_INTENSIVE_REMANUFACTURING_IS_NOT_A_LIGHTWEIGHT_FOUNDER_INDEPENDENT_BRIDGE"
+  ],
+  "scan_learnings": [
+    "BROAD_REALITY_RESET_SUCCESSFULLY_RESTORES_FORMATION_DIVERSITY_AFTER_FAILURE_DERIVED_OVERFITTING",
+    "REAL_FRICTION_CAN_EXIST_IN_FAST_GROWING_SERVICE_NETWORKS_WHILE_THE_RESIDUAL_VALUE_REMAINS_PHYSICAL_OR_EXPERT_DELIVERY",
+    "PUBLIC_OR_INSTITUTIONAL_RESOURCE_OPENING_CAN_CREATE_REAL_FLOW_WITHOUT_CREATING_AN_INDEPENDENT_CONTROL_EDGE",
+    "GROWTH_RATE_AND_POLICY_SUPPORT_ARE_REALITY_SIGNALS_NOT_PROMOTION_EVIDENCE",
+    "DO_NOT_FORCE_UNRELATED_REALITY_SIGNALS_INTO_ONE_MECHANISM_AFTER_A_RESET",
+    "SCAN_032_ZERO_RETENTION_AFTER_BROAD_UNRELATED_REALITY_HARD_FLOOR_FALSIFICATION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_033",
+  "next_search_boundary": "SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_SAMPLE_UNRELATED_DOMAINS_NO_SCAN032_VERTICAL_INHERITANCE_NO_REQUIRED_MECHANISM_KEEP_COMMERCIAL_HARD_FLOORS",
+  "next_action": "START_SCAN033_AS_A_SECOND_INDEPENDENT_BROAD_SAMPLE_RATHER_THAN_DERIVING_A_NEW_SHAPE_FROM_SCAN032_FAILURES",
+  "first_external_value_flow": "NOT_PROVEN"
+}
