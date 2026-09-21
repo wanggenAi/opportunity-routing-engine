@@ -60,10 +60,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_031",
+  "last_completed_scan_id": "ATTRACTION_SCAN_032",
   "last_resolved_formation_id": "ATTRACTION_SCAN_016-F1",
-  "next_scan_id": "ATTRACTION_SCAN_032",
-  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_BROAD_REALITY_RESET_SCAN032",
+  "next_scan_id": "ATTRACTION_SCAN_033",
+  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_SECOND_BROAD_REALITY_SCAN033",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -329,7 +329,13 @@
     "CUSTOMS_CONNECTED_PLATFORM_OR_ENTERPRISE_SYSTEMS_CAN_OWN_THE_DECISIVE_ACTION_GATE",
     "MATURE_GENERIC_RETURN_ROUTING_COMPRESSES_VALUE_TO_THE_SPECIAL_CUSTOMS_LAYER_WHERE_OPEN_CALLABILITY_MUST_BE_PROVEN",
     "FAIL_CLOSED_AFTER_PUBLIC_EVIDENCE_CEILING_IF_NONCOMPENSATORY_CALLABILITY_AND_ECONOMICS_REMAIN_UNPROVEN",
-    "SCAN_016_F1_DEMOTED_AFTER_FINAL_CALLABILITY_AND_ECONOMICS_FALSIFICATION"
+    "SCAN_016_F1_DEMOTED_AFTER_FINAL_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
+    "BROAD_REALITY_RESET_SUCCESSFULLY_RESTORES_FORMATION_DIVERSITY_AFTER_FAILURE_DERIVED_OVERFITTING",
+    "REAL_FRICTION_CAN_EXIST_IN_FAST_GROWING_SERVICE_NETWORKS_WHILE_THE_RESIDUAL_VALUE_REMAINS_PHYSICAL_OR_EXPERT_DELIVERY",
+    "PUBLIC_OR_INSTITUTIONAL_RESOURCE_OPENING_CAN_CREATE_REAL_FLOW_WITHOUT_CREATING_AN_INDEPENDENT_CONTROL_EDGE",
+    "GROWTH_RATE_AND_POLICY_SUPPORT_ARE_REALITY_SIGNALS_NOT_PROMOTION_EVIDENCE",
+    "DO_NOT_FORCE_UNRELATED_REALITY_SIGNALS_INTO_ONE_MECHANISM_AFTER_A_RESET",
+    "SCAN_032_ZERO_RETENTION_AFTER_BROAD_UNRELATED_REALITY_HARD_FLOOR_FALSIFICATION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -446,7 +452,11 @@
     "Nationwide legal availability and multiple real 9610 cross-customs physical routes are proven, and generic reverse-logistics APIs exist.",
     "Two independent neutral third-party-callable 9610 quote/order/status/outcome rails, cross-provider outcome reuse rights and non-consulting operator economics remain unproven after public evidence reached a useful ceiling.",
     "Generic return routing/rate comparison is already a mature control surface, leaving the exact customs-action layer as the only distinct residual layer; that layer failed the current callability/economics gate.",
-    "Scan 016-F1 is removed from active validation and must not be revived from additional port-support announcements alone."
+    "Scan 016-F1 is removed from active validation and must not be revived from additional port-support announcements alone.",
+    "ATTRACTION_SCAN_032 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
+    "The broad reset sampled agriculture service outsourcing, assistive-device rental, shared high-end laboratories, pet insurance, automotive aftermarket services and industrial remanufacturing without inheriting the recent marketplace/recovery/integration/exception shapes.",
+    "Real friction was found, especially in assistive-device rental availability and scientific-resource opening, but residual value remained physical/local or expert-delivered.",
+    "Scan 033 will run a second independent broad sample to verify the methodology reset is durable rather than a one-scan correction."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -457,9 +467,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_032",
+      "next_scan_id": "ATTRACTION_SCAN_033",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "BROAD_CURRENT_REALITY_RESET_SAMPLE_UNRELATED_DOMAINS_NO_FAILURE_DERIVED_SHAPE_NO_ACTIVE_VERTICAL_OR_MECHANISM_INHERITANCE_KEEP_COMMERCIAL_HARD_FLOORS"
+      "search_boundary": "SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_SAMPLE_UNRELATED_DOMAINS_NO_SCAN032_VERTICAL_INHERITANCE_NO_REQUIRED_MECHANISM_KEEP_COMMERCIAL_HARD_FLOORS"
     }
   },
   "system_learnings": [
@@ -504,6 +514,8 @@
     "EXCEPTION_AUTOMATION_IS_BEING_INTERNALIZED_BY_SYSTEMS_OF_RECORD_AND_VERTICAL_AI",
     "FAILURE_DERIVED_NARROWING_MUST_PERIODICALLY_RESET_TO_BROAD_REALITY",
     "PORT_DIVERSITY_WITHOUT_NEUTRAL_TRANSACTION_CALLABILITY_IS_NOT_A_ROUTING_BUSINESS",
-    "NONCOMPENSATORY_CALLABILITY_AND_ECONOMICS_GATES_SHOULD_CLOSE_LONG_RUNNING_BEACONS_AT_PUBLIC_EVIDENCE_CEILING"
+    "NONCOMPENSATORY_CALLABILITY_AND_ECONOMICS_GATES_SHOULD_CLOSE_LONG_RUNNING_BEACONS_AT_PUBLIC_EVIDENCE_CEILING",
+    "BROAD_RESET_CAN_RESTORE_DOMAIN_DIVERSITY_WITHOUT_WEAKENING_COMMERCIAL_HARD_FLOORS",
+    "A_SECOND_INDEPENDENT_BROAD_SAMPLE_SHOULD_CONFIRM_RESET_DURABILITY"
   ]
 }
