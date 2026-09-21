@@ -42,7 +42,7 @@ ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PR
 
 ## Current Phase
 
-`SCAN_065_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_065_PR_OPEN_AWAITING_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
@@ -61,7 +61,7 @@ PR #362 repository CI run `35618258236` completed `success`. Live Jev run `35618
 
 ## Active PR
 
-Pending creation for Scan 065. Live GitHub state is authoritative.
+#363 — `Close productized deterministic double-spend traps in Scan 065`. Live GitHub state is authoritative.
 
 ## CI
 
@@ -152,7 +152,7 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 065 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 066 from deterministic paid units evidenced by at least two independent buyer signals **before** category productization.
+Run PR #363 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 066 from deterministic paid units evidenced by at least two independent buyer signals **before** category productization.
 
 ## Do Not Repeat
 
