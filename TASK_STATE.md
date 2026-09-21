@@ -4,22 +4,18 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Reach the first real external value flow while validating retained formations in parallel. After testing visible
-marketplaces, emergent behavior and pre-platform self-organized exchange, the next discovery unit removes
-two-sided market formation entirely.
-
-Search current single-owner workflows where the same actor already owns the required input data and the right
-to execute the final action, but still bridges systems manually through chat, Excel, screenshots, copy/paste
-or reconciliation.
+Reach the first real external value flow while validating retained formations in parallel. Discovery has now
+removed marketplace formation and generic cross-system data movement. The next scan tests formation-diverse,
+high-consequence single-owner exceptions where the actor already owns input/action rights but the decision
+cannot be reduced to field mapping or copy/paste.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
 ONE OWNER OF INPUT + ACTION
-NO NEW SUPPLY
-NO MARKETPLACE BUILD
-MANUAL BRIDGE MUST BE REPEATED
-GENERIC AUTOMATION IS A HARD FALSIFIER
+GENERIC DATA MOVEMENT != OPPORTUNITY
+NON_GENERIC EXCEPTION STATE REQUIRED
+NO RECURRING EXPERT
 ZERO RETENTION IS VALID
 UNKNOWN != PASS
 ```
@@ -34,23 +30,23 @@ surface absorption pressure.
 
 Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic inbound intent.
-- `ATTRACTION_SCAN_016-F1` — two callable 9610 cross-customs return rails + non-consulting economics.
+- `ATTRACTION_SCAN_016-F1` — two independent callable 9610 cross-customs return rails + non-consulting economics.
 
 Discovery queue:
-- `ATTRACTION_SCAN_030 — CURRENT_SINGLE_OWNER_MANUAL_CROSS_SYSTEM_WORKFLOW_INPUT_AND_ACTION_RIGHTS_ALREADY_OWNED_NO_NEW_SUPPLY_NO_MARKETPLACE_NO_PRIOR_VERTICAL_INHERITANCE`.
+- `ATTRACTION_SCAN_031 — FORMATION_DIVERSE_SINGLE_OWNER_HIGH_CONSEQUENCE_EXCEPTIONS_NON_GENERIC_STATE_NOT_DATA_MOVEMENT_INPUT_AND_ACTION_RIGHTS_OWNED_NO_RECURRING_EXPERT`.
 
-Scan 029 retained no new formation.
+Scan 030 retained no new formation.
 
 ## Current Phase
 
-`SCAN_029_COMPLETE_PENDING_PR_CI_MERGE`
+`SCAN_030_COMPLETE_PENDING_PR_CI_MERGE`
 
 ## Last Verified Main
 
-`3091de012b19c22efdcc9f8c6594bf9de21a66df`
-— squash merge of PR #322, `Complete Scan 028 behavior-first with zero retention`.
+`dadb6513ed2b9169769d5cee5293bb275db1b738`
+— squash merge of PR #323, `Complete Scan 029 pre-platform exchange with zero retention`.
 
-Main CI #928 verified successful.
+Main CI #930 verified successful.
 
 ## Active Issue
 
@@ -58,22 +54,22 @@ Main CI #928 verified successful.
 
 ## Active Branch
 
-`feature/scan029-preplatform-exchange-zero-retention`
+`feature/scan030-single-owner-workflow-zero-retention`
 
 ## Active PR
 
-Not opened yet for Scan 029. Check GitHub live state first.
+Not opened yet for Scan 030. Check GitHub live state first.
 
 ## CI
 
-No Scan 029 PR CI run yet.
+No Scan 030 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_029.json`
-- `docs/research/ATTRACTION_SCAN_029_2026-09-21.md`
-- `tests/test_attraction_scan_029_preplatform_exchange.py`
+- `data/research_runs/attraction_scan_030.json`
+- `docs/research/ATTRACTION_SCAN_030_2026-09-21.md`
+- `tests/test_attraction_scan_030_single_owner.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -81,49 +77,62 @@ Updated:
 
 ## Completed
 
-Scan 029 searched self-organized exchange before dominant marketplace formation.
-
-Observed:
-- industrial-park shared-employee WeChat groups;
-- paid dazi groups and AA group organization;
-- community surplus-meal WeChat groups;
-- logistics-park capacity alliances;
-- industrial-park purchase/sales requirement bulletins.
+Scan 030 tested repeated single-owner manual cross-system workflows where input data and final action rights
+already belong to the same actor.
 
 Results:
 - commercial promotions = 0;
 - retained research formations = 0;
-- shared-employee matching demoted because scaling requires recurring worker supply, qualification, labor compliance and settlement while current platforms are already productizing the flow;
-- dazi-group OS demoted because signup/payment/AA/group tooling is commodity and the scarce work is traffic, moderation and offline organization;
-- surplus-meal routing demoted because exact surplus-food platforms exist and physical food timing/safety/pickup remain intrinsic;
-- logistics capacity sharing demoted because local alliance relationships, contracts and physical dispatch own the bridge;
-- park supply/demand automatch demoted because the official bulletin already provides discovery/direct contact while automatic text matching collapses to B2B lead generation;
+- logistics AR/AP reconciliation demoted because ERP/BMS/TMS already automate multi-source ingestion, rule matching, exceptions and writeback;
+- manufacturing BOM/report/order copying demoted because RPA/IDP/low-code/agent tools explicitly target these bridges;
+- cross-border declaration re-entry demoted because declaration SaaS already supports API, Excel and one-click submission;
+- chain-store omnichannel settlement demoted because vertical platforms already aggregate, reconcile and split settle channel receipts;
+- small-logistics WeChat/Excel capture demoted because lightweight TMS products already ingest these inputs and automate dispatch/finance;
 - FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
 
-The main Scan 029 result:
+The Scan 030 lesson is:
 
 ```text
-WECHAT GROUP != SOFTWARE OPPORTUNITY
+ONE OWNER + INPUT RIGHTS + ACTION RIGHTS
+REMOVES MARKETPLACE RISK
+
+BUT
+
+COPY/PASTE + EXCEL + RULE-STABLE RECONCILIATION
+IS GENERIC AUTOMATION TERRITORY
 ```
 
-A group is useful evidence that a flow exists. But when the human bridge is mostly trust, supply creation,
-compliance, settlement, community moderation or physical fulfillment, software does not remove the core work.
+A surviving edge must contain a non-generic exception decision, not just a brittle integration task.
 
-The next scan must therefore avoid new supply and two-sided liquidity entirely.
+## Validation Update
+
+Scan 015-F1:
+- Gmail re-check on 2026-09-21 found no new incoming reply from Xiaozhi/Bearhome or Aihuishou after Wave 1.
+- This remains `WAITING_WRITTEN_PROVIDER_RESPONSE`; no response is not a rights failure.
+
+Scan 016-F1:
+- nationwide 9610 cross-customs return capability is now strongly evidenced;
+- Shandong Post/Jinan postal port completed an AliExpress full-process 9610 cross-customs return test;
+- Hangzhou airport processed real cross-customs 9610 returns from shipments originally exported via Shanghai/Shenzhen;
+- Yiwu TIR + return mode has handled substantial real return volume and reports lower logistics cost;
+- public 4PX/Cainiao APIs prove structured return/logistics integration exists generally;
+- however, two independent third-party-callable **9610 cross-customs** rails with quote/order/status/outcome exchange and operator economics remain unproven.
+
+Do not promote Scan 016-F1 on physical-port evidence alone.
 
 ## Blockers
 
 Validation:
 - Scan 015-F1 still awaits compatible written provider confirmation.
-- Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return rails and non-consulting economics.
+- Scan 016-F1 still lacks two proven independent third-party-callable 9610 cross-customs rails and non-consulting operator economics.
 
 Engineering:
-- Scan 029 branch needs PR, CI, merge and main verification.
+- Scan 030 branch needs PR, CI, merge and main verification.
 
 Discovery:
-- Scan 030 has not yet started.
+- Scan 031 has not yet started.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -131,34 +140,31 @@ Commercial:
 
 ## Next Action
 
-Complete Scan 029 PR / CI / merge, then start Scan 030.
+Complete Scan 030 PR / CI / merge.
 
-Search current workflows with this shape:
+In parallel:
+1. continue Scan 016 cheap falsification on third-party callability and economics, not merely legal/physical availability;
+2. leave Scan 015 in provider-response wait unless an actual written reply arrives;
+3. start Scan 031 across diverse single-owner exception decisions.
+
+Scan 031 requirements:
 
 ```text
-ONE ACTOR ALREADY OWNS THE INPUT
-+ ONE ACTOR ALREADY OWNS THE FINAL ACTION RIGHT
-+ NO EXTERNAL SUPPLY MUST BE CREATED
-+ NO MARKETPLACE LIQUIDITY IS REQUIRED
-+ THE BRIDGE IS STILL MANUAL AND REPEATED
-→ TEST WHETHER IT IS NON-GENERIC AND WORTH PAYING FOR
+MATERIAL EXCEPTION EVENT
++ INPUT RIGHTS ALREADY OWNED
++ ACTION RIGHT ALREADY OWNED
++ GENERIC RPA CANNOT DECIDE IT FROM FIELD MAPPING
++ BOUNDED REUSABLE DOMAIN STATE
++ NO RECURRING HUMAN EXPERT
 ```
-
-Look specifically for:
-- Excel + system copy/paste;
-- screenshots manually re-entered into another system;
-- chat messages turned into structured actions;
-- repeated reconciliation between two systems of record;
-- machine-readable exception state that still triggers a human clerical bridge.
 
 ## Do Not Repeat
 
-- Do not treat WeChat-group messiness as white space by itself.
-- Do not build another two-sided marketplace.
-- Do not require recurring worker/supplier acquisition.
-- Do not retain physical-local flows whose value is mostly field fulfillment.
-- Do not accept generic RPA/agent automation as a distinct operator asset.
-- Do not let prior verticals seed Scan 030.
+- Do not relabel generic reconciliation/integration as a business.
+- Do not promote Scan 016 from port availability without callable independent rails.
+- Do not classify no-response on Scan 015 as a rights failure.
+- Do not let prior verticals seed Scan 031.
+- Do not make routing, recovery or AI the required mechanism.
 - Do not weaken evidence, payer, founder-independence, operator-control or actionability floors.
 
 ## Guardrails
@@ -167,11 +173,8 @@ Look specifically for:
 - Attraction first for attention; evidence first for truth.
 - REALITY > COGNITION > SCHEMA.
 - ONE_OWNER_INPUT_AND_ACTION_RIGHTS.
-- NO_NEW_SUPPLY.
-- NO_MARKETPLACE_BUILD.
-- CURRENT_BEHAVIOR_FIRST_VALUE_MECHANISM_SECOND_BUSINESS_THEORY_LAST.
-- HOT_MARKET_NE_UNOWNED_CONTROL_EDGE.
-- MACHINE_READABLE_STATE_NE_ACTION_RIGHT.
+- GENERIC_DATA_MOVEMENT_IS_NOT_DISTINCT.
+- NON_GENERIC_EXCEPTION_STATE_REQUIRED.
 - ROUTING_IS_OPTIONAL_MECHANISM_NOT_CONSTITUTION.
 - A/B voluntary energy must be evidence-backed.
 - Discoverability/addressability must be sufficient for the formation.

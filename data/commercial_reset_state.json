@@ -63,10 +63,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_029",
+  "last_completed_scan_id": "ATTRACTION_SCAN_030",
   "last_resolved_formation_id": "ATTRACTION_SCAN_024-F1",
-  "next_scan_id": "ATTRACTION_SCAN_030",
-  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_SINGLE_OWNER_WORKFLOW_SCAN030",
+  "next_scan_id": "ATTRACTION_SCAN_031",
+  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_NON_GENERIC_EXCEPTION_SCAN031",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -313,7 +313,13 @@
     "WECHAT_GROUP_FRICTION_IS_OFTEN_ALREADY_COMMODITIZED_BY_SIGNUP_PAYMENT_AA_AND_GROUP_MANAGEMENT_TOOLS",
     "B2B_BULLETIN_AUTOMATION_WITHOUT_ACTION_RIGHTS_IS_LEAD_GENERATION_NOT_CONTROL",
     "NEXT_SEARCH_SHOULD_REMOVE_TWO_SIDED_MARKET_FORMATION_AND_NEW_SUPPLY_ACQUISITION_FROM_THE_PROBLEM_SHAPE",
-    "SCAN_029_ZERO_RETENTION_AFTER_PREPLATFORM_EXCHANGE_FALSIFICATION"
+    "SCAN_029_ZERO_RETENTION_AFTER_PREPLATFORM_EXCHANGE_FALSIFICATION",
+    "ONE_OWNER_INPUT_AND_ACTION_RIGHTS_REMOVE_MARKETPLACE_RISK_BUT_DO_NOT_REMOVE_COMMODITIZATION_RISK",
+    "COPY_PASTE_EXCEL_AND_RECONCILIATION_ARE_EVIDENCE_OF_WORK_NOT_EVIDENCE_OF_A_DISTINCT_BUSINESS",
+    "GENERIC_RPA_IDP_LOW_CODE_AND_VERTICAL_SAAS_ABSORB_RULE_STABLE_CROSS_SYSTEM_BRIDGES",
+    "A_SURVIVING_SINGLE_OWNER_EDGE_MUST_DEPEND_ON_NON_GENERIC_EXCEPTION_STATE_NOT_MERE_DATA_MOVEMENT",
+    "THE_EXCEPTION_DECISION_MUST_REMAIN_MACHINE_RESOLVABLE_WITHOUT_RECURRING_EXPERT_JUDGMENT",
+    "SCAN_030_ZERO_RETENTION_AFTER_SINGLE_OWNER_AUTOMATION_FALSIFICATION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -419,7 +425,10 @@
     "ATTRACTION_SCAN_029 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
     "Shared-employee groups, paid dazi groups, surplus-meal WeChat groups, logistics-park alliances and industrial-park supply/demand bulletins all prove real self-organized exchange.",
     "The recurring missing layer was trust, new supply, compliance, settlement, physical fulfillment or community operations rather than a thin founder-independent software bridge.",
-    "Scan 030 removes two-sided-market formation entirely and searches single-owner workflows where input and action rights already belong to the same actor."
+    "Scan 030 removes two-sided-market formation entirely and searches single-owner workflows where input and action rights already belong to the same actor.",
+    "ATTRACTION_SCAN_030 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
+    "Logistics AR/AP reconciliation, manufacturing BOM/report synchronization, cross-border declaration re-entry, chain-store omnichannel settlement and small-logistics WeChat/Excel capture all show real manual work but are already directly addressed by ERP/TMS/BMS/RPA/IDP/low-code or vertical SaaS.",
+    "Scan 031 will test formation-diverse high-consequence exceptions where generic data movement is insufficient but a bounded non-generic machine state may still exist."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -435,9 +444,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_030",
+      "next_scan_id": "ATTRACTION_SCAN_031",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "CURRENT_SINGLE_OWNER_MANUAL_CROSS_SYSTEM_WORKFLOW_INPUT_AND_ACTION_RIGHTS_ALREADY_OWNED_NO_NEW_SUPPLY_NO_MARKETPLACE_NO_PRIOR_VERTICAL_INHERITANCE"
+      "search_boundary": "FORMATION_DIVERSE_SINGLE_OWNER_HIGH_CONSEQUENCE_EXCEPTIONS_NON_GENERIC_STATE_NOT_DATA_MOVEMENT_INPUT_AND_ACTION_RIGHTS_OWNED_NO_RECURRING_EXPERT"
     }
   },
   "system_learnings": [
@@ -476,6 +485,8 @@
     "PREPLATFORM_SELF_ORGANIZED_EXCHANGE_IS_A_BETTER_NEXT_SEARCH_LAYER_THAN_ALREADY_VISIBLE_MARKETPLACE_FORMATION",
     "WECHAT_GROUPS_ARE_FLOW_EVIDENCE_NOT_AUTOMATIC_PRODUCT_GAPS",
     "TWO_SIDED_MARKET_FORMATION_SHOULD_BE_REMOVED_WHEN_TRUST_SUPPLY_AND_FULFILLMENT_DOMINATE_THE_BRIDGE",
-    "SINGLE_OWNER_INPUT_AND_ACTION_RIGHTS_IS_THE_NEXT_SEARCH_BOUNDARY"
+    "SINGLE_OWNER_INPUT_AND_ACTION_RIGHTS_IS_THE_NEXT_SEARCH_BOUNDARY",
+    "SINGLE_OWNER_WORKFLOW_IS_NOT_ENOUGH_IF_THE_TRANSFORMATION_IS_GENERIC",
+    "NON_GENERIC_EXCEPTION_DECISION_IS_THE_NEXT_FALSIFICATION_LAYER"
   ]
 }

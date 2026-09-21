@@ -1,0 +1,73 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_030",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "CURRENT_SINGLE_OWNER_MANUAL_CROSS_SYSTEM_WORKFLOW_INPUT_AND_ACTION_RIGHTS_ALREADY_OWNED_NO_NEW_SUPPLY_NO_MARKETPLACE_NO_PRIOR_VERTICAL_INHERITANCE",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1",
+    "ATTRACTION_SCAN_016-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "LOGISTICS_MULTI_SYSTEM_AR_AP_RECONCILIATION",
+      "chinese_title": "物流多系统应收应付对账桥",
+      "mechanism_class": "SINGLE_OWNER_RECONCILIATION",
+      "verdict": "DEMOTED_EXACT_ERP_BMS_TMS_AUTOMATION",
+      "evidence_summary": "Logistics firms still export WMS/TMS/ERP/Excel data and manually reconcile complex contract rates, but current Kingdee and BMS/TMS products already ingest multi-source data, normalize documents, compare rules, flag differences and generate settlement/accounting outputs."
+    },
+    {
+      "title": "MANUFACTURING_BOM_REPORT_AND_ORDER_COPY_BRIDGE",
+      "chinese_title": "制造业BOM报表订单跨系统搬运桥",
+      "mechanism_class": "SINGLE_OWNER_DATA_SYNCHRONIZATION",
+      "verdict": "DEMOTED_GENERIC_RPA_IDP_LOW_CODE_AND_NATIVE_INTEGRATION",
+      "evidence_summary": "ERP/MES/PLM/WMS/OA/Excel copy-paste remains common, but current RPA/IDP/agent and low-code offerings explicitly automate BOM import/version comparison, inventory triggers, order invoicing, report aggregation and cross-system writeback."
+    },
+    {
+      "title": "CROSS_BORDER_DECLARATION_DATA_REENTRY_BRIDGE",
+      "chinese_title": "跨境报关数据重复录入桥",
+      "mechanism_class": "SINGLE_OWNER_COMPLIANCE_DATA_TRANSFER",
+      "verdict": "DEMOTED_EXISTING_API_EXCEL_IMPORT_AND_DECLARATION_SAAS",
+      "evidence_summary": "Cross-border declaration platforms already support ERP/platform API integration, Excel template imports, document generation and one-click declarations; the manual bridge is generic integration rather than a distinct operator asset."
+    },
+    {
+      "title": "CHAIN_STORE_OMNICHANNEL_SETTLEMENT_RECONCILIATION",
+      "chinese_title": "连锁门店全渠道清分对账桥",
+      "mechanism_class": "SINGLE_OWNER_SETTLEMENT_RECONCILIATION",
+      "verdict": "DEMOTED_EXACT_OMNICHANNEL_SETTLEMENT_PLATFORMS",
+      "evidence_summary": "Current chain-store platforms already aggregate Meituan, Taobao instant retail, Douyin, WeChat and other receipts, reconcile order-to-settlement differences and automate split settlement."
+    },
+    {
+      "title": "SMALL_LOGISTICS_WECHAT_EXCEL_TO_TMS_BRIDGE",
+      "chinese_title": "中小物流微信Excel到TMS桥",
+      "mechanism_class": "SINGLE_OWNER_ORDER_CAPTURE",
+      "verdict": "DEMOTED_VERTICAL_TMS_WITH_WECHAT_EXCEL_IMPORT",
+      "evidence_summary": "Current small-logistics TMS products directly advertise multi-channel order entry, WeChat/Excel import, dispatch, automated billing/reconciliation and management reporting."
+    }
+  ],
+  "hard_floor_demotions": [
+    "MANUAL_COPY_PASTE_IS_NOT_WHITE_SPACE_WHEN_GENERIC_RPA_IDP_OR_LOW_CODE_CAN_EXECUTE_THE_BRIDGE",
+    "RECONCILIATION_IS_NOT_DISTINCT_WHEN_VERTICAL_ERP_TMS_BMS_ALREADY_OWN_RULES_AND_WRITEBACK",
+    "API_OR_EXCEL_IMPORT_ALREADY_REMOVES_THE_DECLARATION_DATA_ENTRY_EDGE",
+    "OMNICHANNEL_SETTLEMENT_IS_A_MATURE_CHAIN_STORE_CONTROL_SURFACE",
+    "PRIVATE_DATA_PLUS_OWNED_ACTION_RIGHTS_DO_NOT_CREATE_MOAT_IF_THE_TRANSFORMATION_IS_GENERIC"
+  ],
+  "scan_learnings": [
+    "ONE_OWNER_INPUT_AND_ACTION_RIGHTS_REMOVE_MARKETPLACE_RISK_BUT_DO_NOT_REMOVE_COMMODITIZATION_RISK",
+    "COPY_PASTE_EXCEL_AND_RECONCILIATION_ARE_EVIDENCE_OF_WORK_NOT_EVIDENCE_OF_A_DISTINCT_BUSINESS",
+    "GENERIC_RPA_IDP_LOW_CODE_AND_VERTICAL_SAAS_ABSORB_RULE_STABLE_CROSS_SYSTEM_BRIDGES",
+    "A_SURVIVING_SINGLE_OWNER_EDGE_MUST_DEPEND_ON_NON_GENERIC_EXCEPTION_STATE_NOT_MERE_DATA_MOVEMENT",
+    "THE_EXCEPTION_DECISION_MUST_REMAIN_MACHINE_RESOLVABLE_WITHOUT_RECURRING_EXPERT_JUDGMENT",
+    "SCAN_030_ZERO_RETENTION_AFTER_SINGLE_OWNER_AUTOMATION_FALSIFICATION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_031",
+  "next_search_boundary": "FORMATION_DIVERSE_SINGLE_OWNER_HIGH_CONSEQUENCE_EXCEPTIONS_NON_GENERIC_STATE_NOT_DATA_MOVEMENT_INPUT_AND_ACTION_RIGHTS_OWNED_NO_RECURRING_EXPERT",
+  "next_action": "START_SCAN031_FROM_CURRENT_SINGLE_OWNER_EXCEPTION_DECISIONS_WHERE_GENERIC_RPA_CANNOT_DECIDE_BUT_A_REUSABLE_MACHINE_STATE_MAY_EXIST",
+  "first_external_value_flow": "NOT_PROVEN"
+}
