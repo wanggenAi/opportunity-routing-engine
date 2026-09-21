@@ -1,0 +1,88 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_023",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "VOLUNTARY_ENERGY_FIRST_BROAD_REALITY_NO_POLICY_OR_ACTIVE_VERTICAL_INHERITANCE",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "policy_text_used_as_primary_seed": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1",
+    "ATTRACTION_SCAN_016-F1"
+  ],
+  "reality_signals": [
+    "SERVICE_RETAIL_GROWTH_OUTPACES_GOODS_AND_TOURISM_RENTAL_CULTURE_RECREATION_REMAIN_FAST_GROWING",
+    "ROBOT_RENTAL_SHOWS_REAL_ORDER_SURGE_SUPPLY_TIGHTNESS_AND_PRICE_DISCOVERY",
+    "CONCERT_AND_EVENT_TRAVEL_CREATES_CROSS_CITY_SPEND_AND_TIME_BOUNDED_MICROSERVICE_DEMAND",
+    "SMART_GLASSES_SALES_AND_OFFLINE_TRIAL_BEHAVIOR_SHOW_HIGH_CATEGORY_MOTION",
+    "INBOUND_VISITOR_LOCAL_LIFE_AND_PAYMENT_FRICTION_IS_BEING_AGGREGATED_BY_CITY_AND_PAYMENT_PLATFORMS",
+    "HOME_CARE_DEMAND_IS_URGENT_BUT_DELIVERY_AND_TRUST_REMAIN HUMAN_SERVICE_HEAVY"
+  ],
+  "examined_formations": [
+    {
+      "title": "ROBOT_EVENT_RENTAL_META_ROUTER",
+      "chinese_title": "机器人活动租赁跨平台路由",
+      "mechanism_class": "STRANDED_ASSET_ACTIVATION",
+      "attraction_summary": "Both sides visibly move: event buyers are renting instead of buying and suppliers seek utilization; holiday orders surged and popular models became scarce.",
+      "verdict": "DEMOTED_INCUMBENT_MATCHING_AND_HUMAN_DELIVERY",
+      "evidence_summary": "Qingtianzu already operates a multi-brand supplier-demand platform and matches orders using distance, inventory and provider fulfillment data; JD and other rental channels are active. Delivery commonly includes transport, setup, engineers and on-site operation, so a new meta-layer would either duplicate incumbent matching or inherit recurring human fulfillment."
+    },
+    {
+      "title": "INBOUND_VISITOR_LOCAL_LIFE_ORCHESTRATOR",
+      "chinese_title": "入境游客本地生活总路由",
+      "mechanism_class": "CROSS_CONTEXT_COMMERCE",
+      "attraction_summary": "Inbound visitors have strong immediate spending and coordination needs across payment, transport, tickets, hotels, tax refund and multilingual guidance.",
+      "verdict": "DEMOTED_CONTROL_SURFACE_INTERNALIZED",
+      "evidence_summary": "Beijing's GO BEIJING already aggregates 39 services across food, lodging, transport, sightseeing, shopping, entertainment and public services inside Alipay International, including ride-hailing, tickets, hotels, foreign-card/payment support, tax refund and multilingual guidance. The broad orchestration surface is being internalized by city/payment-platform infrastructure."
+    },
+    {
+      "title": "AI_GLASSES_CROSS_BRAND_TRY_BEFORE_BUY_NETWORK",
+      "chinese_title": "AI智能眼镜跨品牌先试后买网络",
+      "mechanism_class": "EXPERIENCE_COMMERCE",
+      "attraction_summary": "Smart-glasses sales are rising quickly and consumers benefit materially from physical try-on, optical fit and scenario experience before purchase.",
+      "verdict": "DEMOTED_VENDOR_AND_RETAIL_CHANNEL_INTERNALIZATION",
+      "evidence_summary": "Brand stores and optical retailers already expose dense trial surfaces. XREAL publishes many try-on locations, while Doctor Glasses opened a multi-brand smart-glasses concept store integrating experience, purchase and fitting. The experience gap is real but is being vertically internalized by brands and retail channels."
+    },
+    {
+      "title": "EVENT_DAY_MICROSERVICE_CAPACITY_ROUTER",
+      "chinese_title": "演唱会赛事日临时服务容量路由",
+      "mechanism_class": "TEMPORAL_SERVICE_CAPACITY",
+      "attraction_summary": "Large events trigger time-bounded cross-city demand for food, lodging, styling, props, storage, transport and local experiences, with visible spillover spending.",
+      "verdict": "DEMOTED_DISCOVERY_RAIL_CROWDED_AND_HUMAN_DELIVERY",
+      "evidence_summary": "Ticket-root programs already connect attendees to hundreds of merchants and city attractions using ticket verification. The remaining fragmented microservices are mostly human-delivered and locally heterogeneous, making a new router dependent on continual merchant acquisition, quality control and manual service fulfillment."
+    },
+    {
+      "title": "HOME_CARE_TRUST_AND_CAPACITY_ROUTER",
+      "chinese_title": "居家照护可信供需容量路由",
+      "mechanism_class": "TRUSTED_HUMAN_SERVICE",
+      "attraction_summary": "Elder care, maternal care and domestic-service demand is urgent and users actively seek trustworthy supply.",
+      "verdict": "DEMOTED_RECURRING_HUMAN_DELIVERY_AND_PUBLIC_TRUST_RAIL",
+      "evidence_summary": "Current policy and infrastructure are explicitly building community/online matching and unified credit verification while the delivered value remains human care work. A third-party layer would not own the core service and would inherit ongoing supply vetting, matching and service-quality operations."
+    }
+  ],
+  "hard_floor_demotions": [
+    "WHOLE_MARKETPLACE_ROUTER_FAILS_WHEN_INCUMBENT_ALREADY_OWNS_DISCOVERY_MATCHING_AND_TRANSACTION",
+    "HIGH_VOLUNTARY_ENERGY_DOES_NOT_OVERRIDE_CONTROL_SURFACE_INTERNALIZATION",
+    "HUMAN_SERVICE_GROWTH_DOES_NOT_SATISFY_FOUNDER_INDEPENDENT_DELIVERY",
+    "CATEGORY_TRIAL_FRICTION_IS_NOT_WHITE_SPACE_WHEN_BRANDS_AND_RETAILERS_ARE_BUILDING_TRIAL_NETWORKS",
+    "CITY_EVENT_COMMERCE_DOES_NOT_CREATE_OPERATOR_CONTROL_WHEN_TICKET_ROOT_AND_LOCAL_COMMERCE_RAILS_ALREADY_AGGREGATE_DEMAND"
+  ],
+  "scan_learnings": [
+    "HIGH_ENERGY_REALITY_IS_A_BETTER_DISCOVERY_SEED_THAN_POLICY_TEXT",
+    "VOLUNTARY_ENERGY_CAN_BE_STRONG_WHILE_THE_THIRD_PARTY_CONTROL_SURFACE_IS_ALREADY_OWNED",
+    "WHOLE_MARKETPLACE_OPPORTUNITIES_SHOULD_BE_KILLED_EARLY_WHEN_DISCOVERY_MATCHING_AND_TRANSACTION_ARE_ALREADY_INTERNALIZED",
+    "HUMAN_SERVICE_DEMAND_IS_NOT_ENOUGH_IF_THE_OPERATOR_MUST_RECUR_SUPPLY_ACQUISITION_QUALITY_CONTROL_OR_DELIVERY",
+    "PRODUCT_CATEGORY_GROWTH_CAN_CREATE_EXPERIENCE_FRICTION_WITHOUT_CREATING_AN_UNOWNED_ORCHESTRATION_LAYER",
+    "NEXT_SEARCH_SHOULD_LOOK_FOR_NARROW_UNOWNED_MICRO_EDGES_INSIDE_HIGH_ENERGY_EXISTING_FLOWS_RATHER_THAN_BUILDING_ANOTHER_WHOLE_MARKETPLACE",
+    "SCAN_023_ZERO_RETENTION_AFTER_VOLUNTARY_FLOW_HARD_FLOOR_FALSIFICATION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_024",
+  "next_search_boundary": "HIGH_ENERGY_EXISTING_FLOWS_FIND_UNOWNED_MICRO_EDGES_NO_WHOLE_MARKETPLACE_OR_POLICY_PRIOR",
+  "next_action": "START_SCAN024_FROM_HIGH_ENERGY_EXISTING_FLOWS_AND_SEARCH_FOR_NARROW_MACHINE_RESOLVABLE_UNOWNED_EDGES",
+  "first_external_value_flow": "NOT_PROVEN"
+}
