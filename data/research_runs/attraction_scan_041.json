@@ -1,0 +1,126 @@
+{
+  "schema_version": "attraction-scan.v20",
+  "scan_id": "ATTRACTION_SCAN_041",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_RECENT_MONETARY_RULE_POLICY_OR_CONTRACT_CHANGE_NON_AUTOMATIC_DETERMINISTIC_HIGH_VALUE_BENEFICIARY_EXTERNALLY_ENUMERABLE_OR_MACHINE_IDENTIFIABLE_OPERATOR_ACCESSIBLE_DATA_NO_EXACT_APPLICATION_RECOVERY_OR_ADVISORY_INCUMBENT_NO_RECURRING_EXPERT_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "GOOGLE_PLAY_REVIEW_REFUND_CHARGEBACK_DEFENSE",
+      "chinese_title": "Google Play新拒付责任下的自动抗辩",
+      "recent_change": "For orders placed after 3 August 2026, Google Play and developers share chargeback costs; developers bear purchase price less service fee plus bank chargeback fees.",
+      "monetary_value": "Direct retained-revenue value for affected apps, with a new 24-hour response window.",
+      "beneficiary_identification": "PendingRefundReviewNotification gives a machine event for each reviewable chargeback.",
+      "operator_accessibility": "ReviewRefund API accepts refund preference and purchase-usage evidence.",
+      "incumbent_preflight": "REVENUECAT_REFUND_CONTROL_SHIPPED_GOOGLE_SUPPORT_WITHIN_WEEKS_AND_DISPUTE_SPECIFIC_INTEGRATION_CONTENT_ALREADY_EXISTS",
+      "verdict": "DEMOTED_FAST_INCUMBENT_ABSORPTION_OF_NEW_NATIVE_ACTION_API",
+      "source_urls": [
+        "https://support.google.com/googleplay/android-developer/answer/17068375",
+        "https://developer.android.com/google/play/billing/provide-refund-and-chargeback-suggestions",
+        "https://community.revenuecat.com/third-party-integrations-53/google-play-review-refund-api-7752",
+        "https://dispute.app/blog/review-refund-api-deep-dive-schema-deadlines-evidence"
+      ]
+    },
+    {
+      "title": "UK_NONUK_VAT_GROUP_REJECTED_CLAIM_RECONSIDERATION",
+      "chinese_title": "英国境外VAT组历史拒绝退款重审",
+      "recent_change": "HMRC Revenue and Customs Brief 8 (2026), published 8 September, allows reconsideration of certain VAT-group refund claims refused from 1 January 2021, with requests due by 31 August 2027.",
+      "monetary_value": "Potentially material historic VAT recovery for affected non-UK businesses.",
+      "beneficiary_identification": "The decisive universe is not externally enumerable: a claimant needs its HMRC unique reference, claim number, claim period, value and prior decision details.",
+      "operator_accessibility": "HMRC permits agents, but VAT Notice 723A states agents may need HMRC tax-adviser registration.",
+      "incumbent_preflight": "INTERNATIONAL_VAT_RECLAIM_IS_A_MATURE_TAX_AGENT_CATEGORY_AND_MAJOR_TAX_ADVISORS_IMMEDIATELY_COVERED_THE_CHANGE",
+      "verdict": "DEMOTED_PRIVATE_CLAIM_IDENTITY_PLUS_MATURE_REGISTERED_TAX_ADVISORY_CATEGORY",
+      "source_urls": [
+        "https://www.gov.uk/government/publications/revenue-and-customs-brief-8-2026-uk-vat-refunds-for-non-uk-businesses-in-a-vat-group/uk-vat-refunds-for-non-uk-businesses-in-a-vat-group",
+        "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+        "https://taxscape.deloitte.com/updates/weekly-vat-news/wvn-14-september-2026.aspx"
+      ]
+    },
+    {
+      "title": "US_IEEPA_TARIFF_REFUND_RECOVERY",
+      "chinese_title": "美国IEEPA关税退款追回",
+      "recent_change": "Following 2026 court decisions, CBP built CAPE functionality in ACE to administer IEEPA tariff refund claims and importers/brokers may need to submit affected entry lists.",
+      "monetary_value": "Very large importer-level duty recovery can exist across affected entries.",
+      "beneficiary_identification": "Importer and entry records are machine-structured inside customs systems, but complete entitlement and liquidation posture require importer/broker records.",
+      "operator_accessibility": "Execution can require customs broker, protest or litigation handling depending on entry posture and timing.",
+      "incumbent_preflight": "CUSTOMS_BROKERS_LAW_FIRMS_BIG_FOUR_AND_DEDICATED_IEEPA_MANAGED_RECOVERY_SERVICES_ALREADY_OCCUPY_THE_RECOVERY_LOOP",
+      "verdict": "DEMOTED_REGULATED_TRADE_RECOVERY_WITH_SPECIALIST_AND_LEGAL_EXECUTION_DEPENDENCE",
+      "source_urls": [
+        "https://kpmg.com/us/en/taxnewsflash/news/2026/03/us-cbp-ieepa-duty-refund-process-update.html",
+        "https://www.reuters.com/legal/legalindustry/how-get-your-ieepa-tariff-refunds--pracin-2026-04-22/",
+        "https://www.ieepa.com/Website_Program_Overview.aspx"
+      ]
+    },
+    {
+      "title": "SCOTLAND_2026_RHL_BUSINESS_RATES_RELIEF",
+      "chinese_title": "苏格兰2026零售餐旅休闲商业税减免",
+      "recent_change": "The 2026-27 revaluation cycle introduced/expanded retail, hospitality and leisure relief with up to £110,000 annual cap per business.",
+      "monetary_value": "Potentially material annual business-rates savings.",
+      "beneficiary_identification": "Scottish non-domestic property valuations are freely accessible and property use/rateable-value rules create a partially enumerable prospect universe.",
+      "operator_accessibility": "Most reliefs are applied for through local councils.",
+      "incumbent_preflight": "OFFICIAL_SELF_SERVICE_IS_FREE_AND_PUBLIC_GUIDANCE_EXPLICITLY_WARNS_RATEPAYERS_NOT_TO_PAY_SOMEONE_TO_APPLY_ON_THEIR_BEHALF",
+      "verdict": "DEMOTED_OFFICIAL_FREE_SELF_SERVICE_AND_ANTI_FEE_WARNING_COMPRESS_PAYER_WILLINGNESS",
+      "source_urls": [
+        "https://www.gov.scot/publications/local-government-finance-circular-7-2026-non-domestic-rates-relief-guidance/pages/non-domestic-rates-relief-information-for-scottish-local-authorities/",
+        "https://www.mygov.scot/non-domestic-rates-relief",
+        "https://www.mygov.scot/non-domestic-rates-relief/hospitality-relief"
+      ]
+    },
+    {
+      "title": "FTC_AMAZON_PRIME_EXPANDED_REDRESS",
+      "chinese_title": "FTC亚马逊Prime扩大退款",
+      "recent_change": "A September 2026 revised order expanded eligibility and raised the maximum total payment to $200.",
+      "monetary_value": "Large aggregate redress pool and millions of potentially eligible consumers.",
+      "beneficiary_identification": "Amazon's business records identify eligible consumers.",
+      "operator_accessibility": "No operator action is required or permitted for ordinary recovery; future payments are automatic.",
+      "incumbent_preflight": "AMAZON_ADMINISTERS_AUTOMATIC_PAYMENTS_AND_FTC_EXPLICITLY_WARNS_NO_ONE_SHOULD_CHARGE_FOR_REFUND_ACCESS",
+      "verdict": "DEMOTED_AUTOMATIC_REDRESS_REMOVES_OPERATOR_ACTION_AND_PAYMENT_EDGE",
+      "source_urls": [
+        "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-announces-additional-payments-consumers-stemming-ftcs-amazon-prime-settlement",
+        "https://search.ftc.gov/enforcement/refunds/amazon-refunds"
+      ]
+    },
+    {
+      "title": "UK_SMART_METER_GUARANTEED_STANDARD_COMPENSATION",
+      "chinese_title": "英国智能电表服务超时自动赔偿",
+      "recent_change": "From February 2026 new Ofgem rules require £40 compensation for specified installation or resolution failures.",
+      "monetary_value": "Direct cash compensation exists for affected energy customers.",
+      "beneficiary_identification": "Supplier service events determine eligibility.",
+      "operator_accessibility": "The rule is designed as automatic compensation by suppliers.",
+      "incumbent_preflight": "SUPPLIER_NATIVE_AUTOMATIC_COMPENSATION_OWNS_DETECTION_AND_PAYMENT",
+      "verdict": "DEMOTED_AUTOMATIC_COMPENSATION_REMOVES_THIRD_PARTY_ACTION_EDGE",
+      "source_urls": [
+        "https://www.ofgem.gov.uk/press-release/ofgem-roll-out-tougher-smart-meter-rules-february"
+      ]
+    }
+  ],
+  "hard_floor_demotions": [
+    "NEW_NATIVE_ACTION_API_IS_NOT_WHITE_SPACE_IF_EXISTING_CONTROL_PLATFORMS_ABSORB_IT_WITHIN_WEEKS",
+    "MACHINE_IDENTIFIABLE_EVENT_DOES_NOT_CREATE_OPERATOR_ASSET_WHEN_THE_PLATFORM_OR_INCUMBENT_OWNS_THE_SAME_CONTROL_LOOP",
+    "FINITE_RETROACTIVE_TAX_OR_TRADE_REFUND_INVENTORY_IS_NOT_FOUNDER_INDEPENDENT_WHEN_BENEFICIARIES_REQUIRE_PRIVATE_CLAIM_RECORDS_OR_REGULATED_SPECIALISTS",
+    "PUBLIC_BENEFICIARY_ENUMERATION_DOES_NOT_CREATE_WILLINGNESS_TO_PAY_WHEN_OFFICIAL_SELF_SERVICE_IS_FREE_AND_PAID_APPLICATION_IS_DISCOURAGED",
+    "AUTOMATIC_COMPENSATION_AND_REDRESS_REMOVE_THE_OPERATOR_ACTION_EDGE"
+  ],
+  "scan_learnings": [
+    "SCAN_041_ZERO_RETENTION_AFTER_MACHINE_IDENTIFIABLE_RECENT_MONEY_FALSIFICATION",
+    "MACHINE_IDENTIFIABLE_BENEFICIARY_PLUS_CALLABLE_API_CAN_BE_ABSORBED_BY_EXISTING_CONTROL_PLATFORMS_WITHIN_WEEKS",
+    "RECOVERY_AND_ENTITLEMENT_CATEGORIES_PROFESSIONALIZE_TOO_QUICKLY_TO_BE_A_RELIABLE_GENERAL_SEARCH_ONTOLOGY",
+    "RETROACTIVE_CLAIM_INVENTORY_WITH_PRIVATE_IDENTIFIERS_WEAKENS_EXTERNAL_ADDRESSABILITY",
+    "PUBLIC_PROPERTY_OR_BUSINESS_REGISTERS_CAN_CREATE_ADDRESSABILITY_WITHOUT_CREATING_PAYER_WILLINGNESS",
+    "AUTOMATIC_PAYOUTS_REMAIN_NON_OPPORTUNITIES_FOR_AN_INDEPENDENT_OPERATOR",
+    "SCAN_042_RESETS_OUT_OF_CLAIMS_REFUNDS_GRANTS_AND_TAX_RELIEF_TO_EXTERNALLY_VISIBLE_HIGH_COST_OPERATIONAL_STATE_CHANGES_WITH_EXISTING_BUDGET_AND_MACHINE_EXECUTABLE_DELIVERY"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_042",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_EXTERNALLY_VISIBLE_HIGH_COST_OPERATIONAL_STATE_CHANGE_PRECOMMITTED_OR_OBSERVED_BUDGET_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_NO_MATURE_CONTROL_SURFACE_NO_RECURRING_EXPERT_DELIVERY_EXCLUDE_CLAIMS_REFUNDS_GRANTS_TAX_RELIEF_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "next_action": "TRIGGER_JEV_ON_SCAN041_THEN_FOLLOW_TYPED_CONTINUATION_DIRECTIVE",
+  "first_external_value_flow": "NOT_PROVEN"
+}
