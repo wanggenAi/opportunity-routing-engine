@@ -1,0 +1,97 @@
+{
+  "schema_version": "attraction-scan.v29",
+  "scan_id": "ATTRACTION_SCAN_050",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "FRESH_CURRENT_REALITY_DIRECT_RECURRING_OUTCOME_SPEND_OR_REPEATED_WORKAROUND_NO_AI_AGENT_BUILD_CONFIGURATION_NO_SCAN049_VERTICAL_INHERITANCE_REQUIRE_POST_EXECUTION_MEASURABLE_OUTCOME_AND_INDEPENDENT_NONPLATFORM_ACTION_RIGHT_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "EMAIL_DELIVERABILITY_PRIMARY_INBOX_MAINTENANCE",
+      "chinese_title": "邮件主收件箱率持续维护",
+      "evidence_class": "CURRENT_RECURRING_PAID_MEASURABLE_INBOX_PLACEMENT_OUTCOME",
+      "verdict": "DEMOTED_MATURE_DELIVERABILITY_MONITORING_REPAIR_STACK_AND_EXTERNAL_FILTER_CONTROL",
+      "evidence_summary": "Current buyers pay ongoing specialists to keep dozens of mailboxes landing in Primary/Inbox and to monitor placement proactively. The outcome is directly measurable, but InboxAlly, Warmy and adjacent deliverability platforms already provide placement testing, reputation/DNS monitoring, warm-up and repair workflows; the residual hard cases depend on Gmail/Outlook filtering behavior and specialist diagnosis rather than an independently controlled deterministic action rail."
+    },
+    {
+      "title": "AMAZON_PPC_PROFITABILITY_OPTIMIZATION",
+      "chinese_title": "Amazon PPC 盈利性持续优化",
+      "evidence_class": "CURRENT_RECURRING_PAID_ACOS_TACOS_OUTCOME",
+      "verdict": "DEMOTED_MATURE_AMAZON_PPC_AUTOMATION_AND_PLATFORM_AUCTION_CONTROL",
+      "evidence_summary": "Current sellers hire ongoing PPC operators specifically to lower ACoS/TACoS and scale profitable spend. Perpetua and Scale Insights already automate bids, keywords, budgets, placements and target-ACoS logic, while Amazon owns the ad auction and conversion environment; remaining value is strategy and catalog-specific judgment."
+    },
+    {
+      "title": "TECHNICAL_SEO_HEALTH_AND_VISIBILITY_MAINTENANCE",
+      "chinese_title": "技术 SEO 健康与可见性持续维护",
+      "evidence_class": "CURRENT_MONTHLY_PAID_TECHNICAL_VISIBILITY_OUTCOME",
+      "verdict": "DEMOTED_MATURE_SEO_MONITORING_STACK_AND_NONDETERMINISTIC_SEARCH_OUTCOME",
+      "evidence_summary": "Current buyers offer monthly retainers for technical SEO monitoring, fixes and visibility improvement. Semrush already schedules recurring audits, prioritizes 140+ technical issues, monitors AI/search crawlability and tracks fixes, while ranking/traffic outcomes remain controlled by search systems and often require expert content, architecture and off-page judgment."
+    },
+    {
+      "title": "CRM_DATA_QUALITY_CONTINUOUS_MAINTENANCE",
+      "chinese_title": "CRM 数据质量持续维护",
+      "evidence_class": "CURRENT_LONG_TERM_PAID_DATA_ACCURACY_OUTCOME",
+      "verdict": "DEMOTED_EXACT_CONTINUOUS_CRM_DATA_QUALITY_AUTOMATION",
+      "evidence_summary": "Current clients hire long-term specialists to transform unstructured inputs into clean, deduplicated, accurate CRM records and own data quality end-to-end. Insycle already provides scheduled and workflow-triggered deduplication, standardization, association repair, import controls, health assessment and audit trails across HubSpot/Salesforce, directly occupying the recurring control loop."
+    },
+    {
+      "title": "MULTICHANNEL_ECOMMERCE_STOCKOUT_AND_EXCEPTION_CONTROL",
+      "chinese_title": "多渠道电商缺货与运营异常持续控制",
+      "evidence_class": "CURRENT_RECURRING_PAID_STOCKOUT_ORDER_DEFECT_AND_FEED_OUTCOME",
+      "verdict": "DEMOTED_MATURE_INVENTORY_ORDER_CONTROL_SURFACE_AND_HUMAN_EXCEPTION_BUNDLE",
+      "evidence_summary": "A current ecommerce operations role measures success by zero preventable hero-SKU stockouts, low order defect rate, fast support resolution and daily anomaly monitoring across Shopify, Amazon, 3PL and Merchant Center. Shopify and Cin7 already provide multi-location inventory, real-time stock/order sync and replenishment alerts; the remaining job bundles customer support, supplier chasing, feed exceptions and project work that stays human and cross-platform."
+    },
+    {
+      "title": "PERFORMANCE_BASED_QUALIFIED_LEAD_GENERATION",
+      "chinese_title": "按合格线索付费的持续获客",
+      "evidence_class": "CURRENT_PAY_PER_QUALIFIED_LEAD_OUTCOME",
+      "verdict": "DEMOTED_DENSE_ACQUISITION_CATEGORY_GENERIC_AI_SUBSTITUTABILITY_AND_RECURRING_SALES_WORK",
+      "evidence_summary": "Current buyers offer $100+ per qualified lead and explicitly pay for genuine businesses with active buying requirements, making the acceptance unit clearer than ordinary marketing retainers. But Clay and adjacent outbound stacks already automate sourcing, research, qualification and personalization, while reliable conversion still requires recurring prospecting, outreach, reputation management and sales judgment; this recreates the acquisition labor the project is trying not to own."
+    }
+  ],
+  "hard_floor_demotions": [
+    "MEASURABLE_INBOX_PLACEMENT_DOES_NOT_CREATE_WHITE_SPACE_WHEN_DELIVERABILITY_MONITORING_REPAIR_IS_ALREADY_A_MATURE_STACK_AND_MAILBOX_FILTERS_CONTROL_THE_FINAL_OUTCOME",
+    "ACOS_TACOS_OUTCOME_SPEND_FAILS_WHEN_EXACT_PPC_AUTOMATION_ALREADY_OWNS_BID_KEYWORD_BUDGET_AND_PLACEMENT_CONTROL",
+    "TECHNICAL_SEO_RETAINER_SPEND_FAILS_WHEN_MONITORING_IS_PRODUCTIZED_AND_FINAL_VISIBILITY_IS_NONDETERMINISTIC_AND_EXPERT_DEPENDENT",
+    "CRM_DATA_QUALITY_FAILS_WHEN_SCHEDULED_DEDUPE_STANDARDIZATION_AND_REPAIR_ARE_ALREADY_EXACT_PLATFORM_CAPABILITIES",
+    "MULTICHANNEL_ECOMMERCE_OPERATIONS_FAILS_WHEN_INVENTORY_CONTROL_IS_PRODUCTIZED_AND_RESIDUAL_EXCEPTION_WORK_REMAINS_HUMAN_BUNDLED",
+    "PAY_PER_LEAD_PRICING_PROVES_OUTCOME_VALUE_BUT_NOT_FOUNDER_INDEPENDENCE_OR_OPERATOR_ASSET_WHEN_RECURRING_ACQUISITION_WORK_REMAINS_CORE"
+  ],
+  "scan_learnings": [
+    "RECURRING_OUTCOME_SPEND_IS_STRONGER_COMMERCIAL_EVIDENCE_THAN_ONE_TIME_IMPLEMENTATION_BUDGET",
+    "MEASURABLE_OUTCOME_PLUS_CUSTOMER_AUTHORIZED_ACTION_STILL_DOES_NOT_PASS_WHEN_THE_EXACT_CONTROL_LOOP_IS_ALREADY_PRODUCTIZED",
+    "OUTCOMES_DOMINATED_BY_EXTERNAL_RANKING_FILTERING_AUCTION_OR_PLATFORM_ALGORITHMS_WEAKEN_INDEPENDENT_OPERATOR_CONTROL",
+    "PERFORMANCE_BASED_PRICING_CAN_HIDE_RECURRING_HUMAN_ACQUISITION_OR_EXPERT_JUDGMENT",
+    "THE_NEXT_SEARCH_SHOULD_FAVOR_REPEATABLE_OUTCOME_UNITS_WITH_MACHINE_VERIFIABLE_ACCEPTANCE_AND_REPLACEABLE_EXECUTION",
+    "SCAN_050_RETAINS_ZERO_NEW_FORMATIONS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_051",
+  "next_search_boundary": "FRESH_CURRENT_REALITY_RECURRING_PAID_OUTCOME_WITH_MACHINE_VERIFIABLE_ACCEPTANCE_AND_REPLACEABLE_EXECUTION_NO_EXTERNAL_ALGORITHM_AS_PRIMARY_SUCCESS_CONTROLLER_NO_SCAN050_VERTICAL_INHERITANCE_REQUIRE_REPEATABLE_UNIT_ECONOMICS_AND_OPERATOR_CONTROL_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "next_action": "START_SCAN051_FROM_RECURRING_PAID_OUTCOME_UNITS_WITH_MACHINE_VERIFIABLE_ACCEPTANCE_AND_REPLACEABLE_EXECUTION_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.upwork.com/freelance-jobs/apply/Email-deliverability-maintenence_~022097217554627406831/",
+    "https://www.inboxally.com/solutions/for-deliverability-experts",
+    "https://support.warmy.io/knowledge/mailboxes-overview",
+    "https://www.upwork.com/freelance-jobs/apply/Amazon-PPC-Expert-Needed-for-Campaign-Setup-Optimization-and-Full-Account-Audit_~022095442066245405745/",
+    "https://perpetua.io/amazon-ppc-software-sponsored-ads-management-tool/",
+    "https://scaleinsights.com/Features",
+    "https://www.upwork.com/freelance-jobs/apply/SEO-Specialist-Technical-SEO-Digital-Link-Building_~022099404796923973386/",
+    "https://www.semrush.com/solutions/technical-seo/",
+    "https://www.upwork.com/freelance-jobs/apply/Data-Quality-Specialist-CRM-Support-Remote_~022087315679587519188/",
+    "https://www.insycle.com/hubspot/",
+    "https://www.upwork.com/freelance-jobs/apply/Ecommerce-Operations-Assistant_~022094684664592469762/",
+    "https://www.shopify.com/blog/multi-location-inventory-management",
+    "https://www.cin7.com/integrations/amazon/",
+    "https://www.upwork.com/freelance-jobs/apply/Lead-Generation-Specialist-Needed-Pay-Per-Qualified-Lead_~022094651511604552949/",
+    "https://www.clay.com/guides/ai-lead-generation"
+  ]
+}
