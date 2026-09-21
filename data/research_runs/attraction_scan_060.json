@@ -1,0 +1,103 @@
+{
+  "schema_version": "attraction-scan.v39",
+  "scan_id": "ATTRACTION_SCAN_060",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_PAID_OUTCOMES_NON_ROLE_BUYING_SIGNALS_REPEAT_PURCHASE_OR_PRODUCTIZED_SERVICE_SPEND_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_JOB_POSTING_AS_SOLE_PAYER_EVIDENCE_NO_SCAN058_OR_SCAN059_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_060-F1",
+      "title": "MONTHLY_WORDPRESS_CARE_AND_MAINTENANCE_PLAN",
+      "chinese_title": "WordPress 月度维护与托管照护",
+      "evidence_class": "CURRENT_MONTHLY_PRODUCTIZED_SERVICE_PURCHASE_89_TO_359_DOLLARS_PER_SITE_WITH_MULTI_SITE_WHITE_LABEL_RECURRING_INVOICING",
+      "verdict": "DEMOTED_MATURE_MANAGED_WORDPRESS_CARE_CATEGORY_PLUS_AUTOMATED_MAINTENANCE_AND_HUMAN_EXCEPTION_TAIL",
+      "evidence_summary": "WP Buffs currently sells direct monthly WordPress care plans from $89 to $359 per site and a white-label program that maintains thousands of sites with recurring monthly invoicing. The repeatable layer—backup, update, uptime and security monitoring—is already heavily automatable through current WordPress tooling such as WP Umbrella; the remaining value in the managed plan is engineers handling edits, emergencies, compatibility failures and custom-site exceptions. The buyer spend is real and recurring, but the exact productized-service category already exists and its differentiated residual remains recurring human technical support."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_060-F2",
+      "title": "MONTHLY_DEDICATED_GENERAL_VIRTUAL_ASSISTANT_SUBSCRIPTION",
+      "chinese_title": "通用虚拟助理月度订阅",
+      "evidence_class": "CURRENT_MONTHLY_PRODUCTIZED_HUMAN_CAPACITY_PURCHASE_699_TO_999_DOLLARS_FOR_80_TO_160_HOURS",
+      "verdict": "DEMOTED_PRODUCTIZED_HUMAN_CAPACITY_SUBSCRIPTION_WITH_CONTEXTUAL_EXECUTION_CORE",
+      "evidence_summary": "Wing currently sells general virtual-assistant capacity at $699/month for 80 hours and $999/month for 160 hours, including a dedicated assistant, customer-success management and quality control. This is strong direct non-role purchase evidence, but the purchased unit is explicitly dedicated human time and contextual execution. Productization removes hiring friction; it does not create founder-independent machine delivery or a distinct compounding operator asset."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_060-F3",
+      "title": "UNLIMITED_GRAPHIC_AND_PRESENTATION_DESIGN_SUBSCRIPTION",
+      "chinese_title": "不限量平面与演示设计订阅",
+      "evidence_class": "CURRENT_FLAT_MONTHLY_PRODUCTIZED_DESIGN_PURCHASE_699_TO_1399_DOLLARS_WITH_UNLIMITED_REQUESTS_AND_REVISIONS",
+      "verdict": "DEMOTED_MATURE_DESIGN_SUBSCRIPTION_PLUS_NATIVE_AI_DRAFTING_AND_HUMAN_CREATIVE_JUDGMENT_TAIL",
+      "evidence_summary": "ManyPixels currently sells flat monthly design subscriptions at $699, $1,199 and $1,399 with unlimited requests/revisions, project management and designer assignment. Canva's current Magic Design can already generate on-brand designs and presentation drafts from prompts. The market therefore has both mature human design subscriptions and native AI for the repeatable draft layer; the residual willingness to pay concentrates in taste, brand interpretation, revision judgment and creative quality control."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_060-F4",
+      "title": "PODCAST_AUDIO_POSTPRODUCTION_PER_EPISODE_AND_MONTHLY_PLAN",
+      "chinese_title": "播客音频后期按集与月度托管",
+      "evidence_class": "CURRENT_PRODUCTIZED_PER_EPISODE_PURCHASE_180_TO_550_PLUS_DOLLARS_WITH_MONTH_TO_MONTH_SUBSCRIPTION_OPTION",
+      "verdict": "DEMOTED_NATIVE_AI_PODCAST_POSTPRODUCTION_PLUS_EDITORIAL_JUDGMENT_TAIL",
+      "evidence_summary": "We Edit Podcasts currently sells audio postproduction from $180, $320 and $550+ per episode and supports month-to-month plans without long-term contracts. Descript now automates transcription, filler-word and retake removal, Studio Sound, chaptering, show notes and social clips through its AI co-editor. The repeatable editing layer is increasingly self-serve/native; the residual premium scope is advanced narration, storytelling, content strategy, show-specific taste and final editorial judgment."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_060-F5",
+      "title": "MANAGED_QA_AS_A_SERVICE_MONTHLY_OUTCOME_SUBSCRIPTION",
+      "chinese_title": "托管式 QA-as-a-Service 月度结果订阅",
+      "evidence_class": "CURRENT_MONTHLY_PRODUCTIZED_QA_PURCHASE_FROM_1400_EUROS_PER_ENGINEER_WITH_NO_LOCK_IN_AND_OUTCOME_TRACKING",
+      "verdict": "DEMOTED_MATURE_MANAGED_QA_OUTCOME_CATEGORY_PLUS_AI_AUTOMATION_AND_HUMAN_EXPLORATORY_TAIL",
+      "evidence_summary": "BetterQA currently sells subscription QA from €1,400/month per engineer with tools and outcome tracking, while QA Wolf sells an end-to-end managed QA outcome that combines specialized AI agents with dedicated engineers and guarantees 80%+ E2E coverage. The desired outcome is already an exact mature managed-service category. Automation owns an increasing share of mapping, generation, execution and maintenance, while product-specific test strategy, exploratory testing and domain judgment remain human."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_060-F6",
+      "title": "ON_DEMAND_CAD_DRAFTING_AND_ENGINEERING_DESIGN_PURCHASE",
+      "chinese_title": "按项目购买 CAD 制图与工程设计",
+      "evidence_class": "CURRENT_PRODUCTIZED_FLAT_RATE_OR_PREPAID_HOUR_BLOCK_CAD_SERVICE_WITH_33000_PLUS_DESIGNS_DELIVERED",
+      "verdict": "DEMOTED_MATURE_CAD_SERVICE_MARKETPLACE_PLUS_NATIVE_AUTOMATION_AND_ENGINEERING_JUDGMENT_LIABILITY_TAIL",
+      "evidence_summary": "Cad Crowd currently sells vetted CAD/design outcomes through flat-rate quotes and prepaid hourly blocks and reports more than 33,000 designs delivered and 1,500+ satisfied clients. Autodesk Fusion already automates 2D drawing generation and adds AI/automation across design workflows, including generative design. The remaining high-value scope is geometry interpretation, manufacturability, code/discipline constraints, engineering review and liability—expert work rather than a normalized machine-executable operator unit."
+    }
+  ],
+  "hard_floor_demotions": [
+    "WORDPRESS_CARE_FAILS_WHITE_SPACE_WHEN_EXACT_MONTHLY_MANAGED_SERVICE_EXISTS_AND_STANDARD_BACKUP_UPDATE_UPTIME_SECURITY_WORK_IS_ALREADY_AUTOMATABLE_WHILE_CUSTOM_EXCEPTIONS_REQUIRE_ENGINEERS",
+    "VIRTUAL_ASSISTANT_SUBSCRIPTION_FAILS_FOUNDER_INDEPENDENT_DELIVERY_WHEN_THE_PURCHASED_UNIT_IS_EXPLICITLY_DEDICATED_HUMAN_HOURS_AND_CONTEXTUAL_EXECUTION",
+    "DESIGN_SUBSCRIPTION_FAILS_DISTINCT_MACHINE_LAYER_WHEN_MATURE_FLAT_RATE_SERVICES_ALREADY_EXIST_AND_NATIVE_AI_GENERATES_DRAFTS_WHILE_TASTE_BRAND_AND_REVISION_JUDGMENT_REMAIN_HUMAN",
+    "PODCAST_POSTPRODUCTION_FAILS_WHITE_SPACE_WHEN_AI_EDITORS_AUTOMATE_STANDARD_CLEANUP_TRANSCRIPTION_CLIPS_AND_SHOW_NOTES_WHILE_PREMIUM_VALUE_REQUIRES_EDITORIAL_JUDGMENT",
+    "QA_AS_A_SERVICE_FAILS_WHITE_SPACE_WHEN_EXACT_MANAGED_OUTCOME_SERVICES_ALREADY_COMBINE_AI_AGENTS_WITH_ENGINEERS_AND_GUARANTEE_TEST_COVERAGE",
+    "CAD_SERVICE_FAILS_NORMALIZED_NONEXPERT_DELIVERY_WHEN_AUTOMATED_DRAWING_AND_GENERATIVE_DESIGN_EXIST_BUT_PROJECT_SPECIFIC_ENGINEERING_JUDGMENT_AND_LIABILITY_REMAIN_CORE"
+  ],
+  "scan_learnings": [
+    "NON_ROLE_PRODUCTIZED_SERVICE_PURCHASES_PROVE_DIRECT_BUYER_SPEND_MORE_STRONGLY_THAN_JOB_POSTINGS",
+    "DIRECT_SERVICE_PURCHASE_CAN_STILL_BE_WEAK_WHITE_SPACE_EVIDENCE_WHEN_THE_SIGNAL_IS_THE_INCUMBENT_PRODUCTIZED_SERVICE_ITSELF",
+    "PRODUCTIZATION_OF_HUMAN_LABOR_REMOVES_PROCUREMENT_FRICTION_WITHOUT_PROVING_MACHINE_EXECUTABLE_DELIVERY",
+    "NATIVE_AI_AND_AUTOMATION_TEND_TO_ABSORB_STANDARD_OUTPUT_WHILE_EXISTING_MANAGED_SERVICES_MONETIZE_THE_HUMAN_EXCEPTION_OR_JUDGMENT_TAIL",
+    "SELLER_DEFINED_PRODUCTIZED_SERVICES_ARE_GOOD_ECONOMIC_EVIDENCE_BUT_BIASED_TOWARD_ALREADY_FORMED_CATEGORIES",
+    "NEXT_DISCOVERY_SHOULD_OBSERVE_BUYER_SIDE_REPEATED_WORKAROUND_SPEND_BEFORE_A_SINGLE_VENDOR_HAS_ALREADY_PACKAGED_THE_OUTCOME",
+    "SCAN060_ZERO_RETENTION_AFTER_NON_ROLE_PURCHASE_EXACT_SERVICE_SATURATION_AUTOMATION_AND_HUMAN_RESIDUAL_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_061",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_SIDE_REPEATED_WORKAROUND_SPEND_OR_MULTI_LINE_ITEM_STACK_EVIDENCE_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_JOB_POSTING_AS_SOLE_SIGNAL_NO_EXISTING_PRODUCTIZED_SERVICE_AS_PRIMARY_SIGNAL_NO_SCAN058_TO_SCAN060_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN061_FROM_BUYER_SIDE_REPEATED_WORKAROUND_SPEND_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://wpbuffs.com/plans/",
+    "https://wpbuffs.com/plans/white-label/",
+    "https://wordpress.com/plugins/wp-health",
+    "https://wingassistant.com/newsletter/",
+    "https://www.manypixels.co/pricing",
+    "https://www.canva.com/magic-design/",
+    "https://weeditpodcasts.com/services/audio-production/",
+    "https://weeditpodcasts.com/trial/",
+    "https://www.descript.com/podcasting",
+    "https://betterqa.co/qa-as-a-service/",
+    "https://www.qawolf.com/service/qa-company",
+    "https://www.cadcrowd.com/",
+    "https://www.cadcrowd.com/how-it-works/cad-services",
+    "https://www.autodesk.com/products/fusion-360/ai-automation"
+  ]
+}
