@@ -63,10 +63,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_027",
+  "last_completed_scan_id": "ATTRACTION_SCAN_028",
   "last_resolved_formation_id": "ATTRACTION_SCAN_024-F1",
-  "next_scan_id": "ATTRACTION_SCAN_028",
-  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_BEHAVIOR_FIRST_SCAN028",
+  "next_scan_id": "ATTRACTION_SCAN_029",
+  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_PREPLATFORM_BEHAVIOR_SCAN029",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -300,7 +300,14 @@
     "REBATE_COMPLEXITY_DOES_NOT_CREATE_A_NEW_EDGE_WHEN_RULE_ENGINES_ALREADY_CALCULATE_AND_SETTLE_IT",
     "CONTRACT_FIRST_INVOICE_AUDIT_IS_ALREADY_PRODUCTIZED_ACROSS_SLA_PRICING_AND_CREDITS",
     "REPEATED_MONEY_RECOVERY_SEARCH_CAN_BECOME_ANOTHER_HIDDEN_MECHANISM_ONTOLOGY",
-    "SCAN_027_ZERO_RETENTION_AND_SEARCH_MECHANISM_RESET_AWAY_FROM_RECOVERY"
+    "SCAN_027_ZERO_RETENTION_AND_SEARCH_MECHANISM_RESET_AWAY_FROM_RECOVERY",
+    "BEHAVIOR_FIRST_SEARCH_REDUCES_MECHANISM_BIAS_BUT_NEW_BEHAVIOR_CAN_PLATFORMIZE_EXTREMELY_FAST",
+    "AI_SERVICE_LIGHT_ENTREPRENEURSHIP_IS_REAL_EXCHANGE_NOT_A_STANDALONE_PLATFORM_GAP",
+    "EMBODIED_DATA_GIG_WORK_IS_A_NEW_LABOR_FLOW_ALREADY_BEING_INDUSTRIALIZED",
+    "AGENT_TO_HUMAN_HIRING_IS_A_NEW_ECONOMIC_RELATIONSHIP_ALREADY_SPAWNING_EXACT_MARKETPLACES",
+    "NEW_ACTOR_RELATIONSHIP_IS_NOT_ENOUGH_IF_THE_REQUIRED_ENTRY_IS_ANOTHER_WHOLE_MARKETPLACE",
+    "NEXT_SCAN_SHOULD_PRIORITIZE_SELF_ORGANIZED_BEHAVIOR_BEFORE_A_DOMINANT_CONTROL_SURFACE_FORMS",
+    "SCAN_028_ZERO_RETENTION_AFTER_BEHAVIOR_FIRST_PLATFORMIZATION_FALSIFICATION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -398,7 +405,11 @@
     "SLA/service-credit recovery is already an exact software category with contract extraction, breach monitoring, credit calculation, claim filing and recovery tracking.",
     "Vendor rebates and tiered discounts are standard ERP/DMS/PRM rule-engine and settlement capabilities.",
     "Contract-to-invoice value assurance is already productized across SLA, pricing, invoice validation and credits.",
-    "Repeated cost/refund/rebate/recovery search was identified as a new hidden mechanism bias; Scan 028 resets to current behavior first."
+    "Repeated cost/refund/rebate/recovery search was identified as a new hidden mechanism bias; Scan 028 resets to current behavior first.",
+    "ATTRACTION_SCAN_028 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
+    "Behavior-first discovery surfaced real new 2026 formations: AI service light entrepreneurship, embodied-data gig work, agents hiring humans, one-person AI-assisted cross-border operations, and lightweight experience consumption.",
+    "Each obvious commercial surface was already platformizing rapidly through transaction platforms, data-service platforms, agent-to-human marketplaces, native seller agents or local-life platforms.",
+    "Scan 029 moves one step earlier to self-organized, pre-platform exchange where real actors already bridge the flow manually."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -414,9 +425,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_028",
+      "next_scan_id": "ATTRACTION_SCAN_029",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "CURRENT_EMERGENT_BEHAVIOR_AND_NEW_WORKFLOW_FORMATIONS_NO_COST_REFUND_REBATE_RECOVERY_OR_PRIOR_MECHANISM_INHERITANCE"
+      "search_boundary": "CURRENT_SELF_ORGANIZED_PRE_PLATFORM_BEHAVIOR_WITH_REAL_EXCHANGE_NO_DOMINANT_CONTROL_SURFACE_NO_PRIOR_VERTICAL_OR_MECHANISM_INHERITANCE"
     }
   },
   "system_learnings": [
@@ -450,6 +461,8 @@
     "CONTRACTUALLY_OWED_VALUE_IS_A_MORE_PRECISE_NEXT_SEARCH_UNIT_THAN_GENERIC_COST_SAVINGS",
     "CONTRACT_VALUE_RECOVERY_IS_A_MATURE_CONTROL_SURFACE_ACROSS_SLA_REBATE_PRICING_AND_CLAIMS",
     "RECOVERY_LANGUAGE_CAN_BECOME_A_HIDDEN_SEARCH_ONTOLOGY_AND_MUST_BE_RESET",
-    "CURRENT_BEHAVIOR_FIRST_VALUE_MECHANISM_SECOND_BUSINESS_THEORY_LAST"
+    "CURRENT_BEHAVIOR_FIRST_VALUE_MECHANISM_SECOND_BUSINESS_THEORY_LAST",
+    "NEW_BEHAVIOR_CAN_PLATFORMIZE_BEFORE_A_NEW_ENTRANT_CAN_FORM_A_DISTINCT_ASSET",
+    "PREPLATFORM_SELF_ORGANIZED_EXCHANGE_IS_A_BETTER_NEXT_SEARCH_LAYER_THAN_ALREADY_VISIBLE_MARKETPLACE_FORMATION"
   ]
 }
