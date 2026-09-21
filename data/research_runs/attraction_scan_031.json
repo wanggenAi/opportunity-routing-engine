@@ -1,0 +1,87 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_031",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "FORMATION_DIVERSE_SINGLE_OWNER_HIGH_CONSEQUENCE_EXCEPTIONS_NON_GENERIC_STATE_NOT_DATA_MOVEMENT_INPUT_AND_ACTION_RIGHTS_OWNED_NO_RECURRING_EXPERT",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1",
+    "ATTRACTION_SCAN_016-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "APP_STORE_REJECTION_DIAGNOSIS_AND_REMEDIATION",
+      "chinese_title": "App Store审核拒绝诊断与修复",
+      "mechanism_class": "PLATFORM_EXCEPTION_REMEDIATION",
+      "verdict": "DEMOTED_EXACT_SPECIALIZED_INCUMBENTS",
+      "evidence_summary": "App review rejection is high-consequence and bounded by guideline/message/code/metadata state, but AcceptMyApp, AppReviewFix, AscAuto and CatDoes already provide pre-review, rejection diagnosis, fix-vs-appeal guidance, metadata/screenshot checks and submission/rejection automation."
+    },
+    {
+      "title": "PAYMENT_HOLD_AND_REJECTION_DECISIONING",
+      "chinese_title": "付款冻结与退回异常决策",
+      "mechanism_class": "FINANCIAL_EXCEPTION_DECISION",
+      "verdict": "DEMOTED_BANK_AND_ERP_NATIVE_DECISION_APIS",
+      "evidence_summary": "JPMorgan exposes payment-hold decisioning APIs for release/cancel integration, while SAP supports payment exception resolution and automatic resend for configured ERP errors."
+    },
+    {
+      "title": "IDENTITY_ACCESS_EXCEPTION_REMEDIATION",
+      "chinese_title": "身份权限异常自动修复",
+      "mechanism_class": "ACCESS_EXCEPTION_DECISION",
+      "verdict": "DEMOTED_CLOUD_IAM_NATIVE_POLICY_TROUBLESHOOTING_AND_AUTOMATION",
+      "evidence_summary": "Microsoft Entra and Google Cloud already provide policy-based automatic assignment/approval and IAM troubleshooting/remediation flows, including programmatic policy action."
+    },
+    {
+      "title": "PRODUCTION_INCIDENT_AUTOREMEDIATION",
+      "chinese_title": "生产事故自动诊断修复",
+      "mechanism_class": "SOFTWARE_OPERATION_EXCEPTION",
+      "verdict": "DEMOTED_AI_SRE_CONTROL_SURFACE",
+      "evidence_summary": "Current AI-SRE products such as Middleware OpsAI correlate telemetry, perform root-cause analysis and ship code fixes/PRs, occupying the exact detect-decide-remediate loop."
+    },
+    {
+      "title": "MANUFACTURING_RUSH_ORDER_AND_CAPACITY_EXCEPTION",
+      "chinese_title": "制造插单产能异常决策",
+      "mechanism_class": "PRODUCTION_PLANNING_EXCEPTION",
+      "verdict": "DEMOTED_AI_APS_DECISION_CONTROL_SURFACE",
+      "evidence_summary": "Modern APS systems already model orders, WIP, machine capacity and material conditions to simulate rush-order impact, bottlenecks, delivery risk and rescheduling decisions."
+    },
+    {
+      "title": "PROCUREMENT_ACKNOWLEDGMENT_EXCEPTION",
+      "chinese_title": "采购确认单异常处理",
+      "mechanism_class": "PROCUREMENT_EXCEPTION_DECISION",
+      "verdict": "DEMOTED_COPILOT_SAP_REFERENCE_AUTOMATION",
+      "evidence_summary": "Microsoft's current reference architecture extracts supplier acknowledgments, matches them to SAP POs, applies business tolerances, auto-confirms matches and escalates only exceptions with evidence."
+    },
+    {
+      "title": "ECOMMERCE_LISTING_POLICY_EXCEPTION",
+      "chinese_title": "电商商品违规异常整改",
+      "mechanism_class": "PLATFORM_POLICY_EXCEPTION",
+      "verdict": "DEMOTED_PLATFORM_NATIVE_AND_SPECIALIZED_AI_REMEDIATION",
+      "evidence_summary": "Amazon and Douyin expose explicit remediation/appeal flows; current seller tools already detect common policy violations, optimize content and guide corrective actions/appeals."
+    }
+  ],
+  "hard_floor_demotions": [
+    "HIGH_CONSEQUENCE_EXCEPTION_IS_NOT_WHITE_SPACE_WHEN_THE_SYSTEM_OF_RECORD_EXPOSES_NATIVE_DECISION_OR_REMEDIATION",
+    "SPECIALIZED_EXCEPTION_STATE_PRODUCTIZES_QUICKLY_ONCE_THE_DECISION_SCHEMA_STABILIZES",
+    "AI_SRE_APS_IAM_PAYMENT_AND_PLATFORM_POLICY_EXCEPTION_CONTROL_SURFACES_ARE_ALREADY_MATURE_OR_RAPIDLY_MATURING",
+    "A_BOUNDED_EXCEPTION_GRAPH_WITHOUT_DISTINCT_OPERATOR_ASSET_IS_A_FEATURE_SURFACE",
+    "SUCCESSIVE_FAILURE_DERIVED_NARROWING_CAN_BECOME_SEARCH_OVERFITTING"
+  ],
+  "scan_learnings": [
+    "NON_GENERIC_EXCEPTION_DECISION_IS_STRONGER_THAN_COPY_PASTE_BUT_STILL_ATTRACTS_NATIVE_AND_SPECIALIZED_CONTROL_PLANES",
+    "SYSTEMS_OF_RECORD_MOVE_UPSTREAM_FROM_ALERTING_INTO_DECISION_AND_REMEDIATION",
+    "ONCE_EXCEPTION_STATE_IS_STANDARDIZABLE_THE_VALUE_LAYER_CAN_BE_ABSORBED_AS_A_PLATFORM_FEATURE",
+    "SINGLE_OWNER_ACTION_RIGHTS_DO_NOT_CREATE_OPERATOR_ASSET_IF_THE_DECISION_GRAPH_IS_PUBLIC_OR_COPYABLE",
+    "SUCCESSIVE_FAILURE_DERIVED_BOUNDARIES_ARE_AGAIN_BECOMING_A_HIDDEN_SEARCH_ONTOLOGY",
+    "SCAN_031_ZERO_RETENTION_AND_RESET_TO_BROAD_UNRELATED_REALITY"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_032",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_RESET_SAMPLE_UNRELATED_DOMAINS_NO_FAILURE_DERIVED_SHAPE_NO_ACTIVE_VERTICAL_OR_MECHANISM_INHERITANCE_KEEP_COMMERCIAL_HARD_FLOORS",
+  "next_action": "START_SCAN032_FROM_UNRELATED_CURRENT_REALITY_SIGNALS_WITHOUT_INHERITING_MARKETPLACE_RECOVERY_SINGLE_OWNER_OR_EXCEPTION_SHAPES",
+  "first_external_value_flow": "NOT_PROVEN"
+}
