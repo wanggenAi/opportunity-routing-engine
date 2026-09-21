@@ -25,22 +25,21 @@ discoverability, machine-executable delivery, founder-independence, operator adv
 Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic inbound intent.
 - `ATTRACTION_SCAN_016-F1` — two callable 9610 cross-customs return rails + non-consulting economics.
+- `ATTRACTION_SCAN_022-F1` — exact payer, incumbent response, self-serve data import, generic-agent/Excel substitutability and compounding operator asset.
 
 Discovery queue:
-- `ATTRACTION_SCAN_022 — FORMATION_DIVERSE_BROAD_REALITY_NO_SCAN021_VERTICAL_INHERITANCE`.
-
-`ATTRACTION_SCAN_021-F1` has been cheaply falsified and removed from active validation.
+- `ATTRACTION_SCAN_023 — FORMATION_DIVERSE_BROAD_REALITY_NO_BATTERY_TAX_VERTICAL_INHERITANCE`.
 
 ## Current Phase
 
-`SCAN_021_F1_DEMOTED_READY_FOR_SCAN_022`
+`SCAN_022_COMPLETE_PENDING_PR_CI_MERGE`
 
 ## Last Verified Main
 
-`877d18441ee8d3a2d3e001af8de0de00b44de6af`
-— squash merge of PR #310, `Complete formation-diverse Scan 021`.
+`a41b12a76974ba9b0960254b1604c2e0db6c93aa`
+— squash merge of PR #311, `Demote Scan 021 F1 after cheap falsification`.
 
-Main CI #906 verified successful.
+PR #311 CI #907 verified successful.
 
 ## Active Issue
 
@@ -48,22 +47,22 @@ Main CI #906 verified successful.
 
 ## Active Branch
 
-`feature/scan021-f1-cheap-falsification`
+`feature/scan022-battery-tax-reconciliation`
 
 ## Active PR
 
-Not opened yet for Scan 021-F1 cheap falsification. Check GitHub live state first.
+Not opened yet for Scan 022. Check GitHub live state first.
 
 ## CI
 
-No PR CI run yet for the F1 falsification branch.
+No Scan 022 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_021_f1_falsification.json`
-- `docs/research/ATTRACTION_SCAN_021_F1_CHEAP_FALSIFICATION_2026-09-20.md`
-- `tests/test_attraction_scan_021_f1_falsification.py`
+- `data/research_runs/attraction_scan_022.json`
+- `docs/research/ATTRACTION_SCAN_022_2026-09-20.md`
+- `tests/test_attraction_scan_022_battery_tax.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -71,53 +70,45 @@ Updated:
 
 ## Completed
 
-Scan 021 itself merged to main with zero commercial promotions and one temporary research beacon.
+Scan 022 restarted from formation-diverse current reality and did not inherit Scan 021's payment/legal-tech
+vertical, Scan 015/016 active verticals, or routing as a required mechanism.
 
-The temporary beacon `ATTRACTION_SCAN_021-F1 — SME_OVERDUE_PAYMENT_EVIDENCE_COMPILER` has now completed
-cheap falsification and is demoted with verdict:
-
-`DEMOTED_GENERIC_AGENT_SUBSTITUTABLE_AND_VALUE_LAYER_SQUEEZED`
-
-Decisive findings:
-- the official national/provincial complaint rail is directly accessible;
-- the public complaint schema already exposes structured identity, contract, amount and evidence fields;
-- low-complexity drafting/completeness work is reproducible by generic AI/document tools;
-- the governing payment regulation encourages public-interest legal services for SME payment disputes;
-- high-complexity receivables work is already served by licensed lawyers across negotiation, letters,
-  mediation, litigation, arbitration, preservation and enforcement;
-- current paid recovery engagements prove money in professional recovery, not payer willingness for the
-  narrow packet compiler;
-- no compounding operator-controlled outcome asset was proven.
+Results:
+- commercial promotions = 0;
+- retained research beacons = 1;
+- `ATTRACTION_SCAN_022-F1 — BATTERY_EXCISE_TAX_EVIDENCE_RECONCILER` retained for cheap falsification only;
+- AI-agent security testing demoted as current generic-surface crowding;
+- CBAM workbench demoted for specialized incumbent crowding;
+- PPE compliance demoted as generic public-rule/testing-service work;
+- battery lifecycle traceability connector demoted because the national platform owns the control surface;
+- industrial-robot safety automation demoted as expert/certification-heavy;
+- FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
 
-The durable lesson is not that overdue-payment pain is weak.
+The retained F1 is materially different from a thin document compiler because the current official battery-tax
+workflow joins tax-paid source documents, actual production consumption and product/test evidence into a
+recurring statutory ledger and exception state.
 
-It is:
+That is still not enough for commercial promotion.
 
-```text
-DIRECT CASH PAIN
-!=
-ATTRACTIVE THIRD-PARTY SOFTWARE LAYER
-```
-
-For this formation, simple cases are compressed by official/free/generic automation while complex cases move
-to licensed professional service. The proposed middle layer lacks a distinct control asset and fails the
-repository's generic-agent-substitutability hard floor.
-
-This is a useful formation-diverse failure and must not bias Scan 022 toward legal-tech or payment-recovery.
+Hard unknowns:
+- exact standalone willingness to pay;
+- whether ERP/tax software absorbs the workflow;
+- whether ordinary Excel/generic AI is already sufficient after data export;
+- whether production/invoice imports can be self-serve rather than implementation consulting;
+- whether tax/product classification can remain fail-closed without recurring experts;
+- whether any operator-controlled asset compounds beyond public rules plus customer-owned data.
 
 ## Blockers
 
-Engineering:
-- F1 demotion branch still needs PR, CI, merge and main verification.
-
 Validation:
-- Scan 015-F1 still awaits compatible written provider confirmation.
+- Scan 015-F1 still awaits compatible written provider confirmation; Gmail check on 2026-09-21 found no new provider reply.
 - Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return rails and non-consulting economics.
+- Scan 022-F1 requires cheap payer/incumbent/data-import/generic-agent/operator-asset falsification.
 
-Discovery:
-- Scan 022 has not yet started.
+Engineering:
+- Scan 022 branch needs PR, CI, merge and main verification.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -125,25 +116,23 @@ Commercial:
 
 ## Next Action
 
-Complete F1 demotion PR / CI / merge, then start Scan 022 from broad current reality.
+Open the Scan 022 PR, pass CI, merge and verify main. Then cheaply falsify Scan 022-F1 in parallel with broad
+Scan 023 discovery.
 
-Scan 022 must not inherit:
-- overdue-payment;
-- legal-tech;
-- complaint-platform;
-- debt-collection;
-- rights-execution;
+Scan 023 must not inherit:
+- battery tax;
+- overdue-payment/legal-tech;
 - used-device recycling;
 - 9610 returns;
 - routing as a required mechanism.
 
 ## Do Not Repeat
 
-- Do not revive Scan 021-F1 because the underlying cash pain is large.
-- Do not confuse official-rail recovery outcomes with economics for a thin third-party preparation layer.
-- Do not treat private documents plus a public rule schema as a moat.
-- Do not build an MVP for a formation already killed by generic-agent substitutability.
-- Do not turn the failed rights-execution mechanism into the Scan 022 ontology.
+- Do not promote Scan 022-F1 merely because the tax is mandatory or cash-linked.
+- Do not treat absence of an exact search result as proof of incumbent absence.
+- Do not treat public tax rules plus customer exports as a moat.
+- Do not build an MVP before payer, self-serve import and generic-agent resistance are evidenced.
+- Do not let Scan 022-F1 seed Scan 023.
 - Do not weaken founder-independence, evidence, payer, operator-control or actionability floors.
 
 ## Guardrails
