@@ -6,17 +6,19 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 056 tested six external-trigger control loops: FX→commerce price, weather→ad state, commodity index→B2B price, competitor stockout→repricing, day-ahead energy price→EV charging schedule, and event calendar→parking rate. All six fail because the action category already integrates the external signal directly.
+Scan 057 tested six narrower cross-system trigger loops: website downtime→ad pause, domain blacklist→outbound pause, supplier cost→store price, service capacity→ad demand control, supplier unavailability→storefront availability, and payment-gateway outage→backup routing. All six fail because current products already internalize the stable trigger→action rule.
 
 ```text
-EXTERNAL MACHINE-VERIFIABLE TRIGGER
-→ BUYER-OWNED FIXED ACTION
-→ DIRECT MARGIN / REVENUE EFFECT
-→ TRIGGER NOT ALREADY COMMODITIZED BY ACTION CATEGORY
-→ REUSABLE CROSS-CUSTOMER MAPPING
-→ NO RECURRING EXPERT INTERPRETATION
+CURRENT PAID OUTCOME
+→ FORMATION-DIVERSE OBSERVATION
+→ DIRECT PAYER OR REPEATED WORKAROUND EVIDENCE
+→ DIGITAL / DELEGATABLE DELIVERY
+→ EXACT INCUMBENT PREFLIGHT
+→ COMMERCIAL HARD FLOORS
 → ONLY THEN DEEP CAUSAL DESCENT
 ```
+
+Scans 053–057 have exhausted the successive exception/control-loop narrowing path. Scan 058 resets the discovery ontology instead of inventing another tighter trigger/action mechanism.
 
 ## Goal
 
@@ -36,22 +38,23 @@ Resolved recently:
 - `ATTRACTION_SCAN_054` — zero retention after fixed-remediation money loops failed exact-control-surface, platform/counterparty authority, or upstream-prevention floors.
 - `ATTRACTION_SCAN_055` — zero retention after native/autonomous control-surface and low-unit-economics preflight.
 - `ATTRACTION_SCAN_056` — zero retention after external signals proved already commoditized by their action categories.
+- `ATTRACTION_SCAN_057` — zero retention after niche external triggers proved absorbed by exact vertical/native rule automation.
 
 Discovery queue:
-- `ATTRACTION_SCAN_057 — CURRENT_RECURRING_PAID_EXTERNAL_TRIGGER_NOT_ALREADY_COMMODITIZED_BY_ACTION_CATEGORY_MACHINE_VERIFIABLE_TRIGGER_FIXED_BUYER_OWNED_ACTION_DIRECT_MARGIN_OR_REVENUE_OUTCOME_REUSABLE_CROSS_CUSTOMER_MAPPING_NO_RECURRING_EXPERT_INTERPRETATION_NO_PLATFORM_APPROVAL_NO_REGULATED_SIGNATURE_NO_SCAN056_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST`.
+- `ATTRACTION_SCAN_058 — BROAD_CURRENT_PAID_OUTCOMES_FORMATION_DIVERSE_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_EXCEPTION_REMEDIATION_NO_FIXED_STATE_TRANSITION_NO_EXTERNAL_TRIGGER_MECHANISM_INHERITANCE_NO_SCAN053_TO_SCAN057_VERTICAL_INHERITANCE_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_056_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_057_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`2dc4da39f6124ceffd760a2adccd2ed2ab25d0e8`
-— squash merge of PR #353, `Close native state-transition traps in Scan 055`.
+`cfe31c9beb8ffffd93307509b7202c7e9b00ccae`
+— squash merge of PR #354, `Close commoditized external-trigger loops in Scan 056`.
 
-PR #353 CI and Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #354 CI and Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -59,11 +62,11 @@ PR #353 CI and Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RES
 
 ## Active Branch
 
-`research/attraction-scan-056`.
+`research/attraction-scan-057`.
 
 ## Active PR
 
-Pending creation for Scan 056. Live GitHub state is authoritative.
+Pending creation for Scan 057. Live GitHub state is authoritative.
 
 ## CI
 
@@ -79,9 +82,9 @@ Pending creation for Scan 056. Live GitHub state is authoritative.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_056.json`
-- `docs/research/ATTRACTION_SCAN_056_2026-09-21.md`
-- `tests/test_attraction_scan_056_external_trigger_gate.py`
+- `data/research_runs/attraction_scan_057.json`
+- `docs/research/ATTRACTION_SCAN_057_2026-09-21.md`
+- `tests/test_attraction_scan_057_niche_external_trigger_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -106,18 +109,18 @@ Results:
 ## Current Findings
 
 ```text
-EXTERNAL SIGNAL
+NICHE EXTERNAL TRIGGER
++
+FIXED CROSS-SYSTEM RULE
 +
 BUYER-OWNED ACTION
-+
-STANDARDIZED MAPPING
 !=
-UNOWNED OPERATOR EDGE
+UNOWNED CONTROL EDGE
 ```
 
-Scan 056 found that mature action categories can cheaply integrate independent signals without owning them. FX feeds, weather, commodity indexes, competitor availability, energy tariffs and event calendars are inputs that current vertical software already consumes.
+Scan 057 found that even narrower triggers such as site health, blacklist state, supplier cost, service capacity, supplier availability and gateway health are already absorbed once their trigger→action mapping becomes stable.
 
-Scan 057 therefore requires an external trigger that is not already commoditized by the action category, yet remains machine-verifiable and maps to a fixed buyer-owned action without recurring domain-expert interpretation.
+The more important result is methodological: Scans 053–057 successively narrowed one mechanism family. Scan 058 therefore resets to broad formation-diverse current paid outcomes and preserves only the hard commercial floors, not the trigger/action ontology.
 
 ## Validation Status
 
@@ -150,10 +153,13 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 056 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 057 from machine-verifiable external triggers not already commoditized by the action category.
+Create the Scan 057 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 058 as a broad formation-diverse reset rather than deriving another trigger/action mechanism.
 
 ## Do Not Repeat
 
+- Do not derive Scan 058 as another narrower trigger/action ontology; Scans 053–057 have now saturated that mechanism family.
+- Do not treat niche external signals as scarce merely because they are cross-system; exact products already absorb site-health, blacklist, supplier-cost, capacity, supplier-availability and gateway-health rules.
+- Do not retain a simple cross-system bridge that Zapier/Flow/native rules or an exact vertical SaaS can reproduce without a distinct reusable asset.
 - Do not treat an external data source as an operator asset when the action category already consumes that feed or signal class directly.
 - Do not retain FX, weather, commodity-index, competitor-stock, energy-tariff or event-calendar automation merely because the trigger originates outside the action platform.
 - Do not treat buyer-owned action rights as white space when the same product category already observes the state and executes the optimization autonomously.
