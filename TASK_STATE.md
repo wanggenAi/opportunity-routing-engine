@@ -4,18 +4,19 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Reach the first real external value flow while keeping discovery independent from validation and from prior
-failure-derived search shapes.
+Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 032 completed a broad unrelated reality reset. It restored domain diversity without weakening commercial
-hard floors. Scan 033 will run a second independent broad sample to verify that this reset is durable.
+Two consecutive independent broad-reality scans have now confirmed that the methodology reset is durable.
+Scan 034 will remain mechanism-neutral but raise evidence priority: prefer current signals with direct existing
+voluntary payment or repeated observed workaround behavior over policy/category-growth signals alone.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
-BROAD_REALITY_DIVERSITY = RESTORED
-GROWTH_SIGNAL != COMMERCIAL_PROMOTION
-PHYSICAL_OR_EXPERT_CORE != LIGHTWEIGHT_CONTROL_EDGE
+DIRECT_PAYER_OR_WORKAROUND_EVIDENCE_FIRST
+NO_REQUIRED_PRODUCT_SHAPE
+BROAD_FORMATION_DIVERSITY
+HARD_FLOORS_STAY
 ZERO RETENTION IS VALID
 UNKNOWN != PASS
 ```
@@ -31,24 +32,21 @@ surface absorption pressure.
 Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic inbound intent.
 
-Resolved:
-- `ATTRACTION_SCAN_016-F1` — demoted after final callability/economics falsification.
-
 Discovery queue:
-- `ATTRACTION_SCAN_033 — SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_SAMPLE_UNRELATED_DOMAINS_NO_SCAN032_VERTICAL_INHERITANCE_NO_REQUIRED_MECHANISM_KEEP_COMMERCIAL_HARD_FLOORS`.
+- `ATTRACTION_SCAN_034 — BROAD_CURRENT_REALITY_REQUIRE_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM_KEEP_COMMERCIAL_HARD_FLOORS`.
 
-Scan 032 retained no new formation.
+Scan 033 retained no new formation.
 
 ## Current Phase
 
-`SCAN_032_COMPLETE_PENDING_PR_CI_MERGE`
+`SCAN_033_COMPLETE_PENDING_PR_CI_MERGE`
 
 ## Last Verified Main
 
-`69b9d8629750bc6ca4173f1f42e16a4f27d76277`
-— squash merge of PR #326, `Demote Scan 016 9610 router after final callability falsification`.
+`8678ca0d6afd3d61b926a7223cde31afbf1899c7`
+— squash merge of PR #327, `Complete Scan 032 broad reality reset with zero retention`.
 
-Main CI #936 verified successful.
+Main CI #938 verified successful.
 
 ## Active Issue
 
@@ -56,22 +54,22 @@ Main CI #936 verified successful.
 
 ## Active Branch
 
-`feature/scan032-broad-reality-reset-zero-retention`
+`feature/scan033-second-broad-sample-zero-retention`
 
 ## Active PR
 
-Not opened yet for Scan 032. Check GitHub live state first.
+Not opened yet for Scan 033. Check GitHub live state first.
 
 ## CI
 
-No Scan 032 PR CI run yet.
+No Scan 033 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_032.json`
-- `docs/research/ATTRACTION_SCAN_032_2026-09-21.md`
-- `tests/test_attraction_scan_032_broad_reset.py`
+- `data/research_runs/attraction_scan_033.json`
+- `docs/research/ATTRACTION_SCAN_033_2026-09-21.md`
+- `tests/test_attraction_scan_033_second_broad_sample.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -79,50 +77,50 @@ Updated:
 
 ## Completed
 
-Scan 032 restarted from broad unrelated current reality rather than deriving another narrow shape from recent
-failures.
+Scan 033 ran a second independent broad sample across domains not used in Scan 032.
 
 Sampled:
-- agricultural production outsourcing / 托管;
-- rehabilitation-assistive-device rental;
-- high-end scientific-instrument/laboratory sharing;
-- pet insurance moving toward lifecycle services;
-- automotive aftermarket growth;
-- industrial circular economy/remanufacturing.
+- national data-property registration;
+- enterprise drone training/inspection support;
+- smart-home lifecycle service;
+- concert luggage storage;
+- night-tour/immersive experiences;
+- outdoor equipment rental and experiences.
 
 Results:
 - commercial promotions = 0;
 - retained research formations = 0;
-- agriculture orchestration demoted because qualified public/sector service networks already aggregate demand while field delivery remains physical;
-- assistive-device rental routing demoted despite real user friction because fitting, home trial, delivery, maintenance, disinfection and recovery remain core;
-- shared-lab capacity routing demoted because host platforms own capacity and sample/method/result work remains expert-heavy;
-- pet-insurance lifecycle coordination demoted because insurer claims/provider data and veterinary delivery own the strongest value layers;
-- broad automotive-aftermarket orchestration demoted because growth/policy does not identify a narrow unowned action loop;
-- industrial remanufacturing routing demoted because collection/inspection/repair/certification/inventory are capital- and operations-heavy;
+- data-property evidence compiler demoted because authorized registration institutions already provide structured guidance, professional review and registration-to-assetization services;
+- drone-service orchestration demoted because the paid unit is bundled field service including people, sites, certification, equipment, maintenance and insurance;
+- smart-home lifecycle coordinator demoted because retailers/community stations are internalizing experience/install/replace/repair while field service remains physical;
+- concert luggage-storage routing demoted because specialist platforms/logistics players already serve the use case and physical custody/local density are the core assets;
+- night-tour meta orchestration demoted because OTA/local-commerce/venues own inventory and booking while experience production remains venue/content-heavy;
+- outdoor experience/equipment routing demoted because booking/rental platforms exist and coaching/safety/equipment handoff remain local;
 - FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
 
-The Scan 032 reset did what it was supposed to do:
+The broad reset is now confirmed across two independent samples.
 
 ```text
-DOMAIN DIVERSITY RESTORED
-MECHANISM INHERITANCE REMOVED
-COMMERCIAL HARD FLOORS UNCHANGED
+ZERO RETENTION
+!=
+SEARCH FAILURE
+
+IF
+DOMAIN DIVERSITY IS REAL
+AND
+HARD FLOORS ARE APPLIED CONSISTENTLY
 ```
 
-The scan found real new flows and real friction without forcing them into marketplace, routing, recovery,
-integration or exception shapes.
-
-Zero retention remains the correct commercial result.
+The next improvement is evidence prioritization, not another preferred mechanism.
 
 ## Validation Status
 
 Scan 015-F1 remains the only retained validation beacon.
-- Gmail check on 2026-09-21 found no new incoming provider reply after Wave 1.
+- Last Gmail check on 2026-09-21 found no new incoming provider reply after Wave 1.
 - No response is not a denial.
-- Public rights research has reached its useful ceiling.
-- Next decisive evidence remains an actual provider written response/agreement plus founder-free inbound proof.
+- Do not repeat public rights search; next decisive evidence is written provider response/agreement plus founder-free inbound proof.
 
 ## Blockers
 
@@ -130,10 +128,10 @@ Validation:
 - Scan 015-F1 awaits written provider response and organic founder-free inbound evidence.
 
 Engineering:
-- Scan 032 branch needs PR, CI, merge and main verification.
+- Scan 033 branch needs PR, CI, merge and main verification.
 
 Discovery:
-- Scan 033 has not yet started.
+- Scan 034 has not yet started.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -141,35 +139,37 @@ Commercial:
 
 ## Next Action
 
-1. Complete Scan 032 PR / CI / merge.
-2. Start Scan 033 as a second independent broad current-reality sample.
-3. Leave Scan 015 waiting unless an actual provider reply arrives.
+1. Complete Scan 033 PR / CI / merge.
+2. Start Scan 034 with formation-diverse current signals that already show either:
+   - direct existing voluntary payment; or
+   - repeated observed workaround behavior.
+3. Keep Scan 015 waiting unless an actual provider reply arrives.
 
-Scan 033 must not inherit:
-- Scan 032 verticals;
-- active Scan 015 vertical;
+This is an evidence-priority rule only. Scan 034 must not require:
 - marketplace;
 - routing;
 - recovery;
-- generic integration;
+- integration;
 - exception automation;
-- any preferred product shape.
+- AI;
+- compliance;
+- any prior vertical.
 
 ## Do Not Repeat
 
-- Do not interpret policy support or category growth as opportunity proof.
-- Do not retain flows whose residual value is recurring field/expert delivery.
-- Do not derive Scan 033 from the reasons Scan 032 failed.
-- Do not lower hard floors because discovery has produced a long zero-retention run.
-- Do not repeat public rights searching for Scan 015 while provider evidence is outstanding.
+- Do not use category growth or policy support alone as attraction proof.
+- Do not convert direct payer evidence into promotion if physical/expert/platform control still kills the edge.
+- Do not let Scan 033 verticals seed Scan 034.
+- Do not lower hard floors because two broad scans closed at zero.
+- Do not repeat Scan 015 public rights archaeology while written evidence is outstanding.
 
 ## Guardrails
 
 - GitHub live state wins.
 - Attraction first for attention; evidence first for truth.
 - REALITY > COGNITION > SCHEMA.
-- SECOND_INDEPENDENT_BROAD_SAMPLE.
-- FAILURE_DERIVED_BOUNDARY_IS_NOT_ONTOLOGY.
+- DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_FIRST.
+- NO_REQUIRED_PRODUCT_SHAPE.
 - ROUTING_IS_OPTIONAL_MECHANISM_NOT_CONSTITUTION.
 - A/B voluntary energy must be evidence-backed.
 - Discoverability/addressability must be sufficient for the formation.
