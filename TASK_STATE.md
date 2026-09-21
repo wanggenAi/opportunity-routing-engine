@@ -6,7 +6,7 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 046 reset discovery to observed paid micro-flows. Five paid formations were closed for dense supply, recurring expert delivery, mature service structure or platform-native absorption. MCP 2026-07-28 migration/conformance is retained as research-only because a recent official breaking revision, paid maintenance hiring and fixed-price specialist offers show a real early category; payer incidence, machine-first standardization, founder-free inbound and platform-absorption resistance remain unproven.
+Scan 047 continued the observed-money-first reset after Scan 046 fully closed. Six current paid flows were checked across software security, voice AI QA, marketplace exceptions, regulatory API integration, product compliance and LLM evaluation. All six failed existing hard floors because the useful control surface is already mature/platform-owned or the valuable remainder requires recurring expert/customer-specific delivery.
 
 ```text
 OBSERVED PAID / CONTRACTED MICRO-FLOW
@@ -31,24 +31,25 @@ surface absorption pressure.
 Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
-Resolved this task:
-- `ATTRACTION_SCAN_046-F1` — DEMOTED after cheap falsification: real paid migration demand exists, but specialist supply formed quickly, the machine-checkable surface is becoming free/tooling, the difficult remainder is bespoke senior engineering, and SDK/gateway absorption is fast.
+Resolved recently:
+- `ATTRACTION_SCAN_046-F1` — DEMOTED after Jev-triggered cheap falsification.
+- `ATTRACTION_SCAN_047` — zero retention after six observed paid flows failed control, mature-surface or expert-delivery hard floors.
 
 Discovery queue:
-- `ATTRACTION_SCAN_047 — BROAD_CURRENT_REALITY_OBSERVED_PAID_OR_CONTRACTED_MICROFLOW_SPARSE_SPECIALIZED_SUPPLY_OR_EARLY_CATEGORY_NO_MCP_SPEC_MIGRATION_OR_ACTIVE_VERTICAL_INHERITANCE_REAPPLY_ALL_EXISTING_HARD_FLOORS`.
+- `ATTRACTION_SCAN_048 — BROAD_CURRENT_REALITY_OBSERVED_MONEY_FLOW_REQUIRE_EVENT_DRIVEN_REPEATED_MACHINE_STATE_WITH_NONPLATFORM_CONTROL_NO_SCAN047_VERTICAL_INHERITANCE`.
 
-Scan 046 retained one research-only formation and made zero commercial promotions.
+Scan 047 retained zero new formations and made zero commercial promotions.
 
 ## Current Phase
 
-`SCAN_046_F1_DEMOTED_AWAITING_UPDATED_PR_CI_JEV`
+`SCAN_047_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`dde9e332ea03a1db05fed91259a7045a8f7c224b`
-— squash merge of PR #343, `Reset discovery to paid sparse-supply microflows after Scan 045`.
+`0d34bc4b60c052c4ffda428ad7f2fea50bf86c27`
+— squash merge of PR #344, `Complete Scan 046 and close MCP migration after falsification`.
 
-PR #343 CI run `35578935602` and live Jev run `35578935501` completed successfully. Scan 045 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #344 updated CI run `35596988896` completed `success`. Updated Jev run `35596988815` completed `success`: 6/6 effective routes `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -56,11 +57,11 @@ PR #343 CI run `35578935602` and live Jev run `35578935501` completed successful
 
 ## Active Branch
 
-`research/attraction-scan-046`.
+`research/attraction-scan-047`.
 
 ## Active PR
 
-`#344` — `Retain MCP migration as research-only after Scan 046` at initial creation; live GitHub metadata wins. The PR now also contains the Jev-triggered F1 falsification and the durable-resolved-state continuation fix, so its title/body should be updated before merge.
+Pending creation for Scan 047. Live GitHub state is authoritative.
 
 ## CI
 
@@ -76,17 +77,12 @@ PR #343 CI run `35578935602` and live Jev run `35578935501` completed successful
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_046.json`
-- `docs/research/ATTRACTION_SCAN_046_2026-09-21.md`
-- `tests/test_attraction_scan_046_paid_microflow_gate.py`
-- `data/research_runs/attraction_scan_046_f1_falsification.json`
-- `docs/research/ATTRACTION_SCAN_046_F1_CHEAP_FALSIFICATION_2026-09-21.md`
-- `tests/test_attraction_scan_046_f1_falsification.py`
+- `data/research_runs/attraction_scan_047.json`
+- `docs/research/ATTRACTION_SCAN_047_2026-09-21.md`
+- `tests/test_attraction_scan_047_money_control_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
-- `src/jev_research_advisory.py`
-- `tests/test_jev_research_advisory.py`
 - `TASK_STATE.md`
 
 ## Completed
@@ -108,18 +104,16 @@ Results:
 ## Current Findings
 
 ```text
-REAL PAID BREAKING-CHANGE WORK
+REAL MONEY
 +
-EARLY CATEGORY
+LOW VISIBLE SUPPLY
 !=
-SPARSE SUPPLY / MACHINE-FIRST BUSINESS / OPERATOR CONTROL
+OPERATOR-CONTROLLED MACHINE-EXECUTABLE WHITE SPACE
 ```
 
-Scan 046 initially retained `ATTRACTION_SCAN_046-F1` because MCP 2026-07-28 produced real paid SDK-maintenance work and newly productized migration offers. The first Jev pass correctly routed that one open record to `CAUSAL_DESCENT` while closing the other five.
+Scan 047 found real payer motion in all six examined flows, including some low-proposal specialist jobs. None survived. Vibe-code security and voice-AI QA already have mature automated control surfaces; TikTok Shop exceptions remain platform adjudication; EUDR integration remains customer-specific; EU product compliance remains expert/liability work; and LLM/RAG evaluation is already an established platform category.
 
-Cheap falsification then closed F1. The official deprecation window and dual-era negotiation reduce forced urgency; multiple specialist migration/audit providers already exist; free probes and official codemods compress the machine-checkable layer; customer-specific session state, OAuth and deployment behavior remain bespoke engineering; Cloudflare/AWS/SDK support shows rapid platform absorption; and no distinct compounding operator asset or founder-free inbound has been proven.
-
-The Jev state builder was also hardened so a later `resolved_research_formations` verdict in durable commercial state overrides the older discovery-scan verdict. This prevents autonomous continuation from reopening a formation already closed by a separate falsification stage.
+The next discovery improvement is to require an event-driven, repeated, machine-readable trigger **and** a non-platform-owned action/control surface before spending causal-research bandwidth.
 
 ## Validation Status
 
@@ -141,9 +135,9 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 046 is complete with zero surviving new formations and zero commercial promotions after F1 falsification.
-- Scan 046-F1 is resolved/demoted and removed from active research.
-- Scan 047 remains broad and must not inherit MCP/spec-migration terms as a required search prior.
+- Scan 047 is complete with zero retained formations and zero commercial promotions.
+- Six paid flows were closed without weakening payer evidence or hard floors.
+- Scan 048 must search fresh observed money flow for recurring machine-readable events with non-platform-owned control, without inheriting Scan 047 verticals.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -151,7 +145,7 @@ Commercial:
 
 ## Next Action
 
-Run the updated PR #344 through CI and Jev. The durable-resolved-state fix must make Scan 046-F1 authoritative `NO_FURTHER_RESEARCH` even if Jev's raw model still prefers causal descent. If the resulting continuation directive is `ADVANCE_TO_NEXT_SCAN`, merge #344, verify main, and start Scan 047 automatically without inheriting MCP migration as the ontology.
+Create the Scan 047 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev allows `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 048 from fresh observed money flow with the new event-driven/non-platform-control prefilter.
 
 ## Do Not Repeat
 
