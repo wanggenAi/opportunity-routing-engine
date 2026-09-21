@@ -1,0 +1,143 @@
+name: Jev Opportunity Research Advisory
+
+on:
+  workflow_dispatch:
+    inputs:
+      scan_path:
+        description: 'Persisted attraction scan JSON to inspect'
+        required: true
+        default: 'data/research_runs/attraction_scan_035.json'
+        type: string
+      max_entities:
+        description: 'Maximum formations for the bounded Jev advisory'
+        required: true
+        default: '6'
+        type: choice
+        options:
+          - '4'
+          - '6'
+          - '12'
+  pull_request:
+    paths:
+      - 'src/jev_research_advisory.py'
+      - 'tools/run_jev_research_advisory.py'
+      - 'tests/test_jev_research_advisory.py'
+      - '.github/workflows/jev-research-advisory.yml'
+      - 'docs/JEV_RESEARCH_ADVISORY.md'
+      - 'data/research_runs/attraction_scan_*.json'
+      - 'data/commercial_reset_state.json'
+  push:
+    branches: [main]
+    paths:
+      - 'src/jev_research_advisory.py'
+      - 'tools/run_jev_research_advisory.py'
+      - 'tests/test_jev_research_advisory.py'
+      - '.github/workflows/jev-research-advisory.yml'
+      - 'docs/JEV_RESEARCH_ADVISORY.md'
+
+concurrency:
+  group: jev-opportunity-advisory-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned TypeSafe SDK
+        run: |
+          python -m pip install --upgrade pip --disable-pip-version-check
+          python -m pip install 'typesafe-sdk==0.7.0'
+      - name: Validate TypeSafe SDK contract
+        run: |
+          python - <<'PY'
+          from typesafe_sdk import Choice, Noul, TypeSafeClient
+
+          binary = Noul(instructions='Does this record need incumbent preflight?')
+          route = Choice(
+              instructions='Choose a research route.',
+              criteria={
+                  'NO_FURTHER_RESEARCH': None,
+                  'EXACT_INCUMBENT_PREFLIGHT': None,
+              },
+          )
+          assert binary.type == 'noul'
+          assert route.type == 'choice'
+          assert set(route.criteria) == {
+              'NO_FURTHER_RESEARCH',
+              'EXACT_INCUMBENT_PREFLIGHT',
+          }
+          client = TypeSafeClient(
+              api_key='contract-test-not-a-real-key',
+              model='jev-latest',
+              timeout=3.0,
+          )
+          client.close()
+          PY
+      - name: Validate shadow authority boundary
+        run: |
+          python tools/run_jev_research_advisory.py --help > /dev/null
+          python -m unittest discover -s tests -p 'test_jev_research_advisory.py' -v
+
+  live-shadow:
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
+    needs: contracts
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    env:
+      JEV_ENABLED: 'true'
+      JEV_SHADOW_MODE: 'true'
+      JEV_MODEL: 'jev-latest'
+      JEV_TIMEOUT_SECONDS: '3'
+      JEV_MAX_RETRIES: '1'
+      TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned TypeSafe SDK
+        run: python -m pip install 'typesafe-sdk==0.7.0'
+      - name: Run bounded Jev research advisory
+        shell: bash
+        run: |
+          set -euo pipefail
+          ARGS=(
+            --scan-json "${{ github.event_name == 'workflow_dispatch' && inputs.scan_path || 'data/research_runs/attraction_scan_035.json' }}"
+            --commercial-state-json data/commercial_reset_state.json
+            --max-entities "${{ github.event_name == 'workflow_dispatch' && inputs.max_entities || '6' }}"
+            --output-dir .artifacts/jev-research-advisory
+          )
+          if [[ -n "${TYPESAFE_API_KEY:-}" ]]; then
+            echo 'TYPESAFE_API_KEY is available; requiring a real Jev success.'
+            python tools/run_jev_research_advisory.py "${ARGS[@]}" --require-success
+          else
+            echo 'TYPESAFE_API_KEY is not configured in this repository; producing a safe skipped artifact.'
+            python tools/run_jev_research_advisory.py "${ARGS[@]}"
+          fi
+      - name: Publish advisory summary
+        if: always()
+        shell: bash
+        run: |
+          if [[ -f .artifacts/jev-research-advisory/jev_research_advisory.md ]]; then
+            cat .artifacts/jev-research-advisory/jev_research_advisory.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo '# Jev Opportunity Research Advisory' >> "$GITHUB_STEP_SUMMARY"
+            echo 'No advisory artifact was produced.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Upload advisory artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jev-opportunity-advisory-${{ github.run_id }}-${{ github.run_attempt }}
+          path: .artifacts/jev-research-advisory/
+          if-no-files-found: warn
+          retention-days: 30
