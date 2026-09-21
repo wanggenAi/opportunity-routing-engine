@@ -63,10 +63,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_025",
+  "last_completed_scan_id": "ATTRACTION_SCAN_026",
   "last_resolved_formation_id": "ATTRACTION_SCAN_024-F1",
-  "next_scan_id": "ATTRACTION_SCAN_026",
-  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_NON_PLATFORM_BUSINESS_FLOW_SCAN026",
+  "next_scan_id": "ATTRACTION_SCAN_027",
+  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_CONTRACTUAL_VALUE_LEAKAGE_SCAN027",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -288,7 +288,13 @@
     "PLATFORM_OPEN_APIS_CAN_MAKE_STATE_MACHINE_READABLE_WITHOUT_GIVING_A_THIRD_PARTY_CONTROL",
     "SMALL_VALUE_LEAKAGE_IS_WEAK_WHEN_ACTION_RIGHTS_REMAIN_PLATFORM_OWNED",
     "CONSUMER_EVIDENCE_ASSISTANTS_COMMODITIZE_WHEN_THE_OUTPUT_IS_ONLY_A_COMPLAINT_OR_SUMMARY",
-    "SCAN_025_ZERO_RETENTION_AFTER_PLATFORM_CONTROL_AND_HUMAN_DELIVERY_FALSIFICATION"
+    "SCAN_025_ZERO_RETENTION_AFTER_PLATFORM_CONTROL_AND_HUMAN_DELIVERY_FALSIFICATION",
+    "DIRECT_ENTERPRISE_COST_LEAKAGE_IS_NOT_WHITE_SPACE_WHEN_A_MATURE_SYSTEM_ALREADY_OWNS_DETECTION_AND_ACTION",
+    "B2B_DOES_NOT_ESCAPE_PLATFORMIZATION_ENTERPRISE_CONTROL_SURFACES_CAN_BE_JUST_AS_MATURE",
+    "CONTRACT_RATE_AUDIT_IS_ATTRACTIVE_ONLY_IF_THE_CONTRACTUAL_ENTITLEMENT_EDGE_IS_NOT_ALREADY_A_STANDARD_FREIGHT_AUDIT_FUNCTION",
+    "PHYSICAL_SAVINGS_LOOPS_FAIL_FOUNDER_INDEPENDENCE_WHEN_FIELD_DIAGNOSIS_OR_REPAIR_IS_INTRINSIC",
+    "NEXT_SEARCH_SHOULD_START_FROM_CONTRACTUALLY_OWED_VALUE_THAT_IS_NOT_BEING_TRIGGERED_OR_CLAIMED_RATHER_THAN_GENERIC_COST_OPTIMIZATION",
+    "SCAN_026_ZERO_RETENTION_AFTER_ENTERPRISE_CONTROL_SURFACE_FALSIFICATION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -377,7 +383,11 @@
     "Pet-clinic price/trust selection is being occupied by proprietary claims-data assets such as Ant Insurance's 5M+ case hospital evaluation, while care remains professional human delivery.",
     "Collectibles trust, custody, fulfillment and transaction-price data are being internalized by Xianyu Yuligou rather than left to a thin third-party layer.",
     "Shared-bike overcharge and generic e-commerce refund pain remain high-volume but platform-owned action rights reduce third-party value capture.",
-    "Scan 026 will search active business spending/operational-loss flows outside dominant consumer transaction platforms without inheriting Scan 025 verticals."
+    "Scan 026 will search active business spending/operational-loss flows outside dominant consumer transaction platforms without inheriting Scan 025 verticals.",
+    "ATTRACTION_SCAN_026 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
+    "Native FinOps, SAM/ITAM, QMS, insurtech, energy-management and freight-audit control surfaces already occupy the most obvious enterprise cost-recovery loops.",
+    "Freight invoice overcharge recovery was the nearest direct-money candidate but exact incumbents already automate contract-rate comparison, surcharge/duplicate detection, disputes and refund tracking.",
+    "Scan 027 changes the search unit from generic cost optimization to contractually owed money/credits whose trigger may be missed."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -393,9 +403,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_026",
+      "next_scan_id": "ATTRACTION_SCAN_027",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "HIGH_ENERGY_EXISTING_BUSINESS_FLOWS_OUTSIDE_DOMINANT_TRANSACTION_PLATFORMS_FIND_UNOWNED_MACHINE_STATE"
+      "search_boundary": "CONTRACTUALLY_OWED_VALUE_LEAKAGE_MISSED_REBATES_CREDITS_SLA_COMPENSATION_PRICE_PROTECTION_WITHOUT_MATURE_RECOVERY_CONTROL_SURFACE"
     }
   },
   "system_learnings": [
@@ -424,6 +434,8 @@
     "FAST_FEATURE_ABSORPTION_IS_NONCOMPENSATORY_WHEN_OPERATOR_ASSET_IS_COPYABLE",
     "CONSUMER_PLATFORM_ACTION_RIGHTS_CAN_NULLIFY_AN_APPARENT_MICRO_EDGE_EVEN_WHEN_STATE_IS_MACHINE_READABLE",
     "PROPRIETARY_CLAIMS_OR_CUSTODY_DATA_BEATS_PUBLIC_COMPARISON_IN_TRUST_MARKETS",
-    "NEXT_SCAN_SHOULD_TEST_HIGH_ENERGY_VALUE_LEAKS_OUTSIDE_DOMINANT_TRANSACTION_PLATFORM_CONTROL_LOOPS"
+    "NEXT_SCAN_SHOULD_TEST_HIGH_ENERGY_VALUE_LEAKS_OUTSIDE_DOMINANT_TRANSACTION_PLATFORM_CONTROL_LOOPS",
+    "ENTERPRISE_COST_CONTROL_SURFACES_ARE_MATURE_ACROSS_FINOPS_SAM_QMS_INSURANCE_ENERGY_AND_LOGISTICS",
+    "CONTRACTUALLY_OWED_VALUE_IS_A_MORE_PRECISE_NEXT_SEARCH_UNIT_THAN_GENERIC_COST_SAVINGS"
   ]
 }
