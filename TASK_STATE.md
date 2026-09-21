@@ -6,15 +6,15 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 037 tested the stronger post-incumbent question: manual work can persist even when the exact software control surface already exists. Residual leakage must therefore be causally classified before deep research.
+Scan 038 verified that even a genuine structural control/data/action gap is insufficient if an independent operator cannot obtain or compound the missing right/data position.
 
 ```text
 PAYER / WORKAROUND SIGNAL
 → DELIVERY PREFILTER
 → EXACT INCUMBENT PREFLIGHT
-→ OBSERVED RESIDUAL LEAKAGE
-→ CLASSIFY CAUSE
-→ REQUIRE STRUCTURAL CONTROL-RIGHT / DATA-RIGHT / CROSS-SYSTEM ACTION GAP
+→ STRUCTURAL CONTROL / DATA / CROSS-SYSTEM ACTION GAP
+→ IDENTIFY WHO HOLDS THE MISSING RIGHT
+→ REQUIRE OPERATOR-ACCESSIBLE / COMPOUNDABLE RIGHT OR DATA POSITION
 → ONLY THEN DEEP CAUSAL DESCENT
 ```
 
@@ -30,20 +30,20 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Discovery queue:
-- `ATTRACTION_SCAN_038 — BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_REQUIRE_RESIDUAL_LEAKAGE_CAUSED_BY_STRUCTURAL_CONTROL_RIGHT_DATA_RIGHT_OR_CROSS_SYSTEM_ACTION_GAP_NOT_ADOPTION_IMPLEMENTATION_OR_DISCIPLINE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
+- `ATTRACTION_SCAN_039 — BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_REQUIRE_STRUCTURAL_CONTROL_RIGHT_DATA_RIGHT_OR_CROSS_SYSTEM_ACTION_GAP_AND_OPERATOR_ACCESSIBLE_RIGHTS_OR_DATA_POSITION_NOT_ALREADY_BUNDLED_BY_INCUMBENT_NETWORK_PLATFORM_REGULATED_ACTOR_OR_ENDPOINT_OWNER_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
 
-Scan 037 retained no new formation.
+Scan 038 retained no new formation.
 
 ## Current Phase
 
-`SCAN_037_COMPLETE_PR_PENDING_JEV_CONTINUATION`
+`SCAN_038_COMPLETE_PR_PENDING_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`a60bda8094053a99c2c185e482cb40ff7d1e32e7`
-— squash merge of PR #334, `Complete Scan 036 exact-incumbent preflight`.
+`5745ef89058b22972bdb67079b359f396dfa8954`
+— squash merge of PR #335, `Classify post-incumbent leakage in Scan 037`.
 
-Merged-main CI run `35574318823` succeeded. Merged-main live Jev run `35574318818` succeeded on `ATTRACTION_SCAN_036`: 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and it emitted `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+Merged-main CI run `35574849692` succeeded. Merged-main live Jev run `35574849844` succeeded on `ATTRACTION_SCAN_037`: 6/6 routes `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -51,11 +51,11 @@ Merged-main CI run `35574318823` succeeded. Merged-main live Jev run `3557431881
 
 ## Active Branch
 
-`research/attraction-scan-037`.
+`research/attraction-scan-038`.
 
 ## Active PR
 
-Pending creation for Scan 037.
+Pending creation for Scan 038.
 
 ## CI
 
@@ -68,14 +68,13 @@ Pending creation for Scan 037.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_037.json`
-- `docs/research/ATTRACTION_SCAN_037_2026-09-21.md`
-- `tests/test_attraction_scan_037_residual_leakage.py`
+- `data/research_runs/attraction_scan_038.json`
+- `docs/research/ATTRACTION_SCAN_038_2026-09-21.md`
+- `tests/test_attraction_scan_038_operator_rights.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
-- `tests/test_jev_research_advisory.py` (scan-number-agnostic expectation)
 
 ## Completed
 
@@ -96,14 +95,14 @@ Results:
 ## Current Findings
 
 ```text
-MANUAL WORK PERSISTS
+STRUCTURAL GAP
 +
-EXACT PRODUCT EXISTS
-!=
-WHITE SPACE
+NO OPERATOR-ACCESSIBLE RIGHT / DATA POSITION
+=
+NOT A DURABLE BUSINESS EDGE
 ```
 
-Scan 037 found real residual manual work in six unrelated domains, but causal classification showed that the leakage came from non-adoption, implementation debt, field discipline, participant non-response/data quality, payment-rail fragmentation or irreducible professional judgment. None exposed a distinct operator-controlled action edge.
+Scan 038 found six real cross-system gaps, but the rights required to execute them were already held or bundled by payment/commerce control planes, endpoint owners, vendor trust networks, regulated customs/logistics specialists or OEM workflows. Scan 039 therefore asks whether an independent operator can actually access and compound the missing right/data position.
 
 ## Validation Status
 
@@ -125,8 +124,8 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 037 is complete with zero retention.
-- Scan 038 has not started; it must distinguish structural control/data/action-right gaps from mere software non-adoption or implementation leakage.
+- Scan 038 is complete with zero retention.
+- Scan 039 has not started; it requires both a structural gap and an operator-accessible rights/data position not already bundled by incumbent control planes.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -134,13 +133,14 @@ Commercial:
 
 ## Next Action
 
-Merge Scan 037 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 038 in the same task.
+Merge Scan 038 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 039 in the same task.
 
 ## Do Not Repeat
 
 - Do not deep-research a candidate before checking exact current incumbents.
 - Do not treat incumbent presence alone as a kill; verify whether the incumbent resolves the same value flow and why residual leakage still exists.
 - Do not treat manual work, spreadsheet use or poor adoption as proof of an unowned control edge.
+- Do not mistake a real structural gap for an operator-owned asset; identify who actually controls the required rights/data/action.
 - Do not turn the incumbent-preflight process improvement into a required opportunity mechanism.
 - Do not let Scan 035 verticals seed Scan 036.
 - Do not lower hard floors because discovery continues to close at zero.
