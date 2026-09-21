@@ -1,0 +1,116 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_036",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_BEFORE_DEEP_RESEARCH_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "AI_USAGE_BASED_SOFTWARE_SPEND_CONTROL",
+      "chinese_title": "企业AI用量型软件支出与Credits控制",
+      "evidence_class": "DIRECT_PAYMENT_AND_CURRENT_BILLING_CHANGE",
+      "incumbent_preflight": "EXACT_CONTROL_SURFACE_FOUND",
+      "verdict": "DEMOTED_VENDOR_NATIVE_AND_PROCUREMENT_FINOPS_CONTROL_SURFACES",
+      "evidence_summary": "2026 vendors are moving AI features to credit/usage billing, but native vendor budget controls plus procurement/spend products already track committed-versus-consumed AI spend, overages, renewals, utilization and negotiation.",
+      "source_urls": [
+        "https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/manage-company-spending",
+        "https://www.atlassian.com/resources/usage",
+        "https://www.tropicapp.io/procurement-insights/ai-cost-optimization",
+        "https://macrospend.com/pricing"
+      ]
+    },
+    {
+      "title": "EU_AI_ACT_CONTINUOUS_EVIDENCE_AUTOMATION",
+      "chinese_title": "欧盟AI法案持续证据与审计自动化",
+      "evidence_class": "DIRECT_PAYMENT_AND_REGULATORY_WORKFLOW",
+      "incumbent_preflight": "DENSE_EXACT_PAID_PRODUCTS_FOUND",
+      "verdict": "DEMOTED_DENSE_EXACT_AI_GOVERNANCE_AND_COMPLIANCE_SAAS",
+      "evidence_summary": "The current market already sells self-serve and enterprise AI Act classification, Annex IV documentation, evidence collection, monitoring, audit trails and CI-linked compliance at transparent recurring prices.",
+      "source_urls": [
+        "https://atherosai.com/pricing",
+        "https://www.aikraft.eu/pricing",
+        "https://www.setaicomply.com/pricing",
+        "https://www.agentmai.eu/pricing"
+      ]
+    },
+    {
+      "title": "DIGITAL_PRODUCT_PASSPORT_PPWR_AUTOMATION",
+      "chinese_title": "数字产品护照与PPWR合规自动化",
+      "evidence_class": "DIRECT_PAYMENT_AND_MANDATORY_DOCUMENTATION",
+      "incumbent_preflight": "EXACT_PAID_PRODUCT_SURFACE_FOUND",
+      "verdict": "DEMOTED_DENSE_DPP_EPR_PPWR_PRODUCT_SURFACE",
+      "evidence_summary": "Current products already sell volume-priced digital product passports, ERP/PIM integration, PPWR documentation and EPR reporting across EU jurisdictions; this is a paid software category rather than an unowned control edge.",
+      "source_urls": [
+        "https://www.digiproductpass.com/pricing",
+        "https://eprpilot.com/",
+        "https://packgine.ai/pricing",
+        "https://packaging-epr.com/"
+      ]
+    },
+    {
+      "title": "EV_FLEET_HOME_CHARGING_REIMBURSEMENT",
+      "chinese_title": "电动车队员工家充自动报销",
+      "evidence_class": "DIRECT_PAYMENT",
+      "incumbent_preflight": "EXACT_FLEET_BILLING_PRODUCTS_FOUND",
+      "verdict": "DEMOTED_EXACT_FLEET_HOME_CHARGING_REIMBURSEMENT_PRODUCTS",
+      "evidence_summary": "Fleet platforms already meter home charging, assign electricity tariffs, produce reimbursement reports and bundle settlement/billing workflows at per-vehicle recurring prices.",
+      "source_urls": [
+        "https://www.deftpower.com/pricing",
+        "https://www.tronity.io/en/fleet-management/pricing"
+      ]
+    },
+    {
+      "title": "SUBCONTRACTOR_COI_COMPLIANCE_TRACKING",
+      "chinese_title": "分包商保险凭证COI持续跟踪",
+      "evidence_class": "DIRECT_PAYMENT_AND_REPEATED_REQUIRED_WORKFLOW",
+      "incumbent_preflight": "EXACT_FREE_AND_PAID_PRODUCTS_FOUND",
+      "verdict": "DEMOTED_EXACT_COI_COLLECTION_GRADING_EXPIRY_WORKFLOW_PRODUCTS",
+      "evidence_summary": "The exact collection, expiry-reminder, compliance-dashboard and vendor-update workflow already exists as both free narrow software and paid SaaS, collapsing a thin independent orchestration layer.",
+      "source_urls": [
+        "https://www.wardly.ai/pricing",
+        "https://expiryedge.com/solutions/certificate-of-insurance-tracking/"
+      ]
+    },
+    {
+      "title": "API_DEPRECATION_SUNSET_MONITORING",
+      "chinese_title": "第三方API弃用与Sunset监控",
+      "evidence_class": "DIRECT_PAYMENT_AND_REPEATED_WORKAROUND",
+      "incumbent_preflight": "EXACT_MONITORING_PRODUCT_FOUND",
+      "verdict": "DEMOTED_EXACT_LOW_COST_API_CHANGE_MONITORING_PRODUCT",
+      "evidence_summary": "PageCrawl directly sells changelog/API documentation monitoring for breaking changes and deprecations with paid plans and MCP access; the exact alerting control loop is already productized at low cost.",
+      "source_urls": [
+        "https://pagecrawl.io/blog/saas-api-deprecation-sunset-notice-monitoring",
+        "https://pagecrawl.io/pricing"
+      ]
+    }
+  ],
+  "hard_floor_demotions": [
+    "NATIVE_VENDOR_USAGE_AND_BUDGET_CONTROLS_PLUS_PROCUREMENT_FINOPS_KILL_THIN_AI_CREDIT_GOVERNANCE",
+    "DENSE_EXACT_AI_ACT_COMPLIANCE_SAAS_KILLS_GENERIC_DOCUMENTATION_AND_MONITORING_LAYER",
+    "DPP_EPR_PPWR_IS_ALREADY_A_PAID_SOFTWARE_CATEGORY",
+    "HOME_CHARGING_REIMBURSEMENT_IS_ALREADY_NATIVE_FLEET_SOFTWARE",
+    "COI_COLLECTION_AND_EXPIRY_TRACKING_IS_ALREADY_FREE_AND_PAID_SOFTWARE",
+    "API_DEPRECATION_MONITORING_IS_ALREADY_AN_EXACT_LOW_COST_PRODUCT"
+  ],
+  "scan_learnings": [
+    "EXACT_INCUMBENT_PREFLIGHT_REMOVED_ALL_SIX_FORMATIONS_BEFORE_EXPENSIVE_CAUSAL_DESCENT",
+    "PROCESS_ORDER_IMPROVEMENT_REDUCED_RESEARCH_COST_WITHOUT_LOWERING_COMMERCIAL_HARD_FLOORS",
+    "NEW_REGULATION_OR_NEW_AI_BILLING_DOES_NOT_IMPLY_WHITE_SPACE_WHEN_CONTROL_SURFACES_SHIP_SIMULTANEOUSLY",
+    "INCUMBENT_PRESENCE_WAS_USED_AS_A_KILL_ONLY_WHERE_THE_INCUMBENT_RESOLVES_THE_SAME_CONTROL_LOOP",
+    "NEXT_SEARCH_SHOULD_REQUIRE_OBSERVED_RESIDUAL_LEAKAGE_OR_AN_UNOWNED_ACTION_EDGE_AFTER_INCUMBENT_PREFLIGHT_BEFORE_DEEP_RESEARCH",
+    "SCAN_036_ZERO_RETENTION_AFTER_EXACT_INCUMBENT_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_037",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_THEN_REQUIRE_OBSERVED_RESIDUAL_LEAKAGE_OR_UNOWNED_ACTION_EDGE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "next_action": "TRIGGER_JEV_ON_SCAN036_THEN_FOLLOW_TYPED_CONTINUATION_DIRECTIVE",
+  "first_external_value_flow": "NOT_PROVEN"
+}
