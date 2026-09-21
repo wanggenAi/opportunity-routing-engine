@@ -1,0 +1,95 @@
+{
+  "schema_version": "attraction-scan.v28",
+  "scan_id": "ATTRACTION_SCAN_049",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "FRESH_CURRENT_REALITY_RECENTLY_CREATED_OR_MATERIALLY_CHANGED_PAID_WORKFLOW_SINCE_2026_07_01_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EXACT_FULL_LOOP_PRODUCT_SATURATION_PREFLIGHT_FIRST_NO_SOFTWARE_PROTOCOL_MIGRATION_NO_REGULATORY_EXPERTISE_NO_SCAN048_VERTICAL_INHERITANCE",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "REAL_ESTATE_BROWSER_AGENT_DAILY_BACKOFFICE",
+      "chinese_title": "房地产销售日常浏览器代理后台执行",
+      "evidence_class": "POST_JULY_DIRECT_PAID_BROWSER_AGENT_IMPLEMENTATION",
+      "verdict": "DEMOTED_GENERIC_BROWSER_AGENT_INFRASTRUCTURE_AND_BESPOKE_CLIENT_WORKFLOW",
+      "evidence_summary": "A July 29 paid job hired two people to build a daily browser agent across Gmail, GoHighLevel, Sheets and Docs, proving current willingness to pay for reliable browser action. But Browserbase/Stagehand and adjacent computer-use infrastructure entered a production phase during July-August, while the remaining value is client-specific prompt, authentication, exception and workflow integration rather than a reusable independent operator asset."
+    },
+    {
+      "title": "PERSONAL_JOB_SEARCH_APPLICATION_AGENT",
+      "chinese_title": "个人求职搜索与自动投递 Agent",
+      "evidence_class": "CURRENT_DIRECT_PAID_FULL_JOB_APPLICATION_AGENT_REQUEST",
+      "verdict": "DEMOTED_EXACT_JOB_APPLICATION_AUTOPILOT_CATEGORY_AND_PLATFORM_DEPENDENCE",
+      "evidence_summary": "A September 16 buyer offered $150 for search, matching, resume tailoring, browser application, approval and tracking. Simplify's current Autopilot already opens supported employer portals, tailors the resume, fills and submits applications, while Copilot covers a broad set of application sites; residual coverage depends on employer portals, anti-bot rules and site-specific exceptions."
+    },
+    {
+      "title": "WHATSAPP_ACTION_AGENT_FOR_LEAD_QUALIFICATION_BOOKING",
+      "chinese_title": "WhatsApp 线索资格判断与预约行动 Agent",
+      "evidence_class": "CURRENT_DIRECT_PAID_PRODUCTION_WHATSAPP_AGENT_BUILD",
+      "verdict": "DEMOTED_EXACT_WHATSAPP_AGENT_PLATFORM_AND_DENSE_IMPLEMENTATION_SUPPLY",
+      "evidence_summary": "A September 10 buyer offered $1,000 for a production WhatsApp agent that qualifies leads, follows up, books appointments, updates CRM records and triggers workflows. Wati/Astra now publishes the same multi-step WhatsApp-to-CRM and booking flow, so the control surface is already a platform category and the remaining work is customer configuration and integration."
+    },
+    {
+      "title": "AI_VIDEO_AD_PRODUCTION_PIPELINE",
+      "chinese_title": "AI 短视频广告端到端生产流水线",
+      "evidence_class": "CURRENT_DIRECT_PAID_AUTOMATED_CREATIVE_PIPELINE",
+      "verdict": "DEMOTED_MATURE_AI_VIDEO_CREATIVE_PLATFORMS_AND_CREATIVE_JUDGMENT_RESIDUE",
+      "evidence_summary": "A September 3 buyer paid to chain Claude, ElevenLabs, AI video generation, scene assembly and captions into a ready-to-use short-form ad workflow. Creatify and adjacent 2026 platforms already turn product URLs or briefs into scripts, avatars, voice, b-roll, captions and publish-ready variants, while the higher-value remainder still depends on creative judgment and brand-specific iteration."
+    },
+    {
+      "title": "AGENTIC_COMMERCE_CHECKOUT_EXECUTION_INFRASTRUCTURE",
+      "chinese_title": "Agentic Commerce 自动结账与支付执行基础设施",
+      "evidence_class": "CURRENT_HIGH_RATE_LONG_TERM_AGENTIC_COMMERCE_ENGINEERING",
+      "verdict": "DEMOTED_PAYMENT_NETWORK_AND_PROCESSOR_OWNED_AGENTIC_COMMERCE_CONTROL_SURFACE",
+      "evidence_summary": "A current long-term role pays $100-$250/hour to build browser agents, automated ecommerce checkout, merchant integrations and reliable order execution. The workflow is genuinely new and high-value, but Stripe, Visa and Mastercard now expose agentic-commerce discovery, authorization, tokenization and payment primitives, concentrating the decisive trust and payment control surface inside processors and card networks."
+    },
+    {
+      "title": "CLIENT_DOCUMENT_ROUTING_PARSE_DATABASE_AGENT",
+      "chinese_title": "客户文档分发、解析与入库 Agent",
+      "evidence_class": "CURRENT_DIRECT_PAID_DOCUMENT_AGENT_BUILD",
+      "verdict": "DEMOTED_GENERIC_AUTOMATION_PLATFORM_SUBSTITUTABILITY_AND_CLIENT_SPECIFIC_MAPPING",
+      "evidence_summary": "A September 10 buyer paid $800 for agents that copy uploaded documents to multiple destinations, summarize them, parse them and write structured data into a database. Zapier already exposes end-to-end document intake, extraction, routing and AI-agent actions across the business stack; the remaining mapping is organization-specific implementation rather than a distinct recurring operator control position."
+    }
+  ],
+  "hard_floor_demotions": [
+    "PAID_BROWSER_AGENT_IMPLEMENTATION_IS_NOT_A_DURABLE_OPERATOR_FLOW_WHEN_HORIZONTAL_BROWSER_INFRASTRUCTURE_OWNS_THE_PRIMITIVE_AND_CLIENT_SPECIFIC_INTEGRATION_DOMINATES",
+    "JOB_APPLICATION_AUTOMATION_FAILS_WHITE_SPACE_WHEN_CURRENT_AUTOPILOT_PRODUCTS_ALREADY_EXECUTE_THE_CORE_APPLICATION_LOOP",
+    "WHATSAPP_AGENT_BUILD_SPEND_FAILS_WHEN_ACTION_ORCHESTRATION_IS_ALREADY_A_NO_CODE_PLATFORM_CATEGORY",
+    "AI_VIDEO_PIPELINE_SPEND_FAILS_WHEN_END_TO_END_CREATIVE_GENERATION_IS_ALREADY_PRODUCTIZED_AND_CREATIVE_JUDGMENT_REMAINS",
+    "AGENTIC_COMMERCE_INFRASTRUCTURE_FAILS_INDEPENDENT_CONTROL_WHEN_PAYMENT_NETWORKS_AND_PROCESSORS_OWN_AUTHORIZATION_TOKENIZATION_AND_SETTLEMENT",
+    "DOCUMENT_AGENT_IMPLEMENTATION_FAILS_GENERIC_AGENT_SUBSTITUTABILITY_AND_CROSS_CUSTOMER_ASSET_TEST"
+  ],
+  "scan_learnings": [
+    "POST_JULY_WORKFLOW_NOVELTY_PLUS_DIRECT_PAYMENT_IS_STRONG_EVIDENCE_OF_IMPLEMENTATION_BUDGET_NOT_NECESSARILY_A_RECURRING_OPERATOR_BUSINESS",
+    "HORIZONTAL_AGENT_AND_AUTOMATION_PLATFORMS_CAN_ABSORB_NEW_WORKFLOW_CATEGORIES_WITHIN_THE_SAME_QUARTER",
+    "A_NEW_BROWSER_OR_AGENT_CAPABILITY_CAN_CREATE_PAID_INTEGRATION_WORK_BEFORE_IT_CREATES_AN_INDEPENDENT_CONTROL_EDGE",
+    "PLATFORM_OWNED_TRUST_AUTHORIZATION_AND_PAYMENT_RAILS_DOMINATE_AGENTIC_COMMERCE_ECONOMICS",
+    "WHEN_THE_RESIDUAL_VALUE_IS_CLIENT_SPECIFIC_MAPPING_PROMPTING_OR_CREATIVE_JUDGMENT_THE_BUSINESS_COLLAPSES_TO_IMPLEMENTATION_SERVICE",
+    "SCAN_049_RETAINS_ZERO_NEW_FORMATIONS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_050",
+  "next_search_boundary": "FRESH_CURRENT_REALITY_DIRECT_RECURRING_OUTCOME_SPEND_OR_REPEATED_WORKAROUND_NO_AI_AGENT_BUILD_CONFIGURATION_NO_SCAN049_VERTICAL_INHERITANCE_REQUIRE_POST_EXECUTION_MEASURABLE_OUTCOME_AND_INDEPENDENT_NONPLATFORM_ACTION_RIGHT_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "next_action": "START_SCAN050_FROM_RECURRING_OUTCOME_SPEND_NOT_ONE_TIME_TOOL_BUILD_BUDGETS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.upwork.com/freelance-jobs/apply/Build-Browser-Agent_~022082505496889449437/",
+    "https://www.browserbase.com/blog/engineering",
+    "https://www.upwork.com/freelance-jobs/apply/Full-Stack-Agent-Developer_~022100082272572856385/",
+    "https://help.simplify.jobs/articles/1784339-getting-started-with-autopilot",
+    "https://www.upwork.com/freelance-jobs/apply/Automation-Developer-for-WhatsApp_~022098027428733331037/",
+    "https://astra-geo.wati.io/blog/how-to-build-whatsapp-ai-agent-sync-leads-crm",
+    "https://www.upwork.com/freelance-jobs/apply/Video-Automation-Expert-Claude-Kie-ElevenLabs_~022095455752407115531/",
+    "https://creatify.ai/features/ai-video-generator",
+    "https://www.upwork.com/freelance-jobs/apply/Senior-Staff-Software-Engineer_~022094166179682428267/",
+    "https://stripe.com/use-cases/agentic-commerce",
+    "https://www.visa.com/en-us/thought-leadership/innovation/agentic-payments-from-the-ground-up",
+    "https://www.upwork.com/freelance-jobs/apply/Agent-developer_~022097842738685196901/",
+    "https://zapier.com/automations/business-owners/business-document-management/document-processing"
+  ]
+}
