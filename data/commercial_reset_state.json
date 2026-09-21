@@ -65,10 +65,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_049",
+  "last_completed_scan_id": "ATTRACTION_SCAN_050",
   "last_resolved_formation_id": "ATTRACTION_SCAN_046-F1",
-  "next_scan_id": "ATTRACTION_SCAN_050",
-  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_SCAN050_RECURRING_OUTCOME_SPEND_SEARCH",
+  "next_scan_id": "ATTRACTION_SCAN_051",
+  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_SCAN051_MACHINE_VERIFIABLE_REPLACEABLE_OUTCOME_SEARCH",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -454,7 +454,16 @@
     "AI video production pipelines have current payer pull, but end-to-end creative platforms absorb the deterministic workflow while brand-specific creative judgment remains.",
     "Agentic commerce has high-rate current engineering spend, but payment networks and processors increasingly own authorization, tokenization, checkout trust and settlement.",
     "Document-routing and parsing agents are direct paid work but remain generic automation plus customer-specific mapping rather than a cross-customer compounding asset.",
-    "Scan 050 should start from recurring paid outcomes or repeated paid workarounds, not one-time agent/tool implementation budgets."
+    "Scan 050 should start from recurring paid outcomes or repeated paid workarounds, not one-time agent/tool implementation budgets.",
+    "ATTRACTION_SCAN_050 completed on 2026-09-21 with zero new retained formations and zero commercial promotions.",
+    "Recurring measurable outcome spend is stronger commercial evidence than one-time implementation budget, but still fails when the exact control loop is already productized.",
+    "Email deliverability has explicit recurring inbox-placement spend, but monitoring/repair stacks are mature and final filtering remains mailbox-provider controlled.",
+    "Amazon PPC has measurable ACoS/TACoS outcome spend, but exact automation platforms and Amazon auction control compress independent operator value.",
+    "Technical SEO has recurring retainers and measurable site-health signals, but audit/monitoring is mature and final visibility remains search-system and expert dependent.",
+    "CRM data quality has clean recurring acceptance metrics, but scheduled dedupe, standardization, repair and monitoring are already exact product capabilities.",
+    "Multichannel ecommerce operations expose measurable stockout and defect KPIs, but inventory control is productized while residual exceptions remain a heterogeneous human bundle.",
+    "Pay-per-qualified-lead pricing proves outcome value but can still hide recurring acquisition labor, generic AI substitutability and dense supply.",
+    "Scan 051 should require machine-verifiable acceptance and replaceable execution without an external platform algorithm controlling the primary success outcome."
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -597,9 +606,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_050",
+      "next_scan_id": "ATTRACTION_SCAN_051",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "FRESH_CURRENT_REALITY_DIRECT_RECURRING_OUTCOME_SPEND_OR_REPEATED_WORKAROUND_NO_AI_AGENT_BUILD_CONFIGURATION_NO_SCAN049_VERTICAL_INHERITANCE_REQUIRE_POST_EXECUTION_MEASURABLE_OUTCOME_AND_INDEPENDENT_NONPLATFORM_ACTION_RIGHT_EXACT_INCUMBENT_PREFLIGHT_FIRST"
+      "search_boundary": "FRESH_CURRENT_REALITY_RECURRING_PAID_OUTCOME_WITH_MACHINE_VERIFIABLE_ACCEPTANCE_AND_REPLACEABLE_EXECUTION_NO_EXTERNAL_ALGORITHM_AS_PRIMARY_SUCCESS_CONTROLLER_NO_SCAN050_VERTICAL_INHERITANCE_REQUIRE_REPEATABLE_UNIT_ECONOMICS_AND_OPERATOR_CONTROL_EXACT_INCUMBENT_PREFLIGHT_FIRST"
     }
   },
   "system_learnings": [
@@ -714,6 +723,11 @@
     "RECENT_AI_WORKFLOW_IMPLEMENTATION_SPEND_IS_NOT_RECURRING_OUTCOME_SPEND",
     "HORIZONTAL_AGENT_PLATFORMS_CAN_ABSORB_NEW_PAID_WORKFLOW_CATEGORIES_WITHIN_ONE_QUARTER",
     "PLATFORM_OWNED_AUTHORIZATION_AND_PAYMENT_RAILS_COMPRESS_AGENTIC_COMMERCE_OPERATOR_CONTROL",
-    "SCAN049_ZERO_RETENTION_AFTER_IMPLEMENTATION_BUDGET_AND_CONTROL_PREFLIGHT"
+    "SCAN049_ZERO_RETENTION_AFTER_IMPLEMENTATION_BUDGET_AND_CONTROL_PREFLIGHT",
+    "RECURRING_OUTCOME_SPEND_IS_STRONGER_THAN_ONE_TIME_IMPLEMENTATION_BUDGET_BUT_NOT_SUFFICIENT",
+    "EXTERNAL_RANKING_FILTERING_AND_AUCTION_ALGORITHMS_WEAKEN_OPERATOR_CONTROL",
+    "PERFORMANCE_BASED_PRICING_CAN_HIDE_RECURRING_ACQUISITION_OR_EXPERT_LABOR",
+    "MACHINE_VERIFIABLE_ACCEPTANCE_AND_REPLACEABLE_EXECUTION_ARE_NEXT_DISCOVERY_FLOORS",
+    "SCAN050_ZERO_RETENTION_AFTER_RECURRING_OUTCOME_CONTROL_PREFLIGHT"
   ]
 }
