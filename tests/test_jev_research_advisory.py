@@ -199,7 +199,8 @@ class JevResearchAdvisoryTests(unittest.TestCase):
             commercial,
             research_dir=ROOT / "data/research_runs",
         )
-        self.assertEqual(path.name, "attraction_scan_036.json")
+        expected_scan_number = commercial["last_completed_scan_id"].rsplit("_", 1)[-1]
+        self.assertEqual(path.name, f"attraction_scan_{expected_scan_number.lower()}.json")
 
     def test_non_shadow_mode_fails_closed(self):
         states = build_research_states(
