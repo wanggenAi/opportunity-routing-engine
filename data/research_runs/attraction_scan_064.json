@@ -1,0 +1,104 @@
+{
+  "schema_version": "attraction-scan.v43",
+  "scan_id": "ATTRACTION_SCAN_064",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_SIDE_ACTIVE_OR_PAID_INCUMBENT_PLUS_SEPARATE_RECURRING_EXTERNAL_WORKAROUND_SPEND_FOR_THE_SAME_OUTCOME_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_RESIDUAL_EXACT_INCUMBENT_AND_ROADMAP_PREFLIGHT_NO_SCAN061_TO_SCAN063_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_064-F1",
+      "title": "GOOGLE_ADS_PLATFORM_PLUS_HIGH_FEE_AGENCY_MANAGEMENT",
+      "chinese_title": "Google Ads 平台费外持续支付高额代理管理费",
+      "evidence_class": "CURRENT_BUYER_SIDE_EXPLICIT_200K_TO_400K_MONTHLY_AD_SPEND_PLUS_25K_MONTHLY_AGENCY_FEE_FOR_SAME_LEAD_GENERATION_OUTCOME",
+      "verdict": "DEMOTED_SECOND_SPEND_DOMINATED_BY_STRATEGY_CREATIVE_ATTRIBUTION_ACCOUNTABILITY_AND_PLATFORM_NATIVE_AUTOMATION",
+      "evidence_summary": "A current advertiser reports $200k-$400k/month Google Ads spend across roughly 100 campaigns plus a $25k/month agency fee, while personally fixing enhanced conversions and questioning campaign structure and lead quality. The same buyer also pays another $25k/month SEO vendor. This is unusually strong parallel-spend evidence. But Google Ads already automates auction-time bidding, conversion-value optimization and enhanced/offline lead conversion feedback. The agency residual is mostly strategy, account architecture, creative/keyword/geographic judgment, analytics interpretation and accountable vendor management rather than a bounded repeatable execution unit with objective machine-verifiable output."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_064-F2",
+      "title": "AWS_CLOUD_PLUS_24X7_MANAGED_SERVICE_PARTNER",
+      "chinese_title": "AWS 云平台外持续购买 24x7 托管运维",
+      "evidence_class": "CURRENT_CUSTOMER_CASE_ACTIVE_AWS_CONSUMPTION_PLUS_RECURRING_24X7_MANAGED_SERVICE_DEVOPS_ADVISORY_COST_OPTIMIZATION_AND_MONITORING",
+      "verdict": "DEMOTED_SECOND_SPEND_BUYS_24X7_ACCOUNTABILITY_ARCHITECTURE_AND_CONTEXTUAL_OPERATIONS_WHILE_NATIVE_AGENTIC_OPS_EXPANDS",
+      "evidence_summary": "Towngas runs mission-critical systems on AWS while retaining AWS Partner eCloudvalley for round-the-clock monitoring, cost optimization, DevOps advisory, strategy sessions and continuing managed-service support. AWS now ships DevOps Agent for autonomous incident investigation, root-cause correlation, mitigation planning, prevention recommendations and incident coordination. The remaining paid service is materially about 24x7 ownership, architecture, business context, change responsibility and local expert coverage—not an unowned deterministic machine loop."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_064-F3",
+      "title": "EDR_SIEM_PLUS_EXTERNAL_MDR_SOC_LAYER",
+      "chinese_title": "EDR/SIEM 之上继续付费购买外部 MDR/SOC",
+      "evidence_class": "CURRENT_BUYER_SIDE_ACTIVE_SENTINELONE_OR_EXISTING_SECURITY_STACK_PLUS_SEPARATE_MDR_SOC_LAYER_FOR_24X7_RESPONSE",
+      "verdict": "DEMOTED_MATURE_MDR_CATEGORY_PLUS_HUMAN_INCIDENT_RESPONSIBILITY_AND_LIABILITY_TRANSFER",
+      "evidence_summary": "A current 2026 MSP/security discussion includes an operator explicitly keeping SentinelOne for endpoint protection while layering Cato MDR on top so the SOC can see network traffic, while the thread's buyer seeks to offload 24/7 monitoring from an overloaded internal team. SentinelOne itself now sells Wayfinder MDR with 24/7 expert monitoring, investigation, managed response and a breach-response warranty. The second spend clearly carries willingness to pay, but what is being bought is continuous human validation, escalation, containment judgment and responsibility transfer inside a mature MDR market."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_064-F4",
+      "title": "UIPATH_PLATFORM_PLUS_LONG_TERM_FREELANCE_AUTOMATION_BUILD_SUPPORT",
+      "chinese_title": "UiPath 平台外长期购买自动化开发支持",
+      "evidence_class": "CURRENT_ACTIVE_UIPATH_WORK_PLUS_STATED_LONG_TERM_FREELANCER_NEED_FOR_MULTIPLE_AUTOMATION_PROJECTS",
+      "verdict": "DEMOTED_RECURRING_EXPERT_PROCESS_DISCOVERY_BUILD_TEST_AND_SUPPORT_TAIL_WITH_NATIVE_AUTOPILOT_AGENTIC_EXPANSION",
+      "evidence_summary": "A current UiPath buyer seeks a reliable long-term freelancer across multiple automation projects; a commenter quotes $125/hour and 90 billed hours for a prior UiPath project, though that rate is not the buyer's confirmed contract price. UiPath Autopilot now assists across building, operating and troubleshooting, while Automation Cloud and Maestro/Agents expand native orchestration. The residual external spend is still bespoke requirements discovery, process design, integration, testing, exception handling and production support—recurring expert delivery rather than a standardized founder-independent execution asset."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_064-F5",
+      "title": "NETSUITE_LICENSE_PLUS_RECURRING_ACS_OR_THIRD_PARTY_SUPPORT",
+      "chinese_title": "NetSuite 订阅外长期购买 ACS/第三方支持",
+      "evidence_class": "CURRENT_ACTIVE_NETSUITE_ORG_USED_ACS_OPTIMISE_FOR_YEARS_AND_SEEKS_RECURRING_ALTERNATIVE_SUPPORT_FOR_BAU_CUSTOMIZATION_AND_EXPERT_APPROACH",
+      "verdict": "DEMOTED_PLATFORM_SPECIFIC_BUSINESS_PROCESS_CONTEXT_GOVERNANCE_AND_EXPERT_ADMIN_TAIL",
+      "evidence_summary": "A current NetSuite user reports using ACS Optimise for years and now seeks alternatives because cases progress slowly and repeatedly miss business requirements. Another current firm plans to replace a departing internal NetSuite administrator with outsourced third-party BAU and post-M&A support. A separate 2026 practitioner reports AI has eliminated some external scripting/design consultants, while business consultancy remains. The durable external spend therefore concentrates in business-process context, governance, integration choices, admin ownership and change management rather than routine scripting."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_064-F6",
+      "title": "SAP_PLATFORM_PLUS_SECOND_EXTERNAL_CONSULTANT_REMEDIATION",
+      "chinese_title": "SAP 项目付费后再次购买资深顾问返工",
+      "evidence_class": "CURRENT_BUYER_SIDE_ACTIVE_SAP_PROJECT_PLUS_SECOND_EXTERNAL_CONSULTANT_SPEND_AFTER_INITIAL_PAID_FREELANCER_WORK_FAILED",
+      "verdict": "DEMOTED_RECURRING_EXTERNAL_SPEND_GATE_NOT_PROVEN_AND_REMEDIATION_IS_EXPERT_BUSINESS_PROCESS_CONFIGURATION_JUDGMENT",
+      "evidence_summary": "A current SAP buyer says an external freelancer worked for roughly six months, but testing exposed configuration and integration mismatches; the buyer then paid a more senior consultant and had to redo a large portion of the work. This proves strong duplicate spend after an incumbent enterprise platform and an external implementation attempt, but it does not prove a recurring external workaround subscription. The paid residual is expert process/configuration validation and remediation. Current SAP practitioners also describe functional support as persistent precisely because customer-specific business processes still require hands-on expertise."
+    }
+  ],
+  "hard_floor_demotions": [
+    "PAID_ADS_DOUBLE_SPEND_FAILS_MACHINE_RESIDUAL_WHEN_NATIVE_BIDDING_AND_CONVERSION_FEEDBACK_ALREADY_AUTOMATE_THE_ROUTINE_LOOP_AND_AGENCY_VALUE_REMAINS_STRATEGY_CREATIVE_ATTRIBUTION_AND_ACCOUNTABILITY",
+    "CLOUD_MANAGED_SERVICE_DOUBLE_SPEND_FAILS_MACHINE_RESIDUAL_WHEN_NATIVE_AGENTIC_OPS_ABSORBS_DIAGNOSIS_WHILE_THE_EXTERNAL_FEE_BUYS_24X7_OWNERSHIP_ARCHITECTURE_AND_CHANGE_RESPONSIBILITY",
+    "CYBER_MDR_DOUBLE_SPEND_FAILS_WHITE_SPACE_WHEN_MATURE_MDR_VENDORS_ALREADY_SELL_24X7_EXPERT_RESPONSE_AND_THE_VALUE_UNIT_INCLUDES_HUMAN_VALIDATION_CONTAINMENT_AND_LIABILITY_TRANSFER",
+    "RPA_FREELANCER_DOUBLE_SPEND_FAILS_FOUNDER_INDEPENDENT_DELIVERY_WHEN_THE_EXTERNAL_WORK_IS_REQUIREMENTS_DISCOVERY_BESPOKE_BUILD_TEST_EXCEPTION_HANDLING_AND_PRODUCTION_SUPPORT",
+    "NETSUITE_SUPPORT_DOUBLE_SPEND_FAILS_MACHINE_EDGE_WHEN_AI_ABSORBS_SCRIPTING_BUT_RECURRING_SPEND_PERSISTS_FOR_BUSINESS_CONTEXT_GOVERNANCE_ADMIN_OWNERSHIP_AND_CHANGE_MANAGEMENT",
+    "SAP_REMEDIATION_FAILS_RECURRING_SPEND_GATE_AND_THE_SECOND_PAYMENT_IS_EXPERT_CONFIGURATION_AND_PROCESS_JUDGMENT"
+  ],
+  "scan_learnings": [
+    "PARALLEL_DOUBLE_SPEND_IS_THE_STRONGEST_BUYER_WILLINGNESS_TO_PAY_SIGNAL_TESTED_IN_SCANS061_TO_064",
+    "DOUBLE_SPEND_STILL_DOES_NOT_PROVE_A_MACHINE_OPERATOR_EDGE_BECAUSE_BUYERS_OFTEN_PAY_THE_SECOND_PROVIDER_FOR_ACCOUNTABILITY_JUDGMENT_CONTEXT_AND_RISK_TRANSFER",
+    "THE_SECOND_SPEND_MUST_BE_DECOMPOSED_INTO_REPEATABLE_EXECUTION_VERSUS_STRATEGY_IMPLEMENTATION_RELATIONSHIP_LIABILITY_AND_EXPERT_SIGNOFF",
+    "CURRENT_NATIVE_AI_AND_AGENTIC_ROADMAPS_ARE_ABSORBING_MORE_ROUTINE_DIAGNOSIS_BUILD_AND_OPTIMIZATION_WORK_WHILE_HUMAN_ACCOUNTABILITY_REMAINS",
+    "A_STRONGER_NEXT_DISCOVERY_FLOOR_IS_PARALLEL_EXTERNAL_SPEND_PRIMARILY_FOR_DETERMINISTIC_REPEATABLE_EXECUTION_WITH_OBJECTIVE_OUTPUT_AND_BOUNDED_HUMAN_JUDGMENT_OR_LIABILITY",
+    "DO_NOT_CONFUSE_SERVICE_MARKET_REVENUE_WITH_FOUNDER_INDEPENDENT_OPERATOR_WHITE_SPACE",
+    "SCAN064_ZERO_RETENTION_AFTER_SECOND_SPEND_DECOMPOSITION_INTO_NATIVE_AUTOMATION_AND_HUMAN_ACCOUNTABILITY_TAILS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_065",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_SIDE_ACTIVE_OR_PAID_INCUMBENT_PLUS_SEPARATE_RECURRING_EXTERNAL_SPEND_PRIMARILY_FOR_DETERMINISTIC_REPEATABLE_EXECUTION_WITH_OBJECTIVE_MACHINE_VERIFIABLE_OUTPUT_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_BOUNDED_HUMAN_JUDGMENT_AND_LIABILITY_EXACT_INCUMBENT_AND_ROADMAP_PREFLIGHT_NO_SCAN064_VERTICAL_INHERITANCE_NO_REQUIRED_PRODUCT_SHAPE_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN065_FROM_DOUBLE_SPEND_WHERE_THE_EXTERNAL_PAID_UNIT_IS_PRIMARILY_DETERMINISTIC_REPEATABLE_EXECUTION_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/adwords/comments/1uc1iqk/what_level_of_support_and_involvement_do_you/",
+    "https://support.google.com/google-ads/answer/7065882?hl=en",
+    "https://support.google.com/google-ads/answer/15713840?hl=en",
+    "https://aws.amazon.com/solutions/case-studies/towngas/",
+    "https://docs.aws.amazon.com/devopsagent/latest/userguide/about-aws-devops-agent.html",
+    "https://www.reddit.com/r/msp/comments/1vuif8s/siemsocmdr_in_2026/",
+    "https://www.sentinelone.com/global-services/managed-detection-and-response/",
+    "https://www.reddit.com/r/UiPath/comments/1vi3jyp/looking_for_freelancer_helping_me_with_my_uipath/",
+    "https://www.uipath.com/product/autopilot",
+    "https://www.uipath.com/product/automation-cloud",
+    "https://www.reddit.com/r/Netsuite/comments/1u8f8ho/looking_for_alternatives_to_acs/",
+    "https://www.reddit.com/r/Netsuite/comments/1v8t8z8/recommendations_for_3rd_party_support_uk/",
+    "https://www.reddit.com/r/Netsuite/comments/1twrisj/future_of_netsuite_consultancy/",
+    "https://www.reddit.com/r/SAP/comments/1t3dmif/we_had_to_bring_in_a_second_sap_consultant_after/",
+    "https://www.reddit.com/r/SAP/comments/1t1uau2/are_support_consultants_over/"
+  ]
+}
