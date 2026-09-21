@@ -4,17 +4,22 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Reach the first real external value flow while validating retained formations in parallel. Discovery now starts
-one layer earlier than visible marketplaces: self-organized exchange, manual coordination and cross-system
-workarounds that already carry real resources or money before a dominant control surface forms.
+Reach the first real external value flow while validating retained formations in parallel. After testing visible
+marketplaces, emergent behavior and pre-platform self-organized exchange, the next discovery unit removes
+two-sided market formation entirely.
+
+Search current single-owner workflows where the same actor already owns the required input data and the right
+to execute the final action, but still bridges systems manually through chat, Excel, screenshots, copy/paste
+or reconciliation.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
-CURRENT_BEHAVIOR_FIRST
-SELF_ORGANIZED_EXCHANGE_BEFORE_PLATFORM
-NEW_BEHAVIOR != WHITE_SPACE
-WHOLE_MARKETPLACE != MICRO_EDGE
+ONE OWNER OF INPUT + ACTION
+NO NEW SUPPLY
+NO MARKETPLACE BUILD
+MANUAL BRIDGE MUST BE REPEATED
+GENERIC AUTOMATION IS A HARD FALSIFIER
 ZERO RETENTION IS VALID
 UNKNOWN != PASS
 ```
@@ -32,20 +37,20 @@ Validation queue:
 - `ATTRACTION_SCAN_016-F1` — two callable 9610 cross-customs return rails + non-consulting economics.
 
 Discovery queue:
-- `ATTRACTION_SCAN_029 — CURRENT_SELF_ORGANIZED_PRE_PLATFORM_BEHAVIOR_WITH_REAL_EXCHANGE_NO_DOMINANT_CONTROL_SURFACE_NO_PRIOR_VERTICAL_OR_MECHANISM_INHERITANCE`.
+- `ATTRACTION_SCAN_030 — CURRENT_SINGLE_OWNER_MANUAL_CROSS_SYSTEM_WORKFLOW_INPUT_AND_ACTION_RIGHTS_ALREADY_OWNED_NO_NEW_SUPPLY_NO_MARKETPLACE_NO_PRIOR_VERTICAL_INHERITANCE`.
 
-Scan 028 retained no new formation.
+Scan 029 retained no new formation.
 
 ## Current Phase
 
-`SCAN_028_COMPLETE_PENDING_PR_CI_MERGE`
+`SCAN_029_COMPLETE_PENDING_PR_CI_MERGE`
 
 ## Last Verified Main
 
-`e6557f7fe76923955fe6e83bf27f9156a7e9f94e`
-— squash merge of PR #321, `Complete Scan 027 with zero contract-value recovery retention`.
+`3091de012b19c22efdcc9f8c6594bf9de21a66df`
+— squash merge of PR #322, `Complete Scan 028 behavior-first with zero retention`.
 
-Main CI #926 verified successful.
+Main CI #928 verified successful.
 
 ## Active Issue
 
@@ -53,22 +58,22 @@ Main CI #926 verified successful.
 
 ## Active Branch
 
-`feature/scan028-behavior-first-zero-retention`
+`feature/scan029-preplatform-exchange-zero-retention`
 
 ## Active PR
 
-Not opened yet for Scan 028. Check GitHub live state first.
+Not opened yet for Scan 029. Check GitHub live state first.
 
 ## CI
 
-No Scan 028 PR CI run yet.
+No Scan 029 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_028.json`
-- `docs/research/ATTRACTION_SCAN_028_2026-09-21.md`
-- `tests/test_attraction_scan_028_behavior_first.py`
+- `data/research_runs/attraction_scan_029.json`
+- `docs/research/ATTRACTION_SCAN_029_2026-09-21.md`
+- `tests/test_attraction_scan_029_preplatform_exchange.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -76,43 +81,37 @@ Updated:
 
 ## Completed
 
-Scan 028 reset discovery away from cost/refund/rebate/recovery language and searched current behavior first.
+Scan 029 searched self-organized exchange before dominant marketplace formation.
 
-Observed new 2026 formations:
-- AI service light entrepreneurship;
-- ordinary people collecting real-world embodied-AI training data;
-- AI agents hiring humans for physical/hybrid tasks;
-- one-person AI-assisted cross-border business operations;
-- lightweight experience/service consumption.
+Observed:
+- industrial-park shared-employee WeChat groups;
+- paid dazi groups and AA group organization;
+- community surplus-meal WeChat groups;
+- logistics-park capacity alliances;
+- industrial-park purchase/sales requirement bulletins.
 
 Results:
 - commercial promotions = 0;
 - retained research formations = 0;
-- AI service deliverable acceptance demoted because transaction/dispute control remains platform-owned and QA is rapidly productizing;
-- embodied-data crowd collection demoted because multiple current operators already bundle recruitment, protocols, capture, QA and delivery;
-- agent-to-human marketplace demoted because exact global marketplaces already exist and entry would require another whole two-sided marketplace;
-- one-person cross-border agent OS demoted because platform-native seller agents are moving upstream;
-- lightweight experience discovery demoted because local-life platforms own discovery/booking/payment;
+- shared-employee matching demoted because scaling requires recurring worker supply, qualification, labor compliance and settlement while current platforms are already productizing the flow;
+- dazi-group OS demoted because signup/payment/AA/group tooling is commodity and the scarce work is traffic, moderation and offline organization;
+- surplus-meal routing demoted because exact surplus-food platforms exist and physical food timing/safety/pickup remain intrinsic;
+- logistics capacity sharing demoted because local alliance relationships, contracts and physical dispatch own the bridge;
+- park supply/demand automatch demoted because the official bulletin already provides discovery/direct contact while automatic text matching collapses to B2B lead generation;
 - FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
 
-The durable result is:
+The main Scan 029 result:
 
 ```text
-BEHAVIOR-FIRST SEARCH WORKS
-BUT
-NEW BEHAVIOR CAN PLATFORMIZE EXTREMELY FAST
+WECHAT GROUP != SOFTWARE OPPORTUNITY
 ```
 
-So the next discovery layer must move earlier again:
+A group is useful evidence that a flow exists. But when the human bridge is mostly trust, supply creation,
+compliance, settlement, community moderation or physical fulfillment, software does not remove the core work.
 
-```text
-SELF-ORGANIZED EXCHANGE
-+ MANUAL BRIDGE
-+ REAL MONEY / RESOURCE FLOW
-+ NO DOMINANT CONTROL SURFACE YET
-```
+The next scan must therefore avoid new supply and two-sided liquidity entirely.
 
 ## Blockers
 
@@ -121,10 +120,10 @@ Validation:
 - Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return rails and non-consulting economics.
 
 Engineering:
-- Scan 028 branch needs PR, CI, merge and main verification.
+- Scan 029 branch needs PR, CI, merge and main verification.
 
 Discovery:
-- Scan 029 has not yet started.
+- Scan 030 has not yet started.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -132,43 +131,34 @@ Commercial:
 
 ## Next Action
 
-Complete Scan 028 PR / CI / merge, then start Scan 029 from current self-organized pre-platform exchange.
+Complete Scan 029 PR / CI / merge, then start Scan 030.
 
-Search for:
-- WeChat/group-chat coordination;
-- community bulletin or ad-hoc spreadsheets;
-- manual cross-platform exchange;
-- repeated human brokers who only bridge state/availability;
-- shared resources exchanged outside a dominant marketplace;
-- recurring informal task handoffs;
-- current workaround behavior with real settlement or resource transfer.
-
-Required sequence:
+Search current workflows with this shape:
 
 ```text
-OBSERVE SELF-ORGANIZED EXCHANGE
-→ VERIFY BOTH SIDES REALLY MOVE
-→ IDENTIFY WHO CURRENTLY DOES THE BRIDGE
-→ TEST WHETHER THE BRIDGE CAN BECOME NON-HUMAN AND REUSABLE
-→ ONLY THEN DISCUSS BUSINESS
+ONE ACTOR ALREADY OWNS THE INPUT
++ ONE ACTOR ALREADY OWNS THE FINAL ACTION RIGHT
++ NO EXTERNAL SUPPLY MUST BE CREATED
++ NO MARKETPLACE LIQUIDITY IS REQUIRED
++ THE BRIDGE IS STILL MANUAL AND REPEATED
+→ TEST WHETHER IT IS NON-GENERIC AND WORTH PAYING FOR
 ```
 
-Scan 029 must not inherit:
-- AI service platforms;
-- embodied-data marketplaces;
-- agent-to-human marketplaces;
-- cross-border seller agents;
-- local-life experience verticals;
-- cost/refund/rebate/credit recovery;
-- routing as a required mechanism;
-- any active validation vertical as a discovery seed.
+Look specifically for:
+- Excel + system copy/paste;
+- screenshots manually re-entered into another system;
+- chat messages turned into structured actions;
+- repeated reconciliation between two systems of record;
+- machine-readable exception state that still triggers a human clerical bridge.
 
 ## Do Not Repeat
 
-- Do not call every new behavior a new market.
-- Do not propose another whole marketplace where the new behavior is already platformizing.
-- Do not start from product categories or monetization templates.
-- Do not manufacture a retained formation because several scans closed at zero.
+- Do not treat WeChat-group messiness as white space by itself.
+- Do not build another two-sided marketplace.
+- Do not require recurring worker/supplier acquisition.
+- Do not retain physical-local flows whose value is mostly field fulfillment.
+- Do not accept generic RPA/agent automation as a distinct operator asset.
+- Do not let prior verticals seed Scan 030.
 - Do not weaken evidence, payer, founder-independence, operator-control or actionability floors.
 
 ## Guardrails
@@ -176,8 +166,10 @@ Scan 029 must not inherit:
 - GitHub live state wins.
 - Attraction first for attention; evidence first for truth.
 - REALITY > COGNITION > SCHEMA.
+- ONE_OWNER_INPUT_AND_ACTION_RIGHTS.
+- NO_NEW_SUPPLY.
+- NO_MARKETPLACE_BUILD.
 - CURRENT_BEHAVIOR_FIRST_VALUE_MECHANISM_SECOND_BUSINESS_THEORY_LAST.
-- SELF_ORGANIZED_EXCHANGE_BEFORE_PLATFORM.
 - HOT_MARKET_NE_UNOWNED_CONTROL_EDGE.
 - MACHINE_READABLE_STATE_NE_ACTION_RIGHT.
 - ROUTING_IS_OPTIONAL_MECHANISM_NOT_CONSTITUTION.
