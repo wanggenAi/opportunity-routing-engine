@@ -28,7 +28,7 @@ This matches the current Scan 036 research order without turning that order into
 
 The contract is fail-closed:
 
-- `authority=SHADOW_RESEARCH_ADVISORY_ONLY`;
+- `authority=SHADOW_RESEARCH_ADVISORY_ONLY`;\n- `automatic_research_dispatch_allowed=false`;
 - `commercial_promotion_authority=false`;
 - `mutates_commercial_state=false`;
 - `may_reverse_existing_demotions=false`;
@@ -37,6 +37,15 @@ The contract is fail-closed:
 - `UNKNOWN != PASS`.
 
 A Jev recommendation can disagree with an existing engine verdict. That disagreement is diagnostic only. The existing evidence-bound verdict remains authoritative.
+
+Phase 2 explicitly separates:
+
+- `model_research_route` — Jev's raw typed opinion;
+- `effective_research_route` — the only route downstream code may consume;
+- `effective_route_source` — deterministic engine closure or Jev shadow advisory;
+- `route_alignment` — whether Jev agrees with an existing authoritative closure.
+
+If an existing verdict is an authoritative `DEMOTED_ / REJECTED_ / CLOSED_` closure, the effective route is deterministically forced to `NO_FURTHER_RESEARCH` even if Jev suggests something else.
 
 In particular, Jev cannot:
 
@@ -49,6 +58,8 @@ In particular, Jev cannot:
 ## Execution
 
 The intended environment is GitHub Actions, not a required local clone.
+
+By default `--scan-json auto` resolves the scan named by `data/commercial_reset_state.json:last_completed_scan_id`. If that file is unavailable it falls back to the highest numbered persisted `attraction_scan_*.json`. This prevents the integration from being frozen on Scan 035 as new scans are persisted.
 
 `.github/workflows/jev-research-advisory.yml` performs:
 
@@ -66,4 +77,6 @@ The initial bounded input is `ATTRACTION_SCAN_035`, which has six examined forma
 
 That is intentional. It provides a useful calibration set: Jev can demonstrate research-routing judgment while tests prove it cannot reverse the already-evidenced demotions.
 
-A later phase may persist advisory history after enough calibration. Automatic commercial promotion remains outside Jev authority.
+Phase 1 calibration on Scan 035 served `jev-1.13.0` and returned six successful `NO_FURTHER_RESEARCH` routes with zero failures. The individual incumbent-preflight binary question was noisier than the final route, which is why no individual sub-answer can dispatch work.
+
+Phase 2 adds the deterministic effective-route bridge and automatic current-scan resolution. Advisory artifacts remain non-authoritative and are not persisted into commercial truth. Automatic commercial promotion remains outside Jev authority.
