@@ -4,43 +4,45 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Run broad commercial discovery and retained-formation validation in parallel, without allowing candidate
-verticals, policy-document convenience or previously successful mechanisms to become hidden search priors.
+Run high-energy commercial discovery and retained-formation validation in parallel, while searching for narrow
+machine-resolvable micro-edges rather than whole marketplaces, policy workflows or previously preferred mechanisms.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
 PAST MECHANISM != FUTURE ONTOLOGY
-POLICY_VISIBILITY != COMMERCIAL_ATTRACTION
-HOT_MARKET != UNOWNED_CONTROL_EDGE
+HOT MARKET != UNOWNED CONTROL EDGE
+FEATURE GAP != BUSINESS
 ZERO RETENTION IS VALID
 UNKNOWN != PASS
 ```
 
 ## Goal
 
-Reach the first real external value flow through a high-attraction formation that survives participant pull,
-discoverability, machine-executable delivery, founder-independence, operator advantage and evidenced economics.
+Reach the first real external value flow through a formation that survives participant pull, discoverability,
+machine-executable delivery, founder-independence, operator control, evidenced economics and feature-absorption risk.
 
 ## Current Unique Commercial Research Goal
 
 Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic inbound intent.
 - `ATTRACTION_SCAN_016-F1` — two callable 9610 cross-customs return rails + non-consulting economics.
+- `ATTRACTION_SCAN_024-F1` — exact payer, real savings, multi-provider package-state callability, security,
+  feature-absorption speed and distinct operator asset for prepaid AI quota utilization.
 
 Discovery queue:
-- `ATTRACTION_SCAN_024 — HIGH_ENERGY_EXISTING_FLOWS_FIND_UNOWNED_MICRO_EDGES_NO_WHOLE_MARKETPLACE_OR_POLICY_PRIOR`.
+- `ATTRACTION_SCAN_025 — HIGH_ENERGY_MICRO_EDGE_NO_LLM_QUOTA_OR_ACTIVE_VERTICAL_INHERITANCE`.
 
 ## Current Phase
 
-`SCAN_023_MERGED_READY_FOR_SCAN_024`
+`SCAN_024_COMPLETE_PENDING_PR_CI_MERGE`
 
 ## Last Verified Main
 
-`693082593e9102495bdbe0bd89e2a8e39b3dee41`
-— squash merge of PR #314, `Complete voluntary-energy-first Scan 023`.
+`c72a2632b6a35f42edd119aea66219d5aca69bd7`
+— `Sync Scan 023 merged checkpoint (#315)`.
 
-PR #314 CI #913 verified successful.
+Main CI #916 verified successful.
 
 ## Active Issue
 
@@ -48,81 +50,81 @@ PR #314 CI #913 verified successful.
 
 ## Active Branch
 
-None. Resume from current `main`.
+`feature/scan024-prepaid-quota-microedge`
 
 ## Active PR
 
-None.
+Not opened yet for this Scan 024 branch. Check GitHub live state first.
 
 ## CI
 
-PR #314 CI #913 passed before merge.
+No Scan 024 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
-Scan 023:
-- `data/research_runs/attraction_scan_023.json`
-- `docs/research/ATTRACTION_SCAN_023_2026-09-21.md`
-- `tests/test_attraction_scan_023_voluntary_flow.py`
+New:
+- `data/research_runs/attraction_scan_024.json`
+- `docs/research/ATTRACTION_SCAN_024_2026-09-21.md`
+- `tests/test_attraction_scan_024_quota_pool.py`
 
-Commercial state:
+Updated:
 - `data/commercial_reset_state.json`
+- `TASK_STATE.md`
 
 ## Completed
 
-Scan 023 deliberately corrected a search-method bias: policy and standards documents are unusually easy to
-retrieve and structure, but that accessibility can pull research toward commercially inert workflows.
-
-The scan instead started from current voluntary motion: spending, renting, traveling, searching, time-bounded
-service demand and accepted substitutes.
+Scan 024 searched narrow micro-edges inside high-energy existing flows instead of proposing another whole
+marketplace or broad AI gateway.
 
 Results:
 - commercial promotions = 0;
-- retained Scan 023 research beacons = 0;
-- robot event rental meta-routing demoted because multi-brand rental platforms already own matching and
-  fulfillment remains engineer/transport/operator heavy;
-- inbound visitor all-in-one orchestration demoted because city/payment platforms already aggregate payment,
-  travel, ticketing, tax-refund and multilingual local-life rails;
-- smart-glasses cross-brand try-before-buy networking demoted because brands and optical retailers are
-  internalizing physical trial and fitting;
-- event-day microservice routing demoted because ticket-root/local-commerce rails already aggregate discovery
-  while remaining services are human-delivered;
-- home-care trust/capacity routing demoted because public/community/credit rails are expanding while core value
-  remains recurring human care;
+- retained research beacons = 1;
+- `ATTRACTION_SCAN_024-F1 — MULTI_PROVIDER_PREPAID_QUOTA_POOL_ROUTER` retained for cheap falsification only;
+- cross-order travel disruption/refund orchestration demoted because major OTAs are internalizing linked
+  guarantees/refund workflows while cross-platform action rights remain fragmented;
+- rental-housing deposit evidence assistant demoted because regulatory custody, platform workflows and existing
+  apps are absorbing the obvious evidence layer;
+- generic LLM cost router demoted because mature gateways already own budget/cost/rate/fallback routing;
 - FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
 
-The important distinction is:
+F1 is narrower than generic LLM cost routing.
+
+The candidate state is:
 
 ```text
-IS THE FLOW HOT?
-!=
-IS THERE AN UNOWNED CONTROL EDGE?
+ALREADY-PAID PROVIDER PACKAGE
++ LIVE REMAINING QUOTA
++ RESET / EXPIRY WINDOW
++ MODEL / POLICY COMPATIBILITY
+→ CHOOSE WHICH PURCHASED CAPACITY ABSORBS THE NEXT REQUEST
 ```
 
-High voluntary energy is now preferred as a discovery seed, but whole-marketplace aggregation should be killed
-early when incumbents already own discovery, matching and transaction.
+Current evidence:
+- Tencent TokenHub exposes Token Plan package balance, cycle, expiry and API-key subpackage balance by API.
+- Alibaba Model Studio exposes Token Plan usage through official CLI and shared-package detail through OpenAPI;
+  its plans include non-rollover/reset windows.
+- LiteLLM open issue #31823 asks for provider quota pools/package-based routing as a first-class concept and
+  describes the same enterprise procurement problem.
+- Cloudflare/Kong already validate demand for AI cost governance, but current public docs establish dollar-cost
+  budget/fallback control rather than this exact external prepaid-entitlement state.
 
-Scan 024 must search one level deeper:
-
-```text
-HIGH-ENERGY EXISTING FLOW
-→ OBSERVE REPEATED LEAKAGE / DELAY / UNCERTAINTY
-→ FIND ONE NARROW UNOWNED MICRO-EDGE
-→ MACHINE-RESOLVABLE STATE
-→ CALL EXISTING EXECUTION RAILS
-→ DO NOT REBUILD THE WHOLE MARKETPLACE
-```
+This is enough for research retention, not enough for commercial promotion.
 
 ## Blockers
 
 Validation:
-- Scan 015-F1 still awaits compatible written provider confirmation; the 2026-09-21 Gmail check found no new provider reply.
-- Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return rails and non-consulting economics.
+- Scan 015-F1 still awaits compatible written provider confirmation.
+- Scan 016-F1 still lacks two independent callable 9610 cross-customs return rails and non-consulting economics.
+- Scan 024-F1 has no exact standalone payer proof.
+- Real savings magnitude after model-quality/security constraints is unproven.
+- Feature absorption by LiteLLM, Cloudflare, Kong or providers may be faster than any business moat can form.
+- BYOK credential/security and multi-provider policy constraints may raise activation cost.
+- No compounding operator asset beyond an open-source router feature is proven.
 
-Discovery:
-- Scan 024 has not yet started.
+Engineering:
+- Scan 024 branch needs PR, CI, merge and main verification.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -130,25 +132,36 @@ Commercial:
 
 ## Next Action
 
-Start Scan 024 from high-energy existing flows and search for narrow, machine-resolvable, unowned micro-edges.
+Complete Scan 024 PR / CI / merge, then cheaply falsify Scan 024-F1 rather than building a product.
 
-Do not seed Scan 024 with a current or recently killed vertical, and do not use policy change or "build a
-marketplace" as the default search lens.
+Cheap falsification:
+1. exact existing product/plugin search;
+2. quantify actual unused prepaid quota and avoided PAYG value;
+3. verify at least Tencent + Alibaba machine-state adapters without scraping;
+4. test workload compatibility, data-residency and quality constraints;
+5. test whether buyers pay for the savings or expect this free inside their gateway;
+6. monitor feature absorption around LiteLLM #31823 and adjacent gateways;
+7. kill F1 if it is only a small open-source gateway feature without a compounding operator asset.
+
+In parallel, start Scan 025 from fresh high-energy reality without LLM/quota/gateway inheritance.
 
 ## Do Not Repeat
 
-- Do not confuse searchable policy structure with commercial attraction.
-- Do not promote an entire hot market as an opportunity.
-- Do not build another marketplace where incumbent discovery/matching/transaction rails already exist.
-- Do not accept recurring human service supply, vetting, setup or delivery as founder-independent execution.
-- Do not let robot rental, inbound tourism, smart glasses, event commerce or home care become Scan 024 priors.
-- Do not weaken evidence, payer, operator-control, discoverability or actionability floors.
+- Do not relabel generic LLM cost routing as white space.
+- Do not call an open GitHub feature request proof of payer willingness.
+- Do not call machine-readable quota state proof of operator control.
+- Do not build before savings magnitude and payer evidence.
+- Do not ignore security/data-residency/model-quality constraints when routing across providers.
+- Do not let LLM, Token Plan, quota-pool or gateway terms seed Scan 025.
+- Do not weaken evidence, payer, founder-independence, operator-control or actionability floors.
 
 ## Guardrails
 
 - GitHub live state wins.
 - Attraction first for attention; evidence first for truth.
 - REALITY > COGNITION > SCHEMA.
+- HOT_MARKET_NE_UNOWNED_CONTROL_EDGE.
+- FEATURE_GAP_NE_BUSINESS.
 - ROUTING_IS_OPTIONAL_MECHANISM_NOT_CONSTITUTION.
 - A/B voluntary energy must be evidence-backed.
 - Discoverability/addressability must be sufficient for the formation.
