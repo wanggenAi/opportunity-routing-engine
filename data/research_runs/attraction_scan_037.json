@@ -1,0 +1,130 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_037",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_THEN_REQUIRE_OBSERVED_RESIDUAL_LEAKAGE_OR_UNOWNED_ACTION_EDGE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "ENTERPRISE_AI_AGENT_RUNTIME_ENFORCEMENT",
+      "chinese_title": "企业AI智能体运行时身份与动作强制控制",
+      "evidence_class": "OBSERVED_RESIDUAL_GOVERNANCE_GAP_AND_ENTERPRISE_SPEND",
+      "observed_residual_leakage": "Enterprises still report many agents without oversight/logging and difficulty moving from discovery to real-time enforcement.",
+      "incumbent_preflight": "DENSE_CURRENT_EXECUTION_AND_IDENTITY_CONTROL_SURFACES_FOUND",
+      "residual_leakage_classification": "ADOPTION_AND_DEPLOYMENT_GAP_NOT_UNOWNED_ACTION_EDGE",
+      "verdict": "DEMOTED_CURRENT_IDENTITY_AND_RUNTIME_ENFORCEMENT_PLATFORMS_ALREADY_OCCUPY_CONTROL_EDGE",
+      "evidence_summary": "The leakage is real, but Microsoft Entra, CrowdStrike, Noma, Delinea, Entro, Cisco and others now expose agent identity, least-privilege, runtime authorization, discovery and enforcement. Remaining leakage is primarily deployment/coverage rather than a clean neutral action edge.",
+      "source_urls": [
+        "https://www.techradar.com/pro/how-to-move-from-ai-discovery-to-ai-enforcement",
+        "https://learn.microsoft.com/en-us/entra/agent-id/security-for-ai-overview",
+        "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-unveils-continuous-identity-for-ai-agents/",
+        "https://noma.security/blog/noma-launches-agentic-access-control-to-govern-ai-agents-and-mcp-servers-across-the-enterprise",
+        "https://delinea.com/news/delinea-delivers-runtime-authorization-for-ai-agents"
+      ]
+    },
+    {
+      "title": "VENDOR_ONBOARDING_DOCUMENT_AND_APPROVAL_ORCHESTRATION",
+      "chinese_title": "供应商准入资料与审批编排",
+      "evidence_class": "REPEATED_MANUAL_WORKAROUND",
+      "observed_residual_leakage": "Current organizations still use email, spreadsheets, PDFs and disconnected approval chains for vendor onboarding.",
+      "incumbent_preflight": "EXACT_WORKFLOW_PORTAL_AND_AUTOMATION_PRODUCTS_FOUND",
+      "residual_leakage_classification": "IMPLEMENTATION_FRAGMENTATION_NOT_UNOWNED_CONTROL_EDGE",
+      "verdict": "DEMOTED_EXACT_VENDOR_ONBOARDING_WORKFLOW_PRODUCTS_AND_GENERIC_AUTOMATION",
+      "evidence_summary": "The manual behavior remains observable, but current vendor-onboarding portals and workflow automation products directly centralize intake, document collection, review, approvals and ERP hand-offs. The residual is adoption/integration work, not an unowned machine action.",
+      "source_urls": [
+        "https://www.moxo.com/blog/vendor-onboarding-workflow",
+        "https://kasilabs.com/blog/build-vendor-onboarding-portal-workflow",
+        "https://sysgenpro.com/saas-procurement-automation-to-eliminate-manual-vendor-onboarding-bottlenecks"
+      ]
+    },
+    {
+      "title": "SUPPLIER_SCOPE3_PRIMARY_DATA_COLLECTION",
+      "chinese_title": "供应链Scope 3原始排放数据收集",
+      "evidence_class": "REPEATED_REQUIRED_WORKFLOW_AND_PAID_SOFTWARE",
+      "observed_residual_leakage": "Supplier response chasing, data quality and source-system movement remain recurring work even for sustainability teams.",
+      "incumbent_preflight": "DENSE_SUPPLIER_PORTAL_AND_CARBON_DATA_PRODUCTS_FOUND",
+      "residual_leakage_classification": "PARTICIPATION_AND_DATA_QUALITY_GAP_NOT_UNOWNED_ACTION_EDGE",
+      "verdict": "DEMOTED_DENSE_SUPPLIER_ENGAGEMENT_AND_CARBON_ACCOUNTING_CONTROL_SURFACES",
+      "evidence_summary": "Current platforms already provide supplier portals, questionnaires, reminders, ERP/API imports, data-quality scoring and disclosure outputs. Non-response and low-quality source data are participant/data constraints that a thin new software layer does not uniquely control.",
+      "source_urls": [
+        "https://carbontool.com/resources/supplier-emissions-data-collection-software/",
+        "https://www.sinai.com/post/sinai-carbon-management-platform-updates-q1-2026"
+      ]
+    },
+    {
+      "title": "CREATOR_MULTI_BRAND_PAYOUT_RECONCILIATION",
+      "chinese_title": "创作者多品牌合作结算对账",
+      "evidence_class": "REPEATED_MANUAL_WORKAROUND_AND_DIRECT_PAYMENT",
+      "observed_residual_leakage": "Agencies still reconcile creator balances, invoices, sponsorship budgets and payment status in spreadsheets and reminders.",
+      "incumbent_preflight": "EXACT_CREATOR_DEAL_AND_PAYOUT_SYSTEMS_FOUND",
+      "residual_leakage_classification": "ADOPTION_OR_PAYMENT_RAIL_FRAGMENTATION_NOT_UNOWNED_LEDGER_EDGE",
+      "verdict": "DEMOTED_EXACT_CREATOR_PAYOUT_AND_DEAL_SYSTEMS_ALREADY_TRACK_MILESTONES_RECONCILIATION_AND_INVOICING",
+      "evidence_summary": "Melon, Scoop and current campaign systems directly track deal-level balances, milestones, invoices, sponsor attribution and payout status. Fragmented underlying payment rails remain, but the software control surface is already productized.",
+      "source_urls": [
+        "https://www.getmelon.io/blog/agency-payout-operations/",
+        "https://help.scoop.app/en/articles/15094853-how-do-payments-work",
+        "https://usedots.com/blog/multi-brand-campaign-reconciliation/"
+      ]
+    },
+    {
+      "title": "HEALTHCARE_PRIOR_AUTHORIZATION_ADMIN_AUTOMATION",
+      "chinese_title": "医疗事前授权行政流程自动化",
+      "evidence_class": "HIGH_VOLUME_MANUAL_WORK_AND_DIRECT_ENTERPRISE_SPEND",
+      "observed_residual_leakage": "Practices still re-key clinical facts, use payer portals/fax/phone, chase status and rebuild denied cases.",
+      "incumbent_preflight": "DENSE_END_TO_END_PRIOR_AUTHORIZATION_AUTOMATION_PRODUCTS_FOUND",
+      "residual_leakage_classification": "PAYER_HETEROGENEITY_AND_CLINICAL_JUDGMENT_REMAINDER",
+      "verdict": "DEMOTED_DENSE_PA_AUTOMATION_MARKET_PLUS_IRREDUCIBLE_CLINICAL_DECISION_BOUNDARY",
+      "evidence_summary": "Multiple current platforms automate requirement lookup, evidence assembly, submission, status polling and denial workflows. The remaining hard layer is payer heterogeneity and clinical judgment rather than a founder-independent unowned digital edge.",
+      "source_urls": [
+        "https://www.uipath.com/solutions/industry/healthcare-automation/prior-authorization",
+        "https://clunic.com/use-cases/prior-authorization-automation",
+        "https://flexbone.ai/blog/how-to-automate-prior-authorization-2026/",
+        "https://www.silnahealth.com/resources/best-prior-authorization-software/"
+      ]
+    },
+    {
+      "title": "CONSTRUCTION_CHANGE_ORDER_FIELD_TO_OFFICE_CAPTURE",
+      "chinese_title": "施工变更单现场到办公室闭环",
+      "evidence_class": "REPEATED_MANUAL_WORKAROUND_AND_DIRECT_PAYMENT",
+      "observed_residual_leakage": "Verbal field approvals, delayed documentation and disconnected cost/approval records still create disputes and leakage.",
+      "incumbent_preflight": "DENSE_EXACT_CHANGE_ORDER_AND_FIELD_CAPTURE_PRODUCTS_FOUND",
+      "residual_leakage_classification": "FIELD_ADOPTION_DISCIPLINE_GAP_NOT_UNOWNED_ACTION_EDGE",
+      "verdict": "DEMOTED_DENSE_CHANGE_ORDER_CAPTURE_APPROVAL_AND_COST_SYNC_PRODUCTS",
+      "evidence_summary": "Current paid products already capture field evidence, route approvals, synchronize budgets/costs and maintain audit trails. Continued verbal/off-system work reflects adoption and field discipline rather than a missing control surface.",
+      "source_urls": [
+        "https://www.guideflow.com/blog/change-order-software",
+        "https://scopesnaps.com/",
+        "https://won2build.com/blog/top-change-order-tracking-solutions",
+        "https://ontrakt.com/blog/construction-field-management-software"
+      ]
+    }
+  ],
+  "hard_floor_demotions": [
+    "OBSERVED_MANUAL_WORK_AFTER_SOFTWARE_EXISTS_IS_NOT_AUTOMATIC_WHITE_SPACE",
+    "ADOPTION_OR_IMPLEMENTATION_GAP_IS_NOT_AN_UNOWNED_ACTION_EDGE",
+    "PARTICIPANT_NON_RESPONSE_OR_LOW_QUALITY_INPUT_IS_NOT_SOLVED_BY_A_THIN_ORCHESTRATION_LAYER",
+    "DENSE_EXACT_CONTROL_SURFACES_KILL_WHEN_THEY_ALREADY_OWN_THE_RELEVANT_ACTION_LOOP",
+    "IRREDUCIBLE_CLINICAL_OR_FIELD_JUDGMENT_REMAINDER_FAILS_FOUNDER_INDEPENDENT_MACHINE_DELIVERY"
+  ],
+  "scan_learnings": [
+    "POST_INCUMBENT_RESIDUAL_LEAKAGE_MUST_BE_CLASSIFIED_BY_CAUSE_BEFORE_DEEP_RESEARCH",
+    "ADOPTION_IMPLEMENTATION_AND_DISCIPLINE_LEAKAGE_DO_NOT_PROVE_AN_UNOWNED_CONTROL_EDGE",
+    "PARTICIPANT_RESPONSE_AND_SOURCE_DATA_QUALITY_ARE_DIFFERENT_FROM_MACHINE_ACTION_RIGHTS",
+    "SAME_CONTROL_LOOP_PRODUCTS_CAN_COEXIST_WITH_CONTINUED_MANUAL_WORK_BECAUSE_MARKET_PENETRATION_IS_INCOMPLETE",
+    "NEXT_SCAN_SHOULD_REQUIRE_RESIDUAL_LEAKAGE_CAUSED_BY_A_STRUCTURAL_CONTROL_RIGHT_DATA_RIGHT_OR_CROSS_SYSTEM_ACTION_GAP_RATHER_THAN_MERE_NONADOPTION",
+    "SCAN_037_ZERO_RETENTION_AFTER_RESIDUAL_LEAKAGE_CAUSAL_CLASSIFICATION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_038",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_REQUIRE_RESIDUAL_LEAKAGE_CAUSED_BY_STRUCTURAL_CONTROL_RIGHT_DATA_RIGHT_OR_CROSS_SYSTEM_ACTION_GAP_NOT_ADOPTION_IMPLEMENTATION_OR_DISCIPLINE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "next_action": "TRIGGER_JEV_ON_SCAN037_THEN_FOLLOW_TYPED_CONTINUATION_DIRECTIVE",
+  "first_external_value_flow": "NOT_PROVEN"
+}

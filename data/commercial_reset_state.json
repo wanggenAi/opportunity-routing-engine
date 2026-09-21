@@ -60,10 +60,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_036",
+  "last_completed_scan_id": "ATTRACTION_SCAN_037",
   "last_resolved_formation_id": "ATTRACTION_SCAN_016-F1",
-  "next_scan_id": "ATTRACTION_SCAN_037",
-  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_SCAN037_POST_INCUMBENT_LEAKAGE_SEARCH",
+  "next_scan_id": "ATTRACTION_SCAN_038",
+  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_SCAN038_STRUCTURAL_POST_INCUMBENT_GAP_SEARCH",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -357,7 +357,11 @@
     "ATTRACTION_SCAN_036 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
     "Scan 036 moved exact incumbent preflight ahead of expensive causal descent and killed all six broad formations before deep research.",
     "AI usage-spend control, EU AI Act compliance, DPP/PPWR, EV home-charging reimbursement, subcontractor COI tracking and API deprecation monitoring all had exact current control surfaces.",
-    "Incumbent presence was treated as decisive only where the incumbent resolves the same control loop; Scan 037 must look for observed residual leakage or an unowned action edge after incumbent preflight."
+    "Incumbent presence was treated as decisive only where the incumbent resolves the same control loop; Scan 037 must look for observed residual leakage or an unowned action edge after incumbent preflight.",
+    "ATTRACTION_SCAN_037 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
+    "Scan 037 tested six domains where manual work persists despite available software and classified the cause of residual leakage before deep research.",
+    "Residual manual work in the six tested domains was attributable to adoption, implementation, field discipline, participant response/data quality, payment-rail fragmentation or irreducible clinical judgment rather than an unowned machine action edge.",
+    "Scan 038 must require a structural control-right, data-right or cross-system action gap after incumbent preflight rather than mere non-adoption."
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -500,9 +504,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_037",
+      "next_scan_id": "ATTRACTION_SCAN_038",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_THEN_REQUIRE_OBSERVED_RESIDUAL_LEAKAGE_OR_UNOWNED_ACTION_EDGE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM"
+      "search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_REQUIRE_RESIDUAL_LEAKAGE_CAUSED_BY_STRUCTURAL_CONTROL_RIGHT_DATA_RIGHT_OR_CROSS_SYSTEM_ACTION_GAP_NOT_ADOPTION_IMPLEMENTATION_OR_DISCIPLINE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM"
     }
   },
   "system_learnings": [
@@ -559,6 +563,10 @@
     "EARLY_EXACT_INCUMBENT_PREFLIGHT_CAN_SAVE_DEEP_RESEARCH_WITHOUT_WEAKENING_TRUTH_GATES",
     "NEW_REGULATION_OR_NEW_AI_BILLING_DOES_NOT_IMPLY_WHITE_SPACE_WHEN_CONTROL_SURFACES_SHIP_SIMULTANEOUSLY",
     "INCUMBENT_ONLY_KILLS_WHEN_IT_RESOLVES_THE_RELEVANT_VALUE_FLOW",
-    "POST_INCUMBENT_RESIDUAL_LEAKAGE_IS_THE_NEXT_DISCOVERY_EVIDENCE_PRIORITY"
+    "POST_INCUMBENT_RESIDUAL_LEAKAGE_IS_THE_NEXT_DISCOVERY_EVIDENCE_PRIORITY",
+    "RESIDUAL_MANUAL_WORK_AFTER_SOFTWARE_EXISTS_IS_NOT_AUTOMATIC_WHITE_SPACE",
+    "POST_INCUMBENT_LEAKAGE_MUST_BE_CLASSIFIED_BY_CAUSE",
+    "ADOPTION_IMPLEMENTATION_DISCIPLINE_GAPS_DO_NOT_CREATE_OPERATOR_CONTROL",
+    "STRUCTURAL_CONTROL_RIGHT_DATA_RIGHT_OR_CROSS_SYSTEM_ACTION_GAP_IS_THE_NEXT_DEEP_RESEARCH_GATE"
   ]
 }
