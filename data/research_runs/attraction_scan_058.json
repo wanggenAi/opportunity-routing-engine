@@ -1,0 +1,102 @@
+{
+  "schema_version": "attraction-scan.v37",
+  "scan_id": "ATTRACTION_SCAN_058",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_PAID_OUTCOMES_FORMATION_DIVERSE_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_EXCEPTION_REMEDIATION_NO_FIXED_STATE_TRANSITION_NO_EXTERNAL_TRIGGER_MECHANISM_INHERITANCE_NO_SCAN053_TO_SCAN057_VERTICAL_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_058-F1",
+      "title": "SUBCONTRACTOR_COI_COLLECTION_AND_CONTINUOUS_TRACKING",
+      "chinese_title": "分包商保险凭证追收与持续合规跟踪",
+      "evidence_class": "CURRENT_6_PLUS_MONTH_PAID_HUMAN_WORKAROUND_WITH_REPEATED_EMAIL_CHASING_AND_EXPIRY_TRACKING",
+      "verdict": "DEMOTED_EXACT_REALTIME_COI_COMPLIANCE_CONTROL_SURFACE",
+      "evidence_summary": "A current Upwork buyer is offering $18–$22/hour for 6+ months to email roughly 50 subcontractors every two days until COIs arrive, maintain Excel expiry dates and keep certificates current year-round. Certificial already digitizes COI requests, validates coverage against requirements, continuously monitors renewals/changes and can trigger downstream access/payment/order actions. The recurring human spend is real, but the exact control surface is mature."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_058-F2",
+      "title": "END_TO_END_RFP_RESPONSE_OWNERSHIP",
+      "chinese_title": "RFP/投标响应全流程托管",
+      "evidence_class": "CURRENT_ONGOING_PAID_SPECIALIST_ROLE_WITH_FORMAL_REQUIREMENT_COMPLIANCE_AND_SUBMISSION",
+      "verdict": "DEMOTED_PURPOSE_BUILT_RFP_AUTOMATION_PLUS_RECURRING_COMPANY_SPECIFIC_JUDGMENT",
+      "evidence_summary": "A current ongoing Upwork role offers $10–$65/hour for ownership of formal RFPs from requirement review through compliance matrix, drafting, knowledge-base maintenance and final submission. Loopio and other purpose-built 2026 RFP platforms already automate shredding, first drafts, content governance and cross-functional workflow. The residual work is company-specific positioning, unsupported-claim avoidance, pricing/certification decisions and management input, which remains recurring judgment rather than founder-free machine delivery."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_058-F3",
+      "title": "B2B_PRODUCT_CATALOG_WEB_ENRICHMENT",
+      "chinese_title": "B2B 商品目录网页检索与属性补全",
+      "evidence_class": "CURRENT_PAID_HIGH_VOLUME_PRODUCT_RESEARCH_AND_ATTRIBUTE_ENRICHMENT",
+      "verdict": "DEMOTED_CURRENT_PIM_WEB_ENRICHMENT_AND_LOW_UNIT_LABOR_ECONOMICS",
+      "evidence_summary": "Current buyers still hire people to verify MPN/SKU/product variants and source authoritative images or specifications across thousands of catalog items, including $6–$12/hour and low fixed-price jobs. Akeneo's July 2026 Web-Based Attribute Enrichment now searches the live web for missing product facts, returns source citations and supports human review and bulk workflow automation. The remaining commodity review labor is low-priced and does not establish normalized orchestration margin."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_058-F4",
+      "title": "RENT_MANAGER_AI_LEASE_ABSTRACTION_AND_WRITEBACK",
+      "chinese_title": "Rent Manager AI 商业租约抽取与审核写回",
+      "evidence_class": "CURRENT_2000_DOLLAR_PHASED_INTEGRATION_DEMAND_WITH_CLIENT_OWNED_RUNTIME_AND_HUMAN_REVIEW",
+      "verdict": "DEMOTED_OFFICIAL_EXACT_RENT_MANAGER_LEASE_AI_INTEGRATION",
+      "evidence_summary": "A current $2,000 phased Upwork engagement asks for Rent Manager API integration, Claude-based lease abstraction, source-linked human review and conditional write-back in customer-owned infrastructure. Exact preflight finds Bryckel listed in Rent Manager's official integration directory specifically for AI-powered lease abstraction and document automation, with a direct Rent Manager integration already announced. The job therefore proves custom implementation demand, not an unowned product category."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_058-F5",
+      "title": "EXPORT_DOCUMENTATION_AND_TRADE_COMPLIANCE_OPERATIONS",
+      "chinese_title": "出口单证与贸易合规运营",
+      "evidence_class": "CURRENT_6_PLUS_MONTH_PAID_EXPORT_DOCUMENT_AND_COMPLIANCE_SPECIALIST_ROLE",
+      "verdict": "DEMOTED_MATURE_EXPORT_DOCUMENT_AUTOMATION_PLUS_TRADE_EXPERT_TAIL",
+      "evidence_summary": "A current Upwork role offers $10–$40/hour for 6+ months of export documentation, records and U.S./UK/EU trade-compliance work. IncoDocs already generates complete export document sets, removes re-entry, integrates with ERP/TMS/accounting and supports commercial invoices, bills of lading and certificates of origin. The portion not absorbed by document automation is jurisdiction/corridor-specific compliance judgment, an expert tail that violates normalized founder-independent delivery."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_058-F6",
+      "title": "SOC2_READINESS_EVIDENCE_AND_AUDIT_SUPPORT",
+      "chinese_title": "SOC 2 准备、证据收集与审计支持",
+      "evidence_class": "CURRENT_ONGOING_25_TO_75_DOLLAR_PER_HOUR_COMPLIANCE_SPECIALIST_DEMAND",
+      "verdict": "DEMOTED_MATURE_CONTINUOUS_COMPLIANCE_AUTOMATION_PLUS_EXPERT_AND_AUDITOR_TAIL",
+      "evidence_summary": "Current SOC 2 specialist work pays roughly $25–$75/hour and asks for gap assessment, control mapping, remediation planning, evidence guidance and audit readiness. Vanta already automates evidence collection, runs continuous tests and gives auditors a dedicated review portal; Drata likewise automates evidence and continuous monitoring. Residual scope includes architecture-specific control design, interpretation and independent attestation, which remains expert or licensed-auditor work."
+    }
+  ],
+  "hard_floor_demotions": [
+    "COI_TRACKING_FAILS_WHITE_SPACE_WHEN_CERTIFICIAL_ALREADY_AUTOMATES_REQUEST_VALIDATION_CONTINUOUS_MONITORING_AND_DOWNSTREAM_COMPLIANCE_ACTION",
+    "RFP_OWNERSHIP_FAILS_FOUNDER_INDEPENDENT_MACHINE_DELIVERY_WHEN_PURPOSE_BUILT_SOFTWARE_AUTOMATES_THE_REPETITIVE_LAYER_AND_RESIDUAL_WORK_REQUIRES_COMPANY_SPECIFIC_POSITIONING_AND_DECISIONS",
+    "CATALOG_WEB_ENRICHMENT_FAILS_MARGIN_AND_WHITE_SPACE_WHEN_AKENEO_NOW_RESEARCHES_LIVE_WEB_WITH_CITATIONS_AND_HUMAN_REVIEW_WHILE_OPEN_MARKET_LABOR_IS_LOW_PRICED",
+    "RENT_MANAGER_LEASE_AI_FAILS_WHITE_SPACE_WHEN_RENT_MANAGER_OFFICIALLY_LISTS_BRYCKEL_FOR_THE_EXACT_AI_LEASE_ABSTRACTION_INTEGRATION",
+    "EXPORT_DOCUMENTATION_FAILS_WHITE_SPACE_FOR_STANDARD_DOCUMENT_CREATION_AND_RETURNS_TO_TRADE_EXPERT_JUDGMENT_FOR_THE_RESIDUAL",
+    "SOC2_OPERATIONS_FAILS_WHITE_SPACE_FOR_EVIDENCE_AUTOMATION_AND_RETURNS_TO_ARCHITECTURE_SPECIFIC_EXPERT_OR_INDEPENDENT_AUDITOR_WORK_FOR_THE_RESIDUAL"
+  ],
+  "scan_learnings": [
+    "BROAD_FORMATION_DIVERSE_RESET_RESTORES_REALITY_CONTACT_WITH_CURRENT_PAID_HUMAN_WORK",
+    "CURRENT_HUMAN_HIRING_DOES_NOT_PROVE_SOFTWARE_WHITE_SPACE_WHEN_EXACT_PRODUCTS_ALREADY_EXIST",
+    "CUSTOM_INTEGRATION_DEMAND_DOES_NOT_PROVE_PRODUCT_GAP_WHEN_AN_OFFICIAL_EXACT_INTEGRATION_ALREADY_EXISTS",
+    "PAID_RESIDUAL_WORK_AFTER_AUTOMATION_OFTEN_CONCENTRATES_IN_BUYER_SPECIFIC_JUDGMENT_COMPLIANCE_OR_SIGNOFF",
+    "LOW_WAGE_HIGH_VOLUME_CATALOG_WORK_DOES_NOT_SUPPORT_NORMALIZED_OPERATOR_MARGIN_WHEN_CURRENT_PIM_AI_CAN_RESEARCH_AND_ENRICH_WITH_HUMAN_REVIEW",
+    "BROAD_DISCOVERY_SHOULD_CONTINUE_FOR_AT_LEAST_A_SECOND_FORMATION_DIVERSE_PASS_BEFORE_DERIVING_ANY_NEW_MECHANISM_BOUNDARY",
+    "SCAN058_ZERO_RETENTION_AFTER_EXACT_SAAS_OFFICIAL_INTEGRATION_LOW_UNIT_ECONOMICS_AND_EXPERT_TAIL_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_059",
+  "next_search_boundary": "BROAD_CURRENT_PAID_OUTCOMES_FORMATION_DIVERSE_SECOND_PASS_STRONG_RECURRING_SPEND_OR_CONTRACT_TO_HIRE_EVIDENCE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_SCAN058_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN059_AS_SECOND_BROAD_FORMATION_DIVERSE_PAID_OUTCOME_PASS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.upwork.com/freelance-jobs/apply/Office-Administration_~022100672657117534690/",
+    "https://www.certificial.com/requestor",
+    "https://www.upwork.com/freelance-jobs/apply/independent-RFP-proposal-specialist_~022092593131623880036/",
+    "https://loopio.com/rfp-automation-software/",
+    "https://www.upwork.com/freelance-jobs/apply/Commerce-Product-Image-Sourcing-Catalog-Enrichment-Specialist_~022092749337907947405/",
+    "https://help.akeneo.com/2026/july-2026-serenity-updates",
+    "https://www.upwork.com/freelance-jobs/apply/Rent-Manager-API-Integration-Lease-Abstraction-Phased_~022089390483588562578/",
+    "https://www.rentmanager.com/integrations/bryckel-inc/",
+    "https://www.upwork.com/freelance-jobs/apply/Export-Documentation-Trade-Compliance-Specialist_~022091005521612838244/",
+    "https://incodocs.com/export-documents",
+    "https://www.upwork.com/freelance-jobs/apply/SOC-Compliance-Specialist-Needed_~022082837732356436051/",
+    "https://www.vanta.com/products/soc-2",
+    "https://drata.com/"
+  ]
+}
