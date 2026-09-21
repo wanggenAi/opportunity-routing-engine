@@ -1,0 +1,109 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_034",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_REQUIRE_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM_KEEP_COMMERCIAL_HARD_FLOORS",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "AI_TO_HUMAN_CUSTOMER_SERVICE_CONTEXT_CONTINUITY",
+      "chinese_title": "AI客服转人工上下文连续层",
+      "evidence_class": "REPEATED_WORKAROUND",
+      "evidence_summary": "Consumers repeatedly request human service and complain about re-explaining context; the 2026 national collaboration standard explicitly targets broken handoff and repeated restatement.",
+      "verdict": "DEMOTED_NATIVE_CONTACT_CENTER_HANDOFF_AND_CONTEXT_CONTINUITY",
+      "kill_reason": "Tencent Customer Service already detects human-transfer intent, keeps AI and human messages in one conversation and shows the human agent prior AI history. The control surface is native CCaaS functionality."
+    },
+    {
+      "title": "WECHAT_EXCEL_TO_CRM_SALES_MEMORY_BRIDGE",
+      "chinese_title": "微信Excel到CRM销售记忆桥",
+      "evidence_class": "REPEATED_WORKAROUND",
+      "evidence_summary": "Current CRM articles document sales teams communicating in WeChat, maintaining Excel and later backfilling CRM, creating duplicated work and inconsistent records.",
+      "verdict": "DEMOTED_CRM_LOW_CODE_AND_GENERIC_INTEGRATION",
+      "kill_reason": "CRM, SCRM and low-code products already centralize/import/deduplicate multi-source customer records. The remaining bridge is generic capture/integration rather than a distinct operator asset."
+    },
+    {
+      "title": "CONSUMER_PROXY_QUEUE_AND_RESERVATION_SERVICE",
+      "chinese_title": "消费者代排代约服务",
+      "evidence_class": "DIRECT_PAYMENT",
+      "evidence_summary": "2026 investigations show consumers paying tens to hundreds of yuan for restaurant queue numbers and scarce free reservations after repeated official booking failure.",
+      "verdict": "DEMOTED_FAIRNESS_RESOURCE_CAPTURE_AND_NO_NEW_SUPPLY",
+      "kill_reason": "The service monetizes occupation/resale of scarce public or merchant-controlled slots rather than creating new supply or a durable legitimate control edge; authorities/platforms actively oppose such behavior."
+    },
+    {
+      "title": "GENERAL_LIFESTYLE_PROXY_SERVICE_MARKETPLACE",
+      "chinese_title": "生活代办代跑服务市场",
+      "evidence_class": "DIRECT_PAYMENT",
+      "evidence_summary": "Current reporting describes full-time providers earning income from paid passport pickup, queuing, driving, pet walking and other proxy tasks.",
+      "verdict": "DEMOTED_RECURRING_HUMAN_DELIVERY_AND_MARKETPLACE_OPERATIONS",
+      "kill_reason": "The purchased unit is human time and physical execution. Scaling requires continued worker supply, trust, dispatch, insurance and local fulfillment."
+    },
+    {
+      "title": "HOME_ORGANIZATION_AUTOMATION_LAYER",
+      "chinese_title": "上门整理收纳自动化层",
+      "evidence_class": "DIRECT_PAYMENT",
+      "evidence_summary": "2026 Hangzhou providers report seasonal order growth of roughly 20–30% and paid hourly rates, demonstrating real willingness to pay.",
+      "verdict": "DEMOTED_DIRECT_HUMAN_SERVICE_AND_EXISTING_VERTICAL_PLATFORM",
+      "kill_reason": "The core value is in-home physical sorting/layout work. Dedicated platforms already connect organizers and consumers; software cannot replace the recurring physical service."
+    },
+    {
+      "title": "IN_HOME_PET_CARE_COORDINATION_LAYER",
+      "chinese_title": "上门宠物照护协调层",
+      "evidence_class": "DIRECT_PAYMENT",
+      "evidence_summary": "Current pet-care systems report substantial registered-user and completed-order volumes for paid feeding/walking/boarding services.",
+      "verdict": "DEMOTED_EXISTING_FULL_STACK_PLATFORM_AND_HUMAN_CARE",
+      "kill_reason": "Current platforms already cover booking, provider apps, dispatch, payment, evidence and aftersales; the delivered value remains recurring in-home human care."
+    },
+    {
+      "title": "AI_BID_DOCUMENT_PRODUCTION_LAYER",
+      "chinese_title": "AI标书生产层",
+      "evidence_class": "DIRECT_PAYMENT",
+      "evidence_summary": "Current AI bid tools publish paid plans and large usage claims for tender parsing, document generation, compliance checks and enterprise knowledge reuse.",
+      "verdict": "DEMOTED_MULTIPLE_EXACT_SPECIALIZED_INCUMBENTS",
+      "kill_reason": "Multiple current products already own the end-to-end tender-analysis, drafting, scoring and compliance workflow. The transformation is productized rather than an unowned edge."
+    },
+    {
+      "title": "ENTERPRISE_CONTENT_MODERATION_SERVICE_LAYER",
+      "chinese_title": "企业内容审核服务层",
+      "evidence_class": "DIRECT_PAYMENT",
+      "evidence_summary": "Alibaba and Tencent expose current paid text/image/video/audio moderation APIs with explicit per-use pricing.",
+      "verdict": "DEMOTED_HYPERSCALER_PAID_API_CONTROL_SURFACE",
+      "kill_reason": "The payer is proven, but the exact machine service is already a cloud API commodity with mature labels, guardrails and billing."
+    },
+    {
+      "title": "DOCUMENT_DIGITIZATION_AND_METADATA_PROCESSING_LAYER",
+      "chinese_title": "企业文档数字化与元数据处理层",
+      "evidence_class": "DIRECT_PAYMENT",
+      "evidence_summary": "Current BPO vendors market paid document-digitization workflows with measurable reductions in processing cost/time.",
+      "verdict": "DEMOTED_MATURE_BPO_IDP_AND_FINANCE_AUTOMATION",
+      "kill_reason": "OCR/IDP/BPO and finance automation already occupy extraction, normalization, review and archival workflows; no distinct operator asset emerges."
+    }
+  ],
+  "hard_floor_demotions": [
+    "REPEATED_USER_WORKAROUND_IS_NOT_WHITE_SPACE_WHEN_NATIVE_PLATFORM_FEATURES_ALREADY_REMOVE_THE_HANDOFF_GAP",
+    "DIRECT_PAYMENT_FOR_HUMAN_TIME_DOES_NOT_SATISFY_FOUNDER_INDEPENDENT_DELIVERY",
+    "PAID_RESOURCE_CAPTURE_OR_QUEUE_SCALPING_IS_NOT_A_DURABLE_LEGITIMATE_VALUE_EDGE",
+    "DIRECT_PAYER_EVIDENCE_DOES_NOT_OVERRIDE_EXACT_SPECIALIZED_INCUMBENTS",
+    "PAID_MACHINE_API_CAN_BE_REAL_DEMAND_AND_STILL_BE_A_COMMODITY_CONTROL_SURFACE"
+  ],
+  "scan_learnings": [
+    "DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_IMPROVES_SIGNAL_QUALITY_BUT_DOES_NOT_REPLACE_CONTROL_AND_DELIVERY_FLOORS",
+    "HUMAN_TIME_AND_PHYSICAL_EXECUTION_SHOULD_BE_KILLED_EARLIER_IN_DISCOVERY",
+    "PLATFORM_SCARCE_RESOURCE_CAPTURE_CAN_SHOW_PAYMENT_WITHOUT_CREATING_LEGITIMATE_NEW_VALUE",
+    "CURRENT_CCAAS_CRM_CONTENT_MODERATION_AND_BID_AI_SHOW_THAT_OBVIOUS_DIGITAL_WORKAROUNDS_PRODUCTIZE_QUICKLY",
+    "NEXT_SCAN_SHOULD_PREFILTER_FOR_DIGITAL_OR_DELEGATABLE_DELIVERY_BEFORE_DEEP_RESEARCH_WHILE_REMAINING_MECHANISM_NEUTRAL",
+    "SCAN_034_ZERO_RETENTION_AFTER_PAYER_AND_WORKAROUND_HARD_FLOOR_FALSIFICATION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_035",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_PLUS_DIGITAL_OR_DELEGATABLE_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM_KEEP_COMMERCIAL_HARD_FLOORS",
+  "next_action": "START_SCAN035_WITH_PAYER_OR_WORKAROUND_EVIDENCE_AND_EARLY_KILL_HUMAN_TIME_PHYSICAL_CUSTODY_OR_PLATFORM_RESOURCE_CAPTURE",
+  "first_external_value_flow": "NOT_PROVEN"
+}
