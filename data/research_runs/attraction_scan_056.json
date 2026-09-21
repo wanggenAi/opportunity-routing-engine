@@ -1,0 +1,101 @@
+{
+  "schema_version": "attraction-scan.v35",
+  "scan_id": "ATTRACTION_SCAN_056",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "CURRENT_RECURRING_PAID_EXTERNAL_EVENT_TRIGGER_TO_BUYER_OWNED_FIXED_STATE_TRANSITION_DIRECT_MARGIN_OR_REVENUE_OUTCOME_STANDARDIZED_TRIGGER_ACTION_MAPPING_NO_SAME_VENDOR_NATIVE_OBSERVABILITY_NO_PLATFORM_APPROVAL_NO_REGULATED_SIGNATURE_NO_SCAN055_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_056-F1",
+      "title": "FX_TRIGGERED_COMMERCE_PRICE_UPDATE",
+      "chinese_title": "汇率触发的电商价格自动调整",
+      "evidence_class": "CURRENT_EXTERNAL_FX_SIGNAL_TO_BUYER_OWNED_PRICE_STATE_WITH_MARGIN_PROTECTION",
+      "verdict": "DEMOTED_EXACT_FX_TO_PRICE_AUTOMATION_CONTROL_SURFACE",
+      "evidence_summary": "Live exchange rates are external to the merchant store and price writes are buyer-controlled. Current Shopify apps such as KurSync already convert source-currency costs into store prices, apply margin buffers/minimums/rounding and schedule automatic updates when FX moves. The exact external-trigger→price-state loop is already packaged at low SaaS price points."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_056-F2",
+      "title": "WEATHER_TRIGGERED_AD_CAMPAIGN_CONTROL",
+      "chinese_title": "天气触发的广告启停与出价控制",
+      "evidence_class": "CURRENT_EXTERNAL_WEATHER_SIGNAL_TO_BUYER_AD_STATE_WITH_SPEND_AND_REVENUE_EFFECT",
+      "verdict": "DEMOTED_EXACT_WEATHER_TO_AD_ACTION_AUTOMATION",
+      "evidence_summary": "Weather is an independent external event and campaign/geo/bid states are writable by the advertiser. WeatherAds already changes Google Ads campaign activation, geo targeting and bids from weather rules as frequently as every 15 minutes. The cross-system trigger does not preserve an unowned edge."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_056-F3",
+      "title": "COMMODITY_INDEX_TRIGGERED_B2B_PRICE_UPDATE",
+      "chinese_title": "商品指数触发的 B2B 价格调整",
+      "evidence_class": "CURRENT_EXTERNAL_COMMODITY_INDEX_TO_ERP_PRICING_WITH_DIRECT_MARGIN_PROTECTION",
+      "verdict": "DEMOTED_MATURE_INDEX_DRIVEN_ENTERPRISE_PRICING_CONTROL_SURFACE",
+      "evidence_summary": "Commodity/feedstock indexes are external, while price lists/formula contracts are buyer-controlled and directly affect margin. Rockton Pricing Management automatically imports commodity indexes/external cost feeds and applies pricing rules through ERP integration; Pricefx and Vendavo explicitly support raw-material/market-index formula pricing. Exact incumbent coverage is mature."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_056-F4",
+      "title": "COMPETITOR_STOCKOUT_TRIGGERED_REPRICING",
+      "chinese_title": "竞品缺货触发的自动提价",
+      "evidence_class": "CURRENT_EXTERNAL_COMPETITOR_AVAILABILITY_TO_BUYER_PRICE_STATE_WITH_MARGIN_UPSIDE",
+      "verdict": "DEMOTED_EXACT_COMPETITOR_SIGNAL_REPRICING_CONTROL_SURFACE",
+      "evidence_summary": "Competitor stockout is an external web signal and a merchant price change is buyer-owned. RepricerBot, Retailgrid, Repricer.com and similar tools already monitor competitor stock/price and automatically raise or otherwise reprice products inside margin guardrails. The external signal is already commoditized by the pricing category."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_056-F5",
+      "title": "DAY_AHEAD_ENERGY_PRICE_TRIGGERED_EV_CHARGING_SCHEDULE",
+      "chinese_title": "日前电价触发的 EV 充电调度",
+      "evidence_class": "CURRENT_EXTERNAL_POWER_MARKET_PRICE_TO_OCPP_CHARGE_STATE_WITH_DIRECT_ENERGY_COST",
+      "verdict": "DEMOTED_EXACT_DYNAMIC_TARIFF_CHARGING_CONTROL_SURFACE",
+      "evidence_summary": "Day-ahead EPEX/Nord Pool prices are external signals and OCPP gives operators direct charger control. Plugchoice already consumes dynamic tariffs and schedules charging under price thresholds/automatic mode across OCPP chargers. Research literature in 2026 also demonstrates tariff-aware OCPP scheduling, so the trigger/action mechanism is neither sparse nor unowned."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_056-F6",
+      "title": "EVENT_TRIGGERED_PARKING_RATE_UPDATE",
+      "chinese_title": "赛事活动触发的停车费率调整",
+      "evidence_class": "CURRENT_EXTERNAL_EVENT_CALENDAR_TO_BUYER_RATE_STATE_WITH_DIRECT_REVENUE",
+      "verdict": "DEMOTED_MATURE_EVENT_INTELLIGENCE_TO_PARKING_PRICING_CONTROL_SURFACE",
+      "evidence_summary": "Nearby games/concerts are external demand events and parking operators control rate state directly. Inugo automatically adjusts rates from scheduled events; GENIE uses local events, weather and traffic in automated pricing; Mitte pushes event surge rates across reservation channels. The event→rate mapping is already a commercial parking control surface."
+    }
+  ],
+  "hard_floor_demotions": [
+    "FX_TO_PRICE_FAILS_WHITE_SPACE_WHEN_SHOPIFY_APPS_ALREADY_AUTOMATE_LIVE_EXCHANGE_RATE_TO_MARGIN_GUARDED_PRICE_WRITES",
+    "WEATHER_TO_AD_CONTROL_FAILS_WHITE_SPACE_WHEN_WEATHERADS_ALREADY_AUTOMATES_CAMPAIGN_GEO_AND_BID_STATE",
+    "COMMODITY_INDEX_PRICING_FAILS_WHITE_SPACE_WHEN_ROCKTON_PRICEFX_AND_VENDAVO_ALREADY_IMPORT_EXTERNAL_INDEXES_AND_EXECUTE_FORMULA_PRICING",
+    "COMPETITOR_STOCKOUT_REPRICING_FAILS_WHITE_SPACE_WHEN_CURRENT_REPRICERS_ALREADY_MONITOR_EXTERNAL_STOCK_AND_PUSH_PRICE_CHANGES",
+    "DYNAMIC_TARIFF_EV_SCHEDULING_FAILS_WHITE_SPACE_WHEN_OCPP_CONTROL_PLATFORMS_ALREADY_CONSUME_DAY_AHEAD_MARKET_PRICES",
+    "EVENT_DRIVEN_PARKING_PRICING_FAILS_WHITE_SPACE_WHEN_PARKING_REVENUE_PLATFORMS_ALREADY_INGEST_EVENTS_AND_PUSH_DYNAMIC_RATES"
+  ],
+  "scan_learnings": [
+    "EXTERNAL_TRIGGER_ALONE_DOES_NOT_CREATE_WHITE_SPACE",
+    "STANDARD_PUBLIC_SIGNALS_WITH_CLEAR_ECONOMIC_MAPPING_ARE_QUICKLY_EMBEDDED_IN_VERTICAL_RULE_ENGINES",
+    "WHEN_EXTERNAL_TRIGGER_TO_ACTION_MAPPING_IS_TRULY_STANDARDIZED_VERTICAL_SOFTWARE_CAN_ABSORB_IT_WITHOUT_OWNING_THE_SOURCE_DATA",
+    "COMMODITY_FX_WEATHER_COMPETITOR_EVENT_AND_TARIFF_SIGNALS_ARE_NOT_DISTINCT_OPERATOR_ASSETS_BY_THEMSELVES",
+    "THE_NEXT_SEARCH_MUST_REQUIRE_AN_EXTERNAL_TRIGGER_NOT_ALREADY_PRODUCTIZED_BY_THE_ACTION_CATEGORY",
+    "REUSABLE_MAPPING_MUST_SURVIVE_WITHOUT_RECURRING_CONTRACT_OR_DOMAIN_EXPERT_INTERPRETATION",
+    "SCAN056_ZERO_RETENTION_AFTER_EXTERNAL_SIGNAL_CONTROL_SURFACE_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_057",
+  "next_search_boundary": "CURRENT_RECURRING_PAID_EXTERNAL_TRIGGER_NOT_ALREADY_COMMODITIZED_BY_ACTION_CATEGORY_MACHINE_VERIFIABLE_TRIGGER_FIXED_BUYER_OWNED_ACTION_DIRECT_MARGIN_OR_REVENUE_OUTCOME_REUSABLE_CROSS_CUSTOMER_MAPPING_NO_RECURRING_EXPERT_INTERPRETATION_NO_PLATFORM_APPROVAL_NO_REGULATED_SIGNATURE_NO_SCAN056_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN057_FROM_NON_COMMODITIZED_EXTERNAL_TRIGGERS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://apps.shopify.com/kursync",
+    "https://help.weatherads.io/en/articles/4123490-how-to-set-up-your-google-ads-campaign-for-a-multi-location-automation",
+    "https://www.rocktonsoftware.com/pricing-intelligence-platform/key-features/commodity-price-management/",
+    "https://www.pricefx.com/solutions/chemicals-industry",
+    "https://www.vendavo.com/solutions/price-management/",
+    "https://www.repricerbot.com/en",
+    "https://www.retailgrid.io/use-cases/dynamic-pricing-software",
+    "https://plugchoice.com/en/platform/tariff-management",
+    "https://www.nature.com/articles/s41598-026-49535-7",
+    "https://www.inugo.com/event-parking",
+    "https://genieparking.com/dynamic-pricing/",
+    "https://joinmitte.com/case-studies/park-place-parking-vendor-consolidation"
+  ]
+}
