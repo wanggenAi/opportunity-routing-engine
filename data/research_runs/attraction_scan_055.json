@@ -1,0 +1,104 @@
+{
+  "schema_version": "attraction-scan.v34",
+  "scan_id": "ATTRACTION_SCAN_055",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "CURRENT_RECURRING_PAID_NON_RECOVERY_SINGLE_STATE_TRANSITION_FIXED_MACHINE_ACTION_DIRECT_PAYER_MARGIN_OR_REVENUE_OUTCOME_OPEN_ACTION_RIGHTS_NO_REFUND_REIMBURSEMENT_CREDIT_DISPUTE_FAMILY_NO_PLATFORM_APPROVAL_NO_REGULATED_SIGNATURE_NO_SCAN054_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_055-F1",
+      "title": "UNUSED_SAAS_LICENSE_RECLAMATION",
+      "chinese_title": "闲置 SaaS 席位自动回收",
+      "evidence_class": "CURRENT_CONTINUOUS_LICENSE_SPEND_CONTROL_WITH_DIRECT_AVOIDED_COST",
+      "verdict": "DEMOTED_MATURE_AUTONOMOUS_SAAS_MANAGEMENT_CONTROL_SURFACE",
+      "evidence_summary": "Unused paid seats create recurring avoidable spend and the action is a buyer-authorized revoke/downgrade. Zylo documents $1.4M avoided cost from reclaiming 2,800 unused licenses through automation; Torii continuously flags and automatically reclaims inactive seats and rightsizes tiers; Zluri can automatically revoke licenses after configured employee-response rules. The exact telemetry-to-action savings loop is already a core SaaS-management product."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_055-F2",
+      "title": "KUBERNETES_WORKLOAD_RIGHTSIZING",
+      "chinese_title": "Kubernetes 工作负载自动缩容",
+      "evidence_class": "CURRENT_CONTINUOUS_CLOUD_COST_STATE_CONTROL_WITH_REALIZED_SAVINGS",
+      "verdict": "DEMOTED_AUTONOMOUS_KUBERNETES_OPTIMIZATION_CONTROL_SURFACE",
+      "evidence_summary": "CPU and memory requests can be changed continuously to reduce provisioned cloud capacity while preserving reliability. CAST AI currently rightsizes workloads from observed consumption, automates node provisioning and reports realized savings from bin-packing, Spot selection and cheaper node types. The fixed state transition and direct cost result are real, but an exact autonomous control plane already owns them."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_055-F3",
+      "title": "HOTEL_ROOM_RATE_STATE_UPDATE",
+      "chinese_title": "酒店房价实时自动调整",
+      "evidence_class": "CURRENT_RECURRING_REVENUE_CONTROL_WITH_MACHINE_WRITABLE_RATE_STATE",
+      "verdict": "DEMOTED_MATURE_AUTONOMOUS_REVENUE_MANAGEMENT_CONTROL_SURFACE",
+      "evidence_summary": "Hotel room rates are machine-writable states with direct RevPAR/revenue impact. Duetto's 2026 materials describe automated real-time rate optimization and integrations that push optimized rates across distribution channels, with more than 20,000 properties using its platform. This is the exact trigger-to-price-action loop rather than residual white space."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_055-F4",
+      "title": "RESTAURANT_ITEM_AVAILABILITY_SYNC",
+      "chinese_title": "餐厅菜品可售状态自动同步",
+      "evidence_class": "CURRENT_CROSS_CHANNEL_AVAILABILITY_CONTROL_PROTECTING_ORDER_REVENUE",
+      "verdict": "DEMOTED_MATURE_POS_TO_DELIVERY_MENU_CONTROL_SURFACE",
+      "evidence_summary": "An item becoming unavailable is a narrow state change; synchronizing that state prevents failed/canceled orders and protects revenue. Otter already auto-syncs POS changes, can auto-publish across connected ordering channels, supports item availability updates and serves more than 100,000 restaurants. Deliverect likewise treats availability/menu synchronization as a standard integration workflow."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_055-F5",
+      "title": "TWILIO_INACTIVE_NUMBER_RELEASE",
+      "chinese_title": "Twilio 闲置号码自动释放",
+      "evidence_class": "CURRENT_PAID_COST_AUDIT_SIGNAL_WITH_OPEN_DELETE_ACTION_AND_IMMEDIATE_MRC_SAVING",
+      "verdict": "DEMOTED_LOW_UNIT_ECONOMICS_NATIVE_SELF_SERVICE_AND_THIN_RECURRING_DEMAND",
+      "evidence_summary": "Twilio explicitly exposes usage data and an API/Console action to release inactive numbers, which stops the recurring monthly number charge immediately. A current freelance cost-audit job explicitly asks to identify and remove unnecessary Twilio resources, proving some paid pain. However US local numbers start around $1.15/month, the provider publishes the cleanup recipe itself, third-party phone-number managers can already automate release, and the observed paid demand is low-ticket consulting rather than a strong recurring operator margin."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_055-F6",
+      "title": "PER_SHIPMENT_CARRIER_SERVICE_SELECTION",
+      "chinese_title": "逐单承运商与服务等级自动选择",
+      "evidence_class": "CURRENT_PER_ORDER_MACHINE_ACTION_WITH_DIRECT_COST_PER_PACKAGE_OUTCOME",
+      "verdict": "DEMOTED_MATURE_RATE_SHOP_AND_LABEL_CONTROL_SURFACE",
+      "evidence_summary": "Selecting a carrier/service level before label purchase directly changes cost per package and is machine-executable. Shipium exposes a single API flow that creates the shipment, runs carrier selection and generates the label; EasyPost SmartRate provides shipment-level transit predictions intended to save money and improve on-time delivery. The economic action is already the core function of mature shipping APIs."
+    }
+  ],
+  "hard_floor_demotions": [
+    "SAAS_LICENSE_RECLAMATION_FAILS_WHITE_SPACE_WHEN_ZYLO_TORII_AND_ZLURI_ALREADY_AUTOMATE_USAGE_TO_REVOKE_OR_DOWNGRADE_ACTIONS",
+    "KUBERNETES_RIGHTSIZING_FAILS_WHITE_SPACE_WHEN_CAST_AI_ALREADY_EXECUTES_CONTINUOUS_WORKLOAD_AND_NODE_OPTIMIZATION_WITH_REALIZED_SAVINGS",
+    "HOTEL_RATE_UPDATES_FAIL_WHITE_SPACE_WHEN_CURRENT_RMS_PRODUCTS_ALREADY_AUTOMATE_REAL_TIME_PRICING_AND_DISTRIBUTION",
+    "RESTAURANT_AVAILABILITY_SYNC_FAILS_WHITE_SPACE_WHEN_POS_TO_DELIVERY_CONTROL_PLANES_ALREADY_AUTO_SYNC_AND_AUTO_PUBLISH_ITEM_STATE",
+    "TWILIO_NUMBER_RELEASE_FAILS_NORMALIZED_MARGIN_WHEN_UNIT_RENT_IS_LOW_PROVIDER_SELF_SERVICE_IS_EXPLICIT_AND_OBSERVED_PAID_DEMAND_IS_THIN",
+    "CARRIER_SERVICE_SELECTION_FAILS_WHITE_SPACE_WHEN_SHIPPING_APIS_ALREADY_RATE_SHOP_SELECT_AND_PURCHASE_LABELS_IN_ONE_CONTROL_LOOP"
+  ],
+  "scan_learnings": [
+    "BUYER_OWNED_ACTION_RIGHT_IS_NOT_WHITE_SPACE_WHEN_THE_SAME_CATEGORY_ALREADY_HAS_AN_AUTONOMOUS_OPTIMIZER",
+    "SAME_SYSTEM_TELEMETRY_PLUS_SAME_SYSTEM_ACTION_IS_THE_EASIEST_CONTROL_LOOP_FOR_NATIVE_OR_CATEGORY_SOFTWARE_TO_ABSORB",
+    "CROSS_CHANNEL_STATE_SYNC_WITH_STANDARDIZED_SEMANTICS_IS_ALREADY_A_MATURE_CONTROL_SURFACE_IN_OPERATIONAL_VERTICALS",
+    "LOW_TICKET_RESOURCE_CLEANUP_WITH_A_SIMPLE_DELETE_API_CANNOT_CARRY_NORMALIZED_ORCHESTRATION_MARGIN_WITHOUT_LARGE_AGGREGATION",
+    "DIRECT_MARGIN_OR_REVENUE_IMPACT_DOES_NOT_COMPENSATE_FOR_DENSE_EXACT_CONTROL_SURFACES",
+    "NEXT_DISCOVERY_SHOULD_REQUIRE_AN_EXTERNAL_TRIGGER_THE_ACTION_SYSTEM_CANNOT_NATIVELY_OBSERVE_WHILE_KEEPING_THE_TRIGGER_TO_ACTION_MAPPING_STANDARDIZED",
+    "SCAN055_ZERO_RETENTION_AFTER_NATIVE_AUTONOMOUS_CONTROL_AND_LOW_UNIT_ECONOMICS_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_056",
+  "next_search_boundary": "CURRENT_RECURRING_PAID_EXTERNAL_EVENT_TRIGGER_TO_BUYER_OWNED_FIXED_STATE_TRANSITION_DIRECT_MARGIN_OR_REVENUE_OUTCOME_STANDARDIZED_TRIGGER_ACTION_MAPPING_NO_SAME_VENDOR_NATIVE_OBSERVABILITY_NO_PLATFORM_APPROVAL_NO_REGULATED_SIGNATURE_NO_SCAN055_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN056_FROM_EXTERNAL_TRIGGER_TO_BUYER_OWNED_STATE_TRANSITIONS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://zylo.com/case-studies/modernizing-medicine",
+    "https://www.toriihq.com/solutions/license-optimization",
+    "https://help.zluri.com/docs/request-to-forego-action",
+    "https://cast.ai/blog/cast-ai-workload-level-optimization/",
+    "https://docs.cast.ai/docs/savings-report",
+    "https://www.duettocloud.com/en-us/rms-buyers-guide",
+    "https://www.duettocloud.com/en-us/press-releases/rategain-and-duetto-partner-to-power-autonomous-real-time-revenue-optimization-for-hotels-worldwide",
+    "https://helpdesk.tryotter.com/hc/en-us/articles/25784346734227-Automatic-Menu-Sync",
+    "https://www.tryotter.com/products/menu-management",
+    "https://www.twilio.com/docs/usage/manage-unused-resources",
+    "https://www.twilio.com/docs/phone-numbers/best-practices",
+    "https://www.freelancer.ph/projects/twilio/urgent-twilio-cost-audit",
+    "https://docs.burki.dev/phone-number-management",
+    "https://docs.shipium.com/reference/runmegashipmentprocessv1",
+    "https://support.easypost.com/hc/en-us/articles/20360596132109-Create-Label-Tool-SmartRate-powered-label-suggestions"
+  ]
+}
