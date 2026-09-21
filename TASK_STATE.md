@@ -37,18 +37,16 @@ Resolved recently:
 - `ATTRACTION_SCAN_048` — zero retention after six event-driven machine-state money loops failed exact full-loop product saturation preflight.
 - `ATTRACTION_SCAN_049` — zero retention after recent paid workflow implementation budgets failed independent-control and recurring-outcome floors.
 - `ATTRACTION_SCAN_050` — zero retention after recurring measurable outcomes failed mature-control, external-algorithm or recurring-execution floors.
-
-Research queue:
-- `ATTRACTION_SCAN_051-F1` — cheap falsification of multi-buyer recurrence, supply depth, QA standardization, normalized unit economics, rights, incumbent absorption and founder-free demand acquisition.
+- `ATTRACTION_SCAN_051-F1` — DEMOTED after Jev-triggered exact incumbent preflight showed the supply/QA/capacity asset and orchestration loop are already owned by mature managed-service and Crowd-as-a-Service networks.
 
 Discovery queue:
 - `ATTRACTION_SCAN_052 — BROAD_CURRENT_REALITY_RECURRING_MACHINE_VERIFIABLE_REPLACEABLE_OUTCOME_UNIT_NO_AUDIO_ANNOTATION_OR_SCAN051_VERTICAL_INHERITANCE_REAPPLY_ALL_HARD_FLOORS_AND_TEST_RESIDUAL_DEMAND_LEAKAGE_AFTER_INCUMBENT_PREFLIGHT`.
 
-Scan 051 retained one research beacon, made zero commercial promotions, and FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
+Scan 051 initially retained one research beacon and made zero commercial promotions. Jev routed that beacon to exact incumbent preflight; bounded falsification then demoted it. Scan 051 now has zero active retained formations and FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_051_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_051_F1_FALSIFIED_AWAITING_UPDATED_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
@@ -66,7 +64,7 @@ Scan 051 retained one research beacon, made zero commercial promotions, and FIRS
 
 ## Active PR
 
-Pending creation for Scan 051. Live GitHub state is authoritative.
+PR #349 — `Retain multilingual audio annotation for bounded falsification in Scan 051`; live branch now includes the Jev-triggered falsification and authoritative demotion.
 
 ## CI
 
@@ -85,6 +83,7 @@ New:
 - `data/research_runs/attraction_scan_051.json`
 - `docs/research/ATTRACTION_SCAN_051_2026-09-21.md`
 - `tests/test_attraction_scan_051_routable_unit_gate.py`
+- `data/research_runs/attraction_scan_051_f1_falsification.json`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -118,7 +117,7 @@ CURRENT PAID DEMAND
 UNOWNED REPEATABLE BUSINESS
 ```
 
-Scan 051 shows that this stricter filter selects heavily for BPO and managed-service categories, where incumbents already own most mature loops. Multilingual audio annotation remains research-worthy only because several current buyers still procure external vendor/team capacity using accepted-audio-hour or QA-approved batch units. That residual demand leakage is evidence for causal descent, not proof of commercial white space.
+Scan 051 shows that this stricter filter selects heavily for BPO and managed-service categories, where incumbents already own most mature loops. Multilingual audio annotation briefly survived because buyers expose QA-approved units and external vendor demand. Jev then routed it to exact incumbent preflight. That preflight found LXT-style fully managed delivery plus Crowd-as-a-Service/API access, large multilingual contributor networks, and mature QA infrastructure occupying the same orchestration layer. The hypothesized supply/QA/capacity asset is therefore not distinct, normalized margin remains unproven, and founder-free buyer acquisition remains unproven.
 
 ## Validation Status
 
@@ -140,9 +139,9 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 051 is complete with one retained research beacon and zero commercial promotions.
-- Five machine-verifiable/replacement-friendly flows were closed because mature managed-service or native automation already owns the loop.
-- `ATTRACTION_SCAN_051-F1` remains research-only pending falsification of demand recurrence, supply discoverability, QA standardization, normalized margin, rights and founder-free acquisition.
+- Scan 051 is complete with zero active retained formations and zero commercial promotions after F1 falsification.
+- Five flows were closed during the scan because mature managed-service or native automation already owns the loop.
+- `ATTRACTION_SCAN_051-F1` was subsequently demoted after exact incumbent preflight: mature networks already own multilingual supply, QA, project management and API-accessible crowd capacity; normalized economics and founder-free buyer acquisition were not proven.
 - Scan 052 must remain broad and must not inherit audio annotation as its search ontology.
 
 Commercial:
@@ -151,7 +150,7 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 051 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev routes `ATTRACTION_SCAN_051-F1` to `CAUSAL_DESCENT`, execute bounded cheap falsification while independently starting Scan 052 from a broad current-reality search. Do not promote F1 without evidenced normalized economics and founder-free demand.
+Run updated PR #349 CI and live Jev against the persisted F1 falsification. If all Scan 051 formations route `NO_FURTHER_RESEARCH` and autonomous continuation remains allowed, merge after green checks, verify main, and start Scan 052 from a broad current-reality search without audio-annotation inheritance.
 
 ## Do Not Repeat
 
