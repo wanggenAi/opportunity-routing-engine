@@ -4,18 +4,21 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Reach the first real external value flow while validating retained formations in parallel. Discovery has now
-removed marketplace formation and generic cross-system data movement. The next scan tests formation-diverse,
-high-consequence single-owner exceptions where the actor already owns input/action rights but the decision
-cannot be reduced to field mapping or copy/paste.
+Reach the first real external value flow while validating retained formations in parallel.
+
+Scan 031 showed that even non-generic high-consequence exception decisions are rapidly becoming native system
+or vertical-AI control surfaces. More importantly, the recent sequence of failure-derived search boundaries
+was becoming another hidden ontology.
+
+Discovery therefore resets to broad unrelated current reality in Scan 032. Keep commercial hard floors, but
+do not inherit the recent shapes.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
-ONE OWNER OF INPUT + ACTION
-GENERIC DATA MOVEMENT != OPPORTUNITY
-NON_GENERIC EXCEPTION STATE REQUIRED
-NO RECURRING EXPERT
+FAILURE_DERIVED_BOUNDARY != WORLD_MODEL
+BROAD_CURRENT_REALITY_RESET
+HARD_FLOORS_STAY
 ZERO RETENTION IS VALID
 UNKNOWN != PASS
 ```
@@ -30,23 +33,24 @@ surface absorption pressure.
 
 Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic inbound intent.
-- `ATTRACTION_SCAN_016-F1` — two independent callable 9610 cross-customs return rails + non-consulting economics.
+- `ATTRACTION_SCAN_016-F1` — prove two independent third-party-callable 9610 cross-customs return rails,
+  structured quote/order/status/outcome exchange and non-consulting economics, or demote.
 
 Discovery queue:
-- `ATTRACTION_SCAN_031 — FORMATION_DIVERSE_SINGLE_OWNER_HIGH_CONSEQUENCE_EXCEPTIONS_NON_GENERIC_STATE_NOT_DATA_MOVEMENT_INPUT_AND_ACTION_RIGHTS_OWNED_NO_RECURRING_EXPERT`.
+- `ATTRACTION_SCAN_032 — BROAD_CURRENT_REALITY_RESET_SAMPLE_UNRELATED_DOMAINS_NO_FAILURE_DERIVED_SHAPE_NO_ACTIVE_VERTICAL_OR_MECHANISM_INHERITANCE_KEEP_COMMERCIAL_HARD_FLOORS`.
 
-Scan 030 retained no new formation.
+Scan 031 retained no new formation.
 
 ## Current Phase
 
-`SCAN_030_COMPLETE_PENDING_PR_CI_MERGE`
+`SCAN_031_COMPLETE_PENDING_PR_CI_MERGE`
 
 ## Last Verified Main
 
-`dadb6513ed2b9169769d5cee5293bb275db1b738`
-— squash merge of PR #323, `Complete Scan 029 pre-platform exchange with zero retention`.
+`e034af44598707d0d096b2c53b6f6fce2d1288cb`
+— squash merge of PR #324, `Complete Scan 030 single-owner automation falsification`.
 
-Main CI #930 verified successful.
+Main CI #932 verified successful.
 
 ## Active Issue
 
@@ -54,22 +58,22 @@ Main CI #930 verified successful.
 
 ## Active Branch
 
-`feature/scan030-single-owner-workflow-zero-retention`
+`feature/scan031-exception-automation-zero-retention`
 
 ## Active PR
 
-Not opened yet for Scan 030. Check GitHub live state first.
+Not opened yet for Scan 031. Check GitHub live state first.
 
 ## CI
 
-No Scan 030 PR CI run yet.
+No Scan 031 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_030.json`
-- `docs/research/ATTRACTION_SCAN_030_2026-09-21.md`
-- `tests/test_attraction_scan_030_single_owner.py`
+- `data/research_runs/attraction_scan_031.json`
+- `docs/research/ATTRACTION_SCAN_031_2026-09-21.md`
+- `tests/test_attraction_scan_031_exception_automation.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -77,62 +81,66 @@ Updated:
 
 ## Completed
 
-Scan 030 tested repeated single-owner manual cross-system workflows where input data and final action rights
-already belong to the same actor.
+Scan 031 tested formation-diverse high-consequence exceptions where one actor already owned input and action
+rights, generic field mapping was insufficient, and a bounded domain decision appeared possible.
 
 Results:
 - commercial promotions = 0;
 - retained research formations = 0;
-- logistics AR/AP reconciliation demoted because ERP/BMS/TMS already automate multi-source ingestion, rule matching, exceptions and writeback;
-- manufacturing BOM/report/order copying demoted because RPA/IDP/low-code/agent tools explicitly target these bridges;
-- cross-border declaration re-entry demoted because declaration SaaS already supports API, Excel and one-click submission;
-- chain-store omnichannel settlement demoted because vertical platforms already aggregate, reconcile and split settle channel receipts;
-- small-logistics WeChat/Excel capture demoted because lightweight TMS products already ingest these inputs and automate dispatch/finance;
+- App Store rejection remediation demoted because exact specialized assistants already diagnose, precheck and guide fixes/appeals;
+- payment-hold/rejection decisions demoted because bank and ERP systems expose native decision APIs and automatic retry/exception handling;
+- IAM exceptions demoted because identity/cloud control planes already troubleshoot, approve, assign and remediate access;
+- production incidents demoted because AI-SRE platforms already correlate telemetry, diagnose and ship fixes;
+- manufacturing rush-order/capacity exceptions demoted because AI APS already simulates constraints and rescheduling decisions;
+- procurement acknowledgment exceptions demoted because current Copilot+SAP architectures already match, auto-confirm and escalate discrepancies;
+- e-commerce policy exceptions demoted because platform-native remediation plus specialized AI seller tools already occupy the surface;
 - FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
 
-The Scan 030 lesson is:
+The strongest Scan 031 result is:
 
 ```text
-ONE OWNER + INPUT RIGHTS + ACTION RIGHTS
-REMOVES MARKETPLACE RISK
-
-BUT
-
-COPY/PASTE + EXCEL + RULE-STABLE RECONCILIATION
-IS GENERIC AUTOMATION TERRITORY
+NON-GENERIC EXCEPTION
+CAN STILL BECOME A STANDARD CONTROL-PLANE FEATURE
+ONCE ITS STATE SCHEMA STABILIZES
 ```
 
-A surviving edge must contain a non-generic exception decision, not just a brittle integration task.
+And the methodological result is equally important:
 
-## Validation Update
+```text
+SCAN 029 -> 030 -> 031
+WAS BECOMING FAILURE-DERIVED SEARCH OVERFITTING
+```
+
+Do not continue by inventing an even narrower exception class.
+
+## Validation Status
 
 Scan 015-F1:
-- Gmail re-check on 2026-09-21 found no new incoming reply from Xiaozhi/Bearhome or Aihuishou after Wave 1.
-- This remains `WAITING_WRITTEN_PROVIDER_RESPONSE`; no response is not a rights failure.
+- Gmail re-check on 2026-09-21 still shows no new incoming written reply from the Wave 1 provider targets.
+- State remains waiting; no response is not a fail.
 
 Scan 016-F1:
-- nationwide 9610 cross-customs return capability is now strongly evidenced;
-- Shandong Post/Jinan postal port completed an AliExpress full-process 9610 cross-customs return test;
-- Hangzhou airport processed real cross-customs 9610 returns from shipments originally exported via Shanghai/Shenzhen;
-- Yiwu TIR + return mode has handled substantial real return volume and reports lower logistics cost;
-- public 4PX/Cainiao APIs prove structured return/logistics integration exists generally;
-- however, two independent third-party-callable **9610 cross-customs** rails with quote/order/status/outcome exchange and operator economics remain unproven.
-
-Do not promote Scan 016-F1 on physical-port evidence alone.
+- legal/national availability is proven;
+- multiple real physical return routes are proven;
+- structured return/logistics APIs exist generally across 4PX/Cainiao/AfterShip;
+- global return routing/rate comparison is already a mature product surface;
+- what remains unproven is the exact special layer: two independent third-party-callable **9610 cross-customs**
+  China re-entry rails + structured outcome exchange + independent operator economics.
+- next action is a decisive cheap falsification, not more policy confirmation.
 
 ## Blockers
 
 Validation:
-- Scan 015-F1 still awaits compatible written provider confirmation.
-- Scan 016-F1 still lacks two proven independent third-party-callable 9610 cross-customs rails and non-consulting operator economics.
+- Scan 015-F1 awaits written provider response.
+- Scan 016-F1 must either prove exact callability/economics or be demoted.
 
 Engineering:
-- Scan 030 branch needs PR, CI, merge and main verification.
+- Scan 031 branch needs PR, CI, merge and main verification.
 
 Discovery:
-- Scan 031 has not yet started.
+- Scan 032 has not yet started.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -140,41 +148,27 @@ Commercial:
 
 ## Next Action
 
-Complete Scan 030 PR / CI / merge.
-
-In parallel:
-1. continue Scan 016 cheap falsification on third-party callability and economics, not merely legal/physical availability;
-2. leave Scan 015 in provider-response wait unless an actual written reply arrives;
-3. start Scan 031 across diverse single-owner exception decisions.
-
-Scan 031 requirements:
-
-```text
-MATERIAL EXCEPTION EVENT
-+ INPUT RIGHTS ALREADY OWNED
-+ ACTION RIGHT ALREADY OWNED
-+ GENERIC RPA CANNOT DECIDE IT FROM FIELD MAPPING
-+ BOUNDED REUSABLE DOMAIN STATE
-+ NO RECURRING HUMAN EXPERT
-```
+1. Complete Scan 031 PR / CI / merge.
+2. Perform a decisive Scan 016-F1 callability/economics falsification.
+3. Start Scan 032 from broad unrelated current reality, without deriving its search shape from the recent failed mechanisms.
+4. Leave Scan 015 waiting unless an actual written provider reply arrives.
 
 ## Do Not Repeat
 
-- Do not relabel generic reconciliation/integration as a business.
-- Do not promote Scan 016 from port availability without callable independent rails.
-- Do not classify no-response on Scan 015 as a rights failure.
-- Do not let prior verticals seed Scan 031.
-- Do not make routing, recovery or AI the required mechanism.
-- Do not weaken evidence, payer, founder-independence, operator-control or actionability floors.
+- Do not narrow Scan 032 into "the next exception."
+- Do not inherit marketplace, recovery, routing, integration or exception as required shapes.
+- Do not promote Scan 016 from port-level or generic-return API evidence.
+- Do not classify Scan 015 no-response as a denial.
+- Do not manufacture a retained formation because discovery has had a long zero-retention run.
+- Do not weaken commercial hard floors.
 
 ## Guardrails
 
 - GitHub live state wins.
 - Attraction first for attention; evidence first for truth.
 - REALITY > COGNITION > SCHEMA.
-- ONE_OWNER_INPUT_AND_ACTION_RIGHTS.
-- GENERIC_DATA_MOVEMENT_IS_NOT_DISTINCT.
-- NON_GENERIC_EXCEPTION_STATE_REQUIRED.
+- BROAD_CURRENT_REALITY_RESET.
+- FAILURE_DERIVED_BOUNDARY_IS_NOT_ONTOLOGY.
 - ROUTING_IS_OPTIONAL_MECHANISM_NOT_CONSTITUTION.
 - A/B voluntary energy must be evidence-backed.
 - Discoverability/addressability must be sufficient for the formation.
