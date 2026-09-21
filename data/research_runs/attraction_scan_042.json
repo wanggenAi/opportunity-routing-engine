@@ -1,0 +1,122 @@
+{
+  "schema_version": "attraction-scan.v21",
+  "scan_id": "ATTRACTION_SCAN_042",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_EXTERNALLY_VISIBLE_HIGH_COST_OPERATIONAL_STATE_CHANGE_PRECOMMITTED_OR_OBSERVED_BUDGET_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_NO_MATURE_CONTROL_SURFACE_NO_RECURRING_EXPERT_DELIVERY_EXCLUDE_CLAIMS_REFUNDS_GRANTS_TAX_RELIEF_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "GOOGLE_CONTENT_API_TO_MERCHANT_API_MIGRATION",
+      "chinese_title": "Google Shopping Content API迁移工厂",
+      "state_change": "Content API for Shopping sunset on 18 August 2026; from 1 September non-extended calls can intermittently fail with HTTP 410 and full decommissioning is planned for early 2027.",
+      "operational_cost": "Broken custom integrations can interrupt product listing/account-management workflows tied to commerce.",
+      "existing_budget_signal": "Affected custom integrations are maintained software; third-party commerce platforms already maintain migration on behalf of their customers.",
+      "machine_delivery": "Google publishes detailed method/resource compatibility guides, making much code transformation deterministic.",
+      "control_surface": "For merchants on third-party platforms the platform partner owns the migration; custom integrations remain customer-specific source-code changes.",
+      "verdict": "DEMOTED_PLATFORM_PARTNER_OWNED_OR_GENERIC_CUSTOM_CODE_MIGRATION_WITHOUT_DISTINCT_OPERATOR_ASSET",
+      "source_urls": [
+        "https://developers.google.com/shopping-content/guides/deprecation-and-sunset",
+        "https://developers.google.com/merchant/api/guides/compatibility/overview",
+        "https://developers.google.com/merchant/api/guides/compatibility/start-migration"
+      ]
+    },
+    {
+      "title": "CLOUDFLARE_SERVICE_KEY_TO_API_TOKEN_MIGRATION",
+      "chinese_title": "Cloudflare旧Service Key鉴权迁移",
+      "state_change": "Service Key authentication is scheduled for removal on 30 September 2026.",
+      "operational_cost": "Integrations that keep X-Auth-User-Service-Key can fail after the deadline.",
+      "existing_budget_signal": "The affected integrations already run in customer infrastructure, but no distinct paid migration role is evidenced.",
+      "machine_delivery": "Replacement is a well-documented API Token with scoped permissions; many cases reduce to credential/configuration updates.",
+      "control_surface": "Customer-controlled code and credentials; no separate cross-customer asset forms from performing the change.",
+      "verdict": "DEMOTED_LOW_COMPLEXITY_GENERIC_CONFIGURATION_CHANGE_AND_WEAK_EXTERNAL_PAYER_SIGNAL",
+      "source_urls": [
+        "https://developers.cloudflare.com/fundamentals/api/reference/deprecations/"
+      ]
+    },
+    {
+      "title": "SCHIPHOL_API_PLATFORM_JWT_MIGRATION",
+      "chinese_title": "史基浦机场API平台JWT迁移",
+      "state_change": "Schiphol's legacy API platform is scheduled to shut down on 1 October 2026; legacy API-key integrations must move to new endpoint prefixes and OAuth 2.0/JWT.",
+      "operational_cost": "Unmigrated integrations stop working after the shutdown.",
+      "existing_budget_signal": "API consumers have existing integration maintenance, but the ecosystem is bounded and no independent repeated payer rail is established.",
+      "machine_delivery": "The platform provides exact endpoint/authentication migration instructions and code-oriented guidance.",
+      "control_surface": "Schiphol itself provides migration support and office hours; access approval and credentials remain platform controlled.",
+      "verdict": "DEMOTED_SMALL_PLATFORM_BOUND_ECOSYSTEM_WITH_NATIVE_MIGRATION_SUPPORT_AND_NO_PROVEN_OPERATOR_ECONOMICS",
+      "source_urls": [
+        "https://developer.schiphol.nl/news-and-updates/developer-portal-migration-notice",
+        "https://developer.schiphol.nl/news-and-updates/api-consumer-migration-guide"
+      ]
+    },
+    {
+      "title": "BOOKING_HOTELPRODUCTNOTIF_V13_MIGRATION",
+      "chinese_title": "Booking.com酒店房价接口v1.3迁移",
+      "state_change": "Older GET v1.0-v1.2 and POST v1.0 OTA_HotelProductNotif versions sunset on 1 September 2026.",
+      "operational_cost": "Explicit old-version calls return unsupported-version errors after sunset.",
+      "existing_budget_signal": "Connectivity Partners already own and maintain the integration as part of their platform relationship.",
+      "machine_delivery": "Booking.com publishes version comparison and migration guidance; some unversioned calls are automatically routed to v1.3.",
+      "control_surface": "The value loop is internal to existing Connectivity Partners rather than an unowned third-party operator surface.",
+      "verdict": "DEMOTED_EXISTING_CONNECTIVITY_PARTNER_OWNS_MIGRATION_AND_PLATFORM_PROVIDES_COMPATIBILITY_PATH",
+      "source_urls": [
+        "https://developers.booking.com/connectivity/docs/migration-guides/migrating-to-new-versions",
+        "https://developers.booking.com/connectivity/docs/deprecation-policy/deprecation-and-sunsetting"
+      ]
+    },
+    {
+      "title": "AZURE_ANOMALY_DETECTOR_RETIREMENT_REPLACEMENT",
+      "chinese_title": "Azure Anomaly Detector退役替代",
+      "state_change": "Azure Anomaly Detector retires on 1 October 2026.",
+      "operational_cost": "Applications dependent on the managed API need another anomaly-detection path to preserve functionality.",
+      "existing_budget_signal": "Existing paid Azure usage demonstrates deployed demand for the function.",
+      "machine_delivery": "A replacement can be API-shaped and low-friction.",
+      "control_surface": "Exact drop-in replacement products already market near-schema-compatible migration, while Microsoft documents alternative paths.",
+      "verdict": "DEMOTED_EXACT_DROP_IN_REPLACEMENT_CATEGORY_ALREADY_FORMED",
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/azure/ai-services/anomaly-detector/faq",
+        "https://canaryedge.com/"
+      ]
+    },
+    {
+      "title": "SALESFORCE_ESSENTIALS_TO_PRO_SUITE_MIGRATION",
+      "chinese_title": "Salesforce Essentials退役迁移",
+      "state_change": "Salesforce announced Essentials retirement in 2026 with consent/end-of-renewal milestones and support ending 18 September 2026.",
+      "operational_cost": "Organizations that do not consent/upgrade can lose access to the Essentials org.",
+      "existing_budget_signal": "Existing Salesforce subscriptions are explicit software budget.",
+      "machine_delivery": "Much of the transition is a Salesforce-controlled edition upgrade with a native migration guide.",
+      "control_surface": "Salesforce owns the destination, entitlement, consent flow and upgrade process.",
+      "verdict": "DEMOTED_PLATFORM_NATIVE_UPGRADE_OWNS_THE_VALUE_LOOP",
+      "source_urls": [
+        "https://help.salesforce.com/s/articleView?id=xcloud.migration_timeline.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=xcloud.migration_guide.htm&language=en_US&type=5"
+      ]
+    }
+  ],
+  "hard_floor_demotions": [
+    "FORCED_VENDOR_MIGRATION_IS_NOT_AN_OPERATOR_BUSINESS_WHEN_THE_VENDOR_OR_EXISTING_PLATFORM_PARTNER_OWNS_THE_TRANSITION",
+    "GENERIC_CODE_OR_CREDENTIAL_MIGRATION_IS_AGENT_SUBSTITUTABLE_WITHOUT_A_DISTINCT_COMPOUNDING_ASSET",
+    "A_DEADLINE_AND_EXISTING_SOFTWARE_BUDGET_DO_NOT_PROVE_AN_INDEPENDENT_PAYER_RAIL",
+    "DROP_IN_REPLACEMENT_OPPORTUNITIES_CAN_PRODUCTIZE_BEFORE_THE_RETIREMENT_DATE",
+    "SMALL_PLATFORM_BOUND_API_ECOSYSTEMS_FAIL_SCALE_AND_EXTERNAL_DISCOVERABILITY_UNLESS_PAID_DEMAND_IS_OBSERVED"
+  ],
+  "scan_learnings": [
+    "SCAN_042_ZERO_RETENTION_AFTER_FORCED_OPERATIONAL_MIGRATION_FALSIFICATION",
+    "VENDOR_DEPRECATION_AND_PLATFORM_MIGRATION_IS_ANOTHER FAST_ABSORPTION_ONTOLOGY",
+    "EXISTING_SOFTWARE_BUDGET_IS_NOT_THE_SAME_AS_BUDGET_FOR_AN_INDEPENDENT_OPERATOR",
+    "DETERMINISTIC_CODE_TRANSFORMATION_WITHOUT_CROSS_CUSTOMER_OUTCOME_ASSET_COLLAPSES_TO_GENERIC_AGENT_OR_CONSULTING",
+    "PLATFORM_PROVIDED_GUIDES_SUPPORT_AND_COMPATIBILITY_PATHS_COMPRESS_EXTERNAL_OPERATOR_CONTROL",
+    "EXACT_DROP_IN_REPLACEMENTS_CAN_FORM_BEFORE_HARD_SHUTDOWN",
+    "SCAN_043_MUST_REQUIRE_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_AND_A_DISTINCT_COMPOUNDING_OPERATOR_ASSET_WHILE_EXCLUDING_RECOVERY_POLICY_AND_VENDOR_DEPRECATION_ONTOLOGIES"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_043",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_EXTERNALLY_DISCOVERABLE_HIGH_COST_STATE_OR_FLOW_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_DISTINCT_COMPOUNDING_OPERATOR_ASSET_NO_MATURE_CONTROL_SURFACE_NO_RECURRING_EXPERT_DELIVERY_EXCLUDE_CLAIMS_REFUNDS_GRANTS_TAX_RELIEF_VENDOR_DEPRECATION_AND_GENERIC_MIGRATION_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "next_action": "TRIGGER_JEV_ON_SCAN042_THEN_FOLLOW_TYPED_CONTINUATION_DIRECTIVE",
+  "first_external_value_flow": "NOT_PROVEN"
+}

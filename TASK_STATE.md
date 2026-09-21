@@ -6,15 +6,16 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 041 verified that even recent money + machine-identifiable beneficiaries + callable action is not enough: control platforms can absorb a new API within weeks, regulated recovery categories already own high-value claims, public addressability does not imply payer pull, and automatic payouts remove the operator edge.
+Scan 042 verified that forced operational deadlines plus existing software budget are still not enough: vendor/platform migrations are usually captured by the vendor, existing integration partner, a drop-in replacement, or generic code work without a compounding operator asset.
 
 ```text
-EXTERNALLY VISIBLE HIGH-COST OPERATIONAL STATE CHANGE
-→ PRECOMMITTED / OBSERVED BUDGET
+DIRECT PAYER / REPEATED WORKAROUND EVIDENCE
+→ EXTERNALLY DISCOVERABLE HIGH-COST STATE OR FLOW
 → MACHINE-EXECUTABLE DIGITAL DELIVERY
+→ DISTINCT COMPOUNDING OPERATOR ASSET
 → NO MATURE CONTROL SURFACE
 → NO RECURRING EXPERT DELIVERY
-→ EXCLUDE CLAIMS / REFUNDS / GRANTS / TAX RELIEF
+→ EXCLUDE RECOVERY / POLICY / VENDOR-DEPRECATION ONTOLOGIES
 → ONLY THEN DEEP CAUSAL DESCENT
 ```
 
@@ -30,20 +31,20 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Discovery queue:
-- `ATTRACTION_SCAN_042 — BROAD_CURRENT_REALITY_EXTERNALLY_VISIBLE_HIGH_COST_OPERATIONAL_STATE_CHANGE_PRECOMMITTED_OR_OBSERVED_BUDGET_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_NO_MATURE_CONTROL_SURFACE_NO_RECURRING_EXPERT_DELIVERY_EXCLUDE_CLAIMS_REFUNDS_GRANTS_TAX_RELIEF_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
+- `ATTRACTION_SCAN_043 — BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_EXTERNALLY_DISCOVERABLE_HIGH_COST_STATE_OR_FLOW_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_DISTINCT_COMPOUNDING_OPERATOR_ASSET_NO_MATURE_CONTROL_SURFACE_NO_RECURRING_EXPERT_DELIVERY_EXCLUDE_CLAIMS_REFUNDS_GRANTS_TAX_RELIEF_VENDOR_DEPRECATION_AND_GENERIC_MIGRATION_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
 
-Scan 041 retained no new formation.
+Scan 042 retained no new formation.
 
 ## Current Phase
 
-`SCAN_041_COMPLETE_PR_PENDING_JEV_CONTINUATION`
+`SCAN_042_COMPLETE_PR_PENDING_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`bdae9eb27f1b48e3acfd08c3e904813b8be3836a`
-— squash merge of PR #338, `Close recent-entitlement timing edge in Scan 040`.
+`e99ef7ecc493494b96aaa19d9c4f1e0b9529dc71`
+— squash merge of PR #339, `Exit the recovery ontology after Scan 041`.
 
-PR #338 CI run `35576617160` and live Jev run `35576617105` completed successfully. Scan 040 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #339 CI run `35577273643` and live Jev run `35577273644` completed successfully. Scan 041 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -51,11 +52,11 @@ PR #338 CI run `35576617160` and live Jev run `35576617105` completed successful
 
 ## Active Branch
 
-`research/attraction-scan-041`.
+`research/attraction-scan-042`.
 
 ## Active PR
 
-Pending creation for Scan 041.
+Pending creation for Scan 042.
 
 ## CI
 
@@ -68,9 +69,9 @@ Pending creation for Scan 041.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_041.json`
-- `docs/research/ATTRACTION_SCAN_041_2026-09-21.md`
-- `tests/test_attraction_scan_041_machine_identifiable_money.py`
+- `data/research_runs/attraction_scan_042.json`
+- `docs/research/ATTRACTION_SCAN_042_2026-09-21.md`
+- `tests/test_attraction_scan_042_forced_migration.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -95,16 +96,16 @@ Results:
 ## Current Findings
 
 ```text
-NEW MONEY
+FORCED OUTAGE RISK
 +
-MACHINE IDENTIFICATION
+EXISTING SOFTWARE BUDGET
 +
-CALLABLE ACTION
+MACHINE-EXECUTABLE CHANGE
 !=
-DURABLE OPERATOR EDGE
+INDEPENDENT OPERATOR BUSINESS
 ```
 
-Scan 041 tested six stronger cases. Google Play's new ReviewRefund event/API was absorbed by RevenueCat within weeks; HMRC VAT-group reconsiderations and IEEPA refunds are already specialist/regulated recovery categories; Scottish business-rates relief is partly enumerable but official guidance warns against paid application; Amazon Prime redress and Ofgem smart-meter compensation are automatic. The recovery/entitlement family is now deliberately exited.
+Scan 042 tested six forced vendor/platform changes. Google Merchant migration is platform-partner owned or customer-specific code work; Cloudflare Service Key migration is a low-complexity credential/config change; Schiphol and Booking provide native migration paths; Azure Anomaly Detector already has exact drop-in replacements; Salesforce owns the Essentials upgrade path. Forced migration is therefore exited as a general search ontology.
 
 ## Validation Status
 
@@ -126,8 +127,8 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 041 is complete with zero retention.
-- Scan 042 has not started; it resets to externally visible high-cost operational state changes with real budget and machine-executable delivery, excluding claims/refunds/grants/tax relief.
+- Scan 042 is complete with zero retention.
+- Scan 043 has not started; it requires direct payer or repeated workaround evidence first, then a distinct cross-customer compounding operator asset, while excluding recovery/policy/vendor-deprecation families.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -135,7 +136,7 @@ Commercial:
 
 ## Next Action
 
-Merge Scan 041 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 042 in the same task.
+Merge Scan 042 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 043 in the same task.
 
 ## Do Not Repeat
 
@@ -149,6 +150,9 @@ Merge Scan 041 after CI, consume the triggered Jev continuation directive, and i
 - Do not retain low-ticket self-service benefits that cannot carry normalized orchestration margin.
 - Do not continue narrowing inside claims/refunds/grants/tax relief after Scan 041; that family has reached diminishing returns.
 - Do not mistake a machine-identifiable platform event for an operator asset when incumbent control platforms can absorb the new API immediately.
+- Do not continue mining vendor/API deprecations as a general opportunity family after Scan 042.
+- Do not count an existing software budget as independent willingness to pay a new operator.
+- Do not retain one-off code migrations unless a distinct cross-customer asset demonstrably compounds.
 - Do not turn the incumbent-preflight process improvement into a required opportunity mechanism.
 - Do not let Scan 035 verticals seed Scan 036.
 - Do not lower hard floors because discovery continues to close at zero.
