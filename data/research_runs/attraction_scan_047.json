@@ -1,0 +1,98 @@
+{
+  "schema_version": "attraction-scan.v26",
+  "scan_id": "ATTRACTION_SCAN_047",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_OBSERVED_PAID_OR_CONTRACTED_MICROFLOW_SPARSE_SPECIALIZED_SUPPLY_OR_EARLY_CATEGORY_NO_MCP_SPEC_MIGRATION_OR_ACTIVE_VERTICAL_INHERITANCE_REAPPLY_ALL_EXISTING_HARD_FLOORS",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "VIBE_CODED_APP_PRELAUNCH_SECURITY_AND_PRODUCTION_READINESS_AUDIT",
+      "chinese_title": "Vibe Coding 应用上线前安全与生产就绪审计",
+      "evidence_class": "DIRECT_PAID_BUYER_WITH_FAST_TOOL_CATEGORY_ABSORPTION",
+      "verdict": "DEMOTED_DENSE_SPECIALIST_SUPPLY_AND_MATURE_AUTOMATED_SECURITY_CONTROL_SURFACE",
+      "evidence_summary": "Current buyers explicitly pay $50-$100/hour or fixed fees to review AI-built Supabase/Next.js/Stripe apps before launch, but live jobs attract 20-50+ or 50+ proposals and purpose-built scanners plus mature SAST/pentest/autofix platforms already own the automatable control surface."
+    },
+    {
+      "title": "VOICE_AI_ACCEPTANCE_TESTING_AND_REGRESSION_QA",
+      "chinese_title": "Voice AI 上线验收与回归 QA",
+      "evidence_class": "DIRECT_PAID_ACCEPTANCE_WORK_WITH_MATURE_SPECIALIST_PLATFORMS",
+      "verdict": "DEMOTED_EXACT_MATURE_VOICE_QA_CONTROL_SURFACE",
+      "evidence_summary": "Current voice-agent deployments pay for explicit acceptance testing and regression work, but Coval, Hamming and Cekura already provide simulation, production evals, human QA, regression, compliance and vendor comparison as a mature category."
+    },
+    {
+      "title": "TIKTOK_SHOP_SUSPENSION_AND_PRODUCT_REMOVAL_APPEAL",
+      "chinese_title": "TikTok Shop 封店与商品移除申诉",
+      "evidence_class": "DIRECT_PAID_LOW_PROPOSAL_PLATFORM_EXCEPTION_WORK",
+      "verdict": "DEMOTED_PLATFORM_OWNED_ACTION_RIGHTS_AND_CASE_SPECIFIC_HUMAN_ESCALATION",
+      "evidence_summary": "A current $100 product-removal appeal job has fewer than five proposals and other suspension/onboarding jobs show real paid friction, but final adjudication and escalation remain TikTok-owned while evidence interpretation and appeal strategy are case-specific human work."
+    },
+    {
+      "title": "EUDR_TRACES_NT_ERP_CRM_INTEGRATION",
+      "chinese_title": "EUDR TRACES-NT 与 ERP/CRM 集成",
+      "evidence_class": "DIRECT_PAID_REGULATORY_API_INTEGRATION",
+      "verdict": "DEMOTED_BESPOKE_CUSTOMER_INTEGRATION_AND_REGULATORY_EXPERT_RESIDUE",
+      "evidence_summary": "A current $200 Zoho/EUDR TRACES-NT SOAP integration job proves paid API friction and the EU publishes a machine-callable operator API, but mappings, customer data models, credentials, GeoJSON, HS codes and compliance conclusions remain customer-specific integration work rather than a reusable autonomous operator asset."
+    },
+    {
+      "title": "EU_PRODUCT_PRELAUNCH_COMPLIANCE_GAP_REVIEW",
+      "chinese_title": "欧盟产品上市前合规缺口审查",
+      "evidence_class": "DIRECT_PAID_SPARSE_EXPERT_SUPPLY",
+      "verdict": "DEMOTED_REGULATORY_EXPERT_JUDGMENT_AND_LIABILITY_BOUNDARY",
+      "evidence_summary": "A current €/$300-class PPE compliance review has fewer than five proposals and a hire, showing real scarce specialist demand, but standards interpretation, certificate validity, claims substantiation and legal labeling obligations require domain-expert judgment and carry material liability."
+    },
+    {
+      "title": "LLM_RAG_AGENT_EVALUATION_AND_OBSERVABILITY_SETUP",
+      "chinese_title": "LLM/RAG/Agent 评测与可观测性搭建",
+      "evidence_class": "DIRECT_PAID_ENGINEERING_WITH_MATURE_CONTROL_SURFACE",
+      "verdict": "DEMOTED_MATURE_EVAL_OBSERVABILITY_CATEGORY_AND_RECURRING_ENGINEERING",
+      "evidence_summary": "Current buyers hire for evaluation architecture and adversarial test corpora, but LangSmith, Langfuse, Braintrust, Arize/Phoenix and similar platforms already provide tracing, evals, CI/CD, human review and production monitoring; custom setup remains engineering services."
+    }
+  ],
+  "hard_floor_demotions": [
+    "DIRECT_PAYMENT_DOES_NOT_OVERRIDE_MATURE_AUTOMATED_SECURITY_TOOLING_OR_DENSE_SPECIALIST_SUPPLY",
+    "VOICE_AGENT_QA_FAILS_WHEN_EXACT_MATURE_SIMULATION_EVAL_AND_MONITORING_PLATFORMS_ALREADY_OWN_THE_LOOP",
+    "PLATFORM_APPEALS_FAIL_WHEN_FINAL_ACTION_RIGHTS_AND_ESCALATION_REMAIN_PLATFORM_OWNED_AND_CASE_SPECIFIC",
+    "REGULATORY_API_INTEGRATION_FAILS_WHEN_CUSTOMER_PRIVATE_MAPPING_AND_EXPERT_COMPLIANCE_JUDGMENT_DOMINATE_DELIVERY",
+    "SCARCE_REGULATORY_EXPERT_SUPPLY_DOES_NOT_PASS_NO_RECURRING_EXPERT_DELIVERY",
+    "LLM_AGENT_EVAL_SETUP_FAILS_AS_WHITE_SPACE_WHEN_MATURE_OBSERVABILITY_PLATFORMS_ALREADY_EXIST"
+  ],
+  "scan_learnings": [
+    "OBSERVED_MONEY_FIRST_CONTINUES_TO_FILTER_FASTER_THAN_ABSTRACT_OPPORTUNITY_DESIGN",
+    "LOW_PROPOSAL_COUNT_CAN_SIGNAL_EXPERT_SCARCITY_WITHOUT_CREATING_MACHINE_EXECUTABLE_WHITE_SPACE",
+    "NEW_AI_DEPLOYMENT_WORKFLOWS_CAN_BECOME_MATURE_CONTROL_SURFACES_WITHIN_MONTHS",
+    "VIBE_CODE_SECURITY_HAS_REAL_PAYER_PAIN_BUT_AUTOMATED_SCANNING_AND_AUTOFIX_ALREADY_FORM_A_CATEGORY",
+    "PLATFORM_EXCEPTION_WORK_CAN_HAVE_HIGH_BUYER_URGENCY_WHILE_OPERATOR_ACTION_RIGHTS_REMAIN_ZERO",
+    "REGULATION_CREATED_API_WORK_CAN_STILL_COLLAPSE_TO_BESPOKE_INTEGRATION_OR_LICENSED_EXPERTISE",
+    "SCAN_047_RETAINS_ZERO_NEW_FORMATIONS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_048",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_OBSERVED_MONEY_FLOW_NO_VIBE_CODE_SECURITY_VOICE_AI_QA_PLATFORM_APPEAL_EUDR_PRODUCT_COMPLIANCE_LLM_EVAL_OR_ACTIVE_VERTICAL_INHERITANCE_REQUIRE_EVENT_DRIVEN_REPEATED_MACHINE_STATE_WITH_NONPLATFORM_CONTROL",
+  "next_action": "START_SCAN048_FROM_OBSERVED_MONEY_FLOW_WITH_EVENT_DRIVEN_REPEATED_MACHINE_STATE_AND_NONPLATFORM_CONTROL_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.upwork.com/freelance-jobs/apply/Pre-launch-security-review-Supabase-Next-Stripe_~022097269113797358975/",
+    "https://www.upwork.com/freelance-jobs/apply/Looking-for-React-developer-Full-stack-developer-Next-Supabase-Node-Small-security-audit_~022097640986039499045/",
+    "https://vibeappscanner.com/blog/vibe-coded-app-security-report-2026",
+    "https://www.aikido.dev/",
+    "https://www.upwork.com/freelance-jobs/apply/Configure-GoHighLevel-Voice-Receptionist_~022097444797995955583/",
+    "https://www.coval.ai/",
+    "https://hamming.ai/resources",
+    "https://www.cekura.ai/pricing",
+    "https://www.upwork.com/freelance-jobs/apply/TikTok-Shop-Suspension_~022099617547935464001/",
+    "https://www.upwork.com/freelance-jobs/apply/Expert-Needed-TikTok-Shop-Setup-Suspension-Resolution-Compliance-Guide_~022097388068497381103/",
+    "https://www.upwork.com/freelance-jobs/apply/Urgent-Senior-Zoho-Deluge-Expert-for-EUDR-TRACES-SOAP-API-Integration-Completed_~022099406295278398285/",
+    "https://eudr.webcloud.ec.europa.eu/tracesnt/help/eudr-documentation/operator/index.html",
+    "https://www.upwork.com/freelance-jobs/apply/Product-Compliance_~022096943167565504412/",
+    "https://www.upwork.com/freelance-jobs/apply/LLM-Solutions-Architect-RAG-Assistant-Audit_~022097492989904005215/",
+    "https://arize.com/resources/llm-and-agent-evaluation-platforms/"
+  ]
+}
