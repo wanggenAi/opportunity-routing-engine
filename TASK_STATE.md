@@ -4,18 +4,17 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Reach the first real external value flow while validating retained formations in parallel. Scan 027 showed that
-repeatedly searching for cost/refund/rebate/credit recovery had itself become a hidden opportunity ontology.
-Discovery is reset to current behavior and workflow formation first, with value mechanism inferred only after
-the behavior is observed.
+Reach the first real external value flow while validating retained formations in parallel. Discovery now starts
+one layer earlier than visible marketplaces: self-organized exchange, manual coordination and cross-system
+workarounds that already carry real resources or money before a dominant control surface forms.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
 CURRENT_BEHAVIOR_FIRST
-VALUE_MECHANISM_SECOND
-BUSINESS_THEORY_LAST
-RECOVERY_LANGUAGE != OPPORTUNITY_ONTOLOGY
+SELF_ORGANIZED_EXCHANGE_BEFORE_PLATFORM
+NEW_BEHAVIOR != WHITE_SPACE
+WHOLE_MARKETPLACE != MICRO_EDGE
 ZERO RETENTION IS VALID
 UNKNOWN != PASS
 ```
@@ -33,20 +32,20 @@ Validation queue:
 - `ATTRACTION_SCAN_016-F1` — two callable 9610 cross-customs return rails + non-consulting economics.
 
 Discovery queue:
-- `ATTRACTION_SCAN_028 — CURRENT_EMERGENT_BEHAVIOR_AND_NEW_WORKFLOW_FORMATIONS_NO_COST_REFUND_REBATE_RECOVERY_OR_PRIOR_MECHANISM_INHERITANCE`.
+- `ATTRACTION_SCAN_029 — CURRENT_SELF_ORGANIZED_PRE_PLATFORM_BEHAVIOR_WITH_REAL_EXCHANGE_NO_DOMINANT_CONTROL_SURFACE_NO_PRIOR_VERTICAL_OR_MECHANISM_INHERITANCE`.
 
-Scan 027 retained no new formation.
+Scan 028 retained no new formation.
 
 ## Current Phase
 
-`SCAN_027_COMPLETE_PENDING_PR_CI_MERGE`
+`SCAN_028_COMPLETE_PENDING_PR_CI_MERGE`
 
 ## Last Verified Main
 
-`c2e37351b5e312073566d5b7fa85ce80a3c9ab8d`
-— squash merge of PR #320, `Complete Scan 026 with zero enterprise-control retention`.
+`e6557f7fe76923955fe6e83bf27f9156a7e9f94e`
+— squash merge of PR #321, `Complete Scan 027 with zero contract-value recovery retention`.
 
-Main CI #924 verified successful.
+Main CI #926 verified successful.
 
 ## Active Issue
 
@@ -54,22 +53,22 @@ Main CI #924 verified successful.
 
 ## Active Branch
 
-`feature/scan027-contract-value-recovery-falsification`
+`feature/scan028-behavior-first-zero-retention`
 
 ## Active PR
 
-Not opened yet for Scan 027. Check GitHub live state first.
+Not opened yet for Scan 028. Check GitHub live state first.
 
 ## CI
 
-No Scan 027 PR CI run yet.
+No Scan 028 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_027.json`
-- `docs/research/ATTRACTION_SCAN_027_2026-09-21.md`
-- `tests/test_attraction_scan_027_contract_value.py`
+- `data/research_runs/attraction_scan_028.json`
+- `docs/research/ATTRACTION_SCAN_028_2026-09-21.md`
+- `tests/test_attraction_scan_028_behavior_first.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -77,37 +76,43 @@ Updated:
 
 ## Completed
 
-Scan 027 tested contractually owed money/credits whose trigger might be missed.
+Scan 028 reset discovery away from cost/refund/rebate/recovery language and searched current behavior first.
+
+Observed new 2026 formations:
+- AI service light entrepreneurship;
+- ordinary people collecting real-world embodied-AI training data;
+- AI agents hiring humans for physical/hybrid tasks;
+- one-person AI-assisted cross-border business operations;
+- lightweight experience/service consumption.
 
 Results:
 - commercial promotions = 0;
 - retained research formations = 0;
-- SaaS/cloud SLA credit recovery demoted because exact products already extract SLA terms, monitor breaches,
-  calculate credits, file claims and track recovery;
-- vendor rebate/tiered-discount recovery demoted because ERP/DMS/PRM systems already calculate accruals,
-  reconcile and settle rebates;
-- contract-to-invoice price/credit assurance demoted because contract-performance products already connect
-  obligations/SLA/performance/invoices and calculate credits;
-- claims/deductions recovery demoted because QMS and revenue-recovery systems already validate and route claims;
+- AI service deliverable acceptance demoted because transaction/dispute control remains platform-owned and QA is rapidly productizing;
+- embodied-data crowd collection demoted because multiple current operators already bundle recruitment, protocols, capture, QA and delivery;
+- agent-to-human marketplace demoted because exact global marketplaces already exist and entry would require another whole two-sided marketplace;
+- one-person cross-border agent OS demoted because platform-native seller agents are moving upstream;
+- lightweight experience discovery demoted because local-life platforms own discovery/booking/payment;
 - FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
 
-The durable Scan 027 finding is methodological:
+The durable result is:
 
 ```text
-REAL CONTRACT LEAKAGE
-!=
-UNOWNED RECOVERY LAYER
-
-AND
-
-REPEATEDLY ASKING "WHAT MONEY CAN WE RECOVER?"
-CAN BECOME ANOTHER HIDDEN MECHANISM ONTOLOGY
+BEHAVIOR-FIRST SEARCH WORKS
+BUT
+NEW BEHAVIOR CAN PLATFORMIZE EXTREMELY FAST
 ```
 
-The next scan must therefore begin from newly observed behavior, workarounds and changed resource use rather
-than from a preferred value-capture pattern.
+So the next discovery layer must move earlier again:
+
+```text
+SELF-ORGANIZED EXCHANGE
++ MANUAL BRIDGE
++ REAL MONEY / RESOURCE FLOW
++ NO DOMINANT CONTROL SURFACE YET
+```
 
 ## Blockers
 
@@ -116,10 +121,10 @@ Validation:
 - Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return rails and non-consulting economics.
 
 Engineering:
-- Scan 027 branch needs PR, CI, merge and main verification.
+- Scan 028 branch needs PR, CI, merge and main verification.
 
 Discovery:
-- Scan 028 has not yet started.
+- Scan 029 has not yet started.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -127,35 +132,43 @@ Commercial:
 
 ## Next Action
 
-Complete Scan 027 PR / CI / merge, then start Scan 028 from current 2026 emergent behavior.
+Complete Scan 028 PR / CI / merge, then start Scan 029 from current self-organized pre-platform exchange.
 
 Search for:
-- newly formed manual workarounds;
-- changed resource usage;
-- new actors or roles in a value chain;
-- repeated cross-system behavior;
-- informal/self-organized flows;
-- tools that newly change who can act.
+- WeChat/group-chat coordination;
+- community bulletin or ad-hoc spreadsheets;
+- manual cross-platform exchange;
+- repeated human brokers who only bridge state/availability;
+- shared resources exchanged outside a dominant marketplace;
+- recurring informal task handoffs;
+- current workaround behavior with real settlement or resource transfer.
 
-Only after observing the formation, apply commercial floors.
+Required sequence:
 
-Scan 028 must not inherit:
-- cost optimization;
-- refund/rebate/SLA-credit/claim recovery;
-- routing;
-- used-device recycling;
-- 9610 returns;
-- LLM/quota gateways;
-- recently killed consumer/enterprise verticals;
-- any current validation vertical as a discovery seed.
+```text
+OBSERVE SELF-ORGANIZED EXCHANGE
+→ VERIFY BOTH SIDES REALLY MOVE
+→ IDENTIFY WHO CURRENTLY DOES THE BRIDGE
+→ TEST WHETHER THE BRIDGE CAN BECOME NON-HUMAN AND REUSABLE
+→ ONLY THEN DISCUSS BUSINESS
+```
+
+Scan 029 must not inherit:
+- AI service platforms;
+- embodied-data marketplaces;
+- agent-to-human marketplaces;
+- cross-border seller agents;
+- local-life experience verticals;
+- cost/refund/rebate/credit recovery;
+- routing as a required mechanism;
+- any active validation vertical as a discovery seed.
 
 ## Do Not Repeat
 
-- Do not search another generic rebate/credit/refund recovery tool.
-- Do not confuse claim deadlines or missed value with white space.
-- Do not let a useful mechanism become the ontology of opportunity.
-- Do not start from a preferred product shape.
-- Do not manufacture a retained formation because several prior scans closed at zero.
+- Do not call every new behavior a new market.
+- Do not propose another whole marketplace where the new behavior is already platformizing.
+- Do not start from product categories or monetization templates.
+- Do not manufacture a retained formation because several scans closed at zero.
 - Do not weaken evidence, payer, founder-independence, operator-control or actionability floors.
 
 ## Guardrails
@@ -164,6 +177,7 @@ Scan 028 must not inherit:
 - Attraction first for attention; evidence first for truth.
 - REALITY > COGNITION > SCHEMA.
 - CURRENT_BEHAVIOR_FIRST_VALUE_MECHANISM_SECOND_BUSINESS_THEORY_LAST.
+- SELF_ORGANIZED_EXCHANGE_BEFORE_PLATFORM.
 - HOT_MARKET_NE_UNOWNED_CONTROL_EDGE.
 - MACHINE_READABLE_STATE_NE_ACTION_RIGHT.
 - ROUTING_IS_OPTIONAL_MECHANISM_NOT_CONSTITUTION.
