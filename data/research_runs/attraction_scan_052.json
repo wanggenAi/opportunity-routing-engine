@@ -1,0 +1,104 @@
+{
+  "schema_version": "attraction-scan.v31",
+  "scan_id": "ATTRACTION_SCAN_052",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_RECURRING_MACHINE_VERIFIABLE_REPLACEABLE_OUTCOME_UNIT_NO_AUDIO_ANNOTATION_OR_SCAN051_VERTICAL_INHERITANCE_REAPPLY_ALL_HARD_FLOORS_AND_TEST_RESIDUAL_DEMAND_LEAKAGE_AFTER_INCUMBENT_PREFLIGHT",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_052-F1",
+      "title": "DENTAL_ERA_EOB_CLAIM_POSTING",
+      "chinese_title": "牙科 ERA/EOB 理赔入账",
+      "evidence_class": "CURRENT_RECURRING_PER_CLAIM_ACCURACY_CRITICAL_PAYMENT_POSTING",
+      "verdict": "DEMOTED_NATIVE_OPEN_DENTAL_ERA_AUTOMATION_AND_EXCEPTION_EXPERT_BOUNDARY",
+      "evidence_summary": "A current buyer offers recurring 200–1,000-claim lists and asks for per-claim pricing to download EOBs and post them into Open Dental. But Open Dental natively downloads ERAs, auto-matches claims, auto-populates payments and supports fully automatic processing/finalization; the residual cases are precisely mismatches, CARC exceptions, secondary-claim and write-off judgment that require domain handling."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_052-F2",
+      "title": "AWS_FUNDING_DOCUMENT_SET_ASSEMBLY",
+      "chinese_title": "AWS 资金申请文档集组装",
+      "evidence_class": "CURRENT_RECURRING_PER_DOCUMENT_TEMPLATE_ASSEMBLY_WITH_BOUNDED_INPUTS",
+      "verdict": "DEMOTED_AWS_NATIVE_FUNDING_AGENT_AND_GENERIC_AGENT_SUBSTITUTABILITY",
+      "evidence_summary": "A current AWS Partner buyer pays per recurring document set, supplies source material and a benchmark, and expects repeatable template-conforming output. AWS Partner Central now has agents that evaluate opportunities against funding programs and can create fund requests directly, while the remaining document assembly is a generic private-context-plus-template transformation readily handled by general agents."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_052-F3",
+      "title": "GOOGLE_REVIEW_REMOVAL_SUCCESS_FEE_CASE",
+      "chinese_title": "Google 差评成功移除按件收费",
+      "evidence_class": "CURRENT_RECURRING_SUCCESS_FEE_PER_REMOVED_REVIEW",
+      "verdict": "DEMOTED_EXTERNAL_PLATFORM_POLICY_GATE_CONTROLS_SUCCESS",
+      "evidence_summary": "A current operator pays only when policy-violating Google reviews are actually removed, creating crisp success-based settlement. Google itself owns the report, appeal and final removal decision; the official Reviews Management Tool provides the escalation path. Evidence compilation cannot convert that platform-owned decision into independent operator control."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_052-F4",
+      "title": "FOIA_BODYCAM_COMPLETED_CASE_PACKAGE",
+      "chinese_title": "FOIA 警务视频完整案件包",
+      "evidence_class": "CURRENT_RECURRING_PER_CASE_PUBLIC_RECORDS_RESEARCH_AND_DELIVERY",
+      "verdict": "DEMOTED_SUBJECTIVE_CASE_SELECTION_AGENCY_RESPONSE_DEPENDENCE_AND_RECURRING_RESEARCH",
+      "evidence_summary": "Multiple current buyers pay per completed bodycam/public-records case and want long-term throughput. MuckRock already productizes filing, agency routing and request tracking at scale. The residual value is finding editorially strong cases, fact-checking completeness, following up with agencies and judging whether a package is compelling—recurring researcher judgment plus external agency response timing rather than a machine-verifiable autonomous loop."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_052-F5",
+      "title": "PUBLIC_WEB_RARE_COLLECTIBLE_BUYER_INTENT_LIST",
+      "chinese_title": "公开网页稀缺收藏品买家意图名单",
+      "evidence_class": "CURRENT_PAID_PER_VERIFIED_RECORD_PUBLIC_INTENT_RESEARCH",
+      "verdict": "DEMOTED_GENERIC_WEB_RESEARCH_AGENT_CONTROL_SURFACE_AND_LOW_UNIT_ECONOMICS",
+      "evidence_summary": "A current buyer pays for batches of verified public records identifying people actively seeking named high-value collectibles. Clay already combines public-web AI research, bespoke signal extraction, intent monitoring, enrichment and structured outputs at scale. The listed economics are only $0.10 per accepted record, leaving little room for an independent orchestration layer once verification and source rights are included."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_052-F6",
+      "title": "UK_DOCUMENT_CERTIFICATION_PER_DOCUMENT",
+      "chinese_title": "英国文件逐份认证",
+      "evidence_class": "CURRENT_RECURRING_PER_DOCUMENT_CERTIFICATION_WITH_CLEAR_ACCEPTANCE",
+      "verdict": "DEMOTED_REGULATED_HUMAN_ATTESTATION_IS_THE_VALUE",
+      "evidence_summary": "A current translation company seeks ongoing per-document UK solicitor certification. GOV.UK requires a suitable professional person to inspect the original/copy and personally sign, date and identify their occupation/contact details. The legally/socially trusted human attestation is the product, so machine execution cannot replace the core value unit."
+    }
+  ],
+  "hard_floor_demotions": [
+    "DENTAL_ERA_POSTING_FAILS_WHITE_SPACE_WHEN_NATIVE_PRACTICE_SOFTWARE_ALREADY_AUTO_DOWNLOADS_MATCHES_POSTS_AND_FINALIZES_STANDARD_ERAS",
+    "AWS_FUNDING_DOCUMENT_ASSEMBLY_FAILS_DISTINCTNESS_WHEN_NATIVE_PARTNER_AGENTS_CREATE_FUND_REQUESTS_AND_GENERIC_AGENTS_HANDLE_TEMPLATE_TRANSFORMATION",
+    "GOOGLE_REVIEW_REMOVAL_FAILS_OPERATOR_CONTROL_WHEN_GOOGLE_OWNS_POLICY_INTERPRETATION_APPEAL_AND_FINAL_REMOVAL",
+    "FOIA_CASE_PACKAGES_FAIL_MACHINE_VERIFIABLE_FOUNDER_INDEPENDENCE_WHEN_EDITORIAL_CASE_SELECTION_AND_AGENCY_FOLLOWUP_REMAIN_RECURRING_RESEARCH",
+    "PUBLIC_WEB_BUYER_INTENT_LISTS_FAIL_DISTINCTNESS_AND_MARGIN_WHEN_GENERAL_GTM_AGENTS_ALREADY_RESEARCH_SIGNALS_AT_SCALE_FOR_SUB_DOLLAR_RECORD_ECONOMICS",
+    "DOCUMENT_CERTIFICATION_FAILS_MACHINE_FIRST_DELIVERY_WHEN_PROFESSIONAL_ATTESTATION_ITSELF_IS_THE_REQUIRED_OUTPUT"
+  ],
+  "scan_learnings": [
+    "PER_UNIT_RECURRING_PAYMENT_AND_CLEAR_ACCEPTANCE_DO_NOT_ESCAPE_NATIVE_WORKFLOW_AUTOMATION",
+    "PLATFORM_DECIDED_SUCCESS_FEES_ARE_NOT_OPERATOR_CONTROL",
+    "PRIVATE_SOURCE_MATERIAL_PLUS_PUBLIC_TEMPLATE_RULES_ARE_GENERIC_AGENT_SUBSTITUTABLE_WHEN_NO_DISTINCT_EXECUTION_ASSET_FORMS",
+    "PUBLIC_RECORD_REQUEST_TOOLING_CAN_AUTOMATE_FILING_WHILE_THE_REMAINING_VALUE_STILL_DEPENDS_ON_SUBJECTIVE_RESEARCH_AND_EXTERNAL_AGENCY_RESPONSE",
+    "PUBLIC_WEB_INTENT_EXTRACTION_IS_NOW_A_MATURE_GENERAL_AGENT_CAPABILITY",
+    "REGULATED_OR_TRUSTED_HUMAN_ATTESTATION_IS_NOT_REPLACEABLE_EXECUTION_EVEN_WHEN_THE_UNIT_IS_CRISP",
+    "SCAN052_ZERO_RETENTION_AFTER_NATIVE_AUTOMATION_PLATFORM_CONTROL_GENERIC_AGENT_AND_HUMAN_ATTESTATION_FLOORS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_053",
+  "next_search_boundary": "CURRENT_RECURRING_PAID_EXCEPTION_REMEDIATION_WITH_DETERMINISTIC_ACCEPTANCE_CROSS_SYSTEM_ACTION_NOT_PLATFORM_APPROVAL_NOT_REGULATED_SIGNATURE_NO_SCAN052_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN053_FROM_CROSS_SYSTEM_EXCEPTION_REMEDIATION_WITHOUT_SCAN052_VERTICAL_INHERITANCE_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.upwork.com/freelance-jobs/apply/Open-Dental-Claims-Data-Input-Specialist-Needed_~022092854407255377023/",
+    "https://www.opendental.com/manual/claimsERA835.html",
+    "https://www.opendental.com/manual/era835workflow.html",
+    "https://www.upwork.com/freelance-jobs/apply/Technical-Writer-AWS-Funding-Partnership-Documentation-template-based-ongoing_~022092558676862837376/",
+    "https://docs.aws.amazon.com/partner-central/latest/getting-started/partner-funding-agent.html",
+    "https://www.upwork.com/freelance-jobs/apply/Google-review-removal-specialist_~022097067293281441110/",
+    "https://support.google.com/business/answer/4596773?hl=en",
+    "https://www.upwork.com/freelance-jobs/apply/Police-Body-Cam-FOIA-Footage-Researcher_~022100105638772553398/",
+    "https://www.muckrock.com/",
+    "https://help.muckrock.com/How-MuckRock-Works-19ef889269638140b169c8224a4c7c05",
+    "https://www.upwork.com/freelance-jobs/apply/List-building-with-Agentic_~022099283416832616029/",
+    "https://www.clay.com/claygent",
+    "https://www.clay.com/guides/how-to-build-a-targeted-prospect-list",
+    "https://www.upwork.com/freelance-jobs/apply/Solicitor-Needed-for-Document-Certification-Ongoing-Work_~022099540608604617022/",
+    "https://www.gov.uk/certifying-a-document"
+  ]
+}

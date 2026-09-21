@@ -6,17 +6,16 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 051 tested six recurring paid outcome units with machine-verifiable acceptance and replaceable execution. Five collapsed into mature managed-service or native-automation control surfaces. One research beacon survived cheap-retention preflight: multilingual audio annotation capacity, where current buyers still expose vendor/team demand, QA-approved audio-hour or batch acceptance, and replaceable locale-specific execution despite strong incumbent managed services.
+Scan 052 tested six current recurring/per-unit paid outcomes outside the Scan 051 verticals: dental ERA/EOB claim posting, AWS funding document assembly, Google review removal, FOIA/bodycam completed case packages, rare-collectible buyer-intent lists, and UK document certification. All six fail current hard floors through native workflow automation, external platform control, recurring subjective research, generic-agent substitution/weak economics, or regulated human attestation.
 
 ```text
-OBSERVED PAID / CONTRACTED MICRO-FLOW
-→ DIRECT PAYER OR REPEATED WORKAROUND EVIDENCE
-→ SPARSE SPECIALIZED SUPPLY / EARLY CATEGORY
-→ MACHINE-EXECUTABLE OR DELEGATABLE DELIVERY
-→ EXECUTION-CREATED PERMISSIONED REUSABLE ASSET PREFERRED
-→ NO MATURE CONTROL SURFACE
-→ NO RECURRING FOUNDER ACQUISITION
-→ NO RECURRING EXPERT DELIVERY
+OBSERVED RECURRING / PER-UNIT PAID OUTCOME
+→ DETERMINISTIC ACCEPTANCE
+→ EXACT INCUMBENT / NATIVE CONTROL PREFLIGHT
+→ CROSS-SYSTEM EXECUTION CONTROL
+→ NO PLATFORM APPROVAL DEPENDENCE
+→ NO REGULATED HUMAN ATTESTATION
+→ NO RECURRING FOUNDER OR EXPERT LABOR
 → ONLY THEN DEEP CAUSAL DESCENT
 ```
 
@@ -32,27 +31,24 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Resolved recently:
-- `ATTRACTION_SCAN_046-F1` — DEMOTED after Jev-triggered cheap falsification.
-- `ATTRACTION_SCAN_047` — zero retention after six observed paid flows failed control, mature-surface or expert-delivery hard floors.
-- `ATTRACTION_SCAN_048` — zero retention after six event-driven machine-state money loops failed exact full-loop product saturation preflight.
-- `ATTRACTION_SCAN_049` — zero retention after recent paid workflow implementation budgets failed independent-control and recurring-outcome floors.
-- `ATTRACTION_SCAN_050` — zero retention after recurring measurable outcomes failed mature-control, external-algorithm or recurring-execution floors.
-- `ATTRACTION_SCAN_051-F1` — DEMOTED after Jev-triggered exact incumbent preflight showed the supply/QA/capacity asset and orchestration loop are already owned by mature managed-service and Crowd-as-a-Service networks.
+- `ATTRACTION_SCAN_051-F1` — DEMOTED after Jev-triggered exact incumbent preflight.
+- `ATTRACTION_SCAN_052` — zero retention across six formation-diverse paid units after native automation, platform-control, generic-agent and trusted-human hard floors.
 
 Discovery queue:
-- `ATTRACTION_SCAN_052 — BROAD_CURRENT_REALITY_RECURRING_MACHINE_VERIFIABLE_REPLACEABLE_OUTCOME_UNIT_NO_AUDIO_ANNOTATION_OR_SCAN051_VERTICAL_INHERITANCE_REAPPLY_ALL_HARD_FLOORS_AND_TEST_RESIDUAL_DEMAND_LEAKAGE_AFTER_INCUMBENT_PREFLIGHT`.
+- `ATTRACTION_SCAN_053 — CURRENT_RECURRING_PAID_EXCEPTION_REMEDIATION_WITH_DETERMINISTIC_ACCEPTANCE_CROSS_SYSTEM_ACTION_NOT_PLATFORM_APPROVAL_NOT_REGULATED_SIGNATURE_NO_SCAN052_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST`.
 
-Scan 051 initially retained one research beacon and made zero commercial promotions. Jev routed that beacon to exact incumbent preflight; bounded falsification then demoted it. Scan 051 now has zero active retained formations and FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
+Scan 052 retained zero new formations, made zero commercial promotions, and FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_051_F1_FALSIFIED_AWAITING_UPDATED_PR_CI_JEV_CONTINUATION`
+`SCAN_052_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`6bcc75ba45757b052aabf06863d992bdad52c382`
-— squash merge of PR #348, `Require machine-verifiable recurring outcomes in Scan 050`.
+`4a68f3e5ad527a0e37fac699cf02384a3aaab87d`
+— squash merge of PR #349, `Close saturated multilingual annotation routing in Scan 051`.
 
+PR #349 repository CI and Jev both completed successfully before merge. Jev final continuation: 6/6 `NO_FURTHER_RESEARCH`, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -60,11 +56,11 @@ Scan 051 initially retained one research beacon and made zero commercial promoti
 
 ## Active Branch
 
-`research/attraction-scan-051`.
+`research/attraction-scan-052`.
 
 ## Active PR
 
-PR #349 — `Retain multilingual audio annotation for bounded falsification in Scan 051`; live branch now includes the Jev-triggered falsification and authoritative demotion.
+Pending creation for Scan 052. Live GitHub state is authoritative.
 
 ## CI
 
@@ -80,10 +76,9 @@ PR #349 — `Retain multilingual audio annotation for bounded falsification in S
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_051.json`
-- `docs/research/ATTRACTION_SCAN_051_2026-09-21.md`
-- `tests/test_attraction_scan_051_routable_unit_gate.py`
-- `data/research_runs/attraction_scan_051_f1_falsification.json`
+- `data/research_runs/attraction_scan_052.json`
+- `docs/research/ATTRACTION_SCAN_052_2026-09-21.md`
+- `tests/test_attraction_scan_052_exception_boundary.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -108,16 +103,16 @@ Results:
 ## Current Findings
 
 ```text
-MACHINE-VERIFIABLE ACCEPTANCE
+RECURRING PER-UNIT PAYMENT
 +
-REPLACEABLE EXECUTION
-+
-CURRENT PAID DEMAND
+MACHINE-CHECKABLE OUTPUT
 !=
-UNOWNED REPEATABLE BUSINESS
+UNOWNED EXECUTION CONTROL
 ```
 
-Scan 051 shows that this stricter filter selects heavily for BPO and managed-service categories, where incumbents already own most mature loops. Multilingual audio annotation briefly survived because buyers expose QA-approved units and external vendor demand. Jev then routed it to exact incumbent preflight. That preflight found LXT-style fully managed delivery plus Crowd-as-a-Service/API access, large multilingual contributor networks, and mature QA infrastructure occupying the same orchestration layer. The hypothesized supply/QA/capacity asset is therefore not distinct, normalized margin remains unproven, and founder-free buyer acquisition remains unproven.
+Scan 052 reinforces that the standard case is often already absorbed. Open Dental can fully auto-process standard ERAs; AWS Partner Central agents can recommend funding and create fund requests; Google owns review-removal appeals; MuckRock owns FOIA filing/tracking; Clay productizes public-web intent research; UK document certification requires trusted human attestation.
+
+Scan 053 therefore targets the residual **exception remediation layer**: software may detect an exception, but a new formation only survives if the operator can actually complete a deterministic corrective action across independently owned systems without platform approval or a regulated signer.
 
 ## Validation Status
 
@@ -150,10 +145,12 @@ Commercial:
 
 ## Next Action
 
-Run updated PR #349 CI and live Jev against the persisted F1 falsification. If all Scan 051 formations route `NO_FURTHER_RESEARCH` and autonomous continuation remains allowed, merge after green checks, verify main, and start Scan 052 from a broad current-reality search without audio-annotation inheritance.
+Create the Scan 052 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 053 from current paid exception-remediation queues with exact incumbent preflight first.
 
 ## Do Not Repeat
 
+- Do not mistake an exception queue for white space merely because the happy path is automated; prove that the corrective action is independently executable and not just another expert escalation.
+- Do not count native platform agents or built-in auto-processing as residual operator opportunity when they already own the standard control loop.
 - Do not promote Scan 046-F1 merely because MCP is current or because providers publish prices; prove real buyer incidence, machine-first standardization, founder-free inbound and non-absorbed control first.
 - Do not let MCP/spec-migration terms seed Scan 047; the retained formation is a validation queue item, not the next search ontology.
 - Do not confuse a fixed-price engineering service with founder-independent delivery if every customer still requires senior bespoke remediation.
