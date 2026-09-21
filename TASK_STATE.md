@@ -6,7 +6,7 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 045 verified that the desired day-one-value + execution-created reusable-asset structure is real, but the cleanest versions are already infrastructure categories owned by scaled incumbents; the remaining execution data is commonly identifying, customer-private or rights constrained.
+Scan 046 reset discovery to observed paid micro-flows. Five paid formations were closed for dense supply, recurring expert delivery, mature service structure or platform-native absorption. MCP 2026-07-28 migration/conformance is retained as research-only because a recent official breaking revision, paid maintenance hiring and fixed-price specialist offers show a real early category; payer incidence, machine-first standardization, founder-free inbound and platform-absorption resistance remain unproven.
 
 ```text
 OBSERVED PAID / CONTRACTED MICRO-FLOW
@@ -31,21 +31,24 @@ surface absorption pressure.
 Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
-Discovery queue:
-- `ATTRACTION_SCAN_046 — BROAD_CURRENT_REALITY_RECENTLY_OBSERVED_PAID_OR_CONTRACTED_MICRO_FLOW_WITH_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_SPARSE_SPECIALIZED_SUPPLY_OR_EARLY_CATEGORY_FORMATION_MACHINE_EXECUTABLE_OR_DELEGATABLE_DELIVERY_EXECUTION_CREATED_PERMISSIONED_REUSABLE_ASSET_PREFERRED_NO_MATURE_CONTROL_SURFACE_NO_RECURRING_FOUNDER_ACQUISITION_NO_RECURRING_EXPERT_DELIVERY_NO_REQUIRED_VERTICAL_OR_MECHANISM`.
+Research queue:
+- `ATTRACTION_SCAN_046-F1` — MCP 2026-07-28 spec migration/conformance; cheap falsify payer incidence, machine-first standardization, SDK/scanner/platform absorption, founder-free inbound and normalized delegated margin.
 
-Scan 045 retained no new formation.
+Discovery queue:
+- `ATTRACTION_SCAN_047 — BROAD_CURRENT_REALITY_OBSERVED_PAID_OR_CONTRACTED_MICROFLOW_SPARSE_SPECIALIZED_SUPPLY_OR_EARLY_CATEGORY_NO_MCP_SPEC_MIGRATION_OR_ACTIVE_VERTICAL_INHERITANCE_REAPPLY_ALL_EXISTING_HARD_FLOORS`.
+
+Scan 046 retained one research-only formation and made zero commercial promotions.
 
 ## Current Phase
 
-`SCAN_045_COMPLETE_PR_PENDING_JEV_CONTINUATION`
+`SCAN_046_COMPLETE_AWAITING_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`d0ed46236906d64ffae722e747278bef4ffa9fdb`
-— squash merge of PR #342, `Require operator-owned reuse rights in Scan 044`.
+`dde9e332ea03a1db05fed91259a7045a8f7c224b`
+— squash merge of PR #343, `Reset discovery to paid sparse-supply microflows after Scan 045`.
 
-PR #342 CI run `35578471007` and live Jev run `35578470910` completed successfully. Scan 044 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #343 CI run `35578935602` and live Jev run `35578935501` completed successfully. Scan 045 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -53,11 +56,11 @@ PR #342 CI run `35578471007` and live Jev run `35578470910` completed successful
 
 ## Active Branch
 
-`research/attraction-scan-045`.
+`research/attraction-scan-046`.
 
 ## Active PR
 
-Pending creation for Scan 045.
+Live GitHub PR state is authoritative. This checkpoint records the completed Scan 046 branch before consuming its caused Jev continuation directive.
 
 ## CI
 
@@ -70,9 +73,9 @@ Pending creation for Scan 045.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_045.json`
-- `docs/research/ATTRACTION_SCAN_045_2026-09-21.md`
-- `tests/test_attraction_scan_045_day_one_asset_gate.py`
+- `data/research_runs/attraction_scan_046.json`
+- `docs/research/ATTRACTION_SCAN_046_2026-09-21.md`
+- `tests/test_attraction_scan_046_paid_microflow_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -97,14 +100,16 @@ Results:
 ## Current Findings
 
 ```text
-DAY-ONE VALUE
+OBSERVED MONEY MOTION
 +
-EXECUTION-CREATED REUSABLE ASSET
+RECENT EXTERNAL BREAKING TRIGGER
++
+PARTLY MACHINE-VERIFIABLE ACCEPTANCE
 !=
-EARLY WHITE SPACE
+PROVEN FOUNDER-INDEPENDENT BUSINESS
 ```
 
-Scan 045 tested proxy/unblocking, self-healing browser automation, HS classification, email verification, phone reputation and unified-API connector maintenance. All exhibit parts of the target physics, but the clean reusable assets are already owned by infrastructure incumbents, while the uncaptured observations are commonly identity-bearing or customer-private. Scan 046 therefore resets the discovery source to already-paid micro-flows with sparse specialized supply instead of deriving another abstract business shape.
+Scan 046 tested six current paid micro-flows. Shopify GEO, EU AI Act governance, accessibility audits, agentic-commerce enablement and generic n8n automation were demoted at hard floors. `ATTRACTION_SCAN_046-F1` remains research-only: MCP 2026-07-28 migration/conformance has current paid maintenance evidence and newly productized fixed-scope migration offers, but the project must still prove that enough of the work can be standardized and machine-verified to avoid recurring senior-expert delivery and that the paid layer will not be absorbed by official SDKs, free scanners, gateways or platform vendors.
 
 ## Validation Status
 
@@ -126,8 +131,9 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 045 is complete with zero retention.
-- Scan 046 has not started; it searches already-paid or contracted micro-flows with sparse specialized supply / visibly early category formation, then reapplies all current delivery, rights, asset, incumbent and founder-independence hard floors.
+- Scan 046 is complete with one research-only formation and zero commercial promotions.
+- Scan 046-F1 requires cheap falsification of real buyer incidence, machine-first scope standardization, feature/platform absorption, founder-free inbound and normalized delegated margin.
+- Scan 047 remains broad and must not inherit MCP/spec-migration terms as a required search prior.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -135,10 +141,13 @@ Commercial:
 
 ## Next Action
 
-Merge Scan 045 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 046 in the same task.
+Persist Scan 046 in PR form, consume the caused Jev continuation directive, and follow it automatically. If Jev routes unresolved research, cheap-falsify Scan 046-F1 before promotion; if it allows broader continuation in parallel, start Scan 047 without inheriting MCP migration as the ontology.
 
 ## Do Not Repeat
 
+- Do not promote Scan 046-F1 merely because MCP is current or because providers publish prices; prove real buyer incidence, machine-first standardization, founder-free inbound and non-absorbed control first.
+- Do not let MCP/spec-migration terms seed Scan 047; the retained formation is a validation queue item, not the next search ontology.
+- Do not confuse a fixed-price engineering service with founder-independent delivery if every customer still requires senior bespoke remediation.
 - Do not deep-research a candidate before checking exact current incumbents.
 - Do not treat incumbent presence alone as a kill; verify whether the incumbent resolves the same value flow and why residual leakage still exists.
 - Do not treat manual work, spreadsheet use or poor adoption as proof of an unowned control edge.
