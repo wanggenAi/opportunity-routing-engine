@@ -6,13 +6,13 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 035 showed that even direct payer + digital/delegatable delivery categories can already be densely
-productized. Scan 036 therefore changes research order, not opportunity shape:
+Scan 036 verified that moving exact incumbent preflight before deep causal descent materially reduces wasted research. Six broad formations were killed at preflight because current products resolved the same control loop.
 
 ```text
 PAYER / WORKAROUND SIGNAL
 → DELIVERY PREFILTER
 → EXACT INCUMBENT PREFLIGHT
+→ REQUIRE OBSERVED RESIDUAL LEAKAGE / UNOWNED ACTION EDGE
 → ONLY THEN DEEP CAUSAL DESCENT
 ```
 
@@ -28,13 +28,13 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Discovery queue:
-- `ATTRACTION_SCAN_036 — BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_BEFORE_DEEP_RESEARCH_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
+- `ATTRACTION_SCAN_037 — BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_THEN_REQUIRE_OBSERVED_RESIDUAL_LEAKAGE_OR_UNOWNED_ACTION_EDGE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
 
-Scan 035 retained no new formation.
+Scan 036 retained no new formation.
 
 ## Current Phase
 
-`JEV_PHASE3_AGENT_CONTINUATION_MERGED_SCAN_036_READY`
+`SCAN_036_COMPLETE_PR_PENDING_JEV_CONTINUATION`
 
 ## Last Verified Main
 
@@ -49,11 +49,11 @@ Merged-main CI run `35573523396` succeeded. Merged-main live Jev run `3557352338
 
 ## Active Branch
 
-None. Jev Phase 3 merged.
+`research/attraction-scan-036`.
 
 ## Active PR
 
-None for Jev integration. PR #331, PR #332 and PR #333 are merged.
+Pending creation for Scan 036.
 
 ## CI
 
@@ -66,9 +66,9 @@ None for Jev integration. PR #331, PR #332 and PR #333 are merged.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_035.json`
-- `docs/research/ATTRACTION_SCAN_035_2026-09-21.md`
-- `tests/test_attraction_scan_035_digital_payer.py`
+- `data/research_runs/attraction_scan_036.json`
+- `docs/research/ATTRACTION_SCAN_036_2026-09-21.md`
+- `tests/test_attraction_scan_036_incumbent_preflight.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -93,14 +93,14 @@ Results:
 ## Current Findings
 
 ```text
-DIRECT PAYER
-+ DIGITAL DELIVERY
-!=
-UNOWNED CONTROL EDGE
+EARLY EXACT INCUMBENT PREFLIGHT
++
+SAME-CONTROL-LOOP TEST
+=
+CHEAP KILL BEFORE DEEP CAUSAL DESCENT
 ```
 
-The main process bottleneck is now obvious: exact incumbent checks should happen before expensive causal descent,
-not after a candidate already looks attractive.
+Scan 036 examined six unrelated paid/workaround formations and retained none because current incumbents already resolve the same operational control loop. The next search must not reject merely because incumbents exist; it must look for observed residual leakage, workaround, exclusion, delay or an unowned action edge after preflight.
 
 ## Validation Status
 
@@ -122,7 +122,8 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 036 has not yet started; its research order remains payer/workaround signal -> delivery prefilter -> exact incumbent preflight -> deep research.
+- Scan 036 is complete with zero retention.
+- Scan 037 has not started; it keeps breadth and hard floors while requiring observed post-incumbent residual leakage or an unowned action edge before deep causal descent.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -130,11 +131,12 @@ Commercial:
 
 ## Next Action
 
-Start Scan 036. Once the persisted scan update triggers Jev, the active agent must consume `jev_continuation_directive.json` and continue the next reversible research stage in the same task instead of waiting for a user `continue` message.
+Merge Scan 036 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, begin Scan 037 in the same task without waiting for another user `continue`.
 
 ## Do Not Repeat
 
 - Do not deep-research a candidate before checking exact current incumbents.
+- Do not treat incumbent presence alone as a kill; verify whether the incumbent resolves the same value flow and whether residual leakage is observed.
 - Do not turn the incumbent-preflight process improvement into a required opportunity mechanism.
 - Do not let Scan 035 verticals seed Scan 036.
 - Do not lower hard floors because discovery continues to close at zero.
