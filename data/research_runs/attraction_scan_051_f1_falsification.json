@@ -1,0 +1,117 @@
+{
+  "schema_version": "formation-falsification.v1",
+  "formation_id": "ATTRACTION_SCAN_051-F1",
+  "as_of_date": "2026-09-21",
+  "prior_state": "RESEARCH_BEACON_RETAINED_FOR_DEMAND_LEAKAGE_SUPPLY_DISCOVERABILITY_QA_ECONOMICS_AND_FOUNDER_FREE_ACQUISITION_FALSIFICATION",
+  "verdict": "DEMOTED_EXACT_MANAGED_SERVICE_CONTROL_SURFACE_NON_DISTINCT_SUPPLY_QA_ASSET_AND_UNPROVEN_FOUNDER_FREE_BUYER_ACQUISITION",
+  "commercial_candidate": false,
+  "retain_for_active_validation": false,
+  "first_external_value_flow": "NOT_PROVEN",
+  "decisive_kills": [
+    {
+      "kill": "MULTI_BUYER_RECURRENCE",
+      "status": "PARTIAL_PASS",
+      "reason": "Multiple current client accounts across France, the United States, Hong Kong, India, Pakistan and Ukraine procure audio annotation or QA across several locales. This proves recurring market activity, but several postings are themselves high-volume labor sourcing by intermediaries and do not establish a fragmented direct enterprise buyer pool for a new orchestration layer."
+    },
+    {
+      "kill": "MACHINE_VERIFIABLE_ACCEPTANCE",
+      "status": "PASS",
+      "reason": "Current jobs use explicit 98%+ accuracy thresholds, QA-approved batches, paid qualification tests, accepted-audio-hour settlement and rework on rejected tasks. Acceptance is sufficiently rubriced for routing."
+    },
+    {
+      "kill": "REPLACEABLE_SUPPLY",
+      "status": "PASS_BUT_NON_DISTINCT",
+      "reason": "Native annotator and QA supply is visibly deep and replaceable across marketplaces and managed crowds. That helps execution physics but weakens scarcity and does not create a unique operator asset."
+    },
+    {
+      "kill": "EXACT_INCUMBENT_CONTROL_SURFACE",
+      "status": "FAIL",
+      "reason": "LXT already offers fully managed audio annotation with dedicated project management, multilingual native-speaker staffing, QA and more than 10 million contributors across 1,000+ locales; its 2026 Crowd-as-a-Service product also exposes that workforce by API. Appen and Shaip provide the same end-to-end multilingual speech collection, transcription, annotation and quality infrastructure. The proposed orchestration loop is therefore an exact mature category, not an unowned edge."
+    },
+    {
+      "kill": "DISTINCT_COMPOUNDING_OPERATOR_ASSET",
+      "status": "FAIL",
+      "reason": "The hypothesized asset—locale-specific supply graph, qualification history, QA pass rates, throughput, rework and capacity records—is precisely the operating asset held at much greater scale by incumbent annotation networks. Customer audio is confidential and cannot be reused; non-content performance metadata alone does not create a distinct moat against incumbents that already accumulate the same workforce reliability data."
+    },
+    {
+      "kill": "NORMALIZED_UNIT_ECONOMICS",
+      "status": "NOT_PROVEN",
+      "reason": "Current payment bases vary sharply: accepted audio hour, working hour, fixed batch and source-audio-hour productivity ratios. One Korean pilot estimates about 50 human hours per source audio hour while other buyers ask suppliers to quote per accepted audio hour. Without direct buyer revenue and comparable task-complexity data, normalized orchestration margin cannot be evidenced."
+    },
+    {
+      "kill": "NO_RECURRING_EXPERT_DELIVERY",
+      "status": "PARTIAL_FAIL",
+      "reason": "Guidelines and batch QA are standardizable, but current buyers also hire long-running native-language QA managers to resolve difficult cases and maintain team quality. This leaves recurring linguistic judgment in the hard tail rather than proving a fully replaceable low-expertise execution loop."
+    },
+    {
+      "kill": "FOUNDER_FREE_BUYER_ACQUISITION",
+      "status": "NOT_PROVEN",
+      "reason": "The observed residual leakage is discovered through marketplace job posts and proposal bidding. No evidence shows organic, repeatable buyer inbound to a new operator without recurring sales or bid activity, while mature vendors already possess enterprise procurement channels."
+    }
+  ],
+  "evidence": [
+    {
+      "source_type": "CURRENT_VENDOR_DEMAND",
+      "title": "French Audio Annotation & Transcription Vendor Needed – Large-Scale Project",
+      "url": "https://www.upwork.com/freelance-jobs/apply/French-Audio-Annotation-Transcription-Vendor-Needed-Large-Scale-Project_~022099469148477771257/",
+      "fact": "$15,000 ongoing posting explicitly requests a vendor/agency/team, 98%+ accuracy, internal QA, scalable capacity and rate per completed audio hour."
+    },
+    {
+      "source_type": "CURRENT_HIGH_VOLUME_DEMAND",
+      "title": "EN-US audio transcription & annotation — large-scale AI data project",
+      "url": "https://www.upwork.com/freelance-jobs/apply/audio-transcription-annotation-large-scale-data-project_~022063855273361591750/",
+      "fact": "A France-based client with substantial prior spend describes a 5,000 source-audio-hour production target and ongoing weekly batches."
+    },
+    {
+      "source_type": "CURRENT_COST_STRUCTURE_SIGNAL",
+      "title": "New Project | Annotation pilot | Korean | ko_KR",
+      "url": "https://www.upwork.com/freelance-jobs/apply/New-Project-Annotation-pilot-Korean-ko_KR_~022100536889547503286/",
+      "fact": "The pilot seeks 30 annotators at $20 per working hour and estimates roughly 50 human hours of effort per source-audio hour, demonstrating large task-complexity variance."
+    },
+    {
+      "source_type": "CURRENT_QA_SIGNAL",
+      "title": "Quality Manager for French Transcription Projects",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Quality-Manager-for-French-Transcription-Projects_~022098409378991088785/",
+      "fact": "An ongoing 6+ month, 30+ hour/week role pays $10-$30/hour for native-language QA, difficult-case resolution and team quality management."
+    },
+    {
+      "source_type": "EXACT_INCUMBENT",
+      "title": "LXT audio annotation services",
+      "url": "https://www.lxt.ai/services/audio-annotation/",
+      "fact": "LXT provides fully managed audio annotation with dedicated project management, native-language staffing and a global contributor network."
+    },
+    {
+      "source_type": "EXACT_INCUMBENT_CONTROL_SURFACE",
+      "title": "LXT Crowd-as-a-Service",
+      "url": "https://www.lxt.ai/blog/crowd-as-a-service-api-access/",
+      "fact": "LXT exposes 10M+ contributors through API/platform integration while customers retain task and quality-workflow control."
+    },
+    {
+      "source_type": "EXACT_INCUMBENT",
+      "title": "Appen Speech & Audio AI Training Data",
+      "url": "https://www.appen.com/speech-and-audio-training-data",
+      "fact": "Appen offers bespoke speech/audio collection and annotation across hundreds of global locales."
+    },
+    {
+      "source_type": "EXACT_INCUMBENT",
+      "title": "Shaip Conversational AI Training Data",
+      "url": "https://www.shaip.com/solutions/conversational-ai/",
+      "fact": "Shaip offers multilingual speech collection, transcription, annotation, QA and validation through a large global workforce."
+    },
+    {
+      "source_type": "CATEGORY_DENSITY",
+      "title": "Clutch Audio Annotation Services rankings",
+      "url": "https://clutch.co/data-processing/annotation/audio",
+      "fact": "The current category includes numerous specialized providers with large workforces and published minimum project sizes/rate bands, confirming dense managed-service supply beyond the largest incumbents."
+    }
+  ],
+  "retained_learning": [
+    "MACHINE_VERIFIABLE_ACCEPTANCE_AND_REPLACEABLE_LABOR_CAN_SELECT_FOR_MATURE_BPO_CONTROL_SURFACES",
+    "RESIDUAL_MARKETPLACE_PROCUREMENT_CAN_BE_DOWNSTREAM_LABOR_SOURCING_LEAKAGE_RATHER_THAN_AN_UNOWNED_DIRECT_BUYER_EDGE",
+    "SUPPLY_GRAPH_QA_HISTORY_AND_CAPACITY_DATA_ARE_NOT_DISTINCT_ASSETS_WHEN_INCUMBENT_CROWD_NETWORKS_ALREADY_COMPOUND_THE_SAME_METADATA_AT_SCALE",
+    "CROWD_AS_A_SERVICE_API_ACCESS_CAN_ABSORB_THE_ROUTING_LAYER_WITHOUT_REQUIRING_FULL_MANAGED_OUTSOURCING",
+    "ACCEPTED_AUDIO_HOUR_IS_A_CLEAN_SETTLEMENT_UNIT_BUT_TASK_COMPLEXITY_AND_HUMAN_EFFORT_RATIOS_PREVENT_UNEVIDENCED_MARGIN_NORMALIZATION",
+    "SCAN051_F1_DEMOTED_AFTER_JEV_TRIGGERED_EXACT_INCUMBENT_PREFLIGHT"
+  ],
+  "next_action": "REMOVE_FROM_ACTIVE_RESEARCH_AND_CONTINUE_SCAN052_WITHOUT_AUDIO_ANNOTATION_INHERITANCE"
+}
