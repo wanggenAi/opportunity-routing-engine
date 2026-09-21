@@ -1,0 +1,88 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_033",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_SAMPLE_UNRELATED_DOMAINS_NO_SCAN032_VERTICAL_INHERITANCE_NO_REQUIRED_MECHANISM_KEEP_COMMERCIAL_HARD_FLOORS",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "reality_signals": [
+    "NATIONAL_DATA_PROPERTY_REGISTRATION_SYSTEM_LAUNCHED_WITH_CROSS_INDUSTRY_APPLICATIONS",
+    "ENTERPRISE_DRONE_TRAINING_AND_INSPECTION_SUPPORT_HAS_REAL_PAID_PROCUREMENT",
+    "SMART_HOME_CHANNELS_ARE_EXPANDING_FROM_PRODUCT_SALES_TO_TRY_INSTALL_REPLACE_REPAIR_LIFECYCLE_SERVICE",
+    "CONCERT_CROSS_CITY_TRAVEL_CREATES_DIRECT_PAID_LUGGAGE_STORAGE_DEMAND",
+    "NIGHT_TOURISM_AND_IMMERSIVE_PERFORMANCE_BOOKING_DEMAND_IS_RISING",
+    "OUTDOOR_EXPERIENCE_AND_EQUIPMENT_RENTAL_HAS_DIRECT_CONSUMER_PAYMENT"
+  ],
+  "examined_formations": [
+    {
+      "title": "DATA_PROPERTY_REGISTRATION_EVIDENCE_COMPILER",
+      "chinese_title": "数据产权登记证据编译器",
+      "mechanism_class": "RIGHTS_REGISTRATION_WORKFLOW",
+      "verdict": "DEMOTED_REGISTRATION_INSTITUTION_FULL_CHAIN_AND_PROFESSIONAL_REVIEW",
+      "evidence_summary": "The national registration system is newly live and demand is real, but authorized exchanges already provide structured fields, intelligent prompts, application guidance, multi-level compliance/security review and registration-to-circulation/assetization services. The residual difficult layer is legal/data-governance judgment rather than an independent thin control surface."
+    },
+    {
+      "title": "DRONE_SERVICE_CAPACITY_ORCHESTRATOR",
+      "chinese_title": "无人机训练巡检服务容量编排层",
+      "mechanism_class": "SPECIALIZED_FIELD_SERVICE",
+      "verdict": "DEMOTED_ENTERPRISE_PROCUREMENT_AND_HEAVY_FIELD_SERVICE",
+      "evidence_summary": "Current enterprise tenders pay directly for drone certification, power-inspection training, sites, accommodation, route planning, modeling, maintenance, personnel and insurance. The value is a bundled physical service procurement rather than machine-only routing."
+    },
+    {
+      "title": "SMART_HOME_LIFECYCLE_SERVICE_COORDINATOR",
+      "chinese_title": "智能家居全生命周期服务协调层",
+      "mechanism_class": "HOME_SERVICE_LIFECYCLE",
+      "verdict": "DEMOTED_RETAIL_CHANNEL_INTERNALIZATION_AND_FIELD_INSTALLATION",
+      "evidence_summary": "Current policy and major retailers are already bundling experience, installation, replacement and repair while community service stations integrate repair, storage and recycling. The residual work requires home visit, installation, repair and physical reverse logistics."
+    },
+    {
+      "title": "CONCERT_LUGGAGE_STORAGE_ROUTER",
+      "chinese_title": "演唱会跨城观众行李寄存路由",
+      "mechanism_class": "EVENT_MICROSERVICE",
+      "verdict": "DEMOTED_CURRENT_STORAGE_PLATFORMS_AND_PHYSICAL_CUSTODY",
+      "evidence_summary": "Cross-city concert travel creates direct paid storage demand, but current storage apps, lockers and logistics companies already compete for the use case. Trust, physical custody, venue proximity and local store supply remain the core asset."
+    },
+    {
+      "title": "NIGHT_TOUR_EXPERIENCE_META_ORCHESTRATOR",
+      "chinese_title": "夜游沉浸体验元编排层",
+      "mechanism_class": "EXPERIENCE_COMMERCE",
+      "verdict": "DEMOTED_OTA_LOCAL_COMMERCE_AND_VENUE_CONTROL",
+      "evidence_summary": "Night-tour and immersive performance bookings show strong current demand, but OTAs, local-commerce platforms and venues own inventory, tickets and booking while experience production is physical/content-heavy."
+    },
+    {
+      "title": "OUTDOOR_EQUIPMENT_AND_EXPERIENCE_ROUTER",
+      "chinese_title": "户外装备租赁与体验路由层",
+      "mechanism_class": "OUTDOOR_EXPERIENCE_COMMERCE",
+      "verdict": "DEMOTED_EXISTING_BOOKING_RENTAL_PLATFORMS_AND_LOCAL_FULFILLMENT",
+      "evidence_summary": "Climbing and camping experiences have direct prices and equipment rental, but booking and rental are already exposed by venue/OTA/outdoor platforms; instruction, safety and equipment handoff remain local physical services."
+    }
+  ],
+  "hard_floor_demotions": [
+    "NEW_RIGHTS_INFRASTRUCTURE_DOES_NOT_CREATE_A_THIN_LAYER_WHEN_AUTHORIZED_INSTITUTIONS_OWN_REVIEW_AND_FULL_CHAIN_SERVICE",
+    "ENTERPRISE_PROCUREMENT_IS_NOT_MACHINE_EXECUTABLE_WHEN_THE_VALUE_BUNDLE_INCLUDES_PEOPLE_SITES_EQUIPMENT_AND_INSURANCE",
+    "HOME_SERVICE_LIFECYCLE_REMAINS_FIELD_OPERATION_HEAVY",
+    "EVENT_STORAGE_REQUIRES_PHYSICAL_CUSTODY_AND_LOCAL_SUPPLY",
+    "EXPERIENCE_COMMERCE_INVENTORY_AND_PAYMENT_ARE_ALREADY_PLATFORM_OR_VENUE_OWNED",
+    "OUTDOOR_SAFETY_INSTRUCTION_AND_EQUIPMENT_HANDOFF_REMAIN_LOCAL_SERVICE"
+  ],
+  "scan_learnings": [
+    "SECOND_BROAD_SAMPLE_CONFIRMS_RESET_DURABILITY_ACROSS_UNRELATED_DOMAINS",
+    "DIRECT_PAYMENT_IS_STRONGER_THAN_POLICY_SIGNAL_BUT_STILL_INSUFFICIENT_WHEN_PHYSICAL_OR_PLATFORM_CONTROL_DOMINATES",
+    "NEW_NATIONAL_INFRASTRUCTURE_CAN_CREATE_REAL_DEMAND_WHILE_AUTHORIZED_INSTITUTIONS_INTERNALIZE_THE_VALUE_CHAIN",
+    "ENTERPRISE_TENDER_SPEND_IS_REAL_PULL_BUT_BUNDLED_FIELD_SERVICE_FAILS_FOUNDER_INDEPENDENCE",
+    "CONSUMER_MICROSERVICE_DEMAND_CAN_BE_HIGH_WITHOUT_AN_UNOWNED_DIGITAL_CONTROL_EDGE",
+    "SCAN_033_ZERO_RETENTION_AFTER_SECOND_INDEPENDENT_BROAD_SAMPLE"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_034",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_REQUIRE_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM_KEEP_COMMERCIAL_HARD_FLOORS",
+  "next_action": "START_SCAN034_FROM_FORMATION_DIVERSE_CURRENT_SIGNALS_WITH_DIRECT_EXISTING_PAYMENT_OR_REPEATED_USER_WORKAROUND_EVIDENCE",
+  "first_external_value_flow": "NOT_PROVEN"
+}
