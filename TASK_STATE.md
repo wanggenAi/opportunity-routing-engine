@@ -6,16 +6,15 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 040 verified that a recent monetary rule or policy change is not enough: high-value public schemes can attract exact application advisors before opening, automatic refunds remove the action edge, and low-ticket self-service benefits cannot carry durable orchestration economics.
+Scan 041 verified that even recent money + machine-identifiable beneficiaries + callable action is not enough: control platforms can absorb a new API within weeks, regulated recovery categories already own high-value claims, public addressability does not imply payer pull, and automatic payouts remove the operator edge.
 
 ```text
-RECENT MONETARY RULE / POLICY / CONTRACT CHANGE
-→ NON-AUTOMATIC BENEFIT
-→ DETERMINISTIC / MACHINE-RESOLVABLE ELIGIBILITY
-→ HIGH PER-BENEFICIARY VALUE
-→ ENUMERABLE / MACHINE-IDENTIFIABLE BENEFICIARY UNIVERSE
-→ NO EXACT APPLICATION / RECOVERY / ADVISORY INCUMBENT
+EXTERNALLY VISIBLE HIGH-COST OPERATIONAL STATE CHANGE
+→ PRECOMMITTED / OBSERVED BUDGET
+→ MACHINE-EXECUTABLE DIGITAL DELIVERY
+→ NO MATURE CONTROL SURFACE
 → NO RECURRING EXPERT DELIVERY
+→ EXCLUDE CLAIMS / REFUNDS / GRANTS / TAX RELIEF
 → ONLY THEN DEEP CAUSAL DESCENT
 ```
 
@@ -31,20 +30,20 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Discovery queue:
-- `ATTRACTION_SCAN_041 — BROAD_CURRENT_REALITY_RECENT_MONETARY_RULE_POLICY_OR_CONTRACT_CHANGE_NON_AUTOMATIC_DETERMINISTIC_HIGH_VALUE_BENEFICIARY_EXTERNALLY_ENUMERABLE_OR_MACHINE_IDENTIFIABLE_OPERATOR_ACCESSIBLE_DATA_NO_EXACT_APPLICATION_RECOVERY_OR_ADVISORY_INCUMBENT_NO_RECURRING_EXPERT_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
+- `ATTRACTION_SCAN_042 — BROAD_CURRENT_REALITY_EXTERNALLY_VISIBLE_HIGH_COST_OPERATIONAL_STATE_CHANGE_PRECOMMITTED_OR_OBSERVED_BUDGET_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_NO_MATURE_CONTROL_SURFACE_NO_RECURRING_EXPERT_DELIVERY_EXCLUDE_CLAIMS_REFUNDS_GRANTS_TAX_RELIEF_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
 
-Scan 040 retained no new formation.
+Scan 041 retained no new formation.
 
 ## Current Phase
 
-`SCAN_040_COMPLETE_PR_PENDING_JEV_CONTINUATION`
+`SCAN_041_COMPLETE_PR_PENDING_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`d78df89c25a9f0392cdf1356aa715c78a25e706e`
-— squash merge of PR #337, `Close mature recovery loops in Scan 039`.
+`bdae9eb27f1b48e3acfd08c3e904813b8be3836a`
+— squash merge of PR #338, `Close recent-entitlement timing edge in Scan 040`.
 
-PR #337 CI run `35575557329` and live Jev run `35575557318` completed successfully. Scan 039 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #338 CI run `35576617160` and live Jev run `35576617105` completed successfully. Scan 040 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -52,11 +51,11 @@ PR #337 CI run `35575557329` and live Jev run `35575557318` completed successful
 
 ## Active Branch
 
-`research/attraction-scan-040`.
+`research/attraction-scan-041`.
 
 ## Active PR
 
-Pending creation for Scan 040.
+Pending creation for Scan 041.
 
 ## CI
 
@@ -69,9 +68,9 @@ Pending creation for Scan 040.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_040.json`
-- `docs/research/ATTRACTION_SCAN_040_2026-09-21.md`
-- `tests/test_attraction_scan_040_recent_entitlement.py`
+- `data/research_runs/attraction_scan_041.json`
+- `docs/research/ATTRACTION_SCAN_041_2026-09-21.md`
+- `tests/test_attraction_scan_041_machine_identifiable_money.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -96,14 +95,16 @@ Results:
 ## Current Findings
 
 ```text
-RECENT MONEY / RULE CHANGE
+NEW MONEY
 +
-EXECUTABLE APPLICATION
+MACHINE IDENTIFICATION
++
+CALLABLE ACTION
 !=
-TEMPORARY WHITE SPACE
+DURABLE OPERATOR EDGE
 ```
 
-Scan 040 tested six current monetary changes. BICS, Section 45F and SFI26 already had specialized application/advisory tooling; the Australian industrial grant already had exact grant consultants and required expert project judgment; Korea's merchant-fee refund is automatic; Busan's voucher is low-ticket self-service. Scan 041 therefore requires non-automatic deterministic high-value benefit plus machine-identifiable beneficiaries and no exact application/recovery/advisory incumbent.
+Scan 041 tested six stronger cases. Google Play's new ReviewRefund event/API was absorbed by RevenueCat within weeks; HMRC VAT-group reconsiderations and IEEPA refunds are already specialist/regulated recovery categories; Scottish business-rates relief is partly enumerable but official guidance warns against paid application; Amazon Prime redress and Ofgem smart-meter compensation are automatic. The recovery/entitlement family is now deliberately exited.
 
 ## Validation Status
 
@@ -125,8 +126,8 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 040 is complete with zero retention.
-- Scan 041 has not started; it requires a recent high-value monetary change that is non-automatic, machine-resolvable, addressable and not already occupied by an application/recovery/advisory category.
+- Scan 041 is complete with zero retention.
+- Scan 042 has not started; it resets to externally visible high-cost operational state changes with real budget and machine-executable delivery, excluding claims/refunds/grants/tax relief.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -134,7 +135,7 @@ Commercial:
 
 ## Next Action
 
-Merge Scan 040 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 041 in the same task.
+Merge Scan 041 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 042 in the same task.
 
 ## Do Not Repeat
 
@@ -146,6 +147,8 @@ Merge Scan 040 after CI, consume the triggered Jev continuation directive, and i
 - Do not mistake a newly announced entitlement or grant for a timing moat; specialist advisors can form before the application window opens.
 - Do not retain automatic refunds merely because the monetary pool is large.
 - Do not retain low-ticket self-service benefits that cannot carry normalized orchestration margin.
+- Do not continue narrowing inside claims/refunds/grants/tax relief after Scan 041; that family has reached diminishing returns.
+- Do not mistake a machine-identifiable platform event for an operator asset when incumbent control platforms can absorb the new API immediately.
 - Do not turn the incumbent-preflight process improvement into a required opportunity mechanism.
 - Do not let Scan 035 verticals seed Scan 036.
 - Do not lower hard floors because discovery continues to close at zero.
