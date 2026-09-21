@@ -63,10 +63,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_028",
+  "last_completed_scan_id": "ATTRACTION_SCAN_029",
   "last_resolved_formation_id": "ATTRACTION_SCAN_024-F1",
-  "next_scan_id": "ATTRACTION_SCAN_029",
-  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_PREPLATFORM_BEHAVIOR_SCAN029",
+  "next_scan_id": "ATTRACTION_SCAN_030",
+  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_SINGLE_OWNER_WORKFLOW_SCAN030",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -307,7 +307,13 @@
     "AGENT_TO_HUMAN_HIRING_IS_A_NEW_ECONOMIC_RELATIONSHIP_ALREADY_SPAWNING_EXACT_MARKETPLACES",
     "NEW_ACTOR_RELATIONSHIP_IS_NOT_ENOUGH_IF_THE_REQUIRED_ENTRY_IS_ANOTHER_WHOLE_MARKETPLACE",
     "NEXT_SCAN_SHOULD_PRIORITIZE_SELF_ORGANIZED_BEHAVIOR_BEFORE_A_DOMINANT_CONTROL_SURFACE_FORMS",
-    "SCAN_028_ZERO_RETENTION_AFTER_BEHAVIOR_FIRST_PLATFORMIZATION_FALSIFICATION"
+    "SCAN_028_ZERO_RETENTION_AFTER_BEHAVIOR_FIRST_PLATFORMIZATION_FALSIFICATION",
+    "PREPLATFORM_SELF_ORGANIZATION_IS_GOOD_EVIDENCE_OF_REAL_FLOW_BUT_NOT_SUFFICIENT_EVIDENCE_OF_A_SOFTWARE_EDGE",
+    "WHEN_THE_MANUAL_BRIDGE_IS_TRUST_SUPPLY_COMPLIANCE_OR_PHYSICAL_FULFILLMENT_AUTOMATION_DOES_NOT_REMOVE_THE_CORE_WORK",
+    "WECHAT_GROUP_FRICTION_IS_OFTEN_ALREADY_COMMODITIZED_BY_SIGNUP_PAYMENT_AA_AND_GROUP_MANAGEMENT_TOOLS",
+    "B2B_BULLETIN_AUTOMATION_WITHOUT_ACTION_RIGHTS_IS_LEAD_GENERATION_NOT_CONTROL",
+    "NEXT_SEARCH_SHOULD_REMOVE_TWO_SIDED_MARKET_FORMATION_AND_NEW_SUPPLY_ACQUISITION_FROM_THE_PROBLEM_SHAPE",
+    "SCAN_029_ZERO_RETENTION_AFTER_PREPLATFORM_EXCHANGE_FALSIFICATION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -409,7 +415,11 @@
     "ATTRACTION_SCAN_028 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
     "Behavior-first discovery surfaced real new 2026 formations: AI service light entrepreneurship, embodied-data gig work, agents hiring humans, one-person AI-assisted cross-border operations, and lightweight experience consumption.",
     "Each obvious commercial surface was already platformizing rapidly through transaction platforms, data-service platforms, agent-to-human marketplaces, native seller agents or local-life platforms.",
-    "Scan 029 moves one step earlier to self-organized, pre-platform exchange where real actors already bridge the flow manually."
+    "Scan 029 moves one step earlier to self-organized, pre-platform exchange where real actors already bridge the flow manually.",
+    "ATTRACTION_SCAN_029 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
+    "Shared-employee groups, paid dazi groups, surplus-meal WeChat groups, logistics-park alliances and industrial-park supply/demand bulletins all prove real self-organized exchange.",
+    "The recurring missing layer was trust, new supply, compliance, settlement, physical fulfillment or community operations rather than a thin founder-independent software bridge.",
+    "Scan 030 removes two-sided-market formation entirely and searches single-owner workflows where input and action rights already belong to the same actor."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -425,9 +435,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_029",
+      "next_scan_id": "ATTRACTION_SCAN_030",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "CURRENT_SELF_ORGANIZED_PRE_PLATFORM_BEHAVIOR_WITH_REAL_EXCHANGE_NO_DOMINANT_CONTROL_SURFACE_NO_PRIOR_VERTICAL_OR_MECHANISM_INHERITANCE"
+      "search_boundary": "CURRENT_SINGLE_OWNER_MANUAL_CROSS_SYSTEM_WORKFLOW_INPUT_AND_ACTION_RIGHTS_ALREADY_OWNED_NO_NEW_SUPPLY_NO_MARKETPLACE_NO_PRIOR_VERTICAL_INHERITANCE"
     }
   },
   "system_learnings": [
@@ -463,6 +473,9 @@
     "RECOVERY_LANGUAGE_CAN_BECOME_A_HIDDEN_SEARCH_ONTOLOGY_AND_MUST_BE_RESET",
     "CURRENT_BEHAVIOR_FIRST_VALUE_MECHANISM_SECOND_BUSINESS_THEORY_LAST",
     "NEW_BEHAVIOR_CAN_PLATFORMIZE_BEFORE_A_NEW_ENTRANT_CAN_FORM_A_DISTINCT_ASSET",
-    "PREPLATFORM_SELF_ORGANIZED_EXCHANGE_IS_A_BETTER_NEXT_SEARCH_LAYER_THAN_ALREADY_VISIBLE_MARKETPLACE_FORMATION"
+    "PREPLATFORM_SELF_ORGANIZED_EXCHANGE_IS_A_BETTER_NEXT_SEARCH_LAYER_THAN_ALREADY_VISIBLE_MARKETPLACE_FORMATION",
+    "WECHAT_GROUPS_ARE_FLOW_EVIDENCE_NOT_AUTOMATIC_PRODUCT_GAPS",
+    "TWO_SIDED_MARKET_FORMATION_SHOULD_BE_REMOVED_WHEN_TRUST_SUPPLY_AND_FULFILLMENT_DOMINATE_THE_BRIDGE",
+    "SINGLE_OWNER_INPUT_AND_ACTION_RIGHTS_IS_THE_NEXT_SEARCH_BOUNDARY"
   ]
 }
