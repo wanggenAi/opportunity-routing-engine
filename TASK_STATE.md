@@ -6,7 +6,7 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 048 added an event-driven machine-state prefilter. Six money-moving operational loops were tested: CPG deductions, ecommerce chargebacks, subcontractor COI renewals, freight invoice/accessorial audit, construction lien waivers, and channel MDF/co-op claims. Their business physics are stronger, but every exact full loop is already occupied by current specialist software or native platform automation.
+Scan 049 tested six workflows that became visible or materially changed after 2026-07-01: browser-agent backoffice, job-application agents, WhatsApp action agents, AI video pipelines, agentic-commerce checkout, and document-routing agents. All have current payer evidence, but each collapses into horizontal platform control, payment/network control, exact incumbent automation, or client-specific implementation rather than a recurring independent operator value flow.
 
 ```text
 OBSERVED PAID / CONTRACTED MICRO-FLOW
@@ -35,22 +35,23 @@ Resolved recently:
 - `ATTRACTION_SCAN_046-F1` — DEMOTED after Jev-triggered cheap falsification.
 - `ATTRACTION_SCAN_047` — zero retention after six observed paid flows failed control, mature-surface or expert-delivery hard floors.
 - `ATTRACTION_SCAN_048` — zero retention after six event-driven machine-state money loops failed exact full-loop product saturation preflight.
+- `ATTRACTION_SCAN_049` — zero retention after recent paid workflow implementation budgets failed independent-control and recurring-outcome floors.
 
 Discovery queue:
-- `ATTRACTION_SCAN_049 — FRESH_CURRENT_REALITY_RECENTLY_CREATED_OR_MATERIALLY_CHANGED_PAID_WORKFLOW_SINCE_2026_07_01_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EXACT_FULL_LOOP_PRODUCT_SATURATION_PREFLIGHT_FIRST_NO_SOFTWARE_PROTOCOL_MIGRATION_NO_REGULATORY_EXPERTISE_NO_SCAN048_VERTICAL_INHERITANCE`.
+- `ATTRACTION_SCAN_050 — FRESH_CURRENT_REALITY_DIRECT_RECURRING_OUTCOME_SPEND_OR_REPEATED_WORKAROUND_NO_AI_AGENT_BUILD_CONFIGURATION_NO_SCAN049_VERTICAL_INHERITANCE_REQUIRE_POST_EXECUTION_MEASURABLE_OUTCOME_AND_INDEPENDENT_NONPLATFORM_ACTION_RIGHT_EXACT_INCUMBENT_PREFLIGHT_FIRST`.
 
-Scan 048 retained zero new formations and made zero commercial promotions.
+Scan 049 retained zero new formations and made zero commercial promotions.
 
 ## Current Phase
 
-`SCAN_048_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_049_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`efe0a6e6ab6d75924f629a02c4a449285cf99b40`
-— squash merge of PR #345, `Close six paid-but-unowned flows in Scan 047`.
+`8f5900631313bf7c8acb3916977ba401efde6982`
+— squash merge of PR #346, `Close saturated event-driven money loops in Scan 048`.
 
-PR #345 CI run `35597442602` completed `success`. Jev run `35597442614` completed `success`: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #346 CI run `35598103956` completed `success`. Jev run `35598103977` completed `success`: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -58,11 +59,11 @@ PR #345 CI run `35597442602` completed `success`. Jev run `35597442614` complete
 
 ## Active Branch
 
-`research/attraction-scan-048`.
+`research/attraction-scan-049`.
 
 ## Active PR
 
-Pending creation for Scan 048. Live GitHub state is authoritative.
+Pending creation for Scan 049. Live GitHub state is authoritative.
 
 ## CI
 
@@ -78,9 +79,9 @@ Pending creation for Scan 048. Live GitHub state is authoritative.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_048.json`
-- `docs/research/ATTRACTION_SCAN_048_2026-09-21.md`
-- `tests/test_attraction_scan_048_event_control_gate.py`
+- `data/research_runs/attraction_scan_049.json`
+- `docs/research/ATTRACTION_SCAN_049_2026-09-21.md`
+- `tests/test_attraction_scan_049_recent_workflow_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -105,18 +106,16 @@ Results:
 ## Current Findings
 
 ```text
-REPEATED MACHINE EVENT
+RECENT WORKFLOW
 +
-DETERMINISTIC EVIDENCE
-+
-MONEY-MOVING ACTION
+DIRECT IMPLEMENTATION PAYMENT
 !=
-WHITE SPACE WHEN THE EXACT FULL LOOP IS ALREADY A PRODUCT
+RECURRING INDEPENDENT OUTCOME FLOW
 ```
 
-Scan 048 produced the strongest architecture proof so far: a live CPG-deduction product for paying customers already implements event ingestion, immutable evidence, grounded validation, governed write actions and ERP reconciliation. That proves the desired commercial physics are real. It also proves why this search family closes quickly: obvious machine-resolvable money loops attract exact vertical software.
+Scan 049 shows that post-July browser/agent workflows can attract paid build budgets quickly while still failing the business thesis. Horizontal agent platforms absorb execution primitives, payment networks own decisive authorization/settlement rails, and the residual work is often customer-specific integration or creative judgment.
 
-Chargebacks, COI renewals, freight audit, lien waivers and MDF/co-op claims show the same pattern. Therefore Scan 049 moves earlier in time instead of lowering standards: start from workflows created or materially changed since 2026-07-01 and preflight exact full-loop saturation immediately.
+The next discovery improvement is to start from repeated buyer payment for measurable outcomes rather than from one-time tool construction. Scan 050 therefore requires recurring outcome spend or repeated paid workarounds, a measurable post-execution result, and an independently controllable non-platform action right before deep causal research.
 
 ## Validation Status
 
@@ -138,9 +137,9 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 048 is complete with zero retained formations and zero commercial promotions.
-- Six event-driven machine-state money loops were closed because exact current products already own the full workflow.
-- Scan 049 moves earlier in category formation: current workflows created or materially changed since 2026-07-01, with exact full-loop saturation preflight first.
+- Scan 049 is complete with zero retained formations and zero commercial promotions.
+- Six recent paid workflows were closed because the durable control surface belongs to horizontal platforms/payment rails or the residual value remains customer-specific implementation.
+- Scan 050 starts from recurring measurable outcome spend or repeated paid workarounds, with independent non-platform action rights and exact-incumbent preflight required before deep research.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -148,7 +147,7 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 048 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev allows `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 049 from recently created or materially changed paid workflows without inheriting Scan 048 verticals.
+Create the Scan 049 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev allows `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 050 from recurring measurable outcome spend rather than one-time tool-build budgets.
 
 ## Do Not Repeat
 
@@ -178,6 +177,9 @@ Create the Scan 048 PR, run repository CI and live Jev, consume the continuation
 - Do not let Scan 035 verticals seed Scan 036.
 - Do not lower hard floors because discovery continues to close at zero.
 - Do not repeat Scan 015 public rights archaeology while written evidence is outstanding.
+
+- Do not count an AI-agent implementation contract as recurring demand for an independent operator.
+- Do not retain an agentic workflow when the decisive authorization, payment or action rail belongs to the platform/processors.
 
 ## Guardrails
 
