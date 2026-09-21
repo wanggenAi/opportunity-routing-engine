@@ -6,7 +6,7 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 047 continued the observed-money-first reset after Scan 046 fully closed. Six current paid flows were checked across software security, voice AI QA, marketplace exceptions, regulatory API integration, product compliance and LLM evaluation. All six failed existing hard floors because the useful control surface is already mature/platform-owned or the valuable remainder requires recurring expert/customer-specific delivery.
+Scan 048 added an event-driven machine-state prefilter. Six money-moving operational loops were tested: CPG deductions, ecommerce chargebacks, subcontractor COI renewals, freight invoice/accessorial audit, construction lien waivers, and channel MDF/co-op claims. Their business physics are stronger, but every exact full loop is already occupied by current specialist software or native platform automation.
 
 ```text
 OBSERVED PAID / CONTRACTED MICRO-FLOW
@@ -34,22 +34,23 @@ Validation queue:
 Resolved recently:
 - `ATTRACTION_SCAN_046-F1` — DEMOTED after Jev-triggered cheap falsification.
 - `ATTRACTION_SCAN_047` — zero retention after six observed paid flows failed control, mature-surface or expert-delivery hard floors.
+- `ATTRACTION_SCAN_048` — zero retention after six event-driven machine-state money loops failed exact full-loop product saturation preflight.
 
 Discovery queue:
-- `ATTRACTION_SCAN_048 — BROAD_CURRENT_REALITY_OBSERVED_MONEY_FLOW_REQUIRE_EVENT_DRIVEN_REPEATED_MACHINE_STATE_WITH_NONPLATFORM_CONTROL_NO_SCAN047_VERTICAL_INHERITANCE`.
+- `ATTRACTION_SCAN_049 — FRESH_CURRENT_REALITY_RECENTLY_CREATED_OR_MATERIALLY_CHANGED_PAID_WORKFLOW_SINCE_2026_07_01_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EXACT_FULL_LOOP_PRODUCT_SATURATION_PREFLIGHT_FIRST_NO_SOFTWARE_PROTOCOL_MIGRATION_NO_REGULATORY_EXPERTISE_NO_SCAN048_VERTICAL_INHERITANCE`.
 
-Scan 047 retained zero new formations and made zero commercial promotions.
+Scan 048 retained zero new formations and made zero commercial promotions.
 
 ## Current Phase
 
-`SCAN_047_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_048_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`0d34bc4b60c052c4ffda428ad7f2fea50bf86c27`
-— squash merge of PR #344, `Complete Scan 046 and close MCP migration after falsification`.
+`efe0a6e6ab6d75924f629a02c4a449285cf99b40`
+— squash merge of PR #345, `Close six paid-but-unowned flows in Scan 047`.
 
-PR #344 updated CI run `35596988896` completed `success`. Updated Jev run `35596988815` completed `success`: 6/6 effective routes `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #345 CI run `35597442602` completed `success`. Jev run `35597442614` completed `success`: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -57,11 +58,11 @@ PR #344 updated CI run `35596988896` completed `success`. Updated Jev run `35596
 
 ## Active Branch
 
-`research/attraction-scan-047`.
+`research/attraction-scan-048`.
 
 ## Active PR
 
-Pending creation for Scan 047. Live GitHub state is authoritative.
+Pending creation for Scan 048. Live GitHub state is authoritative.
 
 ## CI
 
@@ -77,9 +78,9 @@ Pending creation for Scan 047. Live GitHub state is authoritative.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_047.json`
-- `docs/research/ATTRACTION_SCAN_047_2026-09-21.md`
-- `tests/test_attraction_scan_047_money_control_gate.py`
+- `data/research_runs/attraction_scan_048.json`
+- `docs/research/ATTRACTION_SCAN_048_2026-09-21.md`
+- `tests/test_attraction_scan_048_event_control_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -104,16 +105,18 @@ Results:
 ## Current Findings
 
 ```text
-REAL MONEY
+REPEATED MACHINE EVENT
 +
-LOW VISIBLE SUPPLY
+DETERMINISTIC EVIDENCE
++
+MONEY-MOVING ACTION
 !=
-OPERATOR-CONTROLLED MACHINE-EXECUTABLE WHITE SPACE
+WHITE SPACE WHEN THE EXACT FULL LOOP IS ALREADY A PRODUCT
 ```
 
-Scan 047 found real payer motion in all six examined flows, including some low-proposal specialist jobs. None survived. Vibe-code security and voice-AI QA already have mature automated control surfaces; TikTok Shop exceptions remain platform adjudication; EUDR integration remains customer-specific; EU product compliance remains expert/liability work; and LLM/RAG evaluation is already an established platform category.
+Scan 048 produced the strongest architecture proof so far: a live CPG-deduction product for paying customers already implements event ingestion, immutable evidence, grounded validation, governed write actions and ERP reconciliation. That proves the desired commercial physics are real. It also proves why this search family closes quickly: obvious machine-resolvable money loops attract exact vertical software.
 
-The next discovery improvement is to require an event-driven, repeated, machine-readable trigger **and** a non-platform-owned action/control surface before spending causal-research bandwidth.
+Chargebacks, COI renewals, freight audit, lien waivers and MDF/co-op claims show the same pattern. Therefore Scan 049 moves earlier in time instead of lowering standards: start from workflows created or materially changed since 2026-07-01 and preflight exact full-loop saturation immediately.
 
 ## Validation Status
 
@@ -135,9 +138,9 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 047 is complete with zero retained formations and zero commercial promotions.
-- Six paid flows were closed without weakening payer evidence or hard floors.
-- Scan 048 must search fresh observed money flow for recurring machine-readable events with non-platform-owned control, without inheriting Scan 047 verticals.
+- Scan 048 is complete with zero retained formations and zero commercial promotions.
+- Six event-driven machine-state money loops were closed because exact current products already own the full workflow.
+- Scan 049 moves earlier in category formation: current workflows created or materially changed since 2026-07-01, with exact full-loop saturation preflight first.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -145,7 +148,7 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 047 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev allows `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 048 from fresh observed money flow with the new event-driven/non-platform-control prefilter.
+Create the Scan 048 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev allows `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 049 from recently created or materially changed paid workflows without inheriting Scan 048 verticals.
 
 ## Do Not Repeat
 
