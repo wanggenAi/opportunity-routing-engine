@@ -1,0 +1,97 @@
+{
+  "schema_version": "attraction-scan.v36",
+  "scan_id": "ATTRACTION_SCAN_057",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "CURRENT_RECURRING_PAID_EXTERNAL_TRIGGER_NOT_ALREADY_COMMODITIZED_BY_ACTION_CATEGORY_MACHINE_VERIFIABLE_TRIGGER_FIXED_BUYER_OWNED_ACTION_DIRECT_MARGIN_OR_REVENUE_OUTCOME_REUSABLE_CROSS_CUSTOMER_MAPPING_NO_RECURRING_EXPERT_INTERPRETATION_NO_PLATFORM_APPROVAL_NO_REGULATED_SIGNATURE_NO_SCAN056_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_057-F1",
+      "title": "WEBSITE_DOWNTIME_TO_AD_PAUSE",
+      "chinese_title": "网站宕机触发广告自动暂停",
+      "evidence_class": "CURRENT_EXTERNAL_SITE_HEALTH_TO_AD_STATE_WITH_DIRECT_SPEND_PROTECTION",
+      "verdict": "DEMOTED_EXACT_DOWNTIME_TO_AD_CONTROL_SURFACE",
+      "evidence_summary": "Website availability is external to the ad platform and campaign pause/resume is buyer-authorized. Boomerr currently monitors landing pages, pauses Google/Meta campaigns within roughly a minute of confirmed downtime, and auto-resumes on recovery. The exact trigger-to-action loop is already a commercial product."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_057-F2",
+      "title": "DOMAIN_BLACKLIST_TO_OUTBOUND_PAUSE",
+      "chinese_title": "域名黑名单触发外呼邮件自动暂停",
+      "evidence_class": "CURRENT_EXTERNAL_REPUTATION_SIGNAL_TO_SENDING_STATE_WITH_DELIVERABILITY_PROTECTION",
+      "verdict": "DEMOTED_NATIVE_BLACKLIST_MONITORING_AND_AUTOPAUSE_CONTROL_SURFACE",
+      "evidence_summary": "Blacklist membership is externally determined and campaign pause is buyer-controlled. SmartReach scans major blacklists and automatically pauses active campaigns when a sending domain is flagged. The supposedly cross-system edge is already native in outreach tooling."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_057-F3",
+      "title": "SUPPLIER_COST_CHANGE_TO_STORE_PRICE",
+      "chinese_title": "供应商成本变化触发店铺售价更新",
+      "evidence_class": "CURRENT_EXTERNAL_SUPPLIER_COST_TO_PRICE_STATE_WITH_DIRECT_MARGIN_PROTECTION",
+      "verdict": "DEMOTED_EXACT_SUPPLIER_COST_TO_PRICE_AUTOMATION",
+      "evidence_summary": "Supplier cost changes are external to the merchant store and price writes are buyer-controlled. DSers' 2026 Auto-Update Pricing recalculates store prices from changing supplier costs using pricing rules and is explicitly positioned as 24/7 margin protection. The mapping is already productized."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_057-F4",
+      "title": "SERVICE_CAPACITY_TO_AD_DEMAND_CONTROL",
+      "chinese_title": "服务产能触发广告需求控制",
+      "evidence_class": "CURRENT_BOOKING_CAPACITY_TO_AD_BID_BUDGET_STATE_WITH_DIRECT_ROAS_AND_UTILIZATION_EFFECT",
+      "verdict": "DEMOTED_EXACT_CAPACITY_AWARE_AD_CONTROL_SURFACE",
+      "evidence_summary": "Technician/appointment capacity lives in an operations system while Google Ads is a separate action system. Capacity Engine connects ServiceTitan capacity, cancellations and schedules to automated bid, budget, messaging and campaign-pause actions, including pausing when fully booked. The cross-system rule bridge is already the core product."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_057-F5",
+      "title": "SUPPLIER_UNAVAILABLE_TO_PRODUCT_UNPUBLISH",
+      "chinese_title": "供应商不可售触发商品下架",
+      "evidence_class": "CURRENT_SUPPLIER_STATE_TO_COMMERCE_AVAILABILITY_WITH_OVERSALE_AND_REVENUE_PROTECTION",
+      "verdict": "DEMOTED_NATIVE_SUPPLIER_AVAILABILITY_SYNC_AND_UNPUBLISH_POLICY",
+      "evidence_summary": "Supplier availability can originate outside the retailer storefront, but Shopify Collective continuously syncs supplier inventory and lets retailers define policies that set inventory to zero, draft/unpublish, or delete products when they become unavailable. Shopify Flow also exposes native publish/unpublish automation. The external state is already absorbed into commerce control."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_057-F6",
+      "title": "PAYMENT_GATEWAY_OUTAGE_TO_BACKUP_ROUTING",
+      "chinese_title": "支付网关故障触发备用通道路由",
+      "evidence_class": "CURRENT_EXTERNAL_PROVIDER_HEALTH_TO_PAYMENT_ROUTE_WITH_DIRECT_REVENUE_CONTINUITY",
+      "verdict": "DEMOTED_EXACT_PAYMENT_GATEWAY_FAILOVER_CONTROL_SURFACE",
+      "evidence_summary": "A payment processor outage is an external provider event and routing to a backup gateway is a buyer-controlled action with direct revenue-continuity value. Recurly's Gateway Failover detects primary-gateway downtime or elevated communication errors and automatically reroutes live payments to a configured backup. The exact resilience loop is mature product functionality."
+    }
+  ],
+  "hard_floor_demotions": [
+    "WEBSITE_DOWNTIME_TO_AD_PAUSE_FAILS_WHITE_SPACE_WHEN_BOOMERR_ALREADY_MONITORS_HEALTH_PAUSES_ADS_AND_AUTO_RESUMES",
+    "DOMAIN_BLACKLIST_TO_OUTBOUND_PAUSE_FAILS_WHITE_SPACE_WHEN_SMARTREACH_ALREADY_SCANS_BLACKLISTS_AND_AUTOMATICALLY_PAUSES_CAMPAIGNS",
+    "SUPPLIER_COST_TO_STORE_PRICE_FAILS_WHITE_SPACE_WHEN_DSERS_ALREADY_RECALCULATES_PRICES_FROM_SUPPLIER_COST_CHANGES",
+    "SERVICE_CAPACITY_TO_AD_CONTROL_FAILS_WHITE_SPACE_WHEN_CAPACITY_ENGINE_ALREADY_CONNECTS_SERVICETITAN_CAPACITY_TO_GOOGLE_ADS_ACTIONS",
+    "SUPPLIER_UNAVAILABLE_TO_UNPUBLISH_FAILS_WHITE_SPACE_WHEN_SHOPIFY_COLLECTIVE_AND_FLOW_ALREADY_SYNC_AND_ENFORCE_AVAILABILITY_POLICIES",
+    "PAYMENT_GATEWAY_OUTAGE_TO_FAILOVER_FAILS_WHITE_SPACE_WHEN_RECURLY_ALREADY_DETECTS_OUTAGE_AND_AUTOMATICALLY_REROUTES_PAYMENTS"
+  ],
+  "scan_learnings": [
+    "NICHE_EXTERNAL_TRIGGERS_DO_NOT_PRESERVE_WHITE_SPACE_WHEN_TRIGGER_TO_ACTION_RULES_ARE_STABLE",
+    "WEBSITE_HEALTH_DOMAIN_REPUTATION_SUPPLIER_COST_CAPACITY_SUPPLIER_AVAILABILITY_AND_GATEWAY_HEALTH_ARE_ALREADY_MACHINE_ACTIONABLE_IN_CURRENT_PRODUCTS",
+    "GENERIC_RULE_OR_NO_CODE_SUBSTITUTION_IS_A_HARD_KILL_FOR_SIMPLE_CROSS_SYSTEM_TRIGGER_ACTION_BRIDGES",
+    "A_DATA_SOURCE_CAN_BE_EXTERNALLY_OWNED_WHILE_THE_ACTION_CATEGORY_STILL_INTERNALIZES_THE_CONTROL_LOOP",
+    "FIVE_CONSECUTIVE_SCANS_053_TO_057_HAVE_NARROWED_AROUND_EXCEPTION_AND_CONTROL_LOOP_MECHANISMS",
+    "SUCCESSIVE_FAILURE_DERIVED_BOUNDARIES_HAVE_NOW_BECOME_A_HIDDEN_MECHANISM_ONTOLOGY_AND_MUST_BE_RESET",
+    "NEXT_DISCOVERY_MUST_RETURN_TO_BROAD_FORMATION_DIVERSE_CURRENT_PAID_OUTCOMES_WITHOUT_INHERITING_TRIGGER_ACTION_STRUCTURE",
+    "SCAN057_ZERO_RETENTION_AFTER_NICHE_EXTERNAL_TRIGGER_AND_RULE_ENGINE_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_058",
+  "next_search_boundary": "BROAD_CURRENT_PAID_OUTCOMES_FORMATION_DIVERSE_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_EXCEPTION_REMEDIATION_NO_FIXED_STATE_TRANSITION_NO_EXTERNAL_TRIGGER_MECHANISM_INHERITANCE_NO_SCAN053_TO_SCAN057_VERTICAL_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_RESET_SCAN058_TO_BROAD_FORMATION_DIVERSE_CURRENT_PAID_OUTCOMES_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://boomerr.ai/features/pause-google-ads-when-website-down",
+    "https://help.smartreach.io/docs/global-blacklist-monitoring",
+    "https://help.dsers.com/automatic-price-update-keep-store-prices-in-sync-with-suppliers/",
+    "https://capacityengine.ai/capacity-management",
+    "https://help.shopify.com/en/manual/online-sales-channels/shopify-collective/retailers/policies/products",
+    "https://help.shopify.com/en/manual/shopify-flow/reference/actions/unpublish-product",
+    "https://docs.recurly.com/recurly-subscriptions/docs/gateway-failover"
+  ]
+}
