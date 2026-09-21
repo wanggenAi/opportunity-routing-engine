@@ -1,0 +1,104 @@
+{
+  "schema_version": "attraction-scan.v32",
+  "scan_id": "ATTRACTION_SCAN_053",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "CURRENT_RECURRING_PAID_EXCEPTION_REMEDIATION_WITH_DETERMINISTIC_ACCEPTANCE_CROSS_SYSTEM_ACTION_NOT_PLATFORM_APPROVAL_NOT_REGULATED_SIGNATURE_NO_SCAN052_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_053-F1",
+      "title": "RETAIL_EDI_CHARGEBACK_RECOVERY_QUEUE",
+      "chinese_title": "零售 EDI 扣款争议恢复队列",
+      "evidence_class": "CURRENT_WEEKLY_PAID_RECOVERY_QUEUE_WITH_DOLLAR_OUTCOME",
+      "verdict": "DEMOTED_EXACT_REVENUE_RECOVERY_CONTROL_SURFACE",
+      "evidence_summary": "A current brand hires an ongoing weekly specialist to review retailer deductions, assemble EDI/PO/ASN/invoice/BOL evidence, submit disputes and track dollars recovered. SPS Revenue Recovery already connects retailer/carrier data, validates deductions, retrieves proof documents, submits and re-submits disputes, tracks outcomes, and now auto-disputes eligible deductions across multiple retailers."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_053-F2",
+      "title": "SAAS_REVENUE_STATE_DRIFT_REMEDIATION",
+      "chinese_title": "SaaS CRM/账单/产品授权状态漂移修复",
+      "evidence_class": "CURRENT_LONG_TERM_FAILED_SYNC_AND_ENTITLEMENT_REMEDIATION_QUEUE",
+      "verdict": "DEMOTED_NATIVE_REVENUE_PLATFORM_CONVERGENCE_AND_CLIENT_SPECIFIC_INTEGRATION_ENGINEERING",
+      "evidence_summary": "A current company pays for a 6+ month role keeping Stripe, HubSpot and product entitlements aligned, fixing failed webhooks and provisioning drift. HubSpot Revenue Hub now manages quote-to-contract-to-billing lifecycle and natively syncs Stripe customers, invoices, subscriptions and payments; Workato connects HubSpot and Stripe, while dedicated entitlement systems handle runtime access. The residual third-system mapping remains customer-specific integration engineering rather than a repeatable independent exception unit."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_053-F3",
+      "title": "SHIPMENT_EXCEPTION_RESOLUTION_QUEUE",
+      "chinese_title": "运输异常闭环处理队列",
+      "evidence_class": "CURRENT_RECURRING_LOGISTICS_EXCEPTION_OPERATIONS",
+      "verdict": "DEMOTED_MATURE_EXCEPTION_AUTOMATION_AND_EXTERNAL_CARRIER_ACTION_DEPENDENCE",
+      "evidence_summary": "Current logistics operators are paid to resolve late deliveries, missed pickups, reroutes, damages and carrier exceptions. Modern post-purchase and visibility platforms already detect, classify and increasingly trigger exception-resolution workflows; the remaining hard actions require carrier, warehouse or customer coordination and therefore depend on external parties rather than a deterministic operator-owned action."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_053-F4",
+      "title": "FREIGHT_INVOICE_DISCREPANCY_RECOVERY",
+      "chinese_title": "运费账单差异追偿",
+      "evidence_class": "RECURRING_DISCREPANCY_DETECTION_AND_CARRIER_RESOLUTION_WITH_DIRECT_COST_RECOVERY",
+      "verdict": "DEMOTED_EXACT_FREIGHT_AUDIT_AND_RESOLUTION_CONTROL_SURFACE",
+      "evidence_summary": "Freight invoice overcharges and discrepancies are crisp economic exceptions, but Cargobase already automates invoice matching, discrepancy detection, carrier notifications and a resolution centre tied to each invoice. New 2026 entrants also automate rate checking and dispute preparation, showing active product absorption rather than unowned remediation white space."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_053-F5",
+      "title": "CROSS_SAAS_IDENTITY_ACCESS_EXCEPTION_REMEDIATION",
+      "chinese_title": "跨 SaaS 身份与权限异常修复",
+      "evidence_class": "CURRENT_LONG_TERM_PROVISIONING_REVOCATION_AND_FAILED_ACCESS_QUEUE",
+      "verdict": "DEMOTED_IDENTITY_CONTROL_PLANE_ABSORPTION_AND_APPROVAL_SECURITY_JUDGMENT",
+      "evidence_summary": "A current long-term IAM role pays for provisioning/revocation, failed-access review and cross-system access fixes. WorkOS Directory Sync abstracts SCIM provisioning/deprovisioning across directory providers, while the unresolved tail includes approvals, segregation-of-duties, least-privilege and incident judgment. Standard actions are control-plane features; nonstandard actions remain security-sensitive expert work."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_053-F6",
+      "title": "TRAVEL_DISRUPTION_REISSUE_QUEUE",
+      "chinese_title": "旅行中断改签退票队列",
+      "evidence_class": "CURRENT_LONG_TERM_LIVE_QUEUE_FOR_SCHEDULE_CHANGE_REFUND_REISSUE",
+      "verdict": "DEMOTED_RECURRING_GDS_EXPERT_JUDGMENT_AND_AIRLINE_POLICY_DEPENDENCE",
+      "evidence_summary": "Current travel buyers pay long-term specialists to service schedule changes, cancellations, refunds and reissues through Amadeus/Sabre. Acceptance is visible when the booking is re-serviced, but execution depends on airline fare rules, GDS commands, supplier policy and member communication; the buyer explicitly requires deep live-GDS expertise, so the core residual unit is not replaceable low-expertise remediation."
+    }
+  ],
+  "hard_floor_demotions": [
+    "RETAIL_EDI_CHARGEBACK_RECOVERY_FAILS_WHITE_SPACE_WHEN_SPS_ALREADY_AUTOMATES_IDENTIFY_VALIDATE_DOCUMENT_RETRIEVAL_DISPUTE_RESUBMIT_AND_RECOVERY_TRACKING",
+    "SAAS_REVENUE_STATE_DRIFT_FAILS_REPEATABILITY_WHEN_NATIVE_REVENUE_PLATFORMS_ABSORB_STANDARD_STATE_AND_RESIDUAL_PRODUCT_MAPPING_REMAINS_CUSTOM_ENGINEERING",
+    "SHIPMENT_EXCEPTION_REMEDIATION_FAILS_OPERATOR_CONTROL_WHEN_STANDARD_EXCEPTION_AUTOMATION_IS_MATURE_AND_PHYSICAL_CORRECTIVE_ACTION_REQUIRES_EXTERNAL_CARRIERS_WAREHOUSES_OR_CUSTOMERS",
+    "FREIGHT_INVOICE_DISCREPANCY_RECOVERY_FAILS_WHITE_SPACE_WHEN_EXACT_AUDIT_RESOLUTION_PLATFORMS_ALREADY_CONNECT_MATCH_FLAG_NOTIFY_AND_RESOLVE",
+    "IDENTITY_ACCESS_EXCEPTIONS_SPLIT_BETWEEN_MATURE_SCIM_CONTROL_PLANES_AND_SECURITY_SENSITIVE_HUMAN_APPROVAL_JUDGMENT",
+    "TRAVEL_DISRUPTION_SERVICING_FAILS_REPLACEABLE_EXECUTION_WHEN_FARE_RULE_GDS_AND_AIRLINE_POLICY_EXPERTISE_REMAINS_CORE"
+  ],
+  "scan_learnings": [
+    "EXCEPTION_QUEUE_EXISTENCE_IS_NOT_WHITE_SPACE",
+    "STANDARDIZED_EXCEPTION_REMEDIATION_ATTRACTS_CONTROL_PLANE_ABSORPTION_FASTER_THAN_GENERIC_DETECTION_ONLY_WORK",
+    "WHEN_STANDARD_REMEDIATION_IS_ABSORBED_THE_RESIDUAL_TAIL_OFTEN_REQUIRES_CLIENT_SPECIFIC_SEMANTICS_SECURITY_JUDGMENT_OR_EXTERNAL_PARTY_COORDINATION",
+    "CROSS_SYSTEM_SCOPE_ALONE_DOES_NOT_CREATE_OPERATOR_CONTROL",
+    "DIRECT_DOLLAR_RECOVERY_IS_STRONG_ATTRACTION_BUT_EXACT_AUTOMATED_RECOVERY_INCUMBENTS_ARE_A_HARD_KILL",
+    "NEXT_DISCOVERY_SHOULD_REQUIRE_A_SINGLE_EXCEPTION_CLASS_WITH_FIXED_REMEDIATION_AND_OPEN_ACTION_RIGHTS_BEFORE_ACCEPTING_A_BROAD_OPERATIONS_QUEUE",
+    "SCAN053_ZERO_RETENTION_AFTER_EXCEPTION_CONTROL_SURFACE_AND_EXPERT_TAIL_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_054",
+  "next_search_boundary": "CURRENT_RECURRING_PAID_SINGLE_EXCEPTION_CLASS_FIXED_REMEDIATION_OPEN_ACTION_API_DIRECT_ECONOMIC_SETTLEMENT_NO_BROAD_OPERATIONS_ROLE_NO_PLATFORM_APPROVAL_NO_REGULATED_SIGNATURE_NO_SCAN053_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN054_FROM_SINGLE_EXCEPTION_FIXED_REMEDIATION_ECONOMIC_UNITS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.upwork.com/freelance-jobs/apply/EDI-Retail-Chargeback-Specialist_~022092043246612287271/",
+    "https://www.spscommerce.com/products/revenue-recovery/1p/",
+    "https://help.supplypike.com/en/articles/6070295-using-auto-dispute",
+    "https://www.upwork.com/freelance-jobs/apply/API-Integration-Specialist_~022092013724233385337/",
+    "https://knowledge.hubspot.com/cpq/manage-end-to-end-revenue-in-hubspot",
+    "https://knowledge.hubspot.com/payment-processing/use-stripe-with-hubspot",
+    "https://www.workato.com/en-HK/integrations/hubspot~stripe",
+    "https://www.upwork.com/freelance-jobs/apply/Supply-Chain-Manager_~022098212070715996773/",
+    "https://www.aftership.com/blog/top-shipment-exception-tools-retail",
+    "https://developers.project44.com/api-reference/reference-codes",
+    "https://www.cargobase.com/invoice-audit",
+    "https://lanepilottech.com/freight-invoice-audit",
+    "https://www.upwork.com/freelance-jobs/apply/Identity-and-access-specialist-timezone-business-hours-availability_~022092981635613783168/",
+    "https://workos.com/docs/directory-sync",
+    "https://www.upwork.com/freelance-jobs/apply/Travel-Concierge-Specialist-Amadeus-GDS_~022087325162074628289/"
+  ]
+}
