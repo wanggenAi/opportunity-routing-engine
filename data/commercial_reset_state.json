@@ -58,10 +58,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_022",
+  "last_completed_scan_id": "ATTRACTION_SCAN_023",
   "last_resolved_formation_id": "ATTRACTION_SCAN_022-F1",
-  "next_scan_id": "ATTRACTION_SCAN_023",
-  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_FORMATION_DIVERSE_SCAN023",
+  "next_scan_id": "ATTRACTION_SCAN_024",
+  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_HIGH_ENERGY_MICRO_EDGE_SCAN024",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -332,7 +332,11 @@
     "The official battery-tax ledger is real and cash-linked, but the uncomplicated calculation core is deterministic from public rules, invoice/tax documents and actual production-use data.",
     "Existing enterprise tax/ERP systems already occupy the natural invoice-production-tax data position and can absorb new reconciliation rules as features.",
     "The difficult remainder contains product-scope/export/mixed-technology tax interpretation and therefore reintroduces expert judgment.",
-    "Scan 022-F1 is removed from active validation; Scan 023 must not inherit battery-tax terms as a search prior."
+    "Scan 022-F1 is removed from active validation; Scan 023 must not inherit battery-tax terms as a search prior.",
+    "ATTRACTION_SCAN_023 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
+    "Scan 023 deliberately corrected policy-document discovery bias by starting from observable voluntary spending, renting, traveling, searching and substitution behavior.",
+    "Robot rental, inbound visitor services, event commerce, smart-glasses trial and home care all showed real participant energy but failed current control-surface or founder-independent-delivery floors.",
+    "Scan 024 will search for narrow unowned machine-resolvable micro-edges inside high-energy existing flows rather than another whole marketplace or policy workflow."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -348,9 +352,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_023",
+      "next_scan_id": "ATTRACTION_SCAN_024",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "FORMATION_DIVERSE_BROAD_REALITY_NO_BATTERY_TAX_VERTICAL_INHERITANCE"
+      "search_boundary": "HIGH_ENERGY_EXISTING_FLOWS_FIND_UNOWNED_MICRO_EDGES_NO_WHOLE_MARKETPLACE_OR_POLICY_PRIOR"
     }
   },
   "system_learnings": [
@@ -365,6 +369,12 @@
     "WHEN_SIMPLE_CASES_ARE_SPREADSHEETABLE_AND_HARD_CASES_REQUIRE_TAX_JUDGMENT_THE_MIDDLE_LAYER_IS_SQUEEZED",
     "CUSTOMER_SPECIFIC_INTEGRATION_IS_NOT_FOUNDER_INDEPENDENCE",
     "CONFIDENTIAL_CUSTOMER_DATA_WITHOUT_CROSS_CUSTOMER_OUTCOME_FEEDBACK_DOES_NOT_CREATE_A_COMPOUNDING_ASSET",
-    "SCAN_022_F1_DEMOTED_AFTER_CHEAP_FALSIFICATION"
+    "SCAN_022_F1_DEMOTED_AFTER_CHEAP_FALSIFICATION",
+    "HIGH_ENERGY_REALITY_IS_A_BETTER_DISCOVERY_SEED_THAN_POLICY_TEXT",
+    "VOLUNTARY_ENERGY_CAN_BE_STRONG_WHILE_THE_THIRD_PARTY_CONTROL_SURFACE_IS_ALREADY_OWNED",
+    "WHOLE_MARKETPLACE_OPPORTUNITIES_SHOULD_BE_KILLED_EARLY_WHEN_DISCOVERY_MATCHING_AND_TRANSACTION_ARE_ALREADY_INTERNALIZED",
+    "HUMAN_SERVICE_DEMAND_IS_NOT_ENOUGH_IF_THE_OPERATOR_MUST_RECUR_SUPPLY_ACQUISITION_QUALITY_CONTROL_OR_DELIVERY",
+    "NEXT_SEARCH_SHOULD_LOOK_FOR_NARROW_UNOWNED_MICRO_EDGES_INSIDE_HIGH_ENERGY_EXISTING_FLOWS_RATHER_THAN_BUILDING_ANOTHER_WHOLE_MARKETPLACE",
+    "SCAN_023_ZERO_RETENTION_AFTER_VOLUNTARY_FLOW_HARD_FLOOR_FALSIFICATION"
   ]
 }
