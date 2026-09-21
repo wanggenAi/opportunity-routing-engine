@@ -6,16 +6,16 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 044 verified that even execution-created feedback is not enough unless the operator can legally reuse it across customers. The cleanest network effects are already owned by scaled incumbents; most calls, documents, traces and test outcomes compound for the customer rather than for a new operator.
+Scan 045 verified that the desired day-one-value + execution-created reusable-asset structure is real, but the cleanest versions are already infrastructure categories owned by scaled incumbents; the remaining execution data is commonly identifying, customer-private or rights constrained.
 
 ```text
-DIRECT PAYER / REPEATED WORKAROUND EVIDENCE
-→ SINGLE-CUSTOMER DAY-ONE VALUE
-→ MACHINE-EXECUTABLE DIGITAL DELIVERY
-→ EACH EXECUTION CREATES A PERMISSIONED NON-SENSITIVE CROSS-CUSTOMER ASSET AS A BYPRODUCT
-→ ASSET IMPROVES FUTURE QUALITY / COST / SPEED / ACCESS
-→ NO NETWORK-SCALE COLD-START DEPENDENCE
-→ NO MATURE INCUMBENT OWNS THE SAME ASSET
+OBSERVED PAID / CONTRACTED MICRO-FLOW
+→ DIRECT PAYER OR REPEATED WORKAROUND EVIDENCE
+→ SPARSE SPECIALIZED SUPPLY / EARLY CATEGORY
+→ MACHINE-EXECUTABLE OR DELEGATABLE DELIVERY
+→ EXECUTION-CREATED PERMISSIONED REUSABLE ASSET PREFERRED
+→ NO MATURE CONTROL SURFACE
+→ NO RECURRING FOUNDER ACQUISITION
 → NO RECURRING EXPERT DELIVERY
 → ONLY THEN DEEP CAUSAL DESCENT
 ```
@@ -32,20 +32,20 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Discovery queue:
-- `ATTRACTION_SCAN_045 — BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_SINGLE_CUSTOMER_DAY_ONE_VALUE_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_EACH_EXECUTION_CREATES_PERMISSIONED_NON_SENSITIVE_CROSS_CUSTOMER_REUSABLE_ASSET_AS_BYPRODUCT_ASSET_IMPROVES_FUTURE_QUALITY_COST_SPEED_OR_ACCESS_NO_NETWORK_COLD_START_DEPENDENCE_NO_MATURE_INCUMBENT_SAME_ASSET_NO_RECURRING_EXPERT_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
+- `ATTRACTION_SCAN_046 — BROAD_CURRENT_REALITY_RECENTLY_OBSERVED_PAID_OR_CONTRACTED_MICRO_FLOW_WITH_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_SPARSE_SPECIALIZED_SUPPLY_OR_EARLY_CATEGORY_FORMATION_MACHINE_EXECUTABLE_OR_DELEGATABLE_DELIVERY_EXECUTION_CREATED_PERMISSIONED_REUSABLE_ASSET_PREFERRED_NO_MATURE_CONTROL_SURFACE_NO_RECURRING_FOUNDER_ACQUISITION_NO_RECURRING_EXPERT_DELIVERY_NO_REQUIRED_VERTICAL_OR_MECHANISM`.
 
-Scan 044 retained no new formation.
+Scan 045 retained no new formation.
 
 ## Current Phase
 
-`SCAN_044_COMPLETE_PR_PENDING_JEV_CONTINUATION`
+`SCAN_045_COMPLETE_PR_PENDING_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`64ed50a9b8798c2011862a12eb31efa42a0df0de`
-— squash merge of PR #341, `Separate payer evidence from operator asset in Scan 043`.
+`d0ed46236906d64ffae722e747278bef4ffa9fdb`
+— squash merge of PR #342, `Require operator-owned reuse rights in Scan 044`.
 
-PR #341 CI run `35578164176` and live Jev run `35578164128` completed successfully. Scan 043 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #342 CI run `35578471007` and live Jev run `35578470910` completed successfully. Scan 044 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -53,11 +53,11 @@ PR #341 CI run `35578164176` and live Jev run `35578164128` completed successful
 
 ## Active Branch
 
-`research/attraction-scan-044`.
+`research/attraction-scan-045`.
 
 ## Active PR
 
-Pending creation for Scan 044.
+Pending creation for Scan 045.
 
 ## CI
 
@@ -70,9 +70,9 @@ Pending creation for Scan 044.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_044.json`
-- `docs/research/ATTRACTION_SCAN_044_2026-09-21.md`
-- `tests/test_attraction_scan_044_asset_ownership_gate.py`
+- `data/research_runs/attraction_scan_045.json`
+- `docs/research/ATTRACTION_SCAN_045_2026-09-21.md`
+- `tests/test_attraction_scan_045_day_one_asset_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -97,12 +97,14 @@ Results:
 ## Current Findings
 
 ```text
-EACH EXECUTION CREATES DATA
+DAY-ONE VALUE
++
+EXECUTION-CREATED REUSABLE ASSET
 !=
-THE OPERATOR OWNS A COMPOUNDING ASSET
+EARLY WHITE SPACE
 ```
 
-Scan 044 tested six workflows where execution genuinely creates feedback or network effects. Cross-merchant fraud is the strongest true network asset but mature platforms already own it; deliverability seed networks are incumbent infrastructure while sender reputation is customer-owned; voice calls, IDP corrections, device-test outcomes and LLM traces are mainly customer-specific/private and therefore do not become a clean cross-customer operator asset.
+Scan 045 tested proxy/unblocking, self-healing browser automation, HS classification, email verification, phone reputation and unified-API connector maintenance. All exhibit parts of the target physics, but the clean reusable assets are already owned by infrastructure incumbents, while the uncaptured observations are commonly identity-bearing or customer-private. Scan 046 therefore resets the discovery source to already-paid micro-flows with sparse specialized supply instead of deriving another abstract business shape.
 
 ## Validation Status
 
@@ -124,8 +126,8 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 044 is complete with zero retention.
-- Scan 045 has not started; it requires day-one single-customer value plus a permissioned, non-sensitive cross-customer asset created automatically as a byproduct of delivery, without needing network scale before the first customer receives value.
+- Scan 045 is complete with zero retention.
+- Scan 046 has not started; it searches already-paid or contracted micro-flows with sparse specialized supply / visibly early category formation, then reapplies all current delivery, rights, asset, incumbent and founder-independence hard floors.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -133,7 +135,7 @@ Commercial:
 
 ## Next Action
 
-Merge Scan 044 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 045 in the same task.
+Merge Scan 045 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 046 in the same task.
 
 ## Do Not Repeat
 
@@ -154,6 +156,8 @@ Merge Scan 044 after CI, consume the triggered Jev continuation directive, and i
 - Do not confuse customer-specific memory, style or configuration with a cross-customer operator asset.
 - Do not count execution-created data as a business moat unless cross-customer reuse rights are explicit and commercially usable.
 - Do not rely on a network effect that requires scale before the first customer gets enough standalone value.
+- Do not keep deriving increasingly abstract asset shapes after Scan 045; start from observed money motion and sparse supply in Scan 046.
+- Do not mistake a clean infrastructure primitive for white space merely because it has ideal compounding physics.
 - Do not turn the incumbent-preflight process improvement into a required opportunity mechanism.
 - Do not let Scan 035 verticals seed Scan 036.
 - Do not lower hard floors because discovery continues to close at zero.

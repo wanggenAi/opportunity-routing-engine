@@ -1,0 +1,128 @@
+{
+  "schema_version": "attraction-scan.v24",
+  "scan_id": "ATTRACTION_SCAN_045",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_SINGLE_CUSTOMER_DAY_ONE_VALUE_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_EACH_EXECUTION_CREATES_PERMISSIONED_NON_SENSITIVE_CROSS_CUSTOMER_REUSABLE_ASSET_AS_BYPRODUCT_ASSET_IMPROVES_FUTURE_QUALITY_COST_SPEED_OR_ACCESS_NO_NETWORK_COLD_START_DEPENDENCE_NO_MATURE_INCUMBENT_SAME_ASSET_NO_RECURRING_EXPERT_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "WEB_ACCESS_PROXY_AND_UNBLOCKING_FEEDBACK_NETWORK",
+      "chinese_title": "网页访问代理与反爬成功率反馈网络",
+      "payer_evidence": "Bright Data publishes pay-as-you-go and monthly residential proxy pricing, including $499, $999 and $1,999 monthly tiers.",
+      "day_one_value": "A single customer receives immediate access/routing value without needing a new entrant to have a large customer network first.",
+      "execution_created_asset": "Requests can create target-domain, geography, IP-pool, anti-bot and success-rate observations that improve later routing.",
+      "permission_and_sensitivity": "Aggregate target and route-performance observations can be non-sensitive when collected lawfully, but network and access operations carry target-site terms and compliance constraints.",
+      "cold_start_test": "PASS_IN_THEORY_EXISTING_PROXY_SUPPLY_CAN_DELIVER_FIRST_CUSTOMER_VALUE",
+      "incumbent_preflight": "BRIGHT_DATA_ALREADY_OPERATES_400M_PLUS_RESIDENTIAL_IPS_WITH_ROUTING_PROXY_MANAGER_AND_ENTERPRISE_SCALE;_BROWSERBASE_AND_OTHER_INFRASTRUCTURE_PLATFORMS_BUNDLE_PROXY_AND_ACCESS_CAPABILITIES",
+      "verdict": "DEMOTED_DESIRED_ASSET_SHAPE_EXISTS_BUT_SCALED_PROXY_UNBLOCKING_NETWORK_ALREADY_OWNS_THE_CONTROL_POSITION",
+      "source_urls": [
+        "https://brightdata.com/pricing/proxy-network/residential-proxies",
+        "https://www.browserbase.com/pricing"
+      ]
+    },
+    {
+      "title": "SELF_HEALING_BROWSER_WORKFLOW_CACHE",
+      "chinese_title": "浏览器自动化自愈与跨运行缓存",
+      "payer_evidence": "Browserbase publishes paid Developer, Startup and Scale plans with browser-hour, agent, search and fetch usage.",
+      "day_one_value": "A first workflow can immediately automate a live website with hosted browsers, captcha support and agent tooling.",
+      "execution_created_asset": "Repeated runs can validate selectors/actions and create reusable action/observation/extraction cache entries, lowering later inference cost and increasing reliability.",
+      "permission_and_sensitivity": "Public-page workflow resolution can be non-sensitive; authenticated workflows can contain customer-specific/private state and cannot be assumed reusable.",
+      "cold_start_test": "PASS_FOR_SINGLE_WORKFLOW",
+      "incumbent_preflight": "BROWSERBASE_STAGEHAND_ALREADY_CACHES_ACT_OBSERVE_AND_EXTRACT_RESULTS_ON_ITS_SERVERS_AND_MARKETS_SELF_HEALING_BROWSER_AUTOMATION",
+      "verdict": "DEMOTED_EXECUTION_BYPRODUCT_ASSET_IS_ALREADY_A_NATIVE_FEATURE_OF_A_MATURE_BROWSER_AGENT_CONTROL_PLANE",
+      "source_urls": [
+        "https://www.browserbase.com/pricing",
+        "https://www.browserbase.com/changelog/caching-configurable",
+        "https://dev.browserbase.com/blog/stagehand-caching"
+      ]
+    },
+    {
+      "title": "PRODUCT_TO_HS_CODE_CLASSIFICATION_GRAPH",
+      "chinese_title": "商品到HS税则编码分类图谱",
+      "payer_evidence": "Avalara Item Classification is explicitly a billable service exposed through production APIs.",
+      "day_one_value": "One merchant can immediately submit product attributes and receive classification output without a network cold start.",
+      "execution_created_asset": "Resolved product-to-code classifications and later corrections can improve future classification quality for similar goods.",
+      "permission_and_sensitivity": "Generic product taxonomy mappings can be reusable, but customer SKU metadata may be confidential and managed classifications can involve operator review.",
+      "cold_start_test": "PASS_WITH_EXISTING_RULE_AND_MODEL_BASE",
+      "incumbent_preflight": "AVALARA_ALREADY_MAINTAINS_TARIFF_CONTENT_AND_ITEM_CLASSIFICATION_APIS_WITH_AUTOMATED_AND_MANAGED_MODES",
+      "verdict": "DEMOTED_REUSABLE_MAPPING_ASSET_ALREADY_OWNED_BY_MATURE_TAX_CLASSIFICATION_PLATFORM_AND_HARD_CASES_REINTRODUCE_EXPERT_REVIEW",
+      "source_urls": [
+        "https://developer.avalara.com/item-classification/",
+        "https://developer.avalara.com/api-reference/item-classification/v2/methods/GetHSClassification/GetHSClassification/"
+      ]
+    },
+    {
+      "title": "EMAIL_VERIFICATION_DELIVERABILITY_SIGNAL_NETWORK",
+      "chinese_title": "邮箱验证与送达风险信号网络",
+      "payer_evidence": "ZeroBounce currently charges from $39 for 2,000 verification credits and sells recurring subscriptions and enterprise volume plans.",
+      "day_one_value": "A first list can be validated immediately.",
+      "execution_created_asset": "Verification attempts can improve domain/provider heuristics, disposable-domain intelligence and response-pattern knowledge.",
+      "permission_and_sensitivity": "Individual email addresses are identifying customer data; broad cross-customer retention/reuse cannot be assumed to be non-sensitive or rights-clear.",
+      "cold_start_test": "PASS_WITH_EXISTING_VALIDATION_INFRASTRUCTURE",
+      "incumbent_preflight": "ZERObounce_AND_MULTIPLE_ESTABLISHED_EMAIL_VERIFICATION_NETWORKS_ALREADY_SELL_THE_EXACT_SIGNAL",
+      "verdict": "DEMOTED_DAY_ONE_VALUE_EXISTS_BUT_IDENTITY_DATA_REUSE_IS_RIGHTS_SENSITIVE_AND_THE_VERIFICATION_NETWORK_CATEGORY_IS_MATURE",
+      "source_urls": [
+        "https://www.zerobounce.net/pricing",
+        "https://www.zerobounce.net/docs/frequently-asked-questions/billing-and-payments/how-is-pricing-determined-for-email-verification"
+      ]
+    },
+    {
+      "title": "BUSINESS_PHONE_REPUTATION_MONITORING_NETWORK",
+      "chinese_title": "企业电话号码信誉监测网络",
+      "payer_evidence": "Hiya describes Number Reputation API access as a premium service and states service fees may apply per business and per reputation request.",
+      "day_one_value": "An authorized business can immediately inspect spam-label risk and engagement metrics for registered numbers.",
+      "execution_created_asset": "Repeated registration/reputation observations can strengthen number-behavior and reputation knowledge.",
+      "permission_and_sensitivity": "Hiya requires authorization documentation when a service provider monitors numbers used by other companies; access itself requires a service agreement.",
+      "cold_start_test": "PASS_ONLY_BY_USING_AN_EXISTING_REPUTATION_NETWORK",
+      "incumbent_preflight": "HIYA_ALREADY_OWNS_THE_REPUTATION_DATA_NETWORK_API_REGISTRATION_AND_MONITORING_CONTROL_SURFACE",
+      "verdict": "DEMOTED_PERMISSIONED_SIGNAL_NETWORK_IS_PLATFORM_CONTROLLED_AND_REQUIRES_EXISTING_INCUMBENT_DATA_SCALE",
+      "source_urls": [
+        "https://developer.hiya.com/docs/guides/voice-protection/number-reputation/get-started",
+        "https://developer.hiya.com/docs/protect/business-partner-api/endpoints/get-reputation-for-phones"
+      ]
+    },
+    {
+      "title": "UNIFIED_API_CONNECTOR_MAINTENANCE_GRAPH",
+      "chinese_title": "统一API连接器维护图谱",
+      "payer_evidence": "Merge currently offers the first three production linked accounts free and charges $650/month for up to ten on its Launch plan, with contract pricing above that.",
+      "day_one_value": "A customer can add production integrations faster by building once against a unified schema.",
+      "execution_created_asset": "Each integration, schema change, sync failure and resolution can strengthen reusable connector mappings, compatibility knowledge and observability playbooks.",
+      "permission_and_sensitivity": "Connector specifications and generalized failure fixes are reusable; customer credentials and synced records remain private.",
+      "cold_start_test": "PASS_IF_CORE_CONNECTOR_ALREADY_EXISTS",
+      "incumbent_preflight": "MERGE_ALREADY_MAINTAINS_200_PLUS_INTEGRATIONS_AND_OBSERVABILITY;EMBEDDED_IPAAS_AND_UNIFIED_API_COMPETITORS_OWN_SIMILAR_CONNECTOR_ASSETS",
+      "verdict": "DEMOTED_IDEAL_REUSABLE_CONNECTOR_ASSET_ALREADY_DEFINES_A_MATURE_UNIFIED_API_AND_EMBEDDED_IPAAS_CATEGORY",
+      "source_urls": [
+        "https://www.merge.dev/pricing/unified",
+        "https://www.merge.dev/lp-unbranded-terms/unified-api"
+      ]
+    }
+  ],
+  "hard_floor_demotions": [
+    "A_PERMISSIONED_NON_SENSITIVE_EXECUTION_BYPRODUCT_ASSET_IS_NOT_WHITE_SPACE_IF_SCALED_INCUMBENTS_ALREADY_OWN_THE_SAME_ASSET",
+    "DAY_ONE_VALUE_DOES_NOT_COMPENSATE_FOR_INCUMBENT_NETWORK_SCALE_ON_THE_DECISIVE_CONTROL_ASSET",
+    "IDENTITY_OR_CUSTOMER_PRIVATE_DATA_CANNOT_BE_ASSUMED_CROSS_CUSTOMER_REUSABLE",
+    "AN_ASSET_THAT_ONLY_EXISTS_AFTER_USING_AN_INCUMBENT_NETWORK_DOES_NOT_CREATE_INDEPENDENT_OPERATOR_CONTROL",
+    "INFRASTRUCTURE_PRIMITIVES_WITH_STRONG_COMPOUNDING_ASSETS_TEND_TO_PLATFORMIZE_EARLY"
+  ],
+  "scan_learnings": [
+    "SCAN_045_ZERO_RETENTION_AFTER_DAY_ONE_VALUE_PLUS_PERMISSIONED_ASSET_PREFLIGHT",
+    "THE_DESIRED_DAY_ONE_VALUE_PLUS_EXECUTION_BYPRODUCT_ASSET_SHAPE_IS_REAL_IN_CURRENT_MARKETS",
+    "WHEN_THE_BYPRODUCT_IS_NON_SENSITIVE_AND_HIGHLY_REUSABLE_IT_OFTEN_BECOMES_INFRASTRUCTURE_AND_SCALED_INCUMBENTS_CAPTURE_IT_EARLY",
+    "WHEN_THE_BYPRODUCT_IS_NOT_INCUMBENT_OWNED_IT_IS_OFTEN_CUSTOMER_PRIVATE_IDENTITY_BEARING_OR_RIGHTS_CONSTRAINED",
+    "THE_NEXT_DISCOVERY_STEP_SHOULD_STOP_DERIVING_ABSTRACT_ASSET_SHAPES_AND_LOOK_FOR_EARLY_PAID_MICRO_FLOWS_BEFORE_CATEGORY_MATURITY",
+    "SCAN_046_SHOULD_SEARCH_FOR_RECENTLY_OBSERVED_PAID_MICRO_FLOWS_WITH_SPARSE_SPECIALIZED_SUPPLY_THEN_APPLY_THE_SAME_ASSET_RIGHTS_AND_DELIVERY_HARD_FLOORS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_046",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_RECENTLY_OBSERVED_PAID_OR_CONTRACTED_MICRO_FLOW_WITH_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_SPARSE_SPECIALIZED_SUPPLY_OR_EARLY_CATEGORY_FORMATION_MACHINE_EXECUTABLE_OR_DELEGATABLE_DELIVERY_EXECUTION_CREATED_PERMISSIONED_REUSABLE_ASSET_PREFERRED_NO_MATURE_CONTROL_SURFACE_NO_RECURRING_FOUNDER_ACQUISITION_NO_RECURRING_EXPERT_DELIVERY_NO_REQUIRED_VERTICAL_OR_MECHANISM",
+  "next_action": "TRIGGER_JEV_ON_SCAN045_THEN_FOLLOW_TYPED_CONTINUATION_DIRECTIVE",
+  "first_external_value_flow": "NOT_PROVEN"
+}
