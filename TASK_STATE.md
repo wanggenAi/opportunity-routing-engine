@@ -6,17 +6,17 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 060 changed evidence source from hiring signals to direct productized-service purchases across WordPress care, virtual assistance, design subscriptions, podcast postproduction, managed QA and CAD/design services. All six were demoted: either the exact outcome is already a mature managed-service category, or the purchased unit remains recurring human capacity/judgment after automation absorbs the standard layer.
+Scan 061 moved the observation point from seller-defined productized services to buyer-side repeated workarounds and multi-line-item stacks across multichannel inventory, short-term-rental operations, multi-business accounting, solo accounting-practice software, construction crew scheduling and podcast production/distribution. All six were demoted after exact-incumbent preflight: current sync tools, vertical all-in-one platforms or native consolidated control surfaces already occupy the repeatable machine layer.
 
 ```text
-DIRECT PRODUCTIZED-SERVICE PURCHASE
-→ PROVES MONEY MOTION
-→ CHECK WHETHER THE SIGNAL IS ALREADY THE INCUMBENT CATEGORY
-→ SEPARATE AUTOMATED STANDARD LAYER FROM HUMAN RESIDUAL
-→ FAIL CLOSED IF THE SERVICE IS HUMAN CAPACITY OR THE EXACT OUTCOME IS ALREADY PACKAGED
+BUYER-SIDE REPEATED WORKAROUND / MULTI-TOOL STACK
+→ PROVES AN UNSATISFIED OR COSTLY FLOW
+→ EXACT INCUMBENT / NATIVE CONTROL-SURFACE PREFLIGHT
+→ DISTINGUISH PACKAGING / ADOPTION FRICTION FROM AN UNOWNED EDGE
+→ FAIL CLOSED WHEN A MATURE SYNC / ALL-IN-ONE / VERTICAL CONTROL SURFACE ALREADY EXISTS
 ```
 
-The evidence-source change improved payer certainty but introduced seller-selection bias: starting from an already-priced service often means starting inside an already-formed category. Scan 061 moves the observation point to buyer-side repeated workaround spend before a single vendor has packaged the complete outcome.
+Buyer-side evidence is a better sensor than seller-defined categories, but one sample is not enough to derive another mechanism ontology. Scan 062 runs a second independent formation-diverse buyer-side workaround sample before changing the search rule.
 
 ## Goal
 
@@ -31,31 +31,26 @@ Validation queue:
 
 Resolved recently:
 - `ATTRACTION_SCAN_051-F1` — DEMOTED after Jev-triggered exact incumbent preflight.
-- `ATTRACTION_SCAN_052` — zero retention after native automation, platform-control, generic-agent and trusted-human floors.
-- `ATTRACTION_SCAN_053` — zero retention after six exception queues failed exact remediation-control-surface or expert-tail floors.
-- `ATTRACTION_SCAN_054` — zero retention after fixed-remediation money loops failed exact-control-surface, platform/counterparty authority, or upstream-prevention floors.
-- `ATTRACTION_SCAN_055` — zero retention after native/autonomous control-surface and low-unit-economics preflight.
-- `ATTRACTION_SCAN_056` — zero retention after external signals proved already commoditized by their action categories.
-- `ATTRACTION_SCAN_057` — zero retention after niche external triggers proved absorbed by exact vertical/native rule automation.
 - `ATTRACTION_SCAN_058` — zero retention after broad current paid work failed exact-product, official-integration, low-unit-economics or recurring expert/signoff floors.
 - `ATTRACTION_SCAN_059` — zero retention after strong recurring/contract-to-hire role spend failed native-AI/incumbent and human-residual floors.
 - `ATTRACTION_SCAN_060` — zero retention after direct non-role purchases proved either exact productized-service saturation or recurring human residual delivery.
+- `ATTRACTION_SCAN_061` — zero retention after buyer-side repeated workarounds proved exact sync/all-in-one/vertical control-surface saturation.
 
 Discovery queue:
-- `ATTRACTION_SCAN_061 — BROAD_CURRENT_BUYER_SIDE_REPEATED_WORKAROUND_SPEND_OR_MULTI_LINE_ITEM_STACK_EVIDENCE_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_JOB_POSTING_AS_SOLE_SIGNAL_NO_EXISTING_PRODUCTIZED_SERVICE_AS_PRIMARY_SIGNAL_NO_SCAN058_TO_SCAN060_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_062 — SECOND_INDEPENDENT_BROAD_CURRENT_BUYER_SIDE_REPEATED_WORKAROUND_SPEND_OR_MULTI_LINE_ITEM_STACK_EVIDENCE_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_SELLER_DEFINED_CATEGORY_AS_PRIMARY_SIGNAL_NO_SCAN061_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_060_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_061_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`e8080fc571d21c41eeaed5a5952f61612a2299e2`
-— squash merge of PR #357, `Close recurring role traps in Scan 059`.
+`5048cfd2b8811e0bd259c5fcc62f78107f635e6e`
+— squash merge of PR #358, `Close productized-service traps in Scan 060`.
 
-PR #357 PR CI and Jev completed successfully before merge; main push CI and Jev also completed successfully. PR Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #358 repository CI and live Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -63,11 +58,11 @@ PR #357 PR CI and Jev completed successfully before merge; main push CI and Jev 
 
 ## Active Branch
 
-`research/attraction-scan-060`.
+`research/attraction-scan-061`.
 
 ## Active PR
 
-Pending creation for Scan 060. Live GitHub state is authoritative.
+Pending creation for Scan 061. Live GitHub state is authoritative.
 
 ## CI
 
@@ -83,9 +78,9 @@ Pending creation for Scan 060. Live GitHub state is authoritative.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_060.json`
-- `docs/research/ATTRACTION_SCAN_060_2026-09-21.md`
-- `tests/test_attraction_scan_060_non_role_purchase_gate.py`
+- `data/research_runs/attraction_scan_061.json`
+- `docs/research/ATTRACTION_SCAN_061_2026-09-21.md`
+- `tests/test_attraction_scan_061_buyer_workaround_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -110,16 +105,17 @@ Results:
 ## Current Findings
 
 ```text
-DIRECT PRODUCTIZED-SERVICE PURCHASE
-PROVES MONEY MOTION
-BUT OFTEN OBSERVES AN ALREADY-FORMED CATEGORY
+BUYER-SIDE WORKAROUND
+IS BETTER DISCOVERY EVIDENCE THAN SELLER-DEFINED CATEGORY
+BUT
+MULTI-TOOL / SPREADSHEET FRICTION != WHITE SPACE
 ```
 
-Scan 060 replaced job-posting payer evidence with direct purchases: monthly WordPress care, monthly virtual-assistant capacity, unlimited design subscriptions, per-episode/monthly podcast production, monthly QA-as-a-Service and flat-rate/on-demand CAD design.
+Scan 061 sampled six current buyer-side workarounds: Shopify/Amazon/eBay inventory reconciliation, Airbnb/VRBO cleaner/calendar/pricing coordination, multi-business accounting consolidation, solo accounting-practice software sprawl, construction crew scheduling beside QuickBooks, and podcast production/distribution tool sprawl.
 
-This strengthened evidence that buyers actually pay. It did not produce a retained formation. WordPress care and managed QA are already exact mature service categories; virtual assistance is explicitly recurring human capacity; design and podcast production have native AI absorbing standard output while humans retain taste/editorial judgment; CAD automation reduces drafting work but leaves project-specific engineering judgment and liability.
+The signal quality improved because the evidence began with what buyers were actually doing repeatedly rather than with a seller price page. It still produced zero retention. Sellbrite, Turno/Breezeway, Odoo-class multi-company accounting, Canopy, Workyard and Riverside/Spotify-class platforms already own the relevant repeatable control surfaces.
 
-The next useful move is another evidence-source correction, not a new mechanism. Scan 061 should start from buyer-side repeated workaround spend or multi-line-item stacks before a single seller has already packaged the whole outcome. Existing services and job posts may corroborate, but neither can be the primary signal.
+The next useful move is not to infer a new mechanism after one buyer-side sample. Scan 062 should run a second independent, formation-diverse buyer-side workaround pass with no Scan 061 vertical inheritance and the same exact-incumbent fail-closed rule.
 
 ## Validation Status
 
@@ -136,16 +132,14 @@ Validation:
 
 Engineering:
 - No current Jev integration blocker.
-- Jev itself remains non-executing and non-commercial; `automatic_research_execution_by_jev=false`.
+- Jev remains advisory and non-commercial; `automatic_research_execution_by_jev=false`.
 - The active repository agent must continue reversible research automatically when the continuation directive allows it, without asking the user to type `continue`.
-- Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 060 is complete with zero active retained formations and zero commercial promotions.
-- Direct non-role buying signals improved payer certainty but were biased toward already-formed productized-service categories.
-- Productized human capacity is not founder-independent machine delivery.
-- Native AI/software often owns the standardized layer while managed services monetize human exceptions, taste, domain judgment or accountability.
-- Scan 061 must start from buyer-side repeated workaround spend or a multi-line-item workaround stack, not from a job posting or an already-packaged service as the primary signal.
+- Scan 061 is complete with zero active retained formations and zero commercial promotions.
+- Buyer-side repeated workaround evidence improved truth contact but all six sampled edges were already occupied by current sync/all-in-one/vertical software.
+- Packaging, price or adoption dissatisfaction alone does not establish a distinct operator asset.
+- Scan 062 must be a second independent buyer-side workaround sample before any new mechanism boundary is derived.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -153,9 +147,13 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 060 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 061 from buyer-side repeated workaround spend or multi-line-item stacks before the complete outcome is already packaged by one incumbent.
+Create the Scan 061 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 062 as a second independent buyer-side repeated-workaround / multi-line-item-stack sample with no Scan 061 vertical inheritance.
 
 ## Do Not Repeat
+
+- Do not treat a buyer spreadsheet or multi-tool stack as white-space evidence by itself; first preflight exact sync, all-in-one and vertical control surfaces.
+- Do not promote multichannel inventory sync, STR turnover coordination, multi-company accounting, accounting-practice consolidation, construction crew scheduling or podcast stack consolidation from Scan 061; current exact products already occupy those control surfaces.
+- Do not derive a new mechanism ontology from Scan 061 alone; Scan 062 must be an independent second buyer-side workaround sample.
 
 - Do not treat an existing productized-service price page as white-space evidence; it proves money motion and simultaneously proves that at least one incumbent already packages the outcome.
 - Do not treat a flat monthly subscription as machine-executable delivery when the purchased unit is dedicated human hours, designer time, QA engineers or other recurring expert capacity.
