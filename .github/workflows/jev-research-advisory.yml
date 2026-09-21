@@ -88,7 +88,7 @@ jobs:
           python -m unittest discover -s tests -p 'test_jev_research_advisory.py' -v
 
   live-shadow:
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
     needs: contracts
     runs-on: ubuntu-latest
     timeout-minutes: 15
