@@ -1,0 +1,120 @@
+{
+  "schema_version": "attraction-scan.v19",
+  "scan_id": "ATTRACTION_SCAN_040",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_RECENTLY_CREATED_OR_EXPANDED_MONETARY_ENTITLEMENT_RULE_POLICY_OR_CONTRACT_CHANGE_DIRECT_PAYER_OR_RECOVERY_VALUE_DIGITAL_OR_DELEGATABLE_DELIVERY_OPERATOR_ACCESSIBLE_CUSTOMER_OR_PUBLIC_DATA_EXACT_END_TO_END_INCUMBENT_PREFLIGHT_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "UK_BICS_MANUFACTURING_ELECTRICITY_RELIEF_APPLICATION",
+      "chinese_title": "英国BICS制造业电费减免申请",
+      "recent_change": "BICS applicant guidance was first published in August 2026 and the first application window opens 1 October 2026.",
+      "monetary_value": "Eligible manufacturing sites can receive material electricity-cost exemptions; current market coverage describes savings of up to roughly 25% for qualifying businesses.",
+      "operator_accessibility": "Government guidance explicitly permits a consultant or other third party to submit with Companies House officer authorization; evidence is document and meter-data based.",
+      "incumbent_preflight": "MULTIPLE_BICS_SPECIFIC_ENERGY_AND_COMPLIANCE_ADVISORS_ALREADY_PREPARING_AND_SUBMITTING_APPLICATIONS",
+      "verdict": "DEMOTED_RAPID_EXACT_APPLICATION_ADVISORY_CATEGORY_FORMED_BEFORE_WINDOW_OPEN",
+      "source_urls": [
+        "https://www.gov.uk/government/publications/british-industrial-competitiveness-scheme-business-guidance/british-industrial-competitiveness-scheme-guidance-for-applicants",
+        "https://www.eiiadvisory.co.uk/bics-application-process",
+        "https://www.linkedin.com/company/bonhambrook/",
+        "https://uk.linkedin.com/company/enistic"
+      ]
+    },
+    {
+      "title": "US_SECTION_45F_EMPLOYER_CHILDCARE_CREDIT_CAPTURE",
+      "chinese_title": "美国Section 45F雇主托育税收抵免获取",
+      "recent_change": "For tax year 2026 the federal employer-provided child care credit was materially expanded, including higher rates and annual caps.",
+      "monetary_value": "Published federal cap rises to $500,000 and $600,000 for eligible small businesses.",
+      "operator_accessibility": "Employer expense and contract records can be assembled and Form 8882 is the claim rail.",
+      "incumbent_preflight": "DEDICATED_45F_CALCULATORS_GUIDES_AND_CPA_FILING_SERVICES_ALREADY_LIVE",
+      "verdict": "DEMOTED_TAX_CREDIT_ADVISORY_AND_FILING_CATEGORY_ALREADY_FORMED",
+      "source_urls": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/employer-provided-child-care-credit-tax-year-2026-and-later",
+        "https://45f.org/",
+        "https://childcaretaxcredit2026.com/"
+      ]
+    },
+    {
+      "title": "UK_SFI26_FARM_LAND_MANAGEMENT_PAYMENTS",
+      "chinese_title": "英国SFI26农场土地管理补贴申请",
+      "recent_change": "SFI26 opened new 2026 application windows and allows up to £100,000 agreement value per farm business per year.",
+      "monetary_value": "Potential multi-year farm payments are material.",
+      "operator_accessibility": "RPA explicitly supports authorized agents acting for a farm business.",
+      "incumbent_preflight": "SFI26_SPECIFIC_PLANNING_SOFTWARE_AND_RURAL_AGENT_WORKFLOWS_ALREADY_IN_USE",
+      "verdict": "DEMOTED_MATURE_SCHEME_ADVISORY_AND_APPLICATION_TOOLING_ALREADY_OCCUPIES_EDGE",
+      "source_urls": [
+        "https://www.gov.uk/government/publications/sustainable-farming-incentive-2026-sfi26/get-ready-to-apply-for-sfi26",
+        "https://justfarm.app/sustainable-farming-incentive-2026/"
+      ]
+    },
+    {
+      "title": "AUSTRALIA_PRF_SAFEGUARD_TRANSFORMATION_STREAM_R2",
+      "chinese_title": "澳大利亚PRF减排转型基金第二轮申请",
+      "recent_change": "Round 2 opened in February 2026 and remains open in assessment batches through May 2027.",
+      "monetary_value": "Grants range from AUD 500,000 to AUD 50,000,000 and may cover up to 50% of eligible project expenditure.",
+      "operator_accessibility": "Applicant documents and portal submission are accessible, but applications require project, engineering, financial and merit evidence.",
+      "incumbent_preflight": "MULTIPLE_SPECIALIST_GRANT_CONSULTANTS_MARKET_END_TO_END_APPLICATION_SUPPORT",
+      "verdict": "DEMOTED_COMPETITIVE_EXPERT_PROJECT_GRANT_WITH_EXACT_CONSULTANCY_INCUMBENTS",
+      "source_urls": [
+        "https://business.gov.au/grants-and-programs/powering-the-regions-fund-safeguard-transformation-stream-round-2",
+        "https://avantgroup.com.au/grants/prf-sts/",
+        "https://pattens.com/grants/powering-the-regions-fund-safeguard-transformation-stream/"
+      ]
+    },
+    {
+      "title": "KOREA_H1_2026_NEW_MERCHANT_CARD_FEE_REFUND",
+      "chinese_title": "韩国2026上半年新商户银行卡手续费返还",
+      "recent_change": "In August 2026 the FSC announced retroactive preferential fee treatment for newly opened small and medium merchants.",
+      "monetary_value": "About KRW 61.47 billion is expected to be refunded across roughly 159,000 merchants, averaging about KRW 387,000.",
+      "operator_accessibility": "Merchant/account data exists, but no claim filing is required.",
+      "incumbent_preflight": "CARD_COMPANIES_AUTOMATICALLY_REFUND_TO_EXISTING_MERCHANT_SETTLEMENT_ACCOUNTS",
+      "verdict": "DEMOTED_AUTOMATIC_PAYOUT_REMOVES_OPERATOR_ACTION_EDGE",
+      "source_urls": [
+        "https://www.fsc.go.kr/po010104/87498",
+        "https://www.fsc.go.kr/edu/news/87540"
+      ]
+    },
+    {
+      "title": "BUSAN_2026_SMALL_BUSINESS_ENERGY_VOUCHER",
+      "chinese_title": "釜山2026小商户能源代金券",
+      "recent_change": "Busan announced a September-November 2026 energy-voucher application window for eligible small businesses.",
+      "monetary_value": "KRW 200,000 per eligible business in Dongbaekjeon points.",
+      "operator_accessibility": "Eligibility is rule-based and application is directly available in the Dongbaekjeon app, with an official support desk for users who cannot use the app.",
+      "incumbent_preflight": "DIRECT_SELF_SERVICE_APPLICATION_AND_OFFICIAL_ASSISTANCE_WITH_LOW_PER_CASE_VALUE",
+      "verdict": "DEMOTED_LOW_TICKET_SELF_SERVICE_SUPPORT_CANNOT_SUPPORT_DURABLE_ORCHESTRATION_MARGIN",
+      "source_urls": [
+        "https://bepa.kr/kor/view.do?edate=&idx=19528&items=%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8&no=1502&pageIndex=1&periodState=all&sdate=&state=ing&sv=&sw=&temporary=0&view=view",
+        "https://www.busan.go.kr/minsaeng100/sub0204"
+      ]
+    }
+  ],
+  "hard_floor_demotions": [
+    "RECENT_RULE_CHANGE_DOES_NOT_CREATE_WHITE_SPACE_IF_SPECIALIST_ADVISORS_FORM_BEFORE_THE_APPLICATION_WINDOW",
+    "AUTOMATIC_REFUND_OR_CREDIT_REMOVES_THE_OPERATOR_ACTION_EDGE",
+    "LOW_TICKET_SELF_SERVICE_SUPPORT_CANNOT_CARRY_DURABLE_ORCHESTRATION_MARGIN",
+    "COMPETITIVE_PROJECT_GRANTS_REQUIRE_BESPOKE_EXPERT_DELIVERY_AND_ARE_NOT_DETERMINISTIC_ENTITLEMENT_CAPTURE",
+    "PUBLIC_ELIGIBILITY_RULES_PLUS_CUSTOMER_DOCUMENTS_ARE_NOT_A_MOAT_WHEN_TAX_GRANT_OR_SECTOR_ADVISORS_ALREADY_OWN_THE_APPLICATION_LOOP"
+  ],
+  "scan_learnings": [
+    "SCAN_040_ZERO_RETENTION_AFTER_RECENT_ENTITLEMENT_TIMING_EDGE_PREFLIGHT",
+    "RECENT_POLICY_OR_RULE_CHANGE_IS_NECESSARY_NOT_SUFFICIENT_FOR_TEMPORARY_WHITE_SPACE",
+    "HIGH_VALUE_PUBLIC_SCHEMES_CAN_SPAWN_SPECIALIST_APPLICATION_ADVISORS_BEFORE_THE_FIRST_WINDOW_OPENS",
+    "AUTOMATIC_PAYOUTS_HAVE_MONETARY_VALUE_BUT_NO_OPERATOR_ACTION_RIGHT",
+    "LOW_VALUE_SIMPLE_APPLICATIONS_FAIL_NORMALIZED_ORCHESTRATION_ECONOMICS",
+    "COMPETITIVE_GRANT_WRITING_REINTRODUCES_RECURRING_EXPERT_PROJECT_JUDGMENT",
+    "SCAN_041_SHOULD_REQUIRE_NON_AUTOMATIC_DETERMINISTIC_HIGH_VALUE_BENEFIT_PLUS_MACHINE_IDENTIFIABLE_BENEFICIARY_AND_NO_EXACT_APPLICATION_OR_RECOVERY_INCUMBENT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_041",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_RECENT_MONETARY_RULE_POLICY_OR_CONTRACT_CHANGE_NON_AUTOMATIC_DETERMINISTIC_HIGH_VALUE_BENEFICIARY_EXTERNALLY_ENUMERABLE_OR_MACHINE_IDENTIFIABLE_OPERATOR_ACCESSIBLE_DATA_NO_EXACT_APPLICATION_RECOVERY_OR_ADVISORY_INCUMBENT_NO_RECURRING_EXPERT_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "next_action": "TRIGGER_JEV_ON_SCAN040_THEN_FOLLOW_TYPED_CONTINUATION_DIRECTIVE",
+  "first_external_value_flow": "NOT_PROVEN"
+}

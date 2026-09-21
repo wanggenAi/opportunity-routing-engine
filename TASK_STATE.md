@@ -6,14 +6,16 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 039 verified the next hard gate: even when a customer can authorize an independent operator to use the required contracts, invoices, logs, reports or account permissions, the opportunity still fails if the entire recovery loop is already a mature product category.
+Scan 040 verified that a recent monetary rule or policy change is not enough: high-value public schemes can attract exact application advisors before opening, automatic refunds remove the action edge, and low-ticket self-service benefits cannot carry durable orchestration economics.
 
 ```text
-STRUCTURAL GAP
-→ OPERATOR-ACCESSIBLE CUSTOMER / PUBLIC DATA
-→ OPERATOR-AUTHORIZED ACTION RIGHT
-→ DIRECT RECOVERY ECONOMICS
-→ EXACT END-TO-END INCUMBENT PREFLIGHT
+RECENT MONETARY RULE / POLICY / CONTRACT CHANGE
+→ NON-AUTOMATIC BENEFIT
+→ DETERMINISTIC / MACHINE-RESOLVABLE ELIGIBILITY
+→ HIGH PER-BENEFICIARY VALUE
+→ ENUMERABLE / MACHINE-IDENTIFIABLE BENEFICIARY UNIVERSE
+→ NO EXACT APPLICATION / RECOVERY / ADVISORY INCUMBENT
+→ NO RECURRING EXPERT DELIVERY
 → ONLY THEN DEEP CAUSAL DESCENT
 ```
 
@@ -29,20 +31,20 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Discovery queue:
-- `ATTRACTION_SCAN_040 — BROAD_CURRENT_REALITY_RECENTLY_CREATED_OR_EXPANDED_MONETARY_ENTITLEMENT_RULE_POLICY_OR_CONTRACT_CHANGE_DIRECT_PAYER_OR_RECOVERY_VALUE_DIGITAL_OR_DELEGATABLE_DELIVERY_OPERATOR_ACCESSIBLE_CUSTOMER_OR_PUBLIC_DATA_EXACT_END_TO_END_INCUMBENT_PREFLIGHT_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
+- `ATTRACTION_SCAN_041 — BROAD_CURRENT_REALITY_RECENT_MONETARY_RULE_POLICY_OR_CONTRACT_CHANGE_NON_AUTOMATIC_DETERMINISTIC_HIGH_VALUE_BENEFICIARY_EXTERNALLY_ENUMERABLE_OR_MACHINE_IDENTIFIABLE_OPERATOR_ACCESSIBLE_DATA_NO_EXACT_APPLICATION_RECOVERY_OR_ADVISORY_INCUMBENT_NO_RECURRING_EXPERT_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
 
-Scan 039 retained no new formation.
+Scan 040 retained no new formation.
 
 ## Current Phase
 
-`SCAN_039_COMPLETE_PR_PENDING_JEV_CONTINUATION`
+`SCAN_040_COMPLETE_PR_PENDING_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`ca219c76e5bf7c682d8cfe28e10bedaae9e8fdda`
-— squash merge of PR #336, `Test operator-accessible rights in Scan 038`.
+`d78df89c25a9f0392cdf1356aa715c78a25e706e`
+— squash merge of PR #337, `Close mature recovery loops in Scan 039`.
 
-Merged-main CI run `35575273298` and merged-main live Jev run `35575273151` completed successfully. Scan 038 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #337 CI run `35575557329` and live Jev run `35575557318` completed successfully. Scan 039 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -50,11 +52,11 @@ Merged-main CI run `35575273298` and merged-main live Jev run `35575273151` comp
 
 ## Active Branch
 
-`research/attraction-scan-039`.
+`research/attraction-scan-040`.
 
 ## Active PR
 
-Pending creation for Scan 039.
+Pending creation for Scan 040.
 
 ## CI
 
@@ -67,9 +69,9 @@ Pending creation for Scan 039.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_039.json`
-- `docs/research/ATTRACTION_SCAN_039_2026-09-21.md`
-- `tests/test_attraction_scan_039_recovery_category.py`
+- `data/research_runs/attraction_scan_040.json`
+- `docs/research/ATTRACTION_SCAN_040_2026-09-21.md`
+- `tests/test_attraction_scan_040_recent_entitlement.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -94,16 +96,14 @@ Results:
 ## Current Findings
 
 ```text
-STRUCTURAL GAP
+RECENT MONEY / RULE CHANGE
 +
-CUSTOMER-AUTHORIZED RIGHTS
-+
-DIRECT RECOVERY ECONOMICS
+EXECUTABLE APPLICATION
 !=
-WHITE SPACE
+TEMPORARY WHITE SPACE
 ```
 
-Scan 039 found six executable recovery loops, but all six had exact products already monitoring, detecting, filing and tracking claims to credit. The next timing edge moves earlier: recently created or materially expanded monetary entitlements before a stable recovery category forms.
+Scan 040 tested six current monetary changes. BICS, Section 45F and SFI26 already had specialized application/advisory tooling; the Australian industrial grant already had exact grant consultants and required expert project judgment; Korea's merchant-fee refund is automatic; Busan's voucher is low-ticket self-service. Scan 041 therefore requires non-automatic deterministic high-value benefit plus machine-identifiable beneficiaries and no exact application/recovery/advisory incumbent.
 
 ## Validation Status
 
@@ -125,8 +125,8 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 039 is complete with zero retention.
-- Scan 040 has not started; it targets recently created or expanded monetary entitlements/rules with operator-accessible inputs and no exact end-to-end recovery incumbent.
+- Scan 040 is complete with zero retention.
+- Scan 041 has not started; it requires a recent high-value monetary change that is non-automatic, machine-resolvable, addressable and not already occupied by an application/recovery/advisory category.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -134,7 +134,7 @@ Commercial:
 
 ## Next Action
 
-Merge Scan 039 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 040 in the same task.
+Merge Scan 040 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 041 in the same task.
 
 ## Do Not Repeat
 
@@ -143,6 +143,9 @@ Merge Scan 039 after CI, consume the triggered Jev continuation directive, and i
 - Do not treat manual work, spreadsheet use or poor adoption as proof of an unowned control edge.
 - Do not mistake a real structural gap for an operator-owned asset; identify who actually controls the required rights/data/action.
 - Do not mistake contingency pricing or customer authorization for white space; exact recovery categories must still be preflighted.
+- Do not mistake a newly announced entitlement or grant for a timing moat; specialist advisors can form before the application window opens.
+- Do not retain automatic refunds merely because the monetary pool is large.
+- Do not retain low-ticket self-service benefits that cannot carry normalized orchestration margin.
 - Do not turn the incumbent-preflight process improvement into a required opportunity mechanism.
 - Do not let Scan 035 verticals seed Scan 036.
 - Do not lower hard floors because discovery continues to close at zero.
