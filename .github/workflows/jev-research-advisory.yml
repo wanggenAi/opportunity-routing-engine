@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       scan_path:
-        description: 'Persisted attraction scan JSON to inspect'
+        description: "Persisted attraction scan JSON to inspect, or 'auto' for current commercial state"
         required: true
-        default: 'data/research_runs/attraction_scan_035.json'
+        default: 'auto'
         type: string
       max_entities:
         description: 'Maximum formations for the bounded Jev advisory'
@@ -111,7 +111,7 @@ jobs:
         run: |
           set -euo pipefail
           ARGS=(
-            --scan-json "${{ github.event_name == 'workflow_dispatch' && inputs.scan_path || 'data/research_runs/attraction_scan_035.json' }}"
+            --scan-json "${{ github.event_name == 'workflow_dispatch' && inputs.scan_path || 'auto' }}"
             --commercial-state-json data/commercial_reset_state.json
             --max-entities "${{ github.event_name == 'workflow_dispatch' && inputs.max_entities || '6' }}"
             --output-dir .artifacts/jev-research-advisory

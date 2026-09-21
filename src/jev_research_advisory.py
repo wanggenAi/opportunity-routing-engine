@@ -14,9 +14,9 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Any, Mapping, Protocol
 
-CONTRACT = "OPPORTUNITY_JEV_RESEARCH_ADVISORY_V1"
+CONTRACT = "OPPORTUNITY_JEV_RESEARCH_ADVISORY_V2"
 STATE_SCHEMA_VERSION = "OPPORTUNITY_JEV_RESEARCH_STATE_V1"
-QUESTION_SET_VERSION = "OPPORTUNITY_JEV_RESEARCH_ROUTING_V1"
+QUESTION_SET_VERSION = "OPPORTUNITY_JEV_RESEARCH_ROUTING_V2"
 
 ALLOWED_ROUTES = {
     "NO_FURTHER_RESEARCH",
@@ -36,10 +36,13 @@ QUESTION_SPECS: dict[str, dict[str, Any]] = {
     "needs_exact_incumbent_preflight": {
         "type": "noul",
         "instructions": (
-            "Given only the supplied bounded research record, is an exact current "
+            "Given only the supplied bounded research record, is ADDITIONAL exact current "
             "incumbent/control-loop preflight still needed before expensive research? "
-            "Judge research sequencing only. Do not infer commercial truth, reverse an "
-            "existing engine demotion, or recommend promotion."
+            "If the authoritative engine context already marks this path closed because "
+            "incumbent/platform/control-loop evidence resolved it, do not ask to repeat "
+            "that preflight unless the supplied record explicitly shows a remaining "
+            "incumbent uncertainty. Judge research sequencing only. Do not infer commercial "
+            "truth, reverse an existing engine demotion, or recommend promotion."
         ),
     },
     "needs_deeper_causal_research": {
@@ -291,6 +294,7 @@ def build_research_states(
                     "mutates_commercial_state": False,
                     "may_reverse_existing_demotions": False,
                     "may_create_active_candidate": False,
+                    "automatic_research_dispatch_allowed": False,
                     "llm_confidence_is_commercial_evidence": False,
                     "unknown_is_pass": False,
                 },
@@ -408,6 +412,7 @@ def evaluate_research_advisory(
         "mutates_commercial_state": False,
         "may_reverse_existing_demotions": False,
         "may_create_active_candidate": False,
+        "automatic_research_dispatch_allowed": False,
         "llm_confidence_is_commercial_evidence": False,
         "unknown_is_pass": False,
         "state_schema_version": STATE_SCHEMA_VERSION,
@@ -474,6 +479,7 @@ def evaluate_research_advisory(
             "mutates_commercial_state": False,
             "may_reverse_existing_demotions": False,
             "may_create_active_candidate": False,
+            "automatic_research_dispatch_allowed": False,
             "llm_confidence_is_commercial_evidence": False,
             "unknown_is_pass": False,
         }
@@ -505,11 +511,31 @@ def evaluate_research_advisory(
                     }
                 )
             else:
+                model_route = str(
+                    decisions_map["research_route"].get("choice") or ""
+                )
+                if row["existing_closure_authoritative"]:
+                    effective_route = "NO_FURTHER_RESEARCH"
+                    route_source = "AUTHORITATIVE_ENGINE_CLOSURE"
+                    route_alignment = (
+                        "ALIGNS_WITH_AUTHORITATIVE_CLOSURE"
+                        if model_route == "NO_FURTHER_RESEARCH"
+                        else "DISAGREES_WITH_AUTHORITATIVE_CLOSURE"
+                    )
+                else:
+                    effective_route = model_route
+                    route_source = "JEV_SHADOW_ADVISORY"
+                    route_alignment = "NO_AUTHORITATIVE_CLOSURE"
+
                 row.update(
                     {
                         "status": "SUCCESS",
                         "served_model": str(result.get("model") or config.model),
                         "decisions": dict(decisions_map),
+                        "model_research_route": model_route,
+                        "effective_research_route": effective_route,
+                        "effective_route_source": route_source,
+                        "route_alignment": route_alignment,
                         "usage": dict(result.get("usage") or {}),
                     }
                 )
@@ -530,21 +556,31 @@ def evaluate_research_advisory(
 def _summary(rows: list[Mapping[str, Any]]) -> dict[str, Any]:
     successes = [row for row in rows if row.get("status") == "SUCCESS"]
     failures = [row for row in rows if row.get("status") == "FAILED"]
-    route_counts: dict[str, int] = {}
+    model_route_counts: dict[str, int] = {}
+    effective_route_counts: dict[str, int] = {}
+    alignment_counts: dict[str, int] = {}
+
     for row in successes:
-        decisions = row.get("decisions")
-        if not isinstance(decisions, Mapping):
-            continue
-        route = decisions.get("research_route")
-        if isinstance(route, Mapping):
-            choice = str(route.get("choice") or "")
-            if choice:
-                route_counts[choice] = route_counts.get(choice, 0) + 1
+        model_route = str(row.get("model_research_route") or "")
+        effective_route = str(row.get("effective_research_route") or "")
+        alignment = str(row.get("route_alignment") or "")
+        if model_route:
+            model_route_counts[model_route] = model_route_counts.get(model_route, 0) + 1
+        if effective_route:
+            effective_route_counts[effective_route] = (
+                effective_route_counts.get(effective_route, 0) + 1
+            )
+        if alignment:
+            alignment_counts[alignment] = alignment_counts.get(alignment, 0) + 1
+
     return {
         "evaluated": len(rows),
         "success": len(successes),
         "failed": len(failures),
-        "route_counts": dict(sorted(route_counts.items())),
+        "route_counts": dict(sorted(effective_route_counts.items())),
+        "model_route_counts": dict(sorted(model_route_counts.items())),
+        "effective_route_counts": dict(sorted(effective_route_counts.items())),
+        "alignment_counts": dict(sorted(alignment_counts.items())),
     }
 
 
@@ -558,6 +594,7 @@ def render_advisory_markdown(payload: Mapping[str, Any]) -> str:
         "- commercial promotion authority: **False**",
         "- may reverse existing demotions: **False**",
         "- may create active candidate: **False**",
+        "- automatic research dispatch allowed: **False**",
         "- LLM confidence is commercial evidence: **False**",
         "- UNKNOWN != PASS",
         f"- evaluated: **{summary.get('evaluated', 0)}**",
@@ -572,14 +609,15 @@ def render_advisory_markdown(payload: Mapping[str, Any]) -> str:
     else:
         for row in rows:
             decisions = row.get("decisions") if isinstance(row.get("decisions"), Mapping) else {}
-            route = decisions.get("research_route") if isinstance(decisions, Mapping) else None
-            route_choice = route.get("choice") if isinstance(route, Mapping) else "N/A"
             priority = decisions.get("attention_priority") if isinstance(decisions, Mapping) else None
             priority_choice = priority.get("choice") if isinstance(priority, Mapping) else "N/A"
             lines.append(
                 "- "
                 f"{row.get('formation_id')} | engine={row.get('existing_engine_verdict')} | "
-                f"route={route_choice} | priority={priority_choice} | status={row.get('status')}"
+                f"model_route={row.get('model_research_route', 'N/A')} | "
+                f"effective_route={row.get('effective_research_route', 'N/A')} | "
+                f"alignment={row.get('route_alignment', 'N/A')} | "
+                f"priority={priority_choice} | status={row.get('status')}"
             )
     lines.extend(
         [
