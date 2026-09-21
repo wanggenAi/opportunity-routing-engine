@@ -63,10 +63,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_024",
+  "last_completed_scan_id": "ATTRACTION_SCAN_025",
   "last_resolved_formation_id": "ATTRACTION_SCAN_024-F1",
-  "next_scan_id": "ATTRACTION_SCAN_025",
-  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_HIGH_ENERGY_MICRO_EDGE_SCAN025",
+  "next_scan_id": "ATTRACTION_SCAN_026",
+  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_NON_PLATFORM_BUSINESS_FLOW_SCAN026",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -282,7 +282,13 @@
     "PROVIDER_OWNED_ENTITLEMENT_STATE_PLUS_CUSTOMER_CREDENTIALS_DOES_NOT_CREATE_OPERATOR_ASSET_BY_ITSELF",
     "NATIVE_EXPIRY_AWARE_DEDUCTION_AND_MULTI_VENDOR_SHARED_POOLS_COMPRESS_CROSS_PROVIDER_QUOTA_OPTIMIZATION_WHITE_SPACE",
     "OPEN_SOURCE_CONTROL_PLANE_SPEED_CAN_INVALIDATE_A_MICRO_EDGE_WITHIN_WEEKS",
-    "SCAN_024_F1_DEMOTED_AFTER_CHEAP_FALSIFICATION"
+    "SCAN_024_F1_DEMOTED_AFTER_CHEAP_FALSIFICATION",
+    "HIGH_COMPLAINT_VOLUME_DOES_NOT_CREATE_WHITE_SPACE_WHEN_THE_TRANSACTION_PLATFORM_OWNS_THE_REMEDY",
+    "THE_BEST_CONSUMER_TRUST_EDGE_OFTEN_REQUIRES_PROPRIETARY_CLAIMS_TRANSACTION_OR_CUSTODY_DATA",
+    "PLATFORM_OPEN_APIS_CAN_MAKE_STATE_MACHINE_READABLE_WITHOUT_GIVING_A_THIRD_PARTY_CONTROL",
+    "SMALL_VALUE_LEAKAGE_IS_WEAK_WHEN_ACTION_RIGHTS_REMAIN_PLATFORM_OWNED",
+    "CONSUMER_EVIDENCE_ASSISTANTS_COMMODITIZE_WHEN_THE_OUTPUT_IS_ONLY_A_COMPLAINT_OR_SUMMARY",
+    "SCAN_025_ZERO_RETENTION_AFTER_PLATFORM_CONTROL_AND_HUMAN_DELIVERY_FALSIFICATION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -364,7 +370,14 @@
     "OmniRoute is an active quota-aware multi-provider gateway and occupies the same remaining-quota/reset-aware routing control surface.",
     "OmniRoute issue #13616 generalized arbitrary provider billing/quota endpoints into common UsageQuota state and was closed completed on 2026-09-18.",
     "Alibaba already prioritizes nearest-expiring shared quota packages internally, while multi-vendor shared Token Plans reduce fragmentation at procurement time.",
-    "Scan 024-F1 is removed from active validation because the residual capability is ordinary gateway functionality without a proven standalone payer or compounding operator asset."
+    "Scan 024-F1 is removed from active validation because the residual capability is ordinary gateway functionality without a proven standalone payer or compounding operator asset.",
+    "ATTRACTION_SCAN_025 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
+    "Instant retail stockout/aftersales state is machine-readable, but dominant platforms own the order, inventory, adjustment and refund action loop.",
+    "Home-repair residual value remains on-site diagnosis and human service despite platform pricing/compensation controls.",
+    "Pet-clinic price/trust selection is being occupied by proprietary claims-data assets such as Ant Insurance's 5M+ case hospital evaluation, while care remains professional human delivery.",
+    "Collectibles trust, custody, fulfillment and transaction-price data are being internalized by Xianyu Yuligou rather than left to a thin third-party layer.",
+    "Shared-bike overcharge and generic e-commerce refund pain remain high-volume but platform-owned action rights reduce third-party value capture.",
+    "Scan 026 will search active business spending/operational-loss flows outside dominant consumer transaction platforms without inheriting Scan 025 verticals."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -380,9 +393,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_025",
+      "next_scan_id": "ATTRACTION_SCAN_026",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "HIGH_ENERGY_MICRO_EDGE_NO_LLM_QUOTA_OR_ACTIVE_VERTICAL_INHERITANCE"
+      "search_boundary": "HIGH_ENERGY_EXISTING_BUSINESS_FLOWS_OUTSIDE_DOMINANT_TRANSACTION_PLATFORMS_FIND_UNOWNED_MACHINE_STATE"
     }
   },
   "system_learnings": [
@@ -408,6 +421,9 @@
     "DOLLAR_BUDGET_CONTROL_IS_NOT_THE_SAME_AS_EXPIRING_ENTITLEMENT_UTILIZATION",
     "MATURE_GATEWAY_FEATURE_REQUEST_CAN_REVEAL_A_MICRO_EDGE_AND_SIMULTANEOUSLY_WARN_OF_FAST_ABSORPTION",
     "EXACT_OPEN_SOURCE_INCUMBENT_WITH_QUOTA_AWARE_ROUTING_KILLS_SCAN024_F1",
-    "FAST_FEATURE_ABSORPTION_IS_NONCOMPENSATORY_WHEN_OPERATOR_ASSET_IS_COPYABLE"
+    "FAST_FEATURE_ABSORPTION_IS_NONCOMPENSATORY_WHEN_OPERATOR_ASSET_IS_COPYABLE",
+    "CONSUMER_PLATFORM_ACTION_RIGHTS_CAN_NULLIFY_AN_APPARENT_MICRO_EDGE_EVEN_WHEN_STATE_IS_MACHINE_READABLE",
+    "PROPRIETARY_CLAIMS_OR_CUSTODY_DATA_BEATS_PUBLIC_COMPARISON_IN_TRUST_MARKETS",
+    "NEXT_SCAN_SHOULD_TEST_HIGH_ENERGY_VALUE_LEAKS_OUTSIDE_DOMINANT_TRANSACTION_PLATFORM_CONTROL_LOOPS"
   ]
 }
