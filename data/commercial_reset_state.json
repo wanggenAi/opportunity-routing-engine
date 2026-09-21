@@ -14,14 +14,6 @@
       "state": "HIGH_ATTRACTION_BEACON_RETAINED_FOR_CAUSAL_DESCENT",
       "retained_date": "2026-09-20",
       "commercial_candidate": false
-    },
-    {
-      "formation_id": "ATTRACTION_SCAN_046-F1",
-      "title": "MCP_2026_07_28_SPEC_MIGRATION_AND_CONFORMANCE_MAINTENANCE",
-      "chinese_title": "MCP 2026-07-28 规范迁移与一致性维护",
-      "state": "RESEARCH_BEACON_RETAINED_FOR_PAYER_INCIDENCE_STANDARDIZATION_CONTROL_SURFACE_AND_FOUNDER_FREE_ACQUISITION_FALSIFICATION",
-      "retained_date": "2026-09-21",
-      "commercial_candidate": false
     }
   ],
   "resolved_research_formations": [
@@ -64,14 +56,19 @@
       "formation_id": "ATTRACTION_SCAN_016-F1",
       "verdict": "DEMOTED_UNPROVEN_TWO_RAIL_9610_CALLABILITY_AND_PLATFORM_OWNED_VALUE_LAYER",
       "resolved_date": "2026-09-21"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_046-F1",
+      "verdict": "DEMOTED_TEMPORARY_MIGRATION_SERVICE_DENSE_SPECIALIST_SUPPLY_EXPERT_DELIVERY_AND_FAST_PLATFORM_ABSORPTION",
+      "resolved_date": "2026-09-21"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
   "last_completed_scan_id": "ATTRACTION_SCAN_046",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_016-F1",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_046-F1",
   "next_scan_id": "ATTRACTION_SCAN_047",
-  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_FALSIFY_SCAN046_F1_AND_SCAN047_BROAD_PAID_MICROFLOW_SEARCH",
+  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_SCAN047_BROAD_PAID_MICROFLOW_SEARCH",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -426,7 +423,14 @@
     "Shopify GEO, EU AI Act governance, accessibility audits, agentic-commerce enablement and generic n8n automation all showed real money motion but failed on dense supply, recurring expert judgment, mature service structure or platform-native control.",
     "ATTRACTION_SCAN_046-F1 retains MCP 2026-07-28 spec migration/conformance only for cheap falsification; the official breaking revision, current paid SDK-maintenance hiring and fixed-price migration offers establish a real early category.",
     "Scan 046-F1 is not a commercial candidate: real installed-base payer incidence, machine-first standardization, founder-free inbound, normalized delegated margin and resistance to SDK/scanner/platform absorption remain unproven.",
-    "Scan 047 must not inherit MCP migration terms as a search prior."
+    "Scan 047 must not inherit MCP migration terms as a search prior.",
+    "ATTRACTION_SCAN_046-F1 cheap falsification completed on 2026-09-21.",
+    "Current MCP 2026-07-28 migration work has real paid engineering demand, but the official deprecation window and dual-era negotiation reduce universal forced urgency.",
+    "Multiple fixed-price MCP migration/audit specialists formed within weeks, so specialized supply is not demonstrably sparse.",
+    "Remote conformance probes automate the public protocol surface but cannot resolve customer-private session state, OAuth topology, deployment behavior and hidden application paths.",
+    "Official SDK codemods/guides plus Cloudflare and AWS dual-version support show rapid tool/platform absorption of the reusable migration layer.",
+    "Scan 046-F1 is removed from active research because the machine-readable layer is copyable while the difficult remainder is bespoke senior engineering.",
+    "Scan 047 must not inherit MCP or protocol-migration terms as a search prior."
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -665,6 +669,13 @@
     "PAID_MICROFLOW_DOES_NOT_OVERRIDE_DENSE_SUPPLY_EXPERT_DELIVERY_OR_PLATFORM_ABSORPTION",
     "RECENT_PROTOCOL_BREAKING_CHANGE_CAN_CREATE_AN_EARLY_SPECIALIZED_MIGRATION_WINDOW",
     "MCP_2026_07_28_MIGRATION_REQUIRES_PAYER_INCIDENCE_AND_MACHINE_FIRST_STANDARDIZATION_FALSIFICATION",
-    "NEXT_BROAD_SCAN_MUST_NOT_INHERIT_MCP_MIGRATION_AS_AN_ONTOLOGY"
+    "NEXT_BROAD_SCAN_MUST_NOT_INHERIT_MCP_MIGRATION_AS_AN_ONTOLOGY",
+    "REAL_BREAKING_CHANGE_CAN_CREATE_PAID_ENGINEERING_WORK_WITHOUT_CREATING_FOUNDER_INDEPENDENT_BUSINESS",
+    "MINIMUM_DEPRECATION_WINDOWS_AND_DUAL_ERA_NEGOTIATION_REDUCE_FORCED_MIGRATION_URGENCY",
+    "EARLY_CATEGORY_DOES_NOT_EQUAL_SPARSE_SUPPLY_WHEN_SPECIALISTS_PRODUCTIZE_WITHIN_WEEKS",
+    "MACHINE_CHECKABLE_PROTOCOL_SURFACE_CAN_COMMODITIZE_WHILE_PRIVATE_ARCHITECTURAL_REMEDIATION_REMAINS_EXPERT_WORK",
+    "OFFICIAL_SDK_AND_GATEWAY_ABSORPTION_CAN_CLOSE_A_MIGRATION_WINDOW_BEFORE_OPERATOR_ASSET_FORMS",
+    "PUBLIC_CONFORMANCE_RULES_ARE_NOT_COMPOUNDING_OPERATOR_CONTROL_WHEN_FREE_TOOLING_CAN_COPY_THEM",
+    "SCAN046_F1_DEMOTED_AFTER_CHEAP_FALSIFICATION"
   ]
 }
