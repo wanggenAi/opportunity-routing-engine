@@ -1,0 +1,79 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_035",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_PLUS_DIGITAL_OR_DELEGATABLE_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM_KEEP_COMMERCIAL_HARD_FLOORS",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "GEO_AI_SEARCH_BRAND_VISIBILITY_CONTROL",
+      "chinese_title": "AI搜索品牌可见度GEO控制层",
+      "evidence_class": "DIRECT_PAYMENT",
+      "verdict": "DEMOTED_DENSE_EXACT_SAAS_AND_SERVICE_INCUMBENTS",
+      "evidence_summary": "2026 GEO products already publish monthly, annual, enterprise and performance-based pricing, covering multi-model monitoring, citations, sentiment, competitive analysis, content generation, publishing and reporting."
+    },
+    {
+      "title": "APP_SDK_PRIVACY_COMPLIANCE_AUTOMATION",
+      "chinese_title": "App与SDK隐私合规自动检测",
+      "evidence_class": "DIRECT_PAYMENT",
+      "verdict": "DEMOTED_EXACT_PAID_SECURITY_PLATFORM",
+      "evidence_summary": "2026 privacy enforcement is active and recurring, but Baidu Springer already sells automated app privacy scanning and app-store compliance packages with explicit per-scan and annual pricing; security vendors also offer deeper remediation services."
+    },
+    {
+      "title": "AIGC_COMMERCIAL_RIGHTS_PROOF_LAYER",
+      "chinese_title": "AIGC商用授权证明层",
+      "evidence_class": "DIRECT_PAYMENT",
+      "verdict": "DEMOTED_GENERATION_PLATFORM_NATIVE_LICENSE_AND_RIGHTS_BOUNDARY",
+      "evidence_summary": "Paid generation platforms already attach commercial-use terms and project authorization evidence to model/API/version/output state. Third-party input, likeness, trademark and platform rights remain fact-specific legal risk rather than a clean neutral machine layer."
+    },
+    {
+      "title": "AI_JOB_APPLICATION_AND_RESUME_AUTOMATION",
+      "chinese_title": "AI求职投递与简历自动化",
+      "evidence_class": "DIRECT_PAYMENT",
+      "verdict": "DEMOTED_JOB_PLATFORM_NATIVE_AND_MULTIPLE_PAID_INCUMBENTS",
+      "evidence_summary": "Current tools charge monthly or per-use for resume optimization, ATS matching, form filling and automated applications, while major recruitment platforms are launching their own full-process AI job assistants."
+    },
+    {
+      "title": "SHORT_VIDEO_CONTENT_LABELING_AUTOMATION",
+      "chinese_title": "短视频内容标注自动化",
+      "evidence_class": "REPEATED_REQUIRED_WORKFLOW",
+      "verdict": "DEMOTED_PLATFORM_NATIVE_PUBLISHING_REQUIREMENT_AND_RISK_TOOLING",
+      "evidence_summary": "2026 rules make six content labels a publishing requirement across major platforms, while the platforms themselves own label selection, review and correction; current creator-risk tools already provide pre-publish content checks."
+    },
+    {
+      "title": "SOFTWARE_LOCALIZATION_TRANSLATION_AUTOMATION",
+      "chinese_title": "软件本地化翻译自动化",
+      "evidence_class": "DIRECT_PAYMENT",
+      "verdict": "DEMOTED_HYPERSCALER_ENTERPRISE_TRANSLATION_AND_LOCALIZATION_MARKET",
+      "evidence_summary": "Baidu and Youdao publish current enterprise pricing for team translation, APIs, terminology/knowledge reuse, batch documents, audio/video and private deployment. Localization is a mature paid digital service."
+    }
+  ],
+  "hard_floor_demotions": [
+    "DIRECT_DIGITAL_PAYMENT_DOES_NOT_CREATE_WHITE_SPACE_WHEN_MULTIPLE_EXACT_PRODUCTS_ALREADY_EXIST",
+    "PLATFORM_NATIVE_PUBLISHING_AND_RIGHTS_CONTROLS_KILL_THIN_COMPLIANCE_LAYERS",
+    "AIGC_COMMERCIAL_RIGHTS_REMAIN_FACT_SPECIFIC_WHERE_THIRD_PARTY_INPUTS_OR_LIKENESS_ARE_INVOLVED",
+    "PRIVACY_COMPLIANCE_SCANNING_IS_ALREADY_A_PAID_SECURITY_PLATFORM_CATEGORY",
+    "ENTERPRISE_TRANSLATION_AND_JOB_APPLICATION_AUTOMATION_ARE_MATURE_PRODUCT_SURFACES"
+  ],
+  "scan_learnings": [
+    "DIGITAL_OR_DELEGATABLE_DELIVERY_PREFILTER_REMOVES_HUMAN_SERVICE_NOISE_BUT_DOES_NOT_REDUCE_INCUMBENT_DENSITY",
+    "DIRECT_PAYER_DIGITAL_CATEGORIES_CAN_ALREADY_BE_COMMODITIZED",
+    "EXACT_INCUMBENT_SEARCH_SHOULD_MOVE_TO_THE_START_OF_DEEP_RESEARCH",
+    "PLATFORM_NATIVE_RIGHTS_OR_PUBLISHING_CONTROLS_ARE_STRONGER_THAN_A_THIN_THIRD_PARTY_ASSISTANT",
+    "AIGC_RIGHTS_PROOF_IS_STRONGEST_WHEN_ISSUED_BY_THE_GENERATION_OR_ASSET_PLATFORM_ITSELF",
+    "SCAN_035_ZERO_RETENTION_AFTER_DIGITAL_PAYER_AND_INCUMBENT_FALSIFICATION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_036",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_BEFORE_DEEP_RESEARCH_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "next_action": "START_SCAN036_WITH_EXACT_INCUMBENT_PREFLIGHT_BEFORE_EXPENSIVE_CAUSAL_DESCENT",
+  "first_external_value_flow": "NOT_PROVEN"
+}
