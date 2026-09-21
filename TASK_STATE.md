@@ -44,7 +44,7 @@ ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PR
 
 ## Current Phase
 
-`SCAN_066_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_066_PR_OPEN_AWAITING_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
@@ -63,7 +63,7 @@ PR #363 repository CI run `35619670625` completed `success`. Live Jev run `35619
 
 ## Active PR
 
-Pending creation for Scan 066. Live GitHub state is authoritative.
+#364 — `Raise buyer evidence to confirmed money motion in Scan 066`. Live GitHub state is authoritative.
 
 ## CI
 
@@ -154,7 +154,7 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 066 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 067 from two independent confirmed paid external execution flows for the same bounded deterministic unit.
+Run PR #364 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 067 from two independent confirmed paid external execution flows for the same bounded deterministic unit.
 
 ## Do Not Repeat
 
