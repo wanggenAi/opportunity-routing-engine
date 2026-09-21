@@ -199,7 +199,7 @@ class JevResearchAdvisoryTests(unittest.TestCase):
             commercial,
             research_dir=ROOT / "data/research_runs",
         )
-        self.assertEqual(path.name, "attraction_scan_035.json")
+        self.assertEqual(path.name, "attraction_scan_036.json")
 
     def test_non_shadow_mode_fails_closed(self):
         states = build_research_states(
