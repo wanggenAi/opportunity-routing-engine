@@ -1,0 +1,110 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_024",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "HIGH_ENERGY_EXISTING_FLOWS_FIND_UNOWNED_MICRO_EDGES_NO_WHOLE_MARKETPLACE_OR_POLICY_PRIOR",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "whole_marketplace_allowed": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_024-F1",
+      "title": "MULTI_PROVIDER_PREPAID_QUOTA_POOL_ROUTER",
+      "chinese_title": "多模型预付额度池消耗路由器",
+      "state": "RESEARCH_BEACON_RETAINED_FOR_PAYER_FEATURE_ABSORPTION_SAVINGS_AND_OPERATOR_ASSET_FALSIFICATION",
+      "commercial_candidate": false,
+      "mechanism_class": "PREPAID_CAPACITY_UTILIZATION_CONTROL",
+      "mechanism": "Read provider-native prepaid Token Plan/package balances, reset/expiry windows, model capability constraints and package priorities; route compatible AI workloads toward already-paid capacity that would otherwise expire before using pay-as-you-go or lower-priority pools.",
+      "direct_value_link": "The operator attempts to reduce unused prepaid AI quota and avoid incremental PAYG spend while compatible purchased capacity remains available.",
+      "why_micro_edge": "It does not rebuild model discovery, billing, inference or a full AI gateway. It controls one narrow state: which already-purchased provider package should absorb the next compatible request before its quota resets or expires.",
+      "machine_state_evidence": [
+        "TENCENT_TOKENHUB_EXPOSES_TOKEN_PLAN_PACKAGE_BALANCE_AND_EXPIRY_BY_API",
+        "TENCENT_TOKENHUB_EXPOSES_API_KEY_SUBPACKAGE_BALANCE_BY_API",
+        "ALIBABA_MODEL_STUDIO_EXPOSES_TOKEN_PLAN_USAGE_THROUGH_CLI_AND_SHARED_PACKAGE_OPENAPI",
+        "ALIBABA_PERSONAL_AND_TEAM_TOKEN_PLANS_HAVE_NON_ROLLOVER_OR_RESET_WINDOWS"
+      ],
+      "current_feature_gap_evidence": [
+        "LITELLM_OPEN_ISSUE_31823_REQUESTS_PROVIDER_QUOTA_POOLS_AND_PACKAGE_BASED_ROUTING_AS_FIRST_CLASS_CONCEPT",
+        "CLOUDFLARE_AI_GATEWAY_CONTROLS_DOLLAR_SPEND_AND_REQUEST_QUOTAS_BUT_CURRENT_PUBLIC_DOCS_DO_NOT_ESTABLISH_EXTERNAL_PROVIDER_PACKAGE_BALANCE_ROUTING",
+        "KONG_AI_GATEWAY_PUBLIC_COST_MANAGEMENT_FOCUSES_PROVIDER_BILLED_COST_BUDGETS_AND_CHARGEBACK"
+      ],
+      "attraction_profile": {
+        "buyer_voluntary_motion": 3,
+        "provider_rail_motion": 3,
+        "state_dependent_value_jump": 3,
+        "decision_window": 3,
+        "recurring_event_frequency": 3,
+        "bridge_compression": 3,
+        "activation_ease": 2,
+        "self_propulsion": 3,
+        "operator_control": 1,
+        "buyer_discoverability": 2,
+        "machine_resolvability": 3,
+        "generic_agent_resistance": 2,
+        "action_gate_callability": 3
+      },
+      "decisive_unknowns": [
+        "EXACT_WILLINGNESS_TO_PAY_FOR_PREPAID_QUOTA_UTILIZATION_CONTROL",
+        "SAVINGS_MAGNITUDE_AFTER_REAL_WORKLOAD_COMPATIBILITY_AND_QUALITY_CONSTRAINTS",
+        "AT_LEAST_TWO_PROVIDER_PLAN_STATES_CAN_BE_REFRESHED_RELIABLY_WITHOUT_SCREEN_SCRAPING",
+        "PROVIDER_TERMS_ALLOW_AUTOMATED_CROSS_PACKAGE_AND_CROSS_PROVIDER_ROUTING",
+        "SELF_SERVE_BYOK_CREDENTIAL_AND_SECURITY_FRICTION",
+        "LITELLM_CLOUDFLARE_KONG_OR_PROVIDER_FEATURE_ABSORPTION_SPEED",
+        "DISTINCT_OPERATOR_ASSET_BEYOND_AN_OPEN_SOURCE_ROUTER_FEATURE",
+        "HIGH_INTENT_BUYER_DISCOVERABILITY_WITHOUT_RECURRING_FOUNDER_SALES"
+      ],
+      "fail_closed_boundary": "Do not claim model equivalence, savings or package eligibility without live provider state and workload capability checks. Do not silently reroute security-sensitive workloads across providers when policy/data-residency constraints prohibit it.",
+      "next_action": "CHEAP_FALSIFY_PAYER_SAVINGS_FEATURE_ABSORPTION_SECURITY_AND_OPERATOR_ASSET"
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_024-F1"
+  ],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1",
+    "ATTRACTION_SCAN_016-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "CROSS_ORDER_TRAVEL_DISRUPTION_REFUND_ORCHESTRATOR",
+      "chinese_title": "跨订单旅行中断退改编排",
+      "mechanism_class": "CROSS_ORDER_EXCEPTION_COMPRESSION",
+      "verdict": "DEMOTED_PLATFORM_INTERNALIZATION_AND_FRAGMENTED_ACTION_RIGHTS",
+      "evidence_summary": "Refund/change pain is high, but major OTAs are already adding linked guarantees, anomaly detection and fast refund/change flows. A cross-platform layer would still lack common action rights and would often collapse to generic-agent assistance."
+    },
+    {
+      "title": "RENTAL_HOUSING_DEPOSIT_EVIDENCE_ASSISTANT",
+      "chinese_title": "租房押金交退房证据助手",
+      "mechanism_class": "TRUST_EVIDENCE_MICRO_EDGE",
+      "verdict": "DEMOTED_REGULATORY_AND_PLATFORM_ABSORPTION",
+      "evidence_summary": "Deposit disputes are real, but custody/supervision rules, rental platforms, move-out condition reports and existing consumer apps are already absorbing the obvious evidence workflow."
+    },
+    {
+      "title": "GENERIC_LLM_COST_ROUTER",
+      "chinese_title": "通用大模型成本路由器",
+      "mechanism_class": "AI_GATEWAY_COST_CONTROL",
+      "verdict": "DEMOTED_MATURE_GATEWAY_CONTROL_SURFACE",
+      "evidence_summary": "LiteLLM, Cloudflare AI Gateway, Kong AI Gateway and other gateways already support provider/model routing, budgets, rate limits, cost management and fallback. The generic cost-routing surface is not white space."
+    }
+  ],
+  "hard_floor_demotions": [
+    "WHOLE_TRAVEL_EXCEPTION_ORCHESTRATION_FAILS_WHEN_OTAS_INTERNALIZE_LINKED_PROTECTION_AND_ACTION_RIGHTS_REMAIN_FRAGMENTED",
+    "RENTAL_DEPOSIT_EVIDENCE_IS_BEING_ABSORBED_BY_REGULATION_PLATFORM_WORKFLOWS_AND_EXISTING_APPS",
+    "GENERIC_LLM_COST_ROUTING_IS_ALREADY_MATURE_GATEWAY_FUNCTIONALITY"
+  ],
+  "scan_learnings": [
+    "A_HOT_MARKET_CAN_CONTAIN_A_NARROW_UNOWNED_STATE_EVEN_WHEN_THE_WHOLE_GATEWAY_MARKET_IS_CROWDED",
+    "PREPAID_CAPACITY_EXPIRY_IS_DIFFERENT_FROM_DOLLAR_BUDGET_ENFORCEMENT",
+    "PROVIDER_NATIVE_REMAINING_QUOTA_API_CAN_TURN_PROCUREMENT_ENTITLEMENT_INTO_MACHINE_ROUTING_STATE",
+    "OPEN_FEATURE_REQUEST_FROM_A_MATURE_GATEWAY_IS_EVIDENCE_OF_A_REAL_GAP_NOT_PROOF_OF_A_BUSINESS",
+    "FEATURE_GAP_MUST_BE_KILLED_IF_INCUMBENTS_CAN_ABSORB_IT_FASTER_THAN_A_DISTINCT_OPERATOR_ASSET_CAN_FORM",
+    "SCAN_024_RETAINS_ONE_PREPAID_CAPACITY_MICRO_EDGE_WITH_ZERO_COMMERCIAL_PROMOTIONS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_025",
+  "next_search_boundary": "HIGH_ENERGY_MICRO_EDGE_NO_LLM_QUOTA_OR_ACTIVE_VERTICAL_INHERITANCE",
+  "next_action": "PARALLEL_FALSIFY_SCAN024_F1_AND_START_SCAN025_WITHOUT_LLM_QUOTA_GATEWAY_INHERITANCE",
+  "first_external_value_flow": "NOT_PROVEN"
+}
