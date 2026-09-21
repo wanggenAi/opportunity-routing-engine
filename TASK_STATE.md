@@ -4,16 +4,18 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Search for the first real external value flow while validating retained formations in parallel. After repeated
-consumer and enterprise control-surface falsification, the next discovery unit is contractually owed value
-that may be missed because a trigger is not detected, reconciled or claimed.
+Reach the first real external value flow while validating retained formations in parallel. Scan 027 showed that
+repeatedly searching for cost/refund/rebate/credit recovery had itself become a hidden opportunity ontology.
+Discovery is reset to current behavior and workflow formation first, with value mechanism inferred only after
+the behavior is observed.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
-COST LEAK != WHITE SPACE
-AUTOMATED DETECTION != UNOWNED ACTION
-B2B != UNPLATFORMIZED
+CURRENT_BEHAVIOR_FIRST
+VALUE_MECHANISM_SECOND
+BUSINESS_THEORY_LAST
+RECOVERY_LANGUAGE != OPPORTUNITY_ONTOLOGY
 ZERO RETENTION IS VALID
 UNKNOWN != PASS
 ```
@@ -31,20 +33,20 @@ Validation queue:
 - `ATTRACTION_SCAN_016-F1` — two callable 9610 cross-customs return rails + non-consulting economics.
 
 Discovery queue:
-- `ATTRACTION_SCAN_027 — CONTRACTUALLY_OWED_VALUE_LEAKAGE_MISSED_REBATES_CREDITS_SLA_COMPENSATION_PRICE_PROTECTION_WITHOUT_MATURE_RECOVERY_CONTROL_SURFACE`.
+- `ATTRACTION_SCAN_028 — CURRENT_EMERGENT_BEHAVIOR_AND_NEW_WORKFLOW_FORMATIONS_NO_COST_REFUND_REBATE_RECOVERY_OR_PRIOR_MECHANISM_INHERITANCE`.
 
-Scan 026 retained no new formation.
+Scan 027 retained no new formation.
 
 ## Current Phase
 
-`SCAN_026_COMPLETE_PENDING_PR_CI_MERGE`
+`SCAN_027_COMPLETE_PENDING_PR_CI_MERGE`
 
 ## Last Verified Main
 
-`033e8a179ce8d3946e591663ac9ed1094e0146fd`
-— squash merge of PR #319, `Complete Scan 025 with zero consumer-flow retention`.
+`c2e37351b5e312073566d5b7fa85ce80a3c9ab8d`
+— squash merge of PR #320, `Complete Scan 026 with zero enterprise-control retention`.
 
-Main CI #922 verified successful.
+Main CI #924 verified successful.
 
 ## Active Issue
 
@@ -52,22 +54,22 @@ Main CI #922 verified successful.
 
 ## Active Branch
 
-`feature/scan026-enterprise-control-surface-falsification`
+`feature/scan027-contract-value-recovery-falsification`
 
 ## Active PR
 
-Not opened yet for Scan 026. Check GitHub live state first.
+Not opened yet for Scan 027. Check GitHub live state first.
 
 ## CI
 
-No Scan 026 PR CI run yet.
+No Scan 027 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_026.json`
-- `docs/research/ATTRACTION_SCAN_026_2026-09-21.md`
-- `tests/test_attraction_scan_026_enterprise_controls.py`
+- `data/research_runs/attraction_scan_027.json`
+- `docs/research/ATTRACTION_SCAN_027_2026-09-21.md`
+- `tests/test_attraction_scan_027_contract_value.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -75,36 +77,37 @@ Updated:
 
 ## Completed
 
-Scan 026 tested active enterprise spending and operational-loss flows outside dominant consumer transaction
-platforms.
+Scan 027 tested contractually owed money/credits whose trigger might be missed.
 
 Results:
 - commercial promotions = 0;
 - retained research formations = 0;
-- cloud commitment/idle-resource recovery demoted because native FinOps already owns analysis, anomaly and optimization;
-- software-license shelfware demoted because SAM/ITAM incumbents already monitor and automatically recover idle licenses;
-- supplier quality claims/8D demoted because QMS owns the workflow and root-cause responsibility remains expert-heavy;
-- cargo-damage claims demoted because insurtech/insurer APIs already own pre-review and settlement rails;
-- compressed-air leakage demoted because sensor/software/service stacks already own detection-to-repair and field work remains intrinsic;
-- industrial demand-charge control demoted because EMS already forecasts and automatically controls loads;
-- freight invoice overcharge recovery demoted because exact freight-audit incumbents already compare contract rates and automate claims/refunds;
+- SaaS/cloud SLA credit recovery demoted because exact products already extract SLA terms, monitor breaches,
+  calculate credits, file claims and track recovery;
+- vendor rebate/tiered-discount recovery demoted because ERP/DMS/PRM systems already calculate accruals,
+  reconcile and settle rebates;
+- contract-to-invoice price/credit assurance demoted because contract-performance products already connect
+  obligations/SLA/performance/invoices and calculate credits;
+- claims/deductions recovery demoted because QMS and revenue-recovery systems already validate and route claims;
 - FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
 
-The strongest Scan 026 lesson is:
+The durable Scan 027 finding is methodological:
 
 ```text
-COST LEAK != WHITE SPACE
-AUTOMATED DETECTION != UNOWNED ACTION
-B2B != UNPLATFORMIZED
+REAL CONTRACT LEAKAGE
+!=
+UNOWNED RECOVERY LAYER
+
+AND
+
+REPEATEDLY ASKING "WHAT MONEY CAN WE RECOVER?"
+CAN BECOME ANOTHER HIDDEN MECHANISM ONTOLOGY
 ```
 
-The nearest direct-money candidate—freight invoice overcharge recovery—already has exact products that perform
-bill ingestion, contract-rate validation, duplicate/surcharge detection, dispute submission and refund tracking.
-
-The next search should therefore not ask "where is another cost-saving tool?" It should ask whether a business
-is already contractually entitled to money/credit, but fails to receive it because a precise trigger is missed.
+The next scan must therefore begin from newly observed behavior, workarounds and changed resource use rather
+than from a preferred value-capture pattern.
 
 ## Blockers
 
@@ -113,10 +116,10 @@ Validation:
 - Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return rails and non-consulting economics.
 
 Engineering:
-- Scan 026 branch needs PR, CI, merge and main verification.
+- Scan 027 branch needs PR, CI, merge and main verification.
 
 Discovery:
-- Scan 027 has not yet started.
+- Scan 028 has not yet started.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -124,34 +127,35 @@ Commercial:
 
 ## Next Action
 
-Complete Scan 026 PR / CI / merge, then start Scan 027 from already-contracted value leakage.
+Complete Scan 027 PR / CI / merge, then start Scan 028 from current 2026 emergent behavior.
 
-Candidate mechanism classes for falsification:
-- volume rebates;
-- tiered discounts;
-- service-level credits;
-- price-protection credits;
-- contractual penalties/credits;
-- vendor incentives;
-- refund/credit entitlements.
+Search for:
+- newly formed manual workarounds;
+- changed resource usage;
+- new actors or roles in a value chain;
+- repeated cross-system behavior;
+- informal/self-organized flows;
+- tools that newly change who can act.
 
-Required shape:
+Only after observing the formation, apply commercial floors.
 
-```text
-SIGNED / ACCEPTED COMMERCIAL TERM
-+ MACHINE-DETECTABLE TRIGGER
-+ MONEY / CREDIT ALREADY OWED
-+ CLAIM / CREDIT ACTION
-+ NO MATURE RECOVERY CONTROL SURFACE
-```
+Scan 028 must not inherit:
+- cost optimization;
+- refund/rebate/SLA-credit/claim recovery;
+- routing;
+- used-device recycling;
+- 9610 returns;
+- LLM/quota gateways;
+- recently killed consumer/enterprise verticals;
+- any current validation vertical as a discovery seed.
 
 ## Do Not Repeat
 
-- Do not search generic cloud/SaaS/energy/logistics cost optimization again.
-- Do not call a known FinOps/SAM/QMS/EMS/freight-audit function a new micro-edge.
-- Do not keep physical savings loops that require recurring field experts.
-- Do not confuse direct money leakage with unowned control.
-- Do not let Scan 026 verticals become Scan 027 seeds.
+- Do not search another generic rebate/credit/refund recovery tool.
+- Do not confuse claim deadlines or missed value with white space.
+- Do not let a useful mechanism become the ontology of opportunity.
+- Do not start from a preferred product shape.
+- Do not manufacture a retained formation because several prior scans closed at zero.
 - Do not weaken evidence, payer, founder-independence, operator-control or actionability floors.
 
 ## Guardrails
@@ -159,6 +163,7 @@ SIGNED / ACCEPTED COMMERCIAL TERM
 - GitHub live state wins.
 - Attraction first for attention; evidence first for truth.
 - REALITY > COGNITION > SCHEMA.
+- CURRENT_BEHAVIOR_FIRST_VALUE_MECHANISM_SECOND_BUSINESS_THEORY_LAST.
 - HOT_MARKET_NE_UNOWNED_CONTROL_EDGE.
 - MACHINE_READABLE_STATE_NE_ACTION_RIGHT.
 - ROUTING_IS_OPTIONAL_MECHANISM_NOT_CONSTITUTION.
