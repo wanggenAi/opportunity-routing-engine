@@ -1,0 +1,97 @@
+{
+  "schema_version": "attraction-scan.v27",
+  "scan_id": "ATTRACTION_SCAN_048",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_OBSERVED_MONEY_FLOW_REQUIRE_EVENT_DRIVEN_REPEATED_MACHINE_STATE_WITH_NONPLATFORM_CONTROL_NO_SCAN047_VERTICAL_INHERITANCE",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "CPG_RETAIL_DEDUCTION_RECOVERY",
+      "chinese_title": "CPG 零售扣款自动追偿",
+      "evidence_class": "LIVE_PAYING_CUSTOMERS_AND_FULL_EVENT_EVIDENCE_ACTION_LOOP",
+      "verdict": "DEMOTED_EXACT_MATURE_DEDUCTION_RECOVERY_CONTROL_SURFACE",
+      "evidence_summary": "A current production engineering role describes a live B2B product for paying CPG brands that ingests deduction events from portals/EDI/email, assembles evidence, validates claims, files disputes, and reconciles outcomes. The business physics are excellent, but multiple current deduction-recovery platforms already occupy the same full loop."
+    },
+    {
+      "title": "ECOMMERCE_CHARGEBACK_EVIDENCE_AND_SUBMISSION",
+      "chinese_title": "电商拒付证据拼装与自动提交",
+      "evidence_class": "CURRENT_PAID_HUMAN_WORK_AND_MACHINE_EVENT",
+      "verdict": "DEMOTED_NATIVE_PROCESSOR_AUTOMATION_AND_MATURE_CHARGEBACK_PLATFORMS",
+      "evidence_summary": "Current merchants pay recurring specialists to collect order, tracking and communication evidence and submit Stripe/PayPal/Shopify disputes. The event and evidence are machine-readable, but Shopify already auto-populates evidence and adds AI insights, while dedicated automation and productized AI-dispute services already submit responses automatically."
+    },
+    {
+      "title": "SUBCONTRACTOR_COI_EXPIRY_AND_RENEWAL_CHASING",
+      "chinese_title": "分包商保险证书到期与续期追踪",
+      "evidence_class": "CURRENT_RECURRING_PAID_ADMIN_QUEUE",
+      "verdict": "DEMOTED_DENSE_EXACT_COI_TRACKING_SOFTWARE_CATEGORY",
+      "evidence_summary": "Current construction operations pay people to chase COIs, W-9s, expirations and renewals on a recurring basis. The trigger is deterministic and machine-readable, but numerous exact COI platforms already collect, grade, remind and monitor this workflow."
+    },
+    {
+      "title": "FREIGHT_INVOICE_ACCESSORIAL_AUDIT_AND_DISPUTE",
+      "chinese_title": "运费发票附加费审计与争议",
+      "evidence_class": "PAID_OPERATIONS_WORK_WITH_DETERMINISTIC_CONTRACT_VARIANCE",
+      "verdict": "DEMOTED_MATURE_FREIGHT_AUDIT_AND_PAYMENT_CONTROL_SURFACE",
+      "evidence_summary": "Freight teams pay for invoice audit, accessorial-error detection and carrier follow-up. Rate agreements, BOL/POD, dock timestamps and invoices form a strong machine state, but current freight-audit products already compare every invoice to contracts and can send evidence-backed disputes."
+    },
+    {
+      "title": "CONSTRUCTION_LIEN_WAIVER_PAYMENT_GATE",
+      "chinese_title": "建筑留置权豁免付款门禁",
+      "evidence_class": "CURRENT_HIGH_VALUE_SPECIALIST_WORK_AND_MACHINE_PAYMENT_TRIGGER",
+      "verdict": "DEMOTED_FAST_FORMING_EXACT_LIEN_WAIVER_SOFTWARE_CATEGORY",
+      "evidence_summary": "A current $6,500 construction billing engagement pays for lien-waiver sequencing and portal procedures. Payment events are machine-readable, but multiple 2026 products already generate, send, sign, track and payment-gate lien waivers at low SaaS prices."
+    },
+    {
+      "title": "CHANNEL_MDF_COOP_REIMBURSEMENT_CLAIMS",
+      "chinese_title": "渠道 MDF / Co-op 营销基金报销申领",
+      "evidence_class": "REPEATED_REAL_ENTITLEMENT_WITH_PROOF_OF_PERFORMANCE",
+      "verdict": "DEMOTED_MATURE_PRM_FUNDS_AND_CLAIMS_CONTROL_SURFACE",
+      "evidence_summary": "MDF/co-op funds create real expiring reimbursement entitlements with proof-of-performance and claim deadlines, but Salesforce, ZINFI, xAmplify, e2open and rebate-management platforms already manage allocation, evidence, claims, approvals and settlement."
+    }
+  ],
+  "hard_floor_demotions": [
+    "A_PERFECT_EVENT_EVIDENCE_ACTION_LOOP_IS_NOT_WHITE_SPACE_WHEN_MULTIPLE_EXACT_PRODUCTS_ALREADY_OWN_THE_FULL_LOOP",
+    "NATIVE_PROCESSOR_AUTOMATION_KILLS_CHARGEBACK_MICRO_EDGES_BEFORE_EXTERNAL_OPERATOR_CONTROL_FORMS",
+    "COI_EXPIRY_IS_MACHINE_READABLE_BUT_EXACT_VERTICAL_SOFTWARE_IS_ALREADY_DENSE",
+    "FREIGHT_CONTRACT_VARIANCE_IS_DETERMINISTIC_BUT_FREIGHT_AUDIT_AND_PAYMENT_IS_A_MATURE_CATEGORY",
+    "LIEN_WAIVER_PAYMENT_GATING_IS_AN_EXACT_2026_SOFTWARE_CATEGORY_NOT_AN_UNOWNED_MICRO_EDGE",
+    "MDF_CLAIMS_ARE_REAL_MONEY_MOTION_BUT_PRM_AND_REBATE_PLATFORMS_ALREADY_OWN_THE_WORKFLOW"
+  ],
+  "scan_learnings": [
+    "THE_EVENT_DRIVEN_MACHINE_STATE_PREFILTER_IMPROVES_BUSINESS_PHYSICS_BUT_ALSO_SELECTS_FOR_CATEGORIES_SO_OBVIOUS_THAT_SOFTWARE_CONTROL_SURFACES_FORM_QUICKLY",
+    "CPG_DEDUCTION_RECOVERY_IS_A_STRONG_EXISTENCE_PROOF_OF_THE_TARGET_EVENT_EVIDENCE_ACTION_RECONCILIATION_SHAPE_BUT_NOT_WHITE_SPACE",
+    "MACHINE_READABLE_TRIGGER_PLUS_DETERMINISTIC_EVIDENCE_PLUS_MONEY_RECOVERY_SHOULD_TRIGGER_IMMEDIATE_EXACT_FULL_LOOP_PRODUCT_SATURATION_CHECK",
+    "LOW_TECH_RECURRING_ADMIN_WORK_LIKE_COI_AND_LIEN_WAIVERS_CAN_BE_RECENTLY_PRODUCTIZED_AT_LOW_SAAS_PRICES",
+    "PLATFORM_NATIVE_EVIDENCE_AUTOMATION_CAN_COMPRESS_AN_EXTERNAL_CHARGEBACK_OPERATOR_EVEN_WHEN_HUMAN_SERVICES_STILL_SELL",
+    "SCAN_048_RETAINS_ZERO_NEW_FORMATIONS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_049",
+  "next_search_boundary": "FRESH_CURRENT_REALITY_RECENTLY_CREATED_OR_MATERIALLY_CHANGED_PAID_WORKFLOW_SINCE_2026_07_01_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EXACT_FULL_LOOP_PRODUCT_SATURATION_PREFLIGHT_FIRST_NO_SOFTWARE_PROTOCOL_MIGRATION_NO_REGULATORY_EXPERTISE_NO_SCAN048_VERTICAL_INHERITANCE",
+  "next_action": "START_SCAN049_FROM_RECENTLY_CREATED_OR_MATERIALLY_CHANGED_PAID_WORKFLOWS_AND_PREFLIGHT_EXACT_FULL_LOOP_SATURATION_BEFORE_CAUSAL_DESCENT_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.upwork.com/freelance-jobs/apply/Developer-for-Deductions-Management-Product_~022101037160613745630/",
+    "https://singoa.com/industries/wholesale",
+    "https://accountsreceivable.ai/accounts-receivable-software-for-distribution",
+    "https://www.upwork.com/freelance-jobs/apply/Experienced-Shopify-Customer-Support-Chargeback-Specialist_~022095559158213234189/",
+    "https://help.shopify.com/en/manual/payments/chargebacks/resolve-chargeback",
+    "https://www.upwork.com/services/product/development-it-a-shopify-and-stripe-chargeback-dispute-ai-automation-for-revenue-recovery-2096297536585667980",
+    "https://www.upwork.com/services/product/admin-customer-support-organize-your-vendor-compliance-system-cois-w-9s-and-vendor-documents-2071645058858522136",
+    "https://www.freightoptics.com/blog/how-to-run-an-invoice-audit-a-step-by-step-checklist-for-freight-and-3pl-invoices-2026/",
+    "https://stratgik.com/freight-invoice-audit",
+    "https://www.upwork.com/freelance-jobs/apply/Construction-Billing-Specialist-Lien-Waiver-AIA-Pay-App-Expert_~022095196819090293687/",
+    "https://clearlien.io/",
+    "https://lienwaiver.pro/",
+    "https://help.salesforce.com/s/articleView?id=experience.networks_market_dev_funds_intro.htm&language=en_US&type=5",
+    "https://zinfi.com/products/market-development-funds/",
+    "https://rebateledger.com/docs/market-development-funds"
+  ]
+}
