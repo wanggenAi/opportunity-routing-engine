@@ -22,14 +22,6 @@
       "state": "RESEARCH_BEACON_RETAINED_FOR_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
       "retained_date": "2026-09-20",
       "commercial_candidate": false
-    },
-    {
-      "formation_id": "ATTRACTION_SCAN_024-F1",
-      "title": "MULTI_PROVIDER_PREPAID_QUOTA_POOL_ROUTER",
-      "chinese_title": "多模型预付额度池消耗路由器",
-      "state": "RESEARCH_BEACON_RETAINED_FOR_PAYER_FEATURE_ABSORPTION_SAVINGS_AND_OPERATOR_ASSET_FALSIFICATION",
-      "retained_date": "2026-09-21",
-      "commercial_candidate": false
     }
   ],
   "resolved_research_formations": [
@@ -62,14 +54,19 @@
       "formation_id": "ATTRACTION_SCAN_022-F1",
       "verdict": "DEMOTED_ERP_ABSORPTION_AND_NONCOMPOUNDING_COMPLIANCE_LAYER",
       "resolved_date": "2026-09-21"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_024-F1",
+      "verdict": "DEMOTED_ACTIVE_OPEN_SOURCE_CONTROL_SURFACE_AND_NONCOMPOUNDING_GATEWAY_FEATURE",
+      "resolved_date": "2026-09-21"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
   "last_completed_scan_id": "ATTRACTION_SCAN_024",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_022-F1",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_024-F1",
   "next_scan_id": "ATTRACTION_SCAN_025",
-  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_SCAN024_F1_AND_HIGH_ENERGY_MICRO_EDGE_SCAN025",
+  "current_research_action": "PARALLEL_VALIDATE_SCAN015_F1_SCAN016_F1_AND_HIGH_ENERGY_MICRO_EDGE_SCAN025",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -279,7 +276,13 @@
     "PROVIDER_NATIVE_REMAINING_QUOTA_API_CAN_TURN_PROCUREMENT_ENTITLEMENT_INTO_MACHINE_ROUTING_STATE",
     "OPEN_FEATURE_REQUEST_FROM_A_MATURE_GATEWAY_IS_EVIDENCE_OF_A_REAL_GAP_NOT_PROOF_OF_A_BUSINESS",
     "FEATURE_GAP_MUST_BE_KILLED_IF_INCUMBENTS_CAN_ABSORB_IT_FASTER_THAN_A_DISTINCT_OPERATOR_ASSET_CAN_FORM",
-    "SCAN_024_RETAINED_PREPAID_QUOTA_MICRO_EDGE_FOR_CHEAP_FALSIFICATION_ONLY"
+    "SCAN_024_RETAINED_PREPAID_QUOTA_MICRO_EDGE_FOR_CHEAP_FALSIFICATION_ONLY",
+    "DIRECT_FEATURE_GAP_EVIDENCE_MUST_BE_RECHECKED_AGAINST_FAST_MOVING_OPEN_SOURCE_INCUMBENTS_BEFORE_BUILDING",
+    "QUOTA_AWARE_ROUTING_IS_CURRENT_GATEWAY_CONTROL_SURFACE_NOT_A_DISTINCT_BUSINESS_LAYER",
+    "PROVIDER_OWNED_ENTITLEMENT_STATE_PLUS_CUSTOMER_CREDENTIALS_DOES_NOT_CREATE_OPERATOR_ASSET_BY_ITSELF",
+    "NATIVE_EXPIRY_AWARE_DEDUCTION_AND_MULTI_VENDOR_SHARED_POOLS_COMPRESS_CROSS_PROVIDER_QUOTA_OPTIMIZATION_WHITE_SPACE",
+    "OPEN_SOURCE_CONTROL_PLANE_SPEED_CAN_INVALIDATE_A_MICRO_EDGE_WITHIN_WEEKS",
+    "SCAN_024_F1_DEMOTED_AFTER_CHEAP_FALSIFICATION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -356,7 +359,12 @@
     "Tencent exposes Token Plan package/subpackage balance and expiry by API; Alibaba exposes Token Plan usage and package state through official machine-invocable tooling and OpenAPI.",
     "LiteLLM issue #31823 explicitly requests provider quota pools/package-based routing as a first-class feature, validating the gap while also creating rapid feature-absorption risk.",
     "Cloudflare/Kong current public gateway controls validate budget-governance demand but do not by themselves prove external prepaid provider-package entitlement routing.",
-    "Scan 025 must not inherit LLM, Token Plan, quota-pool or gateway terms as a search prior."
+    "Scan 025 must not inherit LLM, Token Plan, quota-pool or gateway terms as a search prior.",
+    "ATTRACTION_SCAN_024-F1 cheap falsification completed on 2026-09-21.",
+    "OmniRoute is an active quota-aware multi-provider gateway and occupies the same remaining-quota/reset-aware routing control surface.",
+    "OmniRoute issue #13616 generalized arbitrary provider billing/quota endpoints into common UsageQuota state and was closed completed on 2026-09-18.",
+    "Alibaba already prioritizes nearest-expiring shared quota packages internally, while multi-vendor shared Token Plans reduce fragmentation at procurement time.",
+    "Scan 024-F1 is removed from active validation because the residual capability is ordinary gateway functionality without a proven standalone payer or compounding operator asset."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -369,11 +377,6 @@
         "formation_id": "ATTRACTION_SCAN_016-F1",
         "state": "CHEAP_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
         "next_action": "VERIFY_TWO_INDEPENDENT_9610_CROSS_CUSTOMS_RETURN_RAILS_AND_NON_CONSULTING_ECONOMICS"
-      },
-      {
-        "formation_id": "ATTRACTION_SCAN_024-F1",
-        "state": "CHEAP_PAYER_FEATURE_ABSORPTION_SAVINGS_SECURITY_AND_OPERATOR_ASSET_FALSIFICATION",
-        "next_action": "VERIFY_PAYER_REAL_SAVINGS_PROVIDER_STATE_FEATURE_ABSORPTION_SECURITY_AND_DISTINCT_OPERATOR_ASSET"
       }
     ],
     "discovery": {
@@ -403,6 +406,8 @@
     "SCAN_023_ZERO_RETENTION_AFTER_VOLUNTARY_FLOW_HARD_FLOOR_FALSIFICATION",
     "PREPAID_QUOTA_STATE_CAN_BE_MACHINE_RESOLVABLE_ACROSS_MULTIPLE_PROVIDER_ECOSYSTEMS",
     "DOLLAR_BUDGET_CONTROL_IS_NOT_THE_SAME_AS_EXPIRING_ENTITLEMENT_UTILIZATION",
-    "MATURE_GATEWAY_FEATURE_REQUEST_CAN_REVEAL_A_MICRO_EDGE_AND_SIMULTANEOUSLY_WARN_OF_FAST_ABSORPTION"
+    "MATURE_GATEWAY_FEATURE_REQUEST_CAN_REVEAL_A_MICRO_EDGE_AND_SIMULTANEOUSLY_WARN_OF_FAST_ABSORPTION",
+    "EXACT_OPEN_SOURCE_INCUMBENT_WITH_QUOTA_AWARE_ROUTING_KILLS_SCAN024_F1",
+    "FAST_FEATURE_ABSORPTION_IS_NONCOMPENSATORY_WHEN_OPERATOR_ASSET_IS_COPYABLE"
   ]
 }
