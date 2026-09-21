@@ -948,3 +948,44 @@ For ChatGPT Plus web sessions and any other long-running agent session that can 
 - If the state file is corrupt, recover the newest valid state-branch revision and reconcile with live GitHub; if the branch is missing, recreate from live repository truth rather than chat memory.
 - `TASK_STATE.md` remains the stable mission handoff; the recovery-state branch is the volatile execution cursor. Neither may override live GitHub truth.
 
+
+
+## Jev agent continuation loop — LOCKED
+
+When a repository task persists or changes an attraction scan and therefore triggers `.github/workflows/jev-research-advisory.yml`, the active agent must treat the Jev run as an internal branch decision, not as a reason to hand control back to the user.
+
+Required loop:
+
+```text
+PERSIST / UPDATE SCAN
+→ WAIT FOR THE CAUSED JEV RUN TO REACH A TERMINAL STATE
+→ READ jev_continuation_directive.json OR THE EQUIVALENT RUN SUMMARY
+→ IF autonomous_continuation_allowed=true:
+     CONTINUE THE NEXT REVERSIBLE RESEARCH STAGE IN THE SAME TASK
+→ PERSIST NEW EVIDENCE / STATE
+→ RE-RUN / RE-CONSUME JEV WHEN THE NEW PERSISTED SCAN CHANGES THE DECISION STATE
+→ REPEAT UNTIL A REAL STOP CONDITION EXISTS
+```
+
+Do **not** stop merely to ask the user to type “continue”.
+
+Safe autonomous continuation is limited to reversible research/control-plane work such as:
+- advancing past formations whose effective route is `NO_FURTHER_RESEARCH`;
+- exact incumbent/control-loop preflight using available public research tools;
+- bounded causal descent and evidence reconciliation;
+- updating research artifacts, tests, checkpoints and PR state needed to preserve the result.
+
+A real stop condition is one of:
+- `STOP_FOR_HUMAN_REVIEW` / `HUMAN_REVIEW`;
+- an irreversible or externally consequential action that requires explicit user authorization;
+- missing credentials/permissions or a hard platform/tool boundary that prevents safe execution;
+- conflicting live GitHub truth that cannot be reconciled without human judgment.
+
+Jev itself does not browse, execute the research, mutate commercial truth, or create a new browser/ChatGPT turn. The active repository agent performs the next research step after consuming Jev's typed decision. If the web session dies, recover from live GitHub plus `state/chatgpt-recovery`; do not reinterpret a dead session as permission to weaken the truth gates.
+
+The continuation directive is control-plane only. It never grants:
+- commercial promotion authority;
+- active-candidate creation;
+- reversal of authoritative demotions/closures;
+- external side effects;
+- use of model confidence as commercial evidence.
