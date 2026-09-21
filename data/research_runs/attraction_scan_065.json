@@ -1,0 +1,101 @@
+{
+  "schema_version": "attraction-scan.v44",
+  "scan_id": "ATTRACTION_SCAN_065",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_SIDE_ACTIVE_OR_PAID_INCUMBENT_PLUS_SEPARATE_RECURRING_EXTERNAL_SPEND_PRIMARILY_FOR_DETERMINISTIC_REPEATABLE_EXECUTION_WITH_OBJECTIVE_MACHINE_VERIFIABLE_OUTPUT_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_BOUNDED_HUMAN_JUDGMENT_AND_LIABILITY_EXACT_INCUMBENT_AND_ROADMAP_PREFLIGHT_NO_SCAN064_VERTICAL_INHERITANCE_NO_REQUIRED_PRODUCT_SHAPE_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_065-F1",
+      "title": "AMAZON_SELLER_CENTRAL_PLUS_THIRD_PARTY_REPRICER_SUBSCRIPTION",
+      "chinese_title": "Amazon Seller Central 外持续购买第三方自动调价",
+      "evidence_class": "CURRENT_PAID_AMAZON_PROFESSIONAL_SELLER_STACK_PLUS_99_TO_499_USD_MONTHLY_EXTERNAL_REPRICER_FOR_CONTINUOUS_RULE_BASED_PRICE_EXECUTION",
+      "verdict": "DEMOTED_DETERMINISTIC_EXECUTION_ALREADY_NATIVE_AND_MATURE_THIRD_PARTY_REPRICER_CATEGORY",
+      "evidence_summary": "Amazon Professional sellers can use Amazon's free Automate Pricing to update prices continuously under seller-defined rules, and Amazon explicitly supports third-party apps through the Selling Partner Appstore. Repricer.com currently sells external automated repricing at $99, $299 and $499 per month and advertises real-time rule-based repricing across Amazon and other channels. The external unit is deterministic, repetitive and objectively measurable through price history, Buy Box share and sales metrics, but the exact control loop is already both platform-native and densely productized by a mature third-party category. This is strong proof of recurring external spend, not new operator white space."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_065-F2",
+      "title": "SALESFORCE_PLUS_PAID_CLOUDINGO_DEDUPLICATION_AUTOMATION",
+      "chinese_title": "Salesforce 订阅外持续购买 Cloudingo 数据去重",
+      "evidence_class": "CURRENT_SALESFORCE_ORG_PLUS_2500_USD_PER_YEAR_EXTERNAL_APP_FOR_SCHEDULED_DUPLICATE_FIND_MERGE_AND_PREVENTION",
+      "verdict": "DEMOTED_NATIVE_DUPLICATE_RULES_PLUS_MATURE_APPEXCHANGE_AUTOMATION_CATEGORY",
+      "evidence_summary": "Salesforce provides native matching rules, duplicate rules, duplicate jobs and merge workflows. Cloudingo is a current Salesforce AppExchange product starting at $2,500 per company per year, with scheduled and real-time duplicate detection and merging. The purchased unit is repetitive and machine-verifiable—record sets can be compared before and after rules run—but the exact data-quality control surface has existed for years inside both Salesforce and a mature AppExchange ecosystem. The recurring external spend demonstrates buyer value for stronger automation, but not an unowned orchestration layer."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_065-F3",
+      "title": "SHOPIFY_PLUS_PAID_MULTI_CHANNEL_INVENTORY_SYNC_APP",
+      "chinese_title": "Shopify 店铺外持续购买多渠道库存同步应用",
+      "evidence_class": "CURRENT_SHOPIFY_STORE_PLUS_RECURRING_PAID_APP_FOR_REAL_TIME_OR_SCHEDULED_SKU_INVENTORY_ORDER_AND_PRICE_SYNCHRONIZATION",
+      "verdict": "DEMOTED_DENSE_APP_MARKET_WITH_HUNDREDS_OF_EXACT_INVENTORY_SYNC_CONTROL_SURFACES",
+      "evidence_summary": "Shopify's current App Store exposes hundreds of inventory-sync applications, including products with monthly recurring prices and real-time or scheduled synchronization across stores, marketplaces, SKUs, prices and orders. The output is deterministic and objectively checkable by comparing inventory and order states across systems. However, the exact paid unit is already a dense established app category with many substitutes, including low-cost and free tiers. Machine-verifiable execution therefore improves deliverability but simultaneously reveals severe incumbent saturation and weak new-entry control."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_065-F4",
+      "title": "STRIPE_PLUS_EXTERNAL_AUTOMATED_CHARGEBACK_RECOVERY",
+      "chinese_title": "Stripe 支付栈外持续购买自动拒付追回",
+      "evidence_class": "CURRENT_STRIPE_MERCHANT_DISPUTE_FLOW_PLUS_EXTERNAL_SUCCESS_FEE_AUTOMATION_FOR_DATA_COLLECTION_EVIDENCE_BUILD_SUBMISSION_AND_OUTCOME_TRACKING",
+      "verdict": "DEMOTED_NATIVE_SMART_DISPUTES_PLUS_MATURE_EXTERNAL_CHARGEBACK_AUTOMATION_CATEGORY",
+      "evidence_summary": "Chargeflow currently sells end-to-end automated chargeback recovery, collecting data, building evidence and submitting disputes for 25% of recovered chargebacks. The output has an objective settlement state—won or lost—and the execution loop is largely machine-routable. But Stripe now offers Smart Disputes and related built-in dispute-prevention and evidence automation directly in the payment stack. The second spend is real and outcome-linked, yet the control surface is an established category under active native absorption rather than a new independent operator position."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_065-F5",
+      "title": "MICROSOFT_365_PLUS_VEEAM_DATA_CLOUD_BACKUP_SUBSCRIPTION",
+      "chinese_title": "Microsoft 365 订阅外持续购买 Veeam SaaS 备份",
+      "evidence_class": "CURRENT_MICROSOFT_365_TENANT_PLUS_2_63_TO_7_USD_PER_USER_MONTH_EXTERNAL_BACKUP_FOR_POLICY_BASED_COPY_RETENTION_AND_RECOVERY",
+      "verdict": "DEMOTED_NATIVE_MICROSOFT_365_BACKUP_PLUS_MATURE_DATA_PROTECTION_CATEGORY",
+      "evidence_summary": "Veeam Data Cloud for Microsoft 365 currently sells annual recurring plans at published per-user monthly rates and automates backup policies, retention and granular recovery. The execution is deterministic and objectively verifiable through successful backup and restore states. Microsoft now also sells Microsoft 365 Backup directly through the admin center at a consumption price of $0.15/GB/month. The external spend therefore proves willingness to pay for a clean machine-executable unit, but the unit is already a mature data-protection category with an expanding native control surface."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_065-F6",
+      "title": "QUICKBOOKS_ONLINE_PLUS_DEXT_RECEIPT_AND_INVOICE_EXTRACTION",
+      "chinese_title": "QuickBooks Online 外持续购买 Dext 票据抽取",
+      "evidence_class": "CURRENT_QUICKBOOKS_ONLINE_ACCOUNT_PLUS_25_21_USD_MONTHLY_EXTERNAL_DOCUMENT_CAPTURE_EXTRACTION_CATEGORIZATION_AND_PUBLISHING",
+      "verdict": "DEMOTED_NATIVE_RECEIPT_CAPTURE_PLUS_MATURE_ACCOUNTING_DOCUMENT_AUTOMATION_CATEGORY",
+      "evidence_summary": "Dext currently sells recurring document-capture plans with automated receipt and invoice extraction, categorization and publishing into accounting systems. QuickBooks Online itself now supports receipt upload or mobile capture, extracts transaction information and proposes matches for review. The unit is repetitive and machine-checkable at document and transaction level, but the core extraction/matching loop is already native while external tools compete on broader workflow depth and accounting-practice packaging. The deterministic residual is commercially real but already productized."
+    }
+  ],
+  "hard_floor_demotions": [
+    "AMAZON_REPRICING_FAILS_WHITE_SPACE_WHEN_THE_PLATFORM_SHIPS_FREE_NATIVE_AUTOMATE_PRICING_AND_A_MATURE_THIRD_PARTY_REPRICER_MARKET_ALREADY_SELLS_THE_SAME_MACHINE_LOOP",
+    "SALESFORCE_DEDUPLICATION_FAILS_WHITE_SPACE_WHEN_NATIVE_MATCHING_AND_DUPLICATE_RULES_COEXIST_WITH_LONG_RUNNING_PAID_APPEXCHANGE_AUTOMATION",
+    "SHOPIFY_INVENTORY_SYNC_FAILS_WHITE_SPACE_WHEN_HUNDREDS_OF_EXACT_APPS_ALREADY_SELL_REAL_TIME_OR_SCHEDULED_SYNC",
+    "STRIPE_CHARGEBACK_AUTOMATION_FAILS_WHITE_SPACE_WHEN_NATIVE_SMART_DISPUTES_AND_MATURE_EXTERNAL_RECOVERY_PRODUCTS_OWN_THE_CONTROL_SURFACE",
+    "MICROSOFT_365_BACKUP_FAILS_WHITE_SPACE_WHEN_NATIVE_BACKUP_AND_MULTIPLE_SPECIALIST_DATA_PROTECTION_PRODUCTS_ALREADY_EXIST",
+    "QUICKBOOKS_DOCUMENT_EXTRACTION_FAILS_WHITE_SPACE_WHEN_NATIVE_RECEIPT_CAPTURE_AND_MATURE_ACCOUNTING_AUTOMATION_PRODUCTS_ALREADY_OWN_THE_UNIT"
+  ],
+  "scan_learnings": [
+    "DETERMINISTIC_REPEATABLE_MACHINE_VERIFIABLE_EXTERNAL_SPEND_IS_A_STRONG_DELIVERY_SHAPE_SIGNAL_BUT_NOT_A_WHITE_SPACE_SIGNAL",
+    "THE_CLEANEST_MACHINE_EXECUTION_UNITS_ARE_OFTEN_THE_EARLIEST_TO_BE_PRODUCTIZED_AS_NATIVE_FEATURES_APPS_OR_SPECIALIST_SAAS",
+    "PARALLEL_SPEND_CAN_PERSIST_AFTER_NATIVE_CAPABILITY_EXISTS_BECAUSE_EXTERNAL_PRODUCTS_ADD_DEPTH_CROSS_PLATFORM_SCOPE_POLICY_CONTROL_OR_BETTER_UNIT_ECONOMICS",
+    "EXTERNAL_RECURRING_SOFTWARE_SPEND_PROVES_REAL_BUYER_VALUE_BUT_MAY_SIMULTANEOUSLY_PROVE_CATEGORY_MATURITY",
+    "OBJECTIVE_ACCEPTANCE_REDUCES_DELIVERY_RISK_WHILE_DENSE_INCUMBENT_SUPPLY_COMPRESSES_ORCHESTRATION_VALUE",
+    "THE_NEXT_SEARCH_MUST_REQUIRE_THE_DETERMINISTIC_PAID_UNIT_TO_EXIST_OUTSIDE_AN_ALREADY_NAMED_MATURE_APP_SAAS_OR_MANAGED_SERVICE_CATEGORY",
+    "SCAN065_ZERO_RETENTION_AFTER_NATIVE_CONTROL_SURFACE_AND_DENSE_PRODUCTIZED_COMPLEMENT_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_066",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_SIDE_PARALLEL_SPEND_FOR_DETERMINISTIC_REPEATABLE_MACHINE_VERIFIABLE_OUTPUT_WITH_AT_LEAST_TWO_INDEPENDENT_BUYER_SIGNALS_WHERE_THE_EXACT_PAID_UNIT_IS_NOT_ALREADY_A_NAMED_MATURE_APP_SAAS_OR_MANAGED_SERVICE_CATEGORY_EXACT_NATIVE_MARKETPLACE_AND_ROADMAP_PREFLIGHT_NO_SCAN065_VENDOR_OR_VERTICAL_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN066_FROM_DETERMINISTIC_PAID_UNITS_THAT_EXIST_BEFORE_CATEGORY_PRODUCTIZATION_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://sell.amazon.com/tools/automate-pricing",
+    "https://sell.amazon.com/tools/selling-partner-appstore",
+    "https://www.repricer.com/pricing/",
+    "https://help.salesforce.com/s/articleView?id=managing_duplicates_overview.htm",
+    "https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000004gHkoEAE",
+    "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync/all?feature_handles%5B%5D=cf.inventory_sync.sync_type.prices",
+    "https://stripe.com/payments/dispute-management",
+    "https://www.chargeflow.io/pricing",
+    "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing?view=o365-worldwide",
+    "https://www.veeam.com/products/veeam-data-cloud/purchasing-options.html",
+    "https://quickbooks.intuit.com/learn-support/en-us/help-article/import-transactions/upload-receipts-bills-quickbooks-online/L862MmZHn_US_en_US",
+    "https://dext.com/en/business/pricing"
+  ]
+}
