@@ -1,0 +1,117 @@
+{
+  "schema_version": "attraction-scan.v23",
+  "scan_id": "ATTRACTION_SCAN_044",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_EACH_EXECUTION_CREATES_OR_STRENGTHENS_OPERATOR_OWNED_REUSABLE_ASSET_OUTCOME_DATA_NETWORK_RELATIONSHIP_VERIFIED_CAPABILITY_REPUTATION_OR_RIGHTS_ASSET_WITH_LEGAL_REUSE_NO_MATURE_INCUMBENT_SAME_ASSET_NO_RECURRING_EXPERT_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "EMAIL_DELIVERABILITY_SEED_NETWORK",
+      "chinese_title": "邮件送达率种子网络与声誉修复",
+      "payer_evidence": "InboxAlly currently publishes recurring plans from $149 to $1,190 per month, with higher enterprise tiers.",
+      "execution_created_asset": "Each warmup/placement run generates engagement and placement observations, while the provider operates a reusable seed-mail network.",
+      "ownership_and_reuse": "The decisive sender reputation accrues primarily to the customer's domain/sender, while the reusable seed network is already the provider's established infrastructure.",
+      "incumbent_preflight": "MULTIPLE_DELIVERABILITY_PLATFORMS_ALREADY_SELL_SEED_NETWORK_WARMUP_PLACEMENT_TESTING_AND_REPUTATION_REPAIR",
+      "verdict": "DEMOTED_EXECUTION_CREATES_VALUE_BUT_DECISIVE_REPUTATION_IS_CUSTOMER_OWNED_AND_SEED_NETWORK_ALREADY_INCUMBENT_ASSET",
+      "source_urls": [
+        "https://www.inboxally.com/pricing"
+      ]
+    },
+    {
+      "title": "AI_VOICE_AGENT_CALL_OUTCOME_LOOP",
+      "chinese_title": "AI语音代理通话结果学习循环",
+      "payer_evidence": "Current platforms publish usage pricing and paid production tiers; Vapi charges usage plus packages and Bland charges per-minute with paid team tiers.",
+      "execution_created_asset": "Every call can generate transcripts, dispositions, tool traces, conversion outcomes and failure patterns.",
+      "ownership_and_reuse": "Customer call data is operationally sensitive and often customer-owned; Vapi explicitly positions customers as owning and operating their agents/models/data. Cross-customer reuse is therefore not a default operator right.",
+      "incumbent_preflight": "VAPI_RETELL_BLAND_SYNTHFLOW_AND_OTHER_VOICE_AGENT_CONTROL_PLANES_ALREADY_OWN_THE_EXECUTION_LAYER",
+      "verdict": "DEMOTED_EXECUTION_DATA_IS_MOSTLY_CUSTOMER_SPECIFIC_RIGHTS_CONSTRAINED_AND_CONTROL_PLANE_CROWDED",
+      "source_urls": [
+        "https://vapi.ai/pricing",
+        "https://app.bland.com/pricing"
+      ]
+    },
+    {
+      "title": "CROSS_MERCHANT_FRAUD_NETWORK",
+      "chinese_title": "跨商户反欺诈网络效应",
+      "payer_evidence": "Dedicated fraud platforms are established enterprise budget lines, using SaaS, usage, GMV or guarantee-linked pricing models.",
+      "execution_created_asset": "Every evaluated transaction can strengthen identity, device, behavioral and fraud-pattern knowledge across merchants.",
+      "ownership_and_reuse": "This is a true cross-customer compounding asset when contracts permit it.",
+      "incumbent_preflight": "RISKIFIED_SIFT_FORTER_SIGNIFYD_AND_PEERS_EXPLICITLY_COMPETE_ON_NETWORK_SCALE_AND_CROSS_MERCHANT_SIGNALS",
+      "verdict": "DEMOTED_IDEAL_COMPOUNDING_NETWORK_ASSET_ALREADY_OWNED_BY_MATURE_FRAUD_PLATFORMS",
+      "source_urls": [
+        "https://www.riskified.com/learning/ecommerce-fraud-prevention/",
+        "https://www.forter.com/blog/visas-updated-vamp-program/",
+        "https://sift.com/solutions/travel-transportation/"
+      ]
+    },
+    {
+      "title": "INTELLIGENT_DOCUMENT_PROCESSING_FEEDBACK_LOOP",
+      "chinese_title": "智能文档处理纠错学习循环",
+      "payer_evidence": "Rossum publishes a Starter plan beginning at $18,000/year; Nanonets prices workflow blocks by execution.",
+      "execution_created_asset": "Human validation/correction improves extraction and workflow accuracy over time.",
+      "ownership_and_reuse": "Rossum describes feedback as training a business's dedicated model; invoice/document data is highly customer-specific and confidential, limiting a clean cross-customer reusable operator asset.",
+      "incumbent_preflight": "ROSSUM_NANONETS_AND_MATURE_IDP_VENDORS_ALREADY_PRODUCTIZE_HUMAN_IN_LOOP_LEARNING",
+      "verdict": "DEMOTED_FEEDBACK_COMPOUNDS_BUT_PRIMARILY_INSIDE_CUSTOMER_SPECIFIC_MODELS_AND_MATURE_IDP_PRODUCTS",
+      "source_urls": [
+        "https://rossum.ai/pricing/",
+        "https://rossum.ai/data-Capture/",
+        "https://nanonets.com/pricing"
+      ]
+    },
+    {
+      "title": "REAL_DEVICE_AND_BROWSER_TESTING_CLOUD",
+      "chinese_title": "真实设备与浏览器测试云",
+      "payer_evidence": "BrowserStack and Sauce Labs publish paid testing plans from tens to hundreds of dollars per month and enterprise tiers.",
+      "execution_created_asset": "Repeated tests can create failure signatures, compatibility observations and tooling improvements.",
+      "ownership_and_reuse": "The durable operator asset is the expensive device/browser fleet plus mature testing infrastructure; customer test results are mostly application-specific.",
+      "incumbent_preflight": "BROWSERSTACK_AND_SAUCE_LABS_ALREADY_OWN_LARGE_DEVICE_CLOUDS_TESTING_INFRASTRUCTURE_AND_ANALYTICS",
+      "verdict": "DEMOTED_OPERATOR_ASSET_IS_CAPITAL_INTENSIVE_MATURE_DEVICE_NETWORK_WHILE_OUTCOMES_ARE_CUSTOMER_SPECIFIC",
+      "source_urls": [
+        "https://www.browserstack.com/pricing",
+        "https://saucelabs.com/pricing"
+      ]
+    },
+    {
+      "title": "LLM_OBSERVABILITY_AND_EVALUATION_TRACE_LOOP",
+      "chinese_title": "LLM可观测与评测Trace学习循环",
+      "payer_evidence": "Langfuse, Arize AX and Braintrust publish current paid plans and usage-based pricing.",
+      "execution_created_asset": "Production traces, scores and failures can become evaluation datasets and regression tests; Braintrust explicitly describes turning failing traces into eval datasets.",
+      "ownership_and_reuse": "The most valuable traces and labeled outcomes belong to each customer's application context; cross-customer reuse is constrained, while the observability/eval tooling category is already crowded.",
+      "incumbent_preflight": "LANGFUSE_ARIZE_BRAINTRUST_LANGSMITH_AND_OTHER_OBSERVABILITY_PLATFORMS_ALREADY_OWN_TRACE_EVAL_WORKFLOWS",
+      "verdict": "DEMOTED_EXECUTION_CREATED_DATA_IS_CUSTOMER_PRIVATE_AND_THE_TOOLING_CONTROL_SURFACE_IS_MATURE",
+      "source_urls": [
+        "https://langfuse.com/pricing",
+        "https://arize.com/pricing/",
+        "https://braintrust.dev/learn/ai-observability/v0"
+      ]
+    }
+  ],
+  "hard_floor_demotions": [
+    "EXECUTION_CREATED_DATA_IS_NOT_AN_OPERATOR_ASSET_IF_CUSTOMER_RIGHTS_OR_CONFIDENTIALITY_PREVENT_CROSS_CUSTOMER_REUSE",
+    "A_TRUE_NETWORK_EFFECT_IS_NOT_WHITE_SPACE_IF_MATURE_INCUMBENTS_ALREADY_OWN_NETWORK_SCALE",
+    "CAPITAL_INTENSIVE_PHYSICAL_OR_DEVICE_NETWORKS_ARE_NOT_LOW_FRICTION_OPERATOR_ASSETS_FOR_THIS_PROJECT",
+    "CUSTOMER_SPECIFIC_MODEL_IMPROVEMENT_DOES_NOT_COMPOUND_ACROSS_THE_BUSINESS",
+    "EXECUTION_DATA_PLUS_DIRECT_PAYER_STILL_FAILS_IF_THE_CONTROL_SURFACE_IS_ALREADY_MATURE"
+  ],
+  "scan_learnings": [
+    "SCAN_044_ZERO_RETENTION_AFTER_EXECUTION_CREATED_ASSET_OWNERSHIP_AND_REUSE_TEST",
+    "EXECUTION_CREATED_DATA_MUST_BE_RIGHTS_CLEAR_AND_CROSS_CUSTOMER_REUSABLE_TO_COMPOUND_FOR_THE_OPERATOR",
+    "THE_CLEANEST_NETWORK_EFFECT_CATEGORIES_ARE_OFTEN_ALREADY_WON_BY_INCUMBENTS_WITH_SCALE",
+    "CUSTOMER_PRIVATE_TRACES_CALLS_DOCUMENTS_AND_TEST_RESULTS_COMPOUND_FOR_THE_CUSTOMER_NOT_AUTOMATICALLY_FOR_THE_OPERATOR",
+    "A_NEW_OPERATOR_NEEDS_DAY_ONE_SINGLE_CUSTOMER_VALUE_BEFORE_NETWORK_SCALE_WHILE_EACH_EXECUTION_STILL_STRENGTHENS_A_PERMISSIONED_CROSS_CUSTOMER_ASSET",
+    "SCAN_045_SHOULD_REQUIRE_SINGLE_CUSTOMER_DAY_ONE_VALUE_PLUS_PERMISSIONED_NON_SENSITIVE_CROSS_CUSTOMER_ASSET_CREATED_AS_A_BYPRODUCT_OF_DELIVERY"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_045",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_SINGLE_CUSTOMER_DAY_ONE_VALUE_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_EACH_EXECUTION_CREATES_PERMISSIONED_NON_SENSITIVE_CROSS_CUSTOMER_REUSABLE_ASSET_AS_BYPRODUCT_ASSET_IMPROVES_FUTURE_QUALITY_COST_SPEED_OR_ACCESS_NO_NETWORK_COLD_START_DEPENDENCE_NO_MATURE_INCUMBENT_SAME_ASSET_NO_RECURRING_EXPERT_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "next_action": "TRIGGER_JEV_ON_SCAN044_THEN_FOLLOW_TYPED_CONTINUATION_DIRECTIVE",
+  "first_external_value_flow": "NOT_PROVEN"
+}
