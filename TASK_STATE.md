@@ -6,19 +6,17 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 057 tested six narrower cross-system trigger loops: website downtime→ad pause, domain blacklist→outbound pause, supplier cost→store price, service capacity→ad demand control, supplier unavailability→storefront availability, and payment-gateway outage→backup routing. All six fail because current products already internalize the stable trigger→action rule.
+Scan 058 reset to six unrelated current paid outcomes: subcontractor COI tracking, end-to-end RFP response ownership, B2B catalog enrichment, Rent Manager AI lease abstraction, export documentation/trade compliance, and SOC 2 readiness/audit support. All six fail exact SaaS/official-integration, low-unit-economics, or recurring expert/signoff floors.
 
 ```text
-CURRENT PAID OUTCOME
-→ FORMATION-DIVERSE OBSERVATION
-→ DIRECT PAYER OR REPEATED WORKAROUND EVIDENCE
-→ DIGITAL / DELEGATABLE DELIVERY
+CURRENT PAID HUMAN WORK
 → EXACT INCUMBENT PREFLIGHT
-→ COMMERCIAL HARD FLOORS
-→ ONLY THEN DEEP CAUSAL DESCENT
+→ SEPARATE REPEATABLE MACHINE LAYER FROM HUMAN RESIDUAL
+→ TEST RESIDUAL FOR NORMALIZED NONEXPERT DELIVERY
+→ FAIL CLOSED IF EXACT PRODUCT OR EXPERT TAIL DOMINATES
 ```
 
-Scans 053–057 have exhausted the successive exception/control-loop narrowing path. Scan 058 resets the discovery ontology instead of inventing another tighter trigger/action mechanism.
+The broad reset is working: failure modes are again formation-diverse rather than inherited from a single trigger/action ontology. Scan 059 stays broad for a second pass before any new mechanism is derived.
 
 ## Goal
 
@@ -39,22 +37,23 @@ Resolved recently:
 - `ATTRACTION_SCAN_055` — zero retention after native/autonomous control-surface and low-unit-economics preflight.
 - `ATTRACTION_SCAN_056` — zero retention after external signals proved already commoditized by their action categories.
 - `ATTRACTION_SCAN_057` — zero retention after niche external triggers proved absorbed by exact vertical/native rule automation.
+- `ATTRACTION_SCAN_058` — zero retention after broad current paid work failed exact-product, official-integration, low-unit-economics or recurring expert/signoff floors.
 
 Discovery queue:
-- `ATTRACTION_SCAN_058 — BROAD_CURRENT_PAID_OUTCOMES_FORMATION_DIVERSE_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_EXCEPTION_REMEDIATION_NO_FIXED_STATE_TRANSITION_NO_EXTERNAL_TRIGGER_MECHANISM_INHERITANCE_NO_SCAN053_TO_SCAN057_VERTICAL_INHERITANCE_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_059 — BROAD_CURRENT_PAID_OUTCOMES_FORMATION_DIVERSE_SECOND_PASS_STRONG_RECURRING_SPEND_OR_CONTRACT_TO_HIRE_EVIDENCE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_SCAN058_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_057_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_058_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`cfe31c9beb8ffffd93307509b7202c7e9b00ccae`
-— squash merge of PR #354, `Close commoditized external-trigger loops in Scan 056`.
+`5f88fd2e324a20dc4fb22ec1e511701967e344c5`
+— squash merge of PR #355, `Reset mechanism bias after Scan 057`.
 
-PR #354 CI and Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #355 CI and Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -62,11 +61,11 @@ PR #354 CI and Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RES
 
 ## Active Branch
 
-`research/attraction-scan-057`.
+`research/attraction-scan-058`.
 
 ## Active PR
 
-Pending creation for Scan 057. Live GitHub state is authoritative.
+Pending creation for Scan 058. Live GitHub state is authoritative.
 
 ## CI
 
@@ -82,9 +81,9 @@ Pending creation for Scan 057. Live GitHub state is authoritative.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_057.json`
-- `docs/research/ATTRACTION_SCAN_057_2026-09-21.md`
-- `tests/test_attraction_scan_057_niche_external_trigger_gate.py`
+- `data/research_runs/attraction_scan_058.json`
+- `docs/research/ATTRACTION_SCAN_058_2026-09-21.md`
+- `tests/test_attraction_scan_058_broad_reset_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -109,18 +108,16 @@ Results:
 ## Current Findings
 
 ```text
-NICHE EXTERNAL TRIGGER
-+
-FIXED CROSS-SYSTEM RULE
-+
-BUYER-OWNED ACTION
+CURRENT PAID HUMAN WORK
 !=
-UNOWNED CONTROL EDGE
+SOFTWARE WHITE SPACE
 ```
 
-Scan 057 found that even narrower triggers such as site health, blacklist state, supplier cost, service capacity, supplier availability and gateway health are already absorbed once their trigger→action mapping becomes stable.
+Scan 058 found real current spend across COI tracking, RFP ownership, catalog enrichment, lease abstraction, export operations and SOC 2 work, but the paid human role often coexists with mature software. The residual then concentrates in customer-specific judgment, compliance interpretation, formal signoff or bespoke implementation.
 
-The more important result is methodological: Scans 053–057 successively narrowed one mechanism family. Scan 058 therefore resets to broad formation-diverse current paid outcomes and preserves only the hard commercial floors, not the trigger/action ontology.
+A fresh $2,000 Rent Manager + AI lease-abstraction request was especially informative: exact preflight found an official Bryckel integration for the same core workflow, proving custom implementation demand but not product white space.
+
+Scan 059 remains broad and formation-diverse for a second pass, requiring stronger recurring-spend or contract-to-hire evidence and excluding Scan 058 vertical inheritance.
 
 ## Validation Status
 
@@ -153,10 +150,14 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 057 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 058 as a broad formation-diverse reset rather than deriving another trigger/action mechanism.
+Create the Scan 058 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 059 as a second broad formation-diverse pass with stronger recurring-spend evidence and no Scan 058 vertical inheritance.
 
 ## Do Not Repeat
 
+- Do not infer product white space from a current human job alone; first check whether the buyer is choosing custom implementation around an exact existing product.
+- Do not retain Rent Manager lease abstraction as a product gap; Bryckel is an official exact integration.
+- Do not treat the expert residual left after RFP, export-compliance or SOC 2 automation as founder-independent machine delivery.
+- Keep Scan 059 broad for a second pass; do not derive a new ontology from only one broad-reset scan.
 - Do not derive Scan 058 as another narrower trigger/action ontology; Scans 053–057 have now saturated that mechanism family.
 - Do not treat niche external signals as scarce merely because they are cross-system; exact products already absorb site-health, blacklist, supplier-cost, capacity, supplier-availability and gateway-health rules.
 - Do not retain a simple cross-system bridge that Zapier/Flow/native rules or an exact vertical SaaS can reproduce without a distinct reusable asset.
