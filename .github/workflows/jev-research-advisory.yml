@@ -34,6 +34,8 @@ on:
       - 'tests/test_jev_research_advisory.py'
       - '.github/workflows/jev-research-advisory.yml'
       - 'docs/JEV_RESEARCH_ADVISORY.md'
+      - 'data/research_runs/attraction_scan_*.json'
+      - 'data/commercial_reset_state.json'
 
 concurrency:
   group: jev-opportunity-advisory-${{ github.event.pull_request.number || github.ref }}
