@@ -175,4 +175,4 @@ Start Scan 036 with the existing payer/workaround -> delivery prefilter -> exact
 - Phase 2 separates raw `model_research_route` from deterministic `effective_research_route`; authoritative closure always forces effective route `NO_FURTHER_RESEARCH`.
 - Phase 2 live run `35565385231` auto-resolved `ATTRACTION_SCAN_035`; served model `jev-1.13.0`; 6/6 succeeded; raw routes 6/6 `NO_FURTHER_RESEARCH`; effective routes 6/6 `NO_FURTHER_RESEARCH`; alignment 6/6 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`; attention 6/6 `LOW`.
 - After prompt calibration, `needs_exact_incumbent_preflight` became false on all six already-closed records (probabilities 0.18–0.32), removing the Phase 1 repeat-preflight noise.
-- Advisory artifacts remain non-authoritative and are not persisted into commercial truth.
+- Advisory artifacts remain non-authoritative and are not persisted into commercial truth.\n- Main push trigger now includes `data/research_runs/attraction_scan_*.json` and `data/commercial_reset_state.json`, so newly persisted scans automatically launch the Jev advisory workflow.
