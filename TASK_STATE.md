@@ -34,14 +34,14 @@ Scan 035 retained no new formation.
 
 ## Current Phase
 
-`JEV_PHASE3_AGENT_CONTINUATION_IMPLEMENTATION`
+`JEV_PHASE3_AGENT_CONTINUATION_MERGED_SCAN_036_READY`
 
 ## Last Verified Main
 
-`f58decfaf9edf428ac1b6b7062841b465d879871`
-— current main before Jev Phase 3; main-push Jev run `35568692859` completed successfully on `ATTRACTION_SCAN_035`.
+`ce7d8b007740a3b0d276ff17101776818bd35ace`
+— squash merge of PR #333, `feat: let Jev drive active agent continuation`.
 
-Phase 2 remains merged and healthy. Phase 3 is adding an explicit machine-readable agent continuation directive without granting Jev execution or commercial authority.
+Merged-main CI run `35573523396` succeeded. Merged-main live Jev run `35573523386` succeeded on `ATTRACTION_SCAN_035` and emitted `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -49,11 +49,11 @@ Phase 2 remains merged and healthy. Phase 3 is adding an explicit machine-readab
 
 ## Active Branch
 
-`feat/jev-agent-continuation-20260921`.
+None. Jev Phase 3 merged.
 
 ## Active PR
 
-Phase 3 branch is active; PR will be opened after tests/docs are committed. PR #331 and PR #332 are both merged.
+None for Jev integration. PR #331, PR #332 and PR #333 are merged.
 
 ## CI
 
@@ -116,10 +116,10 @@ Validation:
 - Scan 015-F1 awaits written provider response and organic founder-free inbound evidence.
 
 Engineering:
-- Phase 3 is wiring the Jev result into an agent-session continuation directive.
+- No current Jev integration blocker.
 - Jev itself remains non-executing and non-commercial; `automatic_research_execution_by_jev=false`.
 - The active repository agent must continue reversible research automatically when the continuation directive allows it, without asking the user to type `continue`.
-- Open-record Jev calibration still begins when Scan 036 persists genuinely unresolved formations.
+- Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
 - Scan 036 has not yet started; its research order remains payer/workaround signal -> delivery prefilter -> exact incumbent preflight -> deep research.
@@ -130,7 +130,7 @@ Commercial:
 
 ## Next Action
 
-Complete Jev Phase 3: validate the continuation directive, merge it only with green CI/live Jev, then start Scan 036. Once a scan update triggers Jev, the active agent must consume the directive and continue the next reversible research stage in the same task instead of waiting for a user `continue` message.
+Start Scan 036. Once the persisted scan update triggers Jev, the active agent must consume `jev_continuation_directive.json` and continue the next reversible research stage in the same task instead of waiting for a user `continue` message.
 
 ## Do Not Repeat
 
@@ -183,7 +183,7 @@ Complete Jev Phase 3: validate the continuation directive, merge it only with gr
 
 Goal: convert the advisory result into a durable agent-control instruction so the active GPT/agent does not stop after every branch decision.
 
-Planned/implemented on `feat/jev-agent-continuation-20260921`:
+Merged in PR #333 as `ce7d8b007740a3b0d276ff17101776818bd35ace`:
 - add `OPPORTUNITY_JEV_AGENT_CONTINUATION_V1`;
 - emit `.artifacts/jev-research-advisory/jev_continuation_directive.json`;
 - map effective routes to `ADVANCE_TO_NEXT_SCAN`, `EXECUTE_RESEARCH_QUEUE`, or `STOP_FOR_HUMAN_REVIEW`;
