@@ -6,16 +6,16 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 053 tested six current paid exception-remediation queues: retail EDI chargebacks, SaaS revenue-state drift, shipment exceptions, freight invoice discrepancies, cross-SaaS identity/access exceptions, and travel disruption reissues. All six fail because the standardized remediation is already absorbed by a mature control plane, or the residual tail depends on customer-specific semantics, security/expert judgment, external counterparties, or GDS/fare-rule expertise.
+Scan 054 tested six narrow fixed-remediation money loops: pre-chargeback alert refunds, Stripe duplicate-charge refunds, supplier duplicate-payment recovery, Amazon FBA residual reimbursements, Google Ads invalid-traffic credits, and cloud SLA service credits. All six fail because an exact control surface already owns the loop, the platform/counterparty retains settlement authority, or the exception is better eliminated upstream by native prevention.
 
 ```text
-DETECTED EXCEPTION
-→ CURRENT RECURRING PAID REMEDIATION
-→ SINGLE FIXED CORRECTIVE ACTION
-→ OPEN / CALLABLE ACTION RIGHT
+SINGLE EXCEPTION
+→ FIXED MACHINE REMEDIATION
+→ CALLABLE ACTION RIGHT
 → DIRECT ECONOMIC SETTLEMENT
-→ NO MATURE EXACT REMEDIATION CONTROL SURFACE
-→ NO RECURRING EXPERT TAIL
+→ NO EXACT CONTROL SURFACE
+→ NO PLATFORM / COUNTERPARTY APPROVAL
+→ NO STRONGER UPSTREAM PREVENTION
 → ONLY THEN DEEP CAUSAL DESCENT
 ```
 
@@ -34,22 +34,23 @@ Resolved recently:
 - `ATTRACTION_SCAN_051-F1` — DEMOTED after Jev-triggered exact incumbent preflight.
 - `ATTRACTION_SCAN_052` — zero retention after native automation, platform-control, generic-agent and trusted-human floors.
 - `ATTRACTION_SCAN_053` — zero retention after six exception queues failed exact remediation-control-surface or expert-tail floors.
+- `ATTRACTION_SCAN_054` — zero retention after fixed-remediation money loops failed exact-control-surface, platform/counterparty authority, or upstream-prevention floors.
 
 Discovery queue:
-- `ATTRACTION_SCAN_054 — CURRENT_RECURRING_PAID_SINGLE_EXCEPTION_CLASS_FIXED_REMEDIATION_OPEN_ACTION_API_DIRECT_ECONOMIC_SETTLEMENT_NO_BROAD_OPERATIONS_ROLE_NO_PLATFORM_APPROVAL_NO_REGULATED_SIGNATURE_NO_SCAN053_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST`.
+- `ATTRACTION_SCAN_055 — CURRENT_RECURRING_PAID_NON_RECOVERY_SINGLE_STATE_TRANSITION_FIXED_MACHINE_ACTION_DIRECT_PAYER_MARGIN_OR_REVENUE_OUTCOME_OPEN_ACTION_RIGHTS_NO_REFUND_REIMBURSEMENT_CREDIT_DISPUTE_FAMILY_NO_PLATFORM_APPROVAL_NO_REGULATED_SIGNATURE_NO_SCAN054_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_053_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_054_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`b6fa1b316c0bdd7af1013e0d4bcb353f32eeedfa`
-— squash merge of PR #350, `Close native-control traps in Scan 052`.
+`2f4d63b8dae7643a056110aa14d041796fe03225`
+— squash merge of PR #351, `Close exception-remediation traps in Scan 053`.
 
-PR #350 CI and Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #351 CI and Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -57,11 +58,11 @@ PR #350 CI and Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RES
 
 ## Active Branch
 
-`research/attraction-scan-053`.
+`research/attraction-scan-054`.
 
 ## Active PR
 
-Pending creation for Scan 053. Live GitHub state is authoritative.
+Pending creation for Scan 054. Live GitHub state is authoritative.
 
 ## CI
 
@@ -77,9 +78,9 @@ Pending creation for Scan 053. Live GitHub state is authoritative.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_053.json`
-- `docs/research/ATTRACTION_SCAN_053_2026-09-21.md`
-- `tests/test_attraction_scan_053_exception_remediation_gate.py`
+- `data/research_runs/attraction_scan_054.json`
+- `docs/research/ATTRACTION_SCAN_054_2026-09-21.md`
+- `tests/test_attraction_scan_054_fixed_remediation_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -104,16 +105,18 @@ Results:
 ## Current Findings
 
 ```text
-EXCEPTION QUEUE
+FIXED REMEDIATION
 +
-PAID HUMAN REMEDIATION
+OPEN / CALLABLE API
++
+DIRECT ECONOMIC SETTLEMENT
 !=
-UNOWNED MACHINE CORRECTIVE-ACTION LAYER
+UNOWNED OPERATOR CONTROL
 ```
 
-Scan 053 found a consistent split. Standardized remediation is already being absorbed by exact control surfaces such as automated retail deduction recovery, freight audit/resolution, post-purchase exception platforms, revenue/billing platforms and identity provisioning infrastructure. The residual work is then dominated by customer-specific mappings, approval/security judgment, external carrier or retailer cooperation, or domain-expert commands and rules.
+Scan 054 found that tightening the unit does improve falsifiability, but it does not by itself create white space. Pre-chargeback refunds, duplicate-charge refunds, supplier recovery, marketplace reimbursements, ad credits and cloud SLA credits are already absorbed by exact automation, native platform logic or success-fee recovery products; the remaining settlement decision often still belongs to the platform or counterparty.
 
-Scan 054 therefore rejects broad operations roles at discovery time. A formation must begin with one narrow exception class, one fixed remediation, callable action rights and a directly observable economic settlement unit.
+Scan 055 therefore leaves the refund/reimbursement/credit/dispute family and tests non-recovery fixed state transitions where the operator can own the decisive action right and the payer can observe a direct margin or revenue outcome.
 
 ## Validation Status
 
@@ -146,10 +149,14 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 053 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 054 from current recurring paid single-exception units with fixed remediation, open action rights and direct economic settlement.
+Create the Scan 054 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 055 from non-recovery fixed machine state transitions with direct payer margin or revenue outcomes and operator-owned action rights.
 
 ## Do Not Repeat
 
+- Do not treat a fixed remediation plus an API as white space when a current product already owns the exact event→action→settlement loop.
+- Do not count platform-issued credits, reimbursements or refunds as operator-controlled settlement when the platform still decides eligibility.
+- Do not retain preventable payment exceptions when upstream idempotency or native controls remove the root cause more cheaply.
+- Do not continue narrowing inside refund/reimbursement/credit/dispute recovery after Scan 054; that family is now explicitly saturated for this epoch.
 - Do not treat a broad exception-operations role as a routable unit; isolate one exception class and one corrective action first.
 - Do not retain a cross-system workflow merely because three products are involved; prove the mapping/remediation is reusable across customers rather than bespoke integration engineering.
 - Do not confuse direct dollar leakage with white space when an exact recovery platform already automates the identify-evidence-act-track loop.
