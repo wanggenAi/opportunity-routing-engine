@@ -25,12 +25,45 @@ def _load_object(path: Path) -> dict:
     return payload
 
 
+def resolve_scan_path(
+    requested: str,
+    commercial_state: dict,
+    *,
+    research_dir: Path = Path("data/research_runs"),
+) -> Path:
+    """Resolve an explicit scan path or the current persisted commercial scan."""
+
+    requested = str(requested or "auto").strip()
+    if requested.lower() != "auto":
+        path = Path(requested)
+        if not path.is_file():
+            raise FileNotFoundError(f"scan JSON not found: {path}")
+        return path
+
+    scan_id = str(commercial_state.get("last_completed_scan_id") or "").strip()
+    if scan_id:
+        candidate = research_dir / f"{scan_id.lower()}.json"
+        if candidate.is_file():
+            return candidate
+
+    candidates: list[tuple[int, Path]] = []
+    for path in research_dir.glob("attraction_scan_*.json"):
+        suffix = path.stem.removeprefix("attraction_scan_")
+        if suffix.isdigit():
+            candidates.append((int(suffix), path))
+    if not candidates:
+        raise FileNotFoundError(
+            "no persisted attraction scan found for automatic Jev advisory"
+        )
+    return max(candidates, key=lambda item: item[0])[1]
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--scan-json",
-        type=Path,
-        default=Path("data/research_runs/attraction_scan_035.json"),
+        default="auto",
+        help="Persisted attraction scan JSON, or 'auto' to follow commercial state",
     )
     parser.add_argument(
         "--commercial-state-json",
@@ -46,8 +79,9 @@ def main() -> int:
     parser.add_argument("--require-success", action="store_true")
     args = parser.parse_args()
 
-    scan = _load_object(args.scan_json)
     commercial_state = _load_object(args.commercial_state_json)
+    scan_path = resolve_scan_path(args.scan_json, commercial_state)
+    scan = _load_object(scan_path)
     states = build_research_states(
         scan=scan,
         commercial_state=commercial_state,
@@ -57,6 +91,8 @@ def main() -> int:
         states=states,
         config=JevResearchConfig.from_env(),
     )
+    payload["input_scan_path"] = scan_path.as_posix()
+    payload["input_scan_id"] = str(scan.get("scan_id") or "")
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     json_path = args.output_dir / "jev_research_advisory.json"
@@ -77,6 +113,8 @@ def main() -> int:
         json.dumps(
             {
                 "execution_status": payload.get("execution_status"),
+                "input_scan_id": payload.get("input_scan_id"),
+                "input_scan_path": payload.get("input_scan_path"),
                 "entity_count": payload.get("entity_count"),
                 "summary": payload.get("summary"),
             },
