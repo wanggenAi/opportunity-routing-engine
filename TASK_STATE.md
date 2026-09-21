@@ -6,16 +6,16 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 052 tested six current recurring/per-unit paid outcomes outside the Scan 051 verticals: dental ERA/EOB claim posting, AWS funding document assembly, Google review removal, FOIA/bodycam completed case packages, rare-collectible buyer-intent lists, and UK document certification. All six fail current hard floors through native workflow automation, external platform control, recurring subjective research, generic-agent substitution/weak economics, or regulated human attestation.
+Scan 053 tested six current paid exception-remediation queues: retail EDI chargebacks, SaaS revenue-state drift, shipment exceptions, freight invoice discrepancies, cross-SaaS identity/access exceptions, and travel disruption reissues. All six fail because the standardized remediation is already absorbed by a mature control plane, or the residual tail depends on customer-specific semantics, security/expert judgment, external counterparties, or GDS/fare-rule expertise.
 
 ```text
-OBSERVED RECURRING / PER-UNIT PAID OUTCOME
-→ DETERMINISTIC ACCEPTANCE
-→ EXACT INCUMBENT / NATIVE CONTROL PREFLIGHT
-→ CROSS-SYSTEM EXECUTION CONTROL
-→ NO PLATFORM APPROVAL DEPENDENCE
-→ NO REGULATED HUMAN ATTESTATION
-→ NO RECURRING FOUNDER OR EXPERT LABOR
+DETECTED EXCEPTION
+→ CURRENT RECURRING PAID REMEDIATION
+→ SINGLE FIXED CORRECTIVE ACTION
+→ OPEN / CALLABLE ACTION RIGHT
+→ DIRECT ECONOMIC SETTLEMENT
+→ NO MATURE EXACT REMEDIATION CONTROL SURFACE
+→ NO RECURRING EXPERT TAIL
 → ONLY THEN DEEP CAUSAL DESCENT
 ```
 
@@ -32,23 +32,24 @@ Validation queue:
 
 Resolved recently:
 - `ATTRACTION_SCAN_051-F1` — DEMOTED after Jev-triggered exact incumbent preflight.
-- `ATTRACTION_SCAN_052` — zero retention across six formation-diverse paid units after native automation, platform-control, generic-agent and trusted-human hard floors.
+- `ATTRACTION_SCAN_052` — zero retention after native automation, platform-control, generic-agent and trusted-human floors.
+- `ATTRACTION_SCAN_053` — zero retention after six exception queues failed exact remediation-control-surface or expert-tail floors.
 
 Discovery queue:
-- `ATTRACTION_SCAN_053 — CURRENT_RECURRING_PAID_EXCEPTION_REMEDIATION_WITH_DETERMINISTIC_ACCEPTANCE_CROSS_SYSTEM_ACTION_NOT_PLATFORM_APPROVAL_NOT_REGULATED_SIGNATURE_NO_SCAN052_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST`.
+- `ATTRACTION_SCAN_054 — CURRENT_RECURRING_PAID_SINGLE_EXCEPTION_CLASS_FIXED_REMEDIATION_OPEN_ACTION_API_DIRECT_ECONOMIC_SETTLEMENT_NO_BROAD_OPERATIONS_ROLE_NO_PLATFORM_APPROVAL_NO_REGULATED_SIGNATURE_NO_SCAN053_VERTICAL_INHERITANCE_EXACT_INCUMBENT_PREFLIGHT_FIRST`.
 
-Scan 052 retained zero new formations, made zero commercial promotions, and FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
+ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_052_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_053_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`4a68f3e5ad527a0e37fac699cf02384a3aaab87d`
-— squash merge of PR #349, `Close saturated multilingual annotation routing in Scan 051`.
+`b6fa1b316c0bdd7af1013e0d4bcb353f32eeedfa`
+— squash merge of PR #350, `Close native-control traps in Scan 052`.
 
-PR #349 repository CI and Jev both completed successfully before merge. Jev final continuation: 6/6 `NO_FURTHER_RESEARCH`, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #350 CI and Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -56,11 +57,11 @@ PR #349 repository CI and Jev both completed successfully before merge. Jev fina
 
 ## Active Branch
 
-`research/attraction-scan-052`.
+`research/attraction-scan-053`.
 
 ## Active PR
 
-Pending creation for Scan 052. Live GitHub state is authoritative.
+Pending creation for Scan 053. Live GitHub state is authoritative.
 
 ## CI
 
@@ -76,9 +77,9 @@ Pending creation for Scan 052. Live GitHub state is authoritative.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_052.json`
-- `docs/research/ATTRACTION_SCAN_052_2026-09-21.md`
-- `tests/test_attraction_scan_052_exception_boundary.py`
+- `data/research_runs/attraction_scan_053.json`
+- `docs/research/ATTRACTION_SCAN_053_2026-09-21.md`
+- `tests/test_attraction_scan_053_exception_remediation_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -103,16 +104,16 @@ Results:
 ## Current Findings
 
 ```text
-RECURRING PER-UNIT PAYMENT
+EXCEPTION QUEUE
 +
-MACHINE-CHECKABLE OUTPUT
+PAID HUMAN REMEDIATION
 !=
-UNOWNED EXECUTION CONTROL
+UNOWNED MACHINE CORRECTIVE-ACTION LAYER
 ```
 
-Scan 052 reinforces that the standard case is often already absorbed. Open Dental can fully auto-process standard ERAs; AWS Partner Central agents can recommend funding and create fund requests; Google owns review-removal appeals; MuckRock owns FOIA filing/tracking; Clay productizes public-web intent research; UK document certification requires trusted human attestation.
+Scan 053 found a consistent split. Standardized remediation is already being absorbed by exact control surfaces such as automated retail deduction recovery, freight audit/resolution, post-purchase exception platforms, revenue/billing platforms and identity provisioning infrastructure. The residual work is then dominated by customer-specific mappings, approval/security judgment, external carrier or retailer cooperation, or domain-expert commands and rules.
 
-Scan 053 therefore targets the residual **exception remediation layer**: software may detect an exception, but a new formation only survives if the operator can actually complete a deterministic corrective action across independently owned systems without platform approval or a regulated signer.
+Scan 054 therefore rejects broad operations roles at discovery time. A formation must begin with one narrow exception class, one fixed remediation, callable action rights and a directly observable economic settlement unit.
 
 ## Validation Status
 
@@ -145,10 +146,13 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 052 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 053 from current paid exception-remediation queues with exact incumbent preflight first.
+Create the Scan 053 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 054 from current recurring paid single-exception units with fixed remediation, open action rights and direct economic settlement.
 
 ## Do Not Repeat
 
+- Do not treat a broad exception-operations role as a routable unit; isolate one exception class and one corrective action first.
+- Do not retain a cross-system workflow merely because three products are involved; prove the mapping/remediation is reusable across customers rather than bespoke integration engineering.
+- Do not confuse direct dollar leakage with white space when an exact recovery platform already automates the identify-evidence-act-track loop.
 - Do not mistake an exception queue for white space merely because the happy path is automated; prove that the corrective action is independently executable and not just another expert escalation.
 - Do not count native platform agents or built-in auto-processing as residual operator opportunity when they already own the standard control loop.
 - Do not promote Scan 046-F1 merely because MCP is current or because providers publish prices; prove real buyer incidence, machine-first standardization, founder-free inbound and non-absorbed control first.
