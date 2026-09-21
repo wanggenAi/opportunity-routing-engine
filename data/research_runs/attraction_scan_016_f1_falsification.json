@@ -1,0 +1,101 @@
+{
+  "schema_version": "formation-falsification.v1",
+  "formation_id": "ATTRACTION_SCAN_016-F1",
+  "as_of_date": "2026-09-21",
+  "prior_state": "RESEARCH_BEACON_RETAINED_FOR_CALLABILITY_AND_ECONOMICS_FALSIFICATION",
+  "verdict": "DEMOTED_UNPROVEN_TWO_RAIL_9610_CALLABILITY_AND_PLATFORM_OWNED_VALUE_LAYER",
+  "commercial_candidate": false,
+  "retain_for_active_validation": false,
+  "first_external_value_flow": "NOT_PROVEN",
+  "proven": [
+    {
+      "gate": "LEGAL_AND_PHYSICAL_CHOICE_SET",
+      "status": "PASS",
+      "evidence": "GACC Announcement 2026 No.24 made 9610 cross-customs-district returns nationally available from 2026-04-01; real Hangzhou and Yiwu flows demonstrate that returned goods can use different China re-entry locations."
+    },
+    {
+      "gate": "GENERIC_REVERSE_LOGISTICS_API_EXISTENCE",
+      "status": "PASS",
+      "evidence": "4PX exposes a unified logistics open platform including return services; Cainiao exposes sales-return and warehouse-return APIs; AfterShip exposes a complete returns API and carrier/routing controls."
+    }
+  ],
+  "decisive_kills": [
+    {
+      "kill": "TWO_INDEPENDENT_THIRD_PARTY_CALLABLE_9610_RAILS",
+      "status": "NOT_PROVEN_NONCOMPENSATORY_FAIL",
+      "reason": "Public evidence shows multiple physical ports/routes and generic logistics return APIs, but does not establish two independent rails that expose the exact 9610 cross-customs re-entry transaction to a neutral third-party router with structured quote/order/status/outcome exchange."
+    },
+    {
+      "kill": "PLATFORM_OR_OPERATOR_CONTROL_OF_RETURN_INTENT_AND_PORT_SELECTION",
+      "status": "NEGATIVE",
+      "reason": "Real examples are platform/enterprise coordinated; AliExpress stated the enterprise can choose a convenient return port, while the GACC rule requires participating enterprise production systems to expose data to or connect with Customs. The decisive execution relationship is therefore embedded in platform/enterprise/customs operations rather than an open neutral routing rail."
+    },
+    {
+      "kill": "NON_CONSULTING_OPERATOR_ECONOMICS",
+      "status": "NOT_PROVEN_NONCOMPENSATORY_FAIL",
+      "reason": "No native payout, take-rate or machine contribution payment for a neutral 9610 routing operator was established. Cost reduction to the seller does not itself prove a third-party revenue rail."
+    },
+    {
+      "kill": "CROSS_PROVIDER_OUTCOME_RIGHTS_AND_ASSET",
+      "status": "NOT_PROVEN",
+      "reason": "No public evidence establishes rights for an independent router to retain and combine provider-specific 9610 reverse-cost, customs-clearance, inbound-time and recoverability outcomes into a cross-provider compounding asset."
+    },
+    {
+      "kill": "GENERIC_RETURN_ROUTING_INCUMBENT_PRESSURE",
+      "status": "NEGATIVE",
+      "reason": "AfterShip Returns already provides return zones/routing rules, carrier accounts, real-time multi-carrier rate comparison, cheapest-carrier selection, labels and a full returns API. The general return-routing value layer is mature, leaving only the special 9610 customs-action layer—which is precisely the part whose neutral third-party callability is unproven."
+    }
+  ],
+  "evidence": [
+    {
+      "source_type": "OFFICIAL_POLICY",
+      "title": "GACC Announcement 2026 No.24",
+      "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2026/art_3db24e4b76784738a17196c585795546.html",
+      "fact": "Nationwide 9610 cross-customs-district returns are allowed from 2026-04-01; participating enterprises need dedicated operational capability and production-system data must be opened to or connected with Customs."
+    },
+    {
+      "source_type": "REAL_ROUTE",
+      "title": "Hangzhou airport first 2026 cross-customs 9610 returns",
+      "url": "https://www.hzzx.gov.cn/cshz/content/2026-04/03/content_9201257.htm",
+      "fact": "Goods originally exported through Shanghai and Shenzhen returned through Hangzhou, proving real cross-district physical execution."
+    },
+    {
+      "source_type": "REAL_ROUTE",
+      "title": "Zhejiang cross-customs returns and Yiwu TIR mode",
+      "url": "https://zjic.zj.gov.cn/ywdh/shjs/202604/t20260402_24018213.shtml",
+      "fact": "AliExpress described choosing a convenient return port; Yiwu TIR return mode had processed about 26.5k parcels and reported about 40% lower logistics cost than air."
+    },
+    {
+      "source_type": "GENERIC_LOGISTICS_API",
+      "title": "4PX Open Platform",
+      "url": "https://open.4px.com/apiInfo/introduce",
+      "fact": "4PX offers unified REST logistics APIs to merchants and software providers, and its API catalog includes return services; this proves generic logistics callability, not the exact neutral 9610 customs rail."
+    },
+    {
+      "source_type": "GENERIC_LOGISTICS_API",
+      "title": "Cainiao warehouse return APIs",
+      "url": "https://developer.alibaba.com/docs/api.htm?apiId=25326",
+      "fact": "Cainiao exposes sales-return notification and return-receipt APIs requiring authorization; this establishes structured warehouse-return exchange but not independent cross-customs 9610 route selection."
+    },
+    {
+      "source_type": "INCUMBENT_CONTROL_SURFACE",
+      "title": "AfterShip Returns",
+      "url": "https://www.aftership.com/docs/returns",
+      "fact": "AfterShip exposes return creation/approval/rejection/receipt APIs and routing rules, while current product docs support carrier setup and cheapest-carrier selection through real-time rate comparison."
+    }
+  ],
+  "retained_learning": [
+    "PHYSICAL_MULTI_PORT_AVAILABILITY_IS_NOT_THE_SAME_AS_TWO_INDEPENDENT_CALLABLE_TRANSACTION_RAILS",
+    "GENERIC_RETURN_APIS_DO_NOT_PROVE_SPECIAL_CUSTOMS_REENTRY_CALLABILITY",
+    "COST_SAVINGS_TO_SELLER_DO_NOT_PROVE_NEUTRAL_ROUTER_ECONOMICS",
+    "CUSTOMS_CONNECTED_PLATFORM_OR_ENTERPRISE_SYSTEMS_CAN_OWN_THE_DECISIVE_ACTION_GATE",
+    "MATURE_GENERIC_RETURN_ROUTING_COMPRESSES_VALUE_TO_THE_SPECIAL_CUSTOMS_LAYER_WHERE_OPEN_CALLABILITY_MUST_BE_PROVEN",
+    "FAIL_CLOSED_AFTER_PUBLIC_EVIDENCE_CEILING_IF_NONCOMPENSATORY_CALLABILITY_AND_ECONOMICS_REMAIN_UNPROVEN"
+  ],
+  "reconsider_only_if": [
+    "TWO_INDEPENDENT_PROVIDERS_PUBLISH_OR_CONTRACTUALLY_CONFIRM_MACHINE_CALLABLE_9610_CROSS_CUSTOMS_QUOTE_ORDER_STATUS_OUTCOME_RAILS",
+    "NEUTRAL_OPERATOR_HAS_PROVEN_NON_CONSULTING_ECONOMICS",
+    "CROSS_PROVIDER_OUTCOME_RETENTION_AND_REUSE_RIGHTS_ARE_PROVEN"
+  ],
+  "next_action": "REMOVE_FROM_ACTIVE_VALIDATION_AND_CONTINUE_BROAD_SCAN032; DO_NOT_REVIVE_FROM_PORT_AVAILABILITY_ALONE"
+}
