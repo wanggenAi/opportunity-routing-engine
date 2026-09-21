@@ -5,12 +5,14 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 ## Current Mission
 
 Run broad commercial discovery and retained-formation validation in parallel, without allowing candidate
-verticals or previously successful mechanisms to become hidden search priors.
+verticals, policy-document convenience or previously successful mechanisms to become hidden search priors.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
 PAST MECHANISM != FUTURE ONTOLOGY
+POLICY_VISIBILITY != COMMERCIAL_ATTRACTION
+HOT_MARKET != UNOWNED_CONTROL_EDGE
 ZERO RETENTION IS VALID
 UNKNOWN != PASS
 ```
@@ -27,20 +29,18 @@ Validation queue:
 - `ATTRACTION_SCAN_016-F1` — two callable 9610 cross-customs return rails + non-consulting economics.
 
 Discovery queue:
-- `ATTRACTION_SCAN_023 — FORMATION_DIVERSE_BROAD_REALITY_NO_BATTERY_TAX_VERTICAL_INHERITANCE`.
-
-`ATTRACTION_SCAN_022-F1` has been cheaply falsified and removed from active validation.
+- `ATTRACTION_SCAN_024 — HIGH_ENERGY_EXISTING_FLOWS_FIND_UNOWNED_MICRO_EDGES_NO_WHOLE_MARKETPLACE_OR_POLICY_PRIOR`.
 
 ## Current Phase
 
-`SCAN_022_F1_DEMOTED_READY_FOR_SCAN_023`
+`SCAN_023_COMPLETE_PENDING_PR_CI_MERGE`
 
 ## Last Verified Main
 
-`afd95e1cfd20eb3d7afd9a778fdc53b66114da32`
-— squash merge of PR #312, `Complete formation-diverse Scan 022`.
+`e6e4004845403750e2e0609500e0d878dbbf5994`
+— squash merge of PR #313, `Demote Scan 022 F1 after cheap falsification`.
 
-PR #312 CI #909 verified successful.
+PR #313 CI #911 verified successful.
 
 ## Active Issue
 
@@ -48,22 +48,22 @@ PR #312 CI #909 verified successful.
 
 ## Active Branch
 
-`feature/scan022-f1-cheap-falsification`
+`feature/scan023-voluntary-flow-scan`
 
 ## Active PR
 
-Not opened yet for Scan 022-F1 cheap falsification. Check GitHub live state first.
+Not opened yet for Scan 023. Check GitHub live state first.
 
 ## CI
 
-No PR CI run yet for the F1 falsification branch.
+No Scan 023 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_022_f1_falsification.json`
-- `docs/research/ATTRACTION_SCAN_022_F1_CHEAP_FALSIFICATION_2026-09-21.md`
-- `tests/test_attraction_scan_022_f1_falsification.py`
+- `data/research_runs/attraction_scan_023.json`
+- `docs/research/ATTRACTION_SCAN_023_2026-09-21.md`
+- `tests/test_attraction_scan_023_voluntary_flow.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -71,40 +71,50 @@ Updated:
 
 ## Completed
 
-Scan 022 merged to main with one research-only beacon and zero commercial promotions.
+Scan 023 deliberately corrected a search-method bias: policy and standards documents are unusually easy to
+retrieve and structure, but that accessibility can pull research toward commercially inert workflows.
 
-The temporary beacon `ATTRACTION_SCAN_022-F1 — BATTERY_EXCISE_TAX_EVIDENCE_RECONCILER` has now completed
-cheap falsification and is demoted with verdict:
+The scan instead started from current voluntary motion: spending, renting, traveling, searching, time-bounded
+service demand and accepted substitutes.
 
-`DEMOTED_ERP_ABSORPTION_AND_NONCOMPOUNDING_COMPLIANCE_LAYER`
-
-Decisive findings:
-- the September 2026 battery-consumption-tax obligation and statutory ledger are real and cash-linked;
-- the uncomplicated calculation core is deterministic from public rules, tax-paid documents and actual production-use ratios;
-- current enterprise tax/ERP products already join business/production, invoice and tax data and automate tax calculation/declaration;
-- a standalone entrant does not own the source-of-record position and risks recurring enterprise-specific integration;
-- difficult product-scope, mixed-technology, export and timing questions reintroduce tax judgment;
-- exact willingness to pay for a standalone battery-tax reconciler was not proven;
-- no naturally compounding operator-owned cross-customer outcome asset was proven.
+Results:
+- commercial promotions = 0;
+- retained research beacons = 0;
+- robot event rental meta-routing demoted because multi-brand rental platforms already own matching and
+  fulfillment remains engineer/transport/operator heavy;
+- inbound visitor all-in-one orchestration demoted because city/payment platforms are already aggregating
+  payment, travel, ticketing, tax-refund and multilingual local-life rails;
+- smart-glasses cross-brand try-before-buy networking demoted because brands and optical retailers are
+  internalizing physical trial and fitting;
+- event-day microservice routing demoted because ticket-root/local-commerce rails already aggregate discovery
+  while remaining services are human-delivered;
+- home-care trust/capacity routing demoted because public/community/credit rails are expanding while core value
+  remains recurring human care;
+- FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
 
-The durable lesson is:
+The important distinction is:
 
 ```text
-MANDATORY + CASH-LINKED + NEW
+IS THE FLOW HOT?
 !=
-STANDALONE ATTRACTIVE BUSINESS
-
-PUBLIC DETERMINISTIC RULE
-+ CUSTOMER-OWNED DATA
-+ INCUMBENT SOURCE-OF-RECORD SYSTEM
-→ OFTEN A FEATURE, NOT AN OPERATOR-CONTROLLED FORMATION
+IS THERE AN UNOWNED CONTROL EDGE?
 ```
 
-For this formation, simple work is compressed by ERP/tax software, spreadsheets and generic agents while
-ambiguous cases move back toward internal tax teams or professional advisers. The proposed middle layer lacks
-a distinct durable control asset.
+High voluntary energy is now preferred as a discovery seed, but whole-marketplace aggregation should be killed
+early when incumbents already own discovery, matching and transaction.
+
+Scan 024 should stay inside high-energy flows but search one level deeper:
+
+```text
+HIGH-ENERGY EXISTING FLOW
+→ OBSERVE REPEATED LEAKAGE / DELAY / UNCERTAINTY
+→ FIND ONE NARROW UNOWNED MICRO-EDGE
+→ MACHINE-RESOLVABLE STATE
+→ CALL EXISTING EXECUTION RAILS
+→ DO NOT REBUILD THE WHOLE MARKETPLACE
+```
 
 ## Blockers
 
@@ -112,11 +122,8 @@ Validation:
 - Scan 015-F1 still awaits compatible written provider confirmation; the latest Gmail check found no new provider reply.
 - Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return rails and non-consulting economics.
 
-Discovery:
-- Scan 023 has not yet started.
-
 Engineering:
-- F1 demotion branch still needs PR, CI, merge and main verification.
+- Scan 023 branch needs PR, CI, merge and main verification.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -124,23 +131,20 @@ Commercial:
 
 ## Next Action
 
-Complete the Scan 022-F1 demotion PR / CI / merge, then start Scan 023 from broad current reality.
+Complete Scan 023 PR / CI / merge, then start Scan 024 from high-energy existing flows and search for narrow,
+machine-resolvable, unowned micro-edges.
 
-Scan 023 must not inherit:
-- battery tax;
-- overdue-payment/legal-tech;
-- used-device recycling;
-- 9610 returns;
-- routing as a required mechanism.
+Do not seed Scan 024 with a current or recently killed vertical, and do not use policy change or "build a
+marketplace" as the default search lens.
 
 ## Do Not Repeat
 
-- Do not revive Scan 022-F1 because the underlying tax is mandatory or cash-linked.
-- Do not confuse absence of an exact battery-tax product page with absence of incumbent control.
-- Do not treat public tax rules plus customer exports as a moat.
-- Do not turn customer-specific ERP/MES mapping into recurring founder implementation labor.
-- Do not turn battery tax into the Scan 023 ontology.
-- Do not weaken founder-independence, evidence, payer, operator-control or actionability floors.
+- Do not confuse searchable policy structure with commercial attraction.
+- Do not promote an entire hot market as an opportunity.
+- Do not build another marketplace where incumbent discovery/matching/transaction rails already exist.
+- Do not accept recurring human service supply, vetting, setup or delivery as founder-independent execution.
+- Do not let robot rental, inbound tourism, smart glasses, event commerce or home care become Scan 024 priors.
+- Do not weaken evidence, payer, operator-control, discoverability or actionability floors.
 
 ## Guardrails
 
