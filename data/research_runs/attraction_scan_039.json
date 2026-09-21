@@ -1,0 +1,123 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_039",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_REQUIRE_STRUCTURAL_CONTROL_RIGHT_DATA_RIGHT_OR_CROSS_SYSTEM_ACTION_GAP_AND_OPERATOR_ACCESSIBLE_RIGHTS_OR_DATA_POSITION_NOT_ALREADY_BUNDLED_BY_INCUMBENT_NETWORK_PLATFORM_REGULATED_ACTOR_OR_ENDPOINT_OWNER_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "SAAS_AND_CLOUD_SLA_CREDIT_RECOVERY",
+      "chinese_title": "SaaS与云服务SLA违约积分自动追回",
+      "evidence_class": "DIRECT_RECOVERY_VALUE_OPERATOR_ACCESSIBLE_CONTRACT_LOG_AND_ACCOUNT_DATA",
+      "structural_gap": "Providers commonly require customers to prove downtime, calculate eligibility and file within a deadline instead of applying credits automatically.",
+      "operator_accessibility": "Customer can authorize contract ingestion, telemetry/status evidence and support-account claim submission.",
+      "incumbent_preflight": "EXACT_MULTI_VENDOR_SLA_MONITORING_AND_AUTO_CLAIM_PRODUCT_FOUND",
+      "verdict": "DEMOTED_EXACT_RECOVERY_PLATFORM_ALREADY_OCCUPIES_OPERATOR_EDGE",
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/azure/reliability/concept-service-level-agreements",
+        "https://aws.amazon.com/security-hub/sla/",
+        "https://cloud.google.com/terms/backupdr/sla",
+        "https://complaya.ai/"
+      ]
+    },
+    {
+      "title": "SAAS_CONTRACT_INVOICE_OVERBILLING_RECOVERY",
+      "chinese_title": "SaaS合同与账单超收追回",
+      "evidence_class": "DIRECT_CONTINGENCY_RECOVERY_AND_CUSTOMER_OWNED_CONTRACT_INVOICE_DATA",
+      "structural_gap": "Signed order forms and negotiated caps live separately from recurring invoices, allowing seat, tier, uplift and bundled-line discrepancies.",
+      "operator_accessibility": "Customer can upload contracts and invoices and authorize vendor disputes.",
+      "incumbent_preflight": "MULTIPLE_EXACT_CONTINGENCY_AUDIT_AND_RECOVERY_PRODUCTS_FOUND",
+      "verdict": "DEMOTED_EXACT_SAAS_INVOICE_RECOVERY_CATEGORY",
+      "source_urls": [
+        "https://saasspendtrack.com/",
+        "https://www.trilatic.com/invoice-audit",
+        "https://www.clawbacklabs.com/"
+      ]
+    },
+    {
+      "title": "PARCEL_INVOICE_REFUND_RECOVERY",
+      "chinese_title": "快递账单差错与服务失败退款追回",
+      "evidence_class": "DIRECT_CONTINGENCY_RECOVERY_AND_ACCOUNT_AUTHORIZATION",
+      "structural_gap": "Carrier contracts, shipment records and invoice surcharges must be reconciled line by line and claims filed before windows close.",
+      "operator_accessibility": "Shippers can connect carrier billing accounts and authorize claim filing.",
+      "incumbent_preflight": "COMMODITIZED_MULTI_VENDOR_PARCEL_AUDIT_RECOVERY_MARKET_FOUND",
+      "verdict": "DEMOTED_COMMODITIZED_EXACT_RECOVERY_CATEGORY",
+      "source_urls": [
+        "https://www.auditshipment.com/pricing.html",
+        "https://www.shipware.com/solutions/fedex-parcel-freight-audit/",
+        "https://www.parcelrecovery.com/"
+      ]
+    },
+    {
+      "title": "COMMERCIAL_LEASE_CAM_OVERCHARGE_RECOVERY",
+      "chinese_title": "商业租赁CAM运营费用超收审计追回",
+      "evidence_class": "DIRECT_RECOVERY_VALUE_LEASE_AUDIT_RIGHTS_AND_CUSTOMER_DOCUMENT_ACCESS",
+      "structural_gap": "Lease-specific caps, exclusions, gross-up rules and pro-rata formulas must be tested against landlord CAM statements and supporting records before audit windows expire.",
+      "operator_accessibility": "Tenant audit rights and tenant-owned lease/statement data can authorize an auditor or software workflow.",
+      "incumbent_preflight": "EXACT_DETERMINISTIC_CAM_AUDIT_PRODUCTS_AND_SPECIALIST_AUDIT_SERVICES_FOUND",
+      "verdict": "DEMOTED_EXACT_CAM_AUDIT_AND_RECOVERY_PRODUCTS",
+      "source_urls": [
+        "https://jorora.com/real-estate/lease-audit",
+        "https://www.camaudit.io/partners/resources/accounting-firms/cam-reconciliation-audit-procedures-cpa",
+        "https://www.capveri.com/resources/commercial-lease-expense-audit-guide"
+      ]
+    },
+    {
+      "title": "CPG_RETAIL_DEDUCTION_RECOVERY",
+      "chinese_title": "消费品零售扣款与短付追回",
+      "evidence_class": "DIRECT_RECOVERY_VALUE_AND_CUSTOMER_CONTROLLED_REMITTANCE_CONTRACT_EVIDENCE",
+      "structural_gap": "Retailer deductions, remittance codes, agreements, POs, PODs and portal evidence are fragmented and dispute windows expire.",
+      "operator_accessibility": "Supplier controls remittance/contract evidence and can authorize retailer-portal disputes.",
+      "incumbent_preflight": "DENSE_EXACT_AI_DEDUCTION_CLASSIFICATION_DISPUTE_AND_RECOVERY_PRODUCTS_FOUND",
+      "verdict": "DEMOTED_DENSE_EXACT_RETAIL_DEDUCTION_RECOVERY_CATEGORY",
+      "source_urls": [
+        "https://www.tryglimpse.com/",
+        "https://www.finortal.com/",
+        "https://www.overdeduct.com/",
+        "https://www.klaimback.com/retail-chargeback-software"
+      ]
+    },
+    {
+      "title": "AMAZON_FBA_REIMBURSEMENT_RECOVERY",
+      "chinese_title": "Amazon FBA遗漏赔付追回",
+      "evidence_class": "DIRECT_RECOVERY_VALUE_AND_SELLER_ACCOUNT_RIGHTS",
+      "structural_gap": "Some FBA reimbursement classes remain deadline-driven and require seller evidence even after Amazon expanded proactive reimbursement.",
+      "operator_accessibility": "Seller can authorize account/report access and submit reimbursement claims.",
+      "incumbent_preflight": "PLATFORM_NATIVE_AUTOMATION_PLUS_EXACT_SELLER_RECOVERY_PRODUCTS_FOUND",
+      "verdict": "DEMOTED_PLATFORM_NATIVE_AUTOMATION_AND_EXACT_RECOVERY_PRODUCTS",
+      "source_urls": [
+        "https://sellercentral.amazon.com/seller-forums/discussions/t/81c3235d-4c44-47ba-96c5-883cecab3244",
+        "https://sellercentral.amazon.com/seller-forums/discussions/t/d8f9a56c-882f-437c-ad34-cccd11cfa465",
+        "https://www.sellerforge.ai/blog/amazon-profitability-audit-fee-leakage"
+      ]
+    }
+  ],
+  "hard_floor_demotions": [
+    "OPERATOR_ACCESSIBLE_RIGHTS_DO_NOT_IMPLY_WHITE_SPACE_WHEN_THE_RECOVERY_LOOP_IS_ALREADY_PRODUCTIZED",
+    "CONTINGENCY_PRICING_IS_STRONG_PAYER_EVIDENCE_BUT_ALSO_SIGNALS_A_MATURE_RECOVERY_CATEGORY",
+    "CUSTOMER_OWNED_DOCUMENTS_AND_ACCOUNT_PERMISSIONS_ARE_REPLICABLE_INPUTS_NOT_AUTOMATIC_MOATS",
+    "EXACT_RECOVERY_PRODUCTS_KILL_WHEN_THEY_ALREADY_MONITOR_DETECT_FILE_AND_TRACK_TO_CREDIT",
+    "PLATFORM_NATIVE_AUTOMATION_CAN_SHRINK_THE_RESIDUAL_CLAIM_POOL_EVEN_WHEN_MANUAL_EXCEPTIONS_REMAIN"
+  ],
+  "scan_learnings": [
+    "SCAN_039_CONFIRMED_THE_OPERATOR_ACCESSIBILITY_GATE_BUT_FOUND_RECOVERY_AUTOMATION_CROWDED",
+    "STRUCTURAL_GAP_PLUS_CUSTOMER_AUTHORIZATION_OFTEN_CONVERGES_TO_A_CONTINGENCY_RECOVERY_CATEGORY",
+    "THE_NEXT_SEARCH_SHOULD_PRIORITIZE_NEWLY_CREATED_OR_RECENTLY_EXPANDED_MONETARY_ENTITLEMENTS_BEFORE_A_STABLE_RECOVERY_CATEGORY_FORMS",
+    "RECENT_RULE_POLICY_OR_CONTRACT_CHANGES_CAN_CREATE_TEMPORARY_WHITE_SPACE_WHERE_PUBLIC_RULES_PLUS_CUSTOMER_DATA_ARE_EXECUTABLE",
+    "SCAN_040_SHOULD_REQUIRE_A_RECENT_ENTITLEMENT_OR_RULE_CHANGE_WITH_OPERATOR_ACCESSIBLE_INPUTS_AND_NO_EXACT_END_TO_END_INCUMBENT",
+    "SCAN_039_ZERO_RETENTION_AFTER_RECOVERY_CATEGORY_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_040",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_RECENTLY_CREATED_OR_EXPANDED_MONETARY_ENTITLEMENT_RULE_POLICY_OR_CONTRACT_CHANGE_DIRECT_PAYER_OR_RECOVERY_VALUE_DIGITAL_OR_DELEGATABLE_DELIVERY_OPERATOR_ACCESSIBLE_CUSTOMER_OR_PUBLIC_DATA_EXACT_END_TO_END_INCUMBENT_PREFLIGHT_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "next_action": "TRIGGER_JEV_ON_SCAN039_THEN_FOLLOW_TYPED_CONTINUATION_DIRECTIVE",
+  "first_external_value_flow": "NOT_PROVEN"
+}

@@ -60,10 +60,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_038",
+  "last_completed_scan_id": "ATTRACTION_SCAN_039",
   "last_resolved_formation_id": "ATTRACTION_SCAN_016-F1",
-  "next_scan_id": "ATTRACTION_SCAN_039",
-  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_SCAN039_OPERATOR_ACCESSIBLE_RIGHTS_SEARCH",
+  "next_scan_id": "ATTRACTION_SCAN_040",
+  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_SCAN040_RECENT_ENTITLEMENT_CHANGE_SEARCH",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -365,7 +365,11 @@
     "ATTRACTION_SCAN_038 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
     "Scan 038 required a genuine structural control-right, data-right or cross-system action gap, then tested whether an independent operator could actually access and compound the missing right/data position.",
     "Agentic-commerce interoperability, privacy erasure propagation, supplier bank-change verification, D&D disputes, cross-border duty/VAT recovery and dealer/OEM warranty reimbursement all had real structural gaps, but the key rights were already controlled or bundled by standards/control planes, endpoint owners, trust networks, regulated specialists or OEM workflows.",
-    "Scan 039 must require structural gap plus operator-accessible rights/data position not already bundled by an incumbent control plane."
+    "Scan 039 must require structural gap plus operator-accessible rights/data position not already bundled by an incumbent control plane.",
+    "ATTRACTION_SCAN_039 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
+    "Scan 039 tested recovery formations where customers can authorize an independent operator to use their contracts, invoices, logs, platform accounts or audit rights.",
+    "SaaS/cloud SLA credits, SaaS invoice overbilling, parcel refunds, CAM overcharges, CPG deductions and FBA reimbursement all had direct recovery economics but exact recovery products already occupied the end-to-end loop.",
+    "Scan 040 should look earlier in the lifecycle for recently created or expanded monetary entitlements where public rules plus customer-authorized data are executable before a mature recovery category forms."
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -508,9 +512,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_039",
+      "next_scan_id": "ATTRACTION_SCAN_040",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_REQUIRE_STRUCTURAL_CONTROL_RIGHT_DATA_RIGHT_OR_CROSS_SYSTEM_ACTION_GAP_AND_OPERATOR_ACCESSIBLE_RIGHTS_OR_DATA_POSITION_NOT_ALREADY_BUNDLED_BY_INCUMBENT_NETWORK_PLATFORM_REGULATED_ACTOR_OR_ENDPOINT_OWNER_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM"
+      "search_boundary": "BROAD_CURRENT_REALITY_RECENTLY_CREATED_OR_EXPANDED_MONETARY_ENTITLEMENT_RULE_POLICY_OR_CONTRACT_CHANGE_DIRECT_PAYER_OR_RECOVERY_VALUE_DIGITAL_OR_DELEGATABLE_DELIVERY_OPERATOR_ACCESSIBLE_CUSTOMER_OR_PUBLIC_DATA_EXACT_END_TO_END_INCUMBENT_PREFLIGHT_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM"
     }
   },
   "system_learnings": [
@@ -575,6 +579,10 @@
     "STRUCTURAL_GAP_IS_NECESSARY_BUT_NOT_SUFFICIENT",
     "OPERATOR_ACCESSIBILITY_OF_THE_MISSING_RIGHT_OR_DATA_POSITION_IS_A_SEPARATE_HARD_GATE",
     "PLATFORM_NETWORK_REGULATOR_OR_ENDPOINT_CAPTIVE_RIGHTS_DO_NOT_CREATE_AN_INDEPENDENT_OPERATOR_ASSET",
-    "SCAN039_PRIORITIZES_STRUCTURAL_GAP_PLUS_ACCESSIBLE_RIGHTS"
+    "SCAN039_PRIORITIZES_STRUCTURAL_GAP_PLUS_ACCESSIBLE_RIGHTS",
+    "OPERATOR_ACCESSIBLE_RIGHTS_ARE_NECESSARY_NOT_SUFFICIENT",
+    "DIRECT_CONTINGENCY_RECOVERY_ECONOMICS_CAN_SIGNAL_BOTH_ATTRACTION_AND_CATEGORY_MATURITY",
+    "CUSTOMER_AUTHORIZED_DOCUMENTS_AND_ACCOUNTS_ARE_REPLICABLE_INPUTS_NOT_AUTOMATIC_MOATS",
+    "RECENT_ENTITLEMENT_OR_RULE_CHANGE_IS_THE_NEXT_TIMING_EDGE"
   ]
 }
