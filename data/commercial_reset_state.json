@@ -60,10 +60,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_035",
+  "last_completed_scan_id": "ATTRACTION_SCAN_036",
   "last_resolved_formation_id": "ATTRACTION_SCAN_016-F1",
-  "next_scan_id": "ATTRACTION_SCAN_036",
-  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_INCUMBENT_PREFLIGHT_SCAN036",
+  "next_scan_id": "ATTRACTION_SCAN_037",
+  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_SCAN037_POST_INCUMBENT_LEAKAGE_SEARCH",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -353,7 +353,11 @@
     "EXACT_INCUMBENT_SEARCH_SHOULD_MOVE_TO_THE_START_OF_DEEP_RESEARCH",
     "PLATFORM_NATIVE_RIGHTS_OR_PUBLISHING_CONTROLS_ARE_STRONGER_THAN_A_THIN_THIRD_PARTY_ASSISTANT",
     "AIGC_RIGHTS_PROOF_IS_STRONGEST_WHEN_ISSUED_BY_THE_GENERATION_OR_ASSET_PLATFORM_ITSELF",
-    "SCAN_035_ZERO_RETENTION_AFTER_DIGITAL_PAYER_AND_INCUMBENT_FALSIFICATION"
+    "SCAN_035_ZERO_RETENTION_AFTER_DIGITAL_PAYER_AND_INCUMBENT_FALSIFICATION",
+    "ATTRACTION_SCAN_036 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
+    "Scan 036 moved exact incumbent preflight ahead of expensive causal descent and killed all six broad formations before deep research.",
+    "AI usage-spend control, EU AI Act compliance, DPP/PPWR, EV home-charging reimbursement, subcontractor COI tracking and API deprecation monitoring all had exact current control surfaces.",
+    "Incumbent presence was treated as decisive only where the incumbent resolves the same control loop; Scan 037 must look for observed residual leakage or an unowned action edge after incumbent preflight."
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -496,9 +500,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_036",
+      "next_scan_id": "ATTRACTION_SCAN_037",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_BEFORE_DEEP_RESEARCH_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM"
+      "search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_THEN_REQUIRE_OBSERVED_RESIDUAL_LEAKAGE_OR_UNOWNED_ACTION_EDGE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM"
     }
   },
   "system_learnings": [
@@ -551,6 +555,10 @@
     "DIRECT_PAYER_EVIDENCE_IS_A_RESEARCH_PRIORITY_NOT_A_PROMOTION_OVERRIDE",
     "DELIVERY_SHAPE_CAN_BE_PREFILTERED_WITHOUT_TURNING_IT_INTO_A_REQUIRED_BUSINESS_MECHANISM",
     "EXACT_INCUMBENT_PREFLIGHT_SHOULD_PRECEDE_EXPENSIVE_CAUSAL_DESCENT",
-    "RESEARCH_ORDER_CAN_CHANGE_WITHOUT_TURNING_THE_CHANGE_INTO_A_PRODUCT_ONTOLOGY"
+    "RESEARCH_ORDER_CAN_CHANGE_WITHOUT_TURNING_THE_CHANGE_INTO_A_PRODUCT_ONTOLOGY",
+    "EARLY_EXACT_INCUMBENT_PREFLIGHT_CAN_SAVE_DEEP_RESEARCH_WITHOUT_WEAKENING_TRUTH_GATES",
+    "NEW_REGULATION_OR_NEW_AI_BILLING_DOES_NOT_IMPLY_WHITE_SPACE_WHEN_CONTROL_SURFACES_SHIP_SIMULTANEOUSLY",
+    "INCUMBENT_ONLY_KILLS_WHEN_IT_RESOLVES_THE_RELEVANT_VALUE_FLOW",
+    "POST_INCUMBENT_RESIDUAL_LEAKAGE_IS_THE_NEXT_DISCOVERY_EVIDENCE_PRIORITY"
   ]
 }
