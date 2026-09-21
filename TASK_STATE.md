@@ -31,8 +31,8 @@ surface absorption pressure.
 Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
-Research queue:
-- `ATTRACTION_SCAN_046-F1` — MCP 2026-07-28 spec migration/conformance; cheap falsify payer incidence, machine-first standardization, SDK/scanner/platform absorption, founder-free inbound and normalized delegated margin.
+Resolved this task:
+- `ATTRACTION_SCAN_046-F1` — DEMOTED after cheap falsification: real paid migration demand exists, but specialist supply formed quickly, the machine-checkable surface is becoming free/tooling, the difficult remainder is bespoke senior engineering, and SDK/gateway absorption is fast.
 
 Discovery queue:
 - `ATTRACTION_SCAN_047 — BROAD_CURRENT_REALITY_OBSERVED_PAID_OR_CONTRACTED_MICROFLOW_SPARSE_SPECIALIZED_SUPPLY_OR_EARLY_CATEGORY_NO_MCP_SPEC_MIGRATION_OR_ACTIVE_VERTICAL_INHERITANCE_REAPPLY_ALL_EXISTING_HARD_FLOORS`.
@@ -41,7 +41,7 @@ Scan 046 retained one research-only formation and made zero commercial promotion
 
 ## Current Phase
 
-`SCAN_046_COMPLETE_AWAITING_JEV_CONTINUATION`
+`SCAN_046_F1_DEMOTED_AWAITING_UPDATED_PR_CI_JEV`
 
 ## Last Verified Main
 
@@ -60,9 +60,12 @@ PR #343 CI run `35578935602` and live Jev run `35578935501` completed successful
 
 ## Active PR
 
-Live GitHub PR state is authoritative. This checkpoint records the completed Scan 046 branch before consuming its caused Jev continuation directive.
+`#344` — `Retain MCP migration as research-only after Scan 046` at initial creation; live GitHub metadata wins. The PR now also contains the Jev-triggered F1 falsification and the durable-resolved-state continuation fix, so its title/body should be updated before merge.
 
 ## CI
+
+- Initial PR #344 CI run `35596456983` completed `success`.
+- Initial PR #344 Jev run `35596456992` completed `success`; 5 authoritative closures routed `NO_FURTHER_RESEARCH`, the one then-open F1 routed `CAUSAL_DESCENT`, and continuation returned `EXECUTE_RESEARCH_QUEUE`. That directive directly caused the F1 cheap falsification now persisted.
 
 - PR #331 repository CI run `35564919130` completed `success`.
 - Jev Phase 1 run `35564919132` completed `success`; contracts and live-shadow both passed.
@@ -76,9 +79,14 @@ New:
 - `data/research_runs/attraction_scan_046.json`
 - `docs/research/ATTRACTION_SCAN_046_2026-09-21.md`
 - `tests/test_attraction_scan_046_paid_microflow_gate.py`
+- `data/research_runs/attraction_scan_046_f1_falsification.json`
+- `docs/research/ATTRACTION_SCAN_046_F1_CHEAP_FALSIFICATION_2026-09-21.md`
+- `tests/test_attraction_scan_046_f1_falsification.py`
 
 Updated:
 - `data/commercial_reset_state.json`
+- `src/jev_research_advisory.py`
+- `tests/test_jev_research_advisory.py`
 - `TASK_STATE.md`
 
 ## Completed
@@ -100,16 +108,18 @@ Results:
 ## Current Findings
 
 ```text
-OBSERVED MONEY MOTION
+REAL PAID BREAKING-CHANGE WORK
 +
-RECENT EXTERNAL BREAKING TRIGGER
-+
-PARTLY MACHINE-VERIFIABLE ACCEPTANCE
+EARLY CATEGORY
 !=
-PROVEN FOUNDER-INDEPENDENT BUSINESS
+SPARSE SUPPLY / MACHINE-FIRST BUSINESS / OPERATOR CONTROL
 ```
 
-Scan 046 tested six current paid micro-flows. Shopify GEO, EU AI Act governance, accessibility audits, agentic-commerce enablement and generic n8n automation were demoted at hard floors. `ATTRACTION_SCAN_046-F1` remains research-only: MCP 2026-07-28 migration/conformance has current paid maintenance evidence and newly productized fixed-scope migration offers, but the project must still prove that enough of the work can be standardized and machine-verified to avoid recurring senior-expert delivery and that the paid layer will not be absorbed by official SDKs, free scanners, gateways or platform vendors.
+Scan 046 initially retained `ATTRACTION_SCAN_046-F1` because MCP 2026-07-28 produced real paid SDK-maintenance work and newly productized migration offers. The first Jev pass correctly routed that one open record to `CAUSAL_DESCENT` while closing the other five.
+
+Cheap falsification then closed F1. The official deprecation window and dual-era negotiation reduce forced urgency; multiple specialist migration/audit providers already exist; free probes and official codemods compress the machine-checkable layer; customer-specific session state, OAuth and deployment behavior remain bespoke engineering; Cloudflare/AWS/SDK support shows rapid platform absorption; and no distinct compounding operator asset or founder-free inbound has been proven.
+
+The Jev state builder was also hardened so a later `resolved_research_formations` verdict in durable commercial state overrides the older discovery-scan verdict. This prevents autonomous continuation from reopening a formation already closed by a separate falsification stage.
 
 ## Validation Status
 
@@ -131,8 +141,8 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 046 is complete with one research-only formation and zero commercial promotions.
-- Scan 046-F1 requires cheap falsification of real buyer incidence, machine-first scope standardization, feature/platform absorption, founder-free inbound and normalized delegated margin.
+- Scan 046 is complete with zero surviving new formations and zero commercial promotions after F1 falsification.
+- Scan 046-F1 is resolved/demoted and removed from active research.
 - Scan 047 remains broad and must not inherit MCP/spec-migration terms as a required search prior.
 
 Commercial:
@@ -141,7 +151,7 @@ Commercial:
 
 ## Next Action
 
-Persist Scan 046 in PR form, consume the caused Jev continuation directive, and follow it automatically. If Jev routes unresolved research, cheap-falsify Scan 046-F1 before promotion; if it allows broader continuation in parallel, start Scan 047 without inheriting MCP migration as the ontology.
+Run the updated PR #344 through CI and Jev. The durable-resolved-state fix must make Scan 046-F1 authoritative `NO_FURTHER_RESEARCH` even if Jev's raw model still prefers causal descent. If the resulting continuation directive is `ADVANCE_TO_NEXT_SCAN`, merge #344, verify main, and start Scan 047 automatically without inheriting MCP migration as the ontology.
 
 ## Do Not Repeat
 
