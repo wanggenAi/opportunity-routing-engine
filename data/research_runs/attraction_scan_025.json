@@ -1,0 +1,94 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_025",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "HIGH_ENERGY_CONSUMER_FLOW_MICRO_EDGES_PLATFORM_CONTROL_FALSIFICATION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1",
+    "ATTRACTION_SCAN_016-F1"
+  ],
+  "reality_signals": [
+    "E_COMMERCE_REFUND_FAKE_SHIPPING_AND_CUSTOMER_SERVICE_COMPLAINTS_REMAIN_HIGH_VOLUME",
+    "SHARED_BIKE_OVERCHARGE_COMPLAINTS_SHOW_REPEATED_SMALL_VALUE_LEAKAGE",
+    "INSTANT_RETAIL_HAS_RICH_STOCK_ORDER_ADJUSTMENT_AND_AFTERSALES_STATE",
+    "PET_MEDICAL_SPEND_AND_PRICE_TRUST_FRICTION_REMAIN_HIGH",
+    "COLLECTIBLES_AUTHENTICITY_LOGISTICS_AND_PRICE_DISCOVERY_HAVE_STRONG_USER_MOTION",
+    "HOME_REPAIR_USERS_PAY_FOR_ONSITE_DIAGNOSIS_BUT_FINAL_REPAIR_REMAINS_HUMAN_JUDGMENT_HEAVY"
+  ],
+  "examined_formations": [
+    {
+      "title": "INSTANT_RETAIL_STOCKOUT_AND_AFTERSALES_MICRO_ORCHESTRATOR",
+      "chinese_title": "即时零售缺货与售后微编排",
+      "mechanism_class": "ORDER_EXCEPTION_COMPRESSION",
+      "attraction_summary": "Stockouts, item adjustments, cancellation and refund states are frequent and machine-readable.",
+      "verdict": "DEMOTED_PLATFORM_OWNS_ORDER_STOCK_AND_REFUND_ACTION_RAIL",
+      "evidence_summary": "JD and Douyin already expose store stock, stockout, order adjustment and aftersales/refund APIs. The transaction platform owns the customer order and the executable refund/adjustment action loop, leaving a third party mostly as merchant tooling rather than an unowned commercial control edge."
+    },
+    {
+      "title": "HOME_REPAIR_PRICE_AND_DIAGNOSIS_GUARD",
+      "chinese_title": "上门维修价格与诊断防坑助手",
+      "mechanism_class": "TRUST_AND_PRICE_PROTECTION",
+      "attraction_summary": "Users pay for diagnosis and repeatedly fear opaque charges, while some platform prices are published.",
+      "verdict": "DEMOTED_PLATFORM_GUARANTEE_AND_RECURRING_HUMAN_DIAGNOSIS",
+      "evidence_summary": "JD already provides paid on-site diagnosis, published category fee references, order/progress tracking and overcharge compensation. Unknown model/fault combinations still require engineer on-site diagnosis and negotiated repair/material pricing, so the residual high-value work is recurring human expert delivery."
+    },
+    {
+      "title": "PET_CLINIC_PRICE_AND_TRUST_MICRO_EDGE",
+      "chinese_title": "宠物医院价格与可信选择微边",
+      "mechanism_class": "TRUST_DATA_DECISION_EDGE",
+      "attraction_summary": "Pet owners actively seek lower-uncertainty hospital choice and treatment cost before visiting.",
+      "verdict": "DEMOTED_EXACT_PROPRIETARY_DATA_INCUMBENT_AND_HUMAN_MEDICAL_DELIVERY",
+      "evidence_summary": "Ant Insurance already uses more than five million pet-insurance claims and 28 dimensions to dynamically evaluate hospitals and publish treatment-cost information. RuiPai and Tmall are also standardizing priced service booking. The most valuable decision edge is already occupied by a proprietary claims-data asset, while treatment itself remains professional human delivery."
+    },
+    {
+      "title": "COLLECTIBLES_PRESALE_AUTHENTICITY_AND_FULFILLMENT_GUARD",
+      "chinese_title": "潮玩谷子预售真伪与履约保障微边",
+      "mechanism_class": "TRUST_AND_FULFILLMENT_EVIDENCE",
+      "attraction_summary": "Non-delivery, authenticity, logistics and resale-price uncertainty create visible user pain in collectibles.",
+      "verdict": "DEMOTED_TRANSACTION_PLATFORM_WAREHOUSE_AUTHENTICATION_AND_PRICE_DATA_INTERNALIZATION",
+      "evidence_summary": "Xianyu Yuligou already combines official authentication, platform warehouse fulfillment, full-process video evidence, dynamic pricing and historical transaction data. A third-party layer lacks the physical custody and transaction rights that make the trust mechanism valuable."
+    },
+    {
+      "title": "SHARED_BIKE_OVERCHARGE_REFUND_EDGE",
+      "chinese_title": "共享单车异常收费退款微边",
+      "mechanism_class": "SMALL_VALUE_LEAK_RECOVERY",
+      "attraction_summary": "August complaint data showed more than 7,000 shared-bike complaints and roughly three quarters involved overcharging.",
+      "verdict": "DEMOTED_PLATFORM_BILLING_RIGHTS_AND_GENERIC_COMPLAINT_ASSISTANCE",
+      "evidence_summary": "The leakage is frequent but small-value, and the bike platform controls geofence/billing records and refund action. Without platform cooperation, a third party can only help draft or organize a complaint, which is generic-agent substitutable."
+    },
+    {
+      "title": "GENERIC_ECOMMERCE_REFUND_AND_EVIDENCE_ASSISTANT",
+      "chinese_title": "通用电商退款证据助手",
+      "mechanism_class": "CONSUMER_DISPUTE_ASSISTANCE",
+      "attraction_summary": "Refund rejection and fake shipping remain high-volume complaints.",
+      "verdict": "DEMOTED_PLATFORM_API_CONTROL_AND_GENERIC_AGENT_SUBSTITUTABILITY",
+      "evidence_summary": "Major commerce platforms already expose structured refund/return workflows and APIs to merchants/ISVs. A consumer-side third party lacks adjudication/refund rights, and evidence summarization or complaint drafting is generic-agent substitutable."
+    }
+  ],
+  "hard_floor_demotions": [
+    "CONSUMER_PLATFORM_OWNS_ORDER_BILLING_REFUND_AND_FULFILLMENT_ACTION_LOOP",
+    "PROPRIETARY_PLATFORM_DATA_CAN_OCCUPY_THE_HIGHEST_VALUE_TRUST_EDGE",
+    "HUMAN_DIAGNOSIS_OR_CARE_REMAINS_NON_FOUNDER_INDEPENDENT_DELIVERY",
+    "GENERIC_COMPLAINT_OR_EVIDENCE_ASSISTANCE_IS_AGENT_SUBSTITUTABLE",
+    "PHYSICAL_CUSTODY_AUTHENTICATION_AND_WAREHOUSE_RIGHTS_CANNOT_BE_RECREATED_BY_THIN_SOFTWARE"
+  ],
+  "scan_learnings": [
+    "HIGH_COMPLAINT_VOLUME_DOES_NOT_CREATE_WHITE_SPACE_WHEN_THE_TRANSACTION_PLATFORM_OWNS_THE_REMEDY",
+    "THE_BEST_CONSUMER_TRUST_EDGE_OFTEN_REQUIRES_PROPRIETARY_CLAIMS_TRANSACTION_OR_CUSTODY_DATA",
+    "PLATFORM_OPEN_APIS_CAN_MAKE_STATE_MACHINE_READABLE_WITHOUT_GIVING_A_THIRD_PARTY_CONTROL",
+    "SMALL_VALUE_LEAKAGE_IS_WEAK_WHEN_ACTION_RIGHTS_REMAIN_PLATFORM_OWNED",
+    "CONSUMER_EVIDENCE_ASSISTANTS_COMMODITIZE_WHEN_THE_OUTPUT_IS_ONLY_A_COMPLAINT_OR_SUMMARY",
+    "SCAN_025_ZERO_RETENTION_AFTER_PLATFORM_CONTROL_AND_HUMAN_DELIVERY_FALSIFICATION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_026",
+  "next_search_boundary": "HIGH_ENERGY_EXISTING_BUSINESS_FLOWS_OUTSIDE_DOMINANT_TRANSACTION_PLATFORMS_FIND_UNOWNED_MACHINE_STATE",
+  "next_action": "START_SCAN026_FROM_ACTIVE_B2B_SPEND_AND_OPERATIONAL_LOSS_OUTSIDE_DOMINANT_TRANSACTION_PLATFORMS",
+  "first_external_value_flow": "NOT_PROVEN"
+}
