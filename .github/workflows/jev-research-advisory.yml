@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       scan_path:
-        description: 'Persisted attraction scan JSON to inspect'
+        description: "Persisted attraction scan JSON to inspect, or 'auto' for current commercial state"
         required: true
-        default: 'data/research_runs/attraction_scan_035.json'
+        default: 'auto'
         type: string
       max_entities:
         description: 'Maximum formations for the bounded Jev advisory'
