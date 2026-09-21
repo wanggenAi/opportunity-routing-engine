@@ -44,14 +44,14 @@ ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PR
 
 ## Current Phase
 
-`SCAN_066_PR_OPEN_AWAITING_CI_JEV_CONTINUATION`
+`SCAN_067_ACTIVE_TWO_CONFIRMED_EXTERNAL_MONEY_MOTIONS_SEARCH`
 
 ## Last Verified Main
 
-`0f206916fdf80d57adacd71986a21415ceea7f45`
-— squash merge of PR #363, `Close productized deterministic double-spend traps in Scan 065`.
+`52b479e76339db190d6c6161e48ac462497b8810`
+— squash merge of PR #364, `Raise buyer evidence to confirmed money motion in Scan 066`.
 
-PR #363 repository CI run `35619670625` completed `success`. Live Jev run `35619670633` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #364 repository CI run `35620438463` completed `success`. Live Jev run `35620438374` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -59,11 +59,11 @@ PR #363 repository CI run `35619670625` completed `success`. Live Jev run `35619
 
 ## Active Branch
 
-`research/attraction-scan-066`.
+`research/attraction-scan-067`.
 
 ## Active PR
 
-#364 — `Raise buyer evidence to confirmed money motion in Scan 066`. Live GitHub state is authoritative.
+None yet for Scan 067. Live GitHub state is authoritative.
 
 ## CI
 
@@ -78,14 +78,11 @@ PR #363 repository CI run `35619670625` completed `success`. Live Jev run `35619
 
 ## Latest Artifact / Persisted State
 
-New:
-- `data/research_runs/attraction_scan_066.json`
-- `docs/research/ATTRACTION_SCAN_066_2026-09-21.md`
-- `tests/test_attraction_scan_066_confirmed_money_motion_gate.py`
+No Scan 067 result artifact yet. The branch exists solely as the reversible continuation checkpoint from the Jev-approved Scan 066 merge.
 
-Updated:
-- `data/commercial_reset_state.json`
-- `TASK_STATE.md`
+Inherited current persisted state from main:
+- `data/commercial_reset_state.json` points to `ATTRACTION_SCAN_067`.
+- `TASK_STATE.md` is updated on this branch to the active Scan 067 search state.
 
 ## Completed
 
@@ -154,7 +151,7 @@ Commercial:
 
 ## Next Action
 
-Run PR #364 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 067 from two independent confirmed paid external execution flows for the same bounded deterministic unit.
+Search only for formations with two independent **confirmed external money motions** for the same bounded deterministic, repeatable and machine-verifiable unit. Require actual paid/repeated external execution evidence; reject internal labor, internal scripts, seller asking prices, willingness-to-pay statements and generic pain reports. Preflight exact native capability, marketplace, specialist SaaS/managed service, and callable data/action rights before any retention or promotion.
 
 ## Do Not Repeat
 
