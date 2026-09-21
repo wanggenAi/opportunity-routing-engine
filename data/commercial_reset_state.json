@@ -60,10 +60,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_039",
+  "last_completed_scan_id": "ATTRACTION_SCAN_040",
   "last_resolved_formation_id": "ATTRACTION_SCAN_016-F1",
-  "next_scan_id": "ATTRACTION_SCAN_040",
-  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_SCAN040_RECENT_ENTITLEMENT_CHANGE_SEARCH",
+  "next_scan_id": "ATTRACTION_SCAN_041",
+  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_SCAN041_MACHINE_IDENTIFIABLE_RECENT_MONETARY_CHANGE_SEARCH",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -369,7 +369,13 @@
     "ATTRACTION_SCAN_039 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
     "Scan 039 tested recovery formations where customers can authorize an independent operator to use their contracts, invoices, logs, platform accounts or audit rights.",
     "SaaS/cloud SLA credits, SaaS invoice overbilling, parcel refunds, CAM overcharges, CPG deductions and FBA reimbursement all had direct recovery economics but exact recovery products already occupied the end-to-end loop.",
-    "Scan 040 should look earlier in the lifecycle for recently created or expanded monetary entitlements where public rules plus customer-authorized data are executable before a mature recovery category forms."
+    "Scan 040 should look earlier in the lifecycle for recently created or expanded monetary entitlements where public rules plus customer-authorized data are executable before a mature recovery category forms.",
+    "RECENT_POLICY_OR_RULE_CHANGE_IS_NECESSARY_NOT_SUFFICIENT_FOR_TEMPORARY_WHITE_SPACE",
+    "HIGH_VALUE_PUBLIC_SCHEMES_CAN_SPAWN_SPECIALIST_APPLICATION_ADVISORS_BEFORE_THE_FIRST_WINDOW_OPENS",
+    "AUTOMATIC_PAYOUTS_HAVE_MONETARY_VALUE_BUT_NO_OPERATOR_ACTION_RIGHT",
+    "LOW_VALUE_SIMPLE_APPLICATIONS_FAIL_NORMALIZED_ORCHESTRATION_ECONOMICS",
+    "COMPETITIVE_GRANT_WRITING_REINTRODUCES_RECURRING_EXPERT_PROJECT_JUDGMENT",
+    "SCAN041_REQUIRES_NON_AUTOMATIC_DETERMINISTIC_HIGH_VALUE_BENEFIT_PLUS_MACHINE_IDENTIFIABLE_BENEFICIARY_AND_NO_EXACT_APPLICATION_RECOVERY_OR_ADVISORY_INCUMBENT"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
