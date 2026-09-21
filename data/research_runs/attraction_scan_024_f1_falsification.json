@@ -1,0 +1,77 @@
+{
+  "schema_version": "formation-falsification.v1",
+  "formation_id": "ATTRACTION_SCAN_024-F1",
+  "as_of_date": "2026-09-21",
+  "prior_state": "RESEARCH_BEACON_RETAINED_FOR_PAYER_FEATURE_ABSORPTION_SAVINGS_AND_OPERATOR_ASSET_FALSIFICATION",
+  "verdict": "DEMOTED_ACTIVE_OPEN_SOURCE_CONTROL_SURFACE_AND_NONCOMPOUNDING_GATEWAY_FEATURE",
+  "commercial_candidate": false,
+  "retain_for_active_validation": false,
+  "first_external_value_flow": "NOT_PROVEN",
+  "decisive_kills": [
+    {
+      "kill": "EXACT_ACTIVE_INCUMBENT",
+      "status": "FAIL",
+      "reason": "OmniRoute is an active MIT multi-provider AI gateway whose public product already advertises quota-aware auto-fallback, remaining-quota/reset-aware routing and maximizing subscription quota before expiry."
+    },
+    {
+      "kill": "FEATURE_ABSORPTION",
+      "status": "FAIL",
+      "reason": "OmniRoute issue #13616 generalized provider-specific billing/quota endpoints into a common UsageQuota abstraction and was closed as completed on 2026-09-18; LiteLLM issue #31823 independently requests provider package/quota-pool routing. The proposed micro-edge is becoming ordinary gateway functionality."
+    },
+    {
+      "kill": "DISTINCT_OPERATOR_ASSET",
+      "status": "FAIL",
+      "reason": "The useful state comes from provider-owned quota APIs plus customer-owned credentials and workload metadata. No proprietary cross-customer outcome asset, exclusive right or transaction-generated acceptance graph is created by routing itself."
+    },
+    {
+      "kill": "EXACT_PAYER_WILLINGNESS",
+      "status": "NOT_PROVEN",
+      "reason": "Current evidence proves expiring quota and management pain, but the direct LiteLLM request has minimal public support and no evidence was found that enterprises separately pay for quota-pool optimization rather than expect it inside an existing gateway/provider subscription."
+    },
+    {
+      "kill": "NATIVE_AND_AGGREGATOR_INTERNALIZATION",
+      "status": "NEGATIVE",
+      "reason": "Alibaba already prioritizes the nearest-expiring shared quota package internally, and current enterprise multi-model Token Plans aggregate multiple models/vendors into shared pools, reducing the residual cross-provider optimization surface."
+    }
+  ],
+  "evidence": [
+    {
+      "source_type": "OPEN_SOURCE_INCUMBENT",
+      "title": "OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "fact": "Active MIT AI gateway with quota-aware auto-fallback and quota/reset-aware routing; current repository has tens of thousands of stars and forks."
+    },
+    {
+      "source_type": "OPEN_SOURCE_INCUMBENT",
+      "title": "OmniRoute issue #13616",
+      "url": "https://github.com/diegosouzapw/OmniRoute/issues/13616",
+      "fact": "Generic billing/quota support for OpenAI-compatible connections was requested 2026-09-13 and closed completed 2026-09-18, normalizing arbitrary upstream quota APIs into common routing state."
+    },
+    {
+      "source_type": "OPEN_SOURCE_SIGNAL",
+      "title": "LiteLLM issue #31823",
+      "url": "https://github.com/BerriAI/litellm/issues/31823",
+      "fact": "Provider quota pools/package-based routing remains an open feature request, but public support is sparse and it frames the capability as a router feature."
+    },
+    {
+      "source_type": "PROVIDER_NATIVE",
+      "title": "Alibaba Token Plan team overview",
+      "url": "https://help.aliyun.com/zh/model-studio/token-plan-team-overview",
+      "fact": "When multiple shared packages exist, Alibaba prioritizes the package nearest expiry, showing expiry-aware entitlement consumption is naturally internalized by the provider."
+    },
+    {
+      "source_type": "MARKET_AGGREGATOR",
+      "title": "Qiniu enterprise Token Plan comparison",
+      "url": "https://news.qiniu.com/archives/1788856850196",
+      "fact": "Current enterprise plans can already expose multiple vendors/models behind one shared prepaid pool, reducing the need for customers to independently optimize several provider subscriptions."
+    }
+  ],
+  "retained_learning": [
+    "DIRECT_FEATURE_GAP_EVIDENCE_MUST_BE_RECHECKED_AGAINST_FAST_MOVING_OPEN_SOURCE_INCUMBENTS_BEFORE_BUILDING",
+    "QUOTA_AWARE_ROUTING_IS_CURRENT_GATEWAY_CONTROL_SURFACE_NOT_A_DISTINCT_BUSINESS_LAYER",
+    "PROVIDER_OWNED_ENTITLEMENT_STATE_PLUS_CUSTOMER_CREDENTIALS_DOES_NOT_CREATE_OPERATOR_ASSET_BY_ITSELF",
+    "NATIVE_EXPIRY_AWARE_DEDUCTION_AND_MULTI_VENDOR_SHARED_POOLS_COMPRESS_CROSS_PROVIDER_QUOTA_OPTIMIZATION_WHITE_SPACE",
+    "OPEN_SOURCE_CONTROL_PLANE_SPEED_CAN_INVALIDATE_A_MICRO_EDGE_WITHIN_WEEKS"
+  ],
+  "next_action": "REMOVE_FROM_ACTIVE_VALIDATION_AND_CONTINUE_SCAN025_WITHOUT_LLM_QUOTA_GATEWAY_INHERITANCE"
+}
