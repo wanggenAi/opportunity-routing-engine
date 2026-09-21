@@ -6,18 +6,20 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 065 tested the stronger execution-shape floor created by Scan 064: the buyer must already pay an incumbent and separately pay for a recurring unit whose core work is deterministic, repetitive and objectively machine-verifiable. Six current formations were examined across repricing, CRM deduplication, multichannel inventory sync, chargeback recovery, SaaS backup and accounting-document extraction. None produced a founder-independent commercial candidate.
+Scan 066 tested whether the pre-category search could be made materially stronger by requiring at least two independent current buyer-side signals for the same bounded deterministic, repeatable and machine-verifiable unit.
+
+Six formation-diverse cases were examined. None survived.
 
 ```text
-PARALLEL DOUBLE SPEND
-→ DETERMINISTIC REPEATABLE EXECUTION
-→ OBJECTIVE MACHINE-VERIFIABLE ACCEPTANCE
-→ CHECK NATIVE FEATURE / APP MARKET / SPECIALIST SAAS
-→ IF THE EXACT LOOP IS ALREADY A MATURE CATEGORY
+TWO INDEPENDENT BUYER SIGNALS
+→ SAME BOUNDED DETERMINISTIC UNIT?
+→ CONFIRMED EXTERNAL RECURRING MONEY MOTION?
+→ EXACT NATIVE / MARKET / SAAS / SERVICE CATEGORY?
+→ CALLABLE DATA + ACTION RIGHTS?
 → FAIL CLOSED
 ```
 
-The new failure boundary is category formation itself: the cleanest machine-executable units are often the earliest to become native features, app-market products or specialist SaaS. Scan 066 therefore keeps the deterministic payer signal but requires the exact paid unit to exist before a named mature app/SaaS/managed-service category has already formed, with at least two independent buyer-side signals.
+The decisive finding is that two buyer problem reports still mix pain, internal workarounds, stated willingness and actual money motion. Scan 067 therefore raises the floor to two independent **confirmed external money motions** for the same bounded unit. Internal scripts, employee labor, manual pain, seller asking prices and hypothetical willingness no longer count as equivalent evidence.
 
 ## Goal
 
@@ -31,25 +33,25 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Resolved recently:
-- `ATTRACTION_SCAN_063` — zero retention after post-incumbent residuals hit active native roadmap/partner absorption or expert/configuration tails.
 - `ATTRACTION_SCAN_064` — zero retention after parallel double-spend cases decomposed into native automation plus strategy/accountability/implementation/liability tails.
 - `ATTRACTION_SCAN_065` — zero retention after deterministic, repeatable, objectively verifiable paid units resolved into native features or mature app/SaaS control surfaces.
+- `ATTRACTION_SCAN_066` — zero retention after two-independent-buyer signals resolved into mature categories, missing external money motion, non-invariant units or unavailable data rights.
 
 Discovery queue:
-- `ATTRACTION_SCAN_066 — BROAD_CURRENT_BUYER_SIDE_PARALLEL_SPEND_FOR_DETERMINISTIC_REPEATABLE_MACHINE_VERIFIABLE_OUTPUT_WITH_AT_LEAST_TWO_INDEPENDENT_BUYER_SIGNALS_WHERE_THE_EXACT_PAID_UNIT_IS_NOT_ALREADY_A_NAMED_MATURE_APP_SAAS_OR_MANAGED_SERVICE_CATEGORY_EXACT_NATIVE_MARKETPLACE_AND_ROADMAP_PREFLIGHT_NO_SCAN065_VENDOR_OR_VERTICAL_INHERITANCE_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_067 — BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_CONFIRMED_EXTERNAL_MONEY_MOTIONS_FOR_THE_SAME_BOUNDED_DETERMINISTIC_REPEATABLE_MACHINE_VERIFIABLE_EXECUTION_UNIT_WITH_RECURRING_OR_REPEATED_PAYMENT_EVIDENCE_EXACT_NATIVE_MARKETPLACE_SPECIALIST_SAAS_MANAGED_SERVICE_AND_DATA_RIGHTS_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN066_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_065_PR_OPEN_AWAITING_CI_JEV_CONTINUATION`
+`SCAN_066_PR_OPEN_AWAITING_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`ff5f5ab2fa2ee97d8c22d6fc472feb33d797e03d`
-— squash merge of PR #362, `Decompose double-spend residuals in Scan 064`.
+`0f206916fdf80d57adacd71986a21415ceea7f45`
+— squash merge of PR #363, `Close productized deterministic double-spend traps in Scan 065`.
 
-PR #362 repository CI run `35618258236` completed `success`. Live Jev run `35618258284` also completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #363 repository CI run `35619670625` completed `success`. Live Jev run `35619670633` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -57,11 +59,11 @@ PR #362 repository CI run `35618258236` completed `success`. Live Jev run `35618
 
 ## Active Branch
 
-`research/attraction-scan-065`.
+`research/attraction-scan-066`.
 
 ## Active PR
 
-#363 — `Close productized deterministic double-spend traps in Scan 065`. Live GitHub state is authoritative.
+#364 — `Raise buyer evidence to confirmed money motion in Scan 066`. Live GitHub state is authoritative.
 
 ## CI
 
@@ -77,9 +79,9 @@ PR #362 repository CI run `35618258236` completed `success`. Live Jev run `35618
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_065.json`
-- `docs/research/ATTRACTION_SCAN_065_2026-09-21.md`
-- `tests/test_attraction_scan_065_deterministic_double_spend_gate.py`
+- `data/research_runs/attraction_scan_066.json`
+- `docs/research/ATTRACTION_SCAN_066_2026-09-21.md`
+- `tests/test_attraction_scan_066_confirmed_money_motion_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -104,22 +106,22 @@ Results:
 ## Current Findings
 
 ```text
-DETERMINISTIC + REPEATABLE + MACHINE-VERIFIABLE
-= CLEAN DELIVERY SHAPE
-BUT
-THE CLEANEST UNITS ARE OFTEN THE EARLIEST TO BE PRODUCTIZED
+TWO BUYERS REPORT THE SAME PAIN
+!=
+TWO BUYERS ALREADY PAY AN EXTERNAL PARTY
+FOR THE SAME RECURRING EXECUTION UNIT
 ```
 
-Scan 065 examined six current formation-diverse cases:
+Scan 066 examined six current formation-diverse cases:
 
-- Amazon Seller Central + Repricer.com: continuous repricing is deterministic and measurable, but Amazon already ships free Automate Pricing and a mature third-party repricer market exists.
-- Salesforce + Cloudingo: duplicate detection/merge is objectively verifiable, but Salesforce has native matching/duplicate rules and Cloudingo is already a mature AppExchange product.
-- Shopify + inventory-sync apps: cross-store inventory synchronization is machine-checkable, but the App Store contains a dense category of exact substitutes.
-- Stripe + Chargeflow: chargeback evidence collection/submission has an objective won/lost outcome, but Stripe Smart Disputes is absorbing the loop while a mature specialist category already exists.
-- Microsoft 365 + Veeam Data Cloud: backup/restore is an exceptionally clean machine unit, but Microsoft now sells native Microsoft 365 Backup and specialist protection vendors are mature.
-- QuickBooks Online + Dext: receipt/invoice extraction is deterministic, but QuickBooks already extracts receipt data while Dext and similar tools occupy the broader automation layer.
+- Ecommerce marketplace payout reconciliation: multiple current buyers independently report QBO/Xero/NetSuite reconciliation pain, but Link My Books, Synder and other products already form a mature paid category.
+- AI coding-tool cost attribution: current teams need per-team/project/client attribution and build internal collectors, but two independent recurring external payments are not proven; cross-tool project telemetry is also unavailable for some closed coding tools.
+- Agency client-report assembly: independent agencies report recurring monthly assembly cost, but AgencyAnalytics, Swydo, Rollstack and other products already own the deterministic reporting layer.
+- TikTok Shop creator commission reconciliation: independent sellers report fee/commission/payout discrepancies, but two external recurring payments are not established and TikTok is expanding native receipts, exports and affiliate APIs.
+- PDF invoice/receipt to accounting entry: independent accounting users still re-key documents, but Nanonets, Rossum and native accounting OCR already make this a mature IDP/AP automation category.
+- Spreadsheet normalization/deduplication: paid work exists, but strongest buyer evidence is often one-time and the schema/ambiguity rules are not invariant across buyers.
 
-The stronger next evidence floor is therefore **pre-category deterministic spend**: the same bounded paid execution unit must appear in at least two independent buyer-side signals before an exact named app/SaaS/managed-service category already owns it.
+The next evidence floor is economic, not mechanism-specific: require **two independent confirmed external money motions** for the same bounded deterministic unit.
 
 ## Validation Status
 
@@ -133,7 +135,7 @@ Scan 015-F1 remains the only retained validation beacon.
 
 Validation:
 - Scan 015-F1 awaits written provider response and organic founder-free inbound evidence.
-- Gmail re-check on 2026-09-21 found no incoming response from either Wave 1 target; no response is not a denial.
+- Latest Gmail re-check still has no incoming response from either Wave 1 target; no response is not a denial.
 
 Engineering:
 - No current Jev integration blocker.
@@ -141,10 +143,10 @@ Engineering:
 - The active repository agent must continue reversible research automatically when the continuation directive allows it.
 
 Discovery:
-- Scan 065 is complete with zero retained formations and zero commercial promotions.
-- Deterministic, repetitive, machine-verifiable external spend is a strong delivery-shape signal but not a white-space signal by itself.
-- The cleanest machine units frequently resolve into native features, dense app markets or mature specialist SaaS.
-- Scan 066 must require at least two independent buyer-side spend signals for the same bounded deterministic unit and reject units already established as named mature app/SaaS/managed-service categories.
+- Scan 066 is complete with zero retained formations and zero commercial promotions.
+- Two independent buyer problem reports are no longer sufficient evidence.
+- Current pre-category candidates tend to fail because actual external recurring payment is missing, the same unit is not invariant across buyers, required data rights are unavailable, or a mature category already exists.
+- Scan 067 must require two independent confirmed external paid flows for the same bounded deterministic unit.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -152,9 +154,14 @@ Commercial:
 
 ## Next Action
 
-Run PR #363 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 066 from deterministic paid units evidenced by at least two independent buyer signals **before** category productization.
+Run PR #364 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 067 from two independent confirmed paid external execution flows for the same bounded deterministic unit.
 
 ## Do Not Repeat
+
+- Do not equate two independent buyer pain/workaround reports with two confirmed external money motions; Scan 066 falsified that shortcut.
+- Do not promote ecommerce payout reconciliation, AI coding cost attribution, agency report assembly, TikTok creator-commission reconciliation, PDF-to-accounting entry or generic spreadsheet cleanup from Scan 066.
+- In Scan 067, internal scripts, employee labor, manual pain, seller asking prices and stated willingness to pay do not satisfy the payer floor.
+- Require two independent buyers with confirmed paid or repeatedly paid external execution for the same bounded deterministic unit before deeper retention work.
 
 - Do not treat deterministic, repetitive, machine-verifiable external spend as white-space evidence by itself; Scan 065 shows those are often the first units to be productized.
 - Do not promote Amazon repricing, Salesforce deduplication, Shopify inventory sync, Stripe chargeback automation, Microsoft 365 backup or QuickBooks receipt extraction from Scan 065.

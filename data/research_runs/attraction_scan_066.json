@@ -1,0 +1,131 @@
+{
+  "schema_version": "attraction-scan.v45",
+  "scan_id": "ATTRACTION_SCAN_066",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_SIDE_PARALLEL_SPEND_FOR_DETERMINISTIC_REPEATABLE_MACHINE_VERIFIABLE_OUTPUT_WITH_AT_LEAST_TWO_INDEPENDENT_BUYER_SIGNALS_WHERE_THE_EXACT_PAID_UNIT_IS_NOT_ALREADY_A_NAMED_MATURE_APP_SAAS_OR_MANAGED_SERVICE_CATEGORY_EXACT_NATIVE_MARKETPLACE_AND_ROADMAP_PREFLIGHT_NO_SCAN065_VENDOR_OR_VERTICAL_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_066-F1",
+      "title": "ECOMMERCE_MARKETPLACE_PAYOUT_TO_LEDGER_RECONCILIATION",
+      "chinese_title": "电商平台结算款到账簿的自动对账",
+      "independent_buyer_signals": [
+        "Current QBO ecommerce operator reports spending hours every week reconciling payouts that do not match deposits.",
+        "Current Shopify/Xero and Shopify/NetSuite operators independently report recurring manual reconciliation around fees, refunds, timing and clearing balances."
+      ],
+      "verdict": "DEMOTED_MULTI_BUYER_SIGNAL_PASSES_BUT_EXACT_RECONCILIATION_CATEGORY_IS_ALREADY_MATURE",
+      "evidence_summary": "The bounded unit is clean: transform marketplace settlement detail into accounting entries that tie exactly to bank deposits and clearing balances. Multiple independent current buyers still report recurring manual pain. However Link My Books currently supports Amazon, Shopify, eBay, Etsy, TikTok Shop and other channels with paid recurring plans, while Synder sells ecommerce accounting synchronization across 30+ platforms from published recurring tiers. This is a real buyer problem with objective acceptance, but the exact category is already named, paid and multi-vendor."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_066-F2",
+      "title": "AI_CODING_TOOL_COST_ATTRIBUTION_BY_TEAM_PROJECT_AND_CLIENT",
+      "chinese_title": "AI 编程工具成本按团队/项目/客户归集",
+      "independent_buyer_signals": [
+        "A current engineering manager with roughly 40 developers built a nightly internal job to attribute Claude Code spend by repo and person because finance requested team-level AI spend.",
+        "Current agencies and AI-heavy teams report material unattributed AI spend and explicit need for per-project or per-client attribution."
+      ],
+      "verdict": "DEMOTED_EXTERNAL_RECURRING_MONEY_MOTION_NOT_PROVEN_AND_CLOSED_TOOL_TELEMETRY_BLOCKS_FULL_UNIT",
+      "evidence_summary": "The desired output is deterministic: allocate coding-agent spend to team, repo, project or client. Demand is current and repeated, but the public evidence does not establish two independent buyers already paying a separate recurring external operator for this exact unit. More importantly, one live buyer reports Claude Code session data is accessible while Cursor and Copilot do not expose equivalent project-level telemetry, so the full cross-tool unit lacks necessary data rights. API-side LLM cost attribution is already productizing rapidly through AI spend-management, observability and gateway vendors."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_066-F3",
+      "title": "AGENCY_RECURRING_CLIENT_REPORT_ASSEMBLY_AND_DELIVERY",
+      "chinese_title": "代理机构周期性客户报告组装与交付",
+      "independent_buyer_signals": [
+        "Multiple current agency operators report recurring monthly hours spent pulling data, formatting, writing summaries and preparing client-ready reports.",
+        "Independent current agency discussions report 2-6 hours per client per month before automation and internal tools built specifically to remove the repetitive assembly step."
+      ],
+      "verdict": "DEMOTED_MULTI_BUYER_SIGNAL_PASSES_BUT_REPORTING_AUTOMATION_IS_A_DENSE_MATURE_CATEGORY",
+      "evidence_summary": "Recurring report assembly has objective subunits—refresh data, populate templates, brand, render and deliver—and current buyers independently report the pain. But AgencyAnalytics, Swydo, Rollstack and multiple newer vertical reporting products already sell automated reporting, templates, delivery, AI summaries and white-labeling. The residual value shifts toward client-specific interpretation and narrative judgment, while deterministic assembly is already productized."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_066-F4",
+      "title": "TIKTOK_SHOP_CREATOR_COMMISSION_AND_SETTLEMENT_RECONCILIATION",
+      "chinese_title": "TikTok Shop 达人佣金与结算核对",
+      "independent_buyer_signals": [
+        "Current TikTok Shop sellers report difficulty understanding net payout, fee and creator-commission components and still combine exported reports manually for true profit.",
+        "Another current seller reports shop-ad attribution while standard creator commission appears to be charged, creating a concrete reconciliation discrepancy."
+      ],
+      "verdict": "DEMOTED_EXTERNAL_PAID_UNIT_NOT_PROVEN_AND_PLATFORM_IS_EXPANDING_NATIVE_RECONCILIATION_SURFACES",
+      "evidence_summary": "The line-item order-to-commission-to-payout mapping is bounded and machine-checkable, and independent seller signals exist. But two independent recurring external payments for this exact unit are not established. TikTok Shop now generates monthly affiliate commission receipts, exposes affiliate APIs subject to partner approval, and provides payment/commission export surfaces for reconciliation. The evidence therefore shows an active operational gap under platform control, not yet a proven external money-motion formation."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_066-F5",
+      "title": "PDF_INVOICE_AND_RECEIPT_TO_ACCOUNTING_SYSTEM_ENTRY",
+      "chinese_title": "PDF 发票/收据到会计系统的结构化入账",
+      "independent_buyer_signals": [
+        "A current accounting team still manually copies PDF invoices, receipt images and supplier statements into spreadsheets before accounting software.",
+        "A current bookkeeper independently reports losing the first week of the month retyping totals and dates from vendor PDFs before reconciliation."
+      ],
+      "verdict": "DEMOTED_MULTI_BUYER_SIGNAL_PASSES_BUT_INTELLIGENT_DOCUMENT_PROCESSING_CATEGORY_IS_MATURE",
+      "evidence_summary": "The bounded deterministic unit—ingest document, extract fields, validate, route exceptions and post structured data—is repeated across independent buyers. But Nanonets currently sells usage-based document extraction with ERP/database integrations, and Rossum sells end-to-end document automation starting at $18,000/year with extraction, validation, matching, duplicate handling and downstream ERP integrations. Native accounting OCR further compresses the residual. The unit is commercially real but already a mature IDP/AP automation category."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_066-F6",
+      "title": "SMALL_BUSINESS_SPREADSHEET_NORMALIZATION_AND_DEDUPLICATION",
+      "chinese_title": "小企业表格规范化、去重与格式清洗",
+      "independent_buyer_signals": [
+        "A current paid hiring post requests spreadsheet cleanup of 500 records including deduplication, standardized names, phones, emails and dates.",
+        "A separate current worker reports having been paid for repeated spreadsheet cleanup/data-entry work involving inconsistencies and column normalization."
+      ],
+      "verdict": "DEMOTED_RECURRING_SAME_UNIT_NOT_PROVEN_AND_CROSS_BUYER_SCHEMA_IS_NOT_INVARIANT",
+      "evidence_summary": "Paid human work for spreadsheet cleanup is observable and many substeps are deterministic. But the strongest current buyer listing is explicitly one-time, while other evidence describes heterogeneous files and rules rather than the same recurring unit. Across buyers, schema, ambiguity policy and acceptance rules vary materially; generic scripts, spreadsheet tooling and agents can perform the deterministic portion cheaply. Two independent recurring external money flows for one invariant transformation are not proven."
+    }
+  ],
+  "hard_floor_demotions": [
+    "MULTI_BUYER_PAIN_DOES_NOT_CREATE_PRE_CATEGORY_WHITE_SPACE_WHEN_LINK_MY_BOOKS_SYNDER_AND_OTHER_ECOMMERCE_ACCOUNTING_PRODUCTS_ALREADY_OWN_PAYOUT_RECONCILIATION",
+    "AI_CODING_COST_ATTRIBUTION_FAILS_WHEN_TWO_CONFIRMED_EXTERNAL_RECURRING_BUYER_PAYMENTS_ARE_NOT_PROVEN_AND_CLOSED_TOOL_TELEMETRY_PREVENTS_COMPLETE_EXECUTION",
+    "AGENCY_REPORT_ASSEMBLY_FAILS_WHEN_AGENCYANALYTICS_SWYDO_ROLLSTACK_AND_OTHER_PRODUCTS_ALREADY_OWN_THE_DETERMINISTIC_REPORTING_LAYER",
+    "TIKTOK_COMMISSION_RECONCILIATION_FAILS_CURRENT_MONEY_MOTION_GATE_AND_REMAINS_DEPENDENT_ON_PLATFORM_CONTROLLED_DATA_AND_NATIVE_SURFACES",
+    "PDF_TO_ACCOUNTING_ENTRY_FAILS_PRE_CATEGORY_GATE_BECAUSE_IDP_AP_AUTOMATION_IS_ALREADY_A_MATURE_SOFTWARE_CATEGORY",
+    "SPREADSHEET_NORMALIZATION_FAILS_RECURRING_SAME_UNIT_GATE_WHEN_PAID_WORK_IS_ONE_OFF_OR_BUYER_SPECIFIC"
+  ],
+  "scan_learnings": [
+    "TWO_INDEPENDENT_BUYER_SIGNALS_ARE_STRONGER_THAN_ONE_BUT_STILL_MIX_PAIN_WORKAROUND_WILLINGNESS_AND_ACTUAL_EXTERNAL_MONEY_MOTION",
+    "PRE_CATEGORY_SEARCH_MUST_DISTINGUISH_CONFIRMED_PAID_EXTERNAL_EXECUTION_FROM_INTERNAL_SCRIPTS_MANUAL_WORK_AND_STATED_WILLINGNESS_TO_PAY",
+    "WHEN_TWO_BUYERS_SHARE_A_TRULY_INVARIANT_DETERMINISTIC_UNIT_THE_CATEGORY_OFTEN_ALREADY_HAS_MULTIPLE_PRODUCTS",
+    "WHEN_A_CATEGORY_HAS_NOT_FORMED_THE_PUBLIC_EVIDENCE_OFTEN_FAILS_EITHER_RECURRING_PAYMENT_UNIT_INVARIANCE_OR_ACTION_DATA_RIGHTS",
+    "PLATFORM_CONTROLLED_TELEMETRY_CAN_BLOCK_ANOTHERWISE_CLEAN_DETERMINISTIC_UNITS_BEFORE_OPERATOR_CONTROL_EXISTS",
+    "THE_NEXT_EVIDENCE_FLOOR_SHOULD_REQUIRE_TWO_INDEPENDENT_CONFIRMED_EXTERNAL_MONEY_MOTIONS_FOR_THE_SAME_BOUNDED_UNIT_NOT_MERELY_TWO_BUYER_PROBLEM_REPORTS",
+    "SCAN066_ZERO_RETENTION_AFTER_CONFIRMED_CATEGORY_MATURITY_PAYMENT_AND_DATA_RIGHTS_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_067",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_CONFIRMED_EXTERNAL_MONEY_MOTIONS_FOR_THE_SAME_BOUNDED_DETERMINISTIC_REPEATABLE_MACHINE_VERIFIABLE_EXECUTION_UNIT_WITH_RECURRING_OR_REPEATED_PAYMENT_EVIDENCE_EXACT_NATIVE_MARKETPLACE_SPECIALIST_SAAS_MANAGED_SERVICE_AND_DATA_RIGHTS_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN066_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN067_FROM_TWO_INDEPENDENT_CONFIRMED_PAID_EXTERNAL_EXECUTION_FLOWS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/quickbooksonline/comments/1sfl3hb/qbo_intuit_ai_payouts_deposits/",
+    "https://www.reddit.com/r/xero/comments/1ul46yb/how_do_you_get_your_shopify_payouts_into_xero/",
+    "https://www.reddit.com/r/Netsuite/comments/1sekjnz/curious_how_people_handle_shopify_netsuite/",
+    "https://linkmybooks.com/pricing",
+    "https://synder.com/industry/ecommerce/",
+    "https://www.reddit.com/r/EngineeringManagers/comments/1w9onm4/we_built_the_nightly_job_to_track_coding_agent/",
+    "https://www.reddit.com/r/SideProject/comments/1tha85j/dev_agencies_are_you_eating_ai_coding_costs_on/",
+    "https://www.aispendops.com/",
+    "https://amnic.com/blogs/llm-cost-allocation-tools",
+    "https://www.reddit.com/r/DigitalMarketing/comments/1t3s37n/how_long_does_it_take_you_to_build_client_reports/",
+    "https://www.reddit.com/r/agency/comments/1vkvnhu/how_does_client_reporting_actually_work_at_your/",
+    "https://agencyanalytics.com/pricing",
+    "https://www.swydo.com/pricing/",
+    "https://www.rollstack.com/pricing",
+    "https://www.reddit.com/r/TikTokshop/comments/1wik9tt/tiktok_shop_sellers_how_are_you_tracking_your/",
+    "https://www.reddit.com/r/TikTokshop/comments/1srivgd/tiktok_never_pays_shop_ads_commission/",
+    "https://seller-it.tiktok.com/university/essay?knowledge_id=1745871194081046&lang=en-GB",
+    "https://partner.tiktokshop.com/docv2/page/affiliate-integration",
+    "https://www.reddit.com/r/automation/comments/1ug9h20/an_accounting_team_showed_me_their_monthend/",
+    "https://www.reddit.com/r/Bookkeeping/comments/1uv72v0/how_much_of_your_month_is_still_just_retyping/",
+    "https://nanonets.com/pricing",
+    "https://rossum.ai/pricing/",
+    "https://www.reddit.com/r/B2BForHire/comments/1vto6so/hiring_data_entry_spreadsheet_cleanup_500_records/",
+    "https://www.reddit.com/r/WeirdSideHustles/comments/1wkjxv8/i_got_paid_to_be_a_human_spreadsheet_janitor/"
+  ]
+}
