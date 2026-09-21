@@ -1,0 +1,104 @@
+{
+  "schema_version": "attraction-scan.v41",
+  "scan_id": "ATTRACTION_SCAN_062",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "SECOND_INDEPENDENT_BROAD_CURRENT_BUYER_SIDE_REPEATED_WORKAROUND_SPEND_OR_MULTI_LINE_ITEM_STACK_EVIDENCE_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_SELLER_DEFINED_CATEGORY_AS_PRIMARY_SIGNAL_NO_SCAN061_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_062-F1",
+      "title": "M365_AZURE_EMPLOYEE_LIFECYCLE_MANUAL_HANDOFF",
+      "chinese_title": "M365/Azure 员工入离职人工交接",
+      "evidence_class": "CURRENT_BUYER_SIDE_REPEATED_ONBOARDING_OFFBOARDING_ERRORS_PLUS_FAILED_PAID_VENDOR_NEAR_900_DOLLARS_PER_MONTH_FOR_700_USERS",
+      "verdict": "DEMOTED_NATIVE_ENTRA_JML_LIFECYCLE_WORKFLOWS_PLUS_MATURE_IGA_CONTROL_SURFACE",
+      "evidence_summary": "A four-person IT team supporting about 700 users reports recurring onboarding/offboarding mistakes and abandoned a vendor after roughly six months despite paying close to $900/month. The buyer-side pain and failed spend are strong. Microsoft Entra ID Governance now natively automates Joiner-Mover-Leaver workflows, HR-driven provisioning, license/group changes, account disable/delete, audit history and custom extensions to external systems. The residual is environment-specific implementation and source-system hygiene, not an unowned normalized machine layer."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_062-F2",
+      "title": "MANUFACTURING_ERP_TO_PHYSICAL_INVENTORY_TRUTH_GAP",
+      "chinese_title": "制造业 ERP 与现场实物库存真值脱节",
+      "evidence_class": "CURRENT_BUYER_SIDE_REPEATED_FLOOR_VERIFICATION_EXCEL_VBA_WORKAROUND_DESPITE_SAP_OR_ORACLE_CLASS_ERP",
+      "verdict": "DEMOTED_PHYSICAL_EVENT_CAPTURE_PROCESS_CONTROL_PLUS_MATURE_WMS_CYCLE_COUNTING_TAIL",
+      "evidence_summary": "A production-planning engineer describes ERP showing full material availability while the floor is missing parts because a prior shift cannibalized stock without recording it; much of the job becomes physical verification and Excel/VBA shadow tracking. Oracle WMS already provides real-time and AI-prioritized cycle counting, but no software can infer unrecorded physical movement without a capture mechanism or compliant process. The residual edge therefore depends on barcode/RFID/scan discipline, physical instrumentation and shop-floor behavior rather than a founder-independent digital operator."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_062-F3",
+      "title": "DENTAL_INSURANCE_ELIGIBILITY_BENEFIT_MANUAL_VERIFICATION",
+      "chinese_title": "牙科保险资格与福利人工核验",
+      "evidence_class": "CURRENT_BUYER_SIDE_REPEATED_MULTI_PAYER_PORTAL_AND_PHONE_VERIFICATION_BEFORE_PATIENT_VISITS_WITH_DENIAL_RISK",
+      "verdict": "DEMOTED_EXACT_DENTAL_ELIGIBILITY_AND_BENEFITS_AUTOMATION_NETWORK",
+      "evidence_summary": "Dental office staff report that eligibility and benefit checks remain time-consuming, often requiring multiple payer portals or phone calls before visits. DentalXChange already provides a unified eligibility product and API across payers with plan benefits, deductibles, co-insurance, limitations and other coverage details; Vyne Trellis offers batch and real-time automated eligibility tied to practice-management data. The exact machine layer is a mature payer-connectivity category."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_062-F4",
+      "title": "LAW_FIRM_CASE_STATUS_SPREADSHEET_CONTROL",
+      "chinese_title": "律所案件状态与任务表格控制",
+      "evidence_class": "CURRENT_BUYER_SIDE_200_ACTIVE_CASES_GOOGLE_SUITE_PLUS_SPREADSHEET_WITH_POOR_STATUS_AND_TEAM_VISIBILITY",
+      "verdict": "DEMOTED_MATURE_LEGAL_CASE_AND_PRACTICE_MANAGEMENT_CONTROL_SURFACE",
+      "evidence_summary": "A law office with about 200 active cases reports using Google Workspace plus a spreadsheet and needing better at-a-glance case status and team-performance visibility. Clio Manage already centralizes matter status, contacts, documents, calendars, notes, communications, tasks, billing and reporting, with task automation and client portals. The desired control surface is an established legal practice-management category."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_062-F5",
+      "title": "RESTAURANT_INVENTORY_AND_FOOD_COST_RELIABILITY_GAP",
+      "chinese_title": "餐厅库存与食材成本可靠性缺口",
+      "evidence_class": "CURRENT_BUYER_SIDE_APPROX_4000_DOLLARS_MONTHLY_SOFTWARE_AND_ADMIN_SPEND_WITH_PERSISTENT_UNRELIABLE_INVENTORY_FOOD_NUMBERS",
+      "verdict": "DEMOTED_MATURE_RESTAURANT_INVENTORY_FOOD_COST_CONTROL_SURFACE_PLUS_PHYSICAL_COUNT_DISCIPLINE",
+      "evidence_summary": "A two-location restaurant operator reports roughly $4,000/month in inventory/cost-control software and administration while still struggling to obtain reliable food numbers after multiple systems. Restaurant365 currently connects purchasing, inventory, recipes, POS/invoices, actual-vs-theoretical food cost, variance monitoring and mobile counts. Persistent unreliability is meaningful failed-incumbent evidence, but the residual depends heavily on physical counts, waste/portion capture and operational discipline rather than a distinct external machine operator."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_062-F6",
+      "title": "BIOTECH_LAB_REAGENT_CONSUMABLE_INVENTORY_SHADOW_SYSTEM",
+      "chinese_title": "生物实验室试剂耗材库存影子系统",
+      "evidence_class": "CURRENT_BUYER_SIDE_EXISTING_LIMS_PLUS_SHARED_EXCEL_AND_PAPER_WITH_LOW_STOCK_EXPIRY_AND_USAGE_TRACKING_GAPS",
+      "verdict": "DEMOTED_MATURE_LAB_INVENTORY_LIMS_CATEGORY_PLUS_PHYSICAL_SCAN_COMPLIANCE_TAIL",
+      "evidence_summary": "A CRO bench scientist reports an existing LIMS for samples but paper/shared-Excel tracking for reagents and consumables, with staff not reliably updating usage. Current Labguru and Benchling inventory products already provide sample/reagent inventory, barcode or QR workflows, storage locations, low-stock and expiry tracking, and links to experimental context. The unresolved truth still originates in physical receipt/use/scrap events; without scanning or required workflow compliance, software remains stale. The residual is adoption/process instrumentation, not white space."
+    }
+  ],
+  "hard_floor_demotions": [
+    "IT_LIFECYCLE_FAILS_WHITE_SPACE_WHEN_ENTRA_NATIVELY_AUTOMATES_JOINER_MOVER_LEAVER_PROVISIONING_DEPROVISIONING_AUDIT_AND_CUSTOM_EXTENSIONS",
+    "MANUFACTURING_INVENTORY_TRUTH_FAILS_DIGITAL_ONLY_DELIVERY_WHEN_THE_MISSING_FACT_IS_AN_UNRECORDED_PHYSICAL_MOVEMENT_REQUIRING_CAPTURE_OR_PROCESS_COMPLIANCE",
+    "DENTAL_ELIGIBILITY_FAILS_WHITE_SPACE_WHEN_CURRENT_PAYER_NETWORKS_ALREADY_AUTOMATE_REAL_TIME_ELIGIBILITY_AND_BENEFIT_BREAKDOWNS",
+    "LEGAL_CASE_SPREADSHEET_FAILS_WHITE_SPACE_WHEN_MATURE_PRACTICE_MANAGEMENT_PRODUCTS_ALREADY_OWN_CASE_TASK_DOCUMENT_COMMUNICATION_AND_REPORTING_STATE",
+    "RESTAURANT_FOOD_COST_FAILS_DISTINCT_OPERATOR_LAYER_WHEN_VERTICAL_PLATFORMS_ALREADY_CONNECT_POS_PURCHASING_INVENTORY_RECIPES_AND_VARIANCE_AND_THE_RESIDUAL_DEPENDS_ON_PHYSICAL_COUNT_DISCIPLINE",
+    "LAB_INVENTORY_FAILS_WHITE_SPACE_WHEN_LIMS_INVENTORY_PRODUCTS_ALREADY_SUPPORT_BARCODES_LOCATIONS_EXPIRY_AND_CONSUMPTION_WHILE_THE_REMAINING_GAP_IS_PHYSICAL_EVENT_CAPTURE_COMPLIANCE"
+  ],
+  "scan_learnings": [
+    "SECOND_INDEPENDENT_BUYER_SIDE_WORKAROUND_SAMPLE_ALSO_PRODUCED_ZERO_RETENTION",
+    "BUYER_SIDE_WORKAROUND_IS_A_STRONG_PAIN_SENSOR_BUT_NOT_A_WHITE_SPACE_TEST",
+    "THE_STRONGER_NEXT_SIGNAL_IS_PERSISTENT_WORKAROUND_AFTER_PAID_OR_ACTIVE_INCUMBENT_ADOPTION_NOT_SPREADSHEET_USE_ALONE",
+    "FAILED_PAID_SOFTWARE_CAN_SEPARATE_SIMPLE_ADOPTION_IGNORANCE_FROM_A_REAL_RESIDUAL_GAP_BUT_THE_RESIDUAL_MAY_STILL_BE_IMPLEMENTATION_OR_PHYSICAL_PROCESS",
+    "WHEN_SOFTWARE_STATE_DEPENDS_ON_UNRECORDED_PHYSICAL_EVENTS_THE_RESIDUAL_IS_NOT_MACHINE_RESOLVABLE_WITHOUT_CAPTURE_RIGHTS_INSTRUMENTATION_OR_PROCESS_COMPLIANCE",
+    "TWO_INDEPENDENT_BUYER_SIDE_SAMPLES_JUSTIFY_ESCALATING_THE_EVIDENCE_FLOOR_WITHOUT_NARROWING_TO_A_SINGLE_VERTICAL_OR_MECHANISM",
+    "SCAN062_ZERO_RETENTION_AFTER_NATIVE_CONTROL_SURFACE_VERTICAL_SAAS_AND_PHYSICAL_EVENT_CAPTURE_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_063",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_SIDE_PERSISTENT_WORKAROUND_AFTER_ACTIVE_OR_PAID_INCUMBENT_ADOPTION_OR_FAILED_SOFTWARE_ATTEMPT_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_RESIDUAL_EDGE_EXACT_INCUMBENT_PREFLIGHT_NO_SCAN061_OR_SCAN062_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN063_FROM_PERSISTENT_WORKAROUND_AFTER_ACTIVE_OR_PAID_INCUMBENT_ADOPTION_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/sysadmin/comments/1udfuqi/affordable_onboardingoffboarding_automation_tools/",
+    "https://learn.microsoft.com/en-us/entra/id-governance/understanding-lifecycle-workflows",
+    "https://learn.microsoft.com/en-us/entra/architecture/governance-deployment-employee-lifecycle",
+    "https://www.reddit.com/r/manufacturing/comments/1t8bgjm/i_actually_do_this_for_living/",
+    "https://docs.oracle.com/en/cloud/saas/warehouse-management/26b/owaig/intelligent-cycle-counting.html",
+    "https://www.reddit.com/r/DentalBilling/comments/1rkocjr/insurance_verification_is_still_slowing_down_our/",
+    "https://www.dentalxchange.com/product/eligibility",
+    "https://vynedental.com/gettingstarted_eligibility/",
+    "https://www.reddit.com/r/LawFirm/comments/1r37294/case_management_software_recommendations/",
+    "https://www.clio.com/features/case-management/",
+    "https://www.reddit.com/r/restaurantowners/comments/1vtln00/inventory_and_administration_cost_v_benefit/",
+    "https://www.restaurant365.com/inventory/inventory-management/",
+    "https://www.reddit.com/r/biotech/comments/1sz5c48/looking_for_a_good_inventory_solution/",
+    "https://www.labguru.com/inventory",
+    "https://www.benchling.com/inventory"
+  ]
+}

@@ -6,17 +6,18 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 061 moved the observation point from seller-defined productized services to buyer-side repeated workarounds and multi-line-item stacks across multichannel inventory, short-term-rental operations, multi-business accounting, solo accounting-practice software, construction crew scheduling and podcast production/distribution. All six were demoted after exact-incumbent preflight: current sync tools, vertical all-in-one platforms or native consolidated control surfaces already occupy the repeatable machine layer.
+Scan 062 completed the second independent buyer-side workaround pass across employee identity lifecycle, manufacturing physical inventory truth, dental insurance eligibility, legal case management, restaurant inventory/food cost and biotech lab inventory. All six were demoted after exact-incumbent/native-control and residual-edge preflight.
 
 ```text
-BUYER-SIDE REPEATED WORKAROUND / MULTI-TOOL STACK
-→ PROVES AN UNSATISFIED OR COSTLY FLOW
-→ EXACT INCUMBENT / NATIVE CONTROL-SURFACE PREFLIGHT
-→ DISTINGUISH PACKAGING / ADOPTION FRICTION FROM AN UNOWNED EDGE
-→ FAIL CLOSED WHEN A MATURE SYNC / ALL-IN-ONE / VERTICAL CONTROL SURFACE ALREADY EXISTS
+BUYER-SIDE REPEATED WORKAROUND
+→ STRONG PAIN / UNSATISFIED-FLOW EVIDENCE
+→ NOT WHITE-SPACE EVIDENCE BY ITSELF
+→ REQUIRE ACTIVE/PAID INCUMBENT OR FAILED-SOFTWARE HISTORY
+→ ISOLATE THE RESIDUAL EDGE
+→ KILL IMPLEMENTATION / PHYSICAL-CAPTURE / HUMAN-PROCESS TAILS
 ```
 
-Buyer-side evidence is a better sensor than seller-defined categories, but one sample is not enough to derive another mechanism ontology. Scan 062 runs a second independent formation-diverse buyer-side workaround sample before changing the search rule.
+Two independent buyer-side passes now justify raising the evidence floor without creating a new required product shape. Scan 063 searches formation-diverse cases where a buyer already actively uses, pays for, or has tried an incumbent yet still maintains a costly workaround.
 
 ## Goal
 
@@ -30,27 +31,26 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Resolved recently:
-- `ATTRACTION_SCAN_051-F1` — DEMOTED after Jev-triggered exact incumbent preflight.
-- `ATTRACTION_SCAN_058` — zero retention after broad current paid work failed exact-product, official-integration, low-unit-economics or recurring expert/signoff floors.
-- `ATTRACTION_SCAN_059` — zero retention after strong recurring/contract-to-hire role spend failed native-AI/incumbent and human-residual floors.
-- `ATTRACTION_SCAN_060` — zero retention after direct non-role purchases proved either exact productized-service saturation or recurring human residual delivery.
-- `ATTRACTION_SCAN_061` — zero retention after buyer-side repeated workarounds proved exact sync/all-in-one/vertical control-surface saturation.
+- `ATTRACTION_SCAN_059` — zero retention after recurring role spend failed incumbent/native-AI and human-residual floors.
+- `ATTRACTION_SCAN_060` — zero retention after direct non-role purchases proved exact productized-service saturation or human residual delivery.
+- `ATTRACTION_SCAN_061` — zero retention after first buyer-side workaround pass hit mature sync/all-in-one/vertical control surfaces.
+- `ATTRACTION_SCAN_062` — zero retention after second independent buyer-side pass hit native identity workflows, vertical SaaS or physical-event/process tails.
 
 Discovery queue:
-- `ATTRACTION_SCAN_062 — SECOND_INDEPENDENT_BROAD_CURRENT_BUYER_SIDE_REPEATED_WORKAROUND_SPEND_OR_MULTI_LINE_ITEM_STACK_EVIDENCE_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_SELLER_DEFINED_CATEGORY_AS_PRIMARY_SIGNAL_NO_SCAN061_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_063 — BROAD_CURRENT_BUYER_SIDE_PERSISTENT_WORKAROUND_AFTER_ACTIVE_OR_PAID_INCUMBENT_ADOPTION_OR_FAILED_SOFTWARE_ATTEMPT_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_RESIDUAL_EDGE_EXACT_INCUMBENT_PREFLIGHT_NO_SCAN061_OR_SCAN062_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_061_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_062_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`5048cfd2b8811e0bd259c5fcc62f78107f635e6e`
-— squash merge of PR #358, `Close productized-service traps in Scan 060`.
+`998736983cf64e074df75109368a40e084950526`
+— squash merge of PR #359, `Close buyer-side workaround traps in Scan 061`.
 
-PR #358 repository CI and live Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #359 CI and live Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -58,11 +58,11 @@ PR #358 repository CI and live Jev completed successfully before merge. Jev: 6/6
 
 ## Active Branch
 
-`research/attraction-scan-061`.
+`research/attraction-scan-062`.
 
 ## Active PR
 
-Pending creation for Scan 061. Live GitHub state is authoritative.
+Pending creation for Scan 062. Live GitHub state is authoritative.
 
 ## CI
 
@@ -78,9 +78,9 @@ Pending creation for Scan 061. Live GitHub state is authoritative.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_061.json`
-- `docs/research/ATTRACTION_SCAN_061_2026-09-21.md`
-- `tests/test_attraction_scan_061_buyer_workaround_gate.py`
+- `data/research_runs/attraction_scan_062.json`
+- `docs/research/ATTRACTION_SCAN_062_2026-09-21.md`
+- `tests/test_attraction_scan_062_post_incumbent_evidence_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -106,16 +106,25 @@ Results:
 
 ```text
 BUYER-SIDE WORKAROUND
-IS BETTER DISCOVERY EVIDENCE THAN SELLER-DEFINED CATEGORY
-BUT
-MULTI-TOOL / SPREADSHEET FRICTION != WHITE SPACE
+= GOOD PAIN SENSOR
+!=
+COMMERCIAL WHITE SPACE
+
+PERSISTENT WORKAROUND
+AFTER PAID / ACTIVE INCUMBENT
+= STRONGER NEXT EVIDENCE CLASS
 ```
 
-Scan 061 sampled six current buyer-side workarounds: Shopify/Amazon/eBay inventory reconciliation, Airbnb/VRBO cleaner/calendar/pricing coordination, multi-business accounting consolidation, solo accounting-practice software sprawl, construction crew scheduling beside QuickBooks, and podcast production/distribution tool sprawl.
+Scan 062 deliberately repeated the buyer-side method on six unrelated domains. The result again was zero retention.
 
-The signal quality improved because the evidence began with what buyers were actually doing repeatedly rather than with a seller price page. It still produced zero retention. Sellbrite, Turno/Breezeway, Odoo-class multi-company accounting, Canopy, Workyard and Riverside/Spotify-class platforms already own the relevant repeatable control surfaces.
+The strongest observations were not ordinary spreadsheet use. They were cases where real spend or active systems already existed and the pain survived:
+- a 700-user IT team abandoned an onboarding/offboarding vendor costing close to $900/month;
+- a two-location restaurant reports roughly $4,000/month in inventory/control software and administration while food numbers remain unreliable;
+- a CRO already has a LIMS for samples but still runs reagent/consumable inventory through paper and shared Excel.
 
-The next useful move is not to infer a new mechanism after one buyer-side sample. Scan 062 should run a second independent, formation-diverse buyer-side workaround pass with no Scan 061 vertical inheritance and the same exact-incumbent fail-closed rule.
+Even these did not clear the hard floor in this pass. Microsoft Entra already owns the employee lifecycle machine layer; restaurant residual truth depends heavily on physical count/waste/portion capture; lab residual truth depends on recording physical receipt/use/scrap events. Dental eligibility and law case tracking were exact mature categories, while manufacturing ERP-vs-floor mismatch similarly collapses to physical event capture and process discipline.
+
+After two independent buyer-side passes, Scan 063 raises the evidence floor: start from a persistent workaround that survives active or paid incumbent adoption or a failed software attempt, then isolate whether the residual edge is actually digital/delegatable and unowned.
 
 ## Validation Status
 
@@ -133,13 +142,13 @@ Validation:
 Engineering:
 - No current Jev integration blocker.
 - Jev remains advisory and non-commercial; `automatic_research_execution_by_jev=false`.
-- The active repository agent must continue reversible research automatically when the continuation directive allows it, without asking the user to type `continue`.
+- The active repository agent must continue reversible research automatically when the continuation directive allows it.
 
 Discovery:
-- Scan 061 is complete with zero active retained formations and zero commercial promotions.
-- Buyer-side repeated workaround evidence improved truth contact but all six sampled edges were already occupied by current sync/all-in-one/vertical software.
-- Packaging, price or adoption dissatisfaction alone does not establish a distinct operator asset.
-- Scan 062 must be a second independent buyer-side workaround sample before any new mechanism boundary is derived.
+- Scan 062 is complete with zero active retained formations and zero commercial promotions.
+- Two independent buyer-side workaround samples now justify a higher evidence floor.
+- Scan 063 must require active/paid incumbent adoption or a failed software attempt before using a persistent workaround as the primary discovery signal.
+- Residual implementation, switching cost, source-data quality, physical event capture, expert judgment and organizational discipline must fail closed unless a distinct machine-resolvable edge remains.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -147,9 +156,14 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 061 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 062 as a second independent buyer-side repeated-workaround / multi-line-item-stack sample with no Scan 061 vertical inheritance.
+Create the Scan 062 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 063 from formation-diverse persistent workarounds that survive active/paid incumbent adoption or a failed software attempt.
 
 ## Do Not Repeat
+
+- Do not treat buyer-side workaround evidence alone as white-space evidence; Scans 061 and 062 independently falsified that shortcut.
+- Do not promote M365/Azure JML automation, generic manufacturing inventory reconciliation, dental eligibility verification, legal case management, restaurant inventory/food-cost software or lab inventory from Scan 062; each failed exact-control or machine-resolvable-residual floors.
+- Do not count a failed incumbent as proof of a new operator layer until the residual failure is isolated from implementation, switching cost, source-data quality, physical event capture and human process discipline.
+- In Scan 063, require evidence that the workaround persists despite an active/paid incumbent or failed software attempt; ordinary spreadsheet use is no longer a sufficient primary discovery signal.
 
 - Do not treat a buyer spreadsheet or multi-tool stack as white-space evidence by itself; first preflight exact sync, all-in-one and vertical control surfaces.
 - Do not promote multichannel inventory sync, STR turnover coordination, multi-company accounting, accounting-practice consolidation, construction crew scheduling or podcast stack consolidation from Scan 061; current exact products already occupy those control surfaces.
