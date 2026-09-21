@@ -6,18 +6,19 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 062 completed the second independent buyer-side workaround pass across employee identity lifecycle, manufacturing physical inventory truth, dental insurance eligibility, legal case management, restaurant inventory/food cost and biotech lab inventory. All six were demoted after exact-incumbent/native-control and residual-edge preflight.
+Scan 063 raised the evidence floor from generic buyer-side workarounds to residual work that persists after active/paid incumbent adoption or failed software attempts. Six unrelated cases across Salesforce, Jira, Workday, ServiceNow, Epic and OPERA Cloud were examined. All six were demoted because current native migrations, active product roadmaps, partner ecosystems or expert/configuration tails already absorb the remaining value.
 
 ```text
-BUYER-SIDE REPEATED WORKAROUND
-→ STRONG PAIN / UNSATISFIED-FLOW EVIDENCE
-→ NOT WHITE-SPACE EVIDENCE BY ITSELF
-→ REQUIRE ACTIVE/PAID INCUMBENT OR FAILED-SOFTWARE HISTORY
-→ ISOLATE THE RESIDUAL EDGE
-→ KILL IMPLEMENTATION / PHYSICAL-CAPTURE / HUMAN-PROCESS TAILS
+ACTIVE / PAID INCUMBENT
++ PERSISTENT WORKAROUND
+→ STRONG RESIDUAL SIGNAL
+→ CHECK NATIVE ROADMAP / MIGRATION
+→ CHECK PARTNER ECOSYSTEM
+→ CHECK CONFIGURATION / DATA / GOVERNANCE / HUMAN-JUDGMENT TAIL
+→ FAIL CLOSED IF ABSORPTION IS ACTIVE
 ```
 
-Two independent buyer-side passes now justify raising the evidence floor without creating a new required product shape. Scan 063 searches formation-diverse cases where a buyer already actively uses, pays for, or has tried an incumbent yet still maintains a costly workaround.
+Three buyer-side passes now justify an economic evidence escalation rather than another mechanism ontology. Scan 064 must start from buyers who pay an incumbent and separately keep paying a recurring external workaround for the same outcome.
 
 ## Goal
 
@@ -31,26 +32,25 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Resolved recently:
-- `ATTRACTION_SCAN_059` — zero retention after recurring role spend failed incumbent/native-AI and human-residual floors.
-- `ATTRACTION_SCAN_060` — zero retention after direct non-role purchases proved exact productized-service saturation or human residual delivery.
 - `ATTRACTION_SCAN_061` — zero retention after first buyer-side workaround pass hit mature sync/all-in-one/vertical control surfaces.
 - `ATTRACTION_SCAN_062` — zero retention after second independent buyer-side pass hit native identity workflows, vertical SaaS or physical-event/process tails.
+- `ATTRACTION_SCAN_063` — zero retention after post-incumbent residuals proved exposed to active native roadmap/partner absorption or expert/configuration tails.
 
 Discovery queue:
-- `ATTRACTION_SCAN_063 — BROAD_CURRENT_BUYER_SIDE_PERSISTENT_WORKAROUND_AFTER_ACTIVE_OR_PAID_INCUMBENT_ADOPTION_OR_FAILED_SOFTWARE_ATTEMPT_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_RESIDUAL_EDGE_EXACT_INCUMBENT_PREFLIGHT_NO_SCAN061_OR_SCAN062_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_064 — BROAD_CURRENT_BUYER_SIDE_ACTIVE_OR_PAID_INCUMBENT_PLUS_SEPARATE_RECURRING_EXTERNAL_WORKAROUND_SPEND_FOR_THE_SAME_OUTCOME_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_RESIDUAL_EXACT_INCUMBENT_AND_ROADMAP_PREFLIGHT_NO_SCAN061_TO_SCAN063_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_062_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_063_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`998736983cf64e074df75109368a40e084950526`
-— squash merge of PR #359, `Close buyer-side workaround traps in Scan 061`.
+`48c2273bfc0c46656cae32ec0cafa2d60c390689`
+— squash merge of PR #360, `Raise evidence floor after Scan 062`.
 
-PR #359 CI and live Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #360 CI and live Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -58,11 +58,11 @@ PR #359 CI and live Jev completed successfully before merge. Jev: 6/6 `NO_FURTHE
 
 ## Active Branch
 
-`research/attraction-scan-062`.
+`research/attraction-scan-063`.
 
 ## Active PR
 
-Pending creation for Scan 062. Live GitHub state is authoritative.
+Pending creation for Scan 063. Live GitHub state is authoritative.
 
 ## CI
 
@@ -78,9 +78,9 @@ Pending creation for Scan 062. Live GitHub state is authoritative.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_062.json`
-- `docs/research/ATTRACTION_SCAN_062_2026-09-21.md`
-- `tests/test_attraction_scan_062_post_incumbent_evidence_gate.py`
+- `data/research_runs/attraction_scan_063.json`
+- `docs/research/ATTRACTION_SCAN_063_2026-09-21.md`
+- `tests/test_attraction_scan_063_post_incumbent_residual_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -105,26 +105,26 @@ Results:
 ## Current Findings
 
 ```text
-BUYER-SIDE WORKAROUND
-= GOOD PAIN SENSOR
+POST-INCUMBENT RESIDUAL
+= STRONGER THAN GENERIC WORKAROUND
+BUT
+TEMPORARY PRODUCT DEFICIENCY
++ ACTIVE ROADMAP / PARTNER ECOSYSTEM
 !=
-COMMERCIAL WHITE SPACE
-
-PERSISTENT WORKAROUND
-AFTER PAID / ACTIVE INCUMBENT
-= STRONGER NEXT EVIDENCE CLASS
+DURABLE EXTERNAL WHITE SPACE
 ```
 
-Scan 062 deliberately repeated the buyer-side method on six unrelated domains. The result again was zero retention.
+Scan 063 sampled six cases where buyers were already inside a paid/active incumbent and still maintained a workaround:
+- Salesforce/Outlook activity capture after multiple native/third-party attempts;
+- Jira Advanced Roadmaps capacity planning still rebuilt in Excel;
+- Workday Financials reporting still returning to Excel;
+- ServiceNow guidance manually updated after form/workflow changes;
+- Epic Cogito analysts still running SQL and exporting ad-hoc reports to Excel;
+- OPERA Cloud front desks deferring ID data into text files during busy check-in.
 
-The strongest observations were not ordinary spreadsheet use. They were cases where real spend or active systems already existed and the pain survived:
-- a 700-user IT team abandoned an onboarding/offboarding vendor costing close to $900/month;
-- a two-location restaurant reports roughly $4,000/month in inventory/control software and administration while food numbers remain unreliable;
-- a CRO already has a LIMS for samples but still runs reagent/consumable inventory through paper and shared Excel.
+The residual evidence was materially stronger than Scans 061-062, but still produced zero retention. Salesforce is actively migrating email capture into standard Activity records; ServiceNow introduced Dynamic Guidance; Workday owns OfficeConnect; Jira Plans owns the portfolio/capacity layer; Epic already has Cogito self-service reporting; OPERA has preregistration/OHIP/mobile-check-in partner rails.
 
-Even these did not clear the hard floor in this pass. Microsoft Entra already owns the employee lifecycle machine layer; restaurant residual truth depends heavily on physical count/waste/portion capture; lab residual truth depends on recording physical receipt/use/scrap events. Dental eligibility and law case tracking were exact mature categories, while manufacturing ERP-vs-floor mismatch similarly collapses to physical event capture and process discipline.
-
-After two independent buyer-side passes, Scan 063 raises the evidence floor: start from a persistent workaround that survives active or paid incumbent adoption or a failed software attempt, then isolate whether the residual edge is actually digital/delegatable and unowned.
+This suggests the next useful filter is **parallel double spend**: an incumbent subscription plus a separate recurring external workaround payment for the same outcome. That is stronger evidence that the residual itself—not merely dissatisfaction—carries willingness to pay.
 
 ## Validation Status
 
@@ -145,10 +145,10 @@ Engineering:
 - The active repository agent must continue reversible research automatically when the continuation directive allows it.
 
 Discovery:
-- Scan 062 is complete with zero active retained formations and zero commercial promotions.
-- Two independent buyer-side workaround samples now justify a higher evidence floor.
-- Scan 063 must require active/paid incumbent adoption or a failed software attempt before using a persistent workaround as the primary discovery signal.
-- Residual implementation, switching cost, source-data quality, physical event capture, expert judgment and organizational discipline must fail closed unless a distinct machine-resolvable edge remains.
+- Scan 063 is complete with zero active retained formations and zero commercial promotions.
+- Current product roadmap/native migration/partner-ecosystem absorption must now be preflighted alongside static incumbents.
+- Scan 064 must require parallel spend: active/paid incumbent + separate recurring external workaround payment for the same outcome.
+- Expert consulting, configuration, one-off implementation, OCM, data-cleanup and physical-process tails still fail closed unless a distinct reusable machine/delegatable asset remains.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -156,9 +156,14 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 062 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 063 from formation-diverse persistent workarounds that survive active/paid incumbent adoption or a failed software attempt.
+Create the Scan 063 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 064 from formation-diverse buyers who maintain recurring external workaround spend in parallel with an active/paid incumbent for the same outcome.
 
 ## Do Not Repeat
+
+- Do not treat a persistent post-incumbent workaround as durable white space until the incumbent's current migration path, roadmap and partner ecosystem are checked.
+- Do not promote Salesforce/Outlook activity sync, Jira portfolio-capacity reporting, Workday Excel reporting, ServiceNow role-aware guidance, Epic ad-hoc analytics or OPERA check-in from Scan 063; current native/partner surfaces are actively absorbing those gaps.
+- Do not count configuration, data quality, governance, OCM or expert interpretation as a founder-independent machine residual merely because the incumbent is unpopular or incomplete.
+- In Scan 064, require actual parallel economic evidence: incumbent spend plus separate recurring external workaround spend for the same outcome.
 
 - Do not treat buyer-side workaround evidence alone as white-space evidence; Scans 061 and 062 independently falsified that shortcut.
 - Do not promote M365/Azure JML automation, generic manufacturing inventory reconciliation, dental eligibility verification, legal case management, restaurant inventory/food-cost software or lab inventory from Scan 062; each failed exact-control or machine-resolvable-residual floors.
