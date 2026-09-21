@@ -224,7 +224,13 @@ def build_research_states(
     commercial_state: Mapping[str, Any] | None = None,
     max_entities: int = 12,
 ) -> list[dict[str, Any]]:
-    """Build compact Jev inputs while preserving authoritative engine conclusions."""
+    """Build compact Jev inputs while preserving authoritative engine conclusions.
+
+    A later durable resolution in commercial state overrides the older verdict
+    embedded in the scan that originally discovered the formation. This keeps
+    autonomous continuation from reopening a formation after a separate cheap
+    falsification has already closed it.
+    """
 
     max_entities = max(1, min(int(max_entities), 100))
     commercial = dict(commercial_state or {})
@@ -238,6 +244,14 @@ def build_research_states(
         str(item)
         for item in (scan.get("retained_research_formations") or [])
     }
+    resolved_by_id: dict[str, str] = {}
+    for item in commercial.get("resolved_research_formations") or []:
+        if not isinstance(item, Mapping):
+            continue
+        formation_id = str(item.get("formation_id") or "").strip()
+        verdict = str(item.get("verdict") or "").strip()
+        if formation_id and verdict:
+            resolved_by_id[formation_id] = verdict
 
     states: list[dict[str, Any]] = []
     for raw in rows[:max_entities]:
@@ -246,7 +260,10 @@ def build_research_states(
         title = str(raw.get("title") or "").strip()
         if not title:
             continue
-        verdict = str(raw.get("verdict") or "UNKNOWN").strip() or "UNKNOWN"
+        formation_id = str(raw.get("formation_id") or title).strip() or title
+        scan_verdict = str(raw.get("verdict") or "UNKNOWN").strip() or "UNKNOWN"
+        resolved_verdict = resolved_by_id.get(formation_id, "")
+        verdict = resolved_verdict or scan_verdict
         is_closed = verdict.startswith(("DEMOTED_", "REJECTED_", "CLOSED_"))
         states.append(
             {
@@ -269,16 +286,23 @@ def build_research_states(
                     ),
                 },
                 "formation": {
+                    "formation_id": formation_id,
                     "title": title,
                     "chinese_title": str(raw.get("chinese_title") or ""),
                     "evidence_class": str(raw.get("evidence_class") or ""),
                     "evidence_summary": _compact_text(raw.get("evidence_summary"), 1400),
                 },
                 "authoritative_engine_context": {
+                    "existing_scan_verdict": scan_verdict,
                     "existing_verdict": verdict,
+                    "resolved_in_commercial_state": bool(resolved_verdict),
                     "existing_closure_authoritative": is_closed,
-                    "already_commercially_promoted": title in active_promotions,
-                    "already_retained_for_research": title in retained,
+                    "already_commercially_promoted": (
+                        formation_id in active_promotions or title in active_promotions
+                    ),
+                    "already_retained_for_research": (
+                        formation_id in retained or title in retained
+                    ),
                     "active_commercial_candidate_count": len(
                         commercial.get("active_commercial_candidates") or []
                     ),
@@ -449,6 +473,7 @@ def evaluate_research_advisory(
             else {}
         )
         title = str(formation.get("title") or "")
+        formation_id = str(formation.get("formation_id") or title)
         started = time.perf_counter()
         result: dict[str, Any] | None = None
         error: Exception | None = None
@@ -469,7 +494,7 @@ def evaluate_research_advisory(
 
         latency_ms = round((time.perf_counter() - started) * 1000.0, 3)
         row: dict[str, Any] = {
-            "formation_id": title,
+            "formation_id": formation_id,
             "existing_engine_verdict": str(engine.get("existing_verdict") or "UNKNOWN"),
             "existing_closure_authoritative": engine.get("existing_closure_authoritative") is True,
             "state_fingerprint": _fingerprint(state),

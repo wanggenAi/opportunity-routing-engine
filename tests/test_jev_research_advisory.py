@@ -190,6 +190,58 @@ class JevResearchAdvisoryTests(unittest.TestCase):
         self.assertEqual(row["route_alignment"], "NO_AUTHORITATIVE_CLOSURE")
         self.assertFalse(row["automatic_research_dispatch_allowed"])
 
+    def test_durable_commercial_resolution_overrides_older_open_scan_verdict(self):
+        scan = dict(self.scan)
+        scan["retained_research_formations"] = ["ATTRACTION_SCAN_046-F1"]
+        scan["examined_formations"] = [
+            {
+                "formation_id": "ATTRACTION_SCAN_046-F1",
+                "title": "MCP_MIGRATION",
+                "evidence_class": "PAID_EARLY_CATEGORY",
+                "verdict": "RETAINED_FOR_CHEAP_FALSIFICATION",
+                "evidence_summary": "The original scan retained this path for cheap falsification.",
+            }
+        ]
+        commercial = dict(self.commercial)
+        commercial["resolved_research_formations"] = [
+            {
+                "formation_id": "ATTRACTION_SCAN_046-F1",
+                "verdict": "DEMOTED_AFTER_CHEAP_FALSIFICATION",
+                "resolved_date": "2026-09-21",
+            }
+        ]
+
+        states = build_research_states(scan=scan, commercial_state=commercial)
+        self.assertEqual(len(states), 1)
+        state = states[0]
+        self.assertEqual(state["formation"]["formation_id"], "ATTRACTION_SCAN_046-F1")
+        engine = state["authoritative_engine_context"]
+        self.assertEqual(
+            engine["existing_scan_verdict"],
+            "RETAINED_FOR_CHEAP_FALSIFICATION",
+        )
+        self.assertEqual(
+            engine["existing_verdict"],
+            "DEMOTED_AFTER_CHEAP_FALSIFICATION",
+        )
+        self.assertTrue(engine["resolved_in_commercial_state"])
+        self.assertTrue(engine["existing_closure_authoritative"])
+        self.assertTrue(engine["already_retained_for_research"])
+
+        payload = evaluate_research_advisory(
+            states=states,
+            config=JevResearchConfig(enabled=True, shadow_mode=True),
+            provider=FakeProvider(),
+        )
+        row = payload["rows"][0]
+        self.assertEqual(row["formation_id"], "ATTRACTION_SCAN_046-F1")
+        self.assertEqual(row["model_research_route"], "CAUSAL_DESCENT")
+        self.assertEqual(row["effective_research_route"], "NO_FURTHER_RESEARCH")
+        self.assertEqual(
+            row["effective_route_source"],
+            "AUTHORITATIVE_ENGINE_CLOSURE",
+        )
+
     def test_auto_scan_resolution_follows_commercial_last_completed_scan(self):
         commercial = json.loads(
             (ROOT / "data/commercial_reset_state.json").read_text(encoding="utf-8")

@@ -56,14 +56,19 @@
       "formation_id": "ATTRACTION_SCAN_016-F1",
       "verdict": "DEMOTED_UNPROVEN_TWO_RAIL_9610_CALLABILITY_AND_PLATFORM_OWNED_VALUE_LAYER",
       "resolved_date": "2026-09-21"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_046-F1",
+      "verdict": "DEMOTED_TEMPORARY_MIGRATION_SERVICE_DENSE_SPECIALIST_SUPPLY_EXPERT_DELIVERY_AND_FAST_PLATFORM_ABSORPTION",
+      "resolved_date": "2026-09-21"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_045",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_016-F1",
-  "next_scan_id": "ATTRACTION_SCAN_046",
-  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_SCAN046_OBSERVED_PAID_MICROFLOW_EARLY_CATEGORY_SEARCH",
+  "last_completed_scan_id": "ATTRACTION_SCAN_046",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_046-F1",
+  "next_scan_id": "ATTRACTION_SCAN_047",
+  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_SCAN047_BROAD_PAID_MICROFLOW_SEARCH",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -412,7 +417,20 @@
     "WHEN_THE_BYPRODUCT_IS_NON_SENSITIVE_AND_HIGHLY_REUSABLE_IT_OFTEN_BECOMES_INFRASTRUCTURE_AND_SCALED_INCUMBENTS_CAPTURE_IT_EARLY",
     "WHEN_THE_BYPRODUCT_IS_NOT_INCUMBENT_OWNED_IT_IS_OFTEN_CUSTOMER_PRIVATE_IDENTITY_BEARING_OR_RIGHTS_CONSTRAINED",
     "THE_NEXT_DISCOVERY_STEP_SHOULD_STOP_DERIVING_ABSTRACT_ASSET_SHAPES_AND_LOOK_FOR_EARLY_PAID_MICRO_FLOWS_BEFORE_CATEGORY_MATURITY",
-    "SCAN_046_SHOULD_SEARCH_FOR_RECENTLY_OBSERVED_PAID_MICRO_FLOWS_WITH_SPARSE_SPECIALIZED_SUPPLY_THEN_APPLY_THE_SAME_ASSET_RIGHTS_AND_DELIVERY_HARD_FLOORS"
+    "SCAN_046_SHOULD_SEARCH_FOR_RECENTLY_OBSERVED_PAID_MICRO_FLOWS_WITH_SPARSE_SPECIALIZED_SUPPLY_THEN_APPLY_THE_SAME_ASSET_RIGHTS_AND_DELIVERY_HARD_FLOORS",
+    "ATTRACTION_SCAN_046 completed on 2026-09-21 with one research-only formation and zero commercial promotions.",
+    "Starting from observed paid micro-flows surfaced stronger demand truth than deriving another abstract asset shape.",
+    "Shopify GEO, EU AI Act governance, accessibility audits, agentic-commerce enablement and generic n8n automation all showed real money motion but failed on dense supply, recurring expert judgment, mature service structure or platform-native control.",
+    "ATTRACTION_SCAN_046-F1 retains MCP 2026-07-28 spec migration/conformance only for cheap falsification; the official breaking revision, current paid SDK-maintenance hiring and fixed-price migration offers establish a real early category.",
+    "Scan 046-F1 is not a commercial candidate: real installed-base payer incidence, machine-first standardization, founder-free inbound, normalized delegated margin and resistance to SDK/scanner/platform absorption remain unproven.",
+    "Scan 047 must not inherit MCP migration terms as a search prior.",
+    "ATTRACTION_SCAN_046-F1 cheap falsification completed on 2026-09-21.",
+    "Current MCP 2026-07-28 migration work has real paid engineering demand, but the official deprecation window and dual-era negotiation reduce universal forced urgency.",
+    "Multiple fixed-price MCP migration/audit specialists formed within weeks, so specialized supply is not demonstrably sparse.",
+    "Remote conformance probes automate the public protocol surface but cannot resolve customer-private session state, OAuth topology, deployment behavior and hidden application paths.",
+    "Official SDK codemods/guides plus Cloudflare and AWS dual-version support show rapid tool/platform absorption of the reusable migration layer.",
+    "Scan 046-F1 is removed from active research because the machine-readable layer is copyable while the difficult remainder is bespoke senior engineering.",
+    "Scan 047 must not inherit MCP or protocol-migration terms as a search prior."
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -555,9 +573,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_046",
+      "next_scan_id": "ATTRACTION_SCAN_047",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "BROAD_CURRENT_REALITY_RECENTLY_OBSERVED_PAID_OR_CONTRACTED_MICRO_FLOW_WITH_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_SPARSE_SPECIALIZED_SUPPLY_OR_EARLY_CATEGORY_FORMATION_MACHINE_EXECUTABLE_OR_DELEGATABLE_DELIVERY_EXECUTION_CREATED_PERMISSIONED_REUSABLE_ASSET_PREFERRED_NO_MATURE_CONTROL_SURFACE_NO_RECURRING_FOUNDER_ACQUISITION_NO_RECURRING_EXPERT_DELIVERY_NO_REQUIRED_VERTICAL_OR_MECHANISM"
+      "search_boundary": "BROAD_CURRENT_REALITY_OBSERVED_PAID_OR_CONTRACTED_MICROFLOW_SPARSE_SPECIALIZED_SUPPLY_OR_EARLY_CATEGORY_NO_MCP_SPEC_MIGRATION_OR_ACTIVE_VERTICAL_INHERITANCE_REAPPLY_ALL_EXISTING_HARD_FLOORS"
     }
   },
   "system_learnings": [
@@ -646,6 +664,18 @@
     "CLEAN_EXECUTION_BYPRODUCT_ASSETS_TEND_TO_PLATFORMIZE_EARLY",
     "RIGHTS_CONSTRAINED_PRIVATE_DATA_IS_THE_COMMON_ALTERNATIVE_TO_INCUMBENT_OWNED_INFRASTRUCTURE",
     "ABSTRACT_ASSET_SHAPE_SEARCH_HAS_REACHED_DIMINISHING_RETURNS",
-    "SCAN046_RESETS_DISCOVERY_TO_OBSERVED_PAID_MICROFLOWS_WITH_SPARSE_SPECIALIZED_SUPPLY"
+    "SCAN046_RESETS_DISCOVERY_TO_OBSERVED_PAID_MICROFLOWS_WITH_SPARSE_SPECIALIZED_SUPPLY",
+    "OBSERVED_MONEY_MOTION_IS_A_STRONGER_DISCOVERY_START_THAN_ABSTRACT_BUSINESS_SHAPE",
+    "PAID_MICROFLOW_DOES_NOT_OVERRIDE_DENSE_SUPPLY_EXPERT_DELIVERY_OR_PLATFORM_ABSORPTION",
+    "RECENT_PROTOCOL_BREAKING_CHANGE_CAN_CREATE_AN_EARLY_SPECIALIZED_MIGRATION_WINDOW",
+    "MCP_2026_07_28_MIGRATION_REQUIRES_PAYER_INCIDENCE_AND_MACHINE_FIRST_STANDARDIZATION_FALSIFICATION",
+    "NEXT_BROAD_SCAN_MUST_NOT_INHERIT_MCP_MIGRATION_AS_AN_ONTOLOGY",
+    "REAL_BREAKING_CHANGE_CAN_CREATE_PAID_ENGINEERING_WORK_WITHOUT_CREATING_FOUNDER_INDEPENDENT_BUSINESS",
+    "MINIMUM_DEPRECATION_WINDOWS_AND_DUAL_ERA_NEGOTIATION_REDUCE_FORCED_MIGRATION_URGENCY",
+    "EARLY_CATEGORY_DOES_NOT_EQUAL_SPARSE_SUPPLY_WHEN_SPECIALISTS_PRODUCTIZE_WITHIN_WEEKS",
+    "MACHINE_CHECKABLE_PROTOCOL_SURFACE_CAN_COMMODITIZE_WHILE_PRIVATE_ARCHITECTURAL_REMEDIATION_REMAINS_EXPERT_WORK",
+    "OFFICIAL_SDK_AND_GATEWAY_ABSORPTION_CAN_CLOSE_A_MIGRATION_WINDOW_BEFORE_OPERATOR_ASSET_FORMS",
+    "PUBLIC_CONFORMANCE_RULES_ARE_NOT_COMPOUNDING_OPERATOR_CONTROL_WHEN_FREE_TOOLING_CAN_COPY_THEM",
+    "SCAN046_F1_DEMOTED_AFTER_CHEAP_FALSIFICATION"
   ]
 }

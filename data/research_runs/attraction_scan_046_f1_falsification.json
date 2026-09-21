@@ -1,0 +1,130 @@
+{
+  "schema_version": "formation-falsification.v1",
+  "formation_id": "ATTRACTION_SCAN_046-F1",
+  "as_of_date": "2026-09-21",
+  "prior_state": "RESEARCH_BEACON_RETAINED_FOR_PAYER_INCIDENCE_STANDARDIZATION_CONTROL_SURFACE_AND_FOUNDER_FREE_ACQUISITION_FALSIFICATION",
+  "verdict": "DEMOTED_TEMPORARY_MIGRATION_SERVICE_DENSE_SPECIALIST_SUPPLY_EXPERT_DELIVERY_AND_FAST_PLATFORM_ABSORPTION",
+  "commercial_candidate": false,
+  "retain_for_active_validation": false,
+  "first_external_value_flow": "NOT_PROVEN",
+  "decisive_kills": [
+    {
+      "kill": "CURRENT_PAYER_EVIDENCE",
+      "status": "PARTIAL_PASS",
+      "reason": "Current paid SDK-maintenance work explicitly cites the 2026-07-28 session rewrite and has hired engineers at $60-$90/hour, so spec churn does create paid engineering demand. Evidence does not show a broad standalone buyer pool for a separate migration operator."
+    },
+    {
+      "kill": "MIGRATION_URGENCY",
+      "status": "FAIL",
+      "reason": "The official MCP release includes a minimum twelve-month deprecation policy and modern infrastructure supports dual-era negotiation. Earlier protocol implementations remain in real use; this is migration work, not a universal immediate cutover deadline."
+    },
+    {
+      "kill": "SPARSE_SPECIALIZED_SUPPLY",
+      "status": "FAIL",
+      "reason": "Within weeks of the revision, multiple independent specialists already publish fixed-price readiness audits and migration sprints, including MCP Migration Studio, Accura.dev, Stratt Labs and ECZ-ID Trust MCP. The category is early but supply is no longer demonstrably sparse."
+    },
+    {
+      "kill": "MACHINE_FIRST_FOUNDER_INDEPENDENT_DELIVERY",
+      "status": "FAIL",
+      "reason": "Free remote probes can test protocol negotiation and surface behavior, but they explicitly cannot inspect session-keyed application state, OAuth/protected-resource correctness, long-lived flows or hidden error paths. The official TypeScript guide likewise says 2026-07-28 adoption is architectural and not codemod-automatable."
+    },
+    {
+      "kill": "FAST_PLATFORM_AND_TOOL_ABSORPTION",
+      "status": "FAIL",
+      "reason": "Official SDKs ship detailed migration guidance and agent-oriented codemods; Cloudflare servers and portals already negotiate the 2026-07-28 revision alongside older clients, and AWS AgentCore documents dual-version gateway support. The reusable conformance layer is rapidly becoming SDK/gateway/tool functionality."
+    },
+    {
+      "kill": "DISTINCT_COMPOUNDING_OPERATOR_ASSET",
+      "status": "FAIL",
+      "reason": "Reusable public protocol rules and conformance probes are easy to copy and increasingly available as free/open tooling. The difficult residual knowledge lives in each customer's private source, auth topology and deployment state, which cannot be reused as a cross-customer asset."
+    },
+    {
+      "kill": "FOUNDER_FREE_INBOUND",
+      "status": "NOT_PROVEN",
+      "reason": "Provider landing pages prove sellers are positioning for the work, not that a new operator can acquire enough high-intent migration buyers organically without recurring founder-led sales."
+    }
+  ],
+  "evidence": [
+    {
+      "source_type": "OFFICIAL_PROTOCOL",
+      "title": "The 2026-07-28 Specification",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+      "fact": "Largest MCP revision since launch; stateless core plus a formal minimum twelve-month deprecation policy."
+    },
+    {
+      "source_type": "OFFICIAL_SDK",
+      "title": "Supporting protocol revision 2026-07-28",
+      "url": "https://ts.sdk.modelcontextprotocol.io/v2/migration/support-2026-07-28",
+      "fact": "Existing v2 code does not automatically speak the new revision; migration requires explicit changes."
+    },
+    {
+      "source_type": "OFFICIAL_SDK",
+      "title": "MCP TypeScript SDK migration guides",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/main/docs/migration/index.md",
+      "fact": "The official v1-to-v2 path includes a codemod and is structured for LLM-agent use, while 2026-07-28 adoption remains architectural rather than fully codemod-automatable."
+    },
+    {
+      "source_type": "PAID_BUYER_SIGNAL",
+      "title": "Senior Java Engineer — MCP Analytics SDK",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Senior-Java-Engineer-Port-Our-Open-Source-MCP-Analytics-SDK-TypeScript-Java_~022090098599430801831/",
+      "fact": "Current 3-6 month $60-$90/hour role with a hire explicitly cites 2026-07-28 session changes and ongoing spec-maintenance work."
+    },
+    {
+      "source_type": "SPECIALIST_SUPPLY",
+      "title": "MCP Migration Studio",
+      "url": "https://mcpmigrate.dev/",
+      "fact": "Publishes fixed-price migration sprints at $1,500-$2,500 plus ongoing maintenance."
+    },
+    {
+      "source_type": "SPECIALIST_SUPPLY",
+      "title": "Accura.dev MCP pricing",
+      "url": "https://accura.dev/en/tarifs",
+      "fact": "Publishes a EUR 950 audit and EUR 2,400 migration sprint."
+    },
+    {
+      "source_type": "SPECIALIST_SUPPLY",
+      "title": "Stratt Labs MCP Migration Audit",
+      "url": "https://strattlabs.com/",
+      "fact": "Publishes a EUR 990 five-day migration audit."
+    },
+    {
+      "source_type": "SPECIALIST_SUPPLY",
+      "title": "ECZ-ID Trust MCP Readiness Audit",
+      "url": "https://mcp.ecocitizenz.com/services/readiness-audit",
+      "fact": "Publishes a GBP 395 readiness audit and explicitly notes there is no mandatory cutover deadline and earlier revisions remain in use."
+    },
+    {
+      "source_type": "FREE_TOOL",
+      "title": "MCP Migration Studio free readiness audit",
+      "url": "https://mcpmigrate.dev/audit",
+      "fact": "Automates six remote protocol probes but explicitly cannot verify session-keyed application state, OAuth correctness and several code-level behaviors."
+    },
+    {
+      "source_type": "PLATFORM_ABSORPTION",
+      "title": "Cloudflare MCP servers 2026-07-28 support",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-07-28-cloudflare-mcp-servers-mcp-2026-07-28/",
+      "fact": "Cloudflare shipped new-spec support on release day with compatibility for 2025 Streamable HTTP clients."
+    },
+    {
+      "source_type": "PLATFORM_ABSORPTION",
+      "title": "Cloudflare MCP portals 2026-07-28 support",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-08-25-mcp-portals-mcp-2026-07-28/",
+      "fact": "Portals automatically negotiate new and older protocol eras independently between clients and upstream servers."
+    },
+    {
+      "source_type": "PLATFORM_ABSORPTION",
+      "title": "AWS AgentCore Gateway supports MCP 2026-07-28",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-agentcore-gateway-supports-the-mcp-2026-07-28-spec/",
+      "fact": "Gateway guidance emphasizes dual-version migration and independent client/server upgrade schedules."
+    }
+  ],
+  "retained_learning": [
+    "A_REAL_BREAKING_CHANGE_CAN_CREATE_PAID_ENGINEERING_WORK_WITHOUT_CREATING_A_FOUNDER_INDEPENDENT_BUSINESS",
+    "MINIMUM_DEPRECATION_WINDOWS_AND_DUAL_ERA_NEGOTIATION_REDUCE_FORCED_MIGRATION_URGENCY",
+    "EARLY_CATEGORY_DOES_NOT_MEAN_SPARSE_SUPPLY_WHEN_MULTIPLE_SPECIALISTS_PRODUCTIZE_WITHIN_WEEKS",
+    "MACHINE_READABLE_CONFORMANCE_ONLY_COVERS_THE_SURFACE_WHEN_PRIVATE_STATE_AUTH_AND_DEPLOYMENT_REMAIN_BESPOKE",
+    "OFFICIAL_SDK_AGENT_SKILLS_CODEMODS_AND_GATEWAYS_CAN_ABSORB_PROTOCOL_MIGRATION_VALUE_FAST",
+    "PUBLIC_CONFORMANCE_RULES_DO_NOT_COMPOUND_INTO_OPERATOR_CONTROL_WHEN_FREE_OPEN_TOOLING_CAN_COPY_THEM"
+  ],
+  "next_action": "REMOVE_FROM_ACTIVE_VALIDATION_AND_CONTINUE_SCAN047_WITHOUT_MCP_SPEC_MIGRATION_INHERITANCE"
+}
