@@ -43,14 +43,14 @@ ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PR
 
 ## Current Phase
 
-`SCAN_063_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_064_DISCOVERY_IN_PROGRESS`
 
 ## Last Verified Main
 
-`48c2273bfc0c46656cae32ec0cafa2d60c390689`
-— squash merge of PR #360, `Raise evidence floor after Scan 062`.
+`482975f70da77974797bcd86e4811891081b6967`
+— squash merge of PR #361, `Escalate to double-spend evidence after Scan 063`.
 
-PR #360 CI and live Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #361 CI and live Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -58,11 +58,11 @@ PR #360 CI and live Jev completed successfully before merge. Jev: 6/6 `NO_FURTHE
 
 ## Active Branch
 
-`research/attraction-scan-063`.
+`research/attraction-scan-064`.
 
 ## Active PR
 
-Pending creation for Scan 063. Live GitHub state is authoritative.
+None yet for Scan 064; discovery evidence formation is in progress. Live GitHub state is authoritative.
 
 ## CI
 
@@ -105,26 +105,20 @@ Results:
 ## Current Findings
 
 ```text
-POST-INCUMBENT RESIDUAL
-= STRONGER THAN GENERIC WORKAROUND
-BUT
-TEMPORARY PRODUCT DEFICIENCY
-+ ACTIVE ROADMAP / PARTNER ECOSYSTEM
-!=
-DURABLE EXTERNAL WHITE SPACE
+SCAN 064 PRIMARY SENSOR
+= ACTIVE / PAID INCUMBENT
++ SEPARATE RECURRING EXTERNAL WORKAROUND SPEND
+FOR THE SAME BUSINESS OUTCOME
 ```
 
-Scan 063 sampled six cases where buyers were already inside a paid/active incumbent and still maintained a workaround:
-- Salesforce/Outlook activity capture after multiple native/third-party attempts;
-- Jira Advanced Roadmaps capacity planning still rebuilt in Excel;
-- Workday Financials reporting still returning to Excel;
-- ServiceNow guidance manually updated after form/workflow changes;
-- Epic Cogito analysts still running SQL and exporting ad-hoc reports to Excel;
-- OPERA Cloud front desks deferring ID data into text files during busy check-in.
+Initial raw evidence confirms that this stronger economic class exists:
+- a current Google Ads buyer reports $200k-$400k/month media spend plus a $25k/month agency fee while questioning the agency's execution;
+- a current UiPath buyer seeks a long-term freelancer for multiple automation projects and states a $125/hour rate;
+- a current Dynamics 365 end-user describes ongoing dependence on a third-party support provider while internal staff continue firefighting and backlog work.
 
-The residual evidence was materially stronger than Scans 061-062, but still produced zero retention. Salesforce is actively migrating email capture into standard Activity records; ServiceNow introduced Dynamic Guidance; Workday owns OfficeConnect; Jira Plans owns the portfolio/capacity layer; Epic already has Cogito self-service reporting; OPERA has preregistration/OHIP/mobile-check-in partner rails.
+These are **raw formation signals only**, not retained candidates. Each still needs the full Scan 064 floor: same-outcome linkage, recurring external spend, digital/delegatable residual, exact incumbent + roadmap preflight, and rejection of expert implementation/support/judgment tails.
 
-This suggests the next useful filter is **parallel double spend**: an incumbent subscription plus a separate recurring external workaround payment for the same outcome. That is stronger evidence that the residual itself—not merely dissatisfaction—carries willingness to pay.
+The economic sensor is behaving as intended: it observes willingness to pay for the residual itself rather than inferring demand from dissatisfaction.
 
 ## Validation Status
 
@@ -156,7 +150,7 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 063 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 064 from formation-diverse buyers who maintain recurring external workaround spend in parallel with an active/paid incumbent for the same outcome.
+Continue Scan 064 with formation-diverse current double-spend cases. For each case, prove that the incumbent spend and external recurring workaround target the same business outcome, then isolate the external paid residual. Fail closed when the second spend is primarily human judgment, implementation responsibility, relationship labor, managed liability transfer, or platform-specific administration. Only after six independent formations are closed should the Scan 064 artifact, test, PR, CI and Jev advisory be produced.
 
 ## Do Not Repeat
 
