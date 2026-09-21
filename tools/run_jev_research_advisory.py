@@ -12,6 +12,7 @@ if str(_REPO_ROOT) not in sys.path:
 
 from src.jev_research_advisory import (
     JevResearchConfig,
+    build_continuation_directive,
     build_research_states,
     evaluate_research_advisory,
     render_advisory_markdown,
@@ -98,6 +99,8 @@ def main() -> int:
     json_path = args.output_dir / "jev_research_advisory.json"
     md_path = args.output_dir / "jev_research_advisory.md"
     state_path = args.output_dir / "jev_research_states.json"
+    continuation_path = args.output_dir / "jev_continuation_directive.json"
+    continuation = build_continuation_directive(payload)
 
     json_path.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
@@ -106,6 +109,10 @@ def main() -> int:
     md_path.write_text(render_advisory_markdown(payload), encoding="utf-8")
     state_path.write_text(
         json.dumps(states, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+    continuation_path.write_text(
+        json.dumps(continuation, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
 
@@ -117,6 +124,10 @@ def main() -> int:
                 "input_scan_path": payload.get("input_scan_path"),
                 "entity_count": payload.get("entity_count"),
                 "summary": payload.get("summary"),
+                "continuation_next_action": continuation.get("next_action"),
+                "autonomous_continuation_allowed": continuation.get(
+                    "autonomous_continuation_allowed"
+                ),
             },
             ensure_ascii=False,
             sort_keys=True,
