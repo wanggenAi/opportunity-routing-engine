@@ -60,10 +60,10 @@
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_034",
+  "last_completed_scan_id": "ATTRACTION_SCAN_035",
   "last_resolved_formation_id": "ATTRACTION_SCAN_016-F1",
-  "next_scan_id": "ATTRACTION_SCAN_035",
-  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_DIGITAL_PAYER_WORKAROUND_SCAN035",
+  "next_scan_id": "ATTRACTION_SCAN_036",
+  "current_research_action": "PARALLEL_WAIT_SCAN015_F1_AND_INCUMBENT_PREFLIGHT_SCAN036",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -347,7 +347,13 @@
     "PLATFORM_SCARCE_RESOURCE_CAPTURE_CAN_SHOW_PAYMENT_WITHOUT_CREATING_LEGITIMATE_NEW_VALUE",
     "CURRENT_CCAAS_CRM_CONTENT_MODERATION_AND_BID_AI_SHOW_THAT_OBVIOUS_DIGITAL_WORKAROUNDS_PRODUCTIZE_QUICKLY",
     "NEXT_SCAN_SHOULD_PREFILTER_FOR_DIGITAL_OR_DELEGATABLE_DELIVERY_BEFORE_DEEP_RESEARCH_WHILE_REMAINING_MECHANISM_NEUTRAL",
-    "SCAN_034_ZERO_RETENTION_AFTER_PAYER_AND_WORKAROUND_HARD_FLOOR_FALSIFICATION"
+    "SCAN_034_ZERO_RETENTION_AFTER_PAYER_AND_WORKAROUND_HARD_FLOOR_FALSIFICATION",
+    "DIGITAL_OR_DELEGATABLE_DELIVERY_PREFILTER_REMOVES_HUMAN_SERVICE_NOISE_BUT_DOES_NOT_REDUCE_INCUMBENT_DENSITY",
+    "DIRECT_PAYER_DIGITAL_CATEGORIES_CAN_ALREADY_BE_COMMODITIZED",
+    "EXACT_INCUMBENT_SEARCH_SHOULD_MOVE_TO_THE_START_OF_DEEP_RESEARCH",
+    "PLATFORM_NATIVE_RIGHTS_OR_PUBLISHING_CONTROLS_ARE_STRONGER_THAN_A_THIN_THIRD_PARTY_ASSISTANT",
+    "AIGC_RIGHTS_PROOF_IS_STRONGEST_WHEN_ISSUED_BY_THE_GENERATION_OR_ASSET_PLATFORM_ITSELF",
+    "SCAN_035_ZERO_RETENTION_AFTER_DIGITAL_PAYER_AND_INCUMBENT_FALSIFICATION"
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -475,7 +481,11 @@
     "ATTRACTION_SCAN_034 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
     "Direct payment/repeated workaround evidence improved pain-signal quality across AI-to-human support, CRM backfill, proxy services, home organization, pet care, AI bid production, content moderation and document digitization.",
     "Cases still failed on native platform control, recurring human/physical delivery, unfair scarce-resource capture, generic integration or exact incumbent pressure.",
-    "Scan 035 will retain the payer/workaround evidence priority while killing human-time, physical-custody and platform-resource cases before deep research."
+    "Scan 035 will retain the payer/workaround evidence priority while killing human-time, physical-custody and platform-resource cases before deep research.",
+    "ATTRACTION_SCAN_035 completed on 2026-09-21 with zero retained formations and zero commercial promotions.",
+    "The digital/delegatable sample included GEO brand visibility, App/SDK privacy compliance, AIGC commercial rights proof, AI job-application automation, short-video content labeling and software localization.",
+    "All failed because exact products, platform-native controls or mature paid APIs already occupy the control surface.",
+    "Scan 036 changes research order only: payer/workaround signal -> delivery prefilter -> exact-incumbent preflight -> deep research."
   ],
   "parallel_workstreams": {
     "validation": [
@@ -486,9 +496,9 @@
       }
     ],
     "discovery": {
-      "next_scan_id": "ATTRACTION_SCAN_035",
+      "next_scan_id": "ATTRACTION_SCAN_036",
       "active_candidate_verticals_may_seed_scan": false,
-      "search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_PLUS_DIGITAL_OR_DELEGATABLE_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM_KEEP_COMMERCIAL_HARD_FLOORS"
+      "search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_BEFORE_DEEP_RESEARCH_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM"
     }
   },
   "system_learnings": [
@@ -539,6 +549,8 @@
     "TWO_INDEPENDENT_BROAD_SAMPLES_CONFIRM_RESET_DURABILITY",
     "NEXT_DISCOVERY_PRIORITY_SHOULD_BE_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_NOT_CATEGORY_GROWTH_ALONE",
     "DIRECT_PAYER_EVIDENCE_IS_A_RESEARCH_PRIORITY_NOT_A_PROMOTION_OVERRIDE",
-    "DELIVERY_SHAPE_CAN_BE_PREFILTERED_WITHOUT_TURNING_IT_INTO_A_REQUIRED_BUSINESS_MECHANISM"
+    "DELIVERY_SHAPE_CAN_BE_PREFILTERED_WITHOUT_TURNING_IT_INTO_A_REQUIRED_BUSINESS_MECHANISM",
+    "EXACT_INCUMBENT_PREFLIGHT_SHOULD_PRECEDE_EXPENSIVE_CAUSAL_DESCENT",
+    "RESEARCH_ORDER_CAN_CHANGE_WITHOUT_TURNING_THE_CHANGE_INTO_A_PRODUCT_ONTOLOGY"
   ]
 }
