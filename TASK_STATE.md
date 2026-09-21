@@ -6,17 +6,17 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 058 reset to six unrelated current paid outcomes: subcontractor COI tracking, end-to-end RFP response ownership, B2B catalog enrichment, Rent Manager AI lease abstraction, export documentation/trade compliance, and SOC 2 readiness/audit support. All six fail exact SaaS/official-integration, low-unit-economics, or recurring expert/signoff floors.
+Scan 059 completed a second broad, formation-diverse pass using stronger recurring-spend and contract-to-hire evidence across bookkeeping, recruiting, medical billing, affiliate partnerships, appointment setting and email marketing. All six were demoted after exact-incumbent preflight separated the increasingly native repeatable machine layer from the residual human judgment, relationship, consent, compliance or accountable-ownership tail.
 
 ```text
-CURRENT PAID HUMAN WORK
+STRONG RECURRING HUMAN SPEND
 → EXACT INCUMBENT PREFLIGHT
-→ SEPARATE REPEATABLE MACHINE LAYER FROM HUMAN RESIDUAL
-→ TEST RESIDUAL FOR NORMALIZED NONEXPERT DELIVERY
-→ FAIL CLOSED IF EXACT PRODUCT OR EXPERT TAIL DOMINATES
+→ SEPARATE NATIVE MACHINE LAYER FROM HUMAN RESIDUAL
+→ TEST WHETHER RESIDUAL IS A REPLACEABLE OPERATOR UNIT
+→ FAIL CLOSED IF JUDGMENT / RELATIONSHIP / CONSENT / ACCOUNTABILITY REMAINS CORE
 ```
 
-The broad reset is working: failure modes are again formation-diverse rather than inherited from a single trigger/action ontology. Scan 059 stays broad for a second pass before any new mechanism is derived.
+Two broad role-based scans now show that job postings are useful attraction evidence but weak evidence of a distinct scalable operator layer. Scan 060 changes the evidence source toward non-role buying signals rather than deriving another mechanism ontology.
 
 ## Goal
 
@@ -38,22 +38,23 @@ Resolved recently:
 - `ATTRACTION_SCAN_056` — zero retention after external signals proved already commoditized by their action categories.
 - `ATTRACTION_SCAN_057` — zero retention after niche external triggers proved absorbed by exact vertical/native rule automation.
 - `ATTRACTION_SCAN_058` — zero retention after broad current paid work failed exact-product, official-integration, low-unit-economics or recurring expert/signoff floors.
+- `ATTRACTION_SCAN_059` — zero retention after strong recurring/contract-to-hire role spend failed native-AI/incumbent and human-residual floors.
 
 Discovery queue:
-- `ATTRACTION_SCAN_059 — BROAD_CURRENT_PAID_OUTCOMES_FORMATION_DIVERSE_SECOND_PASS_STRONG_RECURRING_SPEND_OR_CONTRACT_TO_HIRE_EVIDENCE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_SCAN058_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_060 — BROAD_CURRENT_PAID_OUTCOMES_NON_ROLE_BUYING_SIGNALS_REPEAT_PURCHASE_OR_PRODUCTIZED_SERVICE_SPEND_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_JOB_POSTING_AS_SOLE_PAYER_EVIDENCE_NO_SCAN058_OR_SCAN059_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_058_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_059_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`5f88fd2e324a20dc4fb22ec1e511701967e344c5`
-— squash merge of PR #355, `Reset mechanism bias after Scan 057`.
+`2a819cc67644843369762d7c5f971d68b8113c1f`
+— squash merge of PR #356, `Close broad paid-work traps in Scan 058`.
 
-PR #355 CI and Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #356 main CI and Jev completed successfully. Jev: 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -61,11 +62,11 @@ PR #355 CI and Jev completed successfully before merge. Jev: 6/6 `NO_FURTHER_RES
 
 ## Active Branch
 
-`research/attraction-scan-058`.
+`research/attraction-scan-059`.
 
 ## Active PR
 
-Pending creation for Scan 058. Live GitHub state is authoritative.
+Pending creation for Scan 059. Live GitHub state is authoritative.
 
 ## CI
 
@@ -81,9 +82,9 @@ Pending creation for Scan 058. Live GitHub state is authoritative.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_058.json`
-- `docs/research/ATTRACTION_SCAN_058_2026-09-21.md`
-- `tests/test_attraction_scan_058_broad_reset_gate.py`
+- `data/research_runs/attraction_scan_059.json`
+- `docs/research/ATTRACTION_SCAN_059_2026-09-21.md`
+- `tests/test_attraction_scan_059_recurring_role_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -108,16 +109,16 @@ Results:
 ## Current Findings
 
 ```text
-CURRENT PAID HUMAN WORK
+STRONG RECURRING HUMAN SPEND
 !=
-SOFTWARE WHITE SPACE
+DISTINCT REPEATABLE OPERATOR LAYER
 ```
 
-Scan 058 found real current spend across COI tracking, RFP ownership, catalog enrichment, lease abstraction, export operations and SOC 2 work, but the paid human role often coexists with mature software. The residual then concentrates in customer-specific judgment, compliance interpretation, formal signoff or bespoke implementation.
+Scan 059 deliberately strengthened the payer signal: every sample had long-duration, contract-to-hire or explicit recurring/performance-paid work. That still produced zero retention.
 
-A fresh $2,000 Rent Manager + AI lease-abstraction request was especially informative: exact preflight found an official Bryckel integration for the same core workflow, proving custom implementation demand but not product white space.
+QuickBooks, Greenhouse, Waystar, impact.com, HighLevel and Klaviyo now automate large parts of the repeatable execution layer in their respective categories. The remaining paid human scope concentrates in accounting or hiring judgment, regulated exceptions, persuasion and relationships, consent/compliance, creative strategy and accountable approval.
 
-Scan 059 remains broad and formation-diverse for a second pass, requiring stronger recurring-spend or contract-to-hire evidence and excluding Scan 058 vertical inheritance.
+After Scan 058 + 059, the next useful change is not another failure-derived mechanism. Scan 060 should change evidence source and sample current repeat purchases, productized service spend or other non-role buying signals; a job posting may corroborate but must not be the sole payer evidence.
 
 ## Validation Status
 
@@ -139,10 +140,10 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 051 is complete with zero active retained formations and zero commercial promotions after F1 falsification.
-- Five flows were closed during the scan because mature managed-service or native automation already owns the loop.
-- `ATTRACTION_SCAN_051-F1` was subsequently demoted after exact incumbent preflight: mature networks already own multilingual supply, QA, project management and API-accessible crowd capacity; normalized economics and founder-free buyer acquisition were not proven.
-- Scan 052 must remain broad and must not inherit audio annotation as its search ontology.
+- Scan 059 is complete with zero active retained formations and zero commercial promotions.
+- Strong recurring-spend and contract-to-hire evidence did not overcome exact incumbent/native-AI absorption.
+- Two broad role-based samples now justify changing the evidence source before deriving another mechanism ontology.
+- Scan 060 must use non-role buying signals and cannot use a job posting as the sole payer evidence.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -150,9 +151,13 @@ Commercial:
 
 ## Next Action
 
-Create the Scan 058 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 059 as a second broad formation-diverse pass with stronger recurring-spend evidence and no Scan 058 vertical inheritance.
+Create the Scan 059 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 060 from non-role buying signals such as repeat purchases or productized-service spend. Do not use job postings as the sole payer evidence in Scan 060.
 
 ## Do Not Repeat
+
+- Do not treat long duration, contract-to-hire or performance pay as evidence that the repeatable operator layer is unowned.
+- Do not use job postings as the sole payer evidence in Scan 060; two broad role-based passes show that employers may keep buying human accountability after native software absorbs the routine layer.
+- Do not promote bookkeeping, recruiting, medical billing, affiliate recruitment, appointment setting or Klaviyo operations from Scan 059; each failed exact-incumbent/native-AI plus human-residual preflight.
 
 - Do not infer product white space from a current human job alone; first check whether the buyer is choosing custom implementation around an exact existing product.
 - Do not retain Rent Manager lease abstraction as a product gap; Bryckel is an official exact integration.
