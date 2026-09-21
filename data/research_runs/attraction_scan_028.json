@@ -1,0 +1,102 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_028",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "CURRENT_EMERGENT_BEHAVIOR_AND_NEW_WORKFLOW_FORMATIONS_NO_COST_REFUND_REBATE_RECOVERY_OR_PRIOR_MECHANISM_INHERITANCE",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1",
+    "ATTRACTION_SCAN_016-F1"
+  ],
+  "observed_new_behaviors": [
+    {
+      "behavior": "AI_SERVICE_LIGHT_ENTREPRENEURSHIP",
+      "signal": "Xianyu reported more than 1.5 million relatively persistent light entrepreneurs; AI service orders grew rapidly, including AI programming and AI comic/video services.",
+      "commercial_read": "Real new labor/service formation, but discovery, transaction, escrow/dispute and reputation are already platform-owned; QA/acceptance products are also emerging."
+    },
+    {
+      "behavior": "EMBODIED_AI_REAL_WORLD_DATA_GIG_WORK",
+      "signal": "Ordinary participants are being recruited to record household/real-world tasks for robot training; data-collector work has become a new flexible-employment role.",
+      "commercial_read": "Real new resource flow, but crowdsourced capture, task protocols, participant recruitment, QA, labeling and delivery are already being bundled by dedicated data platforms."
+    },
+    {
+      "behavior": "AI_AGENTS_HIRING_HUMANS_FOR_PHYSICAL_TASKS",
+      "signal": "Multiple 2026 marketplaces expose REST/MCP interfaces so agents can post bounded physical/hybrid tasks, fund them and receive structured proof.",
+      "commercial_read": "A genuinely new economic actor relationship, but several exact agent-to-human marketplaces already occupy the marketplace/control surface."
+    },
+    {
+      "behavior": "ONE_PERSON_AI_ASSISTED_CROSS_BORDER_OPERATION",
+      "signal": "Cross-border sellers increasingly use AI to compress work previously handled by multi-person teams across selection, marketing, supply chain, finance and operations.",
+      "commercial_read": "Real organizational change, but Amazon/Alibaba/PayPal and cross-border SaaS platforms are rapidly internalizing the agentic operating layer."
+    },
+    {
+      "behavior": "LIGHTWEIGHT_EXPERIENCE_AND_SERVICE_CONSUMPTION",
+      "signal": "Consumers are shifting toward low-price trial experiences, self-service leisure, interest/emotion services and service-first consumption.",
+      "commercial_read": "Real demand formation, but local-life platforms increasingly own discovery, booking, payment and merchant operating tools."
+    }
+  ],
+  "examined_formations": [
+    {
+      "title": "AI_SERVICE_DELIVERABLE_ACCEPTANCE_LAYER",
+      "chinese_title": "AI服务交付自动验收层",
+      "mechanism_class": "DELIVERABLE_VERIFICATION",
+      "verdict": "DEMOTED_PLATFORM_DISPUTE_CONTROL_AND_FAST_QA_PRODUCTIZATION",
+      "evidence_summary": "Development marketplaces already define source-code/functionality dispute and acceptance rules; specialized QA for AI/vibe-coded products, deterministic code review and contract-driven testing are already emerging. A thin acceptance assistant is copyable and lacks transaction authority."
+    },
+    {
+      "title": "EMBODIED_DATA_CROWD_COLLECTION_MARKETPLACE",
+      "chinese_title": "具身数据众包采集市场",
+      "mechanism_class": "REAL_WORLD_DATA_PRODUCTION",
+      "verdict": "DEMOTED_MULTIPLE_CURRENT_PLATFORM_INCUMBENTS",
+      "evidence_summary": "Current providers already recruit participants, define task/scene protocols, capture with phones/sensors, perform automated and human QA, normalize formats and sell/deliver accepted datasets."
+    },
+    {
+      "title": "CHINA_AGENT_TO_HUMAN_EXECUTION_MARKETPLACE",
+      "chinese_title": "中国Agent到人类执行市场",
+      "mechanism_class": "AGENT_NATIVE_HUMAN_EXECUTION",
+      "verdict": "DEMOTED_GLOBAL_EXACT_MARKETPLACE_FORMATION_AND_WHOLE_MARKETPLACE_REQUIREMENT",
+      "evidence_summary": "RentAHuman, Human in da Loop, Taskin, Mundane and others already expose agent-native human-task marketplaces with API/MCP, verification, evidence and settlement. A China clone would require building a two-sided marketplace and local trust/payment/operations rather than exploiting an unowned micro-edge."
+    },
+    {
+      "title": "ONE_PERSON_CROSS_BORDER_AGENT_OPERATING_SYSTEM",
+      "chinese_title": "一人跨境Agent经营系统",
+      "mechanism_class": "AGENTIC_BUSINESS_OPERATIONS",
+      "verdict": "DEMOTED_PLATFORM_NATIVE_AGENT_INTERNALIZATION",
+      "evidence_summary": "Amazon Seller Assistant and other platform-native AI tools already span business analysis, expansion, advertising and autonomous actions; cross-border platforms are directly internalizing the one-person-store operating layer."
+    },
+    {
+      "title": "LIGHT_EXPERIENCE_SERVICE_DISCOVERY_LAYER",
+      "chinese_title": "轻体验服务发现层",
+      "mechanism_class": "EXPERIENCE_COMMERCE",
+      "verdict": "DEMOTED_LOCAL_LIFE_PLATFORM_CONTROL",
+      "evidence_summary": "Low-price trial experiences and self-service leisure are growing, but local-life platforms already own discovery, booking, payment and merchant growth tooling."
+    }
+  ],
+  "hard_floor_demotions": [
+    "NEW_BEHAVIOR_DOES_NOT_IMPLY_UNOWNED_CONTROL_SURFACE",
+    "WHOLE_TWO_SIDED_MARKETPLACE_BUILD_IS_NOT_A_MICRO_EDGE",
+    "PLATFORM_OWNED_DISCOVERY_PAYMENT_AND_DISPUTE_RIGHTS_KILL_THIN_INTERMEDIARIES",
+    "GENERIC_OR_SPECIALIZED_QA_PRODUCTIZATION_COMPRESSES_AI_DELIVERABLE_ACCEPTANCE_WHITE_SPACE",
+    "DATA_COLLECTION_MARKETPLACES_ALREADY_BUNDLE_RECRUITMENT_PROTOCOL_QA_AND_DELIVERY",
+    "PLATFORM_NATIVE_AGENTS_ABSORB_ONE_PERSON_BUSINESS_OPERATIONS"
+  ],
+  "scan_learnings": [
+    "BEHAVIOR_FIRST_SEARCH_REDUCES_MECHANISM_BIAS_BUT_NEW_BEHAVIOR_CAN_PLATFORMIZE_EXTREMELY_FAST",
+    "AI_SERVICE_LIGHT_ENTREPRENEURSHIP_IS_REAL_EXCHANGE_NOT_A_STANDALONE_PLATFORM_GAP",
+    "EMBODIED_DATA_GIG_WORK_IS_A_NEW_LABOR_FLOW_ALREADY_BEING_INDUSTRIALIZED",
+    "AGENT_TO_HUMAN_HIRING_IS_A_NEW_ECONOMIC_RELATIONSHIP_ALREADY_SPAWNING_EXACT_MARKETPLACES",
+    "NEW_ACTOR_RELATIONSHIP_IS_NOT_ENOUGH_IF_THE_REQUIRED_ENTRY_IS_ANOTHER_WHOLE_MARKETPLACE",
+    "NEXT_SCAN_SHOULD_PRIORITIZE_SELF_ORGANIZED_BEHAVIOR_BEFORE_A_DOMINANT_CONTROL_SURFACE_FORMS",
+    "SCAN_028_ZERO_RETENTION_AFTER_BEHAVIOR_FIRST_PLATFORMIZATION_FALSIFICATION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_029",
+  "next_search_boundary": "CURRENT_SELF_ORGANIZED_PRE_PLATFORM_BEHAVIOR_WITH_REAL_EXCHANGE_NO_DOMINANT_CONTROL_SURFACE_NO_PRIOR_VERTICAL_OR_MECHANISM_INHERITANCE",
+  "next_action": "START_SCAN029_FROM_CURRENT_SELF_ORGANIZED_GROUPS_MANUAL_WORKAROUNDS_AND_CROSS_SYSTEM_EXCHANGE_BEFORE_PLATFORM_CONTROL",
+  "first_external_value_flow": "NOT_PROVEN"
+}
