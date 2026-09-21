@@ -6,19 +6,19 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 063 raised the evidence floor from generic buyer-side workarounds to residual work that persists after active/paid incumbent adoption or failed software attempts. Six unrelated cases across Salesforce, Jira, Workday, ServiceNow, Epic and OPERA Cloud were examined. All six were demoted because current native migrations, active product roadmaps, partner ecosystems or expert/configuration tails already absorb the remaining value.
+Scan 064 tested the strongest buyer economic signal used so far: an active/paid incumbent plus separate external spend for the same business outcome. Six current formations across paid advertising, cloud operations, cybersecurity, RPA, NetSuite and SAP were decomposed. None produced a founder-independent commercial candidate.
 
 ```text
-ACTIVE / PAID INCUMBENT
-+ PERSISTENT WORKAROUND
-→ STRONG RESIDUAL SIGNAL
-→ CHECK NATIVE ROADMAP / MIGRATION
-→ CHECK PARTNER ECOSYSTEM
-→ CHECK CONFIGURATION / DATA / GOVERNANCE / HUMAN-JUDGMENT TAIL
-→ FAIL CLOSED IF ABSORPTION IS ACTIVE
+PARALLEL DOUBLE SPEND
+→ PROVES RESIDUAL WILLINGNESS TO PAY
+→ DECOMPOSE SECOND PAYMENT
+→ ROUTINE DETERMINISTIC EXECUTION?
+→ OR STRATEGY / ACCOUNTABILITY / IMPLEMENTATION / RELATIONSHIP / LIABILITY?
+→ CHECK CURRENT NATIVE AI / ROADMAP
+→ FAIL CLOSED
 ```
 
-Three buyer-side passes now justify an economic evidence escalation rather than another mechanism ontology. Scan 064 must start from buyers who pay an incumbent and separately keep paying a recurring external workaround for the same outcome.
+The evidence is materially stronger than spreadsheet/workaround signals, but most second payments buy human accountability and judgment. Scan 065 keeps the economic signal while requiring the paid residual itself to be primarily deterministic, repeatable execution with objective machine-verifiable output and bounded human liability.
 
 ## Goal
 
@@ -32,18 +32,18 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Resolved recently:
-- `ATTRACTION_SCAN_061` — zero retention after first buyer-side workaround pass hit mature sync/all-in-one/vertical control surfaces.
-- `ATTRACTION_SCAN_062` — zero retention after second independent buyer-side pass hit native identity workflows, vertical SaaS or physical-event/process tails.
-- `ATTRACTION_SCAN_063` — zero retention after post-incumbent residuals proved exposed to active native roadmap/partner absorption or expert/configuration tails.
+- `ATTRACTION_SCAN_062` — zero retention after second independent buyer-side pass hit native/vertical software or physical-process tails.
+- `ATTRACTION_SCAN_063` — zero retention after post-incumbent residuals hit active native roadmap/partner absorption or expert/configuration tails.
+- `ATTRACTION_SCAN_064` — zero retention after parallel double-spend cases decomposed into native automation plus strategy/accountability/implementation/liability tails.
 
 Discovery queue:
-- `ATTRACTION_SCAN_064 — BROAD_CURRENT_BUYER_SIDE_ACTIVE_OR_PAID_INCUMBENT_PLUS_SEPARATE_RECURRING_EXTERNAL_WORKAROUND_SPEND_FOR_THE_SAME_OUTCOME_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_RESIDUAL_EXACT_INCUMBENT_AND_ROADMAP_PREFLIGHT_NO_SCAN061_TO_SCAN063_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_065 — BROAD_CURRENT_BUYER_SIDE_ACTIVE_OR_PAID_INCUMBENT_PLUS_SEPARATE_RECURRING_EXTERNAL_SPEND_PRIMARILY_FOR_DETERMINISTIC_REPEATABLE_EXECUTION_WITH_OBJECTIVE_MACHINE_VERIFIABLE_OUTPUT_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_BOUNDED_HUMAN_JUDGMENT_AND_LIABILITY_EXACT_INCUMBENT_AND_ROADMAP_PREFLIGHT_NO_SCAN064_VERTICAL_INHERITANCE_NO_REQUIRED_PRODUCT_SHAPE_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_064_DISCOVERY_IN_PROGRESS`
+`SCAN_064_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
@@ -62,7 +62,7 @@ PR #361 CI and live Jev completed successfully before merge. Jev: 6/6 `NO_FURTHE
 
 ## Active PR
 
-None yet for Scan 064; discovery evidence formation is in progress. Live GitHub state is authoritative.
+Pending creation for Scan 064. Live GitHub state is authoritative.
 
 ## CI
 
@@ -78,9 +78,9 @@ None yet for Scan 064; discovery evidence formation is in progress. Live GitHub 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_063.json`
-- `docs/research/ATTRACTION_SCAN_063_2026-09-21.md`
-- `tests/test_attraction_scan_063_post_incumbent_residual_gate.py`
+- `data/research_runs/attraction_scan_064.json`
+- `docs/research/ATTRACTION_SCAN_064_2026-09-21.md`
+- `tests/test_attraction_scan_064_double_spend_execution_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -105,20 +105,23 @@ Results:
 ## Current Findings
 
 ```text
-SCAN 064 PRIMARY SENSOR
-= ACTIVE / PAID INCUMBENT
-+ SEPARATE RECURRING EXTERNAL WORKAROUND SPEND
-FOR THE SAME BUSINESS OUTCOME
+PARALLEL DOUBLE SPEND
+= STRONG RESIDUAL WILLINGNESS TO PAY
+BUT
+SECOND PAYMENT OFTEN BUYS HUMAN ACCOUNTABILITY
+NOT AN UNOWNED MACHINE LOOP
 ```
 
-Initial raw evidence confirms that this stronger economic class exists:
-- a current Google Ads buyer reports $200k-$400k/month media spend plus a $25k/month agency fee while questioning the agency's execution;
-- a current UiPath buyer seeks a long-term freelancer for multiple automation projects and states a $125/hour rate;
-- a current Dynamics 365 end-user describes ongoing dependence on a third-party support provider while internal staff continue firefighting and backlog work.
+Scan 064 examined six current formation-diverse cases:
 
-These are **raw formation signals only**, not retained candidates. Each still needs the full Scan 064 floor: same-outcome linkage, recurring external spend, digital/delegatable residual, exact incumbent + roadmap preflight, and rejection of expert implementation/support/judgment tails.
+- Google Ads: $200k–$400k/month media spend plus a $25k/month agency fee. The residual is strategy, account architecture, creative/geographic judgment, attribution interpretation and accountable management while Google natively automates bidding and conversion feedback.
+- AWS: Towngas runs AWS plus eCloudvalley 24×7 managed services. AWS DevOps Agent is already absorbing incident investigation and mitigation planning; the partner fee remains architecture, business context, continuous ownership and change responsibility.
+- Cybersecurity: SentinelOne/EDR stacks layered with external MDR/SOC services. The second spend buys 24×7 validation, containment, escalation and responsibility transfer inside an established MDR category.
+- UiPath: active platform use plus a long-term freelancer request. Native Autopilot/Agents are expanding, while external spend remains bespoke process discovery, integration, testing and production support.
+- NetSuite: organizations use ACS or third-party recurring support after go-live. AI is already absorbing some scripting; remaining spend centers on business-process context, governance, admin ownership and change management.
+- SAP: a buyer paid a second senior consultant after a first implementation failed. This proves duplicate spend but not recurring external spend; the residual is expert configuration/process judgment.
 
-The economic sensor is behaving as intended: it observes willingness to pay for the residual itself rather than inferring demand from dissatisfaction.
+The next evidence floor is therefore narrower in execution, not in product shape: **parallel external spend must primarily buy repetitive deterministic execution with objective output**, while judgment, stakeholder management, signoff and liability must be bounded.
 
 ## Validation Status
 
@@ -139,10 +142,10 @@ Engineering:
 - The active repository agent must continue reversible research automatically when the continuation directive allows it.
 
 Discovery:
-- Scan 063 is complete with zero active retained formations and zero commercial promotions.
-- Current product roadmap/native migration/partner-ecosystem absorption must now be preflighted alongside static incumbents.
-- Scan 064 must require parallel spend: active/paid incumbent + separate recurring external workaround payment for the same outcome.
-- Expert consulting, configuration, one-off implementation, OCM, data-cleanup and physical-process tails still fail closed unless a distinct reusable machine/delegatable asset remains.
+- Scan 064 is complete with zero retained formations and zero commercial promotions.
+- Parallel double spend is now proven useful as a payer signal, but not sufficient as an operator signal.
+- Scan 065 must reject second-spend units whose core value is strategy, relationship labor, bespoke implementation, 24×7 human accountability, regulated/expert signoff, or liability transfer.
+- The paid external unit must be primarily deterministic, repetitive and objectively machine-verifiable before deeper retention work.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -150,9 +153,14 @@ Commercial:
 
 ## Next Action
 
-Continue Scan 064 with formation-diverse current double-spend cases. For each case, prove that the incumbent spend and external recurring workaround target the same business outcome, then isolate the external paid residual. Fail closed when the second spend is primarily human judgment, implementation responsibility, relationship labor, managed liability transfer, or platform-specific administration. Only after six independent formations are closed should the Scan 064 artifact, test, PR, CI and Jev advisory be produced.
+Create the Scan 064 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 065 from formation-diverse double-spend cases where the external paid unit is primarily deterministic repeatable execution with objective machine-verifiable output.
 
 ## Do Not Repeat
+
+- Do not treat parallel double spend as sufficient white-space evidence; Scan 064 shows the second payment often buys accountability, judgment, implementation, relationship labor or liability transfer.
+- Do not promote Google Ads agency management, AWS managed cloud operations, MDR/SOC layering, UiPath freelance implementation, NetSuite managed support or SAP remediation from Scan 064.
+- Do not count a recurring managed-service fee as a machine operator asset when 24x7 human ownership, expert escalation, architecture, business-process context or risk transfer is central to the purchased unit.
+- In Scan 065, require the external paid unit itself to be primarily deterministic, repetitive and objectively machine-verifiable; bounded human judgment/liability is allowed only at the edges.
 
 - Do not treat a persistent post-incumbent workaround as durable white space until the incumbent's current migration path, roadmap and partner ecosystem are checked.
 - Do not promote Salesforce/Outlook activity sync, Jira portfolio-capacity reporting, Workday Excel reporting, ServiceNow role-aware guidance, Epic ad-hoc analytics or OPERA check-in from Scan 063; current native/partner surfaces are actively absorbing those gaps.
