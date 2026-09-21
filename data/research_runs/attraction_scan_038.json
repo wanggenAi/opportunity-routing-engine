@@ -1,0 +1,127 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_038",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_REQUIRE_RESIDUAL_LEAKAGE_CAUSED_BY_STRUCTURAL_CONTROL_RIGHT_DATA_RIGHT_OR_CROSS_SYSTEM_ACTION_GAP_NOT_ADOPTION_IMPLEMENTATION_OR_DISCIPLINE_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "AGENTIC_COMMERCE_MULTI_PROTOCOL_AUTHORIZATION_INTEROP",
+      "chinese_title": "智能体商业多协议授权与支付互操作",
+      "evidence_class": "STRUCTURAL_MULTI_PARTY_CONTROL_RIGHT_GAP_AND_CURRENT_ENTERPRISE_BUILD_COST",
+      "structural_gap": "Agent, merchant, credential provider, network and processor must exchange verifiable user intent and payment authority across evolving protocols.",
+      "incumbent_preflight": "OPEN_STANDARDS_PLUS_MAJOR_PAYMENT_AND_COMMERCE_CONTROL_PLANES_FOUND",
+      "operator_rights_assessment": "KEY_AUTHORIZATION_AND_ACCEPTANCE_RIGHTS_REMAIN_WITH_MERCHANTS_PAYMENT_NETWORKS_PSPs_AND_TRUSTED_SURFACES",
+      "verdict": "DEMOTED_STANDARDS_AND_PAYMENT_CONTROL_PLANES_ALREADY_ABSORB_INTEROP_EDGE",
+      "evidence_summary": "The cross-system authority gap is genuine, but UCP/AP2/ACP plus Stripe Agentic Commerce Suite and Mastercard merchant/agent products directly standardize or operationalize the same merchant-agent-payment handoff. A thin neutral adapter lacks durable authorization rights.",
+      "source_urls": [
+        "https://github.com/google-agentic-commerce/AP2/blob/main/docs/ap2/specification.md",
+        "https://ucp.dev/",
+        "https://stripe.com/blog/agentic-commerce-suite",
+        "https://www.mastercard.com/us/en/news-and-trends/press/2026/september/mastercard-gives-merchants-a-simpler-way-to-build--connect-and-s.html"
+      ]
+    },
+    {
+      "title": "PRIVACY_ERASURE_DOWNSTREAM_PROPAGATION",
+      "chinese_title": "隐私删除请求跨下游系统传播",
+      "evidence_class": "STRUCTURAL_DATA_RIGHT_AND_CROSS_SYSTEM_ACTION_GAP",
+      "structural_gap": "A controller must locate and erase one subject's data across many first-party and processor systems whose deletion interfaces and permissions differ.",
+      "incumbent_preflight": "EXACT_DSR_ORCHESTRATION_WITH_AUTOMATED_AND_MANUAL_CONNECTORS_FOUND",
+      "operator_rights_assessment": "DELETION_ACTION_REQUIRES_EACH_SYSTEMS_CREDENTIALS_API_SUPPORT_OR_MANUAL_CONFIRMATION",
+      "verdict": "DEMOTED_PRIVACY_ORCHESTRATORS_ALREADY_OWN_WORKFLOW_WHILE_ENDPOINT_RIGHTS_REMAIN_NON_TRANSFERABLE",
+      "evidence_summary": "MineOS already runs deletion actions across connected integrations and tracks manual-only systems to completion. The remaining long tail is constrained by endpoint permissions/API support rather than an independent operator-controlled right.",
+      "source_urls": [
+        "https://developers.mineos.ai/docs/managing-deletion-requests",
+        "https://docs.databricks.com/gcp/en/ldp/gdpr"
+      ]
+    },
+    {
+      "title": "SUPPLIER_BANK_CHANGE_TRUST_VERIFICATION",
+      "chinese_title": "供应商银行账户变更可信核验",
+      "evidence_class": "DIRECT_RISK_SPEND_AND_STRUCTURAL_TRUST_DATA_GAP",
+      "structural_gap": "Payer ERP records, supplier identity, bank ownership and change requests span organizations and cannot be trusted from one email or document.",
+      "incumbent_preflight": "EXACT_VENDOR_IDENTITY_BANK_VERIFICATION_AND_RISK_TRANSFER_NETWORKS_FOUND",
+      "operator_rights_assessment": "VERIFICATION_VALUE_COMES_FROM_EXISTING_TRUST_NETWORKS_BANK_DATA_AND_INDEMNIFICATION_POSITION",
+      "verdict": "DEMOTED_EXISTING_VENDOR_TRUST_NETWORKS_OWN_DATA_AND_RISK_POSITION",
+      "evidence_summary": "Trustmi and PaymentWorks already verify vendor identity/banking, revalidate account changes, integrate into ERP workflows and in PaymentWorks' case even transfer fraud risk. The defensible asset is the incumbent trust network/risk position itself.",
+      "source_urls": [
+        "https://trustmi.ai/products/vendor-onboarding-and-management/",
+        "https://www.paymentworks.com/",
+        "https://www.paymentworks.com/what-we-do/"
+      ]
+    },
+    {
+      "title": "DEMURRAGE_DETENTION_INVOICE_DISPUTE_AUTOMATION",
+      "chinese_title": "滞箱费与滞期费账单争议自动化",
+      "evidence_class": "DIRECT_RECOVERY_VALUE_AND_CROSS_SYSTEM_CONTRACT_EVENT_GAP",
+      "structural_gap": "Carrier invoices must be reconciled against contracts, free-time terms, terminal events, container returns and closure/hold evidence.",
+      "incumbent_preflight": "EXACT_AUTOMATED_AUDIT_AND_DISPUTE_PRODUCT_FOUND",
+      "operator_rights_assessment": "DISPUTE_EXECUTION_IS_ALREADY_PRODUCTIZED_ON_TOP_OF_CARRIER_AND_SHIPPER_EVIDENCE",
+      "verdict": "DEMOTED_EXACT_AUTO_AUDIT_AND_DISPUTE_CONTROL_LOOP",
+      "evidence_summary": "AuditDray directly markets line-level D&D invoice matching, overcharge detection and automatic dispute generation/submission. The cross-system gap is already the product.",
+      "source_urls": [
+        "https://auditdray.com/"
+      ]
+    },
+    {
+      "title": "CROSS_BORDER_RETURN_DUTY_VAT_RECOVERY",
+      "chinese_title": "跨境退货关税与VAT回收",
+      "evidence_class": "DIRECT_RECOVERY_VALUE_AND_CUSTOMS_ACTION_RIGHT_GAP",
+      "structural_gap": "Refund eligibility depends on linking import declarations, returned/exported goods, logistics events and customs filings across jurisdictions.",
+      "incumbent_preflight": "DENSE_RETURNS_DUTY_RECOVERY_AND_LICENSED_FILING_PRODUCTS_FOUND",
+      "operator_rights_assessment": "FILING_RIGHTS_AND_LOGISTICS_EXECUTION_ARE_ALREADY_BUNDLED_WITH_BROKERS_RETURNS_NETWORKS_OR_SPECIALIST_PLATFORMS",
+      "verdict": "DEMOTED_EXACT_END_TO_END_DUTY_RECOVERY_AND_RETURNS_PRODUCTS",
+      "evidence_summary": "Redo, Zollback, Valorra and related platforms already connect returns, customs documentation, duty/VAT recovery and licensed filing, including performance-based recovery models.",
+      "source_urls": [
+        "https://redo.com/products/returns",
+        "https://www.zollback.com/uses/e-commerce",
+        "https://valorra.ai/",
+        "https://www.customs.go.kr/kcs/na/ntt/selectNttInfo.do?nttSn=10159843&nttSnUrl=fc46d3c8e31bcbd3120d7b68d2e0de2f"
+      ]
+    },
+    {
+      "title": "DEALER_OEM_WARRANTY_REIMBURSEMENT_BRIDGE",
+      "chinese_title": "经销商到OEM保修索赔报销桥接",
+      "evidence_class": "REPEATED_REVENUE_RECOVERY_WORK_AND_CROSS_SYSTEM_ACTION_GAP",
+      "structural_gap": "Repair orders, labor/parts codes, evidence, OEM adjudication and reimbursement status span DMS and OEM systems.",
+      "incumbent_preflight": "EXACT_DMS_OEM_CLAIM_PORTAL_AND_STAR_INTEGRATION_FOUND",
+      "operator_rights_assessment": "OEM_ADJUDICATION_AND_PAYMENT_RIGHTS_STAY_WITH_OEM_WHILE_CURRENT_MCO_INTEGRATION_ALREADY_BRIDGES_DMS",
+      "verdict": "DEMOTED_EXACT_DMS_OEM_WARRANTY_CLAIM_CONTROL_SURFACE",
+      "evidence_summary": "ServiceNow MCO now exposes dealer portals plus STAR-compliant SOAP integration that creates/validates claims from DMS data and returns adjudication/payment status, directly occupying the cross-system bridge.",
+      "source_urls": [
+        "https://www.servicenow.com/docs/r/manufacturing/warranty-claims-SOAP-API.html",
+        "https://www.servicenow.com/docs/r/manufacturing/mco-configure-dms.html",
+        "https://www.servicenow.com/docs/r/manufacturing/mco-repair-claim-submission-use-case.html"
+      ]
+    }
+  ],
+  "hard_floor_demotions": [
+    "STRUCTURAL_GAP_ALONE_IS_NOT_ENOUGH_IF_OPERATOR_LACKS_THE_RELEVANT_CONTROL_OR_DATA_RIGHTS",
+    "OPEN_PROTOCOL_INTEROP_IS_NOT_DURABLE_WHEN_MAJOR_CONTROL_PLANES_STANDARDIZE_AND_BUNDLE_THE_EDGE",
+    "ENDPOINT_PERMISSION_LIMITS_DO_NOT_CREATE_TRANSFERABLE_OPERATOR_RIGHTS",
+    "TRUST_NETWORK_AND_RISK_TRANSFER_VALUE_BELONGS_TO_THE_NETWORK_HOLDER",
+    "LICENSED_OR_REGULATED_FILING_RIGHTS_ALREADY_BUNDLED_BY_SPECIALIST_PLATFORMS_KILL_THIN_COORDINATION",
+    "EXACT_CROSS_SYSTEM_BRIDGE_PRODUCTS_KILL_WHEN_THEY_ALREADY_EXECUTE_THE_ACTION_LOOP"
+  ],
+  "scan_learnings": [
+    "STRUCTURAL_CONTROL_DATA_OR_ACTION_GAP_IS_NECESSARY_BUT_NOT_SUFFICIENT",
+    "NEXT_GATE_IS_OPERATOR_ACCESSIBILITY_AND_OWNERSHIP_OF_THE_MISSING_RIGHT",
+    "A_GAP_CAN_BE_REAL_WHILE_THE_RIGHTS_NEEDED_TO_MONETIZE_IT_BELONG_TO_NETWORKS_PLATFORMS_REGULATED_ACTORS_OR_ENDPOINT_OWNERS",
+    "PROTOCOL_FRAGMENTATION_CAN_COLLAPSE_QUICKLY_WHEN_LARGE_CONTROL_PLANES_STANDARDIZE_THE_INTEROP_LAYER",
+    "SCAN_039_SHOULD_REQUIRE_STRUCTURAL_GAP_PLUS_OPERATOR_ACCESSIBLE_RIGHTS_OR_DATA_POSITION_NOT_ALREADY_BUNDLED_BY_INCUMBENT_CONTROL_PLANES",
+    "SCAN_038_ZERO_RETENTION_AFTER_OPERATOR_RIGHTS_ASSESSMENT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_039",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_REQUIRE_STRUCTURAL_CONTROL_RIGHT_DATA_RIGHT_OR_CROSS_SYSTEM_ACTION_GAP_AND_OPERATOR_ACCESSIBLE_RIGHTS_OR_DATA_POSITION_NOT_ALREADY_BUNDLED_BY_INCUMBENT_NETWORK_PLATFORM_REGULATED_ACTOR_OR_ENDPOINT_OWNER_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM",
+  "next_action": "TRIGGER_JEV_ON_SCAN038_THEN_FOLLOW_TYPED_CONTINUATION_DIRECTIVE",
+  "first_external_value_flow": "NOT_PROVEN"
+}
