@@ -4,21 +4,18 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Reach the first real external value flow while keeping discovery independent from validation.
+Reach the first real external value flow while keeping discovery independent from validation and from prior
+failure-derived search shapes.
 
-The long-running Scan 016-F1 9610 return-router beacon is now resolved/demoted. Physical and regulatory
-multi-route availability is real, but the exact neutral third-party transaction rail and operator economics
-did not survive the non-compensatory validation gates.
-
-Discovery remains reset to broad unrelated current reality in Scan 032.
+Scan 032 completed a broad unrelated reality reset. It restored domain diversity without weakening commercial
+hard floors. Scan 033 will run a second independent broad sample to verify that this reset is durable.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
-PHYSICAL_ROUTE != CALLABLE_TRANSACTION_RAIL
-GENERIC_API != SPECIAL_CUSTOMS_ACTION_RAIL
-SELLER_SAVINGS != ROUTER_ECONOMICS
-BROAD_CURRENT_REALITY_RESET
+BROAD_REALITY_DIVERSITY = RESTORED
+GROWTH_SIGNAL != COMMERCIAL_PROMOTION
+PHYSICAL_OR_EXPERT_CORE != LIGHTWEIGHT_CONTROL_EDGE
 ZERO RETENTION IS VALID
 UNKNOWN != PASS
 ```
@@ -38,18 +35,20 @@ Resolved:
 - `ATTRACTION_SCAN_016-F1` — demoted after final callability/economics falsification.
 
 Discovery queue:
-- `ATTRACTION_SCAN_032 — BROAD_CURRENT_REALITY_RESET_SAMPLE_UNRELATED_DOMAINS_NO_FAILURE_DERIVED_SHAPE_NO_ACTIVE_VERTICAL_OR_MECHANISM_INHERITANCE_KEEP_COMMERCIAL_HARD_FLOORS`.
+- `ATTRACTION_SCAN_033 — SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_SAMPLE_UNRELATED_DOMAINS_NO_SCAN032_VERTICAL_INHERITANCE_NO_REQUIRED_MECHANISM_KEEP_COMMERCIAL_HARD_FLOORS`.
+
+Scan 032 retained no new formation.
 
 ## Current Phase
 
-`SCAN_016_F1_DEMOTED_PENDING_PR_CI_MERGE_AND_SCAN032_ACTIVE`
+`SCAN_032_COMPLETE_PENDING_PR_CI_MERGE`
 
 ## Last Verified Main
 
-`3d01f11b8e4e40b792c0bf74ae7be502aee9f94c`
-— squash merge of PR #325, `Complete Scan 031 exception automation falsification`.
+`69b9d8629750bc6ca4173f1f42e16a4f27d76277`
+— squash merge of PR #326, `Demote Scan 016 9610 router after final callability falsification`.
 
-Main CI #934 verified successful.
+Main CI #936 verified successful.
 
 ## Active Issue
 
@@ -57,22 +56,22 @@ Main CI #934 verified successful.
 
 ## Active Branch
 
-`feature/scan016-f1-final-falsification`
+`feature/scan032-broad-reality-reset-zero-retention`
 
 ## Active PR
 
-Not opened yet for Scan 016-F1 final falsification. Check GitHub live state first.
+Not opened yet for Scan 032. Check GitHub live state first.
 
 ## CI
 
-No PR CI run yet for the Scan 016-F1 final falsification branch.
+No Scan 032 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_016_f1_falsification.json`
-- `docs/research/ATTRACTION_SCAN_016_F1_CHEAP_FALSIFICATION_2026-09-21.md`
-- `tests/test_attraction_scan_016_f1_falsification.py`
+- `data/research_runs/attraction_scan_032.json`
+- `docs/research/ATTRACTION_SCAN_032_2026-09-21.md`
+- `tests/test_attraction_scan_032_broad_reset.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -80,77 +79,61 @@ Updated:
 
 ## Completed
 
-### Scan 016-F1 final falsification
+Scan 032 restarted from broad unrelated current reality rather than deriving another narrow shape from recent
+failures.
 
-Proven:
-- GACC Announcement 2026 No.24 made 9610 cross-customs-district returns nationally available from 2026-04-01.
-- Real physical cross-district execution is proven in Hangzhou and other routes.
-- Generic reverse-logistics and warehouse-return APIs exist through 4PX, Cainiao and mature returns platforms.
+Sampled:
+- agricultural production outsourcing / 托管;
+- rehabilitation-assistive-device rental;
+- high-end scientific-instrument/laboratory sharing;
+- pet insurance moving toward lifecycle services;
+- automotive aftermarket growth;
+- industrial circular economy/remanufacturing.
 
-Not proven after the cheap public-evidence ceiling:
-- two independent neutral third-party-callable **9610 cross-customs** quote/order/status/outcome rails;
-- cross-provider non-identifying outcome retention/reuse rights;
-- native non-consulting operator economics.
-
-Additional negative pressure:
-- real 9610 flows are embedded in platform/enterprise/customs operating relationships;
-- GACC requires enterprise production-system data to be opened to or integrated with Customs;
-- mature returns products already own generic return routing, carrier configuration, rates, labels and APIs.
-
-Verdict:
-
-`DEMOTED_UNPROVEN_TWO_RAIL_9610_CALLABILITY_AND_PLATFORM_OWNED_VALUE_LAYER`
-
-Do not revive Scan 016-F1 because another port or customs district announces support.
+Results:
+- commercial promotions = 0;
+- retained research formations = 0;
+- agriculture orchestration demoted because qualified public/sector service networks already aggregate demand while field delivery remains physical;
+- assistive-device rental routing demoted despite real user friction because fitting, home trial, delivery, maintenance, disinfection and recovery remain core;
+- shared-lab capacity routing demoted because host platforms own capacity and sample/method/result work remains expert-heavy;
+- pet-insurance lifecycle coordination demoted because insurer claims/provider data and veterinary delivery own the strongest value layers;
+- broad automotive-aftermarket orchestration demoted because growth/policy does not identify a narrow unowned action loop;
+- industrial remanufacturing routing demoted because collection/inspection/repair/certification/inventory are capital- and operations-heavy;
+- FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
 
+The Scan 032 reset did what it was supposed to do:
+
 ```text
-PORT CAN PROCESS A RETURN
-!=
-NEUTRAL ROUTER CAN CALL THE RAIL
-
-GENERIC RETURN API
-!=
-9610 CROSS-CUSTOMS TRANSACTION API
-
-REAL SELLER SAVINGS
-!=
-THIRD-PARTY ROUTER ECONOMICS
+DOMAIN DIVERSITY RESTORED
+MECHANISM INHERITANCE REMOVED
+COMMERCIAL HARD FLOORS UNCHANGED
 ```
 
-The non-compensatory callability/economics gates are now doing their job: a research beacon cannot remain
-active indefinitely merely because the underlying policy and pain are real.
+The scan found real new flows and real friction without forcing them into marketplace, routing, recovery,
+integration or exception shapes.
+
+Zero retention remains the correct commercial result.
 
 ## Validation Status
 
 Scan 015-F1 remains the only retained validation beacon.
-- Gmail check on 2026-09-21 found no new incoming written reply from the Wave 1 provider targets.
+- Gmail check on 2026-09-21 found no new incoming provider reply after Wave 1.
 - No response is not a denial.
-- Do not repeat public rights searching; the next decisive evidence is an actual provider written response or agreement.
-
-## Discovery Status
-
-Scan 032 has started as a broad reality reset.
-
-Initial unrelated current signals include:
-- agricultural production-service outsourcing/托管;
-- silver-economy community experience + assistive-device rental;
-- fast-growing pet insurance;
-- circular-economy/reuse and remanufacturing activity.
-
-These are reality samples, not retained formations.
+- Public rights research has reached its useful ceiling.
+- Next decisive evidence remains an actual provider written response/agreement plus founder-free inbound proof.
 
 ## Blockers
 
 Validation:
-- Scan 015-F1 awaits written provider response and still lacks proof of organic founder-free inbound intent.
+- Scan 015-F1 awaits written provider response and organic founder-free inbound evidence.
 
 Engineering:
-- Scan 016-F1 demotion branch needs PR, CI, merge and main verification.
+- Scan 032 branch needs PR, CI, merge and main verification.
 
 Discovery:
-- Scan 032 broad sampling is in progress.
+- Scan 033 has not yet started.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -158,29 +141,35 @@ Commercial:
 
 ## Next Action
 
-1. Complete Scan 016-F1 demotion PR / CI / merge.
-2. Continue Scan 032 broad unrelated reality sampling and falsification.
-3. Leave Scan 015 waiting unless an actual provider written reply arrives.
+1. Complete Scan 032 PR / CI / merge.
+2. Start Scan 033 as a second independent broad current-reality sample.
+3. Leave Scan 015 waiting unless an actual provider reply arrives.
+
+Scan 033 must not inherit:
+- Scan 032 verticals;
+- active Scan 015 vertical;
+- marketplace;
+- routing;
+- recovery;
+- generic integration;
+- exception automation;
+- any preferred product shape.
 
 ## Do Not Repeat
 
-- Do not revive Scan 016 from legal/physical route availability alone.
-- Do not substitute generic logistics APIs for exact 9610 transaction callability.
-- Do not infer operator economics from seller cost savings.
-- Do not repeat public rights searching for Scan 015 while written provider evidence is outstanding.
-- Do not let Scan 016 or Scan 015 seed Scan 032.
-- Do not derive Scan 032 from the recent failure shapes.
-- Do not manufacture a retained formation because the queue is shrinking.
+- Do not interpret policy support or category growth as opportunity proof.
+- Do not retain flows whose residual value is recurring field/expert delivery.
+- Do not derive Scan 033 from the reasons Scan 032 failed.
+- Do not lower hard floors because discovery has produced a long zero-retention run.
+- Do not repeat public rights searching for Scan 015 while provider evidence is outstanding.
 
 ## Guardrails
 
 - GitHub live state wins.
 - Attraction first for attention; evidence first for truth.
 - REALITY > COGNITION > SCHEMA.
-- BROAD_CURRENT_REALITY_RESET.
+- SECOND_INDEPENDENT_BROAD_SAMPLE.
 - FAILURE_DERIVED_BOUNDARY_IS_NOT_ONTOLOGY.
-- CALLABLE_ACTION_GATE_IS_NON_COMPENSATORY.
-- ECONOMICS_GATE_IS_NON_COMPENSATORY.
 - ROUTING_IS_OPTIONAL_MECHANISM_NOT_CONSTITUTION.
 - A/B voluntary energy must be evidence-backed.
 - Discoverability/addressability must be sufficient for the formation.
