@@ -38,10 +38,10 @@ Scan 035 retained no new formation.
 
 ## Last Verified Main
 
-`add577dd66d568c40e4d59bef77373dbdb1bb362`
-— squash merge of PR #331, `feat: add Jev shadow research advisory`.
+`bb4b1ae6c97e8f5abf802390dc21f17cfecc1260`
+— squash merge of PR #332, `feat: make Jev routing safe for current scans`.
 
-PR-head CI and live Jev calibration were green before merge. Live GitHub remains authoritative for any newer main or Actions state.
+PR-head repository CI and real Jev calibration were green before merge. The later `c795122dc3dc9b8bd7f2afa8717dcdf62c04fda5` commit is state-only.
 
 ## Active Issue
 
@@ -49,17 +49,19 @@ PR-head CI and live Jev calibration were green before merge. Live GitHub remains
 
 ## Active Branch
 
-`feat/jev-advisory-routing-bridge-20260921`
+None. Jev Phase 2 merged.
 
 ## Active PR
 
-#332 — `feat: make Jev routing safe for current scans` — open; validate auto current-scan resolution and deterministic effective-route override.
+None for Jev integration. PR #331 and PR #332 are both merged.
 
 ## CI
 
 - PR #331 repository CI run `35564919130` completed `success`.
-- Jev workflow run `35564919132` completed `success`; contracts and live-shadow jobs both passed.
-- The commercial repository has `TYPESAFE_API_KEY`; the run required and obtained real Jev success rather than `SKIPPED_NO_SECRET`.\n- PR #332 repository CI run `35565385235` completed `success`.\n- Jev Phase 2 run `35565385231` completed `success`; contracts and live-shadow both passed.
+- Jev Phase 1 run `35564919132` completed `success`; contracts and live-shadow both passed.
+- PR #332 repository CI run `35565385235` completed `success`.
+- Jev Phase 2 run `35565385231` completed `success`; contracts and live-shadow both passed.
+- The commercial repository has `TYPESAFE_API_KEY`; both calibrations used real Jev rather than `SKIPPED_NO_SECRET`.
 
 ## Latest Artifact / Persisted State
 
@@ -114,7 +116,9 @@ Validation:
 - Scan 015-F1 awaits written provider response and organic founder-free inbound evidence.
 
 Engineering:
-- PR #332 needs CI + real Jev calibration before merge. Automatic research dispatch remains disabled.
+- No current Jev integration blocker.
+- Automatic research dispatch remains disabled.
+- Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
 - Scan 036 has not yet started; its research order remains payer/workaround signal -> delivery prefilter -> exact incumbent preflight -> deep research.
@@ -161,10 +165,14 @@ Start Scan 036 with the existing payer/workaround -> delivery prefilter -> exact
 ## Jev Integration Boundary
 
 - Contract: `OPPORTUNITY_JEV_RESEARCH_ADVISORY_V2`.
-- Jev may advise research sequencing only: no commercial promotion authority, no commercial-state mutation, no reversal of DEMOTED verdicts, no active-candidate creation.
+- Jev may advise research sequencing only: no commercial promotion authority, no commercial-state mutation, no reversal of authoritative DEMOTED/REJECTED/CLOSED verdicts, no active-candidate creation.
+- `automatic_research_dispatch_allowed=false`.
 - `LLM confidence != commercial evidence`; `UNKNOWN != PASS`.
-- Initial calibration set is persisted Scan 035 (six examined formations, zero retained/commercial promotions).
 - Phase 1 merged in PR #331 as `add577dd66d568c40e4d59bef77373dbdb1bb362`.
-- Live calibration run `35564919132` used served model `jev-1.13.0`: 6/6 Scan 035 formations succeeded, all routed `NO_FURTHER_RESEARCH`, all attention `LOW`, failed=0.
-- The binary incumbent-preflight subquestion was noisier than the final route on already-closed records; no individual Jev sub-answer may trigger action by itself.
-- Phase 1 uploads PR/manual-run artifacts only; it does not persist Jev output to main.\n- Phase 2 in PR #332 adds `model_research_route` vs `effective_research_route`, deterministic closure override, route-alignment telemetry, `automatic_research_dispatch_allowed=false`, and automatic current-scan resolution.
+- Phase 1 live run `35564919132`: served model `jev-1.13.0`; 6/6 Scan 035 formations succeeded; final routes 6/6 `NO_FURTHER_RESEARCH`; attention 6/6 `LOW`; failed=0.
+- Phase 2 merged in PR #332 as `bb4b1ae6c97e8f5abf802390dc21f17cfecc1260`.
+- Phase 2 resolves `--scan-json auto` from `commercial_reset_state.last_completed_scan_id`, then falls back to the highest numbered persisted attraction scan if necessary.
+- Phase 2 separates raw `model_research_route` from deterministic `effective_research_route`; authoritative closure always forces effective route `NO_FURTHER_RESEARCH`.
+- Phase 2 live run `35565385231` auto-resolved `ATTRACTION_SCAN_035`; served model `jev-1.13.0`; 6/6 succeeded; raw routes 6/6 `NO_FURTHER_RESEARCH`; effective routes 6/6 `NO_FURTHER_RESEARCH`; alignment 6/6 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`; attention 6/6 `LOW`.
+- After prompt calibration, `needs_exact_incumbent_preflight` became false on all six already-closed records (probabilities 0.18–0.32), removing the Phase 1 repeat-preflight noise.
+- Advisory artifacts remain non-authoritative and are not persisted into commercial truth.
