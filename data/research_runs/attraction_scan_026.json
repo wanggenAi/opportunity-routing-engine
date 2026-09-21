@@ -1,0 +1,89 @@
+{
+  "schema_version": "attraction-scan.v18",
+  "scan_id": "ATTRACTION_SCAN_026",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "HIGH_ENERGY_EXISTING_BUSINESS_FLOWS_OUTSIDE_DOMINANT_TRANSACTION_PLATFORMS_FIND_UNOWNED_MACHINE_STATE",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1",
+    "ATTRACTION_SCAN_016-F1"
+  ],
+  "examined_formations": [
+    {
+      "title": "MULTI_CLOUD_COMMITMENT_AND_IDLE_RESOURCE_RECOVERY",
+      "chinese_title": "多云承诺与闲置资源成本追回",
+      "mechanism_class": "ENTERPRISE_COST_RECOVERY",
+      "verdict": "DEMOTED_NATIVE_FINOPS_AND_MATURE_COST_MANAGEMENT",
+      "evidence_summary": "Alibaba and Tencent already provide commitment-plan management, cost analysis, budgets, anomaly detection and optimization recommendations; dedicated FinOps tooling is mature."
+    },
+    {
+      "title": "SOFTWARE_LICENSE_SHELFWARE_AND_IDLE_LICENSE_RECOVERY",
+      "chinese_title": "软件许可证闲置与授权回收",
+      "mechanism_class": "ENTITLEMENT_UTILIZATION",
+      "verdict": "DEMOTED_EXACT_SAM_INCUMBENTS_WITH_AUTOMATED_RECOVERY",
+      "evidence_summary": "Current Chinese SAM/ITAM products such as SMARTLIC already discover software, measure real utilization, automatically release idle floating licenses and integrate with ITSM."
+    },
+    {
+      "title": "SUPPLIER_QUALITY_CLAIM_AND_8D_RECOVERY_EDGE",
+      "chinese_title": "供应商质量索赔与8D追回微边",
+      "mechanism_class": "SUPPLIER_QUALITY_RECOVERY",
+      "verdict": "DEMOTED_QMS_CONTROL_SURFACE_AND_EXPERT_ROOT_CAUSE",
+      "evidence_summary": "Current QMS platforms already include supplier claim, SCAR/NCR, 8D, quality-cost and ERP/MES/WMS integration. The residual responsibility/root-cause judgment remains quality-expert work."
+    },
+    {
+      "title": "CARGO_DAMAGE_INSURANCE_CLAIM_AUTOMATION",
+      "chinese_title": "货损保险自动理赔",
+      "mechanism_class": "INSURANCE_RECOVERY",
+      "verdict": "DEMOTED_INSURTECH_API_AND_INSURER_CONTROL",
+      "evidence_summary": "Current insurance-tech platforms expose cargo-insurance quote/policy/claim APIs, automated pre-review and telemetry-driven loss assessment. Insurers/brokers retain settlement authority."
+    },
+    {
+      "title": "COMPRESSED_AIR_LEAK_TO_SAVINGS_LOOP",
+      "chinese_title": "压缩空气泄漏到节省闭环",
+      "mechanism_class": "PHYSICAL_ENERGY_LOSS_RECOVERY",
+      "verdict": "DEMOTED_SENSOR_SOFTWARE_AND_SPECIALIST_SERVICE_OCCUPIED",
+      "evidence_summary": "Festo, SUTO, Aden, Ingersoll Rand and others already combine leak measurement, software, ROI prioritization, audit and repair/service. Physical detection/repair still requires specialist field work."
+    },
+    {
+      "title": "INDUSTRIAL_DEMAND_CHARGE_PEAK_CONTROL",
+      "chinese_title": "工业最大需量电费自动控制",
+      "mechanism_class": "ENERGY_COST_CONTROL",
+      "verdict": "DEMOTED_MATURE_EMS_AND_AUTOMATED_LOAD_CONTROL",
+      "evidence_summary": "Existing EMS products already forecast demand peaks, automate load shedding/delay and integrate production/SCADA/energy data."
+    },
+    {
+      "title": "FREIGHT_INVOICE_OVERCHARGE_RECOVERY",
+      "chinese_title": "企业运费账单超收追回",
+      "mechanism_class": "CONTRACT_RATE_AUDIT_AND_RECOVERY",
+      "verdict": "DEMOTED_EXACT_FREIGHT_AUDIT_INCUMBENTS",
+      "evidence_summary": "Current freight-audit systems already ingest carrier bills, compare contract rates, detect duplicates/incorrect surcharges, identify service-guarantee refunds and automate disputes/refund tracking."
+    }
+  ],
+  "hard_floor_demotions": [
+    "NATIVE_FINOPS_OWNS_CLOUD_COST_AND_COMMITMENT_OPTIMIZATION",
+    "SAM_ITAM_INCUMBENTS_ALREADY_RECOVER_IDLE_LICENSES",
+    "QMS_INCUMBENTS_ALREADY_OWN_SUPPLIER_CLAIM_8D_AND_QUALITY_COST_WORKFLOWS",
+    "INSURTECH_AND_INSURERS_OWN_CARGO_CLAIM_EXECUTION",
+    "PHYSICAL_ENERGY_LOSS_REQUIRES_EXISTING_SENSOR_SERVICE_AND_FIELD_REPAIR",
+    "EMS_ALREADY_OWNS_DEMAND_CHARGE_PREDICTION_AND_CONTROL",
+    "FREIGHT_AUDIT_HAS_EXACT_CONTRACT_RATE_AND_REFUND_RECOVERY_INCUMBENTS"
+  ],
+  "scan_learnings": [
+    "DIRECT_ENTERPRISE_COST_LEAKAGE_IS_NOT_WHITE_SPACE_WHEN_A_MATURE_SYSTEM_ALREADY_OWNS_DETECTION_AND_ACTION",
+    "B2B_DOES_NOT_ESCAPE_PLATFORMIZATION_ENTERPRISE_CONTROL_SURFACES_CAN_BE_JUST_AS_MATURE",
+    "CONTRACT_RATE_AUDIT_IS_ATTRACTIVE_ONLY_IF_THE_CONTRACTUAL_ENTITLEMENT_EDGE_IS_NOT_ALREADY_A_STANDARD_FREIGHT_AUDIT_FUNCTION",
+    "PHYSICAL_SAVINGS_LOOPS_FAIL_FOUNDER_INDEPENDENCE_WHEN_FIELD_DIAGNOSIS_OR_REPAIR_IS_INTRINSIC",
+    "NEXT_SEARCH_SHOULD_START_FROM_CONTRACTUALLY_OWED_VALUE_THAT_IS_NOT_BEING_TRIGGERED_OR_CLAIMED_RATHER_THAN_GENERIC_COST_OPTIMIZATION",
+    "SCAN_026_ZERO_RETENTION_AFTER_ENTERPRISE_CONTROL_SURFACE_FALSIFICATION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_027",
+  "next_search_boundary": "CONTRACTUALLY_OWED_VALUE_LEAKAGE_MISSED_REBATES_CREDITS_SLA_COMPENSATION_PRICE_PROTECTION_WITHOUT_MATURE_RECOVERY_CONTROL_SURFACE",
+  "next_action": "START_SCAN027_FROM_ALREADY_CONTRACTED_MONEY_OR_CREDITS_THAT_REQUIRE_MACHINE_DETECTABLE_TRIGGER_AND_CLAIM",
+  "first_external_value_flow": "NOT_PROVEN"
+}
