@@ -6,16 +6,15 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 042 verified that forced operational deadlines plus existing software budget are still not enough: vendor/platform migrations are usually captured by the vendor, existing integration partner, a drop-in replacement, or generic code work without a compounding operator asset.
+Scan 043 verified direct willingness to pay across six workflows, but none had an unowned compounding control asset: the strongest reusable maps/graphs/libraries were already owned by mature category leaders, while the remaining high-ticket work depended on recurring human judgment.
 
 ```text
 DIRECT PAYER / REPEATED WORKAROUND EVIDENCE
-→ EXTERNALLY DISCOVERABLE HIGH-COST STATE OR FLOW
 → MACHINE-EXECUTABLE DIGITAL DELIVERY
-→ DISTINCT COMPOUNDING OPERATOR ASSET
-→ NO MATURE CONTROL SURFACE
+→ EACH EXECUTION CREATES OR STRENGTHENS AN OPERATOR-OWNED REUSABLE ASSET
+→ LEGAL CROSS-CUSTOMER REUSE OF THAT ASSET
+→ NO MATURE INCUMBENT OWNS THE SAME ASSET
 → NO RECURRING EXPERT DELIVERY
-→ EXCLUDE RECOVERY / POLICY / VENDOR-DEPRECATION ONTOLOGIES
 → ONLY THEN DEEP CAUSAL DESCENT
 ```
 
@@ -31,20 +30,20 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Discovery queue:
-- `ATTRACTION_SCAN_043 — BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_EXTERNALLY_DISCOVERABLE_HIGH_COST_STATE_OR_FLOW_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_DISTINCT_COMPOUNDING_OPERATOR_ASSET_NO_MATURE_CONTROL_SURFACE_NO_RECURRING_EXPERT_DELIVERY_EXCLUDE_CLAIMS_REFUNDS_GRANTS_TAX_RELIEF_VENDOR_DEPRECATION_AND_GENERIC_MIGRATION_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
+- `ATTRACTION_SCAN_044 — BROAD_CURRENT_REALITY_DIRECT_PAYER_OR_REPEATED_WORKAROUND_EVIDENCE_MACHINE_EXECUTABLE_DIGITAL_DELIVERY_EACH_EXECUTION_CREATES_OR_STRENGTHENS_OPERATOR_OWNED_REUSABLE_ASSET_OUTCOME_DATA_NETWORK_RELATIONSHIP_VERIFIED_CAPABILITY_REPUTATION_OR_RIGHTS_ASSET_WITH_LEGAL_REUSE_NO_MATURE_INCUMBENT_SAME_ASSET_NO_RECURRING_EXPERT_DELIVERY_NO_PRIOR_VERTICAL_OR_REQUIRED_MECHANISM`.
 
-Scan 042 retained no new formation.
+Scan 043 retained no new formation.
 
 ## Current Phase
 
-`SCAN_042_COMPLETE_PR_PENDING_JEV_CONTINUATION`
+`SCAN_043_COMPLETE_PR_PENDING_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`e99ef7ecc493494b96aaa19d9c4f1e0b9529dc71`
-— squash merge of PR #339, `Exit the recovery ontology after Scan 041`.
+`0f89c1b418cc18de78e6106d3cb13f4c65798588`
+— squash merge of PR #340, `Reject forced-migration false positives in Scan 042`.
 
-PR #339 CI run `35577273643` and live Jev run `35577273644` completed successfully. Scan 041 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #340 CI run `35577575014` and live Jev run `35577574977` completed successfully. Scan 042 Jev returned 6/6 `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, and `autonomous_continuation_allowed=true` with `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -52,11 +51,11 @@ PR #339 CI run `35577273643` and live Jev run `35577273644` completed successful
 
 ## Active Branch
 
-`research/attraction-scan-042`.
+`research/attraction-scan-043`.
 
 ## Active PR
 
-Pending creation for Scan 042.
+Pending creation for Scan 043.
 
 ## CI
 
@@ -69,9 +68,9 @@ Pending creation for Scan 042.
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_042.json`
-- `docs/research/ATTRACTION_SCAN_042_2026-09-21.md`
-- `tests/test_attraction_scan_042_forced_migration.py`
+- `data/research_runs/attraction_scan_043.json`
+- `docs/research/ATTRACTION_SCAN_043_2026-09-21.md`
+- `tests/test_attraction_scan_043_payer_asset_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -96,21 +95,21 @@ Results:
 ## Current Findings
 
 ```text
-FORCED OUTAGE RISK
+DIRECT PAYER
 +
-EXISTING SOFTWARE BUDGET
+REPEATED WORKAROUND
 +
-MACHINE-EXECUTABLE CHANGE
+AUTOMATABLE TASK
 !=
-INDEPENDENT OPERATOR BUSINESS
+UNOWNED COMPOUNDING BUSINESS
 ```
 
-Scan 042 tested six forced vendor/platform changes. Google Merchant migration is platform-partner owned or customer-specific code work; Cloudflare Service Key migration is a low-complexity credential/config change; Schiphol and Booking provide native migration paths; Azure Anomaly Detector already has exact drop-in replacements; Salesforce owns the Essentials upgrade path. Forced migration is therefore exited as a general search ontology.
+Scan 043 tested six workflows with explicit current willingness to pay: product-feed operations, EDI onboarding, construction takeoff, security/RFP responses, short-form editing and Amazon seller appeals. All failed because the reusable operator asset is already controlled by mature products/networks, is only customer-specific context, or the remaining value requires recurring expert/creative/legal judgment.
 
 ## Validation Status
 
 Scan 015-F1 remains the only retained validation beacon.
-- Last Gmail check on 2026-09-21 found no new incoming provider reply after Wave 1.
+- Last Gmail check on 2026-09-21 verified Wave 1 was sent to `service@bearhome.cn` and `dennis.xie@atrenew.com`; neither has sent an incoming written reply.
 - No response is not a denial.
 - Public rights research has reached its useful ceiling.
 - Next decisive evidence remains actual written provider response/agreement plus founder-free inbound proof.
@@ -127,8 +126,8 @@ Engineering:
 - Open-record Jev calibration begins when Scan 036 persists genuinely unresolved formations.
 
 Discovery:
-- Scan 042 is complete with zero retention.
-- Scan 043 has not started; it requires direct payer or repeated workaround evidence first, then a distinct cross-customer compounding operator asset, while excluding recovery/policy/vendor-deprecation families.
+- Scan 043 is complete with zero retention.
+- Scan 044 has not started; it requires evidence that each execution itself creates or strengthens a legally reusable operator-owned asset, not merely a theoretical moat.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -136,7 +135,7 @@ Commercial:
 
 ## Next Action
 
-Merge Scan 042 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 043 in the same task.
+Merge Scan 043 after CI, consume the triggered Jev continuation directive, and if autonomous continuation remains allowed, start Scan 044 in the same task.
 
 ## Do Not Repeat
 
@@ -153,6 +152,8 @@ Merge Scan 042 after CI, consume the triggered Jev continuation directive, and i
 - Do not continue mining vendor/API deprecations as a general opportunity family after Scan 042.
 - Do not count an existing software budget as independent willingness to pay a new operator.
 - Do not retain one-off code migrations unless a distinct cross-customer asset demonstrably compounds.
+- Do not promote a paid workflow merely because a compounding asset could theoretically be built; show that execution itself creates or strengthens the asset and that the operator can legally reuse it.
+- Do not confuse customer-specific memory, style or configuration with a cross-customer operator asset.
 - Do not turn the incumbent-preflight process improvement into a required opportunity mechanism.
 - Do not let Scan 035 verticals seed Scan 036.
 - Do not lower hard floors because discovery continues to close at zero.
