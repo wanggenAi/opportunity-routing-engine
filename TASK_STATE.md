@@ -5,14 +5,15 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 ## Current Mission
 
 Search current high-energy flows for narrow machine-resolvable micro-edges while validating retained formations
-in parallel. Kill any edge already occupied by a mature control surface or reducible to a copyable gateway feature.
+in parallel. Prefer flows where the decisive action loop is not already owned by one dominant transaction
+platform.
 
 ```text
 VALIDATION QUEUE != DISCOVERY QUEUE
 ACTIVE FORMATION != NEXT SCAN SEED
 HOT MARKET != UNOWNED CONTROL EDGE
-FEATURE GAP != BUSINESS
-OPEN ISSUE != PAYER
+MACHINE_READABLE_STATE != ACTION_RIGHT
+HIGH_COMPLAINT_VOLUME != PAYER
 ZERO RETENTION IS VALID
 UNKNOWN != PASS
 ```
@@ -20,7 +21,8 @@ UNKNOWN != PASS
 ## Goal
 
 Reach the first real external value flow through a formation that survives participant pull, discoverability,
-machine-executable delivery, founder-independence, operator control, evidenced economics and incumbent/feature-absorption pressure.
+machine-executable delivery, founder-independence, operator control, evidenced economics and incumbent/platform
+absorption pressure.
 
 ## Current Unique Commercial Research Goal
 
@@ -29,20 +31,20 @@ Validation queue:
 - `ATTRACTION_SCAN_016-F1` — two callable 9610 cross-customs return rails + non-consulting economics.
 
 Discovery queue:
-- `ATTRACTION_SCAN_025 — HIGH_ENERGY_MICRO_EDGE_NO_LLM_QUOTA_OR_ACTIVE_VERTICAL_INHERITANCE`.
+- `ATTRACTION_SCAN_026 — HIGH_ENERGY_EXISTING_BUSINESS_FLOWS_OUTSIDE_DOMINANT_TRANSACTION_PLATFORMS_FIND_UNOWNED_MACHINE_STATE`.
 
-`ATTRACTION_SCAN_024-F1` is resolved/demoted and no longer consumes validation bandwidth.
+Scan 025 retained no new formation.
 
 ## Current Phase
 
-`SCAN_024_F1_DEMOTED_READY_FOR_SCAN_025`
+`SCAN_025_COMPLETE_PENDING_PR_CI_MERGE`
 
 ## Last Verified Main
 
-`c19ee503208e40e6637a23107ff2a08fedbb9b23`
-— squash merge of PR #317, `Complete Scan 024 prepaid quota micro-edge research`.
+`c027eaf5a64997f61d7112f8e5323d0ec78dcec3`
+— squash merge of PR #318, `Demote Scan 024 quota router after incumbent falsification`.
 
-Main CI #918 verified successful.
+Main CI #920 verified successful.
 
 ## Active Issue
 
@@ -50,22 +52,22 @@ Main CI #918 verified successful.
 
 ## Active Branch
 
-`feature/scan024-f1-cheap-falsification`
+`feature/scan025-platform-owned-consumer-flows`
 
 ## Active PR
 
-Not opened yet for Scan 024-F1 falsification. Check GitHub live state first.
+Not opened yet for Scan 025. Check GitHub live state first.
 
 ## CI
 
-No PR CI run yet for the Scan 024-F1 falsification branch.
+No Scan 025 PR CI run yet.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_024_f1_falsification.json`
-- `docs/research/ATTRACTION_SCAN_024_F1_CHEAP_FALSIFICATION_2026-09-21.md`
-- `tests/test_attraction_scan_024_f1_falsification.py`
+- `data/research_runs/attraction_scan_025.json`
+- `docs/research/ATTRACTION_SCAN_025_2026-09-21.md`
+- `tests/test_attraction_scan_025_platform_owned_flows.py`
 
 Updated:
 - `data/commercial_reset_state.json`
@@ -73,37 +75,34 @@ Updated:
 
 ## Completed
 
-Scan 024 retained one temporary research beacon: multi-provider prepaid quota-pool routing.
+Scan 025 tested high-energy consumer micro-edges rather than whole marketplaces.
 
-Cheap falsification now demotes it with verdict:
-
-`DEMOTED_ACTIVE_OPEN_SOURCE_CONTROL_SURFACE_AND_NONCOMPOUNDING_GATEWAY_FEATURE`
-
-Decisive findings:
-- OmniRoute is an active multi-provider open-source AI gateway with quota-aware auto-fallback and reset/quota-aware routing.
-- Its repository is already a substantial current control surface rather than a toy prototype.
-- OmniRoute issue #13616 generalized provider-specific quota/billing endpoints into common quota state and was closed completed on 2026-09-18.
-- LiteLLM #31823 independently frames provider package/quota routing as a router feature, not a separate value chain.
-- Alibaba already consumes nearest-expiring shared quota packages first inside its own entitlement system.
-- Current multi-vendor shared Token Plans reduce the fragmentation a standalone cross-provider optimizer would monetize.
-- No standalone payer evidence or compounding operator asset survives these facts.
+Results:
+- commercial promotions = 0;
+- retained research formations = 0;
+- instant-retail stockout/aftersales edge demoted because platforms own stock/order/refund action;
+- home-repair price/diagnosis edge demoted because platform safeguards coexist with recurring human diagnosis;
+- pet-clinic price/trust edge demoted because proprietary claims-data incumbents occupy the strongest decision edge and care remains human delivery;
+- collectibles presale/authenticity/fulfillment edge demoted because platforms are internalizing authentication, custody, warehouse evidence and transaction-price data;
+- shared-bike overcharge recovery demoted because billing/refund rights remain platform-owned and complaint assistance is generic;
+- generic e-commerce refund/evidence assistance demoted because platform refund workflows own action while third-party evidence drafting is generic-agent substitutable;
 - FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
 
-The durable lesson is:
+The core Scan 025 learning is:
 
 ```text
-REAL PAIN + MACHINE STATE + FEATURE GAP
+HIGH USER PAIN
++ MACHINE-READABLE ORDER STATE
 !=
-STANDALONE BUSINESS
+UNOWNED CONTROL EDGE
+
+PLATFORM OWNS ORDER / BILLING / REFUND / INVENTORY / FULFILLMENT
+→ THIRD PARTY OFTEN OWNS ONLY ADVICE
 ```
 
-Quota waste is real, but the routing state belongs to providers/customers and the routing logic is being
-commoditized in open-source gateways. More routed calls do not naturally create an exclusive data asset or
-transaction rail.
-
-The Scan 024 edge is therefore closed rather than turned into an MVP.
+Consumer-platform pain can be enormous without leaving a commercially attractive third-party control layer.
 
 ## Blockers
 
@@ -112,10 +111,10 @@ Validation:
 - Scan 016-F1 still lacks proof of two independent callable 9610 cross-customs return rails and non-consulting economics.
 
 Engineering:
-- Scan 024-F1 demotion branch needs PR, CI, merge and main verification.
+- Scan 025 branch needs PR, CI, merge and main verification.
 
 Discovery:
-- Scan 025 has not yet started.
+- Scan 026 has not yet started.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -123,23 +122,28 @@ Commercial:
 
 ## Next Action
 
-Complete Scan 024-F1 demotion PR / CI / merge, then start Scan 025 from fresh high-energy current reality.
+Complete Scan 025 PR / CI / merge, then start Scan 026 from active business spending and operational-loss flows
+where no dominant consumer transaction platform already owns the full action loop.
 
-Scan 025 must not inherit:
-- LLM / AI gateway;
-- Token Plan / quota pool;
-- used-device recycling;
-- 9610 returns;
-- recently killed policy/compliance verticals;
+Scan 026 must not inherit:
+- instant retail;
+- home repair;
+- pet medical;
+- collectibles/anime goods;
+- shared bikes;
+- generic e-commerce refund;
+- LLM/quota gateways;
+- current retained Scan 015/016 verticals;
 - routing as a required mechanism.
 
 ## Do Not Repeat
 
-- Do not revive Scan 024-F1 because prepaid quota waste is real.
-- Do not call a gateway feature a business when exact open-source incumbents already occupy the control loop.
-- Do not treat customer credentials + provider quota APIs as a proprietary operator asset.
-- Do not treat GitHub feature requests as payer evidence.
-- Do not use LLM/quota/gateway language as Scan 025 seeds.
+- Do not convert complaint volume into opportunity without action rights.
+- Do not confuse platform APIs with operator control.
+- Do not build consumer evidence assistants whose only output is a complaint/summary.
+- Do not compete with proprietary claims/custody data using public-web comparison.
+- Do not accept recurring human diagnosis/service as founder-independent execution.
+- Do not let Scan 025 consumer verticals seed Scan 026.
 - Do not weaken evidence, payer, founder-independence, operator-control or actionability floors.
 
 ## Guardrails
@@ -148,7 +152,7 @@ Scan 025 must not inherit:
 - Attraction first for attention; evidence first for truth.
 - REALITY > COGNITION > SCHEMA.
 - HOT_MARKET_NE_UNOWNED_CONTROL_EDGE.
-- FEATURE_GAP_NE_BUSINESS.
+- MACHINE_READABLE_STATE_NE_ACTION_RIGHT.
 - ROUTING_IS_OPTIONAL_MECHANISM_NOT_CONSTITUTION.
 - A/B voluntary energy must be evidence-backed.
 - Discoverability/addressability must be sufficient for the formation.
