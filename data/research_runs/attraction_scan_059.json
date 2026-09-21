@@ -1,0 +1,108 @@
+{
+  "schema_version": "attraction-scan.v38",
+  "scan_id": "ATTRACTION_SCAN_059",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-21",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_PAID_OUTCOMES_FORMATION_DIVERSE_SECOND_PASS_STRONG_RECURRING_SPEND_OR_CONTRACT_TO_HIRE_EVIDENCE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_SCAN058_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_059-F1",
+      "title": "RECURRING_QUICKBOOKS_MONTH_END_CLOSE_AND_RECONCILIATION",
+      "chinese_title": "QuickBooks 月结与对账长期托管",
+      "evidence_class": "CURRENT_6_PLUS_MONTH_CONTRACT_TO_HIRE_RECURRING_MONTH_END_CLOSE_WITH_DEFINED_REPEATABLE_SCOPE",
+      "verdict": "DEMOTED_NATIVE_QUICKBOOKS_ACCOUNTING_AI_PLUS_ACCOUNTING_JUDGMENT_TAIL",
+      "evidence_summary": "A current Upwork buyer is hiring a long-term contract-to-hire QuickBooks Online bookkeeper to own a defined recurring month-end close for two businesses. QuickBooks Online now has AI-powered reconciliation and Accounting AI for statement comparison, issue finding and missing-information workflows. The remaining paid responsibility centers on unusual transactions, journal entries, unsupported adjustments and accountable accounting judgment rather than a distinct founder-independent machine layer."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_059-F2",
+      "title": "HIGH_VOLUME_RECRUITING_COORDINATION_AND_FIRST_ROUND_SCREENING",
+      "chinese_title": "高频招聘协调与首轮筛选",
+      "evidence_class": "CURRENT_6_PLUS_MONTH_CONTRACT_TO_HIRE_HIGH_VOLUME_WEEKLY_RECRUITING_ROLE",
+      "verdict": "DEMOTED_NATIVE_AI_RECRUITING_AUTOMATION_PLUS_HUMAN_SELECTION_JUDGMENT",
+      "evidence_summary": "A current $8–$15/hour contract-to-hire role needs continuous sourcing, first-round screens, interview coordination and pipeline management across high-turnover field roles. Greenhouse now automates sourcing, screening and scheduling and offers Voice AI for structured first interviews while explicitly keeping hiring decisions human. The residual paid scope is candidate judgment, persuasion, market-specific sourcing and accountable selection."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_059-F3",
+      "title": "ONGOING_MEDICAL_BILLING_CLAIMS_AND_PAYER_FOLLOW_UP",
+      "chinese_title": "持续医疗账单、理赔与保险方跟进",
+      "evidence_class": "CURRENT_6_PLUS_MONTH_15_TO_25_DOLLAR_PER_HOUR_MEDICAL_BILLING_ROLE",
+      "verdict": "DEMOTED_MATURE_RCM_AUTOMATION_PLUS_PAYER_PATIENT_AND_CODING_HUMAN_TAIL",
+      "evidence_summary": "A current Upwork buyer offers $15–$25/hour for 6+ months of medical billing work spanning patient calls, payer contact and claim management. Waystar already automates claim-status checks, denial/appeal workflows, payment posting and reconciliation. Residual paid work includes payer/patient conversations, coding/context interpretation, difficult exceptions and regulated accountability, so the role does not expose a clean replaceable operator-owned machine unit."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_059-F4",
+      "title": "AFFILIATE_AND_CREATOR_PARTNER_RECRUITMENT_MANAGEMENT",
+      "chinese_title": "联盟与创作者合作伙伴招募运营",
+      "evidence_class": "CURRENT_6_PLUS_MONTH_CONTRACT_TO_HIRE_BASE_PLUS_COMMISSION_PARTNERSHIP_ROLE",
+      "verdict": "DEMOTED_PARTNERSHIP_DISCOVERY_AUTOMATION_PLUS_RELATIONSHIP_BUILDING_TAIL",
+      "evidence_summary": "A current long-term contract-to-hire role seeks ongoing affiliate/creator discovery, outreach, recruitment, onboarding and relationship management with base compensation plus commission. impact.com already provides a 300K+ partner marketplace, AI recommendations, extended web discovery, bulk outreach, automated workflows, application automation, tracking, contracting and payouts, and announced autonomous partnership agents in 2026. The residual value is persuasion, trust, negotiation and relationship development, making recurring human acquisition core."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_059-F5",
+      "title": "WARM_LEAD_OUTBOUND_APPOINTMENT_SETTING",
+      "chinese_title": "暖线索外呼资格筛选与预约",
+      "evidence_class": "CURRENT_CONTRACT_TO_HIRE_PER_QUALIFIED_APPOINTMENT_AND_SIGNUP_PERFORMANCE_PAY",
+      "verdict": "DEMOTED_NATIVE_OUTBOUND_VOICE_AI_AND_APPOINTMENT_BOOKING_PLUS_CONSENT_SALES_JUDGMENT_TAIL",
+      "evidence_summary": "A current contract-to-hire buyer with substantial prior spend offers weekly performance pay for qualified appointments and signed clients, supplying warm leads and a script. HighLevel Voice AI now supports outbound workflow calls for lead follow-up and prospect engagement and can qualify and book directly into calendars. The remaining edge depends on lawful consent, adaptive persuasion, qualification judgment and sales accountability; the standard call-to-calendar loop is already native automation."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_059-F6",
+      "title": "MULTI_BRAND_KLAVIYO_EMAIL_MARKETING_OWNERSHIP",
+      "chinese_title": "多品牌 Klaviyo 邮件营销长期托管",
+      "evidence_class": "CURRENT_6_PLUS_MONTH_CONTRACT_TO_HIRE_25_TO_40_DOLLAR_PER_HOUR_MULTI_BRAND_EMAIL_ROLE",
+      "verdict": "DEMOTED_NATIVE_EMAIL_MARKETING_AI_PLUS_STRATEGY_COPY_AND_APPROVAL_TAIL",
+      "evidence_summary": "A current multi-brand DTC buyer offers $25–$40/hour for 6+ months with contract-to-hire potential to own Klaviyo strategy, flows, campaigns, education, design/copy and optimization. Klaviyo Composer is now a native AI marketing agent that analyzes accounts and drafts campaigns, flows and segments grounded in brand history while retaining human review and approval. The repeatable build layer is increasingly native; residual value is strategy, creative judgment, deliverability/compliance and approval."
+    }
+  ],
+  "hard_floor_demotions": [
+    "QUICKBOOKS_RECURRING_CLOSE_FAILS_WHITE_SPACE_WHEN_NATIVE_ACCOUNTING_AI_AUTOMATES_RECONCILIATION_WHILE_RESIDUAL_REQUIRES_ACCOUNTING_JUDGMENT",
+    "RECRUITING_COORDINATION_FAILS_MACHINE_DELIVERY_WHEN_CURRENT_ATS_AI_OWNS_SOURCING_SCREENING_SCHEDULING_AND_FIRST_INTERVIEW_AUTOMATION_WHILE_SELECTION_REMAINS_HUMAN",
+    "MEDICAL_BILLING_FAILS_WHITE_SPACE_WHEN_MATURE_RCM_PLATFORMS_AUTOMATE_CLAIM_STATUS_DENIAL_APPEAL_PAYMENT_POSTING_AND_RECONCILIATION_WHILE_REGULATED_HUMAN_EXCEPTIONS_REMAIN",
+    "AFFILIATE_RECRUITMENT_FAILS_FOUNDER_INDEPENDENCE_WHEN_PARTNERSHIP_PLATFORMS_AUTOMATE_DISCOVERY_OUTREACH_WORKFLOWS_CONTRACTING_AND_PAYOUTS_WHILE_RELATIONSHIP_BUILDING_REMAINS_CORE",
+    "APPOINTMENT_SETTING_FAILS_WHITE_SPACE_WHEN_NATIVE_VOICE_AI_CAN_PLACE_OUTBOUND_CALLS_QUALIFY_AND_BOOK_CALENDARS_WHILE_CONSENT_AND_PERSUASION_REMAIN_HUMAN_ACCOUNTABILITY",
+    "EMAIL_MARKETING_OWNERSHIP_FAILS_DISTINCT_EXECUTION_LAYER_WHEN_NATIVE_AI_DRAFTS_CAMPAIGNS_FLOWS_SEGMENTS_AND_AUDITS_WHILE_STRATEGY_CREATIVE_AND_APPROVAL_REMAIN_HUMAN"
+  ],
+  "scan_learnings": [
+    "STRONG_RECURRING_SPEND_AND_CONTRACT_TO_HIRE_EVIDENCE_DO_NOT_PROVE_OPERATOR_WHITE_SPACE",
+    "LONG_TERM_HUMAN_ROLES_CAN_PERSIST_AFTER_THE_REPEATABLE_EXECUTION_LAYER_IS_ALREADY_PRODUCTIZED",
+    "NATIVE_AI_OFTEN_COMPRESSES_THE_ROUTINE_LAYER_AND_CONCENTRATES_RESIDUAL_SPEND_IN_JUDGMENT_RELATIONSHIP_CONSENT_OR_ACCOUNTABILITY",
+    "PERFORMANCE_PAY_DOES_NOT_CREATE_OPERATOR_CONTROL_WHEN_THE_STANDARD_EXECUTION_LOOP_IS_ALREADY_NATIVE_AND_THE_RESIDUAL_IS_PERSUASION_OR_COMPLIANCE",
+    "TWO_FORMATION_DIVERSE_BROAD_PASSES_NOW_SHOW_JOB_POSTINGS_ARE_ATTRACTION_EVIDENCE_BUT_WEAK_EVIDENCE_OF_A_DISTINCT_SCALABLE_OPERATOR_LAYER",
+    "NEXT_DISCOVERY_SHOULD_CHANGE_EVIDENCE_SOURCE_BEFORE_DERIVING_ANOTHER_MECHANISM_ONTOLOGY",
+    "SCAN059_ZERO_RETENTION_AFTER_STRONG_RECURRING_ROLE_SPEND_EXACT_INCUMBENT_AND_HUMAN_RESIDUAL_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_060",
+  "next_search_boundary": "BROAD_CURRENT_PAID_OUTCOMES_NON_ROLE_BUYING_SIGNALS_REPEAT_PURCHASE_OR_PRODUCTIZED_SERVICE_SPEND_FORMATION_DIVERSE_DIGITAL_OR_DELEGATABLE_DELIVERY_EXACT_INCUMBENT_PREFLIGHT_NO_JOB_POSTING_AS_SOLE_PAYER_EVIDENCE_NO_SCAN058_OR_SCAN059_VERTICAL_INHERITANCE_NO_MECHANISM_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN060_FROM_NON_ROLE_BUYING_SIGNALS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.upwork.com/freelance-jobs/apply/Recurring-Month-End-QuickBooks-Online-Bookkeeper-Reconciliations_~022085136117831048565/",
+    "https://quickbooks.intuit.com/learn-support/en-us/help-article/reconciliation-reports/learn-reconcile-workflow-quickbooks/L8ZibUuVE_US_en_US?uid=llcaghsk",
+    "https://quickbooks.intuit.com/learn-support/en-us/help-article/bank-transactions/accounting-agent-features/L6pl9rv94_US_en_US",
+    "https://www.upwork.com/freelance-jobs/apply/Recruiting-Coordinator_~022094893161357311391/",
+    "https://www.greenhouse.com/ai-recruiting",
+    "https://www.greenhouse.com/blog/ai-in-recruiting-automation",
+    "https://www.upwork.com/freelance-jobs/apply/Medical-Billing-Specialist_~022098263814412876094/",
+    "https://www.waystar.com/our-platform/smart-platform/",
+    "https://www.waystar.com/our-platform/claim-management/claim-monitoring/",
+    "https://www.upwork.com/freelance-jobs/apply/Affiliate-Influencer-Partnerships-Manager-Base-Commission_~022087112501193923894/",
+    "https://impact.com/discover-recruit/",
+    "https://impact.com/press-releases/impact-unveils-ai-creator-commerce-ipx/",
+    "https://www.upwork.com/freelance-jobs/apply/Appointment-setter_~022100986404979660928/",
+    "https://help.gohighlevel.com/support/solutions/articles/155000006598-voice-ai-outbound-calling",
+    "https://help.gohighlevel.com/support/solutions/articles/155000005293-appointment-booking-for-voice-ai-agents-in-highlevel",
+    "https://www.upwork.com/freelance-jobs/apply/Email-Marketing-Manager-Klaviyo-Multi-Brand-DTC-commerce-Long-term_~022100613676137107581/",
+    "https://help.klaviyo.com/hc/en-us/articles/52230280693403",
+    "https://help.klaviyo.com/hc/en-us/articles/53371629100571",
+    "https://help.klaviyo.com/hc/en-us/articles/52308788113307"
+  ]
+}
