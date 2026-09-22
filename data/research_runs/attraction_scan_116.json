@@ -1,0 +1,223 @@
+{
+  "schema_version": "attraction-scan.v90",
+  "scan_id": "ATTRACTION_SCAN_116",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "TENTH_INDEPENDENT_STANDALONE_TARGET_LEDGER_PASS_WITH_POST_CONTROL_OCF_CURRENT_LABOR_AND_TOTAL_CAPITAL_CLOSURE_PRIORITY_REQUIRE_COMPLETED_CONTROLLING_TRANSFER_REQUIRE_STANDALONE_PUBLIC_REPORTING_REQUIRE_CLEAN_SAME_ENTITY_POST_CONTROL_ECONOMICS_REQUIRE_CURRENT_FTE_REQUIRE_BOUNDED_CONTROL_AND_OPERATING_CAPITAL_REQUIRE_LOW_RECURRING_EXPERT_FIELD_MANUFACTURING_OR_AFTER_SALES_DELIVERY_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_115_FORMATIONS_AND_PRIMARY_SIGNALS_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_116-F1",
+      "title": "CHINA_JIANGSU_COAL_ENTERPRISE_SOFTWARE_LOW_ASSET_POSITIVE_POST_CONTROL_OCF_BUT_28_OF_37_TECHNICAL_FTE_AND_PROJECT_DELIVERY",
+      "discovery_route": "CURRENT_2026_STANDALONE_NEEQ_REPORT_BINDS_JIUHENG_NEW_DATA_POST_CONTROL_REVENUE_PROFIT_EXPLICIT_OCF_CURRENT_FTE_AND_CURRENT_ASSET_BASE_TO_THE_SAME_ENTITY_AFTER_A_2024_JUDICIAL_AUCTION_CONTROL_CHANGE",
+      "observed_actor_state_change_evidence": [
+        "Xuzhou Jiuheng Investment acquired 8,376,000 shares, 49.86% of the then Jinrui Technology, through a Suzhou Intermediate People's Court JD judicial auction on 2024-11-15 and became the largest shareholder with control.",
+        "The acquisition report records a RMB1,313,357 winning price for the 8,376,000-share judicial-auction block; later disclosed holdings increased further, but those later purchases are not used to manufacture the original control price.",
+        "The company later renamed to Jiangsu Jiuheng New-data Intelligent Technology Co., Ltd.; the 2026 H1 reporting period is fully after the 2024 control change."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The 2026 H1 standalone report records total assets RMB5.2142 million and liabilities RMB1.8584 million, with only about RMB55.5 thousand fixed assets.",
+        "The same report shows a software business focused on coal-enterprise management software, software licensing, technical development and solution delivery.",
+        "Current employees total 37: 28 technical, 4 sales, 3 administrative and 2 finance."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "2026 H1 revenue was RMB6.3883 million, net profit RMB0.7527 million and operating cashflow was explicitly positive RMB0.2264 million.",
+        "The company states that sales are currently project-based and mainly direct, with revenue from software-use licensing and software technical-development services.",
+        "Revenue growth was attributed partly to more invoicing and project acceptance, tying economic realization to project delivery rather than a self-service transaction rail."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This formation closes the ledger problem that blocked prior scans: positive revenue, positive net profit, explicit positive OCF, current FTE and current assets are all visible for the same post-control entity.",
+        "The low current asset base does not prove zero working-capital burden: accounts receivable and project acceptance remain economically material, and exact incremental working-capital capital required by a fresh controller is not separately disclosed.",
+        "Twenty-eight of 37 current employees are technical and the current business model still depends on project solution delivery and technical development, so the labor floor fails on direct current evidence rather than inference."
+      ],
+      "economic_signal": [
+        "2026 H1 revenue RMB6.3883 million.",
+        "2026 H1 net profit RMB0.7527 million.",
+        "2026 H1 explicit operating cashflow RMB0.2264 million.",
+        "2026-06-30 total assets RMB5.2142 million; original 49.86% control block was obtained by judicial auction at RMB1.3134 million."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The controlled asset is an established coal-enterprise software vendor with customer relationships, domain software and project-delivery capability rather than a passive shell.",
+        "Domain software and installed relationships are not reducible to a generic agent, but recurring technical implementation and project acceptance remain inside the value-delivery loop.",
+        "No evidence shows a standardized machine-callable external action/settlement rail that can reproduce the cashflow with a materially smaller expert organization."
+      ],
+      "executed_control_transfer_check": "PASS_CONTROL_ACQUIRED_BY_JUDICIAL_AUCTION_ON_2024_11_15_AND_2026_H1_IS_FULLY_POST_CONTROL",
+      "post_transfer_external_economic_continuity_check": "PASS_SAME_ENTITY_2026_H1_REVENUE_NET_PROFIT_AND_EXPLICIT_OPERATING_CASHFLOW_ARE_ALL_POSITIVE",
+      "fresh_small_operator_entry_check": "PARTIAL_PASS_INITIAL_CONTROL_BLOCK_PRICE_AND_CURRENT_ASSET_BASE_ARE_SINGLE_DIGIT_MILLIONS_BUT_LATER_STAKE_COST_AND_INCREMENTAL_WORKING_CAPITAL_REQUIREMENT_ARE_NOT_FULLY_NORMALIZED",
+      "same_operator_economic_binding_check": "PASS_CONTROLLED_PUBLIC_ENTITY_CURRENT_REVENUE_NET_PROFIT_EXPLICIT_OCF_FTE_AND_ASSET_BASE_BIND_TO_JIUHENG_NEW_DATA",
+      "direct_operating_cost_check": "FAIL_CURRENT_PROJECT_ACCEPTANCE_TECHNICAL_DEVELOPMENT_DIRECT_SALES_AND_28_TECHNICAL_FTE_SHOW_RECURRING_EXPERT_DELIVERY_COST",
+      "owner_labor_check": "FAIL_CURRENT_FTE_IS_37_WITH_28_TECHNICAL_EMPLOYEES_SO_THE_LOW_REPLACEMENT_LABOR_FLOOR_IS_NOT_MET",
+      "founder_independence_check": "PARTIAL_PASS_PRIOR_CONTROLLER_WAS_REPLACED_BUT_CURRENT_CASHFLOW_STILL_DEPENDS_ON_A_MULTI_PERSON_TECHNICAL_PROJECT_ORGANIZATION",
+      "data_action_rights_check": "PARTIAL_PASS_CORPORATE_SOFTWARE_AND_CUSTOMER_CONTRACT_POSITION_TRANSFERRED_WITH_CONTROL_BUT_CUSTOMER_PROJECT_ACCESS_ACCEPTANCE_AND_DELIVERY_RIGHTS_REMAIN_CONTRACT_SPECIFIC",
+      "normalized_margin_check": "FAIL_POSITIVE_OCF_AND_LOW_CURRENT_ASSET_BASE_DO_NOT_SURVIVE_CURRENT_EXPERT_LABOR_AND_PROJECT_DELIVERY_NORMALIZATION",
+      "machine_delegatability_check": "FAIL_PROJECT_BASED_SOLUTION_DELIVERY_TECHNICAL_DEVELOPMENT_AND_28_OF_37_TECHNICAL_FTE_ARE_NOT_AN_INTRINSICALLY_LOW_HUMAN_MACHINE_RAIL",
+      "generic_agent_substitutability_check": "PARTIAL_PASS_DOMAIN_SOFTWARE_AND_INSTALLED_CUSTOMER_POSITION_ARE_NOT_GENERIC_AGENT_FEATURES_BUT_THE_DELIVERY_ORGANIZATION_REMAINS_EXPERT_LABOR_HEAVY",
+      "verdict": "DEMOTED_SAME_TARGET_LOW_ASSET_POSITIVE_OCF_IS_PROVEN_BUT_CURRENT_28_OF_37_TECHNICAL_FTE_AND_PROJECT_DELIVERY_FAIL_THE_FOUNDER_LIGHT_LABOR_FLOOR"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_116-F2",
+      "title": "CHINA_SHENZHEN_INDUSTRIAL_AUTOMATION_CONTROL_CHANGE_BY_EXISTING_COALITION_WITH_NEGATIVE_POST_CONTROL_PROFIT_OCF_AND_212_FTE",
+      "discovery_route": "CURRENT_2025_CONTROL_CHANGE_DISCLOSURE_PLUS_2026_STANDALONE_NEEQ_REPORT_BINDS_HUACHENG_INDUSTRIAL_CONTROL_TO_A_POST_CONTROL_PERIOD_WITH_CURRENT_ECONOMICS_ASSETS_AND_FTE",
+      "observed_actor_state_change_evidence": [
+        "On 2025-07-15 Huayancheng bought 35,000 Huacheng shares, 0.12%, and on the same day Tang Yong, Leng Jun, Dong Gaitian, Sun Yi, Huaxincheng and Huayancheng signed a concert-party agreement making Tang Yong's opinion controlling.",
+        "After that change the concert party directly held 40.52% and Tang Yong became the actual controller; the former parent BRT became an associate rather than continuing to consolidate Huacheng.",
+        "The 2026 H1 reporting period is fully after the 2025-07-15 control change."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Huacheng develops industrial automation, robot/manipulator control systems and embodied-intelligence related products using an in-house R&D model.",
+        "2026-06-30 consolidated total assets were RMB182.0546 million and liabilities RMB72.3860 million.",
+        "Current staff were 212: 66 technical, 71 sales, 51 production, 18 management and 6 finance."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The 2026 H1 standalone public report records continuing external operations after the control change.",
+        "The company continues customer-facing product selection, application optimization and technical/R&D work rather than operating as a passive rights-holding vehicle.",
+        "The prior parent disclosed that Huacheng remained an active control-system supplier after deconsolidation."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The nominal trigger for control included only a 35,000-share incremental trade, but control depended on a pre-existing insider shareholding coalition and a new concert-party agreement; that is not a reproducible fresh-operator control surface.",
+        "2026 H1 attributable net profit was negative RMB3.4446 million and explicit operating cashflow was negative RMB13.2925 million.",
+        "The 212-person engineering, sales and production organization independently fails the low recurring human-delivery floor even before normalized capital is considered."
+      ],
+      "economic_signal": [
+        "2026 H1 attributable net profit negative RMB3.4446 million.",
+        "2026 H1 explicit operating cashflow negative RMB13.2925 million.",
+        "2026-06-30 total assets RMB182.0546 million.",
+        "2026-06-30 current FTE 212."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The control surface is a mature industrial automation R&D, manufacturing, sales and application organization, not a narrow portable operator right.",
+        "The 2025 control change was enabled by insider holdings and concerted-action governance, not evidence that an unrelated small operator can buy equivalent control on the same terms.",
+        "Machine products do not eliminate the recurring technical, production and sales organization required to create and support them."
+      ],
+      "executed_control_transfer_check": "PASS_ACTUAL_CONTROL_CHANGED_ON_2025_07_15_BUT_THE_MECHANISM_DEPENDED_ON_A_PREEXISTING_40_52_PERCENT_CONCERT_PARTY_POSITION",
+      "post_transfer_external_economic_continuity_check": "FAIL_CLEAN_2026_H1_POST_CONTROL_PERIOD_HAS_NEGATIVE_NET_PROFIT_AND_NEGATIVE_EXPLICIT_OPERATING_CASHFLOW",
+      "fresh_small_operator_entry_check": "FAIL_NOMINAL_INCREMENTAL_SHARE_PURCHASE_DOES_NOT_REPRESENT_FRESH_CONTROL_COST_BECAUSE_CONTROL_REQUIRES_PREEXISTING_INSIDER_HOLDINGS_AND_ASSET_BASE_IS_RMB182M",
+      "same_operator_economic_binding_check": "PASS_CURRENT_POST_CONTROL_REVENUE_PROFIT_OCF_ASSETS_AND_FTE_BIND_TO_THE_SAME_LISTED_ENTITY",
+      "direct_operating_cost_check": "FAIL_CURRENT_OPERATION_REQUIRES_R_AND_D_PRODUCTION_SALES_AND_APPLICATION_SUPPORT_AND_ALREADY_GENERATES_NEGATIVE_OCF",
+      "owner_labor_check": "FAIL_CURRENT_FTE_IS_212_WITH_66_TECHNICAL_71_SALES_AND_51_PRODUCTION_EMPLOYEES",
+      "founder_independence_check": "FAIL_NEW_CONTROL_DOES_NOT_REMOVE_DEPENDENCE_ON_A_LARGE_MULTI_FUNCTION_OPERATING_ORGANIZATION",
+      "data_action_rights_check": "PARTIAL_PASS_CORPORATE_CONTROL_IS_REAL_BUT_CUSTOMER_APPLICATION_AND_INDUSTRIAL_PRODUCT_ACTIONS_REMAIN_PRODUCT_AND_SITE_SPECIFIC",
+      "normalized_margin_check": "FAIL_POST_CONTROL_NET_PROFIT_AND_OCF_ARE_NEGATIVE_WITH_A_LARGE_ASSET_AND_LABOR_BASE",
+      "machine_delegatability_check": "FAIL_ROBOT_CONTROL_PRODUCTS_DO_NOT_MAKE_THE_UNDERLYING_R_AND_D_PRODUCTION_SALES_AND_APPLICATION_DELIVERY_MACHINE_ONLY",
+      "generic_agent_substitutability_check": "PASS_FOR_SPECIALIZED_INDUSTRIAL_CONTROL_IP_BUT_DISTINCTIVENESS_IS_COUPLED_TO_A_LARGE_OPERATING_ORGANIZATION_AND_DOES_NOT_CREATE_FOUNDER_LIGHT_CASHFLOW",
+      "verdict": "DEMOTED_CLEAN_POST_CONTROL_LEDGER_FAILS_PROFIT_OCF_FRESH_OPERATOR_CONTROL_CAPITAL_AND_CURRENT_LOW_LABOR_FLOORS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_116-F3",
+      "title": "CHINA_SHANGHAI_MATERIALS_ELECTRONICS_INDIRECT_CONTROL_LOW_TRANSACTION_PRICE_BUT_CLEAN_POST_CONTROL_LEDGER_UNCLOSED_AND_ASSET_HEAVY",
+      "discovery_route": "CURRENT_2025_INDIRECT_CONTROL_ACQUISITION_PLUS_2025_STANDALONE_ANNUAL_REPORT_TESTS_WHETHER_A_LOW_PRICED_HOLDING_COMPANY_CONTROL_TRANSFER_CAN_BE_BOUND_TO_CLEAN_POST_CONTROL_TARGET_ECONOMICS_WITHOUT_TIME_WINDOW_STITCHING",
+      "observed_actor_state_change_evidence": [
+        "On 2025-06-30 Shanghai Puw Technology agreed to acquire 100% of Shanghai Pengyuan Technology, whose ownership position caused Feitian Technology's actual controller to change from none to Chen Sihui.",
+        "The disclosed consideration for 100% of Shanghai Pengyuan was RMB2.0 million: RMB1.4 million for the 70% seller block and RMB0.6 million for the 30% seller block.",
+        "The transaction was later disclosed as completed; Chen Sihui indirectly held 32.4536% of Feitian."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Feitian's 2025 year-end consolidated asset base was RMB40.5331 million.",
+        "The group operates rubber/new-material and electronic/battery-material businesses and also lists technical development, software, equipment and intelligent-device activities.",
+        "The 2025 annual report is standalone public target reporting, but its January-December performance window straddles the June 30 control-change date."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "2025 full-year revenue was RMB40.1912 million, showing a real operating business rather than a shell.",
+        "The company reported 2025 full-year net loss RMB4.8816 million and explicit operating cashflow negative RMB0.3734 million.",
+        "Later related-party asset donations of machinery, vehicles, electronics and IP underscore that the operating asset position continued to change after the controller transition."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The RMB2.0 million holding-company transaction is not the target's total usable capital: the listed operating company had RMB40.5331 million assets at year-end.",
+        "The 2025 annual revenue, loss and OCF cannot be relabeled as a clean post-control result because roughly half of the reporting year preceded the June 30 controller change.",
+        "No clean 2026 target period with current FTE was located in the public packet used for this scan; UNKNOWN is preserved rather than stitching later control status onto a mixed-year economic period."
+      ],
+      "economic_signal": [
+        "Indirect controller-acquisition consideration RMB2.0 million for 100% of Shanghai Pengyuan.",
+        "Feitian 2025 full-year revenue RMB40.1912 million.",
+        "Feitian 2025 full-year net loss RMB4.8816 million and explicit OCF negative RMB0.3734 million.",
+        "Feitian 2025 year-end total assets RMB40.5331 million."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The acquired object is an upstream holding-company ownership path into a listed operating business, not evidence of a small portable machine-callable right.",
+        "The operating company spans materials, equipment and related technical operations, so a small holding-company transfer price cannot stand in for operating capital or delivery burden.",
+        "A clean post-control period is required before any founder-light continuity inference; mixed-period annual reporting is insufficient."
+      ],
+      "executed_control_transfer_check": "PASS_INDIRECT_ACTUAL_CONTROL_CHANGED_AFTER_THE_2025_06_30_SHANGHAI_PENGYUAN_ACQUISITION_AND_TRANSACTION_WAS_SUBSEQUENTLY_COMPLETED",
+      "post_transfer_external_economic_continuity_check": "UNKNOWN_2025_ANNUAL_REVENUE_NET_LOSS_AND_NEGATIVE_OCF_STRADDLE_THE_CONTROL_DATE_AND_A_CLEAN_POST_CONTROL_TARGET_PERIOD_IS_NOT_BOUND_IN_THIS_PACKET",
+      "fresh_small_operator_entry_check": "FAIL_LOW_RMB2M_HOLDING_COMPANY_TRANSACTION_PRICE_IS_NOT_TOTAL_USABLE_TARGET_CAPITAL_WHEN_LISTED_TARGET_YEAR_END_ASSETS_ARE_RMB40_5331M",
+      "same_operator_economic_binding_check": "FAIL_TO_CLOSE_CONTROL_STATUS_BINDS_TO_FEITIAN_BUT_2025_FULL_YEAR_ECONOMICS_ARE_NOT_A_CLEAN_POST_CONTROL_TIME_WINDOW",
+      "direct_operating_cost_check": "FAIL_TO_CLOSE_CURRENT_POST_CONTROL_REPLACEMENT_DELIVERY_COST_IS_NOT_SEPARATELY_BOUND_AND_THE_OPERATING_BUSINESS_INCLUDES_MATERIALS_AND_EQUIPMENT_ACTIVITIES",
+      "owner_labor_check": "UNKNOWN_CURRENT_POST_CONTROL_FTE_OR_EXPLICIT_REPLACEMENT_SERVICE_COST_IS_NOT_CLOSED_BY_THE_PACKET_USED_FOR_SCAN116",
+      "founder_independence_check": "UNKNOWN_CORPORATE_CONTROLLER_CHANGED_BUT_CURRENT_POST_CONTROL_OPERATING_ORGANIZATION_REPLACEMENT_BURDEN_IS_NOT_CLOSED",
+      "data_action_rights_check": "PARTIAL_PASS_INDIRECT_CORPORATE_CONTROL_IS_REAL_BUT_OPERATING_RIGHTS_ASSETS_AND_DELIVERY_REMAIN_INSIDE_THE_LISTED_COMPANY_ORGANIZATION",
+      "normalized_margin_check": "FAIL_TO_CLOSE_MIXED_PERIOD_ECONOMICS_CANNOT_PROVE_POST_CONTROL_MARGIN_AND_THE_CURRENT_ASSET_BASE_IS_NOT_LOW_RELATIVE_TO_THE_RMB2M_HOLDING_TRANSACTION",
+      "machine_delegatability_check": "FAIL_TO_CLOSE_NO_CLEAN_CURRENT_PACKET_PROVES_A_LOW_HUMAN_MACHINE_EXECUTION_RAIL_FOR_THE_OPERATING_BUSINESS",
+      "generic_agent_substitutability_check": "PARTIAL_PASS_MATERIALS_AND_INDUSTRIAL_ASSETS_ARE_NOT_GENERIC_AGENT_FEATURES_BUT_THAT_DISTINCTIVENESS_DOES_NOT_PROVE_SMALL_OPERATOR_OR_MACHINE_ONLY_OPERATION",
+      "verdict": "DEMOTED_LOW_INDIRECT_CONTROL_TRANSACTION_PRICE_CANNOT_OVERRIDE_MIXED_POST_CONTROL_TIME_WINDOW_UNCLOSED_CURRENT_LABOR_AND_RMB40M_TARGET_ASSET_BASE"
+    }
+  ],
+  "excluded_observations": [
+    "Scan 060-115 formations and their primary discovery signals were excluded from Scan 116 primary formation selection.",
+    "Microsoftware-like targets with positive OCF but already-repeated project-service structure were not used when a cleaner same-ledger labor binding was available.",
+    "No job, gig, RFQ, procurement or asset-marketplace feed was used as the discovery ontology."
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "standalone_target_ledger_priority_used": true,
+    "completed_control_change_required": true,
+    "clean_post_control_time_window_required": true,
+    "same_operator_and_control_position_binding_required": true,
+    "post_control_external_revenue_required": true,
+    "post_control_net_profit_required": true,
+    "explicit_operating_cashflow_required": true,
+    "current_target_fte_or_replacement_service_cost_required": true,
+    "total_usable_capital_including_working_capital_required": true,
+    "low_recurring_expert_or_field_delivery_required": true,
+    "historical_fte_not_promoted_to_current_fact": true,
+    "mixed_period_economics_not_promoted_to_post_control_fact": true,
+    "nominal_control_transaction_not_promoted_to_total_usable_capital": true,
+    "fresh_operator_reproducibility_checked": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_COAL_ENTERPRISE_SOFTWARE_INDUSTRIAL_AUTOMATION_AND_MATERIALS_ELECTRONICS_TEST_DISTINCT_SOFTWARE_PROJECT_INDUSTRIAL_CONTROL_AND_HOLDING_COMPANY_CONTROL_SHAPES",
+    "observed_indexing_bias": "STANDALONE_NEEQ_REPORTS_CAN_CLOSE_OCF_FTE_AND_ASSET_BASE_BUT_CONTROL_DISCLOSURES_MUST_BE_TESTED_FOR_FRESH_OPERATOR_REPRODUCIBILITY_AND_REPORTING_PERIODS_MUST_NOT_STRADDLE_CONTROL_DATES",
+    "response": "FOR_SCAN117_REQUIRE_A_CLEAN_POST_CONTROL_TARGET_LEDGER_WITH_POSITIVE_OCF_AND_CURRENT_FTE_THAT_IS_INTRINSICALLY_LOW_WITHOUT_PROJECT_IMPLEMENTATION_FIELD_MANUFACTURING_OR_AFTER_SALES_DELIVERY_AND_REQUIRE_CONTROL_TO_BE_REPRODUCIBLE_BY_A_FRESH_OPERATOR",
+    "participant_behavior_over_analyst_story": "PASS_F1_USES_JUDICIAL_AUCTION_PLUS_CURRENT_STANDALONE_LEDGER_F2_USES_CONTROL_DISCLOSURE_PLUS_CURRENT_STANDALONE_LEDGER_F3_FAILS_CLOSED_ON_MIXED_REPORTING_WINDOW"
+  },
+  "scan_learnings": [
+    "SCAN116_CLOSES_THE_PREVIOUS_LEDGER_VISIBILITY_GAP_JIUHENG_NEW_DATA_BINDS_POST_CONTROL_POSITIVE_REVENUE_NET_PROFIT_EXPLICIT_OCF_CURRENT_FTE_AND_LOW_CURRENT_ASSET_BASE_TO_ONE_ENTITY.",
+    "POSITIVE_OCF_PLUS_LOW_CURRENT_ASSETS_IS_NOT_ENOUGH_WHEN_28_OF_37_CURRENT_EMPLOYEES_ARE_TECHNICAL_AND_REVENUE_DEPENDS_ON_PROJECT_ACCEPTANCE_AND_TECHNICAL_DELIVERY.",
+    "A_TINY_INCREMENTAL_SHARE_PURCHASE_CAN_CREATE_FORMAL_CONTROL_ONLY_BECAUSE_A_PREEXISTING_INSIDER_COALITION_ALREADY_OWNS_THE_DECISIVE_POSITION_SO_NOMINAL_TRANSACTION_SIZE_IS_NOT_FRESH_OPERATOR_CONTROL_CAPITAL.",
+    "CLEAN_POST_CONTROL_HUACHENG_DATA_FAILS_DIRECTLY_ON_NEGATIVE_PROFIT_NEGATIVE_OCF_AND_212_CURRENT_FTE.",
+    "A_LOW_PRICED_HOLDING_COMPANY_ACQUISITION_MUST_NOT_BE_CONFUSED_WITH_LOW_TARGET_OPERATING_CAPITAL_AND_MIXED_PRE_AND_POST_CONTROL_ANNUAL_ECONOMICS_MUST_REMAIN_UNKNOWN_FOR_POST_CONTROL_CONTINUITY.",
+    "THE_NEXT_DECISIVE_PROPERTY_IS_NOT_MORE_LEDGER_VISIBILITY_BUT_INTRINSICALLY_LOW_CURRENT_REPLACEMENT_LABOR_WITH_CLEAN_POST_CONTROL_POSITIVE_OCF_AND_A_REPRODUCIBLE_FRESH_OPERATOR_CONTROL_SURFACE."
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_117",
+  "next_search_boundary": "ELEVENTH_INDEPENDENT_MINIMAL_LABOR_STANDALONE_LEDGER_PASS_REQUIRE_COMPLETED_CONTROLLING_TRANSFER_REQUIRE_CLEAN_POST_CONTROL_STANDALONE_TARGET_PERIOD_REQUIRE_SAME_ENTITY_POSITIVE_EXTERNAL_REVENUE_POSITIVE_NET_PROFIT_AND_EXPLICIT_POSITIVE_OPERATING_CASHFLOW_REQUIRE_CURRENT_TARGET_FTE_DISCLOSED_AND_INTRINSICALLY_LOW_WITHOUT_PROJECT_IMPLEMENTATION_FIELD_MANUFACTURING_OR_AFTER_SALES_DELIVERY_REQUIRE_CONTROL_SURFACE_REPRODUCIBLE_BY_A_FRESH_OPERATOR_NOT_DEPENDENT_ON_PREEXISTING_INSIDER_COALITION_REQUIRE_BOUNDED_CONTROL_CONSIDERATION_AND_CURRENT_OPERATING_ASSET_WORKING_CAPITAL_FOOTPRINT_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_116_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "RUN_ATTRACTION_SCAN_117_MINIMAL_LABOR_STANDALONE_LEDGER_PASS_AFTER_EXACT_FINAL_HEAD_SCAN116_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_VALIDATION_AUTHORIZE_CONTINUATION",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608201828201523&pageIndex=1",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608201828201523&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202508201731064699&pageIndex=8",
+    "https://pdf.dfcfw.com/pdf/H2_AN202507171710582585_1.pdf",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202607311827526208&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202607311827526208&pageIndex=10",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202607311827526208&pageIndex=13",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202506301700389764",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202604221821443874&pageIndex=9",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202604221821443874&pageIndex=10",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202604221821443874&pageIndex=11"
+  ]
+}
