@@ -38,7 +38,7 @@ PR #380 final live Jev run `35688802107` completed `success`: `typesafe-sdk==0.7
 
 ## Active PR
 
-None. Scan 083 is complete on the research branch before PR creation.
+#381 — `Validate bilateral partial-flow discovery in Scan 083`.
 
 ## CI
 
@@ -118,7 +118,7 @@ Discovery:
 
 ## Next Action
 
-Open the Scan 083 PR and validate its final head with repository CI plus live TypeSafe/Jev; consume the continuation directive.
+Validate PR #381's final head with repository CI plus live TypeSafe/Jev; consume the continuation directive.
 
 ## Do Not Repeat
 
