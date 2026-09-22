@@ -1,0 +1,151 @@
+{
+  "schema_version": "attraction-scan.v49",
+  "scan_id": "ATTRACTION_SCAN_070",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_BUYER_BUILT_OR_SELF_HOSTED_MULTI_PROVIDER_ABSTRACTION_LAYERS_MAINTAINED_IN_PRODUCTION_DESPITE_AVAILABLE_ORCHESTRATORS_WITH_EXPLICIT_REJECTION_BYPASS_OR_CONTROL_REASON_MEASURABLE_ENGINEERING_MAINTENANCE_COST_REUSABLE_ADAPTER_AND_ROUTING_SEMANTICS_EXACT_OPEN_SOURCE_SAAS_AND_NATIVE_CONTROL_SURFACE_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN069_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_070-F1",
+      "title": "BUYER_BUILT_KYC_IDV_VENDOR_ROUTER",
+      "chinese_title": "买方自建 KYC/身份核验供应商路由层",
+      "buyer_built_evidence": [
+        "A January 2026 fintech operator reports a middleware router that prevents the mobile app from being hard-coded to one KYC vendor and allows backend hot-swaps without forcing an app update; the team used it to drop a vendor.",
+        "An independent February 2026 practitioner reports spending six months abstracting the KYC layer so providers can be swapped when false-positive rates, fraud patterns, compliance requirements or pricing change."
+      ],
+      "explicit_bypass_or_control_reasons": [
+        "Avoid client release coupling to the identity provider.",
+        "Preserve data portability, reduce lock-in, survive sudden price increases and test/migrate when vendor quality changes."
+      ],
+      "verdict": "DEMOTED_TWO_INDEPENDENT_BUYER_BUILT_ABSTRACTIONS_PASS_BUT_CURRENT_VENDOR_NEUTRAL_KYC_ORCHESTRATION_IS_ALREADY_A_DENSE_CATEGORY_WITH_SELF_HOST_OPEN_SOURCE_AND_MANAGED_CONTROL_SURFACES",
+      "evidence_summary": "This is the strongest Scan 070 behavioral pass. The buyer-built cost is real and reasons are explicit. But current products now implement the exact control objective: Omnified offers vendor-neutral KYC orchestration with per-jurisdiction waterfall routing; Forest offers vendor-agnostic orchestration across multiple IDV providers; Ballerine exposes workflow/plugin architecture and self-host/data-ownership semantics, although its open-source repository currently warns that it is undergoing a major rebuild and is not actively supported. The open-source support caveat does not create white space because managed/current orchestration alternatives also exist."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_070-F2",
+      "title": "BUYER_BUILT_MULTI_PROVIDER_SMS_FAILOVER",
+      "chinese_title": "买方自建多供应商短信故障切换",
+      "buyer_built_evidence": [
+        "An August 2026 production operator reports replacing Twilio with an in-house system splitting traffic roughly 50/50 across Vonage and Telnyx with automatic retry to the other provider on failure.",
+        "A separate 2025 infrastructure team reports an internal project to add Vonage, Infobip or Telnyx alongside Twilio for redundancy and regional cost control, but the public evidence does not establish completed recurring production use."
+      ],
+      "explicit_bypass_or_control_reasons": [
+        "Provider outage resilience, billing/support dissatisfaction, regional deliverability and cost.",
+        "Need to preserve customer/provider consistency while retaining fallback."
+      ],
+      "verdict": "DEMOTED_ONE_CURRENT_PRODUCTION_CUSTOM_ROUTER_IS_STRONG_BUT_SECOND_INDEPENDENT_CURRENT_PRODUCTION_BUILD_IS_NOT_PROVEN_AND_EXACT_SMS_FAILOVER_CONTROL_SURFACES_ALREADY_EXIST",
+      "evidence_summary": "The first case proves a small in-house routing algorithm can carry production value. The second case stops at an internal migration project rather than a verified live custom abstraction. Current open-source communications gateways such as Chorus already expose SMS/email multi-provider routing and automatic failover, while commercial orchestration products also occupy the category. The strict two-current-buyer floor therefore fails."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_070-F3",
+      "title": "BUYER_BUILT_TRANSACTIONAL_EMAIL_PROVIDER_ABSTRACTION",
+      "chinese_title": "买方自建事务邮件供应商抽象层",
+      "buyer_built_evidence": [
+        "An April 2026 Rails operator reports creating a hybrid email delivery service that dynamically chooses SES, SendGrid or future providers and adds an SES capacity manager after migrating away from a single-provider setup.",
+        "An independent September 2025 Rails developer reports building and using the open-source chain_mail failover layer after repeated provider outages, with runtime switching across SendGrid, Mailgun, SES, Postmark and other providers."
+      ],
+      "explicit_bypass_or_control_reasons": [
+        "Capacity limits, provider outages, deliverability failures and avoiding mail loss.",
+        "Add/remove providers without rewriting application mailers."
+      ],
+      "verdict": "DEMOTED_BUYER_BUILT_FAILOVER_BEHAVIOR_PASSES_BUT_THE_REUSABLE_LAYER_IS_NOW_DIRECTLY_PRODUCTIZED_AS_OPEN_SOURCE_AND_MANAGED_MULTI_PROVIDER_EMAIL_ORCHESTRATION",
+      "evidence_summary": "The control need is real and reusable, but current offerings such as CourierX provide an open-source, self-hostable one-API multi-provider email layer with automatic failover and BYOK routing; Mailers.io separately markets quota-aware multi-provider orchestration. The buyer-built implementation validates the category rather than an unowned asset."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_070-F4",
+      "title": "BUYER_OWNED_MULTI_PSP_PAYMENT_ABSTRACTION",
+      "chinese_title": "买方自有多 PSP 支付抽象层",
+      "buyer_built_evidence": [
+        "Current payment-orchestration vendors explicitly describe the repeated enterprise pattern of companies building and maintaining in-house payment operating systems to avoid single-processor dependence.",
+        "Public 2026 builder discussions still reproduce custom payment-provider abstraction layers, but direct evidence for two independent current buyers maintaining bespoke production routers despite current orchestrators is not established in this pass."
+      ],
+      "explicit_bypass_or_control_reasons": [
+        "Processor independence, routing control, retries, cost observability, compliance and data ownership."
+      ],
+      "verdict": "DEMOTED_STRICT_TWO_CURRENT_BUYER_BUILT_PRODUCTION_FLOOR_NOT_PROVEN_AND_HYPERSWITCH_NOW_OFFERS_A_SELF_HOSTED_OPEN_SOURCE_MULTI_PSP_CONTROL_PLANE_WITH_90_PLUS_CONNECTORS",
+      "evidence_summary": "Even if more bespoke buyer examples were found, the exact reusable control layer is already available. Hyperswitch currently offers Apache-2.0 self-hosting, multi-PSP connectors, rule/volume/dynamic routing, retries, reconciliation and cost observability. This is the archetypal case where the open-source control plane directly absorbs build-vs-buy pain."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_070-F5",
+      "title": "SELF_HOSTED_MULTI_PROVIDER_DNS_CDN_CONTROL",
+      "chinese_title": "自托管多 DNS/CDN 供应商控制层",
+      "buyer_built_evidence": [
+        "Current infrastructure practitioners use DNSControl to operate records across multiple authoritative DNS providers and preserve provider independence through Git/IaC workflows.",
+        "A current public implementation independently packages Cloudflare plus deSEC DNS synchronization and secondary-CDN failover as a self-hosted reusable control pattern."
+      ],
+      "explicit_bypass_or_control_reasons": [
+        "Avoid a single DNS/CDN failure domain, preserve rollback/control and keep routing logic under operator ownership."
+      ],
+      "verdict": "DEMOTED_SELF_HOSTED_CONTROL_NEED_PASSES_BUT_DNSCONTROL_AND_CURRENT_OPEN_SOURCE_MULTI_DNS_CDN_FAILOVER_IMPLEMENTATIONS_ARE_THE_REUSABLE_ASSET_ALREADY",
+      "evidence_summary": "Here self-hosting is not evidence of an absent product; it is how the existing product category is consumed. DNSControl already abstracts many providers, while current public multi-DNS/CDN failover implementations package health-driven switching. A new generic operator would reproduce open infrastructure rather than own a scarce execution asset."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_070-F6",
+      "title": "BUYER_BUILT_MULTI_PROVIDER_LLM_GATEWAY",
+      "chinese_title": "买方自建多模型供应商 LLM 网关",
+      "buyer_built_evidence": [
+        "Current deployed application architectures expose multi-provider LLM routing and automatic fallback across providers such as Gemini, OpenAI and Perplexity.",
+        "Separate current moderation tooling implements configurable multi-provider AI analysis across Gemini, GPTZero, Sightengine, Hive and other provider paths."
+      ],
+      "explicit_bypass_or_control_reasons": [
+        "Reliability, model/provider specialization, cost control and avoiding hard-coded upstream dependencies are observable design motives, but this pass does not establish two independent buyers explicitly rejecting existing gateways before building."
+      ],
+      "verdict": "DEMOTED_EXPLICIT_EXISTING_GATEWAY_REJECTION_FLOOR_NOT_PROVEN_AND_SELF_HOSTED_LLM_GATEWAYS_ARE_ALREADY_EXTREMELY_DENSE",
+      "evidence_summary": "Even without satisfying the explicit rejection floor, the exact control surface is saturated. LiteLLM currently provides a self-hosted gateway for 100+ LLM providers with routing/governance, while multiple newer open-source gateways expose fallback, circuit breaking, cost limits and native provider protocols. Another generic abstraction layer has no distinct scarcity."
+    }
+  ],
+  "hard_floor_demotions": [
+    "KYC_BUYER_BUILT_ROUTER_SIGNAL_PASSES_BUT_CURRENT_VENDOR_NEUTRAL_ORCHESTRATION_AND_SELF_HOST_CONTROL_SURFACES_ALREADY_MATCH_THE_CONTROL_OBJECTIVE",
+    "SMS_HAS_ONE_STRONG_CURRENT_CUSTOM_PRODUCTION_ROUTER_BUT_SECOND_INDEPENDENT_CURRENT_PRODUCTION_BUILD_IS_NOT_PROVEN_AND_EXACT_FAILOVER_LAYERS_EXIST",
+    "EMAIL_BUYER_BUILT_FAILOVER_IS_REAL_BUT_CURRENT_OPEN_SOURCE_AND_MANAGED_MULTI_PROVIDER_EMAIL_ROUTING_DIRECTLY_PRODUCTIZE_THE_REUSABLE_LAYER",
+    "PAYMENT_TWO_CURRENT_BUYER_BUILT_FLOOR_IS_NOT_PROVEN_AND_HYPERSWITCH_DIRECTLY_SUPPLIES_SELF_HOSTED_MULTI_PSP_CONTROL",
+    "DNS_CDN_SELF_HOSTING_IS_CONSUMPTION_OF_EXISTING_OPEN_CONTROL_PLANES_NOT_EVIDENCE_OF_UNOWNED_WHITE_SPACE",
+    "LLM_MULTI_PROVIDER_ABSTRACTION_IS_ALREADY_A_DENSE_SELF_HOSTED_GATEWAY_CATEGORY_AND_EXPLICIT_BYPASS_REASON_IS_NOT_PROVEN"
+  ],
+  "scan_learnings": [
+    "BUYER_BUILT_OR_SELF_HOSTED_ABSTRACTION_IS_STRONGER_RESIDUAL_EVIDENCE_THAN_MULTI_SUPPLIER_USAGE_ALONE",
+    "KYC_PROVES_TWO_INDEPENDENT_BUYERS_CAN_INCUR_REAL_ENGINEERING_COST_TO_PRESERVE_VENDOR_OPTIONALITY_AND_DATA_CONTROL",
+    "THAT_RESIDUAL_STILL_DOES_NOT_IMPLY_WHITE_SPACE_WHEN_CURRENT_VENDOR_NEUTRAL_MANAGED_AND_SELF_HOST_CONTROL_SURFACES_MATCH_THE SAME CONTROL_OBJECTIVE",
+    "EMAIL_SMS_PAYMENT_DNS_AND_LLM_SHOW_PROVIDER_ABSTRACTION_IS_A_REPEATED_INFRASTRUCTURE_PATTERN_THAT_OPEN_SOURCE_PROJECTS_PRODUCTIZE_QUICKLY",
+    "SELF_HOSTING_MUST_NOT_BE_CONFUSED_WITH BUYER_BUILD_WHEN_THE_BUYER_IS_DEPLOYING_AN_EXISTING_REUSABLE_OPEN_SOURCE_CONTROL_PLANE",
+    "SIX_CONSECUTIVE_SCANS_065_TO_070_HAVE_ESCALATED_BUYER_EVIDENCE_FLOORS_AND_NOW_CONVERGE_ON_PROVIDER_ABSTRACTION_ORCHESTRATION_INFRASTRUCTURE",
+    "CONTINUING_TO_DERIVE_SCAN071_FROM_THE_NEXT_PROVIDER_ABSTRACTION_RESIDUAL_WOULD_CREATE_A_HIDDEN_MECHANISM_ONTOLOGY_SIMILAR_TO_THE_PREVIOUS_SCAN053_TO_SCAN057_DRIFT",
+    "THE_NEXT_DISCOVERY_PASS_SHOULD_RESET_TO_BROAD_FORMATION_DIVERSE_CURRENT_BUYER_BUDGET_REALITY_WITHOUT_REQUIRING_ATOMICITY_MULTI_PROVIDER_ROUTING_FAILOVER_OR_ABSTRACTION",
+    "SCAN070_ZERO_RETENTION_AFTER_BUYER_BUILT_SELF_HOSTED_ABSTRACTION_AND_EXACT_CONTROL_SURFACE_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_071",
+  "next_search_boundary": "BROAD_FORMATION_DIVERSE_CURRENT_BUYER_BUDGET_REALITY_RESET_WITH_DIRECT_EXTERNAL_PAYMENT_CONTRACT_OR_RECURRING_PROCUREMENT_EVIDENCE_FOR_A_BOUNDED_OUTCOME_NO_REQUIRED_ATOMICITY_MULTI_SUPPLIER_ORCHESTRATION_ROUTING_FAILOVER_ABSTRACTION_OR_SOFTWARE_DELIVERY_SHAPE_EXCLUDE_SCAN065_TO_070_FORMATIONS_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN071_BROAD_FORMATION_DIVERSE_BUYER_BUDGET_REALITY_RESET_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/fintech/comments/1pzrvet/building_2026_kyc_stack_what_vendors_are_you/",
+    "https://getomnified.com/blog/one-api-every-jurisdiction",
+    "https://forest.app/solutions/kyc-process",
+    "https://github.com/ballerine-io/ballerine",
+    "https://www.reddit.com/r/CRM/comments/1vqxpaq/picking_an_sms_provider_for_our_notifications_2fa/",
+    "https://www.reddit.com/r/sysadmin/comments/1kpx8ww/has_anyone_here_successfully_migrated_from_twilio/",
+    "https://github.com/cntm-labs/chorus",
+    "https://www.reddit.com/r/rails/comments/1skz5fe/finally_moved_from_sendgrid_to_aws_ses_things_are/",
+    "https://www.reddit.com/r/rails/comments/1nnss36/i_made_chain_mail_never_lose_another_email/",
+    "https://www.courierx.dev/",
+    "https://mailers.io/",
+    "https://hyperswitch.io/about",
+    "https://hyperswitch.io/intelligent-routing",
+    "https://github.com/juspay/hyperswitch-suite",
+    "https://www.reddit.com/r/CloudFlare/comments/1riy15u/automatic_cloudflare_backups_into_azure/",
+    "https://dnscontrol.org/",
+    "https://github.com/ascend-partners/multi-dns-cdn-failover",
+    "https://developers.reddit.com/apps/summarizzit",
+    "https://developers.reddit.com/apps/ai-checker",
+    "https://www.litellm.ai/",
+    "https://llmgateway.io/open-source"
+  ]
+}
