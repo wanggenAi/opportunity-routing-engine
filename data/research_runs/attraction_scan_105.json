@@ -1,0 +1,201 @@
+{
+  "schema_version": "attraction-scan.v79",
+  "scan_id": "ATTRACTION_SCAN_105",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA",
+    "GLOBAL_AUXILIARY"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "EXECUTED_FRESH_OPERATOR_CONTROL_TRANSFER_PLUS_POST_TRANSFER_EXTERNAL_ECONOMIC_CONTINUITY_PASS_REQUIRE_EVIDENCE_THAT_A_FRESH_INDEPENDENT_SMALL_OPERATOR_HAS_ACTUALLY_ACQUIRED_LICENSED_OR_CONTRACTED_THE_DECISIVE_NONCOMMODITY_POSITION_FROM_A_THIRD_PARTY_AND_THAT_EXTERNAL_PAYMENT_CONTINUES_AFTER_CONTROL_CHANGES_WITHOUT_ORIGINAL_FOUNDER_RECURRING_DELIVERY_REQUIRE_BUYER_SIDE_OR_OFFICIAL_TRANSFER_CORROBORATION_NORMALIZED_ECONOMICS_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_104_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_NATIVE_PLATFORM_GENERIC_AGENT_FOUNDER_INDEPENDENCE_MACHINE_DELEGATABILITY_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_105-F1",
+      "title": "CHINA_MANUFACTURER_ACQUIRES_GEL_BLASTER_BRAND_AND_CONTINUES_GLOBAL_REVENUE",
+      "discovery_route": "OFFICIAL_CURRENT_AMAZON_CHINA_SELLER_CASE_DOCUMENTS_EXECUTED_2024_BRAND_ACQUISITION_BY_A_CHINA_OPERATOR_AND_POST_ACQUISITION_REVENUE_PROFIT_AND_DISTRIBUTION_EXPANSION",
+      "observed_actor_state_change_evidence": [
+        "Amazon Global Selling's 2025 China seller case states that a Jiaozuo entrepreneur first acquired Zhongzhou Machinery and later, after the US Gel Blaster customer could not pay its foundry, acquired the Gel Blaster brand in 2024.",
+        "The same official case states that the acquired brand became 100% owned by a Chinese company and that the original founder remained CEO to preserve operating continuity."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The acquired position includes an established brand with prior reported sales of USD 5 million in its first year and USD 50 million in 2022, plus manufacturing capability, global teams and accumulated market recognition.",
+        "After the acquisitions the operator used separate US and China teams, differentiated brands, experience centers and an app/community rather than merely buying a trademark shell."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The official case reports that after acquisition the company turned losses into profits and reached USD 70 million in 2024 sales.",
+        "By July 2025 the operator reported 54 US experience stores, 500,000 users accumulated in six months, 10 million cumulative product sales and 3 million YouTube/Facebook followers as of 2024."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is an unusually clean proof that control can actually change hands and that substantial external money can continue after acquisition.",
+        "It fails the fresh-small-operator floor: the buyer already had manufacturing capabilities, had acquired a licensed factory, operated China/US teams and expanded into 54 physical experience stores.",
+        "The original founder remaining CEO is direct evidence that the post-transfer value flow was not independent of incumbent human continuity.",
+        "The value system requires physical manufacturing, compliance, global channel operations, product design, retail sites and continuing new-product development rather than a bounded machine-routable operator layer."
+      ],
+      "economic_signal": [
+        "Amazon's official seller case attributes USD 70 million 2024 sales and a return to profit to the post-acquisition dual-brand operation.",
+        "Purchase price, gross margin, acquisition financing, working capital, team cost, inventory, advertising and store economics are not disclosed, so normalized small-operator economics cannot be inferred."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The acquired brand and manufacturing stack are controlled by the buyer, but Amazon, physical retail channels, product compliance regimes and global supply chains remain major external control surfaces.",
+        "The post-acquisition operating model explicitly depends on separate US and China teams and recurring product/marketing operations.",
+        "No evidence shows that an independent small operator could obtain or operate an equivalent position at materially similar capital and organizational scale."
+      ],
+      "executed_control_transfer_check": "PASS_OFFICIAL_AMAZON_CHINA_CASE_DOCUMENTS_2024_ACQUISITION_AND_100_PERCENT_CHINESE_OWNERSHIP_OF_THE_FORMER_CUSTOMER_BRAND",
+      "post_transfer_external_economic_continuity_check": "PASS_OFFICIAL_CASE_REPORTS_POST_ACQUISITION_RETURN_TO_PROFIT_AND_USD70M_2024_ENTERPRISE_SALES_WITH_CONTINUING_2025_EXPERIENCE_CENTER_AND_USER_EXPANSION",
+      "fresh_small_operator_entry_check": "FAIL_ACQUIRER_ALREADY_CONTROLLED_MANUFACTURING_LICENSED_FACTORY_CAPABILITY_AND_GLOBAL_TEAMS_AND_THE_OPERATING_MODEL_EXPANDED_TO_DOZENS_OF_PHYSICAL_STORES",
+      "founder_independence_check": "FAIL_ORIGINAL_FOUNDER_REMAINED_CEO_AND_POST_ACQUISITION_OPERATION_USES_SPECIALIZED_US_CHINA_TEAMS_RECURRING_PRODUCT_DEVELOPMENT_MARKETING_RETAIL_AND_COMPLIANCE",
+      "data_action_rights_check": "PARTIAL_PASS_BRAND_OWNERSHIP_TRANSFER_IS_DOCUMENTED_BUT_EXACT_IP_CONTRACT_PLATFORM_ACCOUNT_DATA_AND_CHANNEL_RIGHTS_TERMS_ARE_NOT_PUBLIC",
+      "normalized_margin_check": "UNKNOWN_POST_ACQUISITION_PROFITABILITY_IS_REPORTED_BUT_ACQUISITION_PRICE_CAPITAL_WORKING_CAPITAL_TEAM_INVENTORY_ADVERTISING_AND_STORE_COSTS_ARE_NOT_DISCLOSED",
+      "machine_delegatability_check": "FAIL_PHYSICAL_MANUFACTURING_COMPLIANCE_PRODUCT_DESIGN_GLOBAL_TEAM_COORDINATION_OFFLINE_EXPERIENCE_STORES_AND_RECURRING_PRODUCT_RELEASES_ARE_DECISIVE",
+      "generic_agent_substitutability_check": "PASS_FOR_SCARCITY_GENERIC_AGENTS_CANNOT_RECREATE_THE_ACQUIRED_BRAND_FACTORY_CHANNEL_HISTORY_OR_PHYSICAL_NETWORK_BUT_THIS_DOES_NOT_FIX_SMALL_OPERATOR_OR_FOUNDER_INDEPENDENCE",
+      "verdict": "DEMOTED_EXECUTED_ACQUISITION_AND_POST_TRANSFER_REVENUE_ARE_STRONG_BUT_THE_POSITION_REQUIRES_LARGE_ORGANIZATIONAL_PHYSICAL_AND_LEGACY_MANAGEMENT_CAPACITY_NOT_A_FRESH_SMALL_FOUNDER_LIGHT_OPERATOR"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_105-F2",
+      "title": "CHINA_SMALL_OPERATOR_BUYS_PARCEL_STATION_AND_CONTINUES_PACKAGE_CASHFLOW",
+      "discovery_route": "CURRENT_CHINA_NEWS_INTERVIEW_DOCUMENTS_AN_ORDINARY_BUYER_PAYING_FOR_AN_EXISTING_PARCEL_STATION_CONTINUING_800_PLUS_DAILY_PACKAGES_AND_EARNING_POST_TRANSFER_CASHFLOW_WITH_XUZHOU_OFFICIAL_REGULATORY_CORROBORATION",
+      "observed_actor_state_change_evidence": [
+        "China News Weekly reported that Cheng Si bought an existing parcel pickup station in early September 2025 for nearly RMB 60,000; the station was already receiving more than 800 parcels per day.",
+        "After taking over she continued operating the station, began planning an exit just over one month later and eventually resold it after roughly two months of marketing for a little over RMB 20,000."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Before buying, the operator reviewed the prior owner's inbound/outbound parcel volume, investigated the neighborhood and consulted other operators, showing that the transferred flow was treated as an existing operating asset rather than a greenfield launch.",
+        "The Xuzhou postal regulator's January 2026 risk notice independently confirms that station economics depend on site rent, labor, equipment, parcel compensation, area parcel volume, competition and service quality, and that changes in operator/responsible person require timely filing."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The operator calculated roughly RMB 0.4-0.5 per inbound parcel and reported about RMB 6,000-plus monthly earnings after rent, technology-service and utility costs.",
+        "Actual operation required arrival before 9am, repeated scanning, labeling and shelving cycles, customer pickup/search/verification, evening reorganization and handling calls after about 10pm; retired parents sometimes helped."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is a real small-operator control transfer followed by continuing external cashflow, so it passes a boundary that most prior digital-history cases could not.",
+        "But the cashflow is inseparable from the new operator's full-time physical labor: the operator described a seven-day 9am-to-10pm schedule and concluded RMB 6,000-plus per month was worse than taking a job.",
+        "The resale from nearly RMB 60,000 to a little over RMB 20,000 also destroys the appearance of attractive normalized return once capital loss and owner shadow wage are included.",
+        "Current Xuzhou rules require operator/responsible-person changes to be filed and make the operator the first responsible party; the station cannot be treated as a frictionless passive transfer of platform/courier rights."
+      ],
+      "economic_signal": [
+        "Post-transfer parcel volume and cashflow continued, with the operator reporting roughly RMB 6,000-plus per month after several hard operating costs.",
+        "Once owner labor, family help and the roughly RMB 40,000 resale loss are recognized, the case fails founder-light normalized economics even without assigning a precise hourly wage."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Courier companies, upstream outlets and station systems control parcel allocation, fees and complaint/penalty relationships, while the station operator controls the local site and daily service execution.",
+        "Xuzhou regulation requires timely filing when key station operator details change, so transfer includes a compliance transition rather than automatic inheritance of all operating authority.",
+        "The core work remains physical last-mile handling and customer service rather than an unowned digital routing layer."
+      ],
+      "executed_control_transfer_check": "PASS_CURRENT_BUYER_INTERVIEW_DOCUMENTS_NEAR_RMB60000_PURCHASE_OF_AN_EXISTING_800_PLUS_DAILY_PACKAGE_STATION_AND_LATER_RESALE",
+      "post_transfer_external_economic_continuity_check": "PASS_BUYER_CONTINUED_EXISTING_PACKAGE_FLOW_AND_REPORTED_ABOUT_RMB6000_PLUS_MONTHLY_EARNINGS_AFTER_SEVERAL_HARD_COSTS",
+      "fresh_small_operator_entry_check": "PASS_AN_ORDINARY_INDIVIDUAL_WITHOUT_PREEXISTING_INCUMBENT_HISTORY_ACQUIRED_AND_OPERATED_THE_EXISTING_LOCAL_STATION",
+      "founder_independence_check": "FAIL_NEW_OPERATOR_PERSONALLY_WORKED_APPROXIMATELY_9AM_TO_10PM_SEVEN_DAYS_PER_WEEK_WITH_OCCASIONAL_PARENTAL_HELP",
+      "data_action_rights_check": "PARTIAL_PASS_ACTUAL_OPERATION_TRANSFER_OCCURRED_BUT_UPSTREAM_COURIER_RELATIONSHIPS_SYSTEM_ACCESS_AND_REGULATORY_OPERATOR_CHANGES_ARE_NOT_AUTOMATICALLY_TRANSFERABLE_AND_CURRENT_XUZHOU_RULES_REQUIRE_CHANGE_FILING",
+      "normalized_margin_check": "FAIL_REPORTED_RMB6000_PLUS_MONTHLY_EARNINGS_EXCLUDE_OWNER_SHADOW_WAGE_AND_THE_OPERATOR_RESOLD_FOR_LITTLE_OVER_RMB20000_AFTER_PAYING_NEAR_RMB60000",
+      "machine_delegatability_check": "FAIL_SCANNING_LABELING_SHELVING_PICKUP_SEARCH_VERIFICATION_PACKAGE_HANDLING_COMPLAINTS_AND_SITE_OPEN_HOURS_ARE_RECURRING_PHYSICAL_HUMAN_DELIVERY",
+      "generic_agent_substitutability_check": "PASS_FOR_PHYSICAL_SCARCITY_A_GENERIC_AGENT_CANNOT_REPLACE_LOCAL_SITE_PACKAGE_CUSTODY_AND_HUMAN_HANDLING_BUT_THOSE_ARE_PRECISELY_THE_NON_SCALABLE_VALUE_LAYERS",
+      "verdict": "DEMOTED_EXECUTED_SMALL_OPERATOR_TRANSFER_AND_POST_TRANSFER_CASHFLOW_ARE_REAL_BUT_THE_ASSET_IS_A_PURCHASED_FULL_TIME_PHYSICAL_JOB_WITH_WEAK_NORMALIZED_RETURN_AND_NON_MACHINE_DELIVERY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_105-F3",
+      "title": "CHINA_INDEPENDENT_DEVELOPER_SELLS_SOURCE_CODE_FOR_USD1200",
+      "discovery_route": "CURRENT_CHINA_INDEPENDENT_DEVELOPER_DIRECTLY_REPORTS_A_USD1200_SOURCE_CODE_SALE_WITH_CURRENT_COPYRIGHT_LAW_CORROBORATING_THAT_SOURCE_POSSESSION_AND_COPYRIGHT_TRANSFER_ARE_DISTINCT",
+      "observed_actor_state_change_evidence": [
+        "A China independent developer reported on 2026-07-10 that a Markdown-to-Twitter-thread script was bought by a content-marketing agency for USD 1,200.",
+        "The same operator reported separate income from other small tools, including USD 300 per month maintenance for a custom ecommerce-SaaS engagement, showing genuine external payment behavior around small software assets and services."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "China's current Copyright Law expressly includes computer software as a protected work and allows copyright owners to license or transfer specified economic rights.",
+        "The law requires a written contract for transfer of the specified economic rights and requires the contract to identify the rights, territorial scope, price and payment terms; rights not expressly transferred cannot be exercised by the recipient without consent."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The participant explicitly distinguishes the USD 1,200 source-code sale from the separate monthly maintenance engagement, so the sale is a real executed transaction rather than a hypothetical asking price.",
+        "The public post does not identify the agency, exact script repository, transfer contract, exclusivity, downstream product or any customer revenue generated by the buyer after receiving the code."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The seller's USD 1,200 receipt proves a one-time market for code, but Scan 105 requires continuing external economic value on the buyer side after control changes; no such evidence is present.",
+        "Buying source code is not equivalent to receiving exclusive copyright or all commercial rights. Under current law the decisive transferred rights depend on the written contract, which is not public here.",
+        "The underlying Markdown-to-social-thread transformation is readily reproducible by generic software and current language models, so source code alone is not a demonstrated durable non-commodity control position."
+      ],
+      "economic_signal": [
+        "USD 1,200 is a real seller-side executed payment for the source code.",
+        "There is no buyer-side post-transfer customer revenue, cost, margin, retention or continuing payment evidence for this exact asset; the separate USD 300 monthly maintenance engagement concerns a different CLI/tool relationship."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The seller controls the original code and can contract over copyright economic rights, while the buyer's actual rights depend on the undisclosed agreement.",
+        "Social publishing platforms control downstream APIs/accounts and the transformation primitive is widely reproducible.",
+        "No exact buyer product or post-transfer operating surface is identified, preventing independent continuity verification."
+      ],
+      "executed_control_transfer_check": "UNKNOWN_TO_PARTIAL_A_USD1200_SOURCE_CODE_PURCHASE_IS_DIRECTLY_REPORTED_BUT_PUBLIC_EVIDENCE_DOES_NOT_ESTABLISH_EXCLUSIVE_COPYRIGHT_TRANSFER_OR_THE_PRECISE_RIGHTS_PACKAGE",
+      "post_transfer_external_economic_continuity_check": "FAIL_NO_BUYER_SIDE_EXTERNAL_CUSTOMER_REVENUE_OR_POST_TRANSFER_CASHFLOW_IS_REPORTED_FOR_THE_PURCHASED_SCRIPT",
+      "fresh_small_operator_entry_check": "PARTIAL_PASS_A_SMALL_AGENCY_CAN_PURCHASE_CODE_FROM_AN_INDEPENDENT_DEVELOPER_BUT_THE_DECISIVE_EXCLUSIVE_CONTROL_POSITION_IS_NOT_PROVEN",
+      "founder_independence_check": "UNKNOWN_THE_SELLER_REPORTS_A_CODE_SALE_BUT_NO_SUPPORT_OBLIGATION_OR_BUYER_OPERATING_DEPENDENCY_FOR_THIS_SCRIPT_IS DISCLOSED",
+      "data_action_rights_check": "UNKNOWN_SOURCE_CODE_DELIVERY_IS_REPORTED_BUT_CURRENT_COPYRIGHT_LAW_REQUIRES_SPECIFIC_WRITTEN_TRANSFER_TERMS_FOR_ECONOMIC_RIGHTS_AND_THE_CONTRACT_IS_NOT_PUBLIC",
+      "normalized_margin_check": "FAIL_FOR_SCAN105_CONTINUITY_THE_USD1200_IS_SELLER_TRANSACTION_REVENUE_NOT_BUYER_POST_TRANSFER_UNIT_ECONOMICS",
+      "machine_delegatability_check": "PASS_FOR_CORE_TRANSFORMATION_MARKDOWN_TO_SOCIAL_THREAD_FORMATTING_IS_MACHINE_EXECUTABLE_BUT_THIS_STRENGTH_ALSO_REDUCES_SCARCITY",
+      "generic_agent_substitutability_check": "FAIL_THE_CORE_TRANSFORMATION_IS_SIMPLE_SOFTWARE_TEXT_REFORMATTING_AND_IS_HIGHLY_REPRODUCIBLE_BY_GENERIC_AGENTS_WITHOUT_THE_PURCHASED_SOURCE",
+      "verdict": "DEMOTED_EXECUTED_SELLER_SIDE_CODE_PAYMENT_DOES_NOT_PROVE_EXCLUSIVE_CONTROL_TRANSFER_OR_BUYER_POST_TRANSFER_EXTERNAL_ECONOMIC_CONTINUITY_AND_THE_FUNCTIONAL_LAYER_IS_GENERIC_AGENT_SUBSTITUTABLE"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_PARCEL_STATION_SALE_LISTINGS_WITH_CLAIMED_MONTHLY_REVENUE",
+      "excluded_reason": "EXCLUDED_AS_PRIMARY_EVIDENCE_BECAUSE_UNEXECUTED_ASSET_MARKETPLACE_LISTINGS_ARE_SELLER_CLAIMS_AND_SCAN105_REQUIRES_AN_ACTUAL_CONTROL_CHANGE_AND_POST_TRANSFER_CONTINUITY"
+    },
+    {
+      "observation": "GLOBAL_MICRO_SAAS_ACQUISITION_STORIES_WITH_POST_ACQUISITION_MRR",
+      "excluded_reason": "EXCLUDED_FROM_PRIMARY_FORMATIONS_BECAUSE_SCAN105_PRIMARY_RESEARCH_DOMAIN_IS_CHINA_AND_CURRENT_CHINA_RELEVANCE_WAS_NOT_SUFFICIENTLY_BOUND"
+    },
+    {
+      "observation": "CHINA_CONVENIENCE_STORE_TRANSFER_WAVE",
+      "excluded_reason": "EXCLUDED_FROM_DEEP_RETENTION_BECAUSE_SURFACED_CURRENT_CASES_EITHER_DESCRIBED_GREENFIELD_LEASES_OR_OWNER_OPERATED_PHYSICAL_RETAIL_AND_DID_NOT_PROVIDE_A_CLEAN_EXECUTED_TRANSFER_PLUS_POST_TRANSFER_FOUNDER_LIGHT_CASHFLOW_CHAIN"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "executed_control_transfer_required": true,
+    "post_transfer_external_economic_continuity_required": true,
+    "fresh_small_operator_entry_required": true,
+    "buyer_or_official_transfer_corroboration_required": true,
+    "normalized_economics_required": true,
+    "original_founder_recurring_delivery_disallowed": true,
+    "direct_participant_or_official_current_evidence_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_LARGE_CROSS_BORDER_BRAND_ACQUISITION_SMALL_LOCAL_PARCEL_STATION_TRANSFER_AND_INDEPENDENT_SOFTWARE_SOURCE_TRANSACTION_TEST_DISTINCT_CONTROL_CHANGE_AND_CASHFLOW_SHAPES",
+    "observed_indexing_bias": "EXECUTED_TRANSFER_EVIDENCE_IS_EASIER_TO_FIND_IN_LARGE_PUBLIC_MA_CASES_AND_PHYSICAL_SMALL_BUSINESS_HANDOVERS_THAN_IN_SMALL_DIGITAL_ASSETS_WITH_BUYER_SIDE_POST_TRANSFER_UNIT_ECONOMICS",
+    "response": "DO_NOT_DERIVE_BRAND_MA_PARCEL_STATION_OR_SOURCE_CODE_TRADING_AS_THE_NEXT_ONTOLOGY_REPEAT_THE_EXECUTED_TRANSFER_PLUS_POST_TRANSFER_CONTINUITY_FLOOR_ON_A_SECOND_FRESH_FORMATION_DIVERSE_SAMPLE_WHILE_MAKING_NEW_OPERATOR_FULL_TIME_MANUAL_DELIVERY_AN_EXPLICIT_FAIL",
+    "participant_behavior_over_analyst_story": "PASS_F1_USES_OFFICIAL_ACQUISITION_AND_POST_ACQUISITION_OPERATION_DATA_F2_USES_THE_ACTUAL_SMALL_BUYER_INTERVIEW_PLUS_XUZHOU_REGULATORY_CORROBORATION_F3_USES_A_CURRENT_SELLER_REPORTED_EXECUTED_CODE_PAYMENT_WITH_CURRENT_LAW_TO_BOUND_WHAT_WAS_NOT_PROVEN"
+  },
+  "scan_learnings": [
+    "SCAN105_FIRST_EXECUTED_CONTROL_TRANSFER_PLUS_POST_TRANSFER_ECONOMIC_CONTINUITY_PASS_ZERO_RETENTION_ACROSS_GEL_BLASTER_BRAND_ACQUISITION_SMALL_PARCEL_STATION_TRANSFER_AND_INDEPENDENT_SOURCE_CODE_SALE",
+    "EXECUTED_CONTROL_TRANSFER_AND_POST_TRANSFER_REVENUE_CAN_BE_REAL_AT_LARGE_SCALE_WHILE_FAILING_THE_SMALL_OPERATOR_AND_FOUNDER_INDEPENDENCE_FLOORS",
+    "GEL_BLASTER_PROVES_A_CHINA_ACQUIRER_CAN_TAKE_100_PERCENT_BRAND_OWNERSHIP_AND_CONTINUE_LARGE_EXTERNAL_REVENUE_BUT_THE_ORIGINAL_FOUNDER_REMAINED_CEO_AND_THE_POSITION_REQUIRES_FACTORY_GLOBAL_TEAMS_COMPLIANCE_RETAIL_AND_PRODUCT_OPERATIONS",
+    "A_SMALL_OPERATOR_CAN_BUY_AN_EXISTING_LOCAL_CASHFLOW_POSITION_AND_KEEP_RECEIVING_MONEY_WHILE_EFFECTIVELY_BUYING_A_FULL_TIME_JOB_RATHER_THAN_A_FOUNDER_LIGHT_ASSET",
+    "OWNER_SHADOW_WAGE_AND_CAPITAL_EXIT_VALUE_MUST_BE_INCLUDED_IN_NORMALIZED_POST_TRANSFER_ECONOMICS_PARCEL_STATION_REPORTED_MONTHLY_CASHFLOW_DID_NOT_SURVIVE_THAT_TEST",
+    "A_ONE_TIME_SOURCE_CODE_PAYMENT_TO_THE_SELLER_IS_NOT_POST_TRANSFER_EXTERNAL_ECONOMIC_CONTINUITY_FOR_THE_BUYER",
+    "SOURCE_CODE_POSSESSION_DOES_NOT_BY_ITSELF_PROVE_EXCLUSIVE_SOFTWARE_COPYRIGHT_CONTROL_CURRENT_CHINA_LAW_MAKES_THE_TRANSFERRED_RIGHTS_CONTRACT_SPECIFIC",
+    "ONE_EXECUTED_TRANSFER_PASS_IS_NOT_ENOUGH_TO_DERIVE_A_NEW_ACQUISITION_OR_ASSET_ONTOLOGY_SCAN106_SHOULD_REPEAT_THE_SAME_FLOOR_ON_FRESH_FORMATIONS_AND_EXPLICITLY_FAIL_NEW_OPERATOR_FULL_TIME_MANUAL_DELIVERY"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_106",
+  "next_search_boundary": "SECOND_INDEPENDENT_EXECUTED_FRESH_OPERATOR_CONTROL_TRANSFER_PLUS_POST_TRANSFER_EXTERNAL_ECONOMIC_CONTINUITY_PASS_REQUIRE_EVIDENCE_THAT_A_FRESH_INDEPENDENT_SMALL_OPERATOR_HAS_ACTUALLY_ACQUIRED_LICENSED_OR_CONTRACTED_THE_DECISIVE_NONCOMMODITY_POSITION_FROM_A_THIRD_PARTY_AND_THAT_EXTERNAL_CUSTOMER_PAYMENT_CONTINUES_AFTER_CONTROL_CHANGES_WITHOUT_ORIGINAL_FOUNDER_OR_NEW_OPERATOR_FULL_TIME_MANUAL_DELIVERY_REQUIRE_BUYER_SIDE_OR_OFFICIAL_TRANSFER_CORROBORATION_PURCHASE_OR_CONTROL_COST_POST_TRANSFER_REVENUE_DIRECT_OPERATING_COSTS_OWNER_LABOR_AND_RIGHTS_EVIDENCE_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_105_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_NATIVE_PLATFORM_GENERIC_AGENT_FOUNDER_INDEPENDENCE_MACHINE_DELEGATABILITY_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN105_WITH_CI_JEV_THEN_START_SCAN106_SECOND_EXECUTED_TRANSFER_CONTINUITY_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://globalselling.amazon.com/sellerstory/home/gel-blaster",
+    "https://finance.sina.cn/stock/jdts/2026-01-02/detail-inhewuuv4694417.d.html",
+    "https://js.spb.gov.cn/jssyzglj/c102434/c102436/202601/152cdbcb846a4b0a90e61a27fe94ac7c.shtml",
+    "https://www.w2solo.com/topics/7712",
+    "https://www.ncac.gov.cn/xxfb/flfg/flfg_532/202103/t20210309_50530.html"
+  ]
+}
