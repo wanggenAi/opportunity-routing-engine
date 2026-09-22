@@ -18,23 +18,23 @@ Discovery: `ATTRACTION_SCAN_106` is complete as the second independent executed 
 
 ## Current Phase
 
-`SCAN_106_PR_VALIDATION_ACTIVE`
+`SCAN_107_RESEARCH_ACTIVE`
 
 ## Last Verified Main
 
-`6330d4c9d5c8e58ca61ab8d2f28595cee506ccfa`
-— squash merge of PR #403, `Complete executed transfer continuity Scan 105`.
+`334d0340ede7be1b1dbf20c5b2dba12af067c4cb`
+— squash merge of PR #404, `Run small-operator transfer continuity Scan 106`.
 
-PR #403 final head `97e027bf6f1f197986e1ecf97a5727552b7b2e8e`:
-- repository CI run `35732927512`: success;
-- live TypeSafe/Jev run `35732927526`: success;
-- live advisory artifact `10695764585`;
+PR #404 final head `d953648915c4041d61fd5e0dd6d8572ceb2ef648`:
+- repository CI run `35734246728`: success;
+- live TypeSafe/Jev run `35734246733`: success;
+- advisory artifact `10696788165`;
 - 3/3 model and effective route `NO_FURTHER_RESEARCH`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That directive was consumed to start Scan 106.
+That directive was consumed to start Scan 107.
 
 ## Active Issue
 
@@ -42,21 +42,19 @@ That directive was consumed to start Scan 106.
 
 ## Active Branch
 
-`research/attraction-scan-106`
+`research/attraction-scan-107`
 
 ## Active PR
 
-#404 — `Run small-operator transfer continuity Scan 106`.
-
-Pre-checkpoint PR head: `f146e0cb74c10e3077462c7d901e3d66da992911`.
-GitHub live PR head is authoritative after this TASK_STATE update.
+None yet. Open a PR only after Scan 107 evidence, durable state and regression coverage are complete.
 
 ## CI
 
 - PR #403 exact-final-head repository CI `35732927512`: success.
 - PR #403 live TypeSafe/Jev `35732927526`: success; 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- PR #404 repository CI / live TypeSafe-Jev: pending on the exact final PR head after this TASK_STATE update.
-- Do not consume an older run if the head changes.
+- PR #404 exact-final-head repository CI `35734246728`: success.
+- PR #404 live TypeSafe/Jev `35734246733`: success; 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
+- Scan 107 branch validation: not yet requested because research is active.
 
 ## Parallel Validation
 
@@ -209,4 +207,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Wait for PR #404's exact final head repository CI and live TypeSafe/Jev to reach terminal state. Read the actual Jev continuation directive and, if autonomous continuation is allowed, consume it immediately.
+Run Scan 107 from broad current China reality. Require an actually executed third-party acquisition, license or contract of a decisive noncommodity position at small-operator-sized control cost, plus verified post-transfer received external customer revenue, direct operating costs, owner labor and rights sufficient to estimate normalized net cashflow. Fail original-founder dependence, new-operator full-time manual delivery, large-organization dependence and infrastructure-capital dependence. Persist only evidence-supported outcomes before opening a PR.
