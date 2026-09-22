@@ -6,13 +6,13 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 077 completed the stronger **buyer-authored post-live failure + actual residual-payment** test. Six unrelated operating domains were examined: Baltimore County Workday/PRiSM MBE compliance, NYC FDNY FIRES, BLM AFMSS2, VA EHR, NDIA PACE and St. Johns County Workday HR.
+Scan 078 completed the stronger **executed recurring payment to a distinct non-incumbent residual provider/asset** test. Five evidence-bearing formations were inspected: University Health Epic/Abridge, U.S. Army IPPS-A/Whatfix, Durham County ServiceNow/Moveworks, Ivy Tech Salesforce/WalkMe and Riverside County PeopleSoft/UiPath.
 
-Baltimore County is the strongest current causal chain: Workday went live, the PRiSM integration failed, monthly Excel/email compliance workarounds persisted, and recurring PRiSM vendor payments continued while MBE compliance remained incomplete. It still fails white-space promotion because the recurring payment lands on the exact vertical incumbent and the buyer's own remedy is to fix that integration or replace the software.
+Durham County is the strongest current chain: the County documented support latency and service-desk load in a live enterprise service-management environment, then authorized a three-year $271,578.95 Moveworks purchase for the same employee-support outcome. It still fails white-space promotion because Moveworks already owns that mature residual product category and ServiceNow completed its acquisition of Moveworks in December 2025.
 
-The remaining samples show post-live failure without an executed independent recurring residual contract, or only internal manual labor, platform remediation, public authority or budget intent.
+Ivy Tech independently proves a second strong chain: its Salesforce Health Sciences application accumulated 3,153 first-year support tickets; WalkMe DAP launched against that residual and the trustees approved a three-year $777,615.79 enterprise license. Again, the paid residual is already a mature Digital Adoption Platform category.
 
-Scan 078 therefore raises the evidence floor to **actual recurring payment to a distinct non-incumbent residual provider or asset** after the live replacement while the same buyer-authored outcome remains unresolved.
+Scan 079 therefore raises causality only: require **buyer-authored evidence that the same outcome remains unresolved even after the paid non-incumbent residual layer itself has been purchased**. No router, multi-provider or abstraction mechanism is inherited.
 
 ## Goal
 
@@ -26,26 +26,26 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Resolved recently:
-- `ATTRACTION_SCAN_074` — zero retention after second independent buyer-side non-role spend pass.
 - `ATTRACTION_SCAN_075` — zero retention after paid-incumbent exit/replacement signals.
 - `ATTRACTION_SCAN_076` — zero retention after generic post-replacement recurring residual-spend test.
 - `ATTRACTION_SCAN_077` — zero retention after buyer-authored post-live failure plus actual residual-payment test; strongest Baltimore County chain still paid the exact vertical incumbent.
+- `ATTRACTION_SCAN_078` — zero retention after executed non-incumbent residual-payment test; strongest Durham/Ivy chains still collapse to mature complement control surfaces.
 
 Discovery queue:
-- `ATTRACTION_SCAN_078 — BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_SAME_UNRESOLVED_OUTCOME_PLUS_ACTUAL_RECURRING_PAYMENT_TO_A_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_FORMATION_DIVERSE_REQUIRE_EXECUTED_PAYMENT_NOT_BUDGET_INTENT_EXCLUDE_STANDARD_AMS_OEM_PARTNER_SUPPORT_INTEGRATORS_CONSULTANTS_BPO_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_077_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_079 — BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_SAME_UNRESOLVED_OUTCOME_PLUS_EXECUTED_RECURRING_PAYMENT_TO_A_DISTINCT_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_PLUS_BUYER_AUTHORED_POST_RESIDUAL_PURCHASE_EVIDENCE_THAT_THE_SAME_OUTCOME_REMAINS_UNRESOLVED_DESPITE_THAT_PAID_RESIDUAL_LAYER_FORMATION_DIVERSE_REQUIRE_EXECUTED_PAYMENT_NOT_BUDGET_OR_SOLICITATION_INTENT_EXCLUDE_STANDARD_AMS_OEM_PARTNER_SUPPORT_INTEGRATORS_CONSULTANTS_BPO_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_078_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_AND_RESIDUAL_PROVIDER_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_077_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_078_COMPLETE_AWAITING_PR376_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`fccd87bdbb239158833e461984df53bfce0df036`
-— squash merge of PR #374, `Require buyer-authored post-replacement causality after Scan 076`.
+`d3b399080ff215db5f021d45b557df7882212038`
+— squash merge of PR #375, `Require actual non-incumbent residual payment after Scan 077`.
 
-PR #374 repository CI run `35682613993` completed `success`. Live Jev run `35682613988` completed `success`: TypeSafe SDK `0.7.0` ran with `TYPESAFE_API_KEY` present; 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, and `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #375 repository CI run `35683146371` completed `success`. Live Jev run `35683146370` completed `success`: TypeSafe SDK `0.7.0` ran with `TYPESAFE_API_KEY` present; 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, and `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -53,30 +53,30 @@ PR #374 repository CI run `35682613993` completed `success`. Live Jev run `35682
 
 ## Active Branch
 
-`research/attraction-scan-077`.
+`research/attraction-scan-078`.
 
 ## Active PR
 
-#375 — `Require actual non-incumbent residual payment after Scan 077`. Live GitHub state is authoritative.
+#376 — `Require post-residual same-outcome failure after Scan 078`. Live GitHub state is authoritative.
 
 ## CI
 
-- PR #375 repository CI and live Jev are pending after the current Scan 077 checkpoint update.
-- PR #374 repository CI run `35682613993` completed `success`.
-- PR #374 live Jev run `35682613988` completed `success`; real TypeSafe/Jev execution used `typesafe-sdk==0.7.0`, evaluated 6 entities, returned 6/6 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
+- PR #376 repository CI and live TypeSafe/Jev must validate the latest Scan 078 head after this TASK_STATE checkpoint.
+- PR #375 repository CI run `35683146371` completed `success`.
+- PR #375 live Jev run `35683146370` completed `success`; real TypeSafe/Jev execution used `typesafe-sdk==0.7.0`, `jev-latest`, `TYPESAFE_API_KEY`, evaluated 6 entities, returned 6/6 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_077.json`
-- `docs/research/ATTRACTION_SCAN_077_2026-09-22.md`
-- `tests/test_attraction_scan_077_buyer_authored_residual_payment_gate.py`
+- `data/research_runs/attraction_scan_078.json`
+- `docs/research/ATTRACTION_SCAN_078_2026-09-22.md`
+- `tests/test_attraction_scan_078_non_incumbent_residual_payment_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
-Persisted state records `ATTRACTION_SCAN_077` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_078` as an actual non-incumbent recurring residual-payment test rather than a mechanism boundary.
+Persisted state records `ATTRACTION_SCAN_078` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_079` as a post-residual-purchase same-outcome failure test rather than a mechanism boundary. Every Scan 078 formation now carries `evidence_summary` so live Jev receives bounded evidence context in addition to the authoritative engine verdict.
 
 ## Completed
 
@@ -96,27 +96,24 @@ Results:
 
 ## Current Findings
 
-Scan 077 establishes:
+Scan 078 establishes:
 
 ```text
-LIVE REPLACEMENT
-+ BUYER-AUTHORED SAME-OUTCOME FAILURE
-+ RECURRING MONEY
+LIVE PLATFORM
++ BUYER-AUTHORED RESIDUAL
++ EXECUTED RECURRING NON-INCUMBENT MONEY
 !=
-UNOWNED RESIDUAL VALUE
+UNOWNED OPERATOR WHITE SPACE
 ```
 
-Strongest case:
-- Baltimore County — Workday went live in June 2022; PRiSM integration failed; the MBE Unit fell back to monthly Excel/email/manual compliance work; recurring PRiSM payments continued while compliance remained incomplete. This proves the causal chain exists, but PRiSM is the exact incumbent MBE-compliance control surface, so no independent residual market is established.
+Strongest cases:
+- Durham County — three-year $271,578.95 Moveworks purchase directly targets documented employee-support latency and service-desk load. This is the strongest Scan 078 causal/payment chain, but Moveworks is the exact mature enterprise-AI front door and ServiceNow acquired it in December 2025.
+- Ivy Tech — Salesforce Health Sciences application went live, accumulated 3,153 first-year tickets, WalkMe DAP launched against the same support/adoption residual, and trustees approved a three-year $777,615.79 enterprise license. The residual is already the mature DAP category.
+- University Health — Epic went live in 2020; clinical-documentation improvement remained a buyer priority; Abridge received a $1,223,100 board award in 2025 and an $882,700 amendment in 2026. Real repeat money exists, but the buyer does not explicitly attribute the purchase to Epic failure and the ambient-AI/Epic ecosystem already owns the layer.
+- Army IPPS-A — buyer-authored post-go-live adoption/support load plus an official May 2024 Whatfix DAP award, but inspected public buyer evidence does not bind award amount/recurring term and the DAP layer is already mature.
+- Riverside County — annual $436,235.06 UiPath spend is real, but no buyer-authored evidence ties it to a specific unresolved post-PeopleSoft outcome.
 
-Other cases:
-- NYC FDNY FIRES — live replacement with incomplete inspection/enforcement automation, but no distinct recurring paid residual contract.
-- BLM AFMSS2 — deployed modernization with lost productivity and paper fallback, but residual is internal labor rather than paid external value.
-- VA EHR — live sites still have workarounds and a large configuration backlog, but remediation remains inside the EHR modernization surface and high-stakes clinical governance.
-- NDIA PACE — replacement delivery completed while payment-validation controls remain manual, but the residual is authority-heavy internal validation.
-- St. Johns County Workday HR — buyer describes repeated manual HR work and seeks additional technology budget, but budget intent is not executed recurring payment.
-
-Scan 078 therefore requires actual executed recurring payment to a distinct non-incumbent residual provider or asset that also survives machine-delegatability, rights, margin and generic-agent substitution preflight.
+The next evidence escalation is causal rather than architectural: after the distinct residual layer is purchased, does the buyer still document the same outcome as unresolved?
 
 ## Validation Status
 
@@ -134,12 +131,12 @@ Validation:
 
 Engineering:
 - No current Jev integration blocker.
-- PR #375 repository CI/live Jev must validate the Scan 077 checkpoint before merge.
+- PR #376 repository CI/live Jev must validate the latest Scan 078 checkpoint before merge.
 
 Discovery:
-- Scan 077 is complete with zero retained formations and zero commercial promotions.
-- A strong post-live causal chain is now evidenced, but actual recurring spend still lands on the incumbent or disappears into internal/platform/authority work.
-- Scan 078 must require executed recurring payment to a distinct non-incumbent residual provider or asset; budget intent is insufficient.
+- Scan 078 is complete with zero retained formations and zero commercial promotions.
+- Executed non-incumbent payment is now proven in multiple cases, but mature complement categories or incomplete buyer-authored causality still close every path.
+- Scan 079 must require buyer-authored proof that the same outcome remains unresolved after the paid residual layer itself; no router/multi-provider/product-shape requirement may be inherited.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -147,7 +144,7 @@ Commercial:
 
 ## Next Action
 
-Run PR #375 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN` after green checks, merge, verify main, and start Scan 078 from actual non-incumbent recurring residual payment without deriving a mechanism ontology.
+Run PR #376 repository CI and live TypeSafe/Jev against the latest head, consume the actual continuation directive, and continue automatically. If green and Jev returns `ADVANCE_TO_NEXT_SCAN`, merge PR #376, verify main, and start Scan 079 from post-residual-purchase same-outcome failure evidence without deriving a mechanism ontology.
 
 ## Do Not Repeat
 
