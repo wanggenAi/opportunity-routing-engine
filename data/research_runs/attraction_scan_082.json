@@ -1,0 +1,163 @@
+{
+  "schema_version": "attraction-scan.v60",
+  "scan_id": "ATTRACTION_SCAN_082",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_ACTOR_STATE_CHANGE_FIRST_FORMATION_DIVERSE_OBSERVED_BEHAVIOR_OR_WORKAROUND_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_EXCLUDE_SCAN060_TO_081_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": true,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_082-F1",
+      "title": "US_UNPAID_FAMILY_CAREGIVER_COORDINATION_FRAGMENTATION",
+      "chinese_title": "美国家庭无偿照护者的跨任务协调碎片化",
+      "evidence_class": "CURRENT_HOUSEHOLD_LIFE_STAGE_STATE_WITH_MULTI_TASK_COORDINATION_AND_DIGITAL_ADOPTION",
+      "observed_actor_state_change_evidence": [
+        "NORC reports more than 63 million Americans provide unpaid care, or about one in four adults.",
+        "In NORC's December 2025 probability-panel survey published in February 2026, 48% of unpaid caregivers used at least one technology support; 27% used medication-management tools and 19% used care-coordination platforms.",
+        "Technology use rises with care intensity: 54% of people providing six or more hours of care weekly used at least one technology support."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Caregivers coordinate appointments, medication, transportation, household tasks and communication across multiple people and systems.",
+        "NORC reports 57% of caregivers face at least one technology-adoption barrier, including recipient unwillingness or inability, privacy/security concerns and lack of awareness.",
+        "A 2026 CareMobi user study found caregivers valued appointment tracking, health progress monitoring and centralized file storage, while requesting stronger care-team coordination."
+      ],
+      "economic_signal": [
+        "Employer-funded caregiving benefits are an existing payer path: Cariloop markets pay-for-use caregiving support to small and midsize employers, while Wellthy sells family-care coordination through employer and insurer partnerships.",
+        "This proves money reaches caregiving coordination as a category, but does not prove payment for a new narrow machine-owned missing edge."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Cariloop markets an employer-sponsored caregiving platform and coaching model at multi-million-employee scale.",
+        "Wellthy operates a family-care coordination platform and in 2026 expanded integrated family-care coverage through partnerships including Maven Clinic.",
+        "CareMobi and other caregiver applications already cover shared calendars, task coordination, medication tracking and information centralization."
+      ],
+      "founder_independence_check": "FAIL_CORE_VALUE_STILL_REQUIRES_FAMILY_CONTEXT_PROVIDER_NAVIGATION_CONSENT_EXCEPTION_HANDLING_AND_HUMAN_COORDINATION_FOR_MANY_HIGH_VALUE_CASES",
+      "data_action_rights_check": "PARTIAL_FAIL_HEALTH_PORTALS_PHARMACY_TRANSPORT_FINANCE_AND_FAMILY_DATA_REMAIN_FRAGMENTED_WITH_CARE_RECIPIENT_CONSENT_AND_PROXY_AUTHORITY_REQUIREMENTS",
+      "normalized_margin_check": "PARTIAL_EMPLOYER_BENEFIT_ECONOMICS_EXIST_BUT_THE_DISTINCT_LOW_TOUCH_OPERATOR_UNIT_IS_NOT_EVIDENCED",
+      "machine_delegatability_check": "PARTIAL_SHARED_TASKS_REMINDERS_FILE_ORGANIZATION_AND_SCHEDULING_ARE_MACHINE_EXECUTABLE_BUT_CARE_NAVIGATION_PROVIDER_COMMUNICATION_AND_AUTHORITY_EXCEPTIONS_REMAIN_HUMAN_HEAVY",
+      "generic_agent_substitutability_check": "FAIL_FOR_A_NEW_GENERIC_COORDINATION_LAYER_MUCH_OF_THE_DIGITAL_ORGANIZATION_CAN_BE_PERFORMED_BY_GENERAL_ASSISTANTS_WHILE_THE_NON_SUBSTITUTABLE_TAIL_IS_HUMAN_CONTEXT_CONSENT_AND_NAVIGATION",
+      "verdict": "DEMOTED_LARGE_CURRENT_CAREGIVER_LOAD_AND_REAL_DIGITAL_COORDINATION_BEHAVIOR_BUT_MATURE_COORDINATION_BENEFIT_PLATFORMS_EXIST_AND_THE_HIGH_VALUE_RESIDUAL_REMAINS_CONTEXT_RIGHTS_AND_HUMAN_NAVIGATION_HEAVY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_082-F2",
+      "title": "CALIFORNIA_WILDFIRE_HARDENING_TO_HOME_INSURANCE_ELIGIBILITY",
+      "chinese_title": "加州住宅防火加固到保险可得性的状态跃迁",
+      "evidence_class": "CURRENT_HOUSEHOLD_ASSET_RISK_STATE_CHANGE_WITH_VERIFIED_MITIGATION_AND_INSURANCE_ELIGIBILITY_VALUE_JUMP",
+      "observed_actor_state_change_evidence": [
+        "On 16 September 2026 State Farm General filed California guidelines that would let qualifying Wildfire Prepared designated homes be considered for new homeowners policies, including statewide consideration for the enhanced designation subject to ordinary underwriting.",
+        "IBHS expanded Wildfire Prepared in April 2026 to 14 states and requires science-based mitigation verified by a third party.",
+        "California regulators reported in 2026 that multiple insurers were expanding coverage and mitigation-linked discounts in wildfire-distressed areas."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Homeowners seeking the designation must complete physical mitigation across roof/building features/defensible space and maintain the property after designation.",
+        "IBHS requires ongoing maintenance review; the designation is not a one-time digital form.",
+        "The observable workaround/value-seeking behavior is investment in physical hardening and third-party verification to improve insurability and risk terms."
+      ],
+      "economic_signal": [
+        "The value jump can be material because mitigation may expand eligibility or discounts and reduce wildfire exposure.",
+        "The evidence does not establish recurring payment to a distinct operator layer; the monetary benefit is mediated by insurer underwriting and physical property work."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "IBHS owns the Wildfire Prepared technical standard and third-party designation framework.",
+        "Insurers retain policy eligibility, pricing and underwriting authority; State Farm's filing explicitly keeps ordinary underwriting requirements.",
+        "Mitigation execution is performed by property owners, contractors and inspectors rather than a software-only control surface."
+      ],
+      "founder_independence_check": "FAIL_PHYSICAL_HOME_MODIFICATION_INSPECTION_AND_MAINTENANCE_ARE_INTRINSIC_TO_THE_VALUE_FLOW",
+      "data_action_rights_check": "FAIL_AN_EXTERNAL_OPERATOR_CANNOT_GRANT_THE_IBHS_DESIGNATION_OR_BIND_INSURANCE_COVERAGE_AND_PRICING",
+      "normalized_margin_check": "FAIL_FOR_A_PURE_ORCHESTRATION_LAYER_WITHOUT_EVIDENCE_OF_REPEATABLE_OPERATOR_OWNED_SETTLEMENT_OR_LOW_TOUCH_DELIVERY",
+      "machine_delegatability_check": "FAIL_RISK_GUIDANCE_DOCUMENT_COLLECTION_AND_SCHEDULING_CAN_BE_DIGITAL_BUT_THE_DECISIVE_ACTIONS_ARE_PHYSICAL_VERIFICATION_AND_INSURER_UNDERWRITING",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CANNOT_PERFORM_PHYSICAL_HARDENING_THIRD_PARTY_DESIGNATION_OR_INSURER_UNDERWRITING_BUT_THOSE_NON_SUBSTITUTABLE_RIGHTS_ARE_ALREADY_OWNED_BY_EXISTING_ACTORS",
+      "verdict": "DEMOTED_STRONG_STATE_DEPENDENT_INSURANCE_VALUE_JUMP_BUT_IBHS_INSURERS_AND_PHYSICAL_SERVICE_PROVIDERS_ALREADY_OWN_THE_DECISIVE_RIGHTS_AND_EXECUTION_SURFACES"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_082-F3",
+      "title": "USED_EV_BATTERY_HEALTH_TO_RESALE_TRUST_AND_VALUE",
+      "chinese_title": "二手电动车电池健康到转售信任与估值",
+      "evidence_class": "CURRENT_USED_ASSET_MARKET_STATE_CHANGE_WITH_HIDDEN_CONDITION_UNCERTAINTY_AND_MACHINE_READABLE_DIAGNOSTICS",
+      "observed_actor_state_change_evidence": [
+        "Cox Automotive reported in July and August 2026 that growing off-lease returns and trade-ins were expanding used-EV availability and that used-EV values remained above year-earlier levels.",
+        "Battery condition is a high-value hidden state because usable range and resale value depend materially on battery health rather than mileage alone."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Autotrader introduced VIN-level EV battery health scores on used-EV listings to reduce buyer uncertainty and reported more than 19,000 listings with the information at launch.",
+        "Recurrent lets owners prove battery condition through connected-service data and reports that sellers use the reports in negotiations.",
+        "AVILOO provides independent three-minute battery certificates and current API integration into vehicle exchanges and remarketing systems."
+      ],
+      "economic_signal": [
+        "Sellers and dealers have direct incentives to reduce uncertainty because battery evidence can affect sale speed, negotiation and residual value.",
+        "However the active evidence also shows this outcome is already directly productized by marketplaces and battery-diagnostics specialists."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Autotrader/Kelley Blue Book already embed battery-health information into vehicle-shopping surfaces.",
+        "Recurrent already converts connected-vehicle telemetry into comparative battery reports for owners, buyers and dealers.",
+        "AVILOO markets independent certification, dealer workflows, warranty and API integration for used-EV remarketing."
+      ],
+      "founder_independence_check": "PASS_BATTERY_DATA_INGESTION_BENCHMARKING_CERTIFICATE_GENERATION_AND_LISTING_INTEGRATION_CAN_BE_PRODUCTIZED",
+      "data_action_rights_check": "PARTIAL_PASS_CONNECTED_ACCOUNT_OR_OBD_ACCESS_CAN_ENABLE_DIAGNOSTICS_BUT_MODEL_COVERAGE_OWNER_CONSENT_AND_TELEMETRY_ACCESS_VARY",
+      "normalized_margin_check": "PARTIAL_SOFTWARE_AND_PER_TEST_ECONOMICS_ARE_PLAUSIBLE_BUT_THE_DISTINCT_NEW_OPERATOR_LAYER_IS_ALREADY_OCCUPIED",
+      "machine_delegatability_check": "PASS_DATA_CAPTURE_SCORING_BENCHMARKING_AND_CERTIFICATE_DELIVERY_ARE_PRIMARILY_MACHINE_EXECUTABLE",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CANNOT_INFER_TRUSTWORTHY_VIN_SPECIFIC_BATTERY_STATE_WITHOUT_PRIVILEGED_TELEMETRY_OR_DIAGNOSTIC_ACCESS_BUT_CURRENT_SPECIALISTS_ALREADY_CONTROL_THOSE_DATA_AND_CERTIFICATION_PATHS",
+      "verdict": "DEMOTED_STRONG_MACHINE_EXECUTABLE_TRUST_PROBLEM_AND_GROWING_USED_MARKET_BUT_EXACT_BATTERY_HEALTH_SCORING_CERTIFICATION_AND_MARKETPLACE_INTEGRATION_SURFACES_ARE_ALREADY_ACTIVE"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "GENERIC_AI_CAREGIVER_CHATBOT",
+      "excluded_reason": "EXCLUDE_GENERIC_ASSISTANT_LAYER_GENERAL_AI_CAN_ALREADY_HANDLE_LOW_STAKES_ORGANIZATION_AND_THE_HIGH_VALUE_TAIL_REQUIRES_CONSENT_PROVIDER_NAVIGATION_AND_HUMAN_CONTEXT"
+    },
+    {
+      "observation": "GENERIC_HOME_INSURANCE_COMPARISON_OR_LEAD_GENERATION",
+      "excluded_reason": "EXCLUDE_EXISTING_INSURANCE_SHOPPING_CATEGORY_AND_NO_OPERATOR_CONTROL_OVER_UNDERWRITING"
+    },
+    {
+      "observation": "PUBLIC_EV_CHARGING_APP_FRAGMENTATION",
+      "excluded_reason": "EXCLUDE_BEFORE_FORMATION_ROAMING_PLUG_AND_CHARGE_AND_NETWORK_AGGREGATION_ARE_MATURE_CONTROL_SURFACES_AND_OVERLAP_PRIOR_CROSS_SYSTEM_ROUTING_FAMILIES"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "convenient_search_lens_became_ontology": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_observed_actor_state_change": true,
+    "formation_diversity": "PASS_HOUSEHOLD_CAREGIVING_PROPERTY_RESILIENCE_INSURANCE_AND_USED_ASSET_MOBILITY_RESALE",
+    "observed_indexing_bias": "IMPROVED_FROM_SCAN081_REGULATION_SECURITY_WEIGHTING_BUT_PUBLIC_EVIDENCE_STILL_FAVORS_CATEGORIES_WITH_VISIBLE_PROGRAMS_MARKETPLACES_AND_BENEFIT_PLATFORMS",
+    "response": "AFTER_TWO_INDEPENDENT_BROAD_ACTOR_STATE_PASSES_CHANGE_THE_PRIMARY_EVIDENCE_OBJECT_TO_REPEATED_BILATERAL_PARTIAL_FLOW_OR_WORKAROUND_BETWEEN_ACTORS_BEFORE_PRODUCT_CATEGORY_SELECTION",
+    "participant_behavior_over_analyst_story": "PASS_EACH_FORMATION_STARTS_FROM_OBSERVED_CARE_COORDINATION_MITIGATION_OR_BATTERY_DISCLOSURE_BEHAVIOR_AND_FAILS_CLOSED_WHERE_DECISIVE_RIGHTS_OR_CONTROL_SURFACES_ARE_ALREADY_OWNED"
+  },
+  "scan_learnings": [
+    "SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_PASS_AGAIN_PRODUCED_ZERO_RETENTION_WITHOUT_REUSING_SCAN081_PRIMARY_SIGNALS",
+    "ACTOR_STATE_CHANGE_PLUS_OBSERVED_WORKAROUND_IS_A_USEFUL_SENSOR_BUT_REMAINS_TOO_WEAK_TO_IDENTIFY_AN_UNOWNED_LATENT_CONNECTION",
+    "FAMILY_CARE_COORDINATION_HAS_LARGE_REPLENISHING_DEMAND_BUT_THE_HIGH_VALUE_RESIDUAL_CONCENTRATES_IN_CONSENT_CONTEXT_NAVIGATION_AND_HUMAN_EXCEPTION_WORK",
+    "WILDFIRE_HARDENING_CAN_CREATE_A_LARGE_STATE_DEPENDENT_INSURANCE_VALUE_JUMP_WITHOUT_CREATING_A_MACHINE_OWNED_OPERATOR_EDGE_BECAUSE_PHYSICAL_VERIFICATION_AND_UNDERWRITING_RIGHTS_ARE_ASSIGNED",
+    "USED_EV_BATTERY_HEALTH_IS_MACHINE_EXECUTABLE_AND_ECONOMICALLY_MEANINGFUL_BUT_EXACT_DIAGNOSTIC_CERTIFICATION_AND_MARKETPLACE_SURFACES_ARE_ALREADY ACTIVE",
+    "TWO_BROAD_ACTOR_STATE_PASSES_JUSTIFY_CHANGING_THE_DISCOVERY_EVIDENCE_OBJECT_NOT_DERIVING_A_PRODUCT_MECHANISM",
+    "SCAN083_SHOULD_START_FROM_REPEATED_BILATERAL_PARTIAL_FLOW_OR_INFORMAL_VALUE_TRANSFER_BETWEEN_ACTOR_POPULATIONS_AND_SEARCH_FOR_THE_RECURRING_MISSING_EDGE_BEFORE_NAMING_A_PRODUCT_CATEGORY"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_083",
+  "next_search_boundary": "BILATERAL_PARTIAL_FLOW_FIRST_FORMATION_DIVERSE_REPEATED_CROSS_ACTOR_VALUE_TRANSFER_OR_WORKAROUND_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_REQUIRE_REPLENISHING_A_AND_B_POPULATIONS_AND_RECURRING_CONNECTION_PRESSURE_EXCLUDE_SCAN060_TO_082_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN083_BILATERAL_PARTIAL_FLOW_FIRST_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.norc.org/research/library/caregiving-digital-age.html",
+    "https://www.norc.org/research/library/caregivers-need-support-heres-what-research-shows-helps-them-most.html",
+    "https://journals.sagepub.com/doi/10.1177/01939459261442459",
+    "https://cariloop.com/small-business-employers",
+    "https://wellthy.com/blog-topic/wellthy-updates",
+    "https://newsroom.statefarm.com/state-farm-in-california-understanding-the-issues/",
+    "https://ibhs.org/ibhs-news-releases/ibhs-expands-wildfire-prepared-program-to-10-addtional-states/",
+    "https://www.insurance.ca.gov/0400-news/0102-alerts/2026/Momentum-continues-to-build-under-Insura.cfm",
+    "https://www.coxautoinc.com/insights/ev-market-monitor-july-2026/",
+    "https://www.coxautoinc.com/press-releases/ev-battery-health-scores-now-available-on-autotrader-listings/",
+    "https://www.recurrentauto.com/questions/how-do-i-prove-my-evs-battery-is-healthy-when-selling",
+    "https://aviloo.com/en/"
+  ]
+}
