@@ -48,11 +48,13 @@ That exact-head directive was consumed to start Scan 111.
 
 ## Active PR
 
-Not yet opened at this checkpoint. GitHub live state wins after PR creation.
+#409 — `Run auditable-ledger outcome Scan 111`.
+
+Opened from `research/attraction-scan-111` into `main`. This checkpoint write advances the branch after PR creation, so resolve the live PR head before validating CI/Jev; do not treat the pre-checkpoint head as final.
 
 ## CI
 
-No Scan 111 PR validation exists yet.
+PR #409 is open. Exact-final-head validation is pending after this checkpoint commit.
 
 Consume a Scan 111 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
 
