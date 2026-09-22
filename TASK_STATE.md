@@ -14,11 +14,11 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: run `ATTRACTION_SCAN_112`, the sixth independent verified-net-cashflow control pass. Keep every hard floor and prioritize low-headcount or machine-light entities where audited positive external customer economics can be bound to an executed controlling equity, asset, license or contract transfer for the same entity/control position and time window.
+Discovery: `ATTRACTION_SCAN_112` is complete with zero retained formations. Current evidence shows that low headcount, audited positive economics and a formal 100% control-transfer path can coexist, but the strongest packets remain unexecuted and their value is dominated by capital infrastructure, property, concession rights, financing or outsourced human delivery. The next retrieval priority is a completed controlling transfer with independently evidenced post-transfer positive cashflow continuity and bounded capital/human dependence.
 
 ## Current Phase
 
-`SCAN_112_RESEARCH_ACTIVE`
+`SCAN_112_PR_VALIDATION_PENDING`
 
 ## Last Verified Main
 
@@ -52,13 +52,13 @@ That exact-head directive was consumed to start Scan 112.
 
 ## Active PR
 
-None yet. Scan 112 research is active.
+Not yet opened at this checkpoint. GitHub live state wins after PR creation.
 
 ## CI
 
 No Scan 112 PR validation exists yet.
 
-Consume any Scan 112 continuation directive only from one exact final PR head with acceptable repository CI and live TypeSafe/Jev validation.
+Consume a Scan 112 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
 
 ## Parallel Validation
 
@@ -68,52 +68,92 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-Merged Scan 111 artifacts:
-- `data/research_runs/attraction_scan_111.json`;
-- `docs/research/ATTRACTION_SCAN_111_2026-09-22.md`;
-- `tests/test_attraction_scan_111_auditable_ledgers.py`;
-- `data/commercial_reset_state.json`.
+New in Scan 112:
+- `data/research_runs/attraction_scan_112.json`;
+- `docs/research/ATTRACTION_SCAN_112_2026-09-22.md`;
+- `tests/test_attraction_scan_112_machine_light_control.py`.
 
-Current machine state inherited from Scan 111:
-- last completed scan = `ATTRACTION_SCAN_111`;
-- last resolved formation = `ATTRACTION_SCAN_111-F3`;
-- next scan = `ATTRACTION_SCAN_112`;
+Updated:
+- `data/commercial_reset_state.json`;
+- `TASK_STATE.md`.
+
+Machine state:
+- last completed scan = `ATTRACTION_SCAN_112`;
+- last resolved formation = `ATTRACTION_SCAN_112-F3`;
+- next scan = `ATTRACTION_SCAN_113`;
 - active commercial candidates = 0;
 - retained research formations = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Exact-head validated and squash-merged PR #409.
-- Confirmed the PR workflow installed pinned TypeSafe SDK and made a real `jev-latest` call.
-- Confirmed Jev aligned 3/3 Scan 111 entities with authoritative closures and returned `ADVANCE_TO_NEXT_SCAN`.
-- Created `research/attraction-scan-112` from merged main.
+- Consumed PR #409 exact-head `ADVANCE_TO_NEXT_SCAN` directive and created `research/attraction-scan-112` from merged main.
+- Ran a current-China low-headcount / machine-light control pass without inheriting a product mechanism or commercial vertical.
+- Used current operating/corporate evidence to establish formations; used public-exchange disclosures only to validate control rights, transfer terms and execution status.
+- Tested three distinct control shapes: zero-employee solar SPV, one-employee outsourced hotel-property wrapper and six-employee municipal wastewater concession.
+- Retained zero formations and promoted zero commercial candidates.
+- Persisted Scan 112 research JSON, research note, regression test and commercial state.
 
 ## Current Findings
 
-Scan 112 evidence collection is active.
+### Scan 112-F1 — Hainan zero-employee solar SPV
 
-Search broadly for low-human-dependence operating positions first; use transaction/transfer records only to validate control change after a candidate entity is independently identified. Do not turn equity/asset marketplaces into the discovery ontology.
+The same entity has audited positive 2025 revenue, net profit and operating cashflow, zero reported employees, and a current 100% equity-transfer path.
 
-No formation has been promoted.
+It still fails because no completed transfer or post-transfer period is evidenced. Control change is lender-conditioned, and the economics depend materially on physical solar infrastructure, project finance, grid revenue and subsidy collection assumptions. Zero employees does not close outsourced O&M or replacement operating cost.
+
+Verdict: demoted.
+
+### Scan 112-F2 — Qingdao one-employee hotel-property wrapper
+
+The company has audited positive profit, one employee, and an overall hotel lease/professional-management structure. A prior 2026 full-equity listing failed and the current lower-price 100% listing remains unexecuted.
+
+Low internal headcount therefore reflects capital ownership plus outsourced human hospitality delivery, not machine-native operation. The dominant scarcity is urban real estate rather than reusable routing/data/control.
+
+Verdict: demoted.
+
+### Scan 112-F3 — Yongtai six-employee wastewater concession
+
+The company has audited positive revenue/profit, a live 10,000-ton/day plant and explicit government-approved continuity of its long-duration wastewater concession through a contemplated 100% equity sale.
+
+Rights continuity is strong, but the transfer is not completed. The buyer also inherits material related-party debt and concession-performance obligations, while physical regulated plant operation remains human/infrastructure intensive.
+
+Verdict: demoted.
+
+Key invariant:
+
+```text
+LOW HEADCOUNT
++ AUDITED POSITIVE ECONOMICS
++ 100% TRANSFER PATH
+!= EXECUTED CONTROL CHANGE
+
+ZERO / ONE EMPLOYEE
+!= MACHINE DELIVERY
+
+CAPITAL / PROPERTY / CONCESSION YIELD
+!= REUSABLE MACHINE ROUTING CONTROL
+```
 
 ## Next Evidence Boundary
 
 ```text
-LOW HEADCOUNT / MACHINE-LIGHT ENTITY
-+ SAME ENTITY
-+ SAME CONTROL POSITION
-+ SAME TIME WINDOW
-+ AUDITED POSITIVE EXTERNAL CUSTOMER REVENUE
-+ POSITIVE NORMALIZED PROFIT / CASHFLOW
+COMPLETED CONTROLLING TRANSFER
++ SAME ENTITY / SAME CONTROLLING POSITION
++ PRE- AND POST-TRANSFER EVIDENCE
++ INDEPENDENT POST-TRANSFER POSITIVE EXTERNAL REVENUE
++ POSITIVE NORMALIZED CASHFLOW
 + LOW OWNER LABOR OR EXPLICIT REPLACEMENT COST
-+ EXECUTED CONTROLLING EQUITY / ASSET / LICENSE / CONTRACT TRANSFER
-+ RIGHTS CLOSURE
-+ REALIZED / BOUNDED EXIT VALUE
++ RIGHTS CONTINUITY
++ REALIZED TRANSFER PRICE
++ BOUNDED CAPITAL
++ VALUE NOT PRIMARILY LAND / PLANT / GRID / CONCESSION / OUTSOURCED HUMAN DELIVERY
 + NONCOMMODITY CONTROL
 + FOUNDER-LIGHT MACHINE-DELEGATABLE DELIVERY
-=> POSSIBLE VERIFIED CONTROL CASHFLOW
+=> POSSIBLE VERIFIED POST-TRANSFER CONTROL CASHFLOW
 ```
+
+Do not derive a product or vertical from the zero-retention result.
 
 ## Blockers
 
@@ -121,16 +161,18 @@ Validation:
 - Scan 015-F1 still needs a real official written provider response/agreement and founder-free inbound proof.
 
 Discovery:
-- no user action is required;
-- the current challenge is binding low human dependence, audited positive customer economics and executed controlling transfer into one same-position packet.
+- Scan 112 research itself is complete;
+- current strongest low-headcount positive-economics packets remain unexecuted and capital/physical-service dominated.
 
 Engineering:
-- no current TypeSafe/Jev integration blocker.
+- no current TypeSafe/Jev integration blocker;
+- Scan 112 still needs exact-final-head repository CI plus live TypeSafe/Jev validation.
 
 ## Do Not Repeat
 
+- Do not repeat Scan 112 solar SPV, Qingdao hotel-property wrapper or Yongtai wastewater-concession formations as Scan 113 primary formations.
 - Do not repeat Scan 111 restaurant-partnership ledger, Henan micro real-estate 100% transfer or Beijing zero-employee 6% tech stake.
-- Do not repeat Scan 060-111 formations or their primary discovery signals.
+- Do not return to Scan 060-112 formations or their primary discovery signals.
 - Do not use job/gig/RFQ/procurement feeds or asset-marketplace feeds as discovery ontology.
 - Do not infer a product from a closed formation.
 - Do not combine different entities, control positions or time windows to manufacture normalized economics.
@@ -170,4 +212,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Complete Scan 112's low-headcount/machine-light executed-control evidence pass and persist its research JSON, research note, regression test, commercial state and handoff state.
+Open the Scan 112 PR and validate one exact final PR head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are acceptable.
