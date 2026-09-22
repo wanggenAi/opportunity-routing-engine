@@ -1,0 +1,188 @@
+{
+  "schema_version": "attraction-scan.v66",
+  "scan_id": "ATTRACTION_SCAN_090",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "SECOND_INDEPENDENT_PASS_INDEPENDENTLY_REPLICATED_PAID_CROSS_COMPONENT_COORDINATION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_090-F1",
+      "title": "PAID_CROSS_SAAS_WORKFLOW_AUTOMATION",
+      "chinese_title": "付费跨 SaaS 工作流自动化协调",
+      "evidence_class": "SECOND_PASS_REPLICATED_PAID_CROSS_COMPONENT_SAAS_AUTOMATION",
+      "actor_a_population": "Individuals and small teams paying to move data or trigger actions across multiple SaaS applications.",
+      "actor_b_population": "Independent SaaS applications exposing separate APIs, credentials, objects and action rights.",
+      "existing_components": [
+        "Zapier connects triggers and actions across more than 9,000 applications and manages authentication, infrastructure and workflow execution.",
+        "The connected SaaS applications remain separate systems of record with their own API permissions, rate limits, schemas and authoritative actions."
+      ],
+      "independent_replication": [
+        "An April 2026 r/zapier participant says they had been on Zapier Professional for more than a year; three AI-enabled workflows pushed the monthly bill from about $30 to $160 while continuing to execute cross-app automation.",
+        "A May 2026 r/n8n participant says they had been paying $69/month for Zapier Team and describes three concrete production workflows spanning forms/webhooks, Slack, Sheets, RSS, Telegram, Clearbit and AI before migrating them."
+      ],
+      "participant_authored_successful_completion": [
+        "The April 2026 Professional user had functioning workflows whose repeated AI and action steps consumed hundreds of Zapier tasks, demonstrating real automated cross-component execution rather than plan-shopping intent.",
+        "The May 2026 Team user describes working lead intake, morning digest and lead-enrichment automations that moved data and actions among multiple existing services before being rebuilt elsewhere."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "The Professional user reports task-meter expansion after AI nodes drove the bill sharply higher and asks for workflow-level spending controls.",
+        "The Team user migrated to self-hosted n8n because Zapier's task/AI-credit economics became expensive; another March 2026 SaaS operator reports Zapier alone at $299/month before moving the core automation elsewhere."
+      ],
+      "actual_cross_component_coordination_payment_check": "PASS_AT_LEAST_TWO_UNAFFILIATED_2026_PARTICIPANTS_EXPLICITLY_REPORT_PAID_ZAPIER_PROFESSIONAL_OR_TEAM_USAGE_FOR_CROSS_APP_WORKFLOWS_RATHER_THAN_PAYMENT_FOR_ANY_SINGLE_CONNECTED_APP",
+      "manual_multi_component_completion_check": "PASS_THE_AUTOMATED_OUTCOME_CONNECTS_MULTIPLE_INDEPENDENT_APPLICATIONS_AND_DATA_OR_ACTION_SURFACES",
+      "no_single_current_control_surface_check": "PASS_ZAPIER_OWNS_THE_WORKFLOW_MIDDLE_LAYER_BUT_EACH_CONNECTED_APP_RETAINS_ITS_OWN_DATA_SCHEMA_CREDENTIALS_RATE_LIMITS_AND_AUTHORITATIVE_ACTION_RIGHTS",
+      "decisive_completion_control": "PASS_USERS_CAN_AUTHORIZE_CONNECTIONS_BUILD_WORKFLOWS_AND_TRIGGER_ACTIONS_WITHOUT_PRIVILEGED_INCUMBENT_MANUAL_EXCEPTION",
+      "repeated_bilateral_value_transfer": "PASS_USERS_PAY_ZAPIER_RECURRING_PLAN_OR_USAGE_CHARGES_FOR_CROSS_APP_COORDINATION_WHILE_SEPARATELY_USING_THE_CONNECTED_SAAS_PRODUCTS",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Zapier explicitly describes itself as infrastructure for automation across 9,000+ apps and offers Pro, Team and Enterprise paid tiers.",
+        "Zapier's pricing documentation defines paid-plan task billing and premium app access; current 2026 documentation also supports pay-per-task billing for paid plans.",
+        "Zapier-managed app connections use OAuth, API keys or other credentials but only exercise rights authorized by each connected application."
+      ],
+      "founder_independence_check": "PASS_ZAPIER_AND_CONNECTED_APPS_EXECUTE_THE_OBSERVED_WORKFLOWS_WITHOUT_RECURRING_FOUNDER_DELIVERY_LABOR",
+      "data_action_rights_check": "FAIL_FOR_A_NEW_OPERATOR_CROSS_APP_ACTIONS_DEPEND_ON_APP_SPECIFIC_AUTHENTICATION_API_RIGHTS_SCHEMAS_AND_RATE_LIMITS_ALREADY_ABSORBED_BY_MATURE_AUTOMATION_PLATFORMS",
+      "normalized_margin_check": "FAIL_FOR_NEW_OPERATOR_EDGE_USERS_CLEARLY_PAY_FOR_COORDINATION_BUT_ZAPIER_MAKE_AND_N8N_STYLE_PRODUCTS_ALREADY_PRICE_AND_DELIVER_THE_GENERIC_CROSS_SAAS_AUTOMATION_LAYER",
+      "machine_delegatability_check": "PASS_TRIGGER_ROUTING_TRANSFORMATION_RETRY_AND_CROSS_APP_ACTIONS_ARE_MACHINE_EXECUTABLE_WHERE_AUTHORIZED_CONNECTIONS_EXIST",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_PLAN_AND_INVOKE_AUTHORIZED_TOOLS_BUT_DO_NOT_INHERIT_THOUSANDS_OF_MAINTAINED_INTEGRATIONS_AUTH_RIGHTS_OR_UPSTREAM_API_STABILITY",
+      "verdict": "DEMOTED_SECOND_PASS_PAYMENT_FOR_CROSS_SAAS_COORDINATION_IS_REAL_BUT_ZAPIER_AND_PEER_AUTOMATION_PLATFORMS_ALREADY_OWN_THE_GENERIC_WORKFLOW_LAYER_AND_RESIDUAL_FAILURES_ARE_PRICING_INTEGRATION_OR_UPSTREAM_API_CONSTRAINTS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_090-F2",
+      "title": "PAID_CROSS_SITE_CROSS_DEVICE_CREDENTIAL_COORDINATION",
+      "chinese_title": "付费跨网站跨设备凭据保存、同步与自动填充协调",
+      "evidence_class": "SECOND_PASS_REPLICATED_PAID_CROSS_COMPONENT_CREDENTIAL_COORDINATION",
+      "actor_a_population": "Individuals and households managing credentials across many websites, applications, browsers and devices.",
+      "actor_b_population": "Independent websites and applications retaining authoritative authentication and account-recovery rights.",
+      "existing_components": [
+        "1Password stores and synchronizes credentials across Mac, iOS, Windows, Android, Linux, Chrome OS and major browsers, then suggests or autofills logins on matching sites.",
+        "Each destination website or application remains the authoritative authentication service and controls its own login, MFA, passkey and recovery policies."
+      ],
+      "independent_replication": [
+        "A February 2026 r/1Password participant reports an active standard subscription renewal increasing from $35.88 to $47.88/year and says they are comfortable continuing because they have been a longtime user.",
+        "A separate February 2026 password-manager participant says they will pay the new price because 1Password is worth it and another says they will still be paying; a different participant in the same period reports managing more than 1,300 items and explicitly continuing at the new price."
+      ],
+      "participant_authored_successful_completion": [
+        "Current paying users describe years of successful use, large vaults and continued willingness to pay despite price increases, indicating the cross-site credential coordination is operational rather than aspirational.",
+        "1Password's current product surface synchronizes membership data across unlimited devices and fills credentials in major browsers and mobile/desktop operating systems."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "Some current subscribers migrate to Bitwarden or other managers after price increases, showing the paid coordination layer is substitutable and price-sensitive rather than an unowned scarce position.",
+        "1Password's own 2026 security guidance preserves explicit boundaries around autofill and AI-assisted browsing; the password manager cannot override destination-site authentication or recovery rules."
+      ],
+      "actual_cross_component_coordination_payment_check": "PASS_MULTIPLE_UNAFFILIATED_2026_PARTICIPANTS_EXPLICITLY_REPORT_ACTIVE_OR_RENEWING_PAID_1PASSWORD_SUBSCRIPTIONS_FOR_CREDENTIAL_STORAGE_SYNC_AND_USE_ACROSS_MANY_DESTINATION_SERVICES_AND_DEVICES",
+      "manual_multi_component_completion_check": "PASS_THE_DESIRED_LOGIN_OUTCOME_COORDINATES_A_PAID_CREDENTIAL_VAULT_WITH_MANY_SEPARATE_DESTINATION_SITES_APPS_BROWSERS_AND_DEVICES",
+      "no_single_current_control_surface_check": "PASS_1PASSWORD_OWNS_THE_VAULT_SYNC_AND_AUTOFILL_MIDDLE_LAYER_BUT_EACH_DESTINATION_SERVICE_RETAINS_AUTHORITATIVE_AUTHENTICATION_MFA_PASSKEY_AND_RECOVERY_CONTROL",
+      "decisive_completion_control": "PASS_USERS_CAN_SAVE_SYNC_AND_FILL_AUTHORIZED_CREDENTIALS_WITHOUT_PRIVILEGED_MANUAL_EXCEPTION_WHILE_DESTINATION_SERVICES_DECIDE_FINAL_AUTHENTICATION",
+      "repeated_bilateral_value_transfer": "PASS_USERS_PAY_RECURRING_PASSWORD_MANAGER_SUBSCRIPTIONS_TO_COORDINATE_CREDENTIALS_ACROSS_REPEATED_LOGIN_INTERACTIONS_WITH_MANY_INDEPENDENT_SERVICES",
+      "exact_incumbent_and_control_surface_preflight": [
+        "1Password currently sells paid Individual and Families plans and explicitly includes autosave, autofill and use across all devices.",
+        "1Password supports all major desktop/mobile operating systems and browsers and synchronizes membership data across unlimited devices.",
+        "Destination sites remain separate authentication authorities; 1Password constrains autofill to matching sites and cannot rewrite those sites' authentication policies."
+      ],
+      "founder_independence_check": "PASS_THE_EXISTING_PASSWORD_MANAGER_AND_DESTINATION_AUTH_SERVICES_OPERATE_WITHOUT_RECURRING_FOUNDER_DELIVERY_LABOR",
+      "data_action_rights_check": "FAIL_FOR_A_NEW_OPERATOR_CREDENTIAL_ACCESS_REQUIRES_USER_AUTHORIZATION_AND_DESTINATION_LOGIN_RIGHTS_REMAIN_WITH_EACH_SITE_WHILE_MATURE_PASSWORD_MANAGERS_ALREADY_OWN_THE_SECURE_VAULT_AND_AUTOFILL_LAYER",
+      "normalized_margin_check": "FAIL_FOR_NEW_OPERATOR_EDGE_ACTUAL_COORDINATION_PAYMENT_IS_PROVEN_BUT_1PASSWORD_BITWARDEN_AND_OTHER_MATURE_PASSWORD_MANAGERS_ALREADY_PRICE_AND_DELIVER_THE_CORE_FUNCTION",
+      "machine_delegatability_check": "PASS_CREDENTIAL_MATCHING_SYNC_AND_FILL_ARE_MACHINE_EXECUTABLE_WITH_STRONG_DETERMINISTIC_SECURITY_BOUNDARIES",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_A_GENERIC_AGENT_MUST_NOT_INHERIT_OR_AUTONOMOUSLY_EXPOSE_SECRET_MATERIAL_AND_CANNOT_OVERRIDE_DESTINATION_AUTHENTICATION_RIGHTS",
+      "verdict": "DEMOTED_SECOND_PASS_PAYMENT_FOR_CROSS_SITE_CREDENTIAL_COORDINATION_IS_REAL_BUT_MATURE_PASSWORD_MANAGERS_ALREADY_OWN_THE_SECURE_SYNC_AND_AUTOFILL_LAYER_WHILE_DESTINATION_AUTHENTICATION_REMAINS_SITE_CONTROLLED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_090-F3",
+      "title": "PAID_MULTI_CALENDAR_TASK_AND_SCHEDULING_AGGREGATION",
+      "chinese_title": "付费多日历、任务与会议安排聚合协调",
+      "evidence_class": "SECOND_PASS_REPLICATED_PAID_CROSS_COMPONENT_CALENDAR_TASK_COORDINATION",
+      "actor_a_population": "Professionals coordinating work and personal calendars, tasks, meeting links and multiple account providers.",
+      "actor_b_population": "Calendar, task and meeting providers retaining authoritative event/task stores and sharing policies.",
+      "existing_components": [
+        "Fantastical connects Google, Microsoft 365, Exchange, iCloud, Todoist, CalDAV and other accounts into one calendar/task surface and supports Calendar Sets and scheduling features.",
+        "The underlying calendar and task services remain separate systems of record and retain their own sharing, account and synchronization rules."
+      ],
+      "independent_replication": [
+        "A September 2026 r/FantasticalCalendar participant explicitly says they are paying $90/year and evaluates renewal against Apple Calendar; an unaffiliated commenter in the same discussion says paying $90 is worth the organizational sanity and specifically values the Todoist integration.",
+        "A January 2026 r/FantasticalCalendar participant says they have been paying annually since Fantastical subscriptions began and are now evaluating renewal after a roughly 40% increase."
+      ],
+      "participant_authored_successful_completion": [
+        "The September 2026 paid users describe Zoom integration, Openings/Proposals, Todoist integration and organizing multiple commitments as the value they continue to receive from the subscription.",
+        "Fantastical's current help documentation shows direct connection of iCloud, Google, Exchange/Microsoft 365 and Todoist accounts, with Calendar Sets grouping multiple calendars and tasks into switchable views."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "Current paying users explicitly compare the subscription with increasingly capable Apple Calendar and question whether the incremental coordination is still worth the annual price.",
+        "Fantastical documentation states that some calendar services do not allow calendars/lists to be added or modified through Fantastical and users must perform those actions on the underlying service website."
+      ],
+      "actual_cross_component_coordination_payment_check": "PASS_AT_LEAST_TWO_UNAFFILIATED_2026_PARTICIPANTS_EXPLICITLY_REPORT_CURRENT_OR_RENEWING_FANTASTICAL_PAID_SUBSCRIPTIONS_FOR_MULTI_CALENDAR_TASK_OR_SCHEDULING_COORDINATION",
+      "manual_multi_component_completion_check": "PASS_THE_PRODUCT_COORDINATES_MULTIPLE_CALENDAR_TASK_AND_MEETING_SERVICES_INTO_A_SHARED_PLANNING_SURFACE_WHILE_UNDERLYING_PROVIDER_ACCOUNTS_REMAIN_SEPARATE",
+      "no_single_current_control_surface_check": "PASS_FANTASTICAL_OWNS_THE_AGGREGATED_VIEW_AND_SCHEDULING_LAYER_BUT_GOOGLE_MICROSOFT_ICLOUD_TODOIST_AND_OTHER_PROVIDERS_RETAIN_SYSTEM_OF_RECORD_AND_SHARING_CONTROL",
+      "decisive_completion_control": "PASS_USERS_CAN_CONNECT_ACCOUNTS_CREATE_OR_ROUTE_EVENTS_AND_TASKS_WITHIN_EXPOSED_PROVIDER_RIGHTS_WITHOUT_PRIVILEGED_MANUAL_EXCEPTION",
+      "repeated_bilateral_value_transfer": "PASS_USERS_PAY_RECURRING_FANTASTICAL_SUBSCRIPTIONS_FOR_CROSS_PROVIDER_ORGANIZATION_AND_SCHEDULING_WHILE_SEPARATELY_USING_THE_UNDERLYING_CALENDAR_AND_TASK_SERVICES",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Fantastical is itself an established paid coordination product connecting Google, Microsoft 365, Exchange, iCloud, Todoist, CalDAV and more.",
+        "Calendar Sets explicitly aggregate multiple calendars into user-defined views, and Fantastical also combines dated tasks with events and scheduling features.",
+        "Provider-specific restrictions remain authoritative; some add/modify operations must still occur on the calendar provider's own website."
+      ],
+      "founder_independence_check": "PASS_THE_EXISTING_PAID_PRODUCT_AND_CALENDAR_TASK_PROVIDERS_DELIVER_THE_FLOW_WITHOUT_RECURRING_FOUNDER_SERVICE",
+      "data_action_rights_check": "FAIL_FOR_A_NEW_OPERATOR_CALENDAR_AND_TASK_ACTIONS_DEPEND_ON_PROVIDER_ACCOUNT_PERMISSIONS_SYNC_PROTOCOLS_AND_PROVIDER_SPECIFIC_RESTRICTIONS_ALREADY_HANDLED_BY_MATURE_CALENDAR_CLIENTS",
+      "normalized_margin_check": "FAIL_FOR_NEW_OPERATOR_EDGE_USERS_PAY_FOR_CROSS_PROVIDER_COORDINATION_BUT_FANTASTICAL_AND_OTHER_MATURE_CALENDAR_CLIENTS_ALREADY_PRICE_AND_DELIVER_THE_CORE_AGGREGATION_LAYER",
+      "machine_delegatability_check": "PASS_EVENT_TASK_ROUTING_VISIBILITY_FILTERING_AND_SCHEDULING_ARE_MACHINE_EXECUTABLE_WHERE_PROVIDER_PERMISSIONS_ALLOW",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_REASON_ABOUT_SCHEDULES_BUT_DO_NOT_INHERIT_PROVIDER_WRITE_PERMISSIONS_OR_REMOVE_PROVIDER_SPECIFIC_RESTRICTIONS",
+      "verdict": "DEMOTED_SECOND_PASS_PAYMENT_FOR_MULTI_CALENDAR_AND_TASK_COORDINATION_IS_REAL_BUT_FANTASTICAL_ALREADY_OWNS_THE_EXACT_AGGREGATION_AND_SCHEDULING_LAYER_AND_UNDERLYING_PROVIDER_RIGHTS_REMAIN_SEPARATE"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "inherited_mechanism_as_requirement": false,
+    "discovery_started_from_paid_cross_component_coordination": true,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "formation_diversity": "PASS_CROSS_SAAS_AUTOMATION_CREDENTIAL_SECURITY_AND_CALENDAR_TASK_COORDINATION",
+    "independent_replication_floor": "PASS_EACH_EXAMINED_PATTERN_HAS_AT_LEAST_TWO_UNAFFILIATED_CURRENT_OR_RECENT_2026_PAYING_PARTICIPANT_ACCOUNTS",
+    "paid_coordination_floor": "PASS_EACH_FORMATION_HAS_EXPLICIT_PAYMENT_FOR_THE_CROSS_COMPONENT_COORDINATION_FUNCTION_ITSELF_NOT_MERELY_PAYMENT_FOR_UNDERLYING_COMPONENT_ACCESS",
+    "multi_component_floor": "PASS_ALL_THREE_COORDINATE_MULTIPLE_SEPARATE_APPLICATIONS_SITES_DEVICES_OR_PROVIDER_SYSTEMS_OF_RECORD",
+    "no_single_control_surface_assessment": "PASS_EACH_PAID_COORDINATOR_OWNS_A_MIDDLE_LAYER_BUT_UNDERLYING_SAAS_AUTHENTICATION_OR_CALENDAR_PROVIDER_RIGHTS_REMAIN_SEPARATE",
+    "two_pass_assessment": "PASS_SCAN089_AND_SCAN090_BOTH_SHOW_FORMATION_DIVERSE_REAL_PAYMENT_FOR_COORDINATION_WITH_ZERO_RETENTION_AFTER_EXACT_INCUMBENT_AND_RIGHTS_PREFLIGHT",
+    "signal_assessment": "PAID_COORDINATION_IS_NOW_REPLICATED_ACROSS_TWO_INDEPENDENT_FORMATION_DIVERSE_PASSES_AND_RELIABLY_PROVES_BUDGET_BUT_NOT_WHITE_SPACE_BECAUSE_MATURE_EXACT_PAID_MIDDLE_LAYERS_ALREADY_CAPTURE_THE_VALUE",
+    "response": "NEXT_SCAN_SHOULD_SEARCH_FOR_PAYING_USERS_OF_EXISTING_COORDINATORS_WHO_STILL_FACE_RECURRING_HIGH_VALUE_FAILURE_AND_MUST_BEAR_A_SECOND_REAL_COST_TO_COMPLETE_THE_SAME_OUTCOME"
+  },
+  "scan_learnings": [
+    "SCAN090_SECOND_PAID_CROSS_COMPONENT_COORDINATION_PASS_ZERO_RETENTION_ACROSS_CROSS_SAAS_AUTOMATION_CREDENTIAL_COORDINATION_AND_CALENDAR_TASK_AGGREGATION",
+    "SCAN089_AND_SCAN090_TOGETHER_ESTABLISH_ACTUAL_COORDINATION_PAYMENT_AS_A_RELIABLE_BUDGET_SIGNAL_BUT_NOT_A_WHITE_SPACE_SIGNAL",
+    "MATURE_COORDINATION_PRODUCTS_CAN_CAPTURE_REAL_PAYMENT_WHILE_UNDERLYING_APPLICATION_AUTHENTICATION_AND_PROVIDER_RIGHTS_REMAIN_FRAGMENTED",
+    "EXACT_PAID_INCUMBENT_PREFLIGHT_CONTINUES_TO_KILL_GENERIC_ROUTER_AGGREGATOR_SYNC_AND_AUTOMATION_REPACKAGING",
+    "GENERIC_AGENT_CAPABILITY_DOES_NOT_CREATE_MISSING_APPLICATION_AUTHENTICATION_SECRET_OR_PROVIDER_WRITE_RIGHTS",
+    "NEXT_DISCOVERY_SIGNAL_SHOULD_REQUIRE_RESIDUAL_FAILURE_AFTER_PAYMENT_PLUS_A_SECOND_OBSERVED_ECONOMIC_COST_TO_COMPLETE_THE_SAME_OUTCOME",
+    "DO_NOT_DERIVE_A_ZAPIER_CLONE_PASSWORD_MANAGER_OR_CALENDAR_AGGREGATOR_FROM_SCAN090_CLOSURES"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_091",
+  "next_search_boundary": "INDEPENDENTLY_REPLICATED_PAID_COORDINATOR_RESIDUAL_FAILURE_WITH_COMPENSATING_SECOND_LAYER_COST_REQUIRE_AT_LEAST_TWO_UNAFFILIATED_PAYING_PARTICIPANT_ACCOUNTS_OF_AN_EXISTING_COORDINATION_PRODUCT_IN_THE_SAME_FORMATION_TO_SHOW_A_RECURRING_HIGH_VALUE_INCOMPLETENESS_THAT_PERSISTS_AFTER_PAYMENT_AND_FORCES_EITHER_ACTUAL_ADDITIONAL_PAYMENT_TO_A_SECOND_DISTINCT_SERVICE_PROVIDER_OR_REPEATED_EXPLICITLY_QUANTIFIED_MANUAL_WORKAROUND_COST_TO_COMPLETE_THE_SAME_OUTCOME_WHILE_NO_SINGLE_CURRENT_CONTROL_SURFACE_OWNS_THE_END_TO_END_REPAIR_PATH_AND_DECISIVE_ACTIONS_DO_NOT_REQUIRE_INCUMBENT_PRIVILEGED_FALLBACK_OR_FOUNDER_MANUAL_EXCEPTION_BEFORE_PRODUCT_CATEGORY_EXCLUDE_SCAN060_TO_090_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "VALIDATE_SCAN090_WITH_REPOSITORY_CI_AND_LIVE_JEV_THEN_START_SCAN091_PAID_COORDINATOR_RESIDUAL_FAILURE_WITH_COMPENSATING_SECOND_LAYER_COST_IF_AUTONOMOUS_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/zapier/comments/1sgi1ta/zapier_bill_went_from_30_to_160month_when_i_added/",
+    "https://www.reddit.com/r/n8n/comments/1t9pcag/spent_24_hours_rebuilding_my_zapier_stack_on/",
+    "https://www.reddit.com/r/SaaS/comments/1rrsc5e/our_automation_infra_was_costing_more_than_our/",
+    "https://help.zapier.com/hc/en-us/articles/37518970271245-What-is-Zapier",
+    "https://zapier.com/pricing",
+    "https://help.zapier.com/hc/en-us/articles/36818633398157-App-connections-on-Zapier",
+    "https://www.reddit.com/r/1Password/comments/1rdmphv/price_increase/",
+    "https://www.reddit.com/r/1Password/comments/1rdmq7m/removed/",
+    "https://www.reddit.com/r/PasswordManagers/comments/1rdqdsi/1password_alternatives/",
+    "https://1password.com/pricing/personal",
+    "https://1password.com/features/autofill",
+    "https://support.1password.com/sync/",
+    "https://1password.com/blog/security-advisory-for-ai-assisted-browsing-with-the-1password-browser",
+    "https://www.reddit.com/r/FantasticalCalendar/comments/1w4kfrz/fantastical_vs_apple_calendar/",
+    "https://www.reddit.com/r/FantasticalCalendar/comments/1qjagoa/no_customer_loyalty/",
+    "https://flexibits.com/fantastical",
+    "https://flexibits.com/fantastical/help/getting-started",
+    "https://flexibits.com/fantastical/help/calendar-sets",
+    "https://flexibits.com/fantastical/help/settings",
+    "https://flexibits.com/pricing"
+  ]
+}
