@@ -1,27 +1,36 @@
 {
   "schema_version": 2,
-  "generation": 3,
+  "generation": 4,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "WAITING_CI",
+  "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-119",
-  "stage": "SCAN_119_PR_EXACT_HEAD_VALIDATION",
+  "stage": "SCAN_119_READY_TO_MERGE",
   "last_observed_main_sha": "42c5b5aa2b71e9b543a9b93f0f710f83e03cf100",
   "work_branch": "research/attraction-scan-119",
   "work_head_sha": "a5fa9fe6bd012e2b5a737ae737c422879589d45e",
   "active_pr": 419,
   "ci": {
-    "run_id": null,
+    "run_id": 35761524087,
     "head_sha": "a5fa9fe6bd012e2b5a737ae737c422879589d45e",
-    "status": "WAITING",
-    "conclusion": null
+    "status": "COMPLETED",
+    "conclusion": "SUCCESS"
   },
   "production_or_artifact": {
-    "status": "NOT_APPLICABLE",
+    "status": "VERIFIED",
     "evidence": [
-      "PR418 exact-head CI and live Jev successful; ADVANCE_TO_NEXT_SCAN consumed"
+      "repository CI 35761524087 success on exact head a5fa9fe6bd012e2b5a737ae737c422879589d45e",
+      "live TypeSafe/Jev 35761524259 success on exact head; 3/3 NO_FURTHER_RESEARCH; ADVANCE_TO_NEXT_SCAN",
+      "Jev artifact 10709863822"
     ]
   },
-  "pending_operation": null,
+  "pending_operation": {
+    "operation_id": "scan119-merge-pr419",
+    "kind": "MERGE_PULL_REQUEST",
+    "target": "PR #419",
+    "phase": "PREPARED",
+    "idempotency": "Read PR merged state and main history before any retry; enforce expected head SHA.",
+    "prepared_generation": 4
+  },
   "health": {
     "recovery": "HEALTHY",
     "last_error": null
@@ -32,7 +41,7 @@
     "Preserved pre-existing Scan119 branch/start commit",
     "Identified fresh early-gate evidence for Jintian Yuanfeng, Longjoy Technology and Yudu Media"
   ],
-  "next_action": "Wait for exact-head repository CI and live TypeSafe/Jev; consume directive; merge only if acceptable.",
+  "next_action": "Merge PR419 with expected exact head, verify main, then start Scan120 because Jev allowed autonomous continuation.",
   "do_not_repeat": [
     "Do not recreate research/attraction-scan-119",
     "Do not repeat Scan060-118 primary formations/signals",
