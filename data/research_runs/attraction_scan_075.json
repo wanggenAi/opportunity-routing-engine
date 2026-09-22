@@ -1,0 +1,137 @@
+{
+  "schema_version": "attraction-scan.v54",
+  "scan_id": "ATTRACTION_SCAN_075",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_SIDE_PAID_INCUMBENT_EXIT_REPLACEMENT_NON_RENEWAL_OR_RECOMPETE_WITH_EXPLICIT_UNRESOLVED_OPERATIONAL_FAILURE_AND_REPLACEMENT_BUDGET_FORMATION_DIVERSE_EXCLUDE_SIMPLE_PRICE_ONLY_DEPRECATION_ONLY_OR_POLICY_ONLY_SWITCHES_EXCLUDE_SCAN060_TO_074_FORMATIONS_AND_PRIMARY_SIGNALS_NO_PERSISTENT_WORKAROUND_AS_PRIMARY_SIGNAL_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_REPLACEMENT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "payer_evidence_policy": "BUYER_INITIATED_PAID_INCUMBENT_EXIT_OR_REPLACEMENT_CAUSED_BY_DOCUMENTED_OPERATIONAL_FAILURE_WITH_REPLACEMENT_BUDGET",
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_075-F1",
+      "title": "HIGHER_ED_STUDENT_CONDUCT_CASE_MANAGEMENT_REPLACEMENT",
+      "chinese_title": "高校学生行为案件管理系统替换",
+      "buyer_exit_evidence": [
+        "The University of New Mexico says it is currently under contract with Advocate by Simplicity, has used the competitor for about a decade, and has decided Advocate is no longer working for the Dean of Students team.",
+        "The buyer documents concrete capability gaps: one-form-per-dataset limitations, weaker reporting, year-over-year price increases and needs no longer being met.",
+        "UNM proposes Maxient for 60 months at $81,000 including an $8,000 setup fee, with about $4,000 annual savings after the first year."
+      ],
+      "exact_replacement_incumbent_preflight": "Maxient is the selected replacement and is itself a purpose-built student-conduct/case-management platform; UNM's sole-source justification says it is the only evaluated product that can satisfy the desired workflow/reporting requirements.",
+      "founder_independence_check": "FAIL_THE_BUYER_IS_MOVING_HORIZONTALLY_FROM_ONE_MATURE_VERTICAL_CASE_MANAGEMENT_VENDOR_TO_ANOTHER_AND_THE_NEW_PLATFORM_DIRECTLY_OWNS_THE_NAMED_MISSING_WORKFLOW",
+      "data_action_rights_check": "PARTIAL_UNM_CONTROLS_ITS_STUDENT_RECORDS_AND_PROCESS_BUT_CONDUCT_DISCIPLINE_RISK_AND_HIGHLY_LITIGIOUS_CASE_DECISIONS_REMAIN_UNIVERSITY_ACCOUNTABILITY",
+      "normalized_margin_check": "WEAK_A_SEPARATE_OPERATOR_LAYER_WOULD_SIT_BETWEEN_A_COMPLETE_REPLACEMENT_PLATFORM_AND_HIGH_STAKES_UNIVERSITY_DECISION_MAKERS_WITHOUT_A_PROVEN_RECURRING_UNIT",
+      "verdict": "DEMOTED_STRONG_PAID_INCUMBENT_EXIT_SIGNAL_BUT_SPEND_MOVES_TO_ANOTHER_COMPLETE_VERTICAL_PLATFORM_AND_RESIDUAL_VALUE_IS_ACCOUNTABLE_CASE_JUDGMENT"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_075-F2",
+      "title": "PARKS_RECREATION_MANAGEMENT_PLATFORM_REPLACEMENT",
+      "chinese_title": "公园与活动管理平台替换",
+      "buyer_exit_evidence": [
+        "Paradise Recreation and Park District documents increasing operational complexity, customer-service demands and limitations in its paid Sportsman system.",
+        "Sportsman increasingly requires separate-system workarounds for registration, facility scheduling, reporting and customer communication, creating administrative burden and user friction.",
+        "The District spends about $2,347.40 every six months on the current system and proposes RecOS at $12,500 per year for three years plus up to $10,000 implementation."
+      ],
+      "exact_replacement_incumbent_preflight": "RecOS is an integrated recreation-management platform combining registration, scheduling, memberships, financial reporting, marketing and embedded payments, with onboarding and training bundled into implementation.",
+      "founder_independence_check": "FAIL_THE_REPLACEMENT_PLATFORM_DIRECTLY_CONSOLIDATES_THE_WORKAROUNDS_AND_OWNS_THE_STANDARD_CONTROL_SURFACE_THE_BUYER_IS_PAYING_TO_FIX",
+      "data_action_rights_check": "PASS_FOR_BUYER_AUTHORIZED_PROGRAM_FACILITY_AND_TRANSACTION_DATA_BUT_THERE_IS_NO_DISTINCT_UNOWNED_ACTION_LAYER_BETWEEN_RECOS_AND_DISTRICT_STAFF",
+      "normalized_margin_check": "WEAK_VISIBLE_MONEY_MOTION_IS_SOFTWARE_PLUS_IMPLEMENTATION_AND_DOES_NOT_EVIDENCE_A_SEPARATE_REPEATABLE_OPERATOR_UNIT",
+      "verdict": "DEMOTED_STRONG_OPERATIONAL_FAILURE_AND_SWITCH_BUDGET_BUT_THE_SELECTED_REPLACEMENT_PLATFORM_DIRECTLY_ABSORBS_THE_FRAGMENTED_WORKFLOW"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_075-F3",
+      "title": "CREMATORIUM_CEMETERY_SOFTWARE_REPLACEMENT",
+      "chinese_title": "火葬场与墓园软件替换",
+      "buyer_exit_evidence": [
+        "Mansfield District Council says its BACAS crematorium software has been used for around 25 years, does not integrate well with Civica or Govmail, is not cloud-based, is slow to fix and does not meet the requirements of a digitalised service.",
+        "The buyer explicitly rejected remaining with the existing provider because the proposed upgrade would mainly add cloud hosting, would not significantly improve functionality or resolve current operational issues, would keep support costs high and would not forecast efficiency or administrative-workload reductions.",
+        "The awarded replacement contract is PlotBox for £113,000, running from June 30, 2026 through June 29, 2028."
+      ],
+      "exact_replacement_incumbent_preflight": "PlotBox is the awarded replacement and is a mature cemetery/crematorium management platform; the buyer selected it through G-Cloud market testing for integrated operational capabilities.",
+      "founder_independence_check": "FAIL_THE_BUYER_HAS_SELECTED_A_COMPLETE_REPLACEMENT_SYSTEM_FOR_BOOKING_MAPPING_MEMORIAL_FINANCE_AND_STAKEHOLDER_WORKFLOW_RATHER_THAN_A_SEPARATE_OPERATOR_LAYER",
+      "data_action_rights_check": "PARTIAL_THE_COUNCIL_CONTROLS_SERVICE_AND_RECORD_DATA_BUT_BEREAVEMENT_OPERATION_FINANCE_AND_STATUTORY_RECORD_RESPONSIBILITY_REMAIN_WITH_THE_AUTHORITY",
+      "normalized_margin_check": "WEAK_REPLACEMENT_BUDGET_IS_CLEAR_BUT_THE_VALUE_CHAIN_IS_PLATFORM_PLUS_IMPLEMENTATION_AND_SUPPORT_WITH_NO_EVIDENCED_INDEPENDENT_MACHINE_UNIT",
+      "verdict": "DEMOTED_EXPLICIT_INCUMBENT_UPGRADE_REJECTION_AND_FUNDED_REPLACEMENT_BUT_PLOTBOX_ALREADY_OWNS_THE_REQUIRED_END_TO_END_VERTICAL_CONTROL_SURFACE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_075-F4",
+      "title": "MUNICIPAL_WEBSITE_CMS_REPLACEMENT",
+      "chinese_title": "市政网站与CMS替换",
+      "buyer_exit_evidence": [
+        "The City of Muskegon identifies Envigor as the current website vendor and evaluated Envigor against CivicPlus, GovStack and an in-house option.",
+        "The buyer documents accessibility deficiencies and unmet current digital-service needs including mobile usability, navigation, online forms/payments, search, media and integrations; staff rejected a price-only choice because cheaper options did not meet several identified requirements.",
+        "The City selected GovStack with a budgeted first-year payment of $56,006 and $21,446 annually thereafter under a 36-month license."
+      ],
+      "exact_replacement_incumbent_preflight": "GovStack is a mature government website/CMS platform and the agreement includes CMS, forms, implementation, sitemap work, identity integration, media tooling and content migration.",
+      "founder_independence_check": "FAIL_THE_SELECTED_REPLACEMENT_OWNS_THE_WEB_CONTENT_FORMS_SEARCH_ACCESSIBILITY_AND_INTEGRATION_CONTROL_SURFACE_AND_IMPLEMENTATION_IS_BUNDLED",
+      "data_action_rights_check": "PASS_THE_CITY_CONTROLS_CONTENT_AND_SYSTEM_ACCESS_BUT_STANDARD_PUBLISHING_AND_SERVICE_DELIVERY_ARE_ALREADY_PLATFORM_CAPABILITIES",
+      "normalized_margin_check": "WEAK_THE_SEPARATE_RESIDUAL_IS_CONTENT_MIGRATION_IMPLEMENTATION_OR_CITY_CONTENT_ACCOUNTABILITY_NOT_A_PROVEN_NORMALIZED_OPERATOR_UNIT",
+      "verdict": "DEMOTED_BUYER_SWITCHES_FROM_CURRENT_VENDOR_FOR_DOCUMENTED_CAPABILITY_GAPS_BUT_THE_NEW_GOVERNMENT_CMS_DIRECTLY_OWNS_THE_MISSING_STANDARD_LOOP"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_075-F5",
+      "title": "WASTEWATER_SCADA_INTEGRATOR_REPLACEMENT",
+      "chinese_title": "污水处理SCADA集成商替换",
+      "buyer_exit_evidence": [
+        "The City of Anderson says its wastewater-plant SCADA systems are nearly 20 years old, with unsupported hardware, refurbished replacement parts and outdated software that no longer adequately meets plant operational needs.",
+        "The City further states that after experiencing performance and support issues with the SCADA contractor being used in 2025, it issued an RFQ for a qualified SCADA vendor.",
+        "Southern Flow, Inc. was selected as the City's SCADA integrator and Council approved a $751,841 contract to replace SCADA equipment and software at the Rocky River and Generostee Creek plants."
+      ],
+      "exact_replacement_incumbent_preflight": "Southern Flow is the named replacement integrator for a combined equipment/software OT control project; the funded work is conventional SCADA engineering and integration rather than an unowned digital operator layer.",
+      "founder_independence_check": "FAIL_THE_RESIDUAL_REQUIRES_SITE_SPECIFIC_OT_ENGINEERING_CONTROLS_INTEGRATION_COMMISSIONING_AND_SUPPORT_ALREADY_ASSIGNED_TO_THE_SELECTED_INTEGRATOR",
+      "data_action_rights_check": "FAIL_FOR_INDEPENDENT_ACTION_THE_UTILITY_RETAINS_PLANT_CONTROL_SAFETY_AND_PROCESS_AUTHORITY_AND_FIELD_ACCESS_IS_PHYSICAL_AND_SAFETY_CRITICAL",
+      "normalized_margin_check": "WEAK_PROJECT_BUDGET_IS_LARGE_BUT_SITE_SPECIFIC_HARDWARE_OT_INTEGRATION_AND_COMMISSIONING_DO_NOT_ESTABLISH_A_NORMALIZED_THIN_OPERATOR_UNIT",
+      "verdict": "DEMOTED_VERY_STRONG_PROVIDER_PERFORMANCE_FAILURE_AND_REPLACEMENT_BUDGET_BUT_THE_VALUE_MOVES_TO_A_NEW_SCADA_INTEGRATOR_AND_PHYSICAL_OT_EXECUTION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_075-F6",
+      "title": "MUNICIPAL_311_CRM_REPLACEMENT",
+      "chinese_title": "市民311请求管理CRM替换",
+      "buyer_exit_evidence": [
+        "San Ramon's public pages identify GovQA as the incumbent citizen-request CRM, while a competitive RFP sought a centralized replacement for request intake, workflow, automation, performance tracking and analysis.",
+        "Catalis announced that San Ramon selected Request311 through the competitive RFP to replace the legacy GovQA system and support intake, routing, tracking and resolution across departments.",
+        "The public RFP requires firm one-year pricing including licensing, hosting, implementation, training and recurring fees, but the currently retrievable buyer documents do not expose a final contract amount or a sufficiently explicit buyer-authored causal statement tying the switch to a specific unresolved incumbent operational failure."
+      ],
+      "exact_replacement_incumbent_preflight": "Catalis Request311 is the selected replacement and already provides the exact municipal request-intake, routing, tracking, GIS integration and resolution workflow.",
+      "founder_independence_check": "FAIL_EVEN_IF_THE_FAILURE_CAUSAL_CHAIN_WERE_COMPLETE_THE_SELECTED_REPLACEMENT_ALREADY_OWNS_THE_STANDARD_311_CONTROL_SURFACE",
+      "data_action_rights_check": "PARTIAL_THE_CITY_CONTROLS_REQUEST_AND_DEPARTMENT_DATA_WHILE_ACTUAL_SERVICE_RESOLUTION_REMAINS_WITH_CITY_DEPARTMENTS",
+      "normalized_margin_check": "UNKNOWN_PUBLIC_FINAL_CONTRACT_VALUE_AND_DISTINCT_RESIDUAL_OPERATOR_ECONOMICS_ARE_NOT_ESTABLISHED",
+      "verdict": "DEMOTED_FAIL_CLOSED_ON_INCOMPLETE_PUBLIC_FAILURE_AND_FINAL_BUDGET_CHAIN_AND_SEPARATELY_THE_SELECTED_REPLACEMENT_ALREADY_OWNS_THE_STANDARD_WORKFLOW"
+    }
+  ],
+  "scan_learnings": [
+    "ACTUAL_PAID_INCUMBENT_EXIT_OR_REPLACEMENT_IS_A_MATERIALLY_STRONGER_WHITE_SPACE_SENSOR_THAN_RENEWAL_BECAUSE_THE_BUYER_HAS_DECLARED_THE_OLD_CONTROL_SURFACE_INSUFFICIENT",
+    "STRONG_BUYER_DISSATISFACTION_AND_REPLACEMENT_BUDGET_STILL_DO_NOT_IMPLY_A_NEW_OPERATOR_LAYER_WHEN_SPEND_MOVES_HORIZONTALLY_TO_ANOTHER_COMPLETE_PLATFORM_OR_INTEGRATOR",
+    "UNM_ADVOCATE_TO_MAXIENT_PROVES_A_DECADE_LONG_PAID_INCUMBENT_CAN_BE_REJECTED_FOR_SPECIFIC_WORKFLOW_AND_REPORTING_GAPS_BUT_THE_REPLACEMENT_IS_ANOTHER_COMPLETE_VERTICAL_CASE_PLATFORM",
+    "PARADISE_SPORTSMAN_TO_RECOS_PROVES_WORKAROUND_FRAGMENTATION_ADMIN_BURDEN_AND_USER_FRICTION_CAN_TRIGGER_HIGHER_REPLACEMENT_SPEND_BUT_THE_NEW_INTEGRATED_PLATFORM_DIRECTLY_ABSORBS_THE_WORKAROUNDS",
+    "MANSFIELD_BACAS_TO_PLOTBOX_PROVES_BUYERS_CAN_REJECT_AN_INCUMBENT_UPGRADE_BECAUSE_IT_DOES_NOT_RESOLVE_CURRENT_OPERATIONAL_ISSUES_BUT_THE_REPLACEMENT_REMAINS_A_MATURE_VERTICAL_SYSTEM",
+    "MUSKEGON_ENVIGOR_TO_GOVSTACK_PROVES_BUYERS_WILL_PAY_MORE_FOR_CAPABILITY_ACCESSIBILITY_AND_INTEGRATION_GAPS_BUT_THE_SELECTED_GOVERNMENT_CMS_OWNS_THE_NAMED_CONTROL_SURFACE",
+    "ANDERSON_SCADA_CONTRACTOR_TO_SOUTHERN_FLOW_PROVES_PROVIDER_PERFORMANCE_AND_SUPPORT_FAILURE_CAN_MOVE_SUBSTANTIAL_BUDGET_BUT_THE_RESIDUAL_IS_SITE_SPECIFIC_OT_INTEGRATION_AND_PHYSICAL_CONTROL",
+    "SAN_RAMON_GOVQA_TO_REQUEST311_SHOWS_A_REPLACEMENT_EVENT_BUT_FAIL_CLOSED_APPLIES_WHEN_PUBLIC_BUYER_FAILURE_CAUSALITY_OR_FINAL_BUDGET_IS_INCOMPLETE",
+    "SCAN075_ZERO_RETENTION_AFTER_PAID_INCUMBENT_EXIT_REPLACEMENT_EXACT_REPLACEMENT_INCUMBENT_FOUNDER_INDEPENDENCE_RIGHTS_AND_MARGIN_PREFLIGHT",
+    "THE_NEXT_EVIDENCE_ESCALATION_SHOULD_LOOK_FOR_SEPARATE_RECURRING_PAID_RESIDUAL_SPEND_AFTER_A_REPLACEMENT_PLATFORM_OR_PROVIDER_IS_ALREADY_INSTALLED_FOR_THE_SAME_UNRESOLVED_OUTCOME",
+    "POST_REPLACEMENT_RESIDUAL_SPEND_MUST_EXCLUDE_ROUTINE_IMPLEMENTATION_MIGRATION_TRAINING_TRANSITION_SUPPORT_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_TAILS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_076",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_SIDE_POST_REPLACEMENT_SEPARATE_RECURRING_PAID_RESIDUAL_SPEND_FOR_THE_SAME_UNRESOLVED_OUTCOME_AFTER_A_NEW_PLATFORM_OR_PROVIDER_IS_ALREADY_INSTALLED_FORMATION_DIVERSE_EXCLUDE_ROUTINE_IMPLEMENTATION_MIGRATION_TRAINING_TRANSITION_SUPPORT_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_TAILS_EXCLUDE_SCAN060_TO_075_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN076_FROM_POST_REPLACEMENT_SEPARATE_RECURRING_PAID_RESIDUAL_SPEND_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://govtribe.com/opportunity/state-local-contract-opportunity/this-is-to-purchase-access-to-use-a-case-management-product-called-maxient-dot-unm-is-currently-under-contract-with-a-competitor-advocate-by-simplicity-dot-we-have-made-the-decision-that-advocate-is-no-longer-working-for-us-dot-in-addition-the-maxient-pro-70u690026cp382",
+    "https://www.paradiseprpd.com/files/dd40f422f/_Full.packet.pdf",
+    "https://mansfield.moderngov.co.uk/ieDecisionDetails.aspx?ID=2022",
+    "https://procontract.due-north.com/ContractsRegister/Index?Page=15&PageSize=10&ResultFilterHistoryId=09a05b2a-c78b-4833-b851-27f0f973b839&SortColumn=ContractStartDate&SortDirection=Descending&p=527b4bbd-5c58-e511-80ef-000c29c9ba21&v=1",
+    "https://muskegon-mi.gov/documents/view/63/7230/",
+    "https://www.cityofandersonsc.com/wp-content/uploads/2026/06/Agenda_June_22_2026.pdf",
+    "https://www.ci.san-ramon.ca.us/our_city/departments_and_divisions/information_technology/citizen_request_management_crm/crm",
+    "https://media.governmentnavigator.com/media/bid/1761322102_10-24-2025_Citizen_Request_Management_Software.pdf",
+    "https://catalisgov.com/portfolio/city-of-san-ramon-selects-catalis-request311-for-new-crm-and-311-platform/"
+  ]
+}
