@@ -1,0 +1,187 @@
+{
+  "schema_version": "attraction-scan.v96",
+  "scan_id": "ATTRACTION_SCAN_122",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "SIXTEENTH_INDEPENDENT_STRICT_CURRENT_ECONOMIC_CONJUNCTION_PRIMARY_ADMISSION_REQUIRE_CURRENT_SAME_ENTITY_REPORT_AVAILABLE_REQUIRE_DIRECT_CURRENT_OR_LATEST_INTRINSICALLY_LOW_FTE_REQUIRE_POSITIVE_EXTERNAL_REVENUE_AND_POSITIVE_NET_PROFIT_AND_UNAMBIGUOUS_POSITIVE_CONSOLIDATED_OPERATING_CASHFLOW_BEFORE_PRIMARY_FORMATION_ADMISSION_RECORD_PARTIAL_MATCHES_ONLY_AS_EXCLUDED_OBSERVATIONS_THEN_REVERSE_CHECK_COMPLETED_FRESH_OPERATOR_REPRODUCIBLE_CONTROL_BEFORE_REPORTING_PERIOD_REQUIRE_EXISTING_STANDARDIZED_REPEATABLE_NONPROJECT_REVENUE_NOT_CUSTOM_IMPLEMENTATION_CONSULTING_OUTSOURCING_FIELD_WORK_MEDIA_BUYING_MANUFACTURING_AFTER_SALES_OR_PENDING_INJECTION_REQUIRE_BOUNDED_CONTROL_CONSIDERATION_OPERATING_ASSETS_AND_WORKING_CAPITAL_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_121_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_122-F1",
+      "title": "CHINA_17_FTE_WIND_TOWER_EQUIPMENT_MANUFACTURER_WITH_FULL_CURRENT_ECONOMICS_PASS_BUT_LONGSTANDING_FAMILY_CONTROL_AND_ORDER_MANUFACTURING",
+      "discovery_route": "CURRENT_17_FTE_2026H1_PACKET_PASSES_EXTERNAL_REVENUE_NET_PROFIT_AND_CONSOLIDATED_OCF_THEN_CONTROL_AND_DELIVERY_ARE_REVERSE_CHECKED",
+      "observed_actor_state_change_evidence": [
+        "The 2026 H1 same-entity report directly discloses 17 employees at period end.",
+        "Current revenue is RMB48,034,052.28, net profit RMB1,706,441.35 and consolidated operating cashflow RMB20,230,573.56.",
+        "Current business remains direct tender-led wind-tower equipment production with make-to-order procurement and production."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The company is a wind-tower equipment R&D, production and sales operator rather than a thin software or data-rights rail.",
+        "Its operating model requires steel plate, flanges, anticorrosion coating, internal accessories, production process design and batch physical delivery.",
+        "Yao Xuegen and spouse Yu Meidi directly own 100% of the company and retain actual operating control."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Orders are obtained through public tendering and the company buys materials after signing downstream sales contracts.",
+        "Production is arranged against sales orders and customer requirements, with physical material procurement and staged delivery.",
+        "Current positive OCF therefore coexists with a tender, production and working-capital operating engine rather than a machine-only control surface."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This formation passes all four Scan 122 current-economic admission legs and therefore legitimately enters primary deepening.",
+        "The control check then fails: the same husband-wife controllers own 100%, the controlling shareholder is chairman/general manager, and current reporting says controllers did not change.",
+        "The delivery check also fails because value realization requires tender acquisition, physical procurement, manufacturing and delivery."
+      ],
+      "economic_signal": [
+        "2026 H1: 17 FTE; revenue RMB48,034,052.28; net profit RMB1,706,441.35; consolidated OCF RMB20,230,573.56.",
+        "Current net margin is approximately 3.55% and gross margin 16.12%.",
+        "The full current economic conjunction passes without substituting parent-only or non-operating cashflow."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "No software-incumbent story is substituted for the actual control surface: company equity/control, customer tenders, operating relationships, production assets and working capital.",
+        "The actual controllers directly own 100% and exercise operating control, so a fresh entrant does not currently possess the decisive control position.",
+        "Physical production inputs and customer order flow are preserved as direct constraints rather than normalized away."
+      ],
+      "executed_control_transfer_check": "FAIL_NO_COMPLETED_FRESH_OPERATOR_CONTROL_TRANSFER_CURRENT_REPORT_SAYS_CONTROLLERS_UNCHANGED_AND_YAO_XUEGEN_YU_MEIDI_SPOUSES_OWN_100_PERCENT",
+      "post_transfer_external_economic_continuity_check": "NOT_REACHED_NO_FRESH_CONTROL_TRANSFER_DESPITE_CURRENT_EXTERNAL_REVENUE_RMB48_034_052_28_NET_PROFIT_RMB1_706_441_35_AND_POSITIVE_OCF_RMB20_230_573_56",
+      "fresh_small_operator_entry_check": "FAIL_CURRENT_17_FTE_SCALE_IS_LOW_BUT_CONTROL_POSITION_IS_LONGSTANDING_FAMILY_CONTROL_NOT_FRESH_OPERATOR_ENTRY",
+      "same_operator_economic_binding_check": "PASS_CURRENT_SAME_ENTITY_2026H1_BINDS_17_FTE_REVENUE_RMB48_034_052_28_NET_PROFIT_RMB1_706_441_35_AND_CONSOLIDATED_OCF_RMB20_230_573_56",
+      "direct_operating_cost_check": "FAIL_TENDER_LED_MAKE_TO_ORDER_MODEL_REQUIRES_STEEL_FLANGE_COATING_ACCESSORY_PROCUREMENT_PRODUCTION_PROCESSING_AND_BATCH_PHYSICAL_DELIVERY",
+      "owner_labor_check": "PASS_CURRENT_PERIOD_END_EMPLOYEE_COUNT_IS_17_AND_INTRINSICALLY_LOW",
+      "founder_independence_check": "FAIL_90_PERCENT_OWNER_YAO_XUEGEN_IS_CHAIRMAN_AND_GENERAL_MANAGER_WHILE_SPOUSE_OWNS_REMAINING_10_PERCENT_AND_BOTH_CONTROL_OPERATIONS",
+      "data_action_rights_check": "NOT_REACHED_CONTROL_AND_PHYSICAL_DELIVERY_FAILURES_CLOSE_THE_FORMATION_BEFORE_DIGITAL_RIGHTS_DEEPENING",
+      "normalized_margin_check": "PASS_CURRENT_NET_PROFIT_AND_CONSOLIDATED_OCF_ARE_POSITIVE_BUT_LOW_NET_MARGIN_AND_PHYSICAL_WORKING_CAPITAL_REMAIN_REAL",
+      "machine_delegatability_check": "FAIL_MACHINE_AGENT_CANNOT_REPLACE_TENDER_CONTROL_PHYSICAL_MATERIAL_PROCUREMENT_FACTORY_PRODUCTION_AND_BATCH_DELIVERY",
+      "generic_agent_substitutability_check": "FAIL_SWITCHING_LLM_OR_GENERIC_AGENT_DOES_NOT_CREATE_EQUITY_CONTROL_TENDER_POSITION_PRODUCTION_ASSETS_OR_PHYSICAL_FULFILLMENT_CAPACITY",
+      "verdict": "DEMOTED_FULL_CURRENT_ECONOMICS_PASS_DOES_NOT_OVERRIDE_ABSENT_FRESH_OPERATOR_CONTROL_LONGSTANDING_FAMILY_DEPENDENCE_AND_PHYSICAL_ORDER_MANUFACTURING"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_122-F2",
+      "title": "CHINA_15_FTE_CNC_VENTILATION_EQUIPMENT_MAKER_WITH_FULL_CURRENT_ECONOMICS_PASS_BUT_FOUNDER_FAMILY_CONTROL_AND_CUSTOMER_SPECIFIC_PRODUCTION",
+      "discovery_route": "CURRENT_15_FTE_2026H1_PACKET_PASSES_EXTERNAL_REVENUE_NET_PROFIT_AND_CONSOLIDATED_OCF_THEN_CONTROL_HISTORY_AND_CUSTOM_DELIVERY_ARE_REVERSE_CHECKED",
+      "observed_actor_state_change_evidence": [
+        "The 2026 H1 same-entity report directly discloses period-end headcount falling from 21 to 15 employees.",
+        "Current revenue is RMB8,719,805.71, attributable net profit RMB1,423,975.92 and consolidated operating cashflow RMB1,587,115.80.",
+        "The operating model remains CNC ventilation-equipment R&D, production and sales with direct customer technical interaction."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The company produces ventilation-duct processing equipment, plasma cutters, sheet-metal forming equipment, flange machines and CNC round-pipe equipment.",
+        "Current direct sales requires sales and technical personnel to understand each customer's use environment and technical requirements before R&D and production.",
+        "Founders/spouses Wang Fenquan and Zhang Guifang retain direct controlling ownership and their son is also a significant shareholder/director."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Direct sales uses face-to-face customer interaction, technical negotiation and customer-specific product-use requirements.",
+        "Inventory and payables increased as production orders and material purchasing increased during the period.",
+        "Positive OCF is explained by greater sales collections and lower purchase cash outflow, but physical production remains the delivery engine."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This formation passes all four current-economic admission legs with a materially stronger net margin than F1.",
+        "Fresh-operator reproducibility fails because current reporting says the actual controller did not change and historical disclosure traces the same husband-wife control back to the 2006 company formation.",
+        "Founder-light machine delivery also fails because product requirements, technical negotiation, R&D, production, inventory and material procurement are direct operating inputs."
+      ],
+      "economic_signal": [
+        "2026 H1: 15 FTE; revenue RMB8,719,805.71; attributable net profit RMB1,423,975.92; consolidated OCF RMB1,587,115.80.",
+        "Current net margin is approximately 16.33% and gross margin 30.43%.",
+        "The full current economic conjunction passes on the same reporting entity and period."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The decisive control surface is the family-controlled operating company, customer relationships, technical know-how, production/inventory system and supplier/material flow.",
+        "Wang Fenquan and Zhang Guifang are spouses, directly control about 88.89%, and current reporting states actual control did not change.",
+        "A fresh operator does not obtain equivalent control merely by copying product documentation or using a generic agent."
+      ],
+      "executed_control_transfer_check": "FAIL_NO_COMPLETED_FRESH_OPERATOR_CONTROL_TRANSFER_CURRENT_REPORT_SAYS_ACTUAL_CONTROLLER_UNCHANGED_AND_HISTORICAL_DISCLOSURE_TRACES_WANG_FENQUAN_ZHANG_GUIFANG_CONTROL_TO_COMPANY_FORMATION",
+      "post_transfer_external_economic_continuity_check": "NOT_REACHED_NO_FRESH_CONTROL_TRANSFER_DESPITE_CURRENT_EXTERNAL_REVENUE_RMB8_719_805_71_NET_PROFIT_RMB1_423_975_92_AND_POSITIVE_OCF_RMB1_587_115_80",
+      "fresh_small_operator_entry_check": "FAIL_CURRENT_15_FTE_SCALE_IS_LOW_BUT_THE_CONTROL_POSITION_IS_LONGSTANDING_FOUNDER_FAMILY_CONTROL_NOT_REPRODUCIBLE_FRESH_ENTRY",
+      "same_operator_economic_binding_check": "PASS_CURRENT_SAME_ENTITY_2026H1_BINDS_15_FTE_REVENUE_RMB8_719_805_71_NET_PROFIT_RMB1_423_975_92_AND_CONSOLIDATED_OCF_RMB1_587_115_80",
+      "direct_operating_cost_check": "FAIL_CUSTOMER_SPECIFIC_TECHNICAL_INTERACTION_R_AND_D_MATERIAL_PROCUREMENT_INVENTORY_AND_PHYSICAL_EQUIPMENT_PRODUCTION_ARE_DIRECT_INPUTS",
+      "owner_labor_check": "PASS_CURRENT_PERIOD_END_EMPLOYEE_COUNT_IS_15_AND_INTRINSICALLY_LOW",
+      "founder_independence_check": "FAIL_FOUNDING_HUSBAND_WIFE_CONTROLLERS_REMAIN_BOARD_AND_EXECUTIVE_OPERATORS_AND_FAMILY_REMAINS_EMBEDDED_IN_GOVERNANCE",
+      "data_action_rights_check": "NOT_REACHED_CONTROL_AND_PHYSICAL_DELIVERY_FAILURES_CLOSE_THE_FORMATION_BEFORE_DIGITAL_RIGHTS_DEEPENING",
+      "normalized_margin_check": "PASS_CURRENT_NET_MARGIN_16_33_PERCENT_AND_POSITIVE_OCF_ARE_ECONOMICALLY_REAL_BUT_DO_NOT_REMOVE_PRODUCTION_AND_CONTROL_DEPENDENCIES",
+      "machine_delegatability_check": "FAIL_CUSTOMER_SPECIFIC_TECHNICAL_NEGOTIATION_R_AND_D_FACTORY_PRODUCTION_INVENTORY_AND_MATERIAL_FLOW_ARE_NOT_MACHINE_ONLY_DELIVERY",
+      "generic_agent_substitutability_check": "FAIL_GENERIC_AGENT_CANNOT_ACQUIRE_THE_FAMILY_CONTROL_POSITION_FACTORY_PRODUCTION_CAPACITY_OR_CUSTOMER_TECHNICAL_RELATIONSHIPS",
+      "verdict": "DEMOTED_FULL_CURRENT_ECONOMICS_PASS_DOES_NOT_OVERRIDE_LONGSTANDING_FOUNDER_FAMILY_CONTROL_NO_FRESH_OPERATOR_TRANSFER_AND_CUSTOM_PHYSICAL_EQUIPMENT_PRODUCTION"
+    }
+  ],
+  "excluded_observations": [
+    "Jinkun Zhiliang was excluded before primary admission: 19 FTE, RMB10,149,126.86 accounting revenue, RMB299,549.48 attributable net profit and RMB1,942.80 positive OCF appear to pass numerically, but the report states all H1 revenue RMB10,149,126.86 is lithium-battery processing income from shareholder Anhui Jinkun Technology, so the positive external-revenue gate fails.",
+    "Huayi Shares was excluded before primary admission: 16 FTE, revenue RMB20,733,162.93 and net profit RMB2,406,773.25 are positive, but consolidated OCF is negative RMB983,819.89.",
+    "Wali Technology was excluded before primary admission: 19 FTE and RMB3,253,282.80 current internet-marketing revenue coexist with net loss RMB2,255,567.22 and negative OCF RMB1,455,643.22.",
+    "Lunan Data was excluded before primary admission: 4 FTE and RMB4,648,005.33 current revenue coexist with net loss RMB1,234,975.24 and negative OCF RMB3,917,964.07.",
+    "Scan 060-121 primary formations and their primary discovery signals were excluded from Scan 122 selection; no Scan 121 formation was recycled.",
+    "No control-history deepening was spent on partial current-economic matches; the strict admission gate was applied before primary formation creation.",
+    "No job, gig, RFQ, procurement or asset-marketplace feed was used as the discovery ontology."
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "strict_current_economic_conjunction_primary_admission": true,
+    "current_same_entity_report_required": true,
+    "direct_current_or_latest_intrinsically_low_fte_required": true,
+    "positive_external_revenue_required": true,
+    "related_party_captive_revenue_not_counted_as_external": true,
+    "positive_net_profit_required": true,
+    "explicit_positive_consolidated_operating_cashflow_required": true,
+    "partial_matches_recorded_as_excluded_observations": true,
+    "control_history_deepened_only_for_full_current_economic_survivors": true,
+    "completed_fresh_operator_reproducible_control_required_for_retention": true,
+    "existing_repeatable_nonproject_revenue_required_for_retention": true,
+    "physical_manufacturing_and_customer_specific_delivery_not_normalized_away": true,
+    "no_arbitrary_fixed_primary_formation_count": true,
+    "primary_research_domain_respected": true,
+    "prior_scan_primary_formations_not_reused": true,
+    "parallel_validation_not_researched_again": true,
+    "formation_diversity": "PASS_FIELD_SCREEN_INCLUDED_MANUFACTURING_DIGITAL_MARKETING_DATA_SERVICE_AND_RELATED_PARTY_PROCESSING_ROUTES_WHILE_ONLY_TWO_MANUFACTURING_PACKETS_SURVIVED_THE_STRICT_ECONOMIC_GATE",
+    "observed_indexing_bias": "STRICT_CURRENT_ECONOMICS_SURVIVORS_IN_THIS_PASS_CONVERGED_ON_SMALL_PHYSICAL_MANUFACTURERS_WITH_LONGSTANDING_FAMILY_CONTROL_SO_ONE_MORE_INDEPENDENT_PASS_IS_REQUIRED_BEFORE_PROMOTING_FRESH_CONTROL_TO_THE_PRIMARY_ADMISSION_GATE",
+    "response": "SCAN123_REPEAT_THE_STRICT_CURRENT_ECONOMIC_ADMISSION_ON_FRESH_FORMATIONS_PRIORITIZE_CONTROL_CHECK_FIRST_FOR_ADMITTED_SURVIVORS_AND_SEEK_FRESH_NONMANUFACTURING_ROUTES_WITHOUT_RELAXING_ANY_GATE",
+    "participant_behavior_over_analyst_story": "PASS_CLOSURES_USE_DISCLOSED_CURRENT_FINANCIALS_HEADCOUNT_CONTROLLER_HISTORY_AND_OPERATING_DELIVERY_FACTS"
+  },
+  "scan_learnings": [
+    "SCAN122_STRICT_CONJUNCTIVE_ADMISSION_FOUND_TWO_REAL_CURRENT_ECONOMIC_SURVIVORS_WITHOUT_SPENDING_PRIMARY_SLOTS_ON_PARTIAL_MATCHES.",
+    "RELATED_PARTY_CAPTIVE_THROUGHPUT_IS_NOT_EXTERNAL_REVENUE_JINKUN_ZHILIAN_FAILS_ADMISSION_EVEN_THOUGH_REVENUE_PROFIT_AND_OCF_ARE_NUMERICALLY_POSITIVE.",
+    "HUADA_SHARES_PROVES_17_FTE_POSITIVE_REVENUE_PROFIT_AND_OCF_CAN_COEXIST_WITH_100_PERCENT_HUSBAND_WIFE_CONTROL_AND_TENDER_LED_PHYSICAL_ORDER_MANUFACTURING.",
+    "KANGMEIFENG_PROVES_15_FTE_STRONG_POSITIVE_CURRENT_ECONOMICS_CAN_COEXIST_WITH_CONTROL_HELD_BY_THE_SAME_FOUNDER_FAMILY_SINCE_COMPANY_FORMATION_AND_CUSTOMER_SPECIFIC_EQUIPMENT_PRODUCTION.",
+    "ONE_STRICT_ADMISSION_PASS_IS_NOT_ENOUGH_TO_RAISE_FRESH_CONTROL_TO_THE_PRIMARY_ENTRY_GATE_SCAN123_SHOULD_REPEAT_THE_GATE_AND_CHECK_CONTROL_FIRST_FOR_EVERY_TRUE_SURVIVOR.",
+    "NO_PRODUCT_OR_VERTICAL_IS_DERIVED_FROM_THE_TWO_MANUFACTURING_SURVIVORS_OR_THE_ZERO_RETENTION_RESULT."
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_123",
+  "next_search_boundary": "SEVENTEENTH_INDEPENDENT_STRICT_CURRENT_ECONOMIC_CONJUNCTION_PRIMARY_ADMISSION_REPEAT_REQUIRE_CURRENT_SAME_ENTITY_REPORT_AVAILABLE_REQUIRE_DIRECT_CURRENT_OR_LATEST_INTRINSICALLY_LOW_FTE_REQUIRE_POSITIVE_EXTERNAL_REVENUE_AND_POSITIVE_NET_PROFIT_AND_UNAMBIGUOUS_POSITIVE_CONSOLIDATED_OPERATING_CASHFLOW_BEFORE_PRIMARY_FORMATION_ADMISSION_RECORD_PARTIAL_MATCHES_ONLY_AS_EXCLUDED_OBSERVATIONS_THEN_CHECK_COMPLETED_FRESH_OPERATOR_REPRODUCIBLE_CONTROL_FIRST_FOR_EVERY_ADMITTED_SURVIVOR_REQUIRE_EXISTING_STANDARDIZED_REPEATABLE_NONPROJECT_REVENUE_NOT_CUSTOM_IMPLEMENTATION_CONSULTING_OUTSOURCING_FIELD_WORK_MEDIA_BUYING_MANUFACTURING_AFTER_SALES_OR_PENDING_INJECTION_REQUIRE_BOUNDED_CONTROL_CONSIDERATION_OPERATING_ASSETS_AND_WORKING_CAPITAL_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_INCLUDE_FRESH_NONMANUFACTURING_ROUTES_WITHOUT_RELAXING_GATES_EXCLUDE_SCAN060_TO_122_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "VALIDATE_SCAN122_WITH_EXACT_FINAL_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_RUN_SCAN123_AS_AN_INDEPENDENT_STRICT_CURRENT_ECONOMIC_ADMISSION_REPEAT_WITH_CONTROL_CHECK_FIRST_FOR_ADMITTED_SURVIVORS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608201828202657&pageIndex=1",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608201828202657&pageIndex=3",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608201828202657&pageIndex=5",
+    "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/a66ac7b6c7a90f8f410c2338c62cce12.pdf",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608211828255946&pageIndex=1",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608211828255946&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608211828255946&pageIndex=3",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608211828255946&pageIndex=4",
+    "https://qccdata.qichacha.com/Disclosure/c5aa1c03ea8f344bab2393dbc5c24fa8.pdf",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608211828261244&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608211828261244&pageIndex=5",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608211828261244&pageIndex=15",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608201828202256&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608201828202256&pageIndex=3",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608201828202256&pageIndex=5",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608261828473131&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608261828473131&pageIndex=5",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608191828153720&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608191828153720&pageIndex=4",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608191828153720&pageIndex=6"
+  ]
+}
