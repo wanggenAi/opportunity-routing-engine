@@ -14,19 +14,19 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` still requires written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 087 completes the independently replicated participant-controlled completion pass. Each formation had at least two unaffiliated successful participant accounts and a decisive self-service/open completion step, yet all three closed on mature substitute products or an incumbent-supported handoff. If continuation is allowed, Scan 088 must require replicated participant-controlled completion that still needs manual assembly or coordination across at least two existing components because no single current control surface owns the end-to-end outcome.
+Discovery: Scan 088 completes the first replicated participant-controlled multi-component-completion pass. EV road-trip charging, flight-disruption response and home-energy automation all show real cross-component participant assembly, but none establishes an unowned operator edge. If continuation is allowed, Scan 089 must require replicated **actual payment to a distinct non-incumbent software/service for the cross-component coordination function itself**, not merely payment for underlying components, while no single current control surface owns the end-to-end outcome.
 
 ## Current Phase
 
-`SCAN_087_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_088_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`67fdb0d3df2acc711e68d5b92fdf9f78ec183583`
-— squash merge of PR #384, `Advance beyond participant-authored bypass after Scan 086`.
+`5759f8a38925872290cbb4214f637d823652ddf1`
+— squash merge of PR #385, `Require replicated participant-controlled completion in Scan 087`.
 
-PR #384 final repository CI run `35691310797`: success.
-PR #384 final live Jev run `35691310788`: success; `typesafe-sdk==0.7.0`, model `jev-latest`, Scan 086 3/3 `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #385 final repository CI run `35691825830`: success.
+PR #385 final live Jev run `35691825836`: success; `typesafe-sdk==0.7.0`, model `jev-latest`, Scan 087 3/3 `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -34,84 +34,92 @@ PR #384 final live Jev run `35691310788`: success; `typesafe-sdk==0.7.0`, model 
 
 ## Active Branch
 
-`research/attraction-scan-087`
+`research/attraction-scan-088`
 
 ## Active PR
 
-#385 — `Require replicated participant-controlled completion in Scan 087`.
+Not yet opened. Scan 088 research/doc/test/reset-state are persisted on the active branch.
 
 ## CI
 
-- PR #381 repository CI `35689116606`: success.
-- PR #381 live TypeSafe/Jev `35689116567`: success; Scan 083 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- PR #382 final head `afe92b186c13b73fdf18ef0a7a821930daadeb6e`: repository CI `35689404591` success; live Jev `35689404496` success; Scan 084 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- PR #383 final head `8b03b5a239a212566405d99920014a7d50672bf9`: repository CI `35690471250` success; live Jev `35690471285` success; Scan 085 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
 - PR #384 final head `171dc43e4962a418d2417db55b645b22990daf3e`: repository CI `35691310797` success; live Jev `35691310788` success; Scan 086 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
+- PR #385 final head `b68a1dc0fe08ddfae1fc81801f576dc93d98ec56`: repository CI `35691825830` success; live Jev `35691825836` success; Scan 087 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
+- Scan 088 branch CI/Jev: not started until PR is opened.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_087.json`
-- `docs/research/ATTRACTION_SCAN_087_2026-09-22.md`
-- `tests/test_attraction_scan_087_replicated_participant_control.py`
+- `data/research_runs/attraction_scan_088.json`
+- `docs/research/ATTRACTION_SCAN_088_2026-09-22.md`
+- `tests/test_attraction_scan_088_multi_component_completion.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
 Persisted state:
-- last completed scan = `ATTRACTION_SCAN_087`;
-- last resolved formation = `ATTRACTION_SCAN_087-F3`;
-- next scan = `ATTRACTION_SCAN_088`;
+- last completed scan = `ATTRACTION_SCAN_088`;
+- last resolved formation = `ATTRACTION_SCAN_088-F3`;
+- next scan = `ATTRACTION_SCAN_089`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`;
-- next boundary = independently replicated participant-controlled multi-component completion where no single current control surface owns the end-to-end outcome.
+- next boundary = replicated actual payment to a distinct non-incumbent software/service for coordinating two or more existing components, while no single current control surface owns the end-to-end outcome.
 
 ## Completed
 
-- PR #384 merged Scan 086; repository CI `35691310797` and live Jev `35691310788` succeeded.
-- Jev returned Scan 086 3/3 `NO_FURTHER_RESEARCH`, `autonomous_continuation_allowed=true`, `ADVANCE_TO_NEXT_SCAN`.
-- Scan 087 tested travel eSIM substitution for Verizon TravelPass, Xfinity Bridge Mode plus customer routing, and Roku TV replacement by external HDMI streamers.
-- Every formation has at least two unaffiliated participant accounts of the same successful pattern.
-- Every decisive completion step is participant-controlled or self-service rather than an incumbent privileged manual exception.
-- All three nevertheless close on mature substitute products or an incumbent-supported handoff; zero retention and zero commercial promotion.
+- PR #385 merged Scan 087; repository CI `35691825830` and live Jev `35691825836` succeeded.
+- Jev returned Scan 087 3/3 `NO_FURTHER_RESEARCH`, `autonomous_continuation_allowed=true`, `ADVANCE_TO_NEXT_SCAN`.
+- Scan 088 tested three formation-diverse multi-component completion patterns:
+  - EV road trips combining route planning, charger reliability/status, navigation and charging-network activation;
+  - early independent flight-disruption signals followed by separate airline rebooking execution;
+  - household smart-tariff / EV / solar / battery automation assembled through Home Assistant / Node-RED and vendor integrations.
+- All three close without retention or commercial promotion after incumbent/control, action-rights, founder-independence, normalized economics, machine-delegatability and generic-agent preflight.
+- `data/commercial_reset_state.json` now advances discovery to Scan 089.
 
 ## Current Findings
 
-### Scan 087-F1 — travel eSIM replaces daily home-carrier roaming
+### Scan 088-F1 — EV road-trip planning / reliability / charging activation stitch
 
-Multiple current Verizon users independently report using Airalo/travel eSIMs instead of TravelPass, explicitly citing the $12/day economics and sufficient data-only connectivity.
-
-Closure:
-- traveler self-service control is real;
-- travel eSIM marketplaces/providers already own network inventory, activation, billing and support;
-- generic agents can compare and guide existing offers without acquiring a distinct scarce control asset.
-
-### Scan 087-F2 — Xfinity gateway routing handed to customer-owned router
-
-Multiple current participants independently run Ubiquiti, pfSense or Firewalla behind an Xfinity gateway using Bridge Mode/passthrough.
+Participants independently combine ABRP, PlugShare, navigation and charging-network activation to complete long trips.
 
 Closure:
-- the decisive handoff is customer-controlled;
-- Xfinity itself documents and supports Bridge Mode and third-party routers for relevant configurations;
-- mature networking ecosystems already own the alternate routing layer.
+- cross-component manual coordination is real;
+- mature planners and ChargeHub-style roaming/payment aggregators already absorb most of the repeatable coordination layer;
+- residual activation rights remain bound to incompatible charging networks;
+- no distinct residual coordination payer is evidenced.
 
-### Scan 087-F3 — Roku TV surface replaced by external HDMI streamer
+### Scan 088-F2 — early flight-disruption signal -> airline rebooking stitch
 
-Multiple current participants independently reduce Roku TV to a display and use Apple TV, Google streaming devices or Nvidia Shield after ads, clutter or lag degrade the Roku home surface.
+Participants use an independent early signal such as Flighty, then move to the airline/ticketing surface to secure the replacement itinerary.
 
 Closure:
-- the decisive HDMI-device substitution is fully participant-controlled;
-- external streaming hardware is already a mature substitute category;
-- no independent operator layer is exposed.
+- earlier information has real state-dependent value and Flighty already monetizes that signal;
+- authoritative ticket modification remains airline or authorized-agent controlled;
+- no separate recurring payment for an unowned signal-to-rebook coordination layer is proven.
 
-## Scan 087 Learning
+### Scan 088-F3 — smart tariff / EV / solar / home-battery automation stitch
 
-Independent replication plus participant control is materially stronger than bypass evidence alone because it removes incumbent-only support/exception paths.
+Participants build custom cross-device policies with Home Assistant / Node-RED across tariff, charger, vehicle and battery state.
 
-It is still insufficient for white-space proof. All three Scan 087 formations demonstrate that a real, repeated, self-service bypass can simply move the participant onto a mature alternate provider or an incumbent-supported control handoff.
+Closure:
+- multi-component assembly is real;
+- Home Assistant already functions as a generic cross-vendor automation/control surface where integrations expose actions;
+- the residual is compatibility/configuration and no distinct recurring coordination payer is shown.
 
-The next evidence floor therefore requires replicated participant-controlled completion that remains manually assembled across multiple existing components because no single current control surface owns the whole path.
+## Scan 088 Learning
+
+```text
+PARTICIPANT-CONTROLLED MULTI-COMPONENT COMPLETION
+!=
+PAID UNOWNED COORDINATION EDGE
+```
+
+Manual assembly is a stronger residual sensor than simple bypass, but it still overselects:
+- mature aggregators that already own most of the coordination layer;
+- split-authority stacks where one product owns information and another actor owns execution rights;
+- open generic automation substrates where the remaining work is configuration rather than a scarce operator position.
+
+The next evidence floor therefore requires actual payment for the **cross-component coordination function itself**.
 
 ## Blockers
 
@@ -121,27 +129,23 @@ Validation:
 
 Engineering:
 - no Jev integration blocker;
-- PR #385 opened for Scan 087; final-head repository CI and live Jev pending.
+- Scan 088 PR, final-head repository CI and live Jev are pending.
 
 Discovery:
-- Scan 087 research is complete with zero retention;
-- Scan 088 must not start until Scan 087 final-head CI/Jev continuation is consumed.
+- Scan 088 research is complete with zero retention;
+- Scan 089 must not start until Scan 088 final-head CI/Jev continuation is consumed.
 
 ## Next Action
 
-Open the Scan 087 PR, validate its final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, and continue automatically into Scan 088 only if `autonomous_continuation_allowed=true`.
+Open the Scan 088 PR, validate its final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, and continue automatically into Scan 089 only if `autonomous_continuation_allowed=true`.
 
 ## Do Not Repeat
 
-- Do not promote generic freight/load matching, backhaul/reload optimization or digital brokerage; DAT, Convoy Platform and Uber Freight already own the network/data/booking/payment rails.
-- Do not promote generic industrial-waste/secondary-material matching; Cyrkl and peers already own marketplace plus expert/compliance services.
-- Do not promote NHS cancellation-slot matching; providers own clinical eligibility and scheduling rights.
-- Do not repeat Scan 083 food rescue, construction soil exchange or private EV charging.
-- Do not repeat Scan 085 restaurant direct-ordering, off-platform ticket resale, or Delta manual itinerary-change formations.
-- Do not repeat Scan 086 vacation-rental direct booking, Octopus/Hypervolt smart-charging fallback, or Vinted/Australia Post locker-recovery formations.
-- Do not repeat Scan 087 travel eSIM substitution, Xfinity customer-router handoff, or Roku external-streamer substitution formations.
-- Do not infer a new operator merely because participants bypass an incumbent surface; bypass is now proven to be a sensor, not a white-space test.
-- Do not return to Scan 060–086 formations or their primary discovery signals.
+- Do not repeat Scan 087 travel eSIM substitution, Xfinity customer-router handoff, or Roku external-streamer substitution.
+- Do not repeat Scan 088 EV road-trip multi-app coordination, Flighty-to-airline disruption handling, or Home Assistant smart-tariff/EV/solar/battery automation.
+- Do not infer a new operator merely because participants manually stitch multiple components; the stitch is now a sensor, not white-space proof.
+- Do not infer willingness to pay for coordination from payment for charging, airline tickets, electricity, hardware or component subscriptions.
+- Do not return to Scan 060–088 formations or their primary discovery signals.
 - Do not infer a marketplace/router/integration mechanism from these closures.
 - Do not use job/gig/RFQ/procurement feeds as discovery ontology.
 - Do not lower hard floors because discovery closes at zero.
