@@ -6,23 +6,11 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 071 completed the broad current-buyer-budget reset after Scans 065–070 drifted into provider-abstraction/orchestration.
+Scan 072 completed the **second** broad current-buyer-budget pass after the Scan 070 mechanism reset. Six new formations — NEMT fleet compliance, security questionnaires, food labeling, customs entry preparation, commercial-property CAM/collections and grant reporting — all carried current external budget evidence and all failed closed.
 
-Six unrelated formations carried direct current external budget evidence: industrial utility audit, BESS permitting, medical credentialing, Amazon EU compliance, procurement/vendor onboarding recovery and Shopify multi-state sales-tax filing. None survived.
+Across Scan 071 and Scan 072, the repeatable pattern is now stable: standard execution is already absorbed by current software/control surfaces while paid human residuals concentrate in exception handling, judgment, coordination, accountability, liability or adoption.
 
-```text
-BROAD ACTOR / STATE TRANSITION
-→ CURRENT EXTERNAL BUDGET
-→ EXACT CURRENT CONTROL SURFACE
-→ FOUNDER-INDEPENDENCE
-→ DATA / ACTION RIGHTS
-→ NORMALIZED MARGIN
-→ FAIL CLOSED
-```
-
-The main result is that current external spending often survives because buyers still need setup, exception ownership, local coordination, regulatory interpretation, accountability or adoption after the repeatable layer is productized. That residual is real paid work but not yet a founder-independent operator asset.
-
-One broad reset pass is not enough to derive another mechanism ontology. Scan 072 remains a second broad formation-diverse buyer-budget pass and excludes Scan 071 formations.
+That supports a change in **evidence source**, not a new mechanism ontology. Scan 073 therefore moves away from job postings as sole payer evidence and requires buyer-side non-role repeat spend / procurement / invoice / renewal signals.
 
 ## Goal
 
@@ -44,22 +32,23 @@ Resolved recently:
 - `ATTRACTION_SCAN_069` — zero retention after concurrent multi-supplier behavior resolved into mature orchestration/control planes or failed strict recurring-production concurrency evidence.
 - `ATTRACTION_SCAN_070` — zero retention after buyer-built/self-hosted provider abstraction resolved into current managed/open control surfaces or failed strict two-current-production evidence; triggered broad reset.
 - `ATTRACTION_SCAN_071` — zero retention after broad current buyer-budget evidence resolved into mature control surfaces plus setup/exception/coordination/regulatory expert tails.
+- `ATTRACTION_SCAN_072` — zero retention after a second broad role-budget pass again resolved into current vertical/control software plus human exception, judgment, liability or accountability tails.
 
 Discovery queue:
-- `ATTRACTION_SCAN_072 — BROAD_FORMATION_DIVERSE_CURRENT_BUYER_BUDGET_REALITY_SECOND_PASS_WITH_DIRECT_EXTERNAL_PAYMENT_CONTRACT_OR_RECURRING_PROCUREMENT_EVIDENCE_FOR_BOUNDED_OUTCOMES_EXCLUDE_SCAN065_TO_071_FORMATIONS_NO_REQUIRED_MECHANISM_PRODUCT_SHAPE_ATOMICITY_ROUTING_OR_SOFTWARE_DELIVERY_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_073 — BROAD_CURRENT_BUYER_SIDE_NON_ROLE_REPEAT_PURCHASE_PROCUREMENT_AWARD_INVOICE_OR_RENEWAL_SPEND_SIGNALS_FORMATION_DIVERSE_NO_JOB_POSTING_AS_SOLE_PAYER_EVIDENCE_NO_SELLER_DEFINED_PRODUCTIZED_SERVICE_AS_PRIMARY_SIGNAL_EXCLUDE_SCAN060_TO_072_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_071_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_072_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`f17924f82cd9f4f2784b297829e73a391a255127`
-— squash merge of PR #368, `Reset discovery after buyer-built abstraction Scan 070`.
+`1267c2039198b7a7cd798c24a9362955f244cbd8`
+— squash merge of PR #369, `Keep discovery broad after buyer-budget Scan 071`.
 
-PR #368 repository CI run `35677470709` completed `success`. Live Jev run `35677470774` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #369 repository CI run `35679071405` completed `success`. Live Jev run `35679071425` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -67,11 +56,11 @@ PR #368 repository CI run `35677470709` completed `success`. Live Jev run `35677
 
 ## Active Branch
 
-`research/attraction-scan-071`.
+`research/attraction-scan-072`.
 
 ## Active PR
 
-#369 — `Keep discovery broad after buyer-budget Scan 071`. Live GitHub state is authoritative.
+#370 — `Change payer evidence source after Scan 072`. Live GitHub state is authoritative.
 
 ## CI
 
@@ -87,15 +76,15 @@ PR #368 repository CI run `35677470709` completed `success`. Live Jev run `35677
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_071.json`
-- `docs/research/ATTRACTION_SCAN_071_2026-09-22.md`
-- `tests/test_attraction_scan_071_broad_buyer_budget_gate.py`
+- `data/research_runs/attraction_scan_072.json`
+- `docs/research/ATTRACTION_SCAN_072_2026-09-22.md`
+- `tests/test_attraction_scan_072_second_broad_budget_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
-Persisted state records `ATTRACTION_SCAN_071` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_072` as a second broad formation-diverse pass.
+Persisted state records `ATTRACTION_SCAN_072` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_073` as a buyer-side non-role spend evidence pass rather than a new mechanism boundary.
 
 ## Completed
 
@@ -115,22 +104,23 @@ Results:
 
 ## Current Findings
 
+Two post-reset broad passes now agree:
+
 ```text
-DIRECT CURRENT BUYER BUDGET
-!=
-UNOWNED FOUNDER-INDEPENDENT VALUE LAYER
+CURRENT ROLE / CONTRACT BUDGET
+→ STANDARD LOOP IS ALREADY PRODUCTIZED
+→ HUMAN RESIDUAL = EXCEPTION / JUDGMENT / COORDINATION / ACCOUNTABILITY
 ```
 
-Scan 071 examined six unrelated current budget signals:
+Scan 072 closes:
+- NEMT fleet compliance — vertical NEMT software owns credentials/GPS/maintenance/trip verification; residual is investigation/accountability.
+- Security questionnaires — AI platforms own intake→answer→portal→approval workflow; residual is currentness and exception approval.
+- Food labeling — compliant label/allergen/nutrition generation is productized; visible unit economics are low and expert review remains.
+- Customs entry prep — HTS/data validation/compliance workflow is mature; agency-specific interpretation and penalty exposure remain.
+- Commercial property CAM/collections — native CAM reconciliation, fees and collections exist; lease interpretation and tenant negotiation remain.
+- Grant reporting — GMS platforms automate standard reporting/compliance; funder/program-specific narrative judgment remains.
 
-- Industrial utility audit: £2,500-per-audit recurring budget is real; automated utility-bill audit control already exists and the residual is tariff/procurement/engineering judgment.
-- Commercial BESS permitting: long-running permit-expeditor budget is real; current permitting platforms now own intake→research→submission→coordination→issuance, leaving local exception work.
-- Medical credentialing: durable payer-enrollment work is real; current provider-operations platforms automate the standard control loop, leaving payer-specific exceptions and authorization-heavy work.
-- Amazon EU compliance: long-running budget is real; the remaining purchase is regulatory ownership across multiple regimes rather than a clean autonomous unit.
-- Procurement setup/vendor onboarding: $4,500 project budget is real; standard onboarding/orchestration is productized while cleanup, vendor relationships and change management are buyer-specific.
-- Shopify multi-state sales-tax filing: ongoing fixed-per-return spend persists even though Shopify Tax now directly sells automated filing for all U.S. sales-tax states; residual cases are exception/eligibility/advice work.
-
-Scan 072 must stay broad. Do not derive a new mechanism from this single reset pass.
+Scan 073 changes evidence source: buyer-side non-role repeat purchase/procurement/invoice/renewal signals. It must not derive another preferred mechanism.
 
 ## Validation Status
 
@@ -152,10 +142,11 @@ Engineering:
 - The active repository agent must continue reversible research automatically when the continuation directive allows it.
 
 Discovery:
-- Scan 071 is complete with zero retained formations and zero commercial promotions.
-- Downstream job/contract/procurement pages were used only as budget evidence, not as the opportunity ontology.
-- Direct buyer budget did not override exact-incumbent, founder-independence, data/action-rights or normalized-margin floors.
-- Scan 072 must be a second broad formation-diverse pass and exclude Scan 071 formations.
+- Scan 072 is complete with zero retained formations and zero commercial promotions.
+- Two broad role-budget passes now support changing payer evidence source rather than narrowing mechanism.
+- Scan 073 must not use a job posting as sole payer evidence.
+- Scan 073 must not use seller-defined productized service as the primary payer signal.
+- Scan 073 must exclude Scan 060–072 formations and primary signal patterns from seeding.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -163,9 +154,15 @@ Commercial:
 
 ## Next Action
 
-Open the Scan 071 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 072 as a second broad formation-diverse buyer-budget pass without deriving a new mechanism ontology.
+Open the Scan 072 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 073 from buyer-side non-role repeat-spend evidence without deriving a new mechanism ontology.
 
 ## Do Not Repeat
+
+- Do not promote NEMT fleet compliance auditing, generic security questionnaire/vendor-audit response, generic FDA nutrition/food labeling, generic customs entry preparation/HTS compliance, AppFolio-centered commercial CAM/collections operations or generic grant reporting from Scan 072.
+- Do not run a third broad job-posting pass after Scan 071 and Scan 072; change payer evidence source.
+- Do not treat seller-defined productized service listings as the next primary signal; Scan 060 already proved that bias.
+- Do not cycle back through Scan 061–064 buyer-workaround / paid-incumbent / double-spend signal patterns as if they were new.
+- Do not derive a mechanism requirement from the human residual taxonomy.
 
 - Do not use explicit job/gig/procurement categories as upstream discovery ontology; in Scan 071 they are downstream budget confirmation only.
 - Do not promote industrial utility auditing, generic permit expediting, generic medical credentialing/payer enrollment, Amazon EU compliance operations, procurement-function setup/vendor onboarding recovery or generic Shopify sales-tax filing from Scan 071.
