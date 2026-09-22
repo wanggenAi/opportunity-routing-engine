@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generation": 1,
+  "generation": 2,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-088",
-  "stage": "SCAN_088_RESEARCH_PERSISTED",
+  "stage": "SCAN_088_STATE_PERSISTED_READY_FOR_PR",
   "last_observed_main_sha": "5759f8a38925872290cbb4214f637d823652ddf1",
   "work_branch": "research/attraction-scan-088",
-  "work_head_sha": "dca686901c7e5c0bda9d2b1aca9a2f8b47088214",
+  "work_head_sha": "7c7f381e7893d19872983834222bc7e3a7657bea",
   "active_pr": null,
   "ci": {
     "run_id": null,
@@ -34,9 +34,11 @@
     "SCAN_087_JEV_CONTINUATION_CONSUMED",
     "SCAN_088_RESEARCH_PERSISTED",
     "SCAN_088_DOC_PERSISTED",
-    "SCAN_088_TEST_CONTRACT_PERSISTED"
+    "SCAN_088_TEST_CONTRACT_PERSISTED",
+    "SCAN_088_RESET_STATE_UPDATED",
+    "SCAN_088_TASK_STATE_UPDATED"
   ],
-  "next_action": "Update commercial_reset_state.json and TASK_STATE.md from Scan 088, open PR, validate repository CI and live Jev, then consume continuation.",
+  "next_action": "Open Scan 088 PR against main, wait for repository CI and live Jev, consume continuation directive.",
   "do_not_repeat": [
     "Do not recreate Scan 088 branch or rewrite its existing research/doc/test commits.",
     "Do not repeat Scan 087 travel eSIM, Xfinity bridge-mode routing, or Roku external-streamer formations.",
