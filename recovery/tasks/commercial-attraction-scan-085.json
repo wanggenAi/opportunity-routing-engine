@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 2,
+  "generation": 3,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "WAITING_CI",
+  "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-085",
-  "stage": "PR_383_WAITING_FINAL_HEAD_CI_JEV",
+  "stage": "PR_383_VALIDATED_READY_TO_MERGE",
   "last_observed_main_sha": "a4ab03ed86706afdcccd22f0b4ea264f7e235cda",
   "work_branch": "research/attraction-scan-085",
   "work_head_sha": "8b03b5a239a212566405d99920014a7d50672bf9",
@@ -13,16 +13,17 @@
     "head_sha": "8b03b5a239a212566405d99920014a7d50672bf9"
   },
   "ci": {
-    "run_id": null,
+    "run_id": 35690471250,
     "head_sha": "8b03b5a239a212566405d99920014a7d50672bf9",
-    "status": "WAITING",
-    "conclusion": null
+    "status": "COMPLETED",
+    "conclusion": "success"
   },
   "production_or_artifact": {
-    "status": "NOT_APPLICABLE",
+    "status": "VALIDATED",
     "evidence": [
-      "PR382_CI_35689404591_SUCCESS",
-      "PR382_JEV_35689404496_SUCCESS_ADVANCE_TO_NEXT_SCAN"
+      "PR383_CI_35690471250_SUCCESS",
+      "PR383_JEV_35690471285_SUCCESS_3_OF_3_NO_FURTHER_RESEARCH_ADVANCE_TO_NEXT_SCAN",
+      "JEV_ARTIFACT_10677648778"
     ]
   },
   "pending_operation": null,
@@ -36,9 +37,11 @@
     "SCAN_084_JEV_ADVANCE_TO_NEXT_SCAN",
     "SCAN_085_BRANCH_STARTED",
     "SCAN_085_ARTIFACTS_PERSISTED",
-    "PR_383_OPENED"
+    "PR_383_OPENED",
+    "PR_383_CI_SUCCESS",
+    "PR_383_JEV_SUCCESS_ADVANCE_TO_NEXT_SCAN"
   ],
-  "next_action": "Wait for PR #383 final-head repository CI and live Jev; consume continuation directive.",
+  "next_action": "Merge PR #383 with expected head SHA, verify main, then start Scan 086.",
   "do_not_repeat": [
     "Do not rerun Scan 084.",
     "Do not recreate research/attraction-scan-085.",
