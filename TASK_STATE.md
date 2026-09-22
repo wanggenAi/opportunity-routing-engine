@@ -38,14 +38,14 @@ ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PR
 
 ## Current Phase
 
-`SCAN_078_COMPLETE_AWAITING_PR376_CI_JEV_CONTINUATION`
+`SCAN_079_IN_PROGRESS_POST_RESIDUAL_PURCHASE_SAME_OUTCOME_FAILURE`
 
 ## Last Verified Main
 
-`d3b399080ff215db5f021d45b557df7882212038`
-— squash merge of PR #375, `Require actual non-incumbent residual payment after Scan 077`.
+`e2dee21b215e9a441bf5310101d758ba2fd0340b`
+— squash merge of PR #376, `Require post-residual same-outcome failure after Scan 078`.
 
-PR #375 repository CI run `35683146371` completed `success`. Live Jev run `35683146370` completed `success`: TypeSafe SDK `0.7.0` ran with `TYPESAFE_API_KEY` present; 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, and `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #376 repository CI run `35684270963` completed `success`. Live Jev run `35684270959` completed `success`: real TypeSafe/Jev used `typesafe-sdk==0.7.0`, `jev-latest`, and repository `TYPESAFE_API_KEY`; 5/5 model and effective routes were `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, and `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -53,17 +53,17 @@ PR #375 repository CI run `35683146371` completed `success`. Live Jev run `35683
 
 ## Active Branch
 
-`research/attraction-scan-078`.
+`research/attraction-scan-079`.
 
 ## Active PR
 
-#376 — `Require post-residual same-outcome failure after Scan 078`. Live GitHub state is authoritative.
+None. Scan 079 research branch is active before PR creation.
 
 ## CI
 
-- PR #376 repository CI and live TypeSafe/Jev must validate the latest Scan 078 head after this TASK_STATE checkpoint.
-- PR #375 repository CI run `35683146371` completed `success`.
-- PR #375 live Jev run `35683146370` completed `success`; real TypeSafe/Jev execution used `typesafe-sdk==0.7.0`, `jev-latest`, `TYPESAFE_API_KEY`, evaluated 6 entities, returned 6/6 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
+- PR #376 repository CI run `35684270963` completed `success`.
+- PR #376 live Jev run `35684270959` completed `success`; it evaluated `ATTRACTION_SCAN_078` (5 entities), returned 5/5 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
+- No Scan 079 PR/CI exists yet.
 
 ## Latest Artifact / Persisted State
 
@@ -144,7 +144,7 @@ Commercial:
 
 ## Next Action
 
-Run PR #376 repository CI and live TypeSafe/Jev against the latest head, consume the actual continuation directive, and continue automatically. If green and Jev returns `ADVANCE_TO_NEXT_SCAN`, merge PR #376, verify main, and start Scan 079 from post-residual-purchase same-outcome failure evidence without deriving a mechanism ontology.
+Execute Scan 079 from broad current evidence: find buyer-authored proof that the same outcome remains unresolved **after** an executed recurring non-incumbent residual layer was already purchased. Exclude Scan 060-078 formations and primary signals, stay mechanism-neutral, and fail closed on incumbent/residual-provider control surface, rights, margin, machine delegatability and generic-agent substitution.
 
 ## Do Not Repeat
 
