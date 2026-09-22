@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "generation": 1,
+  "repository": "wanggenAi/opportunity-routing-engine",
+  "status": "IN_PROGRESS",
+  "task_key": "commercial-attraction-scan-098",
+  "stage": "SCAN_098_RESEARCH_STARTED_FROM_VERIFIED_SCAN097_CONTINUATION",
+  "last_observed_main_sha": "d102e8af1f716fe86cacf4e2ef8c4e674c744f92",
+  "work_branch": "research/attraction-scan-098",
+  "work_head_sha": "d102e8af1f716fe86cacf4e2ef8c4e674c744f92",
+  "active_pr": null,
+  "ci": {
+    "run_id": null,
+    "head_sha": null,
+    "status": "NOT_STARTED",
+    "conclusion": null
+  },
+  "production_or_artifact": {
+    "status": "NOT_APPLICABLE",
+    "evidence": [
+      "SCAN097_PR395_MERGED_D102E8AF1F716FE86CACF4E2EF8C4E674C744F92",
+      "SCAN097_FINAL_HEAD_CI_SUCCESS_35712409053",
+      "SCAN097_LIVE_JEV_SUCCESS_35712409017",
+      "SCAN097_JEV_NO_FURTHER_RESEARCH_3_OF_3",
+      "SCAN097_JEV_ADVANCE_TO_NEXT_SCAN"
+    ]
+  },
+  "pending_operation": null,
+  "health": {
+    "recovery": "HEALTHY",
+    "last_error": null
+  },
+  "completed": [
+    "INTERRUPTED_SESSION_RECONCILED_TO_LIVE_GITHUB",
+    "SCAN097_PR395_MERGED_VERIFIED",
+    "SCAN097_FINAL_HEAD_CI_SUCCESS_CONSUMED",
+    "SCAN097_LIVE_TYPESAFE_JEV_SUCCESS_CONSUMED",
+    "SCAN097_JEV_CONTINUATION_ADVANCE_TO_NEXT_SCAN_CONSUMED",
+    "SCAN098_BRANCH_ADOPTED_AT_MERGED_MAIN"
+  ],
+  "next_action": "Run the second independent China participant-controlled digital-action-rights pass with fresh formation-diverse evidence, exact incumbent/open-source substitute preflight, and fail-closed attraction gates.",
+  "do_not_repeat": [
+    "Do not repeat Scan 097 digital-invoice reimbursement preparation, multi-platform creator publishing, or Android multi-store release.",
+    "Do not repeat Scan 095-096 formations.",
+    "Do not return to Scan 060-097 formations or their primary discovery signals.",
+    "Do not use job/gig/RFQ/procurement feeds as discovery ontology.",
+    "Do not infer a product from a closed formation.",
+    "Do not repeat Scan 015 public-rights research while written provider evidence is outstanding."
+  ],
+  "jev": {
+    "run_id": 35712409017,
+    "status": "COMPLETED",
+    "conclusion": "success",
+    "autonomous_continuation_allowed": true,
+    "next_action": "ADVANCE_TO_NEXT_SCAN",
+    "effective_route_counts": {
+      "NO_FURTHER_RESEARCH": 3
+    }
+  }
+}
