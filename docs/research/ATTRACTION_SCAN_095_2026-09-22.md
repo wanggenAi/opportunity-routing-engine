@@ -1,161 +1,121 @@
-# ATTRACTION_SCAN_095 — Participant-authored current-reality source shift
+# ATTRACTION_SCAN_095 — China participant-authored current-reality source shift
 
 **Date:** 2026-09-22  
 **Status:** COMPLETE  
+**Primary research domain:** CHINA  
+**Primary execution lens:** China → Jiangsu → Xuzhou  
 **Commercial promotions:** 0  
 **Retained research formations:** 0  
 **FIRST_EXTERNAL_VALUE_FLOW:** NOT_PROVEN
 
+## Recovery correction
+
+The interrupted branch already contained a Scan 095 draft, but all three draft formations were U.S.-only. That conflicts with the locked repository research priority: China is the primary research domain and global information is auxiliary unless a China relation is evidenced.
+
+This checkpoint keeps the existing branch history for auditability and replaces only the invalid Scan 095 research payload. Scan 094 and earlier verified work are not repeated.
+
 ## Boundary
 
-Scan 095 is the first pass after Scans 093–094 changed the evidence entrance.
+Scan 095 is the first pass after Scans 093–094 changed the **evidence entrance**, not the product ontology.
 
-It requires:
+Required entrance:
 
 ```text
-DIRECT PARTICIPANT-AUTHORED CURRENT FRICTION
+DIRECT PARTICIPANT-RECORDED CURRENT FRICTION
 + INDEPENDENT OBJECTIVE CORROBORATION
-+ REAL UNDERUSE / CONTRADICTION / MANUAL STATE TRANSFER
-→ ONLY THEN COMMERCIAL PREFLIGHT
++ CHINA PRIMARY RESEARCH DOMAIN
+→ ONLY THEN CONTROL-SURFACE / RIGHTS / ECONOMICS INTERPRETATION
 ```
 
-It does not start from a product category, paid stack, job/gig/RFQ/procurement feed, prior candidate, or inherited mechanism.
-
-Repository duplicate searches for the three selected observation zones returned no current Scan 060–094 matches.
+No job/gig/RFQ/procurement feed is used as discovery ontology. No prior product mechanism is inherited.
 
 ## Result
 
-Three fresh participant-authored reality chains were pressure-tested. All three contain real friction. None passes the current commercial floors.
+Three formation-diverse China reality chains were pressure-tested. None survives the current commercial promotion floors.
 
-| Formation | Participant-authored reality | Independent corroboration | Why it fails promotion |
+| Formation | Direct reality | Independent corroboration | Why it fails promotion |
 |---|---|---|---|
-| Multifamily EV charging | Condo owners and HOA board members describe months-long approval, ad-hoc 120V/extension-cord charging, capacity-study and liability disputes | Illinois right-to-charge law plus real managed-load multifamily deployments | Property approval, electrical capacity, permits and licensed installation remain external rights; mature turnkey charging vendors already cover the repeatable layer |
-| Apartment package handoff | Residents report delivered packages disappearing from package rooms; drivers report locker/access failures that break the requested handoff | 2026 multifamily operator survey reports carrier non-compliance as the top package-management frustration | The unresolved edge is physical driver compliance and custody; carriers and properties control the decisive action and established package systems already monetize the property workflow |
-| Construction subcontractor COIs | Contractors describe no-start/no-pay rules, repeated COI chasing, renewals, dashboards and audit exposure | Travelers and The Hartford independently require subcontractor COI/payment records for premium audits | The routine document workflow is already an exact mature automation category; difficult residuals are policy/contract/expert interpretation |
+| Residential private EV charging | A 2026 Pingdingshan owner complaint records an actual failed State Grid/property installation handoff after the resident bought an NEV | National Energy Administration reports 23.057m charging guns by June 2026; Supreme People's Court guidance separates property cooperation from later technical/safety feasibility | The decisive rights remain distributed across property, grid/site capacity, safety and physical electrical installation |
+| Post-discharge home nursing | A 2026 Jiangsu family describes the burden of taking a 92-year-old dialysis patient to hospital and then uses a hospital mini-program for nurse home service | NHSA recognizes urgent home-medical demand and a home-service fee; Shenzhen requires qualified physical medical institutions and registered nurses | The high-value act is licensed human clinical delivery under institutional accountability, not an unowned software routing edge |
+| Off-peak shared parking | A 2026 Shanghai resident describes prior nightly parking anxiety and relief after nearby shared spaces opened | Current Shanghai projects prove nighttime idle capacity, monthly paid sharing, and official app-based shared-parking application/payment | The digital route already exists; activating new supply still requires owner/governance/security/access rights |
 
-## F1 — Multifamily EV charging approval and capacity handoff
+## F1 — Residential private EV charging
 
-Current first-person evidence shows a real contradiction.
+The formation begins from a resident-authored government complaint, not from charging-vendor material. The owner had already bought the vehicle, applied for a meter and received a site visit. The handoff failed because the community supply was not transferred to State Grid and the property refused to provide power, citing wiring and construction difficulty.
 
-An Illinois condominium owner reported spending six months seeking HOA approval for a charger at the owner's expense even after a licensed electrician concluded that the individual installation would not affect building power. A self-managed condominium board member separately reported residents charging through ordinary outlets and extension cords, including a common-area outlet, while the board tried to standardize permitting and insurance rules.
+National data independently establishes scale: by June 2026 China had 23.057 million charging guns, including 18.048 million private guns, up 50.4% year over year.
 
-Illinois law independently confirms that qualifying condominium/common-interest restrictions may not prohibit or unreasonably restrict EV charging, while allowing reasonable safety restrictions and requiring associations to process approval requests. That makes the friction more than a generic complaint: a legal path exists, but execution still crosses shared-property and electrical control.
+The failure is therefore real, but the control surface is fragmented. Current judicial guidance says property companies should cooperate, while also stating that the certificate is only one step and final feasibility still depends on power capacity, safety and site conditions.
 
-The commercial missing-edge hypothesis does not survive preflight. ChargePoint and EverCharge already sell integrated condominium/multifamily systems covering combinations of hardware, software, billing, access control, load management, installation and support. EverCharge also documents a 374-unit condominium using managed load allocation under limited building power.
+**Verdict:** demoted. A software operator can organize applications, evidence and status, but cannot create property access, grid capacity, safety approval or physical installation rights.
 
-The decisive rights remain with the HOA/property controller, permitting authority and licensed electrical trades. A generic agent can organize documents or model scenarios but cannot create those rights or perform the physical work.
+## F2 — Post-discharge home nursing
 
-**Verdict:** demoted.
+The direct participant signal is a current Jiangsu family care flow. A family member of a 92-year-old home dialysis patient described the former hospital trip as difficult because it required driving and wheelchair transport; the family then used a hospital mini-program to request a specialist nurse at home.
 
-## F2 — Multifamily package-room carrier compliance and chain of custody
+The national objective state is strong. NHSA said in April 2026 that people aged 65+ account for about 15.9% of the population and that demand for home/doorstep medical care for mobility-limited patients is increasingly urgent. The home-service fee is now an explicit pricing item.
 
-The participant evidence is direct and current.
+But the commercial control test fails. Shenzhen's August 2026 rules state that the provider must be a qualifying physical medical institution and that an information platform cannot independently provide the service. The nurse remains the regulated physical delivery unit.
 
-A June 2026 apartment resident reported that three of four packages marked delivered were missing even though the delivery instructions specified the package room. Another resident in August 2026 reported three package-room deliveries disappearing over two months despite carrier photos, leading to repeated office reports and refund attempts. A delivery driver in March 2026 described a parcel-locker check-in failure that forced a return workflow after repeated attempts.
+**Verdict:** demoted. Scheduling and eligibility are machine-executable, but the scarce, paid outcome is licensed clinical labor plus institutional accountability.
 
-Independent operator evidence confirms the pattern. Insights by Blueprint's 2026 advisory-council survey found operators using an average of 2.4 intake methods, with no respondent standardized on one. Carrier non-compliance was the most commonly selected frustration at 70%; staff burden and resident complaints were each selected by 50%, and overflow by 40%.
+## F3 — Off-peak shared parking
 
-This is a real recurring missing handoff, but the decisive edge is physical. Parcel Pending and other package-management systems already productize rooms, lockers, resident notification and centralized property operations. What remains unresolved is whether an external carrier driver follows the intended access/custody protocol and what happens when physical storage or access fails.
+This formation has a real latent-value shape: nighttime residential scarcity sits next to nighttime idle capacity in commercial, office and public-facility parking.
 
-A software operator can reconcile scans, notify parties and triage exceptions. It cannot bind a carrier driver to a physical handoff protocol or secure custody after the package is dropped.
+Shanghai already demonstrates the connection. A current Huangpu report quotes a resident who previously worried each night about finding a space and now uses a nearby commercial garage after 150 shared spaces opened. A current Changning project opened 50 nighttime spaces after surveying nearby households, charging 200 yuan per month.
 
-**Verdict:** demoted.
+The important contradiction is that the latent connection is no longer digitally missing. Shanghai's official parking system already supports off-peak shared-parking application and payment for eligible resources. The harder expansion step is persuading/authorizing each asset controller, setting security and access rules, and integrating the site.
 
-## F3 — Construction subcontractor COI collection and audit readiness
-
-Construction participants describe a repeated manual workflow with real financial consequence.
-
-A July 2026 general-contractor discussion describes requiring subcontractor COIs before mobilization or payment, regular workers-comp audits, penalty exposure, dashboards and the need to track renewals. A separate general contractor described difficulty obtaining agreements and additional-insured evidence while trying to formalize previously lax processes.
-
-Insurer guidance independently corroborates the objective requirement. Travelers says workers-comp premium audits may require subcontractor payment records and Certificates of Insurance covering the dates worked, and warns that absent valid workers-comp certificates can result in premium charges. The Hartford likewise lists 1099s and certificates of insurance for subcontractors among audit verification records.
-
-The deterministic workflow is highly machine-executable:
-
-```text
-RECEIVE DOCUMENT
-→ EXTRACT COVERAGE / DATES
-→ COMPARE TO REQUIREMENTS
-→ TRACK EXPIRY
-→ REMIND / CHASE
-→ PRESERVE AUDIT RECORD
-```
-
-But that exact sequence is already a mature product category. Current products including COISoftware, COI Watch, ConCOI, Wardly and VendorCover explicitly automate collection, extraction, requirement checks, expiration monitoring and reminders.
-
-The routine layer therefore fails the white-space and generic-agent-substitution tests. Residual hard cases are contract, endorsement, insurer or jurisdiction-specific interpretation.
-
-**Verdict:** demoted.
+**Verdict:** demoted. The observed value flow is real and recurring, but the software transaction rail is already owned while new inventory activation remains rights/governance heavy.
 
 ## Cross-pass learning
 
-The participant-authored source shift is useful. It exposes operational reality more directly than starting from regulations, vendors or formal market categories.
+The source shift works: participant-recorded evidence is more direct than beginning from rule or vendor documentation. But one pass does not justify a new mechanism boundary.
 
-But one pass is not enough to derive another mechanism.
+Scan 095 shows three different closure modes:
 
-Scan 095 shows three distinct failure modes:
+1. **rights + physical execution** — residential EV charging;
+2. **regulated licensed human delivery** — home nursing;
+3. **already-platformized digital route + governance-heavy supply activation** — shared parking.
 
-1. real participant friction where decisive rights remain external;
-2. real recurring physical handoff failure where the operator does not control the actor performing the handoff; and
-3. real manual work whose deterministic layer is already an exact mature software category.
-
-The correct next move is not to invent a new router, marketplace, rights layer or agent product from those closures.
+Do not generalize any of these into the next product. Scan 096 should repeat the same China participant-authored + independent-corroboration method on a fresh formation-diverse sample before changing the evidence source again.
 
 ## Drift audit
 
-Scan 095 remained source- and formation-disciplined:
+- China primary research domain: **PASS**
+- China → Jiangsu → Xuzhou execution lens preserved: **PASS** (Jiangsu evidence included; no unsupported Xuzhou prevalence claim)
+- direct participant-recorded current friction required: **PASS**
+- independent objective corroboration: **PASS**
+- job/gig/RFQ/procurement discovery ontology: **NOT USED**
+- inherited product/router/marketplace mechanism: **NOT USED**
+- commercial promotions: **0**
+- hard floors weakened because of zero retention: **NO**
 
-- every examined formation begins with current first-person participant evidence;
-- every formation has separate objective corroboration;
-- residential shared infrastructure, last-meter logistics and construction compliance are distinct structures;
-- no job/gig/RFQ/procurement feed was used as discovery ontology;
-- no Scan 060–094 formation or primary signal was reused;
-- no product/mechanism was selected before the reality evidence.
+## Parallel validation
+
+`ATTRACTION_SCAN_015-F1` is unchanged. It still requires an actual official written cross-rail outcome-data rights response plus organic founder-free inbound intent. This scan does not reinterpret silence as evidence.
 
 ## Next
 
-ATTRACTION_SCAN_096 should repeat the same participant-authored + independent-corroboration method on a fresh independent sample before changing the evidence source again.
-
-Requirements:
-
-- direct participant-recorded underuse, contradiction or manual state transfer;
-- independent objective corroboration;
-- formation diversity;
-- exclude Scan 060–095 formations and primary signals;
-- no job/gig/RFQ/procurement ontology;
-- no mechanism inheritance;
-- exact incumbent/control-surface and rights preflight;
-- founder independence and normalized economics;
-- machine delegatability and generic-agent substitution;
-- fail closed.
-
-Parallel validation remains `ATTRACTION_SCAN_015-F1`. This scan does not change its written-rights or founder-free-inbound requirements.
+Validate Scan 095 on its final PR head with repository CI and live TypeSafe/Jev. If the continuation directive permits autonomous continuation, advance to `ATTRACTION_SCAN_096` as the second independent China participant-authored current-reality pass.
 
 ## Sources
 
-### Multifamily EV charging
-- Illinois condo-owner participant report: https://www.reddit.com/r/HOA/comments/1qqp0rp/il_condo_hoa_refusing_ev_charger_despite_state/
-- HOA-board participant report: https://www.reddit.com/r/HOA/comments/1u8zwna/drafting_rules_for_electric_car_charging_in_condo/
-- Colorado condo-owner participant report: https://www.reddit.com/r/evcharging/comments/1w5gyj0/hoa_not_permitting_charger_installation_in/
-- Illinois Electric Vehicle Charging Act: https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4407&Chapter=PROPERTY&ChapterID=62&MajorTopic=RIGHTS+AND+REMEDIES
-- ChargePoint condos: https://www.chargepoint.com/solutions/condos
-- EverCharge multifamily: https://evercharge.com/solutions/multi-family
-- EverCharge Legacy condominium case: https://evercharge.com/content-case-study-evercharge-maximizes-ev-charging-at-luxury-minneapolis-condominium-building-the-legacy
+### Residential private EV charging
+- Pingdingshan resident complaint, 2026-06-09: https://fczx.pds.gov.cn/contents/13846/54333.html
+- National Energy Administration, 2026 H1 charging infrastructure: https://www.nea.gov.cn/20260730/3ce671c387574eeeb120fc3825be0399/c.html
+- Supreme People's Court reference case on residential charger cooperation: https://www.court.gov.cn/zixun/xiangqing/449251.html
+- People's Daily / People.cn current Beijing charger case: https://society.people.com.cn/n1/2026/0708/c1008-40755635.html
 
-### Multifamily package handoff
-- Resident missing-package report: https://www.reddit.com/r/Apartmentliving/comments/1ua6737/missing_packages/
-- Resident repeated package-room loss: https://www.reddit.com/r/problems/comments/1w3c3ez/my_apartments_package_room_keeps_losing/
-- Delivery-driver locker failure: https://www.reddit.com/r/AmazonFlexDrivers/comments/1s2i7hv/officially_hate_luxury_apartments_parcel_lockers/
-- Insights by Blueprint 2026 operator survey: https://insightsbyblueprint.com/2026/05/18/a-framework-for-solving-multifamilys-package-management-problem/
-- Parcel Pending centralized operations: https://www.parcelpending.com/en-us/blog/centralized-property-operations/
-- Parcel Pending package room vs. locker: https://www.parcelpending.com/en-us/blog/differences-between-lockers-and-package-rooms/
+### Post-discharge home nursing
+- China News / Yangtze Evening News, Jiangsu home nursing, 2026-05-11: https://www.chinanews.com/jk/2026/05-11/10619008.shtml
+- National Healthcare Security Administration, home-service pricing, 2026-04-24: https://www.nhsa.gov.cn/art/2026/4/24/art_14_20316.html
+- Shenzhen Health Commission, internet-plus-nursing boundaries, 2026-08-21: https://wjw.sz.gov.cn/gkmlpt/content/12/12946/post_12946814.html
+- Suzhou government, internet-plus-nursing implementation, 2026-03-31: https://www.suzhou.gov.cn/szsrmzf/bmwj/202604/d8401c879d0c416790a62f7fc3f2f554.shtml
 
-### Construction COI tracking
-- 2026 contractor participant discussion: https://www.reddit.com/r/GeneralContractor/comments/1vbuka1/contractors_in_2026_how_are_you_handling_subs_for/
-- General-contractor organization friction: https://www.reddit.com/r/GeneralContractor/comments/1p50he5/couple_problem_im_dealing_with_or_need_to_anyway/
-- The Hartford workers-comp audit guidance: https://www.thehartford.com/workers-compensation/audit
-- Travelers workers-comp premium audit guidance: https://www.travelers.com/business-insurance/services/premium-audit/workers-compensation-premium-audit
-- COISoftware: https://coisoftware.com/
-- COI Watch: https://coiwatch.com/
-- ConCOI: https://concoi.com/
-- Wardly: https://www.wardly.ai/
-- VendorCover: https://vendorcover.com/solutions/construction
+### Off-peak shared parking
+- Shanghai government / Huangpu, 2026-01-09: https://www.shanghai.gov.cn/nw17239/20260114/391cddd5717247d2be16ee0f8db126bf.html
+- Shanghai Changning government, 2026-01-20: https://www.shcn.gov.cn/col7343/20260122/1304507.html
+- Shanghai government / Baoshan parking notice, 2026-08-26: https://www.shanghai.gov.cn/nw17239/20260827/0fd96639ca3f42f9b7498e641d4d96fb.html
+- Shanghai shared-parking platform policy/operation context: https://www.shanghai.gov.cn/gwk/search/content/7fff31f58898479099f492cdfd757ac6
