@@ -52,13 +52,11 @@ That exact-head directive was consumed to start Scan 112.
 
 ## Active PR
 
-#410 — `Run low-headcount control Scan 112`.
-
-Opened from `research/attraction-scan-112` into `main`. This checkpoint write advances the branch after PR creation, so resolve the live PR head before validating CI/Jev; do not treat the pre-checkpoint head as final.
+PR #410 is superseded for validation because its final branch head did not receive exact-head workflow runs after the checkpoint moved. Close it and open one replacement PR from the unchanged final branch head. GitHub live state wins after replacement PR creation.
 
 ## CI
 
-PR #410 is open. Exact-final-head validation is pending after this checkpoint commit.
+Earlier PR #410 heads received successful checks, but the final branch head did not. Those older runs are non-authoritative for continuation. Exact-final-head validation is still pending on the replacement PR.
 
 Consume a Scan 112 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
 
@@ -214,4 +212,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open the Scan 112 PR and validate one exact final PR head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are acceptable.
+Close superseded PR #410, open one replacement PR from the unchanged final Scan 112 branch head, and validate that exact head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are acceptable.
