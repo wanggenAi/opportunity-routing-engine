@@ -1,0 +1,170 @@
+{
+  "schema_version": "attraction-scan.v63",
+  "scan_id": "ATTRACTION_SCAN_087",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "INDEPENDENTLY_REPLICATED_PARTICIPANT_CONTROLLED_COMPLETION_AFTER_CONTROL_SURFACE_BYPASS_REQUIRE_AT_LEAST_TWO_UNAFFILIATED_PARTICIPANT_ACCOUNTS_OF_THE_SAME_SUCCESSFUL_BYPASS_PATTERN_WITH_EXPLICIT_PARTICIPANT_STATED_REASON_CLASS_AND_DECISIVE_COMPLETION_WITHOUT_INCUMBENT_PRIVILEGED_FALLBACK_OR_MANUAL_EXCEPTION_BEFORE_PRODUCT_CATEGORY_EXCLUDE_SCAN060_TO_086_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_087-F1",
+      "title": "TRAVELER_ESIM_REPLACES_HOME_CARRIER_DAILY_ROAMING",
+      "chinese_title": "旅行者独立购买旅行eSIM替代本国运营商按日国际漫游",
+      "evidence_class": "INDEPENDENTLY_REPLICATED_PARTICIPANT_CONTROLLED_ECONOMIC_BYPASS_OF_HOME_CARRIER_ROAMING",
+      "actor_a_population": "International travelers repeatedly needing mobile data while retaining a domestic mobile subscription.",
+      "actor_b_population": "Mobile-network and travel-connectivity providers repeatedly selling international data access.",
+      "available_exact_control_surface": [
+        "Verizon currently offers TravelPass in 210+ countries and destinations; outside Canada and Mexico it is $12 per day of use.",
+        "Verizon currently states TravelPass includes 5 GB of high-speed data per session, then unlimited data at 3G speeds for the remainder of that session."
+      ],
+      "independent_replication": [
+        "In a February 2026 travel discussion, one Verizon participant states they still use Airalo because TravelPass is $12/day and they do not need that much coverage; a separate participant in the same discussion says Airalo is cheap and works perfectly.",
+        "In an April 2026 direct comparison, a Verizon household used Airalo on one phone while another phone used TravelPass; the Airalo line worked for internet/messaging and the participant concluded that for the price it was worth it despite lower speed."
+      ],
+      "participant_authored_successful_completion": [
+        "Multiple current participants report purchasing a separate travel eSIM, selecting it for data and completing normal travel connectivity without using the home carrier's daily roaming product for the data path.",
+        "The completion step is self-service: on an unlocked eSIM-capable device, the traveler buys, installs and selects the travel eSIM; Airalo documents app-based purchase, installation and network connection without home-carrier intervention."
+      ],
+      "explicit_participant_bypass_or_incompleteness_reason": [
+        "Participants explicitly cite Verizon TravelPass's $12/day price as excessive for the amount of coverage they need.",
+        "Participants accept lower speed or data-only limitations because the alternative eSIM still completes their needed internet/messaging outcome at materially lower cost."
+      ],
+      "bypass_reason_class": "ECONOMIC_DAILY_ROAMING_COST_AND_RIGHT_SIZING",
+      "decisive_completion_control": "PASS_PARTICIPANT_CAN_BUY_INSTALL_SELECT_AND_TOP_UP_AN_INDEPENDENT_TRAVEL_ESIM_ON_AN_UNLOCKED_COMPATIBLE_DEVICE_WITHOUT_HOME_CARRIER_MANUAL_EXCEPTION",
+      "repeated_bilateral_value_transfer": "PASS_TRAVELER_TO_CONNECTIVITY_PROVIDER_DATA_PACKAGE_PURCHASE_AND_MOBILE_DATA_DELIVERY_RECURS_ACROSS_REPLENISHING_TRAVELERS_AND_TRIPS",
+      "exact_incumbent_and_control_surface_preflight": [
+        "The alternative rail is not unowned: Airalo and many other eSIM providers already sell app-based local, regional and global travel data packages.",
+        "The traveler controls provider choice, but the commercial execution layer—inventory, carrier agreements, activation, billing and support—is already a mature eSIM marketplace/provider category."
+      ],
+      "founder_independence_check": "PASS_THE_CONNECTIVITY_PRODUCT_IS_SELF_SERVICE_AND_DOES_NOT_REQUIRE_FOUNDER_DELIVERY_BUT_EXISTING_ESIM_PROVIDERS_ALREADY_OWN_THE_EXECUTION_LAYER",
+      "data_action_rights_check": "PASS_FOR_PROVIDER_SWITCHING_ON_UNLOCKED_ESIM_CAPABLE_DEVICES_BUT_NETWORK_PROVISIONING_RIGHTS_REMAIN_WITH_EXISTING_CARRIERS_AND_ESIM_PROVIDERS",
+      "normalized_margin_check": "FAIL_FOR_NEW_OPERATOR_EDGE_TRAVEL_ESIM_PACKAGES_ARE_ALREADY_DIRECTLY_PRICED_AND_SOLD_BY_MATURE_PROVIDERS_WITHOUT_EVIDENCE_OF_AN_UNOWNED_MARGIN_POOL",
+      "machine_delegatability_check": "PASS_PLAN_COMPARISON_PURCHASE_GUIDANCE_INSTALLATION_INSTRUCTIONS_AND_TOP_UP_ROUTING_ARE_HIGHLY_MACHINE_DELEGATABLE",
+      "generic_agent_substitutability_check": "FAIL_GENERIC_AGENT_CAN_COMPARE_PUBLIC_ESIM_OFFERS_AND_GUIDE_SELF_SERVICE_INSTALLATION_WITHOUT_A_DISTINCT_CONTROL_ASSET",
+      "verdict": "DEMOTED_REPLICATED_PARTICIPANT_CONTROLLED_ECONOMIC_BYPASS_BUT_TRAVEL_ESIM_IS_ALREADY_A_MATURE_SELF_SERVICE_CONNECTIVITY_CATEGORY_WITH_NO_UNOWNED_OPERATOR_EDGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_087-F2",
+      "title": "XFINITY_GATEWAY_ROUTING_BYPASSED_BY_BRIDGE_MODE_AND_CUSTOMER_ROUTER",
+      "chinese_title": "Xfinity网关保留调制解调功能并由用户自有路由器接管家庭网络",
+      "evidence_class": "INDEPENDENTLY_REPLICATED_PARTICIPANT_CONTROLLED_FUNCTIONAL_BYPASS_OF_ISP_ROUTING_CONTROL",
+      "actor_a_population": "Residential broadband subscribers repeatedly operating home networks with routing, firewall, DNS, VPN or VLAN requirements.",
+      "actor_b_population": "ISPs and customer-owned networking vendors repeatedly providing internet access and home-network control.",
+      "available_exact_control_surface": [
+        "Xfinity's Wireless Gateway currently combines modem and router functions and is the default managed home-network control surface.",
+        "Xfinity currently documents Bridge Mode as a self-service way to disable gateway routing while retaining modem function so a customer-owned router can control the network."
+      ],
+      "independent_replication": [
+        "In an April 2026 home-networking discussion, one participant states their Xfinity gateway is in bridge mode feeding a Ubiquiti Dream Router.",
+        "A separate participant in the same discussion reports enabling passthrough and running their real pfSense router; another separately states Xfinity remains the ISP while a Firewalla device is now the router."
+      ],
+      "participant_authored_successful_completion": [
+        "Participants independently report completed networks where the Xfinity device remains the access modem/gateway while routing is handed to Ubiquiti, pfSense or Firewalla equipment.",
+        "The decisive handoff is customer-controlled on supported gateways: Xfinity publishes the steps to enable Bridge Mode and connect a personal router."
+      ],
+      "explicit_participant_bypass_or_incompleteness_reason": [
+        "Participants use their own routing stack to regain control over firewall, DNS, VPN, VLAN or other network functions that are limited, app-bound or unwanted on the managed gateway.",
+        "Current Xfinity support itself states residential gateways do not provide internal LAN VLAN configuration and directs users needing VLAN segmentation to a third-party router in Bridge Mode."
+      ],
+      "bypass_reason_class": "FUNCTIONAL_NETWORK_CONTROL_AND_CONFIGURABILITY",
+      "decisive_completion_control": "PASS_CUSTOMER_CAN_ENABLE_SUPPORTED_BRIDGE_MODE_AND_OPERATE_OWN_ROUTER_WITHOUT_INCUMBENT_PRIVILEGED_MANUAL_EXCEPTION_ON_SUPPORTED_GATEWAYS",
+      "repeated_bilateral_value_transfer": "PASS_SUBSCRIBER_TO_ISP_BROADBAND_PAYMENT_AND_INTERNET_DELIVERY_CONTINUES_WHILE_HOME_ROUTING_CONTROL_REPEATEDLY_RUNS_ON_CUSTOMER_OWNED_EQUIPMENT",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Xfinity explicitly supports using a separate router with Bridge Mode and, for some fiber deployments, customer-owned standard routers.",
+        "Ubiquiti, Firewalla, pfSense and conventional retail-router ecosystems already own the alternate routing/control layer; Xfinity itself documents the coexistence path."
+      ],
+      "founder_independence_check": "PASS_CUSTOMER_NETWORKS_RUN_FOUNDER_FREE_AFTER_CONFIGURATION_BUT_NO_DISTINCT_NEW_OPERATOR_POSITION_IS_REQUIRED",
+      "data_action_rights_check": "PASS_CUSTOMERS_CONTROL_THEIR_OWN_LAN_ROUTER_AND_XFINITY_EXPOSES_BRIDGE_MODE_ON_SUPPORTED_GATEWAYS",
+      "normalized_margin_check": "FAIL_FOR_NEW_OPERATOR_EDGE_ROUTER_HARDWARE_SOFTWARE_AND_MANAGED_NETWORKING_ARE_MATURE_CATEGORIES_AND_NO_DISTINCT_RECURRING_PAYER_FOR_A_NEW_ROUTING_MIDDLE_LAYER_IS_EVIDENCED",
+      "machine_delegatability_check": "PASS_CONFIGURATION_DIAGNOSIS_POLICY_GENERATION_AND_ROUTER_MANAGEMENT_ARE_MACHINE_DELEGATABLE_WHERE_DEVICE_APIS_OR_LOCAL_CONTROL_EXIST",
+      "generic_agent_substitutability_check": "FAIL_GENERIC_AGENT_CAN_GUIDE_OR_AUTOMATE_STANDARD_BRIDGE_MODE_AND_ROUTER_CONFIGURATION_WITHOUT_A_NEW_SCARCE_CONTROL_ASSET",
+      "verdict": "DEMOTED_REPLICATED_PARTICIPANT_CONTROLLED_FUNCTIONAL_BYPASS_BUT_XFINITY_ALREADY_SUPPORTS_THE_HANDOFF_AND_CUSTOMER_ROUTING_IS_A_MATURE_NETWORKING_CATEGORY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_087-F3",
+      "title": "ROKU_TV_HOME_SURFACE_BYPASSED_BY_EXTERNAL_HDMI_STREAMER",
+      "chinese_title": "Roku TV用户将电视当显示器并通过HDMI外置流媒体设备接管观看入口",
+      "evidence_class": "INDEPENDENTLY_REPLICATED_PARTICIPANT_CONTROLLED_UX_PERFORMANCE_BYPASS_OF_SMART_TV_HOME_SURFACE",
+      "actor_a_population": "Households repeatedly accessing streaming apps and subscription content on connected televisions.",
+      "actor_b_population": "Streaming platforms and device ecosystems repeatedly delivering apps, discovery interfaces and audiovisual content.",
+      "available_exact_control_surface": [
+        "Roku's current 2026 Home Screen exposes installed streaming apps, personalized recommendations, Quick Access, content destinations and shortcuts.",
+        "Roku currently lets users customize some Home Screen elements, but its 2026 design intentionally keeps the Roku Home Screen as the primary app/discovery surface."
+      ],
+      "independent_replication": [
+        "In a July 2026 cord-cutting discussion, one participant says they kept the Roku TV but disconnected it from the internet and boot directly to HDMI where an Apple TV or Google streamer provides the interface.",
+        "A separate participant in the same discussion says the Roku TV is now used only as a display and they use an Nvidia Shield after the Roku GUI became cluttered and laggy."
+      ],
+      "participant_authored_successful_completion": [
+        "Both participants describe completed, ongoing replacement of the Roku software surface by an external HDMI streaming device while retaining the television panel.",
+        "The decisive completion step is fully participant-controlled: connect an HDMI streamer and select/boot to that input; Apple documents Apple TV 4K as an HDMI-connected device that consolidates streaming apps."
+      ],
+      "explicit_participant_bypass_or_incompleteness_reason": [
+        "Participants cite forced or expanding advertising, clutter and loss of the previously simple Roku interface.",
+        "Participants also cite lag and degraded responsiveness after the new UI, motivating use of a separate streaming device rather than the built-in Roku surface."
+      ],
+      "bypass_reason_class": "UX_ADVERTISING_CONTROL_AND_PERFORMANCE",
+      "decisive_completion_control": "PASS_PARTICIPANT_CAN_CONNECT_AND_USE_AN_EXTERNAL_HDMI_STREAMER_WITHOUT_ROKU_PRIVILEGED_EXCEPTION_OR_MANUAL_SUPPORT",
+      "repeated_bilateral_value_transfer": "PASS_HOUSEHOLD_TO_STREAMING_SERVICE_SUBSCRIPTION_OR_CONTENT_ACCESS_RECURS_WHILE_THE_PRESENTATION_CONTROL_SURFACE_MOVES_TO_EXTERNAL_STREAMING_HARDWARE",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Apple TV, Google streaming devices, Nvidia Shield and other external streamers are mature substitutes; Apple TV 4K officially supports HDMI and major streaming apps.",
+        "The bypass replaces one consumer interface with another already-owned device ecosystem rather than exposing a missing independent operator layer."
+      ],
+      "founder_independence_check": "PASS_EXTERNAL_STREAMERS_RUN_SELF_SERVICE_AND_FOUNDER_FREE_BUT_MATURE_DEVICE_ECOSYSTEMS_ALREADY_OWN_THE_CONTROL_SURFACE",
+      "data_action_rights_check": "PASS_FOR_LOCAL_HDMI_INPUT_AND_APP_SELECTION_BUT_STREAMING_APP_AND_CONTENT_RIGHTS_REMAIN_WITH_EXISTING_DEVICE_AND_CONTENT_PLATFORMS",
+      "normalized_margin_check": "FAIL_FOR_NEW_OPERATOR_EDGE_EXTERNAL_STREAMING_HARDWARE_AND_PLATFORM_ECONOMICS_ARE_MATURE_AND_NO_DISTINCT_NEW_PAYER_OR_UNOWNED_MARGIN_POOL_IS_EVIDENCED",
+      "machine_delegatability_check": "PARTIAL_DEVICE_SELECTION_SETUP_AND_APP_ROUTING_ARE_DELEGATABLE_BUT_PHYSICAL_DEVICE_INSTALLATION_IS_USER_ACTION",
+      "generic_agent_substitutability_check": "FAIL_GENERIC_AGENT_CAN_RECOMMEND_CONFIGURE_AND_ROUTE_AMONG_EXISTING_STREAMING_DEVICES_WITHOUT_A_DISTINCT_SCARCE_CONTROL_POSITION",
+      "verdict": "DEMOTED_REPLICATED_PARTICIPANT_CONTROLLED_UX_BYPASS_BUT_EXTERNAL_STREAMING_HARDWARE_IS_ALREADY_A_MATURE_SUBSTITUTE_CONTROL_SURFACE"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "inherited_mechanism_as_requirement": false,
+    "discovery_started_from_replicated_participant_controlled_completion": true,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "formation_diversity": "PASS_TRAVEL_CONNECTIVITY_HOME_NETWORK_CONTROL_AND_CONNECTED_TV_MEDIA",
+    "independent_replication_floor": "PASS_EACH_FORMATION_HAS_AT_LEAST_TWO_UNAFFILIATED_PARTICIPANT_ACCOUNTS_OF_THE_SAME_SUCCESSFUL_BYPASS_PATTERN",
+    "decisive_completion_control_floor": "PASS_EACH_FORMATION_COMPLETES_THROUGH_PARTICIPANT_CONTROLLED_OR_OPEN_SELF_SERVICE_ACTION_WITHOUT_INCUMBENT_PRIVILEGED_MANUAL_EXCEPTION",
+    "signal_assessment": "REPLICATION_PLUS_PARTICIPANT_CONTROL_REMOVES_THE_INCUMBENT_EXCEPTION_FALSE_POSITIVE_BUT_STILL_OVERSELECTS_MATURE_SUBSTITUTE_PRODUCTS_AND_SUPPORTED_ALTERNATE_CONTROL_SURFACES",
+    "response": "NEXT_SCAN_SHOULD_REQUIRE_REPLICATED_PARTICIPANT_CONTROLLED_COMPLETION_PLUS_EVIDENCE_THAT_PARTICIPANTS_STILL_ASSEMBLE_OR_COORDINATE_MULTIPLE_EXISTING_COMPONENTS_TO_COMPLETE_THE_OUTCOME_BECAUSE_NO_SINGLE_CURRENT_CONTROL_SURFACE_OWNS_THE_FULL_PATH;_DO_NOT_INHERIT_A_PRODUCT_MECHANISM"
+  },
+  "scan_learnings": [
+    "SCAN087_REPLICATED_PARTICIPANT_CONTROLLED_COMPLETION_ZERO_RETENTION_ACROSS_TRAVEL_ESIM_CUSTOMER_ROUTING_AND_EXTERNAL_STREAMING_DEVICE_FORMATIONS",
+    "INDEPENDENT_REPLICATION_PLUS_PARTICIPANT_CONTROL_FILTERS_OUT_INCUMBENT_ONLY_EXCEPTION_PATHS_BUT_DOES_NOT_FILTER_OUT_MATURE_SUBSTITUTE_PRODUCTS",
+    "A_SELF_SERVICE_BYPASS_CAN_BE_REAL_REPEATED_AND_ECONOMICALLY_MOTIVATED_WHILE_EXISTING_ALTERNATIVE_PROVIDERS_ALREADY_OWN_THE_COMPLETE_TRANSACTION_RAIL",
+    "SUPPORTED_CONTROL_HANDOFF_SUCH_AS_ISP_BRIDGE_MODE_IS_NOT_WHITE_SPACE_WHEN_THE_INCUMBENT_ITSELF_EXPOSES_THE_HANDOFF_AND_MATURE_CUSTOMER_EQUIPMENT_OWNS_THE_REPLACEMENT_CONTROL",
+    "UX_OR_ADVERTISING_BYPASS_CAN_CAUSE_USERS_TO_REPLACE_A_SOFTWARE_SURFACE_WITH_EXTERNAL_HARDWARE_WITHOUT_CREATING_A_NEW_OPERATOR_LAYER",
+    "THE_NEXT_SIGNAL_SHOULD_REQUIRE_REPLICATED_PARTICIPANT_CONTROLLED_COMPLETION_THAT_STILL_REQUIRES_MANUAL_ASSEMBLY_OR_COORDINATION_ACROSS_MULTIPLE_EXISTING_COMPONENTS_BECAUSE_NO_SINGLE_CURRENT_CONTROL_SURFACE_OWNS_THE_END_TO_END_PATH",
+    "DO_NOT_DERIVE_A_ROUTER_AGGREGATOR_MARKETPLACE_OR_DEVICE_PRODUCT_FROM_SCAN087_CLOSURES"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_088",
+  "next_search_boundary": "INDEPENDENTLY_REPLICATED_PARTICIPANT_CONTROLLED_MULTI_COMPONENT_COMPLETION_REQUIRE_AT_LEAST_TWO_UNAFFILIATED_PARTICIPANT_ACCOUNTS_OF_THE_SAME_SUCCESSFUL_PATTERN_EXPLICIT_PARTICIPANT_STATED_REASON_AND_MANUAL_ASSEMBLY_OR_COORDINATION_ACROSS_TWO_OR_MORE_EXISTING_COMPONENTS_BECAUSE_NO_SINGLE_CURRENT_CONTROL_SURFACE_OWNS_THE_END_TO_END_OUTCOME_DECISIVE_STEPS_MUST_NOT_REQUIRE_INCUMBENT_PRIVILEGED_FALLBACK_OR_MANUAL_EXCEPTION_BEFORE_PRODUCT_CATEGORY_EXCLUDE_SCAN060_TO_087_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN087_WITH_REPOSITORY_CI_AND_LIVE_JEV_THEN_START_SCAN088_IF_AUTONOMOUS_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/travel/comments/1ra7gel/verizon_in_europe/",
+    "https://www.reddit.com/r/eSIMs/comments/1stjjco/review_airalo_in_aruba/",
+    "https://www.verizon.com/support/travelpass-faqs/",
+    "https://www.verizon.com/support/important-plan-information/",
+    "https://www.airalo.com/how-airalo-works",
+    "https://www.reddit.com/r/HomeNetworking/comments/1seggyr/f_shittification/",
+    "https://www.xfinity.com/support/articles/using-a-router",
+    "https://www.xfinity.com/support/articles/wireless-gateway-enable-disable-bridge-mode",
+    "https://forums.xfinity.com/conversations/xfinity-stream-website/xfinity-streaming-on-a-vlan/6a0b968a0a65f518762c6b92",
+    "https://www.reddit.com/r/cordcutters/comments/1v3zrjr/roku_is_turning_to_crap_any_alternatives/",
+    "https://support.roku.com/en-us/article/why-does-my-roku-home-screen-look-different",
+    "https://support.roku.com/en-us/article/roku-new-os-features",
+    "https://www.apple.com/apple-tv-4k/",
+    "https://www.apple.com/apple-tv-4k/specs/"
+  ]
+}
