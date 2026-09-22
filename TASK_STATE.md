@@ -14,11 +14,11 @@ Reach the first real external value flow through a formation that survives bilat
 
 Validation: `ATTRACTION_SCAN_015-F1` still requires written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 082 is complete; the next unique research goal is `ATTRACTION_SCAN_083`, starting from repeated bilateral partial flow between replenishing A/B populations before product-category selection.
+Discovery: execute `ATTRACTION_SCAN_083`, starting from repeated bilateral partial flow between replenishing A/B populations before product-category selection.
 
 ## Current Phase
 
-`SCAN_082_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_083_IN_PROGRESS_BILATERAL_PARTIAL_FLOW_FIRST`
 
 Scan 082 completed the required second independent broad current-reality actor/state-change pass after Scan 081 restored upstream discovery.
 
@@ -33,20 +33,11 @@ Two independent broad actor/state passes are now complete. The next evidence obj
 
 ## Last Verified Main
 
-`49c8eedf09325ec4c3ada5682630dd447b47874c`
-— squash merge of PR #379, `Reset to actor-state discovery after Scan 081`.
+`7acf69339be64a12d0067c38616865d0ed1b6efe`
+— squash merge of PR #380, `Advance to bilateral partial-flow discovery after Scan 082`.
 
-PR #379 repository CI run `35687984295` completed `success`.
-
-PR #379 live TypeSafe/Jev run `35687984154` completed `success`:
-- `typesafe-sdk==0.7.0`;
-- model `jev-latest`;
-- repository `TYPESAFE_API_KEY`;
-- input `ATTRACTION_SCAN_081`, 3 entities;
-- model/effective route: 3/3 `NO_FURTHER_RESEARCH`;
-- failed = 0;
-- `autonomous_continuation_allowed=true`;
-- `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #380 final repository CI run `35688802061` completed `success`.
+PR #380 final live Jev run `35688802107` completed `success`: `typesafe-sdk==0.7.0`, `jev-latest`, Scan 082 3/3 `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -54,19 +45,18 @@ PR #379 live TypeSafe/Jev run `35687984154` completed `success`:
 
 ## Active Branch
 
-`research/attraction-scan-082`
+`research/attraction-scan-083`
 
 ## Active PR
 
-#380 — `Advance to bilateral partial-flow discovery after Scan 082`.
-Head before this checkpoint: `9801121cf99792cd635437824b68a5742aad31ed`.
+None. Scan 083 research branch is active before PR creation.
 
 ## CI
 
 - PR #379 repository CI run `35687984295`: success.
 - PR #379 live Jev run `35687984154`: success; Scan 081, 3/3 `NO_FURTHER_RESEARCH`, `ADVANCE_TO_NEXT_SCAN`.
 - PR #380 earlier head `9801121cf99792cd635437824b68a5742aad31ed`: Jev run `35688691398` succeeded and returned Scan 082 3/3 `NO_FURTHER_RESEARCH` plus `ADVANCE_TO_NEXT_SCAN`; repository CI run `35688691232` failed only because four required TASK_STATE section headings were removed during compaction.
-- PR #380 current head must re-run repository CI and live Jev after restoring the recovery-contract headings.
+- PR #380 final head `dd1a0494b1afd8fd531eb4f1942758882ad311ce`: repository CI `35688802061` success; live Jev `35688802107` success; Scan 082 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
 
 ## Latest Artifact / Persisted State
 
@@ -155,14 +145,7 @@ Discovery:
 
 ## Next Action
 
-Run repository CI and live TypeSafe/Jev on PR #380's final head, consume the actual continuation directive, and continue automatically.
-
-If CI is green and Jev returns `ADVANCE_TO_NEXT_SCAN`:
-1. merge Scan 082;
-2. verify live main;
-3. start `ATTRACTION_SCAN_083` with this boundary:
-
-`BILATERAL_PARTIAL_FLOW_FIRST_FORMATION_DIVERSE_REPEATED_CROSS_ACTOR_VALUE_TRANSFER_OR_WORKAROUND_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_REQUIRE_REPLENISHING_A_AND_B_POPULATIONS_AND_RECURRING_CONNECTION_PRESSURE_EXCLUDE_SCAN060_TO_082_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`
+Execute Scan 083 from repeated bilateral partial flow between replenishing actor populations. Require observable A↔B value transfer/workaround before product naming; preflight exact incumbents, control rights, founder independence, normalized margin, machine delegatability and generic-agent substitution; persist results before opening a PR.
 
 ## Do Not Repeat
 
