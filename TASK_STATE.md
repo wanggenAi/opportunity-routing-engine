@@ -48,14 +48,14 @@ ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PR
 
 ## Current Phase
 
-`SCAN_067_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_068_ACTIVE_UNBUNDLED_ATOMIC_PAID_UNIT_SEARCH`
 
 ## Last Verified Main
 
-`52b479e76339db190d6c6161e48ac462497b8810`
-— squash merge of PR #364, `Raise buyer evidence to confirmed money motion in Scan 066`.
+`9152d70ed532c600733e0860c14bec53729bec13`
+— squash merge of PR #365, `Raise paid evidence to atomic unit attribution in Scan 067`.
 
-PR #364 repository CI run `35620438463` completed `success`. Live Jev run `35620438374` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #365 repository CI run `35675786747` completed `success`. Live Jev run `35675786748` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -63,11 +63,11 @@ PR #364 repository CI run `35620438463` completed `success`. Live Jev run `35620
 
 ## Active Branch
 
-`research/attraction-scan-067`.
+`research/attraction-scan-068`.
 
 ## Active PR
 
-#365 — `Raise paid evidence to atomic unit attribution in Scan 067`. Live GitHub state is authoritative.
+None yet for Scan 068. Live GitHub state is authoritative.
 
 ## CI
 
@@ -82,16 +82,11 @@ PR #364 repository CI run `35620438463` completed `success`. Live Jev run `35620
 
 ## Latest Artifact / Persisted State
 
-New:
-- `data/research_runs/attraction_scan_067.json`
-- `docs/research/ATTRACTION_SCAN_067_2026-09-22.md`
-- `tests/test_attraction_scan_067_atomic_money_motion_gate.py`
+No Scan 068 result artifact yet. The branch exists as the reversible continuation checkpoint after Jev-approved Scan 067.
 
-Updated:
-- `data/commercial_reset_state.json`
-- `TASK_STATE.md`
-
-Persisted state now records `ATTRACTION_SCAN_067` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_068` as the next discovery pass.
+Inherited current persisted state from main:
+- `data/commercial_reset_state.json` points to `ATTRACTION_SCAN_068`.
+- Scan 068 searches only paid units with buyer-side payment attributable to the exact atomic execution unit.
 
 ## Completed
 
