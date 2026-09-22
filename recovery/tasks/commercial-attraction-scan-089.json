@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "generation": 1,
+  "repository": "wanggenAi/opportunity-routing-engine",
+  "status": "IN_PROGRESS",
+  "task_key": "commercial-attraction-scan-089",
+  "stage": "SCAN_089_RESEARCH",
+  "last_observed_main_sha": "eedabda511762b73d057b2787c594c1792c01c92",
+  "work_branch": "research/attraction-scan-089",
+  "work_head_sha": "eedabda511762b73d057b2787c594c1792c01c92",
+  "active_pr": null,
+  "ci": {
+    "run_id": null,
+    "head_sha": null,
+    "status": "NOT_STARTED",
+    "conclusion": null
+  },
+  "production_or_artifact": {
+    "status": "NOT_APPLICABLE",
+    "evidence": [
+      "PR386_MERGED_MAIN_EEDABDA5",
+      "PR386_JEV_ADVANCE_TO_NEXT_SCAN"
+    ]
+  },
+  "pending_operation": null,
+  "health": {
+    "recovery": "HEALTHY",
+    "last_error": null
+  },
+  "completed": [
+    "SCAN_088_MERGED",
+    "SCAN_089_BRANCH_STARTED"
+  ],
+  "next_action": "Execute independently replicated paid cross-component coordination scan, persist Scan 089, open PR, validate CI/Jev.",
+  "do_not_repeat": [
+    "Do not repeat Scan 088 EV road-trip multi-app coordination.",
+    "Do not repeat Scan 088 Flighty-to-airline disruption handling.",
+    "Do not repeat Scan 088 Home Assistant smart-tariff/EV/solar/battery automation.",
+    "Do not repeat Scan 015 public-rights research while written provider evidence is outstanding."
+  ]
+}
