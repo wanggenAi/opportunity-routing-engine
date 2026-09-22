@@ -214,5 +214,9 @@
     "https://ggzyfw.beijing.gov.cn/jyxxgqgpplxx/20260903/5697695.html",
     "https://new.ebidding.cecep.cn/cgxx/013002/013002001/20260815/eb6cc682-501b-442d-9656-c64eee052017.html",
     "https://ggzyfw.beijing.gov.cn/jyxxgqgpplxx/20260921/5722516.html"
-  ]
+  ],
+  "validation_checkpoint": {
+    "pr_number": 410,
+    "policy": "EXACT_FINAL_PR_HEAD_CI_PLUS_LIVE_TYPESAFE_JEV_REQUIRED_BEFORE_CONTINUATION"
+  }
 }
