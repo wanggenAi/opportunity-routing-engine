@@ -6,13 +6,15 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 078 completed the stronger **executed recurring payment to a distinct non-incumbent residual provider/asset** test. Five evidence-bearing formations were inspected: University Health Epic/Abridge, U.S. Army IPPS-A/Whatfix, Durham County ServiceNow/Moveworks, Ivy Tech Salesforce/WalkMe and Riverside County PeopleSoft/UiPath.
+Scan 079 completed the stronger **buyer-authored same-outcome failure after the paid non-incumbent residual layer itself is already live** test. Three formation-diverse chains survived no-repeat screening: Wright State Brightspace/Pilot + Turnitin AI detection, Woodburn Police + Flock Safety ALPR, and Miami-Dade aging Transit CAD/AVL + Swiftly.
 
-Durham County is the strongest current chain: the County documented support latency and service-desk load in a live enterprise service-management environment, then authorized a three-year $271,578.95 Moveworks purchase for the same employee-support outcome. It still fails white-space promotion because Moveworks already owns that mature residual product category and ServiceNow completed its acquisition of Moveworks in December 2025.
+Wright State is the strongest temporal chain: the university restored Turnitin's AI detector under a one-year paid contract starting November 1, 2024 ($10,000 detector feature; $42,000 total Turnitin contract), then its February 2025 Faculty Senate IT Committee documented detection quality ranging from very good to very bad, deliberate-evasion weakness and poor AI-code detection. It still fails white-space promotion because Turnitin/Copyleaks already occupy the exact mature detection category and academic-integrity action remains policy/human-governed.
 
-Ivy Tech independently proves a second strong chain: its Salesforce Health Sciences application accumulated 3,153 first-year support tickets; WalkMe DAP launched against that residual and the trustees approved a three-year $777,615.79 enterprise license. Again, the paid residual is already a mature Digital Adoption Platform category.
+Woodburn provides a second post-purchase signal: council authorized a Flock service subscription with $96,000 first-year and $84,000 recurring annual cost; the 2026 buyer assessment later recorded 29.57% explicit non-contribution among Flock-using cases with stated outcomes. The residual collapses to physical camera coverage, investigation applicability and Flock's exact end-to-end control surface.
 
-Scan 079 therefore raises causality only: require **buyer-authored evidence that the same outcome remains unresolved even after the paid non-incumbent residual layer itself has been purchased**. No router, multi-provider or abstraction mechanism is inherited.
+Miami-Dade is the negative control: recurring Swiftly spend around an aging CAD/AVL environment is real, but the current buyer record says Swiftly is successfully supplying the supplemental functionality while the future core system is being replaced. Continuing core modernization therefore cannot be relabelled as residual-layer failure.
+
+Scan 080 will run a **second independent, formation-diverse pass at the same post-residual-purchase failure evidence floor** before changing the payer signal or deriving any provider-switch, multi-provider or other mechanism boundary.
 
 ## Goal
 
@@ -30,22 +32,23 @@ Resolved recently:
 - `ATTRACTION_SCAN_076` — zero retention after generic post-replacement recurring residual-spend test.
 - `ATTRACTION_SCAN_077` — zero retention after buyer-authored post-live failure plus actual residual-payment test; strongest Baltimore County chain still paid the exact vertical incumbent.
 - `ATTRACTION_SCAN_078` — zero retention after executed non-incumbent residual-payment test; strongest Durham/Ivy chains still collapse to mature complement control surfaces.
+- `ATTRACTION_SCAN_079` — zero retention after buyer-authored post-residual-purchase same-outcome failure test; strongest Wright State chain proves failure-after-payment but remains inside the exact mature detection category.
 
 Discovery queue:
-- `ATTRACTION_SCAN_079 — BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_SAME_UNRESOLVED_OUTCOME_PLUS_EXECUTED_RECURRING_PAYMENT_TO_A_DISTINCT_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_PLUS_BUYER_AUTHORED_POST_RESIDUAL_PURCHASE_EVIDENCE_THAT_THE_SAME_OUTCOME_REMAINS_UNRESOLVED_DESPITE_THAT_PAID_RESIDUAL_LAYER_FORMATION_DIVERSE_REQUIRE_EXECUTED_PAYMENT_NOT_BUDGET_OR_SOLICITATION_INTENT_EXCLUDE_STANDARD_AMS_OEM_PARTNER_SUPPORT_INTEGRATORS_CONSULTANTS_BPO_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_078_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_AND_RESIDUAL_PROVIDER_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_080 — SECOND_INDEPENDENT_BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_SAME_UNRESOLVED_OUTCOME_PLUS_EXECUTED_RECURRING_PAYMENT_TO_A_DISTINCT_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_PLUS_BUYER_AUTHORED_POST_RESIDUAL_PURCHASE_EVIDENCE_THAT_THE_SAME_OUTCOME_REMAINS_UNRESOLVED_DESPITE_THAT_PAID_RESIDUAL_LAYER_FORMATION_DIVERSE_REQUIRE_EXECUTED_PAYMENT_NOT_BUDGET_OR_SOLICITATION_INTENT_EXCLUDE_STANDARD_AMS_OEM_PARTNER_SUPPORT_INTEGRATORS_CONSULTANTS_BPO_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_079_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_AND_RESIDUAL_PROVIDER_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_078_COMPLETE_AWAITING_PR376_CI_JEV_CONTINUATION`
+`SCAN_079_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`d3b399080ff215db5f021d45b557df7882212038`
-— squash merge of PR #375, `Require actual non-incumbent residual payment after Scan 077`.
+`e2dee21b215e9a441bf5310101d758ba2fd0340b`
+— squash merge of PR #376, `Require post-residual same-outcome failure after Scan 078`.
 
-PR #375 repository CI run `35683146371` completed `success`. Live Jev run `35683146370` completed `success`: TypeSafe SDK `0.7.0` ran with `TYPESAFE_API_KEY` present; 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, and `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #376 repository CI run `35684270963` completed `success`. Live Jev run `35684270959` completed `success`: real TypeSafe/Jev used `typesafe-sdk==0.7.0`, `jev-latest`, and repository `TYPESAFE_API_KEY`; 5/5 model and effective routes were `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, and `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -53,30 +56,30 @@ PR #375 repository CI run `35683146371` completed `success`. Live Jev run `35683
 
 ## Active Branch
 
-`research/attraction-scan-078`.
+`research/attraction-scan-079`.
 
 ## Active PR
 
-#376 — `Require post-residual same-outcome failure after Scan 078`. Live GitHub state is authoritative.
+#377 — `Require post-residual purchase failure evidence after Scan 079`. Live GitHub state is authoritative.
 
 ## CI
 
-- PR #376 repository CI and live TypeSafe/Jev must validate the latest Scan 078 head after this TASK_STATE checkpoint.
-- PR #375 repository CI run `35683146371` completed `success`.
-- PR #375 live Jev run `35683146370` completed `success`; real TypeSafe/Jev execution used `typesafe-sdk==0.7.0`, `jev-latest`, `TYPESAFE_API_KEY`, evaluated 6 entities, returned 6/6 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
+- PR #376 repository CI run `35684270963` completed `success`.
+- PR #376 live Jev run `35684270959` completed `success`; it evaluated `ATTRACTION_SCAN_078` (5 entities), returned 5/5 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
+- Scan 079 artifacts are persisted on `research/attraction-scan-079`; repository CI and live TypeSafe/Jev must validate the final PR head before merge.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_078.json`
-- `docs/research/ATTRACTION_SCAN_078_2026-09-22.md`
-- `tests/test_attraction_scan_078_non_incumbent_residual_payment_gate.py`
+- `data/research_runs/attraction_scan_079.json`
+- `docs/research/ATTRACTION_SCAN_079_2026-09-22.md`
+- `tests/test_attraction_scan_079_post_residual_purchase_failure_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
-Persisted state records `ATTRACTION_SCAN_078` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_079` as a post-residual-purchase same-outcome failure test rather than a mechanism boundary. Every Scan 078 formation now carries `evidence_summary` so live Jev receives bounded evidence context in addition to the authoritative engine verdict.
+Persisted state records `ATTRACTION_SCAN_079` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_080` as a second independent post-residual-purchase same-outcome failure pass. The scan explicitly excludes strong-looking observations that recycle Scan 060-078 primary-signal families rather than silently reusing them.
 
 ## Completed
 
@@ -96,24 +99,23 @@ Results:
 
 ## Current Findings
 
-Scan 078 establishes:
+Scan 079 establishes:
 
 ```text
-LIVE PLATFORM
-+ BUYER-AUTHORED RESIDUAL
-+ EXECUTED RECURRING NON-INCUMBENT MONEY
+PAID RESIDUAL LAYER
++ BUYER-AUTHORED POST-PURCHASE FAILURE
 !=
 UNOWNED OPERATOR WHITE SPACE
 ```
 
 Strongest cases:
-- Durham County — three-year $271,578.95 Moveworks purchase directly targets documented employee-support latency and service-desk load. This is the strongest Scan 078 causal/payment chain, but Moveworks is the exact mature enterprise-AI front door and ServiceNow acquired it in December 2025.
-- Ivy Tech — Salesforce Health Sciences application went live, accumulated 3,153 first-year tickets, WalkMe DAP launched against the same support/adoption residual, and trustees approved a three-year $777,615.79 enterprise license. The residual is already the mature DAP category.
-- University Health — Epic went live in 2020; clinical-documentation improvement remained a buyer priority; Abridge received a $1,223,100 board award in 2025 and an $882,700 amendment in 2026. Real repeat money exists, but the buyer does not explicitly attribute the purchase to Epic failure and the ambient-AI/Epic ecosystem already owns the layer.
-- Army IPPS-A — buyer-authored post-go-live adoption/support load plus an official May 2024 Whatfix DAP award, but inspected public buyer evidence does not bind award amount/recurring term and the DAP layer is already mature.
-- Riverside County — annual $436,235.06 UiPath spend is real, but no buyer-authored evidence ties it to a specific unresolved post-PeopleSoft outcome.
+- Wright State — a real one-year Turnitin AI-detector payment precedes buyer-authored testing that still records large accuracy variance, evasion and weak code detection. This is the strongest Scan 079 temporal chain, but the exact mature detector category already owns the control surface and academic-integrity enforcement remains human-governed.
+- Woodburn — Flock has real recurring subscription economics and the buyer later records explicit non-contribution in 29.57% of stated-outcome Flock-using cases. The residual is dominated by camera-network coverage, investigation-type applicability and Flock's own end-to-end surface.
+- Miami-Dade — recurring Swiftly spend is real, but the buyer says the software delivers the supplemental function while CAD/AVL replacement proceeds. It fails the new post-purchase-failure floor and is retained only as a negative control.
 
-The next evidence escalation is causal rather than architectural: after the distinct residual layer is purchased, does the buyer still document the same outcome as unresolved?
+No-repeat screening also mattered: Richmond/Veritone Redact and Aspen/AudioEye were not admitted because they recycle public-records/FOIA and accessibility-remediation primary-signal families already covered in prior scans.
+
+One pass is insufficient to justify a provider-switch, multi-provider or other mechanism boundary. Scan 080 repeats the same strict evidence floor on an independent formation-diverse sample.
 
 ## Validation Status
 
@@ -134,9 +136,9 @@ Engineering:
 - PR #376 repository CI/live Jev must validate the latest Scan 078 checkpoint before merge.
 
 Discovery:
-- Scan 078 is complete with zero retained formations and zero commercial promotions.
-- Executed non-incumbent payment is now proven in multiple cases, but mature complement categories or incomplete buyer-authored causality still close every path.
-- Scan 079 must require buyer-authored proof that the same outcome remains unresolved after the paid residual layer itself; no router/multi-provider/product-shape requirement may be inherited.
+- Scan 079 is complete with zero retained formations and zero commercial promotions.
+- Post-residual-purchase buyer-authored failure is now directly observed, but the strongest cases still collapse to exact mature product boundaries, physical capture/scope or governed human judgment.
+- Scan 080 must run a second independent formation-diverse pass at the same evidence floor before any evidence-source escalation; no router, provider-switch, multi-provider or product-shape requirement may be inherited.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -144,9 +146,16 @@ Commercial:
 
 ## Next Action
 
-Run PR #376 repository CI and live TypeSafe/Jev against the latest head, consume the actual continuation directive, and continue automatically. If green and Jev returns `ADVANCE_TO_NEXT_SCAN`, merge PR #376, verify main, and start Scan 079 from post-residual-purchase same-outcome failure evidence without deriving a mechanism ontology.
+Open the Scan 079 PR, run repository CI and live TypeSafe/Jev against the final head, consume the actual continuation directive, and continue automatically. If green and Jev returns `ADVANCE_TO_NEXT_SCAN`, merge, verify main, and start Scan 080 as a second independent post-residual-purchase same-outcome failure pass without deriving a provider-switch, multi-provider or other mechanism ontology.
 
 ## Do Not Repeat
+
+- Do not promote Wright State AI detection merely because paid Turnitin remains inaccurate or evadable; Turnitin/Copyleaks already own the exact mature detector surface and academic-integrity action remains human-governed.
+- Do not promote Woodburn Flock non-contribution as a new digital operator edge; incomplete physical coverage and investigation-type applicability are material causal limits and Flock owns the end-to-end control surface.
+- Do not reinterpret Miami-Dade's continuing CAD/AVL modernization as failure of Swiftly when the buyer explicitly says Swiftly is delivering the supplemental function.
+- Do not recycle Richmond/Veritone public-records redaction or Aspen/AudioEye accessibility remediation into Scan 080; those overlap prior primary-signal families.
+- Do not derive provider-switch, multi-provider, router or abstraction requirements after only one post-residual-purchase failure pass; Scan 080 is an independent same-floor pass.
+
 
 - Do not promote Baltimore County Workday/PRiSM MBE compliance from Scan 077; the strongest causal chain still pays the exact vertical incumbent.
 - Do not promote FDNY FIRES, BLM AFMSS2, VA EHR, NDIA PACE or St. Johns County Workday HR from Scan 077.
