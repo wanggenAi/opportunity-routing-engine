@@ -14,11 +14,11 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_116` is complete and exactly validated with zero retained formations. `ATTRACTION_SCAN_117` is now active and prioritizes completed-control targets with clean post-control positive revenue/profit/explicit OCF, disclosed intrinsically low current FTE, no project/field/manufacturing/after-sales delivery engine, bounded operating capital and a control surface reproducible by a fresh independent operator.
+Discovery: `ATTRACTION_SCAN_117` is complete with zero retained formations. The scan found a materially stronger low-labor near-miss: Tianwu binds a completed 99.9920% control transfer, a clean 2026 H1 post-control period, current 11 FTE, low current asset scale and positive revenue/profit, but explicit operating cashflow is still negative and current revenue mechanisms include custom development/maintenance. Scan 118 should now require the same low-FTE completed-control packet to carry explicit positive OCF and already-existing repeatable non-project external revenue.
 
 ## Current Phase
 
-`SCAN_117_RESEARCH`
+`SCAN_117_PR_VALIDATION_PENDING`
 
 ## Last Verified Main
 
@@ -48,11 +48,11 @@ That exact-head directive was consumed to start Scan 117.
 
 ## Active PR
 
-None. Scan 117 research is in progress. Open exactly one PR only after the Scan 117 branch head is final, then do not make branch commits after PR creation.
+None at this checkpoint. Scan 117 branch content is final for PR validation. Open exactly one PR from this head and do not make branch commits after PR creation.
 
 ## CI
 
-Scan 116 exact-head validation is complete and was consumed. PR #415 is superseded/closed and its failed head must not be reused. No Scan 117 PR validation exists yet because Scan 117 research has not been persisted to a final branch head.
+Scan 116 exact-head validation is complete and consumed. No Scan 117 PR validation exists yet.
 
 Consume a Scan 117 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
 
@@ -64,77 +64,73 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-New in Scan 116:
-- `data/research_runs/attraction_scan_116.json`;
-- `docs/research/ATTRACTION_SCAN_116_2026-09-23.md`;
-- `tests/test_attraction_scan_116_standalone_target_ledger.py`.
+New in Scan 117:
+- `data/research_runs/attraction_scan_117.json`;
+- `docs/research/ATTRACTION_SCAN_117_2026-09-23.md`;
+- `tests/test_attraction_scan_117_minimal_labor_control.py`.
 
 Updated:
 - `data/commercial_reset_state.json`;
 - `TASK_STATE.md`.
 
 Machine state:
-- last completed scan = `ATTRACTION_SCAN_116`;
-- last resolved formation = `ATTRACTION_SCAN_116-F3`;
-- next scan = `ATTRACTION_SCAN_117`;
+- last completed scan = `ATTRACTION_SCAN_117`;
+- last resolved formation = `ATTRACTION_SCAN_117-F3`;
+- next scan = `ATTRACTION_SCAN_118`;
 - active commercial candidates = 0;
 - retained research formations = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Consumed PR #414 exact-head `ADVANCE_TO_NEXT_SCAN` and resumed the already-created `research/attraction-scan-116` branch rather than creating a duplicate.
-- Confirmed the branch had been an empty branch equal to `main`; no interrupted Scan 116 research result or PR existed.
-- Excluded Scan 060-115 formations and primary signals from the new primary sample.
-- Persisted three formation-diverse standalone/control-ledger tests: Jiuheng New-data, Huacheng Industrial Control and Feitian Technology.
-- Jiuheng: clean post-control 2026 H1 revenue RMB6.3883m, net profit RMB0.7527m, explicit OCF RMB0.2264m, assets RMB5.2142m, current staff 37 including 28 technical. Demoted on current expert/project delivery rather than missing evidence.
-- Huacheng: clean post-control 2026 H1 attributable net loss RMB3.4446m, explicit OCF negative RMB13.2925m, assets RMB182.0546m, current staff 212. The 2025 control change also depended on a pre-existing insider concert-party position, so the tiny incremental share trade is not fresh-operator control capital.
-- Feitian: controller changed through a RMB2.0m upstream holding-company acquisition, but 2025 annual economics straddle the control date; the mixed period is not promoted to post-control evidence. Year-end target assets were RMB40.5331m, so low upstream transaction price is not treated as low target operating capital.
+- Consumed PR #416 exact-head `ADVANCE_TO_NEXT_SCAN` from successful repository CI and live TypeSafe/Jev.
+- Resumed the already-created `research/attraction-scan-117` branch rather than creating a duplicate; confirmed its only interrupted work was the Scan 117 start checkpoint.
+- Excluded Scan 060-116 formations and primary signals from the new primary sample.
+- Persisted three formation-diverse tests: Tianwu/Xunzhi low-FTE software recycling, Henglilai transitional low-FTE shell / planned steel injection, and Yangzhu 5 temporary voting-control bamboo materials.
+- Tianwu: 99.9920% transfer for RMB999,920 completed 2025-11-26; clean 2026 H1; current 11 FTE; revenue RMB5.362277m; net profit about RMB0.4217m; explicit operating cashflow per share negative RMB0.0029; current model still includes customization and maintenance.
+- Henglilai: current 4 FTE and RMB1.405812m planned 55.54% price, but equity delivery remains incomplete, H1 revenue is zero, net loss RMB33,901.20, and the acquirer explicitly plans manufacturing equipment/personnel/business injection.
+- Yangzhu 5: controller changed by one-year voting-right delegation on 2026-05-19; current 142 FTE; H1 OCF negative RMB18.1895m; physical bamboo-material production and added equipment investment remain core.
 - Retained zero formations and promoted zero commercial candidates.
-- Advanced durable discovery state to Scan 117.
-- Closed superseded PR #415 after its exact-head CI exposed the missing required `## Goal` recovery-contract heading; restored that heading before creating replacement PR #416.
-- PR #416 exact-head repository CI and live TypeSafe/Jev both succeeded; Jev returned 3/3 `NO_FURTHER_RESEARCH`, 3/3 aligned with authoritative closure, and `ADVANCE_TO_NEXT_SCAN`.
-- Merged PR #416 as `b8edb6a341a91059b101e515acbb7d83069d124f` and started `research/attraction-scan-117` from that exact main state.
+- Advanced durable discovery state to Scan 118.
 
 ## Current Findings
 
 Key invariant:
 
 ```text
-STANDALONE TARGET LEDGER VISIBILITY
-!= FOUNDER-LIGHTNESS
+LOW CURRENT FTE
++ COMPLETED CONTROL
++ POSITIVE REVENUE
++ POSITIVE NET PROFIT
+!= POSITIVE OPERATING CASHFLOW
 
-POSITIVE TARGET OCF + LOW CURRENT ASSETS
-!= LOW CURRENT REPLACEMENT LABOR
+LOW CURRENT FTE DURING A DORMANT / TRANSITION SHELL
+!= DURABLE LOW REPLACEMENT LABOR
 
-TINY CONTROL-TRIGGER TRADE
-!= FRESH-OPERATOR CONTROL CAPITAL
-WHEN PREEXISTING INSIDER HOLDINGS ARE DECISIVE
+VOTING-RIGHT DELEGATION
+!= REPRODUCIBLE FRESH-OPERATOR OWNERSHIP PURCHASE
 
-LOW UPSTREAM HOLDING-COMPANY PURCHASE PRICE
-!= LOW TARGET OPERATING CAPITAL
-
-MIXED PRE/POST-CONTROL PERIOD
-!= POST-CONTROL ECONOMIC CONTINUITY
+LIGHT-ASSET SOFTWARE
+!= FOUNDER-LIGHT MACHINE DELIVERY
+WHEN CUSTOMIZATION / MAINTENANCE REMAIN CORE
 ```
 
-The decisive new evidence is Jiuheng: the financial visibility problem is now closed in one low-asset positive-OCF target, and current expert labor still kills the formation. Scan 117 therefore changes retrieval priority from “find a better ledger” to “find a genuinely low-current-FTE operating position with a clean ledger and reproducible fresh-operator control surface.”
+Tianwu materially advances the boundary: low current labor is no longer merely hypothetical. The remaining high-value packet is a low-FTE completed-control entity with clean post-control positive OCF and an already-existing repeatable non-project revenue engine, rather than a relaunch, pending injection or service-heavy project model.
 
 ## Next Evidence Boundary
 
 ```text
-COMPLETED CONTROLLING TRANSFER
-+ CLEAN POST-CONTROL STANDALONE TARGET PERIOD
-+ SAME TARGET POSITIVE EXTERNAL REVENUE
-+ SAME TARGET POSITIVE NET PROFIT
-+ SAME TARGET EXPLICIT POSITIVE OPERATING CASHFLOW
-+ CURRENT TARGET FTE DISCLOSED AND INTRINSICALLY LOW
-+ NO PROJECT IMPLEMENTATION / FIELD / MANUFACTURING / AFTER-SALES
-  ORGANIZATION AS THE RECURRING DELIVERY ENGINE
-+ CONTROL SURFACE REPRODUCIBLE BY A FRESH INDEPENDENT OPERATOR
-  RATHER THAN A PREEXISTING INSIDER COALITION
-+ BOUNDED CONTROL CONSIDERATION
-+ BOUNDED CURRENT OPERATING-ASSET / WORKING-CAPITAL FOOTPRINT
+COMPLETED FRESH-OPERATOR-REPRODUCIBLE CONTROL BEFORE REPORTING PERIOD
++ CLEAN SAME-ENTITY POST-CONTROL PERIOD
++ POSITIVE EXTERNAL REVENUE
++ POSITIVE NET PROFIT
++ EXPLICIT POSITIVE OPERATING CASHFLOW
++ CURRENT FTE INTRINSICALLY LOW
++ EXISTING REPEATABLE NON-PROJECT REVENUE
++ NO PROJECT CUSTOMIZATION / FIELD / MANUFACTURING / AFTER-SALES
+  DELIVERY ENGINE
++ NO PENDING BUSINESS / ASSET / PERSONNEL INJECTION NEEDED TO CREATE THE ECONOMICS
++ BOUNDED CONTROL / OPERATING / WORKING CAPITAL
 + NONCOMMODITY MACHINE-OPERABLE CONTROL
 => POSSIBLE VERIFIED FOUNDER-LIGHT CONTROL CASHFLOW
 ```
@@ -147,23 +143,23 @@ Validation:
 - Scan 015-F1 still needs a real official written provider response/agreement and founder-free inbound proof.
 
 Discovery:
-- Scan 116 research and exact-head PR validation are complete;
-- Scan 117 is actively testing the intrinsically-low-current-labor boundary on fresh formations.
+- Scan 117 research itself is complete;
+- the branch now needs exact-final-head repository CI plus live TypeSafe/Jev validation;
+- do not start Scan 118 until that exact-head continuation directive permits it.
 
 Engineering:
-- no current TypeSafe/Jev integration blocker;
-- Scan 117 must not be opened as a PR until its branch head is final.
+- no current TypeSafe/Jev integration blocker.
 
 ## Do Not Repeat
 
-- Do not repeat Scan 116 Jiuheng New-data, Huacheng Industrial Control or Feitian Technology as Scan 117 primary formations.
-- Do not return to Scan 060-116 formations or their primary discovery signals.
+- Do not repeat Scan 117 Tianwu/Xunzhi, Henglilai or Yangzhu 5 as Scan 118 primary formations.
+- Do not return to Scan 060-117 formations or their primary discovery signals.
 - Do not use job/gig/RFQ/procurement feeds or asset-marketplace feeds as discovery ontology.
 - Do not infer a product from a closed formation.
-- Do not combine different entities, control positions or time windows to manufacture post-control economics.
-- Do not relabel a mixed annual period as clean post-control economics.
-- Do not treat a small incremental trade or upstream holding-company price as total fresh-operator control capital.
-- Do not treat positive OCF as founder-lightness when current project/expert delivery is core.
+- Do not promote positive profit over negative OCF.
+- Do not project a transitional shell's current FTE through a pending business/personnel/equipment injection.
+- Do not treat temporary voting delegation as a fresh-operator ownership acquisition price.
+- Do not treat low-FTE software as founder-light when project customization or maintenance remains a material delivery mechanism.
 - Do not repeat Scan 015 public-rights research while written evidence is outstanding.
 
 ## Guardrails
@@ -199,4 +195,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Execute Scan 117 on fresh formations that satisfy or directly test the intrinsically-low-current-FTE clean-post-control-ledger boundary. Persist the result, state and regression test before opening the final PR.
+Open one PR from the final Scan 117 branch head. Do not commit after opening it. Validate that exact head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are terminal and acceptable.
