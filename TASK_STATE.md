@@ -6,15 +6,13 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 079 completed the stronger **buyer-authored same-outcome failure after the paid non-incumbent residual layer itself is already live** test. Three formation-diverse chains survived no-repeat screening: Wright State Brightspace/Pilot + Turnitin AI detection, Woodburn Police + Flock Safety ALPR, and Miami-Dade aging Transit CAD/AVL + Swiftly.
+Scan 080 completed the required **second independent pass at the Scan 079 post-residual-purchase same-outcome failure floor**. Three new current buyer chains were pressure-tested: NYC DVS VetConnectNYC + Combined Arms, Siloam Springs BS&A utility billing, and DeKalb County PROSECUTORbyKarpel.
 
-Wright State is the strongest temporal chain: the university restored Turnitin's AI detector under a one-year paid contract starting November 1, 2024 ($10,000 detector feature; $42,000 total Turnitin contract), then its February 2025 Faculty Senate IT Committee documented detection quality ranging from very good to very bad, deliberate-evasion weakness and poor AI-code detection. It still fails white-space promotion because Turnitin/Copyleaks already occupy the exact mature detection category and academic-integrity action remains policy/human-governed.
+NYC is the strongest payment-before-failure chain: DVS had paid Combined Arms $268,750 by May 2026 on a three-year replacement-portal contract, while buyer-side review still documented persistent login, routing, case-status, reminder and high-priority ticket failures after live use. It still fails Scan 080 because Combined Arms is the replacement portal/control surface itself, not a distinct residual provider around another live platform.
 
-Woodburn provides a second post-purchase signal: council authorized a Flock service subscription with $96,000 first-year and $84,000 recurring annual cost; the 2026 buyer assessment later recorded 29.57% explicit non-contribution among Flock-using cases with stated outcomes. The residual collapses to physical camera coverage, investigation applicability and Flock's exact end-to-end control surface.
+Siloam Springs independently proves severe post-go-live failure and rollback after a $318,685 BS&A software contract, but the inspected evidence does not prove executed recurring payment to a distinct residual provider; BS&A is the replacement platform/module itself. DeKalb is the negative control: $368,600 of annual-subscription/platform spend is real, but the later $32,000 data-extraction change order is buyer-described transition enablement rather than post-purchase same-outcome failure.
 
-Miami-Dade is the negative control: recurring Swiftly spend around an aging CAD/AVL environment is real, but the current buyer record says Swiftly is successfully supplying the supplemental functionality while the future core system is being replaced. Continuing core modernization therefore cannot be relabelled as residual-layer failure.
-
-Scan 080 will run a **second independent, formation-diverse pass at the same post-residual-purchase failure evidence floor** before changing the payer signal or deriving any provider-switch, multi-provider or other mechanism boundary.
+After two independent passes, the strict procurement/payment/audit join is showing diminishing discovery value and public-institutional indexing bias. Scan 081 therefore resets upstream to **broad current reality and actor/state change first**, before product category or procurement signal selection. No provider-switch, multi-provider, router or other mechanism ontology is inherited.
 
 ## Goal
 
@@ -28,20 +26,20 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Resolved recently:
-- `ATTRACTION_SCAN_075` — zero retention after paid-incumbent exit/replacement signals.
 - `ATTRACTION_SCAN_076` — zero retention after generic post-replacement recurring residual-spend test.
 - `ATTRACTION_SCAN_077` — zero retention after buyer-authored post-live failure plus actual residual-payment test; strongest Baltimore County chain still paid the exact vertical incumbent.
 - `ATTRACTION_SCAN_078` — zero retention after executed non-incumbent residual-payment test; strongest Durham/Ivy chains still collapse to mature complement control surfaces.
 - `ATTRACTION_SCAN_079` — zero retention after buyer-authored post-residual-purchase same-outcome failure test; strongest Wright State chain proves failure-after-payment but remains inside the exact mature detection category.
+- `ATTRACTION_SCAN_080` — zero retention after the required second independent post-residual-purchase failure pass; strongest NYC chain proves payment-before-failure but is the replacement control surface itself.
 
 Discovery queue:
-- `ATTRACTION_SCAN_080 — SECOND_INDEPENDENT_BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_SAME_UNRESOLVED_OUTCOME_PLUS_EXECUTED_RECURRING_PAYMENT_TO_A_DISTINCT_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_PLUS_BUYER_AUTHORED_POST_RESIDUAL_PURCHASE_EVIDENCE_THAT_THE_SAME_OUTCOME_REMAINS_UNRESOLVED_DESPITE_THAT_PAID_RESIDUAL_LAYER_FORMATION_DIVERSE_REQUIRE_EXECUTED_PAYMENT_NOT_BUDGET_OR_SOLICITATION_INTENT_EXCLUDE_STANDARD_AMS_OEM_PARTNER_SUPPORT_INTEGRATORS_CONSULTANTS_BPO_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_079_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_AND_RESIDUAL_PROVIDER_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_081 — BROAD_CURRENT_REALITY_SOURCE_RESET_AFTER_TWO_POST_RESIDUAL_PURCHASE_FAILURE_PASSES_ACTOR_STATE_CHANGE_FIRST_FORMATION_DIVERSE_OBSERVED_BEHAVIOR_OR_WORKAROUND_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_EXCLUDE_SCAN060_TO_080_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_080_IN_PROGRESS_SECOND_INDEPENDENT_POST_RESIDUAL_PURCHASE_FAILURE`
+`SCAN_080_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
@@ -60,28 +58,26 @@ PR #377 repository CI run `35685183602` completed `success`. Live Jev run `35685
 
 ## Active PR
 
-None. Scan 080 research branch is active before PR creation.
+None yet. Scan 080 artifacts are complete on `research/attraction-scan-080`; open the PR and validate the final head.
 
 ## CI
 
-- PR #376 repository CI run `35684270963` completed `success`.
-- PR #376 live Jev run `35684270959` completed `success`; it evaluated `ATTRACTION_SCAN_078` (5 entities), returned 5/5 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
 - PR #377 repository CI run `35685183602` completed `success`.
 - PR #377 live Jev run `35685183656` completed `success`; real TypeSafe/Jev evaluated `ATTRACTION_SCAN_079` (3 entities), returned 3/3 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
-- No Scan 080 PR/CI exists yet.
+- Scan 080 artifacts are persisted on `research/attraction-scan-080`; repository CI and live TypeSafe/Jev must validate the final PR head before merge.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_079.json`
-- `docs/research/ATTRACTION_SCAN_079_2026-09-22.md`
-- `tests/test_attraction_scan_079_post_residual_purchase_failure_gate.py`
+- `data/research_runs/attraction_scan_080.json`
+- `docs/research/ATTRACTION_SCAN_080_2026-09-22.md`
+- `tests/test_attraction_scan_080_post_residual_purchase_failure_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
-Persisted state records `ATTRACTION_SCAN_079` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_080` as a second independent post-residual-purchase same-outcome failure pass. The scan explicitly excludes strong-looking observations that recycle Scan 060-078 primary-signal families rather than silently reusing them.
+Persisted state records `ATTRACTION_SCAN_080` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_081` as a broad current-reality source reset. The reset follows two independent zero-retention passes at the strict post-residual-purchase failure floor and does not infer a provider-switch, multi-provider, router or other mechanism ontology.
 
 ## Completed
 
@@ -101,23 +97,21 @@ Results:
 
 ## Current Findings
 
-Scan 079 establishes:
+Scan 080 establishes:
 
 ```text
-PAID RESIDUAL LAYER
-+ BUYER-AUTHORED POST-PURCHASE FAILURE
+REAL MONEY
++ POST-PURCHASE FAILURE
 !=
-UNOWNED OPERATOR WHITE SPACE
+DISTINCT UNOWNED RESIDUAL OPERATOR EDGE
 ```
 
 Strongest cases:
-- Wright State — a real one-year Turnitin AI-detector payment precedes buyer-authored testing that still records large accuracy variance, evasion and weak code detection. This is the strongest Scan 079 temporal chain, but the exact mature detector category already owns the control surface and academic-integrity enforcement remains human-governed.
-- Woodburn — Flock has real recurring subscription economics and the buyer later records explicit non-contribution in 29.57% of stated-outcome Flock-using cases. The residual is dominated by camera-network coverage, investigation-type applicability and Flock's own end-to-end surface.
-- Miami-Dade — recurring Swiftly spend is real, but the buyer says the software delivers the supplemental function while CAD/AVL replacement proceeds. It fails the new post-purchase-failure floor and is retained only as a negative control.
+- NYC DVS / Combined Arms — three-year replacement portal; $268,750 paid by May 2026; post-launch buyer review still records persistent login, routing, status, reminder and high-priority ticket failures. Strong temporal chain, but Combined Arms is the replacement portal/control surface itself rather than a distinct residual layer.
+- Siloam Springs / BS&A — $318,685 contract plus severe buyer-authored utility-billing failures and rollback toward Caselle. The distinct recurring residual-payment topology is not proven; BS&A is the replacement platform/module.
+- DeKalb / Karpel — annual-subscription contract and $368,600 spend-to-date are real, but the $32,000 data-extraction change order is explicitly framed as smooth-transition/full-utilization support, not post-purchase failure.
 
-No-repeat screening also mattered: Richmond/Veritone Redact and Aspen/AudioEye were not admitted because they recycle public-records/FOIA and accessibility-remediation primary-signal families already covered in prior scans.
-
-One pass is insufficient to justify a provider-switch, multi-provider or other mechanism boundary. Scan 080 repeats the same strict evidence floor on an independent formation-diverse sample.
+Two passes are sufficient to reject further tightening of the same procurement/audit predicate as the next discovery move. The signal increasingly selects public institutional software with already-owned control surfaces. Scan 081 resets upstream to current actor/state change and observed behavior/workaround before product or procurement categorization.
 
 ## Validation Status
 
@@ -135,22 +129,23 @@ Validation:
 
 Engineering:
 - No current Jev integration blocker.
-- PR #376 repository CI/live Jev must validate the latest Scan 078 checkpoint before merge.
+- Scan 080 PR/CI/live Jev validation is pending.
 
 Discovery:
-- Scan 079 is complete with zero retained formations and zero commercial promotions.
-- Post-residual-purchase buyer-authored failure is now directly observed, but the strongest cases still collapse to exact mature product boundaries, physical capture/scope or governed human judgment.
-- Scan 080 must run a second independent formation-diverse pass at the same evidence floor before any evidence-source escalation; no router, provider-switch, multi-provider or product-shape requirement may be inherited.
-
-Commercial:
-- ACTIVE COMMERCIAL CANDIDATES = 0.
-- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN.
+- Scan 080 is complete with zero retained formations and zero commercial promotions.
+- The two-pass post-residual-purchase failure signal is exhausted for now; do not derive a mechanism ontology from it.
+- Scan 081 must reset upstream to broad current reality, actor/state change and observed behavior/workaround before category/procurement selection.
 
 ## Next Action
 
-Execute Scan 080 as a second independent formation-diverse pass at the same strict post-residual-purchase same-outcome failure floor. Exclude Scan 060-079 formations and primary signals, stay mechanism-neutral, and fail closed on incumbent/residual-provider control surface, rights, margin, machine delegatability and generic-agent substitution.
+Open the Scan 080 PR, run repository CI and live TypeSafe/Jev against the final head, consume the actual continuation directive, and continue automatically. If green and Jev returns `ADVANCE_TO_NEXT_SCAN`, merge, verify main, and start Scan 081 as the broad current-reality source reset defined above.
 
 ## Do Not Repeat
+
+- Do not promote NYC VetConnectNYC/Combined Arms merely because money clearly precedes persistent post-launch failure; Combined Arms is the replacement portal/control surface itself, not a distinct residual provider.
+- Do not promote Siloam Springs/BS&A utility billing from rollback severity alone; the distinct executed recurring residual-payment topology is not proven and BS&A owns the failing platform/module.
+- Do not reinterpret DeKalb/Karpel's $32,000 data-extraction change order as residual-layer failure; the buyer describes smooth transition/full utilization and Karpel owns both platform and companion service.
+- Do not keep escalating the same public procurement/payment/audit predicate after two independent zero-retention passes; Scan 081 resets upstream to broad current reality.
 
 - Do not promote Wright State AI detection merely because paid Turnitin remains inaccurate or evadable; Turnitin/Copyleaks already own the exact mature detector surface and academic-integrity action remains human-governed.
 - Do not promote Woodburn Flock non-contribution as a new digital operator edge; incomplete physical coverage and investigation-type applicability are material causal limits and Flock owns the end-to-end control surface.
