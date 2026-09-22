@@ -38,13 +38,14 @@ PR #382 final live Jev run `35689404496`: success; `typesafe-sdk==0.7.0`, model 
 
 ## Active PR
 
-None. Scan 085 research branch is active before PR creation.
+#383 — `Validate participant-authored control-surface bypass in Scan 085`.
 
 ## CI
 
 - PR #381 repository CI `35689116606`: success.
 - PR #381 live TypeSafe/Jev `35689116567`: success; Scan 083 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
 - PR #382 final head `afe92b186c13b73fdf18ef0a7a821930daadeb6e`: repository CI `35689404591` success; live Jev `35689404496` success; Scan 084 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
+- PR #383 opened for Scan 085; final-head repository CI and live Jev pending.
 
 ## Latest Artifact / Persisted State
 
