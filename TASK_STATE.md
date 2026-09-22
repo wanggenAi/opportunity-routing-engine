@@ -68,7 +68,7 @@ PR #367 repository CI run `35676977657` completed `success`. Live Jev run `35676
 
 ## Active PR
 
-None yet for Scan 070. Live GitHub state is authoritative.
+#368 — `Reset discovery after buyer-built abstraction Scan 070`. Live GitHub state is authoritative.
 
 ## CI
 
