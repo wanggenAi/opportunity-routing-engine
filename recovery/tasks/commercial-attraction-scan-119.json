@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generation": 4,
+  "generation": 5,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "IN_PROGRESS",
+  "status": "DONE",
   "task_key": "commercial-attraction-scan-119",
-  "stage": "SCAN_119_READY_TO_MERGE",
-  "last_observed_main_sha": "42c5b5aa2b71e9b543a9b93f0f710f83e03cf100",
+  "stage": "SCAN_119_MERGED_AND_VERIFIED",
+  "last_observed_main_sha": "6443175f9a9dc0e9f02a96519a6c365299d3e820",
   "work_branch": "research/attraction-scan-119",
   "work_head_sha": "a5fa9fe6bd012e2b5a737ae737c422879589d45e",
   "active_pr": 419,
@@ -23,14 +23,7 @@
       "Jev artifact 10709863822"
     ]
   },
-  "pending_operation": {
-    "operation_id": "scan119-merge-pr419",
-    "kind": "MERGE_PULL_REQUEST",
-    "target": "PR #419",
-    "phase": "PREPARED",
-    "idempotency": "Read PR merged state and main history before any retry; enforce expected head SHA.",
-    "prepared_generation": 4
-  },
+  "pending_operation": null,
   "health": {
     "recovery": "HEALTHY",
     "last_error": null
@@ -39,9 +32,10 @@
     "Reconciled stale TASK_STATE against live PR418 merge",
     "Consumed Scan118 Jev ADVANCE_TO_NEXT_SCAN directive",
     "Preserved pre-existing Scan119 branch/start commit",
-    "Identified fresh early-gate evidence for Jintian Yuanfeng, Longjoy Technology and Yudu Media"
+    "Identified fresh early-gate evidence for Jintian Yuanfeng, Longjoy Technology and Yudu Media",
+    "PR419 merged as 6443175f9a9dc0e9f02a96519a6c365299d3e820 and main verified."
   ],
-  "next_action": "Merge PR419 with expected exact head, verify main, then start Scan120 because Jev allowed autonomous continuation.",
+  "next_action": "Start Scan120 from verified main because exact-head Jev continuation is ADVANCE_TO_NEXT_SCAN.",
   "do_not_repeat": [
     "Do not recreate research/attraction-scan-119",
     "Do not repeat Scan060-118 primary formations/signals",
