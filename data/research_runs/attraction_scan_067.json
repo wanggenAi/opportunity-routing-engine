@@ -1,0 +1,125 @@
+{
+  "schema_version": "attraction-scan.v46",
+  "scan_id": "ATTRACTION_SCAN_067",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_CONFIRMED_EXTERNAL_MONEY_MOTIONS_FOR_THE_SAME_BOUNDED_DETERMINISTIC_REPEATABLE_MACHINE_VERIFIABLE_EXECUTION_UNIT_WITH_RECURRING_OR_REPEATED_PAYMENT_EVIDENCE_EXACT_NATIVE_MARKETPLACE_SPECIALIST_SAAS_MANAGED_SERVICE_AND_DATA_RIGHTS_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN066_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_067-F1",
+      "title": "OUTSOURCED_MEDICAL_BILLING_AND_REVENUE_CYCLE_EXECUTION",
+      "chinese_title": "外包医疗账单与收入周期执行",
+      "confirmed_external_money_motions": [
+        "A private-practice therapist reports paying a billing service 6% for years, later 6.5%, proving long-lived external recurring spend rather than stated willingness.",
+        "A separate 2026 therapist reports currently paying a biller 8% to submit billing and handle issues."
+      ],
+      "verdict": "DEMOTED_CONFIRMED_MONEY_MOTION_BUT_PURCHASED_UNIT_BUNDLES_DETERMINISTIC_CLAIMS_WORK_WITH_PAYER_SPECIFIC_JUDGMENT_DENIAL_HANDLING_AND_ACCOUNTABILITY_IN_A_MATURE_RCM_CATEGORY",
+      "evidence_summary": "The money motion is unequivocal, but the actual purchased unit is not a clean atomic machine execution unit. Current RCM offerings bundle claims submission, payment posting, denial management, payer follow-up and account management. AdvancedMD itself prices full-service RCM at 4-8% of collections. The deterministic substeps are already productized while the paid residual includes payer-specific exception judgment, appeals and responsibility."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_067-F2",
+      "title": "LIVE_OR_HYBRID_VIRTUAL_RECEPTIONIST_CALL_HANDLING",
+      "chinese_title": "真人或混合虚拟前台来电处理",
+      "confirmed_external_money_motions": [
+        "A law firm reports using Ruby for overflow on roughly 500 inbound calls per month at about $700/month depending on volume.",
+        "A separate law-firm operator reports keeping Lex after trials of other answering options and paying under $2,000/month."
+      ],
+      "verdict": "DEMOTED_CONFIRMED_RECURRING_SPEND_BUT_MATURE_RECEPTIONIST_CATEGORY_AND_HUMAN_EMPATHY_CONTEXT_AND_CONVERSION_RESPONSIBILITY_REMAIN_PART_OF_THE_BOUGHT_UNIT",
+      "evidence_summary": "Answering, field capture and routing can be specified, but buyers purchase more than message transcription. Current services package 24/7 trained receptionists, scheduling, bilingual handling, intake, payment collection and lead qualification, while AI assistance is already entering the same control surface. The remaining differentiated spend is partly relationship quality, empathy and conversion accountability rather than a founder-independent atomic machine unit."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_067-F3",
+      "title": "MONTHLY_BOOKKEEPING_AND_ACCOUNT_RECONCILIATION_SERVICE",
+      "chinese_title": "月度记账与账户对账服务",
+      "confirmed_external_money_motions": [
+        "A restaurant operator reports paying $900/month for payables and reconciliation.",
+        "Another independent restaurant operator reports paying $715/month for bookkeeping including P&Ls, inventory breakdown, tax-return preparation and sales-tax payments."
+      ],
+      "verdict": "DEMOTED_CONFIRMED_RECURRING_SPEND_BUT_RECONCILIATION_IS_ALREADY_NATIVE_OR_PRODUCTIZED_AND_THE_SERVICE_RETAINER_BUNDLES_CLASSIFICATION_REPORTING_TAX_AND_ADVISORY_JUDGMENT",
+      "evidence_summary": "Bank and card reconciliation is deterministic enough to verify, but the observed monthly payments are service bundles rather than unit-priced reconciliation purchases. QuickBooks Live currently sells cleanup plus monthly categorization and reconciliation with certified bookkeepers, while core accounting products automate much of transaction ingestion and matching. The residual paid layer includes classification ambiguity, tax context, reporting and advisory accountability."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_067-F4",
+      "title": "RECURRING_PODCAST_AUDIO_EDITING",
+      "chinese_title": "周期性播客音频剪辑",
+      "confirmed_external_money_motions": [
+        "A podcast owner reports paying an editor around $30-$35/hour per episode, with roughly five hours of work on 30-40 minute episodes.",
+        "Independent podcast buyers report editors charging about $50 per episode, with another payer reporting $140 per episode."
+      ],
+      "verdict": "DEMOTED_CONFIRMED_PER_EPISODE_SPEND_BUT_DETERMINISTIC_CLEANUP_IS_ALREADY_AI_PRODUCTIZED_AND_THE_REMAINING_EDIT_IS_SUBJECTIVE_CONTENT_AND_BRAND_JUDGMENT",
+      "evidence_summary": "This case comes closest to unit-level payment because episodes can be priced individually. But the machine-verifiable portion—silence trimming, filler-word removal, transcription and basic cleanup—is already absorbed by current editing software such as Descript. The part buyers still value enough to delegate includes pacing, story selection, taste, brand voice and seamless contextual cuts, which are not objective acceptance units across buyers."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_067-F5",
+      "title": "SMALL_BUSINESS_PAYROLL_PROCESSING_AND_TAX_FILING",
+      "chinese_title": "小企业工资处理与税务申报",
+      "confirmed_external_money_motions": [
+        "A one-person S-Corp owner reports paying a CPA $125/month for payroll, rising to $200/month, including state unemployment and withholding handling.",
+        "Independent small-business users report multi-year paid use of Gusto for payroll and describe current recurring provider relationships."
+      ],
+      "verdict": "DEMOTED_CONFIRMED_RECURRING_SPEND_AND_OBJECTIVE_OUTPUT_BUT_EXACT_PAYROLL_EXECUTION_IS_ALREADY_A_MATURE_SOFTWARE_AND_SERVICE_CONTROL_SURFACE",
+      "evidence_summary": "Payroll has deterministic inputs, deadlines and externally verifiable outputs, but that strength has already produced dense incumbent control surfaces. Gusto currently sells single-state payroll with tax filings and payments from $49/month plus per-person fees, with higher tiers for multi-state payroll and support. Confirmed money motion therefore validates the category, not independent white space."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_067-F6",
+      "title": "DMARC_REPORT_AGGREGATION_MONITORING_AND_ALERTING",
+      "chinese_title": "DMARC 报告聚合、监控与告警",
+      "confirmed_external_money_motions": [
+        "A 2026 MSP reports moving away from EasyDMARC after renewal pricing rose from 215 to 431 and paying roughly one quarter of that with dmarcly.",
+        "Another MSP in the same current market reports paying EUR 80 for a 120-domain DMARC package, while independent administrators report paying for DMARCly, Red Sift OnDMARC and similar services."
+      ],
+      "verdict": "DEMOTED_CONFIRMED_PAID_ATOMIC_MONITORING_UNIT_BUT_EXACT_CATEGORY_IS_ALREADY_DENSE_LOW_COST_AND_PARTLY_FREE_WITH_NO_DISTINCT_OPERATOR_ASSET",
+      "evidence_summary": "DMARC aggregation and alerting is bounded, recurring and machine-verifiable, and the money motion is real. That makes it the cleanest physics case in this scan, but also the most saturated: current URIports pricing starts at low single-digit monthly plans with automated report processing, DNS monitoring, notifications and MSP/API features, while multiple alternatives and free/basic paths exist. The atomic unit is commercially real but already commoditized."
+    }
+  ],
+  "hard_floor_demotions": [
+    "MEDICAL_BILLING_MONEY_MOTION_DOES_NOT_CREATE_MACHINE_OPERATOR_WHITE_SPACE_WHEN_THE_PAID_RCM_UNIT_INCLUDES_DENIAL_JUDGMENT_PAYER_CONTEXT_AND_ACCOUNTABILITY_AND_EXACT_INCUMBENTS_ALREADY_BUNDLE_THE_WORK",
+    "VIRTUAL_RECEPTIONIST_SPEND_DOES_NOT_ISOLATE_AN_ATOMIC_UNIT_WHEN_BUYERS_PAY_FOR_EMPATHY_INTAKE_CONVERSION_CONTEXT_AND_24X7_HUMAN_COVERAGE_INSIDE_A_MATURE_CATEGORY",
+    "BOOKKEEPING_RETAINERS_DO_NOT_PROVE_A_RECONCILIATION_WEDGE_WHEN_RECONCILIATION_IS_ALREADY_NATIVE_OR_PRODUCTIZED_AND_THE_RETAINER_BUYS_BROADER_ACCOUNTING_JUDGMENT",
+    "PODCAST_EDITING_PER_EPISODE_PAYMENT_DOES_NOT_CREATE_OBJECTIVE_MACHINE_ACCEPTANCE_WHEN_STANDARD_CLEANUP_IS_AI_ABSORBED_AND_CONTENT_CUTS_REMAIN_TASTE_DEPENDENT",
+    "PAYROLL_CONFIRMED_PAYMENT_VALIDATES_A_MATURE_CONTROL_SURFACE_RATHER_THAN_PRE_CATEGORY_WHITE_SPACE",
+    "DMARC_MONITORING_CONFIRMS_A_TRUE_ATOMIC_PAID_UNIT_BUT_LOW_COST_DENSE_SAAS_AND_FREE_CONTROL_SURFACES_REMOVE_DISTINCT_OPERATOR_ADVANTAGE"
+  ],
+  "scan_learnings": [
+    "TWO_INDEPENDENT_CONFIRMED_EXTERNAL_MONEY_MOTIONS_ARE_STRONG_ECONOMIC_EVIDENCE_BUT_STILL_DO_NOT_PROVE_THAT_THE_BOUGHT_UNIT_IS_ATOMIC",
+    "SERVICE_RETAINERS_FREQUENTLY_BUNDLE_DETERMINISTIC_EXECUTION_WITH_JUDGMENT_CONTEXT_ACCOUNTABILITY_SUPPORT_AND_RISK_TRANSFER",
+    "WHEN_A_PAID_UNIT_IS_TRULY_ATOMIC_DETERMINISTIC_AND_MACHINE_VERIFIABLE_PAYROLL_AND_DMARC_SHOW_THAT_SOFTWARE_CATEGORIES_TEND_TO_FORM_EARLY",
+    "PER_EPISODE_OR_PER_TASK_PRICING_IS_STRONGER_THAN_A_MONTHLY_RETAINER_BUT_STILL_FAILS_IF_ACCEPTANCE_DEPENDS_ON_TASTE_OR_BUYER_SPECIFIC_CONTEXT",
+    "THE_NEXT_EVIDENCE_FLOOR_SHOULD_REQUIRE_PAYMENT_ATTRIBUTABLE_TO_THE_UNBUNDLED_ATOMIC_EXECUTION_UNIT_ITSELF_NOT_MERELY_PAYMENT_TO_A_SERVICE_PROVIDER",
+    "UNIT_OR_TASK_LEVEL_PRICE_ATTRIBUTION_SHOULD_BE_COMBINED_WITH_OBJECTIVE_ACCEPTANCE_BEFORE_INCUMBENT_DESCENT",
+    "CONFIRMED_MONEY_MOTION_IS_A_DISCOVERY_START_NOT_A_COMMERCIAL_PROMOTION_OVERRIDE",
+    "SCAN067_ZERO_RETENTION_AFTER_UNBUNDLING_MATURE_CONTROL_SURFACE_AND_HUMAN_RESPONSIBILITY_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_068",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_CONFIRMED_EXTERNAL_PAYMENTS_TO_THE_SAME_UNBUNDLED_ATOMIC_EXECUTION_UNIT_WITH_UNIT_OR_TASK_LEVEL_PRICE_ATTRIBUTION_DETERMINISTIC_REPEATABLE_MACHINE_VERIFIABLE_ACCEPTANCE_BOUNDED_HUMAN_EXCEPTION_ONLY_EXACT_NATIVE_MARKETPLACE_SPECIALIST_SAAS_MANAGED_SERVICE_DATA_AND_ACTION_RIGHTS_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN067_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN068_FROM_TWO_INDEPENDENT_CONFIRMED_EXTERNAL_PAYMENTS_ATTRIBUTABLE_TO_THE_SAME_UNBUNDLED_ATOMIC_EXECUTION_UNIT_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/therapists/comments/1juu8yh/",
+    "https://www.reddit.com/r/therapists/comments/1snpgtv/simple_practice_billing/",
+    "https://www.advancedmd.com/software-pricing/",
+    "https://www.reddit.com/r/LawFirm/comments/190sf6s/virtual_receptionist/",
+    "https://www.reddit.com/r/LawFirm/comments/1ly4nu2/answering_service/",
+    "https://www.ruby.com/plans-and-pricing/",
+    "https://www.reddit.com/r/restaurantowners/comments/1fpk9a4/",
+    "https://quickbooks.intuit.com/learn-support/en-us/help-article/new-subscriptions/learn-quickbooks-live-bookkeeping-service/L5lZiwlRS_US_en_US",
+    "https://www.reddit.com/r/podcasting/comments/1fjvtgs/",
+    "https://www.reddit.com/r/podcasting/comments/1ftfpwr/",
+    "https://www.descript.com/ai/edit-for-clarity",
+    "https://www.reddit.com/r/smallbusiness/comments/1jrj7qt/how_much_do_you_pay_for_payroll_service/",
+    "https://www.reddit.com/r/smallbusiness/comments/1nwzmtb/what_is_the_best_small_business_payroll_software/",
+    "https://gusto.com/product/pricing",
+    "https://www.reddit.com/r/msp/comments/1wgndk0/looking_for_suggestions_for_dmarc_management/",
+    "https://www.reddit.com/r/sysadmin/comments/1s0zidh/automated_dmarc_report_analysis/",
+    "https://www.uriports.com/pricing"
+  ]
+}
