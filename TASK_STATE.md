@@ -38,13 +38,13 @@ PR #386 final live Jev run `35696202000`: success; Scan 088 3/3 `NO_FURTHER_RESE
 
 ## Active PR
 
-Not yet opened. Scan 089 research/doc/test/reset-state are persisted on the active branch.
+#387 — `Validate paid cross-component coordination in Scan 089`.
 
 ## CI
 
 - PR #385 final head `b68a1dc0fe08ddfae1fc81801f576dc93d98ec56`: repository CI `35691825830` success; live Jev `35691825836` success; Scan 087 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
 - PR #386 final head `cee2dd633dc458ce2d94e06a84cbda7b7f1c5981`: repository CI `35696201982` success; live Jev `35696202000` success; Scan 088 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- Scan 089 branch CI/Jev: not started until PR is opened.
+- PR #387 opened for Scan 089; final-head repository CI and live Jev pending.
 
 ## Latest Artifact / Persisted State
 
@@ -132,7 +132,7 @@ Validation:
 
 Engineering:
 - no Jev integration blocker;
-- Scan 089 PR, final-head repository CI and live Jev are pending.
+- PR #387 is open; final-head repository CI and live Jev are pending.
 
 Discovery:
 - Scan 089 research is complete with zero retention;
