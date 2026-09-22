@@ -14,29 +14,30 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_123` research is complete with zero primary admissions. Six fresh low-FTE current-report packets were screened, including multiple non-manufacturing routes; every packet failed at least one strict current-economic admission leg before control deepening. Scan 124 should keep the same admission constitution, prioritize positive-profit and positive-OCF retrieval signals for efficiency, and check fresh-operator control first only for true admitted survivors.
+Discovery: `ATTRACTION_SCAN_124` is in progress. Keep the Scan 123 strict current-economic admission unchanged: current same-entity intrinsically low FTE + positive external revenue + positive net profit + unambiguous positive consolidated OCF must all pass before primary formation admission. Partial matches remain exclusions. Prioritize positive-profit and positive-OCF retrieval signals for efficiency, include fresh non-manufacturing routes, and check completed fresh-operator control first only for admitted survivors.
 
 ## Current Phase
 
-`SCAN_123_RESEARCH_COMPLETE_PR_VALIDATION_PENDING`
+`SCAN_124_RESEARCH_IN_PROGRESS`
 
 ## Last Verified Main
 
-`d994ab4ba82004b28714ce884202cf8863991e07`
-— squash merge of PR #422, `Run strict current-economic admission Scan 122`.
+`4914ccc5ab672e9382dbd3df19d99596722ce1e9`
+— squash merge of PR #423, `Run zero-admission strict economic Scan 123`.
 
-PR #422 final head `9d876888381460ae41fbde40c380e97ba73331f7`:
-- repository CI `35768174465`: success;
-- live TypeSafe/Jev `35768174557`: success;
-- live-shadow job `106882956947`: success;
-- advisory artifact `10712508399`;
-- 2/2 model and effective route `NO_FURTHER_RESEARCH`;
-- 2/2 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
+PR #423 final head `79f20b86606c96e67d5373829c4a3b5f0b301ec3`:
+- repository CI `35770465210`: success;
+- Jev workflow `35770465202`: success;
+- contracts job `106890574782`: success;
+- live-shadow job `106890709335`: success;
+- advisory artifact `10714156517`;
+- `authoritative_zero_admission=true`;
+- `entity_count=0`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That exact-head directive was consumed to start Scan 123.
+No fake formation was created and no live Jev entity call was needed because Scan 123 authoritatively admitted zero formations. That exact-head directive was consumed to start Scan 124.
 
 ## Active Issue
 
@@ -44,17 +45,17 @@ That exact-head directive was consumed to start Scan 123.
 
 ## Active Branch
 
-`research/attraction-scan-123`
+`research/attraction-scan-124`
 
 ## Active PR
 
-None at this checkpoint. Scan 123 research/state/tests and the Jev zero-admission control-plane fix are persisted. Open exactly one PR only after the final branch head is frozen; do not make branch commits after PR creation.
+None. Scan 124 research is in progress; do not open a PR until research/state/test content is complete and the final branch head is frozen.
 
 ## CI
 
-PR #422 / Scan 122 exact-head repository CI and live TypeSafe/Jev are complete, successful and consumed.
+PR #423 / Scan 123 exact-head repository CI and Jev control-plane validation are complete, successful and consumed.
 
-Scan 123 exact-head PR validation has not run yet. The final PR must require repository CI plus the Jev workflow on the exact same frozen head.
+Scan 124 has no PR validation yet because research is still in progress.
 
 ## Parallel Validation
 
@@ -64,90 +65,61 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-Scan 123 artifacts:
+Last completed scan artifacts:
 - `data/research_runs/attraction_scan_123.json`;
 - `docs/research/ATTRACTION_SCAN_123_2026-09-23.md`;
 - `tests/test_attraction_scan_123_zero_admission_repeat.py`;
 - `tests/test_jev_zero_admission.py`.
 
-Jev control-plane updates:
-- `src/jev_research_advisory.py`;
-- `tools/run_jev_research_advisory.py`.
-
-Machine state after Scan 123 research:
+Machine state before Scan 124 completion:
 - last completed scan = `ATTRACTION_SCAN_123`;
-- last resolved formation = `ATTRACTION_SCAN_122-F2` because Scan 123 admitted no primary formation;
-- next scan = `ATTRACTION_SCAN_124`;
+- last resolved formation = `ATTRACTION_SCAN_122-F2`;
+- next scan / active research target = `ATTRACTION_SCAN_124`;
 - active commercial candidates = 0;
 - retained research formations = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Consumed PR #422 exact-head `ADVANCE_TO_NEXT_SCAN` from successful repository CI and live TypeSafe/Jev.
-- Recovered the already-started `research/attraction-scan-123` branch instead of recreating or overwriting it.
-- Repeated the strict current same-entity low-FTE + external-revenue + net-profit + consolidated-OCF admission on fresh current reports.
-- Included fresh non-manufacturing routes without weakening any gate.
-- Screened six fresh packets and admitted zero primary formations:
-  - 墨麟股份: 10 FTE; revenue positive; net loss; OCF negative.
-  - 千想传媒: 19 FTE; revenue and net profit positive; OCF negative.
-  - 中食花泽: 16 FTE; revenue and OCF positive; net loss.
-  - 正扬股份: 12 FTE; revenue positive; net loss; OCF negative.
-  - ST义众实: 13 FTE; revenue positive; net loss; OCF negative.
-  - 壹柒伍: 20 FTE; revenue positive; net loss; OCF negative.
-- Performed no control-history deepening because no packet passed the full current-economic conjunction.
-- Preserved zero promotions and zero retained formations.
-- Did not promote completed fresh control into the primary admission gate because Scan 123 produced no second survivor on which to replicate the Scan 122 control bottleneck.
-- Fixed the Jev control plane so an explicitly completed `zero_primary_admissions=true` scan can advance without fabricating a formation, while an unmarked empty input remains fail-closed.
+- Consumed PR #422 exact-head live Jev continuation and completed Scan 123.
+- Scan 123 screened six fresh low-FTE packets, including multiple non-manufacturing routes, and admitted zero primary formations.
+- Preserved strict economic admission instead of fabricating a survivor.
+- Fixed and validated explicit zero-admission Jev continuation while keeping ordinary empty input fail-closed.
+- Did not promote fresh-operator control into the primary gate because Scan 123 supplied no second admitted survivor.
+- Merged PR #423 only after exact-head repository CI and Jev control-plane validation both succeeded.
+- Consumed PR #423 `ADVANCE_TO_NEXT_SCAN` and created `research/attraction-scan-124` from the verified merged main.
 
 ## Current Findings
 
-Key invariants:
-
 ```text
-LOW FTE
+CURRENT LOW FTE
 + POSITIVE EXTERNAL REVENUE
 + POSITIVE NET PROFIT
-+ NEGATIVE CONSOLIDATED OCF
-!= PRIMARY FORMATION ADMISSION
-
-LOW FTE
-+ POSITIVE EXTERNAL REVENUE
 + POSITIVE CONSOLIDATED OCF
-+ NEGATIVE NET PROFIT
-!= PRIMARY FORMATION ADMISSION
+=> ONLY THEN PRIMARY FORMATION ADMISSION
 
-FRESH NONMANUFACTURING ROUTE
-!= CURRENT POSITIVE CASH ECONOMICS
+PARTIAL ECONOMIC MATCH
+=> EXCLUDED OBSERVATION
+=> STOP BEFORE CONTROL RESEARCH
 
 ZERO PRIMARY ADMISSIONS
-!= MISSING RESEARCH
+!= PERMISSION TO RELAX THE GATE
 != PERMISSION TO FABRICATE A FORMATION
 
-ONE PRIOR CONTROL-BOTTLENECK PASS
-+ ZERO SURVIVORS IN THE INDEPENDENT REPEAT
-!= ENOUGH EVIDENCE TO PROMOTE CONTROL INTO THE ENTRY GATE
+SCAN122 CONTROL BOTTLENECK
++ SCAN123 ZERO SURVIVORS
+!= SECOND INDEPENDENT CONTROL REPLICATION
 ```
-
-Scan 123 confirms that the strict current-economic conjunction remains useful as an early attention filter. It does not provide the second admitted-survivor observation needed to promote fresh-operator control into primary admission.
 
 ## Next Evidence Boundary
 
 ```text
-CURRENT SAME-ENTITY REPORT AVAILABLE
-+ CURRENT / LATEST DIRECTLY DISCLOSED FTE INTRINSICALLY LOW
-+ POSITIVE EXTERNAL REVENUE
-+ POSITIVE NET PROFIT
-+ UNAMBIGUOUS POSITIVE CONSOLIDATED OCF
+PRIORITIZE CURRENT POSITIVE-PROFIT + POSITIVE-OCF RETRIEVAL SIGNALS
++ VERIFY CURRENT / LATEST DIRECTLY DISCLOSED FTE IS INTRINSICALLY LOW
++ VERIFY POSITIVE EXTERNAL REVENUE
++ VERIFY SAME-ENTITY CURRENT NET PROFIT > 0
++ VERIFY SAME-ENTITY CONSOLIDATED OCF > 0
 => PRIMARY FORMATION ADMISSION
-
-ELSE:
-  EXCLUDED OBSERVATION
-  + STOP
-
-RETRIEVAL EFFICIENCY:
-  PRIORITIZE POSITIVE-PROFIT + POSITIVE-OCF SIGNALS
-  WITHOUT RELAXING LOW-FTE OR EXTERNAL-REVENUE GATES
 
 FOR EVERY ADMITTED SURVIVOR, CHECK CONTROL FIRST:
   COMPLETED FRESH-OPERATOR-REPRODUCIBLE CONTROL BEFORE REPORTING PERIOD
@@ -160,7 +132,7 @@ FOR EVERY ADMITTED SURVIVOR, CHECK CONTROL FIRST:
 => POSSIBLE VERIFIED FOUNDER-LIGHT CONTROL CASHFLOW
 ```
 
-Do not derive a product or vertical from the zero-admission result.
+Do not derive a product or vertical from prior zero-retention or zero-admission results.
 
 ## Blockers
 
@@ -168,26 +140,24 @@ Validation:
 - Scan 015-F1 still needs a real official written provider response/agreement and founder-free inbound proof.
 
 Discovery:
-- no research blocker;
-- Scan 123 exact-head PR validation is the next required step.
+- no blocker; Scan 124 current-report research is active.
 
 Engineering:
-- the zero-admission Jev control-plane fix is persisted but must pass repository CI before it is trusted.
+- no current TypeSafe/Jev integration blocker.
 
 ## Do Not Repeat
 
-- Do not repeat Scan 123 墨麟股份, 千想传媒, 中食花泽, 正扬股份, ST义众实 or 壹柒伍 as Scan 124 primary formations/signals.
+- Do not repeat Scan 123 墨麟股份, 千想传媒, 中食花泽, 正扬股份, ST义众实 or 壹柒伍.
 - Do not repeat Scan 122 Huada Shares or Kangmeifeng.
 - Do not repeat Scan 121 Canyou Shanwu, Xinrui Yingcheng or Jinante.
 - Do not return to Scan 060-123 formations or their primary discovery signals.
-- Do not spend primary-formation effort on partial current-economics matches; record them as excluded observations and stop.
-- Do not fabricate a primary formation merely to give Jev a non-empty entity list.
+- Do not spend primary-formation effort on partial current-economics matches.
+- Do not fabricate a primary formation for Jev.
 - Do not promote fresh-control to an entry hard gate until another actual admitted survivor independently reproduces that bottleneck.
 - Do not count captive related-party throughput as positive external revenue.
 - Do not revert to acquisition-first search.
 - Do not use job/gig/RFQ/procurement feeds or asset-marketplace feeds as discovery ontology.
-- Do not infer a product from a closed or zero-admission scan.
-- Do not normalize away manufacturing, customer-specific technical work, physical fulfillment or family operating control.
+- Do not infer a product from a closed formation.
 - Do not repeat Scan 015 public-rights research while written evidence is outstanding.
 
 ## Guardrails
@@ -213,16 +183,16 @@ Contract: `OPPORTUNITY_JEV_RESEARCH_ADVISORY_V2`.
 Actual PR workflow:
 1. installs `typesafe-sdk==0.7.0`;
 2. runs `tools/run_jev_research_advisory.py --scan-json auto --commercial-state-json data/commercial_reset_state.json --max-entities 6 --output-dir .artifacts/jev-research-advisory --require-success`;
-3. TypeSafe calls `jev-latest` for real admitted entities when present;
+3. TypeSafe calls `jev-latest` for actual admitted entities when present;
 4. Jev returns advisory routes only;
 5. repository logic preserves authoritative closures and derives effective routes;
 6. `OPPORTUNITY_JEV_AGENT_CONTINUATION_V1` emits the continuation directive;
 7. the active agent consumes the directive.
 
-For an explicitly completed zero-admission scan, there are no admitted entities to send to Jev. The control plane now records a successful authoritative zero-admission result and derives continuation without inventing an entity. Unmarked empty input still fails closed.
+For an explicitly completed zero-admission scan there are no admitted entities to send to Jev; the control plane validates the authoritative zero-admission state without inventing an entity. Unmarked empty input remains fail-closed.
 
 Jev cannot promote candidates, mutate authoritative commercial truth, reverse closed verdicts or perform external side effects.
 
 ## Next Action
 
-Freeze the completed Scan 123 branch head, open one PR, require exact-head repository CI plus the Jev control-plane workflow, inspect the advisory/continuation directive, and merge only if validation succeeds and zero-admission remains authoritative. If continuation allows autonomous progress, start Scan 124 immediately from the persisted strict boundary.
+Run Scan 124 from fresh current-report evidence. Use positive-profit and positive-consolidated-OCF signals to improve retrieval efficiency, but still require current low FTE and positive external revenue before primary admission. Record partial matches as exclusions. For any true survivor, check completed fresh-operator-reproducible control first. Persist state/tests, freeze the PR head, and validate exact-head repository CI plus the Jev workflow.
