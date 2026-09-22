@@ -1,0 +1,198 @@
+{
+  "schema_version": "attraction-scan.v76",
+  "scan_id": "ATTRACTION_SCAN_102",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA",
+    "GLOBAL_AUXILIARY"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "SECOND_INDEPENDENT_OPERATOR_ACQUIRABLE_CONTROL_PLUS_EXTERNAL_ECONOMIC_MOTION_PASS_REQUIRE_DIRECT_CURRENT_OR_RECENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_PLUS_CURRENT_EXTERNAL_PAYMENT_SPEND_OR_DIRECT_MARGIN_EVIDENCE_AND_EVIDENCE_THAT_AN_INDEPENDENT_SMALL_OPERATOR_CAN_LEGALLY_ACQUIRE_BUY_OWN_CONTRACT_OR_ASSEMBLE_THE_DECISIVE_NON_GENERIC_ASSET_RIGHT_OR_ROUTING_POSITION_THROUGH_STANDARDIZED_CHANNELS_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_101_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_NATIVE_OPEN_SOURCE_GENERIC_AGENT_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_102-F1",
+      "title": "CHINA_SELF_SERVICE_CAR_WASH_LOCAL_ASSET_CONTROL",
+      "discovery_route": "CURRENT_PARTICIPANT_OPERATED_LOCAL_ASSET_WITH_REPORTED_REVENUE_AND_PROFIT_PLUS_CURRENT_DIGITAL_STORE_CONTROL_SURFACE",
+      "observed_actor_state_change_evidence": [
+        "A January 2026 China participant reported operating two self-service car-wash stores while retaining a full-time job: the first store was above RMB 20,000 monthly revenue, the second exceeded RMB 10,000 in its first half-month, and single-store monthly profit was reported above RMB 10,000.",
+        "The same operator reported roughly RMB 200,000 single-store investment and explicitly described expansion to more stores; the current V2EX side-hustle index in September 2026 shows a later update titled 'self-service car-wash side-hustle update (third store opened)', which is continuity evidence rather than a new revenue claim."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "A small operator can lease a site, buy wash equipment and contract supporting software through ordinary commercial channels.",
+        "Current commercial wash software exposes merchant/store/stall configuration, QR-triggered sessions, pricing, payment, coupons, operating data and remote equipment switching; open-source car-service systems also expose store, membership, order and payment primitives."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The operator already uses part-time cleaning while personally handling calls, chemical replenishment and equipment maintenance, showing that some labor can be delegated but recurring physical exception work remains.",
+        "China car owners continue to report using nearby self-service wash bays when they want lower-cost or DIY washing."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This passes operator acquirability and external economic motion strongly: the site/equipment stack is ownable and reported store-level money is real.",
+        "The decisive value is nevertheless a local physical service asset. Revenue depends heavily on site selection, local throughput, cleaning, consumables and equipment uptime rather than a reusable operator routing edge.",
+        "Commercial and open-source store-control software already commoditize much of the digital layer, so software orchestration is not the scarce control."
+      ],
+      "economic_signal": [
+        "Participant-reported single-store monthly revenue exceeds RMB 20,000 and monthly profit exceeds RMB 10,000 with roughly RMB 200,000 initial investment.",
+        "Those economics prove a real business but do not prove normalized software/orchestration margin after capital, site and recurring physical operations."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Current wash-store software already offers QR session start, pricing/payment, store/stall state and remote equipment control.",
+        "Current open-source car-service systems provide multi-store membership, ordering, cashier and mini-program primitives.",
+        "The remaining scarce surface is physical site quality and local operations, not an absent digital coordination layer."
+      ],
+      "operator_acquirability_check": "PASS_SITE_LEASE_WASH_EQUIPMENT_PAYMENT_AND_STORE_CONTROL_CAN_BE_BOUGHT_OWNED_OR_CONTRACTED_THROUGH_STANDARD_COMMERCIAL_CHANNELS",
+      "founder_independence_check": "FAIL_RECURRING_CALLS_CONSUMABLE_REPLENISHMENT_EQUIPMENT_MAINTENANCE_SITE_SELECTION_AND_LOCAL_EXCEPTION_HANDLING_REMAIN_MATERIAL",
+      "data_action_rights_check": "PASS_OPERATOR_CONTROLS_OWN_STORE_EQUIPMENT_PRICING_PAYMENT_AND_AUTHORIZED_CUSTOMER_ORDER_DATA_SUBJECT_TO_PROVIDER_CONTRACTS",
+      "normalized_margin_check": "PARTIAL_PASS_REPORTED_STORE_PROFIT_IS_REAL_BUT_THE_MARGIN_IS_RETURN_ON_LOCAL_CAPITAL_SITE_AND_PHYSICAL_OPERATIONS_NOT_A_DELEGATABLE_ORCHESTRATION_LAYER",
+      "machine_delegatability_check": "FAIL_DIGITAL_SESSION_PAYMENT_AND_MONITORING_CAN_AUTOMATE_BUT_CORE_PHYSICAL_UPTIME_CLEANING_CONSUMABLES_AND_SITE_OPERATIONS_CANNOT",
+      "generic_agent_substitutability_check": "FAIL_FOR_THE_DIGITAL_LAYER_GENERIC_SOFTWARE_CAN_OPERATE_THE_SAME_STORE_PRIMITIVES_WHILE_THE_NON_GENERIC_PART_IS_PHYSICAL_ASSET_CONTROL",
+      "verdict": "DEMOTED_REAL_ACQUIRABLE_ASSET_AND_STRONG_MONEY_MOTION_BUT_VALUE_IS_LOCAL_PHYSICAL_ASSET_OPERATION_NOT_A_DURABLE_MACHINE_EXECUTABLE_ORCHESTRATION_EDGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_102-F2",
+      "title": "CHINA_COMMUNITY_OR_SMALL_SITE_EV_CHARGING_CONTROL",
+      "discovery_route": "CURRENT_CHINA_OPERATOR_OWNED_CHARGING_STATION_PLUS_PARTICIPANT_SHARED_CHARGER_PATH_PLUS_CURRENT_USER_CHARGING_SPEND_AND_STANDARDIZED_OPERATOR_PARTNERSHIP",
+      "observed_actor_state_change_evidence": [
+        "A 2026 China participant reported having built a charging station in 2019 and described the still-operating station as a materially successful fallback business.",
+        "In a January 2026 side-hustle discussion another participant described converting an owned or rented residential parking-space charger into a shared charger so other drivers pay to charge, and stated that used chargers can be acquired cheaply with installation."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Current StarCharge partner materials explicitly offer site selection, station construction, operation and maintenance support and require partners to have relevant business scope plus funds or site resources.",
+        "This demonstrates a standardized legal/commercial path for an independent operator with site/capital to acquire charging hardware and station-operation capacity rather than relying on an upstream right that cannot be obtained."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "A China EV owner reported 51 charging sessions in a year at a community Xiaoju fast-charging site, 976.915 kWh consumed and RMB 1,035.6 paid, or about RMB 1.06/kWh.",
+        "Other current/recent China drivers explicitly compare public charging prices and route around station availability, confirming repeated external payment and utilization rather than a hypothetical demand story."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The formation passes operator acquirability plus external spend: charging equipment/site operation can be contracted, and users demonstrably pay public charging operators.",
+        "The hard economics are site utilization, grid capacity, parking/land access, capex and maintenance; standardized national charging networks already provide station operation, discovery and payment surfaces.",
+        "A small operator can own a station but does not thereby own a scarce routing advantage. The attractive control is the physical site and power connection."
+      ],
+      "economic_signal": [
+        "Participant evidence includes RMB 1,035.6 annual public charging spend for 976.915 kWh at a community fast-charging site and a current station owner describing a long-running profitable/successful station.",
+        "Money motion is strong, but no evidence shows a new independent operator can earn superior normalized margin after site rent, grid capacity, equipment capex, maintenance and incumbent-network pressure."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "StarCharge currently sells/partners across charging hardware, station construction, operations and maintenance, so much of the operator stack is already packaged.",
+        "Public charging discovery/payment is also aggregated by existing navigation and charging platforms, reducing a new operator's ability to monetize simple routing or discovery.",
+        "The non-generic control is a good site/power position; it is capital- and locality-bound rather than a reusable software bridge."
+      ],
+      "operator_acquirability_check": "PASS_CHARGING_EQUIPMENT_SITE_LEASE_OR_OWNERSHIP_AND_OPERATOR_PARTNERSHIP_CAN_BE_ACQUIRED_THROUGH_STANDARDIZED_COMMERCIAL_AND_REGULATORY_CHANNELS_SUBJECT_TO_LOCAL_APPROVALS",
+      "founder_independence_check": "PARTIAL_PASS_BILLING_MONITORING_AND_BASIC_OPERATIONS_CAN_BE_PLATFORM_MANAGED_BUT_SITE_ACQUISITION_GRID_CAPACITY_MAINTENANCE_AND_LOCAL_EXCEPTIONS_REMAIN_PHYSICAL",
+      "data_action_rights_check": "PASS_FOR_OPERATOR_AUTHORIZED_STATION_TELEMETRY_PRICING_ORDER_AND_SETTLEMENT_DATA_SUBJECT_TO_PLATFORM_AND_GRID_CONTRACTS",
+      "normalized_margin_check": "UNKNOWN_TO_FAIL_NO_CURRENT_EVIDENCE_OF_SUPERIOR_SMALL_OPERATOR_MARGIN_AFTER_CAPEX_SITE_GRID_MAINTENANCE_AND_MATURE_NETWORK_FEES",
+      "machine_delegatability_check": "PARTIAL_PASS_DIGITAL_BILLING_MONITORING_PRICING_AND_ROUTING_ARE_MACHINE_EXECUTABLE_BUT_THE_DECISIVE_ASSET_REMAINS_PHYSICAL_SITE_POWER_AND_UPTIME",
+      "generic_agent_substitutability_check": "FAIL_FOR_ROUTING_AND_DIGITAL_OPERATIONS_EXISTING_CHARGING_NETWORKS_AND_GENERIC_SOFTWARE_ALREADY_EXPOSE_THE_SAME_CONTROL_PLANE",
+      "verdict": "DEMOTED_REAL_OPERATOR_OWNABLE_INFRASTRUCTURE_AND_USER_SPEND_BUT_EDGE_REDUCES_TO_CAPITAL_SITE_AND_GRID_POSITION_INSIDE_A_MATURE_CHARGING_NETWORK"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_102-F3",
+      "title": "CHINA_GROUP_EXPENSE_MINIPROGRAM_AD_MONETIZATION",
+      "discovery_route": "CURRENT_ORGANIC_USAGE_PLUS_PLATFORM_AD_MONETIZATION_ON_OPERATOR_OWNED_SOFTWARE_AND_REGISTERED_MINIPROGRAM",
+      "observed_actor_state_change_evidence": [
+        "In September 2026 a China developer reported that a group-expense mini-program initially launched for personal use had accumulated more than 900 group ledgers with little active promotion.",
+        "After discovering the organic usage, the operator enabled two ad placements and reported roughly RMB 10 per day of advertising revenue."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "An independent operator can legally create and operate a WeChat mini-program and, after satisfying platform conditions, enable advertising through the standard traffic-owner flow.",
+        "Tencent Cloud documentation describes the standard flow of enabling traffic-owner monetization, creating ad units, obtaining ad IDs and integrating them into a published mini-program."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The operator discovered real usage only after a user reported an outage, implying some founder-free inbound usage rather than manually sourced customers.",
+        "The tool maintains shared group state and generates settlement paths, but current web tools, dedicated bill-splitting apps and open-source mini-program templates already expose the same core group-expense and minimum-transfer logic."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is the strongest Scan 102 digitally machine-executable example: owned code plus a registered mini-program plus standardized ad monetization produced real money and organic usage.",
+        "Yet the reported revenue is only about RMB 10/day and a commenter with another mini-program reported only about RMB 10/month from ads before switching monetization, exposing weak and highly variable ad economics.",
+        "The settlement algorithm and shared-ledger product surface are already commodity: current web tools, global bill-splitting products and open-source WeChat templates implement the same core outcome."
+      ],
+      "economic_signal": [
+        "Direct current operator evidence reports roughly RMB 10/day ad revenue after more than 900 group ledgers accumulated.",
+        "The operator explicitly framed that revenue as likely sufficient to cover server cost, which is evidence of external value flow but also evidence that normalized surplus is currently too small for a commercial orchestration thesis."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Current AA/group-expense web tools support member entry, multiple split methods, shared rooms and minimum-transfer settlement.",
+        "Current open-source WeChat mini-program templates implement bill splitting, balances and settlement suggestions without a proprietary backend dependency.",
+        "Current global alternatives such as Splitwise-class apps further show that debt simplification and shared expense ledgers are mature product primitives."
+      ],
+      "operator_acquirability_check": "PASS_SOFTWARE_COPYRIGHT_MINIPROGRAM_ACCOUNT_HOSTING_AND_STANDARD_PLATFORM_AD_MONETIZATION_CAN_BE_OWNED_REGISTERED_OR_ENABLED_THROUGH_STANDARD_CHANNELS",
+      "founder_independence_check": "PARTIAL_PASS_ORGANIC_USAGE_EXISTS_AND_RUNTIME_CAN_BE_AUTOMATED_BUT_DISCOVERABILITY_GROWTH_SUPPORT_AND_PLATFORM_POLICY_REMAIN_EXTERNAL_UNCONTROLLED_FACTORS",
+      "data_action_rights_check": "PASS_FOR_OPERATOR_OWNED_APPLICATION_STATE_AND_AUTHORIZED_PLATFORM_AD_INTEGRATION_SUBJECT_TO_WECHAT_PLATFORM_RULES",
+      "normalized_margin_check": "FAIL_CURRENT_REVENUE_IS_APPROXIMATELY_RMB10_PER_DAY_AND_OPERATOR_DESCRIBES_IT_PRIMARILY_AS_SERVER_COST_COVERAGE",
+      "machine_delegatability_check": "PASS_HIGH_GROUP_LEDGER_SETTLEMENT_AD_DELIVERY_MONITORING_AND_BASIC_RUNTIME_RECOVERY_ARE_SOFTWARE_EXECUTABLE",
+      "generic_agent_substitutability_check": "FAIL_CORE_SPLIT_CALCULATION_SETTLEMENT_LOGIC_AND_APPLICATION_IMPLEMENTATION_HAVE_CURRENT_FREE_WEB_OPEN_SOURCE_AND_MATURE_APP_SUBSTITUTES",
+      "verdict": "DEMOTED_STRONGEST_DIGITAL_ACQUIRABLE_CONTROL_AND_ORGANIC_USAGE_EXAMPLE_BUT_ECONOMICS_ARE_TINY_AND_THE_CORE_PRODUCT_PRIMITIVE_IS_GENERIC_AND_MATURE"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "THIRD_SELF_SERVICE_WASH_STORE_AS_NEW_FORMATION",
+      "excluded_reason": "TREATED_AS_CONTINUITY_EVIDENCE_FOR_SCAN102_F1_NOT_A_SEPARATE_FORMATION_BECAUSE_IT_REUSES_THE_SAME_OPERATOR_AND_CONTROL_PRIMITIVE"
+    },
+    {
+      "observation": "GENERIC_MINIPROGRAM_OR_SAAS_AD_MONETIZATION",
+      "excluded_reason": "EXCLUDE_AS_BROAD_MECHANISM_ONLY_THE_CURRENT_GROUP_EXPENSE_CASE_WAS_EXAMINED_BECAUSE_IT_HAD_DIRECT_ORGANIC_USAGE_AND_CURRENT_REVENUE_EVIDENCE"
+    },
+    {
+      "observation": "CHARGING_SLOT_FUTURES_OR_AGENT_BIDDING",
+      "excluded_reason": "EXCLUDE_UNVALIDATED_IDEA_NO_CURRENT_REAL_TRANSACTION_FLOW_OR_OPERATOR_RIGHTS_EVIDENCE"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_paid_stack": false,
+    "operator_acquirable_control_required": true,
+    "external_economic_motion_required": true,
+    "direct_participant_authored_current_friction_required": true,
+    "independent_objective_corroboration_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_LOCAL_AUTOMOTIVE_SERVICE_ASSET_EV_ENERGY_INFRASTRUCTURE_AND_DIGITAL_GROUP_EXPENSE_SOFTWARE",
+    "observed_indexing_bias": "THE_SECOND_ACQUIRABILITY_PLUS_MONEY_PASS_SPLITS_INTO_LOCAL_CAPITAL_ASSETS_WHERE_PHYSICAL_SITE_OPERATION_IS_THE_EDGE_AND_DIGITAL_PRODUCTS_WHERE_STANDARDIZED_PLATFORM_OR_OPEN_SOURCE_PRIMITIVES_DESTROY_SCARCITY",
+    "response": "AFTER_TWO_INDEPENDENT_PASSES_RAISE_THE_NEXT_EVIDENCE_PRIORITY_TO_OPERATOR_SPECIFIC_NON_COMMODITY_CONTROL_OR_COMPOUNDING_DISTRIBUTION_THAT_AN_EQUIVALENT_ENTRANT_CANNOT_ACQUIRE_ON_MATERIALLY_SIMILAR_TERMS_WITHOUT_TURNING_THIS_INTO_A_FIXED_PRODUCT_CATEGORY",
+    "participant_behavior_over_analyst_story": "PASS_ALL_THREE_BIND_TO_CURRENT_OR_RECENT_CHINA_OPERATOR_OR_USER_BEHAVIOR_AND_EXTERNAL_MONEY_MOTION_WITH_OBJECTIVE_CONTROL_SURFACE_CORROBORATION"
+  },
+  "scan_learnings": [
+    "SCAN102_SECOND_OPERATOR_ACQUIRABLE_CONTROL_PLUS_EXTERNAL_ECONOMIC_MOTION_PASS_ZERO_RETENTION_ACROSS_SELF_SERVICE_CAR_WASH_EV_CHARGING_AND_GROUP_EXPENSE_MINIPROGRAM_AD_MONETIZATION",
+    "TWO_INDEPENDENT_ACQUIRABILITY_PLUS_MONEY_PASSES_CONFIRM_THAT_EASY_TO_ACQUIRE_CONTROL_TENDS_TO_COLLAPSE_EITHER_TO_LOCAL_PHYSICAL_ASSET_YIELD_OR_TO_COMMODITIZED_DIGITAL_CONTROL_PLANES",
+    "REAL_PROFIT_DOES_NOT_IMPLY_ORCHESTRATION_FIT_SELF_SERVICE_WASH_CAN_PRODUCE_STRONG_STORE_MARGIN_WHILE_THE_VALUE_REMAINS_SITE_CAPITAL_AND_RECURRING_PHYSICAL_OPERATIONS",
+    "REAL_USER_SPEND_DOES_NOT_CREATE_ROUTING_WHITE_SPACE_WHEN_CHARGING_NETWORKS_ALREADY_PACKAGE_DISCOVERY_PAYMENT_OPERATION_AND_MAINTENANCE_AROUND_THE_SITE_AND_GRID_ASSET",
+    "ORGANIC_USAGE_PLUS_STANDARDIZED_AD_MONETIZATION_CAN_PROVE_FOUNDER_LIGHT_EXTERNAL_VALUE_FLOW_BUT_RMB10_PER_DAY_WITH_MATURE_FREE_AND_OPEN_SOURCE_SUBSTITUTES_FAILS_NORMALIZED_ECONOMICS_AND_SCARCITY",
+    "AFTER_TWO_PASSES_THE_NEXT_STRONGER_EVIDENCE_PROPERTY_IS_OPERATOR_SPECIFIC_NON_COMMODITY_ASYMMETRY_OR_COMPOUNDING_DISTRIBUTION_DATA_CONTRACT_SUPPLY_OR_TRUST_EFFECT_NOT_AVAILABLE_TO_EQUIVALENT_ENTRANTS_ON_SIMILAR_TERMS",
+    "THE_ASYMMETRY_REQUIREMENT_IS_AN_EVIDENCE_PROPERTY_NOT_A_FIXED_VERTICAL_OR_PRODUCT_ONTOLOGY_AND_MUST_BE_DISCOVERED_FROM_BROAD_REALITY"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_103",
+  "next_search_boundary": "OPERATOR_ACQUIRABLE_NON_COMMODITY_CONTROL_PLUS_EXTERNAL_ECONOMIC_MOTION_PASS_REQUIRE_EVIDENCE_THAT_CONTROL_EFFECTIVENESS_IS_NOT_AVAILABLE_TO_AN_EQUIVALENT_COMPETENT_ENTRANT_ON_MATERIALLY_SIMILAR_TERMS_AND_HAS_AN_OPERATOR_SPECIFIC_ASYMMETRY_OR_COMPOUNDING_DISTRIBUTION_DATA_CONTRACT_SUPPLY_OR_TRUST_POSITION_REQUIRE_DIRECT_CURRENT_OR_RECENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_PLUS_CURRENT_EXTERNAL_PAYMENT_SPEND_OR_DIRECT_MARGIN_EVIDENCE_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_102_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_NATIVE_OPEN_SOURCE_GENERIC_AGENT_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN102_WITH_CI_JEV_THEN_START_SCAN103_OPERATOR_SPECIFIC_NON_COMMODITY_CONTROL_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.v2ex.com/amp/t/1184755",
+    "https://www.v2ex.com/go/sidehustle",
+    "https://www.v2ex.com/t/1221989",
+    "https://www.jikecar.cn/",
+    "https://github.com/fushengqian/fuintCar",
+    "https://v2ex.com/t/1186511",
+    "https://www.v2ex.com/t/1184715",
+    "https://v2ex.com/t/1167817",
+    "https://www.starcharge.com/partner/?tp=3",
+    "https://jp.v2ex.com/t/1242626",
+    "https://cloud.tencent.com.cn/document/product/1301/103788",
+    "https://github.com/yanqr213/bill-split-miniprogram-kit",
+    "https://toolv.com/zh-CN/app/aa-ji-zhang",
+    "https://www.splitwithdivvy.com/best-splitwise-alternatives"
+  ]
+}
