@@ -1,0 +1,143 @@
+{
+  "schema_version": "attraction-scan.v52",
+  "scan_id": "ATTRACTION_SCAN_073",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_SIDE_NON_ROLE_REPEAT_PURCHASE_PROCUREMENT_AWARD_INVOICE_OR_RENEWAL_SPEND_SIGNALS_FORMATION_DIVERSE_NO_JOB_POSTING_AS_SOLE_PAYER_EVIDENCE_NO_SELLER_DEFINED_PRODUCTIZED_SERVICE_AS_PRIMARY_SIGNAL_EXCLUDE_SCAN060_TO_072_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "payer_evidence_policy": "BUYER_SIDE_NON_ROLE_REPEAT_PURCHASE_PROCUREMENT_AWARD_INVOICE_OR_RENEWAL_EVIDENCE_NOT_DISCOVERY_ONTOLOGY",
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_073-F1",
+      "title": "MUNICIPAL_SHORT_TERM_RENTAL_COMPLIANCE_MONITORING",
+      "chinese_title": "市政短租合规监测",
+      "buyer_non_role_spend_evidence": [
+        "A current 2026 municipal RFP seeks short-term-rental compliance services for an initial three-year term with two optional one-year extensions and requires implementation plus annual subscription/support pricing.",
+        "The buyer states that it already uses Host Compliance, now owned by Granicus, so the signal is a direct buyer-side recurring procurement/replacement event rather than a job posting or seller price page."
+      ],
+      "formation_frame": "Listings, permit status, tax obligations and complaint activity repeatedly regenerate local short-term-rental compliance state.",
+      "exact_incumbent_preflight": "Granicus Host Compliance already identifies listings across major rental sites, supports permit/tax workflows, monitors compliance, automates outreach and offers 24/7 complaint handling as one current municipal control surface.",
+      "founder_independence_check": "FAIL_THE_STANDARD_DISCOVERY_MONITORING_OUTREACH_AND_PERMIT_TAX_LOOP_IS_ALREADY_A_MATURE_VERTICAL_CONTROL_SURFACE_WHILE_TRUE_ENFORCEMENT_REMAINS_MUNICIPAL",
+      "data_action_rights_check": "PARTIAL_THE_CITY_CONTROLS_ORDINANCE_ENFORCEMENT_AND_LOCAL_RECORDS_BUT_LISTING_DATA_AND_FINAL_ENFORCEMENT_ACTIONS_ARE_NOT_AN_INDEPENDENT_OPERATOR_OWNED_RAIL",
+      "normalized_margin_check": "WEAK_THE_PROCUREMENT_CONFIRMS_RECURRING_BUDGET_BUT_DOES_NOT_EVIDENCE_A_DISTINCT_UNOWNED_EXECUTION_LAYER_BETWEEN_MATURE_VENDOR_AND_MUNICIPAL_AUTHORITY",
+      "verdict": "DEMOTED_DIRECT_RECURRING_PROCUREMENT_BUT_EXACT_STR_COMPLIANCE_CONTROL_SURFACE_ALREADY_OWNS_THE_STANDARD_LOOP"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_073-F2",
+      "title": "WORKERS_COMP_MEDICAL_BILL_REVIEW",
+      "chinese_title": "工伤医疗账单审核",
+      "buyer_non_role_spend_evidence": [
+        "A current 2026 public-sector procurement seeks workers-compensation medical-bill review for an initial October 2026 through September 2029 term with up to two one-year renewals.",
+        "The scope includes bill review, fee-schedule compliance, high-dollar or suspected-inappropriate-care review and recurring savings reporting, establishing repeat buyer-side spend rather than stated interest."
+      ],
+      "formation_frame": "Each workers-compensation medical bill regenerates pricing, fee-schedule, coding and medical-appropriateness review state before payment.",
+      "exact_incumbent_preflight": "Enlyte currently sells an integrated workers-compensation bill-review and cost-containment suite and states that a large majority of bill processing is automated while fee schedules and related controls are maintained inside the service.",
+      "founder_independence_check": "FAIL_ROUTINE_PRICING_CODING_AND_FEE_SCHEDULE_CHECKS_ARE_PRODUCTIZED_WHILE_HIGH_DOLLAR_OR_INAPPROPRIATE_CARE_RESIDUALS_REQUIRE_LICENSED_CLINICAL_JUDGMENT",
+      "data_action_rights_check": "PARTIAL_THE_PAYER_OR_TPA_CONTROLS_CLAIM_AND_BILL_DATA_BUT_MEDICAL_NECESSITY_APPROPRIATENESS_AND_REGULATED_REVIEW_DECISIONS_REQUIRE_AUTHORIZED_CLINICAL_OR_CLAIMS_ACTORS",
+      "normalized_margin_check": "UNKNOWN_RECURRING_SAVINGS_EXIST_BUT_THE_UNAUTOMATED_VALUE_LAYER_IS_EXPERT_REVIEW_RATHER_THAN_A_PROVEN_NORMALIZED_MACHINE_UNIT",
+      "verdict": "DEMOTED_RECURRING_PROCUREMENT_EXISTS_BUT_AUTOMATED_BILL_REVIEW_IS_MATURE_AND_THE_RESIDUAL_IS_LICENSED_CLINICAL_JUDGMENT"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_073-F3",
+      "title": "PARKING_CITATION_PROCESSING_AND_ADJUDICATION",
+      "chinese_title": "停车罚单处理与裁决运营",
+      "buyer_non_role_spend_evidence": [
+        "South San Francisco approved a 2026 extension with Turbo Data Systems for parking citation processing, adjudication support, traffic-citation processing and related issuance equipment through March 31, 2027.",
+        "The nine-month extension is capped at $56,250, providing explicit current buyer-side recurring contract spend."
+      ],
+      "formation_frame": "Every issued citation creates payment, notice, contest, adjudication and collection state that must be processed through a government-controlled lifecycle.",
+      "exact_incumbent_preflight": "Turbo Data Systems already provides one-stop citation management including parking citation processing, web payment, communications, permit and related municipal workflows.",
+      "founder_independence_check": "FAIL_THE_BUYER_IS_RENEWING_THE_EXACT_END_TO_END_INCUMBENT_AND_THE_DISTINCT_RESIDUAL_IS_GOVERNMENT_ADJUDICATION_OR_LEGAL_AUTHORITY_NOT_A_THIN_OPERATOR_LAYER",
+      "data_action_rights_check": "PARTIAL_THE_AGENCY_CONTROLS_CITATION_AND_ADJUDICATION_RIGHTS_WHILE_COURT_STATUTORY_AND_COLLECTION_ACTIONS_REMAIN_GOVERNMENT_OR_AUTHORIZED_PARTY_CONTROLLED",
+      "normalized_margin_check": "FAIL_THE_VISIBLE_RECURRING_BUDGET_IS_ALREADY_CAPTURED_BY_THE_NAMED_END_TO_END_PROVIDER_WITH_NO_EVIDENCED_UNOWNED_STANDARD_UNIT",
+      "verdict": "DEMOTED_EXPLICIT_RENEWAL_MONEY_MOTION_BUT_THE_NAMED_INCUMBENT_ALREADY_OWNS_PROCESSING_PAYMENT_AND_WORKFLOW_CONTROL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_073-F4",
+      "title": "MUNICIPAL_HOTEL_OCCUPANCY_AND_SALES_TAX_ADMINISTRATION",
+      "chinese_title": "市政酒店税与销售税管理审计",
+      "buyer_non_role_spend_evidence": [
+        "A September 2026 City of Weslaco contract record shows renewal of MuniServices tax-administration agreements covering hotel-occupancy and sales-tax audit/administration.",
+        "This is a direct public-buyer renewal signal for recurring tax administration and audit work, not a role posting."
+      ],
+      "formation_frame": "Recurring merchant receipts, remittances, jurisdiction rules and filing periods regenerate municipal tax-administration and compliance-review state.",
+      "exact_incumbent_preflight": "MuniServices/Avenu already operates mature local-government tax-administration, payment and compliance-audit offerings, combining software with experienced tax examiners and audit services.",
+      "founder_independence_check": "FAIL_THE_STANDARD_COLLECTION_ADMINISTRATION_LAYER_IS_PRODUCTIZED_AND_THE_AUDIT_RESIDUAL_DEPENDS_ON_JURISDICTION_SPECIFIC_TAX_EXAMINATION_AND_STATUTORY_INTERPRETATION",
+      "data_action_rights_check": "PARTIAL_THE_CITY_HAS_TAX_ADMINISTRATION_AUTHORITY_BUT_CONFIDENTIAL_TAXPAYER_DATA_AND_ENFORCEMENT_AUDIT_RIGHTS_ARE_STATUTORILY_BOUND",
+      "normalized_margin_check": "UNKNOWN_RENEWAL_PROVES_BUDGET_BUT_NOT_A_DISTINCT_FOUNDER_INDEPENDENT_LAYER_BETWEEN_MATURE_TAX_ADMIN_SOFTWARE_AND_CERTIFIED_OR_EXPERIENCED_AUDIT_WORK",
+      "verdict": "DEMOTED_BUYER_RENEWAL_PROVES_SPEND_BUT_CURRENT_TAX_ADMINISTRATION_AND_AUDIT_INCUMBENTS_ALREADY_OWN_THE_VALUE_CHAIN"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_073-F5",
+      "title": "FOIA_PUBLIC_RECORD_REQUEST_REVIEW_AND_REDACTION",
+      "chinese_title": "FOIA 公共记录请求审查与脱敏",
+      "buyer_non_role_spend_evidence": [
+        "A current 2026 federal procurement renews AINS eFOIAXpress software for a one-year term and describes automated redaction of sensitive information across documents, audio and video.",
+        "A separate 2026 county procurement recommends JustFOIA as a countywide public-records platform with an annually renewing subscription, confirming independent buyer-side recurring software spend."
+      ],
+      "formation_frame": "Each public-records request regenerates intake, search, deduplication, review, exemption, redaction, approval, billing and release state.",
+      "exact_incumbent_preflight": "Current FOIA platforms already provide request intake, workflow, automated or assisted redaction, exemption logs, approvals, payment and release; public agencies also require qualified professional review for high-stakes exemption decisions.",
+      "founder_independence_check": "FAIL_THE_MACHINE_REPEATABLE_WORKFLOW_IS_ALREADY_A_MATURE_PLATFORM_CATEGORY_WHILE_FINAL_RESPONSIVENESS_EXEMPTION_AND_DISCLOSURE_DECISIONS_REMAIN_PUBLIC_BODY_OR_LEGAL_ACCOUNTABILITY",
+      "data_action_rights_check": "PARTIAL_THE_AGENCY_CONTROLS_ITS_RECORDS_AND_RELEASE_PROCESS_BUT_PRIVACY_EXEMPTION_AND_DISCLOSURE_AUTHORITY_CANNOT_BE_ASSUMED_BY_AN_INDEPENDENT_OPERATOR",
+      "normalized_margin_check": "WEAK_MATURE_SAAS_COMPRESSES_THE_STANDARD_WORKFLOW_WHILE_THE_HIGH_VALUE_EXCEPTION_TAIL_REQUIRES_CASE_SPECIFIC_HUMAN_REVIEW",
+      "verdict": "DEMOTED_TWO_BUYER_SIDE_RENEWAL_SIGNALS_EXIST_BUT_END_TO_END_FOIA_WORKFLOW_AND_REDACTION_ARE_ALREADY_PRODUCTIZED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_073-F6",
+      "title": "MANAGED_DETECTION_AND_RESPONSE_SUBSCRIPTION",
+      "chinese_title": "托管检测与响应订阅",
+      "buyer_non_role_spend_evidence": [
+        "MiraCosta Community College records annual Arctic Wolf renewals and a March 15, 2026 through March 14, 2027 renewal of Security Incident Management, Managed Detection and Response and Incident Response for $129,801.10.",
+        "The same record states a cumulative contract value of $364,753.78 since March 2024, making repeated external money motion explicit."
+      ],
+      "formation_frame": "Continuous endpoint, network, identity and cloud telemetry regenerates security-alert, investigation and response state around the clock.",
+      "exact_incumbent_preflight": "Arctic Wolf currently sells 24x7 managed detection, triage, threat hunting, investigation and response with automated/agentic controls plus human security analysts and concierge expertise.",
+      "founder_independence_check": "FAIL_THE_RECURRING_MONITOR_DETECT_TRIAGE_RESPOND_LOOP_IS_THE_EXACT_MATURE_MDR_CATEGORY_AND_THE_REMAINING_VALUE_INCLUDES_HUMAN_CONTEXT_ACCOUNTABILITY_AND_ESCALATION",
+      "data_action_rights_check": "PARTIAL_THE_BUYER_CAN_AUTHORIZE_TELEMETRY_AND_RESPONSE_ACTIONS_BUT_PRODUCTION_REMEDIATION_ACCESS_AND_INCIDENT_ACCOUNTABILITY_REMAIN_CUSTOMER_AND_PROVIDER_CONTROLLED",
+      "normalized_margin_check": "WEAK_THE_STRONG_RENEWAL_BUDGET_IS_ALREADY_CAPTURED_BY_A_MATURE_MANAGED_CATEGORY_WITH_NO_EVIDENCED_SEPARATE_OPERATOR_ASSET",
+      "verdict": "DEMOTED_HIGH_RECURRING_RENEWAL_SPEND_BUT_EXACT_MDR_CONTROL_SURFACE_ALREADY_OWNS_THE_STANDARD_LOOP"
+    }
+  ],
+  "scan_learnings": [
+    "BUYER_SIDE_NON_ROLE_PROCUREMENT_AND_RENEWAL_EVIDENCE_IS_STRONGER_DIRECT_MONEY_MOTION_THAN_JOB_POSTINGS_OR_STATED_BUDGET",
+    "CURRENT_PROCUREMENT_AND_RENEWAL_RECORDS_OFTEN_NAME_THE_INCUMBENT_AND_THEREFORE_SIMULTANEOUSLY_EXPOSE_CONTROL_SURFACE_SATURATION",
+    "RENEWAL_PROVES_RECURRING_WILLINGNESS_TO_PAY_FOR_THE_EXISTING_OUTCOME_BUT_NOT_WILLINGNESS_TO_PAY_A_NEW_INDEPENDENT_OPERATOR",
+    "SHORT_TERM_RENTAL_COMPLIANCE_PROCUREMENT_HAS_RECURRING_SUBSCRIPTION_BUDGET_BUT_CURRENT_VERTICAL_PLATFORMS_ALREADY_OWN_LISTING_IDENTIFICATION_PERMIT_TAX_MONITORING_AND_OUTREACH",
+    "WORKERS_COMP_BILL_REVIEW_HAS_MULTI_YEAR_PROCUREMENT_BUT_THE_REPEATABLE_FEE_SCHEDULE_LAYER_IS_AUTOMATED_WHILE_THE_RESIDUAL_IS_LICENSED_CLINICAL_JUDGMENT",
+    "PARKING_CITATION_PROCESSING_RENEWAL_IS_DIRECT_MONEY_MOTION_BUT_THE_NAMED_VENDOR_ALREADY_OWNS_PROCESSING_PAYMENT_AND_WORKFLOW_CONTROL",
+    "MUNICIPAL_TAX_ADMINISTRATION_RENEWAL_HAS_DIRECT_BUYER_SPEND_BUT_STANDARD_ADMINISTRATION_IS_PRODUCTIZED_AND_AUDIT_RESIDUALS_REMAIN_JURISDICTION_SPECIFIC_EXPERT_WORK",
+    "FOIA_PLATFORM_RENEWALS_PROVE_RECURRING_BUYER_SPEND_BUT_INTAKE_REVIEW_REDACTION_APPROVAL_AND_RELEASE_WORKFLOWS_ARE_MATURE_WHILE_DISCLOSURE_JUDGMENT_REMAINS_ACCOUNTABLE_HUMAN_WORK",
+    "MDR_RENEWAL_CAN_SHOW_SIX_FIGURE_RECURRING_BUDGET_WITHOUT_WHITE_SPACE_WHEN_THE_EXACT_MANAGED_CATEGORY_ALREADY_OWNS_MONITORING_TRIAGE_RESPONSE_AND_EXPERT_ESCALATION",
+    "ONE_BUYER_SIDE_NON_ROLE_SPEND_PASS_IS_NOT_ENOUGH_TO_DERIVE_A_NEW_MECHANISM_OR_CHANGE_EVIDENCE_SOURCE_AGAIN",
+    "SCAN073_ZERO_RETENTION_AFTER_BUYER_SIDE_NON_ROLE_SPEND_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_RIGHTS_AND_MARGIN_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_074",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_SIDE_NON_ROLE_REPEAT_PURCHASE_PROCUREMENT_AWARD_INVOICE_OR_RENEWAL_SPEND_SIGNALS_SECOND_FORMATION_DIVERSE_PASS_EXCLUDE_SCAN060_TO_073_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_POSTING_AS_SOLE_PAYER_EVIDENCE_NO_SELLER_DEFINED_PRODUCTIZED_SERVICE_AS_PRIMARY_SIGNAL_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN074_SECOND_BUYER_SIDE_NON_ROLE_SPEND_PASS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://govtribe.com/file/government-file/20251218170608031-rfp-no-dot-r261167-short-term-rental-services-dot-pdf",
+    "https://granicus.com/product/short-term-rentals-host-compliance/",
+    "https://www.highergov.com/sl/contract-opportunity/mi-workers-compensation-medical-bill-review-69660726/",
+    "https://www.enlyte.com/solutions/casualty/cost-containment-services/bill-review-workers-comp",
+    "https://ci-ssf-ca.legistar.com/LegislationDetail.aspx?FullText=1&GUID=C852AEF3-FA4B-4A46-8478-E520C3DFD718&ID=8062001",
+    "https://www.turbodata.com/Services",
+    "https://civiciq.com/public-contract/city-of-weslaco-tx-muniservices-llc-financial-services-2026-09-01",
+    "https://www.avenuinsights.com/products/",
+    "https://www.avenuinsights.com/tag/auditing/",
+    "https://govtribe.com/opportunity/federal-contract-opportunity/da10-ains-efoiaxpress-software-va-26-00072731-36c10b26q0515",
+    "https://civiciq.com/public-contract/grand-traverse-county-mi-justfoia-technology-2026-08-26",
+    "https://www.justfoia.com/how-it-works/",
+    "https://www.justfoia.com/product-features/redaction/",
+    "https://www.miracosta.edu/office-of-the-president/board-of-trustees/_docs/agendas-and-minutes/agenda-021926.pdf",
+    "https://docs.arcticwolf.com/en/managed-detection-and-response-mdr/managed-detection-and-response"
+  ]
+}
