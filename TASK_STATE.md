@@ -18,23 +18,26 @@ Discovery: `ATTRACTION_SCAN_124` research is complete with authoritative zero pr
 
 ## Current Phase
 
-`SCAN_124_RESEARCH_COMPLETE_PR_VALIDATION_PENDING`
+`SCAN_125_RESEARCH_IN_PROGRESS`
 
 ## Last Verified Main
 
-`4914ccc5ab672e9382dbd3df19d99596722ce1e9`
-— squash merge of PR #423, `Run zero-admission strict economic Scan 123`.
+`f0a1ca42208ff25ea6927c42ddee7f4d6b45eeec`
+— squash merge of PR #424, `Run profit/OCF-prioritized strict economic Scan 124`.
 
-PR #423 final head `79f20b86606c96e67d5373829c4a3b5f0b301ec3`:
-- repository CI `35770465210`: success;
-- Jev workflow `35770465202`: success;
-- contracts job `106890574782`: success;
-- live-shadow job `106890709335`: success;
-- advisory artifact `10714156517`;
-- authoritative zero admission accepted;
+PR #424 final head `d17008c22ec0224108ff996747135a7bd15ce6b0`:
+- repository CI `35772855058`: success;
+- Jev workflow `35772855029`: success;
+- contracts job `106898595276`: success;
+- live-shadow job `106898727345`: success;
+- advisory artifact `10714398462`, digest `sha256:2f8079cadc327a24ed2d28f191b46a94d166ec174be64a0e3b4d32ebcb129c7c`;
+- `authoritative_zero_admission=true`;
+- `entity_count=0`;
+- `execution_status=SUCCESS`;
+- `autonomous_continuation_allowed=true`;
 - continuation: `ADVANCE_TO_NEXT_SCAN`.
 
-That continuation was consumed exactly once to create and run Scan 124.
+That continuation has now been consumed exactly once to create Scan 125 from verified main.
 
 ## Active Issue
 
@@ -42,11 +45,11 @@ That continuation was consumed exactly once to create and run Scan 124.
 
 ## Active Branch
 
-`research/attraction-scan-124`
+`research/attraction-scan-125`
 
 ## Active PR
 
-None at the time of this handoff update. Open exactly one PR only after the final branch head is frozen. Do not push branch commits after PR creation.
+None. Scan 125 research is in progress. Do not open a PR until Scan 125 research, state and tests are complete and the final branch head is frozen.
 
 ## Scan 124 Result
 
@@ -72,13 +75,14 @@ No packet passed the full conjunction, so no control-history deepening was perfo
 
 ## CI
 
-Scan 124 PR validation has not run yet. Required before merge:
-1. freeze exact branch head;
-2. open one PR;
-3. verify repository CI on that exact head;
-4. verify Jev Opportunity Research Advisory on that exact head;
-5. inspect the advisory artifact/continuation;
-6. merge only if both paths succeed and exact-head continuation permits autonomous advance.
+Scan 124 exact-head validation is complete:
+- repository CI `35772855058`: success;
+- Jev Opportunity Research Advisory `35772855029`: success;
+- real TypeSafe/Jev control-plane execution required the configured API key;
+- explicit zero admission was accepted without fabricating an entity;
+- continuation authorized `ADVANCE_TO_NEXT_SCAN`.
+
+Scan 125 has no PR or CI yet because research has just started.
 
 ## Parallel Validation
 
@@ -215,4 +219,6 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Freeze the final Scan 124 branch head, open one PR, validate exact-head repository CI plus the Jev workflow, inspect the advisory continuation and merge only if both succeed. If and only if the merged exact-head continuation is `ADVANCE_TO_NEXT_SCAN`, create Scan 125 from verified main and start joint low-FTE + positive-profit + positive-OCF retrieval.
+Run Scan 125 fresh current-report research using joint **intrinsically low FTE + positive net profit + positive consolidated OCF** retrieval signals for efficiency. Still independently verify positive external revenue before primary admission, preserve all strict gates, exclude Scan 060-124 formations/signals, include fresh non-manufacturing routes, and only deepen control/delivery for a formation that passes the full current-economic conjunction.
+
+Do not fabricate a primary formation if no fresh packet passes.
