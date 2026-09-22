@@ -6,11 +6,11 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 073 completed the first **buyer-side non-role repeat-spend** pass after Scan 071/072 showed that job/contract budget is a weak white-space signal. Six new formations — municipal short-term-rental compliance, workers' comp medical-bill review, parking citation processing, municipal hotel/sales-tax administration, FOIA/public-records workflow and managed detection/response — all carried current procurement/renewal evidence and all failed closed.
+Scan 074 completed the **second independent buyer-side non-role repeat-spend pass**. Six new formations — public-fleet telematics/compliance automation, probation electronic monitoring, satellite water-leak detection, emergency mass notification, solid-waste route optimization and public-safety CAD — all carried current buyer procurement/renewal evidence and all failed closed.
 
-The new pattern is economic rather than mechanistic: procurement/renewal records strongly prove recurring external money motion, but they frequently name the mature incumbent in the same record. Standard control loops are already productized; residual value concentrates in public authority, licensed judgment, statutory interpretation, incident accountability or other human responsibility.
+Across Scans 073 and 074, formal procurement/renewal is now confirmed as strong direct money-motion evidence but a biased white-space sensor: it disproportionately surfaces named, already-formed categories whose incumbent already owns the core data/control surface. Even custom automation, cloud migration and long renewal history usually collapse to incumbent platform/partner implementation, public authority, expert judgment or physical execution.
 
-One pass is not enough to change evidence source again or derive a new mechanism ontology. Scan 074 therefore runs a second independent formation-diverse buyer-side non-role spend pass.
+That justifies another **evidence-source escalation**, not a mechanism ontology. Scan 075 requires actual buyer-initiated paid-incumbent exit/replacement/non-renewal tied to a documented unresolved operational failure plus replacement budget; price-only, deprecation-only and routine-recompete events do not qualify.
 
 ## Goal
 
@@ -24,26 +24,26 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Resolved recently:
-- `ATTRACTION_SCAN_070` — zero retention after buyer-built/self-hosted provider abstraction resolved into current managed/open control surfaces; triggered broad reset.
-- `ATTRACTION_SCAN_071` — zero retention after broad current buyer-budget evidence resolved into mature control surfaces plus human setup/exception/accountability tails.
-- `ATTRACTION_SCAN_072` — zero retention after a second broad role-budget pass; justified changing payer evidence source.
-- `ATTRACTION_SCAN_073` — zero retention after direct buyer-side procurement/renewal evidence resolved into mature named control surfaces plus authority, expert-judgment or accountability residuals.
+- `ATTRACTION_SCAN_071` — zero retention after broad current buyer-budget evidence.
+- `ATTRACTION_SCAN_072` — zero retention after second broad role-budget pass; changed payer evidence source.
+- `ATTRACTION_SCAN_073` — zero retention after first buyer-side non-role procurement/renewal pass.
+- `ATTRACTION_SCAN_074` — zero retention after second independent buyer-side non-role spend pass; formal procurement/renewal shown to over-select mature named categories.
 
 Discovery queue:
-- `ATTRACTION_SCAN_074 — BROAD_CURRENT_BUYER_SIDE_NON_ROLE_REPEAT_PURCHASE_PROCUREMENT_AWARD_INVOICE_OR_RENEWAL_SPEND_SIGNALS_SECOND_FORMATION_DIVERSE_PASS_EXCLUDE_SCAN060_TO_073_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_POSTING_AS_SOLE_PAYER_EVIDENCE_NO_SELLER_DEFINED_PRODUCTIZED_SERVICE_AS_PRIMARY_SIGNAL_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_075 — BROAD_CURRENT_BUYER_SIDE_PAID_INCUMBENT_EXIT_REPLACEMENT_NON_RENEWAL_OR_RECOMPETE_WITH_EXPLICIT_UNRESOLVED_OPERATIONAL_FAILURE_AND_REPLACEMENT_BUDGET_FORMATION_DIVERSE_EXCLUDE_SIMPLE_PRICE_ONLY_DEPRECATION_ONLY_OR_POLICY_ONLY_SWITCHES_EXCLUDE_SCAN060_TO_074_FORMATIONS_AND_PRIMARY_SIGNALS_NO_PERSISTENT_WORKAROUND_AS_PRIMARY_SIGNAL_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_REPLACEMENT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_073_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_074_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`5b8d5ea914a15a3cfdd274882638bdc2859d55b0`
-— merge of PR #370, `Change payer evidence source after Scan 072`.
+`ddf00318db0d90d582df5e46b80013c8758c56cc`
+— squash merge of PR #371, `Test buyer-side non-role spend in Scan 073`.
 
-PR #370 repository CI run `35679606370` completed `success`. Live Jev run `35679606374` completed `success`: 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`. The job log explicitly confirmed `TYPESAFE_API_KEY is available; requiring a real Jev success`.
+PR #371 repository CI run `35680299655` completed `success`. Live Jev run `35680299857` completed `success`: 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`. The earlier same-PR run `35680256438` also completed the real Jev call successfully but the workflow failed only while finalizing the GitHub artifact upload with a transient 403; the current-head run fully succeeded.
 
 ## Active Issue
 
@@ -51,13 +51,17 @@ PR #370 repository CI run `35679606370` completed `success`. Live Jev run `35679
 
 ## Active Branch
 
-`research/attraction-scan-073`.
+`research/attraction-scan-074`.
 
 ## Active PR
 
-#371 — `Test buyer-side non-role spend in Scan 073`. Live GitHub state is authoritative.
+#372 — `Escalate buyer evidence after Scan 074`. Live GitHub state is authoritative.
 
 ## CI
+
+- PR #372 checks are pending at this checkpoint.
+- PR #371 repository CI run `35680299655` completed `success`.
+- PR #371 live Jev run `35680299857` completed `success`; real TypeSafe/Jev execution returned 6/6 `NO_FURTHER_RESEARCH`, failed=0 and `ADVANCE_TO_NEXT_SCAN`.
 
 - PR #371 checks are pending at this checkpoint.
 - PR #370 repository CI run `35679606370` completed `success`.
@@ -75,15 +79,15 @@ PR #370 repository CI run `35679606370` completed `success`. Live Jev run `35679
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_073.json`
-- `docs/research/ATTRACTION_SCAN_073_2026-09-22.md`
-- `tests/test_attraction_scan_073_buyer_side_non_role_spend_gate.py`
+- `data/research_runs/attraction_scan_074.json`
+- `docs/research/ATTRACTION_SCAN_074_2026-09-22.md`
+- `tests/test_attraction_scan_074_second_non_role_spend_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
-Persisted state records `ATTRACTION_SCAN_073` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_074` as a second independent buyer-side non-role spend pass rather than a new mechanism boundary.
+Persisted state records `ATTRACTION_SCAN_074` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_075` as buyer-initiated paid-incumbent exit/replacement evidence rather than a new mechanism boundary.
 
 ## Completed
 
@@ -103,25 +107,25 @@ Results:
 
 ## Current Findings
 
-Scan 073 establishes:
+Two independent non-role spend passes now agree:
 
 ```text
-CURRENT BUYER PROCUREMENT / RENEWAL
-→ REAL RECURRING MONEY MOTION
-→ NAMED CATEGORY / NAMED INCUMBENT OFTEN VISIBLE IN THE SAME RECORD
-→ STANDARD CONTROL LOOP ALREADY PRODUCTIZED
-→ RESIDUAL VALUE = AUTHORITY / JUDGMENT / ACCOUNTABILITY
+FORMAL PROCUREMENT / RENEWAL
+→ STRONG RECURRING MONEY MOTION
+→ NAMED MATURE CATEGORY / INCUMBENT
+→ DATA + CONTROL SURFACE ALREADY OWNED
+→ RESIDUAL = IMPLEMENTATION / AUTHORITY / EXPERT JUDGMENT / PHYSICAL EXECUTION
 ```
 
-Scan 073 closes:
-- municipal short-term-rental compliance — mature Host Compliance-style control surfaces already own listing identification, permit/tax, monitoring and outreach; enforcement stays municipal;
-- workers' comp medical-bill review — fee-schedule/coding review is automated; high-dollar or inappropriate-care residuals require licensed clinical judgment;
-- parking citation processing — the renewing named vendor already owns processing/payment/workflow; adjudication remains governmental;
-- municipal hotel/sales-tax administration — administration is productized while audit residuals are jurisdiction-specific expert/statutory work;
-- FOIA/public-records workflow — request, review, redaction, approval and release tooling is mature; disclosure/exemption decisions remain accountable human/legal work;
-- managed detection/response — the exact 24x7 monitor/detect/triage/respond category is mature; residual value includes security context, escalation and accountability.
+Scan 074 closes:
+- fleet telematics/compliance automation — Geotab already owns telemetry, rules, reporting and the SDK/partner extension surface;
+- probation electronic monitoring — location monitoring is mature while sanctions and supervision remain public authority;
+- satellite leak detection — ASTERRA already owns remote detection/prioritization while field confirmation and repair are physical;
+- emergency mass notification — multi-channel public warning is a mature end-to-end category and alert authorization remains with the buyer/authority;
+- solid-waste route optimization — core routing/control is mature and the visible residual is migration/implementation continuity;
+- public-safety CAD — CAD already owns the mission-critical real-time incident/unit/action position and current roadmaps keep expanding adjacent coordination.
 
-Scan 074 keeps the same buyer-side non-role evidence class for one independent second pass. It must not derive a preferred mechanism from Scan 073.
+Scan 075 changes the evidence source to actual paid-incumbent exit/replacement/non-renewal caused by unresolved operational failure with replacement budget. It must exclude price-only, end-of-support-only, routine expiry/recompete and Scan 063-style persistent workaround as the primary signal.
 
 ## Validation Status
 
@@ -140,12 +144,13 @@ Validation:
 Engineering:
 - No current Jev integration blocker.
 - Jev remains advisory and non-commercial; `automatic_research_execution_by_jev=false`.
-- PR #371 CI/live Jev must validate the Scan 073 checkpoint before merge.
+- PR #372 CI/live Jev must validate the Scan 074 checkpoint before merge.
 
 Discovery:
-- Scan 073 is complete with zero retained formations and zero commercial promotions.
-- One buyer-side non-role spend pass is insufficient to change evidence source again.
-- Scan 074 must be a second independent formation-diverse pass and must exclude Scan 060–073 formations/primary signal patterns from seeding.
+- Scan 074 is complete with zero retained formations and zero commercial promotions.
+- Two independent buyer-side non-role spend passes now justify changing evidence source again.
+- Scan 075 must require buyer-initiated movement away from a paid incumbent for documented unresolved operational failure and replacement budget.
+- Price-only, deprecation-only, ordinary expiry or policy-only recompete does not satisfy the new floor.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -153,9 +158,14 @@ Commercial:
 
 ## Next Action
 
-Run PR #371 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN` after green checks, merge, verify main, and start Scan 074 as a second independent buyer-side non-role repeat-spend pass without deriving a mechanism ontology.
+Run PR #372 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN` after green checks, merge, verify main, and start Scan 075 from buyer-initiated paid-incumbent exit/replacement failure signals without deriving a mechanism ontology.
 
 ## Do Not Repeat
+
+- Do not promote generic fleet telematics/custom compliance automation, probation electronic monitoring, satellite water-leak detection, emergency mass notification, solid-waste route optimization/migration or public-safety CAD from Scan 074.
+- Do not treat custom automation around a mature platform as white space when the incumbent SDK/partner ecosystem already owns the extension path.
+- Do not treat migration/continuity spend caused by end-of-support as unresolved buyer outcome evidence.
+- Do not run a third ordinary procurement/renewal pass after Scans 073–074; move to documented paid-incumbent exit/replacement caused by operational failure.
 
 - Do not promote municipal short-term-rental compliance monitoring, workers' comp medical-bill review, parking citation processing/adjudication, municipal hotel/sales-tax administration, generic FOIA/public-records workflow or generic MDR from Scan 073.
 - Do not equate a renewal with white space: it proves recurring willingness to pay for the existing outcome, not willingness to pay a new operator.
