@@ -1,0 +1,232 @@
+{
+  "schema_version": "attraction-scan.v89",
+  "scan_id": "ATTRACTION_SCAN_115",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "NINTH_INDEPENDENT_VERIFIED_CONTROL_CASHFLOW_PASS_WITH_EXPLICIT_POST_TRANSFER_OPERATING_CASHFLOW_PLUS_LOW_LABOR_AND_TOTAL_CAPITAL_BINDING_PRIORITY_REQUIRE_COMPLETED_CONTROLLING_TRANSFER_SAME_ENTITY_SAME_CONTROL_POSITION_REALIZED_TRANSFER_PRICE_RIGHTS_CONTINUITY_REQUIRE_PURCHASE_DATE_TO_PERIOD_END_OR_INDEPENDENT_POST_TRANSFER_POSITIVE_EXTERNAL_REVENUE_POSITIVE_NET_PROFIT_AND_EXPLICIT_POSITIVE_OPERATING_CASHFLOW_REQUIRE_TARGET_FTE_OR_EXPLICIT_REPLACEMENT_SERVICE_COST_REQUIRE_TOTAL_USABLE_CAPITAL_INCLUDING_WORKING_CAPITAL_NOT_MERELY_EQUITY_CONSIDERATION_REQUIRE_LOW_RECURRING_EXPERT_OR_FIELD_DELIVERY_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_114_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_115-F1",
+      "title": "CHINA_CHONGQING_BUILDING_QUALITY_TESTING_COMPLETED_100_PERCENT_CONTROL_WITH_MODEST_EQUITY_COST_POSITIVE_POST_PURCHASE_RESULTS_BUT_GENERIC_CASHFLOW_AND_EXPLICIT_66_PERSON_LAB_FIELD_SERVICE_DESIGN",
+      "discovery_route": "CURRENT_2026_LISTED_COMPANY_ACQUISITION_ACCOUNTING_BINDS_CHONGQING_GAOXIN_ZHUOTAI_TO_COMPLETED_100_PERCENT_CONTROL_AND_POST_PURCHASE_REVENUE_PROFIT_GENERIC_CASHFLOW_THEN_GOVERNMENT_EIA_BINDS_THE_SAME_OPERATING_ENTITY_TO_LAB_CAPITAL_FTE_AND_ON_SITE_TESTING",
+      "observed_actor_state_change_evidence": [
+        "Lets Holdings completed a 100% cash acquisition of Chongqing Gaoxin Zhuotai Building Engineering Quality Testing Co., Ltd. on 2026-03-31; the purchase date is the equity-delivery date.",
+        "The 2026 half-year acquisition table reports purchase-date-to-period-end revenue RMB4,481,382.76, net profit RMB673,409.92 and generic cash flow RMB2,158,139.69.",
+        "The acquisition cost is RMB7,063,674.47 and the target entered the buyer's consolidation scope after the completed transfer."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "A Chongqing High-tech Zone environmental-impact filing for the same company's operating laboratory records project investment of RMB15 million, 3,679.89 square meters, about 600 instruments, 140 testing items / 927 parameters and about 90,000 test groups per year.",
+        "The same official operating-design packet records labor quota of 66 people, one 8-hour shift and 300 operating days per year.",
+        "The EIA explicitly describes on-site testing for exterior insulation, foundations, main structures, indoor environment, municipal roads/bridges and steel structures in addition to laboratory testing."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The acquirer bought the whole company rather than a passive minority interest, and the target continued earning external testing revenue after control changed.",
+        "The operating capability is credentialed testing infrastructure plus staff and field measurement, not merely a shell or transferable software license."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The acquisition accounting metric is labeled only cash flow, not operating cash flow; Scan 115 therefore does not upgrade RMB2.1581 million to explicit positive OCF.",
+        "The government EIA's 66-person labor design is from the laboratory project filing rather than a 2026 transfer-date HR ledger; it is strong evidence that the operating model is not intrinsically zero/one-person, but current exact FTE remains unrefreshed.",
+        "The RMB7.06 million equity cost is not the total usable-capital requirement: the operating laboratory itself was filed at RMB15 million investment and uses hundreds of instruments, while the purchase-date balance sheet also carries material receivables and payables.",
+        "Core value delivery includes laboratory work and project-site inspection by technical personnel, so machine-only delivery is not evidenced."
+      ],
+      "economic_signal": [
+        "100% acquisition cost RMB7.0637 million; control completed 2026-03-31.",
+        "Purchase-date-to-period-end revenue RMB4.4814 million and net profit RMB0.6734 million.",
+        "Generic post-purchase cash flow RMB2.1581 million, not explicitly OCF.",
+        "Official laboratory filing: RMB15 million project investment and 66-person labor quota."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The control surface is an accredited engineering-quality testing business combining physical laboratory assets, instruments and field inspection.",
+        "Automation can assist readings/reporting, but the evidence does not show a unique external machine-callable transaction/action rail independent of credentialed laboratory and site work.",
+        "A generic agent does not replace accreditation/instrumentation, yet that distinctiveness is coupled to recurring human and physical delivery."
+      ],
+      "executed_control_transfer_check": "PASS_100_PERCENT_CONTROL_COMPLETED_ON_2026_03_31_WITH_PURCHASE_DATE_BOUND_TO_EQUITY_DELIVERY",
+      "post_transfer_external_economic_continuity_check": "PARTIAL_PASS_POST_PURCHASE_REVENUE_NET_PROFIT_AND_GENERIC_CASHFLOW_ARE_POSITIVE_BUT_EXPLICIT_OPERATING_CASHFLOW_IS_NOT_ISOLATED",
+      "fresh_small_operator_entry_check": "FAIL_TO_CLOSE_EQUITY_CONSIDERATION_IS_SINGLE_DIGIT_MILLIONS_BUT_SAME_ENTITY_LAB_PROJECT_INVESTMENT_IS_RMB15M_WITH_HUNDREDS_OF_INSTRUMENTS_AND_WORKING_CAPITAL_NOT_FULLY_NORMALIZED",
+      "same_operator_economic_binding_check": "PASS_CONTROL_DATE_ACQUISITION_COST_POST_PURCHASE_REVENUE_NET_PROFIT_AND_GENERIC_CASHFLOW_BIND_TO_THE_SAME_TARGET",
+      "direct_operating_cost_check": "FAIL_TO_CLOSE_POST_PURCHASE_NET_PROFIT_DOES_NOT_ISOLATE_CURRENT_TECHNICAL_STAFF_SITE_TRAVEL_LAB_INSTRUMENT_CALIBRATION_CREDENTIAL_AND_REPLACEMENT_SERVICE_COSTS",
+      "owner_labor_check": "FAIL_LOW_LABOR_FLOOR_OFFICIAL_OPERATING_DESIGN_RECORDS_66_PERSON_LABOR_QUOTA_AND_FIELD_TESTING_WHILE_CURRENT_TRANSFER_DATE_FTE_IS_NOT_SEPARATELY_REFRESHED",
+      "founder_independence_check": "PARTIAL_PASS_CORPORATE_CONTROL_TRANSFERRED_BUT_CONTINUITY_REQUIRES_A_CREDENTIALED_TESTING_ORGANIZATION_LAB_AND_FIELD_PERSONNEL",
+      "data_action_rights_check": "PARTIAL_PASS_CORPORATE_TESTING_RIGHTS_AND_CONTRACTS_TRANSFER_WITH_CONTROL_BUT_PROJECT_SITE_ACCESS_TESTING_CREDENTIALS_AND_CUSTOMER_ACTIONS_REMAIN_CASE_SPECIFIC",
+      "normalized_margin_check": "FAIL_TO_CLOSE_GENERIC_CASHFLOW_IS_NOT_EXPLICIT_OCF_AND_TOTAL_REPLACEMENT_LABOR_LAB_CAPITAL_AND_WORKING_CAPITAL_ARE_NOT_LOW_OR_NORMALIZED",
+      "machine_delegatability_check": "FAIL_OFFICIAL_PACKET_EXPLICITLY_BINDS_THE_BUSINESS_TO_66_PERSON_LAB_DESIGN_HUNDREDS_OF_INSTRUMENTS_AND_ON_SITE_ENGINEERING_TESTING",
+      "generic_agent_substitutability_check": "PARTIAL_PASS_ACCREDITATION_AND_PHYSICAL_TESTING_ARE_NOT_GENERIC_AGENT_FEATURES_BUT_THEIR_VALUE_REQUIRES_RECURRING_HUMAN_PHYSICAL_DELIVERY",
+      "verdict": "DEMOTED_MODEST_EQUITY_COST_AND_POSITIVE_RESULTS_DO_NOT_CLOSE_EXPLICIT_OCF_TOTAL_CAPITAL_OR_LOW_HUMAN_DELIVERY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_115-F2",
+      "title": "CHINA_HANGZHOU_HMI_AUDIO_SOC_COMPLETED_CONTROL_WITH_POSITIVE_POST_PURCHASE_REVENUE_PROFIT_AND_EXPLICIT_OPERATING_CASHFLOW_BUT_HIGH_CONTROL_CAPITAL_AND_UNCLOSED_CURRENT_LOW_FTE",
+      "discovery_route": "CURRENT_2025_2026_LISTED_COMPANY_ANNUAL_ACQUISITION_ACCOUNTING_BINDS_HANGZHOU_NANO_IC_TO_COMPLETED_CONTROL_AND_SEPARATELY_LABELLED_PURCHASE_DATE_TO_YEAR_END_OPERATING_CASHFLOW",
+      "observed_actor_state_change_evidence": [
+        "GreatStar acquired incremental equity in Hangzhou Nano IC Technology Co., Ltd. and control transferred on 2025-07-14; after the transaction GreatStar held 51%.",
+        "The 2025 annual acquisition table reports accounting acquisition cost RMB138.3447 million and explicitly states control transfer as the purchase-date basis.",
+        "Purchase-date-to-year-end revenue was RMB73.7647 million, net profit RMB4.6009 million and operating-activity net cash inflow RMB7.3001 million; investment and financing cashflow are reported separately."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The target focuses on advanced HMI and intelligent-audio integrated circuits and overall solutions, with RF-SoC and Audio MCU/DSP/SoC products plus algorithms, protocols, middleware, applications and cloud-side data processing.",
+        "The target's current website states 40+ intellectual-property items, 60+ customers and 20+ chip products.",
+        "Purchase-date accounting shows material cash and financial assets but also substantial intangible value and inventory; the control asset is specialized semiconductor IP and product/customer organization rather than a passive financial shell."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The buyer increased from a non-controlling position to 51% control and the same target continued producing external revenue, profit and explicitly positive operating cashflow after control changed.",
+        "This is the strongest Scan 115 financial-control packet because OCF is explicitly separated from investment and financing cash flows."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "Positive explicit post-transfer OCF is proven, but the accounting control cost is RMB138.3447 million, far outside bounded small-operator capital.",
+        "Current exact target FTE or replacement-service cost is not disclosed in the acquisition packet; therefore the low-labor floor remains UNKNOWN rather than passed.",
+        "Current public company materials describe an active HMI/audio IC and integrated-solution organization, and current recruiting evidence shows multiple IC design/verification/embedded/algorithm roles; this is consistent with recurring specialized engineering but is not used as a substitute for an audited current FTE count.",
+        "A historical public-transfer statement reported 44 employees in 2016, 25 in R&D; that historical packet establishes the organization has long embodied expert labor but is not treated as current headcount."
+      ],
+      "economic_signal": [
+        "Control transferred 2025-07-14; buyer ultimately held 51%.",
+        "Acquisition accounting cost RMB138.3447 million.",
+        "Purchase-date-to-year-end revenue RMB73.7647 million; net profit RMB4.6009 million.",
+        "Explicit operating-activity net cash inflow RMB7.3001 million."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The distinctive asset is specialized semiconductor IP plus system solution capability, not a generic agent wrapper.",
+        "That specialization does not satisfy founder-lightness because current replacement engineering cost and FTE are not closed and chip/software development remains expert work.",
+        "No evidence shows a reusable external settlement/action rail separable from the semiconductor product organization."
+      ],
+      "executed_control_transfer_check": "PASS_CONTROL_TRANSFERRED_ON_2025_07_14_AND_BUYER_HELD_51_PERCENT_AFTER_TRANSACTION",
+      "post_transfer_external_economic_continuity_check": "PASS_PURCHASE_DATE_TO_YEAR_END_EXTERNAL_REVENUE_NET_PROFIT_AND_EXPLICIT_OPERATING_ACTIVITY_NET_CASH_INFLOW_ARE_ALL_POSITIVE_FOR_THE_SAME_TARGET",
+      "fresh_small_operator_entry_check": "FAIL_ACCOUNTING_CONTROL_COST_RMB138_3447M_IS_NOT_BOUNDED_SMALL_OPERATOR_CAPITAL_EVEN_BEFORE_REPLACEMENT_LABOR",
+      "same_operator_economic_binding_check": "PASS_CONTROL_DATE_ACQUISITION_COST_REVENUE_NET_PROFIT_AND_EXPLICIT_OPERATING_CASHFLOW_BIND_TO_HANGZHOU_NANO_IC_AND_SUBSIDIARIES",
+      "direct_operating_cost_check": "FAIL_TO_CLOSE_POSITIVE_NET_PROFIT_AND_OCF_DO_NOT_ISOLATE_CURRENT_R_AND_D_VALIDATION_FAE_PRODUCT_SUPPORT_AND_REPLACEMENT_ENGINEERING_COST",
+      "owner_labor_check": "UNKNOWN_CURRENT_TARGET_FTE_AND_REPLACEMENT_LABOR_COST_ARE_NOT_DISCLOSED_IN_THE_CURRENT_ACQUISITION_PACKET_HISTORICAL_HEADCOUNT_IS_NOT_PROMOTED_TO_CURRENT_FACT",
+      "founder_independence_check": "PARTIAL_PASS_CORPORATE_CONTROL_CHANGED_BUT_SPECIALIZED_ENGINEERING_PRODUCT_AND_CUSTOMER_TECHNICAL_ORGANIZATION_REMAINS_ECONOMICALLY_MATERIAL",
+      "data_action_rights_check": "PASS_FOR_CORPORATE_IP_AND_PRODUCT_CONTROL_BUT_NOT_A_GENERIC_EXTERNAL_MACHINE_TRANSACTION_RAIL",
+      "normalized_margin_check": "PARTIAL_PASS_EXPLICIT_POST_TRANSFER_OCF_IS_POSITIVE_BUT_TOTAL_CONTROL_CAPITAL_IS_HIGH_AND_CURRENT_REPLACEMENT_LABOR_IS_UNCLOSED",
+      "machine_delegatability_check": "FAIL_TO_CLOSE_MACHINE_EXECUTABLE_CHIP_AND_SOFTWARE_OUTPUTS_STILL_REQUIRE_SPECIALIZED_IC_DESIGN_VERIFICATION_EMBEDDED_ALGORITHM_AND_CUSTOMER_SUPPORT_ORGANIZATION",
+      "generic_agent_substitutability_check": "PASS_FOR_DISTINCTIVE_IP_GENERIC_AGENTS_DO_NOT_REPLACE_THE_CHIP_IP_POSITION_BUT_THIS_DOES_NOT_CURE_CAPITAL_AND_LABOR_FAILURES",
+      "verdict": "DEMOTED_EXPLICIT_POSITIVE_POST_TRANSFER_OCF_IS_PROVEN_BUT_HIGH_CONTROL_CAPITAL_AND_UNCLOSED_CURRENT_REPLACEMENT_ENGINEERING_FAIL_HARD_FLOORS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_115-F3",
+      "title": "CHINA_GUANGDONG_COMMERCIAL_CLEANING_EQUIPMENT_COMPLETED_CONTROL_WITH_POST_CONTROL_POSITIVE_REVENUE_PROFIT_BUT_TARGET_LEVEL_NEGATIVE_OPERATING_CASHFLOW_AND_SERVICE_NETWORK_LABOR",
+      "discovery_route": "COMPLETED_2025_PUBLIC_COMPANY_ACQUISITION_PLUS_2026_PARENT_IMPORTANT_NON_WHOLLY_OWNED_SUBSIDIARY_TABLE_BINDS_GADLEE_TO_CONTROL_AFTER_TRANSFER_AND_TARGET_LEVEL_POST_CONTROL_REVENUE_NET_PROFIT_AND_OPERATING_CASHFLOW",
+      "observed_actor_state_change_evidence": [
+        "Nanhua Instruments completed the additional acquisition of Gadlee shares in October 2025; with the prior 15% stake, it held 54.4745%, obtained actual operating/financial control and consolidated Gadlee from 2025-11-01.",
+        "The 2025 acquisition accounting records cash consideration RMB76.3832 million, prior stake fair value RMB29.0250 million and total combination cost RMB105.4082 million.",
+        "Nanhua's 2026 half-year important non-wholly-owned subsidiary table reports Gadlee target-level revenue RMB52.9509 million, net profit RMB1.2366 million and operating cashflow negative RMB4.1577 million for the post-control reporting period."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Gadlee develops, manufactures, sells and leases commercial floor scrubbers, sweepers and related cleaning equipment/chemicals, and also provides warehousing, distribution, training, maintenance and repair services.",
+        "The 2026 parent report describes a professional after-sales team, service points in more than 30 Chinese cities, 24-hour response and 48-hour on-site resolution, plus nationwide/international sales-service coverage.",
+        "Pre-control NEEQ employee disclosures provide a useful labor baseline rather than a current claim: 172 employees at 2023 year-end and 181 at 2024 half-year, with production, sales, technical, finance and administration staff."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The buyer sought actual corporate control and integrated the target as a new cleaning-equipment growth line rather than buying a passive asset.",
+        "The post-control target continued producing material external revenue and accounting profit, but its own reported operating cash generation is negative in 2026 H1."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This formation uses a target-level subsidiary table rather than attributing the parent's consolidated OCF to the target; the target-specific 2026 H1 OCF is negative RMB4.1577 million.",
+        "The combination cost exceeds RMB105 million and the target's 2026 H1 assets are about RMB188.08 million, so entry is not bounded small-operator capital.",
+        "The current operating description explicitly depends on a professional nationwide after-sales/service network, training, maintenance, repair, warehousing and distribution.",
+        "Historical employee counts are not treated as 2026 current FTE, but they reinforce that no explicit low-headcount transformation has been evidenced after control."
+      ],
+      "economic_signal": [
+        "54.4745% controlled after acquisition; consolidation from 2025-11-01.",
+        "Acquisition cash consideration RMB76.3832 million; accounting combination cost RMB105.4082 million.",
+        "2026 H1 target-level revenue RMB52.9509 million and net profit RMB1.2366 million.",
+        "2026 H1 target-level operating cashflow negative RMB4.1577 million."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The acquired asset combines manufacturing, products, brand/channel and service organization rather than a narrow machine-callable software/control rail.",
+        "Digital/IoT and autonomous cleaning products improve product automation but do not eliminate the seller's professional after-sales, maintenance, training, distribution and manufacturing organization.",
+        "No evidence supports a founder-light small-operator takeover path at the current capital and service footprint."
+      ],
+      "executed_control_transfer_check": "PASS_CONTROL_WAS_COMPLETED_AND_GADLEE_WAS_CONSOLIDATED_FROM_2025_11_01_AT_54_4745_PERCENT_OWNERSHIP",
+      "post_transfer_external_economic_continuity_check": "FAIL_POSITIVE_2026_H1_TARGET_REVENUE_AND_NET_PROFIT_COEXIST_WITH_TARGET_LEVEL_OPERATING_CASHFLOW_NEGATIVE_RMB4_1577M",
+      "fresh_small_operator_entry_check": "FAIL_COMBINATION_COST_RMB105_4082M_AND_TARGET_ASSET_BASE_ABOUT_RMB188_08M_ARE_NOT_BOUNDED_SMALL_OPERATOR_CAPITAL",
+      "same_operator_economic_binding_check": "PASS_2026_H1_TARGET_LEVEL_REVENUE_NET_PROFIT_AND_OPERATING_CASHFLOW_BIND_TO_GADLEE_AFTER_CONTROL",
+      "direct_operating_cost_check": "FAIL_TO_CLOSE_TARGET_REQUIRES_MANUFACTURING_DISTRIBUTION_TRAINING_MAINTENANCE_REPAIR_AND_AFTER_SALES_NETWORK_WHILE_OCF_IS_ALREADY_NEGATIVE",
+      "owner_labor_check": "FAIL_LOW_LABOR_FLOOR_CURRENT_OPERATING_DESCRIPTION_REQUIRES_A_PROFESSIONAL_NATIONWIDE_AFTER_SALES_SERVICE_NETWORK_AND_NO_CURRENT_LOW_FTE_PACKET_EXISTS",
+      "founder_independence_check": "PARTIAL_PASS_ORIGINAL_OWNER_CONTROL_IS_REPLACED_AT_CORPORATE_LEVEL_BUT_A_SUBSTANTIAL_OPERATING_ORGANIZATION_REMAINS_REQUIRED",
+      "data_action_rights_check": "PARTIAL_PASS_CORPORATE_PRODUCT_AND_CHANNEL_RIGHTS_TRANSFER_BUT_CUSTOMER_SITE_SERVICE_REPAIR_AND_DISTRIBUTION_ACTIONS_REMAIN_OPERATIONAL_AND_CONTRACT_SPECIFIC",
+      "normalized_margin_check": "FAIL_TARGET_LEVEL_POST_CONTROL_OPERATING_CASHFLOW_IS_NEGATIVE_AND_CONTROL_CAPITAL_PLUS_SERVICE_ORGANIZATION_ARE_HIGH",
+      "machine_delegatability_check": "FAIL_AUTONOMOUS_CLEANING_PRODUCTS_DO_NOT_REMOVE_RECURRING_MANUFACTURING_TRAINING_MAINTENANCE_REPAIR_AND_NATIONWIDE_AFTER_SALES_DELIVERY",
+      "generic_agent_substitutability_check": "PARTIAL_PASS_BRAND_PRODUCTS_IOT_AND_CHANNELS_ARE_NOT_GENERIC_AGENT_FEATURES_BUT_THE_VALUE_LAYER_REMAINS_CAPITAL_AND_SERVICE_ORGANIZATION_HEAVY",
+      "verdict": "DEMOTED_POST_CONTROL_TARGET_REVENUE_AND_PROFIT_DO_NOT_SURVIVE_TARGET_LEVEL_OCF_CAPITAL_AND_SERVICE_LABOR_FLOORS"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_2026_SMALL_AUTOMATION_CONTROL_ACQUISITION_AT_PERIOD_END",
+      "excluded_reason": "EXCLUDED_BECAUSE_PURCHASE_AT_REPORTING_PERIOD_END_PROVIDES_NO_POST_TRANSFER_REVENUE_PROFIT_OCF_WINDOW"
+    },
+    {
+      "observation": "CURRENT_2026_SMALL_DIGITAL_OR_TECH_TARGETS_WITH_POSITIVE_CASHFLOW_BUT_POST_PURCHASE_LOSSES",
+      "excluded_reason": "EXCLUDED_BECAUSE_POST_TRANSFER_NET_PROFIT_FLOOR_FAILS_BEFORE_LOW_LABOR_ANALYSIS"
+    },
+    {
+      "observation": "CURRENT_2026_POSITIVE_OCF_MINING_EQUIPMENT_OR_PHYSICAL_MANUFACTURING_TARGETS",
+      "excluded_reason": "EXCLUDED_WHERE_HEAVY_PHYSICAL_PRODUCTION_OR_MINING_ASSET_DELIVERY_DOMINATES_AND_FORMATIONS_DUPLICATE_PRIOR_CAPITAL_INTENSIVE_SIGNALS"
+    },
+    {
+      "observation": "CURRENT_2026_SECURITIES_OR_OTHER_REGULATED_FINANCIAL_CONTROL_TRANSFERS_WITH_POSITIVE_OCF",
+      "excluded_reason": "EXCLUDED_BECAUSE_REGULATORY_CAPITAL_AND_LICENSED_INSTITUTIONAL_CONTROL_DOMINATE_SMALL_OPERATOR_ENTRY"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "explicit_ocf_low_labor_total_capital_binding_priority_used": true,
+    "same_operator_and_control_position_binding_required": true,
+    "executed_control_change_required": true,
+    "post_control_external_revenue_required": true,
+    "post_control_net_profit_required": true,
+    "explicit_operating_cashflow_required": true,
+    "target_fte_or_replacement_service_cost_required": true,
+    "total_usable_capital_including_working_capital_required": true,
+    "historical_fte_not_promoted_to_current_fact": true,
+    "parent_consolidated_ocf_not_promoted_to_target_ocf": true,
+    "rights_continuity_required": true,
+    "low_recurring_expert_or_field_delivery_required": true,
+    "founder_light_operation_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_BUILDING_QUALITY_TESTING_HMI_AUDIO_SOC_AND_COMMERCIAL_CLEANING_EQUIPMENT_TEST_DISTINCT_CREDENTIALED_SERVICE_TECH_IP_AND_PRODUCT_PLUS_SERVICE_ORGANIZATION_CONTROL_SHAPES",
+    "observed_indexing_bias": "ACQUISITION_TABLES_CLOSE_CONTROL_AND_POST_PURCHASE_ECONOMICS_BUT_OFTEN_OMIT_CURRENT_FTE_WHILE_INDEPENDENT_TARGET_OR_IMPORTANT_SUBSIDIARY_REPORTING_CAN_CLOSE_TARGET_LEVEL_OCF_AND_REGULATORY_EIA_OR_PUBLIC_COMPANY_DISCLOSURES_CAN_CLOSE_LABOR_OR_SERVICE_FOOTPRINT",
+    "response": "FOR_SCAN116_PRIORITIZE_ACQUIRED_TARGETS_WITH_STANDALONE_OR_IMPORTANT_SUBSIDIARY_REPORTING_SO_EXPLICIT_POST_CONTROL_OCF_CURRENT_FTE_OR_REPLACEMENT_SERVICE_COST_AND_TOTAL_USABLE_CAPITAL_CAN_BE_BOUND_TO_ONE_ENTITY_WITHOUT_INFERENCE",
+    "participant_behavior_over_analyst_story": "PASS_F1_USES_COMPLETED_CONTROL_ACCOUNTING_PLUS_GOVERNMENT_OPERATING_DESIGN_F2_USES_COMPLETED_CONTROL_ACCOUNTING_WITH_EXPLICIT_OCF_F3_USES_COMPLETED_CONTROL_PLUS_TARGET_LEVEL_POST_CONTROL_SUBSIDIARY_OCF"
+  },
+  "scan_learnings": [
+    "SCAN115_EXPLICIT_OCF_LOW_LABOR_TOTAL_CAPITAL_BINDING_PASS_ZERO_RETENTION_ACROSS_BUILDING_QUALITY_TESTING_HMI_AUDIO_SOC_AND_COMMERCIAL_CLEANING_EQUIPMENT",
+    "POSITIVE_EXPLICIT_POST_TRANSFER_OCF_EXISTS_BUT_THE_STRONG_EXACT_CASE_STILL_FAILS_BOUNDED_CONTROL_CAPITAL_AND_CURRENT_LOW_LABOR_CLOSURE",
+    "A_SINGLE_DIGIT_MILLION_EQUITY_ACQUISITION_COST_CAN_STILL_HIDE_A_RMB15M_LAB_HUNDREDS_OF_INSTRUMENTS_AND_A_66_PERSON_OPERATING_DESIGN",
+    "TARGET_LEVEL_SUBSIDIARY_REPORTING_PREVENTS_PARENT_OCF_MISATTRIBUTION_GADLEE_2026_H1_TARGET_OCF_IS_NEGATIVE_DESPITE_POSITIVE_REVENUE_AND_NET_PROFIT",
+    "CURRENT_OPERATING_SERVICE_NETWORK_EVIDENCE_CAN_KILL_LOW_HUMAN_DELIVERY_WITHOUT_REUSING_HISTORICAL_HEADCOUNT_AS_A_CURRENT_FACT",
+    "INDEPENDENTLY_REPORTING_OR_SEPARATELY_DISCLOSED_ACQUIRED_TARGETS_ARE_A_HIGHER_VALUE_RETRIEVAL_ROUTE_FOR_BINDING_OCF_LABOR_AND_TOTAL_CAPITAL",
+    "THE_NEXT_RETRIEVAL_PRIORITY_SHOULD_START_FROM_STANDALONE_TARGET_OR_IMPORTANT_SUBSIDIARY_LEDGER_VISIBILITY_THEN_REQUIRE_POSITIVE_POST_CONTROL_OCF_CURRENT_LOW_FTE_OR_REPLACEMENT_COST_AND_BOUNDED_TOTAL_CAPITAL"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_116",
+  "next_search_boundary": "TENTH_INDEPENDENT_STANDALONE_TARGET_LEDGER_PASS_WITH_POST_CONTROL_OCF_CURRENT_LABOR_AND_TOTAL_CAPITAL_CLOSURE_PRIORITY_REQUIRE_COMPLETED_CONTROLLING_TRANSFER_REQUIRE_TARGET_TO_RETAIN_STANDALONE_PUBLIC_REPORTING_OR_IMPORTANT_SUBSIDIARY_LEVEL_FINANCIAL_DISCLOSURE_REQUIRE_SAME_ENTITY_POST_CONTROL_POSITIVE_EXTERNAL_REVENUE_POSITIVE_NET_PROFIT_AND_EXPLICIT_POSITIVE_OPERATING_CASHFLOW_REQUIRE_CURRENT_TARGET_FTE_OR_EXPLICIT_REPLACEMENT_SERVICE_COST_REQUIRE_TOTAL_USABLE_CAPITAL_INCLUDING_ACQUISITION_WORKING_CAPITAL_AND_REQUIRED_OPERATING_ASSETS_REQUIRE_LOW_RECURRING_EXPERT_FIELD_MANUFACTURING_OR_AFTER_SALES_DELIVERY_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_115_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN115_WITH_EXACT_HEAD_CI_JEV_THEN_START_SCAN116_STANDALONE_TARGET_LEDGER_OCF_LABOR_TOTAL_CAPITAL_CLOSURE_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12522230&stockid=002398",
+    "https://gxq.cq.gov.cn/hbslgg/202406/W020240621652520331403.pdf",
+    "https://static.cninfo.com.cn/finalpage/2026-04-29/1225224529.PDF",
+    "https://nanosic.com/about.html",
+    "https://static.cninfo.com.cn/finalpage/2026-04-24/1225166996.PDF",
+    "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12572038&stockid=300417",
+    "https://pdf.dfcfw.com/pdf/H2_AN202412301641472844_1.pdf"
+  ]
+}
