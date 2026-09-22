@@ -1,0 +1,194 @@
+{
+  "schema_version": "attraction-scan.v71",
+  "scan_id": "ATTRACTION_SCAN_095",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FIRST_PARTICIPANT_AUTHORED_CHINA_CURRENT_REALITY_SOURCE_SHIFT_AFTER_TWO_BROAD_RESET_PASSES_REQUIRE_DIRECT_PARTICIPANT_RECORDED_UNDERUSE_CONTRADICTION_OR_MANUAL_STATE_TRANSFER_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_BEFORE_PRODUCT_OR_MECHANISM_SELECTION_FORMATION_DIVERSE_EXCLUDE_SCAN060_TO_094_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": true,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_095-F1",
+      "title": "CHINA_RESIDENTIAL_PRIVATE_EV_CHARGING_PROPERTY_GRID_APPROVAL_AND_INSTALLATION_HANDOFF",
+      "chinese_title": "中国住宅私人充电桩的物业、电网审批与安装交接摩擦",
+      "evidence_class": "DIRECT_CHINA_RESIDENT_AUTHORED_INSTALLATION_BLOCK_WITH_INDEPENDENT_NATIONAL_INFRASTRUCTURE_AND_JUDICIAL_CORROBORATION",
+      "observed_actor_state_change_evidence": [
+        "A Pingdingshan resident submitted a June 2026 government complaint after buying a new-energy vehicle and applying for a private charging meter; the grid site visit found the community power supply had not been transferred to State Grid, while the property refused to provide power citing wiring trouble and construction difficulty.",
+        "The resident reported repeated communication with the property rather than a hypothetical future concern: the desired state transition was already an attempted installation."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "China's National Energy Administration reported 23.057 million charging guns by June 2026, including 18.048 million private charging guns, up 50.4% year over year, showing private residential charging is a mass operating infrastructure rather than a niche device category.",
+        "The resident already controlled a parking space and had a vehicle plus willingness to install, while the community already possessed electrical infrastructure; the blockage arose from control and site conditions rather than absence of charging technology."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The resident first used the formal State Grid application route, then sought property cooperation, repeatedly communicated, and finally escalated to the housing authority when the handoff failed.",
+        "Current court cases show owners similarly escalate to litigation when properties refuse the installation certificate or cooperation needed to proceed."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "Property cooperation can be legally required, yet a property certificate is only one step; final feasibility still depends on grid/site survey, transformer/load capacity, electrical safety, fire safety, civil-defense constraints and construction.",
+        "The flow is therefore partially standardized but crosses multiple independent controllers before electricity can physically reach the parking space."
+      ],
+      "economic_signal": [
+        "The owner has already purchased the EV and is willing to fund a private charging installation, while national private-charger deployment proves a large paid installation market.",
+        "That spend does not establish a new low-touch routing margin because hardware, electrical construction and utility/property coordination are already part of established local installation flows."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The property/community controller governs common-area access and cooperation; the grid or local power operator evaluates connection feasibility; licensed installers perform physical electrical work.",
+        "Supreme People's Court reference guidance explicitly distinguishes property cooperation from the later technical and safety feasibility judgment by power and other authorities.",
+        "Current local governments already use cross-department coordination and complaint handling to resolve property obstruction, so a generic software layer does not acquire the decisive rights."
+      ],
+      "founder_independence_check": "FAIL_FOR_END_TO_END_FLOW_SITE_SPECIFIC_PROPERTY_COORDINATION_GRID_CAPACITY_ASSESSMENT_SAFETY_REVIEW_AND_PHYSICAL_ELECTRICAL_INSTALLATION_REMAIN_REQUIRED",
+      "data_action_rights_check": "FAIL_FOR_INDEPENDENT_OPERATOR_PROPERTY_COMMON_AREA_RIGHTS_GRID_CONNECTION_APPROVAL_AND_PHYSICAL_INSTALLATION_RIGHTS_REMAIN_WITH_PROPERTY_POWER_AUTHORITIES_AND_LICENSED_TRADES",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EDGE_HARDWARE_INSTALLATION_AND_LOCAL_COORDINATION_SPEND_IS_ALREADY_CAPTURED_BY_EXISTING_CHARGING_ELECTRICAL_PROPERTY_AND_UTILITY_ACTORS_WITH_HIGH_SITE_SPECIFIC_VARIANCE",
+      "machine_delegatability_check": "PARTIAL_APPLICATION_INTAKE_DOCUMENT_CHECKING_STATUS_ROUTING_AND_CAPACITY_DATA_TRIAGE_ARE_MACHINE_ASSISTABLE_BUT_SITE_SURVEY_APPROVAL_AND_PHYSICAL_INSTALLATION_ARE_NOT",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_ORGANIZE_RULES_DOCUMENTS_AND_ESCALATION_BUT_CANNOT_CREATE_PROPERTY_GRID_OR_CONSTRUCTION_RIGHTS",
+      "verdict": "DEMOTED_STRONG_CHINA_PARTICIPANT_AUTHORED_CURRENT_FRICTION_AND_MASS_OBJECTIVE_DEMAND_BUT_DECISIVE_RIGHTS_AND_EXECUTION_REMAIN_PROPERTY_GRID_SAFETY_AND_PHYSICAL_INSTALLATION_CONTROLLED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_095-F2",
+      "title": "CHINA_POST_DISCHARGE_HOME_NURSING_LICENSED_MEDICAL_DELIVERY_GAP",
+      "chinese_title": "中国出院后居家护理的持证医疗交付缺口",
+      "evidence_class": "DIRECT_CHINA_FAMILY_RECORDED_POST_DISCHARGE_CARE_FRICTION_WITH_NATIONAL_DEMAND_AND_REGULATED_PROVIDER_CORROBORATION",
+      "observed_actor_state_change_evidence": [
+        "In a May 2026 Jiangsu report, the family of a 92-year-old home peritoneal-dialysis patient described the old process of driving him to hospital and pushing a wheelchair for periodic tube replacement as very difficult; the family then placed a home-nursing order through the hospital mini-program.",
+        "The reported state change is concrete and recurring: the patient remains at home but periodically needs skilled clinical procedures that the family cannot safely self-perform."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The National Healthcare Security Administration stated in April 2026 that people aged 65 and above account for about 15.9% of China's population and that demand for home and doorstep medical services for mobility-limited patients is increasingly urgent.",
+        "China now has a standardized home-service fee item, while Jiangsu and other provinces are extending hospital and primary-care capacity into homes through internet-plus-nursing and family-bed programs."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Families previously spent substantial time transporting frail patients to hospitals or tried home care until professional intervention was needed.",
+        "Current hospital programs receive digital orders and dispatch qualified nurses to perform tube maintenance, wound care, blood collection and other bounded procedures in the home."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The desired flow already exists and is paid/ordered digitally, but the high-value act remains a licensed nurse physically present in the home.",
+        "Shenzhen's August 2026 rules state that the service provider must be a qualified physical medical institution and that an information platform may not independently provide internet-plus-nursing service."
+      ],
+      "economic_signal": [
+        "National pricing policy now explicitly recognizes a home-service fee and current hospitals accept home-care orders, establishing real money motion rather than an inferred willingness to pay.",
+        "The repeatable scheduling layer is not the scarce value unit: regulated clinical delivery, credentialed staff, supplies, risk control and institutional accountability dominate the service."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Hospitals and qualified physical medical institutions are the legally recognized providers; nurses must be appropriately registered/qualified and services operate under institutional quality and safety controls.",
+        "Suzhou already has an internet-plus-nursing implementation framework and is expanding AI/health-assistant support, while hospitals operate their own ordering and dispatch channels.",
+        "A neutral software operator may assist discovery, scheduling and records but cannot independently become the clinical delivery rail."
+      ],
+      "founder_independence_check": "FAIL_FOR_DECISIVE_VALUE_FLOW_LICENSED_HUMAN_NURSING_PHYSICAL_HOME_VISITS_CLINICAL_ACCOUNTABILITY_AND_INSTITUTIONAL_QUALITY_CONTROL_REMAIN_THE_CORE_DELIVERY",
+      "data_action_rights_check": "FAIL_FOR_INDEPENDENT_OPERATOR_MEDICAL_INSTITUTION_PROVIDER_STATUS_NURSE_CREDENTIALING_CLINICAL_RECORD_ACCESS_AND_TREATMENT_RIGHTS_REMAIN_REGULATED",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_ROUTER_EXISTING_HOSPITAL_AND_QUALIFIED_MEDICAL_INSTITUTION_CHANNELS_ALREADY_CAPTURE_SERVICE_REVENUE_WHILE_THE_SCARCE_INPUT_IS_LICENSED_CLINICAL_LABOR",
+      "machine_delegatability_check": "PARTIAL_ORDER_INTAKE_ELIGIBILITY_TRIAGE_SCHEDULING_ROUTING_AND_RECORD_PREPARATION_ARE_MACHINE_EXECUTABLE_BUT_THE_CLINICAL_PROCEDURE_IS_NOT",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_ASSIST_COORDINATION_BUT_CANNOT_PERFORM_LICENSED_HOME_NURSING_OR_ASSUME_MEDICAL_INSTITUTION_ACCOUNTABILITY",
+      "verdict": "DEMOTED_STRONG_CHINA_FAMILY_PULL_AND_REAL_PAID_HOME_SERVICE_FLOW_BUT_THE_VALUE_UNIT_IS_REGULATED_LICENSED_HUMAN_CLINICAL_DELIVERY_NOT_AN_UNOWNED_MACHINE_ROUTING_EDGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_095-F3",
+      "title": "SHANGHAI_OFF_PEAK_SHARED_PARKING_TIME_MISMATCH_AND_GOVERNANCE",
+      "chinese_title": "上海错峰共享停车的时段错配与治理控制面",
+      "evidence_class": "CURRENT_CHINA_RESIDENT_RECORDED_PARKING_SCARCITY_WITH_OBJECTIVE_NIGHTTIME_IDLE_CAPACITY_AND_EXECUTED_SHARED_FLOW",
+      "observed_actor_state_change_evidence": [
+        "A January 2026 Shanghai government report quotes a resident saying evening parking became much less stressful after a nearby commercial underground garage opened 150 shared spaces; previously he worried every night about finding a space.",
+        "A separate 2026 Changning project identifies old residential communities with a nighttime parking shortage next to government/community facilities whose parking spaces are idle at night."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The Changning site has 101 parking spaces and explicitly identified nighttime vacancy; after household demand surveying, 50 spaces were opened for off-peak use at 200 yuan per month.",
+        "The value gradient is time-based rather than asset-creation based: offices and public facilities have idle nighttime parking while nearby residential communities have evening scarcity."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Residents sign up for off-peak shared spaces and walk home from nearby facilities rather than continuing to compete for scarce residential spaces.",
+        "Properties and local governments conduct demand surveys, set time windows, add access controls and emergency routes, and then operate recurring monthly shared parking."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "A real complementary flow already exists and repeatedly converts idle nighttime capacity into residential parking access.",
+        "The missing edge is not unowned software discovery: each inventory source requires owner/institution permission, security/access design and operating rules before it can join the flow.",
+        "Shanghai's public parking platform already supports off-peak shared-parking search/application and payment for eligible resources."
+      ],
+      "economic_signal": [
+        "The Changning project charges 200 yuan per month and the Huangpu project opened 150 shared spaces, proving recurring paid use of otherwise idle capacity.",
+        "The city platform and participating parking operators already own the digital transaction surface, while the hard expansion work is onboarding new rights-controlled inventory."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Shanghai's official parking system already provides off-peak shared-parking application, query and payment functions for eligible road/parking resources.",
+        "Parking owners, institutions, property operators and local governance bodies decide whether capacity can be opened and under what security/time rules.",
+        "The repeatable software layer is therefore already public/platformized; residual growth depends on rights, governance and physical access integration."
+      ],
+      "founder_independence_check": "PARTIAL_ONCE_INVENTORY_IS_ONBOARDED_SEARCH_MATCH_SIGNING_PAYMENT_AND_REMINDERS_ARE_LOW_TOUCH_BUT_NEW_SUPPLY_ACTIVATION_REQUIRES_RECURRING_OWNER_GOVERNANCE_AND_SITE_COORDINATION",
+      "data_action_rights_check": "FAIL_FOR_INDEPENDENT_OPERATOR_PARKING_RESOURCE_OWNER_ACCESS_SECURITY_AND_OPERATING_RIGHTS_MUST_BE_GRANTED_BY_EACH_PROPERTY_OR_PUBLIC_CONTROLLER",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EDGE_THE_OFFICIAL_SHANGHAI_PARKING_PLATFORM_ALREADY_OWNS_CORE_DISCOVERY_SIGNING_AND_PAYMENT_WHILE_NEW_INVENTORY_ONBOARDING_IS_GOVERNANCE_HEAVY",
+      "machine_delegatability_check": "PASS_FOR_ONBOARDED_INVENTORY_SEARCH_ELIGIBILITY_TIME_WINDOW_MATCHING_SIGNING_PAYMENT_AND_NOTIFICATIONS_PARTIAL_FOR_ACCESS_INTEGRATION_AND_EXCEPTIONS",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_HELP_MATCH_EXISTING_INVENTORY_BUT_DO_NOT_OWN_PARKING_RIGHTS_AND_THE_CITY_PLATFORM_ALREADY_EXPOSES_THE_CORE_DIGITAL_ROUTE",
+      "verdict": "DEMOTED_REAL_CHINA_TIME_SLICED_IDLE_RESOURCE_AND_RECURRING_PAID_PARTIAL_FLOW_BUT_THE_DIGITAL_ROUTE_IS_ALREADY_PLATFORMIZED_AND_NEW_SUPPLY_REQUIRES_RIGHTS_GOVERNANCE_AND_SITE_ACCESS_CONTROL"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "GENERIC_RESIDENTIAL_EV_APPROVAL_COPILOT",
+      "excluded_reason": "EXCLUDE_MECHANISM_DOCUMENT_ORCHESTRATION_DOES_NOT_CREATE_PROPERTY_GRID_SAFETY_OR_PHYSICAL_INSTALLATION_RIGHTS"
+    },
+    {
+      "observation": "GENERIC_HOME_NURSE_MARKETPLACE",
+      "excluded_reason": "EXCLUDE_MECHANISM_REGULATION_REQUIRES_QUALIFIED_PHYSICAL_MEDICAL_INSTITUTION_AND_LICENSED_CLINICAL_DELIVERY_SO_A_NEUTRAL_SOFTWARE_MARKETPLACE_DOES_NOT_OWN_THE_VALUE_UNIT"
+    },
+    {
+      "observation": "GENERIC_SHARED_PARKING_MATCHER",
+      "excluded_reason": "EXCLUDE_MECHANISM_SHANGHAI_ALREADY_PROVIDES_OFFICIAL_SHARED_PARKING_DISCOVERY_APPLICATION_AND_PAYMENT_WHILE_NEW_INVENTORY_REQUIRES_OWNER_GOVERNANCE_AND_ACCESS_RIGHTS"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "convenient_search_lens_became_ontology": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_paid_stack": false,
+    "direct_participant_authored_current_friction_required": true,
+    "independent_objective_corroboration_required": true,
+    "all_examined_formations_bind_direct_participant_evidence": true,
+    "all_examined_formations_bind_independent_objective_evidence": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_RESIDENTIAL_ENERGY_PROPERTY_HANDOFF_REGULATED_HOME_HEALTHCARE_AND_TIME_SLICED_URBAN_PARKING_CAPACITY",
+    "observed_indexing_bias": "PARTICIPANT_RECORDED_CHINA_SOURCES_SURFACE_REAL_OPERATIONAL_FRICTION_DIRECTLY_BUT_STRONG_PAIN_STILL_OFTEN_TERMINATES_AT_RIGHTS_REGULATED_HUMAN_DELIVERY_OR_ALREADY_PLATFORMIZED_CONTROL_SURFACES",
+    "response": "REPEAT_PARTICIPANT_AUTHORED_CHINA_CURRENT_REALITY_SOURCE_SHIFT_IN_SCAN096_ON_A_FRESH_INDEPENDENT_SAMPLE_BEFORE_DERIVING_ANY_NEW_SIGNAL_OR_MECHANISM_BOUNDARY",
+    "participant_behavior_over_analyst_story": "PASS_F1_STARTS_FROM_A_RESIDENT_GOVERNMENT_COMPLAINT_F2_FROM_A_FAMILY_RECORDED_CURRENT_CARE_FLOW_AND_F3_FROM_CURRENT_RESIDENT_USE_PLUS_EXECUTED_SHARED_PARKING"
+  },
+  "scan_learnings": [
+    "SCAN095_FIRST_CHINA_PARTICIPANT_AUTHORED_CURRENT_REALITY_SOURCE_SHIFT_ZERO_RETENTION_ACROSS_RESIDENTIAL_EV_CHARGING_HOME_NURSING_AND_SHARED_PARKING",
+    "DIRECT_PARTICIPANT_RECORDED_CURRENT_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_IS_A_STRONGER_REALITY_ENTRANCE_THAN_FORMAL_RULE_VENDOR_OR_PRODUCT_DOCUMENTS_ALONE",
+    "CHINA_RESIDENTIAL_EV_CHARGING_SHOWS_WILLINGNESS_TO_PAY_AND_PROPERTY_COOPERATION_RIGHTS_DO_NOT_REMOVE_GRID_SITE_SAFETY_AND_PHYSICAL_INSTALLATION_CONTROL",
+    "CHINA_HOME_NURSING_SHOWS_REAL_DIGITAL_ORDERING_AND_PRICED_DEMAND_CAN_STILL_HAVE_LICENSED_HUMAN_CLINICAL_DELIVERY_AS_THE_NON_DELEGATABLE_VALUE_UNIT",
+    "SHANGHAI_SHARED_PARKING_SHOWS_A_REAL_REGENERATIVE_TIME_MISMATCH_AND_PAID_PARTIAL_FLOW_CAN_ALREADY_HAVE_ITS_DIGITAL_ROUTE_OWNED_BY_A_PUBLIC_PLATFORM_WHILE_SUPPLY_ONBOARDING_REMAINS_RIGHTS_AND_GOVERNANCE_HEAVY",
+    "ONE_CHINA_PARTICIPANT_AUTHORED_SOURCE_SHIFT_PASS_IS_NOT_ENOUGH_TO_DERIVE_A_NEW_MECHANISM_OR_EVIDENCE_FLOOR",
+    "SCAN096_SHOULD_REPEAT_THE_SAME_CHINA_PARTICIPANT_AUTHORED_PLUS_OBJECTIVE_CORROBORATION_METHOD_ON_FRESH_FORMATIONS_BEFORE_ANY_FURTHER_SOURCE_SHIFT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_096",
+  "next_search_boundary": "SECOND_INDEPENDENT_PARTICIPANT_AUTHORED_CHINA_CURRENT_REALITY_SOURCE_SHIFT_REQUIRE_DIRECT_PARTICIPANT_RECORDED_UNDERUSE_CONTRADICTION_OR_MANUAL_STATE_TRANSFER_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_BEFORE_PRODUCT_OR_MECHANISM_SELECTION_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_095_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN095_WITH_CI_JEV_THEN_START_SCAN096_SECOND_INDEPENDENT_PARTICIPANT_AUTHORED_CHINA_CURRENT_REALITY_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://fczx.pds.gov.cn/contents/13846/54333.html",
+    "https://www.nea.gov.cn/20260730/3ce671c387574eeeb120fc3825be0399/c.html",
+    "https://www.court.gov.cn/zixun/xiangqing/449251.html",
+    "https://society.people.com.cn/n1/2026/0708/c1008-40755635.html",
+    "https://www.chinanews.com/jk/2026/05-11/10619008.shtml",
+    "https://www.nhsa.gov.cn/art/2026/4/24/art_14_20316.html",
+    "https://wjw.sz.gov.cn/gkmlpt/content/12/12946/post_12946814.html",
+    "https://www.suzhou.gov.cn/szsrmzf/bmwj/202604/d8401c879d0c416790a62f7fc3f2f554.shtml",
+    "https://www.shanghai.gov.cn/nw17239/20260114/391cddd5717247d2be16ee0f8db126bf.html",
+    "https://www.shcn.gov.cn/col7343/20260122/1304507.html",
+    "https://www.shanghai.gov.cn/nw17239/20260827/0fd96639ca3f42f9b7498e641d4d96fb.html",
+    "https://www.shanghai.gov.cn/gwk/search/content/7fff31f58898479099f492cdfd757ac6"
+  ]
+}

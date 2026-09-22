@@ -14,23 +14,25 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 094 is complete with zero retention. After two independent broad-current-reality passes, Scan 095 may proceed only if final-head CI/Jev authorizes continuation; its evidence entrance must prioritize direct participant-authored current friction plus independent objective corroboration rather than another product/mechanism lens.
+Discovery: Scan 095 is complete with zero retention after the first China participant-authored current-reality source-shift pass. Scan 096 may begin only if PR #393 final-head repository CI plus live TypeSafe/Jev authorize autonomous continuation.
 
 ## Current Phase
 
-`SCAN_094_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_095_COMPLETE_AWAITING_FINAL_PR_CI_JEV`
 
 ## Last Verified Main
 
-`16053e68cb87fde28d317f5cf30756f346eb5d9d`
-— squash merge of PR #391, `Reset discovery to broad current reality in Scan 093`.
+`724cde0b7b2fd4ade90688cf445c209eac6be663`
+— squash merge of PR #392, `Complete second broad current-reality pass in Scan 094`.
 
-PR #391 final head `64b7176f284abda5b26006fd26594710e5fb9df3`:
-- repository CI run `35703591470`: success;
-- live TypeSafe/Jev run `35703591626`: success;
+PR #392 final head `85f77374a90e6aaf3774db836883a01e1d6128dd`:
+- repository CI run `35705602863`: success;
+- live TypeSafe/Jev run `35705602897`: success;
 - 3/3 effective route `NO_FURTHER_RESEARCH`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+
+That directive was consumed to start Scan 095.
 
 ## Active Issue
 
@@ -38,21 +40,20 @@ PR #391 final head `64b7176f284abda5b26006fd26594710e5fb9df3`:
 
 ## Active Branch
 
-`research/attraction-scan-094`
+`research/attraction-scan-095`
 
 ## Active PR
 
-#392 — `Complete second broad current-reality pass in Scan 094`.
+#393 — `Run China-first participant-authored Scan 095`.
 
-PR was opened from the completed Scan 094 checkpoint. The current head must be revalidated after this CI-fix commit; only the resulting exact SHA may be merged.
+PR #393 was opened from the completed Scan 095 research checkpoint. This TASK_STATE binding commit intentionally advances the PR head once; repository CI and live TypeSafe/Jev must validate the resulting exact final head before merge.
 
 ## CI
 
-- PR #391 final-head repository CI `35703591470`: success.
-- PR #391 live TypeSafe/Jev `35703591626`: success; `ADVANCE_TO_NEXT_SCAN`.
-- PR #392 first bound-head CI `35705476205`: failed only because this handoff omitted required durable TASK_STATE section headings.
-- The Scan 094 research/state assertions were not identified as the cause of that failure.
-- This commit restores the required handoff structure. A fresh repository CI plus live TypeSafe/Jev run is required on the new final head.
+- PR #392 final-head repository CI `35705602863`: success.
+- PR #392 live TypeSafe/Jev `35705602897`: success; `ADVANCE_TO_NEXT_SCAN`.
+- PR #393 final-head validation: pending after this TASK_STATE binding commit.
+- Do not merge PR #393 or start Scan 096 from an earlier head.
 
 ## Parallel Validation
 
@@ -63,74 +64,74 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_094.json`;
-- `docs/research/ATTRACTION_SCAN_094_2026-09-22.md`;
-- `tests/test_attraction_scan_094_second_broad_current_reality_pass.py`.
+- `data/research_runs/attraction_scan_095.json`;
+- `docs/research/ATTRACTION_SCAN_095_2026-09-22.md`;
+- `tests/test_attraction_scan_095_participant_authored_current_reality.py`.
 
 Updated:
 - `data/commercial_reset_state.json`;
 - `TASK_STATE.md`.
 
 Persisted state:
-- last completed scan = `ATTRACTION_SCAN_094`;
-- last resolved formation = `ATTRACTION_SCAN_094-F3`;
-- next scan = `ATTRACTION_SCAN_095`;
+- last completed scan = `ATTRACTION_SCAN_095`;
+- last resolved formation = `ATTRACTION_SCAN_095-F3`;
+- next scan = `ATTRACTION_SCAN_096`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Reconciled stale Scan 093 handoff against live GitHub.
-- Verified PR #391 merge, repository CI and real TypeSafe/Jev continuation.
-- Reused the already-created Scan 094 branch after proving it was identical to main.
-- Completed Scan 094 research across three fresh formation-diverse reality chains.
-- Persisted scan JSON, research note, regression test and commercial reset-state advancement.
-- Opened PR #392 and bound the handoff to it.
-- Diagnosed the first PR #392 CI failure as missing mandatory TASK_STATE section headings and restored the durable handoff contract.
+- Reconciled stale Scan 094 handoff against live GitHub.
+- Verified PR #392 was already merged into live `main`.
+- Verified PR #392 exact final-head repository CI and real TypeSafe/Jev success.
+- Consumed Jev continuation directive `ADVANCE_TO_NEXT_SCAN`.
+- Reused the already-created `research/attraction-scan-095` branch instead of creating a duplicate.
+- Audited the interrupted branch and found four pre-existing Scan 095 commits.
+- Rejected the U.S.-only Scan 095 draft as current commercial research because it violated the locked China-primary research-domain rule; preserved its commit history only for audit.
+- Replaced only the invalid Scan 095 payload with a China-first participant-authored current-reality pass.
+- Completed three fresh China formations with direct participant-recorded friction plus independent objective corroboration.
+- Persisted corrected Scan 095 JSON, research note, regression test and reset-state advancement.
+- Opened PR #393.
 
 ## Current Findings
 
-### Scan 094-F1 — France B2B e-invoicing
+### Scan 095-F1 — China residential private EV charging
 
-Real mass migration/reconciliation work exists, but legal transmission is assigned to approved platforms; generic integration does not create operator rights.
+A current resident-authored complaint plus national infrastructure and court evidence confirm real installation friction. The decisive rights still cross property cooperation, grid/site capacity, safety and physical electrical installation.
 
-### Scan 094-F2 — U.S. prior authorization/FHIR
+### Scan 095-F2 — China post-discharge home nursing
 
-Participant-authored burden and manual partial flow are strong, but payer decision rights plus existing EHR/clearinghouse/connectivity infrastructure compress a distinct generic routing edge.
+Current Jiangsu family behavior plus national pricing/demand evidence confirm real pull. The decisive paid outcome remains regulated, licensed human clinical delivery under a qualified medical institution.
 
-### Scan 094-F3 — stranded office reuse/conversion
+### Scan 095-F3 — Shanghai off-peak shared parking
 
-Objective underuse and real reallocation flows exist, but decisive activation remains property-, capital-, entitlement-, expert- and construction-dependent.
+Current resident behavior and executed monthly sharing prove real time-sliced idle-capacity circulation. The digital route is already exposed by Shanghai's parking platform, while new supply activation remains owner/governance/security/access controlled.
 
-## Scan 094 Result
+## Scan 095 Result
 
-Second independent broad-current-reality pass completed with zero commercial promotions and zero retained research formations.
+First China participant-authored current-reality source-shift pass completed with zero commercial promotions and zero retained research formations.
 
 Examined:
-- `ATTRACTION_SCAN_094-F1` — France B2B e-invoicing mandatory platform migration and reconciliation;
-- `ATTRACTION_SCAN_094-F2` — U.S. prior-authorization administrative burden and FHIR transition;
-- `ATTRACTION_SCAN_094-F3` — stranded office asset reuse and conversion feasibility.
+- `ATTRACTION_SCAN_095-F1` — residential private EV charging property/grid/install handoff;
+- `ATTRACTION_SCAN_095-F2` — post-discharge home nursing;
+- `ATTRACTION_SCAN_095-F3` — Shanghai off-peak shared parking.
 
-All three were demoted after exact current control-surface, rights, founder-independence, normalized economics, machine-delegatability and generic-agent preflight.
-
-Persisted:
-- `data/research_runs/attraction_scan_094.json`;
-- `docs/research/ATTRACTION_SCAN_094_2026-09-22.md`;
-- `tests/test_attraction_scan_094_second_broad_current_reality_pass.py`;
-- `data/commercial_reset_state.json` advanced through Scan 094.
+All three were demoted after current control-surface, rights, founder-independence, normalized economics, machine-delegatability and generic-agent preflight.
 
 State truth:
-- last completed scan = `ATTRACTION_SCAN_094`;
-- last resolved formation = `ATTRACTION_SCAN_094-F3`;
-- next scan = `ATTRACTION_SCAN_095`;
+- last completed scan = `ATTRACTION_SCAN_095`;
+- last resolved formation = `ATTRACTION_SCAN_095-F3`;
+- next scan = `ATTRACTION_SCAN_096`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Cross-Pass Learning
 
-Two independent broad-reality passes are now enough to change evidence-source priority without inventing a product mechanism.
+The participant-authored evidence-source shift improved reality contact without creating a product mechanism.
 
-Scan 095 should require direct participant-authored current underuse, contradiction or manual state transfer plus independent objective corroboration before product/mechanism selection. Pure rule changes, vendor transitions and capital redevelopment should not be sole seeds.
+One China pass reveals three distinct closure modes: rights/physical execution, regulated licensed human delivery, and already-platformized digital flow with governance-heavy supply onboarding. One pass is not enough to derive a new search ontology.
+
+Scan 096 should repeat the same China participant-authored + independent-objective-corroboration method on a fresh formation-diverse sample before any further evidence-source shift.
 
 ## Blockers
 
@@ -139,30 +140,33 @@ Validation:
 - No response remains neither a pass nor a denial.
 
 Engineering:
-- PR #392 requires fresh repository CI and live TypeSafe/Jev on this post-fix head.
-- Do not merge or start Scan 095 from an older head.
+- PR #393 requires repository CI and live TypeSafe/Jev on the exact post-binding final head.
+- Do not merge or start Scan 096 from an older head.
 
 Discovery:
-- Scan 094 is complete with zero retention.
-- Scan 095 is gated on the final-head continuation directive.
+- Scan 095 is complete with zero retention.
+- Scan 096 is gated on the final-head continuation directive.
 
 ## Engineering State
 
 - no Jev integration blocker;
-- Scan 094 branch is ahead of `main`;
-- PR #392 is open;
-- this PR-binding commit intentionally changes the head once; Scan 094 repository CI and live TypeSafe/Jev must validate the resulting final head;
-- do not start Scan 095 until Scan 094 final-head continuation is consumed.
+- Scan 095 branch is ahead of `main`;
+- PR #393 is open;
+- the four interrupted pre-correction commits remain branch history only; final branch content is China-first and authoritative for Scan 095 if CI/Jev pass;
+- this PR-binding TASK_STATE update intentionally changes the head once;
+- do not start Scan 096 until Scan 095 final-head continuation is consumed.
 
 ## Do Not Repeat
 
+- Do not revive the interrupted U.S.-only Scan 095 draft (U.S. multifamily EV HOA, U.S. multifamily package-room handoff, U.S. construction COI) as current commercial input; it is branch audit history only.
+- Do not repeat Scan 095 China residential private EV charging, post-discharge home nursing, or Shanghai off-peak shared parking in Scan 096.
 - Do not repeat Scan 089 Seats.aero, Monarch, or HealthFit/RunGap.
 - Do not repeat Scan 090 Zapier, 1Password, or Fantastical.
 - Do not repeat Scan 091 ecommerce accounting connectors, cold-email deliverability/verification, or Home Assistant/SmartThings.
 - Do not repeat Scan 092 Figma token-sync, Webflow membership/auth, or Lightroom/Backblaze.
 - Do not repeat Scan 093 TLS certificate-lifetime compression/CLM, A2L HVAC transition, or post-EAA ecommerce accessibility.
 - Do not repeat Scan 094 France B2B e-invoicing, U.S. prior authorization/FHIR, or office-to-residential conversion/reuse.
-- Do not return to Scan 060–094 formations or their primary discovery signals.
+- Do not return to Scan 060–095 formations or their primary discovery signals.
 - Do not use job/gig/RFQ/procurement feeds as discovery ontology.
 - Do not infer a new product from a closed formation.
 - Do not lower hard floors because discovery closes at zero.
@@ -172,6 +176,7 @@ Discovery:
 
 - GitHub live state wins.
 - REALITY > COGNITION > SCHEMA.
+- PRIMARY RESEARCH DOMAIN = CHINA; GLOBAL INFORMATION = AUXILIARY unless China relevance is evidenced.
 - UNKNOWN != PASS.
 - Inference != fact.
 - No inherited commercial case layer or product mechanism.
@@ -199,4 +204,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Validate PR #392 final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue into Scan 095 only if `autonomous_continuation_allowed=true`.
+Validate PR #393 exact final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue into Scan 096 only if `autonomous_continuation_allowed=true`.
