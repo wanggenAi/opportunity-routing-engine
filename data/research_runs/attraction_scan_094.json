@@ -1,0 +1,194 @@
+{
+  "schema_version": "attraction-scan.v70",
+  "scan_id": "ATTRACTION_SCAN_094",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_SOURCE_RESET_ACTOR_STATE_CHANGE_OBJECTIVE_ENDOWMENT_UNDERUSE_CONTRADICTION_AND_PARTIAL_FLOW_FIRST_WITHOUT_STARTING_FROM_EXISTING_PAID_PRODUCTS_COORDINATORS_OR_SECOND_COST_STACKS_FORMATION_DIVERSE_EXCLUDE_SCAN060_TO_093_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": true,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_094-F1",
+      "title": "FRANCE_B2B_EINVOICING_MANDATORY_PLATFORM_MIGRATION_AND_RECONCILIATION",
+      "chinese_title": "法国 B2B 电子发票强制平台迁移与对账切换",
+      "evidence_class": "CURRENT_MASS_BUSINESS_PROCESS_STATE_CHANGE_WITH_MANDATED_DIGITAL_RAIL_AND_LEGALLY_ASSIGNED_PLATFORM_CONTROL",
+      "observed_actor_state_change_evidence": [
+        "France's B2B electronic-invoicing reform entered into force on 1 September 2026: large and mid-sized enterprises must issue through the new regime and all businesses in scope must be able to receive electronic invoices.",
+        "The French Ministry of Economy states that more than 10 million economic actors are concerned by the reform.",
+        "Small and micro businesses face the later 1 September 2027 issuance deadline, but the receiving obligation already applies from 1 September 2026."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Businesses already possess accounting systems, supplier/customer master data, invoice archives and payment workflows, but those assets must now interoperate with the mandated electronic-invoice circuit.",
+        "The reform turns previously heterogeneous email/PDF/accounting flows into structured data exchanges, exposing reconciliation and integration work around existing business data."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The tax authority publishes a practical guide and a current list of approved platforms to help businesses choose and connect to the new rail.",
+        "The administration explicitly adopted a tolerance-oriented launch posture for businesses encountering difficulties at the 1 September 2026 start, showing that transition friction is operationally real rather than purely hypothetical."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "Invoice generation, accounting and payment data already flow inside firms, while legal transmission now has to cross an approved platform layer.",
+        "The apparent integration seam is not unowned: approved platforms are legally designated intermediaries for issuing, transmitting, receiving and forwarding required data to the tax administration."
+      ],
+      "economic_signal": [
+        "Migration and integration effort is real across a very large business population, but compulsory compliance does not prove a new independent recurring payer stream beyond approved platforms, accounting vendors and implementation channels.",
+        "The legal rail itself concentrates transaction authority in approved platforms rather than an unconstrained third-party router."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "French tax authorities require businesses to use a state-approved platform for electronic invoice transmission and receipt under the reform.",
+        "The official approved-platform list is maintained by the administration after regulatory, security and interoperability qualification.",
+        "Accounting and ERP vendors can integrate with those approved platforms, but a generic agent or middleware layer does not acquire the legal transmission status by orchestration alone."
+      ],
+      "founder_independence_check": "PASS_MOST_MAPPING_RECONCILIATION_FORMAT_VALIDATION_AND_CONNECTOR_WORK_CAN_BE_PRODUCTIZED_WITHOUT_FOUNDER_DELIVERY",
+      "data_action_rights_check": "FAIL_FOR_INDEPENDENT_ROUTER_LEGAL_ISSUE_RECEIVE_TRANSMIT_AND_REPORT_ACTIONS_MUST_FLOW_THROUGH_AN_APPROVED_PLATFORM_AND_CUSTOMER_AUTHORIZED_ACCOUNTING_DATA",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EDGE_APPROVED_PLATFORMS_ERP_ACCOUNTING_INTEGRATORS_AND_EXISTING_CONNECTOR_ECOSYSTEMS_ALREADY_CAPTURE_THE_REPEATABLE_COMPLIANCE_AND_INTEGRATION_SPEND",
+      "machine_delegatability_check": "PASS_STRUCTURED_INVOICE_MAPPING_VALIDATION_ROUTING_STATUS_AND_RECONCILIATION_ARE_HIGHLY_MACHINE_EXECUTABLE_ON_AUTHORIZED_RAILS",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_ASSIST_MAPPING_AND_RECONCILIATION_BUT_CANNOT_REPLACE_APPROVED_PLATFORM_STATUS_OR_CUSTOMER_ACCOUNTING_RIGHTS",
+      "verdict": "DEMOTED_REAL_2026_MASS_PROCESS_MIGRATION_AND_RECONCILIATION_FRICTION_BUT_THE_DECISIVE_LEGAL_TRANSMISSION_CONTROL_SURFACE_IS_ASSIGNED_TO_APPROVED_PLATFORMS_AND_THE_REPEATABLE_INTEGRATION_LAYER_IS_ALREADY_CROWDED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_094-F2",
+      "title": "US_PRIOR_AUTHORIZATION_ADMINISTRATIVE_BURDEN_AND_FHIR_TRANSITION",
+      "chinese_title": "美国医疗先授权行政负担与 FHIR 电子化迁移",
+      "evidence_class": "PARTICIPANT_AUTHORED_HIGH_FREQUENCY_ADMINISTRATIVE_FRICTION_WITH_PARTIAL_DIGITIZATION_AND_PAYER_CONTROLLED_DECISION_RIGHTS",
+      "observed_actor_state_change_evidence": [
+        "CMS-0057-F operational prior-authorization provisions generally began in 2026, including tighter response-time requirements for affected payers, while major API implementation requirements generally begin in 2027.",
+        "CMS requires standard prior-authorization decisions no later than seven calendar days and urgent decisions no later than 72 hours for covered payer categories, subject to program-specific conditions.",
+        "A 2026 CMS proposal would extend and align additional electronic prior-authorization standards for drugs, showing the rail is still actively standardizing."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Provider practices already hold clinical documentation and EHR data needed to support many authorization requests, while payers already hold coverage rules and decision systems.",
+        "The underused endowment is structured clinical and coverage data that is still frequently transferred through fragmented phone, portal and manual workflows instead of end-to-end machine exchange."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The AMA's 2025 physician survey, published in 2026, reports an average of 40 prior authorizations per physician per week and 13 hours of physician/staff time spent weekly on the process.",
+        "The same survey reports that only 24% of physicians say their EHR offers electronic prior authorization for prescription drugs and that phone remains the most commonly used method for medical-service prior authorizations.",
+        "Availity documents an end-to-end FHIR workflow using CRD, DTR and PAS from EHR-initiated coverage discovery through documentation collection and authorization submission."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The cross-actor data flow is already real and frequent: providers assemble clinical evidence, payers evaluate coverage, and status moves back to the practice, yet many steps remain manual.",
+        "The partial-flow gap is shrinking through standardized payer APIs and connectivity hubs, but payer coverage rules, clinical completeness and approval/denial remain authoritative external decision rights."
+      ],
+      "economic_signal": [
+        "Practices spend substantial labor on authorization administration, establishing real economic cost, but labor burden alone does not establish willingness to pay a new operator with independent action rights.",
+        "Existing payer, EHR, clearinghouse and connectivity vendors already monetize interoperability and workflow automation around the same transaction."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "CMS assigns the required Prior Authorization API to impacted payers, which must expose coverage/documentation requirements and return approve, deny or request-more-information outcomes.",
+        "Availity already provides a payer-routing FHIR gateway and end-to-end CRD/DTR/PAS workflow for electronic prior authorization.",
+        "EHRs, payer portals and clearinghouse/connectivity networks therefore already control much of the repeatable machine layer, while the payer retains the final coverage decision."
+      ],
+      "founder_independence_check": "PARTIAL_ROUTINE_DOCUMENT_COLLECTION_RULE_CHECKING_ROUTING_SUBMISSION_AND_STATUS_TRACKING_CAN_BE_PRODUCTIZED_BUT_COMPLEX_CLINICAL_JUSTIFICATION_APPEAL_AND_EXCEPTION_HANDLING_CAN_REQUIRE_QUALIFIED_HUMAN_JUDGMENT",
+      "data_action_rights_check": "FAIL_FOR_INDEPENDENT_DECISION_OPERATOR_PROVIDER_AUTHORIZATION_IS_REQUIRED_FOR_CLINICAL_DATA_AND_PAYER_SYSTEMS_RETAIN_COVERAGE_APPROVAL_DENIAL_AND_EXCEPTION_RIGHTS",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EDGE_EXISTING_EHR_CLEARINGHOUSE_CONNECTIVITY_AND_PAYER_WORKFLOW_VENDORS_ARE_ALREADY_STANDARDIZING_AND_MONETIZING_THE_REPEATABLE_TRANSACTION_LAYER",
+      "machine_delegatability_check": "PARTIAL_HIGH_FOR_DISCOVERY_DOCUMENT_ASSEMBLY_SUBMISSION_AND_STATUS_LOW_FOR_NONSTANDARD_CLINICAL_EXCEPTION_AND_APPEAL_JUDGMENT",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_REDUCE_DOCUMENTATION_AND_NAVIGATION_WORK_ON_TOP_OF_STANDARD_APIS_BUT_DO_NOT_ACQUIRE_PAYER_DECISION_RIGHTS_OR_A_DISTINCT_NETWORK_CONTROL_POSITION",
+      "verdict": "DEMOTED_STRONG_PARTICIPANT_AUTHORED_BURDEN_AND_REAL_PARTIAL_DIGITIZATION_BUT_THE_MACHINE_RAIL_IS_BEING_STANDARDIZED_BY_PAYERS_EHRS_AND_CONNECTIVITY_NETWORKS_WHILE_FINAL_COVERAGE_RIGHTS_REMAIN_EXTERNAL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_094-F3",
+      "title": "STRANDED_OFFICE_ASSET_REUSE_AND_CONVERSION_FEASIBILITY_GAP",
+      "chinese_title": "闲置办公资产再利用与改造可行性缺口",
+      "evidence_class": "CURRENT_PHYSICAL_ASSET_UNDERUSE_WITH_OBSERVED_REALLOCATION_FLOW_AND_SITE_SPECIFIC_CAPITAL_EXPERT_EXECUTION",
+      "observed_actor_state_change_evidence": [
+        "CBRE's 2026 occupier survey reports that 25% of non-headquarters locations are being vacated rather than reimagined, while the gap between prime and non-prime office performance remains unusually wide.",
+        "JLL reports that office conversions and redevelopments are surging and have already removed more than 15 million square feet from U.S. office inventory, with further material removals expected this decade.",
+        "Office-to-apartment conversion activity is at a record level in 2026, with industry reporting tracking roughly 90,300 units in the conversion pipeline at the start of the year."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Owners control existing structures, urban locations, utility connections and embodied materials that may be underused as offices while housing and other uses remain valuable.",
+        "The mismatch is structural: older office geometry, systems and lease economics can strand otherwise well-located physical assets."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Developers are actively converting offices to residential and other uses; JLL arranged $113 million of financing/equity in September 2026 for a 320-unit Chicago office-to-residential conversion already under construction.",
+        "Gensler has assessed more than 1,300 buildings with a dedicated conversion-screening tool and reports only roughly 25% to 30% of assessed offices are suitable for conversion, demonstrating repeated screening rather than a universal reuse path.",
+        "Gensler's current tooling evaluates site context, building form, floor plate, envelope and servicing before deeper yield, development and recommendation work."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The partial flow is proven: some stranded offices are successfully reallocated into housing, hotel or other uses, while many fail structural, daylight, servicing, cost or regulatory feasibility.",
+        "Screening can be partly standardized, but successful activation still depends on site-specific ownership decisions, financing, entitlement, architecture, engineering, construction and market execution."
+      ],
+      "economic_signal": [
+        "Large project capital and tax/incentive structures prove substantial value is at stake, but the economic unit is a capital project rather than a low-touch recurring routing transaction.",
+        "Feasibility analysis may be monetizable, yet established architecture/real-estate firms already sell it and the downstream value remains expert- and capital-intensive."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Gensler's Conversions+ already productizes early-stage conversion suitability screening across building and site variables.",
+        "Real-estate owners, developers, lenders, municipalities, architects, engineers and contractors hold the decisive property, financing, entitlement and construction rights.",
+        "Current conversion projects demonstrate that the execution rail is project finance plus physical redevelopment, not a software-controlled allocation edge."
+      ],
+      "founder_independence_check": "FAIL_FOR_END_TO_END_VALUE_FLOW_THE_DECISIVE_ACTIVATION_REQUIRES_SITE_SPECIFIC_DESIGN_FINANCING_ENTITLEMENT_AND_PHYSICAL_CONSTRUCTION_EVEN_IF_SCREENING_IS_PRODUCTIZED",
+      "data_action_rights_check": "FAIL_PROPERTY_CONTROL_LENDER_CAPITAL_MUNICIPAL_ENTITLEMENTS_AND_CONSTRUCTION_RIGHTS_CANNOT_BE_CREATED_BY_A_SOFTWARE_OPERATOR",
+      "normalized_margin_check": "FAIL_FOR_LOW_TOUCH_ROUTER_THE_VALUE_POOL_IS_TIED_TO_EXPERT_REAL_ESTATE_ADVISORY_DEVELOPMENT_FINANCE_AND_CONSTRUCTION_WITH_HIGH_PROJECT_SPECIFIC_VARIANCE",
+      "machine_delegatability_check": "PARTIAL_BUILDING_SCREENING_DATA_TRIAGE_AND_SCENARIO_ANALYSIS_ARE_MACHINE_ASSISTABLE_BUT_DUE_DILIGENCE_DESIGN_FINANCE_APPROVAL_AND_CONSTRUCTION_ARE_NOT",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_ASSIST_SCREENING_AND_DOCUMENT_ANALYSIS_WHILE_THE_NON_SUBSTITUTABLE_VALUE_REMAINS_PROPERTY_RIGHTS_EXPERT_JUDGMENT_CAPITAL_AND_PHYSICAL_EXECUTION",
+      "verdict": "DEMOTED_REAL_STRANDED_ASSET_AND_REALLOCATION_FLOW_BUT_THE_DECISIVE_VALUE_UNIT_IS_SITE_SPECIFIC_CAPITAL_INTENSIVE_EXPERT_PHYSICAL_REDEVELOPMENT_NOT_A_FOUNDER_INDEPENDENT_MACHINE_ROUTING_EDGE"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "GENERIC_FRANCE_EINVOICE_PLATFORM_SELECTION_ASSISTANT",
+      "excluded_reason": "EXCLUDE_MECHANISM_THE_LEGAL_RAIL_IS_ALREADY_ASSIGNED_TO_APPROVED_PLATFORMS_AND_GENERIC_SELECTION_OR_MAPPING_ASSISTANCE_DOES_NOT_CREATE_TRANSMISSION_RIGHTS_OR_A_DISTINCT_CONTROL_ASSET"
+    },
+    {
+      "observation": "GENERIC_PRIOR_AUTH_FORM_FILLING_COPILOT",
+      "excluded_reason": "EXCLUDE_MECHANISM_GENERIC_DOCUMENT_ASSEMBLY_CAN_REDUCE_LABOR_BUT_IS_AGENT_SUBSTITUTABLE_AND_DOES_NOT_OWN_PAYER_APPROVAL_RIGHTS_OR_THE_INTEROPERABILITY_NETWORK"
+    },
+    {
+      "observation": "GENERIC_OFFICE_CONVERSION_SCORING_TOOL",
+      "excluded_reason": "EXCLUDE_MECHANISM_EARLY_FEASIBILITY_SCREENING_IS_ALREADY_PRODUCTIZED_AND_THE_DECISIVE_DOWNSTREAM_VALUE_REMAINS_SITE_SPECIFIC_EXPERT_CAPITAL_AND_PHYSICAL_EXECUTION"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "convenient_search_lens_became_ontology": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_paid_stack": false,
+    "discovery_started_from_observed_actor_state_change": true,
+    "objective_endowment_underuse_or_contradiction_present": true,
+    "formation_diversity": "PASS_MASS_BUSINESS_ADMINISTRATIVE_RAIL_HEALTHCARE_PARTICIPANT_WORKFLOW_AND_PHYSICAL_URBAN_ASSET_REALLOCATION",
+    "observed_indexing_bias": "TWO_BROAD_RESET_PASSES_SHOW_PUBLIC_SEARCH_STILL_OVERSELECTS_FORMAL_RULE_CHANGES_VENDOR_DOCUMENTED_TRANSITIONS_AND_LARGE_CAPITAL_ASSET_REALLOCATION_BECAUSE_THEIR_EVIDENCE_IS_EASY_TO_INDEX",
+    "response": "SHIFT_SCAN095_SOURCE_PRIORITY_TO_DIRECT_PARTICIPANT_AUTHORED_CURRENT_UNDERUSE_CONTRADICTION_OR_MANUAL_STATE_TRANSFER_WITH_INDEPENDENT_OBJECTIVE_CORROBORATION_BEFORE_PRODUCT_OR_MECHANISM_SELECTION",
+    "participant_behavior_over_analyst_story": "PASS_STRONGEST_IN_F2_VIA_CURRENT_PHYSICIAN_SURVEY_AND_IN_F3_VIA_ACTUAL_OWNER_DEVELOPER_CONVERSION_FLOW_F1_IS_REAL_BUT_REMAINS_INSTITUTION_DOCUMENT_HEAVY_AND_IS_NOT_RETAINED"
+  },
+  "scan_learnings": [
+    "SECOND_BROAD_CURRENT_REALITY_PASS_CONFIRMS_THAT_UPSTREAM_SENSING_RESTORES_FORMATION_DIVERSITY_BUT_INDEXABLE_STATE_CHANGES_OFTEN_HAVE_PREASSIGNED_CONTROL_SURFACES",
+    "FRANCE_2026_EINVOICING_IS_A_MASS_REAL_PROCESS_MIGRATION_BUT_APPROVED_PLATFORMS_LEGALLY_OWN_THE_TRANSMISSION_RAIL_AND_GENERIC_INTEGRATION_DOES_NOT_CREATE_OPERATOR_RIGHTS",
+    "US_PRIOR_AUTHORIZATION_HAS_STRONG_CURRENT_PARTICIPANT_AUTHORED_BURDEN_AND_PARTIAL_MANUAL_FLOW_BUT_PAYER_DECISION_RIGHTS_AND_ESTABLISHED_FHIR_CONNECTIVITY_COMPRESS_A_NEW_GENERIC_ROUTING_EDGE",
+    "STRANDED_OFFICE_REUSE_PROVES_REAL_OBJECTIVE_UNDERUSE_AND_REALLOCATION_FLOW_BUT_SUCCESSFUL_ACTIVATION_IS_SITE_SPECIFIC_CAPITAL_EXPERT_AND_PHYSICAL",
+    "TWO_BROAD_SOURCE_RESET_PASSES_ARE_ENOUGH_TO_CHANGE_EVIDENCE_SOURCE_PRIORITY_WITHOUT_INVENTING_A_PRODUCT_MECHANISM",
+    "NEXT_DISCOVERY_SHOULD_DEPRIORITIZE_PURE_RULE_CHANGE_VENDOR_TRANSITION_OR_CAPITAL_REDEVELOPMENT_AS_SOLE_SEEDS_AND_REQUIRE_DIRECT_PARTICIPANT_AUTHORED_CURRENT_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_095",
+  "next_search_boundary": "PARTICIPANT_AUTHORED_CURRENT_REALITY_SOURCE_SHIFT_AFTER_TWO_BROAD_RESET_PASSES_REQUIRE_DIRECT_PARTICIPANT_RECORDED_UNDERUSE_CONTRADICTION_OR_MANUAL_STATE_TRANSFER_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_BEFORE_PRODUCT_OR_MECHANISM_SELECTION_DEPRIORITIZE_PURE_RULE_CHANGE_VENDOR_TRANSITION_AND_CAPITAL_REDEVELOPMENT_AS_SOLE_SEEDS_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_094_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN094_WITH_CI_JEV_THEN_START_SCAN095_PARTICIPANT_AUTHORED_CURRENT_REALITY_SOURCE_SHIFT_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.impots.gouv.fr/professionnel",
+    "https://www.economie.gouv.fr/tout-savoir-sur-la-facturation-electronique-pour-les-entreprises",
+    "https://www.impots.gouv.fr/professionnel/questions/partir-de-quand-suis-je-concerne-par-la-reforme-de-la-facturation",
+    "https://www.impots.gouv.fr/professionnel/questions/dans-le-cadre-de-la-reforme-de-la-facturation-electronique-comment-devrais",
+    "https://www.impots.gouv.fr/je-consulte-la-liste-des-plateformes-agreees",
+    "https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/policies-regulations/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
+    "https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/prior-authorization-api/improving-prior-authorization-processes",
+    "https://www.cms.gov/newsroom/fact-sheets/2026-cms-interoperability-standards-prior-authorization-drugs-proposed-rule",
+    "https://www.ama-assn.org/press-center/ama-press-releases/ama-survey-prior-authorization-reform-pledge-falls-short-physicians",
+    "https://www.ama-assn.org/practice-management/prior-authorization/only-1-3-doctors-trusts-insurers-prior-authorization",
+    "https://essentials.availity.com/availity/help-open/oxy_ex-1/onb-implementation-docs/implementation_docs/prior_authorization_connectivity_hub/overview/c_standard_end_to_end_workflow_consolidated.html",
+    "https://www.availity.com/case-studies/end-to-end-prior-authorizations-using-fhir-apis/",
+    "https://www.cbre.com/insights/reports/2026-americas-office-occupier-sentiment-survey",
+    "https://www.jll.com/en-us/insights/the-case-for-office-renovation",
+    "https://www.jll.com/en-us/newsroom/jll-secured-113m-for-landmark-office-to-resi-conversion",
+    "https://naahq.org/news/office-apartment-conversions-hit-record-mark",
+    "https://www.gensler.com/building-conversions",
+    "https://www.gensler.com/blog/what-we-learned-assessing-office-to-residential-conversions"
+  ]
+}

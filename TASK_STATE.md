@@ -12,22 +12,22 @@ Reach the first real external value flow through a formation that survives parti
 
 ## Current Unique Commercial Research Goal
 
-Validation: `ATTRACTION_SCAN_015-F1` still requires written cross-rail outcome-data rights plus organic founder-free inbound intent. Inbox check on 2026-09-22 found no official reply from the two verified outreach targets; no response is neither a pass nor a denial.
+Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 093 completed the first broad-current-reality reset after Scans 091–092. It started from actor/state changes, objective endowments, underuse/contradiction and partial flows rather than paid product stacks. Public TLS certificate lifetime compression, the U.S. A2L HVAC field transition and post-EAA EU ecommerce accessibility all closed without retention. Scan 094 must repeat the same broad-reality method on a fresh independent sample before any new discovery signal or mechanism is derived.
+Discovery: Scan 094 is complete with zero retention. After two independent broad-current-reality passes, Scan 095 may proceed only if final-head CI/Jev authorizes continuation; its evidence entrance must prioritize direct participant-authored current friction plus independent objective corroboration rather than another product/mechanism lens.
 
 ## Current Phase
 
-`SCAN_093_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_094_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`4a0662ae89472a7731d39315264aeeac39bd2605`
-— squash merge of PR #390, `Complete second residual-cost pass in Scan 092`.
+`16053e68cb87fde28d317f5cf30756f346eb5d9d`
+— squash merge of PR #391, `Reset discovery to broad current reality in Scan 093`.
 
-PR #390 final head `c760ad0d2373aedb952c0f90c8b3b99a15730bdf`:
-- repository CI run `35701703501`: success;
-- live Jev run `35701703346`: success;
+PR #391 final head `64b7176f284abda5b26006fd26594710e5fb9df3`:
+- repository CI run `35703591470`: success;
+- live TypeSafe/Jev run `35703591626`: success;
 - 3/3 effective route `NO_FURTHER_RESEARCH`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
@@ -38,126 +38,121 @@ PR #390 final head `c760ad0d2373aedb952c0f90c8b3b99a15730bdf`:
 
 ## Active Branch
 
-`research/attraction-scan-093`
+`research/attraction-scan-094`
 
 ## Active PR
 
-#391 — `Reset discovery to broad current reality in Scan 093`.
+#392 — `Complete second broad current-reality pass in Scan 094`.
+
+PR was opened from the completed Scan 094 checkpoint. The current head must be revalidated after this CI-fix commit; only the resulting exact SHA may be merged.
 
 ## CI
 
-- PR #390 final-head repository CI `35701703501`: success.
-- PR #390 live Jev `35701703346`: success; `ADVANCE_TO_NEXT_SCAN`.
-- PR #391 opened for Scan 093; final-head repository CI and live Jev are pending.
+- PR #391 final-head repository CI `35703591470`: success.
+- PR #391 live TypeSafe/Jev `35703591626`: success; `ADVANCE_TO_NEXT_SCAN`.
+- PR #392 first bound-head CI `35705476205`: failed only because this handoff omitted required durable TASK_STATE section headings.
+- The Scan 094 research/state assertions were not identified as the cause of that failure.
+- This commit restores the required handoff structure. A fresh repository CI plus live TypeSafe/Jev run is required on the new final head.
+
+## Parallel Validation
+
+`ATTRACTION_SCAN_015-F1` still requires official written cross-rail outcome-data rights evidence plus organic founder-free inbound intent.
+
+Last verified inbox state remains 2026-09-22: no official provider reply from the two verified targets. No response is neither a pass nor a denial. Do not repeat the public-rights search while written evidence is outstanding.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_093.json`
-- `docs/research/ATTRACTION_SCAN_093_2026-09-22.md`
-- `tests/test_attraction_scan_093_broad_current_reality_reset.py`
+- `data/research_runs/attraction_scan_094.json`;
+- `docs/research/ATTRACTION_SCAN_094_2026-09-22.md`;
+- `tests/test_attraction_scan_094_second_broad_current_reality_pass.py`.
 
 Updated:
-- `data/commercial_reset_state.json`
-- `TASK_STATE.md`
+- `data/commercial_reset_state.json`;
+- `TASK_STATE.md`.
 
 Persisted state:
-- last completed scan = `ATTRACTION_SCAN_093`;
-- last resolved formation = `ATTRACTION_SCAN_093-F3`;
-- next scan = `ATTRACTION_SCAN_094`;
+- last completed scan = `ATTRACTION_SCAN_094`;
+- last resolved formation = `ATTRACTION_SCAN_094-F3`;
+- next scan = `ATTRACTION_SCAN_095`;
 - active commercial candidates = 0;
-- FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`;
-- next boundary = second independent broad-current-reality pass using actor/state change, objective endowment, underuse, contradiction and partial flow before product/category selection.
+- FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Reconciled the interrupted session against live GitHub rather than chat history.
-- Classified the prior `TASK_STATE.md` as STALE because live GitHub had already completed and merged PR #390.
-- Verified PR #390 merge commit `4a0662ae89472a7731d39315264aeeac39bd2605`.
-- Verified Scan 092 repository CI `35701703501` succeeded.
-- Verified Scan 092 live TypeSafe/Jev `35701703346` succeeded.
-- Consumed Jev continuation: all 3 formations `NO_FURTHER_RESEARCH`, `autonomous_continuation_allowed=true`, `ADVANCE_TO_NEXT_SCAN`.
-- Verified recovery checkpoint `commercial-attraction-scan-092.json` marks Scan 092 merged/validated/continuation-consumed.
-- Confirmed no open PR and no existing Scan 093 branch before starting new work.
-- Created `research/attraction-scan-093` from the verified main SHA.
-- Checked the repository corpus for TLS certificate lifetime, A2L refrigerant and EAA accessibility duplicates; no matching prior scan formation was found.
-- Researched three fresh formation-diverse current-reality chains and persisted Scan 093.
-- Updated commercial reset state through Scan 093 with zero retention and zero commercial promotion.
-- Opened PR #391 and bound the handoff to the live PR.
+- Reconciled stale Scan 093 handoff against live GitHub.
+- Verified PR #391 merge, repository CI and real TypeSafe/Jev continuation.
+- Reused the already-created Scan 094 branch after proving it was identical to main.
+- Completed Scan 094 research across three fresh formation-diverse reality chains.
+- Persisted scan JSON, research note, regression test and commercial reset-state advancement.
+- Opened PR #392 and bound the handoff to it.
+- Diagnosed the first PR #392 CI failure as missing mandatory TASK_STATE section headings and restored the durable handoff contract.
 
 ## Current Findings
 
-### Scan 093-F1 — public TLS certificate lifetime compression
+### Scan 094-F1 — France B2B e-invoicing
 
-Observed:
-- CA/Browser Forum currently caps public TLS certificate validity at 200 days from 2026-03-15, 100 days from 2027-03-15 and 47 days from 2029-03-15;
-- domain/IP validation reuse also compresses;
-- DigiCert and Sectigo explicitly treat shorter lifetimes as a driver for lifecycle automation.
+Real mass migration/reconciliation work exists, but legal transmission is assigned to approved platforms; generic integration does not create operator rights.
 
-Closure:
-- issuance/renewal/deployment is highly machine-executable;
-- DigiCert, Sectigo, ACME and cloud-native certificate managers already own the repeatable lifecycle surface;
-- DNS, CA, private-key and endpoint deployment rights remain externally controlled;
-- a generic agent can orchestrate existing APIs but does not create distinct rights or a new control plane.
+### Scan 094-F2 — U.S. prior authorization/FHIR
 
-### Scan 093-F2 — U.S. A2L HVAC field transition
+Participant-authored burden and manual partial flow are strong, but payer decision rights plus existing EHR/clearinghouse/connectivity infrastructure compress a distinct generic routing edge.
 
-Observed:
-- lower-GWP rules and the market transition toward R-32/R-454B changed training, equipment controls, compatible tools and field procedures;
-- current 2026 industry evidence continues to show A2L training and manufacturer workflow changes;
-- distributor evidence records real inventory/supply transition costs, while the earlier R-454B shortage has largely eased.
+### Scan 094-F3 — stranded office reuse/conversion
 
-Closure:
-- decisive work remains physical installation/service, refrigerant handling, safe charging/leak work and site-specific diagnosis;
-- OEMs, distributors, training bodies, tool/refrigerant vendors and HVAC contractors already own the critical rights and execution nodes;
-- no distinct founder-independent low-touch orchestration unit with evidenced recurring payer inflow is established.
+Objective underuse and real reallocation flows exist, but decisive activation remains property-, capital-, entitlement-, expert- and construction-dependent.
 
-### Scan 093-F3 — EU ecommerce accessibility after EAA
+## Scan 094 Result
 
-Observed:
-- the EAA has applied to covered ecommerce services since 2025-06-28;
-- AccessibleEU published EN 301 549 v4.1.1 in September 2026 while noting it is not yet the formal legal reference for EAA/WAD conformance;
-- a July 2026 diagnostic vendor sample still found critical accessibility barriers on more than half of the scored large-store sample.
+Second independent broad-current-reality pass completed with zero commercial promotions and zero retained research formations.
 
-Closure:
-- automated scanning, CI regression testing, ticketing and many deterministic fixes are machine-executable;
-- Deque, Level Access, open-source axe-core and established audit/remediation providers already capture the routine layer;
-- W3C explicitly requires knowledgeable human evaluation; full conformance/usability cannot be truthfully collapsed into an autonomous generic-agent verdict.
+Examined:
+- `ATTRACTION_SCAN_094-F1` — France B2B e-invoicing mandatory platform migration and reconciliation;
+- `ATTRACTION_SCAN_094-F2` — U.S. prior-authorization administrative burden and FHIR transition;
+- `ATTRACTION_SCAN_094-F3` — stranded office asset reuse and conversion feasibility.
 
-## Broad-reset learning
+All three were demoted after exact current control-surface, rights, founder-independence, normalized economics, machine-delegatability and generic-agent preflight.
 
-```text
-CURRENT STATE CHANGE
-+ OBJECTIVE ENDOWMENT / UNDERUSE / CONTRADICTION / PARTIAL FLOW
-=
-GOOD DISCOVERY SENSOR
+Persisted:
+- `data/research_runs/attraction_scan_094.json`;
+- `docs/research/ATTRACTION_SCAN_094_2026-09-22.md`;
+- `tests/test_attraction_scan_094_second_broad_current_reality_pass.py`;
+- `data/commercial_reset_state.json` advanced through Scan 094.
 
-GOOD DISCOVERY SENSOR
-!=
-UNOWNED COMMERCIAL EDGE
-```
+State truth:
+- last completed scan = `ATTRACTION_SCAN_094`;
+- last resolved formation = `ATTRACTION_SCAN_094-F3`;
+- next scan = `ATTRACTION_SCAN_095`;
+- active commercial candidates = 0;
+- FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
-Scan 093 restored formation diversity without inheriting the residual-second-cost ontology. One pass is not enough to derive another mechanism. Scan 094 must repeat the broad-reality method independently and should prefer participant-authored underuse, contradiction and partial-flow evidence where available.
+## Cross-Pass Learning
+
+Two independent broad-reality passes are now enough to change evidence-source priority without inventing a product mechanism.
+
+Scan 095 should require direct participant-authored current underuse, contradiction or manual state transfer plus independent objective corroboration before product/mechanism selection. Pure rule changes, vendor transitions and capital redevelopment should not be sole seeds.
 
 ## Blockers
 
 Validation:
-- Scan 015-F1 still needs actual written provider response/agreement and founder-free inbound proof.
+- Scan 015-F1 still needs an actual official written provider response/agreement and founder-free inbound proof.
 - No response remains neither a pass nor a denial.
-- Do not repeat the public-rights search while written evidence is outstanding.
 
 Engineering:
-- no Jev integration blocker;
-- PR #391 is open;
-- Scan 093 final-head repository CI and live Jev still need to run.
+- PR #392 requires fresh repository CI and live TypeSafe/Jev on this post-fix head.
+- Do not merge or start Scan 095 from an older head.
 
 Discovery:
-- Scan 093 research is complete with zero retention;
-- Scan 094 must not start until Scan 093 final-head CI/Jev continuation is consumed.
+- Scan 094 is complete with zero retention.
+- Scan 095 is gated on the final-head continuation directive.
 
-## Next Action
+## Engineering State
 
-Validate PR #391 final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue automatically into Scan 094 only if `autonomous_continuation_allowed=true`.
+- no Jev integration blocker;
+- Scan 094 branch is ahead of `main`;
+- PR #392 is open;
+- this PR-binding commit intentionally changes the head once; Scan 094 repository CI and live TypeSafe/Jev must validate the resulting final head;
+- do not start Scan 095 until Scan 094 final-head continuation is consumed.
 
 ## Do Not Repeat
 
@@ -166,12 +161,10 @@ Validate PR #391 final head with repository CI plus live TypeSafe/Jev, consume t
 - Do not repeat Scan 091 ecommerce accounting connectors, cold-email deliverability/verification, or Home Assistant/SmartThings.
 - Do not repeat Scan 092 Figma token-sync, Webflow membership/auth, or Lightroom/Backblaze.
 - Do not repeat Scan 093 TLS certificate-lifetime compression/CLM, A2L HVAC transition, or post-EAA ecommerce accessibility.
-- Do not use second-layer spend as a new product-stack ontology.
-- Do not infer a new certificate-alerting, HVAC coordination or accessibility-overlay product from Scan 093 closures.
-- Do not treat temporary historical supply shortages as current unresolved state when current evidence shows stabilization.
-- Do not treat automated accessibility scanning as proof of full conformance.
-- Do not return to Scan 060–093 formations or their primary discovery signals.
+- Do not repeat Scan 094 France B2B e-invoicing, U.S. prior authorization/FHIR, or office-to-residential conversion/reuse.
+- Do not return to Scan 060–094 formations or their primary discovery signals.
 - Do not use job/gig/RFQ/procurement feeds as discovery ontology.
+- Do not infer a new product from a closed formation.
 - Do not lower hard floors because discovery closes at zero.
 - Do not repeat Scan 015 public-rights research while written provider evidence is outstanding.
 
@@ -179,7 +172,6 @@ Validate PR #391 final head with repository CI plus live TypeSafe/Jev, consume t
 
 - GitHub live state wins.
 - REALITY > COGNITION > SCHEMA.
-- Attraction first for attention; evidence first for truth.
 - UNKNOWN != PASS.
 - Inference != fact.
 - No inherited commercial case layer or product mechanism.
@@ -187,22 +179,24 @@ Validate PR #391 final head with repository CI plus live TypeSafe/Jev, consume t
 - No recurring founder acquisition.
 - No recurring expert delivery.
 - Generic-agent substitutability is a hard attraction kill.
-- Operator control must be evidenced through reusable rights/data/workflow position/trust/distribution/capability.
-- Payment/economics must be externally evidenced before commercial promotion.
+- Operator control and economics must be externally evidenced before commercial promotion.
 - Infer broadly; retain conservatively.
 
 ## Jev Integration Boundary
 
 Contract: `OPPORTUNITY_JEV_RESEARCH_ADVISORY_V2`.
 
-Actual invocation:
-1. PR workflow installs `typesafe-sdk==0.7.0`.
-2. It runs `tools/run_jev_research_advisory.py --scan-json auto --commercial-state-json data/commercial_reset_state.json --max-entities 6 --output-dir .artifacts/jev-research-advisory --require-success`.
-3. `--scan-json auto` resolves the latest persisted scan.
-4. TypeSafe calls `jev-latest` using repository `TYPESAFE_API_KEY`.
-5. Jev returns advisory model routes only.
-6. Repository logic derives effective routes while preserving authoritative closures.
-7. `OPPORTUNITY_JEV_AGENT_CONTINUATION_V1` emits `jev_continuation_directive.json`.
-8. The running repository agent consumes `ADVANCE_TO_NEXT_SCAN`, `EXECUTE_RESEARCH_QUEUE`, or `STOP_FOR_HUMAN_REVIEW`.
+Actual PR workflow:
+1. installs `typesafe-sdk==0.7.0`;
+2. runs `tools/run_jev_research_advisory.py --scan-json auto --commercial-state-json data/commercial_reset_state.json --max-entities 6 --output-dir .artifacts/jev-research-advisory --require-success`;
+3. TypeSafe calls `jev-latest`;
+4. Jev returns advisory routes only;
+5. repository logic preserves authoritative closures and derives effective routes;
+6. `OPPORTUNITY_JEV_AGENT_CONTINUATION_V1` emits the continuation directive;
+7. the running repository agent consumes the directive.
 
 Jev cannot promote candidates, mutate authoritative commercial truth, reverse closed verdicts or perform external side effects.
+
+## Next Action
+
+Validate PR #392 final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue into Scan 095 only if `autonomous_continuation_allowed=true`.
