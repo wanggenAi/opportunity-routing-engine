@@ -1,0 +1,134 @@
+{
+  "schema_version": "attraction-scan.v48",
+  "scan_id": "ATTRACTION_SCAN_069",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_CONCURRENT_PAID_SUPPLIERS_FOR_THE_SAME_UNBUNDLED_ATOMIC_EXECUTION_UNIT_WITH_MEASURABLE_PROVIDER_DISAGREEMENT_FAILURE_OR_COVERAGE_VARIATION_BUYER_CONTROLLED_SWITCHING_OR_FALLBACK_UNIT_ECONOMICS_EXACT_ORCHESTRATION_AGGREGATOR_NATIVE_CONTROL_SURFACE_AND_DATA_ACTION_RIGHTS_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN068_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_069-F1",
+      "title": "MULTI_PROVIDER_SMS_AND_OTP_ROUTING",
+      "chinese_title": "多供应商短信与 OTP 路由",
+      "concurrent_supplier_evidence": [
+        "A current production operator reports replacing Twilio with an in-house system that splits roughly 50%/50% across Vonage and Telnyx so either vendor can carry traffic if the other goes down.",
+        "A separate current production user reports moving a large share of international traffic to Dexatel while still keeping Twilio active; another independent operator in the same current market reports having multi-sourced OTP with Sinch before later consolidating."
+      ],
+      "measurable_variation": "Buyers explicitly cite cost, international deliverability, support, reliability and outage risk as reasons to split or retain providers.",
+      "verdict": "DEMOTED_CONCURRENT_PAID_MULTI_SUPPLIER_BEHAVIOR_PASSES_BUT_EXACT_SMS_ORCHESTRATION_FAILOVER_AND_PROVIDER_HEALTH_ROUTING_IS_ALREADY_A_CURRENT_PRODUCT_CATEGORY",
+      "evidence_summary": "This is the strongest direct Scan 069 pass. Buyer-controlled multi-provider execution is real, not hypothetical. But SymphonyRoute, Flowstates, SendPipe and other current products already expose provider health, weighted routing, regional rules and automatic failover. The observed in-house implementation is therefore a residual build-vs-buy signal, not unowned orchestration white space."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_069-F2",
+      "title": "DUAL_AUTHORITATIVE_DNS_PROVIDER_CONTROL",
+      "chinese_title": "双权威 DNS 供应商控制",
+      "concurrent_supplier_evidence": [
+        "A current sysadmin reports managing Cloudflare DNS and Azure DNS together through DNSControl.",
+        "A separate current practitioner reports running OCI and NS1 together while discussing multi-CDN/DNS resilience."
+      ],
+      "measurable_variation": "The explicit driver is provider outage resilience and the ability to drop or fail away from one DNS control plane.",
+      "verdict": "DEMOTED_MULTI_PROVIDER_USAGE_IS_REAL_BUT_DIRECT_PAID_CONCURRENCY_IS_NOT_FULLY_ATTRIBUTED_AND_OPEN_SOURCE_DNSCONTROL_ALREADY_OWNS_THE_PROVIDER_ABSTRACTION",
+      "evidence_summary": "Concurrent provider operation is directly observed, but public evidence does not cleanly attribute separate recurring payment to both providers. More importantly, DNSControl is a current open-source provider abstraction that can push the same zone to multiple DNS hosts and is explicitly designed to reduce single-provider failure and lock-in."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_069-F3",
+      "title": "MULTI_PSP_PAYMENT_ROUTING_AND_FALLBACK",
+      "chinese_title": "多支付服务商路由与故障切换",
+      "concurrent_supplier_evidence": [
+        "Primer's current Zing case study documents a multi-processor stack with region/currency/BIN routing and automatic fallback to an alternative PSP.",
+        "Primer's current Ferryhopper case study documents orchestration across multiple PSPs and markets, including fallback that recovered approximately EUR 3.4M during a processor outage; current Hyperswitch customer stories independently document similar multi-PSP routing at named enterprises."
+      ],
+      "measurable_variation": "Authorization rate, geographic reach, processor outages, fees and network availability are all measured routing inputs.",
+      "verdict": "DEMOTED_CONCURRENT_MULTI_PSP_SPEND_AND_MEASURABLE_PROVIDER_VARIATION_PASS_BUT_PAYMENT_ORCHESTRATION_IS_AN_ESTABLISHED_ENTERPRISE_AND_OPEN_SOURCE_CONTROL_PLANE",
+      "evidence_summary": "The behavior is economically real and high-value, but it is already a mature named category. Primer, Spreedly and Hyperswitch expose routing, retry, fallback, PSP normalization and reconciliation, with Hyperswitch additionally available as an open-source/composable control plane."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_069-F4",
+      "title": "MULTI_VERIFIER_EMAIL_VALIDATION_WATERFALL",
+      "chinese_title": "多邮箱验证器瀑布校验",
+      "concurrent_supplier_evidence": [
+        "A September 2026 buyer ran the same 10,000-email list through six different verification tools and observed materially different valid counts and catch-all treatment.",
+        "A current cold-email discussion recommends double verification with two independent verification services, while another current buyer explicitly says they are open to stacking two because catch-all results vary."
+      ],
+      "measurable_variation": "The same addresses receive conflicting valid/risky/unknown outcomes, especially on catch-all domains.",
+      "verdict": "DEMOTED_PROVIDER_DISAGREEMENT_IS_DIRECTLY_OBSERVED_BUT_TWO_INDEPENDENT_RECURRING_PAID_CONCURRENT_BUYERS_ARE_NOT_PROVEN_AND_WATERFALL_VERIFICATION_IS_ALREADY_PRODUCTIZED",
+      "evidence_summary": "The disagreement mechanism is real, but benchmark/test usage and willingness to stack tools are weaker than recurring concurrent supplier spend. Existing verifier-waterfall products already send unresolved addresses through multiple providers, so the formation fails both the strict payer floor and exact-orchestration preflight."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_069-F5",
+      "title": "MULTI_PROVIDER_KYC_IDV_ABSTRACTION",
+      "chinese_title": "多供应商 KYC/身份核验抽象",
+      "concurrent_supplier_evidence": [
+        "A current KYC practitioner reports spending six months abstracting the KYC layer so providers can be hot-swapped when fraud patterns or pricing changes.",
+        "Current KYC teams explicitly discuss an orchestration layer plus two to three IDV workhorses and live pilots on their own traffic, but the public evidence does not prove two independent buyers continuously paying multiple IDV vendors in production at the same time."
+      ],
+      "measurable_variation": "Regional document coverage, false positives, fraud catch, manual-review rate, price changes and outage exposure vary materially by provider.",
+      "verdict": "DEMOTED_REAL_SWITCHING_AND_PROVIDER_VARIATION_BUT_STRICT_TWO_BUYER_CONCURRENT_PAID_PRODUCTION_FLOOR_NOT_PROVEN_AND_KYC_ORCHESTRATION_ALREADY_EXISTS",
+      "evidence_summary": "The custom abstraction cost is a meaningful residual signal, but it does not satisfy Scan 069's strict concurrent paid-supplier floor. Current KYC orchestration products already route providers by geography, risk, cost and failure, while compliance and data-residency accountability remain domain-specific."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_069-F6",
+      "title": "MULTI_PROVIDER_RESIDENTIAL_PROXY_ROUTING",
+      "chinese_title": "多住宅代理供应商路由",
+      "concurrent_supplier_evidence": [
+        "A June 2026 evaluator explicitly purchased the cheapest residential package from ten providers and ran identical workloads against Zillow, Indeed and Cloudflare.",
+        "A separate 2026 benchmark tested ten residential proxy services over weeks and thousands of requests, showing meaningful provider variation, but does not clearly prove all suppliers remained concurrently paid in recurring production."
+      ],
+      "measurable_variation": "Success rate, latency, geo/session behavior, IP quality, blocks and per-GB economics vary by target and provider.",
+      "verdict": "DEMOTED_PAID_MULTI_PROVIDER_BENCHMARKING_IS_REAL_BUT_RECURRING_PRODUCTION_CONCURRENCY_IS_NOT_PROVEN_AND_MULTI_UPSTREAM_PROXY_ROUTING_IS_ALREADY_AN_EXPLICIT_ENGINEERING_PATTERN",
+      "evidence_summary": "The buyer-side benchmark is strong evidence of provider disagreement but not of durable concurrent production spend. Current multi-upstream proxy routing products and implementation guides already normalize upstream providers behind a single gateway, while target-specific anti-bot behavior keeps routing policy bespoke."
+    }
+  ],
+  "hard_floor_demotions": [
+    "SMS_MULTI_PROVIDER_CONCURRENCY_PASSES_BUT_CURRENT_ORCHESTRATION_PRODUCTS_ALREADY_ROUTE_ON_HEALTH_COST_GEO_AND_FAILOVER",
+    "DUAL_DNS_USAGE_DOES_NOT_SATISFY_FULL_PAID_ATTRIBUTION_AND_DNSCONTROL_ALREADY_PROVIDES_OPEN_SOURCE_MULTI_PROVIDER_CONTROL",
+    "MULTI_PSP_PAYMENT_ROUTING_IS_HIGH_VALUE_BUT_ALREADY_A_MATURE_ENTERPRISE_AND_OPEN_SOURCE_ORCHESTRATION_CATEGORY",
+    "EMAIL_VERIFIER_DISAGREEMENT_DOES_NOT_PROVE_TWO_INDEPENDENT_RECURRING_PAID_CONCURRENT_BUYERS_AND_WATERFALLS_ALREADY_EXIST",
+    "KYC_HOT_SWAP_ENGINEERING_DOES_NOT_PROVE_TWO_BUYER_CONCURRENT_PAID_PRODUCTION_AND_IDV_ORCHESTRATION_ALREADY_EXISTS",
+    "PROXY_MULTI_PROVIDER_BENCHMARKING_IS_NOT_THE_SAME_AS_RECURRING_PRODUCTION_CONCURRENCY_AND_UPSTREAM_ROUTING_IS_ALREADY_A_KNOWN_CONTROL_PATTERN"
+  ],
+  "scan_learnings": [
+    "CONCURRENT_MULTI_SUPPLIER_SPEND_IS_REAL_AND_STRONGEST_IN_INFRASTRUCTURE_WHERE_PROVIDER_FAILURE_COST_OR_COVERAGE_VARIATION_IS_DIRECTLY_MEASURABLE",
+    "THE_STRONGEST_SCAN069_PASSES_SMS_AND_PAYMENTS_ARE_ALREADY NAMED_ORCHESTRATION_CATEGORIES_WITH CURRENT_PRODUCTS_AND_OPEN_SOURCE_OPTIONS",
+    "MULTI_SUPPLIER_BENCHMARKING_OR_PILOTS_MUST_NOT_BE_UPGRADED_TO_RECURRING_PRODUCTION_CONCURRENCY",
+    "WHERE_BUYERS_STILL_BUILD_IN_HOUSE_DESPITE_ORCHESTRATORS_THE_MORE_INTERESTING_RESIDUAL_IS_BUILD_VS_BUY_CONTROL_NOT_MULTI_PROVIDER_EXISTENCE",
+    "CURRENT_SMS_AND_KYC_EVIDENCE_SHOWS_BUYERS_MAINTAINING_CUSTOM_PROVIDER_ABSTRACTIONS_OR_HOT_SWAP_LAYERS_DESPITE_CATEGORY_AVAILABILITY",
+    "THE_NEXT_CHEAP_FALSIFICATION_SHOULD_REQUIRE_TWO_INDEPENDENT_BUYER_BUILT_OR_SELF_HOSTED_ABSTRACTION_LAYERS_IN_PRODUCTION_AND_EXPLICIT_REASON_EXISTING_ORCHESTRATORS_ARE_BYPASSED",
+    "A_GENERIC_CROSS_DOMAIN_PROVIDER_ROUTER_MUST_FAIL_IF_THE_REUSABLE_ASSET_COLLAPSES_TO_ADAPTER_BOILERPLATE_OR_DOMAIN_SPECIFIC_POLICY",
+    "SCAN069_ZERO_RETENTION_AFTER_CONCURRENT_SUPPLIER_EVIDENCE_AND_EXACT_ORCHESTRATION_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_070",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_BUYER_BUILT_OR_SELF_HOSTED_MULTI_PROVIDER_ABSTRACTION_LAYERS_MAINTAINED_IN_PRODUCTION_DESPITE_AVAILABLE_ORCHESTRATORS_WITH_EXPLICIT_REJECTION_BYPASS_OR_CONTROL_REASON_MEASURABLE_ENGINEERING_MAINTENANCE_COST_REUSABLE_ADAPTER_AND_ROUTING_SEMANTICS_EXACT_OPEN_SOURCE_SAAS_AND_NATIVE_CONTROL_SURFACE_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN069_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN070_FROM_BUYER_BUILT_OR_SELF_HOSTED_MULTI_PROVIDER_ABSTRACTION_DESPITE_AVAILABLE_ORCHESTRATORS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/CRM/comments/1vqxpaq/picking_an_sms_provider_for_our_notifications_2fa/",
+    "https://www.reddit.com/r/twilio/comments/1w39igw/anyone_actually_moved_off_twilio_in_2026_what_did/",
+    "https://www.symphonyroute.com/",
+    "https://flowstates.net/use-cases/multi-vendor-routing",
+    "https://www.reddit.com/r/sysadmin/comments/1ves7zz/public_dns_failoverredundancy/",
+    "https://www.reddit.com/r/sysadmin/comments/1pkwh3o/looking_to_move_another_authoritative_dns/",
+    "https://dnscontrol.org/",
+    "https://primer.io/case-studies/zing",
+    "https://primer.io/case-studies/charting-a-new-course-for-payments-at-ferryhopper",
+    "https://hyperswitch.io/case-studies/mcdonalds",
+    "https://hyperswitch.io/case-studies/xiaomi",
+    "https://hyperswitch.io/",
+    "https://www.reddit.com/r/DigitalMarketing/comments/1wano45/ran_10k_emails_through_6_different_email/",
+    "https://www.reddit.com/r/EmailProspecting/comments/1u22uzp/whats_everyone_using_to_verify_emails_before_a/",
+    "https://www.reddit.com/r/coldemail/comments/1rsj07y/biggest_mistake_in_cold_email_campaigns/",
+    "https://www.reddit.com/r/fintech/comments/1pzrvet/building_2026_kyc_stack_what_vendors_are_you/",
+    "https://www.ondorse.co/kyc-orchestration",
+    "https://www.reddit.com/r/ProxyEngineering/comments/1u85yhn/i_bought_the_cheapest_residential_package_from_10/",
+    "https://www.reddit.com/r/PrivatePackets/comments/1t637mb/testing_proxy_providers_first_half_of_2026_whos/",
+    "https://proxyrequest.com/blog/multiple-proxy-providers/"
+  ]
+}
