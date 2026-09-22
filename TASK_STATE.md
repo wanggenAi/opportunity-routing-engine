@@ -42,12 +42,12 @@ PR #388 final head `70c686e1d11a15830d375e2eb9921143f9bd407c`:
 
 ## Active PR
 
-None yet. Open the Scan 091 PR after this checkpoint commit.
+#389 — `Validate residual double-cost signal in Scan 091`.
 
 ## CI
 
 - PR #388 final head `70c686e1d11a15830d375e2eb9921143f9bd407c`: repository CI `35697745738` success; live Jev `35697745723` success; `ADVANCE_TO_NEXT_SCAN`.
-- Scan 091 branch CI/Jev not yet run against the final PR head.
+- PR #389 opened for Scan 091; final-head repository CI and live Jev pending.
 
 ## Latest Artifact / Persisted State
 
@@ -151,7 +151,7 @@ Discovery:
 
 ## Next Action
 
-Open the Scan 091 PR, validate its final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, and continue automatically into Scan 092 only if `autonomous_continuation_allowed=true`.
+Validate PR #389 final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue automatically into Scan 092 only if `autonomous_continuation_allowed=true`.
 
 ## Do Not Repeat
 
