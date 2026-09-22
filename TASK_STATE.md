@@ -14,16 +14,26 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_104` is complete on PR #402 as the second independent `OPERATOR-SPECIFIC NON-COMMODITY CONTROL + EXTERNAL ECONOMIC MOTION + FRESH-OPERATOR ENTRY ACQUIRABILITY` pass. It retained zero formations and advanced the evidence priority to an actually executed fresh-operator control transfer with post-transfer external economic continuity.
+Discovery: PR #402 exact final head passed repository CI plus real TypeSafe/Jev and was squash-merged. `ATTRACTION_SCAN_105` is active and now requires an actually executed fresh-operator acquisition/license/contract of the decisive non-commodity position plus external economic continuity after control changes, without original-founder recurring delivery.
 
 ## Current Phase
 
-`SCAN_104_PR_VALIDATION_ACTIVE`
+`SCAN_105_RESEARCH_ACTIVE`
 
 ## Last Verified Main
 
-`82b19c814c990698125ff0db278e89e030193f52`
-— squash merge of PR #401, `Run operator-specific non-commodity control Scan 103`.
+`3106c982e051cd14077c105a4186b0e6d002882f`
+— squash merge of PR #402, `Run fresh-entry non-commodity control Scan 104`.
+
+PR #402 final head `a6a2cd2235987b013cb540e00d4def1c4a162f7f`:
+- repository CI run `35730397277`: success;
+- live TypeSafe/Jev run `35730397400`: success;
+- 3/3 model and effective route `NO_FURTHER_RESEARCH`;
+- `execution_status=SUCCESS`;
+- `autonomous_continuation_allowed=true`;
+- `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+
+That directive was consumed to start Scan 105.
 
 PR #401 final head `4df07358890fb73206d5b94925120de4af817192`:
 - repository CI run `35726470453`: success;
@@ -41,23 +51,19 @@ That directive was consumed to start Scan 104.
 
 ## Active Branch
 
-`research/attraction-scan-104`
+`research/attraction-scan-105`
 
 ## Active PR
 
-#402 — `Run fresh-entry non-commodity control Scan 104`.
-
-Research/state head before this TASK_STATE write:
-`aa85dae5b1a82f4a5c01431ac82456a0568588c7`.
-
-GitHub live PR head is authoritative after this file update.
+None yet. Open a PR only after Scan 105 evidence, durable state and regression coverage are complete.
 
 ## CI
 
 - PR #401 final-head repository CI `35726470453`: success.
 - PR #401 live TypeSafe/Jev `35726470408`: success; `ADVANCE_TO_NEXT_SCAN`.
-- PR #402 repository CI / live TypeSafe-Jev: pending on the exact final PR head after this TASK_STATE update.
-- Do not consume an older run if the head changes.
+- PR #402 exact-final-head repository CI `35730397277`: success.
+- PR #402 live TypeSafe/Jev `35730397400`: success; 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
+- Scan 105 branch validation: not yet requested because research is active.
 
 ## Parallel Validation
 
@@ -211,4 +217,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Wait for PR #402's exact final head repository CI and live TypeSafe/Jev run to reach terminal state. Read the actual Jev continuation directive. If `autonomous_continuation_allowed=true`, consume it immediately and continue the reversible next research stage without waiting for a manual "continue".
+Run Scan 105 from broad current China reality. Require an actually executed fresh-operator acquisition/license/contract transfer of the decisive non-commodity position plus post-transfer external payment continuity, buyer-side or official transfer corroboration, founder-independence and normalized economics. Do not use app/plugin/game/acquisition marketplaces as the discovery ontology. Persist only evidence-supported outcomes before opening a PR.
