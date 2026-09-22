@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "generation": 1,
+  "repository": "wanggenAi/opportunity-routing-engine",
+  "status": "WAITING_CI",
+  "task_key": "commercial-attraction-scan-093",
+  "stage": "SCAN_093_PR391_FINAL_HEAD_WAITING_CI_JEV",
+  "last_observed_main_sha": "4a0662ae89472a7731d39315264aeeac39bd2605",
+  "work_branch": "research/attraction-scan-093",
+  "work_head_sha": "64b7176f284abda5b26006fd26594710e5fb9df3",
+  "active_pr": 391,
+  "ci": {
+    "run_id": null,
+    "head_sha": "64b7176f284abda5b26006fd26594710e5fb9df3",
+    "status": "NOT_STARTED",
+    "conclusion": null
+  },
+  "production_or_artifact": {
+    "status": "NOT_APPLICABLE",
+    "evidence": [
+      "SCAN092_PR390_MERGED",
+      "SCAN092_CI_SUCCESS_35701703501",
+      "SCAN092_JEV_SUCCESS_35701703346",
+      "SCAN092_JEV_ADVANCE_TO_NEXT_SCAN",
+      "SCAN093_RESEARCH_PERSISTED",
+      "SCAN093_STATE_ADVANCED",
+      "SCAN093_PR391_OPENED"
+    ]
+  },
+  "pending_operation": null,
+  "health": {
+    "recovery": "HEALTHY",
+    "last_error": null
+  },
+  "completed": [
+    "INTERRUPTED_SESSION_RECONCILED_TO_LIVE_GITHUB",
+    "SCAN092_FINAL_HEAD_CI_SUCCESS_CONSUMED",
+    "SCAN092_LIVE_JEV_SUCCESS_CONSUMED",
+    "SCAN092_JEV_CONTINUATION_ADVANCE_TO_NEXT_SCAN_CONSUMED",
+    "SCAN093_FRESH_FORMATION_RESEARCH_BOUND",
+    "SCAN093_RESEARCH_PERSISTED",
+    "SCAN093_DOC_PERSISTED",
+    "SCAN093_TEST_CONTRACT_PERSISTED",
+    "SCAN093_RESET_STATE_UPDATED",
+    "SCAN093_TASK_STATE_UPDATED",
+    "SCAN093_PR391_OPENED",
+    "SCAN093_TASK_STATE_BOUND_TO_PR391"
+  ],
+  "next_action": "Wait for repository CI and live Jev on PR #391 final head 64b7176f284abda5b26006fd26594710e5fb9df3; consume the continuation directive and merge only if allowed.",
+  "do_not_repeat": [
+    "Do not repeat Scan 089 Seats.aero, Monarch, or HealthFit/RunGap.",
+    "Do not repeat Scan 090 Zapier, 1Password, or Fantastical.",
+    "Do not repeat Scan 091 ecommerce accounting, cold-email deliverability/verification, or Home Assistant/SmartThings.",
+    "Do not repeat Scan 092 Figma token-sync, Webflow membership/auth, or Lightroom/Backblaze.",
+    "Do not repeat Scan 093 TLS certificate-lifetime compression/CLM, A2L HVAC transition, or post-EAA ecommerce accessibility.",
+    "Do not repeat Scan 015 public-rights research while written provider evidence is outstanding."
+  ]
+}
