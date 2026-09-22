@@ -14,19 +14,19 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` still requires written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 086 completes the second independent participant-authored control-surface-bypass pass. Two bypass passes now show that bypass is a useful residual sensor but not a white-space test. If continuation is allowed, Scan 087 must require independently replicated participant-controlled completion whose decisive step does not depend on an incumbent privileged manual exception or fallback.
+Discovery: execute `ATTRACTION_SCAN_087`: require independently replicated participant-controlled completion after a failed/bypassed exact control surface, with at least two unaffiliated participant accounts of the same successful pattern and a decisive completion step that does not depend on an incumbent privileged manual exception or fallback.
 
 ## Current Phase
 
-`SCAN_086_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_087_IN_PROGRESS_INDEPENDENTLY_REPLICATED_PARTICIPANT_CONTROLLED_COMPLETION`
 
 ## Last Verified Main
 
-`2584deb8755b4683af7c8d87c48bfc69a9baffcc`
-— squash merge of PR #383, `Validate participant-authored control-surface bypass in Scan 085`.
+`67fdb0d3df2acc711e68d5b92fdf9f78ec183583`
+— squash merge of PR #384, `Advance beyond participant-authored bypass after Scan 086`.
 
-PR #383 final repository CI run `35690471250`: success.
-PR #383 final live Jev run `35690471285`: success; `typesafe-sdk==0.7.0`, model `jev-latest`, Scan 085 3/3 `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #384 final repository CI run `35691310797`: success.
+PR #384 final live Jev run `35691310788`: success; `typesafe-sdk==0.7.0`, model `jev-latest`, Scan 086 3/3 `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -34,11 +34,11 @@ PR #383 final live Jev run `35690471285`: success; `typesafe-sdk==0.7.0`, model 
 
 ## Active Branch
 
-`research/attraction-scan-086`
+`research/attraction-scan-087`
 
 ## Active PR
 
-#384 — `Advance beyond participant-authored bypass after Scan 086`.
+None. Scan 087 research branch is active before PR creation.
 
 ## CI
 
@@ -46,7 +46,7 @@ PR #383 final live Jev run `35690471285`: success; `typesafe-sdk==0.7.0`, model 
 - PR #381 live TypeSafe/Jev `35689116567`: success; Scan 083 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
 - PR #382 final head `afe92b186c13b73fdf18ef0a7a821930daadeb6e`: repository CI `35689404591` success; live Jev `35689404496` success; Scan 084 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
 - PR #383 final head `8b03b5a239a212566405d99920014a7d50672bf9`: repository CI `35690471250` success; live Jev `35690471285` success; Scan 085 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- PR #384 opened for Scan 086; final-head repository CI and live Jev pending.
+- PR #384 final head `171dc43e4962a418d2417db55b645b22990daf3e`: repository CI `35691310797` success; live Jev `35691310788` success; Scan 086 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
 
 ## Latest Artifact / Persisted State
 
@@ -124,15 +124,15 @@ Validation:
 
 Engineering:
 - no Jev integration blocker;
-- Scan 086 requires PR repository CI and live Jev validation.
+- Scan 087 research is in progress before PR validation.
 
 Discovery:
-- Scan 086 itself is complete;
-- Scan 087 must not start until Scan 086 final-head CI/Jev continuation is consumed.
+- Scan 086 final-head CI/Jev continuation has been consumed;
+- Scan 087 is the active research pass and must satisfy the independently replicated participant-controlled completion floor.
 
 ## Next Action
 
-Open the Scan 086 PR, validate its final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, and continue automatically into Scan 087 only if `autonomous_continuation_allowed=true`.
+Execute Scan 087 across formation-diverse current reality. Require at least two unaffiliated participant accounts of the same successful bypass pattern, an explicit participant-stated reason class, and a decisive completion step controlled by participants or an open/non-privileged rail rather than incumbent manual exception/fallback; then run current rights, founder-independence, economics, machine-delegatability and generic-agent preflight fail-closed.
 
 ## Do Not Repeat
 
