@@ -60,7 +60,7 @@ PR #376 repository CI run `35684270963` completed `success`. Live Jev run `35684
 
 ## Active PR
 
-Pending creation from `research/attraction-scan-079`; live GitHub state is authoritative.
+#377 — `Require post-residual purchase failure evidence after Scan 079`. Live GitHub state is authoritative.
 
 ## CI
 
