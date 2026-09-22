@@ -14,19 +14,23 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` still requires written cross-rail outcome-data rights plus organic founder-free inbound intent. Inbox check on 2026-09-22 found no official reply from the two verified outreach targets; no response is neither a pass nor a denial.
 
-Discovery: Scan 090 completes the second independent formation-diverse pass at the same replicated paid cross-component coordination floor. Zapier cross-SaaS automation, 1Password cross-site/device credential coordination and Fantastical multi-calendar/task aggregation all show actual payment for coordination itself. Together with Scan 089, six unrelated markets now prove that payment is a reliable budget signal but not a white-space signal: exact mature paid middle layers already capture the value and decisive data/action rights remain elsewhere. If continuation is allowed, Scan 091 must require **residual failure after payment plus a second observed economic cost** borne by at least two unaffiliated paying users to complete the same outcome.
+Discovery: Scan 091 completed the first pass at the stronger **paid coordinator + recurring residual failure + executed second economic cost** floor. It examined ecommerce accounting, cold-email deliverability and smart-home coordination. One formation cleanly proved replicated double spend, but all three closed on exact mature complements, native absorption, rights/control or failure to prove executed second cost. Scan 092 must repeat the same floor on fresh formation-diverse evidence before another signal change.
 
 ## Current Phase
 
-`SCAN_090_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_091_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`6278ac6e6f80ecfb0764d65d6fffc07535d4afe3`
-— squash merge of PR #387, `Validate paid cross-component coordination in Scan 089`.
+`c1b3673db8f69e60cc20dc7ba954bb28f1008891`
+— squash merge of PR #388, `Confirm paid coordination is budget signal in Scan 090`.
 
-PR #387 final repository CI run `35697010466`: success.
-PR #387 final live Jev run `35697010735`: success; Scan 089 3/3 `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #388 final head `70c686e1d11a15830d375e2eb9921143f9bd407c`:
+- repository CI run `35697745738`: success;
+- live Jev run `35697745723`: success;
+- Scan 090 3/3 effective route `NO_FURTHER_RESEARCH`;
+- `autonomous_continuation_allowed=true`;
+- `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -34,102 +38,101 @@ PR #387 final live Jev run `35697010735`: success; Scan 089 3/3 `NO_FURTHER_RESE
 
 ## Active Branch
 
-`research/attraction-scan-090`
+`research/attraction-scan-091`
 
 ## Active PR
 
-#388 — `Confirm paid coordination is budget signal in Scan 090`.
+None yet. Open the Scan 091 PR after this checkpoint commit.
 
 ## CI
 
-- PR #386 final head `cee2dd633dc458ce2d94e06a84cbda7b7f1c5981`: repository CI `35696201982` success; live Jev `35696202000` success; Scan 088 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- PR #387 final head `8e07822a257d2190c6cd946ef112b444dd3b11a2`: repository CI `35697010466` success; live Jev `35697010735` success; Scan 089 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- PR #388 opened for Scan 090; final-head repository CI and live Jev pending.
+- PR #388 final head `70c686e1d11a15830d375e2eb9921143f9bd407c`: repository CI `35697745738` success; live Jev `35697745723` success; `ADVANCE_TO_NEXT_SCAN`.
+- Scan 091 branch CI/Jev not yet run against the final PR head.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_090.json`
-- `docs/research/ATTRACTION_SCAN_090_2026-09-22.md`
-- `tests/test_attraction_scan_090_second_paid_coordination_pass.py`
+- `data/research_runs/attraction_scan_091.json`
+- `docs/research/ATTRACTION_SCAN_091_2026-09-22.md`
+- `tests/test_attraction_scan_091_residual_second_cost_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
 Persisted state:
-- last completed scan = `ATTRACTION_SCAN_090`;
-- last resolved formation = `ATTRACTION_SCAN_090-F3`;
-- next scan = `ATTRACTION_SCAN_091`;
+- last completed scan = `ATTRACTION_SCAN_091`;
+- last resolved formation = `ATTRACTION_SCAN_091-F3`;
+- next scan = `ATTRACTION_SCAN_092`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`;
-- next boundary = replicated paying users of an existing coordinator who still face recurring high-value incompleteness and bear a second real cost — additional payment to another provider/service or repeated explicitly quantified manual-workaround cost — to complete the same outcome.
+- next boundary = second independent pass at the same paid-coordinator residual-failure + **executed** second-cost floor.
 
 ## Completed
 
-- PR #387 merged Scan 089; repository CI `35697010466` and live Jev `35697010735` succeeded.
-- Jev returned Scan 089 3/3 `NO_FURTHER_RESEARCH`, `autonomous_continuation_allowed=true`, `ADVANCE_TO_NEXT_SCAN`.
-- Scan 090 deliberately repeated the same paid-coordination evidence floor on three fresh formation-diverse markets rather than raising the gate after one pass.
-- Scan 090 tested:
-  - Zapier paid cross-SaaS workflow automation;
-  - 1Password paid cross-site/cross-device credential coordination;
-  - Fantastical paid multi-calendar/task/scheduling aggregation.
-- Every formation has replicated 2026 participant evidence of payment for the coordination function itself.
-- All three close on exact mature paid incumbents plus upstream data/action/authentication/provider rights; zero retention and zero commercial promotion.
-- Scan 089 + Scan 090 now provide two independent passes and six unrelated paid-coordination formations with the same closure pattern.
-- `data/commercial_reset_state.json` now advances discovery to Scan 091.
+- Reconciled stale Scan 090 recovery state against live GitHub.
+- Confirmed PR #388 is merged to main and consumed final-head repository CI + live Jev.
+- Consumed Jev continuation: `autonomous_continuation_allowed=true`, `ADVANCE_TO_NEXT_SCAN`.
+- Scan 091 researched three fresh formation-diverse markets:
+  - ecommerce accounting ledger + settlement connector;
+  - cold-email orchestration + deliverability/verification tools;
+  - Home Assistant Cloud + upcoming SmartThings API toll.
+- Scan 091 persisted research JSON, human-readable research note and regression contract.
+- `data/commercial_reset_state.json` now advances discovery to Scan 092.
+- Zero retention and zero commercial promotion.
 
 ## Current Findings
 
-### Scan 090-F1 — Zapier cross-SaaS automation
+### Scan 091-F1 — ecommerce accounting + settlement connector
 
-2026 participants explicitly report paid Professional/Team use for production workflows spanning multiple existing apps.
-
-Closure:
-- coordination willingness to pay is proven;
-- Zapier already owns the generic cross-app workflow layer with 9,000+ integrations;
-- authentication, schemas, rate limits and action rights remain app-specific;
-- pricing/task dissatisfaction routes users to Make/n8n/custom automation but does not establish an unowned generic automation layer.
-
-### Scan 090-F2 — 1Password credential coordination
-
-Current/renewing subscribers explicitly pay to store, sync and use credentials across sites, browsers and devices.
+Observed:
+- one operator explicitly uses QuickBooks Online plus A2X at $110/month;
+- current 2026 users still report payout mapping/review/reconciliation friction;
+- current sellers use paid settlement connectors such as Link My Books.
 
 Closure:
-- payment for coordination is proven;
-- mature password managers already own the secure vault/sync/autofill layer;
-- destination sites retain authentication, MFA, passkey and recovery authority;
-- generic agents should not and cannot inherit secret material or override destination authentication rights.
+- strict two-user double-payment binding is not equally clean across public participant evidence;
+- A2X, Link My Books, Webgility and peers already own the second paid layer;
+- Intuit rebuilt native ecommerce connectors in 2026 with payout reconciliation and retry logic.
 
-### Scan 090-F3 — Fantastical calendar/task aggregation
+### Scan 091-F2 — cold email + deliverability / verification
 
-2026 participants explicitly pay for multi-calendar/task organization and integrations such as Todoist.
+Clean replicated double cost:
+- one 2026 operator reports Smartlead ~$189/month + GlockApps ~$90/month;
+- an unaffiliated participant reports a similar Smartlead stack + NeverBounce ~$50/month.
 
 Closure:
-- payment for coordination is proven;
-- Fantastical already owns the exact aggregation/scheduling layer;
-- Google/Microsoft/iCloud/Todoist and other providers retain systems of record and provider-specific restrictions;
-- some actions still require provider surfaces, but the residual is rights-bound rather than unowned generic coordination.
+- Smartlead now natively includes SmartDelivery inbox-placement testing and delivery optimization;
+- Gmail and other mailbox providers retain authoritative filtering/reputation control;
+- second spend proves residual pain, not an unowned control edge.
 
-## Two-Pass Learning
+### Scan 091-F3 — Home Assistant Cloud + SmartThings API fee
+
+Observed:
+- multiple current 2026 participants pay Home Assistant Cloud/Nabu Casa;
+- Samsung announced a $4.99/month personal SmartThings API plan.
+
+Closure:
+- Samsung says free API access remains through Q3 and paid access starts in October 2026;
+- as of 2026-09-22 the second cost is future, not executed;
+- direct Zigbee/Z-Wave/Matter migration bypasses many SmartThings dependencies;
+- Samsung retains API rights for cloud-linked devices.
+
+## First-Pass Learning
 
 ```text
-REAL COORDINATION PAYMENT
+PAID COORDINATOR
++ RESIDUAL FAILURE
++ EXECUTED SECOND COST
 =
-RELIABLE BUDGET SIGNAL
+STRONGER ECONOMIC PAIN
 
-REAL COORDINATION PAYMENT
+STRONGER ECONOMIC PAIN
 !=
-UNOWNED WHITE SPACE
+UNOWNED CONTROL EDGE
 ```
 
-After two independent passes, the next attraction signal must move from market existence to **residual paid pain**.
-
-Scan 091 must require:
-1. at least two unaffiliated users already paying an existing coordinator;
-2. the same recurring high-value incompleteness remains after payment;
-3. users bear a second observable economic cost to finish the outcome — either another paid service/provider or repeated explicitly quantified manual work;
-4. no current control surface already owns the end-to-end repair path.
+Do not raise the discovery gate again after one pass. Scan 092 repeats the same floor on fresh markets.
 
 ## Blockers
 
@@ -140,23 +143,25 @@ Validation:
 
 Engineering:
 - no Jev integration blocker;
-- PR #388 is open; final-head repository CI and live Jev are pending.
+- Scan 091 PR still needs to be opened and validated at its final head.
 
 Discovery:
-- Scan 090 research is complete with zero retention;
-- Scan 091 must not start until Scan 090 final-head CI/Jev continuation is consumed.
+- Scan 091 research is complete with zero retention;
+- Scan 092 must not start until Scan 091 final-head CI/Jev continuation is consumed.
 
 ## Next Action
 
-Open the Scan 090 PR, validate its final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, and continue automatically into Scan 091 only if `autonomous_continuation_allowed=true`.
+Open the Scan 091 PR, validate its final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, and continue automatically into Scan 092 only if `autonomous_continuation_allowed=true`.
 
 ## Do Not Repeat
 
-- Do not repeat Scan 089 Seats.aero award-search coordination, Monarch multi-institution aggregation, or HealthFit/RunGap workout-data synchronization.
-- Do not repeat Scan 090 Zapier cross-SaaS automation, 1Password credential coordination, or Fantastical calendar/task aggregation.
-- Do not use payment for coordination alone as a white-space signal after Scan 089 + 090.
+- Do not repeat Scan 089 Seats.aero, Monarch, or HealthFit/RunGap.
+- Do not repeat Scan 090 Zapier, 1Password, or Fantastical.
+- Do not repeat Scan 091 ecommerce accounting connectors, cold-email deliverability/verification, or Home Assistant/SmartThings API toll.
+- Do not use payment for coordination alone as a white-space signal.
+- Do not treat future/planned fees or generic category pricing as executed participant payment.
 - Do not infer a generic router/aggregator/sync/automation mechanism from these closures.
-- Do not return to Scan 060–090 formations or their primary discovery signals.
+- Do not return to Scan 060–091 formations or their primary discovery signals.
 - Do not use job/gig/RFQ/procurement feeds as discovery ontology.
 - Do not lower hard floors because discovery closes at zero.
 - Do not repeat Scan 015 public-rights research while written evidence is outstanding.
