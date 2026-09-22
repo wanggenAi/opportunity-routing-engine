@@ -1,0 +1,210 @@
+{
+  "schema_version": "attraction-scan.v82",
+  "scan_id": "ATTRACTION_SCAN_108",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "SECOND_INDEPENDENT_SMALL_OPERATOR_VERIFIED_NET_CASHFLOW_CONTROL_PASS_REQUIRE_SAME_OPERATOR_SAME_CONTROL_POSITION_AND_SAME_TIME_WINDOW_BINDING_FOR_EXECUTED_ACQUISITION_LICENSE_OR_CONTRACT_CONTROL_COST_RECEIVED_EXTERNAL_CUSTOMER_REVENUE_DIRECT_OPERATING_COSTS_OWNER_LABOR_OR_EXPLICIT_REPLACEMENT_COST_RIGHTS_CLOSURE_AND_REALIZED_OR_BOUNDED_EXIT_VALUE_SUFFICIENT_TO_ESTIMATE_NORMALIZED_NET_CASHFLOW_REQUIRE_FOUNDER_LIGHT_MACHINE_DELEGATABLE_DELIVERY_AND_NONCOMMODITY_CONTROL_DISTINCT_FROM_GENERIC_LOCAL_ASSET_OWNERSHIP_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_107_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_GENERIC_AGENT_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_108-F1",
+      "title": "CHINA_MALL_SELFIE_BOOTH_REAL_REPORTED_NET_PROFIT_WITH_UNBOUND_CONTROL_COST_OWNER_LABOR_RIGHTS_AND_EXIT",
+      "discovery_route": "CURRENT_2026_CONSUMER_COMMERCE_REPORTING_EXPOSES_ONE_HANGZHOU_MALL_SELFIE_BOOTH_OPERATOR_WITH_ACTUAL_ORDER_VOLUME_PRICE_AND_REPORTED_NET_PROFIT_AFTER_RENT_AND_EQUIPMENT_SHARE_WHILE_CONTROL_ACQUISITION_OWNER_LABOR_RIGHTS_AND_EXIT_REMAIN_UNBOUND",
+      "observed_actor_state_change_evidence": [
+        "A May 2026 field report interviews an operator running a selfie booth in a Hangzhou Xihu-district mall; the operator reports roughly 40-50 orders on an ordinary weekend day at RMB39.9 per order.",
+        "The same operator reports that after rent and equipment revenue share the machine brings more than RMB10,000 monthly net profit, and says a prior National Day peak exceeded 60 orders in one day."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The operating footprint is only a few square meters inside a mall and customer capture is largely self-service through the booth.",
+        "The report shows mall micro-locations and brand/IP content as scarce inputs: different point qualities can produce four-to-five-fold revenue differences and head brands combine direct operation with joint-operation or franchise structures."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Customers pay per session and cycle through the booth in roughly twenty minutes, creating direct external customer payment rather than advertiser or forecasted demand.",
+        "The operator prepares consumables such as photo paper for holiday demand, showing continuing but relatively bounded physical servicing."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The source binds current orders, selling price and a participant-reported net figure after rent/equipment share to one active booth, which is stronger than category forecasts.",
+        "It does not publish that operator's exact initial acquisition/franchise/license cost, mall contract term, brand/IP rights, maintenance burden, consumables, tax, owner hours or replacement labor.",
+        "A separate brand example in the same report cites roughly RMB80,000 initial franchise cost and other franchisee payback periods, but those numbers belong to different operators and are not stitched into the Hangzhou booth.",
+        "No realized resale/exit value or transferable point/brand right is published for the interviewed booth."
+      ],
+      "economic_signal": [
+        "Participant-reported ordinary-weekend volume is roughly 40-50 orders per day at RMB39.9 each.",
+        "Participant-reported monthly net profit after rent and equipment share exceeds RMB10,000, but the full cost and owner-labor perimeter is not independently closed."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Mall location owners control the physical point; head selfie-booth brands control equipment, software and much of the IP/content refresh cadence.",
+        "The same report states that IP collaborations materially drive demand and that mall operators increasingly prefer stronger brands and designs, so the operator does not clearly own the decisive customer-acquisition surface.",
+        "Equivalent operators can enter through existing direct/joint/franchise rails when location and brand permission are available; no reusable routing asset beyond point access and brand content is evidenced."
+      ],
+      "executed_control_transfer_check": "PARTIAL_PASS_AN_ACTUAL_MALL_BOOTH_IS_OPERATING_UNDER_RENT_AND_EQUIPMENT_SHARE_RELATIONSHIPS_BUT_THE_EXACT_EXECUTED_ACQUISITION_FRANCHISE_LICENSE_OR_POINT_CONTRACT_AND_INITIAL_CONTROL_COST_FOR_THIS_OPERATOR_ARE_NOT_PUBLIC",
+      "post_transfer_external_economic_continuity_check": "PARTIAL_PASS_CURRENT_PAID_ORDERS_AND_PARTICIPANT_REPORTED_NET_PROFIT_ARE_BOUND_TO_THE_ACTIVE_BOOTH_BUT_A_POST_ACQUISITION_CONTROL_CHANGE_DATE_AND_SETTLEMENT_RECORD_ARE_NOT",
+      "fresh_small_operator_entry_check": "PASS_THE_EVIDENCED_UNIT_IS_A_SINGLE_SMALL_MALL_BOOTH_NOT_A_LARGE_INFRASTRUCTURE_POSITION",
+      "same_operator_economic_binding_check": "PARTIAL_PASS_ORDER_VOLUME_PRICE_AND_REPORTED_NET_AFTER_RENT_AND_EQUIPMENT_SHARE_BIND_TO_ONE_BOOTH_OPERATOR_BUT_INITIAL_CONTROL_COST_FULL_DIRECT_COSTS_OWNER_LABOR_RIGHTS_AND_EXIT_VALUE_DO_NOT",
+      "direct_operating_cost_check": "PARTIAL_PASS_RENT_AND_EQUIPMENT_SHARE_ARE_EXPLICITLY_DEDUCTED_IN_THE_OPERATORS_REPORTED_NET_BUT_CONSUMABLES_MAINTENANCE_TAX_PAYMENT_FEES_AND_OTHER_COSTS_ARE_NOT_ITEMIZED",
+      "owner_labor_check": "UNKNOWN_THE_SOURCE_SHOWS_CONSUMABLE_PREPARATION_AND_OPERATION_BUT_DOES_NOT_QUANTIFY_OWNER_HOURS_OR_AN_OUTSOURCED_REPLACEMENT_COST",
+      "founder_independence_check": "PARTIAL_PASS_CUSTOMER_CAPTURE_AND_DELIVERY_ARE_HIGHLY_SELF_SERVICE_BUT_POINT_NEGOTIATION_CONSUMABLES_MAINTENANCE_IP_REFRESH_AND_EXCEPTION_HANDLING_ARE_NOT_BOUND_AS_FOUNDER_FREE",
+      "data_action_rights_check": "UNKNOWN_TO_PARTIAL_THE_BOOTH_IS_ACTUALLY_OPERATING_IN_A_MALL_BUT_POINT_TENURE_BRAND_SOFTWARE_IP_CUSTOMER_DATA_AND_TRANSFER_RIGHTS_FOR_THE_INTERVIEWED_OPERATOR_ARE_NOT_PUBLISHED",
+      "normalized_margin_check": "FAIL_TO_CLOSE_PARTICIPANT_REPORTED_NET_PROFIT_AFTER_TWO_COST_LINES_IS_NOT_NORMALIZED_NET_CASHFLOW_WITHOUT_CONTROL_COST_FULL_COSTS_OWNER_SHADOW_WAGE_RIGHTS_AND_EXIT_VALUE",
+      "machine_delegatability_check": "PARTIAL_PASS_PHOTO_CAPTURE_PAYMENT_AND_OUTPUT_ARE_MACHINE_EXECUTED_BUT_PHYSICAL_UPKEEP_POINT_RELATIONSHIPS_AND_CONTENT_RIGHTS_STILL_REQUIRE_OPERATIONS",
+      "generic_agent_substitutability_check": "FAIL_FOR_DISTINCTIVE_ROUTING_THE_EVIDENCED_ADVANTAGE_IS_MALL_POINT_ACCESS_PLUS_BRAND_IP_CONTENT_AND_A_GENERIC_OPERATOR_USING_THE_SAME_RAILS_CAN_REPLICATE_THE_SERVICE_IF_GRANTED_EQUIVALENT_ACCESS",
+      "verdict": "DEMOTED_REAL_SELF_SERVICE_CUSTOMER_CASHFLOW_AND_REPORTED_NET_PROFIT_DO_NOT_CLOSE_SAME_OPERATOR_CONTROL_COST_FULL_COSTS_OWNER_LABOR_RIGHTS_OR_EXIT_AND_THE_DECISIVE_POINT_AND_IP_SURFACES_ARE_INCUMBENT_CONTROLLED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_108-F2",
+      "title": "CHINA_SMALL_3D_PRINT_MICROBUSINESS_WITH_BOUND_EQUIPMENT_MATERIAL_AND_SALES_ECONOMICS_BUT_COMMODITY_CONTROL_AND_OWNER_LABOR",
+      "discovery_route": "CURRENT_2026_CHINA_OPERATOR_INTERVIEW_BINDS_A_JIANGSU_MICRO_OPERATOR_TO_ACTUAL_EQUIPMENT_COST_MATERIAL_COST_MARKET_SALES_AND_OUTSOURCING_SPREAD_WHILE_SHOWING_THE_CONTROL_PRIMITIVE_IS_COMMODITY_EQUIPMENT_PLUS_RECURRING_CREATIVE_AND_SELLING_LABOR",
+      "observed_actor_state_change_evidence": [
+        "An April 2026 China News interview identifies a Jiangsu 3D-print entrepreneur who operates mainly at Friday-Sunday markets and reports a Spring Festival day with three family members producing roughly RMB1,600 combined sales.",
+        "She reports that after materials, stall fees and labor the activity can earn hundreds of RMB on weaker days and about RMB1,000 on stronger days."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The same operator reports two printers costing about RMB3,500 total, roughly 100 rolls of material consumed at about RMB40 per roll, and electricity of only about RMB2.2 with both machines running for a day.",
+        "When overloaded she can outsource printing to larger farms and outsource complex model design; she reports paying farms about RMB0.15 per gram and charging customers RMB0.25 per gram on routed work."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The operator deliberately avoids scattered custom orders and sells finished products at recurring offline markets, while selectively outsourcing production and design when capacity is constrained.",
+        "The same interview notes her plan to increase proprietary model design because printing itself is only a tool, evidencing that differentiated designs rather than machine ownership are the scarce layer."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This case binds equipment and consumable spend plus realized sales/profit language to one China micro-operator more tightly than generic franchise projections.",
+        "The machines are openly purchasable commodity production tools; no executed acquisition/license/contract of a decisive noncommodity control position is evidenced.",
+        "Family selling, market attendance, product selection and creative/model work are recurring human inputs; exact owner hours and replacement costs are not disclosed.",
+        "No transferable contract/customer rail, exclusive design right packet or realized equipment/business exit value is reported."
+      ],
+      "economic_signal": [
+        "Two printers cost about RMB3,500 and reported cumulative material purchases are about RMB4,000; electricity is very low.",
+        "A reported festival market day generated roughly RMB1,600 combined sales and participant-reported after-cost profit ranges from hundreds to around RMB1,000 on better days; outsourced printing can create about RMB0.10 per gram spread."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Consumer 3D printers and generic material are widely purchasable, and the report describes rapid growth in entrepreneurial buyers.",
+        "Market access, product/design differentiation and social/offline selling remain the meaningful acquisition surfaces rather than ownership of the machines.",
+        "The report explicitly notes AI modeling lowering design barriers and increasing product homogeneity, weakening generic equipment/design defensibility."
+      ],
+      "executed_control_transfer_check": "FAIL_THE_OPERATOR_EXECUTED_COMMODITY_EQUIPMENT_PURCHASES_BUT_NO_ACQUISITION_LICENSE_OR_CONTRACT_OF_A_DECISIVE_NONCOMMODITY_CONTROL_POSITION_IS_EVIDENCED",
+      "post_transfer_external_economic_continuity_check": "PARTIAL_PASS_REAL_CUSTOMER_SALES_AND_AFTER_COST_PROFIT_LANGUAGE_ARE_BOUND_TO_THE_OPERATOR_BUT_THERE_IS_NO_POST_TRANSFER_NONCOMMODITY_CONTROL_EVENT_TO_CONTINUE_FROM",
+      "fresh_small_operator_entry_check": "PASS_THE_REPORTED_CORE_EQUIPMENT_COST_IS_ONLY_ABOUT_RMB3500_AND_OPERATION_IS_AN_INDIVIDUAL_MICROBUSINESS",
+      "same_operator_economic_binding_check": "PARTIAL_PASS_EQUIPMENT_COST_MATERIAL_COST_SALES_AND_SOME_AFTER_COST_PROFIT_BIND_TO_THE_OPERATOR_BUT_OWNER_HOURS_REPLACEMENT_COST_RIGHTS_AND_EXIT_VALUE_DO_NOT",
+      "direct_operating_cost_check": "PARTIAL_PASS_MATERIAL_ELECTRICITY_STALL_FEE_AND_LABOR_ARE_IDENTIFIED_AND_SOME_AMOUNTS_ARE_BOUND_BUT_A_COMPLETE_PERIOD_P_AND_L_IS_NOT_PUBLISHED",
+      "owner_labor_check": "FAIL_RECURRING_WEEKEND_MARKET_SELLING_PRODUCT_SELECTION_AND_CREATIVE_WORK_ARE_OPERATOR_OR_FAMILY_LABOR_AND_EXACT_REPLACEMENT_COST_IS_NOT_BOUND",
+      "founder_independence_check": "FAIL_THE_CURRENT_MICROBUSINESS_DEPENDS_ON_RECURRING_MARKET_ATTENDANCE_PRODUCT_DESIGN_SELECTION_AND_SELLING_EVEN_WHEN_PRINTING_CAPACITY_CAN_BE_OUTSOURCED",
+      "data_action_rights_check": "UNKNOWN_TO_FAIL_NO_EXCLUSIVE_TRANSFERABLE_CUSTOMER_CONTRACT_POINT_RIGHT_OR_PROPRIETARY_DESIGN_RIGHT_PACKET_IS_EVIDENCED_AS_THE_CONTROL_POSITION",
+      "normalized_margin_check": "FAIL_TO_CLOSE_REAL_SMALL_OPERATOR_PROFIT_SIGNAL_EXISTS_BUT_FOUNDER_LABOR_EXIT_VALUE_AND_NONCOMMODITY_CONTROL_ARE_NOT_NORMALIZED",
+      "machine_delegatability_check": "PARTIAL_PASS_PRINT_PRODUCTION_CAN_RUN_AUTOMATICALLY_OR_BE_OUTSOURCED_BUT_ACQUISITION_DESIGN_PRODUCT_CHOICE_MARKET_SELLING_AND_FAILURE_HANDLING_REMAIN_HUMAN",
+      "generic_agent_substitutability_check": "FAIL_FOR_SCARCITY_COMMODITY_PRINTERS_MATERIAL_AND_AI_ASSISTED_MODELING_ARE_AVAILABLE_TO_EQUIVALENT_ENTRANTS_AND_NO_EXCLUSIVE_ROUTING_OR_DISTRIBUTION_ASSET_IS_SHOWN",
+      "verdict": "DEMOTED_TIGHTER_SMALL_OPERATOR_ECONOMICS_STILL_DESCRIBE_COMMODITY_EQUIPMENT_PLUS_RECURRING_CREATIVE_AND_SELLING_LABOR_NOT_A_TRANSFERABLE_FOUNDER_LIGHT_NONCOMMODITY_CONTROL_POSITION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_108-F3",
+      "title": "CHINA_RAIL_STATION_SMART_LOCKER_CONCESSION_CLOSES_POINT_RIGHTS_BUT_NOT_SMALL_OPERATOR_SAME_POSITION_CASHFLOW",
+      "discovery_route": "CURRENT_2026_PUBLIC_CONCESSION_RESULTS_SHOW_AN_EXECUTED_TWO_YEAR_DONGGUAN_RAIL_STATION_SMART_LOCKER_POINT_RIGHT_AWARDED_AT_RMB17200_PER_MONTH_WHILE_CURRENT_PUBLIC_TRAVEL_GUIDANCE_CONFIRMS_END_CUSTOMERS_PAY_FOR_LUGGAGE_LOCKERS_BUT_SAME_POINT_OPERATOR_RECEIPTS_COSTS_AND_SMALL_OPERATOR_ECONOMICS_ARE_NOT_PUBLISHED",
+      "observed_actor_state_change_evidence": [
+        "A July 2026 public concession-result aggregation reports that Dongguan Rail Transit Line 1 smart-locker points were awarded for two years to Fengchao at a final price of RMB17,200 per month, above the RMB14,200 monthly floor.",
+        "Current July 2026 Beijing station guidance from the municipal station-area authority independently confirms that smart luggage lockers from operators including Fengchao and Xiaotie charge travelers direct hourly/daily fees."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The concession closes a scarce physical distribution position inside rail stations through an executed contractual point right rather than generic equipment ownership.",
+        "End-user payment can be machine-executed around the clock at comparable station sites, making the service operationally delegatable."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The awarded operator accepted a fixed monthly control cost to obtain the station-point right for two years.",
+        "Travelers in current station guidance are explicitly offered paid self-service storage, proving real customer willingness to transact on this category rail."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The Dongguan award closes the contract winner and point-control price but does not publish the awarded points' customer receipts, occupancy, direct service costs, maintenance labor, taxes or net distributions.",
+        "Beijing end-user prices prove category-level customer payment only and are intentionally not imported as Dongguan revenue.",
+        "Fengchao is an established network operator rather than the required individual/small-operator entry case, so even a complete network P&L would not satisfy the Scan 108 small-operator floor.",
+        "The two-year point right is time-bounded and no transferable residual/exit value is evidenced."
+      ],
+      "economic_signal": [
+        "Executed Dongguan concession price is reported at RMB17,200 per month for a two-year term.",
+        "Current government travel guidance shows direct end-user locker charges at active station sites, but no same-Dongguan-position receipt stream is public."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Rail/station property owners control scarce point access through concession processes; the operator controls deployed hardware/software only after award.",
+        "Fengchao and other existing network locker operators already occupy similar transport nodes, so the economically useful distribution surface is mature and incumbent-contested.",
+        "The contract right is localized and term-bounded rather than a freely transferable reusable routing asset."
+      ],
+      "executed_control_transfer_check": "PASS_A_CURRENT_PUBLIC_RESULT_REPORTS_AN_EXECUTED_TWO_YEAR_DONGGUAN_RAIL_SMART_LOCKER_CONCESSION_AWARDED_TO_FENGCHAO_AT_RMB17200_PER_MONTH",
+      "post_transfer_external_economic_continuity_check": "UNKNOWN_CURRENT_STATION_LOCKER_CATEGORY_CUSTOMER_PAYMENT_IS_PUBLICLY_OBSERVED_ELSEWHERE_BUT_DONGGUAN_AWARDED_POINT_RECEIPTS_ARE_NOT_PUBLISHED_AND_CANNOT_BE_STITCHED",
+      "fresh_small_operator_entry_check": "FAIL_THE_AWARDED_OPERATOR_IS_AN_ESTABLISHED_NATIONAL_NETWORK_OPERATOR_NOT_A_FRESH_INDIVIDUAL_OR_SMALL_OPERATOR",
+      "same_operator_economic_binding_check": "FAIL_CONTROL_COST_IS_BOUND_TO_THE_DONGGUAN_CONCESSION_BUT_SAME_POINT_CUSTOMER_RECEIPTS_DIRECT_COSTS_LABOR_AND_EXIT_VALUE_ARE_NOT",
+      "direct_operating_cost_check": "UNKNOWN_THE_PUBLIC_RESULT_CLOSES_CONCESSION_PRICE_BUT_NOT_SAME_POINT_HARDWARE_DEPRECIATION_NETWORK_PAYMENT_MAINTENANCE_INSURANCE_TAX_OR_SERVICE_COSTS",
+      "owner_labor_check": "NOT_APPLICABLE_TO_SMALL_FOUNDER_TEST_THE_OPERATOR_IS_AN_ESTABLISHED_ORGANIZATION_AND_STAFF_REPLACEMENT_ECONOMICS_ARE_NOT_PUBLISHED_AT_POINT_LEVEL",
+      "founder_independence_check": "PASS_AT_SERVICE_EXECUTION_LEVEL_THE_LOCKER_RAIL_IS_MACHINE_EXECUTED_AND_ORGANIZATION_OPERATED_BUT_THIS_DOES_NOT_CURE_THE_SMALL_OPERATOR_FAILURE",
+      "data_action_rights_check": "PASS_FOR_POINT_ACCESS_THE_EXECUTED_CONCESSION_IDENTIFIES_A_TERM_BOUND_STATION_RIGHT_BUT_TRANSFER_OR_RESIDUAL_RIGHTS_BEYOND_THE_TERM_ARE_NOT_EVIDENCED",
+      "normalized_margin_check": "FAIL_TO_CLOSE_NO_SAME_POSITION_RECEIVED_REVENUE_DIRECT_COST_OR_EXIT_PACKET_EXISTS_AND_THE_OPERATOR_SCALE_IS_OUTSIDE_THE_TARGET",
+      "machine_delegatability_check": "PASS_STORAGE_PAYMENT_ACCESS_AND_MUCH_OF_MONITORING_ARE_MACHINE_EXECUTABLE_WITH_REPLACEABLE_FIELD_MAINTENANCE",
+      "generic_agent_substitutability_check": "FAIL_FOR_DISTINCTIVE_ROUTING_THE_SCARCE_ASSET_IS_THE_PROPERTY_CONCESSION_AND_EXISTING_LOCKER_NETWORK_NOT_A_NEW_OPERATOR_OWNED_DECISION_GRAPH",
+      "verdict": "DEMOTED_EXECUTED_MACHINE_LIGHT_POINT_RIGHTS_ARE_REAL_BUT_THE_CASE_IS_LARGE_INCUMBENT_SCALE_AND_DOES_NOT_BIND_SAME_POSITION_CUSTOMER_RECEIPTS_COSTS_LABOR_OR_EXIT_VALUE"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_2026_GUANGZHOU_METRO_SMART_LOCKER_TENDER_WITH_RMB66700_MONTHLY_FLOOR_AND_85_PERCENT_REVENUE_SHARE_TERM",
+      "excluded_reason": "EXCLUDED_FROM_PRIMARY_FORMATIONS_BECAUSE_AS_OF_2026_09_22_THE_TENDER_CLOSES_ON_2026_09_30_AND_IS_NOT_YET_AN_EXECUTED_CONTROL_POSITION"
+    },
+    {
+      "observation": "CURRENT_SELF_SERVICE_BILLIARD_AND_CHESS_TRANSFER_LISTINGS",
+      "excluded_reason": "EXCLUDED_AS_PRIMARY_SIGNALS_BECAUSE_SELF_SERVICE_BILLIARDS_WAS_ALREADY_AN_EXCLUDED_SCAN107_SIGNAL_AND_CURRENT_LISTINGS_DO_NOT_PROVE_POST_TRANSFER_BUYER_CASHFLOW"
+    },
+    {
+      "observation": "VENDOR_PROJECTED_VENDING_WATER_AND_SELF_SERVICE_COFFEE_ROI_MODELS",
+      "excluded_reason": "EXCLUDED_BECAUSE_VENDOR_OR_CATEGORY_FORECASTS_ARE_NOT_ACTUAL_SAME_OPERATOR_RECEIPTS_COSTS_LABOR_RIGHTS_AND_EXIT_EVIDENCE"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "same_operator_and_control_position_binding_required": true,
+    "executed_control_change_required": true,
+    "received_customer_revenue_required": true,
+    "direct_operating_costs_required": true,
+    "owner_shadow_wage_or_replacement_cost_required": true,
+    "rights_closure_required": true,
+    "realized_or_bounded_exit_value_required_for_normalization": true,
+    "fresh_small_operator_entry_required": true,
+    "founder_light_operation_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_MALL_SELF_SERVICE_CONTENT_COMMERCE_MICRO_MANUFACTURING_AND_PUBLIC_TRANSPORT_POINT_CONCESSION_TEST_DISTINCT_CONTROL_AND_LABOR_SHAPES",
+    "observed_indexing_bias": "PUBLIC_SOURCES_CAN_CLOSE_EITHER_SMALL_OPERATOR_CASHFLOW_OR_EXECUTED_RIGHTS_BUT_RARELY_BIND_BOTH_TO_THE_SAME_OPERATOR_AND_POSITION; CATEGORY_PRICING_AND_OTHER_FRANCHISEE_COSTS_ARE_ESPECIALLY_EASY_TO_STITCH_INTO_FALSE_UNIT_ECONOMICS",
+    "response": "AFTER_TWO_INDEPENDENT_ZERO_RETENTION_PASSES_KEEP_THE_ECONOMIC_FLOOR_AND_SHIFT_RETRIEVAL_PRIORITY_TOWARD_DIRECT_OPERATOR_RECORDS_OR_CROSS_CORROBORATED_IDENTITY_PACKETS_THAT_BIND_CONTROL_COST_RECEIPTS_FULL_COSTS_LABOR_RIGHTS_AND_EXIT_WITHOUT_DERIVING_A_VERTICAL",
+    "participant_behavior_over_analyst_story": "PASS_F1_USES_CURRENT_OPERATOR_ORDER_AND_NET_PROFIT_REPORTING_F2_USES_CURRENT_OPERATOR_EQUIPMENT_MATERIAL_SALES_AND_OUTSOURCING_FACTS_F3_USES_EXECUTED_CURRENT_CONCESSION_RESULTS_AND_SEPARATELY_LABELS_CATEGORY_PAYMENT_EVIDENCE_WITHOUT_STITCHING"
+  },
+  "scan_learnings": [
+    "SCAN108_SECOND_INDEPENDENT_SMALL_OPERATOR_VERIFIED_NET_CASHFLOW_CONTROL_PASS_ZERO_RETENTION_ACROSS_MALL_SELFIE_BOOTH_3D_PRINT_MICROBUSINESS_AND_RAIL_STATION_SMART_LOCKER_CONCESSION",
+    "MACHINE_LIGHT_CUSTOMER_CASHFLOW_AND_PARTICIPANT_REPORTED_NET_PROFIT_STILL_DO_NOT_CLOSE_NORMALIZED_CASHFLOW_WITHOUT_THE_SAME_OPERATORS_CONTROL_COST_FULL_COSTS_OWNER_LABOR_RIGHTS_AND_EXIT_VALUE",
+    "A_SMALL_OPERATOR_CAN_HAVE_UNUSUALLY_WELL_BOUND_EQUIPMENT_MATERIAL_AND_REALIZED_SALES_ECONOMICS_WHILE_THE_POSITION_REMAINS_COMMODITY_EQUIPMENT_PLUS_RECURRING_CREATIVE_AND_SELLING_LABOR",
+    "AN_EXECUTED_POINT_CONCESSION_CAN_CLOSE_RIGHTS_AND_CONTROL_COST_WHILE_FAILING_SMALL_OPERATOR_SCALE_AND_LEAVING_SAME_POSITION_CUSTOMER_RECEIPTS_AND_FULL_COSTS_UNPUBLISHED",
+    "CATEGORY_CUSTOMER_PRICES_OR_ANOTHER_FRANCHISEES_ENTRY_COST_MUST_NOT_BE_STITCHED_INTO_AN_EXACT_OPERATOR_RETURN_MODEL",
+    "TWO_INDEPENDENT_VERIFIED_NET_CASHFLOW_PASSES_JUSTIFY_CHANGING_RETRIEVAL_PRIORITY_NOT_THE_COMMERCIAL_ONTOLOGY_NEXT_PASS_SHOULD_PREFER_DIRECT_OPERATOR_RECORDS_OR_CROSS_CORROBORATED_IDENTITY_PACKETS_WITH_ALL_ECONOMIC_AND_RIGHTS_FIELDS_BOUND"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_109",
+  "next_search_boundary": "THIRD_INDEPENDENT_SMALL_OPERATOR_VERIFIED_NET_CASHFLOW_CONTROL_PASS_WITH_DIRECT_OPERATOR_RECORD_PRIORITY_REQUIRE_SAME_OPERATOR_SAME_CONTROL_POSITION_SAME_TIME_WINDOW_EXECUTED_ACQUISITION_LICENSE_OR_CONTRACT_CONTROL_COST_RECEIVED_EXTERNAL_CUSTOMER_REVENUE_COMPLETE_DIRECT_OPERATING_COSTS_OWNER_LABOR_OR_EXPLICIT_REPLACEMENT_COST_RIGHTS_CLOSURE_AND_REALIZED_OR_BOUNDED_EXIT_VALUE_PREFER_SINGLE_SOURCE_OR_CROSS_CORROBORATED_IDENTITY_PACKETS_REQUIRE_FOUNDER_LIGHT_MACHINE_DELEGATABLE_DELIVERY_AND_NONCOMMODITY_CONTROL_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_108_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN108_WITH_EXACT_HEAD_CI_JEV_THEN_START_SCAN109_DIRECT_OPERATOR_RECORD_PRIORITY_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://finance.sina.com.cn/jjxw/2026-05-04/doc-inhwtvtz0378781.shtml",
+    "https://www.chinanews.com/cj/2026/04-26/10611077.shtml",
+    "https://www.qianlima.com/gjxx/221722_5_4",
+    "https://zdzqgw.beijing.gov.cn/zwgk/zqyw/202607/t20260731_4802985.html",
+    "https://www.ejy365.com/info/web23179"
+  ]
+}
