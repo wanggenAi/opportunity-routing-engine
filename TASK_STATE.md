@@ -6,11 +6,13 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 076 completed the stronger **post-replacement / post-go-live separate recurring paid residual-spend** test. Six unrelated operating domains were examined: Workday AMS, ArcGIS managed services, Salesforce/MuleSoft managed services, SAP S/4HANA AMS, ChargePoint EV-charging lifecycle support and building-management-system lifecycle service.
+Scan 077 completed the stronger **buyer-authored post-live failure + actual residual-payment** test. Six unrelated operating domains were examined: Baltimore County Workday/PRiSM MBE compliance, NYC FDNY FIRES, BLM AFMSS2, VA EHR, NDIA PACE and St. Johns County Workday HR.
 
-The recurring money motion is real, but none of the six samples establishes the required causal chain that a new/replacement platform is already live, the **same target outcome remains unresolved**, and that unresolved outcome therefore causes a distinct recurring residual contract. The observed spend instead resolves mainly into mature AMS/partner support, OEM lifecycle service, or physical/site-specific maintenance.
+Baltimore County is the strongest current causal chain: Workday went live, the PRiSM integration failed, monthly Excel/email compliance workarounds persisted, and recurring PRiSM vendor payments continued while MBE compliance remained incomplete. It still fails white-space promotion because the recurring payment lands on the exact vertical incumbent and the buyer's own remedy is to fix that integration or replace the software.
 
-Scan 077 therefore raises the evidence floor to **explicit buyer-authored post-replacement causality**: live replacement + same unresolved outcome + separate recurring paid residual contract, while excluding ordinary AMS/OEM/maintenance/monitoring/enhancement/training/transition and authority/expert/physical lifecycle tails.
+The remaining samples show post-live failure without an executed independent recurring residual contract, or only internal manual labor, platform remediation, public authority or budget intent.
+
+Scan 078 therefore raises the evidence floor to **actual recurring payment to a distinct non-incumbent residual provider or asset** after the live replacement while the same buyer-authored outcome remains unresolved.
 
 ## Goal
 
@@ -24,26 +26,26 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Resolved recently:
-- `ATTRACTION_SCAN_073` — zero retention after first buyer-side non-role procurement/renewal pass.
-- `ATTRACTION_SCAN_074` — zero retention after second independent procurement/renewal pass.
+- `ATTRACTION_SCAN_074` — zero retention after second independent buyer-side non-role spend pass.
 - `ATTRACTION_SCAN_075` — zero retention after paid-incumbent exit/replacement signals.
-- `ATTRACTION_SCAN_076` — zero retention after post-replacement recurring-residual-spend causal test; recurring spend mostly resolved into mature AMS/OEM/physical lifecycle support without a buyer-authored same-unresolved-outcome chain.
+- `ATTRACTION_SCAN_076` — zero retention after generic post-replacement recurring residual-spend test.
+- `ATTRACTION_SCAN_077` — zero retention after buyer-authored post-live failure plus actual residual-payment test; strongest Baltimore County chain still paid the exact vertical incumbent.
 
 Discovery queue:
-- `ATTRACTION_SCAN_077 — BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_UNRESOLVED_OUTCOME_CAUSAL_CHAIN_PLUS_SEPARATE_RECURRING_PAID_RESIDUAL_CONTRACT_FORMATION_DIVERSE_REQUIRE_EXPLICIT_EVIDENCE_THAT_THE_NEW_PLATFORM_OR_PROVIDER_IS_LIVE_AND_THE_SAME_OUTCOME_REMAINS_UNRESOLVED_EXCLUDE_STANDARD_OEM_PARTNER_AMS_MAINTENANCE_MONITORING_ENHANCEMENT_TRAINING_TRANSITION_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_076_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_078 — BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_SAME_UNRESOLVED_OUTCOME_PLUS_ACTUAL_RECURRING_PAYMENT_TO_A_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_FORMATION_DIVERSE_REQUIRE_EXECUTED_PAYMENT_NOT_BUDGET_INTENT_EXCLUDE_STANDARD_AMS_OEM_PARTNER_SUPPORT_INTEGRATORS_CONSULTANTS_BPO_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_077_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_076_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_077_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`d9933f5275d49fc3897f7ecbfcc3417cdd334140`
-— squash merge of PR #373, `Raise buyer evidence to post-replacement residual spend after Scan 075`.
+`fccd87bdbb239158833e461984df53bfce0df036`
+— squash merge of PR #374, `Require buyer-authored post-replacement causality after Scan 076`.
 
-PR #373 repository CI run `35681430579` completed `success`. Live Jev run `35681430581` completed `success`: TypeSafe SDK `0.7.0` ran with `TYPESAFE_API_KEY` present; 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, and `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #374 repository CI run `35682613993` completed `success`. Live Jev run `35682613988` completed `success`: TypeSafe SDK `0.7.0` ran with `TYPESAFE_API_KEY` present; 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, and `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -51,30 +53,30 @@ PR #373 repository CI run `35681430579` completed `success`. Live Jev run `35681
 
 ## Active Branch
 
-`research/attraction-scan-076`.
+`research/attraction-scan-077`.
 
 ## Active PR
 
-#374 — `Require buyer-authored post-replacement causality after Scan 076`. Live GitHub state is authoritative.
+#375 — `Require actual non-incumbent residual payment after Scan 077`. Live GitHub state is authoritative.
 
 ## CI
 
-- PR #374 repository CI and live Jev are pending after the current Scan 076 checkpoint update.
-- PR #373 repository CI run `35681430579` completed `success`.
-- PR #373 live Jev run `35681430581` completed `success`; real TypeSafe/Jev execution used `typesafe-sdk==0.7.0`, evaluated 6 entities, returned 6/6 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
+- PR #375 repository CI and live Jev are pending after the current Scan 077 checkpoint update.
+- PR #374 repository CI run `35682613993` completed `success`.
+- PR #374 live Jev run `35682613988` completed `success`; real TypeSafe/Jev execution used `typesafe-sdk==0.7.0`, evaluated 6 entities, returned 6/6 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_076.json`
-- `docs/research/ATTRACTION_SCAN_076_2026-09-22.md`
-- `tests/test_attraction_scan_076_post_replacement_residual_gate.py`
+- `data/research_runs/attraction_scan_077.json`
+- `docs/research/ATTRACTION_SCAN_077_2026-09-22.md`
+- `tests/test_attraction_scan_077_buyer_authored_residual_payment_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
-Persisted state records `ATTRACTION_SCAN_076` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_077` as an explicit buyer-authored post-replacement unresolved-outcome causal test rather than a new mechanism boundary.
+Persisted state records `ATTRACTION_SCAN_077` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_078` as an actual non-incumbent recurring residual-payment test rather than a mechanism boundary.
 
 ## Completed
 
@@ -94,24 +96,27 @@ Results:
 
 ## Current Findings
 
-Scan 076 establishes:
+Scan 077 establishes:
 
 ```text
-NEW / REPLACEMENT PLATFORM IS LIVE
-→ RECURRING THIRD-PARTY OR OEM SPEND CONTINUES
+LIVE REPLACEMENT
++ BUYER-AUTHORED SAME-OUTCOME FAILURE
++ RECURRING MONEY
 !=
-SAME BUSINESS OUTCOME REMAINS UNRESOLVED
+UNOWNED RESIDUAL VALUE
 ```
 
-The six samples close as follows:
-- Olathe Workday AMS — real multi-year post-production spend, but it buys mature Workday-specific integration, maintenance, deployment and troubleshooting expertise.
-- MPI ArcGIS managed services — a new ArcGIS-on-Azure platform has separate monitoring/maintenance/support, but no buyer-authored evidence says the same pre-replacement business outcome remains unresolved.
-- Humberside Salesforce/MuleSoft — recurring L1-L3 application support, monitoring, code changes and service management are a mature managed-service category.
-- Saskatoon SAP S/4HANA AMS — recurring specialist support is explicit, but again is standard SAP lifecycle operations rather than an independent unresolved-outcome layer.
-- DLA ChargePoint — recurring maintenance/network/cybersecurity spend is OEM-bound, certified-technician/physical/compliance work.
-- Perth & Kinross BMS — upgrade/improvement/servicing/maintenance are bundled into one site-specific lifecycle contract, failing the separate-residual gate.
+Strongest case:
+- Baltimore County — Workday went live in June 2022; PRiSM integration failed; the MBE Unit fell back to monthly Excel/email/manual compliance work; recurring PRiSM payments continued while compliance remained incomplete. This proves the causal chain exists, but PRiSM is the exact incumbent MBE-compliance control surface, so no independent residual market is established.
 
-Scan 077 therefore requires the missing causal fact: the buyer itself must document that the replacement is live, the same outcome is still unresolved, and that remaining failure causes a separate recurring paid residual contract.
+Other cases:
+- NYC FDNY FIRES — live replacement with incomplete inspection/enforcement automation, but no distinct recurring paid residual contract.
+- BLM AFMSS2 — deployed modernization with lost productivity and paper fallback, but residual is internal labor rather than paid external value.
+- VA EHR — live sites still have workarounds and a large configuration backlog, but remediation remains inside the EHR modernization surface and high-stakes clinical governance.
+- NDIA PACE — replacement delivery completed while payment-validation controls remain manual, but the residual is authority-heavy internal validation.
+- St. Johns County Workday HR — buyer describes repeated manual HR work and seeks additional technology budget, but budget intent is not executed recurring payment.
+
+Scan 078 therefore requires actual executed recurring payment to a distinct non-incumbent residual provider or asset that also survives machine-delegatability, rights, margin and generic-agent substitution preflight.
 
 ## Validation Status
 
@@ -129,12 +134,12 @@ Validation:
 
 Engineering:
 - No current Jev integration blocker.
-- PR #374 repository CI/live Jev must validate the Scan 076 checkpoint before merge.
+- PR #375 repository CI/live Jev must validate the Scan 077 checkpoint before merge.
 
 Discovery:
-- Scan 076 is complete with zero retained formations and zero commercial promotions.
-- Recurring post-live spend alone is insufficient because current samples resolve into mature AMS/OEM/physical lifecycle categories.
-- Scan 077 must require explicit buyer-authored same-unresolved-outcome causality after the replacement is demonstrably live.
+- Scan 077 is complete with zero retained formations and zero commercial promotions.
+- A strong post-live causal chain is now evidenced, but actual recurring spend still lands on the incumbent or disappears into internal/platform/authority work.
+- Scan 078 must require executed recurring payment to a distinct non-incumbent residual provider or asset; budget intent is insufficient.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -142,9 +147,15 @@ Commercial:
 
 ## Next Action
 
-Run PR #374 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN` after green checks, merge, verify main, and start Scan 077 from explicit buyer-authored post-replacement unresolved-outcome causality without deriving a mechanism ontology.
+Run PR #375 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN` after green checks, merge, verify main, and start Scan 078 from actual non-incumbent recurring residual payment without deriving a mechanism ontology.
 
 ## Do Not Repeat
+
+- Do not promote Baltimore County Workday/PRiSM MBE compliance from Scan 077; the strongest causal chain still pays the exact vertical incumbent.
+- Do not promote FDNY FIRES, BLM AFMSS2, VA EHR, NDIA PACE or St. Johns County Workday HR from Scan 077.
+- Do not convert internal manual labor, lost productivity, paper fallback, platform remediation or a budget request into executed recurring external value flow.
+- Do not let Scan 078 accept standard AMS/OEM support, integrators, consultants, BPO, authority-only, expert-only or physical lifecycle delivery as a distinct residual asset.
+- Do not derive a router/agent/integration mechanism requirement from Scan 077; Scan 078 strengthens payment ownership evidence only.
 
 - Do not promote Workday AMS, ArcGIS managed services, Salesforce/MuleSoft managed services, SAP AMS, ChargePoint OEM lifecycle support or BMS lifecycle maintenance from Scan 076.
 - Do not equate a second recurring provider after go-live with unresolved-outcome white space; require buyer-authored causality tying the spend to the same target outcome that remains unresolved.
