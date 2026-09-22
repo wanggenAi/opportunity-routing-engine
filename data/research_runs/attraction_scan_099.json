@@ -1,0 +1,190 @@
+{
+  "schema_version": "attraction-scan.v75",
+  "scan_id": "ATTRACTION_SCAN_099",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA",
+    "GLOBAL_AUXILIARY"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "OPERATOR_CONTROL_ADVANTAGE_EVIDENCE_FIRST_AFTER_TWO_PARTICIPANT_CONTROLLED_DIGITAL_ACTION_RIGHTS_PASSES_REQUIRE_DIRECT_CURRENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_AND_EVIDENCE_THAT_A_REUSABLE_OPERATOR_CONTROL_SURFACE_EXECUTION_RIGHT_DATA_ADVANTAGE_OR_ROUTING_ASSET_MATERIALLY_IMPROVES_THE_OUTCOME_BEYOND_WHAT_PARTICIPANT_CREDENTIALS_GENERIC_AGENTS_ACTIVE_OPEN_SOURCE_TOOLS_AND_MATURE_WORKFLOW_PLATFORMS_CAN_DO_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_098_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_EXTERNAL_ECONOMICS_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": true,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_099-F1",
+      "title": "CHINA_INDEPENDENT_SOFTWARE_GLOBAL_MERCHANT_OF_RECORD_COLLECTION_AND_TAX_RAIL",
+      "chinese_title": "中国独立软件出海的全球收款、订阅与税务承担控制轨",
+      "evidence_class": "CURRENT_CHINA_PARTICIPANT_AUTHORED_CROSS_BORDER_SOFTWARE_PAYMENT_FRICTION_WITH_DIRECT_INTEGRATION_ATTEMPTS_AND_MATURE_MERCHANT_OF_RECORD_CONTROL_RAILS",
+      "observed_actor_state_change_evidence": [
+        "A February 2026 Chinese independent developer asked how an individual can compliantly sell software globally, evaluated Paddle, Lemon Squeezy, Creem, PayPal and Chinese cross-border providers, and then documented actual integration work rather than only asking a hypothetical question.",
+        "The participant reported that one domestic cross-border route required an enterprise entity and pre-signed contracts unsuitable for unknown future subscription customers, then implemented PayPal checkout/webhook flow and separately integrated Creem subscription checkout while continuing to investigate compliant payout back to China."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The developer controls the software product, checkout integration and customer relationship, but cannot independently create card acquiring, cross-border payout, tax-registration, chargeback and merchant-liability rights.",
+        "A Merchant of Record is a genuine operator-control surface because the provider becomes the seller/payment counterparty for covered transactions and owns tax collection/remittance and payment operations that a generic coding agent cannot manufacture from the developer's credentials."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The participant tested multiple rails, built payment callbacks and webhooks, handled production-approval requirements and compared subscription support, payout and compliance characteristics.",
+        "The remaining friction is not primarily checkout code; it is access to a durable payment, settlement and tax-liability rail that can accept unknown future customers and remit proceeds."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This formation passes the new control-advantage entrance better than Scan 097-098 browser/document automations because a real third-party financial/tax rail changes what outcomes are legally and operationally possible.",
+        "But that operator layer is already a mature category: Paddle explicitly acts as Merchant of Record and handles tax collection/remittance across supported markets, while multiple current payment/MoR providers are already being tested by the participant."
+      ],
+      "economic_signal": [
+        "The participant is implementing a revenue-collection path for a real software product and expending integration/approval effort across providers, so the payment outcome is directly tied to external revenue rather than internal convenience.",
+        "No evidence shows an unserved repeatable control rail that a new small operator can own with normalized margin; becoming a payment/tax principal also introduces regulated financial, compliance and reserve obligations."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Paddle currently markets itself as Merchant of Record for software sales, handling tax calculation, collection and remittance across more than 200 countries and territories.",
+        "The participant itself is already testing PayPal and Creem and considered Paddle, Lemon Squeezy and other established providers, demonstrating that the control surface is an existing provider category rather than an empty rail.",
+        "The decisive settlement, chargeback and tax rights remain with payment/MoR providers and banking partners, not with a generic software agent or ordinary integrator."
+      ],
+      "founder_independence_check": "FAIL_FOR_NEW_SMALL_OPERATOR_UNLESS_IT_ALREADY_OWNS_OR_CONTRACTUALLY_CONTROLS_A_PAYMENT_SETTLEMENT_AND_TAX_RAIL_OTHERWISE_DELIVERY_DEPENDS_ON_UPSTREAM_MOR_BANKING_AND_COMPLIANCE_PARTNERS",
+      "data_action_rights_check": "PARTIAL_PASS_DEVELOPER_CONTROLS_PRODUCT_CHECKOUT_AND_WEBHOOKS_FAIL_FOR_CARD_ACQUIRING_SETTLEMENT_TAX_LIABILITY_PAYOUT_AND_PROVIDER_UNDERWRITING_RIGHTS",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EDGE_MATURE_MERCHANT_OF_RECORD_AND_PAYMENT_PROVIDERS_ALREADY_OWN_THE_CONTROL_ADVANTAGE_AND_A_NEW_ENTRANT_WOULD_INHERIT_REGULATED_FINANCIAL_COMPLIANCE_COST",
+      "machine_delegatability_check": "PASS_HIGH_FOR_CHECKOUT_INTEGRATION_WEBHOOK_RECONCILIATION_TAX_METADATA_AND_PAYOUT_STATUS_BUT_NOT_FOR_CREATING_THE_UNDERLYING_FINANCIAL_RIGHTS",
+      "generic_agent_substitutability_check": "PASS_FOR_CONTROL_ADVANTAGE_THE_FINANCIAL_AND_TAX_RAIL_ITSELF_IS_NOT_GENERIC_AGENT_SUBSTITUTABLE_BUT_FAILS_WHITE_SPACE_BECAUSE_EXACT_MATURE_OPERATORS_ALREADY_OWN_IT",
+      "verdict": "DEMOTED_STRONG_OPERATOR_CONTROL_ADVANTAGE_EXISTS_IN_THE_MOR_SETTLEMENT_AND_TAX_RAIL_BUT_IT_IS_ALREADY_OWNED_BY_MATURE_PAYMENT_PROVIDERS_AND_REQUIRES_REGULATED_UPSTREAM_RIGHTS_A_NEW_GENERIC_OPERATOR_DOES_NOT_POSSESS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_099-F2",
+      "title": "CHINA_AGENT_THIRD_PARTY_CREDENTIAL_AND_PROGRAMMATIC_ACCESS_GOVERNANCE",
+      "chinese_title": "中国 Agent 第三方凭证、程序化访问与团队权限治理",
+      "evidence_class": "CURRENT_CHINA_PARTICIPANT_AUTHORED_CREDENTIAL_COMPROMISE_AND_TEAM_GOVERNANCE_FRICTION_WITH_NATIVE_GITHUB_AND_CURRENT_CONNECTOR_CONTROL_SURFACES",
+      "observed_actor_state_change_evidence": [
+        "A July 2026 Chinese developer documented repeated GitHub compromise, later Gemini API-key suspension, and a likely PAT or SSH-key exposure path while developing an AI coding/debug agent.",
+        "The participant explicitly changed behavior after the incidents: removed unnecessary long-lived keys, narrowed permissions, adopted repository-scoped deploy keys, moved automation toward GitHub Apps and short-lived installation tokens, reduced secret exposure and added review/monitoring."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The participant's earlier PAT effectively inherited user identity and broad rights; team-owned governance over employee PATs was weak, creating a real control mismatch when humans or agents hold reusable bearer credentials.",
+        "A credential broker or app identity can create a reusable operator control surface by holding raw provider tokens away from agents, issuing bounded actions or short-lived identities and centralizing revocation/audit."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The participant replaced account-level keys with narrower deploy keys where possible and chose GitHub Apps for machine access because installation tokens are short lived and app permissions are independently manageable.",
+        "The participant also changed API billing exposure and built periodic security-log/repository review, showing repeated operational effort to contain credential blast radius."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "Unlike simple participant-owned API calls, the brokered identity boundary can be nontrivial for a generic agent to reproduce safely because the agent should never receive the raw upstream credential.",
+        "However the exact control surface is already native or commercially/open-source available: GitHub organizations can restrict PATs, enforce lifetimes and approval for fine-grained tokens, while connector products already provide team connection/action scopes without exposing provider tokens."
+      ],
+      "economic_signal": [
+        "The incident imposed repeated recovery and security work and caused account/API suspension risk, making credential governance an operationally consequential problem.",
+        "The participant reported no direct monetary loss, and there is no independent evidence that a new general-purpose broker can displace native GitHub controls or current connector vendors at attractive normalized margin."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "GitHub organization owners can restrict PAT access, set maximum token lifetimes, require approval of fine-grained PATs and review/revoke fine-grained tokens.",
+        "OOMOL Connector currently exposes connection-level team access and allowed-action controls while keeping raw provider tokens from team members and agents.",
+        "OpenConnector is also available as a self-hosted credential runtime, including encrypted credential storage and OAuth token refresh, reducing white space for a new generic credential broker."
+      ],
+      "founder_independence_check": "PASS_FOR_AUTOMATED_BROKERING_ROTATION_REVOCATION_POLICY_AND_AUDIT_ONCE_PROVIDER_INTEGRATIONS_EXIST_BUT_PROVIDER_SPECIFIC_AUTH_AND_SCOPE_MAINTENANCE_REMAINS",
+      "data_action_rights_check": "PARTIAL_PASS_THE_ORGANIZATION_CAN_GRANT_AND_REVOKE_CONNECTION_ACCESS_BUT_FINAL_SCOPES_TOKEN_LIFETIMES_AND_APP_IDENTITY_RIGHTS_ARE_DEFINED_BY_EACH_UPSTREAM_PROVIDER",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EDGE_NATIVE_GITHUB_PROGRAMMATIC_ACCESS_CONTROLS_AND_CURRENT_OOMOL_OPENCONNECTOR_STYLE_BROKERS_ALREADY_OCCUPY_THE_CONTROL_SURFACE",
+      "machine_delegatability_check": "PASS_HIGH_FOR_TOKEN_BROKERING_SCOPE_ENFORCEMENT_ACTION_ALLOWLISTS_ROTATION_REVOCATION_AND_AUDIT",
+      "generic_agent_substitutability_check": "PASS_FOR_THE_SECRET_HOLDING_BOUNDARY_A_SAFE_BROKER_SHOULD_BE_SEPARATE_FROM_THE_AGENT_BUT_FAILS_WHITE_SPACE_BECAUSE_MATURE_NATIVE_AND_CONNECTOR_CONTROL_SURFACES_ALREADY_EXIST",
+      "verdict": "DEMOTED_REAL_AND_HIGH_CONSEQUENCE_OPERATOR_CONTROL_PROBLEM_WITH_A_NONTRIVIAL_SECRET_HOLDING_BOUNDARY_BUT_NATIVE_GITHUB_CONTROLS_AND_CURRENT_CONNECTOR_BROKERS_ALREADY_OWN_THE_REUSABLE_EDGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_099-F3",
+      "title": "CHINA_TEAM_FOREIGN_AI_SUBSCRIPTION_STABLE_OFFICIAL_ACCESS_AND_BUDGET_CONTROL",
+      "chinese_title": "中国团队海外 AI 订阅的稳定官方访问、计费与成员控制",
+      "evidence_class": "CURRENT_CHINA_PARTICIPANT_AUTHORED_APPROVED_BUDGET_AND_ACCESS_STABILITY_FRICTION_WITH_UPSTREAM_REGION_POLICY_AND_NATIVE_ENTERPRISE_ADMIN_CONTROL",
+      "observed_actor_state_change_evidence": [
+        "A May 2026 Chinese participant reported that a project team had company approval for roughly USD 200 per month and wanted a stable, safe, official GPT Pro subscription rather than the cheapest regional workaround.",
+        "The participant proposed combinations of overseas mobile identity, foreign payment card, Singapore infrastructure and API redistribution and asked whether a foreign branch office could improve stability, showing active effort to change the access state rather than casual interest."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The team has an explicit budget and internal demand, but the decisive right is upstream service eligibility and account/workspace status rather than a local browser or payment automation.",
+        "An operator would need a durable, authorized upstream commercial/access relationship to create a real control advantage; merely proxying traffic or redistributing a personal subscription does not create such a right."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The participant was willing to pay full cost and assembled foreign payment, network and redistribution components in pursuit of stability.",
+        "The stated priority was official and safe access, which makes upstream terms, supported-region policy, workspace administration and billing authorization more important than price arbitrage."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "OpenAI's current supported-country documentation states that access or offering access outside listed supported countries may lead to blocking or suspension; mainland China is not listed among supported locations.",
+        "ChatGPT Business and Enterprise already provide native centralized workspace billing, seats and administration where service eligibility exists, so a third-party operator cannot create durable official access merely by adding network or payment layers."
+      ],
+      "economic_signal": [
+        "The participant gives a direct budget of about USD 200 per month from a project team and explicitly prioritizes stability over discounts.",
+        "That willingness to pay does not establish an addressable new operator market because the decisive access right belongs to the upstream provider and native contracted workspace products already own organization billing/admin controls in supported contexts."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "OpenAI maintains current supported-country lists and warns that accessing or offering access from outside supported regions may result in account blocking or suspension.",
+        "ChatGPT Business has centralized workspace seat and billing controls, and contracted Enterprise/Edu paths provide additional identity and administrative controls including eligible SCIM provisioning.",
+        "A reseller, proxy or account-sharing layer without explicit upstream authorization cannot convert unsupported geography into an official durable right and therefore fails the operator-control requirement."
+      ],
+      "founder_independence_check": "FAIL_FOR_ANY_OPERATOR_WITHOUT_EXPLICIT_UPSTREAM_AUTHORIZATION_AND_SUPPORTED_SERVICE_GEOGRAPHY_PASS_ONLY_FOR_THE_UPSTREAM_VENDOR_OR_A_FORMALLY_AUTHORIZED_CONTRACTUAL_CHANNEL",
+      "data_action_rights_check": "FAIL_FOR_DECISIVE_SERVICE_ACCESS_ELIGIBILITY_ACCOUNT_STATUS_AND_SUPPORTED_GEOGRAPHY_WHICH_REMAIN_UPSTREAM_PROVIDER_CONTROLLED",
+      "normalized_margin_check": "FAIL_FOR_UNAUTHORIZED_INTERMEDIARY_PATHS_DUE_ACCOUNT_POLICY_AND_SUSPENSION_RISK_WHILE_NATIVE_BUSINESS_AND_ENTERPRISE_WORKSPACES_OWN_THE_AUTHORIZED_ADMIN_AND_BILLING_SURFACE",
+      "machine_delegatability_check": "PASS_FOR_MEMBER_PROVISIONING_USAGE_ROUTING_BUDGET_MONITORING_AND_BILLING_WORKFLOWS_BUT_FAIL_FOR_CREATING_UPSTREAM_SERVICE_ELIGIBILITY",
+      "generic_agent_substitutability_check": "NOT_THE_PRIMARY_KILL_THE_DECISIVE_KILL_IS_UPSTREAM_AUTHORITY_NO_AGENT_OR_SMALL_OPERATOR_CAN_MINT_OFFICIAL_SERVICE_ELIGIBILITY",
+      "verdict": "DEMOTED_CLEAR_CURRENT_TEAM_BUDGET_AND_STABILITY_PAIN_BUT_THE_REQUIRED_CONTROL_ADVANTAGE_IS_UPSTREAM_SERVICE_AUTHORIZATION_NOT_AN_INDEPENDENT_OPERATOR_ASSET_AND_NATIVE_WORKSPACE_PRODUCTS_ALREADY_OWN_AUTHORIZED_TEAM_ADMINISTRATION"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "GENERIC_CROSS_BORDER_SOFTWARE_PAYMENT_OR_MOR_SERVICE",
+      "excluded_reason": "EXCLUDE_MECHANISM_REAL_CONTROL_ADVANTAGE_EXISTS_BUT_MATURE_MOR_PAYMENT_AND_BANKING_RAILS_ALREADY_OWN_IT_AND_NEW_ENTRY_REQUIRES_REGULATED_RIGHTS"
+    },
+    {
+      "observation": "GENERIC_AGENT_CREDENTIAL_BROKER",
+      "excluded_reason": "EXCLUDE_MECHANISM_NATIVE_GITHUB_POLICIES_AND_CURRENT_CONNECTOR_BROKERS_ALREADY_PROVIDE_SHORT_LIVED_OR_SCOPED_SECRET_HOLDING_AND_TEAM_ACCESS_CONTROL"
+    },
+    {
+      "observation": "GENERIC_CHINA_FOREIGN_AI_ACCESS_RESELLER_OR_PROXY",
+      "excluded_reason": "EXCLUDE_MECHANISM_OFFICIAL_SERVICE_ELIGIBILITY_AND_SUPPORTED_GEOGRAPHY_REMAIN_UPSTREAM_CONTROLLED_AND_UNAUTHORIZED_RELAY_DOES_NOT_CREATE_A_DURABLE_OPERATOR_RIGHT"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_paid_stack": false,
+    "operator_control_advantage_evidence_required": true,
+    "direct_participant_authored_current_friction_required": true,
+    "independent_objective_corroboration_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_CROSS_BORDER_SOFTWARE_REVENUE_RAIL_AGENT_CREDENTIAL_GOVERNANCE_AND_FOREIGN_AI_ENTERPRISE_ACCESS",
+    "observed_indexing_bias": "OPERATOR_CONTROL_ADVANTAGE_EVIDENCE_IMPROVES_EXCLUSIVITY_SIGNAL_QUALITY_BUT_THE_STRONGEST_CONTROLS_OFTEN_EXIST_PRECISELY_WHERE_MATURE_REGULATED_NATIVE_OR_UPSTREAM_PROVIDERS_ALREADY_OWN_THE_RAIL",
+    "response": "REPEAT_OPERATOR_CONTROL_ADVANTAGE_EVIDENCE_FIRST_IN_SCAN100_ON_A_FRESH_FORMATION_DIVERSE_CHINA_SAMPLE_BEFORE_DERIVING_A_STRONGER_CONTROL_OR_ECONOMIC_BOUNDARY",
+    "participant_behavior_over_analyst_story": "PASS_ALL_THREE_USE_CURRENT_CHINA_PARTICIPANT_RECORDED_ACTIONS_BUDGET_OR_INCIDENT_RESPONSE_AND_INDEPENDENT_CURRENT_PROVIDER_OR_PLATFORM_CORROBORATION"
+  },
+  "scan_learnings": [
+    "SCAN099_FIRST_OPERATOR_CONTROL_ADVANTAGE_EVIDENCE_PASS_ZERO_RETENTION_ACROSS_MERCHANT_OF_RECORD_SETTLEMENT_AGENT_CREDENTIAL_GOVERNANCE_AND_FOREIGN_AI_TEAM_ACCESS",
+    "A_REAL_OPERATOR_CONTROL_ADVANTAGE_IS_STRONGER_THAN_PARTICIPANT_OWNED_DIGITAL_ACTION_RIGHTS_BECAUSE_IT_CAN_CHANGE_WHAT_OUTCOMES_A_GENERIC_AGENT_CAN_LEGALLY_OR_OPERATIONALLY_EXECUTE",
+    "THE_STRONGEST_CONTROL_ADVANTAGES_FREQUENTLY_LIVE_INSIDE_MATURE_REGULATED_NATIVE_OR_UPSTREAM_RAILS_SO_CONTROL_ADVANTAGE_EVIDENCE_ALONE_STILL_DOES_NOT_PROVE_WHITE_SPACE",
+    "FINANCIAL_SETTLEMENT_TAX_LIABILITY_SECRET_HOLDING_AND_SERVICE_ELIGIBILITY_ARE_MEANINGFUL_NON_GENERIC_CONTROL_SURFACES_BUT EACH_CASE_MUST_PROVE_THE_OPERATOR_CAN_ACTUALLY_OWN_THE_RIGHT_RATHER_THAN_RESELL_OR_PROXY_AN_UPSTREAM_AUTHORITY",
+    "CURRENT_NATIVE_ADMIN_AND_IDENTITY_CONTROLS_CAN_DESTROY_A_THIRD_PARTY_OPERATOR_EDGE_EVEN_WHEN_PARTICIPANT_PAIN_AND_BUDGET_ARE_STRONG",
+    "ONE_OPERATOR_CONTROL_ADVANTAGE_PASS_IS_NOT_ENOUGH_TO_DERIVE_A_NEW_MECHANISM_OR_PAYER_ONTOLOGY_SCAN100_SHOULD_REPEAT_THE_SAME_EVIDENCE_PRIORITY_ON_FRESH_FORMATIONS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_100",
+  "next_search_boundary": "SECOND_INDEPENDENT_OPERATOR_CONTROL_ADVANTAGE_EVIDENCE_PASS_REQUIRE_DIRECT_CURRENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_AND_EVIDENCE_THAT_A_REUSABLE_OPERATOR_CONTROL_SURFACE_EXECUTION_RIGHT_DATA_ADVANTAGE_SETTLEMENT_RAIL_OR_ROUTING_ASSET_MATERIALLY_IMPROVES_THE_OUTCOME_BEYOND_WHAT_PARTICIPANT_CREDENTIALS_GENERIC_AGENTS_ACTIVE_OPEN_SOURCE_TOOLS_MATURE_WORKFLOW_PLATFORMS_AND_NATIVE_UPSTREAM_CONTROLS_CAN_DO_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_099_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_EXTERNAL_ECONOMICS_PREFLIGHT_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN099_WITH_CI_JEV_THEN_START_SCAN100_SECOND_OPERATOR_CONTROL_ADVANTAGE_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://v2ex.com/t/1193329",
+    "https://developer.paddle.com/concepts/sell/supported-countries-locales/",
+    "https://v2ex.com/t/1225440",
+    "https://docs.github.com/en/organizations/managing-programmatic-access-to-your-organization/setting-a-personal-access-token-policy-for-your-organization",
+    "https://docs.github.com/en/organizations/managing-programmatic-access-to-your-organization/reviewing-and-revoking-personal-access-tokens-in-your-organization",
+    "https://oomol.com/zh-cn/docs/access-control/",
+    "https://github.com/oomol-lab/open-connector/blob/main/docs/credentials.md",
+    "https://v2ex.com/t/1210117",
+    "https://help.openai.com/en/articles/7947663",
+    "https://help.openai.com/en/articles/8792536-chatgpt-team-billing",
+    "https://help.openai.com/en/articles/10011769"
+  ]
+}
