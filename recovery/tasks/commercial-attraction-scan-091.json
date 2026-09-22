@@ -1,18 +1,18 @@
 {
   "schema_version": 2,
-  "generation": 1,
+  "generation": 2,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-091",
-  "stage": "SCAN_091_RESEARCH_PERSISTED_PR_NOT_OPENED",
+  "stage": "SCAN_091_PR389_FINAL_HEAD_VALIDATION_PENDING",
   "last_observed_main_sha": "c1b3673db8f69e60cc20dc7ba954bb28f1008891",
   "work_branch": "research/attraction-scan-091",
-  "work_head_sha": "6ec47ea70175aa29d9cf752decd7486d37e93ca8",
-  "active_pr": null,
+  "work_head_sha": "9066023c43adfefbd35a7dfa5dda75de826c239d",
+  "active_pr": 389,
   "ci": {
     "run_id": null,
-    "head_sha": "6ec47ea70175aa29d9cf752decd7486d37e93ca8",
-    "status": "NOT_STARTED",
+    "head_sha": "9066023c43adfefbd35a7dfa5dda75de826c239d",
+    "status": "PENDING",
     "conclusion": null
   },
   "production_or_artifact": {
@@ -36,9 +36,11 @@
     "SCAN_091_DOC_PERSISTED",
     "SCAN_091_TEST_CONTRACT_PERSISTED",
     "SCAN_091_RESET_STATE_UPDATED",
-    "SCAN_091_TASK_STATE_UPDATED"
+    "SCAN_091_TASK_STATE_UPDATED",
+    "SCAN_091_PR389_OPENED",
+    "SCAN_091_TASK_STATE_BOUND_TO_PR389"
   ],
-  "next_action": "Open the Scan 091 PR, bind this checkpoint to its final head, validate repository CI and live Jev, then consume continuation.",
+  "next_action": "Validate PR #389 final head 9066023c with repository CI and live Jev, then consume continuation and merge if permitted.",
   "do_not_repeat": [
     "Do not repeat Scan 089 Seats.aero, Monarch, or HealthFit/RunGap.",
     "Do not repeat Scan 090 Zapier, 1Password, or Fantastical.",
