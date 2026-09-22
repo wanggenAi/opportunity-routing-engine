@@ -1,0 +1,202 @@
+{
+  "schema_version": "attraction-scan.v77",
+  "scan_id": "ATTRACTION_SCAN_103",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA",
+    "GLOBAL_AUXILIARY"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "OPERATOR_ACQUIRABLE_NON_COMMODITY_CONTROL_PLUS_EXTERNAL_ECONOMIC_MOTION_PASS_REQUIRE_EVIDENCE_THAT_CONTROL_EFFECTIVENESS_IS_NOT_AVAILABLE_TO_AN_EQUIVALENT_COMPETENT_ENTRANT_ON_MATERIALLY_SIMILAR_TERMS_AND_HAS_AN_OPERATOR_SPECIFIC_ASYMMETRY_OR_COMPOUNDING_DISTRIBUTION_DATA_CONTRACT_SUPPLY_OR_TRUST_POSITION_REQUIRE_DIRECT_CURRENT_OR_RECENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_PLUS_CURRENT_EXTERNAL_PAYMENT_SPEND_OR_DIRECT_MARGIN_EVIDENCE_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_102_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_NATIVE_OPEN_SOURCE_GENERIC_AGENT_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_103-F1",
+      "title": "CHINA_OPEN_SOURCE_REPUTATION_TO_PAID_HOSTED_AI_SERVICE",
+      "discovery_route": "CURRENT_CHINA_OPEN_SOURCE_OPERATOR_REPORTING_ORGANIC_REPUTATION_DERIVED_INBOUND_PLUS_PAID_SUBSCRIPTION_FLOW_WITH_CURRENT_PUBLIC_REPOSITORY_CORROBORATION",
+      "observed_actor_state_change_evidence": [
+        "On 2026-08-26 the BiliNote operator reported that the open-source project had passed 7,000 GitHub stars and that the accumulated recognition continued to send real visits to the hosted Bilinote Pro service.",
+        "From 2026-05-12 through 2026-08-26 the operator reported 5,402 registered users, 602 users with at least one payment, 674 paid orders and RMB 24,264.30 cumulative receipts; 282 subscriptions were active at the measurement date."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The current public BiliNote repository independently shows a live MIT-licensed project with roughly 7.3k stars, 900+ forks, hundreds of commits and an explicit link to the hosted Pro service.",
+        "The public repository and hosted site show that the operator controls the project identity, release surface and conversion path from open-source discovery to hosted service rather than relying only on paid lead buying."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The operator explicitly describes open source as a long-running acquisition machine: users download, deploy, ask questions, contribute feedback and recommend the project, after which a subset with higher-frequency needs chooses the Pro service.",
+        "The hosted service removes deployment, GPU/CUDA, ffmpeg, model-download and API-key friction that open-source users repeatedly reported."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is genuine non-commodity control for the incumbent operator: years of repository identity, stars, forks, community recognition and organic inbound cannot be cloned merely by copying the MIT code.",
+        "That same fact is an entry failure for a fresh independent operator. The decisive acquisition asset belongs to the existing project/operator and is not obtainable through a standardized channel on materially similar terms.",
+        "The underlying video-to-note capability is not scarce: current open-source and commercial substitutes expose the same broad video transcription, summarization and note-generation outcome.",
+        "The operator also states that updates, maintenance, customer service, content, channel operations and commercialization still require continuing input and is seeking deeper operating partners."
+      ],
+      "economic_signal": [
+        "Participant-reported cumulative receipts were RMB 24,264.30 by 2026-08-26, with RMB 7,732.10 in June and RMB 6,909.20 in July; subscription revenue represented 89.6% of receipts.",
+        "External money motion is therefore proven at meaningful small-operator scale, but normalized margin is not proven because model, transcription, server, bandwidth, support and maintenance costs are not quantified."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "BiliNote itself is the incumbent owner of the examined reputation/inbound graph; a new operator does not receive that graph by forking the MIT code.",
+        "Current alternative tools and open-source projects offer Bilibili/YouTube video transcription, AI summaries and structured notes, so the product primitive does not independently protect the entrant.",
+        "The only evidenced scarce asset is the existing operator's historical reputation/distribution position."
+      ],
+      "operator_acquirability_check": "FAIL_DECISIVE_OPEN_SOURCE_REPUTATION_COMMUNITY_AND_ORGANIC_INBOUND_GRAPH_ARE_OWNED_BY_THE_EXISTING_OPERATOR_AND_A_FRESH_ENTRANT_CANNOT_ACQUIRE_THE_SAME_HISTORY_ON_MATERIALLY_SIMILAR_STANDARD_TERMS",
+      "noncommodity_control_check": "PASS_FOR_EXISTING_OPERATOR_REPOSITORY_REPUTATION_COMMUNITY_HISTORY_AND_ORGANIC_INBOUND_ARE_NOT_INSTANTLY_REPRODUCIBLE_BY_AN_EQUIVALENT_ENTRANT",
+      "founder_independence_check": "PARTIAL_FAIL_RUNTIME_DELIVERY_IS_SOFTWARE_EXECUTABLE_AND_ORGANIC_INBOUND_EXISTS_BUT_OPERATOR_REPORTS_CONTINUING_MAINTENANCE_SUPPORT_CONTENT_CHANNEL_AND_COMMERCIALIZATION_WORK",
+      "data_action_rights_check": "PARTIAL_PASS_OPERATOR_CONTROLS_OWN_CODE_USER_ACCOUNT_PAYMENT_AND_SERVICE_DATA_BUT_SOURCE_VIDEO_PLATFORM_USAGE_RIGHTS_REMAIN_SUBJECT_TO_EACH_UPSTREAM_PLATFORM_AND_NO_NEW_CROSS_PLATFORM_RIGHT_IS_INFERRED",
+      "normalized_margin_check": "UNKNOWN_GROSS_RECEIPTS_AND_SUBSCRIPTION_MIX_ARE_PROVEN_BUT_MODEL_TRANSCRIPTION_SERVER_BANDWIDTH_SUPPORT_AND_MAINTENANCE_COSTS_ARE_NOT_NORMALIZED",
+      "machine_delegatability_check": "PARTIAL_PASS_VIDEO_PROCESSING_BILLING_AND_CORE_RUNTIME_ARE_AUTOMATED_BUT_GROWTH_SUPPORT_MAINTENANCE_AND_PLATFORM_EXCEPTIONS_REMAIN_OPERATOR_DEPENDENT",
+      "generic_agent_substitutability_check": "PARTIAL_FAIL_GENERIC_AGENTS_AND_CURRENT_VIDEO_NOTE_TOOLS_CAN_SUBSTITUTE_THE_CORE_INFORMATION_TRANSFORMATION_BUT_CANNOT_INHERIT_THE_EXISTING_REPOSITORY_REPUTATION_GRAPH",
+      "verdict": "DEMOTED_REAL_NONCOMMODITY_INBOUND_ASSET_AND_PAID_SUBSCRIPTIONS_BUT_THE_DECISIVE_EDGE_IS_INCUMBENT_OWNED_NOT_FRESH_OPERATOR_ACQUIRABLE_AND_NORMALIZED_FOUNDER_LIGHT_MARGIN_IS_UNPROVEN"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_103-F2",
+      "title": "CHINA_CREATOR_AUDIENCE_TO_EXCLUSIVE_PLATFORM_CONTRACT",
+      "discovery_route": "CURRENT_CHINA_CREATOR_REPORTED_AUDIENCE_ACCUMULATION_EXCLUSIVE_PLATFORM_CONTRACT_AND_CURRENT_INCENTIVE_ADVERTISING_INCOME_WITH_OFFICIAL_PLATFORM_COMMERCIAL_RIGHTS_CORROBORATION",
+      "observed_actor_state_change_evidence": [
+        "On 2026-08-28 a China creator reported roughly 300k Douyin followers, 80k Xiaohongshu followers, 70k Kuaishou followers and nearly 500k Bilibili followers after about six months of content production.",
+        "The creator reported signing a three-year Bilibili exclusive agreement, with Bilibili advertising work contributing about 70% of total self-media income."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Bilibili's current commercial authorization agreement documents creator-controlled video/account authorization inside the Huahuo commercial-order system and describes the data exposed to authorized advertisers.",
+        "Bilibili's official marketing materials document platform creator monetization programs in which eligible original creators can receive advertising revenue in addition to creation incentives."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The creator reported an exclusive incentive around RMB 40-50 per 10,000 seven-day video views, ordinary creation incentives of about RMB 1,000-2,000 and the ability to reach roughly RMB 10,000 monthly when advertising orders are available.",
+        "The same operator reported producing more than 130 topics in roughly six months and described personally sourcing topics from daily media consumption and current events."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The audience, account history and exclusive contract are strongly operator-specific and cannot be replicated by an equivalent entrant on demand.",
+        "They are also inseparable from the creator identity, repeated content output and Bilibili's platform allocation/contract decisions, so the decisive position is neither standardized entrant-acquirable nor founder-independent.",
+        "A generic agent can assist scripting and editing but cannot lawfully or commercially inherit the creator's identity, audience, trust or exclusive contract."
+      ],
+      "economic_signal": [
+        "The participant reported Bilibili as the majority income source, an exclusive incentive linked to seven-day views, ordinary creation incentives and advertising orders that can make monthly income around RMB 10,000.",
+        "These are real external payments, but they are compensation for ongoing creator output and platform-owned distribution rather than a machine-delegatable operator margin."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Bilibili owns the recommendation, creator-incentive and commercial-order rails while the creator owns the account/content relationship subject to platform rules.",
+        "The exclusive contract is a bilateral platform-creator arrangement, not a generally callable supply or routing right available to a fresh operator.",
+        "The creator's accumulated follower graph is the scarce asset and is directly tied to recurring personal content production."
+      ],
+      "operator_acquirability_check": "FAIL_DECISIVE_AUDIENCE_TRUST_ACCOUNT_HISTORY_AND_THREE_YEAR_EXCLUSIVE_PLATFORM_CONTRACT_ARE_CREATOR_SPECIFIC_AND_NOT_OBTAINABLE_BY_A_FRESH_SMALL_OPERATOR_THROUGH_STANDARDIZED_ENTRY",
+      "noncommodity_control_check": "PASS_EXISTING_CREATOR_AUDIENCE_TRUST_AND_EXCLUSIVE_CONTRACT_ARE_NOT_AVAILABLE_TO_EQUIVALENT_ENTRANTS_ON_MATERIALLY_SIMILAR_TERMS",
+      "founder_independence_check": "FAIL_MORE_THAN_130_TOPICS_IN_SIX_MONTHS_PERSONAL_TOPIC_SELECTION_AND_CONTINUING_CREATIVE_OUTPUT_ARE_MATERIAL_TO_THE_MONEY_FLOW",
+      "data_action_rights_check": "PASS_FOR_CREATOR_AUTHORIZED_ACCOUNT_CONTENT_AND_COMMERCIAL_ORDER_DATA_WITHIN_BILIBILI_RULES_BUT_PLATFORM_RETAINS_DISTRIBUTION_AND_PROGRAM_CONTROL",
+      "normalized_margin_check": "FAIL_AS_ORCHESTRATION_MARGIN_REPORTED_CASH_INCOME_IS_REAL_BUT_REQUIRES_RECURRING_CREATOR_LABOR_AND_PLATFORM_DEPENDENT_VIEW_AD_ALLOCATION",
+      "machine_delegatability_check": "FAIL_CONTENT_IDENTITY_TRUST_AND_PLATFORM_CONTRACT_PERFORMANCE_REQUIRE_RECURRING_HUMAN_CREATOR_ACTION_EVEN_IF_AI_ASSISTS_SCRIPTING",
+      "generic_agent_substitutability_check": "PASS_FOR_SCARCITY_GENERIC_AGENTS_CANNOT_REPLACE_EXISTING_AUDIENCE_TRUST_OR_EXCLUSIVE_ACCOUNT_CONTRACT_BUT_THIS_DOES_NOT_FIX_ENTRY_OR_FOUNDER_DEPENDENCE",
+      "verdict": "DEMOTED_REAL_NONCOMMODITY_AUDIENCE_AND_CONTRACT_WITH_CURRENT_MONEY_BUT_CONTROL_IS_CREATOR_IDENTITY_BOUND_PLATFORM_DEPENDENT_AND_REQUIRES_RECURRING_HUMAN_OUTPUT"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_103-F3",
+      "title": "CHINA_OPERATOR_ACCUMULATED_SEO_SITE_TO_GLOBAL_SUBSCRIPTIONS",
+      "discovery_route": "CURRENT_CHINA_INDEPENDENT_OPERATOR_REPORTED_SEARCH_TRAFFIC_COMPOUNDING_AND_GLOBAL_SUBSCRIPTION_REVENUE_WITH_OFFICIAL_SEARCH_CONTROL_SURFACE_CORROBORATION",
+      "observed_actor_state_change_evidence": [
+        "On 2026-08-10 a China independent developer reported that a seven-month-old tool site had exceeded USD 5,000 in monthly subscription revenue, with additional pay-as-you-go revenue and a small PayPal subscription tail.",
+        "The operator reported that a July infrastructure outage materially reduced Google search traffic and that much of the following effort went into restoring subscription traffic, directly linking the commercial flow to accumulated search visibility."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Google Search Central documents that search visibility depends on automated ranking systems using many page-level and site-wide signals and that rankings can change as the web and systems change.",
+        "Google also documents that paid or unnatural link schemes and scaled AI content created primarily to manipulate rankings can violate spam policies, so an SEO-derived position is partly governed by an external control plane rather than owned outright."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "At five months the operator reported about 490 Stripe subscribers plus roughly 20 PayPal subscribers and USD 3,300 monthly subscription revenue, while an SEO script published a multilingual article about every three days.",
+        "The operator also reported buying some backlinks earlier, paying USD 100 for a TikTok promotion, and receiving at least one organic outside recommendation; the later seven-month report says server and AI costs were roughly 20% of revenue."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The accumulated domain/content/link/ranking position has path dependence and therefore can become non-commodity for the current owner.",
+        "The exact site is deliberately undisclosed, so the claimed rankings, site identity and conversion surface cannot be independently verified; fail-closed rules prevent treating the incumbent's search position as proven operator control.",
+        "The operator states that the underlying product is easy to copy and originated from discovering a similar Product Hunt site, while the acquisition playbook includes reproducible automation, purchased links and paid promotion.",
+        "Search ranking is externally controlled and demonstrated operational fragility: one hosting outage caused a material traffic decline."
+      ],
+      "economic_signal": [
+        "The operator reported monthly subscription revenue above USD 5,000 at seven months and server/AI costs around 20% of revenue, stronger gross economics than the other Scan 103 samples.",
+        "However the product/site identity is withheld and labor, payment fees, promotion, tax and traffic-recovery costs are not fully normalized, so the claimed margin cannot be independently audited."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The current operator owns the domain/content deployment and subscription product but Google owns discovery ranking and can change or suppress visibility.",
+        "SEO execution itself is widely accessible and the operator describes automated multilingual publishing, paid backlinks and paid creator promotion rather than a unique right or closed supply.",
+        "Without the site identity there is no exact-incumbent, product-substitute or ranking-position verification sufficient to establish a fresh entrant wedge."
+      ],
+      "operator_acquirability_check": "FAIL_DECISIVE_ACCUMULATED_SEARCH_POSITION_IS_INCUMBENT_SPECIFIC_AND_EXTERNALLY_RANKED_WHILE_THE_EXACT_SITE_IS_WITHHELD_SO_A_FRESH_OPERATOR_CANNOT_BE_SHOWN_TO_ACQUIRE_THE_SAME_EFFECTIVE_POSITION_ON_SIMILAR_TERMS",
+      "noncommodity_control_check": "UNKNOWN_TO_PARTIAL_ACCUMULATED_SEARCH_HISTORY_MAY_BE_PATH_DEPENDENT_BUT_THE_EXACT_ASSET_AND_RANKING_POSITION_ARE_NOT_INDEPENDENTLY_VERIFIABLE",
+      "founder_independence_check": "PARTIAL_PASS_ARTICLE_PUBLISHING_IS_AUTOMATED_AND_SUBSCRIPTIONS_RECUR_BUT_OPERATOR_REPORTED_SUBSTANTIAL_TRAFFIC_RECOVERY_SEO_AND_PROMOTION_WORK",
+      "data_action_rights_check": "PASS_FOR_OWN_DOMAIN_CONTENT_SUBSCRIPTION_AND_FIRST_PARTY_ANALYTICS_SUBJECT_TO_PAYMENT_AND_SEARCH_PLATFORM_TERMS",
+      "normalized_margin_check": "PARTIAL_PASS_REPORTED_SERVER_AND_AI_COSTS_ARE_ABOUT_20_PERCENT_OF_REVENUE_BUT_FULL_LABOR_PROMOTION_PAYMENT_TAX_AND_TRAFFIC_RECOVERY_COSTS_ARE_NOT_NORMALIZED_OR_AUDITABLE",
+      "machine_delegatability_check": "PARTIAL_PASS_CONTENT_PUBLISHING_SERVICE_DELIVERY_AND_BILLING_CAN_AUTOMATE_BUT_SEARCH_RECOVERY_LINK_ACQUISITION_PROMOTION_AND_PRODUCT_OPERATIONS_REMAIN_MATERIAL",
+      "generic_agent_substitutability_check": "FAIL_FOR_ENTRY_EDGE_PRODUCT_BUILD_AND_MULTILINGUAL_CONTENT_GENERATION_ARE_GENERIC_AGENT_ACCESSIBLE_AND_OPERATOR_ITSELF_DESCRIBES_THE_PRODUCT_AS_EASY_TO_COPY_WHILE_THE_ONLY_POSSIBLE_SCARCITY_IS_UNVERIFIED_SEARCH_HISTORY",
+      "verdict": "DEMOTED_STRONG_REPORTED_SUBSCRIPTION_ECONOMICS_BUT_EXACT_SITE_AND_SEARCH_POSITION_ARE_UNVERIFIED_THE_CORE_PRODUCT_AND_SEO_EXECUTION_ARE_REPRODUCIBLE_AND_DISCOVERY_REMAINS_SEARCH_PLATFORM_CONTROLLED"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "NEXTTERMINAL_OPEN_SOURCE_TO_ENTERPRISE_LICENSE_AS_SEPARATE_SCAN103_FORMATION",
+      "excluded_reason": "EXCLUDED_TO_PRESERVE_FORMATION_DIVERSITY_BECAUSE_IT_REPEATS_THE_OPEN_SOURCE_REPUTATION_TO_PAID_SOFTWARE_CONTROL_SHAPE_ALREADY_TESTED_BY_SCAN103_F1; RETAINED ONLY AS AUXILIARY MECHANISM ANALOGUE"
+    },
+    {
+      "observation": "CHROME_WEB_STORE_FEATURED_EXTENSION_WITH_APPROXIMATELY_120_REVENUE",
+      "excluded_reason": "EXCLUDED_BECAUSE_THE_COMMENTER_DID_NOT_IDENTIFY_THE_EXTENSION_SO_INDEPENDENT_OBJECTIVE_CORROBORATION_AND_EXACT_CONTROL_SURFACE_PREFLIGHT_CANNOT_BE_COMPLETED"
+    },
+    {
+      "observation": "WECHAT_VIDEO_ACCOUNT_AI_CONTENT_REVENUE",
+      "excluded_reason": "EXCLUDED_AS_STRICTLY_WEAKER_THAN_SCAN103_F2_CREATOR_AUDIENCE_CASE_AND_CURRENT_REPORTED_TOTAL_REVENUE_WAS_ONLY_22_35_AFTER_59_VIDEOS"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_paid_stack": false,
+    "operator_acquirable_control_required": true,
+    "operator_specific_noncommodity_control_required": true,
+    "external_economic_motion_required": true,
+    "direct_participant_authored_current_friction_required": true,
+    "independent_objective_corroboration_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_OPEN_SOURCE_TO_HOSTED_AI_CREATOR_MEDIA_EXCLUSIVE_CONTRACT_AND_SEO_DRIVEN_GLOBAL_SUBSCRIPTION_SITE",
+    "observed_indexing_bias": "THE_FIRST_NONCOMMODITY_PASS_FINDS_REAL_ASYMMETRY_MOST_OFTEN_AFTER_AN_OPERATOR_HAS_ALREADY_ACCUMULATED_HISTORY_IDENTITY_AUDIENCE_OR_SEARCH_POSITION_SO_NONCOMMODITY_DOES_NOT_BY_ITSELF_PROVE_FRESH_ENTRANT_ACQUIRABILITY",
+    "response": "DO_NOT_CHANGE_DISCOVERY_ONTOLOGY_AFTER_ONE_PASS_REPEAT_THE_SAME_OPERATOR_ACQUIRABLE_NONCOMMODITY_PLUS_MONEY_FLOOR_ON_A_SECOND_FRESH_FORMATION_DIVERSE_SAMPLE_WHILE_MAKING_ENTRY_ACQUIRABILITY_EXPLICIT",
+    "participant_behavior_over_analyst_story": "PASS_ALL_THREE_START_FROM_CURRENT_OR_RECENT_CHINA_OPERATOR_RECORDED_MONEY_AND_BEHAVIOR; UNVERIFIED_OR_PLATFORM_CONTROLLED CLAIMS_ARE_MARKED_UNKNOWN_OR_FAIL"
+  },
+  "scan_learnings": [
+    "SCAN103_FIRST_OPERATOR_ACQUIRABLE_NONCOMMODITY_CONTROL_PLUS_EXTERNAL_ECONOMIC_MOTION_PASS_ZERO_RETENTION_ACROSS_OPEN_SOURCE_TO_HOSTED_AI_CREATOR_EXCLUSIVE_MEDIA_AND_SEO_SUBSCRIPTION_SITE",
+    "REAL_NONCOMMODITY_CONTROL_EXISTS_IN_CURRENT_SMALL_OPERATOR_REALITY_BUT_CAN BE INCUMBENT_OWNED_HISTORY_RATHER_THAN_A FRESH_ENTRANT POSITION",
+    "OPEN_SOURCE_REPUTATION_AND_ORGANIC_INBOUND_CAN_COMPOUND_INTO_REAL_SUBSCRIPTION_REVENUE_WHILE THE SAME REPUTATION GRAPH REMAINS NONTRANSFERABLE TO A NEW OPERATOR",
+    "CREATOR_AUDIENCE_AND_EXCLUSIVE_PLATFORM_CONTRACTS ARE STRONG NONCOMMODITY ASSETS BUT FAIL FOUNDER INDEPENDENCE MACHINE DELEGATABILITY AND STANDARDIZED ENTRY",
+    "SEO_HISTORY_CAN COMPOUND WITH REAL SUBSCRIPTIONS BUT EXACT ASSET VERIFICATION AND SEARCH PLATFORM CONTROL MATTER; UNDISCLOSED SITE IDENTITY FAILS INDEPENDENT CORROBORATION",
+    "NONCOMMODITY_MUST BE PAIRED WITH ENTRY_ACQUIRABILITY: AN ASSET CAN BE HARD TO COPY PRECISELY BECAUSE AN INCUMBENT ALREADY OWNS YEARS OF HISTORY",
+    "ONE NONCOMMODITY PASS IS NOT ENOUGH TO DERIVE A NEW SEARCH ONTOLOGY; SCAN104 SHOULD REPEAT THE SAME FLOOR WITH FRESH FORMATIONS AND EXPLICIT FRESH_OPERATOR_ENTRY_ACQUIRABILITY"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_104",
+  "next_search_boundary": "SECOND_INDEPENDENT_OPERATOR_ACQUIRABLE_NON_COMMODITY_CONTROL_PLUS_EXTERNAL_ECONOMIC_MOTION_PASS_REQUIRE_EVIDENCE_THAT_CONTROL_EFFECTIVENESS_IS_NOT_AVAILABLE_TO_AN_EQUIVALENT_COMPETENT_ENTRANT_ON_MATERIALLY_SIMILAR_TERMS_AND_HAS_AN_OPERATOR_SPECIFIC_ASYMMETRY_OR_COMPOUNDING_DISTRIBUTION_DATA_CONTRACT_SUPPLY_OR_TRUST_POSITION_AND_REQUIRE_EVIDENCE_THAT_A_FRESH_INDEPENDENT_SMALL_OPERATOR_CAN_LEGALLY_OBTAIN_BUILD_CONTRACT_OR_ASSEMBLE_THE_DECISIVE_POSITION_WITHOUT_ALREADY_OWNING_THE_INCUMBENT_HISTORY_IDENTITY_AUDIENCE_OR_RANKING_ASSET_REQUIRE_DIRECT_CURRENT_OR_RECENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_PLUS_CURRENT_EXTERNAL_PAYMENT_SPEND_OR_DIRECT_MARGIN_EVIDENCE_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_103_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_NATIVE_OPEN_SOURCE_GENERIC_AGENT_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN103_WITH_CI_JEV_THEN_START_SCAN104_SECOND_NONCOMMODITY_ENTRY_ACQUIRABILITY_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://v2ex.com/t/1237312",
+    "https://github.com/JefferyHcool/BiliNote",
+    "https://www.bilinote.net/",
+    "https://github.com/yyyzl/bilinote",
+    "https://www.v2ex.com/t/1237785",
+    "https://www.bilibili.com/blackboard/activity-aJxmmsBdjy.html",
+    "https://e.bilibili.com/observe/observe_98.html",
+    "https://www.v2ex.com/t/1233180",
+    "https://origin.v2ex.com/t/1217257",
+    "https://developers.google.com/search/docs/appearance/ranking-systems-guide",
+    "https://developers.google.com/search/help/site-position-in-search-faq",
+    "https://developers.google.com/search/docs/essentials/spam-policies"
+  ]
+}
