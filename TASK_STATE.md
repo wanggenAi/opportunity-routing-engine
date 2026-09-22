@@ -14,19 +14,19 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` still requires written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 084 completes the second independent bilateral-partial-flow pass. The next unique research goal is Scan 085: require observed participant-authored manual/off-platform completion despite an available exact control surface, plus an explicit bypass/incompleteness reason.
+Discovery: Scan 085 completes the first participant-authored control-surface-bypass pass. The next unique research goal is Scan 086: run a second independent formation-diverse bypass pass at the same evidence floor before deriving any new mechanism or signal.
 
 ## Current Phase
 
-`SCAN_084_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_085_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`958f91ae95519fa5204c6b4945334f2c00e7aa8b`
-— squash merge of PR #381, `Validate bilateral partial-flow discovery in Scan 083`.
+`a4ab03ed86706afdcccd22f0b4ea264f7e235cda`
+— squash merge of PR #382, `Advance beyond bilateral-flow-only evidence after Scan 084`.
 
-PR #381 final repository CI run `35689116606`: success.
-PR #381 final live Jev run `35689116567`: success; `typesafe-sdk==0.7.0`, model `jev-latest`, Scan 083 3/3 `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #382 final repository CI run `35689404591`: success.
+PR #382 final live Jev run `35689404496`: success; `typesafe-sdk==0.7.0`, model `jev-latest`, Scan 084 3/3 `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -34,72 +34,74 @@ PR #381 final live Jev run `35689116567`: success; `typesafe-sdk==0.7.0`, model 
 
 ## Active Branch
 
-`research/attraction-scan-084`
+`research/attraction-scan-085`
 
 ## Active PR
 
-#382 — `Advance beyond bilateral-flow-only evidence after Scan 084`.
+#383 — `Validate participant-authored control-surface bypass in Scan 085`.
 
 ## CI
 
 - PR #381 repository CI `35689116606`: success.
 - PR #381 live TypeSafe/Jev `35689116567`: success; Scan 083 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- Scan 084 PR/CI/live Jev has not run yet.
+- PR #382 final head `afe92b186c13b73fdf18ef0a7a821930daadeb6e`: repository CI `35689404591` success; live Jev `35689404496` success; Scan 084 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
+- PR #383 opened for Scan 085; final-head repository CI and live Jev pending.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_084.json`
-- `docs/research/ATTRACTION_SCAN_084_2026-09-22.md`
-- `tests/test_attraction_scan_084_second_bilateral_partial_flow_pass.py`
+- `data/research_runs/attraction_scan_085.json`
+- `docs/research/ATTRACTION_SCAN_085_2026-09-22.md`
+- `tests/test_attraction_scan_085_participant_authored_bypass.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
 Persisted state:
-- last completed scan = `ATTRACTION_SCAN_084`;
-- last resolved formation = `ATTRACTION_SCAN_084-F3`;
-- next scan = `ATTRACTION_SCAN_085`;
+- last completed scan = `ATTRACTION_SCAN_085`;
+- last resolved formation = `ATTRACTION_SCAN_085-F3`;
+- next scan = `ATTRACTION_SCAN_086`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`;
-- next boundary = participant-authored control-surface bypass/manual completion first.
+- next boundary = second independent participant-authored control-surface-bypass pass with explicit bypass-reason classification.
 
 ## Completed
 
-- Scan 083 merged in PR #381 with repository CI and live Jev green.
-- Scan 084 independently tested freight backhaul, industrial residual-material exchange and NHS cancelled-slot reallocation.
-- All three have real repeated A↔B flow; all three closed at exact current control-surface or privileged-rights preflight.
-- Two independent bilateral-partial-flow passes are now complete with zero retention.
-- The next evidence-object transition is persisted without inheriting a product mechanism.
+- PR #382 merged Scan 084 with repository CI and live Jev green; Jev returned `ADVANCE_TO_NEXT_SCAN`.
+- Scan 085 tested participant-authored bypass across restaurant direct ordering, off-platform ticket resale plus official transfer, and airline manual ticket-change completion.
+- All three show real bypass behavior plus an explicit participant-stated reason.
+- All three close without commercial promotion after incumbent/control-surface, rights, founder-independence, economics, machine-delegatability and generic-agent preflight.
+- The first bypass pass is complete; one pass is not enough to derive a new mechanism or change evidence source.
 
 ## Current Findings
 
-### Scan 084-F1 — available truck capacity -> freight/backhaul
+### Scan 085-F1 — restaurant direct ordering after marketplace discovery
 
-DAT reports more than 291 million load/truck posts annually; Uber Freight reports more than 18 million shipments annually; DAT's 2026 Convoy update explicitly targets reload visibility and costly empty miles.
-
-Closure:
-- DAT/Convoy/Uber Freight already own live load inventory, carrier network, pricing, booking, tracking and payment.
-- This is highly machine-executable but not unowned.
-
-### Scan 084-F2 — industrial residuals -> secondary-material buyers
-
-Cyrkl currently exposes live offers/demands, quantities and prices and states a network trusted by 20,000+ companies.
+Participants explicitly bypass third-party marketplace ordering because commissions and discounts can compress restaurant margin.
 
 Closure:
-- marketplace matching already exists;
-- expert material assessment, logistics and compliance are also sold by the incumbent;
-- the residual does not isolate a founder-independent unowned machine operator.
+- DoorDash itself already separates Marketplace discovery from commission-free Online Ordering on restaurant-owned channels;
+- delivery can remain on existing DoorDash or restaurant logistics rails;
+- the bypass is real channel economics, not a distinct unowned operator edge.
 
-### Scan 084-F3 — cancelled NHS slots -> waiting patients
+### Scan 085-F2 — off-platform ticket sale plus official transfer
 
-NHS England reported 16 million missed GP appointments in 2025 and explicitly frames cancellation/rearrangement as a way to release capacity to someone else. Current provider guidance offers earlier slots to waiting patients when cancellations occur.
+Participants directly negotiate/pay through DM, PayPal, Venmo or escrow and then use official digital ticket transfer; one seller explicitly cites Ticketmaster fees.
 
 Closure:
-- NHS/provider systems own clinical eligibility, priority and slot allocation;
-- the independent operator lacks the decisive data/action rights;
-- no distinct recurring external operator payment is evidenced.
+- primary ticketing still owns ticket validity, transfer eligibility and barcode rights;
+- mature resale/payment rails already own trust, fraud, chargeback and settlement functions;
+- fee avoidance does not prove a new control layer.
+
+### Scan 085-F3 — airline self-service change to phone-agent completion
+
+A current traveler documented website/App change failure and then completed the same itinerary change through a Delta phone agent.
+
+Closure:
+- this is strong functional bypass evidence;
+- final ticket reconstruction/reissue still requires airline or authorized ticketing rights;
+- the residual is a privileged incumbent exception path, not an open independent action rail.
 
 ## Blockers
 
@@ -109,15 +111,15 @@ Validation:
 
 Engineering:
 - no Jev integration blocker;
-- Scan 084 still requires PR repository CI and live Jev validation.
+- Scan 085 requires PR repository CI and live Jev validation.
 
 Discovery:
-- visible bilateral connection pressure has now twice selected domains where matching/scheduling control surfaces are already economically obvious and already owned;
-- Scan 085 must require observed manual/off-platform completion despite the exact control surface and an explicit participant-authored bypass reason.
+- one participant-authored bypass pass is complete with zero retention;
+- Scan 086 must repeat the same evidence object independently before any stronger signal or mechanism boundary is derived.
 
 ## Next Action
 
-Validate PR #382's final head with repository CI plus live TypeSafe/Jev; consume the continuation directive.
+Open the Scan 085 PR, validate its final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, and continue automatically into Scan 086 if `autonomous_continuation_allowed=true`.
 
 ## Do Not Repeat
 
@@ -125,6 +127,8 @@ Validate PR #382's final head with repository CI plus live TypeSafe/Jev; consume
 - Do not promote generic industrial-waste/secondary-material matching; Cyrkl and peers already own marketplace plus expert/compliance services.
 - Do not promote NHS cancellation-slot matching; providers own clinical eligibility and scheduling rights.
 - Do not repeat Scan 083 food rescue, construction soil exchange or private EV charging.
+- Do not repeat Scan 085 restaurant direct-ordering, off-platform ticket resale, or Delta manual itinerary-change formations in Scan 086.
+- Do not infer a new operator merely because participants bypass an incumbent surface; classify the bypass reason and re-run rights/control preflight.
 - Do not keep using visible bilateral flow alone after two zero-retention passes.
 - Do not infer a marketplace/router/integration mechanism from these closures.
 - Do not use job/gig/RFQ/procurement feeds as discovery ontology.
