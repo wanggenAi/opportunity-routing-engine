@@ -14,25 +14,25 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 102 is complete with zero retention after the second independent `OPERATOR-ACQUIRABLE CONTROL + EXTERNAL ECONOMIC MOTION` pass. It now requires repository CI plus live TypeSafe/Jev on the exact final PR head before merge or Scan 103 continuation.
+Discovery: PR #400 exact final head passed repository CI plus live TypeSafe/Jev and was squash-merged. Scan 103 is active with an evidence priority on `OPERATOR-SPECIFIC NON-COMMODITY CONTROL + EXTERNAL ECONOMIC MOTION`, while preserving broad formation-diverse China discovery.
 
 ## Current Phase
 
-`SCAN_102_COMPLETE_AWAITING_FINAL_PR_CI_JEV`
+`SCAN_103_RESEARCH_ACTIVE`
 
 ## Last Verified Main
 
-`52f88cf8ab68cf1ad94a414fd858679b00b636ff`
-— squash merge of PR #399, `Run operator-acquirable control Scan 101`.
+`ef937ee8a1224053bfe79713cd0c340efd68fd48`
+— squash merge of PR #400, `Complete second operator-acquirable control Scan 102`.
 
-PR #399 final head `7d8456465a7a2b78f83e39c5e303ee73e3e639b4`:
-- repository CI run `35718693827`: success;
-- live TypeSafe/Jev run `35718693904`: success;
+PR #400 final head `b6dc2b9cd42c5cc665f69437ba2efc84539e4cfe`:
+- repository CI run `35723714271`: success;
+- live TypeSafe/Jev run `35723714297`: success;
 - 3/3 effective route `NO_FURTHER_RESEARCH`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That directive was consumed to start Scan 102.
+That directive is consumed to start Scan 103.
 
 ## Active Issue
 
@@ -40,20 +40,17 @@ That directive was consumed to start Scan 102.
 
 ## Active Branch
 
-`research/attraction-scan-102`
+`research/attraction-scan-103`
 
 ## Active PR
 
-#400 — `Complete second operator-acquirable control Scan 102`.
-
-This TASK_STATE binding commit intentionally advances the PR head once. Repository CI and live TypeSafe/Jev must validate the resulting exact final head before merge.
+None yet. Open a PR only after Scan 103 evidence, persisted state and regression coverage are complete.
 
 ## CI
 
-- PR #399 final-head repository CI `35718693827`: success.
-- PR #399 live TypeSafe/Jev `35718693904`: success; `ADVANCE_TO_NEXT_SCAN`.
-- PR #400 exact final-head validation: pending after this TASK_STATE binding commit.
-- Do not merge PR #400 or start Scan 103 from an earlier head.
+- PR #400 final-head repository CI `35723714271`: success.
+- PR #400 live TypeSafe/Jev `35723714297`: success; `ADVANCE_TO_NEXT_SCAN`.
+- Scan 103 branch validation: not yet requested because research is active.
 
 ## Parallel Validation
 
@@ -63,44 +60,28 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-New:
-- `data/research_runs/attraction_scan_102.json`;
-- `docs/research/ATTRACTION_SCAN_102_2026-09-22.md`;
-- `tests/test_attraction_scan_102_operator_specific_edge.py`.
-
-Updated:
-- `data/commercial_reset_state.json`;
-- `TASK_STATE.md`.
-
-Persisted state:
+Current authoritative persisted research state on `main`:
 - last completed scan = `ATTRACTION_SCAN_102`;
 - last resolved formation = `ATTRACTION_SCAN_102-F3`;
 - next scan = `ATTRACTION_SCAN_103`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
+Scan 103 files do not exist yet.
+
 ## Completed
 
-- Verified and consumed PR #399 exact final-head TypeSafe/Jev continuation.
-- Ran the second independent operator-acquirable-control + external-economic-motion pass on a fresh China sample.
-- Examined self-service car wash, community/small-site EV charging and a group-expense mini-program with organic usage plus current ad revenue.
-- Required direct/recent participant evidence, independent objective corroboration, current money motion and legally acquirable operator control.
-- Persisted Scan 102 JSON, research note, regression coverage and reset-state advancement.
-- Retained zero formations and promoted zero commercial candidates.
+- Verified PR #400 exact final-head repository CI success.
+- Verified real TypeSafe/Jev execution using `typesafe-sdk==0.7.0` and `jev-latest`.
+- Consumed the actual Jev continuation directive: 3/3 `NO_FURTHER_RESEARCH`, autonomous continuation allowed, `ADVANCE_TO_NEXT_SCAN`.
+- Confirmed PR #400 squash-merged to `main` at `ef937ee8a1224053bfe79713cd0c340efd68fd48`.
+- Created `research/attraction-scan-103` from that exact merged main.
 
 ## Current Findings
 
-### Scan 102-F1 — self-service car wash
+Scan 103 research has not yet resolved a formation. The entrance is intentionally stronger after two independent acquirability-plus-money passes: an operator-specific advantage must be evidenced as unavailable to an equivalent competent entrant on materially similar terms, while current external money motion and the existing hard floors still apply.
 
-Current participant evidence shows meaningful store-level revenue/profit and independently acquirable site/equipment/software control. The surviving value is nevertheless local site/capital/physical uptime: calls, consumables, cleaning and equipment maintenance remain material, while the digital control layer is already commodity.
-
-### Scan 102-F2 — community / small-site EV charging
-
-Charging equipment, site operation and partner rails are commercially acquirable and current users demonstrably pay public charging fees. The scarce value reduces to physical site/grid/capital position inside mature charging networks; no superior normalized small-operator orchestration margin is evidenced.
-
-### Scan 102-F3 — group-expense mini-program advertising
-
-This is the strongest digital sample: operator-owned software, organic usage, standardized monetization and real ad revenue. It still fails because reported revenue is roughly RMB 10/day/server-cost scale and the core split/settlement primitive has mature free and open-source substitutes.
+This is an evidence property, not a preselected product/mechanism ontology. Broad current-reality sensing and formation diversity remain mandatory.
 
 ## Scan 102 Result
 
@@ -129,11 +110,12 @@ Validation:
 - Scan 015-F1 still needs an actual official written provider response/agreement and founder-free inbound proof.
 
 Engineering:
-- Scan 102 requires a PR plus repository CI and live TypeSafe/Jev on its exact final head.
-- Do not merge or start Scan 103 from an earlier head.
+- no current Jev integration blocker;
+- Scan 103 has not yet produced a PR head.
 
 Discovery:
-- Scan 103 is gated on the exact final-head continuation directive.
+- do not reuse Scan 102 self-service car wash, EV charging or group-expense mini-program/ad monetization;
+- do not treat "asymmetry", "distribution", "data", "contract", "supply" or "trust" as categories to search mechanically; they are properties that must emerge from evidence.
 
 ## Do Not Repeat
 
@@ -184,4 +166,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Validate PR #400 exact final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, then start Scan 103 only if `autonomous_continuation_allowed=true`.
+Run Scan 103 on a fresh formation-diverse China sample using the operator-specific non-commodity-control + external-economic-motion evidence priority; persist only evidence-supported outcomes, then add regression coverage and update durable state before opening a PR.
