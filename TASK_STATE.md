@@ -6,6 +6,16 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse, validation independent and commercial promotion fail-closed.
 
+## Goal
+
+Reach the first real external value flow through a formation that survives bilateral participant pull, discoverability, machine-executable delivery, founder-independence, operator control, evidenced economics and incumbent/control-surface pressure.
+
+## Current Unique Commercial Research Goal
+
+Validation: `ATTRACTION_SCAN_015-F1` still requires written cross-rail outcome-data rights plus organic founder-free inbound intent.
+
+Discovery: Scan 082 is complete; the next unique research goal is `ATTRACTION_SCAN_083`, starting from repeated bilateral partial flow between replenishing A/B populations before product-category selection.
+
 ## Current Phase
 
 `SCAN_082_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
@@ -51,6 +61,13 @@ PR #379 live TypeSafe/Jev run `35687984154` completed `success`:
 #380 — `Advance to bilateral partial-flow discovery after Scan 082`.
 Head before this checkpoint: `9801121cf99792cd635437824b68a5742aad31ed`.
 
+## CI
+
+- PR #379 repository CI run `35687984295`: success.
+- PR #379 live Jev run `35687984154`: success; Scan 081, 3/3 `NO_FURTHER_RESEARCH`, `ADVANCE_TO_NEXT_SCAN`.
+- PR #380 earlier head `9801121cf99792cd635437824b68a5742aad31ed`: Jev run `35688691398` succeeded and returned Scan 082 3/3 `NO_FURTHER_RESEARCH` plus `ADVANCE_TO_NEXT_SCAN`; repository CI run `35688691232` failed only because four required TASK_STATE section headings were removed during compaction.
+- PR #380 current head must re-run repository CI and live Jev after restoring the recovery-contract headings.
+
 ## Latest Artifact / Persisted State
 
 New:
@@ -68,6 +85,14 @@ Persisted state records:
 - next scan = `ATTRACTION_SCAN_083`;
 - no active commercial promotion;
 - next discovery boundary = bilateral-partial-flow-first, no mechanism inheritance.
+
+## Completed
+
+- Scan 081 merged on main in PR #379 with repository CI and live Jev green.
+- Scan 082 research, persisted JSON, report, reset-state transition and regression coverage are complete on PR #380.
+- Scan 082 commercial promotions = 0; retained research formations = 0.
+- The evidence-object transition to bilateral-partial-flow-first for Scan 083 is persisted.
+- FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
 
