@@ -18,25 +18,25 @@ Discovery: `ATTRACTION_SCAN_115` is complete with zero retained formations. Scan
 
 ## Current Phase
 
-`SCAN_115_PR_VALIDATION_PENDING`
+`SCAN_116_RESEARCH`
 
 ## Last Verified Main
 
-`d08680ba41451c903fc429727872b6cbb4e17f49`
-— squash merge of PR #413, `Run explicit operating-cashflow Scan 114`.
+`bf6f5f2279342bd901850be22bd85950558c7054`
+— squash merge of PR #414, `Run target-ledger labor-capital Scan 115`.
 
-PR #413 final head `5884c9812716e6f0b66bc04020588c5d7b5e2fab`:
-- repository CI `35751596595`: success;
-- live TypeSafe/Jev `35751596656`: success;
-- live-shadow job `106826936686`: success;
-- advisory artifact `10704723044`;
+PR #414 final head `8f604091b9b4ca99c17f588c7352768033c45344`:
+- repository CI `35753211518`: success;
+- live TypeSafe/Jev `35753211437`: success;
+- live-shadow job `106832431473`: success;
+- advisory artifact `10707451239`;
 - 3/3 model and effective route `NO_FURTHER_RESEARCH`;
 - 3/3 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That exact-head directive was consumed to start Scan 115.
+That exact-head directive was consumed to start Scan 116.
 
 ## Active Issue
 
@@ -44,17 +44,17 @@ That exact-head directive was consumed to start Scan 115.
 
 ## Active Branch
 
-`research/attraction-scan-115`
+`research/attraction-scan-116`
 
 ## Active PR
 
-Not yet opened at this checkpoint. Open exactly one PR from the now-final branch head and do not make branch commits after PR creation so repository CI and live TypeSafe/Jev attach to the exact same SHA.
+None. Scan 116 research is in progress. Open exactly one PR only after the Scan 116 branch head is final, then do not make branch commits after PR creation so repository CI and live TypeSafe/Jev attach to the exact same SHA.
 
 ## CI
 
-No Scan 115 PR validation exists yet.
+Scan 115 exact-head validation is complete and was consumed. No Scan 116 PR validation exists yet because Scan 116 has not been persisted to a final branch head.
 
-Consume a Scan 115 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
+Consume a Scan 116 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
 
 ## Parallel Validation
 
@@ -83,7 +83,8 @@ Machine state:
 
 ## Completed
 
-- Consumed PR #413 exact-head `ADVANCE_TO_NEXT_SCAN` directive and started `research/attraction-scan-115`.
+- Consumed PR #414 exact-head `ADVANCE_TO_NEXT_SCAN` directive and started `research/attraction-scan-116`.
+- PR #414 final-head repository CI and live TypeSafe/Jev both succeeded; Jev returned 3/3 `NO_FURTHER_RESEARCH` aligned with authoritative closure.
 - Preserved the strict accounting rule that generic acquisition-table cashflow is not operating cashflow.
 - Added a stricter labor rule: historical FTE is not promoted to current FTE.
 - Added a stricter entity rule: parent consolidated OCF is not attributed to the target without target-level disclosure.
@@ -164,13 +165,13 @@ Validation:
 - Scan 015-F1 still needs a real official written provider response/agreement and founder-free inbound proof.
 
 Discovery:
-- Scan 115 research itself is complete;
+- Scan 115 research and exact-head PR validation are complete;
 - explicit positive target OCF is not the remaining unknown;
-- the remaining evidence gap is one same-target post-control packet that also closes current low FTE/replacement cost and bounded total usable capital.
+- Scan 116 is now testing whether standalone/important-subsidiary target ledgers can close the same-target current low-FTE/replacement-cost and bounded-total-capital gap.
 
 Engineering:
 - no current TypeSafe/Jev integration blocker;
-- Scan 115 still needs exact-final-head repository CI plus live TypeSafe/Jev validation.
+- Scan 116 must not be opened as a PR until its branch head is final.
 
 ## Do Not Repeat
 
@@ -220,4 +221,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open the Scan 115 PR from the now-final branch head. Do not commit after opening it. Validate that exact PR head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are acceptable.
+Execute Scan 116 on fresh formations using standalone public reporting or important-subsidiary target-level ledgers to bind post-control revenue, net profit, explicit OCF, current FTE/replacement-service burden and total usable capital to the same target. Persist the result and regression test before opening the final PR.
