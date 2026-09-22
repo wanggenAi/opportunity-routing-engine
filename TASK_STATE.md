@@ -6,21 +6,21 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 069 required actual buyer-side concurrent paid suppliers or paid active fallback for the same atomic execution unit, plus measurable provider disagreement/failure/coverage/cost variation and buyer-controlled switching.
+Scan 070 tested the strongest remaining provider-abstraction residual: two independent current buyers maintaining buyer-built or self-hosted multi-provider control despite available orchestrators, with explicit reasons for keeping that control.
 
-Six multi-provider formations were examined. None survived.
+Six formations were examined. None survived.
 
 ```text
-CONCURRENT MULTI-SUPPLIER SPEND
-→ REAL ROUTING VALUE?
-→ TWO INDEPENDENT BUYERS IN PRODUCTION?
-→ EXACT ORCHESTRATION / AGGREGATOR / OPEN-SOURCE CONTROL SURFACE?
+BUYER BUILDS / SELF-HOSTS PROVIDER ABSTRACTION
+→ EXPLICIT CONTROL / LOCK-IN / FAILURE REASON?
+→ TWO INDEPENDENT CURRENT PRODUCTION CASES?
+→ EXACT MANAGED / OPEN-SOURCE / SELF-HOST CONTROL SURFACE?
 → FAIL CLOSED
 ```
 
-The strongest passes were SMS/OTP and payments. Both prove real economic value in provider routing, but both are already mature orchestration categories. DNS has an open-source multi-provider control surface; email verification, KYC and proxy examples often stop at benchmark, pilot or hot-swap evidence rather than two independent recurring paid production cases.
+KYC produced the strongest behavioral pass: two independent teams describe production abstraction layers for vendor hot-swap, client decoupling, pricing, false-positive behavior and data portability. But current vendor-neutral KYC orchestration now supplies the same control objective. Email, payments, DNS/CDN and LLM gateways are also directly productized; SMS produced one strong current custom router but did not satisfy the strict second-current-production-build floor.
 
-The residual worth testing is narrower but behaviorally stronger: buyers that still build or self-host their own multi-provider abstraction despite available orchestrators. Scan 070 must require two independent current buyer-built/self-hosted production abstractions plus an explicit reason the existing orchestration category is bypassed.
+Scans 065–070 have now become a narrowing chain around provider abstraction/orchestration. Scan 071 therefore resets to broad formation-diverse current buyer budget reality and removes atomicity, routing, failover, multi-provider and software-shape requirements.
 
 ## Goal
 
@@ -40,15 +40,16 @@ Resolved recently:
 - `ATTRACTION_SCAN_067` — zero retention after confirmed external money motions decomposed into bundled human responsibility or already-mature atomic SaaS/control surfaces.
 - `ATTRACTION_SCAN_068` — zero retention after unit-attributed paid execution resolved into metered API utilities, existing orchestration surfaces or human semantic acceptance.
 - `ATTRACTION_SCAN_069` — zero retention after concurrent multi-supplier behavior resolved into mature orchestration/control planes or failed strict recurring-production concurrency evidence.
+- `ATTRACTION_SCAN_070` — zero retention after buyer-built/self-hosted provider abstraction resolved into current managed/open control surfaces or failed strict two-current-production evidence; triggered broad reset.
 
 Discovery queue:
-- `ATTRACTION_SCAN_070 — BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_BUYER_BUILT_OR_SELF_HOSTED_MULTI_PROVIDER_ABSTRACTION_LAYERS_MAINTAINED_IN_PRODUCTION_DESPITE_AVAILABLE_ORCHESTRATORS_WITH_EXPLICIT_REJECTION_BYPASS_OR_CONTROL_REASON_MEASURABLE_ENGINEERING_MAINTENANCE_COST_REUSABLE_ADAPTER_AND_ROUTING_SEMANTICS_EXACT_OPEN_SOURCE_SAAS_AND_NATIVE_CONTROL_SURFACE_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN069_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_071 — BROAD_FORMATION_DIVERSE_CURRENT_BUYER_BUDGET_REALITY_RESET_WITH_DIRECT_EXTERNAL_PAYMENT_CONTRACT_OR_RECURRING_PROCUREMENT_EVIDENCE_FOR_A_BOUNDED_OUTCOME_NO_REQUIRED_ATOMICITY_MULTI_SUPPLIER_ORCHESTRATION_ROUTING_FAILOVER_ABSTRACTION_OR_SOFTWARE_DELIVERY_SHAPE_EXCLUDE_SCAN065_TO_070_FORMATIONS_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_070_ACTIVE_BUYER_BUILT_SELF_HOSTED_ABSTRACTION_SEARCH`
+`SCAN_070_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
@@ -82,11 +83,16 @@ None yet for Scan 070. Live GitHub state is authoritative.
 
 ## Latest Artifact / Persisted State
 
-No Scan 070 result artifact yet. The branch is the reversible continuation checkpoint after Jev-approved Scan 069.
+New:
+- `data/research_runs/attraction_scan_070.json`
+- `docs/research/ATTRACTION_SCAN_070_2026-09-22.md`
+- `tests/test_attraction_scan_070_buyer_built_abstraction_gate.py`
 
-Inherited current persisted state from main:
-- `data/commercial_reset_state.json` points to `ATTRACTION_SCAN_070`.
-- Scan 070 requires two independent current buyers maintaining buyer-built or self-hosted multi-provider abstractions in production despite available orchestration products, with explicit reasons for bypassing them.
+Updated:
+- `data/commercial_reset_state.json`
+- `TASK_STATE.md`
+
+Persisted state now records `ATTRACTION_SCAN_070` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_071` as a broad formation-diverse reset rather than another narrower provider-routing pass.
 
 ## Completed
 
@@ -107,21 +113,21 @@ Results:
 ## Current Findings
 
 ```text
-CONCURRENT MULTI-SUPPLIER SPEND
+BUYER-BUILT ABSTRACTION
 !=
-UNOWNED ORCHESTRATION LAYER
+UNOWNED CONTROL LAYER
 ```
 
-Scan 069 examined six multi-provider patterns:
+Scan 070 examined six provider-abstraction residuals:
 
-- SMS / OTP: direct concurrent production use passes strongly; current orchestration products already provide health routing, weighted traffic and failover.
-- Dual authoritative DNS: concurrent provider usage is real, but direct paid attribution is incomplete and DNSControl already provides a mature open-source multi-provider abstraction.
-- Multi-PSP payments: named buyers route across multiple PSPs and recover revenue through fallback, but payment orchestration is already a mature enterprise and open-source category.
-- Email verification: provider disagreement on the same addresses is measurable, but public evidence is benchmark/double-check behavior rather than two independent recurring paid multi-verifier production cases; waterfall products already exist.
-- KYC / IDV: buyer-built hot-swap abstractions and provider variation are real, but strict concurrent-paid evidence is incomplete and KYC orchestration already exists.
-- Residential proxy routing: buyers pay to benchmark many suppliers on identical workloads, but recurring multi-provider production is not proven and upstream normalization/routing is already an explicit pattern.
+- KYC / IDV: two independent buyer-built production abstractions pass the behavioral floor, but vendor-neutral managed and self-host/open orchestration now matches the same vendor-optionality, data-control and routing objective.
+- SMS: one strong 2026 in-house Vonage/Telnyx production router passes; a second independent current production custom build was not proven, while reusable failover layers already exist.
+- Transactional email: current custom hybrid delivery and independent failover-library evidence passes, but one-API/BYOK multi-provider routing is directly productized.
+- Payments: strict fresh two-buyer bespoke-build evidence is incomplete, while Hyperswitch already supplies self-hosted open multi-PSP routing, retry, reconciliation and cost control.
+- DNS/CDN: operators self-host provider-independent control, but DNSControl and public failover implementations are themselves the reusable open asset.
+- LLM gateways: multi-provider routing is ordinary production architecture, but explicit buyer rejection of existing gateways was not proven and self-hosted gateway supply is dense.
 
-The next evidence source is buyer-built/self-hosted control despite category availability. That can reveal either a real control/trust/pricing/deployment gap or merely generic adapter boilerplate; Scan 070 must distinguish them.
+The more important research result is drift detection. Scans 065–070 successively raised evidence floors until the discovery shape converged on infrastructure orchestration. Scan 071 deliberately breaks that inheritance and returns to broad current buyer budget reality.
 
 ## Validation Status
 
@@ -143,10 +149,10 @@ Engineering:
 - The active repository agent must continue reversible research automatically when the continuation directive allows it.
 
 Discovery:
-- Scan 069 is complete with zero retained formations and zero commercial promotions.
-- Concurrent multi-supplier spend is strongest where routing value is measurable, but those infrastructure categories already have orchestration layers.
-- Benchmarks, pilots and historical migrations do not satisfy durable concurrent production evidence.
-- Scan 070 must require two independent buyer-built or self-hosted multi-provider abstractions in current production and an explicit reason available orchestrators are bypassed.
+- Scan 070 is complete with zero retained formations and zero commercial promotions.
+- Buyer-built/self-hosted abstraction is stronger evidence than multi-supplier usage, but current managed/open control surfaces absorb the reusable layer in the strongest cases.
+- Six consecutive scans 065–070 now show hidden mechanism drift toward provider orchestration.
+- Scan 071 must be a broad formation-diverse reset starting from direct current buyer payment/contract/procurement evidence for bounded outcomes without requiring atomicity, multi-provider architecture, routing, failover, abstraction or software delivery.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -154,9 +160,15 @@ Commercial:
 
 ## Next Action
 
-Open the Scan 069 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 070 from buyer-built/self-hosted multi-provider abstraction layers that remain in production despite available orchestration products.
+Open the Scan 070 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 071 as a broad formation-diverse current-buyer-budget reset with no inherited provider-abstraction mechanism.
 
 ## Do Not Repeat
+
+- Do not continue deriving narrower provider-router/orchestration conditions from Scans 065–070; that chain has become a hidden mechanism ontology.
+- Do not promote generic KYC vendor routing, SMS failover, transactional-email provider failover, multi-PSP abstraction, multi-DNS/CDN control or LLM gateways from Scan 070.
+- Do not treat self-hosting an existing open-source control plane as equivalent to a buyer inventing an unowned reusable asset.
+- In Scan 071, do not require atomicity, multi-provider behavior, routing, failover, abstraction or software delivery shape.
+- Start from direct current buyer budget reality across unrelated formations, then preflight exact incumbent, founder-independence, data/action rights and normalized margin.
 
 - Do not treat concurrent multi-supplier spend as white-space evidence by itself; Scan 069 falsified that shortcut.
 - Do not promote generic SMS/OTP routing, dual-DNS control, multi-PSP routing, verifier waterfalls, generic KYC orchestration or proxy routing from Scan 069.
