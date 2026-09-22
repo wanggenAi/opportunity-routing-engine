@@ -1,0 +1,153 @@
+{
+  "schema_version": "attraction-scan.v58",
+  "scan_id": "ATTRACTION_SCAN_079",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_SAME_UNRESOLVED_OUTCOME_PLUS_EXECUTED_RECURRING_PAYMENT_TO_A_DISTINCT_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_PLUS_BUYER_AUTHORED_POST_RESIDUAL_PURCHASE_EVIDENCE_THAT_THE_SAME_OUTCOME_REMAINS_UNRESOLVED_DESPITE_THAT_PAID_RESIDUAL_LAYER_FORMATION_DIVERSE_REQUIRE_EXECUTED_PAYMENT_NOT_BUDGET_OR_SOLICITATION_INTENT_EXCLUDE_STANDARD_AMS_OEM_PARTNER_SUPPORT_INTEGRATORS_CONSULTANTS_BPO_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_078_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_AND_RESIDUAL_PROVIDER_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "causal_floor": "LIVE_REPLACEMENT_OR_PLATFORM_PLUS_BUYER_AUTHORED_SAME_OUTCOME_RESIDUAL_PLUS_EXECUTED_RECURRING_PAYMENT_TO_DISTINCT_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_PLUS_BUYER_AUTHORED_EVIDENCE_AFTER_THAT_PURCHASE_THAT_THE_SAME_OUTCOME_REMAINS_UNRESOLVED",
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_079-F1",
+      "title": "WRIGHT_STATE_BRIGHTSPACE_PILOT_ACADEMIC_INTEGRITY_RESIDUAL_PLUS_PAID_TURNITIN_AI_DETECTOR",
+      "chinese_title": "Wright State Brightspace/Pilot 学术诚信残余与付费 Turnitin AI 检测层",
+      "evidence_class": "EXECUTED_PAID_RESIDUAL_LAYER_WITH_BUYER_AUTHORED_POST_PURCHASE_ACCURACY_FAILURE",
+      "evidence_summary": "Wright State restored Turnitin's AI detector for one year starting November 1, 2024 after faculty demand; the AI-detector feature cost $10,000 inside a $42,000 Turnitin contract. By February 2025 the Faculty Senate IT Committee reported CaTS tests ranging from very good to very bad detection, noted deliberate evasion, weaker performance on short/non-prose material, and stated that AI-code detectors tested were not good. This is the strongest Scan 079 paid-before/failure-after chain, but the residual is already the exact mature Turnitin/Copyleaks detection category and final academic-integrity action remains human-governed.",
+      "buyer_authored_post_live_or_platform_residual_evidence": [
+        "The buyer report identifies Brightspace/Pilot as the live learning platform context and records faculty demand for institution-supported AI-use detection.",
+        "Turnitin's AI detector had been available as a trial, disappeared when charging began in January 2024, and was restored specifically in response to faculty demand."
+      ],
+      "actual_non_incumbent_recurring_payment_evidence": [
+        "The Faculty Senate IT Committee states Wright State obtained the Turnitin AI detector for one year starting November 1, 2024 as part of the new Turnitin contract.",
+        "The buyer-authored report states the AI-detector feature cost $10,000 and brought the total Turnitin contract to $42,000."
+      ],
+      "buyer_authored_post_residual_purchase_failure_evidence": [
+        "Between November 1, 2024 and February 22, 2025, 55,264 papers were sent through Turnitin, proving live use after the paid feature returned.",
+        "The February 2025 buyer report says CaTS testing of Turnitin and Copyleaks produced detection quality ranging from really good to really bad and identifies evasion by tools such as StealthGPT as the biggest weakness.",
+        "The same report says AI detection degrades on short-form, unconventional and non-prose material; for coding/algorithms, the committee records that tested AI-detection tools were not good and could be fooled."
+      ],
+      "pre_residual_same_outcome_causal_chain": "PARTIAL_PASS_A_LIVE_LMS_ENVIRONMENT_AND_EXPLICIT_FACULTY_DEMAND_FOR_AI_USE_DETECTION_PRECEDE_THE_PAID_RESIDUAL_LAYER_BUT_THE_BUYER_DOES_NOT_CLAIM_BRIGHTSPACE_ITSELF_FAILED_TO_DELIVER_A_PROMISED_AI_DETECTION_OUTCOME",
+      "post_residual_same_outcome_causal_chain": "PASS_STRONG_THE_PAID_TURNITIN_AI_DETECTOR_WAS_ACTIVE_AND_USED_AT_SCALE_BEFORE_THE_BUYERS_OWN_TESTING_DOCUMENTED_MATERIAL_ACCURACY_EVASION_AND_CONTENT_TYPE_LIMITATIONS_ON_THE_SAME_DETECTION_OUTCOME",
+      "non_incumbent_residual_provider_preflight": "FAIL_AS_WHITE_SPACE_TURNITIN_IS_THE_EXACT_PAID_AI_AND_PLAGIARISM_DETECTION_CONTROL_SURFACE_AND_COPYLEAKS_IS_ANOTHER_MATURE_DETECTOR_IN_THE_SAME_CATEGORY",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_THE_BUYER_ALREADY_LICENSES_THE_EXACT_DETECTION_PRODUCT_AND_RECOMMENDS_CONTINUING_ITS_IMPLEMENTATION_AND_SUPPORT_RATHER_THAN_IDENTIFYING_AN_UNOWNED_CONTROL_EDGE",
+      "founder_independence_check": "PASS_FOR_MACHINE_SOFTWARE_DELIVERY_BUT_THE_REUSABLE_ASSET_AND_DISTRIBUTION_POSITION_BELONG_TO_THE_EXISTING_DETECTION_VENDOR",
+      "data_action_rights_check": "PARTIAL_DOCUMENT_SUBMISSION_AND_LMS_INTEGRATION_RIGHTS_ARE_BUYER_CONTROLLED_WHILE_ACADEMIC_MISCONDUCT_FINDINGS_REQUIRE_INSTITUTIONAL_POLICY_AND_HUMAN_DUE_PROCESS",
+      "normalized_margin_check": "PASS_ONE_YEAR_PAID_FEATURE_AND_TOTAL_SOFTWARE_CONTRACT_PROVE_RECURRING_SOFTWARE_ECONOMICS_BUT_NOT_A_SEPARATE_UNOWNED_SETTLEMENT_UNIT",
+      "machine_delegatability_check": "PARTIAL_PASS_THE_SCORING_STEP_IS_MACHINE_EXECUTABLE_BUT_THE_BUYER_EVIDENCE_SHOWS_OUTPUT_IS_NOT_RELIABLE_ENOUGH_TO_DELEGATE_FINAL_ACCEPTANCE_OR_ENFORCEMENT",
+      "generic_agent_substitutability_check": "PASS_NOT_GENERIC_AGENT_SUBSTITUTABLE_AS_AN_AUTHORITATIVE_INSTITUTIONAL_DETECTOR_BUT_THIS_DOES_NOT_CREATE_WHITE_SPACE_BECAUSE_THE_CATEGORY_AND_GOVERNANCE_LAYER_ARE_ALREADY_OWNED",
+      "verdict": "DEMOTED_STRONG_POST_PURCHASE_FAILURE_CHAIN_BUT_THE_RESIDUAL_IS_THE_EXACT_MATURE_DETECTION_CATEGORY_AND_THE_DECISIVE_JUDGMENT_REMAINS_HUMAN_GOVERNED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_079-F2",
+      "title": "WOODBURN_POLICE_INVESTIGATION_RESIDUAL_PLUS_FLOCK_SAFETY_ALPR_SUBSCRIPTION",
+      "chinese_title": "Woodburn 警务调查残余与 Flock Safety ALPR 年度订阅层",
+      "evidence_class": "EXECUTED_RECURRING_RESIDUAL_LAYER_WITH_POST_USE_NON_CONTRIBUTION_AND_PHYSICAL_COVERAGE_LIMITS",
+      "evidence_summary": "Woodburn City Council authorized a sole-source Flock Safety LPR services contract in December 2024. The buyer packet specifies a service-subscription model, $96,000 first-year cost and $84,000 recurring annual cost. A February 2026 buyer-authored impact assessment covering March-November 2025 reports Flock used in 354 of 1,910 investigations; among 115 cases with stated outcomes, 29.57% explicitly said Flock did not contribute, while adoption was constrained by gradual rollout, an incomplete camera network and incompatibility with all investigation types. The post-purchase limitation is real, but it is largely physical capture/scope plus the exact Flock end-to-end control surface, not an unowned digital operator edge.",
+      "buyer_authored_post_live_or_platform_residual_evidence": [
+        "Woodburn's contract packet states the LPR layer was purchased to alert on wanted vehicles, help officers and detectives solve crimes, deter crime and provide 24/7 coverage.",
+        "The later impact assessment identifies existing Tyler New World and other police systems around which Flock operated as a distinct investigative residual layer."
+      ],
+      "actual_non_incumbent_recurring_payment_evidence": [
+        "The December 2024 buyer packet states Flock provides cameras and software under a flat annual service-subscription model.",
+        "The packet states a first-year program cost of $96,000 and recurring yearly cost of $84,000.",
+        "December 9, 2024 council minutes record a 5-0 vote awarding the sole-source contract and authorizing the City Administrator to sign it."
+      ],
+      "buyer_authored_post_residual_purchase_failure_evidence": [
+        "The February 2026 impact assessment reports that, of 115 Flock-using investigations with stated outcomes, 29.57% explicitly said Flock did not contribute.",
+        "The report attributes limited adoption to gradual rollout, an incomplete but growing camera network, and incompatibility of Flock with all investigation types.",
+        "The same report nevertheless records concrete value including arrests and vehicle recoveries, so non-contribution cannot be converted into proof that the whole purchased outcome failed."
+      ],
+      "pre_residual_same_outcome_causal_chain": "PARTIAL_PASS_THE_BUYER_PURCHASED_FLOCK_AS_A_DISTINCT_INVESTIGATIVE_EVIDENCE_LAYER_AROUND_EXISTING_POLICE_SYSTEMS_BUT_THE_RECORD_DOES_NOT_ESTABLISH_A_SPECIFIC_FAILED_REPLACEMENT_PLATFORM_THAT_CAUSED_THE_PURCHASE",
+      "post_residual_same_outcome_causal_chain": "PARTIAL_PASS_BUYER_AUTHORED_POST_USE_DATA_PROVES_NON_CONTRIBUTION_IN_A_MATERIAL_SUBSET_BUT_THE_PURCHASED_OUTCOME_WAS_ASSISTANCE_ON_APPLICABLE_VEHICLE_RELATED_INVESTIGATIONS_NOT_UNIVERSAL_CASE_RESOLUTION",
+      "non_incumbent_residual_provider_preflight": "FAIL_AS_WHITE_SPACE_FLOCK_IS_THE_SOLE_END_TO_END_PROVIDER_OF_THE_LICENSED_CAMERA_MONITORING_PROCESSING_AND_MACHINE_VISION_CONTROL_SURFACE",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_THE_BUYER_RECORD_ITSELF_IDENTIFIES_FLOCK_AS_THE_UNIQUE_END_TO_END_CONTROL_SURFACE_FOR_THE_PURCHASED_LAYER",
+      "founder_independence_check": "PASS_FOR_VENDOR_OPERATED_DELIVERY_BUT_THE_ASSET_IS_FLOCKS_EXISTING_CAMERA_NETWORK_SOFTWARE_AND_CLOUD_SERVICE",
+      "data_action_rights_check": "FAIL_FOR_GENERIC_OPERATOR_LAW_ENFORCEMENT_SEARCH_HOTLIST_AND_INVESTIGATION_ACCESS_IS_POLICY_AND_AUTHORITY_GOVERNED",
+      "normalized_margin_check": "PASS_BUYER_RECORDS_PROVE_ANNUAL_RECURRING_CONTRACT_ECONOMICS",
+      "machine_delegatability_check": "FAIL_AS_A_NEW_DIGITAL_OPERATOR_EDGE_THE_MATERIAL_LIMITS_INCLUDE_PHYSICAL_CAMERA_COVERAGE_AND_INVESTIGATION_TYPE_COMPATIBILITY",
+      "generic_agent_substitutability_check": "PASS_NOT_GENERIC_AGENT_SUBSTITUTABLE_BECAUSE_PHYSICAL_CAPTURE_AND_GOVERNED_LAW_ENFORCEMENT_DATA_ARE_REQUIRED_BUT_THAT_STRENGTH_BELONGS_TO_FLOCKS_CONTROL_SURFACE",
+      "verdict": "DEMOTED_POST_PURCHASE_NON_CONTRIBUTION_IS_REAL_BUT_THE_RESIDUAL_COLLAPSES_TO_PHYSICAL_COVERAGE_SCOPE_AND_THE_EXACT_FLOCK_CONTROL_SURFACE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_079-F3",
+      "title": "MIAMI_DADE_AGING_TRANSIT_CAD_AVL_PLUS_SWIFTLY_PERFORMANCE_ANALYTICS",
+      "chinese_title": "Miami-Dade 老化 Transit CAD/AVL 与 Swiftly 运营分析残余层",
+      "evidence_class": "EXECUTED_RECURRING_RESIDUAL_PAYMENT_NEGATIVE_CONTROL_NO_POST_PURCHASE_FAILURE",
+      "evidence_summary": "Miami-Dade tested Swiftly through SaaS before awarding a three-year contract in 2020 and later extended the contract while planning replacement of its aging Transit CAD/AVL system. Current 2026 buyer materials say Swiftly supplies real-time positioning, ETA, performance analytics and operational issue management and is maintained specifically for continuity until the replacement CAD/AVL absorbs that functionality. This proves recurring paid residual spend around an aging core platform but fails Scan 079's new floor because the buyer describes the Swiftly layer as delivering the intended supplemental function, not as leaving the same outcome unresolved.",
+      "buyer_authored_post_live_or_platform_residual_evidence": [
+        "Miami-Dade buyer materials describe Swiftly as supplementing the existing Transit CAD/AVL environment with more accurate real-time information and performance analytics.",
+        "The County continues a modernization path intended ultimately to incorporate Swiftly's current functionality into a replacement CAD/AVL system."
+      ],
+      "actual_non_incumbent_recurring_payment_evidence": [
+        "The County states Swiftly was tested under SaaS, then awarded a three-year contract in January 2020.",
+        "The County states additional time and expenditure authority were approved in July 2023 to maintain continuity while replacement planning advanced.",
+        "A 2024 departmental package identifies Contract BW-10026, Swiftly as contractor, a six-year-six-month term and a multi-million-dollar estimated cost."
+      ],
+      "buyer_authored_post_residual_purchase_failure_evidence": [
+        "No buyer-authored source inspected states that Swiftly failed to provide its purchased real-time information or performance-analytics outcome after purchase.",
+        "The 2026 County record instead states the software helps identify/manage operational issues and results in fewer passenger calls and complaints.",
+        "The requested continuity is tied to the future CAD/AVL replacement timeline, not documented failure of the paid Swiftly residual layer."
+      ],
+      "pre_residual_same_outcome_causal_chain": "PASS_THE_AGING_CORE_CAD_AVL_ENVIRONMENT_AND_NEED_FOR_REAL_TIME_PERFORMANCE_FUNCTIONS_CAUSALLY_PRECEDE_AND_SUPPORT_THE_DISTINCT_SWIFTLY_LAYER",
+      "post_residual_same_outcome_causal_chain": "FAIL_THE_CURRENT_BUYER_RECORD_DESCRIBES_SWIFTLY_AS_SUCCESSFULLY_DELIVERING_AND_MAINTAINING_THE_SUPPLEMENTAL_FUNCTION_DURING_CORE_PLATFORM_REPLACEMENT",
+      "non_incumbent_residual_provider_preflight": "FAIL_AS_WHITE_SPACE_SWIFTLY_IS_THE_EXACT_PROPRIETARY_TRANSIT_PERFORMANCE_AND_REAL_TIME_INFORMATION_PRODUCT_THE_COUNTY_IS_PAYING_FOR",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_CURRENT_BUYER_MATERIALS_IDENTIFY_SWIFTLY_AS_SOLE_PROVIDER_OF_THE_EXISTING_SOFTWARE_WHILE_THE_FUTURE_CAD_AVL_IS_PLANNED_TO_ABSORB_THE_FUNCTION",
+      "founder_independence_check": "PASS_FOR_SOFTWARE_DELIVERY_BUT_THE_REUSABLE_ASSET_IS_THE_EXISTING_SWIFTLY_PRODUCT",
+      "data_action_rights_check": "PARTIAL_TRANSIT_TELEMETRY_CAN_BE_INTEGRATED_WITH_BUYER_PERMISSION_BUT_CORE_FLEET_AND_CAD_AVL_DATA_AND_OPERATIONAL_ACTIONS_REMAIN_AGENCY_CONTROLLED",
+      "normalized_margin_check": "PASS_MULTI_YEAR_SOFTWARE_SPEND_AND_REPEATED_EXTENSION_PROVE_RECURRING_ENTERPRISE_ECONOMICS",
+      "machine_delegatability_check": "PASS_ANALYTICS_REAL_TIME_INFORMATION_AND_DATA_SHARING_ARE_MACHINE_FIRST",
+      "generic_agent_substitutability_check": "PARTIAL_GENERIC_AGENTS_CANNOT_REPLACE_REAL_TIME_FLEET_TELEMETRY_AND_TRANSIT_DATA_INTEGRATION_BUT_THE_EXACT_PRODUCT_ALREADY_OWNS_THAT_POSITION",
+      "verdict": "DEMOTED_NEGATIVE_CONTROL_RECURRING_RESIDUAL_PAYMENT_EXISTS_BUT_BUYER_AUTHORED_POST_PURCHASE_SAME_OUTCOME_FAILURE_IS_NOT_PROVEN"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "RICHMOND_POLICE_VERITONE_REDACT_POST_PURCHASE_CAPACITY_FAILURE",
+      "excluded_reason": "EXCLUDE_NO_REPEAT_OVERLAPS_SCAN073_PUBLIC_RECORDS_FOIA_PRIMARY_SIGNAL_FAMILY_DESPITE_STRONG_PAID_BEFORE_FAILURE_AFTER_EVIDENCE"
+    },
+    {
+      "observation": "ASPEN_AUDIOEYE_POST_DEPLOYMENT_ACCESSIBILITY_RESIDUAL",
+      "excluded_reason": "EXCLUDE_NO_REPEAT_OVERLAPS_SCAN068_ACCESSIBILITY_REMEDIATION_PRIMARY_SIGNAL_FAMILY_DESPITE_STRONG_POST_DEPLOYMENT_RESIDUAL_EVIDENCE"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "convenient_search_lens_became_ontology": false,
+    "observed_indexing_bias": "PUBLIC_BUYER_BOARD_AUDIT_AND_COMMITTEE_RECORDS_OVERSELECT_INSTITUTIONAL_SOFTWARE_AND_PUBLIC_SAFETY_TECH_BECAUSE_PAYMENT_AND_POST_USE_EVIDENCE_CAN_BE_TEMPORALLY_JOINED",
+    "response": "KEEP_ONLY_FORMATION_DIVERSE_CASES_AND_EXPLICITLY_EXCLUDE_STRONG_EVIDENCE_THAT_REUSES_SCAN060_TO_078_PRIMARY_SIGNAL_FAMILIES",
+    "incumbent_presence_used_as_automatic_kill": false,
+    "participant_behavior_over_analyst_story": "PASS_BUYER_AUTHORED_PAYMENT_AND_POST_PURCHASE_OUTCOME_EVIDENCE_USED_WHERE_AVAILABLE_FAIL_CLOSED_WHERE_PRE_OR_POST_CAUSALITY_IS_INCOMPLETE"
+  },
+  "scan_learnings": [
+    "POST_RESIDUAL_PURCHASE_FAILURE_EVIDENCE_IS_DISCOVERABLE_BUT_DOES_NOT_BY_ITSELF_PROVE_AN_UNOWNED_OPERATOR_EDGE",
+    "WRIGHT_STATE_IS_THE_STRONGEST_SCAN079_POST_PURCHASE_FAILURE_SIGNAL_BECAUSE_A_PAID_TURNITIN_AI_DETECTOR_WAS_ACTIVE_BEFORE_THE_BUYERS_OWN_TESTING_RECORDED_WIDE_DETECTION_VARIANCE_EVASION_AND_POOR_CODE_DETECTION",
+    "WRIGHT_STATE_STILL_FAILS_PROMOTION_BECAUSE_THE_CONTROL_SURFACE_IS_THE_EXACT_MATURE_TURNITIN_AI_DETECTION_CATEGORY_AND_THE_DECISIVE_ACADEMIC_INTEGRITY_JUDGMENT_REMAINS_HUMAN_GOVERNED",
+    "WOODBURN_PROVES_AN_EXECUTED_RECURRING_MACHINE_FIRST_LAYER_CAN_HAVE_DOCUMENTED_NON_CONTRIBUTION_AFTER_PURCHASE_BUT_THE_RESIDUAL_COLLAPSES_TO_PHYSICAL_CAMERA_COVERAGE_INVESTIGATION_SCOPE_AND_THE_EXACT_FLOCK_END_TO_END_CONTROL_SURFACE",
+    "MIAMI_DADE_IS_A_NEGATIVE_CONTROL_SHOWING_THAT_CONTINUING_CORE_PLATFORM_MODERNIZATION_DOES_NOT_MEAN_THE_PAID_RESIDUAL_LAYER_FAILED_WHEN_THE_BUYER_EXPLICITLY_DESCRIBES_SWIFTLY_AS_SUCCESSFULLY_DELIVERING_THE_SUPPLEMENTAL_FUNCTION",
+    "STRICT_NO_REPEAT_DISCIPLINE_REMOVED_OTHER_STRONG_POST_PURCHASE_FAILURE_EXAMPLES_WHEN_THEY_REUSED_SCAN060_TO_078_PRIMARY_SIGNALS",
+    "SCAN079_ZERO_RETENTION_AFTER_TEMPORAL_CAUSALITY_EXACT_CONTROL_SURFACE_RIGHTS_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_PREFLIGHT",
+    "ONE_POST_RESIDUAL_PURCHASE_PASS_IS_NOT_ENOUGH_TO_DERIVE_A_PROVIDER_SWITCH_MULTI_PROVIDER_OR_OTHER_MECHANISM_BOUNDARY",
+    "SCAN080_SHOULD_RUN_A_SECOND_INDEPENDENT_FORMATION_DIVERSE_PASS_AT_THE_SAME_POST_RESIDUAL_PURCHASE_FAILURE_EVIDENCE_FLOOR_BEFORE_ESCALATING_THE_SIGNAL"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_080",
+  "next_search_boundary": "SECOND_INDEPENDENT_BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_SAME_UNRESOLVED_OUTCOME_PLUS_EXECUTED_RECURRING_PAYMENT_TO_A_DISTINCT_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_PLUS_BUYER_AUTHORED_POST_RESIDUAL_PURCHASE_EVIDENCE_THAT_THE_SAME_OUTCOME_REMAINS_UNRESOLVED_DESPITE_THAT_PAID_RESIDUAL_LAYER_FORMATION_DIVERSE_REQUIRE_EXECUTED_PAYMENT_NOT_BUDGET_OR_SOLICITATION_INTENT_EXCLUDE_STANDARD_AMS_OEM_PARTNER_SUPPORT_INTEGRATORS_CONSULTANTS_BPO_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_079_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_AND_RESIDUAL_PROVIDER_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN080_SECOND_INDEPENDENT_POST_RESIDUAL_PURCHASE_FAILURE_PASS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.wright.edu/sites/www.wright.edu/files/uploads/2025/Apr/meeting/FS_ITC_Report_on_AI_Detection_February_2025.pdf",
+    "https://www.woodburn-or.gov/sites/default/files/fileattachments/city_council/meeting/packets/17028/agendapacket24-12-09.pdf",
+    "https://www.woodburn-or.gov/sites/default/files/fileattachments/city_council/meeting/packets/17285/agendapacket25-01-13.pdf",
+    "https://www.woodburn-or.gov/DocumentCenter/View/3298/Flock-Impact-Assessment-FINAL-2-3-26?bidId=",
+    "https://www.miamidade.gov/govaction/matter.asp?file=true&fileAnalysis=false&matter=192843&yearFolder=Y2019",
+    "https://www.miamidade.gov/smallbusiness/library/reports/sbe/rqmt1900036-bw-10026-project-package.pdf",
+    "https://www.miamidade.gov/govaction/matter.asp?file=true&fileAnalysis=false&matter=260940&yearFolder=Y2026"
+  ]
+}
