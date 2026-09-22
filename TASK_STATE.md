@@ -18,7 +18,7 @@ Discovery: Scan 103 is complete with zero retention after the first `OPERATOR-SP
 
 ## Current Phase
 
-`SCAN_103_COMPLETE_PRE_PR`
+`SCAN_103_COMPLETE_AWAITING_FINAL_PR_CI_JEV`
 
 ## Last Verified Main
 
@@ -44,13 +44,16 @@ That directive was consumed to start Scan 103.
 
 ## Active PR
 
-None yet. Open a PR only after this completed Scan 103 checkpoint is durable.
+#401 — `Run operator-specific non-commodity control Scan 103`.
+
+This TASK_STATE binding commit intentionally advances the PR head once. Repository CI and live TypeSafe/Jev must validate the resulting exact final head before merge.
 
 ## CI
 
 - PR #400 final-head repository CI `35723714271`: success.
 - PR #400 live TypeSafe/Jev `35723714297`: success; `ADVANCE_TO_NEXT_SCAN`.
-- Scan 103 branch validation: not yet requested; create the PR, bind its exact final head, then validate that head.
+- PR #401 exact final-head validation: pending after this TASK_STATE binding commit.
+- Do not merge PR #401 or start Scan 104 from an earlier head.
 
 ## Parallel Validation
 
@@ -183,4 +186,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open the Scan 103 PR, bind `TASK_STATE.md` to its exact final head, run repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, then start Scan 104 only if `autonomous_continuation_allowed=true`.
+Validate PR #401 exact final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, then start Scan 104 only if `autonomous_continuation_allowed=true`.
