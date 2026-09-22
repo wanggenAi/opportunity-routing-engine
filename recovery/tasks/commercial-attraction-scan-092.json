@@ -1,15 +1,19 @@
 {
   "schema_version": 2,
-  "generation": 1,
+  "generation": 2,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-092",
-  "stage": "SCAN_092_RESEARCH_EVIDENCE_BOUND",
+  "stage": "SCAN_092_PR390_OPEN_AWAITING_FINAL_HEAD_CI_JEV",
   "last_observed_main_sha": "4f3465e8e0ff601afad7fcb8c5e6617ce61b50fe",
   "work_branch": "research/attraction-scan-092",
-  "work_head_sha": "4f3465e8e0ff601afad7fcb8c5e6617ce61b50fe",
-  "active_pr": null,
-  "ci": null,
+  "work_head_sha": "c760ad0d2373aedb952c0f90c8b3b99a15730bdf",
+  "active_pr": 390,
+  "ci": {
+    "head_sha": "c760ad0d2373aedb952c0f90c8b3b99a15730bdf",
+    "status": "PENDING",
+    "conclusion": null
+  },
   "production_or_artifact": {
     "status": "NOT_APPLICABLE",
     "evidence": [
@@ -20,7 +24,7 @@
       "SCAN092_BRANCH_REUSED_FROM_IDENTICAL_MAIN_HEAD"
     ]
   },
-  "pending_operation": null,
+  "pending_operation": "WAIT_FINAL_HEAD_CI_JEV",
   "health": {
     "recovery": "HEALTHY",
     "last_error": null
@@ -29,9 +33,16 @@
     "SCAN091_LIVE_GITHUB_RECONCILED",
     "SCAN091_CONTINUATION_CONSUMED",
     "SCAN092_BRANCH_REUSED_FROM_IDENTICAL_MAIN_HEAD",
-    "SCAN092_FRESH_FORMATION_RESEARCH_BOUND"
+    "SCAN092_FRESH_FORMATION_RESEARCH_BOUND",
+    "SCAN092_RESEARCH_PERSISTED",
+    "SCAN092_DOC_PERSISTED",
+    "SCAN092_TEST_CONTRACT_PERSISTED",
+    "SCAN092_RESET_STATE_UPDATED",
+    "SCAN092_TASK_STATE_UPDATED",
+    "SCAN092_PR390_OPENED",
+    "SCAN092_TASK_STATE_BOUND_TO_PR390"
   ],
-  "next_action": "Persist Scan 092 research JSON, note, regression contract, reset state and TASK_STATE on research/attraction-scan-092.",
+  "next_action": "Wait for PR #390 final-head repository CI and live Jev; consume continuation and merge only if permitted.",
   "do_not_repeat": [
     "Do not repeat Scan 089 Seats.aero, Monarch, or HealthFit/RunGap.",
     "Do not repeat Scan 090 Zapier, 1Password, or Fantastical.",
