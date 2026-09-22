@@ -1,0 +1,227 @@
+{
+  "schema_version": "attraction-scan.v88",
+  "scan_id": "ATTRACTION_SCAN_114",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA",
+    "CHINA_HONG_KONG"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "EIGHTH_INDEPENDENT_VERIFIED_NET_CASHFLOW_CONTROL_PASS_WITH_COMPLETED_CONTROL_POSITIVE_POST_TRANSFER_OPERATING_CASHFLOW_AND_LOW_HUMAN_SERVICE_PRIORITY_REQUIRE_SAME_ENTITY_SAME_CONTROLLING_POSITION_REALIZED_TRANSFER_PRICE_AND_RIGHTS_CONTINUITY_REQUIRE_PURCHASE_DATE_TO_PERIOD_END_OR_INDEPENDENT_POST_TRANSFER_POSITIVE_EXTERNAL_CUSTOMER_REVENUE_POSITIVE_NET_PROFIT_AND_EXPLICIT_POSITIVE_OPERATING_CASHFLOW_NOT_GENERIC_CASHFLOW_REQUIRE_EXPLICIT_FTE_OR_REPLACEMENT_SERVICE_COST_LOW_RECURRING_EXPERT_DELIVERY_BOUNDED_ACQUISITION_AND_WORKING_CAPITAL_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_NOT_PRIMARILY_ENTERPRISE_INTEGRATION_RD_FIELD_SERVICE_LAND_PLANT_GRID_CONCESSION_OR_OUTSOURCED_HUMAN_EXECUTION_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_113_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_114-F1",
+      "title": "CHINA_LISTED_HONG_KONG_IMPORT_EXPORT_TRADING_TARGET_COMPLETED_100_PERCENT_CONTROL_WITH_POSITIVE_REVENUE_PROFIT_AND_GENERIC_CASHFLOW_BUT_UNPROVEN_OPERATING_CASHFLOW_AND_LABOR",
+      "discovery_route": "CURRENT_2026_LISTED_COMPANY_PURCHASE_ACCOUNTING_BINDS_TRILLION_MAX_LIMITED_TO_A_COMPLETED_100_PERCENT_CONTROL_ACQUISITION_AND_PURCHASE_DATE_TO_PERIOD_END_REVENUE_PROFIT_AND_CASHFLOW_WHILE_THE_SUBSIDIARY_REGISTER_IDENTIFIES_IMPORT_EXPORT_TRADING",
+      "observed_actor_state_change_evidence": [
+        "Keda Manufacturing completed a 100% cash acquisition of Trillion Max Limited on 2026-04-01; the report identifies the purchase date by actual transfer of control.",
+        "The purchase-accounting table reports RMB37.9226 million purchase-date-to-period-end revenue, RMB8.0812 million net profit and RMB6.1568 million cash flow.",
+        "The same half-year report identifies Trillion Max Limited as a Hong Kong import-export trading subsidiary held and voted 100% after the acquisition."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The accounting acquisition cost is RMB0.2114 million and equals the recognized acquired net-asset amount, creating an unusually low apparent equity-control price.",
+        "That low equity price does not imply low operating capital: at purchase date the target carried approximately RMB13.4815 million cash, RMB54.7403 million receivables and RMB83.1338 million payables."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The acquirer took full corporate control rather than a minority stake, and the acquired company continued producing material external trading revenue after the control date.",
+        "The target's value flow is import-export trade rather than a passive holding vehicle, so purchase-date receivables, payables, customer/supplier relationships and trade execution remain economically material."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The acquisition table labels the final metric only as cash flow, not operating cash flow; Scan 114 therefore does not promote RMB6.1568 million as positive operating cashflow.",
+        "The target's purchase-date balance sheet shows a working-capital footprint many times larger than the nominal equity acquisition cost, so bounded purchase price is not bounded usable capital.",
+        "Public evidence does not bind target employee count, replacement labor, customer concentration, logistics/compliance effort or autonomous machine-callable execution.",
+        "Import-export trading remains dependent on counterparties, fulfillment, settlement and operating relationships; no distinct noncommodity machine-control asset is evidenced."
+      ],
+      "economic_signal": [
+        "100% control acquired 2026-04-01; accounting acquisition cost RMB0.2114 million.",
+        "Purchase-date-to-period-end revenue RMB37.9226 million and net profit RMB8.0812 million.",
+        "Purchase-date-to-period-end generic cash flow RMB6.1568 million, but explicit operating cashflow is not isolated.",
+        "Purchase-date working-capital balances include approximately RMB54.7403 million receivables and RMB83.1338 million payables."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The acquired control surface is an operating import-export trading company, not a software/API control rail.",
+        "The apparent low acquisition cost is dominated by the target's existing working-capital and counterparty structure rather than evidence of a cheap machine-operated control asset.",
+        "A generic agent may assist trade administration, but the evidence does not show ownership of a unique callable execution/settlement surface."
+      ],
+      "executed_control_transfer_check": "PASS_100_PERCENT_CONTROL_WAS_ACQUIRED_ON_2026_04_01_AND_THE_REPORT_IDENTIFIES_ACTUAL_CONTROL_TRANSFER_AS_THE_PURCHASE_DATE_BASIS",
+      "post_transfer_external_economic_continuity_check": "PARTIAL_PASS_PURCHASE_DATE_TO_PERIOD_END_REVENUE_NET_PROFIT_AND_GENERIC_CASHFLOW_ARE_POSITIVE_BUT_OPERATING_CASHFLOW_IS_NOT_EXPLICITLY_ISOLATED",
+      "fresh_small_operator_entry_check": "FAIL_TO_CLOSE_NOMINAL_ACQUISITION_COST_IS_SMALL_BUT_PURCHASE_DATE_RECEIVABLES_PAYABLES_AND_TRADE_WORKING_CAPITAL_ARE_LARGE_AND_TOTAL_USABLE_CAPITAL_IS_NOT_BOUND",
+      "same_operator_economic_binding_check": "PASS_CONTROL_DATE_ACQUISITION_COST_POST_PURCHASE_REVENUE_NET_PROFIT_AND_GENERIC_CASHFLOW_BIND_TO_TRILLION_MAX_LIMITED",
+      "direct_operating_cost_check": "FAIL_TO_CLOSE_NET_PROFIT_IS_POSITIVE_BUT_TARGET_SPECIFIC_LOGISTICS_TRADE_COMPLIANCE_COUNTERPARTY_AND_REPLACEMENT_SERVICE_COSTS_ARE_NOT_ISOLATED",
+      "owner_labor_check": "UNKNOWN_TARGET_FTE_OWNER_LABOR_AND_REPLACEMENT_LABOR_COST_ARE_NOT_CLOSED_IN_THE_PUBLIC_PACKET",
+      "founder_independence_check": "FAIL_TO_CLOSE_CONTROL_IS_CORPORATE_BUT_CONTINUITY_OF_CUSTOMER_SUPPLIER_LOGISTICS_AND_TRADE_EXECUTION_RELATIONSHIPS_IS_NOT_SHOWN_TO_BE_MACHINE_AUTONOMOUS",
+      "data_action_rights_check": "PARTIAL_PASS_CORPORATE_CONTROL_TRANSFERS_COMPANY_RIGHTS_BUT_NO_PUBLIC_EVIDENCE_ESTABLISHES_A_STABLE_MACHINE_CALLABLE_EXTERNAL_ORDER_FULFILLMENT_OR_SETTLEMENT_RAIL",
+      "normalized_margin_check": "FAIL_TO_CLOSE_POSITIVE_ACCOUNTING_PROFIT_AND_GENERIC_CASHFLOW_DO_NOT_ESTABLISH_POSITIVE_OPERATING_CASHFLOW_AFTER_REPLACEMENT_LABOR_AND_WORKING_CAPITAL",
+      "machine_delegatability_check": "FAIL_TO_CLOSE_IMPORT_EXPORT_TRADING_REQUIRES_COUNTERPARTY_FULFILLMENT_LOGISTICS_COMPLIANCE_AND_WORKING_CAPITAL_EXECUTION_WITH_NO_LOW_HUMAN_DELIVERY_PACKET",
+      "generic_agent_substitutability_check": "FAIL_TO_ESTABLISH_DISTINCT_NONCOMMODITY_MACHINE_CONTROL_THE_PUBLIC_PACKET_SHOWS_A_TRADING_ENTITY_NOT_A_UNIQUE_ROUTING_ASSET",
+      "verdict": "DEMOTED_POSITIVE_REVENUE_PROFIT_AND_GENERIC_CASHFLOW_DO_NOT_CLOSE_OPERATING_CASHFLOW_TOTAL_WORKING_CAPITAL_OR_LOW_HUMAN_MACHINE_CONTROL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_114-F2",
+      "title": "CHINA_BEIJING_MICROGRID_EPC_COMPLETED_CONTROL_WITH_EXPLICIT_POSITIVE_POST_PURCHASE_OPERATING_CASHFLOW_BUT_HIGH_CAPITAL_AND_CORE_ENGINEERING_DELIVERY",
+      "discovery_route": "CURRENT_2026_LISTED_COMPANY_ACQUISITION_AND_SUBSIDIARY_FINANCIAL_DISCLOSURE_BINDS_ZHONGTENG_MICROGRID_TO_COMPLETED_CONTROL_AND_PURCHASE_DATE_TO_PERIOD_END_REVENUE_NET_PROFIT_AND_EXPLICIT_OPERATING_CASHFLOW",
+      "observed_actor_state_change_evidence": [
+        "Shanghai Holystar completed control of Zhongteng Microgrid (Beijing) Technology Co., Ltd. on 2026-03-10 and held 60.0053% after the transaction.",
+        "The acquisition table reports combination cost RMB402.035438 million, purchase-date-to-period-end revenue RMB218.101569 million, net profit RMB8.951229 million and a separate cash-flow figure RMB49.751799 million.",
+        "The important-subsidiary table explicitly reports purchase-date-to-period-end operating cash flow RMB9.255120 million and states that the figures are from purchase date to report-period end."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Zhongteng Microgrid is a renewable microgrid/off-grid solution provider with technology R&D, product sales, project development, system design, system integration, construction and O&M capability.",
+        "The official half-year report describes its primary delivery mode as EPC turnkey projects including site survey, design, equipment procurement, civil works, installation, commissioning and handover."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The buyer moved from a prior minority position to controlling ownership and consolidated the target after the industrial-and-commercial change.",
+        "The post-purchase business continued to generate external customer revenue, accounting profit and explicit positive operating cash flow."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is the strongest Scan 114 financial packet because positive operating cash flow is explicitly named and bound to the purchase-date-to-period-end target period.",
+        "The same evidence also makes the operational contradiction explicit: the business is EPC and requires project teams, design, procurement, civil construction, installation, commissioning and ongoing O&M.",
+        "The controlling transaction is not bounded small-operator capital: the acquired 50.9323% stake consideration was RMB341.246338 million, the target's negotiated total equity value was RMB670 million, and acquisition accounting combination cost was RMB402.035438 million including the prior stake and contingent consideration.",
+        "Positive operating cash flow therefore proves business continuity, not founder-light machine delivery."
+      ],
+      "economic_signal": [
+        "Control obtained 2026-03-10 at 60.0053% ownership after acquiring 50.9323%.",
+        "Purchase-date-to-period-end revenue RMB218.1016 million and net profit RMB8.9512 million.",
+        "Explicit purchase-date-to-period-end operating cash flow RMB9.2551 million.",
+        "Transaction consideration for the acquired 50.9323% stake RMB341.2463 million; target total equity transaction value RMB670 million."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The target owns specialized microgrid engineering, control-system, international project and supply-chain capabilities beyond a generic agent.",
+        "However the revenue engine is a full EPC/turnkey service organization, not a narrow machine-callable routing or software control surface.",
+        "The official report explicitly describes human project teams and on-site construction/commissioning/O&M, so machine delegatability fails on primary-source evidence rather than inference alone."
+      ],
+      "executed_control_transfer_check": "PASS_CONTROL_COMPLETED_ON_2026_03_10_WITH_60_0053_PERCENT_OWNERSHIP_AND_CONSOLIDATION",
+      "post_transfer_external_economic_continuity_check": "PASS_PURCHASE_DATE_TO_PERIOD_END_EXTERNAL_REVENUE_NET_PROFIT_AND_EXPLICIT_OPERATING_CASHFLOW_ARE_ALL_POSITIVE_AND_BOUND_TO_THE_SAME_TARGET",
+      "fresh_small_operator_entry_check": "FAIL_CONTROL_TRANSACTION_AND_TARGET_EQUITY_VALUE_ARE_HUNDREDS_OF_MILLIONS_RMB_AND_REQUIRE_SUBSTANTIAL_CAPITAL",
+      "same_operator_economic_binding_check": "PASS_CONTROL_DATE_POST_PURCHASE_REVENUE_NET_PROFIT_AND_EXPLICIT_OPERATING_CASHFLOW_BIND_TO_ZHONGTENG_MICROGRID",
+      "direct_operating_cost_check": "PARTIAL_PASS_NET_PROFIT_AND_OPERATING_CASHFLOW_ARE_REPORTED_BUT_PROJECT_TEAM_ENGINEERING_CONSTRUCTION_INSTALLATION_COMMISSIONING_AND_OM_REPLACEMENT_COSTS_ARE_NOT_NORMALIZED_FOR_A_SMALL_OPERATOR",
+      "owner_labor_check": "FAIL_CORE_DELIVERY_EXPLICITLY_REQUIRES_PROJECT_TEAMS_DESIGN_PROCUREMENT_CIVIL_WORKS_INSTALLATION_COMMISSIONING_AND_OPERATION_MAINTENANCE",
+      "founder_independence_check": "PASS_FOR_ORIGINAL_FOUNDER_REPLACEMENT_AT_CORPORATE_CONTROL_LEVEL_BUT_FAILS_FOUNDER_LIGHT_OPERATOR_TEST_BECAUSE_A_LARGE_SPECIALIST_DELIVERY_ORGANIZATION_REMAINS_REQUIRED",
+      "data_action_rights_check": "PARTIAL_PASS_CORPORATE_CONTROL_AND_CUSTOMER_CONTRACT_EXECUTION_RIGHTS_EXIST_BUT_PROJECT_SITE_PERMISSIONS_ENGINEERING_AND_CONSTRUCTION_ACTIONS_REMAIN_CASE_SPECIFIC",
+      "normalized_margin_check": "PARTIAL_PASS_POSITIVE_REVENUE_PROFIT_AND_OPERATING_CASHFLOW_ARE_REAL_BUT_NOT_NORMALIZED_TO_A_LOW_LABOR_LOW_CAPITAL_MACHINE_OPERATOR",
+      "machine_delegatability_check": "FAIL_OFFICIAL_DISCLOSURE_IDENTIFIES_EPC_SITE_SURVEY_DESIGN_PROCUREMENT_CIVIL_CONSTRUCTION_INSTALLATION_COMMISSIONING_AND_OPERATION_MAINTENANCE_AS_CORE_DELIVERY",
+      "generic_agent_substitutability_check": "PASS_FOR_SPECIALIZED_ENGINEERING_CAPABILITY_BUT_SPECIALIZATION_IS_EMBODIED_IN_RECURRING_EXPERT_AND_PHYSICAL_PROJECT_DELIVERY",
+      "verdict": "DEMOTED_EXPLICIT_POSITIVE_POST_TRANSFER_OPERATING_CASHFLOW_IS_PROVEN_BUT_HIGH_CONTROL_CAPITAL_AND_CORE_EPC_ENGINEERING_HUMAN_DELIVERY_FAIL_HARD_FLOORS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_114-F3",
+      "title": "CHINA_SUZHOU_PROPERTY_MANAGEMENT_COMPLETED_100_PERCENT_CONTROL_WITH_TINY_POSITIVE_POST_PURCHASE_RESULTS_BUT_GENERIC_CASHFLOW_AND_SITE_LABOR",
+      "discovery_route": "CURRENT_2026_LISTED_COMPANY_PURCHASE_ACCOUNTING_BINDS_A_SMALL_PROPERTY_MANAGEMENT_TARGET_TO_COMPLETED_100_PERCENT_CONTROL_AND_POSITIVE_PURCHASE_DATE_TO_PERIOD_END_REVENUE_NET_PROFIT_AND_CASHFLOW",
+      "observed_actor_state_change_evidence": [
+        "Huali Family obtained 100% control of Suzhou Lifu Hui Property Management Co., Ltd. on 2026-05-31; the report identifies control transfer as the purchase-date basis.",
+        "The acquisition table reports purchase-date-to-period-end revenue RMB67,127.64, net profit RMB44,800.61 and cash flow RMB45,596.37.",
+        "The subsidiary register identifies the target's business nature as property management."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "This is a deliberately tiny-scale control-transfer packet, useful for testing whether low acquisition scale plus positive post-transfer results is sufficient.",
+        "The report shows a very small equity-acquisition amount and a combination-cost calculation below RMB0.1 million, so capital scale is materially different from the technology/EPC acquisitions tested in prior scans."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The buyer completed full control and the target generated positive revenue and profit after the purchase date rather than remaining an inactive shell.",
+        "The acquired activity is ongoing property management, which implies recurring service execution at managed sites rather than a one-time intellectual-property transfer."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The purchase-accounting table again labels the final metric only as cash flow, not operating cash flow, so RMB45,596.37 cannot be promoted as explicit positive OCF.",
+        "The business classification is property management, and no evidence shows that the service is delivered without recurring on-site or human operational work.",
+        "The transaction uses step/mixed acquisition accounting; the report shows different equity-acquisition and combination-cost figures, so a simple headline 'purchase price' is not sufficient for total-capital normalization.",
+        "No target-specific FTE or replacement-service-cost packet is disclosed."
+      ],
+      "economic_signal": [
+        "100% control obtained 2026-05-31.",
+        "Purchase-date-to-period-end revenue RMB67.1 thousand, net profit RMB44.8 thousand and generic cash flow RMB45.6 thousand.",
+        "The report shows equity-acquisition cost RMB52.4 thousand and combination cost RMB88.5 thousand, but the step/mixed accounting requires caution in treating either as a standalone replicable entry price."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The controlled asset is a property-management operating company rather than a distinct software/data/action rail.",
+        "Positive tiny-scale economics demonstrate that small control packets exist, but not that machine-delegatable noncommodity control exists.",
+        "A generic agent can automate administrative slices of property management, while the public evidence does not establish an autonomous service-delivery layer."
+      ],
+      "executed_control_transfer_check": "PASS_100_PERCENT_CONTROL_OBTAINED_ON_2026_05_31_WITH_CONTROL_TRANSFER_AS_PURCHASE_DATE_BASIS",
+      "post_transfer_external_economic_continuity_check": "PARTIAL_PASS_PURCHASE_DATE_TO_PERIOD_END_REVENUE_NET_PROFIT_AND_GENERIC_CASHFLOW_ARE_POSITIVE_BUT_EXPLICIT_OPERATING_CASHFLOW_IS_NOT_ISOLATED",
+      "fresh_small_operator_entry_check": "PARTIAL_PASS_ACCOUNTING_CONTROL_AMOUNTS_ARE_SMALL_BUT_STEP_OR_MIXED_ACQUISITION_ACCOUNTING_AND_REPLACEMENT_SERVICE_COST_PREVENT_A_CLEAN_REPLICABLE_ENTRY_COST",
+      "same_operator_economic_binding_check": "PASS_CONTROL_DATE_POST_PURCHASE_REVENUE_NET_PROFIT_AND_GENERIC_CASHFLOW_BIND_TO_SUZHOU_LIFU_HUI_PROPERTY_MANAGEMENT",
+      "direct_operating_cost_check": "FAIL_TO_CLOSE_POSITIVE_NET_PROFIT_DOES_NOT_ISOLATE_SITE_STAFF_VENDOR_MAINTENANCE_AND_OTHER_REPLACEMENT_SERVICE_COSTS",
+      "owner_labor_check": "FAIL_TO_CLOSE_PROPERTY_MANAGEMENT_IS_RECURRING_SERVICE_DELIVERY_AND_TARGET_FTE_OR_REPLACEMENT_LABOR_COST_IS_NOT_DISCLOSED",
+      "founder_independence_check": "PARTIAL_PASS_CORPORATE_CONTROL_CAN_TRANSFER_BUT_THE_SERVICE_OPERATION_REMAINS_DEPENDENT_ON_AN_OPERATING_ORGANIZATION",
+      "data_action_rights_check": "PARTIAL_PASS_CORPORATE_CONTROL_EXISTS_BUT_PROPERTY_ACCESS_VENDOR_AND_TENANT_OR_OWNER_SERVICE_ACTIONS_ARE_SITE_AND_CONTRACT_SPECIFIC",
+      "normalized_margin_check": "FAIL_TO_CLOSE_TINY_POSITIVE_PROFIT_AND_GENERIC_CASHFLOW_DO_NOT_ESTABLISH_EXPLICIT_OPERATING_CASHFLOW_AFTER_REPLACEMENT_SITE_SERVICE_COST",
+      "machine_delegatability_check": "FAIL_TO_CLOSE_PROPERTY_MANAGEMENT_REMAINS_A_RECURRING_PHYSICAL_SERVICE_CATEGORY_WITH_NO_EVIDENCE_OF_MACHINE_ONLY_DELIVERY",
+      "generic_agent_substitutability_check": "FAIL_TO_ESTABLISH_DISTINCT_NONCOMMODITY_MACHINE_CONTROL_THE_PUBLIC_PACKET_SHOWS_A_SMALL_PROPERTY_SERVICE_ENTITY",
+      "verdict": "DEMOTED_SMALL_CONTROL_AND_POSITIVE_RESULTS_DO_NOT_CLOSE_EXPLICIT_OPERATING_CASHFLOW_REPLACEMENT_LABOR_OR_MACHINE_DELEGATABILITY"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_2026_SMALL_ENGINEERING_PLASTIC_CONTROL_ACQUISITION_WITH_POSITIVE_CASHFLOW_BUT_NEGATIVE_POST_PURCHASE_PROFIT",
+      "excluded_reason": "EXCLUDED_BECAUSE_POST_TRANSFER_NET_PROFIT_FLOOR_FAILS_AND_PHYSICAL_MANUFACTURING_REMAINS_CORE"
+    },
+    {
+      "observation": "CURRENT_2026_ENVIRONMENTAL_CONTROL_ACQUISITION_WITH_POSITIVE_CASHFLOW_BUT_ZERO_REVENUE_AND_NEGATIVE_POST_PURCHASE_PROFIT",
+      "excluded_reason": "EXCLUDED_BEFORE_DEEP_ANALYSIS_BECAUSE_EXTERNAL_REVENUE_AND_PROFIT_CONTINUITY_FAIL"
+    },
+    {
+      "observation": "CURRENT_2026_SMALL_DIGITAL_TECH_CONTROL_ACQUISITIONS_WITH_POSITIVE_CASHFLOW_BUT_POST_PURCHASE_LOSSES",
+      "excluded_reason": "EXCLUDED_BECAUSE_POSITIVE_CASHFLOW_WITHOUT_POSITIVE_POST_PURCHASE_PROFIT_DOES_NOT_PASS_THE_BOUNDARY"
+    },
+    {
+      "observation": "CURRENT_2026_LARGE_MINING_AND_MATERIALS_CONTROL_TRANSFERS",
+      "excluded_reason": "EXCLUDED_AS_CAPITAL_INTENSIVE_PHYSICAL_ASSET_CONTROL_WHERE_THE_PRIMARY_VALUE_IS_LAND_MINERAL_PLANT_OR_PROCESS_INFRASTRUCTURE"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "completed_control_positive_post_transfer_operating_cashflow_priority_used": true,
+    "same_operator_and_control_position_binding_required": true,
+    "executed_control_change_required": true,
+    "purchase_date_to_period_end_revenue_required": true,
+    "purchase_date_to_period_end_profit_required": true,
+    "explicit_operating_cashflow_required": true,
+    "generic_cashflow_is_not_operating_cashflow": true,
+    "direct_operating_costs_required": true,
+    "owner_shadow_wage_or_replacement_cost_required": true,
+    "rights_continuity_required": true,
+    "realized_transfer_price_required": true,
+    "bounded_acquisition_and_working_capital_required": true,
+    "low_human_service_required": true,
+    "founder_light_operation_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_IMPORT_EXPORT_TRADING_RENEWABLE_MICROGRID_EPC_AND_PROPERTY_MANAGEMENT_TEST_DISTINCT_TRADE_ENGINEERING_AND_LOCAL_SERVICE_CONTROL_SHAPES",
+    "observed_indexing_bias": "PURCHASE_ACCOUNTING_TABLES_OFTEN_EXPOSE_REVENUE_PROFIT_AND_A_GENERIC_CASHFLOW_FIELD_BUT_THAT_FIELD_MUST_NOT_BE_PROMOTED_TO_OPERATING_CASHFLOW_WITHOUT_AN_EXPLICIT_OPERATING_CASHFLOW_DISCLOSURE",
+    "response": "KEEP_THE_OPERATING_CASHFLOW_LABEL_STRICT_REQUIRE_TOTAL_CAPITAL_INCLUDING_WORKING_CAPITAL_NOT_JUST_EQUITY_CONSIDERATION_AND_REQUIRE_TARGET_FTE_OR_REPLACEMENT_SERVICE_COST_BEFORE_RETENTION",
+    "participant_behavior_over_analyst_story": "PASS_ALL_THREE_FORMATIONS_USE_COMPLETED_CONTROL_TRANSACTIONS_AND_POST_PURCHASE_ACCOUNTING_F2_ALSO_HAS_EXPLICIT_TARGET_OPERATING_CASHFLOW_AND_OFFICIAL_DELIVERY_DESCRIPTION"
+  },
+  "scan_learnings": [
+    "SCAN114_COMPLETED_CONTROL_POSITIVE_OPERATING_CASHFLOW_LOW_HUMAN_SERVICE_PASS_ZERO_RETENTION_ACROSS_IMPORT_EXPORT_TRADING_MICROGRID_EPC_AND_PROPERTY_MANAGEMENT",
+    "GENERIC_PURCHASE_ACCOUNTING_CASHFLOW_MUST_NOT_BE_RELABELED_AS_OPERATING_CASHFLOW",
+    "ZHONGTENG_MICROGRID_PROVES_COMPLETED_CONTROL_POSITIVE_POST_PURCHASE_REVENUE_NET_PROFIT_AND_EXPLICIT_OPERATING_CASHFLOW_CAN_COEXIST_IN_ONE_CURRENT_CHINA_TARGET_PACKET",
+    "EXPLICIT_POSITIVE_OPERATING_CASHFLOW_STILL_DOES_NOT_IMPLY_FOUNDER_LIGHTNESS_WHEN_EPC_ENGINEERING_CONSTRUCTION_INSTALLATION_AND_OM_ARE_CORE",
+    "LOW_EQUITY_ACQUISITION_COST_DOES_NOT_IMPLY_LOW_TOTAL_CAPITAL_WHEN_RECEIVABLES_PAYABLES_AND_WORKING_CAPITAL_ARE_LARGE",
+    "TINY_POST_PURCHASE_PROFITABLE_SERVICE_ENTITY_DOES_NOT_PROVE_MACHINE_DELEGATABLE_NONCOMMODITY_CONTROL",
+    "THE_NEXT_RETRIEVAL_PRIORITY_SHOULD_BIND_EXPLICIT_POST_TRANSFER_OPERATING_CASHFLOW_TO_EXPLICIT_LOW_FTE_OR_REPLACEMENT_SERVICE_COST_AND_TOTAL_USABLE_CAPITAL_IN_THE_SAME_TARGET_PACKET"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_115",
+  "next_search_boundary": "NINTH_INDEPENDENT_VERIFIED_CONTROL_CASHFLOW_PASS_WITH_EXPLICIT_POST_TRANSFER_OPERATING_CASHFLOW_PLUS_LOW_LABOR_AND_TOTAL_CAPITAL_BINDING_PRIORITY_REQUIRE_COMPLETED_CONTROLLING_TRANSFER_SAME_ENTITY_SAME_CONTROL_POSITION_REALIZED_TRANSFER_PRICE_RIGHTS_CONTINUITY_REQUIRE_PURCHASE_DATE_TO_PERIOD_END_OR_INDEPENDENT_POST_TRANSFER_POSITIVE_EXTERNAL_REVENUE_POSITIVE_NET_PROFIT_AND_EXPLICIT_POSITIVE_OPERATING_CASHFLOW_REQUIRE_TARGET_FTE_OR_EXPLICIT_REPLACEMENT_SERVICE_COST_REQUIRE_TOTAL_USABLE_CAPITAL_INCLUDING_WORKING_CAPITAL_NOT_MERELY_EQUITY_CONSIDERATION_REQUIRE_LOW_RECURRING_EXPERT_OR_FIELD_DELIVERY_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_114_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN114_WITH_EXACT_HEAD_CI_JEV_THEN_START_SCAN115_EXPLICIT_OPERATING_CASHFLOW_LOW_FTE_TOTAL_CAPITAL_BINDING_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://static.cninfo.com.cn/finalpage/2026-08-25/1225498065.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524861.PDF",
+    "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260127/46f0535127734048bde8b9630c66f31f.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526199.PDF"
+  ]
+}
