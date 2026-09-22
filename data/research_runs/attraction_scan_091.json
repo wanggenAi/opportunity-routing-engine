@@ -1,0 +1,190 @@
+{
+  "schema_version": "attraction-scan.v67",
+  "scan_id": "ATTRACTION_SCAN_091",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "FIRST_PASS_INDEPENDENTLY_REPLICATED_PAID_COORDINATOR_RESIDUAL_FAILURE_WITH_COMPENSATING_SECOND_LAYER_COST",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_091-F1",
+      "title": "PAID_ECOMMERCE_LEDGER_PLUS_SETTLEMENT_RECONCILIATION_CONNECTOR",
+      "chinese_title": "付费电商总账后仍叠加付费结算对账连接器",
+      "evidence_class": "PAID_COORDINATOR_RESIDUAL_RECONCILIATION_COST_PARTIAL_REPLICATION",
+      "actor_a_population": "Multi-channel ecommerce operators already paying for a general ledger such as QuickBooks Online or Xero while receiving batched marketplace payouts.",
+      "actor_b_population": "Marketplace, payment and settlement systems whose gross sales, fees, refunds, taxes and payout timing must be translated into ledger-ready entries.",
+      "evidence_summary": "The residual is real: a QuickBooks Online user explicitly reports paying $110/month for A2X to import Etsy, Amazon and Shopify sales, and 2026 operators continue to describe native ledger connectors as requiring manual review or separate settlement tooling. A July 2026 Xero seller reports currently using Link My Books, whose 2026 plans are paid subscriptions. However, the strict Scan 091 replication gate is not promoted to a clean PASS because the public evidence does not bind two unaffiliated participant-authored accounts with equally explicit contemporaneous proof of both the paid ledger and executed second-layer payment. The residual is also already an exact mature connector category occupied by A2X, Link My Books, Webgility and newly rebuilt native QuickBooks connectors.",
+      "existing_components": [
+        "QuickBooks Online and Xero are paid general-ledger/control surfaces used by ecommerce operators.",
+        "A2X and Link My Books are paid settlement-reconciliation connectors that translate marketplace payouts into accounting entries.",
+        "Intuit's 2026 rebuilt ecommerce connectors support Shopify, Amazon, eBay, Etsy and other channels with payout reconciliation, retry logic and unified transaction review."
+      ],
+      "independent_replication": [
+        "A September 2025 ecommerce operator explicitly says they use QuickBooks Online plus A2X and asks whether they can save the $110/month A2X cost; 2026 follow-up comments still describe native QBO integrations as requiring babysitting and use paid alternatives such as Taxomate.",
+        "A July 2026 Amazon seller says they are currently using Link My Books with Xero and is considering A2X after a Shopify glitch; Link My Books publishes active 2026 paid subscription pricing.",
+        "A May 2026 QuickBooks Online discussion includes a participant stating that they use A2X to integrate and found it affordable, but the originating post was removed, weakening clean participant-context binding."
+      ],
+      "participant_authored_successful_completion": [
+        "The QBO+A2X operator uses A2X specifically to import Etsy, Amazon and Shopify sales into QuickBooks.",
+        "Current ecommerce accounting participants describe settlement-style connector workflows as the practical route for matching payouts rather than pushing raw order lines directly into the ledger."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "Current QBO users report that native ecommerce integrations can create manual review, mapping or reconciliation work around payouts, fees, refunds and adjustments.",
+        "A late-August 2026 UK Shopify/QBO user reports the updated integration now requires manual approval for SKU/tax-code errors and adds substantial labor."
+      ],
+      "paid_coordinator_check": "PASS_PAID_GENERAL_LEDGER_COORDINATION_IS_CURRENT_AND_ECOMMERCE_OPERATORS_USE_IT_AS_THE_ACCOUNTING_SYSTEM_OF_RECORD",
+      "residual_failure_after_payment_check": "PASS_CURRENT_PARTICIPANTS_REPORT_RECURRING_PAYOUT_MAPPING_REVIEW_AND_RECONCILIATION_WORK_AFTER_LEDGER_PAYMENT",
+      "second_layer_economic_cost_check": "PASS_CATEGORY_LEVEL_EXECUTED_SECOND_LAYER_PAYMENT_EXISTS_A2X_LINK_MY_BOOKS_AND_PEERS_ARE_PAID_CONNECTORS_WITH_DIRECT_USER_USAGE",
+      "replicated_paid_residual_second_cost_check": "PARTIAL_FAIL_PUBLIC_EVIDENCE_DOES_NOT_CLEANLY_BIND_TWO_UNAFFILIATED_CURRENT_PARTICIPANT_ACCOUNTS_TO_BOTH_EXPLICIT_LEDGER_PAYMENT_AND_EXPLICIT_EXECUTED_SECOND_LAYER_PAYMENT_AT_THE_SAME_EVIDENCE_QUALITY",
+      "no_single_current_control_surface_check": "FAIL_EXACT_MATURE_SETTLEMENT_CONNECTORS_ALREADY_OWN_THE_REPAIR_LAYER_AND_INTUIT_IS_ABSORBING_MORE_PAYOUT_RECONCILIATION_NATIVELY",
+      "decisive_completion_control": "FAIL_FOR_NEW_OPERATOR_MARKETPLACE_SETTLEMENT_SEMANTICS_AND_LEDGER_POSTING_RULES_ARE_ALREADY_ENCODED_BY_MATURE_CONNECTORS_AND_NATIVE_LEDGER_INTEGRATIONS",
+      "exact_incumbent_and_control_surface_preflight": [
+        "A2X publishes a mature QuickBooks/Xero settlement posting and reconciliation workflow and paid Shopify plans.",
+        "Link My Books publishes 2026 subscription tiers and directly occupies the same paid settlement-translation layer.",
+        "QuickBooks rebuilt its ecommerce connectors in 2026 with payout reconciliation for Shopify and Amazon, structured transaction review, retry logic and unified management."
+      ],
+      "founder_independence_check": "PASS_EXISTING_CONNECTORS_EXECUTE_WITHOUT_FOUNDER_DELIVERY_LABOR",
+      "data_action_rights_check": "FAIL_FOR_NEW_EDGE_CHANNEL_DATA_AND_LEDGER_WRITE_RIGHTS_REMAIN_WITH_MARKETPLACES_ACCOUNTING_PLATFORMS_AND_AUTHORIZED_CONNECTORS",
+      "normalized_margin_check": "FAIL_FOR_NEW_EDGE_MATURE_SUBSCRIPTION_CONNECTORS_AND_NATIVE_ABSORPTION_COMPRESS_UNOWNED_MARGIN",
+      "machine_delegatability_check": "PASS_SETTLEMENT_PARSE_MAPPING_POSTING_AND_MATCHING_ARE_HIGHLY_MACHINE_DELEGATABLE",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_PUBLIC_APIS_PLUS_LEDGER_RULES_ARE_AGENT_AUTOMATABLE_WHILE_DISTINCT_ACCESS_RIGHTS_AND_MATURE_CONNECTORS_ALREADY_EXIST",
+      "verdict": "DEMOTED_STRICT_TWO_USER_DOUBLE_PAYMENT_REPLICATION_NOT_CLEANLY_PROVEN_AND_THE_RESIDUAL_RECONCILIATION_LAYER_IS_ALREADY_OWNED_BY_MATURE_PAID_CONNECTORS_WITH_NATIVE_LEDGER_ABSORPTION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_091-F2",
+      "title": "PAID_COLD_EMAIL_ORCHESTRATION_PLUS_DELIVERABILITY_AND_VERIFICATION_STACK",
+      "chinese_title": "付费冷邮件编排后仍叠加付费送达监测与邮箱验证",
+      "evidence_class": "REPLICATED_PAID_COORDINATOR_RESIDUAL_SECOND_COST_WITH_NATIVE_ABSORPTION",
+      "actor_a_population": "Outbound teams already paying a cold-email orchestration platform to coordinate campaigns, mailboxes and replies.",
+      "actor_b_population": "Recipient mailbox providers, sending domains and lead-address datasets whose reputation, validity and spam classification determine whether outreach reaches an inbox.",
+      "evidence_summary": "A 2026 outbound operator reports paying Smartlead $189/month while also paying about $90/month for GlockApps weekly inbox-placement testing because provider dashboards do not reliably reveal real placement. An unaffiliated participant in the same discussion says their similar Smartlead stack adds roughly $50/month of NeverBounce verification after poor address accuracy drove bounce rates near 8%. This cleanly proves the Scan 091 double-cost signal. It still does not create white space: Smartlead now provides native SmartDelivery placement testing, sending-infrastructure controls and prospect tooling, while Gmail retains authoritative spam classification and explicitly does not guarantee third-party providers will pass its filters.",
+      "existing_components": [
+        "Smartlead is a paid outbound orchestration surface for multi-campaign sending, mailbox management and reply handling.",
+        "GlockApps and NeverBounce are separate paid tools used for placement testing or address verification to reduce residual deliverability failure.",
+        "Gmail and other mailbox providers retain the authoritative filtering, reputation and inbox-placement decision."
+      ],
+      "independent_replication": [
+        "A 2026 outbound operator reports Smartlead at $189/month and GlockApps at about $90/month for weekly inbox-placement seed tests because provider dashboards and real-world placement can diverge.",
+        "An unaffiliated participant says their similar Smartlead stack routes addresses through NeverBounce before Smartlead, adding about $50/month and reducing bounce rate from roughly 8% to under 2%."
+      ],
+      "participant_authored_successful_completion": [
+        "The first operator uses Smartlead for active multi-campaign sending and reply management, then GlockApps as a recurring monitoring layer.",
+        "The second operator uses Smartlead after a paid pre-send verification layer and reports a measurable bounce-rate improvement."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "The paid sender does not by itself prove actual inbox placement; the operator pays a second tool to observe placement across mailbox providers.",
+        "The paid sender also does not guarantee source-address validity; another operator buys a separate verification layer before loading leads."
+      ],
+      "paid_coordinator_check": "PASS_SMARTLEAD_PAYMENT_IS_EXPLICIT_AND_TIED_TO_ACTIVE_MULTI_MAILBOX_CAMPAIGN_ORCHESTRATION",
+      "residual_failure_after_payment_check": "PASS_REAL_INBOX_PLACEMENT_AND_ADDRESS_VALIDITY_REMAIN_RECURRING_HIGH_VALUE_FAILURE_MODES_AFTER_SENDER_PAYMENT",
+      "second_layer_economic_cost_check": "PASS_ONE_USER_PAYS_ABOUT_90_PER_MONTH_FOR_GLOCKAPPS_AND_ANOTHER_PAYS_ABOUT_50_PER_MONTH_FOR_NEVERBOUNCE",
+      "replicated_paid_residual_second_cost_check": "PASS_TWO_UNAFFILIATED_2026_PARTICIPANTS_USING_SMARTLEAD_REPORT_SEPARATE_RECURRING_PAID_LAYERS_TO_COMPLETE_THE_SAME_DELIVERABLE_OUTBOUND_EMAIL_OUTCOME",
+      "no_single_current_control_surface_check": "FAIL_SMARTLEAD_NOW_NATIVELY_OFFERS_SMARTDELIVERY_INBOX_PLACEMENT_TESTING_DELIVERY_OPTIMIZATION_AND_PROSPECT_CAPABILITIES_ABSORBING_MUCH_OF_THE_OBSERVED_RESIDUAL",
+      "decisive_completion_control": "FAIL_GMAIL_AND_OTHER_RECIPIENT_PROVIDERS_RETAIN_FINAL_SPAM_AND_INBOX_CLASSIFICATION_AND_GOOGLE_EXPLICITLY_DOES_NOT_GUARANTEE_THIRD_PARTY_PROVIDER_DELIVERY",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Smartlead's current SmartDelivery module performs inbox-placement testing across mailbox providers before campaigns.",
+        "Smartlead's current product includes delivery optimization, bounce protection, sender infrastructure and lead/prospect functions that compress the need for separate point tools.",
+        "Google's sender guidelines state Gmail can limit, block or spam-folder mail and that third-party providers are not guaranteed to pass Gmail spam filters."
+      ],
+      "founder_independence_check": "PASS_EXISTING_SOFTWARE_STACK_EXECUTES_WITHOUT_FOUNDER_MANUAL_DELIVERY",
+      "data_action_rights_check": "FAIL_FINAL_PLACEMENT_REPUTATION_AND_MAILBOX_ACCEPTANCE_ARE_CONTROLLED_BY_RECIPIENT_PROVIDERS_AND_DOMAIN_INFRASTRUCTURE_NOT_A_NEW_ROUTER",
+      "normalized_margin_check": "FAIL_FOR_NEW_EDGE_THE_SECOND_COST_IS_ALREADY_CAPTURED_BY_COMMODITIZED_POINT_TOOLS_AND_NATIVE_SENDER_ABSORPTION",
+      "machine_delegatability_check": "PASS_VERIFICATION_SEED_TESTING_DNS_CHECKS_CAMPAIGN_THROTTLING_AND_ALERTING_ARE_MACHINE_DELEGATABLE",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_AGENTS_CAN_ORCHESTRATE_EXISTING_APIS_AND_TEST_OUTPUTS_BUT_CANNOT_INHERIT_MAILBOX_PROVIDER_REPUTATION_OR_FILTERING_AUTHORITY",
+      "verdict": "DEMOTED_DOUBLE_COST_IS_PROVEN_BUT_SMARTLEAD_NATIVE_DELIVERABILITY_ABSORPTION_AND_MAILBOX_PROVIDER_AUTHORITY_LEAVE_NO_DISTINCT_UNOWNED_CONTROL_EDGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_091-F3",
+      "title": "PAID_HOME_ASSISTANT_CLOUD_PLUS_UPCOMING_SMARTTHINGS_API_TOLL",
+      "chinese_title": "付费 Home Assistant Cloud 后叠加即将到来的 SmartThings API 费用",
+      "evidence_class": "PAID_COORDINATOR_RESIDUAL_FUTURE_SECOND_COST_NOT_EXECUTED",
+      "actor_a_population": "Home Assistant users paying Nabu Casa/Home Assistant Cloud for remote access and voice-assistant coordination.",
+      "actor_b_population": "Samsung SmartThings devices and cloud APIs that expose device state/actions to third-party home-automation platforms.",
+      "evidence_summary": "Current 2026 participants explicitly pay Home Assistant Cloud/Nabu Casa, and SmartThings announced a $4.99/month personal API plan targeted for October 2026. Home Assistant users describe migrating devices or considering hardware alternatives because the integration uses that API. But as of 2026-09-22 SmartThings states free API access remains through Q3 and charging will not begin until October. The second economic cost is therefore future/anticipated, not executed, and must fail Scan 091 rather than being promoted from intent.",
+      "existing_components": [
+        "Home Assistant Cloud/Nabu Casa is a paid coordination layer for remote access and voice integration.",
+        "The Home Assistant SmartThings path depends on SmartThings API access for cloud-linked devices.",
+        "Samsung announced a $4.99/month non-commercial individual-developer API plan targeted for October 2026."
+      ],
+      "independent_replication": [
+        "A June 2026 Home Assistant participant reports receiving a current Nabu Casa payment receipt; another says they have been subscribed since 2021 and another is on yearly billing.",
+        "A September 2026 SmartThings/Home Assistant participant says they are currently paying for Home Assistant Cloud for remote access and voice assistants while discussing migration away from SmartThings because of the announced API fee."
+      ],
+      "participant_authored_successful_completion": [
+        "Current subscribers use Home Assistant Cloud to simplify remote access and Alexa/Google Home integration.",
+        "Users currently link SmartThings into Home Assistant and use the combined system for device automation."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "Samsung appliance and SmartThings-linked device access remains dependent on SmartThings API rights rather than Home Assistant Cloud alone.",
+        "Users discuss migrating Zigbee/Z-Wave devices to direct Home Assistant radios to avoid the future API toll, while Samsung appliances may still remain cloud/API bound."
+      ],
+      "paid_coordinator_check": "PASS_MULTIPLE_CURRENT_2026_PARTICIPANTS_EXPLICITLY_PAY_HOME_ASSISTANT_CLOUD_NABU_CASA",
+      "residual_failure_after_payment_check": "PASS_HOME_ASSISTANT_CLOUD_PAYMENT_DOES_NOT_GRANT_SMARTTHINGS_API_RIGHTS_FOR_SAMSUNG_CONTROL",
+      "second_layer_economic_cost_check": "FAIL_AS_OF_2026_09_22_SMARTTHINGS_OFFICIAL_NOTICE_SAYS_FREE_ACCESS_REMAINS_THROUGH_Q3_AND_THE_4_99_MONTHLY_PERSONAL_API_PLAN_STARTS_IN_OCTOBER_2026",
+      "replicated_paid_residual_second_cost_check": "FAIL_FUTURE_PRICE_ANNOUNCEMENT_AND_USER_INTENT_TO_AVOID_OR_PAY_IS_NOT_EXECUTED_SECOND_LAYER_PAYMENT",
+      "no_single_current_control_surface_check": "PARTIAL_HOME_ASSISTANT_COORDINATES_THE_HOME_BUT_SMARTTHINGS_RETAINS_CLOUD_API_RIGHTS_AND_LOCAL_RADIO_MIGRATION_CAN_REMOVE_MANY_DEVICE_DEPENDENCIES",
+      "decisive_completion_control": "FAIL_FOR_NEW_OPERATOR_SAMSUNG_CONTROLS_API_ACCESS_WHILE_USERS_CAN_BYPASS_MANY_HUB_DEPENDENCIES_WITH_DIRECT_ZIGBEE_ZWAVE_OR_MATTER_INTEGRATION",
+      "exact_incumbent_and_control_surface_preflight": [
+        "SmartThings itself is the authoritative API/control surface for Samsung-linked cloud devices.",
+        "Direct local radios and Matter paths can bypass SmartThings for many device classes, reducing a durable paid bridge.",
+        "The announced API fee is a rights toll, not evidence of an unowned orchestration function."
+      ],
+      "founder_independence_check": "PASS_CURRENT_HOME_AUTOMATION_SOFTWARE_CAN_EXECUTE_WITHOUT_FOUNDER_DELIVERY",
+      "data_action_rights_check": "FAIL_SMARTTHINGS_API_RIGHTS_REMAIN_SAMSUNG_CONTROLLED",
+      "normalized_margin_check": "FAIL_NO_NEW_OPERATOR_MARGIN_IS_EVIDENCED_BETWEEN_A_PLATFORM_RIGHTS_TOLL_AND_LOCAL_MIGRATION_ALTERNATIVES",
+      "machine_delegatability_check": "PASS_DEVICE_STATE_ROUTING_AND_AUTOMATION_ARE_MACHINE_DELEGATABLE_WHEN_RIGHTS_EXIST",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_AGENTIC_ORCHESTRATION_CANNOT_CREATE_SMARTTHINGS_API_RIGHTS_AND_LOCAL_HARDWARE_MIGRATION_IS_A_DIRECT_SUBSTITUTE",
+      "verdict": "DEMOTED_SECOND_LAYER_COST_IS_NOT_YET_EXECUTED_AS_OF_2026_09_22_AND_THE_RESIDUAL_IS_A_PLATFORM_RIGHTS_TOLL_WITH_LOCAL_MIGRATION_SUBSTITUTES"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "inherited_mechanism_as_requirement": false,
+    "discovery_started_from_paid_coordinator_residual_second_cost": true,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "formation_diversity": "PASS_ECOMMERCE_ACCOUNTING_B2B_OUTBOUND_EMAIL_AND_CONSUMER_SMART_HOME",
+    "strict_second_cost_truth_rule": "PASS_FUTURE_OR_PLANNED_COST_IS_NOT_TREATED_AS_EXECUTED_PAYMENT_AND_AMBIGUOUS_DOUBLE_PAYMENT_REPLICATION_IS_NOT_PROMOTED",
+    "first_pass_assessment": "PASS_ONE_FORMATION_CLEANLY_PROVES_REPLICATED_DOUBLE_COST_ONE_IS_PARTIAL_ON_REPLICATION_AND_ONE_FAILS_BECAUSE_THE_SECOND_COST_IS_FUTURE",
+    "signal_assessment": "RESIDUAL_SECOND_COST_IS_STRONGER_THAN_COORDINATION_PAYMENT_ALONE_BUT_CAN_STILL_BE_CAPTURED_BY_MATURE_COMPLEMENT_TOOLS_NATIVE_ABSORPTION_OR_PLATFORM_RIGHTS_TOLLS",
+    "response": "RUN_A_SECOND_INDEPENDENT_FORMATION_DIVERSE_PASS_AT_THE_SAME_RESIDUAL_SECOND_COST_FLOOR_BEFORE_DERIVING_ANY_NEW_DISCOVERY_BOUNDARY"
+  },
+  "scan_learnings": [
+    "SCAN091_FIRST_RESIDUAL_SECOND_COST_PASS_ZERO_RETENTION_ACROSS_ECOMMERCE_ACCOUNTING_OUTBOUND_EMAIL_AND_SMART_HOME",
+    "REPLICATED_SECOND_LAYER_PAYMENT_CAN_EXIST_AFTER_COORDINATOR_PAYMENT_WITHOUT_CREATING_WHITE_SPACE_WHEN_MATURE_COMPLEMENT_TOOLS_ALREADY_CAPTURE_THE_RESIDUAL",
+    "NATIVE_PLATFORM_ABSORPTION_CAN_COLLAPSE_A_SEPARATE_PAID_DELIVERABILITY_LAYER_BACK_INTO_THE_PRIMARY_COORDINATOR",
+    "PLATFORM_RIGHTS_TOLLS_ARE_NOT_UNOWNED_ORCHESTRATION_EDGES_AND_FUTURE_ANNOUNCED_FEES_ARE_NOT_EXECUTED_PAYMENT",
+    "STRICT_PARTICIPANT_BINDING_MATTERS_CATEGORY_LEVEL_PAID_TOOL_EXISTENCE_DOES_NOT_SUBSTITUTE_FOR_TWO_CLEAN_DOUBLE_PAYING_USER_ACCOUNTS",
+    "ONE_PASS_IS_INSUFFICIENT_TO_DERIVE_ANOTHER_SIGNAL_CHANGE_RUN_SCAN092_AS_A_SECOND_INDEPENDENT_PASS_AT_THE_SAME_FLOOR",
+    "DO_NOT_DERIVE_AN_ECOMMERCE_CONNECTOR_COLD_EMAIL_DELIVERABILITY_LAYER_OR_SMARTTHINGS_BRIDGE_FROM_SCAN091_CLOSURES"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_092",
+  "next_search_boundary": "SECOND_INDEPENDENT_PASS_INDEPENDENTLY_REPLICATED_PAID_COORDINATOR_RESIDUAL_FAILURE_WITH_COMPENSATING_SECOND_LAYER_COST_REQUIRE_AT_LEAST_TWO_UNAFFILIATED_PAYING_PARTICIPANT_ACCOUNTS_OF_AN_EXISTING_COORDINATION_PRODUCT_IN_THE_SAME_FORMATION_TO_SHOW_RECURRING_HIGH_VALUE_INCOMPLETENESS_AFTER_PAYMENT_AND_ACTUAL_EXECUTED_ADDITIONAL_PAYMENT_TO_A_SECOND_DISTINCT_SERVICE_PROVIDER_OR_REPEATED_EXPLICITLY_QUANTIFIED_MANUAL_WORKAROUND_COST_TO_COMPLETE_THE_SAME_OUTCOME_FUTURE_PLANNED_OR_CATEGORY_LEVEL_COST_DOES_NOT_PASS_EXCLUDE_SCAN060_TO_091_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_EXACT_INCUMBENT_NATIVE_ABSORPTION_CURRENT_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "Validate Scan 091 with repository CI and live TypeSafe/Jev; if autonomous continuation remains allowed, run Scan 092 as a second independent formation-diverse pass at the same residual-second-cost floor before changing the discovery signal.",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/ecommerce/comments/1nkciwj/is_a2x_still_necessary_or_could_i_save_that/",
+    "https://www.reddit.com/r/quickbooksonline/comments/1tcs02a/removed/",
+    "https://www.reddit.com/r/quickbooksonline/comments/1w13hsj/latest_qbo_shopify_integration_has_made_it/",
+    "https://www.reddit.com/r/smallbusinessuk/comments/1v7zb3k/what_amazon_and_xero_integrations_is_everyone/",
+    "https://quickbooks.intuit.com/learn-support/en-us/help-article/sales-channels/migrate-new-quickbooks-online-e-commerce/L1yLsHvLk_US_en_US",
+    "https://support.a2xaccounting.com/en/articles/6997538-step-by-step-guide-posting-your-a2x-summaries-to-quickbooks-online-xero-netsuite-or-sage",
+    "https://apps.shopify.com/a2x",
+    "https://help.linkmybooks.com/en/articles/11875486-link-my-books-pricing-us-usd",
+    "https://www.reddit.com/r/b2b_sales/comments/1sil6kn/best_gtmsales_tools_in_2026/",
+    "https://www.smartlead.ai/smartlead-101/smartdelivery-overview",
+    "https://helpcenter.smartlead.ai/en/articles/442-how-to-create-an-email-campaign-in-smartlead-the-new-version",
+    "https://support.google.com/mail/answer/81126?hl=en-en",
+    "https://www.reddit.com/r/homeassistant/comments/1u2fusn/nabu_casa_pricing/",
+    "https://www.reddit.com/r/SmartThings/comments/1w5pxqq/with_the_new_fees_are_there_ways_to_use_the_hub/",
+    "https://blog.smartthings.com/smartthings-updates/a-new-enhanced-smartthings-api-experience/"
+  ]
+}
