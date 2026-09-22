@@ -6,20 +6,23 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 066 tested whether the pre-category search could be made materially stronger by requiring at least two independent current buyer-side signals for the same bounded deterministic, repeatable and machine-verifiable unit.
+Scan 067 required two independent confirmed external money motions before deeper retention work.
 
-Six formation-diverse cases were examined. None survived.
+Six formation-diverse paid flows were examined. None survived.
 
 ```text
-TWO INDEPENDENT BUYER SIGNALS
-→ SAME BOUNDED DETERMINISTIC UNIT?
-→ CONFIRMED EXTERNAL RECURRING MONEY MOTION?
+TWO BUYERS PAY EXTERNAL PROVIDERS
+→ SAME UNBUNDLED ATOMIC EXECUTION UNIT?
+→ UNIT / TASK LEVEL PRICE ATTRIBUTION?
+→ OBJECTIVE MACHINE-VERIFIABLE ACCEPTANCE?
 → EXACT NATIVE / MARKET / SAAS / SERVICE CATEGORY?
-→ CALLABLE DATA + ACTION RIGHTS?
+→ DATA + ACTION RIGHTS?
 → FAIL CLOSED
 ```
 
-The decisive finding is that two buyer problem reports still mix pain, internal workarounds, stated willingness and actual money motion. Scan 067 therefore raises the floor to two independent **confirmed external money motions** for the same bounded unit. Internal scripts, employee labor, manual pain, seller asking prices and hypothetical willingness no longer count as equivalent evidence.
+The decisive finding is that confirmed money motion is still too coarse when the payment buys a bundled service. Medical billing, reception and bookkeeping mix deterministic substeps with judgment/accountability; podcast editing leaves subjective acceptance after AI cleanup; payroll and DMARC show that truly atomic machine-verifiable units often already have mature control surfaces.
+
+Scan 068 therefore raises the floor again: require two independent confirmed external payments attributable to the same **unbundled atomic execution unit** itself, with unit/task-level pricing and objective acceptance.
 
 ## Goal
 
@@ -36,22 +39,23 @@ Resolved recently:
 - `ATTRACTION_SCAN_064` — zero retention after parallel double-spend cases decomposed into native automation plus strategy/accountability/implementation/liability tails.
 - `ATTRACTION_SCAN_065` — zero retention after deterministic, repeatable, objectively verifiable paid units resolved into native features or mature app/SaaS control surfaces.
 - `ATTRACTION_SCAN_066` — zero retention after two-independent-buyer signals resolved into mature categories, missing external money motion, non-invariant units or unavailable data rights.
+- `ATTRACTION_SCAN_067` — zero retention after confirmed external money motions decomposed into bundled human responsibility or already-mature atomic SaaS/control surfaces.
 
 Discovery queue:
-- `ATTRACTION_SCAN_067 — BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_CONFIRMED_EXTERNAL_MONEY_MOTIONS_FOR_THE_SAME_BOUNDED_DETERMINISTIC_REPEATABLE_MACHINE_VERIFIABLE_EXECUTION_UNIT_WITH_RECURRING_OR_REPEATED_PAYMENT_EVIDENCE_EXACT_NATIVE_MARKETPLACE_SPECIALIST_SAAS_MANAGED_SERVICE_AND_DATA_RIGHTS_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN066_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_068 — BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_CONFIRMED_EXTERNAL_PAYMENTS_TO_THE_SAME_UNBUNDLED_ATOMIC_EXECUTION_UNIT_WITH_UNIT_OR_TASK_LEVEL_PRICE_ATTRIBUTION_DETERMINISTIC_REPEATABLE_MACHINE_VERIFIABLE_ACCEPTANCE_BOUNDED_HUMAN_EXCEPTION_ONLY_EXACT_NATIVE_MARKETPLACE_SPECIALIST_SAAS_MANAGED_SERVICE_DATA_AND_ACTION_RIGHTS_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN067_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_066_PR_OPEN_AWAITING_CI_JEV_CONTINUATION`
+`SCAN_067_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`0f206916fdf80d57adacd71986a21415ceea7f45`
-— squash merge of PR #363, `Close productized deterministic double-spend traps in Scan 065`.
+`52b479e76339db190d6c6161e48ac462497b8810`
+— squash merge of PR #364, `Raise buyer evidence to confirmed money motion in Scan 066`.
 
-PR #363 repository CI run `35619670625` completed `success`. Live Jev run `35619670633` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #364 repository CI run `35620438463` completed `success`. Live Jev run `35620438374` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -59,11 +63,11 @@ PR #363 repository CI run `35619670625` completed `success`. Live Jev run `35619
 
 ## Active Branch
 
-`research/attraction-scan-066`.
+`research/attraction-scan-067`.
 
 ## Active PR
 
-#364 — `Raise buyer evidence to confirmed money motion in Scan 066`. Live GitHub state is authoritative.
+#365 — `Raise paid evidence to atomic unit attribution in Scan 067`. Live GitHub state is authoritative.
 
 ## CI
 
@@ -79,13 +83,15 @@ PR #363 repository CI run `35619670625` completed `success`. Live Jev run `35619
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_066.json`
-- `docs/research/ATTRACTION_SCAN_066_2026-09-21.md`
-- `tests/test_attraction_scan_066_confirmed_money_motion_gate.py`
+- `data/research_runs/attraction_scan_067.json`
+- `docs/research/ATTRACTION_SCAN_067_2026-09-22.md`
+- `tests/test_attraction_scan_067_atomic_money_motion_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
+
+Persisted state now records `ATTRACTION_SCAN_067` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_068` as the next discovery pass.
 
 ## Completed
 
@@ -106,22 +112,21 @@ Results:
 ## Current Findings
 
 ```text
-TWO BUYERS REPORT THE SAME PAIN
+TWO BUYERS PAY EXTERNAL PROVIDERS
 !=
-TWO BUYERS ALREADY PAY AN EXTERNAL PARTY
-FOR THE SAME RECURRING EXECUTION UNIT
+TWO BUYERS PAY FOR THE SAME UNBUNDLED ATOMIC EXECUTION UNIT
 ```
 
-Scan 066 examined six current formation-diverse cases:
+Scan 067 examined six paid external flows:
 
-- Ecommerce marketplace payout reconciliation: multiple current buyers independently report QBO/Xero/NetSuite reconciliation pain, but Link My Books, Synder and other products already form a mature paid category.
-- AI coding-tool cost attribution: current teams need per-team/project/client attribution and build internal collectors, but two independent recurring external payments are not proven; cross-tool project telemetry is also unavailable for some closed coding tools.
-- Agency client-report assembly: independent agencies report recurring monthly assembly cost, but AgencyAnalytics, Swydo, Rollstack and other products already own the deterministic reporting layer.
-- TikTok Shop creator commission reconciliation: independent sellers report fee/commission/payout discrepancies, but two external recurring payments are not established and TikTok is expanding native receipts, exports and affiliate APIs.
-- PDF invoice/receipt to accounting entry: independent accounting users still re-key documents, but Nanonets, Rossum and native accounting OCR already make this a mature IDP/AP automation category.
-- Spreadsheet normalization/deduplication: paid work exists, but strongest buyer evidence is often one-time and the schema/ambiguity rules are not invariant across buyers.
+- Outsourced medical billing / RCM: repeated 6%-8% buyer payments are real, but the purchased unit bundles claims processing with payer-specific denial work, appeals, context and accountability; mature RCM vendors already own the control surface.
+- Live / hybrid virtual reception: recurring buyer spend is real, but call answering is bundled with empathy, intake, scheduling, lead qualification and conversion responsibility while mature human/AI providers already exist.
+- Monthly bookkeeping / reconciliation: buyers pay recurring retainers, but deterministic reconciliation is already native/productized and the retainer buys broader classification, reporting, tax and advisory judgment.
+- Podcast editing: per-episode/per-hour payment is real, but deterministic silence/filler cleanup is already AI-productized while the remaining cuts depend on pacing, taste and brand context.
+- Small-business payroll: recurring paid execution has objective acceptance, but the exact payroll/tax-filing unit is already a mature SaaS/service category.
+- DMARC monitoring: the atomic recurring monitoring unit and payments are both real, but current low-cost, MSP/API and free/basic control surfaces make it commoditized.
 
-The next evidence floor is economic, not mechanism-specific: require **two independent confirmed external money motions** for the same bounded deterministic unit.
+The next evidence floor is **payment attribution**, not merely payment existence: require two independent payments to the same unbundled atomic unit, with unit/task-level price attribution and objective machine-verifiable acceptance.
 
 ## Validation Status
 
@@ -143,10 +148,10 @@ Engineering:
 - The active repository agent must continue reversible research automatically when the continuation directive allows it.
 
 Discovery:
-- Scan 066 is complete with zero retained formations and zero commercial promotions.
-- Two independent buyer problem reports are no longer sufficient evidence.
-- Current pre-category candidates tend to fail because actual external recurring payment is missing, the same unit is not invariant across buyers, required data rights are unavailable, or a mature category already exists.
-- Scan 067 must require two independent confirmed external paid flows for the same bounded deterministic unit.
+- Scan 067 is complete with zero retained formations and zero commercial promotions.
+- Two independent confirmed external money motions are no longer sufficient when the paid contract bundles multiple tasks or human accountability.
+- Truly atomic deterministic paid units in this pass were already dense product categories.
+- Scan 068 must require two independent confirmed payments attributable to the same unbundled atomic execution unit itself.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -154,9 +159,14 @@ Commercial:
 
 ## Next Action
 
-Run PR #364 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 067 from two independent confirmed paid external execution flows for the same bounded deterministic unit.
+Open the Scan 067 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 068 from two independent confirmed external payments attributable to the same unbundled atomic execution unit with unit/task-level pricing and objective acceptance.
 
 ## Do Not Repeat
+
+- Do not equate two confirmed external provider payments with two payments for the same atomic execution unit; Scan 067 falsified that shortcut.
+- Do not promote outsourced medical billing, virtual receptionist service, bundled bookkeeping, recurring podcast editing, generic payroll processing or DMARC monitoring from Scan 067.
+- In Scan 068, monthly retainers, percentage-of-revenue contracts and broad provider subscriptions do not satisfy the atomic payer floor unless price can be attributed to the exact unit under evaluation.
+- Require unit/task-level price attribution plus objective acceptance before deeper retention work.
 
 - Do not equate two independent buyer pain/workaround reports with two confirmed external money motions; Scan 066 falsified that shortcut.
 - Do not promote ecommerce payout reconciliation, AI coding cost attribution, agency report assembly, TikTok creator-commission reconciliation, PDF-to-accounting entry or generic spreadsheet cleanup from Scan 066.
