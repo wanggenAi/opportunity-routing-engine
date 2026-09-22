@@ -6,11 +6,13 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 074 completed the **second independent buyer-side non-role repeat-spend pass**. Six new formations — public-fleet telematics/compliance automation, probation electronic monitoring, satellite water-leak detection, emergency mass notification, solid-waste route optimization and public-safety CAD — all carried current buyer procurement/renewal evidence and all failed closed.
+Scan 075 completed a **buyer-initiated paid-incumbent exit / replacement** pass after Scans 073–074 showed that ordinary procurement and renewal over-select mature categories. The stronger signal was real: buyers documented unresolved operational or capability failures and actually moved replacement budget.
 
-Across Scans 073 and 074, formal procurement/renewal is now confirmed as strong direct money-motion evidence but a biased white-space sensor: it disproportionately surfaces named, already-formed categories whose incumbent already owns the core data/control surface. Even custom automation, cloud migration and long renewal history usually collapse to incumbent platform/partner implementation, public authority, expert judgment or physical execution.
+Six unrelated operating domains were examined — higher-ed student conduct case management, parks/recreation management, crematorium/cemetery software, municipal website/CMS, wastewater SCADA and municipal 311 CRM. None survived the commercial floor.
 
-That justifies another **evidence-source escalation**, not a mechanism ontology. Scan 075 requires actual buyer-initiated paid-incumbent exit/replacement/non-renewal tied to a documented unresolved operational failure plus replacement budget; price-only, deprecation-only and routine-recompete events do not qualify.
+The recurring pattern changed again: even when the buyer rejects the incumbent, replacement spend mostly moves horizontally to another complete platform or integrator that directly owns the missing control surface. Residual value is implementation/migration, high-stakes accountable judgment, public authority or physical/site-specific execution.
+
+Scan 076 therefore raises the evidence floor to **post-replacement separate recurring paid residual spend for the same unresolved outcome after the new platform/provider is already installed**. One-time implementation, migration, training, temporary transition support, authority-only, expert-only and physical-only tails are excluded.
 
 ## Goal
 
@@ -24,26 +26,25 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Resolved recently:
-- `ATTRACTION_SCAN_071` — zero retention after broad current buyer-budget evidence.
-- `ATTRACTION_SCAN_072` — zero retention after second broad role-budget pass; changed payer evidence source.
 - `ATTRACTION_SCAN_073` — zero retention after first buyer-side non-role procurement/renewal pass.
-- `ATTRACTION_SCAN_074` — zero retention after second independent buyer-side non-role spend pass; formal procurement/renewal shown to over-select mature named categories.
+- `ATTRACTION_SCAN_074` — zero retention after second independent procurement/renewal pass; formal procurement shown to over-select mature named categories.
+- `ATTRACTION_SCAN_075` — zero retention after actual paid-incumbent exit/replacement signals; stronger buyer dissatisfaction and replacement budget still moved horizontally to mature replacement platforms/integrators.
 
 Discovery queue:
-- `ATTRACTION_SCAN_075 — BROAD_CURRENT_BUYER_SIDE_PAID_INCUMBENT_EXIT_REPLACEMENT_NON_RENEWAL_OR_RECOMPETE_WITH_EXPLICIT_UNRESOLVED_OPERATIONAL_FAILURE_AND_REPLACEMENT_BUDGET_FORMATION_DIVERSE_EXCLUDE_SIMPLE_PRICE_ONLY_DEPRECATION_ONLY_OR_POLICY_ONLY_SWITCHES_EXCLUDE_SCAN060_TO_074_FORMATIONS_AND_PRIMARY_SIGNALS_NO_PERSISTENT_WORKAROUND_AS_PRIMARY_SIGNAL_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_REPLACEMENT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_076 — BROAD_CURRENT_BUYER_SIDE_POST_REPLACEMENT_SEPARATE_RECURRING_PAID_RESIDUAL_SPEND_FOR_THE_SAME_UNRESOLVED_OUTCOME_AFTER_A_NEW_PLATFORM_OR_PROVIDER_IS_ALREADY_INSTALLED_FORMATION_DIVERSE_EXCLUDE_ROUTINE_IMPLEMENTATION_MIGRATION_TRAINING_TRANSITION_SUPPORT_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_TAILS_EXCLUDE_SCAN060_TO_075_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_074_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_075_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`ddf00318db0d90d582df5e46b80013c8758c56cc`
-— squash merge of PR #371, `Test buyer-side non-role spend in Scan 073`.
+`8aba3b2fe92f75788867514b9038d5eaf4d64e65`
+— squash merge of PR #372, `Escalate buyer evidence after Scan 074`.
 
-PR #371 repository CI run `35680299655` completed `success`. Live Jev run `35680299857` completed `success`: 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`. The earlier same-PR run `35680256438` also completed the real Jev call successfully but the workflow failed only while finalizing the GitHub artifact upload with a transient 403; the current-head run fully succeeded.
+PR #372 repository CI run `35680716107` completed `success`. Live Jev run `35680716101` completed `success`: 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`. The live job explicitly confirmed `TYPESAFE_API_KEY is available; requiring a real Jev success`.
 
 ## Active Issue
 
@@ -51,13 +52,17 @@ PR #371 repository CI run `35680299655` completed `success`. Live Jev run `35680
 
 ## Active Branch
 
-`research/attraction-scan-074`.
+`research/attraction-scan-075`.
 
 ## Active PR
 
-#372 — `Escalate buyer evidence after Scan 074`. Live GitHub state is authoritative.
+#373 — `Raise buyer evidence to post-replacement residual spend after Scan 075`. Live GitHub state is authoritative.
 
 ## CI
+
+- PR #373 checks are pending at this checkpoint.
+- PR #372 repository CI run `35680716107` completed `success`.
+- PR #372 live Jev run `35680716101` completed `success`; real TypeSafe/Jev execution returned 6/6 `NO_FURTHER_RESEARCH`, failed=0 and `ADVANCE_TO_NEXT_SCAN`.
 
 - PR #372 checks are pending at this checkpoint.
 - PR #371 repository CI run `35680299655` completed `success`.
@@ -79,15 +84,15 @@ PR #371 repository CI run `35680299655` completed `success`. Live Jev run `35680
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_074.json`
-- `docs/research/ATTRACTION_SCAN_074_2026-09-22.md`
-- `tests/test_attraction_scan_074_second_non_role_spend_gate.py`
+- `data/research_runs/attraction_scan_075.json`
+- `docs/research/ATTRACTION_SCAN_075_2026-09-22.md`
+- `tests/test_attraction_scan_075_paid_incumbent_exit_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
-Persisted state records `ATTRACTION_SCAN_074` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_075` as buyer-initiated paid-incumbent exit/replacement evidence rather than a new mechanism boundary.
+Persisted state records `ATTRACTION_SCAN_075` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_076` as a post-replacement recurring residual-spend test rather than a new mechanism boundary.
 
 ## Completed
 
@@ -107,25 +112,25 @@ Results:
 
 ## Current Findings
 
-Two independent non-role spend passes now agree:
+Scan 075 establishes:
 
 ```text
-FORMAL PROCUREMENT / RENEWAL
-→ STRONG RECURRING MONEY MOTION
-→ NAMED MATURE CATEGORY / INCUMBENT
-→ DATA + CONTROL SURFACE ALREADY OWNED
-→ RESIDUAL = IMPLEMENTATION / AUTHORITY / EXPERT JUDGMENT / PHYSICAL EXECUTION
+PAID INCUMBENT
+→ DOCUMENTED OPERATIONAL FAILURE / CAPABILITY GAP
+→ BUYER MOVES REPLACEMENT BUDGET
+→ MONEY STILL MOVES HORIZONTALLY TO ANOTHER COMPLETE PLATFORM / INTEGRATOR
+→ RESIDUAL = IMPLEMENTATION / ACCOUNTABLE JUDGMENT / AUTHORITY / PHYSICAL EXECUTION
 ```
 
-Scan 074 closes:
-- fleet telematics/compliance automation — Geotab already owns telemetry, rules, reporting and the SDK/partner extension surface;
-- probation electronic monitoring — location monitoring is mature while sanctions and supervision remain public authority;
-- satellite leak detection — ASTERRA already owns remote detection/prioritization while field confirmation and repair are physical;
-- emergency mass notification — multi-channel public warning is a mature end-to-end category and alert authorization remains with the buyer/authority;
-- solid-waste route optimization — core routing/control is mature and the visible residual is migration/implementation continuity;
-- public-safety CAD — CAD already owns the mission-critical real-time incident/unit/action position and current roadmaps keep expanding adjacent coordination.
+Scan 075 closes:
+- UNM Advocate -> Maxient — decade-long incumbent rejected for workflow/reporting gaps, but Maxient is another complete vertical case platform and high-stakes conduct judgment stays with the university;
+- Paradise Sportsman -> RecOS — workarounds/admin burden/user friction are explicit, but RecOS directly consolidates the fragmented registration/scheduling/reporting/payment loop;
+- Mansfield BACAS -> PlotBox — buyer explicitly rejected incumbent upgrade because it would not resolve current operational issues, but PlotBox already owns the complete vertical replacement;
+- Muskegon Envigor -> GovStack — accessibility and current digital-service gaps trigger replacement spend, but the new CMS directly owns content/forms/search/integration;
+- Anderson prior SCADA contractor -> Southern Flow — provider performance/support failure moves $751,841, but residual value is site-specific OT engineering, commissioning and safety-critical physical control;
+- San Ramon GovQA -> Catalis Request311 — a real replacement event exists, but public buyer failure-causality/final-budget evidence is incomplete, so fail-closed applies; independently the selected replacement already owns the standard 311 workflow.
 
-Scan 075 changes the evidence source to actual paid-incumbent exit/replacement/non-renewal caused by unresolved operational failure with replacement budget. It must exclude price-only, end-of-support-only, routine expiry/recompete and Scan 063-style persistent workaround as the primary signal.
+Scan 076 requires separate recurring paid residual spend **after replacement** for the same unresolved outcome. Routine implementation/migration/training/transition and authority/expert/physical tails do not qualify.
 
 ## Validation Status
 
@@ -144,13 +149,13 @@ Validation:
 Engineering:
 - No current Jev integration blocker.
 - Jev remains advisory and non-commercial; `automatic_research_execution_by_jev=false`.
-- PR #372 CI/live Jev must validate the Scan 074 checkpoint before merge.
+- PR #373 CI/live Jev must validate the Scan 075 checkpoint before merge.
 
 Discovery:
-- Scan 074 is complete with zero retained formations and zero commercial promotions.
-- Two independent buyer-side non-role spend passes now justify changing evidence source again.
-- Scan 075 must require buyer-initiated movement away from a paid incumbent for documented unresolved operational failure and replacement budget.
-- Price-only, deprecation-only, ordinary expiry or policy-only recompete does not satisfy the new floor.
+- Scan 075 is complete with zero retained formations and zero commercial promotions.
+- Actual paid-incumbent exit is stronger evidence than renewal, but observed replacement spend still resolves into mature replacement control surfaces.
+- Scan 076 must require a second, separate recurring paid layer after replacement for the same still-unresolved outcome.
+- One-time implementation, migration, training, transition, authority-only, expert-only and physical-only residuals are excluded.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -158,9 +163,15 @@ Commercial:
 
 ## Next Action
 
-Run PR #372 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN` after green checks, merge, verify main, and start Scan 075 from buyer-initiated paid-incumbent exit/replacement failure signals without deriving a mechanism ontology.
+Run PR #373 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN` after green checks, merge, verify main, and start Scan 076 from post-replacement separate recurring paid residual spend without deriving a mechanism ontology.
 
 ## Do Not Repeat
+
+- Do not promote generic student-conduct case management, recreation-management software, crematorium/cemetery software, municipal CMS, wastewater SCADA integration or municipal 311 CRM from Scan 075.
+- Do not equate actual incumbent exit with white space if replacement money simply moves to another complete platform or integrator.
+- Do not count routine implementation, migration, training or temporary transition support as post-replacement residual value.
+- Do not infer a San Ramon operational-failure causal chain or final contract value beyond the public buyer evidence; keep it fail-closed.
+- Do not run another generic replacement-event pass after Scan 075; move to separate recurring post-replacement residual spend.
 
 - Do not promote generic fleet telematics/custom compliance automation, probation electronic monitoring, satellite water-leak detection, emergency mass notification, solid-waste route optimization/migration or public-safety CAD from Scan 074.
 - Do not treat custom automation around a mature platform as white space when the incumbent SDK/partner ecosystem already owns the extension path.
