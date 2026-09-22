@@ -14,29 +14,29 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_119` is complete with zero retained formations. Jintian Yuanfeng is the strongest executed-control/low-FTE test: indirect control completed 2024-10-18, current FTE is 8 and 2026 H1 revenue is positive, but attributable net profit is -RMB604,400.80 and OCF is -RMB2,546,914.06; physical component/supply-chain delivery also remains explicit. Longjoy Technology has current FTE 8, but its proposed 81.26% acquisition was terminated 2026-06-09 with no purchase consideration paid, so the proposed buyer never became controller; current H1 profit and OCF are negative. Yudu Media completed control on 2026-02-09 inside H1, so the reporting period is not a clean full post-control window; current attributable profit is negative and revenue is dominated by field-promotion projects. Scan 120 should invert retrieval order: start from current low-FTE same-entity positive revenue/profit/unambiguous OCF, then reverse-check executed pre-period fresh-operator control and deeper recurring-rights economics.
+Discovery: `ATTRACTION_SCAN_119` is merged and exact-head validated with zero retained formations. Its main contribution is an evidence-retrieval ordering change, not a new product ontology: Scan 120 starts from a current same-entity report with intrinsically low current/latest FTE, positive external revenue, positive net profit and unambiguous positive OCF. Only formations that clear those current-economics gates should be deepened into executed pre-period fresh-operator control, recurring non-project revenue, bounded capital and noncommodity machine-control tests.
 
 ## Current Phase
 
-`SCAN_119_PR_VALIDATION_PENDING`
+`SCAN_120_RESEARCH`
 
 ## Last Verified Main
 
-`42c5b5aa2b71e9b543a9b93f0f710f83e03cf100`
-— squash merge of PR #418, `Run current-post-control low-FTE Scan 118`.
+`6443175f9a9dc0e9f02a96519a6c365299d3e820`
+— squash merge of PR #419, `Run current-economics early-gate Scan 119`.
 
-PR #418 final head `4f50cdece0be68c68b8b5d4894b7b6a60855c191`:
-- repository CI `35759582447`: success;
-- live TypeSafe/Jev `35759582427`: success;
-- live-shadow job `106854034498`: success;
-- advisory artifact `10709112365`;
+PR #419 final head `a5fa9fe6bd012e2b5a737ae737c422879589d45e`:
+- repository CI `35761524087`: success;
+- live TypeSafe/Jev `35761524259`: success;
+- live-shadow job `106860573845`: success;
+- advisory artifact `10709863822`;
 - 3/3 model and effective route `NO_FURTHER_RESEARCH`;
 - 3/3 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That exact-head directive was consumed to start Scan 119.
+That exact-head directive was consumed to start Scan 120.
 
 ## Active Issue
 
@@ -44,17 +44,17 @@ That exact-head directive was consumed to start Scan 119.
 
 ## Active Branch
 
-`research/attraction-scan-119`
+`research/attraction-scan-120`
 
 ## Active PR
 
-None yet. Scan 119 branch content is complete. Open exactly one PR only after the final branch head is frozen, then do not make branch commits after PR creation.
+None. Scan 120 research is in progress. Open exactly one PR only after the Scan 120 branch head is final, then do not make branch commits after PR creation.
 
 ## CI
 
-PR #418 / Scan 118 exact-head validation is complete and its `ADVANCE_TO_NEXT_SCAN` directive was consumed.
+Scan 119 exact-head validation is complete and consumed. No Scan 120 PR validation exists yet.
 
-Scan 119 repository CI and live TypeSafe/Jev have not run yet because the PR has not been opened. Consume a Scan 120 continuation directive only from the exact final Scan 119 PR head where both checks are terminal and acceptable.
+Consume a Scan 120 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
 
 ## Parallel Validation
 
@@ -143,8 +143,8 @@ Validation:
 - Scan 015-F1 still needs a real official written provider response/agreement and founder-free inbound proof.
 
 Discovery:
-- Scan 119 research/state/test persistence is complete;
-- exact-head repository CI and live TypeSafe/Jev still need to run on the final PR head.
+- Scan 119 research, exact-head validation and merge are complete;
+- Scan 120 is actively testing the current-low-FTE positive-profit positive-OCF-first retrieval boundary.
 
 Engineering:
 - no current TypeSafe/Jev integration blocker.
@@ -194,5 +194,5 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open the single final Scan 119 PR from the frozen branch head, require exact-head repository CI plus live TypeSafe/Jev, consume the continuation directive, merge only if checks are acceptable, then start Scan 120 immediately if the directive allows autonomous continuation.
+Execute Scan 120 on fresh formations by current same-entity low-FTE + positive revenue + positive net profit + unambiguous positive OCF first, then reverse-check executed pre-period fresh-operator control only for survivors. Persist result, state and regression test before opening the final PR.
 
