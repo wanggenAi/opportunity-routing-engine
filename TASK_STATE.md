@@ -6,23 +6,22 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 067 required two independent confirmed external money motions before deeper retention work.
+Scan 068 required buyer spend attributable to the unbundled atomic execution unit itself, with unit/task-level pricing and objective machine-verifiable acceptance wherever possible.
 
-Six formation-diverse paid flows were examined. None survived.
+Six formation-diverse unit-priced markets were examined. None survived.
 
 ```text
-TWO BUYERS PAY EXTERNAL PROVIDERS
-→ SAME UNBUNDLED ATOMIC EXECUTION UNIT?
-→ UNIT / TASK LEVEL PRICE ATTRIBUTION?
-→ OBJECTIVE MACHINE-VERIFIABLE ACCEPTANCE?
-→ EXACT NATIVE / MARKET / SAAS / SERVICE CATEGORY?
+ATOMIC UNIT + DIRECT UNIT PRICE
+→ OBJECTIVE ACCEPTANCE?
+→ EXACT NATIVE / API / SAAS / SERVICE CATEGORY?
+→ MULTI-PROVIDER ORCHESTRATION ALREADY PRESENT?
 → DATA + ACTION RIGHTS?
 → FAIL CLOSED
 ```
 
-The decisive finding is that confirmed money motion is still too coarse when the payment buys a bundled service. Medical billing, reception and bookkeeping mix deterministic substeps with judgment/accountability; podcast editing leaves subjective acceptance after AI cleanup; payroll and DMARC show that truly atomic machine-verifiable units often already have mature control surfaces.
+The decisive finding is that atomic price attribution improves economic truth but frequently selects for commodity API markets. Email verification, speech-to-text, KYC, OCR and SMS/OTP are already metered utilities; PDF accessibility shows the opposite failure mode, where per-page pricing exists but semantic acceptance still requires human verification.
 
-Scan 068 therefore raises the floor again: require two independent confirmed external payments attributable to the same **unbundled atomic execution unit** itself, with unit/task-level pricing and objective acceptance.
+Scan 069 therefore changes the evidence source rather than narrowing another task property: require observed buyer-side **concurrent spend on multiple interchangeable suppliers for the same atomic unit**, with measurable provider disagreement, failure, coverage or cost variation and buyer-controlled switching/fallback.
 
 ## Goal
 
@@ -40,22 +39,23 @@ Resolved recently:
 - `ATTRACTION_SCAN_065` — zero retention after deterministic, repeatable, objectively verifiable paid units resolved into native features or mature app/SaaS control surfaces.
 - `ATTRACTION_SCAN_066` — zero retention after two-independent-buyer signals resolved into mature categories, missing external money motion, non-invariant units or unavailable data rights.
 - `ATTRACTION_SCAN_067` — zero retention after confirmed external money motions decomposed into bundled human responsibility or already-mature atomic SaaS/control surfaces.
+- `ATTRACTION_SCAN_068` — zero retention after unit-attributed paid execution resolved into metered API utilities, existing orchestration surfaces or human semantic acceptance.
 
 Discovery queue:
-- `ATTRACTION_SCAN_068 — BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_CONFIRMED_EXTERNAL_PAYMENTS_TO_THE_SAME_UNBUNDLED_ATOMIC_EXECUTION_UNIT_WITH_UNIT_OR_TASK_LEVEL_PRICE_ATTRIBUTION_DETERMINISTIC_REPEATABLE_MACHINE_VERIFIABLE_ACCEPTANCE_BOUNDED_HUMAN_EXCEPTION_ONLY_EXACT_NATIVE_MARKETPLACE_SPECIALIST_SAAS_MANAGED_SERVICE_DATA_AND_ACTION_RIGHTS_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN067_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_069 — BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_CONCURRENT_PAID_SUPPLIERS_FOR_THE_SAME_UNBUNDLED_ATOMIC_EXECUTION_UNIT_WITH_MEASURABLE_PROVIDER_DISAGREEMENT_FAILURE_OR_COVERAGE_VARIATION_BUYER_CONTROLLED_SWITCHING_OR_FALLBACK_UNIT_ECONOMICS_EXACT_ORCHESTRATION_AGGREGATOR_NATIVE_CONTROL_SURFACE_AND_DATA_ACTION_RIGHTS_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN068_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_067_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_068_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`52b479e76339db190d6c6161e48ac462497b8810`
-— squash merge of PR #364, `Raise buyer evidence to confirmed money motion in Scan 066`.
+`9152d70ed532c600733e0860c14bec53729bec13`
+— squash merge of PR #365, `Raise paid evidence to atomic unit attribution in Scan 067`.
 
-PR #364 repository CI run `35620438463` completed `success`. Live Jev run `35620438374` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #365 repository CI run `35675786747` completed `success`. Live Jev run `35675786748` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -63,11 +63,11 @@ PR #364 repository CI run `35620438463` completed `success`. Live Jev run `35620
 
 ## Active Branch
 
-`research/attraction-scan-067`.
+`research/attraction-scan-068`.
 
 ## Active PR
 
-#365 — `Raise paid evidence to atomic unit attribution in Scan 067`. Live GitHub state is authoritative.
+#366 — `Raise atomic paid evidence to multi-supplier behavior in Scan 068`. Live GitHub state is authoritative.
 
 ## CI
 
@@ -83,15 +83,15 @@ PR #364 repository CI run `35620438463` completed `success`. Live Jev run `35620
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_067.json`
-- `docs/research/ATTRACTION_SCAN_067_2026-09-22.md`
-- `tests/test_attraction_scan_067_atomic_money_motion_gate.py`
+- `data/research_runs/attraction_scan_068.json`
+- `docs/research/ATTRACTION_SCAN_068_2026-09-22.md`
+- `tests/test_attraction_scan_068_atomic_unit_payment_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
-Persisted state now records `ATTRACTION_SCAN_067` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_068` as the next discovery pass.
+Persisted state now records `ATTRACTION_SCAN_068` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_069` as the next discovery pass.
 
 ## Completed
 
@@ -112,21 +112,21 @@ Results:
 ## Current Findings
 
 ```text
-TWO BUYERS PAY EXTERNAL PROVIDERS
+TWO BUYERS PAY FOR THE SAME ATOMIC UNIT
 !=
-TWO BUYERS PAY FOR THE SAME UNBUNDLED ATOMIC EXECUTION UNIT
+UNOWNED COMMERCIAL EXECUTION LAYER
 ```
 
-Scan 067 examined six paid external flows:
+Scan 068 examined six unit-priced external execution markets:
 
-- Outsourced medical billing / RCM: repeated 6%-8% buyer payments are real, but the purchased unit bundles claims processing with payer-specific denial work, appeals, context and accountability; mature RCM vendors already own the control surface.
-- Live / hybrid virtual reception: recurring buyer spend is real, but call answering is bundled with empathy, intake, scheduling, lead qualification and conversion responsibility while mature human/AI providers already exist.
-- Monthly bookkeeping / reconciliation: buyers pay recurring retainers, but deterministic reconciliation is already native/productized and the retainer buys broader classification, reporting, tax and advisory judgment.
-- Podcast editing: per-episode/per-hour payment is real, but deterministic silence/filler cleanup is already AI-productized while the remaining cuts depend on pacing, taste and brand context.
-- Small-business payroll: recurring paid execution has objective acceptance, but the exact payroll/tax-filing unit is already a mature SaaS/service category.
-- DMARC monitoring: the atomic recurring monitoring unit and payments are both real, but current low-cost, MSP/API and free/basic control surfaces make it commoditized.
+- Email verification: one-address/one-credit economics pass cleanly, but dedicated verifier markets are dense and verifier-waterfall orchestration already exists.
+- Speech-to-text: audio duration maps directly to spend, but transcription is already a usage-metered API utility with local/open substitutes.
+- PDF accessibility remediation: per-page external payment is proven, but semantic reading order, alt text, structure and compliance acceptance still require human verification.
+- KYC / identity verification: per-check economics and machine execution pass, but mature identity APIs and multi-provider KYC orchestration already own the control surface.
+- OCR / document extraction: per-page economics and mostly objective output pass, but the unit is already hyperscaler infrastructure with strong open/local substitution.
+- SMS OTP: per-message/per-successful-verification economics pass, but CPaaS and multi-provider routing/failover are mature categories.
 
-The next evidence floor is **payment attribution**, not merely payment existence: require two independent payments to the same unbundled atomic unit, with unit/task-level price attribution and objective machine-verifiable acceptance.
+The residual signal is now buyer-side multi-supplier behavior. Scan 069 must require two independent buyers actually paying multiple interchangeable suppliers concurrently or keeping a paid active fallback for the same atomic unit; mere availability of multiple vendors does not count.
 
 ## Validation Status
 
@@ -140,7 +140,7 @@ Scan 015-F1 remains the only retained validation beacon.
 
 Validation:
 - Scan 015-F1 awaits written provider response and organic founder-free inbound evidence.
-- Latest Gmail re-check still has no incoming response from either Wave 1 target; no response is not a denial.
+- No response remains neither a pass nor a denial.
 
 Engineering:
 - No current Jev integration blocker.
@@ -148,10 +148,10 @@ Engineering:
 - The active repository agent must continue reversible research automatically when the continuation directive allows it.
 
 Discovery:
-- Scan 067 is complete with zero retained formations and zero commercial promotions.
-- Two independent confirmed external money motions are no longer sufficient when the paid contract bundles multiple tasks or human accountability.
-- Truly atomic deterministic paid units in this pass were already dense product categories.
-- Scan 068 must require two independent confirmed payments attributable to the same unbundled atomic execution unit itself.
+- Scan 068 is complete with zero retained formations and zero commercial promotions.
+- Direct unit-level pricing no longer counts as white-space evidence.
+- Objective atomic execution tends to become metered API/SaaS infrastructure; non-objective semantic acceptance retains human responsibility.
+- Scan 069 must start from observed concurrent paid multi-supplier behavior for the same atomic unit and preflight exact orchestration/aggregation control surfaces.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -159,9 +159,15 @@ Commercial:
 
 ## Next Action
 
-Open the Scan 067 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 068 from two independent confirmed external payments attributable to the same unbundled atomic execution unit with unit/task-level pricing and objective acceptance.
+Open the Scan 068 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 069 from two independent buyer cases with concurrent paid suppliers or a paid active fallback for the same atomic execution unit.
 
 ## Do Not Repeat
+
+- Do not treat atomic unit pricing as white-space evidence; Scan 068 falsified that shortcut.
+- Do not promote email verification, generic speech-to-text, PDF accessibility remediation, generic KYC/ID verification, OCR/text extraction or SMS OTP from Scan 068.
+- Do not infer an orchestration opportunity merely because several interchangeable providers exist.
+- In Scan 069, require actual buyer-side concurrent paid suppliers or paid active fallback for the same atomic unit, plus measurable provider disagreement/failure/coverage/cost variation.
+- Preflight exact orchestration, aggregator, gateway and native failover control surfaces before deeper retention.
 
 - Do not equate two confirmed external provider payments with two payments for the same atomic execution unit; Scan 067 falsified that shortcut.
 - Do not promote outsourced medical billing, virtual receptionist service, bundled bookkeeping, recurring podcast editing, generic payroll processing or DMARC monitoring from Scan 067.

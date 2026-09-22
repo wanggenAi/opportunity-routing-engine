@@ -1,0 +1,131 @@
+{
+  "schema_version": "attraction-scan.v47",
+  "scan_id": "ATTRACTION_SCAN_068",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_CONFIRMED_EXTERNAL_PAYMENTS_TO_THE_SAME_UNBUNDLED_ATOMIC_EXECUTION_UNIT_WITH_UNIT_OR_TASK_LEVEL_PRICE_ATTRIBUTION_DETERMINISTIC_REPEATABLE_MACHINE_VERIFIABLE_ACCEPTANCE_BOUNDED_HUMAN_EXCEPTION_ONLY_EXACT_NATIVE_MARKETPLACE_SPECIALIST_SAAS_MANAGED_SERVICE_DATA_AND_ACTION_RIGHTS_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN067_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_068-F1",
+      "title": "PAY_PER_ADDRESS_EMAIL_VERIFICATION",
+      "chinese_title": "按邮箱地址计费的邮件有效性验证",
+      "confirmed_atomic_payments": [
+        "A current ZeroBounce user reports paying as they go after roughly a year of use; a separate user reports pay-as-you-go at about $50 for 10,000 credits.",
+        "ZeroBounce currently defines one email verification as one credit and publishes volume-based pay-as-you-go pricing, making the purchased unit explicitly attributable to the individual address check."
+      ],
+      "verdict": "DEMOTED_ATOMIC_PAID_UNIT_PASSES_BUT_EXACT_VERIFIER_CATEGORY_IS_DENSE_COMMODITIZED_AND_MULTI_PROVIDER_WATERFALL_ORCHESTRATION_IS_ALREADY_PRODUCTIZED",
+      "evidence_summary": "The economic unit is unusually clean: one address, one credit, one deliverability result. That same cleanliness has produced a dense verifier market and current waterfall products that already route catch-all or unresolved addresses across multiple providers. The atomic-payment signal therefore validates commodity infrastructure rather than unowned execution."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_068-F2",
+      "title": "PAY_PER_AUDIO_DURATION_SPEECH_TO_TEXT",
+      "chinese_title": "按音频时长计费的语音转文字",
+      "confirmed_atomic_payments": [
+        "A user reports adding $10 of API credits and then being billed at $0.006 per audio minute for transcription.",
+        "A current podcast user reports paying Rev on a per-minute basis and says the cost rises directly as episodes get longer; another production user reports Deepgram usage at a per-minute rate."
+      ],
+      "verdict": "DEMOTED_ATOMIC_DURATION_BILLING_PASSES_BUT_SPEECH_TO_TEXT_IS_A_MATURE_USAGE_BASED_API_UTILITY_WITH_LOCAL_AND_OPEN_MODEL_SUBSTITUTES",
+      "evidence_summary": "Audio duration is directly metered and machine-executable, but current speech-to-text vendors expose usage-based APIs down to seconds/minutes and open/local alternatives collapse switching and production cost. AssemblyAI currently bills pay-as-you-go transcription by exact audio duration. No distinct operator asset is created by merely reselling the same unit."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_068-F3",
+      "title": "PER_PAGE_PDF_ACCESSIBILITY_REMEDIATION",
+      "chinese_title": "按页计费的 PDF 无障碍修复",
+      "confirmed_atomic_payments": [
+        "Current municipal contract materials from independent public buyers specify additional PDF remediation at $5 per page with page-count billing.",
+        "A current accessibility buyer reports the last CommonLook remediation requested at roughly $6 per page, independently confirming per-page external purchase behavior."
+      ],
+      "verdict": "DEMOTED_ATOMIC_PRICE_ATTRIBUTION_PASSES_BUT_MACHINE_VERIFIABLE_ACCEPTANCE_FAILS_BECAUSE_SEMANTIC_READING_ORDER_ALT_TEXT_AND_STRUCTURE_REQUIRE_HUMAN_VALIDATION_AND_RESPONSIBILITY",
+      "evidence_summary": "The paid unit is clearly a page, and current contracts prove external unit pricing. But the acceptance function is not fully machine-verifiable: CommonLook's own 2026 guidance explicitly says its highly automated editor still requires human manual verification and possible correction. The residual value is semantic accessibility judgment and compliance responsibility, not a founder-independent machine executor."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_068-F4",
+      "title": "PER_VERIFICATION_KYC_IDENTITY_CHECK",
+      "chinese_title": "按次计费的 KYC 身份核验",
+      "confirmed_atomic_payments": [
+        "A current fintech operator reports using Owl Eyes for document verification and liveness at under $1.25 per check with no minimums.",
+        "Independent teams report production use of identity-verification vendors such as Stripe Identity / Onfido / Ondato after vendor selection exercises; current Stripe Identity pricing is $1.50 per completed document-and-selfie verification."
+      ],
+      "verdict": "DEMOTED_ATOMIC_PER_CHECK_PAYMENT_PASSES_BUT_IDENTITY_VERIFICATION_IS_A_MATURE_API_CATEGORY_AND_MULTI_VENDOR_KYC_ORCHESTRATION_IS_ALREADY_AN_EXPLICIT_CONTROL_SURFACE",
+      "evidence_summary": "Identity checks are externally paid, bounded and billed per completed verification. Current platforms already expose the exact API unit, while KYC orchestration vendors now explicitly route across providers by market, risk, cost, coverage and failure. Data sensitivity, compliance accountability and mature control surfaces remove a distinct unowned operator layer."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_068-F5",
+      "title": "PER_PAGE_OCR_AND_DOCUMENT_TEXT_EXTRACTION",
+      "chinese_title": "按页计费的 OCR 与文档文本提取",
+      "confirmed_atomic_payments": [
+        "A 2026 operator digitizing 200+ scanned documents reports paying roughly $5-$6 total through a per-page hosted vision/OCR workflow.",
+        "A separate organization running a hybrid Azure document pipeline describes paid processing economics around $1.5 per 1,000 scanned pages and an overall million-file workload cost on the order of $1,000."
+      ],
+      "verdict": "DEMOTED_ATOMIC_PER_PAGE_PAYMENT_AND_OBJECTIVE_OUTPUT_PASS_BUT_OCR_IS_ALREADY_HYPERSCALER_API_INFRASTRUCTURE_WITH_FAST_OPEN_SOURCE_AND_MODEL_PRICE_COMPRESSION",
+      "evidence_summary": "OCR has clean page-count billing and mostly objective output checks, but AWS Textract alone prices raw text extraction at $0.0015 per page for the first million pages, while current users also substitute local/open models. The atomic unit is already cloud infrastructure, not sparse supplier execution."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_068-F6",
+      "title": "PER_SUCCESSFUL_SMS_OTP_VERIFICATION",
+      "chinese_title": "按成功验证或短信计费的 OTP 验证",
+      "confirmed_atomic_payments": [
+        "A current startup developer reports paying about $0.09 per SMS for authentication messaging rather than operating their own carrier path.",
+        "Independent production teams report active paid Twilio SMS/OTP use and migrations to paid Telnyx/Vonage alternatives; one healthcare platform reports a dual-vendor setup after moving off Twilio."
+      ],
+      "verdict": "DEMOTED_ATOMIC_PER_EVENT_PAYMENT_PASSES_BUT_OTP_IS_A_MATURE_CPAAS_UTILITY_AND_MULTI_PROVIDER_ROUTING_FAILOVER_IS_ALREADY_PRODUCTIZED",
+      "evidence_summary": "Twilio currently bills Verify at $0.05 per successful verification plus channel fees, making the unit explicit and machine-verifiable. But current buyers already have multiple CPaaS choices, and dedicated multi-provider SMS routing/failover products exist. Unit-level spend proves a commodity transport primitive, not new white space."
+    }
+  ],
+  "hard_floor_demotions": [
+    "EMAIL_VERIFICATION_PASSES_ATOMIC_PAYMENT_BUT_FAILS_WHITE_SPACE_AFTER_DENSE_VERIFIER_AND_EXISTING_WATERFALL_CONTROL_SURFACE_PREFLIGHT",
+    "SPEECH_TO_TEXT_PASSES_DURATION_ATTRIBUTION_BUT_FAILS_DISTINCT_OPERATOR_AS_USAGE_BASED_APIS_AND_LOCAL_MODELS_COMMODITIZE_THE_UNIT",
+    "PDF_ACCESSIBILITY_PASSES_PER_PAGE_PAYMENT_BUT_FAILS_MACHINE_ACCEPTANCE_WHEN_HUMAN_SEMANTIC_VERIFICATION_REMAINS_EXPLICITLY_REQUIRED",
+    "KYC_PASSES_PER_CHECK_PAYMENT_BUT_FAILS_MATURE_IDV_AND_KYC_ORCHESTRATION_CONTROL_SURFACE_PREFLIGHT",
+    "OCR_PASSES_PER_PAGE_PAYMENT_BUT_FAILS_HYPERSCALER_AND_OPEN_SOURCE_COMMODITY_PREFLIGHT",
+    "SMS_OTP_PASSES_PER_EVENT_PAYMENT_BUT_FAILS_MATURE_CPAAS_AND_MULTI_PROVIDER_ROUTING_CONTROL_SURFACE_PREFLIGHT"
+  ],
+  "scan_learnings": [
+    "UNIT_LEVEL_PRICE_ATTRIBUTION_STRONGLY_IMPROVES_ECONOMIC_CLARITY_BUT_SELECTS_FOR_COMMODITY_API_MARKETS",
+    "WHEN_AN_ATOMIC_UNIT_HAS_OBJECTIVE_MACHINE_ACCEPTANCE_SUPPLIERS_CAN_METER_IT_DIRECTLY_AND_SOFTWARE_CATEGORIES_FORM_EARLY",
+    "PER_PAGE_OR_PER_EVENT_PRICING_DOES_NOT_IMPLY_MACHINE_DELIVERY_WHEN_SEMANTIC_OR_COMPLIANCE_ACCEPTANCE_REQUIRES_HUMAN_VALIDATION",
+    "ATOMIC_PAID_UNITS_FREQUENTLY_SHIFT_BUYER_PAIN_FROM_EXECUTION_TO_PROVIDER_SELECTION_DISAGREEMENT_COVERAGE_COST_AND_FAILOVER",
+    "EMAIL_VERIFICATION_KYC_AND_SMS_SHOW_CURRENT_MULTI_PROVIDER_ORCHESTRATION_CONTROL_SURFACES_ALREADY_FORMING_AROUND_COMMODITY_ATOMIC_UNITS",
+    "THE_NEXT_DISCOVERY_SIGNAL_SHOULD_NOT_BE_ANOTHER_NARROWER_TASK_PROPERTY_IT_SHOULD_TEST_OBSERVED_CONCURRENT_MULTI_SUPPLIER_SPEND_FOR_THE_SAME_ATOMIC_UNIT",
+    "REQUIRE_TWO_INDEPENDENT_BUYERS_TO_ACTUALLY_PAY_MULTIPLE_INTERCHANGEABLE_SUPPLIERS_CONCURRENTLY_OR_IN_ACTIVE_FALLBACK_BEFORE_INFERRING_AN_ORCHESTRATION_PROBLEM",
+    "SCAN068_ZERO_RETENTION_AFTER_ATOMIC_PAYMENT_MATURE_UTILITY_AND_HUMAN_ACCEPTANCE_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_069",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_CONCURRENT_PAID_SUPPLIERS_FOR_THE_SAME_UNBUNDLED_ATOMIC_EXECUTION_UNIT_WITH_MEASURABLE_PROVIDER_DISAGREEMENT_FAILURE_OR_COVERAGE_VARIATION_BUYER_CONTROLLED_SWITCHING_OR_FALLBACK_UNIT_ECONOMICS_EXACT_ORCHESTRATION_AGGREGATOR_NATIVE_CONTROL_SURFACE_AND_DATA_ACTION_RIGHTS_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN068_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN069_FROM_OBSERVED_CONCURRENT_MULTI_SUPPLIER_SPEND_FOR_THE_SAME_ATOMIC_UNIT_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/coldemail/comments/1n180bc/email_verification/",
+    "https://www.reddit.com/r/coldemail/comments/1ojrx38/hi_everyone_can_anyone_recommend_the_email/",
+    "https://www.zerobounce.net/pricing",
+    "https://apify.com/signaliz/email-verification-waterfall",
+    "https://fi.reddit.com/r/ObsidianMD/comments/1gu5day/ive_built_a_quick_capture_app_for_obsidian_that/",
+    "https://www.reddit.com/r/podcasting/comments/1vhx2rr/what_are_the_best_rev_alternatives_for_podcast/",
+    "https://www.assemblyai.com/pricing/",
+    "https://www.reddit.com/r/accessibility/comments/1vs6gki/recent_cost_estimates_for_pdf_review_and/",
+    "https://geneseecountymi.legistar.com/View.ashx?GUID=931B30DF-29AC-432B-A94B-E5E6EB8C143D&ID=1360326&M=PA",
+    "https://cityofevanston.civicweb.net/document/416871/",
+    "https://support.allyant.com/support/solutions/articles/156000367421-web-based-commonlook-pdf-simplified-editor-quick-start-guide",
+    "https://www.reddit.com/r/fintech/comments/1j9pl33/looking_for_a_kycon_onboarding_product/",
+    "https://www.reddit.com/r/fintech/comments/1i0yvkb/discussion_building_a_kyc_validation_tool_for/",
+    "https://stripe.com/identity",
+    "https://www.ondorse.co/kyc-orchestration",
+    "https://www.reddit.com/r/bestai2025/comments/1pw1ldw/i_tested_8_ocr_tools_to_digitize_200_scanned/",
+    "https://www.reddit.com/r/automation/comments/1m8bt5c/azure_ocr_too_expensive_any_viable_alternatives/",
+    "https://aws.amazon.com/textract/pricing/",
+    "https://www.reddit.com/r/twilio/comments/1uev78w/startup_founders_developers_what_are_you_using/",
+    "https://www.reddit.com/r/twilio/comments/1w39igw/anyone_actually_moved_off_twilio_in_2026_what_did/",
+    "https://www.reddit.com/r/CRM/comments/1vqxpaq/picking_an_sms_provider_for_our_notifications_2fa/",
+    "https://www.twilio.com/en-us/verify/pricing",
+    "https://flowstates.net/use-cases/multi-vendor-routing"
+  ]
+}
