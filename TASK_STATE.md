@@ -6,19 +6,15 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse, validation independent and commercial promotion fail-closed.
 
-## Goal
-
-Reach the first real external value flow through a formation that survives participant pull, discoverability, machine-executable delivery, founder-independence, operator control, evidenced economics and incumbent/control-surface pressure.
-
 ## Current Unique Commercial Research Goal
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_115` is complete with zero retained formations. Scan 115 tested whether completed-control targets could bind explicit positive post-control operating cashflow to explicit low labor/replacement-service burden and bounded total usable capital. One target proved positive explicit OCF, but high control capital and unclosed current replacement engineering remained fatal. A separate target-level subsidiary ledger proved why parent OCF must not be attributed to the target. Scan 116 should prioritize acquired targets with standalone or important-subsidiary reporting so OCF, current labor and total capital can be bound to one entity without inference.
+Discovery: `ATTRACTION_SCAN_116` is complete with zero retained formations. The scan used standalone public target ledgers to bind control state, post-control economics, current FTE and operating asset footprint. Jiuheng New-data closes the prior visibility gap with positive revenue, positive net profit, explicit positive OCF, current FTE and a low current asset base in one post-control entity, but 28 of 37 employees are technical and the business remains project-delivery dependent. Scan 117 should now prioritize intrinsically low-current-labor targets rather than merely better-disclosed targets.
 
 ## Current Phase
 
-`SCAN_116_RESEARCH`
+`SCAN_116_PR_VALIDATION_PENDING`
 
 ## Last Verified Main
 
@@ -36,7 +32,7 @@ PR #414 final head `8f604091b9b4ca99c17f588c7352768033c45344`:
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That exact-head directive was consumed to start Scan 116.
+That directive was consumed before Scan 116 research began.
 
 ## Active Issue
 
@@ -48,111 +44,90 @@ That exact-head directive was consumed to start Scan 116.
 
 ## Active PR
 
-None. Scan 116 research is in progress. Open exactly one PR only after the Scan 116 branch head is final, then do not make branch commits after PR creation so repository CI and live TypeSafe/Jev attach to the exact same SHA.
+None at this checkpoint. The Scan 116 branch content is final for PR validation. Open exactly one PR from this head and do not make branch commits after PR creation.
 
 ## CI
 
-Scan 115 exact-head validation is complete and was consumed. No Scan 116 PR validation exists yet because Scan 116 has not been persisted to a final branch head.
+No Scan 116 PR-head validation exists yet.
 
-Consume a Scan 116 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
+Consume a Scan 116 continuation directive only from the exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
 
 ## Parallel Validation
 
 `ATTRACTION_SCAN_015-F1` is unchanged and still requires an actual official written provider response/agreement plus organic founder-free inbound proof.
 
-Last verified inbox state remains 2026-09-22: no official provider reply from the two verified targets. No response is neither a pass nor a denial. Do not repeat the public-rights search while written evidence is outstanding.
+Last verified inbox state remains 2026-09-22: no official provider reply from the two verified targets. No response is neither a pass nor a denial. Do not repeat public-rights search while written evidence is outstanding.
 
 ## Latest Artifact / Persisted State
 
-New in Scan 115:
-- `data/research_runs/attraction_scan_115.json`;
-- `docs/research/ATTRACTION_SCAN_115_2026-09-23.md`;
-- `tests/test_attraction_scan_115_labor_capital_binding.py`.
+New in Scan 116:
+- `data/research_runs/attraction_scan_116.json`;
+- `docs/research/ATTRACTION_SCAN_116_2026-09-23.md`;
+- `tests/test_attraction_scan_116_standalone_target_ledger.py`.
 
 Updated:
 - `data/commercial_reset_state.json`;
 - `TASK_STATE.md`.
 
 Machine state:
-- last completed scan = `ATTRACTION_SCAN_115`;
-- last resolved formation = `ATTRACTION_SCAN_115-F3`;
-- next scan = `ATTRACTION_SCAN_116`;
+- last completed scan = `ATTRACTION_SCAN_116`;
+- last resolved formation = `ATTRACTION_SCAN_116-F3`;
+- next scan = `ATTRACTION_SCAN_117`;
 - active commercial candidates = 0;
 - retained research formations = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Consumed PR #414 exact-head `ADVANCE_TO_NEXT_SCAN` directive and started `research/attraction-scan-116`.
-- PR #414 final-head repository CI and live TypeSafe/Jev both succeeded; Jev returned 3/3 `NO_FURTHER_RESEARCH` aligned with authoritative closure.
-- Preserved the strict accounting rule that generic acquisition-table cashflow is not operating cashflow.
-- Added a stricter labor rule: historical FTE is not promoted to current FTE.
-- Added a stricter entity rule: parent consolidated OCF is not attributed to the target without target-level disclosure.
-- Tested three distinct control shapes: building-quality testing, HMI/audio SoC IP and commercial cleaning equipment plus service.
-- Established one exact completed-control target with positive post-purchase external revenue, net profit and explicit operating cashflow: Hangzhou Nano IC.
-- Bound a modest-equity-price testing target to an official RMB15m laboratory, about 600 instruments and a 66-person operating design, proving nominal equity price is not total usable capital.
-- Used target-level 2026 H1 subsidiary reporting for Gadlee and found operating cashflow negative despite positive target revenue and profit.
+- Consumed PR #414 exact-head `ADVANCE_TO_NEXT_SCAN` and resumed the already-created `research/attraction-scan-116` branch rather than creating a duplicate.
+- Confirmed the branch had been an empty branch equal to `main`; no interrupted Scan 116 research result or PR existed.
+- Excluded Scan 060-115 formations and primary signals from the new primary sample.
+- Persisted three formation-diverse standalone/control-ledger tests: Jiuheng New-data, Huacheng Industrial Control and Feitian Technology.
+- Jiuheng: clean post-control 2026 H1 revenue RMB6.3883m, net profit RMB0.7527m, explicit OCF RMB0.2264m, assets RMB5.2142m, current staff 37 including 28 technical. Demoted on current expert/project delivery rather than missing evidence.
+- Huacheng: clean post-control 2026 H1 attributable net loss RMB3.4446m, explicit OCF negative RMB13.2925m, assets RMB182.0546m, current staff 212. The 2025 control change also depended on a pre-existing insider concert-party position, so the tiny incremental share trade is not fresh-operator control capital.
+- Feitian: controller changed through a RMB2.0m upstream holding-company acquisition, but 2025 annual economics straddle the control date; the mixed period is not promoted to post-control evidence. Year-end target assets were RMB40.5331m, so low upstream transaction price is not treated as low target operating capital.
 - Retained zero formations and promoted zero commercial candidates.
-- Persisted Scan 115 research JSON, note, regression test and commercial state.
+- Advanced durable discovery state to Scan 117.
 
 ## Current Findings
-
-### Scan 115-F1 — Chongqing Gaoxin Zhuotai building-quality testing
-
-100% control completed 2026-03-31 for RMB7.0637 million. Purchase-date-to-period-end revenue was RMB4.4814 million, net profit RMB0.6734 million and generic cashflow RMB2.1581 million.
-
-A government EIA for the same operating entity records a RMB15 million laboratory, about 600 instruments, a 66-person labor quota and recurring on-site engineering tests. The 66-person figure is an operating-design filing, not relabeled as 2026 current FTE.
-
-Verdict: demoted because explicit OCF is unclosed and the physical/labor delivery footprint defeats low-capital/low-human assumptions.
-
-### Scan 115-F2 — Hangzhou Nano IC HMI/audio SoC
-
-Control transferred 2025-07-14 and the buyer held 51%. Purchase-date-to-year-end revenue was RMB73.7647 million, net profit RMB4.6009 million and explicit operating-activity net cash inflow RMB7.3001 million.
-
-This passes the exact positive-OCF test, but accounting control cost was RMB138.3447 million and current target FTE/replacement engineering cost is not publicly closed. Historical headcount is not treated as current fact.
-
-Verdict: demoted.
-
-### Scan 115-F3 — Gadlee commercial cleaning equipment
-
-Control completed in 2025 and Gadlee was consolidated from 2025-11-01 at 54.4745%.
-
-The 2026 H1 target-level important-subsidiary table reports revenue RMB52.9509 million, net profit RMB1.2366 million and operating cashflow **negative RMB4.1577 million**. Combination cost exceeded RMB105 million. The current business description also requires a professional nationwide after-sales/service network, training, maintenance, repair, warehousing and distribution.
-
-Verdict: demoted.
 
 Key invariant:
 
 ```text
-POSITIVE TARGET OCF
-!= LOW-CAPITAL CONTROL
+STANDALONE TARGET LEDGER VISIBILITY
+!= FOUNDER-LIGHTNESS
 
-LOW EQUITY CONSIDERATION
-!= LOW TOTAL USABLE CAPITAL
+POSITIVE TARGET OCF + LOW CURRENT ASSETS
+!= LOW CURRENT REPLACEMENT LABOR
 
-HISTORICAL FTE
-!= CURRENT FTE
+TINY CONTROL-TRIGGER TRADE
+!= FRESH-OPERATOR CONTROL CAPITAL
+WHEN PREEXISTING INSIDER HOLDINGS ARE DECISIVE
 
-PARENT OCF
-!= TARGET OCF
+LOW UPSTREAM HOLDING-COMPANY PURCHASE PRICE
+!= LOW TARGET OPERATING CAPITAL
 
-TARGET-LEVEL LEDGER VISIBILITY
-IS A BETTER RETRIEVAL ROUTE
-WHEN OCF + LABOR + CAPITAL MUST BIND TO ONE ENTITY
+MIXED PRE/POST-CONTROL PERIOD
+!= POST-CONTROL ECONOMIC CONTINUITY
 ```
+
+The decisive new evidence is Jiuheng: the financial visibility problem is now closed in one low-asset positive-OCF target, and current expert labor still kills the formation. Scan 117 therefore changes retrieval priority from “find a better ledger” to “find a genuinely low-current-FTE operating position with a clean ledger and reproducible fresh-operator control surface.”
 
 ## Next Evidence Boundary
 
 ```text
 COMPLETED CONTROLLING TRANSFER
-+ ACQUIRED TARGET RETAINS STANDALONE PUBLIC REPORTING
-  OR IMPORTANT-SUBSIDIARY TARGET-LEVEL DISCLOSURE
-+ SAME TARGET POST-CONTROL POSITIVE EXTERNAL REVENUE
++ CLEAN POST-CONTROL STANDALONE TARGET PERIOD
++ SAME TARGET POSITIVE EXTERNAL REVENUE
 + SAME TARGET POSITIVE NET PROFIT
 + SAME TARGET EXPLICIT POSITIVE OPERATING CASHFLOW
-+ CURRENT TARGET FTE OR EXPLICIT REPLACEMENT SERVICE COST
-+ TOTAL USABLE CAPITAL INCLUDING ACQUISITION + WORKING CAPITAL + REQUIRED OPERATING ASSETS
-+ LOW RECURRING EXPERT / FIELD / MANUFACTURING / AFTER-SALES DELIVERY
++ CURRENT TARGET FTE DISCLOSED AND INTRINSICALLY LOW
++ NO PROJECT IMPLEMENTATION / FIELD / MANUFACTURING / AFTER-SALES
+  ORGANIZATION AS THE RECURRING DELIVERY ENGINE
++ CONTROL SURFACE REPRODUCIBLE BY A FRESH INDEPENDENT OPERATOR
+  RATHER THAN A PREEXISTING INSIDER COALITION
++ BOUNDED CONTROL CONSIDERATION
++ BOUNDED CURRENT OPERATING-ASSET / WORKING-CAPITAL FOOTPRINT
 + NONCOMMODITY MACHINE-OPERABLE CONTROL
 => POSSIBLE VERIFIED FOUNDER-LIGHT CONTROL CASHFLOW
 ```
@@ -165,26 +140,23 @@ Validation:
 - Scan 015-F1 still needs a real official written provider response/agreement and founder-free inbound proof.
 
 Discovery:
-- Scan 115 research and exact-head PR validation are complete;
-- explicit positive target OCF is not the remaining unknown;
-- Scan 116 is now testing whether standalone/important-subsidiary target ledgers can close the same-target current low-FTE/replacement-cost and bounded-total-capital gap.
+- Scan 116 research itself is complete;
+- the branch now needs exact-final-head repository CI plus live TypeSafe/Jev validation;
+- do not start Scan 117 until that exact-head continuation directive permits it.
 
 Engineering:
-- no current TypeSafe/Jev integration blocker;
-- Scan 116 must not be opened as a PR until its branch head is final.
+- no current TypeSafe/Jev integration blocker.
 
 ## Do Not Repeat
 
-- Do not repeat Scan 115 Zhuotai, Hangzhou Nano IC or Gadlee formations as Scan 116 primary formations.
-- Do not return to Scan 060-115 formations or their primary discovery signals.
+- Do not repeat Scan 116 Jiuheng New-data, Huacheng Industrial Control or Feitian Technology as Scan 117 primary formations.
+- Do not return to Scan 060-116 formations or their primary discovery signals.
 - Do not use job/gig/RFQ/procurement feeds or asset-marketplace feeds as discovery ontology.
 - Do not infer a product from a closed formation.
-- Do not combine different entities/control positions/time windows to manufacture post-transfer economics.
-- Do not relabel generic cashflow as OCF.
-- Do not promote historical FTE to current FTE.
-- Do not attribute parent consolidated OCF to an acquired target without target-level evidence.
-- Do not call equity consideration bounded capital without working-capital and required-operating-asset checks.
-- Do not treat positive OCF as founder-lightness when current replacement labor is unknown or recurring expert/service delivery remains core.
+- Do not combine different entities, control positions or time windows to manufacture post-control economics.
+- Do not relabel a mixed annual period as clean post-control economics.
+- Do not treat a small incremental trade or upstream holding-company price as total fresh-operator control capital.
+- Do not treat positive OCF as founder-lightness when current project/expert delivery is core.
 - Do not repeat Scan 015 public-rights research while written evidence is outstanding.
 
 ## Guardrails
@@ -196,12 +168,11 @@ Engineering:
 - Inference != fact.
 - No inherited commercial case layer or product mechanism.
 - Exact incumbent/control-surface preflight before deep retention.
-- Active open-source substitutes count as incumbents/substitutes.
 - No recurring founder acquisition.
 - No recurring expert delivery.
 - Generic-agent substitutability is a hard attraction kill.
 - Operator control and economics must be externally evidenced before commercial promotion.
-- Same-operator/same-control-position/same-time-window economic binding is required for normalized-cashflow claims.
+- Same-operator/same-control-position/same-time-window economic binding is required.
 - Infer broadly; retain conservatively.
 
 ## Jev Integration Boundary
@@ -215,10 +186,10 @@ Actual PR workflow:
 4. Jev returns advisory routes only;
 5. repository logic preserves authoritative closures and derives effective routes;
 6. `OPPORTUNITY_JEV_AGENT_CONTINUATION_V1` emits the continuation directive;
-7. the running repository agent consumes the directive.
+7. the active agent consumes the directive.
 
 Jev cannot promote candidates, mutate authoritative commercial truth, reverse closed verdicts or perform external side effects.
 
 ## Next Action
 
-Execute Scan 116 on fresh formations using standalone public reporting or important-subsidiary target-level ledgers to bind post-control revenue, net profit, explicit OCF, current FTE/replacement-service burden and total usable capital to the same target. Persist the result and regression test before opening the final PR.
+Open exactly one PR from the now-final Scan 116 branch head. Do not commit after opening it. Validate that exact PR head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are terminal and acceptable.
