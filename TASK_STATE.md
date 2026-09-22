@@ -32,7 +32,9 @@ PR #391 final head `64b7176f284abda5b26006fd26594710e5fb9df3`:
 
 ## Active PR
 
-Not opened yet. Open only after this checkpoint commit; then bind the PR number before final-head validation.
+#392 — `Complete second broad current-reality pass in Scan 094`.
+
+PR was opened from the completed Scan 094 checkpoint. This binding commit becomes the final PR head; validate repository CI plus live TypeSafe/Jev against the resulting exact SHA before merge.
 
 ## Parallel Validation
 
@@ -74,8 +76,8 @@ Scan 095 should require direct participant-authored current underuse, contradict
 
 - no Jev integration blocker;
 - Scan 094 branch is ahead of `main`;
-- PR not yet opened;
-- Scan 094 final-head repository CI and live TypeSafe/Jev are not yet run;
+- PR #392 is open;
+- this PR-binding commit intentionally changes the head once; Scan 094 repository CI and live TypeSafe/Jev must validate the resulting final head;
 - do not start Scan 095 until Scan 094 final-head continuation is consumed.
 
 ## Do Not Repeat
@@ -109,4 +111,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open the Scan 094 PR, bind this handoff to its exact PR/final head, run repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue into Scan 095 only if `autonomous_continuation_allowed=true`.
+Validate PR #392 final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue into Scan 095 only if `autonomous_continuation_allowed=true`.
