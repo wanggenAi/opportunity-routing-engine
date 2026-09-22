@@ -1,0 +1,191 @@
+{
+  "schema_version": "attraction-scan.v57",
+  "scan_id": "ATTRACTION_SCAN_078",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_SAME_UNRESOLVED_OUTCOME_PLUS_ACTUAL_RECURRING_PAYMENT_TO_A_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_FORMATION_DIVERSE_REQUIRE_EXECUTED_PAYMENT_NOT_BUDGET_INTENT_EXCLUDE_STANDARD_AMS_OEM_PARTNER_SUPPORT_INTEGRATORS_CONSULTANTS_BPO_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_077_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "causal_floor": "LIVE_REPLACEMENT_OR_PLATFORM_PLUS_BUYER_AUTHORED_SAME_OUTCOME_STILL_UNRESOLVED_PLUS_EXECUTED_RECURRING_PAYMENT_TO_DISTINCT_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET",
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_078-F1",
+      "title": "UNIVERSITY_HEALTH_EPIC_POST_GO_LIVE_CLINICAL_DOCUMENTATION_PLUS_ABRIDGE",
+      "chinese_title": "University Health Epic上线后的临床文档残余与Abridge付费层",
+      "evidence_class": "EXECUTED_NON_INCUMBENT_RESIDUAL_PAYMENT_MATURE_COMPLEMENT",
+      "evidence_summary": "University Health states Epic went live in July 2020 and that Epic/workflow optimization, including clinical-documentation improvement, was still active in 2023. Its board then approved a $1,223,100 Abridge ambient-clinical-intelligence license in April 2025 and an $882,700 amendment in April 2026. The money is real and Abridge is distinct from Epic, but the public buyer record does not say Epic failure caused the Abridge purchase; Abridge is also an established Epic-integrated ambient-AI product while Epic is expanding native AI charting.",
+      "buyer_authored_post_live_failure_evidence": [
+        "University Health's 2023 budget states that Epic went live on July 11, 2020 and that continued optimization of the system and operational workflows would continue throughout 2023.",
+        "The same buyer budget lists clinical documentation improvements among the operational-improvement targets.",
+        "This establishes a post-go-live documentation outcome that remained an explicit improvement target, but it does not by itself prove that Epic failed or that the later Abridge purchase was caused by Epic failure."
+      ],
+      "actual_non_incumbent_recurring_payment_evidence": [
+        "The April 29, 2025 BCHD Board agenda lists Abridge AI, Inc. for an Ambient Clinical Intelligence software license agreement with a $1,223,100 total award.",
+        "The April 28, 2026 BCHD Board agenda lists the same Abridge license under PO 22504075-IE, Mod #1, with an $882,700 total award.",
+        "The repeated board-approved license spend is executed buyer-side software spend on a provider distinct from Epic."
+      ],
+      "same_outcome_causal_chain": "PARTIAL_PASS_BUYER_DOCUMENTS_PROVE_EPIC_LIVE_AND_CLINICAL_DOCUMENTATION_REMAINED_AN_IMPROVEMENT_TARGET_AND_LATER_ABRIDGE_SPEND_MATCHES_THAT_OUTCOME_BUT_NO_BUYER_SOURCE_STATES_EPIC_FAILURE_CAUSED_THE_ABRIDGE_PURCHASE",
+      "non_incumbent_residual_provider_preflight": "FAIL_AS_WHITE_SPACE_ABRIDGE_IS_AN_ESTABLISHED_AMBIENT_CLINICAL_INTELLIGENCE_PRODUCT_WITH_DEEP_EPIC_INTEGRATION_AND_THE_PURCHASE_IS_A_MATURE_COMPLEMENT_CATEGORY_NOT_AN_UNOWNED_RESIDUAL_LAYER",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_EPIC_IS_EXPANDING_NATIVE_AI_CHARTING_AND_ABRIDGE_IS_FORMALLY_INTEGRATED_WITH_EPIC_SO_THE_RESIDUAL_CONTROL_SURFACE_IS_ALREADY_INSIDE_A_MATURE_EHR_PLUS_AMBIENT_AI_ECOSYSTEM",
+      "founder_independence_check": "PASS_FOR_PRODUCT_DELIVERY_ABRIDGE_IS_SOFTWARE_NOT_FOUNDER_LABOR_BUT_THIS_STRENGTH_BELONGS_TO_THE_EXISTING_VENDOR_NOT_A_NEW_OPERATOR",
+      "data_action_rights_check": "FAIL_FOR_GENERIC_OPERATOR_CLINICAL_DOCUMENTATION_PATIENT_DATA_EHR_WRITEBACK_AND_WORKFLOW_ACTIONS_REQUIRE_PRIVILEGED_HEALTH_SYSTEM_AND_EHR_RIGHTS",
+      "normalized_margin_check": "PASS_MONEY_MOTION_RECURS_AT_ENTERPRISE_SOFTWARE_SCALE_BUT_NO_SEPARATE_UNOWNED_ACCEPTANCE_AND_SETTLEMENT_UNIT_IS_SHOWN",
+      "machine_delegatability_check": "PASS_EXISTING_PRODUCT_PROVES_MACHINE_FIRST_DELIVERY_IS_POSSIBLE",
+      "generic_agent_substitutability_check": "PASS_NOT_GENERIC_AGENT_SUBSTITUTABLE_AT_THE_CLINICAL_WRITEBACK_AND_GOVERNANCE_LAYER_BUT_THIS_DOES_NOT_CREATE_WHITE_SPACE",
+      "verdict": "DEMOTED_EXECUTED_NON_INCUMBENT_PAYMENT_IS_REAL_BUT_CAUSAL_LINK_IS_ONLY_PARTIAL_AND_THE_RESIDUAL_IS_ALREADY_OWNED_BY_A_MATURE_EPIC_INTEGRATED_AMBIENT_AI_CATEGORY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_078-F2",
+      "title": "US_ARMY_IPPSA_POST_GO_LIVE_ADOPTION_RESIDUAL_PLUS_WHATFIX",
+      "chinese_title": "美陆军IPPS-A上线后的采用/操作残余与Whatfix付费层",
+      "evidence_class": "EXECUTED_NON_INCUMBENT_AWARD_MATURE_DIGITAL_ADOPTION_PLATFORM",
+      "evidence_summary": "IPPS-A Release 3 was live across all Army components by 2023; one-year buyer updates still reported nearly 42,000 HR professionals trained, more than 250,000 CRM cases, job aids and workflow simplification work. An official Army industry deck records a May 2024 Digital Adoption Platform award to Whatfix, and Whatfix says it was selected for IPPS-A usability and adoption. This is a distinct paid residual layer, but public records do not expose the award term/amount and Whatfix is itself a mature DAP category.",
+      "buyer_authored_post_live_failure_evidence": [
+        "The Army's December 2023 one-year update states Release 3 had been live for about a year across all three components.",
+        "The same Army update reports nearly 42,000 HR professionals trained and more than 250,000 CRM cases since go-live, while continuing to publish job aids and simplify workflows.",
+        "These are strong buyer-authored signs of continuing adoption and support load after go-live, without proving that the core IPPS-A system itself failed."
+      ],
+      "actual_non_incumbent_recurring_payment_evidence": [
+        "The official October 2024 IPPS-A Broadcast to Industry deck lists 'MAY 24: Digital Adoption Platform (WhatFix)' under recent awards.",
+        "The official record proves an executed non-incumbent award, but the public artifact inspected does not disclose the award amount or recurring subscription term.",
+        "Whatfix's March 2025 announcement says it was chosen to support IPPS-A usability and adoption for the Army user population."
+      ],
+      "same_outcome_causal_chain": "PARTIAL_PASS_THE_BUYER_RECORD_PROVES_LIVE_SYSTEM_PLUS_CONTINUING_ADOPTION_SUPPORT_LOAD_AND_A_DISTINCT_DAP_AWARD_BUT_PUBLIC_BUYER_EVIDENCE_DOES_NOT_BIND_A_RECURRING_PAYMENT_TERM_OR_EXPLICITLY_ATTRIBUTE_THE_AWARD_TO_A_CORE_PLATFORM_FAILURE",
+      "non_incumbent_residual_provider_preflight": "FAIL_AS_WHITE_SPACE_WHATFIX_IS_A_MATURE_DIGITAL_ADOPTION_PLATFORM_SOLD_FOR_EXACTLY_THE_IN_APP_GUIDANCE_ADOPTION_AND_USER_SUPPORT_LAYER",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_THE_RESIDUAL_IS_AN_ESTABLISHED_DAP_CONTROL_SURFACE_DEPLOYED_ON_TOP_OF_IPPSA_NOT_AN_UNOWNED_OPERATOR EDGE",
+      "founder_independence_check": "PASS_FOR_SOFTWARE_DELIVERY_BUT_THE_FOUNDER_INDEPENDENT_ASSET_IS_OWNED_BY_WHATFIX",
+      "data_action_rights_check": "FAIL_FOR_GENERIC_OPERATOR_IPPSA_PERSONNEL_AND_PAY_CONTEXT_REQUIRES_GOVERNED_FEDERAL_SYSTEM_ACCESS_AND_DEPLOYMENT_RIGHTS",
+      "normalized_margin_check": "UNKNOWN_PUBLIC_AWARD_PROVES_MONEY_MOTION_BUT_AMOUNT_TERM_AND_RECURRING_UNIT_ARE_NOT_DISCLOSED_IN_THE_BUYER_ARTIFACT",
+      "machine_delegatability_check": "PASS_EXISTING_DAP_PROVES_MACHINE_FIRST_IN_APP_GUIDANCE_AND_ANALYTICS",
+      "generic_agent_substitutability_check": "PARTIAL_A_GENERAL_AGENT_CAN_EXPLAIN_WORKFLOWS_BUT_CANNOT_BY_ITSELF_INSTALL_AND_CONTROL_IN_APP_ENTERPRISE_GUIDANCE_ACROSS_GOVERNED_IPPSA_SURFACES",
+      "verdict": "DEMOTED_DISTINCT_POST_GO_LIVE_AWARD_EXISTS_BUT_STRICT_RECURRING_PAYMENT_EVIDENCE_IS_INCOMPLETE_AND_THE_RESIDUAL_LAYER_IS_ALREADY_A_MATURE_DIGITAL_ADOPTION_CATEGORY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_078-F3",
+      "title": "DURHAM_COUNTY_SERVICENOW_EMPLOYEE_SUPPORT_RESIDUAL_PLUS_MOVEWORKS",
+      "chinese_title": "Durham County ServiceNow员工支持残余与Moveworks三年付费层",
+      "evidence_class": "EXECUTED_RECURRING_NON_INCUMBENT_RESIDUAL_PAYMENT_LATER_ABSORBED_BY_INCUMBENT",
+      "evidence_summary": "Durham County already used ServiceNow for enterprise service management and officially described employees waiting hours or days for HR/IT/Finance/Facilities answers. In March 2023 the County authorized a three-year $271,578.95 Carahsoft contract for Moveworks conversational AI to answer those issues and free the service desk. Moveworks later operated with ServiceNow at Durham. In December 2025 ServiceNow completed its acquisition of Moveworks, turning the strongest non-incumbent payment example into direct incumbent absorption.",
+      "buyer_authored_post_live_failure_evidence": [
+        "Durham County's 2023 materials identify ServiceNow as an existing enterprise service-management platform spanning IT and HR service delivery.",
+        "The March 2023 County agenda states employees could wait hours or potentially days for support answers and that the service desk should be freed to focus on more complex issues.",
+        "The buyer therefore documents a live service-management environment with a same-outcome support latency and routine-demand residual."
+      ],
+      "actual_non_incumbent_recurring_payment_evidence": [
+        "The March 13, 2023 County agenda authorizes a three-year Carahsoft contract for $271,578.95 to purchase Moveworks.",
+        "The same buyer record defines the paid outcome as instant automated handling of HR, IT, Finance and Facilities issues through conversational AI.",
+        "At contract time Moveworks was a distinct provider from ServiceNow, so this satisfies the executed multi-year non-incumbent payment floor."
+      ],
+      "same_outcome_causal_chain": "PASS_STRONG_EXISTING_ENTERPRISE_SERVICE_MANAGEMENT_PLUS_BUYER_AUTHORED_SUPPORT_LATENCY_AND_SERVICE_DESK_LOAD_DIRECTLY_PRECEDE_A_THREE_YEAR_NON_INCUMBENT_MOVEWORKS_PURCHASE_FOR_THE_SAME_EMPLOYEE_SUPPORT_OUTCOME",
+      "non_incumbent_residual_provider_preflight": "FAIL_AS_WHITE_SPACE_MOVEWORKS_IS_A_MATURE_ENTERPRISE_AI_FRONT_DOOR_PRODUCT_THAT_ALREADY_OWNS_THE_EXACT_ROUTINE_EMPLOYEE_SUPPORT_RESIDUAL",
+      "exact_incumbent_preflight": "FAIL_DECISIVELY_SERVICENOW_COMPLETED_ITS_ACQUISITION_OF_MOVEWORKS_IN_DECEMBER_2025_SO_THE_DISTINCT_RESIDUAL_PROVIDER_HAS_NOW_BEEN_ABSORBED_INTO_THE_PRIMARY_INCUMBENT_ECOSYSTEM",
+      "founder_independence_check": "PASS_FOR_PRODUCT_DELIVERY_BUT_THE_REUSABLE_ASSET_AND_DISTRIBUTION_POSITION_BELONG_TO_MOVEWORKS_SERVICENOW",
+      "data_action_rights_check": "PARTIAL_EMPLOYEE_KNOWLEDGE_AND_TICKETING_ACTIONS_CAN_BE_INTEGRATED_BUT_REQUIRE_ENTERPRISE_IDENTITY_KNOWLEDGE_BASE_AND_SERVICENOW_RIGHTS",
+      "normalized_margin_check": "PASS_EXECUTED_THREE_YEAR_CONTRACT_PROVES_RECURRING_SOFTWARE_ECONOMICS",
+      "machine_delegatability_check": "PASS_THE_PURCHASED_PRODUCT_IS_MACHINE_FIRST_CONVERSATIONAL_RESOLUTION",
+      "generic_agent_substitutability_check": "PARTIAL_GENERAL_AGENTS_CAN_ANSWER_GENERIC_QUESTIONS_BUT_ENTERPRISE_IDENTITY_KNOWLEDGE_AND_TRANSACTIONAL_ACTION_RIGHTS_ARE_THE_MATERIAL_CONTROL_SURFACE",
+      "verdict": "DEMOTED_STRONGEST_SCAN078_PAYMENT_CHAIN_BUT_THE_PAID_RESIDUAL_IS_A_MATURE_PRODUCT_AND_WAS_SUBSEQUENTLY_ABSORBED_BY_SERVICENOW_ITSELF"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_078-F4",
+      "title": "IVY_TECH_SALESFORCE_STUDENT_APPLICATION_SUPPORT_RESIDUAL_PLUS_WALKME",
+      "chinese_title": "Ivy Tech Salesforce学生申请上线后的支持残余与WalkMe三年付费层",
+      "evidence_class": "EXECUTED_RECURRING_NON_INCUMBENT_RESIDUAL_PAYMENT_MATURE_DAP",
+      "evidence_summary": "Ivy Tech's Health Sciences student application went live in Salesforce in March 2021 and accumulated 3,153 support tickets in its first year; the following March WalkMe DAP content was launched and the comparable ticket count fell 53%. In June 2022 Ivy Tech's trustees approved a three-year enterprise WalkMe extension for $777,615.79. This is a strong post-live same-outcome recurring non-incumbent payment, but the residual is exactly the mature Digital Adoption Platform category WalkMe sells.",
+      "buyer_authored_post_live_failure_evidence": [
+        "Ivy Tech's DAP team states its Salesforce Health Sciences Student Application first went live in March 2021 and accumulated 3,153 tickets in the first year.",
+        "The same customer-authored account describes confusion, inefficient mandatory tasks and users unable to complete processes without support across student systems.",
+        "WalkMe DAP content was launched in March 2022 for the same application and the ticket count fell 53% over the comparable following period."
+      ],
+      "actual_non_incumbent_recurring_payment_evidence": [
+        "Ivy Tech Board minutes from June 2, 2022 record approval to extend the WalkMe software licensing agreement enterprise-wide for three years at $777,615.79.",
+        "The Board explicitly identifies WalkMe as digital adoption software for user adoption, engagement and retention.",
+        "The three-year board-approved license is executed recurring spend on a provider distinct from Salesforce, ServiceNow, Workday and the other underlying platforms."
+      ],
+      "same_outcome_causal_chain": "PASS_STRONG_A_LIVE_SALESFORCE_APPLICATION_GENERATED_A_LARGE_SUPPORT_RESIDUAL_WALKME_WAS_DEPLOYED_TO_THAT_EXACT_USER_ADOPTION_PROBLEM_AND_THE_BUYER_EXECUTED_A_THREE_YEAR_ENTERPRISE_LICENSE",
+      "non_incumbent_residual_provider_preflight": "FAIL_AS_WHITE_SPACE_WALKME_IS_THE_NAMED_MATURE_DIGITAL_ADOPTION_PLATFORM_CATEGORY_FOR_EXACTLY_THIS_CROSS_APPLICATION_GUIDANCE_AND_ADOPTION_LAYER",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_THE_RESIDUAL_CONTROL_SURFACE_IS_ALREADY_OWNED_BY_WALKME_AND_IS_DEPLOYED_ACROSS_MULTIPLE_MAJOR_INCUMBENT_APPLICATIONS",
+      "founder_independence_check": "PASS_FOR_SOFTWARE_DELIVERY_BUT_THE_FOUNDATIONAL_ASSET_IS_WALKMES_EXISTING_PLATFORM_AND_CONTENT_RUNTIME",
+      "data_action_rights_check": "PARTIAL_IN_APP_GUIDANCE_IS_DEPLOYABLE_WITH_BUYER_PERMISSION_BUT_CROSS_PLATFORM_IDENTITIES_EVENTS_AND_APPLICATION_CONTEXT_REMAIN_CUSTOMER_AND_PLATFORM_CONTROLLED",
+      "normalized_margin_check": "PASS_THREE_YEAR_ENTERPRISE_LICENSE_PROVES_RECURRING_SOFTWARE_ECONOMICS",
+      "machine_delegatability_check": "PASS_EXISTING_DAP_PROVES_REPEATABLE_SOFTWARE_DELIVERY",
+      "generic_agent_substitutability_check": "PARTIAL_GENERAL_AGENTS_CAN_GUIDE_USERS_BUT_EMBEDDED_CROSS_APPLICATION_TELEMETRY_AND_IN_APP_ACTION_SURFACES_REQUIRE_DEPLOYMENT_RIGHTS",
+      "verdict": "DEMOTED_STRONG_POST_GO_LIVE_NON_INCUMBENT_PAYMENT_CHAIN_BUT_THE_RESIDUAL_IS_ALREADY_AN_EXPLICIT_MATURE_DIGITAL_ADOPTION_PRODUCT_CATEGORY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_078-F5",
+      "title": "RIVERSIDE_COUNTY_PEOPLESOFT_ENVIRONMENT_PLUS_UIPATH_AUTOMATION",
+      "chinese_title": "Riverside County PeopleSoft环境与UiPath年度自动化付费层",
+      "evidence_class": "EXECUTED_NON_INCUMBENT_PAYMENT_WITHOUT_SAME_OUTCOME_CAUSALITY",
+      "evidence_summary": "Riverside County approved an annual $436,235.06 UiPath license/services agreement through January 2025 and separately continues to fund PeopleSoft HCM/Financial Systems licenses and support, including a $9.507M renewal approved in 2025. This proves concurrent non-incumbent automation spend around a durable enterprise application environment, but the buyer record inspected does not attribute the UiPath purchase to an unresolved post-PeopleSoft outcome, so the Scan 078 causal floor fails before white-space analysis.",
+      "buyer_authored_post_live_failure_evidence": [
+        "Riverside County continues to operate and renew PeopleSoft HCM and Financial Systems as a durable enterprise application environment.",
+        "The inspected buyer proceedings do not state that a PeopleSoft go-live or replacement left a specific same outcome unresolved and caused the UiPath purchase.",
+        "Concurrent enterprise-platform and automation spend therefore cannot be upgraded into post-replacement causal evidence."
+      ],
+      "actual_non_incumbent_recurring_payment_evidence": [
+        "On March 19, 2024 the Riverside County Board approved a UiPath licenses and services agreement for an annual amount of $436,235.06 through January 19, 2025.",
+        "On June 24, 2025 the Board approved PeopleSoft HCM and Financial Systems licenses/support renewal up to $9,507,098 for one year with four additional annual renewal options.",
+        "These records prove real buyer-side software spend on distinct providers, but not that both payments target the same unresolved outcome."
+      ],
+      "same_outcome_causal_chain": "FAIL_NO_BUYER_AUTHORED_EVIDENCE_TIES_THE_UIPATH_ANNUAL_PAYMENT_TO_A_SPECIFIC_POST_PEOPLESOFT_UNRESOLVED_OUTCOME",
+      "non_incumbent_residual_provider_preflight": "FAIL_AS_WHITE_SPACE_UIPATH_IS_A_MATURE_RPA_PLATFORM_FOR_REPETITIVE_AUTOMATION_EVEN_BEFORE_CAUSALITY_IS_PROVEN",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_THE_AUTOMATION_LAYER_IS_ALREADY_AN_EXPLICIT_UIPATH_CONTROL_SURFACE_AND_THE_CORE_RECORD_SYSTEM_REMAINS_PEOPLESOFT",
+      "founder_independence_check": "PASS_FOR_SOFTWARE_PLATFORM_DELIVERY_BUT_NOT_RELEVANT_BECAUSE_THE_CAUSAL_FLOOR_ALREADY_FAILS",
+      "data_action_rights_check": "PARTIAL_AUTOMATION_REQUIRES_BUYER_CREDENTIALS_APPLICATION_PERMISSIONS_AND_PROCESS_SPECIFIC_RIGHTS",
+      "normalized_margin_check": "PASS_ANNUAL_SOFTWARE_SPEND_IS_EVIDENCED_BUT_NOT_FOR_A_PROVEN_SAME_OUTCOME_RESIDUAL",
+      "machine_delegatability_check": "PASS_RPA_IS_MACHINE_EXECUTION_BY_DESIGN",
+      "generic_agent_substitutability_check": "PARTIAL_GENERAL_AGENTS_MAY_GENERATE_AUTOMATIONS_BUT_ENTERPRISE_CREDENTIALS_CONTROLS_AND_DEPLOYMENT_REMAIN_MATERIAL",
+      "verdict": "DEMOTED_EXECUTED_NON_INCUMBENT_AUTOMATION_PAYMENT_EXISTS_BUT_SCAN078_SAME_OUTCOME_POST_REPLACEMENT_CAUSALITY_IS_NOT_PROVEN"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "convenient_search_lens_became_ontology": false,
+    "observed_indexing_bias": "PUBLIC_BUYER_EVIDENCE_WITH_EXECUTED_SOFTWARE_AWARDS_OVERSELECTED_AMBIENT_AI_DIGITAL_ADOPTION_CONVERSATIONAL_AI_AND_RPA_COMPLEMENTS_BECAUSE_CONTRACTS_AND_BOARD_RECORDS_ARE_INDEXABLE",
+    "response": "TREAT_THE_CLUSTER_AS_EVIDENCE_THAT_MATURE_COMPLEMENT_CATEGORIES_CAPTURE_POST_GO_LIVE_RESIDUAL_SPEND_NOT_AS_THE_NEXT_SEARCH_ONTOLOGY",
+    "incumbent_presence_used_as_automatic_kill": false,
+    "participant_behavior_over_analyst_story": "PASS_FOR_PAYMENT_MOTION_BUT_FAIL_CLOSED_WHERE_BUYER_AUTHORED_CAUSALITY_IS_ONLY_PARTIAL"
+  },
+  "scan_learnings": [
+    "ACTUAL_NON_INCUMBENT_RESIDUAL_PAYMENT_IS_DISCOVERABLE_AND_IS_STRONGER_EVIDENCE_THAN_SCAN077_INCUMBENT_BOUND_OR_BUDGET_ONLY_RESIDUALS",
+    "DURHAM_COUNTY_AND_IVY_TECH_PROVIDE_THE_STRONGEST_SCAN078_CHAINS_BECAUSE_BUYERS_EXECUTED_MULTI_YEAR_NON_INCUMBENT_SOFTWARE_SPEND_AGAINST_DOCUMENTED_POST_GO_LIVE_SUPPORT_OR_ADOPTION_RESIDUALS",
+    "UNIVERSITY_HEALTH_PROVES_LARGE_REPEAT_ENTERPRISE_SPEND_CAN_MOVE_TO_A_DISTINCT_AMBIENT_AI_PROVIDER_AFTER_EPIC_GO_LIVE_WHILE_CLINICAL_DOCUMENTATION_REMAINS_AN_EXPLICIT_IMPROVEMENT_TARGET_BUT_THE_CAUSAL_LINK_IS_NOT_BUYER_AUTHORED_AS_EPIC_FAILURE",
+    "THE_ARMY_WHATFIX_RECORD_PROVES_A_DISTINCT_POST_GO_LIVE_AWARD_BUT_STRICT_RECURRING_TERM_AND_AMOUNT_ARE_NOT_PUBLICLY_BOUND_IN_THE_INSPECTED_BUYER_ARTIFACT",
+    "RIVERSIDE_COUNTY_PROVES_CONCURRENT_CORE_PLATFORM_AND_NON_INCUMBENT_AUTOMATION_SPEND_DOES_NOT_ESTABLISH_SAME_OUTCOME_CAUSALITY",
+    "NON_INCUMBENT_PAYMENT_DOES_NOT_ESTABLISH_WHITE_SPACE_WHEN_THE_PAID_RESIDUAL_IS_ALREADY_A_MATURE_HORIZONTAL_OR_VERTICAL_COMPLEMENT_CATEGORY",
+    "DURHAM_MOVEWORKS_SHOWS_DISTINCT_RESIDUAL_PROVIDERS_CAN_BE_ABSORBED_DIRECTLY_BY_THE_PRIMARY_INCUMBENT_ECOSYSTEM_AFTER_THE_BUYER_HAS_ALREADY_PAID_THEM",
+    "MACHINE_FIRST_FOUNDER_INDEPENDENT_DELIVERY_CAN_BE_REAL_AND_STILL_HAVE_ZERO_OPERATOR_WHITE_SPACE_WHEN_THE_EXISTING_COMPLEMENT_OWNS_THE_ASSET_DATA_RIGHTS_AND_DISTRIBUTION_POSITION",
+    "SCAN078_ZERO_RETENTION_AFTER_CAUSALITY_NON_INCUMBENT_PROVIDER_CONTROL_SURFACE_RIGHTS_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_PREFLIGHT",
+    "NEXT_EVIDENCE_ESCALATION_SHOULD_REQUIRE_BUYER_AUTHORED_PROOF_THAT_THE_SAME_OUTCOME_REMAINS_UNRESOLVED_EVEN_AFTER_THE_DISTINCT_NON_INCUMBENT_RESIDUAL_LAYER_HAS_BEEN_PURCHASED",
+    "SCAN079_MUST_STAY_MECHANISM_NEUTRAL_AND_MUST_NOT_REINTRODUCE_MULTI_PROVIDER_ROUTING_OR_ABSTRACTION_AS_A_REQUIRED_PRODUCT_SHAPE"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_079",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_SAME_UNRESOLVED_OUTCOME_PLUS_EXECUTED_RECURRING_PAYMENT_TO_A_DISTINCT_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_PLUS_BUYER_AUTHORED_POST_RESIDUAL_PURCHASE_EVIDENCE_THAT_THE_SAME_OUTCOME_REMAINS_UNRESOLVED_DESPITE_THAT_PAID_RESIDUAL_LAYER_FORMATION_DIVERSE_REQUIRE_EXECUTED_PAYMENT_NOT_BUDGET_OR_SOLICITATION_INTENT_EXCLUDE_STANDARD_AMS_OEM_PARTNER_SUPPORT_INTEGRATORS_CONSULTANTS_BPO_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_078_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_AND_RESIDUAL_PROVIDER_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN079_FROM_POST_RESIDUAL_PURCHASE_SAME_OUTCOME_FAILURE_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.universityhealth.com/-/media/Files/About-Us/Public-Notices-Reports/Financial-Reports/Operating-Debt-Service-and-Capital-Budget/2023-Budget.ashx",
+    "https://www.universityhealth.com/-/media/Files/Meeting-Agendas/Agenda-April-29-2025.ashx",
+    "https://www.universityhealth.com/-/media/Files/Meeting-Agendas/Agenda-April-28-2026.ashx",
+    "https://www.abridge.com/press-release/abridge-becomes-epics-first-pal-bringing-generative-ai-to-more-providers-and-patients",
+    "https://www.epic.com/epic/post/cool-stuff-now-ai-charting/",
+    "https://ipps-a.army.mil/Resources/News/Article/3611553/ipps-a-update-1-year-anniversary-pais-latest-job-aids-and-resources/",
+    "https://www.eis.army.mil/sites/default/files/2024-10/IPPS-A%20Broadcast%20to%20Industry%20slide%20deck%2010%20OCT%202024_0.pdf",
+    "https://whatfix.com/newsroom/press-releases/whatfix-enters-federal-sector-empowering-us-army-peo-enterprise/",
+    "https://dconc.gov/Board-of-Commissioners1/Archived-Agendas--Minutes/2023/20230313RSAgenda.pdf",
+    "https://www.moveworks.com/us/en/resources/blog/durham-county-launches-public-service-transformation",
+    "https://newsroom.servicenow.com/press-releases/details/2025/ServiceNow-completes-acquisition-of-Moveworks/default.aspx",
+    "https://www.ivytech.edu/media/gyepjfzz/june-2022-board-minutes.pdf",
+    "https://www.walkme.com/events/ivy-tech-community-college-of-indiana/",
+    "https://media.rivcocob.org/proceeds/2024/p2024_03_19.htm",
+    "https://media.rivcocob.org/proceeds/2025/p2025_06_24.htm"
+  ]
+}
