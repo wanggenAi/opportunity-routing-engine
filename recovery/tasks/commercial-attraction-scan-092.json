@@ -1,18 +1,19 @@
 {
   "schema_version": 2,
-  "generation": 2,
+  "generation": 3,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "task_key": "commercial-attraction-scan-092",
-  "stage": "SCAN_092_PR390_OPEN_AWAITING_FINAL_HEAD_CI_JEV",
-  "last_observed_main_sha": "4f3465e8e0ff601afad7fcb8c5e6617ce61b50fe",
+  "stage": "SCAN_092_MERGED_VALIDATED_CONTINUATION_CONSUMED",
+  "last_observed_main_sha": "4a0662ae89472a7731d39315264aeeac39bd2605",
   "work_branch": "research/attraction-scan-092",
   "work_head_sha": "c760ad0d2373aedb952c0f90c8b3b99a15730bdf",
   "active_pr": 390,
   "ci": {
+    "run_id": 35701703501,
     "head_sha": "c760ad0d2373aedb952c0f90c8b3b99a15730bdf",
-    "status": "PENDING",
-    "conclusion": null
+    "status": "COMPLETED",
+    "conclusion": "success"
   },
   "production_or_artifact": {
     "status": "NOT_APPLICABLE",
@@ -24,7 +25,7 @@
       "SCAN092_BRANCH_REUSED_FROM_IDENTICAL_MAIN_HEAD"
     ]
   },
-  "pending_operation": "WAIT_FINAL_HEAD_CI_JEV",
+  "pending_operation": null,
   "health": {
     "recovery": "HEALTHY",
     "last_error": null
@@ -40,9 +41,13 @@
     "SCAN092_RESET_STATE_UPDATED",
     "SCAN092_TASK_STATE_UPDATED",
     "SCAN092_PR390_OPENED",
-    "SCAN092_TASK_STATE_BOUND_TO_PR390"
+    "SCAN092_TASK_STATE_BOUND_TO_PR390",
+    "SCAN092_FINAL_HEAD_CI_SUCCESS",
+    "SCAN092_LIVE_JEV_SUCCESS",
+    "SCAN092_JEV_CONTINUATION_ADVANCE_TO_NEXT_SCAN",
+    "SCAN092_PR390_MERGED"
   ],
-  "next_action": "Wait for PR #390 final-head repository CI and live Jev; consume continuation and merge only if permitted.",
+  "next_action": "Superseded by Scan 093 continuation.",
   "do_not_repeat": [
     "Do not repeat Scan 089 Seats.aero, Monarch, or HealthFit/RunGap.",
     "Do not repeat Scan 090 Zapier, 1Password, or Fantastical.",
@@ -50,7 +55,9 @@
     "Do not repeat Scan 015 public-rights research while written provider evidence is outstanding."
   ],
   "jev": {
-    "previous_run_id": 35699687114,
+    "run_id": 35701703346,
+    "status": "COMPLETED",
+    "conclusion": "success",
     "autonomous_continuation_allowed": true,
     "next_action": "ADVANCE_TO_NEXT_SCAN"
   }
