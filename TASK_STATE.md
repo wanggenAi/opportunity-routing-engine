@@ -38,12 +38,12 @@ ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PR
 
 ## Current Phase
 
-`SCAN_081_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_082_IN_PROGRESS_SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_PASS`
 
 ## Last Verified Main
 
-`876d15ba66d13f43e204cebbeb47c0eda528f3f8`
-— squash merge of PR #378, `Reset discovery source after Scan 080`.
+`49c8eedf09325ec4c3ada5682630dd447b47874c`
+— squash merge of PR #379, `Reset to actor-state discovery after Scan 081`.
 
 PR #377 repository CI run `35685183602` completed `success`. Live Jev run `35685183656` completed `success`: real TypeSafe/Jev used `typesafe-sdk==0.7.0`, `jev-latest`, and repository `TYPESAFE_API_KEY`; 3/3 model and effective routes were `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, and `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
@@ -53,17 +53,19 @@ PR #377 repository CI run `35685183602` completed `success`. Live Jev run `35685
 
 ## Active Branch
 
-`research/attraction-scan-081`.
+`research/attraction-scan-082`.
 
 ## Active PR
 
-#379 — `Reset to actor-state discovery after Scan 081`. Live GitHub state is authoritative.
+None. Scan 082 research branch is active before PR creation.
 
 ## CI
 
 - PR #378 repository CI run `35687482092` completed `success`.
 - PR #378 live Jev run `35687481966` completed `success`; real TypeSafe/Jev evaluated `ATTRACTION_SCAN_080` (3 entities), returned 3/3 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
-- PR #379 repository CI and live TypeSafe/Jev must validate the final Scan 081 head before merge.
+- PR #379 repository CI run `35687984295` completed `success`.
+- PR #379 live Jev run `35687984154` completed `success`; real TypeSafe/Jev evaluated `ATTRACTION_SCAN_081` (3 entities), returned 3/3 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
+- No Scan 082 PR/CI exists yet.
 
 ## Latest Artifact / Persisted State
 
@@ -137,7 +139,7 @@ Discovery:
 
 ## Next Action
 
-Open the Scan 081 PR, run repository CI and live TypeSafe/Jev against the final head, consume the actual continuation directive, and continue automatically. If green and Jev returns `ADVANCE_TO_NEXT_SCAN`, merge, verify main, and start Scan 082 as the second independent broad current-reality actor/state-change pass.
+Execute Scan 082 as the second independent broad current-reality actor/state-change pass. Exclude Scan 081 carbon-data, France e-invoice and AI-agent identity primary signals; start from unrelated current observed state changes or workarounds, not product categories or procurement feeds; preserve fail-closed incumbent/control-surface, rights, margin, machine-delegatability and generic-agent substitution preflights.
 
 ## Do Not Repeat
 
