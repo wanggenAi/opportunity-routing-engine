@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "generation": 1,
+  "repository": "wanggenAi/opportunity-routing-engine",
+  "status": "IN_PROGRESS",
+  "task_key": "commercial-attraction-scan-091",
+  "stage": "SCAN_091_RESEARCH_PERSISTED_PR_NOT_OPENED",
+  "last_observed_main_sha": "c1b3673db8f69e60cc20dc7ba954bb28f1008891",
+  "work_branch": "research/attraction-scan-091",
+  "work_head_sha": "6ec47ea70175aa29d9cf752decd7486d37e93ca8",
+  "active_pr": null,
+  "ci": {
+    "run_id": null,
+    "head_sha": "6ec47ea70175aa29d9cf752decd7486d37e93ca8",
+    "status": "NOT_STARTED",
+    "conclusion": null
+  },
+  "production_or_artifact": {
+    "status": "NOT_APPLICABLE",
+    "evidence": [
+      "PR388_MERGED_MAIN_C1B3673D",
+      "PR388_CI_SUCCESS_35697745738",
+      "PR388_JEV_SUCCESS_35697745723",
+      "PR388_JEV_ADVANCE_TO_NEXT_SCAN"
+    ]
+  },
+  "pending_operation": null,
+  "health": {
+    "recovery": "HEALTHY",
+    "last_error": null
+  },
+  "completed": [
+    "SCAN_090_MERGED_AND_CONTINUATION_CONSUMED",
+    "SCAN_091_BRANCH_REUSED_FROM_IDENTICAL_MAIN_HEAD",
+    "SCAN_091_RESEARCH_PERSISTED",
+    "SCAN_091_DOC_PERSISTED",
+    "SCAN_091_TEST_CONTRACT_PERSISTED",
+    "SCAN_091_RESET_STATE_UPDATED",
+    "SCAN_091_TASK_STATE_UPDATED"
+  ],
+  "next_action": "Open the Scan 091 PR, bind this checkpoint to its final head, validate repository CI and live Jev, then consume continuation.",
+  "do_not_repeat": [
+    "Do not repeat Scan 089 Seats.aero, Monarch, or HealthFit/RunGap.",
+    "Do not repeat Scan 090 Zapier, 1Password, or Fantastical.",
+    "Do not repeat Scan 091 ecommerce accounting connector, cold-email deliverability/verification, or Home Assistant/SmartThings API toll formations.",
+    "Do not repeat Scan 015 public-rights research while written provider evidence is outstanding."
+  ]
+}
