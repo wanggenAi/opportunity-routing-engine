@@ -58,13 +58,13 @@ PR #377 repository CI run `35685183602` completed `success`. Live Jev run `35685
 
 ## Active PR
 
-None yet. Scan 080 artifacts are complete on `research/attraction-scan-080`; open the PR and validate the final head.
+#378 — `Reset discovery source after Scan 080`. Live GitHub state is authoritative.
 
 ## CI
 
 - PR #377 repository CI run `35685183602` completed `success`.
 - PR #377 live Jev run `35685183656` completed `success`; real TypeSafe/Jev evaluated `ATTRACTION_SCAN_079` (3 entities), returned 3/3 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
-- Scan 080 artifacts are persisted on `research/attraction-scan-080`; repository CI and live TypeSafe/Jev must validate the final PR head before merge.
+- PR #378 repository CI and live TypeSafe/Jev must validate the final Scan 080 head before merge.
 
 ## Latest Artifact / Persisted State
 
