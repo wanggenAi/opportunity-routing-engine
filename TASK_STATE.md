@@ -14,26 +14,27 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_105` is complete on PR #403 as the first `EXECUTED FRESH-OPERATOR CONTROL TRANSFER + POST-TRANSFER EXTERNAL ECONOMIC CONTINUITY` pass. It retained zero formations and advanced the evidence priority to a second independent pass that also treats new-operator full-time manual delivery as an explicit founder-independence failure.
+Discovery: PR #403 exact final head passed repository CI plus real TypeSafe/Jev and was squash-merged. `ATTRACTION_SCAN_106` is active as the second independent `EXECUTED FRESH-OPERATOR CONTROL TRANSFER + POST-TRANSFER EXTERNAL ECONOMIC CONTINUITY` pass. It must use fresh formation-diverse China evidence and explicitly fail any position whose economics require new-operator full-time manual delivery.
 
 ## Current Phase
 
-`SCAN_105_PR_VALIDATION_ACTIVE`
+`SCAN_106_RESEARCH_ACTIVE`
 
 ## Last Verified Main
 
-`3106c982e051cd14077c105a4186b0e6d002882f`
-— squash merge of PR #402, `Run fresh-entry non-commodity control Scan 104`.
+`6330d4c9d5c8e58ca61ab8d2f28595cee506ccfa`
+— squash merge of PR #403, `Complete executed transfer continuity Scan 105`.
 
-PR #402 final head `a6a2cd2235987b013cb540e00d4def1c4a162f7f`:
-- repository CI run `35730397277`: success;
-- live TypeSafe/Jev run `35730397400`: success;
+PR #403 final head `97e027bf6f1f197986e1ecf97a5727552b7b2e8e`:
+- repository CI run `35732927512`: success;
+- live TypeSafe/Jev run `35732927526`: success;
+- live advisory artifact `10695764585`;
 - 3/3 model and effective route `NO_FURTHER_RESEARCH`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That directive was consumed to start Scan 105.
+That directive was consumed to start Scan 106.
 
 ## Active Issue
 
@@ -41,23 +42,17 @@ That directive was consumed to start Scan 105.
 
 ## Active Branch
 
-`research/attraction-scan-105`
+`research/attraction-scan-106`
 
 ## Active PR
 
-#403 — `Complete executed transfer continuity Scan 105`.
-
-Research/state head before this TASK_STATE write:
-`046ea46c389dd7637d3f1e74f8823819ba0cedd4`.
-
-GitHub live PR head is authoritative after this file update.
+None yet. Open a PR only after Scan 106 evidence, durable state and regression coverage are complete.
 
 ## CI
 
-- PR #402 exact-final-head repository CI `35730397277`: success.
-- PR #402 live TypeSafe/Jev `35730397400`: success; 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- PR #403 repository CI / live TypeSafe-Jev: pending on the exact final PR head after this TASK_STATE update.
-- Do not consume an older run if the head changes.
+- PR #403 exact-final-head repository CI `35732927512`: success.
+- PR #403 live TypeSafe/Jev `35732927526`: success; 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
+- Scan 106 branch validation: not yet requested because research is active.
 
 ## Parallel Validation
 
@@ -67,16 +62,12 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-New:
+Latest completed scan:
 - `data/research_runs/attraction_scan_105.json`;
 - `docs/research/ATTRACTION_SCAN_105_2026-09-22.md`;
 - `tests/test_attraction_scan_105_transfer_continuity.py`.
 
-Updated:
-- `data/commercial_reset_state.json`;
-- `TASK_STATE.md`.
-
-Persisted state:
+Persisted state before Scan 106 research:
 - last completed scan = `ATTRACTION_SCAN_105`;
 - last resolved formation = `ATTRACTION_SCAN_105-F3`;
 - next scan = `ATTRACTION_SCAN_106`;
@@ -85,70 +76,22 @@ Persisted state:
 
 ## Completed
 
-- Reconciled the interrupted session against live GitHub instead of replaying Scan 104 or restarting Scan 105.
-- Verified PR #402 was already squash-merged into `main` at `3106c982e051cd14077c105a4186b0e6d002882f`.
-- Verified the real TypeSafe/Jev execution on Scan 104: 3/3 `NO_FURTHER_RESEARCH`, autonomous continuation allowed, `ADVANCE_TO_NEXT_SCAN`.
-- Resumed the already-existing `research/attraction-scan-105` branch, which was six commits ahead of `main`.
-- Verified Scan 105 research JSON, research note, regression coverage and commercial state were already persisted.
-- Confirmed Scan 105 retained zero formations and promoted zero commercial candidates.
-- Opened PR #403 for exact-final-head CI and live TypeSafe/Jev validation.
-
-## Current Findings
-
-### Scan 105-F1 — Chinese manufacturer acquires Gel Blaster
-
-Amazon Global Selling's current China seller case documents a 2024 acquisition, 100% Chinese ownership and post-acquisition return to profit with USD 70 million 2024 enterprise sales.
-
-The executed transfer and economic continuity are strong, but the position fails the target operating boundary: the acquirer already had manufacturing capability and global teams, expanded to dozens of physical stores, and the original founder remained CEO. The system remains organization-, product-, compliance- and retail-heavy.
-
-Verdict: demoted.
-
-### Scan 105-F2 — ordinary buyer takes over an existing parcel station
-
-A current China case documents an ordinary buyer paying nearly RMB 60,000 for an existing 800+ parcel/day station and continuing to earn roughly RMB 6,000-plus per month after several hard costs.
-
-This passes fresh-small-operator transfer and post-transfer cashflow, but the buyer personally worked roughly 9am-10pm seven days per week, sometimes with family help, and later resold for a little over RMB 20,000. Owner shadow wage plus capital loss destroy founder-light normalized economics.
-
-Verdict: demoted.
-
-### Scan 105-F3 — independent developer sells source code
-
-A China independent developer reports an executed USD 1,200 source-code sale.
-
-The seller-side payment is real, but it does not establish buyer-side post-transfer customer cashflow, exclusive copyright control or a durable scarce position. Current China copyright law makes transferred economic rights contract-specific, and the underlying transformation is generic-agent reproducible.
-
-Verdict: demoted.
+- Reconciled the interrupted session against live GitHub rather than replaying prior scan work.
+- Resumed and validated the pre-existing Scan 105 branch instead of re-running its research.
+- Corrected stale TASK_STATE, opened PR #403 and validated its exact final head.
+- Confirmed repository CI success.
+- Confirmed actual TypeSafe/Jev execution: 3/3 `NO_FURTHER_RESEARCH`, autonomous continuation allowed, `ADVANCE_TO_NEXT_SCAN`.
+- Squash-merged PR #403 into `main` at `6330d4c9d5c8e58ca61ab8d2f28595cee506ccfa`.
+- Created `research/attraction-scan-106` from the merged main.
 
 ## Scan 105 Result
 
 First executed-control-transfer + post-transfer-economic-continuity pass completed with zero commercial promotions and zero retained research formations.
 
-State truth:
-- last completed scan = `ATTRACTION_SCAN_105`;
-- last resolved formation = `ATTRACTION_SCAN_105-F3`;
-- next scan = `ATTRACTION_SCAN_106`;
-- active commercial candidates = 0;
-- FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
-
-## Learning
-
-Scan 105 separates three false positives:
-
-```text
-EXECUTED ACQUISITION + POST-TRANSFER REVENUE
-BUT LARGE ORGANIZATION / LEGACY MANAGEMENT REQUIRED
-!= FRESH SMALL-OPERATOR EDGE
-
-EXECUTED SMALL-BUSINESS TRANSFER + POST-TRANSFER CASHFLOW
-BUT BUYER MUST PERSONALLY WORK FULL-TIME
-!= FOUNDER-LIGHT ASSET
-
-SELLER RECEIVES TRANSFER PRICE
-WITHOUT BUYER POST-TRANSFER CUSTOMER CASHFLOW
-!= ECONOMIC CONTINUITY
-```
-
-The next pass should repeat the same evidence floor on fresh formation-diverse China evidence rather than derive an acquisition/product ontology.
+Key falsifiers:
+- large post-acquisition revenue can still require organization-heavy operations and incumbent management continuity;
+- a small operator can buy existing cashflow but merely acquire a full-time physical job;
+- seller transfer revenue does not prove buyer-side post-transfer customer cashflow or exclusive rights.
 
 ## Blockers
 
@@ -156,12 +99,11 @@ Validation:
 - Scan 015-F1 still needs an actual official written provider response/agreement and founder-free inbound proof.
 
 Engineering:
-- no current Jev integration blocker;
-- PR #403 exact-final-head repository CI and live TypeSafe/Jev must finish before the continuation directive is consumed.
+- no current Jev integration blocker.
 
 Discovery:
-- do not infer brand M&A, parcel stations, source-code trading or any asset marketplace as the next product class;
-- Scan 106 must be a second independent executed-transfer + post-transfer-continuity pass from broad current China reality;
+- Scan 106 must independently repeat the executed-transfer + post-transfer-continuity floor on fresh China evidence;
+- do not infer brand M&A, parcel stations, source-code trading, apps, plugins, games, websites, domains, SEO assets or asset marketplaces as the next ontology;
 - new-operator full-time manual delivery is an explicit founder-independence failure;
 - no promotion without buyer-side or official transfer corroboration, purchase/control cost, post-transfer revenue, direct operating cost, owner labor and rights evidence.
 
@@ -213,4 +155,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Wait for PR #403's exact final head repository CI and live TypeSafe/Jev run to reach terminal state. Read the actual Jev continuation directive. If `autonomous_continuation_allowed=true`, consume it immediately and continue the reversible next research stage without waiting for a manual "continue".
+Run Scan 106 from broad current China reality. Require an actually executed fresh-small-operator acquisition/license/contract of a decisive non-commodity position, buyer-side or official corroboration of continuing external customer payment after control changes, bounded owner labor, rights clarity and normalized economics. Persist only evidence-supported outcomes before opening a PR.
