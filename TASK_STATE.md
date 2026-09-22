@@ -14,21 +14,20 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` still requires written cross-rail outcome-data rights plus organic founder-free inbound intent. Inbox check on 2026-09-22 found no official reply from the two verified outreach targets; no response is neither a pass nor a denial.
 
-Discovery: Scan 091 completed the first pass at the stronger **paid coordinator + recurring residual failure + executed second economic cost** floor. It examined ecommerce accounting, cold-email deliverability and smart-home coordination. One formation cleanly proved replicated double spend, but all three closed on exact mature complements, native absorption, rights/control or failure to prove executed second cost. Scan 092 must repeat the same floor on fresh formation-diverse evidence before another signal change.
+Discovery: Scan 092 completed the second independent pass at the paid-primary/coordinator + residual-failure + executed-second-cost floor. Figma/token sync, Webflow membership/auth and Lightroom/offsite-backup all closed without retention. Across Scan 091 + 092, second-layer spend is a strong pain signal but repeatedly selects for mature complements, official partner ecosystems, external rights or adjacent responsibilities. Scan 093 resets the discovery source to broad current reality rather than escalating another downstream payer-stack signal.
 
 ## Current Phase
 
-`SCAN_091_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_092_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`c1b3673db8f69e60cc20dc7ba954bb28f1008891`
-— squash merge of PR #388, `Confirm paid coordination is budget signal in Scan 090`.
+`4f3465e8e0ff601afad7fcb8c5e6617ce61b50fe`
+— squash merge of PR #389, `Validate residual double-cost signal in Scan 091`.
 
-PR #388 final head `70c686e1d11a15830d375e2eb9921143f9bd407c`:
-- repository CI run `35697745738`: success;
-- live Jev run `35697745723`: success;
-- Scan 090 3/3 effective route `NO_FURTHER_RESEARCH`;
+PR #389 final head `9066023c43adfefbd35a7dfa5dda75de826c239d`:
+- repository CI run `35699687141`: success;
+- live Jev run `35699687114`: success;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
@@ -38,130 +37,131 @@ PR #388 final head `70c686e1d11a15830d375e2eb9921143f9bd407c`:
 
 ## Active Branch
 
-`research/attraction-scan-091`
+`research/attraction-scan-092`
 
 ## Active PR
 
-#389 — `Validate residual double-cost signal in Scan 091`.
+None yet; Scan 092 artifacts are persisted on the work branch and ready for PR validation.
 
 ## CI
 
-- PR #388 final head `70c686e1d11a15830d375e2eb9921143f9bd407c`: repository CI `35697745738` success; live Jev `35697745723` success; `ADVANCE_TO_NEXT_SCAN`.
-- PR #389 opened for Scan 091; final-head repository CI and live Jev pending.
+- PR #389 final-head repository CI `35699687141`: success.
+- PR #389 live Jev `35699687114`: success; `ADVANCE_TO_NEXT_SCAN`.
+- Scan 092 PR not yet opened.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_091.json`
-- `docs/research/ATTRACTION_SCAN_091_2026-09-22.md`
-- `tests/test_attraction_scan_091_residual_second_cost_gate.py`
+- `data/research_runs/attraction_scan_092.json`
+- `docs/research/ATTRACTION_SCAN_092_2026-09-22.md`
+- `tests/test_attraction_scan_092_second_residual_cost_pass.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
 Persisted state:
-- last completed scan = `ATTRACTION_SCAN_091`;
-- last resolved formation = `ATTRACTION_SCAN_091-F3`;
-- next scan = `ATTRACTION_SCAN_092`;
+- last completed scan = `ATTRACTION_SCAN_092`;
+- last resolved formation = `ATTRACTION_SCAN_092-F3`;
+- next scan = `ATTRACTION_SCAN_093`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`;
-- next boundary = second independent pass at the same paid-coordinator residual-failure + **executed** second-cost floor.
+- next boundary = broad-current-reality source reset after two residual-second-cost passes.
 
 ## Completed
 
-- Reconciled stale Scan 090 recovery state against live GitHub.
-- Confirmed PR #388 is merged to main and consumed final-head repository CI + live Jev.
-- Consumed Jev continuation: `autonomous_continuation_allowed=true`, `ADVANCE_TO_NEXT_SCAN`.
-- Scan 091 researched three fresh formation-diverse markets:
-  - ecommerce accounting ledger + settlement connector;
-  - cold-email orchestration + deliverability/verification tools;
-  - Home Assistant Cloud + upcoming SmartThings API toll.
-- Scan 091 persisted research JSON, human-readable research note and regression contract.
-- `data/commercial_reset_state.json` now advances discovery to Scan 092.
+- Reconciled live main, PR #389, final-head CI, live Jev and Scan 091 recovery state.
+- Confirmed Scan 091 Jev allows autonomous continuation with `ADVANCE_TO_NEXT_SCAN`.
+- Reused the pre-existing `research/attraction-scan-092` branch only after proving it was identical to main with zero commits.
+- Scan 092 researched three fresh formation-diverse markets:
+  - Figma design-system/token synchronization;
+  - Webflow membership/auth/billing after User Accounts sunset;
+  - Lightroom Classic plus independent offsite photo backup.
+- Scan 092 persisted research JSON, research note and regression contract.
+- `data/commercial_reset_state.json` now advances discovery to Scan 093.
 - Zero retention and zero commercial promotion.
 
 ## Current Findings
 
-### Scan 091-F1 — ecommerce accounting + settlement connector
+### Scan 092-F1 — Figma + token sync / design-to-code
 
 Observed:
-- one operator explicitly uses QuickBooks Online plus A2X at $110/month;
-- current 2026 users still report payout mapping/review/reconciliation friction;
-- current sellers use paid settlement connectors such as Link My Books.
+- paid Figma/design-system users still show token drift, manual handoff and multi-library friction;
+- paid Tokens Studio / plugin layers exist.
 
 Closure:
-- strict two-user double-payment binding is not equally clean across public participant evidence;
-- A2X, Link My Books, Webgility and peers already own the second paid layer;
-- Intuit rebuilt native ecommerce connectors in 2026 with payout reconciliation and retry logic.
+- strict two-account explicit double-payment binding is not clean enough;
+- Tokens Studio already owns the paid complement category;
+- Figma Variables, APIs, Code Connect and MCP are absorbing more of the workflow;
+- free/open-source/custom CI sync paths reduce durable generic white space;
+- Figma and repository permissions remain externally controlled.
 
-### Scan 091-F2 — cold email + deliverability / verification
-
-Clean replicated double cost:
-- one 2026 operator reports Smartlead ~$189/month + GlockApps ~$90/month;
-- an unaffiliated participant reports a similar Smartlead stack + NeverBounce ~$50/month.
-
-Closure:
-- Smartlead now natively includes SmartDelivery inbox-placement testing and delivery optimization;
-- Gmail and other mailbox providers retain authoritative filtering/reputation control;
-- second spend proves residual pain, not an unowned control edge.
-
-### Scan 091-F3 — Home Assistant Cloud + SmartThings API fee
+### Scan 092-F2 — Webflow + membership/auth/billing
 
 Observed:
-- multiple current 2026 participants pay Home Assistant Cloud/Nabu Casa;
-- Samsung announced a $4.99/month personal SmartThings API plan.
+- Webflow removed native User Accounts and user APIs on 2026-01-29;
+- current builders use Webflow + Memberstack/Outseta/Stripe/custom code;
+- Memberstack has current paid plans.
 
 Closure:
-- Samsung says free API access remains through Q3 and paid access starts in October 2026;
-- as of 2026-09-22 the second cost is future, not executed;
-- direct Zigbee/Z-Wave/Matter migration bypasses many SmartThings dependencies;
-- Samsung retains API rights for cloud-linked devices.
+- strict replicated executed Webflow + second-layer payment is not publicly bound;
+- Webflow explicitly chose an ecosystem-first boundary and recommends the mature partner layer;
+- current complex stacks can still require custom integration/maintenance.
 
-## First-Pass Learning
+### Scan 092-F3 — Lightroom Classic + offsite backup
+
+Observed:
+- a current professional photographer explicitly lists Lightroom Classic and Backblaze among paid business subscriptions;
+- Adobe states Lightroom Classic catalog backup does not back up referenced photos;
+- Backblaze is a mature paid offsite backup control surface.
+
+Closure:
+- backup is an adjacent resilience objective, not the same editing/catalog completion outcome;
+- second clean participant-level double-payment binding is incomplete;
+- mature backup products/local redundancy already own the control surface.
+
+## Two-Pass Learning
 
 ```text
-PAID COORDINATOR
-+ RESIDUAL FAILURE
-+ EXECUTED SECOND COST
+SECOND-LAYER SPEND
 =
-STRONGER ECONOMIC PAIN
+STRONG PAIN / BOUNDARY EVIDENCE
 
-STRONGER ECONOMIC PAIN
+SECOND-LAYER SPEND
 !=
-UNOWNED CONTROL EDGE
+UNOWNED COMMERCIAL EDGE
 ```
 
-Do not raise the discovery gate again after one pass. Scan 092 repeats the same floor on fresh markets.
+After Scan 091 + 092, do not raise another downstream payer-stack gate. Scan 093 must reset to broad current reality: actor/endowment/state changes, underuse, contradiction and partial flow first; money/product-stack evidence only later.
 
 ## Blockers
 
 Validation:
 - Scan 015-F1 still needs actual written provider response/agreement and founder-free inbound proof.
-- 2026-09-22 inbox check found no official reply from `service@bearhome.cn` or `dennis.xie@atrenew.com`.
 - No response remains neither a pass nor a denial.
 
 Engineering:
 - no Jev integration blocker;
-- Scan 091 PR still needs to be opened and validated at its final head.
+- Scan 092 PR still needs final-head repository CI and live Jev.
 
 Discovery:
-- Scan 091 research is complete with zero retention;
-- Scan 092 must not start until Scan 091 final-head CI/Jev continuation is consumed.
+- Scan 092 research is complete with zero retention;
+- Scan 093 must not start until Scan 092 final-head CI/Jev continuation is consumed.
 
 ## Next Action
 
-Validate PR #389 final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue automatically into Scan 092 only if `autonomous_continuation_allowed=true`.
+Open the Scan 092 PR, validate its final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue automatically into Scan 093 only if `autonomous_continuation_allowed=true`.
 
 ## Do Not Repeat
 
 - Do not repeat Scan 089 Seats.aero, Monarch, or HealthFit/RunGap.
 - Do not repeat Scan 090 Zapier, 1Password, or Fantastical.
-- Do not repeat Scan 091 ecommerce accounting connectors, cold-email deliverability/verification, or Home Assistant/SmartThings API toll.
-- Do not use payment for coordination alone as a white-space signal.
-- Do not treat future/planned fees or generic category pricing as executed participant payment.
-- Do not infer a generic router/aggregator/sync/automation mechanism from these closures.
-- Do not return to Scan 060–091 formations or their primary discovery signals.
+- Do not repeat Scan 091 ecommerce accounting connectors, cold-email deliverability/verification, or Home Assistant/SmartThings.
+- Do not repeat Scan 092 Figma token-sync, Webflow membership/auth, or Lightroom/Backblaze formations.
+- Do not use second-layer spend as a new product-stack ontology after two independent passes.
+- Do not treat future/planned fees, cost avoidance or generic category pricing as executed participant payment.
+- Do not treat adjacent backup/safety spend as same-outcome completion cost.
+- Do not return to Scan 060–092 formations or their primary discovery signals.
 - Do not use job/gig/RFQ/procurement feeds as discovery ontology.
 - Do not lower hard floors because discovery closes at zero.
 - Do not repeat Scan 015 public-rights research while written evidence is outstanding.
