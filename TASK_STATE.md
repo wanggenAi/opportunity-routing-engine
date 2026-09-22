@@ -48,7 +48,8 @@ PR #379 live TypeSafe/Jev run `35687984154` completed `success`:
 
 ## Active PR
 
-None yet. Scan 082 evidence/state is complete on the branch before PR creation.
+#380 — `Advance to bilateral partial-flow discovery after Scan 082`.
+Head before this checkpoint: `9801121cf99792cd635437824b68a5742aad31ed`.
 
 ## Latest Artifact / Persisted State
 
@@ -129,7 +130,7 @@ Discovery:
 
 ## Next Action
 
-Open the Scan 082 PR, run repository CI and live TypeSafe/Jev against the final head, consume the actual continuation directive, and continue automatically.
+Run repository CI and live TypeSafe/Jev on PR #380's final head, consume the actual continuation directive, and continue automatically.
 
 If CI is green and Jev returns `ADVANCE_TO_NEXT_SCAN`:
 1. merge Scan 082;
