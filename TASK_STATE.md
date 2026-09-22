@@ -38,7 +38,7 @@ PR #384 final live Jev run `35691310788`: success; `typesafe-sdk==0.7.0`, model 
 
 ## Active PR
 
-None yet. Scan 087 is complete on the research branch and ready for PR validation.
+#385 — `Require replicated participant-controlled completion in Scan 087`.
 
 ## CI
 
@@ -121,7 +121,7 @@ Validation:
 
 Engineering:
 - no Jev integration blocker;
-- Scan 087 requires PR repository CI and live Jev validation.
+- PR #385 opened for Scan 087; final-head repository CI and live Jev pending.
 
 Discovery:
 - Scan 087 research is complete with zero retention;
