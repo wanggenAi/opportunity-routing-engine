@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generation": 4,
+  "generation": 5,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "IN_PROGRESS",
+  "status": "DONE",
   "task_key": "commercial-attraction-scan-120",
-  "stage": "SCAN_120_READY_TO_MERGE",
-  "last_observed_main_sha": "6443175f9a9dc0e9f02a96519a6c365299d3e820",
+  "stage": "SCAN_120_MERGED_AND_VERIFIED",
+  "last_observed_main_sha": "21977ccc3675ada4eb52ea25af4efb6c4ad798fd",
   "work_branch": "research/attraction-scan-120",
   "work_head_sha": "3e44f5d8d891a02d72e6976e467abb01a0710e8f",
   "active_pr": 420,
@@ -23,14 +23,7 @@
       "Jev artifact 10711351509"
     ]
   },
-  "pending_operation": {
-    "operation_id": "scan120-merge-pr420",
-    "kind": "MERGE_PULL_REQUEST",
-    "target": "PR #420",
-    "phase": "PREPARED",
-    "idempotency": "Read PR merged state and main history before any retry; enforce expected head SHA.",
-    "prepared_generation": 4
-  },
+  "pending_operation": null,
   "health": {
     "recovery": "HEALTHY",
     "last_error": null
@@ -38,9 +31,10 @@
   "completed": [
     "Created Scan120 branch from verified main 6443175f9a9dc0e9f02a96519a6c365299d3e820.",
     "Persisted Scan120 start state and inverted retrieval order in TASK_STATE.",
-    "Persisted Scan120 JSON, report, regression test, commercial reset state and final TASK_STATE."
+    "Persisted Scan120 JSON, report, regression test, commercial reset state and final TASK_STATE.",
+    "PR420 merged as 21977ccc3675ada4eb52ea25af4efb6c4ad798fd and main verified."
   ],
-  "next_action": "Merge PR420 with expected exact head, verify main, then start Scan121 because Jev allowed autonomous continuation.",
+  "next_action": "Start Scan121 from verified main because exact-head Jev continuation is ADVANCE_TO_NEXT_SCAN.",
   "do_not_repeat": [
     "Do not repeat Scan060-119 primary formations/signals.",
     "Do not recreate research/attraction-scan-120.",
