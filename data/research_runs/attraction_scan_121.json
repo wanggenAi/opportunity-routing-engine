@@ -1,0 +1,222 @@
+{
+  "schema_version": "attraction-scan.v95",
+  "scan_id": "ATTRACTION_SCAN_121",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FIFTEENTH_INDEPENDENT_CURRENT_LOW_FTE_POSITIVE_PROFIT_POSITIVE_OCF_FIRST_THEN_EXECUTED_CONTROL_PASS_REPEAT_DURABILITY_REQUIRE_CURRENT_SAME_ENTITY_REPORT_AVAILABLE_REQUIRE_DIRECT_CURRENT_OR_LATEST_INTRINSICALLY_LOW_FTE_REQUIRE_POSITIVE_EXTERNAL_REVENUE_POSITIVE_NET_PROFIT_AND_UNAMBIGUOUS_POSITIVE_OPERATING_CASHFLOW_BEFORE_CONTROL_DEEPENING_THEN_REQUIRE_COMPLETED_FRESH_OPERATOR_REPRODUCIBLE_CONTROL_BEFORE_REPORTING_PERIOD_REQUIRE_EXISTING_STANDARDIZED_REPEATABLE_NONPROJECT_REVENUE_NOT_CUSTOM_IMPLEMENTATION_CONSULTING_OUTSOURCING_FIELD_WORK_MEDIA_BUYING_MANUFACTURING_AFTER_SALES_OR_PENDING_INJECTION_REQUIRE_BOUNDED_CONTROL_CONSIDERATION_OPERATING_ASSETS_AND_WORKING_CAPITAL_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_120_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_121-F1",
+      "title": "CHINA_SHENZHEN_6_FTE_ECOMMERCE_OPERATOR_WITH_POSITIVE_REVENUE_BUT_NET_LOSS_NEGATIVE_OCF_AND_PHYSICAL_SELF_OPERATION",
+      "discovery_route": "CURRENT_6_FTE_REPORT_IS_TESTED_AGAINST_THE_FULL_CURRENT_ECONOMIC_CONJUNCTION_BEFORE_ANY_CONTROL_HISTORY_RESEARCH",
+      "observed_actor_state_change_evidence": [
+        "The 2026 H1 report directly discloses 6 employees at period end.",
+        "Current external revenue is RMB141,509.43.",
+        "The same current report records attributable net loss RMB328,028.67 and operating cashflow negative RMB116,902.77."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Current total assets are RMB1,818,571.03 and current equity is only RMB93,811.83.",
+        "The company operates e-commerce agency services plus self-operated merchandise activity.",
+        "Self-operated activity explicitly includes procurement, production, warehousing, shipping, returns and after-sales."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Current revenue remains positive but is down year over year.",
+        "The company has accumulated losses and current operating cashflow remains negative.",
+        "Management discloses material going-concern uncertainty and reliance on controlling-party funding support if operating funds become difficult."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "Six employees prove very low headcount can coexist with a real customer revenue stream.",
+        "The same packet fails both positive-net-profit and positive-OCF gates, so low labor does not establish founder-light cashflow.",
+        "Physical self-operation and consulting/training elements would also remain direct delivery inputs even if economics later improved."
+      ],
+      "economic_signal": [
+        "Current 2026 H1: 6 FTE; revenue RMB141,509.43; attributable net loss RMB328,028.67; OCF negative RMB116,902.77.",
+        "Current assets RMB1,818,571.03; equity RMB93,811.83.",
+        "Uncovered accumulated loss is RMB11,948,566.63."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The current economics hard gate fails before control-history deepening.",
+        "No control transfer, scarcity or machine-control claim is promoted from a loss-making cash-burning packet.",
+        "Physical procurement/production/warehousing/shipping/returns/after-sales are preserved as real operating inputs rather than normalized away."
+      ],
+      "executed_control_transfer_check": "NOT_REACHED_CURRENT_POSITIVE_NET_PROFIT_AND_POSITIVE_OCF_GATES_FAIL_BEFORE_CONTROL_DEEPENING",
+      "post_transfer_external_economic_continuity_check": "FAIL_CURRENT_2026_H1_REVENUE_RMB141509_43_IS_POSITIVE_BUT_ATTRIBUTABLE_NET_LOSS_IS_RMB328028_67_AND_OCF_IS_NEGATIVE_RMB116902_77",
+      "fresh_small_operator_entry_check": "NOT_REACHED_CURRENT_ECONOMIC_CONJUNCTION_FAILS_BEFORE_CONTROL_RESEARCH",
+      "same_operator_economic_binding_check": "PASS_CURRENT_REPORT_BINDS_6_FTE_REVENUE_NET_LOSS_NEGATIVE_OCF_ASSETS_AND_EQUITY_TO_CANYOU_SHANWU",
+      "direct_operating_cost_check": "FAIL_SELF_OPERATED_MODEL_REQUIRES_PROCUREMENT_PRODUCTION_WAREHOUSING_SHIPPING_RETURNS_AND_AFTER_SALES_WHILE_AGENCY_MODEL_INCLUDES_CONSULTING_TRAINING_AND_PLATFORM_OPERATIONS",
+      "owner_labor_check": "PASS_CURRENT_2026_H1_EMPLOYEE_COUNT_IS_6_AND_INTRINSICALLY_LOW",
+      "founder_independence_check": "NOT_REACHED_CURRENT_PROFIT_AND_OCF_FAIL_EARLIER_AND_PHYSICAL_SERVICE_DELIVERY_REMAINS_EXPLICIT",
+      "data_action_rights_check": "NOT_REACHED_NO_ECONOMIC_SURVIVOR_REQUIRING_RIGHTS_DEEPENING",
+      "normalized_margin_check": "FAIL_CURRENT_NET_LOSS_NEGATIVE_OCF_MINIMAL_EQUITY_AND_GOING_CONCERN_UNCERTAINTY",
+      "machine_delegatability_check": "FAIL_CURRENT_MODEL_MIXES_ECOMMERCE_OPERATIONS_CONSULTING_TRAINING_AND_PHYSICAL_FULFILLMENT",
+      "generic_agent_substitutability_check": "NOT_REACHED_EARLY_ECONOMIC_GATE_ALREADY_FAILS",
+      "verdict": "DEMOTED_6_FTE_AND_POSITIVE_REVENUE_DO_NOT_OVERRIDE_CURRENT_NET_LOSS_NEGATIVE_OCF_AND_PHYSICAL_SERVICE_DELIVERY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_121-F2",
+      "title": "CHINA_BEIJING_20_FTE_SYSTEM_INTEGRATOR_WITH_POSITIVE_REVENUE_AND_POSITIVE_OCF_BUT_CURRENT_NET_LOSS",
+      "discovery_route": "CURRENT_20_FTE_SOFTWARE_SYSTEM_INTEGRATION_REPORT_WITH_POSITIVE_OCF_IS_TESTED_FOR_POSITIVE_NET_PROFIT_BEFORE_ANY_CONTROL_TRANSFER_OR_SCARCITY_DEEPENING",
+      "observed_actor_state_change_evidence": [
+        "The 2026 H1 report directly discloses 20 employees at period end, up from 19.",
+        "Current revenue is RMB8,954,007.84, up 90.71% year over year.",
+        "Current operating cashflow is positive RMB2,132,609.70, while current net profit remains negative RMB878,305.63."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The company provides data-management software/hardware products, cloud services and integrated solutions to government/enterprise and industry-integrator customers.",
+        "Current inventory is RMB7,836,926.10 and short-term borrowings are RMB4,700,000.00.",
+        "System-integration revenue expanded materially during H1."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The report attributes current revenue growth to increased system-integration orders.",
+        "Positive OCF is attributed mainly to increased advance receipts under sales contracts.",
+        "The same period still produces a net loss and a 15.05% gross margin, so cash collection timing cannot substitute for profitability."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "Positive revenue and positive OCF can coexist with a current net loss in a small software/system-integration organization.",
+        "Advance-payment-driven OCF is real cashflow but does not satisfy the positive-profit gate.",
+        "System integration, software/hardware delivery and customer-specific solution work remain direct operating inputs."
+      ],
+      "economic_signal": [
+        "Current 2026 H1: 20 FTE; revenue RMB8,954,007.84; net loss RMB878,305.63; OCF positive RMB2,132,609.70.",
+        "Current gross margin is 15.05%.",
+        "Current inventory RMB7,836,926.10 and short-term borrowings RMB4,700,000.00."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The current economics gate stops before controller-history research because net profit is negative.",
+        "Positive OCF is not promoted as normalized cash profitability when the report attributes the increase mainly to customer advances.",
+        "No specialized machine-control asset is inferred from generic system-integration capability."
+      ],
+      "executed_control_transfer_check": "NOT_REACHED_CURRENT_POSITIVE_NET_PROFIT_GATE_FAILS_BEFORE_CONTROL_DEEPENING",
+      "post_transfer_external_economic_continuity_check": "FAIL_CURRENT_2026_H1_REVENUE_RMB8_954_007_84_AND_OCF_RMB2_132_609_70_ARE_POSITIVE_BUT_NET_PROFIT_IS_NEGATIVE_RMB878305_63",
+      "fresh_small_operator_entry_check": "NOT_REACHED_CURRENT_NET_PROFIT_FAILS_BEFORE_CONTROL_RESEARCH",
+      "same_operator_economic_binding_check": "PASS_CURRENT_REPORT_BINDS_20_FTE_REVENUE_NET_LOSS_POSITIVE_OCF_INVENTORY_AND_BORROWINGS_TO_XINRUI_YINGCHENG",
+      "direct_operating_cost_check": "FAIL_DATA_MANAGEMENT_SOFTWARE_HARDWARE_SYSTEM_INTEGRATION_AND_CUSTOMER_SOLUTION_DELIVERY_REMAIN_DIRECT_INPUTS",
+      "owner_labor_check": "PASS_CURRENT_2026_H1_EMPLOYEE_COUNT_IS_20_WITHIN_THE_CURRENT_LOW_HEADCOUNT_SCREEN",
+      "founder_independence_check": "NOT_REACHED_CURRENT_NET_PROFIT_FAILS_EARLIER_AND_SYSTEM_INTEGRATION_DELIVERY_REMAINS_EXPLICIT",
+      "data_action_rights_check": "NOT_REACHED_NO_ECONOMIC_SURVIVOR_REQUIRING_RIGHTS_DEEPENING",
+      "normalized_margin_check": "FAIL_CURRENT_NET_LOSS_AND_ADVANCE_RECEIPT_DRIVEN_OCF_DO_NOT_PROVE_NORMALIZED_POSITIVE_CASH_ECONOMICS",
+      "machine_delegatability_check": "FAIL_CURRENT_REVENUE_GROWTH_IS_SYSTEM_INTEGRATION_LED_WITH_SOFTWARE_HARDWARE_AND_CUSTOMER_SPECIFIC_DELIVERY",
+      "generic_agent_substitutability_check": "NOT_REACHED_EARLY_PROFIT_GATE_ALREADY_FAILS",
+      "verdict": "DEMOTED_POSITIVE_REVENUE_AND_POSITIVE_OCF_DO_NOT_OVERRIDE_CURRENT_NET_LOSS_OR_SYSTEM_INTEGRATION_DELIVERY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_121-F3",
+      "title": "CHINA_SICHUAN_16_FTE_SEED_COMPANY_WITH_POSITIVE_REVENUE_POSITIVE_PROFIT_BUT_NEGATIVE_OCF_AND_PHYSICAL_PRODUCTION_FLOW",
+      "discovery_route": "CURRENT_16_FTE_POSITIVE_REVENUE_POSITIVE_PROFIT_PACKET_IS_TESTED_FOR_THE_LAST_EARLY_ECONOMIC_LEG_UNAMBIGUOUS_POSITIVE_OCF_BEFORE_ANY_CONTROL_HISTORY_RESEARCH",
+      "observed_actor_state_change_evidence": [
+        "The 2026 H1 report directly discloses 16 employees at period end.",
+        "Current revenue is RMB11,335,117.86 and attributable net profit is positive RMB528,888.03.",
+        "Current operating cashflow is negative RMB711,001.01."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Current total assets are RMB71,079,588.06 and liabilities RMB32,436,409.92.",
+        "The company produces and sells corn, rice, rapeseed and wheat seed products.",
+        "Current balance sheet includes material receivables, seed-related intangible/development assets and production/sales operating flow."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Current revenue grew 4.13% and gross margin is 29.22%.",
+        "Attributable net profit remains positive while operating cashflow remains negative.",
+        "The report attributes the OCF improvement versus prior year to reduced external payments, but the cashflow is still below zero."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This packet passes current low headcount, external revenue and positive profit but fails the independent positive-OCF gate.",
+        "A profitable accounting period therefore does not prove positive operating cash conversion.",
+        "Agricultural seed production and sales are physical production/inventory/distribution flows and would remain outside a machine-only control thesis even if OCF turned positive."
+      ],
+      "economic_signal": [
+        "Current 2026 H1: 16 FTE; revenue RMB11,335,117.86; attributable net profit RMB528,888.03; OCF negative RMB711,001.01.",
+        "Current assets RMB71,079,588.06; liabilities RMB32,436,409.92.",
+        "Gross margin 29.22%."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The economics hard gate fails on operating cashflow before control-history deepening.",
+        "No favorable parent-company OCF is substituted for the negative consolidated OCF.",
+        "Physical seed production and distribution are preserved as direct operating reality."
+      ],
+      "executed_control_transfer_check": "NOT_REACHED_CURRENT_UNAMBIGUOUS_POSITIVE_OCF_GATE_FAILS_BEFORE_CONTROL_DEEPENING",
+      "post_transfer_external_economic_continuity_check": "FAIL_CURRENT_2026_H1_REVENUE_RMB11_335_117_86_AND_ATTRIBUTABLE_NET_PROFIT_RMB528888_03_ARE_POSITIVE_BUT_CONSOLIDATED_OCF_IS_NEGATIVE_RMB711001_01",
+      "fresh_small_operator_entry_check": "NOT_REACHED_CURRENT_OCF_FAILS_BEFORE_CONTROL_RESEARCH",
+      "same_operator_economic_binding_check": "PASS_CURRENT_CONSOLIDATED_REPORT_BINDS_16_FTE_REVENUE_POSITIVE_ATTRIBUTABLE_NET_PROFIT_NEGATIVE_OCF_ASSETS_AND_LIABILITIES_TO_JINANTE",
+      "direct_operating_cost_check": "FAIL_AGRICULTURAL_SEED_PRODUCTION_INVENTORY_SALES_AND_DISTRIBUTION_ARE_PHYSICAL_OPERATING_INPUTS",
+      "owner_labor_check": "PASS_CURRENT_2026_H1_EMPLOYEE_COUNT_IS_16_WITHIN_THE_CURRENT_LOW_HEADCOUNT_SCREEN",
+      "founder_independence_check": "NOT_REACHED_CURRENT_OCF_FAILS_EARLIER_AND_PHYSICAL_PRODUCTION_FLOW_REMAINS_EXPLICIT",
+      "data_action_rights_check": "NOT_REACHED_NO_ECONOMIC_SURVIVOR_REQUIRING_RIGHTS_DEEPENING",
+      "normalized_margin_check": "FAIL_CURRENT_OPERATING_CASHFLOW_IS_NEGATIVE_DESPITE_POSITIVE_ACCOUNTING_PROFIT",
+      "machine_delegatability_check": "FAIL_SEED_PRODUCTION_INVENTORY_AND_DISTRIBUTION_ARE_NOT_A_MACHINE_ONLY_RECURRING_RAIL",
+      "generic_agent_substitutability_check": "NOT_REACHED_EARLY_OCF_GATE_ALREADY_FAILS",
+      "verdict": "DEMOTED_16_FTE_POSITIVE_REVENUE_AND_POSITIVE_PROFIT_DO_NOT_OVERRIDE_NEGATIVE_OCF_OR_PHYSICAL_SEED_PRODUCTION"
+    }
+  ],
+  "excluded_observations": [
+    "Scan 060-120 formations and their primary discovery signals were excluded from Scan 121 primary formation selection.",
+    "Shangyang Information was not promoted after the early gate because current 11-FTE reporting still showed a net loss and negative operating cashflow.",
+    "Other current-report entities with positive revenue, profit and OCF were not treated as low-FTE candidates when disclosed staffing was materially larger; positive economics does not justify relaxing the labor floor.",
+    "No acquisition/control-history deepening was performed for the three primary Scan 121 formations because each failed at least one current economic hard gate.",
+    "No job, gig, RFQ, procurement or asset-marketplace feed was used as the discovery ontology."
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "retrieval_order_current_economics_first": true,
+    "independent_durability_repeat_of_scan120": true,
+    "current_same_entity_report_required": true,
+    "direct_current_or_latest_intrinsically_low_fte_required": true,
+    "positive_external_revenue_required": true,
+    "positive_net_profit_required": true,
+    "explicit_positive_operating_cashflow_required": true,
+    "unambiguous_positive_ocf_reconciliation_required": true,
+    "control_history_deepened_only_after_full_current_economic_conjunction_passes": true,
+    "no_favorable_parent_or_subsidiary_metric_substitution": true,
+    "early_gate_failure_stops_unnecessary_control_research": true,
+    "completed_control_before_reporting_period_required_for_any_future_survivor": true,
+    "fresh_operator_reproducibility_required_for_any_future_survivor": true,
+    "existing_repeatable_nonproject_revenue_required_for_any_future_survivor": true,
+    "project_consulting_outsourcing_field_media_buying_manufacturing_after_sales_excluded_from_pass": true,
+    "total_usable_capital_including_working_capital_required_for_any_future_survivor": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_6_FTE_REVENUE_WITH_NET_LOSS_NEGATIVE_OCF_VS_20_FTE_POSITIVE_OCF_NET_LOSS_SYSTEM_INTEGRATION_VS_16_FTE_POSITIVE_REVENUE_PROFIT_NEGATIVE_OCF_PHYSICAL_AGRICULTURE",
+    "observed_indexing_bias": "LOW_HEADCOUNT_REPORTS_STILL_SURFACE_MANY_PARTIAL_ECONOMIC_MATCHES_SO_PERSISTING_EACH_PARTIAL_MATCH_AS_A_PRIMARY_FORMATION_WASTES_ATTENTION",
+    "response": "SCAN122_APPLY_THE_FULL_CURRENT_ECONOMIC_CONJUNCTION_AS_A_PRIMARY_FORMATION_ADMISSION_GATE_PARTIAL_MATCHES_GO_TO_EXCLUDED_OBSERVATIONS_THEN_REVERSE_CHECK_CONTROL_ONLY_FOR_TRUE_SURVIVORS",
+    "participant_behavior_over_analyst_story": "PASS_ALL_PRIMARY_CLOSURES_USE_CURRENT_DISCLOSED_HEADCOUNT_REVENUE_PROFIT_OCF_AND_OPERATING_MODEL_FACTS"
+  },
+  "scan_learnings": [
+    "SCAN121_INDEPENDENT_DURABILITY_REPEAT_RETURNS_ZERO_RETENTION_WITH_THREE_DISTINCT_CURRENT_ECONOMIC_HARD_GATE_FAILURE_SHAPES.",
+    "CANYOU_SHANWU_PROVES_6_FTE_AND_POSITIVE_EXTERNAL_REVENUE_DO_NOT_OVERRIDE_CURRENT_NET_LOSS_AND_NEGATIVE_OCF.",
+    "XINRUI_YINGCHENG_PROVES_POSITIVE_OCF_WITH_REAL_REVENUE_DOES_NOT_OVERRIDE_CURRENT_NET_LOSS_AND_ADVANCE_RECEIPT_TIMING_MUST_NOT_BE_RELABELED_AS_NORMALIZED_PROFITABILITY.",
+    "JINANTE_PROVES_POSITIVE_REVENUE_AND_POSITIVE_ACCOUNTING_PROFIT_DO_NOT_OVERRIDE_NEGATIVE_CONSOLIDATED_OPERATING_CASHFLOW.",
+    "AFTER_SCAN120_AND_SCAN121_THE_CURRENT_ECONOMIC_CONJUNCTION_IS_STABLE_ENOUGH_TO_BECOME_A_PRIMARY_FORMATION_ADMISSION_GATE_PARTIAL_MATCHES_SHOULD_BE_EXCLUDED_EARLY_RATHER_THAN_DEEPENED."
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_122",
+  "next_search_boundary": "SIXTEENTH_INDEPENDENT_STRICT_CURRENT_ECONOMIC_CONJUNCTION_PRIMARY_ADMISSION_REQUIRE_CURRENT_SAME_ENTITY_REPORT_AVAILABLE_REQUIRE_DIRECT_CURRENT_OR_LATEST_INTRINSICALLY_LOW_FTE_REQUIRE_POSITIVE_EXTERNAL_REVENUE_AND_POSITIVE_NET_PROFIT_AND_UNAMBIGUOUS_POSITIVE_OPERATING_CASHFLOW_BEFORE_PRIMARY_FORMATION_ADMISSION_RECORD_PARTIAL_MATCHES_ONLY_AS_EXCLUDED_OBSERVATIONS_THEN_REVERSE_CHECK_COMPLETED_FRESH_OPERATOR_REPRODUCIBLE_CONTROL_BEFORE_REPORTING_PERIOD_REQUIRE_EXISTING_STANDARDIZED_REPEATABLE_NONPROJECT_REVENUE_NOT_CUSTOM_IMPLEMENTATION_CONSULTING_OUTSOURCING_FIELD_WORK_MEDIA_BUYING_MANUFACTURING_AFTER_SALES_OR_PENDING_INJECTION_REQUIRE_BOUNDED_CONTROL_CONSIDERATION_OPERATING_ASSETS_AND_WORKING_CAPITAL_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_121_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "VALIDATE_SCAN121_WITH_EXACT_FINAL_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_RUN_SCAN122_WITH_FULL_CURRENT_ECONOMIC_CONJUNCTION_AS_PRIMARY_FORMATION_ADMISSION_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202607311827526207&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202607311827526207&pageIndex=5",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202607311827526207&pageIndex=6",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608181828111443&pageIndex=1",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608181828111443&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608181828111443&pageIndex=5",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608191828148550&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608191828148550&pageIndex=5",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608191828148550&pageIndex=8",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608191828148550&pageIndex=9"
+  ]
+}
