@@ -38,13 +38,13 @@ PR #387 final live Jev run `35697010735`: success; Scan 089 3/3 `NO_FURTHER_RESE
 
 ## Active PR
 
-Not yet opened. Scan 090 research/doc/test/reset-state are persisted on the active branch.
+#388 — `Confirm paid coordination is budget signal in Scan 090`.
 
 ## CI
 
 - PR #386 final head `cee2dd633dc458ce2d94e06a84cbda7b7f1c5981`: repository CI `35696201982` success; live Jev `35696202000` success; Scan 088 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
 - PR #387 final head `8e07822a257d2190c6cd946ef112b444dd3b11a2`: repository CI `35697010466` success; live Jev `35697010735` success; Scan 089 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- Scan 090 branch CI/Jev: not started until PR is opened.
+- PR #388 opened for Scan 090; final-head repository CI and live Jev pending.
 
 ## Latest Artifact / Persisted State
 
@@ -140,7 +140,7 @@ Validation:
 
 Engineering:
 - no Jev integration blocker;
-- Scan 090 PR, final-head repository CI and live Jev are pending.
+- PR #388 is open; final-head repository CI and live Jev are pending.
 
 Discovery:
 - Scan 090 research is complete with zero retention;
