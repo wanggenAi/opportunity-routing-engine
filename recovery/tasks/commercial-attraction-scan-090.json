@@ -1,18 +1,18 @@
 {
   "schema_version": 2,
-  "generation": 2,
+  "generation": 3,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-090",
-  "stage": "SCAN_090_STATE_PERSISTED_READY_FOR_PR",
+  "stage": "SCAN_090_PR388_FINAL_HEAD_VALIDATION_PENDING",
   "last_observed_main_sha": "6278ac6e6f80ecfb0764d65d6fffc07535d4afe3",
   "work_branch": "research/attraction-scan-090",
-  "work_head_sha": "bf395f6aeab059a9d80f3f691f9128aa4fd75a5a",
-  "active_pr": null,
+  "work_head_sha": "70c686e1d11a15830d375e2eb9921143f9bd407c",
+  "active_pr": 388,
   "ci": {
     "run_id": null,
-    "head_sha": null,
-    "status": "NOT_STARTED",
+    "head_sha": "70c686e1d11a15830d375e2eb9921143f9bd407c",
+    "status": "PENDING",
     "conclusion": null
   },
   "production_or_artifact": {
@@ -34,9 +34,11 @@
     "SCAN_090_DOC_PERSISTED",
     "SCAN_090_TEST_CONTRACT_PERSISTED",
     "SCAN_090_RESET_STATE_UPDATED",
-    "SCAN_090_TASK_STATE_UPDATED"
+    "SCAN_090_TASK_STATE_UPDATED",
+    "SCAN_090_PR388_OPENED",
+    "SCAN_090_TASK_STATE_BOUND_TO_PR388"
   ],
-  "next_action": "Open Scan 090 PR against main, wait for repository CI and live Jev, consume continuation directive.",
+  "next_action": "Validate PR #388 final head 70c686e1 with repository CI and live Jev, then consume continuation and merge if permitted.",
   "do_not_repeat": [
     "Do not repeat Scan 089 Seats.aero award-search coordination.",
     "Do not repeat Scan 089 Monarch multi-institution aggregation.",
