@@ -1,19 +1,19 @@
 {
   "schema_version": 2,
-  "generation": 2,
+  "generation": 3,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "task_key": "commercial-attraction-scan-091",
-  "stage": "SCAN_091_PR389_FINAL_HEAD_VALIDATION_PENDING",
-  "last_observed_main_sha": "c1b3673db8f69e60cc20dc7ba954bb28f1008891",
+  "stage": "SCAN_091_MERGED_VALIDATED_CONTINUATION_CONSUMED",
+  "last_observed_main_sha": "4f3465e8e0ff601afad7fcb8c5e6617ce61b50fe",
   "work_branch": "research/attraction-scan-091",
   "work_head_sha": "9066023c43adfefbd35a7dfa5dda75de826c239d",
   "active_pr": 389,
   "ci": {
-    "run_id": null,
+    "run_id": 35699687141,
     "head_sha": "9066023c43adfefbd35a7dfa5dda75de826c239d",
-    "status": "PENDING",
-    "conclusion": null
+    "status": "COMPLETED",
+    "conclusion": "success"
   },
   "production_or_artifact": {
     "status": "NOT_APPLICABLE",
@@ -38,13 +38,24 @@
     "SCAN_091_RESET_STATE_UPDATED",
     "SCAN_091_TASK_STATE_UPDATED",
     "SCAN_091_PR389_OPENED",
-    "SCAN_091_TASK_STATE_BOUND_TO_PR389"
+    "SCAN_091_TASK_STATE_BOUND_TO_PR389",
+    "SCAN_091_FINAL_HEAD_CI_SUCCESS",
+    "SCAN_091_LIVE_JEV_SUCCESS",
+    "SCAN_091_JEV_CONTINUATION_ADVANCE_TO_NEXT_SCAN",
+    "SCAN_091_PR389_MERGED"
   ],
-  "next_action": "Validate PR #389 final head 9066023c with repository CI and live Jev, then consume continuation and merge if permitted.",
+  "next_action": "Superseded by Scan 092 continuation.",
   "do_not_repeat": [
     "Do not repeat Scan 089 Seats.aero, Monarch, or HealthFit/RunGap.",
     "Do not repeat Scan 090 Zapier, 1Password, or Fantastical.",
     "Do not repeat Scan 091 ecommerce accounting connector, cold-email deliverability/verification, or Home Assistant/SmartThings API toll formations.",
     "Do not repeat Scan 015 public-rights research while written provider evidence is outstanding."
-  ]
+  ],
+  "jev": {
+    "run_id": 35699687114,
+    "status": "COMPLETED",
+    "conclusion": "success",
+    "autonomous_continuation_allowed": true,
+    "next_action": "ADVANCE_TO_NEXT_SCAN"
+  }
 }
