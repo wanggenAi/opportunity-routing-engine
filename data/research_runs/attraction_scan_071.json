@@ -1,0 +1,158 @@
+{
+  "schema_version": "attraction-scan.v50",
+  "scan_id": "ATTRACTION_SCAN_071",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_FORMATION_DIVERSE_CURRENT_BUYER_BUDGET_REALITY_RESET_WITH_DIRECT_EXTERNAL_PAYMENT_CONTRACT_OR_RECURRING_PROCUREMENT_EVIDENCE_FOR_A_BOUNDED_OUTCOME_NO_REQUIRED_ATOMICITY_MULTI_SUPPLIER_ORCHESTRATION_ROUTING_FAILOVER_ABSTRACTION_OR_SOFTWARE_DELIVERY_SHAPE_EXCLUDE_SCAN065_TO_070_FORMATIONS_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "budget_source_policy": "DOWNSTREAM_BUDGET_EVIDENCE_NOT_DISCOVERY_ONTOLOGY",
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_071-F1",
+      "title": "INDUSTRIAL_UTILITY_BILL_COST_AUDIT",
+      "chinese_title": "工业能源账单成本审计",
+      "buyer_budget_evidence": [
+        "A current 2026 buyer offers £2,500 per completed industrial utility audit, guarantees at least £2,500 per month, and explicitly expects multiple recurring client audits.",
+        "The bounded audit consumes 6–12 months of bills, contracts, meter/tariff and consumption data and is paid to identify billing leakage, contract discrepancies, demand charges and savings opportunities."
+      ],
+      "formation_frame": "Repeated industrial billing, tariff and consumption-state mismatches create observable cost leakage; the paid audit is downstream evidence that actors already spend to resolve that state.",
+      "exact_incumbent_preflight": "EnergyCAP currently runs configurable utility-bill audits automatically on bill import, flags cost/usage anomalies and billing errors, assigns review actions and tracks cost recovery.",
+      "founder_independence_check": "FAIL_REPEATABLE_DETECTION_IS_AUTOMATED_WHILE_THE_REMAINING_PURCHASE_INCLUDES_TARIFF_PROCUREMENT_ENGINEERING_AND_SAVINGS_JUDGMENT",
+      "data_action_rights_check": "PARTIAL_BUYER_CAN_SUPPLY_BILLS_AND_CONTRACTS_BUT_THE_OPERATOR_DOES_NOT_CONTROL_UTILITY_CONTRACTING_OR_IMPLEMENTATION",
+      "normalized_margin_check": "UNKNOWN_SERVICE_PRICE_IS_HIGH_BUT_DELIVERY_REQUIRES_DOMAIN_EXPERTISE_AND_REPORT_ACCOUNTABILITY",
+      "verdict": "DEMOTED_CURRENT_BUDGET_PASSES_BUT_REPEATABLE_AUDIT_CONTROL_IS_PRODUCTIZED_AND_THE_RESIDUAL_IS_RECURRING_ENERGY_EXPERT_JUDGMENT",
+      "evidence_summary": "The money motion is strong but does not expose a founder-independent operator edge. The machine-detectable audit layer already exists; the higher-value remainder is expert interpretation and procurement/engineering recommendation."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_071-F2",
+      "title": "COMMERCIAL_BESS_PERMIT_EXPEDITING",
+      "chinese_title": "商业储能项目许可推进与主管部门协调",
+      "buyer_budget_evidence": [
+        "A current commercial BESS developer in Texas and Illinois is hiring a permit expeditor for more than 30 hours per week, more than six months, at $15–$35/hour with contract-to-hire intent.",
+        "The paid scope includes permit packages, municipal portals, fee payments, code research, AHJ/utility/fire-department follow-up and rejected-comment resolution."
+      ],
+      "formation_frame": "Repeated jurisdictional state transitions between design-ready projects and permission-to-build create schedule pressure and repeated coordination work.",
+      "exact_incumbent_preflight": "PermitFlow currently markets AI agents for permit intake, requirements research, submission, AHJ coordination, comment handling and issuance across 7,000+ AHJs.",
+      "founder_independence_check": "FAIL_THE_STANDARD_LIFECYCLE_IS_ALREADY_AUTOMATED_AND_THE_RESIDUAL_REQUIRES_JURISDICTION_SPECIFIC_CALLS_CODE_INTERPRETATION_AND_EXCEPTION_COORDINATION",
+      "data_action_rights_check": "PARTIAL_BUYERS_CAN_AUTHORIZE_PORTAL_SUBMISSION_BUT_FINAL_APPROVAL_AND_MANY_REQUIRED_INTERACTIONS_REMAIN_AHJ_UTILITY_OR_FIRE_DEPARTMENT_CONTROLLED",
+      "normalized_margin_check": "UNKNOWN_LONG_RUNNING_HOURLY_ROLE_SIGNALS_RECURRING_HUMAN_OWNERSHIP_NOT_NORMALIZED_AUTONOMOUS_EXECUTION",
+      "verdict": "DEMOTED_STRONG_RECURRING_BUDGET_BUT_EXACT_PERMIT_LIFECYCLE_AUTOMATION_EXISTS_AND_THE_RESIDUAL_IS_LOCAL_EXCEPTION_COORDINATION",
+      "evidence_summary": "The state transition is real and expensive, but the reusable workflow is already a current product category. Remaining work is precisely the irregular stakeholder and jurisdiction tail that resists founder-independent normalization."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_071-F3",
+      "title": "MEDICAL_CREDENTIALING_AND_PAYER_ENROLLMENT",
+      "chinese_title": "医疗资质认证与保险方入网",
+      "buyer_budget_evidence": [
+        "A current U.S. RCM buyer is hiring an additional credentialing and payer-enrollment specialist for more than 30 hours per week, more than six months, with contract-to-hire intent and two hires already recorded.",
+        "The ongoing paid work covers CAQH, Medicare/Medicaid/commercial enrollment, payer follow-up, deficiencies, rosters, EFT/ERA and recredentialing."
+      ],
+      "formation_frame": "Provider growth continuously regenerates the state transition from licensed clinician to payer-enrolled and billing-ready provider.",
+      "exact_incumbent_preflight": "Medallion currently offers provider credentialing/enrollment operations with automated payer follow-ups, verification/admin work, portal/email/SMS/fax/phone interactions and real-time workflow visibility.",
+      "founder_independence_check": "FAIL_THE_REPETITIVE_CONTROL_LOOP_IS_A_MATURE_PLATFORM_AND_THE_RESIDUAL_REQUIRES_PAYER_SPECIFIC_EXCEPTION_HANDLING_OR_AUTHORIZED_SPECIALIST_WORK",
+      "data_action_rights_check": "PARTIAL_HIGH_SENSITIVITY_PROVIDER_DATA_AND_PAYER_PORTALS_REQUIRE_EXPLICIT_AUTHORIZATION_AND_FINAL_ACCEPTANCE_REMAINS_WITH_EXTERNAL_PAYERS",
+      "normalized_margin_check": "WEAK_PUBLIC_ROLE_PRICING_IS_LOW_TO_MID_HUMAN_LABOR_WHILE_AUTOMATED_INCUMBENTS_ALREADY_COMPOUND_THE_CONTROL_LAYER",
+      "verdict": "DEMOTED_CURRENT_RECURRING_BUDGET_PASSES_BUT_AUTOMATED_CREDENTIALING_CONTROL_SURFACES_ARE_MATURE_AND_THE_RESIDUAL_IS_PAYER_SPECIFIC_HUMAN_WORK",
+      "evidence_summary": "This is a durable replenishing actor state, but not an unowned operator layer. Current platforms already automate the standard flow; the remaining value is exception ownership around external payer rules and authorization."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_071-F4",
+      "title": "AMAZON_EU_PRODUCT_AND_EPR_COMPLIANCE_OPERATIONS",
+      "chinese_title": "Amazon 欧盟商品与 EPR 合规运营",
+      "buyer_budget_evidence": [
+        "A current Amazon seller is hiring a long-term EU compliance specialist at $20–$50/hour for more than six months and wants continuing ownership across EPR/PPWR, WEEE, batteries, GPSR, CE, REACH/RoHS, labeling and Account Health.",
+        "The posting reports one hire and explicitly distinguishes the role from a separate existing VAT provider, proving external compliance spend across multiple rails."
+      ],
+      "formation_frame": "Cross-border assortment changes and regulation renew the seller state transition from product-ready to marketplace-compliant and continuously sellable.",
+      "exact_incumbent_preflight": "Amazon currently provides EPR policy rails, EPR Pay on Behalf in supported countries, GPSR requirements, compliance reference/tooling and directs sellers to service providers where platform-native coverage is incomplete.",
+      "founder_independence_check": "FAIL_THE_PURCHASE_IS_A_GO_TO_EXPERT_ROLE_SPANNING_PRODUCT_SPECIFIC_REGULATORY_INTERPRETATION_DOCUMENT_REVIEW_AND_EXTERNAL_PROVIDER_COORDINATION",
+      "data_action_rights_check": "PARTIAL_SELLER_CAN_GRANT_ACCOUNT_AND_DOCUMENT_ACCESS_BUT_REGISTRATION_CERTIFICATION_AND_REGULATORY_ACCEPTANCE_SIT_WITH_EXTERNAL_AUTHORITIES_OR_SPECIALISTS",
+      "normalized_margin_check": "UNKNOWN_LONG_TERM_EXPERT_HOURLY_SCOPE_AND_MULTI_REGIME_LIABILITY_PREVENT_NORMALIZED_MACHINE_MARGIN",
+      "verdict": "DEMOTED_REAL_LONG_TERM_BUDGET_BUT_PLATFORM_COMPLIANCE_RAILS_AND_PROVIDER_ECOSYSTEM_EXIST_WHILE_THE_RESIDUAL_IS_REGULATORY_EXPERT_OWNERSHIP",
+      "evidence_summary": "The money motion is explicit, but the buyer is purchasing accountable regulatory coverage across changing regimes rather than a clean execution primitive. Platform-native services cover part of the loop and the remainder stays expert-heavy."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_071-F5",
+      "title": "PROCUREMENT_FUNCTION_SETUP_AND_VENDOR_ONBOARDING_RECOVERY",
+      "chinese_title": "采购体系搭建与供应商入驻整顿",
+      "buyer_budget_evidence": [
+        "A current multifamily operator with nearly 3,000 units across six states offers a $4,500 three-month project with potential full-time conversion to build a formal procurement function.",
+        "The buyer states that vendor accounts, invoices and outstanding balances are scattered and expects systems, vendor relationships, onboarding, cleanup and workflows to be created."
+      ],
+      "formation_frame": "Portfolio growth creates recurring supplier and spend-state fragmentation, but the observed purchase is an organizational recovery/buildout event rather than a standardized routing unit.",
+      "exact_incumbent_preflight": "Zip currently provides intake/procurement orchestration and supplier onboarding, while Coupa's current Supplier Portal includes structured onboarding, business/payment/legal-entity data and 2026 AI-assisted profile prefilling.",
+      "founder_independence_check": "FAIL_THE_PAID_SCOPE_CENTERS_ON_COMPANY_SPECIFIC_CLEANUP_VENDOR_CALLS_RELATIONSHIP_FORMATION_POLICY_AND_CHANGE_MANAGEMENT",
+      "data_action_rights_check": "PASS_BUYER_CONTROLS_INTERNAL_PROCUREMENT_DATA_AND_CAN_AUTHORIZE_VENDOR_SETUP_BUT_RELATIONSHIP_AND_EXCEPTION_WORK_IS_NOT_MACHINE_INVARIANT",
+      "normalized_margin_check": "WEAK_FIXED_PROJECT_CAN_SEED_FULL_TIME_INTERNAL_OWNERSHIP_AND_DOES_NOT_PROVE_REPEATABLE_OPERATOR_MARGIN",
+      "verdict": "DEMOTED_CURRENT_BUDGET_PASSES_BUT_EXACT_PROCUREMENT_CONTROL_SURFACES_EXIST_AND_THE_RESIDUAL_IS_BESPOKE_ORGANIZATIONAL_RECOVERY",
+      "evidence_summary": "This is a useful counterexample: even an automation-friendly buyer pays for a human to normalize a messy operating state because vendor relationships, historical cleanup and policy adoption are organization-specific. That is implementation/OCM demand, not clean white space."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_071-F6",
+      "title": "SHOPIFY_MULTI_STATE_SALES_TAX_FILING",
+      "chinese_title": "Shopify 美国多州销售税持续申报",
+      "buyer_budget_evidence": [
+        "A current Shopify merchant registered in eight U.S. states seeks ongoing filing for more than six months on a fixed price per sales-tax return, with likely additional states over time.",
+        "The buyer explicitly says Shopify Tax is already used for sales-tax reporting, so the external spend is a clear post-native-tool paid workaround rather than mere software ignorance."
+      ],
+      "formation_frame": "Sales into additional jurisdictions repeatedly regenerate filing obligations and deadlines as merchant nexus/registration state changes.",
+      "exact_incumbent_preflight": "Shopify Tax currently supports automated filing for all U.S. sales-tax states, covering monthly through annual returns, at a published $75 per generated return for Basic/Grow/Advanced and $50 for Plus.",
+      "founder_independence_check": "FAIL_FOR_ELIGIBLE_STORES_THE_EXACT_REPETITIVE_FILING_UNIT_IS_NATIVE_AND_THE_RESIDUAL_IS_REGISTRATION_ELIGIBILITY_ERROR_RESOLUTION_PAST_OR_AMENDED_RETURNS_AND_TAX_ADVICE",
+      "data_action_rights_check": "PARTIAL_STORE_DATA_IS_NATIVE_BUT_STATE_PORTAL_CREDENTIALS_2FA_AND_TAX_AUTHORITY_ACCEPTANCE_REMAIN_EXTERNAL",
+      "normalized_margin_check": "WEAK_NATIVE_PER_RETURN_PRICING_COMPRESSES_A_THIRD_PARTY_GENERIC_FILING_LAYER_AND_EXCEPTION_WORK_REINTRODUCES_SPECIALIST_LABOR",
+      "verdict": "DEMOTED_STRONG_RECURRING_POST_NATIVE_SPEND_BUT_THE_EXACT_STANDARD_FILING_UNIT_IS_NOW_NATIVE_AND_THE_RESIDUAL_IS_EXCEPTION_OR_TAX_EXPERT_WORK",
+      "evidence_summary": "This is the strongest post-incumbent budget signal in the pass. It proves external spend can persist after a native feature appears, but does not prove an unowned standardized layer because Shopify now directly sells the bounded filing unit."
+    }
+  ],
+  "hard_floor_demotions": [
+    "INDUSTRIAL_UTILITY_AUDIT_FAILS_FOUNDER_INDEPENDENCE_AFTER_AUTOMATED_BILL_AUDIT_PREFLIGHT_AND_EXPERT_TARIFF_PROCUREMENT_RESIDUAL",
+    "BESS_PERMIT_EXPEDITING_FAILS_EXACT_CONTROL_SURFACE_AND_LOCAL_EXCEPTION_COORDINATION_PREFLIGHT",
+    "MEDICAL_CREDENTIALING_FAILS_EXACT_AUTOMATED_ENROLLMENT_CONTROL_AND_EXTERNAL_PAYER_AUTHORIZATION_PREFLIGHT",
+    "AMAZON_EU_COMPLIANCE_FAILS_FOUNDER_INDEPENDENCE_BECAUSE_REGULATORY_JUDGMENT_AND_EXTERNAL_AUTHORITY_ACCEPTANCE_REMAIN_CENTRAL",
+    "PROCUREMENT_SETUP_FAILS_REUSABLE_ASSET_TEST_BECAUSE_CURRENT_PLATFORMS_OWN_STANDARD_ONBOARDING_WHILE_THE_PAID_RESIDUAL_IS_ORGANIZATIONAL_CLEANUP_AND_RELATIONSHIP_WORK",
+    "SHOPIFY_SALES_TAX_FAILS_WHITE_SPACE_WHEN_THE_NATIVE_PLATFORM_NOW_SELLS_THE_EXACT_AUTOMATED_FILING_UNIT_AND_ONLY_EXCEPTION_EXPERT_TAILS_REMAIN"
+  ],
+  "scan_learnings": [
+    "DIRECT_CURRENT_BUYER_BUDGET_IS_STRONG_ECONOMIC_EVIDENCE_BUT_NOT_WHITE_SPACE_BY_ITSELF",
+    "DOWNSTREAM_JOB_CONTRACT_AND_PROCUREMENT_PAGES_MAY_CONFIRM_BUDGET_BUT_MUST_NOT_DEFINE_THE_UPSTREAM_FORMATION_ONTOLOGY",
+    "MATURE_CONTROL_SURFACES_CAN_COEXIST_WITH_EXTERNAL_HUMAN_SPEND_BECAUSE_BUYERS_STILL_PAY_FOR_SETUP_EXCEPTION_OWNERSHIP_COORDINATION_ACCOUNTABILITY_OR_ADOPTION",
+    "INDUSTRIAL_UTILITY_AUDIT_BUDGET_PASSES_BUT_AUTOMATED_BILL_AUDITS_ALREADY_OWN_THE_REPEATABLE_DETECTION_LAYER_AND_THE_RESIDUAL_IS_TARIFF_PROCUREMENT_AND_ENGINEERING_JUDGMENT",
+    "PERMIT_EXPEDITING_BUDGET_PASSES_BUT_CURRENT_PERMITTING_PLATFORMS_ALREADY_AUTOMATE_INTAKE_RESEARCH_SUBMISSION_COORDINATION_AND_ISSUANCE_WHILE_AHJ_EXCEPTIONS_REMAIN_HUMAN",
+    "MEDICAL_CREDENTIALING_BUDGET_PASSES_BUT_CURRENT_PROVIDER_OPERATIONS_PLATFORMS_AUTOMATE_ENROLLMENT_FOLLOW_UP_AND_STATUS_CONTROL_WHILE_EXCEPTION_WORK_REMAINS_PAYER_SPECIFIC_AND_AUTHORIZATION_HEAVY",
+    "PROCUREMENT_SETUP_AND_AMAZON_COMPLIANCE_BUDGETS_PRIMARILY_BUY_ORGANIZATIONAL_OR_REGULATORY_OWNERSHIP_NOT_A_CLEAN_FOUNDER_INDEPENDENT_EXECUTION_UNIT",
+    "SHOPIFY_SALES_TAX_FILING_SHOWS_EXTERNAL_RECURRING_SPEND_CAN_PERSIST_EVEN_WHEN_THE_NATIVE_PLATFORM_NOW_OFFERS_THE_EXACT_FILING_UNIT_AT_A_PUBLISHED_PER_RETURN_PRICE",
+    "ONE_BROAD_RESET_PASS_IS_NOT_ENOUGH_TO_DERIVE_A_NEW_MECHANISM_ONTOLOGY_SO_SCAN072_SHOULD_REMAIN_FORMATION_DIVERSE",
+    "SCAN071_ZERO_RETENTION_AFTER_CURRENT_BUDGET_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_RIGHTS_AND_MARGIN_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_072",
+  "next_search_boundary": "BROAD_FORMATION_DIVERSE_CURRENT_BUYER_BUDGET_REALITY_SECOND_PASS_WITH_DIRECT_EXTERNAL_PAYMENT_CONTRACT_OR_RECURRING_PROCUREMENT_EVIDENCE_FOR_BOUNDED_OUTCOMES_EXCLUDE_SCAN065_TO_071_FORMATIONS_NO_REQUIRED_MECHANISM_PRODUCT_SHAPE_ATOMICITY_ROUTING_OR_SOFTWARE_DELIVERY_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN072_SECOND_BROAD_FORMATION_DIVERSE_BUYER_BUDGET_PASS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.upwork.com/freelance-jobs/apply/Industrial-Energy-Cost-and-Utility-Bill-Audit-Specialist_~022099870685935816839/",
+    "https://www.energycap.com/utility-bill-energy-management-software/features/utility-bill-auditing-software/",
+    "https://helpcenter.energycap.com/um/flagged_items/manage_audits",
+    "https://www.upwork.com/freelance-jobs/apply/Permit-Expeditor_~022098407170501687614/",
+    "https://www.permitflow.com/",
+    "https://www.upwork.com/freelance-jobs/apply/Medical-Credentialing-Payer-Enrollment-Specialist-Ongoing-RCM-Support_~022097532104187947103/",
+    "https://www.medallion.co/",
+    "https://support.medallion.co/en/articles/9875881-medallions-payer-follow-up-process",
+    "https://www.upwork.com/freelance-jobs/apply/Amazon-Commerce-Compliance-Specialist-Part-Time_~022087423727948859144/",
+    "https://globalselling.amazon.com/en/policy",
+    "https://globalselling.amazon.com/en/news/news-notices-260325",
+    "https://www.upwork.com/freelance-jobs/apply/Procurement-Department-Setup-Vendor-Onboarding-Month-Project-Potential-Full-Time_~022097879859227703909/",
+    "https://ziphq.com/solutions/enterprise",
+    "https://docs.coupa.com/en/supplier-documentation/coupa-for-suppliers/announcements-and-general-information/coupa-supplier-portal-release-notes",
+    "https://www.upwork.com/freelance-jobs/apply/Ongoing-Sales-Tax-Filing-Currently-States_~022097995245086850413/",
+    "https://help.shopify.com/en/manual/taxes/shopify-tax/automated-filing",
+    "https://help.shopify.com/en/manual/taxes/shopify-tax/automated-filing/pricing"
+  ]
+}

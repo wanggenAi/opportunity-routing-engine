@@ -6,21 +6,23 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 070 tested the strongest remaining provider-abstraction residual: two independent current buyers maintaining buyer-built or self-hosted multi-provider control despite available orchestrators, with explicit reasons for keeping that control.
+Scan 071 completed the broad current-buyer-budget reset after Scans 065–070 drifted into provider-abstraction/orchestration.
 
-Six formations were examined. None survived.
+Six unrelated formations carried direct current external budget evidence: industrial utility audit, BESS permitting, medical credentialing, Amazon EU compliance, procurement/vendor onboarding recovery and Shopify multi-state sales-tax filing. None survived.
 
 ```text
-BUYER BUILDS / SELF-HOSTS PROVIDER ABSTRACTION
-→ EXPLICIT CONTROL / LOCK-IN / FAILURE REASON?
-→ TWO INDEPENDENT CURRENT PRODUCTION CASES?
-→ EXACT MANAGED / OPEN-SOURCE / SELF-HOST CONTROL SURFACE?
+BROAD ACTOR / STATE TRANSITION
+→ CURRENT EXTERNAL BUDGET
+→ EXACT CURRENT CONTROL SURFACE
+→ FOUNDER-INDEPENDENCE
+→ DATA / ACTION RIGHTS
+→ NORMALIZED MARGIN
 → FAIL CLOSED
 ```
 
-KYC produced the strongest behavioral pass: two independent teams describe production abstraction layers for vendor hot-swap, client decoupling, pricing, false-positive behavior and data portability. But current vendor-neutral KYC orchestration now supplies the same control objective. Email, payments, DNS/CDN and LLM gateways are also directly productized; SMS produced one strong current custom router but did not satisfy the strict second-current-production-build floor.
+The main result is that current external spending often survives because buyers still need setup, exception ownership, local coordination, regulatory interpretation, accountability or adoption after the repeatable layer is productized. That residual is real paid work but not yet a founder-independent operator asset.
 
-Scans 065–070 have now become a narrowing chain around provider abstraction/orchestration. Scan 071 therefore resets to broad formation-diverse current buyer budget reality and removes atomicity, routing, failover, multi-provider and software-shape requirements.
+One broad reset pass is not enough to derive another mechanism ontology. Scan 072 remains a second broad formation-diverse buyer-budget pass and excludes Scan 071 formations.
 
 ## Goal
 
@@ -41,22 +43,23 @@ Resolved recently:
 - `ATTRACTION_SCAN_068` — zero retention after unit-attributed paid execution resolved into metered API utilities, existing orchestration surfaces or human semantic acceptance.
 - `ATTRACTION_SCAN_069` — zero retention after concurrent multi-supplier behavior resolved into mature orchestration/control planes or failed strict recurring-production concurrency evidence.
 - `ATTRACTION_SCAN_070` — zero retention after buyer-built/self-hosted provider abstraction resolved into current managed/open control surfaces or failed strict two-current-production evidence; triggered broad reset.
+- `ATTRACTION_SCAN_071` — zero retention after broad current buyer-budget evidence resolved into mature control surfaces plus setup/exception/coordination/regulatory expert tails.
 
 Discovery queue:
-- `ATTRACTION_SCAN_071 — BROAD_FORMATION_DIVERSE_CURRENT_BUYER_BUDGET_REALITY_RESET_WITH_DIRECT_EXTERNAL_PAYMENT_CONTRACT_OR_RECURRING_PROCUREMENT_EVIDENCE_FOR_A_BOUNDED_OUTCOME_NO_REQUIRED_ATOMICITY_MULTI_SUPPLIER_ORCHESTRATION_ROUTING_FAILOVER_ABSTRACTION_OR_SOFTWARE_DELIVERY_SHAPE_EXCLUDE_SCAN065_TO_070_FORMATIONS_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_072 — BROAD_FORMATION_DIVERSE_CURRENT_BUYER_BUDGET_REALITY_SECOND_PASS_WITH_DIRECT_EXTERNAL_PAYMENT_CONTRACT_OR_RECURRING_PROCUREMENT_EVIDENCE_FOR_BOUNDED_OUTCOMES_EXCLUDE_SCAN065_TO_071_FORMATIONS_NO_REQUIRED_MECHANISM_PRODUCT_SHAPE_ATOMICITY_ROUTING_OR_SOFTWARE_DELIVERY_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_070_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_071_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`be073a126c2503e7af69701a596cdbbae0dec234`
-— squash merge of PR #367, `Test concurrent supplier routing in Scan 069`.
+`f17924f82cd9f4f2784b297829e73a391a255127`
+— squash merge of PR #368, `Reset discovery after buyer-built abstraction Scan 070`.
 
-PR #367 repository CI run `35676977657` completed `success`. Live Jev run `35676977622` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #368 repository CI run `35677470709` completed `success`. Live Jev run `35677470774` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -64,11 +67,11 @@ PR #367 repository CI run `35676977657` completed `success`. Live Jev run `35676
 
 ## Active Branch
 
-`research/attraction-scan-070`.
+`research/attraction-scan-071`.
 
 ## Active PR
 
-#368 — `Reset discovery after buyer-built abstraction Scan 070`. Live GitHub state is authoritative.
+#369 — `Keep discovery broad after buyer-budget Scan 071`. Live GitHub state is authoritative.
 
 ## CI
 
@@ -84,15 +87,15 @@ PR #367 repository CI run `35676977657` completed `success`. Live Jev run `35676
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_070.json`
-- `docs/research/ATTRACTION_SCAN_070_2026-09-22.md`
-- `tests/test_attraction_scan_070_buyer_built_abstraction_gate.py`
+- `data/research_runs/attraction_scan_071.json`
+- `docs/research/ATTRACTION_SCAN_071_2026-09-22.md`
+- `tests/test_attraction_scan_071_broad_buyer_budget_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
-Persisted state now records `ATTRACTION_SCAN_070` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_071` as a broad formation-diverse reset rather than another narrower provider-routing pass.
+Persisted state records `ATTRACTION_SCAN_071` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_072` as a second broad formation-diverse pass.
 
 ## Completed
 
@@ -113,21 +116,21 @@ Results:
 ## Current Findings
 
 ```text
-BUYER-BUILT ABSTRACTION
+DIRECT CURRENT BUYER BUDGET
 !=
-UNOWNED CONTROL LAYER
+UNOWNED FOUNDER-INDEPENDENT VALUE LAYER
 ```
 
-Scan 070 examined six provider-abstraction residuals:
+Scan 071 examined six unrelated current budget signals:
 
-- KYC / IDV: two independent buyer-built production abstractions pass the behavioral floor, but vendor-neutral managed and self-host/open orchestration now matches the same vendor-optionality, data-control and routing objective.
-- SMS: one strong 2026 in-house Vonage/Telnyx production router passes; a second independent current production custom build was not proven, while reusable failover layers already exist.
-- Transactional email: current custom hybrid delivery and independent failover-library evidence passes, but one-API/BYOK multi-provider routing is directly productized.
-- Payments: strict fresh two-buyer bespoke-build evidence is incomplete, while Hyperswitch already supplies self-hosted open multi-PSP routing, retry, reconciliation and cost control.
-- DNS/CDN: operators self-host provider-independent control, but DNSControl and public failover implementations are themselves the reusable open asset.
-- LLM gateways: multi-provider routing is ordinary production architecture, but explicit buyer rejection of existing gateways was not proven and self-hosted gateway supply is dense.
+- Industrial utility audit: £2,500-per-audit recurring budget is real; automated utility-bill audit control already exists and the residual is tariff/procurement/engineering judgment.
+- Commercial BESS permitting: long-running permit-expeditor budget is real; current permitting platforms now own intake→research→submission→coordination→issuance, leaving local exception work.
+- Medical credentialing: durable payer-enrollment work is real; current provider-operations platforms automate the standard control loop, leaving payer-specific exceptions and authorization-heavy work.
+- Amazon EU compliance: long-running budget is real; the remaining purchase is regulatory ownership across multiple regimes rather than a clean autonomous unit.
+- Procurement setup/vendor onboarding: $4,500 project budget is real; standard onboarding/orchestration is productized while cleanup, vendor relationships and change management are buyer-specific.
+- Shopify multi-state sales-tax filing: ongoing fixed-per-return spend persists even though Shopify Tax now directly sells automated filing for all U.S. sales-tax states; residual cases are exception/eligibility/advice work.
 
-The more important research result is drift detection. Scans 065–070 successively raised evidence floors until the discovery shape converged on infrastructure orchestration. Scan 071 deliberately breaks that inheritance and returns to broad current buyer budget reality.
+Scan 072 must stay broad. Do not derive a new mechanism from this single reset pass.
 
 ## Validation Status
 
@@ -149,10 +152,10 @@ Engineering:
 - The active repository agent must continue reversible research automatically when the continuation directive allows it.
 
 Discovery:
-- Scan 070 is complete with zero retained formations and zero commercial promotions.
-- Buyer-built/self-hosted abstraction is stronger evidence than multi-supplier usage, but current managed/open control surfaces absorb the reusable layer in the strongest cases.
-- Six consecutive scans 065–070 now show hidden mechanism drift toward provider orchestration.
-- Scan 071 must be a broad formation-diverse reset starting from direct current buyer payment/contract/procurement evidence for bounded outcomes without requiring atomicity, multi-provider architecture, routing, failover, abstraction or software delivery.
+- Scan 071 is complete with zero retained formations and zero commercial promotions.
+- Downstream job/contract/procurement pages were used only as budget evidence, not as the opportunity ontology.
+- Direct buyer budget did not override exact-incumbent, founder-independence, data/action-rights or normalized-margin floors.
+- Scan 072 must be a second broad formation-diverse pass and exclude Scan 071 formations.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -160,9 +163,15 @@ Commercial:
 
 ## Next Action
 
-Open the Scan 070 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 071 as a broad formation-diverse current-buyer-budget reset with no inherited provider-abstraction mechanism.
+Open the Scan 071 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 072 as a second broad formation-diverse buyer-budget pass without deriving a new mechanism ontology.
 
 ## Do Not Repeat
+
+- Do not use explicit job/gig/procurement categories as upstream discovery ontology; in Scan 071 they are downstream budget confirmation only.
+- Do not promote industrial utility auditing, generic permit expediting, generic medical credentialing/payer enrollment, Amazon EU compliance operations, procurement-function setup/vendor onboarding recovery or generic Shopify sales-tax filing from Scan 071.
+- Do not infer white space merely because external human spend persists after an exact software/control surface appears.
+- Treat setup, exception ownership, local coordination, regulatory interpretation, accountability and organizational adoption as distinct human residuals unless a founder-independent invariant execution asset is evidenced.
+- Do not derive Scan 072 from a single Scan 071 mechanism; keep it broad and formation-diverse for a second pass.
 
 - Do not continue deriving narrower provider-router/orchestration conditions from Scans 065–070; that chain has become a hidden mechanism ontology.
 - Do not promote generic KYC vendor routing, SMS failover, transactional-email provider failover, multi-PSP abstraction, multi-DNS/CDN control or LLM gateways from Scan 070.
