@@ -14,20 +14,21 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` still requires written cross-rail outcome-data rights plus organic founder-free inbound intent. Inbox check on 2026-09-22 found no official reply from the two verified outreach targets; no response is neither a pass nor a denial.
 
-Discovery: Scan 092 completed the second independent pass at the paid-primary/coordinator + residual-failure + executed-second-cost floor. Figma/token sync, Webflow membership/auth and Lightroom/offsite-backup all closed without retention. Across Scan 091 + 092, second-layer spend is a strong pain signal but repeatedly selects for mature complements, official partner ecosystems, external rights or adjacent responsibilities. Scan 093 resets the discovery source to broad current reality rather than escalating another downstream payer-stack signal.
+Discovery: Scan 093 completed the first broad-current-reality reset after Scans 091–092. It started from actor/state changes, objective endowments, underuse/contradiction and partial flows rather than paid product stacks. Public TLS certificate lifetime compression, the U.S. A2L HVAC field transition and post-EAA EU ecommerce accessibility all closed without retention. Scan 094 must repeat the same broad-reality method on a fresh independent sample before any new discovery signal or mechanism is derived.
 
 ## Current Phase
 
-`SCAN_092_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_093_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`4f3465e8e0ff601afad7fcb8c5e6617ce61b50fe`
-— squash merge of PR #389, `Validate residual double-cost signal in Scan 091`.
+`4a0662ae89472a7731d39315264aeeac39bd2605`
+— squash merge of PR #390, `Complete second residual-cost pass in Scan 092`.
 
-PR #389 final head `9066023c43adfefbd35a7dfa5dda75de826c239d`:
-- repository CI run `35699687141`: success;
-- live Jev run `35699687114`: success;
+PR #390 final head `c760ad0d2373aedb952c0f90c8b3b99a15730bdf`:
+- repository CI run `35701703501`: success;
+- live Jev run `35701703346`: success;
+- 3/3 effective route `NO_FURTHER_RESEARCH`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
@@ -37,134 +38,142 @@ PR #389 final head `9066023c43adfefbd35a7dfa5dda75de826c239d`:
 
 ## Active Branch
 
-`research/attraction-scan-092`
+`research/attraction-scan-093`
 
 ## Active PR
 
-#390 — `Complete second residual-cost pass in Scan 092`.
+#391 — `Reset discovery to broad current reality in Scan 093`.
 
 ## CI
 
-- PR #389 final-head repository CI `35699687141`: success.
-- PR #389 live Jev `35699687114`: success; `ADVANCE_TO_NEXT_SCAN`.
-- PR #390 opened for Scan 092; final-head repository CI and live Jev pending.
+- PR #390 final-head repository CI `35701703501`: success.
+- PR #390 live Jev `35701703346`: success; `ADVANCE_TO_NEXT_SCAN`.
+- PR #391 opened for Scan 093; final-head repository CI and live Jev are pending.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_092.json`
-- `docs/research/ATTRACTION_SCAN_092_2026-09-22.md`
-- `tests/test_attraction_scan_092_second_residual_cost_pass.py`
+- `data/research_runs/attraction_scan_093.json`
+- `docs/research/ATTRACTION_SCAN_093_2026-09-22.md`
+- `tests/test_attraction_scan_093_broad_current_reality_reset.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
 Persisted state:
-- last completed scan = `ATTRACTION_SCAN_092`;
-- last resolved formation = `ATTRACTION_SCAN_092-F3`;
-- next scan = `ATTRACTION_SCAN_093`;
+- last completed scan = `ATTRACTION_SCAN_093`;
+- last resolved formation = `ATTRACTION_SCAN_093-F3`;
+- next scan = `ATTRACTION_SCAN_094`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`;
-- next boundary = broad-current-reality source reset after two residual-second-cost passes.
+- next boundary = second independent broad-current-reality pass using actor/state change, objective endowment, underuse, contradiction and partial flow before product/category selection.
 
 ## Completed
 
-- Reconciled live main, PR #389, final-head CI, live Jev and Scan 091 recovery state.
-- Confirmed Scan 091 Jev allows autonomous continuation with `ADVANCE_TO_NEXT_SCAN`.
-- Reused the pre-existing `research/attraction-scan-092` branch only after proving it was identical to main with zero commits.
-- Scan 092 researched three fresh formation-diverse markets:
-  - Figma design-system/token synchronization;
-  - Webflow membership/auth/billing after User Accounts sunset;
-  - Lightroom Classic plus independent offsite photo backup.
-- Scan 092 persisted research JSON, research note and regression contract.
-- `data/commercial_reset_state.json` now advances discovery to Scan 093.
-- Zero retention and zero commercial promotion.
+- Reconciled the interrupted session against live GitHub rather than chat history.
+- Classified the prior `TASK_STATE.md` as STALE because live GitHub had already completed and merged PR #390.
+- Verified PR #390 merge commit `4a0662ae89472a7731d39315264aeeac39bd2605`.
+- Verified Scan 092 repository CI `35701703501` succeeded.
+- Verified Scan 092 live TypeSafe/Jev `35701703346` succeeded.
+- Consumed Jev continuation: all 3 formations `NO_FURTHER_RESEARCH`, `autonomous_continuation_allowed=true`, `ADVANCE_TO_NEXT_SCAN`.
+- Verified recovery checkpoint `commercial-attraction-scan-092.json` marks Scan 092 merged/validated/continuation-consumed.
+- Confirmed no open PR and no existing Scan 093 branch before starting new work.
+- Created `research/attraction-scan-093` from the verified main SHA.
+- Checked the repository corpus for TLS certificate lifetime, A2L refrigerant and EAA accessibility duplicates; no matching prior scan formation was found.
+- Researched three fresh formation-diverse current-reality chains and persisted Scan 093.
+- Updated commercial reset state through Scan 093 with zero retention and zero commercial promotion.
+- Opened PR #391 and bound the handoff to the live PR.
 
 ## Current Findings
 
-### Scan 092-F1 — Figma + token sync / design-to-code
+### Scan 093-F1 — public TLS certificate lifetime compression
 
 Observed:
-- paid Figma/design-system users still show token drift, manual handoff and multi-library friction;
-- paid Tokens Studio / plugin layers exist.
+- CA/Browser Forum currently caps public TLS certificate validity at 200 days from 2026-03-15, 100 days from 2027-03-15 and 47 days from 2029-03-15;
+- domain/IP validation reuse also compresses;
+- DigiCert and Sectigo explicitly treat shorter lifetimes as a driver for lifecycle automation.
 
 Closure:
-- strict two-account explicit double-payment binding is not clean enough;
-- Tokens Studio already owns the paid complement category;
-- Figma Variables, APIs, Code Connect and MCP are absorbing more of the workflow;
-- free/open-source/custom CI sync paths reduce durable generic white space;
-- Figma and repository permissions remain externally controlled.
+- issuance/renewal/deployment is highly machine-executable;
+- DigiCert, Sectigo, ACME and cloud-native certificate managers already own the repeatable lifecycle surface;
+- DNS, CA, private-key and endpoint deployment rights remain externally controlled;
+- a generic agent can orchestrate existing APIs but does not create distinct rights or a new control plane.
 
-### Scan 092-F2 — Webflow + membership/auth/billing
+### Scan 093-F2 — U.S. A2L HVAC field transition
 
 Observed:
-- Webflow removed native User Accounts and user APIs on 2026-01-29;
-- current builders use Webflow + Memberstack/Outseta/Stripe/custom code;
-- Memberstack has current paid plans.
+- lower-GWP rules and the market transition toward R-32/R-454B changed training, equipment controls, compatible tools and field procedures;
+- current 2026 industry evidence continues to show A2L training and manufacturer workflow changes;
+- distributor evidence records real inventory/supply transition costs, while the earlier R-454B shortage has largely eased.
 
 Closure:
-- strict replicated executed Webflow + second-layer payment is not publicly bound;
-- Webflow explicitly chose an ecosystem-first boundary and recommends the mature partner layer;
-- current complex stacks can still require custom integration/maintenance.
+- decisive work remains physical installation/service, refrigerant handling, safe charging/leak work and site-specific diagnosis;
+- OEMs, distributors, training bodies, tool/refrigerant vendors and HVAC contractors already own the critical rights and execution nodes;
+- no distinct founder-independent low-touch orchestration unit with evidenced recurring payer inflow is established.
 
-### Scan 092-F3 — Lightroom Classic + offsite backup
+### Scan 093-F3 — EU ecommerce accessibility after EAA
 
 Observed:
-- a current professional photographer explicitly lists Lightroom Classic and Backblaze among paid business subscriptions;
-- Adobe states Lightroom Classic catalog backup does not back up referenced photos;
-- Backblaze is a mature paid offsite backup control surface.
+- the EAA has applied to covered ecommerce services since 2025-06-28;
+- AccessibleEU published EN 301 549 v4.1.1 in September 2026 while noting it is not yet the formal legal reference for EAA/WAD conformance;
+- a July 2026 diagnostic vendor sample still found critical accessibility barriers on more than half of the scored large-store sample.
 
 Closure:
-- backup is an adjacent resilience objective, not the same editing/catalog completion outcome;
-- second clean participant-level double-payment binding is incomplete;
-- mature backup products/local redundancy already own the control surface.
+- automated scanning, CI regression testing, ticketing and many deterministic fixes are machine-executable;
+- Deque, Level Access, open-source axe-core and established audit/remediation providers already capture the routine layer;
+- W3C explicitly requires knowledgeable human evaluation; full conformance/usability cannot be truthfully collapsed into an autonomous generic-agent verdict.
 
-## Two-Pass Learning
+## Broad-reset learning
 
 ```text
-SECOND-LAYER SPEND
+CURRENT STATE CHANGE
++ OBJECTIVE ENDOWMENT / UNDERUSE / CONTRADICTION / PARTIAL FLOW
 =
-STRONG PAIN / BOUNDARY EVIDENCE
+GOOD DISCOVERY SENSOR
 
-SECOND-LAYER SPEND
+GOOD DISCOVERY SENSOR
 !=
 UNOWNED COMMERCIAL EDGE
 ```
 
-After Scan 091 + 092, do not raise another downstream payer-stack gate. Scan 093 must reset to broad current reality: actor/endowment/state changes, underuse, contradiction and partial flow first; money/product-stack evidence only later.
+Scan 093 restored formation diversity without inheriting the residual-second-cost ontology. One pass is not enough to derive another mechanism. Scan 094 must repeat the broad-reality method independently and should prefer participant-authored underuse, contradiction and partial-flow evidence where available.
 
 ## Blockers
 
 Validation:
 - Scan 015-F1 still needs actual written provider response/agreement and founder-free inbound proof.
 - No response remains neither a pass nor a denial.
+- Do not repeat the public-rights search while written evidence is outstanding.
 
 Engineering:
 - no Jev integration blocker;
-- PR #390 still needs final-head repository CI and live Jev.
+- PR #391 is open;
+- Scan 093 final-head repository CI and live Jev still need to run.
 
 Discovery:
-- Scan 092 research is complete with zero retention;
-- Scan 093 must not start until Scan 092 final-head CI/Jev continuation is consumed.
+- Scan 093 research is complete with zero retention;
+- Scan 094 must not start until Scan 093 final-head CI/Jev continuation is consumed.
 
 ## Next Action
 
-Validate PR #390 final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue automatically into Scan 093 only if `autonomous_continuation_allowed=true`.
+Validate PR #391 final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue automatically into Scan 094 only if `autonomous_continuation_allowed=true`.
 
 ## Do Not Repeat
 
 - Do not repeat Scan 089 Seats.aero, Monarch, or HealthFit/RunGap.
 - Do not repeat Scan 090 Zapier, 1Password, or Fantastical.
 - Do not repeat Scan 091 ecommerce accounting connectors, cold-email deliverability/verification, or Home Assistant/SmartThings.
-- Do not repeat Scan 092 Figma token-sync, Webflow membership/auth, or Lightroom/Backblaze formations.
-- Do not use second-layer spend as a new product-stack ontology after two independent passes.
-- Do not treat future/planned fees, cost avoidance or generic category pricing as executed participant payment.
-- Do not treat adjacent backup/safety spend as same-outcome completion cost.
-- Do not return to Scan 060–092 formations or their primary discovery signals.
+- Do not repeat Scan 092 Figma token-sync, Webflow membership/auth, or Lightroom/Backblaze.
+- Do not repeat Scan 093 TLS certificate-lifetime compression/CLM, A2L HVAC transition, or post-EAA ecommerce accessibility.
+- Do not use second-layer spend as a new product-stack ontology.
+- Do not infer a new certificate-alerting, HVAC coordination or accessibility-overlay product from Scan 093 closures.
+- Do not treat temporary historical supply shortages as current unresolved state when current evidence shows stabilization.
+- Do not treat automated accessibility scanning as proof of full conformance.
+- Do not return to Scan 060–093 formations or their primary discovery signals.
 - Do not use job/gig/RFQ/procurement feeds as discovery ontology.
 - Do not lower hard floors because discovery closes at zero.
-- Do not repeat Scan 015 public-rights research while written evidence is outstanding.
+- Do not repeat Scan 015 public-rights research while written provider evidence is outstanding.
 
 ## Guardrails
 
