@@ -1,0 +1,145 @@
+{
+  "schema_version": "attraction-scan.v59",
+  "scan_id": "ATTRACTION_SCAN_080",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "SECOND_INDEPENDENT_BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_SAME_UNRESOLVED_OUTCOME_PLUS_EXECUTED_RECURRING_PAYMENT_TO_A_DISTINCT_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_PLUS_BUYER_AUTHORED_POST_RESIDUAL_PURCHASE_FAILURE_FORMATION_DIVERSE_EXCLUDE_SCAN060_TO_079_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "causal_floor": "LIVE_REPLACEMENT_OR_PLATFORM_PLUS_BUYER_AUTHORED_SAME_OUTCOME_RESIDUAL_PLUS_EXECUTED_RECURRING_PAYMENT_TO_DISTINCT_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_PLUS_BUYER_AUTHORED_POST_PURCHASE_EVIDENCE_SAME_OUTCOME_REMAINS_UNRESOLVED",
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_080-F1",
+      "title": "NYC_VETCONNECT_REPLACEMENT_PORTAL_COMBINED_ARMS_PAID_POST_LAUNCH_FAILURE",
+      "chinese_title": "纽约市 VetConnectNYC 更换 Combined Arms 后的付费上线失败链",
+      "evidence_class": "EXECUTED_REPLACEMENT_PAYMENT_WITH_BUYER_AUTHORED_POST_LAUNCH_FAILURE_BUT_NOT_DISTINCT_RESIDUAL_LAYER",
+      "evidence_summary": "NYC DVS replaced its prior VetConnectNYC delivery path with a three-year Combined Arms contract capped at $450,000. The Comptroller states $268,750 had been paid by May 2026, after the portal launched eight months late in July 2025. Buyer-side review then documented persistent login, routing, case-status and reminder failures and unresolved high-priority tickets after the January 2026 hosting migration. The temporal payment-before-failure chain is strong, but Combined Arms is the replacement portal/control surface itself rather than a distinct non-incumbent residual provider layered around another live platform.",
+      "buyer_authored_post_live_or_platform_residual_evidence": [
+        "The Comptroller records that the prior Unite USA portal contract expired in June 2024, the portal was disabled, and DVS relied on manual online forms until the replacement portal launched.",
+        "Combined Arms was contracted in September 2024 to build and operate the new VetConnectNYC portal for service requests, referrals, case coordination and performance reporting."
+      ],
+      "actual_non_incumbent_recurring_payment_evidence": [
+        "DVS agreed to pay Combined Arms up to $450,000 over a three-year contract.",
+        "The Comptroller states DVS had paid Combined Arms $268,750 as of May 2026."
+      ],
+      "buyer_authored_post_residual_purchase_failure_evidence": [
+        "The new portal launched in July 2025, eight months after the expected November 2024 launch.",
+        "After the January 2026 hosting migration, the buyer-side review documented inconsistent login, misrouted or unrouted service requests, inaccurate case statuses, missing reminders and supervisory-access problems.",
+        "As of May 2026, 11 of 24 highest-priority or high-priority post-migration tickets remained unresolved."
+      ],
+      "pre_residual_same_outcome_causal_chain": "PASS_STRONG_THE_PREVIOUS_PORTAL_WAS_DISABLED_AND_DVS_FELL_BACK_TO_MANUAL_FORMS_BEFORE_BUYING_THE_REPLACEMENT_FOR_THE_SAME_REFERRAL_AND_CASE_COORDINATION_OUTCOME",
+      "post_residual_same_outcome_causal_chain": "PASS_STRONG_EXECUTED_PAYMENT_AND_LIVE_USE_PRECEDE_BUYER_AUTHORED_EVIDENCE_OF_PERSISTENT_FAILURE_ON_THE_SAME_PORTAL_OUTCOME",
+      "non_incumbent_residual_provider_preflight": "FAIL_THE_PAID_COMBINED_ARMS_PRODUCT_IS_THE_REPLACEMENT_CORE_PORTAL_AND_CASE_COORDINATION_CONTROL_SURFACE_NOT_A_DISTINCT_RESIDUAL_LAYER_AROUND_A_SEPARATE_LIVE_PLATFORM",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_COMBINED_ARMS_ALREADY_OWNS_THE_EXACT_PAID_PORTAL_CASE_ROUTING_AND_INCIDENT_REMEDIATION_SURFACE",
+      "founder_independence_check": "PASS_FOR_VENDOR_SOFTWARE_DELIVERY_BUT_THE_REUSABLE_PRODUCT_AND_CURRENT_DISTRIBUTION_POSITION_BELONG_TO_THE_EXISTING_VENDOR",
+      "data_action_rights_check": "PARTIAL_DVS_CONTROLS_CASE_DATA_AND_WORKFLOW_REQUIREMENTS_BUT_VETERAN_PII_REFERRAL_ACCESS_AND_SERVICE_PROVIDER_ACTIONS_ARE_GOVERNED",
+      "normalized_margin_check": "PASS_MULTI_YEAR_SOFTWARE_CONTRACT_AND_ACTUAL_PAYMENT_SUPPORT_RECURRING_SOFTWARE_ECONOMICS",
+      "machine_delegatability_check": "PARTIAL_PASS_LOGIN_ROUTING_STATUS_REMINDERS_AND_REPORTING_ARE_MACHINE_EXECUTABLE_WHILE_ACTUAL_VETERAN_SERVICE_DELIVERY_REMAINS_HUMAN_AND_PROVIDER_GOVERNED",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CANNOT_BY_ITSELF_REPLACE_AUTHORIZED_CASE_DATA_IDENTITY_ROUTING_AND_PROVIDER_NETWORK_INTEGRATION_BUT_THE_EXACT_VENDOR_PLATFORM_ALREADY_OWNS_THAT_POSITION",
+      "verdict": "DEMOTED_STRONG_PAYMENT_BEFORE_FAILURE_CHAIN_BUT_THE_PAID_VENDOR_IS_THE_REPLACEMENT_CONTROL_SURFACE_ITSELF_NOT_A_DISTINCT_RESIDUAL_PROVIDER"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_080-F2",
+      "title": "SILOAM_SPRINGS_BSA_UTILITY_BILLING_POST_GO_LIVE_FAILURE_AND_ROLLBACK",
+      "chinese_title": "Siloam Springs BS&A 公用事业计费上线失败与回退 Caselle",
+      "evidence_class": "SIGNED_LIVE_PLATFORM_WITH_BUYER_AUTHORED_POST_GO_LIVE_FAILURE_BUT_EXECUTED_RECURRING_RESIDUAL_PAYMENT_NOT_PROVEN",
+      "evidence_summary": "Siloam Springs approved a $318,685 BS&A software contract in June 2024 and moved most departments to BS&A in March 2025; utility billing transitioned in October 2025. By February-March 2026 the City documented inaccurate and late bills, failed meter imports, auto-pay and fee errors, unresolved tickets, manual rework and overtime, issued a material-breach/intent-to-terminate notice, and by July 2026 was returning utility billing to Caselle. This is a strong post-go-live failure chain, but inspected buyer evidence does not prove an executed recurring payment to a distinct non-incumbent residual provider: BS&A is the primary replacement platform/module itself.",
+      "buyer_authored_post_live_or_platform_residual_evidence": [
+        "The Board approved a $318,685 BS&A software contract on June 4, 2024.",
+        "Most departments transitioned from Caselle to BS&A in March 2025 and the utility-billing module began transition in October 2025."
+      ],
+      "actual_non_incumbent_recurring_payment_evidence": [
+        "A signed/live BS&A relationship and approved contract value are evidenced.",
+        "FAIL_EXECUTED_RECURRING_PAYMENT_TO_DISTINCT_RESIDUAL_PROVIDER_NOT_PROVEN: the inspected records do not establish a separately paid recurring residual provider around BS&A."
+      ],
+      "buyer_authored_post_residual_purchase_failure_evidence": [
+        "Four months after utility-billing implementation, the City said billing problems had not materially improved and staff lacked confidence in bill accuracy.",
+        "The formal breach notice records failed meter-data imports, extreme billing fluctuations, auto-pay failures, random fees, unresolved support tickets and manual work.",
+        "In July 2026 the City stated it was returning utility billing to the prior Caselle system and recalculating accounts for accuracy."
+      ],
+      "pre_residual_same_outcome_causal_chain": "PASS_THE_CITY_SELECTED_BSA_AS_A_CITY_WIDE_REPLACEMENT_AND_THEN_MOVED_UTILITY_BILLING_FROM_CASELLE",
+      "post_residual_same_outcome_causal_chain": "PASS_STRONG_BUYER_AUTHORED_MATERIAL_FAILURE_AND_ROLLBACK_FOLLOW_LIVE_UTILITY_BILLING_USE",
+      "non_incumbent_residual_provider_preflight": "FAIL_BSA_IS_THE_PRIMARY_REPLACEMENT_PLATFORM_AND_UTILITY_BILLING_MODULE_NOT_A_DISTINCT_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_THE_DOCUMENTED_FAILURE_IS_INSIDE_BSAS_OWN_BILLING_IMPORT_PAYMENT_AND_SUPPORT_CONTROL_SURFACE",
+      "founder_independence_check": "PASS_FOR_VENDOR_SOFTWARE_DELIVERY_BUT_A_NEW_OPERATOR_WOULD_DEPEND_ON_ACCESS_TO_BILLING_METER_AND_PAYMENT_DATA_CONTROLLED_BY_THE_CITY_AND_PLATFORM",
+      "data_action_rights_check": "PARTIAL_CITY_CONTROLS_UTILITY_RECORDS_BUT_METER_IMPORT_PAYMENT_AND_ACCOUNT_MUTATION_REQUIRE_PRODUCTION_SYSTEM_RIGHTS",
+      "normalized_margin_check": "PARTIAL_SOFTWARE_CONTRACT_ECONOMICS_EXIST_BUT_THE_REQUIRED_DISTINCT_RECURRING_RESIDUAL_PAYMENT_IS_NOT_EVIDENCED",
+      "machine_delegatability_check": "PASS_METER_IMPORT_BILL_CALCULATION_AUTOPAY_FEES_AND_RECONCILIATION_ARE_MACHINE_EXECUTABLE",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CANNOT_SAFELY_REPLACE_AUTHORIZED_BILLING_LEDGER_AND_PAYMENT_MUTATION_WITHOUT_SYSTEM_RIGHTS_BUT_THAT_DOES_NOT_CREATE_A_DISTINCT_PAID_RESIDUAL_LAYER",
+      "verdict": "DEMOTED_STRONG_POST_GO_LIVE_FAILURE_AND_ROLLBACK_BUT_THE_CASE_FAILS_THE_DISTINCT_PAID_RESIDUAL_LAYER_FLOOR"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_080-F3",
+      "title": "DEKALB_PROSECUTOR_BY_KARPEL_ANNUAL_SUBSCRIPTION_PLUS_DATA_EXTRACTION_CHANGE_ORDER",
+      "chinese_title": "DeKalb 检察案件系统 Karpel 年订阅与数据提取变更单",
+      "evidence_class": "EXECUTED_RECURRING_PLATFORM_SPEND_NEGATIVE_CONTROL_NO_POST_PURCHASE_SAME_OUTCOME_FAILURE",
+      "evidence_summary": "DeKalb County's PROSECUTORbyKarpel contract includes installation, companion services and annual subscription, runs September 2025 through December 2027, and had $368,600 spent to date when the County approved a $32,000 change order in February 2026 for data extraction into the newly integrated system. The buyer explicitly describes the change as enabling smooth transition and complete utilization, not as evidence that the paid system failed to deliver the same outcome after purchase. It is therefore a negative control and also remains inside Karpel's exact proprietary control surface.",
+      "buyer_authored_post_live_or_platform_residual_evidence": [
+        "The County describes PbK as the newly integrated prosecutor case-management system and the underlying contract as installation, companion services and annual subscription."
+      ],
+      "actual_non_incumbent_recurring_payment_evidence": [
+        "The contract runs from September 17, 2025 through December 31, 2027.",
+        "The County reported $368,600 spent to date and approved an additional $32,000 data-extraction change order."
+      ],
+      "buyer_authored_post_residual_purchase_failure_evidence": [
+        "FAIL_NO_BUYER_AUTHORED_POST_PURCHASE_SAME_OUTCOME_FAILURE: the County says the added data extraction is to ensure a smooth transition and complete utilization of the newly acquired system.",
+        "No inspected buyer record attributes the change order to failure of the paid annual-subscription outcome."
+      ],
+      "pre_residual_same_outcome_causal_chain": "PARTIAL_PASS_A_NEW_CASE_MANAGEMENT_SYSTEM_AND_DATA_MIGRATION_NEED_PRECEDE_THE_CHANGE_ORDER",
+      "post_residual_same_outcome_causal_chain": "FAIL_THE_BUYER_FRAMES_THE_EXTRACTION_WORK_AS_TRANSITION_ENABLEMENT_NOT_A_PERSISTENT_FAILURE_OF_THE_PURCHASED_CASE_MANAGEMENT_OUTCOME",
+      "non_incumbent_residual_provider_preflight": "FAIL_KARPEL_IS_BOTH_THE_PROPRIETARY_PLATFORM_PROVIDER_AND_THE_PROVIDER_OF_THE_COMPANION_DATA_EXTRACTION_WORK",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_THE_BUYER_IDENTIFIES_KARPEL_AS_THE_EXACT_SOLE_SOURCE_FOR_THE_PLATFORM_AND_ASSOCIATED_SERVICES",
+      "founder_independence_check": "PASS_FOR_PRODUCT_DELIVERY_BUT_THE_REUSABLE_ASSET_IS_KARPELS_EXISTING_PROPRIETARY_SYSTEM",
+      "data_action_rights_check": "PARTIAL_PROSECUTOR_CASE_DATA_AND_DIGITAL_EVIDENCE_ARE HIGHLY_GOVERNED_AND_REQUIRE_COUNTY_AUTHORIZATION",
+      "normalized_margin_check": "PASS_ANNUAL_SUBSCRIPTION_AND_MULTI_YEAR_CONTRACT_PROVE_RECURRING_SOFTWARE_ECONOMICS",
+      "machine_delegatability_check": "PARTIAL_DATA_EXTRACTION_AND_CASE_DATA_FLOW_ARE_MACHINE_EXECUTABLE_BUT_PROSECUTORIAL_DECISIONS_REMAIN_HUMAN_GOVERNED",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CANNOT_SUBSTITUTE_FOR_AUTHORIZED_PROSECUTOR_CASE_SYSTEM_ACCESS_BUT_THE_EXACT_VENDOR_OWNS_THE_CONTROL_SURFACE",
+      "verdict": "DEMOTED_NEGATIVE_CONTROL_REAL_RECURRING_SPEND_EXISTS_BUT_POST_PURCHASE_SAME_OUTCOME_FAILURE_IS_NOT_PROVEN"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "BOTHELL_CORE_BT_CUSTOMER_PAYMENT_PORTAL_TERMINATION",
+      "excluded_reason": "EXCLUDE_BEFORE_FORMATION_BUYER_PROJECT_RECORD_SHOWS_LOSS_OF_CONFIDENCE_AND_INTENT_TO_TERMINATE_BUT_INSPECTED_EVIDENCE_DOES_NOT_PROVE_EXECUTED_RECURRING_PAYMENT_AND_PAYMENT_PORTAL_SIGNAL_RISKS_RECYCLING_PRIOR_PAYMENT_CONTROL_SURFACE_WORK"
+    },
+    {
+      "observation": "BEDFORD_CENTRAL_IEP_SOFTWARE_UNUSED_FOR_MEDICAID_REIMBURSEMENT",
+      "excluded_reason": "EXCLUDE_NO_REPEAT_AND_CAUSALITY_BUYER_AUDIT_SHOWS_UNUSED_IEP_SOFTWARE_SUBSCRIPTION_AND_FORFEITED_REIMBURSEMENT_BUT_THIS_IS_PRIMARILY_ORGANIZATIONAL_NON_USE_AND_OVERLAPS_PRIOR_CLAIMS_REIMBURSEMENT_SIGNAL_FAMILIES"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "convenient_search_lens_became_ontology": false,
+    "observed_indexing_bias": "THE_STRICT_TEMPORAL_PAYMENT_AND_FAILURE_JOIN_CONTINUES_TO_OVERSELECT_PUBLIC_INSTITUTIONAL_SOFTWARE_RECORDS_WHERE_CONTRACTS_PAYMENTS_AND_AUDITS_ARE_PUBLIC",
+    "response": "COMPLETE_THE_REQUIRED_SECOND_INDEPENDENT_PASS_THEN_RESET_DISCOVERY_UPSTREAM_TO_BROAD_CURRENT_REALITY_INSTEAD_OF_FURTHER_TIGHTENING_PROCUREMENT_CAUSALITY",
+    "incumbent_presence_used_as_automatic_kill": false,
+    "participant_behavior_over_analyst_story": "PASS_ONLY_BUYER_AUTHORED_CONTRACT_PAYMENT_GO_LIVE_FAILURE_TERMINATION_AND_CHANGE_ORDER_RECORDS_ARE_USED_FAIL_CLOSED_WHERE_PAYMENT_OR_DISTINCT_RESIDUAL_STATUS_IS_NOT_PROVEN"
+  },
+  "scan_learnings": [
+    "SECOND_INDEPENDENT_POST_RESIDUAL_PURCHASE_FAILURE_PASS_ALSO_PRODUCED_ZERO_RETENTION",
+    "NYC_VETCONNECT_PROVES_A_STRONG_EXECUTED_PAYMENT_BEFORE_POST_LAUNCH_FAILURE_CHAIN_BUT_THE_PAID_VENDOR_IS_THE_REPLACEMENT_CONTROL_SURFACE_ITSELF_NOT_A_DISTINCT_RESIDUAL_LAYER",
+    "SILOAM_SPRINGS_PROVES_SEVERE_BUYER_AUTHORED_POST_GO_LIVE_FAILURE_AND_ROLLBACK_BUT_NOT_EXECUTED_RECURRING_PAYMENT_TO_A_DISTINCT_RESIDUAL_PROVIDER",
+    "DEKALB_IS_A_NEGATIVE_CONTROL_REAL_ANNUAL_SUBSCRIPTION_SPEND_AND_ADDITIONAL_DATA_EXTRACTION_DO_NOT_EQUAL_POST_PURCHASE_FAILURE_WHEN_THE_BUYER_DESCRIBES_TRANSITION_ENABLEMENT",
+    "TWO_INDEPENDENT_PASSES_AT_THE_POST_RESIDUAL_PURCHASE_FAILURE_FLOOR_DO_NOT_JUSTIFY_PROVIDER_SWITCH_MULTI_PROVIDER_ROUTER_OR_OTHER_MECHANISM_ONTOLOGY",
+    "THE_CURRENT_SIGNAL_HAS_DIMINISHING_DISCOVERY_VALUE_BECAUSE PUBLIC_PAYMENT_AND_AUDIT_JOINABILITY_BIASES_RESULTS_TOWARD_ALREADY_FORMED_INSTITUTIONAL_SOFTWARE_CONTROL_SURFACES",
+    "SCAN081_SHOULD_RESET_DISCOVERY_UPSTREAM_TO_BROAD_CURRENT_REALITY_AND_OBSERVED_ACTOR_STATE_CHANGE_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_SELECTION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_081",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_SOURCE_RESET_AFTER_TWO_POST_RESIDUAL_PURCHASE_FAILURE_PASSES_ACTOR_STATE_CHANGE_FIRST_FORMATION_DIVERSE_OBSERVED_BEHAVIOR_OR_WORKAROUND_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_EXCLUDE_SCAN060_TO_080_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN081_BROAD_CURRENT_REALITY_SOURCE_RESET_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://comptroller.nyc.gov/reports/review-of-the-new-york-city-department-of-veterans-services-vetconnectnyc-portal/",
+    "https://www.siloamsprings.com/AgendaCenter/ViewFile/Agenda/713?html=true",
+    "https://www.siloamsprings.com/AgendaCenter/ViewFile/Agenda/_03032026-892",
+    "https://siloamsprings.gov/m/newsflash/home/detail/1311",
+    "https://dekalbcountyga.legistar.com/LegislationDetail.aspx?G=38B42E79-166F-4337-AE30-3665ECD50E7A&GUID=1897F747-A131-4EAD-BDB1-28DECD08924D&ID=7880557&Options=&Search="
+  ]
+}
