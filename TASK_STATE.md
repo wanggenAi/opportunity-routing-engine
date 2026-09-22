@@ -14,29 +14,29 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_121` is complete with zero retained formations. The independent economics-first durability repeat produced three distinct hard-gate failures: Canyou Shanwu has 6 FTE and positive revenue but current net loss plus negative OCF; Xinrui Yingcheng has 20 FTE, positive revenue and positive OCF but current net loss; Jinante has 16 FTE, positive revenue and positive attributable profit but negative consolidated OCF. Scan 122 should turn the full current economic conjunction into a primary-formation admission gate: partial matches become excluded observations, and only low-FTE packets with positive external revenue, positive net profit and unambiguous positive OCF receive control-history deepening.
+Discovery: `ATTRACTION_SCAN_122` is in progress. It consumes the verified Scan 121 continuation and applies strict current-economic-conjunction primary admission: current same-entity low FTE + positive external revenue + positive net profit + unambiguous positive consolidated OCF must all pass before an observation becomes a primary formation. Partial matches are excluded early; only admitted survivors receive fresh-control, non-project revenue, total-capital and machine-control deepening.
 
 ## Current Phase
 
-`SCAN_121_PR_VALIDATION_PENDING`
+`SCAN_122_RESEARCH_IN_PROGRESS`
 
 ## Last Verified Main
 
-`21977ccc3675ada4eb52ea25af4efb6c4ad798fd`
-— squash merge of PR #420, `Run current-economics-first Scan 120`.
+`0ae66723e237c4870c265f0d77382d1a03394dcd`
+— squash merge of PR #421, `Run economics-first durability Scan 121`.
 
-PR #420 final head `3e44f5d8d891a02d72e6976e467abb01a0710e8f`:
-- repository CI `35763544113`: success;
-- live TypeSafe/Jev `35763544245`: success;
-- live-shadow job `106867369549`: success;
-- advisory artifact `10711351509`;
+PR #421 final head `dc569cdd4871ecd8ddbe9220980c482c31af52a8`:
+- repository CI `35765300901`: success;
+- live TypeSafe/Jev `35765300951`: success;
+- live-shadow job `106873284653`: success;
+- advisory artifact `10711911722`;
 - 3/3 model and effective route `NO_FURTHER_RESEARCH`;
 - 3/3 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That exact-head directive was consumed to start Scan 121.
+That exact-head directive was consumed to start Scan 122.
 
 ## Active Issue
 
@@ -44,17 +44,17 @@ That exact-head directive was consumed to start Scan 121.
 
 ## Active Branch
 
-`research/attraction-scan-121`
+`research/attraction-scan-122`
 
 ## Active PR
 
-None yet. Scan 121 branch content is complete. Open exactly one PR only after the final branch head is frozen, then do not make branch commits after PR creation.
+None. Scan 122 research is in progress; do not open a PR until research/state/test content is complete and the final branch head is frozen.
 
 ## CI
 
-PR #420 / Scan 120 exact-head repository CI and live TypeSafe/Jev are complete, successful and consumed.
+PR #421 / Scan 121 exact-head repository CI and live TypeSafe/Jev are complete, successful and consumed.
 
-Scan 121 repository CI and live TypeSafe/Jev have not run yet because the PR has not been opened. Consume a Scan 122 continuation directive only from the exact final Scan 121 PR head where both checks are terminal and acceptable.
+Scan 122 has no PR validation yet because research is still in progress.
 
 ## Parallel Validation
 
@@ -64,34 +64,26 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-New in Scan 121:
+Last completed scan artifacts remain:
 - `data/research_runs/attraction_scan_121.json`;
 - `docs/research/ATTRACTION_SCAN_121_2026-09-23.md`;
 - `tests/test_attraction_scan_121_current_economics_first_repeat.py`.
 
-Updated:
-- `data/commercial_reset_state.json`;
-- `TASK_STATE.md`.
-
-Machine state:
+Machine state before Scan 122 completion:
 - last completed scan = `ATTRACTION_SCAN_121`;
 - last resolved formation = `ATTRACTION_SCAN_121-F3`;
-- next scan = `ATTRACTION_SCAN_122`;
+- next scan / active research target = `ATTRACTION_SCAN_122`;
 - active commercial candidates = 0;
 - retained research formations = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Consumed PR #420 exact-head `ADVANCE_TO_NEXT_SCAN` from successful repository CI and live TypeSafe/Jev.
-- Merged PR #420 to main at `21977ccc3675ada4eb52ea25af4efb6c4ad798fd` and created `research/attraction-scan-121` from that verified main.
-- Repeated the Scan 120 economics-first retrieval order on fresh, non-duplicated formations.
-- Canyou Shanwu: current 6 FTE; revenue RMB141,509.43; attributable net loss RMB328,028.67; OCF negative RMB116,902.77; e-commerce agency plus physical self-operation.
-- Xinrui Yingcheng: current 20 FTE; revenue RMB8,954,007.84; net loss RMB878,305.63; OCF positive RMB2,132,609.70; OCF improvement is driven mainly by contract advances while system integration remains the growth engine.
-- Jinante: current 16 FTE; revenue RMB11,335,117.86; attributable net profit RMB528,888.03; consolidated OCF negative RMB711,001.01; physical agricultural seed production/sales remain explicit.
-- Stopped control-history deepening for all three because each fails at least one current economics hard gate.
-- Retained zero formations and promoted zero commercial candidates.
-- Advanced durable discovery state to Scan 122 with strict current-economic-conjunction primary admission.
+- Consumed PR #421 exact-head `ADVANCE_TO_NEXT_SCAN` from successful repository CI and live TypeSafe/Jev.
+- Merged PR #421 to main at `0ae66723e237c4870c265f0d77382d1a03394dcd`.
+- Created `research/attraction-scan-122` from that verified main.
+- Raised retrieval efficiency only: partial current-economics matches are now excluded observations, not primary formations.
+- Preserved every commercial truth gate and zero-promotion state.
 
 ## Current Findings
 
@@ -152,8 +144,8 @@ Validation:
 - Scan 015-F1 still needs a real official written provider response/agreement and founder-free inbound proof.
 
 Discovery:
-- Scan 121 research/state/test persistence is complete;
-- exact-head repository CI and live TypeSafe/Jev still need to run on the final PR head.
+- Scan 122 research is in progress under strict current-economic-conjunction primary admission;
+- no current discovery blocker.
 
 Engineering:
 - no current TypeSafe/Jev integration blocker.
@@ -205,4 +197,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open the single final Scan 121 PR from the frozen branch head, require exact-head repository CI plus live TypeSafe/Jev, consume the continuation directive, merge only if checks are acceptable, then start Scan 122 immediately if the directive allows autonomous continuation.
+Run Scan 122 from fresh current-report evidence. Admit a primary formation only when current low FTE, positive external revenue, positive net profit and unambiguous positive consolidated OCF all pass together; record partial matches only as exclusions. Reverse-check fresh-operator control and founder-light delivery only for admitted survivors, then persist state/tests and validate the frozen PR head with repository CI plus live TypeSafe/Jev.
