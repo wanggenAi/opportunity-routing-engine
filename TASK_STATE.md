@@ -6,22 +6,21 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 068 required buyer spend attributable to the unbundled atomic execution unit itself, with unit/task-level pricing and objective machine-verifiable acceptance wherever possible.
+Scan 069 required actual buyer-side concurrent paid suppliers or paid active fallback for the same atomic execution unit, plus measurable provider disagreement/failure/coverage/cost variation and buyer-controlled switching.
 
-Six formation-diverse unit-priced markets were examined. None survived.
+Six multi-provider formations were examined. None survived.
 
 ```text
-ATOMIC UNIT + DIRECT UNIT PRICE
-→ OBJECTIVE ACCEPTANCE?
-→ EXACT NATIVE / API / SAAS / SERVICE CATEGORY?
-→ MULTI-PROVIDER ORCHESTRATION ALREADY PRESENT?
-→ DATA + ACTION RIGHTS?
+CONCURRENT MULTI-SUPPLIER SPEND
+→ REAL ROUTING VALUE?
+→ TWO INDEPENDENT BUYERS IN PRODUCTION?
+→ EXACT ORCHESTRATION / AGGREGATOR / OPEN-SOURCE CONTROL SURFACE?
 → FAIL CLOSED
 ```
 
-The decisive finding is that atomic price attribution improves economic truth but frequently selects for commodity API markets. Email verification, speech-to-text, KYC, OCR and SMS/OTP are already metered utilities; PDF accessibility shows the opposite failure mode, where per-page pricing exists but semantic acceptance still requires human verification.
+The strongest passes were SMS/OTP and payments. Both prove real economic value in provider routing, but both are already mature orchestration categories. DNS has an open-source multi-provider control surface; email verification, KYC and proxy examples often stop at benchmark, pilot or hot-swap evidence rather than two independent recurring paid production cases.
 
-Scan 069 therefore changes the evidence source rather than narrowing another task property: require observed buyer-side **concurrent spend on multiple interchangeable suppliers for the same atomic unit**, with measurable provider disagreement, failure, coverage or cost variation and buyer-controlled switching/fallback.
+The residual worth testing is narrower but behaviorally stronger: buyers that still build or self-host their own multi-provider abstraction despite available orchestrators. Scan 070 must require two independent current buyer-built/self-hosted production abstractions plus an explicit reason the existing orchestration category is bypassed.
 
 ## Goal
 
@@ -40,15 +39,16 @@ Resolved recently:
 - `ATTRACTION_SCAN_066` — zero retention after two-independent-buyer signals resolved into mature categories, missing external money motion, non-invariant units or unavailable data rights.
 - `ATTRACTION_SCAN_067` — zero retention after confirmed external money motions decomposed into bundled human responsibility or already-mature atomic SaaS/control surfaces.
 - `ATTRACTION_SCAN_068` — zero retention after unit-attributed paid execution resolved into metered API utilities, existing orchestration surfaces or human semantic acceptance.
+- `ATTRACTION_SCAN_069` — zero retention after concurrent multi-supplier behavior resolved into mature orchestration/control planes or failed strict recurring-production concurrency evidence.
 
 Discovery queue:
-- `ATTRACTION_SCAN_069 — BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_CONCURRENT_PAID_SUPPLIERS_FOR_THE_SAME_UNBUNDLED_ATOMIC_EXECUTION_UNIT_WITH_MEASURABLE_PROVIDER_DISAGREEMENT_FAILURE_OR_COVERAGE_VARIATION_BUYER_CONTROLLED_SWITCHING_OR_FALLBACK_UNIT_ECONOMICS_EXACT_ORCHESTRATION_AGGREGATOR_NATIVE_CONTROL_SURFACE_AND_DATA_ACTION_RIGHTS_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN068_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_070 — BROAD_CURRENT_BUYER_SIDE_TWO_INDEPENDENT_BUYER_BUILT_OR_SELF_HOSTED_MULTI_PROVIDER_ABSTRACTION_LAYERS_MAINTAINED_IN_PRODUCTION_DESPITE_AVAILABLE_ORCHESTRATORS_WITH_EXPLICIT_REJECTION_BYPASS_OR_CONTROL_REASON_MEASURABLE_ENGINEERING_MAINTENANCE_COST_REUSABLE_ADAPTER_AND_ROUTING_SEMANTICS_EXACT_OPEN_SOURCE_SAAS_AND_NATIVE_CONTROL_SURFACE_PREFLIGHT_NO_REQUIRED_VERTICAL_NO_SCAN069_FORMATION_INHERITANCE_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_069_ACTIVE_CONCURRENT_MULTI_SUPPLIER_ATOMIC_UNIT_SEARCH`
+`SCAN_069_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
@@ -82,11 +82,16 @@ None yet for Scan 069. Live GitHub state is authoritative.
 
 ## Latest Artifact / Persisted State
 
-No Scan 069 result artifact yet. The branch is the reversible continuation checkpoint after Jev-approved Scan 068.
+New:
+- `data/research_runs/attraction_scan_069.json`
+- `docs/research/ATTRACTION_SCAN_069_2026-09-22.md`
+- `tests/test_attraction_scan_069_multi_supplier_gate.py`
 
-Inherited current persisted state from main:
-- `data/commercial_reset_state.json` points to `ATTRACTION_SCAN_069`.
-- Scan 069 requires actual concurrent paid suppliers or a paid active fallback for the same atomic execution unit; historical switching alone does not satisfy the floor.
+Updated:
+- `data/commercial_reset_state.json`
+- `TASK_STATE.md`
+
+Persisted state now records `ATTRACTION_SCAN_069` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_070` as the next discovery pass.
 
 ## Completed
 
@@ -107,21 +112,21 @@ Results:
 ## Current Findings
 
 ```text
-TWO BUYERS PAY FOR THE SAME ATOMIC UNIT
+CONCURRENT MULTI-SUPPLIER SPEND
 !=
-UNOWNED COMMERCIAL EXECUTION LAYER
+UNOWNED ORCHESTRATION LAYER
 ```
 
-Scan 068 examined six unit-priced external execution markets:
+Scan 069 examined six multi-provider patterns:
 
-- Email verification: one-address/one-credit economics pass cleanly, but dedicated verifier markets are dense and verifier-waterfall orchestration already exists.
-- Speech-to-text: audio duration maps directly to spend, but transcription is already a usage-metered API utility with local/open substitutes.
-- PDF accessibility remediation: per-page external payment is proven, but semantic reading order, alt text, structure and compliance acceptance still require human verification.
-- KYC / identity verification: per-check economics and machine execution pass, but mature identity APIs and multi-provider KYC orchestration already own the control surface.
-- OCR / document extraction: per-page economics and mostly objective output pass, but the unit is already hyperscaler infrastructure with strong open/local substitution.
-- SMS OTP: per-message/per-successful-verification economics pass, but CPaaS and multi-provider routing/failover are mature categories.
+- SMS / OTP: direct concurrent production use passes strongly; current orchestration products already provide health routing, weighted traffic and failover.
+- Dual authoritative DNS: concurrent provider usage is real, but direct paid attribution is incomplete and DNSControl already provides a mature open-source multi-provider abstraction.
+- Multi-PSP payments: named buyers route across multiple PSPs and recover revenue through fallback, but payment orchestration is already a mature enterprise and open-source category.
+- Email verification: provider disagreement on the same addresses is measurable, but public evidence is benchmark/double-check behavior rather than two independent recurring paid multi-verifier production cases; waterfall products already exist.
+- KYC / IDV: buyer-built hot-swap abstractions and provider variation are real, but strict concurrent-paid evidence is incomplete and KYC orchestration already exists.
+- Residential proxy routing: buyers pay to benchmark many suppliers on identical workloads, but recurring multi-provider production is not proven and upstream normalization/routing is already an explicit pattern.
 
-The residual signal is now buyer-side multi-supplier behavior. Scan 069 must require two independent buyers actually paying multiple interchangeable suppliers concurrently or keeping a paid active fallback for the same atomic unit; mere availability of multiple vendors does not count.
+The next evidence source is buyer-built/self-hosted control despite category availability. That can reveal either a real control/trust/pricing/deployment gap or merely generic adapter boilerplate; Scan 070 must distinguish them.
 
 ## Validation Status
 
@@ -143,10 +148,10 @@ Engineering:
 - The active repository agent must continue reversible research automatically when the continuation directive allows it.
 
 Discovery:
-- Scan 068 is complete with zero retained formations and zero commercial promotions.
-- Direct unit-level pricing no longer counts as white-space evidence.
-- Objective atomic execution tends to become metered API/SaaS infrastructure; non-objective semantic acceptance retains human responsibility.
-- Scan 069 must start from observed concurrent paid multi-supplier behavior for the same atomic unit and preflight exact orchestration/aggregation control surfaces.
+- Scan 069 is complete with zero retained formations and zero commercial promotions.
+- Concurrent multi-supplier spend is strongest where routing value is measurable, but those infrastructure categories already have orchestration layers.
+- Benchmarks, pilots and historical migrations do not satisfy durable concurrent production evidence.
+- Scan 070 must require two independent buyer-built or self-hosted multi-provider abstractions in current production and an explicit reason available orchestrators are bypassed.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
@@ -154,9 +159,15 @@ Commercial:
 
 ## Next Action
 
-Open the Scan 068 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 069 from two independent buyer cases with concurrent paid suppliers or a paid active fallback for the same atomic execution unit.
+Open the Scan 069 PR, run repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN`, merge after green checks, verify main, and start Scan 070 from buyer-built/self-hosted multi-provider abstraction layers that remain in production despite available orchestration products.
 
 ## Do Not Repeat
+
+- Do not treat concurrent multi-supplier spend as white-space evidence by itself; Scan 069 falsified that shortcut.
+- Do not promote generic SMS/OTP routing, dual-DNS control, multi-PSP routing, verifier waterfalls, generic KYC orchestration or proxy routing from Scan 069.
+- Do not upgrade benchmarks, pilots or historical switching into recurring multi-provider production.
+- In Scan 070, require two independent buyers maintaining their own production abstraction plus an explicit bypass/rejection/control reason for existing orchestrators.
+- Reject a generic cross-domain router if the reusable asset collapses to ordinary adapter boilerplate or domain-specific policy.
 
 - Do not treat atomic unit pricing as white-space evidence; Scan 068 falsified that shortcut.
 - Do not promote email verification, generic speech-to-text, PDF accessibility remediation, generic KYC/ID verification, OCR/text extraction or SMS OTP from Scan 068.
