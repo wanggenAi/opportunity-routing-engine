@@ -1,0 +1,154 @@
+{
+  "schema_version": "attraction-scan.v60",
+  "scan_id": "ATTRACTION_SCAN_083",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BILATERAL_PARTIAL_FLOW_FIRST_FORMATION_DIVERSE_REPEATED_CROSS_ACTOR_VALUE_TRANSFER_OR_WORKAROUND_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_REQUIRE_REPLENISHING_A_AND_B_POPULATIONS_AND_RECURRING_CONNECTION_PRESSURE_EXCLUDE_SCAN060_TO_082_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_083-F1",
+      "title": "US_SURPLUS_FOOD_DONORS_TO_HUNGER_RELIEF_PICKUP_AND_REDISTRIBUTION",
+      "chinese_title": "美国剩余食品供给方到救助机构的重复捐赠与取运流",
+      "evidence_class": "REPEATED_BILATERAL_SURPLUS_TRANSFER_WITH_REPLENISHING_DONOR_AND_RECIPIENT_POPULATIONS",
+      "actor_a_population": "Grocers, retailers, restaurants, farmers, manufacturers, suppliers and food distributors with recurring edible surplus.",
+      "actor_b_population": "Food banks and agency partners with recurring demand for donated food and pickup/distribution capacity.",
+      "repeated_partial_flow_evidence": [
+        "Feeding America reported in April 2026 that MealConnect had facilitated more than seven billion pounds of food rescue since 2014.",
+        "Feeding America's 2026 Food Rescue Fund states the network sourced more than two billion pounds through retail donations in the prior year while an additional 800 million pounds remained ready to be rescued from retailers.",
+        "Starbucks FoodShare provides daily donations and has integrated pickup into replenishment routes, showing the flow repeats operationally rather than existing as a one-off donation."
+      ],
+      "connection_pressure_or_workaround": [
+        "Donors need rapid posting, pickup timing and cold-chain/logistics coordination before surplus expires.",
+        "Recipient agencies need matching by geography, product type and pickup capacity.",
+        "Large donors increasingly modify logistics routes themselves when ordinary food-bank pickup is insufficient."
+      ],
+      "economic_signal": [
+        "The physical food has high social value and disposal avoidance can benefit donors, but the charitable A-to-B transfer itself does not establish a recurring operator fee.",
+        "Too Good To Go demonstrates commercial willingness to pay around adjacent surplus recovery through markdown, consumer resale and enterprise surplus-management software."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "MealConnect already performs the exact donor-to-food-bank matching flow at national scale and is free to participating donors/agencies.",
+        "Too Good To Go now offers an end-to-end enterprise surplus-food platform spanning expiry management, markdowns, consumer resale and charity redistribution.",
+        "Large programs such as Starbucks FoodShare also integrate rescue directly into existing delivery logistics."
+      ],
+      "founder_independence_check": "PARTIAL_SOFTWARE_MATCHING_CAN_RUN_WITHOUT_FOUNDER_HUNT_BUT_PHYSICAL_PICKUP_STORAGE_FOOD_SAFETY_AND_LOCAL_CAPACITY_REMAIN_NETWORK_OPERATIONS",
+      "data_action_rights_check": "PARTIAL_DONORS_CONTROL_SURPLUS_LISTINGS_AND_AGENCIES_CONTROL_ACCEPTANCE_BUT_PHYSICAL_HANDOFF_FOOD_SAFETY_AND_LOGISTICS_RIGHTS_REMAIN_LOCAL",
+      "normalized_margin_check": "FAIL_FOR_A_NEW_MATCHING_LAYER_NO_DISTINCT_OPERATOR_FEE_IS_EVIDENCED_AND_A_NATIONAL_NO_COST_MATCHING_CONTROL_SURFACE_ALREADY_EXISTS",
+      "machine_delegatability_check": "PARTIAL_MATCHING_NOTIFICATIONS_AND_SCHEDULING_ARE_MACHINE_EXECUTABLE_WHILE_PICKUP_COLD_CHAIN_STORAGE_AND_DISTRIBUTION_ARE_PHYSICAL",
+      "generic_agent_substitutability_check": "FAIL_FOR_GENERIC_COORDINATION_SOFTWARE_BECAUSE_EXISTING_NETWORK_PLATFORMS_ALREADY_OWN_PARTICIPANT_DENSITY_AND_LOGISTICS_CONTEXT",
+      "verdict": "DEMOTED_REPEATED_BILATERAL_FLOW_IS_STRONG_BUT_MEALCONNECT_ALREADY_OWNS_NATIONAL_DONOR_RECIPIENT_MATCHING_AND_THE_REMAINING_VALUE_IS_PHYSICAL_LOGISTICS_OR_ADJACENT_SURPLUS_COMMERCE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_083-F2",
+      "title": "CONSTRUCTION_SURPLUS_SOIL_SITE_TO_FILL_DEMAND_SITE_LOCAL_EXCHANGE",
+      "chinese_title": "建筑余土工地到缺土工地的本地重复交换流",
+      "evidence_class": "REPEATED_BILATERAL_MATERIAL_IMBALANCE_WITH_DOUBLE_AVOIDABLE_COST_AND_LOCAL_MATCH_PRESSURE",
+      "actor_a_population": "Developers and contractors with recurring project-specific surplus soil or aggregates and disposal/haul obligations.",
+      "actor_b_population": "Developers and contractors with recurring fill or aggregate requirements and procurement/haul costs.",
+      "repeated_partial_flow_evidence": [
+        "Soil Connect describes the core recurring condition directly: one construction project pays to remove excess dirt while another pays to bring dirt in.",
+        "Its live marketplace lets users post HAVE/NEED material positions and receive location-based matches, with current customers reporting repeated matches and calls.",
+        "Earth Exchange likewise maintains live surplus and requirement listings so UK developers, contractors and landowners can arrange local collection and exchange."
+      ],
+      "connection_pressure_or_workaround": [
+        "Without visibility, surplus sites haul material to disposal while nearby deficit sites independently buy and haul replacement material.",
+        "The flow is strongly distance-sensitive because hauling cost, timing and project schedule determine whether a match has value.",
+        "Testing, material category, compliance documentation and truck coordination create execution friction after a geographic match."
+      ],
+      "economic_signal": [
+        "Soil Connect states customers save 34% on average in dirt and hauling costs and in 2026 launched a Dirt Quotes Hub for real-time fill/haul quotes and benchmarking.",
+        "Earth Exchange charges regional developer subscriptions, including a listed £200 per month package, proving direct paid access to the matching/control surface."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Soil Connect already combines location-based marketplace matching, dirt reporting, hauling support, RFQ/quote discovery and contractor/broker networks.",
+        "Earth Exchange already provides map-based surplus/need exchange, paid subscriptions and a managed Materials Management Plan service.",
+        "Both incumbents explicitly frame the same A-surplus/B-deficit visibility gap as their core product."
+      ],
+      "founder_independence_check": "PASS_THE_MATCHING_DATA_REPORTING_AND_QUOTE_LAYER_IS_PRODUCTIZABLE_BUT_COMPLIANCE_AND_PHYSICAL_HAULING_REMAIN_DOMAIN_EXECUTION",
+      "data_action_rights_check": "PARTIAL_SITES_CAN_DECLARE_MATERIAL_AND_REQUIREMENTS_BUT_TESTING_CLASSIFICATION_SITE_ACCESS_AND_HAUL_PERMISSION_MUST_BE_VERIFIED_PER_PROJECT",
+      "normalized_margin_check": "PASS_FOR_EXISTING_MARKETPLACE_AND_SUBSCRIPTION_MODELS_BUT_FAIL_FOR_DISTINCT_NEW_OPERATOR_WHITE_SPACE",
+      "machine_delegatability_check": "PARTIAL_PASS_GEO_MATCH_QUOTE_COMPARISON_VOLUME_TRACKING_AND_DOCUMENT_ROUTING_ARE_MACHINE_EXECUTABLE_WHILE_LOADING_HAULING_AND_MATERIAL_ACCEPTANCE_ARE_PHYSICAL",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CANNOT_REPLACE_LIVE_LOCAL_INVENTORY_NETWORK_AND_MATERIAL_ACCEPTANCE_DATA_BUT_EXISTING_PLATFORMS_ALREADY_OWN_THOSE_ASSETS",
+      "verdict": "DEMOTED_HIGH_QUALITY_BILATERAL_PARTIAL_FLOW_AND_DOUBLE_COST_BUT_EXACT_MARKETPLACE_QUOTE_REPORTING_AND_MANAGED_COMPLIANCE_SURFACES_ALREADY_EXIST"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_083-F3",
+      "title": "PRIVATE_EV_CHARGER_HOST_TO_NO_HOME_CHARGE_DRIVER_RECURRING_ACCESS",
+      "chinese_title": "私人充电位供给方到无家充驾驶者的重复充电接入流",
+      "evidence_class": "REPEATED_BILATERAL_IDLE_ASSET_ACCESS_WITH_BOOKING_PAYMENT_AND_LOCAL_PROXIMITY_PRESSURE",
+      "actor_a_population": "Homeowners or property holders with private parking/charging capacity that is idle for material periods.",
+      "actor_b_population": "EV drivers, including fleet drivers, who cannot install reliable home charging and need recurring nearby overnight access.",
+      "repeated_partial_flow_evidence": [
+        "Co Charger supports one-off and weekly recurring bookings between EV drivers and nearby private charger hosts.",
+        "JustPark FleetCharge explicitly pairs fleet drivers with nearby driveway owners and supports 1:1, 1:many and private-network arrangements.",
+        "JustPark states hosts can receive guaranteed monthly earnings plus reimbursement for energy, showing recurring bilateral value transfer rather than mere directory discovery."
+      ],
+      "connection_pressure_or_workaround": [
+        "Drivers need a charger close enough to home to avoid public-network detours and work-time loss.",
+        "Hosts must expose reliable access windows, compatible charging and parking space while recovering electricity cost and earning for the asset.",
+        "Recurring booking, access control, settlement and local density determine whether the bilateral connection works."
+      ],
+      "economic_signal": [
+        "JustPark states FleetCharge hosts can receive around £1,000 per year in guaranteed monthly earnings plus energy costs, with some space owners earning more depending on demand.",
+        "Co Charger handles proportional charging payments and recurring bookings, establishing direct transaction behavior between the two sides."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Co Charger already provides host discovery, messaging, one-off/recurring booking and charging payment for neighbour charging.",
+        "JustPark already owns a stronger fleet version: host sourcing, charger installation, reserved access, booking, payments and reimbursement.",
+        "The control surface therefore extends beyond a listing directory into installation, access and settlement."
+      ],
+      "founder_independence_check": "PASS_DENSITY_BOOKING_ACCESS_AND_SETTLEMENT_CAN_RUN_AS_A_PLATFORM_ONCE_LOCAL_SUPPLY_EXISTS",
+      "data_action_rights_check": "PARTIAL_PASS_HOSTS_CAN_GRANT_PROPERTY_ACCESS_AND_CHARGING_RIGHTS_BUT_INSTALLATION_GRID_CAPACITY_INSURANCE_AND_LOCAL_RULES_VARY",
+      "normalized_margin_check": "PASS_EXISTING_PLATFORMS_SHOW_RECURRING_PAYMENT_BUT_FAIL_FOR_DISTINCT_NEW_OPERATOR_WHITE_SPACE",
+      "machine_delegatability_check": "PASS_MATCHING_BOOKING_PRICING_SETTLEMENT_AND_BASIC_ACCESS_WORKFLOWS_ARE_MACHINE_EXECUTABLE_WITH_PHYSICAL_CHARGER_INSTALLATION_AT_THE_EDGE",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CANNOT_CREATE_LOCAL_HOST_DENSITY_INSTALLATION_RIGHTS_OR_TRUSTED_SETTLEMENT_BUT_CURRENT_NETWORK_PLATFORMS_ALREADY_OWN_THEM",
+      "verdict": "DEMOTED_REPEATED_PAID_BILATERAL_FLOW_AND_MACHINE_EXECUTABLE_COORDINATION_BUT_CO_CHARGER_AND_JUSTPARK_ALREADY_OWN_DISCOVERY_BOOKING_ACCESS_AND_SETTLEMENT"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "inherited_mechanism_as_requirement": false,
+    "discovery_started_from_bilateral_partial_flow": true,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "replenishing_a_and_b_populations_required": true,
+    "formation_diversity": "PASS_FOOD_RESCUE_CONSTRUCTION_MATERIAL_REUSE_AND_PEER_ENERGY_ACCESS",
+    "response": "RUN_ONE_SECOND_INDEPENDENT_BILATERAL_PARTIAL_FLOW_PASS_BEFORE_DERIVING_A_STRONGER_SIGNAL_OR_ABANDONING_THIS_EVIDENCE_OBJECT",
+    "participant_behavior_over_analyst_story": "PASS_ALL_THREE_FORMATIONS_HAVE_OBSERVED_REPEATED_CROSS_ACTOR_TRANSFERS_BOOKINGS_OR_MATCHES_AND_ARE_DEMOTED_ONLY_AFTER_EXACT_CONTROL_SURFACE_AND_RIGHTS_PREFLIGHT"
+  },
+  "scan_learnings": [
+    "BILATERAL_PARTIAL_FLOW_FIRST_MATERIALLY_IMPROVES_EVIDENCE_QUALITY_OVER_SINGLE_ACTOR_PAIN_BECAUSE_BOTH_SIDES_AND_CONNECTION_PRESSURE_ARE_OBSERVED",
+    "FOOD_RESCUE_HAS_MASSIVE_REPEATED_A_TO_B_FLOW_BUT_FREE_NATIONAL_MATCHING_AND_PHYSICAL_LOGISTICS_DOMINATE_THE_CONTROL_SURFACE",
+    "CONSTRUCTION_SOIL_EXCHANGE_IS_A_CLEAN_DOUBLE_COST_BILATERAL_IMBALANCE_BUT_EXACT_LOCATION_MATCHING_QUOTE_REPORTING_AND_COMPLIANCE_PLATFORMS_ALREADY_EXIST",
+    "PRIVATE_EV_CHARGER_SHARING_PROVES_RECURRING_PAYMENT_AND_MACHINE_EXECUTABLE_MATCHING_BUT_EXISTING_NETWORKS_ALREADY_OWN_LOCAL_DENSITY_BOOKING_INSTALLATION_AND_SETTLEMENT",
+    "ONE_BILATERAL_PARTIAL_FLOW_PASS_IS_NOT_ENOUGH_TO_INFER_A_NEW_MECHANISM_OR_SIGNAL_FLOOR",
+    "SCAN084_SHOULD_REPEAT_BILATERAL_PARTIAL_FLOW_FIRST_ON_AN_INDEPENDENT_FORMATION_DIVERSE_SAMPLE"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_084",
+  "next_search_boundary": "SECOND_INDEPENDENT_BILATERAL_PARTIAL_FLOW_FIRST_FORMATION_DIVERSE_REPEATED_CROSS_ACTOR_VALUE_TRANSFER_OR_WORKAROUND_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_REQUIRE_REPLENISHING_A_AND_B_POPULATIONS_AND_RECURRING_CONNECTION_PRESSURE_EXCLUDE_SCAN060_TO_083_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN084_SECOND_INDEPENDENT_BILATERAL_PARTIAL_FLOW_PASS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.feedingamerica.org/hunger-blog/what-mealconnect-learn-about-feeding-americas-food-rescue-platform",
+    "https://www.feedingamerica.org/partners/food-rescue-fund",
+    "https://www.feedingamerica.org/sites/default/files/2026-04/Spring%20Impact%20Report_2026_Digital_final_0.pdf",
+    "https://www.toogoodtogo.com/en-us/platform",
+    "https://www.soilconnect.com/",
+    "https://www.soilconnect.com/blog/how-contractors-are-monetizing-excess-dirt-on-site",
+    "https://www.prnewswire.com/news-releases/soil-connect-launches-dirt-quotes-hub-a-construction-dirt-rfq-platform-for-earthwork-pricing-sourcing-and-benchmarking-302798618.html",
+    "https://earth-exchange.com/",
+    "https://earth-exchange.com/developer-package/",
+    "https://co-charger.com/find-a-host/how-does-it-work/",
+    "https://co-charger.com/about-the-app-host/",
+    "https://www.justpark.com/ev/fleetcharge"
+  ]
+}

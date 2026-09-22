@@ -14,39 +14,19 @@ Reach the first real external value flow through a formation that survives bilat
 
 Validation: `ATTRACTION_SCAN_015-F1` still requires written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 082 is complete; the next unique research goal is `ATTRACTION_SCAN_083`, starting from repeated bilateral partial flow between replenishing A/B populations before product-category selection.
+Discovery: Scan 083 is complete with zero retention. Validate it, then run one independent Scan 084 bilateral-partial-flow pass before changing the evidence object or deriving any mechanism.
 
 ## Current Phase
 
-`SCAN_082_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
-
-Scan 082 completed the required second independent broad current-reality actor/state-change pass after Scan 081 restored upstream discovery.
-
-It tested three unrelated current formations:
-- U.S. unpaid family caregiving coordination;
-- California wildfire hardening -> homeowners-insurance eligibility;
-- used-EV battery health -> resale trust/value.
-
-All three were demoted. ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
-
-Two independent broad actor/state passes are now complete. The next evidence object is no longer single-actor state change alone. Scan 083 must start from repeated bilateral partial flow or informal value transfer between replenishing A/B actor populations, then identify recurring connection pressure and a missing edge before naming a product category.
+`SCAN_083_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`49c8eedf09325ec4c3ada5682630dd447b47874c`
-— squash merge of PR #379, `Reset to actor-state discovery after Scan 081`.
+`7acf69339be64a12d0067c38616865d0ed1b6efe`
+— squash merge of PR #380, `Advance to bilateral partial-flow discovery after Scan 082`.
 
-PR #379 repository CI run `35687984295` completed `success`.
-
-PR #379 live TypeSafe/Jev run `35687984154` completed `success`:
-- `typesafe-sdk==0.7.0`;
-- model `jev-latest`;
-- repository `TYPESAFE_API_KEY`;
-- input `ATTRACTION_SCAN_081`, 3 entities;
-- model/effective route: 3/3 `NO_FURTHER_RESEARCH`;
-- failed = 0;
-- `autonomous_continuation_allowed=true`;
-- `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #380 final repository CI run `35688802061` completed `success`.
+PR #380 final live Jev run `35688802107` completed `success`: `typesafe-sdk==0.7.0`, model `jev-latest`, Scan 082 3/3 `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -54,127 +34,103 @@ PR #379 live TypeSafe/Jev run `35687984154` completed `success`:
 
 ## Active Branch
 
-`research/attraction-scan-082`
+`research/attraction-scan-083`
 
 ## Active PR
 
-#380 — `Advance to bilateral partial-flow discovery after Scan 082`.
-Head before this checkpoint: `9801121cf99792cd635437824b68a5742aad31ed`.
+#381 — `Validate bilateral partial-flow discovery in Scan 083`.
 
 ## CI
 
-- PR #379 repository CI run `35687984295`: success.
-- PR #379 live Jev run `35687984154`: success; Scan 081, 3/3 `NO_FURTHER_RESEARCH`, `ADVANCE_TO_NEXT_SCAN`.
-- PR #380 earlier head `9801121cf99792cd635437824b68a5742aad31ed`: Jev run `35688691398` succeeded and returned Scan 082 3/3 `NO_FURTHER_RESEARCH` plus `ADVANCE_TO_NEXT_SCAN`; repository CI run `35688691232` failed only because four required TASK_STATE section headings were removed during compaction.
-- PR #380 current head must re-run repository CI and live Jev after restoring the recovery-contract headings.
+- PR #380 repository CI `35688802061`: success.
+- PR #380 live TypeSafe/Jev `35688802107`: success; Scan 082 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
+- Scan 083 PR/CI/live Jev has not run yet.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_082.json`
-- `docs/research/ATTRACTION_SCAN_082_2026-09-22.md`
-- `tests/test_attraction_scan_082_bilateral_evidence_transition.py`
+- `data/research_runs/attraction_scan_083.json`
+- `docs/research/ATTRACTION_SCAN_083_2026-09-22.md`
+- `tests/test_attraction_scan_083_bilateral_partial_flow_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
-Persisted state records:
-- last completed scan = `ATTRACTION_SCAN_082`;
-- last resolved formation = `ATTRACTION_SCAN_082-F3`;
-- next scan = `ATTRACTION_SCAN_083`;
-- no active commercial promotion;
-- next discovery boundary = bilateral-partial-flow-first, no mechanism inheritance.
+Persisted state:
+- last completed scan = `ATTRACTION_SCAN_083`;
+- last resolved formation = `ATTRACTION_SCAN_083-F3`;
+- next scan = `ATTRACTION_SCAN_084`;
+- active commercial candidates = 0;
+- FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`;
+- next discovery boundary = second independent bilateral-partial-flow-first pass.
 
 ## Completed
 
-- Scan 081 merged on main in PR #379 with repository CI and live Jev green.
-- Scan 082 research, persisted JSON, report, reset-state transition and regression coverage are complete on PR #380.
-- Scan 082 commercial promotions = 0; retained research formations = 0.
-- The evidence-object transition to bilateral-partial-flow-first for Scan 083 is persisted.
-- FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
+- Scan 082 merged in PR #380 with final repository CI and live Jev green.
+- Scan 083 tested three real repeated A↔B flows without inheriting a product mechanism.
+- Food rescue, construction soil exchange and private EV charging all closed at exact current control-surface preflight.
+- Scan 083 commercial promotions = 0; retained research formations = 0.
+- Scan 084 boundary is persisted as an independent second bilateral-flow sample.
 
 ## Current Findings
 
-### Scan 082-F1 — unpaid family caregiving
+### Scan 083-F1 — surplus food donors -> hunger-relief agencies
 
-Large and replenishing demand is real. NORC reports more than 63 million U.S. unpaid caregivers and widespread use of medication/coordination technology.
+Real repeated flow: MealConnect has facilitated more than seven billion pounds of rescue; Feeding America reports more than two billion pounds of retail donations in the prior year and additional rescueable retailer surplus.
 
-Demotion reason:
-- Cariloop, Wellthy, CareMobi and adjacent platforms already occupy coordination/benefit surfaces;
-- the highest-value residual remains consent/proxy authority, provider navigation, family context and human exception handling;
-- no narrow founder-independent machine-owned missing edge is evidenced.
+Demotion:
+- MealConnect already owns national donor/agency matching at no cost;
+- Too Good To Go spans expiry management, markdown, consumer resale and charity redistribution;
+- residual value is dominated by physical pickup, storage, cold-chain and local capacity.
 
-### Scan 082-F2 — wildfire hardening -> insurance eligibility
+### Scan 083-F2 — surplus-soil sites -> fill-demand sites
 
-The state-dependent value jump is real. State Farm's 16 Sep 2026 California filing ties consideration for new policies to qualifying IBHS Wildfire Prepared designations.
+Real repeated flow: surplus projects pay to remove material while deficit projects pay to source and haul replacement material.
 
-Demotion reason:
-- IBHS owns the designation framework;
-- insurers own underwriting/pricing authority;
-- decisive work is physical mitigation, inspection and ongoing maintenance;
-- a software-only operator does not control the acceptance or settlement rail.
+Demotion:
+- Soil Connect already owns live HAVE/NEED matching, quoting, reporting, hauling support and a contractor/broker network;
+- Earth Exchange already provides paid map-based exchange and managed MMP/compliance support;
+- no distinct unowned control surface remains in the observed evidence.
 
-### Scan 082-F3 — used-EV battery health -> resale trust/value
+### Scan 083-F3 — private charger hosts -> drivers without home charging
 
-The hidden-state problem is economically meaningful and highly machine-executable.
+Real repeated paid flow: Co Charger supports recurring weekly bookings; JustPark FleetCharge pairs nearby hosts/drivers and pays hosts recurring earnings plus energy reimbursement.
 
-Demotion reason:
-- Autotrader/KBB already surface VIN-level battery-health information;
-- Recurrent already turns connected-vehicle data into comparative reports;
-- AVILOO already sells independent certification, dealer workflow, warranty and API integration;
-- no distinct unowned data/acceptance/settlement edge is established.
-
-## Validation Status
-
-`ATTRACTION_SCAN_015-F1` remains the only retained validation beacon.
-
-Current authoritative state:
-- Wave 1 outreach sent to two verified provider contacts;
-- last checked 2026-09-21;
-- incoming written provider response = 0;
-- written cross-rail rights = NOT_PROVEN;
-- organic founder-free inbound = NOT_PROVEN;
-- no response is not a denial;
-- public rights research has reached its useful ceiling.
-
-Do not repeat public-rights archaeology while written provider evidence is outstanding.
+Demotion:
+- Co Charger already owns neighbour discovery, recurring booking and charging payment;
+- JustPark extends the control plane into charger installation, reserved access, fleet management and settlement;
+- a generic agent cannot create local density or access rights, but the current platforms already own those assets.
 
 ## Blockers
 
 Validation:
-- Scan 015-F1 still requires actual written provider response/agreement plus founder-free inbound evidence.
+- Scan 015-F1 still needs an actual written provider response/agreement and founder-free inbound proof.
+- No response remains neither a pass nor a denial.
 
 Engineering:
 - no Jev integration blocker;
-- Scan 082 PR/CI/live Jev validation is not yet run.
+- Scan 083 still requires PR repository CI and live Jev validation.
 
 Discovery:
-- Scan 082 research is complete;
-- Scan 083 must not revert to jobs, gigs, RFQs, procurement categories, single-sided pain or an inherited router/marketplace/integration mechanism.
+- one bilateral-flow pass is insufficient to infer a stronger signal floor or abandon the evidence object;
+- Scan 084 must be independent and must not reuse food rescue, construction soil exchange or private EV charging.
 
 ## Next Action
 
-Run repository CI and live TypeSafe/Jev on PR #380's final head, consume the actual continuation directive, and continue automatically.
-
-If CI is green and Jev returns `ADVANCE_TO_NEXT_SCAN`:
-1. merge Scan 082;
-2. verify live main;
-3. start `ATTRACTION_SCAN_083` with this boundary:
-
-`BILATERAL_PARTIAL_FLOW_FIRST_FORMATION_DIVERSE_REPEATED_CROSS_ACTOR_VALUE_TRANSFER_OR_WORKAROUND_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_REQUIRE_REPLENISHING_A_AND_B_POPULATIONS_AND_RECURRING_CONNECTION_PRESSURE_EXCLUDE_SCAN060_TO_082_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`
+Validate PR #381's final head with repository CI plus live TypeSafe/Jev; consume the continuation directive.
 
 ## Do Not Repeat
 
-- Do not promote Scan 082 caregiving from population size or digital-tool adoption; the high-value residual is still human/context/rights heavy and current care platforms already exist.
-- Do not promote wildfire mitigation because insurance value is large; IBHS/insurers/physical providers own the decisive rights and execution.
-- Do not promote used-EV battery health because diagnostics are machine-executable; exact scoring/certification/marketplace surfaces are already active.
-- Do not reuse Scan 081 carbon-data, France e-invoice or AI-agent identity formations.
-- Do not infer a router, marketplace, integration layer or other mechanism merely because two broad passes closed at zero.
+- Do not treat repeated A↔B flow as white space by itself.
+- Do not promote food rescue matching; MealConnect already owns the national donor-to-agency matching rail and Too Good To Go owns adjacent commercial surplus management.
+- Do not promote construction dirt matching; Soil Connect and Earth Exchange already own the exact visibility/matching/quote/compliance surfaces.
+- Do not promote private EV charger sharing; Co Charger and JustPark already own local host discovery, booking, access and settlement.
+- Do not reuse Scan 082 caregiving, wildfire-insurance or used-EV battery-health signals.
+- Do not infer a marketplace, router or integration mechanism from Scan 083.
+- Do not use jobs, gigs, RFQs or procurement feeds as the discovery ontology.
 - Do not lower hard floors because discovery continues to close at zero.
-- Do not treat incumbent presence alone as a kill; verify whether it owns the same value flow and whether a distinct residual asset remains.
-- Do not treat actor pain, spreadsheet use, regulation, risk or hidden state as a latent connection without repeated cross-actor connection-pressure evidence.
-- Do not repeat Scan 015 public-rights research while written evidence is outstanding.
+- Do not repeat Scan 015 public-rights research while written provider evidence is outstanding.
 
 ## Guardrails
 
@@ -183,8 +139,8 @@ If CI is green and Jev returns `ADVANCE_TO_NEXT_SCAN`:
 - Attraction first for attention; evidence first for truth.
 - UNKNOWN != PASS.
 - Inference != fact.
-- No inherited commercial case layer.
-- Job/gig/RFQ/procurement feeds are downstream evidence, not discovery ontology.
+- No inherited commercial case layer or product mechanism.
+- Bilateral partial flow must precede product naming in Scans 083-084.
 - Exact incumbent/control-surface preflight before deep retention.
 - No recurring founder acquisition.
 - No recurring expert delivery.
@@ -197,19 +153,14 @@ If CI is green and Jev returns `ADVANCE_TO_NEXT_SCAN`:
 
 Contract: `OPPORTUNITY_JEV_RESEARCH_ADVISORY_V2`.
 
-Actual invocation path:
+Actual invocation:
 1. PR workflow installs `typesafe-sdk==0.7.0`.
-2. `tools/run_jev_research_advisory.py --scan-json auto --commercial-state-json data/commercial_reset_state.json --max-entities 6 --output-dir .artifacts/jev-research-advisory --require-success`.
-3. `--scan-json auto` resolves the latest persisted scan from commercial state.
-4. TypeSafe calls model `jev-latest` with repository `TYPESAFE_API_KEY`.
-5. Jev returns advisory model routes.
-6. Repository logic converts them to deterministic effective routes while preserving authoritative closures.
+2. It runs `tools/run_jev_research_advisory.py --scan-json auto --commercial-state-json data/commercial_reset_state.json --max-entities 6 --output-dir .artifacts/jev-research-advisory --require-success`.
+3. `--scan-json auto` resolves the latest persisted scan.
+4. TypeSafe calls `jev-latest` using repository `TYPESAFE_API_KEY`.
+5. Jev returns advisory model routes only.
+6. Repository logic derives effective routes while preserving authoritative closures.
 7. `OPPORTUNITY_JEV_AGENT_CONTINUATION_V1` emits `jev_continuation_directive.json`.
-8. The already-running agent consumes `ADVANCE_TO_NEXT_SCAN`, `EXECUTE_RESEARCH_QUEUE`, or `STOP_FOR_HUMAN_REVIEW`.
+8. The running repository agent consumes `ADVANCE_TO_NEXT_SCAN`, `EXECUTE_RESEARCH_QUEUE`, or `STOP_FOR_HUMAN_REVIEW`.
 
-Jev has no authority to:
-- promote a commercial candidate;
-- mutate authoritative commercial truth;
-- reverse DEMOTED/REJECTED/CLOSED decisions;
-- perform external side effects;
-- treat model confidence as evidence.
+Jev cannot promote candidates, mutate authoritative commercial truth, reverse closed verdicts or perform external side effects.
