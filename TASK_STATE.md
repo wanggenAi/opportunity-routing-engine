@@ -38,7 +38,7 @@ PR #383 final live Jev run `35690471285`: success; `typesafe-sdk==0.7.0`, model 
 
 ## Active PR
 
-None yet. Scan 086 is complete on the research branch and ready for PR validation.
+#384 — `Advance beyond participant-authored bypass after Scan 086`.
 
 ## CI
 
@@ -46,7 +46,7 @@ None yet. Scan 086 is complete on the research branch and ready for PR validatio
 - PR #381 live TypeSafe/Jev `35689116567`: success; Scan 083 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
 - PR #382 final head `afe92b186c13b73fdf18ef0a7a821930daadeb6e`: repository CI `35689404591` success; live Jev `35689404496` success; Scan 084 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
 - PR #383 final head `8b03b5a239a212566405d99920014a7d50672bf9`: repository CI `35690471250` success; live Jev `35690471285` success; Scan 085 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- Scan 086 PR/CI/live Jev has not run yet.
+- PR #384 opened for Scan 086; final-head repository CI and live Jev pending.
 
 ## Latest Artifact / Persisted State
 
