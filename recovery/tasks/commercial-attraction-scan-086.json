@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "generation": 1,
+  "repository": "wanggenAi/opportunity-routing-engine",
+  "status": "IN_PROGRESS",
+  "task_key": "commercial-attraction-scan-086",
+  "stage": "SCAN_086_RESEARCH",
+  "last_observed_main_sha": "2584deb8755b4683af7c8d87c48bfc69a9baffcc",
+  "work_branch": "research/attraction-scan-086",
+  "work_head_sha": "d7b33042e5880a355f68d60b40dacaa1d7dbd028",
+  "active_pr": null,
+  "ci": {
+    "run_id": null,
+    "head_sha": null,
+    "status": "NOT_STARTED",
+    "conclusion": null
+  },
+  "production_or_artifact": {
+    "status": "NOT_APPLICABLE",
+    "evidence": [
+      "PR383_MERGED_MAIN_2584DEB8",
+      "PR383_JEV_ADVANCE_TO_NEXT_SCAN"
+    ]
+  },
+  "pending_operation": null,
+  "health": {
+    "recovery": "HEALTHY",
+    "last_error": null
+  },
+  "completed": [
+    "SCAN_085_MERGED",
+    "SCAN_086_BRANCH_STARTED"
+  ],
+  "next_action": "Execute second independent participant-authored control-surface-bypass pass, persist Scan 086, open PR, validate CI/Jev.",
+  "do_not_repeat": [
+    "Do not repeat Scan 085 restaurant direct ordering.",
+    "Do not repeat Scan 085 off-platform ticket resale.",
+    "Do not repeat Scan 085 Delta manual itinerary change.",
+    "Do not repeat Scan 015 public-rights research while written provider evidence is outstanding."
+  ]
+}
