@@ -1,0 +1,209 @@
+{
+  "schema_version": "attraction-scan.v81",
+  "scan_id": "ATTRACTION_SCAN_107",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FIRST_INDEPENDENT_SMALL_OPERATOR_VERIFIED_NET_CASHFLOW_CONTROL_PASS_REQUIRE_SAME_OPERATOR_AND_SAME_CONTROL_POSITION_BINDING_FOR_AN_ACTUALLY_EXECUTED_THIRD_PARTY_ACQUISITION_LICENSE_OR_CONTRACT_OF_A_DECISIVE_NONCOMMODITY_POSITION_AT_SMALL_OPERATOR_SIZED_CONTROL_COST_PLUS_POST_TRANSFER_RECEIVED_EXTERNAL_CUSTOMER_REVENUE_DIRECT_OPERATING_COSTS_OWNER_LABOR_AND_RIGHTS_SUFFICIENT_TO_ESTIMATE_NORMALIZED_NET_CASHFLOW_REQUIRE_NO_ORIGINAL_FOUNDER_OR_NEW_OPERATOR_FULL_TIME_MANUAL_DELIVERY_NO_LARGE_ORGANIZATION_OR_INFRASTRUCTURE_CAPITAL_DEPENDENCE_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_106_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_GENERIC_AGENT_MACHINE_DELEGATABILITY_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_107-F1",
+      "title": "CHINA_SMALL_OPERATOR_CONVENIENCE_ENTRY_SHOWS_ACCOUNTING_PROFIT_BUT_OWNER_JOB_AND_CAPITAL_LOSS",
+      "discovery_route": "CURRENT_2026_SHENZHEN_OPERATOR_REPORTING_EXPOSES_SMALL_OPERATOR_ENTRY_COST_POST_ENTRY_CUSTOMER_SALES_ACCOUNTING_PROFIT_CAPITAL_LOSS_AND_OWNER_LABOR_AS_SEPARATE_ECONOMIC_LAYERS",
+      "observed_actor_state_change_evidence": [
+        "A current Shenzhen report documents Xu Ming taking a former steamed-bun shop premises, entering a convenience-store franchise, and operating it for roughly six months before deciding to transfer and exit.",
+        "The same report gives post-entry daily turnover of roughly RMB1,200-1,900 during the opening period and states that after the first loss-making month the books showed roughly RMB7,000 per month remaining after costs."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The operator entered at an individual/small-operator scale: roughly RMB30,000 franchise fee, RMB30,000 custom shelving, RMB20,000 opening inventory and about RMB20,000 decoration/deposit were explicitly described, with total initial savings invested stated as more than RMB100,000.",
+        "The operating position depended on a leased neighborhood site plus franchise/store setup rather than a large organization or infrastructure asset."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "After roughly six months the operator planned to transfer the store for about RMB50,000 and stated that roughly RMB60,000 of principal had been lost.",
+        "He described the six months as unpaid hard work and said his body could no longer sustain the operation, so he planned to close or transfer the store and return home.",
+        "A separate operator in the same current report worked about 15 hours per day for roughly RMB8,000 monthly income after merchandise, rent, utilities and display-fee effects, showing why owner shadow wage is a material variable in this operating class; that second operator's hours are not imputed to Xu Ming."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The case is stronger than a transfer listing because it binds a named fresh operator to actual entry spending, post-entry sales, operating-cost language and an exit decision.",
+        "It is still not a complete normalized-cashflow packet: Xu Ming's exact monthly merchandise cost, utilities, shrinkage, owner hours, tax/social-insurance burden and realized exit proceeds are not fully itemized.",
+        "The apparent RMB7,000 monthly accounting remainder coexists with reported principal destruction and operator physical exhaustion, so accounting profit cannot be promoted as founder-light net cashflow.",
+        "The article does not close exact lease-assignment terms, franchise transferability, supplier obligations or other rights needed to prove the position itself is a durable transferable noncommodity control asset."
+      ],
+      "economic_signal": [
+        "Participant-reported daily turnover reached roughly RMB1,200-1,900 early in operation and later books showed about RMB7,000 per month after stated costs excluding a separately valued owner shadow wage.",
+        "After about six months, the operator reported that a transfer at roughly RMB50,000 would leave about RMB60,000 of his initial capital lost."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The franchise brand, landlord, suppliers and local retail competition retain major control over assortment, economics, site continuity and customer acquisition.",
+        "A current CCFA survey of 60 member enterprises reports 71.7% had declining customer counts and 60% declining net profit in 2026 H1, corroborating category pressure without substituting category averages for this operator's own economics.",
+        "The local store position is replicable by equivalent entrants through site leasing and franchise/store setup; no durable operator-specific routing or data right is evidenced."
+      ],
+      "executed_control_transfer_check": "PARTIAL_PASS_A_CURRENT_NAMED_OPERATOR_EXECUTED_SITE_TAKEOVER_AND_FRANCHISE_STORE_ENTRY_BUT_EXACT_ASSIGNMENT_PRICE_TERM_AND_TRANSFERABLE_FRANCHISE_CONTROL_RIGHTS_ARE_NOT_PUBLICLY_CLOSED",
+      "post_transfer_external_economic_continuity_check": "PARTIAL_PASS_PARTICIPANT_REPORTED_POST_ENTRY_CUSTOMER_TURNOVER_AND_ACCOUNTING_NET_ARE_BOUND_TO_THE_OPERATOR_BUT_BANK_SETTLEMENT_OR_AUDITED_RECEIPTS_ARE_NOT_AVAILABLE",
+      "fresh_small_operator_entry_check": "PASS_ENTRY_SPEND_IS_IN_THE_LOW_SIX_FIGURE_RMB_RANGE_AND_THE_POSITION_IS_OPERATED_BY_AN_INDIVIDUAL_NOT_A_LARGE_ORGANIZATION",
+      "same_operator_economic_binding_check": "PARTIAL_PASS_ENTRY_COST_POST_ENTRY_TURNOVER_ACCOUNTING_REMAINDER_CAPITAL_LOSS_AND_EXIT_INTENT_BIND_TO_XU_MING_BUT_EXACT_OWNER_HOURS_AND_FULL_MONTHLY_COST_LEDGER_DO_NOT",
+      "direct_operating_cost_check": "PARTIAL_PASS_RENT_UTILITIES_INVENTORY_LOSS_AND_INITIAL_FRANCHISE_FIXTURE_INVENTORY_DECORATION_COSTS_ARE_DESCRIBED_BUT_EXACT_MONTHLY_COGS_SHRINK_TAX_AND_ALL_OPERATING_COSTS_ARE_NOT_ITEMIZED",
+      "owner_labor_check": "FAIL_OPERATOR_REPORTS_SIX_MONTHS_OF_UNPAID_HARD_WORK_AND_PHYSICAL_EXHAUSTION_CAUSING_EXIT_WHILE_EXACT_HOURS_ARE_UNDISCLOSED_AND_A_SEPARATE_15_HOUR_OPERATOR_IS_NOT_IMPUTED_TO_HIM",
+      "founder_independence_check": "FAIL_THE_FRESH_OPERATOR_MUST_RECURRINGLY_STAFF_AND_RUN_THE_PHYSICAL_STORE_AND_THE_EXIT_IS_EXPLICITLY_LINKED_TO_THE_OPERATOR_BODY_NO_LONGER_TOLERATING_THE_WORK",
+      "data_action_rights_check": "UNKNOWN_TO_PARTIAL_SITE_USE_AND_FRANCHISE_ENTRY_OCCURRED_BUT_EXACT_LEASE_ASSIGNMENT_FRANCHISE_TRANSFER_SUPPLIER_AND_OTHER_CONTROL_RIGHTS_ARE_NOT_PUBLICLY_CLOSED",
+      "normalized_margin_check": "FAIL_TO_CLOSE_ACCOUNTING_RMB7000_MONTHLY_REMAINDER_CANNOT_BE_NORMALIZED_WITHOUT_OWNER_SHADOW_WAGE_FULL_MONTHLY_COSTS_REALIZED_EXIT_VALUE_AND_RIGHTS_CONTINUITY_AND_REPORTED_CAPITAL_LOSS_IS_MATERIAL",
+      "machine_delegatability_check": "FAIL_STOCKING_LOSS_CONTROL_CUSTOMER_SERVICE_SITE_OPERATIONS_AND_LONG_OPENING_HOURS_REMAIN_RECURRING_PHYSICAL_LABOR",
+      "generic_agent_substitutability_check": "FAIL_FOR_SCARCITY_A_GENERIC_AGENT_CANNOT_PHYSICALLY_STAFF_THE_STORE_BUT_EQUIVALENT_ENTRANTS_CAN_RECREATE_THE_BASIC_SITE_PLUS_FRANCHISE_CONTROL_STACK_AND_NO_DISTINCT_ROUTING_CONTROL_IS_EVIDENCED",
+      "verdict": "DEMOTED_CURRENT_SMALL_OPERATOR_ECONOMICS_SHOW_ACCOUNTING_PROFIT_CAN_MASK_OWNER_JOB_AND_CAPITAL_DESTRUCTION_WHILE_RIGHTS_AND_SAME_OPERATOR_NORMALIZED_CASHFLOW_REMAIN_UNCLOSED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_107-F2",
+      "title": "CHINA_THREE_ROOM_DALI_HOMESTAY_TRANSFER_WITH_SELLER_REPORTED_BUYER_PAYBACK_PROGRESS",
+      "discovery_route": "CURRENT_CHINA_HOSPITALITY_REPORTING_DOCUMENTS_AN_EXECUTED_SMALL_LODGING_TRANSFER_AT_RMB450K_AND_SELLER_REPORTED_ONE_YEAR_BUYER_PAYBACK_PROGRESS_WITHOUT_BINDING_THE_BUYER_FULL_CASHFLOW_LEDGER",
+      "observed_actor_state_change_evidence": [
+        "A 2025 Dali operator interview states that the seller transferred his first three-room guesthouse in 2023 for RMB450,000 as a turnkey operation.",
+        "The seller states that the buyer operated it for one year and had recovered more than half of the investment."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The acquired position combined a ready-to-operate small lodging site, location, fit-out and an existing accommodation operation rather than requiring a new build from zero.",
+        "The RMB450,000 one-time transfer cost is within an individual-investor range and far below the infrastructure-scale positions rejected in Scan 106."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The seller explicitly framed the transferred three-room property as immediately operable by the buyer rather than requiring the original owner to continue running it.",
+        "The same article separately discloses detailed 2024 revenue and cost categories for the seller's different seven-room guesthouse, but those economics are intentionally not attributed to the buyer of the three-room property."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "An executed transfer plus reported post-transfer payback is stronger than an asking-price listing.",
+        "The buyer payback statement is second-hand seller testimony; the source does not publish the buyer's own receipts, OTA statements, direct operating-cost ledger, owner hours or realized cash distributions.",
+        "The detailed rent, utilities, consumables and cleaner costs in the article belong to a different seven-room property and therefore cannot be combined with the three-room buyer's acquisition price to manufacture normalized cashflow.",
+        "The exact remaining lease term, landlord assignment consent, accommodation registration/license continuity and later exit value for the transferred three-room position are not independently closed."
+      ],
+      "economic_signal": [
+        "Executed acquisition consideration is reported at RMB450,000.",
+        "The seller reports the buyer recovered more than half of the investment after one year, but the underlying buyer cash receipts and costs are not shown."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "OTA distribution, landlord/lease rights, local accommodation compliance, cleaning and guest-service execution remain material control surfaces.",
+        "Location and reputation can be noncommodity, but the source does not show that the exact reputation/distribution state and operating permissions transferred durably to the buyer.",
+        "The report itself describes many Dali guesthouses being transferred, indicating a liquid local transfer market but not an unowned routing edge."
+      ],
+      "executed_control_transfer_check": "PASS_THE_CURRENT_INTERVIEW_REPORTS_AN_ACTUAL_2023_RMB450K_TRANSFER_OF_THE_THREE_ROOM_GUESTHOUSE_TO_A_NEW_BUYER",
+      "post_transfer_external_economic_continuity_check": "UNKNOWN_TO_PARTIAL_SELLER_REPORTS_BUYER_PAYBACK_PROGRESS_AFTER_ONE_YEAR_BUT_BUYER_RECEIVED_CUSTOMER_REVENUE_IS_NOT_DIRECTLY_OR_INDEPENDENTLY_DISCLOSED",
+      "fresh_small_operator_entry_check": "PASS_RMB450K_TURNKEY_ACQUISITION_IS_AN_INDIVIDUAL_INVESTOR_SCALE_POSITION_NOT_A_LARGE_ORGANIZATION_OR_INFRASTRUCTURE_ASSET",
+      "same_operator_economic_binding_check": "FAIL_BUYER_ACQUISITION_COST_AND_SELLER_REPORTED_PAYBACK_PROGRESS_ARE_BOUND_BUT_DIRECT_COSTS_OWNER_LABOR_AND_RECEIPTS_FOR_THE_BUYER_ARE_NOT_AND_SELLER_SEVEN_ROOM_ECONOMICS_CANNOT_BE_IMPORTED",
+      "direct_operating_cost_check": "UNKNOWN_THE_EXACT_BUYER_PROPERTY_COST_LEDGER_IS_NOT_DISCLOSED_AND_COSTS_FROM_THE_SELLERS_OTHER_SEVEN_ROOM_PROPERTY_ARE_A_DIFFERENT_ENTITY",
+      "owner_labor_check": "UNKNOWN_THE_SOURCE_DOES_NOT_QUANTIFY_THE_BUYERS_OWN_RECURRING_LABOR_OR_AN_EXPLICIT_REPLACEMENT_COST",
+      "founder_independence_check": "UNKNOWN_TO_PARTIAL_ORIGINAL_SELLER_CONTINUATION_IS_NOT_REPORTED_AS_REQUIRED_BUT_GUEST_SERVICE_CLEANING_CHANNEL_OPERATION_AND_OWNER_MANAGEMENT_FOR_THE_BUYER_ARE_NOT_BOUNDED",
+      "data_action_rights_check": "UNKNOWN_TO_PARTIAL_TURNKEY_TRANSFER_IS_REPORTED_BUT_EXACT_LEASE_ASSIGNMENT_LANDLORD_CONSENT_ACCOMMODATION_REGISTRATION_OTA_ACCOUNT_AND_REPUTATION_TRANSFER_RIGHTS_ARE_NOT_PUBLICLY_CLOSED",
+      "normalized_margin_check": "UNKNOWN_SELLER_REPORTED_PAYBACK_PROGRESS_IS_INSUFFICIENT_WITHOUT_BUYER_RECEIPTS_DIRECT_COSTS_OWNER_LABOR_RIGHTS_CONTINUITY_AND_EXIT_VALUE",
+      "machine_delegatability_check": "PARTIAL_PASS_BOOKING_AND_SOME_GUEST_WORKFLOWS_CAN_BE_DIGITIZED_OR_STAFFED_BUT_PHYSICAL_CLEANING_SITE_SERVICE_AND_EXCEPTION_HANDLING_REMAIN_RECURRING",
+      "generic_agent_substitutability_check": "PASS_FOR_SCARCITY_A_GENERIC_AGENT_CANNOT_RECREATE_THE_EXACT_LOCATION_LEASE_AND_REPUTATION_STATE_BUT_THOSE_ASSETS_DO_NOT_YET_PROVE_FOUNDER_LIGHT_TRANSFERABLE_CONTROL_OR_NORMALIZED_CASHFLOW",
+      "verdict": "DEMOTED_EXECUTED_SMALL_LODGING_TRANSFER_AND_REPORTED_PAYBACK_DO_NOT_CLOSE_BUYER_SIDE_RECEIPTS_COSTS_OWNER_LABOR_OR_RIGHTS_AND_CROSS_PROPERTY_ECONOMICS_MUST_NOT_BE_COMBINED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_107-F3",
+      "title": "CHINA_LOTTERY_STATION_TAKEOVER_TO_RMB4M_PLUS_TURNOVER_WITH_PERSON_SPECIFIC_TRUST_AND_UNCLOSED_AGENCY_RIGHTS",
+      "discovery_route": "CURRENT_2026_LOCAL_NEWS_BINDS_A_NAMED_OPERATOR_TO_A_RMB160K_2013_LOTTERY_STATION_TAKEOVER_AND_CURRENT_RMB4M_PLUS_ANNUAL_TURNOVER_WHILE_OFFICIAL_RULES_SHOW_THE_DECISIVE_AGENCY_CERTIFICATE_IS_NOT_A_FREELY_TRANSFERABLE_PRIVATE_ASSET",
+      "observed_actor_state_change_evidence": [
+        "A May 2026 Xi'an report identifies Guo Qi as operator of station 61011816 and states that in 2013 he investigated an existing station's turnover, traffic, size and location before spending RMB160,000 to take it over.",
+        "The same current report states the station's annual turnover now exceeds RMB4 million."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The station accumulated a high-trust private community through convenience services, repeated winner stories and a seven-to-eight-year group-purchase model.",
+        "The operator-specific trust graph and long operating history are noncommodity states that are not reproducible by merely purchasing generic retail equipment."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The owner personally performs number selection/printing service and maintains the high-trust group-purchase community.",
+        "The current station continues to attract participants from outside the immediate neighborhood after repeated large-prize events."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The case binds an actual small takeover cost to long-running external sales motion, but gross lottery turnover is not the operator's received economic income.",
+        "The source does not disclose station-specific commission receipts, rent, staffing, utilities, marketing/community cost, taxes, owner hours or current exit value.",
+        "Official Ministry of Finance implementation rules require the lottery sales institution to sign an agency contract and issue an agency certificate; the certificate is the legal qualification and may not be lent, rented or sold.",
+        "The current article does not document how the 2013 private 'takeover' corresponded to an approved agency-contract/certificate change, so exact rights closure must remain unknown rather than assumed valid or invalid."
+      ],
+      "economic_signal": [
+        "Reported 2013 takeover cost is RMB160,000 and current annual gross lottery turnover exceeds RMB4 million.",
+        "No same-station current net commission income or normalized operating profit is disclosed."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The lottery sales institution controls the agency contract, certificate, terminal and regulated sales system.",
+        "The operator controls participant trust and the private community but that advantage is heavily person-specific and built through years of recurring service.",
+        "A generic agent cannot recreate the regulated agency right or local trust history, but neither right is shown as a clean transferable founder-light operator asset."
+      ],
+      "executed_control_transfer_check": "PARTIAL_PASS_CURRENT_NEWS_REPORTS_AN_ACTUAL_RMB160K_STATION_TAKEOVER_BUT_THE_EXACT_REGULATED_AGENCY_CONTRACT_AND_CERTIFICATE_CHANGE_AT_THAT_TIME_ARE_NOT_EVIDENCED",
+      "post_transfer_external_economic_continuity_check": "PARTIAL_PASS_CURRENT_RMB4M_PLUS_ANNUAL_GROSS_LOTTERY_TURNOVER_PROVES_LONG_RUNNING_CUSTOMER_MOTION_BUT_GROSS_TICKET_SALES_ARE_NOT_OPERATOR_RECEIVED_REVENUE",
+      "fresh_small_operator_entry_check": "PASS_RMB160K_ENTRY_WAS_AN_INDIVIDUAL_SMALL_OPERATOR_SCALE_POSITION",
+      "same_operator_economic_binding_check": "PARTIAL_PASS_TAKEOVER_COST_CURRENT_GROSS_TURNOVER_AND_OPERATOR_IDENTITY_BIND_TO_THE_SAME_STATION_OPERATOR_BUT_OPERATOR_INCOME_DIRECT_COSTS_OWNER_LABOR_AND_EXIT_VALUE_DO_NOT",
+      "direct_operating_cost_check": "UNKNOWN_STATION_SPECIFIC_RENT_STAFF_UTILITIES_COMMUNITY_OPERATION_TAX_AND_OTHER_DIRECT_COSTS_ARE_NOT_DISCLOSED",
+      "owner_labor_check": "FAIL_CURRENT_VALUE_CREATION_REMAINS_PERSON_SPECIFIC_THE_OWNER_PERSONALLY_SERVES_CUSTOMERS_AND_MAINTAINS_A_HIGH_TRUST_PRIVATE_COMMUNITY_BUILT_OVER_MANY_YEARS",
+      "founder_independence_check": "FAIL_THE_CURRENT_ADVANTAGE_IS_TIED_TO_THE_OPERATORS_PERSONAL_TRUST_NUMBER_SERVICE_AND_COMMUNITY_MAINTENANCE_RATHER_THAN_A_FOUNDER_LIGHT_TRANSFERABLE_CONTROL_POSITION",
+      "data_action_rights_check": "UNKNOWN_TO_PARTIAL_CURRENT_OPERATION_IS_REAL_BUT_OFFICIAL_RULES_MAKE_THE_AGENCY_CERTIFICATE_NONSALEABLE_AND_THE_SOURCE_DOES_NOT_CLOSE_THE_INSTITUTION_APPROVED_CONTRACT_CERTIFICATE_PATH_FOR_THE_2013_TAKEOVER",
+      "normalized_margin_check": "UNKNOWN_GROSS_TURNOVER_CANNOT_BE_CONVERTED_TO_OPERATOR_NET_CASHFLOW_WITHOUT_EXACT_COMMISSION_RECEIPTS_DIRECT_COSTS_OWNER_LABOR_RIGHTS_AND_EXIT_VALUE",
+      "machine_delegatability_check": "FAIL_REGULATED_TICKET_SALES_PARTICIPANT_TRUST_COMMUNITY_MANAGEMENT_AND_PERSONALIZED_SERVICE_REMAIN_DECISIVE_RECURRING_HUMAN_FUNCTIONS",
+      "generic_agent_substitutability_check": "PASS_FOR_SCARCITY_A_GENERIC_AGENT_CANNOT_RECREATE_THE_REGULATED_AGENCY_POSITION_OR_DECADE_OF_LOCAL_TRUST_BUT_THE_SCARCITY_IS_REGULATED_AND_PERSON_SPECIFIC_NOT_A_TRANSFERABLE_MACHINE_ROUTING_EDGE",
+      "verdict": "DEMOTED_SMALL_OPERATOR_TAKEOVER_AND_LARGE_GROSS_TURNOVER_DO_NOT_CLOSE_REGULATED_RIGHTS_OPERATOR_RECEIVED_INCOME_DIRECT_COSTS_OR_OWNER_LABOR_AND_THE_NONCOMMODITY_TRUST_ASSET_IS_PERSON_SPECIFIC"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CHINA_24H_SELF_SERVICE_BILLIARD_ROOM_WITH_RMB400K_ENTRY_AND_REPORTED_RMB15K_TO_20K_BEST_MONTH_PROFIT",
+      "excluded_reason": "EXCLUDED_FROM_PRIMARY_FORMATIONS_BECAUSE_THE_CURRENT_CASE_PROVES_MACHINE_LIGHTENED_LOCAL_ASSET_ECONOMICS_BUT_NOT_AN_EXECUTED_THIRD_PARTY_ACQUISITION_LICENSE_OR_CONTRACT_OF_A_DECISIVE_NONCOMMODITY_CONTROL_POSITION_AND_OWNER_LABOR_IS_NOT_BOUND"
+    },
+    {
+      "observation": "CURRENT_MEITUAN_SHARED_POWER_BANK_PARTNER_RAIL",
+      "excluded_reason": "EXCLUDED_FROM_PRIMARY_FORMATIONS_BECAUSE_OFFICIAL_TERMS_PROVE_SMALL_OPERATOR_MACHINE_CALLABLE_SETTLEMENT_AND_DEVICE_PURCHASE_BUT_DO_NOT_BIND_ONE_ACTUAL_OPERATOR_TO_CONTROL_COST_RECEIVED_NET_REVENUE_DIRECT_COSTS_OWNER_LABOR_AND_NONCOMMODITY_POINT_RIGHTS"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "same_operator_and_control_position_binding_required": true,
+    "executed_control_change_required": true,
+    "received_customer_revenue_required": true,
+    "direct_operating_costs_required": true,
+    "owner_shadow_wage_or_replacement_cost_required": true,
+    "rights_closure_required": true,
+    "realized_or_bounded_exit_value_required_for_normalization": true,
+    "fresh_small_operator_entry_required": true,
+    "founder_light_operation_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_FRANCHISED_NEIGHBORHOOD_RETAIL_TURNKEY_SMALL_HOSPITALITY_AND_REGULATED_LOTTERY_AGENCY_TEST_DISTINCT_CONTROL_RIGHTS_AND_LABOR_SHAPES",
+    "observed_indexing_bias": "PUBLIC_SMALL_BUSINESS_REPORTING_OFTEN_BINDS_ENTRY_COST_OR_GROSS_SALES_BUT_MIXES_SELLER_BUYER_CATEGORY_OR_ADJACENT_OPERATOR_ECONOMICS_SO_APPARENTLY_COMPLETE_ROI_CAN_BE_MANUFACTURED_BY_CROSS_ENTITY_STITCHING",
+    "response": "DO_NOT_STITCH_CROSS_OPERATOR_OR_CROSS_PROPERTY_NUMBERS_REQUIRE_A_SECOND_INDEPENDENT_PASS_WITH_SAME_OPERATOR_SAME_CONTROL_POSITION_RECEIPTS_COSTS_OWNER_LABOR_RIGHTS_AND_EXIT_VALUE_BEFORE_CHANGING_THE_SEARCH_ONTOLOGY",
+    "participant_behavior_over_analyst_story": "PASS_F1_USES_CURRENT_NAMED_OPERATOR_ENTRY_EXIT_AND_ACCOUNTING_REPORT_F2_USES_EXECUTED_TRANSFER_AND_EXPLICIT_SECOND_HAND_BUYER_PAYBACK_WITH_LIMITATION_F3_USES_CURRENT_NAMED_STATION_OPERATOR_PLUS_OFFICIAL_RIGHTS_RULES"
+  },
+  "scan_learnings": [
+    "SCAN107_FIRST_SMALL_OPERATOR_VERIFIED_NET_CASHFLOW_CONTROL_PASS_ZERO_RETENTION_ACROSS_CONVENIENCE_STORE_ENTRY_TURNKEY_SMALL_HOMESTAY_TRANSFER_AND_REGULATED_LOTTERY_STATION_TAKEOVER",
+    "ACCOUNTING_PROFIT_WITHOUT_OWNER_SHADOW_WAGE_AND_REALIZED_EXIT_VALUE_CAN_DESCRIBE_A_PURCHASED_JOB_AND_CAPITAL_DESTRUCTION_RATHER_THAN_NORMALIZED_FOUNDER_LIGHT_CASHFLOW",
+    "EXECUTED_SMALL_ASSET_TRANSFER_PLUS_SELLER_REPORTED_BUYER_PAYBACK_IS_NOT_BUYER_SIDE_ECONOMIC_CLOSURE_WITHOUT_BUYER_RECEIPTS_DIRECT_COSTS_AND_OWNER_LABOR",
+    "LARGE_GROSS_TURNOVER_ON_A_REGULATED_AGENCY_RAIL_IS_NOT_OPERATOR_RECEIVED_REVENUE_AND_PRIVATE_TAKEOVER_LANGUAGE_IS_NOT_RIGHTS_CLOSURE",
+    "SAME_OPERATOR_SAME_CONTROL_POSITION_AND_SAME_TIME_WINDOW_BINDING_IS_A_HARD_EVIDENCE_RULE_CROSS_OPERATOR_HOURS_OR_CROSS_PROPERTY_COSTS_MUST_NOT_BE_STITCHED_TO_COMPLETE_A_RETURN_MODEL",
+    "THE_NEXT_PASS_SHOULD_REPEAT_THE_VERIFIED_NET_CASHFLOW_FLOOR_INDEPENDENTLY_AND_PREFER_CASES_WHERE_OWNER_LABOR_IS_EXPLICITLY_BOUNDED_OR_REPLACED_AND_DELIVERY_IS_MACHINE_DELEGATABLE_WITHOUT_DERIVING_A_VERTICAL"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_108",
+  "next_search_boundary": "SECOND_INDEPENDENT_SMALL_OPERATOR_VERIFIED_NET_CASHFLOW_CONTROL_PASS_REQUIRE_SAME_OPERATOR_SAME_CONTROL_POSITION_AND_SAME_TIME_WINDOW_BINDING_FOR_EXECUTED_ACQUISITION_LICENSE_OR_CONTRACT_CONTROL_COST_RECEIVED_EXTERNAL_CUSTOMER_REVENUE_DIRECT_OPERATING_COSTS_OWNER_LABOR_OR_EXPLICIT_OUTSOURCED_REPLACEMENT_COST_RIGHTS_AND_REALIZED_OR_BOUNDED_EXIT_VALUE_SUFFICIENT_TO_ESTIMATE_NORMALIZED_NET_CASHFLOW_REQUIRE_FOUNDER_LIGHT_MACHINE_DELEGATABLE_DELIVERY_AND_NONCOMMODITY_CONTROL_DISTINCT_FROM_GENERIC_LOCAL_ASSET_OWNERSHIP_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_107_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_GENERIC_AGENT_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN107_WITH_CI_JEV_THEN_START_SCAN108_SECOND_VERIFIED_NET_CASHFLOW_CONTROL_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.huxiu.com/article/4892717.html",
+    "https://www.ccfa.org.cn/portal/cn/xiangxi.jsp?id=447307&type=10003",
+    "https://www.thepaper.cn/newsDetail_forward_30426596",
+    "https://www.gjnews.cn/2026/0517/623351.html",
+    "https://jdjc.mof.gov.cn/fgzd/202204/t20220422_3805017.htm",
+    "https://www.chinaventure.com.cn/news/78-20260615-391845.html",
+    "https://123.meituan.com/serve/web/business/137?source=mtqygw"
+  ]
+}
