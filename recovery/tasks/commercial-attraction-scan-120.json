@@ -1,18 +1,18 @@
 {
   "schema_version": 2,
-  "generation": 2,
+  "generation": 3,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "IN_PROGRESS",
+  "status": "WAITING_CI",
   "task_key": "commercial-attraction-scan-120",
-  "stage": "SCAN_120_READY_TO_OPEN_PR",
+  "stage": "SCAN_120_PR_EXACT_HEAD_VALIDATION",
   "last_observed_main_sha": "6443175f9a9dc0e9f02a96519a6c365299d3e820",
   "work_branch": "research/attraction-scan-120",
   "work_head_sha": "3e44f5d8d891a02d72e6976e467abb01a0710e8f",
-  "active_pr": null,
+  "active_pr": 420,
   "ci": {
     "run_id": null,
-    "head_sha": null,
-    "status": "NOT_STARTED",
+    "head_sha": "3e44f5d8d891a02d72e6976e467abb01a0710e8f",
+    "status": "WAITING",
     "conclusion": null
   },
   "production_or_artifact": {
@@ -21,14 +21,7 @@
       "Scan119 PR419 exact-head CI/Jev succeeded and ADVANCE_TO_NEXT_SCAN was consumed."
     ]
   },
-  "pending_operation": {
-    "operation_id": "scan120-open-pr-main",
-    "kind": "CREATE_PULL_REQUEST",
-    "target": "research/attraction-scan-120 -> main",
-    "phase": "PREPARED",
-    "idempotency": "Search PRs for exact head/base before retrying creation.",
-    "prepared_generation": 2
-  },
+  "pending_operation": null,
   "health": {
     "recovery": "HEALTHY",
     "last_error": null
@@ -38,7 +31,7 @@
     "Persisted Scan120 start state and inverted retrieval order in TASK_STATE.",
     "Persisted Scan120 JSON, report, regression test, commercial reset state and final TASK_STATE."
   ],
-  "next_action": "Open exactly one Scan120 PR from frozen head, then consume exact-head repository CI and live TypeSafe/Jev.",
+  "next_action": "Wait for exact-head repository CI and live TypeSafe/Jev; consume directive; merge only if acceptable.",
   "do_not_repeat": [
     "Do not repeat Scan060-119 primary formations/signals.",
     "Do not recreate research/attraction-scan-120.",
