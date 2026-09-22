@@ -1,0 +1,156 @@
+{
+  "schema_version": "attraction-scan.v60",
+  "scan_id": "ATTRACTION_SCAN_081",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_SOURCE_RESET_ACTOR_STATE_CHANGE_FIRST_FORMATION_DIVERSE_OBSERVED_BEHAVIOR_OR_WORKAROUND_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_EXCLUDE_SCAN060_TO_080_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": true,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_081-F1",
+      "title": "KOREAN_EXPORTER_CARBON_DATA_REQUEST_CASCADE_AND_MANUAL_REKEYING",
+      "chinese_title": "韩国出口企业碳数据请求级联与重复手工重录",
+      "evidence_class": "CURRENT_ACTOR_STATE_CHANGE_WITH_BUYER_REQUEST_CASCADE_MANUAL_WORKAROUND_AND_STATED_BUDGET",
+      "observed_actor_state_change_evidence": [
+        "A 2026 KCCI/KICOX survey of 300 Korean exporters reports 99.3% have already been asked or expect to be asked by customers for carbon-emissions data.",
+        "90.3% already require or plan to require the same data from their own suppliers, showing the request is cascading down the supply chain rather than remaining a one-off compliance task."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "66.3% report fragmented in-house systems without a shared standard platform.",
+        "42.4% reprocess and re-enter data using spreadsheets or handwritten documents.",
+        "38.8% fill customer-specific templates, creating repeated transformation work for substantially similar data."
+      ],
+      "economic_signal": [
+        "64.0% cite system build/integration cost as the leading adoption barrier and 62.7% cite lack of staff/time.",
+        "44.7% expect to spend KRW 10-50 million on carbon-data management over three years and 43.3% expect KRW 50 million or more.",
+        "This is stated future/expected spend, not proof of executed recurring payment to a new operator."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "KICOX has already launched an Industrial Complex MRV Platform intended to standardize collection, calculation, reporting and verification for CBAM/DPP response.",
+        "Glassdome markets direct MES/ERP integration, PCF/CBAM/EPD/CCF workflows and Catena-X-certified data exchange, and in 2026 is operating a multi-tier Korean automotive PCF exchange with KGM/LG Electronics and suppliers.",
+        "Catena-X/Cofinity-X provides a standardized cross-company data-space/control surface in automotive supply chains."
+      ],
+      "founder_independence_check": "PARTIAL_PASS_THE_DATA_TRANSFORMATION_AND_SCHEMA_MAPPING_CAN_BE_SOFTWARE_DELIVERED_BUT_CALCULATION_BOUNDARIES_VERIFICATION_EMISSION_FACTORS_AND_SUPPLIER_DATA_ACQUISITION_REMAIN_DOMAIN_AND_RIGHTS_DEPENDENT",
+      "data_action_rights_check": "PARTIAL_FAIL_SUPPLIER_PRODUCTION_AND_PROCESS_DATA_CAN_BE_TRADE_SECRET_SENSITIVE_AND_CROSS_COMPANY_EXCHANGE_REQUIRES_PARTICIPANT_CONSENT_AND_STANDARDIZED_DATA_RIGHTS",
+      "normalized_margin_check": "PARTIAL_STATED_THREE_YEAR_BUDGET_IS_STRONG_BUT_EXECUTED_OPERATOR_PAYMENT_AND_LOW_TOUCH_DELIVERY_ARE_NOT_PROVEN",
+      "machine_delegatability_check": "PARTIAL_PASS_INGESTION_MAPPING_VALIDATION_AND_TEMPLATE_OUTPUT_ARE_MACHINE_EXECUTABLE_WHILE_MEASUREMENT_BOUNDARIES_VERIFICATION_AND_EXCEPTION_RESOLUTION_RETAIN_EXPERT_INPUT",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_ALONE_CANNOT_AUTHORITATIVELY_CREATE_VERIFIED_EMISSIONS_OR_SECURE_SUPPLIER_DATA_RIGHTS_BUT_EXISTING_SPECIALIST_PLATFORMS_ALREADY_OWN_THE_STANDARDIZATION_AND_EXCHANGE_SURFACE",
+      "verdict": "DEMOTED_REAL_CURRENT_CASCADE_AND_MANUAL_REKEYING_BUT_PUBLIC_AND_PRIVATE_MRV_PCF_CONTROL_SURFACES_ARE_ALREADY_ACTIVE_AND_THE_REMAINING_RESIDUAL_IS_INTEGRATION_VERIFICATION_AND_ADOPTION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_081-F2",
+      "title": "FRANCE_2026_B2B_EINVOICE_MANDATORY_RECEIVE_AND_PLATFORM_SWITCH",
+      "chinese_title": "法国 2026 B2B 电子发票强制接收与平台切换",
+      "evidence_class": "CURRENT_REGULATORY_STATE_CHANGE_WITH_MANDATORY_WORKFLOW_MIGRATION_AND_EXPLICIT_CONTROL_PLANE",
+      "observed_actor_state_change_evidence": [
+        "France's B2B electronic-invoicing reform entered into force on 1 September 2026.",
+        "All businesses must be able to receive electronic invoices; large and mid-sized businesses must also issue electronic invoices and transmit e-reporting data from that date.",
+        "The French government states that more than 10 million economic actors are affected."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Businesses must designate an accredited platform for receiving/issuing invoices or use a compatible solution connected through one.",
+        "The government explicitly adopted a tolerance-oriented launch posture for companies encountering difficulties at the 1 September start, proving real transition friction without converting that friction into a new operator asset."
+      ],
+      "economic_signal": [
+        "The operating model requires businesses to select private state-accredited platforms, so money motion is expected to land on regulated platform providers and compatible accounting/invoicing software.",
+        "This scan does not infer a new payer beyond that mandated platform relationship."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "French rules explicitly assign invoice routing, validation and tax-data transmission to accredited private platforms.",
+        "The European Commission country sheet reports nearly 100 private platforms accredited by the French tax authority.",
+        "The legal architecture therefore pre-allocates the critical routing and compliance control surface rather than leaving it unowned."
+      ],
+      "founder_independence_check": "PASS_FOR_SOFTWARE_BUT_THE_REQUIRED_DELIVERY_RAIL_IS_THE_ACCREDITED_PLATFORM_ECOSYSTEM",
+      "data_action_rights_check": "FAIL_FOR_INDEPENDENT_OPERATOR_INVOICE_DATA_ROUTING_AND_TAX_REPORTING_MUST_FLOW_THROUGH_AUTHORIZED_PLATFORM_AND_COMPATIBLE_SYSTEM_PATHS",
+      "normalized_margin_check": "PASS_FOR_THE_ACCREDITED_PLATFORM_CATEGORY_BUT_NOT_FOR_A_DISTINCT_UNOWNED_OPERATOR_LAYER",
+      "machine_delegatability_check": "PASS_STRUCTURED_FORMAT_VALIDATION_DIRECTORY_LOOKUP_ROUTING_AND_E_REPORTING_ARE_MACHINE_EXECUTABLE",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CANNOT_BYPASS_THE_REGULATED_PLATFORM_RAIL_BUT_THE_RAIL_AND_CONTROL_SURFACE_ARE_ALREADY_ASSIGNED_TO_ACCREDITED_PROVIDERS",
+      "verdict": "DEMOTED_MASSIVE_CURRENT_STATE_CHANGE_WITH_REAL_TRANSITION_FRICTION_BUT_THE_REGULATORY_ARCHITECTURE_EXPLICITLY_OWNS_THE_ROUTING_CONTROL_SURFACE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_081-F3",
+      "title": "ENTERPRISE_AI_AGENT_IDENTITY_SPRAWL_AND_UNGOVERNED_ACCESS",
+      "chinese_title": "企业 AI Agent 身份扩张与失控访问治理",
+      "evidence_class": "CURRENT_TECHNOLOGY_DEPLOYMENT_STATE_CHANGE_WITH_INCIDENTS_AND_WEAK_LIFECYCLE_CONTROLS",
+      "observed_actor_state_change_evidence": [
+        "A 2026 Cloud Security Alliance survey reports 82% of organizations have unknown AI agents in their environments.",
+        "65% report an AI-agent-related incident in the prior year, including data exposure, operational disruption and financial loss.",
+        "Only 21% report a formal AI-agent decommissioning process."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Okta's 2026 CISO research says fewer than half of surveyed CISOs can confidently identify where agents are, what they can access or what actions they are authorized to take.",
+        "Organizations are applying human identity policies to agents, using shared credentials and managing access ad hoc."
+      ],
+      "economic_signal": [
+        "The evidence establishes incident cost and governance priority, but Scan 081 does not treat security concern or planned prioritization as proof of external recurring payment to a new operator."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Microsoft Entra Agent ID is generally available and provides dedicated agent identities, authorization, governance, lifecycle controls, risk detection, access policies and audit logs.",
+        "Microsoft documents support for Microsoft and non-Microsoft agent platforms through its identity control plane.",
+        "The same current problem is also being directly productized by specialist identity/security vendors whose commissioned surveys surfaced the problem."
+      ],
+      "founder_independence_check": "PASS_IDENTITY_DISCOVERY_POLICY_ENFORCEMENT_LIFECYCLE_AND_AUDIT_CAN_BE_PRODUCTIZED",
+      "data_action_rights_check": "PARTIAL_ENTERPRISE_ADMIN_RIGHTS_CAN_ENABLE_CONTROL_BUT_THE_OPERATOR_NEEDS_PRIVILEGED_IDENTITY_TELEMETRY_AND_ENFORCEMENT_INTEGRATIONS_ACROSS_CONTROL_PLANES",
+      "normalized_margin_check": "PARTIAL_SECURITY_SOFTWARE_ECONOMICS_ARE_STRONG_IN_GENERAL_BUT_DISTINCT_NEW_OPERATOR_PAYMENT_IS_NOT_ESTABLISHED_HERE",
+      "machine_delegatability_check": "PASS_DISCOVERY_POLICY_EVALUATION_ACCESS_REVIEW_REVOCATION_AND_AUDIT_ARE_PRIMARILY_MACHINE_EXECUTABLE_WITH_HUMAN_POLICY_OWNERSHIP",
+      "generic_agent_substitutability_check": "PASS_THE_TRUSTED_ENFORCEMENT_LAYER_CANNOT_BE_SAFELY_DELEGATED_TO_THE_SAME_UNTRUSTED_AGENT_BUT_MAJOR_IAM_AND_SECURITY_PLATFORMS_ALREADY_OWN_THE_REQUIRED_PRIVILEGED_CONTROL_PLANE",
+      "verdict": "DEMOTED_HIGH_CURRENT_PAIN_AND_MACHINE_EXECUTABILITY_BUT_AGENT_IDENTITY_GOVERNANCE_IS_ALREADY_AN_ACTIVE_MAJOR_IAM_AND_SECURITY_CONTROL_SURFACE"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "AGENTIC_COMMERCE_MERCHANT_DISCOVERABILITY_AND_THIRD_PARTY_SHOPPING_AGENT_BLOCKING",
+      "excluded_reason": "NO_REPEAT_SCAN035_ALREADY_DEMOTED_GEO_BRAND_VISIBILITY_AND_REPOSITORY_RULES_FORBID_MCP_SPEC_MIGRATION_OR_DISCOVERABILITY_TERMS_FROM_SEEDING_A_NEW_ONTOLOGY"
+    },
+    {
+      "observation": "GENERIC_SPREADSHEET_HEAVY_INVENTORY_FINANCE_AND_PROFESSIONAL_SERVICES_OPERATIONS",
+      "excluded_reason": "EXCLUDE_BEFORE_FORMATION_SPREADSHEET_USAGE_ALONE_IS_NOT_WHITE_SPACE_AND_THESE SIGNALS_OVERLAP_PRIOR_INVENTORY_ACCOUNTING_REPORTING_AND_GENERIC_WORKAROUND_PASSES"
+    },
+    {
+      "observation": "EU_AI_ACT_GENERIC_INVENTORY_AND_LABELING_COMPLIANCE",
+      "excluded_reason": "EXCLUDE_GENERIC_COMPLIANCE_LAYER_THE_OBLIGATION_IS_CURRENT_BUT INVENTORY_LABELING_AND_POLICY_WORK_COLLAPSE_TO_EXISTING_AI_GOVERNANCE_GRC_AND_PROVIDER_NATIVE_DISCLOSURE_SURFACES_WITH_SIGNIFICANT_LEGAL_INTERPRETATION"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "convenient_search_lens_became_ontology": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_observed_actor_state_change": true,
+    "formation_diversity": "PASS_MANUFACTURING_SUPPLY_CHAIN_FINANCE_INVOICING_AND_ENTERPRISE_SECURITY",
+    "observed_indexing_bias": "REGULATORY_AND_SECURITY_SURVEYS_HAVE_STRONGER_PUBLIC_EVIDENCE_THAN_PRIVATE_SMALL_BUSINESS_BEHAVIOR_SO_THE_FIRST_RESET_PASS_MAY_STILL_OVERWEIGHT_DOCUMENTED_COMPLIANCE_AND_ENTERPRISE_RISK",
+    "response": "RUN_ONE_SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_ACTOR_STATE_CHANGE_PASS_BEFORE_DERIVING_ANY_NEW_MECHANISM_OR_SIGNAL_FLOOR",
+    "participant_behavior_over_analyst_story": "PASS_EACH_FORMATION_STARTS_FROM_CURRENT_SURVEY_GOVERNMENT_OR_OPERATOR_BEHAVIOR_AND_IS_DEMOTED_WHERE_THE_EXACT_CONTROL_SURFACE_IS_ALREADY_ASSIGNED"
+  },
+  "scan_learnings": [
+    "BROAD_CURRENT_REALITY_SOURCE_RESET_RECOVERED_FORMATION_DIVERSITY_AFTER_PROCUREMENT_SIGNAL_SATURATION",
+    "KOREAN_EXPORTER_CARBON_DATA_CASCADE_IS_REAL_AND_BUDGETED_BUT_STANDARD_MRV_PCF_AND_CATENA_X_CONTROL_SURFACES_ARE_ALREADY_ACTIVE",
+    "FRANCE_EINVOICE_PROVES_A_MASSIVE_CURRENT_WORKFLOW_STATE_CHANGE_CAN_HAVE_ZERO_WHITE_SPACE_WHEN_LAW_EXPLICITLY_ASSIGNES_THE_EXECUTION_RAIL_TO_ACCREDITED_PLATFORMS",
+    "ENTERPRISE_AI_AGENT_IDENTITY_SPRAWL_IS_REAL_MACHINE_EXECUTABLE_AND_INCIDENT_LINKED_BUT_MAJOR_IAM_AND_SECURITY_VENDORS_ALREADY_OWN_PRIVILEGED_DISCOVERY_GOVERNANCE_AND_ENFORCEMENT_SURFACES",
+    "CURRENT_ACTOR_STATE_CHANGE_IS_A_BETTER_UPSTREAM_DISCOVERY_SOURCE_THAN_PROCUREMENT_CATEGORY_BUT_ONE_PASS_IS_NOT_ENOUGH_TO_DERIVE_A_NEW_MECHANISM_OR_PAYER_SIGNAL",
+    "SCAN082_SHOULD_REPEAT_THE_BROAD_REALITY_ACTOR_STATE_CHANGE_METHOD_ON_AN_INDEPENDENT_FORMATION_DIVERSE_SAMPLE_BEFORE_ANY_NEW_BOUNDARY_IS_INFERRED"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_082",
+  "next_search_boundary": "SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_ACTOR_STATE_CHANGE_FIRST_FORMATION_DIVERSE_OBSERVED_BEHAVIOR_OR_WORKAROUND_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_EXCLUDE_SCAN060_TO_081_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN082_SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_PASS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://en.sedaily.com/finance/2026/08/20/two-thirds-of-korean-exporters-manage-carbon-data-without",
+    "https://en.sedaily.com/finance/2026/04/16/korea-industrial-complex-corp-launches-carbon-emissions",
+    "https://glassdome.com/",
+    "https://www.economie.gouv.fr/tout-savoir-sur-la-facturation-electronique-pour-les-entreprises",
+    "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/956171282/2026%2BFrance%2B2026%2BeInvoicing%2BCountry%2BSheet",
+    "https://cloudsecurityalliance.org/press-releases/2026/04/21/new-cloud-security-alliance-survey-reveals-82-of-enterprises-have-unknown-ai-agents-in-their-environments",
+    "https://www.okta.com/newsroom/articles/global-ciso-insights-2026/",
+    "https://learn.microsoft.com/en-us/entra/agent-id/what-is-microsoft-entra-agent-id"
+  ]
+}

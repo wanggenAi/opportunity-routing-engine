@@ -6,13 +6,13 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Scan 080 completed the required **second independent pass at the Scan 079 post-residual-purchase same-outcome failure floor**. Three new current buyer chains were pressure-tested: NYC DVS VetConnectNYC + Combined Arms, Siloam Springs BS&A utility billing, and DeKalb County PROSECUTORbyKarpel.
+Scan 081 completed the upstream **broad current-reality source reset** after the procurement/payment/audit signal family saturated. It started from current actor/state change and observed behavior rather than jobs, gigs, RFQs, procurement categories or an inherited mechanism.
 
-NYC is the strongest payment-before-failure chain: DVS had paid Combined Arms $268,750 by May 2026 on a three-year replacement-portal contract, while buyer-side review still documented persistent login, routing, case-status, reminder and high-priority ticket failures after live use. It still fails Scan 080 because Combined Arms is the replacement portal/control surface itself, not a distinct residual provider around another live platform.
+Three formation-diverse chains were tested: Korean exporters facing cascading carbon-data requests and repeated spreadsheet/template re-keying; France's 1 September 2026 B2B e-invoicing state change affecting more than 10 million economic actors; and enterprise AI-agent identity sprawl with unknown agents, incidents and weak decommissioning controls.
 
-Siloam Springs independently proves severe post-go-live failure and rollback after a $318,685 BS&A software contract, but the inspected evidence does not prove executed recurring payment to a distinct residual provider; BS&A is the replacement platform/module itself. DeKalb is the negative control: $368,600 of annual-subscription/platform spend is real, but the later $32,000 data-extraction change order is buyer-described transition enablement rather than post-purchase same-outcome failure.
+The reset restored formation diversity but produced zero commercial promotions. Korean carbon-data pain is real and budgeted, yet KICOX MRV, Glassdome and Catena-X/Cofinity-X already occupy collection/calculation/exchange/verification surfaces. France's e-invoice architecture explicitly assigns routing and reporting to accredited platforms. Enterprise agent identity is highly machine-executable, but Microsoft Entra Agent ID and specialist identity/security vendors already own the privileged discovery/governance/enforcement plane.
 
-After two independent passes, the strict procurement/payment/audit join is showing diminishing discovery value and public-institutional indexing bias. Scan 081 therefore resets upstream to **broad current reality and actor/state change first**, before product category or procurement signal selection. No provider-switch, multi-provider, router or other mechanism ontology is inherited.
+One broad reset pass is insufficient to derive a new mechanism or payer signal. Scan 082 repeats the actor/state-change-first method on an independent formation-diverse sample before any new boundary is inferred.
 
 ## Goal
 
@@ -26,25 +26,24 @@ Validation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Resolved recently:
-- `ATTRACTION_SCAN_076` — zero retention after generic post-replacement recurring residual-spend test.
-- `ATTRACTION_SCAN_077` — zero retention after buyer-authored post-live failure plus actual residual-payment test; strongest Baltimore County chain still paid the exact vertical incumbent.
-- `ATTRACTION_SCAN_078` — zero retention after executed non-incumbent residual-payment test; strongest Durham/Ivy chains still collapse to mature complement control surfaces.
-- `ATTRACTION_SCAN_079` — zero retention after buyer-authored post-residual-purchase same-outcome failure test; strongest Wright State chain proves failure-after-payment but remains inside the exact mature detection category.
-- `ATTRACTION_SCAN_080` — zero retention after the required second independent post-residual-purchase failure pass; strongest NYC chain proves payment-before-failure but is the replacement control surface itself.
+- `ATTRACTION_SCAN_078` — zero retention after executed non-incumbent residual-payment test.
+- `ATTRACTION_SCAN_079` — zero retention after buyer-authored post-residual-purchase same-outcome failure test.
+- `ATTRACTION_SCAN_080` — zero retention after the required second independent post-residual-purchase failure pass; procurement/payment/audit source then reset upstream.
+- `ATTRACTION_SCAN_081` — zero retention after broad current-reality actor/state-change source reset; formation diversity restored, but all three current control surfaces are already materially occupied.
 
 Discovery queue:
-- `ATTRACTION_SCAN_081 — BROAD_CURRENT_REALITY_SOURCE_RESET_AFTER_TWO_POST_RESIDUAL_PURCHASE_FAILURE_PASSES_ACTOR_STATE_CHANGE_FIRST_FORMATION_DIVERSE_OBSERVED_BEHAVIOR_OR_WORKAROUND_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_EXCLUDE_SCAN060_TO_080_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_082 — SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_ACTOR_STATE_CHANGE_FIRST_FORMATION_DIVERSE_OBSERVED_BEHAVIOR_OR_WORKAROUND_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_EXCLUDE_SCAN060_TO_081_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
 
 ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
 
 ## Current Phase
 
-`SCAN_080_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_081_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
 
 ## Last Verified Main
 
-`39cb8d6d187fd94ed4b5aa17617dc022e95d5dd3`
-— squash merge of PR #377, `Require post-residual purchase failure evidence after Scan 079`.
+`876d15ba66d13f43e204cebbeb47c0eda528f3f8`
+— squash merge of PR #378, `Reset discovery source after Scan 080`.
 
 PR #377 repository CI run `35685183602` completed `success`. Live Jev run `35685183656` completed `success`: real TypeSafe/Jev used `typesafe-sdk==0.7.0`, `jev-latest`, and repository `TYPESAFE_API_KEY`; 3/3 model and effective routes were `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, and `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
@@ -54,30 +53,30 @@ PR #377 repository CI run `35685183602` completed `success`. Live Jev run `35685
 
 ## Active Branch
 
-`research/attraction-scan-080`.
+`research/attraction-scan-081`.
 
 ## Active PR
 
-#378 — `Reset discovery source after Scan 080`. Live GitHub state is authoritative.
+#379 — `Reset to actor-state discovery after Scan 081`. Live GitHub state is authoritative.
 
 ## CI
 
-- PR #377 repository CI run `35685183602` completed `success`.
-- PR #377 live Jev run `35685183656` completed `success`; real TypeSafe/Jev evaluated `ATTRACTION_SCAN_079` (3 entities), returned 3/3 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
-- PR #378 repository CI and live TypeSafe/Jev must validate the final Scan 080 head before merge.
+- PR #378 repository CI run `35687482092` completed `success`.
+- PR #378 live Jev run `35687481966` completed `success`; real TypeSafe/Jev evaluated `ATTRACTION_SCAN_080` (3 entities), returned 3/3 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
+- PR #379 repository CI and live TypeSafe/Jev must validate the final Scan 081 head before merge.
 
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_080.json`
-- `docs/research/ATTRACTION_SCAN_080_2026-09-22.md`
-- `tests/test_attraction_scan_080_post_residual_purchase_failure_gate.py`
+- `data/research_runs/attraction_scan_081.json`
+- `docs/research/ATTRACTION_SCAN_081_2026-09-22.md`
+- `tests/test_attraction_scan_081_broad_reality_source_reset.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
-Persisted state records `ATTRACTION_SCAN_080` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_081` as a broad current-reality source reset. The reset follows two independent zero-retention passes at the strict post-residual-purchase failure floor and does not infer a provider-switch, multi-provider, router or other mechanism ontology.
+Persisted state records `ATTRACTION_SCAN_081` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_082` as a second independent broad current-reality actor/state-change pass. No mechanism ontology or procurement signal is inherited.
 
 ## Completed
 
@@ -97,21 +96,21 @@ Results:
 
 ## Current Findings
 
-Scan 080 establishes:
+Scan 081 establishes:
 
 ```text
-REAL MONEY
-+ POST-PURCHASE FAILURE
+CURRENT ACTOR / STATE CHANGE
++ OBSERVED WORKAROUND OR FAILURE
 !=
-DISTINCT UNOWNED RESIDUAL OPERATOR EDGE
+UNOWNED CONTROL SURFACE
 ```
 
 Strongest cases:
-- NYC DVS / Combined Arms — three-year replacement portal; $268,750 paid by May 2026; post-launch buyer review still records persistent login, routing, status, reminder and high-priority ticket failures. Strong temporal chain, but Combined Arms is the replacement portal/control surface itself rather than a distinct residual layer.
-- Siloam Springs / BS&A — $318,685 contract plus severe buyer-authored utility-billing failures and rollback toward Caselle. The distinct recurring residual-payment topology is not proven; BS&A is the replacement platform/module.
-- DeKalb / Karpel — annual-subscription contract and $368,600 spend-to-date are real, but the $32,000 data-extraction change order is explicitly framed as smooth-transition/full-utilization support, not post-purchase failure.
+- Korean exporters / carbon data — 99.3% face current or expected buyer requests, 90.3% cascade requests to suppliers, 42.4% still re-key through spreadsheets/manual documents and 38.8% use customer-specific templates. The pain and expected budgets are real, but KICOX MRV, Glassdome and Catena-X/Cofinity-X already target the core collection/calculation/exchange/verification surface.
+- France / e-invoicing — the 1 September 2026 reform changes daily invoice behavior for more than 10 million actors, but the legal architecture explicitly requires accredited platforms and therefore assigns the routing/reporting control plane.
+- Enterprise AI-agent identity — unknown agents and incident rates are high and the workflow is machine-executable, but Microsoft Entra Agent ID and specialist security vendors already own privileged identity discovery, governance, lifecycle and enforcement.
 
-Two passes are sufficient to reject further tightening of the same procurement/audit predicate as the next discovery move. The signal increasingly selects public institutional software with already-owned control surfaces. Scan 081 resets upstream to current actor/state change and observed behavior/workaround before product or procurement categorization.
+The source reset succeeded in removing procurement-category bias, but one pass is not enough to infer a new payer or product mechanism. Scan 082 repeats the same upstream method on an independent sample.
 
 ## Validation Status
 
@@ -129,18 +128,24 @@ Validation:
 
 Engineering:
 - No current Jev integration blocker.
-- Scan 080 PR/CI/live Jev validation is pending.
+- Scan 081 PR/CI/live Jev validation is pending.
 
 Discovery:
-- Scan 080 is complete with zero retained formations and zero commercial promotions.
-- The two-pass post-residual-purchase failure signal is exhausted for now; do not derive a mechanism ontology from it.
-- Scan 081 must reset upstream to broad current reality, actor/state change and observed behavior/workaround before category/procurement selection.
+- Scan 081 is complete with zero retained formations and zero commercial promotions.
+- Broad current-reality discovery is restored, but the first reset sample still overweights publicly documented regulation/security evidence.
+- Scan 082 must run a second independent actor/state-change-first pass before any new mechanism or payer signal is derived.
 
 ## Next Action
 
-Open the Scan 080 PR, run repository CI and live TypeSafe/Jev against the final head, consume the actual continuation directive, and continue automatically. If green and Jev returns `ADVANCE_TO_NEXT_SCAN`, merge, verify main, and start Scan 081 as the broad current-reality source reset defined above.
+Open the Scan 081 PR, run repository CI and live TypeSafe/Jev against the final head, consume the actual continuation directive, and continue automatically. If green and Jev returns `ADVANCE_TO_NEXT_SCAN`, merge, verify main, and start Scan 082 as the second independent broad current-reality actor/state-change pass.
 
 ## Do Not Repeat
+
+- Do not promote Korean exporter carbon-data re-keying from spreadsheet prevalence or stated future budget alone; KICOX MRV, Glassdome and Catena-X/Cofinity-X already occupy core standardization/exchange surfaces and verification/data-rights remain material.
+- Do not treat France's e-invoice transition friction as unowned routing; law explicitly assigns validation/routing/reporting to accredited platforms.
+- Do not promote enterprise AI-agent identity merely from incident frequency; Microsoft Entra Agent ID and specialist IAM/security vendors already own privileged identity/governance/enforcement surfaces.
+- Do not let Scan 081's regulation/security-heavy public evidence become the new ontology; Scan 082 is an independent broad current-reality pass.
+
 
 - Do not promote NYC VetConnectNYC/Combined Arms merely because money clearly precedes persistent post-launch failure; Combined Arms is the replacement portal/control surface itself, not a distinct residual provider.
 - Do not promote Siloam Springs/BS&A utility billing from rollback severity alone; the distinct executed recurring residual-payment topology is not proven and BS&A owns the failing platform/module.
