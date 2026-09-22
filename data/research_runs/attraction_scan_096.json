@@ -1,0 +1,193 @@
+{
+  "schema_version": "attraction-scan.v72",
+  "scan_id": "ATTRACTION_SCAN_096",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "SECOND_INDEPENDENT_PARTICIPANT_AUTHORED_CHINA_CURRENT_REALITY_SOURCE_SHIFT_REQUIRE_DIRECT_PARTICIPANT_RECORDED_UNDERUSE_CONTRADICTION_OR_MANUAL_STATE_TRANSFER_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_BEFORE_PRODUCT_OR_MECHANISM_SELECTION_FORMATION_DIVERSE_EXCLUDE_SCAN060_TO_095_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": true,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_096-F1",
+      "title": "SHANGHAI_BULKY_FURNITURE_DISPOSAL_REUSE_AND_PAID_SHORT_HAUL_HANDOFF",
+      "chinese_title": "上海大件旧家具处置、再利用与付费短驳交接摩擦",
+      "evidence_class": "DIRECT_RESIDENT_RECORDED_DISPOSAL_FAILURE_WITH_CURRENT_MUNICIPAL_RULE_AND_EXECUTED_PICKUP_CORROBORATION",
+      "observed_actor_state_change_evidence": [
+        "An April 2026 Shanghai resident trying to dispose of an old mattress reported that the community garbage room would not accept bulky waste and that property/neighborhood channels could not give a clear route; she also tried listing it free for self-pickup but nobody wanted to move it.",
+        "Another resident objected to an unexpected on-site collection charge, saying she was willing to pay but wanted a clear published price and process."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Some discarded furniture still has usable or donation value, but moving and handling costs can exceed the recoverable item value, producing a cost-inversion problem rather than simple absence of demand.",
+        "Shanghai's September 2026 bulky-waste rules now explicitly support second-hand trade, donation and refurbishment, while defining resident-paid door-to-drop short-haul service as a market-priced item."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Residents temporarily keep unwanted furniture, attempt free self-pickup listings, call property/community channels, pay ad-hoc movers, or in some cases abandon items in public space.",
+        "Current districts are deploying appointment mini-programs, fixed collection points, special collection days and contracted clearing units to close the handoff."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The item may have remaining use value, yet transport/disassembly cost prevents a direct second-hand flow; when it has no positive resale value, the resident becomes the payer for removal.",
+        "Shanghai already has multiple public/private channels and district appointment flows, so the unresolved problem is heterogeneous local coverage, physical handling and endpoint economics rather than a wholly missing digital matcher."
+      ],
+      "economic_signal": [
+        "Current reporting gives explicit examples of resident-paid disposal and moving charges, while the September 2026 rules explicitly recognize a market-priced door-to-drop short-haul fee.",
+        "This is real external money flow, but the margin attaches to labor, vehicles, disassembly and local processing rather than to a founder-independent digital routing layer."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Shanghai districts already operate appointment mini-programs and contracted clearing networks; the city also points residents to existing recycling, second-hand and community channels.",
+        "The September 2026 rules assign district authorities, property managers and contracted clearing units specific responsibilities, with clearing vehicles connected to municipal management systems.",
+        "A generic agent can explain routes and compare options but cannot perform the physical short-haul, disassembly or resource-processing work."
+      ],
+      "founder_independence_check": "FAIL_FOR_DECISIVE_VALUE_FLOW_PHYSICAL_MOVING_DISASSEMBLY_VEHICLE_CAPACITY_LOCAL_ACCESS_AND_ENDPOINT_PROCESSING_REMAIN_REQUIRED_PER_JOB",
+      "data_action_rights_check": "PARTIAL_RESIDENT_CAN_AUTHORIZE_PICKUP_BUT_PROPERTY_ACCESS_CONTRACTED_CLEARING_AND_ENDPOINT_ACCEPTANCE_REMAIN_LOCAL_CONTROLLER_DEPENDENT",
+      "normalized_margin_check": "FAIL_FOR_NEW_LOW_TOUCH_EDGE_THE_RECURRING_FEE_IS_PRIMARILY_PHYSICAL_SHORT_HAUL_AND_HANDLING_WHILE_PUBLIC_DISTRICT_AND_EXISTING_RECYCLING_CHANNELS_ALREADY_OWN_ROUTING_SURFACES",
+      "machine_delegatability_check": "PARTIAL_ELIGIBILITY_PRICE_DISCOVERY_BOOKING_ROUTE_SELECTION_AND_STATUS_ARE_MACHINE_EXECUTABLE_BUT_PHYSICAL_PICKUP_DISASSEMBLY_AND_PROCESSING_ARE_NOT",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_NAVIGATE_EXISTING_CHANNELS_BUT_CANNOT_REMOVE_THE_PHYSICAL_COST_INVERSION_OR_EXECUTE_THE_PICKUP",
+      "verdict": "DEMOTED_REAL_CURRENT_PARTICIPANT_FRICTION_AND_PAID_FLOW_BUT_THE_VALUE_UNIT_IS_LOCAL_PHYSICAL_SHORT_HAUL_DISASSEMBLY_AND_ENDPOINT_PROCESSING_WITH_EXISTING_PUBLIC_PRIVATE_ROUTING_CHANNELS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_096-F2",
+      "title": "CHINA_CROSS_HOSPITAL_IMAGING_AND_TEST_RESULT_PORTABILITY",
+      "chinese_title": "中国跨院影像与检验结果调阅互认",
+      "evidence_class": "CURRENT_PATIENT_RECORDED_DUPLICATE_CHECK_FRICTION_WITH_NATIONAL_INTEROPERABILITY_MANDATE_AND_JIANGSU_PLATFORM_CORROBORATION",
+      "observed_actor_state_change_evidence": [
+        "In an August 2026 Xi'an report, a man accompanying his 72-year-old mother described years of carrying multiple hospitals' imaging bags and the burden of repeat CT examinations when changing hospitals; the current visit used the city imaging cloud instead.",
+        "The participant's old workaround was manual physical transport of films plus acceptance of repeat testing when prior results could not be reliably accessed or accepted."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Medical images and reports already exist digitally inside hospitals; the underused endowment is prior diagnostic data that historically could not be conveniently retrieved across institutions.",
+        "National guidance targets cross-institution result access and recognizes data transmission/storage as part of the inspection service infrastructure."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Patients historically carried film bags and paper reports between hospitals or repeated tests; current cloud platforms allow authorized clinicians to retrieve prior images and reports.",
+        "Jiangsu's health-cloud platforms already support large-scale image and laboratory result retrieval and mutual recognition, with current Suzhou policy requiring qualifying results to be recognized when clinically appropriate."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The digital state transfer is technically achievable and is already happening at scale, but final recognition remains clinician- and quality-dependent rather than an unconditional data-routing decision.",
+        "The remaining gaps include non-participating institutions, data quality, mutual-recognition scope and clinical change, all inside public health-information and medical-governance control surfaces."
+      ],
+      "economic_signal": [
+        "The value is substantial because successful recognition avoids time, cost and unnecessary repeat exposure; Jiangsu previously estimated large aggregate savings from reduced duplicate checks.",
+        "However the payer is not purchasing an independent new router: the core data rail is government/health-system infrastructure and medical institutions retain clinical decision authority."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "National policy requires provincial health information platforms, imaging clouds and related infrastructure for cross-institution access.",
+        "Jiangsu and Suzhou already operate the authoritative cloud and mutual-recognition mechanism, with standardized quality-control and physician judgment rules.",
+        "A generic software operator cannot independently create hospital data access, clinical recognition rights or medical quality equivalence."
+      ],
+      "founder_independence_check": "PASS_FOR_TECHNICAL_DATA_EXCHANGE_ONCE_AUTHORIZED_BUT_FAIL_FOR_END_TO_END_OUTCOME_BECAUSE_CLINICAL_RECOGNITION_AND_EXCEPTION_JUDGMENT_REMAIN_MEDICAL_INSTITUTION_CONTROLLED",
+      "data_action_rights_check": "FAIL_FOR_INDEPENDENT_OPERATOR_PATIENT_HEALTH_DATA_ACCESS_HOSPITAL_INTEROPERABILITY_AND_CLINICAL_RECOGNITION_RIGHTS_REMAIN_WITH_AUTHORIZED_HEALTH_SYSTEM_ACTORS",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EDGE_THE_CORE_INTEROPERABILITY_RAIL_IS_PUBLIC_HEALTH_INFRASTRUCTURE_AND_THE_RESIDUAL_IS_QUALITY_INTEGRATION_OR_CLINICAL_JUDGMENT_NOT_AN_UNOWNED_TRANSACTION_LAYER",
+      "machine_delegatability_check": "PARTIAL_HIGH_FOR_INDEXING_RETRIEVAL_MATCHING_AND_DUPLICATE_ALERTS_LOW_FOR_CLINICAL_RECOGNITION_WHEN_DISEASE_STATE_OR_QUALITY_MAY_HAVE_CHANGED",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_HELP_SUMMARIZE_OR_LOCATE_RESULTS_BUT_CANNOT_CREATE_AUTHORIZED_CROSS_HOSPITAL_ACCESS_OR_OVERRIDE_CLINICAL_RECOGNITION_RULES",
+      "verdict": "DEMOTED_REAL_PARTICIPANT_BURDEN_AND_MACHINE_EXECUTABLE_DATA_FLOW_BUT_THE_AUTHORITATIVE_RAIL_IS_ALREADY_PUBLIC_HEALTH_INFRASTRUCTURE_AND_FINAL_ACCEPTANCE_REMAINS_CLINICAL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_096-F3",
+      "title": "JIANGSU_AGRICULTURAL_MACHINERY_CROSS_REGION_SCHEDULING_AND_EMERGENCY_MATCHING",
+      "chinese_title": "江苏农机跨区作业调度与抢收应急匹配",
+      "evidence_class": "CURRENT_JIANGSU_FARMER_AND_OPERATOR_RECORDED_CAPACITY_MISMATCH_WITH_EXECUTED_COORDINATION_AND_XUZHOU_EXACT_PLATFORM_PREFLIGHT",
+      "observed_actor_state_change_evidence": [
+        "A June 2026 Nanjing/Liuhe farm operator growing 1,200 mu of wheat reported that his usual machine operator had gone on cross-region work and, as wheat ripened, he could not find a harvester; the local agriculture authority ultimately coordinated four machines for a three-day harvest.",
+        "A June 2026 cross-region machine operator in Jiangsu said that previously finding work depended on luck, while current local support stations help with work information, repairs, rest and payment disputes."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Harvesters and other agricultural machines are mobile productive assets whose utilization changes sharply by crop maturity, weather and geography; simultaneous local shortages and remote idle/available capacity can coexist.",
+        "Jiangsu's supply-and-marketing system reports more than 20 million mu of annual agricultural socialized-service coverage, demonstrating a large existing service base rather than an isolated anecdote."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Farmers ask local authorities or cooperatives for emergency machine coordination when usual operators are unavailable.",
+        "Machine operators travel across regions following seasonal demand, historically relying on personal networks/luck and increasingly using service centers and online ordering."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The complementary flow is unquestionably real: mobile machinery already moves across regions to meet time-critical field demand.",
+        "The exact digital matching mechanism is also already productized. A current Jiangsu agricultural-service app, Maliduo, explicitly matches farmers with machine operators and is headquartered in Xuzhou's Yunlong District.",
+        "Local governments and cooperatives additionally operate emergency teams and coordination groups, so reliability depends on physical machine location, weather, operator availability, transport approvals and service execution."
+      ],
+      "economic_signal": [
+        "Farmers pay for machine operations and the service ecosystem covers millions of mu; missing the harvest window has direct crop-value consequences.",
+        "The presence of a current Xuzhou-based exact matcher plus cooperative/government coordination means transaction value is real but does not establish a new generic routing white space."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Maliduo, based in Xuzhou, explicitly offers online machinery matching across plowing, planting, crop protection and harvesting using algorithmic dispatch.",
+        "County agricultural-socialized-service platforms and cooperatives already accept orders and dispatch nearby machines.",
+        "Agriculture authorities also coordinate emergency teams during peak windows, while machine owners/operators retain the physical execution asset."
+      ],
+      "founder_independence_check": "PARTIAL_DIGITAL_MATCHING_CAN_BE_LOW_TOUCH_BUT_RELIABLE_END_TO_END_SERVICE_STILL_DEPENDS_ON_DISTRIBUTED_MACHINE_OPERATORS_WEATHER_TRANSPORT_AND_FIELD_EXECUTION",
+      "data_action_rights_check": "PARTIAL_PASS_FOR_OPT_IN_MATCHING_FAIL_FOR_PHYSICAL_MACHINE_COMMITMENT_SERVICE_QUALITY_TRANSPORT_AND_EMERGENCY_COMMAND_RIGHTS_NOT_CONTROLLED_BY_A_GENERIC_OPERATOR",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EDGE_AN_EXACT_CURRENT_XUZHOU_PLATFORM_AND_PUBLIC_COOPERATIVE_DISPATCH_CHANNELS_ALREADY_SERVE_THE_MATCHING_LAYER_WHILE_PHYSICAL_EXECUTION_DOMINATES_DELIVERY",
+      "machine_delegatability_check": "PASS_FOR_ORDER_CAPTURE_GEO_TEMPORAL_MATCHING_ROUTING_AND_STATUS_PARTIAL_FOR_COMMITMENT_EXCEPTIONS_BREAKDOWNS_WEATHER_AND_FIELD_EXECUTION",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_REPLICATE_SIMPLE_MATCHING_AND_COMMUNICATION_WHILE_DURABLE_VALUE_REQUIRES_ASSET_NETWORK_DENSITY_RELIABILITY_AND_PHYSICAL_SERVICE_CONTROL",
+      "verdict": "DEMOTED_STRONG_JIANGSU_PARTICIPANT_EVIDENCE_AND_REAL_PAID_CROSS_REGION_FLOW_BUT_THE_DIGITAL_MATCHING_LAYER_ALREADY_HAS_AN_EXACT_XUZHOU_INCUMBENT_AND_PUBLIC_COOPERATIVE_CHANNELS_WHILE_EXECUTION_IS_PHYSICAL"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "GENERIC_BULKY_WASTE_PICKUP_MARKETPLACE",
+      "excluded_reason": "EXCLUDE_MECHANISM_THE_PAID_VALUE_UNIT_IS_PHYSICAL_SHORT_HAUL_AND_PROCESSING_AND_SHANGHAI_ALREADY_HAS_DISTRICT_APPOINTMENT_AND_RECYCLING_CHANNELS"
+    },
+    {
+      "observation": "GENERIC_MEDICAL_RESULT_TRANSFER_AGENT",
+      "excluded_reason": "EXCLUDE_MECHANISM_THE_AUTHORITATIVE_DATA_RAIL_IS_HEALTH_SYSTEM_INFRASTRUCTURE_AND_CLINICAL_RECOGNITION_REMAINS_MEDICAL_JUDGMENT"
+    },
+    {
+      "observation": "GENERIC_FARM_MACHINERY_MATCHER",
+      "excluded_reason": "EXCLUDE_MECHANISM_AN_EXACT_CURRENT_XUZHOU_MATCHING_PLATFORM_PLUS_COOPERATIVE_AND_PUBLIC_DISPATCH_CHANNELS_ALREADY_SERVE_THE_CORE_MATCHING_FUNCTION"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "convenient_search_lens_became_ontology": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_paid_stack": false,
+    "direct_participant_authored_current_friction_required": true,
+    "independent_objective_corroboration_required": true,
+    "primary_research_domain_respected": true,
+    "jiangsu_xuzhou_execution_lens_used_without_local_prevalence_inference": true,
+    "formation_diversity": "PASS_URBAN_HOUSEHOLD_CIRCULAR_LOGISTICS_HEALTH_DATA_INTEROPERABILITY_AND_RURAL_AGRICULTURAL_CAPACITY_SCHEDULING",
+    "observed_indexing_bias": "TWO_CHINA_PARTICIPANT_AUTHORED_PASSES_SHOW_REAL_FRICTION_IS_COMMON_BUT MANY HIGH_VISIBILITY_CHAINS_TERMINATE_AT_PHYSICAL_DELIVERY_REGULATED_OR_PUBLIC_CONTROL_SURFACES_OR_AN_ALREADY_EXACT_MATCHING_PLATFORM",
+    "response": "SHIFT_SCAN097_ENTRY_TO_PARTICIPANT_CONTROLLED_DIGITAL_ACTION_RIGHTS_FIRST_WHILE_PRESERVING_PARTICIPANT_AUTHORED_CURRENT_EVIDENCE_AND_FORMATION_DIVERSITY",
+    "participant_behavior_over_analyst_story": "PASS_ALL_THREE_BEGIN_FROM_CURRENT_RESIDENT_PATIENT_FAMILY_OR_FARM_OPERATOR_BEHAVIOR_AND_ONLY_THEN_RUN_PLATFORM_RIGHTS_AND_INCUMBENT_PREFLIGHT"
+  },
+  "scan_learnings": [
+    "SCAN096_SECOND_INDEPENDENT_CHINA_PARTICIPANT_AUTHORED_CURRENT_REALITY_PASS_ZERO_RETENTION_ACROSS_BULKY_FURNITURE_DISPOSAL_MEDICAL_RESULT_PORTABILITY_AND_AGRICULTURAL_MACHINERY_SCHEDULING",
+    "TWO_CHINA_PARTICIPANT_AUTHORED_PASSES_CONFIRM_THE_EVIDENCE_SOURCE_IMPROVES_REALITY_CONTACT_BUT_DOES_NOT_BY_ITSELF_SELECT_MACHINE_OWNABLE_VALUE",
+    "BULKY_FURNITURE_DISPOSAL_HAS_REAL_RESIDENT_PAID_SHORT_HAUL_FLOW_BUT_THE_MARGIN_IS_PHYSICAL_AND_LOCAL_WITH_PUBLIC_PRIVATE_ROUTING_CHANNELS_ALREADY_PRESENT",
+    "MEDICAL_RESULT_PORTABILITY_IS_HIGHLY_MACHINE_EXECUTABLE_AT_THE_DATA_LAYER_BUT_AUTHORIZED_HEALTH_INFRASTRUCTURE_AND_CLINICAL_RECOGNITION_OWN_THE_DECISIVE_RIGHTS",
+    "AGRICULTURAL_MACHINERY_SCHEDULING_HAS_REAL_SEASONAL_CAPACITY_MISMATCH_AND_PAID_FLOW_BUT_AN_EXACT_XUZHOU_MATCHER_AND_PUBLIC_COOPERATIVE_DISPATCH_ALREADY_OWN_THE_SIMPLE_ROUTING_LAYER",
+    "AFTER_TWO_PARTICIPANT_AUTHORED_CHINA_PASSES_THE_NEXT_EVIDENCE_ENTRANCE_SHOULD_REQUIRE_DECISIVE_ACTION_RIGHTS_TO_BE_PARTICIPANT_CONTROLLED_AND_PRIMARILY_DIGITAL_BEFORE_DEEP_PRODUCT_INTERPRETATION",
+    "THE_NEXT_FILTER_IS_A_CONTROL_SURFACE_EVIDENCE_PRIORITY_NOT_A_PRODUCT_CATEGORY_OR_FIXED_VERTICAL"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_097",
+  "next_search_boundary": "PARTICIPANT_CONTROLLED_DIGITAL_ACTION_RIGHTS_FIRST_AFTER_TWO_CHINA_PARTICIPANT_AUTHORED_PASSES_REQUIRE_DIRECT_CURRENT_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_AND_EVIDENCE_THAT_THE_DECISIVE_COMPLETION_STEPS_OCCUR_PRIMARILY_INSIDE_PARTICIPANT_AUTHORIZED_DIGITAL_SYSTEMS_DEPRIORITIZE_DOMINANT_PHYSICAL_DELIVERY_LICENSED_CLINICAL_OR_AUTHORITY_DECISION_PUBLIC_ASSET_GOVERNANCE_AND_EXACT_END_TO_END_PLATFORM_CONTROL_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_096_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_CURRENT_INCUMBENT_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN096_WITH_CI_JEV_THEN_START_SCAN097_PARTICIPANT_CONTROLLED_DIGITAL_ACTION_RIGHTS_FIRST_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://sh.people.com.cn/n2/2026/0427/c176737-41564903.html",
+    "https://www.shanghai.gov.cn/nw9820/20260602/e2b8fd870f5d4d29be8e171590463540.html",
+    "https://www.shanghai.gov.cn/nw17239/20260813/e69892cbb0644de0abdd711fea7faf78.html",
+    "https://www.shanghai.gov.cn/zhengce/detail?businessId=1a651596bfef4c8bb5d44b2d7f2c0cd4&siteId=0039",
+    "https://ybj.xa.gov.cn/szyw/ybdt/xaybdt/2089170102531448833.html",
+    "https://www.nhc.gov.cn/yzygj/c100068/202411/e26dde958ae74bf5b8f4fe97d83253c7.shtml",
+    "https://www.suzhou.gov.cn/szsrmzf/bmwj/202606/95b1a72c8cf24b929f8a9d8fa0bc457d.shtml",
+    "https://www.jiangsu.gov.cn/art/2025/3/5/art_91953_11505979.html",
+    "https://www.nanjing.gov.cn/zzb/ywdt/msxx/202606/t20260601_5849450.html",
+    "https://jsnews.jschina.com.cn/jsyw/202606/t20260605_s6a22b56ae4b05b077e346639.shtml",
+    "https://www.jiangsu.gov.cn/art/2026/7/15/art_60085_11803720.html",
+    "https://www.maliduo.com/about.html"
+  ]
+}
