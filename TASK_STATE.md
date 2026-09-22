@@ -57,13 +57,13 @@ PR #377 repository CI run `35685183602` completed `success`. Live Jev run `35685
 
 ## Active PR
 
-None yet. Scan 081 artifacts are complete on `research/attraction-scan-081`; open the PR and validate the final head.
+#379 — `Reset to actor-state discovery after Scan 081`. Live GitHub state is authoritative.
 
 ## CI
 
 - PR #378 repository CI run `35687482092` completed `success`.
 - PR #378 live Jev run `35687481966` completed `success`; real TypeSafe/Jev evaluated `ATTRACTION_SCAN_080` (3 entities), returned 3/3 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.
-- Scan 081 artifacts are persisted on `research/attraction-scan-081`; repository CI and live TypeSafe/Jev must validate the final PR head before merge.
+- PR #379 repository CI and live TypeSafe/Jev must validate the final Scan 081 head before merge.
 
 ## Latest Artifact / Persisted State
 
