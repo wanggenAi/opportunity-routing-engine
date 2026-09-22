@@ -1,0 +1,226 @@
+{
+  "schema_version": "attraction-scan.v93",
+  "scan_id": "ATTRACTION_SCAN_119",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "THIRTEENTH_INDEPENDENT_CURRENT_POST_CONTROL_LOW_FTE_UNAMBIGUOUS_POSITIVE_OCF_RECURRING_CONTROL_PASS_REQUIRE_COMPLETED_FRESH_OPERATOR_REPRODUCIBLE_CONTROL_BEFORE_REPORTING_PERIOD_REQUIRE_CURRENT_POST_CONTROL_REPORT_AVAILABLE_REQUIRE_DIRECT_CURRENT_OR_LATEST_DISCLOSED_INTRINSICALLY_LOW_FTE_BEFORE_DEEPENING_REQUIRE_SAME_ENTITY_POSITIVE_EXTERNAL_REVENUE_POSITIVE_NET_PROFIT_AND_UNAMBIGUOUS_POSITIVE_OPERATING_CASHFLOW_RECONCILED_ACROSS_PRIMARY_OR_EQUIVALENT_DISCLOSURES_REQUIRE_EXISTING_STANDARDIZED_REPEATABLE_NONPROJECT_REVENUE_NOT_CUSTOM_IMPLEMENTATION_OUTSOURCING_FIELD_WORK_MANUFACTURING_AFTER_SALES_OR_PENDING_INJECTION_REQUIRE_BOUNDED_CONTROL_CONSIDERATION_OPERATING_ASSETS_AND_WORKING_CAPITAL_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_118_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_119-F1",
+      "title": "CHINA_WUXI_8_FTE_INDIRECT_CONTROL_COMPLETED_BEFORE_PERIOD_WITH_CURRENT_REVENUE_BUT_NET_LOSS_NEGATIVE_OCF_AND_PHYSICAL_AUTO_COMPONENT_FLOW",
+      "discovery_route": "CURRENT_LOW_FTE_TARGET_WITH_A_2024_10_18_COMPLETED_INDIRECT_CONTROL_CHANGE_IS_TESTED_AGAINST_2026_H1_SAME_ENTITY_REVENUE_PROFIT_OCF_BEFORE_ANY_DEEP_RECURRING_CONTROL_ANALYSIS",
+      "observed_actor_state_change_evidence": [
+        "Gu Jiayu acquired 100% of Shengdi Banglun for RMB840,000 under a 2024-09-03 equity-transfer agreement.",
+        "Business-registration change completed on 2024-10-18; Gu Jiayu thereby indirectly held 14,579,392 shares, 54.42% of Jintian Yuanfeng, and became actual controller.",
+        "The completed control change predates the full 2026 H1 reporting period."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The 2026 H1 report directly discloses only 8 employees, down from 10 at period start.",
+        "Current total assets are about RMB3.0397m, but liabilities are about RMB3.3622m and equity is negative.",
+        "Current business centers on intelligent vehicle-control-system components, supply-chain coordination, logistics-enterprise customers and technical support."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "2026 H1 revenue is RMB765,709.75, up sharply from a very small prior-period base.",
+        "2026 H1 attributable net profit is negative RMB604,400.80.",
+        "2026 H1 operating cashflow is explicitly negative RMB2,546,914.06, driven by procurement prepayments, slower receivable collection and earlier payable settlement."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This packet proves that completed pre-period control, a current report and 8 FTE can coexist, but current positive profit and positive OCF still fail simultaneously.",
+        "Low headcount does not turn a component procurement/sales/technical-support flow into standardized machine-only recurring revenue.",
+        "Negative equity and cash consumption independently block normalized founder-light economics."
+      ],
+      "economic_signal": [
+        "Upstream holding-company acquisition consideration RMB840,000; indirect target control 54.42%.",
+        "2026 H1 revenue RMB765,709.75; attributable net loss RMB604,400.80.",
+        "2026 H1 OCF negative RMB2,546,914.06; current total assets RMB3.0397m; current FTE 8."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The control position is an actual operating company with a small team, not merely a pending transfer.",
+        "Current value delivery depends on physical vehicle-control components, supplier coordination and customer technical support.",
+        "Because net profit and OCF fail the early gate, no deeper claim about a scarce recurring software/data control surface is promoted."
+      ],
+      "executed_control_transfer_check": "PASS_INDIRECT_CONTROL_COMPLETED_2024_10_18_BEFORE_2026_H1_WITH_54_42_PERCENT_INDIRECT_TARGET_HOLDING",
+      "post_transfer_external_economic_continuity_check": "FAIL_CURRENT_2026_H1_REVENUE_RMB765709_75_IS_POSITIVE_BUT_ATTRIBUTABLE_NET_LOSS_IS_RMB604400_80_AND_OPERATING_CASHFLOW_IS_NEGATIVE_RMB2_546914_06",
+      "fresh_small_operator_entry_check": "PARTIAL_PASS_UPSTREAM_100_PERCENT_HOLDING_COMPANY_TRANSFER_PRICE_RMB840K_IS_BOUNDED_AND_TARGET_ASSETS_ARE_ABOUT_RMB3_04M_BUT_NEGATIVE_EQUITY_AND_CASH_BURN_PREVENT_NORMALIZED_SMALL_OPERATOR_ENTRY",
+      "same_operator_economic_binding_check": "PASS_2026_H1_REPORT_BINDS_CURRENT_CONTROL_CURRENT_8_FTE_REVENUE_PROFIT_OCF_ASSETS_AND_LIABILITIES_TO_JINTIAN_YUANFENG",
+      "direct_operating_cost_check": "FAIL_CURRENT_MODEL_REQUIRES_PHYSICAL_COMPONENT_PROCUREMENT_SALES_SUPPLY_CHAIN_COORDINATION_AND_TECHNICAL_SUPPORT",
+      "owner_labor_check": "PASS_CURRENT_2026_H1_EMPLOYEE_COUNT_IS_8_AND_INTRINSICALLY_LOW",
+      "founder_independence_check": "FAIL_TO_PROMOTE_LOW_FTE_DOES_NOT_OVERRIDE_CURRENT_NET_LOSS_NEGATIVE_OCF_AND_PHYSICAL_COMPONENT_DELIVERY",
+      "data_action_rights_check": "PARTIAL_TO_UNKNOWN_CORPORATE_CONTROL_EXISTS_BUT_CUSTOMER_SUPPLIER_AND_PRODUCT_RIGHTS_REMAIN_RELATIONSHIP_AND_CONTRACT_DEPENDENT",
+      "normalized_margin_check": "FAIL_CURRENT_NET_LOSS_NEGATIVE_OCF_NEGATIVE_EQUITY_AND_WORKING_CAPITAL_CASH_USE_FAIL_NORMALIZED_POSITIVE_CASHFLOW",
+      "machine_delegatability_check": "FAIL_PHYSICAL_COMPONENT_SUPPLY_AND_TECHNICAL_SUPPORT_ARE_NOT_A_PROVEN_MACHINE_ONLY_RECURRING_RAIL",
+      "generic_agent_substitutability_check": "NOT_REACHED_EARLY_ECONOMIC_GATE_ALREADY_FAILS_BEFORE_A_DISTINCT_MACHINE_CONTROL_ASSET_NEEDS_DEEP_TESTING",
+      "verdict": "DEMOTED_COMPLETED_CONTROL_AND_8_FTE_ARE_REAL_BUT_CURRENT_NET_LOSS_NEGATIVE_OCF_NEGATIVE_EQUITY_AND_PHYSICAL_COMPONENT_DELIVERY_FAIL_THE_EARLY_GATE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_119-F2",
+      "title": "CHINA_BEIJING_8_FTE_SOFTWARE_HARDWARE_INTEGRATOR_WITH_81_26_PERCENT_PROPOSED_CONTROL_TERMINATED_UNPAID_AND_CURRENT_NEGATIVE_PROFIT_OCF",
+      "discovery_route": "A_CURRENT_8_FTE_INFORMATION_TECH_ENTITY_WITH_AN_81_26_PERCENT_SIGNED_ACQUISITION_PACKET_IS_TESTED_FIRST_FOR_EXECUTED_CONTROL_BEFORE_TREATING_THE_SIGNED_REPORT_AS_A_REAL_FRESH_OPERATOR_CONTROL_POSITION",
+      "observed_actor_state_change_evidence": [
+        "Wang Qinglei and Li Hongwei signed a 2025-10-23 agreement for 17,756,000 shares, 81.26% of Longjoy Technology.",
+        "The acquisition was terminated by agreement on 2026-06-09.",
+        "The company disclosed that the acquirer had not paid the acquisition consideration and that Li Hongwei remained controlling shareholder and actual controller."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Current company profile and annual staffing disclosure report only 8 employees.",
+        "The 2026 H1 report describes multimedia equipment, education information products, digital-media systems integration and technical services.",
+        "Current total assets are about RMB2.4993m."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "2026 H1 revenue is RMB351,299.25.",
+        "2026 H1 attributable net profit is negative RMB71,596.35.",
+        "2026 H1 operating cashflow is negative RMB96,495.30."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "A signed acquisition report is not an executed control transfer; the unpaid transaction was explicitly terminated.",
+        "Current 8 FTE and a small asset base cannot be rebound to a hypothetical fresh controller who never acquired the company.",
+        "Current economics are also loss-making and cashflow-negative, so the formation fails independently even before system-integration delivery is normalized."
+      ],
+      "economic_signal": [
+        "Proposed 81.26% share transfer was terminated before completion and remained unpaid.",
+        "2026 H1 revenue RMB351,299.25; attributable net loss RMB71,596.35; OCF negative RMB96,495.30.",
+        "Current assets about RMB2.4993m; current employee count 8."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The early execution gate prevents acquisition-report paperwork from being mistaken for an acquired operating position.",
+        "Existing delivery includes equipment, software/hardware integration, installation, commissioning, training and technical services.",
+        "No fresh-operator control surface exists to evaluate because the proposed buyer never completed the acquisition."
+      ],
+      "executed_control_transfer_check": "FAIL_PROPOSED_81_26_PERCENT_ACQUISITION_WAS_TERMINATED_2026_06_09_ACQUIRER_HAD_NOT_PAID_AND_LI_HONGWEI_REMAINED_CONTROLLER",
+      "post_transfer_external_economic_continuity_check": "NOT_APPLICABLE_NO_POST_TRANSFER_PERIOD_EXISTS_AND_CURRENT_2026_H1_NET_PROFIT_AND_OCF_ARE_NEGATIVE",
+      "fresh_small_operator_entry_check": "FAIL_NO_EXECUTED_FRESH_OPERATOR_ENTRY_EXISTS_DESPITE_SMALL_CURRENT_ORGANIZATION",
+      "same_operator_economic_binding_check": "FAIL_TO_BIND_PROPOSED_BUYER_NEVER_BECAME_CONTROLLER_SO_CURRENT_ECONOMICS_CANNOT_BE_ASSIGNED_TO_THE_PROPOSED_CONTROL_POSITION",
+      "direct_operating_cost_check": "FAIL_MULTIMEDIA_EQUIPMENT_SYSTEM_INTEGRATION_INSTALLATION_COMMISSIONING_TRAINING_AND_TECHNICAL_SERVICE_REMAIN_DELIVERY_COMPONENTS",
+      "owner_labor_check": "PASS_CURRENT_EMPLOYEE_COUNT_IS_8_AND_INTRINSICALLY_LOW",
+      "founder_independence_check": "FAIL_NO_EXECUTED_NEW_CONTROL_AND_CURRENT_DELIVERY_REMAINS_HARDWARE_SYSTEM_INTEGRATION_SERVICE",
+      "data_action_rights_check": "FAIL_TO_CLOSE_NO_FRESH_OPERATOR_ACQUIRED_THE_CORPORATE_OR_CUSTOMER_ACTION_RIGHTS",
+      "normalized_margin_check": "FAIL_CURRENT_NET_LOSS_AND_NEGATIVE_OCF_INDEPENDENTLY_FAIL_NORMALIZED_POSITIVE_CASHFLOW",
+      "machine_delegatability_check": "FAIL_CURRENT_SYSTEM_INTEGRATION_AND_EQUIPMENT_SERVICE_IS_NOT_A_MACHINE_ONLY_RECURRING_RAIL",
+      "generic_agent_substitutability_check": "NOT_REACHED_EXECUTED_CONTROL_AND_ECONOMIC_EARLY_GATES_ALREADY_FAIL",
+      "verdict": "DEMOTED_SIGNED_81_26_PERCENT_ACQUISITION_WAS_TERMINATED_UNPAID_AND_CURRENT_8_FTE_ENTITY_IS_LOSSMAKING_CASHFLOW_NEGATIVE_SYSTEM_INTEGRATION_SERVICE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_119-F3",
+      "title": "CHINA_CHONGQING_15_FTE_MEDIA_CONTROL_COMPLETED_INSIDE_H1_WITH_CURRENT_NET_LOSS_AND_FIELD_PROMOTION_PROJECT_REVENUE",
+      "discovery_route": "A_2026_CONTROL_CHANGE_WITH_A_SMALL_CURRENT_TEAM_AND_CURRENT_H1_REPORT_IS_TESTED_FOR_CLEAN_POST_CONTROL_TIME_WINDOW_BEFORE_OCF_OR_RECURRING_REVENUE_DEEPENING",
+      "observed_actor_state_change_evidence": [
+        "Yudu Media's 2026 H1 report states that Zhongtai Jiye Asset Management completed the acquisition on 2026-02-09 and Pan Qiao became actual controller.",
+        "The acquisition structure combines direct/indirect ownership and voting-right delegation; after completion the acquirer held 31.09% economically and controlled 94.01% of voting rights.",
+        "Because completion occurred inside the 2026-01-01 to 2026-06-30 reporting period, the H1 statement is not a clean full-period post-control ledger."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Current H1 employees increased from 6 to 15.",
+        "2026 H1 revenue is RMB1,053,459.11.",
+        "Revenue composition shows RMB943,396.23 of field-promotion project revenue and RMB110,062.88 of advertising-service revenue."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "2026 H1 attributable net profit is negative RMB433,179.59.",
+        "The report therefore fails the positive-net-profit early gate without requiring selective OCF interpretation.",
+        "The dominant current revenue stream is an on-the-ground promotion project rather than an evidenced standardized recurring digital rail."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "A completed control transaction does not create a clean post-control evidence window when the control event occurs inside the reporting period.",
+        "Fifteen employees are still relatively small, but the current operating flow is field/project heavy and loss-making.",
+        "Deep OCF reconciliation would not change the rejection because control-period purity and positive net profit already fail."
+      ],
+      "economic_signal": [
+        "Control completed 2026-02-09 inside 2026 H1; acquirer controls 94.01% voting rights while holding 31.09% economically.",
+        "2026 H1 revenue RMB1,053,459.11; attributable net loss RMB433,179.59.",
+        "Current employee count 15; field-promotion projects contribute RMB943,396.23 of current revenue."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The time-window gate is evaluated before treating H1 figures as post-control continuity.",
+        "Current value delivery is dominated by field promotion/advertising project execution rather than a machine-only repeatable right.",
+        "Because clean period and profit fail, no deeper scarcity or incumbent-control-surface claim is promoted."
+      ],
+      "executed_control_transfer_check": "FAIL_CLEAN_WINDOW_CONTROL_COMPLETED_2026_02_09_INSIDE_2026_H1_REPORTING_PERIOD_DESPITE_ACQUIRER_CONTROLLING_94_01_PERCENT_VOTING_RIGHTS",
+      "post_transfer_external_economic_continuity_check": "FAIL_TO_CLOSE_H1_STRADDLES_CONTROL_CHANGE_AND_CURRENT_ATTRIBUTABLE_NET_PROFIT_IS_NEGATIVE_RMB433179_59_BEFORE_OCF_DEEPENING",
+      "fresh_small_operator_entry_check": "PARTIAL_TO_UNKNOWN_CONTROL_IS_EXECUTED_BUT_CONTROL_RELIES_HEAVILY_ON_VOTING_RIGHT_DELEGATION_AND_THE_CURRENT_REPORT_DOES_NOT_PROVIDE_A_CLEAN_FULL_POST_CONTROL_PERIOD",
+      "same_operator_economic_binding_check": "FAIL_CLEAN_TIME_BINDING_2026_H1_COMBINES_PRE_AND_POST_2026_02_09_CONTROL_TIME",
+      "direct_operating_cost_check": "FAIL_CURRENT_REVENUE_IS_DOMINATED_BY_RMB943396_23_FIELD_PROMOTION_PROJECT_WORK",
+      "owner_labor_check": "PARTIAL_PASS_CURRENT_15_FTE_IS_RELATIVELY_LOW_BUT_HIGHER_THAN_THE_STRONGER_SINGLE_DIGIT_CASES",
+      "founder_independence_check": "FAIL_CURRENT_FIELD_PROMOTION_PROJECT_DELIVERY_AND_LOSSMAKING_ECONOMICS_DO_NOT_PROVE_FOUNDER_LIGHT_CONTROL",
+      "data_action_rights_check": "PARTIAL_CORPORATE_VOTING_CONTROL_EXISTS_BUT_PROJECT_CUSTOMER_AND_FIELD_EXECUTION_RIGHTS_REMAIN_CONTRACT_SPECIFIC",
+      "normalized_margin_check": "FAIL_CURRENT_NET_LOSS_AND_MIXED_CONTROL_PERIOD_PREVENT_NORMALIZED_POST_CONTROL_MARGIN_PROMOTION",
+      "machine_delegatability_check": "FAIL_FIELD_PROMOTION_PROJECT_EXECUTION_IS_NOT_A_PROVEN_MACHINE_ONLY_RECURRING_RAIL",
+      "generic_agent_substitutability_check": "NOT_REACHED_CLEAN_PERIOD_POSITIVE_PROFIT_AND_NONPROJECT_DELIVERY_GATES_ALREADY_FAIL",
+      "verdict": "DEMOTED_CONTROL_COMPLETED_INSIDE_H1_CURRENT_NET_LOSS_AND_FIELD_PROMOTION_PROJECT_REVENUE_FAIL_BEFORE_OCF_OR_SCARCITY_DEEPENING"
+    }
+  ],
+  "excluded_observations": [
+    "Scan 060-118 formations and their primary discovery signals were excluded from Scan 119 primary formation selection.",
+    "Jiexian Technology was not deepened because disclosed staffing remained far above the intrinsically-low-FTE floor and the operating shape remained hardware/manufacturing/cloud-solution delivery.",
+    "New Changyue was not deepened because current operations had stopped with zero revenue and negative economics while a new proposed transaction occurred only after the current reporting period.",
+    "Pending, terminated or in-period control events were not relabeled as clean completed pre-period control merely because a signed acquisition document existed.",
+    "No job, gig, RFQ, procurement or asset-marketplace feed was used as the discovery ontology."
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "current_post_control_report_required": true,
+    "completed_control_before_reporting_period_required": true,
+    "direct_current_or_latest_intrinsically_low_fte_required": true,
+    "same_operator_and_control_position_binding_required": true,
+    "positive_external_revenue_required": true,
+    "positive_net_profit_required": true,
+    "explicit_positive_operating_cashflow_required": true,
+    "unambiguous_positive_ocf_reconciliation_required": true,
+    "existing_repeatable_nonproject_revenue_required": true,
+    "project_customization_outsourcing_field_manufacturing_after_sales_excluded_from_pass": true,
+    "total_usable_capital_including_working_capital_required": true,
+    "fresh_operator_reproducibility_checked": true,
+    "signed_acquisition_not_treated_as_executed_control": true,
+    "intra_period_control_change_not_treated_as_clean_post_control_period": true,
+    "early_gate_failure_stops_unnecessary_deepening": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_COMPLETED_INDIRECT_LOW_FTE_CONTROL_TERMINATED_LOW_FTE_ACQUISITION_AND_INTRA_PERIOD_MEDIA_CONTROL_TEST_DISTINCT_EXECUTION_ECONOMIC_AND_TIME_WINDOW_FAILURES",
+    "observed_indexing_bias": "ACQUISITION_DISCLOSURES_SURFACE_MANY_LOW_HEADCOUNT_OR_SMALL_ASSET_TARGETS_BUT_MOST_FAIL_CURRENT_PROFIT_OCF_OR_EXECUTION_BEFORE_DEEP_CONTROL_ANALYSIS",
+    "response": "FOR_SCAN120_INVERT_RETRIEVAL_ORDER_START_FROM_CURRENT_LOW_FTE_POSITIVE_REVENUE_POSITIVE_NET_PROFIT_UNAMBIGUOUS_POSITIVE_OCF_THEN_REVERSE_CHECK_EXECUTED_PRE_PERIOD_FRESH_OPERATOR_CONTROL_AND_RECURRING_NONPROJECT_RIGHTS",
+    "participant_behavior_over_analyst_story": "PASS_F1_USES_COMPLETED_REGISTRATION_AND_CURRENT_REPORT_F2_USES_OFFICIAL_TERMINATION_AND_CURRENT_REPORT_F3_USES_CURRENT_REPORT_CONTROL_CHANGE_AND_REVENUE_COMPOSITION"
+  },
+  "scan_learnings": [
+    "SCAN119_CURRENT_POST_CONTROL_LOW_FTE_UNAMBIGUOUS_POSITIVE_OCF_PASS_ZERO_RETENTION_ACROSS_COMPLETED_LOW_FTE_CONTROL_TERMINATED_LOW_FTE_ACQUISITION_AND_INTRA_PERIOD_CONTROL_SHAPES.",
+    "JINTIAN_YUANFENG_PROVES_EXECUTED_PRE_PERIOD_CONTROL_CURRENT_8_FTE_AND_CURRENT_EXTERNAL_REVENUE_CAN_COEXIST_WHILE_CURRENT_NET_PROFIT_AND_OCF_REMAIN_NEGATIVE.",
+    "A_SIGNED_ACQUISITION_REPORT_IS_NOT_EXECUTED_CONTROL_LONGJOY_TERMINATED_ITS_81_26_PERCENT_TRANSACTION_WITHOUT_PAYMENT_AND_THE_OLD_CONTROLLER_REMAINED_IN_PLACE.",
+    "A_CONTROL_CHANGE_COMPLETED_INSIDE_THE_REPORTING_PERIOD_DOES_NOT_CREATE_A_CLEAN_FULL_PERIOD_POST_CONTROL_LEDGER_YUDU_MEDIA_COMPLETED_CONTROL_ON_2026_02_09_INSIDE_H1.",
+    "EARLY_CONTROL_TIME_WINDOW_FTE_PROFIT_AND_OCF_GATES_CAN_KILL_WEAK_FORMATIONS_BEFORE_EXPENSIVE_RECURRING_REVENUE_OR_SCARCITY_ANALYSIS.",
+    "SCAN120_SHOULD_INVERT_RETRIEVAL_ORDER_TO_CURRENT_LOW_FTE_POSITIVE_REVENUE_POSITIVE_NET_PROFIT_UNAMBIGUOUS_POSITIVE_OCF_FIRST_THEN_REVERSE_CHECK_EXECUTED_FRESH_OPERATOR_CONTROL."
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_120",
+  "next_search_boundary": "FOURTEENTH_INDEPENDENT_CURRENT_LOW_FTE_POSITIVE_PROFIT_POSITIVE_OCF_FIRST_THEN_EXECUTED_CONTROL_PASS_REQUIRE_CURRENT_SAME_ENTITY_REPORT_AVAILABLE_REQUIRE_DIRECT_CURRENT_OR_LATEST_INTRINSICALLY_LOW_FTE_REQUIRE_POSITIVE_EXTERNAL_REVENUE_POSITIVE_NET_PROFIT_AND_UNAMBIGUOUS_POSITIVE_OPERATING_CASHFLOW_BEFORE_CONTROL_DEEPENING_THEN_REQUIRE_COMPLETED_FRESH_OPERATOR_REPRODUCIBLE_CONTROL_BEFORE_REPORTING_PERIOD_REQUIRE_EXISTING_STANDARDIZED_REPEATABLE_NONPROJECT_REVENUE_NOT_CUSTOM_IMPLEMENTATION_OUTSOURCING_FIELD_WORK_MANUFACTURING_AFTER_SALES_OR_PENDING_INJECTION_REQUIRE_BOUNDED_CONTROL_CONSIDERATION_OPERATING_ASSETS_AND_WORKING_CAPITAL_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_119_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "VALIDATE_SCAN119_WITH_EXACT_FINAL_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_START_SCAN120_CURRENT_LOW_FTE_POSITIVE_PROFIT_POSITIVE_OCF_FIRST_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608181828105506",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608181828105506&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608181828105506&pageIndex=3",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608181828105506&pageIndex=5",
+    "https://pdf.dfcfw.com/pdf/H2_AN202512181803063436_1.pdf?1766071954000.pdf=",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606101823422224",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608211828255046&pageIndex=1",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608211828255046&pageIndex=2",
+    "https://basic.10jqka.com.cn/831322/company.html",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608251828421975&pageIndex=1",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608251828421975&pageIndex=5",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608251828421975&pageIndex=6",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608251828421975&pageIndex=24",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202602091819837430&pageIndex=2"
+  ]
+}
