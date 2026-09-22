@@ -14,25 +14,26 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 103 is complete with zero retention after the first `OPERATOR-SPECIFIC NON-COMMODITY CONTROL + EXTERNAL ECONOMIC MOTION` pass. It now requires a PR plus repository CI and live TypeSafe/Jev on the exact final head before merge or Scan 104 continuation.
+Discovery: PR #401 exact final head passed repository CI plus live TypeSafe/Jev and was squash-merged. Scan 104 is active as the second independent `OPERATOR-SPECIFIC NON-COMMODITY CONTROL + EXTERNAL ECONOMIC MOTION + FRESH-OPERATOR ENTRY ACQUIRABILITY` pass on a fresh formation-diverse China sample.
 
 ## Current Phase
 
-`SCAN_103_COMPLETE_AWAITING_FINAL_PR_CI_JEV`
+`SCAN_104_RESEARCH_ACTIVE`
 
 ## Last Verified Main
 
-`ef937ee8a1224053bfe79713cd0c340efd68fd48`
-— squash merge of PR #400, `Complete second operator-acquirable control Scan 102`.
+`82b19c814c990698125ff0db278e89e030193f52`
+— squash merge of PR #401, `Run operator-specific non-commodity control Scan 103`.
 
-PR #400 final head `b6dc2b9cd42c5cc665f69437ba2efc84539e4cfe`:
-- repository CI run `35723714271`: success;
-- live TypeSafe/Jev run `35723714297`: success;
+PR #401 final head `4df07358890fb73206d5b94925120de4af817192`:
+- repository CI run `35726470453`: success;
+- live TypeSafe/Jev run `35726470408`: success;
+- live advisory artifact `10693219514`;
 - 3/3 effective route `NO_FURTHER_RESEARCH`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That directive was consumed to start Scan 103.
+That directive is consumed to start Scan 104.
 
 ## Active Issue
 
@@ -40,20 +41,17 @@ That directive was consumed to start Scan 103.
 
 ## Active Branch
 
-`research/attraction-scan-103`
+`research/attraction-scan-104`
 
 ## Active PR
 
-#401 — `Run operator-specific non-commodity control Scan 103`.
-
-This TASK_STATE binding commit intentionally advances the PR head once. Repository CI and live TypeSafe/Jev must validate the resulting exact final head before merge.
+None yet. Open a PR only after Scan 104 evidence, persisted state and regression coverage are complete.
 
 ## CI
 
-- PR #400 final-head repository CI `35723714271`: success.
-- PR #400 live TypeSafe/Jev `35723714297`: success; `ADVANCE_TO_NEXT_SCAN`.
-- PR #401 exact final-head validation: pending after this TASK_STATE binding commit.
-- Do not merge PR #401 or start Scan 104 from an earlier head.
+- PR #401 final-head repository CI `35726470453`: success.
+- PR #401 live TypeSafe/Jev `35726470408`: success; `ADVANCE_TO_NEXT_SCAN`.
+- Scan 104 branch validation: not yet requested because research is active.
 
 ## Parallel Validation
 
@@ -81,6 +79,10 @@ Persisted state:
 
 ## Completed
 
+- Verified PR #401 exact final-head repository CI success and real TypeSafe/Jev execution.
+- Consumed the actual Jev continuation directive: 3/3 `NO_FURTHER_RESEARCH`, autonomous continuation allowed, `ADVANCE_TO_NEXT_SCAN`.
+- Confirmed PR #401 squash-merged to `main` at `82b19c814c990698125ff0db278e89e030193f52`.
+- Created `research/attraction-scan-104` from that exact merged main.
 - Reconciled the interrupted session against live GitHub instead of replaying old work.
 - Verified PR #400 exact final-head CI and real TypeSafe/Jev execution, then consumed its `ADVANCE_TO_NEXT_SCAN` directive.
 - Resumed the already-created `research/attraction-scan-103` branch rather than creating a duplicate branch.
@@ -90,6 +92,10 @@ Persisted state:
 - Retained zero formations and promoted zero commercial candidates.
 
 ## Current Findings
+
+Scan 104 research has not yet resolved a formation. The entrance repeats the non-commodity-control + external-money floor independently, but now requires explicit evidence that a fresh independent small operator can legally obtain/build/contract/assemble the decisive position without already owning an incumbent's accumulated history, identity, audience or ranking asset.
+
+This is an evidence property, not a preselected product/mechanism ontology. Broad current-reality sensing and formation diversity remain mandatory.
 
 ### Scan 103-F1 — BiliNote open-source reputation -> paid hosted service
 
@@ -131,10 +137,11 @@ Validation:
 
 Engineering:
 - no current Jev integration blocker;
-- Scan 103 needs a PR and exact-final-head repository CI plus live TypeSafe/Jev.
+- Scan 104 has not yet produced a PR head.
 
 Discovery:
-- Scan 104 is gated on the Scan 103 exact-final-head continuation directive.
+- do not mechanically search for `history`, `audience`, `exclusive contract`, `SEO moat`, `data moat` or other fashionable asymmetry labels; require the evidence property to emerge from broad reality.
+- fresh-operator entry acquirability is a hard floor for this second pass.
 
 ## Do Not Repeat
 
@@ -186,4 +193,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Validate PR #401 exact final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, then start Scan 104 only if `autonomous_continuation_allowed=true`.
+Run Scan 104 on a fresh formation-diverse China sample using the second independent non-commodity-control + external-economic-motion + fresh-operator-entry-acquirability evidence priority; persist only evidence-supported outcomes, then add regression coverage and update durable state before opening a PR.
