@@ -165,6 +165,17 @@ Discovery:
 - do not use job/gig/RFQ/procurement or asset-marketplace feeds as discovery ontology;
 - do not lower hard floors because discovery closes at zero.
 
+## Do Not Repeat
+
+- Do not repeat Scan 106 sodium-ion technology licensing, Qianshu Dragon Kiln exclusive IP or distributed-PV project-company transfers.
+- Do not repeat Scan 105 Gel Blaster acquisition, parcel-station transfer or independent source-code sale formations.
+- Do not repeat Scan 104 profitable-app sale, UCharts/Figma plugin distribution or publisher-operated game formations.
+- Do not return to Scan 060-106 formations or their primary discovery signals.
+- Do not use job/gig/RFQ/procurement feeds or asset-marketplace feeds as discovery ontology.
+- Do not infer a product from a closed formation.
+- Do not lower hard floors because discovery closes at zero.
+- Do not repeat Scan 015 public-rights research while written evidence is outstanding.
+
 ## Guardrails
 
 - GitHub live state wins.
