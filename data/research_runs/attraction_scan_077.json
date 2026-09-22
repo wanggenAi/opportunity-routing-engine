@@ -1,0 +1,163 @@
+{
+  "schema_version": "attraction-scan.v56",
+  "scan_id": "ATTRACTION_SCAN_077",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_UNRESOLVED_OUTCOME_CAUSAL_CHAIN_PLUS_SEPARATE_RECURRING_PAID_RESIDUAL_CONTRACT_FORMATION_DIVERSE_REQUIRE_EXPLICIT_EVIDENCE_THAT_THE_NEW_PLATFORM_OR_PROVIDER_IS_LIVE_AND_THE_SAME_OUTCOME_REMAINS_UNRESOLVED_EXCLUDE_STANDARD_OEM_PARTNER_AMS_MAINTENANCE_MONITORING_ENHANCEMENT_TRAINING_TRANSITION_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_076_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "causal_floor": "REPLACEMENT_OR_NEW_PLATFORM_LIVE_PLUS_BUYER_AUTHORED_SAME_OUTCOME_STILL_UNRESOLVED_PLUS_ACTUAL_SEPARATE_RECURRING_PAID_RESIDUAL_CONTRACT",
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_077-F1",
+      "title": "BALTIMORE_COUNTY_WORKDAY_PRISM_MBE_COMPLIANCE_GAP",
+      "chinese_title": "巴尔的摩县Workday上线后的PRiSM少数族裔合同合规缺口",
+      "buyer_authored_post_live_failure_evidence": [
+        "Baltimore County transitioned to Workday in June 2022.",
+        "The County OIG found PRiSM and Workday did not properly integrate, the prior data-transfer workaround stopped working, and the MBE Unit instituted monthly Excel-and-email workarounds for compliance.",
+        "The OIG reported that integration issues persisted into 2024-2025, manual data entry consumed staff capacity, and routine MBE compliance was not being performed consistently."
+      ],
+      "separate_recurring_paid_residual_evidence": [
+        "PRiSM was under recurring one-year contracts and renewal options.",
+        "The OIG records PRiSM vendor payments continuing after the Workday transition, including $115,560 in 2023, $115,560 in 2024 and $75,785 in 2025.",
+        "The OIG concluded the County had paid $737,593.50 to the PRiSM vendor from 2008 through April 2025 while the software was not fully integrated or used as intended."
+      ],
+      "same_outcome_causal_chain": "PASS_STRONG_THE_BUYER_OVERSIGHT_RECORD_CONNECTS_THE_LIVE_WORKDAY_TRANSITION_TO_A_BROKEN_PRISM_DATA_FLOW_MANUAL_MONTHLY_COMPLIANCE_WORKAROUNDS_AND_CONTINUED_PAID_PRISM_USE_WHILE_MBE_COMPLIANCE_REMAINED_INCOMPLETE",
+      "exact_incumbent_preflight": "FAIL_PRISM_IS_THE_EXISTING_OFF_THE_SHELF_MBE_COMPLIANCE_SYSTEM_ALREADY_CONTRACTED_FOR_THE_EXACT_MONITORING_REPORTING_AND_PAYMENT_CONFIRMATION_CONTROL_SURFACE",
+      "founder_independence_check": "FAIL_AS_WHITE_SPACE_THE_COUNTY_RECOMMENDATION_IS_TO_FIX_PRISM_WORKDAY_COMPATIBILITY_OR_MOVE_TO_A_MORE_COMPATIBLE_SOFTWARE_SYSTEM_AND_THE_CURRENT_WORKAROUND_IS_INTERNAL_STAFF_LABOR",
+      "data_action_rights_check": "PARTIAL_COUNTY_CONTROLS_WORKDAY_CONTRACT_AND_PAYMENT_DATA_BUT_PRISM_INTEGRATION_AND_MBE_COMPLIANCE_ACTIONS_SIT_INSIDE_EXISTING_COUNTY_AND_VENDOR_CONTROL_SURFACES",
+      "normalized_margin_check": "WEAK_RECURRING_LICENSE_SPEND_IS_EVIDENCED_BUT_A_SEPARATE_MACHINE_EXECUTABLE_OUTCOME_UNIT_WITH_ACCEPTANCE_AND_SETTLEMENT_IS_NOT",
+      "generic_agent_substitutability_check": "FAIL_A_GENERIC_AGENT_COULD_HELP_MOVE_AND_RECONCILE_DATA_BUT_DOES_NOT_ESTABLISH_SYSTEM_INTEGRATION_RIGHTS_OR_REPLACE_STATUTORY_COMPLIANCE_ACCOUNTABILITY",
+      "verdict": "DEMOTED_STRONGEST_SCAN077_CAUSAL_CHAIN_BUT_THE_RECURRING_PAYMENT_IS_TO_THE_EXACT_VERTICAL_INCUMBENT_AND_THE_UNRESOLVED_LAYER_IS_A_BROKEN_INTEGRATION_PLUS_INTERNAL_COMPLIANCE_WORKFLOW_NOT_AN_UNOWNED_RESIDUAL_MARKET"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_077-F2",
+      "title": "NYC_FDNY_FIRES_POST_IMPLEMENTATION_MANUAL_INSPECTION_ENFORCEMENT",
+      "chinese_title": "纽约消防局FIRES上线后的人工检查与执法流程",
+      "buyer_authored_post_live_failure_evidence": [
+        "FDNY's FIRES replaced the legacy FPIMS system plus some ancillary systems and manual processes.",
+        "The NYC Comptroller found FIRES did not fully achieve its major automation and efficiency goals because required inspection and enforcement functions were not fully implemented.",
+        "FDNY units continued to rely on Outlook, Excel, paper checklists and manual processing for scheduling, routing, enforcement and appeals."
+      ],
+      "separate_recurring_paid_residual_evidence": [
+        "The audit documents continuing internal manual work and system/vendor remediation but does not establish a distinct recurring paid residual contract caused by the same unresolved inspection/enforcement outcome."
+      ],
+      "same_outcome_causal_chain": "PARTIAL_PASS_THE_REPLACEMENT_IS_LIVE_AND_THE_BUYER_AUDIT_EXPLICITLY_SAYS_THE_SAME_AUTOMATION_AND_EFFICIENCY_GOALS_REMAIN_INCOMPLETE",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_THE_UNFINISHED_FUNCTIONS_ARE_WITHIN_FIRES_ACCELA_CONFIGURATION_GCOM_DELIVERY_AND_FDNY_INTERNAL_ROUTING_ENFORCEMENT_CONTROL_SURFACES",
+      "founder_independence_check": "FAIL_NO_SEPARATE_FOUNDER_INDEPENDENT_PAID_RESIDUAL_PROVIDER_OR_ASSET_IS_EVIDENCED",
+      "data_action_rights_check": "PARTIAL_FDNY_CONTROLS_INSPECTION_DATA_BUT_SCHEDULING_ENFORCEMENT_AND_COURT_APPEARANCE_ACTIONS_INCLUDE_PUBLIC_AUTHORITY_AND_SYSTEM_CHANGE_RIGHTS",
+      "normalized_margin_check": "FAIL_NO_ACTUAL_RECURRING_RESIDUAL_PAYMENT_UNIT_SEPARATE_FROM_SYSTEM_REMEDIATION_IS_EVIDENCED",
+      "generic_agent_substitutability_check": "FAIL_AUTHORITY_HEAVY_INSPECTION_AND_ENFORCEMENT_DECISIONS_PLUS_EXISTING_SYSTEM_FUNCTIONALITY_LIMIT_A_GENERIC_AGENT_TO_ASSISTIVE_WORK",
+      "verdict": "DEMOTED_BUYER_AUTHORED_POST_LIVE_FAILURE_IS_STRONG_BUT_THE_REQUIRED_SEPARATE_RECURRING_PAID_RESIDUAL_CONTRACT_IS_NOT_EVIDENCED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_077-F3",
+      "title": "BLM_AFMSS2_FULL_DEPLOYMENT_PAPER_RECORD_FALLBACK",
+      "chinese_title": "美国土地管理局AFMSS2全面部署后的纸质记录回退",
+      "buyer_authored_post_live_failure_evidence": [
+        "BLM fully deployed AFMSS2 after a modernization intended to improve oil-and-gas activity tracking and productivity.",
+        "GAO reports BLM declared the modernization a failure in 2021 and that the new system required substantially more labor, with more than $19 million in lost productivity in 2021.",
+        "Reliability and data-integrity problems were severe enough that the system could not serve as the system of record, leaving BLM reliant on paper records while AFMSS2 remained operational."
+      ],
+      "separate_recurring_paid_residual_evidence": [
+        "The current GAO evidence establishes the unresolved post-deployment outcome and continuing paper fallback but does not establish a separate recurring paid residual contract specifically purchased to close that same outcome."
+      ],
+      "same_outcome_causal_chain": "PARTIAL_PASS_FULL_DEPLOYMENT_AND_FAILED_PRODUCTIVITY_DATA_INTEGRITY_OUTCOMES_ARE_EXPLICIT",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_REMEDIATION_REMAINS_INSIDE_THE_GOVERNMENT_SYSTEM_MODERNIZATION_AND_RECORD_AUTHORITY_SURFACE",
+      "founder_independence_check": "FAIL_THE_OBSERVED_RESIDUAL_IS_INTERNAL_EXTRA_LABOR_AND_PAPER_RECORDKEEPING_NOT_A_SEPARATE_REUSABLE_EXTERNAL_ASSET",
+      "data_action_rights_check": "FAIL_FOR_GENERIC_OPERATION_FEDERAL_OIL_AND_GAS_RECORDS_AND_SYSTEM_OF_RECORD_ACTIONS_ARE_GOVERNMENT_CONTROLLED",
+      "normalized_margin_check": "FAIL_LOST_PRODUCTIVITY_IS_A_COST_SIGNAL_NOT_AN_ACTUAL_RECURRING_EXTERNAL_PAYMENT_UNIT",
+      "generic_agent_substitutability_check": "FAIL_GENERIC_AUTOMATION_CANNOT_BY_ITSELF_ESTABLISH_AUTHORITATIVE_SYSTEM_OF_RECORD_STATUS_OR_FIX_PLATFORM_DATA_INTEGRITY",
+      "verdict": "DEMOTED_POST_DEPLOYMENT_FAILURE_AND_COST_ARE_STRONG_BUT_NO_SEPARATE_RECURRING_PAID_RESIDUAL_CONTRACT_IS_PROVEN"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_077-F4",
+      "title": "VA_NEW_EHR_DEPLOYED_WITH_PERSISTENT_WORKAROUNDS_AND_CHANGE_BACKLOG",
+      "chinese_title": "美国退伍军人事务部新EHR上线后的持续绕行与配置积压",
+      "buyer_authored_post_live_failure_evidence": [
+        "VA deployed its new commercial EHR to five medical centers beginning in 2020 and paused further deployments in 2023 because of user concerns.",
+        "GAO reported in March 2025 that much more remained to be done, including about 1,800 unaddressed configuration change requests as of February 2025.",
+        "GAO user feedback showed most selected users disagreed that they could perform their duties without workarounds and disagreed that the new system required fewer task steps."
+      ],
+      "separate_recurring_paid_residual_evidence": [
+        "The evidence shows continuing EHR modernization, configuration work and platform remediation, but not a distinct non-incumbent recurring residual contract tied to the same unresolved clinical workflow outcome."
+      ],
+      "same_outcome_causal_chain": "PARTIAL_PASS_NEW_EHR_IS_LIVE_AT_INITIAL_SITES_AND_USER_WORKFLOW_USABILITY_PERFORMANCE_OUTCOMES_REMAIN_UNRESOLVED",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_THE_ACTIVE_REMEDIATION_IS_PART_OF_THE_EHR_MODERNIZATION_PLATFORM_AND_ITS_CONFIG_CHANGE_CONTROL_SURFACE",
+      "founder_independence_check": "FAIL_NO_DISTINCT_FOUNDER_INDEPENDENT_RESIDUAL_PROVIDER_OR_REUSABLE_SETTLEMENT_ASSET_IS_SHOWN",
+      "data_action_rights_check": "FAIL_FOR_GENERIC_OPERATOR_PATIENT_RECORDS_CLINICAL_WORKFLOWS_CONFIGURATION_AND_PATIENT_SAFETY_CHANGES_ARE_HIGHLY_GOVERNED",
+      "normalized_margin_check": "FAIL_NO_SEPARATE_RECURRING_RESIDUAL_PAYMENT_UNIT_IS_ESTABLISHED_BY_THE_SOURCE",
+      "generic_agent_substitutability_check": "FAIL_HIGH_STAKES_CLINICAL_WORKFLOW_PATIENT_SAFETY_AND_EHR_CONFIGURATION_ACCOUNTABILITY_PREVENT_GENERIC_AGENT_SUBSTITUTION",
+      "verdict": "DEMOTED_STRONG_POST_LIVE_WORKAROUND_EVIDENCE_BUT_RESIDUAL_SPEND_REMAINS_INSIDE_THE_EHR_MODERNIZATION_CONTROL_SURFACE_AND_HIGH_STAKES_GOVERNANCE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_077-F5",
+      "title": "NDIA_PACE_COMPLETED_WITH_MANUAL_CLAIM_VALIDATION_RESIDUAL",
+      "chinese_title": "澳大利亚NDIA PACE交付完成后的人工理赔校验残余",
+      "buyer_authored_post_live_failure_evidence": [
+        "NDIA began rolling out replacement PACE from October 2023 and told the ANAO in June 2025 that delivery of the PACE system had been completed while plan migration remained in progress.",
+        "The ANAO records that the control environment still included little payment-use transparency, rudimentary pre-payment checks and heavy reliance on manual pre- and post-payment validation.",
+        "The audit states only very small proportions of claims were reviewed pre- or post-payment because automated rules testing and validation tools were limited."
+      ],
+      "separate_recurring_paid_residual_evidence": [
+        "The audit establishes continuing manual validation and fraud-control work but does not evidence a separate recurring paid residual contract caused by the same unresolved PACE payment-validation outcome."
+      ],
+      "same_outcome_causal_chain": "PARTIAL_PASS_REPLACEMENT_DELIVERY_IS_COMPLETE_AND_PAYMENT_VALIDATION_CONTROL_GAPS_REMAIN_EXPLICIT",
+      "exact_incumbent_preflight": "FAIL_FOR_PROMOTION_PACE_IS_BUILT_ON_SALESFORCE_AND_THE_REMAINING_CONTROLS_SIT_INSIDE_NDIA_PAYMENT_FRAUD_AND_REGULATORY_AUTHORITY",
+      "founder_independence_check": "FAIL_OBSERVED_RESIDUAL_IS_INTERNAL_MANUAL_VALIDATION_AND_PUBLIC_AUTHORITY_NOT_A_SEPARATE_FOUNDER_INDEPENDENT_EXTERNAL_ASSET",
+      "data_action_rights_check": "FAIL_FOR_GENERIC_OPERATION_CLAIM_PAYMENT_VALIDATION_AND_FRAUD_ACTIONS_REQUIRE_STATUTORY_AUTHORITY_AND_SENSITIVE_DATA_ACCESS",
+      "normalized_margin_check": "FAIL_NO_DISTINCT_RECURRING_EXTERNAL_SETTLEMENT_UNIT_IS_EVIDENCED",
+      "generic_agent_substitutability_check": "FAIL_GENERIC_AGENT_AUTOMATION_CAN_ASSIST_RULE_CHECKING_BUT_CANNOT_OWN_PAYMENT_AUTHORITY_FRAUD_JUDGMENT_OR_SENSITIVE_DATA_RIGHTS",
+      "verdict": "DEMOTED_POST_LIVE_CONTROL_GAP_IS_REAL_BUT_THE_RESIDUAL_IS_INTERNAL_AUTHORITY_HEAVY_VALIDATION_WITHOUT_A_SEPARATE_RECURRING_PAID_CONTRACT"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_077-F6",
+      "title": "ST_JOHNS_COUNTY_WORKDAY_MANUAL_HR_RESIDUAL_AND_NEW_TECH_BUDGET_REQUEST",
+      "chinese_title": "圣约翰斯县Workday上线后的人工HR残余与新增技术预算请求",
+      "buyer_authored_post_live_failure_evidence": [
+        "In a May 2026 county budget session, HR described current manual recruiting, equity-analysis and employee-relations work while Workday functionality was still being learned or developed.",
+        "The department said staff were spending substantial repeated time on manual work and discussed additional AI-type platforms and integrations intended to improve candidate communication, screening, scheduling and compensation analysis."
+      ],
+      "separate_recurring_paid_residual_evidence": [
+        "The session described a roughly $432,800 budget request including new technology and integrations, but it did not establish an executed recurring contract or isolate a recurring residual payment caused by a single unresolved Workday outcome."
+      ],
+      "same_outcome_causal_chain": "PARTIAL_THE_LIVE_WORKDAY_CONTEXT_AND_REMAINING_MANUAL_HR_WORK_ARE_BUYER_AUTHORED_BUT_THE_TARGET_OUTCOME_BOUNDARY_IS_BROAD_AND_MULTIPLE_ADDITIONAL_TOOLS_ARE_ONLY_PROPOSED",
+      "exact_incumbent_preflight": "UNRESOLVED_ADDITIONAL_TOOLS_MAY_BE_STANDARD_RECRUITING_COMPENSATION_OR_EMPLOYEE_RELATIONS_PRODUCTS_AND_NO_EXACT_WHITE_SPACE_CONTROL_SURFACE_IS_PROVEN",
+      "founder_independence_check": "FAIL_AT_THIS_STAGE_THE_EVIDENCE_IS_A_BUDGET_AND_TOOL_EVALUATION_NOT_A_FOUNDER_INDEPENDENT_RECURRING_OPERATOR_ASSET",
+      "data_action_rights_check": "PARTIAL_COUNTY_CONTROLS_HR_DATA_BUT_EMPLOYMENT_DECISIONS_AND_WORKDAY_CONFIGURATION_REQUIRE_BUYER_AUTHORIZATION_AND_GOVERNANCE",
+      "normalized_margin_check": "FAIL_BUDGET_INTENT_IS_NOT_ACTUAL_RECURRING_EXTERNAL_VALUE_FLOW",
+      "generic_agent_substitutability_check": "PARTIAL_GENERIC_AGENTS_MAY_ASSIST_SCREENING_COMMUNICATION_AND_ANALYSIS_BUT_EMPLOYMENT_DECISIONS_AND_EXISTING_PRODUCT_CATEGORIES_LIMIT_AUTONOMOUS_SUBSTITUTION",
+      "verdict": "DEMOTED_PROMISING_BUYER_AUTHORED_RESIDUAL_DEMAND_SIGNAL_BUT_NO_EXECUTED_RECURRING_PAID_RESIDUAL_CONTRACT_OR_UNOWNED_CONTROL_SURFACE_IS_PROVEN"
+    }
+  ],
+  "scan_learnings": [
+    "BUYER_AUTHORED_POST_LIVE_FAILURE_CAUSALITY_IS_DISCOVERABLE_IN_CURRENT_AUDITS_BUDGETS_AND_OVERSIGHT_RECORDS_AND_IS_STRONGER_THAN_GENERIC_POST_PRODUCTION_SUPPORT_EVIDENCE",
+    "BALTIMORE_COUNTY_IS_THE_STRONGEST_SCAN077_EXAMPLE_BECAUSE_WORKDAY_WENT_LIVE_PRISM_INTEGRATION_FAILED_MONTHLY_MANUAL_COMPLIANCE_WORKAROUNDS_PERSISTED_AND_PRISM_VENDOR_PAYMENTS_CONTINUED",
+    "EVEN_THE_STRONGEST_CHAIN_CAN_STILL_FAIL_WHITE_SPACE_WHEN_THE_RECURRING_PAYMENT_LANDS_ON_THE_EXACT_VERTICAL_INCUMBENT_AND_THE_BUYER_RECOMMENDS_FIXING_OR_REPLACING_THAT_EXISTING_CONTROL_SURFACE",
+    "FDNY_BLM_VA_AND_NDIA_SHOW_REPLACEMENT_OR_MODERNIZATION_CAN_BE_LIVE_WHILE_THE_ORIGINAL_AUTOMATION_PRODUCTIVITY_DATA_INTEGRITY_OR_VALIDATION_OUTCOME_REMAINS_UNRESOLVED",
+    "IN_MOST_CURRENT_PUBLIC_BUYER_RECORDS_THE_RESIDUAL_AFTER_FAILURE_IS_INTERNAL_MANUAL_LABOR_PAPER_WORKAROUNDS_PLATFORM_REMEDIATION_OR_PUBLIC_AUTHORITY_RATHER_THAN_A_DISTINCT_RECURRING_EXTERNAL_PAID_ASSET",
+    "ST_JOHNS_COUNTY_SHOWS_POST_LIVE_MANUAL_WORK_CAN_CREATE_NEW_TECH_BUDGET_INTENT_BUT_BUDGET_REQUESTS_AND_TOOL_EVALUATION_ARE_NOT_EXTERNAL_VALUE_FLOW",
+    "SCAN077_ZERO_RETENTION_AFTER_ACTUAL_PAYMENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_RIGHTS_MARGIN_AND_GENERIC_AGENT_PREFLIGHT",
+    "THE_NEXT_EVIDENCE_ESCALATION_SHOULD_REQUIRE_ACTUAL_RECURRING_PAYMENT_TO_A_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_AFTER_THE_LIVE_REPLACEMENT_WHILE_THE_SAME_BUYER_AUTHORED_OUTCOME_REMAINS_UNRESOLVED",
+    "THE_NEXT_RESIDUAL_PROVIDER_MUST_NOT_BE_STANDARD_AMS_OEM_SUPPORT_INTEGRATOR_CONSULTANT_BPO_AUTHORITY_EXPERT_OR_PHYSICAL_LIFECYCLE_DELIVERY_AND_MUST_SURVIVE_MACHINE_DELEGATABILITY_AND_CONTROL_RIGHTS_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_078",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_SAME_UNRESOLVED_OUTCOME_PLUS_ACTUAL_RECURRING_PAYMENT_TO_A_NON_INCUMBENT_RESIDUAL_PROVIDER_OR_ASSET_FORMATION_DIVERSE_REQUIRE_EXECUTED_PAYMENT_NOT_BUDGET_INTENT_EXCLUDE_STANDARD_AMS_OEM_PARTNER_SUPPORT_INTEGRATORS_CONSULTANTS_BPO_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_077_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN078_FROM_ACTUAL_NON_INCUMBENT_RECURRING_RESIDUAL_PAYMENT_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://htv-prod-media.s3.amazonaws.com/files/oig-investigative-report-25-014-final-6956aee8cce46.pdf",
+    "https://comptroller.nyc.gov/reports/audit-report-on-the-development-and-implementation-of-the-new-york-city-fire-departments-fire-inspection-revenue-and-enforcement-system/",
+    "https://www.gao.gov/products/gao-24-107223",
+    "https://files.gao.gov/reports/GAO-25-106874/index.html",
+    "https://www.anao.gov.au/work/performance-audit/ndia-management-of-claimant-compliance-with-ndis-claim-requirements",
+    "https://stjohnscountyfl.new.swagit.com/videos/387483"
+  ]
+}
