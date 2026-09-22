@@ -1,0 +1,46 @@
+{
+  "schema_version": 2,
+  "generation": 1,
+  "repository": "wanggenAi/opportunity-routing-engine",
+  "status": "IN_PROGRESS",
+  "task_key": "commercial-attraction-scan-092",
+  "stage": "SCAN_092_RESEARCH_EVIDENCE_BOUND",
+  "last_observed_main_sha": "4f3465e8e0ff601afad7fcb8c5e6617ce61b50fe",
+  "work_branch": "research/attraction-scan-092",
+  "work_head_sha": "4f3465e8e0ff601afad7fcb8c5e6617ce61b50fe",
+  "active_pr": null,
+  "ci": null,
+  "production_or_artifact": {
+    "status": "NOT_APPLICABLE",
+    "evidence": [
+      "SCAN091_PR389_MERGED",
+      "SCAN091_CI_SUCCESS_35699687141",
+      "SCAN091_JEV_SUCCESS_35699687114",
+      "SCAN091_JEV_ADVANCE_TO_NEXT_SCAN",
+      "SCAN092_BRANCH_REUSED_FROM_IDENTICAL_MAIN_HEAD"
+    ]
+  },
+  "pending_operation": null,
+  "health": {
+    "recovery": "HEALTHY",
+    "last_error": null
+  },
+  "completed": [
+    "SCAN091_LIVE_GITHUB_RECONCILED",
+    "SCAN091_CONTINUATION_CONSUMED",
+    "SCAN092_BRANCH_REUSED_FROM_IDENTICAL_MAIN_HEAD",
+    "SCAN092_FRESH_FORMATION_RESEARCH_BOUND"
+  ],
+  "next_action": "Persist Scan 092 research JSON, note, regression contract, reset state and TASK_STATE on research/attraction-scan-092.",
+  "do_not_repeat": [
+    "Do not repeat Scan 089 Seats.aero, Monarch, or HealthFit/RunGap.",
+    "Do not repeat Scan 090 Zapier, 1Password, or Fantastical.",
+    "Do not repeat Scan 091 ecommerce accounting, cold-email deliverability/verification, or Home Assistant/SmartThings.",
+    "Do not repeat Scan 015 public-rights research while written provider evidence is outstanding."
+  ],
+  "jev": {
+    "previous_run_id": 35699687114,
+    "autonomous_continuation_allowed": true,
+    "next_action": "ADVANCE_TO_NEXT_SCAN"
+  }
+}
