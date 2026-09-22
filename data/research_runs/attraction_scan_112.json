@@ -1,0 +1,223 @@
+{
+  "schema_version": "attraction-scan.v86",
+  "scan_id": "ATTRACTION_SCAN_112",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "SIXTH_INDEPENDENT_VERIFIED_NET_CASHFLOW_CONTROL_PASS_WITH_LOW_HEADCOUNT_MACHINE_LIGHT_EXECUTED_CONTROL_PRIORITY_REQUIRE_SAME_ENTITY_SAME_CONTROL_POSITION_SAME_TIME_WINDOW_AUDITED_POSITIVE_EXTERNAL_CUSTOMER_REVENUE_AND_POSITIVE_NORMALIZED_PROFIT_OR_CASHFLOW_LOW_OWNER_LABOR_OR_EXPLICIT_REPLACEMENT_COST_EXECUTED_CONTROLLING_EQUITY_ASSET_LICENSE_OR_CONTRACT_TRANSFER_RIGHTS_CLOSURE_AND_REALIZED_OR_BOUNDED_EXIT_VALUE_REQUIRE_NONCOMMODITY_CONTROL_AND_FOUNDER_LIGHT_MACHINE_DELEGATABLE_DELIVERY_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_111_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_112-F1",
+      "title": "CHINA_HAINAN_ZERO_EMPLOYEE_SOLAR_SPV_WITH_AUDITED_POSITIVE_CASHFLOW_AND_100_PERCENT_TRANSFER_PATH_BUT_NO_EXECUTED_CONTROL_CHANGE",
+      "discovery_route": "CURRENT_LISTED_COMPANY_DISCLOSURE_IDENTIFIES_ONE_ZERO_EMPLOYEE_SOLAR_OPERATING_SPV_WITH_AUDITED_POSITIVE_REVENUE_PROFIT_AND_OPERATING_CASHFLOW_THEN_CURRENT_PUBLIC_EXCHANGE_DISCLOSURE_VALIDATES_A_100_PERCENT_TRANSFER_PATH_AND_CONTROL_CHANGE_CONDITIONS",
+      "observed_actor_state_change_evidence": [
+        "South Grid Energy's current 2026 disclosure identifies Nandian (Chengmai) New Energy Technology Co., Ltd. as a wholly owned solar-project operator and reports 2025 audited operating revenue of RMB14,207,675.96, net profit of RMB4,679,109.21 and operating cashflow of RMB5,046,858.09.",
+        "The current public-exchange packet offers 100% of the same entity for RMB82.1275 million and reports zero employees, 2025 audited revenue RMB14.2077 million and net profit RMB4.6791 million, plus positive 2026 year-to-date revenue and profit.",
+        "The transaction packet explicitly says the lender requires repayment or lender-approved refinancing before the equity transfer and actual-controller change can be completed."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The entity holds and operates a photovoltaic-project position with real audited cash generation and a formally transferable corporate control package.",
+        "The transfer valuation depends materially on electricity-subsidy assumptions and collection timing, while the entity carries a large bank-loan balance."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The parent is attempting a full control exit rather than merely selling a minority financial interest.",
+        "The lender has asserted a concrete control-change condition, demonstrating that legal equity transferability does not by itself make the control position immediately callable."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This packet is stronger than Scan 111 because low headcount, audited positive revenue, positive profit, positive operating cashflow and a 100% control path all bind to the same entity.",
+        "As of 2026-09-22 the available current evidence is still a listing/transfer process, not a completed transaction result, so post-transfer economic continuity is not observable.",
+        "Zero employees does not establish zero human delivery: solar operations, maintenance, grid coordination, financing and compliance may be outsourced or parent-supported, and the public packet does not quantify replacement labor/service cost.",
+        "The economic value is materially tied to capital infrastructure, subsidy assumptions, grid revenue and financing rather than a demonstrated machine-operated routing/control asset."
+      ],
+      "economic_signal": [
+        "2025 audited revenue RMB14.2077 million, net profit RMB4.6791 million and operating cashflow RMB5.0469 million.",
+        "Current 100% listing price RMB82.1275 million; bank-loan balance disclosed at approximately RMB65.6523 million as of February 2026."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The decisive control surface is ownership of the solar project company plus project/grid/finance relationships, not a general-purpose routing layer.",
+        "Control change is creditor-conditioned and valuation is subsidy-sensitive.",
+        "No independently evidenced operator-owned compounding demand/data/distribution asset distinct from the physical energy project is shown."
+      ],
+      "executed_control_transfer_check": "FAIL_CURRENT_100_PERCENT_TRANSFER_PATH_IS_DOCUMENTED_BUT_NO_COMPLETED_TRANSACTION_RESULT_OR_POST_TRANSFER_CONTROL_CHANGE_IS_EVIDENCED_AS_OF_2026_09_22",
+      "post_transfer_external_economic_continuity_check": "UNKNOWN_PRE_TRANSFER_AUDITED_REVENUE_PROFIT_AND_CASHFLOW_ARE_POSITIVE_BUT_NO_POST_TRANSFER_PERIOD_EXISTS",
+      "fresh_small_operator_entry_check": "FAIL_TO_CLOSE_THE_ENTITY_HAS_ZERO_EMPLOYEES_BUT_THE_RMB82M_CONTROL_PRICE_LARGE_LOAN_AND_PROJECT_FINANCE_DEPENDENCE_DO_NOT_ESTABLISH_REALISTIC_SMALL_OPERATOR_ENTRY",
+      "same_operator_economic_binding_check": "PASS_PRE_TRANSFER_AUDITED_REVENUE_PROFIT_CASHFLOW_ASSETS_LIABILITIES_AND_THE_100_PERCENT_CONTROL_OFFER_BIND_TO_THE_SAME_ENTITY",
+      "direct_operating_cost_check": "PARTIAL_PASS_AUDITED_NET_PROFIT_AND_CASHFLOW_EXIST_BUT_A_COMPLETE_DIRECT_O_AND_M_FINANCE_AND_REPLACEMENT_SERVICE_COST_LEDGER_IS_NOT_PUBLISHED_IN_THE_CURRENT_PACKET",
+      "owner_labor_check": "UNKNOWN_ZERO_REPORTED_EMPLOYEES_DOES_NOT_CLOSE_PARENT_SUPPORT_OUTSOURCED_O_AND_M_OR_REPLACEMENT_OPERATOR_COST",
+      "founder_independence_check": "PARTIAL_TO_UNKNOWN_ENTITY_LEVEL_OPERATION_IS_LOW_HEADCOUNT_BUT_PARENT_FINANCE_GRID_AND_OUTSOURCED_OPERATION_DEPENDENCE_ARE_NOT_CLOSED",
+      "data_action_rights_check": "PARTIAL_PASS_THE_100_PERCENT_EQUITY_IS_LEGALLY_TRANSFERABLE_BUT_ACTUAL_CONTROL_CHANGE_IS_LENDER_CONDITIONED_AND_NOT_EXECUTED",
+      "normalized_margin_check": "PARTIAL_PASS_PRE_TRANSFER_AUDITED_PROFIT_AND_OPERATING_CASHFLOW_ARE_POSITIVE_BUT_POST_TRANSFER_FINANCING_SUBSIDY_AND_REPLACEMENT_OPERATION_COSTS_ARE_NOT_CLOSED",
+      "machine_delegatability_check": "PARTIAL_TO_FAIL_LOW_INTERNAL_HEADCOUNT_IS_REAL_BUT_PHYSICAL_PLANT_MAINTENANCE_GRID_AND_FINANCING_DEPENDENCIES_ARE_NOT_MACHINE_EXECUTABLE_END_TO_END",
+      "generic_agent_substitutability_check": "FAIL_FOR_ROUTING_DISTINCTIVENESS_THE_SCARCE_VALUE_IS_THE_CAPITAL_PROJECT_AND_ITS_REGULATED_GRID_FINANCE_POSITION_NOT_A_REUSABLE_AGENT_CONTROL_EDGE",
+      "verdict": "DEMOTED_AUDITED_POSITIVE_ZERO_EMPLOYEE_CASHFLOW_AND_FULL_TRANSFER_PATH_STILL_LACK_EXECUTED_CONTROL_POST_TRANSFER_CONTINUITY_AND_MACHINE_OPERATED_DISTINCT_CONTROL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_112-F2",
+      "title": "CHINA_QINGDAO_ONE_EMPLOYEE_HOTEL_PROPERTY_WRAPPER_WITH_AUDITED_PROFIT_AND_OUTSOURCED_OPERATION_BUT_REPEAT_UNEXECUTED_100_PERCENT_LISTING",
+      "discovery_route": "CURRENT_LOCAL_REPORTING_IDENTIFIES_ONE_LOW_HEADCOUNT_PROPERTY_COMPANY_WHOSE_HOTEL_IS_OVERALL_LEASED_TO_A_PROFESSIONAL_OPERATOR_WITH_REAL_POSITIVE_FINANCIALS_THEN_CURRENT_PUBLIC_EXCHANGE_DISCLOSURE_VALIDATES_THE_REPEAT_100_PERCENT_CONTROL_LISTING",
+      "observed_actor_state_change_evidence": [
+        "Qingdao local reporting states that Qingdao Zhongtian Hotel Co., Ltd.'s hotel property is leased as a whole to a professional hotel-management team for daily operation.",
+        "The same current reporting gives 2025 revenue of RMB2.8272 million and net profit RMB1.4513 million and states the first 2026 RMB100 million control-transfer listing expired without a buyer.",
+        "The September 2026 public-exchange packet relists 100% at RMB83.7811 million, reports one employee, and reports 2025 audited revenue RMB2.8272 million/net profit RMB1.4513 million plus 2026-H1 revenue RMB1.991 million/net profit RMB1.1762 million."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The company controls scarce Qingdao historic-core hotel real estate while daily hospitality operation is delegated to a professional team.",
+        "Low internal headcount and positive company-level profit therefore coexist with external human operations."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The owner has repeatedly attempted a 100% equity exit after the first listing failed to attract a buyer.",
+        "The operating model uses whole-property leasing/professional management rather than internal staff-heavy hotel delivery."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is genuine founder-light company-level operation but not proof of machine-delegatable value creation: the hotel service is performed by a professional human operating team.",
+        "The audited revenue packet does not disclose whether company revenue is primarily lease income, hotel-operating receipts or another mix, so end-customer cashflow must not be inferred.",
+        "The first transfer round failed and the current lower-price 100% listing remains an offer rather than an executed control change.",
+        "The dominant scarcity is capital-intensive urban real estate and location, not a reusable operator routing/data/control asset."
+      ],
+      "economic_signal": [
+        "2025 audited revenue RMB2.8272 million and net profit RMB1.4513 million.",
+        "2026-H1 revenue RMB1.991 million and net profit RMB1.1762 million.",
+        "Current 100% listing price RMB83.7811 million after an earlier RMB100 million listing did not transact."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The company controls the property while a professional hotel team controls recurring hospitality execution.",
+        "A buyer would acquire scarce real estate/control, but the current packet does not establish an independently compounding distribution or data edge.",
+        "Capital ownership and outsourced human service, rather than machine routing, explain the low internal headcount."
+      ],
+      "executed_control_transfer_check": "FAIL_THE_CURRENT_100_PERCENT_LISTING_IS_UNEXECUTED_AND_LOCAL_REPORTING_STATES_THE_EARLIER_2026_LISTING_EXPIRED_WITHOUT_A_BUYER",
+      "post_transfer_external_economic_continuity_check": "UNKNOWN_POSITIVE_PRE_TRANSFER_COMPANY_REVENUE_AND_PROFIT_EXIST_BUT_THERE_IS_NO_COMPLETED_TRANSFER_OR_POST_TRANSFER_PERIOD",
+      "fresh_small_operator_entry_check": "FAIL_TO_CLOSE_ONE_EMPLOYEE_DOES_NOT_OFFSET_THE_RMB83M_CONTROL_PRICE_AND_REAL_ESTATE_CAPITAL_INTENSITY",
+      "same_operator_economic_binding_check": "PASS_AUDITED_REVENUE_PROFIT_ASSETS_LIABILITIES_HEADCOUNT_AND_CURRENT_100_PERCENT_TRANSFER_OFFER_BIND_TO_THE_SAME_ENTITY",
+      "direct_operating_cost_check": "PARTIAL_PASS_NET_PROFIT_IS_AUDITED_BUT_THE_PUBLIC_PACKET_DOES_NOT_EXPOSE_COMPLETE_PROPERTY_AND_OUTSOURCED_OPERATOR_COSTS_OR_REVENUE_COMPOSITION",
+      "owner_labor_check": "PARTIAL_PASS_ONE_INTERNAL_EMPLOYEE_AND_EXTERNAL_PROFESSIONAL_MANAGEMENT_SHOW_LOW_OWNER_DELIVERY_BUT_REPLACEMENT_SERVICE_COST_IS_NOT_ITEMIZED",
+      "founder_independence_check": "PARTIAL_PASS_OPERATION_IS_NOT_PERSONALLY_DEPENDENT_ON_THE_SELLING_OWNER_BUT_IT_REMAINS_DEPENDENT_ON_OUTSOURCED_HUMAN_HOSPITALITY_DELIVERY",
+      "data_action_rights_check": "PARTIAL_PASS_THE_PROPERTY_AND_100_PERCENT_EQUITY_POSITION_ARE_DEFINED_BUT_CONTROL_TRANSFER_HAS_NOT_COMPLETED",
+      "normalized_margin_check": "PARTIAL_PASS_AUDITED_PROFIT_IS_POSITIVE_BUT_THE_YIELD_IS_NOT_NORMALIZED_FOR_THE_RMB83M_ACQUISITION_PRICE_REPLACEMENT_MANAGEMENT_COST_AND_PROPERTY_CAPITAL",
+      "machine_delegatability_check": "FAIL_LOW_INTERNAL_HEADCOUNT_COMES_FROM_LEASING_OR_OUTSOURCED_PROFESSIONAL_HOTEL_OPERATION_NOT_MACHINE_EXECUTABLE_DELIVERY",
+      "generic_agent_substitutability_check": "FAIL_FOR_ROUTING_DISTINCTIVENESS_THE_SCARCE_ASSET_IS_LOCATION_AND_REAL_ESTATE_NOT_A_REUSABLE_MACHINE_DECISION_OR_TRANSACTION_EDGE",
+      "verdict": "DEMOTED_LOW_HEADCOUNT_POSITIVE_PROFIT_AND_OUTSOURCED_OPERATION_STILL_REDUCE_TO_CAPITAL_PROPERTY_YIELD_WITH_NO_EXECUTED_CONTROL_CHANGE_OR_MACHINE_DELIVERY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_112-F3",
+      "title": "CHINA_YONGTAI_SIX_EMPLOYEE_WASTEWATER_CONCESSION_WITH_AUDITED_POSITIVE_ECONOMICS_AND_GOVERNMENT_APPROVED_RIGHTS_CONTINUITY_BUT_UNEXECUTED_TRANSFER",
+      "discovery_route": "CURRENT_OPERATOR_PROCUREMENT_CONFIRMS_A_LIVE_WASTEWATER_PLANT_AND_CURRENT_PUBLIC_EXCHANGE_DISCLOSURE_BINDS_ITS_AUDITED_POSITIVE_FINANCIALS_SIX_EMPLOYEE_HEADCOUNT_100_PERCENT_TRANSFER_PATH_AND_GOVERNMENT_APPROVED_CONCESSION_CONTINUITY",
+      "observed_actor_state_change_evidence": [
+        "A current 2026 operator procurement notice identifies Yongtai County Guozhen Water Treatment Co., Ltd. as the operator of a 10,000-ton-per-day township wastewater-treatment plant and purchases one year of monitoring/testing service.",
+        "The September 2026 public-exchange packet offers 100% of the same company, reports six employees, 2025 audited revenue RMB3.2024 million and net profit RMB57,600, and 2026 through August revenue RMB2.132 million and net profit RMB285,200.",
+        "The transfer packet states the project concession runs through October 2043 and cites the local housing authority's written consent to the 100% equity transfer."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The company holds a long-duration municipal wastewater concession that remains with the company after a completed equity transfer.",
+        "The transfer price is RMB6.6616 million, but the buyer must also accept substantial related-party debt and guarantee concession-performance obligations."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The live operator externally procures specialized monitoring/testing while retaining only six employees, showing some bounded delegation of technical functions.",
+        "The sellers are attempting a complete control exit with explicit government-approved rights continuity rather than a minority investment."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "Rights continuity is unusually strong: the public packet says the company remains the concession-performance entity after transfer and the buyer must guarantee the concession obligations.",
+        "The transaction is nevertheless only a current listing; no completed control transfer or post-transfer operating period exists as of 2026-09-22.",
+        "Wastewater treatment remains physical, regulated infrastructure with staff, plant operation, testing, maintenance and compliance obligations; outsourcing one testing function does not make delivery machine-native.",
+        "The buyer must address approximately RMB17.3791 million of debt to the sellers/affiliates within one year, so the small headline equity price understates control-capital burden."
+      ],
+      "economic_signal": [
+        "2025 audited revenue RMB3.2024 million and net profit RMB57,600.",
+        "2026 through August revenue RMB2.132 million and net profit RMB285,200.",
+        "100% listing price RMB6.6616 million plus disclosed related-party debt of approximately RMB17.3791 million."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The decisive control asset is a municipal concession and physical plant, with government and regulatory obligations embedded in the control position.",
+        "The concession survives the contemplated equity transfer, but the buyer must guarantee performance and continue employee obligations.",
+        "No separate machine-owned customer acquisition/routing/data control surface is evidenced."
+      ],
+      "executed_control_transfer_check": "FAIL_GOVERNMENT_CONSENT_AND_100_PERCENT_TRANSFER_TERMS_ARE_EXPLICIT_BUT_THE_CURRENT_LISTING_HAS_NOT_COMPLETED",
+      "post_transfer_external_economic_continuity_check": "UNKNOWN_PRE_TRANSFER_AUDITED_AND_CURRENT_REVENUE_ARE_POSITIVE_BUT_NO_POST_TRANSFER_PERIOD_EXISTS",
+      "fresh_small_operator_entry_check": "PARTIAL_TO_FAIL_SIX_EMPLOYEES_AND_A_RMB6_66M_EQUITY_PRICE_APPEAR_SMALLER_THAN_PRIOR_INFRASTRUCTURE_CASES_BUT_RMB17_38M_RELATED_DEBT_AND_CONCESSION_GUARANTEES_MATERIALLY_EXPAND_THE_CONTROL_BURDEN",
+      "same_operator_economic_binding_check": "PASS_HEADCOUNT_AUDITED_REVENUE_PROFIT_CONCESSION_RIGHTS_DEBT_AND_100_PERCENT_TRANSFER_TERMS_BIND_TO_THE_SAME_ENTITY",
+      "direct_operating_cost_check": "PARTIAL_PASS_AUDITED_NET_PROFIT_EXISTS_AND_EXTERNAL_MONITORING_IS_OBSERVED_BUT_COMPLETE_PLANT_LABOR_ENERGY_MAINTENANCE_AND_COMPLIANCE_COSTS_ARE_NOT_PUBLISHED",
+      "owner_labor_check": "PARTIAL_PASS_SIX_EMPLOYEES_AND_EXTERNAL_TESTING_SHOW_BOUNDED_INTERNAL_LABOR_BUT_FULL_REPLACEMENT_OPERATION_AND_MANAGEMENT_COST_IS_NOT_CLOSED",
+      "founder_independence_check": "PARTIAL_PASS_THE_CONCESSION_IS_ENTITY_BASED_NOT_PERSONAL_FOUNDER_BASED_BUT_OPERATION_DEPENDS_ON_A_PHYSICAL_REGULATED_SERVICE_ORGANIZATION",
+      "data_action_rights_check": "PASS_FOR_DEFINED_CONCESSION_CONTINUITY_IF_THE_TRANSFER_COMPLETES_BUT_FAIL_FOR_EXECUTION_BECAUSE_CURRENT_CONTROL_CHANGE_IS_NOT_YET_REALIZED",
+      "normalized_margin_check": "PARTIAL_TO_FAIL_POSITIVE_REPORTED_PROFIT_EXISTS_BUT_FULL_CONTROL_ECONOMICS_MUST_INCLUDE_RELATED_DEBT_CONCESSION_GUARANTEES_AND_REPLACEMENT_OPERATION_COST",
+      "machine_delegatability_check": "FAIL_WASTEWATER_TREATMENT_REQUIRES_PHYSICAL_PLANT_OPERATION_MONITORING_MAINTENANCE_SAFETY_AND_REGULATORY_COMPLIANCE",
+      "generic_agent_substitutability_check": "FAIL_FOR_ROUTING_DISTINCTIVENESS_THE_SCARCE_VALUE_IS_THE_REGULATED_CONCESSION_AND_PHYSICAL_INFRASTRUCTURE_NOT_A_REUSABLE_AGENT_CONTROL_EDGE",
+      "verdict": "DEMOTED_STRONG_RIGHTS_CONTINUITY_AND_POSITIVE_AUDITED_ECONOMICS_STILL_LACK_EXECUTED_CONTROL_AND_REMAIN_PHYSICAL_REGULATED_CAPITAL_DELIVERY"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_2026_FOSHAN_SANSHUI_WATER_TREATMENT_EQUITY_TRANSFER_WITH_STRONG_AUDITED_PROFIT",
+      "excluded_reason": "EXCLUDED_FROM_PRIMARY_FORMATIONS_BECAUSE_IT_REPEATS_THE_PHYSICAL_WATER_INFRASTRUCTURE_CONTROL_SHAPE_ALREADY_TESTED_BY_SCAN112_F3_WITHOUT_ADDING_EXECUTED_TRANSFER_EVIDENCE"
+    },
+    {
+      "observation": "CURRENT_2026_GUANGXI_GAS_DISTRIBUTION_EQUITY_LISTING_WITH_LOW_HEADCOUNT_AND_AUDITED_REVENUE",
+      "excluded_reason": "EXCLUDED_BECAUSE_CURRENT_PERIOD_ECONOMICS_TURN_NEGATIVE_AND_GROUP_QUALIFICATION_OR_FRANCHISE_DEPENDENCE_WEAKENS_RIGHTS_CONTINUITY_WHILE_NO_EXECUTED_TRANSFER_IS_EVIDENCED"
+    },
+    {
+      "observation": "CURRENT_2026_OTHER_SOLAR_SPV_TRANSFER_LISTINGS_WITH_AUDITED_POSITIVE_REVENUE",
+      "excluded_reason": "EXCLUDED_TO_AVOID_DUPLICATING_SCAN112_F1S_CAPITAL_PROJECT_GRID_FINANCE_AND_UNEXECUTED_TRANSFER_FAILURE_MODE"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "low_headcount_machine_light_executed_control_priority_used": true,
+    "same_operator_and_control_position_binding_required": true,
+    "executed_control_change_required": true,
+    "received_customer_revenue_required": true,
+    "direct_operating_costs_required": true,
+    "owner_shadow_wage_or_replacement_cost_required": true,
+    "rights_closure_required": true,
+    "realized_or_bounded_exit_value_required_for_normalization": true,
+    "fresh_small_operator_entry_required": true,
+    "founder_light_operation_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_ZERO_EMPLOYEE_SOLAR_OPERATING_SPV_ONE_EMPLOYEE_OUTSOURCED_HOTEL_PROPERTY_WRAPPER_AND_SIX_EMPLOYEE_MUNICIPAL_WASTEWATER_CONCESSION_TEST_DISTINCT_ENERGY_PROPERTY_AND_UTILITY_CONTROL_SHAPES",
+    "observed_indexing_bias": "CURRENT_PUBLIC_AUDIT_AND_CONTROL_TRANSFER_EVIDENCE_CAN_BIND_LOW_HEADCOUNT_POSITIVE_FINANCIALS_AND_RIGHTS_PATHS_BUT_THE_STRONGEST_CASES_CLUSTER_IN_CAPITAL_HEAVY_PROJECT_PROPERTY_OR_CONCESSION_WRAPPERS_AND_CURRENT_LISTINGS_RATHER_THAN_EXECUTED_SMALL_OPERATOR_MACHINE_CONTROL_TRANSFERS",
+    "response": "KEEP_ALL_HARD_FLOORS_AND_FOR_SCAN113_REQUIRE_A_COMPLETED_CONTROLLING_TRANSFER_PLUS_INDEPENDENT_POST_TRANSFER_POSITIVE_CASHFLOW_CONTINUITY_WHILE_SEPARATING_MACHINE_OPERATED_CONTROL_FROM_LAND_PLANT_GRID_CONCESSION_OR_OUTSOURCED_HUMAN_ASSET_YIELD",
+    "participant_behavior_over_analyst_story": "PASS_F1_USES_AUDITED_LISTED_COMPANY_FINANCIALS_AND_CREDITOR_CONTROL_CHANGE_CONDITION_F2_USES_REAL_PROFESSIONAL_LEASE_OPERATION_AND_A_FAILED_PRIOR_LISTING_F3_USES_LIVE_PLANT_PROCUREMENT_GOVERNMENT_CONCESSION_CONSENT_AND_CURRENT_AUDITED_FINANCIALS",
+    "transfer_market_used_only_as_control_validation": "PASS_PRIMARY_FORMATIONS_HAVE_INDEPENDENT_CURRENT_OPERATING_OR_CORPORATE_EVIDENCE_AND_PUBLIC_EXCHANGE_PAGES_ARE_USED_TO_VALIDATE_CONTROL_RIGHTS_TERMS_AND_EXECUTION_STATUS_NOT_AS_THE_WORLD_MODEL"
+  },
+  "scan_learnings": [
+    "SCAN112_LOW_HEADCOUNT_MACHINE_LIGHT_EXECUTED_CONTROL_PRIORITY_PASS_ZERO_RETENTION_ACROSS_ZERO_EMPLOYEE_SOLAR_ONE_EMPLOYEE_OUTSOURCED_HOTEL_PROPERTY_AND_SIX_EMPLOYEE_WASTEWATER_CONCESSION",
+    "LOW_HEADCOUNT_PLUS_AUDITED_POSITIVE_REVENUE_AND_PROFIT_PLUS_A_DEFINED_100_PERCENT_TRANSFER_PATH_CAN_COEXIST_IN_CURRENT_REALITY",
+    "LISTING_APPROVAL_TRANSFERABILITY_AND_GOVERNMENT_CONSENT_DO_NOT_EQUAL_EXECUTED_CONTROL_CHANGE_OR_POST_TRANSFER_ECONOMIC_CONTINUITY",
+    "ZERO_OR_ONE_INTERNAL_EMPLOYEE_DOES_NOT_PROVE_MACHINE_DELEGATABILITY_WHEN_PHYSICAL_O_AND_M_PROFESSIONAL_HOSPITALITY_MANAGEMENT_GRID_FINANCE_OR_REGULATED_SERVICE_DELIVERY_SITS_OUTSIDE_THE_ENTITY_HEADCOUNT",
+    "CURRENT_LOW_HEADCOUNT_POSITIVE_CASHFLOW_CONTROL_PACKETS_CLUSTER_IN_CAPITAL_ASSET_OR_CONCESSION_YIELD_WHERE_SCARCITY_COMES_FROM_LAND_PLANT_GRID_FINANCE_OR_REGULATORY_RIGHTS_NOT_A_REUSABLE_MACHINE_ROUTING_EDGE",
+    "THE_NEXT_RETRIEVAL_PRIORITY_SHOULD_REQUIRE_A_COMPLETED_CONTROLLING_TRANSFER_AND_INDEPENDENT_POST_TRANSFER_POSITIVE_CASHFLOW_CONTINUITY_BEFORE_SPENDING_DEEP_ATTENTION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_113",
+  "next_search_boundary": "SEVENTH_INDEPENDENT_VERIFIED_NET_CASHFLOW_CONTROL_PASS_WITH_EXECUTED_CONTROL_PLUS_POST_TRANSFER_CASHFLOW_PRIORITY_REQUIRE_SAME_ENTITY_SAME_CONTROLLING_POSITION_PRE_AND_POST_TRANSFER_AUDITED_OR_INDEPENDENT_POST_TRANSFER_POSITIVE_EXTERNAL_CUSTOMER_REVENUE_AND_POSITIVE_NORMALIZED_CASHFLOW_LOW_OWNER_LABOR_OR_EXPLICIT_REPLACEMENT_COST_COMPLETED_CONTROLLING_EQUITY_ASSET_LICENSE_OR_CONTRACT_TRANSFER_RIGHTS_CONTINUITY_REALIZED_TRANSFER_PRICE_AND_BOUNDED_CAPITAL_REQUIRE_VALUE_NOT_PRIMARILY_LAND_PLANT_GRID_CONCESSION_OR_OUTSOURCED_HUMAN_DELIVERY_REQUIRE_NONCOMMODITY_CONTROL_FOUNDER_LIGHT_MACHINE_DELEGATABLE_DELIVERY_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_112_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN112_WITH_EXACT_HEAD_CI_JEV_THEN_START_SCAN113_EXECUTED_CONTROL_PLUS_POST_TRANSFER_CASHFLOW_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://static.cninfo.com.cn/finalpage/2026-06-06/1225355371.PDF",
+    "https://ggzyfw.beijing.gov.cn/jyxxgqgpplxx/20260826/5686088.html",
+    "https://finance.qingdaonews.com/content/2026-05/29/content_23737044.htm",
+    "https://finance.qingdaonews.com/wap/2026-08/17/content_23751488.htm",
+    "https://ggzyfw.beijing.gov.cn/jyxxgqgpplxx/20260903/5697695.html",
+    "https://new.ebidding.cecep.cn/cgxx/013002/013002001/20260815/eb6cc682-501b-442d-9656-c64eee052017.html",
+    "https://ggzyfw.beijing.gov.cn/jyxxgqgpplxx/20260921/5722516.html"
+  ],
+  "validation_checkpoint": {
+    "policy": "EXACT_FINAL_PR_HEAD_CI_PLUS_LIVE_TYPESAFE_JEV_REQUIRED_BEFORE_CONTINUATION",
+    "superseded_pr": 410,
+    "superseded_reason": "FINAL_HEAD_DID_NOT_RECEIVE_EXACT_HEAD_WORKFLOW_RUNS"
+  }
+}
