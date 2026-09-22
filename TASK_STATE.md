@@ -14,29 +14,29 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_116` is complete with zero retained formations. The scan used standalone public target ledgers to bind control state, post-control economics, current FTE and operating asset footprint. Jiuheng New-data closes the prior visibility gap with positive revenue, positive net profit, explicit positive OCF, current FTE and a low current asset base in one post-control entity, but 28 of 37 employees are technical and the business remains project-delivery dependent. Scan 117 should now prioritize intrinsically low-current-labor targets rather than merely better-disclosed targets.
+Discovery: `ATTRACTION_SCAN_116` is complete and exactly validated with zero retained formations. `ATTRACTION_SCAN_117` is now active and prioritizes completed-control targets with clean post-control positive revenue/profit/explicit OCF, disclosed intrinsically low current FTE, no project/field/manufacturing/after-sales delivery engine, bounded operating capital and a control surface reproducible by a fresh independent operator.
 
 ## Current Phase
 
-`SCAN_116_PR_VALIDATION_PENDING`
+`SCAN_117_RESEARCH`
 
 ## Last Verified Main
 
-`bf6f5f2279342bd901850be22bd85950558c7054`
-— squash merge of PR #414, `Run target-ledger labor-capital Scan 115`.
+`b8edb6a341a91059b101e515acbb7d83069d124f`
+— squash merge of PR #416, `Run standalone-ledger labor closure Scan 116`.
 
-PR #414 final head `8f604091b9b4ca99c17f588c7352768033c45344`:
-- repository CI `35753211518`: success;
-- live TypeSafe/Jev `35753211437`: success;
-- live-shadow job `106832431473`: success;
-- advisory artifact `10707451239`;
+PR #416 final head `e1ac3f32f52460e716730940b7334c4144caf632`:
+- repository CI `35755804252`: success;
+- live TypeSafe/Jev `35755804242`: success;
+- live-shadow job `106841229324`: success;
+- advisory artifact `10708165886`;
 - 3/3 model and effective route `NO_FURTHER_RESEARCH`;
 - 3/3 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That directive was consumed before Scan 116 research began.
+That exact-head directive was consumed to start Scan 117.
 
 ## Active Issue
 
@@ -44,17 +44,17 @@ That directive was consumed before Scan 116 research began.
 
 ## Active Branch
 
-`research/attraction-scan-116`
+`research/attraction-scan-117`
 
 ## Active PR
 
-None at this checkpoint. The Scan 116 branch content is final for PR validation. Open exactly one PR from this head and do not make branch commits after PR creation.
+None. Scan 117 research is in progress. Open exactly one PR only after the Scan 117 branch head is final, then do not make branch commits after PR creation.
 
 ## CI
 
-PR #415 head `5fb92498a18049ed89c06e12a1b2a793be0e9aed` was closed after repository CI `35755655343` failed only because the checkpoint rewrite omitted the recovery-contract-required `## Goal` heading. The research tests and remaining repository suite did not expose a research-logic failure; the heading is restored on the replacement head. The old PR head is superseded and must not be merged or used for continuation.
+Scan 116 exact-head validation is complete and was consumed. PR #415 is superseded/closed and its failed head must not be reused. No Scan 117 PR validation exists yet because Scan 117 research has not been persisted to a final branch head.
 
-Consume a Scan 116 continuation directive only from the replacement exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
+Consume a Scan 117 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
 
 ## Parallel Validation
 
@@ -92,7 +92,9 @@ Machine state:
 - Feitian: controller changed through a RMB2.0m upstream holding-company acquisition, but 2025 annual economics straddle the control date; the mixed period is not promoted to post-control evidence. Year-end target assets were RMB40.5331m, so low upstream transaction price is not treated as low target operating capital.
 - Retained zero formations and promoted zero commercial candidates.
 - Advanced durable discovery state to Scan 117.
-- Closed superseded PR #415 after its exact-head CI exposed the missing required `## Goal` recovery-contract heading; restored that heading before creating the replacement PR.
+- Closed superseded PR #415 after its exact-head CI exposed the missing required `## Goal` recovery-contract heading; restored that heading before creating replacement PR #416.
+- PR #416 exact-head repository CI and live TypeSafe/Jev both succeeded; Jev returned 3/3 `NO_FURTHER_RESEARCH`, 3/3 aligned with authoritative closure, and `ADVANCE_TO_NEXT_SCAN`.
+- Merged PR #416 as `b8edb6a341a91059b101e515acbb7d83069d124f` and started `research/attraction-scan-117` from that exact main state.
 
 ## Current Findings
 
@@ -145,12 +147,12 @@ Validation:
 - Scan 015-F1 still needs a real official written provider response/agreement and founder-free inbound proof.
 
 Discovery:
-- Scan 116 research itself is complete;
-- the branch now needs exact-final-head repository CI plus live TypeSafe/Jev validation;
-- do not start Scan 117 until that exact-head continuation directive permits it.
+- Scan 116 research and exact-head PR validation are complete;
+- Scan 117 is actively testing the intrinsically-low-current-labor boundary on fresh formations.
 
 Engineering:
-- no current TypeSafe/Jev integration blocker.
+- no current TypeSafe/Jev integration blocker;
+- Scan 117 must not be opened as a PR until its branch head is final.
 
 ## Do Not Repeat
 
@@ -197,4 +199,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open one replacement PR from the corrected final Scan 116 branch head. Do not commit after opening it. Validate that exact replacement head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are terminal and acceptable.
+Execute Scan 117 on fresh formations that satisfy or directly test the intrinsically-low-current-FTE clean-post-control-ledger boundary. Persist the result, state and regression test before opening the final PR.
