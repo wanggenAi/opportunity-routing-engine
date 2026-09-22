@@ -41,13 +41,13 @@ PR #389 final head `9066023c43adfefbd35a7dfa5dda75de826c239d`:
 
 ## Active PR
 
-None yet; Scan 092 artifacts are persisted on the work branch and ready for PR validation.
+#390 — `Complete second residual-cost pass in Scan 092`.
 
 ## CI
 
 - PR #389 final-head repository CI `35699687141`: success.
 - PR #389 live Jev `35699687114`: success; `ADVANCE_TO_NEXT_SCAN`.
-- Scan 092 PR not yet opened.
+- PR #390 opened for Scan 092; final-head repository CI and live Jev pending.
 
 ## Latest Artifact / Persisted State
 
@@ -142,7 +142,7 @@ Validation:
 
 Engineering:
 - no Jev integration blocker;
-- Scan 092 PR still needs final-head repository CI and live Jev.
+- PR #390 still needs final-head repository CI and live Jev.
 
 Discovery:
 - Scan 092 research is complete with zero retention;
