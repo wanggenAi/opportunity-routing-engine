@@ -1,0 +1,223 @@
+{
+  "schema_version": "attraction-scan.v94",
+  "scan_id": "ATTRACTION_SCAN_120",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FOURTEENTH_INDEPENDENT_CURRENT_LOW_FTE_POSITIVE_PROFIT_POSITIVE_OCF_FIRST_THEN_EXECUTED_CONTROL_PASS_REQUIRE_CURRENT_SAME_ENTITY_REPORT_AVAILABLE_REQUIRE_DIRECT_CURRENT_OR_LATEST_INTRINSICALLY_LOW_FTE_REQUIRE_POSITIVE_EXTERNAL_REVENUE_POSITIVE_NET_PROFIT_AND_UNAMBIGUOUS_POSITIVE_OPERATING_CASHFLOW_BEFORE_CONTROL_DEEPENING_THEN_REQUIRE_COMPLETED_FRESH_OPERATOR_REPRODUCIBLE_CONTROL_BEFORE_REPORTING_PERIOD_REQUIRE_EXISTING_STANDARDIZED_REPEATABLE_NONPROJECT_REVENUE_NOT_CUSTOM_IMPLEMENTATION_OUTSOURCING_FIELD_WORK_MANUFACTURING_AFTER_SALES_OR_PENDING_INJECTION_REQUIRE_BOUNDED_CONTROL_CONSIDERATION_OPERATING_ASSETS_AND_WORKING_CAPITAL_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_119_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_120-F1",
+      "title": "CHINA_SHENZHEN_10_FTE_POSITIVE_PROFIT_POSITIVE_OCF_FRESH_35_PERCENT_CONTROL_WITH_PROJECT_CONSULTING_CONTROLLER_RESOURCE_AND_PHYSICAL_SUPPLY_CHAIN_DEPENDENCE",
+      "discovery_route": "CURRENT_10_FTE_2026_H1_POSITIVE_REVENUE_POSITIVE_ATTRIBUTABLE_NET_PROFIT_AND_POSITIVE_OCF_SURVIVES_THE_INVERTED_ECONOMIC_RETRIEVAL_GATE_THEN_REVERSE_CHECKS_THE_2024_FRESH_CONTROL_CHANGE_AND_CURRENT_DELIVERY_MODEL",
+      "observed_actor_state_change_evidence": [
+        "Tianlu Huaxin's 2024 annual report identifies Wen Xianguang as current controlling shareholder and actual controller with 35%.",
+        "A 2024-02-06 agreement transferred 6,058,500 shares, 35% of the company, from Ningbo Gaoxin Shenglin Investment Management to Wen Xianguang for RMB1.1511m.",
+        "Wen Xianguang started the year with zero shares and ended 2024 with 6,058,500 shares / 35%; the 2024 annual report therefore proves the control transfer was completed no later than 2024 year-end, before 2026 H1."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The current 2026 H1 report discloses 10 employees.",
+        "2026 H1 revenue is RMB3,045,201.52, attributable net profit RMB2,318,577.59 and operating cashflow RMB3,886,851.84.",
+        "Current total assets are about RMB15.525m, keeping the legal entity small enough to remain useful for a fresh-operator control test."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The disclosed model combines one-time project fees with annual consulting agreements rather than proving a self-serve recurring machine rail.",
+        "The business depends on business promotion, enterprise-management consulting and commercial services, with customer acquisition and project allocation performed through management/sales relationships.",
+        "The company has expanded into agricultural/supply-chain activity that explicitly uses controlling-shareholder/controller resource advantages and includes physical procurement."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is the first Scan 120 formation to pass current low-FTE, positive-revenue, positive-profit, positive-OCF and completed pre-period fresh-control gates together.",
+        "It still does not prove founder-light control cashflow because customer acquisition, project delivery and the newer supply-chain activity depend on human relationships, controller resources and physical operating flow.",
+        "The known RMB1.1511m share-transfer price is bounded, but current operating/working-capital needs cannot be reduced to that acquisition consideration once physical supply-chain activity is included."
+      ],
+      "economic_signal": [
+        "Current 2026 H1: 10 FTE; revenue RMB3,045,201.52; attributable net profit RMB2,318,577.59; OCF RMB3,886,851.84.",
+        "2024 fresh control: 6,058,500 shares / 35%; announced consideration RMB1.1511m; completed by 2024 year-end.",
+        "Current total assets about RMB15.525m."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Corporate control is fresh enough to test and economically bounded at the share-transfer layer.",
+        "The actual operating control surface is not a transferable software/data right: it is project consulting, management/sales acquisition, relationship allocation and a newer physical supply-chain activity.",
+        "Controller-resource integration is disclosed as a strategic operating input rather than being normalized away."
+      ],
+      "executed_control_transfer_check": "PASS_COMPLETED_BY_2024_YEAR_END_BEFORE_2026_H1_WEN_XIANGUANG_MOVED_FROM_ZERO_TO_35_PERCENT_CONTROL_AFTER_RMB1_1511M_AGREEMENT",
+      "post_transfer_external_economic_continuity_check": "PASS_CURRENT_2026_H1_REVENUE_RMB3_045_201_52_ATTRIBUTABLE_NET_PROFIT_RMB2_318_577_59_AND_OCF_RMB3_886_851_84_ARE_ALL_POSITIVE",
+      "fresh_small_operator_entry_check": "PARTIAL_PASS_SHARE_CONTROL_PRICE_RMB1_1511M_IS_BOUNDED_BUT_CURRENT_PHYSICAL_SUPPLY_CHAIN_ACTIVITY_ADDS_OPERATING_AND_WORKING_CAPITAL_REQUIREMENTS_BEYOND_SHARE_CONSIDERATION",
+      "same_operator_economic_binding_check": "PASS_2026_H1_REPORT_IDENTIFIES_WEN_XIANGUANG_AS_CURRENT_CONTROLLER_AND_BINDS_CURRENT_10_FTE_ECONOMICS_TO_THE_POST_2024_CONTROL_ENTITY",
+      "direct_operating_cost_check": "FAIL_PROJECT_CONSULTING_BUSINESS_PROMOTION_CUSTOMER_ACQUISITION_AND_PHYSICAL_AGRICULTURAL_SUPPLY_CHAIN_ACTIVITY_REMAIN_DIRECT_DELIVERY_INPUTS",
+      "owner_labor_check": "PASS_CURRENT_2026_H1_EMPLOYEE_COUNT_IS_10_AND_INTRINSICALLY_LOW",
+      "founder_independence_check": "FAIL_CURRENT_STRATEGY_EXPLICITLY_INTEGRATES_CONTROLLING_SHAREHOLDER_CONTROLLER_RESOURCES_AND_SALES_PROJECT_FLOW_REMAINS_RELATIONSHIP_DRIVEN",
+      "data_action_rights_check": "FAIL_TO_CLOSE_NO_SCARCE_TRANSFERABLE_DATA_OR_ACTION_RIGHT_IS_EVIDENCED_BEYOND_CORPORATE_CONTROL_AND_CUSTOMER_CONTRACTS",
+      "normalized_margin_check": "PARTIAL_PASS_CURRENT_PROFIT_AND_OCF_ARE_POSITIVE_BUT_PROJECT_MIX_CONTROLLER_RESOURCE_DEPENDENCE_AND_PHYSICAL_SUPPLY_CHAIN_WORKING_CAPITAL_PREVENT_FOUNDER_LIGHT_NORMALIZATION",
+      "machine_delegatability_check": "FAIL_PROJECT_CONSULTING_RELATIONSHIP_SALES_AND_PHYSICAL_SUPPLY_CHAIN_PROCUREMENT_ARE_NOT_A_PROVEN_MACHINE_ONLY_RECURRING_RAIL",
+      "generic_agent_substitutability_check": "FAIL_NO_NONCOMMODITY_MACHINE_CONTROL_ASSET_IS_PROVEN_AFTER_REMOVING_HUMAN_RELATIONSHIP_PROJECT_AND_CONTROLLER_RESOURCE_INPUTS",
+      "verdict": "DEMOTED_FIRST_FULL_CURRENT_ECONOMICS_AND_FRESH_CONTROL_SURVIVOR_STILL_FAILS_FOUNDER_LIGHT_PROJECT_RELATIONSHIP_CONTROLLER_RESOURCE_AND_PHYSICAL_SUPPLY_CHAIN_GATES"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_120-F2",
+      "title": "CHINA_BEIJING_12_FTE_POSITIVE_PROFIT_POSITIVE_OCF_INTERNET_AD_MEDIA_BUYING_WITH_LONGSTANDING_FOUNDER_FAMILY_CONTROL_NO_FRESH_OPERATOR_TRANSFER",
+      "discovery_route": "CURRENT_12_FTE_2026_H1_POSITIVE_REVENUE_POSITIVE_NET_PROFIT_AND_POSITIVE_OCF_SURVIVES_THE_INVERTED_ECONOMIC_GATE_THEN_CONTROL_HISTORY_IS_REVERSE_CHECKED_BEFORE_ANY_DEEP_SCARCITY_CLAIM",
+      "observed_actor_state_change_evidence": [
+        "The 2026 H1 report states that controllers Zhang Wei, Wang Jing and Zhang Zhiyong did not change during the period.",
+        "The same controller group is already present in the 2023 annual report.",
+        "Company history identifies Zhang Wei as general manager from 2009 and chairman/general manager from 2015, so the current packet is longstanding founder/family control rather than an evidenced fresh operator acquisition."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The 2026 H1 report directly discloses 12 employees.",
+        "2026 H1 revenue is RMB97,644,344.98, net profit RMB805,499.59 and operating cashflow RMB4,177,203.45.",
+        "Current total assets are about RMB101.439m and current equity about RMB83.916m."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The company provides internet advertising placement and optimization services.",
+        "Its delivery model buys advertising/media resources and resells/optimizes placement for advertisers.",
+        "The small team and positive cash generation are real, but current control was not acquired by a fresh operator in a reproducible transaction."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "Positive current economics and 12 FTE do not prove fresh-operator reproducibility.",
+        "The incumbent controller/family group predates the current evidence window by many years.",
+        "Media inventory/resource procurement and customer optimization remain contract/platform-dependent operating inputs even if headcount is low."
+      ],
+      "economic_signal": [
+        "Current 2026 H1: 12 FTE; revenue RMB97,644,344.98; net profit RMB805,499.59; OCF RMB4,177,203.45.",
+        "Current total assets about RMB101.439m.",
+        "Controller group remains Zhang Wei / Wang Jing / Zhang Zhiyong and is documented at least as far back as 2023, with Zhang Wei operating the company since 2009."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The current operating company is small-headcount and cash-positive.",
+        "No executed fresh-operator control transfer is evidenced; the relevant control position is a longstanding founder/family incumbent.",
+        "The economic surface is advertising-resource procurement/placement/optimization rather than a proven transferable machine-only right."
+      ],
+      "executed_control_transfer_check": "FAIL_NO_FRESH_OPERATOR_REPRODUCIBLE_CONTROL_TRANSFER_CURRENT_CONTROLLER_GROUP_IS_LONGSTANDING_AND_ZHANG_WEI_HAS_OPERATED_THE_COMPANY_SINCE_2009",
+      "post_transfer_external_economic_continuity_check": "NOT_APPLICABLE_NO_FRESH_POST_TRANSFER_WINDOW_EXISTS_DESPITE_CURRENT_2026_H1_POSITIVE_REVENUE_PROFIT_AND_OCF",
+      "fresh_small_operator_entry_check": "FAIL_NO_OBSERVED_FRESH_OPERATOR_ENTRY_PRICE_OR_COMPLETED_CONTROL_TRANSACTION_BINDS_THE_CURRENT_ECONOMICS",
+      "same_operator_economic_binding_check": "PASS_CURRENT_REPORT_BINDS_12_FTE_REVENUE_PROFIT_OCF_AND_CURRENT_CONTROLLER_GROUP_TO_HUAJIN_MEDIA_BUT_NOT_TO_A_NEWLY_ACQUIRED_OPERATOR",
+      "direct_operating_cost_check": "PARTIAL_TO_FAIL_MEDIA_RESOURCE_PURCHASE_AD_PLACEMENT_AND_OPTIMIZATION_REMAIN_EXTERNAL_PLATFORM_AND_CONTRACT_DELIVERY_INPUTS",
+      "owner_labor_check": "PASS_CURRENT_2026_H1_EMPLOYEE_COUNT_IS_12_AND_INTRINSICALLY_LOW",
+      "founder_independence_check": "FAIL_LONGSTANDING_FOUNDER_FAMILY_CONTROL_PREVENTS_EVIDENCE_OF_FOUNDER_FREE_REPRODUCIBILITY",
+      "data_action_rights_check": "PARTIAL_TO_UNKNOWN_AD_PLATFORM_MEDIA_AND_CUSTOMER_RIGHTS_ARE_CONTRACT_DEPENDENT_NOT_PROVEN_TRANSFERABLE_SCARCE_CONTROL",
+      "normalized_margin_check": "PARTIAL_PASS_CURRENT_NET_PROFIT_AND_OCF_ARE_POSITIVE_BUT_GROSS_SPREAD_IS_THIN_AND_FRESH_OPERATOR_NORMALIZATION_IS_UNAVAILABLE",
+      "machine_delegatability_check": "PARTIAL_TO_FAIL_AD_OPTIMIZATION_MAY_BE_SOFTWARE_ASSISTED_BUT_MEDIA_BUYING_AND_CUSTOMER_CONTRACT_RIGHTS_ARE_NOT_PROVEN_MACHINE_ONLY",
+      "generic_agent_substitutability_check": "NOT_REACHED_FRESH_OPERATOR_CONTROL_GATE_ALREADY_FAILS",
+      "verdict": "DEMOTED_CURRENT_12_FTE_POSITIVE_ECONOMICS_ARE_REAL_BUT_LONGSTANDING_FOUNDER_FAMILY_CONTROL_FAILS_FRESH_OPERATOR_REPRODUCIBILITY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_120-F3",
+      "title": "CHINA_HEILONGJIANG_8_FTE_POSITIVE_OCF_BUT_ZERO_EXTERNAL_REVENUE_NET_LOSS_NEGATIVE_EQUITY_AND_FINANCIAL_ASSET_HEAVY_SHELL",
+      "discovery_route": "CURRENT_8_FTE_AND_POSITIVE_OCF_TRIGGER_A_FALSE_POSITIVE_CHECK_BUT_THE_INVERTED_GATE_REQUIRES_SAME_PERIOD_EXTERNAL_REVENUE_AND_POSITIVE_NET_PROFIT_BEFORE_CONTROL_RESEARCH",
+      "observed_actor_state_change_evidence": [
+        "The current report provides a reliable current 2026 H1 ledger and directly discloses 8 employees.",
+        "No control-history deepening is required because current external revenue and net-profit gates fail first.",
+        "The company remains in restructuring/reorientation context rather than showing a normal current operating revenue engine."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "2026 H1 employee count is 8.",
+        "Current total assets are RMB54,386,304.66, of which trading financial assets are RMB49,286,555.35.",
+        "Current net assets attributable to shareholders are negative RMB3,801,975.52."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "2026 H1 operating cashflow is positive RMB288,498.70.",
+        "Current operating revenue is exactly RMB0.",
+        "Attributable net profit is negative RMB749,371.86; consolidated net profit shown in the income statement is also negative."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "Positive OCF alone is not an operating-business pass when same-period external revenue is zero and profit is negative.",
+        "The asset base is overwhelmingly trading financial assets rather than a current external customer revenue rail.",
+        "Eight employees and positive OCF therefore form a useful false-positive control for the inverted retrieval sequence."
+      ],
+      "economic_signal": [
+        "Current 2026 H1: 8 FTE; external revenue RMB0; attributable net loss RMB749,371.86; OCF positive RMB288,498.70.",
+        "Trading financial assets RMB49,286,555.35 versus total assets RMB54,386,304.66.",
+        "Attributed net assets negative RMB3,801,975.52."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The economic early gate stops before control history.",
+        "Positive OCF is not treated as proof of customer cashflow because external revenue is zero.",
+        "Financial-asset liquidity is not relabeled as a commercial machine-control surface."
+      ],
+      "executed_control_transfer_check": "NOT_REACHED_CURRENT_EXTERNAL_REVENUE_AND_POSITIVE_NET_PROFIT_EARLY_GATES_FAIL",
+      "post_transfer_external_economic_continuity_check": "FAIL_CURRENT_2026_H1_EXTERNAL_REVENUE_IS_ZERO_AND_ATTRIBUTABLE_NET_PROFIT_IS_NEGATIVE_RMB749371_86_DESPITE_POSITIVE_OCF_RMB288498_70",
+      "fresh_small_operator_entry_check": "NOT_REACHED_CURRENT_OPERATING_ECONOMICS_FAIL_BEFORE_CONTROL_DEEPENING",
+      "same_operator_economic_binding_check": "PASS_CURRENT_REPORT_BINDS_8_FTE_ZERO_REVENUE_NET_LOSS_POSITIVE_OCF_AND_FINANCIAL_ASSET_HEAVY_BALANCE_SHEET_TO_JIAMUSI_JINDI_PAPER",
+      "direct_operating_cost_check": "FAIL_TO_PROMOTE_NO_CURRENT_EXTERNAL_OPERATING_REVENUE_ENGINE_EXISTS_TO_NORMALIZE",
+      "owner_labor_check": "PASS_CURRENT_2026_H1_EMPLOYEE_COUNT_IS_8_AND_INTRINSICALLY_LOW",
+      "founder_independence_check": "NOT_REACHED_ZERO_REVENUE_AND_NET_LOSS_FAIL_EARLIER",
+      "data_action_rights_check": "NOT_REACHED_NO_CURRENT_EXTERNAL_REVENUE_CONTROL_SURFACE_TO_TEST",
+      "normalized_margin_check": "FAIL_ZERO_REVENUE_NEGATIVE_NET_PROFIT_NEGATIVE_EQUITY_AND_FINANCIAL_ASSET_DOMINANCE_OVERRULE_POSITIVE_OCF",
+      "machine_delegatability_check": "NOT_REACHED_NO_CURRENT_EXTERNAL_OPERATING_RAIL",
+      "generic_agent_substitutability_check": "NOT_REACHED_EARLY_ECONOMIC_GATE_ALREADY_FAILS",
+      "verdict": "DEMOTED_8_FTE_POSITIVE_OCF_IS_A_FALSE_POSITIVE_WHEN_CURRENT_REVENUE_IS_ZERO_NET_PROFIT_NEGATIVE_AND_ASSETS_ARE_FINANCIAL_ASSET_HEAVY"
+    }
+  ],
+  "excluded_observations": [
+    "Scan 060-119 formations and their primary discovery signals were excluded from Scan 120 primary formation selection.",
+    "Renying Technology was not deepened because a timely reliable 2025 annual report was unavailable and disclosure delay had already triggered regulatory attention.",
+    "Zhengyang, Zhongshi Jiayao, Canyou Shanwu, Yuhuatang, PT Shuixian and other low-FTE current-report observations were stopped at negative current profit or negative OCF.",
+    "Huaxia 5 was not used as a primary formation because indexed current-report fields were internally inconsistent across pages; no favorable field was selected from the conflict.",
+    "No job, gig, RFQ, procurement or asset-marketplace feed was used as the discovery ontology."
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "retrieval_order_inverted_to_current_economics_first": true,
+    "current_same_entity_report_required": true,
+    "direct_current_or_latest_intrinsically_low_fte_required": true,
+    "positive_external_revenue_required": true,
+    "positive_net_profit_required": true,
+    "explicit_positive_operating_cashflow_required": true,
+    "unambiguous_positive_ocf_reconciliation_required": true,
+    "control_history_deepened_only_after_current_economics_pass": true,
+    "completed_control_before_reporting_period_required": true,
+    "fresh_operator_reproducibility_required": true,
+    "existing_repeatable_nonproject_revenue_required": true,
+    "project_consulting_outsourcing_field_media_buying_manufacturing_after_sales_excluded_from_pass": true,
+    "total_usable_capital_including_working_capital_required": true,
+    "signed_or_incumbent_control_not_relabelled_as_fresh_transfer": true,
+    "positive_ocf_without_external_revenue_not_treated_as_commercial_cashflow": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_FRESH_CONTROL_POSITIVE_ECONOMICS_PROJECT_CONSULTING_VS_LONGSTANDING_FOUNDER_MEDIA_POSITIVE_ECONOMICS_VS_8_FTE_ZERO_REVENUE_POSITIVE_OCF_FALSE_POSITIVE",
+    "observed_indexing_bias": "CURRENT_LOW_FTE_REPORTS_CAN_SURFACE_TRUE_POSITIVE_ECONOMICS_FASTER_THAN_ACQUISITION_FIRST_SEARCH_BUT_FRESH_CONTROL_AND_DELIVERY_INDEPENDENCE_REMAIN_RARE",
+    "response": "SCAN121_REPEAT_THE_CURRENT_ECONOMICS_FIRST_RETRIEVAL_ORDER_ON_FRESH_FORMATION_DIVERSE_CASES_BEFORE_ANY_FURTHER_BOUNDARY_CHANGE",
+    "participant_behavior_over_analyst_story": "PASS_F1_BINDS_CURRENT_FINANCIALS_AND_COMPLETED_CONTROL_F2_BINDS_CURRENT_FINANCIALS_AND_LONGSTANDING_INCUMBENT_CONTROL_F3_BINDS_CURRENT_ZERO_REVENUE_LOSS_AND_POSITIVE_OCF_WITHOUT_CONTROL_DEEPENING"
+  },
+  "scan_learnings": [
+    "SCAN120_INVERTED_RETRIEVAL_ORDER_IS_PRODUCTIVE_IT_FOUND_A_10_FTE_ENTITY_WITH_POSITIVE_REVENUE_PROFIT_OCF_AND_COMPLETED_PRE_PERIOD_FRESH_CONTROL_BEFORE_DEEP_CONTROL_RESEARCH.",
+    "TIANLU_HUAXIN_IS_THE_NEAREST_SCAN120_FORMATION_BUT_PROJECT_CONSULTING_RELATIONSHIP_ACQUISITION_CONTROLLER_RESOURCE_DEPENDENCE_AND_PHYSICAL_SUPPLY_CHAIN_ACTIVITY_PREVENT_FOUNDER_LIGHT_PROMOTION.",
+    "CURRENT_LOW_FTE_POSITIVE_ECONOMICS_DO_NOT_IMPLY_FRESH_OPERATOR_REPRODUCIBILITY_HUAJIN_MEDIA_HAS_12_FTE_POSITIVE_PROFIT_POSITIVE_OCF_BUT_LONGSTANDING_FOUNDER_FAMILY_CONTROL.",
+    "POSITIVE_OCF_ALONE_IS_A_FALSE_POSITIVE_JIAZHI3_HAS_8_FTE_AND_POSITIVE_OCF_BUT_ZERO_CURRENT_EXTERNAL_REVENUE_NET_LOSS_NEGATIVE_EQUITY_AND_FINANCIAL_ASSET_DOMINANCE.",
+    "SCAN121_SHOULD_REPEAT_THE_INVERTED_RETRIEVAL_ORDER_ON_NEW_FORMATIONS_TO_TEST_DURABILITY_BEFORE_FURTHER_NARROWING_OR_ONTOLOGY_CHANGE."
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_121",
+  "next_search_boundary": "FIFTEENTH_INDEPENDENT_CURRENT_LOW_FTE_POSITIVE_PROFIT_POSITIVE_OCF_FIRST_THEN_EXECUTED_CONTROL_PASS_REPEAT_DURABILITY_REQUIRE_CURRENT_SAME_ENTITY_REPORT_AVAILABLE_REQUIRE_DIRECT_CURRENT_OR_LATEST_INTRINSICALLY_LOW_FTE_REQUIRE_POSITIVE_EXTERNAL_REVENUE_POSITIVE_NET_PROFIT_AND_UNAMBIGUOUS_POSITIVE_OPERATING_CASHFLOW_BEFORE_CONTROL_DEEPENING_THEN_REQUIRE_COMPLETED_FRESH_OPERATOR_REPRODUCIBLE_CONTROL_BEFORE_REPORTING_PERIOD_REQUIRE_EXISTING_STANDARDIZED_REPEATABLE_NONPROJECT_REVENUE_NOT_CUSTOM_IMPLEMENTATION_CONSULTING_OUTSOURCING_FIELD_WORK_MEDIA_BUYING_MANUFACTURING_AFTER_SALES_OR_PENDING_INJECTION_REQUIRE_BOUNDED_CONTROL_CONSIDERATION_OPERATING_ASSETS_AND_WORKING_CAPITAL_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_120_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "VALIDATE_SCAN120_WITH_EXACT_FINAL_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_REPEAT_THE_CURRENT_LOW_FTE_POSITIVE_PROFIT_POSITIVE_OCF_FIRST_RETRIEVAL_ORDER_IN_SCAN121_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://basic.10jqka.com.cn/831951/field.html",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202504251662227449",
+    "https://basic.10jqka.com.cn/831951/capital.html",
+    "https://basic.10jqka.com.cn/831951/company.html",
+    "https://basic.10jqka.com.cn/831951/operate.html",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608051827668420&pageIndex=4",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608051827668420&pageIndex=5",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608051827668420&pageIndex=6",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202404251631294684&pageIndex=1",
+    "https://basic.10jqka.com.cn/835570/company.html",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608211828257278&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608211828257278&pageIndex=4"
+  ]
+}
