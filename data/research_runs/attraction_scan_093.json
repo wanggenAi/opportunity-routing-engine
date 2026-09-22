@@ -1,0 +1,191 @@
+{
+  "schema_version": "attraction-scan.v69",
+  "scan_id": "ATTRACTION_SCAN_093",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_SOURCE_RESET_AFTER_TWO_RESIDUAL_SECOND_COST_PASSES_ACTOR_STATE_CHANGE_OBJECTIVE_ENDOWMENT_UNDERUSE_CONTRADICTION_AND_PARTIAL_FLOW_FIRST_WITHOUT_STARTING_FROM_EXISTING_PAID_PRODUCTS_COORDINATORS_OR_SECOND_COST_STACKS_FORMATION_DIVERSE_EXCLUDE_SCAN060_TO_092_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": true,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_093-F1",
+      "title": "PUBLIC_TLS_CERTIFICATE_LIFETIME_COMPRESSION_AND_MANUAL_RENEWAL_EXPOSURE",
+      "chinese_title": "公网 TLS 证书寿命压缩与人工续期暴露",
+      "evidence_class": "CURRENT_MACHINE_INFRASTRUCTURE_STATE_CHANGE_WITH_MULTIPLIED_RENEWAL_FREQUENCY_AND_EXISTING_AUTOMATION_CONTROL_PLANES",
+      "observed_actor_state_change_evidence": [
+        "CA/Browser Forum Baseline Requirements v2.3.0 cap public TLS subscriber certificate validity at 200 days for certificates issued from 15 March 2026 to 14 March 2027, then 100 days from 15 March 2027 and 47 days from 15 March 2029.",
+        "The same requirements reduce domain/IP validation reuse to 200 days now, 100 days from 2027 and 10 days from 2029, increasing validation as well as certificate-rotation frequency.",
+        "DigiCert states that public TLS certificates have had a 199-day maximum since 24 February 2026 and that shorter lifetimes increase renewal and reissuance frequency."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Organizations already own DNS, load balancers, web servers, cloud endpoints and certificate-authority relationships capable of supporting automated issuance, but the operational value of those assets is impaired when renewal/deployment remains manual.",
+        "Standardized protocols and APIs such as ACME make a large portion of issuance and renewal machine-executable when endpoint and DNS permissions are available."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "DigiCert explicitly positions API, ACME and managed automation as ways to reduce manual certificate work and service disruption under the shorter-lifetime regime.",
+        "Sectigo states that spreadsheet/manual tracking becomes increasingly risky as lifetimes shorten and sells CA-agnostic discovery, deployment and renewal automation."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The value flow already partially exists: certificate issuance is digital and standardized, while deployment and ownership are fragmented across infrastructure teams and endpoints.",
+        "The stronger 2026 workload signal does not imply an unowned edge because the same vendors and open protocols already automate discovery, issuance, renewal and deployment."
+      ],
+      "economic_signal": [
+        "The state change raises the operational cost of manual lifecycle management, but Scan 093 does not infer new willingness to pay merely from higher rotation frequency.",
+        "Current commercial spend is already captured by certificate authorities and mature certificate-lifecycle-management platforms."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "DigiCert Trust Lifecycle Manager and CertCentral automation cover issuance, renewal, replacement and deployment; API and ACME automation remain supported.",
+        "Sectigo Certificate Manager is CA-agnostic and automates discovery, deployment and renewal across servers and load balancers.",
+        "ACME plus cloud-native certificate managers provide lower-cost or native automation paths for many standard deployments."
+      ],
+      "founder_independence_check": "PASS_CERTIFICATE_DISCOVERY_POLICY_EVALUATION_ISSUANCE_RENEWAL_AND_DEPLOYMENT_CAN_BE_PRODUCTIZED_WITHOUT_FOUNDER_DELIVERY",
+      "data_action_rights_check": "PARTIAL_FAIL_AUTOMATION_REQUIRES_DNS_CA_ENDPOINT_LOAD_BALANCER_ORCHESTRATOR_AND_PRIVATE_KEY_RIGHTS_CONTROLLED_BY_THE_CUSTOMER_AND_EXISTING_TRUST_PROVIDERS",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EDGE_MATURE_CLM_VENDORS_CA_NATIVE_AUTOMATION_ACME_AND_CLOUD_NATIVE_CERTIFICATE_MANAGERS_ALREADY_CAPTURE_OR_COMMODITIZE_THE_REPEATABLE_WORK",
+      "machine_delegatability_check": "PASS_THE_ROUTINE_LIFECYCLE_IS_HIGHLY_MACHINE_EXECUTABLE_ONCE_REQUIRED_RIGHTS_EXIST",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_ORCHESTRATE_EXISTING_APIS_AND_ACME_BUT_DO_NOT_CREATE_DISTINCT_TRUST_ROOT_DNS_OR_DEPLOYMENT_RIGHTS",
+      "verdict": "DEMOTED_REAL_2026_ROTATION_STATE_CHANGE_AND_MACHINE_EXECUTABLE_WORKLOAD_BUT_CERTIFICATE_LIFECYCLE_AUTOMATION_IS_ALREADY_A_MATURE_CA_NATIVE_OPEN_PROTOCOL_AND_CLM_CONTROL_SURFACE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_093-F2",
+      "title": "US_A2L_HVAC_FIELD_TRANSITION_AND_TOOLING_WORKFLOW_CHANGE",
+      "chinese_title": "美国 A2L 暖通现场迁移与工具工作流变化",
+      "evidence_class": "CURRENT_PHYSICAL_TRADE_STATE_CHANGE_WITH_NEW_REFRIGERANT_EQUIPMENT_TRAINING_TOOL_AND_INVENTORY_REQUIREMENTS",
+      "observed_actor_state_change_evidence": [
+        "EPA technology-transition rules impose a GWP limit of 700 for new residential and light-commercial air-conditioning and heat-pump systems, driving the market away from R-410A toward lower-GWP systems including R-32 and R-454B.",
+        "ACCA states A2L refrigerants are becoming the dominant HVACR refrigerant class and maintains dedicated safety training covering handling and the tools needed for A2L equipment.",
+        "Current 2026 industry reporting says 91% of HVAC distributor sales involved A2L equipment by the close of the 2025 cooling season, while manufacturers continue changing training, controls and service procedures around A2L."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Contractors already possess trained technicians, service vehicles, customer relationships and legacy tools, but some electronic service tools, gauges, recovery machines, vacuum pumps and leak detectors must be checked or replaced for A2L compatibility.",
+        "Distributors hold inventory and supplier relationships, yet the transition created periods of mismatched legacy stock, A2L equipment and refrigerant availability."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "ACCA sells or provides team-wide A2L safety training and explicitly teaches changed handling and required tools.",
+        "2026 distributor retrospectives describe stocking R-410A during uncertainty, then being left with obsolete inventory as R-454B availability improved and the transition accelerated.",
+        "Current 2026 manufacturer training has added A2L-specific leak sensors, error codes, remediation behavior and hands-on field instruction."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "Demand, technicians, equipment and training all exist, but successful completion still depends on matching OEM equipment, refrigerant, compatible tools, safe field practice and local job conditions.",
+        "The coordination seam is real but is coupled to physical installation/service and manufacturer-specific controls rather than a separable machine-owned missing edge."
+      ],
+      "economic_signal": [
+        "Contractors and distributors bear real training, tooling, inventory and field-execution costs, while equipment/refrigerant purchases already carry the principal transaction value.",
+        "No distinct recurring payer inflow for a new low-touch orchestration layer is evidenced by the transition itself."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "EPA and safety standards define the compliance boundary; OEMs define equipment-specific sensors, controls and approved procedures.",
+        "ACCA and manufacturer training programs already own the knowledge-transfer surface.",
+        "Distributors, refrigerant manufacturers and tool vendors own supply availability and compatible equipment, while licensed contractors own physical execution."
+      ],
+      "founder_independence_check": "FAIL_THE_DECISIVE_VALUE_FLOW_REQUIRES_PHYSICAL_INSTALLATION_SERVICE_DIAGNOSIS_AND_SAFETY_ACCOUNTABILITY_AT_CUSTOMER_SITES",
+      "data_action_rights_check": "FAIL_A_SOFTWARE_OPERATOR_CANNOT_GRANT_OEM_APPROVAL_REFRIGERANT_SUPPLY_SITE_ACCESS_LICENSING_OR_FIELD_SAFETY_AUTHORITY",
+      "normalized_margin_check": "FAIL_FOR_A_GENERIC_ORCHESTRATION_LAYER_WITHOUT_EVIDENCE_OF_OPERATOR_OWNED_SETTLEMENT_OR_A_MACHINE_DELIVERABLE_UNIT_DISTINCT_FROM_EXISTING_TRAINING_SUPPLY_AND_CONTRACTOR_CHANNELS",
+      "machine_delegatability_check": "PARTIAL_SCHEDULING_COMPATIBILITY_LOOKUP_INVENTORY_VISIBILITY_AND_DOCUMENTATION_ARE_MACHINE_EXECUTABLE_BUT_INSTALLATION_CHARGING_LEAK_WORK_AND_ACCEPTANCE_ARE_PHYSICAL",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERAL_AGENTS_CAN_ASSIST_WITH_KNOWLEDGE_AND_COORDINATION_WHILE_THE_NON_SUBSTITUTABLE_VALUE_REMAINS_PHYSICAL_RIGHTS_TOOLS_AND_TRADE_EXECUTION",
+      "verdict": "DEMOTED_REAL_CURRENT_FIELD_TRANSITION_WITH_TOOLING_TRAINING_AND_INVENTORY_FRICTION_BUT_THE_DECISIVE RIGHTS_AND_EXECUTION REMAIN_WITH_OEMS_DISTRIBUTORS_TOOL_VENDORS_AND_PHYSICAL_HVAC_CONTRACTORS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_093-F3",
+      "title": "EU_ECOMMERCE_ACCESSIBILITY_POST_EAA_REMEDIATION_GAP",
+      "chinese_title": "欧盟电商 EAA 生效后的持续无障碍修复缺口",
+      "evidence_class": "CURRENT_DIGITAL_SERVICE_OBLIGATION_WITH_PERSISTENT_USER_BARRIERS_CONTINUOUS_CODE_CHANGE_AND_MIXED_AUTOMATED_HUMAN_EVALUATION",
+      "observed_actor_state_change_evidence": [
+        "The European Accessibility Act has applied since 28 June 2025 to covered services including e-commerce, banking, transport and electronic communications, subject to statutory exceptions including service microenterprises.",
+        "AccessibleEU published EN 301 549 v4.1.1 in September 2026 with WCAG 2.2 updates, while explicitly noting that it is not yet the legal reference for EAA/WAD conformance until formally cited by the Commission.",
+        "A July 2026 vendor study of 170 large EU online stores scored 107 reachable sites and reported that 52.3% of those scored still had at least one critical accessibility barrier; its methodology is a diagnostic automated/scripted sample, not a legal conformance determination."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Commerce teams already possess design systems, source code, CI pipelines and analytics, but those assets do not automatically preserve accessible behavior across navigation, authentication, checkout and dynamic component changes.",
+        "Open-source axe-core and commercial monitoring can test repeatable code-level conditions continuously, creating substantial machine-readable remediation capacity."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The 2026 study found 47 of 170 sampled stores blocked its automated scan with bot protection or CAPTCHA and another 16 returned unusable JavaScript shells, illustrating a practical boundary for external automation as well as the study itself.",
+        "W3C states that automated tools cannot determine whether a site is accessible and knowledgeable human evaluation is required.",
+        "Current products such as Deque axe Monitor and Level Access schedule recurring scans, track remediation and integrate accessibility work into engineering workflows."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "Automated scanning and CI remediation can repeatedly find and prevent many code defects, yet full accessibility and conformance still require contextual human judgment and real interaction testing.",
+        "This creates a persistent mixed machine/human flow, but the repeatable machine portion is already deeply productized while the non-machine tail depends on knowledgeable evaluation and the service provider's legal/accountability context."
+      ],
+      "economic_signal": [
+        "The EAA creates a real compliance and customer-access objective for covered businesses, but statutory obligation and observed defects are not proof of a distinct recurring payment stream to a new operator.",
+        "Existing accessibility platforms, audit firms and internal engineering teams already capture testing, monitoring and remediation spend."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Deque's Axe Platform covers IDE/CI testing, automated and guided manual testing, monitoring and accessibility audit workflows.",
+        "Level Access provides recurring monitoring, progress tracking and remediation task workflows.",
+        "W3C's evaluation guidance makes human judgment a necessary boundary that a fully automated generic agent cannot legitimately erase."
+      ],
+      "founder_independence_check": "PARTIAL_REPEATABLE_SCANNING_TICKETING_AND_MANY_CODE_FIXES_CAN_RUN_WITHOUT_A_FOUNDER_BUT_COMPLETE_CONFORMANCE_AND_USABILITY_EVALUATION_REQUIRE_KNOWLEDGEABLE_HUMAN_JUDGMENT",
+      "data_action_rights_check": "PARTIAL_PASS_CUSTOMER_AUTHORIZATION_CAN_ENABLE_SOURCE_CI_AND_TEST_ENVIRONMENT_ACCESS_BUT_PRODUCTION_SECURITY_CONTROLS_AND_THIRD_PARTY_CHECKOUT_AUTH_OR_CAPTCHA_SYSTEMS_REMAIN_EXTERNALLY_CONTROLLED",
+      "normalized_margin_check": "FAIL_FOR_A_NEW_GENERIC_EDGE_OPEN_SOURCE_AXE_CORE_MATURE_ENTERPRISE_MONITORING_AND_ESTABLISHED_AUDIT_REMEDIATION_PROVIDERS_ALREADY_CAPTURE_THE_ROUTINE_LAYER_WHILE_THE_RESIDUAL_IS_HUMAN_JUDGMENT_AND_ACCOUNTABILITY",
+      "machine_delegatability_check": "PARTIAL_AUTOMATED_TESTING_REGRESSION_TRIAGE_AND_MANY_DETERMINISTIC_FIXES_ARE_MACHINE_DELEGATABLE_BUT_FULL_ACCESSIBILITY_EVALUATION_IS_NOT",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERAL_CODING_AGENTS_CAN_FIX_MANY_MACHINE_IDENTIFIABLE_DEFECTS_USING_EXISTING_TEST_TOOLS_WHILE_DISTINCT_VALUE_REMAINS_CONTEXTUAL_ACCESSIBILITY_EXPERTISE_AND_ACCOUNTABILITY",
+      "verdict": "DEMOTED_REAL_POST_EAA_REMEDIATION_DEBT_AND_CONTINUOUS_REGRESSION_RISK_BUT_THE_MACHINE_LAYER_IS_ALREADY_MATURE_AND_THE_DECISIVE_RESIDUAL_REQUIRES_HUMAN_EVALUATION_AND_SERVICE_PROVIDER_ACCOUNTABILITY"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "WINDOWS_10_ESU_POST_SUPPORT_TRANSITION",
+      "excluded_reason": "EXCLUDE_BEFORE_FORMATION_THE_STATE_CHANGE_IS_REAL_BUT_MICROSOFT_DIRECTLY_OWNS_ESU_ENROLLMENT_SECURITY_UPDATES_UPGRADE_PATHS_AND_WINDOWS_365_MIGRATION_SO_THE CONTROL_SURFACE_IS PREASSIGNED_AND TOO PRODUCT_BOUND"
+    },
+    {
+      "observation": "GENERIC_EAA_ACCESSIBILITY_OVERLAY_OR_ONE_CLICK_FIX",
+      "excluded_reason": "EXCLUDE_GENERIC_MECHANISM_W3C_REQUIRES_HUMAN_EVALUATION_AND_CURRENT EVIDENCE DOES NOT SUPPORT TREATING AN OVERLAY AS COMPLETE CONFORMANCE"
+    },
+    {
+      "observation": "GENERIC_CERTIFICATE_EXPIRY_ALERTING",
+      "excluded_reason": "EXCLUDE_BEFORE_FORMATION_ALERTING_ALONE_IS A MATURE FEATURE OF CLM_CA_NATIVE_AND CLOUD CERTIFICATE PRODUCTS AND DOES NOT OWN RENEWAL OR DEPLOYMENT RIGHTS"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "convenient_search_lens_became_ontology": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_paid_stack": false,
+    "discovery_started_from_observed_actor_state_change": true,
+    "objective_endowment_underuse_or_contradiction_present": true,
+    "formation_diversity": "PASS_MACHINE_TRUST_INFRASTRUCTURE_PHYSICAL_HVAC_TRADE_AND_DIGITAL_COMMERCE_ACCESSIBILITY",
+    "observed_indexing_bias": "PUBLIC_EVIDENCE_STILL_FAVORS RULE_DRIVEN_OR_VENDOR_DOCUMENTED TRANSITIONS; SCAN094 SHOULD SEEK A SECOND INDEPENDENT SAMPLE WITH MORE PARTICIPANT_AUTHORED_UNDERUSE_OR_PARTIAL_FLOW WHERE AVAILABLE",
+    "response": "RUN_ONE_SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_ACTOR_ENDOWMENT_STATE_CHANGE_UNDERUSE_CONTRADICTION_AND_PARTIAL_FLOW_PASS BEFORE DERIVING ANY NEW DISCOVERY SIGNAL OR MECHANISM",
+    "participant_behavior_over_analyst_story": "PASS_EACH_FORMATION STARTS FROM A CURRENT EXTERNAL STATE CHANGE PLUS OBSERVED OPERATING RESPONSE AND IS CLOSED WHEN RIGHTS CONTROL SURFACES OR HUMAN_PHYSICAL TAILS DOMINATE"
+  },
+  "scan_learnings": [
+    "BROAD_CURRENT_REALITY_RESET_AFTER_SCANS091_092_RESTORES_FORMATION_DIVERSITY_WITHOUT_REUSING_SECOND_LAYER_SPEND_AS_THE_SEARCH_ONTOLOGY",
+    "PUBLIC_TLS_LIFETIME_COMPRESSION_IS_A_REAL_MACHINE_EXECUTABLE_OPERATIONAL_STATE_CHANGE_BUT_CA_NATIVE_ACME_CLOUD_AND_MATURE_CLM_CONTROL_SURFACES_ALREADY_OWN_THE_AUTOMATION_PATH",
+    "A2L_HVAC_TRANSITION_CREATES_REAL_TRAINING_TOOLING_INVENTORY_AND_FIELD_WORKFLOW_CHANGE_BUT_DECISIVE_VALUE REMAINS PHYSICAL_AND_OEM_DISTRIBUTOR_CONTRACTOR_CONTROLLED",
+    "POST_EAA_ACCESSIBILITY_DEBT_IS_REAL_AND_RECURRING_CODE_CHANGE_CAN_REINTRODUCE_BARRIERS_BUT AUTOMATED_MONITORING_IS_MATURE_AND COMPLETE_EVALUATION_RETAINS HUMAN_JUDGMENT",
+    "CURRENT_STATE_CHANGE_PLUS_OBJECTIVE_ENDOWMENT_OR_PARTIAL_FLOW_IS_A STRONG UPSTREAM SENSOR BUT STILL DOES NOT PROVE AN UNOWNED COMMERCIAL EDGE",
+    "ONE_RESET_PASS_IS_NOT_ENOUGH_TO DERIVE ANOTHER MECHANISM OR PAYER SIGNAL; SCAN094 MUST REPEAT THE BROAD REALITY METHOD ON FRESH FORMATIONS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_094",
+  "next_search_boundary": "SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_SOURCE_RESET_ACTOR_STATE_CHANGE_OBJECTIVE_ENDOWMENT_UNDERUSE_CONTRADICTION_AND_PARTIAL_FLOW_FIRST_WITHOUT_STARTING_FROM_EXISTING_PAID_PRODUCTS_COORDINATORS_OR_SECOND_COST_STACKS_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_093_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN094_SECOND_INDEPENDENT_BROAD_CURRENT_REALITY_PASS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://cabforum.org/working-groups/server/baseline-requirements/requirements/",
+    "https://docs.digicert.com/ko/certcentral/automate-certificate-lifecycle.html",
+    "https://www.sectigo.com/certificate-manager",
+    "https://www.sectigo.com/enterprise-solutions/certificate-manager/orchestrated-automation",
+    "https://www.epa.gov/hfcs/technology-transitions-hfc-restrictions-sector",
+    "https://www.acca.org/education/a2ltraining",
+    "https://www.achrnews.com/articles/166001-a2ls-advance-despite-regulatory-uncertainty",
+    "https://www.achrnews.com/articles/165718-2026-distribution-trends-roundtable",
+    "https://www.achrnews.com/articles/166219-manufacturer-q-a-bridging-the-knowledge-gap-in-hvac-training",
+    "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en",
+    "https://accessible-eu-centre.ec.europa.eu/content-corner/news/european-accessibility-standard-en-301-549-has-been-updated-2026-09-07_en",
+    "https://accesslumens.com/research/state-of-eu-ecommerce-accessibility-2026",
+    "https://www.w3.org/WAI/test-evaluate/",
+    "https://docs.deque.com/monitor/8.6/en/introduction/",
+    "https://client.levelaccess.com/hc/en-us/articles/1500001616882-Set-up-monitoring"
+  ]
+}
