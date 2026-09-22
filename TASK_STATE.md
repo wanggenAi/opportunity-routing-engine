@@ -18,25 +18,25 @@ Discovery: `ATTRACTION_SCAN_117` is complete with zero retained formations. The 
 
 ## Current Phase
 
-`SCAN_117_PR_VALIDATION_PENDING`
+`SCAN_118_RESEARCH`
 
 ## Last Verified Main
 
-`b8edb6a341a91059b101e515acbb7d83069d124f`
-— squash merge of PR #416, `Run standalone-ledger labor closure Scan 116`.
+`081e5f8db2e0a925a46314a5317de63c51eeff68`
+— squash merge of PR #417, `Run intrinsically-low-labor control Scan 117`.
 
-PR #416 final head `e1ac3f32f52460e716730940b7334c4144caf632`:
-- repository CI `35755804252`: success;
-- live TypeSafe/Jev `35755804242`: success;
-- live-shadow job `106841229324`: success;
-- advisory artifact `10708165886`;
+PR #417 final head `f118e64c12fefcb64c266230764909a29429d5f5`:
+- repository CI `35757682034`: success;
+- live TypeSafe/Jev `35757682061`: success;
+- live-shadow job `106847594477`: success;
+- advisory artifact `10708932994`;
 - 3/3 model and effective route `NO_FURTHER_RESEARCH`;
 - 3/3 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That exact-head directive was consumed to start Scan 117.
+That exact-head directive was consumed to start Scan 118.
 
 ## Active Issue
 
@@ -44,11 +44,11 @@ That exact-head directive was consumed to start Scan 117.
 
 ## Active Branch
 
-`research/attraction-scan-117`
+`research/attraction-scan-118`
 
 ## Active PR
 
-None at this checkpoint. Scan 117 branch content is final for PR validation. Open exactly one PR from this head and do not make branch commits after PR creation.
+None. Scan 118 research is in progress. Open exactly one PR only after the Scan 118 branch head is final, then do not make branch commits after PR creation.
 
 ## CI
 
@@ -143,9 +143,8 @@ Validation:
 - Scan 015-F1 still needs a real official written provider response/agreement and founder-free inbound proof.
 
 Discovery:
-- Scan 117 research itself is complete;
-- the branch now needs exact-final-head repository CI plus live TypeSafe/Jev validation;
-- do not start Scan 118 until that exact-head continuation directive permits it.
+- Scan 117 research, exact-head validation and merge are complete;
+- Scan 118 is actively testing the low-FTE positive-OCF repeatable-nonproject-revenue boundary.
 
 Engineering:
 - no current TypeSafe/Jev integration blocker.
@@ -195,4 +194,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open one PR from the final Scan 117 branch head. Do not commit after opening it. Validate that exact head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are terminal and acceptable.
+Execute Scan 118 on fresh formations that satisfy or directly test the low-FTE positive-OCF repeatable-nonproject-control boundary. Persist result, state and regression test before opening the final PR.
