@@ -14,11 +14,11 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_115` is now in progress. Scan 114 proved completed control plus positive post-purchase revenue, net profit and explicit operating cashflow can coexist, but the exact case remained capital-heavy and human-delivery intensive. Scan 115 therefore targets one same-target packet that binds explicit positive post-transfer operating cashflow to explicit low FTE or replacement-service cost and bounded total usable capital including working capital, without inheriting a product mechanism or prior formation.
+Discovery: `ATTRACTION_SCAN_115` is complete with zero retained formations. Scan 115 tested whether completed-control targets could bind explicit positive post-control operating cashflow to explicit low labor/replacement-service burden and bounded total usable capital. One target proved positive explicit OCF, but high control capital and unclosed current replacement engineering remained fatal. A separate target-level subsidiary ledger proved why parent OCF must not be attributed to the target. Scan 116 should prioritize acquired targets with standalone or important-subsidiary reporting so OCF, current labor and total capital can be bound to one entity without inference.
 
 ## Current Phase
 
-`SCAN_115_RESEARCH_IN_PROGRESS`
+`SCAN_115_PR_VALIDATION_PENDING`
 
 ## Last Verified Main
 
@@ -48,11 +48,13 @@ That exact-head directive was consumed to start Scan 115.
 
 ## Active PR
 
-None yet. Do not open a PR until Scan 115 research artifacts, test and state are final.
+Not yet opened at this checkpoint. Open exactly one PR from the now-final branch head and do not make branch commits after PR creation so repository CI and live TypeSafe/Jev attach to the exact same SHA.
 
 ## CI
 
-No Scan 115 PR validation exists yet. Scan 114 exact-final-head repository CI and live TypeSafe/Jev both passed on PR #413 and its continuation directive has been consumed.
+No Scan 115 PR validation exists yet.
+
+Consume a Scan 115 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
 
 ## Parallel Validation
 
@@ -62,89 +64,94 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-New in Scan 114:
-- `data/research_runs/attraction_scan_114.json`;
-- `docs/research/ATTRACTION_SCAN_114_2026-09-22.md`;
-- `tests/test_attraction_scan_114_operating_cashflow_labor.py`.
+New in Scan 115:
+- `data/research_runs/attraction_scan_115.json`;
+- `docs/research/ATTRACTION_SCAN_115_2026-09-23.md`;
+- `tests/test_attraction_scan_115_labor_capital_binding.py`.
 
 Updated:
 - `data/commercial_reset_state.json`;
 - `TASK_STATE.md`.
 
 Machine state:
-- last completed scan = `ATTRACTION_SCAN_114`;
-- last resolved formation = `ATTRACTION_SCAN_114-F3`;
-- next scan = `ATTRACTION_SCAN_115`;
+- last completed scan = `ATTRACTION_SCAN_115`;
+- last resolved formation = `ATTRACTION_SCAN_115-F3`;
+- next scan = `ATTRACTION_SCAN_116`;
 - active commercial candidates = 0;
 - retained research formations = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Consumed PR #412 exact-head `ADVANCE_TO_NEXT_SCAN` directive and started `research/attraction-scan-114` from merged main.
-- Tightened the accounting boundary so generic acquisition-table `cash flow` cannot be relabeled as operating cashflow.
-- Tested three distinct control shapes: Hong Kong import-export trading, Beijing renewable microgrid EPC and Suzhou property management.
-- Established one exact target packet with completed control, positive post-purchase external revenue, positive net profit and explicit positive operating cashflow: Zhongteng Microgrid.
-- Preserved total-capital and delivery boundaries: positive OCF did not cure RMB hundreds-of-millions control value or explicit EPC/project-team/site-delivery dependence.
-- Preserved the working-capital boundary: a tiny nominal equity acquisition price did not imply tiny usable capital when receivables/payables were large.
+- Consumed PR #413 exact-head `ADVANCE_TO_NEXT_SCAN` directive and started `research/attraction-scan-115`.
+- Preserved the strict accounting rule that generic acquisition-table cashflow is not operating cashflow.
+- Added a stricter labor rule: historical FTE is not promoted to current FTE.
+- Added a stricter entity rule: parent consolidated OCF is not attributed to the target without target-level disclosure.
+- Tested three distinct control shapes: building-quality testing, HMI/audio SoC IP and commercial cleaning equipment plus service.
+- Established one exact completed-control target with positive post-purchase external revenue, net profit and explicit operating cashflow: Hangzhou Nano IC.
+- Bound a modest-equity-price testing target to an official RMB15m laboratory, about 600 instruments and a 66-person operating design, proving nominal equity price is not total usable capital.
+- Used target-level 2026 H1 subsidiary reporting for Gadlee and found operating cashflow negative despite positive target revenue and profit.
 - Retained zero formations and promoted zero commercial candidates.
-- Persisted Scan 114 research JSON, research note, regression test and commercial state.
+- Persisted Scan 115 research JSON, note, regression test and commercial state.
 
 ## Current Findings
 
-### Scan 114-F1 — Trillion Max import-export trading
+### Scan 115-F1 — Chongqing Gaoxin Zhuotai building-quality testing
 
-Keda Manufacturing acquired 100% control on 2026-04-01. Purchase-date-to-period-end revenue was RMB37.9226 million, net profit RMB8.0812 million and generic cashflow RMB6.1568 million.
+100% control completed 2026-03-31 for RMB7.0637 million. Purchase-date-to-period-end revenue was RMB4.4814 million, net profit RMB0.6734 million and generic cashflow RMB2.1581 million.
 
-The same packet identifies import-export trading and shows a purchase-date working-capital footprint far larger than the RMB0.2114 million nominal acquisition cost, including approximately RMB54.7403 million receivables and RMB83.1338 million payables. The cashflow metric is not explicitly operating cashflow, and target FTE/replacement labor is unclosed.
+A government EIA for the same operating entity records a RMB15 million laboratory, about 600 instruments, a 66-person labor quota and recurring on-site engineering tests. The 66-person figure is an operating-design filing, not relabeled as 2026 current FTE.
+
+Verdict: demoted because explicit OCF is unclosed and the physical/labor delivery footprint defeats low-capital/low-human assumptions.
+
+### Scan 115-F2 — Hangzhou Nano IC HMI/audio SoC
+
+Control transferred 2025-07-14 and the buyer held 51%. Purchase-date-to-year-end revenue was RMB73.7647 million, net profit RMB4.6009 million and explicit operating-activity net cash inflow RMB7.3001 million.
+
+This passes the exact positive-OCF test, but accounting control cost was RMB138.3447 million and current target FTE/replacement engineering cost is not publicly closed. Historical headcount is not treated as current fact.
 
 Verdict: demoted.
 
-### Scan 114-F2 — Zhongteng Microgrid EPC
+### Scan 115-F3 — Gadlee commercial cleaning equipment
 
-Control completed on 2026-03-10 at 60.0053%. Purchase-date-to-period-end revenue was RMB218.1016 million, net profit RMB8.9512 million and explicit operating cashflow RMB9.2551 million.
+Control completed in 2025 and Gadlee was consolidated from 2025-11-01 at 54.4745%.
 
-This closes the positive-OCF existence question. It still fails because the transaction/target value is hundreds of millions RMB and the official operating model is EPC: site survey, design, procurement, civil works, installation, commissioning and O&M performed by project teams.
-
-Verdict: demoted.
-
-### Scan 114-F3 — Suzhou Lifu Hui property management
-
-The buyer obtained 100% control on 2026-05-31. Purchase-date-to-period-end revenue was RMB67.1 thousand, net profit RMB44.8 thousand and generic cashflow RMB45.6 thousand.
-
-The accounting control amounts are tiny, but the cashflow field is not explicitly OCF; the acquisition accounting is step/mixed; and the target is a property-management operating company with no explicit low-FTE/replacement-service packet.
+The 2026 H1 target-level important-subsidiary table reports revenue RMB52.9509 million, net profit RMB1.2366 million and operating cashflow **negative RMB4.1577 million**. Combination cost exceeded RMB105 million. The current business description also requires a professional nationwide after-sales/service network, training, maintenance, repair, warehousing and distribution.
 
 Verdict: demoted.
 
 Key invariant:
 
 ```text
-GENERIC CASHFLOW
-!= OPERATING CASHFLOW
+POSITIVE TARGET OCF
+!= LOW-CAPITAL CONTROL
 
-LOW EQUITY PURCHASE PRICE
+LOW EQUITY CONSIDERATION
 != LOW TOTAL USABLE CAPITAL
 
-POSITIVE POST-TRANSFER OCF
-!= FOUNDER-LIGHT CONTROL
-WHEN EPC / ENGINEERING / FIELD DELIVERY REMAINS CORE
+HISTORICAL FTE
+!= CURRENT FTE
 
-TINY PROFITABLE SERVICE ENTITY
-!= MACHINE-DELEGATABLE NONCOMMODITY CONTROL
+PARENT OCF
+!= TARGET OCF
+
+TARGET-LEVEL LEDGER VISIBILITY
+IS A BETTER RETRIEVAL ROUTE
+WHEN OCF + LABOR + CAPITAL MUST BIND TO ONE ENTITY
 ```
 
 ## Next Evidence Boundary
 
 ```text
 COMPLETED CONTROLLING TRANSFER
-+ SAME ENTITY / SAME CONTROL POSITION
-+ REALIZED TRANSFER PRICE + RIGHTS CONTINUITY
-+ POSITIVE POST-TRANSFER EXTERNAL REVENUE
-+ POSITIVE POST-TRANSFER NET PROFIT
-+ EXPLICIT POSITIVE POST-TRANSFER OPERATING CASHFLOW
-+ TARGET FTE OR EXPLICIT REPLACEMENT SERVICE COST
-+ TOTAL USABLE CAPITAL INCLUDING WORKING CAPITAL
-+ LOW RECURRING EXPERT / FIELD DELIVERY
++ ACQUIRED TARGET RETAINS STANDALONE PUBLIC REPORTING
+  OR IMPORTANT-SUBSIDIARY TARGET-LEVEL DISCLOSURE
++ SAME TARGET POST-CONTROL POSITIVE EXTERNAL REVENUE
++ SAME TARGET POSITIVE NET PROFIT
++ SAME TARGET EXPLICIT POSITIVE OPERATING CASHFLOW
++ CURRENT TARGET FTE OR EXPLICIT REPLACEMENT SERVICE COST
++ TOTAL USABLE CAPITAL INCLUDING ACQUISITION + WORKING CAPITAL + REQUIRED OPERATING ASSETS
++ LOW RECURRING EXPERT / FIELD / MANUFACTURING / AFTER-SALES DELIVERY
 + NONCOMMODITY MACHINE-OPERABLE CONTROL
 => POSSIBLE VERIFIED FOUNDER-LIGHT CONTROL CASHFLOW
 ```
@@ -157,25 +164,26 @@ Validation:
 - Scan 015-F1 still needs a real official written provider response/agreement and founder-free inbound proof.
 
 Discovery:
-- Scan 114 research itself is complete;
-- explicit positive post-transfer operating cashflow is no longer the main unknown;
-- the decisive gap is binding positive OCF to explicit low FTE/replacement-service cost and bounded total usable capital in the same target packet.
+- Scan 115 research itself is complete;
+- explicit positive target OCF is not the remaining unknown;
+- the remaining evidence gap is one same-target post-control packet that also closes current low FTE/replacement cost and bounded total usable capital.
 
 Engineering:
 - no current TypeSafe/Jev integration blocker;
-- Scan 115 research and its durable artifacts are not yet complete.
+- Scan 115 still needs exact-final-head repository CI plus live TypeSafe/Jev validation.
 
 ## Do Not Repeat
 
-- Do not repeat Scan 114 Trillion Max, Zhongteng Microgrid or Suzhou Lifu Hui formations as Scan 115 primary formations.
-- Do not repeat Scan 113 Boke Guoxin, Xinyan Micro or Youde O&M formations.
-- Do not return to Scan 060-114 formations or their primary discovery signals.
+- Do not repeat Scan 115 Zhuotai, Hangzhou Nano IC or Gadlee formations as Scan 116 primary formations.
+- Do not return to Scan 060-115 formations or their primary discovery signals.
 - Do not use job/gig/RFQ/procurement feeds or asset-marketplace feeds as discovery ontology.
 - Do not infer a product from a closed formation.
 - Do not combine different entities/control positions/time windows to manufacture post-transfer economics.
-- Do not relabel a generic `cash flow` acquisition field as operating cashflow.
-- Do not call equity consideration bounded capital without checking working capital and operating obligations.
-- Do not treat positive OCF as founder-lightness when recurring expert/field delivery remains core.
+- Do not relabel generic cashflow as OCF.
+- Do not promote historical FTE to current FTE.
+- Do not attribute parent consolidated OCF to an acquired target without target-level evidence.
+- Do not call equity consideration bounded capital without working-capital and required-operating-asset checks.
+- Do not treat positive OCF as founder-lightness when current replacement labor is unknown or recurring expert/service delivery remains core.
 - Do not repeat Scan 015 public-rights research while written evidence is outstanding.
 
 ## Guardrails
@@ -212,4 +220,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Execute Scan 115 against the persisted next-evidence boundary: seek current-China completed controlling transfers whose same-target post-transfer packet explicitly binds positive external revenue, positive net profit and positive operating cashflow to explicit low FTE or replacement-service cost and bounded total usable capital including working capital; preserve fail-closed treatment of labor/capital ambiguity and persist the scan before opening any PR.
+Open the Scan 115 PR from the now-final branch head. Do not commit after opening it. Validate that exact PR head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are acceptable.
