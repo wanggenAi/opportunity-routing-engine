@@ -1,0 +1,199 @@
+{
+  "schema_version": "attraction-scan.v80",
+  "scan_id": "ATTRACTION_SCAN_106",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "SECOND_INDEPENDENT_EXECUTED_FRESH_OPERATOR_CONTROL_TRANSFER_PLUS_POST_TRANSFER_EXTERNAL_ECONOMIC_CONTINUITY_PASS_REQUIRE_EVIDENCE_THAT_A_FRESH_INDEPENDENT_SMALL_OPERATOR_HAS_ACTUALLY_ACQUIRED_LICENSED_OR_CONTRACTED_THE_DECISIVE_NONCOMMODITY_POSITION_FROM_A_THIRD_PARTY_AND_THAT_EXTERNAL_CUSTOMER_PAYMENT_CONTINUES_AFTER_CONTROL_CHANGES_WITHOUT_ORIGINAL_FOUNDER_OR_NEW_OPERATOR_FULL_TIME_MANUAL_DELIVERY_REQUIRE_BUYER_SIDE_OR_OFFICIAL_TRANSFER_CORROBORATION_PURCHASE_OR_CONTROL_COST_POST_TRANSFER_REVENUE_DIRECT_OPERATING_COSTS_OWNER_LABOR_AND_RIGHTS_EVIDENCE_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_105_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_NATIVE_PLATFORM_GENERIC_AGENT_FOUNDER_INDEPENDENCE_MACHINE_DELEGATABILITY_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_106-F1",
+      "title": "CHINA_STARTUP_LICENSES_SODIUM_ION_STORAGE_TECH_AND_WINS_RMB100M_ORDERS",
+      "discovery_route": "CURRENT_HUNAN_GOVERNMENT_AND_SCIENCE_TECHNOLOGY_SOURCES_DOCUMENT_A_ZERO_UPFRONT_FEE_TECHNOLOGY_LICENSE_TO_AN_OPERATING_COMPANY_FOLLOWED_BY_PRODUCTION_AND_MORE_THAN_RMB100M_OF_ORDERS",
+      "observed_actor_state_change_evidence": [
+        "Hunan provincial government reporting states that Central South University professor Guo Xueyi's team licensed sodium-ion battery and storage-system technology to Hunan Qibiao New Energy under a 'use first, pay later' arrangement.",
+        "The licensed company began production in April 2025 and reported more than RMB100 million of orders within roughly four months."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The local policy explicitly allows zero-entry-fee plus staged payment, revenue-share or deferred-payment licensing so technology can move from universities to technology enterprises before large license fees are paid.",
+        "Hunan science-and-technology reporting identifies the licensed technology as the production-line basis for sodium-ion energy-storage products rather than a generic consulting engagement."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The licensee used the transferred technology to start small-scale production and enter energy-storage, special-vehicle battery and low-temperature application markets.",
+        "The parties planned a joint sodium-ion technology laboratory, showing continuing technical collaboration after the initial license rather than a fully detached turnkey handoff."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The executed license plus large order book is materially stronger than an asking price or unexecuted transfer listing.",
+        "Orders are not the same as collected customer cash or audited revenue, so the exact post-transfer payment-continuity floor is not fully closed.",
+        "The value layer still requires battery manufacturing, production engineering, quality control, customer integration and continuing R&D; the license does not create a narrow machine-routable operator position.",
+        "Public sources do not disclose license economics, unit gross margin, working capital, staffing, warranty burden or owner labor."
+      ],
+      "economic_signal": [
+        "The licensee reported more than RMB100 million in orders after production began.",
+        "No public evidence in the reviewed sources converts that order book into received customer cash, recognized revenue or normalized net margin attributable to the licensed technology."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The university team owns the source technology and licenses its use; the licensee owns the manufacturing/commercial execution layer subject to the agreement.",
+        "Customer acceptance, production quality, supply chain, certification and application integration remain decisive external and organizational control surfaces.",
+        "The continuing joint-lab plan indicates that technical know-how and future innovation remain partly relationship-dependent."
+      ],
+      "executed_control_transfer_check": "PASS_OFFICIAL_PROVINCIAL_SOURCES_DOCUMENT_AN_EXECUTED_USE_FIRST_PAY_LATER_LICENSE_OF_THE_SODIUM_ION_STORAGE_TECHNOLOGY_TO_THE_COMPANY",
+      "post_transfer_external_economic_continuity_check": "PARTIAL_PASS_MORE_THAN_RMB100M_OF_POST_LICENSE_ORDERS_ARE_REPORTED_BUT_RECEIVED_CUSTOMER_PAYMENT_AND_RECOGNIZED_REVENUE_FOR_THE_EXACT_LICENSED_PRODUCTS_ARE_NOT_PUBLICLY_CLOSED",
+      "fresh_small_operator_entry_check": "UNKNOWN_TO_PARTIAL_THE_LICENSE_MECHANISM_IS_DESIGNED_TO_REDUCE_ENTRY_COST_FOR_TECH_ENTERPRISES_AND_THE_LICENSEE_IS_RECENTLY_ESTABLISHED_BUT_PUBLIC_OFFICIAL_SOURCES_DO_NOT_BOUND_TOTAL_CAPITAL_TEAM_OR_PRIOR_OPERATING_CAPACITY_ENOUGH_TO_TREAT_IT_AS_A_FRESH_INDEPENDENT_SMALL_OPERATOR",
+      "founder_independence_check": "FAIL_THE_LICENSED_POSITION_REQUIRES_RECURRING_MANUFACTURING_ENGINEERING_CUSTOMER_INTEGRATION_AND_CONTINUING_JOINT_TECHNICAL_WORK_RATHER_THAN_A_FOUNDER_LIGHT_CONTROL_ASSET",
+      "data_action_rights_check": "PARTIAL_PASS_A_FORMAL_LICENSE_AND_PAYMENT_TRIGGER_STRUCTURE_ARE_EVIDENCED_BUT_EXACT_TERRITORY_EXCLUSIVITY_SUBLICENSE_DATA_AND_TERMINATION_RIGHTS_ARE_NOT_PUBLIC",
+      "normalized_margin_check": "UNKNOWN_ORDER_VALUE_IS_LARGE_BUT_LICENSE_SHARE_WORKING_CAPITAL_BOM_YIELD_WARRANTY_STAFF_AND_COLLECTION_TIMING_ARE_NOT_DISCLOSED",
+      "machine_delegatability_check": "FAIL_PRODUCT_MANUFACTURING_QUALITY_CONTROL_APPLICATION_ENGINEERING_AND_CUSTOMER_DELIVERY_ARE_DECISIVE_RECURRING_OPERATIONS",
+      "generic_agent_substitutability_check": "PASS_FOR_SCARCITY_A_GENERIC_AGENT_CANNOT_RECREATE_THE_LICENSED_PATENT_AND_TACIT_TECHNICAL_PACKAGE_BUT_THAT_SCARCITY_DOES_NOT_REMOVE_MANUFACTURING_AND_ORGANIZATIONAL_DEPENDENCE",
+      "verdict": "DEMOTED_EXECUTED_TECHNOLOGY_LICENSE_AND_STRONG_POST_LICENSE_ORDERS_DO_NOT_CLOSE_RECEIVED_CASH_NORMALIZED_MARGIN_OR_FOUNDER_LIGHT_OPERATION_AND_THE_VALUE_REMAINS_MANUFACTURING_ORGANIZATION_HEAVY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_106-F2",
+      "title": "CHINA_EXCLUSIVE_HERITAGE_IP_LICENSE_TO_ECOMMERCE_OPERATOR_WITH_RMB50M_PLUS_SALES",
+      "discovery_route": "CURRENT_YIXING_GOVERNMENT_REPORTING_DOCUMENTS_A_2023_EXCLUSIVE_QIANSHU_DRAGON_KILN_IP_AUTHORIZATION_AND_2024_PRODUCT_SALES_ABOVE_RMB50M_ON_THE_LICENSEE_PLATFORM",
+      "observed_actor_state_change_evidence": [
+        "Yixing government reporting states that Dingshu town government authorized Jiangsu Zhuoyi Culture in 2023 as the exclusive IP operator for Qianshu Dragon Kiln.",
+        "The same official reporting states that the licensee used its e-commerce platform to sell kiln products and achieved annual sales above RMB50 million in 2024."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The exclusive position covers development and commercialization around a centuries-old cultural asset and is reinforced by official certificates plus per-product digital identity and unique codes.",
+        "Municipal reporting states that the operator designed more than one hundred cultural-product SKUs and that the kiln drew more than 300,000 visitors in 2024."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The licensee combined the exclusive IP with physical ceramics, digital copyright identity, e-commerce distribution and anti-counterfeit controls.",
+        "Government and the licensee jointly undertook brand-protection actions against unauthorized livestream use, showing that the right is actively policed rather than merely nominal."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is a clean example of an exclusive third-party right followed by substantial external product sales.",
+        "The licensee was not a blank-slate micro-operator: public government reporting describes an existing platform and supply-chain ecosystem around many brands, creators and merchants.",
+        "The economic engine remains physical ceramic creation, inventory, creator/supplier coordination, merchandising, fulfillment, livestream/e-commerce operations and brand enforcement.",
+        "Sales volume is disclosed, but license fee, gross margin, returns, creator/supplier shares, fulfillment cost and staffing are not."
+      ],
+      "economic_signal": [
+        "Official local-government reporting gives annual sales above RMB50 million after the exclusive authorization.",
+        "The reported sales are gross product sales, not normalized operator profit from the exclusive IP itself."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Dingshu town controls the authoritative cultural-IP authorization while Zhuoyi controls the licensed commercialization layer.",
+        "Artists, ceramic producers, commerce platforms, logistics and local brand-protection authorities remain material operating/control surfaces.",
+        "The decisive advantage is bundled with a pre-existing industry platform and supply ecosystem rather than available to equivalent fresh entrants on similar terms."
+      ],
+      "executed_control_transfer_check": "PASS_YIXING_GOVERNMENT_DOCUMENTS_A_2023_EXCLUSIVE_IP_AUTHORIZATION_TO_THE_OPERATOR",
+      "post_transfer_external_economic_continuity_check": "PASS_OFFICIAL_REPORTING_DOCUMENTS_MORE_THAN_RMB50M_OF_2024_PRODUCT_SALES_AFTER_THE_AUTHORIZATION",
+      "fresh_small_operator_entry_check": "FAIL_THE_LICENSEE_ALREADY_OPERATED_A_MATERIAL_DIGITAL_AND_SUPPLY_CHAIN_ECOSYSTEM_AND_THE_EXCLUSIVE_PUBLIC_RIGHT_WAS_NOT_A_STANDARDIZED_OPEN_ENTRY_RAIL_AVAILABLE_TO_A_FRESH_EQUIVALENT_OPERATOR",
+      "founder_independence_check": "PARTIAL_FAIL_THE_IP_RIGHT_ITSELF_IS_TRANSFERRED_BUT_VALUE_DELIVERY_REQUIRES_RECURRING_CREATOR_PRODUCT_ECOMMERCE_FULFILLMENT_AND_BRAND_ENFORCEMENT_OPERATIONS",
+      "data_action_rights_check": "PARTIAL_PASS_EXCLUSIVITY_AND_OFFICIAL_PRODUCT_IDENTITY_CONTROLS_ARE_EVIDENCED_BUT_FULL_LICENSE_SCOPE_TERM_PAYMENT_SUBLICENSE_AND_DATA_RIGHTS_ARE_NOT_PUBLIC",
+      "normalized_margin_check": "UNKNOWN_RMB50M_PLUS_SALES_DO_NOT_DISCLOSE_LICENSE_COST_PRODUCT_COGS_CREATOR_SHARE_PLATFORM_FEES_RETURNS_FULFILLMENT_MARKETING_OR_STAFF_COST",
+      "machine_delegatability_check": "FAIL_PHYSICAL_PRODUCT_CREATION_SUPPLY_CHAIN_MERCHANDISING_FULFILLMENT_AND_BRAND_GOVERNANCE_REMAIN_RECURRING_HUMAN_ORGANIZATIONAL_WORK",
+      "generic_agent_substitutability_check": "PASS_FOR_SCARCITY_A_GENERIC_AGENT_CANNOT_OBTAIN_THE_EXCLUSIVE_GOVERNMENT_AUTHORIZATION_OR_RECREATE_THE_HERITAGE_IDENTITY_BUT_THE_COMMERCIAL_ENGINE_IS_NOT_A_NARROW_AUTOMATED_ROUTER",
+      "verdict": "DEMOTED_EXCLUSIVE_IP_AND_POST_AUTHORIZATION_SALES_ARE_REAL_BUT_THE_RIGHT_IS_BUNDLED_WITH_AN_EXISTING_COMMERCE_SUPPLY_ECOSYSTEM_AND_NORMALIZED_FOUNDER_LIGHT_ECONOMICS_ARE_NOT_PROVEN"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_106-F3",
+      "title": "CHINA_OPERATING_SOLAR_PROJECT_COMPANIES_TRANSFER_CONTROL_TO_THIRD_PARTY_BUYER",
+      "discovery_route": "CURRENT_AUDITED_PUBLIC_COMPANY_REPORT_DOCUMENTS_COMPLETED_2025_PROJECT_COMPANY_CONTROL_TRANSFERS_WHILE_CURRENT_ENERGY_RULES_ALLOW_THIRD_PARTY_O_AND_M_AND_STANDARD_GRID_SETTLEMENT",
+      "observed_actor_state_change_evidence": [
+        "Jinko Power's audited 2025 annual report states that a 2025 transaction transferred 100% of the holding company for four industrial/commercial distributed-PV project companies together with the station equipment for a total transaction price of about RMB286.5 million.",
+        "The annual report states that the equity transfer completed business-registration changes by year-end and the seller had received all consideration other than the quality-retention amount."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Current National Energy Administration rules allow a distributed-PV project investor to appoint a professional third party as the O&M responsible entity after commissioning.",
+        "Current industry disclosure describes power-station project companies as receiving power-sale settlement from grid or electricity customers under grid-connection and power-purchase arrangements."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The market uses project-company equity transfer as a control-transfer rail for operating energy assets rather than requiring the original developer to remain owner.",
+        "The seller can continue to provide O&M as a separate contracted service after sale without retaining asset control, demonstrating separation between ownership and recurring maintenance execution."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The transaction proves a completed control change and a standardized external revenue mechanism can remain attached to an operating energy asset.",
+        "The reviewed disclosure does not isolate buyer-side realized post-closing electricity receipts for these exact four projects, so exact post-transfer external-payment continuity remains unclosed rather than inferred from the industry model.",
+        "A roughly RMB286.5 million transaction is categorically outside a fresh independent small-operator acquisition budget.",
+        "Even with outsourced O&M, project ownership carries capital, financing, grid-contract, safety, curtailment, power-price and regulatory risk; the scarce position is financed infrastructure ownership rather than a routing layer."
+      ],
+      "economic_signal": [
+        "The completed transaction has an explicit total price of about RMB286.5 million and the seller received substantially all consideration.",
+        "Exact post-closing electricity revenue, debt service, O&M fee, taxes, curtailment and buyer net return for the four transferred stations are not separately disclosed."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The buyer receives project-company control, while grid operators and power-market rules control connection, dispatch and settlement.",
+        "Professional O&M can be outsourced, but asset owners remain responsible for investment, contracts and safety/compliance obligations.",
+        "The control position is reproducible primarily through large capital deployment and project acquisition, not through a small operator's distinct data/routing asset."
+      ],
+      "executed_control_transfer_check": "PASS_AUDITED_2025_REPORT_DOCUMENTS_COMPLETED_BUSINESS_REGISTRATION_CHANGE_AND_CONTROL_TRANSFER_FOR_THE_PROJECT_COMPANY_HOLDING_FOUR_DISTRIBUTED_PV_ASSETS",
+      "post_transfer_external_economic_continuity_check": "UNKNOWN_TO_PARTIAL_CURRENT_RULES_AND_INDUSTRY_MODEL_SUPPORT_CONTINUING_POWER_SETTLEMENT_BUT_THE_REVIEWED_EVIDENCE_DOES_NOT_ISOLATE_ACTUAL_POST_CLOSING_BUYER_RECEIPTS_FOR_THE_EXACT_FOUR_PROJECTS",
+      "fresh_small_operator_entry_check": "FAIL_TRANSACTION_PRICE_AROUND_RMB286_5M_AND_INFRASTRUCTURE_FINANCING_REGULATORY_AND_GRID_REQUIREMENTS_PUT_THE_POSITION_OUTSIDE_THE_FRESH_SMALL_OPERATOR_BOUNDARY",
+      "founder_independence_check": "PARTIAL_PASS_ORIGINAL_DEVELOPER_OWNERSHIP_IS_NOT_REQUIRED_AND_O_AND_M_CAN_BE_SEPARATELY_CONTRACTED_BUT_ASSET_MANAGEMENT_FINANCING_AND_COMPLIANCE_REMAIN_RECURRING_ORGANIZATIONAL_FUNCTIONS",
+      "data_action_rights_check": "PARTIAL_PASS_PROJECT_COMPANY_CONTROL_CAN_TRANSFER_AND_CURRENT_RULES_ALLOW_THIRD_PARTY_O_AND_M_BUT_EXACT_GRID_CONTRACT_NOVATION_SETTLEMENT_AND_PROJECT_SPECIFIC_CONTROL_TERMS_ARE_NOT_PUBLICLY_CLOSED",
+      "normalized_margin_check": "UNKNOWN_TRANSACTION_PRICE_IS_KNOWN_BUT_POST_TRANSFER_REVENUE_DEBT_SERVICE_O_AND_M_TAX_CURTAILMENT_AND_NET_YIELD_ARE_NOT_SEPARATELY_DISCLOSED",
+      "machine_delegatability_check": "PARTIAL_PASS_MONITORING_AND_MUCH_O_AND_M_CAN_BE_PROFESSIONALIZED_OR_DIGITIZED_BUT_PHYSICAL_INFRASTRUCTURE_SAFETY_GRID_AND_CAPITAL_MANAGEMENT_REMAIN_DECISIVE",
+      "generic_agent_substitutability_check": "PASS_FOR_SCARCITY_A_GENERIC_AGENT_CANNOT_RECREATE_OWNERSHIP_OF_THE_OPERATING_ASSET_OR_GRID_CONTRACT_BUT_THE_SCARCITY_IS_CAPITAL_INTENSIVE_INFRASTRUCTURE_NOT_DISTINCT_ROUTING_CONTROL",
+      "verdict": "DEMOTED_COMPLETED_PROJECT_CONTROL_TRANSFER_AND_DELEGABLE_O_AND_M_DO_NOT_CREATE_A_SMALL_OPERATOR_EDGE_THE_POSITION_IS_CAPITAL_INTENSIVE_AND_EXACT_BUYER_POST_TRANSFER_NET_CASHFLOW_IS_NOT_PUBLICLY_CLOSED"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CHINA_PATENT_TRANSFER_MARKETPLACE_LISTINGS_AND_OPEN_LICENSE_CATALOGS",
+      "excluded_reason": "EXCLUDED_AS_PRIMARY_EVIDENCE_BECAUSE_LISTINGS_OR_LICENSE_AVAILABILITY_DO_NOT_PROVE_EXECUTED_CONTROL_CHANGE_AND_BUYER_SIDE_POST_TRANSFER_ECONOMIC_CONTINUITY"
+    },
+    {
+      "observation": "CHINA_NON_HERITAGE_BRAND_FRANCHISE_TRANSFER_LISTINGS",
+      "excluded_reason": "EXCLUDED_BECAUSE_SURFACED_LISTINGS_WERE_SELLER_MARKETING_OR_REQUIRED_RECURRING_STORE_OPERATIONS_AND_DID_NOT_ADD_STRONGER_EXECUTED_BUYER_SIDE_EVIDENCE"
+    },
+    {
+      "observation": "GLOBAL_MICRO_SAAS_ACQUISITIONS",
+      "excluded_reason": "EXCLUDED_FROM_PRIMARY_FORMATIONS_BECAUSE_PRIMARY_RESEARCH_DOMAIN_IS_CHINA_AND_CHINA_RELEVANCE_WAS_NOT_BOUND"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "executed_control_transfer_required": true,
+    "post_transfer_external_economic_continuity_required": true,
+    "fresh_small_operator_entry_required": true,
+    "new_operator_full_time_manual_delivery_explicit_fail": true,
+    "buyer_or_official_transfer_corroboration_required": true,
+    "normalized_economics_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_TECHNOLOGY_LICENSE_CULTURAL_IP_EXCLUSIVE_AUTHORIZATION_AND_ENERGY_ASSET_CONTROL_TRANSFER_TEST_DISTINCT_RIGHTS_AND_CONTROL_SHAPES",
+    "observed_indexing_bias": "PUBLICLY_VERIFIABLE_EXECUTED_TRANSFER_PLUS_POST_TRANSFER_MONEY_IS_CONCENTRATED_IN_INSTITUTIONAL_TECH_TRANSFER_ESTABLISHED_BRAND_ECOSYSTEMS_AND_CAPITAL_ASSETS_WHERE_SMALL_OPERATOR_NORMALIZED_ECONOMICS_ARE_RARELY_DISCLOSED",
+    "response": "AFTER_TWO_INDEPENDENT_EXECUTED_TRANSFER_PASSES_DO_NOT_REPEAT_TRANSFERABILITY_ALONE_RAISE_THE_NEXT_EVIDENCE_PRIORITY_TO_AN_ACTUAL_SMALL_OPERATOR_SIZED_CONTROL_POSITION_WITH_VERIFIED_BUYER_SIDE_NET_CASHFLOW_BOUNDED_OWNER_LABOR_AND_NO_LARGE_ORGANIZATION_OR_CAPITAL_REQUIREMENT",
+    "participant_behavior_over_analyst_story": "PASS_F1_USES_OFFICIAL_LICENSE_AND_POST_LICENSE_ORDER_REPORTING_F2_USES_LOCAL_GOVERNMENT_EXCLUSIVE_AUTHORIZATION_AND_SALES_REPORTING_F3_USES_AUDITED_COMPLETED_EQUITY_TRANSFER_PLUS_CURRENT_ENERGY_RULES"
+  },
+  "scan_learnings": [
+    "SCAN106_SECOND_EXECUTED_CONTROL_TRANSFER_PLUS_POST_TRANSFER_ECONOMIC_CONTINUITY_PASS_ZERO_RETENTION_ACROSS_SODIUM_ION_TECH_LICENSE_HERITAGE_IP_EXCLUSIVE_AUTHORIZATION_AND_DISTRIBUTED_PV_CONTROL_TRANSFER",
+    "TECHNOLOGY_LICENSE_PLUS_LARGE_ORDERS_IS_STRONG_EXTERNAL_MOTION_BUT_ORDERS_ARE_NOT_RECEIVED_CASH_AND_MANUFACTURING_ORGANIZATION_CAN_REMAIN_THE_DECISIVE_VALUE_LAYER",
+    "EXCLUSIVE_CULTURAL_IP_PLUS_RMB50M_PRODUCT_SALES_PROVES_RIGHTS_CAN_DRIVE_REAL_COMMERCE_BUT_THE_LICENSE_CAN_BE_BUNDLED_WITH_PREEXISTING_DISTRIBUTION_CREATOR_AND_SUPPLY_CHAIN_CAPACITY",
+    "OPERATING_ENERGY_ASSET_CONTROL_CAN_TRANSFER_AND_O_AND_M_CAN_BE_OUTSOURCED_WHILE_THE_POSITION_REMAINS_CAPITAL_REGULATORY_AND_INFRASTRUCTURE_INTENSIVE",
+    "TWO_EXECUTED_TRANSFER_PASSES_SHOW_TRANSFERABILITY_PLUS_CONTINUING_ECONOMIC_MOTION_IS_NOT_SELECTIVE_ENOUGH_WITHOUT_SMALL_OPERATOR_SIZED_ENTRY_VERIFIED_NET_CASHFLOW_AND_BOUNDED_OWNER_LABOR",
+    "NEXT_EVIDENCE_PRIORITY_SHOULD_REQUIRE_ACTUAL_SMALL_OPERATOR_CONTROL_COST_POST_TRANSFER_RECEIVED_REVENUE_DIRECT_COSTS_OWNER_LABOR_AND_RIGHTS_CLOSURE_BEFORE_ANY_NEW_MECHANISM_IS_INFERRED"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_107",
+  "next_search_boundary": "FRESH_SMALL_OPERATOR_VERIFIED_NET_CASHFLOW_CONTROL_PASS_REQUIRE_AN_ACTUALLY_EXECUTED_THIRD_PARTY_ACQUISITION_LICENSE_OR_CONTRACT_OF_A_DECISIVE_NONCOMMODITY_POSITION_AT_SMALL_OPERATOR_SIZED_CONTROL_COST_PLUS_VERIFIED_POST_TRANSFER_RECEIVED_EXTERNAL_CUSTOMER_REVENUE_DIRECT_OPERATING_COSTS_OWNER_LABOR_AND_RIGHTS_SUFFICIENT_TO_ESTIMATE_NORMALIZED_NET_CASHFLOW_REQUIRE_NO_ORIGINAL_FOUNDER_OR_NEW_OPERATOR_FULL_TIME_MANUAL_DELIVERY_NO_LARGE_ORGANIZATION_OR_INFRASTRUCTURE_CAPITAL_DEPENDENCE_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_106_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_GENERIC_AGENT_MACHINE_DELEGATABILITY_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN106_WITH_CI_JEV_THEN_START_SCAN107_SMALL_OPERATOR_VERIFIED_NET_CASHFLOW_CONTROL_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.hunan.gov.cn/topic/qdgj/kcfn/gzjxs/szx/202507/t20250730_33753163.html",
+    "https://kjt.hunan.gov.cn/kjt/xxgk/gzdt/szdt/xt/202508/t20250821_33779417.html",
+    "https://www.yixing.gov.cn/doc/2025/03/03/1300804.shtml",
+    "https://www.yixing.gov.cn/doc/2025/10/31/1362942.shtml",
+    "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12263253&stockid=601778",
+    "https://www.nea.gov.cn/20250730/30f3a8b4af5f4e9d98bb8754ededc701/c.html"
+  ]
+}
