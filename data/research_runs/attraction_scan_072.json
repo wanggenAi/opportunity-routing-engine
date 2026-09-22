@@ -1,0 +1,143 @@
+{
+  "schema_version": "attraction-scan.v51",
+  "scan_id": "ATTRACTION_SCAN_072",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_FORMATION_DIVERSE_CURRENT_BUYER_BUDGET_REALITY_SECOND_PASS_WITH_DIRECT_EXTERNAL_PAYMENT_CONTRACT_OR_RECURRING_PROCUREMENT_EVIDENCE_FOR_BOUNDED_OUTCOMES_EXCLUDE_SCAN065_TO_071_FORMATIONS_NO_REQUIRED_MECHANISM_PRODUCT_SHAPE_ATOMICITY_ROUTING_OR_SOFTWARE_DELIVERY_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "budget_source_policy": "DOWNSTREAM_ROLE_OR_CONTRACT_BUDGET_EVIDENCE_NOT_DISCOVERY_ONTOLOGY",
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_072-F1",
+      "title": "NEMT_FLEET_COMPLIANCE_AUDIT",
+      "chinese_title": "非紧急医疗运输车队合规审计",
+      "buyer_budget_evidence": [
+        "A current NEMT operator seeks two independent contractors for less than 30 hours per week over more than six months at $8–$12/hour.",
+        "The recurring scope includes daily/weekly/monthly driver and trip audits, vehicle registration/insurance/inspection/maintenance checks, credential-expiry monitoring, GPS verification and compliance-violation investigation."
+      ],
+      "formation_frame": "Continuous driver, vehicle and trip-state changes regenerate compliance gaps and audit-readiness risk in NEMT operations.",
+      "exact_incumbent_preflight": "Current NEMT operations software already centralizes driver profiles/certifications, vehicle assignments, GPS tracking, maintenance logs, claims and fraud/trip verification.",
+      "founder_independence_check": "FAIL_STANDARD_MONITORING_STATE_IS_VERTICAL_SOFTWARE_WHILE_THE_RESIDUAL_IS_INVESTIGATION_CORRECTIVE_ACTION_AND_POLICY_ACCOUNTABILITY",
+      "data_action_rights_check": "PARTIAL_OPERATOR_CONTROLS_DRIVER_AND_TRIP_DATA_BUT_CORRECTIVE_ACTIONS_INSURANCE_AND_REGULATORY_ACCEPTANCE_REQUIRE_HUMAN_OR_EXTERNAL_PARTIES",
+      "normalized_margin_check": "WEAK_LOW_HOURLY_BUDGET_AND_HUMAN_INVESTIGATION_TAIL_DO_NOT_SUPPORT_A_CLEAN_NORMALIZED_OPERATOR_MARGIN",
+      "verdict": "DEMOTED_RECURRING_BUDGET_PASSES_BUT_CORE_COMPLIANCE_STATE_IS_ALREADY_VERTICAL_SOFTWARE_AND_THE_RESIDUAL_IS_HUMAN_AUDIT_ACCOUNTABILITY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_072-F2",
+      "title": "SECURITY_QUESTIONNAIRE_AND_VENDOR_AUDIT_RESPONSE",
+      "chinese_title": "安全问卷与供应商审计回复",
+      "buyer_budget_evidence": [
+        "A current company is hiring recurring 5–15 hour/week independent support for incoming third-party vendor audits, security questionnaires and compliance-document upkeep over more than six months.",
+        "The contractor is expected to meet SLAs, pull evidence, coordinate internal owners and maintain current policies/test/risk documentation."
+      ],
+      "formation_frame": "Enterprise sales and vendor due-diligence repeatedly regenerate evidence-request queues against a changing internal security posture.",
+      "exact_incumbent_preflight": "Conveyor currently automates questionnaire intake, cited answer generation, portal completion, reviewer routing, approvals and knowledge-library maintenance, and markets roughly 90% workflow automation.",
+      "founder_independence_check": "FAIL_THE_REPEATABLE_RESPONSE_LOOP_IS_A_MATURE_AI_CATEGORY_AND_THE_RESIDUAL_IS_APPROVAL_CURRENTNESS_AND_INTERNAL_OWNER_ACCOUNTABILITY",
+      "data_action_rights_check": "PASS_COMPANY_CONTROLS_THE_APPROVED_KNOWLEDGE_AND_CAN_AUTHORIZE_RESPONSES_BUT_FINAL_ATTESTATION_AND_EXCEPTION_APPROVAL_REMAIN_INTERNAL_HUMAN_CONTROLS",
+      "normalized_margin_check": "WEAK_MATURE_AI_TOOLS_COLLAPSE_ROUTINE_ANSWERING_COST_AND_LEAVE_LOW_VOLUME_EXCEPTION_REVIEW",
+      "verdict": "DEMOTED_REAL_RECURRING_BUDGET_BUT_END_TO_END_SECURITY_QUESTIONNAIRE_AUTOMATION_IS_ALREADY_A_CURRENT_CATEGORY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_072-F3",
+      "title": "FDA_NUTRITION_AND_FOOD_LABELING",
+      "chinese_title": "FDA 营养成分与食品标签合规",
+      "buyer_budget_evidence": [
+        "A current food company offers $20 per item category for Nutrition Facts, ingredient statements, allergen declarations and obvious labeling/compliance checks, with multiple products and potential ongoing work.",
+        "The posting records two hires, providing direct external money-motion evidence rather than stated interest alone."
+      ],
+      "formation_frame": "New SKUs, formula changes and packaging revisions repeatedly create a product-to-compliant-label state transition.",
+      "exact_incumbent_preflight": "Trustwell Genesis currently generates regulatory-compliant Nutrition/Supplement Facts labels from recipes, performs nutrient calculations and provides built-in allergen/ingredient-statement guardrails.",
+      "founder_independence_check": "FAIL_STANDARD_LABEL_GENERATION_IS_PRODUCTIZED_AND_THE_REMAINDER_REQUIRES_REGULATORY_INTERPRETATION_OR_PRODUCT_SPECIFIC_REVIEW",
+      "data_action_rights_check": "PASS_BUYER_CAN_SUPPLY_FORMULAS_AND_CONTROL_PACKAGING_BUT_REGULATORY_COMPLIANCE_RESPONSIBILITY_REMAINS_WITH_THE_FOOD_BUSINESS",
+      "normalized_margin_check": "FAIL_VISIBLE_BUYER_PRICE_OF_20_USD_PER_ITEM_CATEGORY_IS_TOO_LOW_FOR_A_NEW_EXPERT_ORCHESTRATION_LAYER_WITHOUT_LARGE_AUTOMATED_VOLUME",
+      "verdict": "DEMOTED_DIRECT_PAID_UNIT_EXISTS_BUT_EXACT_LABELING_SOFTWARE_AND_LOW_UNIT_ECONOMICS_COMPRESS_WHITE_SPACE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_072-F4",
+      "title": "CUSTOMS_ENTRY_PREPARATION_AND_TRADE_COMPLIANCE",
+      "chinese_title": "海关入境准备与贸易合规",
+      "buyer_budget_evidence": [
+        "A current seafood importer moving customs work in-house is hiring ongoing twice-weekly trade-compliance support for more than six months at $16–$45/hour.",
+        "The paid scope prepares/validates ABI entry data, HTS classification, FDA/NMFS/FWS data sets, product-master data and release/notices before the importer transmits under its own importer-of-record authority."
+      ],
+      "formation_frame": "Every inbound shipment regenerates classification, agency-data and customs-entry state that must be made submission-ready before release.",
+      "exact_incumbent_preflight": "Descartes CustomsInfo currently offers AI-enabled HS/HTS classification, customs-data validation, duty/tariff content and compliance workflow management across 190+ countries.",
+      "founder_independence_check": "FAIL_ROUTINE_CLASSIFICATION_AND_VALIDATION_ARE_PRODUCTIZED_WHILE_THE_RESIDUAL_CARRIES_COMMODITY_AGENCY_AND_PENALTY_EXPOSURE_JUDGMENT",
+      "data_action_rights_check": "PARTIAL_IMPORTER_CONTROLS_SOURCE_DATA_AND_FINAL_TRANSMISSION_BUT_CUSTOMS_AND_PGA_ACCEPTANCE_REMAINS_EXTERNAL",
+      "normalized_margin_check": "UNKNOWN_RECURRING_VOLUME_EXISTS_BUT_HUMAN_EXPERTISE_AND_PENALTY_LIABILITY_DOMINATE_THE_UNAUTOMATED_TAIL",
+      "verdict": "DEMOTED_STRONG_RECURRING_BUDGET_BUT_CURRENT_TRADE_COMPLIANCE_SOFTWARE_OWNS_THE_REPEATABLE_DATA_LAYER_AND_THE_RESIDUAL_IS_EXPERT_LIABILITY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_072-F5",
+      "title": "COMMERCIAL_PROPERTY_CAM_BILLING_AND_COLLECTIONS",
+      "chinese_title": "商业地产 CAM 计费核算与持续催收",
+      "buyer_budget_evidence": [
+        "A current Dallas commercial-property buyer seeks a long-running contractor for AppFolio setup followed by 5–8 hours/week ongoing billing, collections, lease-critical dates and annual CAM reconciliation.",
+        "The buyer has already spent more than $400K on the platform marketplace and is explicitly purchasing recurring operational ownership."
+      ],
+      "formation_frame": "Recurring lease charges, CAM true-ups, delinquency and critical-date state changes regenerate cash-collection and reconciliation work.",
+      "exact_incumbent_preflight": "AppFolio currently includes CAM tracking/reconciliation, automated late fees, bulk tenant charges, payment plans and standardized debt-collection flows.",
+      "founder_independence_check": "FAIL_THE_STANDARD_ACCOUNTING_CONTROL_SURFACE_IS_NATIVE_WHILE_THE_RESIDUAL_IS_LEASE_INTERPRETATION_TENANT_NEGOTIATION_TAKEOVER_SETUP_AND_ESCALATION_JUDGMENT",
+      "data_action_rights_check": "PASS_OWNER_CONTROLS_PROPERTY_ACCOUNTING_AND_TENANT_COMMUNICATION_RIGHTS_SUBJECT_TO_LEASE_AND_COLLECTION_RULES",
+      "normalized_margin_check": "WEAK_THE_ENGAGEMENT_TAPERS_TO_HUMAN_MONTHLY_OVERSIGHT_AND_COLLECTIONS_RATHER_THAN_A_DISTINCT_REUSABLE_EXECUTION_UNIT",
+      "verdict": "DEMOTED_POST_SOFTWARE_HUMAN_SPEND_PERSISTS_BUT_NATIVE_CAM_AND_COLLECTION_CONTROLS_EXIST_AND_THE_RESIDUAL_IS_PROPERTY_SPECIFIC_ACCOUNTABILITY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_072-F6",
+      "title": "GRANT_REPORTING_AND_COMPLIANCE_MANAGEMENT",
+      "chinese_title": "科研与政府资助报告合规管理",
+      "buyer_budget_evidence": [
+        "A current government/public-sector buyer is hiring a senior academic/grant-reporting advisor for more than six months at $15–$30/hour and records four hires.",
+        "The recurring scope spans research administration, grant compliance/reporting, financial tracking and Asia-region funding ecosystems."
+      ],
+      "formation_frame": "Award milestones, spending and funder requirements repeatedly regenerate reporting/compliance state until grant closeout.",
+      "exact_incumbent_preflight": "AmpliFund currently centralizes grant lifecycle management, compliance, performance tracking, drawdown and automated standardized reporting.",
+      "founder_independence_check": "FAIL_STANDARD_REPORTING_AND_TRACKING_ARE_PRODUCTIZED_WHILE_THE_RESIDUAL_REQUIRES_FUNDER_PROGRAM_REGIONAL_AND_NARRATIVE_JUDGMENT",
+      "data_action_rights_check": "PARTIAL_GRANTEE_CONTROLS_INTERNAL_PROJECT_AND_FINANCIAL_DATA_BUT_FUNDER_ACCEPTANCE_RULES_AND_PROGRAM_INTERPRETATION_REMAIN_EXTERNAL",
+      "normalized_margin_check": "UNKNOWN_LONG_RUNNING_ADVISORY_ROLE_SIGNALS_HUMAN_CONTEXT_AND_ACCOUNTABILITY_NOT_A_NORMALIZED_MACHINE_UNIT",
+      "verdict": "DEMOTED_RECURRING_BUDGET_PASSES_BUT_GRANT_MANAGEMENT_SOFTWARE_OWNS_STANDARD_REPORTING_AND_THE_RESIDUAL_IS_FUNDER_SPECIFIC_EXPERT_WORK"
+    }
+  ],
+  "scan_learnings": [
+    "SECOND_BROAD_FORMATION_DIVERSE_BUYER_BUDGET_PASS_AGAIN_FINDS_REAL_SPEND_WITHOUT_A_DISTINCT_FOUNDER_INDEPENDENT_OPERATOR_LAYER",
+    "CURRENT_ROLE_AND_CONTRACT_SPEND_REPEATEDLY_CONCENTRATES_AFTER_AUTOMATION_IN_EXCEPTION_OWNERSHIP_ACCOUNTABILITY_JUDGMENT_COORDINATION_OR_ADOPTION",
+    "NEMT_FLEET_COMPLIANCE_HAS_RECURRING_AUDIT_BUDGET_BUT_CURRENT_VERTICAL_SOFTWARE_ALREADY_OWNS_DRIVER_CREDENTIAL_GPS_MAINTENANCE_AND_VERIFICATION_STATE",
+    "SECURITY_QUESTIONNAIRE_RESPONSE_HAS_RECURRING_BUDGET_BUT_CURRENT_AI_PLATFORMS_AUTOMATE_INTAKE_ANSWERING_PORTALS_APPROVALS_AND_KNOWLEDGE_MAINTENANCE",
+    "FOOD_LABELING_HAS_CURRENT_PER_ITEM_SPEND_BUT_REGULATORY_LABEL_GENERATION_ALLERGEN_AND_NUTRITION_FACTS_WORKFLOWS_ARE_ALREADY_PRODUCTIZED_AND_LOW_UNIT_PRICE_COMPRESSES_MARGIN",
+    "CUSTOMS_ENTRY_PREPARATION_HAS_RECURRING_BUDGET_BUT_AI_CLASSIFICATION_DATA_VALIDATION_AND_COMPLIANCE_WORKFLOWS_ARE_MATURE_WHILE_AGENCY_SPECIFIC_LIABILITY_REMAINS_EXPERT_HEAVY",
+    "COMMERCIAL_PROPERTY_CAM_AND_COLLECTIONS_SPEND_PERSISTS_DESPITE_NATIVE_CAM_RECONCILIATION_LATE_FEE_AND_COLLECTION_CONTROL_BECAUSE_LEASE_INTERPRETATION_TENANT_NEGOTIATION_AND_TAKEOVER_SETUP_REMAIN_HUMAN",
+    "GRANT_REPORTING_HAS_LONG_RUNNING_BUDGET_BUT_CURRENT_GRANT_MANAGEMENT_SYSTEMS_ALREADY_AUTOMATE_STANDARD_REPORTING_AND_COMPLIANCE_WHILE_FUNDER_SPECIFIC_NARRATIVE_AND_PROGRAM_JUDGMENT_REMAIN",
+    "TWO_POST_RESET_BROAD_ROLE_BUDGET_PASSES_NOW_JUSTIFY_CHANGING_EVIDENCE_SOURCE_INSTEAD_OF_DERIVING_ANOTHER_MECHANISM_BOUNDARY",
+    "SCAN072_ZERO_RETENTION_AFTER_SECOND_BROAD_BUDGET_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_RIGHTS_AND_MARGIN_PREFLIGHT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_073",
+  "next_search_boundary": "BROAD_CURRENT_BUYER_SIDE_NON_ROLE_REPEAT_PURCHASE_PROCUREMENT_AWARD_INVOICE_OR_RENEWAL_SPEND_SIGNALS_FORMATION_DIVERSE_NO_JOB_POSTING_AS_SOLE_PAYER_EVIDENCE_NO_SELLER_DEFINED_PRODUCTIZED_SERVICE_AS_PRIMARY_SIGNAL_EXCLUDE_SCAN060_TO_072_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_AND_NORMALIZED_MARGIN_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN073_FROM_BUYER_SIDE_NON_ROLE_SPEND_SIGNALS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.upwork.com/freelance-jobs/apply/NEMT-Fleet-Compliance-Auditor_~022101720481523859737/",
+    "https://nemtos.com/solutions",
+    "https://www.upwork.com/freelance-jobs/apply/Compliance-Documentation-Vendor-Audit-Analyst_~022099878499980204097/",
+    "https://www.conveyor.com/products/security-questionnaire-automation",
+    "https://www.conveyor.com/changelog",
+    "https://www.upwork.com/freelance-jobs/apply/Nutrition-Facts-Food-Labeling-Specialist_~022087649334850451818/",
+    "https://www.trustwell.com/products/genesis/",
+    "https://www.trustwell.com/platform/make-compliant-labels/",
+    "https://www.upwork.com/freelance-jobs/apply/Trade-Compliance-Customs-Entry-Prep-Specialist-Part-Time-Twice-Weekly-Seafood-Imports_~022094899266059403602/",
+    "https://www.customsinfo.com/customs-compliance-software/",
+    "https://www.descartes.com/solutions/customs-and-regulatory-compliance",
+    "https://www.upwork.com/freelance-jobs/apply/Part-Time-Commercial-Property-Manager-NNN-Office-Flex-AppFolio-Setup-Ongoing-Collections_~022089484547231045262/",
+    "https://www.appfolio.com/property-manager/accounting-reporting/",
+    "https://www.upwork.com/freelance-jobs/apply/Senior-Advisor-Academic-Grant-Reporting-Asia-Region_~022079382642161271428/",
+    "https://info.amplifund.com/grant-management-software-new",
+    "https://info.amplifund.com/webinar-playback-role-gms-compliance"
+  ]
+}
