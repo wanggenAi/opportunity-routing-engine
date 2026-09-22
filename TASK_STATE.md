@@ -14,19 +14,19 @@ Reach the first real external value flow through a formation that survives bilat
 
 Validation: `ATTRACTION_SCAN_015-F1` still requires written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 083 is complete with zero retention. Validate it, then run one independent Scan 084 bilateral-partial-flow pass before changing the evidence object or deriving any mechanism.
+Discovery: execute `ATTRACTION_SCAN_084` as the second independent bilateral-partial-flow pass before changing the evidence object or deriving any mechanism.
 
 ## Current Phase
 
-`SCAN_083_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_084_IN_PROGRESS_SECOND_INDEPENDENT_BILATERAL_PARTIAL_FLOW_PASS`
 
 ## Last Verified Main
 
-`7acf69339be64a12d0067c38616865d0ed1b6efe`
-— squash merge of PR #380, `Advance to bilateral partial-flow discovery after Scan 082`.
+`958f91ae95519fa5204c6b4945334f2c00e7aa8b`
+— squash merge of PR #381, `Validate bilateral partial-flow discovery in Scan 083`.
 
-PR #380 final repository CI run `35688802061` completed `success`.
-PR #380 final live Jev run `35688802107` completed `success`: `typesafe-sdk==0.7.0`, model `jev-latest`, Scan 082 3/3 `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #381 final repository CI run `35689116606` completed `success`.
+PR #381 final live Jev run `35689116567` completed `success`: `typesafe-sdk==0.7.0`, `jev-latest`, Scan 083 3/3 `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -34,17 +34,17 @@ PR #380 final live Jev run `35688802107` completed `success`: `typesafe-sdk==0.7
 
 ## Active Branch
 
-`research/attraction-scan-083`
+`research/attraction-scan-084`
 
 ## Active PR
 
-#381 — `Validate bilateral partial-flow discovery in Scan 083`.
+None. Scan 084 research branch is active before PR creation.
 
 ## CI
 
 - PR #380 repository CI `35688802061`: success.
 - PR #380 live TypeSafe/Jev `35688802107`: success; Scan 082 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- Scan 083 PR/CI/live Jev has not run yet.
+- PR #381 final head `8de90794255a06388974f77b42d0ad2d9aa69a14`: repository CI `35689116606` success; live Jev `35689116567` success; Scan 083 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
 
 ## Latest Artifact / Persisted State
 
@@ -118,7 +118,7 @@ Discovery:
 
 ## Next Action
 
-Validate PR #381's final head with repository CI plus live TypeSafe/Jev; consume the continuation directive.
+Execute Scan 084 on an independent logistics / industrial-material / healthcare bilateral-flow sample and persist fail-closed findings.
 
 ## Do Not Repeat
 
