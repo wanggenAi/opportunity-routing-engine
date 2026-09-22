@@ -1,0 +1,151 @@
+{
+  "schema_version": "attraction-scan.v62",
+  "scan_id": "ATTRACTION_SCAN_086",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "SECOND_INDEPENDENT_PARTICIPANT_AUTHORED_CONTROL_SURFACE_BYPASS_FORMATION_DIVERSE_MANUAL_OR_OFF_PLATFORM_COMPLETION_DESPITE_AVAILABLE_EXACT_CONTROL_SURFACE_REQUIRE_EXPLICIT_PARTICIPANT_STATED_BYPASS_OR_INCOMPLETENESS_REASON_AND_REASON_CLASS_REPEATED_A_B_VALUE_TRANSFER_REPLENISHING_POPULATIONS_EXCLUDE_SCAN060_TO_085_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_086-F1",
+      "title": "VACATION_RENTAL_DIRECT_BOOKING_OUTSIDE_OTA_CONTROL_SURFACE",
+      "chinese_title": "短租房东在OTA可用时仍转向自有直订与直接收款",
+      "evidence_class": "PARTICIPANT_AUTHORED_ECONOMIC_BYPASS_OF_VACATION_RENTAL_OTA_BOOKING_CONTROL_SURFACE",
+      "actor_a_population": "Short-term-rental hosts repeatedly selling nights through OTA and direct channels.",
+      "actor_b_population": "Guests repeatedly reserving short-term stays and able to choose OTA or host-direct booking channels.",
+      "available_exact_control_surface": [
+        "Airbnb currently provides the booking, payment and support surface for home stays and is transitioning home hosts toward a single service-fee structure; most hosts on that structure pay 15.5%.",
+        "Airbnb's current Off-Platform and Fee Transparency Policy prohibits moving current, future or repeat Airbnb bookings off-platform and prohibits off-platform reservation payments except narrow stated exceptions."
+      ],
+      "participant_authored_manual_or_off_platform_completion": [
+        "In an August 2026 Airbnb-host discussion, a host states that direct bookings are paid by Venmo or Zelle and that guests save materially when booking direct; another host in the same discussion says direct clients use Zelle or Venmo and the savings are removed from the reservation price.",
+        "In an April 2026 Airbnb-host discussion, a host reports that only a couple of months after enabling direct booking, roughly one quarter of bookings were already direct and were being handled through multiple payment methods."
+      ],
+      "explicit_participant_bypass_or_incompleteness_reason": [
+        "Hosts explicitly connect direct booking to avoiding high OTA channel fees and preserving more of the stay economics.",
+        "Participants describe direct booking as attractive when the host already controls guest acquisition or repeat demand, because paying an OTA for that transaction adds cost without creating the lead."
+      ],
+      "bypass_reason_class": "ECONOMIC_CHANNEL_COST_AND_DISTRIBUTION_CONTROL",
+      "repeated_bilateral_value_transfer": "PASS_HOST_TO_GUEST_RESERVATION_PAYMENT_AND_STAY_TRANSFER_RECURS_ACROSS_REPLENISHING_HOST_AND_GUEST_POPULATIONS",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Guesty already offers integrated direct-booking engines, custom websites, real-time availability, payments and reservation APIs; Lodgify likewise sells direct-booking websites and secure payments without per-booking OTA commission.",
+        "Airbnb-originated current, future or repeat bookings remain subject to Airbnb's off-platform policy, while independently acquired direct demand is already served by mature PMS/direct-booking stacks."
+      ],
+      "founder_independence_check": "FAIL_FOR_DISTINCT_NEW_OPERATOR_POSITION_DIRECT_BOOKING_CAN_RUN_WITHOUT_FOUNDER_LABOR_BUT_MATURE_PMS_AND_HOST_OWNED_ACQUISITION_ALREADY_OWN_THE_REPEATABLE_EXECUTION_LAYER",
+      "data_action_rights_check": "MIXED_INDEPENDENTLY_ACQUIRED_DIRECT_BOOKINGS_HAVE_HOST_CONTROL_BUT_DIVERTING_AIRBNB_ORIGINATED_BOOKINGS_IS_POLICY_CONSTRAINED_AND_NOT_AN_OPEN_RIGHT",
+      "normalized_margin_check": "FAIL_FOR_NEW_ROUTING_LAYER_MATURE_DIRECT_BOOKING_SOFTWARE_ALREADY_MONETIZES_WEBSITE_RESERVATION_PAYMENT_SYNC_AND_PROTECTION_WHILE_GUEST_ACQUISITION_REMAINS_THE_HOST_OR_CHANNEL_ASSET",
+      "machine_delegatability_check": "PASS_RESERVATION_PAYMENT_CALENDAR_SYNC_AND_GUEST_WORKFLOWS_ARE_HIGHLY_MACHINE_DELEGATABLE_BUT_ALREADY_PRODUCTIZED",
+      "generic_agent_substitutability_check": "FAIL_GENERIC_AGENT_PLUS_MATURE_PMS_CAN_OPERATE_THE_DIRECT_BOOKING_WORKFLOW_WITHOUT_A_DISTINCT_NEW_CONTROL_ASSET",
+      "verdict": "DEMOTED_REAL_ECONOMIC_OTA_BYPASS_BUT_DIRECT_BOOKING_EXECUTION_IS_A_MATURE_PMS_CATEGORY_AND_AIRBNB_ORIGINATED_DIVERSION_IS_POLICY_CONSTRAINED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_086-F2",
+      "title": "EV_SMART_CHARGING_FALLBACK_TO_LOCAL_SCHEDULE_AND_PROVIDER_RECONFIGURATION",
+      "chinese_title": "智能电价充电调度失效后改本地计划并由能源商客服重配集成",
+      "evidence_class": "PARTICIPANT_AUTHORED_FUNCTIONAL_BYPASS_OF_SMART_EV_CHARGING_CONTROL_SURFACE",
+      "actor_a_population": "EV households repeatedly buying electricity and scheduling home charging around tariff windows.",
+      "actor_b_population": "Energy retailers and connected charger systems repeatedly scheduling and delivering household EV charging.",
+      "available_exact_control_surface": [
+        "Octopus Energy currently documents a Hypervolt integration in which the Octopus app connects to the charger and controls charging schedules.",
+        "Hypervolt currently documents Intelligent Octopus Go as an integrated smart-tariff flow where Octopus calculates and sends the schedule to Hypervolt without manual scheduling."
+      ],
+      "participant_authored_manual_or_off_platform_completion": [
+        "A June 2026 BMW i5 and Hypervolt Home 3 Pro user reports that Octopus showed a smart schedule but charging never began; manually creating a Hypervolt schedule or enabling Ultra Mode immediately charged the car at about 7.1 kW.",
+        "After the participant identified that the expected Octopus integration mode was absent, they contacted Octopus, sent the support team the relevant configuration clue, had the account integration changed, and reported that smart charging then worked."
+      ],
+      "explicit_participant_bypass_or_incompleteness_reason": [
+        "The official smart-control surface created a schedule but did not actually send or execute the command needed to start charging.",
+        "The working configuration depended on an account-side integration mode or feature flag that the participant could not set through the normal self-service flow."
+      ],
+      "bypass_reason_class": "FUNCTIONAL_CONFIGURATION_AND_CROSS_VENDOR_CONTROL_SYNC",
+      "repeated_bilateral_value_transfer": "PASS_HOUSEHOLD_TO_ENERGY_PROVIDER_ELECTRICITY_PURCHASE_AND_EV_CHARGING_CONTROL_RECURS_ACROSS_REPLENISHING_EV_HOUSEHOLDS",
+      "exact_incumbent_and_control_surface_preflight": [
+        "The exact Octopus-Hypervolt integration already exists and both providers publish setup and troubleshooting paths.",
+        "The decisive correction in the observed case was an Octopus-controlled account configuration change; local Hypervolt schedules are an existing fallback rather than an unowned external action rail."
+      ],
+      "founder_independence_check": "FAIL_FOR_INDEPENDENT_OPERATOR_THE_DECISIVE_SMART_TARIFF_INTEGRATION_STATE_REMAINS_PROVIDER_CONTROLLED_AND_SUPPORT_CAN_CHANGE_ACCOUNT_CONFIGURATION",
+      "data_action_rights_check": "FAIL_INDEPENDENT_OPERATOR_CANNOT_SET_OCTOPUS_ACCOUNT_FEATURE_FLAGS_OR_GUARANTEE_TARIFF_BILLING_AND_CHARGER_CONTROL_RIGHTS",
+      "normalized_margin_check": "FAIL_NO_DISTINCT_RECURRING_EXTERNAL_PAYER_FOR_A_NEW_OPERATOR_IS_EVIDENCED_BEYOND_PROVIDER_SUPPORT_AND_EXISTING_CHARGER_FUNCTIONS",
+      "machine_delegatability_check": "PARTIAL_DIAGNOSIS_AND_LOCAL_SCHEDULING_ARE_MACHINE_EXECUTABLE_BUT_PROVIDER_ACCOUNT_RECONFIGURATION_IS_PRIVILEGED",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CAN_TROUBLESHOOT_AND_CONFIGURE_PUBLIC_SETTINGS_BUT_CANNOT_EXERCISE_PROVIDER_ONLY_ACCOUNT_CONTROL",
+      "verdict": "DEMOTED_REAL_FUNCTIONAL_BYPASS_BUT_THE_SUCCESSFUL_SMART_CONTROL_FIX_REQUIRES_PROVIDER_PRIVILEGE_AND_THE_MANUAL_FALLBACK_IS_ALREADY_NATIVE_TO_THE_CHARGER"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_086-F3",
+      "title": "PARCEL_LOCKER_IDENTITY_FAILURE_TO_POST_OFFICE_HANDOVER",
+      "chinese_title": "包裹柜身份与标签映射失败后转邮局柜台完成交付",
+      "evidence_class": "PARTICIPANT_AUTHORED_INTEROPERABILITY_BYPASS_OF_PARCEL_LOCKER_COLLECTION_CONTROL_SURFACE",
+      "actor_a_population": "Online-shopping recipients repeatedly receiving parcels through lockers or staffed postal collection points.",
+      "actor_b_population": "Postal and cross-border carrier networks repeatedly routing parcels to authenticated last-mile collection endpoints.",
+      "available_exact_control_surface": [
+        "Australia Post currently provides Parcel Lockers with MyPost identity binding, arrival notification and an access code for collection.",
+        "Australia Post explicitly provides staffed Post Office collection as a fallback and transfers uncollected locker parcels to a nearby Post Office after the locker holding period."
+      ],
+      "participant_authored_manual_or_off_platform_completion": [
+        "An August 2026 Vinted buyer reports parcels shown as waiting at a locker but no Australia Post QR code; the buyer went to the attached Post Office and found all of the parcels waiting there.",
+        "The same current discussion traces the failure to cross-carrier label manifestation: the freight-forwarded label omitted the recipient's unique Parcel Locker number, while another participant reported parcels that reached lockers but were not automatically bound into the Australia Post account."
+      ],
+      "explicit_participant_bypass_or_incompleteness_reason": [
+        "The personalized Parcel Locker identifier had been removed from the cross-border shipping label, so Australia Post could not issue the parcel into the intended locker identity flow.",
+        "Participants describe a manifest/tracking interoperability failure between Vinted or its freight-forwarding path and Australia Post, leaving the staffed Post Office as the practical recovery surface."
+      ],
+      "bypass_reason_class": "FUNCTIONAL_INTEROPERABILITY_AND_IDENTITY_MAPPING",
+      "repeated_bilateral_value_transfer": "PASS_RECIPIENT_TO_POSTAL_NETWORK_PARCEL_HANDOVER_RECURS_ACROSS_REPLENISHING_ECOMMERCE_RECIPIENTS_AND_SHIPMENTS",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Australia Post already owns Parcel Locker identity, access-code issuance, parcel custody and the staffed Post Office fallback.",
+        "The observed defect originates in upstream label or manifest composition; remediation therefore sits with the shipping platform, freight-forwarding integration or Australia Post's own identity mapping rather than a new independent release authority."
+      ],
+      "founder_independence_check": "FAIL_FOR_INDEPENDENT_OPERATOR_PARCEL_RELEASE_AND_LOCKER_OR_POST_OFFICE_CUSTODY_RIGHTS_REMAIN_WITH_THE_POSTAL_NETWORK",
+      "data_action_rights_check": "FAIL_INDEPENDENT_OPERATOR_CANNOT_MINT_LOCKER_ACCESS_CODES_REBIND_POSTAL_IDENTITY_OR_RELEASE_CUSTODIED_PARCELS_WITHOUT_CARRIER_AUTHORIZATION",
+      "normalized_margin_check": "FAIL_NO_DISTINCT_RECURRING_PAYER_FOR_A_NEW_OPERATOR_IS_EVIDENCED_AND_THE_ROOT_FIX_IS_AN_INTEGRATION_OR_LABEL_CORRECTION_OWNED_UPSTREAM",
+      "machine_delegatability_check": "PARTIAL_LABEL_VALIDATION_AND_EXCEPTION_DETECTION_ARE_MACHINE_EXECUTABLE_BUT_PHYSICAL_RELEASE_AND_IDENTITY_OVERRIDE_REMAIN_PRIVILEGED",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CAN_DIAGNOSE_TRACKING_AND_DIRECT_A_USER_TO_THE_POST_OFFICE_BUT_CANNOT_CREATE_POSTAL_RELEASE_RIGHTS",
+      "verdict": "DEMOTED_REAL_INTEROPERABILITY_BYPASS_BUT_POSTAL_IDENTITY_CUSTODY_AND_FALLBACK_HANDOVER_REMAIN_INCUMBENT_CONTROLLED_AND_THE_ROOT_FIX_IS_UPSTREAM_INTEGRATION"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "inherited_mechanism_as_requirement": false,
+    "discovery_started_from_participant_authored_bypass": true,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "formation_diversity": "PASS_VACATION_RENTAL_COMMERCE_HOME_EV_ENERGY_AND_CROSS_BORDER_PARCEL_COLLECTION",
+    "participant_behavior_over_analyst_story": "PASS_ALL_THREE_FORMATIONS_START_FROM_CURRENT_PARTICIPANT_REPORTED_SUCCESSFUL_BYPASS_OR_MANUAL_COMPLETION_WITH_AN_EXPLICIT_CAUSE",
+    "second_pass_signal_assessment": "TWO_INDEPENDENT_PARTICIPANT_AUTHORED_BYPASS_PASSES_NOW_SHOW_THAT_BYPASS_IS_A_STRONG_RESIDUAL_SENSOR_BUT_STILL_OVERSELECTS_MATURE_ALTERNATE_RAILS_PROVIDER_PRIVILEGED_CONFIGURATION_AND_INCUMBENT_FALLBACK_PATHS",
+    "response": "CHANGE_THE_NEXT_EVIDENCE_OBJECT_ONLY_AFTER_THIS_SECOND_PASS_TO_INDEPENDENTLY_REPLICATED_PARTICIPANT_CONTROLLED_COMPLETION_WHERE_THE_DECISIVE_STEP_DOES_NOT_DEPEND_ON_AN_INCUMBENT_PRIVILEGED_EXCEPTION_OR_FALLBACK;_DO_NOT_INHERIT_A_PRODUCT_MECHANISM"
+  },
+  "scan_learnings": [
+    "SCAN086_SECOND_INDEPENDENT_PARTICIPANT_AUTHORED_CONTROL_SURFACE_BYPASS_PASS_ZERO_RETENTION_ACROSS_VACATION_RENTAL_DIRECT_BOOKING_SMART_EV_CHARGING_AND_PARCEL_LOCKER_RECOVERY",
+    "TWO_INDEPENDENT_BYPASS_PASSES_CONFIRM_THAT_PARTICIPANT_AUTHORED_BYPASS_IS_A_USEFUL_RESIDUAL_SENSOR_BUT_NOT_A_WHITE_SPACE_TEST",
+    "ECONOMIC_BYPASS_CAN_BE_REAL_AND_HIGH_ENERGY_WHILE_THE_ALTERNATE_TRANSACTION_STACK_IS_ALREADY_A_MATURE_PRODUCT_CATEGORY",
+    "FUNCTIONAL_CROSS_VENDOR_FAILURE_CAN_RESOLVE_THROUGH_PROVIDER_ONLY_CONFIGURATION_OR_SUPPORT_PRIVILEGE_RATHER_THAN_AN_OPEN_OPERATOR_EDGE",
+    "IDENTITY_OR_INTEROPERABILITY_FAILURE_CAN_FORCE_MANUAL_COMPLETION_WHILE_PHYSICAL_CUSTODY_AND_RELEASE_RIGHTS_REMAIN_WITH_THE_INCUMBENT_NETWORK",
+    "THE_NEXT_STRONGER_SIGNAL_SHOULD_REQUIRE_INDEPENDENT_REPLICATION_PLUS_PARTICIPANT_OR_OPEN_CONTROL_OF_THE_DECISIVE_COMPLETION_STEP_RATHER_THAN_INCUMBENT_MANUAL_EXCEPTION_OR_FALLBACK",
+    "DO_NOT_DERIVE_A_MARKETPLACE_ROUTER_OR_INTEGRATION_PRODUCT_FROM_BYPASS_EVIDENCE_ALONE"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_087",
+  "next_search_boundary": "INDEPENDENTLY_REPLICATED_PARTICIPANT_CONTROLLED_COMPLETION_AFTER_CONTROL_SURFACE_BYPASS_REQUIRE_AT_LEAST_TWO_UNAFFILIATED_PARTICIPANT_ACCOUNTS_OF_THE_SAME_SUCCESSFUL_BYPASS_PATTERN_WITH_EXPLICIT_PARTICIPANT_STATED_REASON_CLASS_AND_DECISIVE_COMPLETION_WITHOUT_INCUMBENT_PRIVILEGED_FALLBACK_OR_MANUAL_EXCEPTION_BEFORE_PRODUCT_CATEGORY_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_EXCLUDE_SCAN060_TO_086_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN086_WITH_REPOSITORY_CI_AND_LIVE_JEV_THEN_START_SCAN087_IF_AUTONOMOUS_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/airbnb_hosts/comments/1w3g96r/airbnb_piloting_6_direct_booking_links/",
+    "https://www.reddit.com/r/airbnb_hosts/comments/1skr14u/hosts_with_your_own_direct_booking_website_is_it/",
+    "https://www.airbnb.com/help/article/1857",
+    "https://www.airbnb.com/help/article/2799",
+    "https://help.guesty.com/hc/en-gb/articles/9362217514141-Understanding-Guesty-s-direct-booking-solutions",
+    "https://www.reddit.com/r/OctopusEnergy/comments/1uibvgv/i5_hypervolt_pro3_intelligent_go_issue_smart/",
+    "https://octopus.energy/blog/intelligent-go-faqs/faq-hypervolt-signup/",
+    "https://support.hypervolt.co.uk/en/knowledge-base/smart-tariffs",
+    "https://www.reddit.com/r/vinted/comments/1vmvlmt/auspost_lockers_missing_parcels_address_labels/",
+    "https://auspost.com.au/personal/receiving/parcel-deliveries/parcel-lockers",
+    "https://auspost.com.au/personal/receiving/parcel-deliveries/missed-parcel-deliveries"
+  ]
+}
