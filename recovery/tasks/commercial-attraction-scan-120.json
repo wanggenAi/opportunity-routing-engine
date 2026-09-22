@@ -1,27 +1,36 @@
 {
   "schema_version": 2,
-  "generation": 3,
+  "generation": 4,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "WAITING_CI",
+  "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-120",
-  "stage": "SCAN_120_PR_EXACT_HEAD_VALIDATION",
+  "stage": "SCAN_120_READY_TO_MERGE",
   "last_observed_main_sha": "6443175f9a9dc0e9f02a96519a6c365299d3e820",
   "work_branch": "research/attraction-scan-120",
   "work_head_sha": "3e44f5d8d891a02d72e6976e467abb01a0710e8f",
   "active_pr": 420,
   "ci": {
-    "run_id": null,
+    "run_id": 35763544113,
     "head_sha": "3e44f5d8d891a02d72e6976e467abb01a0710e8f",
-    "status": "WAITING",
-    "conclusion": null
+    "status": "COMPLETED",
+    "conclusion": "SUCCESS"
   },
   "production_or_artifact": {
-    "status": "NOT_APPLICABLE",
+    "status": "VERIFIED",
     "evidence": [
-      "Scan119 PR419 exact-head CI/Jev succeeded and ADVANCE_TO_NEXT_SCAN was consumed."
+      "repository CI 35763544113 success on exact head 3e44f5d8d891a02d72e6976e467abb01a0710e8f",
+      "live TypeSafe/Jev 35763544245 success on exact head; 3/3 NO_FURTHER_RESEARCH; ADVANCE_TO_NEXT_SCAN",
+      "Jev artifact 10711351509"
     ]
   },
-  "pending_operation": null,
+  "pending_operation": {
+    "operation_id": "scan120-merge-pr420",
+    "kind": "MERGE_PULL_REQUEST",
+    "target": "PR #420",
+    "phase": "PREPARED",
+    "idempotency": "Read PR merged state and main history before any retry; enforce expected head SHA.",
+    "prepared_generation": 4
+  },
   "health": {
     "recovery": "HEALTHY",
     "last_error": null
@@ -31,7 +40,7 @@
     "Persisted Scan120 start state and inverted retrieval order in TASK_STATE.",
     "Persisted Scan120 JSON, report, regression test, commercial reset state and final TASK_STATE."
   ],
-  "next_action": "Wait for exact-head repository CI and live TypeSafe/Jev; consume directive; merge only if acceptable.",
+  "next_action": "Merge PR420 with expected exact head, verify main, then start Scan121 because Jev allowed autonomous continuation.",
   "do_not_repeat": [
     "Do not repeat Scan060-119 primary formations/signals.",
     "Do not recreate research/attraction-scan-120.",
