@@ -14,25 +14,25 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 101 is complete with zero retention after the first `OPERATOR-ACQUIRABLE CONTROL + EXTERNAL ECONOMIC MOTION` pass. Scan 102 may begin only if the Scan 101 exact final PR head passes repository CI plus live TypeSafe/Jev and authorizes continuation.
+Discovery: PR #399 exact final head passed repository CI plus live TypeSafe/Jev and was squash-merged. Scan 102 is active as the second independent `OPERATOR-ACQUIRABLE CONTROL + EXTERNAL ECONOMIC MOTION` pass on a fresh formation-diverse China sample.
 
 ## Current Phase
 
-`SCAN_101_COMPLETE_AWAITING_FINAL_PR_CI_JEV`
+`SCAN_102_RESEARCH_ACTIVE`
 
 ## Last Verified Main
 
-`6846fb14a5d601bf47a84b3af0c8de82cb51f221`
-— squash merge of PR #398, `Complete second operator control advantage Scan 100`.
+`52f88cf8ab68cf1ad94a414fd858679b00b636ff`
+— squash merge of PR #399, `Run operator-acquirable control Scan 101`.
 
-PR #398 final head `ca3d8e59763c2a7fab3678892e37605f2b840b00`:
-- repository CI run `35717801538`: success;
-- live TypeSafe/Jev run `35717801496`: success;
+PR #399 final head `7d8456465a7a2b78f83e39c5e303ee73e3e639b4`:
+- repository CI run `35718693827`: success;
+- live TypeSafe/Jev run `35718693904`: success;
 - 3/3 effective route `NO_FURTHER_RESEARCH`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That directive was consumed to run Scan 101.
+That directive is consumed to start Scan 102.
 
 ## Active Issue
 
@@ -40,20 +40,17 @@ That directive was consumed to run Scan 101.
 
 ## Active Branch
 
-`research/attraction-scan-101`
+`research/attraction-scan-102`
 
 ## Active PR
 
-#399 — `Run operator-acquirable control Scan 101`.
-
-This TASK_STATE binding commit intentionally advances the PR head once. Repository CI and live TypeSafe/Jev must validate the resulting exact final head before merge.
+None yet. Open a PR only after Scan 102 evidence, persisted state and regression coverage are complete.
 
 ## CI
 
-- PR #398 final-head repository CI `35717801538`: success.
-- PR #398 live TypeSafe/Jev `35717801496`: success; `ADVANCE_TO_NEXT_SCAN`.
-- PR #399 final-head validation: pending after this TASK_STATE binding commit.
-- Do not merge PR #399 or start Scan 102 from an earlier head.
+- PR #399 final-head repository CI `35718693827`: success.
+- PR #399 live TypeSafe/Jev `35718693904`: success; `ADVANCE_TO_NEXT_SCAN`.
+- Scan 102 branch validation: not yet requested because research is active.
 
 ## Parallel Validation
 
@@ -63,64 +60,40 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-New:
-- `data/research_runs/attraction_scan_101.json`;
-- `docs/research/ATTRACTION_SCAN_101_2026-09-22.md`;
-- `tests/test_attraction_scan_101_operator_acquirability.py`.
-
-Updated:
-- `data/commercial_reset_state.json`;
-- `TASK_STATE.md`.
-
-Persisted state:
+Current authoritative persisted research state on `main`:
 - last completed scan = `ATTRACTION_SCAN_101`;
 - last resolved formation = `ATTRACTION_SCAN_101-F3`;
 - next scan = `ATTRACTION_SCAN_102`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
+
+Scan 102 files do not exist yet.
 
 ## Completed
 
-- Consumed PR #398 exact final-head Jev continuation and created `research/attraction-scan-101` from exact merged main.
-- Ran the first operator-acquirable-control + external-economic-motion evidence pass on a fresh formation-diverse China sample.
-- Examined public ingress/public IPv4, burst GPU training capacity and discounted multi-carrier outbound shipping.
-- Required evidence that the decisive asset/right/routing position is legally acquirable by an independent small operator and that current external money moves through the outcome.
-- Persisted Scan 101 JSON, research note, regression test and reset-state advancement.
+- Verified PR #399 exact final-head repository CI success.
+- Verified real TypeSafe/Jev execution using `typesafe-sdk==0.7.0` and `jev-latest`.
+- Consumed the actual Jev continuation directive: 3/3 `NO_FURTHER_RESEARCH`, autonomous continuation allowed, `ADVANCE_TO_NEXT_SCAN`.
+- Confirmed PR #399 squash-merged to `main` at `52f88cf8ab68cf1ad94a414fd858679b00b636ff`.
+- Created `research/attraction-scan-102` from that exact merged main.
 
-## Current Findings
+## Scan 101 Learning
 
-### Scan 101-F1 — self-hosted public ingress
+Scan 101 proved that the acquirability filter corrects the upstream-gatekeeper problem from Scans 099-100: public ingress, GPU capacity and outbound shipping-rate routing can all be acquired through ordinary commercial channels and all have real external money motion.
 
-The participant solved the need through an actual RMB 99/year Alibaba Cloud route. EIP/VPS/tunnel control is independently acquirable, but direct low-cost cloud plus Cloudflare/Tailscale-style tunnel substitutes make the control commodity and generic-agent configurable.
+All three still failed because the tested control assets were commodity/open-to-many and exact incumbents already packaged the routing layer.
 
-### Scan 101-F2 — burst GPU training capacity
+One pass is insufficient to promote asymmetry/distribution into a new ontology. Scan 102 must independently repeat the same entrance on fresh formations.
 
-GPU hardware can be independently owned and capacity rented; participants already spend on rental for training. AutoDL already prices, reserves, migrates and routes GPU capacity. No privileged supply cost, unique pool or distribution advantage is evidenced.
+## Scan 102 Required Entrance
 
-### Scan 101-F3 — discounted multi-carrier outbound shipping
-
-Enterprise courier APIs/rate accounts are acquirable and current participant evidence includes actual discount-platform use plus a current operator reporting about RMB 0.30 markup per order. Kuaidi100 already packages multi-carrier price/order/fallback routing, and observed unit economics are thin.
-
-## Scan 101 Result
-
-First operator-acquirable-control + external-economic-motion pass completed with zero commercial promotions and zero retained research formations.
-
-State truth:
-- last completed scan = `ATTRACTION_SCAN_101`;
-- last resolved formation = `ATTRACTION_SCAN_101-F3`;
-- next scan = `ATTRACTION_SCAN_102`;
-- active commercial candidates = 0;
-- FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
-
-## Learning
-
-Scan 101 corrects the upstream-rights failure seen in Scans 099-100: all three control assets are realistically acquirable.
-
-The repeated problem in this one pass is different:
-
-`ACQUIRABLE CONTROL + REAL PAYMENT != DURABLE OPERATOR ADVANTAGE`.
-
-The tested assets are valuable but commodity/open-to-many. One pass is insufficient to derive asymmetric control or embedded distribution as a new search ontology. Scan 102 must repeat the same entrance on a second independent fresh sample before changing the boundary.
+- direct current/recent China participant-recorded friction;
+- independent objective corroboration;
+- current external payment/spend/direct-margin evidence;
+- decisive non-generic asset/right/routing position legally acquirable by an independent small operator through standardized channels;
+- fresh formations and primary signals not used in Scans 060-101;
+- exact incumbent/native/open-source/generic-agent/founder-independence/normalized-margin/machine-delegatability/discoverability/rights preflight;
+- fail closed.
 
 ## Blockers
 
@@ -128,11 +101,12 @@ Validation:
 - Scan 015-F1 still needs an actual official written provider response/agreement and founder-free inbound proof.
 
 Engineering:
-- Scan 101 requires a PR plus repository CI and live TypeSafe/Jev on the exact final head.
-- Do not merge or start Scan 102 from an earlier head.
+- no current Jev integration blocker;
+- Scan 102 has not yet produced a PR head.
 
 Discovery:
-- Scan 102 is gated on the exact final-head continuation directive.
+- do not reuse Scan 101 public ingress, GPU capacity or outbound courier aggregation;
+- do not derive asymmetric control until the second independent pass is complete.
 
 ## Do Not Repeat
 
@@ -182,4 +156,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Validate PR #399 exact final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, then start Scan 102 only if `autonomous_continuation_allowed=true`.
+Run Scan 102 as the second independent operator-acquirable-control + external-economic-motion pass on a fresh formation-diverse China sample; persist only evidence-supported outcomes, then add regression coverage and update durable state before opening a PR.
