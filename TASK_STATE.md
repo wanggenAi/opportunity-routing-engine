@@ -18,7 +18,7 @@ Discovery: `ATTRACTION_SCAN_106` is complete as the second independent executed 
 
 ## Current Phase
 
-`SCAN_106_PR_VALIDATION_READY`
+`SCAN_106_PR_VALIDATION_ACTIVE`
 
 ## Last Verified Main
 
@@ -46,13 +46,17 @@ That directive was consumed to start Scan 106.
 
 ## Active PR
 
-None yet. Open the Scan 106 PR and validate only its exact final head.
+#404 — `Run small-operator transfer continuity Scan 106`.
+
+Pre-checkpoint PR head: `f146e0cb74c10e3077462c7d901e3d66da992911`.
+GitHub live PR head is authoritative after this TASK_STATE update.
 
 ## CI
 
 - PR #403 exact-final-head repository CI `35732927512`: success.
 - PR #403 live TypeSafe/Jev `35732927526`: success; 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- Scan 106 branch validation: pending PR creation.
+- PR #404 repository CI / live TypeSafe-Jev: pending on the exact final PR head after this TASK_STATE update.
+- Do not consume an older run if the head changes.
 
 ## Parallel Validation
 
@@ -194,4 +198,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open the Scan 106 PR, bind this checkpoint to its final head, run repository CI and live TypeSafe/Jev, then consume only the actual exact-head continuation directive.
+Wait for PR #404's exact final head repository CI and live TypeSafe/Jev to reach terminal state. Read the actual Jev continuation directive and, if autonomous continuation is allowed, consume it immediately.
