@@ -1,0 +1,215 @@
+{
+  "schema_version": "attraction-scan.v83",
+  "scan_id": "ATTRACTION_SCAN_109",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "THIRD_INDEPENDENT_SMALL_OPERATOR_VERIFIED_NET_CASHFLOW_CONTROL_PASS_WITH_DIRECT_OPERATOR_RECORD_PRIORITY_REQUIRE_SAME_OPERATOR_SAME_CONTROL_POSITION_SAME_TIME_WINDOW_EXECUTED_ACQUISITION_LICENSE_OR_CONTRACT_CONTROL_COST_RECEIVED_EXTERNAL_CUSTOMER_REVENUE_COMPLETE_DIRECT_OPERATING_COSTS_OWNER_LABOR_OR_EXPLICIT_REPLACEMENT_COST_RIGHTS_CLOSURE_AND_REALIZED_OR_BOUNDED_EXIT_VALUE_PREFER_SINGLE_SOURCE_OR_CROSS_CORROBORATED_IDENTITY_PACKETS_REQUIRE_FOUNDER_LIGHT_MACHINE_DELEGATABLE_DELIVERY_AND_NONCOMMODITY_CONTROL_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_108_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_109-F1",
+      "title": "CHINA_QINGDAO_SELF_SERVICE_SHRIMP_HOTPOT_FRANCHISE_DIRECT_OPERATOR_FAILURE_WITH_REALIZED_SHUTDOWN_BUT_UNCLOSED_RESIDUALS",
+      "discovery_route": "CURRENT_2026_LOCAL_NEWS_DIRECTLY_INTERVIEWS_ONE_SMALL_OPERATOR_AND_THE_COUNTERPARTY_ABOUT_THE_SAME_QINGDAO_FRANCHISE_STORE_FROM_ENTRY_THROUGH_FOUR_MONTHS_OF_TRADING_AND_SHUTDOWN",
+      "observed_actor_state_change_evidence": [
+        "A September 2026 Bandao report identifies a Shanxi small-restaurant operator who opened one Jianglaolao self-service shrimp-hotpot franchise store in Qingdao Chengyang Gaoxinqu Lanxiucheng after a franchise/service relationship was arranged.",
+        "The operator reports more than RMB1.5 million total entry spending, including a franchise fee above RMB100,000 and renovation above RMB400,000; the counterparty confirms a one-year guidance-service contract.",
+        "The same store reported RMB600,000-700,000 first-month sales but more than RMB200,000 first-month loss after raw materials, rent and labor; second-month loss was RMB30,000-40,000.",
+        "After roughly four months the same operator could no longer pay wages or rent and closed the store."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The operator obtained a branded restaurant position, a mall lease footprint, supplied fit-out/equipment and a one-year service relationship rather than merely buying commodity equipment.",
+        "Customer payments were real and large enough to prove demand, but the brand/supply/point position did not convert gross turnover into normalized positive cashflow."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "After the first-month loss the operator changed sourcing for some ingredients and raised prices, then borrowed from relatives and friends to continue trading.",
+        "The store used online influencer traffic at opening and continued online promotion, showing acquisition was an active operating input rather than passive machine demand."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "Entry cost, received sales, major operating-cost categories, monthly losses and shutdown all bind to the same reported store/operator, making this a substantially tighter packet than a franchise calculator.",
+        "The complete direct-cost ledger is still not itemized, exact owner hours/replacement cost are not published, and the operator's claimed total loss exceeds the independently closed line items.",
+        "Residual value is unsettled: the operator says a RMB50,000-60,000 final inventory return was not reimbursed; the counterparty says some franchise/service fee may be refundable and disputes the claimed total loss.",
+        "The underlying restaurant remains labor-, sourcing-, promotion- and site-intensive, so the packet does not establish founder-light machine-delegatable delivery."
+      ],
+      "economic_signal": [
+        "Same-operator reported entry spend exceeds RMB1.5 million.",
+        "Same-store first-month sales were RMB600,000-700,000 with reported loss above RMB200,000 after raw material, rent and labor; second-month loss was RMB30,000-40,000.",
+        "The store shut after about four months when wages and rent could no longer be paid."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Brand/service terms, mall point access, supply terms and customer-acquisition channels remain outside the operator's exclusive reusable control.",
+        "The counterparty confirms a one-year service contract but disputes liability, showing the control relationship is contractual and contested rather than an operator-owned transferable rail.",
+        "Equivalent restaurant operators can contract for comparable branded or unbranded food-service positions; no compounding routing/control asset is evidenced."
+      ],
+      "executed_control_transfer_check": "PASS_AN_ACTUAL_SMALL_OPERATOR_ENTERED_AND_OPERATED_ONE_QINGDAO_FRANCHISE_STORE_UNDER_A_CONFIRMED_ONE_YEAR_GUIDANCE_SERVICE_CONTRACT_AND_PAID_ENTRY_RENOVATION_AND_INVENTORY_COSTS",
+      "post_transfer_external_economic_continuity_check": "PASS_NEGATIVE_OUTCOME_REAL_CUSTOMER_SALES_CONTINUED_FOR_MULTIPLE_MONTHS_AFTER_ENTRY_BUT_THE_STORE_REMAINED_LOSS_MAKING_AND_CLOSED_AFTER_ABOUT_FOUR_MONTHS",
+      "fresh_small_operator_entry_check": "PASS_THE_OPERATOR_PREVIOUSLY_RAN_A_SMALL_RESTAURANT_AND_THIS_PACKET_CONCERNS_ONE_NEWLY_OPENED_STORE_NOT_A_LARGE_NETWORK_OPERATOR",
+      "same_operator_economic_binding_check": "PARTIAL_PASS_ENTRY_SPEND_SALES_MAJOR_COST_CATEGORIES_MONTHLY_LOSSES_AND_SHUTDOWN_BIND_TO_ONE_OPERATOR_AND_STORE_BUT_COMPLETE_COSTS_OWNER_LABOR_AND_FINAL_RESIDUAL_SETTLEMENT_DO_NOT",
+      "direct_operating_cost_check": "PARTIAL_PASS_RAW_MATERIAL_RENT_LABOR_FRANCHISE_RENOVATION_AND_INVENTORY_COSTS_ARE_IDENTIFIED_AND_NET_LOSS_IS_REPORTED_BUT_A_COMPLETE_PERIOD_LEDGER_IS_NOT_PUBLIC",
+      "owner_labor_check": "UNKNOWN_THE_OPERATOR_ACTIVELY_CHANGED_SOURCING_PRICING_FINANCING_AND_PROMOTION_BUT_EXACT_OWNER_HOURS_OR_REPLACEMENT_MANAGEMENT_COST_ARE_NOT_PUBLISHED",
+      "founder_independence_check": "FAIL_RESTAURANT_SOURCING_PRICING_PROMOTION_STAFFING_AND_EXCEPTION_MANAGEMENT_REMAIN_ACTIVE_OPERATOR_FUNCTIONS_AND_THE_CASE_DOES_NOT_SHOW_FOUNDER_FREE_OPERATION",
+      "data_action_rights_check": "PARTIAL_PASS_A_ONE_YEAR_GUIDANCE_SERVICE_CONTRACT_AND_ACTUAL_STORE_CONTROL_EXIST_BUT_FRANCHISE_BRAND_SUPPLY_MALL_AND_TRANSFER_RIGHTS_PLUS_FINAL_REFUND_SETTLEMENT_ARE_NOT_CLOSED",
+      "normalized_margin_check": "FAIL_TO_CLOSE_THE_NEGATIVE_DIRECTION_IS_REAL_AND_STRONGLY_EVIDENCED_BUT_COMPLETE_OWNER_LABOR_AND_FINAL_RESIDUAL_VALUE_ARE_NOT_BOUND_FOR_A_FULL_LIFECYCLE_NORMALIZED_CASHFLOW",
+      "machine_delegatability_check": "FAIL_CORE_DELIVERY_IS_PHYSICAL_FOOD_SERVICE_WITH_RECURRING_STAFF_SOURCING_SANITATION_AND_LOCAL_PROMOTION_NOT_A_MACHINE_EXECUTABLE_CONTROL_POSITION",
+      "generic_agent_substitutability_check": "FAIL_FOR_DISTINCTIVE_ROUTING_THE_EVIDENCED_POSITION_IS_A_CONVENTIONAL_FRANCHISE_RESTAURANT_RELATIONSHIP_AND_MALL_POINT_NOT_A_REUSABLE_OPERATOR_OWNED_DECISION_GRAPH",
+      "verdict": "DEMOTED_TIGHT_SAME_OPERATOR_FAILURE_EVIDENCE_SHOWS_REAL_NEGATIVE_CASHFLOW_BUT_NOT_FOUNDER_LIGHT_CONTROL_AND_FINAL_RESIDUAL_RIGHTS_REMAIN_UNSETTLED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_109-F2",
+      "title": "CHINA_GUANGZHOU_PAID_STUDY_ROOM_DIRECT_OPERATOR_WITH_MACHINE_LIGHT_SERVICE_BUT_ESTIMATED_NOT_REALIZED_P_AND_L",
+      "discovery_route": "CURRENT_2026_GUANGZHOU_DAILY_OPERATOR_INTERVIEW_BINDS_ONE_NEW_PAID_STUDY_ROOM_TO_ITS_LEASE_FOOTPRINT_RENT_SEAT_COUNT_AND_OPERATOR_RETURN_ESTIMATE_WHILE_ACTUAL_RECEIPTS_COMPLETE_COSTS_AND_EXIT_REMAIN_UNPUBLISHED",
+      "observed_actor_state_change_evidence": [
+        "A July 2026 Guangzhou Daily report interviews Mr Zhang, who this year rented a 110-square-meter second-floor commercial space and converted it into a paid study room with more than 40 seats.",
+        "The same operator's monthly rent is RMB5,700 and the room sells seat time plus lockers, printing, tea/drinks and custodial add-on services.",
+        "The operator says returns have been satisfactory but management requires more time and attention than expected."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The service can use platform/miniprogram booking and standardized furnishings/air/booking systems, so basic access and payment are relatively machine-light.",
+        "The scarce input is primarily suitable leased property and local demand rather than proprietary technology or exclusive distribution."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The operator mixes student and adult demand across after-school, evening and weekend periods and adds storage, printing and beverage services.",
+        "The article describes ongoing customer service, onsite management, environment planning and hardware issue handling as key drivers of retention."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The RMB5,700 monthly rent and 40-plus-seat footprint are bound to Mr Zhang's actual room.",
+        "The 15%-22% seat-only annualized return and 25%-32% return with add-ons are explicitly described as preliminary calculations, not a realized full-period P&L with received receipts.",
+        "The article's separate RMB70,000-80,000 fit-out example belongs to a different 82-square-meter operator and is not stitched into Mr Zhang's economics.",
+        "No exact initial capex for Mr Zhang, complete operating-cost ledger, owner hours/replacement cost, transferable lease rights or realized exit value is published."
+      ],
+      "economic_signal": [
+        "Same-operator monthly rent is RMB5,700 for a 110-square-meter location with more than 40 seats.",
+        "Participant/article preliminary return estimates are 15%-22% annualized for seat rental and 25%-32% with add-ons, but realized revenue and full costs are not disclosed."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The article reports highly standardized business logic, furniture, ventilation and booking systems across surveyed study rooms.",
+        "Local property availability, service responsiveness and onsite operations differentiate outcomes; libraries, community learning centers and cafes are active substitutes.",
+        "No exclusive customer rail, proprietary software right or transferable noncommodity control surface is evidenced."
+      ],
+      "executed_control_transfer_check": "PASS_FOR_LEASED_POINT_CONTROL_THE_OPERATOR_ACTUALLY_RENTED_AND_CONVERTED_A_110_SQUARE_METER_COMMERCIAL_SPACE_THIS_YEAR",
+      "post_transfer_external_economic_continuity_check": "PARTIAL_PASS_ACTIVE_CUSTOMER_USE_AND_MULTIPLE_PAID_SERVICES_ARE_OBSERVED_BUT_SAME_OPERATOR_RECEIVED_REVENUE_IS_NOT_QUANTIFIED",
+      "fresh_small_operator_entry_check": "PASS_THIS_IS_ONE_NEW_SIDE_BUSINESS_STUDY_ROOM_WITH_MORE_THAN_40_SEATS",
+      "same_operator_economic_binding_check": "FAIL_THE_SAME_OPERATOR_RENT_AND_FOOTPRINT_ARE_BOUND_BUT_THE_RETURN_PERCENTAGES_ARE_PRELIMINARY_ESTIMATES_WITHOUT_REALIZED_RECEIPTS_COMPLETE_COSTS_OWNER_LABOR_OR_EXIT",
+      "direct_operating_cost_check": "UNKNOWN_BEYOND_MONTHLY_RENT_THE_SAME_OPERATORS_UTILITIES_PLATFORM_FEES_MAINTENANCE_MARKETING_CUSTODIAL_AND_OTHER_COSTS_ARE_NOT_ITEMIZED",
+      "owner_labor_check": "FAIL_TO_CLOSE_THE_OPERATOR_EXPLICITLY_SAYS_MANAGEMENT_REQUIRES_MORE_TIME_AND_ATTENTION_THAN_EXPECTED_BUT_NO_HOURS_OR_REPLACEMENT_COST_ARE_BOUND",
+      "founder_independence_check": "PARTIAL_TO_FAIL_BOOKING_AND_ACCESS_CAN_BE_SELF_SERVICE_BUT_CUSTOMER_SERVICE_ONSITE_MANAGEMENT_ENVIRONMENT_AND_HARDWARE_ISSUES_REMAIN_MATERIAL_RECURRING_WORK",
+      "data_action_rights_check": "PARTIAL_PASS_THE_OPERATOR_CONTROLS_AN_ACTUAL_LEASED_COMMERCIAL_SPACE_BUT_LEASE_TRANSFER_RENEWAL_CUSTOMER_DATA_AND_PLATFORM_RIGHTS_ARE_NOT_PUBLISHED",
+      "normalized_margin_check": "FAIL_TO_CLOSE_RETURN_PERCENTAGES_ARE_NOT_A_REALIZED_NORMALIZED_P_AND_L_AND_OTHER_OPERATORS_CAPEX_MUST_NOT_BE_IMPORTED",
+      "machine_delegatability_check": "PARTIAL_PASS_BOOKING_PAYMENT_AND_ACCESS_CAN_BE_DIGITIZED_WHILE_CLEANING_CUSTOMER_SUPPORT_PROPERTY_AND_EXCEPTION_HANDLING_REMAIN_PHYSICAL",
+      "generic_agent_substitutability_check": "FAIL_FOR_SCARCITY_THE_ARTICLE_DESCRIBES_THE_CORE_SPACE_AND_SYSTEM_AS_HIGHLY_STANDARDIZED_AND_EASILY_REPLICABLE_WITH_MULTIPLE_OFFLINE_SUBSTITUTES",
+      "verdict": "DEMOTED_MACHINE_LIGHT_OPERATION_AND_OPERATOR_RETURN_ESTIMATES_DO_NOT_CLOSE_REALIZED_SAME_OPERATOR_CASHFLOW_OR_NONCOMMODITY_TRANSFERABLE_CONTROL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_109-F3",
+      "title": "CHINA_CHENGDU_INDEPENDENT_LIQUOR_SHOP_DIRECT_OPERATOR_REVENUE_COLLAPSE_WHEN_PERSONAL_AUDIENCE_IS_ABSENT",
+      "discovery_route": "CURRENT_2026_DAILY_ECONOMIC_NEWS_FIELD_REPORT_BINDS_ONE_INDEPENDENT_CHENGDU_LIQUOR_SHOP_TO_ACTUAL_LOW_REVENUE_WHEN_ITS_BLOGGER_OWNER_IS_ABSENT_AND_TO_ITS_MONTHLY_RENT_EXPOSING_PERSON_SPECIFIC_DEMAND_CONTROL",
+      "observed_actor_state_change_evidence": [
+        "A September 2026 Daily Economic News field report visits Maodaxiong liquor shop on Chengdu Fangcao Street and interviews its owner, a short-video blogger who also creates signature mixed drinks.",
+        "The owner says store business depends heavily on her personal followers and drops materially when she is not present.",
+        "During a month when the owner was occupied elsewhere, store revenue was below RMB10,000 while monthly rent was nearly RMB20,000.",
+        "The store has operated for more than a year, and the owner says visible busyness translates into limited profit."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The shop has a physical point, product assortment and local social experience, but its strongest acquisition asset is the owner's pre-existing personal audience and presence.",
+        "That audience can pull demand, but it is person-bound rather than an independently transferable machine-operated control surface."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The owner uses short-video influence and distinctive cocktails to generate traffic.",
+        "The broader field report shows liquor-shop operators using live streaming, community repeat purchase and hands-on service to compensate for weak walk-in demand."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The same-store low-revenue month and rent are directly bound to the independent owner and show an unusually clear founder-absence counterfactual.",
+        "Initial control cost, normal-month realized receipts, complete product/labor/platform costs, owner hours and exit value are not disclosed.",
+        "The article separately reports more than RMB500,000 aggregate entry investment across two Waimai franchise stores; that multi-store group figure is not imported into this single independent shop.",
+        "The strongest demand advantage is the owner's personal audience, which fails founder independence even if it is commercially real."
+      ],
+      "economic_signal": [
+        "A same-store month with the owner occupied elsewhere produced less than RMB10,000 revenue against nearly RMB20,000 monthly rent.",
+        "The operator says the store has been open more than a year but earns only limited profit despite appearing busy."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The decisive observed acquisition surface is a personal short-video following plus local community repeat purchase, not a transferable store-owned channel.",
+        "Product supply and retail format are broadly substitutable; the report describes many chain and independent entrants competing in the same local category.",
+        "A replacement operator would not inherit the owner's personal audience merely by controlling the physical shop."
+      ],
+      "executed_control_transfer_check": "PARTIAL_PASS_AN_ACTUAL_INDEPENDENT_STORE_HAS_OPERATED_FOR_MORE_THAN_A_YEAR_AND_PAYS_A_REAL_LEASE_BUT_INITIAL_ACQUISITION_OR_BUILD_COST_AND_TRANSFER_TERMS_ARE_NOT_PUBLIC",
+      "post_transfer_external_economic_continuity_check": "PASS_FOR_CURRENT_CUSTOMER_PAYMENT_THE_STORE_HAS_REALIZED_REVENUE_AND_THE_OWNER_REPORTS_A_SPECIFIC_LOW_REVENUE_MONTH_WHEN_SHE_WAS_ABSENT",
+      "fresh_small_operator_entry_check": "PASS_THE_EVIDENCED_UNIT_IS_ONE_INDEPENDENT_OWNER_OPERATED_NEIGHBORHOOD_STORE",
+      "same_operator_economic_binding_check": "PARTIAL_PASS_SAME_STORE_REVENUE_UNDER_OWNER_ABSENCE_AND_RENT_ARE_BOUND_BUT_INITIAL_COST_NORMAL_REVENUE_FULL_COSTS_LABOR_AND_EXIT_ARE_NOT",
+      "direct_operating_cost_check": "PARTIAL_PASS_MONTHLY_RENT_IS_BOUND_AND_EMPLOYEE_USE_IS_DISCLOSED_ELSEWHERE_IN_THE_SAME_STORE_DISCUSSION_BUT_COMPLETE_PRODUCT_LABOR_PLATFORM_TAX_AND_PROMOTION_COSTS_ARE_NOT",
+      "owner_labor_check": "FAIL_THE_SOURCE_DIRECTLY_OBSERVES_THAT_REVENUE_FALLS_WHEN_THE_OWNER_IS_ABSENT_SO_HER_PRESENCE_AUDIENCE_AND_CREATIVE_WORK_ARE_ECONOMIC_INPUTS_WITHOUT_REPLACEMENT_COST",
+      "founder_independence_check": "FAIL_THE_STORE_IS_EXPLICITLY_DEPENDENT_ON_THE_OWNERS_PERSONAL_FOLLOWERS_PRESENCE_AND_PRODUCT_CREATION",
+      "data_action_rights_check": "UNKNOWN_TO_FAIL_THE_PHYSICAL_LEASE_AND_STORE_OPERATION_ARE_REAL_BUT_NO_TRANSFERABLE_RIGHT_TO_THE_PERSONAL_AUDIENCE_CUSTOMER_RAIL_OR_BRAND_ASSET_IS_EVIDENCED",
+      "normalized_margin_check": "FAIL_TO_CLOSE_THE_OWNER_ABSENCE_MONTH_IS_CLEARLY_ECONOMICALLY_WEAK_BUT_FULL_PERIOD_COSTS_OWNER_SHADOW_WAGE_ENTRY_COST_AND_EXIT_VALUE_ARE_NOT_BOUND",
+      "machine_delegatability_check": "FAIL_CUSTOMER_ACQUISITION_PRODUCT_CREATION_AND_STORE_EXPERIENCE_ARE_PERSON_SPECIFIC_AND_PHYSICAL_EVEN_IF_PAYMENTS_AND_SOME_RETAIL_TASKS_CAN_BE_DIGITIZED",
+      "generic_agent_substitutability_check": "FAIL_FOR_TRANSFERABLE_CONTROL_THE_SCARCE_ASSET_IS_THE_OWNERS_PERSONAL_AUDIENCE_AND_PRESENCE_WHICH_A_GENERIC_AGENT_OR_BUYER_DOES_NOT_INHERIT_WITH_THE_STORE",
+      "verdict": "DEMOTED_DIRECT_FOUNDER_ABSENCE_EVIDENCE_PROVES_PERSON_SPECIFIC_DEMAND_CONTROL_NOT_FOUNDER_LIGHT_TRANSFERABLE_CASHFLOW"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_CHENGDU_TWO_WAIMAI_FRANCHISE_STORES_WITH_MORE_THAN_RMB500000_AGGREGATE_ENTRY_INVESTMENT_AND_NO_PROFIT_AFTER_HARD_COSTS",
+      "excluded_reason": "EXCLUDED_AS_A_PRIMARY_FORMATION_BECAUSE_THE_REPORTED_INVESTMENT_AND_PROFIT_STATUS_ARE_AGGREGATED_ACROSS_TWO_CONTROL_POSITIONS_AND_CANNOT_BE_SPLIT_INTO_ONE_SAME_POSITION_NORMALIZED_PACKET"
+    },
+    {
+      "observation": "CURRENT_CLOUD_UNATTENDED_CONVENIENCE_STORE_RETROFIT_WITH_RMB5000_TO_7000_EQUIPMENT_AND_SIX_PERCENT_SERVICE_FEE",
+      "excluded_reason": "EXCLUDED_AS_A_PRIMARY_SIGNAL_BECAUSE_CONVENIENCE_RETAIL_WAS_ALREADY_A_SCAN107_PRIMARY_FORMATION_AND_THIS_IS_A_RETROFIT_OF_EXISTING_STORE_ECONOMICS_NOT_A_FRESH_CONTROL_POSITION"
+    },
+    {
+      "observation": "CURRENT_VENDOR_OR_SEO_SELF_SERVICE_CARWASH_PET_WASH_AND_UNMANNED_RETAIL_ROI_STORIES",
+      "excluded_reason": "EXCLUDED_BECAUSE_PROMOTIONAL_OR_UNVERIFIABLE_ROI_NARRATIVES_ARE_NOT_DIRECT_OPERATOR_RECORDS_WITH_INDEPENDENT_IDENTITY_AND_CASHFLOW_CLOSURE"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "direct_operator_record_priority_used": true,
+    "same_operator_and_control_position_binding_required": true,
+    "executed_control_change_required": true,
+    "received_customer_revenue_required": true,
+    "direct_operating_costs_required": true,
+    "owner_shadow_wage_or_replacement_cost_required": true,
+    "rights_closure_required": true,
+    "realized_or_bounded_exit_value_required_for_normalization": true,
+    "fresh_small_operator_entry_required": true,
+    "founder_light_operation_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_FRANCHISE_FOOD_SERVICE_MACHINE_LIGHT_PAID_STUDY_SPACE_AND_PERSONAL_AUDIENCE_DRIVEN_INDEPENDENT_RETAIL_TEST_DISTINCT_CONTROL_LABOR_AND_CASHFLOW_FAILURE_MODES",
+    "observed_indexing_bias": "DIRECT_OPERATOR_INTERVIEWS_CAN_BIND_ENTRY_REVENUE_AND_EVEN_REALIZED_LOSS_TO_ONE_IDENTITY_BUT_STILL_RARELY_PUBLISH_OWNER_HOURS_COMPLETE_LEDGER_TRANSFER_RIGHTS_AND_FINAL_RESIDUAL_SETTLEMENT_IN_ONE_PACKET",
+    "response": "KEEP_THE_ECONOMIC_FLOOR_AND_FOR_SCAN110_PRIORITIZE_DIRECT_OPERATOR_RECORDS_THAT_CAN_BE_CROSS_CORROBORATED_WITH_AN_INDEPENDENT_CLOSURE_SETTLEMENT_TRANSFER_OR_OTHER_OUTCOME_DOCUMENT_FOR_THE_SAME_IDENTITY_AND_CONTROL_POSITION",
+    "participant_behavior_over_analyst_story": "PASS_F1_USES_ONE_OPERATORS_REPORTED_ENTRY_SALES_MONTHLY_LOSSES_AND_SHUTDOWN_WITH_COUNTERPARTY_CONFIRMATION_F2_USES_ONE_NEW_OPERATORS_ACTUAL_LEASE_AND_SELF_REPORTED_MANAGEMENT_BURDEN_WITH_ESTIMATES_LABELED_AS_ESTIMATES_F3_USES_ONE_STORE_OWNERS_EXPLICIT_FOUNDER_ABSENCE_REVENUE_COUNTERFACTUAL"
+  },
+  "scan_learnings": [
+    "SCAN109_DIRECT_OPERATOR_RECORD_PRIORITY_PASS_ZERO_RETENTION_ACROSS_QINGDAO_FRANCHISE_HOTPOT_GUANGZHOU_PAID_STUDY_ROOM_AND_CHENGDU_INDEPENDENT_LIQUOR_SHOP",
+    "DIRECT_OPERATOR_INTERVIEWS_MATERIALLY_IMPROVE_IDENTITY_BINDING_BUT_DO_NOT_AUTOMATICALLY_CLOSE_COMPLETE_COST_OWNER_LABOR_RIGHTS_AND_EXIT_VALUE",
+    "A_REALIZED_STORE_FAILURE_CAN_BIND_ENTRY_REVENUE_COST_CATEGORIES_MONTHLY_LOSS_AND_SHUTDOWN_TO_ONE_OPERATOR_YET_STILL_FAIL_FOUNDER_LIGHT_CONTROL_AND_FINAL_RESIDUAL_SETTLEMENT",
+    "MACHINE_LIGHT_ACCESS_AND_PRELIMINARY_RETURN_ESTIMATES_ARE_NOT_REALIZED_NORMALIZED_CASHFLOW_AND_OTHER_OPERATORS_CAPEX_MUST_NOT_BE_STITCHED_IN",
+    "A_PERSONAL_AUDIENCE_CAN_BE_A_REAL_DEMAND_ADVANTAGE_WHILE_DIRECT_FOUNDER_ABSENCE_EVIDENCE_PROVES_IT_IS_NOT_A_TRANSFERABLE_FOUNDER_INDEPENDENT_CONTROL_ASSET",
+    "THE_NEXT_RETRIEVAL_PRIORITY_SHOULD_PAIR_DIRECT_OPERATOR_RECORDS_WITH_INDEPENDENT_CLOSURE_SETTLEMENT_TRANSFER_OR_OUTCOME_DOCUMENTS_FOR_THE_SAME_IDENTITY_RATHER_THAN_LOWERING_ANY_HARD_FLOOR"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_110",
+  "next_search_boundary": "FOURTH_INDEPENDENT_SMALL_OPERATOR_VERIFIED_NET_CASHFLOW_CONTROL_PASS_WITH_OUTCOME_COMPLETE_IDENTITY_PACKET_PRIORITY_REQUIRE_DIRECT_OPERATOR_RECORD_PLUS_INDEPENDENT_CLOSURE_SETTLEMENT_TRANSFER_OR_OTHER_OUTCOME_DOCUMENT_FOR_THE_SAME_OPERATOR_SAME_CONTROL_POSITION_AND_SAME_TIME_WINDOW_REQUIRE_EXECUTED_ACQUISITION_LICENSE_OR_CONTRACT_CONTROL_COST_RECEIVED_EXTERNAL_CUSTOMER_REVENUE_COMPLETE_DIRECT_OPERATING_COSTS_OWNER_LABOR_OR_EXPLICIT_REPLACEMENT_COST_RIGHTS_CLOSURE_AND_REALIZED_OR_BOUNDED_EXIT_VALUE_REQUIRE_FOUNDER_LIGHT_MACHINE_DELEGATABLE_DELIVERY_AND_NONCOMMODITY_CONTROL_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_109_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN109_WITH_EXACT_HEAD_CI_JEV_THEN_START_SCAN110_OUTCOME_COMPLETE_IDENTITY_PACKET_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.bandaoapp.com/detail?newsId=1295526456457433088&type=1",
+    "https://news.dayoo.com/finance/202607/24/171077_54983023.htm",
+    "https://www.nbd.com.cn/articles/2026-09-13/4580138.html"
+  ]
+}
