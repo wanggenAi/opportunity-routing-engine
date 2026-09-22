@@ -1,0 +1,227 @@
+{
+  "schema_version": "attraction-scan.v87",
+  "scan_id": "ATTRACTION_SCAN_113",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "SEVENTH_INDEPENDENT_VERIFIED_NET_CASHFLOW_CONTROL_PASS_WITH_EXECUTED_CONTROL_PLUS_POST_TRANSFER_CASHFLOW_PRIORITY_REQUIRE_SAME_ENTITY_SAME_CONTROLLING_POSITION_PRE_AND_POST_TRANSFER_AUDITED_OR_INDEPENDENT_POST_TRANSFER_POSITIVE_EXTERNAL_CUSTOMER_REVENUE_AND_POSITIVE_NORMALIZED_CASHFLOW_LOW_OWNER_LABOR_OR_EXPLICIT_REPLACEMENT_COST_COMPLETED_CONTROLLING_EQUITY_ASSET_LICENSE_OR_CONTRACT_TRANSFER_RIGHTS_CONTINUITY_REALIZED_TRANSFER_PRICE_AND_BOUNDED_CAPITAL_REQUIRE_VALUE_NOT_PRIMARILY_LAND_PLANT_GRID_CONCESSION_OR_OUTSOURCED_HUMAN_DELIVERY_REQUIRE_NONCOMMODITY_CONTROL_FOUNDER_LIGHT_MACHINE_DELEGATABLE_DELIVERY_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_112_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_113-F1",
+      "title": "CHINA_WUHAN_HEALTHCARE_INFORMATION_AI_SOFTWARE_COMPLETED_70_PERCENT_CONTROL_WITH_POSITIVE_POST_PURCHASE_REVENUE_AND_PROFIT_BUT_NEGATIVE_CASHFLOW_AND_UNCLOSED_HUMAN_DELIVERY",
+      "discovery_route": "CURRENT_2026_LISTED_COMPANY_M_AND_A_ACCOUNTING_DISCLOSURE_BINDS_ONE_HEALTHCARE_INFORMATION_SOFTWARE_TARGET_TO_A_COMPLETED_CONTROL_ACQUISITION_AND_PURCHASE_DATE_TO_PERIOD_END_OPERATING_RESULTS",
+      "observed_actor_state_change_evidence": [
+        "Shanghai JHCT Electronics Technology Co., Ltd. previously held 32% of Boke Guoxin (Wuhan) Technology Co., Ltd. and in 2026 acquired an additional 38%, taking its holding to 70% and control.",
+        "The target's industrial-and-commercial change was completed in April 2026 and the target was brought into the listed company's consolidation scope after control was obtained.",
+        "The 2026 half-year acquisition accounting table reports purchase-date-to-period-end revenue of RMB47,818,486.68, net profit of RMB8,147,334.98 and cash flow of negative RMB2,264,954.34."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The target provides healthcare digital-information solutions including medical SPD supply-chain, HRP, integration/data-governance and county medical-consortium platforms, plus AI-oriented products.",
+        "The incremental 38% control acquisition consideration was approximately RMB73.7102 million, with the overall target valuation around RMB194 million."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The acquirer moved from a non-controlling 32% position to 70% control rather than merely taking a minority financial stake.",
+        "The transaction thesis is operational integration between the acquirer's hospital automation position and the target's healthcare information platforms rather than a passive asset yield."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is a true completed-control packet with same-target post-purchase positive revenue and positive net profit.",
+        "The purchase-date-to-period-end cash-flow measure is nevertheless negative, so positive accounting profit does not close positive post-transfer cash generation.",
+        "Public evidence does not close target employee count, owner/replacement labor, project-implementation effort or customer-specific integration burden.",
+        "Healthcare data, hospital-system integration and enterprise deployment rights remain customer- and institution-dependent; the acquired software company does not evidence a universally callable machine transaction rail.",
+        "The acquisition consideration and expected use of bank financing are far outside a small-operator bounded-capital position."
+      ],
+      "economic_signal": [
+        "Incremental 38% control acquisition consideration approximately RMB73.7102 million; post-transaction holding 70%.",
+        "Purchase-date-to-period-end revenue RMB47.8185 million and net profit RMB8.1473 million.",
+        "Purchase-date-to-period-end cash flow negative RMB2.2650 million."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The acquired control surface is specialized healthcare software, implementations and domain relationships, not a generic agent layer.",
+        "The target has genuine domain-specific systems and IP, but realization depends on hospital customers, integrations, data governance and project delivery.",
+        "No evidence shows a self-serve external demand/settlement rail that a small operator can own without recurring enterprise implementation."
+      ],
+      "executed_control_transfer_check": "PASS_CONTROL_WAS_ACTUALLY_ACQUIRED_IN_2026_BY_MOVING_FROM_32_PERCENT_TO_70_PERCENT_AND_THE_TARGET_ENTERED_THE_BUYERS_CONSOLIDATION_SCOPE",
+      "post_transfer_external_economic_continuity_check": "PARTIAL_PASS_PURCHASE_DATE_TO_PERIOD_END_REVENUE_AND_NET_PROFIT_ARE_POSITIVE_BUT_CASH_FLOW_IS_NEGATIVE",
+      "fresh_small_operator_entry_check": "FAIL_INCREMENTAL_CONTROL_CONSIDERATION_IS_ABOUT_RMB73_7M_AND_EXPECTED_FINANCING_DEPENDENCE_IS_NOT_A_SMALL_OPERATOR_ENTRY_PATH",
+      "same_operator_economic_binding_check": "PASS_CONTROL_CHANGE_AND_PURCHASE_DATE_TO_PERIOD_END_REVENUE_NET_PROFIT_AND_CASH_FLOW_BIND_TO_THE_SAME_TARGET",
+      "direct_operating_cost_check": "PARTIAL_PASS_NET_PROFIT_IS_REPORTED_FOR_THE_POST_PURCHASE_PERIOD_BUT_COMPLETE_DIRECT_PROJECT_IMPLEMENTATION_SUPPORT_AND_REPLACEMENT_SERVICE_COSTS_ARE_NOT_PUBLIC",
+      "owner_labor_check": "UNKNOWN_TARGET_EMPLOYEE_OWNER_AND_REPLACEMENT_LABOR_INPUTS_ARE_NOT_CLOSED_IN_THE_PUBLIC_PACKET",
+      "founder_independence_check": "PARTIAL_TO_UNKNOWN_CORPORATE_CONTROL_CHANGED_BUT_CONTINUITY_OF_KEY_TECHNICAL_SALES_AND_IMPLEMENTATION_TEAMS_REMAINS_ECONOMICALLY_MATERIAL_AND_UNQUANTIFIED",
+      "data_action_rights_check": "PARTIAL_PASS_CORPORATE_CONTROL_AND_SOFTWARE_ASSETS_TRANSFERRED_BUT HOSPITAL_CUSTOMER_DATA_AND_DEPLOYMENT_ACTION_RIGHTS_REMAIN_CONTRACT_OR_INSTITUTION_SPECIFIC",
+      "normalized_margin_check": "FAIL_TO_CLOSE_POSITIVE_POST_PURCHASE_REVENUE_AND_NET_PROFIT_COEXIST_WITH_NEGATIVE_POST_PURCHASE_CASH_FLOW_AND_UNCLOSED_REPLACEMENT_DELIVERY_COST",
+      "machine_delegatability_check": "FAIL_TO_CLOSE_SOFTWARE_IS_MACHINE_EXECUTABLE_BUT_ENTERPRISE_HEALTHCARE_INTEGRATION_DATA_GOVERNANCE_IMPLEMENTATION_AND_SUPPORT_REMAIN_RECURRING_SPECIALIZED_HUMAN_WORK",
+      "generic_agent_substitutability_check": "PARTIAL_PASS_DOMAIN_SYSTEMS_AND_INTEROPERABILITY_ARE_SPECIALIZED_BEYOND_A_GENERIC_AGENT_BUT_THAT_SPECIALIZATION_IS_COUPLED_TO_RECURRING_ENTERPRISE_DELIVERY",
+      "verdict": "DEMOTED_COMPLETED_CONTROL_AND_POSITIVE_POST_PURCHASE_REVENUE_PROFIT_STILL_FAIL_POSITIVE_CASHFLOW_SMALL_OPERATOR_CAPITAL_AND_LOW_HUMAN_DELIVERY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_113-F2",
+      "title": "CHINA_SHANGHAI_FABLESS_SENSOR_CHIP_COMPANY_COMPLETED_100_PERCENT_CONTROL_WITH_POSITIVE_POST_PURCHASE_REVENUE_AND_PROFIT_BUT_NEGATIVE_CASHFLOW_AND_EXPERT_RD_DEPENDENCE",
+      "discovery_route": "CURRENT_2026_LISTED_COMPANY_ACQUISITION_DISCLOSURE_BINDS_ONE_FABLESS_SENSOR_CHIP_TARGET_TO_A_COMPLETED_100_PERCENT_CONTROL_TRANSFER_AND_PURCHASE_DATE_TO_PERIOD_END_RESULTS",
+      "observed_actor_state_change_evidence": [
+        "MIXC Integrated Circuits Shanghai Co., Ltd. completed the 100% acquisition of Shanghai Xinyan Microelectronics Co., Ltd. with the industrial-and-commercial change registered on 2026-03-20 and control obtained from that date.",
+        "The 2026 half-year accounting table reports acquisition cost of RMB160 million and a 100% acquired interest.",
+        "Purchase-date-to-period-end revenue was RMB29,833,883.71, net profit RMB10,833,129.44 and cash flow negative RMB826,527.31."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The target is a fabless integrated-circuit design company focused on magnetic sensor chips and motor-drive related products.",
+        "A fabless model avoids owning a wafer fab but still depends on specialized R&D, design verification, customer design-in, foundry/supply-chain coordination and technical support."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The acquirer bought the entire company rather than only licensing one product or purchasing inventory.",
+        "The acquisition combines chip/product capability with the acquirer's existing integrated-circuit business and therefore transfers corporate IP/control as a going concern."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The control transfer is complete and post-purchase revenue/net profit are positive, satisfying a much stronger continuity test than a listing.",
+        "Purchase-date-to-period-end cash flow is still negative.",
+        "The acquired value requires recurring semiconductor R&D, product iteration, customer technical engagement and upstream manufacturing coordination rather than autonomous machine operation.",
+        "The RMB160 million purchase price is not bounded small-operator capital."
+      ],
+      "economic_signal": [
+        "100% acquisition cost RMB160 million.",
+        "Purchase-date-to-period-end revenue RMB29.8339 million and net profit RMB10.8331 million.",
+        "Purchase-date-to-period-end cash flow negative RMB0.8265 million."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The noncommodity asset is specialized semiconductor IP, product know-how and customer/supply relationships.",
+        "A generic agent cannot replace the technical IP position, but neither can the business operate without recurring expert R&D and supply-chain execution.",
+        "The evidence therefore supports a specialized technology company, not a machine-delegatable routing control asset."
+      ],
+      "executed_control_transfer_check": "PASS_100_PERCENT_CONTROL_TRANSFER_COMPLETED_ON_2026_03_20_AND_THE_TARGET_ENTERED_CONSOLIDATION",
+      "post_transfer_external_economic_continuity_check": "PARTIAL_PASS_PURCHASE_DATE_TO_PERIOD_END_REVENUE_AND_NET_PROFIT_ARE_POSITIVE_BUT_CASH_FLOW_IS_NEGATIVE",
+      "fresh_small_operator_entry_check": "FAIL_RMB160M_CONTROL_COST_IS_NOT_A_BOUNDED_SMALL_OPERATOR_ENTRY",
+      "same_operator_economic_binding_check": "PASS_ACQUISITION_COST_CONTROL_DATE_AND_POST_PURCHASE_REVENUE_NET_PROFIT_AND_CASH_FLOW_BIND_TO_THE_SAME_TARGET",
+      "direct_operating_cost_check": "PARTIAL_PASS_POST_PURCHASE_NET_PROFIT_IS_REPORTED_BUT_FULL_RD_SUPPLY_CHAIN_SUPPORT_AND_WORKING_CAPITAL_COSTS_ARE_NOT_CLOSED",
+      "owner_labor_check": "FAIL_TO_CLOSE_SPECIALIZED_ENGINEERING_PRODUCT_AND_CUSTOMER_TECHNICAL_LABOR_REMAINS_REQUIRED_AND_REPLACEMENT_COST_IS_NOT_BOUND",
+      "founder_independence_check": "PARTIAL_PASS_CONTROL_IS_CORPORATE_NOT_PERSONAL_BUT_CONTINUITY_DEPENDS_ON_SPECIALIZED_TECHNICAL_TEAMS_AND_ORGANIZATIONAL_KNOWLEDGE",
+      "data_action_rights_check": "PASS_FOR_CORPORATE_IP_AND_CONTROL_BUT_NOT_FOR_AUTONOMOUS_CUSTOMER_OR_FOUNDRY_ACTION_RIGHTS",
+      "normalized_margin_check": "FAIL_TO_CLOSE_POST_PURCHASE_NET_PROFIT_IS_POSITIVE_WHILE_CASH_FLOW_IS_NEGATIVE_AND_EXPERT_LABOR_WORKING_CAPITAL_REQUIREMENTS_ARE_NOT_NORMALIZED",
+      "machine_delegatability_check": "FAIL_RECURRING_SEMICONDUCTOR_RD_DESIGN_VERIFICATION_CUSTOMER_DESIGN_IN_AND_SUPPLY_CHAIN_COORDINATION_REQUIRE_EXPERT_HUMAN_EXECUTION",
+      "generic_agent_substitutability_check": "PASS_FOR_DISTINCTIVE_IP_GENERIC_AGENTS_DO_NOT_REPLACE_THE_CHIP_IP_POSITION_BUT_THIS_DOES_NOT_CURE_EXPERT_DELIVERY_AND_CAPITAL_FAILURES",
+      "verdict": "DEMOTED_COMPLETED_100_PERCENT_CONTROL_AND_POST_PURCHASE_PROFIT_STILL_FAIL_POSITIVE_CASHFLOW_BOUNDED_ENTRY_AND_LOW_EXPERT_LABOR"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_113-F3",
+      "title": "CHINA_NINGBO_RENEWABLE_O_AND_M_PLATFORM_COMPLETED_70_PERCENT_CONTROL_WITH_POST_ACQUISITION_SEGMENT_REVENUE_BUT_UNCLOSED_TARGET_CASHFLOW_AND_FIELD_ENGINEER_DEPENDENCE",
+      "discovery_route": "CURRENT_2026_LISTED_COMPANY_DISCLOSURE_BINDS_A_COMPLETED_70_PERCENT_CONTROL_ACQUISITION_OF_A_LIGHT_ASSET_RENEWABLE_OPERATIONS_PLATFORM_TO_POST_ACQUISITION_BUSINESS_SEGMENT_ACTIVITY",
+      "observed_actor_state_change_evidence": [
+        "Shenzhen Sunrise New Energy Co., Ltd. completed the industrial-and-commercial registration for its 70% acquisition of Youde New Energy Technology (Ningbo) Co., Ltd. on 2026-05-29 and consolidated the target.",
+        "The deal uses RMB100 million fixed consideration plus up to RMB56.8 million conditional consideration tied to profit commitments.",
+        "The acquirer's 2026 half-year reporting states that the acquired UniCare/Youde operations capability was integrated with its data platform and that its new-energy smart O&M segment produced RMB17.4668 million of revenue in the reporting period."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The target is described as a light-asset third-party renewable-asset operations-management provider with more than 100 county/city service centers, historical service to more than 2,000 stations/projects and more than 10GW of managed scale.",
+        "The UniCare platform and related software include scheduling, station health, lifecycle and finance-management functions."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The buyer sought control specifically to integrate the target's operating network and platform capability into a broader renewable-asset data/operations system.",
+        "The business deliberately combines software with a nationwide professional O&M engineer/service-center network."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The 70% control acquisition is complete, so this is not a proposed-transfer case.",
+        "However, the publicly reported RMB17.4668 million is the acquirer's smart-O&M segment revenue; the current packet does not isolate purchase-date-to-period-end target revenue, target net profit and target operating cash flow as one accounting packet.",
+        "The operating model explicitly depends on professional field O&M engineers and more than 100 local service centers, so the software platform does not remove recurring expert/physical delivery.",
+        "Potential consideration up to RMB156.8 million and performance-security structure are not small-operator bounded capital."
+      ],
+      "economic_signal": [
+        "70% control acquisition completed 2026-05-29; fixed consideration RMB100 million plus up to RMB56.8 million conditional consideration.",
+        "Buyer reported RMB17.4668 million of new-energy smart O&M segment revenue in 2026 H1 after the acquisition, but target-specific post-purchase net profit/cashflow are not isolated."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The platform has real software/data assets, but delivery also relies on a geographically distributed professional O&M network.",
+        "The same human-service footprint that supports coverage weakens machine-delegatability and small-operator replication.",
+        "No evidence shows that the software alone owns a callable external action/settlement rail independent of field service execution."
+      ],
+      "executed_control_transfer_check": "PASS_70_PERCENT_CONTROL_TRANSFER_COMPLETED_ON_2026_05_29_AND_THE_TARGET_WAS_CONSOLIDATED",
+      "post_transfer_external_economic_continuity_check": "PARTIAL_TO_UNKNOWN_POST_ACQUISITION_SEGMENT_REVENUE_IS_REPORTED_BUT_TARGET_SPECIFIC_PURCHASE_DATE_TO_PERIOD_END_NET_PROFIT_AND_OPERATING_CASH_FLOW_ARE_NOT_ISOLATED",
+      "fresh_small_operator_entry_check": "FAIL_CONTROL_CONSIDERATION_CAN_REACH_RMB156_8M_AND_THE_OPERATING_NETWORK_SPANS_MORE_THAN_100_LOCAL_SERVICE_CENTERS",
+      "same_operator_economic_binding_check": "PARTIAL_PASS_CONTROL_TRANSFER_BINDS_TO_THE_TARGET_BUT_POST_ACQUISITION_REVENUE_IS_DISCLOSED_AT_THE_BUYERS_SMART_O_AND_M_SEGMENT_LEVEL_NOT_AS_A_FULL_TARGET_CASHFLOW_PACKET",
+      "direct_operating_cost_check": "FAIL_TO_CLOSE_TARGET_SPECIFIC_POST_PURCHASE_FIELD_ENGINEER_SERVICE_CENTER_TRAVEL_MAINTENANCE_AND_PLATFORM_COSTS_ARE_NOT_ISOLATED",
+      "owner_labor_check": "FAIL_TO_CLOSE_THE_MODEL_EXPLICITLY_REQUIRES_PROFESSIONAL_O_AND_M_ENGINEERS_AND_LOCAL_SERVICE_CENTERS_WITH_NO_LOW_REPLACEMENT_LABOR_PACKET",
+      "founder_independence_check": "PARTIAL_PASS_CORPORATE_CONTROL_CHANGED_BUT_OPERATIONAL_CONTINUITY_REQUIRES_A_LARGE_EXISTING_FIELD_SERVICE_ORGANIZATION",
+      "data_action_rights_check": "PARTIAL_PASS_PLATFORM_SOFTWARE_AND_CORPORATE_CONTROL_TRANSFERRED_BUT_SITE_ACCESS_MAINTENANCE_ACTIONS_AND_CUSTOMER_ASSET_RIGHTS_REMAIN_CONTRACT_DEPENDENT",
+      "normalized_margin_check": "FAIL_TO_CLOSE_TARGET_SPECIFIC_POST_PURCHASE_PROFIT_CASHFLOW_AND_FULL_FIELD_SERVICE_COSTS_ARE_NOT_PUBLICLY_BOUND",
+      "machine_delegatability_check": "FAIL_THE_PLATFORM_SUPPORTS_AUTOMATION_BUT_CORE_RENEWABLE_O_AND_M_STILL_USES_PROFESSIONAL_FIELD_ENGINEERS_AND_LOCAL_SERVICE_CENTERS",
+      "generic_agent_substitutability_check": "PARTIAL_PASS_THE_NATIONWIDE_OPERATIONAL_NETWORK_AND_DOMAIN_PLATFORM_ARE_NOT_GENERIC_AGENT_FEATURES_BUT_THEIR_VALUE_DEPENDS_ON_HUMAN_FIELD_SERVICE",
+      "verdict": "DEMOTED_COMPLETED_CONTROL_AND_PLATFORM_REVENUE_DO_NOT_CLOSE_TARGET_POST_TRANSFER_CASHFLOW_AND_RECURRING_FIELD_ENGINEER_DELIVERY"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_2026_SUZHOU_CAPACITOR_MANUFACTURER_ACQUIRED_100_PERCENT_WITH_POSITIVE_2026_H1_PROFIT",
+      "excluded_reason": "EXCLUDED_FROM_PRIMARY_FORMATIONS_BECAUSE_PHYSICAL_COMPONENT_MANUFACTURING_AND_SPECIALIZED_PRODUCTION_LABOR_ARE_DECISIVE_AND_TARGET_SPECIFIC_POST_PURCHASE_REVENUE_AND_CASHFLOW_ARE_NOT_CLOSED"
+    },
+    {
+      "observation": "CURRENT_2026_LARGE_BATTERY_SEPARATOR_TARGET_ACQUIRED_100_PERCENT_WITH_MULTI_BILLION_REVENUE_AND_PROFIT",
+      "excluded_reason": "EXCLUDED_AS_A_LARGE_CAPITAL_PHYSICAL_MANUFACTURING_DUPLICATE_WHERE_STRONG_POST_TRANSFER_ECONOMICS_DO_NOT_ADDRESS_MACHINE_DELEGATABILITY_OR_BOUNDED_ENTRY"
+    },
+    {
+      "observation": "CURRENT_2026_SEED_COMPANY_CONTROL_ACQUISITION_WITH_PURCHASE_DATE_TO_PERIOD_END_NEGATIVE_NET_PROFIT_AND_NEGATIVE_OPERATING_CASHFLOW",
+      "excluded_reason": "EXCLUDED_BECAUSE_THE_POST_TRANSFER_ECONOMIC_CONTINUITY_FLOOR_FAILS_BEFORE_MACHINE_CONTROL_ANALYSIS"
+    },
+    {
+      "observation": "CURRENT_2026_SMALL_TECH_ACQUISITIONS_WITH_ZERO_OR_NEGATIVE_POST_PURCHASE_OPERATING_RESULTS",
+      "excluded_reason": "EXCLUDED_EARLY_WHERE_PURCHASE_DATE_TO_PERIOD_END_EXTERNAL_VALUE_FLOW_IS_ZERO_OR_NEGATIVE"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "executed_control_plus_post_transfer_cashflow_priority_used": true,
+    "same_operator_and_control_position_binding_required": true,
+    "executed_control_change_required": true,
+    "purchase_date_to_period_end_revenue_required": true,
+    "purchase_date_to_period_end_profit_required": true,
+    "purchase_date_to_period_end_cashflow_required": true,
+    "direct_operating_costs_required": true,
+    "owner_shadow_wage_or_replacement_cost_required": true,
+    "rights_continuity_required": true,
+    "realized_transfer_price_required": true,
+    "bounded_capital_required": true,
+    "low_human_service_required": true,
+    "founder_light_operation_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_HEALTHCARE_INFORMATION_AI_SOFTWARE_FABLESS_SENSOR_CHIP_DESIGN_AND_RENEWABLE_O_AND_M_PLATFORM_TEST_DISTINCT_SOFTWARE_IP_PRODUCT_AND_PLATFORM_PLUS_FIELD_SERVICE_CONTROL_SHAPES",
+    "observed_indexing_bias": "PUBLIC_M_AND_A_ACCOUNTING_DISCLOSURES_CAN_CLOSE_COMPLETED_CONTROL_AND_PURCHASE_DATE_TO_PERIOD_END_REVENUE_PROFIT_CASH_FLOW_BETTER_THAN_TRANSFER_LISTINGS_BUT_THE_STRONGEST_CURRENT_SMALLER_TARGETS_STILL_SHOW_NEGATIVE_POST_PURCHASE_CASHFLOW_HIGH_CONTROL_PRICES_OR_RECURRING_SPECIALIZED_HUMAN_DELIVERY",
+    "response": "KEEP_ALL_HARD_FLOORS_AND_FOR_SCAN114_REQUIRE_POSITIVE_PURCHASE_DATE_TO_PERIOD_END_OPERATING_CASHFLOW_OR_AN_EQUIVALENT_INDEPENDENT_POST_TRANSFER_CASH_RECEIPT_COST_PACKET_PLUS_EXPLICIT_LOW_FTE_OR_REPLACEMENT_SERVICE_COST_BEFORE_DEEP_ATTENTION",
+    "participant_behavior_over_analyst_story": "PASS_F1_AND_F2_USE_COMPLETED_CONTROL_TRANSACTIONS_AND_ACCOUNTING_PURCHASE_DATE_METRICS_F3_USES_COMPLETED_70_PERCENT_CONTROL_PLUS_REPORTED_POST_ACQUISITION_SEGMENT_ACTIVITY_WITH_TARGET_LEVEL_UNCERTAINTY_LEFT_FAIL_CLOSED"
+  },
+  "scan_learnings": [
+    "SCAN113_EXECUTED_CONTROL_PLUS_POST_TRANSFER_CASHFLOW_PASS_ZERO_RETENTION_ACROSS_HEALTHCARE_INFORMATION_AI_SOFTWARE_FABLESS_SENSOR_CHIP_AND_RENEWABLE_O_AND_M_PLATFORM",
+    "COMPLETED_CONTROL_PLUS_POSITIVE_PURCHASE_DATE_TO_PERIOD_END_REVENUE_AND_NET_PROFIT_IS_DISCOVERABLE_IN_CURRENT_CHINA_PUBLIC_M_AND_A_ACCOUNTING_RECORDS",
+    "POSITIVE_POST_PURCHASE_ACCOUNTING_PROFIT_DOES_NOT_EQUAL_POSITIVE_POST_PURCHASE_CASH_GENERATION_BOTH_BOKE_GUOXIN_AND_XINYAN_MICRO_SHOW_NEGATIVE_PURCHASE_DATE_TO_PERIOD_END_CASH_FLOW",
+    "A_PLATFORM_LABEL_DOES_NOT_PROVE_MACHINE_DELIVERY_WHEN_THE_OPERATING_MODEL_EXPLICITLY_REQUIRES_NATIONWIDE_FIELD_ENGINEERS_AND_LOCAL_SERVICE_CENTERS",
+    "SPECIALIZED_NONCOMMODITY_IP_CAN_SURVIVE_GENERIC_AGENT_SUBSTITUTABILITY_AND_STILL_FAIL_FOUNDER_LIGHTNESS_DUE_RECURRING_ENTERPRISE_IMPLEMENTATION_RD_DESIGN_IN_OR_FIELD_SERVICE",
+    "THE_NEXT_RETRIEVAL_PRIORITY_SHOULD_REQUIRE_POSITIVE_POST_TRANSFER_OPERATING_CASHFLOW_AND_EXPLICIT_LOW_HUMAN_SERVICE_COST_BEFORE_SPENDING_DEEP_ATTENTION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_114",
+  "next_search_boundary": "EIGHTH_INDEPENDENT_VERIFIED_NET_CASHFLOW_CONTROL_PASS_WITH_COMPLETED_CONTROL_POSITIVE_POST_TRANSFER_OPERATING_CASHFLOW_AND_LOW_HUMAN_SERVICE_PRIORITY_REQUIRE_SAME_ENTITY_SAME_CONTROLLING_POSITION_REALIZED_TRANSFER_PRICE_AND_RIGHTS_CONTINUITY_REQUIRE_PURCHASE_DATE_TO_PERIOD_END_OR_INDEPENDENT_POST_TRANSFER_POSITIVE_EXTERNAL_CUSTOMER_REVENUE_POSITIVE_NET_PROFIT_AND_POSITIVE_OPERATING_CASHFLOW_REQUIRE_EXPLICIT_FTE_OR_REPLACEMENT_SERVICE_COST_LOW_RECURRING_EXPERT_DELIVERY_BOUNDED_ACQUISITION_AND_WORKING_CAPITAL_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_NOT_PRIMARILY_ENTERPRISE_INTEGRATION_RD_FIELD_SERVICE_LAND_PLANT_GRID_CONCESSION_OR_OUTSOURCED_HUMAN_EXECUTION_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_113_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN113_WITH_EXACT_HEAD_CI_JEV_THEN_START_SCAN114_COMPLETED_CONTROL_POSITIVE_POST_TRANSFER_OPERATING_CASHFLOW_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://static.cninfo.com.cn/finalpage/2026-04-29/1225227412.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-28/1225520056.PDF",
+    "https://www.stcn.com/article/detail/3631826.html",
+    "https://static.cninfo.com.cn/finalpage/2026-08-31/1225535290.PDF",
+    "https://www.stcn.com/article/detail/3617792.html",
+    "https://static.cninfo.com.cn/finalpage/2026-08-28/1225517056.PDF",
+    "https://www.stcn.com/article/detail/4141499.html",
+    "https://www.stcn.com/article/detail/3869512.html",
+    "https://static.cninfo.com.cn/finalpage/2026-04-29/1225244453.PDF"
+  ]
+}
