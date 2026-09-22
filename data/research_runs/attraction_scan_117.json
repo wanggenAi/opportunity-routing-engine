@@ -1,0 +1,221 @@
+{
+  "schema_version": "attraction-scan.v91",
+  "scan_id": "ATTRACTION_SCAN_117",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "ELEVENTH_INDEPENDENT_MINIMAL_LABOR_STANDALONE_LEDGER_PASS_REQUIRE_COMPLETED_CONTROLLING_TRANSFER_REQUIRE_CLEAN_POST_CONTROL_STANDALONE_TARGET_PERIOD_REQUIRE_SAME_ENTITY_POSITIVE_EXTERNAL_REVENUE_POSITIVE_NET_PROFIT_AND_EXPLICIT_POSITIVE_OPERATING_CASHFLOW_REQUIRE_CURRENT_TARGET_FTE_DISCLOSED_AND_INTRINSICALLY_LOW_WITHOUT_PROJECT_IMPLEMENTATION_FIELD_MANUFACTURING_OR_AFTER_SALES_DELIVERY_REQUIRE_CONTROL_SURFACE_REPRODUCIBLE_BY_A_FRESH_OPERATOR_NOT_DEPENDENT_ON_PREEXISTING_INSIDER_COALITION_REQUIRE_BOUNDED_CONTROL_CONSIDERATION_AND_CURRENT_OPERATING_ASSET_WORKING_CAPITAL_FOOTPRINT_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_116_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_117-F1",
+      "title": "CHINA_WUXI_11_FTE_SOFTWARE_RECYCLING_CONTROL_TRANSFER_WITH_CLEAN_POST_CONTROL_POSITIVE_REVENUE_PROFIT_BUT_NEGATIVE_OCF_AND_PROJECT_SERVICE",
+      "discovery_route": "CURRENT_2026_H1_PUBLIC_REPORTING_BINDS_TIANWU_NOW_XUNZHI_TO_A_FULLY_POST_2025_11_26_CONTROL_PERIOD_WITH_CURRENT_11_FTE_POSITIVE_REVENUE_POSITIVE_PROFIT_NEGATIVE_OPERATING_CASHFLOW_AND_A_NEW_RECYCLING_SOFTWARE_OPERATING_MODEL",
+      "observed_actor_state_change_evidence": [
+        "On 2025-11-26 the acquisition completed share-transfer registration; the first-largest shareholder, controlling shareholder and actual controller changed.",
+        "The acquisition agreement covered 4,999,600 shares, 99.9920% of the company, at RMB0.20 per share for total consideration RMB999,920.",
+        "The 2026 H1 period is fully after the completed control transfer and therefore provides a clean post-control operating window."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The 2026 H1 report describes a light-asset software-information business transitioning to software for unmanned recycling vehicles, smart recycling cabinets and a community recycling mini-program.",
+        "Current staff at 2026-06-30 total 11 and total assets are about RMB6.8205 million.",
+        "The company controls a listed corporate shell, software/customer position and a newly acquired/assembled recycling-software operating position, but continued operating quality must be proven by cashflow rather than the transition narrative."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "2026 H1 revenue is RMB5.362277 million and net profit is about RMB0.4217 million.",
+        "The same H1 data report operating cashflow per share at negative RMB0.0029, so the explicit operating-cashflow sign is negative despite accounting profit.",
+        "The current model includes B-side custom software development, annual software fees, maintenance service and a C-side recycling mini-program with transaction commissions/community service fees."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is the closest Scan 117 case because completed near-total control, a clean post-control period, positive revenue/profit, low current headcount and low current asset scale coexist.",
+        "The explicit OCF gate still fails. No positive-OCF inference is allowed from positive profit, low assets or revenue growth.",
+        "Project customization and maintenance remain current revenue mechanisms, while the newer recurring mini-program/commission route has not been separately evidenced as the cash-generating majority."
+      ],
+      "economic_signal": [
+        "Control transaction: 4,999,600 shares / 99.9920% at RMB999,920 total consideration.",
+        "2026 H1 revenue RMB5.362277 million.",
+        "2026 H1 net profit approximately RMB0.4217 million.",
+        "2026 H1 operating cashflow per share negative RMB0.0029; current FTE 11; current total assets approximately RMB6.8205 million."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The current value surface is software plus recycling workflow/channel access rather than a passive financial shell.",
+        "Some revenue mechanisms are potentially recurring, but current disclosures still explicitly include customized development and maintenance.",
+        "The company does not yet prove a standardized machine-only external action/settlement rail whose economics remain positive after the control transfer."
+      ],
+      "executed_control_transfer_check": "PASS_99_9920_PERCENT_TRANSACTION_COMPLETED_SHARE_TRANSFER_REGISTRATION_ON_2025_11_26_AND_2026_H1_IS_FULLY_POST_CONTROL",
+      "post_transfer_external_economic_continuity_check": "FAIL_CLEAN_2026_H1_HAS_POSITIVE_REVENUE_AND_NET_PROFIT_BUT_EXPLICIT_OPERATING_CASHFLOW_PER_SHARE_IS_NEGATIVE_0_0029_RMB",
+      "fresh_small_operator_entry_check": "PARTIAL_PASS_TOTAL_DISCLOSED_CONTROL_TRANSACTION_CONSIDERATION_IS_RMB999920_AND_CURRENT_ASSET_SCALE_IS_SINGLE_DIGIT_MILLIONS_BUT_CURRENT_WORKING_CAPITAL_AND_NEW_BUSINESS_BUILDOUT_REQUIREMENTS_ARE_NOT_FULLY_NORMALIZED",
+      "same_operator_economic_binding_check": "PASS_CONTROL_STATUS_2026_H1_REVENUE_PROFIT_OCF_SIGN_CURRENT_FTE_AND_ASSET_SCALE_BIND_TO_THE_SAME_PUBLIC_ENTITY",
+      "direct_operating_cost_check": "PARTIAL_TO_FAIL_CURRENT_MODEL_STILL_INCLUDES_CUSTOM_SOFTWARE_DEVELOPMENT_MAINTENANCE_AND_CHANNEL_BUILDOUT_SO_LOW_FTE_DOES_NOT_PROVE_ZERO_RECURRING_SERVICE_COST",
+      "owner_labor_check": "PASS_CURRENT_FTE_IS_11_WHICH_IS_INTRINSICALLY_LOW_RELATIVE_TO_PRIOR_PROJECT_AND_MANUFACTURING_TARGETS_BUT_ROLE_LEVEL_REPLACEMENT_COST_IS_NOT_ITEMIZED",
+      "founder_independence_check": "PARTIAL_PASS_CONTROL_CHANGED_AND_THE_CURRENT_TEAM_IS_SMALL_BUT_NEW_BUSINESS_EXECUTION_AND_CHANNEL_DEPENDENCE_REMAIN_MATERIAL",
+      "data_action_rights_check": "PARTIAL_PASS_CORPORATE_AND_SOFTWARE_CONTROL_TRANSFERRED_BUT_RECYCLING_CHANNEL_CUSTOMER_AND_HARDWARE_ASSOCIATION_RIGHTS_ARE_CONTRACT_AND_PARTNER_DEPENDENT",
+      "normalized_margin_check": "FAIL_POSITIVE_ACCOUNTING_PROFIT_DOES_NOT_SURVIVE_THE_REQUIRED_POSITIVE_OCF_GATE_AND_PROJECT_SERVICE_COST_IS_NOT_SEPARATELY_NORMALIZED",
+      "machine_delegatability_check": "PARTIAL_TO_FAIL_MINIPROGRAM_AND_SOFTWARE_ARE_MACHINE_OPERABLE_BUT_CUSTOMIZATION_MAINTENANCE_AND_CHANNEL_EXPANSION_REMAIN_HUMAN_DELIVERY_COMPONENTS",
+      "generic_agent_substitutability_check": "PARTIAL_PASS_CONTROLLED_SOFTWARE_AND_CHANNEL_POSITION_ARE_MORE_SPECIFIC_THAN_A_GENERIC_AGENT_BUT_THE_DISTINCT_RECURRING_CONTROL_EDGE_IS_NOT_YET_EVIDENCED",
+      "verdict": "DEMOTED_CLOSEST_LOW_FTE_COMPLETED_CONTROL_CASE_FAILS_EXPLICIT_POSITIVE_OCF_AND_NONPROJECT_RECURRING_DELIVERY_FLOORS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_117-F2",
+      "title": "CHINA_XIAMEN_4_FTE_TRANSITIONAL_PUBLIC_SHELL_WITH_BOUNDED_CONTROL_PRICE_BUT_ZERO_REVENUE_INCOMPLETE_SHARE_DELIVERY_AND_PLANNED_STEEL_MANUFACTURING_INJECTION",
+      "discovery_route": "CURRENT_2026_H1_REPORT_IDENTIFIES_HENGLILAI_WITH_ONLY_4_EMPLOYEES_WHILE_THE_2026_ACQUISITION_PACKET_BINDS_A_RMB1_4058M_PLANNED_55_54_PERCENT_CONTROL_PRICE_VOTING_RIGHT_DELEGATION_AND_PENDING_SHARE_DELIVERY",
+      "observed_actor_state_change_evidence": [
+        "Shanghai Keni Steel Pipe agreed to acquire 6,112,225 shares, 55.54%, for RMB1,405,811.75.",
+        "The agreement immediately delegates the corresponding 55.54% voting rights to the acquirer, but the underlying shares remain registered to the seller until restricted shares can be released and transferred.",
+        "The 2026 H1 shareholder table still records the seller holding 55.54%, so completed equity delivery is not promoted from contractual control."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Current staff are only four: two management and two administrative employees.",
+        "2026-06-30 total assets are approximately RMB0.6597 million.",
+        "The acquirer plans to move related special-steel-pipe business, production equipment, personnel, suppliers and customers into the public company and provide financing for production equipment and initial operations."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "2026 H1 revenue is zero, net profit is negative RMB33,901.20 and operating cashflow is only positive RMB93.88.",
+        "The current low headcount is therefore a transitional dormant/light shell state rather than evidence of a proven low-labor revenue engine.",
+        "The acquisition plan explicitly anticipates future physical manufacturing resources and personnel, contradicting any inference that the four-person state is the durable delivery model."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "A bounded acquisition price plus four employees is not enough when there is no external revenue or positive profit.",
+        "Contractual voting control is real governance influence but the planned share purchase has not completed delivery, so fresh-operator ownership transfer remains incomplete.",
+        "The planned injection of steel-pipe manufacturing, equipment and personnel means the current tiny workforce cannot be projected forward as durable founder-light operation."
+      ],
+      "economic_signal": [
+        "Planned 55.54% equity consideration RMB1.405812 million.",
+        "2026 H1 revenue RMB0; net loss RMB33,901.20; operating cashflow positive only RMB93.88.",
+        "2026-06-30 current FTE 4 and total assets approximately RMB0.6597 million."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The current listed entity is economically near-dormant, while the acquirer intends to use it as a vehicle for a steel-pipe operating business.",
+        "Future value would depend on injected manufacturing assets, licenses, personnel, suppliers and customers rather than the current four-person shell.",
+        "The control surface is therefore transitional and cannot be treated as a standing machine-operable low-labor cashflow asset."
+      ],
+      "executed_control_transfer_check": "FAIL_TO_CLOSE_VOTING_RIGHTS_ARE_DELEGATED_BUT_55_54_PERCENT_SHARE_DELIVERY_REMAINS_PENDING_AND_2026_H1_SHAREHOLDER_REGISTER_STILL_SHOWS_THE_SELLER",
+      "post_transfer_external_economic_continuity_check": "FAIL_CURRENT_H1_HAS_ZERO_REVENUE_AND_NEGATIVE_NET_PROFIT_DESPITE_SMALL_POSITIVE_OCF_OF_RMB93_88",
+      "fresh_small_operator_entry_check": "PARTIAL_PASS_DISCLOSED_55_54_PERCENT_PRICE_IS_RMB1_4058M_BUT_FUTURE_EQUIPMENT_WORKING_CAPITAL_LICENSE_AND_PERSONNEL_INJECTION_ARE_EXPLICITLY_REQUIRED",
+      "same_operator_economic_binding_check": "PARTIAL_PASS_CURRENT_LEDGER_AND_FTE_BIND_TO_HENGLILAI_BUT_THE_ACQUIRER_HAS_GOVERNANCE_CONTROL_WITHOUT_COMPLETED_SHARE_DELIVERY_AND_FUTURE_BUSINESS_IS_NOT_CURRENT_BUSINESS",
+      "direct_operating_cost_check": "FAIL_TO_CLOSE_CURRENT_COST_IS_TRIVIAL_ONLY_BECAUSE_CURRENT_REVENUE_IS_ZERO_WHILE_FUTURE_STEEL_MANUFACTURING_COST_AND_LABOR_ARE_PENDING",
+      "owner_labor_check": "PASS_CURRENT_FTE_IS_4_BUT_THIS_IS_NOT_PROMOTED_AS_DURABLE_LOW_REPLACEMENT_LABOR_BECAUSE_THE_PLANNED_BUSINESS_INJECTION_REQUIRES_PERSONNEL_AND_PRODUCTION",
+      "founder_independence_check": "FAIL_TO_CLOSE_THE_CURRENT_SHELL_IS_LOW_LABOR_BUT_THE_PROPOSED_OPERATING_MODEL_DEPENDS_ON_ACQUIRER_RELATED_MANUFACTURING_RESOURCES",
+      "data_action_rights_check": "PARTIAL_PASS_VOTING_RIGHTS_ARE_CONTRACTUALLY_DELEGATED_BUT_FULL_EQUITY_RIGHTS_AND_FUTURE_REGULATED_PRODUCTION_RIGHTS_ARE_NOT_YET_COMPLETE",
+      "normalized_margin_check": "FAIL_ZERO_REVENUE_NEGATIVE_PROFIT_AND_PENDING_CAPITAL_INJECTION_PREVENT_NORMALIZED_POSITIVE_ECONOMICS",
+      "machine_delegatability_check": "FAIL_CURRENT_FOUR_PERSON_SHELL_HAS_NO_REVENUE_ENGINE_AND_THE_PLANNED_STEEL_PIPE_BUSINESS_IS_PHYSICAL_MANUFACTURING",
+      "generic_agent_substitutability_check": "FAIL_TO_CLOSE_NO_CURRENT_NONCOMMODITY_MACHINE_CONTROL_EDGE_GENERATES_EXTERNAL_REVENUE",
+      "verdict": "DEMOTED_FOUR_FTE_AND_LOW_HEADLINE_CONTROL_PRICE_DESCRIBE_A_TRANSITIONAL_SHELL_NOT_A_COMPLETED_POSITIVE_LOW_LABOR_CASHFLOW_POSITION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_117-F3",
+      "title": "CHINA_FUJIAN_BAMBOO_MATERIALS_TEMPORARY_VOTING_CONTROL_WITH_142_FTE_NEGATIVE_OCF_AND_PHYSICAL_PRODUCTION",
+      "discovery_route": "CURRENT_2026_H1_REPORT_BINDS_YANGZHU5_TO_A_NEW_2026_05_19_ACTUAL_CONTROLLER_BY_IRREVOCABLE_VOTING_RIGHT_DELEGATION_AND_CURRENT_POST_CHANGE_FTE_ASSET_AND_CASHFLOW_EVIDENCE",
+      "observed_actor_state_change_evidence": [
+        "On 2026-05-19 prior voting delegation was terminated and 56,755,678 shares, 20.9994% of voting rights, were irrevocably delegated to Pan Donghan.",
+        "Pan Donghan became controlling shareholder and actual controller through the delegation, which runs only from 2026-05-19 to 2027-05-18.",
+        "No underlying share purchase or fresh third-party control consideration is evidenced by this control-change mechanism."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Current H1 staff total 142: 65 technical, 44 administrative, 17 sales, 11 management and 5 finance.",
+        "2026-06-30 assets are RMB322.4472 million and liabilities RMB266.7423 million.",
+        "The principal operating subsidiary produces bamboo-plastic materials and the H1 report cites added production-equipment investment."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "2026 H1 revenue is RMB55.4790 million, but net profit is negative and operating cashflow is negative RMB18.1895 million.",
+        "Current staffing expanded from 118 to 142 during H1.",
+        "The report states that production-equipment investment increased, directly contradicting a machine-light low-capital interpretation."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The controller change is governance-real but is a time-limited voting-right delegation rather than a reproducible independent purchase of the decisive ownership position.",
+        "The H1 reporting period straddles the May 19 control change, so H1 economics are not relabeled as a clean post-control continuity period.",
+        "Regardless of time-window ambiguity, current 142 FTE, physical production, large assets and negative OCF independently kill the Scan 117 low-labor boundary."
+      ],
+      "economic_signal": [
+        "2026 H1 revenue RMB55.4790 million.",
+        "2026 H1 operating cashflow negative RMB18.1895 million and net profit negative.",
+        "2026-06-30 assets RMB322.4472 million; current FTE 142."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The scarce operating position is a physical bamboo-materials production organization rather than a portable machine-control right.",
+        "Control is temporarily delegated rather than acquired through a bounded fresh-operator ownership transaction.",
+        "Current labor, production equipment, borrowing and physical manufacturing dominate the economics."
+      ],
+      "executed_control_transfer_check": "PARTIAL_PASS_ACTUAL_CONTROL_CHANGED_ON_2026_05_19_BY_IRREVOCABLE_BUT_TIME_LIMITED_VOTING_RIGHT_DELEGATION_NOT_BY_COMPLETED_FRESH_OPERATOR_SHARE_PURCHASE",
+      "post_transfer_external_economic_continuity_check": "FAIL_TO_CLOSE_H1_STRADDLES_THE_CONTROL_CHANGE_AND_CURRENT_H1_OCF_IS_NEGATIVE_RMB18_1895M_WITH_NEGATIVE_NET_PROFIT",
+      "fresh_small_operator_entry_check": "FAIL_NO_BOUNDED_FRESH_OPERATOR_CONTROL_PURCHASE_IS_EVIDENCED_AND_CURRENT_ASSETS_ARE_RMB322_4472M",
+      "same_operator_economic_binding_check": "FAIL_TO_CLOSE_CURRENT_CONTROL_STATUS_AND_CURRENT_FTE_BIND_TO_THE_ENTITY_BUT_H1_ECONOMICS_STRADDLE_THE_MAY_CONTROL_CHANGE",
+      "direct_operating_cost_check": "FAIL_PHYSICAL_PRODUCTION_142_FTE_AND_NEW_PRODUCTION_EQUIPMENT_INVESTMENT_ARE_DIRECT_RECURRING_OPERATING_BURDENS",
+      "owner_labor_check": "FAIL_CURRENT_FTE_IS_142_WITH_65_TECHNICAL_AND_EXPANDING_STAFF",
+      "founder_independence_check": "FAIL_NEW_GOVERNANCE_CONTROL_DOES_NOT_REMOVE_DEPENDENCE_ON_A_LARGE_PHYSICAL_OPERATING_ORGANIZATION",
+      "data_action_rights_check": "PARTIAL_PASS_VOTING_CONTROL_IS_REAL_DURING_THE_DELEGATION_TERM_BUT_OWNERSHIP_RIGHTS_ARE_NOT_TRANSFERRED_TO_THE_CONTROLLER",
+      "normalized_margin_check": "FAIL_NEGATIVE_PROFIT_NEGATIVE_OCF_LARGE_ASSET_BASE_AND_CURRENT_LABOR_FAIL_NORMALIZED_ECONOMICS",
+      "machine_delegatability_check": "FAIL_BAMBOO_MATERIALS_PRODUCTION_EQUIPMENT_TECHNICAL_STAFF_AND_PHYSICAL_OPERATIONS_ARE_NOT_MACHINE_ONLY_DELIVERY",
+      "generic_agent_substitutability_check": "PASS_FOR_PHYSICAL_PRODUCTION_DISTINCTIVENESS_BUT_THAT_DISTINCTIVENESS_IS_CAPITAL_AND_LABOR_INTENSIVE_NOT_A_REUSABLE_AGENT_CONTROL_EDGE",
+      "verdict": "DEMOTED_TEMPORARY_VOTING_CONTROL_CANNOT_OVERRIDE_MIXED_TIME_WINDOW_142_FTE_NEGATIVE_OCF_AND_PHYSICAL_PRODUCTION"
+    }
+  ],
+  "excluded_observations": [
+    "Scan 060-116 formations and their primary discovery signals were excluded from Scan 117 primary formation selection.",
+    "Completed-control industrial targets with obviously large manufacturing organizations were not deepened once current low-FTE evidence already failed unless they added a distinct control-mechanism falsifier.",
+    "No job, gig, RFQ, procurement or asset-marketplace feed was used as the discovery ontology."
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "intrinsically_low_current_fte_priority_used": true,
+    "completed_control_change_required": true,
+    "clean_post_control_time_window_required": true,
+    "same_operator_and_control_position_binding_required": true,
+    "post_control_external_revenue_required": true,
+    "post_control_net_profit_required": true,
+    "explicit_operating_cashflow_required": true,
+    "current_target_fte_required": true,
+    "no_project_field_manufacturing_after_sales_delivery_required": true,
+    "total_usable_capital_including_working_capital_required": true,
+    "fresh_operator_reproducibility_checked": true,
+    "incomplete_share_delivery_not_promoted_to_completed_control": true,
+    "temporary_voting_delegation_not_promoted_to_reproducible_control_purchase": true,
+    "current_low_fte_not_projected_through_pending_business_injection": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_LOW_FTE_SOFTWARE_RECYCLING_TRANSITIONAL_STEEL_INJECTION_SHELL_AND_BAMBOO_MATERIALS_TEST_DISTINCT_SOFTWARE_TRANSITIONAL_SHELL_AND_PHYSICAL_PRODUCTION_CONTROL_SHAPES",
+    "observed_indexing_bias": "LOW_HEADCOUNT_PUBLIC_TARGETS_ARE_OFTEN_TRANSITIONAL_SHELLS_OR_PROJECT_SERVICE_ENTITIES_WHILE_EXECUTED_CONTROL_PLUS_POSITIVE_PROFIT_CAN_STILL_FAIL_EXPLICIT_OCF_OR_RECURRING_NONPROJECT_DELIVERY",
+    "response": "FOR_SCAN118_KEEP_COMPLETED_CONTROL_LOW_FTE_AND_POSITIVE_OCF_AS_HARD_SAME_ENTITY_GATES_AND_RAISE_RETRIEVAL_PRIORITY_TO_EXISTING_REPEATABLE_NONPROJECT_EXTERNAL_REVENUE_WITHOUT_PENDING_BUSINESS_ASSET_OR_PERSONNEL_INJECTION",
+    "participant_behavior_over_analyst_story": "PASS_F1_USES_COMPLETED_NEAR_TOTAL_SHARE_TRANSFER_PLUS_CURRENT_H1_LEDGER_F2_USES_LIVE_ACQUISITION_CONTRACT_CURRENT_FTE_AND_EXPLICIT_INJECTION_PLAN_F3_USES_LIVE_VOTING_DELEGATION_PLUS_CURRENT_H1_WORKFORCE_AND_CASHFLOW"
+  },
+  "scan_learnings": [
+    "SCAN117_INTRINSICALLY_LOW_CURRENT_FTE_CLEAN_POST_CONTROL_PASS_ZERO_RETENTION_ACROSS_LOW_FTE_SOFTWARE_RECYCLING_TRANSITIONAL_STEEL_INJECTION_SHELL_AND_BAMBOO_MATERIALS_CONTROL_SHAPES.",
+    "TIANWU_CLOSES_COMPLETED_NEAR_TOTAL_CONTROL_TRANSFER_CLEAN_POST_CONTROL_POSITIVE_REVENUE_POSITIVE_NET_PROFIT_CURRENT_11_FTE_AND_LOW_CURRENT_ASSET_SCALE_BUT_EXPLICIT_PER_SHARE_OPERATING_CASHFLOW_IS_NEGATIVE.",
+    "LOW_CURRENT_FTE_PLUS_POSITIVE_ACCOUNTING_PROFIT_DOES_NOT_PASS_WHEN_OPERATING_CASHFLOW_IS_NEGATIVE_AND_REVENUE_STILL_INCLUDES_PROJECT_CUSTOMIZATION_MAINTENANCE_OR_CHANNEL_DEPENDENCE.",
+    "HENGLILAI_SHOWS_FOUR_CURRENT_EMPLOYEES_AND_A_BOUNDED_PLANNED_CONTROL_PRICE_CAN_COEXIST_WITH_ZERO_REVENUE_NEGATIVE_PROFIT_INCOMPLETE_SHARE_DELIVERY_AND_A_PLANNED_MANUFACTURING_PERSONNEL_INJECTION.",
+    "TEMPORARY_VOTING_RIGHT_DELEGATION_IS_NOT_A_REPRODUCIBLE_FRESH_OPERATOR_CONTROL_PURCHASE_AND_YANGZHU5_CURRENT_142_FTE_NEGATIVE_OCF_AND_PHYSICAL_PRODUCTION_DIRECTLY_FAIL_THE_LOW_LABOR_MACHINE_CONTROL_FLOOR.",
+    "SCAN118_SHOULD_REQUIRE_POSITIVE_POST_CONTROL_OCF_AND_EXISTING_REPEATABLE_NONPROJECT_EXTERNAL_REVENUE_IN_THE_SAME_INTRINSICALLY_LOW_FTE_ENTITY_RATHER_THAN_ACCEPTING_A_RELAUNCH_OR_PENDING_BUSINESS_INJECTION_STORY."
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_118",
+  "next_search_boundary": "TWELFTH_INDEPENDENT_LOW_FTE_POSITIVE_OCF_RECURRING_CONTROL_PASS_REQUIRE_COMPLETED_FRESH_OPERATOR_REPRODUCIBLE_CONTROL_BEFORE_REPORTING_PERIOD_REQUIRE_CLEAN_SAME_ENTITY_POST_CONTROL_POSITIVE_EXTERNAL_REVENUE_POSITIVE_NET_PROFIT_AND_EXPLICIT_POSITIVE_OPERATING_CASHFLOW_REQUIRE_CURRENT_FTE_INTRINSICALLY_LOW_REQUIRE_REVENUE_NOT_PRIMARILY_PROJECT_CUSTOMIZATION_FIELD_MANUFACTURING_AFTER_SALES_OR_PENDING_BUSINESS_INJECTION_REQUIRE_EXISTING_RECURRING_LICENSE_ROYALTY_SUBSCRIPTION_AUTOMATED_TRANSACTION_OR_OTHER_REPEATABLE_NONPROJECT_FLOW_REQUIRE_BOUNDED_CONTROL_CONSIDERATION_OPERATING_ASSETS_AND_WORKING_CAPITAL_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_117_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "VALIDATE_SCAN117_WITH_EXACT_FINAL_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_START_SCAN118_LOW_FTE_POSITIVE_OCF_RECURRING_CONTROL_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202510131761430091&pageIndex=3",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202604281821690661&pageIndex=1",
+    "https://basic.10jqka.com.cn/832418/",
+    "https://basic.10jqka.com.cn/832418/operate.html",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608211828256802&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608211828256802&pageIndex=5",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202604091821089026&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202604091821089098&pageIndex=2",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202605201822503888",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608281828635420&pageIndex=3",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608281828635420&pageIndex=7"
+  ]
+}
