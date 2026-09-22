@@ -1,0 +1,201 @@
+{
+  "schema_version": "attraction-scan.v76",
+  "scan_id": "ATTRACTION_SCAN_101",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA",
+    "GLOBAL_AUXILIARY"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "OPERATOR_ACQUIRABLE_CONTROL_ASSET_PLUS_EXTERNAL_ECONOMIC_MOTION_EVIDENCE_FIRST_AFTER_TWO_OPERATOR_CONTROL_ADVANTAGE_PASSES_REQUIRE_DIRECT_CURRENT_OR_RECENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_PLUS_CURRENT_EXTERNAL_PAYMENT_SPEND_OR_DIRECT_MARGIN_EVIDENCE_AND_EVIDENCE_THAT_AN_INDEPENDENT_SMALL_OPERATOR_CAN_LEGALLY_ACQUIRE_BUY_OWN_CONTRACT_OR_ASSEMBLE_THE_DECISIVE_NON_GENERIC_ASSET_RIGHT_OR_ROUTING_POSITION_THROUGH_STANDARDIZED_CHANNELS_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_100_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_NATIVE_OPEN_SOURCE_GENERIC_AGENT_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_101-F1",
+      "title": "CHINA_SELF_HOSTED_SERVICE_PUBLIC_INGRESS_ENDPOINT_AND_STABLE_PUBLIC_IPV4",
+      "chinese_title": "中国自托管服务的公网入口、稳定公网 IPv4 与内网映射",
+      "evidence_class": "CURRENT_CHINA_PARTICIPANT_AUTHORED_PUBLIC_INGRESS_PRICE_FRICTION_WITH_ACTUAL_ANNUAL_CLOUD_PURCHASE_AND_OPENLY_ACQUIRABLE_EIP_TUNNEL_CONTROL_SURFACES",
+      "observed_actor_state_change_evidence": [
+        "A March 2026 Chinese participant wanted only a stable public IP to expose a physical server inside the home network and objected to the apparent renewal jump after introductory cloud-server pricing.",
+        "The participant later reported the problem solved after logging into an older Alibaba Cloud account and finding a RMB 99 continuously renewable annual option, while also planning to investigate DDNS."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The participant already owns the physical compute and service; the missing endowment is a stable internet-reachable ingress path rather than more local compute.",
+        "Alibaba Cloud currently documents EIP as a public IPv4 resource that can be independently purchased and held, then dynamically bound or unbound from supported cloud resources. This means the decisive network endpoint is legally purchasable rather than an upstream-only approval right."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The participant compared low-cost cloud-server options, accepted the RMB 99 annual Alibaba Cloud route and considered DDNS; replies also proposed IPv6, Tailscale and Cloudflare Tunnel.",
+        "Cloudflare Tunnel currently exposes applications through outbound-only tunnels without requiring a public IP, while Tailscale Funnel can expose a local service to the public internet through a stable HTTPS URL."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This formation passes the Scan 101 acquirability entrance because an independent operator can buy an EIP/VPS endpoint or use openly available tunnel infrastructure and can automate endpoint-to-origin routing.",
+        "But the exact control asset is commodity infrastructure: Alibaba Cloud sells it directly, Cloudflare Tunnel is available on all plans without public IP, and Tailscale Funnel is available across plans. The participant's own problem closed at RMB 99/year without a distinct intermediary."
+      ],
+      "economic_signal": [
+        "The participant reports an actual annual cloud purchase/renewal path at RMB 99, so external money is already moving for the ingress outcome.",
+        "That same low direct price compresses normalized intermediary margin before acquisition/support costs, and no evidence shows a reusable operator advantage that beats direct cloud/tunnel substitutes."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Alibaba Cloud EIP is independently purchasable/holdable and supports programmatic binding to ECS and other cloud resources.",
+        "Cloudflare Tunnel provides public application connectivity using outbound-only tunnels and explicitly requires no public IP at the origin.",
+        "Tailscale Funnel exposes local ports/services to the public internet through relay infrastructure without local public-IP configuration."
+      ],
+      "operator_acquirability_check": "PASS_THE_NETWORK_ENDPOINT_OR_TUNNEL_CONTROL_CAN_BE_BOUGHT_OR_USED_BY_AN_INDEPENDENT_OPERATOR_THROUGH_STANDARD_CLOUD_OR_TUNNEL_PRODUCTS",
+      "founder_independence_check": "PASS_TECHNICALLY_ROUTING_PROVISIONING_DNS_CERTIFICATE_AND_HEALTH_CHECKS_CAN_BE_AUTOMATED_BUT_CUSTOMER_ACQUISITION_AND_SUPPORT_HAVE_NO_EVIDENCED_SELF_PROPELLING_SOURCE",
+      "data_action_rights_check": "PASS_FOR_OPERATOR_OWNED_CLOUD_ENDPOINT_DNS_AND_TUNNEL_CONFIGURATION_SUBJECT_TO_PROVIDER_TERMS",
+      "normalized_margin_check": "FAIL_DIRECT_RMB99_PER_YEAR_CLOUD_SUBSTITUTE_AND_FREE_OR_BUNDLED_TUNNEL_OPTIONS_LEAVE_LITTLE_ROOM_FOR_A_GENERIC_INTERMEDIARY_AFTER_SUPPORT_AND_ACQUISITION_COST",
+      "machine_delegatability_check": "PASS_HIGH_FOR_ENDPOINT_PROVISIONING_TUNNEL_CONFIGURATION_DNS_TLS_MONITORING_AND_FAILOVER",
+      "generic_agent_substitutability_check": "FAIL_THE_CONTROL_ASSET_IS_OPENLY_ACQUIRABLE_BY_THE_PARTICIPANT_AND_GENERIC_AGENTS_CAN_CONFIGURE_THE_SAME_CLOUD_TUNNEL_PRIMITIVES",
+      "verdict": "DEMOTED_OPERATOR_CONTROL_IS_ACQUIRABLE_AND_REAL_PAYMENT_EXISTS_BUT_THE_ASSET_IS_COMMODITY_INFRASTRUCTURE_WITH_DIRECT_LOW_COST_CLOUD_AND_TUNNEL_SUBSTITUTES_AND_NO_DURABLE_OPERATOR_ADVANTAGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_101-F2",
+      "title": "CHINA_BURST_GPU_TRAINING_CAPACITY_RESERVATION_AND_WORKLOAD_ROUTING",
+      "chinese_title": "中国 AI 训练突发 GPU 容量、预留与工作负载路由",
+      "evidence_class": "CURRENT_CHINA_PARTICIPANT_AUTHORED_GPU_CAPACITY_FAILURE_AND_RENTAL_SPEND_WITH_INDEPENDENTLY_PURCHASABLE_GPU_ASSETS_AND_MATURE_ELASTIC_GPU_CLOUD",
+      "observed_actor_state_change_evidence": [
+        "A January 2026 Chinese participant reported that four 8x4090 servers previously available for training had gone down and began exploring cloud capacity, with a stated requirement for roughly 16-32 4090-class GPUs simultaneously and unwillingness to accept materially slower cards.",
+        "A separate January 2026 Chinese participant described using a local 5080 for gaming but renting computers when training is needed, with a stated rental ceiling below roughly RMB 10 per hour. A late-2025 graduate-student participant also described reimbursable GPU rental as the advisor's preferred spend pattern over a large capital purchase."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "GPU compute is a physical control asset an independent operator can legally purchase and own; cloud GPU capacity can also be rented through standard commercial channels.",
+        "The recurring state change is burst demand or local-capacity failure: the user needs temporarily concentrated GPU capacity rather than permanent ownership of the full peak requirement."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Participants already move between owned cards and rented GPU capacity based on training intensity, budget and availability.",
+        "AutoDL currently offers exclusive GPU allocation, pay-as-you-go billing precise to usage time, prepaid reservation that keeps GPUs available while powered off, configuration changes and instance migration."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This formation passes operator acquirability and external-money gates: GPU hardware can be independently owned and rental spend is already normalized.",
+        "The same fact weakens exclusivity. AutoDL currently lists retail 4090-class and higher GPUs, supports both elastic and reserved billing, and handles migration when capacity is unavailable. Its FAQ explicitly addresses multi-card and multi-host cases.",
+        "An independent broker without a structurally cheaper or otherwise privileged supply pool would route a commodity asset already served by dedicated GPU clouds and marketplaces."
+      ],
+      "economic_signal": [
+        "Current participant evidence explicitly places training rental spend below roughly RMB 10/hour, while AutoDL currently publishes market prices including RTX 4090 around RMB 1.88/hour and H800 around RMB 9.98/hour at crawl time.",
+        "External economic motion is therefore clear, but no evidence binds a new intermediary to superior normalized margin after GPU capex/depreciation, electricity, idle capacity, bandwidth, storage, failure handling and acquisition."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "AutoDL supports pay-as-you-go and reserved billing, with reserved instances keeping GPU capacity available while stopped.",
+        "AutoDL states GPUs are allocated exclusively rather than shared and documents scaling GPU count, instance migration and support for multi-card parallelism; multi-machine multi-card requires platform coordination.",
+        "The current public price surface already spans consumer and datacenter GPUs, showing a mature direct retail capacity market."
+      ],
+      "operator_acquirability_check": "PASS_GPU_HARDWARE_CAN_BE_OWNED_AND_CLOUD_CAPACITY_CAN_BE_RENTED_THROUGH_STANDARD_CHANNELS_BY_AN_INDEPENDENT_OPERATOR",
+      "founder_independence_check": "PASS_FOR_AUTOMATED_SCHEDULING_IMAGE_PROVISIONING_JOB_ROUTING_BILLING_AND_HEALTH_RECOVERY_ONCE_CAPACITY_EXISTS_BUT_SUPPLY_ECONOMICS_AND_CUSTOMER_DISCOVERY_REMAIN_UNPROVEN",
+      "data_action_rights_check": "PASS_FOR_OPERATOR_OWNED_HARDWARE_OR_CONTRACTED_CLOUD_INSTANCES_WITHIN_PROVIDER_TERMS",
+      "normalized_margin_check": "FAIL_NO_EVIDENCED_PRIVILEGED_CAPACITY_COST_OR_UNIQUE_SUPPLY_POOL_AND_MATURE_GPU_RENTAL_MARKETS_ALREADY_PRICE_AND_ROUTE_THE_SAME_ASSET",
+      "machine_delegatability_check": "PASS_HIGH_FOR_CAPACITY_MATCHING_PROVISIONING_IMAGES_SCHEDULING_METERING_AND_FAILOVER",
+      "generic_agent_substitutability_check": "PARTIAL_PASS_PHYSICAL_GPU_CAPACITY_IS_NOT_CREATED_BY_AN_AGENT_BUT_FAILS_OPERATOR_EDGE_BECAUSE_AGENTS_CAN_ROUTE_AND_PROVISION_THE_SAME_COMMODITY_CAPACITY_FROM_MATURE_CLOUDS",
+      "verdict": "DEMOTED_REAL_RENTAL_SPEND_AND_ACQUIRABLE_PHYSICAL_CONTROL_EXIST_BUT_GPU_CAPACITY_IS_ALREADY_A_MATURE_COMMODITY_MARKET_WITHOUT_EVIDENCED_PRIVILEGED_SUPPLY_MARGIN_OR_DISTRIBUTION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_101-F3",
+      "title": "CHINA_DISCOUNTED_MULTI_CARRIER_OUTBOUND_SHIPPING_RATE_AND_LABEL_ROUTING",
+      "chinese_title": "中国折扣快递、多承运商寄件费率与面单路由",
+      "evidence_class": "CURRENT_CHINA_PARTICIPANT_AUTHORED_USE_OF_THIRD_PARTY_AGGREGATED_MONTHLY_SHIPPING_PLUS_CURRENT_SMALL_OPERATOR_MARGIN_EVIDENCE_AND_ENTERPRISE_MULTI_CARRIER_APIS",
+      "observed_actor_state_change_evidence": [
+        "A February 2026 Chinese participant planning a long-distance move reported expensive direct large-parcel options; another participant said they had previously used a third-party aggregated monthly-settlement courier platform for JD Logistics and received a large discount.",
+        "A February 2026 developer launched a parcel-shipping mini-program because friends had shipping needs. In the discussion another participant described a former colleague's similar multi-carrier API aggregation reaching about 1,000 users and roughly RMB 3,000 monthly gross profit; the current developer replied that their own markup was only RMB 0.30 per order."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The routing asset is commercially acquirable: an operator can apply for enterprise courier/API access, obtain carrier or platform settlement terms, query rates and create shipping orders through documented interfaces.",
+        "Kuaidi100 currently exposes enterprise authorization for shipping coverage, price queries, order creation, electronic labels and multi-carrier capacity."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Consumers actively seek lower-cost routes instead of paying direct retail carrier rates, and existing users already use aggregation platforms for discounted shipping.",
+        "Small developers can assemble courier APIs into a shipping front end and earn per-order spread, so this is direct evidence of an independently acquirable routing position rather than a hypothetical platform right."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is the strongest Scan 101 example of both acquirable control and external economics: the operator can contract APIs/rates and actual per-order margin is reported.",
+        "However the routing primitive is already commodity infrastructure. Kuaidi100's current '智选运力' offers a single integration across multiple carriers, transparent comparison and automatic fallback without requiring the customer to sign and reconcile each carrier separately.",
+        "The current developer's RMB 0.30 markup and the cited 1,000-user/RMB 3,000 gross-profit example indicate thin unit economics and a volume/distribution problem rather than a scarce control asset."
+      ],
+      "economic_signal": [
+        "Participant evidence includes actual discounted-platform use, actual current per-order markup of roughly RMB 0.30, and a reported comparable operator at around 1,000 users/RMB 3,000 monthly gross profit.",
+        "Those numbers prove money motion but not attractive normalized orchestration economics; acquisition, support, refund/weight disputes and carrier exceptions can overwhelm a sub-yuan spread."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Kuaidi100 documents enterprise-authenticated APIs for courier coverage, price queries, order placement and electronic labels.",
+        "Its current '智选运力' product explicitly aggregates preferred and fallback capacity behind one interface with multi-carrier comparison and automatic fallback.",
+        "Electronic-label documentation also supports customer monthly-settlement accounts, confirming that carrier account/API access is a mature, standardized integration surface rather than a rare operator right."
+      ],
+      "operator_acquirability_check": "PASS_ENTERPRISE_API_ACCESS_CARRIER_ACCOUNTS_PREPAID_OR_MONTHLY_SETTLEMENT_AND_ORDER_ROUTING_CAN_BE_CONTRACTED_THROUGH_STANDARD_COMMERCIAL_CHANNELS",
+      "founder_independence_check": "PARTIAL_PASS_ORDER_ROUTING_RATE_SELECTION_LABELING_TRACKING_AND_RECONCILIATION_CAN_BE_AUTOMATED_BUT_NO_FOUNDER_FREE_REPLENISHING_CUSTOMER_ACQUISITION_SOURCE_IS_EVIDENCED",
+      "data_action_rights_check": "PASS_FOR_AUTHORIZED_ENTERPRISE_SHIPPING_APIS_AND_OPERATOR_OR_CUSTOMER_CARRIER_ACCOUNTS_SUBJECT_TO_CONTRACT",
+      "normalized_margin_check": "FAIL_CURRENT_PARTICIPANT_REPORTS_ONLY_RMB0_30_MARKUP_PER_ORDER_AND_MATURE_AGGREGATORS_ALREADY_SUPPLY_MULTI_CARRIER_ROUTING_AND_FALLBACK",
+      "machine_delegatability_check": "PASS_HIGH_FOR_PRICE_QUERY_CARRIER_SELECTION_ORDER_CREATION_LABELING_TRACKING_STATUS_AND_BASIC_EXCEPTION_ROUTING",
+      "generic_agent_substitutability_check": "FAIL_THE_SAME_ENTERPRISE_APIS_AND_RATE_ROUTING_PRIMITIVES_ARE_AVAILABLE_TO_OTHER_OPERATORS_AND_CAN_BE_ORCHESTRATED_BY_GENERIC_SOFTWARE_AGENTS",
+      "verdict": "DEMOTED_STRONGEST_CURRENT_PROOF_OF_ACQUIRABLE_CONTROL_PLUS_REAL_MARGIN_BUT_THE_CONTROL_IS_NON_SCARCE_UNIT_MARGIN_IS_THIN_AND_MATURE_AGGREGATORS_ALREADY_OWN_THE_MULTI_CARRIER_ROUTING_PRIMITIVE"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "GENERIC_PUBLIC_IP_OR_REVERSE_TUNNEL_RESELLER",
+      "excluded_reason": "EXCLUDE_MECHANISM_DIRECT_RMB99_PER_YEAR_CLOUD_AND_FREE_OR_BUNDLED_TUNNEL_PRODUCTS_COMMODITIZE_THE_CONTROL_ASSET_AND_GENERIC_AGENTS_CAN_CONFIGURE_IT"
+    },
+    {
+      "observation": "GENERIC_GPU_RENTAL_BROKER",
+      "excluded_reason": "EXCLUDE_MECHANISM_GPU_ASSET_CONTROL_IS_ACQUIRABLE_BUT_MATURE_RENTAL_MARKETS_ALREADY_PRICE_RESERVE_MIGRATE_AND_ROUTE_CAPACITY_WITHOUT_EVIDENCED_PRIVILEGED_SUPPLY"
+    },
+    {
+      "observation": "GENERIC_DISCOUNT_COURIER_MINIPROGRAM",
+      "excluded_reason": "EXCLUDE_MECHANISM_CURRENT_OPERATOR_MARGIN_IS_SUB_YUAN_PER_ORDER_AND_EXISTING_ENTERPRISE_APIS_ALREADY_AGGREGATE_MULTI_CARRIER_PRICING_ORDERING_AND_FALLBACK"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_paid_stack": false,
+    "operator_acquirable_control_required": true,
+    "external_economic_motion_required": true,
+    "direct_participant_authored_current_friction_required": true,
+    "independent_objective_corroboration_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_PUBLIC_NETWORK_INGRESS_GPU_COMPUTE_CAPACITY_AND_OUTBOUND_PHYSICAL_LOGISTICS_ROUTING",
+    "observed_indexing_bias": "ACQUIRABLE_CONTROL_PLUS_PAYMENT_SURFACES MANY_COMMODITY_INFRASTRUCTURE_AND_AGGREGATION_MARKETS_WHERE_THE_CONTROL_PRIMITIVE_IS_AVAILABLE_TO_NEARLY_ANY_COMPETENT_OPERATOR_AT_SIMILAR_TERMS",
+    "response": "REPEAT_THE_SAME_ACQUIRABILITY_PLUS_ECONOMIC_MOTION_FLOOR_ON_A_SECOND_FRESH_FORMATION_DIVERSE_CHINA_SAMPLE_BEFORE_DERIVING_A_STRONGER_ASYMMETRY_OR_DISTRIBUTION_BOUNDARY",
+    "participant_behavior_over_analyst_story": "PASS_ALL_THREE_BIND_TO_CURRENT_OR_RECENT_CHINA_PARTICIPANT_PURCHASE_RENTAL_USE_OR_OPERATOR_MARGIN_AND_CURRENT_PROVIDER_DOCUMENTATION"
+  },
+  "scan_learnings": [
+    "SCAN101_FIRST_OPERATOR_ACQUIRABLE_CONTROL_PLUS_EXTERNAL_ECONOMIC_MOTION_PASS_ZERO_RETENTION_ACROSS_PUBLIC_INGRESS_GPU_CAPACITY_AND_MULTI_CARRIER_OUTBOUND_SHIPPING",
+    "OPERATOR_ACQUIRABILITY_CORRECTS_THE_UPSTREAM_GATEKEEPER_BIAS_FOUND_IN_SCANS099_100_BUT DOES_NOT_BY_ITSELF_CREATE_A_DURABLE_EDGE",
+    "ACQUIRABLE_CONTROL_PLUS_REAL_PAYMENT_CAN_COLLAPSE_TO_COMMODITY_INFRASTRUCTURE_WHEN_NEARLY_ANY_OPERATOR_OR_PARTICIPANT_CAN_BUY_THE_SAME_ASSET_AT_SIMILAR_TERMS",
+    "PUBLIC_IP_GPU_CAPACITY_AND_COURIER_RATE_ROUTING_ALL_SHOW_REAL_EXTERNAL_MONEY_MOTION_WHILE_EXACT_DIRECT_OR_AGGREGATED_INCUMBENTS_ALREADY_PRICE_AND_ROUTE_THE_CONTROL_PRIMITIVE",
+    "THIN_UNIT_MARGIN_OR_LOW_DIRECT_SUBSTITUTE_PRICE_IS_A_NORMALIZED_ECONOMICS_KILL_EVEN_WHEN_MACHINE_DELEGATABILITY_AND_RIGHTS_ARE_STRONG",
+    "ONE_OPERATOR_ACQUIRABILITY_PLUS_ECONOMIC_MOTION_PASS_IS_NOT_ENOUGH_TO_DERIVE_ASYMMETRIC_CONTROL_OR_DISTRIBUTION_AS_A_NEW_ONTOLOGY_SCAN102_SHOULD_REPEAT_THE_SAME_FLOOR_ON_FRESH_FORMATIONS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_102",
+  "next_search_boundary": "SECOND_INDEPENDENT_OPERATOR_ACQUIRABLE_CONTROL_PLUS_EXTERNAL_ECONOMIC_MOTION_PASS_REQUIRE_DIRECT_CURRENT_OR_RECENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_PLUS_CURRENT_EXTERNAL_PAYMENT_SPEND_OR_DIRECT_MARGIN_EVIDENCE_AND_EVIDENCE_THAT_AN_INDEPENDENT_SMALL_OPERATOR_CAN_LEGALLY_ACQUIRE_BUY_OWN_CONTRACT_OR_ASSEMBLE_THE_DECISIVE_NON_GENERIC_ASSET_RIGHT_OR_ROUTING_POSITION_THROUGH_STANDARDIZED_CHANNELS_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_101_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_NATIVE_OPEN_SOURCE_GENERIC_AGENT_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN101_WITH_CI_JEV_THEN_START_SCAN102_SECOND_OPERATOR_ACQUIRABILITY_PLUS_ECONOMIC_MOTION_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.v2ex.com/t/1202465",
+    "https://help.aliyun.com/zh/eip/product-overview/what-is-eip",
+    "https://developers.cloudflare.com/tunnel/",
+    "https://tailscale.com/docs/features/tailscale-funnel",
+    "https://fast.v2ex.com/t/1189656",
+    "https://www.v2ex.com/t/1169390",
+    "https://staging.v2ex.com/t/1187214",
+    "https://www.autodl.com/docs/price/",
+    "https://www.autodl.com/docs/gpu/",
+    "https://www.autodl.com/docs/qa/",
+    "https://jp.v2ex.com/t/1191667",
+    "https://www.v2ex.com/t/1192251",
+    "https://api.kuaidi100.com/document/5f0ff0a5bc8da837cbd8aef7",
+    "https://api.kuaidi100.com/document/xorder",
+    "https://api.kuaidi100.com/document/zhixuanyunli",
+    "https://api.kuaidi100.com/document/dianzimiandanV2"
+  ]
+}
