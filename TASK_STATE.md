@@ -38,7 +38,7 @@ PR #381 final live Jev run `35689116567`: success; `typesafe-sdk==0.7.0`, model 
 
 ## Active PR
 
-None. Scan 084 is complete on the research branch before PR creation.
+#382 — `Advance beyond bilateral-flow-only evidence after Scan 084`.
 
 ## CI
 
@@ -117,7 +117,7 @@ Discovery:
 
 ## Next Action
 
-Open the Scan 084 PR and validate its final head with repository CI plus live TypeSafe/Jev; consume the continuation directive.
+Validate PR #382's final head with repository CI plus live TypeSafe/Jev; consume the continuation directive.
 
 ## Do Not Repeat
 
