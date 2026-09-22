@@ -1,0 +1,192 @@
+{
+  "schema_version": "attraction-scan.v75",
+  "scan_id": "ATTRACTION_SCAN_100",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA",
+    "GLOBAL_AUXILIARY"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "SECOND_INDEPENDENT_OPERATOR_CONTROL_ADVANTAGE_EVIDENCE_PASS_REQUIRE_DIRECT_CURRENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_AND_EVIDENCE_THAT_A_REUSABLE_OPERATOR_CONTROL_SURFACE_EXECUTION_RIGHT_DATA_ADVANTAGE_SETTLEMENT_RAIL_OR_ROUTING_ASSET_MATERIALLY_IMPROVES_THE_OUTCOME_BEYOND_WHAT_PARTICIPANT_CREDENTIALS_GENERIC_AGENTS_ACTIVE_OPEN_SOURCE_TOOLS_MATURE_WORKFLOW_PLATFORMS_AND_NATIVE_UPSTREAM_CONTROLS_CAN_DO_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_099_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_EXTERNAL_ECONOMICS_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_100-F1",
+      "title": "CHINA_MAINLAND_CLOUD_MIGRATION_ICP_ACCESS_FILING_CONTROL",
+      "chinese_title": "中国大陆云迁移后的 ICP 接入备案与上线控制",
+      "evidence_class": "CURRENT_CHINA_PARTICIPANT_AUTHORED_CLOUD_MIGRATION_ACCESS_FAILURE_WITH_CURRENT_ACCESS_PROVIDER_FILING_RULES_AND_PROVIDER_MANAGED_FILING_SERVICE",
+      "observed_actor_state_change_evidence": [
+        "A January 2026 Chinese participant was pulled into a project after a team moved an already-filed domain from Alibaba Cloud to ByteDance/Volcengine infrastructure and initially diagnosed the failure as nginx or port configuration.",
+        "After temporary reachability changes, Volcengine displayed that the domain had not completed filing/access with Volcengine; the participant's original access-filing diagnosis proved operationally relevant."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The organization already owns the domain and an existing ICP filing number, but deployment on a new mainland access provider requires the filing record to be associated with the actual access provider.",
+        "Volcengine's current documentation states that a site already filed through another provider must complete access filing when its domain is pointed to a Volcengine mainland server; without the corresponding provider access filing the domain is treated as unfiled on that platform."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The team spent engineering time changing ports and reverse-proxy assumptions before the provider-side access rule became the decisive blocker.",
+        "The practical route is not a code fix: the responsible organization must submit identity/entity/site information through the actual access provider and wait for the provider/regulatory filing path."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is a genuine non-generic control surface because an ordinary coding agent cannot make a mainland access provider recognize a domain as properly filed merely by changing DNS or nginx.",
+        "However the control right belongs to the access provider and communications-administration process, and Volcengine itself offers filing submission plus paid filing-assistance services; a new generic operator cannot independently grant the access status."
+      ],
+      "economic_signal": [
+        "The control failure can block a production site after infrastructure migration and therefore has direct availability and migration-cost consequences.",
+        "No evidence shows recurring normalized willingness to pay for an independent control owner distinct from the cloud provider's own filing tooling or assistance; the observed spend is primarily cloud migration and engineering time."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Volcengine documents access filing as mandatory when an already-filed website/App moves to its mainland hosting and states that business cannot be conducted on the platform until the corresponding access filing is completed.",
+        "Volcengine also sells filing-assistance services that help submit the filing application to the access service provider, so even the administrative support layer is already provider-native.",
+        "Alibaba Cloud publishes the same provider-association model for domains moving onto Alibaba Cloud mainland servers, confirming that the control surface is structurally tied to the actual access provider rather than an independent generic intermediary."
+      ],
+      "founder_independence_check": "FAIL_FOR_A_NEW_OPERATOR_AS_CONTROL_OWNER_BECAUSE_THE_DECISIVE_STATUS_REMAINS_ACCESS_PROVIDER_AND_REGULATORY_APPROVAL_CONTROLLED_ADMINISTRATIVE_ASSISTANCE_CAN_BE_DELEGATED_BUT_NOT_THE_RIGHT_ITSELF",
+      "data_action_rights_check": "PARTIAL_PASS_FOR_PREPARING_ENTITY_DOMAIN_AND_SITE_DATA_FAIL_FOR_FINAL_ACCESS_ASSOCIATION_REVIEW_AND_APPROVAL_WHICH_REMAIN_PROVIDER_AND_REGULATOR_CONTROLLED",
+      "normalized_margin_check": "FAIL_FOR_UNOWNED_EDGE_PROVIDER_NATIVE_FILING_CONSOLES_AND_PAID_ASSISTANCE_ALREADY_OCCUPY_THE_REPEATABLE_ADMIN_LAYER_WHILE_EXCEPTION_HANDLING_REMAINS_ENTITY_AND_JURISDICTION_SPECIFIC",
+      "machine_delegatability_check": "PASS_FOR_PREFLIGHT_DOCUMENT_CHECKLIST_STATE_TRACKING_AND_SUBMISSION_ASSISTANCE_BUT_FAIL_FOR_MINTING_OR_APPROVING_THE_ACCESS_FILING_STATUS",
+      "generic_agent_substitutability_check": "PASS_FOR_THE_ACCESS_RIGHT_ITSELF_BECAUSE_GENERIC_AGENTS_CANNOT_CREATE_PROVIDER_REGULATORY_APPROVAL_BUT_FAILS_WHITE_SPACE_BECAUSE_THE_RIGHT_IS_OWNED_BY_THE_ACCESS_PROVIDER_AND_REGULATORY_PROCESS",
+      "verdict": "DEMOTED_REAL_OPERATOR_CONTROL_EXISTS_AT_THE_PROVIDER_FILING_BOUNDARY_BUT_AN_INDEPENDENT_OPERATOR_CANNOT_OWN_THE_DECISIVE_ACCESS_RIGHT_AND_PROVIDER_NATIVE_FILING_ASSISTANCE_ALREADY_OWNS_THE_REPEATABLE_SUPPORT_LAYER"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_100-F2",
+      "title": "CHINA_APPLE_DEVELOPER_ORGANIZATION_IDENTITY_ENROLLMENT_AND_DISTRIBUTION_RIGHT",
+      "chinese_title": "中国组织 Apple Developer 身份验证、会员注册与分发权",
+      "evidence_class": "CURRENT_CHINA_PARTICIPANT_AUTHORED_ORGANIZATION_ENROLLMENT_FAILURE_AND_RECOVERY_WITH_CURRENT_APPLE_IDENTITY_DUNS_BINDING_AUTHORITY_REQUIREMENTS",
+      "observed_actor_state_change_evidence": [
+        "A June 2026 Chinese participant documented repeated Apple Developer organization-enrollment failures across region settings, web versus Developer App flow, payment attempts, work-domain email entry and account blocking, followed by several support contacts and escalation.",
+        "The participant ultimately completed the process through another Apple account after supplying the responsible person's identity documents, the applicant's employment proof, business license and D-U-N-S information."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The organization controls its app, legal entity documents and employees, but it does not control Apple Developer Program identity verification, seller status or App Store distribution membership.",
+        "Apple currently requires a legal entity, D-U-N-S number, binding authority, organization-domain work email and public website for organization enrollment, with additional identity or notarized business documents possible."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The participant changed account region, obtained D-U-N-S data, switched enrollment channels, contacted support multiple times, appealed, used another Apple account and uploaded corporate/identity evidence before enrollment progressed.",
+        "Those actions show a real state transition whose bottleneck is platform identity trust and contractual eligibility rather than app code."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "A trusted enrollment/identity concierge could reduce preparation errors and workflow confusion, but it cannot independently create Apple contractual eligibility, D-U-N-S verification or binding authority.",
+        "The final right is explicitly granted by Apple after verification and membership purchase, so the strongest control surface is upstream-owned; any independent service remains guidance/document coordination rather than the principal right."
+      ],
+      "economic_signal": [
+        "The participant incurred several days of delay, support effort and failed payment/enrollment attempts for a channel directly tied to shipping software through the App Store.",
+        "Apple's membership fee is current direct spend on the upstream program, not evidence of willingness to pay an independent operator; no separate recurring external operator payment is evidenced."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Apple's current enrollment documentation requires legal-entity status, D-U-N-S, legal binding authority, work-domain email and a functioning organization website.",
+        "Apple's current identity-verification documentation specifically states that mainland-China Account Holders require identity verification and that organizations may be asked for additional notarized business documents.",
+        "Dun & Bradstreet controls the D-U-N-S business identifier while Apple controls program verification and membership, leaving no independent small operator with authority to grant the distribution right."
+      ],
+      "founder_independence_check": "FAIL_FOR_CONTROL_OWNERSHIP_THE_REPEATABLE_PREPARATION_LAYER_CAN_BE_DELEGATED_BUT_PLATFORM_SUPPORT_ESCALATION_ENTITY_SPECIFIC_EVIDENCE_AND_FINAL_APPLE_APPROVAL_REMAIN_UPSTREAM_DEPENDENT",
+      "data_action_rights_check": "PARTIAL_PASS_THE_ORGANIZATION_CAN_SUPPLY_ITS_OWN_LEGAL_AND_IDENTITY_RECORDS_FAIL_FOR_DUNS_VERIFICATION_APPLE_ACCOUNT_STATUS_MEMBERSHIP_APPROVAL_AND_DISTRIBUTION_RIGHT",
+      "normalized_margin_check": "FAIL_FOR_A_NEW_GENERIC_EDGE_NO_SEPARATE_RECURRING_OPERATOR_PAYMENT_IS_EVIDENCED_AND_THE_DECISIVE_RIGHT_REMAINS_APPLE_CONTROLLED",
+      "machine_delegatability_check": "PASS_FOR_REQUIREMENT_PREFLIGHT_DOCUMENT_VALIDATION_STATUS_TRACKING_AND_ERROR_PREVENTION_BUT_FAIL_FOR_APPLE_DUNS_AND_BINDING_AUTHORITY_APPROVAL",
+      "generic_agent_substitutability_check": "PASS_FOR_THE_UPSTREAM_MEMBERSHIP_RIGHT_GENERIC_AGENTS_CANNOT_MINT_IT_BUT_FAILS_WHITE_SPACE_BECAUSE_APPLE_AND_DUNS_ALREADY_OWN_THE_TRUST_AND_IDENTITY_CONTROL",
+      "verdict": "DEMOTED_HIGH_FRICTION_AND_REAL_DISTRIBUTION_CONSEQUENCE_BUT_THE_DECISIVE_OPERATOR_CONTROL_IS_APPLE_DUNS_IDENTITY_AUTHORITY_AND_AN_INDEPENDENT_OPERATOR_ONLY_ASSISTS_THE_PROCESS_WITHOUT_OWNING_THE_RIGHT"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_100-F3",
+      "title": "CHINA_CROSS_CARRIER_CONSUMER_PARCEL_PICKUP_DATA_AGGREGATION_RIGHT",
+      "chinese_title": "中国消费者跨快递/驿站取件信息聚合与手机号查件数据权",
+      "evidence_class": "CURRENT_CHINA_PARTICIPANT_AUTHORED_PICKUP_CODE_FRAGMENTATION_WITH_CARRIER_DATA_PARTNERSHIP_DOCUMENTATION_AND_EXISTING_AGGREGATION_PLATFORM_CONTROL",
+      "observed_actor_state_change_evidence": [
+        "A June 2026 Chinese participant reported that a Taobao order showed delivery into a Fengchao locker but did not display the pickup code unless the user authorized Fengchao; the participant refused that authorization and obtained the code only after courier customer service resent it by SMS.",
+        "A November 2025 Chinese developer separately described wanting a single app that, after phone-number authorization, could pull all parcels across Cainiao and Pinduoduo pickup stations because YTO parcels had moved to a different station ecosystem and the available API path did not provide that consumer-wide aggregation."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The consumer controls their phone number and purchase relationship, yet parcel/pickup data is split among ecommerce platforms, carriers, lockers and station networks, so user possession of the phone number alone does not yield a universal machine-readable parcel graph.",
+        "Kuaidi100's current API documentation exposes phone-number parcel lookup as a cooperation model in which logistics service providers provide the query interface to Kuaidi100, and its carrier-onboarding documentation references a signed phone-query data-use authorization."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Consumers fall back to platform authorization, multiple apps, SMS, station/locker interfaces or courier customer service to recover pickup information.",
+        "The developer attempted to identify an API-based aggregation path rather than merely proposing a UI, but the decisive missing asset is cross-provider phone-to-parcel data access rather than frontend implementation."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is the strongest Scan 100 example of a potentially reusable data-control asset: bilateral carrier/station data relationships can reveal parcels that a generic agent cannot infer from a phone number alone.",
+        "However Kuaidi100 already operates a carrier-partnership layer for phone-based parcel lookup, while consumer platforms and pickup networks own their own segments; a new small operator would need many sensitive-data agreements before coverage becomes useful.",
+        "Without those agreements the residual path collapses to user-authorized app access, notification/SMS parsing or manual customer-service retrieval, which is incomplete and substantially generic-agent substitutable."
+      ],
+      "economic_signal": [
+        "The participant evidence proves repeated convenience and retrieval friction, and the 2025 developer evidence proves active implementation interest.",
+        "No current participant-level payment or recurring business cost is evidenced for a universal consumer parcel aggregator, so the value jump is not yet bound to normalized external economics even before the multi-carrier data-rights burden."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Kuaidi100 currently documents phone-number parcel lookup as a business cooperation where the logistics provider supplies a phone-query interface and the parties protect the resulting user parcel information.",
+        "Its API documentation and carrier-onboarding materials require enterprise authorization and, for phone-based lookup cooperation, a signed data-use authorization; this confirms that the decisive data graph is contractually controlled rather than an open public endpoint.",
+        "Kuaidi100 also operates enterprise parcel-query products and carrier integrations, while Cainiao, Pinduoduo pickup networks, lockers and carriers each control portions of the consumer pickup flow."
+      ],
+      "founder_independence_check": "PARTIAL_PASS_AFTER_SUFFICIENT_CARRIER_AND_STATION_INTEGRATIONS_THE_ROUTING_COULD_BE_AUTOMATED_BUT_INITIAL_AND_ONGOING_COVERAGE_REQUIRES_MANY_PROVIDER_RELATIONSHIPS_AND_DATA_GOVERNANCE",
+      "data_action_rights_check": "FAIL_FOR_UNIVERSAL_PHONE_TO_PARCEL_AND_PICKUP_CODE_ACCESS_WITHOUT_BILATERAL_LOGISTICS_PROVIDER_OR_PLATFORM_AUTHORIZATION_USER_PHONE_OWNERSHIP_ALONE_IS_INSUFFICIENT",
+      "normalized_margin_check": "FAIL_NO_CURRENT_EXTERNAL_PAYER_OR_RECURRING_BUSINESS_COST_IS_BOUND_TO_THE_CONSUMER_AGGREGATION_OUTCOME_AND_BROAD_COVERAGE_REQUIRES_EXPENSIVE_PARTNER_DATA_RIGHTS",
+      "machine_delegatability_check": "PASS_HIGH_AFTER_AUTHORIZED_DATA_FEEDS_EXIST_FOR_MATCHING_DEDUPLICATION_STATUS_ROUTING_AND_NOTIFICATIONS_BUT_FAILS_TO_CREATE_THE_DATA_RIGHTS_THEMSELVES",
+      "generic_agent_substitutability_check": "PASS_FOR_AUTHORIZED_CROSS_CARRIER_DATA_GRAPH_AS_A_NON_GENERIC_ASSET_BUT FAILS_CURRENT_RETENTION_BECAUSE_EXISTING_AGGREGATORS_ALREADY_HOLD_PARTNERSHIPS_AND_A_NEW_OPERATOR_HAS_NEITHER_PROVEN_COVERAGE_RIGHTS_NOR_EXTERNAL_ECONOMICS",
+      "verdict": "DEMOTED_REAL_DATA_CONTROL_ADVANTAGE_AND_VISIBLE_UNRESOLVED_FRAGMENTATION_BUT_NO_PROVEN_PAYER_AND_NO_EVIDENCE_A_NEW_SMALL_OPERATOR_CAN_ACQUIRE_SUFFICIENT_CARRIER_STATION_DATA_RIGHTS_AT_NORMALIZED_MARGIN"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "GENERIC_ICP_FILING_CONCIERGE",
+      "excluded_reason": "EXCLUDE_MECHANISM_ACCESS_PROVIDERS_ALREADY_OWN_THE_FILING_CONSOLE_AND_SELL_ASSISTANCE_WHILE_FINAL_STATUS_REMAINS_PROVIDER_REGULATOR_CONTROLLED"
+    },
+    {
+      "observation": "GENERIC_APPLE_DEVELOPER_ACCOUNT_AGENCY",
+      "excluded_reason": "EXCLUDE_MECHANISM_APPLE_AND_DUNS_CONTROL_IDENTITY_AND_MEMBERSHIP_RIGHTS_WHILE_THE_RESIDUAL_IS_DOCUMENT_PREPARATION_AND_SUPPORT_ESCALATION"
+    },
+    {
+      "observation": "GENERIC_CONSUMER_PARCEL_AGGREGATOR",
+      "excluded_reason": "EXCLUDE_MECHANISM_WITHOUT_PROVEN_BILATERAL_DATA_RIGHTS_AND_PAYER_EXISTING_AGGREGATORS_ALREADY_HOLD_PARTNER_FEEDS_AND_SMS_NOTIFICATION_PARSING_IS_COMMODITIZED"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_paid_stack": false,
+    "operator_control_advantage_evidence_required": true,
+    "direct_participant_authored_current_friction_required": true,
+    "independent_objective_corroboration_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_MAINLAND_CLOUD_REGULATORY_ACCESS_APP_DISTRIBUTION_IDENTITY_AND_CONSUMER_LOGISTICS_DATA_RIGHTS",
+    "observed_indexing_bias": "SECOND_CONTROL_ADVANTAGE_PASS_CONFIRMS_THAT_STRONG_NON_GENERIC_CONTROL_SIGNALS_CLUSTER_AROUND_PROVIDER_REGULATORY_IDENTITY_OR_DATA_GATEKEEPERS_WHICH_BIASES_DISCOVERY_TOWARD_RIGHTS_AN_INDEPENDENT_OPERATOR_CANNOT_REALISTICALLY_ACQUIRE",
+    "response": "AFTER_TWO_PASSES_CHANGE_ONLY_THE_EVIDENCE_PRIORITY_SCAN101_MUST_REQUIRE_OPERATOR_ACQUIRABILITY_OF_THE_DECISIVE_CONTROL_ASSET_OR_RIGHT_PLUS_EXTERNAL_ECONOMIC_MOTION_BEFORE_DEEP_RETENTION_WITHOUT_INHERITING_A_PRODUCT_MECHANISM",
+    "participant_behavior_over_analyst_story": "PASS_ALL_THREE_BIND_TO_CURRENT_OR_RECENT_CHINA_PARTICIPANT_ACTIONS_AND_CURRENT_PROVIDER_PLATFORM_DOCUMENTATION"
+  },
+  "scan_learnings": [
+    "SCAN100_SECOND_OPERATOR_CONTROL_ADVANTAGE_PASS_ZERO_RETENTION_ACROSS_MAINLAND_CLOUD_ACCESS_FILING_APPLE_DEVELOPER_ORGANIZATION_IDENTITY_AND_CROSS_CARRIER_PARCEL_DATA_RIGHTS",
+    "TWO_OPERATOR_CONTROL_ADVANTAGE_PASSES_CONFIRM_THAT_NON_GENERIC_CONTROL_IS_A_USEFUL_FILTER_BUT_IS_SYSTEMATICALLY_BIASED_TOWARD_MATURE_REGULATED_NATIVE_OR_UPSTREAM_GATEKEEPERS",
+    "THE_NEXT_STRONGER_EVIDENCE_PROPERTY_IS_OPERATOR_ACQUIRABILITY_THE_DECISIVE_CONTROL_ASSET_OR_RIGHT_MUST_BE_REALISTICALLY_OBTAINABLE_BY_AN_INDEPENDENT_SMALL_OPERATOR_THROUGH_STANDARDIZED_LEGAL_CHANNELS_NOT_MERELY_EXIST_SOMEWHERE_IN_THE_STACK",
+    "PROVIDER_OR_REGULATOR_APPROVAL_PLATFORM_IDENTITY_MEMBERSHIP_AND_BILATERAL_SENSITIVE_DATA_RIGHTS_CANNOT_BE_TREATED_AS_OPERATOR_ASSETS_UNLESS_THE_NEW_OPERATOR_CAN_PROVE_A_DURABLE_AUTHORIZED_PATH_TO_OWN_OR_CONTROL_THEM",
+    "UNRESOLVED_USER_FRICTION_CAN_PERSIST_AROUND_A_CONTROL_GATEKEEPER_WITHOUT_CREATING_AN_INDEPENDENT_BUSINESS_EDGE_ESPECIALLY_WHEN_NO_EXTERNAL_PAYER_IS_BOUND_TO_THE_RESIDUAL_OUTCOME",
+    "SCAN101_SHOULD_REQUIRE_BOTH_OPERATOR_ACQUIRABLE_CONTROL_AND_EXTERNAL_ECONOMIC_MOTION_ON_FRESH_FORMATIONS_BEFORE_DEEP_RETENTION_WHILE_PRESERVING_FORMATION_DIVERSITY_AND_FAIL_CLOSED_PROMOTION"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_101",
+  "next_search_boundary": "OPERATOR_ACQUIRABLE_CONTROL_ASSET_EVIDENCE_FIRST_AFTER_TWO_OPERATOR_CONTROL_ADVANTAGE_PASSES_REQUIRE_DIRECT_CURRENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_PLUS_EVIDENCE_OF_EXTERNAL_ECONOMIC_MOTION_AND_EVIDENCE_THAT_AN_INDEPENDENT_SMALL_OPERATOR_CAN_REALISTICALLY_ACQUIRE_CONTRACT_ASSEMBLE_OR_CONTROL_THE_DECISIVE_EXECUTION_RIGHT_DATA_ASSET_ROUTING_POSITION_OR_OTHER_NON_GENERIC_CONTROL_THROUGH_STANDARDIZED_LEGAL_CHANNELS_WITHOUT_BECOMING_THE_REGULATED_NATIVE_OR_UPSTREAM_PRINCIPAL_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_100_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_NATIVE_OPEN_SOURCE_GENERIC_AGENT_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN100_WITH_CI_JEV_THEN_START_SCAN101_OPERATOR_ACQUIRABLE_CONTROL_PLUS_ECONOMIC_MOTION_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://v2ex.com/t/1189197",
+    "https://www.volcengine.com/docs/6428/68740?lang=zh",
+    "https://www.volcengine.com/docs/7048/1518355?lang=zh",
+    "https://help.aliyun.com/zh/icp-filing/basic-icp-service/support/access-for-the-record-the-faq",
+    "https://v2ex.com/t/1218149",
+    "https://developer.apple.com/cn/help/account/membership/program-enrollment",
+    "https://developer.apple.com/cn/help/account/membership/identity-verification",
+    "https://www.v2ex.com/t/1220356",
+    "https://www.v2ex.com/t/1170438",
+    "https://api.kuaidi100.com/document/6050507ca62a19500e198796.html",
+    "https://api.kuaidi100.com/document/search/index.html?wd=100",
+    "https://www.kuaidi100.com/service/quickQueryIntroduction.shtml"
+  ]
+}

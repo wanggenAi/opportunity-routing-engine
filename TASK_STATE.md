@@ -14,25 +14,25 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 099 is complete with zero retention after the first operator-control-advantage evidence-first pass. Scan 100 may begin only if PR #397 exact final-head repository CI plus live TypeSafe/Jev authorize continuation.
+Discovery: Scan 100 is complete with zero retention after the second independent operator-control-advantage evidence pass. Scan 101 may begin only if PR #398 exact final-head repository CI plus live TypeSafe/Jev authorize continuation.
 
 ## Current Phase
 
-`SCAN_099_COMPLETE_AWAITING_FINAL_PR_CI_JEV`
+`SCAN_100_COMPLETE_AWAITING_FINAL_PR_CI_JEV`
 
 ## Last Verified Main
 
-`b10412fbc74c74ecdb659bf77b3d9a9379958869`
-— squash merge of PR #396, `Complete second participant-controlled digital action Scan 098`.
+`eadd704d9d350f0a96bbe827996fa4dea92d095a`
+— squash merge of PR #397, `Run operator control advantage Scan 099`.
 
-PR #396 final head `77ef41ba49d9ca3673ca10152cb75be20c23965d`:
-- repository CI run `35715400941`: success;
-- live TypeSafe/Jev run `35715400884`: success;
+PR #397 final head `d75ddc4da9bd2f1dc12b990d147afb242cfb8385`:
+- repository CI run `35716208283`: success;
+- live TypeSafe/Jev run `35716208227`: success;
 - 3/3 effective route `NO_FURTHER_RESEARCH`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That directive was consumed to start Scan 099.
+That directive was consumed to start Scan 100.
 
 ## Active Issue
 
@@ -40,20 +40,20 @@ That directive was consumed to start Scan 099.
 
 ## Active Branch
 
-`research/attraction-scan-099`
+`research/attraction-scan-100`
 
 ## Active PR
 
-#397 — `Run operator control advantage Scan 099`.
+#398 — `Complete second operator control advantage Scan 100`.
 
 This TASK_STATE binding commit intentionally advances the PR head once. Repository CI and live TypeSafe/Jev must validate the resulting exact final head before merge.
 
 ## CI
 
-- PR #396 final-head repository CI `35715400941`: success.
-- PR #396 live TypeSafe/Jev `35715400884`: success; `ADVANCE_TO_NEXT_SCAN`.
-- PR #397 final-head validation: pending after this TASK_STATE binding commit.
-- Do not merge PR #397 or start Scan 100 from an earlier head.
+- PR #397 final-head repository CI `35716208283`: success.
+- PR #397 live TypeSafe/Jev `35716208227`: success; `ADVANCE_TO_NEXT_SCAN`.
+- PR #398 final-head validation: pending after this TASK_STATE binding commit.
+- Do not merge PR #398 or start Scan 101 from an earlier head.
 
 ## Parallel Validation
 
@@ -64,69 +64,66 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_099.json`;
-- `docs/research/ATTRACTION_SCAN_099_2026-09-22.md`;
-- `tests/test_attraction_scan_099_operator_control_advantage.py`.
+- `data/research_runs/attraction_scan_100.json`;
+- `docs/research/ATTRACTION_SCAN_100_2026-09-22.md`;
+- `tests/test_attraction_scan_100_operator_acquirability.py`.
 
 Updated:
 - `data/commercial_reset_state.json`;
 - `TASK_STATE.md`.
 
 Persisted state:
-- last completed scan = `ATTRACTION_SCAN_099`;
-- last resolved formation = `ATTRACTION_SCAN_099-F3`;
-- next scan = `ATTRACTION_SCAN_100`;
+- last completed scan = `ATTRACTION_SCAN_100`;
+- last resolved formation = `ATTRACTION_SCAN_100-F3`;
+- next scan = `ATTRACTION_SCAN_101`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Verified and consumed PR #396 exact final-head TypeSafe/Jev continuation after successful repository CI.
-- Squash-merged PR #396 into `main` at `b10412fbc74c74ecdb659bf77b3d9a9379958869`.
-- Created `research/attraction-scan-099` from that exact merged main.
-- Ran the first operator-control-advantage evidence-first pass in the China research domain.
-- Pressure-tested Merchant-of-Record settlement/tax control, agent credential/programmatic-access governance and stable official foreign-AI team access.
-- Distinguished non-generic control advantages from unowned control advantages.
-- Persisted Scan 099 JSON, research note, regression test and reset-state advancement.
-- Opened PR #397.
+- Reconciled stale TASK_STATE against live GitHub and confirmed PR #397 had already merged.
+- Verified PR #397 exact final-head repository CI and real TypeSafe/Jev success.
+- Consumed the actual Jev continuation directive: 3/3 `NO_FURTHER_RESEARCH`, autonomous continuation allowed, `ADVANCE_TO_NEXT_SCAN`.
+- Created `research/attraction-scan-100` from exact merged main `eadd704d9d350f0a96bbe827996fa4dea92d095a`.
+- Ran the second independent operator-control-advantage pass on a fresh formation-diverse China sample.
+- Pressure-tested mainland cloud/ICP access filing, Apple Developer organization identity/distribution membership and cross-carrier consumer parcel data rights.
+- Persisted Scan 100 JSON, research note, regression test and reset-state advancement.
+- Opened PR #398.
 
 ## Current Findings
 
-### Scan 099-F1 — independent-software global collection / Merchant of Record
+### Scan 100-F1 — mainland cloud migration / ICP access filing
 
-A real operator control advantage exists in payment acquiring, settlement, chargeback and tax liability because generic agents cannot mint those rights. But mature MoR/payment providers already own the rail, and a new generic operator would inherit regulated financial/compliance obligations instead of discovering an unowned edge.
+The provider/regulatory access relationship is a real non-generic control surface and can block production after migration. But the decisive status belongs to the actual access provider and regulatory process; Volcengine also already provides filing tooling and paid assistance.
 
-### Scan 099-F2 — agent credential and programmatic-access governance
+### Scan 100-F2 — Apple Developer organization identity / distribution membership
 
-Separating raw provider credentials from agents is a meaningful control boundary. The current participant evidence shows real compromise and team-governance risk, but GitHub native PAT/App controls plus OOMOL/OpenConnector-style brokers already occupy the reusable secret-holding and scoped-action surface.
+Organization identity, D-U-N-S/binding-authority verification and distribution membership materially change the outcome and cannot be minted by a generic agent. But Apple and D&B own the decisive trust and membership rights; an independent operator can only assist preparation and escalation.
 
-### Scan 099-F3 — stable official foreign-AI team access
+### Scan 100-F3 — cross-carrier consumer parcel pickup data aggregation
 
-The participant exposes direct team budget and strong willingness to pay for stability, but the decisive right is upstream service eligibility and supported geography. Native managed workspaces own authorized billing/admin controls where service is supported; an unauthorized intermediary cannot manufacture official access rights.
+Authorized phone-to-parcel relationships are a meaningful data-control asset. Current Kuaidi100 documentation confirms that phone lookup depends on logistics-provider query interfaces and authorization. But a new small operator has no proven broad carrier/station data rights, existing aggregators already hold partnerships, and no external payer is yet bound to the consumer aggregation outcome.
 
-## Scan 099 Result
+## Scan 100 Result
 
-First operator-control-advantage evidence pass completed with zero commercial promotions and zero retained research formations.
-
-Examined:
-- `ATTRACTION_SCAN_099-F1` — independent-software global Merchant-of-Record collection and tax rail;
-- `ATTRACTION_SCAN_099-F2` — agent third-party credential and programmatic-access governance;
-- `ATTRACTION_SCAN_099-F3` — stable official foreign-AI team access and budget control.
+Second independent operator-control-advantage pass completed with zero commercial promotions and zero retained research formations.
 
 State truth:
-- last completed scan = `ATTRACTION_SCAN_099`;
-- last resolved formation = `ATTRACTION_SCAN_099-F3`;
-- next scan = `ATTRACTION_SCAN_100`;
+- last completed scan = `ATTRACTION_SCAN_100`;
+- last resolved formation = `ATTRACTION_SCAN_100-F3`;
+- next scan = `ATTRACTION_SCAN_101`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Cross-Pass Learning
 
-The new evidence priority improves signal quality: settlement/tax liability, secret-holding and upstream eligibility are control surfaces generic agents cannot independently create.
+Scans 099 and 100 establish that non-generic control is useful for excluding generic-agent substitutes but is systematically biased toward control surfaces already owned by regulated principals, native platforms, access providers, identity authorities or bilateral data gatekeepers.
 
-But `NON_GENERIC_CONTROL_ADVANTAGE != UNOWNED_CONTROL_ADVANTAGE`. Strong controls often exist precisely inside mature regulated, native or upstream providers.
+The next evidence priority therefore changes without inheriting a product mechanism:
 
-One pass is insufficient to derive another mechanism or payer ontology. Scan 100 must repeat the same operator-control-advantage evidence priority on a fresh formation-diverse China sample.
+`OPERATOR-ACQUIRABLE CONTROL + EXTERNAL ECONOMIC MOTION`.
+
+Scan 101 must require evidence that an independent small operator can realistically acquire, contract, assemble or control the decisive right/asset through standardized legal channels, and that the unresolved outcome is already tied to external economic motion.
 
 ## Blockers
 
@@ -135,29 +132,30 @@ Validation:
 - No response remains neither a pass nor a denial.
 
 Engineering:
-- PR #397 requires repository CI and live TypeSafe/Jev on the exact post-binding final head.
-- Do not merge or start Scan 100 from an older head.
+- PR #398 requires repository CI and live TypeSafe/Jev on the exact post-binding final head.
+- Do not merge or start Scan 101 from an older head.
 
 Discovery:
-- Scan 099 is complete with zero retention.
-- Scan 100 is gated on the final-head continuation directive.
+- Scan 100 is complete with zero retention.
+- Scan 101 is gated on the final-head continuation directive.
 
 ## Engineering State
 
 - no Jev integration blocker;
-- Scan 099 branch is ahead of `main`;
-- PR #397 is open;
+- Scan 100 branch is ahead of `main`;
+- PR #398 is open;
 - this TASK_STATE binding commit intentionally changes the head once;
-- do not start Scan 100 until Scan 099 final-head continuation is consumed.
+- do not start Scan 101 until Scan 100 final-head continuation is consumed.
 
 ## Do Not Repeat
 
+- Do not repeat Scan 100 mainland cloud/ICP access filing, Apple Developer organization enrollment or cross-carrier parcel aggregation formations.
 - Do not repeat Scan 099 Merchant-of-Record software collection, agent credential governance or foreign-AI team-access formations.
 - Do not repeat Scan 098 cross-system internal marketing operations, team SMS/OTP routing or agent worktree local-asset synchronization.
 - Do not repeat Scan 097 digital-invoice reimbursement preparation, multi-platform creator publishing or Android multi-store release.
 - Do not repeat Scan 095–096 formations.
 - Do not revive the interrupted U.S.-only Scan 095 draft.
-- Do not return to Scan 060–099 formations or their primary discovery signals.
+- Do not return to Scan 060–100 formations or their primary discovery signals.
 - Do not use job/gig/RFQ/procurement feeds as discovery ontology.
 - Do not infer a product from a closed formation.
 - Do not lower hard floors because discovery closes at zero.
@@ -196,4 +194,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Validate PR #397 exact final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue into Scan 100 only if `autonomous_continuation_allowed=true`.
+Validate PR #398 exact final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue into Scan 101 only if `autonomous_continuation_allowed=true`.
