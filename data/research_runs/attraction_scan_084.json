@@ -1,0 +1,156 @@
+{
+  "schema_version": "attraction-scan.v60",
+  "scan_id": "ATTRACTION_SCAN_084",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "SECOND_INDEPENDENT_BILATERAL_PARTIAL_FLOW_FIRST_FORMATION_DIVERSE_REPEATED_CROSS_ACTOR_VALUE_TRANSFER_OR_WORKAROUND_BEFORE_PRODUCT_CATEGORY_OR_PROCUREMENT_SIGNAL_REQUIRE_REPLENISHING_A_AND_B_POPULATIONS_AND_RECURRING_CONNECTION_PRESSURE_EXCLUDE_SCAN060_TO_083_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_084-F1",
+      "title": "TRUCK_CAPACITY_AFTER_DELIVERY_TO_SHIPPER_FREIGHT_BACKHAUL_MATCH",
+      "chinese_title": "卡车卸货后空余运力到货主回程货源的重复匹配流",
+      "evidence_class": "REPEATED_BILATERAL_CAPACITY_DEMAND_MATCH_WITH_DIRECT_TRANSACTION_VALUE_AND_EMPTY_MILE_PRESSURE",
+      "actor_a_population": "Carriers and owner-operators with trucks becoming available after delivery and needing a profitable next load.",
+      "actor_b_population": "Shippers and brokers with replenishing truckload freight requiring compatible equipment, lane, pickup timing and price.",
+      "repeated_partial_flow_evidence": [
+        "DAT says its load-board network carries more than 291 million load and truck posts annually, directly evidencing a large recurring carrier-to-freight matching flow.",
+        "Uber Freight reports more than 18 million shipments annually on a carrier marketplace with instant load booking and upfront pricing.",
+        "DAT's June 2026 Convoy Platform update exposes reload options near a delivery stop before a carrier books the first load, explicitly targeting costly empty miles."
+      ],
+      "connection_pressure_or_workaround": [
+        "After a delivery, a carrier needs a geographically and temporally compatible next load or incurs empty miles and unpaid search time.",
+        "Shippers need reliable capacity while carriers need linehaul/fuel economics and deadhead visibility before accepting.",
+        "The connection pressure repeats on every load cycle rather than once per customer."
+      ],
+      "economic_signal": [
+        "Each successful match is directly tied to paid freight movement and avoided empty miles.",
+        "DAT and Uber Freight monetize mature load-board, brokerage, data and execution services around the same exchange."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "DAT One already matches loads and trucks at very large scale and in 2026 added algorithmic load recommendations.",
+        "DAT's Convoy Platform already exposes reload/backhaul options, bid/book flows, tracking and payment automation.",
+        "Uber Freight already provides a large carrier network, real-time pricing and instant load booking."
+      ],
+      "founder_independence_check": "PASS_MATCHING_BOOKING_TRACKING_AND_PAYMENT_ARE_PLATFORM_EXECUTABLE_WITHOUT_FOUNDER_HUNT",
+      "data_action_rights_check": "PASS_FOR_LISTED_LOADS_AND_AUTHORIZED_CARRIERS_BUT_CARRIER_AUTHORITY_INSURANCE_AND_CONTRACT_TERMS_REMAIN_REQUIRED",
+      "normalized_margin_check": "PASS_FOR_EXISTING_BROKERAGE_AND_DATA_PLATFORMS_BUT_FAIL_FOR_DISTINCT_NEW_OPERATOR_WHITE_SPACE",
+      "machine_delegatability_check": "PASS_LOAD_RECOMMENDATION_RATE_VISIBILITY_BOOKING_TRACKING_AND_PAYMENT_CAN_BE_HIGHLY_AUTOMATED",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_LACKS_THE_LIVE_LOAD_NETWORK_RATE_DATA_CARRIER_CREDENTIALS_AND_SETTLEMENT_RAILS_BUT_INCUMBENTS_ALREADY_OWN_THESE_ASSETS",
+      "verdict": "DEMOTED_EXTREMELY_STRONG_REPEATED_PAID_BILATERAL_FLOW_BUT_DAT_UBER_FREIGHT_AND_CURRENT_DIGITAL_BROKERAGE_ALREADY_OWN_MATCHING_BOOKING_DATA_AND_SETTLEMENT"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_084-F2",
+      "title": "INDUSTRIAL_RESIDUAL_MATERIAL_SUPPLIER_TO_SECONDARY_RESOURCE_BUYER_EXCHANGE",
+      "chinese_title": "工业副产物与废料供给方到二次原料需求方的重复交换流",
+      "evidence_class": "REPEATED_BILATERAL_WASTE_TO_RESOURCE_TRANSFER_WITH_PRICE_LOGISTICS_AND_COMPLIANCE_PRESSURE",
+      "actor_a_population": "Manufacturers, retailers and other organizations with recurring waste, residuals or secondary-material output.",
+      "actor_b_population": "Recyclers, traders and manufacturers that can buy or consume those materials as secondary inputs.",
+      "repeated_partial_flow_evidence": [
+        "Cyrkl's live marketplace shows current offers and demands for recycled plastics and other materials with quantities and asking prices, demonstrating active bilateral trade intent.",
+        "Cyrkl states its marketplace is trusted by more than 20,000 companies and supports smart matching across a large European recycling network.",
+        "A 2026 Interreg circular-transition guide uses Cyrkl as a concrete workflow for finding market demand for production residues and clean by-products that can be reused by other industries."
+      ],
+      "connection_pressure_or_workaround": [
+        "Suppliers seek to avoid disposal cost and convert residual material into revenue while buyers seek cheaper or lower-impact secondary inputs.",
+        "Matches depend on exact material composition, quantity, geography, logistics, treatment requirements and regulatory classification.",
+        "Expert validation and waste-management compliance often remain necessary after digital discovery."
+      ],
+      "economic_signal": [
+        "The marketplace exposes explicit per-tonne prices or negotiated-price listings for many current materials.",
+        "Cyrkl also sells consulting and comprehensive waste-management services, showing external spend exists around both matching and expert execution."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Cyrkl already operates a large European marketplace for waste, residuals and secondary raw materials with smart matching.",
+        "Cyrkl also offers Green Sourcing, Circular Waste Scans, logistics/compliance support and comprehensive waste-management services.",
+        "The current product surface therefore spans discovery plus the expert/compliance residual that might otherwise appear to be the missing edge."
+      ],
+      "founder_independence_check": "PARTIAL_MARKETPLACE_MATCHING_IS_PRODUCTIZED_BUT_DIFFICULT_STREAMS_STILL_REQUIRE_DOMAIN_EXPERTS_AND_LOCAL_WASTE_COMPLIANCE",
+      "data_action_rights_check": "PARTIAL_PARTICIPANTS_CAN_LIST_AND_TRADE_AUTHORIZED_MATERIALS_BUT_WASTE_CLASSIFICATION_TRANSPORT_AND_CROSS_BORDER_RULES_CONSTRAIN_EXECUTION",
+      "normalized_margin_check": "PASS_FOR_EXISTING_MARKETPLACE_CONSULTING_AND_WASTE_MANAGEMENT_MODELS_BUT_FAIL_FOR_DISTINCT_NEW_WHITE_SPACE",
+      "machine_delegatability_check": "PARTIAL_PASS_DISCOVERY_PRICE_FILTERING_AND_MATCHING_ARE_MACHINE_EXECUTABLE_WHILE_MATERIAL_VALIDATION_TREATMENT_AND_COMPLIANCE_CAN_REMAIN_EXPERT_OR_PHYSICAL",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CANNOT_REPLACE_VERIFIED_MATERIAL_INVENTORY_BUYER_NETWORK_OR_REGULATORY_EXECUTION_BUT_CURRENT_PLATFORM_AND_EXPERT_SERVICES_ALREADY_OWN_THEM",
+      "verdict": "DEMOTED_REAL_REPEATED_BILATERAL_WASTE_TO_RESOURCE_FLOW_BUT_CURRENT_MARKETPLACE_MATCHING_AND_EXPERT_COMPLIANCE_EXECUTION_ARE_ALREADY_BUNDLED_BY_CYRKL_AND_PEERS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_084-F3",
+      "title": "CANCELLED_NHS_APPOINTMENT_SLOT_TO_WAITING_PATIENT_EARLIER_CARE",
+      "chinese_title": "NHS 取消预约空档到候诊患者提前就诊的重复再分配流",
+      "evidence_class": "REPEATED_BILATERAL_TIME_SLOT_REALLOCATION_WITH_PROVIDER_CONTROLLED_ELIGIBILITY_AND_SCHEDULING_RIGHTS",
+      "actor_a_population": "NHS providers with appointment slots released by cancellation, rescheduling or non-attendance risk.",
+      "actor_b_population": "Eligible waiting patients who can accept an earlier appointment and value shorter time to care.",
+      "repeated_partial_flow_evidence": [
+        "NHS England reported 16 million GP appointments were missed in 2025 and explicitly asks patients to cancel or rearrange so an appointment can be offered to someone else.",
+        "By April 2026 all acute NHS trusts in England were connected to the NHS App for referrals/appointments, with many patients able to reschedule or cancel digitally.",
+        "Current NHS hospital guidance states that when earlier appointments become available because of cancellations, waiting patients may receive a message offering the earlier slot."
+      ],
+      "connection_pressure_or_workaround": [
+        "Providers want to prevent a released slot from becoming unused clinical capacity.",
+        "Waiting patients want earlier care but eligibility, specialty, clinician, location and timing constraints determine who can accept.",
+        "The right to allocate the slot remains with the care provider and its scheduling/referral systems."
+      ],
+      "economic_signal": [
+        "The NHS frames fewer missed appointments as a productivity and waiting-list benefit, but there is no independent payer signal for a third-party slot matcher.",
+        "The economic beneficiary and control owner are primarily the provider/system rather than a bilateral open-market operator."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The NHS App already supports booking, cancellation, rescheduling in many settings and visibility into referrals/waiting lists.",
+        "NHS provider systems such as Patient Hub already support appointment management and some providers directly message waiting patients when earlier slots appear.",
+        "Provider scheduling systems retain release rules, eligibility and final allocation authority."
+      ],
+      "founder_independence_check": "PASS_DIGITAL_NOTIFICATION_MATCHING_AND_RESCHEDULING_CAN_BE_AUTOMATED_WITHIN_PROVIDER_SYSTEMS",
+      "data_action_rights_check": "FAIL_FOR_AN_INDEPENDENT_OPERATOR_PROVIDER_SYSTEMS_CONTROL_PATIENT_ELIGIBILITY_CLINICAL_PRIORITY_AND_SLOT_ALLOCATION",
+      "normalized_margin_check": "FAIL_NO_DISTINCT_RECURRING_EXTERNAL_OPERATOR_PAYMENT_IS_EVIDENCED_FOR_THE_REASSIGNMENT_UNIT",
+      "machine_delegatability_check": "PASS_FOR_NOTIFICATION_ELIGIBILITY_FILTERING_AND_RESCHEDULING_WHEN_PROVIDER_RULES_AND_APIS_EXIST",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CANNOT_AUTHORITATIVELY_REALLOCATE_PROVIDER_CONTROLLED_CLINICAL_SLOTS_WITHOUT_PRIVILEGED_RIGHTS_BUT_THE_NHS_AND_PROVIDER_SYSTEMS_ALREADY_CONTROL_THEM",
+      "verdict": "DEMOTED_HIGH_FREQUENCY_REALLOCATION_FLOW_AND_MEASURABLE_CAPACITY_VALUE_BUT_PROVIDER_OWNED_SCHEDULING_AND_ELIGIBILITY_RIGHTS_PRECLUDE_AN_INDEPENDENT_OPERATOR_EDGE"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "inherited_mechanism_as_requirement": false,
+    "discovery_started_from_bilateral_partial_flow": true,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "replenishing_a_and_b_populations_required": true,
+    "formation_diversity": "PASS_FREIGHT_LOGISTICS_INDUSTRIAL_CIRCULAR_MATERIALS_AND_PUBLIC_HEALTHCARE_SCHEDULING",
+    "two_pass_signal_assessment": "TWO_INDEPENDENT_BILATERAL_PARTIAL_FLOW_PASSES_IMPROVED_REALITY_GROUNDING_BUT_BOTH_OVERSELECT_FLOWS_WHERE_A_MATCHING_OR_SCHEDULING_CONTROL_SURFACE_IS_ALREADY_ECONOMICALLY_OBVIOUS_AND_THEREFORE_ALREADY_OWNED",
+    "response": "CHANGE_NEXT_EVIDENCE_OBJECT_TO_PARTICIPANT_AUTHORED_OFF_PLATFORM_OR_MANUAL_BILATERAL_COMPLETION_DESPITE_AN_AVAILABLE_EXACT_CONTROL_SURFACE_WITH_AN_EXPLICIT_REASON_THE_CONTROL_SURFACE_IS_BYPASSED_OR_INCOMPLETE",
+    "participant_behavior_over_analyst_story": "PASS_THE_NEXT_BOUNDARY_REQUIRES_OBSERVED_PARTICIPANT_BYPASS_BEHAVIOR_AND_REASON_RATHER_THAN_INFERRED_PLATFORM_GAP"
+  },
+  "scan_learnings": [
+    "SECOND_INDEPENDENT_BILATERAL_PARTIAL_FLOW_PASS_AGAIN_FOUND_REAL_HIGH_VOLUME_CONNECTION_PRESSURE_BUT_ZERO_UNOWNED_CONTROL_EDGES",
+    "FREIGHT_BACKHAUL_MATCHING_IS_NEAR_IDEAL_MACHINE_EXECUTABLE_BILATERAL_FLOW_YET_DAT_UBER_FREIGHT_AND_DIGITAL_BROKERAGE_ALREADY_OWN_THE_REQUIRED_NETWORK_DATA_BOOKING_AND_SETTLEMENT",
+    "INDUSTRIAL_WASTE_TO_RESOURCE_EXCHANGE_HAS_REAL_LISTINGS_PRICES_AND_BOTH_SIDES_BUT_MARKETPLACE_PLUS_EXPERT_COMPLIANCE_SERVICES_ALREADY_COVER_THE_RESIDUAL",
+    "NHS_CANCELLED_SLOT_REALLOCATION_HAS_MEASURABLE_CAPACITY_VALUE_BUT_THE_PROVIDER_RETAINS_CLINICAL_ELIGIBILITY_AND_ALLOCATION_RIGHTS",
+    "TWO_BILATERAL_FLOW_PASSES_SHOW_THAT_VISIBLE_CONNECTION_PRESSURE_SYSTEMATICALLY_SELECTS_CATEGORIES_WHERE_MATCHING_CONTROL_SURFACES_ARE_ALREADY_OBVIOUS",
+    "SCAN085_SHOULD_REQUIRE_OBSERVED_PARTICIPANT_AUTHORED_OFF_PLATFORM_OR_MANUAL_COMPLETION_DESPITE_AN_AVAILABLE_EXACT_CONTROL_SURFACE_PLUS_AN_EXPLICIT_BYPASS_REASON_BEFORE_PRODUCT_NAMING"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_085",
+  "next_search_boundary": "PARTICIPANT_AUTHORED_OFF_PLATFORM_OR_MANUAL_BILATERAL_COMPLETION_DESPITE_AVAILABLE_EXACT_CONTROL_SURFACE_FIRST_REQUIRE_REPEATED_A_B_VALUE_TRANSFER_REPLENISHING_POPULATIONS_AND_EXPLICIT_PARTICIPANT_STATED_BYPASS_OR_INCOMPLETENESS_REASON_BEFORE_PRODUCT_CATEGORY_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_EXCLUDE_SCAN060_TO_084_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN085_PARTICIPANT_AUTHORED_CONTROL_SURFACE_BYPASS_FIRST_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.dat.com/load-boards",
+    "https://www.dat.com/company/news-events/news-releases/dat-introduces-load-recommendations-to-help-carriers-find-freight-faster-in-dat-one",
+    "https://www.dat.com/company/news-events/news-releases/dats-convoy-platform-now-shows-reload-options-before-carriers-book",
+    "https://www.uberfreight.com/en-US/carrier-marketplace",
+    "https://www.cyrkl.com/en/marketplace",
+    "https://www.cyrkl.com/?source=marketplace",
+    "https://www.cyrkl.com/en/consulting",
+    "https://www.interreg-central.eu/wp-content/uploads/2026/02/Solutions-fo-Circular-Transition_CIRCOTRONIC.pdf",
+    "https://www.england.nhs.uk/2026/03/nhs-urges-tap-the-app-as-1-in-4-miss-appointments/",
+    "https://www.england.nhs.uk/2026/04/hospital-patients-can-now-check-appointments-in-the-nhs-app/",
+    "https://www.nhs.uk/nhs-app/help/appointments/managing-gp-appointments/",
+    "https://www.mse.nhs.uk/appointments",
+    "https://www.bhrhospitals.nhs.uk/news/managing-your-appointments-just-got-easier-5598"
+  ]
+}
