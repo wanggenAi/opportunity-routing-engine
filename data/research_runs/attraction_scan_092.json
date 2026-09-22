@@ -1,0 +1,200 @@
+{
+  "schema_version": "attraction-scan.v68",
+  "scan_id": "ATTRACTION_SCAN_092",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "SECOND_INDEPENDENT_PASS_INDEPENDENTLY_REPLICATED_PAID_COORDINATOR_RESIDUAL_FAILURE_WITH_COMPENSATING_SECOND_LAYER_COST",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_092-F1",
+      "title": "PAID_FIGMA_DESIGN_SYSTEM_PLUS_TOKEN_SYNC_AND_HANDOFF_TOOLING",
+      "chinese_title": "付费 Figma 设计系统后仍叠加令牌同步与设计转代码工具",
+      "evidence_class": "PAID_PRIMARY_DESIGN_SYSTEM_WITH_RESIDUAL_SYNC_COST_PARTIAL_REPLICATION",
+      "actor_a_population": "Product and design-system teams already using paid Figma collaboration/design-system capabilities while maintaining production UI across one or more codebases.",
+      "actor_b_population": "Engineering repositories, token pipelines and component libraries that must consume the same variables, modes and component semantics without drift.",
+      "evidence_summary": "Current participant evidence shows persistent Figma-to-code drift and real use of external tooling after Figma adoption: an agency on Figma Professional reports using the Variables Pro plugin because native variable library swapping was insufficient for its multi-client workflow, while a design-system team reports a paid Tokens Studio Pro subscription on top of a Figma-built system and still struggles to make the token-to-CSS workflow work. 2026 participants continue to describe manual JSON export, code handoff and approval friction. The strict Scan 092 two-account double-payment gate is not promoted to a clean PASS because the public accounts do not bind two unaffiliated current participants to equally explicit executed payment for both Figma and the second tool. The residual is also being compressed by Figma Variables, Variables APIs, Code Connect, MCP and free/open-source sync alternatives, while Tokens Studio itself is an established paid control surface.",
+      "existing_components": [
+        "Figma Variables and component libraries are native design-system primitives.",
+        "Tokens Studio is a mature paid design-token platform with current paid tiers for variable sync, versioning, code export and design-to-code workflows.",
+        "Figma Code Connect and MCP connect production component code and design context, while Variables APIs support programmatic sync under plan and permission constraints.",
+        "Free/open-source plugins and custom webhook/CI workflows also implement Figma-to-repository token synchronization."
+      ],
+      "independent_replication": [
+        "A Figma agency on the Professional tier reports using Variables Pro to swap variables while waiting for stronger native variable-library support and calls the multi-library process fiddly and painful at scale.",
+        "A separate design-system team reports a Tokens Studio Pro subscription on top of a Figma-built design system but says it is struggling to get variables/styles and CSS extraction working.",
+        "A July 2026 founding designer describes a Figma-token workflow that was still manual enough that a one-line color change could take about an hour before they built a custom webhook/CI path."
+      ],
+      "participant_authored_successful_completion": [
+        "The agency uses Figma Professional as its active design surface and an external plugin to compensate for missing variable-swap behavior.",
+        "Teams use Tokens Studio, hosted JSON, custom plugins or CI to move token state between Figma and engineering repositories."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "Participants report drift, manual export/copy/paste, permission approval and multi-brand/multi-library maintenance friction after adopting Figma.",
+        "A paid Tokens Studio user still reports difficulty configuring the desired Figma-to-CSS workflow, showing that payment does not guarantee low-friction completion."
+      ],
+      "paid_coordinator_check": "PASS_CURRENT_PARTICIPANT_EVIDENCE_INCLUDES_A_FIGMA_PROFESSIONAL_AGENCY_AND_PAID_DESIGN_SYSTEM_TOOLING_USE",
+      "residual_failure_after_payment_check": "PASS_DESIGN_TO_CODE_TOKEN_DRIFT_MANUAL_HANDOFF_AND_MULTI_LIBRARY_MAINTENANCE_REMAIN_CURRENT_AFTER_FIGMA_ADOPTION",
+      "second_layer_economic_cost_check": "PASS_EXECUTED_PAID_SECOND_LAYER_TOOLING_EXISTS_IN_TOKENS_STUDIO_PRO_AND_PAID_PLUGIN_USE_IS_REPORTED_ALONGSIDE_FIGMA_WORKFLOWS",
+      "replicated_paid_residual_second_cost_check": "PARTIAL_FAIL_TWO_UNAFFILIATED_CURRENT_PARTICIPANT_ACCOUNTS_ARE_NOT_BOTH_CLEANLY_BOUND_TO_EXPLICIT_EXECUTED_PAYMENT_FOR_FIGMA_AND_THE_SECOND_TOOL_AT_EQUAL_EVIDENCE_QUALITY",
+      "no_single_current_control_surface_check": "FAIL_THE_RESIDUAL_IS_ALREADY_SPLIT_ACROSS_MATURE_TOKENS_STUDIO_FIGMA_NATIVE_VARIABLES_CODE_CONNECT_MCP_VARIABLES_APIS_AND_FREE_OR_CUSTOM_SYNC_PATHS",
+      "decisive_completion_control": "FAIL_FOR_NEW_OPERATOR_FIGMA_PLAN_PERMISSIONS_AND_REPOSITORY_WRITE_RIGHTS_REMAIN_WITH_THE_PRIMARY_TOOLS_AND_CUSTOMER_ENGINEERING_SYSTEMS",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Tokens Studio currently sells paid variable-sync, release/versioning and code-export workflows.",
+        "Figma exposes native Variables, Variables APIs, Code Connect and MCP pathways that increasingly absorb design-to-code synchronization.",
+        "Participants already use free/open-source plugins and custom webhook/CI flows, reducing a durable generic middle layer."
+      ],
+      "founder_independence_check": "PASS_EXISTING_SOFTWARE_AND_CI_PATHS_CAN_EXECUTE_WITHOUT_FOUNDER_DELIVERY",
+      "data_action_rights_check": "FAIL_FOR_NEW_EDGE_VARIABLE_API_ACCESS_FIGMA_FILE_PERMISSIONS_AND_CODE_REPOSITORY_WRITE_RIGHTS_REMAIN_PLATFORM_OR_CUSTOMER_CONTROLLED",
+      "normalized_margin_check": "FAIL_FOR_NEW_EDGE_MATURE_PAID_AND_FREE_SYNC_TOOLS_PLUS_NATIVE_ABSORPTION_COMPRESS_AN_UNOWNED_GENERIC_SYNC_MARGIN",
+      "machine_delegatability_check": "PASS_TOKEN_SERIALIZATION_DIFF_NORMALIZATION_SYNC_AND_PR_CREATION_ARE_MACHINE_DELEGATABLE",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_AGENTIC_WORKFLOWS_CAN_ORCHESTRATE_PUBLIC_APIS_AND_REPOSITORY_AUTOMATION_WHILE_DISTINCT_ACCESS_RIGHTS_STAY_EXTERNAL",
+      "verdict": "DEMOTED_RESIDUAL_SYNC_PAIN_IS_REAL_BUT_STRICT_REPLICATED_DOUBLE_PAYMENT_IS_NOT_CLEANLY_BOUND_AND_MATURE_NATIVE_PAID_FREE_AND_CUSTOM_CONTROL_SURFACES_ALREADY_OWN_THE_REPAIR_PATH"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_092-F2",
+      "title": "PAID_WEBFLOW_SITE_PLATFORM_PLUS_MEMBERSHIP_AUTH_AND_BILLING_LAYER",
+      "chinese_title": "付费 Webflow 建站后叠加会员认证与订阅计费层",
+      "evidence_class": "PLATFORM_DEPRECATION_FORCES_COMPLEMENT_LAYER_BUT_EXECUTED_DOUBLE_PAYMENT_NOT_CLEANLY_REPLICATED",
+      "actor_a_population": "Webflow site operators building paid memberships, gated content or authenticated applications after Webflow removed native User Accounts.",
+      "actor_b_population": "Membership/authentication and billing systems such as Memberstack, Outseta and Stripe that now provide identity, gating and subscription state.",
+      "evidence_summary": "Webflow officially removed User Accounts and its related APIs on January 29, 2026 and explicitly directs customers toward Memberstack and Outseta. Current builders show the consequence: a July 2026 startup reports an active Webflow + Memberstack + Stripe + Vimeo + custom-code membership stack and seeks a long-term Webflow/Memberstack developer; another 2026 user says native recurring subscriptions are unavailable and wants to avoid roughly $30/month for a recommended service. Memberstack currently starts at $29/month monthly or $25/month billed yearly. This proves a real second-layer market but not the strict Scan 092 replicated executed-payment chain: one current stack does not state its bills, while another explicitly wants to avoid rather than execute the second payment. More importantly, Webflow deliberately chose an ecosystem-first boundary and its recommended partners already own the exact membership control surface.",
+      "existing_components": [
+        "Webflow remains the site/CMS/design platform but removed User Accounts and its user APIs in January 2026.",
+        "Webflow officially recommends Memberstack and Outseta for membership/authentication after the sunset.",
+        "Memberstack currently bundles auth, Stripe payments, gating and member data in paid plans starting at $29/month.",
+        "Stripe Payment Links/Checkout can handle simple recurring billing without a separate membership platform for narrower cases."
+      ],
+      "independent_replication": [
+        "A July 2026 startup says its current stack includes Webflow, Memberstack, Stripe, Vimeo, Webflow CMS and custom code and is seeking a long-term developer to finish and maintain the membership platform.",
+        "A March 2026 Webflow user says recurring billing is no longer native, notes recommended providers would add substantial cost and asks how to avoid paying about $30/month.",
+        "Webflow's own sunset documentation says former User Accounts customers should migrate to Memberstack, Outseta or another vetted app."
+      ],
+      "participant_authored_successful_completion": [
+        "Current builders assemble Webflow with Memberstack and Stripe to provide authenticated memberships and paid content.",
+        "Simple recurring billing can be completed with Stripe directly when full membership state is unnecessary."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "Webflow no longer supplies native User Accounts or the related APIs, so membership completion requires an external identity/gating layer or custom backend.",
+        "Complex live stacks still require custom code and, in at least one current case, ongoing specialist maintenance."
+      ],
+      "paid_coordinator_check": "PARTIAL_PASS_WEBFLOW_IS_A_PAID_SITE_PLATFORM_IN_CURRENT_USE_BUT_THE_KEY_CURRENT_MEMBERSHIP_STACK_ACCOUNT_DOES_NOT_PUBLICLY_BIND_ITS_EXACT_WEBFLOW_PAYMENT",
+      "residual_failure_after_payment_check": "PASS_MEMBERSHIP_AUTH_GATING_AND_RECURRING_BILLING_ARE_NOT_NATIVELY_COMPLETED_BY_WEBFLOW_AFTER_THE_2026_USER_ACCOUNTS_SUNSET",
+      "second_layer_economic_cost_check": "PASS_MEMBERSTACK_HAS_CURRENT_EXECUTED_PAID_PLANS_AND_CURRENT_BUILDERS_USE_THE_WEBFLOW_MEMBERSTACK_STACK_BUT_ONE_DISCUSSION_EXPLICITLY_SHOWS_COST_AVOIDANCE_RATHER_THAN_EXECUTED_PAYMENT",
+      "replicated_paid_residual_second_cost_check": "FAIL_TWO_UNAFFILIATED_CURRENT_PARTICIPANT_ACCOUNTS_WITH_EXPLICIT_EXECUTED_WEBFLOW_PLUS_MEMBERSHIP_LAYER_PAYMENT_ARE_NOT_PUBLICLY_BOUND",
+      "no_single_current_control_surface_check": "FAIL_THE_EXACT_COMPLEMENT_LAYER_IS_OFFICIALLY_OWNED_BY_MEMBERSTACK_OUTSETA_STRIPE_AND_OTHER_VETTED_WEBFLOW_APPS",
+      "decisive_completion_control": "FAIL_FOR_NEW_OPERATOR_MEMBER_IDENTITY_PAYMENT_AND_GATING_RIGHTS_LIVE_IN_THE_CHOSEN_MEMBERSHIP_AND_PAYMENT_SYSTEMS_NOT_AN_UNOWNED_ROUTER",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Webflow explicitly documents an ecosystem-first strategy for membership and recommends Memberstack and Outseta.",
+        "Memberstack productizes auth, billing, gating and member data in one paid control surface.",
+        "Webflow's 2026 API removal makes the missing native feature an intentional platform boundary rather than evidence of an ownerless bridge."
+      ],
+      "founder_independence_check": "PARTIAL_MATURE_MEMBERSHIP_PRODUCTS_RUN_AUTONOMOUSLY_BUT_CURRENT_COMPLEX_WEBFLOW_STACKS_CAN_STILL_REQUIRE_CUSTOM_CODE_AND_LONG_TERM_SPECIALIST_MAINTENANCE",
+      "data_action_rights_check": "FAIL_MEMBER_IDENTITY_STRIPE_PAYMENT_AND_WEBFLOW_CONTENT_RIGHTS_REMAIN_WITH_THOSE_SYSTEMS_AND_THE_SITE_OWNER",
+      "normalized_margin_check": "FAIL_FOR_NEW_EDGE_THE_OFFICIAL_PARTNER_ECOSYSTEM_ALREADY_PRICES_AND_CAPTURES_THE_MEMBERSHIP_LAYER_WHILE_SIMPLE_CASES_CAN_BYPASS_IT_WITH_STRIPE",
+      "machine_delegatability_check": "PASS_STANDARD_AUTH_BILLING_GATING_AND_WEBHOOK_SYNC_ARE_HIGHLY_MACHINE_DELEGATABLE_WHEN_RIGHTS_EXIST",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_AGENTS_CAN_IMPLEMENT_STANDARD_INTEGRATIONS_AND_CUSTOM_CODE_BUT_DO_NOT_CREATE_IDENTITY_PAYMENT_OR_CONTENT_ACCESS_RIGHTS",
+      "verdict": "DEMOTED_PLATFORM_SUNSET_CREATES_REAL_COMPLEMENT_SPEND_BUT_STRICT_DOUBLE_PAYMENT_IS_NOT_REPLICATED_AND_WEBFLOW_INTENTIONALLY_ROUTES_THE_EXACT_CONTROL_LAYER_TO_MATURE_PARTNERS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_092-F3",
+      "title": "PAID_LIGHTROOM_CLASSIC_PLUS_OFFSITE_PHOTO_BACKUP",
+      "chinese_title": "付费 Lightroom Classic 后叠加异地照片备份订阅",
+      "evidence_class": "REAL_DOUBLE_SPEND_BUT_SECOND_COST_IS_ADJACENT_RESILIENCE_OUTCOME_AND_MATURE_BACKUP_CATEGORY",
+      "actor_a_population": "Professional and serious enthusiast photographers paying for Lightroom Classic to catalog, edit and manage large local photo libraries.",
+      "actor_b_population": "Independent backup systems, external drives and offsite cloud providers protecting originals, catalogs and exports from device failure or local disaster.",
+      "evidence_summary": "A February 2026 wedding-photography business owner explicitly frames their stack as the subscriptions and platforms they pay for and lists Lightroom Classic for editing plus Backblaze for cloud storage; peers report similar Adobe-plus-backup stacks. A March 2026 Lightroom Classic user has all external drives and the computer backed up by Backblaze, while an August 2026 user says they now must subscribe to Lightroom Classic and will also subscribe to Backblaze for a new 4TB drive. Adobe itself states that Lightroom Classic catalog backups do not back up the referenced photos and recommends independent photo backup; Backblaze currently sells $99/year unlimited computer backup. The economic separation is real, but it does not cleanly satisfy the same-outcome residual gate: editing/catalog management and disaster-recovery backup are complementary responsibilities, not one incomplete transaction outcome. The second layer is also a mature independent backup category rather than an unowned orchestration edge.",
+      "existing_components": [
+        "Lightroom Classic manages local catalogs, editing and photo workflow but its catalog backup does not back up the referenced photos.",
+        "Adobe explicitly recommends independent backup of edited photos and offsite/redundant copies.",
+        "Backblaze currently sells $99/year unlimited computer backup covering local and connected external drives.",
+        "Local drives, Time Machine, NAS systems and other cloud backup providers are established substitutes or complements."
+      ],
+      "independent_replication": [
+        "A February 2026 professional photographer says they are reviewing all subscriptions/platforms they pay for and lists Lightroom Classic for editing and Backblaze for cloud storage.",
+        "A March 2026 Lightroom Classic user says all external drives and the computer are backed up by Backblaze in an active multi-layer backup workflow.",
+        "An August 2026 photographer says they have concluded they must subscribe to Lightroom Classic and will also subscribe to Backblaze for the new drive, but that second payment is future intent and is not counted as executed."
+      ],
+      "participant_authored_successful_completion": [
+        "Current photographers use Lightroom Classic for catalog/edit workflow and Backblaze for offsite protection of the underlying files.",
+        "The February business owner explicitly treats both as paid operating subscriptions in the same photography business."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "Adobe states that Lightroom Classic catalog backup includes only the catalog file and that photos must be backed up independently.",
+        "Participants use additional local and cloud copies because editing/catalog software does not eliminate storage-device loss or disaster risk."
+      ],
+      "paid_coordinator_check": "PASS_CURRENT_PROFESSIONAL_PARTICIPANT_EXPLICITLY_LISTS_LIGHTROOM_CLASSIC_AMONG_PAID_BUSINESS_SUBSCRIPTIONS",
+      "residual_failure_after_payment_check": "PARTIAL_FAIL_THE_UNPROTECTED_ORIGINALS_ARE_REAL_AFTER_LIGHTROOM_PAYMENT_BUT_BACKUP_IS_AN_ADJACENT_RESILIENCE_OBJECTIVE_NOT_THE_SAME_EDITING_OR_CATALOG_COMPLETION_OUTCOME",
+      "second_layer_economic_cost_check": "PASS_ONE_CURRENT_PROFESSIONAL_ACCOUNT_EXPLICITLY_PAYS_BACKBLAZE_AND_BACKBLAZE_CURRENT_PRICING_IS_99_PER_YEAR",
+      "replicated_paid_residual_second_cost_check": "PARTIAL_FAIL_A_SECOND_CURRENT_LIGHTROOM_BACKBLAZE_WORKFLOW_EXISTS_BUT_PUBLIC_EVIDENCE_DOES_NOT_BIND_TWO_UNAFFILIATED_ACCOUNTS_TO_EQUALLY_EXPLICIT_EXECUTED_PAYMENT_FOR_BOTH_LAYERS_AND_ONE_RECENT_ACCOUNT_IS_FUTURE_INTENT",
+      "no_single_current_control_surface_check": "FAIL_FOR_NEW_OPERATOR_BACKUP_IS_ALREADY_OWNED_BY_MATURE_DEDICATED_BACKUP_PRODUCTS_AND_LOCAL_REDUNDANCY_OPTIONS",
+      "decisive_completion_control": "FAIL_FOR_NEW_OPERATOR_FILE_COPIES_RETENTION_RESTORE_AND_STORAGE_RIGHTS_LIVE_WITH_THE_PHOTOGRAPHER_BACKUP_PROVIDER_AND_STORAGE_MEDIA",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Adobe documents the boundary and recommends independent photo backup rather than claiming Lightroom catalog backup protects originals.",
+        "Backblaze provides automated continuous backup and restore as the exact paid control surface.",
+        "Time Machine, external drives, NAS and competing cloud services provide well-understood substitute paths."
+      ],
+      "founder_independence_check": "PASS_BACKUP_PRODUCTS_AND_LOCAL_AUTOMATION_RUN_WITHOUT_FOUNDER_DELIVERY",
+      "data_action_rights_check": "FAIL_FOR_NEW_EDGE_STORAGE_ACCESS_ENCRYPTION_RETENTION_AND_RESTORE_RIGHTS_REMAIN_WITH_THE_USER_AND_BACKUP_PROVIDER",
+      "normalized_margin_check": "FAIL_FOR_NEW_EDGE_MATURE_BACKUP_PRICING_AND_COMMODITIZED_STORAGE_LEAVE_NO_EVIDENCED_GENERIC_ORCHESTRATION_MARGIN",
+      "machine_delegatability_check": "PASS_CONTINUOUS_FILE_BACKUP_INTEGRITY_CHECKING_AND_RESTORE_WORKFLOWS_ARE_MACHINE_DELEGATABLE",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_AGENTIC_COORDINATION_DOES_NOT_CREATE_STORAGE_CAPACITY_OFFSITE_FAULT_ISOLATION_OR_PROVIDER_RESTORE_RIGHTS",
+      "verdict": "DEMOTED_REAL_DOUBLE_SPEND_IS_OBSERVED_BUT_THE_SECOND_COST_IS_A_SEPARATE_RESILIENCE_RESPONSIBILITY_ALREADY_OWNED_BY_MATURE_BACKUP_CONTROL_SURFACES_NOT_AN_UNOWNED_COMPLETION_EDGE"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "inherited_mechanism_as_requirement": false,
+    "discovery_started_from_paid_coordinator_residual_second_cost": true,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "formation_diversity": "PASS_DESIGN_SYSTEMS_WEB_PUBLISHING_MEMBERSHIP_AND_PHOTOGRAPHY_STORAGE",
+    "strict_second_cost_truth_rule": "PASS_COST_AVOIDANCE_FUTURE_INTENT_CATEGORY_PRICING_AND_ADJACENT_OUTCOME_SPEND_ARE_NOT_PROMOTED_TO_CLEAN_REPLICATED_SAME_OUTCOME_DOUBLE_PAYMENT",
+    "second_pass_assessment": "PASS_FRESH_FORMATIONS_AGAIN_SHOW_SECOND_LAYER_ECONOMIC_MOTION_WITH_ZERO_SURVIVING_UNOWNED_CONTROL_EDGE",
+    "two_pass_signal_assessment": "SCAN091_PLUS_SCAN092_SHOW_RESIDUAL_SECOND_COST_IS_A_STRONG_PAIN_SENSOR_BUT_SYSTEMATICALLY_SELECTS_FOR_MATURE_COMPLEMENT_ECOSYSTEMS_NATIVE_OR_OFFICIAL_PARTNER_ABSORPTION_PLATFORM_RIGHTS_OR_ADJACENT_CONTROL_RESPONSIBILITIES",
+    "response": "RESET_DISCOVERY_SOURCE_TO_BROAD_CURRENT_REALITY_FOR_SCAN093_RATHER_THAN_ESCALATING_ANOTHER_DOWNSTREAM_PAYER_OR_PRODUCT_STACK_SIGNAL"
+  },
+  "scan_learnings": [
+    "SCAN092_SECOND_RESIDUAL_SECOND_COST_PASS_ZERO_RETENTION_ACROSS_DESIGN_SYSTEMS_WEB_MEMBERSHIP_AND_PHOTOGRAPHY_BACKUP",
+    "SECOND_LAYER_SPEND_AFTER_A_PAID_PRIMARY_SYSTEM_CAN_BE_REAL_WHILE_THE_EXACT_COMPLEMENT_CATEGORY_IS_ALREADY_MATURE_OR_INTENTIONALLY_OWNED_BY_PARTNERS",
+    "PLATFORM_DEPRECATION_OR_PRODUCT_BOUNDARY_DOES_NOT_CREATE_WHITE_SPACE_WHEN_THE_PLATFORM_EXPLICITLY_ROUTES_THE_FUNCTION_TO_A_MATURE_ECOSYSTEM",
+    "ADJACENT_SAFETY_OR_RESILIENCE_SPEND_MUST_NOT_BE_MISLABELED_AS_COST_TO_COMPLETE_THE_SAME_OUTCOME",
+    "STRICT_PARTICIPANT_BINDING_CONTINUES_TO_REJECT_COST_AVOIDANCE_FUTURE_INTENT_AND_CATEGORY_LEVEL_PRICING_AS_EXECUTED_DOUBLE_PAYMENT",
+    "TWO_INDEPENDENT_RESIDUAL_SECOND_COST_PASSES_ARE_ENOUGH_TO_STOP_ESCALATING_DOWNSTREAM_PAYER_STACK_SIGNALS",
+    "SCAN093_SHOULD_RESET_TO_BROAD_CURRENT_REALITY_ACTOR_STATE_CHANGE_UNDERUSE_CONTRADICTION_AND_PARTIAL_FLOW_SENSING_WITHOUT_STARTING_FROM_EXISTING_PAID_PRODUCTS",
+    "DO_NOT_DERIVE_A_FIGMA_TOKEN_SYNC_WEBFLOW_MEMBERSHIP_OR_LIGHTROOM_BACKUP_PRODUCT_FROM_SCAN092_CLOSURES"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_093",
+  "next_search_boundary": "BROAD_CURRENT_REALITY_SOURCE_RESET_AFTER_TWO_RESIDUAL_SECOND_COST_PASSES_SEARCH_ACTOR_STATE_CHANGES_OBJECTIVE_ENDOWMENTS_UNDERUSE_CONTRADICTIONS_AND_PARTIAL_FLOWS_WITHOUT_STARTING_FROM_EXISTING_PAID_PRODUCTS_COORDINATORS_OR_SECOND_COST_STACKS_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_092_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_EXACT_INCUMBENT_CURRENT_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "Validate Scan 092 with repository CI and live TypeSafe/Jev; if autonomous continuation remains allowed, run Scan 093 as a broad-current-reality source reset rather than escalating another paid-stack discovery signal.",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://en.reddit.com/r/FigmaDesign/comments/1p2ibwc/the_extended_collections_feature_is_beginning_to/",
+    "https://www.reddit.com/r/DesignSystems/comments/1pczr90/tokens_studio_is_it_worth_it/",
+    "https://www.reddit.com/r/FigmaDesign/comments/1qav86r/design_system_folks_how_do_you_share_variables/",
+    "https://www.reddit.com/r/DesignSystems/comments/1ukq92f/syncing_color_tokens_from_figma_to_a_github_pr/",
+    "https://tokens.studio/pricing",
+    "https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma",
+    "https://help.figma.com/hc/en-us/articles/23920389749655-Code-Connect",
+    "https://developers.figma.com/docs/rest-api/variables/",
+    "https://help.webflow.com/hc/en-us/articles/36046006227731-User-Accounts-sunset",
+    "https://developers.webflow.com/home/changelog/2026/1/29",
+    "https://www.reddit.com/r/webflow/comments/1s8u8yh/recurring_billingsubscription_help_trying_to_set/",
+    "https://www.reddit.com/r/webflow/comments/1uwsrpi/hiring_webflow_memberstack_developer_to_finish/",
+    "https://www.memberstack.com/pricing",
+    "https://www.reddit.com/r/WeddingPhotography/comments/1raa5nm/best_combo_of_platforms_for_business/",
+    "https://www.reddit.com/r/Lightroom/comments/1rpy14g/backup_workflow_help/",
+    "https://www.reddit.com/r/Lightroom/comments/1w0sx0x/moving_to_the_cloud/",
+    "https://helpx.adobe.com/lightroom-classic/desktop/manage-catalogs-and-files/back-catalog.html",
+    "https://helpx.adobe.com/lightroom-classic/desktop/technical-support/workflow-issues/catalog-issues/catalog-faq-lightroom.html",
+    "https://www.backblaze.com/cloud-backup/pricing"
+  ]
+}
