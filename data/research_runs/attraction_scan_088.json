@@ -1,0 +1,181 @@
+{
+  "schema_version": "attraction-scan.v64",
+  "scan_id": "ATTRACTION_SCAN_088",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "INDEPENDENTLY_REPLICATED_PARTICIPANT_CONTROLLED_MULTI_COMPONENT_COMPLETION_REQUIRE_AT_LEAST_TWO_UNAFFILIATED_PARTICIPANT_ACCOUNTS_OF_THE_SAME_SUCCESSFUL_PATTERN_EXPLICIT_PARTICIPANT_STATED_REASON_AND_MANUAL_ASSEMBLY_OR_COORDINATION_ACROSS_TWO_OR_MORE_EXISTING_COMPONENTS_BECAUSE_NO_SINGLE_CURRENT_CONTROL_SURFACE_OWNS_THE_END_TO_END_OUTCOME_DECISIVE_STEPS_MUST_NOT_REQUIRE_INCUMBENT_PRIVILEGED_FALLBACK_OR_MANUAL_EXCEPTION_BEFORE_PRODUCT_CATEGORY_EXCLUDE_SCAN060_TO_087_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_088-F1",
+      "title": "EV_ROAD_TRIP_PLAN_RELIABILITY_AND_CHARGING_ACTIVATION_STITCH",
+      "chinese_title": "电动车长途出行由路线规划、充电可靠性核验与充电网络激活共同拼接完成",
+      "evidence_class": "REPLICATED_PARTICIPANT_CONTROLLED_MULTI_COMPONENT_EV_TRIP_COMPLETION",
+      "actor_a_population": "EV drivers making long-distance trips through unfamiliar charging corridors.",
+      "actor_b_population": "Public charging networks and route/reliability data services repeatedly supporting paid road-trip charging.",
+      "existing_components": [
+        "ABRP currently plans EV routes, includes charging stops and exposes live charger availability for supported data sources.",
+        "PlugShare contributes participant check-ins, recent status and qualitative reliability evidence that drivers use to verify planned stops.",
+        "Charging-network apps and roaming aggregators such as ChargeHub provide session activation and payment on compatible networks."
+      ],
+      "independent_replication": [
+        "In an April 2026 Ioniq 5 discussion, one participant reports completing a 6,000-mile trip using ABRP plus PlugShare without charger-finding problems.",
+        "A separate participant in the same discussion reports using ABRP plus PlugShare plus a manually maintained itinerary and vehicle navigation to complete a 5,600-mile trip through sparse-charging areas."
+      ],
+      "participant_authored_successful_completion": [
+        "Drivers plan the energy-constrained route in ABRP, cross-check candidate stops in PlugShare, then navigate to and activate/pay at the selected charging network.",
+        "Current September 2026 participant advice still describes planning in ABRP and using a separate navigation surface, with backup chargers preselected for broken or busy primary stops."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "Participants describe vehicle-native navigation as incomplete or unreliable for charger choice, route flexibility, traffic or charger status.",
+        "Participants explicitly use PlugShare or backup-app checks because a planned charger can be broken, busy, absent from another map, or represented inconsistently across apps."
+      ],
+      "manual_multi_component_completion_check": "PASS_REPEATED_TRIPS_REQUIRE_PARTICIPANT_COORDINATION_ACROSS_ROUTE_PLANNING_RELIABILITY_CHECKING_NAVIGATION_AND_NETWORK_ACTIVATION_SURFACES",
+      "no_single_current_control_surface_check": "PASS_RESIDUAL_FRAGMENTATION_REMAINS_BECAUSE_CHARGEHUB_CAN_PLAN_FIND_AND_PAY_ACROSS_MANY_NETWORKS_BUT_NOT_EVERY_STATION_IS_ACTIVATABLE_AND_NONCOMPATIBLE_NETWORKS_REQUIRE_THEIR_OWN_PAYMENT_OR_ACTIVATION_METHOD",
+      "decisive_completion_control": "PASS_DRIVER_CAN_CHOOSE_ROUTE_VERIFY_BACKUPS_AND_USE_SUPPORTED_SELF_SERVICE_NETWORK_ACTIVATION_WITHOUT_INCUMBENT_PRIVILEGED_MANUAL_EXCEPTION",
+      "repeated_bilateral_value_transfer": "PASS_DRIVER_TO_PUBLIC_CHARGING_NETWORK_ENERGY_PURCHASE_REPEATS_ACROSS_TRIPS_AND_STOPS",
+      "exact_incumbent_and_control_surface_preflight": [
+        "ChargeHub currently markets one-app route planning, live status and payment across more than 160,000 compatible charging ports and 40+ networks, absorbing much of the apparent orchestration gap.",
+        "ChargeHub also states that not every mapped station can be activated in-app; residual activation remains controlled by each incompatible charging network."
+      ],
+      "founder_independence_check": "PASS_EXISTING_APPS_AND_NETWORKS_DELIVER_THE_TRIP_WITHOUT_FOUNDER_LABOR_BUT_A_NEW_OPERATOR_WOULD_NEED_NETWORK_RIGHTS_OR_DIFFERENTIATED_DATA_BEYOND_GENERIC_GUIDANCE",
+      "data_action_rights_check": "FAIL_FOR_A_NEW_UNIVERSAL_OPERATOR_ROUTING_DATA_IS_BROADLY_AVAILABLE_BUT_SESSION_ACTIVATION_AND_PAYMENT_RIGHTS_REMAIN_NETWORK_OR_ROAMING_CONTRACT_BOUND_OUTSIDE_EXISTING_COMPATIBILITY",
+      "normalized_margin_check": "FAIL_FOR_NEW_OPERATOR_EDGE_EXISTING_ROUTE_PLANNERS_AND_ROAMING_AGGREGATORS_ALREADY_MONETIZE_PREMIUM_PLANNING_OR_CROSS_NETWORK_PAYMENT_WHILE_NO_DISTINCT_RESIDUAL_COORDINATION_PAYER_IS_EVIDENCED",
+      "machine_delegatability_check": "PASS_ROUTE_COMPARISON_BACKUP_SELECTION_STATUS_CROSS_CHECKING_AND_GUIDANCE_ARE_MACHINE_DELEGATABLE",
+      "generic_agent_substitutability_check": "FAIL_FOR_INFORMATIONAL_RESIDUAL_A_GENERIC_AGENT_CAN_CROSS_CHECK_PUBLIC_ROUTE_AND_CHARGER_DATA_BUT_CANNOT_CREATE_MISSING_NETWORK_ACTIVATION_RIGHTS",
+      "cross_component_coordination_payment_check": "FAIL_NO_DISTINCT_PAYMENT_FOR_THE_RESIDUAL_CROSS_APP_COORDINATION_EDGE_IS_EVIDENCED_SEPARATE_FROM_CHARGING_AND_EXISTING_APP_SUBSCRIPTIONS",
+      "verdict": "DEMOTED_REPLICATED_MULTI_COMPONENT_COMPLETION_BUT_MATURE_EV_PLANNING_AND_CROSS_NETWORK_PAYMENT_AGGREGATORS_ALREADY_OWN_MOST_OF_THE_COORDINATION_LAYER_AND_RESIDUAL_ACTIVATION_RIGHTS_REMAIN_NETWORK_CONTRACT_BOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_088-F2",
+      "title": "EARLY_FLIGHT_DISRUPTION_SIGNAL_TO_AIRLINE_REBOOKING_STITCH",
+      "chinese_title": "旅客用第三方早期航班异常信号抢先发现风险再切回航空公司改签",
+      "evidence_class": "REPLICATED_PARTICIPANT_CONTROLLED_MULTI_COMPONENT_FLIGHT_DISRUPTION_COMPLETION",
+      "actor_a_population": "Air travelers exposed to cancellations, schedule changes and connection-threatening delays.",
+      "actor_b_population": "Airlines and flight-data services repeatedly providing ticket fulfillment, operational status and disruption handling.",
+      "existing_components": [
+        "Flighty currently provides delay predictions and operational alerts that can arrive before airline notifications while preserving the airline's official times separately.",
+        "Airlines such as Delta retain authoritative ticket inventory and provide online self-service tools to change or cancel trips and rebook delayed or cancelled flights."
+      ],
+      "independent_replication": [
+        "In a July 2026 Flighty discussion, a traveler reports learning weeks early that an Air Tahiti Nui route had been cancelled and using the Flighty heads-up to reschedule a honeymoon before replacement award inventory disappeared.",
+        "A separate current App Store reviewer reports receiving an aircraft-change and delay alert in flight, rebooking from the seat, and arriving with a confirmed replacement while other passengers queued for agents."
+      ],
+      "participant_authored_successful_completion": [
+        "The participant observes an external early signal, then independently moves to the airline or booking channel with ticket authority to secure a replacement.",
+        "Current Delta users also report relying on third-party trackers when airline notifications are missing or later, while Delta's own self-service surface remains the authoritative rebooking path."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "Replacement seats are scarce after a disruption, so earlier operational information changes the probability of securing a workable itinerary.",
+        "Participants report that airline notification or app state can lag, omit a cancellation alert, or become less useful during disruption even though the airline still controls the ticket."
+      ],
+      "manual_multi_component_completion_check": "PASS_THE_SUCCESS_PATTERN_REQUIRES_AN_EARLY_INDEPENDENT_SIGNAL_SURFACE_PLUS_A_SEPARATE_AIRLINE_OR_TICKETING_ACTION_SURFACE",
+      "no_single_current_control_surface_check": "PASS_FLIGHTY_OWNS_EARLY_SIGNALING_BUT_NOT_AIRLINE_TICKET_AUTHORITY_WHILE_THE_AIRLINE_OWNS_REBOOKING_AUTHORITY_BUT_NOT_ALWAYS_THE_EARLIEST_INDEPENDENT_OPERATIONAL_SIGNAL",
+      "decisive_completion_control": "PASS_TRAVELER_CAN_ACT_ON_THE_SIGNAL_THROUGH_AVAILABLE_SELF_SERVICE_REBOOKING_OR_AGENT_CHANNELS_WITHOUT_A_PRIVILEGED_INCUMBENT_EXCEPTION",
+      "repeated_bilateral_value_transfer": "PASS_TRAVELER_TO_AIRLINE_TICKET_PURCHASE_AND_AIR_TRANSPORT_VALUE_FLOW_RECURS_WHILE_FLIGHT_TRACKING_MAY_ALSO_BE_PAID_SEPARATELY",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Flighty itself explicitly monetizes faster disruption alerts and markets the value as knowing early enough to rebook before limited alternatives are consumed.",
+        "Delta and other airlines keep the authoritative ticket-change and reaccommodation action surface; the signal product does not itself own those ticket rights."
+      ],
+      "founder_independence_check": "PASS_SIGNAL_DELIVERY_AND_AIRLINE_SELF_SERVICE_ARE_FOUNDER_FREE_BUT_CROSS_AIRLINE_TICKET_EXECUTION_REQUIRES_EXISTING_TICKETING_OR_AGENCY_RIGHTS",
+      "data_action_rights_check": "FAIL_FOR_A_NEW_END_TO_END_OPERATOR_OPERATIONAL_SIGNAL_DATA_CAN_BE_CONSUMED_BUT_AUTHORITATIVE_TICKET_CHANGES_REMAIN_AIRLINE_OR_AUTHORIZED_AGENT_ACTION_RIGHTS",
+      "normalized_margin_check": "FAIL_FOR_NEW_OPERATOR_EDGE_THE_EARLY_SIGNAL_LAYER_IS_ALREADY_A_PAID_PRODUCT_AND_NO_SEPARATE_RECURRING_PAYMENT_FOR_A_NEW_SIGNAL_TO_REBOOK_COORDINATOR_IS_EVIDENCED",
+      "machine_delegatability_check": "PARTIAL_SIGNAL_INTERPRETATION_AND_ALTERNATIVE_SEARCH_ARE_MACHINE_DELEGATABLE_BUT_FINAL_TICKET_EXECUTION_DEPENDS_ON_CARRIER_OR_AGENCY_ACTION_RIGHTS",
+      "generic_agent_substitutability_check": "FAIL_A_GENERIC_AGENT_CAN_WATCH_SIGNALS_AND_RECOMMEND_ALTERNATIVES_WITHOUT_OWNING_TICKET_ACTION_RIGHTS_SO_THE_UNOWNED_VALUE_EDGE_IS_NOT_ESTABLISHED",
+      "cross_component_coordination_payment_check": "FAIL_FLIGHTY_PRO_MONETIZES_EARLY_SIGNALING_NOT_PROVEN_END_TO_END_CROSS_COMPONENT_REBOOK_COORDINATION",
+      "verdict": "DEMOTED_REPLICATED_EARLY_SIGNAL_PLUS_REBOOKING_STITCH_BUT_SIGNAL_VALUE_IS_ALREADY_MONETIZED_BY_FLIGHTY_WHILE_AUTHORITATIVE_TICKET_ACTION_REMAINS_AIRLINE_OR_AGENT_RIGHTS_BOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_088-F3",
+      "title": "SMART_TARIFF_EV_SOLAR_AND_HOME_BATTERY_AUTOMATION_STITCH",
+      "chinese_title": "家庭把智能电价、电动车充电、光伏与家用电池通过自建自动化拼成统一能量策略",
+      "evidence_class": "REPLICATED_PARTICIPANT_BUILT_MULTI_COMPONENT_HOME_ENERGY_COMPLETION",
+      "actor_a_population": "Households combining smart electricity tariffs, EV charging, solar generation and home batteries.",
+      "actor_b_population": "Utilities, charger vendors, inverter or battery vendors and home-automation ecosystems controlling separate parts of household energy flow.",
+      "existing_components": [
+        "Intelligent Octopus-style tariffs control or schedule eligible charging behavior and expose time-dependent cheap-energy opportunities.",
+        "Home Assistant provides a cross-brand automation surface that can integrate energy meters, batteries, chargers and other devices when integrations expose the required state and actions.",
+        "Device-specific integrations such as OpenEVSE can locally adjust charging current and respond to charger state, while battery integrations expose separate storage controls."
+      ],
+      "independent_replication": [
+        "In a July 2026 OctopusEnergy discussion, one participant reports a working Home Assistant automation that detects EV charging, prevents the small solar battery from discharging into the car, and opportunistically charges the battery.",
+        "A separate participant in the same discussion describes the same successful workaround: detect car charging above a threshold, switch solar batteries to grid charge, then disable grid charging when the EV session stops."
+      ],
+      "participant_authored_successful_completion": [
+        "A separate July 2026 update from another OctopusEnergy thread says the household fully automated the behavior with Home Assistant and Node-RED after several hours of setup and that it works reliably.",
+        "Current community examples combine tariff dispatch state, charger state, vehicle state and battery mode in custom automations rather than relying on one device vendor to express the desired whole-home policy."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "Participants want to prevent the house battery from unintentionally discharging into the EV and to exploit cheap dispatch windows across both EV and home storage.",
+        "The desired policy spans tariff state, charger activity, battery mode and sometimes vehicle state, which are exposed through separate vendor or community integrations."
+      ],
+      "manual_multi_component_completion_check": "PASS_PARTICIPANTS_REPEATEDLY_BUILD_CUSTOM_HOME_ASSISTANT_OR_NODE_RED_LOGIC_ACROSS_TARIFF_CHARGER_VEHICLE_SOLAR_AND_BATTERY_COMPONENTS",
+      "no_single_current_control_surface_check": "FAIL_HOME_ASSISTANT_ALREADY_FUNCTIONS_AS_A_GENERIC_CROSS_VENDOR_CONTROL_SURFACE_FOR_SUPPORTED_COMPONENTS_AND_CAN_EXPRESS_THE_END_TO_END_AUTOMATION_ONCE_INTEGRATIONS_EXIST",
+      "decisive_completion_control": "PASS_WHERE_THE_HOUSEHOLD_OWNS_LOCAL_DEVICE_OR_ACCOUNT_ACTIONS_EXPOSED_TO_HOME_ASSISTANT_WITHOUT_PRIVILEGED_PROVIDER_EXCEPTION",
+      "repeated_bilateral_value_transfer": "PASS_HOUSEHOLD_TO_UTILITY_ELECTRICITY_PAYMENT_AND_HOME_ENERGY_SERVICE_RECURS_BUT_THE_CUSTOM_AUTOMATION_ITSELF_IS_NOT_SHOWN_AS_A_SEPARATELY_PAID_COORDINATION_UNIT",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Home Assistant explicitly positions itself as an open cross-brand home-energy management and automation layer, including EV charging during cheap or solar-rich periods.",
+        "OpenEVSE and other supported integrations expose direct local control primitives, so the apparent missing operator can collapse to configuration on an existing generic automation substrate."
+      ],
+      "founder_independence_check": "PARTIAL_AFTER_CONFIGURATION_AUTOMATIONS_RUN_FOUNDER_FREE_BUT_INITIAL_COMPATIBILITY_CONFIGURATION_AND_DEVICE_SPECIFIC_LOGIC_CAN_REQUIRE_TECHNICAL_SETUP",
+      "data_action_rights_check": "PARTIAL_HOUSEHOLD_CONTROL_IS_REAL_WHERE_LOCAL_OR_ACCOUNT_APIS_EXIST_BUT_CAPABILITIES_VARY_BY_TARIFF_CHARGER_VEHICLE_AND_BATTERY_VENDOR",
+      "normalized_margin_check": "FAIL_NO_CURRENT_EVIDENCE_OF_A_DISTINCT_RECURRING_PAYER_FOR_THE_CROSS_COMPONENT_POLICY_LAYER_SEPARATE_FROM_HARDWARE_ENERGY_AND_EXISTING_AUTOMATION_TOOLS",
+      "machine_delegatability_check": "PASS_CONFIGURATION_GENERATION_POLICY_LOGIC_AND_MONITORING_ARE_HIGHLY_MACHINE_DELEGATABLE_WHEN_INTEGRATION_ACTIONS_EXIST",
+      "generic_agent_substitutability_check": "FAIL_GENERIC_AGENT_CAN_GENERATE_AND_MAINTAIN_HOME_ASSISTANT_AUTOMATIONS_ON_TOP_OF_EXISTING_INTEGRATIONS_WITHOUT_A_SCARCE_NEW_CONTROL_ASSET",
+      "cross_component_coordination_payment_check": "FAIL_THE_OBSERVED_COORDINATION_IS_PARTICIPANT_BUILT_ON_OPEN_AUTOMATION_INFRASTRUCTURE_NOT_AN_EXTERNALLY_PAID_OPERATOR_UNIT",
+      "verdict": "DEMOTED_REPLICATED_HOME_ENERGY_MULTI_COMPONENT_AUTOMATION_BUT_HOME_ASSISTANT_ALREADY_PROVIDES_A_GENERIC_CROSS_VENDOR_CONTROL_SURFACE_AND_THE_REMAINING_GAP_IS_CONFIGURATION_COMPATIBILITY_NOT_AN_UNOWNED_OPERATOR_EDGE"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "inherited_mechanism_as_requirement": false,
+    "discovery_started_from_multi_component_completion": true,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "formation_diversity": "PASS_PUBLIC_EV_CHARGING_AIR_TRAVEL_DISRUPTION_AND_RESIDENTIAL_ENERGY_CONTROL",
+    "independent_replication_floor": "PASS_EACH_EXAMINED_PATTERN_HAS_AT_LEAST_TWO_UNAFFILIATED_PARTICIPANT_ACCOUNTS_OR_EQUIVALENT_INDEPENDENT_CURRENT_ACCOUNTS",
+    "multi_component_floor": "PASS_ALL_THREE_REQUIRE_TWO_OR_MORE_EXISTING_COMPONENTS_OR_CONTROL_SURFACES_IN_OBSERVED_COMPLETION",
+    "no_single_control_surface_assessment": "MIXED_EV_AND_FLIGHT_RETAIN_RESIDUAL_CROSS_SURFACE_SPLIT_FOR_PREFLIGHT_HOME_ENERGY_CLOSES_EARLY_BECAUSE_HOME_ASSISTANT_ALREADY_SUPPLIES_GENERIC_CROSS_VENDOR_CONTROL",
+    "signal_assessment": "MANUAL_MULTI_COMPONENT_COMPLETION_IS_STRONGER_THAN_SIMPLE_BYPASS_BUT_STILL_OVERSELECTS_MATURE_AGGREGATORS_SPLIT_AUTHORITY_STACKS_AND_GENERIC_AUTOMATION_CONFIGURATION",
+    "response": "NEXT_SCAN_SHOULD_REQUIRE_OBSERVED_PAYMENT_FOR_THE_CROSS_COMPONENT_COORDINATION_FUNCTION_ITSELF_NOT_MERELY_PAYMENT_FOR_UNDERLYING_COMPONENTS_OR_INFORMATION"
+  },
+  "scan_learnings": [
+    "SCAN088_MULTI_COMPONENT_COMPLETION_ZERO_RETENTION_ACROSS_EV_TRIP_FLIGHT_DISRUPTION_AND_HOME_ENERGY_FORMATIONS",
+    "MANUAL_MULTI_COMPONENT_ASSEMBLY_DOES_NOT_ESTABLISH_WHITE_SPACE_WHEN_A_MATURE_AGGREGATOR_ALREADY_OWNS_MOST_OF_THE_COORDINATION_LAYER",
+    "EARLY_SIGNAL_VALUE_CAN_BE_REAL_AND_PAID_WHILE_AUTHORITATIVE_ACTION_RIGHTS_REMAIN_WITH_A_SEPARATE_INCUMBENT_CONTROL_SURFACE",
+    "GENERIC_OPEN_AUTOMATION_SUBSTRATES_CAN_ABSORB_CROSS_VENDOR_CONFIGURATION_GAPS_WITHOUT_CREATING_A_SCARCE_OPERATOR_POSITION",
+    "UNDERLYING_COMPONENT_SPEND_IS_NOT_EVIDENCE_OF_WILLINGNESS_TO_PAY_FOR_CROSS_COMPONENT_COORDINATION",
+    "NEXT_DISCOVERY_REQUIRES_REPLICATED_ACTUAL_PAYMENT_FOR_A_DISTINCT_CROSS_COMPONENT_COORDINATION_FUNCTION_WHILE_NO_SINGLE_CURRENT_CONTROL_SURFACE_OWNS_THE_END_TO_END_OUTCOME",
+    "DO_NOT_DERIVE_AN_EV_CHARGING_AGGREGATOR_TRAVEL_DISRUPTION_AGENT_OR_HOME_ENERGY_AUTOMATION_PRODUCT_FROM_SCAN088_CLOSURES"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_089",
+  "next_search_boundary": "INDEPENDENTLY_REPLICATED_PAID_CROSS_COMPONENT_COORDINATION_REQUIRE_AT_LEAST_TWO_UNAFFILIATED_PARTICIPANT_ACCOUNTS_SHOWING_ACTUAL_PAYMENT_TO_A_DISTINCT_NON_INCUMBENT_SOFTWARE_OR_SERVICE_FOR_COORDINATING_TWO_OR_MORE_EXISTING_COMPONENTS_TO_ACHIEVE_THE_OUTCOME_NOT_MERELY_PAYMENT_FOR_COMPONENT_ACCESS_WHILE_NO_SINGLE_CURRENT_CONTROL_SURFACE_OWNS_THE_END_TO_END_OUTCOME_AND_DECISIVE_ACTIONS_DO_NOT_REQUIRE_INCUMBENT_PRIVILEGED_FALLBACK_OR_MANUAL_EXCEPTION_BEFORE_PRODUCT_CATEGORY_EXCLUDE_SCAN060_TO_088_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "VALIDATE_SCAN088_WITH_REPOSITORY_CI_AND_LIVE_JEV_THEN_START_SCAN089_IF_AUTONOMOUS_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/Ioniq5/comments/1snodb0/frustration_with_finding_fast_dc_chargers_away/",
+    "https://www.reddit.com/r/Ioniq5/comments/1wa08rv/best_use_of_abrp_and_my_ioniq5s_charger_mapping/",
+    "https://abetterrouteplanner.com/resources/article/2026-05-12_abrp-7-1",
+    "https://abetterrouteplanner.com/home",
+    "https://www.chargehub.com/en/ev-charging-solutions/chargehub-mobile-app.html",
+    "https://chargehub.com/en/knowledge-base/chargehub-station-activation-compatibility",
+    "https://www.reddit.com/r/flighty/comments/1uqjkfe/whats_the_wildest_flight_delayreroute_flighty/",
+    "https://www.reddit.com/r/delta/comments/1u9pqop/first_leg_to_tokyo_just_canceled_8_hours_before/",
+    "https://flighty.com/help/delay-predictions",
+    "https://flighty.com/pricing",
+    "https://www.delta.com/us/en/need-help/support-flights/missed-flights",
+    "https://www.reddit.com/r/OctopusEnergy/comments/1usiin9/home_assistant_automation_for_octopus_intelligent/",
+    "https://www.reddit.com/r/OctopusEnergy/comments/1ngpo22/intelligent_octopus_go_with_solar_battery/",
+    "https://www.home-assistant.io/docs/energy",
+    "https://www.home-assistant.io/integrations/openevse",
+    "https://octopus.energy/policies/smart-tariffs-terms-and-condition/"
+  ]
+}
