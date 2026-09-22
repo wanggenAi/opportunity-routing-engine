@@ -1,25 +1,28 @@
 {
   "schema_version": 2,
-  "generation": 3,
+  "generation": 4,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "task_key": "commercial-attraction-scan-089",
-  "stage": "SCAN_089_PR387_FINAL_HEAD_VALIDATION_PENDING",
-  "last_observed_main_sha": "eedabda511762b73d057b2787c594c1792c01c92",
+  "stage": "SCAN_089_MERGED_JEV_CONTINUATION_CONSUMED",
+  "last_observed_main_sha": "6278ac6e6f80ecfb0764d65d6fffc07535d4afe3",
   "work_branch": "research/attraction-scan-089",
   "work_head_sha": "8e07822a257d2190c6cd946ef112b444dd3b11a2",
   "active_pr": 387,
   "ci": {
-    "run_id": null,
+    "run_id": 35697010466,
     "head_sha": "8e07822a257d2190c6cd946ef112b444dd3b11a2",
-    "status": "PENDING",
-    "conclusion": null
+    "status": "COMPLETED",
+    "conclusion": "SUCCESS"
   },
   "production_or_artifact": {
-    "status": "NOT_APPLICABLE",
+    "status": "MERGED",
     "evidence": [
       "PR386_MERGED_MAIN_EEDABDA5",
-      "PR386_JEV_ADVANCE_TO_NEXT_SCAN"
+      "PR386_JEV_ADVANCE_TO_NEXT_SCAN",
+      "PR387_MERGED_MAIN_6278AC6E",
+      "PR387_FINAL_CI_35697010466_SUCCESS",
+      "PR387_FINAL_JEV_35697010735_SUCCESS_ADVANCE_TO_NEXT_SCAN"
     ]
   },
   "pending_operation": null,
@@ -36,9 +39,13 @@
     "SCAN_089_RESET_STATE_UPDATED",
     "SCAN_089_TASK_STATE_UPDATED",
     "SCAN_089_PR387_OPENED",
-    "SCAN_089_TASK_STATE_BOUND_TO_PR387"
+    "SCAN_089_TASK_STATE_BOUND_TO_PR387",
+    "SCAN_089_PR387_MERGED",
+    "SCAN_089_FINAL_CI_SUCCESS",
+    "SCAN_089_FINAL_JEV_SUCCESS",
+    "SCAN_089_JEV_CONTINUATION_CONSUMED"
   ],
-  "next_action": "Validate PR #387 final head 8e07822 with repository CI and live Jev, then consume continuation and merge if permitted.",
+  "next_action": "Start Scan 090 second independent pass at the same paid cross-component coordination boundary.",
   "do_not_repeat": [
     "Do not repeat Scan 088 EV road-trip multi-app coordination.",
     "Do not repeat Scan 088 Flighty-to-airline disruption handling.",
