@@ -216,7 +216,8 @@
     "https://ggzyfw.beijing.gov.cn/jyxxgqgpplxx/20260921/5722516.html"
   ],
   "validation_checkpoint": {
-    "pr_number": 410,
-    "policy": "EXACT_FINAL_PR_HEAD_CI_PLUS_LIVE_TYPESAFE_JEV_REQUIRED_BEFORE_CONTINUATION"
+    "policy": "EXACT_FINAL_PR_HEAD_CI_PLUS_LIVE_TYPESAFE_JEV_REQUIRED_BEFORE_CONTINUATION",
+    "superseded_pr": 410,
+    "superseded_reason": "FINAL_HEAD_DID_NOT_RECEIVE_EXACT_HEAD_WORKFLOW_RUNS"
   }
 }
