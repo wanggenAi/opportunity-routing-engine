@@ -14,25 +14,26 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 103 is complete with zero retention after the first `OPERATOR-SPECIFIC NON-COMMODITY CONTROL + EXTERNAL ECONOMIC MOTION` pass. It now requires a PR plus repository CI and live TypeSafe/Jev on the exact final head before merge or Scan 104 continuation.
+Discovery: `ATTRACTION_SCAN_104` is complete on PR #402 as the second independent `OPERATOR-SPECIFIC NON-COMMODITY CONTROL + EXTERNAL ECONOMIC MOTION + FRESH-OPERATOR ENTRY ACQUIRABILITY` pass. It retained zero formations and advanced the evidence priority to an actually executed fresh-operator control transfer with post-transfer external economic continuity.
 
 ## Current Phase
 
-`SCAN_103_COMPLETE_AWAITING_FINAL_PR_CI_JEV`
+`SCAN_104_PR_VALIDATION_ACTIVE`
 
 ## Last Verified Main
 
-`ef937ee8a1224053bfe79713cd0c340efd68fd48`
-— squash merge of PR #400, `Complete second operator-acquirable control Scan 102`.
+`82b19c814c990698125ff0db278e89e030193f52`
+— squash merge of PR #401, `Run operator-specific non-commodity control Scan 103`.
 
-PR #400 final head `b6dc2b9cd42c5cc665f69437ba2efc84539e4cfe`:
-- repository CI run `35723714271`: success;
-- live TypeSafe/Jev run `35723714297`: success;
+PR #401 final head `4df07358890fb73206d5b94925120de4af817192`:
+- repository CI run `35726470453`: success;
+- live TypeSafe/Jev run `35726470408`: success;
+- live advisory artifact `10693219514`;
 - 3/3 effective route `NO_FURTHER_RESEARCH`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That directive was consumed to start Scan 103.
+That directive was consumed to start Scan 104.
 
 ## Active Issue
 
@@ -40,20 +41,23 @@ That directive was consumed to start Scan 103.
 
 ## Active Branch
 
-`research/attraction-scan-103`
+`research/attraction-scan-104`
 
 ## Active PR
 
-#401 — `Run operator-specific non-commodity control Scan 103`.
+#402 — `Run fresh-entry non-commodity control Scan 104`.
 
-This TASK_STATE binding commit intentionally advances the PR head once. Repository CI and live TypeSafe/Jev must validate the resulting exact final head before merge.
+Research/state head before this TASK_STATE write:
+`aa85dae5b1a82f4a5c01431ac82456a0568588c7`.
+
+GitHub live PR head is authoritative after this file update.
 
 ## CI
 
-- PR #400 final-head repository CI `35723714271`: success.
-- PR #400 live TypeSafe/Jev `35723714297`: success; `ADVANCE_TO_NEXT_SCAN`.
-- PR #401 exact final-head validation: pending after this TASK_STATE binding commit.
-- Do not merge PR #401 or start Scan 104 from an earlier head.
+- PR #401 final-head repository CI `35726470453`: success.
+- PR #401 live TypeSafe/Jev `35726470408`: success; `ADVANCE_TO_NEXT_SCAN`.
+- PR #402 repository CI / live TypeSafe-Jev: pending on the exact final PR head after this TASK_STATE update.
+- Do not consume an older run if the head changes.
 
 ## Parallel Validation
 
@@ -64,65 +68,87 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_103.json`;
-- `docs/research/ATTRACTION_SCAN_103_2026-09-22.md`;
-- `tests/test_attraction_scan_103_noncommodity_entry.py`.
+- `data/research_runs/attraction_scan_104.json`;
+- `docs/research/ATTRACTION_SCAN_104_2026-09-22.md`;
+- `tests/test_attraction_scan_104_noncommodity_entry.py`.
 
 Updated:
 - `data/commercial_reset_state.json`;
 - `TASK_STATE.md`.
 
 Persisted state:
-- last completed scan = `ATTRACTION_SCAN_103`;
-- last resolved formation = `ATTRACTION_SCAN_103-F3`;
-- next scan = `ATTRACTION_SCAN_104`;
+- last completed scan = `ATTRACTION_SCAN_104`;
+- last resolved formation = `ATTRACTION_SCAN_104-F3`;
+- next scan = `ATTRACTION_SCAN_105`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Reconciled the interrupted session against live GitHub instead of replaying old work.
-- Verified PR #400 exact final-head CI and real TypeSafe/Jev execution, then consumed its `ADVANCE_TO_NEXT_SCAN` directive.
-- Resumed the already-created `research/attraction-scan-103` branch rather than creating a duplicate branch.
-- Ran the first operator-specific non-commodity-control + external-economic-motion pass on a fresh formation-diverse China sample.
-- Examined BiliNote open-source reputation -> hosted Pro subscriptions, a Bilibili creator audience -> three-year exclusive platform contract, and an SEO-accumulated tool site -> global subscriptions.
-- Persisted Scan 103 evidence, research note, regression coverage and reset-state advancement.
+- Reconciled the interrupted session against live GitHub rather than replaying pre-merge Scan 103 work.
+- Verified PR #401 was already squash-merged into `main` at `82b19c814c990698125ff0db278e89e030193f52`.
+- Verified PR #401 exact final-head repository CI success and actual TypeSafe/Jev execution.
+- Read and consumed the real Jev continuation directive: 3/3 `NO_FURTHER_RESEARCH`, autonomous continuation allowed, `ADVANCE_TO_NEXT_SCAN`.
+- Resumed the already-existing `research/attraction-scan-104` branch instead of creating a duplicate.
+- Ran Scan 104 on fresh China evidence and persisted the results.
+- Added Scan 104 regression coverage and advanced durable discovery state to Scan 105.
+- Opened PR #402.
 - Retained zero formations and promoted zero commercial candidates.
 
 ## Current Findings
 
-### Scan 103-F1 — BiliNote open-source reputation -> paid hosted service
+### Scan 104-F1 — profitable app with installed user base offered for transfer
 
-The current operator has a real non-commodity repository/community/inbound asset and participant-reported paid subscriptions. The decisive edge is incumbent-owned history: a fresh operator can copy MIT code but cannot acquire the same stars, community identity and organic inbound on materially similar terms. Ongoing maintenance/support/content/channel work and normalized margin remain unresolved.
+A current China developer explicitly offers a profitable multi-client app for sale and reports nearly 20k users, ~1.5k DAU, ~500 new users/day and ~10k iOS downloads in the prior month.
 
-### Scan 103-F2 — creator audience -> exclusive platform contract
+Apple independently proves that an eligible sold app can be transferred while retaining reviews, ratings, Bundle ID and update continuity. This is materially stronger fresh-entry evidence than Scan 103's incumbent-only reputation/audience/ranking assets.
 
-Audience, trust and a three-year Bilibili exclusive agreement are real non-commodity control with current money motion. They fail fresh-operator entry, founder-independence and machine-delegatability because the value is identity-bound, platform-controlled and sustained by recurring creative output.
+It still fails closed because the exact app is withheld. The user/DAU/download/profit claims cannot be bound to a visible product, and revenue amount, normalized cost, sale price, code quality, Android/web/server assets and lawful user-data transfer are not publicly verified.
 
-### Scan 103-F3 — accumulated SEO site -> subscriptions
+Verdict: demoted.
 
-The participant reports more than USD 5,000 monthly subscriptions and server/AI costs around 20% of revenue. But the exact site/ranking position is withheld, the product and much of the SEO execution are reproducible, and discovery remains Google-controlled. Independent corroboration of the scarce asset therefore fails closed.
+### Scan 104-F2 — UCharts public Figma plugin distribution -> direct sales
 
-## Scan 103 Result
+The identifiable UCharts operator reports USD 259 of Figma-plugin revenue for July 2026 and exposes a current direct-sales surface.
 
-First operator-specific non-commodity-control + external-economic-motion pass completed with zero commercial promotions and zero retained research formations.
+The scarce public Community distribution/history is real, but Figma's current documentation explicitly says ownership of plugins published outside an organization cannot be transferred. A fresh operator can buy/rebuild code but cannot acquire the incumbent public plugin identity/history through the native platform.
+
+Verdict: demoted.
+
+### Scan 104-F3 — one-person game IP -> publisher-operated minigame revenue
+
+Unity China's `幻境深渊` case shows a one-person game moving downstream conversion, listing, filing, commercial tuning, ad creative and data optimization to a publisher after evaluation and contract signing, with reported peak monthly turnover above RMB 300k and later high-tens-of-thousands to ~RMB 100k monthly turnover.
+
+This proves contractible IP/operation rights can remove much recurring founder execution. But the mature publisher already owns the orchestration bridge. The fresh operator still needs to create/acquire a proven game IP, win publisher acceptance and accept unknown publisher split/acquisition-cost/net-margin terms.
+
+Verdict: demoted.
+
+## Scan 104 Result
+
+Second operator-specific non-commodity-control + external-economic-motion + fresh-entry pass completed with zero commercial promotions and zero retained research formations.
 
 State truth:
-- last completed scan = `ATTRACTION_SCAN_103`;
-- last resolved formation = `ATTRACTION_SCAN_103-F3`;
-- next scan = `ATTRACTION_SCAN_104`;
+- last completed scan = `ATTRACTION_SCAN_104`;
+- last resolved formation = `ATTRACTION_SCAN_104-F3`;
+- next scan = `ATTRACTION_SCAN_105`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Learning
 
-Scan 103 establishes a narrower distinction:
+Across Scans 103-104:
 
-`REAL NON-COMMODITY CONTROL + REAL EXTERNAL MONEY != FRESH-OPERATOR-ACQUIRABLE EDGE`.
+`SCARCE != FRESH-OPERATOR-ACQUIRABLE`
 
-Historical reputation, audience, trust, exclusive contracts and ranking positions can be hard to copy precisely because an incumbent already owns the accumulated history. One pass is insufficient to derive a new search ontology.
+and
 
-Scan 104 therefore repeats the same non-commodity-control + external-money floor on a fresh formation-diverse sample while making fresh-independent-operator entry acquirability explicit.
+`TRANSFERABLE != VERIFIED_POST-TRANSFER_ECONOMICS`.
+
+Scan 104 adds two decisive observations:
+- native transfer rails can preserve path-dependent distribution state, but an undisclosed asset still fails exact verification and normalized economics;
+- platform policy can make a real revenue-bearing distribution asset nontransferable even when the source code is copyable.
+
+After two independent passes, the next stronger evidence property is **executed control change + continuing external money after the change**. This is an evidence floor, not an app/plugin/game/acquisition-market ontology.
 
 ## Blockers
 
@@ -131,24 +157,23 @@ Validation:
 
 Engineering:
 - no current Jev integration blocker;
-- Scan 103 needs a PR and exact-final-head repository CI plus live TypeSafe/Jev.
+- PR #402 exact-final-head repository CI and live TypeSafe/Jev must finish before the continuation directive is consumed.
 
 Discovery:
-- Scan 104 is gated on the Scan 103 exact-final-head continuation directive.
+- do not infer that app/plugin/game acquisitions are the next product class;
+- Scan 105 must start from broad current reality and require an actually executed fresh-operator acquisition/license/contract transfer with post-transfer economic continuity;
+- no promotion from seller claims without buyer-side or objective transfer/economic verification.
 
 ## Do Not Repeat
 
+- Do not repeat Scan 104 profitable-app sale, UCharts/Figma public-plugin distribution or `幻境深渊` publisher-operated game formations.
+- Do not use website/domain/SEO asset transfers as a primary Scan 105 formation; that repeats Scan 103-F3.
 - Do not repeat Scan 103 BiliNote/open-source reputation, creator audience/exclusive-contract or SEO-accumulated tool-site formations.
 - Do not repeat Scan 102 self-service car wash, EV charging/site operation or group-expense mini-program/ad-monetization formations.
 - Do not repeat Scan 101 public-ingress/public-IP, GPU rental/capacity or discounted outbound courier aggregation formations.
-- Do not repeat Scan 100 mainland cloud/ICP access filing, Apple Developer organization enrollment or cross-carrier inbound parcel aggregation.
-- Do not repeat Scan 099 Merchant-of-Record software collection, agent credential governance or foreign-AI team-access formations.
-- Do not repeat Scan 098 cross-system internal marketing operations, team SMS/OTP routing or agent worktree local-asset synchronization.
-- Do not repeat Scan 097 digital-invoice reimbursement preparation, multi-platform creator publishing or Android multi-store release.
-- Do not repeat Scan 095–096 formations.
-- Do not revive the interrupted U.S.-only Scan 095 draft.
-- Do not return to Scan 060–103 formations or their primary discovery signals.
-- Do not use job/gig/RFQ/procurement feeds as discovery ontology.
+- Do not repeat Scan 099-100 formations.
+- Do not return to Scan 060-104 formations or their primary discovery signals.
+- Do not use job/gig/RFQ/procurement feeds or asset-marketplace feeds as discovery ontology.
 - Do not infer a product from a closed formation.
 - Do not lower hard floors because discovery closes at zero.
 - Do not repeat Scan 015 public-rights research while written evidence is outstanding.
@@ -186,4 +211,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Validate PR #401 exact final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, then start Scan 104 only if `autonomous_continuation_allowed=true`.
+Wait for PR #402's exact final head repository CI and live TypeSafe/Jev run to reach terminal state. Read the actual Jev continuation directive. If `autonomous_continuation_allowed=true`, consume it immediately and continue the reversible next research stage without waiting for a manual "continue".

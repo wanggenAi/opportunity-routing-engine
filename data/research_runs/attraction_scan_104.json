@@ -1,0 +1,208 @@
+{
+  "schema_version": "attraction-scan.v78",
+  "scan_id": "ATTRACTION_SCAN_104",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA",
+    "GLOBAL_AUXILIARY"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "SECOND_INDEPENDENT_OPERATOR_ACQUIRABLE_NON_COMMODITY_CONTROL_PLUS_EXTERNAL_ECONOMIC_MOTION_PASS_REQUIRE_EVIDENCE_THAT_CONTROL_EFFECTIVENESS_IS_NOT_AVAILABLE_TO_AN_EQUIVALENT_COMPETENT_ENTRANT_ON_MATERIALLY_SIMILAR_TERMS_AND_HAS_AN_OPERATOR_SPECIFIC_ASYMMETRY_OR_COMPOUNDING_DISTRIBUTION_DATA_CONTRACT_SUPPLY_OR_TRUST_POSITION_AND_REQUIRE_EVIDENCE_THAT_A_FRESH_INDEPENDENT_SMALL_OPERATOR_CAN_LEGALLY_OBTAIN_BUILD_CONTRACT_OR_ASSEMBLE_THE_DECISIVE_POSITION_WITHOUT_ALREADY_OWNING_THE_INCUMBENT_HISTORY_IDENTITY_AUDIENCE_OR_RANKING_ASSET_REQUIRE_DIRECT_CURRENT_OR_RECENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_PLUS_CURRENT_EXTERNAL_PAYMENT_SPEND_OR_DIRECT_MARGIN_EVIDENCE_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_103_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_NATIVE_OPEN_SOURCE_GENERIC_AGENT_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_104-F1",
+      "title": "CHINA_PROFITABLE_APP_WITH_INSTALLED_USER_BASE_OFFERED_FOR_TRANSFER",
+      "discovery_route": "CURRENT_CHINA_DEVELOPER_DIRECTLY_OFFERS_A_PROFITABLE_MULTI_CLIENT_APP_WITH_EXISTING_USERS_FOR_SALE_PLUS_OFFICIAL_APP_STORE_OWNERSHIP_TRANSFER_CONTINUITY_RULES",
+      "observed_actor_state_change_evidence": [
+        "On 2026-02-24 a China developer directly offered an app for sale after a work change left insufficient time to continue development.",
+        "The seller reported nearly 20,000 users, about 1,500 DAU, roughly 500 new users per day, about 10,000 iOS App Store downloads in the prior month and that the product had already become profitable."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Apple's current App Store Connect documentation explicitly supports ownership transfer when an app is sold to another developer.",
+        "Apple states that a transferred app can remain downloadable, retains reviews and ratings, keeps its Bundle ID and continues to receive updates; the recipient receives post-transfer sales/payment reporting and historical App Analytics subject to Apple's rules."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The seller is not merely considering an abstract exit: the post asks for buyers and offers the future product roadmap together with the app.",
+        "The product spans iOS, APK and web clients, so a buyer would need a coherent transfer of code, service assets, user/account data rights and non-App-Store surfaces in addition to Apple's native app-transfer rail."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is materially stronger fresh-operator entry evidence than Scan 103's incumbent-only history because the incumbent is explicitly willing to sell and Apple provides a native ownership-transfer path that preserves important distribution continuity.",
+        "The exact app identity is intentionally withheld from the public post, so the claimed users, DAU, growth, App Store downloads, reviews, competitive position and profitability cannot be independently bound to a visible product.",
+        "No sale price, revenue amount, normalized costs, retention, source-code quality, Android/web asset-transfer terms, domain ownership or lawful user-data transfer package is publicly evidenced.",
+        "Transferability therefore proves a callable control-change mechanism, not that the offered asset has independently verified durable economics or a routing/orchestration edge."
+      ],
+      "economic_signal": [
+        "The seller directly states that the app is already profitable and supplies current user/download activity, so external economic motion is participant-authored rather than hypothetical.",
+        "Profit magnitude and cost structure are undisclosed; fail-closed rules therefore prevent treating the asset as having proven normalized margin."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Apple owns the iOS distribution and app-transfer control plane, but provides a documented seller-to-buyer transfer path.",
+        "The exact app is undisclosed, preventing exact substitute, rating, review, ranking and current monetization corroboration.",
+        "The seller controls whether code, server assets, Android/web surfaces and roadmap are included; public evidence does not establish the complete transfer bundle."
+      ],
+      "operator_acquirability_check": "PARTIAL_PASS_APPLE_PROVIDES_A_STANDARD_OWNERSHIP_TRANSFER_RAIL_AND_THE_CURRENT_OWNER_EXPLICITLY_OFFERS_THE_ASSET_FOR_SALE_BUT_THE_EXACT_APP_AND_COMPLETE_CROSS_CLIENT_ASSET_DATA_RIGHTS_TRANSFER_PACKAGE_ARE_NOT_PUBLICLY_VERIFIABLE",
+      "fresh_operator_entry_acquirability_check": "PARTIAL_PASS_A_FRESH_OPERATOR_CAN_LEGALLY_RECEIVE_AN_ELIGIBLE_APP_AND_PRESERVE_APP_STORE_IDENTITY_REVIEWS_RATINGS_AND_UPDATES_BUT_CANNOT_BE_SHOWN_FROM_PUBLIC_EVIDENCE_TO_RECEIVE_THE_FULL_PROFITABLE_BUSINESS_WITH_ALL_USER_SERVER_ANDROID_WEB_AND_DATA_RIGHTS_INTACT",
+      "noncommodity_control_check": "PARTIAL_PASS_EXISTING_INSTALLED_USERS_APP_STORE_HISTORY_REVIEWS_RATINGS_AND_BUNDLE_ID_CONTINUITY_ARE_PATH_DEPENDENT_AND_CAN_MOVE_WITH_AN_ELIGIBLE_APP_TRANSFER_BUT_THE_EXACT_ASSET_IS_WITHHELD",
+      "founder_independence_check": "UNKNOWN_TO_PARTIAL_SELLER_IS_EXITING_FOR_TIME_CONSTRAINTS_AND_OFFERS_A_ROADMAP_BUT_PUBLIC_EVIDENCE_DOES_NOT_SHOW_POST_TRANSFER_SUPPORT_LOAD_MAINTENANCE_BURDEN_OR_ORIGINAL_FOUNDER_DEPENDENCIES",
+      "data_action_rights_check": "UNKNOWN_APPLE_TRANSFER_RIGHTS_ARE_CLEAR_FOR_THE_ELIGIBLE_IOS_APP_BUT_LAWFUL_TRANSFER_OF_SERVER_ACCOUNTS_USER_DATA_ANDROID_DISTRIBUTION_WEB_DOMAIN_AND_OTHER_PROCESSOR_RELATIONSHIPS_IS_NOT_EVIDENCED",
+      "normalized_margin_check": "UNKNOWN_PROFIT_IS_CLAIMED_BUT_REVENUE_COSTS_ACQUISITION_CHANNELS_RETENTION_AND_SALE_PRICE_ARE_NOT_DISCLOSED_OR_INDEPENDENTLY_AUDITABLE",
+      "machine_delegatability_check": "PARTIAL_PASS_SOFTWARE_RUNTIME_AND_APP_STORE_DISTRIBUTION_ARE_MACHINE_EXECUTABLE_BUT_POST_TRANSFER_PRODUCT_SUPPORT_GROWTH_AND_CROSS_CLIENT_OPERATIONS_ARE_UNQUANTIFIED",
+      "generic_agent_substitutability_check": "PARTIAL_FAIL_GENERIC_AGENTS_CAN_REBUILD_AND_MAINTAIN_MUCH_OF_AN_APP_PRIMITIVE_BUT_CANNOT_INSTANTLY_RECREATE_THE_EXISTING_INSTALLED_BASE_REVIEWS_RATINGS_AND_BUNDLE_HISTORY",
+      "verdict": "DEMOTED_NATIVE_TRANSFER_RAIL_AND_CURRENT_PROFIT_CLAIM_MAKE_THIS_A_STRONGER_ENTRY_SHAPE_BUT_THE_EXACT_ASSET_COMPLETE_RIGHTS_PACKAGE_AND_NORMALIZED_POST_TRANSFER_ECONOMICS_ARE_NOT_PUBLICLY_VERIFIABLE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_104-F2",
+      "title": "CHINA_FIGMA_PLUGIN_PUBLIC_DISTRIBUTION_TO_DIRECT_SALES",
+      "discovery_route": "CURRENT_CHINA_INDEPENDENT_DEVELOPER_REPORTS_MONTHLY_PLUGIN_REVENUE_AND_IDENTIFIABLE_UCHARTS_PRODUCT_SALES_WITH_OFFICIAL_FIGMA_PUBLIC_PLUGIN_OWNERSHIP_RULES",
+      "observed_actor_state_change_evidence": [
+        "In the July 2026 independent-development recap, the UCharts operator reported that the Figma plugin generated USD 259 for the month even while plugin traffic was declining.",
+        "The same operator publicly identifies UCharts, previously reported 2025 paid revenue, and links the exact Figma Community plugin and Uwarp product surface."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The current Gumroad UCharts product page identifies the Figma Plugin, Figma Widget and Web App bundle and shows 86 sales at crawl time.",
+        "Figma's current creator documentation gives public plugins a unique Community listing and current documentation explicitly states that ownership of plugins published outside an organization cannot be transferred."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The operator has accumulated a visible user/distribution position over multiple years and continues to monetize the plugin through direct paid licenses.",
+        "The operator also reports ongoing product iteration, SEO/content work and growth experiments rather than a passive immutable royalty stream."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The public Community listing, installation/reputation history and creator identity can be non-commodity for the incumbent and the money flow is directly observable through the operator's current report plus an identifiable sales surface.",
+        "Figma's own rules close the fresh-entry path for that decisive public distribution asset: public plugin ownership cannot be transferred outside an organization.",
+        "A fresh operator can build another chart plugin or acquire source code privately, but cannot acquire the same public Community identity/history through Figma's documented ownership-transfer mechanism.",
+        "The underlying chart-generation functionality is reproducible with existing chart libraries and generic agents, so source code alone does not preserve the scarce distribution position."
+      ],
+      "economic_signal": [
+        "Participant-reported July 2026 plugin revenue was USD 259, and the identifiable Gumroad product page showed 86 lifetime sales at crawl time.",
+        "Current revenue is real but modest and full platform fees, support time, hosting, tax and development costs are not normalized."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Figma owns the Community listing, publication/review rules and public-plugin ownership control plane.",
+        "UCharts owns its code, brand, paid-license surface and current creator account relationship but public-plugin ownership is not transferable under Figma's documented rule.",
+        "Equivalent entrants can publish new plugins after review, so the current owner's historic listing/distribution graph is the scarce portion rather than access to the plugin API itself."
+      ],
+      "operator_acquirability_check": "FAIL_DECISIVE_FIGMA_DOCUMENTATION_SAYS_OWNERSHIP_OF_PLUGINS_PUBLISHED_OUTSIDE_AN_ORGANIZATION_CANNOT_BE_TRANSFERRED_SO_A_FRESH_OPERATOR_CANNOT_ACQUIRE_THE_EXISTING_PUBLIC_COMMUNITY_DISTRIBUTION_ASSET",
+      "fresh_operator_entry_acquirability_check": "FAIL_BUILDING_OR_BUYING_SOURCE_CODE_DOES_NOT_TRANSFER_THE_CURRENT_PUBLIC_PLUGIN_LISTING_INSTALLATION_HISTORY_CREATOR_IDENTITY_OR_COMMUNITY_POSITION",
+      "noncommodity_control_check": "PASS_FOR_CURRENT_OPERATOR_PUBLIC_PLUGIN_DISTRIBUTION_HISTORY_USER_BASE_AND_CREATOR_REPUTATION_ARE_PATH_DEPENDENT_AND_NOT_AVAILABLE_TO_EQUIVALENT_ENTRANTS_ON_SIMILAR_TERMS",
+      "founder_independence_check": "PARTIAL_FAIL_THE_RUNTIME_AND_LICENSE_DELIVERY_ARE_SOFTWARE_DRIVEN_BUT_THE_OPERATOR_CONTINUES_PRODUCT_ITERATION_CONTENT_SEO_AND_GROWTH_WORK_AND_PUBLIC_OWNERSHIP_IS_CREATOR_BOUND",
+      "data_action_rights_check": "PASS_FOR_OWN_PLUGIN_CODE_LICENSES_AND_DIRECT_CUSTOMER_RELATIONSHIPS_SUBJECT_TO_FIGMA_AND_PAYMENT_PLATFORM_RULES_BUT_PUBLIC_LISTING_OWNERSHIP_CANNOT_MOVE_TO_AN_EXTERNAL_BUYER",
+      "normalized_margin_check": "UNKNOWN_MONTHLY_REVENUE_AND_SALES_ARE_VISIBLE_BUT_FULL_COSTS_SUPPORT_TIME_PLATFORM_FEES_AND_TAX_ARE_NOT_NORMALIZED",
+      "machine_delegatability_check": "PARTIAL_PASS_PRODUCT_DELIVERY_AND_LICENSE_FULFILLMENT_ARE_MACHINE_EXECUTABLE_WHILE_GROWTH_PRODUCT_DIRECTION_SUPPORT_AND_COMMUNITY_POSITION_REMAIN_OPERATOR_DEPENDENT",
+      "generic_agent_substitutability_check": "FAIL_FOR_PRODUCT_PRIMITIVE_GENERIC_AGENTS_AND_STANDARD_CHART_LIBRARIES_CAN_RECREATE_MUCH_OF_THE_FUNCTIONAL_LAYER_WHILE_ONLY_THE_NONTRANSFERABLE_DISTRIBUTION_HISTORY_IS_SCARCE",
+      "verdict": "DEMOTED_CURRENT_REVENUE_AND_NONCOMMODITY_PUBLIC_DISTRIBUTION_ARE_REAL_BUT_THE_DECISIVE_FIGMA_COMMUNITY_ASSET_IS_EXPLICITLY_NONTRANSFERABLE_TO_A_FRESH_EXTERNAL_OPERATOR"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_104-F3",
+      "title": "CHINA_ONE_PERSON_GAME_IP_TO_PUBLISHER_OPERATED_MINIGAME_REVENUE",
+      "discovery_route": "CHINA_ONE_PERSON_GAME_WITH_IDENTIFIABLE_CURRENT_PRODUCT_AND_REAL_PUBLISHER_OPERATED_REVENUE_PLUS_CURRENT_SMALL_DEVELOPER_PUBLISHING_ENTRY_AND_GAME_IP_AUTHORIZATION_RAILS",
+      "observed_actor_state_change_evidence": [
+        "Unity China's publishing case describes 幻境深渊 as a one-person-developed game that previously had limited monetization despite organic TapTap traffic.",
+        "After the developer passed evaluation and signed a publishing contract, Unity China reports a peak monthly turnover above RMB 300,000 and later monthly turnover in the high tens of thousands to roughly RMB 100,000 range."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The current Google Play listing independently identifies 幻境深渊, shows the product remained published and updated in 2026, and identifies advertising plus in-app purchases.",
+        "Unity China's current 2026 developer ecosystem continues to advertise publishing support and channel connection for independent/mobile/minigame projects.",
+        "Current Douyin minigame qualification documentation confirms that a game operator may submit software-copyright operating/publishing authorization and third-party IP authorization chains when the rights owner and operating entity differ."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Unity China's case states that after the developer delivered the game and signed the contract, the publisher handled minigame conversion, technical optimization, listing, filing, commercial tuning, ad-material production and data optimization.",
+        "This is a real example of a creator moving recurring distribution/commercial operations to a publisher rather than personally performing every downstream task."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The game IP/code is operator-specific and external money motion is strong, while publishing/operation rights can be contractually authorized in the current China platform stack.",
+        "But the demonstrated fresh-entry path is still 'own or create a sufficiently good game, then persuade a mature publisher to accept it'; no public evidence shows a fresh operator can acquire the exact successful game/IP/publisher position on standardized terms.",
+        "The mature publisher already owns the technical, compliance, distribution, advertising and optimization bridge, so the unowned residual for a new operator is primarily game-content/IP creation or acquisition rather than a distinct routing layer.",
+        "Publisher selection, game-market fit and continuing product/content decisions remain materially judgment-heavy even when deployment and monetization operations are outsourced."
+      ],
+      "economic_signal": [
+        "Unity China's publishing team reports peak monthly turnover above RMB 300,000 and a later steady range from high tens of thousands to around RMB 100,000 for the exact title.",
+        "The developer's net share, acquisition spend, publisher split, development cost and normalized margin are not disclosed."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Unity China is the demonstrated incumbent publisher controlling conversion, listing, compliance, commercial tuning, creatives and data optimization for the examined flow.",
+        "Mainland minigame platforms retain qualification, advertising, payment and content-control authority while current rules support explicit software-copyright/IP authorization chains.",
+        "A new operator can seek publishing support, but no separate unowned orchestration/control surface remains evidenced between game owner, publisher and platform."
+      ],
+      "operator_acquirability_check": "PARTIAL_PASS_A_FRESH_SMALL_DEVELOPER_CAN_SUBMIT_A_GAME_FOR_EVALUATION_SIGN_A_PUBLISHING_CONTRACT_AND_USE_CURRENT_AUTHORIZATION_RAILS_BUT_ACCEPTANCE_AND_THE_SUCCESSFUL_GAME_IP_POSITION_ARE_NOT_STANDARDIZED_OR_TRANSFERABLE_ON_DEMAND",
+      "fresh_operator_entry_acquirability_check": "PARTIAL_PASS_THE_DECISIVE_RIGHT_CAN_BE_BUILT_OR_CONTRACTED_WITHOUT_PREOWNING_YEARS_OF_AUDIENCE_OR_RANKING_HISTORY_BUT_PUBLIC_EVIDENCE_DOES_NOT_SHOW_AN_EXECUTED_THIRD_PARTY_ACQUISITION_OF_A_PROVEN_TITLE_OR_PUBLISHER_POSITION",
+      "noncommodity_control_check": "PASS_GAME_IP_CODE_CONTENT_AND_A_SUCCESSFUL_PUBLISHER_RELATIONSHIP_ARE_NOT_AVAILABLE_TO_EQUIVALENT_ENTRANTS_ON_MATERIALLY_IDENTICAL_TERMS",
+      "founder_independence_check": "PARTIAL_PASS_DOWNSTREAM_PUBLISHING_OPERATIONS_ARE_DELEGATED_TO_THE_PUBLISHER_BUT_ORIGINAL_GAME_CREATION_PRODUCT_DIRECTION_AND_POTENTIAL_CONTENT_UPDATES_REMAIN_CREATIVE_HUMAN_INPUTS",
+      "data_action_rights_check": "PARTIAL_PASS_CONTRACTUAL_PUBLISHING_AND_SOFTWARE_COPYRIGHT_IP_AUTHORIZATION_PATHS_EXIST_BUT_THE_EXACT_CONTRACT_REVENUE_SHARE_DATA_RIGHTS_AND_PORTABILITY_ARE_NOT_PUBLIC",
+      "normalized_margin_check": "UNKNOWN_GROSS_TURNOVER_IS_REPORTED_BUT_PUBLISHER_SHARE_USER_ACQUISITION_SPEND_DEVELOPMENT_COST_AND_NET_MARGIN_ARE_NOT_DISCLOSED",
+      "machine_delegatability_check": "PARTIAL_PASS_CONVERSION_LISTING_FILING_COMMERCIAL_TUNING_CREATIVE_PRODUCTION_AND_DATA_OPTIMIZATION_CAN_BE_DELEGATED_TO_A_MATURE_PUBLISHER_BUT_GAME_CREATION_AND_MARKET_FIT_REMAIN_JUDGMENT_HEAVY",
+      "generic_agent_substitutability_check": "PARTIAL_PASS_FOR_SCARCITY_GENERIC_AGENTS_CANNOT_LAWFULLY_COPY_THE_EXACT_GAME_IP_BUT_CAN_REDUCE_GAME_BUILD_AND_CONTENT_PRODUCTION_COSTS_AND_DO_NOT_CREATE_A_DISTINCT_NEW_ROUTING_RIGHT",
+      "verdict": "DEMOTED_STRONG_MONEY_AND_CONTRACTIBLE_IP_PUBLISHING_RIGHTS_EXIST_BUT_THE_MATURE_PUBLISHER_ALREADY_OWNS_THE_ORCHESTRATION_LAYER_AND_A_FRESH_OPERATOR_STILL_NEEDS_TO_CREATE_OR_ACQUIRE_A_PROVEN_GAME_ASSET_WITH_UNPROVEN_NET_ECONOMICS"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CHINA_SEO_SITE_OR_DOMAIN_TRANSFER_LISTINGS",
+      "excluded_reason": "EXCLUDED_AS_A_PRIMARY_FORMATION_BECAUSE_TRANSFERABLE_WEBSITE_TRAFFIC_DOMAIN_AND_SEO_HISTORY_REPEATS_SCAN103_F3_PRIMARY_SIGNAL_SHAPE"
+    },
+    {
+      "observation": "CHINA_WECHAT_PUBLIC_ACCOUNT_TRADING_MARKET",
+      "excluded_reason": "EXCLUDED_BECAUSE_CURRENT_SURFACED_MARKETPLACE_LISTINGS_DID_NOT_PROVIDE_SUFFICIENT_OFFICIAL_ACCOUNT_MIGRATION_RIGHTS_PLUS_PARTICIPANT_BOUND_POST_TRANSFER_ECONOMIC_EVIDENCE_FOR_FAIL_CLOSED_RETENTION"
+    },
+    {
+      "observation": "CHINA_REGIONAL_FRANCHISE_OR_DISTRIBUTOR_RIGHTS",
+      "excluded_reason": "EXCLUDED_FROM_DEEP_RETENTION_BECAUSE_CURRENT_SURFACED_CASES_WERE_PRIMARILY_BRAND_MARKETING_OR_ADVERTORIAL_EARNINGS_CLAIMS_AND_THE_VALUE_REMAINS_PHYSICAL_SITE_INVENTORY_SALES_AND_RECURRING_HUMAN_OPERATIONS"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_paid_stack": false,
+    "operator_acquirable_control_required": true,
+    "operator_specific_noncommodity_control_required": true,
+    "fresh_operator_entry_acquirability_required": true,
+    "external_economic_motion_required": true,
+    "direct_participant_authored_current_friction_required": true,
+    "independent_objective_corroboration_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PARTIAL_PASS_TRANSFERABLE_APP_BUSINESS_PUBLIC_PLUGIN_DISTRIBUTION_AND_PUBLISHER_OPERATED_GAME_IP_TEST_THREE_DISTINCT_CONTROL_TRANSFER_SHAPES_BUT_THIS_PASS_IS_DIGITAL_ASSET_HEAVY_AND_DOES_NOT_AUTHORIZE_A_DIGITAL_ASSET_ONTOLOGY",
+    "observed_indexing_bias": "FRESH_OPERATOR_ENTRY_ACQUIRABILITY_NATURALLY_SURFACES_ASSET_TRANSFER_PLATFORM_OWNERSHIP_AND_CONTRACT_AUTHORIZATION_DOCUMENTATION_WHICH_CAN_OVERINDEX_DIGITAL_PRODUCTS",
+    "response": "DO_NOT_DERIVE_APP_PLUGIN_OR_GAME_ACQUISITION_AS_THE_NEXT_ONTOLOGY_AFTER_TWO_PASSES_RAISE_ONLY_THE_EVIDENCE_PROPERTY_TO_AN_EXECUTED_CONTROL_TRANSFER_WITH_POST_TRANSFER_ECONOMIC_CONTINUITY_AND_KEEP_FORMATION_DIVERSITY",
+    "participant_behavior_over_analyst_story": "PASS_F1_STARTS_FROM_A_CURRENT_SELLER_WITH_USERS_AND_PROFIT_F2_FROM_A_CURRENT_OPERATOR_WITH_MONTHLY_REVENUE_AND_IDENTIFIABLE_SALES_F3_FROM_A_REAL_ONE_PERSON_GAME_PUBLISHING_CASE_WITH_CURRENT_PRODUCT_CORROBORATION; UNVERIFIED_TERMS_REMAIN_UNKNOWN"
+  },
+  "scan_learnings": [
+    "SCAN104_SECOND_OPERATOR_ACQUIRABLE_NONCOMMODITY_CONTROL_PLUS_EXTERNAL_ECONOMIC_MOTION_PASS_ZERO_RETENTION_ACROSS_TRANSFERABLE_APP_BUSINESS_PUBLIC_FIGMA_PLUGIN_DISTRIBUTION_AND_PUBLISHER_OPERATED_GAME_IP",
+    "NATIVE_ASSET_TRANSFER_CAN_PRESERVE_REAL_PATH_DEPENDENT_DISTRIBUTION_STATE_APPLE_APP_TRANSFER_RETAINS_REVIEWS_RATINGS_BUNDLE_ID_AND_UPDATE_CONTINUITY",
+    "TRANSFERABILITY_DOES_NOT_PROVE_VERIFIABLE_ECONOMICS_AN_UNDISCLOSED_APP_IDENTITY_PROFIT_AMOUNT_AND_COMPLETE_CROSS_CLIENT_DATA_RIGHTS_PACKAGE_FAIL_CLOSED",
+    "PLATFORM_RULES_CAN MAKE_A_REAL_REVENUE_BEARING_DISTRIBUTION_ASSET_NONTRANSFERABLE_FIGMA_PUBLIC_PLUGIN_OWNERSHIP_CANNOT_MOVE_TO_AN_EXTERNAL_BUYER",
+    "CONTRACTIBLE_IP_AND_PUBLISHER_RIGHTS_CAN CREATE_FOUNDER_LIGHT_DOWNSTREAM_OPERATIONS_BUT_A_MATURE_PUBLISHER_MAY_ALREADY_OWN_THE_ORCHESTRATION_LAYER_LEAVING_CONTENT_IP_CREATION_OR_ACQUISITION_AS_THE_RESIDUAL",
+    "TWO_INDEPENDENT_NONCOMMODITY_PASSES_SHOW_THE_NEXT_MISSING_PROOF_IS_NOT_MORE_SCARCITY_LABELS_BUT_EXECUTED_CONTROL_CHANGE_WITH_POST_TRANSFER_CASHFLOW_CONTINUITY",
+    "SCAN105_SHOULD_REQUIRE_AN_ACTUAL_FRESH_OPERATOR_ACQUISITION_LICENSE_OR_CONTRACT_TRANSFER_PLUS_POST_TRANSFER_EXTERNAL_PAYMENT_CONTINUITY_BEFORE_DEEP_RETENTION_WITHOUT_INHERITING_APP_PLUGIN_GAME_OR_ASSET_MARKETPLACE_AS_A_SEARCH_ONTOLOGY"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_105",
+  "next_search_boundary": "EXECUTED_FRESH_OPERATOR_CONTROL_TRANSFER_PLUS_POST_TRANSFER_EXTERNAL_ECONOMIC_CONTINUITY_PASS_REQUIRE_EVIDENCE_THAT_A_FRESH_INDEPENDENT_SMALL_OPERATOR_HAS_ACTUALLY_ACQUIRED_LICENSED_OR_CONTRACTED_THE_DECISIVE_NONCOMMODITY_POSITION_FROM_A_THIRD_PARTY_AND_THAT_EXTERNAL_PAYMENT_CONTINUES_AFTER_CONTROL_CHANGES_WITHOUT_ORIGINAL_FOUNDER_RECURRING_DELIVERY_REQUIRE_BUYER_SIDE_OR_OFFICIAL_TRANSFER_CORROBORATION_NORMALIZED_ECONOMICS_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_104_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_EXACT_INCUMBENT_NATIVE_PLATFORM_GENERIC_AGENT_FOUNDER_INDEPENDENCE_MACHINE_DELEGATABILITY_DISCOVERABILITY_AND_RIGHTS_PREFLIGHT_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN104_WITH_CI_JEV_THEN_START_SCAN105_EXECUTED_CONTROL_TRANSFER_CONTINUITY_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://global.v2ex.com/t/1193821",
+    "https://developer.apple.com/help/app-store-connect/transfer-an-app/overview-of-app-transfer",
+    "https://developer.apple.com/help/app-store-connect/transfer-an-app/app-transfer-criteria",
+    "https://edge.v2ex.com/t/1231403",
+    "https://edge.v2ex.com/t/1188003",
+    "https://cn.v2ex.com/t/1164546",
+    "https://tangweikun.gumroad.com/l/ucharts",
+    "https://help.figma.com/hc/en-us/articles/360042293714-Manage-classic-plugins-as-a-developer",
+    "https://unity.csdn.net/685633777e10b149bf209dea.html",
+    "https://play.google.com/store/apps/details?hl=zh&id=com.pujiagames.FantasyJourney",
+    "https://unity.cn/ucdc2026",
+    "https://partner.open-douyin.com/docs/resource/zh-CN/mini-game/operation1/norms/credential-norms-for-mini-game"
+  ]
+}
