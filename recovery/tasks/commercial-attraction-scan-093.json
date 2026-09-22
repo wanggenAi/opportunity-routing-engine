@@ -1,19 +1,19 @@
 {
   "schema_version": 2,
-  "generation": 1,
+  "generation": 2,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "WAITING_CI",
+  "status": "DONE",
   "task_key": "commercial-attraction-scan-093",
-  "stage": "SCAN_093_PR391_FINAL_HEAD_WAITING_CI_JEV",
-  "last_observed_main_sha": "4a0662ae89472a7731d39315264aeeac39bd2605",
+  "stage": "SCAN_093_MERGED_VALIDATED_CONTINUATION_CONSUMED",
+  "last_observed_main_sha": "16053e68cb87fde28d317f5cf30756f346eb5d9d",
   "work_branch": "research/attraction-scan-093",
   "work_head_sha": "64b7176f284abda5b26006fd26594710e5fb9df3",
   "active_pr": 391,
   "ci": {
-    "run_id": null,
+    "run_id": 35703591470,
     "head_sha": "64b7176f284abda5b26006fd26594710e5fb9df3",
-    "status": "NOT_STARTED",
-    "conclusion": null
+    "status": "COMPLETED",
+    "conclusion": "success"
   },
   "production_or_artifact": {
     "status": "NOT_APPLICABLE",
@@ -44,9 +44,13 @@
     "SCAN093_RESET_STATE_UPDATED",
     "SCAN093_TASK_STATE_UPDATED",
     "SCAN093_PR391_OPENED",
-    "SCAN093_TASK_STATE_BOUND_TO_PR391"
+    "SCAN093_TASK_STATE_BOUND_TO_PR391",
+    "SCAN093_FINAL_HEAD_CI_SUCCESS",
+    "SCAN093_LIVE_JEV_SUCCESS",
+    "SCAN093_JEV_CONTINUATION_ADVANCE_TO_NEXT_SCAN",
+    "SCAN093_PR391_MERGED"
   ],
-  "next_action": "Wait for repository CI and live Jev on PR #391 final head 64b7176f284abda5b26006fd26594710e5fb9df3; consume the continuation directive and merge only if allowed.",
+  "next_action": "Superseded by Scan 094 continuation.",
   "do_not_repeat": [
     "Do not repeat Scan 089 Seats.aero, Monarch, or HealthFit/RunGap.",
     "Do not repeat Scan 090 Zapier, 1Password, or Fantastical.",
@@ -54,5 +58,15 @@
     "Do not repeat Scan 092 Figma token-sync, Webflow membership/auth, or Lightroom/Backblaze.",
     "Do not repeat Scan 093 TLS certificate-lifetime compression/CLM, A2L HVAC transition, or post-EAA ecommerce accessibility.",
     "Do not repeat Scan 015 public-rights research while written provider evidence is outstanding."
-  ]
+  ],
+  "jev": {
+    "run_id": 35703591626,
+    "status": "COMPLETED",
+    "conclusion": "success",
+    "autonomous_continuation_allowed": true,
+    "next_action": "ADVANCE_TO_NEXT_SCAN",
+    "effective_route_counts": {
+      "NO_FURTHER_RESEARCH": 3
+    }
+  }
 }
