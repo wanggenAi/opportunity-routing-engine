@@ -1,0 +1,208 @@
+{
+  "schema_version": "attraction-scan.v71",
+  "scan_id": "ATTRACTION_SCAN_095",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "FIRST_PARTICIPANT_AUTHORED_CURRENT_REALITY_SOURCE_SHIFT_AFTER_TWO_BROAD_RESET_PASSES_REQUIRE_DIRECT_PARTICIPANT_RECORDED_UNDERUSE_CONTRADICTION_OR_MANUAL_STATE_TRANSFER_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_BEFORE_PRODUCT_OR_MECHANISM_SELECTION_FORMATION_DIVERSE_EXCLUDE_SCAN060_TO_094_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": true,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_095-F1",
+      "title": "MULTIFAMILY_EV_CHARGING_HOA_APPROVAL_CAPACITY_AND_INSTALLATION_HANDOFF",
+      "chinese_title": "多户住宅 EV 充电的 HOA 审批、容量与安装交接摩擦",
+      "evidence_class": "DIRECT_PARTICIPANT_AUTHORED_RIGHT_TO_CHARGE_APPROVAL_FRICTION_WITH_OBJECTIVE_SHARED_ELECTRICAL_AND_PROPERTY_CONTROL_CONSTRAINTS",
+      "observed_actor_state_change_evidence": [
+        "A January 2026 Illinois condominium owner reported six months of HOA delay while seeking permission to install one charger at the owner's expense, despite a licensed electrician concluding the individual installation would not affect building power or other residents.",
+        "A June 2026 self-managed condominium board member reported residents already charging through 120V outlets and extension cords, including a common-area outlet, and sought standardized rules because of insurance, permitting and liability concerns.",
+        "Current Illinois law states that condominium or common-interest governing documents may not prohibit or unreasonably restrict qualifying EV charging, while still permitting reasonable safety restrictions and requiring association processing of approval requests."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Residents already control or use assigned parking and are willing to fund charging equipment, while buildings already possess electrical service that may have unused off-peak or dynamically allocable capacity.",
+        "The physical endowment is constrained by shared panels, common elements, parking geometry and building load rather than by absence of charging technology.",
+        "A current EverCharge condominium case documents a 374-unit building with 700 resident-owned spaces and limited 1700-amp building power using managed load allocation to expand charging."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Residents report using ordinary outdoor outlets and extension cords when no standardized charging route exists.",
+        "Owners escalate to HOA management, electricians and legal-right-to-charge research before installation can proceed.",
+        "HOA boards seek building-wide studies, permitting rules and insurance conditions rather than approving a charger as a simple consumer device."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The resident may possess a legal right to request charging and may be willing to pay, yet the executable path still crosses association approval, common-property rules, electrical capacity, permitting and licensed installation.",
+        "Dynamic load management and direct resident billing demonstrate that shared-capacity charging can work, but the flow is already productized by established multifamily charging vendors.",
+        "The missing edge is therefore not merely information routing: decisive rights and execution remain distributed across the HOA/property controller, licensed electrical work and the selected charging operator."
+      ],
+      "economic_signal": [
+        "Participant evidence includes owners willing to pay for their own installation and associations considering system-wide studies, proving economic stakes around access and infrastructure.",
+        "Current turnkey vendors already monetize hardware, installation, billing, maintenance and load management, so willingness to spend does not establish a new independent operator margin."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "ChargePoint markets an integrated condominium solution covering hardware, software, resident billing, access control, power sharing and approved-electrician installation.",
+        "EverCharge markets a fully managed multifamily solution covering hardware, software, installation, maintenance, billing, onboarding, support and full-building load management.",
+        "The HOA/property owner, local permitting authority and licensed electrical contractor retain decisive approval and physical execution rights that a generic software operator cannot create."
+      ],
+      "founder_independence_check": "FAIL_FOR_END_TO_END_FLOW_SITE_SPECIFIC_ELECTRICAL_ASSESSMENT_HOA_APPROVAL_PERMITTING_AND_PHYSICAL_INSTALLATION_REMAIN_REQUIRED_EVEN_WHEN_BILLING_AND_LOAD_MANAGEMENT_ARE_PRODUCTIZED",
+      "data_action_rights_check": "FAIL_FOR_INDEPENDENT_OPERATOR_COMMON_PROPERTY_APPROVAL_ELECTRICAL_PANEL_ACCESS_PERMITS_AND_INSTALLATION_RIGHTS_REMAIN_WITH_PROPERTY_CONTROLLERS_AUTHORITIES_AND_LICENSED_TRADES",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EDGE_TURNKEY_MULTIFAMILY_CHARGING_VENDORS_ALREADY_CAPTURE_HARDWARE_SOFTWARE_INSTALLATION_BILLING_LOAD_MANAGEMENT_AND_SUPPORT_SPEND",
+      "machine_delegatability_check": "PARTIAL_DOCUMENT_INTAKE_RULE_CHECKING_LOAD_SCENARIO_TRIAGE_AND_BILLING_ARE_MACHINE_ASSISTABLE_BUT_SITE_ELECTRICAL_ENGINEERING_PERMITTING_AND_INSTALLATION_ARE_NOT",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_ORGANIZE_APPLICATIONS_AND_EVIDENCE_BUT_CANNOT_CREATE_PROPERTY_ELECTRICAL_OR_PERMITTING_RIGHTS_AND_DO_NOT_OWN_A_DISTINCT_CONTROL_SURFACE",
+      "verdict": "DEMOTED_STRONG_PARTICIPANT_AUTHORED_APPROVAL_AND_CAPACITY_FRICTION_WITH_OBJECTIVE_RIGHT_TO_CHARGE_SUPPORT_BUT_DECISIVE_RIGHTS_AND_PHYSICAL_EXECUTION_REMAIN_PROPERTY_ELECTRICAL_AND_PERMIT_CONTROLLED_WHILE_TURNKEY_INCUMBENTS_ALREADY_PRODUCTIZE_THE_REPEATABLE_LAYER"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_095-F2",
+      "title": "MULTIFAMILY_PACKAGE_ROOM_CARRIER_COMPLIANCE_AND_CHAIN_OF_CUSTODY_FAILURE",
+      "chinese_title": "多户住宅包裹房的承运人合规与交接保管链失效",
+      "evidence_class": "DIRECT_RESIDENT_AND_DELIVERY_PARTICIPANT_AUTHORED_HANDOFF_FAILURE_WITH_INDEPENDENT_OPERATOR_SURVEY_CORROBORATION",
+      "observed_actor_state_change_evidence": [
+        "A June 2026 apartment resident reported that three of four packages marked delivered were missing even though delivery instructions specified the building package room.",
+        "An August 2026 resident reported three packages in two months shown by carrier photos as placed in a building package room but later missing, requiring repeated leasing-office reports and retailer refund attempts.",
+        "A March 2026 delivery driver reported a parcel-locker check-in failure that prevented the requested locker handoff and forced a return workflow after repeated attempts."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Apartment properties already possess controlled common space, resident identity records and package rooms or lockers intended to concentrate delivery handoff.",
+        "Carriers already possess tracking, delivery confirmation and driver workflow data, while residents and properties already have destination and access information.",
+        "An independent 2026 multifamily operator survey found operators use an average of 2.4 package-intake methods and no respondent had standardized on one method."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Residents search package rooms, mailboxes and unit doors, file missing-package reports and seek retailer refunds after the nominal carrier delivery event.",
+        "Drivers bypass or return deliveries when access or locker check-in fails.",
+        "Multifamily operators layer unmanaged rooms, lockers and third-party services rather than relying on one consistently executed handoff path."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The package physically reaches the property while the intended chain of custody from carrier to secure resident retrieval can still fail.",
+        "The 2026 operator survey identified carrier non-compliance as the most common frustration at 70%, with staff burden and resident complaints each at 50% and overflow at 40%.",
+        "The repeated missing edge is compliance with the physical handoff protocol, but the decisive act is performed by external carrier drivers and property-access infrastructure rather than by a software-only orchestrator."
+      ],
+      "economic_signal": [
+        "Properties already spend on rooms, lockers and managed services, while residents and staff bear real loss, refund and handling costs.",
+        "Existing locker and package-management vendors already sell operational standardization; no separate recurring payer stream for an independent low-touch compliance router is proven."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Parcel Pending currently sells smart locker and package-room infrastructure positioned as centralized multifamily package operations.",
+        "The independent operator survey explicitly describes a market already combining unmanaged rooms, lockers and third-party services, while identifying carrier compliance as the persistent failure.",
+        "Carriers control the final driver behavior and scan event; properties control access, physical custody space and surveillance; a generic agent can reconcile events but cannot force the physical handoff."
+      ],
+      "founder_independence_check": "FAIL_FOR_DECISIVE_VALUE_FLOW_PHYSICAL_DELIVERY_ACCESS_SECURE_CUSTODY_OVERFLOW_AND_EXCEPTION_RECOVERY_REQUIRE_CARRIER_AND_PROPERTY_OPERATIONS_OUTSIDE_A_SOFTWARE_ONLY_CONTROL_PLANE",
+      "data_action_rights_check": "FAIL_FOR_INDEPENDENT_OPERATOR_CARRIER_SCAN_AND_DRIVER_ACTION_RIGHTS_PROPERTY_ACCESS_AND_PHYSICAL_CUSTODY_REMAIN_EXTERNALLY_CONTROLLED",
+      "normalized_margin_check": "FAIL_FOR_NEW_LOW_TOUCH_EDGE_EXISTING_LOCKER_ROOM_AND_MANAGED_DELIVERY_VENDORS_ALREADY_CAPTURE_PROPERTY_SPEND_WHILE_UNRESOLVED_CARRIER_COMPLIANCE_REQUIRES_CONTROL_THE_OPERATOR_DOES_NOT_OWN",
+      "machine_delegatability_check": "PARTIAL_NOTIFICATION_IDENTITY_MATCHING_EXCEPTION_TRIAGE_AND_EVENT_RECONCILIATION_ARE_MACHINE_EXECUTABLE_BUT_PHYSICAL_HANDOFF_CUSTODY_AND_ACCESS_FAILURES_ARE_NOT",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_RECONCILE_TRACKING_AND_NOTIFY_PARTIES_BUT_CANNOT_BIND_EXTERNAL_DRIVERS_TO_A_PHYSICAL_HANDOFF_PROTOCOL_OR_SECURE_THE_PACKAGE_AFTER_DELIVERY",
+      "verdict": "DEMOTED_DIRECT_RESIDENT_AND_DRIVER_EVIDENCE_PLUS_2026_OPERATOR_SURVEY_CONFIRM_A_REAL_RECURRING_HANDOFF_FAILURE_BUT_THE_DECISIVE_MISSING_EDGE_IS_PHYSICAL_CARRIER_COMPLIANCE_AND_PROPERTY_CUSTODY_CONTROL_NOT_AN_UNOWNED_MACHINE_ROUTING_SURFACE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_095-F3",
+      "title": "CONSTRUCTION_SUBCONTRACTOR_COI_COLLECTION_RENEWAL_AND_AUDIT_READINESS",
+      "chinese_title": "建筑分包商 COI 收集、续期与审计准备的人工追踪",
+      "evidence_class": "DIRECT_CONTRACTOR_AUTHORED_RECURRING_DOCUMENT_CHASE_WITH_INSURER_CORROBORATED_AUDIT_REQUIREMENT_AND_MATURE_EXACT_AUTOMATION_CATEGORY",
+      "observed_actor_state_change_evidence": [
+        "A July 2026 general-contractor discussion describes requiring subcontractor COIs before mobilization or payment, regular workers-comp audits and penalty exposure when certificates are missing.",
+        "The same participant discussion describes maintaining dashboards for subcontractor insurance status and recommends investing in a way and a person to track COIs.",
+        "A November 2025 general contractor described difficulty obtaining subcontractor agreements and certificates naming the builder as additional insured while trying to formalize previously lax internal processes."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "General contractors already possess subcontractor rosters, contracts, payment records and emailed insurance certificates, but these records must stay aligned to project-specific requirements and policy periods.",
+        "Travelers' current premium-audit guidance asks for subcontractor payment records and Certificates of Insurance covering the dates worked and warns that absent valid workers-comp certificates can create premium exposure.",
+        "The Hartford likewise lists 1099s and certificates of insurance for subcontractors among workers-comp audit verification records."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Contractors describe no-pay/no-start rules until COIs and related documents are on file, plus dashboards, spreadsheets, email follow-up and annual renewal checks.",
+        "Subcontractors repeatedly send updated certificates and endorsements as policies renew or project requirements change.",
+        "The recurring manual state transfer is document receipt -> extraction -> requirement comparison -> expiry monitoring -> chase -> audit package."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The information is highly structured and recurring, yet many participants still describe human chasing and spreadsheet/dashboard maintenance.",
+        "However the exact deterministic workflow is already a mature software category: current products automatically collect certificates, extract limits and endorsements, compare them to requirements, chase renewals and preserve audit records.",
+        "Residual difficult cases concern contract interpretation, insurance adequacy, state-specific treatment or disputed exposure rather than an unowned routine routing surface."
+      ],
+      "economic_signal": [
+        "Missing or invalid proof can affect audit premium and subcontractor eligibility, so the workflow has real economic consequence.",
+        "Multiple current products offer purpose-built COI automation, including low-cost or free tiers, strongly compressing new generic orchestration margin for the routine layer."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Current COI tracking products such as COISoftware, COI Watch, ConCOI, Wardly and VendorCover explicitly automate collection, extraction, requirement checks, expiration monitoring and subcontractor reminders.",
+        "Travelers and The Hartford independently confirm the underlying audit need for subcontractor COIs and payment records.",
+        "The remaining authoritative decisions still depend on the buyer's contracts, insurer rules and jurisdiction-specific requirements rather than on a new neutral operator."
+      ],
+      "founder_independence_check": "PASS_FOR_ROUTINE_COLLECTION_EXTRACTION_RENEWAL_CHASING_AND_AUDIT_PACKET_ASSEMBLY_BUT_EDGE_CASE_INTERPRETATION_REMAINS_INSURANCE_OR_CONTRACT_DEPENDENT",
+      "data_action_rights_check": "PARTIAL_PASS_WITH_BUYER_AUTHORIZATION_FOR_DOCUMENT_COLLECTION_AND_INTERNAL_WORKFLOW_FAIL_FOR_AUTHORITATIVE_INSURANCE_COVERAGE_OR_LEGAL_INTERPRETATION",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EDGE_MULTIPLE_CURRENT_EXACT_PRODUCTS_ALREADY_AUTOMATE_THE_ROUTINE_LAYER_AT_LOW_OR_ZERO_ENTRY_PRICE_AND_ENTERPRISE_MANAGED_OPTIONS_EXIST",
+      "machine_delegatability_check": "PASS_HIGH_FOR_STANDARD_ACORD_EXTRACTION_REQUIREMENT_MATCHING_EXPIRY_MONITORING_REMINDERS_AND_AUDIT_ASSEMBLY",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_THE_REPEATABLE_DOCUMENT_WORK_IS_DIRECTLY_SUBSTITUTABLE_BY_EXISTING_SPECIALIZED_SOFTWARE_OR_GENERIC_DOCUMENT_AGENTS_WHILE_NONSTANDARD_INTERPRETATION_REMAINS_EXPERT",
+      "verdict": "DEMOTED_STRONG_PARTICIPANT_AUTHORED_RECURRING_MANUAL_WORK_AND_INDEPENDENT_AUDIT_REQUIREMENT_BUT_THE_DETERMINISTIC_LAYER_IS_ALREADY_AN_EXACT_MATURE_AUTOMATION_CATEGORY_AND_THE_RESIDUAL_IS_EXPERT_OR_POLICY_SPECIFIC"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "GENERIC_EV_HOA_APPLICATION_COPILOT",
+      "excluded_reason": "EXCLUDE_MECHANISM_DOCUMENT_ORCHESTRATION_DOES_NOT_CREATE_HOA_COMMON_PROPERTY_ELECTRICAL_PERMITTING_OR_INSTALLATION_RIGHTS_AND_TURNKEY_MULTIFAMILY_CHARGING_INCUMBENTS_ALREADY_COVER_THE_REPEATABLE_LAYER"
+    },
+    {
+      "observation": "GENERIC_PACKAGE_TRACKING_RECONCILIATION_AGENT",
+      "excluded_reason": "EXCLUDE_MECHANISM_TRACKING_RECONCILIATION_DOES_NOT_CONTROL_CARRIER_DRIVER_BEHAVIOR_PROPERTY_ACCESS_OR_PHYSICAL_CHAIN_OF_CUSTODY"
+    },
+    {
+      "observation": "GENERIC_COI_CHASING_AGENT",
+      "excluded_reason": "EXCLUDE_MECHANISM_THE_EXACT_COLLECTION_EXTRACTION_RENEWAL_AND_AUDIT_WORKFLOW_IS_ALREADY_PRODUCTIZED_BY_MULTIPLE_CURRENT_SPECIALIZED_TOOLS_AND_GENERIC_AGENTS_CAN_SUBSTITUTE_FOR_THE_ROUTINE_DOCUMENT_LAYER"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "convenient_search_lens_became_ontology": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_paid_stack": false,
+    "direct_participant_authored_current_friction_required": true,
+    "independent_objective_corroboration_required": true,
+    "all_examined_formations_bind_direct_participant_evidence": true,
+    "all_examined_formations_bind_independent_objective_evidence": true,
+    "formation_diversity": "PASS_RESIDENTIAL_SHARED_INFRASTRUCTURE_MULTIFAMILY_LAST_METER_LOGISTICS_AND_CONSTRUCTION_B2B_COMPLIANCE",
+    "observed_indexing_bias": "PARTICIPANT_AUTHORED_SOURCES_SURFACE_REAL_OPERATIONAL_FRICTION_MORE_DIRECTLY_THAN_FORMAL_RULE_OR_VENDOR_TRANSITION_SEARCH_BUT_STRONG_FRICTION_STILL_OFTEN_SITS_AT_EXTERNALLY_CONTROLLED_PHYSICAL_RIGHTS_OR_INSIDE_AN_ALREADY_MATURE_EXACT_AUTOMATION_CATEGORY",
+    "response": "REPEAT_PARTICIPANT_AUTHORED_CURRENT_REALITY_SOURCE_SHIFT_IN_SCAN096_ON_A_FRESH_INDEPENDENT_SAMPLE_BEFORE_DERIVING_ANY_NEW_SIGNAL_OR_MECHANISM_BOUNDARY",
+    "participant_behavior_over_analyst_story": "PASS_ALL_THREE_START_FROM_CURRENT_FIRST_PERSON_PARTICIPANT_BEHAVIOR_AND_ARE_SEPARATELY_CORROBORATED_BY_LAW_OPERATOR_SURVEY_OR_INSURER_REQUIREMENTS"
+  },
+  "scan_learnings": [
+    "DIRECT_PARTICIPANT_AUTHORED_CURRENT_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_IS_A_STRONGER_REALITY_ENTRANCE_THAN_FORMAL_RULE_VENDOR_OR_PRODUCT_DOCUMENTS_ALONE",
+    "PARTICIPANT_PAIN_CAN_BE_HIGH_WHILE_DECISIVE_RIGHTS_REMAIN_EXTERNAL_TO_THE_PROPOSED_OPERATOR",
+    "MULTIFAMILY_EV_CHARGING_SHOWS_LEGAL_PERMISSION_AND_WILLINGNESS_TO_PAY_DO_NOT_REMOVE_PROPERTY_ELECTRICAL_PERMITTING_AND_PHYSICAL_INSTALLATION_CONTROL",
+    "MULTIFAMILY_PACKAGE_MANAGEMENT_SHOWS_REPEATED_REAL_HANDOFF_FAILURE_CAN_PERSIST_AFTER_HARDWARE_AND_SOFTWARE_ADOPTION_WHEN_EXTERNAL_CARRIER_BEHAVIOR_AND_PHYSICAL_CUSTODY_REMAIN_UNCONTROLLED",
+    "CONSTRUCTION_COI_TRACKING_SHOWS_DIRECTLY_AUTHORED_MANUAL_WORK_AND_REAL_AUDIT_STAKES_CAN_STILL_COLLAPSE_TO_A_MATURE_EXACT_AUTOMATION_CATEGORY",
+    "ONE_PARTICIPANT_AUTHORED_SOURCE_SHIFT_PASS_IS_NOT_ENOUGH_TO_DERIVE_A_NEW_MECHANISM_OR_EVIDENCE_FLOOR",
+    "SCAN096_SHOULD_REPEAT_THE_SAME_PARTICIPANT_AUTHORED_PLUS_OBJECTIVE_CORROBORATION_METHOD_ON_FRESH_FORMATIONS_BEFORE_ANY_FURTHER_SOURCE_SHIFT"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_096",
+  "next_search_boundary": "SECOND_INDEPENDENT_PARTICIPANT_AUTHORED_CURRENT_REALITY_SOURCE_SHIFT_REQUIRE_DIRECT_PARTICIPANT_RECORDED_UNDERUSE_CONTRADICTION_OR_MANUAL_STATE_TRANSFER_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_BEFORE_PRODUCT_OR_MECHANISM_SELECTION_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_095_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_CONTROL_SURFACE_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN095_WITH_CI_JEV_THEN_START_SCAN096_SECOND_INDEPENDENT_PARTICIPANT_AUTHORED_CURRENT_REALITY_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/HOA/comments/1qqp0rp/il_condo_hoa_refusing_ev_charger_despite_state/",
+    "https://www.reddit.com/r/HOA/comments/1u8zwna/drafting_rules_for_electric_car_charging_in_condo/",
+    "https://www.reddit.com/r/evcharging/comments/1w5gyj0/hoa_not_permitting_charger_installation_in/",
+    "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4407&Chapter=PROPERTY&ChapterID=62&MajorTopic=RIGHTS+AND+REMEDIES",
+    "https://www.chargepoint.com/solutions/condos",
+    "https://evercharge.com/solutions/multi-family",
+    "https://evercharge.com/content-case-study-evercharge-maximizes-ev-charging-at-luxury-minneapolis-condominium-building-the-legacy",
+    "https://www.reddit.com/r/Apartmentliving/comments/1ua6737/missing_packages/",
+    "https://www.reddit.com/r/problems/comments/1w3c3ez/my_apartments_package_room_keeps_losing/",
+    "https://www.reddit.com/r/AmazonFlexDrivers/comments/1s2i7hv/officially_hate_luxury_apartments_parcel_lockers/",
+    "https://insightsbyblueprint.com/2026/05/18/a-framework-for-solving-multifamilys-package-management-problem/",
+    "https://www.parcelpending.com/en-us/blog/centralized-property-operations/",
+    "https://www.parcelpending.com/en-us/blog/differences-between-lockers-and-package-rooms/",
+    "https://www.reddit.com/r/GeneralContractor/comments/1vbuka1/contractors_in_2026_how_are_you_handling_subs_for/",
+    "https://www.reddit.com/r/GeneralContractor/comments/1p50he5/couple_problem_im_dealing_with_or_need_to_anyway/",
+    "https://www.thehartford.com/workers-compensation/audit",
+    "https://www.travelers.com/business-insurance/services/premium-audit/workers-compensation-premium-audit",
+    "https://coisoftware.com/",
+    "https://coiwatch.com/",
+    "https://concoi.com/",
+    "https://www.wardly.ai/",
+    "https://vendorcover.com/solutions/construction"
+  ]
+}
