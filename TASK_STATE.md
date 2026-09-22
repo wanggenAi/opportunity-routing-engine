@@ -67,7 +67,7 @@ PR #366 repository CI run `35676490926` completed `success`. Live Jev run `35676
 
 ## Active PR
 
-None yet for Scan 069. Live GitHub state is authoritative.
+#367 — `Test concurrent supplier routing in Scan 069`. Live GitHub state is authoritative.
 
 ## CI
 
