@@ -3,17 +3,13 @@
 Operational handoff only. GitHub live state wins if anything below conflicts with repository facts.
 
 ## Current Mission
+\nReach the first real external value flow while keeping discovery formation-diverse and validation independent.
 
-Reach the first real external value flow while keeping discovery formation-diverse and validation independent.
+Scan 076 completed the stronger **post-replacement / post-go-live separate recurring paid residual-spend** test. Six unrelated operating domains were examined: Workday AMS, ArcGIS managed services, Salesforce/MuleSoft managed services, SAP S/4HANA AMS, ChargePoint EV-charging lifecycle support and building-management-system lifecycle service.
 
-Scan 075 completed a **buyer-initiated paid-incumbent exit / replacement** pass after Scans 073–074 showed that ordinary procurement and renewal over-select mature categories. The stronger signal was real: buyers documented unresolved operational or capability failures and actually moved replacement budget.
+The recurring money motion is real, but none of the six samples establishes the required causal chain that a new/replacement platform is already live, the **same target outcome remains unresolved**, and that unresolved outcome therefore causes a distinct recurring residual contract. The observed spend instead resolves mainly into mature AMS/partner support, OEM lifecycle service, or physical/site-specific maintenance.
 
-Six unrelated operating domains were examined — higher-ed student conduct case management, parks/recreation management, crematorium/cemetery software, municipal website/CMS, wastewater SCADA and municipal 311 CRM. None survived the commercial floor.
-
-The recurring pattern changed again: even when the buyer rejects the incumbent, replacement spend mostly moves horizontally to another complete platform or integrator that directly owns the missing control surface. Residual value is implementation/migration, high-stakes accountable judgment, public authority or physical/site-specific execution.
-
-Scan 076 therefore raises the evidence floor to **post-replacement separate recurring paid residual spend for the same unresolved outcome after the new platform/provider is already installed**. One-time implementation, migration, training, temporary transition support, authority-only, expert-only and physical-only tails are excluded.
-
+Scan 077 therefore raises the evidence floor to **explicit buyer-authored post-replacement causality**: live replacement + same unresolved outcome + separate recurring paid residual contract, while excluding ordinary AMS/OEM/maintenance/monitoring/enhancement/training/transition and authority/expert/physical lifecycle tails.\n
 ## Goal
 
 Reach the first real external value flow through a formation that survives participant pull, discoverability,
@@ -21,79 +17,49 @@ machine-executable delivery, founder-independence, operator control, evidenced e
 surface absorption pressure.
 
 ## Current Unique Commercial Research Goal
-
-Validation queue:
+\nValidation queue:
 - `ATTRACTION_SCAN_015-F1` — written cross-rail outcome-data rights + organic founder-free inbound intent.
 
 Resolved recently:
 - `ATTRACTION_SCAN_073` — zero retention after first buyer-side non-role procurement/renewal pass.
-- `ATTRACTION_SCAN_074` — zero retention after second independent procurement/renewal pass; formal procurement shown to over-select mature named categories.
-- `ATTRACTION_SCAN_075` — zero retention after actual paid-incumbent exit/replacement signals; stronger buyer dissatisfaction and replacement budget still moved horizontally to mature replacement platforms/integrators.
+- `ATTRACTION_SCAN_074` — zero retention after second independent procurement/renewal pass.
+- `ATTRACTION_SCAN_075` — zero retention after paid-incumbent exit/replacement signals.
+- `ATTRACTION_SCAN_076` — zero retention after post-replacement recurring-residual-spend causal test; recurring spend mostly resolved into mature AMS/OEM/physical lifecycle support without a buyer-authored same-unresolved-outcome chain.
 
 Discovery queue:
-- `ATTRACTION_SCAN_076 — BROAD_CURRENT_BUYER_SIDE_POST_REPLACEMENT_SEPARATE_RECURRING_PAID_RESIDUAL_SPEND_FOR_THE_SAME_UNRESOLVED_OUTCOME_AFTER_A_NEW_PLATFORM_OR_PROVIDER_IS_ALREADY_INSTALLED_FORMATION_DIVERSE_EXCLUDE_ROUTINE_IMPLEMENTATION_MIGRATION_TRAINING_TRANSITION_SUPPORT_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_TAILS_EXCLUDE_SCAN060_TO_075_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
+- `ATTRACTION_SCAN_077 — BROAD_CURRENT_BUYER_AUTHORED_POST_REPLACEMENT_OR_POST_GO_LIVE_UNRESOLVED_OUTCOME_CAUSAL_CHAIN_PLUS_SEPARATE_RECURRING_PAID_RESIDUAL_CONTRACT_FORMATION_DIVERSE_REQUIRE_EXPLICIT_EVIDENCE_THAT_THE_NEW_PLATFORM_OR_PROVIDER_IS_LIVE_AND_THE_SAME_OUTCOME_REMAINS_UNRESOLVED_EXCLUDE_STANDARD_OEM_PARTNER_AMS_MAINTENANCE_MONITORING_ENHANCEMENT_TRAINING_TRANSITION_AUTHORITY_ONLY_EXPERT_ONLY_AND_PHYSICAL_ONLY_LIFECYCLE_SERVICES_EXCLUDE_SCAN060_TO_076_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_FOUNDER_INDEPENDENCE_DATA_ACTION_RIGHTS_NORMALIZED_MARGIN_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION`.
 
-ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.
-
+ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN.\n
 ## Current Phase
-
-`SCAN_075_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
-
+\n`SCAN_076_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`\n
 ## Last Verified Main
+\n`d9933f5275d49fc3897f7ecbfcc3417cdd334140`
+— squash merge of PR #373, `Raise buyer evidence to post-replacement residual spend after Scan 075`.
 
-`8aba3b2fe92f75788867514b9038d5eaf4d64e65`
-— squash merge of PR #372, `Escalate buyer evidence after Scan 074`.
-
-PR #372 repository CI run `35680716107` completed `success`. Live Jev run `35680716101` completed `success`: 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`. The live job explicitly confirmed `TYPESAFE_API_KEY is available; requiring a real Jev success`.
-
+PR #373 repository CI run `35681430579` completed `success`. Live Jev run `35681430581` completed `success`: TypeSafe SDK `0.7.0` ran with `TYPESAFE_API_KEY` present; 6/6 model and effective routes were `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, and `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.\n
 ## Active Issue
 
 #143 — `P0: Clean-slate Attraction Field → first external value flow`.
 
 ## Active Branch
-
-`research/attraction-scan-075`.
-
+\n`research/attraction-scan-076`.\n
 ## Active PR
-
-#373 — `Raise buyer evidence to post-replacement residual spend after Scan 075`. Live GitHub state is authoritative.
-
+\n#374 — `Require buyer-authored post-replacement causality after Scan 076`. Live GitHub state is authoritative.\n
 ## CI
-
-- PR #373 checks are pending at this checkpoint.
-- PR #372 repository CI run `35680716107` completed `success`.
-- PR #372 live Jev run `35680716101` completed `success`; real TypeSafe/Jev execution returned 6/6 `NO_FURTHER_RESEARCH`, failed=0 and `ADVANCE_TO_NEXT_SCAN`.
-
-- PR #372 checks are pending at this checkpoint.
-- PR #371 repository CI run `35680299655` completed `success`.
-- PR #371 live Jev run `35680299857` completed `success`; real TypeSafe/Jev execution returned 6/6 `NO_FURTHER_RESEARCH`, failed=0 and `ADVANCE_TO_NEXT_SCAN`.
-
-- PR #371 checks are pending at this checkpoint.
-- PR #370 repository CI run `35679606370` completed `success`.
-- PR #370 live Jev run `35679606374` completed `success`; real TypeSafe/Jev execution returned 6/6 `NO_FURTHER_RESEARCH`, failed=0 and `ADVANCE_TO_NEXT_SCAN`.
-
-- Initial PR #344 CI run `35596456983` completed `success`.
-- Initial PR #344 Jev run `35596456992` completed `success`; 5 authoritative closures routed `NO_FURTHER_RESEARCH`, the one then-open F1 routed `CAUSAL_DESCENT`, and continuation returned `EXECUTE_RESEARCH_QUEUE`. That directive directly caused the F1 cheap falsification now persisted.
-
-- PR #331 repository CI run `35564919130` completed `success`.
-- Jev Phase 1 run `35564919132` completed `success`; contracts and live-shadow both passed.
-- PR #332 repository CI run `35565385235` completed `success`.
-- Jev Phase 2 run `35565385231` completed `success`; contracts and live-shadow both passed.
-- The commercial repository has `TYPESAFE_API_KEY`; both calibrations used real Jev rather than `SKIPPED_NO_SECRET`.
-
+\n- PR #374 repository CI and live Jev are pending after the current Scan 076 checkpoint update.
+- PR #373 repository CI run `35681430579` completed `success`.
+- PR #373 live Jev run `35681430581` completed `success`; real TypeSafe/Jev execution used `typesafe-sdk==0.7.0`, evaluated 6 entities, returned 6/6 `NO_FURTHER_RESEARCH`, failed=0, and authorized `ADVANCE_TO_NEXT_SCAN`.\n
 ## Latest Artifact / Persisted State
-
-New:
-- `data/research_runs/attraction_scan_075.json`
-- `docs/research/ATTRACTION_SCAN_075_2026-09-22.md`
-- `tests/test_attraction_scan_075_paid_incumbent_exit_gate.py`
+\nNew:
+- `data/research_runs/attraction_scan_076.json`
+- `docs/research/ATTRACTION_SCAN_076_2026-09-22.md`
+- `tests/test_attraction_scan_076_post_replacement_residual_gate.py`
 
 Updated:
 - `data/commercial_reset_state.json`
 - `TASK_STATE.md`
 
-Persisted state records `ATTRACTION_SCAN_075` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_076` as a post-replacement recurring residual-spend test rather than a new mechanism boundary.
-
+Persisted state records `ATTRACTION_SCAN_076` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_077` as an explicit buyer-authored post-replacement unresolved-outcome causal test rather than a new mechanism boundary.\n
 ## Completed
 
 Scan 035 kept direct payer/repeated-workaround evidence and removed obvious recurring-human/physical delivery
@@ -111,27 +77,24 @@ Results:
 - FIRST_EXTERNAL_VALUE_FLOW remains `NOT_PROVEN`.
 
 ## Current Findings
-
-Scan 075 establishes:
+\nScan 076 establishes:
 
 ```text
-PAID INCUMBENT
-→ DOCUMENTED OPERATIONAL FAILURE / CAPABILITY GAP
-→ BUYER MOVES REPLACEMENT BUDGET
-→ MONEY STILL MOVES HORIZONTALLY TO ANOTHER COMPLETE PLATFORM / INTEGRATOR
-→ RESIDUAL = IMPLEMENTATION / ACCOUNTABLE JUDGMENT / AUTHORITY / PHYSICAL EXECUTION
+NEW / REPLACEMENT PLATFORM IS LIVE
+→ RECURRING THIRD-PARTY OR OEM SPEND CONTINUES
+!=
+SAME BUSINESS OUTCOME REMAINS UNRESOLVED
 ```
 
-Scan 075 closes:
-- UNM Advocate -> Maxient — decade-long incumbent rejected for workflow/reporting gaps, but Maxient is another complete vertical case platform and high-stakes conduct judgment stays with the university;
-- Paradise Sportsman -> RecOS — workarounds/admin burden/user friction are explicit, but RecOS directly consolidates the fragmented registration/scheduling/reporting/payment loop;
-- Mansfield BACAS -> PlotBox — buyer explicitly rejected incumbent upgrade because it would not resolve current operational issues, but PlotBox already owns the complete vertical replacement;
-- Muskegon Envigor -> GovStack — accessibility and current digital-service gaps trigger replacement spend, but the new CMS directly owns content/forms/search/integration;
-- Anderson prior SCADA contractor -> Southern Flow — provider performance/support failure moves $751,841, but residual value is site-specific OT engineering, commissioning and safety-critical physical control;
-- San Ramon GovQA -> Catalis Request311 — a real replacement event exists, but public buyer failure-causality/final-budget evidence is incomplete, so fail-closed applies; independently the selected replacement already owns the standard 311 workflow.
+The six samples close as follows:
+- Olathe Workday AMS — real multi-year post-production spend, but it buys mature Workday-specific integration, maintenance, deployment and troubleshooting expertise.
+- MPI ArcGIS managed services — a new ArcGIS-on-Azure platform has separate monitoring/maintenance/support, but no buyer-authored evidence says the same pre-replacement business outcome remains unresolved.
+- Humberside Salesforce/MuleSoft — recurring L1-L3 application support, monitoring, code changes and service management are a mature managed-service category.
+- Saskatoon SAP S/4HANA AMS — recurring specialist support is explicit, but again is standard SAP lifecycle operations rather than an independent unresolved-outcome layer.
+- DLA ChargePoint — recurring maintenance/network/cybersecurity spend is OEM-bound, certified-technician/physical/compliance work.
+- Perth & Kinross BMS — upgrade/improvement/servicing/maintenance are bundled into one site-specific lifecycle contract, failing the separate-residual gate.
 
-Scan 076 requires separate recurring paid residual spend **after replacement** for the same unresolved outcome. Routine implementation/migration/training/transition and authority/expert/physical tails do not qualify.
-
+Scan 077 therefore requires the missing causal fact: the buyer itself must document that the replacement is live, the same outcome is still unresolved, and that remaining failure causes a separate recurring paid residual contract.\n
 ## Validation Status
 
 Scan 015-F1 remains the only retained validation beacon.
@@ -141,31 +104,30 @@ Scan 015-F1 remains the only retained validation beacon.
 - Next decisive evidence remains actual written provider response/agreement plus founder-free inbound proof.
 
 ## Blockers
-
-Validation:
+\nValidation:
 - Scan 015-F1 awaits written provider response and organic founder-free inbound evidence.
 - No response remains neither a pass nor a denial.
 
 Engineering:
 - No current Jev integration blocker.
-- Jev remains advisory and non-commercial; `automatic_research_execution_by_jev=false`.
-- PR #373 CI/live Jev must validate the Scan 075 checkpoint before merge.
+- PR #374 repository CI/live Jev must validate the Scan 076 checkpoint before merge.
 
 Discovery:
-- Scan 075 is complete with zero retained formations and zero commercial promotions.
-- Actual paid-incumbent exit is stronger evidence than renewal, but observed replacement spend still resolves into mature replacement control surfaces.
-- Scan 076 must require a second, separate recurring paid layer after replacement for the same still-unresolved outcome.
-- One-time implementation, migration, training, transition, authority-only, expert-only and physical-only residuals are excluded.
+- Scan 076 is complete with zero retained formations and zero commercial promotions.
+- Recurring post-live spend alone is insufficient because current samples resolve into mature AMS/OEM/physical lifecycle categories.
+- Scan 077 must require explicit buyer-authored same-unresolved-outcome causality after the replacement is demonstrably live.
 
 Commercial:
 - ACTIVE COMMERCIAL CANDIDATES = 0.
-- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN.
-
+- FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN.\n
 ## Next Action
-
-Run PR #373 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN` after green checks, merge, verify main, and start Scan 076 from post-replacement separate recurring paid residual spend without deriving a mechanism ontology.
-
+\nRun PR #374 repository CI and live Jev, consume the continuation directive, and continue automatically. If Jev returns `ADVANCE_TO_NEXT_SCAN` after green checks, merge, verify main, and start Scan 077 from explicit buyer-authored post-replacement unresolved-outcome causality without deriving a mechanism ontology.\n
 ## Do Not Repeat
+
+- Do not promote Workday AMS, ArcGIS managed services, Salesforce/MuleSoft managed services, SAP AMS, ChargePoint OEM lifecycle support or BMS lifecycle maintenance from Scan 076.
+- Do not equate a second recurring provider after go-live with unresolved-outcome white space; require buyer-authored causality tying the spend to the same target outcome that remains unresolved.
+- Do not count ordinary AMS, OEM/partner support, monitoring, maintenance, enhancement, training, transition, authority-only, expert-only or physical-only lifecycle service as the Scan 077 residual contract.
+- Do not derive a mechanism requirement from Scan 076; Scan 077 strengthens causal evidence only.
 
 - Do not promote generic student-conduct case management, recreation-management software, crematorium/cemetery software, municipal CMS, wastewater SCADA integration or municipal 311 CRM from Scan 075.
 - Do not equate actual incumbent exit with white space if replacement money simply moves to another complete platform or integrator.
