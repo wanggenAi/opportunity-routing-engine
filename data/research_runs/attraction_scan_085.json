@@ -1,0 +1,147 @@
+{
+  "schema_version": "attraction-scan.v61",
+  "scan_id": "ATTRACTION_SCAN_085",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "PARTICIPANT_AUTHORED_CONTROL_SURFACE_BYPASS_FIRST_FORMATION_DIVERSE_MANUAL_OR_OFF_PLATFORM_COMPLETION_DESPITE_AVAILABLE_EXACT_CONTROL_SURFACE_REQUIRE_EXPLICIT_PARTICIPANT_STATED_BYPASS_OR_INCOMPLETENESS_REASON_REPEATED_A_B_VALUE_TRANSFER_REPLENISHING_POPULATIONS_EXCLUDE_SCAN060_TO_084_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_085-F1",
+      "title": "RESTAURANT_DIRECT_ORDER_AFTER_THIRD_PARTY_MARKETPLACE_DISCOVERY",
+      "chinese_title": "餐厅在第三方外卖平台存在时仍引导顾客直接下单",
+      "evidence_class": "PARTICIPANT_AUTHORED_ECONOMIC_BYPASS_OF_EXISTING_FOOD_ORDERING_CONTROL_SURFACE",
+      "actor_a_population": "Independent restaurants repeatedly selling prepared meals through direct and third-party ordering channels.",
+      "actor_b_population": "Local diners repeatedly purchasing pickup or delivery meals and able to choose marketplace or restaurant-direct channels.",
+      "available_exact_control_surface": [
+        "DoorDash Marketplace currently provides restaurant discovery, ordering, payment, support and Dasher delivery.",
+        "DoorDash currently charges U.S. restaurant delivery commission rates of 15%, 25% or 30% by Marketplace plan and 6% for pickup.",
+        "DoorDash also provides commission-free Online Ordering on restaurant-owned channels, with payment processing and optional DoorDash delivery."
+      ],
+      "participant_authored_manual_or_off_platform_completion": [
+        "A November 2025 New York restaurant owner explicitly asked customers to order directly from restaurant websites and linked the request to platform fees, discounts, rent and difficulty making a living.",
+        "A September 2025 restaurant-owner discussion states that takeout-focused restaurants do use their own ordering sites while delivery often returns to platform logistics because drivers and commercial insurance are burdensome."
+      ],
+      "explicit_participant_bypass_or_incompleteness_reason": [
+        "Marketplace commission and discount economics can erase restaurant margin on repeat orders.",
+        "Direct ordering improves retained margin, while self-delivery creates staffing, insurance and service-area burdens."
+      ],
+      "repeated_bilateral_value_transfer": "PASS_RESTAURANT_TO_DINER_ORDER_PAYMENT_AND_FULFILLMENT_RECUR_REPEATEDLY",
+      "exact_incumbent_and_control_surface_preflight": [
+        "The incumbent itself already separates discovery from direct repeat ordering: Marketplace acquires customers and DoorDash Online Ordering supports commission-free direct orders.",
+        "Drive On-Demand and existing restaurant POS/order systems already provide a callable delivery or fulfillment layer for direct-channel orders."
+      ],
+      "founder_independence_check": "PASS_FOR_EXISTING_DIRECT_ORDERING_AND_DELIVERY_RAILS_BUT_NO_DISTINCT_NEW_FOUNDER_INDEPENDENT_OPERATOR_ASSET_IS_EVIDENCED",
+      "data_action_rights_check": "PASS_RESTAURANTS_CONTROL_THEIR_OWN_MENU_DIRECT_CHANNEL_AND_CUSTOMER_ORDER_ACCEPTANCE_WHILE_DOORDASH_CONTROLS_MARKETPLACE_DISCOVERY_AND_DASHER_LOGISTICS",
+      "normalized_margin_check": "FAIL_FOR_DISTINCT_NEW_OPERATOR_WHITE_SPACE_BYPASS_IS_PRIMARILY_CHANNEL_ECONOMICS_AND_INCUMBENT_ALREADY_OFFERS_THE_DIRECT_CHANNEL",
+      "machine_delegatability_check": "PASS_ORDERING_PAYMENT_POS_SYNC_AND_DELIVERY_DISPATCH_CAN_BE_MACHINE_EXECUTED",
+      "generic_agent_substitutability_check": "PARTIAL_GENERIC_AGENT_CAN_BUILD_OR_OPERATE_BASIC_DIRECT_ORDERING_BUT_CANNOT_SUPPLY_MARKETPLACE_DEMAND_OR_LAST_MILE_NETWORK; CURRENT PRODUCTS_ALREADY_OWN_BOTH_SIDES",
+      "verdict": "DEMOTED_REAL_PARTICIPANT_AUTHORED_FEE_BYPASS_BUT_INCUMBENT_AND_EXISTING_DIRECT_ORDERING_RAILS_ALREADY_RESOLVE_THE_CHANNEL_SPLIT_WITHOUT_A_DISTINCT_NEW_OPERATOR_EDGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_085-F2",
+      "title": "OFF_PLATFORM_TICKET_PRICE_AND_PAYMENT_WITH_OFFICIAL_DIGITAL_TRANSFER",
+      "chinese_title": "演出票在平台外议价付款后使用官方数字转票完成交付",
+      "evidence_class": "PARTICIPANT_AUTHORED_OFF_PLATFORM_SALE_WITH_PLATFORM_CONTROLLED_ASSET_TRANSFER",
+      "actor_a_population": "Ticket holders repeatedly needing to resell transferable event inventory they can no longer use.",
+      "actor_b_population": "Fans repeatedly seeking event tickets and willing to transact directly when price, fees or listing constraints differ from marketplace terms.",
+      "available_exact_control_surface": [
+        "Ticketmaster currently offers official ticket resale when an event or ticket is eligible and collects a seller service fee from the selling price.",
+        "Ticketmaster Ticket Transfer can move eligible tickets directly to another fan and issues the recipient a new barcode; transfer itself is free."
+      ],
+      "participant_authored_manual_or_off_platform_completion": [
+        "A June 2026 Reddit ticket marketplace thread contains many direct buyer/seller listings using DM, PayPal, Venmo, escrow or in-person settlement while fulfillment occurs through an official ticket-transfer rail.",
+        "One seller explicitly says the asking price was reduced to counteract Ticketmaster fees; another accepts Venmo or PayPal for a direct sale, and other sellers state they will transfer through the official purchase platform."
+      ],
+      "explicit_participant_bypass_or_incompleteness_reason": [
+        "Participants explicitly cite Ticketmaster fees as a reason to change price or transact outside the official resale marketplace.",
+        "Ticketmaster itself states resale eligibility is controlled by artists, teams and venues and is unavailable for some events or ticket types, while transfer eligibility is also event-controlled."
+      ],
+      "repeated_bilateral_value_transfer": "PASS_SELLER_TO_BUYER_PAYMENT_AND_TICKET_TRANSFER_RECUR_ACROSS_EVENTS_AND_FAN_POPULATIONS",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Ticketmaster already owns official resale for eligible inventory and the authoritative transfer/barcode rail for many events.",
+        "Alternative resale marketplaces, direct links, escrow/payment tools and in-person settlement already compete around the same trust and fee boundary."
+      ],
+      "founder_independence_check": "PARTIAL_DISCOVERY_PAYMENT_AND_ESCROW_CAN_BE_PRODUCTIZED_BUT_AUTHORITATIVE_TICKET_RIGHTS_AND_TRANSFER_ELIGIBILITY_REMAIN_EVENT_PLATFORM_CONTROLLED",
+      "data_action_rights_check": "PARTIAL_PASS_ONLY_FOR_TRANSFER_ELIGIBLE_TICKETS; ORGANIZERS_AND_PRIMARY_TICKETING_SYSTEMS_CONTROL_RESALE_TRANSFER_AND_BARCODE_RIGHTS",
+      "normalized_margin_check": "FAIL_FOR_DISTINCT_NEW_OPERATOR_WHITE_SPACE_FEE_AVOIDANCE_SHIFTS_TRUST_FRAUD_CHARGEBACK_AND_GUARANTEE_COSTS_TO_OTHER_MATURE_RAILS",
+      "machine_delegatability_check": "PARTIAL_LISTING_MATCHING_PAYMENT_AND_ESCROW_ARE_MACHINE_EXECUTABLE_BUT_FINAL_ASSET_TRANSFER_DEPENDS_ON_PRIMARY_PLATFORM_RIGHTS",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CANNOT_CREATE_VALID_TICKET_RIGHTS_OR_GUARANTEE_OWNERSHIP_AND_SETTLEMENT_WITHOUT_PRIVILEGED_PLATFORM_OR_ESCROW_ASSETS",
+      "verdict": "DEMOTED_REAL_OFF_PLATFORM_SALE_AND_FEE_BYPASS_BUT_AUTHORITATIVE_TRANSFER_RIGHTS_AND_TRANSACTION_TRUST_REMAIN_OWNED_BY_PRIMARY_TICKETING_AND_MATURE_PAYMENT_RESALE_RAILS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_085-F3",
+      "title": "AIRLINE_ITINERARY_CHANGE_ESCALATED_FROM_SELF_SERVICE_TO_PHONE_AGENT",
+      "chinese_title": "航空行程在线自助改签失败后转人工电话完成票务变更",
+      "evidence_class": "PARTICIPANT_AUTHORED_MANUAL_COMPLETION_AFTER_EXACT_SELF_SERVICE_CONTROL_SURFACE_FAILURE",
+      "actor_a_population": "Air travelers repeatedly needing voluntary or schedule-change itinerary modifications before departure.",
+      "actor_b_population": "Airline seat inventory and ticketing operations repeatedly re-accommodating or repricing eligible passenger itineraries.",
+      "available_exact_control_surface": [
+        "Delta currently states that customers can change or cancel eligible flights through My Trips on delta.com.",
+        "The self-service flow is designed to apply ticket credit, show new options and collect any fare difference."
+      ],
+      "participant_authored_manual_or_off_platform_completion": [
+        "An April 2026 traveler reports Delta's website showed a selected replacement flight as sold out and the app also errored, while the same inventory remained publicly sellable; after web chat failed, a phone agent completed the change.",
+        "The same thread contains another traveler reporting repeated inability to modify partially flown international multi-city tickets online and reliance on phone or chat agents for completion."
+      ],
+      "explicit_participant_bypass_or_incompleteness_reason": [
+        "The participant could not complete an international itinerary change through the website or app despite the official self-service control surface and available inventory.",
+        "The agent path was needed because itinerary linkage, fare/ticket reconstruction and post-travel ticket state exceeded what self-service exposed."
+      ],
+      "repeated_bilateral_value_transfer": "PASS_TRAVELER_TO_AIRLINE_ITINERARY_CHANGE_AND_REISSUE_FLOW_RECURS_ACROSS_RESERVATIONS_AND_SCHEDULE_CHANGES",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Delta already owns My Trips, fare inventory, ticket credit, reissue authority and customer-service agent tooling.",
+        "The manual residual is an exception path inside the incumbent's privileged ticketing system rather than an open independent action rail."
+      ],
+      "founder_independence_check": "FAIL_FOR_INDEPENDENT_OPERATOR_THE_DECISIVE_REISSUE_EXCEPTION_STILL_REQUIRES_AIRLINE_OR_AUTHORIZED_TICKETING_RIGHTS",
+      "data_action_rights_check": "FAIL_INDEPENDENT_OPERATOR_CANNOT_OVERRIDE_FARE_RULES_REBUILD_TICKETS_OR_COMMIT_AIRLINE_INVENTORY_WITHOUT_PRIVILEGED_AUTHORIZATION",
+      "normalized_margin_check": "FAIL_NO_DISTINCT_RECURRING_EXTERNAL_PAYER_FOR_AN_INDEPENDENT_EXCEPTION_OPERATOR_IS_EVIDENCED",
+      "machine_delegatability_check": "PARTIAL_EXCEPTION_DIAGNOSIS_CAN_BE_AUTOMATED_BUT_FINAL_REISSUE_AND_RULE_OVERRIDE_REMAIN_PRIVILEGED",
+      "generic_agent_substitutability_check": "PASS_GENERIC_AGENT_CAN_NAVIGATE_PUBLIC_SELF_SERVICE_BUT_CANNOT_EXERCISE_AIRLINE_TICKETING_PRIVILEGES_WHEN_SELF_SERVICE_FAILS",
+      "verdict": "DEMOTED_STRONG_FUNCTIONAL_CONTROL_SURFACE_BYPASS_EVIDENCE_BUT_THE_RESIDUAL_IS_A_PRIVILEGED_INCUMBENT_TICKETING_EXCEPTION_NOT_AN_OPEN_OPERATOR_CONTROL_EDGE"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "inherited_mechanism_as_requirement": false,
+    "discovery_started_from_participant_authored_bypass": true,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "formation_diversity": "PASS_RESTAURANT_COMMERCE_EVENT_TICKET_RESALE_AND_AIRLINE_TICKETING",
+    "participant_behavior_over_analyst_story": "PASS_ALL_THREE_FORMATIONS_START_FROM_PARTICIPANT_REPORTED_BYPASS_OR_MANUAL_COMPLETION_AND_EXPLICIT_REASON",
+    "first_pass_signal_assessment": "PARTICIPANT_AUTHORED_BYPASS_IS_STRONGER_THAN_VISIBLE_BILATERAL_FLOW_BECAUSE_IT_REVEALS_A_RESIDUAL_AFTER_AN_EXACT_CONTROL_SURFACE_EXISTS_BUT_ONE_PASS_IS_NOT_ENOUGH_TO_DERIVE_A_NEW_MECHANISM_OR_EVIDENCE_SOURCE",
+    "response": "RUN_A_SECOND_INDEPENDENT_FORMATION_DIVERSE_PARTICIPANT_AUTHORED_BYPASS_PASS_BEFORE_ESCALATING_THE_SIGNAL; RECORD_BYPASS_REASON_CLASS_WITHOUT_REQUIRING_A_PRESELECTED_CLASS"
+  },
+  "scan_learnings": [
+    "PARTICIPANT_AUTHORED_BYPASS_IS_A_STRONGER_RESIDUAL_SENSOR_THAN_BILATERAL_FLOW_ALONE_BECAUSE_THE_PARTICIPANT_HAS_ALREADY_TESTED_OR_REJECTED_AN_AVAILABLE_CONTROL_SURFACE",
+    "FEE_AND_COMMISSION_AVOIDANCE_CAN_CREATE_REAL_OFF_PLATFORM_FLOW_WITHOUT_CREATING_AN_UNOWNED_CONTROL_EDGE_WHEN_DIRECT_ORDERING_PAYMENT_TRANSFER_OR_DELIVERY_RAILS_ARE_ALREADY_MATURE",
+    "OFF_PLATFORM_TICKET_SALES_CAN_SPLIT_DISCOVERY_AND_PAYMENT_FROM_AUTHORITATIVE_ASSET_TRANSFER_BUT_PRIMARY_TICKETING_SYSTEMS_STILL_OWN_VALIDITY_TRANSFER_ELIGIBILITY_AND_BARCODE_RIGHTS",
+    "SELF_SERVICE_FAILURE_CAN_PRODUCE_STRONG_MANUAL_COMPLETION_EVIDENCE_WHILE_THE_RESIDUAL_REMAINS_A_PRIVILEGED_EXCEPTION_PATH_INSIDE_THE_INCUMBENT",
+    "BYPASS_REASON_MUST_BE_TYPED_AS_ECONOMIC_FUNCTIONAL_POLICY_RIGHTS_TRUST_OR_OTHER_OBSERVED_CAUSE_BEFORE_INFERRING_WHITE_SPACE",
+    "ONE_PARTICIPANT_AUTHORED_BYPASS_PASS_IS_INSUFFICIENT_TO_DERIVE_A_NEW_MECHANISM_OR_CHANGE_EVIDENCE_SOURCE",
+    "SCAN086_SHOULD_RUN_A_SECOND_INDEPENDENT_FORMATION_DIVERSE_PARTICIPANT_AUTHORED_CONTROL_SURFACE_BYPASS_PASS"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_086",
+  "next_search_boundary": "SECOND_INDEPENDENT_PARTICIPANT_AUTHORED_OFF_PLATFORM_OR_MANUAL_BILATERAL_COMPLETION_DESPITE_AVAILABLE_EXACT_CONTROL_SURFACE_PASS_REQUIRE_REPEATED_A_B_VALUE_TRANSFER_REPLENISHING_POPULATIONS_AND_EXPLICIT_PARTICIPANT_STATED_BYPASS_OR_INCOMPLETENESS_REASON_RECORD_REASON_CLASS_BEFORE_PRODUCT_CATEGORY_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_EXCLUDE_SCAN060_TO_085_FORMATIONS_AND_PRIMARY_SIGNALS_NO_MECHANISM_INHERITANCE_CURRENT_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_START_SCAN086_SECOND_INDEPENDENT_PARTICIPANT_AUTHORED_CONTROL_SURFACE_BYPASS_PASS_IF_JEV_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/FoodNYC/comments/1pat9de/disgruntled_owner_pleading_with_you_to_order/",
+    "https://www.reddit.com/r/restaurantowners/comments/1num9zq/are_the_food_ordering_platform_fees_too_much/",
+    "https://merchants.doordash.com/en-us/pricing",
+    "https://merchants.doordash.com/en-us/products/online-ordering",
+    "https://www.reddit.com/r/Tickets/comments/1uhwq2j/tickets_buysell_megathread_jun_28_2026/",
+    "https://help.ticketmaster.com/hc/en-us/articles/9672915828881-How-do-I-sell-tickets",
+    "https://help.ticketmaster.com/hc/en-us/articles/9612097694481-How-do-I-transfer-tickets-",
+    "https://www.reddit.com/r/delta/comments/1syy7r0/changing_international_flight_do_i_need_to_talk/",
+    "https://www.delta.com/us/en/change-cancel/how-to-cancel-or-change-your-flight"
+  ]
+}
