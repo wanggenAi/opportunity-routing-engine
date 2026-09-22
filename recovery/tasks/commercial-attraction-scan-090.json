@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "generation": 1,
+  "repository": "wanggenAi/opportunity-routing-engine",
+  "status": "IN_PROGRESS",
+  "task_key": "commercial-attraction-scan-090",
+  "stage": "SCAN_090_RESEARCH",
+  "last_observed_main_sha": "6278ac6e6f80ecfb0764d65d6fffc07535d4afe3",
+  "work_branch": "research/attraction-scan-090",
+  "work_head_sha": "6278ac6e6f80ecfb0764d65d6fffc07535d4afe3",
+  "active_pr": null,
+  "ci": {
+    "run_id": null,
+    "head_sha": null,
+    "status": "NOT_STARTED",
+    "conclusion": null
+  },
+  "production_or_artifact": {
+    "status": "NOT_APPLICABLE",
+    "evidence": [
+      "PR387_MERGED_MAIN_6278AC6E",
+      "PR387_JEV_ADVANCE_TO_NEXT_SCAN"
+    ]
+  },
+  "pending_operation": null,
+  "health": {
+    "recovery": "HEALTHY",
+    "last_error": null
+  },
+  "completed": [
+    "SCAN_089_MERGED",
+    "SCAN_090_BRANCH_STARTED"
+  ],
+  "next_action": "Execute second independent formation-diverse paid cross-component coordination pass, persist Scan 090, open PR, validate CI/Jev.",
+  "do_not_repeat": [
+    "Do not repeat Scan 089 Seats.aero award-search coordination.",
+    "Do not repeat Scan 089 Monarch multi-institution aggregation.",
+    "Do not repeat Scan 089 HealthFit/RunGap workout-data synchronization.",
+    "Do not repeat Scan 015 public-rights research while written provider evidence is outstanding."
+  ]
+}
