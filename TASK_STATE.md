@@ -14,29 +14,29 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_120` is complete with zero retained formations. The inverted retrieval order is materially more productive than acquisition-first search. Tianlu Huaxin passed current 10-FTE + positive revenue + positive net profit + positive OCF and a completed pre-period 35% fresh control change, but still failed founder-light normalization because the operating model is project/consulting-led, relationship acquired, explicitly uses controller resources and now includes physical agricultural supply-chain flow. Huajin Media passed current 12-FTE positive economics but failed fresh-operator reproducibility because the same founder/family controller group is longstanding and Zhang Wei has operated the company since 2009. Jiazhi 3 is the false-positive control: current 8 FTE and positive OCF coexist with zero external revenue, net loss, negative equity and a financial-asset-heavy balance sheet. Scan 121 should repeat the same economics-first retrieval order on fresh formation-diverse cases before any further narrowing or ontology change.
+Discovery: `ATTRACTION_SCAN_121` is in progress. It repeats the Scan 120 economics-first retrieval order on fresh formation-diverse cases: current same-entity intrinsically low FTE + positive external revenue + positive net profit + unambiguous positive OCF first, then reverse-check completed fresh-operator-reproducible control, non-project repeatable revenue, bounded total capital and machine-operable control. Scan 120's Tianlu Huaxin, Huajin Media and Jiazhi 3 are excluded from primary selection.
 
 ## Current Phase
 
-`SCAN_120_PR_VALIDATION_PENDING`
+`SCAN_121_RESEARCH_IN_PROGRESS`
 
 ## Last Verified Main
 
-`6443175f9a9dc0e9f02a96519a6c365299d3e820`
-— squash merge of PR #419, `Run current-economics early-gate Scan 119`.
+`21977ccc3675ada4eb52ea25af4efb6c4ad798fd`
+— squash merge of PR #420, `Run current-economics-first Scan 120`.
 
-PR #419 final head `a5fa9fe6bd012e2b5a737ae737c422879589d45e`:
-- repository CI `35761524087`: success;
-- live TypeSafe/Jev `35761524259`: success;
-- live-shadow job `106860573845`: success;
-- advisory artifact `10709863822`;
+PR #420 final head `3e44f5d8d891a02d72e6976e467abb01a0710e8f`:
+- repository CI `35763544113`: success;
+- live TypeSafe/Jev `35763544245`: success;
+- live-shadow job `106867369549`: success;
+- advisory artifact `10711351509`;
 - 3/3 model and effective route `NO_FURTHER_RESEARCH`;
 - 3/3 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That exact-head directive was consumed to start Scan 120.
+That exact-head directive was consumed to start Scan 121.
 
 ## Active Issue
 
@@ -44,17 +44,17 @@ That exact-head directive was consumed to start Scan 120.
 
 ## Active Branch
 
-`research/attraction-scan-120`
+`research/attraction-scan-121`
 
 ## Active PR
 
-None yet. Scan 120 branch content is complete. Open exactly one PR only after the final branch head is frozen, then do not make branch commits after PR creation.
+None. Scan 121 research is in progress; do not open a PR until the research/state/test branch head is final and frozen.
 
 ## CI
 
-Scan 119 exact-head validation and merge are complete.
+PR #420 / Scan 120 exact-head repository CI and live TypeSafe/Jev are complete, successful and consumed.
 
-Scan 120 repository CI and live TypeSafe/Jev have not run yet because the PR has not been opened. Consume a Scan 121 continuation directive only from the exact final Scan 120 PR head where both checks are terminal and acceptable.
+Scan 121 has no PR validation yet because research is still in progress.
 
 ## Parallel Validation
 
@@ -64,33 +64,26 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-New in Scan 120:
+Last completed scan artifacts remain:
 - `data/research_runs/attraction_scan_120.json`;
 - `docs/research/ATTRACTION_SCAN_120_2026-09-23.md`;
 - `tests/test_attraction_scan_120_current_economics_first.py`.
 
-Updated:
-- `data/commercial_reset_state.json`;
-- `TASK_STATE.md`.
-
-Machine state:
+Machine state before Scan 121 completion:
 - last completed scan = `ATTRACTION_SCAN_120`;
 - last resolved formation = `ATTRACTION_SCAN_120-F3`;
-- next scan = `ATTRACTION_SCAN_121`;
+- next scan / active research target = `ATTRACTION_SCAN_121`;
 - active commercial candidates = 0;
 - retained research formations = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Consumed PR #419 exact-head `ADVANCE_TO_NEXT_SCAN` and started Scan 120 from verified main.
-- Inverted retrieval order to current same-entity low-FTE + positive revenue + positive net profit + unambiguous positive OCF before control-history deepening.
-- Persisted Tianlu Huaxin as the closest current packet: 10 FTE; H1 revenue RMB3,045,201.52; attributable net profit RMB2,318,577.59; OCF RMB3,886,851.84; Wen Xianguang moved from zero to 35% control in 2024 after an RMB1.1511m agreement.
-- Tianlu still failed project/consulting, relationship-acquisition, controller-resource and physical supply-chain founder-light gates.
-- Persisted Huajin Media: 12 FTE; H1 revenue RMB97,644,344.98; net profit RMB805,499.59; OCF RMB4,177,203.45; rejected because current control is longstanding founder/family control rather than a reproducible fresh operator transfer.
-- Persisted Jiazhi 3 as a positive-OCF false positive: 8 FTE and OCF +RMB288,498.70 but zero external revenue, attributable net loss RMB749,371.86, negative equity and financial-asset dominance.
-- Retained zero formations and promoted zero commercial candidates.
-- Advanced durable discovery state to Scan 121 with the same retrieval order for an independent durability repeat.
+- Consumed PR #420 exact-head `ADVANCE_TO_NEXT_SCAN` from successful repository CI and live TypeSafe/Jev.
+- Merged PR #420 to main at `21977ccc3675ada4eb52ea25af4efb6c4ad798fd`.
+- Created `research/attraction-scan-121` from that verified main.
+- Preserved the Scan 120 economics-first retrieval order for an independent durability repeat.
+- Excluded Scan 060-120 formations and their primary discovery signals from Scan 121 primary selection.
 
 ## Current Findings
 
@@ -144,8 +137,8 @@ Validation:
 - Scan 015-F1 still needs a real official written provider response/agreement and founder-free inbound proof.
 
 Discovery:
-- Scan 120 research/state/test persistence is complete;
-- exact-head repository CI and live TypeSafe/Jev still need to run on the final PR head.
+- Scan 121 research is in progress on fresh formations using the economics-first retrieval order;
+- no current discovery blocker.
 
 Engineering:
 - no current TypeSafe/Jev integration blocker.
@@ -195,5 +188,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open the single final Scan 120 PR from the frozen branch head, require exact-head repository CI plus live TypeSafe/Jev, consume the continuation directive, merge only if checks are acceptable, then start Scan 121 immediately if the directive allows autonomous continuation.
-
+Run Scan 121 on fresh formation-diverse current-report evidence using the economics-first gate. Persist only evidence-bound outcomes; retain zero if fresh-operator reproducibility plus founder-light non-project machine-operable control still fail. Then freeze one branch head, open one PR, require exact-head repository CI plus live TypeSafe/Jev, and consume only the resulting directive.
