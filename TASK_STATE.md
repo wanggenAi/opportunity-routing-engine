@@ -14,29 +14,29 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_122` research is complete on this branch. Two fresh formations passed the strict current-economic admission gate; both were demoted on longstanding founder-family control plus physical/customer-specific delivery. Scan 123 should independently repeat the same strict economic admission on fresh formations, check control first for admitted survivors, and deliberately include fresh non-manufacturing routes without relaxing any gate.
+Discovery: `ATTRACTION_SCAN_123` is in progress. It independently repeats the Scan 122 strict current-economic admission on fresh formations. Current same-entity low FTE + positive external revenue + positive net profit + unambiguous positive consolidated OCF must all pass before primary formation admission; partial matches are excluded. For admitted survivors, completed fresh-operator control is checked first. Fresh non-manufacturing routes should be included without relaxing any gate.
 
 ## Current Phase
 
-`SCAN_122_RESEARCH_COMPLETE_PR_VALIDATION_PENDING`
+`SCAN_123_RESEARCH_IN_PROGRESS`
 
 ## Last Verified Main
 
-`0ae66723e237c4870c265f0d77382d1a03394dcd`
-— squash merge of PR #421, `Run economics-first durability Scan 121`.
+`d994ab4ba82004b28714ce884202cf8863991e07`
+— squash merge of PR #422, `Run strict current-economic admission Scan 122`.
 
-PR #421 final head `dc569cdd4871ecd8ddbe9220980c482c31af52a8`:
-- repository CI `35765300901`: success;
-- live TypeSafe/Jev `35765300951`: success;
-- live-shadow job `106873284653`: success;
-- advisory artifact `10711911722`;
-- 3/3 model and effective route `NO_FURTHER_RESEARCH`;
-- 3/3 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
+PR #422 final head `9d876888381460ae41fbde40c380e97ba73331f7`:
+- repository CI `35768174465`: success;
+- live TypeSafe/Jev `35768174557`: success;
+- live-shadow job `106882956947`: success;
+- advisory artifact `10712508399`;
+- 2/2 model and effective route `NO_FURTHER_RESEARCH`;
+- 2/2 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That exact-head directive was consumed to run Scan 122.
+That exact-head directive was consumed to start Scan 123.
 
 ## Active Issue
 
@@ -44,17 +44,19 @@ That exact-head directive was consumed to run Scan 122.
 
 ## Active Branch
 
-`research/attraction-scan-122`
+`research/attraction-scan-123`
 
 ## Active PR
 
-Not yet created at this checkpoint. Open a PR only after all Scan 122 research/state/test content is persisted, then freeze the final head for exact-head CI and live TypeSafe/Jev.
+None. Scan 123 research is in progress; do not open a PR until research/state/test content is complete and the final branch head is frozen.
 
 ## CI
 
 PR #421 / Scan 121 exact-head repository CI and live TypeSafe/Jev are complete, successful and consumed.
 
-Scan 122 exact-head validation is pending until its PR is opened.
+PR #422 / Scan 122 exact-head repository CI and live TypeSafe/Jev are complete, successful and consumed.
+
+Scan 123 has no PR validation yet because research is still in progress.
 
 ## Parallel Validation
 
@@ -64,15 +66,15 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-Scan 122 artifacts:
+Last completed scan artifacts:
 - `data/research_runs/attraction_scan_122.json`;
 - `docs/research/ATTRACTION_SCAN_122_2026-09-23.md`;
 - `tests/test_attraction_scan_122_strict_current_economic_admission.py`.
 
-Machine state after Scan 122 research:
+Machine state before Scan 123 completion:
 - last completed scan = `ATTRACTION_SCAN_122`;
 - last resolved formation = `ATTRACTION_SCAN_122-F2`;
-- next scan = `ATTRACTION_SCAN_123`;
+- next scan / active research target = `ATTRACTION_SCAN_123`;
 - active commercial candidates = 0;
 - retained research formations = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
@@ -203,4 +205,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open the Scan 122 PR on the fully persisted branch, freeze that final head, require repository CI plus live TypeSafe/Jev on the exact same head, inspect the advisory/continuation directive, and merge only if the authoritative closures remain intact and validation succeeds.
+Run Scan 123 from fresh current-report evidence as an independent strict current-economic-admission repeat. Admit only same-entity low-FTE positive-external-revenue positive-net-profit positive-consolidated-OCF survivors; record partial matches as exclusions. Check completed fresh-operator control first for every admitted survivor, then deepen delivery/capital/control only if warranted. Persist state/tests, freeze the PR head, and validate exact-head repository CI plus live TypeSafe/Jev.
