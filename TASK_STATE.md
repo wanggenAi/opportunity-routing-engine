@@ -14,11 +14,11 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: PR #400 exact final head passed repository CI plus live TypeSafe/Jev and was squash-merged. Scan 103 is active with an evidence priority on `OPERATOR-SPECIFIC NON-COMMODITY CONTROL + EXTERNAL ECONOMIC MOTION`, while preserving broad formation-diverse China discovery.
+Discovery: Scan 103 is complete with zero retention after the first `OPERATOR-SPECIFIC NON-COMMODITY CONTROL + EXTERNAL ECONOMIC MOTION` pass. It now requires a PR plus repository CI and live TypeSafe/Jev on the exact final head before merge or Scan 104 continuation.
 
 ## Current Phase
 
-`SCAN_103_RESEARCH_ACTIVE`
+`SCAN_103_COMPLETE_PRE_PR`
 
 ## Last Verified Main
 
@@ -32,7 +32,7 @@ PR #400 final head `b6dc2b9cd42c5cc665f69437ba2efc84539e4cfe`:
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That directive is consumed to start Scan 103.
+That directive was consumed to start Scan 103.
 
 ## Active Issue
 
@@ -44,13 +44,13 @@ That directive is consumed to start Scan 103.
 
 ## Active PR
 
-None yet. Open a PR only after Scan 103 evidence, persisted state and regression coverage are complete.
+None yet. Open a PR only after this completed Scan 103 checkpoint is durable.
 
 ## CI
 
 - PR #400 final-head repository CI `35723714271`: success.
 - PR #400 live TypeSafe/Jev `35723714297`: success; `ADVANCE_TO_NEXT_SCAN`.
-- Scan 103 branch validation: not yet requested because research is active.
+- Scan 103 branch validation: not yet requested; create the PR, bind its exact final head, then validate that head.
 
 ## Parallel Validation
 
@@ -60,49 +60,66 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-Current authoritative persisted research state on `main`:
-- last completed scan = `ATTRACTION_SCAN_102`;
-- last resolved formation = `ATTRACTION_SCAN_102-F3`;
-- next scan = `ATTRACTION_SCAN_103`;
+New:
+- `data/research_runs/attraction_scan_103.json`;
+- `docs/research/ATTRACTION_SCAN_103_2026-09-22.md`;
+- `tests/test_attraction_scan_103_noncommodity_entry.py`.
+
+Updated:
+- `data/commercial_reset_state.json`;
+- `TASK_STATE.md`.
+
+Persisted state:
+- last completed scan = `ATTRACTION_SCAN_103`;
+- last resolved formation = `ATTRACTION_SCAN_103-F3`;
+- next scan = `ATTRACTION_SCAN_104`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
-Scan 103 files do not exist yet.
-
 ## Completed
 
-- Verified PR #400 exact final-head repository CI success.
-- Verified real TypeSafe/Jev execution using `typesafe-sdk==0.7.0` and `jev-latest`.
-- Consumed the actual Jev continuation directive: 3/3 `NO_FURTHER_RESEARCH`, autonomous continuation allowed, `ADVANCE_TO_NEXT_SCAN`.
-- Confirmed PR #400 squash-merged to `main` at `ef937ee8a1224053bfe79713cd0c340efd68fd48`.
-- Created `research/attraction-scan-103` from that exact merged main.
+- Reconciled the interrupted session against live GitHub instead of replaying old work.
+- Verified PR #400 exact final-head CI and real TypeSafe/Jev execution, then consumed its `ADVANCE_TO_NEXT_SCAN` directive.
+- Resumed the already-created `research/attraction-scan-103` branch rather than creating a duplicate branch.
+- Ran the first operator-specific non-commodity-control + external-economic-motion pass on a fresh formation-diverse China sample.
+- Examined BiliNote open-source reputation -> hosted Pro subscriptions, a Bilibili creator audience -> three-year exclusive platform contract, and an SEO-accumulated tool site -> global subscriptions.
+- Persisted Scan 103 evidence, research note, regression coverage and reset-state advancement.
+- Retained zero formations and promoted zero commercial candidates.
 
 ## Current Findings
 
-Scan 103 research has not yet resolved a formation. The entrance is intentionally stronger after two independent acquirability-plus-money passes: an operator-specific advantage must be evidenced as unavailable to an equivalent competent entrant on materially similar terms, while current external money motion and the existing hard floors still apply.
+### Scan 103-F1 — BiliNote open-source reputation -> paid hosted service
 
-This is an evidence property, not a preselected product/mechanism ontology. Broad current-reality sensing and formation diversity remain mandatory.
+The current operator has a real non-commodity repository/community/inbound asset and participant-reported paid subscriptions. The decisive edge is incumbent-owned history: a fresh operator can copy MIT code but cannot acquire the same stars, community identity and organic inbound on materially similar terms. Ongoing maintenance/support/content/channel work and normalized margin remain unresolved.
 
-## Scan 102 Result
+### Scan 103-F2 — creator audience -> exclusive platform contract
 
-Second operator-acquirable-control + external-economic-motion pass completed with zero commercial promotions and zero retained research formations.
+Audience, trust and a three-year Bilibili exclusive agreement are real non-commodity control with current money motion. They fail fresh-operator entry, founder-independence and machine-delegatability because the value is identity-bound, platform-controlled and sustained by recurring creative output.
+
+### Scan 103-F3 — accumulated SEO site -> subscriptions
+
+The participant reports more than USD 5,000 monthly subscriptions and server/AI costs around 20% of revenue. But the exact site/ranking position is withheld, the product and much of the SEO execution are reproducible, and discovery remains Google-controlled. Independent corroboration of the scarce asset therefore fails closed.
+
+## Scan 103 Result
+
+First operator-specific non-commodity-control + external-economic-motion pass completed with zero commercial promotions and zero retained research formations.
 
 State truth:
-- last completed scan = `ATTRACTION_SCAN_102`;
-- last resolved formation = `ATTRACTION_SCAN_102-F3`;
-- next scan = `ATTRACTION_SCAN_103`;
+- last completed scan = `ATTRACTION_SCAN_103`;
+- last resolved formation = `ATTRACTION_SCAN_103-F3`;
+- next scan = `ATTRACTION_SCAN_104`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Learning
 
-Scans 101 and 102 now provide two independent passes. The repeated pattern is:
+Scan 103 establishes a narrower distinction:
 
-`OPERATOR-ACQUIRABLE CONTROL + REAL EXTERNAL MONEY != DURABLE OPERATOR EDGE`.
+`REAL NON-COMMODITY CONTROL + REAL EXTERNAL MONEY != FRESH-OPERATOR-ACQUIRABLE EDGE`.
 
-Easy-to-acquire control tends to collapse either to local physical asset yield or to a commoditized digital control plane.
+Historical reputation, audience, trust, exclusive contracts and ranking positions can be hard to copy precisely because an incumbent already owns the accumulated history. One pass is insufficient to derive a new search ontology.
 
-The next stronger evidence property is operator-specific non-commodity control or a compounding distribution/data/contract/supply/trust position that an equivalent competent entrant cannot acquire on materially similar terms. This is an evidence property, not a fixed product category or vertical.
+Scan 104 therefore repeats the same non-commodity-control + external-money floor on a fresh formation-diverse sample while making fresh-independent-operator entry acquirability explicit.
 
 ## Blockers
 
@@ -111,14 +128,14 @@ Validation:
 
 Engineering:
 - no current Jev integration blocker;
-- Scan 103 has not yet produced a PR head.
+- Scan 103 needs a PR and exact-final-head repository CI plus live TypeSafe/Jev.
 
 Discovery:
-- do not reuse Scan 102 self-service car wash, EV charging or group-expense mini-program/ad monetization;
-- do not treat "asymmetry", "distribution", "data", "contract", "supply" or "trust" as categories to search mechanically; they are properties that must emerge from evidence.
+- Scan 104 is gated on the Scan 103 exact-final-head continuation directive.
 
 ## Do Not Repeat
 
+- Do not repeat Scan 103 BiliNote/open-source reputation, creator audience/exclusive-contract or SEO-accumulated tool-site formations.
 - Do not repeat Scan 102 self-service car wash, EV charging/site operation or group-expense mini-program/ad-monetization formations.
 - Do not repeat Scan 101 public-ingress/public-IP, GPU rental/capacity or discounted outbound courier aggregation formations.
 - Do not repeat Scan 100 mainland cloud/ICP access filing, Apple Developer organization enrollment or cross-carrier inbound parcel aggregation.
@@ -127,7 +144,7 @@ Discovery:
 - Do not repeat Scan 097 digital-invoice reimbursement preparation, multi-platform creator publishing or Android multi-store release.
 - Do not repeat Scan 095–096 formations.
 - Do not revive the interrupted U.S.-only Scan 095 draft.
-- Do not return to Scan 060–102 formations or their primary discovery signals.
+- Do not return to Scan 060–103 formations or their primary discovery signals.
 - Do not use job/gig/RFQ/procurement feeds as discovery ontology.
 - Do not infer a product from a closed formation.
 - Do not lower hard floors because discovery closes at zero.
@@ -166,4 +183,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Run Scan 103 on a fresh formation-diverse China sample using the operator-specific non-commodity-control + external-economic-motion evidence priority; persist only evidence-supported outcomes, then add regression coverage and update durable state before opening a PR.
+Open the Scan 103 PR, bind `TASK_STATE.md` to its exact final head, run repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, then start Scan 104 only if `autonomous_continuation_allowed=true`.
