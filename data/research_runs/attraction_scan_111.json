@@ -1,0 +1,224 @@
+{
+  "schema_version": "attraction-scan.v85",
+  "scan_id": "ATTRACTION_SCAN_111",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FIFTH_INDEPENDENT_SMALL_OPERATOR_VERIFIED_NET_CASHFLOW_CONTROL_PASS_WITH_AUDITABLE_LEDGER_PLUS_OUTCOME_PACKET_PRIORITY_REQUIRE_SAME_OPERATOR_SAME_CONTROL_POSITION_SAME_TIME_WINDOW_AUDITABLE_RECEIVED_CUSTOMER_REVENUE_COMPLETE_DIRECT_OPERATING_COSTS_OWNER_LABOR_OR_EXPLICIT_REPLACEMENT_COST_EXECUTED_CONTROL_RIGHTS_AND_INDEPENDENT_EXIT_SETTLEMENT_TRANSFER_OR_RESIDUAL_EVIDENCE_REQUIRE_FOUNDER_LIGHT_MACHINE_DELEGATABLE_DELIVERY_AND_NONCOMMODITY_CONTROL_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_110_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_111-F1",
+      "title": "CHINA_ZHEJIANG_RESTAURANT_PARTNERSHIP_COURT_RECONSTRUCTED_LEDGER_WITH_OWNER_WAGE_AND_REALIZED_SHUTDOWN_RESIDUAL",
+      "discovery_route": "CURRENT_2026_JUDGMENT_RECONSTRUCTS_ONE_RESTAURANT_PARTNERSHIPS_PREOPENING_COSTS_MONTHLY_RECEIPTS_MONTHLY_COSTS_OWNER_MANAGER_PAY_SHUTDOWN_LEASE_SETTLEMENT_AND_ASSET_RESIDUAL",
+      "observed_actor_state_change_evidence": [
+        "A Zhejiang district-court judgment dated 2026-06-03 concerns one restaurant partnership formed on 2025-06-12, opened to customers on 2025-07-20 and closed in February 2026.",
+        "The partnership agreement placed final operating and decision authority with Lu; one 10% partner contributed RMB70,000.",
+        "For judicial settlement Lu supplied pre-opening schedules, July-December operating statements and supporting expense records; the court evaluated disputed items instead of accepting the operator ledger wholesale.",
+        "The court confirmed pre-opening renovation/equipment/rent/deposit spending of RMB548,372.41, monthly operating figures for July-September, adjusted October-December combined loss to RMB60,000 because of cross-store contamination, confirmed an RMB8,000 residual-asset acquisition by Lu and no refundable remainder of the RMB90,000 lease deposit."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The packet includes actual customer receipts rather than projected sales: August RMB209,968.35, September RMB140,697.05, October RMB154,061.78, November RMB109,050.42 and December RMB94,032.69.",
+        "It also exposes direct categories such as beef procurement, freight and wages and therefore provides substantially more auditable operating evidence than prior operator interviews.",
+        "The court accepted Lu's RMB5,000 monthly manager compensation for July-September but reduced its reasonableness later when his attention shifted to another restaurant."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Revenue weakened sharply while Lu simultaneously operated other restaurants, and the court found potential sharing of beef, drinks, grain/oil, parts and labor across stores.",
+        "The court explicitly adjusted late-period costs and owner compensation rather than treating contaminated bookkeeping as exact.",
+        "Remaining restaurant assets were competitively allocated to Lu for RMB8,000; the lease deposit was consumed by final rent/property/utilities/demolition liabilities and forfeiture."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is the first recent packet in the sequence that substantially closes entry cost, customer receipts, direct costs, owner-manager pay and realized shutdown residual for one operating unit.",
+        "The judgment's RMB706,335.70 cumulative-loss figure is a lifecycle settlement figure, not clean operating P&L: it mathematically incorporates the RMB548,372.41 pre-opening spend, court-recognized operating results and the RMB8,000 residual asset.",
+        "October-December bookkeeping was not position-pure because Lu also operated other restaurants; the court therefore used an equitable RMB60,000 combined-loss adjustment rather than validating every raw line item.",
+        "Operational evidence itself defeats founder independence: Lu received manager compensation, controlled final decisions, and revenue/cost quality deteriorated when his attention moved elsewhere."
+      ],
+      "economic_signal": [
+        "Court-confirmed pre-opening spending: RMB548,372.41.",
+        "Court-used August profit: RMB56,260.39 on RMB209,968.35 revenue and RMB153,707.96 costs.",
+        "Court-adjusted September loss: RMB132,118.43; October-December combined loss: RMB60,000.",
+        "Realized residual asset value: RMB8,000; lease-deposit residual: RMB0 after final liabilities/forfeiture."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Lu held final operating/decision authority, but the position is a conventional leased restaurant with substitutable suppliers, labor and local customer acquisition.",
+        "No exclusive transferable demand rail, proprietary data right or compounding noncommodity control surface is evidenced.",
+        "The same operator's attention was economically material, directly contradicting founder-light operation."
+      ],
+      "executed_control_transfer_check": "PASS_THE_PARTNERSHIP_AND_STORE_CONTROL_STRUCTURE_WERE_EXECUTED_AND_LU_HELD_FINAL_OPERATING_AND_DECISION_AUTHORITY",
+      "post_transfer_external_economic_continuity_check": "PASS_REAL_CUSTOMER_RECEIPTS_ARE_REPORTED_AND_JUDICIALLY_EVALUATED_ACROSS_MULTIPLE_MONTHS",
+      "fresh_small_operator_entry_check": "PASS_ONE_LOCAL_RESTAURANT_PARTNERSHIP_OPENED_IN_2025_AND_CLOSED_IN_2026",
+      "same_operator_economic_binding_check": "PARTIAL_PASS_PREOPENING_COSTS_RECEIPTS_DIRECT_COSTS_OWNER_PAY_AND_RESIDUAL_BIND_TO_ONE_STORE_BUT_LATE_PERIOD_COSTS_REQUIRED_COURT_ADJUSTMENT_FOR_CROSS_STORE_CONTAMINATION",
+      "direct_operating_cost_check": "PARTIAL_PASS_THE_COURT_EVALUATED_MONTHLY_COST_CATEGORIES_AND_ADJUSTED_CONTAMINATED_ITEMS_BUT_OCTOBER_TO_DECEMBER_ARE_NOT_A_CLEAN_ITEM_BY_ITEM_LEDGER",
+      "owner_labor_check": "PASS_FOR_OBSERVED_MANAGER_COMPENSATION_LU_RECEIVED_RMB5000_PER_MONTH_IN_THE_EARLY_PERIOD_AND_THE_COURT_EXPLICITLY_ADJUSTED_LATER_MANAGER_PAY_WHEN_HIS_ATTENTION_SHIFTED",
+      "founder_independence_check": "FAIL_OWNER_MANAGEMENT_AND_ATTENTION_WERE_ECONOMIC_INPUTS_AND_THE_COURT_RECORD_DIRECTLY_LINKS_LATE_PERIOD_ATTENTION_SHIFT_TO_THE_OPERATING_CONTEXT",
+      "data_action_rights_check": "PARTIAL_PASS_FINAL_DECISION_RIGHTS_AND_LEASE_STORE_RELATIONSHIP_ARE_EVIDENCED_BUT_NO_TRANSFERABLE_CUSTOMER_DATA_OR_EXCLUSIVE_DEMAND_RIGHT_EXISTS",
+      "normalized_margin_check": "PARTIAL_TO_FAIL_THE_PACKET_IS_AUDITABLE_ENOUGH_TO_SHOW_POOR_LIFECYCLE_ECONOMICS_BUT_LATE_PERIOD_LEDGER_CONTAMINATION_PREVENTS_A_FULL_CLEAN_NORMALIZED_P_AND_L",
+      "machine_delegatability_check": "FAIL_PHYSICAL_FOOD_PREPARATION_STAFFING_PROCUREMENT_SANITATION_AND_LOCAL_MANAGEMENT_REMAIN_RECURRING_HUMAN_DELIVERY",
+      "generic_agent_substitutability_check": "FAIL_FOR_ATTRACTION_THE_CONTROL_POSITION_IS_A_CONVENTIONAL_LOCAL_RESTAURANT_WITH_BROADLY_SUBSTITUTABLE_OPERATING_INPUTS",
+      "verdict": "DEMOTED_STRONG_LEDGER_AND_EXIT_CLOSURE_REVEAL_FOUNDER_DEPENDENCE_AND_COMMODITY_PHYSICAL_DELIVERY_RATHER_THAN_A_TRANSFERABLE_MACHINE_OPERATED_CONTROL_ASSET"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_111-F2",
+      "title": "CHINA_HENAN_MICRO_REAL_ESTATE_COMPANY_EXECUTED_100_PERCENT_CONTROL_TRANSFER_WITH_AUDITED_ZERO_REVENUE",
+      "discovery_route": "CURRENT_2026_PUBLIC_PROPERTY_EXCHANGE_PACKET_PAIRS_AUDITED_FINANCIALS_WITH_A_COMPLETED_100_PERCENT_EQUITY_TRANSACTION_AND_CONTROL_CHANGE_FOR_ONE_MICRO_ENTERPRISE",
+      "observed_actor_state_change_evidence": [
+        "Henan public-resource records classify Dengfeng Xingyue Real Estate Co., Ltd. as a micro enterprise with zero employees and 100% single-shareholder ownership.",
+        "The June 2026 transfer notice offered 100% of the company and explicitly stated the transaction would transfer actual control.",
+        "The August 2026 transaction result records a completed price of RMB333,400, equal to the listed and appraised price.",
+        "The acquirer also assumes company liabilities and capital-contribution obligations before asset delivery."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The company is an actual legal/control wrapper around real-estate-development and leasing rights and carries assets and liabilities despite zero employees.",
+        "2025 audited assets were RMB23.7585 million, liabilities RMB23.8241 million and net assets negative RMB65,600.",
+        "The April 2026 management accounts showed assets RMB23.7585 million, liabilities RMB23.8539 million and net assets negative RMB95,400."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The transfer structure prices the equity at only RMB333,400 while requiring the buyer to inherit roughly RMB23.8539 million of other payables and outstanding capital obligations.",
+        "A land-use issue disclosed in the transaction documents requires forestry approval before use of part of the underlying parcel."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The packet cleanly closes transfer price, 100% control, audited balance-sheet state and a completed transaction.",
+        "It fails the most basic value-flow test: 2025 audited operating revenue was RMB0 and the 2026-04-30 accounts also reported RMB0 revenue.",
+        "A cheap control price cannot be treated as attractive cashflow when the company has no received customer revenue and carries large liabilities.",
+        "Zero employees is not evidence of machine-delegatable profitable operation when there is no operating revenue to delegate."
+      ],
+      "economic_signal": [
+        "Completed 100% equity transfer price: RMB333,400.",
+        "2025 audited revenue: RMB0; audited net loss: RMB65,600.",
+        "2026-04-30 revenue: RMB0; period net loss: RMB29,800.",
+        "2026-04-30 liabilities: RMB23.8539 million, explicitly assumed with other transfer obligations."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The buyer receives formal 100% corporate control, but public evidence does not establish a live customer/revenue rail.",
+        "The legal wrapper and underlying land/project rights are burdened by liabilities and approvals rather than demonstrated recurring external value flow."
+      ],
+      "executed_control_transfer_check": "PASS_THE_PUBLIC_EXCHANGE_RECORDED_A_COMPLETED_100_PERCENT_EQUITY_TRANSACTION_AT_RMB333400_AND_THE_TRANSFER_NOTICE_EXPLICITLY_STATES_CONTROL_CHANGES",
+      "post_transfer_external_economic_continuity_check": "FAIL_AUDITED_2025_AND_2026_PERIOD_ACCOUNTS_REPORT_ZERO_OPERATING_REVENUE",
+      "fresh_small_operator_entry_check": "PASS_FOR_SCALE_THE_ENTITY_IS_OFFICIALLY_CLASSIFIED_MICRO_AND_HAS_ZERO_EMPLOYEES",
+      "same_operator_economic_binding_check": "PASS_FOR_ENTITY_LEVEL_AUDITED_REVENUE_LOSS_ASSETS_LIABILITIES_AND_CONTROL_TRANSFER_PRICE_ALL_BIND_TO_THE_SAME_COMPANY",
+      "direct_operating_cost_check": "PARTIAL_PASS_AUDITED_NET_LOSS_AND_BALANCE_SHEET_EXIST_BUT_WITH_ZERO_REVENUE_THERE_IS_NO_PROVEN_OPERATING_VALUE_FLOW_TO_NORMALIZE",
+      "owner_labor_check": "PASS_FOR_HEADCOUNT_SIGNAL_ZERO_EMPLOYEES_BUT_THIS_DOES_NOT_ESTABLISH_A_PROFITABLE_MACHINE_OPERATING_SYSTEM",
+      "founder_independence_check": "UNKNOWN_TO_PASS_AT_ENTITY_HEADCOUNT_LEVEL_BUT_ECONOMIC_OPERATION_IS_NOT_PROVEN",
+      "data_action_rights_check": "PASS_FOR_CORPORATE_CONTROL_BUT_UNPROVEN_FOR_ANY_EXCLUSIVE_CUSTOMER_OR_MONETIZABLE_OPERATING_RIGHT",
+      "normalized_margin_check": "FAIL_ZERO_REVENUE_AND_NEGATIVE_NET_RESULTS_PRECLUDE_A_POSITIVE_NORMALIZED_EXTERNAL_CASHFLOW_CASE",
+      "machine_delegatability_check": "UNKNOWN_ZERO_EMPLOYEES_IS_COMPATIBLE_WITH_LIGHT_OPERATION_BUT_NO_ACTIVE_REVENUE_PROCESS_IS_EVIDENCED",
+      "generic_agent_substitutability_check": "FAIL_TO_CLOSE_NO_NONCOMMODITY_DECISION_OR_DISTRIBUTION_RAIL_IS_PROVEN",
+      "verdict": "DEMOTED_EXECUTED_LOW_HEADCOUNT_CONTROL_TRANSFER_WITH_AUDITED_ACCOUNTS_BUT_ZERO_CUSTOMER_REVENUE_AND_LARGE_ASSUMED_LIABILITIES"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_111-F3",
+      "title": "CHINA_BEIJING_ZERO_EMPLOYEE_TECH_TRANSFER_CENTER_AUDITED_REVENUE_WITH_NONCONTROL_UNEXECUTED_6_PERCENT_EXIT_LISTING",
+      "discovery_route": "CURRENT_2026_BEIJING_PROPERTY_EXCHANGE_PACKET_PAIRS_AUDITED_LOW_HEADCOUNT_OPERATING_RESULTS_WITH_A_LIVE_MINORITY_EQUITY_TRANSFER_OFFER",
+      "observed_actor_state_change_evidence": [
+        "A September 2026 Beijing public-resource listing offers 6% of Beijing Zhongsheng Technology Achievement Transformation Center Co., Ltd. for RMB1.4555 million.",
+        "The company reports zero employees; the other shareholder owns 94%.",
+        "The public packet contains 2025 audited results and June 2026 management accounts."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "2025 audited revenue was RMB427,000 with net loss RMB5.2066 million; assets RMB3.0694 million, liabilities RMB13.5789 million and net assets negative RMB10.5096 million.",
+        "For 2026 through June the company reported RMB63,200 revenue and RMB1.0782 million net loss, with net assets negative RMB11.5878 million.",
+        "The zero-employee structure demonstrates that low headcount can coexist with actual revenue, but not that the economics are attractive."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The 6% shareholder is attempting to exit through a formal property exchange at RMB1.4555 million.",
+        "The 94% shareholder has not waived pre-emption, reinforcing that the offered position is a constrained minority interest rather than operating control."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "Audited revenue and loss bind to the exact entity and the offered equity interest has a public price.",
+        "The transaction is only a live listing as of the evidence date; no completed buyer/control transfer is published.",
+        "A 6% interest does not carry demonstrated operating control, and the 94% shareholder retains the dominant position.",
+        "Both audited and current-period economics are deeply loss-making despite low headcount."
+      ],
+      "economic_signal": [
+        "Offered 6% price: RMB1.4555 million.",
+        "2025 audited revenue: RMB427,000; net loss: RMB5.2066 million.",
+        "2026 through June revenue: RMB63,200; net loss: RMB1.0782 million.",
+        "Zero employees; 2026-06-30 net assets negative RMB11.5878 million."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "The offered stake is explicitly only 6%; the 94% shareholder remains dominant and retains pre-emption rights.",
+        "No public packet establishes exclusive customer-data, channel or action rights attached specifically to the minority stake."
+      ],
+      "executed_control_transfer_check": "FAIL_AS_OF_2026_09_22_THE_PUBLIC_RECORD_IS_A_LISTING_NOT_A_COMPLETED_TRANSACTION_AND_ONLY_6_PERCENT_IS_OFFERED",
+      "post_transfer_external_economic_continuity_check": "UNKNOWN_NO_POST_TRANSFER_PERIOD_EXISTS_BECAUSE_THE_TRANSFER_IS_NOT_COMPLETED",
+      "fresh_small_operator_entry_check": "PARTIAL_PASS_ZERO_EMPLOYEES_AND_LOW_REVENUE_FIT_SMALL_OPERATION_BUT_THE_ENTITY_IS_NOT_A_FRESH_OPERATOR_ENTRY_PACKET",
+      "same_operator_economic_binding_check": "PASS_FOR_ENTITY_FINANCIALS_THE_AUDITED_AND_CURRENT_RESULTS_BIND_TO_THE_SAME_COMPANY",
+      "direct_operating_cost_check": "PARTIAL_PASS_AUDITED_NET_RESULTS_EXIST_BUT_PUBLIC_SUMMARY_DOES_NOT_EXPOSE_A_COMPLETE_DIRECT_COST_LEDGER",
+      "owner_labor_check": "PASS_FOR_REPORTED_HEADCOUNT_ZERO_EMPLOYEES_BUT_CONTROL_PARTY_LABOR_OR_RELATED_PARTY_SUPPORT_IS_NOT_CLOSED",
+      "founder_independence_check": "UNKNOWN_LOW_HEADCOUNT_IS_NOT_ENOUGH_TO_PROVE_INDEPENDENCE_FROM_THE_94_PERCENT_PARENT_OR_RELATED_PARTIES",
+      "data_action_rights_check": "FAIL_FOR_OPERATOR_CONTROL_A_6_PERCENT_STAKE_WITH_A_94_PERCENT_INCUMBENT_DOES_NOT_ESTABLISH_ACTION_RIGHTS",
+      "normalized_margin_check": "FAIL_AUDITED_AND_CURRENT_PERIOD_RESULTS_ARE_STRONGLY_NEGATIVE",
+      "machine_delegatability_check": "PARTIAL_TO_UNKNOWN_ZERO_HEADCOUNT_IS_COMPATIBLE_WITH_MACHINE_LIGHT_OPERATION_BUT_THE_ACTUAL_REVENUE_DELIVERY_PROCESS_IS_NOT_PUBLIC",
+      "generic_agent_substitutability_check": "FAIL_TO_CLOSE_NO_DISTINCTIVE_TRANSFERABLE_CONTROL_RAIL_IS_EVIDENCED",
+      "verdict": "DEMOTED_AUDITED_LOW_HEADCOUNT_REVENUE_EXISTS_BUT_THE_POSITION_IS_LOSS_MAKING_MINORITARY_NONCONTROL_AND_UNEXECUTED"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_2026_HANTAI_COURT_RECONSTRUCTED_700_PLUS_RECORD_RESTAURANT_SETTLEMENT",
+      "excluded_reason": "USEFUL_LEDGER_RECONSTRUCTION_SIGNAL_BUT_EXCLUDED_AS_PRIMARY_FORMATION_TO_AVOID_DUPLICATING_SCAN111_F1S_RESTAURANT_CONTROL_SHAPE"
+    },
+    {
+      "observation": "CURRENT_2026_GUANGZHOU_COURT_ORDERED_ACCOUNTING_AUDIT_OF_RESORT_APARTMENT_PARTNERSHIP",
+      "excluded_reason": "THE_AUDIT_APPOINTMENT_IS_CURRENT_AND_RELEVANT_BUT_RESULTS_AND_FINAL_RIGHTS_EXIT_OUTCOME_ARE_NOT_YET_PUBLIC_SO_THE_PACKET_IS_NOT_CLOSED"
+    },
+    {
+      "observation": "OLDER_PHOTOGRAPHY_PET_RETAIL_AND_HOTEL_PARTNERSHIP_JUDGMENTS_WITH_DETAILED_LEDGERS",
+      "excluded_reason": "EXCLUDED_FROM_PRIMARY_CURRENT_PASS_BECAUSE_THE_OPERATING_PERIODS_AND_JUDGMENTS_PREDATE_THE_CURRENT_EVIDENCE_WINDOW_EVEN_WHEN_SEARCH_INDEXING_IS_RECENT"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "auditable_ledger_plus_outcome_priority_used": true,
+    "same_operator_and_control_position_binding_required": true,
+    "executed_control_change_required": true,
+    "received_customer_revenue_required": true,
+    "direct_operating_costs_required": true,
+    "owner_shadow_wage_or_replacement_cost_required": true,
+    "rights_closure_required": true,
+    "realized_or_bounded_exit_value_required_for_normalization": true,
+    "fresh_small_operator_entry_required": true,
+    "founder_light_operation_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_COURT_RECONSTRUCTED_OPERATING_PARTNERSHIP_EXECUTED_MICRO_100_PERCENT_CORPORATE_TRANSFER_AND_ZERO_EMPLOYEE_MINORITY_TECH_EQUITY_LISTING_TEST_DISTINCT_LEDGER_CONTROL_AND_LABOR_SHAPES",
+    "observed_indexing_bias": "AUDITABLE_LEDGER_AND_TRANSFER_SOURCES_CAN_CLOSE_FINANCIALS_AND_RIGHTS_BUT_STRONG_SMALL_OPERATOR_PACKETS_SEPARATE_INTO_TWO_FAILURE_MODES_PHYSICAL_OPERATIONS_WITH_OWNER_DEPENDENCE_OR_LOW_HEADCOUNT_ENTITIES_WITH_NO_POSITIVE_CUSTOMER_CASHFLOW_OR_NO_CONTROL",
+    "response": "KEEP_ALL_HARD_FLOORS_AND_FOR_SCAN112_PRIORITIZE_LOW_HEADCOUNT_OR_MACHINE_LIGHT_ENTITIES_WITH_AUDITED_POSITIVE_EXTERNAL_REVENUE_AND_PROFIT_PLUS_AN_EXECUTED_CONTROLLING_TRANSFER_OR_EQUIVALENT_RIGHTS_EVENT",
+    "participant_behavior_over_analyst_story": "PASS_F1_USES_COURT_EVALUATED_MONTHLY_RECORDS_AND_REAL_SHUTDOWN_F2_USES_PUBLIC_AUDIT_TRANSFER_NOTICE_AND_COMPLETED_TRANSACTION_RESULT_F3_USES_PUBLIC_AUDIT_AND_LIVE_EXCHANGE_LISTING_WITH_NONCOMPLETION_EXPLICIT"
+  },
+  "scan_learnings": [
+    "SCAN111_AUDITABLE_LEDGER_PLUS_OUTCOME_PASS_ZERO_RETENTION_ACROSS_COURT_RECONSTRUCTED_RESTAURANT_LEDGER_EXECUTED_MICRO_CONTROL_TRANSFER_AND_ZERO_EMPLOYEE_TECH_MINORITY_EXIT",
+    "A_COURT_CAN_CLOSE_CUSTOMER_RECEIPTS_DIRECT_COSTS_OWNER_MANAGER_PAY_AND_RESIDUALS_YET_THE_RESULT_MAY_DIRECTLY_PROVE_FOUNDER_DEPENDENCE_AND_COMMODITY_PHYSICAL_DELIVERY",
+    "THE_RMB706335_70_RESTAURANT_CUMULATIVE_LOSS_IS_A_LIFECYCLE_SETTLEMENT_FIGURE_INCORPORATING_PREOPENING_SPEND_AND_RESIDUAL_NOT_A_CLEAN_PERIOD_OPERATING_P_AND_L",
+    "A_COMPLETED_100_PERCENT_CONTROL_TRANSFER_AND_ZERO_EMPLOYEES_ARE_NOT_ATTRACTIVE_WITHOUT_RECEIVED_EXTERNAL_REVENUE_AND_POSITIVE_NORMALIZED_ECONOMICS",
+    "LOW_HEADCOUNT_WITH_AUDITED_REVENUE_IS_NOT_ENOUGH_WHEN_THE_POSITION_IS_LOSS_MAKING_MINORITARY_AND_UNEXECUTED",
+    "THE_NEXT_RETRIEVAL_PRIORITY_SHOULD_COMBINE_LOW_HUMAN_DEPENDENCE_AUDITED_POSITIVE_CUSTOMER_ECONOMICS_AND_AN_EXECUTED_CONTROLLING_TRANSFER_IN_ONE_PACKET"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_112",
+  "next_search_boundary": "SIXTH_INDEPENDENT_VERIFIED_NET_CASHFLOW_CONTROL_PASS_WITH_LOW_HEADCOUNT_MACHINE_LIGHT_EXECUTED_CONTROL_PRIORITY_REQUIRE_SAME_ENTITY_SAME_CONTROL_POSITION_SAME_TIME_WINDOW_AUDITED_POSITIVE_EXTERNAL_CUSTOMER_REVENUE_AND_POSITIVE_NORMALIZED_PROFIT_OR_CASHFLOW_LOW_OWNER_LABOR_OR_EXPLICIT_REPLACEMENT_COST_EXECUTED_CONTROLLING_EQUITY_ASSET_LICENSE_OR_CONTRACT_TRANSFER_RIGHTS_CLOSURE_AND_REALIZED_OR_BOUNDED_EXIT_VALUE_REQUIRE_NONCOMMODITY_CONTROL_AND_FOUNDER_LIGHT_MACHINE_DELEGATABLE_DELIVERY_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_111_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN111_WITH_EXACT_HEAD_CI_JEV_THEN_START_SCAN112_LOW_HEADCOUNT_MACHINE_LIGHT_EXECUTED_CONTROL_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.chinalawyer.co/blog/wenshu-0196c4d43563/",
+    "https://hnsggzyjy.henan.gov.cn/jyxx/002003/002003007/20260618/5dbc20bba93e4f5d9fec361d982c59d2.html",
+    "https://hnsggzyjy.henan.gov.cn/jyxx/002003/002003007/20260804/f84cc431ff554566ab6c3449b6d2e022.html",
+    "https://ggzyfw.beijing.gov.cn/jyxxgqgpplxx/20260911/5707200.html",
+    "https://www.gzhdcourt.gov.cn/gsxx/yzgg/2026/05/27171007124.html",
+    "https://m.thepaper.cn/newsDetail_forward_32314979"
+  ]
+}

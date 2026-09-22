@@ -14,29 +14,29 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_110` is complete with zero retained formations. Court/arbitration outcome documents successfully closed rights, refunds, damages or clawbacks but did not close received customer revenue, complete operating costs and owner labor. The next retrieval priority is an auditable operator ledger/accounting record plus independent rights/exit/settlement evidence for the same operator and control position.
+Discovery: `ATTRACTION_SCAN_111` is complete with zero retained formations. The auditable-ledger pass found that the strongest current packets split into two failure modes: physical operating units can close receipts/costs/owner pay but expose founder dependence, while low-headcount entities can close control/financial statements yet still lack positive customer cashflow or executed controlling transfer. The next retrieval priority is a low-headcount or machine-light entity with audited positive external revenue/profit plus an executed controlling transfer or equivalent rights event.
 
 ## Current Phase
 
-`SCAN_110_PR_VALIDATION_PENDING`
+`SCAN_111_PR_VALIDATION_PENDING`
 
 ## Last Verified Main
 
-`09d5e89ece490859dddbc92fb053ec7229082481`
-— squash merge of PR #407, `Run direct-operator-record priority Scan 109`.
+`31edf3bf86159b46007e6fafcace3311791f8f39`
+— squash merge of PR #408, `Run outcome-complete packet Scan 110`.
 
-PR #407 final head `6e1135fb7389a5942d03b7258d0a5f8ec8f1350b`:
-- repository CI `35743250483`: success;
-- live TypeSafe/Jev `35743250457`: success;
-- live-shadow job `106798244591`: success;
-- advisory artifact `10700268277`;
+PR #408 final head `ab956a32c3868b0e8160a331a006b7afca420356`:
+- repository CI `35744331068`: success;
+- live TypeSafe/Jev `35744331088`: success;
+- live-shadow job `106802080703`: success;
+- advisory artifact `10701217406`;
 - 3/3 model and effective route `NO_FURTHER_RESEARCH`;
 - 3/3 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That exact-head directive was consumed to start Scan 110.
+That exact-head directive was consumed to start Scan 111.
 
 ## Active Issue
 
@@ -44,17 +44,19 @@ That exact-head directive was consumed to start Scan 110.
 
 ## Active Branch
 
-`research/attraction-scan-110`
+`research/attraction-scan-111`
 
 ## Active PR
 
-Not yet opened at this checkpoint. GitHub live state wins after PR creation.
+#409 — `Run auditable-ledger outcome Scan 111`.
+
+Opened from `research/attraction-scan-111` into `main`. This checkpoint write advances the branch after PR creation, so resolve the live PR head before validating CI/Jev; do not treat the pre-checkpoint head as final.
 
 ## CI
 
-No Scan 110 PR validation exists yet.
+PR #409 is open. Exact-final-head validation is pending after this checkpoint commit.
 
-Consume a Scan 110 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
+Consume a Scan 111 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
 
 ## Parallel Validation
 
@@ -64,89 +66,87 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-New in Scan 110:
-- `data/research_runs/attraction_scan_110.json`;
-- `docs/research/ATTRACTION_SCAN_110_2026-09-22.md`;
-- `tests/test_attraction_scan_110_outcome_packets.py`.
+New in Scan 111:
+- `data/research_runs/attraction_scan_111.json`;
+- `docs/research/ATTRACTION_SCAN_111_2026-09-22.md`;
+- `tests/test_attraction_scan_111_auditable_ledgers.py`.
 
 Updated:
 - `data/commercial_reset_state.json`;
 - `TASK_STATE.md`.
 
 Machine state:
-- last completed scan = `ATTRACTION_SCAN_110`;
-- last resolved formation = `ATTRACTION_SCAN_110-F3`;
-- next scan = `ATTRACTION_SCAN_111`;
+- last completed scan = `ATTRACTION_SCAN_111`;
+- last resolved formation = `ATTRACTION_SCAN_111-F3`;
+- next scan = `ATTRACTION_SCAN_112`;
 - active commercial candidates = 0;
 - retained research formations = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Consumed PR #407's exact-head `ADVANCE_TO_NEXT_SCAN` directive and created `research/attraction-scan-110` from merged main.
-- Preserved Scan 109's direct-operator/no-stitching boundary.
-- Ran a current-China outcome-complete identity-packet pass.
-- Examined three fresh control/outcome shapes: a Chengdu tea franchise with court-closed residual recovery; a Chengdu restaurant franchise with adjudicated IP-guidance liability and >RMB330k realized execution settlement; and a Xiangyang restaurant beer-supply incentive contract with arbitrated exit clawback.
-- Did not treat court refunds/damages as operating revenue.
-- Did not treat upstream beer purchase volume as end-customer receipts.
-- Excluded weaker or uncorroborated legal-marketing packets.
+- Consumed PR #408 exact-head `ADVANCE_TO_NEXT_SCAN` directive and continued on `research/attraction-scan-111`.
+- Preserved the Scan 110 same-operator/same-control-position/same-time-window economic binding requirement.
+- Ran an auditable-ledger + outcome-packet pass across three distinct control shapes.
 - Retained zero formations and promoted zero commercial candidates.
-- Persisted Scan 110 research JSON, research note, regression test and commercial state.
+- Persisted Scan 111 research JSON, research note, regression test and commercial state.
 
 ## Current Findings
 
-### Scan 110-F1 — Chengdu tea franchise
+### Scan 111-F1 — Zhejiang restaurant partnership
 
-The same operator is bound to an executed one-year service contract, RMB120,000 service fee, RMB10,000 deposit, roughly RMB400,000 aggregate store input, opening, closure and court-ordered recovery of RMB84,000 service fee, RMB10,000 deposit and more than RMB63,000 equipment/renovation loss.
+A current court-reconstructed packet substantially closes pre-opening cost, real customer receipts, direct operating costs, owner-manager compensation and shutdown residual for one restaurant partnership.
 
-This closes rights and part of realized exit value much better than Scan 109, but the store's received customer revenue, complete operating-cost ledger and owner hours/replacement labor remain unpublished.
-
-Verdict: demoted.
-
-### Scan 110-F2 — Chengdu restaurant IP-guidance liability
-
-The operator paid RMB39,800 to join a restaurant project, then incurred a second infringement liability after repeatedly following the franchisor's signage/fit-out guidance. The operator paid more than RMB330,000 under an execution settlement. A later action against the franchisor succeeded and was affirmed on appeal.
-
-This tightly closes a real legal cash loss and upstream responsibility, but ordinary customer receipts, restaurant costs, owner labor and business exit economics remain absent. The licensed control surface itself was legally defective.
+It still fails. Late-period bookkeeping was contaminated across multiple stores and required judicial adjustment; more importantly, owner management/attention is itself an economic input and the physical restaurant remains recurring human delivery.
 
 Verdict: demoted.
 
-### Scan 110-F3 — Xiangyang beer sales incentive
+### Scan 111-F2 — Henan micro real-estate company
 
-One restaurant executed a two-year beer contract with a 2,500-case target and conditional support. It closed after 15 months with 1,300 cases purchased. Arbitration ordered return of the RMB16,000 signage incentive and rejected the supplier's claimed RMB24,000 drink incentive for insufficient proof of delivery.
+A public exchange packet closes audited entity financials and a completed 100% equity/control transfer for a micro enterprise with zero employees.
 
-This closes a contractual exit liability, not normalized business economics: upstream purchases are not customer receipts, and full costs/labor/residual value remain unknown.
+It still fails because audited 2025 and 2026-period operating revenue is zero while the transferred entity carries substantial liabilities. Low headcount plus cheap control is not external value flow.
+
+Verdict: demoted.
+
+### Scan 111-F3 — Beijing zero-employee tech transfer center
+
+A public exchange listing closes audited/current entity financials and low headcount, including real revenue, but the offered position is only a 6% non-controlling stake and the transfer is not completed.
+
+It therefore does not satisfy executed controlling transfer, clean post-transfer economic continuity or owner/related-party independence.
 
 Verdict: demoted.
 
 Key invariant:
 
 ```text
-COURT / ARBITRATION OUTCOME
-=> RIGHTS + REFUND + DAMAGES + CLAWBACK CAN CLOSE
+AUDITABLE LEDGER + EXIT / TRANSFER EVIDENCE
+!= FOUNDER-LIGHT POSITIVE CONTROL CASHFLOW
 
-COURT / ARBITRATION OUTCOME
-!= CUSTOMER RECEIPTS + COMPLETE OPERATING COSTS + OWNER LABOR
+LOW HEADCOUNT
+!= MACHINE-INDEPENDENT VALUE FLOW
 
-LEGAL RESIDUAL
-!= NORMALIZED OPERATING CASHFLOW
+POSITIVE REVENUE
++ NONCONTROLLING OR UNEXECUTED POSITION
+!= EXECUTED OPERATOR CONTROL
 ```
 
 ## Next Evidence Boundary
 
 ```text
-AUDITABLE OPERATOR LEDGER / ACCOUNTING RECORD
-+ SAME OPERATOR
+LOW HEADCOUNT / MACHINE-LIGHT ENTITY
++ SAME ENTITY
 + SAME CONTROL POSITION
 + SAME TIME WINDOW
-+ AUDITABLE RECEIVED CUSTOMER REVENUE
-+ COMPLETE DIRECT OPERATING COSTS
-+ OWNER LABOR OR EXPLICIT REPLACEMENT COST
-+ EXECUTED CONTROL RIGHTS
-+ INDEPENDENT EXIT / SETTLEMENT / TRANSFER / RESIDUAL EVIDENCE
-+ FOUNDER-LIGHT MACHINE-DELEGATABLE DELIVERY
++ AUDITED POSITIVE EXTERNAL CUSTOMER REVENUE
++ POSITIVE NORMALIZED PROFIT / CASHFLOW
++ LOW OWNER LABOR OR EXPLICIT REPLACEMENT COST
++ EXECUTED CONTROLLING EQUITY / ASSET / LICENSE / CONTRACT TRANSFER
++ RIGHTS CLOSURE
++ REALIZED / BOUNDED EXIT VALUE
 + NONCOMMODITY CONTROL
-=> NORMALIZED NET CASHFLOW
++ FOUNDER-LIGHT MACHINE-DELEGATABLE DELIVERY
+=> POSSIBLE VERIFIED CONTROL CASHFLOW
 ```
 
 Do not derive a product or vertical from the zero-retention result.
@@ -157,19 +157,20 @@ Validation:
 - Scan 015-F1 still needs a real official written provider response/agreement and founder-free inbound proof.
 
 Discovery:
-- Scan 110 research itself is complete;
-- outcome documents close rights/residuals but generally omit auditable operating ledgers and owner labor.
+- Scan 111 research itself is complete;
+- current public evidence has not yet produced one same-position packet combining low human dependence, audited positive customer economics and executed controlling transfer.
 
 Engineering:
 - no current TypeSafe/Jev integration blocker;
-- Scan 110 still needs exact-final-head repository CI plus live TypeSafe/Jev validation.
+- Scan 111 still needs exact-final-head repository CI plus live TypeSafe/Jev validation.
 
 ## Do Not Repeat
 
-- Do not repeat Scan 110 tea-franchise court residual, restaurant IP-guidance liability or beer-supply incentive formations as Scan 111 primary formations.
+- Do not repeat Scan 111 restaurant-partnership ledger, Henan micro real-estate 100% transfer or Beijing zero-employee 6% tech stake as Scan 112 primary formations.
+- Do not repeat Scan 110 tea-franchise court residual, restaurant IP-guidance liability or beer-supply incentive formations.
 - Do not repeat Scan 109 Jianglaolao franchise hotpot, paid study room or independent liquor-shop formations.
 - Do not repeat Scan 108 selfie booth, 3D-print microbusiness or rail smart-locker concession.
-- Do not return to Scan 060-110 formations or their primary discovery signals.
+- Do not return to Scan 060-111 formations or their primary discovery signals.
 - Do not use job/gig/RFQ/procurement feeds or asset-marketplace feeds as discovery ontology.
 - Do not infer a product from a closed formation.
 - Do not combine different operators/properties/time windows to manufacture normalized economics.
@@ -209,4 +210,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open the Scan 110 PR and validate one exact final PR head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are acceptable.
+Open the Scan 111 PR and validate one exact final PR head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are acceptable.
