@@ -6,6 +6,10 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 Reach the first real external value flow while keeping discovery formation-diverse, validation independent and commercial promotion fail-closed.
 
+## Goal
+
+Reach the first real external value flow through a formation that survives participant pull, discoverability, machine-executable delivery, founder-independence, operator control, evidenced economics and incumbent/control-surface pressure.
+
 ## Current Unique Commercial Research Goal
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
@@ -48,9 +52,9 @@ None at this checkpoint. The Scan 116 branch content is final for PR validation.
 
 ## CI
 
-No Scan 116 PR-head validation exists yet.
+PR #415 head `5fb92498a18049ed89c06e12a1b2a793be0e9aed` was closed after repository CI `35755655343` failed only because the checkpoint rewrite omitted the recovery-contract-required `## Goal` heading. The research tests and remaining repository suite did not expose a research-logic failure; the heading is restored on the replacement head. The old PR head is superseded and must not be merged or used for continuation.
 
-Consume a Scan 116 continuation directive only from the exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
+Consume a Scan 116 continuation directive only from the replacement exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
 
 ## Parallel Validation
 
@@ -88,6 +92,7 @@ Machine state:
 - Feitian: controller changed through a RMB2.0m upstream holding-company acquisition, but 2025 annual economics straddle the control date; the mixed period is not promoted to post-control evidence. Year-end target assets were RMB40.5331m, so low upstream transaction price is not treated as low target operating capital.
 - Retained zero formations and promoted zero commercial candidates.
 - Advanced durable discovery state to Scan 117.
+- Closed superseded PR #415 after its exact-head CI exposed the missing required `## Goal` recovery-contract heading; restored that heading before creating the replacement PR.
 
 ## Current Findings
 
@@ -192,4 +197,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open exactly one PR from the now-final Scan 116 branch head. Do not commit after opening it. Validate that exact PR head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are terminal and acceptable.
+Open one replacement PR from the corrected final Scan 116 branch head. Do not commit after opening it. Validate that exact replacement head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are terminal and acceptable.
