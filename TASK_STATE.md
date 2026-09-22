@@ -150,7 +150,7 @@ Discovery:
 
 ## Next Action
 
-Open the Scan 092 PR, validate its final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue automatically into Scan 093 only if `autonomous_continuation_allowed=true`.
+Validate PR #390 final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue automatically into Scan 093 only if `autonomous_continuation_allowed=true`.
 
 ## Do Not Repeat
 
