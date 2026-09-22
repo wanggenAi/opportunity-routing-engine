@@ -1,17 +1,17 @@
 {
   "schema_version": 2,
-  "generation": 3,
+  "generation": 4,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-088",
-  "stage": "SCAN_088_PR_OPEN_CI_JEV_PENDING",
+  "stage": "SCAN_088_PR386_FINAL_HEAD_VALIDATION_PENDING",
   "last_observed_main_sha": "5759f8a38925872290cbb4214f637d823652ddf1",
   "work_branch": "research/attraction-scan-088",
-  "work_head_sha": "f263be81141cc001d7f95484b0a4a6e63e3b5b32",
+  "work_head_sha": "cee2dd633dc458ce2d94e06a84cbda7b7f1c5981",
   "active_pr": 386,
   "ci": {
     "run_id": null,
-    "head_sha": "f263be81141cc001d7f95484b0a4a6e63e3b5b32",
+    "head_sha": "cee2dd633dc458ce2d94e06a84cbda7b7f1c5981",
     "status": "PENDING",
     "conclusion": null
   },
@@ -38,9 +38,10 @@
     "SCAN_088_RESET_STATE_UPDATED",
     "SCAN_088_TASK_STATE_UPDATED",
     "SCAN_088_PR386_OPENED",
-    "SCAN_088_TASK_STATE_BOUND_TO_PR386"
+    "SCAN_088_TASK_STATE_BOUND_TO_PR386",
+    "SCAN015_EMAIL_CHECK_2026_09_22_NO_REPLY"
   ],
-  "next_action": "Wait for PR #386 final-head repository CI and live Jev, consume continuation directive, merge only if green and permitted.",
+  "next_action": "Validate PR #386 final head cee2dd6 with repository CI and live Jev, then consume continuation and merge if permitted.",
   "do_not_repeat": [
     "Do not recreate Scan 088 branch or rewrite its existing research/doc/test commits.",
     "Do not repeat Scan 087 travel eSIM, Xfinity bridge-mode routing, or Roku external-streamer formations.",
