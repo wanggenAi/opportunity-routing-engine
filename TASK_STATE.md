@@ -60,7 +60,7 @@ PR #369 repository CI run `35679071405` completed `success`. Live Jev run `35679
 
 ## Active PR
 
-PENDING — open the Scan 072 PR after this durable checkpoint.
+#370 — `Change payer evidence source after Scan 072`. Live GitHub state is authoritative.
 
 ## CI
 
