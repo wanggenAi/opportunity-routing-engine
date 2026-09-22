@@ -67,7 +67,7 @@ PR #364 repository CI run `35620438463` completed `success`. Live Jev run `35620
 
 ## Active PR
 
-None yet for Scan 067. Live GitHub state is authoritative.
+#365 — `Raise paid evidence to atomic unit attribution in Scan 067`. Live GitHub state is authoritative.
 
 ## CI
 
