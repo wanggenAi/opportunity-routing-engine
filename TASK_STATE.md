@@ -42,13 +42,13 @@ PR #390 final head `c760ad0d2373aedb952c0f90c8b3b99a15730bdf`:
 
 ## Active PR
 
-None yet — Scan 093 is persisted on the research branch and must be opened as the next PR.
+#391 — `Reset discovery to broad current reality in Scan 093`.
 
 ## CI
 
 - PR #390 final-head repository CI `35701703501`: success.
 - PR #390 live Jev `35701703346`: success; `ADVANCE_TO_NEXT_SCAN`.
-- Scan 093 branch CI/Jev: not yet run; they should be triggered by the Scan 093 PR.
+- PR #391 opened for Scan 093; final-head repository CI and live Jev are pending.
 
 ## Latest Artifact / Persisted State
 
@@ -83,6 +83,7 @@ Persisted state:
 - Checked the repository corpus for TLS certificate lifetime, A2L refrigerant and EAA accessibility duplicates; no matching prior scan formation was found.
 - Researched three fresh formation-diverse current-reality chains and persisted Scan 093.
 - Updated commercial reset state through Scan 093 with zero retention and zero commercial promotion.
+- Opened PR #391 and bound the handoff to the live PR.
 
 ## Current Findings
 
@@ -147,7 +148,7 @@ Validation:
 
 Engineering:
 - no Jev integration blocker;
-- Scan 093 PR has not yet been opened;
+- PR #391 is open;
 - Scan 093 final-head repository CI and live Jev still need to run.
 
 Discovery:
@@ -156,7 +157,7 @@ Discovery:
 
 ## Next Action
 
-Open the Scan 093 PR, validate its final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue automatically into Scan 094 only if `autonomous_continuation_allowed=true`.
+Validate PR #391 final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue automatically into Scan 094 only if `autonomous_continuation_allowed=true`.
 
 ## Do Not Repeat
 
