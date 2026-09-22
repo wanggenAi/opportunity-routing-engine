@@ -1,0 +1,185 @@
+{
+  "schema_version": "attraction-scan.v65",
+  "scan_id": "ATTRACTION_SCAN_089",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "search_mode": "INDEPENDENTLY_REPLICATED_PAID_CROSS_COMPONENT_COORDINATION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_089-F1",
+      "title": "PAID_AWARD_TRAVEL_MULTI_PROGRAM_SEARCH_TO_AIRLINE_BOOKING_STITCH",
+      "chinese_title": "付费跨里程计划奖励机票搜索到航空公司实际出票的拼接",
+      "evidence_class": "REPLICATED_PAID_CROSS_COMPONENT_AWARD_TRAVEL_COORDINATION",
+      "actor_a_population": "Award travelers holding transferable points or miles across multiple frequent-flyer programs.",
+      "actor_b_population": "Airline loyalty programs and ticketing surfaces controlling authoritative award inventory and booking.",
+      "existing_components": [
+        "Seats.aero aggregates award availability across multiple airlines and frequent-flyer programs through search, explore, alerts and live-search features.",
+        "Airline or loyalty-program booking surfaces remain the authoritative place to confirm inventory, transfer points when needed and issue the award ticket."
+      ],
+      "independent_replication": [
+        "A June 2026 r/awardtravel participant explicitly says they pay for Seats.aero Pro and describes two separate successful redemptions found through it, including a 10K Flying Blue Delta itinerary and another approximately 10K United/Aegean redemption.",
+        "A January 2026 r/AlaskaAirlines participant explicitly says they are paying for Seats.aero Pro for Alaska/AA award options and alerts, and reports it found one deal during their paid usage that they would not otherwise have found."
+      ],
+      "participant_authored_successful_completion": [
+        "The June 2026 paid Pro user searches across programs in Seats.aero, identifies award inventory, then completes the redemption through the relevant loyalty program rather than inside Seats.aero.",
+        "A separate June 2026 participant describes using Seats.aero to identify a 15K Alaska-program business redemption and then booking it through Alaska Air for AA-operated flights, demonstrating the search-to-authoritative-booking handoff."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "Participants still confirm availability and pricing on airline loyalty surfaces because award-search aggregators can show cached, stale or phantom inventory.",
+        "The August 2026 r/awardtravel workflow description explicitly says an alert recipient must race to the airline site or call the airline, confirm the booking is real, transfer points and claim the seat."
+      ],
+      "actual_cross_component_coordination_payment_check": "PASS_AT_LEAST_TWO_UNAFFILIATED_CURRENT_PARTICIPANT_ACCOUNTS_EXPLICITLY_PAY_FOR_SEATS_AERO_PRO_TO_COORDINATE_SEARCH_ALERTING_OR_DISCOVERY_ACROSS_MULTIPLE_LOYALTY_PROGRAMS_SEPARATE_FROM_THE_UNDERLYING_AIRLINE_REDEMPTION",
+      "manual_multi_component_completion_check": "PASS_SUCCESSFUL_OUTCOME_REQUIRES_PAID_AGGREGATED_DISCOVERY_PLUS_SEPARATE_AUTHORITATIVE_LOYALTY_PROGRAM_CONFIRMATION_AND_TICKET_ISSUANCE",
+      "no_single_current_control_surface_check": "PASS_SEATS_AERO_OWNS_CROSS_PROGRAM_DISCOVERY_AND_ALERTING_BUT_NOT_AUTHORITATIVE_LOYALTY_BALANCES_POINT_TRANSFERS_OR_TICKET_ISSUANCE",
+      "decisive_completion_control": "PASS_TRAVELER_CAN_SELF_SERVICE_SEARCH_CONFIRM_TRANSFER_POINTS_AND_BOOK_WITHOUT_INCUMBENT_PRIVILEGED_MANUAL_EXCEPTION_THOUGH_AIRLINE_RIGHTS_REMAIN_AUTHORITATIVE",
+      "repeated_bilateral_value_transfer": "PASS_TRAVELER_PAYS_RECURRING_PRO_SUBSCRIPTION_FOR_COORDINATION_AND_SEPARATELY_EXCHANGES_POINTS_FEES_OR_CASH_WITH_LOYALTY_PROGRAMS_FOR_AWARD_TRAVEL",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Seats.aero itself is already an exact paid coordination incumbent: Pro is $9.99/month or $99.99/year and unlocks extended availability, live search, advanced filters and related features.",
+        "Seats.aero states that it tracks tens of thousands of routes and offers a partner API across major alliances and roughly 20 mileage programs; commercial API use requires written agreement.",
+        "Award issuance remains outside the aggregator and under airline/loyalty-program control."
+      ],
+      "founder_independence_check": "PASS_THE_EXISTING_PAID_PRODUCT_AND_AIRLINE_BOOKING_SURFACES_COMPLETE_THE_FLOW_WITHOUT_FOUNDER_DELIVERY_LABOR",
+      "data_action_rights_check": "FAIL_FOR_A_NEW_OPERATOR_SEARCH_DATA_AND_COMMERCIAL_API_USE_ARE_ALREADY_CONTROLLED_BY_MATURE_AGGREGATORS_WHILE_TICKET_ISSUANCE_AND_LOYALTY_BALANCES_REMAIN_AIRLINE_OR_PROGRAM_RIGHTS_BOUND",
+      "normalized_margin_check": "FAIL_FOR_NEW_OPERATOR_EDGE_ACTUAL_COORDINATION_WILLINGNESS_TO_PAY_IS_PROVEN_BUT_A_LOW_COST_MATURE_EXACT_SUBSCRIPTION_ALREADY_CAPTURES_IT_AND_THE_RESIDUAL_TICKETING_ACTION_IS_NOT_OWNED",
+      "machine_delegatability_check": "PASS_SEARCH_COMPARISON_ALERTING_AND_HANDOFF_GUIDANCE_ARE_HIGHLY_MACHINE_DELEGATABLE",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_A_GENERIC_AGENT_CAN_ORCHESTRATE_PUBLIC_OR_LICENSED_SEARCH_OUTPUTS_BUT_CANNOT_CREATE_PRIVILEGED_AWARD_INVENTORY_OR_TICKET_ISSUANCE_RIGHTS",
+      "verdict": "DEMOTED_PAID_CROSS_COMPONENT_COORDINATION_IS_PROVEN_BUT_SEATS_AERO_ALREADY_OWNS_THE_EXACT_SEARCH_ALERTING_LAYER_AND_AUTHORITATIVE_AWARD_BOOKING_REMAINS_AIRLINE_OR_LOYALTY_PROGRAM_RIGHTS_BOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_089-F2",
+      "title": "PAID_MULTI_INSTITUTION_FINANCIAL_AGGREGATION_TO_BANK_ACTION_STITCH",
+      "chinese_title": "付费多金融机构聚合到银行实际资金动作的拼接",
+      "evidence_class": "REPLICATED_PAID_CROSS_COMPONENT_PERSONAL_FINANCE_COORDINATION",
+      "actor_a_population": "Households with many bank, credit-card, investment, loan and other financial accounts.",
+      "actor_b_population": "Financial institutions and data providers controlling account data access and authoritative money movement.",
+      "existing_components": [
+        "Monarch aggregates balances and transactions from many institutions through Plaid, Finicity, MX and selected direct/specialized connections.",
+        "Banks, brokerages and bill-pay surfaces retain authoritative transfer, payment, trade and account-action rights."
+      ],
+      "independent_replication": [
+        "A September 2026 r/MonarchMoney user with more than 20 accounts is deciding whether to renew and explicitly frames the paid value as not having to fetch and reconcile data manually; multiple unaffiliated commenters in the same discussion say the approximately $100/year subscription remains worth it specifically for aggregation.",
+        "A July 2026 long-time Monarch user explicitly states they are currently paying for the subscription and evaluates that payment against synchronization of 529, investment and other financial accounts."
+      ],
+      "participant_authored_successful_completion": [
+        "Current paid users describe Monarch as their centralized view across bank accounts, credit cards and investments, replacing repeated CSV collection or spreadsheet assembly.",
+        "Separate current personal-finance participants explicitly note that actual debt payments or other money movement still happens in the official bank app or bank bill-pay surface, preserving the split between paid coordination and authoritative execution."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "Paid Monarch users report that account synchronization can require reconnection or miss institution data, forcing fallback to institution surfaces or manual imports.",
+        "Monarch documentation states it uses multiple third-party data providers and that some institutions or account types can be difficult to connect or keep synchronized because of institution settings and third-party support limits."
+      ],
+      "actual_cross_component_coordination_payment_check": "PASS_MULTIPLE_UNAFFILIATED_CURRENT_PARTICIPANTS_EXPLICITLY_PAY_OR_RENEW_MONARCH_PRIMARILY_FOR_MULTI_ACCOUNT_SYNCHRONIZATION_AGGREGATION_AND_TIME_SAVED_RATHER_THAN_FOR_ACCESS_TO_ANY_SINGLE_FINANCIAL_ACCOUNT",
+      "manual_multi_component_completion_check": "PASS_USERS_COMBINE_PAID_AGGREGATED_READ_AND_PLANNING_WITH_SEPARATE_BANK_BROKER_OR_BILL_PAY_SURFACES_FOR_AUTHORITATIVE_ACTIONS",
+      "no_single_current_control_surface_check": "PASS_MONARCH_OWNS_A_CENTRALIZED_READ_PLANNING_SURFACE_BUT_DOES_NOT_OWN_EACH_INSTITUTIONS_AUTHORITATIVE_MONEY_MOVEMENT_OR_ACCOUNT_ACTION_RIGHTS",
+      "decisive_completion_control": "PASS_USERS_CAN_SELF_SERVICE_REVIEW_AGGREGATED_DATA_AND_EXECUTE_ACTIONS_IN_THEIR_OWN_INSTITUTION_APPS_WITHOUT_PRIVILEGED_MANUAL_EXCEPTION",
+      "repeated_bilateral_value_transfer": "PASS_HOUSEHOLDS_PAY_MONARCH_RECURRING_SUBSCRIPTION_FOR_AGGREGATION_WHILE_SEPARATELY_HOLDING_AND_TRANSACTING_WITH_MULTIPLE_FINANCIAL_INSTITUTIONS",
+      "exact_incumbent_and_control_surface_preflight": [
+        "Monarch Core is currently $99.99/year and explicitly sells complete net-worth, budgeting, reports and goals with connections to more than 13,000 financial institutions.",
+        "Monarch uses Plaid, Finicity and MX to aggregate transactions and balances; those data-provider and institution relationships are themselves established control surfaces.",
+        "The official institution apps remain authoritative for payment, transfer and other account actions."
+      ],
+      "founder_independence_check": "PASS_EXISTING_SUBSCRIPTION_AND_INSTITUTION_SURFACES_OPERATE_WITHOUT_FOUNDER_DELIVERY_LABOR",
+      "data_action_rights_check": "FAIL_FOR_A_NEW_OPERATOR_ACCOUNT_DATA_CONNECTIVITY_DEPENDS_ON_ESTABLISHED_AGGREGATOR_AND_INSTITUTION_RELATIONSHIPS_AND_AUTHORITATIVE_MONEY_MOVEMENT_REMAINS_INSTITUTION_BOUND",
+      "normalized_margin_check": "FAIL_FOR_NEW_OPERATOR_EDGE_WILLINGNESS_TO_PAY_FOR_AGGREGATION_IS_CLEAR_BUT_MONARCH_AND_OTHER_MATURE_FINANCE_AGGREGATORS_ALREADY_PRICE_AND_DELIVER_THE_CORE_COORDINATION_FUNCTION",
+      "machine_delegatability_check": "PASS_CATEGORIZATION_REPORTING_RECONCILIATION_AND_RECOMMENDATION_ARE_MACHINE_DELEGATABLE_WHERE_DATA_ACCESS_EXISTS",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_GENERIC_AGENTS_CAN_ANALYZE_EXPORTED_FINANCIAL_DATA_BUT_DO_NOT_INHERENTLY_HAVE_RELIABLE_MULTI_INSTITUTION_CONNECTIVITY_OR_MONEY_MOVEMENT_RIGHTS",
+      "verdict": "DEMOTED_REPLICATED_PAYMENT_FOR_MULTI_INSTITUTION_COORDINATION_IS_REAL_BUT_MONARCH_ALREADY_OWNS_THE_EXACT_SUBSCRIPTION_AGGREGATION_LAYER_AND_BANK_DATA_AND_ACTION_RIGHTS_REMAIN_ESTABLISHED_PROVIDER_OR_INSTITUTION_CONTROLLED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_089-F3",
+      "title": "PAID_WORKOUT_DATA_SYNC_BROKER_ACROSS_FITNESS_PLATFORMS",
+      "chinese_title": "付费运动数据同步中间层跨 Apple Health、Garmin、Strava 等平台搬运记录",
+      "evidence_class": "REPLICATED_PAID_CROSS_COMPONENT_WORKOUT_DATA_COORDINATION",
+      "actor_a_population": "Athletes using multiple workout-recording, health-data and social/training platforms.",
+      "actor_b_population": "Fitness platforms and device ecosystems exposing partial import/export or health-data interfaces.",
+      "existing_components": [
+        "HealthFit and RunGap read workout data from one ecosystem and write or export it to another when native integrations are missing or lossy.",
+        "Apple Health, Garmin Connect, Strava and other services remain separate systems of record with their own APIs, permissions and data models."
+      ],
+      "independent_replication": [
+        "An August 2026 r/Strava participant explicitly says they had to pay for HealthFit solely to sync third-party workouts from Apple Health into Strava.",
+        "A March 2026 r/RunGap participant reports successfully consolidating Apple Health and Wahoo data into Garmin and explains that the relevant complete resynchronization path requires a subscribed/paid RunGap setup; a separate 2026 participant also reports purchasing HealthFit specifically for Apple Watch-to-Strava upload."
+      ],
+      "participant_authored_successful_completion": [
+        "The August 2026 HealthFit user uses the paid app as the missing bridge from an app that writes Apple Health data into Strava.",
+        "The March 2026 RunGap participant reports successfully consolidating data from Apple Health and Wahoo under Garmin; another July 2026 participant verifies HealthFit can automatically upload preserved sensor data into Strava."
+      ],
+      "explicit_participant_incompleteness_reason": [
+        "Participants report that native Strava/Apple Health behavior does not import some third-party workouts or can create duplicate loops, motivating a paid bridge.",
+        "RunGap users repeatedly encounter Garmin integration breakage when Garmin changes its interface, showing that the coordination layer depends on upstream platform behavior."
+      ],
+      "actual_cross_component_coordination_payment_check": "PASS_MULTIPLE_UNAFFILIATED_PARTICIPANTS_EXPLICITLY_PURCHASE_HEALTHFIT_OR_PAID_RUNGAP_CAPABILITY_FOR_THE_CROSS_PLATFORM_SYNC_EXPORT_OR_BRIDGE_FUNCTION_ITSELF",
+      "manual_multi_component_completion_check": "PASS_THE_DESIRED_COMPLETE_TRAINING_HISTORY_REQUIRES_A_PAID_SYNC_BROKER_PLUS_MULTIPLE_SEPARATE_SOURCE_AND_DESTINATION_FITNESS_PLATFORMS",
+      "no_single_current_control_surface_check": "PASS_HEALTHFIT_OR_RUNGAP_COORDINATES_DATA_MOVEMENT_BUT_NONE_OWNS_APPLE_HEALTH_GARMIN_STRAVA_AND_OTHER_PLATFORM_SYSTEMS_OF_RECORD_OR_ALL_NATIVE_FEATURES",
+      "decisive_completion_control": "PASS_USERS_CAN_AUTHORIZE_SOURCE_DESTINATION_CONNECTIONS_AND_TRIGGER_OR_AUTOMATE_SYNC_WITHOUT_INCUMBENT_PRIVILEGED_MANUAL_EXCEPTION",
+      "repeated_bilateral_value_transfer": "PASS_USERS_PAY_FOR_THE_SYNC_BROKER_WHILE_SEPARATELY_USING_DEVICE_AND_FITNESS_PLATFORM_ECOSYSTEMS",
+      "exact_incumbent_and_control_surface_preflight": [
+        "RunGap currently markets support for around 50 fitness services and explicitly requires its Swag Bag subscription for sharing, backup and export.",
+        "The App Store shows RunGap actively maintaining integrations through 2026, including repeated Garmin and Strava fixes, so this is a mature maintained coordination product rather than an unserved workaround.",
+        "HealthFit is an established paid alternative used for the same bridge pattern."
+      ],
+      "founder_independence_check": "PASS_THE_EXISTING_APPS_DELIVER_SYNC_WITHOUT_FOUNDER_MANUAL_SERVICE",
+      "data_action_rights_check": "FAIL_FOR_A_NEW_OPERATOR_THE_SYNC_LAYER_IS_CONSTRAINED_BY_PLATFORM_APIS_HEALTHKIT_PERMISSIONS_LOGIN_METHODS_AND_UPSTREAM_INTERFACE_CHANGES",
+      "normalized_margin_check": "FAIL_FOR_NEW_OPERATOR_EDGE_USERS_PAY_FOR_THE_FUNCTION_BUT_LOW_COST_MATURE_EXACT_SYNC_PRODUCTS_ALREADY_OCCUPY_IT_AND_INTEGRATION_MAINTENANCE_IS_CONTINUOUS",
+      "machine_delegatability_check": "PASS_FORMAT_MAPPING_SYNC_RETRY_DEDUPLICATION_AND_ROUTING_ARE_MACHINE_EXECUTABLE_WHERE_PLATFORM_ACCESS_EXISTS",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_A_GENERIC_AGENT_CAN_REASON_ABOUT_MAPPING_BUT_CANNOT_BYPASS_PLATFORM_PERMISSIONS_API_RESTRICTIONS_OR_CREDENTIAL_RULES",
+      "verdict": "DEMOTED_REPLICATED_PAYMENT_FOR_CROSS_PLATFORM_SYNC_IS_REAL_BUT_HEALTHFIT_AND_RUNGAP_ALREADY_OWN_THE_EXACT_COORDINATION_FUNCTION_AND_THE_RESIDUAL_DEPENDS_ON_UPSTREAM_PLATFORM_ACCESS_AND_COMPATIBILITY"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "inherited_mechanism_as_requirement": false,
+    "discovery_started_from_paid_cross_component_coordination": true,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "formation_diversity": "PASS_AWARD_TRAVEL_PERSONAL_FINANCE_AND_FITNESS_DATA_SYNC",
+    "independent_replication_floor": "PASS_EACH_EXAMINED_PATTERN_HAS_AT_LEAST_TWO_UNAFFILIATED_PARTICIPANT_ACCOUNTS_OR_EQUIVALENT_INDEPENDENT_CURRENT_ACCOUNTS",
+    "paid_coordination_floor": "PASS_EACH_FORMATION_HAS_EXPLICIT_PAYMENT_FOR_THE_COORDINATION_AGGREGATION_SEARCH_OR_SYNC_FUNCTION_ITSELF_NOT_MERELY_FOR_UNDERLYING_COMPONENT_ACCESS",
+    "multi_component_floor": "PASS_ALL_THREE_REQUIRE_TWO_OR_MORE_SEPARATE_COMPONENTS_OR_CONTROL_SURFACES_TO_COMPLETE_THE_BROADER_OUTCOME",
+    "no_single_control_surface_assessment": "PASS_EACH_PAID_COORDINATOR_OWNS_A_MIDDLE_LAYER_BUT_AUTHORITATIVE_TICKETING_MONEY_MOVEMENT_OR_PLATFORM_SYSTEMS_OF_RECORD_REMAIN_SEPARATE",
+    "signal_assessment": "ACTUAL_PAYMENT_FOR_COORDINATION_IS_A_MATERIALLY_STRONGER_REALITY_SIGNAL_BUT_ONE_PASS_STILL_OVERSELECTS_MATURE_EXACT_SUBSCRIPTION_PRODUCTS_WITH_ESTABLISHED_DATA_OR_API_DEPENDENCIES",
+    "response": "RUN_A_SECOND_FORMATION_DIVERSE_INDEPENDENT_PASS_AT_THE_SAME_PAID_COORDINATION_FLOOR_BEFORE_DERIVING_A_STRONGER_DISCOVERY_SIGNAL"
+  },
+  "scan_learnings": [
+    "SCAN089_PAID_CROSS_COMPONENT_COORDINATION_ZERO_RETENTION_ACROSS_AWARD_TRAVEL_PERSONAL_FINANCE_AND_FITNESS_SYNC",
+    "ACTUAL_PAYMENT_FOR_THE_COORDINATION_FUNCTION_IS_PROVEN_ACROSS_THREE_FORMATION_DIVERSE_CURRENT_MARKETS",
+    "PAYMENT_FOR_COORDINATION_IS_STRONGER_THAN_MULTI_COMPONENT_ASSEMBLY_BUT_CAN_SIMPLY_IDENTIFY_MATURE_EXACT_AGGREGATION_OR_SYNC_PRODUCTS",
+    "SPLIT_AUTHORITY_REMAINS_COMMON_PAID_COORDINATORS_OWN_DISCOVERY_AGGREGATION_OR_SYNC_WHILE_INCUMBENTS_RETAIN_TICKET_MONEY_MOVEMENT_OR_PLATFORM_RIGHTS",
+    "A_GENERIC_AGENT_DOES_NOT_INHERIT_COMMERCIAL_DATA_LICENSES_FINANCIAL_CONNECTIVITY_OR_PLATFORM_API_RIGHTS",
+    "ONE_PAID_COORDINATION_PASS_IS_INSUFFICIENT_TO_DERIVE_A_NEW_MECHANISM_REQUIREMENT_RUN_A_SECOND_INDEPENDENT_PASS_AT_THE_SAME_FLOOR",
+    "DO_NOT_DERIVE_AN_AWARD_SEARCH_PERSONAL_FINANCE_AGGREGATOR_OR_FITNESS_SYNC_PRODUCT_FROM_SCAN089_CLOSURES"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_090",
+  "next_search_boundary": "SECOND_INDEPENDENT_PASS_INDEPENDENTLY_REPLICATED_PAID_CROSS_COMPONENT_COORDINATION_REQUIRE_AT_LEAST_TWO_UNAFFILIATED_PARTICIPANT_ACCOUNTS_SHOWING_ACTUAL_PAYMENT_TO_A_DISTINCT_NON_INCUMBENT_SOFTWARE_OR_SERVICE_FOR_COORDINATING_TWO_OR_MORE_EXISTING_COMPONENTS_TO_ACHIEVE_THE_OUTCOME_NOT_MERELY_PAYMENT_FOR_COMPONENT_ACCESS_WHILE_NO_SINGLE_CURRENT_CONTROL_SURFACE_OWNS_THE_END_TO_END_OUTCOME_AND_DECISIVE_ACTIONS_DO_NOT_REQUIRE_INCUMBENT_PRIVILEGED_FALLBACK_OR_MANUAL_EXCEPTION_BEFORE_PRODUCT_CATEGORY_EXCLUDE_SCAN060_TO_089_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_MECHANISM_INHERITANCE_CURRENT_RIGHTS_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED_PROMOTION",
+  "next_action": "VALIDATE_SCAN089_WITH_REPOSITORY_CI_AND_LIVE_JEV_THEN_START_SCAN090_SECOND_PAID_COORDINATION_PASS_IF_AUTONOMOUS_CONTINUATION_ALLOWS",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.reddit.com/r/awardtravel/comments/1u6r1ae/small_wins/",
+    "https://www.reddit.com/r/AlaskaAirlines/comments/1qc8da6/award_travel_sitesapps_currently_using_seatsaero/",
+    "https://www.reddit.com/r/awardtravel/comments/1vbal9h/am_i_correctly_understanding_what_it_takes_to_book/",
+    "https://seats.aero/",
+    "https://seats.aero/about",
+    "https://seats.aero/terms",
+    "https://developers.seats.aero/reference/getting-started-p",
+    "https://www.reddit.com/r/MonarchMoney/comments/1wg2uxc/is_monarch_worth_it_anymore/",
+    "https://www.reddit.com/r/MonarchMoney/comments/1ul6lfh/longtime_user_struggling_with_valueis_it_time_to/",
+    "https://www.reddit.com/r/personalfinance/comments/1uvtr8c/removed/",
+    "https://www.monarch.com/pricing",
+    "https://help.monarch.com/hc/en-us/articles/360048393352-Connection-issues",
+    "https://help.monarch.com/hc/en-us/articles/33707613533972-Understanding-Data-Providers-and-Connections-in-Monarch",
+    "https://www.reddit.com/r/Strava/comments/1vr56mv/strava_sync_with_apple_health_is_infuriating/",
+    "https://www.reddit.com/r/RunGap/comments/1rhmuof/data_from_apple_health_to_garmin_connect/",
+    "https://www.reddit.com/r/AppleWatchFitness/comments/1ux0dwl/need_help_with_ensuring_im_able_to_collect_all_my/",
+    "https://apps.apple.com/us/app/rungap-workout-data-manager/id534460198",
+    "https://www.rungap.com/"
+  ]
+}
