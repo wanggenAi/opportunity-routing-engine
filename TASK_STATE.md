@@ -48,14 +48,14 @@ ACTIVE COMMERCIAL CANDIDATES remains 0. FIRST_EXTERNAL_VALUE_FLOW remains NOT_PR
 
 ## Current Phase
 
-`SCAN_069_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_070_ACTIVE_BUYER_BUILT_SELF_HOSTED_ABSTRACTION_SEARCH`
 
 ## Last Verified Main
 
-`271565e2f45a9bead086d525a1ee8cfcf8891c4c`
-— squash merge of PR #366, `Raise atomic paid evidence to multi-supplier behavior in Scan 068`.
+`be073a126c2503e7af69701a596cdbbae0dec234`
+— squash merge of PR #367, `Test concurrent supplier routing in Scan 069`.
 
-PR #366 repository CI run `35676490926` completed `success`. Live Jev run `35676490932` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #367 repository CI run `35676977657` completed `success`. Live Jev run `35676977622` completed `success`: 6/6 effective routes were `NO_FURTHER_RESEARCH`, 6/6 aligned with authoritative closure, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -63,11 +63,11 @@ PR #366 repository CI run `35676490926` completed `success`. Live Jev run `35676
 
 ## Active Branch
 
-`research/attraction-scan-069`.
+`research/attraction-scan-070`.
 
 ## Active PR
 
-#367 — `Test concurrent supplier routing in Scan 069`. Live GitHub state is authoritative.
+None yet for Scan 070. Live GitHub state is authoritative.
 
 ## CI
 
@@ -82,16 +82,11 @@ PR #366 repository CI run `35676490926` completed `success`. Live Jev run `35676
 
 ## Latest Artifact / Persisted State
 
-New:
-- `data/research_runs/attraction_scan_069.json`
-- `docs/research/ATTRACTION_SCAN_069_2026-09-22.md`
-- `tests/test_attraction_scan_069_multi_supplier_gate.py`
+No Scan 070 result artifact yet. The branch is the reversible continuation checkpoint after Jev-approved Scan 069.
 
-Updated:
-- `data/commercial_reset_state.json`
-- `TASK_STATE.md`
-
-Persisted state now records `ATTRACTION_SCAN_069` complete, zero retained formations, zero commercial promotions, and `ATTRACTION_SCAN_070` as the next discovery pass.
+Inherited current persisted state from main:
+- `data/commercial_reset_state.json` points to `ATTRACTION_SCAN_070`.
+- Scan 070 requires two independent current buyers maintaining buyer-built or self-hosted multi-provider abstractions in production despite available orchestration products, with explicit reasons for bypassing them.
 
 ## Completed
 
