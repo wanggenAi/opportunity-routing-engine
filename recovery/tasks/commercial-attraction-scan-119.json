@@ -1,18 +1,18 @@
 {
   "schema_version": 2,
-  "generation": 2,
+  "generation": 3,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "IN_PROGRESS",
+  "status": "WAITING_CI",
   "task_key": "commercial-attraction-scan-119",
-  "stage": "SCAN_119_READY_TO_OPEN_PR",
+  "stage": "SCAN_119_PR_EXACT_HEAD_VALIDATION",
   "last_observed_main_sha": "42c5b5aa2b71e9b543a9b93f0f710f83e03cf100",
   "work_branch": "research/attraction-scan-119",
   "work_head_sha": "a5fa9fe6bd012e2b5a737ae737c422879589d45e",
-  "active_pr": null,
+  "active_pr": 419,
   "ci": {
     "run_id": null,
-    "head_sha": null,
-    "status": "NOT_STARTED",
+    "head_sha": "a5fa9fe6bd012e2b5a737ae737c422879589d45e",
+    "status": "WAITING",
     "conclusion": null
   },
   "production_or_artifact": {
@@ -21,14 +21,7 @@
       "PR418 exact-head CI and live Jev successful; ADVANCE_TO_NEXT_SCAN consumed"
     ]
   },
-  "pending_operation": {
-    "operation_id": "scan119-open-pr-main",
-    "kind": "CREATE_PULL_REQUEST",
-    "target": "research/attraction-scan-119 -> main",
-    "phase": "PREPARED",
-    "idempotency": "Search PRs for exact head/base before retrying creation.",
-    "prepared_generation": 2
-  },
+  "pending_operation": null,
   "health": {
     "recovery": "HEALTHY",
     "last_error": null
@@ -39,7 +32,7 @@
     "Preserved pre-existing Scan119 branch/start commit",
     "Identified fresh early-gate evidence for Jintian Yuanfeng, Longjoy Technology and Yudu Media"
   ],
-  "next_action": "Open exactly one Scan119 PR from the frozen head, then wait for exact-head CI and live Jev.",
+  "next_action": "Wait for exact-head repository CI and live TypeSafe/Jev; consume directive; merge only if acceptable.",
   "do_not_repeat": [
     "Do not recreate research/attraction-scan-119",
     "Do not repeat Scan060-118 primary formations/signals",
