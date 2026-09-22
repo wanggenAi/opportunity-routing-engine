@@ -1,19 +1,19 @@
 {
   "schema_version": 2,
-  "generation": 3,
+  "generation": 4,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "task_key": "commercial-attraction-scan-090",
-  "stage": "SCAN_090_PR388_FINAL_HEAD_VALIDATION_PENDING",
-  "last_observed_main_sha": "6278ac6e6f80ecfb0764d65d6fffc07535d4afe3",
+  "stage": "SCAN_090_MERGED_VALIDATED_CONTINUATION_CONSUMED",
+  "last_observed_main_sha": "c1b3673db8f69e60cc20dc7ba954bb28f1008891",
   "work_branch": "research/attraction-scan-090",
   "work_head_sha": "70c686e1d11a15830d375e2eb9921143f9bd407c",
   "active_pr": 388,
   "ci": {
-    "run_id": null,
+    "run_id": 35697745738,
     "head_sha": "70c686e1d11a15830d375e2eb9921143f9bd407c",
-    "status": "PENDING",
-    "conclusion": null
+    "status": "COMPLETED",
+    "conclusion": "success"
   },
   "production_or_artifact": {
     "status": "NOT_APPLICABLE",
@@ -36,13 +36,24 @@
     "SCAN_090_RESET_STATE_UPDATED",
     "SCAN_090_TASK_STATE_UPDATED",
     "SCAN_090_PR388_OPENED",
-    "SCAN_090_TASK_STATE_BOUND_TO_PR388"
+    "SCAN_090_TASK_STATE_BOUND_TO_PR388",
+    "SCAN_090_FINAL_HEAD_CI_SUCCESS",
+    "SCAN_090_LIVE_JEV_SUCCESS",
+    "SCAN_090_JEV_CONTINUATION_ADVANCE_TO_NEXT_SCAN",
+    "SCAN_090_PR388_MERGED"
   ],
-  "next_action": "Validate PR #388 final head 70c686e1 with repository CI and live Jev, then consume continuation and merge if permitted.",
+  "next_action": "Superseded by commercial-attraction-scan-091 checkpoint.",
   "do_not_repeat": [
     "Do not repeat Scan 089 Seats.aero award-search coordination.",
     "Do not repeat Scan 089 Monarch multi-institution aggregation.",
     "Do not repeat Scan 089 HealthFit/RunGap workout-data synchronization.",
     "Do not repeat Scan 015 public-rights research while written provider evidence is outstanding."
-  ]
+  ],
+  "jev": {
+    "run_id": 35697745723,
+    "status": "COMPLETED",
+    "conclusion": "success",
+    "autonomous_continuation_allowed": true,
+    "next_action": "ADVANCE_TO_NEXT_SCAN"
+  }
 }
