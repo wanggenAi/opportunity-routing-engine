@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "generation": 1,
+  "repository": "wanggenAi/opportunity-routing-engine",
+  "status": "IN_PROGRESS",
+  "task_key": "commercial-attraction-scan-120",
+  "stage": "SCAN_120_RESEARCH",
+  "last_observed_main_sha": "6443175f9a9dc0e9f02a96519a6c365299d3e820",
+  "work_branch": "research/attraction-scan-120",
+  "work_head_sha": "c874af509afa777ff09c1e8feec95d3047d88c29",
+  "active_pr": null,
+  "ci": {
+    "run_id": null,
+    "head_sha": null,
+    "status": "NOT_STARTED",
+    "conclusion": null
+  },
+  "production_or_artifact": {
+    "status": "NOT_APPLICABLE",
+    "evidence": [
+      "Scan119 PR419 exact-head CI/Jev succeeded and ADVANCE_TO_NEXT_SCAN was consumed."
+    ]
+  },
+  "pending_operation": null,
+  "health": {
+    "recovery": "HEALTHY",
+    "last_error": null
+  },
+  "completed": [
+    "Created Scan120 branch from verified main 6443175f9a9dc0e9f02a96519a6c365299d3e820.",
+    "Persisted Scan120 start state and inverted retrieval order in TASK_STATE."
+  ],
+  "next_action": "Research fresh current low-FTE entities with positive current revenue, net profit and unambiguous OCF before reverse-checking executed pre-period control.",
+  "do_not_repeat": [
+    "Do not repeat Scan060-119 primary formations/signals.",
+    "Do not recreate research/attraction-scan-120.",
+    "Do not start from acquisition announcements when current economics have not passed.",
+    "Do not relax commercial gates to retain a formation."
+  ]
+}
