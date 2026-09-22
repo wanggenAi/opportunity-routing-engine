@@ -44,13 +44,16 @@ That directive was consumed to run Scan 101.
 
 ## Active PR
 
-Not opened yet. Open the PR from this branch, then bind TASK_STATE once to that PR number and validate the resulting exact head.
+#399 — `Run operator-acquirable control Scan 101`.
+
+This TASK_STATE binding commit intentionally advances the PR head once. Repository CI and live TypeSafe/Jev must validate the resulting exact final head before merge.
 
 ## CI
 
 - PR #398 final-head repository CI `35717801538`: success.
 - PR #398 live TypeSafe/Jev `35717801496`: success; `ADVANCE_TO_NEXT_SCAN`.
-- Scan 101 PR validation: pending.
+- PR #399 final-head validation: pending after this TASK_STATE binding commit.
+- Do not merge PR #399 or start Scan 102 from an earlier head.
 
 ## Parallel Validation
 
@@ -179,4 +182,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open the Scan 101 PR, bind TASK_STATE once to that PR, validate the exact final head with repository CI plus live TypeSafe/Jev, merge only if permitted, then start Scan 102 only if `autonomous_continuation_allowed=true`.
+Validate PR #399 exact final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, then start Scan 102 only if `autonomous_continuation_allowed=true`.
