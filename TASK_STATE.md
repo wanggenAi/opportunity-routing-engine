@@ -14,35 +14,29 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_113` is complete with zero retained formations. Completed-control + post-purchase positive revenue/profit is now proven in current China records, but the strongest exact packets still fail positive post-purchase cash generation or low-human-service delivery. The next retrieval priority is completed control with positive post-transfer operating cashflow and explicit low FTE/replacement-service burden.
+Discovery: `ATTRACTION_SCAN_114` is now in progress. Scan 113 proved completed control plus positive post-purchase revenue/profit can coexist, but exact packets still failed positive post-purchase cash generation or low-human-service delivery. Scan 114 therefore targets completed control with positive post-transfer operating cashflow and explicit low FTE/replacement-service burden, without inheriting a product mechanism or prior formation.
 
 ## Current Phase
 
-`SCAN_113_PR_VALIDATION_PENDING`
+`SCAN_114_RESEARCH_IN_PROGRESS`
 
 ## Last Verified Main
 
-`7d6efab30ae9e91d2fd121743efd09e99a92aebf`
-— squash merge of replacement PR #411, `Validate low-headcount control Scan 112`.
+`c4a472a2b7591c8882e7ceaeed8eb665219cb302`
+— squash merge of PR #412, `Run completed-control cashflow Scan 113`.
 
-PR #411 final head `c48d806bcb45484b6071eef02b266463f50b84ba`:
-- repository CI `35749234763`: success;
-- live TypeSafe/Jev `35749234619`: success;
-- live-shadow job `106818788470`: success;
-- advisory artifact `10703754046`;
+PR #412 final head `3fc453519f31b07319e0c6eca57ac3636976a6da`:
+- repository CI `35750229521`: success;
+- live TypeSafe/Jev `35750229538`: success;
+- live-shadow job `106822236833`: success;
+- advisory artifact `10704905908`;
 - 3/3 model and effective route `NO_FURTHER_RESEARCH`;
 - 3/3 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-Merged-main push validation:
-- repository CI `35749343576`: success;
-- Jev advisory `35749343610`: success.
-
-PR #410 remains closed/superseded because exact-head checks never landed on its final head. Its older successful runs were not consumed.
-
-That #411 exact-head directive was consumed to start Scan 113.
+That exact-head directive was consumed to start Scan 114.
 
 ## Active Issue
 
@@ -50,17 +44,15 @@ That #411 exact-head directive was consumed to start Scan 113.
 
 ## Active Branch
 
-`research/attraction-scan-113`
+`research/attraction-scan-114`
 
 ## Active PR
 
-Not yet opened at this checkpoint. Do not make branch commits after PR creation; keep the opened PR head final so exact-head CI/Jev attaches to the same SHA.
+None yet. Do not open a PR until Scan 114 research artifacts, test and state are final.
 
 ## CI
 
-No Scan 113 PR validation exists yet.
-
-Consume a Scan 113 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
+No Scan 114 PR validation exists yet. Scan 113 exact-final-head repository CI and live TypeSafe/Jev both passed on PR #412 and its continuation directive has been consumed.
 
 ## Parallel Validation
 
@@ -168,7 +160,7 @@ Discovery:
 
 Engineering:
 - no current TypeSafe/Jev integration blocker;
-- Scan 113 still needs exact-final-head repository CI plus live TypeSafe/Jev validation.
+- Scan 114 research and its durable artifacts are not yet complete.
 
 ## Do Not Repeat
 
@@ -215,4 +207,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open the Scan 113 PR from the now-final branch head. Do not commit after opening it. Validate that exact PR head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are acceptable.
+Execute Scan 114 against the persisted next-evidence boundary: seek current-China completed controlling transfers with independently bound positive post-transfer operating cashflow and explicit low FTE or replacement-service burden; preserve same-entity/same-control/same-period economics, fail closed on capital/human-delivery ambiguity, and persist the scan before opening any PR.
