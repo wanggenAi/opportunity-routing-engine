@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "generation": 1,
+  "repository": "wanggenAi/opportunity-routing-engine",
+  "status": "IN_PROGRESS",
+  "task_key": "commercial-attraction-scan-085",
+  "stage": "SCAN_085_RESEARCH",
+  "last_observed_main_sha": "a4ab03ed86706afdcccd22f0b4ea264f7e235cda",
+  "work_branch": "research/attraction-scan-085",
+  "work_head_sha": "7c6a3dddcf8df4477b68c2ee3c01a21cb59c11bb",
+  "active_pr": null,
+  "ci": {
+    "run_id": null,
+    "head_sha": null,
+    "status": "NOT_STARTED",
+    "conclusion": null
+  },
+  "production_or_artifact": {
+    "status": "NOT_APPLICABLE",
+    "evidence": [
+      "PR382_CI_35689404591_SUCCESS",
+      "PR382_JEV_35689404496_SUCCESS_ADVANCE_TO_NEXT_SCAN"
+    ]
+  },
+  "pending_operation": null,
+  "health": {
+    "recovery": "HEALTHY",
+    "last_error": null
+  },
+  "completed": [
+    "SCAN_084_MERGED_MAIN_A4AB03ED",
+    "SCAN_084_PR_CI_SUCCESS",
+    "SCAN_084_JEV_ADVANCE_TO_NEXT_SCAN",
+    "SCAN_085_BRANCH_STARTED"
+  ],
+  "next_action": "Execute Scan 085 participant-authored control-surface-bypass research, persist scan artifacts, validate, open PR, and consume CI/Jev continuation.",
+  "do_not_repeat": [
+    "Do not rerun Scan 084.",
+    "Do not recreate research/attraction-scan-085.",
+    "Do not rerun PR #382 CI/Jev.",
+    "Do not repeat Scan 015 public-rights research while written provider evidence is outstanding."
+  ]
+}
