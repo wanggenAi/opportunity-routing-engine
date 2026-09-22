@@ -14,27 +14,27 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_107` is complete as the first small-operator verified-net-cashflow control pass. It retained zero formations and advances the next evidence priority to a second independent pass that binds received revenue, direct costs, owner labor/replacement cost, rights closure and realized/bounded exit value to the same operator, control position and time window.
+Discovery: run `ATTRACTION_SCAN_108`, the second independent small-operator verified-net-cashflow control pass. Bind executed acquisition/license/contract, control cost, received external-customer revenue, direct operating costs, owner labor or replacement cost, rights closure and realized/bounded exit value to the same operator, same control position and same time window. Preserve formation diversity and fail closed.
 
 ## Current Phase
 
-`SCAN_107_PR_VALIDATION_REPAIR_ACTIVE`
+`SCAN_108_RESEARCH_ACTIVE`
 
 ## Last Verified Main
 
-`334d0340ede7be1b1dbf20c5b2dba12af067c4cb`
-— squash merge of PR #404, `Run small-operator transfer continuity Scan 106`.
+`d5a10750c811c5b058a36e9987f0a438b8988a32`
+— squash merge of PR #405, `Run verified small-operator net-cashflow Scan 107`.
 
-PR #404 final head `d953648915c4041d61fd5e0dd6d8572ceb2ef648`:
-- repository CI `35734246728`: success;
-- live TypeSafe/Jev `35734246733`: success;
-- advisory artifact `10696788165`;
+PR #405 final head `fab3dc43e3ce8092345e35fd19009b0da8485d03`:
+- repository CI `35739006448`: success;
+- live TypeSafe/Jev `35739006435`: success;
+- advisory artifact `10699296179`;
 - 3/3 model and effective route `NO_FURTHER_RESEARCH`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That directive was consumed to start Scan 107.
+That exact-head directive was consumed to start Scan 108.
 
 ## Active Issue
 
@@ -42,29 +42,19 @@ That directive was consumed to start Scan 107.
 
 ## Active Branch
 
-`research/attraction-scan-107`
+`research/attraction-scan-108`
 
 ## Active PR
 
-#405 — `Run verified small-operator net-cashflow Scan 107`.
-
-Pre-repair PR head: `acc3b9e98b91329c1463d08d6ccd2e758603088f`.
-GitHub live PR head is authoritative after this TASK_STATE repair commit.
+None yet. Scan 108 research is active.
 
 ## CI
 
-For PR #405 pre-repair head `acc3b9e98b91329c1463d08d6ccd2e758603088f`:
-- repository CI run `35737644463`: failure;
-- failure is limited to `tests/test_repository_recovery_contract.py` because this TASK_STATE revision omitted five required operational headings: `Goal`, `Current Unique Commercial Research Goal`, `Latest Artifact / Persisted State`, `Completed`, and `Current Findings`;
-- all 701 tests ran; five failures were the five missing-heading subtests;
-- live TypeSafe/Jev run `35737644499`: success;
-- live advisory artifact `10697059528`;
-- 3/3 model and effective route `NO_FURTHER_RESEARCH`;
-- `execution_status=SUCCESS`;
-- `autonomous_continuation_allowed=true`;
-- `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+No Scan 108 PR validation exists yet.
 
-The Jev directive from the failed-CI head is not consumed. Exact-final-head repository CI and live TypeSafe/Jev must both be terminal and acceptable before continuation.
+The last authoritative validation is PR #405 final head `fab3dc43e3ce8092345e35fd19009b0da8485d03`, where both repository CI and live TypeSafe/Jev succeeded.
+
+Consume any Scan 108 continuation directive only from one exact final PR head with acceptable repository CI and live Jev validation.
 
 ## Parallel Validation
 
@@ -74,16 +64,13 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-New in Scan 107:
+Merged Scan 107 artifacts:
 - `data/research_runs/attraction_scan_107.json`;
 - `docs/research/ATTRACTION_SCAN_107_2026-09-22.md`;
-- `tests/test_attraction_scan_107_normalized_cashflow_boundary.py`.
+- `tests/test_attraction_scan_107_normalized_cashflow_boundary.py`;
+- `data/commercial_reset_state.json`.
 
-Updated:
-- `data/commercial_reset_state.json`;
-- `TASK_STATE.md`.
-
-Machine state on the Scan 107 branch:
+Current machine state inherited from Scan 107:
 - last completed scan = `ATTRACTION_SCAN_107`;
 - last resolved formation = `ATTRACTION_SCAN_107-F3`;
 - next scan = `ATTRACTION_SCAN_108`;
@@ -93,56 +80,29 @@ Machine state on the Scan 107 branch:
 
 ## Completed
 
-- Consumed PR #404's exact-head Jev continuation directive and started Scan 107 from merged `main`.
-- Ran the first small-operator verified-net-cashflow control pass.
-- Enforced same-operator / same-control-position / same-time-window economic binding and prohibited cross-entity stitching.
-- Examined formation-diverse China evidence across convenience retail entry, turnkey small hospitality transfer and a regulated lottery-station takeover.
-- Retained zero formations and promoted zero commercial candidates.
-- Opened PR #405 and obtained a real live TypeSafe/Jev success on its pre-repair head.
-- Diagnosed the repository CI failure as a TASK_STATE recovery-contract formatting regression rather than a research, engine or Jev failure.
-- Restored the required TASK_STATE operational headings in this repair.
+- Recovered PR #405 from the interrupted session without redoing Scan 107.
+- Diagnosed its first CI failure as a TASK_STATE recovery-contract regression only.
+- Restored the required TASK_STATE sections.
+- Revalidated the exact repaired head: repository CI passed and live TypeSafe/Jev passed.
+- Confirmed TypeSafe installed `typesafe-sdk==0.7.0`, called `jev-latest`, aligned 3/3 entities with authoritative Scan 107 closures and returned `ADVANCE_TO_NEXT_SCAN`.
+- Squash-merged PR #405 to main as `d5a10750c811c5b058a36e9987f0a438b8988a32`.
+- Created `research/attraction-scan-108` from that merged main.
+- Began a fresh Scan 108 evidence pass without reusing Scan 107's convenience-store, Dali homestay, lottery-station, self-service-billiard or shared-power-bank signals.
 
 ## Current Findings
 
-### Scan 107-F1 — Shenzhen convenience-store fresh entry
+Scan 108 evidence collection is active.
 
-Real small-operator entry, post-entry sales and accounting remainder are observed, but capital loss and owner physical exhaustion show that apparent accounting profit is not normalized founder-light cashflow. Exact owner hours, full cost ledger and transfer rights remain unclosed.
+Fresh candidate structures currently under same-operator cashflow pressure:
+- a current Hangzhou mall selfie-booth operator with participant-reported orders and net profit after rent/equipment share, but exact same-operator acquisition/control cost, owner labor and exit value are not yet closed;
+- current China 3D-print micro-operators with explicit equipment/material/labor economics, but commodity equipment plus recurring design/sales/production labor may fail the decisive noncommodity-control and founder-light floors;
+- current executed smart-luggage-locker station concessions with explicit contract winners/fees, but station-level received customer revenue, direct costs, owner/replacement labor and exit value are not publicly bound to the same concession.
 
-Verdict: demoted.
-
-### Scan 107-F2 — three-room Dali homestay transfer
-
-An actual RMB450k turnkey transfer and seller-reported buyer payback progress are observed, but buyer receipts, direct costs, owner labor and rights are not published. Seller economics from a different seven-room property were explicitly not stitched into the buyer case.
-
-Verdict: demoted.
-
-### Scan 107-F3 — Xi'an lottery station takeover
-
-A named RMB160k takeover and current RMB4m+ gross turnover are observed, but gross ticket sales are not operator income. Exact agency-right transfer path, direct costs and owner economics remain unclosed, and current value depends heavily on person-specific trust/community.
-
-Verdict: demoted.
-
-Key invariant:
-
-```text
-ONE OPERATOR'S HOURS
-+ ANOTHER OPERATOR'S PROFIT
-!= NORMALIZED CASHFLOW
-
-ONE PROPERTY'S COSTS
-+ ANOTHER PROPERTY'S ACQUISITION PRICE
-!= BUYER ROI
-
-GROSS TRANSACTION VOLUME
-!= OPERATOR RECEIVED REVENUE
-
-PRIVATE "TAKEOVER"
-!= REGULATED RIGHTS CLOSURE
-```
+No promotion has occurred.
 
 ## Next Evidence Boundary
 
-Scan 108 should independently repeat the normalized-net-cashflow floor and require:
+Scan 108 requires:
 
 ```text
 SAME OPERATOR
@@ -158,7 +118,7 @@ SAME OPERATOR
 => NORMALIZED NET CASHFLOW
 ```
 
-Prefer evidence where delivery is founder-light and machine-delegatable, but do not derive a product or vertical from Scan 107 closures.
+Machine-light operation alone does not pass. A generic local asset, generic equipment purchase or unbound category margin does not constitute decisive noncommodity operator control.
 
 ## Blockers
 
@@ -166,16 +126,15 @@ Validation:
 - Scan 015-F1 still needs a real official written provider response/agreement and founder-free inbound proof.
 
 Discovery:
-- Scan 107 research itself is complete; no evidence blocker remains inside this pass.
-- Do not lower hard floors because this scan closes at zero.
+- no user action is required;
+- public evidence often splits contract/control-right facts from operator cashflow facts, so cross-entity stitching remains prohibited.
 
 Engineering:
-- no current TypeSafe/Jev integration blocker;
-- PR #405 must be validated on one exact final PR head after this TASK_STATE repair before its continuation directive may be consumed.
+- no current TypeSafe/Jev integration blocker.
 
 ## Do Not Repeat
 
-- Do not repeat Scan 107 convenience-store entry, three-room Dali homestay transfer or Xi'an lottery-station takeover as Scan 108 primary formations.
+- Do not repeat Scan 107 convenience-store entry, three-room Dali homestay transfer, Xi'an lottery-station takeover, self-service-billiard observation or shared-power-bank observation as Scan 108 primary formations.
 - Do not repeat Scan 106 sodium-ion technology licensing, Qianshu Dragon Kiln IP or distributed-PV project transfers.
 - Do not repeat Scan 105 Gel Blaster acquisition, parcel-station transfer or independent source-code sale.
 - Do not repeat Scan 104 profitable-app sale, UCharts/Figma plugin distribution or publisher-operated game.
@@ -219,4 +178,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Validate the new exact PR #405 head with repository CI and live TypeSafe/Jev; if both are acceptable and autonomous continuation remains allowed, consume that exact-head directive immediately.
+Complete Scan 108's fresh second independent normalized-net-cashflow evidence pass and persist its research JSON, research note, regression test, commercial state and handoff state.
