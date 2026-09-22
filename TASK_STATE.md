@@ -14,19 +14,19 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` still requires written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 084 completes the second independent bilateral-partial-flow pass. The next unique research goal is Scan 085: require observed participant-authored manual/off-platform completion despite an available exact control surface, plus an explicit bypass/incompleteness reason.
+Discovery: execute `ATTRACTION_SCAN_085`: require observed participant-authored manual/off-platform completion despite an available exact control surface, plus an explicit bypass/incompleteness reason.
 
 ## Current Phase
 
-`SCAN_084_COMPLETE_AWAITING_PR_CI_JEV_CONTINUATION`
+`SCAN_085_IN_PROGRESS_PARTICIPANT_AUTHORED_CONTROL_SURFACE_BYPASS_FIRST`
 
 ## Last Verified Main
 
-`958f91ae95519fa5204c6b4945334f2c00e7aa8b`
-— squash merge of PR #381, `Validate bilateral partial-flow discovery in Scan 083`.
+`a4ab03ed86706afdcccd22f0b4ea264f7e235cda`
+— squash merge of PR #382, `Advance beyond bilateral-flow-only evidence after Scan 084`.
 
-PR #381 final repository CI run `35689116606`: success.
-PR #381 final live Jev run `35689116567`: success; `typesafe-sdk==0.7.0`, model `jev-latest`, Scan 083 3/3 `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
+PR #382 final repository CI run `35689404591`: success.
+PR #382 final live Jev run `35689404496`: success; `typesafe-sdk==0.7.0`, model `jev-latest`, Scan 084 3/3 `NO_FURTHER_RESEARCH`, failed=0, `autonomous_continuation_allowed=true`, `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -34,17 +34,17 @@ PR #381 final live Jev run `35689116567`: success; `typesafe-sdk==0.7.0`, model 
 
 ## Active Branch
 
-`research/attraction-scan-084`
+`research/attraction-scan-085`
 
 ## Active PR
 
-#382 — `Advance beyond bilateral-flow-only evidence after Scan 084`.
+None. Scan 085 research branch is active before PR creation.
 
 ## CI
 
 - PR #381 repository CI `35689116606`: success.
 - PR #381 live TypeSafe/Jev `35689116567`: success; Scan 083 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
-- Scan 084 PR/CI/live Jev has not run yet.
+- PR #382 final head `afe92b186c13b73fdf18ef0a7a821930daadeb6e`: repository CI `35689404591` success; live Jev `35689404496` success; Scan 084 3/3 `NO_FURTHER_RESEARCH`; `ADVANCE_TO_NEXT_SCAN`.
 
 ## Latest Artifact / Persisted State
 
@@ -117,7 +117,7 @@ Discovery:
 
 ## Next Action
 
-Validate PR #382's final head with repository CI plus live TypeSafe/Jev; consume the continuation directive.
+Execute Scan 085 on independent participant-authored bypass evidence. Require actual manual/off-platform bilateral completion plus an explicit participant-stated reason why the exact control surface is bypassed or incomplete; only then evaluate rights, economics, founder independence, machine delegatability and generic-agent substitution.
 
 ## Do Not Repeat
 
