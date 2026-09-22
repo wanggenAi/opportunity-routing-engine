@@ -1,16 +1,18 @@
 {
   "schema_version": 2,
-  "generation": 3,
+  "generation": 4,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "IN_PROGRESS",
+  "status": "DONE",
   "task_key": "commercial-attraction-scan-085",
-  "stage": "PR_383_VALIDATED_READY_TO_MERGE",
-  "last_observed_main_sha": "a4ab03ed86706afdcccd22f0b4ea264f7e235cda",
+  "stage": "SCAN_085_MERGED_VERIFIED",
+  "last_observed_main_sha": "2584deb8755b4683af7c8d87c48bfc69a9baffcc",
   "work_branch": "research/attraction-scan-085",
   "work_head_sha": "8b03b5a239a212566405d99920014a7d50672bf9",
   "active_pr": {
     "number": 383,
-    "head_sha": "8b03b5a239a212566405d99920014a7d50672bf9"
+    "state": "MERGED",
+    "head_sha": "8b03b5a239a212566405d99920014a7d50672bf9",
+    "merge_sha": "2584deb8755b4683af7c8d87c48bfc69a9baffcc"
   },
   "ci": {
     "run_id": 35690471250,
@@ -39,9 +41,10 @@
     "SCAN_085_ARTIFACTS_PERSISTED",
     "PR_383_OPENED",
     "PR_383_CI_SUCCESS",
-    "PR_383_JEV_SUCCESS_ADVANCE_TO_NEXT_SCAN"
+    "PR_383_JEV_SUCCESS_ADVANCE_TO_NEXT_SCAN",
+    "PR_383_MERGED_MAIN_2584DEB8"
   ],
-  "next_action": "Merge PR #383 with expected head SHA, verify main, then start Scan 086.",
+  "next_action": "Start ATTRACTION_SCAN_086 from merged main under a new task checkpoint.",
   "do_not_repeat": [
     "Do not rerun Scan 084.",
     "Do not recreate research/attraction-scan-085.",
