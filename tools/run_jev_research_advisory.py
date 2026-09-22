@@ -88,9 +88,17 @@ def main() -> int:
         commercial_state=commercial_state,
         max_entities=args.max_entities,
     )
+    examined_formations = scan.get("examined_formations")
+    authoritative_zero_admission = (
+        scan.get("status") == "COMPLETE"
+        and scan.get("zero_primary_admissions") is True
+        and isinstance(examined_formations, list)
+        and len(examined_formations) == 0
+    )
     payload = evaluate_research_advisory(
         states=states,
         config=JevResearchConfig.from_env(),
+        authoritative_zero_admission=authoritative_zero_admission,
     )
     payload["input_scan_path"] = scan_path.as_posix()
     payload["input_scan_id"] = str(scan.get("scan_id") or "")
@@ -123,6 +131,9 @@ def main() -> int:
                 "input_scan_id": payload.get("input_scan_id"),
                 "input_scan_path": payload.get("input_scan_path"),
                 "entity_count": payload.get("entity_count"),
+                "authoritative_zero_admission": payload.get(
+                    "authoritative_zero_admission"
+                ),
                 "summary": payload.get("summary"),
                 "continuation_next_action": continuation.get("next_action"),
                 "autonomous_continuation_allowed": continuation.get(

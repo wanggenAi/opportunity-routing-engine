@@ -424,6 +424,7 @@ def evaluate_research_advisory(
     states: list[Mapping[str, Any]],
     config: JevResearchConfig,
     provider: JevProvider | None = None,
+    authoritative_zero_admission: bool = False,
 ) -> dict[str, Any]:
     """Evaluate research sequencing without any mutation path to commercial truth."""
 
@@ -444,6 +445,7 @@ def evaluate_research_advisory(
         "requested_model": config.model,
         "shadow_mode": config.shadow_mode,
         "entity_count": len(states),
+        "authoritative_zero_admission": bool(authoritative_zero_admission),
         "rows": [],
     }
 
@@ -454,6 +456,13 @@ def evaluate_research_advisory(
     if not config.shadow_mode:
         base["execution_status"] = "REFUSED_NON_SHADOW"
         base["summary"] = _summary([])
+        return base
+
+    if not states:
+        base["summary"] = _summary([])
+        base["execution_status"] = (
+            "SUCCESS" if authoritative_zero_admission else "FAILED"
+        )
         return base
 
     if provider is None:
@@ -661,7 +670,10 @@ def build_continuation_directive(payload: Mapping[str, Any]) -> dict[str, Any]:
             }
         )
 
-    if execution_status != "SUCCESS" or not rows:
+    authoritative_zero_admission = payload.get("authoritative_zero_admission") is True
+    if execution_status != "SUCCESS" or (
+        not rows and not authoritative_zero_admission
+    ):
         human_review_required = True
 
     executable = [
