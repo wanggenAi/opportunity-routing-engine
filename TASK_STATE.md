@@ -71,7 +71,7 @@ PR #368 repository CI run `35677470709` completed `success`. Live Jev run `35677
 
 ## Active PR
 
-PENDING — open the Scan 071 PR after this durable checkpoint.
+#369 — `Keep discovery broad after buyer-budget Scan 071`. Live GitHub state is authoritative.
 
 ## CI
 
