@@ -67,7 +67,7 @@ PR #365 repository CI run `35675786747` completed `success`. Live Jev run `35675
 
 ## Active PR
 
-None yet for Scan 068. Live GitHub state is authoritative.
+#366 — `Raise atomic paid evidence to multi-supplier behavior in Scan 068`. Live GitHub state is authoritative.
 
 ## CI
 
