@@ -52,11 +52,13 @@ That exact-head directive was consumed to start Scan 112.
 
 ## Active PR
 
-Not yet opened at this checkpoint. GitHub live state wins after PR creation.
+#410 — `Run low-headcount control Scan 112`.
+
+Opened from `research/attraction-scan-112` into `main`. This checkpoint write advances the branch after PR creation, so resolve the live PR head before validating CI/Jev; do not treat the pre-checkpoint head as final.
 
 ## CI
 
-No Scan 112 PR validation exists yet.
+PR #410 is open. Exact-final-head validation is pending after this checkpoint commit.
 
 Consume a Scan 112 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
 
