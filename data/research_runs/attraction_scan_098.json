@@ -1,0 +1,187 @@
+{
+  "schema_version": "attraction-scan.v74",
+  "scan_id": "ATTRACTION_SCAN_098",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA",
+    "GLOBAL_AUXILIARY"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "SECOND_INDEPENDENT_PARTICIPANT_CONTROLLED_DIGITAL_ACTION_RIGHTS_PASS_REQUIRE_DIRECT_CURRENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_AND_EVIDENCE_DECISIVE_COMPLETION_STEPS_OCCUR_PRIMARILY_INSIDE_PARTICIPANT_AUTHORIZED_DIGITAL_SYSTEMS_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_097_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_OPEN_SOURCE_SUBSTITUTE_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": true,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_098-F1",
+      "title": "CHINA_CROSS_SYSTEM_INTERNAL_MARKETING_OPERATIONS_APPROVAL_AUTOMATION",
+      "chinese_title": "中国跨系统内部营销运营的提案、审批与写回自动化",
+      "evidence_class": "CURRENT_CHINA_PARTICIPANT_AUTHORED_CROSS_SYSTEM_DIGITAL_OPERATION_FRICTION_WITH_CURRENT_WORKFLOW_PLATFORM_AND_HUMAN_APPROVAL_SUBSTITUTES",
+      "observed_actor_state_change_evidence": [
+        "A July 2026 Chinese participant described an internal marketing tool delayed for almost four years because business knowledge had to cross product, engineering and testing handoffs, then reached a runnable trial in roughly five focused development days by working directly with AI.",
+        "The live flow spans three internal systems for audience/behavior data, product/order/inventory/campaign/member state and customer outreach, and the participant explicitly retained dry-run and human approval before price, membership, coupon or outreach write actions."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The company already controls the source systems, accounts, internal business rules and the right to read and conditionally write the relevant operational state.",
+        "The underused asset is fragmented internal knowledge and API-accessible state that previously remained stranded behind translation, prioritization and coordination overhead."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Before the new implementation, the participant repeatedly translated operational rules into diagrams, product specifications, reviews, engineering estimates and test cases, with personnel or rule changes resetting the chain.",
+        "The current workaround compresses that chain into AI-assisted adapter construction, deterministic checks, dry-run previews, approval gates, logs, smoke tests and bounded write-back."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is a strong participant-controlled digital-action fit because the organization owns the credentials and most decisive write permissions.",
+        "But the valuable residue is highly company-specific: changing API fields, data semantics, fragmented business rules and risk policy still require local configuration and maintenance rather than exposing a reusable neutral routing edge."
+      ],
+      "economic_signal": [
+        "A four-year delayed internal capability becoming testable within days demonstrates material internal time-to-value and avoided coordination cost.",
+        "No independent external buyer, recurring settlement or reusable cross-company control surface is evidenced; the same evidence can describe bespoke internal integration rather than a founder-independent business."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "n8n currently provides self-hostable workflow automation, custom API connections, deterministic logic, AI agents, human-in-the-loop approvals and error/fallback control across a large integration surface.",
+        "Dify Workflow Studio currently supports tools, custom APIs, code, triggers, branching, human review, failure handling and run tracing.",
+        "General coding agents can rapidly build or modify the remaining company-specific adapters when the organization already controls system access."
+      ],
+      "founder_independence_check": "PARTIAL_PASS_EXECUTION_CAN_RUN_WITHOUT_FOUNDER_AFTER_CONFIGURATION_BUT_API_SCHEMA_DATA_SEMANTICS_AND_FRAGMENTED_BUSINESS_RULE_CHANGES_CREATE_RECURRING_CLIENT_SPECIFIC_MAINTENANCE",
+      "data_action_rights_check": "PASS_FOR_COMPANY_CONTROLLED_READS_DRY_RUNS_APPROVALS_AND_AUTHORIZED_WRITES_PARTIAL_FOR_ACTIONS_WHERE_INTERNAL_ROLE_POLICY_STILL_REQUIRES_NAMED_HUMAN_APPROVAL",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EXTERNAL_EDGE_MATURE_WORKFLOW_PLATFORMS_AND_CODING_AGENTS_ALREADY_SUPPLY_THE_REUSABLE_AUTOMATION_PRIMITIVES_WHILE_THE_UNSOLVED_RESIDUAL_IS_BESPOKE_COMPANY_CONTEXT",
+      "machine_delegatability_check": "PASS_HIGH_FOR_DATA_READS_RULE_EVALUATION_PROPOSAL_DRY_RUN_LOGGING_APPROVAL_ROUTING_AND_AUTHORIZED_WRITEBACK",
+      "generic_agent_substitutability_check": "FAIL_HARD_THE_PARTICIPANT_CONTROLLED_ACTION_RIGHTS_AND_APIS_ARE_DIRECTLY_AVAILABLE_TO_GENERAL_CODING_AND_WORKFLOW_AGENTS",
+      "verdict": "DEMOTED_REAL_HIGH_VALUE_INTERNAL_DIGITAL_FRICTION_AND_STRONG_ACTION_RIGHTS_BUT_THE_REUSABLE_LAYER_IS_ALREADY_COMMODITIZED_BY_WORKFLOW_AND_CODING_AGENTS_WHILE_THE_RESIDUAL_IS_CLIENT_SPECIFIC_INTEGRATION_AND_GOVERNANCE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_098-F2",
+      "title": "CHINA_TEAM_SMS_OTP_ROUTING_AND_SHARED_ACCOUNT_CODE_DISTRIBUTION",
+      "chinese_title": "中国团队共享账号短信验证码的规则路由与部门分发",
+      "evidence_class": "CURRENT_CHINA_PARTICIPANT_AUTHORED_SHARED_ACCOUNT_SMS_ROUTING_FRICTION_WITH_EXECUTED_PRODUCT_PRICING_AND_MATURE_OPEN_SOURCE_FORWARDING_SUBSTITUTE",
+      "observed_actor_state_change_evidence": [
+        "A March 2026 Chinese participant described a team managing many official-account, Zhihu and ecommerce identities through old Android phones plus SmsForwarder, with missed messages, device crashes and a former employee nearly taking a primary-account verification code.",
+        "The participant built a Cat.1 hardware gateway plus cloud SaaS so refund codes and login codes could be routed to different team channels and reported a roughly 1.5-second delivery path."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The team controls the SIM/device receiving the SMS and the destination collaboration channels, so parsing, classification, routing, retry and audit can occur inside participant-authorized systems after message receipt.",
+        "The shared-account environment creates repeated routing and access-separation pressure because codes for different business lines must reach different operational groups without handing one employee unrestricted access."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The prior route used old Android phones, SmsForwarder and DingTalk; another discussed route used Raspberry Pi or scripts plus regex and enterprise-messaging APIs.",
+        "The participant replaced that with a dedicated gateway, local queue/retry and a visual cloud routing layer with regex rules and team permissions."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This formation proves stronger economic motion than a hypothetical automation idea because the participant publicly quoted a device buyout plan and a recurring team plan.",
+        "However the basic SMS monitoring and rules-based forwarding control surface is already occupied by mature open-source tooling, while the remaining reliability advantage depends on dedicated hardware, SIM/carrier availability and external identity-provider MFA policy."
+      ],
+      "economic_signal": [
+        "The participant quoted a 199 CNY device buyout with base SaaS and a team plan at 99 CNY per month or 998 CNY per year for advanced regex-based routing and team use.",
+        "Those prices demonstrate a live monetization attempt but not an unowned market edge; the participant's own product already occupies the proposed gateway-plus-cloud route."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "pppscn/SmsForwarder is an established open-source Android tool that monitors SMS, calls and app notifications and routes them by rules to DingTalk, WeCom, Feishu, email, Bark, webhook, Telegram and other destinations.",
+        "SmsForwarder supports content/source/card-slot rule matching and forwarding logs, directly covering the basic rules-based message-distribution layer.",
+        "The participant's current gateway-plus-SaaS implementation itself is an exact active incumbent for the hardware-decoupled routing edge."
+      ],
+      "founder_independence_check": "PARTIAL_PASS_CLOUD_CLASSIFICATION_ROUTING_RETRY_AND_AUDIT_CAN_RUN_AUTONOMOUSLY_BUT_DEVICE_SIM_CONNECTIVITY_SECURITY_AND_ACCOUNT_RECOVERY_CREATE_NONTRIVIAL_OPERATIONS_AND_SUPPORT",
+      "data_action_rights_check": "PARTIAL_PASS_TEAM_CONTROLS_RECEIVED_MESSAGES_AND_DESTINATION_CHANNELS_FAIL_FOR_SMS_ISSUANCE_CARRIER_DELIVERY_AND_EXTERNAL_IDENTITY_PROVIDER_MFA_POLICY",
+      "normalized_margin_check": "FAIL_FOR_NEW_SIMPLE_ROUTING_EDGE_OPEN_SOURCE_SMSFORWARDER_ALREADY_COVERS_RULE_BASED_FORWARDING_AND_THE_OBSERVED_PARTICIPANT_ALREADY_OFFERS_THE_DEDICATED_HARDWARE_CLOUD_VARIANT",
+      "machine_delegatability_check": "PASS_HIGH_FOR_PARSE_CLASSIFY_ROUTE_RETRY_LOG_AUDIT_AND_POLICY_BASED_DISTRIBUTION_AFTER_SMS_RECEIPT",
+      "generic_agent_substitutability_check": "FAIL_FOR_THE_SOFTWARE_ROUTING_LAYER_GENERIC_AUTOMATION_CAN_CLASSIFY_AND_FORWARD_ONCE_A_MESSAGE_SOURCE_IS_EXPOSED_WHILE_THE_DIFFERENTIATING_RELIABILITY_TAIL_IS_HARDWARE_AND_EXTERNAL_NETWORK_AUTHORITY",
+      "verdict": "DEMOTED_REAL_TEAM_SECURITY_AND_RELIABILITY_PAIN_WITH_VISIBLE_PRICING_BUT_EXACT_OPEN_SOURCE_AND_ACTIVE_COMMERCIAL_ROUTES_ALREADY_OCCUPY_THE_CONTROL_SURFACE_AND_THE_RESIDUAL_DEPENDS_ON_HARDWARE_CARRIER_AND_IDENTITY_AUTHORITY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_098-F3",
+      "title": "CHINA_AGENT_CODING_WORKTREE_LOCAL_ASSET_SYNCHRONIZATION",
+      "chinese_title": "中国 Agent 编程多 worktree 场景的本地未跟踪资产同步",
+      "evidence_class": "CURRENT_CHINA_PARTICIPANT_AUTHORED_AGENT_CODING_STATE_TRANSFER_FRICTION_WITH_EXACT_WORKTREE_COPY_HOOK_AND_SCRIPT_SUBSTITUTES",
+      "observed_actor_state_change_evidence": [
+        "A September 21, 2026 Chinese developer using Codex with parallel git worktrees reported that company policy prevents committing the .agents directory, so project research, issue documents and project-level skills are absent when new worktrees are created.",
+        "The participant also asked how updates to untracked files can flow back and how conflicts should be handled when multiple worktrees modify the same local asset."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The developer and company control the local agent assets, skills and worktree filesystem state; creation, copy, link and synchronization actions are fully machine-executable on the developer's own machine.",
+        "The friction is caused by intentionally keeping useful project context outside tracked git history while simultaneously expecting parallel worktrees to share and reconcile it."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Community responses proposed a worktree-creation skill that copies the required assets, moving repository-level agent assets to an external shared directory, links/hooks and purpose-built worktree tooling.",
+        "The discussion explicitly notes that automatic multi-worktree merging without putting the files under version control creates an inherent conflict-management tension."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "This is an unusually clean participant-controlled digital-action case: local filesystem and worktree operations need no external business permission.",
+        "But that same openness makes the workflow low-barrier: current tools and short scripts can copy or link ignored files, while durable conflict resolution requires introducing an authoritative version/history model rather than a new commercial router."
+      ],
+      "economic_signal": [
+        "Parallel agent coding makes context loss and repeated setup costly in developer time, especially when several worktrees are active.",
+        "No independent recurring payer evidence, settlement rail or broad buyer-controlled economic surface is proven in the current participant record."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Worktrunk currently exposes `wt step copy-ignored` to copy gitignored files between worktrees, supports lifecycle hooks and can constrain copied assets through `.worktreeinclude`.",
+        "Worktrunk documents source/destination worktree selection, dry-run/force options and JSON output, making the operation directly automatable by agents.",
+        "Simple scripts, symlinks or a shared external asset directory can also solve the one-source-many-worktrees propagation problem without a new service."
+      ],
+      "founder_independence_check": "PASS_FOR_COPY_LINK_HOOK_AND_BOOTSTRAP_AUTOMATION_PARTIAL_FOR_TRUE_MULTI_WRITER_CONFLICT_RESOLUTION_WHERE_A_CANONICAL_HISTORY_OR_USER_POLICY_IS_REQUIRED",
+      "data_action_rights_check": "PASS_LOCAL_AGENT_ASSETS_AND_WORKTREE_FILESYSTEM_ACTIONS_ARE_PARTICIPANT_CONTROLLED",
+      "normalized_margin_check": "FAIL_FOR_NEW_STANDALONE_EDGE_EXACT_OPEN_SOURCE_WORKTREE_COPY_HOOK_CAPABILITIES_AND_TRIVIAL_SCRIPTS_ALREADY_COVER_THE_REPETITIVE_ACTION",
+      "machine_delegatability_check": "PASS_HIGH_FOR_WORKTREE_CREATION_ASSET_COPY_LINK_BOOTSTRAP_DIFF_DETECTION_AND_POLICY_DRIVEN_SYNC",
+      "generic_agent_substitutability_check": "FAIL_HARD_A_GENERIC_CODING_AGENT_CAN_CREATE_THE_REQUIRED_HOOK_SCRIPT_OR_EXTERNAL_SHARED_DIRECTORY_USING_THE_USERS_LOCAL_RIGHTS",
+      "verdict": "DEMOTED_EXCELLENT_DIGITAL_RIGHTS_AND_MACHINE_EXECUTABILITY_BUT_LOW_BARRIER_OPEN_SOURCE_AND_SCRIPT_SUBSTITUTES_OWN_THE_REPEATABLE_LAYER_WHILE_CONFLICT_RESOLUTION_NEEDS_AN_EXPLICIT_SOURCE_OF_TRUTH"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "GENERIC_INTERNAL_CROSS_SYSTEM_AI_AUTOMATION_SERVICE",
+      "excluded_reason": "EXCLUDE_MECHANISM_MATURE_WORKFLOW_PLATFORMS_AND_CODING_AGENTS_ALREADY_SUPPLY_THE_REUSABLE_PRIMITIVES_WHILE_THE_RESIDUAL_IS_BESPOKE_CLIENT_CONTEXT_AND_GOVERNANCE"
+    },
+    {
+      "observation": "GENERIC_TEAM_SMS_OTP_ROUTER",
+      "excluded_reason": "EXCLUDE_MECHANISM_MATURE_OPEN_SOURCE_RULE_FORWARDING_AND_AN_ACTIVE_HARDWARE_CLOUD_PRODUCT_ALREADY_OCCUPY_THE_ROUTE_WHILE_CARRIER_AND_IDENTITY_AUTHORITY_REMAIN_EXTERNAL"
+    },
+    {
+      "observation": "GENERIC_AGENT_WORKTREE_ASSET_SYNC_SERVICE",
+      "excluded_reason": "EXCLUDE_MECHANISM_CURRENT_OPEN_SOURCE_COPY_HOOKS_AND_SIMPLE_LOCAL_SCRIPTS_ALREADY_COVER_THE_ACTION_AND_UNTRACKED_MULTI_WRITER_CONFLICTS_REQUIRE_A_SOURCE_OF_TRUTH"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_paid_stack": false,
+    "participant_controlled_digital_action_rights_required": true,
+    "direct_participant_authored_current_friction_required": true,
+    "independent_objective_corroboration_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_INTERNAL_MARKETING_OPERATIONS_SHARED_ACCOUNT_COMMUNICATION_SECURITY_AND_DEVELOPER_AGENT_WORKTREE_OPERATIONS",
+    "observed_indexing_bias": "A_SECOND_DIGITAL_ACTION_RIGHTS_PASS_AGAIN_SURFACES_WORKFLOWS_WITH_EXCELLENT_MACHINE_EXECUTABILITY_BUT_WEAK_OPERATOR_EXCLUSIVITY_BECAUSE_USER_OWNED_CREDENTIALS_LOCAL_FILESYSTEM_RIGHTS_AND_STANDARD_APIS_ARE_AVAILABLE_TO_GENERIC_AGENTS_OPEN_SOURCE_TOOLS_AND_WORKFLOW_PLATFORMS",
+    "response": "AFTER_TWO_INDEPENDENT_DIGITAL_ACTION_RIGHTS_PASSES_STOP_USING_PARTICIPANT_CONTROLLED_DIGITAL_ACTIONS_AS_THE_LEADING_FILTER_AND_REQUIRE_EVIDENCE_OF_A_REUSABLE_OPERATOR_CONTROL_ADVANTAGE_DISTINCT_FROM_PARTICIPANT_CREDENTIALS_OR_GENERIC_AUTOMATION_IN_SCAN099",
+    "participant_behavior_over_analyst_story": "PASS_ALL_THREE_BEGIN_FROM_CURRENT_CHINA_PARTICIPANT_RECORDED_OPERATIONAL_BEHAVIOR_AND_ARE_PRESSURE_TESTED_AGAINST_CURRENT_TOOLING"
+  },
+  "scan_learnings": [
+    "SCAN098_SECOND_INDEPENDENT_PARTICIPANT_CONTROLLED_DIGITAL_ACTION_RIGHTS_PASS_ZERO_RETENTION_ACROSS_INTERNAL_MARKETING_OPERATIONS_SMS_OTP_ROUTING_AND_AGENT_WORKTREE_ASSET_SYNC",
+    "TWO_INDEPENDENT_DIGITAL_ACTION_RIGHTS_PASSES_NOW_SHOW_THAT_USER_OWNED_CREDENTIALS_AND_MACHINE_EXECUTABLE_ACTIONS_IMPROVE_DELIVERY_FEASIBILITY_BUT_DO_NOT_CREATE_OPERATOR_EXCLUSIVITY",
+    "WHEN_THE_SAME_PARTICIPANT_RIGHTS_ARE_AVAILABLE_TO_GENERIC_AGENTS_ACTIVE_OPEN_SOURCE_TOOLS_AND_WORKFLOW_PLATFORMS_THE_REPEATABLE_AUTOMATION_LAYER_COMMODITIZES_QUICKLY",
+    "HIGH_VALUE_BESPOKE_INTERNAL_AUTOMATION_CAN_COLLAPSE_TO_CLIENT_SPECIFIC_INTEGRATION_DATA_SEMANTICS_AND_GOVERNANCE_RATHER_THAN_A_REUSABLE_FOUNDER_INDEPENDENT_CONTROL_EDGE",
+    "DIGITAL_ROUTING_CAN_STILL_DEPEND_ON_DECISIVE_EXTERNAL_HARDWARE_CARRIER_IDENTITY_OR_PLATFORM_AUTHORITY_AFTER_SOFTWARE_AUTOMATION_IS_COMPLETE",
+    "AFTER_TWO_PASSES_THE_NEXT_EVIDENCE_PRIORITY_SHOULD_REQUIRE_A_REUSABLE_OPERATOR_CONTROL_ADVANTAGE_DISTINCT_FROM_PARTICIPANT_CREDENTIALS_GENERIC_AGENTS_AND_OPEN_SOURCE_AUTOMATION_WITHOUT_INHERITING_A_PRODUCT_CATEGORY"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_099",
+  "next_search_boundary": "OPERATOR_CONTROL_ADVANTAGE_EVIDENCE_FIRST_AFTER_TWO_PARTICIPANT_CONTROLLED_DIGITAL_ACTION_RIGHTS_PASSES_REQUIRE_DIRECT_CURRENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_AND_EVIDENCE_THAT_A_REUSABLE_OPERATOR_CONTROL_SURFACE_EXECUTION_RIGHT_DATA_ADVANTAGE_OR_ROUTING_ASSET_MATERIALLY_IMPROVES_THE_OUTCOME_BEYOND_WHAT_PARTICIPANT_CREDENTIALS_GENERIC_AGENTS_ACTIVE_OPEN_SOURCE_TOOLS_AND_MATURE_WORKFLOW_PLATFORMS_CAN_DO_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_098_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_EXTERNAL_ECONOMICS_PREFLIGHT_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN098_WITH_CI_JEV_THEN_START_SCAN099_OPERATOR_CONTROL_ADVANTAGE_EVIDENCE_FIRST_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://v2ex.com/t/1226578",
+    "https://n8n.io/",
+    "https://www.dify.ai/workflows",
+    "https://www.v2ex.com/t/1199028",
+    "https://github.com/pppscn/SmsForwarder",
+    "https://v2ex.com/t/1243449",
+    "https://worktrunk.dev/step/",
+    "https://github.com/max-sixty/worktrunk/blob/main/.worktreeinclude"
+  ]
+}
