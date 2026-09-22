@@ -14,29 +14,29 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_114` is complete with zero retained formations. The scan proves that completed control plus positive post-purchase revenue, net profit and **explicit operating cashflow** can coexist in one current-China target packet, but the strongest exact case remains capital-heavy and EPC/human-delivery intensive. The next retrieval priority is to bind explicit positive post-transfer OCF to explicit low FTE/replacement-service cost and bounded total usable capital including working capital.
+Discovery: `ATTRACTION_SCAN_115` is now in progress. Scan 114 proved completed control plus positive post-purchase revenue, net profit and explicit operating cashflow can coexist, but the exact case remained capital-heavy and human-delivery intensive. Scan 115 therefore targets one same-target packet that binds explicit positive post-transfer operating cashflow to explicit low FTE or replacement-service cost and bounded total usable capital including working capital, without inheriting a product mechanism or prior formation.
 
 ## Current Phase
 
-`SCAN_114_PR_VALIDATION_PENDING`
+`SCAN_115_RESEARCH_IN_PROGRESS`
 
 ## Last Verified Main
 
-`c4a472a2b7591c8882e7ceaeed8eb665219cb302`
-— squash merge of PR #412, `Run completed-control cashflow Scan 113`.
+`d08680ba41451c903fc429727872b6cbb4e17f49`
+— squash merge of PR #413, `Run explicit operating-cashflow Scan 114`.
 
-PR #412 final head `3fc453519f31b07319e0c6eca57ac3636976a6da`:
-- repository CI `35750229521`: success;
-- live TypeSafe/Jev `35750229538`: success;
-- live-shadow job `106822236833`: success;
-- advisory artifact `10704905908`;
+PR #413 final head `5884c9812716e6f0b66bc04020588c5d7b5e2fab`:
+- repository CI `35751596595`: success;
+- live TypeSafe/Jev `35751596656`: success;
+- live-shadow job `106826936686`: success;
+- advisory artifact `10704723044`;
 - 3/3 model and effective route `NO_FURTHER_RESEARCH`;
 - 3/3 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
 - `execution_status=SUCCESS`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That exact-head directive was consumed to start Scan 114.
+That exact-head directive was consumed to start Scan 115.
 
 ## Active Issue
 
@@ -44,17 +44,15 @@ That exact-head directive was consumed to start Scan 114.
 
 ## Active Branch
 
-`research/attraction-scan-114`
+`research/attraction-scan-115`
 
 ## Active PR
 
-Not yet opened at this checkpoint. Open exactly one PR from the now-final branch head and do not make branch commits after PR creation so repository CI and live TypeSafe/Jev attach to the exact same SHA.
+None yet. Do not open a PR until Scan 115 research artifacts, test and state are final.
 
 ## CI
 
-No Scan 114 PR validation exists yet.
-
-Consume a Scan 114 continuation directive only from one exact final PR head where repository CI and live TypeSafe/Jev are both terminal and acceptable.
+No Scan 115 PR validation exists yet. Scan 114 exact-final-head repository CI and live TypeSafe/Jev both passed on PR #413 and its continuation directive has been consumed.
 
 ## Parallel Validation
 
@@ -165,7 +163,7 @@ Discovery:
 
 Engineering:
 - no current TypeSafe/Jev integration blocker;
-- Scan 114 still needs exact-final-head repository CI plus live TypeSafe/Jev validation.
+- Scan 115 research and its durable artifacts are not yet complete.
 
 ## Do Not Repeat
 
@@ -214,4 +212,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Open the Scan 114 PR from the now-final branch head. Do not commit after opening it. Validate that exact PR head with repository CI and live TypeSafe/Jev; consume its continuation directive only if both validations are acceptable.
+Execute Scan 115 against the persisted next-evidence boundary: seek current-China completed controlling transfers whose same-target post-transfer packet explicitly binds positive external revenue, positive net profit and positive operating cashflow to explicit low FTE or replacement-service cost and bounded total usable capital including working capital; preserve fail-closed treatment of labor/capital ambiguity and persist the scan before opening any PR.
