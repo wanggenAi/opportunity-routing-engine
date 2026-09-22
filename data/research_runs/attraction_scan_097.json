@@ -1,0 +1,193 @@
+{
+  "schema_version": "attraction-scan.v73",
+  "scan_id": "ATTRACTION_SCAN_097",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-22",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FIRST_PARTICIPANT_CONTROLLED_DIGITAL_ACTION_RIGHTS_PASS_AFTER_TWO_CHINA_PARTICIPANT_AUTHORED_PASSES_REQUIRE_DIRECT_CURRENT_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_AND_EVIDENCE_DECISIVE_COMPLETION_STEPS_OCCUR_PRIMARILY_INSIDE_PARTICIPANT_AUTHORIZED_DIGITAL_SYSTEMS_DEPRIORITIZE_DOMINANT_PHYSICAL_DELIVERY_LICENSED_CLINICAL_OR_AUTHORITY_DECISION_PUBLIC_ASSET_GOVERNANCE_AND_EXACT_END_TO_END_PLATFORM_CONTROL_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_096_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_CURRENT_INCUMBENT_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "discovery_source_reset": true,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_097-F1",
+      "title": "CHINA_DIGITAL_INVOICE_REIMBURSEMENT_VERIFICATION_AND_ARCHIVE_PREPARATION",
+      "chinese_title": "中国数电票报销查验与归档准备的重复数字操作",
+      "evidence_class": "CURRENT_PARTICIPANT_AUTHORED_DIGITAL_DOCUMENT_FRICTION_WITH_OFFICIAL_ELECTRONIC_CREDENTIAL_STANDARD_AND_MATURE_EXPENSE_AUTOMATION_CORROBORATION",
+      "observed_actor_state_change_evidence": [
+        "A May 2026 Chinese developer described being a frequent reimbursement user and manually taking official tax-verification screenshots, cropping and renaming them, locating XML originals, checking duplicates and organizing invoice files before finance submission.",
+        "The participant built a small tool specifically to automate those repeated digital steps, demonstrating an attempted state change rather than a hypothetical complaint."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "China's electronic voucher accounting data standard explicitly supports XML digital invoices and is intended to solve electronic-voucher receipt, reimbursement, accounting and archiving friction.",
+        "Tax digital accounts can automatically deliver digital invoices, and official tax guidance supports PDF, OFD and XML download/retention, so the underlying artifacts are already digital and participant-accessible."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Employees download invoice files from different channels, obtain verification evidence, rename and deduplicate files, then upload or forward them into employer reimbursement workflows.",
+        "The participant-created tool automates official verification screenshots plus multi-format retrieval, while enterprise expense products already automate invoice collection, validation, reimbursement, accounting and archive preparation."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The decisive preparation steps are digitally executable under the user's own access, satisfying the Scan 097 entrance better than physical or authority-controlled formations.",
+        "However the deterministic work is highly substitutable: current enterprise platforms already provide one-stop digital-invoice collection, automatic verification, duplicate detection and compliant archiving, while small personal tools can reproduce the employee-side preparation layer."
+      ],
+      "economic_signal": [
+        "The work has real employer-side cost because finance teams process reimbursement and archive electronic credentials at scale.",
+        "But employee-side willingness to pay for a standalone preparation utility is not independently proven, and enterprise spend already lands on mature expense/finance platforms."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Hose/合思 currently markets digital-invoice collection, automatic verification, reimbursement, accounting and archiving as one end-to-end expense-control workflow.",
+        "泛微业票通 likewise provides automated invoice collection, validation and linkage into reimbursement/accounting/archive systems.",
+        "The official standard requires accounting software vendors to adapt within the implementation window, increasing native-platform absorption pressure."
+      ],
+      "founder_independence_check": "PASS_FOR_EMPLOYEE_SIDE_FILE_RETRIEVAL_VALIDATION_RENAMING_DEDUPLICATION_AND_PACKET_PREPARATION_BUT_ENTERPRISE_APPROVAL_AND_ACCOUNTING_REMAIN_EMPLOYER_CONTROLLED",
+      "data_action_rights_check": "PARTIAL_PASS_USERS_CAN_ACT_ON_THEIR_OWN_INVOICE_FILES_AND_VERIFICATION_INPUTS_BUT_EMPLOYER_APPROVAL_LEDGER_AND_ARCHIVE_SYSTEM_RIGHTS_ARE_NOT_INDEPENDENTLY_OWNED",
+      "normalized_margin_check": "FAIL_FOR_NEW_STANDALONE_EDGE_ENTERPRISE_EXPENSE_AND_INVOICE_PLATFORMS_ALREADY_CAPTURE_OR_ABSORB_THE_HIGH_VALUE_WORKFLOW_WHILE_EMPLOYEE_SIDE_AUTOMATION_IS_LOW_BARRIER",
+      "machine_delegatability_check": "PASS_HIGH_FOR_DOWNLOAD_PARSING_VERIFICATION_DEDUPLICATION_RENAMING_CLASSIFICATION_AND_PACKET_ASSEMBLY",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_THE_REPEATABLE_EMPLOYEE_SIDE_DOCUMENT_WORK_IS_DIRECTLY_SUBSTITUTABLE_BY_GENERIC_DOCUMENT_AGENTS_BROWSER_AUTOMATION_OR_EXISTING_EXPENSE_SOFTWARE",
+      "verdict": "DEMOTED_STRONG_PARTICIPANT_CONTROLLED_DIGITAL_ACTIONS_AND_REAL_REIMBURSEMENT_FRICTION_BUT_THE_ROUTINE_LAYER_IS_LOW_BARRIER_GENERIC_AGENT_SUBSTITUTABLE_AND_ENTERPRISE_PLATFORMS_ALREADY_OWN_THE_PAYING_CONTROL_SURFACE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_097-F2",
+      "title": "CHINA_MULTI_PLATFORM_CREATOR_PUBLISHING_AND_ACCOUNT_STATE_TRANSFER",
+      "chinese_title": "中国创作者多平台内容发布与账号状态搬运",
+      "evidence_class": "CURRENT_CREATOR_AUTHORED_DIGITAL_LAST_MILE_FRICTION_WITH_MULTIPLE_ACTIVE_OPEN_SOURCE_AND_COMMERCIAL_AUTOMATION_SUBSTITUTES",
+      "observed_actor_state_change_evidence": [
+        "A July 2026 Chinese creator/developer reported running content automation across six platforms and 300 videos, explicitly automating the upload workflow rather than manually operating each platform.",
+        "A July 2026 developer of a multi-platform publishing tool described the residual last mile directly: AI can create content, but distribution still requires manual pasting, tagging and format adjustment unless the creator reuses logged-in browser sessions."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "Creators already own the source content plus their authenticated platform accounts; the repeated state transfer is from one local content package into multiple creator backends.",
+        "Current open-source projects demonstrate that logged-in browser state can drive real publishing to domestic platforms without a neutral central API."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Creators use browser automation, local cookies, Playwright/Electron tools, CLI and MCP interfaces to reuse their own logged-in sessions and batch-publish.",
+        "When platform UI or anti-abuse flows change, tools require adapter maintenance and may fall back to manual confirmation."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The decisive submission action occurs inside participant-authorized digital accounts and is highly machine-executable, matching the Scan 097 control-rights filter.",
+        "Yet the exact category is crowded with active open-source and commercial tools supporting overlapping Chinese platforms, and general browser agents can reproduce much of the same operation."
+      ],
+      "economic_signal": [
+        "Repeated publishing consumes creator/operator time and commercial tools sell subscriptions around the workflow.",
+        "Current free/open-source alternatives and low technical differentiation compress durable standalone margin unless a distinct proprietary distribution asset or outcome advantage exists; none is evidenced here."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "Active 2026 tools include MatrixMedia, PublishPort, MediaSync, MultiPublish, OmniPost and other browser-automation projects covering Douyin, Xiaohongshu, Bilibili, WeChat Channels and additional platforms.",
+        "MediaSync explicitly uses the creator's existing browser login state and the same web-editor interfaces used manually; MultiPublish verifies publication by checking the official backend.",
+        "The participant owns account access, but destination platforms still own interface rules, anti-abuse controls and final content acceptance."
+      ],
+      "founder_independence_check": "PASS_FOR_ROUTINE_MULTI_ACCOUNT_PUBLISHING_ONCE_USER_LOGINS_AND_CONTENT_EXIST_BUT_CONTINUING_PLATFORM_ADAPTER_MAINTENANCE_IS_REQUIRED",
+      "data_action_rights_check": "PARTIAL_PASS_CREATOR_OWNS_SOURCE_CONTENT_AND_AUTHENTICATED_ACCOUNT_ACTIONS_FAIL_FOR_PLATFORM_INTERFACE_STABILITY_AND_FINAL_ACCEPTANCE_CONTROL",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EDGE_MULTIPLE_CURRENT_FREE_OPEN_SOURCE_AND_COMMERCIAL_PRODUCTS_ALREADY_AUTOMATE_THE_SAME_PUBLISHING_PATH_WITH_LOW_SWITCHING_COST",
+      "machine_delegatability_check": "PASS_HIGH_FOR_CONTENT_FILL_UPLOAD_METADATA_ADAPTATION_SCHEDULING_SUBMISSION_AND_STATUS_CHECK_WITH_BOUNDED_MANUAL_VERIFICATION",
+      "generic_agent_substitutability_check": "FAIL_HARD_BROWSER_AGENTS_MCP_TOOLS_AND_EXISTING_SPECIALIZED_AUTOMATION_CAN_PERFORM_THE_CORE_ACTIONS_USING_THE_USERS_LOGGED_IN_BROWSER_STATE",
+      "verdict": "DEMOTED_EXCELLENT_PARTICIPANT_CONTROLLED_DIGITAL_ACTION_FIT_BUT_THE_EXACT_WORKFLOW_IS_ALREADY_A_CROWDED_LOW_BARRIER_AUTOMATION_CATEGORY_AND_GENERIC_BROWSER_AGENT_SUBSTITUTION_IS_DIRECT"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_097-F3",
+      "title": "CHINA_ANDROID_MULTI_STORE_RELEASE_SUBMISSION_AND_METADATA_REPETITION",
+      "chinese_title": "中国 Android 多应用商店发版、材料与元数据重复提交",
+      "evidence_class": "CURRENT_DEVELOPER_AUTHORED_MULTI_STORE_DIGITAL_SUBMISSION_FRICTION_WITH_EXACT_ACTIVE_UPLOAD_AUTOMATION_AND_STORE_POLICY_CORROBORATION",
+      "observed_actor_state_change_evidence": [
+        "A February 2026 Chinese developer preparing a tool app for Xiaomi, OPPO, vivo and Tencent asked whether each store still requires separate accounts and flows and whether one-click multi-store publishing exists.",
+        "A separate April 2026 developer described returning to app publishing and the current burden of Android store qualifications, filing and multi-channel distribution."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The developer already possesses the APK, release notes, screenshots, privacy links and store accounts or can obtain them; the repeated operation is digitally transferring similar release state to multiple store consoles.",
+        "Current DCloud documentation shows partial multi-store upload support but still requires separate developer accounts, identity verification and, for some stores, manual app creation or first release."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "Developers register multiple store accounts, prepare common compliance materials, create app records and submit binaries/metadata to each store.",
+        "Current tooling such as DCloud multi-store upload and apkgo uses each developer's own store credentials to parallelize submission and expose machine-consumable result states."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "The upload/update actions are primarily participant-authorized digital actions and can be automated once credentials and app records exist.",
+        "But exact current products already provide one-command or hosted multi-store publishing, while store review, policy rejection, qualification and some first-release metadata remain external authoritative decisions."
+      ],
+      "economic_signal": [
+        "Developer time and release delay have economic cost, and apkgo now has a hosted commercial offering plus commercial-use licensing paths, proving some willingness to pay for release orchestration.",
+        "That same evidence also shows the category is already directly occupied; no separate control surface or unserved payer segment is proven."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "DCloud's current uni multi-store upload supports first publication to several stores and documents which stores still require manual creation or first release.",
+        "apkgo currently offers one-command upload to major Android stores, CI/CD integration, agent-friendly interfaces and a hosted cloud service.",
+        "Xiaomi and alliance policies retain store-side compliance/review authority; successful upload is not equivalent to approval."
+      ],
+      "founder_independence_check": "PASS_FOR_REPEAT_RELEASE_UPLOAD_AND_STATUS_TRACKING_AFTER_CREDENTIAL_SETUP_PARTIAL_FOR_FIRST_RELEASE_COMPLIANCE_AND_STORE_SPECIFIC_EXCEPTION_HANDLING",
+      "data_action_rights_check": "PARTIAL_PASS_DEVELOPER_CONTROLS_BINARY_METADATA_AND_STORE_CREDENTIALS_FAIL_FOR_STORE_APPROVAL_POLICY_AND_SOME_MANUAL_FIRST_RELEASE_FIELDS",
+      "normalized_margin_check": "FAIL_FOR_NEW_GENERIC_EDGE_DCloud_AND_APKGO_ALREADY_PROVIDE_EXACT_MULTI_STORE_AUTOMATION_WITH_ACTIVE_2026_MAINTENANCE_AND_COMMERCIAL_PATHS",
+      "machine_delegatability_check": "PASS_HIGH_FOR_PACKAGE_VALIDATION_METADATA_FILL_UPLOAD_PARALLEL_SUBMISSION_RETRY_AND_STATUS_CLASSIFICATION",
+      "generic_agent_substitutability_check": "FAIL_FOR_NEW_EDGE_SPECIALIZED_CLI_API_AND_BROWSER_AUTOMATION_ALREADY_EXPOSE_THE_WORKFLOW_TO_GENERIC_AGENTS_WHILE_STORE_APPROVAL_REMAINS_EXTERNAL",
+      "verdict": "DEMOTED_STRONG_PARTICIPANT_CONTROLLED_DIGITAL_ACTION_RIGHTS_AND_REAL_RELEASE_FRICTION_BUT_EXACT_ACTIVE_AUTOMATION_ALREADY_EXISTS_AND_THE_NON_AUTOMATABLE_RESIDUAL_IS_STORE_AUTHORITY_OR_COMPLIANCE"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "GENERIC_PERSONAL_INVOICE_REIMBURSEMENT_AGENT",
+      "excluded_reason": "EXCLUDE_MECHANISM_DOCUMENT_PREPARATION_IS_GENERIC_AGENT_SUBSTITUTABLE_AND_ENTERPRISE_EXPENSE_PLATFORMS_OWN_THE_PAYING_WORKFLOW"
+    },
+    {
+      "observation": "GENERIC_CREATOR_MULTI_PLATFORM_PUBLISHER",
+      "excluded_reason": "EXCLUDE_MECHANISM_MULTIPLE_ACTIVE_FREE_OPEN_SOURCE_AND_COMMERCIAL_TOOLS_ALREADY_AUTOMATE_THE_EXACT_LOGGED_IN_BROWSER_WORKFLOW"
+    },
+    {
+      "observation": "GENERIC_ANDROID_MULTI_STORE_RELEASE_AGENT",
+      "excluded_reason": "EXCLUDE_MECHANISM_DCloud_AND_APKGO_ALREADY_AUTOMATE_MULTI_STORE_SUBMISSION_AND_STORE_REVIEW_AUTHORITY_REMAINS_EXTERNAL"
+    }
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_paid_stack": false,
+    "participant_controlled_digital_action_rights_required": true,
+    "direct_participant_authored_current_friction_required": true,
+    "independent_objective_corroboration_required": true,
+    "primary_research_domain_respected": true,
+    "formation_diversity": "PASS_EMPLOYEE_FINANCE_DOCUMENT_FLOW_CREATOR_CONTENT_DISTRIBUTION_AND_SOFTWARE_RELEASE_OPERATIONS",
+    "observed_indexing_bias": "PARTICIPANT_CONTROLLED_DIGITAL_ACTIONS_IMPROVE_MACHINE_EXECUTABILITY_AND_RIGHTS_FIT_BUT_COMMON_REPETITIVE_BROWSER_AND_DOCUMENT_WORKFLOWS_ARE_OFTEN_ALREADY_EXACTLY_AUTOMATED_OR_DIRECTLY_GENERIC_AGENT_SUBSTITUTABLE",
+    "response": "REPEAT_PARTICIPANT_CONTROLLED_DIGITAL_ACTION_RIGHTS_FIRST_IN_SCAN098_ON_A_FRESH_FORMATION_DIVERSE_CHINA_SAMPLE_BEFORE_DERIVING_A_STRONGER_EVIDENCE_FLOOR",
+    "participant_behavior_over_analyst_story": "PASS_ALL_THREE_USE_CURRENT_DEVELOPER_OR_USER_RECORDED_DIGITAL_WORK_AND_INDEPENDENT_OFFICIAL_OR_ACTIVE_PRODUCT_CORROBORATION"
+  },
+  "scan_learnings": [
+    "SCAN097_FIRST_PARTICIPANT_CONTROLLED_DIGITAL_ACTION_RIGHTS_PASS_ZERO_RETENTION_ACROSS_DIGITAL_INVOICE_PREPARATION_CREATOR_MULTI_PLATFORM_PUBLISHING_AND_ANDROID_MULTI_STORE_RELEASE",
+    "PARTICIPANT_CONTROLLED_DIGITAL_RIGHTS_SOLVE_THE_OPERATOR_RIGHTS_AND_MACHINE_DELEGATABILITY_PROBLEM_BUT_DO_NOT_BY_THEMSELVES_CREATE_DURABLE_WHITE_SPACE",
+    "ROUTINE_BROWSER_AND_DOCUMENT_STATE_TRANSFER_WITH_USER_OWNED_CREDENTIALS_IS_HIGHLY_GENERIC_AGENT_SUBSTITUTABLE",
+    "CURRENT_ACTIVE_OPEN_SOURCE_AUTOMATION_IS_AN_IMPORTANT_EXACT_INCUMBENT_CLASS_AND_CAN_DESTROY_MARGIN_EVEN_WITHOUT_A_LARGE_SAAS_VENDOR",
+    "PLATFORM_OR_EMPLOYER_FINAL_APPROVAL_RIGHTS_CAN_REMAIN_EXTERNAL_AFTER_ALL_PREPARATION_ACTIONS_ARE_AUTOMATED",
+    "ONE_DIGITAL_ACTION_RIGHTS_FIRST_PASS_IS_NOT_ENOUGH_TO_DERIVE_A_NEW_PRODUCT_OR_SEARCH_ONTOLOGY",
+    "SCAN098_SHOULD_REPEAT_THE_SAME_DIGITAL_ACTION_RIGHTS_FIRST_METHOD_ON_FRESH_FORMATIONS_BEFORE_ANY_FURTHER_BOUNDARY_CHANGE"
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_098",
+  "next_search_boundary": "SECOND_INDEPENDENT_PARTICIPANT_CONTROLLED_DIGITAL_ACTION_RIGHTS_PASS_REQUIRE_DIRECT_CURRENT_CHINA_PARTICIPANT_RECORDED_FRICTION_PLUS_INDEPENDENT_OBJECTIVE_CORROBORATION_AND_EVIDENCE_DECISIVE_COMPLETION_STEPS_OCCUR_PRIMARILY_INSIDE_PARTICIPANT_AUTHORIZED_DIGITAL_SYSTEMS_REQUIRE_FORMATION_DIVERSITY_EXCLUDE_SCAN060_TO_097_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_OR_PROCUREMENT_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_CURRENT_EXACT_INCUMBENT_OPEN_SOURCE_SUBSTITUTE_FOUNDER_INDEPENDENCE_NORMALIZED_MARGIN_MACHINE_DELEGATABILITY_AND_GENERIC_AGENT_SUBSTITUTABILITY_PREFLIGHT_FAIL_CLOSED",
+  "next_action": "PARALLEL_WAIT_SCAN015_F1_AND_VALIDATE_SCAN097_WITH_CI_JEV_THEN_START_SCAN098_SECOND_DIGITAL_ACTION_RIGHTS_PASS_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.v2ex.com/t/1211374",
+    "https://app.www.gov.cn/govdata/gov/202505/19/529223/article.html",
+    "https://jiangsu.chinatax.gov.cn/art/2024/1/22/art_16876_3461.html",
+    "https://www.hosecloud.com/expense/",
+    "https://www.yepiaotong.com/",
+    "https://www.v2ex.com/t/1203952",
+    "https://global.v2ex.com/t/1227522",
+    "https://github.com/yjmm10/MediaSync",
+    "https://github.com/whut09/MultiPublish",
+    "https://v2ex.com/t/1193941",
+    "https://www.v2ex.com/t/1205644",
+    "https://uniapp.dcloud.net.cn/uni-publish/first.html",
+    "https://github.com/KevinGong2013/apkgo",
+    "https://dev.mi.com/xiaomihyperos/documentation/detail?pId=2156"
+  ]
+}

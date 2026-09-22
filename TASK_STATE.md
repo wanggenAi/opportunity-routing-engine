@@ -14,25 +14,25 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 096 is complete with zero retention after the second independent China participant-authored current-reality pass. Scan 097 may begin only if PR #394 exact final-head repository CI plus live TypeSafe/Jev authorize continuation.
+Discovery: Scan 097 is complete with zero retention after the first participant-controlled digital-action-rights pass. Scan 098 may begin only if PR #395 exact final-head repository CI plus live TypeSafe/Jev authorize continuation.
 
 ## Current Phase
 
-`SCAN_096_COMPLETE_AWAITING_FINAL_PR_CI_JEV`
+`SCAN_097_COMPLETE_AWAITING_FINAL_PR_CI_JEV`
 
 ## Last Verified Main
 
-`514352cd9863deae5c95181011ade697406b5696`
-— squash merge of PR #393, `Run China-first participant-authored Scan 095`.
+`116bd1f90d03e4f64780da3f3c649a31f3c63e09`
+— squash merge of PR #394, `Complete second China participant-authored Scan 096`.
 
-PR #393 final head `08f3526278d32e1831ac3ba45df16991d9bf5390`:
-- repository CI run `35710771962`: success;
-- live TypeSafe/Jev run `35710771953`: success;
+PR #394 final head `686206d4b4cd722281f8729e70ad3bdee66b3b53`:
+- repository CI run `35711506524`: success;
+- live TypeSafe/Jev run `35711506552`: success;
 - 3/3 effective route `NO_FURTHER_RESEARCH`;
 - `autonomous_continuation_allowed=true`;
 - `continuation_next_action=ADVANCE_TO_NEXT_SCAN`.
 
-That directive was consumed to start Scan 096.
+That directive was consumed to start Scan 097.
 
 ## Active Issue
 
@@ -40,20 +40,20 @@ That directive was consumed to start Scan 096.
 
 ## Active Branch
 
-`research/attraction-scan-096`
+`research/attraction-scan-097`
 
 ## Active PR
 
-#394 — `Complete second China participant-authored Scan 096`.
+#395 — `Run participant-controlled digital action Scan 097`.
 
 This TASK_STATE binding commit intentionally advances the PR head once. Repository CI and live TypeSafe/Jev must validate the resulting exact final head before merge.
 
 ## CI
 
-- PR #393 final-head repository CI `35710771962`: success.
-- PR #393 live TypeSafe/Jev `35710771953`: success; `ADVANCE_TO_NEXT_SCAN`.
-- PR #394 final-head validation: pending after this TASK_STATE binding commit.
-- Do not merge PR #394 or start Scan 097 from an earlier head.
+- PR #394 final-head repository CI `35711506524`: success.
+- PR #394 live TypeSafe/Jev `35711506552`: success; `ADVANCE_TO_NEXT_SCAN`.
+- PR #395 final-head validation: pending after this TASK_STATE binding commit.
+- Do not merge PR #395 or start Scan 098 from an earlier head.
 
 ## Parallel Validation
 
@@ -64,71 +64,67 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 ## Latest Artifact / Persisted State
 
 New:
-- `data/research_runs/attraction_scan_096.json`;
-- `docs/research/ATTRACTION_SCAN_096_2026-09-22.md`;
-- `tests/test_attraction_scan_096_second_china_participant_pass.py`.
+- `data/research_runs/attraction_scan_097.json`;
+- `docs/research/ATTRACTION_SCAN_097_2026-09-22.md`;
+- `tests/test_attraction_scan_097_participant_controlled_digital_actions.py`.
 
 Updated:
 - `data/commercial_reset_state.json`;
 - `TASK_STATE.md`.
 
 Persisted state:
-- last completed scan = `ATTRACTION_SCAN_096`;
-- last resolved formation = `ATTRACTION_SCAN_096-F3`;
-- next scan = `ATTRACTION_SCAN_097`;
+- last completed scan = `ATTRACTION_SCAN_097`;
+- last resolved formation = `ATTRACTION_SCAN_097-F3`;
+- next scan = `ATTRACTION_SCAN_098`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Verified and consumed PR #393 final-head CI/Jev continuation.
-- Squash-merged PR #393 to `main` at `514352cd9863deae5c95181011ade697406b5696`.
-- Created `research/attraction-scan-096` from the exact merged main.
-- Completed a second independent China participant-authored current-reality sample.
-- Pressure-tested three fresh formations: bulky furniture disposal, medical-result portability and Jiangsu agricultural machinery scheduling.
-- Used a current Xuzhou-based exact incumbent preflight for the agricultural-machinery matching chain instead of assuming local white space.
-- Persisted Scan 096 JSON, research note, regression test and commercial reset-state advancement.
-- Opened PR #394.
+- Reconciled Scan 096 against live GitHub and consumed the exact final-head Jev continuation.
+- Squash-merged PR #394 to `main` at `116bd1f90d03e4f64780da3f3c649a31f3c63e09`.
+- Created `research/attraction-scan-097` from the exact merged main.
+- Ran the first participant-controlled digital-action-rights-first pass in the China research domain.
+- Pressure-tested digital invoice reimbursement preparation, multi-platform creator publishing and Android multi-store release.
+- Included active open-source automation as exact-incumbent/substitute evidence instead of treating only large SaaS vendors as incumbents.
+- Persisted Scan 097 JSON, research note, regression test and reset-state advancement.
+- Opened PR #395.
 
 ## Current Findings
 
-### Scan 096-F1 — Shanghai bulky furniture disposal
+### Scan 097-F1 — digital-invoice reimbursement preparation
 
-Residents show real current disposal friction and real paid short-haul flow, but the value unit is physical moving/disassembly/processing and district/public-private routing channels already exist.
+The user controls most of the preparation actions and the work is highly machine-executable, but generic document/browser agents can substitute for the employee-side layer while mature enterprise expense systems already own the paying workflow.
 
-### Scan 096-F2 — cross-hospital imaging/test portability
+### Scan 097-F2 — multi-platform creator publishing
 
-The data-transfer layer is highly machine-executable, but the authoritative interoperability rail is public-health infrastructure and final mutual recognition remains clinically governed.
+The creator owns content and authenticated accounts, but current open-source and commercial tools already automate the exact logged-in-browser publishing path. Generic browser-agent substitution is direct.
 
-### Scan 096-F3 — Jiangsu agricultural machinery scheduling
+### Scan 097-F3 — Android multi-store release
 
-A current farmer could not find a harvester and a current machine operator describes historical work-finding by luck. The paid cross-region flow is real, but exact online matching already exists — including Maliduo in Xuzhou — alongside cooperative/public dispatch, while physical field execution remains decisive.
+Developers own binaries, metadata and store credentials and repeat release is digitally executable. DCloud and apkgo already provide exact multi-store automation, while store review/compliance remains externally authoritative.
 
-## Scan 096 Result
+## Scan 097 Result
 
-Second independent China participant-authored current-reality pass completed with zero commercial promotions and zero retained research formations.
+First participant-controlled digital-action-rights pass completed with zero commercial promotions and zero retained research formations.
 
 Examined:
-- `ATTRACTION_SCAN_096-F1` — Shanghai bulky furniture disposal/reuse and paid short-haul handoff;
-- `ATTRACTION_SCAN_096-F2` — China cross-hospital imaging/test-result portability;
-- `ATTRACTION_SCAN_096-F3` — Jiangsu agricultural machinery cross-region scheduling and emergency matching.
+- `ATTRACTION_SCAN_097-F1` — digital-invoice reimbursement verification/archive preparation;
+- `ATTRACTION_SCAN_097-F2` — multi-platform creator publishing;
+- `ATTRACTION_SCAN_097-F3` — Android multi-store release submission.
 
 State truth:
-- last completed scan = `ATTRACTION_SCAN_096`;
-- last resolved formation = `ATTRACTION_SCAN_096-F3`;
-- next scan = `ATTRACTION_SCAN_097`;
+- last completed scan = `ATTRACTION_SCAN_097`;
+- last resolved formation = `ATTRACTION_SCAN_097-F3`;
+- next scan = `ATTRACTION_SCAN_098`;
 - active commercial candidates = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Cross-Pass Learning
 
-Scans 095 and 096 provide two independent China participant-authored samples.
+Participant-controlled digital rights improve founder-independence and machine-delegatability, but common browser/document state-transfer work is exactly where generic agents and small open-source tools compress margin fastest.
 
-The evidence entrance improves reality contact, but six fresh formations repeatedly close at physical execution/site rights, regulated/licensed human authority, public/government rails, or an already exact end-to-end matcher.
-
-That is enough to change the next evidence priority without inventing a product category.
-
-Scan 097 should require current participant-recorded friction plus independent corroboration **and** evidence that the decisive completion steps occur primarily inside participant-authorized digital systems. It should deprioritize chains dominated by physical delivery, licensed clinical/authority decisions, public-asset governance, or exact end-to-end platform control.
+One pass is not enough to derive another mechanism or evidence ontology. Scan 098 must repeat the same digital-action-rights-first method on a fresh formation-diverse China sample, explicitly preflighting current open-source substitutes.
 
 ## Blockers
 
@@ -137,28 +133,28 @@ Validation:
 - No response remains neither a pass nor a denial.
 
 Engineering:
-- PR #394 requires repository CI and live TypeSafe/Jev on the exact post-binding final head.
-- Do not merge or start Scan 097 from an older head.
+- PR #395 requires repository CI and live TypeSafe/Jev on the exact post-binding final head.
+- Do not merge or start Scan 098 from an older head.
 
 Discovery:
-- Scan 096 is complete with zero retention.
-- Scan 097 is gated on the final-head continuation directive.
+- Scan 097 is complete with zero retention.
+- Scan 098 is gated on the final-head continuation directive.
 
 ## Engineering State
 
 - no Jev integration blocker;
-- Scan 096 branch is ahead of `main`;
-- PR #394 is open;
+- Scan 097 branch is ahead of `main`;
+- PR #395 is open;
 - this TASK_STATE binding commit intentionally changes the head once;
-- do not start Scan 097 until Scan 096 final-head continuation is consumed.
+- do not start Scan 098 until Scan 097 final-head continuation is consumed.
 
 ## Do Not Repeat
 
-- Do not repeat Scan 096 Shanghai bulky furniture disposal, cross-hospital imaging/test portability, or Jiangsu agricultural machinery scheduling.
-- Do not repeat Scan 095 China residential private EV charging, post-discharge home nursing, or Shanghai off-peak shared parking.
-- Do not revive the interrupted U.S.-only Scan 095 draft as current commercial input.
+- Do not repeat Scan 097 digital-invoice reimbursement preparation, multi-platform creator publishing, or Android multi-store release.
+- Do not repeat Scan 095–096 formations.
+- Do not revive the interrupted U.S.-only Scan 095 draft.
 - Do not repeat Scan 089–094 formations or their primary signals.
-- Do not return to Scan 060–096 formations or their primary discovery signals.
+- Do not return to Scan 060–097 formations or their primary discovery signals.
 - Do not use job/gig/RFQ/procurement feeds as discovery ontology.
 - Do not infer a product from a closed formation.
 - Do not lower hard floors because discovery closes at zero.
@@ -173,6 +169,7 @@ Discovery:
 - Inference != fact.
 - No inherited commercial case layer or product mechanism.
 - Exact incumbent/control-surface preflight before deep retention.
+- Active open-source substitutes count as incumbents/substitutes.
 - No recurring founder acquisition.
 - No recurring expert delivery.
 - Generic-agent substitutability is a hard attraction kill.
@@ -196,4 +193,4 @@ Jev cannot promote candidates, mutate authoritative commercial truth, reverse cl
 
 ## Next Action
 
-Validate PR #394 exact final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue into Scan 097 only if `autonomous_continuation_allowed=true`.
+Validate PR #395 exact final head with repository CI plus live TypeSafe/Jev, consume the continuation directive, merge if permitted, and continue into Scan 098 only if `autonomous_continuation_allowed=true`.
