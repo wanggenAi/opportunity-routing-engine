@@ -1,22 +1,23 @@
 {
   "schema_version": 2,
   "task_key": "commercial-attraction-scan-138",
-  "generation": 3,
+  "generation": 4,
   "status": "ACTIVE",
-  "reconciled_at": "2026-09-23T08:29:00Z",
+  "reconciled_at": "2026-09-23T08:31:00Z",
   "live_main": "1978cec0a33938e2f56e913eb34123b613c2ded3",
   "work_branch": "research/scan138-diverse-current-receipts",
   "frozen_head": "34eb12d1938cdc0c6ade8acf3c3a4c3abae7dc56",
-  "stage": "SCAN138_PR448_EXACT_HEAD_VALIDATION_PENDING",
+  "stage": "SCAN138_PR448_EXACT_HEAD_VALIDATED_MERGE_PENDING",
   "scan_id": "ATTRACTION_SCAN_138",
   "durable_conclusions": [
     "Scan137 merged as main 1978cec0 after exact PR head CI 35835873563 and live TypeSafe/Jev 35835873687; Jev directed ADVANCE_TO_NEXT_SCAN with 4/4 NO_FURTHER_RESEARCH.",
     "Scan138 broadens source/mechanism diversity before any gate relaxation while preserving exact asset-attributable receipts, post-transfer continuity, >=24 month future coverage, computable economics and low recurring human delivery.",
     "Exact repository dedup returned no hits for fresh Chengdu Nanboyuan, Wuzhou Xihuan Road shops, Xuzhou Green Window 1-113, or Heze Tianying project names.",
     "Scan138 canonical scan, evidence, report, tests, machine state and TASK_STATE are persisted on research/scan138-diverse-current-receipts; four primary formations closed, zero retained, zero commercial promotion.",
-    "Scan137 tests were made historical before PR validation so forward progress to Scan138 does not repeat the prior global-state pin failure."
+    "Scan137 tests were made historical before PR validation so forward progress to Scan138 does not repeat the prior global-state pin failure.",
+    "Exact PR #448 head 34eb12d passed repository CI 35837216070 and live TypeSafe/Jev 35837216083; input Scan138/entity4, all routes NO_FURTHER_RESEARCH, continuation ADVANCE_TO_NEXT_SCAN."
   ],
-  "next_action": "Require repository CI and live TypeSafe/Jev success on exact PR #448 head 34eb12d1938cdc0c6ade8acf3c3a4c3abae7dc56; consume any reversible directive; merge if green.",
+  "next_action": "Merge PR #448 with validated head unchanged, then start fresh ATTRACTION_SCAN_139 with greater mechanism diversity.",
   "pending_operation": null,
   "do_not_repeat": [
     "Do not reuse Scan060-137 formations or exact addresses.",
@@ -27,5 +28,25 @@
   ],
   "pr": 448,
   "pr_status": "OPEN",
-  "pr_exact_head": "34eb12d1938cdc0c6ade8acf3c3a4c3abae7dc56"
+  "pr_exact_head": "34eb12d1938cdc0c6ade8acf3c3a4c3abae7dc56",
+  "validation": {
+    "exact_head": "34eb12d1938cdc0c6ade8acf3c3a4c3abae7dc56",
+    "repository_ci_run_id": 35837216070,
+    "repository_ci_conclusion": "success",
+    "jev_run_id": 35837216083,
+    "jev_conclusion": "success",
+    "jev_artifact_id": 10738874829,
+    "jev_artifact_digest": "sha256:0e1730e779aa423bdbbc9b6c27f0eb3a104b7336927415cfa165e4f1e4c23b70",
+    "jev_input_scan_id": "ATTRACTION_SCAN_138",
+    "jev_entity_count": 4,
+    "jev_effective_routes": {
+      "ATTRACTION_SCAN_138-F1": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_138-F2": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_138-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_138-F4": "NO_FURTHER_RESEARCH"
+    },
+    "continuation_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "autonomous_continuation_allowed": true,
+    "human_intervention_required": false
+  }
 }
