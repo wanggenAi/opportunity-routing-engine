@@ -1,0 +1,77 @@
+{
+  "scan_id": "ATTRACTION_SCAN_165",
+  "as_of_date": "2026-09-24",
+  "source_registry": {
+    "GACC-2026-24": {
+      "url": "https://fec.mofcom.gov.cn/article/ggfw/zcfg/zcfgdwmy/zcfgdwmyxx/202603/4173.html",
+      "claim": "From 2026-04-01, 9610 cross-border ecommerce retail export returns may enter through a different eligible China customs district instead of the original export customs; returned goods must enter an eligible customs-supervised operation site."
+    },
+    "GACC-INTERPRETATION-20260318": {
+      "url": "https://policy.mofcom.gov.cn/claw/policyInfo.shtml?id=8849",
+      "claim": "The official interpretation says enterprises may choose the most convenient eligible return port based on logistics cost and time; pilot volume reached 381,300 return tickets worth RMB 94 million by end-February 2026."
+    },
+    "TAX-RETURN-2026-16": {
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247663/content.html",
+      "claim": "For 2026-01-01 through 2027-12-31, eligible cross-border ecommerce exports under 1210/9610/9710/9810 returned in original condition within six months may receive import-duty/import-tax relief subject to documentation and other conditions."
+    },
+    "CHINAPOST-JINAN-20260723": {
+      "url": "https://www.chinapost.com.cn/cn/report/2607/6811-1.html",
+      "claim": "Shandong Post, local government, customs and AliExpress completed a 272-parcel 9610 cross-customs return flow through Jinan and estimated the model can reduce comprehensive logistics cost by more than 30%."
+    },
+    "SHAANXI-FIRST-20260918": {
+      "url": "https://sxeport.shaanxi.gov.cn/c/a/70f31b4a-82c4-4dd6-851b-18a4388f67fd",
+      "claim": "Shaanxi reported its first 9610 cross-customs return flow in September 2026 and said the route saved about 50% in capital and time cost for the batch."
+    },
+    "SHENZHEN-9610-CENTER": {
+      "url": "https://www.9610sz.com/",
+      "claim": "Shenzhen Cross-Border Trade Logistics Supervision Center publicly offers 9610 export/import/return plus 9710/9810 flows, multimodal consolidation, declaration and tracking through a supervised logistics facility."
+    },
+    "RTURN": {
+      "url": "https://www.rturn.com.cn/",
+      "claim": "rturn already connects US return-warehouse intake, inspection, Recovery Value, Inventory Disposition and Seller Payout, with seller and partner workflows and MCP/agent access."
+    },
+    "SFC-RETURNS-ROUTING": {
+      "url": "https://www.sendfromchina.com/NewsCenter/international-ecommerce-returns-back-to-china.html",
+      "claim": "SFC's current 2026 reverse-logistics framework explicitly routes returns among local resale, repair, liquidation, recycling, consolidation back to China and other dispositions based on condition, recovery value and total cost."
+    },
+    "CBAM-O3CI": {
+      "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-registry_en",
+      "claim": "The EU CBAM Registry includes an O3CI module for non-EU installation operators to upload and share installation and emissions data with reporting declarants; accredited verifiers can review supporting evidence and issue verification reports."
+    },
+    "CBAM-CHINA-PLATFORM": {
+      "url": "https://www.carbbit.com/en/",
+      "claim": "Carbbit currently markets a CBAM compliance platform for Chinese exporters with China-side supplier data collection/verification and data channels to European consulting agencies."
+    },
+    "CBAM-SHANGHAI-TOOL": {
+      "url": "https://segg.sh.gov.cn/zyfw/fwhy/lsdt/tsj/20260722/4520338d9e35440882981341e04aac43.html",
+      "claim": "Shanghai's enterprise-going-global service platform lists a current CBAM TOOL for Chinese manufacturers covering carbon calculation, reporting, dynamic cost warning and traceable data retention."
+    },
+    "TOOLING-HANDOVER": {
+      "url": "https://www.foreigngo.com/2026/09/15/china-sourcing-service-handover-exit-guide/",
+      "claim": "Current guidance for overseas buyers exiting a China sourcing service describes transfer of tooling, files, supplier relationships and open claims, and states a receiving sourcing service can practically handle the factory-side handover."
+    },
+    "TOOLING-TRANSFER-SERVICE": {
+      "url": "https://ckmold.com/mold-transfer/",
+      "claim": "A current China mold-transfer service packages audit, logistics, trial, re-validation and production restart when buyer-owned tooling moves to another supplier."
+    },
+    "REMOTE-CHINA-WAREHOUSE-RETURN": {
+      "url": "https://ebaoguo.com/en/kb/china-warehouse-return/",
+      "claim": "A current China warehouse service lets overseas customers remotely return parcels already stored in China, including domestic courier pickup, activity logs, tracking and photo records."
+    }
+  },
+  "retained_formation": "ATTRACTION_SCAN_165-F1",
+  "retained_reason": [
+    "The 2026 rule changed the state space: 9610 returns are no longer tied to the original export customs district.",
+    "The official interpretation explicitly says the enterprise may choose a convenient eligible port based on logistics cost/time.",
+    "Operational cases show material cost/time differences and multi-party coordination, creating a plausible routing value jump.",
+    "Current public research found supervised return rails and individual operational channels but did not establish a universal cross-port comparison/routing owner."
+  ],
+  "decisive_unknown": "DO_SELLERS_OR_THEIR_LOGISTICS_PARTNERS_RETAIN_A_REAL_CROSS_PORT_CHOICE_WITH_COMPARABLE_ROUTE_DATA_OR_DO_PLATFORM_CARRIER_AND_SUPERVISED_SITE_CONTRACTS_EFFECTIVELY_PREASSIGN_THE_RETURN_PORT",
+  "cheap_decisive_validation": [
+    "Exact incumbent preflight across platform/carrier/9610 supervised-site offerings.",
+    "Determine whether seller-level route choice survives platform/carrier contracts in actual 9610 flows.",
+    "Determine whether live route attributes/quotes across eligible ports are accessible without recurring customs-broker expert interpretation."
+  ],
+  "bootstrap_authorized": false,
+  "external_side_effects_performed": false
+}
