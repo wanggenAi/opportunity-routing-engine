@@ -90,3 +90,46 @@ Current jobs ask for production/process/quality judgment and recommendations. Th
 - FIRST_EXTERNAL_VALUE_FLOW: **NOT_PROVEN**
 
 The next scarce human action is not “send bids everywhere.” It is to bind one real B1 executor cost and confirm the platform/team path. Only after that should a bid or client contact consume human validation capital.
+
+
+## Exact incumbent preflight — decisive closure
+
+Live TypeSafe/Jev on the first frozen Scan163 head returned one research route for F1: `EXACT_INCUMBENT_PREFLIGHT`.
+
+That preflight found current services already occupying the proposed control layer:
+
+- **QGO Business** markets one China-side execution team, multi-city routing and factory visits; for B2B partners it explicitly offers partner-safe / white-label execution and wholesale execution quotes while the partner keeps the client relationship.
+- **ChinaLocalAgent** offers overseas clients one-time, short-term and ongoing China-side local execution with a local team, scoped evidence and reporting.
+- **China Biz Agent** states that its local execution reaches across mainland China.
+- **FactoryPass** sells buyer-paid verification and live factory visits across multiple manufacturing clusters.
+- **现场核验云** already owns the domestic address/evidence/acceptance/local-person dispatch pattern at scale.
+
+Therefore the remaining idea — "one overseas Demand Pump contracts one China coverage layer instead of recruiting city workers" — is **not an observed unowned missing edge at this abstraction**.
+
+A cheaper API/batch variant is imaginable, but no independent evidence currently shows that buyers are blocked on that exact interface or that incumbents cannot serve it. Inventing that gap would violate `UNKNOWN != PASS`.
+
+### Bootstrap consequence
+
+The Guangzhou CAD30–250 task remains real payment evidence. It is no longer an authorized core-model bootstrap.
+
+```text
+REAL PAID TASK
+!= DISTINCT OPERATOR POSITION
+!= REASON TO SPEND FOUNDER VALIDATION CAPITAL
+```
+
+B1 is therefore closed as a core bootstrap. B2 remains Demand Pump evidence only. B3 remains rejected as expert-heavy.
+
+## Final Scan163 truth
+
+- regenerative field: **real**
+- one-off paid tasks: **real**
+- replaceable local execution: **real**
+- exact generic China-side execution / white-label incumbent layer: **real**
+- distinct unowned router edge at this abstraction: **not proven / contradicted**
+- retained formations: **0**
+- commercial candidates: **0**
+- transaction units: **0**
+- FIRST_EXTERNAL_VALUE_FLOW: **NOT_PROVEN**
+
+Scan164 should remain within cross-border physical-world reality only if it searches **residual state transitions not already packaged** by local agents, white-label visit coordinators, professional inspectors, marketplaces or domestic field-task networks.
