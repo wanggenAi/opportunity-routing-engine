@@ -1,0 +1,97 @@
+{
+  "scan_id": "ATTRACTION_SCAN_160",
+  "as_of_date": "2026-09-24",
+  "boundary": "Public pre-commitment operational state changes whose remedy might be company-controlled/open and standardizable.",
+  "source_registry": {
+    "PWR-YM-20260825": {
+      "source_class": "CURRENT_RECURRING_PLANNED_POWER_INTERRUPTION_WITH_NAMED_SPECIAL_TRANSFORMER_USERS",
+      "url": "https://www.yncxym.gov.cn/info/1011/279347.htm",
+      "date": "2026-08-25",
+      "claim": "Yuanmou publishes a September 2026 planned-outage schedule in advance, including named/specific enterprise special-transformer users such as 10kV甄莓好公司专变 and 国有资产投资公司专变, and tells customers to prepare for outages."
+    },
+    "PWR-JJ-20260629": {
+      "source_class": "CURRENT_NAMED_COMPANY_PLANNED_POWER_OUTAGE",
+      "url": "https://wap.jingjiang.gov.cn/gggs/art/2026/art_149722586.html",
+      "date": "2026-06-29",
+      "claim": "Jingjiang announced a July 8 planned grid-maintenance outage affecting 新天地有限公司 and 嘉良有限公司, with explicit start/end times published before the event."
+    },
+    "PWR-LF-20260227": {
+      "source_class": "CURRENT_NAMED_INDUSTRIAL_PLANNED_POWER_OUTAGE",
+      "url": "https://www.lf.gov.cn/Item/154043.aspx",
+      "date": "2026-02-27",
+      "claim": "Langfang published a March planned-maintenance outage naming multiple industrial users including 龙上行车业、晟昱纺织、完达山（廊坊）牧业 and 鑫煜包装装潢."
+    },
+    "GEN-POST-20260709": {
+      "source_class": "CURRENT_ENTERPRISE_DIESEL_GENERATOR_RENTAL_MARKET_VALIDATION",
+      "url": "https://www.chinapost.com.cn/cn/report/2607/2601-1.htm",
+      "date": "2026-07-09",
+      "claim": "China Post's Shenyang mail center publicly procured two rented diesel generator sets (1000kW and 1200kW) to protect production operation, with a 10-month service period, budget and supplier qualification requirements including an electrical installation/repair/test license."
+    },
+    "WATER-FCG-20260324": {
+      "source_class": "CURRENT_NAMED_INDUSTRIAL_PLANNED_WATER_INTERRUPTION",
+      "url": "https://www.fcgs.gov.cn/zxzx/bmtx/t27380082.shtml",
+      "date": "2026-03-24",
+      "claim": "Fangchenggang announced a March 26 planned raw/tap-water interruption affecting named industrial users including 广钢公司、华昇公司 and 长科新材料公司 and explicitly instructed users to prepare water storage."
+    },
+    "WATER-LG-20260727": {
+      "source_class": "CURRENT_STANDARDIZED_DRINKING_WATER_DELIVERY_MARKET",
+      "url": "https://www.lg.gov.cn/bmzz/qcfjt/ggtz/content/post_12910294.html",
+      "date": "2026-07-27",
+      "claim": "Longgang Industrial Investment Service Group publicly procured recurring bottled/drinking-water delivery with ordinary delivery windows plus emergency orders requiring two-hour response and four-hour delivery."
+    },
+    "WATER-JX-20260421": {
+      "source_class": "CURRENT_UTILITY_OWNED_EMERGENCY_WATER_RESPONSE",
+      "url": "https://www.jining.gov.cn/art/2026/4/21/art_91677_2871074.html",
+      "date": "2026-04-21",
+      "claim": "Jiaxiang Public Water's emergency plan assigns its own/customer-service resources to dispatch emergency water trucks for outages longer than four hours, showing an incumbent utility continuity rail rather than an obviously open missing edge."
+    },
+    "GAS-CQ-20260730": {
+      "source_class": "CURRENT_NAMED_COMMERCIAL_INDUSTRIAL_PLANNED_GAS_INTERRUPTION",
+      "url": "https://www.cq.gov.cn/ywdt/bmts/202607/t20260730_15874841.html",
+      "date": "2026-07-30",
+      "claim": "Chongqing published a planned gas outage affecting a long list of named commercial/industrial users including 天阳吉能、汇浦液压、东都仓储、老肯医疗 and 建新印务, with a defined overnight window and advance production/life preparation reminder."
+    },
+    "GAS-CQ-20260720": {
+      "source_class": "CURRENT_RECURRING_PLANNED_GAS_OUTAGE_STREAM",
+      "url": "https://cq.gov.cn/ywdt/bmts/202607/t20260720_15834912.html",
+      "date": "2026-07-20",
+      "claim": "A separate July 22 Chongqing planned-gas notice shows the event stream recurs across commercial and institutional users and again directs users to prepare in advance."
+    },
+    "ROAD-SZ-20260825": {
+      "source_class": "CURRENT_PREANNOUNCED_INDUSTRIAL_PARK_ACCESS_CLOSURE_WITH_PUBLIC_BYPASS",
+      "url": "https://www.suzhou.gov.cn/szsrmzf/mszx/202608/4c68aec39bbf441db6bc773619fac8b3.shtml",
+      "date": "2026-08-25",
+      "claim": "Suzhou announced a full closure of Wupu Road beside an industrial park from August 29, 2026 to April 15, 2027 and simultaneously published a surrounding-road detour plus navigation-platform diversion measures."
+    },
+    "HEAT-ZL-20260703": {
+      "source_class": "CURRENT_PRESEASON_HEAT_EXCHANGE_STATION_MAINTENANCE_DIRECTIVE",
+      "url": "https://www.gszhuanglang.gov.cn/zfxxgk/fdzdgknr/ggqsydwxxgkml/ggfwqy/zlxkwgryxzrgs/art/2026/art_d0c354fdde2642789114ad048a4adb7d.html",
+      "date": "2026-07-03",
+      "claim": "Zhuanglang heat operator instructed property companies, owners' committees and relevant heat-operation/maintenance units to complete detailed pre-heating-season inspection and maintenance of heat exchangers, pumps, control cabinets, valves and related systems."
+    }
+  },
+  "retained_research_formations": [],
+  "near_miss_formations": [
+    "ATTRACTION_SCAN_160-F1"
+  ],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_160-F1",
+    "ATTRACTION_SCAN_160-F2",
+    "ATTRACTION_SCAN_160-F3",
+    "ATTRACTION_SCAN_160-F4",
+    "ATTRACTION_SCAN_160-F5"
+  ],
+  "rejected_inferences": [
+    "PLANNED_POWER_OUTAGE_DOES_NOT_PROVE_NONEXPERT_GENERATOR_MATCH",
+    "DRINKING_WATER_DELIVERY_DOES_NOT_PROVE_INDUSTRIAL_PROCESS_WATER_SUPPLY",
+    "PLANNED_GAS_OUTAGE_DOES_NOT_AUTHORIZE_GENERIC_TEMPORARY_FUEL_OR_GAS_ROUTING",
+    "PUBLIC_ROAD_CLOSURE_WITH_PUBLISHED_DETOUR_DOES_NOT_CREATE_A_MISSING_EDGE",
+    "PRESEASON_MAINTENANCE_DIRECTIVE_DOES_NOT_PROVE_AN_UNOWNED_A_SIDE_QUEUE"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "conclusion": "Scan160 finds one structurally better near miss in planned enterprise power interruptions, but current evidence still requires qualified/site-specific electrical integration. Other fields are resolved by self-help/incumbent rails, lack a safe standardized B-side, or have a public generic bypass. Zero formations retained."
+}
