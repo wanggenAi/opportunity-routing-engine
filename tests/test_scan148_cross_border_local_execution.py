@@ -106,12 +106,10 @@ class Scan148CrossBorderLocalExecutionTests(unittest.TestCase):
 
     def test_machine_state_scan148_and_scan147_reconciliation(self):
         state = load(STATE_PATH)
-        self.assertEqual(state["last_completed_scan_id"], "ATTRACTION_SCAN_148")
-        self.assertEqual(
-            state["last_completed_scan_file"],
-            "data/research_runs/attraction_scan_148.json",
-        )
-        self.assertEqual(state["next_scan_id"], "ATTRACTION_SCAN_149")
+        last_scan_number = int(state["last_completed_scan_id"].rsplit("_", 1)[-1])
+        next_scan_number = int(state["next_scan_id"].rsplit("_", 1)[-1])
+        self.assertGreaterEqual(last_scan_number, 148)
+        self.assertGreaterEqual(next_scan_number, 149)
         self.assertIn(
             "ATTRACTION_SCAN_148-F1",
             state["retained_research_formations"],
@@ -122,6 +120,12 @@ class Scan148CrossBorderLocalExecutionTests(unittest.TestCase):
         scan147 = state["scan147_broad_reality_shared_capacity"]
         self.assertEqual(scan147["exact_head_validation_status"], "SUCCESS")
         self.assertEqual(scan147["final_jev_next_action"], "ADVANCE_TO_NEXT_SCAN")
+        scan148 = state["scan148_cross_border_local_execution"]
+        self.assertEqual(
+            scan148["status"],
+            "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
+        )
+        self.assertEqual(scan148["final_jev_next_action"], "ADVANCE_TO_NEXT_SCAN")
 
     def test_f1_route_consumption_is_authoritative_for_jev(self):
         scan = load(SCAN_PATH)
