@@ -29,7 +29,7 @@ SCAN159_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 `research/scan159-public-actor-open-remedy-standard-match`.
 
 ## Active PR
-Not opened yet. Create the Scan 159 PR after this checkpoint commit and freeze that exact head.
+PR #474 — `Run Scan 159 public-actor open-remedy standard-match sweep` — OPEN.
 
 ## CI
 - Scan 159 exact-head repository CI: PENDING.
@@ -55,10 +55,10 @@ Not opened yet. Create the Scan 159 PR after this checkpoint commit and freeze t
 Public actor visibility is no longer sufficient to advance the search. The closest current structure has named electrical contractors, explicit deadlines and licensed recruitment supply, but permit-condition acceptance remains regulator-owned. Other compliance fields fail similarly; company relocation has a more open company-controlled execution gate, but the public trace is post-commitment and matching is project-specific. Scan 160 should therefore search public **pre-commitment operational** state changes with company-controlled/open remedies and standardizable matching.
 
 ## Blockers
-No human blocker. Scan 159 exact-head repository CI and real TypeSafe/Jev are pending.
+No human blocker. Strategic Drift Guard hardening has been reconciled into PR #474; the new exact head requires repository CI and real TypeSafe/Jev.
 
 ## Next Action
-Open/freeze the Scan 159 PR exact head; require exact-head repository CI + live TypeSafe/Jev; consume any reversible route, otherwise merge and advance to Scan 160.
+Freeze the reconciled PR #474 exact head; require exact-head repository CI + live TypeSafe/Jev; consume any reversible route, otherwise merge and advance to Scan 160.
 
 ## Do Not Repeat
 Do not re-scan Scan142–159 domains as a new ontology; do not treat licensed service supply as operator control when a regulator owns final acceptance; do not use certificate renting; do not let downstream procurement define the discovery seed; do not weaken `UNKNOWN != PASS`.
