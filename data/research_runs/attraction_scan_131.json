@@ -1,0 +1,196 @@
+{
+  "schema_version": "attraction-scan.v102",
+  "scan_id": "ATTRACTION_SCAN_131",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "SMALL_OPERATOR_ACQUIRABLE_NON_SOFTWARE_OPERATIONAL_CONTROL_ASSETS_WITH_SOURCE_BOUND_CONTRACTED_RECEIPTS_TRANSFERABLE_CONTROL_LOW_RECURRING_HUMAN_DELIVERY_AND_EXPLICIT_POST_TRANSFER_INCOME_RIGHTS",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "CURRENT_OPERATIONAL_CONTROL_PLUS_CONTRACTED_CASHFLOW_PLUS_TRANSFER_PRICE_NO_SCAN060_TO_130_FORMATION_REUSE_NO_REGULATED_SECURITIES_NO_GATE_RELAXATION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": false,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_131-F1",
+      "title": "EXECUTED_EV_CHARGING_STATION_CONTROL_TRANSFER_WITH_CONTRACTED_RENT_AND_SERVICE_FEE",
+      "chinese_title": "已执行充电场站资产组收购 → 车企租金/服务费合同 → 收益随控制权转移",
+      "evidence_class": "CURRENT_EXECUTED_MAINLAND_CONTROL_TRANSFER_WITH_ASSET_BOUND_CONTRACTED_RECEIPTS_BUT_NON_SMALL_OPERATOR_ENTRY",
+      "evidence_summary": "A 2026-09-17 listed-company disclosure binds 23 Hainan charging-station assets to land-use leases, co-operation and sublease agreements, fixed rents and usage-linked service fees. The acquisition agreement transfers full ownership and assigns all operating income from 2026-09-01 to the buyer. This is the strongest Scan 131 proof that physical operating control and contracted proceeds can transfer together. It still fails the target entry model: the bundled price is RMB 10.71928485 million, the buyer had already been entrusted to operate the assets before acquisition, and several supporting agreements require counterparty migration, sublease workarounds or collection-and-forwarding arrangements.",
+      "attraction_brief": {
+        "a_side": "The seller transfers a complete station portfolio including physical equipment and operating rights rather than bare hardware.",
+        "a_side_evidence": "The disclosed asset group includes equipment plus land-use lease rights, co-operation rights and station operating rights.",
+        "b_side": "Automaker counterparties already pay fixed monthly rent or usage-linked service fees under identified contracts.",
+        "b_side_evidence": "The disclosure lists fixed rents including RMB 10,400/month, RMB 38,400/month and RMB 18,700/month plus multiple per-kWh or percentage service-fee formulas.",
+        "operator": "The buyer receives the income-producing control bundle and post-transfer revenue ownership.",
+        "operator_non_labor_test": "PARTIAL_SUBLEASE_STATIONS_ARE_COUNTERPARTY_OPERATED_BUT_SELF_BUILT_AND_CO_BUILT_STATIONS_RETAIN_OPERATIONS_AND_MAINTENANCE_WORK",
+        "connection_wow": "This is real current evidence that control, contracts and income rights can move together.",
+        "activation_friction": "FAIL_TARGET_ENTRY_PRICE_AND_TRANSITION_COMPLEXITY",
+        "self_propulsion": "PASS_FOR_CONTRACTED_RENT_AND_USAGE_LINKED_RECEIPTS",
+        "a_discoverability": "PASS_PUBLIC_LISTED_COMPANY_DISCLOSURE",
+        "b_discoverability": "PASS_IDENTIFIED_AUTOMAKER_COUNTERPARTIES_AND_CONTRACT_FORMULAS",
+        "match_resolvability": "PASS_AT_ASSET_GROUP_LEVEL",
+        "action_gate": "FAIL_SMALL_OPERATOR_REPRODUCIBILITY_AND_SIMPLE_CONTRACT_MIGRATION",
+        "router_distinctiveness": "PASS_OPERATING_RIGHTS_AND_COUNTERPARTY_CONTRACTS_ARE_NON_GENERIC_CONTROL",
+        "generic_agent_substitution": "PASS_ASSET_AND_CONTRACT_CONTROL_CANNOT_BE_REPLACED_BY_GENERIC_AGENT_AUTOMATION",
+        "legal_payment_compliance": "PASS_DOMESTIC_CONTRACT_AND_PAYMENT_MECHANISM",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "The disclosed bundle costs RMB 10,719,284.85, outside the intended small-operator entry range.",
+        "The buyer was already the entrusted operator before the acquisition, so the transaction does not prove reproducibility for an unrelated fresh small operator.",
+        "Supporting agreements are not uniformly assignable: some require counterparty migration, sublease or collection-and-forwarding fallbacks."
+      ],
+      "verdict": "DEMOTED_EXECUTED_CHARGING_STATION_CONTROL_TRANSFER_BINDS_CONTRACTED_REVENUE_AND_POST_TRANSFER_INCOME_BUT_10_7M_BUNDLED_CAPITAL_INCUMBENT_OPERATOR_AND_AGREEMENT_MIGRATION_FAIL_SMALL_OPERATOR_REPRODUCIBILITY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_131-F2",
+      "title": "CURRENT_SMALL_LEASED_PROPERTY_TRANSFER_WITH_RENT_RIGHT_SUCCESSION",
+      "chinese_title": "当前小额带租约房产 → 原租约继续 → 过户后租金归受让方",
+      "evidence_class": "CURRENT_SMALL_TICKET_MAINLAND_ASSET_TRANSFER_WITH_CONTRACT_CONTINUITY_BUT_UNDISCLOSED_RENT_QUANTUM_AND_SHORT_REMAINING_TERM",
+      "evidence_summary": "An active 2026-09-21 Anhui Changjiang Property Exchange listing offers two leased Wuhu properties at RMB 468,700 and RMB 522,800. The announcement states that if a non-tenant buyer wins, the existing lease remains effective, the landlord identity is changed, prepaid rent attributable to the buyer is handed over, and future rent belongs to the buyer. This clears small-ticket transferability and post-transfer income-right continuity at the contract level. It does not publish the rent amount, and the observed leases expire on 2027-03-21 and 2027-01-07, leaving only short remaining contracted periods and no proof of founder-free replacement tenancy after expiry.",
+      "attraction_brief": {
+        "a_side": "A current state-owned seller exposes small-ticket leased property with standardized online bidding.",
+        "a_side_evidence": "The live listing is open 2026-09-21 to 2026-09-28 and accepts natural-person buyers.",
+        "b_side": "Existing tenants are already under leases that survive transfer.",
+        "b_side_evidence": "The listing expressly requires the original lease to continue and future rent to accrue to the buyer after landlord substitution.",
+        "operator": "Ownership can be low recurring labor while the tenant performs the productive activity and pays rent.",
+        "operator_non_labor_test": "PASS_DURING_CURRENT_LEASE_SUBJECT_TO_NORMAL_LANDLORD_ADMINISTRATION",
+        "connection_wow": "A sub-RMB-0.55m physical asset can transfer together with an already contracted payer relationship.",
+        "activation_friction": "PASS_FOR_ENTRY_MECHANISM",
+        "self_propulsion": "PARTIAL_EXISTING_RENT_CONTINUES_ONLY_FOR_SHORT_REMAINING_TERM",
+        "a_discoverability": "PASS_CURRENT_PUBLIC_EXCHANGE_LISTING",
+        "b_discoverability": "PASS_EXISTING_TENANT_CONTRACT_BUT_RENT_QUANTUM_NOT_PUBLIC",
+        "match_resolvability": "PASS_PROPERTY_AND_LEASE_IDENTITY",
+        "action_gate": "FAIL_NO_PUBLIC_RENT_QUANTUM_AND_INSUFFICIENT_DURABLE_CONTRACT_TERM",
+        "router_distinctiveness": "PASS_PROPERTY_PLUS_LEASE_CONTROL_IS_NON_GENERIC",
+        "generic_agent_substitution": "PASS_OWNERSHIP_RIGHT_IS_NOT_GENERIC_AGENT_SUBSTITUTABLE",
+        "legal_payment_compliance": "PASS_DOMESTIC_PROPERTY_TRANSFER_AND_RENT_MECHANISM",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "The public listing does not disclose the rent amount, so current yield and normalized economics cannot be computed from source-bound evidence.",
+        "The two leased examples expire in January and March 2027, leaving short remaining contract duration as of 2026-09-23.",
+        "No source-bound evidence proves that replacement tenancy after expiry is automatic or founder-free."
+      ],
+      "verdict": "DEMOTED_CURRENT_SMALL_LEASED_PROPERTY_TRANSFER_PRESERVES_TENANT_AND_RENTS_BUT_NO_PUBLIC_RENT_QUANTUM_AND_SHORT_REMAINING_TERM_FAIL_SOURCE_BOUND_DURABLE_CASHFLOW"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_131-F3",
+      "title": "SMALL_CHARGING_STATION_HARDWARE_TRANSFER_WITHOUT_SITE_OR_OPERATING_RIGHTS",
+      "chinese_title": "29.8万元充电站设备转让 → 低门槛硬件 ≠ 可接管运营现金流",
+      "evidence_class": "SMALL_TICKET_PHYSICAL_ASSET_TRANSFER_DISCONFIRMED_AS_OPERATING_CONTROL",
+      "evidence_summary": "A June 2026 Henan public-resource listing transfers a Pingdingshan charging-station equipment package for RMB 298,000 and allows natural-person buyers. However, the asset is built on leased land, the access route is also leased, and the successful buyer must dismantle and remove the equipment. The notice provides no transferred site lease, platform account, charging-order flow, customer contract or operating income right. This is a direct counterexample to treating affordable charging hardware as an affordable cashflowing charging business.",
+      "attraction_brief": {
+        "a_side": "The public exchange exposes a complete physical charging-equipment package at a small-ticket price.",
+        "a_side_evidence": "Transfer floor is RMB 298,000 with an RMB 80,000 deposit and natural persons are eligible.",
+        "b_side": "No paying-user or contracted-counterparty stream transfers with the equipment.",
+        "b_side_evidence": "The buyer must dismantle and remove the assets and separately negotiate access/site matters.",
+        "operator": "Hardware could be redeployed, but this is asset liquidation rather than operating-control succession.",
+        "operator_non_labor_test": "FAIL_REDEPLOYMENT_INSTALLATION_SITE_ACQUISITION_AND_NEW_DEMAND_CREATION_REQUIRED",
+        "connection_wow": "The low price initially looks attractive but disappears once the operational-right boundary is enforced.",
+        "activation_friction": "FAIL_NO_SITE_OR_OPERATING_RIGHT_TRANSFER",
+        "self_propulsion": "FAIL_NO_EXISTING_PROCEEDS_TRANSFER",
+        "a_discoverability": "PASS_PUBLIC_TRANSFER_LISTING",
+        "b_discoverability": "FAIL_NO_SOURCE_BOUND_PAYING_FLOW",
+        "match_resolvability": "PASS_FOR_HARDWARE_IDENTITY_ONLY",
+        "action_gate": "FAIL_OPERATIONAL_CONTROL_NOT_INCLUDED",
+        "router_distinctiveness": "FAIL_BARE_HARDWARE_IS_COMMODITIZED_AND_REDEPLOYMENT_DEPENDENT",
+        "generic_agent_substitution": "NOT_DECISIVE_CONTROL_RIGHT_IS_MISSING",
+        "legal_payment_compliance": "PASS_ASSET_PURCHASE_MECHANISM",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "The transfer notice requires dismantling and removal.",
+        "The station sits on leased land and the access route is separately leased.",
+        "No operating platform, site right, customer contract or existing receipt stream is included."
+      ],
+      "verdict": "DEMOTED_SMALL_CHARGING_STATION_ASSET_PRICE_IS_ACCESSIBLE_BUT_REQUIRED_DISMANTLING_AND_EXCLUDED_SITE_RIGHTS_MEAN_NO_OPERATING_CONTROL_OR_CASHFLOW_TRANSFERS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_131-F4",
+      "title": "CURRENT_LED_ADVERTISING_OPERATING_RIGHT_WITH_IDLE_INVENTORY",
+      "chinese_title": "当前LED广告位一年经营权 → 低资本可竞租 → 但需自行创造广告客户收入",
+      "evidence_class": "CURRENT_SMALL_TICKET_OPERATING_RIGHT_WITHOUT_EXISTING_CONTRACTED_PROCEEDS",
+      "evidence_summary": "A Wuhu LED billboard operating-right listing opened on 2026-09-23 at RMB 131,000 for one year and allows natural persons. The right includes use of the existing LED equipment, but the asset is explicitly idle. The operator must obtain advertising permissions, source advertisers, bear energy and damage costs, accept content review, reserve 10% of daily advertising time for the lessor without compensation and cannot sublease the equipment. The listing therefore proves current purchasable operating access, not an existing contracted cashflow.",
+      "attraction_brief": {
+        "a_side": "A public exchange offers a current low-ticket advertising operating right with equipment already in place.",
+        "a_side_evidence": "Listing starts 2026-09-23, floor rent RMB 131,000, natural persons eligible.",
+        "b_side": "No current advertiser contract or prepaid campaign transfers with the right.",
+        "b_side_evidence": "The billboard is listed as idle and the operator is responsible for compliant advertising operations.",
+        "operator": "Digital display scheduling is machine-servable after ads exist, but sales and compliance remain the value bottleneck.",
+        "operator_non_labor_test": "FAIL_RECURRING_ADVERTISER_ACQUISITION_CONTENT_APPROVAL_AND_MAINTENANCE_REMAIN",
+        "connection_wow": "Low entry cost and installed infrastructure do not create self-propelled demand.",
+        "activation_friction": "PARTIAL_RIGHT_ACQUISITION_IS_SIMPLE_BUT_COMMERCIAL_ACTIVATION_IS_NOT",
+        "self_propulsion": "FAIL_NO_EXISTING_PROCEEDS_OR_CONTRACTED_ADVERTISERS",
+        "a_discoverability": "PASS_CURRENT_PUBLIC_EXCHANGE_LISTING",
+        "b_discoverability": "FAIL_NO_EXISTING_PAYING_ADVERTISER_FLOW",
+        "match_resolvability": "FAIL_AD_INVENTORY_REQUIRES_NEW_SALES_MATCHING",
+        "action_gate": "FAIL_EXISTING_CASHFLOW_GATE",
+        "router_distinctiveness": "PARTIAL_PHYSICAL_LOCATION_IS_SCARCE_BUT_MONETIZATION_REMAINS SALES_DRIVEN",
+        "generic_agent_substitution": "FAIL_GENERIC_AD_SALES_AND_SCHEDULING_TOOLS_DO_NOT_SOLVE_CUSTOMER_ACQUISITION",
+        "legal_payment_compliance": "PASS_OPERATING_RIGHT_RENT_MECHANISM_SUBJECT_TO_ADVERTISING_PERMITS",
+        "regulatory_content_compliance": "FAIL_CANNOT_BE_TREATED_AS_PASSIVE_OR_AUTOMATIC_BECAUSE_CONTENT_REVIEW_AND_AD_LAW_COMPLIANCE_APPLY"
+      },
+      "exact_disconfirmation": [
+        "The billboard is explicitly idle at listing time.",
+        "No advertiser contract, prepaid order or historical proceeds ledger transfers with the operating right.",
+        "The operator must perform advertiser acquisition, content compliance, maintenance and energy-cost management."
+      ],
+      "verdict": "DEMOTED_CURRENT_LED_AD_OPERATING_RIGHT_IS_SMALL_AND_MACHINE_SERVABLE_BUT_ASSET_IS_IDLE_AND_REQUIRES_NEW_ADVERTISER_SALES_COMPLIANCE_AND_MAINTENANCE_WITH_NO_EXISTING_PROCEEDS"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "SOFTWARE_APP_WEBSITE_MINIPROGRAM_AND_DOMAIN_ASSETS",
+      "reason": "Consumed in Scan 129-130 and excluded by anti-repeat boundary."
+    },
+    {
+      "observation": "PATENT_COPYRIGHT_AND_ROYALTY_RIGHTS",
+      "reason": "Consumed in Scan 130 and excluded from this physical/operational control pass."
+    },
+    {
+      "observation": "REGULATED_SECURITIES_AND_FINANCIAL_PRODUCTS",
+      "reason": "Explicitly outside the current commercial asset search boundary."
+    }
+  ],
+  "drift_audit": {
+    "primary_domain_is_china": true,
+    "source_bound_transfer_price_required": true,
+    "source_bound_receipt_amount_and_term_required_for_promotion": true,
+    "operational_control_must_transfer_with_asset": true,
+    "affordable_hardware_not_equivalent_to_cashflowing_business": true,
+    "current_contract_survival_not_equivalent_to_durable_cashflow": true,
+    "no_property_only_ontology_lock_in": true,
+    "scan060_to_130_formation_fallback_forbidden": true,
+    "gate_relaxation": false
+  },
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Scan 131 found decisive current evidence that physical operational control and contracted proceeds can transfer together in China, and separately found a small-ticket leased property where rent rights survive transfer. Neither clears the full target: the strong charging bundle is too capital-intensive and incumbent-dependent, while the small property lacks public rent quantum and durable remaining term. Affordable hardware and idle operating rights do not carry existing cashflow."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_132",
+  "next_search_boundary": "SCAN132_SEARCH_CURRENT_CHINA_SMALL_OPERATOR_ACQUIRABLE_PHYSICAL_OR_CONTRACT_CONTROL_ASSETS_WITH_SOURCE_BOUND_TRANSFER_PRICE_PLUS_EXPLICIT_CONTRACTED_RECEIPT_AMOUNT_TERM_COUNTERPARTY_AND_POST_TRANSFER_RIGHTS_LOW_RECURRING_HUMAN_DELIVERY_NO_PROPERTY_ONLY_ONTOLOGY_LOCK_IN_NO_REGULATED_SECURITIES_NO_SCAN060_TO_131_FORMATION_REUSE_NO_GATE_RELAXATION",
+  "next_action": "FREEZE_SCAN131_HEAD_OPEN_ONE_PR_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_INPUT_SCAN_ID_ATTRACTION_SCAN_131_ENTITY_COUNT_4_ALL_FOUR_AUTHORITATIVE_NO_FURTHER_RESEARCH_THEN_ADVANCE_TO_SCAN132_IF_CONTINUATION_ALLOWS",
+  "scan_learnings": [
+    "SCAN131_PROVES_CURRENT_MAINLAND_OPERATING_CONTROL_AND_CONTRACTED_PROCEEDS_CAN_TRANSFER_TOGETHER; THE SEARCH PROBLEM IS NOW SMALL_OPERATOR_REPRODUCIBILITY_AND_COMPLETE_ECONOMIC_BINDING, NOT WHETHER THE MECHANISM EXISTS.",
+    "A_SMALL_TICKET_LEASED_PROPERTY_CAN TRANSFER WITH TENANT CONTRACT CONTINUITY AND POST_TRANSFER RENT RIGHTS, BUT WITHOUT PUBLIC RENT QUANTUM AND SUFFICIENT REMAINING TERM IT IS NOT A SOURCE_BOUND DURABLE CASHFLOW ASSET.",
+    "AFFORDABLE_CHARGING_HARDWARE_IS_NOT AN OPERATING_ASSET WHEN SITE RIGHTS PLATFORM ACCESS AND DEMAND DO NOT TRANSFER.",
+    "A LOW_COST_OPERATING_RIGHT WITH IDLE INVENTORY STILL REQUIRES FOUNDER_OR_OPERATOR_CUSTOMER_ACQUISITION AND THEREFORE FAILS THE SELF_PROPELLED_CASHFLOW GATE.",
+    "SCAN132_SHOULD REQUIRE THE FULL ECONOMIC TUPLE AT THE ASSET LEVEL: ACQUISITION_PRICE CONTRACTED_RECEIPT_AMOUNT CONTRACT_TERM COUNTERPARTY POST_TRANSFER_RIGHTS AND LOW_RECURRING_LABOR."
+  ]
+}
