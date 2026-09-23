@@ -499,7 +499,10 @@
           "expert_matching_required_per_transaction": false,
           "explanation_burden_high": false,
           "generic_agent_substitutable": true
-        }
+        },
+        "generic_agent_substitution_evidence": [
+          "COMPUTE-MIIT-DETAIL-20260402"
+        ]
       },
       "verdict": "DEMOTED_SME_COMPUTE_ACCESS_REAL_BUT_CURRENT_COMPUTE_MARKETS_ALREADY_OWN_RESOURCE_MATCHING_PROCUREMENT_AND_SCHEDULING_AND_GENERIC_ROUTING_IS_SUBSTITUTABLE",
       "regenerative_field_gate": {
