@@ -1,0 +1,103 @@
+{
+  "schema_version": "jev-route-consumption.v1",
+  "scan_id": "ATTRACTION_SCAN_142",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "source_exact_head": "60c9be2137d94890adb9036b362537ebf6b99220",
+  "repository_ci": {
+    "run_id": 35865684083,
+    "conclusion": "SUCCESS"
+  },
+  "jev_advisory": {
+    "run_id": 35865684096,
+    "artifact_id": 10752143393,
+    "artifact_digest": "sha256:3a229a2895b4a7437f5c015b7bf571b350e62ac45c3c20ae3b40a5e962c30871",
+    "contract": "OPPORTUNITY_JEV_AGENT_CONTINUATION_V1",
+    "input_scan_id": "ATTRACTION_SCAN_142",
+    "execution_status": "SUCCESS",
+    "autonomous_continuation_allowed": true,
+    "continuation_next_action": "EXECUTE_RESEARCH_QUEUE",
+    "external_side_effects_allowed": false,
+    "effective_route_counts": {
+      "EXACT_INCUMBENT_PREFLIGHT": 1,
+      "NO_FURTHER_RESEARCH": 3
+    }
+  },
+  "route_consumption": [
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F1",
+      "action": "RUN_EXACT_INCUMBENT_PREFLIGHT",
+      "effective_research_route": "EXACT_INCUMBENT_PREFLIGHT",
+      "public_sources": [
+        {
+          "source_id": "VPP-SD-MGMT-2026",
+          "url": "https://nyj.shandong.gov.cn/module/download/downfile.jsp?classid=0&filename=28397e5c97a548b4ade4ac81e7ec6ec1.pdf",
+          "role": "OFFICIAL_SHANDONG_VPP_MANAGEMENT_RULES",
+          "bound_facts": [
+            "Provincial/city VPP service centers own operator and aggregated-user archive review, aggregation-relationship establishment, system-data access, capability-test applications, baseline calculation, monitoring, evaluation and technical support.",
+            "The power trading institution owns VPP/aggregated-user registration, aggregation-contract signing, transaction declarations, information disclosure, credit evaluation, transaction organization and settlement basis.",
+            "VPP operators own self-built technical support systems, resource mining, user aggregation, capability evaluation and market participation."
+          ]
+        },
+        {
+          "source_id": "VPP-SD-PLAN-20260326",
+          "url": "https://nyj.shandong.gov.cn/art/2026/3/27/art_59960_10311577.html",
+          "role": "OFFICIAL_SHANDONG_VPP_DEVELOPMENT_PLAN",
+          "bound_facts": [
+            "Operators must offer different flexible-adjustment retail packages and agree benefit-sharing mechanisms.",
+            "System-platform and smart-metering service providers are explicitly supported for aggregation-platform construction and collection-device installation.",
+            "The province requires persistent flexible-resource surveys and structured response-resource libraries."
+          ]
+        },
+        {
+          "source_id": "VPP-SD-MARKET-20260508",
+          "url": "https://sdb.nea.gov.cn/dtyw/tzgg/202605/t20260508_300824.html",
+          "role": "OFFICIAL_CURRENT_SHANDONG_POWER_MARKET_RULES",
+          "bound_facts": [
+            "The 2026-04 revised Shandong power-market rules are the current governing market rule set."
+          ]
+        },
+        {
+          "source_id": "VPP-SD-2026-CONSUMPTION",
+          "url": "https://www.nea.gov.cn/20260508/05670850336646769402519bdf9fef39/c.html",
+          "role": "OFFICIAL_NEA_CURRENT_MARKET_MECHANISM",
+          "bound_facts": [
+            "Current market design directs VPPs to aggregate distributed renewable and user-side adjustment resources that cannot independently enter the market."
+          ]
+        }
+      ],
+      "incumbent_control_map": {
+        "eligibility_and_archive_review": "PROVINCIAL_AND_CITY_VPP_SERVICE_CENTERS",
+        "aggregation_relationship_and_system_data_access": "PROVINCIAL_AND_CITY_VPP_SERVICE_CENTERS",
+        "market_registration_and_aggregation_contract": "POWER_TRADING_INSTITUTION",
+        "transaction_declaration_disclosure_credit_and_settlement": "POWER_TRADING_INSTITUTION",
+        "resource_mining_user_aggregation_and_capability_evaluation": "VPP_OPERATORS",
+        "platform_building_and_metering_services": "EXPLICIT_TECHNOLOGY_SERVICE_PROVIDER_LANE"
+      },
+      "contradiction_search": [
+        "Official policy supports third-party platform and metering service providers, so technology-service participation is not prohibited.",
+        "No current official evidence in this bounded preflight establishes an independent neutral cross-operator router with authority over aggregation relationships, registration, contracting or settlement.",
+        "No current official evidence in this bounded preflight establishes scalable permissioned cross-operator resource/offer data access for a small independent router."
+      ],
+      "unresolved_but_not_promotable": [
+        "Private commercial data-sharing arrangements may exist outside public evidence.",
+        "A comparison/advisory product can be imagined, but current evidence does not establish that it owns a recurring missing edge rather than sitting on incumbent control surfaces."
+      ],
+      "resolution": "EXACT_INCUMBENT_PREFLIGHT_CLOSES_F1_DISTINCT_UNOWNED_ROUTER_EDGE_NOT_EVIDENCED_CONTROL_LIFECYCLE_ALREADY_ASSIGNED_TO_SERVICE_CENTERS_TRADING_INSTITUTION_AND_VPP_OPERATORS",
+      "commercial_promotion": false
+    }
+  ],
+  "authoritative_closures_preserved": [
+    "ATTRACTION_SCAN_142-F2",
+    "ATTRACTION_SCAN_142-F3",
+    "ATTRACTION_SCAN_142-F4"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "account_created": false,
+  "application_submitted": false,
+  "next_action": "FREEZE_ROUTE_CONSUMPTION_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_JEV_EXPECT_ALL_NO_FURTHER_RESEARCH_THEN_MERGE_PR453_AND_REDERIVE_SCAN143_FROM_BROAD_REALITY"
+}

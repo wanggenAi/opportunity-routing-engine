@@ -102,6 +102,7 @@ def test_machine_state_retains_only_scan142_f1_and_never_promotes():
     assert scan["retained_research_formations"] == ["ATTRACTION_SCAN_142-F1"]
     assert "ATTRACTION_SCAN_142-F1" in state["retained_research_formations"]
     resolved = {row["formation_id"]: row["verdict"] for row in state["resolved_research_formations"]}
+    assert resolved["ATTRACTION_SCAN_142-F1"].startswith("DEMOTED_EXACT_INCUMBENT_PREFLIGHT_")
     for suffix in ("F2", "F3", "F4"):
         assert resolved[f"ATTRACTION_SCAN_142-{suffix}"].startswith("DEMOTED_")
     assert state["active_commercial_candidates"] == []

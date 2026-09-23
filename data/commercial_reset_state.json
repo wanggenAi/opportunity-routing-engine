@@ -381,6 +381,11 @@
       "formation_id": "ATTRACTION_SCAN_142-F4",
       "verdict": "DEMOTED_REGENERATIVE_BATTERY_FIELD_REAL_BUT_REGULATED_PRODUCER_RECOVERY_NETWORK_AND_PHYSICAL_SAFETY_CHAIN_PREVENT_LIGHT_INDEPENDENT_ROUTER",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F1",
+      "verdict": "DEMOTED_EXACT_INCUMBENT_PREFLIGHT_AUTHORITY_AND_MARKET_CONTROL_SURFACES_OWN_AGGREGATION_RELATIONSHIP_DATA_ACCESS_CONTRACTING_AND_SETTLEMENT_SCALABLE_NEUTRAL_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED",
+      "resolved_date": "2026-09-23"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
@@ -388,7 +393,7 @@
   "last_completed_scan_id": "ATTRACTION_SCAN_142",
   "last_resolved_formation_id": "ATTRACTION_SCAN_142-F4",
   "next_scan_id": "ATTRACTION_SCAN_143",
-  "current_research_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN142_THEN_CONSUME_ANY_REVERSIBLE_F1_PUBLIC_ROUTE_BEFORE_SCAN143",
+  "current_research_action": "REDERIVE_SCAN143_FROM_BROAD_CURRENT_REALITY_AFTER_SCAN142_F1_EXACT_INCUMBENT_PREFLIGHT_CLOSURE",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -2440,7 +2445,7 @@
     "remediation_merged_main_sha": "2024ce0196720aef901e58211e049fd9336b87be"
   },
   "scan142_regenerative_field_reboot": {
-    "status": "PERSISTED_AWAITING_EXACT_HEAD_CI_AND_LIVE_JEV",
+    "status": "F1_EXACT_INCUMBENT_PREFLIGHT_CONSUMED_FINAL_EXACT_HEAD_REVALIDATION_PENDING",
     "source_main_sha": "2024ce0196720aef901e58211e049fd9336b87be",
     "canonical_scan_artifact": "data/research_runs/attraction_scan_142.json",
     "evidence_artifact": "data/research_runs/scan142_regenerative_field_evidence.json",
@@ -2449,6 +2454,7 @@
       "ATTRACTION_SCAN_142-F1"
     ],
     "authoritative_closures": [
+      "ATTRACTION_SCAN_142-F1",
       "ATTRACTION_SCAN_142-F2",
       "ATTRACTION_SCAN_142-F3",
       "ATTRACTION_SCAN_142-F4"
@@ -2456,9 +2462,22 @@
     "active_commercial_candidate_count": 0,
     "active_transaction_unit_count": 0,
     "first_external_value_flow": "NOT_PROVEN",
-    "exact_head_validation_status": "PENDING",
-    "live_jev_status": "PENDING",
+    "exact_head_validation_status": "FINAL_ROUTE_CONSUMPTION_HEAD_PENDING",
+    "live_jev_status": "FINAL_ROUTE_CONSUMPTION_HEAD_PENDING",
     "next_scan_id": "ATTRACTION_SCAN_143",
-    "next_action": "EXACT_HEAD_CI_PLUS_LIVE_JEV_THEN_CONSUME_REVERSIBLE_F1_ROUTE"
-  }
+    "next_action": "FINAL_EXACT_HEAD_CI_AND_LIVE_JEV_THEN_MERGE_PR453_AND_REDERIVE_SCAN143_FROM_BROAD_REALITY",
+    "route_consumption_evidence": "data/research_runs/scan142_f1_exact_incumbent_preflight_evidence.json",
+    "route_consumption_report": "docs/research/SCAN142_F1_EXACT_INCUMBENT_PREFLIGHT_2026-09-23.md",
+    "preflight_source_head_sha": "60c9be2137d94890adb9036b362537ebf6b99220",
+    "preflight_repository_ci_run_id": 35865684083,
+    "preflight_repository_ci_conclusion": "SUCCESS",
+    "preflight_jev_run_id": 35865684096,
+    "preflight_jev_artifact_id": 10752143393,
+    "preflight_jev_artifact_digest": "sha256:3a229a2895b4a7437f5c015b7bf571b350e62ac45c3c20ae3b40a5e962c30871",
+    "preflight_jev_execution_status": "SUCCESS",
+    "preflight_jev_route": "EXACT_INCUMBENT_PREFLIGHT",
+    "preflight_autonomous_continuation_allowed": true,
+    "preflight_resolution": "CLOSED_DISTINCT_UNOWNED_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED_AFTER_CURRENT_OFFICIAL_CONTROL_SURFACE_PREFLIGHT"
+  },
+  "next_action": "REQUIRE_FINAL_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_JEV_ALL_NO_FURTHER_RESEARCH_THEN_MERGE_PR453_AND_START_SCAN143_FROM_BROAD_REALITY"
 }
