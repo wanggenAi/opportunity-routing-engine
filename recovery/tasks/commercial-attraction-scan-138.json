@@ -1,20 +1,22 @@
 {
   "schema_version": 2,
   "task_key": "commercial-attraction-scan-138",
-  "generation": 1,
+  "generation": 2,
   "status": "ACTIVE",
-  "reconciled_at": "2026-09-23T08:26:00Z",
+  "reconciled_at": "2026-09-23T08:36:00Z",
   "live_main": "1978cec0a33938e2f56e913eb34123b613c2ded3",
   "work_branch": "research/scan138-diverse-current-receipts",
-  "frozen_head": "1978cec0a33938e2f56e913eb34123b613c2ded3",
-  "stage": "SCAN138_FRESH_DIVERSE_CURRENT_RESEARCH",
+  "frozen_head": "4bcfbf9ffc54107de50963d288a3615e80095aae",
+  "stage": "SCAN138_PERSISTED_PR_OPEN_PENDING",
   "scan_id": "ATTRACTION_SCAN_138",
   "durable_conclusions": [
     "Scan137 merged as main 1978cec0 after exact PR head CI 35835873563 and live TypeSafe/Jev 35835873687; Jev directed ADVANCE_TO_NEXT_SCAN with 4/4 NO_FURTHER_RESEARCH.",
     "Scan138 broadens source/mechanism diversity before any gate relaxation while preserving exact asset-attributable receipts, post-transfer continuity, >=24 month future coverage, computable economics and low recurring human delivery.",
-    "Exact repository dedup returned no hits for fresh Chengdu Nanboyuan, Wuzhou Xihuan Road shops, Xuzhou Green Window 1-113, or Heze Tianying project names."
+    "Exact repository dedup returned no hits for fresh Chengdu Nanboyuan, Wuzhou Xihuan Road shops, Xuzhou Green Window 1-113, or Heze Tianying project names.",
+    "Scan138 canonical scan, evidence, report, tests, machine state and TASK_STATE are persisted on research/scan138-diverse-current-receipts; four primary formations closed, zero retained, zero commercial promotion.",
+    "Scan137 tests were made historical before PR validation so forward progress to Scan138 does not repeat the prior global-state pin failure."
   ],
-  "next_action": "Persist Scan138 current evidence with fail-closed primary formations and the fresh rooftop-PV receipt observation, update machine state/TASK_STATE/tests, then open one PR for exact-head CI and live TypeSafe/Jev.",
+  "next_action": "Open exactly one PR from research/scan138-diverse-current-receipts to main; then record PR in TASK_STATE, freeze that resulting head, and require repository CI plus live TypeSafe/Jev.",
   "pending_operation": null,
   "do_not_repeat": [
     "Do not reuse Scan060-137 formations or exact addresses.",
