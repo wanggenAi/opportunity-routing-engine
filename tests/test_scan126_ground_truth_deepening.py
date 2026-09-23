@@ -8,7 +8,6 @@ from src.ground_truth_routing_economics import (
     ground_truth_economics_boundaries,
 )
 from src.jev_research_advisory import build_research_states
-from tools.run_jev_research_advisory import resolve_scan_path
 
 ROOT = Path(__file__).resolve().parents[1]
 SCAN = ROOT / "data" / "research_runs" / "attraction_scan_126.json"
@@ -20,11 +19,13 @@ def load(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def test_scan126_is_canonical_and_live_jev_auto_resolution_uses_it():
+def test_scan126_remains_a_canonical_closed_historical_artifact_after_later_scans():
+    scan = load(SCAN)
     state = load(STATE)
-    path = resolve_scan_path("auto", state, research_dir=ROOT / "data" / "research_runs")
-    assert state["last_completed_scan_id"] == "ATTRACTION_SCAN_126"
-    assert path == SCAN
+    assert scan["scan_id"] == "ATTRACTION_SCAN_126"
+    assert scan["status"] == "COMPLETE"
+    assert scan["examined_formations"][0]["verdict"].startswith("DEMOTED_")
+    assert int(state["last_completed_scan_id"].rsplit("_", 1)[-1]) >= 126
 
 
 def test_scan126_exposes_exactly_one_authoritatively_closed_formation_to_jev():
