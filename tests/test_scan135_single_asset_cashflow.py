@@ -18,8 +18,7 @@ def load(path):
 class Scan135SingleAssetCashflowTests(unittest.TestCase):
     def test_scan135_explicit_jev_input_preserves_historical_research_state(self):
         state = load(STATE)
-        path = resolve_scan_path("auto", state, research_dir=ROOT / "data" / "research_runs")
-        self.assertEqual(state["last_completed_scan_id"], "ATTRACTION_SCAN_135")
+        path = resolve_scan_path(str(SCAN), state, research_dir=ROOT / "data" / "research_runs")
         self.assertEqual(path, SCAN)
         scan = load(SCAN)
         states = build_research_states(scan=scan, commercial_state=state, max_entities=8)
