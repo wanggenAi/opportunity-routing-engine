@@ -1,0 +1,93 @@
+{
+  "scan_id": "ATTRACTION_SCAN_144",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "efd35cac1b9680a1f55927abd374548135ab7635",
+  "research_method": "BROAD_REALITY_REDERIVATION_WITH_PRIMARY_OFFICIAL_OR_CURRENT_OPERATIONAL_SOURCES_AND_FAIL_CLOSED_COMPARISON",
+  "sources": {
+    "MACHINERY-EXPORT-CCCME-20260616": {
+      "source_class": "CURRENT_CHINA_TRADE_ASSOCIATION_REPUBLISHED_BY_CCPIT_PLATFORM",
+      "url": "https://www.eccpit.com/news/Y21zcG86MjMyODU",
+      "date": "2026-06-16",
+      "claim": "China construction-machinery exports reached USD 60.23B in 2025, up 13.9%, covering more than 230 countries/regions. The same current industry analysis explicitly says localization/service construction lags, Africa and Latin America remain under-covered, spare parts still rely heavily on shipment from China, service cycles are prolonged, and local technical talent is insufficient for onsite handling of high-end equipment faults."
+    },
+    "ROBOT-OVERSEAS-SERVICE-CAC-20260918": {
+      "source_class": "CURRENT_CAC_REPUBLISHED_STATE_MEDIA_INDUSTRIAL_EXPORT_OBSERVATION",
+      "url": "https://www.cac.gov.cn/2026-09/18/c_1791481867734412.htm",
+      "date": "2026-09-18",
+      "claim": "Current reporting on Chinese robotics exports states overseas customers increasingly require deployment, commissioning and process adaptation, while companies report difficulty building local service networks; industrial products require localized after-sales systems that consume substantial people and capital, and firms are building local talent teams and cooperation channels."
+    },
+    "HUNAN-AFRICA-SERVICE-20260629": {
+      "source_class": "CURRENT_PROVINCIAL_GOVERNMENT_INDUSTRY_OBSERVATION",
+      "url": "https://www.hunan.gov.cn/hnszf/hnyw/zwdt/202606/t20260629_34014665.html",
+      "date": "2026-06-29",
+      "claim": "Hunan government reporting describes machinery companies building Africa subsidiaries, service stations, warehouses, local after-sales, repair and parts systems; SANY trains local service personnel and reports about 90% local employment at its South Africa park. The article also records a call for shared public after-sales infrastructure to avoid each company duplicating its own network."
+    },
+    "AUTOMATE-AMERICA-FIELD-SERVICE-202609": {
+      "source_class": "CURRENT_GLOBAL_INDUSTRIAL_FIELD_SERVICE_MARKETPLACE",
+      "url": "https://automateamerica.com/contractors-for/field-service-engineers",
+      "date": "2026-09",
+      "claim": "Automate America presents a worldwide direct marketplace connecting thousands of automation professionals with OEMs, equipment builders, integrators and end users for onsite installation, commissioning, troubleshooting, repair, maintenance, warranty support and training across industrial robots, CNC, packaging, process and material-handling equipment."
+    },
+    "ELDERCARE-SUBSIDY-MCA-20260122": {
+      "source_class": "CURRENT_OFFICIAL_ELDERCARE_SUBSIDY_IMPLEMENTATION",
+      "url": "https://www.cncaprc.gov.cn/xxzcfg/770060.jhtml",
+      "date": "2026-01-22",
+      "claim": "The nationwide eldercare service subsidy implementation requires local systems to connect with Minzhengtong and existing eldercare institutions, community agencies and third-party assessment bodies to register in the system; it also directs development of professional home/community eldercare supply."
+    },
+    "ELDERCARE-VOUCHER-MCA-2025": {
+      "source_class": "OFFICIAL_ACTIVE_NATIONWIDE_ELDERCARE_VOUCHER_RULE",
+      "url": "https://www.cncaprc.gov.cn/xxzcfg/10032334.jhtml",
+      "date": "2025-07-16",
+      "claim": "The active nationwide program uses Minzhengtong electronic vouchers for home, community and institutional eldercare. Eligible providers must be registered/qualified, service records and voucher settlement flow through Minzhengtong, and users can place service orders through the same system."
+    },
+    "AGING-HOME-GUIZHOU-20260702": {
+      "source_class": "CURRENT_PROVINCIAL_AGE_FRIENDLY_HOME_SUBSIDY",
+      "url": "https://www.cncaprc.gov.cn/xwllxw/772055.jhtml",
+      "date": "2026-07-02",
+      "claim": "Guizhou's 2026 age-friendly home program offers vouchers to residents aged 60+ for six product categories, but explicitly excludes decoration and labor costs from subsidy, with product selection and qualification managed through the Duocaibao app."
+    },
+    "ELEVATOR-NDRC-2026": {
+      "source_class": "CURRENT_NATIONAL_EQUIPMENT_RENEWAL_POLICY",
+      "url": "https://zfxxgk.ndrc.gov.cn/wap/iteminfo.jsp?id=20582",
+      "date": "2025-12-29",
+      "claim": "The 2026 national equipment-renewal policy continues support for old residential elevators and lowers project thresholds while expanding support for SMEs and additional equipment-renewal domains."
+    },
+    "ELEVATOR-WEIHAI-20260616": {
+      "source_class": "CURRENT_LOCAL_GOVERNMENT_ELEVATOR_EXECUTION_RULE",
+      "url": "https://www.weihai.gov.cn/art/2026/6/18/art_103324_34028.html",
+      "date": "2026-06-16",
+      "claim": "Weihai's 2026 old residential elevator program defines building/owner funding and approval responsibilities, qualified installation/inspection duties, maintenance responsibilities and subsidy settlement to construction units, while encouraging elevator manufacturers or qualified maintenance enterprises to participate."
+    },
+    "BONDED-REPAIR-MOFCOM-20260113": {
+      "source_class": "CURRENT_OFFICIAL_BONDED_REPAIR_RULE",
+      "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2026/art_8051214953a64b86a5e014ce782d05ae.html",
+      "date": "2026-01-13",
+      "claim": "China permits specified high-tech/high-value repair in comprehensive bonded zones and group-exported electromechanical products to return for bonded repair, but participating repair enterprises must maintain customs-connected ERP, manage repair waste under regulation and operate under full-chain government supervision."
+    }
+  },
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_144-F1"
+  ],
+  "f1_decisive_unknowns": [
+    "WHETHER_EXISTING_GLOBAL_FIELD_SERVICE_MARKETPLACES_OR_OEM_DEALER_NETWORKS_ALREADY_OWN_THE_RELEVANT_DISPATCH_AND_PAYMENT_EDGE",
+    "WHETHER_CHINESE_OEMS_CAN_AUTHORIZE_THIRD_PARTY_TECHNICIANS_WITHOUT_VOIDING_WARRANTY_OR_CREATING_UNBOUNDED_PRODUCT_LIABILITY",
+    "WHETHER_MODEL_SERIAL_ERROR_CODE_MANUAL_PARTS_AND_CREDENTIAL_DATA_CAN_BE_STANDARDIZED_ENOUGH_FOR_NON_EXPERT_ROUTING",
+    "WHETHER_LOCAL_TECHNICIAN_SUPPLY_IS_DENSE_IN_THE_SPECIFIC_UNDERSERVED_COUNTRIES_RATHER_THAN_ONLY_GLOBALLY",
+    "WHETHER_EXPORTERS_CAN_BE_ACQUIRED_REPEATABLY_WITHOUT_FOUNDER_BY_FOUNDER_SALES"
+  ],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_144-F2",
+    "ATTRACTION_SCAN_144-F3",
+    "ATTRACTION_SCAN_144-F4",
+    "ATTRACTION_SCAN_144-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "quote_performed": false,
+  "account_created": false,
+  "money_moved": false,
+  "application_submitted": false,
+  "next_action": "FREEZE_INITIAL_SCAN144_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_F1_PUBLIC_RESEARCH_ROUTE"
+}
