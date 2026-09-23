@@ -1,0 +1,223 @@
+{
+  "scan_id": "ATTRACTION_SCAN_164",
+  "as_of_date": "2026-09-24",
+  "status": "COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+  "search_mode": "CROSS_BORDER_CHINA_PHYSICAL_RESIDUAL_STATE_TRANSITION_SATURATION_SWEEP",
+  "source_main_sha": "e9fbdb2e382c6e1def9cfdb36582aad5bfa95ea1",
+  "prior_scan": {
+    "scan_id": "ATTRACTION_SCAN_163",
+    "merged_pr": 478,
+    "final_exact_head": "f50a47f17972c7ab18d3ce3522362c7334efe234",
+    "repository_ci_run_id": 35904701836,
+    "repository_ci_test_job_id": 107329315692,
+    "repository_ci_test_count": 836,
+    "live_jev_run_id": 35904701771,
+    "live_jev_artifact_id": 10770896445,
+    "live_jev_artifact_digest": "sha256:e4a4b96025aa7036239fc2e9d5bdc6b878fbd3b2fe0c00f4a91b37d5268bb03a",
+    "live_jev_entity_count": 3,
+    "live_jev_effective_routes": {
+      "NO_FURTHER_RESEARCH": 3
+    },
+    "live_jev_alignment": {
+      "ALIGNS_WITH_AUTHORITATIVE_CLOSURE": 3
+    },
+    "live_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "merged_main_sha": "e9fbdb2e382c6e1def9cfdb36582aad5bfa95ea1"
+  },
+  "broad_reality_domains_examined": [
+    "POST_TRADE_FAIR_SUPPLIER_ACTIVATION",
+    "MULTI_SUPPLIER_SAMPLE_IDENTITY_AND_CONSOLIDATION",
+    "FAILED_INSPECTION_SORTING_REWORK",
+    "POST_SHIPMENT_WARRANTY_DEFECT_CLAIMS",
+    "CHINA_FACTORY_VISIT_AND_BUSINESS_TRIP_COORDINATION"
+  ],
+  "source_registry": {
+    "CANTON-FAIR-SOURCING-PRICING": {
+      "url": "https://www.cantonfairsourcing.com/pricing",
+      "claim": "Current China buyer-side service sells supplier Verify at US$29, in-person Inspect at US$99, sample coordination at US$49, QC at US$199/day and Managed order execution at 2.5% with a US$300 minimum."
+    },
+    "SOURCINGYUAN-POSTFAIR": {
+      "url": "https://www.sourcingyuan.com/canton-fair-4/",
+      "claim": "Current 2026 post-Canton-Fair workflow explicitly turns trade-show contacts into samples, verification and controlled first orders during the following 30 days."
+    },
+    "QINGLING-SAMPLE-CONSOLIDATION": {
+      "url": "https://qinggate.com/services/multi-supplier-sample-consolidation/",
+      "claim": "Current service receives, identifies, photographs, logs and consolidates samples from multiple Chinese suppliers before international forwarding."
+    },
+    "HUANG-SAMPLE-CONSOLIDATION": {
+      "url": "https://www.huangsourcing.com/sample-consolidation-china",
+      "claim": "Current China-side service starts sample consolidation around US$99 plus freight and includes receipt, photos, supplier identity, comparison/notes and forwarding."
+    },
+    "AXOHA-MULTISUPPLIER": {
+      "url": "https://axoha.com/",
+      "claim": "Current service provides one China-side workflow across multiple suppliers including samples, inspection, issue resolution, consolidation and shipping preparation."
+    },
+    "VICC-SORTING-REWORK": {
+      "url": "https://www.vicc.com/services/",
+      "claim": "Current nationwide China QC provider sells sorting, containment, rework, repair, recall/retrofit, assembly/kitting, engineering and logistics support."
+    },
+    "VICC-PRICING": {
+      "url": "https://www.vicc.com/pricing/",
+      "claim": "Current public pricing lists sorting/rework/repair from about US$9.9 per man-hour and inspection from US$198 per man-day, including case-by-case and recurring-client payment terms."
+    },
+    "CGF-SORTING-REWORK": {
+      "url": "https://cgfiinspection.com/product/CGF-Product-sorting-and-rework-inspection-service-in-China.html",
+      "claim": "Current service explicitly provides 100% defect sorting and rework before or after delivery, assigning inspectors on site according to buyer requirements."
+    },
+    "PROQC-SORTING-REWORK": {
+      "url": "https://proqc.com/product-sorting-and-rework-services/",
+      "claim": "Current global quality provider sells sorting/rework in China and other countries with an established engineering/quality organization."
+    },
+    "IFRIT-AFTERSALES": {
+      "url": "https://ifritcn.com/en/services/aftersales",
+      "claim": "Current China-side after-sales service includes spare-parts sourcing/dispatch, warranty claims, defect resolution, replacements, dispute documentation, reorder management and supplier relationship maintenance."
+    },
+    "PINGWEI-SUPPLIER-CLAIMS": {
+      "url": "https://lawpw.com/services/china-supplier-disputes-compensation-claims/",
+      "claim": "Current China legal service for overseas buyers covers supplier identity/contract/asset review, defect and non-delivery claims, inspection/sampling/evidence preservation, negotiation, litigation/arbitration and enforcement planning."
+    },
+    "ADA-DEFECT-EVIDENCE": {
+      "url": "https://adarenlaw.com/en/insights/prove-defective-goods-china-supplier-claim",
+      "claim": "Current legal guidance frames defective-goods recovery around contractual benchmark, representative samples/native records, timely notice, causation and separately proven loss/mitigation."
+    },
+    "QGO-BUSINESS-TRAVEL": {
+      "url": "https://qgobusiness.com/",
+      "claim": "Current China-side service sells factory visits, supplier meetings, Canton Fair support, transportation, interpreters, accommodation and local coordination through one team and one point of contact."
+    },
+    "ENSAMICO-FACTORY-VISITS": {
+      "url": "https://ensamico.com/source-china/factory-visits/",
+      "claim": "Current overseas-buyer service coordinates China factory visits, evidence permissions, supplier meetings and structured follow-up reports while distinguishing commercial visits from certified audits."
+    },
+    "PROCURETOURS-FACTORY-VISIT": {
+      "url": "https://procuretours.com/services/factory-visit-support",
+      "claim": "Current service coordinates China factory appointments, route planning, meeting questions, bilingual conversations and organized post-visit notes for overseas buyers."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_164-F1",
+      "title": "Post-trade-fair buyer with shortlisted Chinese suppliers -> follow-up / samples / verification / first-order activation",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "A replenishing post-fair state exists, but current China-side sourcing services already package the transition from contact list to samples, supplier verification, factory visit, QC and managed first order.",
+      "state_change": "OVERSEAS_BUYER_LEAVES_TRADE_FAIR_WITH_SHORTLIST_AND_UNRESOLVED_SUPPLIER_DECISIONS",
+      "structural_friction": "Remote buyer loses momentum and decision quality when supplier identity, sample, quote and first-order steps fragment after the physical event.",
+      "complementary_nodes": "China-side supplier-verification, sample, inspection and order-management capacity.",
+      "missing_edge_state": "CONTRADICTED_BY_EXACT_CURRENT_SERVICE",
+      "decisive_action_gate_owner_state": "INCUMBENT_SOURCING_AND_CANTON_FAIR_FOLLOWUP_SERVICES_OWNED",
+      "evidence_refs": [
+        "CANTON-FAIR-SOURCING-PRICING",
+        "SOURCINGYUAN-POSTFAIR"
+      ],
+      "verdict": "DEMOTED_POST_FAIR_SUPPLIER_ACTIVATION_IS_ALREADY_PRODUCTIZED_FROM_VERIFY_AND_SAMPLE_TO_INSPECT_AND_MANAGED_FIRST_ORDER"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_164-F2",
+      "title": "Overseas buyer comparing multiple Chinese suppliers -> one traceable sample receiving / comparison / consolidation state",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "The sample identity/consolidation problem is real, but multiple current operators explicitly sell receiving, supplier/SKU identification, photos, comparison records, issue lists and consolidated forwarding.",
+      "state_change": "BUYER_MOVES_FROM_SUPPLIER_DISCOVERY_TO_MULTI_SUPPLIER_SAMPLE_SELECTION",
+      "structural_friction": "Samples arrive through fragmented parcels with identity/version/freight ambiguity before a supplier is chosen.",
+      "complementary_nodes": "China receiving desks, sample-recording workflows and consolidated forwarding.",
+      "missing_edge_state": "CONTRADICTED_BY_MULTIPLE_EXACT_CURRENT_SERVICES",
+      "decisive_action_gate_owner_state": "SAMPLE_CONSOLIDATION_AND_CHINA_SIDE_RECEIVING_SERVICES_OWNED",
+      "evidence_refs": [
+        "QINGLING-SAMPLE-CONSOLIDATION",
+        "HUANG-SAMPLE-CONSOLIDATION",
+        "AXOHA-MULTISUPPLIER"
+      ],
+      "verdict": "DEMOTED_SAMPLE_TRACEABILITY_CONSOLIDATION_AND_FORWARDING_ARE_ALREADY_CURRENT_PRODUCTIZED_SERVICES"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_164-F3",
+      "title": "Failed China inspection / known defect -> sorting / containment / rework / reinspection before release",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "A failed inspection creates a high-energy decision state, but professional QC incumbents already sell the exact containment, sorting, repair/rework, recall and follow-up functions, including public unit pricing.",
+      "state_change": "BATCH_FAILS_QUALITY_CHECK_OR_KNOWN_DEFECT_IS_DETECTED_BEFORE_OR_AFTER_DELIVERY",
+      "structural_friction": "Buyer must prevent defective units from progressing while converting a defect list into physical containment/correction.",
+      "complementary_nodes": "Qualified QC inspectors, sorting labor, repair/rework facilities and reinspection.",
+      "missing_edge_state": "CONTRADICTED_BY_EXACT_QC_REWORK_SERVICES",
+      "decisive_action_gate_owner_state": "PROFESSIONAL_QC_SORTING_REWORK_RAIL_OWNED",
+      "evidence_refs": [
+        "VICC-SORTING-REWORK",
+        "VICC-PRICING",
+        "CGF-SORTING-REWORK",
+        "PROQC-SORTING-REWORK"
+      ],
+      "verdict": "DEMOTED_DEFECT_CONTAINMENT_SORTING_REWORK_AND_REINSPECTION_ARE_EXISTING_PROFESSIONAL_QC_PRODUCTS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_164-F4",
+      "title": "Overseas buyer discovers defects / warranty problem after shipment -> China-side claim evidence, supplier remedy and recovery",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Post-shipment quality and warranty pressure is real, but current after-sales agents and China legal services already package spare-parts, warranty claims, defect resolution, evidence preservation, negotiation and formal recovery; harder cases also become legal/expert rather than generic routable work.",
+      "state_change": "BUYER_HAS_ALREADY_PAID_OR_RECEIVED_GOODS_AND_A_DEFECT_NONDELIVERY_OR_WARRANTY_EVENT_OCCURS",
+      "structural_friction": "Distance, supplier identity, evidence chain, notice clocks and remedy enforcement make the buyer's post-payment position hard to recover remotely.",
+      "complementary_nodes": "China-side after-sales coordinators, inspectors, evidence-preservation specialists and PRC lawyers.",
+      "missing_edge_state": "CONTRADICTED_AND_EXPERT_BOUND",
+      "decisive_action_gate_owner_state": "AFTERSALES_AND_PRCLAW_RECOVERY_RAILS_OWNED",
+      "evidence_refs": [
+        "IFRIT-AFTERSALES",
+        "PINGWEI-SUPPLIER-CLAIMS",
+        "ADA-DEFECT-EVIDENCE"
+      ],
+      "verdict": "DEMOTED_POST_SHIPMENT_CLAIMS_ARE_ALREADY_PACKAGED_AND_MATERIALLY_EXPERT_LEGAL_OR_QC_BOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_164-F5",
+      "title": "Overseas buyer plans China factory / supplier trip -> route, appointments, interpreter, transport and visit evidence",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Business-trip and factory-visit coordination has obvious geography friction, but current operators already sell the complete visit stack: supplier appointments, routing, transportation, interpreters, evidence permissions, meeting structure and follow-up.",
+      "state_change": "OVERSEAS_BUYER_COMMITS_TO_A_CHINA_BUSINESS_TRIP_OR_FACTORY_VISIT_WINDOW",
+      "structural_friction": "Factories and meetings span cities, languages and access constraints; a poorly coordinated itinerary destroys scarce buyer time.",
+      "complementary_nodes": "China-side visit coordinators, interpreters, transport and supplier/factory contacts.",
+      "missing_edge_state": "CONTRADICTED_BY_EXACT_CURRENT_BUSINESS_VISIT_SERVICES",
+      "decisive_action_gate_owner_state": "CHINA_BUSINESS_TRIP_AND_FACTORY_VISIT_COORDINATION_OWNED",
+      "evidence_refs": [
+        "QGO-BUSINESS-TRAVEL",
+        "ENSAMICO-FACTORY-VISITS",
+        "PROCURETOURS-FACTORY-VISIT"
+      ],
+      "verdict": "DEMOTED_FACTORY_TRIP_COORDINATION_AND_VISIT_EVIDENCE_ARE_ALREADY_CURRENT_ONE_TEAM_SERVICES"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_164-F1",
+    "ATTRACTION_SCAN_164-F2",
+    "ATTRACTION_SCAN_164-F3",
+    "ATTRACTION_SCAN_164-F4",
+    "ATTRACTION_SCAN_164-F5"
+  ],
+  "commercial_candidates": [],
+  "active_transaction_units": [],
+  "first_external_value_flow": "NOT_PROVEN",
+  "bootstrap_queue": [],
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "prior_domain_deduplication_checked": true,
+    "state_change_first_search": true,
+    "decisive_action_gate_owner_checked": true,
+    "public_affected_actor_discoverability_checked": true,
+    "standardizable_nonexpert_match_checked": true,
+    "open_remedy_not_missing_edge_checked": true,
+    "paid_gig_or_marketplace_feed_not_used_as_discovery_ontology": true,
+    "exact_incumbents_checked_before_bootstrap": true,
+    "no_bootstrap_created_after_incumbent_closure": true
+  },
+  "scan_learnings": [
+    "CROSS_BORDER_CHINA_PHYSICAL_HELP_IS_A_REAL_MONEY_FIELD_BUT_MOST_OBVIOUS_POST_FAIR_SAMPLE_QC_REWORK_AFTERSALES_AND_TRIP_EDGES_ARE_ALREADY_PRODUCTIZED.",
+    "POST_FAIR_MOMENTUM_LOSS_DOES_NOT_CREATE_AN_UNOWNED_EDGE_WHEN_VERIFY_SAMPLE_INSPECT_AND_MANAGED_ORDER_SERVICES_ALREADY_EXIST.",
+    "SAMPLE_IDENTITY_AND_CONSOLIDATION_IS_NOT_A_NEW_ROUTER_EDGE_WHEN_MULTIPLE_CURRENT_CHINA_DESKS_ALREADY_SELL_THE_EXACT_ACCEPTANCE_ARTIFACT.",
+    "FAILED_INSPECTION_REWORK_IS_PROFESSIONAL_QC_CAPACITY_NOT_A_GENERIC_ROUTER_WHITE_SPACE.",
+    "POST_SHIPMENT_CLAIM_RECOVERY_QUICKLY_BECOMES_EVIDENCE_QC_AND_PRCLAW_EXPERT_WORK.",
+    "CHINA_BUSINESS_TRIP_COORDINATION_IS_CURRENTLY_A_MATURE_ONE_TEAM_SERVICE.",
+    "DO_NOT_SPEND_FOUNDER_BOOTSTRAP_CAPITAL_INSIDE_A_SERVICE_MENU_ALREADY_OWNED_BY_MULTIPLE_CURRENT_INCUMBENTS."
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_165",
+  "next_search_boundary": "LEAVE_GENERIC_CHINA_LOCAL_HELP_AND_SOURCING_SERVICE_MENU_AS_A_PRIMARY_SEARCH_FAMILY; SEARCH_FRESH_CROSS_BORDER_ACTOR_STATE_TRANSITIONS_WHERE_CHINA_RESOURCE_OR_PHYSICAL_STATE_HAS_VALUE_BUT_CURRENT_AGENTS_MARKETPLACES_QC_LEGAL_LOGISTICS_AND_TRAVEL_COORDINATORS_DO_NOT_ALREADY_PACKAGE_THE_DECISIVE_EDGE; EXPLICIT_PAID_TASKS_REMAIN_DOWNSTREAM_VALIDATION_ONLY; REQUIRE_REGENERATIVE_FIELD_AND_UNOWNED_STANDARDIZABLE_ACTION_GATE_BEFORE_BOOTSTRAP",
+  "next_action": "VALIDATE_SCAN164_ZERO_RETENTION_ON_EXACT_HEAD_WITH_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_SCAN165_IF_ALLOWED",
+  "external_side_effects_performed": false
+}
