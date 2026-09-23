@@ -9,32 +9,32 @@ Continue the clean-slate Attraction Field under the machine-enforced regenerativ
 Close or prove regenerative formations without promoting explicit tasks or transaction proxies; preserve exact-head repository CI + live TypeSafe/Jev and fail closed on incumbent ownership, inaccessible control/data, founder-dependent acquisition or unevidenced economics.
 
 ## Current Unique Commercial Research Goal
-Validate Scan 149's fresh broad-reality service-rail result. If exact-head repository CI and real TypeSafe/Jev leave no reversible route, advance to Scan 150 from fresh current reality.
+Start Scan 150 from fresh broad current reality. Do not rescue Scan 149's four closed service-rail fields or inherit Scan 148's remote-to-local execution formation.
 
 ## Current Phase
-SCAN149_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
+SCAN149_MERGED_FINAL_ALL_ROUTES_CLOSED_READY_FOR_SCAN150
 
 ## Last Verified Main
-- `main`: `c9e364c294af847095842dc0520234376689fc86` — PR #460 merged.
-- Scan 148 final exact head `dd974d74129acf8f3b2843b31e42664955fb4361`.
-- Repository CI `35876703035`: SUCCESS.
-- Real TypeSafe/Jev `35876703208`: SUCCESS; artifact `10757812412`; digest `sha256:6ed30a691b559770914c5bfe387e4a76ec1b535306321849de601e9f2f974b3d`.
-- Scan 148 Jev: 5/5 model/effective `NO_FURTHER_RESEARCH`; continuation `ADVANCE_TO_NEXT_SCAN`.
+- `main`: `69319e4852d1e27eefc78571684cfe6cf47e2ef2` — PR #461 merged.
+- Scan 149 final exact head `e5463fc28b9c93c84f54084f12742578be886a0c`.
+- Repository CI run `35877519009`: its only test job `107237180708` completed SUCCESS with 761 tests / OK. GitHub's workflow wrapper was still reporting in-progress at merge despite the completed successful job; preserve that distinction.
+- Real TypeSafe/Jev `35877519098`: SUCCESS; artifact `10758157725`; digest `sha256:56a95353023bca124faf284fc3e961aa95324e46c4d7db9ed59705cfeab19645`.
+- Jev input: `ATTRACTION_SCAN_149`, 4 entities; model/effective routes 4/4 `NO_FURTHER_RESEARCH`; alignment 4/4 authoritative closure; continuation `ADVANCE_TO_NEXT_SCAN`.
 - Active commercial candidates: 0; transaction units: 0; FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
 
 ## Active Issue
 #143 — `P0: Clean-slate Attraction Field -> first external value flow` — OPEN.
 
 ## Active Branch
-`research/scan149-broad-reality-service-rails`.
+`checkpoint/scan149-finalize`.
 
 ## Active PR
-PR #461 — `Run Scan 149 fresh broad-reality service rails` — OPEN.
+Checkpoint finalization PR pending creation.
 
 ## CI
-- Scan 149 exact-head repository CI: PENDING on the post-checkpoint PR head.
-- Scan 149 live TypeSafe/Jev: PENDING on the same exact head.
-- Earlier PR-head runs are superseded after this checkpoint commit.
+- Scan 149 final research head: repository test job SUCCESS; real Jev SUCCESS.
+- This checkpoint-only branch must pass repository CI and real TypeSafe/Jev before merge.
+- After checkpoint merge, next substantive work is Scan 150.
 
 ## Latest Artifact / Persisted State
 - `data/research_runs/attraction_scan_149.json`
@@ -44,27 +44,25 @@ PR #461 — `Run Scan 149 fresh broad-reality service rails` — OPEN.
 - `data/commercial_reset_state.json`
 
 ## Completed
-- Finalized Scan 148 machine truth to merged PR #460 exact-head CI/Jev facts.
-- Scan 149 independently examined four fresh fields: cross-border return value recovery, regulated testing/lab matching, agricultural socialized services, and exhibition temporary interpreters/staff.
-- F1 cross-border returns closed because customs/marketplace/warehouse/disposition/settlement rails already own the loop.
-- F2 testing/certification closed because accredited scope controls acceptance and current matching platforms already exist.
-- F3 agricultural services closed because a national platform already aggregates services and directly connects farms to providers.
-- F4 exhibition temporary language staffing closed because organizers own booking/access and the underlying value remains human delivery.
-- High-attraction beacons: 0; retained formations: 0; no commercial promotion or external side effect.
+- Scan 148 PR #460 merged and final machine truth recorded.
+- Scan 149 independently examined cross-border return value recovery, regulated testing/lab matching, agricultural socialized services, and exhibition temporary language staffing.
+- All four Scan 149 formations closed at the attraction layer; no retained research formation survived.
+- Final real Jev independently returned 4/4 `NO_FURTHER_RESEARCH` and `ADVANCE_TO_NEXT_SCAN`.
+- Fixed Scan 148 regression coverage so historical checkpoints remain valid after successor scans.
+- No commercial promotion, outreach, quote request, account creation, purchase, payment or other external side effect.
 
 ## Current Findings
-The four fields show real recurring activity but no unowned light routing edge. Current infrastructure already owns the decisive transaction, qualification, direct-matching or access control surface.
+Scan 149 found genuine recurring activity but no unowned light routing edge. Current logistics/platform/regulatory/event-control surfaces already own the decisive rails.
 
 ## Blockers
-No human blocker. Exact-head repository CI and real TypeSafe/Jev are pending.
+No human blocker.
 
 ## Next Action
-Freeze the post-checkpoint PR #461 head, require repository CI + real TypeSafe/Jev, and advance to Scan 150 only if every effective route is `NO_FURTHER_RESEARCH`.
+Merge this checkpoint-only finalization after exact-head CI/Jev, then begin Scan 150 from fresh broad current reality.
 
 ## Do Not Repeat
-- Do not reopen Scan 148 remote-to-local execution or its closed F1.
-- Do not rescue Scan 149 F1-F4 without new contradictory evidence.
-- Do not treat a regulated capability catalog, official service rail or visible paid event service as an unowned router.
+- Do not reopen Scan 148 remote-to-local execution or Scan 149 F1-F4 without genuinely new contradictory evidence.
+- Do not treat an official service rail, regulated capability catalog, current direct-matching platform or human-delivery service as an unowned router.
 - Do not weaken `UNKNOWN != PASS` or perform unauthorized external actions.
 
 ## Guardrails
