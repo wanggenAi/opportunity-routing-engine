@@ -12,22 +12,26 @@ Find and validate a formation with real bilateral pull, independently bound curr
 
 ## Current Unique Commercial Research Goal
 
-Validate persisted `ATTRACTION_SCAN_138` on one exact PR head with repository CI plus live TypeSafe/Jev. Consume any newly introduced reversible Jev route automatically; otherwise advance to fresh `ATTRACTION_SCAN_139`.
+Validate persisted `ATTRACTION_SCAN_139` on one exact PR head with repository CI plus live TypeSafe/Jev. Consume any reversible route for retained F1 automatically before any Scan 140 advance.
 
-Prior retained research remains separate: Scan 135 F1 and Scan 136 F1/F2 are blocked on external written/source-document evidence; Scan 015-F1 remains blocked on official rights evidence. None blocks fresh broad public research.
+Prior retained research remains separate: Scan 135 F1 and Scan 136 F1/F2 are blocked on external written/source-document evidence; Scan 015-F1 remains blocked on official rights evidence. None blocks fresh public research.
 
 ## Current Phase
 
-`SCAN138_PERSISTED_PR_VALIDATION_PENDING`
+`SCAN139_F1_CAUSAL_DESCENT_PERSISTED_PR_REVALIDATION_PENDING`
 
 ## Last Verified Main
 
-- Live main: `1978cec0a33938e2f56e913eb34123b613c2ded3` — merged PR #447, Scan 137.
-- PR #447 exact validated head: `302b211d827735c728a6c193c4fa9a02058600d5`.
-- Repository CI run `35835873563`: success.
-- Live TypeSafe/Jev run `35835873687`: success.
-- Jev artifact `10739496051`, digest `sha256:ef9ead213f53a3835b194e35004935af4c94f0bbb43f034d9c81e9640099e7d0`.
-- Actual Jev input: `ATTRACTION_SCAN_137`, entity count 4.
+- Live main: `7e65f79f732631e50d0996179fe481341e82acf3` — merged PR #448, Scan 138.
+- PR #449 first frozen head `68a5771cd8d316157e891920ea6b54fe83c4fdd7`: repository CI run `35839247545` success.
+- PR #449 live TypeSafe/Jev run `35839247533`: success; artifact `10740043234`, digest `sha256:c78997fe4be750171c37f3b2c49d63e7e711087d8ffea4a558667ac3db854338`.
+- Actual Scan 139 routes: F1 `CAUSAL_DESCENT`; F2/F3/F4 `NO_FURTHER_RESEARCH`; continuation `EXECUTE_RESEARCH_QUEUE`.
+- F1 state fingerprint: `e4427727ac809edaab75`.
+- PR #448 exact validated head: `34eb12d1938cdc0c6ade8acf3c3a4c3abae7dc56`.
+- Repository CI run `35837216070`: success.
+- Live TypeSafe/Jev run `35837216083`: success.
+- Jev artifact `10738874829`, digest `sha256:0e1730e779aa423bdbbc9b6c27f0eb3a104b7336927415cfa165e4f1e4c23b70`.
+- Actual Jev input: `ATTRACTION_SCAN_138`, entity count 4.
 - Actual effective routes: 4 × `NO_FURTHER_RESEARCH`.
 - Actual continuation: `ADVANCE_TO_NEXT_SCAN`, autonomous continuation allowed.
 
@@ -37,94 +41,93 @@ Prior retained research remains separate: Scan 135 F1 and Scan 136 F1/F2 are blo
 
 ## Active Branch
 
-`research/scan138-diverse-current-receipts`
+`research/scan139-source-bound-receipts`
 
-Starts from merged main `1978cec0a33938e2f56e913eb34123b613c2ded3`.
+Starts from merged main `7e65f79f732631e50d0996179fe481341e82acf3`. No Scan 060-138 formation or exact address is reused.
 
 ## Active PR
 
-PR #448 — `Run Scan 138 across diverse current receipt mechanisms`.
+PR #449 — `Run Scan 139 on source-bound receipts and transferable control`.
 
-Initial PR head was `4bcfbf9ffc54107de50963d288a3615e80095aae`. This TASK_STATE write advances the branch once to record the PR; the resulting SHA is the final frozen head for repository CI and live TypeSafe/Jev decisions.
+Initial PR head was `8540b78769f068bd34b42af4c1df9810800972c3`; checkpoint head `68a5771cd8d316157e891920ea6b54fe83c4fdd7` passed repository CI and live Jev. Jev returned an F1 `CAUSAL_DESCENT` route, so this route-consumption commit legitimately advances the branch. The resulting commit SHA must now be frozen and revalidated; do not merge based on the superseded `68a5771cd8d316157e891920ea6b54fe83c4fdd7` head.
 
 ## CI / Jev Contract
 
-On the final Scan 138 PR head require:
+On the final Scan 139 PR head require:
 1. repository CI success;
 2. live TypeSafe/Jev success;
-3. actual Jev input = `ATTRACTION_SCAN_138`, entity count = 4;
-4. consume any reversible route automatically under AGENTS.md;
-5. preserve fail-closed verdicts unless contradictory source evidence is actually introduced;
+3. actual Jev input = `ATTRACTION_SCAN_139`, entity count = 4;
+4. consume any reversible route for `ATTRACTION_SCAN_139-F1` automatically under AGENTS.md;
+5. preserve F2/F3/F4 fail-closed verdicts unless contradictory source evidence is introduced;
 6. no external contact, inspection, bid, deposit, purchase or monetary action.
 
 ## Latest Artifact / Persisted State
 
-- `data/research_runs/attraction_scan_138.json` — canonical Scan 138.
-- `data/research_runs/scan138_diverse_current_receipts_evidence.json` — source/evidence packet.
-- `docs/research/SCAN138_DIVERSE_CURRENT_RECEIPTS_2026-09-23.md` — research report.
-- `tests/test_scan138_diverse_current_receipts.py` — fail-closed regression.
-- `data/commercial_reset_state.json` — last completed scan now 138; next scan 139.
-- Recovery checkpoint: `state/chatgpt-recovery:recovery/tasks/commercial-attraction-scan-138.json`.
+- `data/research_runs/attraction_scan_139.json` — canonical Scan 139.
+- `data/research_runs/scan139_source_bound_receipts_evidence.json` — source/evidence packet.
+- `docs/research/SCAN139_SOURCE_BOUND_RECEIPTS_2026-09-23.md` — research report.
+- `tests/test_scan139_source_bound_receipts.py` — retention/fail-closed regression.
+- `data/research_runs/scan139_f1_causal_descent_evidence.json` — consumed live Jev F1 causal route.
+- `docs/research/SCAN139_F1_CAUSAL_DESCENT_2026-09-23.md` — public causal-descent report.
+- `tests/test_scan139_f1_causal_descent.py` — route-consumption regression.
+- `data/commercial_reset_state.json` — last completed scan now 139; next scan 140.
 
 Machine truth on this branch:
-- last completed scan = `ATTRACTION_SCAN_138`;
-- Scan 138 retained research = 0;
-- Scan 138 authoritative closures = F1/F2/F3/F4;
+- last completed scan = `ATTRACTION_SCAN_139`;
+- Scan 139 retained research = `ATTRACTION_SCAN_139-F1` only;
+- Scan 139 authoritative closures = F2/F3/F4;
 - prior retained research = Scan 135 F1 + Scan 136 F1/F2;
 - active commercial candidates = 0;
 - active transaction units = 0;
-- next broad scan = `ATTRACTION_SCAN_139`;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Consumed Scan 137 live TypeSafe/Jev exactly as returned: 4/4 `NO_FURTHER_RESEARCH`, continuation `ADVANCE_TO_NEXT_SCAN`.
-- Merged PR #447 to main as `1978cec0a33938e2f56e913eb34123b613c2ded3`.
-- Started fresh Scan 138 and expanded mechanism/source diversity before relaxing any gate.
-- Exact repository de-duplication returned no prior default-branch hit for the four primary Scan 138 addresses/project names.
-- F1 Chengdu Nanboyuan: RMB319,618 entry; buyer income starts 2026-10-18; RMB11,000/year forward rent to 2030-10-17; about 3.44% nominal gross; closed on economics.
-- F2 Wuzhou shops 1-51/1-52: RMB272,586 combined entry; RMB1,000/month to 2029-07-15; about 4.40% nominal gross; two titles are opened into a neighboring non-auction shop; closed.
-- F3 Xuzhou Green Window 1-113: RMB624,015 entry; lease to 2030-04-06; remaining unpaid rent explicitly belongs to buyer; public rent quantum missing; fail closed.
-- F4 Mianyang Yichang Road mixed property: RMB1,467,060 entry; RMB80,000/year to 2032-09; prepaid through 2027-09; contains 194.4 sqm unregistered construction and does not bind buyer post-prepayment settlement; fail closed.
-- Fresh mechanism probe: current Heze Tianying industrial auction requires buyer to continue a rooftop PV lease through 2040-04-30, but rent through 2030-10-31 was already collected by debtor and public annual rent is masked; excluded from near-term inherited-receipt lane.
-- Updated Scan 137 regression tests so they validate historical Scan 137 truth without pinning global machine progress.
+- Consumed Scan 138 exact-head live TypeSafe/Jev: 4/4 `NO_FURTHER_RESEARCH`, continuation `ADVANCE_TO_NEXT_SCAN`.
+- Verified merged main remains `7e65f79f732631e50d0996179fe481341e82acf3` and no open PR existed before Scan 139.
+- Exact repository de-duplication returned no default-branch match for Sandu title 11032107, Chengdu Jingcui 301/304, Dongguan Tianli 109, Shanghai Shitai 501/507/521, or Zhanjiang Yonghe Garden.
+- F1 Sandu: RMB391,374 entry; RMB27,000/year; semiannual cadence; lease to 2030-09-30; about 6.90% nominal gross; retained for research because buyer receipt succession and current payment cursor remain unbound.
+- F2 Dongguan Tianli: official notice explicitly gives buyer rent succession and rent paid through 2026-06, but public rent quantum is missing and remaining lease term is below 24 months; closed.
+- F3 Zhanjiang Yonghe: explicit RMB50,000/month to the new buyer through 2033-12-31, but about 3.46% nominal gross; closed.
+- F4 Jining Yanzhou PV right: current formal 30-year operating-revenue right, but RMB627.21m entry, no transferred existing receipt ledger and institutional operating burden; closed.
+- Excluded current checks: Chengdu current change-sale price is masked and prior-stage price was not joined; Shanghai bundled hotel units show weak economics plus lease-amendment negotiation; Fuzhou Changle rooftop right is build-and-operate project delivery rather than inherited cashflow.
+- No commercial promotion or external side effect was performed.
+- Exact-head repository CI `35839247545` and live TypeSafe/Jev `35839247533` succeeded on `68a5771cd8d316157e891920ea6b54fe83c4fdd7`.
+- Consumed Jev F1 `CAUSAL_DESCENT`: generic lease continuity and auction ownership-transfer law narrow the chain, but the Sandu notice does not publish the paid-through cursor, prepaid-rent allocation or first buyer receipt.
+- Exact searches by case `(2026)黔2732执1305号`, title `11032107` and exact address found no independent lease/ledger/source document.
+- F1 public causal descent is exhausted at the external written/source-document boundary; it remains retained research only.
 
 ## Current Findings
 
-Source/mechanism expansion is producing useful disconfirmations rather than a candidate:
-- complete legal continuity can coexist with economically weak receipts;
-- explicit buyer entitlement without receipt quantum is still non-computable;
-- mixed/unregistered title bundles create control ambiguity that gross rent cannot override;
-- long-lived PV rooftop leases can transfer contract obligations while offering no near-term buyer receipt because rent is prepaid years ahead.
+Scan 139 produced a fresh public-evidence tuple worth another research step without manufacturing demand, and the live Jev causal route has now been consumed. Sandu F1 has small entry, exact rent, long duration and approximately 6.90% nominal gross, but public evidence cannot bind the buyer-specific unprepaid receipt start or payment cursor.
 
-No gate was relaxed and no UNKNOWN field was converted to PASS.
+Generic legal continuity does not convert those case-specific UNKNOWNs to PASS. The next evidence class is external written confirmation or the underlying lease/rent ledger. F1 remains research-only and does not block fresh Scan 140 after exact-head revalidation.
 
 ## Blockers
 
-- Scan 138 itself has no unresolved external-evidence blocker because all four primary formations are closed.
-- Scan 135 F1 and Scan 136 F1/F2 still require external written court/auction-assistance/tenant confirmation or underlying source documents.
+- Scan 139 F1 public causal descent is exhausted; the next evidence class is external written court/auction-assistance/tenant confirmation or the underlying lease/rent ledger.
+- Scan 135 F1 and Scan 136 F1/F2 remain blocked on external written/source documents.
 - Scan 015-F1 remains separately blocked on official rights evidence.
-- Any phone call, message, inspection booking, bid, deposit, purchase or other external/monetary action requires separate authority.
-- These retained-case blockers do not block fresh Scan 139 broad public research.
+- Any phone call, message, inspection booking, bid, deposit, purchase or monetary action requires separate authority.
 
 ## Next Action
 
-Freeze the PR #448 head created by this TASK_STATE update, require repository CI plus live TypeSafe/Jev on that exact SHA, consume any reversible route if returned, merge if green and no contradictory evidence appears, then begin fresh `ATTRACTION_SCAN_139`.
+Freeze the route-consumption commit created from PR #449, require repository CI plus live TypeSafe/Jev on that exact head, confirm the same F1 fingerprint introduces no new reversible route class, merge PR #449 if green, then advance to fresh `ATTRACTION_SCAN_140`.
 
 ## Do Not Repeat
 
-- Do not return to consumed Scan 137 branches or PR #447.
-- Do not reuse Scan 060-138 formations or exact addresses.
-- Do not reuse the Scan 131 23-station Hainan EV charging formation surfaced again by search.
-- Do not reuse Scan 136 Shanghai Pudong Avenue 1700 Lane 33 Room 201 surfaced again by search.
-- Do not reinterpret 3.44%-4.40% nominal gross as attractive by ignoring costs.
-- Do not infer Xuzhou rent quantum from price, area, comparables or lease term.
-- Do not treat Heze rooftop rent prepaid through 2030-10-31 as near-term buyer receipts.
+- Do not return to consumed Scan 138 branch or PR #448.
+- Do not reuse Scan 060-139 formations or exact addresses in a new scan.
+- Do not promote Sandu F1 from 6.90% gross alone; buyer receipt succession and payment cursor are still UNKNOWN.
+- Do not infer Dongguan rent quantum.
+- Do not override Zhanjiang's 3.46% gross with its long lease.
+- Do not treat institutional PV operating rights as small founder-light inherited cashflow without an existing receipt ledger.
+- Do not join a masked current auction price to a prior auction-stage price.
 - Do not contact external parties or commit money without explicit authority.
 
-## Scan 139 Boundary
+## Scan 140 Boundary
 
-Start only after Scan 138 exact-head repository CI and live TypeSafe/Jev reach terminal success and any reversible route is consumed. Continue expanding current China source/mechanism diversity before relaxing any gate. Prefer mechanisms where transferable control and existing external payments are intrinsically machine-verifiable rather than repeatedly sampling ordinary landlord cashflow. No Scan 060-138 reuse.
+Blocked only until the Scan 139 F1 route-consumption head passes repository CI plus live TypeSafe/Jev and introduces no new reversible route class. F1 is already public-source exhausted and blocked on external written/source-document evidence; once exact-head revalidation is green, fresh Scan 140 may continue without reusing Scan 060-139 formations and without relaxing gates.
 
 ## Guardrails
 

@@ -1,0 +1,104 @@
+{
+  "schema_version": "research-route-followup.v1",
+  "scan_id": "ATTRACTION_SCAN_139",
+  "formation_id": "ATTRACTION_SCAN_139-F1",
+  "as_of_date": "2026-09-23",
+  "source_jev": {
+    "source_pr": 449,
+    "exact_head_sha": "68a5771cd8d316157e891920ea6b54fe83c4fdd7",
+    "repository_ci_run_id": 35839247545,
+    "jev_run_id": 35839247533,
+    "jev_artifact_id": 10740043234,
+    "jev_artifact_digest": "sha256:c78997fe4be750171c37f3b2c49d63e7e711087d8ffea4a558667ac3db854338",
+    "input_scan_id": "ATTRACTION_SCAN_139",
+    "entity_count": 4,
+    "execution_status": "SUCCESS",
+    "continuation_next_action": "EXECUTE_RESEARCH_QUEUE",
+    "autonomous_continuation_allowed": true,
+    "state_fingerprint": "e4427727ac809edaab75",
+    "routes": {
+      "ATTRACTION_SCAN_139-F1": "CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_139-F2": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_139-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_139-F4": "NO_FURTHER_RESEARCH"
+    }
+  },
+  "question": "Does the Sandu public record bind a buyer-specific first unprepaid rent receipt and current paid-through cursor strongly enough to convert the apparent 6.90% gross yield into source-bound post-transfer cashflow, or does the causal chain terminate at non-public lease/ledger evidence?",
+  "public_sources": [
+    {
+      "source_id": "F1-R1",
+      "title": "Current Sandu first-auction notice and investigation table - Jianshe West Road title 11032107",
+      "url": "https://m.fang.com/fapai/qiannan/out_12668036.html",
+      "bound_facts": [
+        "First auction starts 2026-09-25 at RMB 391,374 for the exact 51.16 sqm commercial unit under title certificate 11032107.",
+        "The unit is occupied under a lease from 2025-10-05 through 2030-09-30.",
+        "Rent is RMB 27,000 per year and is paid semiannually.",
+        "The auction notice says the asset is auctioned and delivered in its current condition.",
+        "The notice does not state the current paid-through rent date, the first rent cycle payable after transfer, prepaid-rent allocation, tenant identity, deposit or rent ledger."
+      ]
+    },
+    {
+      "source_id": "F1-R2",
+      "title": "PRC Civil Code Article 725 - Supreme People's Court republication",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/233181.html",
+      "bound_facts": [
+        "Ownership change during the tenant's contractual possession does not affect lease validity.",
+        "This establishes generic lease continuity, not the Sandu case-specific allocation of already-paid rent or the first buyer-side receipt."
+      ]
+    },
+    {
+      "source_id": "F1-R3",
+      "title": "Supreme People's Court network judicial auction rules",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/24391.html",
+      "bound_facts": [
+        "Auctioned property ownership transfers when the auction-completion adjudication is served on the buyer.",
+        "This narrows the ownership-transfer boundary but does not publish the Sandu case's adjudication date, rent ledger, prepayment balance or first buyer rent settlement."
+      ]
+    }
+  ],
+  "causal_chain": [
+    "The observed contractual cashflow is RMB 27,000 per year and the current entry floor is RMB 391,374, producing approximately 6.90% nominal gross before costs.",
+    "The lease began 2025-10-05 and uses a semiannual payment cadence, so the surface annual rent alone does not identify how much rent is already paid or prepaid at the time of the 2026-09-25 auction.",
+    "Civil Code Article 725 preserves lease validity across ownership change, while the judicial-auction rule places ownership transfer at service of the auction-completion adjudication.",
+    "Neither generic legal rule identifies the case-specific first rent amount/date payable to the buyer or allocates any rent already collected by the seller before ownership transfer.",
+    "The current Sandu notice itself publishes no paid-through cursor, prepaid-rent allocation, tenant identity, deposit, payment ledger or first buyer-side rent cycle.",
+    "To guarantee at least 24 months of source-bound future receipts through the 2030-09-30 lease end, the first buyer-side unprepaid receipt would need to be bound no later than 2028-09-30; the public record does not bind that date because the prepayment/payment cursor is unknown.",
+    "Therefore the apparent 6.90% gross yield is not yet a verified buyer cashflow yield: it could only be promoted after the post-transfer receipt start and prepaid-rent accounting are source-bound.",
+    "Exact public searches by execution case, title certificate and address surfaced the auction notice and a sibling unit in the same execution case, but no independent lease contract, rent ledger, deposit record or buyer-specific payment settlement."
+  ],
+  "exact_public_search_exhaustion": {
+    "queries": [
+      "（2026）黔2732执1305号 三都 租赁 合同",
+      "11032107 （2026）黔2732执1305号",
+      "帝都广场1号楼A栋006号 三都 拍卖 租赁",
+      "建设西路 11032107 租金27000",
+      "三都水族自治县人民法院 1305号 拍卖"
+    ],
+    "result": "NO_INDEPENDENT_PUBLIC_SOURCE_SURFACED_FOR_UNDERLYING_LEASE_RENT_LEDGER_PREPAYMENT_CURSOR_DEPOSIT_TENANT_IDENTITY_OR_FIRST_BUYER_RENT_CYCLE",
+    "note": "The current auction notice and generic legal continuity were exhausted without upgrading UNKNOWN buyer receipt fields to PASS."
+  },
+  "decisive_unknowns_remaining": [
+    "Exact current rent paid-through date and any prepaid balance.",
+    "Exact first rent amount/date payable to the buyer after ownership transfer.",
+    "Treatment of rent collected before transfer for periods extending after transfer.",
+    "Tenant identity, payment performance, full lease and deposit.",
+    "Utility/property arrears, exact buyer-side taxes/transfer costs, title-transfer timing and physical condition."
+  ],
+  "public_research_resolution": "EXHAUSTED",
+  "causal_descent_resolution": "PUBLIC_CAUSAL_DESCENT_EXHAUSTED_SURFACE_6_90_PERCENT_YIELD_NOT_SOURCE_BOUND_TO_BUYER_RECEIPT_START_OR_PREPAYMENT_CURSOR",
+  "next_evidence_class": "EXTERNAL_WRITTEN_COURT_AUCTION_ASSISTANCE_TENANT_CONFIRMATION_OR_UNDERLYING_LEASE_RENT_LEDGER_SOURCE_DOCUMENT",
+  "formation_status": "RETAINED_RESEARCH_BLOCKED_ON_EXTERNAL_WRITTEN_OR_SOURCE_DOCUMENT_DILIGENCE",
+  "route_consumed": true,
+  "consumed_routes": [
+    "CAUSAL_DESCENT"
+  ],
+  "scan140_gate": "UNBLOCKED_SUBJECT_TO_EXACT_HEAD_CI_AND_LIVE_JEV_NO_NEW_ROUTE_CLASS",
+  "commercial_promotion": false,
+  "external_contact_performed": false,
+  "external_contact_authorized": false,
+  "inspection_authorized": false,
+  "bid_authorized": false,
+  "deposit_authorized": false,
+  "purchase_authorized": false,
+  "first_external_value_flow": "NOT_PROVEN"
+}

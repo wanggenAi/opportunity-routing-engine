@@ -1,0 +1,229 @@
+{
+  "schema_version": "attraction-scan.v104",
+  "scan_id": "ATTRACTION_SCAN_139",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "FRESH_CURRENT_CHINA_SOURCE_BOUND_RECEIPTS_AND_TRANSFERABLE_CONTROL_WITH_EXACT_ENTRY_EXISTING_EXTERNAL_PAYMENT_CONTINUITY_AT_LEAST_24_MONTHS_COMPUTABLE_NON_DISQUALIFYING_ECONOMICS_AND_LOW_RECURRING_HUMAN_DELIVERY",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FRESH_CURRENT_ASSETS_AND_TRANSFERABLE_OPERATING_RIGHTS_NO_SCAN060_TO_138_REUSE_PREFER_MACHINE_VERIFIABLE_CONTROL_AND_EXISTING_EXTERNAL_PAYMENTS_NO_GATE_RELAXATION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_139-F1",
+      "title": "CURRENT_SANDU_SINGLE_SHOP_WITH_6_90_PERCENT_GROSS_AND_LONG_LEASE_BUT_UNBOUND_BUYER_RECEIPT_CURSOR",
+      "chinese_title": "贵州三都建设西路51.16㎡单铺39.1374万元 → 2.7万元/年 → 租至2030-09-30 → 买受人首笔租金与已付游标未公开绑定",
+      "state": "RESEARCH_BEACON_RETAINED_FOR_BUYER_RECEIPT_SUCCESSION_PAYMENT_CURSOR_TENANT_AND_ARREARS_DILIGENCE",
+      "commercial_candidate": false,
+      "observed_money_motion": [
+        "Current first-auction floor is RMB 391,374 for one 51.16 sqm commercial unit.",
+        "Existing lease runs from 2025-10-05 through 2030-09-30 at RMB 27,000 per year, paid semiannually.",
+        "Nominal annual rent divided by auction floor is approximately 6.90% before taxes, fees, arrears and ownership costs."
+      ],
+      "decisive_unknowns": [
+        "CASE_SPECIFIC_POST_TRANSFER_RENT_SUCCESSION_NOT_EXPLICIT_IN_RETRIEVED_NOTICE",
+        "CURRENT_RENT_PAID_THROUGH_DATE_AND_FIRST_BUYER_PAYMENT_CYCLE_NOT_PUBLIC",
+        "TENANT_IDENTITY_CREDIT_AND_CURRENT_PERFORMANCE_NOT_PUBLIC",
+        "LEASE_DEPOSIT_ARREARS_UTILITIES_PROPERTY_FEES_AND_EXACT_BUYER_TAX_TRANSFER_COSTS_NOT_BOUND",
+        "TITLE_TRANSFER_TIMELINE_AND_PHYSICAL_CONDITION_REQUIRE_CASE_SPECIFIC_DILIGENCE"
+      ],
+      "next_action": "CONSUME_LIVE_TYPESAFE_JEV_ROUTE_THEN_PERFORM_PUBLIC_CAUSAL_DESCENT_ONLY; EXTERNAL_CONTACT_OR_BID_REQUIRES_SEPARATE_AUTHORITY"
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_139-F1"
+  ],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_139-F1",
+    "ATTRACTION_SCAN_135-F1",
+    "ATTRACTION_SCAN_136-F1",
+    "ATTRACTION_SCAN_136-F2",
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": false,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_139-F1",
+      "title": "CURRENT_SANDU_SINGLE_SHOP_WITH_6_90_PERCENT_GROSS_AND_LONG_LEASE_BUT_UNBOUND_BUYER_RECEIPT_CURSOR",
+      "chinese_title": "贵州三都建设西路11032107号商业房一拍39.1374万元 → 2.7万元/年 → 半年付 → 租至2030-09-30",
+      "evidence_class": "CURRENT_SINGLE_ASSET_WITH_EXACT_ENTRY_EXACT_RENT_OVER_24_MONTH_TERM_AND_NON_DISQUALIFYING_PUBLIC_GROSS_ECONOMICS_BUT_BUYER_SIDE_RECEIPT_SUCCESSION_AND_PAYMENT_CURSOR_UNBOUND",
+      "evidence_summary": "A current Sandu Shui Autonomous County People's Court first auction begins 2026-09-25 for one 51.16 sqm commercial unit with title certificate 11032107 at RMB 391,374. The public notice states an existing lease from 2025-10-05 through 2030-09-30, RMB 27,000 annual rent and semiannual payment cadence. Nominal gross rent is approximately 6.90% of the current floor before taxes, fees, arrears and ownership costs. The retrieved notice does not explicitly bind post-transfer rent succession, the current paid-through date or the first buyer payment cycle. This is strong enough for retained research, not commercial promotion.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_391374_CURRENT_FIRST_AUCTION_FLOOR",
+        "contracted_receipt_amount": "RMB_27000_PER_YEAR_PAID_SEMIANNUALLY",
+        "buyer_receipt_start": "UNKNOWN_CASE_SPECIFIC_POST_TRANSFER_RENT_SUCCESSION_AND_CURRENT_PAID_THROUGH_CURSOR_NOT_PUBLIC",
+        "buyer_receipt_end": "LEASE_END_2030-09-30",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "post_transfer_receipt_right": "UNKNOWN_NOT_EXPLICIT_IN_RETRIEVED_NOTICE",
+        "unprepaid_receipt_status": "UNKNOWN_CURRENT_RENT_PAYMENT_CURSOR_NOT_PUBLIC",
+        "low_recurring_human_delivery": "PARTIAL_PASS_NORMAL_LANDLORD_ADMINISTRATION_ONLY_IF_LEASE_CONTINUITY_AND_LEDGER_HOLD",
+        "receipt_to_entry_economics": "PASS_FOR_RESEARCH_ONLY_RMB27000_ANNUAL_RENT_DIVIDED_BY_RMB391374_FLOOR_APPROX_6_90_PERCENT_GROSS_BEFORE_ALL_COSTS"
+      },
+      "attraction_brief": {
+        "a_side": "A current court auction exposes one small commercial unit at an exact RMB 391,374 floor.",
+        "a_side_evidence": "Current auction date, exact title, area and entry floor are public.",
+        "b_side": "An existing tenant is contractually scheduled to pay RMB 27,000/year through 2030-09-30.",
+        "b_side_evidence": "The public notice discloses lease dates, annual rent and semiannual cadence.",
+        "operator": "If succession is confirmed, value is ownership/collection rather than recurring service delivery.",
+        "operator_non_labor_test": "PARTIAL_PASS_NORMAL_PROPERTY_ADMINISTRATION_REMAINS",
+        "connection_wow": "The public tuple combines small entry, exact rent, more than four years of remaining lease term and approximately 6.90% nominal gross.",
+        "activation_friction": "PARTIAL_CURRENT_JUDICIAL_SALE_RAIL_BUT_BUYER_RECEIPT_SUCCESSION_AND_LEDGER_UNKNOWN",
+        "self_propulsion": "PARTIAL_EXISTING_TENANT_CONTRACT_BUT_POST_TRANSFER_PAYMENT_RIGHT_NOT_YET_BOUND",
+        "a_discoverability": "PASS_CURRENT_COURT_SALE_NOTICE",
+        "b_discoverability": "PARTIAL_TENANT_EXISTS_BUT_IDENTITY_AND_LEDGER_NOT_PUBLIC",
+        "match_resolvability": "PARTIAL_PUBLIC_PRICE_RENT_TERM_COMPLETE_BUT_BUYER_RECEIPT_CURSOR_MISSING",
+        "action_gate": "RESEARCH_OPEN_NO_BID_DEPOSIT_PURCHASE_OR_COMMERCIAL_PROMOTION",
+        "router_distinctiveness": "PASS_PROPERTY_CONTROL_AND_LEASE_CONTRACT_ARE_NON_GENERIC_IF_SUCCESSION_HOLDS",
+        "generic_agent_substitution": "PASS_OWNERSHIP_RIGHT_IS_NON_GENERIC",
+        "legal_payment_compliance": "PARTIAL_JUDICIAL_TRANSFER_RAIL_EXISTS_BUT_CASE_SPECIFIC_RENT_SUCCESSION_REQUIRES_CONFIRMATION",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "decisive_unknowns": [
+        "The retrieved notice does not explicitly state that post-transfer rent is payable to the buyer.",
+        "The current paid-through rent date and first buyer-side payment cycle are not public.",
+        "Tenant identity, current performance, deposit, arrears and exact ownership costs are not public.",
+        "No external diligence, inspection or bid is authorized."
+      ],
+      "verdict": "RETAINED_FOR_CHEAP_FALSIFICATION_BUYER_RECEIPT_SUCCESSION_PAYMENT_CURSOR_TENANT_ARREARS_TAX_AND_TRANSFER"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_139-F2",
+      "title": "CURRENT_DONGGUAN_TIANLI_LARGE_SHOP_WITH_EXPLICIT_BUYER_RENT_RIGHT_BUT_MISSING_RENT_QUANTUM_AND_SHORT_REMAINING_TERM",
+      "chinese_title": "东莞南城天利中央花园商铺109一拍1670.9056万元 → 成交后租金归买受人 → 已缴至2026-06 → 租至2027-09-30 → 公开租金额缺失",
+      "evidence_class": "CURRENT_LARGE_SINGLE_TITLE_WITH_EXPLICIT_POST_TRANSFER_RECEIPT_RIGHT_AND_PAYMENT_CURSOR_BUT_NO_PUBLIC_RENT_QUANTUM_AND_LESS_THAN_24_MONTH_REMAINING_TERM",
+      "evidence_summary": "An official Foshan Nanhai District People's Court notice auctioned the Dongguan Nancheng Tianli Central Garden shop at RMB 16,709,056. The 2,486.47 sqm property is leased through 2027-09-30; rent had been paid through 2026-06, and rent arising after the buyer assumes the lease belongs to the buyer. The public notice does not disclose the contracted rent amount and the remaining lease term is below the current 24-month receipt-coverage floor. It fails closed.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_16709056_FIRST_AUCTION_FLOOR",
+        "contracted_receipt_amount": "UNKNOWN_PUBLIC_NOTICE_REFERS_TO_LEASE_CONTRACT",
+        "buyer_receipt_start": "PASS_RENT_AFTER_BUYER_ASSUMES_LEASE_RELATION_BELONGS_TO_BUYER",
+        "buyer_receipt_end": "LEASE_END_2027-09-30",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "post_transfer_receipt_right": "PASS_EXPLICIT_OFFICIAL_COURT_NOTICE",
+        "unprepaid_receipt_status": "PARTIAL_RENT_PAID_THROUGH_2026-06_BUT_CURRENT_POST_JUNE_CURSOR_NOT_BOUND",
+        "low_recurring_human_delivery": "PARTIAL_PASS_NORMAL_LANDLORD_ADMINISTRATION",
+        "receipt_to_entry_economics": "FAIL_CANNOT_COMPUTE_PUBLIC_CONTRACTED_RENT_QUANTUM_MISSING_AND_REMAINING_TERM_BELOW_24_MONTH_FLOOR"
+      },
+      "exact_disconfirmation": [
+        "The official notice binds buyer-side rent succession but not the rent amount.",
+        "Lease ends 2027-09-30, below the current 24-month future-receipt coverage floor from the Scan 139 decision date.",
+        "No inference from area, market comparables or prior payments is permitted."
+      ],
+      "verdict": "DEMOTED_CURRENT_DONGGUAN_RMB16709056_SHOP_HAS_EXPLICIT_BUYER_RENT_RIGHT_AND_PAID_THROUGH_2026_06_BUT_PUBLIC_RENT_QUANTUM_IS_MISSING_AND_REMAINING_TERM_IS_BELOW_24_MONTH_FLOOR"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_139-F3",
+      "title": "CURRENT_ZHANJIANG_YONGHE_LARGE_FLOOR_WITH_EXPLICIT_RMB50000_MONTH_BUYER_RENT_BUT_WEAK_GROSS_ECONOMICS",
+      "chinese_title": "廉江中山五路35号永和花园首层一拍1732.745万元 → 过户后承租人向新买受人5万元/月 → 租至2033-12-31",
+      "evidence_class": "CURRENT_LARGE_PROPERTY_WITH_EXACT_ENTRY_EXPLICIT_POST_TRANSFER_RENT_EXACT_MONTHLY_RECEIPT_AND_LONG_TERM_BUT_WEAK_RECEIPT_TO_ENTRY_ECONOMICS",
+      "evidence_summary": "A current Zhanjiang Intermediate People's Court first auction is scheduled for 2026-10-19 for a 2,176.9 sqm first-floor property at RMB 17,327,450. Except for the former ICBC area, the property is leased through 2033-12-31, and the tenant commits to pay the new buyer RMB 50,000 per month after auction completion and transfer. RMB 600,000 annual rent divided by the auction floor is approximately 3.46% nominal gross before costs, so the formation is authoritatively closed on economics.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_17327450_FIRST_AUCTION_FLOOR",
+        "contracted_receipt_amount": "RMB_50000_PER_MONTH_POST_TRANSFER",
+        "buyer_receipt_start": "PASS_AFTER_AUCTION_COMPLETION_AND_TITLE_TRANSFER_TENANT_COMMITS_TO_PAY_NEW_BUYER",
+        "buyer_receipt_end": "LEASE_END_2033-12-31",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "post_transfer_receipt_right": "PASS_EXPLICIT_TENANT_COMMITMENT_TO_NEW_BUYER",
+        "unprepaid_receipt_status": "PARTIAL_POST_TRANSFER_MONTHLY_COMMITMENT_PUBLIC_CURRENT_ARREARS_NOT_BOUND",
+        "low_recurring_human_delivery": "PARTIAL_PASS_LANDLORD_ADMINISTRATION_BUT_PROPERTY_IS_LARGE_AND_PARTLY_UNLEASED",
+        "receipt_to_entry_economics": "FAIL_RMB600000_ANNUAL_RENT_DIVIDED_BY_RMB17327450_FLOOR_APPROX_3_46_PERCENT_GROSS_BEFORE_COSTS"
+      },
+      "exact_disconfirmation": [
+        "Exact post-transfer rent is unusually strong evidence but the nominal gross ratio is only approximately 3.46%.",
+        "Part of the first floor, the former ICBC area, is not leased.",
+        "A third-party-owned shop on the right side is outside the auction scope."
+      ],
+      "verdict": "DEMOTED_CURRENT_ZHANJIANG_RMB17327450_PROPERTY_HAS_EXPLICIT_RMB50000_MONTH_POST_TRANSFER_BUYER_RENT_TO_2033_12_31_BUT_APPROX_3_46_PERCENT_GROSS_HARD_FAILS_CURRENT_ATTRACTION_ECONOMICS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_139-F4",
+      "title": "CURRENT_JINING_YANZHOU_30_YEAR_PV_OPERATING_REVENUE_RIGHT_WITH_MACHINE_VISIBLE_CONTROL_BUT_RMB627_21M_ENTRY_AND_NO_EXISTING_RECEIPT_LEDGER",
+      "chinese_title": "济宁兖州77.56万㎡国有屋顶及院落30年光伏经营收益权 → 2026-09-25拍卖 → 起拍6.2721亿元",
+      "evidence_class": "CURRENT_TRANSFERABLE_OPERATING_REVENUE_RIGHT_WITH_FORMAL_PUBLIC_AUCTION_AND_MACHINE_VISIBLE_CONTROL_BOUNDARY_BUT_INSTITUTIONAL_CAPITAL_SCALE_AND_NO_EXISTING_EXTERNAL_RECEIPT_LEDGER",
+      "evidence_summary": "A current Jining Yanzhou public-resource auction sells one 30-year photovoltaic operating revenue right covering 775,564.72 sqm of state-owned roofs and yards, with stated capacity 107,027.93 kW. Registration runs through 2026-09-24 and bidding is 2026-09-25. The opening price is RMB 627,210,000 with a RMB 3,000,000 deposit. This is a useful control-right mechanism, but it is institution-scale capital and the public notice does not bind an existing external receipt ledger that transfers to the buyer. It fails the small-operator reproducibility and inherited-cashflow gates.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_627210000_OPERATING_REVENUE_RIGHT_AUCTION_FLOOR",
+        "contracted_receipt_amount": "UNKNOWN_NO_EXISTING_EXTERNAL_RECEIPT_LEDGER_BOUND_IN_PUBLIC_NOTICE",
+        "buyer_receipt_start": "UNKNOWN_REVENUE_REQUIRES_OPERATING_PV_RIGHT_NOT_EXISTING_TRANSFERRED_PAYER_LEDGER",
+        "buyer_receipt_end": "THIRTY_YEAR_OPERATING_RIGHT_TERM_EXACT_START_NOT_BOUND_IN_RETRIEVED_NOTICE",
+        "counterparty": "MULTIPLE_FUTURE_ELECTRICITY_OFFTAKE_OR_GRID_COUNTERPARTIES_NOT_BOUND_AS_EXISTING_RECEIPTS",
+        "post_transfer_receipt_right": "PASS_FORMAL_30_YEAR_PV_OPERATING_REVENUE_RIGHT_CONTROL",
+        "unprepaid_receipt_status": "NOT_APPLICABLE_NO_EXISTING_RECEIPT_LEDGER_PROVEN",
+        "low_recurring_human_delivery": "FAIL_PHYSICAL_PV_OPERATION_MAINTENANCE_AND_INSTITUTIONAL_ASSET_MANAGEMENT",
+        "receipt_to_entry_economics": "FAIL_NO_SOURCE_BOUND_EXISTING_RECEIPT_LEDGER_AND_RMB627_21M_ENTRY_IS_NOT_SMALL_OPERATOR_REPRODUCIBLE"
+      },
+      "exact_disconfirmation": [
+        "The public-rights rail is current and formal, but acquisition floor is RMB 627.21 million.",
+        "The notice identifies operating revenue rights rather than a transferred existing contracted receipt ledger.",
+        "Owning and operating 107 MW-class distributed PV is not founder-light small-operator orchestration."
+      ],
+      "verdict": "DEMOTED_CURRENT_JINING_30_YEAR_PV_OPERATING_REVENUE_RIGHT_HAS_FORMAL_TRANSFERABLE_CONTROL_BUT_RMB627_21M_ENTRY_NO_EXISTING_SOURCE_BOUND_RECEIPT_LEDGER_AND_INSTITUTIONAL_OPERATION_FAIL_CURRENT_LANE"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_CHENGDU_JINGCUI_WEST_ROAD_301_304_CHANGE_SALE",
+      "source_url": "https://www.bidcenter.com.cn/news-443859008-9.html",
+      "reason": "Current 2026-10-07 change-sale notice binds lease through 2031-05-31, RMB18/sqm/month over 783.26 sqm and buyer rent benefit from 2026-12-01, but the current public scraper masks the change-sale entry price. The immediately preceding second-auction price is not substituted as the current entry price; fail closed rather than join price across sale stages."
+    },
+    {
+      "observation": "CURRENT_SHANGHAI_SHITAI_ROAD_400_501_507_521_BUNDLE",
+      "source_url": "https://m.fang.com/fapai/sh/out_12736393.html",
+      "reason": "Current 2026-10-19 auction binds three-title bundled entry RMB1,813,700 and rent schedule through 2029-02-28, approximately 4.71%-4.96% nominal gross depending on rent period. Buyer must separately negotiate a lease amendment with the original lessor and tenant, so both economics and continuity/control are weaker than the retained F1."
+    },
+    {
+      "observation": "CURRENT_FUZHOU_CHANGLE_160_ROOFTOP_18_YEAR_LEASE",
+      "source_url": "https://fzsggzyjyfwzx.cn/jyxxcqgg/2208228.jhtml",
+      "reason": "Current 2026-10-19 auction offers 18-year roof rights over 160 public entities with RMB850,700/year starting rent, but the buyer must fund investment, equipment, construction, grid acceptance, daily operation, insurance and maintenance. It is a project-development role with qualified-EPC requirements, not inherited external cashflow or low recurring human delivery."
+    }
+  ],
+  "drift_audit": {
+    "primary_domain_is_china": true,
+    "fresh_current_primary_formations_only": true,
+    "exact_repository_dedup_completed_for_primary_addresses_and_project_names": true,
+    "source_and_mechanism_diversity_expanded": true,
+    "public_operating_revenue_right_tested": true,
+    "exact_asset_receipt_amount_required": true,
+    "automatic_post_transfer_contract_continuity_required": true,
+    "minimum_24_month_source_bound_receipt_coverage_required": true,
+    "receipt_to_entry_economics_front_loaded": true,
+    "current_entry_price_not_joined_across_auction_stages": true,
+    "unknown_is_not_pass": true,
+    "research_retention_is_not_commercial_promotion": true,
+    "no_bid_deposit_purchase_inspection_or_external_contact_authority": true,
+    "low_recurring_human_delivery_independent_gate": true,
+    "gate_relaxation": false
+  },
+  "commercial_outcome": {
+    "retained_count": 1,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Scan 139 retained Sandu F1 for research only because its exact RMB391,374 entry, RMB27,000 annual rent and lease to 2030-09-30 imply approximately 6.90% nominal gross, while buyer-side rent succession and the paid-through cursor remain unbound. Dongguan closes on missing rent quantum plus sub-24-month remaining term. Zhanjiang closes despite explicit RMB50,000/month buyer rent because gross economics are about 3.46%. Jining proves a current transferable PV operating-revenue-right rail but at RMB627.21m with no existing receipt ledger and institutional operating burden."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_140",
+  "next_search_boundary": "FREEZE_SCAN139_EXACT_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_INPUT_SCAN_ID_ATTRACTION_SCAN_139_ENTITY_COUNT_4_CONSUME_F1_REVERSIBLE_ROUTE_BEFORE_ANY_SCAN140_ADVANCE_NO_SCAN060_TO_139_REUSE_NO_GATE_RELAXATION",
+  "next_action": "OPEN_ONE_SCAN139_PR_FREEZE_FINAL_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONSUME_ANY_REVERSIBLE_ROUTE_FOR_F1_THEN_DECIDE_PUBLIC_CAUSAL_DESCENT_OR_ADVANCE",
+  "scan_learnings": [
+    "A_SMALL_SINGLE_ASSET_CAN_CLEAR_THE_PUBLIC_GROSS_ECONOMICS_RESEARCH_THRESHOLD_WITHOUT_CLEARING_BUYER_SIDE_RECEIPT_SUCCESSION.",
+    "EXPLICIT_BUYER_RENT_SUCCESSION_IS_NOT_ENOUGH_WHEN_PUBLIC_RENT_QUANTUM_IS_MISSING_OR_FUTURE_COVERAGE_IS_TOO_SHORT.",
+    "LONG_EXPLICIT_POST_TRANSFER_RENT_CAN_STILL_FAIL_ON_WEAK_RECEIPT_TO_ENTRY_ECONOMICS.",
+    "FORMAL_OPERATING_REVENUE_RIGHTS_ARE_A_DISTINCT_CONTROL_MECHANISM_BUT_INSTITUTIONAL_CAPITAL_AND_NO_EXISTING_RECEIPT_LEDGER_FAIL_SMALL_OPERATOR_REPRODUCIBILITY.",
+    "CURRENT_ENTRY_PRICE_MUST_NOT_BE_INFERRED_BY_JOINING_A_PRIOR_AUCTION_STAGE_WHEN_THE_CURRENT_NOTICE_MASKS_PRICE."
+  ],
+  "source_urls": [
+    "https://m.fang.com/fapai/qiannan/out_12668036.html",
+    "https://fayuan.nanhai.gov.cn/cms/html/3334/2026/20260904095711855104207/20260904095711855104207_1.html",
+    "https://www.sohu.com/a/1077357214_122455197",
+    "https://www.jnsggzy.cn/YanZhou/Posts/Detail?id=3a23c0c4-679b-1343-9104-257733295f1f",
+    "https://www.bidcenter.com.cn/news-443859008-9.html",
+    "https://m.fang.com/fapai/sh/out_12736393.html",
+    "https://fzsggzyjyfwzx.cn/jyxxcqgg/2208228.jhtml"
+  ]
+}
