@@ -1,0 +1,691 @@
+{
+  "scan_id": "ATTRACTION_SCAN_157",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "STATE_CHANGE_FIRST_DECISIVE_ACTION_GATE_OWNERSHIP",
+  "source_main_sha": "e32757d5ce8200a4bc5bfdefed792fe7c6314a26",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_156",
+    "prior_pr": 470,
+    "prior_merged_main_sha": "e32757d5ce8200a4bc5bfdefed792fe7c6314a26",
+    "prior_final_exact_head": "b5496213904f69e58b78adcdf39afbdc1cbda0f2",
+    "prior_repository_ci_run_id": 35886932220,
+    "prior_repository_ci_test_job_id": 107269347142,
+    "prior_repository_ci_test_count": 793,
+    "prior_live_jev_run_id": 35886932262,
+    "prior_live_jev_artifact_id": 10763196922,
+    "prior_live_jev_artifact_digest": "sha256:fd4cffc2cba1611735cf99bf2b31b1b7c5e990b74d9d45fb8b3be68a9222a7cb",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "state_change_action_gate_method_enforced": true
+  },
+  "broad_reality_domains_examined": [
+    "AUTOMOTIVE_RECALL_REMEDIATION",
+    "BANKRUPTCY_ASSET_DISPOSITION",
+    "FOOD_SAFETY_NONCONFORMITY_REMEDIATION"
+  ],
+  "source_registry": {
+    "RECALL-SAMR-PORTAL-20260923": {
+      "source_class": "CURRENT_RECURRING_AUTOMOTIVE_RECALL_EVENT_STREAM",
+      "url": "https://www.samr.gov.cn/zlfzj/qxcpzh/",
+      "date": "2026-09-23",
+      "claim": "The SAMR recall portal shows repeated current automotive recall events, including multiple notices on 18 September and 4 September 2026, making recall events publicly observable and replenishing."
+    },
+    "RECALL-BYD-20260918": {
+      "source_class": "CURRENT_RECALL_REMEDIATION_GATE_OWNER",
+      "url": "https://www.samr.gov.cn/zlfzj/sjdt/gzdt/art/2026/art_609e95c94ad348a5afd347fa5cea32d4.html",
+      "date": "2026-09-18",
+      "claim": "BYD's current recall notice delegates the free corrective replacement to authorized dealers and says BYD will notify affected users directly, so the decisive remediation gate is manufacturer/dealer owned rather than open to an independent router."
+    },
+    "BANKRUPTCY-PCCZ-JD-20260911": {
+      "source_class": "CURRENT_BANKRUPTCY_ASSET_EVENT_AND_PLATFORM_GATE",
+      "url": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=10731d0f7835414fa590052693f94ec9",
+      "date": "2026-09-11",
+      "claim": "A current bankruptcy auction notice places assets on JD's bankruptcy auction platform under court supervision, requires platform registration, identity verification, deposits and platform settlement, and reserves key execution and transfer steps to the administrator, court and platform."
+    },
+    "BANKRUPTCY-PCCZ-TAOBAO-20260916": {
+      "source_class": "CURRENT_RECURRING_BANKRUPTCY_ASSET_EVENT_STREAM",
+      "url": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=19467134287343616",
+      "date": "2026-09-16",
+      "claim": "A separate current bankruptcy notice auctions production equipment on the Taobao bankruptcy liquidation platform under court supervision, evidencing a replenishing cross-case asset-disposition event stream rather than one isolated listing."
+    },
+    "BANKRUPTCY-PCCZ-TAOBAO-20260904": {
+      "source_class": "CURRENT_RECURRING_BANKRUPTCY_ASSET_EVENT_STREAM",
+      "url": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=b26a3885de564e338ae7b9ade3cf91e6",
+      "date": "2026-09-04",
+      "claim": "Another September 2026 bankruptcy notice auctions real estate and office furniture on Taobao's bankruptcy platform under court supervision, confirming repeated asset-disposition events across asset classes."
+    },
+    "FOOD-SAMR-20260914": {
+      "source_class": "CURRENT_FOOD_NONCONFORMITY_EVENT_STREAM_AND_REGULATORY_GATE",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/spcjs/art/2026/art_162db47b754e421eb6f5226e977ebcee.html",
+      "date": "2026-09-14",
+      "claim": "SAMR reported 47 nonconforming batches from 2,313 food samples and stated that relevant provincial market-regulation departments had already organized verification and disposition, making both the event stream and regulator-owned immediate action gate explicit."
+    },
+    "FOOD-SAMR-20260918": {
+      "source_class": "CURRENT_REPEATED_FOOD_NONCONFORMITY_EVENT_STREAM_AND_REGULATORY_GATE",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/spcjs/art/2026/art_5b7b33ce0ca74b619f6d5eb80e823fad.html",
+      "date": "2026-09-18",
+      "claim": "Four days later SAMR reported another 44 nonconforming batches from 1,815 samples and again stated that provincial regulators had organized verification and disposition, confirming recurrence and institutional control."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_157-F1",
+      "title": "Vehicle owners entering a newly announced recall state -> authorized repair capacity able to execute the mandated corrective action",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_REPLENISHING_STATE_CHANGE_EVENT",
+      "evidence_summary": "Recall announcements are a strong recurring public event trace and the corrective value jump is large, but affected-owner identity is primarily held by manufacturers and the actual remedy is delegated to authorized dealers. Public observability of the recall does not create an independently callable action gate.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 1,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "b_voluntary_motion": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "state_dependent_value_jump": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "decision_window": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "bridge_compression": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "activation_ease": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "self_propulsion": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "operator_control": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "a_discoverability": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "b_discoverability": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "match_resolvability": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "action_gate_callability": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "a_population_replenishment": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "b_population_replenishment": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "recurring_connection_pressure": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "recurring_missing_edge": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "recurring_event_source": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "RECALL-SAMR-PORTAL-20260923",
+          "RECALL-BYD-20260918"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-SAMR-PORTAL-20260923",
+            "RECALL-BYD-20260918"
+          ],
+          "owner_state": "INCUMBENT_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_AUTOMOTIVE_RECALL_EVENT_STREAM_PUBLIC_BUT_AFFECTED_OWNER_IDENTITY_AND_CORRECTIVE_ACTION_GATE_REMAIN_MANUFACTURER_AUTHORIZED_DEALER_OWNED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_157-F2",
+      "title": "Bankruptcy estates entering asset-disposition events -> qualified buyers seeking assets at legally executable terms",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_REPLENISHING_STATE_CHANGE_EVENT",
+      "evidence_summary": "Bankruptcy asset disposition is a recurrent public state-change stream across shares, equipment, real estate and receivables. The transaction rail is already explicit: court-supervised administrators use JD or Taobao bankruptcy platforms with registration, deposit, bidding, settlement and transfer rules. The public event is therefore not an unowned action gate.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "b_voluntary_motion": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "state_dependent_value_jump": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "decision_window": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "bridge_compression": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "activation_ease": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "self_propulsion": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "operator_control": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "a_discoverability": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "b_discoverability": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "match_resolvability": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "action_gate_callability": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "a_population_replenishment": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "b_population_replenishment": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "recurring_connection_pressure": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "recurring_missing_edge": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "recurring_event_source": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "BANKRUPTCY-PCCZ-JD-20260911",
+          "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+          "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPTCY-PCCZ-JD-20260911",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260916",
+            "BANKRUPTCY-PCCZ-TAOBAO-20260904"
+          ],
+          "owner_state": "REGULATOR_PLATFORM_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_BANKRUPTCY_ASSET_EVENT_STREAM_REGENERATIVE_AND_PUBLIC_BUT_COURT_ADMINISTRATOR_AND_AUCTION_PLATFORM_ALREADY_OWN_BIDDING_SETTLEMENT_AND_TRANSFER_GATE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_157-F3",
+      "title": "Food businesses entering a published nonconformity state -> testing corrective-action and quality-service capacity able to restore compliant operation",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_REPLENISHING_STATE_CHANGE_EVENT",
+      "evidence_summary": "Food-safety nonconformity notices recur within days and identify affected firms and defects, so the event trace is unusually observable. But regulators already organize verification and disposition, while root-cause correction and re-validation remain technically expert and case-specific. The event is visible without exposing an independently owned decisive gate.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "b_voluntary_motion": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "state_dependent_value_jump": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "decision_window": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "bridge_compression": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "activation_ease": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "self_propulsion": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "operator_control": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "a_discoverability": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "b_discoverability": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "match_resolvability": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "action_gate_callability": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "a_population_replenishment": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "b_population_replenishment": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "recurring_connection_pressure": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "recurring_missing_edge": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "recurring_event_source": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "FOOD-SAMR-20260914",
+          "FOOD-SAMR-20260918"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-SAMR-20260914",
+            "FOOD-SAMR-20260918"
+          ],
+          "owner_state": "REGULATOR_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_FOOD_NONCONFORMITY_EVENT_STREAM_HIGHLY_OBSERVABLE_BUT_REGULATOR_OWNS_IMMEDIATE_DISPOSITION_AND_CORRECTIVE_VALIDATION_REMAINS_EXPERT_CASE_SPECIFIC"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Event-first sensing successfully found three strongly observable replenishing state-change streams. All three still close because the decisive action gate is owned by manufacturers/authorized dealers, courts/auction platforms, or regulators, with food remediation additionally remaining expert-bound."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_158",
+  "next_search_boundary": "SEARCH_ONLY_FRESH_REPLENISHING_PUBLIC_STATE_CHANGE_EVENTS_WHERE_BOTH_ACTOR_SIDES_ARE_DISCOVERABLE_AND_DECISIVE_ACTION_GATE_OWNER_CAN_PLAUSIBLY_BE_UNOWNED_OPEN_OR_OPERATOR_OWNED;_DEPRIORITIZE_INCUMBENT_REGULATOR_PLATFORM_MANDATED_REMEDIES",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN158",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "prior_domain_deduplication_checked": true,
+    "state_change_first_search": true,
+    "decisive_action_gate_owner_checked": true,
+    "incumbent_presence_not_used_as_automatic_kill": true,
+    "public_event_visibility_not_equated_with_operator_control": true,
+    "residual_food_corrective_service_gap_preserved": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "PUBLIC_EVENT_TRACE_NE_OPERATOR_CONTROL.",
+    "A_REPLENISHING_TRIGGER_CAN_BE_HIGHLY_OBSERVABLE_WHILE_THE_DECISIVE_REMEDY_GATE_IS_FULLY_INCUMBENT_OR_REGULATOR_OWNED.",
+    "COURT_SUPERVISED_AUCTION_STREAMS_PROVE_STATE_CHANGE_AND_TRANSACTION_INTENSITY_BUT_NOT_AN_UNOWNED_ROUTING_EDGE.",
+    "FOOD_NONCONFORMITY_EVENTS_PRESERVE_CORRECTIVE_SERVICE_PRESSURE_BUT_EXPERT_DIAGNOSIS_AND_REGULATORY_DISPOSITION_BLOCK_MACHINE_RESOLVABLE_ROUTING.",
+    "SCAN158_SHOULD_SEARCH_FOR_UNOWNED_OR_OPERATOR_OWNABLE_ACTION_GATES_NOT_JUST_BETTER_EVENT_FEEDS."
+  ],
+  "source_urls": [
+    "https://www.samr.gov.cn/zlfzj/qxcpzh/",
+    "https://www.samr.gov.cn/zlfzj/sjdt/gzdt/art/2026/art_609e95c94ad348a5afd347fa5cea32d4.html",
+    "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=10731d0f7835414fa590052693f94ec9",
+    "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=19467134287343616",
+    "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=b26a3885de564e338ae7b9ade3cf91e6",
+    "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/spcjs/art/2026/art_162db47b754e421eb6f5226e977ebcee.html",
+    "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/spcjs/art/2026/art_5b7b33ce0ca74b619f6d5eb80e823fad.html"
+  ]
+}
