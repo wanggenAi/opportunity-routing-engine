@@ -1,0 +1,46 @@
+{
+  "schema_version": 2,
+  "task_key": "commercial-attraction-scan-135",
+  "generation": 1,
+  "status": "ACTIVE",
+  "reconciled_at": "2026-09-23T06:45:00Z",
+  "live_main": "7e75f96c370552a3656c936b549b5b65222c0b26",
+  "source_pr": 443,
+  "source_pr_head": "89afbb813ccccae249092724b88b752e1fe55661",
+  "ci": {
+    "repository_run_id": 35828037496,
+    "conclusion": "success",
+    "jev_run_id": 35828037593,
+    "jev_conclusion": "success",
+    "jev_artifact_id": 10735528864,
+    "jev_artifact_digest": "sha256:65c77f37f7cebbe987b1388eefd167ba4e89ea305a2be4bc68121ac8c2375640"
+  },
+  "jev": {
+    "input_scan_id": "ATTRACTION_SCAN_135",
+    "entity_count": 4,
+    "continuation_next_action": "EXECUTE_RESEARCH_QUEUE",
+    "autonomous_continuation_allowed": true,
+    "routes": {
+      "ATTRACTION_SCAN_135-F1": "CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_135-F2": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_135-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_135-F4": "NO_FURTHER_RESEARCH"
+    }
+  },
+  "stage": "SCAN135_F1_PUBLIC_CAUSAL_DESCENT",
+  "durable_conclusions": [
+    "F1 remains research-only; no commercial promotion, bid, deposit or purchase authority.",
+    "Current public notice binds certificate 川（2020）成都市不动产权第0389990号, seizure and mortgage.",
+    "Current public notice binds buyer-borne historical utility/property arrears risk and buyer advance of seller transfer taxes subject to refund process.",
+    "Current public notice binds lease continuation and buyer deposit-refund exposure at lease end.",
+    "Exact tenant identity, lease ledger/prepayment, lease deposit quantum, exact arrears, exact tax/transfer net economics and physical condition remain unbound by public sources.",
+    "Public search did not surface an independent exact lease/ledger source; remaining decisive evidence is written court/auction-assistance/source-document confirmation."
+  ],
+  "next_action": "Persist Scan135-F1 public causal descent and external-written-evidence blocker on a fresh branch from live main, run CI/Jev if triggered, merge after exact-head validation, then begin Scan136 because F1 route is consumed/blocked.",
+  "pending_operation": null,
+  "do_not_repeat": [
+    "Do not reuse merged research/scan135-single-asset-cashflow branch.",
+    "Do not re-research Scan135 F2/F3/F4.",
+    "Do not contact court/auction assistant or make monetary commitments without explicit human authorization."
+  ]
+}
