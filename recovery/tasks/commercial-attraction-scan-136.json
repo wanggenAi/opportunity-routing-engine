@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "task_key": "commercial-attraction-scan-136",
-  "generation": 6,
+  "generation": 7,
   "status": "ACTIVE",
-  "reconciled_at": "2026-09-23T07:38:00Z",
+  "reconciled_at": "2026-09-23T07:40:00Z",
   "live_main": "16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1",
   "work_branch": "research/scan136-f1-f2-routing-followup",
   "frozen_head": "351b1f17d7a2801a677cf1bba43603e3711c7c61",
-  "stage": "SCAN136_PR446_ROUTE_HISTORY_FINAL_VALIDATION_RUNNING",
+  "stage": "SCAN136_PR446_FINAL_VALIDATION_SUCCESS_MERGE_PENDING",
   "scan_id": "ATTRACTION_SCAN_136",
   "retained_research": [
     "ATTRACTION_SCAN_136-F1",
@@ -32,13 +32,11 @@
     "F2 exact-address/case public search resolves only to the current auction notice; detailed lease terms explicitly require telephone consultation. Civil Code 725 preserves lease validity, but auction-specific first buyer rent allocation after the prepaid-through-2026-11 window remains unbound.",
     "Both F1/F2 therefore remain research-only and public-source exhausted at an external written/source-document boundary; no external contact performed."
   ],
-  "next_action": "Wait for PR #446 head 351b1f17 CI 35832778679 and Jev 35832778727; if Jev returns only already-consumed F1/F2 route classes (EXACT_INCUMBENT_PREFLIGHT/CAUSAL_DESCENT) and F3/F4 remain closed, merge; stop only for a genuinely new route class or human-review directive.",
+  "next_action": "Merge PR #446 at exact head 351b1f17 after CI 35832778679 and Jev 35832778727 success; then verify main push CI/Jev and advance to Scan137.",
   "pending_operation": {
-    "kind": "PR_FINAL_EXACT_HEAD_VALIDATION",
+    "kind": "MERGE_PULL_REQUEST",
     "pr": 446,
-    "head": "351b1f17d7a2801a677cf1bba43603e3711c7c61",
-    "ci_run_id": 35832778679,
-    "jev_run_id": 35832778727
+    "expected_head": "351b1f17d7a2801a677cf1bba43603e3711c7c61"
   },
   "do_not_repeat": [
     "Do not return to consumed Scan135 branches.",
@@ -54,7 +52,15 @@
     "prior_main_jev_run_id": 35830677629,
     "current_ci_run_id": 35832778679,
     "current_jev_run_id": 35832778727,
-    "current_status": "RUNNING"
+    "current_status": "SUCCESS",
+    "current_jev_artifact_id": 10737324808,
+    "current_jev_artifact_digest": "sha256:012b75e64b45c6a487f2bca06519c9ffec67c3c6678e5a66f78576a768ef8941",
+    "current_routes": {
+      "ATTRACTION_SCAN_136-F1": "EXACT_INCUMBENT_PREFLIGHT",
+      "ATTRACTION_SCAN_136-F2": "CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_136-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_136-F4": "NO_FURTHER_RESEARCH"
+    }
   },
   "pr_status": "OPEN",
   "pr_exact_head": "d91d34790fb07c3e45bce977196092c00b86e8da",
