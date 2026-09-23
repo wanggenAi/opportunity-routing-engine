@@ -83,4 +83,5 @@ def test_scan125_updates_machine_state_without_commercial_promotion():
     assert state["retained_research_formations"] == []
     assert state["first_external_value_flow"] == "NOT_PROVEN"
     assert state["parallel_workstreams"]["discovery"]["next_scan_id"] == "ATTRACTION_SCAN_126"
-    assert state["parallel_workstreams"]["discovery"]["search_boundary"] == scan["next_search_boundary"]
+    assert state["parallel_workstreams"]["discovery"]["scan125_earned_cashflow_asset_boundary"] == scan["next_search_boundary"]
+    assert "SCAN126_PRECEDENT_CALIBRATED_BROAD_REALITY" in state["parallel_workstreams"]["discovery"]["search_boundary"]

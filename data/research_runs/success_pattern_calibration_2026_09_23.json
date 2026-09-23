@@ -1,0 +1,157 @@
+{
+  "schema_version": "success-pattern-calibration.v1",
+  "generated_date": "2026-09-23",
+  "purpose": "Extract transferable business mechanisms from real successes and failures without copying their products or weakening the Attraction Field.",
+  "launch_decision_clock": {
+    "decision_deadline": "2026-09-30",
+    "deadline_meaning": "By this date the system must either have at least one genuinely high-attraction formation in decisive external validation or expand the source universe/mechanism diversity. It must not launch a weak experiment merely to satisfy the clock.",
+    "weak_experiment_forbidden": true,
+    "gate_relaxation_forbidden": true
+  },
+  "precedent_cycle_policy": {
+    "minimum_precedents_per_cycle": 8,
+    "minimum_source_classes": 3,
+    "minimum_independent_support_per_mechanism": 2
+  },
+  "precedents": [
+    {
+      "id": "P_LEVELS_PORTFOLIO",
+      "name": "Pieter Levels / Nomad List + Remote OK + PhotoAI",
+      "evidence_class": "FOUNDER_INTERVIEW",
+      "source_url": "https://levels.io/stripe-cheeky-pint-john-collison",
+      "observed_result": "Stripe interview states Nomad List reached about $700k ARR, Remote OK about $3.4m revenue, and PhotoAI about $600k ARR, operated by Levels.",
+      "mechanisms": [
+        "SELF_REVEALING_INTENT",
+        "SELF_SERVICE_ACTIVATION",
+        "MACHINE_NATIVE_DELIVERY",
+        "PRODUCT_LED_OR_PUBLIC_DISTRIBUTION",
+        "LOW_RECURRING_HUMAN_DELIVERY"
+      ],
+      "transfer_claim": "Small operators can own narrow digital control surfaces when the user state is legible and delivery is mostly machine-native.",
+      "anti_copy_warning": "Do not copy digital-nomad/job/AI-photo verticals; Levels also has unusually strong accumulated public distribution."
+    },
+    {
+      "id": "P_CARRD",
+      "name": "Carrd",
+      "evidence_class": "FOUNDER_INTERVIEW",
+      "source_url": "https://www.indiehackers.com/post/tech/growing-carrd-to-2m-arr-in-a-crowded-market-with-zero-marketing-by-limiting-features-dbeoP4bDlEL3zzsivdgj",
+      "observed_result": "Indie Hackers reports Carrd above $2m ARR with a deliberately constrained one-page-site capability and little paid marketing.",
+      "mechanisms": [
+        "NARROW_IMMEDIATE_UTILITY",
+        "SELF_SERVICE_ACTIVATION",
+        "PRODUCT_LED_OR_EMBEDDED_DISTRIBUTION",
+        "LOW_EXPLANATION_BURDEN",
+        "LOW_RECURRING_HUMAN_DELIVERY"
+      ],
+      "transfer_claim": "Capability-narrowing can enlarge addressable use cases while keeping activation/support extremely simple.",
+      "anti_copy_warning": "Do not infer that generic SaaS or freemium is attractive; the mechanism depends on obvious utility and product-led spread."
+    },
+    {
+      "id": "P_PHOTOPEA",
+      "name": "Photopea",
+      "evidence_class": "FOUNDER_INTERVIEW",
+      "source_url": "https://www.indiehackers.com/post/tech/making-3m-per-year-with-a-free-product-axW4u1vB6C8f91Z3Lxu5",
+      "observed_result": "Indie Hackers reports roughly $250k monthly revenue from a broadly used browser image editor whose core use is immediately accessible without installation.",
+      "mechanisms": [
+        "NARROW_IMMEDIATE_UTILITY",
+        "ZERO_OR_LOW_FRICTION_ENTRY",
+        "MACHINE_NATIVE_DELIVERY",
+        "SEARCH_ORGANIC_DISCOVERY",
+        "LOW_RECURRING_HUMAN_DELIVERY"
+      ],
+      "transfer_claim": "A strong state jump can be obvious enough that distribution comes from existing task intent rather than founder persuasion.",
+      "anti_copy_warning": "Do not copy image editing or ad monetization; free utility without a monetizable or compounding control position is not automatically attractive."
+    },
+    {
+      "id": "P_OPENROUTER",
+      "name": "OpenRouter",
+      "evidence_class": "OFFICIAL",
+      "source_url": "https://openrouter.ai/blog/announcements/series-b/",
+      "observed_result": "OpenRouter reported 8m+ developers, 400+ models and weekly volume growth from 5T to 25T tokens over six months in May 2026.",
+      "mechanisms": [
+        "MULTI_RAIL_ROUTING",
+        "SELF_REVEALING_INTENT",
+        "NATIVE_TRANSACTION_RAIL",
+        "MACHINE_NATIVE_DELIVERY",
+        "USAGE_ALIGNED_MONETIZATION",
+        "ROUTING_FEEDBACK"
+      ],
+      "transfer_claim": "When many independent rails are callable and users already have high-frequency intent, a neutral routing/control layer can become a high-energy system.",
+      "anti_copy_warning": "Do not copy AI model routing; the relevant lesson is callable multi-rail orchestration plus native usage flow, not the vertical."
+    },
+    {
+      "id": "P_SKYSCANNER",
+      "name": "Skyscanner affiliate / metasearch rail",
+      "evidence_class": "OFFICIAL",
+      "source_url": "https://skyscannerpartnersupport.zendesk.com/hc/en-us/articles/10878155103517-Getting-Started-How-do-I-earn-commissions",
+      "observed_result": "Skyscanner documents revenue sharing when referred traffic converts into bookings.",
+      "mechanisms": [
+        "SELF_REVEALING_INTENT",
+        "SEARCH_INTENT_ACQUISITION",
+        "MULTI_RAIL_COMPARISON",
+        "OUTCOME_ALIGNED_MONETIZATION",
+        "THIRD_PARTY_FULFILLMENT"
+      ],
+      "transfer_claim": "Monetization is stronger when it rides the same completed flow that creates user value instead of requiring a separate sale.",
+      "anti_copy_warning": "Do not build another travel comparator; mature vertical incumbents can already own the control surface."
+    },
+    {
+      "id": "P_ACQUIRE",
+      "name": "Acquire.com",
+      "evidence_class": "OFFICIAL",
+      "source_url": "https://blog.acquire.com/entrepreneurship-through-acquisition-webinar/",
+      "observed_result": "Acquire states that since 2019 it has helped over a thousand founders sell businesses, closed over $500m in deal volume and registered over 500k entrepreneurs.",
+      "mechanisms": [
+        "QUALIFIED_TWO_SIDED_DISCOVERY",
+        "HIGH_INTENT_TRANSACTION_WINDOW",
+        "STANDARDIZED_DILIGENCE_RAIL",
+        "TRUST_COMPRESSION",
+        "OUTCOME_ALIGNED_MONETIZATION"
+      ],
+      "transfer_claim": "A marketplace becomes powerful when both sides self-identify with high transaction intent and standardized evidence compresses trust/diligence.",
+      "anti_copy_warning": "Do not infer that any marketplace is attractive; recurring manual advisory, supply acquisition or trust work can destroy founder-independence."
+    },
+    {
+      "id": "P_BUILTWITH",
+      "name": "BuiltWith",
+      "evidence_class": "OFFICIAL",
+      "source_url": "https://builtwith.com/about",
+      "observed_result": "BuiltWith describes a durable web-technology intelligence platform, lead-generation product and API built on automated technology profiling across the internet.",
+      "mechanisms": [
+        "AUTOMATED_SIGNAL_HARVEST",
+        "COMPOUNDING_DATA_ASSET",
+        "B2B_DECISION_UTILITY",
+        "API_DELIVERY",
+        "REPEATED_OBSERVATION_LOOP"
+      ],
+      "transfer_claim": "Repeated machine observation can create a compounding decision asset that becomes more valuable than any single lookup.",
+      "anti_copy_warning": "Do not copy website technology intelligence; search for other recurring observable state where accumulated history improves a valuable decision."
+    },
+    {
+      "id": "N_REDDIT_COLD_OUTREACH",
+      "name": "Reddit solo SaaS $89k self-report",
+      "evidence_class": "COMMUNITY_SELF_REPORT",
+      "source_url": "https://www.reddit.com/r/micro_saas/comments/1wi3eix/i_made_89k_with_my_saas_as_a_solo_founder/",
+      "observed_result": "Founder self-reports about $89k revenue, largely from cold outreach, lifetime deals and shipping quickly, while recurring revenue remains inconsistent.",
+      "mechanisms": [
+        "COLD_OUTREACH_DEPENDENCE",
+        "LIFETIME_DEAL_CASH",
+        "FOUNDER_DISTRIBUTION"
+      ],
+      "transfer_claim": "Revenue success alone is not sufficient for this project if the flow depends on recurring founder acquisition or non-regenerative sales.",
+      "anti_copy_warning": "Use as a negative control. This is exactly the kind of financially real but model-misaligned path that urgency must not force into launch.",
+      "negative_control": true
+    }
+  ],
+  "independently_repeated_patterns": [
+    "SELF_REVEALING_INTENT_OR_EXISTING_TASK_INTENT",
+    "NARROW_OBVIOUS_VALUE_WEDGE",
+    "SELF_SERVICE_OR_MACHINE_NATIVE_ACTIVATION",
+    "DISTRIBUTION_EMBEDDED_IN_EXISTING_BEHAVIOR",
+    "MONETIZATION_ATTACHED_TO_THE_VALUE_FLOW",
+    "LOW_RECURRING_HUMAN_DELIVERY",
+    "COMPOUNDING_DATA_OR_ROUTING_FEEDBACK_WHEN_AVAILABLE"
+  ],
+  "search_direction_rule": "Generate mechanism-level search directions from repeated patterns, then require a fresh real-world AttractionDiscoveryProfile. Precedents never satisfy participant pull, discoverability, action callability, operator control, economics or validation for a new candidate.",
+  "experiment_rule": "No experiment is allowed merely because it is fast or cheap. Only an already HIGH_ATTRACTION_BEACON may receive a reversible decisive reality test, and founder-manufactured demand cannot count."
+}
