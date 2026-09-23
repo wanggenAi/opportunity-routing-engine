@@ -684,21 +684,40 @@
       "formation_id": "ATTRACTION_SCAN_154-F5",
       "verdict": "DEMOTED_HOME_APPLIANCE_REPAIR_TRUST_GAP_REAL_BUT_AUTHORIZATION_WARRANTY_DIAGNOSTIC_PARTS_PRICE_AND_PROVIDER_CONTROL_PREVENT_A_DISTINCT_INDEPENDENT_ROUTER",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_155-F1",
+      "verdict": "DEMOTED_MALAYSIA_EINVOICE_TRANSITION_REAL_BUT_OFFICIAL_API_AND_PROVIDER_DIRECTORIES_ALREADY_EXPOSE_THE_GENERIC_MATCH_AND_CHINA_SPECIFIC_INTEGRATION_REMAINS_UNEVIDENCED_BESPOKE_WORK",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_155-F2",
+      "verdict": "DEMOTED_EV_CHARGING_FAILURE_FIELD_REAL_BUT_LIVE_AVAILABILITY_FAULT_PRICE_AND_REMEDIATION_CONTROL_REMAIN_OPERATOR_OR_REGULATOR_OWNED",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_155-F3",
+      "verdict": "DEMOTED_SHARED_PARKING_MISMATCH_REAL_BUT_CURRENT_DIGITAL_PLATFORM_ALREADY_OWNS_INVENTORY_RELEASE_MATCHING_AND_TRANSACTION_CONTROL",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_155-F4",
+      "verdict": "DEMOTED_CROSS_REGION_AGRIMACHINERY_FIELD_REGENERATIVE_BUT_CURRENT_PUBLIC_REGISTRATION_INFORMATION_AND_DISPATCH_RAILS_ALREADY_OWN_THE_MATCHING_LOOP",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_155-F5",
+      "verdict": "DEMOTED_SME_QUALITY_INFRASTRUCTURE_FIELD_REAL_BUT_CURRENT_ONE_STOP_PUBLIC_NETWORKS_ALREADY_AGGREGATE_SEARCH_MATCHING_AND_SERVICE_ACCESS",
+      "resolved_date": "2026-09-23"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_154",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_154-F5",
-  "next_scan_id": "ATTRACTION_SCAN_155",
-  "current_research_action": "FREEZE_SCAN154_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN155",
-  "current_validation_state": {
-    "formation_id": null,
-    "state": "SCAN154_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
-    "commercial_candidate": false,
-    "external_contact_performed": false,
-    "external_contact_authorized": false
-  },
+  "last_completed_scan_id": "ATTRACTION_SCAN_155",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_155-F5",
+  "next_scan_id": "ATTRACTION_SCAN_156",
+  "current_research_action": "VALIDATE_SCAN155_EXACT_HEAD_THEN_CONSUME_REVERSIBLE_JEV_ROUTE_OR_ADVANCE_SCAN156",
+  "current_validation_state": "SCAN155_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_PENDING",
   "required_scan_controls": [
     "BROAD_REALITY",
     "ATTRACTION_FIRST_BEACON",
@@ -2269,8 +2288,8 @@
     "deposit_authorized": false,
     "purchase_authorized": false
   },
-  "last_completed_scan_file": "data/research_runs/attraction_scan_154.json",
-  "last_completed_scan_result": "ZERO_RETENTION_FAILURE_FIRST_RESIDUAL_GAPS_PRESERVED_BUT_CONTROL_OR_EXPERT_BOUND",
+  "last_completed_scan_file": "data/research_runs/attraction_scan_155.json",
+  "last_completed_scan_result": "ZERO_RETENTION_PENDING_EXACT_HEAD_CI_AND_LIVE_TYPESAFE_JEV",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
     "evidence_artifact": "data/research_runs/scan136_current_asset_receipts_evidence.json",
@@ -2756,7 +2775,7 @@
     "preflight_autonomous_continuation_allowed": true,
     "preflight_resolution": "CLOSED_DISTINCT_UNOWNED_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED_AFTER_CURRENT_OFFICIAL_CONTROL_SURFACE_PREFLIGHT"
   },
-  "next_action": "REQUIRE_SCAN154_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN155",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN155_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN156",
   "scan143_broad_reality_trust_routing": {
     "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "c4d3da4d67f067a512642beb272eeafa7fd0fa34",
@@ -3301,7 +3320,7 @@
     "merged_main_sha": "562d1fa02f48ab06a6cd674278e12a7a65b7e0e4"
   },
   "scan154_failure_workaround_first": {
-    "status": "INITIAL_SCAN_COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "562d1fa02f48ab06a6cd674278e12a7a65b7e0e4",
     "canonical_scan_artifact": "data/research_runs/attraction_scan_154.json",
     "evidence_artifact": "data/research_runs/scan154_failure_workaround_first_evidence.json",
@@ -3317,15 +3336,63 @@
     "active_commercial_candidate_count": 0,
     "active_transaction_unit_count": 0,
     "first_external_value_flow": "NOT_PROVEN",
-    "exact_head_validation_status": "PENDING",
-    "live_jev_status": "PENDING",
+    "exact_head_validation_status": "SUCCESS",
+    "live_jev_status": "SUCCESS",
     "next_scan_id": "ATTRACTION_SCAN_155",
-    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN155",
+    "next_action": "COMPLETED_ADVANCE_TO_SCAN155",
     "commercial_promotion": false,
     "external_side_effects_performed": false,
     "failure_workaround_first_search": true,
     "residual_after_sales_gap_preserved": true,
     "residual_childcare_mismatch_preserved": true,
-    "residual_repair_trust_failure_preserved": true
+    "residual_repair_trust_failure_preserved": true,
+    "final_exact_head_sha": "94811b6f62598b20b3aaf1ee081188798e6ce8ae",
+    "final_repository_ci_run_id": 35884382382,
+    "final_repository_ci_conclusion": "SUCCESS",
+    "final_repository_ci_test_job_id": 107260670704,
+    "final_repository_ci_test_count": 783,
+    "final_jev_run_id": 35884382385,
+    "final_jev_artifact_id": 10761597741,
+    "final_jev_artifact_digest": "sha256:48a4dce810c3441a8e8ea7c228beff42703b3193d6fc2fe003e8e8cc2a66f76c",
+    "final_jev_entity_count": 5,
+    "final_jev_effective_route_counts": {
+      "NO_FURTHER_RESEARCH": 5
+    },
+    "final_jev_model_route_counts": {
+      "NO_FURTHER_RESEARCH": 5
+    },
+    "final_jev_alignment_counts": {
+      "ALIGNS_WITH_AUTHORITATIVE_CLOSURE": 5
+    },
+    "final_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "final_autonomous_continuation_allowed": true,
+    "merged_pr": 468,
+    "merged_main_sha": "1041b296d0990c3b7cf526a71436c1e7abbcacd7"
+  },
+  "scan155_failure_workaround_fresh_domains": {
+    "status": "INITIAL_SCAN_COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "source_main_sha": "1041b296d0990c3b7cf526a71436c1e7abbcacd7",
+    "canonical_scan_artifact": "data/research_runs/attraction_scan_155.json",
+    "evidence_artifact": "data/research_runs/scan155_failure_workaround_fresh_domains_evidence.json",
+    "report": "docs/research/SCAN155_FAILURE_WORKAROUND_FRESH_DOMAINS_2026-09-23.md",
+    "retained_research_formations": [],
+    "authoritative_closures": [
+      "ATTRACTION_SCAN_155-F1",
+      "ATTRACTION_SCAN_155-F2",
+      "ATTRACTION_SCAN_155-F3",
+      "ATTRACTION_SCAN_155-F4",
+      "ATTRACTION_SCAN_155-F5"
+    ],
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "exact_head_validation_status": "PENDING",
+    "live_jev_status": "PENDING",
+    "next_scan_id": "ATTRACTION_SCAN_156",
+    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN156",
+    "commercial_promotion": false,
+    "external_side_effects_performed": false,
+    "failure_workaround_first_search": true,
+    "residual_ev_charging_failure_preserved": true
   }
 }
