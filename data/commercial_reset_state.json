@@ -1987,7 +1987,7 @@
     "deposit_authorized": false,
     "purchase_authorized": false
   },
-  "last_completed_scan_file": "data/research_runs/attraction_scan_141.json",
+  "last_completed_scan_file": "data/research_runs/attraction_scan_142.json",
   "last_completed_scan_result": "SCAN141_MERGED_AUDIT_ONLY_ALL_ACTIVE_ASSET_PROXY_FORMATIONS_STRATEGICALLY_QUARANTINED_ZERO_COMMERCIAL_PROMOTION",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
