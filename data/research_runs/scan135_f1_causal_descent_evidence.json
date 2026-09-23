@@ -1,0 +1,78 @@
+{
+  "schema_version": "research-followup-evidence.v1",
+  "scan_id": "ATTRACTION_SCAN_135",
+  "formation_id": "ATTRACTION_SCAN_135-F1",
+  "as_of_date": "2026-09-23",
+  "research_stage": "PUBLIC_CAUSAL_DESCENT",
+  "source_jev": {
+    "pr": 443,
+    "exact_head_sha": "89afbb813ccccae249092724b88b752e1fe55661",
+    "repository_ci_run_id": 35828037496,
+    "jev_run_id": 35828037593,
+    "jev_artifact_id": 10735528864,
+    "jev_artifact_digest": "sha256:65c77f37f7cebbe987b1388eefd167ba4e89ea305a2be4bc68121ac8c2375640",
+    "input_scan_id": "ATTRACTION_SCAN_135",
+    "entity_count": 4,
+    "effective_route": "CAUSAL_DESCENT",
+    "autonomous_continuation_allowed": true,
+    "external_side_effects_allowed": false,
+    "commercial_promotion_authority": false
+  },
+  "public_sources": [
+    {
+      "source_id": "F1-CD-S1",
+      "title": "Current judicial change-sale republication - Chengdu Qingyang Guanghua Beisan Road 98 basement unit -115",
+      "url": "https://m.fang.com/fapai/cd/out_12665315.html",
+      "bound_facts": [
+        "Property certificate: 川（2020）成都市不动产权第0389990号.",
+        "Execution case: （2026）川0811执656号.",
+        "Asset is seized and mortgaged.",
+        "Existing lease runs through 2030-11-20 at RMB 3,000/month and post-auction rent is payable by the tenant to the buyer.",
+        "Transfer eligibility is not guaranteed by the notice and must be independently checked by the buyer.",
+        "Historical unpaid water, electricity, gas and property-management charges attach as buyer-side diligence/exposure.",
+        "Seller-side transfer taxes must be advanced by the buyer during transfer and reclaimed from the court against tax receipts within the stated post-ruling window.",
+        "If the tenant leaves at lease expiry and does not renew, the buyer must first refund the lease deposit and then pursue the executed owner for recovery.",
+        "Public viewing reservation closed on 2026-09-09; the page provides an auction-assistance consultation channel but no further public ledger."
+      ]
+    }
+  ],
+  "exact_public_search_exhaustion": {
+    "queries": [
+      "成都市青羊区光华北三路98号-1层负115号 第一次拍卖",
+      "成都市青羊区光华北三路98号-1层负115号 第二次拍卖",
+      "成都市青羊区光华北三路98号-1层负115号 租赁合同",
+      "川（2020）成都市不动产权第0389990号 租赁",
+      "光华北三路98号-1层负115号 3000 保证金",
+      "光华北三路98号-1层负115号 3000 预付"
+    ],
+    "result": "NO_INDEPENDENT_PUBLIC_SOURCE_SURFACED_FOR_EXACT_TENANT_IDENTITY_RENT_LEDGER_PREPAYMENT_LEASE_DEPOSIT_QUANTUM_OR_EXACT_ARREARS",
+    "note": "Search results repeatedly resolved to the same current auction republication or unrelated property records. No independent source was accepted as evidence merely because a search result was suggestive."
+  },
+  "closed_or_narrowed_unknowns": [
+    "The asset has a source-bound certificate number rather than an unidentified title.",
+    "Seizure and mortgage are explicit rather than unknown.",
+    "The procedural rule for seller-side transfer-tax advance/refund is explicit, although the exact amount remains unknown.",
+    "The buyer bears historical utility/property arrears exposure, although the exact amount remains unknown.",
+    "The buyer has an explicit lease-deposit refund exposure at lease end, although the deposit quantum remains unknown."
+  ],
+  "decisive_unknowns_remaining": [
+    "Exact tenant identity and current occupancy/payment performance.",
+    "Complete lease document and current rent ledger.",
+    "Whether rent is prepaid beyond expected closing or currently in arrears.",
+    "Lease-deposit amount and exact transfer/accounting balance.",
+    "Exact utility/property arrears.",
+    "Exact buyer taxes, fees and normalized net acquisition economics.",
+    "Case-specific transfer eligibility and realistic closing timeline.",
+    "Current physical condition after the public viewing reservation deadline passed."
+  ],
+  "public_research_resolution": "EXHAUSTED",
+  "next_evidence_class": "EXTERNAL_WRITTEN_COURT_OR_AUCTION_ASSISTANCE_CONFIRMATION_OR_SOURCE_DOCUMENT",
+  "external_contact_performed": false,
+  "external_contact_authorized": false,
+  "formation_status": "RETAINED_RESEARCH_BLOCKED_ON_EXTERNAL_WRITTEN_EVIDENCE",
+  "commercial_promotion": false,
+  "bid_authorized": false,
+  "deposit_authorized": false,
+  "purchase_authorized": false,
+  "scan136_gate": "UNBLOCKED_BECAUSE_SCAN135_F1_JEV_ROUTE_WAS_CONSUMED_AND_PUBLIC_SOURCE_RESEARCH_IS_NOW_BLOCKED"
+}
