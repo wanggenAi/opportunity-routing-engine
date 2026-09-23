@@ -1,0 +1,68 @@
+{
+  "scan_id": "ATTRACTION_SCAN_157",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "e32757d5ce8200a4bc5bfdefed792fe7c6314a26",
+  "research_method": "STATE_CHANGE_FIRST_WITH_DECISIVE_ACTION_GATE_OWNER_CLASSIFICATION",
+  "sources": {
+    "RECALL-SAMR-PORTAL-20260923": {
+      "source_class": "CURRENT_RECURRING_AUTOMOTIVE_RECALL_EVENT_STREAM",
+      "url": "https://www.samr.gov.cn/zlfzj/qxcpzh/",
+      "date": "2026-09-23",
+      "claim": "The SAMR recall portal shows repeated current automotive recall events, including multiple notices on 18 September and 4 September 2026, making recall events publicly observable and replenishing."
+    },
+    "RECALL-BYD-20260918": {
+      "source_class": "CURRENT_RECALL_REMEDIATION_GATE_OWNER",
+      "url": "https://www.samr.gov.cn/zlfzj/sjdt/gzdt/art/2026/art_609e95c94ad348a5afd347fa5cea32d4.html",
+      "date": "2026-09-18",
+      "claim": "BYD's current recall notice delegates the free corrective replacement to authorized dealers and says BYD will notify affected users directly, so the decisive remediation gate is manufacturer/dealer owned rather than open to an independent router."
+    },
+    "BANKRUPTCY-PCCZ-JD-20260911": {
+      "source_class": "CURRENT_BANKRUPTCY_ASSET_EVENT_AND_PLATFORM_GATE",
+      "url": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=10731d0f7835414fa590052693f94ec9",
+      "date": "2026-09-11",
+      "claim": "A current bankruptcy auction notice places assets on JD's bankruptcy auction platform under court supervision, requires platform registration, identity verification, deposits and platform settlement, and reserves key execution and transfer steps to the administrator, court and platform."
+    },
+    "BANKRUPTCY-PCCZ-TAOBAO-20260916": {
+      "source_class": "CURRENT_RECURRING_BANKRUPTCY_ASSET_EVENT_STREAM",
+      "url": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=19467134287343616",
+      "date": "2026-09-16",
+      "claim": "A separate current bankruptcy notice auctions production equipment on the Taobao bankruptcy liquidation platform under court supervision, evidencing a replenishing cross-case asset-disposition event stream rather than one isolated listing."
+    },
+    "BANKRUPTCY-PCCZ-TAOBAO-20260904": {
+      "source_class": "CURRENT_RECURRING_BANKRUPTCY_ASSET_EVENT_STREAM",
+      "url": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=b26a3885de564e338ae7b9ade3cf91e6",
+      "date": "2026-09-04",
+      "claim": "Another September 2026 bankruptcy notice auctions real estate and office furniture on Taobao's bankruptcy platform under court supervision, confirming repeated asset-disposition events across asset classes."
+    },
+    "FOOD-SAMR-20260914": {
+      "source_class": "CURRENT_FOOD_NONCONFORMITY_EVENT_STREAM_AND_REGULATORY_GATE",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/spcjs/art/2026/art_162db47b754e421eb6f5226e977ebcee.html",
+      "date": "2026-09-14",
+      "claim": "SAMR reported 47 nonconforming batches from 2,313 food samples and stated that relevant provincial market-regulation departments had already organized verification and disposition, making both the event stream and regulator-owned immediate action gate explicit."
+    },
+    "FOOD-SAMR-20260918": {
+      "source_class": "CURRENT_REPEATED_FOOD_NONCONFORMITY_EVENT_STREAM_AND_REGULATORY_GATE",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/spcjs/art/2026/art_5b7b33ce0ca74b619f6d5eb80e823fad.html",
+      "date": "2026-09-18",
+      "claim": "Four days later SAMR reported another 44 nonconforming batches from 1,815 samples and again stated that provincial regulators had organized verification and disposition, confirming recurrence and institutional control."
+    }
+  },
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_157-F1",
+    "ATTRACTION_SCAN_157-F2",
+    "ATTRACTION_SCAN_157-F3"
+  ],
+  "decisive_action_gate_owner_states": {
+    "ATTRACTION_SCAN_157-F1": "INCUMBENT_OWNED",
+    "ATTRACTION_SCAN_157-F2": "REGULATOR_PLATFORM_OWNED",
+    "ATTRACTION_SCAN_157-F3": "REGULATOR_OWNED"
+  },
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "conclusion": "The method pivot produced strong public event streams but no operator-ownable gate: recall remediation is manufacturer/dealer owned, bankruptcy disposition is court/platform owned, and food nonconformity disposition is regulator owned with expert corrective validation.",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN158"
+}

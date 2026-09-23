@@ -13,6 +13,24 @@ from typing import Any, Mapping, Sequence
 
 
 ENFORCEMENT_START_SCAN = 142
+STATE_CHANGE_ENFORCEMENT_START_SCAN = 157
+
+STATE_CHANGE_REQUIRED_DRIFT_AUDIT_FLAGS = (
+    "prior_domain_deduplication_checked",
+    "state_change_first_search",
+    "decisive_action_gate_owner_checked",
+)
+
+ALLOWED_HIGH_ATTRACTION_ACTION_GATE_OWNERS = frozenset(
+    {"UNOWNED_OPEN", "OPERATOR_OWNED"}
+)
+
+STATE_CHANGE_GATE_DIMENSIONS = (
+    "event_trace",
+    "affected_actor_population",
+    "counterparty_population",
+    "decisive_action_gate",
+)
 
 REGENERATIVE_FIELD_DIMENSIONS = (
     "actor_a_replenishment",
@@ -87,6 +105,49 @@ def validate_regenerative_field_gate(
     return errors
 
 
+
+def validate_state_change_gate(
+    gate: Mapping[str, Any] | None,
+    *,
+    formation_id: str,
+) -> list[str]:
+    """Validate event-first evidence and decisive action-gate ownership.
+
+    From Scan 157 onward, a claimed high-attraction formation must be rooted in a
+    replenishing observable state-change event and must prove that the decisive action
+    gate is either genuinely unowned/open or operator-owned. Public visibility alone
+    is not sufficient when an incumbent, regulator or counterparty controls execution.
+    """
+
+    errors: list[str] = []
+    if not isinstance(gate, Mapping):
+        return [f"{formation_id}:missing_state_change_gate"]
+
+    for dimension in STATE_CHANGE_GATE_DIMENSIONS:
+        raw = gate.get(dimension)
+        if not isinstance(raw, Mapping):
+            errors.append(f"{formation_id}:missing_state_change_dimension:{dimension}")
+            continue
+        if str(raw.get("state") or "") != "EVIDENCED":
+            errors.append(
+                f"{formation_id}:state_change_dimension_not_evidenced:{dimension}"
+            )
+        if not _refs(raw.get("evidence_refs")):
+            errors.append(
+                f"{formation_id}:missing_state_change_evidence_refs:{dimension}"
+            )
+
+    action_gate = gate.get("decisive_action_gate")
+    if isinstance(action_gate, Mapping):
+        owner_state = str(action_gate.get("owner_state") or "").strip().upper()
+        if owner_state not in ALLOWED_HIGH_ATTRACTION_ACTION_GATE_OWNERS:
+            errors.append(
+                f"{formation_id}:decisive_action_gate_not_operator_ownable:{owner_state or 'UNKNOWN'}"
+            )
+
+    return errors
+
+
 def strategic_drift_errors(scan: Mapping[str, Any]) -> list[str]:
     """Return fail-closed strategic drift errors for current/future scans.
 
@@ -110,6 +171,10 @@ def strategic_drift_errors(scan: Mapping[str, Any]) -> list[str]:
         for flag in REQUIRED_DRIFT_AUDIT_FLAGS:
             if drift_audit.get(flag) is not True:
                 errors.append(f"drift_audit_not_true:{flag}")
+        if scan_number >= STATE_CHANGE_ENFORCEMENT_START_SCAN:
+            for flag in STATE_CHANGE_REQUIRED_DRIFT_AUDIT_FLAGS:
+                if drift_audit.get(flag) is not True:
+                    errors.append(f"drift_audit_not_true:{flag}")
 
     high = scan.get("high_attraction_beacons")
     high_rows = high if isinstance(high, list) else []
@@ -124,6 +189,13 @@ def strategic_drift_errors(scan: Mapping[str, Any]) -> list[str]:
                 formation_id=formation_id,
             )
         )
+        if scan_number >= STATE_CHANGE_ENFORCEMENT_START_SCAN:
+            errors.extend(
+                validate_state_change_gate(
+                    raw.get("state_change_gate"),
+                    formation_id=formation_id,
+                )
+            )
 
     return errors
 
