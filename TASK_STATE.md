@@ -12,21 +12,20 @@ Find and validate a formation with real bilateral pull, independently bound curr
 
 ## Current Unique Commercial Research Goal
 
-Validate the **corrected** `ATTRACTION_SCAN_129` on an exact frozen head. If repository CI and live TypeSafe/Jev both confirm all four current formations are authoritatively closed, merge and advance to `ATTRACTION_SCAN_130`.
+Validate `ATTRACTION_SCAN_130` on an exact frozen head. If repository CI and live TypeSafe/Jev confirm all four current formations are authoritatively closed, merge and advance to `ATTRACTION_SCAN_131`.
 
 Parallel validation: `ATTRACTION_SCAN_015-F1` remains independently blocked on official written cross-rail outcome-data rights plus organic founder-free inbound proof.
 
 ## Current Phase
 
-`SCAN_129_CORRECTED_ZERO_RETENTION_PR_VALIDATION_PENDING`
+`SCAN_130_ZERO_RETENTION_PR_VALIDATION_PENDING`
 
 ## Last Verified Main
 
-- Last merged main: `e465b90969a94947e170640edcd566899f73dc20` (PR #434, Scan 128).
-- PR #434 exact head `6ad8e66aaf4db2e5d82412c67fab5a2e9b110a3c`: repository CI `35818951841` success; live TypeSafe/Jev `35818951818` success.
-- PR #434 Jev artifact `10733090000`, digest `sha256:90514cf7b31875a9e0f1db4e0e7eb40a3ccb95dba5ae2bb0372441dd2053c1fa`: actual input `ATTRACTION_SCAN_128`, entity_count=4, 4x `NO_FURTHER_RESEARCH`, continuation `ADVANCE_TO_NEXT_SCAN`.
-- PR #435 is closed/unmerged: exact head `0a274bc13addfd4e9b9916a26489544a53e97b6b`; CI `35820313232` failed only on missing mandatory TASK_STATE recovery headings; live Jev `35820313191` was diagnostic-only.
-- PR #436 is closed/unmerged despite exact-head CI/Jev success because fresher public evidence invalidated a factual premise before merge. CI `35820593329` success; Jev `35820593349` success; artifact `10733485764`, digest `sha256:ff6213991654f28156dfdcec9adfd71ebc9eae6fcbfc50192140b002495b054d`. Green automation never overrides fresher contradictory reality.
+- Main includes PR #437 at `0e0d875ff2ee28ac19364a743bd122ad7d7ee34a`.
+- PR #437 exact head `59bb889a962c90c273a423e0104ec30d1366389d`: repository CI `35822022350` success; live TypeSafe/Jev `35822022302` success.
+- PR #437 Jev artifact `10733772929`, digest `sha256:674611d347eb17f9b0e3d0908cb24ce8bddc376e66eca8f95560975751018adf`: actual input `ATTRACTION_SCAN_129`, entity_count=4, 4x `NO_FURTHER_RESEARCH`, continuation `ADVANCE_TO_NEXT_SCAN`.
+- PR #435 and #436 remain closed/unmerged and must not be revived.
 
 ## Active Issue
 
@@ -34,102 +33,76 @@ Parallel validation: `ATTRACTION_SCAN_015-F1` remains independently blocked on o
 
 ## Active Branch
 
-`research/scan129-compliance-correction-r3`
+`research/scan130-source-bound-proceeds-assets`
 
-This branch starts from live main `e465b90969a94947e170640edcd566899f73dc20`. It does not continue on PR #435 or PR #436 source branches.
+This branch starts from merged main `0e0d875ff2ee28ac19364a743bd122ad7d7ee34a`.
 
 ## Active PR
 
-None at this checkpoint. Open exactly one PR after this corrected branch is frozen.
+None at this checkpoint. Open exactly one PR after this Scan 130 branch is frozen.
 
 ## CI
 
-Corrected branch exact-head validation has not run yet.
+Scan 130 exact-head validation has not run yet.
 
 Required:
 1. repository CI success on the exact frozen head;
 2. live TypeSafe/Jev success on that same head;
-3. actual artifact must show `input_scan_id=ATTRACTION_SCAN_129`;
+3. actual artifact must show `input_scan_id=ATTRACTION_SCAN_130`;
 4. actual artifact must show `entity_count=4`;
 5. all F1/F2/F3/F4 must have authoritative closures;
 6. all four effective routes must be `NO_FURTHER_RESEARCH`;
-7. continuation must permit advancement to Scan 130;
+7. continuation must permit advancement to Scan 131;
 8. no commercial promotion or purchase authority may be inferred from Jev.
 
 ## Latest Artifact / Persisted State
 
-Canonical corrected Scan 129 artifacts:
-- `data/research_runs/attraction_scan_129.json`;
-- `data/research_runs/scan129_transferable_micro_assets_evidence.json`;
-- `docs/research/SCAN129_TRANSFERABLE_MICRO_ASSETS_2026-09-23.md`;
-- `tests/test_scan129_transferable_micro_assets.py`.
+Canonical Scan 130 artifacts:
+- `data/research_runs/attraction_scan_130.json`;
+- `data/research_runs/scan130_source_bound_proceeds_assets_evidence.json`;
+- `docs/research/SCAN130_SOURCE_BOUND_PROCEEDS_ASSETS_2026-09-23.md`;
+- `tests/test_scan130_source_bound_proceeds_assets.py`.
 
 Machine truth on this branch:
-- last completed scan = `ATTRACTION_SCAN_129`;
+- last completed scan = `ATTRACTION_SCAN_130`;
 - retained research formations = 0;
-- resolved in Scan 129 = F1/F2/F3/F4;
+- resolved in Scan 130 = F1/F2/F3/F4;
 - active commercial candidates = 0;
 - active transaction units = 0;
 - active parent formations = 0;
-- commercial promotions = 0;
-- next scan = `ATTRACTION_SCAN_130`;
+- next scan = `ATTRACTION_SCAN_131`;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Reconciled and consumed merged Scan 128 rather than resuming an old source branch.
-- Verified PR #434 exact-head CI and actual Jev artifact.
-- Ran fresh Scan 129 against current transferable digital micro-assets.
-- Persisted four Scan 129 formations, evidence pack, report, machine state and tests.
-- Detected PR #435 CI recovery-contract failure, closed it unmerged, and rebuilt from live main.
-- Restored mandatory TASK_STATE recovery headings; PR #436 exact-head CI and Jev both passed.
-- Continued public causal verification before merge and found a material source-binding error: A5 hides the listed asset URL, so `shaibar.com` could not be inferred as the live tarot asset.
-- Verified the current public `shaibar.com` surface is an AI API gateway with no Tarot/塔罗 content and therefore cannot validate the hidden A5 asset.
-- Found current CAC 2026/2025/2023 content-governance evidence explicitly targeting AI fortune-telling/divination and paid tarot/fortune-telling content.
-- Closed PR #436 unmerged because fresher reality invalidated its retained-F1 premise despite green CI/Jev.
-- Rebuilt this third branch from latest main.
-- Corrected F1 to an authoritative demotion on China content-compliance plus independent paid-flow evidence.
-- Added regression rules rejecting inferred domain identity and requiring independent live-asset binding.
-- Preserved zero commercial promotion and FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN.
+- Recovered the real interrupted checkpoint on `research/scan129-compliance-correction-r3`; did not reuse closed PR #435/#436.
+- Opened PR #437, froze exact head, and obtained repository CI plus live TypeSafe/Jev success.
+- Verified real Jev input `ATTRACTION_SCAN_129`, entity_count=4, four authoritative `NO_FURTHER_RESEARCH` routes, and autonomous `ADVANCE_TO_NEXT_SCAN`.
+- Merged PR #437 into main.
+- Consumed Scan 129's next-search boundary and ran fresh Scan 130.
+- Examined domestic domain assets, verified music royalty income rights, China patent licensing rights, and domestic film copyright rights without reusing Scan 129 app/miniprogram/web-asset formations.
+- Persisted Scan 130 evidence, report, machine state and regression tests.
+- Retained zero formations and made zero commercial promotions.
 
 ## Current Findings
 
-### F1 — small automated cashflowing web asset acquisition
+### F1 — domestic domain asset
 
-Current A5 evidence binds only:
-- active seller intent;
-- CNY 5,000 asking price;
-- seller-authenticated listing;
-- seller description of AI-generated paid tarot;
-- A5-displayed 500+ IP/day and income-present flag;
-- A5 escrow/handover process.
+Transfer/payment rails are real and can auto-complete, but current marketplace rules explicitly downgrade third-party analytics and seller descriptions to reference evidence. No asset-specific independently verified existing proceeds or transferable demand were bound.
 
-It does **not** bind:
-- the asset's public domain identity;
-- independently verified live delivery;
-- settled orders, paid conversion or revenue;
-- demand transfer with ownership.
+### F2 — verified music royalty income rights
 
-A5 itself says displayed traffic/weight metrics are third-party reference data. The seller description also says distributors are responsible for traffic acquisition, weakening the hypothesis that ownership transfers self-propelling demand.
+This is the strongest current mechanism-level match: verified historical earnings and passive post-purchase royalty distributions are real. China royalty distributions are also real. The primary-China execution gate is not cleared because no small-operator mainland acquisition/settlement path and complete rights-transfer mapping were proven for a current verified-income asset.
 
-Current China content-governance evidence is non-compensatory for the exact product form: CAC actions explicitly target AI fortune-telling/divination and paid tarot/fortune-telling content.
+### F3 — China patent license income
 
-Therefore F1 is now:
-`DEMOTED_CURRENT_AI_TAROT_ASSET_FAILS_CHINA_CONTENT_COMPLIANCE_AND_LACKS_INDEPENDENT_PAID_FLOW_EVIDENCE`.
+CNIPA proves formal transfer, public open-license fee terms, and a large licensing market. Public evidence is aggregate or offer-level, not a current small purchasable patent with source-bound settled recurring proceeds and low technical/legal labor.
 
-### F2
+### F4 — domestic film copyright
 
-App Store ownership transfer is a real mechanism, but no current small cashflowing low-labor compliant China-side asset match was found. Closed for Scan 129.
+A formal mainland copyright transaction venue exists, but the public surface does not bind a small current asset to verified historical proceeds, transferable demand and founder-light post-transfer settlement.
 
-### F3
-
-Current cashflowing content-site examples require recurring editorial/publishing/sales work. Closed.
-
-### F4
-
-Current WeChat mini-program transfer has organization/payment/refiling/manual activation friction and no evidenced paid automated flow. Closed.
-
-### Scan 129 result
+### Scan 130 result
 
 ```text
 FORMATIONS EXAMINED = 4
@@ -137,19 +110,18 @@ RETAINED = 0
 ACTIVE COMMERCIAL CANDIDATES = 0
 ACTIVE TRANSACTION UNITS = 0
 FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-NEXT = ATTRACTION_SCAN_130
+NEXT = ATTRACTION_SCAN_131
 ```
 
 ## Blockers
 
-- No engineering blocker before corrected exact-head PR validation.
-- No Scan 129 seller outreach is warranted after the F1 hard compliance/source-binding failure.
+- No engineering blocker before exact-head PR validation.
+- No purchase, deposit, bid or monetary commitment is authorized.
 - Scan 015-F1 remains independently waiting on external written rights evidence.
-- No purchase, deposit, or monetary commitment is authorized.
 
 ## Next Action
 
-Freeze this corrected Scan 129 head, open exactly one PR, require exact-head repository CI plus live TypeSafe/Jev with `input_scan_id=ATTRACTION_SCAN_129`, `entity_count=4`, and four authoritative `NO_FURTHER_RESEARCH` routes. Merge only if exact-head validation passes, then verify merged main and immediately start Scan 130 from the new main.
+Freeze this Scan 130 head, open exactly one PR, require exact-head repository CI plus live TypeSafe/Jev with `input_scan_id=ATTRACTION_SCAN_130`, `entity_count=4`, and four authoritative `NO_FURTHER_RESEARCH` routes. Merge only if exact-head validation passes, then verify merged main and immediately start Scan 131 from the new main.
 
 ## Do Not Repeat
 
@@ -157,12 +129,11 @@ Freeze this corrected Scan 129 head, open exactly one PR, require exact-head rep
 - Do not revive Scan 126 China-helper / field-task routing.
 - Do not reuse Scan 127 regulatory enterprise formations.
 - Do not reuse Scan 128 provider-owned payment/action/API layers.
-- Do not continue on PR #435 or #436 branches.
-- Do not infer a hidden asset domain from a marketplace title/product name.
-- Do not treat third-party reference traffic or seller-marked income as transaction truth.
-- Do not treat source code without existing demand as a running value-flow asset.
-- Do not treat USDT as the default China-compliant settlement path.
-- Do not revive the paid AI tarot F1 under the primary China execution lens without a material regulatory change.
+- Do not reuse Scan 129 web/app/miniprogram transfer formations.
+- Do not treat marketplace transferability as proof of existing proceeds.
+- Do not treat aggregate market statistics as asset-specific cashflow evidence.
+- Do not treat foreign verified-income assets as China-executable without a proven compliant acquisition/settlement path.
+- Do not infer revenue from traffic, listing labels or seller descriptions.
 
 ## Guardrails
 
@@ -171,7 +142,7 @@ Freeze this corrected Scan 129 head, open exactly one PR, require exact-head rep
 - PRIMARY RESEARCH DOMAIN = CHINA; global evidence is mechanism support only unless China relevance is direct.
 - UNKNOWN != PASS.
 - Inference != fact.
-- Source identity must be bound, not guessed.
+- Asset identity and existing proceeds must be independently bound.
 - No recurring founder acquisition.
 - No recurring founder/expert delivery.
 - Generic-agent substitutability remains a hard attraction kill.

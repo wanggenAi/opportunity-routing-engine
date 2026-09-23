@@ -1,0 +1,129 @@
+{
+  "schema_version": "research-evidence.v1",
+  "scan_id": "ATTRACTION_SCAN_130",
+  "as_of_date": "2026-09-23",
+  "primary_research_domain": "CHINA",
+  "evidence_packets": [
+    {
+      "formation_id": "ATTRACTION_SCAN_130-F1",
+      "sources": [
+        {
+          "source_id": "F1-S1",
+          "title": "Alibaba Cloud domain trading",
+          "url": "https://www.alibabacloud.com/help/zh/dws/user-guide/domain-name-transaction/",
+          "role": "OFFICIAL_MAINLAND_TRADING_PAYMENT_RAIL"
+        },
+        {
+          "source_id": "F1-S2",
+          "title": "Juming one-price domain transaction agreement",
+          "url": "https://www.jm.cn/help/387.htm",
+          "role": "CURRENT_AUTO_TRANSFER_AND_REFERENCE_DATA_LIMIT"
+        },
+        {
+          "source_id": "F1-S3",
+          "title": "Alibaba Cloud domain account transfer",
+          "url": "https://www.alibabacloud.com/help/zh/dws/user-guide/transfer-the-domain-name-to-another-alibaba-cloud-account",
+          "role": "CURRENT_CONTROL_TRANSFER_MECHANISM"
+        }
+      ],
+      "closure": "No asset-specific independently verified existing proceeds or transferable demand."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_130-F2",
+      "sources": [
+        {
+          "source_id": "F2-S1",
+          "title": "Royalty Exchange marketplace",
+          "url": "https://royaltyexchange.com/",
+          "role": "CURRENT_VERIFIED_HISTORICAL_INCOME_AND_ASSIGNMENT_MARKET"
+        },
+        {
+          "source_id": "F2-S2",
+          "title": "Royalty Exchange buyer verification process",
+          "url": "https://royaltyexchange.com/how-auctions-work-buyers",
+          "role": "FINANCIAL_HISTORY_AND_RAW_ROYALTY_DATA_VERIFICATION"
+        },
+        {
+          "source_id": "F2-S3",
+          "title": "MCSC 2026 first distribution notice",
+          "url": "https://www.mcsc.com.cn/obligee/notice_60.html",
+          "role": "CURRENT_MAINLAND_ROYALTY_DISTRIBUTION"
+        },
+        {
+          "source_id": "F2-S4",
+          "title": "MCSC Q&A on transferred copyright and distributions",
+          "url": "https://www.mcsc.com.cn/knowledge/qa.html",
+          "role": "RIGHTS_SPLIT_DISCONFIRMATION"
+        },
+        {
+          "source_id": "F2-S5",
+          "title": "SAFE personal foreign exchange management",
+          "url": "https://m.safe.gov.cn/safe/2006/1225/5319.html",
+          "role": "MAINLAND_OUTBOUND_CAPITAL_PATH_BOUNDARY"
+        }
+      ],
+      "closure": "Verified cashflow exists globally, but no proven small-operator mainland acquisition, settlement and complete-rights path."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_130-F3",
+      "sources": [
+        {
+          "source_id": "F3-S1",
+          "title": "CNIPA Patent Law open-license terms",
+          "url": "https://www.cnipa.gov.cn/art/2020/11/23/art_97_155167.html",
+          "role": "OFFICIAL_OPEN_LICENSE_PAYMENT_MECHANISM"
+        },
+        {
+          "source_id": "F3-S2",
+          "title": "CNIPA full implementation notice for open licensing",
+          "url": "https://www.cnipa.gov.cn/art/2024/7/16/art_75_193774.html",
+          "role": "PUBLIC_FEE_STANDARD_AND_DATA_ACCESS"
+        },
+        {
+          "source_id": "F3-S3",
+          "title": "CNIPA patent license contract statistics",
+          "url": "https://www.cnipa.gov.cn/art/2025/12/17/art_55_203106.html",
+          "role": "CURRENT_MARKET_PAYMENT_DATA"
+        },
+        {
+          "source_id": "F3-S4",
+          "title": "CNIPA 2026 patent transfer guidance",
+          "url": "https://www.cnipa.gov.cn/jact/front/mailpubdetail.do?sysid=6&transactId=535896",
+          "role": "CURRENT_TRANSFER_PROCEDURE"
+        }
+      ],
+      "closure": "Formal transfer and licensing exist, but asset-specific settled micro-cashflow and low-labor commercialization are not proven."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_130-F4",
+      "sources": [
+        {
+          "source_id": "F4-S1",
+          "title": "Shenzhen Cultural Property Exchange film copyright zone",
+          "url": "https://www.szcaee.cn/page/388/kind/138.html",
+          "role": "CURRENT_MAINLAND_COPYRIGHT_TRANSFER_VENUE"
+        },
+        {
+          "source_id": "F4-S2",
+          "title": "Shenzhen Cultural Property Exchange current announcements",
+          "url": "https://www.szcaee.cn/list/22/cid/1.html",
+          "role": "CURRENT_MARKET_ACTIVITY"
+        },
+        {
+          "source_id": "F4-S3",
+          "title": "Shenzhen Cultural Property Exchange compliance notice",
+          "url": "https://www.szcaee.net/home/news/content/n_id/5124/s_id/23.html",
+          "role": "CURRENT_TRANSACTION_COMPLIANCE_BOUNDARY"
+        },
+        {
+          "source_id": "F4-S4",
+          "title": "Shenzhen Cultural Property Exchange anti-securitization notice",
+          "url": "https://www.szcaee.net/home/news/content/n_id/5145/s_id/23.html",
+          "role": "CURRENT_CULTURAL_INCOME_RIGHTS_REGULATORY_BOUNDARY"
+        }
+      ],
+      "closure": "Formal copyright trading exists but public evidence does not bind a small asset to verified proceeds and low-labor post-transfer demand."
+    }
+  ],
+  "scan_conclusion": "SCAN130_SOURCE_BOUND_PROCEEDS_ASSET_PASS_ZERO_RETAINED_ZERO_COMMERCIAL_PROMOTION"
+}
