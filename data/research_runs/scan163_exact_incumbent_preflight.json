@@ -1,0 +1,52 @@
+{
+  "scan_id": "ATTRACTION_SCAN_163",
+  "formation_id": "ATTRACTION_SCAN_163-F1",
+  "as_of_date": "2026-09-24",
+  "jev_trigger": {
+    "run_id": 35904123590,
+    "artifact_id": 10769479959,
+    "artifact_digest": "sha256:72d9af650302cf9459db08d9e849ecfc5bccc6b7ecbcef619cf68b57a5c7b8f8",
+    "effective_route": "EXACT_INCUMBENT_PREFLIGHT",
+    "continuation": "EXECUTE_RESEARCH_QUEUE"
+  },
+  "exact_incumbents": [
+    {
+      "id": "QGO-B2B-WHITELABEL",
+      "url": "https://qgobusiness.com/",
+      "claim": "QGO markets one China-side execution team for overseas buyers/B2B partners, multi-city routing and factory visits; it explicitly offers partner-safe white-label delivery and wholesale execution quotes while the partner retains the client relationship."
+    },
+    {
+      "id": "CLA-ONGOING-LOCAL-TEAM",
+      "url": "https://chinalocalagent.com/",
+      "claim": "ChinaLocalAgent offers one-time, short-term and ongoing China-side support for overseas clients and coordinates clearly scoped local execution with evidence/reporting."
+    },
+    {
+      "id": "CBA-NATIONWIDE",
+      "url": "https://chinabizagent.com/about-us/",
+      "claim": "China Biz Agent states that it provides international clients local hands/eyes and can execute across mainland China rather than only a few hubs."
+    },
+    {
+      "id": "FACTORYPASS-LIVE",
+      "url": "https://www.chinafactorypass.com/",
+      "claim": "FactoryPass directly sells buyer-paid supplier verification and live factory visits with bilingual China field representatives across major manufacturing clusters and custom coverage elsewhere."
+    },
+    {
+      "id": "HEYANYUN-DOMESTIC-NETWORK",
+      "url": "https://www.heyanyun.com/",
+      "claim": "Domestic network already standardizes point/location/evidence/acceptance, local-person matching and QA at large scale."
+    }
+  ],
+  "preflight_result": "FAIL_DISTINCT_OPERATOR_POSITION",
+  "why": [
+    "The proposed scope-normalization, local-team routing, evidence/reporting and one-China-side-point-of-contact functions are already marketed as incumbent services.",
+    "QGO's explicit B2B partner/white-label/wholesale execution proposition is especially close to the proposed Demand-Pump-to-China-coverage orchestration role.",
+    "A low-cost/API/batch cross-border variant remains imaginable but is not independently evidenced as a recurring missing edge; inventing it would violate fail-closed promotion.",
+    "Current live gigs therefore prove money and task recurrence but do not establish a distinct operator-controlled bridge."
+  ],
+  "bootstrap_consequence": {
+    "SCAN163-B1": "DO_NOT_EXECUTE_AS_CORE_BOOTSTRAP_EXACT_INCUMBENT_CLOSURE",
+    "SCAN163-B2": "KEEP_AS_DEMAND_PUMP_EVIDENCE_ONLY",
+    "SCAN163-B3": "REJECT_EXPERT_DELIVERY"
+  },
+  "next_boundary": "Search cross-border physical-world flows for residual state transitions not already packaged by China local agents, B2B white-label visit coordinators, professional inspectors, marketplaces or domestic field-task networks. Do not use factory/site verification itself as ontology."
+}

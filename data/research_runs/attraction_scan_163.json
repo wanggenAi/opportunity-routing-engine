@@ -1,0 +1,364 @@
+{
+  "scan_id": "ATTRACTION_SCAN_163",
+  "as_of_date": "2026-09-24",
+  "status": "COMPLETE_ALL_ROUTES_CLOSED_FINAL_EXACT_HEAD_VALIDATION_PENDING",
+  "search_mode": "INDEPENDENT_REGENERATIVE_FIELD_REDERIVATION_WITH_DOWNSTREAM_PAID_TASKS_AS_VALIDATION_ONLY",
+  "source_main_sha": "3ee72d3d9deeb6cd24d5647b136a6adf90e010fe",
+  "prior_scan": {
+    "scan_id": "ATTRACTION_SCAN_162",
+    "merged_pr": 477,
+    "final_exact_head": "e48c22d1999f4d14c6b90453d53ab87c5b606271",
+    "repository_ci_run_id": 35894334873,
+    "repository_ci_test_count": 827,
+    "live_jev_run_id": 35894334884,
+    "live_jev_artifact_id": 10765909352,
+    "live_jev_artifact_digest": "sha256:a3672fe83a3677f98833c4841e8dd144175627916a0a6c8f941a76b5dd2f6af8",
+    "jev_route": "ADVANCE_TO_NEXT_SCAN",
+    "merged_main_sha": "3ee72d3d9deeb6cd24d5647b136a6adf90e010fe"
+  },
+  "source_registry": {
+    "MOFCOM-139-20260506": {
+      "url": "https://www.mofcom.gov.cn/zwjg/sqfb/oz/art/2026/art_08bff421c6b64926881f4f9baeac4f21.html",
+      "claim": "139th Canton Fair drew 314,000+ overseas buyers from 220 countries/regions, US$25.7B on-site intended orders, and many buyers scheduled follow-up factory visits."
+    },
+    "MOFCOM-140-20261015": {
+      "url": "https://kr.mofcom.gov.cn/zhxx/art/2026/art_d8dbc67e59824d8591d6a554a175b0bd.html",
+      "claim": "140th Canton Fair opens 2026-10-15, providing a recurring global-buyer event source rather than a single gig."
+    },
+    "QIMA-Q3-2026": {
+      "url": "https://www.qima.com/newsroom/news/news-q3-2026-barometer",
+      "claim": "QIMA Q2 data reports China inspection demand +18% YoY from emerging-market clients outside Asia; China is 78% of their inspection/audit demand and 81% for South/Latin America."
+    },
+    "HEYANYUN": {
+      "url": "https://www.heyanyun.com/",
+      "claim": "China local field-execution network reports 1,000+ enterprise customers, 2M+ site checks, task decomposition by address/evidence/acceptance, local-person matching and QA."
+    },
+    "CONFIRMIS-SUZHOU": {
+      "url": "https://www.freelancer.com/projects/photography/site-verification-suzhou-jiangsu-china",
+      "claim": "Recurring business-information client posts a standardized Suzhou site-verification task at US$20-45 with address, operating hours, photo/video/observation SOP and one-city/one-freelancer allocation."
+    },
+    "CONFIRMIS-SHANGHAI": {
+      "url": "https://www.freelancer.com/projects/photography/site-verification-shanghai-china-40690648",
+      "claim": "The same site-verification pattern appears in Shanghai at US$20-35, supporting repeated city-by-city recruitment rather than one isolated buyer."
+    },
+    "CONFIRMIS-WENZHOU": {
+      "url": "https://www.freelancer.com/projects/photography/site-verification-wenzhou-zhejiang-china",
+      "claim": "The same pattern appears in Wenzhou at US$20-40 with milestone release after the visit."
+    },
+    "GUANGZHOU-FACTORY-LIVE": {
+      "url": "https://www.freelancer.com/projects/supplier-sourcing/china-factory-verification-visit",
+      "claim": "Current open Guangzhou factory-verification task budgets CAD30-250; deliverables are existence/contact confirmation, permitted photos/video, documents and a short English report."
+    },
+    "CHINA-LOCAL-AGENT": {
+      "url": "https://chinalocalagent.com/services/factory-and-site-visits",
+      "claim": "Current incumbent offers defined China factory/site visits with checklist, permitted evidence and reporting, but explicitly excludes covert investigation and specialist certification."
+    },
+    "CIS-PRICE": {
+      "url": "https://www.chinainspectionservice.com/pricing.html",
+      "claim": "Professional incumbent publicly prices QC at US$248/man-day and factory audit at US$268/man-day and requires full payment at least three days before inspection."
+    },
+    "FREELANCER-TEAM": {
+      "url": "https://www.freelancer.com/corporate/teams.php?coupon=TEAMSBETA2021",
+      "claim": "Freelancer Corporate Teams supports team bidding, team management and shared billing; any routed execution must be transparent and platform-compliant."
+    },
+    "FREELANCER-MILESTONE": {
+      "url": "https://www.freelancer.com/support/freelancer/payments/how-do-i-pay-the-freelancer?w=f",
+      "claim": "Freelancer recommends funded Milestone Payments before work begins; funds are held until release."
+    },
+    "FREELANCER-FEES": {
+      "url": "https://www.freelancer.com/feesandcharges",
+      "claim": "Fixed-price freelancer fee is 10% of project value or US$5 minimum, so normalized margin must include platform fees."
+    },
+    "QGO-B2B-WHITELABEL": {
+      "url": "https://qgobusiness.com/",
+      "claim": "QGO markets one China-side execution team, multi-city routing and factory visits for overseas buyers/B2B partners, plus partner-safe white-label delivery and wholesale execution quotes."
+    },
+    "CLA-ONGOING-LOCAL-TEAM": {
+      "url": "https://chinalocalagent.com/",
+      "claim": "ChinaLocalAgent offers overseas clients one-time, short-term and ongoing China-side local execution and coordination."
+    },
+    "CBA-NATIONWIDE": {
+      "url": "https://chinabizagent.com/about-us/",
+      "claim": "China Biz Agent states it provides international clients local execution across mainland China, not only selected hubs."
+    },
+    "FACTORYPASS-LIVE": {
+      "url": "https://www.chinafactorypass.com/",
+      "claim": "FactoryPass sells buyer-paid supplier verification and live factory visits with China-based representatives across multiple manufacturing clusters."
+    }
+  },
+  "broad_reality_domains_examined": [
+    "GLOBAL_CHINA_SOURCING_AND_FOLLOWUP_FACTORY_VISIT_CYCLES",
+    "CHINA_INSPECTION_AND_AUDIT_FLOW",
+    "DOMESTIC_LOCAL_FIELD_EXECUTION_NETWORKS",
+    "RECURRING_GLOBAL_BUSINESS_INFORMATION_SITE_VERIFICATION",
+    "ONE_OFF_FACTORY_VERIFICATION_AND_TECHNICAL_INSPECTION"
+  ],
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_163-F1",
+      "title": "Recurring overseas verification demand pumps -> China local standardized evidence-execution network",
+      "evidence_summary": "The regenerative field is real, but exact incumbent preflight shows the proposed orchestration functions are already packaged by multiple current China-side execution services, including explicit B2B partner/white-label delivery. The apparent missing edge is therefore not distinct.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "MOFCOM-139-20260506",
+            "QIMA-Q3-2026"
+          ],
+          "b_voluntary_motion": [
+            "HEYANYUN"
+          ],
+          "state_dependent_value_jump": [
+            "MOFCOM-139-20260506",
+            "QIMA-Q3-2026"
+          ],
+          "decision_window": [
+            "MOFCOM-139-20260506",
+            "GUANGZHOU-FACTORY-LIVE"
+          ],
+          "bridge_compression": [
+            "CONFIRMIS-SUZHOU",
+            "HEYANYUN"
+          ],
+          "activation_ease": [
+            "CHINA-LOCAL-AGENT",
+            "FREELANCER-MILESTONE"
+          ],
+          "self_propulsion": [
+            "CONFIRMIS-SUZHOU",
+            "CONFIRMIS-SHANGHAI",
+            "CONFIRMIS-WENZHOU"
+          ],
+          "operator_control": [
+            "QGO-B2B-WHITELABEL",
+            "CLA-ONGOING-LOCAL-TEAM",
+            "CBA-NATIONWIDE"
+          ],
+          "a_discoverability": [
+            "CONFIRMIS-SUZHOU",
+            "QIMA-Q3-2026"
+          ],
+          "b_discoverability": [
+            "HEYANYUN",
+            "CHINA-LOCAL-AGENT"
+          ],
+          "match_resolvability": [
+            "CONFIRMIS-SUZHOU",
+            "HEYANYUN"
+          ],
+          "action_gate_callability": [
+            "CHINA-LOCAL-AGENT",
+            "FREELANCER-MILESTONE"
+          ],
+          "a_population_replenishment": [
+            "MOFCOM-139-20260506",
+            "MOFCOM-140-20261015",
+            "QIMA-Q3-2026"
+          ],
+          "b_population_replenishment": [
+            "HEYANYUN"
+          ],
+          "recurring_connection_pressure": [
+            "QIMA-Q3-2026",
+            "CONFIRMIS-SUZHOU",
+            "CONFIRMIS-SHANGHAI"
+          ],
+          "recurring_missing_edge": [
+            "QGO-B2B-WHITELABEL",
+            "CLA-ONGOING-LOCAL-TEAM",
+            "CBA-NATIONWIDE",
+            "HEYANYUN"
+          ],
+          "recurring_event_source": [
+            "MOFCOM-140-20261015",
+            "QIMA-Q3-2026"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MOFCOM-139-20260506",
+            "MOFCOM-140-20261015",
+            "QIMA-Q3-2026"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HEYANYUN"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIMA-Q3-2026",
+            "CONFIRMIS-SUZHOU",
+            "CONFIRMIS-SHANGHAI"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "CONTRADICTED",
+          "evidence_refs": [
+            "QGO-B2B-WHITELABEL",
+            "CLA-ONGOING-LOCAL-TEAM",
+            "CBA-NATIONWIDE",
+            "HEYANYUN"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MOFCOM-140-20261015",
+            "QIMA-Q3-2026"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "MOFCOM-139-20260506",
+          "MOFCOM-140-20261015",
+          "QIMA-Q3-2026",
+          "HEYANYUN"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MOFCOM-139-20260506",
+            "MOFCOM-140-20261015",
+            "QIMA-Q3-2026"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MOFCOM-139-20260506",
+            "QIMA-Q3-2026"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HEYANYUN"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QGO-B2B-WHITELABEL",
+            "CLA-ONGOING-LOCAL-TEAM",
+            "CBA-NATIONWIDE",
+            "FACTORYPASS-LIVE"
+          ],
+          "owner_state": "EXACT_INCUMBENT_SERVICE_LAYER_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_EXACT_INCUMBENT_PREFLIGHT_FINDS_CHINA_SIDE_EXECUTION_WHITE_LABEL_MULTI_CITY_AND_LOCAL_TEAM_CONTROL_SURFACES_ALREADY_OWN_THE_PROPOSED_BRIDGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_163-F2",
+      "title": "One-off overseas buyer post -> one local China freelancer",
+      "evidence_summary": "Paid tasks exist, but the obvious one-buyer/one-freelancer route is already owned by Freelancer/Upwork-like marketplaces and regenerates founder search rather than an operator control layer.",
+      "verdict": "DEMOTED_TRANSACTION_PROXY_AND_EXISTING_MARKETPLACE_MATCHING_RAIL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_163-F3",
+      "title": "End-to-end sourcing or technical inspection -> China sourcing/QC specialist",
+      "evidence_summary": "Current jobs and incumbents show real money, but supplier search, negotiation, engineering judgment, custody and certification make matching expert-heavy and push the operator toward service delivery.",
+      "verdict": "DEMOTED_EXPERT_DELIVERY_AND_INCUMBENT_PROFESSIONAL_SERVICE"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "bootstrap_queue": [
+    {
+      "bootstrap_id": "SCAN163-B1",
+      "source_id": "GUANGZHOU-FACTORY-LIVE",
+      "title": "Guangzhou bounded factory-existence and visible-evidence visit",
+      "current_status": "DO_NOT_EXECUTE_AS_CORE_BOOTSTRAP_EXACT_INCUMBENT_CLOSURE",
+      "why_first": "Current, bounded, decision-linked, mostly observable evidence rather than technical certification; budget is materially above the Confirmis micro-task tier.",
+      "hard_unknowns": [
+        "No platform-funded milestone has been observed for our participation.",
+        "No compliant team/agency configuration has been established for this account.",
+        "No Guangzhou executor is OPTIONED and no same-scope market cost is bound.",
+        "Site access/filming permission must be confirmed by the buyer/supplier."
+      ],
+      "next_safe_action": "Do not spend founder validation capital on this task as a core-model probe; preserve it only as payment/scope evidence."
+    },
+    {
+      "bootstrap_id": "SCAN163-B2",
+      "source_id": "CONFIRMIS-SUZHOU",
+      "title": "Suzhou standardized site-verification micro-task",
+      "current_status": "DEMAND_PUMP_EVIDENCE_ONLY_EXACT_SERVICE_LAYER_ALREADY_EXISTS",
+      "why_not_first": "Excellent repeatability evidence, but US$20-45 leaves little room for orchestration unless execution is truly hyperlocal and aggregated; use to learn task protocol and demand-pump behavior, not to manufacture margin."
+    },
+    {
+      "bootstrap_id": "SCAN163-B3",
+      "source_url": "https://www.freelancer.com/projects/electronics/site-factory-inspection-china",
+      "title": "Multi-supplier technical factory inspection across China",
+      "current_status": "REJECT_FIRST_BOOTSTRAP_EXPERT_AND_ECONOMIC_FIT",
+      "why_rejected": "Requires quality/process judgment across electronics/textiles and recommendations; advertised US$2-8/hour is weak for a routed multi-party model and drifts into expert inspection."
+    }
+  ],
+  "commercial_candidates": [],
+  "active_transaction_units": [],
+  "first_external_value_flow": "NOT_PROVEN",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "prior_domain_deduplication_checked": true,
+    "state_change_first_search": true,
+    "decisive_action_gate_owner_checked": true,
+    "public_affected_actor_discoverability_checked": true,
+    "standardizable_nonexpert_match_checked": true,
+    "open_remedy_not_missing_edge_checked": true,
+    "downstream_paid_tasks_used_only_after_independent_field_evidence": true,
+    "existing_marketplaces_and_incumbents_checked": true
+  },
+  "decisive_unknown": "RESOLVED_NEGATIVE_AT_CURRENT_ABSTRACTION_EXACT_INCUMBENTS_ALREADY_PACKAGE_ONE_CHINA_SIDE_EXECUTION_TEAM_MULTI_CITY_FACTORY_VISITS_LOCAL_TEAM_ROUTING_AND_B2B_WHITE_LABEL_EXECUTION",
+  "next_action": "FINAL_EXACT_HEAD_CI_AND_LIVE_JEV_THEN_IF_CLOSURE_ALIGNS_MERGE_AND_ADVANCE_SCAN164_TO_RESIDUAL_CROSS_BORDER_PHYSICAL_EDGES_NOT_ALREADY_PACKAGED_BY_INCUMBENTS",
+  "external_side_effects_performed": false,
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_163-F1",
+    "ATTRACTION_SCAN_163-F2",
+    "ATTRACTION_SCAN_163-F3"
+  ],
+  "exact_incumbent_preflight": {
+    "artifact": "data/research_runs/scan163_exact_incumbent_preflight.json",
+    "triggering_jev_run_id": 35904123590,
+    "triggering_jev_artifact_id": 10769479959,
+    "triggering_jev_artifact_digest": "sha256:72d9af650302cf9459db08d9e849ecfc5bccc6b7ecbcef619cf68b57a5c7b8f8",
+    "triggering_effective_route": "EXACT_INCUMBENT_PREFLIGHT",
+    "result": "FAIL_DISTINCT_OPERATOR_POSITION"
+  }
+}
