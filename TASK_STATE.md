@@ -19,6 +19,9 @@ SCAN140_F1_CAUSAL_DESCENT_PERSISTED_FINAL_HEAD_REVALIDATION_PENDING
 - PR #449 final head `bd0955606db0756f051348f777e526f8329cf716` passed repository CI `35840088331` and live TypeSafe/Jev `35840088367`.
 - Scan 139 F1 public route is consumed and blocked on external written/source-document evidence.
 
+## Active Issue
+#143 — `P0: Clean-slate Attraction Field -> first external value flow`.
+
 ## Active Branch
 `research/scan140-receipt-binding-boundaries`. Do not return to consumed Scan 139 branches.
 
@@ -36,6 +39,9 @@ The initial frozen Scan 140 head `6b57d4c502104e1c6a24f481ddac7aaa52926bdc` pass
 - continuation: `EXECUTE_RESEARCH_QUEUE`, autonomous continuation allowed.
 
 That F1 route has now been consumed. The branch advanced after the initial validated head, so `6b57d4c...` is superseded for merge purposes. Freeze the new head and revalidate it; do not merge based on the old checks.
+
+## CI
+The initial Scan 140 head passed repository CI and live Jev, but the branch advanced after route consumption. The current route-consumption head must pass both checks on the exact SHA before merge. A prior check on a superseded SHA is not sufficient.
 
 ## Latest Artifact / Persisted State
 - `data/research_runs/attraction_scan_140.json` — canonical Scan 140, materially refined by F1 route consumption.
