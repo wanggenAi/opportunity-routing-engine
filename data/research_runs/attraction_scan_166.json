@@ -1,0 +1,208 @@
+{
+  "scan_id": "ATTRACTION_SCAN_166",
+  "as_of_date": "2026-09-24",
+  "status": "COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+  "search_mode": "BROAD_CURRENT_DOMESTIC_PAYMENT_AND_SMART_CONSUMPTION_ACTION_GATE_OWNERSHIP_SWEEP",
+  "source_main_sha": "6f99815532b6a77c7ba681bd6e0989b3093f7b00",
+  "prior_scan": {
+    "scan_id": "ATTRACTION_SCAN_165",
+    "merged_pr": 480,
+    "final_exact_head": "5aa01fcf53b098e68a733f01d82a18ad546f68ad",
+    "repository_ci_run_id": 35914634537,
+    "repository_ci_test_job_id": 107362891489,
+    "repository_ci_test_count": 845,
+    "live_jev_run_id": 35914634341,
+    "live_jev_artifact_id": 10775120444,
+    "live_jev_artifact_digest": "sha256:84365b176748248d66a8c60ee7b5a9fee45e664b0814edc0a0bf8e430e4a48f0",
+    "live_jev_entity_count": 5,
+    "live_jev_effective_routes": {
+      "NO_FURTHER_RESEARCH": 5
+    },
+    "live_jev_alignment": {
+      "ALIGNS_WITH_AUTHORITATIVE_CLOSURE": 5
+    },
+    "live_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "merged_main_sha": "6f99815532b6a77c7ba681bd6e0989b3093f7b00"
+  },
+  "broad_reality_domains_examined": [
+    "SME_PAYMENT_TERM_AND_ACCEPTANCE_STATE_FORMALIZATION",
+    "ELECTRONIC_RECEIVABLE_CERTIFICATE_RISK_AND_FINANCING",
+    "WHOLE_HOME_SMART_INTEROPERABILITY_UPGRADE",
+    "HOME_RENEWAL_DELIVER_NEW_COLLECT_OLD",
+    "SMART_GLASSES_PRESCRIPTION_OPTICAL_FITTING"
+  ],
+  "source_registry": {
+    "GOV-SME-PAYMENT-20260910": {
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7080627.htm",
+      "claim": "The State Council General Office's September 2026 SME payment governance notice requires sector rules to specify four payment elements—term start, payment method/process, acceptance standard/deadline and maximum payment term—and guides large enterprises toward a 60-day maximum."
+    },
+    "MIIT-OVERDUE-COMPLAINT": {
+      "url": "https://ythzxfw.miit.gov.cn/bssx/ssts/art/2025/art_d2bf0d80a983451cb37e98e47210c712.html",
+      "claim": "MIIT operates the national online complaint channel for SMEs reporting overdue contractual payment by government bodies, public institutions and large enterprises, with the SME Bureau as receiving authority."
+    },
+    "GOV-EVOUCHER-20260910": {
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7080627.htm",
+      "claim": "The same 2026 notice caps newly issued electronic receivable certificates at six months, restricts financing for longer certificates, requires platform data to be fully connected to Shanghai Commercial Paper Exchange, mandates overdue disclosure and blocks overdue issuers from new certificates."
+    },
+    "PBOC-SCF-RULES": {
+      "url": "https://www.pbc.gov.cn/tiaofasi/144941/144979/3941920/2025111716285421511/2025020516481383377.pdf",
+      "claim": "Current supply-chain finance rules require genuine trade background, qualified bank settlement, registration and multi-level risk monitoring for electronic receivable certificates; Shanghai Commercial Paper Exchange is tasked with information collection/statistical monitoring."
+    },
+    "SHCPE-PLATFORM": {
+      "url": "https://jrj.sh.gov.cn/QT186/20251125/83b70d3a6cd143089af5525c0f799f15.html",
+      "claim": "Shanghai Commercial Paper Exchange's comprehensive service platform provides centralized account inquiry, discount quotation, transaction matching and disclosure, allowing enterprises to solicit multiple financial institutions and complete online transactions."
+    },
+    "MOFCOM-SMART-HOME-20260914": {
+      "url": "https://www.mofcom.gov.cn/zcfb/gnmygl/art/2026/art_10bdf8f3a8a14d0cb567fe7ec4013e0f.html",
+      "claim": "The September 2026 eight-department smart-home action plan promotes whole-home intelligence, interoperability standards, customized/order/appointment services, old-home smart upgrades and integrated community renewal services."
+    },
+    "SMART-HOME-STD-46456": {
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=B28B02D00D9658EC25B40CA8B98C66EC",
+      "claim": "GB/T 46456.1-2025, the current smart-home interconnection architecture/general-requirements national standard, took effect on 2026-02-01."
+    },
+    "MIDEA-WHOLE-HOME": {
+      "url": "https://msmart.midea.com/aboutUs",
+      "claim": "Midea IoT currently operates a whole-home smart solution platform with all Midea brands, third-party device ecosystem expansion, automatic scene generation, AI assistant and service capabilities."
+    },
+    "HAIER-SANYINIAO": {
+      "url": "https://www.haier.com/press-events/news/20250609_265419.shtml",
+      "claim": "Haier's Sanyiniao is an integrated smart-home solution business with 3,000+ stores and one-stop home-appliance/home-decoration/home-furnishing scenario delivery rather than a mere device catalog."
+    },
+    "JD-TRADEIN": {
+      "url": "https://help.jd.com/user/issue/389-4465.html",
+      "claim": "JD's current trade-in service creates linked old-product recycling and new-product purchase orders through authorized recyclers and supports multiple delivery/recycling sequences under platform rules."
+    },
+    "JD-FURNITURE-TRADEIN": {
+      "url": "https://ihelp.jd.com/n/help/tip/getTipsFacade.json?tipId=180",
+      "claim": "JD currently supports furniture/building-material trade-in categories with platform-defined recycling participation regions and service workflow."
+    },
+    "SMART-PRODUCT-SUBSIDY-2026": {
+      "url": "https://www.mofcom.gov.cn/zcfb/gnmygl/art/2025/art_ed4904de32ff4d029dad4524473ce619.html",
+      "claim": "From 2026-01-01 China's national consumer subsidy includes smart glasses priced at no more than RMB 6,000, subsidized at 15% up to RMB 500 per person per category."
+    },
+    "MINGYUE-XIAOMI-FITTING": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-23/1225149244.PDF",
+      "claim": "Mingyue Lens's 2025 annual report states it became Xiaomi AI Glasses' official exclusive optical-lens supplier and provides online/offline full-channel prescription-lens fitting; it plans to deepen smart-glasses optical partnerships in 2026."
+    },
+    "MINGYUE-400-STORES": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-08-28/1224588795.PDF",
+      "claim": "Mingyue's disclosed fitting network for Xiaomi AI glasses included 400+ partner stores across Baodao, Doctor Glasses and Qianye for professional optometry, customized lenses and fitting."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_166-F1",
+      "title": "SME with delivered/accepted work and delayed payment -> payment-state determination and complaint/escalation route",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_POLICY_FORMALIZED_PAYMENT_STATE_WITH_OFFICIAL_COMPLAINT_RAIL",
+      "evidence_summary": "September 2026 policy makes payment-state semantics more explicit through four mandatory payment elements and 60-day guidance, but the national overdue-SME-payment complaint platform and regulatory supervision already own the formal escalation gate. Contract/acceptance disputes that remain ambiguous are legal/accounting interpretation rather than nonexpert routing.",
+      "state_change": "SME_RECEIVABLE_REACHES_CONTRACTUAL_OR_REGULATORY_PAYMENT_BOUNDARY",
+      "decisive_action_gate_owner_state": "MIIT_NATIONAL_COMPLAINT_AND_REGULATORY_ENFORCEMENT_RAIL_OWNED",
+      "evidence_refs": [
+        "GOV-SME-PAYMENT-20260910",
+        "MIIT-OVERDUE-COMPLAINT"
+      ],
+      "verdict": "DEMOTED_PAYMENT_STATE_IS_MORE_MACHINE_LEGIBLE_BUT_OFFICIAL_COMPLAINT_AND_ENFORCEMENT_RAIL_ALREADY_OWNS_ESCALATION_WHILE_DISPUTED_ACCEPTANCE_REMAINS_EXPERT_BOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_166-F2",
+      "title": "SME holding electronic receivable certificate -> overdue-risk disclosure / financing / settlement routing",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_REGULATED_FINANCIAL_INSTRUMENT_WITH_CENTRAL_MONITORING_AND_TRANSACTION_INFRASTRUCTURE",
+      "evidence_summary": "Electronic receivable certificates carry real liquidity/risk pressure, but current rules bind issuance, financing, settlement, risk monitoring and overdue disclosure to regulated platforms, banks and Shanghai Commercial Paper Exchange. An independent router would not own the action/settlement rail.",
+      "state_change": "SME_RECEIVES_OR_HOLDS_ELECTRONIC_RECEIVABLE_CERTIFICATE_WITH_MATURITY_OR_FINANCING_DECISION",
+      "decisive_action_gate_owner_state": "REGULATED_EVOUCHER_PLATFORMS_BANKS_AND_SHCPE_INFRASTRUCTURE_OWNED",
+      "evidence_refs": [
+        "GOV-EVOUCHER-20260910",
+        "PBOC-SCF-RULES",
+        "SHCPE-PLATFORM"
+      ],
+      "verdict": "DEMOTED_ELECTRONIC_RECEIVABLE_RISK_FINANCING_AND_DISCLOSURE_ARE_BOUND_TO_REGULATED_PLATFORM_BANK_AND_EXCHANGE_INFRASTRUCTURE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_166-F3",
+      "title": "Household moving from isolated smart devices to whole-home interoperable intelligence -> design / integration / lifecycle service",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_POLICY_ACCELERATED_INTEROPERABILITY_WITH_EXISTING_WHOLE_HOME_PLATFORM_INTEGRATORS",
+      "evidence_summary": "The 2026 smart-home plan and interoperability standard create a genuine upgrade wave, but whole-home design, cross-device integration, service and ecosystem coordination are already core products of major platforms/integrators such as Midea and Sanyiniao.",
+      "state_change": "HOUSEHOLD_UPGRADES_EXISTING_HOME_FROM_SINGLE_SMART_PRODUCTS_TO_WHOLE_HOME_INTEROPERABLE_SCENES",
+      "decisive_action_gate_owner_state": "MAJOR_SMART_HOME_PLATFORM_AND_INTEGRATOR_ECOSYSTEMS_OWNED",
+      "evidence_refs": [
+        "MOFCOM-SMART-HOME-20260914",
+        "SMART-HOME-STD-46456",
+        "MIDEA-WHOLE-HOME",
+        "HAIER-SANYINIAO"
+      ],
+      "verdict": "DEMOTED_WHOLE_HOME_INTEROPERABILITY_AND_INTEGRATION_IS_ALREADY_A_MAJOR_PLATFORM_AND_SCENARIO_INTEGRATOR_CONTROL_SURFACE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_166-F4",
+      "title": "Household home-renewal purchase -> synchronized new delivery / old furniture-appliance recovery",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_POLICY_ENCOURAGED_RENEWAL_WITH_EXISTING_RETAILER_RECYCLER_TRANSACTION_RAIL",
+      "evidence_summary": "The smart-home action plan explicitly encourages 'deliver new + collect old' and recycling partnerships, but JD and authorized recycler networks already bind new-purchase order, old-item information, recycling, delivery sequence and settlement conditions in a current transaction rail.",
+      "state_change": "HOUSEHOLD_COMMITS_TO_HOME_RENEWAL_AND_NEEDS_OLD_ITEM_EXIT_SYNCHRONIZED_WITH_NEW_ITEM_ENTRY",
+      "decisive_action_gate_owner_state": "RETAILER_AND_AUTHORIZED_RECYCLER_TRADEIN_RAIL_OWNED",
+      "evidence_refs": [
+        "MOFCOM-SMART-HOME-20260914",
+        "JD-TRADEIN",
+        "JD-FURNITURE-TRADEIN"
+      ],
+      "verdict": "DEMOTED_DELIVER_NEW_COLLECT_OLD_IS_ALREADY_AN_ACTIVE_RETAILER_RECYCLER_TRANSACTION_RAIL_NOT_AN_UNOWNED_ROUTING_EDGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_166-F5",
+      "title": "Subsidized smart-glasses buyer needing refractive correction -> professional optical fitting and lens fulfillment",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_SUBSIDY_ACCELERATED_DEVICE_STATE_WITH_EXACT_BRAND_OPTICAL_SERVICE_NETWORK",
+      "evidence_summary": "2026 subsidies accelerate smart-glasses purchases and myopic users need professional fitting, but Mingyue/Xiaomi already operate online/offline full-channel fitting and a 400+ store professional network. The optical action gate is an incumbent brand/optical service rail.",
+      "state_change": "SMART_GLASSES_BUYER_WITH_REFRACTIVE_CORRECTION_NEEDS_DEVICE_COMPATIBLE_PRESCRIPTION_LENSES",
+      "decisive_action_gate_owner_state": "BRAND_OPTICAL_SUPPLIER_AND_PROFESSIONAL_FITTING_NETWORK_OWNED",
+      "evidence_refs": [
+        "SMART-PRODUCT-SUBSIDY-2026",
+        "MINGYUE-XIAOMI-FITTING",
+        "MINGYUE-400-STORES"
+      ],
+      "verdict": "DEMOTED_SMART_GLASSES_OPTICAL_FITTING_IS_ALREADY_AN_EXACT_BRAND_OPTICAL_SUPPLIER_AND_STORE_NETWORK_SERVICE"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_166-F1",
+    "ATTRACTION_SCAN_166-F2",
+    "ATTRACTION_SCAN_166-F3",
+    "ATTRACTION_SCAN_166-F4",
+    "ATTRACTION_SCAN_166-F5"
+  ],
+  "commercial_candidates": [],
+  "active_transaction_units": [],
+  "first_external_value_flow": "NOT_PROVEN",
+  "bootstrap_queue": [],
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "prior_domain_deduplication_checked": true,
+    "state_change_first_search": true,
+    "decisive_action_gate_owner_checked": true,
+    "public_affected_actor_discoverability_checked": true,
+    "standardizable_nonexpert_match_checked": true,
+    "open_remedy_not_missing_edge_checked": true,
+    "broad_reality_not_inherited_from_scan165_vertical": true,
+    "financial_regulatory_action_rails_not_relabelled_operator_control": true,
+    "consumer_platform_service_rails_checked_before_retention": true
+  },
+  "scan_learnings": [
+    "NEW_POLICY_SEMANTICS_CAN_MAKE_A_STATE_MACHINE_LEGIBLE_WITHOUT_CREATING_A_NEW_COMMERCIAL_CONTROL_POSITION.",
+    "SME_PAYMENT_ESCALATION_ALREADY_HAS_A_NATIONAL_REGULATORY_COMPLAINT_RAIL_AND_DISPUTED_ACCEPTANCE_REMAINS_EXPERT_BOUND.",
+    "ELECTRONIC_RECEIVABLE_CERTIFICATE_MONITORING_FINANCING_SETTLEMENT_AND_DISCLOSURE_ARE_REGULATED_INFRASTRUCTURE_NOT_AN_OPEN_ROUTER.",
+    "WHOLE_HOME_SMART_INTEROPERABILITY_IS_A_REAL_2026_UPGRADE_WAVE_BUT_MAJOR_PLATFORM_INTEGRATORS_ALREADY_OWN_DESIGN_CONNECTION_AND_SERVICE.",
+    "DELIVER_NEW_COLLECT_OLD_IS_ALREADY_A_RETAILER_RECYCLER_TRANSACTION_RAIL.",
+    "SMART_GLASSES_PRESCRIPTION_FITTING_IS_ALREADY_OWNED_BY_BRAND_OPTICAL_SUPPLIER_AND_STORE_NETWORKS."
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_167",
+  "next_search_boundary": "SEARCH_FRESH_CURRENT_REALITY_OUTSIDE_SCAN163_166_CLOSED_FAMILIES; PREFER_ACTOR_STATE_CHANGES_WITH_OBSERVED_PARTIAL_FLOWS_OR_WORKAROUNDS_BEFORE_ANY OFFICIAL PLATFORM OR BRAND OWNS THE DECISIVE_ACTION_GATE; DO_NOT_TREAT_POLICY_FORMALIZATION_OR_SUBSIDY_AS_MISSING_EDGE_BY_ITSELF.",
+  "next_action": "VALIDATE_SCAN166_ZERO_RETENTION_ON_EXACT_HEAD_WITH_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_SCAN167_IF_ALLOWED",
+  "external_side_effects_performed": false
+}
