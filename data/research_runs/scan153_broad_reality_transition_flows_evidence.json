@@ -1,0 +1,89 @@
+{
+  "scan_id": "ATTRACTION_SCAN_153",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "de5c50f3eafadd850508d1878a33405f00132b54",
+  "research_method": "FRESH_BROAD_CURRENT_REALITY_TRANSITION_FLOW_COMPARISON",
+  "sources": {
+    "SHARED-MFG-HEBEI-20260715": {
+      "source_class": "CURRENT_SHARED_MANUFACTURING_ORDER_CAPACITY_PLATFORM",
+      "url": "https://hebfb.hebccw.cn/system/2026/07/15/102203791.shtml",
+      "date": "2026-07-15",
+      "claim": "Hebei's Chain Gear Cloud platform exposes idle equipment and production orders, automatically matches supply and demand, splits orders into manufacturing steps, applies quality standards and coordinates multiple SMEs; it reports 17 large firms and nearly 1,000 SMEs on the platform."
+    },
+    "SHARED-MFG-CIMIM-20260923": {
+      "source_class": "CURRENT_SHARED_FACTORY_PLATFORM",
+      "url": "https://market.cimim.cn/index.php?a=mf&c=solution&m=",
+      "date": "2026-09-23",
+      "claim": "The China Aerospace collaborative manufacturing platform describes a shared-factory rail that aggregates production resources, accepts orders centrally and allocates them across factories while pooling design, testing, maintenance and logistics capabilities."
+    },
+    "PILOT-HUBEI-20260923": {
+      "source_class": "CURRENT_MANUFACTURING_PILOT_SERVICE_MANUAL",
+      "url": "https://jxt.hubei.gov.cn/bmdt/gzdt/202609/t20260923_6021594.shtml",
+      "date": "2026-09-23",
+      "claim": "Hubei released a 2026 manufacturing pilot-platform service manual exposing platform capabilities, technical parameters and contact information to help SMEs precisely match pilot-test needs."
+    },
+    "PILOT-WUHAN-20260706": {
+      "source_class": "CURRENT_OPEN_PILOT_TESTING_LAB",
+      "url": "https://jxt.hubei.gov.cn/bmdt/rdjj/202607/t20260707_5971893.shtml",
+      "date": "2026-07-06",
+      "claim": "Wuhan's Zhongguancun pilot laboratory opened shared pilot, testing and certification resources across new energy, intelligent vehicles, low-altitude economy and robotics, with first customer orders already covering multiple service lines."
+    },
+    "GIG-BOZHOU-20260825": {
+      "source_class": "CURRENT_DIGITAL_GIG_MATCHING_PLATFORM",
+      "url": "https://chinajob.mohrss.gov.cn/h5/c/2026-08-25/594821.shtml",
+      "date": "2026-08-25",
+      "claim": "Bozhou's Linggong Kuaihuo platform provides free employer-worker matching, AI job recommendations, online signing and acceptance, two-way evaluation, identity and qualification verification and a gig map."
+    },
+    "GIG-BOZHOU-20260921": {
+      "source_class": "CURRENT_GIG_PLATFORM_SCALE",
+      "url": "https://chinajob.mohrss.gov.cn/c/2026-09-21/608938.shtml",
+      "date": "2026-09-21",
+      "claim": "By September 2026 the Bozhou platform reported more than 5,700 registered gig workers and more than 3,100 employing entities, with rapid posting, matching and direct invitations available online."
+    },
+    "NURSING-FUJIAN-202608": {
+      "source_class": "CURRENT_HOSPITAL_HOME_NURSING_PLATFORM",
+      "url": "https://www.fjsj.com/show.aspx?Id=5339&ctlgid=144535",
+      "date": "2026-08-01",
+      "claim": "Fujian Provincial Government Hospital launched an internet home-nursing platform with 19 services; qualified hospital nurses are dispatched to homes through a controlled platform with service traceability and safety controls."
+    },
+    "NURSING-ZHENGZHOU-20260609": {
+      "source_class": "CURRENT_HOME_NURSING_ORDER_DISPATCH_LOOP",
+      "url": "https://zzzyy.com/yl_oa_api/siteManageFront/page/siteResource/detail?recordId=d5bd3e563ff64889b2fb52d345c2c521&siteId=640553415504040004",
+      "date": "2026-06-09",
+      "claim": "A current hospital home-nursing service uses online reservation, precise dispatch, nurse home visits and full-process supervision across 20 service items, explicitly closing the order-to-delivery loop."
+    },
+    "EQUIPMENT-NDRC-20251229": {
+      "source_class": "CURRENT_2026_EQUIPMENT_REPLACEMENT_POLICY",
+      "url": "https://zfxxgk.ndrc.gov.cn/wap/iteminfo.jsp?id=20582",
+      "date": "2025-12-29",
+      "claim": "The national 2026 large-scale equipment-renewal policy expands supported replacement across industrial and other sectors and encourages standardized second-hand markets, remanufacturing and resource recycling, creating a recurring equipment-exit stream."
+    },
+    "EQUIPMENT-HENAN-20260825": {
+      "source_class": "CURRENT_PUBLIC_IDLE_INDUSTRIAL_EQUIPMENT_TRANSFER",
+      "url": "https://hnsggzyjy.henan.gov.cn/jyxx/002003/002003007/20260825/6e85af135dfe44f3b40f1257f3c7a97e.html",
+      "date": "2026-08-25",
+      "claim": "Henan's public resource exchange listed a current batch of idle mining equipment through a formal asset-transfer process with identified equipment, appraisal, price, disclosure period and transaction institution."
+    },
+    "EQUIPMENT-SHANDONG-20260827": {
+      "source_class": "CURRENT_SECONDHAND_EQUIPMENT_QUALITY_POLICY",
+      "url": "https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/dfjy/202608/t20260827_1407224.html",
+      "date": "2026-08-27",
+      "claim": "Shandong's 2026 equipment-renewal implementation encourages internet-plus second-hand trade while supporting third-party quality inspection and data-erasure inspection and regulated remanufacturing of used electromechanical equipment."
+    }
+  },
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_153-F1",
+    "ATTRACTION_SCAN_153-F2",
+    "ATTRACTION_SCAN_153-F3",
+    "ATTRACTION_SCAN_153-F4",
+    "ATTRACTION_SCAN_153-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "conclusion": "Platform-owned loops close shared manufacturing, gig work and home nursing at the attraction layer. Pilot testing and industrial equipment circulation retain real residual friction, but current decisive matching remains expert, heterogeneous or non-callable.",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN154"
+}

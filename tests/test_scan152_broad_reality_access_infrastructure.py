@@ -64,8 +64,9 @@ class Scan152BroadRealityAccessInfrastructureTests(unittest.TestCase):
 
     def test_machine_state_reconciles_scan151_and_advances(self):
         state=load(STATE_PATH)
-        self.assertEqual(state["last_completed_scan_id"],"ATTRACTION_SCAN_152")
-        self.assertEqual(state["next_scan_id"],"ATTRACTION_SCAN_153")
+        self.assertGreaterEqual(int(state["last_completed_scan_id"].rsplit("_",1)[1]),152)
+        self.assertGreaterEqual(int(state["next_scan_id"].rsplit("_",1)[1]),153)
+        self.assertEqual(state["scan152_broad_reality_access_infrastructure"]["final_jev_next_action"],"ADVANCE_TO_NEXT_SCAN")
         self.assertEqual(state["active_commercial_candidates"],[])
         self.assertEqual(state["active_transaction_units"],[])
         self.assertEqual(state["first_external_value_flow"],"NOT_PROVEN")
