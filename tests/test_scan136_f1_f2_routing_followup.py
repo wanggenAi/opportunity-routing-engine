@@ -62,7 +62,7 @@ class Scan136RoutingFollowupTests(unittest.TestCase):
 
         self.assertEqual(state["scan136"]["exact_head_validation_status"], "SUCCESS")
         self.assertEqual(state["scan136"]["jev_route_status"], "CONSUMED")
-        self.assertEqual(state["next_scan_id"], "ATTRACTION_SCAN_137")
+        self.assertTrue(state["scan136_f1_f2_routing_followup"]["scan137_gate_unblocked"])
         self.assertEqual(state["active_commercial_candidates"], [])
         self.assertEqual(state["active_transaction_units"], [])
         self.assertEqual(state["first_external_value_flow"], "NOT_PROVEN")
