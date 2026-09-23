@@ -29,7 +29,7 @@ SCAN152_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 `research/scan152-broad-reality-access-infrastructure`.
 
 ## Active PR
-Not opened yet; create the Scan 152 PR after this checkpoint commit.
+PR #466 — `Run Scan 152 broad-reality access infrastructure` — OPEN.
 
 ## CI
 - Scan 152 exact-head repository CI: PENDING.
@@ -57,7 +57,7 @@ Current rails can remove a generic routing opportunity in two different ways: th
 No human blocker. Exact-head repository CI and real TypeSafe/Jev are pending.
 
 ## Next Action
-Open the Scan152 PR, require exact-head repository CI + real TypeSafe/Jev, consume any reversible route Jev returns, otherwise merge and advance to Scan153.
+Freeze PR #466 exact head, require exact-head repository CI + real TypeSafe/Jev, consume any reversible route Jev returns, otherwise merge and advance to Scan153.
 
 ## Do Not Repeat
 - Do not reopen Scan151 direct-service-platform fields without genuinely new contradictory evidence.
