@@ -1,0 +1,1199 @@
+{
+  "scan_id": "ATTRACTION_SCAN_145",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_REDERIVATION_AFTER_SCAN144_JEV_ADVANCE_TO_NEXT_SCAN",
+  "source_main_sha": "b0fcb61d71f4df46b752955199909f90170f3350",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_144",
+    "prior_pr": 455,
+    "prior_merged_main_sha": "b0fcb61d71f4df46b752955199909f90170f3350",
+    "prior_final_exact_head": "b3607b477033ac122ce7df813ef684529b6d71cb",
+    "prior_repository_ci_run_id": 35870359140,
+    "prior_live_jev_run_id": 35870358761,
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scan143_factory_inspection_not_reused": true,
+    "scan144_industrial_aftermarket_not_reused": true
+  },
+  "broad_reality_domains_examined": [
+    "CROSS_BORDER_REMOTE_TO_LOCAL_PHYSICAL_EXECUTION",
+    "CROSS_BORDER_ECOMMERCE_OVERSEAS_RETURN_DISPOSITION",
+    "PRIVATE_EV_CHARGER_SHARING",
+    "SCIENTIFIC_INSTRUMENT_OPEN_SHARING",
+    "ROAD_FREIGHT_CAPACITY_MATCHING"
+  ],
+  "source_registry": {
+    "CHINA-SERVICES-SAFE-20260828": {
+      "source_class": "CURRENT_OFFICIAL_CROSS_BORDER_SERVICES_STATISTICS",
+      "url": "https://www.safe.gov.cn/en/2026/0828/2448.html",
+      "date": "2026-08-28",
+      "claim": "SAFE reported July 2026 China international goods-and-services trade of RMB 5.1462T; other business services were RMB 154.1B and include professional, management, technical and trade-related services, evidencing a large replenishing cross-border service population independent of any single gig."
+    },
+    "NEW-WORK-MOHRSS-20260701": {
+      "source_class": "CURRENT_OFFICIAL_NEW_EMPLOYMENT_PLATFORM_CAPACITY",
+      "url": "https://www.mohrss.gov.cn/wap/xw/rsxw/202607/t20260701_579347.html",
+      "date": "2026-07-01",
+      "claim": "MOHRSS reported 29.902M cumulative participants in occupational-injury protection for new-employment workers and national expansion across ride-hailing, delivery and intra-city freight platforms, evidencing a very large replenishing pool of platform-mediated local execution capacity."
+    },
+    "UPWORK-GZ-RUNNER-202609": {
+      "source_class": "CURRENT_OPERATIONAL_MARKETPLACE_PARTIAL_FLOW",
+      "url": "https://www.upwork.com/services/product/admin-customer-support-i-will-be-your-reliable-runner-and-sourcing-agent-in-guangzhou-2067103881009600476",
+      "date": "2026-09",
+      "claim": "A current Guangzhou-based Upwork service sells bounded local physical execution for overseas clients including sample collection, warehouse/market visits, photos/video and cargo checks with platform-funded payment protection; this is downstream partial-flow evidence, not the discovery seed."
+    },
+    "FIVERR-TRADE-SHOW-202609": {
+      "source_class": "CURRENT_OPERATIONAL_MARKETPLACE_PARTIAL_FLOW",
+      "url": "https://www.fiverr.com/haiqiongxia/help-you-visit-a-trade-show-like-canton-fair-in-china-to-collect-information",
+      "date": "2026-09",
+      "claim": "A current China-based Fiverr provider offers on-site trade-show representation, supplier conversations, catalog/photo collection and sample purchase, with 52 completed orders shown at crawl time; this evidences repeated remote-to-local physical-presence pressure."
+    },
+    "UPWORK-CHINA-SOURCING-JOB-20260901": {
+      "source_class": "CURRENT_DOWNSTREAM_BUYER_TASK_VALIDATION_NOT_SEED",
+      "url": "https://www.upwork.com/freelance-jobs/apply/China-Sourcing-Agent-Needed-Clothing-Supplier-Verification-Inspection-Shipping_~022094809556914428204/",
+      "date": "2026-09-01",
+      "claim": "A current buyer-side Upwork posting requests China-local verification, physical inspection, coordination and shipping support. It is retained only as downstream validation that the broader cross-border physical-presence field produces live tasks, not as the field ontology."
+    },
+    "CBE-GROWTH-GOV-20260722": {
+      "source_class": "CURRENT_OFFICIAL_CROSS_BORDER_ECOMMERCE_SCALE",
+      "url": "https://english.www.gov.cn/archive/statistics/202607/22/content_WS6a606f51c6d00ca5f9a0c58b.html",
+      "date": "2026-07-22",
+      "claim": "Official reporting said 2025 China cross-border e-commerce imports and exports reached RMB 2.84T and H1 2026 exports via overseas warehouses surged 3.3-fold, evidencing a rapidly replenishing overseas inventory footprint."
+    },
+    "CBE-RETURNS-GAC-20260312": {
+      "source_class": "CURRENT_OFFICIAL_RETURN_FLOW_POLICY",
+      "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2026/art_3db24e4b76784738a17196c585795546.html",
+      "date": "2026-03-12",
+      "claim": "GAC expanded cross-customs-district returns nationwide for 9610 retail exports from April 1, 2026; return goods still must enter authorized customs-supervised sites, proving recurring regulated reverse-flow events."
+    },
+    "CBE-RETURNS-TAX-MOF-20260206": {
+      "source_class": "CURRENT_OFFICIAL_RETURN_TAX_POLICY",
+      "url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/202602/t20260209_3983561.htm",
+      "date": "2026-02-06",
+      "claim": "MOF/GAC/STA extended tax relief for qualifying cross-border e-commerce export returns during 2026-2027, including goods returned because of slow sales or customer returns, confirming a recurrent economic class rather than isolated incidents."
+    },
+    "BSTOCK-RETURNS-202609": {
+      "source_class": "CURRENT_OPERATIONAL_RECOMMERCE_MARKETPLACE",
+      "url": "https://bstock.com/",
+      "date": "2026-09",
+      "claim": "B-Stock currently routes returned, excess and trade-in inventory from major retailers and brands to resale buyers through auctions, contracts and spot sales, proving a large replenishing buyer/recommerce node and an existing downstream value-recovery route."
+    },
+    "REVERSELOGIX-DISPOSITION-20260518": {
+      "source_class": "CURRENT_RETURN_ORCHESTRATION_INCUMBENT",
+      "url": "https://www.reverselogix.com/industry-updates/how-to-streamline-your-returns-workflow-from-intake-to-disposition/",
+      "date": "2026-05-18",
+      "claim": "ReverseLogix describes a live returns workflow of RMA, receiving, inspection/grading, rules-based disposition and refund/inventory updates, showing that automated disposition orchestration is already a real incumbent capability that must be preflighted."
+    },
+    "PRIVATE-CHARGE-SHARING-202603": {
+      "source_class": "CURRENT_PEER_REVIEWED_RESOURCE_IMBALANCE_EVIDENCE",
+      "url": "https://doi.org/10.1186/s13021-026-00420-w",
+      "date": "2026-03-01",
+      "claim": "A 2026 China study reports private chargers are about three quarters of charging infrastructure, sharing remains low, and Star Charge/TELD already operate private-pile sharing platforms; safety, liability, time coordination and privacy remain adoption barriers."
+    },
+    "STARCHARGE-APP-20260916": {
+      "source_class": "CURRENT_OPERATIONAL_CHARGING_INCUMBENT",
+      "url": "https://www.starcharge.com/about-us/news/product-news/115",
+      "date": "2026-09-16",
+      "claim": "StarCharge's current app actively aggregates charging-station information and merchant/user decision support, reinforcing that a major incumbent already controls charging discovery and transaction-adjacent surfaces."
+    },
+    "MOST-INSTRUMENT-SHARING-20260818": {
+      "source_class": "CURRENT_OFFICIAL_SCIENTIFIC_INSTRUMENT_SHARING_POLICY",
+      "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/qtwj/qtwj2026/202608/t20260818_197157.html",
+      "date": "2026-08-18",
+      "claim": "MOST/MOF's 2026 assessment explicitly evaluates online service platforms, platform-to-national-network connectivity, reservable-instrument share, external service hours, charging rules and service to private enterprises."
+    },
+    "NUIST-INSTRUMENT-BOOKING-20260923": {
+      "source_class": "CURRENT_OPERATIONAL_INSTRUMENT_BOOKING",
+      "url": "https://dxyqgx.nuist.edu.cn/Index",
+      "date": "2026-09-23",
+      "claim": "NUIST's live large-instrument sharing system shows same-day and next-day reservations with approval and fee-deduction states, demonstrating that discover-book-approve-charge workflow is already operational at institution level."
+    },
+    "NETWORK-FREIGHT-MOT-20260123": {
+      "source_class": "CURRENT_OFFICIAL_NETWORK_FREIGHT_RULE",
+      "url": "https://xxgk.mot.gov.cn/xzgfxwj/202601/t20260126_4199002.html",
+      "date": "2026-01-23",
+      "claim": "China's 2026 network freight rules formally define platforms that integrate transport resources, contract with shippers as carriers and commission actual carriers, establishing the regulated routing/settlement surface."
+    },
+    "FTA-Q2-20260819": {
+      "source_class": "CURRENT_LARGE_SCALE_OPERATIONAL_FREIGHT_PLATFORM",
+      "url": "https://ir.fulltruckalliance.com/2026-08-19-Full-Truck-Alliance-Co-Ltd-Announces-Second-Quarter-2026-Unaudited-Financial-Results",
+      "date": "2026-08-19",
+      "claim": "Full Truck Alliance reported Q2 2026 average shipper MAUs of 3.57M, 4.78M truckers fulfilling orders over the prior 12 months and 68.5M fulfilled orders, with transaction protections and matching density improving."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_145-F1",
+      "title": "Remote cross-border principals needing bounded physical action in China -> verified China-based local execution operators",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Broad cross-border goods/services activity keeps creating moments where a remote principal cannot physically inspect, collect, attend, photograph, hand off or verify a local state. China has a very large replenishing pool of platform-mediated local workers, and current marketplaces show paid on-site representation and runner services. The possible missing edge is narrower than sourcing or factory inspection: a standardized bounded-task packet with identity, geofence/time proof, evidence checklist, chain-of-custody and acceptance/settlement that can route local physical execution without founder delivery. Existing Upwork/Fiverr surfaces may already own enough of this workflow, so exact incumbent/control-surface preflight is mandatory.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "b_voluntary_motion": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "state_dependent_value_jump": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "decision_window": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "bridge_compression": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "activation_ease": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "self_propulsion": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "operator_control": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "a_discoverability": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "b_discoverability": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "match_resolvability": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "action_gate_callability": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "a_population_replenishment": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "b_population_replenishment": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "recurring_connection_pressure": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "recurring_missing_edge": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ],
+          "recurring_event_source": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "CHINA-SERVICES-SAFE-20260828",
+          "NEW-WORK-MOHRSS-20260701",
+          "UPWORK-GZ-RUNNER-202609",
+          "FIVERR-TRADE-SHOW-202609",
+          "UPWORK-CHINA-SOURCING-JOB-20260901"
+        ]
+      },
+      "verdict": "RETAINED_FOR_CHEAP_FALSIFICATION_REMOTE_TO_LOCAL_PHYSICAL_EXECUTION_FIELD_EXACT_INCUMBENT_CHAIN_OF_CUSTODY_INSURANCE_TASK_STANDARDIZATION_AND_REPEATABLE_ACQUISITION_PREFLIGHT_REQUIRED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_145-F2",
+      "title": "China cross-border e-commerce sellers with overseas returns or stranded stock -> local overseas warehouse, recommerce and liquidation nodes",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "A rapidly expanding overseas-warehouse footprint continuously generates returns, slow-moving stock and reverse-flow decisions. Current policy changes explicitly target costly and slow return-to-China paths, while current recommerce marketplaces and returns-orchestration software prove a replenishing local buyer/operator side and value-recovery behavior. The possible missing edge is a standardized seller-to-local-disposition rail that turns SKU/condition/value rules into local restock, relabel, repair, recommerce, liquidation, donation or consolidated return decisions. Existing enterprise reverse-logistics and liquidation incumbents may already own this edge, so exact SME fit, warehouse integration, unit economics and incumbent/API preflight are required.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 3,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "b_voluntary_motion": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "state_dependent_value_jump": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "decision_window": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "bridge_compression": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "activation_ease": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "self_propulsion": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "operator_control": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "a_discoverability": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "b_discoverability": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "match_resolvability": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "action_gate_callability": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "a_population_replenishment": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "b_population_replenishment": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "recurring_connection_pressure": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "recurring_missing_edge": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ],
+          "recurring_event_source": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "CBE-GROWTH-GOV-20260722",
+          "CBE-RETURNS-GAC-20260312",
+          "CBE-RETURNS-TAX-MOF-20260206",
+          "BSTOCK-RETURNS-202609",
+          "REVERSELOGIX-DISPOSITION-20260518"
+        ]
+      },
+      "verdict": "RETAINED_FOR_CHEAP_FALSIFICATION_CROSS_BORDER_OVERSEAS_RETURN_DISPOSITION_FIELD_EXACT_INCUMBENT_WAREHOUSE_INTEGRATION_RECOMMERCE_RIGHTS_AND_UNIT_ECONOMICS_PREFLIGHT_REQUIRED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_145-F3",
+      "title": "Idle private EV chargers -> nearby EV drivers without convenient charging",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "The imbalance is real and recurrent, but major charging operators already offer private-pile sharing while access control, property permission, liability, insurance and maintenance materially determine participation. A lightweight new router does not currently control the hard edge.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 2,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 2,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 1,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "b_voluntary_motion": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "state_dependent_value_jump": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "decision_window": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "bridge_compression": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "activation_ease": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "self_propulsion": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "operator_control": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "a_discoverability": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "b_discoverability": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "match_resolvability": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "action_gate_callability": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "a_population_replenishment": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "b_population_replenishment": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "recurring_connection_pressure": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "recurring_missing_edge": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ],
+          "recurring_event_source": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PRIVATE-CHARGE-SHARING-202603",
+            "STARCHARGE-APP-20260916"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "PRIVATE-CHARGE-SHARING-202603",
+          "STARCHARGE-APP-20260916"
+        ]
+      },
+      "verdict": "DEMOTED_RESOURCE_IMBALANCE_REAL_BUT_STARCHARGE_TELD_AND_OTHER_OPERATORS_ALREADY_OWN_SHARING_SURFACE_WHILE_PROPERTY_ACCESS_LIABILITY_INSURANCE_AND_MAINTENANCE_DOMINATE_CONTROL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_145-F4",
+      "title": "Underused major scientific instruments -> external universities, SMEs and R&D users needing test capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "National policy explicitly pushes external sharing and current institutional systems already expose instruments, booking, approval and charging. The broad value field is real, but the core discover-book-approve-charge edge is institutionally owned and often requires facility-specific expert operation.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 2,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "b_voluntary_motion": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "state_dependent_value_jump": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "decision_window": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "bridge_compression": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "activation_ease": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "self_propulsion": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "operator_control": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "a_discoverability": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "b_discoverability": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "match_resolvability": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "action_gate_callability": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "a_population_replenishment": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "b_population_replenishment": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "recurring_connection_pressure": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "recurring_missing_edge": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ],
+          "recurring_event_source": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MOST-INSTRUMENT-SHARING-20260818",
+            "NUIST-INSTRUMENT-BOOKING-20260923"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "MOST-INSTRUMENT-SHARING-20260818",
+          "NUIST-INSTRUMENT-BOOKING-20260923"
+        ]
+      },
+      "verdict": "DEMOTED_REGENERATIVE_INSTRUMENT_SHARING_FIELD_REAL_BUT_OFFICIAL_AND_INSTITUTIONAL_PLATFORMS_ALREADY_OWN_DISCOVERY_RESERVATION_APPROVAL_AND_CHARGING_AND_EXPERT_OPERATION_REMAINS_ASSET_SPECIFIC"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_145-F5",
+      "title": "Road-freight shippers -> available truck capacity and backhaul opportunities",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "This is a huge recurring matching field, but 2026 regulation formally defines network freight platforms as resource integrators/carriers and Full Truck Alliance already operates at multi-million shipper/trucker scale with tens of millions of quarterly matched orders and transaction protections. The generic routing edge is already owned.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "b_voluntary_motion": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "state_dependent_value_jump": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "decision_window": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "bridge_compression": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "activation_ease": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "self_propulsion": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "operator_control": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "a_discoverability": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "b_discoverability": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "match_resolvability": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "action_gate_callability": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "a_population_replenishment": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "b_population_replenishment": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "recurring_connection_pressure": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "recurring_missing_edge": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ],
+          "recurring_event_source": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "NETWORK-FREIGHT-MOT-20260123",
+            "FTA-Q2-20260819"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "NETWORK-FREIGHT-MOT-20260123",
+          "FTA-Q2-20260819"
+        ]
+      },
+      "verdict": "DEMOTED_MASSIVE_REGENERATIVE_FREIGHT_FIELD_BUT_REGULATED_NETWORK_FREIGHT_PLATFORMS_AND_FULL_TRUCK_ALLIANCE_ALREADY_OWN_MATCHING_CONTRACT_TRANSACTION_PROTECTION_AND_NETWORK_DENSITY_SURFACE"
+    }
+  ],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_145-F1",
+      "title": "Remote cross-border principals needing bounded physical action in China -> verified China-based local execution operators",
+      "commercial_candidate": false,
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHINA-SERVICES-SAFE-20260828",
+            "NEW-WORK-MOHRSS-20260701",
+            "UPWORK-GZ-RUNNER-202609",
+            "FIVERR-TRADE-SHOW-202609",
+            "UPWORK-CHINA-SOURCING-JOB-20260901"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "CHINA-SERVICES-SAFE-20260828",
+          "NEW-WORK-MOHRSS-20260701",
+          "UPWORK-GZ-RUNNER-202609",
+          "FIVERR-TRADE-SHOW-202609",
+          "UPWORK-CHINA-SOURCING-JOB-20260901"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_145-F2",
+      "title": "China cross-border e-commerce sellers with overseas returns or stranded stock -> local overseas warehouse, recommerce and liquidation nodes",
+      "commercial_candidate": false,
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CBE-GROWTH-GOV-20260722",
+            "CBE-RETURNS-GAC-20260312",
+            "CBE-RETURNS-TAX-MOF-20260206",
+            "BSTOCK-RETURNS-202609",
+            "REVERSELOGIX-DISPOSITION-20260518"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "CBE-GROWTH-GOV-20260722",
+          "CBE-RETURNS-GAC-20260312",
+          "CBE-RETURNS-TAX-MOF-20260206",
+          "BSTOCK-RETURNS-202609",
+          "REVERSELOGIX-DISPOSITION-20260518"
+        ]
+      }
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_145-F1",
+    "ATTRACTION_SCAN_145-F2"
+  ],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": false,
+  "commercial_outcome": {
+    "retained_count": 2,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "F1 remote-to-local bounded physical execution and F2 overseas-return local disposition clear the initial attraction floor only as research beacons. Both require exact incumbent/control-surface and repeatable-acquisition preflight before any commercial promotion; F3-F5 are closed at initial scan."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_146",
+  "next_search_boundary": "RUN_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN145_THEN_CONSUME_EVERY_REVERSIBLE_F1_F2_PUBLIC_RESEARCH_ROUTE_BEFORE_ANY_PROMOTION",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ALL_REVERSIBLE_F1_F2_ROUTES",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scan143_factory_inspection_not_used_as_prior": true,
+    "scan144_industrial_aftermarket_not_used_as_prior": true,
+    "reddit_or_single_gig_not_used_as_seed": true,
+    "downstream_marketplace_examples_used_only_as_partial_flow_validation": true,
+    "incumbent_presence_not_automatic_kill": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "REMOTE_PHYSICAL_PRESENCE_PRESSURE_EXISTS_BEYOND_FACTORY_INSPECTION_BUT_GENERIC_FREELANCE_MARKETPLACES_MAY_ALREADY_OWN_ENOUGH_OF_THE_ROUTE.",
+    "CROSS_BORDER_ECOMMERCE_RETURN_POLICY_CHANGES_CONFIRM_RECURRING_REVERSE_FLOW_FRICTION_WHILE_RECOMMERCE_AND_RETURNS_SOFTWARE_PROVE_COMPLEMENTARY_DOWNSTREAM_NODES.",
+    "A_REAL_RESOURCE_IMBALANCE_CAN_STILL_BE_LOW_ATTRACTION_WHEN_PROPERTY_REGULATION_OR_A_DOMINANT_PLATFORM_OWNS_THE_ACTION_SURFACE.",
+    "SCIENTIFIC_INSTRUMENT_AND_FREIGHT_MATCHING_ARE_REGENERATIVE_FIELDS_BUT_THEIR_PRIMARY_ROUTING_SURFACES_ARE_ALREADY_INSTITUTIONALLY_OR_COMMERCIALLY_ASSIGNED.",
+    "NO_SCAN145_FORMATION_IS_A_COMMERCIAL_CANDIDATE_BEFORE_LIVE_TYPESAFE_JEV_AND_ROUTE_CONSUMPTION."
+  ],
+  "source_urls": [
+    "https://www.safe.gov.cn/en/2026/0828/2448.html",
+    "https://www.mohrss.gov.cn/wap/xw/rsxw/202607/t20260701_579347.html",
+    "https://www.upwork.com/services/product/admin-customer-support-i-will-be-your-reliable-runner-and-sourcing-agent-in-guangzhou-2067103881009600476",
+    "https://www.fiverr.com/haiqiongxia/help-you-visit-a-trade-show-like-canton-fair-in-china-to-collect-information",
+    "https://www.upwork.com/freelance-jobs/apply/China-Sourcing-Agent-Needed-Clothing-Supplier-Verification-Inspection-Shipping_~022094809556914428204/",
+    "https://english.www.gov.cn/archive/statistics/202607/22/content_WS6a606f51c6d00ca5f9a0c58b.html",
+    "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2026/art_3db24e4b76784738a17196c585795546.html",
+    "https://gss.mof.gov.cn/gzdt/zhengcefabu/202602/t20260209_3983561.htm",
+    "https://bstock.com/",
+    "https://www.reverselogix.com/industry-updates/how-to-streamline-your-returns-workflow-from-intake-to-disposition/",
+    "https://doi.org/10.1186/s13021-026-00420-w",
+    "https://www.starcharge.com/about-us/news/product-news/115",
+    "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/qtwj/qtwj2026/202608/t20260818_197157.html",
+    "https://dxyqgx.nuist.edu.cn/Index",
+    "https://xxgk.mot.gov.cn/xzgfxwj/202601/t20260126_4199002.html",
+    "https://ir.fulltruckalliance.com/2026-08-19-Full-Truck-Alliance-Co-Ltd-Announces-Second-Quarter-2026-Unaudited-Financial-Results"
+  ]
+}
