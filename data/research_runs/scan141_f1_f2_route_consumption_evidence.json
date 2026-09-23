@@ -67,7 +67,7 @@
             "Current floor RMB299200.",
             "Current page marks the property as leased and states lease 2024-05-01 through 2031-04-30.",
             "Rent RMB18800/year with annual settlement.",
-            "Current page states no priority purchaser."
+            "Embedded court notice body states that a masked individual has priority-purchase rights; the role relative to the tenant is not disclosed."
           ]
         },
         {
@@ -84,10 +84,12 @@
         "CURRENT_PAID_THROUGH_CURSOR",
         "FIRST_UNPREPAID_RECEIPT",
         "TENANT_IDENTITY_OR_CASE_SPECIFIC_PAYMENT_LEDGER",
-        "CASE_SPECIFIC_PREPAID_RENT_ALLOCATION"
+        "CASE_SPECIFIC_PREPAID_RENT_ALLOCATION",
+        "PRIORITY_PURCHASER_ROLE_RELATIVE_TO_TENANCY_UNKNOWN"
       ],
-      "resolution": "EXACT_INCUMBENT_PREFLIGHT_EXHAUSTED_AT_CASE_SPECIFIC_LEASE_PAYMENT_LEDGER_BOUNDARY",
-      "commercial_promotion": false
+      "resolution": "EXACT_INCUMBENT_PREFLIGHT_EXHAUSTED_AT_CASE_SPECIFIC_LEASE_PAYMENT_LEDGER_AND_PRIORITY_RIGHT_ROLE_BOUNDARY",
+      "commercial_promotion": false,
+      "source_presentation_conflict": "PLATFORM_SUMMARY_SAYS_NO_PRIORITY_PURCHASER_BUT_EMBEDDED_COURT_NOTICE_BODY_SAYS_PRIORITY_PURCHASER_EXISTS; NOTICE_BODY_IS_MORE_SPECIFIC_BUT ROLE_REMAINS_UNKNOWN"
     }
   ],
   "authoritative_closures_preserved": [
@@ -102,5 +104,28 @@
   "bid_performed": false,
   "deposit_performed": false,
   "purchase_performed": false,
-  "next_action": "FREEZE_ROUTE_CONSUMPTION_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_IF_ROUTES_REPEAT_WITHOUT_NEW_PUBLIC_EVIDENCE_MERGE_PR451_AND_ADVANCE_SCAN142"
+  "next_action": "FREEZE_ROUTE_CONSUMPTION_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_IF_ROUTES_REPEAT_WITHOUT_NEW_PUBLIC_EVIDENCE_MERGE_PR451_AND_ADVANCE_SCAN142",
+  "followup_exact_head_validation": {
+    "exact_head_sha": "bf7ed217ececd0fb87d3234a57438ac0bb8413e9",
+    "repository_ci_run_id": 35847931527,
+    "repository_ci_conclusion": "SUCCESS",
+    "jev_run_id": 35847931518,
+    "jev_artifact_id": 10744255813,
+    "jev_artifact_digest": "sha256:d83e28e321d7eba5f46b4eaad77d06a825a70757b502f0fcf641f6ebe6ca7cbb",
+    "execution_status": "SUCCESS",
+    "routes": {
+      "ATTRACTION_SCAN_141-F1": "CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_141-F2": "EXACT_INCUMBENT_PREFLIGHT",
+      "ATTRACTION_SCAN_141-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_141-F4": "NO_FURTHER_RESEARCH"
+    },
+    "state_fingerprints": {
+      "ATTRACTION_SCAN_141-F1": "eeeb5a9d13939d05a446",
+      "ATTRACTION_SCAN_141-F2": "4f471ea26ac908c0ead4",
+      "ATTRACTION_SCAN_141-F3": "c3d1099d388b7212b187",
+      "ATTRACTION_SCAN_141-F4": "bd0ffde729f202c618bb"
+    },
+    "route_class_result": "NO_NEW_REVERSIBLE_ROUTE_CLASS_RELATIVE_TO_CONSUMED_F1_F2_ROUTES",
+    "superseded_for_merge_by_source_correction": true
+  }
 }
