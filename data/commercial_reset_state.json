@@ -534,17 +534,22 @@
       "formation_id": "ATTRACTION_SCAN_148-F5",
       "verdict": "DEMOTED_BESPOKE_LOCAL_ASSISTANCE_FIELD_VALUE_REMAINS_HUMAN_DELIVERY_AND_COORDINATION_LABOR",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_148-F1",
+      "verdict": "DEMOTED_AFTER_EXACT_INCUMBENT_PREFLIGHT_BOUNDED_REMOTE_TO_LOCAL_EXECUTION_ALREADY_PRODUCTIZED_BY_CURRENT_MULTI_CITY_AND_NATIONWIDE_PROVIDERS",
+      "resolved_date": "2026-09-23"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
   "last_completed_scan_id": "ATTRACTION_SCAN_148",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_148-F5",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_148-F1",
   "next_scan_id": "ATTRACTION_SCAN_149",
-  "current_research_action": "FREEZE_SCAN148_EXACT_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_F1_EFFECTIVE_ROUTE_BEFORE_SCAN149",
+  "current_research_action": "FREEZE_SCAN148_F1_ROUTE_CONSUMPTION_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_MERGE_PR460_IF_ALL_EFFECTIVE_ROUTES_NO_FURTHER_RESEARCH",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_148-F1",
-    "state": "RESEARCH_ONLY_JEV_ROUTE_PENDING",
+    "state": "EXACT_INCUMBENT_PREFLIGHT_CONSUMED_FINAL_EXACT_HEAD_REVALIDATION_PENDING",
     "commercial_candidate": false,
     "external_contact_performed": false,
     "external_contact_authorized": false
@@ -2606,7 +2611,7 @@
     "preflight_autonomous_continuation_allowed": true,
     "preflight_resolution": "CLOSED_DISTINCT_UNOWNED_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED_AFTER_CURRENT_OFFICIAL_CONTROL_SURFACE_PREFLIGHT"
   },
-  "next_action": "REQUIRE_SCAN148_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_F1_EFFECTIVE_ROUTE",
+  "next_action": "REQUIRE_SCAN148_ROUTE_CONSUMPTION_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_MERGE_PR460_IF_ALL_EFFECTIVE_ROUTES_NO_FURTHER_RESEARCH",
   "scan143_broad_reality_trust_routing": {
     "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "c4d3da4d67f067a512642beb272eeafa7fd0fa34",
@@ -2832,7 +2837,7 @@
     "merged_main_sha": "d98dd7d1a0770f1223341a5241abdfda20df1ee8"
   },
   "scan148_cross_border_local_execution": {
-    "status": "INITIAL_SCAN_COMPLETE_F1_RETAINED_EXACT_HEAD_VALIDATION_PENDING",
+    "status": "F1_EXACT_INCUMBENT_PREFLIGHT_CONSUMED_FINAL_EXACT_HEAD_REVALIDATION_PENDING",
     "source_main_sha": "d98dd7d1a0770f1223341a5241abdfda20df1ee8",
     "canonical_scan_artifact": "data/research_runs/attraction_scan_148.json",
     "evidence_artifact": "data/research_runs/scan148_cross_border_local_execution_evidence.json",
@@ -2841,6 +2846,7 @@
       "ATTRACTION_SCAN_148-F1"
     ],
     "authoritative_closures": [
+      "ATTRACTION_SCAN_148-F1",
       "ATTRACTION_SCAN_148-F2",
       "ATTRACTION_SCAN_148-F3",
       "ATTRACTION_SCAN_148-F4",
@@ -2849,11 +2855,30 @@
     "active_commercial_candidate_count": 0,
     "active_transaction_unit_count": 0,
     "first_external_value_flow": "NOT_PROVEN",
-    "exact_head_validation_status": "PENDING",
-    "live_jev_status": "PENDING",
+    "exact_head_validation_status": "ROUTE_CONSUMPTION_HEAD_PENDING",
+    "live_jev_status": "ROUTE_CONSUMPTION_HEAD_PENDING",
     "next_scan_id": "ATTRACTION_SCAN_149",
-    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_F1_EFFECTIVE_ROUTE",
+    "next_action": "FINAL_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_IF_ALL_EFFECTIVE_ROUTES_NO_FURTHER_RESEARCH_MERGE_PR460_AND_ADVANCE_SCAN149",
     "commercial_promotion": false,
-    "external_side_effects_performed": false
+    "external_side_effects_performed": false,
+    "route_source_head_sha": "1d226931a4430ca5e5eeca6d297bc172450405a1",
+    "route_source_repository_ci_run_id": 35875961755,
+    "route_source_repository_ci_conclusion": "SUCCESS",
+    "route_source_jev_run_id": 35875961757,
+    "route_source_jev_artifact_id": 10756113497,
+    "route_source_jev_artifact_digest": "sha256:eb45031c46f988eaf8bb3744080e523a9cae3b93ec4ed475756eecd6d0e1b936",
+    "route_source_jev_entity_count": 5,
+    "route_source_jev_effective_route_counts": {
+      "EXACT_INCUMBENT_PREFLIGHT": 1,
+      "NO_FURTHER_RESEARCH": 4
+    },
+    "route_source_jev_model_route_counts": {
+      "EXACT_INCUMBENT_PREFLIGHT": 1,
+      "NO_FURTHER_RESEARCH": 4
+    },
+    "route_source_jev_next_action": "EXECUTE_RESEARCH_QUEUE",
+    "route_consumption_evidence": "data/research_runs/scan148_f1_exact_incumbent_preflight_evidence.json",
+    "route_consumption_report": "docs/research/SCAN148_F1_EXACT_INCUMBENT_PREFLIGHT_2026-09-23.md",
+    "f1_resolution": "DEMOTED_AFTER_EXACT_INCUMBENT_PREFLIGHT_BOUNDED_REMOTE_TO_LOCAL_EXECUTION_ALREADY_PRODUCTIZED_BY_CURRENT_MULTI_CITY_AND_NATIONWIDE_PROVIDERS"
   }
 }
