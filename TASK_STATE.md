@@ -43,7 +43,7 @@ That continuation was consumed exactly once to create Scan 125.
 
 ## Active PR
 
-None at this checkpoint. Open exactly one PR only after the final branch head is frozen. Do not push branch commits after PR creation.
+Replacement PR pending after recovery-contract fix. Freeze this replacement head before opening the PR; do not push branch commits after PR creation.
 
 ## Scan 125 Result
 
@@ -97,6 +97,15 @@ Machine state:
 - active commercial candidates = 0;
 - retained research formations = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
+
+## Completed
+
+- Consumed the verified Scan 124 continuation exactly once.
+- Screened six fresh current/latest-direct packets with the joint low-FTE + positive-profit + positive-OCF retrieval heuristic.
+- Admitted 泓淇科技 only after the full current-economic conjunction and demoted it on longstanding controller dependence plus custom project delivery.
+- Kept 益科精工 fail-closed because current independent external revenue is unresolved across the control/business reset.
+- Persisted Scan 125 machine state, research report and regression tests without commercial promotion.
+- Preserved Scan 015-F1 as a separate validation stream.
 
 ## Current Findings
 
