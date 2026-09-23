@@ -1,0 +1,63 @@
+{
+  "schema_version": "research-evidence.v1",
+  "scan_id": "ATTRACTION_SCAN_131",
+  "as_of_date": "2026-09-23",
+  "primary_research_domain": "CHINA",
+  "evidence_packets": [
+    {
+      "formation_id": "ATTRACTION_SCAN_131-F1",
+      "sources": [
+        {
+          "source_id": "F1-S1",
+          "title": "ST Huawen controlled subsidiary asset-purchase disclosure republished by CFi",
+          "url": "https://www.cfi.net.cn/p20260917002206.html",
+          "role": "CURRENT_EXECUTED_CONTROL_TRANSFER_CONTRACT_AND_REVENUE_TERMS"
+        },
+        {
+          "source_id": "F1-S2",
+          "title": "China Securities Journal publication of the same listed-company announcement",
+          "url": "https://epaper.cs.com.cn/zgzqb/html/2026-09/18/nw.D110000zgzqb_20260918_2-A10.htm",
+          "role": "LISTED_COMPANY_DISCLOSURE_CORROBORATION"
+        }
+      ],
+      "closure": "Executed contracted cashflow transfer is proven, but RMB 10.719m bundled capital, incumbent-operator history and contract-migration complexity fail fresh small-operator reproducibility."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_131-F2",
+      "sources": [
+        {
+          "source_id": "F2-S1",
+          "title": "Anhui Changjiang Property Exchange - Wuhu Jinghu three-property transfer",
+          "url": "https://www.ejy365.com/info/ejypl13814",
+          "role": "CURRENT_SMALL_TICKET_LEASED_PROPERTY_TRANSFER_AND_RENT_SUCCESSION"
+        }
+      ],
+      "closure": "Transfer and tenant/rent succession are explicit, but public evidence omits rent quantum and the observed leases have short remaining duration."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_131-F3",
+      "sources": [
+        {
+          "source_id": "F3-S1",
+          "title": "Henan public resource platform - Pingdingshan Suning Logistics Park charging-station assets",
+          "url": "https://hnsggzyjy.henan.gov.cn/jyxx/002003/002003007/20260615/49db333a89814aa9bb78b0d76197b15e.html",
+          "role": "SMALL_TICKET_HARDWARE_TRANSFER_WITH_DISMANTLING_AND_SITE_RIGHT_DISCONFIRMATION"
+        }
+      ],
+      "closure": "RMB 298k hardware is acquirable, but dismantling/removal and missing site/platform/customer rights mean no operating control or existing proceeds transfer."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_131-F4",
+      "sources": [
+        {
+          "source_id": "F4-S1",
+          "title": "Anhui Changjiang Property Exchange - Shenshan Zhigu LED billboard one-year operating right",
+          "url": "https://www.ejy365.com/info/ejy429679",
+          "role": "CURRENT_SMALL_TICKET_OPERATING_RIGHT_WITH_IDLE_INVENTORY_AND_COMPLIANCE_DUTIES"
+        }
+      ],
+      "closure": "Current operating access is purchasable, but the asset is idle and no existing advertiser proceeds transfer; recurring acquisition/compliance/maintenance remains."
+    }
+  ],
+  "scan_conclusion": "SCAN131_OPERATIONAL_CONTROL_CASHFLOW_PASS_ZERO_RETAINED_ZERO_COMMERCIAL_PROMOTION"
+}
