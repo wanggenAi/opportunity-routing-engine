@@ -43,7 +43,9 @@ Starts from merged main `7e65f79f732631e50d0996179fe481341e82acf3`. No Scan 060-
 
 ## Active PR
 
-Pending open after this initial Scan 139 persistence commit. After PR creation, write one TASK_STATE checkpoint with the PR number and freeze that resulting exact head for CI/Jev.
+PR #449 — `Run Scan 139 on source-bound receipts and transferable control`.
+
+Initial PR head was `8540b78769f068bd34b42af4c1df9810800972c3`. This TASK_STATE checkpoint records the PR and advances the branch exactly once; the resulting commit SHA is the final frozen head for repository CI and live TypeSafe/Jev decisions.
 
 ## CI / Jev Contract
 
