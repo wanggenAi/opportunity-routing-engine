@@ -2,7 +2,6 @@ import json
 from pathlib import Path
 
 from src.jev_research_advisory import build_research_states
-from tools.run_jev_research_advisory import resolve_scan_path
 
 ROOT = Path(__file__).resolve().parents[1]
 SCAN = ROOT / "data" / "research_runs" / "attraction_scan_127.json"
@@ -14,11 +13,14 @@ def load(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def test_scan127_is_current_canonical_auto_jev_input():
+def test_scan127_remains_a_canonical_closed_historical_artifact_after_later_scans():
+    scan = load(SCAN)
     state = load(STATE)
-    path = resolve_scan_path("auto", state, research_dir=ROOT / "data" / "research_runs")
-    assert state["last_completed_scan_id"] == "ATTRACTION_SCAN_127"
-    assert path == SCAN
+    assert scan["scan_id"] == "ATTRACTION_SCAN_127"
+    assert scan["status"] == "COMPLETE"
+    assert len(scan["examined_formations"]) == 4
+    assert all(row["verdict"].startswith("DEMOTED_") for row in scan["examined_formations"])
+    assert int(state["last_completed_scan_id"].rsplit("_", 1)[-1]) >= 127
 
 
 def test_scan127_is_formation_diverse_and_does_not_recycle_scan126():
