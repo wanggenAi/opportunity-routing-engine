@@ -39,7 +39,7 @@ That continuation was consumed exactly once to create Scan 125.
 
 ## Active Branch
 
-`research/attraction-scan-125`
+`research/attraction-scan-125-r2`
 
 ## Active PR
 
@@ -69,7 +69,16 @@ Fresh partial matches:
 
 ## CI
 
-Scan 125 PR validation has not run yet. Required before merge:
+PR #425 exact-head validation attempt:
+- repository CI `35810155968`: failed only on `tests/test_repository_recovery_contract.py` because `TASK_STATE.md` lacked `## Completed`;
+- TypeSafe/Jev `35810155924`: success;
+- Jev evaluated exactly one admitted entity;
+- alignment: `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
+- effective/model route: `NO_FURTHER_RESEARCH`;
+- continuation: `ADVANCE_TO_NEXT_SCAN`;
+- #425 closed without changing frozen head.
+
+This r2 branch fixes only the recovery-contract heading. Required before merge:
 1. freeze exact branch head;
 2. open one PR;
 3. verify repository CI on that exact head;
@@ -97,6 +106,16 @@ Machine state:
 - active commercial candidates = 0;
 - retained research formations = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
+
+## Completed
+
+- Completed fresh Scan 125 research across six non-recycled current/latest-direct packets.
+- Admitted 泓淇科技 only after the full current-economic conjunction; then demoted it on longstanding controller/executive dependence and custom project delivery.
+- Kept 益科精工 fail-closed because current independent external revenue is unresolved across the control/business reset.
+- Persisted Scan 125 JSON, research report, regression tests and machine state.
+- PR #425 exact head `1d2218d798c1093fe919342756e8d4380b703b2c` ran live TypeSafe/Jev successfully: entity_count=1, `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`, effective route `NO_FURTHER_RESEARCH`, continuation `ADVANCE_TO_NEXT_SCAN`.
+- PR #425 repository CI failed only because this handoff file omitted the required `## Completed` recovery-contract heading; #425 was closed without modifying its frozen head.
+- This r2 branch contains only the recovery-contract correction on top of the frozen Scan 125 research result.
 
 ## Current Findings
 
