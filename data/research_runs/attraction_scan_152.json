@@ -1,0 +1,920 @@
+{
+  "scan_id": "ATTRACTION_SCAN_152",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "FRESH_BROAD_CURRENT_REALITY_ACCESS_INFRASTRUCTURE_AFTER_SCAN151_FINAL_CLOSURE",
+  "source_main_sha": "5ee5967a1ec4a542943ca8ae715d9f085e686359",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_151",
+    "prior_pr": 465,
+    "prior_merged_main_sha": "5ee5967a1ec4a542943ca8ae715d9f085e686359",
+    "prior_final_exact_head": "9515f7ff88e3dec54c0a6b92d49e15f5dde67370",
+    "prior_repository_ci_run_id": 35879899892,
+    "prior_repository_ci_test_job_id": 107245352929,
+    "prior_repository_ci_test_count": 769,
+    "prior_live_jev_run_id": 35879899900,
+    "prior_live_jev_artifact_id": 10758929493,
+    "prior_live_jev_artifact_digest": "sha256:d313660a74aa594229bf4563329f98e6fb73f34b8fd038849f7b306f8010c7ee",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scan151_direct_service_platforms_not_used_as_prior": true
+  },
+  "broad_reality_domains_examined": [
+    "COMMUNITY_REHAB_AID_RENTAL",
+    "RESEARCH_INSTRUMENT_OPEN_SHARING",
+    "SME_INCLUSIVE_COMPUTE",
+    "CROSS_BORDER_PUBLIC_OVERSEAS_WAREHOUSES",
+    "AGRICULTURAL_SOCIALIZED_SERVICES"
+  ],
+  "source_registry": {
+    "REHAB-WUXI-20260226": {
+      "source_class": "CURRENT_COMMUNITY_REHAB_AID_RENTAL_PROVIDER_SELECTION",
+      "url": "https://www.wnd.gov.cn/doc/2026/02/26/4737323.shtml",
+      "date": "2026-02-26",
+      "claim": "Wuxi New District's 2026 community rehabilitation-assistive-device rental program explicitly targets recurring short-term and emergency needs of elderly, disabled and injured residents while selecting professional rental institutions under defined service conditions."
+    },
+    "REHAB-SHANGHAI-20260923": {
+      "source_class": "CURRENT_PUBLIC_REHAB_AID_RENTAL_PLATFORM",
+      "url": "https://shfjzl.mzj.sh.gov.cn/product/",
+      "date": "2026-09-23",
+      "claim": "Shanghai's civil-affairs rehabilitation-assistive-device community rental platform exposes the current public rental service surface and product access rail rather than leaving consumer-provider discovery wholly unstructured."
+    },
+    "SCI-MOST-20260818": {
+      "source_class": "CURRENT_NATIONAL_RESEARCH_INSTRUMENT_OPEN_SHARING_EVALUATION",
+      "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/qtwj/qtwj2026/202608/t20260818_197157.html",
+      "date": "2026-08-18",
+      "claim": "MOST and MOF's 2026 evaluation measures track major scientific instruments through the national open-sharing network, including online reservability, utilization, external service hours, charging and service to enterprises."
+    },
+    "SCI-MOST-20260116": {
+      "source_class": "CURRENT_RESEARCH_INSTRUMENT_OPEN_SHARING_RULES",
+      "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/gfxwj/gfxwj2026/202601/t20260116_195736.html",
+      "date": "2026-01-16",
+      "claim": "The 2026 implementation rules require open-sharing management platforms, reservation/service records and performance evaluation, making institutional platforms part of the governed access and booking loop."
+    },
+    "COMPUTE-MIIT-20260402": {
+      "source_class": "CURRENT_SME_INCLUSIVE_COMPUTE_ACTION",
+      "url": "https://www.miit.gov.cn/jgsj/txs/wjfb/art/2026/art_e5c990d4ec924dbc9da5818da97940ac.html",
+      "date": "2026-04-02",
+      "claim": "MIIT's 2026 inclusive-compute action for SMEs explicitly aims to lower compute-use barriers and strengthen national and SME-service compute resource matching."
+    },
+    "COMPUTE-MIIT-DETAIL-20260402": {
+      "source_class": "CURRENT_COMPUTE_MATCHING_PROCUREMENT_AND_SCHEDULING_RAIL",
+      "url": "https://nxca.miit.gov.cn/zwgk/zcwj/wjfb/art/2026/art_b91ce5316c924d0c984f5e9f675c40c6.html",
+      "date": "2026-04-02",
+      "claim": "The MIIT action calls for compute supermarkets/banks, flexible card-hour/core-hour/token billing, idle-compute circulation, one-stop product selection and procurement, and platform-based precise resource matching."
+    },
+    "WAREHOUSE-JIANGSU-20260602": {
+      "source_class": "CURRENT_CROSS_BORDER_PUBLIC_OVERSEAS_WAREHOUSE_ACTION",
+      "url": "https://www.jiangsu.gov.cn/art/2026/6/2/art_46144_11779220.html",
+      "date": "2026-06-02",
+      "claim": "Jiangsu's 2026-2028 cross-border e-commerce action expands public overseas warehouses and integrated customs, returns, last-mile, display and service-platform functions while promoting business matching and compliance services."
+    },
+    "WAREHOUSE-HUBEI-20260415": {
+      "source_class": "CURRENT_PUBLIC_OVERSEAS_WAREHOUSE_SERVICE_REQUIREMENTS",
+      "url": "https://swt.hubei.gov.cn/zfxxgk/fdzdgknr/qtzdgknr/jcygk/jccajcasm/202604/t20260415_5914665.shtml",
+      "date": "2026-04-15",
+      "claim": "Hubei's 2026 public-overseas-warehouse recognition rules require multi-enterprise service capacity, multiple logistics/returns/after-sales/data functions, and ERP/WMS links for orders, inventory, transport and billing."
+    },
+    "WAREHOUSE-SUZHOU-20260819": {
+      "source_class": "CURRENT_OVERSEAS_WAREHOUSE_SUPPLY_DEMAND_MATCHING_EVENT",
+      "url": "https://www.suzhou.gov.cn/szsrmzf/bmdt/202608/073cb634cff94c3d84742bb2c45d76ab.shtml",
+      "date": "2026-08-19",
+      "claim": "Suzhou reports a current logistics and overseas-warehouse matching event with 42 local companies and more than 20 institutions, demonstrating recurring bilateral search and active matching rather than a hypothetical need."
+    },
+    "AGRI-HLJ-20260722": {
+      "source_class": "CURRENT_AGRICULTURAL_SOCIALIZED_SERVICE_PLATFORM_AND_REGISTRY",
+      "url": "https://nynct.hlj.gov.cn/nynct/c115423/202607/c00_31960572.shtml",
+      "date": "2026-07-22",
+      "claim": "Heilongjiang's 2026 agricultural socialized-service program uses county provider registries, standard contracts, work confirmation and monitoring data uploaded to the provincial service platform for services to small farmers."
+    },
+    "AGRI-YUNNAN-20260527": {
+      "source_class": "CURRENT_AGRICULTURAL_SERVICE_DIGITAL_SUPERVISION",
+      "url": "https://nync.yn.gov.cn/html/2026/zuixinwenjian_0527/1426629.html",
+      "date": "2026-05-27",
+      "claim": "Yunnan's 2026 program uses a provincial smart-supervision platform, service-provider registry, electronic contracts, service price/time records, dispatch, evidence upload and acceptance for agricultural socialized services."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_152-F1",
+      "title": "Households with temporary rehabilitation-aid needs -> professional community assistive-device rental providers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_BROAD_REALITY_ACCESS_INFRASTRUCTURE",
+      "evidence_summary": "Short-term rehabilitation-aid need is replenishing and current public programs explicitly mobilize professional rental providers, but public/community rental rails already structure provider admission, catalog access and service delivery; a generic independent router is not evidenced as a distinct callable edge.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "b_voluntary_motion": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "state_dependent_value_jump": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "decision_window": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "bridge_compression": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "activation_ease": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "self_propulsion": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "operator_control": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "a_discoverability": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "b_discoverability": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "match_resolvability": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "action_gate_callability": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "a_population_replenishment": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "b_population_replenishment": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "recurring_connection_pressure": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "recurring_missing_edge": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ],
+          "recurring_event_source": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_REHAB_AID_RENTAL_FIELD_REAL_BUT_PUBLIC_PROGRAMS_AND_ACCOUNTABLE_RENTAL_PROVIDERS_ALREADY_OWN_PROVIDER_ADMISSION_CATALOG_ACCESS_AND_DELIVERY",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "REHAB-WUXI-20260226",
+            "REHAB-SHANGHAI-20260923"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "REHAB-WUXI-20260226",
+          "REHAB-SHANGHAI-20260923"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_152-F2",
+      "title": "Researchers and SMEs needing specialized instrument access -> universities and institutes with shareable scientific instruments",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_BROAD_REALITY_ACCESS_INFRASTRUCTURE",
+      "evidence_summary": "Both instrument capacity and external demand recur, but national and institutional open-sharing systems already govern discoverability, online reservation, charging and usage records; instrument-method fit can still require expert interpretation rather than a narrow generic routing edge.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "b_voluntary_motion": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "state_dependent_value_jump": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "decision_window": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "bridge_compression": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "activation_ease": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "self_propulsion": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "operator_control": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "a_discoverability": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "b_discoverability": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "match_resolvability": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "action_gate_callability": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "a_population_replenishment": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "b_population_replenishment": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "recurring_connection_pressure": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "recurring_missing_edge": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ],
+          "recurring_event_source": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_RESEARCH_INSTRUMENT_SHARING_REAL_BUT_NATIONAL_AND_INSTITUTIONAL_PLATFORMS_ALREADY_OWN_DISCOVERY_BOOKING_CHARGING_AND_USAGE_GOVERNANCE",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SCI-MOST-20260818",
+            "SCI-MOST-20260116"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "SCI-MOST-20260818",
+          "SCI-MOST-20260116"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_152-F3",
+      "title": "SMEs with bursty AI and digital compute needs -> distributed compute providers with allocable capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_BROAD_REALITY_ACCESS_INFRASTRUCTURE",
+      "evidence_summary": "The compute-access field has strong replenishing motion and highly standardized resource attributes, but current national policy explicitly builds compute supermarkets, precise matching, one-stop procurement and scheduling; ordinary requirement-to-provider routing is therefore already rail-owned and increasingly generic-Agent substitutable.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "b_voluntary_motion": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "state_dependent_value_jump": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "decision_window": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "bridge_compression": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "activation_ease": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "self_propulsion": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "operator_control": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "a_discoverability": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "b_discoverability": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "match_resolvability": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "action_gate_callability": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "a_population_replenishment": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "b_population_replenishment": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "recurring_connection_pressure": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "recurring_missing_edge": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ],
+          "recurring_event_source": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": true
+        }
+      },
+      "verdict": "DEMOTED_SME_COMPUTE_ACCESS_REAL_BUT_CURRENT_COMPUTE_MARKETS_ALREADY_OWN_RESOURCE_MATCHING_PROCUREMENT_AND_SCHEDULING_AND_GENERIC_ROUTING_IS_SUBSTITUTABLE",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPUTE-MIIT-20260402",
+            "COMPUTE-MIIT-DETAIL-20260402"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "COMPUTE-MIIT-20260402",
+          "COMPUTE-MIIT-DETAIL-20260402"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_152-F4",
+      "title": "Cross-border e-commerce sellers with destination-specific fulfillment and return needs -> public overseas warehouses and logistics service nodes",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_BROAD_REALITY_ACCESS_INFRASTRUCTURE",
+      "evidence_summary": "Current policy and matching events show strong recurring bilateral pressure, and residual selection friction is real. It is not killed merely by incumbent presence. However country/platform/return/compliance/service compatibility remains provider-specific and current evidence does not expose a stable multi-rail self-service action gate, so the bridge is not yet narrow or machine-resolvable enough for high attraction.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "b_voluntary_motion": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "state_dependent_value_jump": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "decision_window": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "bridge_compression": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "activation_ease": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "self_propulsion": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "operator_control": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "a_discoverability": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "b_discoverability": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "match_resolvability": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "action_gate_callability": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "a_population_replenishment": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "b_population_replenishment": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "recurring_connection_pressure": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "recurring_missing_edge": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ],
+          "recurring_event_source": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_PUBLIC_OVERSEAS_WAREHOUSE_FIELD_REAL_WITH_RESIDUAL_FRICTION_BUT_MATCH_REMAINS_PROVIDER_SPECIFIC_COMPLIANCE_AND_OPERATIONS_WORK_WITHOUT_STANDARD_MULTI_RAIL_CALLABLE_ACTION",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WAREHOUSE-JIANGSU-20260602",
+            "WAREHOUSE-HUBEI-20260415",
+            "WAREHOUSE-SUZHOU-20260819"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "WAREHOUSE-JIANGSU-20260602",
+          "WAREHOUSE-HUBEI-20260415",
+          "WAREHOUSE-SUZHOU-20260819"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_152-F5",
+      "title": "Small farmers needing time-sensitive field operations -> agricultural socialized-service providers with machinery and operator capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_BROAD_REALITY_ACCESS_INFRASTRUCTURE",
+      "evidence_summary": "The field is replenishing and highly time-sensitive, but current provincial programs already organize provider registries, contracts, dispatch, work evidence, acceptance and supervision; local crop/parcel/timing/equipment fit still creates operational judgment rather than a distinct lightweight router.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "b_voluntary_motion": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "state_dependent_value_jump": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "decision_window": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "bridge_compression": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "activation_ease": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "self_propulsion": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "operator_control": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "a_discoverability": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "b_discoverability": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "match_resolvability": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "action_gate_callability": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "a_population_replenishment": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "b_population_replenishment": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "recurring_connection_pressure": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "recurring_missing_edge": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ],
+          "recurring_event_source": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_AGRICULTURAL_SOCIALIZED_SERVICE_FIELD_REAL_BUT_PROVIDER_REGISTRIES_CONTRACTS_DISPATCH_AND_SUPERVISION_PLATFORMS_ALREADY_OWN_THE_EXECUTION_LOOP",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-HLJ-20260722",
+            "AGRI-YUNNAN-20260527"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "AGRI-HLJ-20260722",
+          "AGRI-YUNNAN-20260527"
+        ]
+      }
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "All five fresh fields show replenishing bilateral pressure, but none currently exposes a distinct operator-owned, machine-resolvable and repeatably callable missing edge. Overseas-warehouse residual friction is preserved rather than auto-killed, but remains expert/compliance/operations bound."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_153",
+  "next_search_boundary": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN152_THEN_RETURN_TO_FRESH_BROAD_REALITY_WITHOUT_INHERITING_ACCESS_INFRASTRUCTURE_AS_ONTOLOGY",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN153",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scan151_direct_service_platforms_not_used_as_prior": true,
+    "incumbent_presence_not_used_as_automatic_kill": true,
+    "residual_overseas_warehouse_friction_preserved": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "PUBLIC_OR_INSTITUTIONAL_ACCESS_PROGRAMS_CAN_CREATE_REAL_FLOW_WITHOUT_LEAVING_A_DISTINCT_GENERIC_ROUTER.",
+    "HIGHLY_STANDARDIZED_COMPUTE_MARKETS_CAN_BE_CALLABLE_YET_ROUTER_EMPTY_WHEN_THE_OFFICIAL_RAIL_ALREADY_MATCHES_AND_PROCURES.",
+    "INCUMBENT_PRESENCE_DOES_NOT_ERASE_RESIDUAL_OVERSEAS_WAREHOUSE_FRICTION_BUT_EXPERT_COMPLIANCE_AND_NONSTANDARD_ACTION_RAILS_KEEP_CURRENT_ATTRACTION_LOW.",
+    "RESOURCE_SHARING_REQUIRES_SEPARATING_DISCOVERY_FROM_SPECIALIZED_FIT_AND_ACCOUNTABLE_EXECUTION."
+  ],
+  "source_urls": [
+    "https://www.wnd.gov.cn/doc/2026/02/26/4737323.shtml",
+    "https://shfjzl.mzj.sh.gov.cn/product/",
+    "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/qtwj/qtwj2026/202608/t20260818_197157.html",
+    "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/gfxwj/gfxwj2026/202601/t20260116_195736.html",
+    "https://www.miit.gov.cn/jgsj/txs/wjfb/art/2026/art_e5c990d4ec924dbc9da5818da97940ac.html",
+    "https://nxca.miit.gov.cn/zwgk/zcwj/wjfb/art/2026/art_b91ce5316c924d0c984f5e9f675c40c6.html",
+    "https://www.jiangsu.gov.cn/art/2026/6/2/art_46144_11779220.html",
+    "https://swt.hubei.gov.cn/zfxxgk/fdzdgknr/qtzdgknr/jcygk/jccajcasm/202604/t20260415_5914665.shtml",
+    "https://www.suzhou.gov.cn/szsrmzf/bmdt/202608/073cb634cff94c3d84742bb2c45d76ab.shtml",
+    "https://nynct.hlj.gov.cn/nynct/c115423/202607/c00_31960572.shtml",
+    "https://nync.yn.gov.cn/html/2026/zuixinwenjian_0527/1426629.html"
+  ]
+}
