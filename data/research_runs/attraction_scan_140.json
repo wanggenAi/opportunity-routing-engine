@@ -1,0 +1,210 @@
+{
+  "schema_version": "attraction-scan.v104",
+  "scan_id": "ATTRACTION_SCAN_140",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "FRESH_CURRENT_CHINA_SOURCE_BOUND_RECEIPTS_REQUIRE_ASSET_LEVEL_CONTROL_EXACT_ENTRY_UNPREPAID_BUYER_RECEIPT_CONTINUITY_AT_LEAST_24_MONTHS_AND_COMPUTABLE_ECONOMICS",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FRESH_CURRENT_RECEIPT_BINDING_BOUNDARIES_NO_SCAN060_TO_139_REUSE_TEST_WHOLE_TITLE_FRACTIONAL_TITLE_POOLED_RENT_AND_FULL_PREPAYMENT_NO_GATE_RELAXATION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_140-F1",
+      "title": "CURRENT_WEIYUAN_LANHUA_STREET_SHOP_WITH_16_15_PERCENT_SURFACE_GROSS_AND_29_MONTH_LEASE_BUT_UNBOUND_POST_TRANSFER_RECEIPT_RIGHT",
+      "chinese_title": "威远兰花街46号45.08㎡商铺44.588628万元 → 6000元/月 → 租至2029-02-24 → 2026-11月底前租金已付但买受人后续收款权未公开绑定",
+      "state": "RESEARCH_BEACON_RETAINED_FOR_BUYER_RECEIPT_SUCCESSION_AND_FIRST_UNPREPAID_PAYMENT_RIGHT",
+      "commercial_candidate": false,
+      "observed_money_motion": [
+        "Current first-auction floor is RMB 445,886.28 for one 45.08 sqm commercial unit.",
+        "Existing lease runs through 2029-02-24 at RMB 6,000 per month, paid quarterly.",
+        "Tenant rent is reported paid through 2026-11-30; nominal annual rent divided by the auction floor is approximately 16.15% before costs."
+      ],
+      "decisive_unknowns": [
+        "CASE_SPECIFIC_POST_TRANSFER_RENT_SUCCESSION_NOT_EXPLICIT_IN_PUBLIC_NOTICE",
+        "FIRST_UNPREPAID_DECEMBER_2026_PAYMENT_BENEFICIARY_NOT_PUBLICLY_BOUND_TO_BUYER",
+        "LEASE_DEPOSIT_ARREARS_AFTER_CURRENT_PAID_CURSOR_TENANT_CREDIT_AND_BUYER_TAX_COSTS_NOT_BOUND",
+        "DETAILED_LEASE_CONTRACT_REQUIRES_NONPUBLIC_CASE_SPECIFIC_ACCESS_OR_CONTACT"
+      ],
+      "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV; CONSUME_ANY_REVERSIBLE PUBLIC ROUTE BEFORE SCAN141; NO EXTERNAL CONTACT_OR_BID_WITHOUT_USER_AUTHORITY"
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_140-F1"
+  ],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_140-F1",
+    "ATTRACTION_SCAN_139-F1",
+    "ATTRACTION_SCAN_135-F1",
+    "ATTRACTION_SCAN_136-F1",
+    "ATTRACTION_SCAN_136-F2",
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": false,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_140-F1",
+      "title": "CURRENT_WEIYUAN_LANHUA_STREET_SHOP_WITH_16_15_PERCENT_SURFACE_GROSS_AND_29_MONTH_LEASE_BUT_UNBOUND_POST_TRANSFER_RECEIPT_RIGHT",
+      "chinese_title": "威远县严陵镇兰花街46号商业用房一拍 → 44.588628万元 → 6000元/月 → 租至2029-02-24",
+      "evidence_class": "CURRENT_SINGLE_ASSET_EXACT_ENTRY_EXACT_RENT_CURRENT_PAID_CURSOR_AND_MORE_THAN_24_MONTHS_REMAINING_BUT_BUYER_RECEIPT_SUCCESSION_UNBOUND",
+      "evidence_summary": "A current Weiyuan County court first auction scheduled for 2026-10-18 binds a RMB445,886.28 floor, RMB6,000 monthly rent, quarterly payment, lease end 2029-02-24 and rent paid through 2026-11-30. RMB72,000 annual rent divided by the floor is approximately 16.15%. The public notice does not state that the buyer receives rent after title transfer or that the first unprepaid December 2026 payment belongs to the buyer, so it is retained for research only.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_445886_28_FIRST_AUCTION_FLOOR",
+        "contracted_receipt_amount": "RMB_6000_PER_MONTH_RMB_72000_ANNUAL",
+        "buyer_receipt_start": "UNKNOWN_PUBLIC_NOTICE_ONLY_BINDS_TENANT_PAID_THROUGH_2026_11_30_NOT_BUYER_BENEFICIARY",
+        "buyer_receipt_end": "LEASE_END_2029-02-24",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "post_transfer_receipt_right": "UNKNOWN_NOT_EXPLICIT_IN_PUBLIC_NOTICE",
+        "unprepaid_receipt_status": "POTENTIAL_FROM_2026_12_THROUGH_2029_02_IF_BUYER_SUCCESSION_IS_PROVEN_BUT_NOT_CURRENTLY_BOUND",
+        "low_recurring_human_delivery": "PASS_CONDITIONAL_LANDLORD_RECEIPT_ROLE_AFTER_ACQUISITION_NOT_FOUNDER_SERVICE_DELIVERY",
+        "receipt_to_entry_economics": "RESEARCH_PASS_SURFACE_RMB72000_DIVIDED_BY_RMB445886_28_APPROX_16_15_PERCENT_GROSS_BEFORE_COSTS_BUT_BUYER_RECEIPT_RIGHT_UNPROVEN"
+      },
+      "exact_disconfirmation": [
+        "The public notice says detailed lease terms require consultation and does not explicitly bind post-transfer rent succession.",
+        "A high nominal gross ratio cannot be promoted when the buyer's receipt entitlement is still UNKNOWN.",
+        "No deposit, bid, inspection, external contact or monetary action is authorized."
+      ],
+      "verdict": "RETAINED_RESEARCH_CURRENT_WEIYUAN_EXACT_ENTRY_RENT_PAID_CURSOR_AND_LONG_ENOUGH_TERM_CLEAR_SURFACE_ECONOMICS_BUT_POST_TRANSFER_BUYER_RECEIPT_RIGHT_REMAINS_UNBOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_140-F2",
+      "title": "CURRENT_FUDING_25_PERCENT_TITLE_SHARE_WITH_WHOLE_ASSET_RENT_BUT_UNBOUND_FRACTIONAL_RECEIPT_ALLOCATION",
+      "chinese_title": "福鼎桐山集创大厦206室25%产权份额变卖 → 44.1156万元 → 整套租约实际3万元/年 → 份额买受人具体收租比例未绑定",
+      "evidence_class": "CURRENT_FRACTIONAL_TITLE_WITH_EXISTING_WHOLE_ASSET_LEASE_AND_EXACT_ENTRY_BUT_RECEIPT_RIGHT_NOT_MAPPED_TO_ACQUIRED_25_PERCENT_SHARE",
+      "evidence_summary": "A current 60-day Fuding court sale running through 2026-10-23 offers a 25% ownership share for RMB441,156. Public material reports a whole-property lease through 2030-04-30, rent paid through 2026-10-30, contractual rent RMB40,000/year but actual execution RMB30,000/year. It does not establish what fraction of that receipt belongs to the 25% buyer or whether the buyer can independently collect it. Whole-asset rent cannot be attributed to the purchased fractional title.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_441156_FOR_25_PERCENT_PROPERTY_SHARE",
+        "contracted_receipt_amount": "WHOLE_ASSET_CONTRACT_RMB40000_YEAR_ACTUAL_EXECUTION_RMB30000_YEAR",
+        "buyer_receipt_start": "UNKNOWN_FRACTIONAL_BUYER_RECEIPT_ALLOCATION_NOT_PUBLIC",
+        "buyer_receipt_end": "WHOLE_ASSET_LEASE_END_2030-04-30",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "post_transfer_receipt_right": "FAIL_NOT_MAPPED_FROM_WHOLE_ASSET_LEASE_TO_ACQUIRED_25_PERCENT_SHARE",
+        "unprepaid_receipt_status": "WHOLE_ASSET_RENT_PAID_THROUGH_2026_10_30_BUT_FRACTIONAL_BUYER_FUTURE_SHARE_UNKNOWN",
+        "low_recurring_human_delivery": "PARTIAL_SHARED_TITLE_AND_COOWNER_COORDINATION_CREATE_CONTROL_FRICTION",
+        "receipt_to_entry_economics": "FAIL_CANNOT_ATTRIBUTE_WHOLE_ASSET_RMB30000_OR_RMB40000_RENT_TO_25_PERCENT_PURCHASE; PRO_RATA_INFERENCE_IS_NOT_ALLOWED"
+      },
+      "exact_disconfirmation": [
+        "The sale object is only a 25% ownership share, not the whole leased property.",
+        "The public material itself reports contractual RMB40,000/year but actual RMB30,000/year, requiring exact current ledger evidence.",
+        "No public source binds a specific rent share, collection account or enforcement right to the 25% buyer."
+      ],
+      "verdict": "DEMOTED_CURRENT_FUDING_FRACTIONAL_TITLE_HAS_EXISTING_LONG_LEASE_BUT_WHOLE_ASSET_RENT_CANNOT_BE_ASSIGNED_TO_THE_25_PERCENT_BUYER_WITHOUT_SOURCE_BOUND_ALLOCATION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_140-F3",
+      "title": "CURRENT_NANCHONG_THREE_SHOPS_WITH_OWNER_COMMITTEE_RENT_POOL_BUT_NO_PUBLIC_DISTRIBUTION_QUANTUM",
+      "chinese_title": "南充新世纪购物中心3个小商铺12.8004万元变卖 → 业委会统一出租收租并按面积年分配 → 分配金额未公开",
+      "evidence_class": "CURRENT_POOLED_RENT_DISTRIBUTION_CONTROL_WITH_EXACT_ENTRY_LONG_LEASE_AND_THIRD_PARTY_COLLECTION_BUT_MISSING_RECEIPT_QUANTUM",
+      "evidence_summary": "An official Foshan Nanhai Court sale remains open through 2026-10-23 at RMB128,004 for three small shops. The court states that the shopping-center owners committee leases and collects rent centrally, distributing rent once per year pro rata by owned shop area, and the lease runs through 2029-12-19. The exact rent pool and these units' distribution amount are not public, so receipt-to-entry economics cannot be computed.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_128004_CURRENT_CHANGE_SALE_PRICE",
+        "contracted_receipt_amount": "UNKNOWN_PUBLIC_NOTICE_CONFIRMS_ANNUAL_AREA_PRO_RATA_DISTRIBUTION_BUT_NO_QUANTUM",
+        "buyer_receipt_start": "UNKNOWN_EXACT_NEXT_DISTRIBUTION_DATE_AND_BUYER_CUTOVER_NOT_PUBLIC",
+        "buyer_receipt_end": "LEASE_END_2029-12-19",
+        "counterparty": "SHOPPING_CENTER_OWNERS_COMMITTEE_COLLECTS_AND_DISTRIBUTES_RENT; END_TENANT_OPERATES_BUWAN_PLANET",
+        "post_transfer_receipt_right": "PARTIAL_STRUCTURE_PUBLIC_BUT_EXACT_BUYER_DISTRIBUTION_SUCCESSION_NOT_EXPLICIT",
+        "unprepaid_receipt_status": "UNKNOWN_POOL_PAYMENT_CURSOR_NOT_PUBLIC",
+        "low_recurring_human_delivery": "PASS_CONDITIONAL_CENTRALIZED_COMMITTEE_COLLECTION_REDUCES_UNIT_LEVEL_LANDLORD_DELIVERY",
+        "receipt_to_entry_economics": "FAIL_CANNOT_COMPUTE_WITHOUT_SOURCE_BOUND_ANNUAL_DISTRIBUTION_QUANTUM"
+      },
+      "exact_disconfirmation": [
+        "The official court notice proves the pooled rent-distribution mechanism but not the cash amount attributable to the three titles.",
+        "Area-proportional distribution cannot be converted into money without the total distributable pool and exact distribution ledger.",
+        "No inference from comparable shop rent is permitted."
+      ],
+      "verdict": "DEMOTED_CURRENT_NANCHONG_POOLED_RENT_CONTROL_IS_PUBLIC_AND_LOW_TOUCH_BUT_EXACT_DISTRIBUTION_QUANTUM_AND_BUYER_CUTOVER_REMAIN_UNKNOWN"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_140-F4",
+      "title": "CURRENT_SHANGHAI_JINGHAI_COMMERCIAL_PROPERTY_WITH_75000_ANNUAL_RENT_FULLY_PREPAID_TO_LEASE_END",
+      "chinese_title": "上海浦东靖海路239弄19、17号一层商业房101万元 → 7.5万元/年 → 租金已付至2027-01-19租约结束",
+      "evidence_class": "CURRENT_EXACT_ENTRY_AND_RENT_BUT_ZERO_UNPREPAID_BUYER_RECEIPT_WINDOW_BECAUSE_TENANT_PREPAID_THROUGH_LEASE_END",
+      "evidence_summary": "A current Shanghai Pudong court auction scheduled for 2026-10-12 has a RMB1,010,000 floor and a RMB75,000 annual lease. The public investigation states rent has already been paid through 2027-01-19, which is also the lease end. Therefore the apparent 7.43% annual rent/floor ratio does not represent future contracted cash payable to the buyer under the current lease.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_1010000_FIRST_AUCTION_FLOOR",
+        "contracted_receipt_amount": "RMB_75000_PER_YEAR_EXISTING_LEASE",
+        "buyer_receipt_start": "NONE_UNDER_CURRENT_LEASE_RENT_ALREADY_PAID_THROUGH_LEASE_END_2027-01-19",
+        "buyer_receipt_end": "LEASE_END_2027-01-19",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "post_transfer_receipt_right": "NO_UNPREPAID_CONTRACTED_RECEIPT_REMAINS_TO_SUCCEED",
+        "unprepaid_receipt_status": "FAIL_FULLY_PREPAID_THROUGH_LEASE_END",
+        "low_recurring_human_delivery": "PASS_AS_PROPERTY_HOLDING_BUT_NO_INHERITED_FUTURE_RECEIPT",
+        "receipt_to_entry_economics": "FAIL_APPARENT_RMB75000_DIVIDED_BY_RMB1010000_APPROX_7_43_PERCENT_IS_NOT_BUYER_CASHFLOW_BECAUSE_CURRENT_LEASE_IS_FULLY_PREPAID"
+      },
+      "exact_disconfirmation": [
+        "The tenant has prepaid rent through the exact lease-end date.",
+        "Historical annual rent must not be counted as future buyer receipts.",
+        "The remaining lease horizon is also below the current 24-month receipt-coverage floor."
+      ],
+      "verdict": "DEMOTED_CURRENT_SHANGHAI_APPARENT_7_43_PERCENT_RENT_RATIO_HAS_ZERO_UNPREPAID_BUYER_RECEIPTS_AND_SUB_24_MONTH_REMAINING_TERM"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_FOSHAN_HAIJING_GARDEN_7C_SHORT_LEASE",
+      "source_url": "https://fayuan.nanhai.gov.cn/cms/html/3334/2026/20260910085629688936426/20260910085629688936426_1.html",
+      "reason": "Official court notice explicitly gives future rent to the buyer after lease succession, but lease ends 2027-04-09, far below the 24-month future-receipt floor; no need to spend a primary slot."
+    },
+    {
+      "observation": "CURRENT_TENGCHONG_HENGJING_SHOPS_MASKED_PRICES",
+      "source_url": "https://www.ixbang.com/bid/detail/2271026A9CF253B8E9CBFA6309C75217.html",
+      "reason": "Current October change-sale has long leases and escalators, but the public source masks both sale price and rent amounts; exact economics cannot be established without joining unsupported hidden values."
+    },
+    {
+      "observation": "CURRENT_HUIXIAN_FANZHAI_A2_105_FULLY_PREPAID_SHORT_LEASE",
+      "source_url": "https://hn.bidcenter.com.cn/diqucontent-443745393-9.html",
+      "reason": "Current October sale is leased only through 2027-05-31 and rent is already paid through that end date; no future inherited receipt lane."
+    }
+  ],
+  "drift_audit": {
+    "primary_domain_is_china": true,
+    "fresh_current_primary_formations_only": true,
+    "exact_repository_dedup_completed_for_primary_addresses_case_ids_and_prices": true,
+    "scan060_to_139_primary_formations_not_reused": true,
+    "whole_title_fractional_title_pooled_distribution_and_full_prepayment_mechanisms_tested": true,
+    "asset_level_receipt_binding_required": true,
+    "exact_entry_price_required": true,
+    "exact_asset_receipt_amount_required_for_economic_promotion": true,
+    "automatic_or_explicit_post_transfer_receipt_continuity_required": true,
+    "minimum_24_month_source_bound_receipt_coverage_required": true,
+    "current_paid_through_cursor_front_loaded": true,
+    "prepaid_historical_rent_not_counted_as_buyer_cashflow": true,
+    "fractional_title_receipts_not_inferred_pro_rata_without_source_binding": true,
+    "unknown_is_not_pass": true,
+    "research_retention_is_not_commercial_promotion": true,
+    "no_bid_deposit_purchase_inspection_or_external_contact_authority": true,
+    "gate_relaxation": false
+  },
+  "commercial_outcome": {
+    "retained_count": 1,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Scan 140 retains only Weiyuan F1 for public research because the current auction combines exact RMB445,886.28 entry, RMB6,000/month rent, paid-through November 2026 and a lease to February 2029, implying ~16.15% surface gross, while buyer-side rent succession remains unbound. Fuding closes because whole-asset rent cannot be attributed to a purchased 25% title share. Nanchong closes because an official pooled rent-distribution mechanism lacks the exact distribution quantum. Shanghai closes because all current-lease rent is prepaid through lease end."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_141",
+  "next_search_boundary": "FREEZE_SCAN140_EXACT_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONSUME_ANY_REVERSIBLE_ROUTE_FOR_F1_BEFORE_ANY_SCAN141_ADVANCE_NO_SCAN060_TO_140_REUSE_NO_GATE_RELAXATION",
+  "next_action": "OPEN_ONE_SCAN140_PR_FREEZE_FINAL_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONSUME_ANY_REVERSIBLE_PUBLIC_ROUTE_FOR_F1_THEN_DECIDE_PUBLIC_CAUSAL_DESCENT_OR_ADVANCE",
+  "scan_learnings": [
+    "HIGH_SURFACE_GROSS_WITH_EXACT_RENT_AND_PAID_CURSOR_STILL_REQUIRES_BUYER_SIDE_RECEIPT_SUCCESSION.",
+    "WHOLE_ASSET_RENT_CANNOT_BE_ASSIGNED_TO_A_FRACTIONAL_TITLE_PURCHASE_WITHOUT_SOURCE_BOUND_ALLOCATION.",
+    "CENTRALIZED_OWNER_COMMITTEE_RENT_COLLECTION_IS_A_LOW_TOUCH_CONTROL_MECHANISM_BUT_NO_RECEIPT_QUANTUM_MEANS_NO_ECONOMICS.",
+    "RENT_PREPAID_THROUGH_LEASE_END_IS_ZERO_FUTURE_BUYER_CONTRACTED_CASHFLOW_EVEN_WHEN_HISTORICAL_RENT_DIVIDED_BY_ENTRY_LOOKS_ATTRACTIVE."
+  ],
+  "source_urls": [
+    "https://www.sohu.com/a/1077209752_122455197",
+    "https://m.fang.com/fapai/ningde/out_12591444.html",
+    "https://fayuan.nanhai.gov.cn/cms/html/3334/2026/20260807095623164261319/20260807095623164261319_1.html",
+    "https://m.fang.com/fapai/sh/out_12658057.html",
+    "https://fayuan.nanhai.gov.cn/cms/html/3334/2026/20260910085629688936426/20260910085629688936426_1.html",
+    "https://www.ixbang.com/bid/detail/2271026A9CF253B8E9CBFA6309C75217.html",
+    "https://hn.bidcenter.com.cn/diqucontent-443745393-9.html"
+  ]
+}
