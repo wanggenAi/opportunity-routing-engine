@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "task_key": "commercial-attraction-scan-138",
-  "generation": 2,
+  "generation": 3,
   "status": "ACTIVE",
-  "reconciled_at": "2026-09-23T08:36:00Z",
+  "reconciled_at": "2026-09-23T08:29:00Z",
   "live_main": "1978cec0a33938e2f56e913eb34123b613c2ded3",
   "work_branch": "research/scan138-diverse-current-receipts",
-  "frozen_head": "4bcfbf9ffc54107de50963d288a3615e80095aae",
-  "stage": "SCAN138_PERSISTED_PR_OPEN_PENDING",
+  "frozen_head": "34eb12d1938cdc0c6ade8acf3c3a4c3abae7dc56",
+  "stage": "SCAN138_PR448_EXACT_HEAD_VALIDATION_PENDING",
   "scan_id": "ATTRACTION_SCAN_138",
   "durable_conclusions": [
     "Scan137 merged as main 1978cec0 after exact PR head CI 35835873563 and live TypeSafe/Jev 35835873687; Jev directed ADVANCE_TO_NEXT_SCAN with 4/4 NO_FURTHER_RESEARCH.",
@@ -16,7 +16,7 @@
     "Scan138 canonical scan, evidence, report, tests, machine state and TASK_STATE are persisted on research/scan138-diverse-current-receipts; four primary formations closed, zero retained, zero commercial promotion.",
     "Scan137 tests were made historical before PR validation so forward progress to Scan138 does not repeat the prior global-state pin failure."
   ],
-  "next_action": "Open exactly one PR from research/scan138-diverse-current-receipts to main; then record PR in TASK_STATE, freeze that resulting head, and require repository CI plus live TypeSafe/Jev.",
+  "next_action": "Require repository CI and live TypeSafe/Jev success on exact PR #448 head 34eb12d1938cdc0c6ade8acf3c3a4c3abae7dc56; consume any reversible directive; merge if green.",
   "pending_operation": null,
   "do_not_repeat": [
     "Do not reuse Scan060-137 formations or exact addresses.",
@@ -24,5 +24,8 @@
     "Do not reuse Scan136 Shanghai Pudong Avenue 1700 Lane 33 Room 201.",
     "Do not treat future prepaid-through-2030 rooftop rent as current inherited receipt continuity.",
     "Do not contact external parties or commit money without explicit authority."
-  ]
+  ],
+  "pr": 448,
+  "pr_status": "OPEN",
+  "pr_exact_head": "34eb12d1938cdc0c6ade8acf3c3a4c3abae7dc56"
 }
