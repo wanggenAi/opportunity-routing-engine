@@ -1,0 +1,88 @@
+{
+  "scan_id": "ATTRACTION_SCAN_150",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "67b69cfcd8cab36a6b19faf44173e5f19513728f",
+  "research_method": "BROAD_CURRENT_REALITY_CONTROLLED_INTERFACE_COMPARISON",
+  "sources": {
+    "VPP-NEA-20260817": {
+      "source_class": "CURRENT_NATIONAL_VIRTUAL_POWER_PLANT_MARKET",
+      "url": "https://www.nea.gov.cn/20260817/10ef4d7abc264738ba1dbd868863cd72/c.html",
+      "date": "2026-08-17",
+      "claim": "NEA describes virtual power plants as the aggregation/control layer for distributed storage, charging, generation and flexible loads, with participation in peak-shaving, frequency, demand-response and energy markets; current regional markets already admit VPP resources."
+    },
+    "VPP-NEA-20260427": {
+      "source_class": "CURRENT_VIRTUAL_POWER_PLANT_DEPLOYMENT_SCALE",
+      "url": "https://www.nea.gov.cn/20260427/4e33a1da7f694efb8ea36a4b42c222b7/c.html",
+      "date": "2026-04-27",
+      "claim": "NEA reported 470 virtual-power-plant projects by end-2025 and tested maximum regulation capability of 16.85 million kW, showing a deployed aggregation layer rather than an unowned matching edge."
+    },
+    "CARBON-SAMR-20260606": {
+      "source_class": "CURRENT_PRODUCT_CARBON_FOOTPRINT_VERIFICATION_ACCREDITATION",
+      "url": "https://www.samr.gov.cn/xw/sj/art/2026/art_edb16f6b674b4d3e9c185816c61897bd.html",
+      "date": "2026-06-06",
+      "claim": "SAMR/CNCA approved a CNAS accreditation regime for product-carbon-footprint verification institutions covering organization qualification, personnel competence, verification norms and recognition procedures."
+    },
+    "CARBON-SAMR-20260914": {
+      "source_class": "CURRENT_PRODUCT_CARBON_FOOTPRINT_CERTIFICATION_PILOT",
+      "url": "https://www.samr.gov.cn/xw/zj/art/2026/art_722720ac85c844f78cbaa02445a27ee8.html",
+      "date": "2026-09-14",
+      "claim": "SAMR reports a national product-carbon-footprint certification pilot with general rules, 17 product-specific rules and 26 selected certification institutions, making recognized verification/certification a governed service rail."
+    },
+    "PATENT-MOE-20260403": {
+      "source_class": "CURRENT_NATIONAL_UNIVERSITY_TECH_TRANSFER_PLATFORM",
+      "url": "https://www.moe.gov.cn/srcsite/A16/s7062/202604/t20260403_1432901.html",
+      "date": "2026-04-03",
+      "claim": "MOE's 2026 university patent commercialization action directs continued expansion of the China University Science and Technology Achievement Trading Platform with patent search, demand publishing, evaluation, intelligent matching and transaction brokerage."
+    },
+    "PATENT-CNIPA-20260325": {
+      "source_class": "CURRENT_PATENT_SUPPLY_DEMAND_MATCHING_SCALE",
+      "url": "https://www.cnipa.gov.cn/art/2026/3/25/art_55_205491.html",
+      "date": "2026-03-25",
+      "claim": "CNIPA reports a nationwide inventory of 1.349 million university/research patents, 680,000 promising invention patents and matching with 460,000 enterprises, alongside sharply growing transfer/licensing activity."
+    },
+    "LOWALT-SIP-20260715": {
+      "source_class": "CURRENT_LOW_ALTITUDE_LOGISTICS_SUPPLY_DEMAND_EVENT",
+      "url": "https://www.sipac.gov.cn/szgyyqenglish/News/202607/7c8b9a61cbf848aaad95a761847fc7f1.shtml",
+      "date": "2026-07-15",
+      "claim": "Suzhou Industrial Park brought together 11 enterprises needing low-altitude transport solutions and six service providers specifically to understand demand and facilitate supply-demand matching."
+    },
+    "LOWALT-MSA-20260618": {
+      "source_class": "CURRENT_OPERATIONAL_LOW_ALTITUDE_LOGISTICS_REGULATORY_BOUNDARY",
+      "url": "https://www.js.msa.gov.cn/art/2026/6/18/art_242_1603035.html",
+      "date": "2026-06-18",
+      "claim": "Nanjing Maritime Safety Administration reports a normal-operation waterborne drone logistics project proceeding through safety-operation filing and full-process government service, showing that lawful execution depends on regulated operating capability rather than matching alone."
+    },
+    "DATA-NDA-20260911": {
+      "source_class": "CURRENT_NATIONAL_DATA_PROPERTY_REGISTRATION_INFRASTRUCTURE",
+      "url": "https://www.nda.gov.cn/sjj/swdt/xwfb/0911/20260911171614017938821_pc.html",
+      "date": "2026-09-11",
+      "claim": "The National Data Administration launched the national data-property registration service and designated Beijing, Shanghai and Shenzhen data exchanges as registration institutions, providing a standardized rights and verification rail."
+    },
+    "DATA-BEIJING-20260709": {
+      "source_class": "CURRENT_PUBLIC_DATA_AUTHORIZED_OPERATION_RULE",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202607/t20260709_4754544.html",
+      "date": "2026-07-09",
+      "claim": "Beijing's 2026 public-data authorized-operation rules define implementation and authorized operating institutions, require lawful authorization and make qualified operators responsible for developing public data resources and fairly providing data products/services."
+    }
+  },
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_150-F1",
+    "ATTRACTION_SCAN_150-F2",
+    "ATTRACTION_SCAN_150-F3",
+    "ATTRACTION_SCAN_150-F4",
+    "ATTRACTION_SCAN_150-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "special_observation": {
+    "formation_id": "ATTRACTION_SCAN_150-F4",
+    "observation": "Suzhou Industrial Park directly observed 11 demand enterprises and six low-altitude service providers in a supply-demand matching event.",
+    "boundary": "The observation proves bilateral motion and a matching need, but not operator control of flight/site/safety/filing action gates."
+  },
+  "conclusion": "All five fields are closed at the initial attraction layer because decisive execution or acceptance remains inside current regulated, accredited, platform or infrastructure control surfaces.",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN151"
+}

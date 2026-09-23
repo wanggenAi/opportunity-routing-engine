@@ -6,7 +6,7 @@ from src.attraction_discovery import AttractionBeaconState, AttractionDiscoveryP
 from src.strategic_drift_guard import strategic_drift_errors
 
 ROOT=Path(__file__).resolve().parents[1]
-SCAN_PATH=ROOT/"data"/"research_runs"/"attraction_scan_149.json"
+SCAN_PATH=ROOT/"data"/"research_runs"/"attraction_scan_150.json"
 STATE_PATH=ROOT/"data"/"commercial_reset_state.json"
 
 def load(path):
@@ -31,8 +31,8 @@ def build_profile(scan,row):
         recurring_event_source_evidence=ev("recurring_event_source"),**raw["flags"]
     )
 
-class Scan149BroadRealityServiceRailsTests(unittest.TestCase):
-    def test_scan149_all_profiles_close_and_guard_passes(self):
+class Scan150BroadRealityControlledInterfacesTests(unittest.TestCase):
+    def test_all_profiles_close_and_guard_passes(self):
         scan=load(SCAN_PATH)
         self.assertEqual(strategic_drift_errors(scan),[])
         for row in scan["examined_formations"]:
@@ -42,16 +42,32 @@ class Scan149BroadRealityServiceRailsTests(unittest.TestCase):
         self.assertEqual(scan["active_commercial_candidate_promotions"],[])
         self.assertEqual(scan["active_transaction_unit_promotions"],[])
 
-    def test_scan149_is_fresh_and_machine_state_advances(self):
-        scan=load(SCAN_PATH); state=load(STATE_PATH)
-        self.assertTrue(scan["strategic_reboot"]["scan148_remote_local_execution_not_used_as_prior"])
-        self.assertGreaterEqual(int(state["last_completed_scan_id"].rsplit("_",1)[1]),149)
-        self.assertGreaterEqual(int(state["next_scan_id"].rsplit("_",1)[1]),150)
-        self.assertEqual(state["scan149_broad_reality_service_rails"]["final_jev_next_action"],"ADVANCE_TO_NEXT_SCAN")
+    def test_low_altitude_observation_does_not_fake_callable_gate(self):
+        scan=load(SCAN_PATH)
+        row=next(x for x in scan["examined_formations"] if x["formation_id"]=="ATTRACTION_SCAN_150-F4")
+        self.assertEqual(row["attraction_profile"]["scores"]["recurring_missing_edge"],2)
+        self.assertEqual(row["attraction_profile"]["scores"]["action_gate_callability"],1)
+        self.assertTrue(row["attraction_profile"]["flags"]["expert_matching_required_per_transaction"])
+        self.assertIn("11 demand enterprises",row["evidence_summary"])
+
+    def test_machine_state_reconciles_scan149_and_advances(self):
+        state=load(STATE_PATH)
+        self.assertEqual(state["last_completed_scan_id"],"ATTRACTION_SCAN_150")
+        self.assertEqual(state["next_scan_id"],"ATTRACTION_SCAN_151")
         self.assertEqual(state["active_commercial_candidates"],[])
         self.assertEqual(state["active_transaction_units"],[])
         self.assertEqual(state["first_external_value_flow"],"NOT_PROVEN")
-        self.assertEqual(state["scan148_cross_border_local_execution"]["final_jev_next_action"],"ADVANCE_TO_NEXT_SCAN")
+        scan149=state["scan149_broad_reality_service_rails"]
+        self.assertEqual(scan149["final_jev_run_id"],35877519098)
+        self.assertEqual(scan149["final_jev_effective_route_counts"],{"NO_FURTHER_RESEARCH":4})
+        self.assertEqual(scan149["merged_main_sha"],"69319e4852d1e27eefc78571684cfe6cf47e2ef2")
+
+    def test_all_five_authoritatively_resolved(self):
+        state=load(STATE_PATH)
+        resolved={row["formation_id"]:row["verdict"] for row in state["resolved_research_formations"]}
+        for suffix in ("F1","F2","F3","F4","F5"):
+            self.assertTrue(resolved[f"ATTRACTION_SCAN_150-{suffix}"].startswith("DEMOTED_"))
+        self.assertEqual(len(state["scan150_broad_reality_controlled_interfaces"]["authoritative_closures"]),5)
 
 if __name__=="__main__":
     unittest.main()

@@ -1,0 +1,899 @@
+{
+  "scan_id": "ATTRACTION_SCAN_150",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "FRESH_BROAD_CURRENT_REALITY_CONTROLLED_INTERFACES_AFTER_SCAN149_FINAL_CLOSURE",
+  "source_main_sha": "67b69cfcd8cab36a6b19faf44173e5f19513728f",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_149",
+    "prior_research_pr": 461,
+    "prior_research_merged_main_sha": "69319e4852d1e27eefc78571684cfe6cf47e2ef2",
+    "prior_research_exact_head": "e5463fc28b9c93c84f54084f12742578be886a0c",
+    "prior_research_repository_ci_run_id": 35877519009,
+    "prior_research_repository_ci_test_job_id": 107237180708,
+    "prior_research_live_jev_run_id": 35877519098,
+    "prior_research_live_jev_artifact_id": 10758157725,
+    "prior_research_live_jev_artifact_digest": "sha256:56a95353023bca124faf284fc3e961aa95324e46c4d7db9ed59705cfeab19645",
+    "prior_durable_checkpoint_pr": 462,
+    "prior_durable_checkpoint_exact_head": "3b41b519576cd7f6bbcd5edb5fff0b48d7ac733f",
+    "prior_durable_checkpoint_repository_ci_run_id": 35878145695,
+    "prior_durable_checkpoint_live_jev_run_id": 35878146071,
+    "prior_durable_checkpoint_live_jev_artifact_id": 10758024661,
+    "prior_durable_checkpoint_live_jev_artifact_digest": "sha256:fd59be6f24f9f2375a22fc7b3b920db1611849fd8f8001069bf764711efc36b5",
+    "prior_durable_checkpoint_effective_routes_all_no_further_research": true,
+    "prior_durable_checkpoint_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "prior_post_merge_handoff_pr": 463,
+    "prior_post_merge_handoff_main_sha": "67b69cfcd8cab36a6b19faf44173e5f19513728f",
+    "scan149_service_rails_not_used_as_prior": true
+  },
+  "broad_reality_domains_examined": [
+    "DISTRIBUTED_ENERGY_FLEXIBILITY_AND_VIRTUAL_POWER_PLANTS",
+    "PRODUCT_CARBON_FOOTPRINT_VERIFICATION",
+    "UNIVERSITY_PATENT_COMMERCIALIZATION",
+    "LOW_ALTITUDE_LOGISTICS_MATCHING",
+    "PUBLIC_DATA_AUTHORIZED_OPERATION"
+  ],
+  "source_registry": {
+    "VPP-NEA-20260817": {
+      "source_class": "CURRENT_NATIONAL_VIRTUAL_POWER_PLANT_MARKET",
+      "url": "https://www.nea.gov.cn/20260817/10ef4d7abc264738ba1dbd868863cd72/c.html",
+      "date": "2026-08-17",
+      "claim": "NEA describes virtual power plants as the aggregation/control layer for distributed storage, charging, generation and flexible loads, with participation in peak-shaving, frequency, demand-response and energy markets; current regional markets already admit VPP resources."
+    },
+    "VPP-NEA-20260427": {
+      "source_class": "CURRENT_VIRTUAL_POWER_PLANT_DEPLOYMENT_SCALE",
+      "url": "https://www.nea.gov.cn/20260427/4e33a1da7f694efb8ea36a4b42c222b7/c.html",
+      "date": "2026-04-27",
+      "claim": "NEA reported 470 virtual-power-plant projects by end-2025 and tested maximum regulation capability of 16.85 million kW, showing a deployed aggregation layer rather than an unowned matching edge."
+    },
+    "CARBON-SAMR-20260606": {
+      "source_class": "CURRENT_PRODUCT_CARBON_FOOTPRINT_VERIFICATION_ACCREDITATION",
+      "url": "https://www.samr.gov.cn/xw/sj/art/2026/art_edb16f6b674b4d3e9c185816c61897bd.html",
+      "date": "2026-06-06",
+      "claim": "SAMR/CNCA approved a CNAS accreditation regime for product-carbon-footprint verification institutions covering organization qualification, personnel competence, verification norms and recognition procedures."
+    },
+    "CARBON-SAMR-20260914": {
+      "source_class": "CURRENT_PRODUCT_CARBON_FOOTPRINT_CERTIFICATION_PILOT",
+      "url": "https://www.samr.gov.cn/xw/zj/art/2026/art_722720ac85c844f78cbaa02445a27ee8.html",
+      "date": "2026-09-14",
+      "claim": "SAMR reports a national product-carbon-footprint certification pilot with general rules, 17 product-specific rules and 26 selected certification institutions, making recognized verification/certification a governed service rail."
+    },
+    "PATENT-MOE-20260403": {
+      "source_class": "CURRENT_NATIONAL_UNIVERSITY_TECH_TRANSFER_PLATFORM",
+      "url": "https://www.moe.gov.cn/srcsite/A16/s7062/202604/t20260403_1432901.html",
+      "date": "2026-04-03",
+      "claim": "MOE's 2026 university patent commercialization action directs continued expansion of the China University Science and Technology Achievement Trading Platform with patent search, demand publishing, evaluation, intelligent matching and transaction brokerage."
+    },
+    "PATENT-CNIPA-20260325": {
+      "source_class": "CURRENT_PATENT_SUPPLY_DEMAND_MATCHING_SCALE",
+      "url": "https://www.cnipa.gov.cn/art/2026/3/25/art_55_205491.html",
+      "date": "2026-03-25",
+      "claim": "CNIPA reports a nationwide inventory of 1.349 million university/research patents, 680,000 promising invention patents and matching with 460,000 enterprises, alongside sharply growing transfer/licensing activity."
+    },
+    "LOWALT-SIP-20260715": {
+      "source_class": "CURRENT_LOW_ALTITUDE_LOGISTICS_SUPPLY_DEMAND_EVENT",
+      "url": "https://www.sipac.gov.cn/szgyyqenglish/News/202607/7c8b9a61cbf848aaad95a761847fc7f1.shtml",
+      "date": "2026-07-15",
+      "claim": "Suzhou Industrial Park brought together 11 enterprises needing low-altitude transport solutions and six service providers specifically to understand demand and facilitate supply-demand matching."
+    },
+    "LOWALT-MSA-20260618": {
+      "source_class": "CURRENT_OPERATIONAL_LOW_ALTITUDE_LOGISTICS_REGULATORY_BOUNDARY",
+      "url": "https://www.js.msa.gov.cn/art/2026/6/18/art_242_1603035.html",
+      "date": "2026-06-18",
+      "claim": "Nanjing Maritime Safety Administration reports a normal-operation waterborne drone logistics project proceeding through safety-operation filing and full-process government service, showing that lawful execution depends on regulated operating capability rather than matching alone."
+    },
+    "DATA-NDA-20260911": {
+      "source_class": "CURRENT_NATIONAL_DATA_PROPERTY_REGISTRATION_INFRASTRUCTURE",
+      "url": "https://www.nda.gov.cn/sjj/swdt/xwfb/0911/20260911171614017938821_pc.html",
+      "date": "2026-09-11",
+      "claim": "The National Data Administration launched the national data-property registration service and designated Beijing, Shanghai and Shenzhen data exchanges as registration institutions, providing a standardized rights and verification rail."
+    },
+    "DATA-BEIJING-20260709": {
+      "source_class": "CURRENT_PUBLIC_DATA_AUTHORIZED_OPERATION_RULE",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202607/t20260709_4754544.html",
+      "date": "2026-07-09",
+      "claim": "Beijing's 2026 public-data authorized-operation rules define implementation and authorized operating institutions, require lawful authorization and make qualified operators responsible for developing public data resources and fairly providing data products/services."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_150-F1",
+      "title": "Distributed flexible loads / storage / charging resources -> power markets needing dispatchable flexibility",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_DISTRIBUTED_ENERGY_FLEXIBILITY",
+      "evidence_summary": "Flexible-load and storage resources are replenishing and valuable, but current virtual-power-plant aggregators own telemetry, aggregation, dispatch, market registration and settlement; matching alone cannot call the action gate.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 1,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "b_voluntary_motion": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "state_dependent_value_jump": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "decision_window": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "bridge_compression": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "activation_ease": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "self_propulsion": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "operator_control": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "a_discoverability": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "b_discoverability": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "match_resolvability": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "action_gate_callability": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "a_population_replenishment": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "b_population_replenishment": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "recurring_connection_pressure": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "recurring_missing_edge": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ],
+          "recurring_event_source": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_VPP_FLEXIBILITY_FIELD_REAL_BUT_VIRTUAL_POWER_PLANT_AGGREGATORS_ALREADY_OWN_TELEMETRY_DISPATCH_MARKET_REGISTRATION_AND_SETTLEMENT",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-NEA-20260817",
+            "VPP-NEA-20260427"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "VPP-NEA-20260817",
+          "VPP-NEA-20260427"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_150-F2",
+      "title": "Exporters / manufacturers needing recognized product carbon-footprint evidence -> accredited verification and certification institutions",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PRODUCT_CARBON_FOOTPRINT_VERIFICATION",
+      "evidence_summary": "Demand is increasing under green-trade and carbon-accounting requirements, but recognized output depends on accredited institution scope, competent personnel, methodology and formal verification/certification procedures.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 1,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "b_voluntary_motion": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "state_dependent_value_jump": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "decision_window": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "bridge_compression": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "activation_ease": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "self_propulsion": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "operator_control": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "a_discoverability": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "b_discoverability": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "match_resolvability": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "action_gate_callability": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "a_population_replenishment": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "b_population_replenishment": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "recurring_connection_pressure": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "recurring_missing_edge": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ],
+          "recurring_event_source": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_PRODUCT_CARBON_FOOTPRINT_FIELD_REAL_BUT_ACCREDITATION_METHOD_SCOPE_AND_RECOGNIZED_VERIFICATION_CONTROL_ACCEPTANCE",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CARBON-SAMR-20260606",
+            "CARBON-SAMR-20260914"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "CARBON-SAMR-20260606",
+          "CARBON-SAMR-20260914"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_150-F3",
+      "title": "Universities / research institutes with transferable patents -> enterprises seeking applicable technology",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_UNIVERSITY_PATENT_COMMERCIALIZATION",
+      "evidence_summary": "Both patent supply and enterprise demand are large, but the national university technology-trading platform already exposes patent search, demand publishing, evaluation, intelligent matching and brokerage, while technology managers and validation control commercialization.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "b_voluntary_motion": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "state_dependent_value_jump": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "decision_window": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "bridge_compression": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "activation_ease": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "self_propulsion": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "operator_control": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "a_discoverability": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "b_discoverability": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "match_resolvability": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "action_gate_callability": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "a_population_replenishment": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "b_population_replenishment": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "recurring_connection_pressure": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "recurring_missing_edge": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ],
+          "recurring_event_source": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_UNIVERSITY_PATENT_TRANSFER_FIELD_REGENERATIVE_BUT_NATIONAL_PLATFORM_AND_TECH_TRANSFER_NETWORK_ALREADY_OWN_DISCOVERY_MATCHING_EVALUATION_AND_TRANSACTION_SUPPORT",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PATENT-MOE-20260403",
+            "PATENT-CNIPA-20260325"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "PATENT-MOE-20260403",
+          "PATENT-CNIPA-20260325"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_150-F4",
+      "title": "Enterprises with low-altitude freight missions -> qualified drone logistics service providers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_LOW_ALTITUDE_LOGISTICS_MATCHING",
+      "evidence_summary": "A current Suzhou event directly surfaced 11 demand enterprises and six service providers, proving bilateral motion and a visible matching gap; however flight execution still depends on route/site/safety/filing and specialist operating capability, so a generic router cannot independently call the action gate.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 1,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "b_voluntary_motion": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "state_dependent_value_jump": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "decision_window": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "bridge_compression": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "activation_ease": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "self_propulsion": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "operator_control": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "a_discoverability": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "b_discoverability": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "match_resolvability": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "action_gate_callability": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "a_population_replenishment": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "b_population_replenishment": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "recurring_connection_pressure": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "recurring_missing_edge": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ],
+          "recurring_event_source": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": true,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_LOW_ALTITUDE_LOGISTICS_MATCHING_FIELD_OBSERVED_BILATERAL_DEMAND_BUT_REGULATED_OPERATION_SITE_ROUTE_AND_SAFETY_CAPABILITY_DOMINATE_EXECUTION",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOWALT-SIP-20260715",
+            "LOWALT-MSA-20260618"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "LOWALT-SIP-20260715",
+          "LOWALT-MSA-20260618"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_150-F5",
+      "title": "Public-data holders / authorized operators -> developers and enterprises needing compliant data products",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PUBLIC_DATA_AUTHORIZED_OPERATION",
+      "evidence_summary": "Public data is being opened for value creation, but rights registration, authorization, qualified operation, product compliance and data-exchange rails are explicit institutional control surfaces; an outside light router cannot lawfully substitute for them.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 1,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "b_voluntary_motion": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "state_dependent_value_jump": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "decision_window": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "bridge_compression": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "activation_ease": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "self_propulsion": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "operator_control": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "a_discoverability": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "b_discoverability": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "match_resolvability": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "action_gate_callability": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "a_population_replenishment": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "b_population_replenishment": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "recurring_connection_pressure": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "recurring_missing_edge": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ],
+          "recurring_event_source": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_PUBLIC_DATA_VALUE_FIELD_REAL_BUT_RIGHTS_REGISTRATION_AUTHORIZED_OPERATION_COMPLIANCE_AND_DATA_EXCHANGE_RAILS_CONTROL_ACCESS",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DATA-NDA-20260911",
+            "DATA-BEIJING-20260709"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "DATA-NDA-20260911",
+          "DATA-BEIJING-20260709"
+        ]
+      }
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Five fresh controlled-interface fields show recurring value and bilateral motion, but current aggregators, accreditation, national transaction platforms, regulated operating capability or authorized data-operation rails own the decisive action/acceptance surface."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_151",
+  "next_search_boundary": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN150_THEN_ADVANCE_TO_FRESH_REALITY_WITHOUT_RESCUING_CONTROLLED_INTERFACE_FIELDS",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN151_IF_EFFECTIVE_ROUTES_ARE_NO_FURTHER_RESEARCH",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scan149_service_rails_not_used_as_prior": true,
+    "incumbent_presence_evaluated_before_retention": true,
+    "regulated_or_accredited_control_not_mistaken_for_market_gap": true,
+    "visible_matchmaking_event_not_mistaken_for_callable_execution_rail": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "A_VISIBLE_SUPPLY_DEMAND_EVENT_CAN_PROVE_BILATERAL_MOTION_WITHOUT_PROVING_A_CALLABLE_ACTION_GATE.",
+    "REGULATED_OR_ACCREDITED_ACCEPTANCE_SURFACES_DOMINATE_LIGHTWEIGHT_MATCHING_VALUE.",
+    "NATIONAL_TRANSACTION_AND_REGISTRATION_PLATFORMS_REMOVE_GENERIC_DISCOVERY_AS_A_DISTINCT_CONTROL_ASSET.",
+    "DISTRIBUTED_RESOURCE_VALUE_DOES_NOT_CREATE_A_LIGHT_ROUTER_WHEN_TELEMETRY_DISPATCH_AND_SETTLEMENT_MUST_BE_OWNED.",
+    "PUBLIC_DATA_VALUE_CREATION_REMAINS_INSIDE_EXPLICIT_AUTHORIZATION_AND_COMPLIANCE_RAILS."
+  ],
+  "source_urls": [
+    "https://www.nea.gov.cn/20260817/10ef4d7abc264738ba1dbd868863cd72/c.html",
+    "https://www.nea.gov.cn/20260427/4e33a1da7f694efb8ea36a4b42c222b7/c.html",
+    "https://www.samr.gov.cn/xw/sj/art/2026/art_edb16f6b674b4d3e9c185816c61897bd.html",
+    "https://www.samr.gov.cn/xw/zj/art/2026/art_722720ac85c844f78cbaa02445a27ee8.html",
+    "https://www.moe.gov.cn/srcsite/A16/s7062/202604/t20260403_1432901.html",
+    "https://www.cnipa.gov.cn/art/2026/3/25/art_55_205491.html",
+    "https://www.sipac.gov.cn/szgyyqenglish/News/202607/7c8b9a61cbf848aaad95a761847fc7f1.shtml",
+    "https://www.js.msa.gov.cn/art/2026/6/18/art_242_1603035.html",
+    "https://www.nda.gov.cn/sjj/swdt/xwfb/0911/20260911171614017938821_pc.html",
+    "https://www.beijing.gov.cn/zhengce/zhengcefagui/202607/t20260709_4754544.html"
+  ]
+}
