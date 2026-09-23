@@ -335,7 +335,7 @@
   "last_completed_scan_id": "ATTRACTION_SCAN_140",
   "last_resolved_formation_id": "ATTRACTION_SCAN_140-F4",
   "next_scan_id": "ATTRACTION_SCAN_141",
-  "current_research_action": "FREEZE_SCAN140_F1_ROUTE_CONSUMPTION_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONSUME_ANY_NEW_REVERSIBLE_PUBLIC_ROUTE_BEFORE_MERGE_OR_SCAN141",
+  "current_research_action": "FREEZE_SCAN140_SECOND_ROUTE_CONSUMPTION_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_IF_NO_NEW_ROUTE_CLASS_MERGE_PR450_AND_ADVANCE_SCAN141",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -1933,7 +1933,7 @@
     "purchase_authorized": false
   },
   "last_completed_scan_file": "data/research_runs/attraction_scan_140.json",
-  "last_completed_scan_result": "ONE_RETAINED_RESEARCH_ZERO_COMMERCIAL_PROMOTION_F1_PUBLIC_RENT_SUCCESSION_RULE_ADVANCED_BY_LIVE_JEV_CAUSAL_DESCENT_FINAL_HEAD_REVALIDATION_PENDING",
+  "last_completed_scan_result": "ONE_RETAINED_RESEARCH_ZERO_COMMERCIAL_PROMOTION_F1_PUBLIC_CAUSAL_DESCENT_EXHAUSTED_AT_FUTURE_EVENT_OR_CASE_SPECIFIC_DOCUMENT_FINAL_HEAD_REVALIDATION_PENDING",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
     "evidence_artifact": "data/research_runs/scan136_current_asset_receipts_evidence.json",
@@ -2186,9 +2186,9 @@
     "pooled_distribution_disconfirmation": "NANCHONG_OWNERS_COMMITTEE_COLLECTION_AND_AREA_PRO_RATA_DISTRIBUTION_EXACT_QUANTUM_MISSING",
     "prepayment_disconfirmation": "SHANGHAI_RMB75000_YEAR_FULLY_PREPAID_THROUGH_EXACT_LEASE_END_ZERO_UNPREPAID_BUYER_RECEIPT",
     "next_scan_id": "ATTRACTION_SCAN_141",
-    "next_action": "FREEZE_ROUTE_CONSUMPTION_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONSUME_ANY_NEW_REVERSIBLE_PUBLIC_ROUTE_IF_NONE_MERGE_PR450_AND_ADVANCE_SCAN141",
+    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_IF_NO_NEW_ROUTE_CLASS_MERGE_PR450_AND_ADVANCE_SCAN141",
     "exact_head_validation_status": "INITIAL_SCAN_HEAD_SUCCESS_ROUTE_CONSUMPTION_HEAD_REVALIDATION_PENDING",
-    "jev_route_status": "CONSUMED_F1_CAUSAL_DESCENT_ROUTE_CONSUMPTION_HEAD_REVALIDATION_PENDING",
+    "jev_route_status": "TWO_F1_CAUSAL_DESCENT_PASSES_CONSUMED_PUBLIC_FRONTIER_EXHAUSTED_FINAL_HEAD_REVALIDATION_PENDING",
     "initial_validated_head_sha": "6b57d4c502104e1c6a24f481ddac7aaa52926bdc",
     "initial_repository_ci_run_id": 35842823646,
     "jev_run_id": 35842823841,
@@ -2218,19 +2218,37 @@
     "f1_state_fingerprint": "e2c540f3951363ea7a23",
     "route_consumed": true,
     "consumed_routes": [
+      "CAUSAL_DESCENT",
       "CAUSAL_DESCENT"
     ],
-    "public_research_resolution": "PARTIAL_ADVANCE_PUBLIC_RENT_SUCCESSION_EVIDENCED_TRANSFER_EVENT_AND_FIRST_UNPREPAID_DUE_REMAIN_UNBOUND",
+    "public_research_resolution": "EXHAUSTED_AT_FUTURE_TRANSFER_EVENT_OR_CASE_SPECIFIC_LEASE_RENT_LEDGER_BOUNDARY",
     "evidence_artifact": "data/research_runs/scan140_f1_causal_descent_evidence.json",
     "report": "docs/research/SCAN140_F1_CAUSAL_DESCENT_2026-09-23.md",
-    "formation_status": "RETAINED_RESEARCH_BLOCKED_ON_FUTURE_TRANSFER_EVENT_AND_FIRST_UNPREPAID_RECEIPT_BINDING",
-    "next_evidence_class": "FUTURE_PUBLIC_AUCTION_OUTCOME_AND_AUCTION_COMPLETION_ADJUDICATION_SERVICE_IF_SALE_OCCURS_OR_UNDERLYING_LEASE_RENT_LEDGER",
+    "formation_status": "RETAINED_RESEARCH_PUBLIC_CAUSAL_DESCENT_EXHAUSTED_BLOCKED_ON_FUTURE_TRANSFER_EVENT_OR_CASE_SPECIFIC_SOURCE_DOCUMENT",
+    "next_evidence_class": "FUTURE_PUBLIC_WEIYUAN_AUCTION_OUTCOME_AND_AUCTION_COMPLETION_ADJUDICATION_SERVICE_IF_SALE_OCCURS_OR_UNDERLYING_CASE_SPECIFIC_LEASE_RENT_LEDGER",
     "external_contact_performed": false,
     "external_contact_authorized": false,
     "commercial_promotion": false,
     "bid_authorized": false,
     "deposit_authorized": false,
     "purchase_authorized": false,
-    "scan141_gate": "UNBLOCKED_SUBJECT_TO_EXACT_HEAD_CI_AND_LIVE_JEV_NO_NEW_REVERSIBLE_ROUTE_CLASS"
+    "scan141_gate": "UNBLOCKED_SUBJECT_TO_EXACT_HEAD_CI_AND_LIVE_JEV_NO_NEW_REVERSIBLE_ROUTE_CLASS",
+    "route_history": [
+      {
+        "exact_head_sha": "6b57d4c502104e1c6a24f481ddac7aaa52926bdc",
+        "jev_run_id": 35842823841,
+        "jev_artifact_id": 10741993428,
+        "state_fingerprint": "e2c540f3951363ea7a23",
+        "route": "CAUSAL_DESCENT"
+      },
+      {
+        "exact_head_sha": "39ee2b3f5f67e47a5b551483ce10645af9783421",
+        "jev_run_id": 35844974166,
+        "jev_artifact_id": 10743175978,
+        "jev_artifact_digest": "sha256:d41da181b263a6fa0ca752e83101d8ba7445cba944478c44022a88069b386d93",
+        "state_fingerprint": "b2f4a48e8c54626d1578",
+        "route": "CAUSAL_DESCENT"
+      }
+    ]
   }
 }
