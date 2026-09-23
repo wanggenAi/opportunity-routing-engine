@@ -29,7 +29,7 @@ SCAN160_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 `research/scan160-precommit-operational-continuity`.
 
 ## Active PR
-Not opened yet. Create the Scan 160 PR after this checkpoint and freeze its exact head.
+PR #475 — `Run Scan 160 precommit operational continuity sweep` — OPEN.
 
 ## CI
 - Scan 160 exact-head repository CI: PENDING.
@@ -59,7 +59,7 @@ Pre-commit visibility improves timing but does not by itself create a routable m
 No human blocker. Scan 160 exact-head repository CI and real TypeSafe/Jev are pending.
 
 ## Next Action
-Open/freeze the Scan 160 PR exact head; require exact-head repository CI + live TypeSafe/Jev; consume any reversible route, otherwise merge and advance to Scan 161.
+Freeze PR #475 exact head; require exact-head repository CI + live TypeSafe/Jev; consume any reversible route, otherwise merge and advance to Scan 161.
 
 ## Do Not Repeat
 Do not re-scan Scan142–160 domains as new ontology; do not treat a real rental market as proof of nonexpert matching; do not substitute drinking water for industrial process water; do not route hazardous/safety-sensitive continuity work without an evidenced safe standard rail; do not weaken `UNKNOWN != PASS`.
@@ -74,7 +74,7 @@ Use `state/chatgpt-recovery` only as control-plane recovery state; live GitHub r
 None.
 
 ## Resume Cursor
-Scan 160 persisted on `research/scan160-precommit-operational-continuity`; PR creation and exact-head validation remain.
+Scan 160 persisted on `research/scan160-precommit-operational-continuity`; PR #475 is open and exact-head validation remains.
 
 ## Safe Re-entry
 Re-read live main, open PRs and exact-head Actions before mutating. Do not repeat Scan160 research if the persisted artifacts and PR head already exist.
