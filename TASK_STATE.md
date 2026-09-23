@@ -26,15 +26,15 @@ SCAN149_MERGED_FINAL_ALL_ROUTES_CLOSED_READY_FOR_SCAN150
 #143 — `P0: Clean-slate Attraction Field -> first external value flow` — OPEN.
 
 ## Active Branch
-`checkpoint/scan149-finalize`.
+No substantive research branch. Durable state is on `main`; create a fresh Scan 150 branch only when Scan 150 starts.
 
 ## Active PR
-Checkpoint finalization PR pending creation.
+No substantive research PR. Scan 149 research PR #461 and durable-checkpoint PR #462 are merged.
 
 ## CI
 - Scan 149 final research head: repository test job SUCCESS; real Jev SUCCESS.
-- This checkpoint-only branch must pass repository CI and real TypeSafe/Jev before merge.
-- After checkpoint merge, next substantive work is Scan 150.
+- Durable-checkpoint PR #462 exact head `3b41b519576cd7f6bbcd5edb5fff0b48d7ac733f`: repository CI `35878145695` SUCCESS; real TypeSafe/Jev `35878146071` SUCCESS; 4/4 `NO_FURTHER_RESEARCH`; continuation `ADVANCE_TO_NEXT_SCAN`.
+- Next substantive validation cycle belongs to Scan 150.
 
 ## Latest Artifact / Persisted State
 - `data/research_runs/attraction_scan_149.json`
@@ -58,7 +58,7 @@ Scan 149 found genuine recurring activity but no unowned light routing edge. Cur
 No human blocker.
 
 ## Next Action
-Merge this checkpoint-only finalization after exact-head CI/Jev, then begin Scan 150 from fresh broad current reality.
+Start Scan 150 from fresh broad current reality on a new branch from live `main`; do not rescue Scan 148 or Scan 149 fields without genuinely new contradictory evidence.
 
 ## Do Not Repeat
 - Do not reopen Scan 148 remote-to-local execution or Scan 149 F1-F4 without genuinely new contradictory evidence.
