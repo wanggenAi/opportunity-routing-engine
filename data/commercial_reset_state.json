@@ -1925,6 +1925,55 @@
     "commercial_promotion": false,
     "bid_authorized": false,
     "deposit_authorized": false,
-    "purchase_authorized": false
+    "purchase_authorized": false,
+    "route_history": [
+      {
+        "stage": "MAIN_PUSH_AFTER_PR445_MERGE",
+        "head_sha": "16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1",
+        "jev_run_id": 35830677629,
+        "jev_artifact_id": 10737500478,
+        "jev_artifact_digest": "sha256:fc350f38f5a29968b2c82e0af389920a3372e770d8293312c2c49a43975a8b1f",
+        "state_fingerprints": {
+          "ATTRACTION_SCAN_136-F1": "d7b4f0dbb703332642d8",
+          "ATTRACTION_SCAN_136-F2": "3c2d589a58bc92e6596a"
+        },
+        "routes": {
+          "ATTRACTION_SCAN_136-F1": "EXACT_INCUMBENT_PREFLIGHT",
+          "ATTRACTION_SCAN_136-F2": "CAUSAL_DESCENT",
+          "ATTRACTION_SCAN_136-F3": "NO_FURTHER_RESEARCH",
+          "ATTRACTION_SCAN_136-F4": "NO_FURTHER_RESEARCH"
+        }
+      },
+      {
+        "stage": "PR446_EXACT_HEAD_E4FF17EC",
+        "head_sha": "e4ff17ec81002adf2e262b77d4bdf36db8d3dfa1",
+        "repository_ci_run_id": 35832459988,
+        "jev_run_id": 35832460027,
+        "jev_artifact_id": 10738165696,
+        "jev_artifact_digest": "sha256:382c3a1de2c270744de591667f45896eff4e075cf61fac4f7467e6f0c4b827fd",
+        "state_fingerprints": {
+          "ATTRACTION_SCAN_136-F1": "d7b4f0dbb703332642d8",
+          "ATTRACTION_SCAN_136-F2": "3c2d589a58bc92e6596a"
+        },
+        "routes": {
+          "ATTRACTION_SCAN_136-F1": "CAUSAL_DESCENT",
+          "ATTRACTION_SCAN_136-F2": "CAUSAL_DESCENT",
+          "ATTRACTION_SCAN_136-F3": "NO_FURTHER_RESEARCH",
+          "ATTRACTION_SCAN_136-F4": "NO_FURTHER_RESEARCH"
+        }
+      }
+    ],
+    "consumed_f1_routes": [
+      "EXACT_INCUMBENT_PREFLIGHT",
+      "CAUSAL_DESCENT"
+    ],
+    "consumed_f2_routes": [
+      "CAUSAL_DESCENT"
+    ],
+    "latest_validated_pr_head": "e4ff17ec81002adf2e262b77d4bdf36db8d3dfa1",
+    "latest_repository_ci_run_id": 35832459988,
+    "latest_jev_run_id": 35832460027,
+    "latest_jev_artifact_id": 10738165696,
+    "latest_jev_artifact_digest": "sha256:382c3a1de2c270744de591667f45896eff4e075cf61fac4f7467e6f0c4b827fd"
   }
 }

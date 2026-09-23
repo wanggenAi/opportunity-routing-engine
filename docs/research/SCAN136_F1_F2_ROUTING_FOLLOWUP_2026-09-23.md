@@ -60,3 +60,22 @@ Both latest Jev routes are consumed without external side effects.
 - No bid, deposit, purchase or outreach is authorized.
 - The next decisive evidence for F1/F2 is written court/auction-assistance/tenant confirmation or the underlying lease/ledger/source documents.
 - Because the reversible public routes are exhausted at that boundary, `ATTRACTION_SCAN_137` is unblocked.
+
+
+## PR #446 exact-head Jev reroute and F1 causal descent
+
+The first final-head validation on `e4ff17ec81002adf2e262b77d4bdf36db8d3dfa1` passed repository CI `35832459988` and live Jev `35832460027` (artifact `10738165696`, digest `sha256:382c3a1de2c270744de591667f45896eff4e075cf61fac4f7467e6f0c4b827fd`).
+
+For the same F1 state fingerprint `d7b4f0dbb703332642d8`, Jev changed the shadow route from the prior main-push `EXACT_INCUMBENT_PREFLIGHT` to `CAUSAL_DESCENT`. F2 remained `CAUSAL_DESCENT`. Because the route is advisory and reversible, the session consumed the additional F1 causal route instead of treating the earlier route as authoritative.
+
+F1 causal result:
+
+- rent stayed fixed at RMB 5,000/month;
+- appraisal was approximately RMB 1,192,500;
+- first-auction floor RMB 954,000 implied about 6.29% nominal gross;
+- second-auction floor RMB 763,200 implies about 7.86% nominal gross;
+- therefore the apparent yield improvement is created by the auction discount (20% below appraisal at first auction; 36% below appraisal at second auction), not by improved cashflow;
+- the discount is paired with unresolved tenant/ledger/deposit quality, transfer-registration timing, land-use termination, net tax/cost and physical-condition risk;
+- public evidence cannot decide whether that discount adequately compensates for the unresolved risks.
+
+So both observed reversible F1 routes—`EXACT_INCUMBENT_PREFLIGHT` and `CAUSAL_DESCENT`—are now consumed to the same external/source-document boundary. F2's `CAUSAL_DESCENT` remains consumed to the same boundary.

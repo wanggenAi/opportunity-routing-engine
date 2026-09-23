@@ -26,8 +26,10 @@ Scan 135 F1 remains independently blocked on external written court / auction-as
 - PR #445 exact head `d91d34790fb07c3e45bce977196092c00b86e8da`: repository CI run `35830529477` success.
 - Main-push repository CI run `35830677638`: success.
 - Main-push live TypeSafe/Jev run `35830677629`: success; artifact `10737500478`; digest `sha256:fc350f38f5a29968b2c82e0af389920a3372e770d8293312c2c49a43975a8b1f`.
-- Latest main-push Jev routes: F1 `EXACT_INCUMBENT_PREFLIGHT`; F2 `CAUSAL_DESCENT`; F3/F4 `NO_FURTHER_RESEARCH`.
-- Jev continuation: `EXECUTE_RESEARCH_QUEUE`; autonomous reversible continuation allowed; external side effects and commercial promotion not authorized.
+- Main-push Jev routes: F1 `EXACT_INCUMBENT_PREFLIGHT`; F2 `CAUSAL_DESCENT`; F3/F4 `NO_FURTHER_RESEARCH`.
+- PR #446 head `e4ff17ec81002adf2e262b77d4bdf36db8d3dfa1`: repository CI `35832459988` success and live Jev `35832460027` success; the same F1 fingerprint re-routed to `CAUSAL_DESCENT`, F2 remained `CAUSAL_DESCENT`, F3/F4 remained `NO_FURTHER_RESEARCH`.
+- Both observed reversible F1 routes (`EXACT_INCUMBENT_PREFLIGHT` + `CAUSAL_DESCENT`) and F2 `CAUSAL_DESCENT` have now been consumed to the same public-evidence boundary.
+- Jev continuation remains `EXECUTE_RESEARCH_QUEUE`; autonomous reversible continuation allowed; external side effects and commercial promotion not authorized.
 
 ## Active Issue
 
@@ -81,6 +83,7 @@ Machine truth on this branch:
 - F1 exact-incumbent/control-surface preflight: current court/title/lease rails are mature; no separate intermediary edge is claimed; incumbent presence does not automatically close the ownership-cashflow formation.
 - F1 current second-auction wording is stricter than first auction: buyer rent starts from transfer registration; transfer is stated possible; actual adjudication/registration date remains unbound.
 - F1 exact public search did not expose tenant identity/payment history, full lease/deposit/ledger, land-use termination or physical condition.
+- F1 causal descent shows the 7.86% surface yield is discount-driven: rent stayed RMB 5,000/month while price fell from approximately RMB 1.1925m appraisal to RMB 954k first-auction floor and RMB 763.2k second-auction floor. Public evidence cannot bind whether the 36% appraisal discount compensates for the unresolved risks.
 - F2 public causal descent: Civil Code Article 725 preserves lease validity and judicial-auction rules bind generic ownership transfer, but exact prepaid-rent allocation, buyer-specific first rent cycle, actual case transfer timing, tenant/deposit/ledger and costs remain non-public.
 - F2 notice explicitly routes detailed lease content to telephone consultation, so the decisive next evidence requires external contact or source documents.
 - F1/F2 remain research-only; no commercial promotion or transaction authority was created.
@@ -102,7 +105,7 @@ F2 has stronger surface gross economics, but its approximately 26.8-month unprep
 
 ## Next Action
 
-Freeze the live PR #446 head after this TASK_STATE update, require exact-head repository CI plus live TypeSafe/Jev to reach terminal success, consume any reversible directive, merge only if the final head is green, then begin fresh `ATTRACTION_SCAN_137`.
+Freeze the new PR #446 head created by this route-history update, require exact-head repository CI plus live TypeSafe/Jev success, confirm no new unconsumed route class is introduced for F1/F2, merge if green, then begin fresh `ATTRACTION_SCAN_137`.
 
 ## Do Not Repeat
 

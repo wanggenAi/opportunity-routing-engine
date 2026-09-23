@@ -23,7 +23,22 @@ class Scan136RoutingFollowupTests(unittest.TestCase):
             evidence["source_jev"]["routes"]["ATTRACTION_SCAN_136-F2"],
             "CAUSAL_DESCENT",
         )
+        self.assertEqual(
+            evidence["source_jev"]["latest_exact_head"]["routes"]["ATTRACTION_SCAN_136-F1"],
+            "CAUSAL_DESCENT",
+        )
+        self.assertEqual(
+            evidence["source_jev"]["latest_exact_head"]["routes"]["ATTRACTION_SCAN_136-F2"],
+            "CAUSAL_DESCENT",
+        )
         self.assertTrue(followup["route_consumed"])
+        self.assertEqual(
+            followup["consumed_f1_routes"],
+            ["EXACT_INCUMBENT_PREFLIGHT", "CAUSAL_DESCENT"],
+        )
+        self.assertEqual(followup["consumed_f2_routes"], ["CAUSAL_DESCENT"])
+        self.assertEqual(followup["latest_jev_run_id"], 35832460027)
+        self.assertEqual(len(followup["route_history"]), 2)
         self.assertEqual(followup["public_research_resolution"], "EXHAUSTED_FOR_F1_F2")
         self.assertTrue(followup["scan137_gate_unblocked"])
         self.assertFalse(followup["external_contact_performed"])

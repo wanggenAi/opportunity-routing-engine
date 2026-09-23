@@ -23,7 +23,23 @@
     },
     "autonomous_continuation_allowed": true,
     "external_side_effects_allowed": false,
-    "commercial_promotion_authority": false
+    "commercial_promotion_authority": false,
+    "latest_exact_head": {
+      "head_sha": "e4ff17ec81002adf2e262b77d4bdf36db8d3dfa1",
+      "repository_ci_run_id": 35832459988,
+      "jev_run_id": 35832460027,
+      "jev_artifact_id": 10738165696,
+      "jev_artifact_digest": "sha256:382c3a1de2c270744de591667f45896eff4e075cf61fac4f7467e6f0c4b827fd",
+      "routes": {
+        "ATTRACTION_SCAN_136-F1": "CAUSAL_DESCENT",
+        "ATTRACTION_SCAN_136-F2": "CAUSAL_DESCENT",
+        "ATTRACTION_SCAN_136-F3": "NO_FURTHER_RESEARCH",
+        "ATTRACTION_SCAN_136-F4": "NO_FURTHER_RESEARCH"
+      },
+      "autonomous_continuation_allowed": true,
+      "external_side_effects_allowed": false,
+      "commercial_promotion_authority": false
+    }
   },
   "formations": [
     {
@@ -114,7 +130,20 @@
       "external_contact_authorized": false,
       "bid_authorized": false,
       "deposit_authorized": false,
-      "purchase_authorized": false
+      "purchase_authorized": false,
+      "consumed_routes": [
+        "EXACT_INCUMBENT_PREFLIGHT",
+        "CAUSAL_DESCENT"
+      ],
+      "causal_chain": [
+        "The contracted rent stayed at RMB 5,000/month across the first and second auctions.",
+        "The first-auction floor was RMB 954,000 against an approximately RMB 1,192,500 appraisal; the second-auction floor fell to RMB 763,200.",
+        "Nominal annual rent / price therefore rises from about 5.03% at appraisal to 6.29% at the first-auction floor and 7.86% at the second-auction floor because price fell, not because cashflow improved.",
+        "The same discount coexists with unresolved tenant/ledger/deposit quality, actual transfer-registration timing, land-use termination date, exact net taxes/costs and physical condition.",
+        "The current second-auction notice also narrows receipt start from the first-auction transaction-date wording to transfer-registration date, showing that settlement timing is part of the causal risk rather than a clerical detail.",
+        "The deepest public decision-useful frontier is therefore whether the 36% appraisal discount adequately compensates for those unresolved asset and cashflow risks; public evidence cannot answer that without source documents or external written confirmation."
+      ],
+      "causal_descent_resolution": "PUBLIC_CAUSAL_DESCENT_EXHAUSTED_DISCOUNT_DRIVES_SURFACE_YIELD_BUT_RISK_ADJUSTED_NET_ECONOMICS_REMAIN_UNBOUND"
     },
     {
       "formation_id": "ATTRACTION_SCAN_136-F2",
@@ -195,5 +224,42 @@
   "scan137_gate": "UNBLOCKED",
   "first_external_value_flow": "NOT_PROVEN",
   "commercial_promotion": false,
-  "external_side_effects_performed": false
+  "external_side_effects_performed": false,
+  "jev_route_history": [
+    {
+      "stage": "MAIN_PUSH_AFTER_PR445_MERGE",
+      "head_sha": "16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1",
+      "jev_run_id": 35830677629,
+      "jev_artifact_id": 10737500478,
+      "jev_artifact_digest": "sha256:fc350f38f5a29968b2c82e0af389920a3372e770d8293312c2c49a43975a8b1f",
+      "state_fingerprints": {
+        "ATTRACTION_SCAN_136-F1": "d7b4f0dbb703332642d8",
+        "ATTRACTION_SCAN_136-F2": "3c2d589a58bc92e6596a"
+      },
+      "routes": {
+        "ATTRACTION_SCAN_136-F1": "EXACT_INCUMBENT_PREFLIGHT",
+        "ATTRACTION_SCAN_136-F2": "CAUSAL_DESCENT",
+        "ATTRACTION_SCAN_136-F3": "NO_FURTHER_RESEARCH",
+        "ATTRACTION_SCAN_136-F4": "NO_FURTHER_RESEARCH"
+      }
+    },
+    {
+      "stage": "PR446_EXACT_HEAD_E4FF17EC",
+      "head_sha": "e4ff17ec81002adf2e262b77d4bdf36db8d3dfa1",
+      "repository_ci_run_id": 35832459988,
+      "jev_run_id": 35832460027,
+      "jev_artifact_id": 10738165696,
+      "jev_artifact_digest": "sha256:382c3a1de2c270744de591667f45896eff4e075cf61fac4f7467e6f0c4b827fd",
+      "state_fingerprints": {
+        "ATTRACTION_SCAN_136-F1": "d7b4f0dbb703332642d8",
+        "ATTRACTION_SCAN_136-F2": "3c2d589a58bc92e6596a"
+      },
+      "routes": {
+        "ATTRACTION_SCAN_136-F1": "CAUSAL_DESCENT",
+        "ATTRACTION_SCAN_136-F2": "CAUSAL_DESCENT",
+        "ATTRACTION_SCAN_136-F3": "NO_FURTHER_RESEARCH",
+        "ATTRACTION_SCAN_136-F4": "NO_FURTHER_RESEARCH"
+      }
+    }
+  ]
 }
