@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "task_key": "commercial-attraction-scan-136",
+  "generation": 1,
+  "status": "ACTIVE",
+  "reconciled_at": "2026-09-23T07:15:00Z",
+  "live_main": "2300f2bc95db341681c37fd824e7b3b36f64227f",
+  "work_branch": "research/scan136-current-asset-receipts",
+  "frozen_head": "68644877e4e9a0ab178390f9431b53537f4196e6",
+  "stage": "SCAN136_PERSISTED_EXACT_HEAD_PR_VALIDATION_PENDING",
+  "scan_id": "ATTRACTION_SCAN_136",
+  "retained_research": [
+    "ATTRACTION_SCAN_136-F1",
+    "ATTRACTION_SCAN_136-F2"
+  ],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_136-F3",
+    "ATTRACTION_SCAN_136-F4"
+  ],
+  "durable_conclusions": [
+    "F1 Jiaxing: current second auction RMB763,200; RMB5,000/month; lease to 2029-05-15; buyer explicitly collects from transfer; approx 7.86% nominal gross; research-only.",
+    "F2 Weiyuan: current first auction RMB445,886.28; RMB6,000/month; prepaid through 2026-11; lease to 2029-02-24; approx 16.15% nominal gross; exact buyer receipt start and transfer timing remain decisive; research-only.",
+    "F3 Shanghai: approx 1.58% nominal gross, authoritative economics closure.",
+    "F4 Wuhan: approx 3.62% current-step / 4.11% next-step nominal gross on RMB9,976,232 entry, authoritative economics closure.",
+    "No Scan060-135 exact address reuse found for the four persisted formations.",
+    "No commercial promotion, external contact, bid, deposit or purchase authority."
+  ],
+  "next_action": "Open one PR on frozen head 68644877e4e9a0ab178390f9431b53537f4196e6; require exact-head repository CI and live TypeSafe/Jev; consume actual Scan136 directive and continue reversible F1/F2 research.",
+  "pending_operation": null,
+  "do_not_repeat": [
+    "Do not return to consumed Scan135 branches.",
+    "Do not re-research Scan136 F3/F4 absent contradictory evidence.",
+    "Do not treat rental-right auctions as buyer receipt formations.",
+    "Do not reuse Scan060-135 formations.",
+    "Do not contact external parties or commit money without explicit authority."
+  ]
+}
