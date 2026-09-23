@@ -43,10 +43,17 @@ class Scan140ReceiptBindingBoundaryTests(unittest.TestCase):
         for suffix in ("F2", "F3", "F4"):
             self.assertTrue(by_id[f"ATTRACTION_SCAN_140-{suffix}"]["verdict"].startswith("DEMOTED_"))
 
-    def test_machine_state_advances_to_scan141_and_adds_only_weiyuan_retention(self):
+    def test_machine_state_preserves_scan140_truth_while_strategic_remediation_advances_cursor(self):
         state = json.loads(STATE.read_text(encoding="utf-8"))
         self.assertEqual(state["last_completed_scan_id"], "ATTRACTION_SCAN_140")
-        self.assertEqual(state["next_scan_id"], "ATTRACTION_SCAN_141")
+        self.assertEqual(state["next_scan_id"], "ATTRACTION_SCAN_142")
+        self.assertEqual(
+            state["strategic_drift_incident"]["quarantined_pr"],
+            451,
+        )
+        self.assertTrue(
+            state["strategic_drift_incident"]["do_not_merge_quarantined_scan141_as_strategy"]
+        )
         self.assertIn("ATTRACTION_SCAN_140-F1", state["retained_research_formations"])
         self.assertIn("ATTRACTION_SCAN_139-F1", state["retained_research_formations"])
         self.assertEqual(state["active_commercial_candidates"], [])
