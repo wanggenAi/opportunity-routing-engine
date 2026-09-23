@@ -29,3 +29,15 @@ All high-attraction claims are evidence-bound regenerative fields. No explicit g
 ## Next gate
 
 Freeze the Scan 143 head and require repository CI plus live TypeSafe/Jev on the exact SHA. Consume every reversible F1 route before promotion. No outreach, quoting, account creation or money movement occurs until public preflight proves a distinct edge and the repository's external-action gate is reached.
+
+## Post-scan F1 exact-incumbent preflight
+
+The live TypeSafe/Jev advisory on `c6edf8ee2b4fc7619275cc5f30f546822062ccc8` succeeded and routed F1 to `EXACT_INCUMBENT_PREFLIGHT`; F2-F5 were `NO_FURTHER_RESEARCH`. The repository CI failure on that head was confined to recovery-document headings and historical tests that incorrectly hardcoded the live scan at 142.
+
+Current incumbent evidence closes the generic F1 router. Alibaba Inspection Solutions already provides low-cost inspection ordering, Trade Assurance payment integration, dispatch to recognized third-party inspectors, onsite execution and fast reports; Verified Supplier embeds third-party factory verification into supplier discovery; QIMA demonstrates standardized independent global inspection outside the Alibaba rail. The field's recurring trust pressure is real, but a distinct unowned generic routing surface is not evidenced.
+
+F1 is therefore authoritatively closed in commercial machine state. A narrower specialized inspection thesis would require a fresh broad-reality derivation rather than post-hoc rescue of Scan 143.
+
+## Revised next gate
+
+Require repository CI plus live TypeSafe/Jev on the route-consumption head. If all five effective routes are `NO_FURTHER_RESEARCH`, merge PR #454 and rederive Scan 144 from broad current reality.

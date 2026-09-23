@@ -71,9 +71,13 @@ class Scan140ReceiptBindingBoundaryTests(unittest.TestCase):
         self.assertTrue(resolved["ATTRACTION_SCAN_140-F1"].startswith("CLOSED_STRATEGIC_QUARANTINE_"))
         self.assertTrue(resolved["ATTRACTION_SCAN_141-F1"].startswith("CLOSED_STRATEGIC_QUARANTINE_"))
         self.assertTrue(resolved["ATTRACTION_SCAN_141-F2"].startswith("CLOSED_STRATEGIC_QUARANTINE_"))
-        self.assertEqual(state["last_completed_scan_id"], "ATTRACTION_SCAN_142")
-        self.assertEqual(state["last_completed_scan_file"], "data/research_runs/attraction_scan_142.json")
-        self.assertEqual(state["next_scan_id"], "ATTRACTION_SCAN_143")
+        current_no = int(state["last_completed_scan_id"].removeprefix("ATTRACTION_SCAN_"))
+        self.assertGreater(current_no, 140)
+        self.assertEqual(
+            state["last_completed_scan_file"],
+            f"data/research_runs/attraction_scan_{current_no}.json",
+        )
+        self.assertEqual(state["next_scan_id"], f"ATTRACTION_SCAN_{current_no + 1}")
         incident = state["strategic_drift_incident"]
         self.assertEqual(incident["quarantined_pr"], 451)
         self.assertEqual(incident["quarantined_pr_state"], "MERGED_AUDIT_ONLY")
