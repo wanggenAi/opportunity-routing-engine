@@ -1,0 +1,192 @@
+{
+  "schema_version": "attraction-scan.v102",
+  "scan_id": "ATTRACTION_SCAN_130",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "SMALL_OPERATOR_ACQUIRABLE_TRANSFERABLE_ASSETS_WITH_INDEPENDENTLY_SOURCE_BOUND_EXISTING_PROCEEDS_OR_PLATFORM_REVENUE_EVIDENCE_COMPLIANT_MAINLAND_FORM_LOW_RECURRING_SUPPORT_AND_TRANSFERABLE_DEMAND",
+  "source_geographies": [
+    "CHINA",
+    "GLOBAL_MECHANISM_PRIOR"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "SOURCE_BOUND_PROCEEDS_TRANSFERABILITY_COMPLIANCE_LOW_RECURRING_LABOR_NO_SCAN060_TO_129_FORMATION_FALLBACK_NO_SELLER_REVENUE_INFERENCE",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": false,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_130-F1",
+      "title": "DOMESTIC_DOMAIN_ASSET_WITH_AUTOMATED_ESCROW_TRANSFER_AND_PARKING_UPSIDE",
+      "chinese_title": "国内域名资产 → 平台担保自动交割 → 停放/转售现金流",
+      "evidence_class": "CURRENT_MAINLAND_TRANSFER_AND_PAYMENT_RAIL_WITHOUT_ASSET_SPECIFIC_VERIFIED_PROCEEDS",
+      "evidence_summary": "Alibaba Cloud and Juming currently provide standardized mainland domain trading, payment and transfer rails. Juming's active one-price agreement says payment can trigger automatic transfer to the buyer, but it also says third-party analytics and listing descriptions are reference-only and the platform does not warrant defects. Public evidence therefore proves transferable control and native transaction settlement, not a source-bound existing operating cashflow or demand stream for a specific small asset.",
+      "attraction_brief": {
+        "a_side": "Current China domain marketplaces expose sellers, fixed-price inventory and native payment/transfer workflows.",
+        "a_side_evidence": "Alibaba Cloud documents Alipay-backed domain trading; Juming documents fixed-price purchase and automatic domain transfer.",
+        "b_side": "A buyer can receive the domain control itself, but no independently verified recurring end-customer proceeds are bound to the observed public inventory.",
+        "b_side_evidence": "Juming explicitly downgrades third-party analysis and seller descriptions to reference information and requires buyers to judge risk independently.",
+        "operator": "A domain can be a transferable scarce control object, but control alone is insufficient under Scan 130.",
+        "operator_non_labor_test": "Parking could be low-labor, yet current public China-side listings do not independently bind historical parking cashflow or transferable type-in demand.",
+        "connection_wow": "Payment and asset handover can be near-automatic.",
+        "activation_friction": "PASS_FOR_DOMAIN_TRANSFER_BUT_NOT_FOR_EXISTING_PROCEEDS",
+        "self_propulsion": "FAIL_NO_SOURCE_BOUND_EXISTING_PROCEEDS_OR_TRANSFERABLE_DEMAND",
+        "a_discoverability": "PASS_CURRENT_PUBLIC_MARKETPLACE_SUPPLY",
+        "b_discoverability": "FAIL_RECURRING_BUYER_OR_ADVERTISER_VALUE_FLOW_NOT_BOUND_TO_A_SPECIFIC_ASSET",
+        "match_resolvability": "PASS_FOR_DOMAIN_IDENTITY_AND_PRICE_ONLY",
+        "action_gate": "PASS_DOMAIN_PURCHASE_RAIL_EXISTS_BUT_PURCHASE_NOT_AUTHORIZED_WITHOUT_VERIFIED_CASHFLOW",
+        "router_distinctiveness": "PARTIAL_DOMAIN_CONTROL_IS_SCARCE_BUT_THE_MONETIZATION_EDGE_IS_NOT_PROVEN",
+        "generic_agent_substitution": "NOT_DECISIVE_ASSET_CONTROL_IS_NOT_AGENT_SUBSTITUTABLE",
+        "legal_payment_compliance": "PASS_MAINLAND_MARKETPLACE_PAYMENT_RAIL_AS_A_MECHANISM",
+        "regulatory_content_compliance": "UNKNOWN_UNTIL_ACTUAL_DOMAIN_USE_IS_BOUND"
+      },
+      "exact_disconfirmation": [
+        "Juming states third-party analytical data are for reference only.",
+        "Juming states listing descriptions are reference information rather than a transaction valuation guarantee.",
+        "Current public transfer documentation does not establish asset-specific historical parking proceeds that survive transfer."
+      ],
+      "verdict": "DEMOTED_DOMAIN_TRANSFER_AND_NATIVE_SETTLEMENT_EXIST_BUT_NO_INDEPENDENTLY_SOURCE_BOUND_EXISTING_PROCEEDS_OR_TRANSFERABLE_DEMAND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_130-F2",
+      "title": "VERIFIED_MUSIC_ROYALTY_INCOME_RIGHT_ACQUISITION",
+      "chinese_title": "已有历史版税的音乐收益权 → 独立核验 → 收购后被动分配",
+      "evidence_class": "VERIFIED_GLOBAL_INCOME_MARKET_PLUS_MAINLAND_ROYALTY_DISTRIBUTION_WITH_UNPROVEN_MAINLAND_ACQUISITION_PATH",
+      "evidence_summary": "Royalty Exchange currently states that every listed asset has historical income and is cleared for assignment, and its buyer documentation describes verified financial history and raw royalty data. China MCSC shows large, repeated 2026 royalty distributions and electronic member statements, proving a real domestic royalty cashflow mechanism. However, no current small-ticket China-side listing with independently verified asset-specific income and a proven compliant mainland individual acquisition/settlement path was found. Rights segmentation also matters: MCSC explains that even after a songwriter transfers copyright, collective-management allocation can preserve part of performance income for the songwriter.",
+      "attraction_brief": {
+        "a_side": "Rightsholders can sell income rights with verified historical earnings on a mature marketplace.",
+        "a_side_evidence": "Royalty Exchange reports 2,500+ completed deals and verifies financial history before listing.",
+        "b_side": "Music use produces recurring royalties and China MCSC distributes substantial license fees.",
+        "b_side_evidence": "MCSC's 2026 distribution notices show scheduled cash distributions backed by usage reports.",
+        "operator": "Owning a royalty income right could be founder-light because the economic event occurs when the underlying works are used.",
+        "operator_non_labor_test": "PASS_AS_A_GLOBAL_MECHANISM; ongoing creative or sales delivery is not required for an acquired royalty stream.",
+        "connection_wow": "Verified historical income can transfer as a contractual income right rather than a software account.",
+        "activation_friction": "FAIL_FOR_PRIMARY_CHINA_LENS_NO_PROVEN_SMALL_OPERATOR_MAINLAND_ACQUISITION_AND_SETTLEMENT_PATH",
+        "self_propulsion": "PASS_MECHANISM_ROYALTIES_CAN_CONTINUE_FROM_EXISTING_USAGE",
+        "a_discoverability": "PASS_GLOBAL_VERIFIED_MARKETPLACE",
+        "b_discoverability": "PASS_USAGE_AND_DISTRIBUTION_MECHANISM",
+        "match_resolvability": "PARTIAL_RIGHTS_SPLITS_TERM_DISTRIBUTOR_AND_TERRITORY_MUST_BE_DILIGENCED",
+        "action_gate": "FAIL_PRIMARY_CHINA_EXECUTION_PATH_NOT_PROVEN",
+        "router_distinctiveness": "PASS_ASSET_RIGHT_IS_NON_GENERIC_AND_TRANSFERABLE",
+        "generic_agent_substitution": "PASS_RIGHT_OWNERSHIP_CANNOT_BE_REPLACED_BY_GENERIC_AGENT_AUTOMATION",
+        "legal_payment_compliance": "UNKNOWN_FOR_MAINLAND_INDIVIDUAL_DIRECT_PURCHASE_OF_FOREIGN_ROYALTY_INVESTMENT_ASSET",
+        "regulatory_content_compliance": "PARTIAL_DEPENDS_ON_UNDERLYING_WORKS_AND_RIGHTS_SCOPE"
+      },
+      "exact_disconfirmation": [
+        "The strongest public verified-income purchase rail found is foreign, not a mainland China small-ticket marketplace.",
+        "SAFE rules distinguish current-account use of personal FX from capital/investment transactions; no compliant direct path for this specific foreign royalty-asset purchase was established.",
+        "MCSC collective-management rules show transferred copyright does not necessarily transfer every future distribution share one-for-one."
+      ],
+      "verdict": "DEMOTED_VERIFIED_ROYALTY_CASHFLOW_EXISTS_BUT_NO_PROVEN_SMALL_OPERATOR_MAINLAND_ACQUISITION_SETTLEMENT_AND_COMPLETE_RIGHTS_TRANSFER_PATH"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_130-F3",
+      "title": "CHINA_PATENT_OPEN_LICENSE_OR_EXISTING_LICENSE_ROYALTY_ASSET",
+      "chinese_title": "国内专利开放许可/既有许可权利 → 转让后承接许可收入",
+      "evidence_class": "OFFICIAL_MAINLAND_TRANSFER_AND_LICENSE_PRICE_INFRASTRUCTURE_WITHOUT_SMALL_ASSET_SPECIFIC_SETTLED_PROCEEDS",
+      "evidence_summary": "CNIPA provides formal patent transfer procedures and a public open-license system where fee method, standard and term are published. Current official statistics show a large real patent licensing market, including fixed-fee and percentage-fee contracts. But those statistics are aggregate: they do not independently bind a current small-ticket transferable patent to settled recurring proceeds. Open licensing also proves willingness to license, not an existing buyer stream, and technical implementation, valuation, validity and enforcement remain material non-automated work.",
+      "attraction_brief": {
+        "a_side": "Patent owners can transfer patent rights and publish standardized open-license terms.",
+        "a_side_evidence": "CNIPA documents transfer registration and open-license declarations with public fee standards.",
+        "b_side": "Licensees pay fixed or percentage fees when implementation agreements exist.",
+        "b_side_evidence": "CNIPA published 2024 contract statistics covering 27,076 license contracts and both fixed and percentage payment structures.",
+        "operator": "A transferred patent with existing license income could in theory be a reusable rights asset.",
+        "operator_non_labor_test": "FAIL_PUBLIC_EVIDENCE_DOES_NOT_SHOW_A_SMALL_ASSET_WITH_EXISTING_SELF_SERVING_LICENSE_INCOME_AND_LOW_ENFORCEMENT_OR_TECHNICAL_SUPPORT",
+        "connection_wow": "Open licensing standardizes price publication and acceptance better than bespoke IP negotiation.",
+        "activation_friction": "PARTIAL_TRANSFER_IS_STANDARDIZED_BUT_LICENSE_DILIGENCE_AND_IMPLEMENTATION_ARE_NOT",
+        "self_propulsion": "FAIL_OPEN_LICENSE_AVAILABILITY_DOES_NOT_EQUAL_EXISTING_RECURRING_PROCEEDS",
+        "a_discoverability": "PASS_PUBLIC_PATENT_AND_LICENSE_DATA",
+        "b_discoverability": "PARTIAL_LICENSE_DEMAND_EXISTS_IN_AGGREGATE_NOT_BOUND_TO_A_SMALL_CURRENT_ASSET",
+        "match_resolvability": "PARTIAL_TECHNICAL_SCOPE_VALIDITY_AND_RIGHTS_REQUIRE_DILIGENCE",
+        "action_gate": "FAIL_NO_SOURCE_BOUND_SETTLED_PROCEEDS_AT_ASSET_LEVEL",
+        "router_distinctiveness": "PARTIAL_PATENT_RIGHT_IS_SCARCE_BUT_COMMERCIALIZATION_IS_NOT_AUTOMATIC",
+        "generic_agent_substitution": "PASS_FORMAL_IP_RIGHT_IS_NOT_GENERIC_AGENT_SUBSTITUTABLE",
+        "legal_payment_compliance": "PASS_DOMESTIC_LICENSE_PAYMENT_MECHANISM_IN_GENERAL",
+        "regulatory_content_compliance": "PASS_AS_A_GENERAL_PATENT_MECHANISM_SUBJECT_TO_TECHNOLOGY_SPECIFIC_RULES"
+      },
+      "exact_disconfirmation": [
+        "CNIPA's published license statistics are aggregate and cannot validate cashflow for a particular purchasable micro-asset.",
+        "An open-license declaration establishes offer terms, not a completed paying licensee relationship.",
+        "Official transaction-scale data are dominated by much larger average contract values than the intended small-operator micro-asset entry point."
+      ],
+      "verdict": "DEMOTED_DOMESTIC_TRANSFER_AND_LICENSE_INFRASTRUCTURE_EXISTS_BUT_NO_SMALL_ASSET_SPECIFIC_VERIFIED_EXISTING_PROCEEDS_OR_LOW_LABOR_COMMERCIALIZATION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_130-F4",
+      "title": "DOMESTIC_FILM_COPYRIGHT_TRANSFER_WITH_EXISTING_DISTRIBUTION_RIGHTS",
+      "chinese_title": "国内影视版权资产 → 规范交易所转让 → 承接既有发行/许可收益",
+      "evidence_class": "CURRENT_MAINLAND_COPYRIGHT_TRANSACTION_INFRASTRUCTURE_WITHOUT_PUBLIC_ASSET_SPECIFIC_PROCEEDS_CHAIN",
+      "evidence_summary": "Shenzhen Cultural Property Exchange currently operates a film copyright trading zone with copyright transaction, project cooperation and resource matching, and its 2026 public pages show ongoing transaction announcements and explicit compliance guidance. This proves a legitimate domestic rights-transfer venue, but the public surface does not bind a small current copyright asset to verified historical distribution proceeds, future automated settlement, or low recurring legal/production/sales work. The exchange also warns against treating cultural income rights as freely securitized public investment products.",
+      "attraction_brief": {
+        "a_side": "Current mainland cultural-property venues accept copyright transfer and matching.",
+        "a_side_evidence": "Shenzhen Cultural Property Exchange publicly operates a film copyright trading zone and transfer application workflow.",
+        "b_side": "Film rights can generate licensing/distribution payments when counterparties exist.",
+        "b_side_evidence": "The exchange provides copyright trading infrastructure but public pages do not expose a source-bound small asset proceeds ledger.",
+        "operator": "Acquired rights could be non-generic control, but value realization depends on contracts and distribution relationships.",
+        "operator_non_labor_test": "FAIL_NO_EVIDENCE_OF_LOW_SUPPORT_AUTOMATED_POST_TRANSFER_CASHFLOW",
+        "connection_wow": "Formal domestic rights exchange can standardize title and transaction process.",
+        "activation_friction": "PARTIAL_RIGHTS_TRANSACTION_EXISTS_BUT_DUE_DILIGENCE_AND_COUNTERPARTY_WORK_REMAIN",
+        "self_propulsion": "FAIL_NO_PUBLIC_PROOF_DEMAND_AND_SETTLEMENT_TRANSFER_WITH_THE_RIGHT",
+        "a_discoverability": "PASS_CURRENT_FORMAL_VENUE",
+        "b_discoverability": "FAIL_NO_CURRENT_SMALL_ASSET_BUYER_OR_LICENSEE_FLOW_BOUND_PUBLICLY",
+        "match_resolvability": "PARTIAL_RIGHTS_SCOPE_AND_EXISTING_CONTRACTS_REQUIRE_DOCUMENT_REVIEW",
+        "action_gate": "FAIL_NO_SOURCE_BOUND_EXISTING_PROCEEDS_AND_LOW_LABOR_DELIVERY",
+        "router_distinctiveness": "PASS_COPYRIGHT_CONTROL_IS_FORMAL_BUT_VALUE_FLOW_NOT_SELF_EXECUTING",
+        "generic_agent_substitution": "PASS_RIGHT_OWNERSHIP_IS_NOT_GENERIC_AGENT_SUBSTITUTABLE",
+        "legal_payment_compliance": "PASS_DOMESTIC_FORMAL_TRANSACTION_VENUE_AS_A_MECHANISM",
+        "regulatory_content_compliance": "PARTIAL_CONTENT_SPECIFIC_AND_EXCHANGE_RULES_APPLY"
+      },
+      "exact_disconfirmation": [
+        "The public exchange surface proves transaction infrastructure, not a specific small asset's settled revenue history.",
+        "Copyright transfer does not itself prove distribution demand transfers with the asset.",
+        "Current exchange compliance guidance rejects public share-like securitization of cultural income rights, limiting passive fractional-investment shortcuts."
+      ],
+      "verdict": "DEMOTED_FORMAL_MAINLAND_COPYRIGHT_TRANSFER_EXISTS_BUT_NO_PUBLIC_SMALL_ASSET_SPECIFIC_VERIFIED_PROCEEDS_OR_FOUNDER_LIGHT_POST_TRANSFER_FLOW"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "APP_STORE_AND_MINIPROGRAM_TRANSFERS",
+      "reason": "Already consumed in Scan 129 and therefore excluded by anti-repeat boundary."
+    },
+    {
+      "observation": "GENERIC_WEBSITE_OR_SAAS_ACQUISITION_MARKETPLACES",
+      "reason": "Web/app business transfer mechanisms were consumed in prior scans; seller-reported revenue without independent binding is not admissible."
+    }
+  ],
+  "drift_audit": {
+    "primary_domain_is_china": true,
+    "independent_asset_identity_required": true,
+    "asset_specific_existing_proceeds_required": true,
+    "seller_reported_metrics_not_transaction_truth": true,
+    "transferability_without_demand_not_pass": true,
+    "foreign_mechanism_requires_explicit_mainland_execution_path": true,
+    "scan060_to_129_formation_fallback_forbidden": true,
+    "gate_relaxation": false
+  },
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Scan 130 found real transfer rails and real royalty/licensing markets but no current formation that simultaneously binds a specific small asset to independently verified existing proceeds, compliant mainland acquisition/settlement, transferable demand and low recurring labor."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_131",
+  "next_search_boundary": "SCAN131_SEARCH_CURRENT_CHINA_NATIVE_NON_SOFTWARE_NON_CONTENT_NON_DOMAIN_OPERATIONAL_CONTROL_ASSETS_WITH_PLATFORM_ATTESTED_EXISTING_PROCEEDS_OR_CONTRACTED_CASHFLOW_TRANSFERABLE_TO_A_SMALL_OPERATOR_LOW_RECURRING_HUMAN_DELIVERY_NO_REGULATED_SECURITIES_OR_FINANCIAL_PRODUCT_FALLBACK_NO_SCAN060_TO_130_FORMATION_REUSE_NO_GATE_RELAXATION",
+  "next_action": "FREEZE_SCAN130_HEAD_OPEN_ONE_PR_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_INPUT_SCAN_ID_ATTRACTION_SCAN_130_ENTITY_COUNT_4_ALL_FOUR_AUTHORITATIVE_NO_FURTHER_RESEARCH_THEN_ADVANCE_TO_SCAN131_IF_CONTINUATION_ALLOWS",
+  "scan_learnings": [
+    "TRANSFERABILITY_AND_NATIVE_ESCROW_CAN_BE_STRONG_WHILE_EXISTING_PROCEEDS_REMAIN_UNVERIFIED; THE TWO EVIDENCE CLASSES MUST NOT BE COLLAPSED.",
+    "THE_STRONGEST CURRENT PUBLIC ASSET_SPECIFIC_VERIFIED_INCOME MARKET FOUND IS MUSIC_ROYALTY_RIGHTS, BUT A PRIMARY_CHINA_SMALL_OPERATOR_ACQUISITION_AND_SETTLEMENT_PATH_WAS_NOT PROVEN.",
+    "CHINA_PATENT_AND_COPYRIGHT_MARKETS_PROVE FORMAL RIGHTS TRANSFER AND LARGE ECONOMIC MOTION BUT PUBLIC AGGREGATE TRANSACTION DATA DO NOT BIND A PURCHASABLE MICRO_ASSET TO EXISTING CASHFLOW.",
+    "OPEN_LICENSE_TERMS ARE AN OFFER SURFACE NOT A PAID_DEMAND SURFACE.",
+    "SCAN131_SHOULD MOVE OUTSIDE SOFTWARE_CONTENT_DOMAIN_AND_IP_RIGHTS TO SEARCH CHINA_NATIVE OPERATIONAL CONTROL ASSETS WITH PLATFORM_ATTESTED EXISTING CONTRACTED CASHFLOW."
+  ]
+}
