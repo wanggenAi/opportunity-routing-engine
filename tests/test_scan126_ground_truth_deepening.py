@@ -57,7 +57,7 @@ def test_four_dollar_site_visit_is_below_executor_floor_even_before_travel():
     assert evaluate_task_economics(ev) is EconomicsDecision.REJECT_PRICE_BELOW_EXECUTOR_FLOOR
 
 
-def test_hundred_dollar_audit_has_headroom_but_not_normalized_without_travel_qa_bounds():
+def test_hypothetical_same_scope_hundred_dollar_task_has_headroom_but_not_normalized_without_travel_qa_bounds():
     ev = TaskEconomicsEvidence(
         buyer_budget_cny=670.1,
         executor_payout_min_cny=80,
@@ -136,3 +136,10 @@ def test_truth_boundaries_are_explicit():
     assert "SAME_SCOPE_COST_BINDING_REQUIRED" in boundaries
     assert "SUBCONTRACT_PATH_MUST_BE_AUTHORIZED" in boundaries
     assert "TRAVEL_QA_REWORK_MUST_BE_BOUNDED_FOR_READY_STATE" in boundaries
+
+
+def test_observed_hundred_dollar_audit_remains_scope_unbound():
+    econ = load(ECON)
+    audit = next(x for x in econ["task_classes"] if x["task_class"] == "PREDEFINED_NONTECHNICAL_SITE_AUDIT")
+    assert audit["same_scope_cost_binding"] is False
+    assert audit["verdict"] == "SCOPE_NOT_COMPARABLE_YET"
