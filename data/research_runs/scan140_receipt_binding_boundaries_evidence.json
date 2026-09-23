@@ -12,9 +12,21 @@
           "title": "Weiyuan County Court auction replication - Lanhuajie 46 commercial unit",
           "url": "https://www.sohu.com/a/1077209752_122455197",
           "role": "CURRENT_ENTRY_EXACT_RENT_QUARTERLY_CADENCE_PAID_THROUGH_CURSOR_AND_LEASE_END"
+        },
+        {
+          "source_id": "F1-S2",
+          "title": "Supreme People's Court reference case 2024-17-5-203-007 - rent ownership in judicial auction with lease",
+          "url": "https://www.court.gov.cn/zixun/xiangqing/455991.html",
+          "role": "AUTHORITATIVE_PUBLIC_POST_TRANSFER_BUYER_RENT_SUCCESSION_RULE_AND_AUCTION_ADJUDICATION_SERVICE_TRANSFER_BOUNDARY"
+        },
+        {
+          "source_id": "F1-S3",
+          "title": "Supreme People's Court interpretation of reference case 2024-17-5-203-007",
+          "url": "https://www.court.gov.cn/zixun/xiangqing/456001.html",
+          "role": "AUTHORITATIVE_EXPLANATION_BUYER_SUCCEEDS_LEASE_AND_RENT_RIGHT_AFTER_OWNERSHIP_TRANSFER"
         }
       ],
-      "closure": "Retained for research only: RMB445,886.28 entry, RMB6,000/month, paid through 2026-11-30 and lease through 2029-02-24 imply ~16.15% surface gross, but post-transfer buyer rent succession is not explicit."
+      "closure": "Retained for research only. RMB445,886.28 entry, RMB6,000/month, paid through 2026-11-30 and lease through 2029-02-24 imply ~16.15% surface gross. Supreme People's Court reference case 2024-17-5-203-007 supports buyer rent succession after ownership transfer, but the future Weiyuan auction has no actual adjudication-service transfer date yet and the first unprepaid quarterly due date/prepaid-rent apportionment remain unbound."
     },
     {
       "formation_id": "ATTRACTION_SCAN_140-F2",
@@ -73,5 +85,5 @@
       "role": "FULLY_PREPAID_RENT_AND_SHORT_LEASE_NO_FUTURE_BUYER_RECEIPT"
     }
   ],
-  "scan_conclusion": "SCAN140_ONE_RETAINED_RESEARCH_ZERO_COMMERCIAL_PROMOTION_REQUIRES_EXACT_HEAD_CI_AND_LIVE_JEV_ROUTE_CONSUMPTION"
+  "scan_conclusion": "SCAN140_F1_LIVE_JEV_CAUSAL_DESCENT_ADVANCED_PUBLIC_RENT_SUCCESSION_RULE_BUT_RETAINS_ON_TRANSFER_EVENT_FIRST_UNPREPAID_RECEIPT_AND_PREPAID_RENT_APPORTIONMENT_PENDING_EXACT_HEAD_REVALIDATION"
 }
