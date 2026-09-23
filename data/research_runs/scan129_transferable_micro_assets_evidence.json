@@ -1,0 +1,106 @@
+{
+  "schema_version": "scan129-transferable-micro-assets-evidence.v1",
+  "as_of_date": "2026-09-23",
+  "scan_id": "ATTRACTION_SCAN_129",
+  "method": "CURRENT_TRANSFERABLE_DIGITAL_ASSET_SUPPLY_PLUS_NATIVE_INBOUND_PAYMENT_DELIVERY_AND_OPERATOR_NON_LABOR_FAIL_CLOSED",
+  "prior_exclusion_boundary": [
+    "DO_NOT_REUSE_SCAN060_TO_128_FORMATIONS_OR_PRIMARY_MECHANISMS",
+    "DO_NOT_TREAT_SOURCE_CODE_WITHOUT_EXISTING_DEMAND_AS_A_RUNNING_ASSET",
+    "DO_NOT_TREAT_SELLER_INCOME_CLAIMS_AS_SETTLED_TRANSACTION_TRUTH",
+    "DO_NOT_COUNT_CRYPTO_PAYMENT_AS_CHINA_COMPLIANT_BY_DEFAULT"
+  ],
+  "evidence_packets": [
+    {
+      "packet_id": "P1_SMALL_AUTOMATED_CASHFLOWING_WEB_ASSET",
+      "observed_motion": [
+        "A5 currently lists Shaibar/Aether Tarot for CNY 5,000, 500+ IP/day, income present, Python, individual seller.",
+        "The live shaibar.com product is independently reachable and exposes fixed-price AI-generated readings.",
+        "A5 escrow holds buyer funds until the buyer confirms asset handover and testing.",
+        "The listing states LLM-based automated fulfillment and a distributor system, but does not provide independently auditable settled revenue or maintenance hours."
+      ],
+      "decisive_unknowns": [
+        "90-day settled order/revenue/refund evidence",
+        "traffic-source durability and paid conversion",
+        "seller/operator weekly manual workload and distributor dependence",
+        "domain/code/database/prompt/content/customer-data/IP transfer scope",
+        "monthly infrastructure/model/payment costs",
+        "compliant non-crypto settlement path for a China operator"
+      ],
+      "current_regulatory_constraint": "A 2026 multi-agency notice states virtual currencies including USDT do not have legal-tender status and maintains a prohibitory policy toward virtual-currency-related business activities in China; therefore USDT is not accepted as the operating payment prior.",
+      "verdict": "RETAINED_RESEARCH_ONLY_EXACT_DUE_DILIGENCE_REQUIRED_NO_PURCHASE_NO_COMMERCIAL_PROMOTION",
+      "source_urls": [
+        "https://wz.a5.cn/goods/91719.html",
+        "https://www.shaibar.com/",
+        "https://www.a5.cn/help/notice_traderules",
+        "https://www.csrc.gov.cn/csrc/c100028/c7614318/content.shtml"
+      ]
+    },
+    {
+      "packet_id": "P2_TRANSFERABLE_APP_STORE_MICRO_APP",
+      "observed_motion": [
+        "Apple explicitly supports transferring app ownership after sale to another developer account.",
+        "Transferred apps can stay available; ratings/reviews, Bundle ID and update continuity remain.",
+        "The recipient receives post-transfer sales/payment information and proceeds under the normal paid-app settlement rail.",
+        "Individuals may enroll in the Apple Developer Program for USD 99/year.",
+        "Current A5 2026 low-ticket app/source listings exist but observed examples do not prove current cashflow; current cashflowing app businesses are substantially larger or operationally/risk heavy."
+      ],
+      "decisive_gate_evidence": [
+        "Strong transfer rail alone does not satisfy the current-asset gate.",
+        "China-mainland availability may require ICP filing and category-specific documents.",
+        "No current observed small, low-labor, compliant, cashflowing asset clears all gates."
+      ],
+      "verdict": "DEMOTED_NO_CURRENT_SMALL_CASHFLOWING_LOW_LABOR_COMPLIANT_ASSET_MATCH_DESPITE_STRONG_OFFICIAL_TRANSFER_RAIL",
+      "source_urls": [
+        "https://developer.apple.com/help/app-store-connect/transfer-an-app/overview-of-app-transfer",
+        "https://developer.apple.com/help/app-store-connect/transfer-an-app/app-transfer-criteria",
+        "https://developer.apple.com/help/app-store-connect/getting-paid/view-payments-and-proceeds",
+        "https://developer.apple.com/help/account/membership/program-enrollment",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/app-information",
+        "https://wz.a5.cn/goods/91811.html",
+        "https://wz.a5.cn/goods/90720.html"
+      ]
+    },
+    {
+      "packet_id": "P3_CASHFLOWING_CONTENT_SITE_MICRO_ASSET",
+      "observed_motion": [
+        "A5 currently lists a CNY 30,000 navigation site at 15k+ IP/day with income present.",
+        "The seller explicitly says content is manually updated.",
+        "A CNY 50,000 BIM education site has income but describes publishing-driven and soft-article/member monetization.",
+        "A current CNY 50,000 instrument-learning site is also manually maintained."
+      ],
+      "decisive_gate_evidence": [
+        "Existing traffic can transfer, but monetization quality is not machine-audited.",
+        "Recurring editorial/content/sales work fails the operator non-labor requirement."
+      ],
+      "verdict": "DEMOTED_EXISTING_TRAFFIC_AND_REVENUE_DO_NOT_CLEAR_OPERATOR_NON_LABOR_GATE_BECAUSE_CURRENT_EXAMPLES_REQUIRE_RECURRING_CONTENT_OR_SALES_WORK",
+      "source_urls": [
+        "https://wz.a5.cn/goods/90956.html",
+        "https://wz.a5.cn/goods/91211.html",
+        "https://wz.a5.cn/goods/91496.html"
+      ]
+    },
+    {
+      "packet_id": "P4_TRANSFERABLE_WECHAT_MINIPROGRAM_OPERATING_ASSET",
+      "observed_motion": [
+        "A5's current supply board lists an operating membership-management mini-program for transfer.",
+        "Current subject-change operational guidance documents an official transfer path between organizations.",
+        "Payment merchant bindings must be unbound/rebound and filing must be changed after a subject change.",
+        "The observed sell-side listing does not show current revenue or automated service fulfillment."
+      ],
+      "decisive_gate_evidence": [
+        "Receiving subject/identity and payment are platform-governed rather than frictionless operator-owned rails.",
+        "The observed asset lacks paid-flow proof.",
+        "Manual organization, payment and filing steps exceed the intended small-operator activation boundary."
+      ],
+      "verdict": "DEMOTED_CURRENT_MINIPROGRAM_TRANSFER_HAS_ORGANIZATION_PAYMENT_FILING_FRICTION_AND_NO_EVIDENCED_PAID_AUTOMATED_FLOW",
+      "source_urls": [
+        "https://www.a5.cn/supply",
+        "https://doc.meijiavip.com/docs/mindoc/mindoc-1gc6mk49pg8fo",
+        "https://www.qinsilk.com/mms/m/help/help-detail-1925.html"
+      ]
+    }
+  ],
+  "scan_conclusion": "FOUR_TRANSFERABLE_MICRO_ASSET_FORMATIONS_EXAMINED_ONE_RETAINED_FOR_EXACT_DILIGENCE_ZERO_COMMERCIAL_PROMOTION",
+  "retained_research_formation": "ATTRACTION_SCAN_129-F1",
+  "next_scan_id": "ATTRACTION_SCAN_130"
+}
