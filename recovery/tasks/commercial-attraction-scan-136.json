@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "task_key": "commercial-attraction-scan-136",
-  "generation": 8,
-  "status": "ACTIVE",
-  "reconciled_at": "2026-09-23T07:41:00Z",
+  "generation": 9,
+  "status": "COMPLETE",
+  "reconciled_at": "2026-09-23T07:42:00Z",
   "live_main": "dc7cf834d24302f85702caddad000fbd3ad082ff",
   "work_branch": null,
   "frozen_head": "dc7cf834d24302f85702caddad000fbd3ad082ff",
-  "stage": "SCAN136_PR446_MERGED_MAIN_POST_MERGE_VALIDATION_PENDING",
+  "stage": "SCAN136_F1_F2_FOLLOWUP_COMPLETE",
   "scan_id": "ATTRACTION_SCAN_136",
   "retained_research": [
     "ATTRACTION_SCAN_136-F1",
@@ -32,11 +32,8 @@
     "F2 exact-address/case public search resolves only to the current auction notice; detailed lease terms explicitly require telephone consultation. Civil Code 725 preserves lease validity, but auction-specific first buyer rent allocation after the prepaid-through-2026-11 window remains unbound.",
     "Both F1/F2 therefore remain research-only and public-source exhausted at an external written/source-document boundary; no external contact performed."
   ],
-  "next_action": "Verify main-push repository CI and live TypeSafe/Jev for dc7cf834; consume only genuinely new route classes. If green and no new route class, close Scan136 follow-up checkpoint and begin Scan137 from latest main.",
-  "pending_operation": {
-    "kind": "MAIN_POST_MERGE_VALIDATION",
-    "main_sha": "dc7cf834d24302f85702caddad000fbd3ad082ff"
-  },
+  "next_action": "Start fresh ATTRACTION_SCAN_137 from main dc7cf834; no Scan060-136 formation reuse and no gate relaxation.",
+  "pending_operation": null,
   "do_not_repeat": [
     "Do not return to consumed Scan135 branches.",
     "Do not re-research Scan136 F3/F4 absent contradictory evidence.",
@@ -74,25 +71,21 @@
     "conclusion": "success"
   },
   "main_ci": {
-    "run_id": 35830677638,
+    "run_id": 35832923324,
     "conclusion": "success"
   },
   "main_jev": {
-    "run_id": 35830677629,
-    "artifact_id": 10737500478,
-    "digest": "sha256:fc350f38f5a29968b2c82e0af389920a3372e770d8293312c2c49a43975a8b1f",
+    "run_id": 35832923344,
+    "artifact_id": 10738166339,
+    "digest": "sha256:dc43f678e9bae77cdc7aba8d5092b7e5fa39321c8498023128f357c2e43996a8",
     "conclusion": "success",
     "input_scan_id": "ATTRACTION_SCAN_136",
     "entity_count": 4,
-    "routes": {
-      "ATTRACTION_SCAN_136-F1": "EXACT_INCUMBENT_PREFLIGHT",
-      "ATTRACTION_SCAN_136-F2": "CAUSAL_DESCENT",
-      "ATTRACTION_SCAN_136-F3": "NO_FURTHER_RESEARCH",
-      "ATTRACTION_SCAN_136-F4": "NO_FURTHER_RESEARCH"
-    },
-    "next_action": "EXECUTE_RESEARCH_QUEUE",
+    "route_classes": [
+      "CAUSAL_DESCENT",
+      "NO_FURTHER_RESEARCH"
+    ],
     "autonomous_continuation_allowed": true,
-    "external_side_effects_allowed": false,
-    "commercial_promotion_authority": false
+    "new_unconsumed_route_class": false
   }
 }
