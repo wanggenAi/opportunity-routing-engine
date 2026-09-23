@@ -18,11 +18,15 @@ Prior retained research remains separate: Scan 135 F1 and Scan 136 F1/F2 are blo
 
 ## Current Phase
 
-`SCAN139_PERSISTED_PR_VALIDATION_PENDING`
+`SCAN139_F1_CAUSAL_DESCENT_PERSISTED_PR_REVALIDATION_PENDING`
 
 ## Last Verified Main
 
 - Live main: `7e65f79f732631e50d0996179fe481341e82acf3` — merged PR #448, Scan 138.
+- PR #449 first frozen head `68a5771cd8d316157e891920ea6b54fe83c4fdd7`: repository CI run `35839247545` success.
+- PR #449 live TypeSafe/Jev run `35839247533`: success; artifact `10740043234`, digest `sha256:c78997fe4be750171c37f3b2c49d63e7e711087d8ffea4a558667ac3db854338`.
+- Actual Scan 139 routes: F1 `CAUSAL_DESCENT`; F2/F3/F4 `NO_FURTHER_RESEARCH`; continuation `EXECUTE_RESEARCH_QUEUE`.
+- F1 state fingerprint: `e4427727ac809edaab75`.
 - PR #448 exact validated head: `34eb12d1938cdc0c6ade8acf3c3a4c3abae7dc56`.
 - Repository CI run `35837216070`: success.
 - Live TypeSafe/Jev run `35837216083`: success.
@@ -45,7 +49,7 @@ Starts from merged main `7e65f79f732631e50d0996179fe481341e82acf3`. No Scan 060-
 
 PR #449 — `Run Scan 139 on source-bound receipts and transferable control`.
 
-Initial PR head was `8540b78769f068bd34b42af4c1df9810800972c3`. This TASK_STATE checkpoint records the PR and advances the branch exactly once; the resulting commit SHA is the final frozen head for repository CI and live TypeSafe/Jev decisions.
+Initial PR head was `8540b78769f068bd34b42af4c1df9810800972c3`; checkpoint head `68a5771cd8d316157e891920ea6b54fe83c4fdd7` passed repository CI and live Jev. Jev returned an F1 `CAUSAL_DESCENT` route, so this route-consumption commit legitimately advances the branch. The resulting commit SHA must now be frozen and revalidated; do not merge based on the superseded `68a5771cd8d316157e891920ea6b54fe83c4fdd7` head.
 
 ## CI / Jev Contract
 
@@ -63,6 +67,9 @@ On the final Scan 139 PR head require:
 - `data/research_runs/scan139_source_bound_receipts_evidence.json` — source/evidence packet.
 - `docs/research/SCAN139_SOURCE_BOUND_RECEIPTS_2026-09-23.md` — research report.
 - `tests/test_scan139_source_bound_receipts.py` — retention/fail-closed regression.
+- `data/research_runs/scan139_f1_causal_descent_evidence.json` — consumed live Jev F1 causal route.
+- `docs/research/SCAN139_F1_CAUSAL_DESCENT_2026-09-23.md` — public causal-descent report.
+- `tests/test_scan139_f1_causal_descent.py` — route-consumption regression.
 - `data/commercial_reset_state.json` — last completed scan now 139; next scan 140.
 
 Machine truth on this branch:
@@ -85,23 +92,27 @@ Machine truth on this branch:
 - F4 Jining Yanzhou PV right: current formal 30-year operating-revenue right, but RMB627.21m entry, no transferred existing receipt ledger and institutional operating burden; closed.
 - Excluded current checks: Chengdu current change-sale price is masked and prior-stage price was not joined; Shanghai bundled hotel units show weak economics plus lease-amendment negotiation; Fuzhou Changle rooftop right is build-and-operate project delivery rather than inherited cashflow.
 - No commercial promotion or external side effect was performed.
+- Exact-head repository CI `35839247545` and live TypeSafe/Jev `35839247533` succeeded on `68a5771cd8d316157e891920ea6b54fe83c4fdd7`.
+- Consumed Jev F1 `CAUSAL_DESCENT`: generic lease continuity and auction ownership-transfer law narrow the chain, but the Sandu notice does not publish the paid-through cursor, prepaid-rent allocation or first buyer receipt.
+- Exact searches by case `(2026)黔2732执1305号`, title `11032107` and exact address found no independent lease/ledger/source document.
+- F1 public causal descent is exhausted at the external written/source-document boundary; it remains retained research only.
 
 ## Current Findings
 
-Scan 139 finally produced a fresh public-evidence tuple worth another research step without manufacturing demand: Sandu F1 has small entry, exact rent, long duration and approximately 6.90% nominal gross. The missing edge is now narrow and falsifiable: case-specific post-transfer rent succession plus the current paid-through/first-buyer payment cursor.
+Scan 139 produced a fresh public-evidence tuple worth another research step without manufacturing demand, and the live Jev causal route has now been consumed. Sandu F1 has small entry, exact rent, long duration and approximately 6.90% nominal gross, but public evidence cannot bind the buyer-specific unprepaid receipt start or payment cursor.
 
-This is still research evidence, not a commercial candidate. UNKNOWN remains UNKNOWN.
+Generic legal continuity does not convert those case-specific UNKNOWNs to PASS. The next evidence class is external written confirmation or the underlying lease/rent ledger. F1 remains research-only and does not block fresh Scan 140 after exact-head revalidation.
 
 ## Blockers
 
-- Scan 139 F1 requires the next evidence class selected by live TypeSafe/Jev; public causal descent must be consumed before any external contact.
+- Scan 139 F1 public causal descent is exhausted; the next evidence class is external written court/auction-assistance/tenant confirmation or the underlying lease/rent ledger.
 - Scan 135 F1 and Scan 136 F1/F2 remain blocked on external written/source documents.
 - Scan 015-F1 remains separately blocked on official rights evidence.
 - Any phone call, message, inspection booking, bid, deposit, purchase or monetary action requires separate authority.
 
 ## Next Action
 
-Open the Scan 139 PR, write one PR-number checkpoint, freeze the resulting exact head, require repository CI plus live TypeSafe/Jev, then consume the F1 route automatically. Do not begin Scan 140 while a reversible F1 route remains unconsumed.
+Freeze the route-consumption commit created from PR #449, require repository CI plus live TypeSafe/Jev on that exact head, confirm the same F1 fingerprint introduces no new reversible route class, merge PR #449 if green, then advance to fresh `ATTRACTION_SCAN_140`.
 
 ## Do Not Repeat
 
@@ -116,7 +127,7 @@ Open the Scan 139 PR, write one PR-number checkpoint, freeze the resulting exact
 
 ## Scan 140 Boundary
 
-Blocked until Scan 139 exact-head repository CI and live TypeSafe/Jev reach terminal success and every reversible route for F1 is consumed. If F1 closes or becomes blocked only on external evidence, fresh Scan 140 may continue without reusing Scan 060-139 formations and without relaxing gates.
+Blocked only until the Scan 139 F1 route-consumption head passes repository CI plus live TypeSafe/Jev and introduces no new reversible route class. F1 is already public-source exhausted and blocked on external written/source-document evidence; once exact-head revalidation is green, fresh Scan 140 may continue without reusing Scan 060-139 formations and without relaxing gates.
 
 ## Guardrails
 

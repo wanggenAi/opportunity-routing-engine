@@ -319,7 +319,7 @@
   "last_completed_scan_id": "ATTRACTION_SCAN_139",
   "last_resolved_formation_id": "ATTRACTION_SCAN_139-F4",
   "next_scan_id": "ATTRACTION_SCAN_140",
-  "current_research_action": "FREEZE_SCAN139_EXACT_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONSUME_ANY_REVERSIBLE_ROUTE_FOR_F1_BEFORE_SCAN140_NO_SCAN060_TO_139_REUSE_NO_GATE_RELAXATION",
+  "current_research_action": "FREEZE_SCAN139_F1_CAUSAL_DESCENT_FOLLOWUP_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONFIRM_NO_NEW_ROUTE_CLASS_THEN_MERGE_PR449_AND_ADVANCE_SCAN140",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -1916,7 +1916,7 @@
     "purchase_authorized": false
   },
   "last_completed_scan_file": "data/research_runs/attraction_scan_139.json",
-  "last_completed_scan_result": "ONE_RETAINED_RESEARCH_ZERO_COMMERCIAL_PROMOTION",
+  "last_completed_scan_result": "ONE_RETAINED_RESEARCH_PUBLIC_CAUSAL_DESCENT_EXHAUSTED_ZERO_COMMERCIAL_PROMOTION",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
     "evidence_artifact": "data/research_runs/scan136_current_asset_receipts_evidence.json",
@@ -2093,6 +2093,48 @@
     "long_term_weak_economics_disconfirmation": "ZHANJIANG_YONGHE_RMB50000_MONTH_TO_2033_12_31_BUT_APPROX_3_46_PERCENT_GROSS",
     "operating_right_scale_disconfirmation": "JINING_YANZHOU_30_YEAR_PV_OPERATING_REVENUE_RIGHT_RMB627_21M_NO_EXISTING_RECEIPT_LEDGER",
     "next_scan_id": "ATTRACTION_SCAN_140",
-    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONSUME_F1_REVERSIBLE_ROUTE_BEFORE_ADVANCE"
+    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONSUME_F1_REVERSIBLE_ROUTE_BEFORE_ADVANCE",
+    "exact_head_validation_status": "SUCCESS",
+    "initial_validated_head_sha": "68a5771cd8d316157e891920ea6b54fe83c4fdd7",
+    "repository_ci_run_id": 35839247545,
+    "jev_run_id": 35839247533,
+    "jev_artifact_id": 10740043234,
+    "jev_artifact_digest": "sha256:c78997fe4be750171c37f3b2c49d63e7e711087d8ffea4a558667ac3db854338",
+    "jev_input_scan_id": "ATTRACTION_SCAN_139",
+    "jev_entity_count": 4,
+    "jev_routes": {
+      "ATTRACTION_SCAN_139-F1": "CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_139-F2": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_139-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_139-F4": "NO_FURTHER_RESEARCH"
+    },
+    "jev_route_status": "CONSUMED_F1_PUBLIC_CAUSAL_DESCENT_PENDING_FOLLOWUP_HEAD_REVALIDATION"
+  },
+  "scan139_f1_causal_descent": {
+    "source_pr": 449,
+    "source_exact_head": "68a5771cd8d316157e891920ea6b54fe83c4fdd7",
+    "repository_ci_run_id": 35839247545,
+    "jev_run_id": 35839247533,
+    "jev_artifact_id": 10740043234,
+    "jev_artifact_digest": "sha256:c78997fe4be750171c37f3b2c49d63e7e711087d8ffea4a558667ac3db854338",
+    "jev_input_scan_id": "ATTRACTION_SCAN_139",
+    "jev_entity_count": 4,
+    "f1_state_fingerprint": "e4427727ac809edaab75",
+    "route_consumed": true,
+    "consumed_routes": [
+      "CAUSAL_DESCENT"
+    ],
+    "public_research_resolution": "EXHAUSTED",
+    "evidence_artifact": "data/research_runs/scan139_f1_causal_descent_evidence.json",
+    "report": "docs/research/SCAN139_F1_CAUSAL_DESCENT_2026-09-23.md",
+    "formation_status": "RETAINED_RESEARCH_BLOCKED_ON_EXTERNAL_WRITTEN_OR_SOURCE_DOCUMENT_DILIGENCE",
+    "next_evidence_class": "EXTERNAL_WRITTEN_COURT_AUCTION_ASSISTANCE_TENANT_CONFIRMATION_OR_UNDERLYING_LEASE_RENT_LEDGER_SOURCE_DOCUMENT",
+    "external_contact_performed": false,
+    "external_contact_authorized": false,
+    "commercial_promotion": false,
+    "bid_authorized": false,
+    "deposit_authorized": false,
+    "purchase_authorized": false,
+    "scan140_gate": "UNBLOCKED_SUBJECT_TO_EXACT_HEAD_CI_AND_LIVE_JEV_NO_NEW_ROUTE_CLASS"
   }
 }
