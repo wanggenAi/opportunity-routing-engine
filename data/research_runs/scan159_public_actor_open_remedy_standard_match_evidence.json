@@ -1,0 +1,116 @@
+{
+  "scan_id": "ATTRACTION_SCAN_159",
+  "as_of_date": "2026-09-24",
+  "source_main_sha": "674e814a9de53620851ee40a5f1ae1c9387e79a5",
+  "research_method": "PUBLIC_NAMED_ACTOR_OPEN_REMEDY_STANDARD_MATCH_COMPARISON",
+  "sources": {
+    "ELEC-HN-20260916": {
+      "source_class": "CURRENT_NAMED_LICENSE_PERSONNEL_DEFICIENCY_EVENT_STREAM",
+      "url": "https://henb.nea.gov.cn/dtyw/tzgg/202609/t20260916_308835.html",
+      "date": "2026-09-16",
+      "claim": "Henan energy regulator's fifth 2026 batch publicly names permit holders whose personnel counts fall below license minima, gives an October 21 remediation deadline, and says completion is determined by personnel records in the national qualification-and-credit system."
+    },
+    "ELEC-HN-20260920": {
+      "source_class": "CURRENT_LICENSE_FAILURE_CONSEQUENCE",
+      "url": "https://henb.nea.gov.cn/dtyw/jggg/202609/t20260920_309250.html",
+      "date": "2026-09-20",
+      "claim": "After the fourth remediation window, 30 named electrical permit holders remained noncompliant and were proposed for permit cancellation or grade re-determination; the announcement period no longer accepts remediation."
+    },
+    "ELEC-HB-20260911": {
+      "source_class": "CURRENT_LICENSE_PERSONNEL_RULE",
+      "url": "https://hbj.nea.gov.cn/zxbs/dlywzzxkhnyhyxyyw/blsm/202609/t20260911_308585.html",
+      "date": "2026-09-11",
+      "claim": "Current regulator guidance states a new level-3 electrical facilities permit requires at least 16 qualifying personnel and says application feedback is normally returned within five working days."
+    },
+    "HR-PDS-20260417": {
+      "source_class": "CURRENT_LICENSED_RECRUITMENT_COUNTERPARTY",
+      "url": "https://www.xinhuaqu.gov.cn/contents/11424/743264.html",
+      "date": "2026-04-17",
+      "claim": "Pingdingshan Xinhua District publicly licensed two Henan firms for professional employment-intermediary activity in 2026, including Pingdingshan Engis Electric Power Technology Co., evidencing a locally licensed recruitment counterparty class."
+    },
+    "HR-COMPLIANCE-20260408": {
+      "source_class": "CURRENT_RECRUITMENT_COMPLIANCE_BOUNDARY",
+      "url": "https://innovation.jinan.gov.cn/col/col17708/art/2026/art_4389ebb23993462fbfac88ed4bf3f059.html",
+      "date": "2026-04-08",
+      "claim": "Current HR-service oversight explicitly checks for illegal certificate-renting information services and retention of workers' qualification certificates; any route must involve genuine compliant employment, not certificate lending."
+    },
+    "ANNUAL-FZ-20260720": {
+      "source_class": "CURRENT_NAMED_ANNUAL_REPORT_DEFAULT_EVENT",
+      "url": "https://www.gl.gov.cn/xjwz/zwgkml/zdlyxxgk/spyp_1/wfxwcf/202607/t20260720_5348586.htm",
+      "date": "2026-07-20",
+      "claim": "Fuzhou Gulou publicly named 154 enterprises with two consecutive missing annual reports, provided a 15-day remediation window, and instructed firms to supplement reports through the national enterprise-credit system before applying for abnormal-list removal."
+    },
+    "ANNUAL-SH-CLOUD": {
+      "source_class": "CURRENT_OPEN_COMMERCIAL_ABNORMAL_LIST_SERVICE",
+      "url": "https://www.ssme.sh.gov.cn/public/product%21serviceDetail.do?productId=2c9e88379ffa822101a040f8557b6c7f",
+      "date": "2026-09-24",
+      "claim": "Shanghai's official enterprise service cloud currently lists paid commercial services for annual-report supplementation and abnormal-list removal, showing a commercial assistance market while explicitly leaving final removal to the competent authority."
+    },
+    "DRAIN-FX-20260915": {
+      "source_class": "CURRENT_RECURRING_NAMED_PERMIT_EXPIRY_EVENT_STREAM",
+      "url": "https://www.fengxian.gov.cn/swj/gggs/index.html",
+      "date": "2026-09-15",
+      "claim": "Fengxian Water Bureau maintains a monthly stream of drainage-permit expiry notices, with the September 15 index already listing permits expiring in December 2026."
+    },
+    "DRAIN-FX-20260624": {
+      "source_class": "CURRENT_PERMIT_RENEWAL_RULE_AND_NAMED_LIST",
+      "url": "https://www.fengxian.gov.cn/swj/gggs/20260624/109041.html",
+      "date": "2026-06-24",
+      "claim": "A current Fengxian drainage notice publishes the expiry-enterprise list and requires renewal applications at least 30 natural days before permit expiry."
+    },
+    "DRAIN-SH-ONLINE": {
+      "source_class": "CURRENT_STANDARDIZED_OFFICIAL_ACTION_RAIL",
+      "url": "https://zwdt.sh.gov.cn/govPortals/bsfw/item/2c599096-14b5-4d15-a6d4-d3ac022f5070",
+      "date": "2026-09-24",
+      "claim": "Shanghai's current One-Stop portal exposes an online drainage-permit change/renewal rail with zero required site visits and an immediate-processing commitment for the listed service."
+    },
+    "DRAIN-SH-NOAPPLY": {
+      "source_class": "CURRENT_AUTOMATED_REGULATOR_RAIL",
+      "url": "https://www.shanghai.gov.cn/gwk/affairs/content/0004%405c557e9fec03430c80516aeb5bdf2c83",
+      "date": "2026-08-14",
+      "claim": "Shanghai launched no-application drainage-permit change service using shared data, automated prefill and one-click confirmation, demonstrating continuing compression of intermediary value inside the government rail itself."
+    },
+    "DUST-BJ-202607": {
+      "source_class": "CURRENT_NAMED_CONSTRUCTION_DUST_FAILURE_EVENT",
+      "url": "https://zjw.beijing.gov.cn/bjjs/sgaq22/lssg28/yczlxcjc/744100651/index.shtml",
+      "date": "2026-08-01",
+      "claim": "Beijing's July 2026 dust-control report publicly identifies poor-performing construction projects and their contractors, creating a recurring named affected-actor stream."
+    },
+    "DUST-BJ-202603": {
+      "source_class": "CURRENT_DUST_MONITORING_SERVICE_COUNTERPARTY_TRACE",
+      "url": "https://zjw.beijing.gov.cn/bjjs/sgaq22/lssg28/yczlxcjc/743996469/index.shtml",
+      "date": "2026-04-01",
+      "claim": "Beijing's March 2026 dust-control report identifies monitoring-equipment operations service companies and poor-performing projects, evidencing both affected contractors and specialist service counterparties inside the same regulatory field."
+    },
+    "RELOC-SZ-20260528": {
+      "source_class": "CURRENT_NAMED_COMPANY_RELOCATION_STATE_CHANGE",
+      "url": "https://gxj.sz.gov.cn/xxgk/xxgkml/qt/tzgg/content/post_12811444.html",
+      "date": "2026-05-28",
+      "claim": "Shenzhen publicly announced 14 high-tech enterprises whose cross-location relocation applications were proposed for approval, proving a named recurring relocation-state trace but only after the relocation decision and application were already substantially committed."
+    },
+    "RELOC-CEC-20260512": {
+      "source_class": "CURRENT_DOWNSTREAM_FACTORY_RELOCATION_MARKET_VALIDATION",
+      "url": "https://www.cec-ec.com.cn/cms/channel/1xmgg1/40289.htm",
+      "date": "2026-05-12",
+      "claim": "A current CEC factory relocation procurement covers core equipment lifting, warehouse-rack disassembly and installation, transport and integrated implementation, validating a real relocation-provider market while also showing project-specific engineering depth."
+    }
+  },
+  "retained_research_formations": [],
+  "near_miss_formations": [
+    "ATTRACTION_SCAN_159-F1"
+  ],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_159-F1",
+    "ATTRACTION_SCAN_159-F2",
+    "ATTRACTION_SCAN_159-F3",
+    "ATTRACTION_SCAN_159-F4",
+    "ATTRACTION_SCAN_159-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "conclusion": "Affected-actor discoverability is no longer the limiting dimension in these five fields. The remaining hard floors are regulator-owned final state, expert/site-specific matching, or a public trace that appears after commitment. Electrical-license staffing is the closest miss but remains regulator-gated and must never degrade into certificate-renting.",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN160"
+}

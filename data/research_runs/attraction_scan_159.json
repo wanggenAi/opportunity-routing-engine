@@ -1,0 +1,1227 @@
+{
+  "scan_id": "ATTRACTION_SCAN_159",
+  "as_of_date": "2026-09-24",
+  "status": "COMPLETE",
+  "search_mode": "PUBLICLY_NAMED_AFFECTED_ACTOR_PLUS_OPEN_REMEDY_PLUS_STANDARD_MATCH",
+  "source_main_sha": "674e814a9de53620851ee40a5f1ae1c9387e79a5",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_158",
+    "prior_pr": 473,
+    "prior_merged_main_sha": "674e814a9de53620851ee40a5f1ae1c9387e79a5",
+    "prior_final_exact_head": "24ddc39679ffb5babb9a7ad3930c9768234eb882",
+    "prior_repository_ci_run_id": 35889264894,
+    "prior_repository_ci_test_job_id": 107277295122,
+    "prior_repository_ci_test_count": 804,
+    "prior_live_jev_run_id": 35889264907,
+    "prior_live_jev_artifact_id": 10763458339,
+    "prior_live_jev_artifact_digest": "sha256:95e63cd3dbfebe24afd07574f974891b2d27f293a18e1214238217960cf36f9f",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scans142_158_domains_deduplicated_before_search": true
+  },
+  "broad_reality_domains_examined": [
+    "ELECTRICAL_CONTRACTOR_LICENSE_PERSONNEL_DEFICIENCY",
+    "ENTERPRISE_ANNUAL_REPORT_REVOCATION_WINDOW",
+    "DRAINAGE_PERMIT_EXPIRY",
+    "CONSTRUCTION_DUST_POOR_PERFORMANCE",
+    "ENTERPRISE_CROSS_LOCATION_RELOCATION"
+  ],
+  "source_registry": {
+    "ELEC-HN-20260916": {
+      "source_class": "CURRENT_NAMED_LICENSE_PERSONNEL_DEFICIENCY_EVENT_STREAM",
+      "url": "https://henb.nea.gov.cn/dtyw/tzgg/202609/t20260916_308835.html",
+      "date": "2026-09-16",
+      "claim": "Henan energy regulator's fifth 2026 batch publicly names permit holders whose personnel counts fall below license minima, gives an October 21 remediation deadline, and says completion is determined by personnel records in the national qualification-and-credit system."
+    },
+    "ELEC-HN-20260920": {
+      "source_class": "CURRENT_LICENSE_FAILURE_CONSEQUENCE",
+      "url": "https://henb.nea.gov.cn/dtyw/jggg/202609/t20260920_309250.html",
+      "date": "2026-09-20",
+      "claim": "After the fourth remediation window, 30 named electrical permit holders remained noncompliant and were proposed for permit cancellation or grade re-determination; the announcement period no longer accepts remediation."
+    },
+    "ELEC-HB-20260911": {
+      "source_class": "CURRENT_LICENSE_PERSONNEL_RULE",
+      "url": "https://hbj.nea.gov.cn/zxbs/dlywzzxkhnyhyxyyw/blsm/202609/t20260911_308585.html",
+      "date": "2026-09-11",
+      "claim": "Current regulator guidance states a new level-3 electrical facilities permit requires at least 16 qualifying personnel and says application feedback is normally returned within five working days."
+    },
+    "HR-PDS-20260417": {
+      "source_class": "CURRENT_LICENSED_RECRUITMENT_COUNTERPARTY",
+      "url": "https://www.xinhuaqu.gov.cn/contents/11424/743264.html",
+      "date": "2026-04-17",
+      "claim": "Pingdingshan Xinhua District publicly licensed two Henan firms for professional employment-intermediary activity in 2026, including Pingdingshan Engis Electric Power Technology Co., evidencing a locally licensed recruitment counterparty class."
+    },
+    "HR-COMPLIANCE-20260408": {
+      "source_class": "CURRENT_RECRUITMENT_COMPLIANCE_BOUNDARY",
+      "url": "https://innovation.jinan.gov.cn/col/col17708/art/2026/art_4389ebb23993462fbfac88ed4bf3f059.html",
+      "date": "2026-04-08",
+      "claim": "Current HR-service oversight explicitly checks for illegal certificate-renting information services and retention of workers' qualification certificates; any route must involve genuine compliant employment, not certificate lending."
+    },
+    "ANNUAL-FZ-20260720": {
+      "source_class": "CURRENT_NAMED_ANNUAL_REPORT_DEFAULT_EVENT",
+      "url": "https://www.gl.gov.cn/xjwz/zwgkml/zdlyxxgk/spyp_1/wfxwcf/202607/t20260720_5348586.htm",
+      "date": "2026-07-20",
+      "claim": "Fuzhou Gulou publicly named 154 enterprises with two consecutive missing annual reports, provided a 15-day remediation window, and instructed firms to supplement reports through the national enterprise-credit system before applying for abnormal-list removal."
+    },
+    "ANNUAL-SH-CLOUD": {
+      "source_class": "CURRENT_OPEN_COMMERCIAL_ABNORMAL_LIST_SERVICE",
+      "url": "https://www.ssme.sh.gov.cn/public/product%21serviceDetail.do?productId=2c9e88379ffa822101a040f8557b6c7f",
+      "date": "2026-09-24",
+      "claim": "Shanghai's official enterprise service cloud currently lists paid commercial services for annual-report supplementation and abnormal-list removal, showing a commercial assistance market while explicitly leaving final removal to the competent authority."
+    },
+    "DRAIN-FX-20260915": {
+      "source_class": "CURRENT_RECURRING_NAMED_PERMIT_EXPIRY_EVENT_STREAM",
+      "url": "https://www.fengxian.gov.cn/swj/gggs/index.html",
+      "date": "2026-09-15",
+      "claim": "Fengxian Water Bureau maintains a monthly stream of drainage-permit expiry notices, with the September 15 index already listing permits expiring in December 2026."
+    },
+    "DRAIN-FX-20260624": {
+      "source_class": "CURRENT_PERMIT_RENEWAL_RULE_AND_NAMED_LIST",
+      "url": "https://www.fengxian.gov.cn/swj/gggs/20260624/109041.html",
+      "date": "2026-06-24",
+      "claim": "A current Fengxian drainage notice publishes the expiry-enterprise list and requires renewal applications at least 30 natural days before permit expiry."
+    },
+    "DRAIN-SH-ONLINE": {
+      "source_class": "CURRENT_STANDARDIZED_OFFICIAL_ACTION_RAIL",
+      "url": "https://zwdt.sh.gov.cn/govPortals/bsfw/item/2c599096-14b5-4d15-a6d4-d3ac022f5070",
+      "date": "2026-09-24",
+      "claim": "Shanghai's current One-Stop portal exposes an online drainage-permit change/renewal rail with zero required site visits and an immediate-processing commitment for the listed service."
+    },
+    "DRAIN-SH-NOAPPLY": {
+      "source_class": "CURRENT_AUTOMATED_REGULATOR_RAIL",
+      "url": "https://www.shanghai.gov.cn/gwk/affairs/content/0004%405c557e9fec03430c80516aeb5bdf2c83",
+      "date": "2026-08-14",
+      "claim": "Shanghai launched no-application drainage-permit change service using shared data, automated prefill and one-click confirmation, demonstrating continuing compression of intermediary value inside the government rail itself."
+    },
+    "DUST-BJ-202607": {
+      "source_class": "CURRENT_NAMED_CONSTRUCTION_DUST_FAILURE_EVENT",
+      "url": "https://zjw.beijing.gov.cn/bjjs/sgaq22/lssg28/yczlxcjc/744100651/index.shtml",
+      "date": "2026-08-01",
+      "claim": "Beijing's July 2026 dust-control report publicly identifies poor-performing construction projects and their contractors, creating a recurring named affected-actor stream."
+    },
+    "DUST-BJ-202603": {
+      "source_class": "CURRENT_DUST_MONITORING_SERVICE_COUNTERPARTY_TRACE",
+      "url": "https://zjw.beijing.gov.cn/bjjs/sgaq22/lssg28/yczlxcjc/743996469/index.shtml",
+      "date": "2026-04-01",
+      "claim": "Beijing's March 2026 dust-control report identifies monitoring-equipment operations service companies and poor-performing projects, evidencing both affected contractors and specialist service counterparties inside the same regulatory field."
+    },
+    "RELOC-SZ-20260528": {
+      "source_class": "CURRENT_NAMED_COMPANY_RELOCATION_STATE_CHANGE",
+      "url": "https://gxj.sz.gov.cn/xxgk/xxgkml/qt/tzgg/content/post_12811444.html",
+      "date": "2026-05-28",
+      "claim": "Shenzhen publicly announced 14 high-tech enterprises whose cross-location relocation applications were proposed for approval, proving a named recurring relocation-state trace but only after the relocation decision and application were already substantially committed."
+    },
+    "RELOC-CEC-20260512": {
+      "source_class": "CURRENT_DOWNSTREAM_FACTORY_RELOCATION_MARKET_VALIDATION",
+      "url": "https://www.cec-ec.com.cn/cms/channel/1xmgg1/40289.htm",
+      "date": "2026-05-12",
+      "claim": "A current CEC factory relocation procurement covers core equipment lifting, warehouse-rack disassembly and installation, transport and integrated implementation, validating a real relocation-provider market while also showing project-specific engineering depth."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_159-F1",
+      "title": "Named electrical contractors entering a personnel-deficiency license window -> licensed recruitment institutions able to source genuine qualifying employees",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PUBLICLY_NAMED_STATE_CHANGE_PLUS_REMEDY_MARKET",
+      "evidence_summary": "This is the strongest Scan159 near-miss. The regulator repeatedly publishes named deficient permit holders, explicit deadlines, permit categories and severe consequences, while licensed employment intermediaries are publicly discoverable. The route must be genuine employment only, never certificate renting. However the economically decisive state change is permit-condition acceptance in the regulator's qualification system; recruitment can supply inputs but cannot own that final gate.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "b_voluntary_motion": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "state_dependent_value_jump": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "decision_window": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "bridge_compression": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "activation_ease": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "self_propulsion": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "operator_control": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "a_discoverability": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "b_discoverability": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "match_resolvability": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "action_gate_callability": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "a_population_replenishment": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "b_population_replenishment": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "recurring_connection_pressure": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "recurring_missing_edge": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "recurring_event_source": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "ELEC-HN-20260916",
+          "ELEC-HN-20260920",
+          "ELEC-HB-20260911",
+          "HR-PDS-20260417",
+          "HR-COMPLIANCE-20260408"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEC-HN-20260916",
+            "ELEC-HN-20260920",
+            "ELEC-HB-20260911",
+            "HR-PDS-20260417",
+            "HR-COMPLIANCE-20260408"
+          ],
+          "owner_state": "REGULATOR_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_ELECTRICAL_LICENSE_STAFFING_HAS_PUBLIC_A_AND_LICENSED_RECRUITMENT_B_BUT_REGULATOR_OWNS_FINAL_PERMIT_CONDITION_ACCEPTANCE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_159-F2",
+      "title": "Publicly named enterprises approaching annual-report revocation -> commercial enterprise-service providers able to prepare compliant remediation",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PUBLICLY_NAMED_STATE_CHANGE_PLUS_REMEDY_MARKET",
+      "evidence_summary": "Large public lists and short remediation windows make the affected enterprises visible, and a paid service market for annual-report supplementation and abnormal-list removal exists. Yet the official system already exposes the core reporting action directly and the authority retains abnormal-list removal or revocation control. The proposed router therefore lacks decisive operator control despite good actor discoverability.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 2,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 2,
+          "match_resolvability": 3,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "b_voluntary_motion": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "state_dependent_value_jump": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "decision_window": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "bridge_compression": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "activation_ease": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "self_propulsion": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "operator_control": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "a_discoverability": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "b_discoverability": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "match_resolvability": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "action_gate_callability": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "a_population_replenishment": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "b_population_replenishment": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "recurring_connection_pressure": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "recurring_missing_edge": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "recurring_event_source": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "ANNUAL-FZ-20260720",
+          "ANNUAL-SH-CLOUD"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ANNUAL-FZ-20260720",
+            "ANNUAL-SH-CLOUD"
+          ],
+          "owner_state": "REGULATOR_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_ANNUAL_REPORT_REMEDIATION_HAS_PUBLIC_A_AND_PAID_HELP_B_BUT_SELF_SERVICE_REPORTING_AND_REGULATOR_REMOVAL_OWN_THE_DECISIVE_RAIL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_159-F3",
+      "title": "Named drainage-permit holders entering a renewal window -> environmental service providers able to prepare renewal evidence and corrective work",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PUBLICLY_NAMED_STATE_CHANGE_PLUS_REMEDY_MARKET",
+      "evidence_summary": "Monthly expiry lists create a clean named trigger and commercial drainage-service capacity exists, but Shanghai increasingly compresses the official rail to zero-visit, immediate or one-click processing. Where testing or corrective works are needed, the service may help, but final continuation remains an administrative permission and the official rail itself absorbs routine coordination.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "b_voluntary_motion": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "state_dependent_value_jump": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "decision_window": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "bridge_compression": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "activation_ease": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "self_propulsion": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "operator_control": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "a_discoverability": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "b_discoverability": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "match_resolvability": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "action_gate_callability": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "a_population_replenishment": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "b_population_replenishment": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "recurring_connection_pressure": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "recurring_missing_edge": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "recurring_event_source": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "DRAIN-FX-20260915",
+          "DRAIN-FX-20260624",
+          "DRAIN-SH-ONLINE",
+          "DRAIN-SH-NOAPPLY"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DRAIN-FX-20260915",
+            "DRAIN-FX-20260624",
+            "DRAIN-SH-ONLINE",
+            "DRAIN-SH-NOAPPLY"
+          ],
+          "owner_state": "REGULATOR_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_DRAINAGE_PERMIT_EXPIRY_IS_PUBLIC_AND_RECURRING_BUT_ONE_STOP_AUTOMATION_AND_WATER_AUTHORITY_RETAIN_THE_DECISIVE_RENEWAL_GATE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_159-F4",
+      "title": "Publicly named construction projects entering poor dust-control status -> specialist monitoring and remediation providers able to restore compliant site operation",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PUBLICLY_NAMED_STATE_CHANGE_PLUS_REMEDY_MARKET",
+      "evidence_summary": "The monthly reports expose projects and contractors while specialist monitoring service firms are also named. But turning a poor score into remediation requires site-specific diagnosis and construction controls, and the regulator remains the external compliance judge. This is discoverable but expert-bound rather than a standardized nonexpert match.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 2,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "b_voluntary_motion": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "state_dependent_value_jump": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "decision_window": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "bridge_compression": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "activation_ease": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "self_propulsion": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "operator_control": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "a_discoverability": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "b_discoverability": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "match_resolvability": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "action_gate_callability": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "a_population_replenishment": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "b_population_replenishment": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "recurring_connection_pressure": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "recurring_missing_edge": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "recurring_event_source": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "DUST-BJ-202607",
+          "DUST-BJ-202603"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DUST-BJ-202607",
+            "DUST-BJ-202603"
+          ],
+          "owner_state": "REGULATOR_AND_SITE_CONTROLLED"
+        }
+      },
+      "verdict": "DEMOTED_CONSTRUCTION_DUST_EVENT_HAS_PUBLIC_ACTORS_AND_SPECIALIST_SUPPLY_BUT_SITE_SPECIFIC_DIAGNOSIS_AND_REGULATORY_ACCEPTANCE_BLOCK_STANDARD_ROUTING"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_159-F5",
+      "title": "Publicly named enterprises completing cross-location relocation -> commercial factory and office relocation providers able to execute the move",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PUBLICLY_NAMED_STATE_CHANGE_PLUS_REMEDY_MARKET",
+      "evidence_summary": "Named relocation events and a real relocation-provider market are observable, and provider selection itself can be enterprise controlled. The defect is timing and standardization: the public high-tech relocation trace arrives after the relocation application/decision is already substantially committed, while factory moves are project-specific engineering engagements. The observable event therefore arrives too late for a reusable pre-commitment routing edge.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 2,
+          "decision_window": 1,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 3,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "b_voluntary_motion": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "state_dependent_value_jump": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "decision_window": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "bridge_compression": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "activation_ease": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "self_propulsion": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "operator_control": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "a_discoverability": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "b_discoverability": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "match_resolvability": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "action_gate_callability": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "a_population_replenishment": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "b_population_replenishment": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "recurring_connection_pressure": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "recurring_missing_edge": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "recurring_event_source": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "RELOC-SZ-20260528",
+          "RELOC-CEC-20260512"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RELOC-SZ-20260528",
+            "RELOC-CEC-20260512"
+          ],
+          "owner_state": "AFFECTED_COMPANY_OWNED_AFTER_COMMITMENT"
+        }
+      },
+      "verdict": "DEMOTED_COMPANY_RELOCATION_HAS_OPEN_PROVIDER_SELECTION_BUT_PUBLIC_TRACE_IS_POST_COMMITMENT_AND_FACTORY_MATCHING_IS_PROJECT_SPECIFIC"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "near_miss_formations": [
+    "ATTRACTION_SCAN_159-F1"
+  ],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Scan 159 solved the affected-actor visibility problem in all five fields but still found no high-attraction formation. Compliance fields preserve regulator-owned final gates; construction remediation remains expert-bound; company relocation has an enterprise-controlled execution gate but the public signal arrives after commitment and the match is project-specific."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_160",
+  "next_search_boundary": "SEARCH_FRESH_PUBLIC_PRE_COMMITMENT_OPERATIONAL_STATE_CHANGES_WHERE_THE_AFFECTED_ACTOR_IS_NAMED_THE_REMEDY_GATE_IS_COMPANY_OWNED_OR_UNOWNED_OPEN_AND_MATCHING_IS_STANDARDIZABLE_WITHOUT_REGULATOR_ACCEPTANCE_OR_PROJECT_SPECIFIC_EXPERT_DIAGNOSIS",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN160",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "prior_domain_deduplication_checked": true,
+    "state_change_first_search": true,
+    "decisive_action_gate_owner_checked": true,
+    "publicly_named_affected_actor_required": true,
+    "standardizable_nonexpert_match_required": true,
+    "regulator_acceptance_not_relabelled_as_operator_control": true,
+    "downstream_procurement_used_only_as_validation": true,
+    "certificate_renting_route_forbidden": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false,
+    "public_affected_actor_discoverability_checked": true,
+    "standardizable_nonexpert_match_checked": true,
+    "open_remedy_not_missing_edge_checked": true
+  },
+  "scan_learnings": [
+    "PUBLICLY_NAMED_AFFECTED_ACTORS_FIX_DISCOVERABILITY_BUT_DO_NOT_FIX_GATE_OWNERSHIP.",
+    "ELECTRICAL_LICENSE_STAFFING_IS_A_REAL_NEAR_MISS_WITH_STRONG_BILATERAL_DISCOVERABILITY_AND_DEADLINES_BUT_REGULATORY_ACCEPTANCE_REMAINS_DECISIVE.",
+    "COMPLIANCE_SERVICE_MARKETS_ARE_NOT_OPERATOR_OWNED_WHEN_THE_OFFICIAL_SYSTEM_CAN_ACCEPT_OR_REJECT_THE_STATE_CHANGE.",
+    "AN_OPEN_EXECUTION_MARKET_IS_TOO_LATE_WHEN_THE_PUBLIC_SIGNAL_APPEARS_AFTER_THE_CLIENT_HAS_ALREADY_COMMITTED_TO_THE_MOVE.",
+    "SCAN160_SHOULD_PREFER_PRE_COMMITMENT_OPERATIONAL_EVENTS_WITH_COMPANY_CONTROLLED_REMEDY_AND_STANDARD_MATCHING."
+  ],
+  "source_urls": [
+    "https://henb.nea.gov.cn/dtyw/tzgg/202609/t20260916_308835.html",
+    "https://henb.nea.gov.cn/dtyw/jggg/202609/t20260920_309250.html",
+    "https://hbj.nea.gov.cn/zxbs/dlywzzxkhnyhyxyyw/blsm/202609/t20260911_308585.html",
+    "https://www.xinhuaqu.gov.cn/contents/11424/743264.html",
+    "https://innovation.jinan.gov.cn/col/col17708/art/2026/art_4389ebb23993462fbfac88ed4bf3f059.html",
+    "https://www.gl.gov.cn/xjwz/zwgkml/zdlyxxgk/spyp_1/wfxwcf/202607/t20260720_5348586.htm",
+    "https://www.ssme.sh.gov.cn/public/product%21serviceDetail.do?productId=2c9e88379ffa822101a040f8557b6c7f",
+    "https://www.fengxian.gov.cn/swj/gggs/index.html",
+    "https://www.fengxian.gov.cn/swj/gggs/20260624/109041.html",
+    "https://zwdt.sh.gov.cn/govPortals/bsfw/item/2c599096-14b5-4d15-a6d4-d3ac022f5070",
+    "https://www.shanghai.gov.cn/gwk/affairs/content/0004%405c557e9fec03430c80516aeb5bdf2c83",
+    "https://zjw.beijing.gov.cn/bjjs/sgaq22/lssg28/yczlxcjc/744100651/index.shtml",
+    "https://zjw.beijing.gov.cn/bjjs/sgaq22/lssg28/yczlxcjc/743996469/index.shtml",
+    "https://gxj.sz.gov.cn/xxgk/xxgkml/qt/tzgg/content/post_12811444.html",
+    "https://www.cec-ec.com.cn/cms/channel/1xmgg1/40289.htm"
+  ]
+}
