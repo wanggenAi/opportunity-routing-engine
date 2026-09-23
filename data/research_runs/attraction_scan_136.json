@@ -1,0 +1,262 @@
+{
+  "schema_version": "attraction-scan.v103",
+  "scan_id": "ATTRACTION_SCAN_136",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CURRENT_SINGLE_OR_ECONOMICALLY_SEPARABLE_CHINA_ASSETS_WITH_EXACT_ASSET_ATTRIBUTABLE_RECEIPTS_AUTOMATIC_POST_TRANSFER_CONTINUITY_AT_LEAST_24_MONTHS_SOURCE_BOUND_FUTURE_RECEIPT_COVERAGE_COMPUTABLE_NON_DISQUALIFYING_ECONOMICS_AND_LOW_RECURRING_HUMAN_DELIVERY",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FRESH_CURRENT_ASSETS_ONLY_NO_SCAN060_TO_135_REUSE_REJECT_RENTAL_RIGHT_AUCTIONS_BUNDLES_POOLED_OR_PARTIAL_RECEIPTS_ATTACHMENT_ONLY_ECONOMICS_AND_SUB_24_MONTH_CASHFLOW_NO_GATE_RELAXATION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F1",
+      "title": "CURRENT_JIAXING_SINGLE_OFFICE_WITH_IMMEDIATE_POST_TRANSFER_RENT",
+      "chinese_title": "嘉兴名典公寓办510室二拍76.32万元 → 5000元/月 → 过户之日起即可收租 → 租至2029-05-15",
+      "state": "RESEARCH_BEACON_RETAINED_FOR_TENANT_LEDGER_DEPOSIT_TRANSFER_TIMELINE_TAX_AND_PHYSICAL_DILIGENCE",
+      "commercial_candidate": false,
+      "observed_money_motion": [
+        "Current second-auction floor is RMB 763,200 for one 259.68 sqm office unit.",
+        "Current rent is RMB 5,000 per month and the lease runs through 2029-05-15.",
+        "The court-sale republication explicitly states that because rent is currently collected monthly for the judicial disposition, the buyer may collect rent from the transfer date, including a pro-rata amount for the transfer month."
+      ],
+      "decisive_unknowns": [
+        "TENANT_IDENTITY_AND_CREDIT_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "FULL_LEASE_CURRENT_RENT_LEDGER_AND_DEPOSIT_QUANTUM_NOT_PUBLIC",
+        "TRANSFER_DATE_NOT_FIXED_SO_EXACT_BUYER_RECEIPT_MONTH_COUNT_NOT_YET_BOUND",
+        "EXACT_BUYER_SIDE_TAXES_AND_NET_ACQUISITION_ECONOMICS_NOT_NORMALIZED",
+        "LAND_USE_TERMINATION_DATE_IS_STATED_UNKNOWN",
+        "CURRENT_PHYSICAL_CONDITION_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "next_action": "CHEAP_FALSIFY_TENANT_LEDGER_DEPOSIT_TRANSFER_TIMELINE_TAX_LAND_TERM_AND_PHYSICAL_CONDITION_BEFORE_ANY_COMMERCIAL_PROMOTION_OR_BID"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F2",
+      "title": "CURRENT_WEIYUAN_SINGLE_SHOP_WITH_HIGH_GROSS_RENT_AND_PREPAID_WINDOW",
+      "chinese_title": "威远兰花街46号单铺一拍44.588628万元 → 6000元/月 → 已付至2026-11月底 → 租至2029-02-24",
+      "state": "RESEARCH_BEACON_RETAINED_FOR_EXACT_BUYER_RECEIPT_START_LEASE_TENANT_DEPOSIT_TRANSFER_AND_COST_DILIGENCE",
+      "commercial_candidate": false,
+      "observed_money_motion": [
+        "Current first-auction floor is RMB 445,886.28 for one 45.08 sqm commercial unit.",
+        "The notice states this is a sale with an existing lease, current rent RMB 6,000 per month paid quarterly, lease through 2029-02-24, with rent already paid through the end of 2026-11.",
+        "Civil Code Article 725 provides that an ownership change during the tenant's possession under the lease does not affect lease validity."
+      ],
+      "decisive_unknowns": [
+        "AUCTION_SPECIFIC_EXACT_FIRST_BUYER_RENT_PAYMENT_AFTER_TRANSFER_NOT_PUBLICLY_STATED",
+        "TENANT_IDENTITY_AND_CURRENT_PAYMENT_PERFORMANCE_NOT_PUBLIC",
+        "FULL_LEASE_AND_DEPOSIT_QUANTUM_NOT_PUBLIC",
+        "TRANSFER_TIMELINE_NOT_FIXED_AND_THE_POST_PREPAYMENT_24_MONTH_MARGIN_IS_ONLY_ABOUT_THREE_MONTHS",
+        "EXACT_UTILITY_PROPERTY_ARREARS_AND_BUYER_TAX_TRANSFER_COSTS_NOT_BOUND",
+        "TITLE_RIGHTS_AND_CURRENT_PHYSICAL_CONDITION_REQUIRE_CASE_SPECIFIC_DILIGENCE"
+      ],
+      "next_action": "OBTAIN_SOURCE_BOUND_LEASE_LEDGER_TENANT_DEPOSIT_EXACT_POST_TRANSFER_RENT_START_TRANSFER_TIMELINE_ARREARS_AND_TAX_FIELDS_BEFORE_ANY_COMMERCIAL_PROMOTION_OR_BID"
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_136-F1",
+    "ATTRACTION_SCAN_136-F2"
+  ],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_135-F1",
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": false,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F1",
+      "title": "CURRENT_JIAXING_SINGLE_OFFICE_WITH_IMMEDIATE_POST_TRANSFER_RENT",
+      "chinese_title": "嘉兴名典公寓办510室二拍76.32万元 → 5000元/月 → 过户之日起即可收租 → 租至2029-05-15",
+      "evidence_class": "CURRENT_SINGLE_ASSET_WITH_EXACT_ENTRY_EXACT_RENT_EXPLICIT_POST_TRANSFER_RECEIPT_RIGHT_AND_OVER_24_MONTH_CALENDAR_TERM_BUT_TRANSFER_TIMING_AND_LEDGER_DILIGENCE_OPEN",
+      "evidence_summary": "A current Jiaxing Nanhu District People's Court second auction runs 2026-09-30 through 2026-10-01 for one 259.68 sqm office unit at RMB 763,200. The unit is leased through 2029-05-15 at RMB 5,000/month. The public court-sale republication says rent is currently collected monthly due to the judicial disposition and that the buyer may collect from the transfer date, including a pro-rata transfer-month amount. Nominal annual rent is RMB 60,000, about 7.86% of the current floor before all costs. Public facts also show seizure and mortgage, title documents not physically recovered but transfer stated unaffected, property-fee arrears stated at RMB 17,295 through 2026-12-31 and contractually borne by the tenant, while exact taxes, transfer timing, tenant identity, lease deposit, complete rent ledger, land-use termination date and physical condition remain open.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_763200_SECOND_AUCTION_FLOOR",
+        "contracted_receipt_amount": "RMB_5000_PER_MONTH",
+        "buyer_receipt_start": "EXPLICIT_FROM_TRANSFER_DATE_WITH_PRO_RATA_TRANSFER_MONTH_RENT_EXACT_TRANSFER_DATE_UNKNOWN",
+        "buyer_receipt_end": "LEASE_END_2029-05-15",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "post_transfer_receipt_right": "PASS_EXPLICIT_BUYER_MAY_COLLECT_FROM_TRANSFER_DATE",
+        "unprepaid_receipt_status": "PASS_CURRENT_RENT_IS_BEING_COLLECTED_MONTHLY_FOR_JUDICIAL_DISPOSITION_NOT_SIX_MONTH_PREPAID",
+        "low_recurring_human_delivery": "PARTIAL_PASS_PASSIVE_LANDLORD_COLLECTION_WITH_NORMAL_PROPERTY_ADMINISTRATION",
+        "receipt_to_entry_economics": "PASS_FOR_RESEARCH_ONLY_RMB60000_ANNUAL_NOMINAL_RENT_DIVIDED_BY_RMB763200_FLOOR_APPROX_7_86_PERCENT_GROSS_BEFORE_ALL_COSTS"
+      },
+      "attraction_brief": {
+        "a_side": "A current second auction exposes one office unit at an exact RMB 763,200 floor.",
+        "a_side_evidence": "Auction date, exact unit, area and floor are public.",
+        "b_side": "An existing tenant pays RMB 5,000/month through 2029-05-15.",
+        "b_side_evidence": "Rent, term and buyer receipt right from transfer date are public.",
+        "operator": "Owner role is primarily landlord/collection.",
+        "operator_non_labor_test": "PARTIAL_PASS_NORMAL_PROPERTY_ADMINISTRATION_REMAINS",
+        "connection_wow": "This is a fresh single-asset case with exact price, exact rent, explicit transfer-date buyer receipts and a 7.86% nominal gross ratio.",
+        "activation_friction": "PARTIAL_CURRENT_AUCTION_RAIL_BUT_TRANSFER_DATE_TAX_AND_DILIGENCE_UNKNOWNS_REMAIN",
+        "self_propulsion": "PASS_FOR_RESEARCH_EXISTING_LEASE_AND_EXPLICIT_POST_TRANSFER_RENT_RIGHT",
+        "a_discoverability": "PASS_CURRENT_SECOND_AUCTION_NOTICE",
+        "b_discoverability": "PARTIAL_TENANT_EXISTS_BUT_IDENTITY_LEDGER_AND_DEPOSIT_NOT_PUBLIC",
+        "match_resolvability": "PARTIAL_FULL_PUBLIC_ECONOMIC_TUPLE_EXCEPT_TRANSFER_TIMING_AND_DILIGENCE_COSTS",
+        "action_gate": "RESEARCH_OPEN_NO_BID_OR_COMMERCIAL_PROMOTION_UNTIL_DILIGENCE_CLOSES_UNKNOWN_FIELDS",
+        "router_distinctiveness": "PASS_PROPERTY_CONTROL_AND_RENT_SUCCESSION_ARE_NON_GENERIC",
+        "generic_agent_substitution": "PASS_OWNERSHIP_RIGHT_IS_NON_GENERIC",
+        "legal_payment_compliance": "PARTIAL_PASS_JUDICIAL_TRANSFER_RAIL_EXISTS_BUT_CASE_SPECIFIC_TAX_TRANSFER_FIELDS_REQUIRE_CONFIRMATION",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "decisive_unknowns": [
+        "Tenant identity and payment quality are not public.",
+        "Full lease, deposit quantum and complete rent ledger are not public.",
+        "Exact transfer date is unknown, so exact future receipt months must be confirmed against the >=24 month rule.",
+        "Exact buyer-side taxes and normalized net yield are not public.",
+        "Land-use termination date is listed as unknown and physical condition is not independently verified."
+      ],
+      "verdict": "RETAINED_FOR_CHEAP_FALSIFICATION_TENANT_LEDGER_DEPOSIT_TRANSFER_TIMELINE_TAX_LAND_TERM_AND_PHYSICAL_CONDITION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F2",
+      "title": "CURRENT_WEIYUAN_SINGLE_SHOP_WITH_HIGH_GROSS_RENT_AND_PREPAID_WINDOW",
+      "chinese_title": "威远严陵镇兰花街46号商业用房一拍44.588628万元 → 6000元/月 → 2026-11月底前已付 → 租至2029-02-24",
+      "evidence_class": "CURRENT_SINGLE_ASSET_WITH_EXACT_PRICE_HIGH_EXACT_RENT_AND_LEASE_CONTINUITY_BUT_EXACT_POST_TRANSFER_RECEIPT_START_AND_DILIGENCE_FIELDS_OPEN",
+      "evidence_summary": "A current Weiyuan County People's Court first auction runs 2026-10-18 through 2026-10-19 for one 45.08 sqm commercial unit at RMB 445,886.28. The notice explicitly says it is sold with the lease, current rent is RMB 6,000/month paid quarterly, lease ends 2029-02-24, and the tenant has paid through the end of 2026-11. Civil Code Article 725 states that an ownership change during the tenant's possession does not affect lease validity. Nominal annual rent is RMB 72,000, about 16.15% of the floor. From 2026-12-01 to lease end is about 26.8 months, so the >=24 month rule has only a narrow transfer-timing margin and must be confirmed before promotion. The exact lease, tenant identity, deposit, first buyer payment cycle, arrears, taxes and physical/title diligence remain open.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_445886_28_FIRST_AUCTION_FLOOR",
+        "contracted_receipt_amount": "RMB_6000_PER_MONTH_QUARTERLY_PAYMENT",
+        "buyer_receipt_start": "NOT_EXACTLY_PUBLIC_AUCTION_NOTICE_BINDS_PREPAID_THROUGH_2026_11_AND_WITH_LEASE_SALE_STATUTORY_CONTINUITY_APPLIES",
+        "buyer_receipt_end": "LEASE_END_2029-02-24",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC",
+        "post_transfer_receipt_right": "PARTIAL_PASS_NOTICE_SAYS_WITH_LEASE_AND_CIVIL_CODE_725_PRESERVES_LEASE_EFFECT_BUT_AUCTION_SPECIFIC_FIRST_BUYER_RENT_CYCLE_IS_NOT_PUBLIC",
+        "unprepaid_receipt_status": "PARTIAL_PASS_KNOWN_PREPAID_THROUGH_2026_11_FUTURE_POST_2026_11_RENT_NOT_SHOWN_AS_PREPAID",
+        "low_recurring_human_delivery": "PARTIAL_PASS_PASSIVE_LANDLORD_COLLECTION_WITH_NORMAL_PROPERTY_ADMINISTRATION",
+        "receipt_to_entry_economics": "PASS_FOR_RESEARCH_ONLY_RMB72000_ANNUAL_NOMINAL_RENT_DIVIDED_BY_RMB445886_28_FLOOR_APPROX_16_15_PERCENT_GROSS_BEFORE_ALL_COSTS"
+      },
+      "attraction_brief": {
+        "a_side": "A current first auction exposes one small commercial unit at an exact RMB 445,886.28 floor.",
+        "a_side_evidence": "Auction dates, single unit, area and floor are public.",
+        "b_side": "Existing tenant pays RMB 6,000/month under a lease through 2029-02-24.",
+        "b_side_evidence": "Rent, quarterly cadence, prepaid-through date and lease end are public.",
+        "operator": "Owner role is landlord/collection.",
+        "operator_non_labor_test": "PARTIAL_PASS",
+        "connection_wow": "The 16.15% nominal gross ratio is materially stronger than recent retained scans, but durability depends on a narrow transfer-timing margin and exact rent succession.",
+        "activation_friction": "PARTIAL_CURRENT_AUCTION_RAIL_WITH_TRANSFER_TITLE_AND_DILIGENCE_UNKNOWN",
+        "self_propulsion": "PARTIAL_EXISTING_LEASE_CONTINUES_BUT_EXACT_FIRST_BUYER_RENT_PAYMENT_NOT_PUBLIC",
+        "a_discoverability": "PASS",
+        "b_discoverability": "PARTIAL_TENANT_IDENTITY_AND_FULL_LEASE_NOT_PUBLIC",
+        "match_resolvability": "PARTIAL",
+        "action_gate": "RESEARCH_OPEN_NO_BID_OR_COMMERCIAL_PROMOTION_UNTIL_EXACT_POST_TRANSFER_RECEIPT_WINDOW_AND_DILIGENCE_CLOSE",
+        "router_distinctiveness": "PASS",
+        "generic_agent_substitution": "PASS",
+        "legal_payment_compliance": "PARTIAL_PASS_JUDICIAL_AUCTION_AND_STATUTORY_LEASE_CONTINUITY_EXIST",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "decisive_unknowns": [
+        "Exact auction-specific first buyer rent cycle after transfer is not public.",
+        "Tenant identity, complete lease, deposit and payment ledger are not public.",
+        "The future receipt duration has only about a 2.8-month cushion over the 24-month rule if receipts start 2026-12-01, so transfer delay is decisive.",
+        "Exact arrears, taxes, transfer costs and physical/title condition require case-specific diligence."
+      ],
+      "verdict": "RETAINED_FOR_CHEAP_FALSIFICATION_EXACT_BUYER_RECEIPT_START_TRANSFER_TIMING_LEASE_TENANT_DEPOSIT_ARREARS_TAX_AND_TITLE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F3",
+      "title": "CURRENT_SHANGHAI_PUDONG_SMALL_UNIT_WITH_EXPLICIT_LEASE_SUCCESSION_BUT_ECONOMICS_FAIL",
+      "chinese_title": "上海浦东大道1700弄33号201室一拍151.52963万元 → 2000元/月 → 买受人承继租约 → 租至2029-04-30",
+      "evidence_class": "CURRENT_SINGLE_ASSET_WITH_EXACT_PRICE_RENT_TERM_AND_EXPLICIT_SUCCESSION_BUT_OBVIOUSLY_DISQUALIFYING_RECEIPT_TO_ENTRY_ECONOMICS",
+      "evidence_summary": "A current Shenzhen Pingshan District People's Court first auction runs 2026-10-19 through 2026-10-20 for one 51.09 sqm Shanghai unit at RMB 1,515,296.30. The lease runs 2026-05-01 through 2029-04-30 at RMB 2,000/month, paid monthly. The notice explicitly states the buyer must succeed to the original owner's lease rights and obligations. Annual nominal rent is only RMB 24,000, about 1.58% of the floor before all costs, while property-management, utilities, repair-fund and transfer risks remain buyer diligence items. Economics hard-fail retention independently.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_1515296_30_FIRST_AUCTION_FLOOR",
+        "contracted_receipt_amount": "RMB_2000_PER_MONTH",
+        "buyer_receipt_start": "POST_TRANSFER_UNDER_EXPLICIT_BUYER_LEASE_SUCCESSION_EXACT_FIRST_PAYMENT_DAY_DEPENDS_ON_TRANSFER",
+        "buyer_receipt_end": "LEASE_END_2029-04-30",
+        "counterparty": "EXISTING_TENANT",
+        "post_transfer_receipt_right": "PASS_BUYER_MUST_SUCCEED_ORIGINAL_OWNER_LEASE_RIGHTS_AND_OBLIGATIONS",
+        "unprepaid_receipt_status": "PASS_MONTHLY_RENT_PAYMENT_NO_LONG_PREPAYMENT_DISCLOSED",
+        "low_recurring_human_delivery": "PARTIAL_PASS_NORMAL_LANDLORD_ROLE",
+        "receipt_to_entry_economics": "FAIL_RMB24000_ANNUAL_NOMINAL_RENT_DIVIDED_BY_RMB1515296_30_FLOOR_APPROX_1_58_PERCENT_GROSS_BEFORE_COSTS"
+      },
+      "exact_disconfirmation": [
+        "Nominal gross annual rent / floor is only about 1.58%.",
+        "Buyer also bears diligence/collection exposure for property management, utilities and related unsettled charges.",
+        "Strong legal continuity does not rescue obviously weak receipt-to-entry economics."
+      ],
+      "verdict": "DEMOTED_CURRENT_SHANGHAI_RMB1515296_30_SINGLE_UNIT_HAS_EXPLICIT_LEASE_SUCCESSION_AND_MONTHLY_RENT_BUT_APPROX_1_58_PERCENT_GROSS_ECONOMICS_HARD_FAIL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F4",
+      "title": "CURRENT_WUHAN_LONG_LEASE_COMMERCIAL_ASSET_WITH_EXPLICIT_SUCCESSION_BUT_LOW_YIELD_AND_LARGE_ENTRY",
+      "chinese_title": "武汉鹦鹉大道48号B座2层1号商网变卖997.6232万元 → 22/25元㎡月 → 买受人继受租约至2039",
+      "evidence_class": "CURRENT_WHOLE_ASSET_WITH_EXACT_PRICE_EXACT_RENT_LONG_TERM_AND_EXPLICIT_SUCCESSION_BUT_DISQUALIFYING_SCALE_AND_GROSS_ECONOMICS",
+      "evidence_summary": "A current Wuhan Intermediate People's Court change sale runs 2026-10-04 through 2026-12-03 for one registered commercial asset of 1,367.52 sqm at RMB 9,976,232. The whole asset is leased to Wuhan Tianxia Mingqihui Commercial Operation Management Co., Ltd. through 2039-12-31. Rent is RMB 22/sqm/month through 2027-09-30 then RMB 25/sqm/month through 2039-09-30, and the notice says the buyer immediately succeeds to the lease. That equals about RMB 361,025/year at the current step, only about 3.62% of the floor, rising to about 4.11% at the next step before costs. The nearly RMB10m entry and sub-4.2% gross economics hard-fail this attraction lane.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_9976232_CHANGE_SALE_FLOOR",
+        "contracted_receipt_amount": "RMB_22_PER_SQM_PER_MONTH_TO_2027_09_30_THEN_RMB_25_PER_SQM_PER_MONTH_TO_2039_09_30_ON_1367_52_SQM",
+        "buyer_receipt_start": "EXPLICIT_BUYER_IMMEDIATELY_SUCCEEDS_TO_LEASE_AFTER_ACQUISITION",
+        "buyer_receipt_end": "LEASE_END_2039-12-31_RENT_SCHEDULE_PUBLIC_THROUGH_2039-09-30",
+        "counterparty": "WUHAN_TIANXIA_MINGQIHUI_COMMERCIAL_OPERATION_MANAGEMENT_CO_LTD",
+        "post_transfer_receipt_right": "PASS_EXPLICIT_BUYER_SUCCESSION",
+        "unprepaid_receipt_status": "PARTIAL_NO_PREPAYMENT_DISCLOSED_CURRENT_LEDGER_NOT_PUBLIC",
+        "low_recurring_human_delivery": "PARTIAL_PASS_NORMAL_LANDLORD_ROLE",
+        "receipt_to_entry_economics": "FAIL_CURRENT_STEP_APPROX_3_62_PERCENT_GROSS_NEXT_STEP_APPROX_4_11_PERCENT_GROSS_ON_RMB9976232_FLOOR_BEFORE_COSTS"
+      },
+      "exact_disconfirmation": [
+        "Current-step annual rent is about RMB 361,025, only about 3.62% of the nearly RMB10m floor.",
+        "Next-step annual rent is about RMB 410,256, only about 4.11% gross before taxes, arrears and ownership costs.",
+        "The large entry price and weak gross ratio are independently inconsistent with the current low-friction attraction lane."
+      ],
+      "verdict": "DEMOTED_CURRENT_WUHAN_RMB9976232_LONG_LEASE_HAS_EXPLICIT_BUYER_SUCCESSION_BUT_APPROX_3_62_TO_4_11_PERCENT_GROSS_AND_NEAR_RMB10M_ENTRY_FAIL_CURRENT_ATTRACTION_ECONOMICS"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_RENTAL_RIGHT_AUCTIONS",
+      "reason": "Auction buyer pays rent to obtain a leasehold; money flows out from the buyer rather than producing inherited buyer receipts, so wrong-flow formations are excluded before deep diligence."
+    },
+    {
+      "observation": "CURRENT_MULTI_UNIT_OR_COMPOSITE_BUNDLES_IN_MIANYANG_HAIAN_CHENGDU",
+      "reason": "Exact current rent can exist, but mixed-use/multi-title bundles or pooled receipts fail the single/economically-separable asset gate before deeper diligence."
+    }
+  ],
+  "drift_audit": {
+    "primary_domain_is_china": true,
+    "fresh_current_assets_only": true,
+    "single_asset_or_economically_separable_entry_required": true,
+    "exact_asset_receipt_amount_required": true,
+    "unprepaid_future_buyer_receipts_required": true,
+    "automatic_post_transfer_contract_continuity_required": true,
+    "minimum_24_month_source_bound_receipt_coverage_required": true,
+    "receipt_to_entry_economics_front_loaded": true,
+    "rental_right_wrong_flow_rejected": true,
+    "research_retention_is_not_commercial_promotion": true,
+    "retained_unknowns_must_be_bounded_and_falsifiable": true,
+    "no_bid_deposit_or_purchase_authority": true,
+    "low_recurring_human_delivery_independent_gate": true,
+    "scan060_to_135_formation_fallback_forbidden": true,
+    "gate_relaxation": false
+  },
+  "commercial_outcome": {
+    "retained_count": 2,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Scan 136 found two fresh single-asset research survivors without commercial promotion. Jiaxing binds an exact RMB763,200 floor, RMB5,000/month rent, lease to 2029-05-15 and explicit rent collection from transfer at about 7.86% nominal gross. Weiyuan binds an exact RMB445,886.28 floor, RMB6,000/month rent, prepaid through 2026-11 and lease to 2029-02-24 at about 16.15% nominal gross, but its exact buyer receipt start and narrow >24-month transfer margin remain open. Shanghai and Wuhan are authoritatively demoted on gross economics."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_137",
+  "next_search_boundary": "VALIDATE_SCAN136_ON_EXACT_HEAD_WITH_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ACTUAL_F1_F2_RESEARCH_ROUTES_BEFORE_STARTING_SCAN137_NO_SCAN060_TO_136_REUSE_NO_GATE_RELAXATION",
+  "next_action": "FREEZE_SCAN136_HEAD_OPEN_ONE_PR_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_INPUT_SCAN_ID_ATTRACTION_SCAN_136_ENTITY_COUNT_4_KEEP_F1_F2_NON_AUTHORITATIVE_RESEARCH_ONLY_KEEP_F3_F4_AUTHORITATIVELY_CLOSED_THEN_CONSUME_ACTUAL_JEV_ROUTES_WITHOUT_COMMERCIAL_PROMOTION",
+  "scan_learnings": [
+    "CURRENT_SINGLE_ASSET_JUDICIAL_SALES_CAN_BIND_EXACT_PRICE_EXACT_RENT_AND_EXPLICIT_TRANSFER_DATE_BUYER_RECEIPTS_AT_MATERIALLY_BETTER_GROSS_RATIOS_THAN_SCAN135.",
+    "JIAxing_F1_HAS_APPROX_7_86_PERCENT_NOMINAL_GROSS_BUT_TRANSFER_DATE_TENANT_LEDGER_DEPOSIT_TAX_LAND_TERM_AND_PHYSICAL_DILIGENCE_REMAIN_DECISIVE.",
+    "WEIYUAN_F2_HAS_APPROX_16_15_PERCENT_NOMINAL_GROSS_BUT_PREPAYMENT_TO_2026_11_AND_LEASE_END_2029_02_24_LEAVE_A_NARROW_DURABILITY_MARGIN_DEPENDENT_ON_TRANSFER_TIMING.",
+    "EXPLICIT_LEASE_SUCCESSION_DOES_NOT_COMPENSATE_FOR_1_58_TO_4_11_PERCENT_GROSS_ECONOMICS_IN_THE_CURRENT_ATTRACTION_LANE.",
+    "RENTAL_RIGHT_AUCTIONS_ARE_WRONG_FLOW_BECAUSE_THE_BUYER_PAYS_RENT_RATHER_THAN_INHERITING_RECEIPTS.",
+    "RESEARCH_RETENTION_GRANTS_NO_BID_DEPOSIT_PURCHASE_OR_COMMERCIAL_PROMOTION_AUTHORITY."
+  ],
+  "source_urls": [
+    "https://m.fang.com/fapai/jx/out_12738634.html",
+    "https://www.sohu.com/a/1077209752_122455197",
+    "https://www.court.gov.cn/zixun/xiangqing/233181.html",
+    "https://www.sohu.com/a/1077489521_122455197",
+    "https://www.sohu.com/a/1077209835_122455197"
+  ]
+}
