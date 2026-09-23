@@ -27,6 +27,9 @@ SCAN141_F1_F2_PUBLIC_ROUTES_CONSUMED_FINAL_HEAD_REVALIDATION_PENDING
 ## Active PR
 PR #451 — `Run Scan 141 on near-complete receipt tuples` — OPEN.
 
+## CI
+The latest route-consumption head must pass repository CI and live TypeSafe/Jev on the exact same SHA before merge. The prior validated Scan 141 input head is evidence for route selection only; it does not authorize merging the advanced route-consumption head.
+
 ## Exact TypeSafe/Jev Invocation Consumed
 Source head `f013e028594b54dead62cb272c724fd595636a55` passed:
 - repository CI `35847088351`: SUCCESS;
