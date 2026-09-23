@@ -1,0 +1,231 @@
+{
+  "schema_version": "attraction-scan.v99",
+  "scan_id": "ATTRACTION_SCAN_125",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_JIANGSU_XUZHOU",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "NINETEENTH_INDEPENDENT_STRICT_CURRENT_ECONOMIC_CONJUNCTION_PRIMARY_ADMISSION_REPEAT_WITH_JOINT_LOW_FTE_POSITIVE_PROFIT_POSITIVE_CONSOLIDATED_OCF_RETRIEVAL_REQUIRE_CURRENT_SAME_ENTITY_REPORT_OR_CURRENT_FINANCIAL_SNAPSHOT_REQUIRE_DIRECT_CURRENT_OR_LATEST_INTRINSICALLY_LOW_FTE_REQUIRE_POSITIVE_EXTERNAL_REVENUE_AND_POSITIVE_NET_PROFIT_AND_POSITIVE_CONSOLIDATED_OPERATING_CASHFLOW_BEFORE_PRIMARY_FORMATION_ADMISSION_THEN_CHECK_COMPLETED_FRESH_OPERATOR_REPRODUCIBLE_CONTROL_FIRST_FOR_EVERY_ADMITTED_SURVIVOR_INCLUDE_FRESH_NONMANUFACTURING_ROUTES_EXCLUDE_SCAN060_TO_124_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": false,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_125-F1",
+      "title": "CHINA_11_FTE_APPLICATION_SOFTWARE_OPERATOR_WITH_CURRENT_POSITIVE_PROFIT_AND_OCF_BUT_LONGSTANDING_CONTROLLER_AND_CUSTOM_PROJECT_DELIVERY",
+      "discovery_route": "JOINT_LOW_FTE_POSITIVE_PROFIT_POSITIVE_OCF_CURRENT_SIGNAL_THEN_EXTERNAL_REVENUE_CONTROL_AND_DELIVERY_DEEPENING",
+      "observed_actor_state_change_evidence": [
+        "The latest direct annual employee disclosure reports 11 employees at 2025 year-end.",
+        "The current 2026 H1 financial snapshot reports approximately RMB13.14m revenue, RMB0.80m net profit and positive operating cashflow per share of RMB0.0612.",
+        "The latest audited business model states that the company still obtains orders through direct sales and earns revenue mainly by developing software products and providing technical services for customers."
+      ],
+      "objective_endowment_or_underuse_evidence": [
+        "The company has a very small employee base and real current accounting profitability rather than a shell-only revenue signal.",
+        "The latest audited customer list names multiple third-party customers and the business model is direct external customer software development and technical service rather than disclosed captive shareholder throughput.",
+        "The operator also owns software-development experience, technical staff and customer relationships that are not reducible to a public API or commodity infrastructure input."
+      ],
+      "observed_behavior_or_workaround_evidence": [
+        "The company explicitly tailors application-software implementation to differentiated customer requirements and provides follow-on operations and maintenance.",
+        "The 2025 annual report attributes negative annual OCF partly to different project-service customers, different custom development content and longer project collection cycles.",
+        "Current profitability therefore does not establish standardized founder-light delivery."
+      ],
+      "contradiction_or_partial_flow_evidence": [
+        "F1 passes the Scan 125 economic admission conjunction at retrieval precision and is deepened rather than treated as a partial-match exclusion.",
+        "Control then fails: the latest audited report identifies Yao Ning as controlling shareholder and actual controller with 77% ownership, with Yao Shengwu and Zeng Zhen acting in concert; Yao Ning is also chairman, general manager and board secretary.",
+        "Delivery also fails: customer-differentiated application-software implementation, custom development, direct sales and ongoing operations/maintenance remain core delivery inputs."
+      ],
+      "economic_signal": [
+        "2026 H1 current snapshot: revenue approximately RMB13.14m; net profit approximately RMB0.80m; operating cashflow per share RMB0.0612; total shares 10.88m, implying approximately RMB0.666m positive OCF at displayed precision.",
+        "Latest direct employee disclosure: 11 employees at 2025 year-end.",
+        "The positive current OCF signal reverses the negative 2025 annual OCF, but the historical volatility reinforces the project-collection dependency rather than proving a standardized cashflow rail."
+      ],
+      "current_external_revenue_check": "PASS_CURRENT_ACCOUNTING_REVENUE_WITH_LATEST_AUDITED_DIRECT_SALES_TO_NAMED_THIRD_PARTY_CUSTOMERS_AND_NO_CAPTIVE_SHAREHOLDER_THROUGHPUT_SIGNAL_IN_THE_RETRIEVAL_PACKET",
+      "exact_incumbent_and_control_surface_preflight": [
+        "The decisive control surface is company equity/governance, controller-led management, customer acquisition, customer-specific requirements, software implementation know-how and project collection.",
+        "Yao Ning owns 77% in the latest audited report and simultaneously holds chairman, general-manager and board-secretary roles.",
+        "A generic agent does not acquire this ownership, customer relationship or implementation authority."
+      ],
+      "executed_control_transfer_check": "FAIL_NO_CURRENT_COMPLETED_FRESH_OPERATOR_CONTROL_TRANSFER_EVIDENCED_LATEST_AUDITED_CONTROL_REMAINS_YAO_NING_77_PERCENT_WITH_ACTING_IN_CONCERT_PARTIES",
+      "post_transfer_external_economic_continuity_check": "NOT_REACHED_NO_FRESH_OPERATOR_CONTROL_TRANSFER",
+      "fresh_small_operator_entry_check": "FAIL_LOW_FTE_IS_REAL_BUT_DECISIVE_CONTROL_POSITION_IS_LONGSTANDING_CONTROLLER_LED_NOT_FRESH_OPERATOR_REPRODUCIBLE_ENTRY",
+      "same_operator_economic_binding_check": "PASS_CURRENT_SAME_ENTITY_2026H1_FINANCIAL_SNAPSHOT_BINDS_POSITIVE_REVENUE_PROFIT_AND_OCF_SIGNAL_WHILE_LATEST_DIRECT_FTE_DISCLOSURE_IS_11",
+      "direct_operating_cost_check": "FAIL_CUSTOMER_SPECIFIC_PROJECT_DEVELOPMENT_IMPLEMENTATION_DIRECT_SALES_AND_OPERATIONS_MAINTENANCE_ARE_DIRECT_DELIVERY_INPUTS",
+      "owner_labor_check": "PASS_INTRINSICALLY_LOW_LATEST_DIRECT_FTE_11_BUT_CONTROLLER_IS_EMBEDDED_IN_EXECUTIVE_MANAGEMENT",
+      "founder_independence_check": "FAIL_ACTUAL_CONTROLLER_YAO_NING_IS_CHAIRMAN_GENERAL_MANAGER_AND_BOARD_SECRETARY",
+      "data_action_rights_check": "NOT_REACHED_CONTROL_AND_CUSTOM_PROJECT_DELIVERY_CLOSE_THE_FORMATION_BEFORE_RIGHTS_DEEPENING",
+      "normalized_margin_check": "PASS_CURRENT_ACCOUNTING_PROFIT_AND_POSITIVE_OCF_SIGNAL_BUT_PROJECT_COLLECTION_VOLATILITY_AND_CUSTOM_DELIVERY_REMAIN_REAL",
+      "machine_delegatability_check": "FAIL_RECURRING_CUSTOMER_REQUIREMENT_INTERPRETATION_SOFTWARE_IMPLEMENTATION_AND_MAINTENANCE_ARE_NOT_A_MACHINE_ONLY_STANDARDIZED_RAIL",
+      "generic_agent_substitutability_check": "FAIL_SWITCHING_TO_A_GENERIC_AGENT_DOES_NOT_CREATE_EQUITY_CONTROL_CUSTOMER_RELATIONSHIPS_OR_PROJECT_ACCEPTANCE_AUTHORITY",
+      "verdict": "DEMOTED_FULL_CURRENT_ECONOMIC_SIGNAL_DOES_NOT_OVERRIDE_LONGSTANDING_CONTROLLER_EXECUTIVE_DEPENDENCE_AND_CUSTOM_PROJECT_SOFTWARE_DELIVERY"
+    }
+  ],
+  "screened_current_reports": [
+    {
+      "entity": "泓淇科技 / 北京泓淇科技股份有限公司",
+      "code": "430288",
+      "route_class": "NONMANUFACTURING_APPLICATION_SOFTWARE_DEVELOPMENT_AND_TECHNICAL_SERVICES",
+      "latest_direct_fte": 11,
+      "fte_period": "2025-12-31",
+      "current_financial_period": "2026-06-30",
+      "revenue_rmb_approx": 13140000,
+      "net_profit_rmb_approx": 800000,
+      "operating_cashflow_per_share_rmb": 0.0612,
+      "total_shares": 10880000,
+      "consolidated_ocf_rmb_approx_from_per_share": 665856,
+      "retrieval_joint_signal": true,
+      "admission_result": "ADMITTED_FULL_CURRENT_ECONOMIC_CONJUNCTION_THEN_DEMOTED_ON_CONTROL_AND_CUSTOM_PROJECT_DELIVERY"
+    },
+    {
+      "entity": "益科精工 / 南通益科精工股份有限公司（原烟东股份）",
+      "code": "873547",
+      "route_class": "MANUFACTURING_FASTENERS_AFTER_2026_CONTROL_AND_BUSINESS_RESET",
+      "latest_direct_fte": 10,
+      "fte_period": "2025-12-31",
+      "current_financial_period": "2026-06-30",
+      "revenue_rmb_approx": 4100000,
+      "attributable_net_profit_rmb": 223100,
+      "operating_cashflow_per_share_rmb": 0.0496,
+      "total_shares": 11400000,
+      "consolidated_ocf_rmb_approx_from_per_share": 565440,
+      "retrieval_joint_signal": true,
+      "admission_result": "EXCLUDED_EXTERNAL_REVENUE_NOT_PROVEN_CURRENT_PERIOD",
+      "exclusion_detail": "Control changed in March 2026, the business was reset toward fastener manufacturing, and the company approved up to RMB118m of 2026 related-party transactions including RMB100m expected related-party product sales; the H1 revenue packet available to this scan does not cleanly bind current positive revenue to independent external customers, so UNKNOWN != PASS."
+    },
+    {
+      "entity": "润泰科技 / 河南省润泰数字科技集团股份有限公司",
+      "code": "873633",
+      "route_class": "NONMANUFACTURING_GEOMATICS_PLANNING_AND_AI_DIGITAL_SOLUTIONS",
+      "latest_direct_fte": 20,
+      "fte_period": "2025-12-31",
+      "current_financial_period": "2026-06-30",
+      "revenue_rmb_approx": 6240000,
+      "net_profit_rmb_approx": 2320000,
+      "operating_cashflow_per_share_rmb": -0.013,
+      "total_shares": 10000000,
+      "consolidated_ocf_rmb_approx_from_per_share": -130000,
+      "retrieval_joint_signal": false,
+      "admission_result": "EXCLUDED_CONSOLIDATED_OCF_FAIL"
+    },
+    {
+      "entity": "明道光伏 / 北京明道光伏科技股份有限公司",
+      "code": "872691",
+      "route_class": "NONMANUFACTURING_SOFTWARE_DEVELOPMENT_AND_POWER_SERVICE",
+      "latest_direct_fte": 3,
+      "fte_period": "2025-12-31",
+      "current_financial_period": "2026-06-30",
+      "revenue_rmb_approx": 500000,
+      "net_profit_rmb_approx": 70000,
+      "operating_cashflow_per_share_rmb": -0.0817,
+      "total_shares": 5000000,
+      "consolidated_ocf_rmb_approx_from_per_share": -408500,
+      "retrieval_joint_signal": false,
+      "admission_result": "EXCLUDED_CONSOLIDATED_OCF_FAIL"
+    },
+    {
+      "entity": "顺利3 / 顺利办信息服务股份有限公司",
+      "code": "400179",
+      "route_class": "NONMANUFACTURING_ENTERPRISE_SERVICES_AND_INFORMATION_SERVICES",
+      "current_fte": 13,
+      "fte_period": "2026-06-30",
+      "current_financial_period": "2026-06-30",
+      "revenue_rmb": 5911745.15,
+      "attributable_net_profit_rmb": -3034519.79,
+      "consolidated_ocf_rmb": -7865229.73,
+      "retrieval_joint_signal": false,
+      "admission_result": "EXCLUDED_NET_PROFIT_AND_CONSOLIDATED_OCF_FAIL"
+    },
+    {
+      "entity": "时间网络 / 广州时间网络科技股份有限公司",
+      "code": "874263",
+      "route_class": "NONMANUFACTURING_CULTURAL_DIGITAL_EXHIBITION_DESIGN_OPERATIONS_AND_MEDIA",
+      "latest_direct_fte": 15,
+      "fte_period": "2025-12-31",
+      "current_financial_period": "2026-06-30",
+      "revenue_rmb": 2639400,
+      "attributable_net_profit_rmb": -859500,
+      "consolidated_ocf_rmb": null,
+      "retrieval_joint_signal": false,
+      "admission_result": "EXCLUDED_NET_PROFIT_FAIL"
+    }
+  ],
+  "excluded_observations": [
+    "益科精工 produced a genuine joint low-FTE + positive-profit + positive-OCF retrieval signal, but current external revenue is not proven fail-closed: control changed in March 2026, the business was reset toward fastener manufacturing, and approved 2026 related-party plans include up to RMB100m product sales plus other related-party flows. The scan does not infer that H1 revenue is related-party; it records the current external-revenue identity as unresolved.",
+    "润泰科技 has 20 latest disclosed employees and positive current accounting profit but current per-share OCF is negative, so it is excluded before primary admission.",
+    "明道光伏 has only 3 latest disclosed employees and positive current accounting profit but current per-share OCF is negative, so it is excluded before primary admission.",
+    "顺利3 has 13 current employees and real current revenue but current attributable net loss and negative consolidated OCF, so it is excluded before primary admission.",
+    "时间网络 has 15 latest disclosed employees and current revenue but current attributable net loss, so it is excluded before OCF deepening.",
+    "Repository code search found no prior Scan 060-124 use of 泓淇科技, 益科精工/烟东股份, 润泰科技, 明道光伏, 顺利3 or 时间网络 before selection.",
+    "No job, gig, RFQ, procurement or asset-marketplace feed was used as the discovery ontology."
+  ],
+  "drift_audit": {
+    "inherited_previous_vertical": false,
+    "discovery_started_from_product_category": false,
+    "discovery_started_from_procurement_feed": false,
+    "discovery_started_from_asset_marketplace_feed": false,
+    "strict_current_economic_conjunction_primary_admission": true,
+    "joint_low_fte_positive_profit_positive_ocf_retrieval_used": true,
+    "current_same_entity_financial_signal_required": true,
+    "direct_current_or_latest_intrinsically_low_fte_required": true,
+    "positive_external_revenue_required": true,
+    "unknown_external_revenue_fail_closed": true,
+    "positive_net_profit_required": true,
+    "positive_consolidated_operating_cashflow_required": true,
+    "partial_matches_recorded_as_excluded_observations": true,
+    "control_history_deepened_only_for_full_current_economic_survivors": true,
+    "completed_fresh_operator_control_reproduced_as_bottleneck_by_new_admitted_survivor": true,
+    "fresh_operator_control_promoted_to_next_scan_primary_admission_gate": true,
+    "existing_repeatable_nonproject_revenue_required_for_retention": true,
+    "custom_project_delivery_not_normalized_away": true,
+    "no_arbitrary_fixed_primary_formation_count": true,
+    "fresh_nonmanufacturing_routes_included": true,
+    "primary_research_domain_respected": true,
+    "prior_scan_primary_formations_not_reused": true,
+    "parallel_validation_not_researched_again": true,
+    "formation_diversity": "PASS_SCREEN_INCLUDED_SOFTWARE_FASTENER_MANUFACTURING_GEOMATICS_POWER_SOFTWARE_ENTERPRISE_SERVICES_AND_CULTURAL_DIGITAL_ROUTES",
+    "observed_indexing_bias": "JOINT_LOW_FTE_PROFIT_OCF_RETRIEVAL_FOUND_A_REAL_NONMANUFACTURING_SURVIVOR_BUT_CONTROL_AND_CUSTOM_PROJECT_DELIVERY_REMAINED_DECISIVE",
+    "response": "SCAN126_MOVE_COMPLETED_FRESH_OPERATOR_REPRODUCIBLE_CONTROL_INTO_PRIMARY_ADMISSION_AFTER_INDEPENDENT_REPLICATION_WHILE_KEEPING_ECONOMIC_AND_EXTERNAL_REVENUE_GATES_UNCHANGED",
+    "participant_behavior_over_analyst_story": "PASS_CLOSURES_USE_DIRECT_HEADCOUNT_CURRENT_FINANCIAL_SIGNAL_AUDITED_CONTROL_BUSINESS_MODEL_AND_DISCLOSED_RELATED_PARTY_PLANS"
+  },
+  "scan_learnings": [
+    "SCAN125_JOINT_LOW_FTE_POSITIVE_PROFIT_POSITIVE_OCF_RETRIEVAL_SURFACED_A_REAL_NONMANUFACTURING_PRIMARY_SURVIVOR.",
+    "HONGQI_TECHNOLOGY_SHOWS_LOW_FTE_CURRENT_POSITIVE_REVENUE_PROFIT_AND_OCF_CAN_COEXIST_WITH_LONGSTANDING_CONTROLLER_EXECUTIVE_DEPENDENCE_AND_CUSTOM_PROJECT_SOFTWARE_DELIVERY.",
+    "THE_FRESH_OPERATOR_CONTROL_BOTTLENECK_IS_NOW_INDEPENDENTLY_REPRODUCED_AFTER_SCAN122_AND_CAN_MOVE_INTO_THE_SCAN126_PRIMARY_ADMISSION_GATE.",
+    "YIKE_PRECISION_SHOWS_A_FRESH_CONTROL_EVENT_PLUS_POSITIVE_CURRENT_ECONOMIC_SIGNAL_MUST_STILL_FAIL_CLOSED_WHEN_CURRENT_EXTERNAL_REVENUE_CANNOT_BE_CLEANLY_SEPARATED_FROM_A_NEW_MATERIAL_RELATED_PARTY_RAIL.",
+    "A_REPORTING_PERIOD_THAT_STRADDLES_CONTROL_AND_BUSINESS_RESET_CANNOT_PROVE_CLEAN_POST_CONTROL_ECONOMIC_CONTINUITY.",
+    "CUSTOM_SOFTWARE_PROJECT_REVENUE_WITH_DIRECT_SALES_AND_COLLECTION_CYCLES_IS_NOT_STANDARDIZED_FOUNDER_LIGHT_CONTROL_CASHFLOW.",
+    "NO_PRODUCT_OR_VERTICAL_IS_DERIVED_FROM_THE_SCAN125_ZERO_RETENTION_RESULT."
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_126",
+  "next_search_boundary": "TWENTIETH_INDEPENDENT_PRIMARY_ADMISSION_REPEAT_REQUIRE_CURRENT_SAME_ENTITY_REPORT_OR_CURRENT_FINANCIAL_SNAPSHOT_REQUIRE_DIRECT_CURRENT_OR_LATEST_INTRINSICALLY_LOW_FTE_REQUIRE_POSITIVE_EXTERNAL_REVENUE_POSITIVE_NET_PROFIT_POSITIVE_CONSOLIDATED_OPERATING_CASHFLOW_AND_COMPLETED_FRESH_OPERATOR_REPRODUCIBLE_CONTROL_BEFORE_REPORTING_PERIOD_BEFORE_PRIMARY_FORMATION_ADMISSION_RECORD_PARTIAL_MATCHES_ONLY_AS_EXCLUDED_OBSERVATIONS_USE_JOINT_LOW_FTE_POSITIVE_PROFIT_POSITIVE_OCF_SIGNALS_FOR_RETRIEVAL_THEN_REQUIRE_EXISTING_STANDARDIZED_REPEATABLE_NONPROJECT_REVENUE_NOT_CUSTOM_IMPLEMENTATION_CONSULTING_OUTSOURCING_FIELD_WORK_MEDIA_BUYING_MANUFACTURING_AFTER_SALES_OR_PENDING_INJECTION_REQUIRE_BOUNDED_CONTROL_CONSIDERATION_OPERATING_ASSETS_AND_WORKING_CAPITAL_REQUIRE_NONCOMMODITY_MACHINE_OPERABLE_CONTROL_INCLUDE_FRESH_NONMANUFACTURING_ROUTES_EXCLUDE_SCAN060_TO_125_FORMATIONS_AND_PRIMARY_SIGNALS_NO_JOB_GIG_RFQ_PROCUREMENT_OR_ASSET_MARKETPLACE_FEED_AS_DISCOVERY_ONTOLOGY_NO_PRODUCT_MECHANISM_INHERITANCE_FAIL_CLOSED",
+  "next_action": "VALIDATE_SCAN125_WITH_EXACT_FINAL_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_RUN_SCAN126_WITH_FRESH_OPERATOR_CONTROL_PROMOTED_TO_PRIMARY_ADMISSION_IF_ALLOWED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://basic.10jqka.com.cn/430288/field.html",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202604221821440499&pageIndex=1",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202604221821440499&pageIndex=3",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202604221821440499&pageIndex=5",
+    "https://basic.10jqka.com.cn/430288/operate.html",
+    "https://basic.10jqka.com.cn/873547/field.html",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202603101820460930&pageIndex=5",
+    "https://pdf.dfcfw.com/pdf/H2_AN202604241821552402_1.pdf",
+    "https://basic.10jqka.com.cn/873547/capital.html",
+    "https://basic.10jqka.com.cn/873633/field.html",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202604241821548320&pageIndex=7",
+    "https://basic.10jqka.com.cn/872691/field.html",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202604281821685526&pageIndex=5",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608281828618241&pageIndex=1",
+    "https://news.10jqka.com.cn/20260821/c679175640.shtml",
+    "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202604281821665960&pageIndex=10"
+  ]
+}
