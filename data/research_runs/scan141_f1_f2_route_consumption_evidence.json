@@ -1,0 +1,106 @@
+{
+  "schema_version": "jev-route-consumption.v1",
+  "scan_id": "ATTRACTION_SCAN_141",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "source_exact_head": "f013e028594b54dead62cb272c724fd595636a55",
+  "repository_ci": {
+    "run_id": 35847088351,
+    "conclusion": "SUCCESS"
+  },
+  "jev_advisory": {
+    "run_id": 35847088348,
+    "artifact_id": 10743748656,
+    "artifact_digest": "sha256:6c2277721a459b1b22a7b71ee656e227d636fe4d476baf8997f254740b75a5a1",
+    "contract": "OPPORTUNITY_JEV_AGENT_CONTINUATION_V1",
+    "input_scan_id": "ATTRACTION_SCAN_141",
+    "served_model": "jev-1.13.0",
+    "execution_status": "SUCCESS",
+    "autonomous_continuation_allowed": true,
+    "human_intervention_required": false,
+    "external_side_effects_allowed": false
+  },
+  "route_consumption": [
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F1",
+      "action": "RUN_CAUSAL_DESCENT",
+      "effective_research_route": "CAUSAL_DESCENT",
+      "attention_priority": "HIGH",
+      "state_fingerprint": "049584a3f275632edd7a",
+      "public_sources": [
+        {
+          "url": "https://m.fang.com/fapai/mianyang/out_12722428.html",
+          "role": "CURRENT_AUCTION_NOTICE_MIRROR",
+          "bound_facts": [
+            "Current floor RMB284590 for the combined 7号车库 and 13号房屋.",
+            "Rent RMB24000/year.",
+            "Lease disclosed only at month precision: 2024-06 through 2029-06.",
+            "Rent paid through exact date 2027-06-30.",
+            "Notice states no priority purchaser."
+          ]
+        }
+      ],
+      "contradiction_search": [
+        "Exact searches for a day-precision 2029-06 lease end did not produce a richer public source.",
+        "A month-only lease end cannot be normalized to 2029-06-30.",
+        "Auction transfer / handover mechanics do not establish the first unprepaid rent due node or case-specific prepaid-rent allocation."
+      ],
+      "unresolved": [
+        "LEASE_END_EXACT_DAY_IN_2029_06",
+        "FIRST_UNPREPAID_DUE_NODE",
+        "CASE_SPECIFIC_PREPAID_RENT_ALLOCATION"
+      ],
+      "resolution": "PUBLIC_CAUSAL_DESCENT_EXHAUSTED_AT_CASE_SPECIFIC_LEASE_OR_RENT_LEDGER_BOUNDARY",
+      "commercial_promotion": false
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F2",
+      "action": "RUN_EXACT_INCUMBENT_PREFLIGHT",
+      "effective_research_route": "EXACT_INCUMBENT_PREFLIGHT",
+      "attention_priority": "MEDIUM",
+      "state_fingerprint": "8910eb5483f73fd726d5",
+      "public_sources": [
+        {
+          "url": "https://m.fang.com/fapai/wuhu/out_12692605.html",
+          "role": "CURRENT_AUCTION_NOTICE_MIRROR",
+          "bound_facts": [
+            "Current floor RMB299200.",
+            "Current page marks the property as leased and states lease 2024-05-01 through 2031-04-30.",
+            "Rent RMB18800/year with annual settlement.",
+            "Current page states no priority purchaser."
+          ]
+        },
+        {
+          "url": "https://m.fang.com/fapai/wuhu/out_12537855.html",
+          "role": "EARLIER_SAME_CASE_PUBLIC_MIRROR",
+          "bound_facts": [
+            "Earlier 2026-08-29 listing uses the same case number 2026皖0202执恢264号, same B118 asset, same floor and assessment.",
+            "Earlier listing leaves the lease field blank and does not provide a payment cursor."
+          ]
+        }
+      ],
+      "lineage_resolution": "LATEST_CURRENT_NOTICE_ADDS_LEASE_TERMS; EARLIER OMISSION IS NOT EVIDENCE OF NO LEASE AND CANNOT SUPPLY PAYMENT STATUS",
+      "unresolved": [
+        "CURRENT_PAID_THROUGH_CURSOR",
+        "FIRST_UNPREPAID_RECEIPT",
+        "TENANT_IDENTITY_OR_CASE_SPECIFIC_PAYMENT_LEDGER",
+        "CASE_SPECIFIC_PREPAID_RENT_ALLOCATION"
+      ],
+      "resolution": "EXACT_INCUMBENT_PREFLIGHT_EXHAUSTED_AT_CASE_SPECIFIC_LEASE_PAYMENT_LEDGER_BOUNDARY",
+      "commercial_promotion": false
+    }
+  ],
+  "authoritative_closures_preserved": [
+    "ATTRACTION_SCAN_141-F3",
+    "ATTRACTION_SCAN_141-F4"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "inspection_performed": false,
+  "bid_performed": false,
+  "deposit_performed": false,
+  "purchase_performed": false,
+  "next_action": "FREEZE_ROUTE_CONSUMPTION_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_IF_ROUTES_REPEAT_WITHOUT_NEW_PUBLIC_EVIDENCE_MERGE_PR451_AND_ADVANCE_SCAN142"
+}
