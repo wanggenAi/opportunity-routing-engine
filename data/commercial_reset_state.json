@@ -2155,14 +2155,15 @@
     "bid_authorized": false,
     "deposit_authorized": false,
     "purchase_authorized": false,
-    "scan140_gate": "UNBLOCKED_FINAL_HEAD_CI_AND_LIVE_JEV_SUCCESS",
+    "scan140_gate": "UNBLOCKED_SUBJECT_TO_EXACT_HEAD_CI_AND_LIVE_JEV_NO_NEW_ROUTE_CLASS",
     "final_validated_head_sha": "bd0955606db0756f051348f777e526f8329cf716",
     "final_repository_ci_run_id": 35840088331,
     "final_jev_run_id": 35840088367,
     "final_jev_artifact_id": 10741102614,
     "final_jev_artifact_digest": "sha256:e609dc32a737ae66d677233878483fc4f6122cc48627c2b8bd5dff3bfcc42a18",
     "final_f1_state_fingerprint": "e4427727ac809edaab75",
-    "final_route_class_status": "UNCHANGED_CAUSAL_DESCENT_NO_NEW_REVERSIBLE_ROUTE_CLASS"
+    "final_route_class_status": "UNCHANGED_CAUSAL_DESCENT_NO_NEW_REVERSIBLE_ROUTE_CLASS",
+    "final_scan140_gate_validation": "SUCCESS"
   },
   "scan140_receipt_binding_boundaries": {
     "canonical_scan_artifact": "data/research_runs/attraction_scan_140.json",
