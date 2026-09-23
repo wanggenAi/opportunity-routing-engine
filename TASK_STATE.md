@@ -12,20 +12,24 @@ Find and validate a formation with real bilateral pull, independently bound curr
 
 ## Current Unique Commercial Research Goal
 
-Validate persisted `ATTRACTION_SCAN_137` on one exact PR head with repository CI plus live TypeSafe/Jev. Consume any newly introduced reversible Jev route automatically; otherwise advance to fresh `ATTRACTION_SCAN_138`.
+Validate persisted `ATTRACTION_SCAN_138` on one exact PR head with repository CI plus live TypeSafe/Jev. Consume any newly introduced reversible Jev route automatically; otherwise advance to fresh `ATTRACTION_SCAN_139`.
 
-Scan 135 F1 and Scan 136 F1/F2 remain independently blocked on external written/source-document evidence. Scan 015-F1 remains independently blocked on official written cross-rail rights evidence plus organic founder-free inbound proof. None blocks fresh broad public research.
+Prior retained research remains separate: Scan 135 F1 and Scan 136 F1/F2 are blocked on external written/source-document evidence; Scan 015-F1 remains blocked on official rights evidence. None blocks fresh broad public research.
 
 ## Current Phase
 
-`SCAN137_PERSISTED_PR_VALIDATION_PENDING`
+`SCAN138_PERSISTED_PR_VALIDATION_PENDING`
 
 ## Last Verified Main
 
-- Live main: `dc7cf834d24302f85702caddad000fbd3ad082ff` (merged PR #446).
-- Main-push repository CI run `35832923324`: success.
-- Main-push live TypeSafe/Jev run `35832923344`: success; input `ATTRACTION_SCAN_136`; no new unconsumed route class.
-- Scan 136 recovery checkpoint is COMPLETE and points to fresh Scan 137.
+- Live main: `1978cec0a33938e2f56e913eb34123b613c2ded3` — merged PR #447, Scan 137.
+- PR #447 exact validated head: `302b211d827735c728a6c193c4fa9a02058600d5`.
+- Repository CI run `35835873563`: success.
+- Live TypeSafe/Jev run `35835873687`: success.
+- Jev artifact `10739496051`, digest `sha256:ef9ead213f53a3835b194e35004935af4c94f0bbb43f034d9c81e9640099e7d0`.
+- Actual Jev input: `ATTRACTION_SCAN_137`, entity count 4.
+- Actual effective routes: 4 × `NO_FURTHER_RESEARCH`.
+- Actual continuation: `ADVANCE_TO_NEXT_SCAN`, autonomous continuation allowed.
 
 ## Active Issue
 
@@ -33,91 +37,92 @@ Scan 135 F1 and Scan 136 F1/F2 remain independently blocked on external written/
 
 ## Active Branch
 
-`research/scan137-current-asset-receipts`
+`research/scan138-diverse-current-receipts`
 
-This branch starts from merged main `dc7cf834d24302f85702caddad000fbd3ad082ff`. Do not use the accidental duplicate no-change branch `research/scan137-current-receipt-falsification`.
+Starts from merged main `1978cec0a33938e2f56e913eb34123b613c2ded3`.
 
 ## Active PR
 
-PR #447 — `Run Scan 137 fresh current asset falsification`.
+Not opened yet. Open exactly one PR after the persisted Scan 138 state is frozen.
 
-Initial PR head was `20405d3c75e23fd6b863f09d5953f4d2fe6fe3cb`. This TASK_STATE write necessarily advances the head; the resulting SHA is the final frozen head for CI/Jev decisions.
+## CI / Jev Contract
 
-## CI
-
-- First PR #447 exact-head attempt `c267e6d1709364bb74e533677abfa6aa86cc0ca0`: repository CI run `35835722783` failed only because historical Scan 136 tests still pinned global machine progress to Scan 136/137. No Scan 137 evidence assertion failed.
-- The historical tests were corrected to validate Scan 136's persisted historical objects instead of forbidding later scans. This TASK_STATE write creates the new final frozen head.
-
-Require on the final frozen Scan 137 PR head:
+On the final Scan 138 PR head require:
 1. repository CI success;
 2. live TypeSafe/Jev success;
-3. actual Jev input = `ATTRACTION_SCAN_137`, entity count = 4;
+3. actual Jev input = `ATTRACTION_SCAN_138`, entity count = 4;
 4. consume any reversible route automatically under AGENTS.md;
-5. preserve all four Scan 137 fail-closed verdicts unless contradictory source evidence is actually introduced;
-6. no external contact, commercial promotion, bid, deposit or purchase.
+5. preserve fail-closed verdicts unless contradictory source evidence is actually introduced;
+6. no external contact, inspection, bid, deposit, purchase or monetary action.
 
 ## Latest Artifact / Persisted State
 
-- `data/research_runs/attraction_scan_137.json` — canonical Scan 137.
-- `data/research_runs/scan137_current_asset_receipts_evidence.json` — source/evidence packet.
-- `docs/research/SCAN137_CURRENT_ASSET_RECEIPTS_2026-09-23.md` — research report.
-- `tests/test_scan137_current_asset_receipts.py` — fail-closed regression.
-- `data/commercial_reset_state.json` — last completed scan now 137; next scan 138.
-- Recovery checkpoint: `state/chatgpt-recovery:recovery/tasks/commercial-attraction-scan-137.json`.
+- `data/research_runs/attraction_scan_138.json` — canonical Scan 138.
+- `data/research_runs/scan138_diverse_current_receipts_evidence.json` — source/evidence packet.
+- `docs/research/SCAN138_DIVERSE_CURRENT_RECEIPTS_2026-09-23.md` — research report.
+- `tests/test_scan138_diverse_current_receipts.py` — fail-closed regression.
+- `data/commercial_reset_state.json` — last completed scan now 138; next scan 139.
+- Recovery checkpoint: `state/chatgpt-recovery:recovery/tasks/commercial-attraction-scan-138.json`.
 
 Machine truth on this branch:
-- last completed scan = `ATTRACTION_SCAN_137`;
-- Scan 137 retained research = 0;
-- Scan 137 authoritative closures = F1/F2/F3/F4;
+- last completed scan = `ATTRACTION_SCAN_138`;
+- Scan 138 retained research = 0;
+- Scan 138 authoritative closures = F1/F2/F3/F4;
 - prior retained research = Scan 135 F1 + Scan 136 F1/F2;
 - active commercial candidates = 0;
 - active transaction units = 0;
-- next broad scan = `ATTRACTION_SCAN_138`;
+- next broad scan = `ATTRACTION_SCAN_139`;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Reconciled live main, merged PR #446, successful main CI/Jev and COMPLETE Scan 136 recovery checkpoint before starting Scan 137.
-- Reused the already-declared Scan 137 work branch from recovery state rather than treating chat context as authoritative.
-- Exact-address repository de-duplication found no Scan 060-136 default-branch matches for the four selected Scan 137 assets.
-- F1 Guiyang: exact RMB 483,004 entry and RMB 23,520 annualized rent to 2029-08-01 imply approximately 4.87% nominal gross; closed on economics.
-- F2 Cili: exact RMB 3,000,000 entry and RMB 100,000 aggregate annual rent imply approximately 3.33% nominal gross; closed on economics.
-- F3 Hangzhou: exact RMB 991,000 entry, lease to 2029-05-31 and explicit buyer rent from title confirmation are public, but exact contracted rent quantum is not; closed fail-closed.
-- F4 Rongchang: RMB 114,730 entry is public, but the unit is currently empty and the management contract pays a pooled 90% of actual mall rent rather than an asset-attributable contracted receipt; closed fail-closed.
-- No Scan 137 formation was commercially promoted and no external side effect was performed.
-- Consumed first PR #447 CI failure: 4 failures were forward-progress brittleness in Scan 136 tests (`last_completed_scan_id`, auto Jev input, `last_resolved_formation_id`, and exact `next_scan_id` pins). Updated those tests to assert historical Scan 136 truth without pinning global progress.
+- Consumed Scan 137 live TypeSafe/Jev exactly as returned: 4/4 `NO_FURTHER_RESEARCH`, continuation `ADVANCE_TO_NEXT_SCAN`.
+- Merged PR #447 to main as `1978cec0a33938e2f56e913eb34123b613c2ded3`.
+- Started fresh Scan 138 and expanded mechanism/source diversity before relaxing any gate.
+- Exact repository de-duplication returned no prior default-branch hit for the four primary Scan 138 addresses/project names.
+- F1 Chengdu Nanboyuan: RMB319,618 entry; buyer income starts 2026-10-18; RMB11,000/year forward rent to 2030-10-17; about 3.44% nominal gross; closed on economics.
+- F2 Wuzhou shops 1-51/1-52: RMB272,586 combined entry; RMB1,000/month to 2029-07-15; about 4.40% nominal gross; two titles are opened into a neighboring non-auction shop; closed.
+- F3 Xuzhou Green Window 1-113: RMB624,015 entry; lease to 2030-04-06; remaining unpaid rent explicitly belongs to buyer; public rent quantum missing; fail closed.
+- F4 Mianyang Yichang Road mixed property: RMB1,467,060 entry; RMB80,000/year to 2032-09; prepaid through 2027-09; contains 194.4 sqm unregistered construction and does not bind buyer post-prepayment settlement; fail closed.
+- Fresh mechanism probe: current Heze Tianying industrial auction requires buyer to continue a rooftop PV lease through 2040-04-30, but rent through 2030-10-31 was already collected by debtor and public annual rent is masked; excluded from near-term inherited-receipt lane.
+- Updated Scan 137 regression tests so they validate historical Scan 137 truth without pinning global machine progress.
 
 ## Current Findings
 
-Front-loading exact receipt quantum and receipt-to-entry economics is working as intended. Fresh current listings still frequently expose one or two attractive surface facts, but the conjunction fails: exact-rent cases can have weak economics, while low-entry or explicit-succession cases can omit asset-attributable receipt quantum.
+Source/mechanism expansion is producing useful disconfirmations rather than a candidate:
+- complete legal continuity can coexist with economically weak receipts;
+- explicit buyer entitlement without receipt quantum is still non-computable;
+- mixed/unregistered title bundles create control ambiguity that gross rent cannot override;
+- long-lived PV rooftop leases can transfer contract obligations while offering no near-term buyer receipt because rent is prepaid years ahead.
 
-Scan 137 creates no new research blocker. Its four formations are closed from public evidence and should not consume external validation capital.
+No gate was relaxed and no UNKNOWN field was converted to PASS.
 
 ## Blockers
 
-- Scan 137 itself has no unresolved external-evidence blocker because all four formations are already closed.
-- Scan 135 F1 and Scan 136 F1/F2 still require external written court/auction-assistance/tenant confirmation or underlying source documents to close their retained-research unknowns.
+- Scan 138 itself has no unresolved external-evidence blocker because all four primary formations are closed.
+- Scan 135 F1 and Scan 136 F1/F2 still require external written court/auction-assistance/tenant confirmation or underlying source documents.
 - Scan 015-F1 remains separately blocked on official rights evidence.
 - Any phone call, message, inspection booking, bid, deposit, purchase or other external/monetary action requires separate authority.
-- These retained-case blockers do not block fresh Scan 138 broad public research.
+- These retained-case blockers do not block fresh Scan 139 broad public research.
 
 ## Next Action
 
-Freeze the new PR #447 head created by this post-failure checkpoint, require exact-head repository CI plus live TypeSafe/Jev, consume any reversible Jev route if one is actually returned, merge if green and no contradiction appears, then begin fresh `ATTRACTION_SCAN_138`.
+Open one PR for Scan 138, freeze its exact head, require repository CI plus live TypeSafe/Jev, consume any reversible route if returned, merge if green and no contradictory evidence appears, then begin fresh `ATTRACTION_SCAN_139`.
 
 ## Do Not Repeat
 
-- Do not return to merged/consumed Scan 136 branches or PR #446.
-- Do not use `research/scan137-current-receipt-falsification`; it is an accidental no-change duplicate branch.
-- Do not reuse Scan 060-137 formations or exact addresses.
-- Do not reinterpret 3.33%-4.87% gross economics as attractive by ignoring costs.
-- Do not infer Hangzhou rent quantum from price, area, comparable listings or management term.
-- Do not convert Rongchang's pooled 90%-of-mall-rent formula into an asset-level contracted receipt.
+- Do not return to consumed Scan 137 branches or PR #447.
+- Do not reuse Scan 060-138 formations or exact addresses.
+- Do not reuse the Scan 131 23-station Hainan EV charging formation surfaced again by search.
+- Do not reuse Scan 136 Shanghai Pudong Avenue 1700 Lane 33 Room 201 surfaced again by search.
+- Do not reinterpret 3.44%-4.40% nominal gross as attractive by ignoring costs.
+- Do not infer Xuzhou rent quantum from price, area, comparables or lease term.
+- Do not treat Heze rooftop rent prepaid through 2030-10-31 as near-term buyer receipts.
 - Do not contact external parties or commit money without explicit authority.
 
-## Scan 138 Boundary
+## Scan 139 Boundary
 
-Start only after Scan 137 exact-head repository CI and live TypeSafe/Jev reach terminal success and any reversible route is consumed. Search fresh current China formations with no Scan 060-137 reuse. Preserve exact asset-attributable receipts, buyer-side continuity, >=24 months source-bound future receipt coverage, computable non-disqualifying economics and low recurring human delivery. Expand source/mechanism diversity before relaxing any gate.
+Start only after Scan 138 exact-head repository CI and live TypeSafe/Jev reach terminal success and any reversible route is consumed. Continue expanding current China source/mechanism diversity before relaxing any gate. Prefer mechanisms where transferable control and existing external payments are intrinsically machine-verifiable rather than repeatedly sampling ordinary landlord cashflow. No Scan 060-138 reuse.
 
 ## Guardrails
 
