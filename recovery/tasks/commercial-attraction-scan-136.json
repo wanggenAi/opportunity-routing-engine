@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "task_key": "commercial-attraction-scan-136",
-  "generation": 7,
+  "generation": 8,
   "status": "ACTIVE",
-  "reconciled_at": "2026-09-23T07:40:00Z",
-  "live_main": "16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1",
-  "work_branch": "research/scan136-f1-f2-routing-followup",
-  "frozen_head": "351b1f17d7a2801a677cf1bba43603e3711c7c61",
-  "stage": "SCAN136_PR446_FINAL_VALIDATION_SUCCESS_MERGE_PENDING",
+  "reconciled_at": "2026-09-23T07:41:00Z",
+  "live_main": "dc7cf834d24302f85702caddad000fbd3ad082ff",
+  "work_branch": null,
+  "frozen_head": "dc7cf834d24302f85702caddad000fbd3ad082ff",
+  "stage": "SCAN136_PR446_MERGED_MAIN_POST_MERGE_VALIDATION_PENDING",
   "scan_id": "ATTRACTION_SCAN_136",
   "retained_research": [
     "ATTRACTION_SCAN_136-F1",
@@ -32,11 +32,10 @@
     "F2 exact-address/case public search resolves only to the current auction notice; detailed lease terms explicitly require telephone consultation. Civil Code 725 preserves lease validity, but auction-specific first buyer rent allocation after the prepaid-through-2026-11 window remains unbound.",
     "Both F1/F2 therefore remain research-only and public-source exhausted at an external written/source-document boundary; no external contact performed."
   ],
-  "next_action": "Merge PR #446 at exact head 351b1f17 after CI 35832778679 and Jev 35832778727 success; then verify main push CI/Jev and advance to Scan137.",
+  "next_action": "Verify main-push repository CI and live TypeSafe/Jev for dc7cf834; consume only genuinely new route classes. If green and no new route class, close Scan136 follow-up checkpoint and begin Scan137 from latest main.",
   "pending_operation": {
-    "kind": "MERGE_PULL_REQUEST",
-    "pr": 446,
-    "expected_head": "351b1f17d7a2801a677cf1bba43603e3711c7c61"
+    "kind": "MAIN_POST_MERGE_VALIDATION",
+    "main_sha": "dc7cf834d24302f85702caddad000fbd3ad082ff"
   },
   "do_not_repeat": [
     "Do not return to consumed Scan135 branches.",
@@ -62,7 +61,7 @@
       "ATTRACTION_SCAN_136-F4": "NO_FURTHER_RESEARCH"
     }
   },
-  "pr_status": "OPEN",
+  "pr_status": "MERGED",
   "pr_exact_head": "d91d34790fb07c3e45bce977196092c00b86e8da",
   "pr_ci": {
     "run_id": 35830529477,
