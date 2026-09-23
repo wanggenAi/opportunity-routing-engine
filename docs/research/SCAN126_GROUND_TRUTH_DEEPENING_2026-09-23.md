@@ -17,7 +17,7 @@ Raw price spread is not normalized margin.
 
 Using the current research FX snapshot (USD/CNY ~6.701) and the conservative Upwork freelancer-fee ceiling of 15%:
 
-- a USD100 predefined site-audit budget leaves ~RMB569.6 after platform fee; against a public RMB80-200 same-family short-video/multi-point executor payout signal, raw headroom is ~RMB369.6 at the high payout bound;
+- a USD100 predefined site-audit budget leaves ~RMB569.6 after platform fee; comparing it with the public RMB80-200 short-video/multi-point band shows screening headroom, but the audit includes staff interaction and an English predefined report, so that band is **not yet a same-scope executable cost quote**;
 - a USD25 accepted retail-shop visit leaves ~RMB142.4 after fee; against RMB30-80 basic-photo payout, raw headroom is ~RMB62.4 at the high payout bound;
 - a USD4 GPS-photo task leaves only ~RMB22.8 after fee, below the RMB30 public basic-photo payout floor before travel, so it is rejected.
 
@@ -25,12 +25,12 @@ Travel, QA, rework, failed-visit and city-specific executor costs are not yet bo
 
 ## Scope boundary
 
-Potential first bootstrap classes, if incumbent preflight survives:
+Potential first bootstrap class, if incumbent preflight survives:
 
-1. retail shelf / shop photo evidence;
-2. predefined nontechnical commercial-site observation.
+1. retail shelf / shop photo evidence.
 
-Conditional:
+Conditional pending same-scope executor quotes:
+- predefined nontechnical commercial-site observation;
 - showroom photo/video capture where staff questions remain bounded.
 
 Excluded from the generic bootstrap:
