@@ -45,6 +45,9 @@ Initial PR head was `20405d3c75e23fd6b863f09d5953f4d2fe6fe3cb`. This TASK_STATE 
 
 ## CI
 
+- First PR #447 exact-head attempt `c267e6d1709364bb74e533677abfa6aa86cc0ca0`: repository CI run `35835722783` failed only because historical Scan 136 tests still pinned global machine progress to Scan 136/137. No Scan 137 evidence assertion failed.
+- The historical tests were corrected to validate Scan 136's persisted historical objects instead of forbidding later scans. This TASK_STATE write creates the new final frozen head.
+
 Require on the final frozen Scan 137 PR head:
 1. repository CI success;
 2. live TypeSafe/Jev success;
@@ -82,6 +85,7 @@ Machine truth on this branch:
 - F3 Hangzhou: exact RMB 991,000 entry, lease to 2029-05-31 and explicit buyer rent from title confirmation are public, but exact contracted rent quantum is not; closed fail-closed.
 - F4 Rongchang: RMB 114,730 entry is public, but the unit is currently empty and the management contract pays a pooled 90% of actual mall rent rather than an asset-attributable contracted receipt; closed fail-closed.
 - No Scan 137 formation was commercially promoted and no external side effect was performed.
+- Consumed first PR #447 CI failure: 4 failures were forward-progress brittleness in Scan 136 tests (`last_completed_scan_id`, auto Jev input, `last_resolved_formation_id`, and exact `next_scan_id` pins). Updated those tests to assert historical Scan 136 truth without pinning global progress.
 
 ## Current Findings
 
@@ -99,7 +103,7 @@ Scan 137 creates no new research blocker. Its four formations are closed from pu
 
 ## Next Action
 
-Freeze the new PR #447 head created by this TASK_STATE update, require exact-head repository CI plus live TypeSafe/Jev, consume any reversible Jev route if one is actually returned, merge if green and no contradiction appears, then begin fresh `ATTRACTION_SCAN_138`.
+Freeze the new PR #447 head created by this post-failure checkpoint, require exact-head repository CI plus live TypeSafe/Jev, consume any reversible Jev route if one is actually returned, merge if green and no contradiction appears, then begin fresh `ATTRACTION_SCAN_138`.
 
 ## Do Not Repeat
 
