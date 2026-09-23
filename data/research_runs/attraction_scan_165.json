@@ -1,0 +1,398 @@
+{
+  "scan_id": "ATTRACTION_SCAN_165",
+  "as_of_date": "2026-09-24",
+  "status": "COMPLETE_ALL_ROUTES_CLOSED_FINAL_EXACT_HEAD_VALIDATION_PENDING",
+  "search_mode": "FRESH_CROSS_BORDER_STATE_TRANSITIONS_OUTSIDE_GENERIC_CHINA_LOCAL_HELP_SERVICE_MENU",
+  "source_main_sha": "d64cdd82abc27e15506df83685a8abfbc4b9b7be",
+  "prior_scan": {
+    "scan_id": "ATTRACTION_SCAN_164",
+    "merged_pr": 479,
+    "final_exact_head": "44b08ac30dcd5247f7916a0f3391fd20f55a9ea1",
+    "repository_ci_run_id": 35905675001,
+    "repository_ci_test_job_id": 107332622239,
+    "repository_ci_test_count": 841,
+    "live_jev_run_id": 35905675331,
+    "live_jev_artifact_id": 10770538304,
+    "live_jev_artifact_digest": "sha256:8bf709a0e5f45861b440a7ef24f81549e873d0b82983708ef113e50368b2ae12",
+    "live_jev_entity_count": 5,
+    "live_jev_effective_routes": {
+      "NO_FURTHER_RESEARCH": 5
+    },
+    "live_jev_alignment": {
+      "ALIGNS_WITH_AUTHORITATIVE_CLOSURE": 5
+    },
+    "live_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "merged_main_sha": "d64cdd82abc27e15506df83685a8abfbc4b9b7be"
+  },
+  "broad_reality_domains_examined": [
+    "NEW_2026_9610_CROSS_CUSTOMS_RETURN_PORT_OPTIONALITY",
+    "CROSS_BORDER_RETURN_VALUE_RECOVERY_AND_DISPOSITION",
+    "CBAM_THIRD_COUNTRY_INSTALLATION_TO_EU_IMPORTER_DATA_HANDOFF",
+    "BUYER_OWNED_TOOLING_AND_PRODUCTION_BASIS_TRANSFER",
+    "REMOTE_CONTROL_OF_GOODS_ALREADY_HELD_IN_CHINA_WAREHOUSE"
+  ],
+  "source_registry": {
+    "GACC-2026-24": {
+      "url": "https://fec.mofcom.gov.cn/article/ggfw/zcfg/zcfgdwmy/zcfgdwmyxx/202603/4173.html",
+      "claim": "From 2026-04-01, 9610 cross-border ecommerce retail export returns may enter through a different eligible China customs district instead of the original export customs; returned goods must enter an eligible customs-supervised operation site."
+    },
+    "GACC-INTERPRETATION-20260318": {
+      "url": "https://policy.mofcom.gov.cn/claw/policyInfo.shtml?id=8849",
+      "claim": "The official interpretation says enterprises may choose the most convenient eligible return port based on logistics cost and time; pilot volume reached 381,300 return tickets worth RMB 94 million by end-February 2026."
+    },
+    "TAX-RETURN-2026-16": {
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247663/content.html",
+      "claim": "For 2026-01-01 through 2027-12-31, eligible cross-border ecommerce exports under 1210/9610/9710/9810 returned in original condition within six months may receive import-duty/import-tax relief subject to documentation and other conditions."
+    },
+    "CHINAPOST-JINAN-20260723": {
+      "url": "https://www.chinapost.com.cn/cn/report/2607/6811-1.html",
+      "claim": "Shandong Post, local government, customs and AliExpress completed a 272-parcel 9610 cross-customs return flow through Jinan and estimated the model can reduce comprehensive logistics cost by more than 30%."
+    },
+    "SHAANXI-FIRST-20260918": {
+      "url": "https://sxeport.shaanxi.gov.cn/c/a/70f31b4a-82c4-4dd6-851b-18a4388f67fd",
+      "claim": "Shaanxi reported its first 9610 cross-customs return flow in September 2026 and said the route saved about 50% in capital and time cost for the batch."
+    },
+    "SHENZHEN-9610-CENTER": {
+      "url": "https://www.9610sz.com/",
+      "claim": "Shenzhen Cross-Border Trade Logistics Supervision Center publicly offers 9610 export/import/return plus 9710/9810 flows, multimodal consolidation, declaration and tracking through a supervised logistics facility."
+    },
+    "RTURN": {
+      "url": "https://www.rturn.com.cn/",
+      "claim": "rturn already connects US return-warehouse intake, inspection, Recovery Value, Inventory Disposition and Seller Payout, with seller and partner workflows and MCP/agent access."
+    },
+    "SFC-RETURNS-ROUTING": {
+      "url": "https://www.sendfromchina.com/NewsCenter/international-ecommerce-returns-back-to-china.html",
+      "claim": "SFC's current 2026 reverse-logistics framework explicitly routes returns among local resale, repair, liquidation, recycling, consolidation back to China and other dispositions based on condition, recovery value and total cost."
+    },
+    "CBAM-O3CI": {
+      "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-registry_en",
+      "claim": "The EU CBAM Registry includes an O3CI module for non-EU installation operators to upload and share installation and emissions data with reporting declarants; accredited verifiers can review supporting evidence and issue verification reports."
+    },
+    "CBAM-CHINA-PLATFORM": {
+      "url": "https://www.carbbit.com/en/",
+      "claim": "Carbbit currently markets a CBAM compliance platform for Chinese exporters with China-side supplier data collection/verification and data channels to European consulting agencies."
+    },
+    "CBAM-SHANGHAI-TOOL": {
+      "url": "https://segg.sh.gov.cn/zyfw/fwhy/lsdt/tsj/20260722/4520338d9e35440882981341e04aac43.html",
+      "claim": "Shanghai's enterprise-going-global service platform lists a current CBAM TOOL for Chinese manufacturers covering carbon calculation, reporting, dynamic cost warning and traceable data retention."
+    },
+    "TOOLING-HANDOVER": {
+      "url": "https://www.foreigngo.com/2026/09/15/china-sourcing-service-handover-exit-guide/",
+      "claim": "Current guidance for overseas buyers exiting a China sourcing service describes transfer of tooling, files, supplier relationships and open claims, and states a receiving sourcing service can practically handle the factory-side handover."
+    },
+    "TOOLING-TRANSFER-SERVICE": {
+      "url": "https://ckmold.com/mold-transfer/",
+      "claim": "A current China mold-transfer service packages audit, logistics, trial, re-validation and production restart when buyer-owned tooling moves to another supplier."
+    },
+    "REMOTE-CHINA-WAREHOUSE-RETURN": {
+      "url": "https://ebaoguo.com/en/kb/china-warehouse-return/",
+      "claim": "A current China warehouse service lets overseas customers remotely return parcels already stored in China, including domestic courier pickup, activity logs, tracking and photo records."
+    },
+    "HANGZHOU-ALIEXPRESS-PLATFORM-CHOICE": {
+      "url": "https://ori.hangzhou.com.cn/ornews/content/2026-04/02/content_9200717.htm",
+      "claim": "In Hangzhou's first nationwide-mode case, an AliExpress representative said the platform can choose the return plan and convenient return port; airport logistics and customs jointly built the operating plan."
+    },
+    "SHANDONG-POST-ALIEXPRESS-COORDINATION": {
+      "url": "https://www.chinapost.com.cn/cn/report/2607/6811-1.html",
+      "claim": "The Jinan flow was created by Shandong Post with local government, customs and AliExpress through a multi-party operating mechanism and repeated process drills."
+    },
+    "GUANGDONG-POST-9610-CLOSED-LOOP": {
+      "url": "https://www.chinapost.com.cn/cn/report/2603/8244-1.html",
+      "claim": "Guangdong Post's current cross-border customs system integrates customs, China Post's 9610 system and partner customs brokers into a full-process closed loop including return declaration."
+    },
+    "LIANDUO-ONE-STOP-CUSTOMS": {
+      "url": "https://www.ld9610.com/",
+      "claim": "LianDoo currently provides one-stop 9610/9710/9810 customs, tax and information-system execution."
+    },
+    "KUAZUN-NATIONWIDE-PORT-SYSTEM": {
+      "url": "https://zhibian.net/kuazun/index.html",
+      "claim": "KuaZun currently supports 9610/9710/9810 full-document workflows including returns and nationwide port/Single Window/e-port connectivity."
+    },
+    "XIXIAN-FULLCHAIN-RETURN": {
+      "url": "https://www.xixianxinqu.gov.cn/xwzx/xxdt/2095757609505140737.html",
+      "claim": "Xi'an Airport New City says its supervised site, return warehouse and sorting infrastructure can provide full-chain reverse-logistics support to sellers nationwide."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_165-F1",
+      "title": "9610 overseas return batch with movable China entry choice -> eligible return port / supervised logistics rail",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_POLICY_CREATED_MULTI_PORT_RETURN_DECISION_WITH_LIVE_OPERATIONAL_CASES",
+      "evidence_summary": "The 2026 policy creates real port optionality and material cost/time differences, but exact-head preflight found no independent callable cross-port market. Live cases are platform/logistics/site/customs coalitions; current 9610 systems expose workflow execution, not a neutral live comparison/booking layer. Distinct operator control and nonexpert match resolvability are not evidenced.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "GACC-INTERPRETATION-20260318",
+            "CHINAPOST-JINAN-20260723",
+            "SHAANXI-FIRST-20260918"
+          ],
+          "b_voluntary_motion": [
+            "CHINAPOST-JINAN-20260723",
+            "SHAANXI-FIRST-20260918",
+            "SHENZHEN-9610-CENTER"
+          ],
+          "state_dependent_value_jump": [
+            "CHINAPOST-JINAN-20260723",
+            "SHAANXI-FIRST-20260918"
+          ],
+          "decision_window": [
+            "GACC-2026-24",
+            "TAX-RETURN-2026-16"
+          ],
+          "bridge_compression": [
+            "GACC-INTERPRETATION-20260318",
+            "SHENZHEN-9610-CENTER"
+          ],
+          "activation_ease": [
+            "GACC-2026-24",
+            "SHENZHEN-9610-CENTER"
+          ],
+          "self_propulsion": [
+            "GACC-INTERPRETATION-20260318",
+            "CHINAPOST-JINAN-20260723"
+          ],
+          "operator_control": [
+            "HANGZHOU-ALIEXPRESS-PLATFORM-CHOICE",
+            "SHANDONG-POST-ALIEXPRESS-COORDINATION",
+            "GUANGDONG-POST-9610-CLOSED-LOOP"
+          ],
+          "a_discoverability": [
+            "GACC-INTERPRETATION-20260318",
+            "CHINAPOST-JINAN-20260723"
+          ],
+          "b_discoverability": [
+            "GACC-2026-24",
+            "SHENZHEN-9610-CENTER",
+            "SHAANXI-FIRST-20260918"
+          ],
+          "match_resolvability": [
+            "GACC-INTERPRETATION-20260318",
+            "KUAZUN-NATIONWIDE-PORT-SYSTEM",
+            "LIANDUO-ONE-STOP-CUSTOMS"
+          ],
+          "action_gate_callability": [
+            "HANGZHOU-ALIEXPRESS-PLATFORM-CHOICE",
+            "SHANDONG-POST-ALIEXPRESS-COORDINATION",
+            "GUANGDONG-POST-9610-CLOSED-LOOP"
+          ],
+          "a_population_replenishment": [
+            "GACC-INTERPRETATION-20260318"
+          ],
+          "b_population_replenishment": [
+            "GACC-2026-24",
+            "SHAANXI-FIRST-20260918",
+            "SHENZHEN-9610-CENTER"
+          ],
+          "recurring_connection_pressure": [
+            "GACC-INTERPRETATION-20260318",
+            "CHINAPOST-JINAN-20260723"
+          ],
+          "recurring_missing_edge": [
+            "HANGZHOU-ALIEXPRESS-PLATFORM-CHOICE",
+            "SHANDONG-POST-ALIEXPRESS-COORDINATION",
+            "KUAZUN-NATIONWIDE-PORT-SYSTEM"
+          ],
+          "recurring_event_source": [
+            "GACC-INTERPRETATION-20260318",
+            "TAX-RETURN-2026-16"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GACC-INTERPRETATION-20260318"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GACC-2026-24",
+            "SHENZHEN-9610-CENTER",
+            "SHAANXI-FIRST-20260918"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GACC-INTERPRETATION-20260318",
+            "CHINAPOST-JINAN-20260723"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "CONTRADICTED",
+          "evidence_refs": [
+            "HANGZHOU-ALIEXPRESS-PLATFORM-CHOICE",
+            "SHANDONG-POST-ALIEXPRESS-COORDINATION",
+            "KUAZUN-NATIONWIDE-PORT-SYSTEM"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GACC-INTERPRETATION-20260318",
+            "TAX-RETURN-2026-16"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "GACC-2026-24",
+          "GACC-INTERPRETATION-20260318",
+          "CHINAPOST-JINAN-20260723",
+          "SHAANXI-FIRST-20260918"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GACC-2026-24",
+            "CHINAPOST-JINAN-20260723",
+            "SHAANXI-FIRST-20260918"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GACC-INTERPRETATION-20260318"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GACC-2026-24",
+            "SHENZHEN-9610-CENTER",
+            "SHAANXI-FIRST-20260918"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HANGZHOU-ALIEXPRESS-PLATFORM-CHOICE",
+            "SHANDONG-POST-ALIEXPRESS-COORDINATION",
+            "GUANGDONG-POST-9610-CLOSED-LOOP"
+          ],
+          "owner_state": "FRAGMENTED_PLATFORM_LOGISTICS_SITE_CUSTOMS_CONTROL"
+        }
+      },
+      "decisive_unknown": "RESOLVED_NEGATIVE_PUBLIC_EVIDENCE_DOES_NOT_ESTABLISH_INDEPENDENT_CROSS_PORT_ROUTE_CONTROL_LIVE_COMPARABLE_ROUTE_DATA_OR_CALLABLE_BOOKING",
+      "verdict": "DEMOTED_POLICY_OPTIONALITY_IS_REAL_BUT_DISTINCT_OPERATOR_CONTROL_MATCH_RESOLVABILITY_AND_CROSS_PORT_ACTION_RAIL_ARE_NOT_EVIDENCED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_165-F2",
+      "title": "Cross-border returned inventory -> recovery value / restock / resell / liquidate / return / dispose routing",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "The value-recovery state is real, but current return platforms and fulfillment operators already connect warehouse intake, inspection, recovery value and inventory disposition.",
+      "evidence_refs": [
+        "RTURN",
+        "SFC-RETURNS-ROUTING"
+      ],
+      "verdict": "DEMOTED_EXACT_RETURN_VALUE_RECOVERY_AND_DISPOSITION_PLATFORMS_ALREADY_OWN_THE_CORE_ROUTING_LAYER"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_165-F3",
+      "title": "Chinese CBAM installation operator -> verified emissions data handoff to EU importer",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "The 2026 CBAM data handoff is mandatory and recurring, but the EU O3CI registry already provides the official third-country installation-to-declarant data rail and current China platforms already package calculation, supplier data and verifier/consultant coordination.",
+      "evidence_refs": [
+        "CBAM-O3CI",
+        "CBAM-CHINA-PLATFORM",
+        "CBAM-SHANGHAI-TOOL"
+      ],
+      "verdict": "DEMOTED_OFFICIAL_O3CI_DATA_RAIL_PLUS_CURRENT_CHINA_CBAM_PLATFORMS_LEAVE_NO_DISTINCT_ROUTER_AT_THIS_ABSTRACTION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_165-F4",
+      "title": "Overseas buyer exits or changes a China supplier -> buyer-owned tooling / files / production basis transfer",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Tooling and knowledge handover is a real transition, but current sourcing-service handover guidance and mold-transfer engineering services already package asset inventory, release, logistics, trial, re-validation and restart; difficult cases remain legal/engineering expert work.",
+      "evidence_refs": [
+        "TOOLING-HANDOVER",
+        "TOOLING-TRANSFER-SERVICE"
+      ],
+      "verdict": "DEMOTED_CURRENT_HANDOVER_AND_MOLD_TRANSFER_SERVICES_OWN_THE_EXECUTION_LAYER_WHILE_DISPUTED_RIGHTS_REMAIN_EXPERT_BOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_165-F5",
+      "title": "Overseas owner with goods already in a China warehouse -> remote domestic return / evidence / courier execution",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Remote control of China-held parcels is a real geography gap, but current warehouse operators already expose account-based remote return, courier pickup, tracking, activity logs and photo evidence.",
+      "evidence_refs": [
+        "REMOTE-CHINA-WAREHOUSE-RETURN"
+      ],
+      "verdict": "DEMOTED_REMOTE_CHINA_WAREHOUSE_RETURN_IS_ALREADY_A_CURRENT_SELF_SERVICE_WAREHOUSE_FEATURE"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_165-F1",
+    "ATTRACTION_SCAN_165-F2",
+    "ATTRACTION_SCAN_165-F3",
+    "ATTRACTION_SCAN_165-F4",
+    "ATTRACTION_SCAN_165-F5"
+  ],
+  "commercial_candidates": [],
+  "active_transaction_units": [],
+  "first_external_value_flow": "NOT_PROVEN",
+  "bootstrap_queue": [],
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "prior_domain_deduplication_checked": true,
+    "state_change_first_search": true,
+    "decisive_action_gate_owner_checked": true,
+    "public_affected_actor_discoverability_checked": true,
+    "standardizable_nonexpert_match_checked": true,
+    "open_remedy_not_missing_edge_checked": true,
+    "exited_generic_china_local_help_service_menu": true,
+    "explicit_paid_tasks_downstream_only": true,
+    "current_exact_incumbents_checked_for_nonretained_formations": true
+  },
+  "decisive_unknown": "RESOLVED_NEGATIVE_POLICY_OPTIONALITY_DOES_NOT_ESTABLISH_OPERATOR_OWNABLE_CROSS_PORT_ROUTING",
+  "next_action": "FINAL_EXACT_HEAD_CI_AND_LIVE_JEV_THEN_ADVANCE_SCAN166_IF_CLOSURE_ALIGNS",
+  "external_side_effects_performed": false,
+  "exact_incumbent_preflight": {
+    "artifact": "data/research_runs/scan165_9610_exact_incumbent_preflight.json",
+    "first_exact_head": "feeda3f4af1d237429fa465aec3f5b8830ddb3b9",
+    "repository_ci_run_id": 35914094933,
+    "repository_ci_test_job_id": 107361057921,
+    "repository_ci_test_count": 845,
+    "jev_run_id": 35914095106,
+    "jev_artifact_id": 10773414928,
+    "jev_artifact_digest": "sha256:bbdfb5315b58f15e0ea259b43dc6c30ef8ecf43f3195cd77a14e8487a9e75dab",
+    "effective_route": "EXACT_INCUMBENT_PREFLIGHT",
+    "result": "FAIL_DISTINCT_CALLABLE_ROUTING_SURFACE"
+  }
+}

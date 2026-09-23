@@ -1,0 +1,76 @@
+{
+  "scan_id": "ATTRACTION_SCAN_165",
+  "formation_id": "ATTRACTION_SCAN_165-F1",
+  "as_of_date": "2026-09-24",
+  "jev_trigger": {
+    "exact_head": "feeda3f4af1d237429fa465aec3f5b8830ddb3b9",
+    "repository_ci_run_id": 35914094933,
+    "repository_ci_test_job_id": 107361057921,
+    "repository_ci_test_count": 845,
+    "jev_run_id": 35914095106,
+    "jev_artifact_id": 10773414928,
+    "jev_artifact_digest": "sha256:bbdfb5315b58f15e0ea259b43dc6c30ef8ecf43f3195cd77a14e8487a9e75dab",
+    "effective_route": "EXACT_INCUMBENT_PREFLIGHT",
+    "continuation": "EXECUTE_RESEARCH_QUEUE"
+  },
+  "evidence": {
+    "HANGZHOU-ALIEXPRESS-PLATFORM-CHOICE": {
+      "url": "https://ori.hangzhou.com.cn/ornews/content/2026-04/02/content_9200717.htm",
+      "claim": "In Hangzhou's first nationwide-mode case, an AliExpress representative said the platform can choose the return plan and convenient return port; airport logistics and customs jointly built the operating plan."
+    },
+    "SHANDONG-POST-ALIEXPRESS-COORDINATION": {
+      "url": "https://www.chinapost.com.cn/cn/report/2607/6811-1.html",
+      "claim": "The Jinan flow was created by Shandong Post with local government, customs and AliExpress through a multi-party operating mechanism, with repeated practical drills around declaration, port clearance and multimodal logistics."
+    },
+    "GUANGDONG-POST-9610-CLOSED-LOOP": {
+      "url": "https://www.chinapost.com.cn/cn/report/2603/8244-1.html",
+      "claim": "Guangdong Post's cross-border customs system integrates the customs public platform, China Post's 9610 system and partner customs brokers into a closed loop covering order/waybill/list/bill, arrival/departure and return declaration."
+    },
+    "LIANDUO-ONE-STOP-CUSTOMS": {
+      "url": "https://www.ld9610.com/",
+      "claim": "LianDoo currently offers one-stop 9610/9710/9810 port customs, tax, customs affairs and information-system execution rather than a neutral cross-port comparison market."
+    },
+    "KUAZUN-NATIONWIDE-PORT-SYSTEM": {
+      "url": "https://zhibian.net/kuazun/index.html",
+      "claim": "KuaZun currently supports 9610/9710/9810 full document workflows including returns and says it can connect to nationwide ports, Single Window/e-port/public-service systems; the public surface is workflow execution, not live cross-port route comparison."
+    },
+    "XIXIAN-FULLCHAIN-RETURN": {
+      "url": "https://www.xixianxinqu.gov.cn/xwzx/xxdt/2095757609505140737.html",
+      "claim": "Xi'an Airport New City says its supervised site, return warehouse and sorting infrastructure can provide full-chain reverse-logistics support to sellers nationwide, showing port-local integrated service capacity."
+    }
+  },
+  "findings": [
+    "The legal/policy option is genuine: an enterprise may choose an eligible return port based on cost/time.",
+    "Observed operating cases are not an open cross-port transaction rail. They are assembled by platform/logistics/site/customs coalitions.",
+    "At least one observed case identifies the ecommerce platform itself as the actor selecting the return plan and port.",
+    "Current 9610 software/customs providers expose multi-port workflow execution and system connectivity, but no current public source exposes a neutral live matrix of eligible-site availability, all-in cost, SLA and callable booking across ports.",
+    "The proposed operator asset would therefore require non-public partner rates/capacity/customs-operating conditions or recurring expert/broker coordination before a route can be resolved.",
+    "Absence of a public universal incumbent does not prove an unowned callable edge."
+  ],
+  "preflight_result": "FAIL_DISTINCT_CALLABLE_ROUTING_SURFACE",
+  "scoring_corrections": {
+    "operator_control": {
+      "from": 2,
+      "to": 1,
+      "reason": "Actual execution/control is fragmented across platform, carrier, supervised site, broker and customs-specific operating relationships; independent operator control was not evidenced."
+    },
+    "match_resolvability": {
+      "from": 2,
+      "to": 1,
+      "reason": "No stable public cross-port route attribute/quote/capacity surface was found; policy eligibility alone cannot resolve the best route."
+    },
+    "action_gate_callability": {
+      "from": 2,
+      "to": 1,
+      "reason": "Operational cases required coordinated platform/logistics/customs setup; no independent repeatable booking/settlement rail across ports was evidenced."
+    },
+    "recurring_missing_edge": {
+      "from": 2,
+      "to": 1,
+      "reason": "The public evidence proves new optionality and cost savings, but not a distinct missing matching edge rather than fragmented incumbent execution."
+    }
+  },
+  "verdict": "CLOSE_F1_POLICY_OPTIONALITY_IS_REAL_BUT_DISTINCT_OPERATOR_CONTROL_MATCH_RESOLVABILITY_AND_CROSS_PORT_ACTION_RAIL_ARE_NOT_EVIDENCED",
+  "external_contact_performed": false,
+  "money_moved": false
+}
