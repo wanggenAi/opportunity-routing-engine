@@ -1,0 +1,103 @@
+{
+  "scan_id": "ATTRACTION_SCAN_161",
+  "as_of_date": "2026-09-24",
+  "boundary": "Named enterprise expansion/activation needs with modular non-safety outputs, screened for whether a missing connection still exists before solution assignment.",
+  "source_registry": {
+    "ACCOM-SAMSUNG-20260916": {
+      "source_class": "CURRENT_NAMED_EXPANSION_ACCOMMODATION_AND_OPERATIONS_GAP",
+      "url": "https://www.teda.gov.cn/contents/21/115287.html",
+      "date": "2026-09-16",
+      "claim": "Tianjin Samsung Electro-Mechanics was at full production in 2026 and the official TEDA report says employee commuting/accommodation, traffic support and warehouse-layout issues emerged with expansion; nearly 4,000 employees were already concentrated in Tianbo Apartment and TEDA public entities coordinated remedies."
+    },
+    "ACCOM-WUXI-20260805": {
+      "source_class": "CURRENT_NAMED_ENTERPRISE_WORKFORCE_AND_ACCOMMODATION_NEED",
+      "url": "https://www.huishan.gov.cn/doc/2026/08/05/4814258.shtml",
+      "date": "2026-08-05",
+      "claim": "Wuxi Huishan Economic Development Zone reported that SAIC Maxus Wuxi Branch explicitly raised fourth-quarter labor demand and employee accommodation support as practical operating issues; relevant departments were assigned to coordinate follow-up."
+    },
+    "ACCOM-DEJINGYUAN-20260609": {
+      "source_class": "CURRENT_NAMED_NEW_FACTORY_ACCOMMODATION_NEED_ALREADY_COORDINATED",
+      "url": "https://www.zjsjw.gov.cn/jcfc/nbs/202606/t20260601_24101901.shtml",
+      "date": "2026-06-09",
+      "claim": "Ningbo Zhenhai reported that Ningbo Dejingyuan Electric had factory-approval and temporary-site continuity problems and that local service teams also coordinated water, power, employee accommodation and access needs; the case was reported as resolved."
+    },
+    "TEDA-APARTMENT-AUTHORITY-20260707": {
+      "source_class": "CURRENT_PUBLIC_APARTMENT_COORDINATION_RAIL",
+      "url": "https://www.teda.gov.cn/bmztc/contents/1138/17.html",
+      "date": "2026-07-07",
+      "claim": "TEDA Apartment Management Center is the employee-apartment authority, manages public and socialized apartment systems, surveys enterprise accommodation demand and proposes apartment construction needs."
+    },
+    "TEDA-APARTMENT-APPLICATION-20260116": {
+      "source_class": "CURRENT_DIRECT_ENTERPRISE_APARTMENT_APPLICATION_RAIL",
+      "url": "https://www.teda.gov.cn/bmztc/contents/205/18731.html",
+      "date": "2026-01-16",
+      "claim": "TEDA publishes direct application routes for state-owned apartments and a separate socialized employee-apartment leasing platform, with enterprise applicants able to use these rails."
+    },
+    "TEDA-APARTMENT-SUPPLY-20260415": {
+      "source_class": "CURRENT_LARGE_EMPLOYEE_APARTMENT_SUPPLY",
+      "url": "https://www.teda.gov.cn/contents/21/107332.html",
+      "date": "2026-04-15",
+      "claim": "TEDA reported 19 municipal talent-apartment sites spanning blue-collar, white-collar and high-end talent housing; one cited site alone has 1,190 furnished rooms and capacity for more than 1,800 residents."
+    },
+    "LABOR-SHUNLILAI-20260112": {
+      "source_class": "CURRENT_NAMED_NEW_FACTORY_WORKFORCE_RAMP_WITH_PUBLIC_HR_RAIL",
+      "url": "https://www.hbqj.gov.cn/xwzx/jrqj/qjyw/202601/t20260112_5853918.html",
+      "date": "2026-01-12",
+      "claim": "For Hubei Shunlilai's production ramp, the local authority coordinated recruiting publicity and targeted hiring with human-resources departments; the first 100-plus positions were reported as basically filled."
+    },
+    "LABOR-SHUNLILAI-20260915": {
+      "source_class": "CURRENT_NAMED_PREPRODUCTION_WORKFORCE_STATE",
+      "url": "https://www.hbqj.gov.cn/xwzx/jrqj/qjyw/202609/t20260915_6014280.html",
+      "date": "2026-09-15",
+      "claim": "Hubei Shunlilai planned November trial production and local officials reported continuing recruitment alongside utility/network readiness to ensure the company starts production on schedule."
+    },
+    "RIGGING-SHUNLILAI-20260915": {
+      "source_class": "CURRENT_NAMED_FACTORY_EQUIPMENT_ARRIVAL_AND_INSTALLATION",
+      "url": "https://www.hbqj.gov.cn/xwzx/jrqj/qjyw/202609/t20260915_6014280.html",
+      "date": "2026-09-15",
+      "claim": "Twenty-five production machines worth RMB 16 million arrived at Hubei Shunlilai; the article describes lifting by cranes, precise forklift transfer and the machines entering installation and commissioning."
+    },
+    "RIGGING-TURNKEY-20260630": {
+      "source_class": "CURRENT_DOWNSTREAM_SPECIALIST_INSTALLATION_MARKET_VALIDATION",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202606/t20260630_26844791.htm",
+      "date": "2026-06-30",
+      "claim": "A current government procurement specification for technical equipment treats unloading, lifting, secondary handling, installation, commissioning, testing and acceptance as an integrated turnkey responsibility, validating specialist integration as a market class rather than a simple catalog match."
+    },
+    "MEALS-ORDOS-20260611": {
+      "source_class": "CURRENT_PARK_WIDE_NIGHT_MEAL_GAP_WITH_DIRECT_MERCHANT_COORDINATION",
+      "url": "https://www.ordos.gov.cn/zzms/slh_bmdt/202606/t20260611_3902740.html?slh=true",
+      "date": "2026-06-11",
+      "claim": "Ordos Airport Logistics Park reported that concentrated enterprises and night-shift/overtime work created insufficient night dining options; the park directly coordinated existing local food merchants to extend hours and add night/simple/work meals."
+    },
+    "PACKAGING-BEIAN-20260605": {
+      "source_class": "CURRENT_LOCAL_INDUSTRIAL_PACKAGING_CAPACITY_BUILD",
+      "url": "https://www.hljba.gov.cn/bas/bmdt/202606/c11_354645.shtml",
+      "date": "2026-06-05",
+      "claim": "Bei'an reported a new high-end packaging-material project intended to fill a local packaging-support gap, lower local processors' packaging procurement cost and prioritize supply to named local firms such as Xiangyu, Huasheng and Yipin."
+    }
+  },
+  "retained_research_formations": [],
+  "near_miss_formations": [
+    "ATTRACTION_SCAN_161-F1"
+  ],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_161-F1",
+    "ATTRACTION_SCAN_161-F2",
+    "ATTRACTION_SCAN_161-F3",
+    "ATTRACTION_SCAN_161-F4",
+    "ATTRACTION_SCAN_161-F5"
+  ],
+  "rejected_inferences": [
+    "PUBLICLY_STATED_ENTERPRISE_NEED_DOES_NOT_IMPLY_NO_EXISTING_COORDINATION_RAIL",
+    "EMPLOYEE_APARTMENT_SUPPLY_DOES_NOT_CREATE_NEW_ROUTER_WHEN_OFFICIAL_APPLICATION_AND_MATCHING_ALREADY_EXIST",
+    "NAMED_FACTORY_HIRING_DOES_NOT_MAKE_INDIVIDUAL_WORKERS_A_PUBLIC_DISCOVERABLE_B_SIDE",
+    "EQUIPMENT_ARRIVAL_DOES_NOT_PROVE_AN_UNASSIGNED_RIGGING_OR_INSTALLATION_NEED",
+    "NAMED_INTENDED_PACKAGING_CUSTOMERS_DO_NOT_PROVE_OPEN_PURCHASE_MOTION"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "conclusion": "Scan161 finds a stronger demand signal than prior scans: named expanding firms publicly disclose modular accommodation pressure. But the strongest same-market case already has direct public apartment intake/supply/matching, and the other examined fields are likewise incumbent-routed, expert-bound, aggregated, or not proven buyer motion. Zero formations retained."
+}

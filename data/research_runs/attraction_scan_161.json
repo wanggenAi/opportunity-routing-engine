@@ -1,0 +1,1109 @@
+{
+  "scan_id": "ATTRACTION_SCAN_161",
+  "as_of_date": "2026-09-24",
+  "status": "COMPLETE",
+  "search_mode": "NAMED_EXPANSION_OR_ACTIVATION_STATE_PLUS_MODULAR_NON_SAFETY_OUTPUT_WITHOUT_EXISTING_PUBLIC_OR_INCUMBENT_ROUTING",
+  "source_main_sha": "7942caa91648bd0f961d1666597529a6033b5656",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_160",
+    "prior_pr": 475,
+    "prior_merged_main_sha": "7942caa91648bd0f961d1666597529a6033b5656",
+    "prior_final_exact_head": "0f137dfe5818e0ab9b65f2c3e464a6d2c0c899df",
+    "prior_repository_ci_run_id": 35892544990,
+    "prior_repository_ci_test_job_id": 107288334715,
+    "prior_repository_ci_test_count": 815,
+    "prior_live_jev_run_id": 35892544994,
+    "prior_live_jev_artifact_id": 10764838944,
+    "prior_live_jev_artifact_digest": "sha256:986bb518ad7895b6ac3d9b4d7d08c635669883d032dc932d3e40e61e835e0b95",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scans142_160_domains_deduplicated_before_search": true
+  },
+  "broad_reality_domains_examined": [
+    "EXPANSION_DRIVEN_EMPLOYEE_ACCOMMODATION",
+    "NEW_FACTORY_WORKFORCE_RAMP",
+    "NEW_FACTORY_EQUIPMENT_RIGGING_AND_INSTALLATION",
+    "INDUSTRIAL_PARK_NIGHT_MEAL_ACCESS",
+    "LOCAL_INDUSTRIAL_PACKAGING_CAPACITY_GAP"
+  ],
+  "source_registry": {
+    "ACCOM-SAMSUNG-20260916": {
+      "source_class": "CURRENT_NAMED_EXPANSION_ACCOMMODATION_AND_OPERATIONS_GAP",
+      "url": "https://www.teda.gov.cn/contents/21/115287.html",
+      "date": "2026-09-16",
+      "claim": "Tianjin Samsung Electro-Mechanics was at full production in 2026 and the official TEDA report says employee commuting/accommodation, traffic support and warehouse-layout issues emerged with expansion; nearly 4,000 employees were already concentrated in Tianbo Apartment and TEDA public entities coordinated remedies."
+    },
+    "ACCOM-WUXI-20260805": {
+      "source_class": "CURRENT_NAMED_ENTERPRISE_WORKFORCE_AND_ACCOMMODATION_NEED",
+      "url": "https://www.huishan.gov.cn/doc/2026/08/05/4814258.shtml",
+      "date": "2026-08-05",
+      "claim": "Wuxi Huishan Economic Development Zone reported that SAIC Maxus Wuxi Branch explicitly raised fourth-quarter labor demand and employee accommodation support as practical operating issues; relevant departments were assigned to coordinate follow-up."
+    },
+    "ACCOM-DEJINGYUAN-20260609": {
+      "source_class": "CURRENT_NAMED_NEW_FACTORY_ACCOMMODATION_NEED_ALREADY_COORDINATED",
+      "url": "https://www.zjsjw.gov.cn/jcfc/nbs/202606/t20260601_24101901.shtml",
+      "date": "2026-06-09",
+      "claim": "Ningbo Zhenhai reported that Ningbo Dejingyuan Electric had factory-approval and temporary-site continuity problems and that local service teams also coordinated water, power, employee accommodation and access needs; the case was reported as resolved."
+    },
+    "TEDA-APARTMENT-AUTHORITY-20260707": {
+      "source_class": "CURRENT_PUBLIC_APARTMENT_COORDINATION_RAIL",
+      "url": "https://www.teda.gov.cn/bmztc/contents/1138/17.html",
+      "date": "2026-07-07",
+      "claim": "TEDA Apartment Management Center is the employee-apartment authority, manages public and socialized apartment systems, surveys enterprise accommodation demand and proposes apartment construction needs."
+    },
+    "TEDA-APARTMENT-APPLICATION-20260116": {
+      "source_class": "CURRENT_DIRECT_ENTERPRISE_APARTMENT_APPLICATION_RAIL",
+      "url": "https://www.teda.gov.cn/bmztc/contents/205/18731.html",
+      "date": "2026-01-16",
+      "claim": "TEDA publishes direct application routes for state-owned apartments and a separate socialized employee-apartment leasing platform, with enterprise applicants able to use these rails."
+    },
+    "TEDA-APARTMENT-SUPPLY-20260415": {
+      "source_class": "CURRENT_LARGE_EMPLOYEE_APARTMENT_SUPPLY",
+      "url": "https://www.teda.gov.cn/contents/21/107332.html",
+      "date": "2026-04-15",
+      "claim": "TEDA reported 19 municipal talent-apartment sites spanning blue-collar, white-collar and high-end talent housing; one cited site alone has 1,190 furnished rooms and capacity for more than 1,800 residents."
+    },
+    "LABOR-SHUNLILAI-20260112": {
+      "source_class": "CURRENT_NAMED_NEW_FACTORY_WORKFORCE_RAMP_WITH_PUBLIC_HR_RAIL",
+      "url": "https://www.hbqj.gov.cn/xwzx/jrqj/qjyw/202601/t20260112_5853918.html",
+      "date": "2026-01-12",
+      "claim": "For Hubei Shunlilai's production ramp, the local authority coordinated recruiting publicity and targeted hiring with human-resources departments; the first 100-plus positions were reported as basically filled."
+    },
+    "LABOR-SHUNLILAI-20260915": {
+      "source_class": "CURRENT_NAMED_PREPRODUCTION_WORKFORCE_STATE",
+      "url": "https://www.hbqj.gov.cn/xwzx/jrqj/qjyw/202609/t20260915_6014280.html",
+      "date": "2026-09-15",
+      "claim": "Hubei Shunlilai planned November trial production and local officials reported continuing recruitment alongside utility/network readiness to ensure the company starts production on schedule."
+    },
+    "RIGGING-SHUNLILAI-20260915": {
+      "source_class": "CURRENT_NAMED_FACTORY_EQUIPMENT_ARRIVAL_AND_INSTALLATION",
+      "url": "https://www.hbqj.gov.cn/xwzx/jrqj/qjyw/202609/t20260915_6014280.html",
+      "date": "2026-09-15",
+      "claim": "Twenty-five production machines worth RMB 16 million arrived at Hubei Shunlilai; the article describes lifting by cranes, precise forklift transfer and the machines entering installation and commissioning."
+    },
+    "RIGGING-TURNKEY-20260630": {
+      "source_class": "CURRENT_DOWNSTREAM_SPECIALIST_INSTALLATION_MARKET_VALIDATION",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202606/t20260630_26844791.htm",
+      "date": "2026-06-30",
+      "claim": "A current government procurement specification for technical equipment treats unloading, lifting, secondary handling, installation, commissioning, testing and acceptance as an integrated turnkey responsibility, validating specialist integration as a market class rather than a simple catalog match."
+    },
+    "MEALS-ORDOS-20260611": {
+      "source_class": "CURRENT_PARK_WIDE_NIGHT_MEAL_GAP_WITH_DIRECT_MERCHANT_COORDINATION",
+      "url": "https://www.ordos.gov.cn/zzms/slh_bmdt/202606/t20260611_3902740.html?slh=true",
+      "date": "2026-06-11",
+      "claim": "Ordos Airport Logistics Park reported that concentrated enterprises and night-shift/overtime work created insufficient night dining options; the park directly coordinated existing local food merchants to extend hours and add night/simple/work meals."
+    },
+    "PACKAGING-BEIAN-20260605": {
+      "source_class": "CURRENT_LOCAL_INDUSTRIAL_PACKAGING_CAPACITY_BUILD",
+      "url": "https://www.hljba.gov.cn/bas/bmdt/202606/c11_354645.shtml",
+      "date": "2026-06-05",
+      "claim": "Bei'an reported a new high-end packaging-material project intended to fill a local packaging-support gap, lower local processors' packaging procurement cost and prioritize supply to named local firms such as Xiangyu, Huasheng and Yipin."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_161-F1",
+      "title": "Named expanding manufacturers with explicit employee-accommodation pressure -> employee apartment operators and direct enterprise leasing rails",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_NAMED_EXPANSION_NEED_PLUS_LARGE_DIRECT_APARTMENT_RAIL",
+      "evidence_summary": "Expansion-driven accommodation need is real and repeated across named manufacturers. It is also unusually modular: rooms/beds, employee class, location and lease term are legible. The strongest same-market example, however, shows that TEDA already has an apartment authority, direct enterprise application platform, socialized apartment platform, 19 talent-apartment sites and a public housing operator actively coordinating Samsung's accommodation. The observed missing edge is therefore already owned rather than open to a new routing operator.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "b_voluntary_motion": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "state_dependent_value_jump": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "decision_window": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "bridge_compression": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "activation_ease": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "self_propulsion": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "operator_control": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "a_discoverability": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "b_discoverability": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "match_resolvability": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "action_gate_callability": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "a_population_replenishment": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "b_population_replenishment": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "recurring_connection_pressure": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "recurring_missing_edge": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ],
+          "recurring_event_source": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "ACCOM-SAMSUNG-20260916",
+          "ACCOM-WUXI-20260805",
+          "ACCOM-DEJINGYUAN-20260609",
+          "TEDA-APARTMENT-AUTHORITY-20260707",
+          "TEDA-APARTMENT-APPLICATION-20260116",
+          "TEDA-APARTMENT-SUPPLY-20260415"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ACCOM-SAMSUNG-20260916",
+            "ACCOM-WUXI-20260805",
+            "ACCOM-DEJINGYUAN-20260609"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116",
+            "TEDA-APARTMENT-SUPPLY-20260415"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ACCOM-SAMSUNG-20260916",
+            "TEDA-APARTMENT-AUTHORITY-20260707",
+            "TEDA-APARTMENT-APPLICATION-20260116"
+          ],
+          "owner_state": "PUBLIC_APARTMENT_COORDINATION_RAIL_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_EXPANSION_ACCOMMODATION_IS_REAL_PUBLIC_AND_STANDARDIZABLE_BUT_OBSERVED_TEDA_RAIL_ALREADY_OWNS_DEMAND_INTAKE_SUPPLY_AND_MATCHING"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_161-F2",
+      "title": "Named factory approaching trial production with workforce ramp -> workers and recruitment channels",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PREPRODUCTION_WORKFORCE_RAMP_WITH_PUBLIC_RECRUITMENT_RAIL",
+      "evidence_summary": "Shunlilai is a named pre-production enterprise with explicit workforce ramp. But local government and HR departments already run recruitment publicity and targeted recruitment, the first 100-plus positions were reported basically filled, and individual worker identities are not a public B-side inventory. A new router would largely duplicate direct/public recruiting rails rather than own a missing connection.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 1,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "b_voluntary_motion": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "state_dependent_value_jump": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "decision_window": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "bridge_compression": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "activation_ease": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "self_propulsion": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "operator_control": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "a_discoverability": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "b_discoverability": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "match_resolvability": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "action_gate_callability": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "a_population_replenishment": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "b_population_replenishment": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "recurring_connection_pressure": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "recurring_missing_edge": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "recurring_event_source": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "LABOR-SHUNLILAI-20260112",
+          "LABOR-SHUNLILAI-20260915"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ]
+        },
+        "counterparty_population": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "LABOR-SHUNLILAI-20260112"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LABOR-SHUNLILAI-20260112",
+            "LABOR-SHUNLILAI-20260915"
+          ],
+          "owner_state": "COMPANY_AND_PUBLIC_HR_RECRUITMENT_RAIL_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_PREPRODUCTION_RECRUITMENT_HAS_NAMED_A_AND_REAL_WINDOW_BUT_PUBLIC_HR_AND_DIRECT_RECRUITMENT_ALREADY_OWN_THE_RAIL_AND_PUBLIC_B_IDENTITIES_ARE_NOT_AVAILABLE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_161-F3",
+      "title": "Named new factory receiving production equipment -> specialist lifting transfer installation and commissioning providers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_EQUIPMENT_ARRIVAL_EXECUTION_PLUS_SPECIALIST_INTEGRATION_MARKET",
+      "evidence_summary": "The Shunlilai article gives a concrete activation event: 25 machines arrive, cranes and forklifts move them and installation/commissioning follows. Yet the work is already executing, and current procurement evidence treats lifting, handling, installation, commissioning, testing and acceptance as an integrated specialist responsibility. The match is site/equipment-specific and too late to represent a pre-commit open routing gate.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 2,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 1,
+          "bridge_compression": 2,
+          "activation_ease": 1,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "b_voluntary_motion": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "state_dependent_value_jump": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "decision_window": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "bridge_compression": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "activation_ease": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "self_propulsion": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "operator_control": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "a_discoverability": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "b_discoverability": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "match_resolvability": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "action_gate_callability": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "a_population_replenishment": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "b_population_replenishment": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "recurring_connection_pressure": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "recurring_missing_edge": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "recurring_event_source": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "RIGGING-SHUNLILAI-20260915",
+          "RIGGING-TURNKEY-20260630"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RIGGING-SHUNLILAI-20260915"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RIGGING-SHUNLILAI-20260915"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RIGGING-TURNKEY-20260630"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RIGGING-SHUNLILAI-20260915",
+            "RIGGING-TURNKEY-20260630"
+          ],
+          "owner_state": "AFFECTED_COMPANY_WITH_SPECIALIST_SITE_INTEGRATION_ALREADY_EXECUTING"
+        }
+      },
+      "verdict": "DEMOTED_EQUIPMENT_RIGGING_IS_SPECIALIST_SITE_INTEGRATION_AND_THE_OBSERVED_EVENT_IS_ALREADY_IN_EXECUTION_NOT_AN_OPEN_PRECOMMIT_MATCH"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_161-F4",
+      "title": "Industrial-park overtime and night-shift workers with limited night dining -> local food merchants able to extend hours and add work meals",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PARK_WIDE_LIFE_SERVICE_GAP_WITH_DIRECT_LOCAL_MERCHANT_COORDINATION",
+      "evidence_summary": "The need is explicit and the B-side output is modular/non-safety-critical. However the public trace identifies an aggregate park workforce rather than named enterprise A-side demand, and the park itself directly coordinated local merchants to extend hours and add night/work meals. Both discoverability and missing-edge ownership therefore fail the current boundary.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 2,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 2,
+          "decision_window": 2,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 1,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "b_voluntary_motion": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "state_dependent_value_jump": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "decision_window": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "bridge_compression": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "activation_ease": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "self_propulsion": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "operator_control": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "a_discoverability": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "b_discoverability": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "match_resolvability": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "action_gate_callability": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "a_population_replenishment": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "b_population_replenishment": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "recurring_connection_pressure": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "recurring_missing_edge": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "recurring_event_source": [
+            "MEALS-ORDOS-20260611"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MEALS-ORDOS-20260611"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MEALS-ORDOS-20260611"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MEALS-ORDOS-20260611"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "MEALS-ORDOS-20260611"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MEALS-ORDOS-20260611"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "MEALS-ORDOS-20260611"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MEALS-ORDOS-20260611"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "MEALS-ORDOS-20260611"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MEALS-ORDOS-20260611"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MEALS-ORDOS-20260611"
+          ],
+          "owner_state": "PARK_COORDINATION_WITH_EXISTING_LOCAL_MERCHANTS"
+        }
+      },
+      "verdict": "DEMOTED_NIGHT_MEAL_GAP_IS_MODULAR_BUT_A_SIDE_IS_NOT_NAMED_AND_PARK_MANAGEMENT_ALREADY_COORDINATES_EXISTING_MERCHANTS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_161-F5",
+      "title": "Named local processors around a packaging-supply gap -> local high-end packaging capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_LOCAL_SUPPLY_GAP_WITH_DEDICATED_CAPACITY_ALREADY_BEING_BUILT",
+      "evidence_summary": "Bei'an explicitly describes a local high-end packaging support gap and a new project that will reduce local processors' packaging procurement cost and prioritize named firms. But the source does not establish those named firms as currently moving buyers with open requests, while the dedicated packaging project is itself the direct capacity response. Demand motion cannot be inferred from intended customers.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 1,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 2,
+          "decision_window": 1,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 1
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "b_voluntary_motion": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "state_dependent_value_jump": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "decision_window": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "bridge_compression": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "activation_ease": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "self_propulsion": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "operator_control": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "a_discoverability": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "b_discoverability": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "match_resolvability": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "action_gate_callability": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "a_population_replenishment": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "b_population_replenishment": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "recurring_connection_pressure": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "recurring_missing_edge": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "recurring_event_source": [
+            "PACKAGING-BEIAN-20260605"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PACKAGING-BEIAN-20260605"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PACKAGING-BEIAN-20260605"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PACKAGING-BEIAN-20260605"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "PACKAGING-BEIAN-20260605"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PACKAGING-BEIAN-20260605"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "PACKAGING-BEIAN-20260605"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "PACKAGING-BEIAN-20260605"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "PACKAGING-BEIAN-20260605"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PACKAGING-BEIAN-20260605"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PACKAGING-BEIAN-20260605"
+          ],
+          "owner_state": "DEDICATED_SUPPLIER_CAPACITY_PROJECT_ALREADY_FORMING"
+        }
+      },
+      "verdict": "DEMOTED_PACKAGING_GAP_SOURCE_NAMES_INTENDED_CUSTOMERS_BUT_NOT_OPEN_BUYER_MOTION_AND_DEDICATED_SUPPLIER_CAPACITY_IS_ALREADY_BEING_BUILT"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "near_miss_formations": [
+    "ATTRACTION_SCAN_161-F1"
+  ],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "external_contact_performed": false,
+    "money_moved": false
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_162",
+  "next_search_boundary": "PUBLIC_NAMED_ENTERPRISE_NEED_BEFORE_SOLUTION_ASSIGNMENT_PLUS_STANDARDIZED_B_WITHOUT_EXISTING_GOVERNMENT_INCUMBENT_PLATFORM_OR_DIRECT_SUPPLIER_RAIL",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN162",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "prior_domain_deduplication_checked": true,
+    "state_change_first_search": true,
+    "decisive_action_gate_owner_checked": true,
+    "public_affected_actor_discoverability_checked": true,
+    "standardizable_nonexpert_match_checked": true,
+    "open_remedy_not_missing_edge_checked": true,
+    "pre_solution_assignment_event_required": true,
+    "existing_public_or_incumbent_rail_checked": true,
+    "intended_customer_not_relabelled_as_open_buyer": true,
+    "downstream_procurement_used_only_as_validation": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "EXPLICIT_ENTERPRISE_PAIN_NE_MISSING_CONNECTION_EDGE",
+    "STANDARDIZED_EMPLOYEE_ACCOMMODATION_CAN_STILL_BE_INCUMBENT_PLATFORM_OWNED",
+    "PUBLIC_HR_RAILS_CAN_ERASE_FACTORY_RAMP_RECRUITMENT_ROUTING_EDGE",
+    "EQUIPMENT_ARRIVAL_NE_OPEN_MATCH_WHEN_SITE_INTEGRATION_IS_ALREADY_EXECUTING",
+    "MODULAR_LIFE_SERVICE_NE_ROUTABLE_IF_A_SIDE_IS_AGGREGATED_AND_PARK_ALREADY_COORDINATES",
+    "INTENDED_CUSTOMER_NE_OPEN_BUYER_MOTION"
+  ],
+  "source_urls": [
+    "https://www.teda.gov.cn/contents/21/115287.html",
+    "https://www.huishan.gov.cn/doc/2026/08/05/4814258.shtml",
+    "https://www.zjsjw.gov.cn/jcfc/nbs/202606/t20260601_24101901.shtml",
+    "https://www.teda.gov.cn/bmztc/contents/1138/17.html",
+    "https://www.teda.gov.cn/bmztc/contents/205/18731.html",
+    "https://www.teda.gov.cn/contents/21/107332.html",
+    "https://www.hbqj.gov.cn/xwzx/jrqj/qjyw/202601/t20260112_5853918.html",
+    "https://www.hbqj.gov.cn/xwzx/jrqj/qjyw/202609/t20260915_6014280.html",
+    "https://www.hbqj.gov.cn/xwzx/jrqj/qjyw/202609/t20260915_6014280.html",
+    "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202606/t20260630_26844791.htm",
+    "https://www.ordos.gov.cn/zzms/slh_bmdt/202606/t20260611_3902740.html?slh=true",
+    "https://www.hljba.gov.cn/bas/bmdt/202606/c11_354645.shtml"
+  ]
+}
