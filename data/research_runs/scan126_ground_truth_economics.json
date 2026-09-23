@@ -1,0 +1,128 @@
+{
+  "schema_version": "scan126-ground-truth-economics.v1",
+  "as_of_date": "2026-09-23",
+  "formation_id": "ATTRACTION_SCAN_126-F1",
+  "fx_snapshot": {
+    "usd_cny": 6.701,
+    "source": "Wise mid-market current snapshot; research normalization only, not a durable price constant"
+  },
+  "marketplace_fee_assumption": {
+    "upwork_freelancer_fee_max_rate": 0.15,
+    "source": "Upwork official freelancer fee range 0%-15%; conservative upper-bound used for screening"
+  },
+  "china_executor_reference_from_seed": {
+    "basic_photo_task_cny": [
+      30,
+      80
+    ],
+    "short_video_or_multi_point_task_cny": [
+      80,
+      200
+    ],
+    "boundary": "PUBLIC_REFERENCE_PAYOUT_ONLY_NOT_A_GUARANTEED_QUOTE_AND_NOT_VALID_FOR_SPECIALIST_QC"
+  },
+  "task_classes": [
+    {
+      "task_class": "RETAIL_SHELF_OR_SHOP_PHOTO_EVIDENCE",
+      "buyer_signal": "Shanghai wine-shop survey",
+      "buyer_budget_usd_per_accepted_shop": 25,
+      "buyer_budget_cny_at_fx": 167.525,
+      "buyer_net_after_15pct_fee_cny": 142.39625,
+      "comparable_executor_payout_cny": [
+        30,
+        80
+      ],
+      "raw_headroom_cny_at_high_payout": 62.39625,
+      "travel_cost_bound": false,
+      "qa_rework_cost_bound": false,
+      "same_scope_cost_binding": true,
+      "specialist_required": false,
+      "authorization_boundary": "PUBLIC_COMMERCIAL_LOCATION_AND_PHOTO_PERMISSION_STILL_TASK_SPECIFIC",
+      "verdict": "POSITIVE_HEADROOM_NOT_NORMALIZED"
+    },
+    {
+      "task_class": "PREDEFINED_NONTECHNICAL_SITE_AUDIT",
+      "buyer_signal": "Chengdu test-center predefined audit",
+      "buyer_budget_usd": 100,
+      "buyer_budget_cny_at_fx": 670.1,
+      "buyer_net_after_15pct_fee_cny": 569.585,
+      "comparable_executor_payout_cny": [
+        80,
+        200
+      ],
+      "raw_headroom_cny_at_high_payout": 369.585,
+      "travel_cost_bound": false,
+      "qa_rework_cost_bound": false,
+      "same_scope_cost_binding": true,
+      "specialist_required": false,
+      "authorization_boundary": "SITE_ACCESS_PHOTO_PERMISSION_AND_NO_LICENSED_CERTIFICATION_REQUIRED",
+      "verdict": "POSITIVE_HEADROOM_NOT_NORMALIZED"
+    },
+    {
+      "task_class": "SHOWROOM_VIDEO_PHOTO_CAPTURE",
+      "buyer_signal": "Guangzhou/Foshan showroom trial plus monthly-repeat signal",
+      "buyer_budget_usd": 100,
+      "buyer_budget_cny_at_fx": 670.1,
+      "buyer_net_after_15pct_fee_cny": 569.585,
+      "comparable_executor_payout_cny": [
+        80,
+        200
+      ],
+      "raw_headroom_cny_at_high_payout": 369.585,
+      "travel_cost_bound": false,
+      "qa_rework_cost_bound": false,
+      "same_scope_cost_binding": false,
+      "specialist_required": false,
+      "mismatch_reason": "Buyer scope includes English/Chinese communication, staff questions, product dimensions, MOQ and export details; generic short-video payout is not proven same-scope.",
+      "verdict": "SCOPE_NOT_COMPARABLE_YET"
+    },
+    {
+      "task_class": "FACTORY_PRODUCTION_VERIFICATION",
+      "buyer_signal": "On-site factory production verification",
+      "buyer_budget_usd": 200,
+      "buyer_budget_cny_at_fx": 1340.2,
+      "buyer_net_after_15pct_fee_cny": 1139.17,
+      "comparable_executor_payout_cny": null,
+      "same_scope_cost_binding": false,
+      "specialist_required": true,
+      "mismatch_reason": "Factory access, production-line verification, management communication and order-specific manufacturing judgement exceed generic field-photo task scope.",
+      "verdict": "EXCLUDE_INITIAL_BOOTSTRAP_SPECIALIST_OR_EXPERT_SCOPE"
+    },
+    {
+      "task_class": "LOW_BUDGET_GPS_SITE_PHOTO",
+      "buyer_signal": "Tai'an / Haikou GPS-photo site visit",
+      "buyer_budget_usd": 4,
+      "buyer_budget_cny_at_fx": 26.804,
+      "buyer_net_after_15pct_fee_cny": 22.7834,
+      "comparable_executor_payout_cny": [
+        30,
+        80
+      ],
+      "raw_headroom_cny_at_low_payout": -7.2166,
+      "same_scope_cost_binding": true,
+      "specialist_required": false,
+      "verdict": "REJECT_PRICE_BELOW_EXECUTOR_FLOOR_BEFORE_TRAVEL"
+    }
+  ],
+  "payment_and_dispatch_boundaries": [
+    "Fixed-price buyer funds can be deposited before work begins on Upwork.",
+    "Individual freelancer subcontracting requires client consent; silent subcontracting is forbidden.",
+    "Agency structure is a transparent multi-person contract path but does not by itself prove demand or margin.",
+    "Public domestic crowd payout bands are reference signals, not executable quotes.",
+    "Travel, QA and rework must be bounded before raw spread can become normalized contribution margin.",
+    "UU MCP proves quote/order/track for errand/delivery primitives only; evidence-capture acceptance remains unproven."
+  ],
+  "exact_incumbent_preflight": {
+    "status": "REQUIRED_NOT_CLOSED",
+    "broad_layer_threats": [
+      "ChinaLocalAgent: overseas client scoped local execution with evidence/reporting and quote-before-work.",
+      "Upwork: global buyer intent, funded fixed-price contracts and direct China freelancer matching.",
+      "WeiChaiShi: nationwide China crowd, retail audit/data collection and QA."
+    ],
+    "potential_remaining_edge": "MACHINE_NATIVE_LOW_VOLUME_CROSS_BORDER_SCOPE_NORMALIZATION_PLUS_LAWFUL_REPLACEABLE_DISPATCH_PLUS_STANDARDIZED_EVIDENCE_ACCEPTANCE",
+    "white_space_proven": false
+  },
+  "commercial_promotion": false,
+  "bootstrap_external_action_ready": false,
+  "first_external_value_flow": "NOT_PROVEN"
+}
