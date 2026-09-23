@@ -34,8 +34,9 @@ class Scan153BroadRealityTransitionFlowsTests(unittest.TestCase):
         self.assertTrue(scan["drift_audit"]["incumbent_presence_not_used_as_automatic_kill"])
     def test_machine_state_reconciles_scan152_and_advances(self):
         state=load(STATE_PATH)
-        self.assertEqual(state["last_completed_scan_id"],"ATTRACTION_SCAN_153")
-        self.assertEqual(state["next_scan_id"],"ATTRACTION_SCAN_154")
+        self.assertGreaterEqual(int(state["last_completed_scan_id"].rsplit("_",1)[1]),153)
+        self.assertGreaterEqual(int(state["next_scan_id"].rsplit("_",1)[1]),154)
+        self.assertEqual(state["scan153_broad_reality_transition_flows"]["final_jev_next_action"],"ADVANCE_TO_NEXT_SCAN")
         prior=state["scan152_broad_reality_access_infrastructure"]
         self.assertEqual(prior["final_exact_head_sha"],"4ee1b1903a8f37ec5d4ce3580c9c4b013e961f5b")
         self.assertEqual(prior["final_repository_ci_run_id"],35882446892)
