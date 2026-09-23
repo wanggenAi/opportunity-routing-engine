@@ -6,64 +6,62 @@ GitHub live state wins over this checkpoint if they disagree.
 Continue the clean-slate Attraction Field until a real external value flow is proven or a real human/permission stop exists.
 
 ## Goal
-Close or prove regenerative formations under the Scan157+ state-change/action-gate and Scan159+ public-remedy routability guards without promoting transaction proxies; distinguish a real public enterprise pain point from a genuinely unowned connection edge.
+Find regenerative state changes with public, movable A-side demand and an actually unowned standardized connection edge; reject apparent opportunities when the publication channel, government program, incumbent platform or assigned resolver already owns matching.
 
 ## Current Unique Commercial Research Goal
-Validate Scan 161's expansion/activation modular-operations sweep. Consume any reversible Jev route; otherwise merge and advance to Scan 162, searching only for a publicly named enterprise need while the solution owner is still unassigned, with a standardized B-side and no government, incumbent platform, direct supplier or existing broker already owning intake and matching.
+Validate Scan 162's public solution-search channel-ownership sweep. Consume any reversible Jev route; otherwise merge and advance to Scan 163, searching independent first-party enterprise disclosures only: the company itself must state a still-movable need, standardized/open B-side supply must exist, and the disclosure must not sit inside a channel already performing matchmaking.
 
 ## Current Phase
-SCAN161_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
+SCAN162_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 
 ## Last Verified Main
-- `main`: `7942caa91648bd0f961d1666597529a6033b5656` — PR #475 merged.
-- Scan 160 exact head `0f137dfe5818e0ab9b65f2c3e464a6d2c0c899df`.
-- Repository CI `35892544990`: SUCCESS, 815 tests; test job `107288334715`.
-- Real TypeSafe/Jev `35892544994`: SUCCESS; artifact `10764838944`; digest `sha256:986bb518ad7895b6ac3d9b4d7d08c635669883d032dc932d3e40e61e835e0b95`.
-- Jev: 5/5 model/effective `NO_FURTHER_RESEARCH`, 5/5 aligned with authoritative closure, continuation `ADVANCE_TO_NEXT_SCAN`.
+- `main`: `682a65733877c3a51ed2e815aac24288a3b5dd9c` — PR #476 merged.
+- Scan 161 exact head `f8da3db448b36035fd42e18296f1f2348912b53f`.
+- Repository CI `35893628264`: SUCCESS, 822 tests; test job `107291985464`.
+- Real TypeSafe/Jev `35893628276`: SUCCESS; artifact `10765264893`; digest `sha256:3322c3673a325ae28afbebda262743f681fcccd4b2c22742f79a3f0b28c34569`.
+- Jev: 5/5 model/effective `NO_FURTHER_RESEARCH`, 5/5 closure alignment, continuation `ADVANCE_TO_NEXT_SCAN`.
 - Active commercial candidates: 0; transaction units: 0; FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
 
 ## Active Issue
 #143 — P0 clean-slate Attraction Field -> first external value flow — OPEN.
 
 ## Active Branch
-`research/scan161-expansion-modular-operations`.
+`research/scan162-public-solution-search-channel-ownership`.
 
 ## Active PR
-PR #476 — `Run Scan 161 expansion modular operations sweep` — OPEN.
+Not opened yet. Create the Scan 162 PR after this checkpoint and freeze its exact head.
 
 ## CI
-- Scan 161 exact-head repository CI: PENDING.
-- Scan 161 live TypeSafe/Jev: PENDING.
+- Scan 162 exact-head repository CI: PENDING.
+- Scan 162 live TypeSafe/Jev: PENDING.
 - Only the same exact PR head may authorize route consumption or merge.
 
 ## Latest Artifact / Persisted State
-- `data/research_runs/attraction_scan_161.json`
-- `data/research_runs/scan161_expansion_modular_operations_evidence.json`
-- `docs/research/SCAN161_EXPANSION_MODULAR_OPERATIONS_2026-09-24.md`
-- `tests/test_scan161_expansion_modular_operations.py`
+- `data/research_runs/attraction_scan_162.json`
+- `data/research_runs/scan162_public_solution_search_channel_ownership_evidence.json`
+- `docs/research/SCAN162_PUBLIC_SOLUTION_SEARCH_CHANNEL_OWNERSHIP_2026-09-24.md`
+- `tests/test_scan162_public_solution_search_channel_ownership.py`
 - `data/commercial_reset_state.json`
 
 ## Completed
-- Reconciled Scan 160 exact-head CI/Jev/merge truth into durable machine state.
-- Cross-scan deduplicated Scan142–160 domains before searching.
-- Screened five fresh expansion/activation fields: employee accommodation, workforce ramp, equipment rigging/installation, industrial-park night meals and local industrial packaging capacity.
-- Preserved expansion-driven employee accommodation as the closest near miss because the need is named, repeated and standardizable.
-- Refused to promote accommodation where the strongest same-market case already has public apartment intake, supply and matching rails.
-- Kept workforce ramp closed where public HR/direct recruitment already owns the rail and individual workers are not a public B-side inventory.
-- Kept equipment installation expert/site-bound and did not infer open buyer motion from intended packaging customers.
+- Reconciled Scan 161 exact-head CI/Jev/merge truth into durable machine state.
+- Deduplicated Scan142–161 reality domains.
+- Screened public solution-search states across smart-space, cold-chain digitalization, broad enterprise service support, industrial AI scenes and technical-demand collection.
+- Added publication-channel ownership as a hard research check.
+- Established that current application-scene/demand-list channels commonly perform the matching they expose.
 - No external side effect or commercial promotion.
 
 ## Current Findings
-A named, explicit enterprise pain point is still not enough. Scan161's best case—employee accommodation during expansion—has excellent A/B discoverability and simple matching, but TEDA already exposes direct enterprise application and apartment-supply rails and actively coordinates the named Samsung case. The next search must happen **before solution assignment**, not merely before the operational deadline.
+Open demand is not enough. Qianhai, Huangpu, Beijing and Dalian demonstrate that public scenario/demand-list programs are themselves supply-demand infrastructure. Longgang's named CGN request was immediately assigned to a government follow-up mechanism. A fresh edge must therefore be discovered from an independent first-party enterprise disclosure before any matching/resolution owner is assigned.
 
 ## Blockers
-No human blocker. Scan 161 exact-head repository CI and real TypeSafe/Jev are pending.
+No human blocker. Scan 162 exact-head repository CI and real TypeSafe/Jev are pending.
 
 ## Next Action
-Freeze PR #476 exact head; require exact-head repository CI + live TypeSafe/Jev; consume any reversible route, otherwise merge and advance to Scan 162.
+Open/freeze the Scan 162 PR exact head; require exact-head repository CI + live TypeSafe/Jev; consume any reversible route, otherwise merge and advance to Scan 163.
 
 ## Do Not Repeat
-Do not re-scan Scan142–161 domains as new ontology; do not treat explicit enterprise pain as proof of a missing connection; do not duplicate government/park/incumbent intake rails; do not infer buyer motion from intended customers; do not weaken `UNKNOWN != PASS`.
+Do not treat official demand lists, application-scenario programs, government matchmaking events or assigned department follow-up as unowned routing opportunities; do not re-scan Scan142–162 domains as new ontology; do not weaken `UNKNOWN != PASS`.
 
 ## Guardrails
 GitHub live state wins. REALITY > COGNITION > SCHEMA. HIGH_ATTRACTION_BEACON != COMMERCIAL_CANDIDATE. TypeSafe/Jev is shadow research advisory only.
@@ -75,7 +73,7 @@ Use `state/chatgpt-recovery` only as control-plane recovery state; live GitHub r
 None.
 
 ## Resume Cursor
-Scan 161 artifacts are persisted on `research/scan161-expansion-modular-operations`; PR #476 is open and exact-head validation remains.
+Scan 162 artifacts are persisted on `research/scan162-public-solution-search-channel-ownership`; PR creation and exact-head validation remain.
 
 ## Safe Re-entry
-Re-read live main, open PRs and exact-head Actions before mutating. Do not repeat Scan161 research if persisted artifacts and a matching PR head already exist.
+Re-read live main, open PRs and exact-head Actions before mutating. Do not repeat Scan162 research if persisted artifacts and a matching PR head already exist.
