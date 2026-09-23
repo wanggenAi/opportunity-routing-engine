@@ -1,0 +1,110 @@
+{
+  "scan_id": "ATTRACTION_SCAN_163",
+  "as_of_date": "2026-09-24",
+  "formation_id": "ATTRACTION_SCAN_163-F1",
+  "field": "RECURRING_GLOBAL_VERIFICATION_DEMAND_PUMPS_TO_CHINA_LOCAL_EVIDENCE_EXECUTION_NETWORK",
+  "independent_field_evidence": [
+    {
+      "id": "MOFCOM-139-20260506",
+      "url": "https://www.mofcom.gov.cn/zwjg/sqfb/oz/art/2026/art_08bff421c6b64926881f4f9baeac4f21.html",
+      "claim": "139th Canton Fair drew 314,000+ overseas buyers from 220 countries/regions, US$25.7B on-site intended orders, and many buyers scheduled follow-up factory visits."
+    },
+    {
+      "id": "MOFCOM-140-20261015",
+      "url": "https://kr.mofcom.gov.cn/zhxx/art/2026/art_d8dbc67e59824d8591d6a554a175b0bd.html",
+      "claim": "140th Canton Fair opens 2026-10-15, providing a recurring global-buyer event source rather than a single gig."
+    },
+    {
+      "id": "QIMA-Q3-2026",
+      "url": "https://www.qima.com/newsroom/news/news-q3-2026-barometer",
+      "claim": "QIMA Q2 data reports China inspection demand +18% YoY from emerging-market clients outside Asia; China is 78% of their inspection/audit demand and 81% for South/Latin America."
+    },
+    {
+      "id": "HEYANYUN",
+      "url": "https://www.heyanyun.com/",
+      "claim": "China local field-execution network reports 1,000+ enterprise customers, 2M+ site checks, task decomposition by address/evidence/acceptance, local-person matching and QA."
+    }
+  ],
+  "downstream_flow_evidence": [
+    {
+      "id": "CONFIRMIS-SUZHOU",
+      "url": "https://www.freelancer.com/projects/photography/site-verification-suzhou-jiangsu-china",
+      "claim": "Recurring business-information client posts a standardized Suzhou site-verification task at US$20-45 with address, operating hours, photo/video/observation SOP and one-city/one-freelancer allocation."
+    },
+    {
+      "id": "CONFIRMIS-SHANGHAI",
+      "url": "https://www.freelancer.com/projects/photography/site-verification-shanghai-china-40690648",
+      "claim": "The same site-verification pattern appears in Shanghai at US$20-35, supporting repeated city-by-city recruitment rather than one isolated buyer."
+    },
+    {
+      "id": "CONFIRMIS-WENZHOU",
+      "url": "https://www.freelancer.com/projects/photography/site-verification-wenzhou-zhejiang-china",
+      "claim": "The same pattern appears in Wenzhou at US$20-40 with milestone release after the visit."
+    },
+    {
+      "id": "GUANGZHOU-FACTORY-LIVE",
+      "url": "https://www.freelancer.com/projects/supplier-sourcing/china-factory-verification-visit",
+      "claim": "Current open Guangzhou factory-verification task budgets CAD30-250; deliverables are existence/contact confirmation, permitted photos/video, documents and a short English report."
+    },
+    {
+      "id": "CHINA-LOCAL-AGENT",
+      "url": "https://chinalocalagent.com/services/factory-and-site-visits",
+      "claim": "Current incumbent offers defined China factory/site visits with checklist, permitted evidence and reporting, but explicitly excludes covert investigation and specialist certification."
+    },
+    {
+      "id": "CIS-PRICE",
+      "url": "https://www.chinainspectionservice.com/pricing.html",
+      "claim": "Professional incumbent publicly prices QC at US$248/man-day and factory audit at US$268/man-day and requires full payment at least three days before inspection."
+    }
+  ],
+  "platform_execution_constraints": [
+    {
+      "id": "FREELANCER-TEAM",
+      "url": "https://www.freelancer.com/corporate/teams.php?coupon=TEAMSBETA2021",
+      "claim": "Freelancer Corporate Teams supports team bidding, team management and shared billing; any routed execution must be transparent and platform-compliant."
+    },
+    {
+      "id": "FREELANCER-MILESTONE",
+      "url": "https://www.freelancer.com/support/freelancer/payments/how-do-i-pay-the-freelancer?w=f",
+      "claim": "Freelancer recommends funded Milestone Payments before work begins; funds are held until release."
+    },
+    {
+      "id": "FREELANCER-FEES",
+      "url": "https://www.freelancer.com/feesandcharges",
+      "claim": "Fixed-price freelancer fee is 10% of project value or US$5 minimum, so normalized margin must include platform fees."
+    }
+  ],
+  "first_bootstrap_queue": [
+    {
+      "bootstrap_id": "SCAN163-B1",
+      "source_id": "GUANGZHOU-FACTORY-LIVE",
+      "title": "Guangzhou bounded factory-existence and visible-evidence visit",
+      "current_status": "PREFLIGHT_READY_NOT_EXECUTION_AUTHORIZED",
+      "why_first": "Current, bounded, decision-linked, mostly observable evidence rather than technical certification; budget is materially above the Confirmis micro-task tier.",
+      "hard_unknowns": [
+        "No platform-funded milestone has been observed for our participation.",
+        "No compliant team/agency configuration has been established for this account.",
+        "No Guangzhou executor is OPTIONED and no same-scope market cost is bound.",
+        "Site access/filming permission must be confirmed by the buyer/supplier."
+      ],
+      "next_safe_action": "Bind a real Guangzhou executor quote and platform/team eligibility; do not bid or incur cost until the user authorizes the account action and funded milestone is visible."
+    },
+    {
+      "bootstrap_id": "SCAN163-B2",
+      "source_id": "CONFIRMIS-SUZHOU",
+      "title": "Suzhou standardized site-verification micro-task",
+      "current_status": "DEMAND_PUMP_PROTOCOL_LEARNING_LOW_MARGIN",
+      "why_not_first": "Excellent repeatability evidence, but US$20-45 leaves little room for orchestration unless execution is truly hyperlocal and aggregated; use to learn task protocol and demand-pump behavior, not to manufacture margin."
+    },
+    {
+      "bootstrap_id": "SCAN163-B3",
+      "source_url": "https://www.freelancer.com/projects/electronics/site-factory-inspection-china",
+      "title": "Multi-supplier technical factory inspection across China",
+      "current_status": "REJECT_FIRST_BOOTSTRAP_EXPERT_AND_ECONOMIC_FIT",
+      "why_rejected": "Requires quality/process judgment across electronics/textiles and recommendations; advertised US$2-8/hour is weak for a routed multi-party model and drifts into expert inspection."
+    }
+  ],
+  "decisive_unknown": "Will a recurring overseas verification/business-information demand pump buy China-wide standardized field-evidence capacity from one orchestrated coverage layer instead of repeatedly recruiting one city-level freelancer at a time?",
+  "commercial_promotion": false,
+  "external_side_effects_performed": false
+}
