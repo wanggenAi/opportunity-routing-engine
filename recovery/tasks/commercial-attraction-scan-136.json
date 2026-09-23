@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "task_key": "commercial-attraction-scan-136",
-  "generation": 2,
+  "generation": 3,
   "status": "ACTIVE",
-  "reconciled_at": "2026-09-23T07:18:00Z",
-  "live_main": "2300f2bc95db341681c37fd824e7b3b36f64227f",
+  "reconciled_at": "2026-09-23T07:22:00Z",
+  "live_main": "16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1",
   "work_branch": "research/scan136-current-asset-receipts",
   "frozen_head": "d91d34790fb07c3e45bce977196092c00b86e8da",
-  "stage": "SCAN136_EXACT_HEAD_VALIDATION_RUNNING",
+  "stage": "SCAN136_F1_INCUMBENT_PREFLIGHT_F2_CAUSAL_DESCENT",
   "scan_id": "ATTRACTION_SCAN_136",
   "retained_research": [
     "ATTRACTION_SCAN_136-F1",
@@ -27,7 +27,7 @@
     "Scan136 resolved_research_formations schema corrected to canonical object records for F3/F4; regression test added.",
     "Scan135 historical tests now validate historical Scan135 explicitly instead of pinning global auto state to Scan135."
   ],
-  "next_action": "Wait for PR #445 exact head d91d34790fb07c3e45bce977196092c00b86e8da repository CI and live Jev terminal results; consume actual directive if both succeed.",
+  "next_action": "Create a fresh follow-up branch from main 16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1; run F1 exact incumbent/control-loop preflight and F2 public causal descent; persist blockers/results without external contact or commercial promotion.",
   "pending_operation": null,
   "do_not_repeat": [
     "Do not return to consumed Scan135 branches.",
@@ -43,5 +43,39 @@
     "current_ci_run_id": 35830529477,
     "current_jev_run_id": 35830529504,
     "current_status": "RUNNING"
+  },
+  "pr_status": "MERGED",
+  "pr_exact_head": "d91d34790fb07c3e45bce977196092c00b86e8da",
+  "pr_ci": {
+    "run_id": 35830529477,
+    "conclusion": "success"
+  },
+  "pr_jev": {
+    "run_id": 35830529504,
+    "artifact_id": 10736328530,
+    "digest": "sha256:1efcd7d984f711b309e5533ef275365b8067aa8f341998442f6e62f16c0c8ead",
+    "conclusion": "success"
+  },
+  "main_ci": {
+    "run_id": 35830677638,
+    "conclusion": "success"
+  },
+  "main_jev": {
+    "run_id": 35830677629,
+    "artifact_id": 10737500478,
+    "digest": "sha256:fc350f38f5a29968b2c82e0af389920a3372e770d8293312c2c49a43975a8b1f",
+    "conclusion": "success",
+    "input_scan_id": "ATTRACTION_SCAN_136",
+    "entity_count": 4,
+    "routes": {
+      "ATTRACTION_SCAN_136-F1": "EXACT_INCUMBENT_PREFLIGHT",
+      "ATTRACTION_SCAN_136-F2": "CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_136-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_136-F4": "NO_FURTHER_RESEARCH"
+    },
+    "next_action": "EXECUTE_RESEARCH_QUEUE",
+    "autonomous_continuation_allowed": true,
+    "external_side_effects_allowed": false,
+    "commercial_promotion_authority": false
   }
 }
