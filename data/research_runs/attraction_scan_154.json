@@ -1,0 +1,835 @@
+{
+  "scan_id": "ATTRACTION_SCAN_154",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "FRESH_BROAD_CURRENT_REALITY_FAILURE_WORKAROUND_FIRST_AFTER_SCAN153_FINAL_CLOSURE",
+  "source_main_sha": "562d1fa02f48ab06a6cd674278e12a7a65b7e0e4",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_153",
+    "prior_pr": 467,
+    "prior_merged_main_sha": "562d1fa02f48ab06a6cd674278e12a7a65b7e0e4",
+    "prior_final_exact_head": "20d68d6717bedf48bc53f41298b118c42cab0d10",
+    "prior_repository_ci_run_id": 35883127760,
+    "prior_repository_ci_test_job_id": 107256380147,
+    "prior_repository_ci_test_count": 778,
+    "prior_live_jev_run_id": 35883127759,
+    "prior_live_jev_artifact_id": 10761880299,
+    "prior_live_jev_artifact_digest": "sha256:c13524da8c6d94146a75436b053e48b5ec059e7a7a0b3e1b34670e072ae5cabb",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "failure_workaround_first_search": true,
+    "scan153_transition_flows_not_used_as_prior": true
+  },
+  "broad_reality_domains_examined": [
+    "CROSS_BORDER_INDUSTRIAL_AFTERSALES",
+    "CHILDCARE_CAPACITY_MISMATCH",
+    "SME_DIGITAL_TRANSFORMATION",
+    "ELDERLY_MEAL_ACCESS",
+    "HOME_APPLIANCE_REPAIR_TRUST"
+  ],
+  "source_registry": {
+    "AFTERSALES-WHITEPAPER-2026": {
+      "source_class": "CURRENT_ADVANCED_MANUFACTURING_OVERSEAS_LOCAL_SERVICE_GAP",
+      "url": "https://segg.sh.gov.cn/zxfw/yjbg/hybg/zgytyzysb/index/2954ed0d924a4441b1b1d4bb3d6acac6.pdf",
+      "date": "2026",
+      "claim": "The 2026 advanced-manufacturing globalization whitepaper says emerging markets increasingly require turnkey delivery plus long-term operations and local capability building; it specifically notes shortages in professional installation, commissioning and O&M capability in markets such as Indonesia."
+    },
+    "AFTERSALES-KAVOYA-20260923": {
+      "source_class": "CURRENT_CROSS_BORDER_LOCAL_SERVICE_NETWORK_COMPARATOR",
+      "url": "https://www.kavoya.com/",
+      "date": "2026-09-23",
+      "claim": "Kavoya currently markets cross-border local execution and after-sales/returns support by connecting Chinese businesses with local service providers, evidencing both a provider population and an incumbent service-network response."
+    },
+    "CHILDCARE-JINAN-20260415": {
+      "source_class": "CURRENT_OFFICIAL_CHILDCARE_CAPACITY_MISMATCH",
+      "url": "https://jnmhc.jinan.gov.cn/col/col117347/art/2026/art_80df8aaddcbb4a8aa9ee95c0eb79bf1c.html",
+      "date": "2026-04-15",
+      "claim": "Jinan reports 785 childcare institutions and 48,103 slots while explicitly stating that growing family demand for nearby, reliable and affordable childcare is still not precisely matched by the supply structure and that provider operating costs conflict with household affordability."
+    },
+    "CHILDCARE-JINAN-20260701": {
+      "source_class": "CURRENT_PUBLIC_CHILDCARE_DISCOVERY_RAIL",
+      "url": "https://jnmhc.jinan.gov.cn/col/col117348/art/2026/art_28122fe17133431781ece6060d5d7b7a.html",
+      "date": "2026-07-01",
+      "claim": "Jinan's 2026 childcare response confirms the same 785-institution/48,103-slot supply base and describes continued public-system work to improve inclusive childcare access, making government/public discovery and supervision part of the current control surface."
+    },
+    "DIGITAL-NDTPC-20260923": {
+      "source_class": "CURRENT_SME_DIGITAL_TRANSFORMATION_DIAGNOSIS_AND_MATCHING_PLATFORM",
+      "url": "https://ndtpc.com/",
+      "date": "2026-09-23",
+      "claim": "The Digital Transformation Promotion Center platform currently offers AI diagnosis, supply-demand matching and automatic solution/provider recommendation, reports 36,000+ enterprise diagnoses, and exposes thousands of solutions/cases plus AI matching."
+    },
+    "ELDERMEAL-CNR-20260127": {
+      "source_class": "CURRENT_DIGITAL_ELDER_MEAL_STANDARD_AND_DELIVERY_RAIL",
+      "url": "https://tech.cnr.cn/techph/20260127/t20260127_527507798.shtml",
+      "date": "2026-01-27",
+      "claim": "A 2026 national digital elderly-meal group standard defines the digital platform, service flow, data security, emergency response and personnel training; the associated platform-based program reported 25,841 participating stores and 331,000 meal deliveries."
+    },
+    "REPAIR-HUNAN-20260921": {
+      "source_class": "CURRENT_OFFICIAL_HOME_REPAIR_FAILURE_SIGNAL",
+      "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202609/t20260921_34069427.html",
+      "date": "2026-09-21",
+      "claim": "Hunan market regulators report concentrated complaints about on-site repair platforms involving low-price bait followed by surcharges, fabricated faults, fake or low-grade parts and opaque pricing, and advise consumers to verify official or reputable channels."
+    },
+    "REPAIR-SHANGHAI-20260622": {
+      "source_class": "CURRENT_PUBLIC_APPLIANCE_REPAIR_CONTROL_AND_TRUST_RAIL",
+      "url": "https://sww.sh.gov.cn/zwgkgfqtzcwj/20260622/d8cf674cb3ec49c38df285315f36ed12.html",
+      "date": "2026-06-22",
+      "claim": "Shanghai's 2026 appliance-repair program funds licensed technician training, public repair-platform contracted providers, authorization cleanup, dynamic credential data and complaint handling, showing that trust and provider-control rails already exist institutionally."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_154-F1",
+      "title": "Chinese industrial-equipment exporters with overseas service incidents -> destination-market local technicians and service partners",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "Current manufacturing-globalization evidence identifies local installation, commissioning and long-term O&M capability as a real overseas bottleneck, and service networks already recruit local execution capacity. The failure is real, but equipment authorization, training, parts, safety, warranty and local labor/compliance make each match specialist and permission-bound rather than a narrow callable router.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "b_voluntary_motion": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "state_dependent_value_jump": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "decision_window": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "bridge_compression": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "activation_ease": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "self_propulsion": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "operator_control": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "a_discoverability": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "b_discoverability": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "match_resolvability": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "action_gate_callability": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "a_population_replenishment": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "b_population_replenishment": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "recurring_connection_pressure": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "recurring_missing_edge": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ],
+          "recurring_event_source": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_CROSS_BORDER_INDUSTRIAL_AFTERSALES_FIELD_REAL_WITH_LOCAL_SERVICE_GAP_BUT_EQUIPMENT_AUTHORIZATION_PARTS_SAFETY_WARRANTY_AND_TECHNICIAN_FIT_REMAIN_EXPERT_AND_NONCALLABLE",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AFTERSALES-WHITEPAPER-2026",
+            "AFTERSALES-KAVOYA-20260923"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "AFTERSALES-WHITEPAPER-2026",
+          "AFTERSALES-KAVOYA-20260923"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_154-F2",
+      "title": "Families seeking nearby affordable trusted childcare -> licensed childcare institutions with usable local capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "Jinan explicitly reports a structural mismatch despite 48,103 childcare slots: families want nearby, reliable and affordable care while providers face operating-cost pressure. The residual field is real, but public childcare systems own provider qualification/supervision and live slot availability or booking control is not evidenced as a stable independent rail.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "b_voluntary_motion": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "state_dependent_value_jump": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "decision_window": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "bridge_compression": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "activation_ease": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "self_propulsion": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "operator_control": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "a_discoverability": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "b_discoverability": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "match_resolvability": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "action_gate_callability": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "a_population_replenishment": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "b_population_replenishment": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "recurring_connection_pressure": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "recurring_missing_edge": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ],
+          "recurring_event_source": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_CHILDCARE_CAPACITY_MISMATCH_REAL_BUT_REAL_TIME_SLOT_BOOKING_PRICE_TRUST_AND_PROVIDER_CONTROL_REMAIN_PUBLIC_OR_PROVIDER_OWNED",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CHILDCARE-JINAN-20260415",
+            "CHILDCARE-JINAN-20260701"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "CHILDCARE-JINAN-20260415",
+          "CHILDCARE-JINAN-20260701"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_154-F3",
+      "title": "SMEs with digital-transformation pain points -> digital products and service providers matched to diagnosed needs",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "The bilateral need is large and recurrent, but a current national SME digital-service platform already diagnoses enterprises, maps pain points to routes, exposes solutions and performs AI supply-demand/provider matching. The generic routing edge is already productized.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "b_voluntary_motion": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "state_dependent_value_jump": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "decision_window": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "bridge_compression": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "activation_ease": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "self_propulsion": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "operator_control": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "a_discoverability": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "b_discoverability": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "match_resolvability": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "action_gate_callability": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "a_population_replenishment": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "b_population_replenishment": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "recurring_connection_pressure": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "recurring_missing_edge": [
+            "DIGITAL-NDTPC-20260923"
+          ],
+          "recurring_event_source": [
+            "DIGITAL-NDTPC-20260923"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_SME_DIGITAL_TRANSFORMATION_MATCHING_REAL_BUT_CURRENT_PUBLIC_PLATFORM_ALREADY_OWNS_DIAGNOSIS_SOLUTION_DISCOVERY_AND_AI_PROVIDER_MATCHING",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DIGITAL-NDTPC-20260923"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DIGITAL-NDTPC-20260923"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DIGITAL-NDTPC-20260923"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DIGITAL-NDTPC-20260923"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DIGITAL-NDTPC-20260923"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "DIGITAL-NDTPC-20260923"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_154-F4",
+      "title": "Older residents needing reliable daily meal access -> participating merchants and trusted delivery capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "The need is recurrent and important, but the current digitally standardized elderly-meal ecosystem already covers ordering/payment, participating merchants, dedicated or familiar delivery, emergency handling and auditable subsidy flows. The generic bridge is institution/platform-owned.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "b_voluntary_motion": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "state_dependent_value_jump": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "decision_window": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "bridge_compression": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "activation_ease": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "self_propulsion": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "operator_control": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "a_discoverability": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "b_discoverability": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "match_resolvability": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "action_gate_callability": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "a_population_replenishment": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "b_population_replenishment": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "recurring_connection_pressure": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "recurring_missing_edge": [
+            "ELDERMEAL-CNR-20260127"
+          ],
+          "recurring_event_source": [
+            "ELDERMEAL-CNR-20260127"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_ELDERLY_MEAL_ACCESS_FIELD_REAL_BUT_DIGITAL_ORDER_PAYMENT_MERCHANT_DELIVERY_AND_SERVICE_GOVERNANCE_ALREADY_OWN_THE_LOOP",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELDERMEAL-CNR-20260127"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELDERMEAL-CNR-20260127"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELDERMEAL-CNR-20260127"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELDERMEAL-CNR-20260127"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELDERMEAL-CNR-20260127"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "ELDERMEAL-CNR-20260127"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_154-F5",
+      "title": "Households with appliance failures -> trustworthy authorized repair providers with transparent parts and pricing",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "Current regulator warnings prove repeated failure inside the existing on-site repair market: bait pricing, fabricated faults, substandard parts and opaque charges. Shanghai simultaneously maintains credential, authorization, public-platform and complaint-control infrastructure. Residual trust friction is real, but authorization/warranty/diagnosis/parts/price data are not a single operator-callable control surface.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "b_voluntary_motion": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "state_dependent_value_jump": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "decision_window": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "bridge_compression": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "activation_ease": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "self_propulsion": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "operator_control": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "a_discoverability": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "b_discoverability": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "match_resolvability": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "action_gate_callability": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "a_population_replenishment": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "b_population_replenishment": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "recurring_connection_pressure": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "recurring_missing_edge": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ],
+          "recurring_event_source": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_HOME_APPLIANCE_REPAIR_TRUST_GAP_REAL_BUT_AUTHORIZATION_WARRANTY_DIAGNOSTIC_PARTS_PRICE_AND_PROVIDER_CONTROL_PREVENT_A_DISTINCT_INDEPENDENT_ROUTER",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "REPAIR-HUNAN-20260921",
+            "REPAIR-SHANGHAI-20260622"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "REPAIR-HUNAN-20260921",
+          "REPAIR-SHANGHAI-20260622"
+        ]
+      }
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Failure/workaround-first sensing found three genuine residual failures (industrial overseas after-sales, childcare capacity fit and home repair trust), but each remaining edge still depends on inaccessible/provider-owned control data or recurring expert/permission judgment. Two other fields are already substantially platformized."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_155",
+  "next_search_boundary": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN154_THEN_CONTINUE_FAILURE_WORKAROUND_FIRST_ACROSS_NEW_REALITY_DOMAINS_WITHOUT_INHERITING_THESE_VERTICALS",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN155",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "observed_failure_or_workaround_seeded": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scan153_transition_flows_not_used_as_prior": true,
+    "incumbent_presence_not_used_as_automatic_kill": true,
+    "residual_after_sales_gap_preserved": true,
+    "residual_childcare_mismatch_preserved": true,
+    "residual_repair_trust_failure_preserved": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "FAILURE_FIRST_SENSING_SEPARATES_REAL_MARKET_PAIN_FROM_MERE_CATEGORY_EXISTENCE.",
+    "CROSS_BORDER_AFTERSALES_HAS_REAL_LOCAL_EXECUTION_PRESSURE_BUT_EQUIPMENT_SPECIFIC_AUTHORIZATION_AND_PARTS_KEEP_THE_EDGE_EXPERT_AND_PERMISSION_BOUND.",
+    "CHILDCARE_CAN_HAVE NOMINAL CAPACITY AND STILL HAVE LOCATION_PRICE_TRUST_MISMATCH_WHILE_REAL_TIME_SLOT_CONTROL_REMAINS_PUBLIC_OR_PROVIDER_OWNED.",
+    "HOME_REPAIR_COMPLAINTS_PROVE_RESIDUAL_FAILURE_BUT_CREDENTIAL_AUTHORIZATION_WARRANTY_DIAGNOSIS_AND_PRICE_TRUTH_ARE_FRAGMENTED_CONTROL_SURFACES.",
+    "PUBLIC_AI_MATCHING_CAN_ELIMINATE_GENERIC_ROUTER_DISTINCTIVENESS_EVEN_WHEN_THE_UNDERLYING_MARKET_IS_LARGE."
+  ],
+  "source_urls": [
+    "https://segg.sh.gov.cn/zxfw/yjbg/hybg/zgytyzysb/index/2954ed0d924a4441b1b1d4bb3d6acac6.pdf",
+    "https://www.kavoya.com/",
+    "https://jnmhc.jinan.gov.cn/col/col117347/art/2026/art_80df8aaddcbb4a8aa9ee95c0eb79bf1c.html",
+    "https://jnmhc.jinan.gov.cn/col/col117348/art/2026/art_28122fe17133431781ece6060d5d7b7a.html",
+    "https://ndtpc.com/",
+    "https://tech.cnr.cn/techph/20260127/t20260127_527507798.shtml",
+    "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202609/t20260921_34069427.html",
+    "https://sww.sh.gov.cn/zwgkgfqtzcwj/20260622/d8cf674cb3ec49c38df285315f36ed12.html"
+  ]
+}

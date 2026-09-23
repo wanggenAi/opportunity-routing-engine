@@ -659,17 +659,42 @@
       "formation_id": "ATTRACTION_SCAN_153-F5",
       "verdict": "DEMOTED_SECONDHAND_INDUSTRIAL_EQUIPMENT_FIELD_REGENERATIVE_BUT_CONDITION_PROCESS_FIT_INSPECTION_LOGISTICS_AND_REMANUFACTURING_REMAIN_EXPERT_BOUND",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_154-F1",
+      "verdict": "DEMOTED_CROSS_BORDER_INDUSTRIAL_AFTERSALES_FIELD_REAL_WITH_LOCAL_SERVICE_GAP_BUT_EQUIPMENT_AUTHORIZATION_PARTS_SAFETY_WARRANTY_AND_TECHNICIAN_FIT_REMAIN_EXPERT_AND_NONCALLABLE",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_154-F2",
+      "verdict": "DEMOTED_CHILDCARE_CAPACITY_MISMATCH_REAL_BUT_REAL_TIME_SLOT_BOOKING_PRICE_TRUST_AND_PROVIDER_CONTROL_REMAIN_PUBLIC_OR_PROVIDER_OWNED",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_154-F3",
+      "verdict": "DEMOTED_SME_DIGITAL_TRANSFORMATION_MATCHING_REAL_BUT_CURRENT_PUBLIC_PLATFORM_ALREADY_OWNS_DIAGNOSIS_SOLUTION_DISCOVERY_AND_AI_PROVIDER_MATCHING",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_154-F4",
+      "verdict": "DEMOTED_ELDERLY_MEAL_ACCESS_FIELD_REAL_BUT_DIGITAL_ORDER_PAYMENT_MERCHANT_DELIVERY_AND_SERVICE_GOVERNANCE_ALREADY_OWN_THE_LOOP",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_154-F5",
+      "verdict": "DEMOTED_HOME_APPLIANCE_REPAIR_TRUST_GAP_REAL_BUT_AUTHORIZATION_WARRANTY_DIAGNOSTIC_PARTS_PRICE_AND_PROVIDER_CONTROL_PREVENT_A_DISTINCT_INDEPENDENT_ROUTER",
+      "resolved_date": "2026-09-23"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_153",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_153-F5",
-  "next_scan_id": "ATTRACTION_SCAN_154",
-  "current_research_action": "FREEZE_SCAN153_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN154",
+  "last_completed_scan_id": "ATTRACTION_SCAN_154",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_154-F5",
+  "next_scan_id": "ATTRACTION_SCAN_155",
+  "current_research_action": "FREEZE_SCAN154_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN155",
   "current_validation_state": {
     "formation_id": null,
-    "state": "SCAN153_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "state": "SCAN154_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
     "commercial_candidate": false,
     "external_contact_performed": false,
     "external_contact_authorized": false
@@ -2244,8 +2269,8 @@
     "deposit_authorized": false,
     "purchase_authorized": false
   },
-  "last_completed_scan_file": "data/research_runs/attraction_scan_153.json",
-  "last_completed_scan_result": "ZERO_RETENTION_PLATFORM_LOOPS_CLOSED_AND_RESIDUAL_EXPERT_TRANSITION_FRICTION_PRESERVED",
+  "last_completed_scan_file": "data/research_runs/attraction_scan_154.json",
+  "last_completed_scan_result": "ZERO_RETENTION_FAILURE_FIRST_RESIDUAL_GAPS_PRESERVED_BUT_CONTROL_OR_EXPERT_BOUND",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
     "evidence_artifact": "data/research_runs/scan136_current_asset_receipts_evidence.json",
@@ -2731,7 +2756,7 @@
     "preflight_autonomous_continuation_allowed": true,
     "preflight_resolution": "CLOSED_DISTINCT_UNOWNED_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED_AFTER_CURRENT_OFFICIAL_CONTROL_SURFACE_PREFLIGHT"
   },
-  "next_action": "REQUIRE_SCAN153_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN154",
+  "next_action": "REQUIRE_SCAN154_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN155",
   "scan143_broad_reality_trust_routing": {
     "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "c4d3da4d67f067a512642beb272eeafa7fd0fa34",
@@ -3228,7 +3253,7 @@
     "merged_main_sha": "de5c50f3eafadd850508d1878a33405f00132b54"
   },
   "scan153_broad_reality_transition_flows": {
-    "status": "INITIAL_SCAN_COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "de5c50f3eafadd850508d1878a33405f00132b54",
     "canonical_scan_artifact": "data/research_runs/attraction_scan_153.json",
     "evidence_artifact": "data/research_runs/scan153_broad_reality_transition_flows_evidence.json",
@@ -3244,13 +3269,63 @@
     "active_commercial_candidate_count": 0,
     "active_transaction_unit_count": 0,
     "first_external_value_flow": "NOT_PROVEN",
-    "exact_head_validation_status": "PENDING",
-    "live_jev_status": "PENDING",
+    "exact_head_validation_status": "SUCCESS",
+    "live_jev_status": "SUCCESS",
     "next_scan_id": "ATTRACTION_SCAN_154",
-    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN154",
+    "next_action": "COMPLETED_ADVANCE_TO_SCAN154",
     "commercial_promotion": false,
     "external_side_effects_performed": false,
     "residual_pilot_testing_friction_preserved": true,
-    "residual_industrial_equipment_friction_preserved": true
+    "residual_industrial_equipment_friction_preserved": true,
+    "final_exact_head_sha": "20d68d6717bedf48bc53f41298b118c42cab0d10",
+    "final_repository_ci_run_id": 35883127760,
+    "final_repository_ci_conclusion": "SUCCESS",
+    "final_repository_ci_test_job_id": 107256380147,
+    "final_repository_ci_test_count": 778,
+    "final_jev_run_id": 35883127759,
+    "final_jev_artifact_id": 10761880299,
+    "final_jev_artifact_digest": "sha256:c13524da8c6d94146a75436b053e48b5ec059e7a7a0b3e1b34670e072ae5cabb",
+    "final_jev_entity_count": 5,
+    "final_jev_effective_route_counts": {
+      "NO_FURTHER_RESEARCH": 5
+    },
+    "final_jev_model_route_counts": {
+      "NO_FURTHER_RESEARCH": 5
+    },
+    "final_jev_alignment_counts": {
+      "ALIGNS_WITH_AUTHORITATIVE_CLOSURE": 5
+    },
+    "final_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "final_autonomous_continuation_allowed": true,
+    "merged_pr": 467,
+    "merged_main_sha": "562d1fa02f48ab06a6cd674278e12a7a65b7e0e4"
+  },
+  "scan154_failure_workaround_first": {
+    "status": "INITIAL_SCAN_COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "source_main_sha": "562d1fa02f48ab06a6cd674278e12a7a65b7e0e4",
+    "canonical_scan_artifact": "data/research_runs/attraction_scan_154.json",
+    "evidence_artifact": "data/research_runs/scan154_failure_workaround_first_evidence.json",
+    "report": "docs/research/SCAN154_FAILURE_WORKAROUND_FIRST_2026-09-23.md",
+    "retained_research_formations": [],
+    "authoritative_closures": [
+      "ATTRACTION_SCAN_154-F1",
+      "ATTRACTION_SCAN_154-F2",
+      "ATTRACTION_SCAN_154-F3",
+      "ATTRACTION_SCAN_154-F4",
+      "ATTRACTION_SCAN_154-F5"
+    ],
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "exact_head_validation_status": "PENDING",
+    "live_jev_status": "PENDING",
+    "next_scan_id": "ATTRACTION_SCAN_155",
+    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN155",
+    "commercial_promotion": false,
+    "external_side_effects_performed": false,
+    "failure_workaround_first_search": true,
+    "residual_after_sales_gap_preserved": true,
+    "residual_childcare_mismatch_preserved": true,
+    "residual_repair_trust_failure_preserved": true
   }
 }
