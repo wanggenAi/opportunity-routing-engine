@@ -12,7 +12,7 @@ from src.strategic_drift_guard import strategic_drift_errors
 
 ROOT=Path(__file__).resolve().parents[1]
 SCAN=ROOT/"data"/"research_runs"/"attraction_scan_165.json"
-STATE=ROOT/"data"/"commercial_reset_state.json"
+PREFLIGHT=ROOT/"data"/"research_runs"/"scan165_9610_exact_incumbent_preflight.json"
 
 def load(path):
     return json.loads(path.read_text())
@@ -53,42 +53,52 @@ def build_profile(scan,row):
     )
 
 class Scan165CrossCustomsReturnRoutingTests(unittest.TestCase):
-    def test_scan165_keeps_one_high_attraction_research_beacon(self):
+    def test_scan165_closes_retained_beacon_after_exact_preflight(self):
         scan=load(SCAN)
         self.assertEqual(strategic_drift_errors(scan),[])
-        self.assertEqual(scan["retained_research_formations"],["ATTRACTION_SCAN_165-F1"])
-        self.assertEqual(len(scan["high_attraction_beacons"]),1)
-        self.assertIs(
-            attraction_beacon_state(build_profile(scan,scan["high_attraction_beacons"][0])),
-            AttractionBeaconState.HIGH_ATTRACTION_BEACON,
-        )
+        self.assertEqual(scan["retained_research_formations"],[])
+        self.assertEqual(scan["high_attraction_beacons"],[])
+        f1=scan["examined_formations"][0]
+        self.assertIs(attraction_beacon_state(build_profile(scan,f1)),AttractionBeaconState.LOW_ATTRACTION)
+        self.assertIn("POLICY_OPTIONALITY_IS_REAL",f1["verdict"])
 
-    def test_retained_beacon_is_policy_created_multi_port_choice_not_gig_seed(self):
+    def test_preflight_corrects_route_control_and_match_claims(self):
         scan=load(SCAN)
         f1=scan["examined_formations"][0]
-        self.assertEqual(f1["seed_kind"],"BROAD_REALITY_PATTERN")
-        self.assertFalse(f1["attraction_profile"]["flags"]["explicit_transaction_seeded"])
+        self.assertEqual(f1["attraction_profile"]["scores"]["operator_control"],1)
+        self.assertEqual(f1["attraction_profile"]["scores"]["match_resolvability"],1)
+        self.assertEqual(f1["attraction_profile"]["scores"]["action_gate_callability"],1)
+        self.assertEqual(f1["attraction_profile"]["scores"]["recurring_missing_edge"],1)
         self.assertEqual(
             f1["state_change_gate"]["decisive_action_gate"]["owner_state"],
-            "UNOWNED_OPEN",
+            "FRAGMENTED_PLATFORM_LOGISTICS_SITE_CUSTOMS_CONTROL",
         )
-        self.assertIn("CROSS_PORT_CHOICE",f1["decisive_unknown"])
 
-    def test_four_adjacent_routes_are_closed(self):
+    def test_jev_exact_incumbent_route_was_consumed(self):
         scan=load(SCAN)
+        preflight=load(PREFLIGHT)
+        self.assertEqual(
+            scan["exact_incumbent_preflight"]["effective_route"],
+            "EXACT_INCUMBENT_PREFLIGHT",
+        )
+        self.assertEqual(
+            preflight["preflight_result"],
+            "FAIL_DISTINCT_CALLABLE_ROUTING_SURFACE",
+        )
         self.assertEqual(
             set(scan["authoritative_closures"]),
             {
+                "ATTRACTION_SCAN_165-F1",
                 "ATTRACTION_SCAN_165-F2",
                 "ATTRACTION_SCAN_165-F3",
                 "ATTRACTION_SCAN_165-F4",
                 "ATTRACTION_SCAN_165-F5",
             },
         )
-        self.assertEqual(scan["bootstrap_queue"],[])
 
     def test_no_commercial_promotion_or_side_effect(self):
         scan=load(SCAN)
+        self.assertEqual(scan["bootstrap_queue"],[])
         self.assertEqual(scan["commercial_candidates"],[])
         self.assertEqual(scan["active_transaction_units"],[])
         self.assertEqual(scan["first_external_value_flow"],"NOT_PROVEN")
