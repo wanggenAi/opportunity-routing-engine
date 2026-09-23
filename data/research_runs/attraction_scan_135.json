@@ -1,0 +1,275 @@
+{
+  "schema_version": "attraction-scan.v103",
+  "scan_id": "ATTRACTION_SCAN_135",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CURRENT_SINGLE_OR_ECONOMICALLY_SEPARABLE_CHINA_ASSETS_WITH_EXACT_UNPREPAID_RECEIPTS_AUTOMATIC_POST_TRANSFER_CONTINUITY_AT_LEAST_24_MONTHS_RECEIPT_COVERAGE_NON_DISQUALIFYING_GROSS_RECEIPT_TO_ENTRY_ECONOMICS_AND_LOW_RECURRING_HUMAN_DELIVERY",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "REJECT_BUNDLES_POOLED_RECEIPTS_ATTACHMENT_ONLY_TUPLES_AND_SUB_24_MONTH_CASHFLOW_BEFORE_DEEP_DILIGENCE_NO_SCAN060_TO_134_REUSE_NO_REGULATED_SECURITIES_NO_GATE_RELAXATION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_135-F1",
+      "title": "CURRENT_CHENGDU_GUANGHUA_SINGLE_SHOP_WITH_EXPLICIT_POST_TRANSFER_RENT",
+      "chinese_title": "成都光华里65.0304万元单铺 → 3000元/月租到2030-11-20 → 法院明确成交后租金由承租人支付给买受人",
+      "state": "RESEARCH_BEACON_RETAINED_FOR_LEASE_LEDGER_TENANT_DEPOSIT_ARREARS_TAX_TITLE_AND_TRANSFER_DILIGENCE",
+      "commercial_candidate": false,
+      "observed_money_motion": [
+        "Current judicial change-sale floor is RMB 650,304 for one 50.30 sqm commercial unit.",
+        "Existing lease is disclosed at RMB 3,000 per month through 2030-11-20.",
+        "Court notice explicitly states that after auction completion the tenant pays rent to the buyer."
+      ],
+      "decisive_unknowns": [
+        "TENANT_IDENTITY_AND_CREDIT_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "COMPLETE_LEASE_AND_CURRENT_RENT_LEDGER_NOT_PUBLIC",
+        "CURRENT_RENT_PREPAYMENT_OR_ARREARS_STATUS_NOT_PUBLIC",
+        "LEASE_DEPOSIT_AMOUNT_AND_TRANSFER_ACCOUNTING_NOT_PUBLIC",
+        "WATER_ELECTRIC_GAS_PROPERTY_ARREARS_UNKNOWN_AND_BUYER_BEARING_RULES_APPLY",
+        "EXACT_BUYER_TAX_TRANSFER_AND_POSSIBLE_ADVANCE_PAYMENT_COSTS_NOT_NORMALIZED",
+        "TITLE_TRANSFER_ELIGIBILITY_AND_CLOSING_TIMELINE_REQUIRE_CASE_SPECIFIC_CONFIRMATION",
+        "PUBLIC_INSPECTION_RESERVATION_DEADLINE_2026_09_09_HAS_PASSED"
+      ],
+      "next_action": "OBTAIN_WRITTEN_COURT_OR_AUXILIARY_CONFIRMATION_OR_SOURCE_DOCUMENTS_FOR_FULL_LEASE_RENT_LEDGER_PREPAYMENT_DEPOSIT_ARREARS_TAX_AND_TRANSFER_FIELDS_BEFORE_ANY_COMMERCIAL_PROMOTION_OR_BID"
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_135-F1"
+  ],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": false,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_135-F1",
+      "title": "CURRENT_CHENGDU_GUANGHUA_SINGLE_SHOP_WITH_EXPLICIT_POST_TRANSFER_RENT",
+      "chinese_title": "成都青羊光华里负115号单铺65.0304万元变卖 → 3000元/月租到2030-11-20 → 成交后租金归买受人",
+      "evidence_class": "CURRENT_SINGLE_ASSET_WITH_EXACT_ENTRY_PRICE_EXACT_RENT_LONG_TERM_AND_EXPLICIT_POST_TRANSFER_RECEIPT_RIGHT_BUT_DILIGENCE_LEDGER_FIELDS_STILL_OPEN",
+      "evidence_summary": "A current Guangyuan Zhaohua District People's Court change-sale runs 2026-09-10 through 2026-11-09 for one 50.30 sqm commercial unit at Chengdu Qingyang Guanghua Beisan Road 98, basement level unit -115, at RMB 650,304. The property is leased through 2030-11-20 at RMB 3,000/month. The court notice states the tenant continues under the original lease after delivery and that rent after the auction transaction is paid by the tenant to the buyer. Nominal annual rent is RMB 36,000, about 5.54% of the current floor before tax, fees, arrears and ownership costs. This crosses the Scan 135 public-evidence threshold for retained research, but tenant identity, current rent ledger/prepayment status, deposit amount, utility/property arrears, exact taxes/transfer costs, title-transfer closing details and physical inspection remain unresolved. The public inspection reservation deadline was 2026-09-09 and has passed.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_650304_CURRENT_CHANGE_SALE_FLOOR",
+        "contracted_receipt_amount": "RMB_3000_PER_MONTH",
+        "buyer_receipt_start": "POST_AUCTION_RENT_EXPLICITLY_PAYABLE_BY_EXISTING_TENANT_TO_BUYER_EXACT_FIRST_PAYMENT_CYCLE_NOT_PUBLICLY_STATED",
+        "buyer_receipt_end": "LEASE_END_2030-11-20",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "post_transfer_receipt_right": "PASS_COURT_NOTICE_EXPLICITLY_STATES_POST_AUCTION_RENT_IS_PAID_BY_TENANT_TO_BUYER_AND_ORIGINAL_LEASE_CONTINUES",
+        "unprepaid_receipt_status": "PARTIAL_PASS_FUTURE_POST_AUCTION_RENT_BELONGS_TO_BUYER_BUT_CURRENT_LEDGER_AND_ANY_PREPAYMENT_STATUS_ARE_NOT_PUBLIC",
+        "low_recurring_human_delivery": "PARTIAL_PASS_PASSIVE_LANDLORD_COLLECTION_WITH_NORMAL_PROPERTY_ADMINISTRATION_BUT_ARREARS_DEPOSIT_AND_CLOSING_WORK_REMAIN",
+        "receipt_to_entry_economics": "PASS_FOR_RESEARCH_ONLY_RMB36000_ANNUAL_NOMINAL_RENT_DIVIDED_BY_RMB650304_FLOOR_APPROX_5_54_PERCENT_GROSS_BEFORE_ALL_COSTS"
+      },
+      "attraction_brief": {
+        "a_side": "A current court sale exposes one small commercial unit at an exact RMB 650,304 floor.",
+        "a_side_evidence": "Current change-sale period, exact unit, 50.30 sqm area and floor are public.",
+        "b_side": "An existing tenant pays RMB 3,000/month under a lease through 2030-11-20.",
+        "b_side_evidence": "Court notice discloses monthly rent, lease end and explicit post-auction buyer rent entitlement.",
+        "operator": "Owner role is primarily landlord/collection rather than recurring service delivery.",
+        "operator_non_labor_test": "PARTIAL_PASS_NORMAL_PROPERTY_ADMINISTRATION_REMAINS",
+        "connection_wow": "This is the first post-Scan134 fresh single-asset case with exact price, exact rent, multi-year duration and explicit buyer receipt succession at non-obviously-disqualifying gross economics.",
+        "activation_friction": "PARTIAL_CURRENT_JUDICIAL_SALE_RAIL_BUT_DILIGENCE_AND_INSPECTION_LIMITS_REMAIN",
+        "self_propulsion": "PASS_FOR_RESEARCH_EXISTING_TENANT_CONTRACT_AND_POST_TRANSFER_PAYMENT_RIGHT",
+        "a_discoverability": "PASS_CURRENT_COURT_SALE_NOTICE",
+        "b_discoverability": "PARTIAL_TENANT_EXISTS_BUT_IDENTITY_AND_LEDGER_NOT_PUBLIC",
+        "match_resolvability": "PARTIAL_COMPLETE_PUBLIC_ECONOMIC_TUPLE_EXCEPT_LEDGER_DEPOSIT_ARREARS_TAX_AND_TENANT_IDENTITY",
+        "action_gate": "RESEARCH_OPEN_NO_BID_OR_COMMERCIAL_PROMOTION_UNTIL_WRITTEN_DILIGENCE_CLOSES_UNKNOWN_FIELDS",
+        "router_distinctiveness": "PASS_PROPERTY_CONTROL_AND_LEASE_SUCCESSION_ARE_NON_GENERIC",
+        "generic_agent_substitution": "PASS_OWNERSHIP_RIGHT_IS_NON_GENERIC",
+        "legal_payment_compliance": "PARTIAL_PASS_JUDICIAL_TRANSFER_RAIL_EXISTS_BUT_CASE_SPECIFIC_TRANSFER_AND_TAX_FIELDS_REQUIRE_CONFIRMATION",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "decisive_unknowns": [
+        "Tenant identity and ability to perform through 2030 are not public in the retrieved notice.",
+        "The current rent ledger and whether any rent has been prepaid beyond the auction date are not public.",
+        "Lease deposit amount, utility/property arrears and exact buyer-side taxes/transfer costs are not fully bound.",
+        "Physical inspection reservation closed before the Scan 135 decision date."
+      ],
+      "verdict": "RETAINED_FOR_CHEAP_FALSIFICATION_LEASE_LEDGER_TENANT_DEPOSIT_ARREARS_TAX_TITLE_AND_TRANSFER"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_135-F2",
+      "title": "CURRENT_CHENGDU_XIALIANCHI_HIGH_NOMINAL_RENT_WITH_PREPAID_AND_SHORT_REMAINING_TERM",
+      "chinese_title": "成都下莲池街366.64万元二拍 → 25.2万元/年 → 租金已付到2026-11-30且2027-02-28到期",
+      "evidence_class": "CURRENT_SINGLE_ASSET_WITH_EXACT_PRICE_HIGH_VISIBLE_RENT_AND_BUYER_SUCCESSION_BUT_PREPAID_NEAR_TERM_AND_SUB_24_MONTH_COVERAGE",
+      "evidence_summary": "A current Chengdu Jinjiang judicial second auction runs 2026-10-08 through 2026-10-09 at RMB 3,666,400. The commercial property is leased from 2025-03-01 through 2027-02-28 at RMB 252,000/year, with RMB 18,480 tenant deposit. Rent is explicitly paid through 2026-11-30. The buyer succeeds to the landlord's rights and obligations and post-auction rent belongs to the buyer, but only about three months of lease term remain after the prepaid period and the total remaining contractual window is far below 24 months. Nominal annual rent / floor is about 6.87%, which cannot compensate for the durability failure.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_3666400_SECOND_AUCTION_FLOOR",
+        "contracted_receipt_amount": "RMB_252000_PER_YEAR",
+        "buyer_receipt_start": "AFTER_PREPAID_RENT_THROUGH_2026-11-30_SUBJECT_TO_NEXT_PAYMENT_CYCLE",
+        "buyer_receipt_end": "LEASE_END_2027-02-28",
+        "counterparty": "EXISTING_TENANT",
+        "post_transfer_receipt_right": "PASS_BUYER_SUCCEEDS_LANDLORD_RIGHTS_AND_POST_AUCTION_RENT_ENTITLEMENT",
+        "unprepaid_receipt_status": "FAIL_RENT_ALREADY_PAID_THROUGH_2026-11-30",
+        "low_recurring_human_delivery": "PARTIAL_PASS_NORMAL_LANDLORD_ROLE_BUT_TITLE_LAND_AND_ARREARS_RISKS_EXIST",
+        "receipt_to_entry_economics": "SURFACE_GROSS_ANNUALIZED_APPROX_6_87_PERCENT_BUT_DURABILITY_HARD_GATE_FAILS"
+      },
+      "attraction_brief": {
+        "a_side": "A current single commercial-property auction has an exact RMB 3.6664m floor.",
+        "a_side_evidence": "Auction dates, floor and unit are public.",
+        "b_side": "Existing lease pays RMB 252,000/year.",
+        "b_side_evidence": "Rent, lease end, prepayment status and deposit are public.",
+        "operator": "Landlord rights transfer to buyer.",
+        "operator_non_labor_test": "PARTIAL_PASS",
+        "connection_wow": "Visible annualized gross yield is stronger than many prior scans, but contract durability is nearly exhausted.",
+        "activation_friction": "PASS_CURRENT_AUCTION_RAIL",
+        "self_propulsion": "FAIL_DURABLE_FUTURE_RECEIPT_WINDOW",
+        "a_discoverability": "PASS",
+        "b_discoverability": "PASS",
+        "match_resolvability": "PASS",
+        "action_gate": "FAIL_PREPAID_AND_SUB_24_MONTH_RECEIPT_COVERAGE",
+        "router_distinctiveness": "PASS",
+        "generic_agent_substitution": "PASS",
+        "legal_payment_compliance": "PARTIAL_TRANSFER_RISKS_DISCLOSED",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "Rent is already paid through 2026-11-30.",
+        "Lease ends 2027-02-28, far below the required 24-month future receipt window.",
+        "Title/land-status and buyer cost risks remain and do not rescue the durability failure."
+      ],
+      "verdict": "DEMOTED_CURRENT_CHENGDU_XIALIANCHI_RMB3666400_ASSET_HAS_RMB252000_ANNUAL_RENT_AND_BUYER_SUCCESSION_BUT_RENT_IS_PREPAID_TO_2026_11_30_AND_LEASE_END_2027_02_28_FAILS_24_MONTH_COVERAGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_135-F3",
+      "title": "CURRENT_CHENGDU_AIMING_STREET_LOW_PRICE_RENTED_SHOP_WITH_SHORT_LEASE",
+      "chinese_title": "成都龙泉驿爱明街39.5万元一拍 → 1600元/月 → 租到2027-07-19且已付到2026-10-19",
+      "evidence_class": "CURRENT_LOW_PRICE_SINGLE_ASSET_WITH_EXACT_RENT_AND_BUYER_SUCCESSION_BUT_SHORT_TERM_AND_CURRENT_PREPAYMENT",
+      "evidence_summary": "A current Chengdu Longquanyi judicial first auction runs 2026-10-22 through 2026-10-23 at RMB 395,000 for one 46.70 sqm commercial unit. The latest rent is RMB 1,600/month, paid quarterly, through lease end 2027-07-19, with a RMB 4,200 deposit. Rent is already paid through 2026-10-19. The buyer succeeds to the landlord's rights and obligations and may collect from the next payment cycle, but less than one year of contractual coverage remains. Nominal annualized gross rent / floor is about 4.86%, and the short-term hard gate independently kills retention.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_395000_FIRST_AUCTION_FLOOR",
+        "contracted_receipt_amount": "RMB_1600_PER_MONTH_LATEST_RENT",
+        "buyer_receipt_start": "NEXT_PAYMENT_CYCLE_AFTER_AUCTION_WITH_RENT_PAID_THROUGH_2026-10-19",
+        "buyer_receipt_end": "LEASE_END_2027-07-19",
+        "counterparty": "EXISTING_TENANT",
+        "post_transfer_receipt_right": "PASS_BUYER_SUCCEEDS_LANDLORD_RIGHTS_AND_CAN_COLLECT_NEXT_PAYMENT_CYCLE",
+        "unprepaid_receipt_status": "PARTIAL_FAIL_CURRENT_RENT_PREPAID_THROUGH_2026-10-19",
+        "low_recurring_human_delivery": "PARTIAL_PASS_BUT_WALL_RESTORATION_AND_PROPERTY_ADMINISTRATION_EXIST",
+        "receipt_to_entry_economics": "SURFACE_GROSS_ANNUALIZED_APPROX_4_86_PERCENT_BUT_SUB_24_MONTH_TERM_FAILS"
+      },
+      "attraction_brief": {
+        "a_side": "A current single unit is available at an exact RMB 395,000 floor.",
+        "a_side_evidence": "Court notice discloses exact price, area and current auction dates.",
+        "b_side": "Latest lease payment is RMB 1,600/month.",
+        "b_side_evidence": "Lease dates, quarterly payment, latest rent, prepayment date and RMB 4,200 deposit are public.",
+        "operator": "Existing lease transfers with landlord rights.",
+        "operator_non_labor_test": "PARTIAL_PASS",
+        "connection_wow": "Low absolute entry price exposes why cheap assets still fail when durable cashflow is absent.",
+        "activation_friction": "PASS_CURRENT_AUCTION_RAIL",
+        "self_propulsion": "FAIL_DURABLE_RECEIPT_WINDOW",
+        "a_discoverability": "PASS",
+        "b_discoverability": "PASS",
+        "match_resolvability": "PASS",
+        "action_gate": "FAIL_SUB_24_MONTH_RECEIPT_COVERAGE",
+        "router_distinctiveness": "PASS",
+        "generic_agent_substitution": "PASS",
+        "legal_payment_compliance": "PARTIAL_PASS_SUBJECT_TO_TRANSFER_AND_RESTORATION_OBLIGATIONS",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "Lease ends 2027-07-19, leaving well under 24 months.",
+        "Current rent is already paid through 2026-10-19.",
+        "The unit has a wall-opening/restoration issue that adds owner work rather than improving the cashflow gate."
+      ],
+      "verdict": "DEMOTED_CURRENT_CHENGDU_AIMING_RMB395000_SHOP_HAS_EXACT_RMB1600_MONTH_RENT_AND_BUYER_SUCCESSION_BUT_LEASE_END_2027_07_19_AND_CURRENT_PREPAYMENT_FAIL_DURABLE_RECEIPT_GATE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_135-F4",
+      "title": "CURRENT_SHENZHEN_HUANANCHENG_LONG_LEASE_SUCCESSION_WITH_ATTACHMENT_ONLY_RENT",
+      "chinese_title": "深圳华南城28.001859万元变卖 → 冼水坚租到2030-11-14 → 买受人承继租约但租金金额只在附件",
+      "evidence_class": "CURRENT_LOW_PRICE_SINGLE_ASSET_WITH_LONG_LEASE_NAMED_TENANT_AND_EXPLICIT_POST_TRANSFER_PAYMENT_RIGHT_BUT_ATTACHMENT_ONLY_RECEIPT_QUANTUM",
+      "evidence_summary": "A current Shenzhen Futian District People's Court change-sale for one 50.84 sqm unit in Huanan International Leather Goods Raw Material Logistics Area Phase II began 2026-09-01 and remains active in the 60-day period at RMB 280,018.59. Tenant Xian Shuijian has a six-year lease from 2024-11-15 through 2030-11-14. The court notice explicitly states the buyer succeeds to the lease and the tenant pays rent directly to the buyer after the judicial sale ruling/ownership transfer. However, the exact rent amount, payment method and deposit are only in the attached lease and are not exposed in the retrieved public page. Therefore receipt-to-entry economics cannot be computed under Scan 135's public-bound full-tuple rule.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_280018_59_CURRENT_CHANGE_SALE_FLOOR",
+        "contracted_receipt_amount": "NOT_PUBLIC_IN_RETRIEVED_PAGE_ATTACHMENT_ONLY",
+        "buyer_receipt_start": "POST_JUDICIAL_SALE_RULING_OR_OWNERSHIP_TRANSFER_TENANT_PAYS_BUYER_DIRECTLY",
+        "buyer_receipt_end": "LEASE_END_2030-11-14",
+        "counterparty": "XIAN_SHUIJIAN_EXISTING_TENANT",
+        "post_transfer_receipt_right": "PASS_EXPLICIT_BUYER_LEASE_SUCCESSION_AND_DIRECT_TENANT_PAYMENT_AFTER_TRANSFER",
+        "unprepaid_receipt_status": "UNKNOWN_EXACT_PAYMENT_LEDGER_NOT_PUBLIC",
+        "low_recurring_human_delivery": "PARTIAL_PASS_NORMAL_LANDLORD_ADMINISTRATION_WITH_DISCLOSED_PROPERTY_ARREARS",
+        "receipt_to_entry_economics": "UNKNOWN_EXACT_RENT_AMOUNT_IS_ATTACHMENT_ONLY"
+      },
+      "attraction_brief": {
+        "a_side": "A current low-price single commercial unit has an exact RMB 280,018.59 floor.",
+        "a_side_evidence": "Current 60-day change-sale status, exact unit and floor are public.",
+        "b_side": "Named tenant has a lease through 2030-11-14 with explicit post-transfer direct payment to buyer.",
+        "b_side_evidence": "Court notice exposes tenant identity, term and succession mechanics.",
+        "operator": "Lease succession is landlord-light in principle.",
+        "operator_non_labor_test": "PARTIAL_PASS",
+        "connection_wow": "This is structurally close to F1 but fails the exact public receipt-amount field.",
+        "activation_friction": "PASS_CURRENT_CHANGE_SALE_RAIL",
+        "self_propulsion": "PARTIAL_LONG_LEASE_AND_PAYMENT_RIGHT_BUT_AMOUNT_UNKNOWN",
+        "a_discoverability": "PASS",
+        "b_discoverability": "PARTIAL_RECEIPT_QUANTUM_ATTACHMENT_ONLY",
+        "match_resolvability": "FAIL_PUBLIC_FULL_ECONOMIC_TUPLE",
+        "action_gate": "FAIL_RECEIPT_TO_ENTRY_ECONOMICS_CANNOT_BE_COMPUTED",
+        "router_distinctiveness": "PASS",
+        "generic_agent_substitution": "PASS",
+        "legal_payment_compliance": "PARTIAL_PASS_SUBJECT_TO_TRANSFER_AND_ARREARS",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "The public page states rent amount/payment method are in the lease attachment, but does not expose those values.",
+        "Without exact rent amount, gross receipt-to-entry economics cannot be computed.",
+        "Property management arrears are disclosed and other charges remain buyer diligence items."
+      ],
+      "verdict": "DEMOTED_CURRENT_SHENZHEN_RMB280018_59_HUANANCHENG_UNIT_HAS_NAMED_TENANT_LONG_LEASE_AND_EXPLICIT_BUYER_SUCCESSION_BUT_EXACT_RENT_IS_ATTACHMENT_ONLY_SO_FULL_ECONOMIC_TUPLE_FAILS"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_CHENGDU_QINGNIAN_ROAD_UNITS_79_80",
+      "reason": "Current second-auction source shows a lease through 2031 and buyer post-auction rent rights, but the retrieved current floor is redacted and rent is described only as market-rate/consult tenant; full tuple fails before economics."
+    },
+    {
+      "observation": "SCAN134_ZHONGSHAN_XIAN_CHONGQING_XUZHOU_PV",
+      "reason": "Already consumed by Scan 134 and excluded by no-reuse boundary."
+    }
+  ],
+  "drift_audit": {
+    "primary_domain_is_china": true,
+    "single_asset_or_economically_separable_entry_required": true,
+    "exact_asset_receipt_amount_required": true,
+    "unprepaid_future_buyer_receipts_required": true,
+    "automatic_post_transfer_contract_continuity_required": true,
+    "minimum_24_month_source_bound_receipt_coverage_required": true,
+    "receipt_to_entry_economics_front_loaded": true,
+    "attachment_only_values_are_unknown_not_pass": true,
+    "research_retention_is_not_commercial_promotion": true,
+    "retained_unknowns_must_be_bounded_and_falsifiable": true,
+    "no_bid_deposit_or_purchase_authority": true,
+    "low_recurring_human_delivery_independent_gate": true,
+    "scan060_to_134_formation_fallback_forbidden": true,
+    "gate_relaxation": false
+  },
+  "commercial_outcome": {
+    "retained_count": 1,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Scan 135 found the first fresh single-asset formation in the current durable-receipt sequence that clears public price, exact rent, explicit buyer receipt succession, more than 24 months of remaining term and a non-obviously-disqualifying gross yield: Chengdu Guanghua Li unit -115 at RMB650,304 with RMB3,000/month rent through 2030-11-20. It is retained for cheap diligence only, not commercially promoted, because tenant identity, current rent ledger/prepayment status, deposit, arrears, taxes/transfer costs, title closing and physical inspection remain unresolved. Three comparator formations are authoritatively demoted."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_136",
+  "next_search_boundary": "SCAN135_F1_FIRST_OBTAIN_WRITTEN_SOURCE_BOUND_LEASE_LEDGER_TENANT_DEPOSIT_PREPAYMENT_ARREARS_TAX_TITLE_AND_TRANSFER_FIELDS;_ONLY_AFTER_F1_IS_RESOLVED_START_SCAN136_FRESH_SINGLE_ASSET_SEARCH_NO_SCAN060_TO_135_REUSE_NO_GATE_RELAXATION",
+  "next_action": "FREEZE_SCAN135_HEAD_OPEN_ONE_PR_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_INPUT_SCAN_ID_ATTRACTION_SCAN_135_ENTITY_COUNT_4_F2_F3_F4_AUTHORITATIVE_CLOSURES_F1_NON_AUTHORITATIVE_RETAINED_RESEARCH_ONLY_THEN_CONSUME_ACTUAL_JEV_ROUTE_WITHOUT_COMMERCIAL_PROMOTION",
+  "scan_learnings": [
+    "A_CURRENT_SINGLE_ASSET_CAN_CLEAR_EXACT_PRICE_EXACT_RENT_LONG_TERM_AND_POST_TRANSFER_RECEIPT_SUCCESSION_WITHOUT_BEING_AN_INSEPARABLE_BUNDLE.",
+    "RMB3000_MONTH_ON_RMB650304_IMPLIES_APPROX_5_54_PERCENT_GROSS_ANNUAL_YIELD_BEFORE_COSTS_AND_IS_NOT_OBVIOUSLY_DISQUALIFYING_AT_THE_RESEARCH_GATE.",
+    "PUBLIC_POST_AUCTION_RENT_ENTITLEMENT_DOES_NOT_CLOSE_CURRENT_LEDGER_PREPAYMENT_DEPOSIT_ARREARS_TAX_TITLE_OR_INSPECTION_DILIGENCE.",
+    "HIGHER_SURFACE_YIELD_DOES_NOT_OVERRIDE_A_PREPAID_OR_SUB_24_MONTH_RECEIPT_WINDOW.",
+    "LONG_LEASE_SUCCESSION_WITH_ATTACHMENT_ONLY_RENT_REMAINS_UNKNOWN_NOT_PASS.",
+    "RETAINED_FOR_RESEARCH_IS_NOT_COMMERCIAL_PROMOTION_AND_GRANTS_NO_BID_DEPOSIT_OR_PURCHASE_AUTHORITY."
+  ],
+  "source_urls": [
+    "https://m.fang.com/fapai/cd/out_12665315.html",
+    "https://www.sohu.com/a/1077804997_122455197",
+    "https://www.sohu.com/a/1077514819_122455197",
+    "https://m.fang.com/fapai/sz/out_12608258.html"
+  ]
+}
