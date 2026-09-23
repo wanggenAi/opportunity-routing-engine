@@ -1,0 +1,83 @@
+{
+  "scan_id": "ATTRACTION_SCAN_149",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "c9e364c294af847095842dc0520234376689fc86",
+  "research_method": "BROAD_CURRENT_REALITY_CROSS_DOMAIN_CONTROL_SURFACE_COMPARISON",
+  "sources": {
+    "EVENT-CANTON-INTERPRET-202609": {
+      "source_class": "CURRENT_OFFICIAL_EXHIBITION_INTERPRETATION_SERVICE",
+      "url": "https://www.cantonfair.org.cn/en-US/pages/802506534755274752",
+      "date": "2026-09",
+      "claim": "The Canton Fair directly provides booth and escort interpretation inside the complex, publishes per-day rates by language, accepts reservations and onsite payment, so the event organizer already owns a callable buyer-to-interpreter transaction surface."
+    },
+    "EVENT-GOSTAFF-202609": {
+      "source_class": "CURRENT_CHINA_EVENT_STAFFING_OPERATOR",
+      "url": "https://gostaffchina.com/",
+      "date": "2026-09",
+      "claim": "GoStaff China serves international exhibitors across China with bilingual event staff and interpreters through brief intake, budget confirmation, staff selection, preparation, event support and follow-up."
+    },
+    "WEB-APPINCHINA-202609": {
+      "source_class": "CURRENT_MAINLAND_CHINA_REAL_NETWORK_TESTING_TOOL",
+      "url": "https://web-tester-new.appinchina.co/methodology",
+      "date": "2026-09",
+      "claim": "AppInChina runs website reachability and performance checks on real infrastructure inside mainland China, covering DNS, HTTP connectivity, network diagnostics and browser rendering, and returns actionable results."
+    },
+    "WEB-CLOUDFLARE-CN-20260430": {
+      "source_class": "CURRENT_MAINLAND_CHINA_NETWORK_INFRASTRUCTURE",
+      "url": "https://developers.cloudflare.com/china-network/",
+      "date": "2026-04-30",
+      "claim": "Cloudflare documents that mainland delivery requires in-country infrastructure and operates a China Network with JD Cloud across populated regions, showing both the recurring cross-border performance problem and an incumbent control surface."
+    },
+    "FIELDWORK-JINSHENG-202609": {
+      "source_class": "CURRENT_CHINA_FIELDWORK_OPERATOR_FOR_OVERSEAS_RESEARCH",
+      "url": "https://jinshengsurveys.com/en",
+      "date": "2026-09",
+      "claim": "Jinsheng Panel Data explicitly serves overseas research agencies, consulting firms, brand teams and international sample platforms with China respondent reach, launch, quota coordination, quality review and delivery."
+    },
+    "FIELDWORK-CEIDEA-202607": {
+      "source_class": "CURRENT_NATIONWIDE_CHINA_PANEL_AND_FIELDWORK_NETWORK",
+      "url": "https://www.ceidea.com/",
+      "date": "2026-07-13",
+      "claim": "CEIDEA advertises a one-million-person profiled consumer panel and a nationwide network of 4,300 field interviewers working with overseas partners for controlled China data collection."
+    },
+    "RETURNS-GACC-20260312": {
+      "source_class": "CURRENT_NATIONAL_CROSS_BORDER_ECOMMERCE_RETURN_RULE",
+      "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2026/art_3db24e4b76784738a17196c585795546.html",
+      "date": "2026-03-12",
+      "claim": "GACC's 2026 nationwide 9610 cross-customs return rule allows different return ports but requires returned goods to enter customs-supervised operating sites with dedicated functional areas and systems/data connected to customs."
+    },
+    "RETURNS-CHINAPOST-20260723": {
+      "source_class": "CURRENT_OPERATIONAL_9610_RETURN_CHANNEL",
+      "url": "https://english.chinapost.com.cn/en/report/2608/1385-1.htm",
+      "date": "2026-07-23",
+      "claim": "China Post Shandong completed a full 9610 cross-customs return channel with AliExpress, customs and local government, covering declaration, clearance and multimodal logistics; it reports 272 returned parcels in the tested flow and estimated logistics-cost reduction above 30 percent."
+    },
+    "SAMPLE-SGS-MANAGEMENT-202609": {
+      "source_class": "CURRENT_GLOBAL_SAMPLE_MANAGEMENT_NETWORK",
+      "url": "https://www.sgsgroup.com.cn/en-cn/service-groups/sample-management-services",
+      "date": "2026-09",
+      "claim": "SGS China offers a global one-stop sample handling and distribution system including sample warehousing, strategically located distribution centers and sample-service satellites."
+    },
+    "SAMPLE-SGS-TESTING-202609": {
+      "source_class": "CURRENT_ACCREDITED_TESTING_CONTROL_SURFACE",
+      "url": "https://www.sgsgroup.com.cn/en-cn/our-services/testing",
+      "date": "2026-09",
+      "claim": "SGS China provides independent laboratory testing and quality assessment across industries under a globally recognized testing, inspection and certification organization, making technical acceptance specialist-controlled rather than a light generic routing problem."
+    }
+  },
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_149-F1",
+    "ATTRACTION_SCAN_149-F2",
+    "ATTRACTION_SCAN_149-F3",
+    "ATTRACTION_SCAN_149-F4",
+    "ATTRACTION_SCAN_149-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "conclusion": "Five recurring fields were evidenced, but each decisive bridge is already owned by current organizer/provider/infrastructure/regulatory control surfaces; no distinct unowned light router is evidenced.",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN150_IF_NO_REVERSIBLE_ROUTE"
+}

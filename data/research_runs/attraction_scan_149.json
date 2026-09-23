@@ -1,0 +1,885 @@
+{
+  "scan_id": "ATTRACTION_SCAN_149",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_REDERIVATION_AFTER_SCAN148_FINAL_ALL_ROUTES_CLOSED",
+  "source_main_sha": "c9e364c294af847095842dc0520234376689fc86",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_148",
+    "prior_pr": 460,
+    "prior_merged_main_sha": "c9e364c294af847095842dc0520234376689fc86",
+    "prior_final_exact_head": "dd974d74129acf8f3b2843b31e42664955fb4361",
+    "prior_repository_ci_run_id": 35876703035,
+    "prior_live_jev_run_id": 35876703208,
+    "prior_live_jev_artifact_id": 10757812412,
+    "prior_live_jev_artifact_digest": "sha256:6ed30a691b559770914c5bfe387e4a76ec1b535306321849de601e9f2f974b3d",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scan148_cross_border_local_execution_not_inherited": true
+  },
+  "broad_reality_domains_examined": [
+    "EXHIBITION_TEMPORARY_LANGUAGE_AND_EVENT_STAFFING",
+    "MAINLAND_CHINA_WEB_REACHABILITY_TESTING",
+    "CHINA_MARKET_RESEARCH_FIELDWORK",
+    "CROSS_BORDER_ECOMMERCE_RETURN_EXECUTION",
+    "SAMPLE_MANAGEMENT_AND_LAB_TESTING"
+  ],
+  "source_registry": {
+    "EVENT-CANTON-INTERPRET-202609": {
+      "source_class": "CURRENT_OFFICIAL_EXHIBITION_INTERPRETATION_SERVICE",
+      "url": "https://www.cantonfair.org.cn/en-US/pages/802506534755274752",
+      "date": "2026-09",
+      "claim": "The Canton Fair directly provides booth and escort interpretation inside the complex, publishes per-day rates by language, accepts reservations and onsite payment, so the event organizer already owns a callable buyer-to-interpreter transaction surface."
+    },
+    "EVENT-GOSTAFF-202609": {
+      "source_class": "CURRENT_CHINA_EVENT_STAFFING_OPERATOR",
+      "url": "https://gostaffchina.com/",
+      "date": "2026-09",
+      "claim": "GoStaff China serves international exhibitors across China with bilingual event staff and interpreters through brief intake, budget confirmation, staff selection, preparation, event support and follow-up."
+    },
+    "WEB-APPINCHINA-202609": {
+      "source_class": "CURRENT_MAINLAND_CHINA_REAL_NETWORK_TESTING_TOOL",
+      "url": "https://web-tester-new.appinchina.co/methodology",
+      "date": "2026-09",
+      "claim": "AppInChina runs website reachability and performance checks on real infrastructure inside mainland China, covering DNS, HTTP connectivity, network diagnostics and browser rendering, and returns actionable results."
+    },
+    "WEB-CLOUDFLARE-CN-20260430": {
+      "source_class": "CURRENT_MAINLAND_CHINA_NETWORK_INFRASTRUCTURE",
+      "url": "https://developers.cloudflare.com/china-network/",
+      "date": "2026-04-30",
+      "claim": "Cloudflare documents that mainland delivery requires in-country infrastructure and operates a China Network with JD Cloud across populated regions, showing both the recurring cross-border performance problem and an incumbent control surface."
+    },
+    "FIELDWORK-JINSHENG-202609": {
+      "source_class": "CURRENT_CHINA_FIELDWORK_OPERATOR_FOR_OVERSEAS_RESEARCH",
+      "url": "https://jinshengsurveys.com/en",
+      "date": "2026-09",
+      "claim": "Jinsheng Panel Data explicitly serves overseas research agencies, consulting firms, brand teams and international sample platforms with China respondent reach, launch, quota coordination, quality review and delivery."
+    },
+    "FIELDWORK-CEIDEA-202607": {
+      "source_class": "CURRENT_NATIONWIDE_CHINA_PANEL_AND_FIELDWORK_NETWORK",
+      "url": "https://www.ceidea.com/",
+      "date": "2026-07-13",
+      "claim": "CEIDEA advertises a one-million-person profiled consumer panel and a nationwide network of 4,300 field interviewers working with overseas partners for controlled China data collection."
+    },
+    "RETURNS-GACC-20260312": {
+      "source_class": "CURRENT_NATIONAL_CROSS_BORDER_ECOMMERCE_RETURN_RULE",
+      "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2026/art_3db24e4b76784738a17196c585795546.html",
+      "date": "2026-03-12",
+      "claim": "GACC's 2026 nationwide 9610 cross-customs return rule allows different return ports but requires returned goods to enter customs-supervised operating sites with dedicated functional areas and systems/data connected to customs."
+    },
+    "RETURNS-CHINAPOST-20260723": {
+      "source_class": "CURRENT_OPERATIONAL_9610_RETURN_CHANNEL",
+      "url": "https://english.chinapost.com.cn/en/report/2608/1385-1.htm",
+      "date": "2026-07-23",
+      "claim": "China Post Shandong completed a full 9610 cross-customs return channel with AliExpress, customs and local government, covering declaration, clearance and multimodal logistics; it reports 272 returned parcels in the tested flow and estimated logistics-cost reduction above 30 percent."
+    },
+    "SAMPLE-SGS-MANAGEMENT-202609": {
+      "source_class": "CURRENT_GLOBAL_SAMPLE_MANAGEMENT_NETWORK",
+      "url": "https://www.sgsgroup.com.cn/en-cn/service-groups/sample-management-services",
+      "date": "2026-09",
+      "claim": "SGS China offers a global one-stop sample handling and distribution system including sample warehousing, strategically located distribution centers and sample-service satellites."
+    },
+    "SAMPLE-SGS-TESTING-202609": {
+      "source_class": "CURRENT_ACCREDITED_TESTING_CONTROL_SURFACE",
+      "url": "https://www.sgsgroup.com.cn/en-cn/our-services/testing",
+      "date": "2026-09",
+      "claim": "SGS China provides independent laboratory testing and quality assessment across industries under a globally recognized testing, inspection and certification organization, making technical acceptance specialist-controlled rather than a light generic routing problem."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_149-F1",
+      "title": "Overseas exhibitors and buyers needing temporary language/support capacity -> local bilingual exhibition staff and interpreters",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Major China fairs create recurring deadline-bound language/support demand, but both the organizer and specialist staffing operators already own brief intake, price/booking, staff selection, access preparation and onsite delivery.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "b_voluntary_motion": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "state_dependent_value_jump": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "decision_window": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "bridge_compression": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "activation_ease": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "self_propulsion": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "operator_control": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "a_discoverability": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "b_discoverability": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "match_resolvability": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "action_gate_callability": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "a_population_replenishment": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "b_population_replenishment": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "recurring_connection_pressure": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "recurring_missing_edge": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ],
+          "recurring_event_source": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EVENT-CANTON-INTERPRET-202609",
+            "EVENT-GOSTAFF-202609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "EVENT-CANTON-INTERPRET-202609",
+          "EVENT-GOSTAFF-202609"
+        ]
+      },
+      "verdict": "DEMOTED_EXHIBITION_TEMP_STAFF_FIELD_REAL_BUT_OFFICIAL_FAIR_SERVICE_AND_EVENT_STAFFING_OPERATORS_ALREADY_OWN_BOOKING_SELECTION_PRICING_ACCESS_AND_ONSITE_DELIVERY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_149-F2",
+      "title": "Foreign websites and apps needing mainland-China reachability evidence -> real in-China network testing infrastructure",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Cross-border internet conditions create recurring uncertainty, but current products already run DNS, HTTP, network and browser tests from real mainland infrastructure and incumbent China-network providers control delivery infrastructure.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 2,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "b_voluntary_motion": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "state_dependent_value_jump": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "decision_window": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "bridge_compression": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "activation_ease": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "self_propulsion": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "operator_control": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "a_discoverability": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "b_discoverability": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "match_resolvability": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "action_gate_callability": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "a_population_replenishment": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "b_population_replenishment": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "recurring_connection_pressure": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "recurring_missing_edge": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ],
+          "recurring_event_source": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WEB-APPINCHINA-202609",
+            "WEB-CLOUDFLARE-CN-20260430"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "WEB-APPINCHINA-202609",
+          "WEB-CLOUDFLARE-CN-20260430"
+        ]
+      },
+      "verdict": "DEMOTED_MAINLAND_WEB_REACHABILITY_FIELD_REAL_BUT_CURRENT_REAL_NODE_TESTERS_AND_CHINA_NETWORK_INFRASTRUCTURE_ALREADY_OWN_MEASUREMENT_DIAGNOSIS_AND_DELIVERY_CONTROL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_149-F3",
+      "title": "Overseas research teams needing China respondents and fieldwork -> established national panels and interviewer networks",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "International teams repeatedly need China-local respondents and field execution, but current operators already expose respondent recruitment, quota control, fieldwork coordination, quality review and nationwide interviewer networks.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "b_voluntary_motion": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "state_dependent_value_jump": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "decision_window": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "bridge_compression": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "activation_ease": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "self_propulsion": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "operator_control": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "a_discoverability": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "b_discoverability": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "match_resolvability": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "action_gate_callability": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "a_population_replenishment": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "b_population_replenishment": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "recurring_connection_pressure": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "recurring_missing_edge": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ],
+          "recurring_event_source": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FIELDWORK-JINSHENG-202609",
+            "FIELDWORK-CEIDEA-202607"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "FIELDWORK-JINSHENG-202609",
+          "FIELDWORK-CEIDEA-202607"
+        ]
+      },
+      "verdict": "DEMOTED_CHINA_RESEARCH_FIELDWORK_FIELD_REAL_BUT_EXISTING_PANEL_AND_FIELDWORK_NETWORKS_ALREADY_OWN_RECRUITMENT_QUOTA_EXECUTION_QUALITY_AND_DELIVERY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_149-F4",
+      "title": "Cross-border ecommerce exporters with overseas returns -> customs-supervised return sites and integrated reverse-logistics operators",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Returns are a recurring and costly cross-border flow, but the 2026 9610 framework requires customs-supervised sites and system integration, while China Post and platform/customs partners already operate declaration, clearance and logistics execution.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 1,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "b_voluntary_motion": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "state_dependent_value_jump": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "decision_window": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "bridge_compression": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "activation_ease": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "self_propulsion": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "operator_control": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "a_discoverability": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "b_discoverability": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "match_resolvability": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "action_gate_callability": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "a_population_replenishment": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "b_population_replenishment": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "recurring_connection_pressure": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "recurring_missing_edge": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ],
+          "recurring_event_source": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RETURNS-GACC-20260312",
+            "RETURNS-CHINAPOST-20260723"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "RETURNS-GACC-20260312",
+          "RETURNS-CHINAPOST-20260723"
+        ]
+      },
+      "verdict": "DEMOTED_CROSS_BORDER_RETURN_FIELD_REAL_BUT_CUSTOMS_SUPERVISION_SYSTEM_INTEGRATION_AND_OPERATIONAL_LOGISTICS_RAILS_CONTROL_ACCEPTANCE_AND_EXECUTION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_149-F5",
+      "title": "Companies needing product or material sample handling and test evidence -> accredited sample-management and testing networks",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Samples recur before procurement and technical decisions, but current specialist networks already own warehousing, distribution, chain-of-custody handling, laboratory methods and recognized quality evidence; acceptance is not a light generic routing function.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "b_voluntary_motion": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "state_dependent_value_jump": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "decision_window": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "bridge_compression": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "activation_ease": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "self_propulsion": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "operator_control": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "a_discoverability": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "b_discoverability": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "match_resolvability": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "action_gate_callability": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "a_population_replenishment": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "b_population_replenishment": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "recurring_connection_pressure": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "recurring_missing_edge": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ],
+          "recurring_event_source": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SAMPLE-SGS-MANAGEMENT-202609",
+            "SAMPLE-SGS-TESTING-202609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "SAMPLE-SGS-MANAGEMENT-202609",
+          "SAMPLE-SGS-TESTING-202609"
+        ]
+      },
+      "verdict": "DEMOTED_SAMPLE_HANDLING_AND_TESTING_FIELD_REAL_BUT_GLOBAL_SAMPLE_NETWORKS_AND_ACCREDITED_LABS_ALREADY_OWN_CUSTODY_TEST_METHODS_QUALITY_AND_ACCEPTANCE"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "All five fresh current-reality fields are closed at the attraction layer because exact organizer/provider/infrastructure/regulatory control surfaces already own the decisive route, execution or acceptance boundary."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_150",
+  "next_search_boundary": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN149_THEN_ADVANCE_TO_FRESH_BROAD_REALITY_WITHOUT_RESCUING_THESE_FIELDS",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN150_IF_EFFECTIVE_ROUTES_ARE_NO_FURTHER_RESEARCH",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scan148_cross_border_local_execution_not_used_as_prior": true,
+    "incumbent_presence_evaluated_before_retention": true,
+    "platform_control_not_mistaken_for_market_gap": true,
+    "specialist_or_regulated_acceptance_not_mistaken_for_light_routing": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "PUBLIC_EVENT_DEMAND_CAN_BE_REAL_WHILE_THE_ORGANIZER_ALREADY_OWNS_BOOKING_AND_ACCESS.",
+    "LOCAL_NETWORK_MEASUREMENT_IS_NOT_AN_UNOWNED_EDGE_WHEN_REAL_MAINLAND_TEST_INFRASTRUCTURE_IS_ALREADY_CALLABLE.",
+    "RESPONDENT_RECRUITMENT_AND_FIELDWORK_QUALITY_ARE_CONTROL_SURFACES_NOT_JUST_DISCOVERY.",
+    "REGULATED_RETURN_FLOWS_CANNOT_BE_REDUCED_TO_LIGHT_MATCHING_WHEN_SUPERVISED_SITES_AND_SYSTEM_INTEGRATION_ARE_MANDATORY.",
+    "SAMPLE_CUSTODY_AND_TECHNICAL_ACCEPTANCE_REMAIN_SPECIALIST_NETWORK_FUNCTIONS."
+  ],
+  "source_urls": [
+    "https://www.cantonfair.org.cn/en-US/pages/802506534755274752",
+    "https://gostaffchina.com/",
+    "https://web-tester-new.appinchina.co/methodology",
+    "https://developers.cloudflare.com/china-network/",
+    "https://jinshengsurveys.com/en",
+    "https://www.ceidea.com/",
+    "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2026/art_3db24e4b76784738a17196c585795546.html",
+    "https://english.chinapost.com.cn/en/report/2608/1385-1.htm",
+    "https://www.sgsgroup.com.cn/en-cn/service-groups/sample-management-services",
+    "https://www.sgsgroup.com.cn/en-cn/our-services/testing"
+  ]
+}
