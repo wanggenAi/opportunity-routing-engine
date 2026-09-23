@@ -18,7 +18,7 @@
     {
       "formation_id": "ATTRACTION_SCAN_141-F1",
       "title": "MIANYANG_WHOLE_ASSET_PAIR_8_43_PERCENT_SURFACE_GROSS_EXACT_PAID_CURSOR_LEASE_END_DAY_UNBOUND",
-      "state": "RESEARCH_BEACON_NEAR_COMPLETE_24_MONTH_WINDOW_UNBOUND",
+      "state": "RESEARCH_BEACON_PUBLIC_CAUSAL_DESCENT_EXHAUSTED_EXACT_24_MONTH_WINDOW_UNBOUND",
       "commercial_candidate": false,
       "observed_money_motion": [
         "RMB284590 current first-auction floor for combined 7号车库 and 13号房屋.",
@@ -30,12 +30,12 @@
         "FIRST_UNPREPAID_DUE_NODE_NOT_PUBLIC",
         "CASE_SPECIFIC_PREPAID_RENT_ALLOCATION_NOT_PUBLIC"
       ],
-      "next_action": "LIVE_JEV_PUBLIC_RESEARCH_ONLY"
+      "next_action": "BLOCKED_CASE_SPECIFIC_LEASE_OR_RENT_LEDGER_OR_FUTURE_PUBLIC_RECORD"
     },
     {
       "formation_id": "ATTRACTION_SCAN_141-F2",
       "title": "WUHU_B118_6_28_PERCENT_SURFACE_GROSS_LONG_LEASE_PAYMENT_CURSOR_MISSING",
-      "state": "RESEARCH_BEACON_LONG_TERM_PAYMENT_CURSOR_MISSING",
+      "state": "RESEARCH_BEACON_EXACT_INCUMBENT_PREFLIGHT_EXHAUSTED_PAYMENT_CURSOR_UNBOUND",
       "commercial_candidate": false,
       "observed_money_motion": [
         "RMB299200 current first-auction floor.",
@@ -47,7 +47,7 @@
         "FIRST_UNPREPAID_RECEIPT_NOT_PUBLIC",
         "CASE_SPECIFIC_PREPAID_RENT_ALLOCATION_NOT_PUBLIC"
       ],
-      "next_action": "LIVE_JEV_PUBLIC_RESEARCH_ONLY"
+      "next_action": "BLOCKED_CASE_SPECIFIC_LEASE_PAYMENT_LEDGER_OR_FUTURE_PUBLIC_RECORD"
     }
   ],
   "retained_research_formations": [
@@ -87,7 +87,7 @@
         "Exact paid-through date is public.",
         "Lease-end day and first unpaid due date are not public, so 24 months cannot be assumed."
       ],
-      "verdict": "RETAINED_RESEARCH_NEAR_COMPLETE_TUPLE_BLOCKED_ON_EXACT_24_MONTH_WINDOW_AND_PREPAYMENT_ALLOCATION"
+      "verdict": "RETAINED_RESEARCH_PUBLIC_CAUSAL_DESCENT_EXHAUSTED_BLOCKED_ON_EXACT_LEASE_END_FIRST_UNPREPAID_DUE_AND_PREPAYMENT_ALLOCATION"
     },
     {
       "formation_id": "ATTRACTION_SCAN_141-F2",
@@ -109,7 +109,7 @@
         "Annual settlement does not reveal what has already been paid.",
         "No payment cursor means no source-bound first buyer receipt."
       ],
-      "verdict": "RETAINED_RESEARCH_LONG_LEASE_COMPUTABLE_SURFACE_GROSS_BUT_PAYMENT_CURSOR_UNKNOWN"
+      "verdict": "RETAINED_RESEARCH_EXACT_INCUMBENT_PREFLIGHT_EXHAUSTED_BLOCKED_ON_PAYMENT_CURSOR_AND_CASE_SPECIFIC_LEDGER"
     },
     {
       "formation_id": "ATTRACTION_SCAN_141-F3",
@@ -195,13 +195,16 @@
   },
   "first_external_value_flow": "NOT_PROVEN",
   "next_scan_id": "ATTRACTION_SCAN_142",
-  "next_search_boundary": "SCAN141_REQUIRE_EXACT_HEAD_CI_AND_LIVE_JEV_THEN_CONSUME_REVERSIBLE_PUBLIC_F1_F2_ROUTES",
-  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_ON_ATTRACTION_SCAN_141",
+  "next_search_boundary": "SCAN141_ROUTE_CONSUMPTION_HEAD_EXACT_CI_AND_LIVE_JEV_REVALIDATION_THEN_IF_ROUTE_CLASSES_REPEAT_ADVANCE_SCAN142",
+  "next_action": "FREEZE_ROUTE_CONSUMPTION_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV",
   "scan_learnings": [
     "EXACT_PAID_CURSOR_PLUS_ATTRACTIVE_GROSS_STILL_NEEDS_EXACT_24_MONTH_END_DAY.",
     "LONG_LEASE_AND_RENT_WITHOUT_PAYMENT_CURSOR_DOES_NOT_BIND_BUYER_CASHFLOW_START.",
     "EXPLICIT_UNPAID_YEARS_CAN_STILL_BE_ECONOMICALLY_WEAK.",
-    "EXPLICIT_BUYER_RENT_START_WITHOUT_CURRENT_ENTRY_PRICE_CANNOT_FORM_CURRENT_ECONOMICS."
+    "EXPLICIT_BUYER_RENT_START_WITHOUT_CURRENT_ENTRY_PRICE_CANNOT_FORM_CURRENT_ECONOMICS.",
+    "MONTH_PRECISION_LEASE_END_MUST_NOT_BE_NORMALIZED_TO_A_DAY_TO_CREATE_24_MONTH_COVERAGE.",
+    "A_LATER_CURRENT_NOTICE_MAY_ADD_LEASE_FACTS_MISSING_FROM_AN_EARLIER_SAME_CASE_MIRROR_BUT_NEITHER_OMISSION_NOR_ANNUAL_SETTLEMENT_BINDS_A_PAYMENT_CURSOR.",
+    "EXACT_INCUMBENT_PREFLIGHT_WITHOUT_CASE_SPECIFIC_PAYMENT_STATUS_CANNOT_CREATE_A_FIRST_BUYER_RECEIPT."
   ],
   "source_urls": [
     "https://m.fang.com/fapai/mianyang/out_12722428.html",
@@ -210,5 +213,33 @@
     "https://www.bidcenter.com.cn/news-443859008-9.html",
     "https://m.fang.com/fapai/cd/out_12712276.html",
     "https://www.court.gov.cn/zixun/xiangqing/455991.html"
-  ]
+  ],
+  "jev_route_consumption": {
+    "source_exact_head": "f013e028594b54dead62cb272c724fd595636a55",
+    "repository_ci_run_id": 35847088351,
+    "jev_run_id": 35847088348,
+    "jev_artifact_id": 10743748656,
+    "jev_artifact_digest": "sha256:6c2277721a459b1b22a7b71ee656e227d636fe4d476baf8997f254740b75a5a1",
+    "served_model": "jev-1.13.0",
+    "routes": {
+      "ATTRACTION_SCAN_141-F1": "CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_141-F2": "EXACT_INCUMBENT_PREFLIGHT",
+      "ATTRACTION_SCAN_141-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_141-F4": "NO_FURTHER_RESEARCH"
+    },
+    "state_fingerprints": {
+      "ATTRACTION_SCAN_141-F1": "049584a3f275632edd7a",
+      "ATTRACTION_SCAN_141-F2": "8910eb5483f73fd726d5",
+      "ATTRACTION_SCAN_141-F3": "60fd18d1be26e68aec93",
+      "ATTRACTION_SCAN_141-F4": "90c6018d072f9a498d0a"
+    },
+    "consumed_routes": [
+      "ATTRACTION_SCAN_141-F1:CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_141-F2:EXACT_INCUMBENT_PREFLIGHT"
+    ],
+    "public_research_resolution": "F1_AND_F2_PUBLIC_ROUTES_EXHAUSTED_AT_CASE_SPECIFIC_LEASE_OR_PAYMENT_LEDGER_BOUNDARY",
+    "evidence_artifact": "data/research_runs/scan141_f1_f2_route_consumption_evidence.json",
+    "report": "docs/research/SCAN141_F1_F2_ROUTE_CONSUMPTION_2026-09-23.md",
+    "final_exact_head_revalidation": "PENDING"
+  }
 }
