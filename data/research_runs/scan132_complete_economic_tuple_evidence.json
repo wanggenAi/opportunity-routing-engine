@@ -1,0 +1,71 @@
+{
+  "schema_version": "research-evidence.v1",
+  "scan_id": "ATTRACTION_SCAN_132",
+  "as_of_date": "2026-09-23",
+  "primary_research_domain": "CHINA",
+  "evidence_packets": [
+    {
+      "formation_id": "ATTRACTION_SCAN_132-F1",
+      "sources": [
+        {
+          "source_id": "F1-S1",
+          "title": "Hangzhou Property Exchange - Sanli Xincheng Guiyuan Building 1 Room 17 transfer",
+          "url": "https://www.chanjs.com/project/subject/subject_H@Z00008d74b02.html",
+          "role": "SMALL_TICKET_LONG_TERM_LEASE_SUCCESSION_WITH_HIDDEN_RENT_QUANTUM"
+        }
+      ],
+      "closure": "Price, multi-year term and lease succession are explicit, but the public page does not expose contracted rent amount; complete public economic tuple fails."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_132-F2",
+      "sources": [
+        {
+          "source_id": "F2-S1",
+          "title": "JD asset auction snapshot - Xiamen Yuanbo Erli 3-403 plus B329 parking",
+          "url": "https://paimai.jd.com/snapshotdetail/1837740",
+          "role": "EXPLICIT_PRICE_RENT_TERM_AND_POST_TRANSFER_COLLECTION_START"
+        }
+      ],
+      "closure": "The full rent tuple is visible, but buyer collection starts December 2026 and inherited lease ends April 2027; short remaining coverage and weak normalized economics fail."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_132-F3",
+      "sources": [
+        {
+          "source_id": "F3-S1",
+          "title": "Jilin Public Resources - auction of 39 Shuangliao properties",
+          "url": "https://www.jl.gov.cn/ggzy/gycq/gppl/202606/t20260622_9651188.html",
+          "role": "OFFICIAL_SMALL_TICKET_LEASED_ASSETS_WITH_SELLER_RESERVED_RENT_RIGHT"
+        }
+      ],
+      "closure": "Small leased assets exist, but official terms explicitly reserve all rent during surviving leases to the seller, so buyer cashflow right fails."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_132-F4",
+      "sources": [
+        {
+          "source_id": "F4-S1",
+          "title": "Beihua University campus vending-machine site right DC004",
+          "url": "https://paimai.jd.com/snapshotdetail/1868482",
+          "role": "CURRENT_MACHINE_SERVABLE_SITE_RIGHT_WITH_COST_TERM_AND_RECURRING_LABOR_DISCLOSURE"
+        }
+      ],
+      "closure": "Machine-served site control is explicit, but annual rent is operator cost, no end-user receipts are contracted, and recurring physical operations are mandatory."
+    }
+  ],
+  "excluded_evidence": [
+    {
+      "source_id": "X1",
+      "title": "JD listing - Nanchang Greenland office marketed with original annual rent",
+      "url": "https://paimai.jd.com/snapshotdetail/1817113",
+      "role": "HISTORICAL_RENT_TITLE_CURRENTLY_VACANT_REGRESSION"
+    },
+    {
+      "source_id": "X2",
+      "title": "Zhejiang University of Finance and Economics retail master lease",
+      "url": "https://www.chanjs.com/project/subject/subject_H@6b09aabb842.html",
+      "role": "EXISTING_TENANTS_BUT_HIGH_COST_HIGH_QUALIFICATION_ACTIVE_MANAGEMENT_DISCONFIRMATION"
+    }
+  ],
+  "scan_conclusion": "SCAN132_COMPLETE_ECONOMIC_TUPLE_PASS_ZERO_RETAINED_ZERO_COMMERCIAL_PROMOTION"
+}

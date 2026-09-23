@@ -1,0 +1,230 @@
+{
+  "schema_version": "attraction-scan.v102",
+  "scan_id": "ATTRACTION_SCAN_132",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "SMALL_OPERATOR_ACQUIRABLE_PHYSICAL_OR_CONTRACT_CONTROL_ASSETS_WITH_COMPLETE_SOURCE_BOUND_ECONOMIC_TUPLE_TRANSFER_PRICE_RECEIPT_AMOUNT_TERM_COUNTERPARTY_POST_TRANSFER_RECEIPT_RIGHTS_AND_LOW_RECURRING_HUMAN_DELIVERY",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "COMPLETE_ECONOMIC_TUPLE_NO_PROPERTY_ONTOLOGY_LOCK_IN_NO_SCAN060_TO_131_REUSE_NO_REGULATED_SECURITIES_NO_GATE_RELAXATION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": false,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_132-F1",
+      "title": "LONG_TERM_SMALL_LEASED_PROPERTY_WITH_POST_TRANSFER_LEASE_CONTINUITY_BUT_HIDDEN_RECEIPT_QUANTUM",
+      "chinese_title": "39.5万元长期带租约房产 → 租约到2031年 → 过户后继续履约但公开页不披露租金",
+      "evidence_class": "CURRENT_SMALL_TICKET_LONG_TERM_CONTRACT_CONTROL_WITH_POST_TRANSFER_SETTLEMENT_BUT_NO_PUBLIC_RECEIPT_AMOUNT",
+      "evidence_summary": "Hangzhou Property Exchange exposes a RMB 395,000 non-residential unit as a leased transfer. The lease runs from 2026-01-09 through 2031-01-08, natural persons may buy, the buyer must continue the existing lease to expiry, and any prepaid rent and performance deposit are to be settled among seller, buyer and tenant. This materially improves on Scan 131's short-term Wuhu example. The public page still withholds the actual rent amount and points bidders to the underlying lease contract, so the source-bound public economic tuple remains incomplete.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_395000_PLUS_2_5_PERCENT_TRANSACTION_SERVICE_FEE_AND_TRANSFER_COSTS",
+        "contracted_receipt_amount": "NOT_PUBLIC_ON_PRIMARY_PAGE_LEASE_CONTRACT_REQUIRED",
+        "contract_term": "2026-01-09_TO_2031-01-08",
+        "counterparty": "EXISTING_TENANT_IDENTIFIED_BY_CONTRACT_BUT_NOT_NAMED_ON_PUBLIC_PAGE",
+        "post_transfer_receipt_right": "PARTIAL_EXPLICIT_CONTINUE_LEASE_AND_SETTLE_PREPAID_RENT_DEPOSIT_BUT_QUANTUM_HIDDEN",
+        "low_recurring_human_delivery": "PASS_NORMAL_LANDLORD_ADMINISTRATION_ONLY_SUBJECT_TO_REPAIR_AND_PROPERTY_OBLIGATIONS"
+      },
+      "attraction_brief": {
+        "a_side": "A current state-owned property exchange exposes a small-ticket long-duration leased asset.",
+        "a_side_evidence": "Transfer floor RMB 395,000; natural-person buyers eligible; lease disclosed through 2031-01-08.",
+        "b_side": "An existing tenant relationship survives transfer.",
+        "b_side_evidence": "Buyer must unconditionally continue the seller's lease and seller settles prepaid rent/deposit after transfer.",
+        "operator": "Ownership and lease administration are structurally low recurring labor relative to an operating business.",
+        "operator_non_labor_test": "PASS_SUBJECT_TO_ORDINARY_LANDLORD_REPAIR_AND_ADMINISTRATION",
+        "connection_wow": "Small entry price, multi-year tenant contract and explicit lease succession coexist in one current public transaction rail.",
+        "activation_friction": "PASS_FOR_TRANSACTION_AND_LEASE_SUCCESSION",
+        "self_propulsion": "PARTIAL_EXISTING_TENANT_CONTRACT_SURVIVES_BUT_RECEIPT_QUANTUM_IS_NOT_PUBLICLY_BOUND",
+        "a_discoverability": "PASS_PUBLIC_PROPERTY_EXCHANGE",
+        "b_discoverability": "PARTIAL_EXISTING_TENANT_IS_PROVEN_BUT_CONTRACTED_PAYMENT_AMOUNT_IS_NOT_PUBLIC",
+        "match_resolvability": "PASS_ASSET_AND_LEASE_TERM",
+        "action_gate": "FAIL_COMPLETE_ECONOMIC_TUPLE_MISSING_CONTRACTED_RECEIPT_AMOUNT",
+        "router_distinctiveness": "PASS_ASSET_PLUS_LONG_TERM_LEASE_CONTROL_IS_NON_GENERIC",
+        "generic_agent_substitution": "PASS_PROPERTY_AND_CONTRACT_RIGHTS_CANNOT_BE_REPLACED_BY_GENERIC_AGENT_AUTOMATION",
+        "legal_payment_compliance": "PASS_DOMESTIC_PROPERTY_EXCHANGE_AND_LEASE_MECHANISM",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "The public transaction page states that rent and performance deposit details are in the lease contract rather than publishing the rent amount.",
+        "Without the contracted receipt amount, current source-bound yield and normalized economics cannot be calculated.",
+        "A long remaining term cannot substitute for the missing receipt quantum."
+      ],
+      "verdict": "DEMOTED_LONG_TERM_SMALL_LEASED_PROPERTY_CLEARS_PRICE_TERM_AND_LEASE_SUCCESSION_BUT_PUBLIC_ECONOMIC_TUPLE_OMITS_CONTRACTED_RECEIPT_AMOUNT"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_132-F2",
+      "title": "EXPLICIT_FULL_RENT_TUPLE_WITH_POST_TRANSFER_COLLECTION_BUT_SHORT_REMAINING_CASHFLOW",
+      "chinese_title": "厦门211.28万元房产+车位 → 3700元/月 → 买方自2026年12月收租 → 2027年4月租约终止",
+      "evidence_class": "RECENT_EXPLICIT_COMPLETE_RENT_TUPLE_WITH_POST_TRANSFER_RIGHTS_BUT_SHORT_REMAINING_TERM_AND_WEAK_NORMALIZED_ECONOMICS",
+      "evidence_summary": "A July/August 2026 Xiamen public auction binds the transfer price, tenant lease, monthly rent and post-transfer collection date in one notice. The property plus parking starts at RMB 2,112,800; the lease runs 2026-04-26 to 2027-04-25 at RMB 3,700/month; prepaid rent belongs to the prior owner through 2026-10-25; the deposit offsets November; and the buyer may collect rent from December 2026. The tuple is unusually complete, but the buyer inherits less than five months of contracted collection before expiry, while the annualized disclosed rent is only RMB 44,400 before taxes, fees, maintenance and vacancy risk.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_2112800_PLUS_2_PERCENT_AUCTION_COMMISSION_PLATFORM_FEE_TAXES_AND_TRANSFER_COSTS",
+        "contracted_receipt_amount": "RMB_3700_PER_MONTH",
+        "contract_term": "2026-04-26_TO_2027-04-25",
+        "counterparty": "EXISTING_TENANT",
+        "post_transfer_receipt_right": "BUYER_STARTS_COLLECTING_RMB_3700_PER_MONTH_FROM_2026-12",
+        "low_recurring_human_delivery": "PASS_DURING_REMAINING_LEASE_SUBJECT_TO_NORMAL_LANDLORD_ADMINISTRATION"
+      },
+      "attraction_brief": {
+        "a_side": "A public auction makes the acquisition price and asset identity explicit.",
+        "a_side_evidence": "RMB 2,112,800 floor price for the specified Xiamen unit plus parking.",
+        "b_side": "The existing tenant pays a source-bound RMB 3,700 monthly rent.",
+        "b_side_evidence": "Auction notice states lease dates, monthly rent, prepaid-rent allocation and exact buyer collection start.",
+        "operator": "During the inherited lease, recurring human delivery is limited to normal landlord obligations.",
+        "operator_non_labor_test": "PASS_DURING_REMAINING_LEASE",
+        "connection_wow": "All six economic tuple fields are substantially visible in one source.",
+        "activation_friction": "PASS_TRANSACTION_RAIL_SUBJECT_TO_XIAMEN_BUYER_ELIGIBILITY",
+        "self_propulsion": "PASS_ONLY_UNTIL_2027-04-25_THEN_NEW_TENANCY_REQUIRED",
+        "a_discoverability": "PASS_PUBLIC_AUCTION",
+        "b_discoverability": "PASS_EXISTING_TENANT_AND_PAYMENT_AMOUNT",
+        "match_resolvability": "PASS",
+        "action_gate": "FAIL_SHORT_REMAINING_RECEIPT_WINDOW_AND_WEAK_NORMALIZED_ECONOMICS_RELATIVE_TO_ACQUISITION_COST",
+        "router_distinctiveness": "PASS_TRANSFERRED_ASSET_PLUS_LEASE_RIGHT_IS_NON_GENERIC",
+        "generic_agent_substitution": "PASS_OWNERSHIP_RIGHT_IS_NOT_GENERIC_AGENT_SUBSTITUTABLE",
+        "legal_payment_compliance": "PASS_DOMESTIC_AUCTION_AND_LEASE_MECHANISM_SUBJECT_TO_LOCAL_PURCHASE_RULES",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "The buyer cannot begin collecting rent until December 2026 while the lease ends 2027-04-25.",
+        "The disclosed monthly rent annualizes to RMB 44,400 before costs against a RMB 2,112,800 starting acquisition price.",
+        "Post-expiry cashflow requires a new tenant or renewed lease and therefore is not source-bound self-propelled continuity."
+      ],
+      "verdict": "DEMOTED_EXPLICIT_COMPLETE_RENT_TUPLE_AND_POST_TRANSFER_COLLECTION_EXIST_BUT_REMAINING_CONTRACTED_RECEIPT_WINDOW_IS_TOO_SHORT_AND_NORMALIZED_ECONOMICS_TOO_WEAK_FOR_CURRENT_COMMERCIAL_PROMOTION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_132-F3",
+      "title": "SMALL_LEASED_PUBLIC_PROPERTIES_WHERE_POST_TRANSFER_RENT_IS_EXPLICITLY_RESERVED_TO_SELLER",
+      "chinese_title": "11.46万至18.26万元级带租约国有房产 → 买卖不破租赁 → 但租期内全部租金仍归卖方",
+      "evidence_class": "CURRENT_OFFICIAL_SMALL_TICKET_LEASED_ASSET_TRANSFER_WITH_EXPLICIT_POST_TRANSFER_INCOME_RIGHT_FAILURE",
+      "evidence_summary": "Jilin's official public-resource platform lists 39 Shuangliao properties, including small leased units starting at RMB 114,656.50 and RMB 182,600. The notice applies lease-continuity rules after sale but explicitly states that all rent during the surviving lease belongs to the seller and warns the buyer that there is no rent income during that period. This is decisive evidence that a cheap leased asset and lease continuity do not imply transfer of the cashflow right.",
+      "economic_tuple": {
+        "acquisition_price": "EXAMPLES_RMB_114656_50_AND_RMB_182600",
+        "contracted_receipt_amount": "UNKNOWN_AND_IRRELEVANT_TO_BUYER_DURING_EXISTING_LEASE",
+        "contract_term": "MULTIPLE_CURRENT_LEASES_DISCLOSED_EXAMPLE_2026-05-01_TO_2027-05-01",
+        "counterparty": "EXISTING_TENANTS",
+        "post_transfer_receipt_right": "FAIL_ALL_RENT_DURING_SURVIVING_LEASE_RESERVED_TO_SELLER",
+        "low_recurring_human_delivery": "PASS_AS_OWNERSHIP_BUT_NO_INHERITED_CASHFLOW"
+      },
+      "attraction_brief": {
+        "a_side": "Official public-resource listings expose genuinely small-ticket leased property transfers.",
+        "a_side_evidence": "Several units are below RMB 400,000 and natural persons may bid.",
+        "b_side": "Existing tenants remain in possession under buy-does-not-break-lease rules.",
+        "b_side_evidence": "Official notice explicitly requires lease continuity.",
+        "operator": "Ownership itself can be low labor.",
+        "operator_non_labor_test": "PASS_BUT_ECONOMIC_FLOW_TO_BUYER_FAILS",
+        "connection_wow": "The source explicitly separates transferred ownership from retained seller cashflow rights.",
+        "activation_friction": "PASS_FOR_ASSET_TRANSFER",
+        "self_propulsion": "FAIL_BUYER_RECEIVES_NO_RENT_DURING_EXISTING_LEASE",
+        "a_discoverability": "PASS_OFFICIAL_PUBLIC_RESOURCE_PLATFORM",
+        "b_discoverability": "PASS_EXISTING_TENANT_BUT_NOT_BUYER_PAYMENT_FLOW",
+        "match_resolvability": "PASS",
+        "action_gate": "FAIL_POST_TRANSFER_RECEIPT_RIGHT",
+        "router_distinctiveness": "PASS_OWNERSHIP_RIGHT_IS_REAL_BUT_ECONOMIC_RIGHT_IS_CARVED_OUT",
+        "generic_agent_substitution": "PASS_OWNERSHIP_IS_NON_GENERIC",
+        "legal_payment_compliance": "PASS_PUBLIC_AUCTION_MECHANISM",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "Official notice states that all rent during the existing lease term is collected by and belongs to the seller.",
+        "The buyer must preserve the tenant's lease but has no rent income during that period.",
+        "Low acquisition price therefore cannot rescue the missing post-transfer receipt right."
+      ],
+      "verdict": "DEMOTED_SMALL_OFFICIAL_LEASED_PROPERTIES_ARE_ACQUIRABLE_BUT_EXISTING_LEASE_RENTS_ARE_EXPLICITLY_RESERVED_TO_SELLER_SO_POST_TRANSFER_CASHFLOW_RIGHT_FAILS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_132-F4",
+      "title": "CAMPUS_AUTOMATED_VENDING_SITE_RIGHT_WITH_CAPTIVE_LOCATION_BUT_NO_CONTRACTED_RECEIPTS",
+      "chinese_title": "北华大学自动售货机点位三年经营权 → 机器支付/校园场景 → 但50.88万元年租是成本且持续补货消毒维修",
+      "evidence_class": "CURRENT_MACHINE_SERVABLE_OPERATION_RIGHT_WITH_EXPLICIT_TERM_AND_COST_BUT_NO_EXISTING_RECEIPT_CONTRACT_AND_HIGH_RECURRING_OPERATIONS",
+      "evidence_summary": "Beihua University auctioned roughly 80 square meters across three campuses for 32 vending machines and 8 coffee machines. The three-year term runs 2026-10-01 to 2029-08-31 and annual site rent is RMB 508,800. The mechanism is digitally paid and machine-served, but the RMB 508,800 is a payment from operator to university, not contracted end-user revenue. The operator must deploy new machines, source compliant inventory, maintain traceability, clean/disinfect at least weekly, respond to faults within one hour, cover utilities and maintenance, and may not transfer/sublease the right. No existing student purchase volume, minimum spend or inherited proceeds ledger is bound to the contract.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_508800_ANNUAL_SITE_RENT_PLUS_10_PERCENT_PERFORMANCE_DEPOSIT_2_PERCENT_PLATFORM_FEE_EQUIPMENT_INVENTORY_UTILITIES_AND_OPERATIONS",
+        "contracted_receipt_amount": "NONE_END_USER_PURCHASES_NOT_CONTRACTED",
+        "contract_term": "2026-10-01_TO_2029-08-31",
+        "counterparty": "BEIHUA_UNIVERSITY_FOR_SITE_RIGHT_NOT_END_USER_RECEIPTS",
+        "post_transfer_receipt_right": "NO_EXISTING_RECEIPT_STREAM_TRANSFERRED",
+        "low_recurring_human_delivery": "FAIL_WEEKLY_CLEANING_ONE_HOUR_REPAIR_RESPONSE_INVENTORY_TRACEABILITY_RESTOCKING_AND_MAINTENANCE"
+      },
+      "attraction_brief": {
+        "a_side": "A university offers a defined multi-campus captive-location operating right.",
+        "a_side_evidence": "Three-year term and annual site rent are explicit in the auction.",
+        "b_side": "Students may buy from machines but no minimum purchase or existing proceeds are contracted.",
+        "b_side_evidence": "Notice specifies mobile payment but provides no inherited sales ledger or demand commitment.",
+        "operator": "Hardware automates checkout, not sourcing, replenishment, sanitation, fault response or compliance.",
+        "operator_non_labor_test": "FAIL_EXPLICIT_RECURRING_FIELD_OPERATIONS",
+        "connection_wow": "Machine-served captive locations look automated until the contract-level labor and demand boundaries are applied.",
+        "activation_friction": "FAIL_LICENSE_EQUIPMENT_AND_OPERATIONAL_DUTIES",
+        "self_propulsion": "FAIL_NO_CONTRACTED_END_USER_RECEIPTS",
+        "a_discoverability": "PASS_CURRENT_PUBLIC_UNIVERSITY_AUCTION",
+        "b_discoverability": "FAIL_NO_BOUND_PAYING_USER_FLOW",
+        "match_resolvability": "PARTIAL_LOCATION_AND_MACHINE_COUNT_CLEAR_BUT_REVENUE_UNKNOWN",
+        "action_gate": "FAIL_RECEIPT_AMOUNT_AND_LOW_LABOR_GATES",
+        "router_distinctiveness": "PARTIAL_LOCATION_RIGHT_IS_SCARCE_BUT_NOT_TRANSFERABLE_AND_OPERATION_IS_COMMODITY_RETAIL",
+        "generic_agent_substitution": "FAIL_PHYSICAL_RESTOCKING_SANITATION_AND_REPAIR_REMAIN",
+        "legal_payment_compliance": "PASS_SITE_RENT_AND_MOBILE_PAYMENT_MECHANISMS_SUBJECT_TO_LICENSES",
+        "regulatory_content_compliance": "PASS_ONLY_WITH_FOOD_BUSINESS_AND_PRODUCT_COMPLIANCE"
+      },
+      "exact_disconfirmation": [
+        "RMB 508,800 per year is the operator's site-rent cost, not customer revenue.",
+        "No minimum student spend, historical sales ledger or transferable customer contract is provided.",
+        "The contract requires weekly cleaning/disinfection, one-hour repair response, inventory traceability, equipment maintenance and other recurring field work."
+      ],
+      "verdict": "DEMOTED_CAMPUS_VENDING_RIGHT_HAS_MACHINE_PAYMENT_AND_THREE_YEAR_LOCATION_CONTROL_BUT_NO_CONTRACTED_RECEIPTS_AND_EXPLICIT_RECURRING_FIELD_OPERATIONS_FAIL_FOUNDER_LIGHT_CASHFLOW"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "NANCHANG_RMB_36660_LISTING_MARKETED_WITH_ORIGINAL_ANNUAL_RENT_RMB_14400",
+      "reason": "Primary listing body says the property is currently not leased; historical/original rent in a title is not current contracted cashflow."
+    },
+    {
+      "observation": "ZHEJIANG_UNIVERSITY_RETAIL_MASTER_LEASE_WITH_22_EXISTING_TENANTS",
+      "reason": "Existing tenants do not overcome RMB 4m annual master rent, RMB 1m guarantee, corporate experience/capital qualifications, brand-introduction requirements and recurring active retail management."
+    },
+    {
+      "observation": "SCAN131_WUHU_LEASED_PROPERTIES_AND_CHARGING_OR_LED_ASSETS",
+      "reason": "Already consumed in Scan 131 and excluded by anti-repeat boundary."
+    }
+  ],
+  "drift_audit": {
+    "primary_domain_is_china": true,
+    "complete_economic_tuple_required": true,
+    "receipt_amount_cannot_be_hidden_or_inferred": true,
+    "contract_term_must_cover_buyer_receipt_window": true,
+    "post_transfer_cashflow_right_must_be_explicit": true,
+    "acquisition_cost_must_be_distinguished_from_receipts": true,
+    "low_recurring_human_delivery_independent_gate": true,
+    "historical_or_original_rent_not_current_cashflow": true,
+    "no_property_only_ontology_lock_in": true,
+    "scan060_to_131_formation_fallback_forbidden": true,
+    "gate_relaxation": false
+  },
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Scan 132 materially closes the economic-tuple ambiguity. One small long-term leased asset still hides rent quantum; one source exposes the full tuple but only a short low-yield remaining buyer receipt window; one official small-ticket transfer explicitly withholds rent from the buyer; and one machine-served operating right exposes only operator costs plus recurring field labor, not contracted receipts."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_133",
+  "next_search_boundary": "SCAN133_SEARCH_CURRENT_CHINA_SMALL_OPERATOR_ASSETS_OR_CONTRACT_RIGHTS_WITH_PUBLICLY_EXPLICIT_TRANSFER_OR_ENTRY_PRICE_CONTRACTED_RECEIPT_AMOUNT_BUYER_RECEIPT_START_AND_END_COUNTERPARTY_AND_POST_TRANSFER_RIGHTS_PLUS_DURABLE_RECEIPT_COVERAGE_AND_LOW_RECURRING_HUMAN_DELIVERY_PRIORITIZE_RECEIPT_TO_PRICE_ECONOMICS_BEFORE_DEEP_DILIGENCE_NO_PROPERTY_ONLY_LOCK_IN_NO_SCAN060_TO_132_REUSE_NO_REGULATED_SECURITIES_NO_GATE_RELAXATION",
+  "next_action": "FREEZE_SCAN132_HEAD_OPEN_ONE_PR_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_INPUT_SCAN_ID_ATTRACTION_SCAN_132_ENTITY_COUNT_4_ALL_FOUR_AUTHORITATIVE_NO_FURTHER_RESEARCH_THEN_ADVANCE_TO_SCAN133_IF_CONTINUATION_ALLOWS",
+  "scan_learnings": [
+    "A_COMPLETE_ASSET_LEVEL_ECONOMIC_TUPLE_CAN_BE_PUBLICLY_VISIBLE_BUT_STILL_FAIL_COMMERCIAL_PROMOTION_WHEN_THE_BUYER_RECEIPT_WINDOW_IS_SHORT_AND_NORMALIZED_RECEIPTS_ARE_WEAK_RELATIVE_TO_ENTRY_COST.",
+    "LONG_CONTRACT_TERM_AND_SMALL_ACQUISITION_PRICE_DO_NOT_CLEAR_THE_GATE_WHEN_THE_CONTRACTED_RECEIPT_AMOUNT_IS_HIDDEN_IN_A_NONPUBLIC_OR_UNFETCHED_ATTACHMENT.",
+    "BUY_DOES_NOT_BREAK_LEASE_IS_NOT_EQUIVALENT_TO_BUYER_INHERITS_RENT; POST_TRANSFER_RECEIPT_RIGHTS_MUST_BE_EXPLICITLY_CHECKED.",
+    "MACHINE_PAYMENT_AND_CAPTIVE_LOCATION_DO_NOT_MAKE_A_VENDING_RIGHT_FOUNDER_LIGHT_WHEN_THE PUBLIC CONTRACT BINDS RECURRING RESTOCK_SANITATION_REPAIR_AND_COMPLIANCE WORK.",
+    "SCAN133_SHOULD FRONT_LOAD DURABLE_BUYER_RECEIPT_COVERAGE_AND RECEIPT_TO_ENTRY_ECONOMICS BEFORE SPENDING DEEP RESEARCH ON AN OTHERWISE COMPLETE TUPLE."
+  ]
+}
