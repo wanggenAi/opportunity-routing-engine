@@ -58,6 +58,24 @@
         "It reiterates that the buyer is entitled to rent after the auction-completion adjudication is served.",
         "It does not establish how rent already prepaid to the former owner for a period crossing the ownership-transfer date must be apportioned in this Weiyuan case."
       ]
+    },
+    {
+      "source_id": "F1-R4",
+      "title": "Official court-platform auction terms - comparator where already prepaid rent is not transferred",
+      "url": "https://pccz.court.gov.cn/pcgg/ggxq?id=d9136a59b1a048ff863b372d40295753",
+      "bound_facts": [
+        "The official notice states that the manager will not transfer already prepaid rent to the buyer.",
+        "This is comparator evidence only and shows prepaid-rent allocation can be transaction-specific."
+      ]
+    },
+    {
+      "source_id": "F1-R5",
+      "title": "Official court-platform auction terms - comparator separating pre-delivery and post-delivery rent",
+      "url": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=D9029A1CD8243D701100EEED2E7A4F11",
+      "bound_facts": [
+        "The official notice allocates pre-delivery rent to the manager and post-delivery rent to the buyer while placing specified prepaid-rent refund risk on the buyer.",
+        "The contrast with F1-R4 proves that the missing Weiyuan prepaid-rent rule cannot be invented from generic succession law."
+      ]
     }
   ],
   "causal_chain": [
@@ -69,7 +87,10 @@
     "The notice proves rent has already been paid through 2026-11-30, but neither the notice nor the reference case binds the treatment of any prepaid rent covering a period after a future ownership-transfer date.",
     "The notice also does not publish the full lease clause that fixes the next quarterly due date, the exact first unprepaid amount/date after 2026-11-30, deposit, arrears, tenant identity or payment ledger.",
     "A December-2026-through-February-2029 tail is long enough on the calendar to contain more than 24 months, but the required buyer-specific 24-month receipt window is not yet source-bound because the actual transfer date and first unprepaid payment node are unresolved.",
-    "Exact public searches by execution case (2026)川1024执1832号, judgment (2026)川1024民初929号, exact address and exact rent surfaced no independent lease contract, rent ledger or adjudication for this future auction."
+    "Exact public searches by execution case (2026)川1024执1832号, judgment (2026)川1024民初929号, exact address and exact rent surfaced no independent lease contract, rent ledger or adjudication for this future auction.",
+    "A second contradiction search targeted prepaid-rent allocation. Official court-platform auction terms show different auctions can expressly use different prepaid-rent allocation and refund-risk mechanics.",
+    "Because authoritative public examples encode different allocation mechanics, no universal prepaid-rent rule may be imported into Weiyuan. The missing Weiyuan lease or auction term is a source boundary, not a reasoning gap.",
+    "The public causal frontier is exhausted today: the next decisive evidence is either the future Weiyuan auction outcome and adjudication-service event or the underlying case-specific lease and rent ledger."
   ],
   "exact_public_search_exhaustion": {
     "queries": [
@@ -77,10 +98,12 @@
       "（2026）川1024民初929号 兰花街46号",
       "威远县 严陵镇 兰花街46号 租金6000",
       "兰花街46号 2029年2月24日 租赁",
-      "2024-17-5-203-007 带租拍卖 租金 最高人民法院"
+      "2024-17-5-203-007 带租拍卖 租金 最高人民法院",
+      "带租拍卖 预付租金 买受人 最高人民法院",
+      "司法拍卖 已预付租金 买受人 租金归属 最高人民法院"
     ],
-    "result": "NO_INDEPENDENT_PUBLIC_WEIYUAN_LEASE_CONTRACT_RENT_LEDGER_PREPAID_RENT_APPORTIONMENT_OR_AUCTION_COMPLETION_ADJUDICATION_SURFACED; SUPREME_COURT_REFERENCE_CASE_SUPPLIES_GENERAL_POST_TRANSFER_RENT_SUCCESSION_RULE",
-    "note": "Public legal authority upgrades the succession rule but does not fabricate the case-specific transfer event or first unprepaid payment."
+    "result": "NO_WEIYUAN_SPECIFIC_PUBLIC_LEASE_RENT_LEDGER_PREPAID_RENT_ALLOCATION_OR_FUTURE_AUCTION_COMPLETION_ADJUDICATION; OFFICIAL_COMPARATOR_AUCTIONS_CONFIRM_PREPAID_RENT_TREATMENT_VARIES_BY_SOURCE_TERMS",
+    "note": "Generic buyer rent succession is evidenced, but contradiction search shows prepaid-rent mechanics are transaction-specific. Additional public causal descent cannot truthfully bind the missing Weiyuan transfer/payment node today."
   },
   "decisive_unknowns_remaining": [
     "Whether the scheduled 2026-10-18 auction actually sells and the exact auction-completion adjudication service date.",
@@ -88,12 +111,13 @@
     "Treatment or apportionment of rent already paid to the former owner for any period crossing the future ownership-transfer date.",
     "Tenant identity, payment history, deposit, arrears, utilities/property liabilities, buyer taxes/transfer costs and full lease terms."
   ],
-  "public_research_resolution": "PARTIAL_ADVANCE_PUBLIC_RENT_SUCCESSION_EVIDENCED_TRANSFER_EVENT_AND_FIRST_UNPREPAID_DUE_REMAIN_UNBOUND",
-  "causal_descent_resolution": "PUBLIC_SUPREME_COURT_REFERENCE_CASE_SUPPORTS_BUYER_POST_TRANSFER_RENT_SUCCESSION_BUT_WEIYUAN_ACTUAL_TRANSFER_DATE_PREPAID_RENT_APPORTIONMENT_AND_FIRST_UNPREPAID_PAYMENT_REMAIN_UNBOUND",
-  "next_evidence_class": "FUTURE_PUBLIC_AUCTION_OUTCOME_AND_AUCTION_COMPLETION_ADJUDICATION_SERVICE_IF_SALE_OCCURS_OR_UNDERLYING_LEASE_RENT_LEDGER; EXTERNAL_CONTACT_REQUIRES_SEPARATE_AUTHORITY",
-  "formation_status": "RETAINED_RESEARCH_BLOCKED_ON_FUTURE_TRANSFER_EVENT_AND_FIRST_UNPREPAID_RECEIPT_BINDING",
+  "public_research_resolution": "EXHAUSTED_AT_FUTURE_TRANSFER_EVENT_OR_CASE_SPECIFIC_LEASE_RENT_LEDGER_BOUNDARY",
+  "causal_descent_resolution": "TWO_LIVE_JEV_CAUSAL_DESCENT_PASSES_CONSUMED_GENERIC_BUYER_RENT_SUCCESSION_EVIDENCED_PREPAID_RENT_ALLOCATION_PROVEN_SOURCE_SPECIFIC_WEIYUAN_TRANSFER_AND_FIRST_UNPREPAID_RECEIPT_REQUIRE_FUTURE_OR_CASE_SPECIFIC_EVIDENCE",
+  "next_evidence_class": "FUTURE_PUBLIC_WEIYUAN_AUCTION_OUTCOME_AND_AUCTION_COMPLETION_ADJUDICATION_SERVICE_IF_SALE_OCCURS_OR_UNDERLYING_CASE_SPECIFIC_LEASE_RENT_LEDGER",
+  "formation_status": "RETAINED_RESEARCH_PUBLIC_CAUSAL_DESCENT_EXHAUSTED_BLOCKED_ON_FUTURE_TRANSFER_EVENT_OR_CASE_SPECIFIC_SOURCE_DOCUMENT",
   "route_consumed": true,
   "consumed_routes": [
+    "CAUSAL_DESCENT",
     "CAUSAL_DESCENT"
   ],
   "scan141_gate": "UNBLOCKED_SUBJECT_TO_EXACT_HEAD_CI_AND_LIVE_JEV_NO_NEW_REVERSIBLE_ROUTE_CLASS",
@@ -104,5 +128,32 @@
   "bid_authorized": false,
   "deposit_authorized": false,
   "purchase_authorized": false,
-  "first_external_value_flow": "NOT_PROVEN"
+  "first_external_value_flow": "NOT_PROVEN",
+  "route_history": [
+    {
+      "stage": "PR450_INITIAL_SCAN_HEAD",
+      "exact_head_sha": "6b57d4c502104e1c6a24f481ddac7aaa52926bdc",
+      "repository_ci_run_id": 35842823646,
+      "jev_run_id": 35842823841,
+      "jev_artifact_id": 10741993428,
+      "jev_artifact_digest": "sha256:4640151e4f82ebf90449694c8f9f8fee5badfb2aeffdec4c2ebe60a15453ea17",
+      "state_fingerprint": "e2c540f3951363ea7a23",
+      "route": "CAUSAL_DESCENT",
+      "consumed": true
+    },
+    {
+      "stage": "PR450_AFTER_PUBLIC_RENT_SUCCESSION_EVIDENCE",
+      "exact_head_sha": "39ee2b3f5f67e47a5b551483ce10645af9783421",
+      "repository_ci_run_id": 35844974102,
+      "repository_ci_conclusion": "FAILURE_FROM_STALE_TEST_AND_REQUIRED_TASK_STATE_HEADINGS_THEN_FIXED",
+      "jev_run_id": 35844974166,
+      "jev_artifact_id": 10743175978,
+      "jev_artifact_digest": "sha256:d41da181b263a6fa0ca752e83101d8ba7445cba944478c44022a88069b386d93",
+      "served_model": "jev-1.13.0",
+      "state_fingerprint": "b2f4a48e8c54626d1578",
+      "route": "CAUSAL_DESCENT",
+      "attention_priority": "HIGH",
+      "consumed": true
+    }
+  ]
 }
