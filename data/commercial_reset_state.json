@@ -2073,7 +2073,7 @@
     "deposit_authorized": false,
     "purchase_authorized": false
   },
-  "last_completed_scan_file": "data/research_runs/attraction_scan_145.json",
+  "last_completed_scan_file": "data/research_runs/attraction_scan_146.json",
   "last_completed_scan_result": "ZERO_HIGH_ATTRACTION_BEACONS_ALL_FIVE_CURRENT_FIELDS_CLOSED_AT_INITIAL_ATTRACTION_LAYER",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
