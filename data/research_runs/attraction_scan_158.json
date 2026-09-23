@@ -1,0 +1,1049 @@
+{
+  "scan_id": "ATTRACTION_SCAN_158",
+  "as_of_date": "2026-09-24",
+  "status": "COMPLETE",
+  "search_mode": "STATE_CHANGE_FIRST_OPEN_REMEDY_AND_AFFECTED_ACTOR_DISCOVERABILITY_GATES",
+  "source_main_sha": "828ee532ac999cabc5c22c0d1af6b1d0a205178f",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_157",
+    "prior_pr": 471,
+    "prior_merged_main_sha": "828ee532ac999cabc5c22c0d1af6b1d0a205178f",
+    "prior_final_exact_head": "462ac408679bc6158f4daf409a9f1c92da004dab",
+    "prior_repository_ci_run_id": 35887993492,
+    "prior_repository_ci_test_job_id": 107272979330,
+    "prior_repository_ci_test_count": 799,
+    "prior_live_jev_run_id": 35887993544,
+    "prior_live_jev_artifact_id": 10763431838,
+    "prior_live_jev_artifact_digest": "sha256:7c95dccbf300dff30f16be681c111f67ae0487c07e907e2e904c50403e4115a7",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scans142_157_domains_deduplicated_before_search": true
+  },
+  "broad_reality_domains_examined": [
+    "ENTERPRISE_REGISTERED_INFORMATION_CHANGE",
+    "GRADUATE_CROSS_CITY_TRANSITION",
+    "SME_FX_EXPOSURE_EVENT",
+    "INDUSTRIAL_CYBER_INCIDENT_REMEDIATION",
+    "RESIDENTIAL_WATER_LEAK_REMEDIATION"
+  ],
+  "source_registry": {
+    "ENT-CHANGE-QD-20260508": {
+      "source_class": "CURRENT_ENTERPRISE_INFORMATION_CHANGE_ONE_THING_EXECUTION_RAIL",
+      "url": "https://www.qingdao.gov.cn/ywdt/zwzl/gxbcyjs/gxbcyjs_01/202605/t20260508_10587661.shtml",
+      "date": "2026-05-08",
+      "claim": "Qingdao's enterprise-information-change one-thing program links business registration changes to tax, social insurance, medical insurance, housing funds, seals and bank-account changes through one intake, shared data and automatic downstream synchronization."
+    },
+    "GRAD-MOE-20260112": {
+      "source_class": "CURRENT_GRADUATE_CROSS_CITY_JOB_SEARCH_EVENT_AND_SERVICE_RAIL",
+      "url": "https://www.moe.gov.cn/srcsite/A15/s3265/202601/t20260115_1426697.html",
+      "date": "2026-01-12",
+      "claim": "Four national bodies launched the 2026 graduate cross-region job-search action with verified extra rail discounts, youth-hostel accommodation support, employment services and 3-to-6-month follow-up after arrival."
+    },
+    "GRAD-BJ-RENT-20260610": {
+      "source_class": "CURRENT_GRADUATE_HOUSING_MATCHING_RAIL",
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202606/t20260610_4693625.html",
+      "date": "2026-06-10",
+      "claim": "Beijing's 2026 graduation-season housing program assembled more than 200,000 discounted rooms, with 101,000 already online, and connected graduates to rental operators through coordinated online and campus services."
+    },
+    "FX-ZJ-20260731": {
+      "source_class": "CURRENT_SME_FX_RISK_REPLENISHMENT_AND_BANK_SERVICE_GRAPH",
+      "url": "https://www.safe.gov.cn/zhejiang/2026/0731/2435.html",
+      "date": "2026-07-31",
+      "claim": "SAFE Zhejiang reports 130 banks able to handle FX derivatives and a service database covering 290,000 foreign-trade firms shared with banks for targeted hedging services."
+    },
+    "FX-FJ-20260901": {
+      "source_class": "CURRENT_DIGITAL_FX_HEDGING_EXECUTION_RAIL",
+      "url": "https://www.safe.gov.cn/fujian/2026/0901/2687.html",
+      "date": "2026-09-01",
+      "claim": "SAFE Fujian documents a bank-operated one-stop digital FX hedging platform for SMEs, outbound businesses and larger firms, placing product selection and execution inside regulated bank rails."
+    },
+    "CYBER-GZCA-20260518": {
+      "source_class": "CURRENT_INDUSTRIAL_CYBER_INCIDENT_EVENT_STREAM",
+      "url": "https://gzca.miit.gov.cn/zwgk/wlxxaq/gztz/art/2026/art_1866341a2aca47e59949d2250511b4d3.html",
+      "date": "2026-05-18",
+      "claim": "A 2026 industrial-internet security bulletin reports 1.7351 million attacks in one month affecting 779 industrial enterprises and describes regulator-issued remediation notices, while the affected enterprises are not publicly identified."
+    },
+    "CYBER-VULN-RULE-20260324": {
+      "source_class": "CURRENT_VULNERABILITY_DISCLOSURE_AND_REMEDIATION_RULE",
+      "url": "https://sdca.miit.gov.cn/zwgk/fgbz/art/2026/art_14248acd97f141fbb163b2cd85eaa1d8.html",
+      "date": "2026-03-24",
+      "claim": "Current vulnerability rules require network operators to verify and patch known vulnerabilities, require providers to support affected users, and prohibit publication of details about vulnerabilities in operators' live systems."
+    },
+    "CYBER-TENCENT-CURRENT": {
+      "source_class": "CURRENT_OPEN_COMMERCIAL_INCIDENT_RESPONSE_SERVICE",
+      "url": "https://cloud.tencent.com/product/irs",
+      "date": "2026-09-24",
+      "claim": "Tencent Cloud currently offers a commercial incident-response service covering attack-path reconstruction, containment and standardized emergency handling, evidencing an available third-party remediation market."
+    },
+    "LEAK-GZ-20260511": {
+      "source_class": "CURRENT_RESIDENTIAL_LEAK_MULTI_PARTY_REMEDIATION_CASE",
+      "url": "https://www.lw.gov.cn/zzzs/jddt/content/post_10807295.html",
+      "date": "2026-05-11",
+      "claim": "A Guangzhou residential leak dispute required resident complaint, community and property coordination, a qualified professional inspection organization to identify the leak source, and subsequent multi-party resolution."
+    },
+    "LEAK-HK-20260716": {
+      "source_class": "CURRENT_PRIVATE_BUILDING_LEAK_OWNER_REPAIR_AND_CONTRACTOR_RAIL",
+      "url": "https://www.info.gov.hk/gia/general/202607/16/P2026071600279.htm",
+      "date": "2026-07-16",
+      "claim": "Hong Kong's 2026 water-seepage procedure requires the responsible owner to arrange inspection and repair, provides contractor and mediator lists and reference prices, and escalates noncompliance through the joint government office."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_158-F1",
+      "title": "Enterprises completing registered-information changes -> downstream public agencies and banks needing synchronized updated records",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_REPLENISHING_STATE_CHANGE_EVENT",
+      "evidence_summary": "The state change is recurring and easily recognized, but the 2026 one-thing rail already pushes registration changes across public systems and authorized bank workflows. The decisive cross-system update gate is institutionally owned rather than open to an independent router.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 2,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "b_voluntary_motion": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "state_dependent_value_jump": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "decision_window": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "bridge_compression": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "activation_ease": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "self_propulsion": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "operator_control": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "a_discoverability": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "b_discoverability": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "match_resolvability": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "action_gate_callability": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "a_population_replenishment": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "b_population_replenishment": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "recurring_connection_pressure": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "recurring_missing_edge": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "recurring_event_source": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "ENT-CHANGE-QD-20260508"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "owner_state": "REGULATOR_PLATFORM_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_ENTERPRISE_INFORMATION_CHANGE_EVENT_RECURS_BUT_ONE_THING_PUBLIC_DATA_PUSH_AND_AUTHORIZED_BANK_WORKFLOW_OWN_THE_DECISIVE_SYNC_GATE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_158-F2",
+      "title": "Graduates entering cross-city job-search and onboarding windows -> transport lodging housing and employment-support providers with immediately usable capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_REPLENISHING_STATE_CHANGE_EVENT",
+      "evidence_summary": "The annual transition is observable and urgent, but national rail and youth-hostel programs plus municipal housing pools already own qualification and access to the core services. Remaining coordination does not establish an unowned decisive gate.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "b_voluntary_motion": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "state_dependent_value_jump": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "decision_window": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "bridge_compression": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "activation_ease": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "self_propulsion": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "operator_control": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "a_discoverability": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "b_discoverability": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "match_resolvability": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "action_gate_callability": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "a_population_replenishment": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "b_population_replenishment": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "recurring_connection_pressure": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "recurring_missing_edge": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "recurring_event_source": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "GRAD-MOE-20260112",
+          "GRAD-BJ-RENT-20260610"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "owner_state": "INSTITUTION_PLATFORM_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_GRADUATE_CROSS_CITY_TRANSITION_REGENERATIVE_BUT_PUBLIC_TRANSPORT_HOSTEL_EMPLOYMENT_AND_HOUSING_RAILS_ALREADY_OWN_CORE_ACCESS_GATES"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_158-F3",
+      "title": "Foreign-trade SMEs acquiring fresh FX exposure -> banks able to quote and execute suitable hedging instruments",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_REPLENISHING_STATE_CHANGE_EVENT",
+      "evidence_summary": "Foreign-currency receivables repeatedly create a high-value decision window, yet SAFE-to-bank service graphs and current bank digital hedging platforms already place quote, suitability, credit, execution and settlement in regulated banking rails.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "b_voluntary_motion": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "state_dependent_value_jump": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "decision_window": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "bridge_compression": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "activation_ease": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "self_propulsion": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "operator_control": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "a_discoverability": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "b_discoverability": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "match_resolvability": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "action_gate_callability": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "a_population_replenishment": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "b_population_replenishment": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "recurring_connection_pressure": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "recurring_missing_edge": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "recurring_event_source": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "FX-ZJ-20260731",
+          "FX-FJ-20260901"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "owner_state": "REGULATED_BANK_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_FX_EXPOSURE_EVENT_REGENERATIVE_BUT_REGULATED_BANKS_ALREADY_OWN_SUITABILITY_QUOTE_CREDIT_EXECUTION_AND_SETTLEMENT_GATE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_158-F4",
+      "title": "Industrial enterprises entering a newly detected cyber-compromise or vulnerability state -> independent incident-response capacity able to contain and remediate the event",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_REPLENISHING_STATE_CHANGE_EVENT",
+      "evidence_summary": "This is the strongest open-remedy test in the scan: incidents replenish rapidly and third-party response services exist, so the service-selection gate is plausibly open. But current rules intentionally suppress public detail about vulnerabilities in live operator systems and regulator bulletins anonymize affected enterprises, leaving the affected-actor population non-callable without intrusive discovery; per-incident diagnosis also remains expert-heavy.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 1,
+          "b_discoverability": 3,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "b_voluntary_motion": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "state_dependent_value_jump": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "decision_window": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "bridge_compression": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "activation_ease": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "self_propulsion": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "operator_control": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "a_discoverability": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "b_discoverability": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "match_resolvability": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "action_gate_callability": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "a_population_replenishment": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "b_population_replenishment": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "recurring_connection_pressure": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "recurring_missing_edge": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "recurring_event_source": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "CYBER-GZCA-20260518",
+          "CYBER-VULN-RULE-20260324",
+          "CYBER-TENCENT-CURRENT"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CYBER-GZCA-20260518",
+            "CYBER-VULN-RULE-20260324",
+            "CYBER-TENCENT-CURRENT"
+          ],
+          "owner_state": "UNOWNED_OPEN"
+        }
+      },
+      "verdict": "DEMOTED_CYBER_INCIDENT_REMEDIATION_HAS_AN_OPEN_PROVIDER_MARKET_BUT_AFFECTED_ACTOR_IDENTITY_IS_NONPUBLIC_AND_PER_INCIDENT_DIAGNOSIS_REMAINS_EXPERT_BOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_158-F5",
+      "title": "Residents entering a newly observed inter-unit water-leak state -> qualified inspection repair and mediation capacity able to diagnose responsibility and restore the property",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_REPLENISHING_STATE_CHANGE_EVENT",
+      "evidence_summary": "Leak incidents recur and an open contractor/inspection market exists, but affected resident identities are private, responsibility must be established case by case, and owner/property/government cooperation controls access and final repair. The apparent open vendor market does not make the decisive responsibility-and-entry gate operator-ownable.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 1,
+          "b_discoverability": 3,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "b_voluntary_motion": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "state_dependent_value_jump": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "decision_window": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "bridge_compression": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "activation_ease": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "self_propulsion": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "operator_control": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "a_discoverability": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "b_discoverability": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "match_resolvability": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "action_gate_callability": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "a_population_replenishment": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "b_population_replenishment": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "recurring_connection_pressure": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "recurring_missing_edge": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "recurring_event_source": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "LEAK-GZ-20260511",
+          "LEAK-HK-20260716"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LEAK-GZ-20260511",
+            "LEAK-HK-20260716"
+          ],
+          "owner_state": "COUNTERPARTY_PROPERTY_REGULATOR_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_RESIDENTIAL_LEAK_REMEDIATION_REGENERATIVE_BUT_PRIVATE_ACTOR_DISCOVERY_CASE_SPECIFIC_DIAGNOSIS_AND_OWNER_PROPERTY_REGULATOR_CONTROL_BLOCK_CALLABLE_ROUTING"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Five fresh state-change fields were screened under the Scan157+ action-gate guard. Three are directly institution-owned. Cyber remediation is the important near-miss: the provider market is open, but affected enterprises are intentionally nonpublic and matching is expert-bound. Residential leaks likewise expose open contractors but private actor identity and responsibility/access gates block callable routing."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_159",
+  "next_search_boundary": "SEARCH_FOR_FRESH_PUBLICLY_NAMED_AFFECTED_ACTOR_STATE_CHANGES_WITH_AN_OPEN_OR_OPERATOR_OWNABLE_REMEDY_MARKET_AND_STANDARDIZABLE_NONEXPERT_MATCH;_DEPRIORITIZE_PRIVATE_INCIDENT_IDENTITIES_REGULATED_ACCEPTANCE_AND_CASE_SPECIFIC_DIAGNOSIS",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN159",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "prior_domain_deduplication_checked": true,
+    "state_change_first_search": true,
+    "decisive_action_gate_owner_checked": true,
+    "open_provider_market_not_equated_with_actor_discoverability": true,
+    "private_actor_identity_not_inferred": true,
+    "incumbent_presence_not_used_as_automatic_kill": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "OPEN_PROVIDER_MARKET_NE_CALLABLE_TWO_SIDED_FIELD.",
+    "AFFECTED_ACTOR_DISCOVERABILITY_CAN_BE_THE_DECISIVE_HARD_FLOOR_EVEN_WHEN_REMEDIATION_SUPPLY_IS_ABUNDANT.",
+    "CYBER_INCIDENTS_SHOW_A_REAL_UNOWNED_OPEN_PROVIDER_SELECTION_GATE_BUT_CURRENT_DISCLOSURE_RULES_INTENTIONALLY_HIDE_THE_AFFECTED_POPULATION_AND_DIAGNOSIS_REMAINS_EXPERT_BOUND.",
+    "PRIVATE_PROPERTY_FAILURES_CAN_HAVE_OPEN_CONTRACTORS_WHILE_RESPONSIBILITY_ACCESS_AND_CONSENT_REMAIN_COUNTERPARTY_OR_REGULATOR_CONTROLLED.",
+    "SCAN159_SHOULD_REQUIRE_PUBLICLY_NAMED_AFFECTED_ACTORS_PLUS_OPEN_REMEDY_AND_STANDARDIZABLE_NONEXPERT_MATCHING."
+  ],
+  "source_urls": [
+    "https://www.qingdao.gov.cn/ywdt/zwzl/gxbcyjs/gxbcyjs_01/202605/t20260508_10587661.shtml",
+    "https://www.moe.gov.cn/srcsite/A15/s3265/202601/t20260115_1426697.html",
+    "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202606/t20260610_4693625.html",
+    "https://www.safe.gov.cn/zhejiang/2026/0731/2435.html",
+    "https://www.safe.gov.cn/fujian/2026/0901/2687.html",
+    "https://gzca.miit.gov.cn/zwgk/wlxxaq/gztz/art/2026/art_1866341a2aca47e59949d2250511b4d3.html",
+    "https://sdca.miit.gov.cn/zwgk/fgbz/art/2026/art_14248acd97f141fbb163b2cd85eaa1d8.html",
+    "https://cloud.tencent.com/product/irs",
+    "https://www.lw.gov.cn/zzzs/jddt/content/post_10807295.html",
+    "https://www.info.gov.hk/gia/general/202607/16/P2026071600279.htm"
+  ]
+}
