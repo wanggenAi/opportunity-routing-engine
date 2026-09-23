@@ -1,0 +1,150 @@
+{
+  "scan_id": "ATTRACTION_SCAN_143",
+  "as_of_date": "2026-09-23",
+  "method": "Broad-current-reality sensing after Scan142 final Jev ADVANCE_TO_NEXT_SCAN; no VPP subproblem inherited; official current sources establish population/control surfaces and current community observations are used only as bounded connection-pressure observations, never prevalence estimates.",
+  "repository_dedup": {
+    "queries": [
+      "factory inspection",
+      "supplier verification",
+      "sourcing agent",
+      "验厂",
+      "验货",
+      "中小企业服务智慧地图",
+      "shared manufacturing",
+      "检验检测",
+      "industrial solid waste",
+      "合规出海"
+    ],
+    "matching_prior_repository_results": [],
+    "conclusion": "No exact prior repository occurrence was returned for the Scan143 field terms before persistence."
+  },
+  "source_packets": [
+    {
+      "source_id": "CF-139-2026",
+      "source_class": "OFFICIAL_CANTON_FAIR_CURRENT",
+      "url": "https://www.cantonfair.org.cn/about?pageCode=33414c3a293b4349aa5c5dc60dfb1b42",
+      "date": "2026",
+      "claim": "The official Canton Fair site reports 32,000 exhibitors and 314,000 overseas buyers from 220 countries/regions at the 139th fair, while the 140th fair is scheduled for October-November 2026, evidencing replenishing cross-border sourcing populations and recurring sourcing events."
+    },
+    {
+      "source_id": "INSPECTION-SAMR-20260610",
+      "source_class": "OFFICIAL_SAMR_CURRENT",
+      "url": "https://www.samr.gov.cn/xw/mtjj/art/2026/art_937f76a47d214a10ba9daa7960c778d1.html",
+      "date": "2026-06-10",
+      "claim": "China had 54,340 qualified inspection/testing institutions at 2025 year-end, 1.5864 million workers and 571 million reports, evidencing a large replenishing verification-service supply base."
+    },
+    {
+      "source_id": "BUYER-VERIFY-SZ-20260920",
+      "source_class": "CURRENT_COMMUNITY_DEMAND_OBSERVATION",
+      "url": "https://www.reddit.com/r/ShenzhenMarketplace/comments/1wlbliu/need_someone_to_verify_a_factory_in_shenzhen/",
+      "date": "2026-09-20",
+      "claim": "A current overseas buyer sought a reliable private Shenzhen sourcing/inspection agent to visit an Alibaba manufacturer, confirm stock and quality, and return photos/video before a larger order; the post quickly received referrals/offers. This is anecdotal demand evidence, not a population prevalence estimate."
+    },
+    {
+      "source_id": "BUYER-INSPECTION-20260519",
+      "source_class": "CURRENT_COMMUNITY_DEMAND_OBSERVATION",
+      "url": "https://www.reddit.com/r/Business_China/comments/1thr1m4/how_i_visited_factories_in_china_still_overpaid/",
+      "date": "2026-05-19",
+      "claim": "An experienced Morocco importer described personally visiting Chinese factories but still relying on a hired inspection agent before shipment; the inspection reportedly found serious manufacturing defects. This is anecdotal current evidence of repeated trust/quality pressure."
+    },
+    {
+      "source_id": "BUYER-DEPOSIT-20260617",
+      "source_class": "CURRENT_COMMUNITY_DEMAND_OBSERVATION",
+      "url": "https://www.reddit.com/r/AmazonFBA/comments/1u8n846/how_do_you_actually_verify_a_china_supplier/",
+      "date": "2026-06-17",
+      "claim": "A buyer close to paying a 30% deposit asked how to verify the Chinese supplier beyond platform badges and certificates and whether to pay for inspection, sourcing or factory verification. This is anecdotal current evidence of a movable pre-payment decision window."
+    },
+    {
+      "source_id": "BUYER-START-20260825",
+      "source_class": "CURRENT_COMMUNITY_DEMAND_OBSERVATION",
+      "url": "https://www.reddit.com/r/Business_China/comments/1vxoykx/thinking_about_sourcing_products_from_china_where/",
+      "date": "2026-08-25",
+      "claim": "A small-business buyer asked how to choose among China sourcing locations, fairs, online suppliers and sourcing agents, illustrating recurring navigation/trust questions among new overseas buyers. This is anecdotal, not population-level evidence."
+    },
+    {
+      "source_id": "SME-SERVICE-MAP-20260715",
+      "source_class": "OFFICIAL_MIIT_CURRENT",
+      "url": "https://www.miit.gov.cn/jgsj/qyj/wjfb/art/2026/art_530edd7abdae47c7a8d281f9c0bb0264.html",
+      "date": "2026-07-15",
+      "claim": "MIIT says SME service information asymmetry needs to be solved and is building a national service-institution smart map for information display and supply-demand matching; the map explicitly does not guarantee provider capability or service effect."
+    },
+    {
+      "source_id": "SHARED-MFG-2025-2028",
+      "source_class": "OFFICIAL_MIIT_ACTIVE_PLAN",
+      "url": "https://fjca.miit.gov.cn/zwgk/zcwj/wjfb/art/2025/art_3cc261f79eaf40c699b90bea36c38a1c.html",
+      "date": "2025-10",
+      "claim": "The active 2025-2028 service-oriented manufacturing plan calls for shared-manufacturing platforms with online publishing, order matching, logistics, payment protection and credit evaluation, plus shared factories and open inspection/testing capacity."
+    },
+    {
+      "source_id": "EXPORT-COMPLIANCE-MOFCOM-2026",
+      "source_class": "OFFICIAL_MOFCOM_CURRENT",
+      "url": "https://www.mofcom.gov.cn/zcfb/zhzc/art/2026/art_7e1dc12697b744fd89e6110673ac117c.html",
+      "date": "2026",
+      "claim": "MOFCOM and five departments direct stronger compliance-going-global support, overseas comprehensive-service platforms, risk monitoring, policy guidance, IP protection and localized operations for ecommerce firms."
+    },
+    {
+      "source_id": "EXPORT-COMPLIANCE-CCPIT-20260821",
+      "source_class": "CCPIT_CURRENT",
+      "url": "https://exhibition.ccpit.org/articles/6554",
+      "date": "2026-08-21",
+      "claim": "CCPIT describes 2026 overseas compliance pressure as increasingly complex across trade restrictions, local compliance, data, green and human-rights rules, evidencing recurring compliance events but also high expert interpretation burden."
+    },
+    {
+      "source_id": "WASTE-SH-2026",
+      "source_class": "OFFICIAL_SHANGHAI_CURRENT",
+      "url": "https://www.shanghai.gov.cn/gwk/search/content/a8872bf709584897ba26afa01b23970a",
+      "date": "2026",
+      "claim": "Shanghai's general industrial solid-waste information platform tracks origin/destination, recipient confirmation and full transfer chains, with regulated responsibilities for generators and recipients."
+    },
+    {
+      "source_id": "WASTE-LN-20260805",
+      "source_class": "OFFICIAL_LIAONING_CURRENT",
+      "url": "https://sthj.ln.gov.cn/sthj/zfxxgk/fdzdgknr/jyta/srddbjy/sssjrdwchy2026n/2026080509051538769/index.shtml",
+      "date": "2026-08-05",
+      "claim": "Liaoning identifies continuing bottlenecks in large-volume industrial solid-waste consumption/utilization while advancing industrial parks, standards, environmental approvals and resource-utilization capacity."
+    }
+  ],
+  "field_comparison": [
+    {
+      "formation_id": "ATTRACTION_SCAN_143-F1",
+      "field": "Overseas small-buyer pre-order checkpoints -> China-side independent factory verification / inspection operator routing",
+      "machine_attention": "HIGH_ATTRACTION_BEACON",
+      "disposition": "RETAIN_RESEARCH_ONLY",
+      "reason": "Independent population evidence plus repeated current pre-order/pre-shipment trust-pressure observations survive the regenerative floor; exact incumbent/pricing/permission/acquisition preflight is still required."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_143-F2",
+      "field": "SMEs needing professional services -> service-institution discovery and matching",
+      "machine_attention": "LOW_ATTRACTION",
+      "disposition": "CLOSE",
+      "reason": "DEMOTED_REGENERATIVE_SME_SERVICE_FIELD_REAL_BUT_DIRECT_MIIT_SERVICE_MAP_ALREADY_OWNS_INFORMATION_DISPLAY_AND_SUPPLY_DEMAND_MATCHING_EDGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_143-F3",
+      "field": "SME manufacturing/testing demand -> shared production and inspection capacity routing",
+      "machine_attention": "LOW_ATTRACTION",
+      "disposition": "CLOSE",
+      "reason": "DEMOTED_REGENERATIVE_SHARED_MANUFACTURING_FIELD_REAL_BUT_GENERIC_CAPACITY_ORDER_MATCHING_PAYMENT_AND_CREDIT_SURFACE_ALREADY_PLATFORM_OWNED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_143-F4",
+      "field": "China ecommerce exporters -> country-specific overseas compliance service routing",
+      "machine_attention": "LOW_ATTRACTION",
+      "disposition": "CLOSE",
+      "reason": "DEMOTED_REGENERATIVE_EXPORT_COMPLIANCE_FIELD_REAL_BUT_RECURRING_EXPERT_INTERPRETATION_AND_HIGH_EXPLANATION_BURDEN_PREVENT_LIGHT_OPERATOR_CONTROL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_143-F5",
+      "field": "Industrial solid-waste generators -> compliant nearby utilization / disposal counterparties",
+      "machine_attention": "LOW_ATTRACTION",
+      "disposition": "CLOSE",
+      "reason": "DEMOTED_REGENERATIVE_INDUSTRIAL_WASTE_FIELD_REAL_BUT_REGULATED_PHYSICAL_TRANSFER_AND_ENVIRONMENTAL_RESPONSIBILITY_PREVENT_LIGHT_ROUTER_CONTROL"
+    }
+  ],
+  "external_side_effects": {
+    "contacted_outsiders": false,
+    "committed_money": false,
+    "created_account": false,
+    "submitted_application": false
+  }
+}
