@@ -8,6 +8,9 @@ Repair a systemic strategic-drift failure before any further commercial scan. Pr
 ## Goal
 Resume commercial discovery only after the engine can prove that a retained high-attraction formation is a regenerative value field, not merely a measurable transaction, asset, cashflow stream, explicit task, or price spread.
 
+## Current Unique Commercial Research Goal
+Finish and merge the strategic anti-drift remediation on an exact green head; close/quarantine PR #451; then begin Scan 142 from broad reality under machine-enforced regenerative-field admission.
+
 ## Current Phase
 STRATEGIC_DRIFT_REMEDIATION_EXACT_HEAD_VALIDATION_PENDING
 
@@ -22,6 +25,9 @@ STRATEGIC_DRIFT_REMEDIATION_EXACT_HEAD_VALIDATION_PENDING
 
 ## Active Branch
 `fix/strategic-drift-regenerative-gate`.
+
+## Active PR
+PR #452 — `Prevent strategic drift into transaction proxies` — OPEN on `fix/strategic-drift-regenerative-gate`.
 
 ## Quarantined Work
 PR #451 — `Run Scan 141 on near-complete receipt tuples` — OPEN only as incident/audit evidence.
@@ -38,7 +44,7 @@ The Mianyang/Wuhu evidence remains truthful narrow asset diligence. It is not a 
 ## CI
 The strategic-drift remediation branch has not yet completed exact-head repository CI. Do not merge until the final remediation head passes repository CI. Consume a live TypeSafe/Jev run only if the workflow legitimately triggers for this change; Jev is a shadow research router and must not be invoked as fake commercial evidence.
 
-## Latest Artifacts
+## Latest Artifact / Persisted State
 - `data/research_runs/strategic_drift_incident_2026_09_23.json` — machine incident record.
 - `docs/research/STRATEGIC_DRIFT_INCIDENT_2026-09-23.md` — causal postmortem.
 - `src/strategic_drift_guard.py` — persisted-scan strategic guard.
@@ -46,6 +52,23 @@ The strategic-drift remediation branch has not yet completed exact-head reposito
 - `src/attraction_frontier.py` — regenerative dimensions included in Pareto objectives.
 - `tests/test_strategic_drift_guard.py` — future Scan 142+ enforcement.
 - `data/commercial_reset_state.json` — remediation checkpoint and Scan 142 guard requirements.
+
+## Completed
+- Reconciled the strategic incident against live main and PR #451 rather than continuing the asset lane.
+- Traced the proxy-chain drift from Scan 128 through Scan 141.
+- Added executable regenerative-field hard floors and persisted-scan guard.
+- Added Pareto consistency and future regression coverage.
+- Locked the remediation in doctrine, AGENTS, machine state, and incident artifacts.
+- Opened PR #452 and triggered exact-head repository CI plus live TypeSafe/Jev.
+
+## Current Findings
+The failure is objective substitution, not weak diligence: source-bound cashflow and transferability became increasingly measurable proxies, and the scan loop recursively inherited those proxies without revalidating the regenerative field. The constitutional doctrine itself remained intact.
+
+## Blockers
+- Exact-head CI on the initial PR #452 head failed because recovery-contract headings were omitted and a historical Scan 140 test still assumed the old next-scan cursor.
+- Those are compatibility/checkpoint defects, not reasons to weaken the regenerative hard gate.
+- PR #452 must pass fresh CI on the next exact head before merge.
+- PR #451 must remain unmerged and be closed/quarantined only after the remediation lands safely.
 
 ## Root Cause
 The doctrine did not change. Execution drifted through proxy-chain inheritance:
@@ -68,7 +91,7 @@ The missing machine invariant was: a `HIGH_ATTRACTION_BEACON` did not have to pr
 - Locked the rule in `AGENTS.md`, `FORMAL_TRUTH.md`, and `OPPORTUNITY_ATTRACTION_FIELD.md`.
 
 ## Next Action
-Open one remediation PR from `fix/strategic-drift-regenerative-gate`, require exact-head repository CI, repair any failures, merge only after green validation, then close/quarantine PR #451 and start `ATTRACTION_SCAN_142` from broad current reality under the regenerative-field gate.
+Repair the first PR #452 CI failures without weakening the new hard gate; require fresh exact-head repository CI and live TypeSafe/Jev, merge only after green validation, then close/quarantine PR #451 and start `ATTRACTION_SCAN_142` from broad current reality under the regenerative-field gate.
 
 ## Do Not Repeat
 - Do not merge PR #451 into the strategic mainline.
