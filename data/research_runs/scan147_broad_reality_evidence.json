@@ -1,0 +1,76 @@
+{
+  "scan_id": "ATTRACTION_SCAN_147",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "09081f124b8ed97ca8def14e6c4409fad048f243",
+  "research_method": "BROAD_REALITY_SHARED_CAPACITY_COMPARISON_WITH_CURRENT_OFFICIAL_AND_OPERATIONAL_SOURCES",
+  "sources": {
+    "COMPUTE-MIIT-202604": {
+      "source_class": "CURRENT_NATIONAL_COMPUTE_MATCHING_POLICY",
+      "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_58259bfb30924d6bb225b82b66d1008d.html",
+      "date": "2026-04",
+      "claim": "MIIT's 2026 SME compute action explicitly directs national SME platform zones to match SME demand with compute supply, support idle compute deposits, cross-region/cross-period dispatch, flexible billing and one-stop selection/procurement."
+    },
+    "COMPUTE-HCP-20260510": {
+      "source_class": "CURRENT_NATIONAL_COMPUTE_MARKETPLACE",
+      "url": "https://www.xiongan.gov.cn/20260510/a0e40b2ab73e4c7da9ee357d6a4799df/c.html",
+      "date": "2026-05-10",
+      "claim": "China Compute Platform's SME marketplace reports more than 1,600 enterprise users, over 130 compute providers, more than 170 compute products and integrated compute/model/application procurement, making the intended supply-demand bridge operational."
+    },
+    "SHARED-FACTORY-CQ-20260620": {
+      "source_class": "CURRENT_OPERATIONAL_SHARED_MANUFACTURING_PLATFORM",
+      "url": "https://www.ljxq.gov.cn/zwxx/ljyw/202606/t20260618_15763026.html",
+      "date": "2026-06-20",
+      "claim": "Chongqing's Mingyue Lake shared factory is a 4,000+ square metre one-stop common-technology and manufacturing service platform designed to take hard-tech teams from concept through mass production."
+    },
+    "SHARED-FACTORY-BEIJING-202608": {
+      "source_class": "CURRENT_OPERATIONAL_RAPID_MANUFACTURING_SUPPLY_CHAIN",
+      "url": "https://kfqgw.beijing.gov.cn/zwgkkfq/ztzl/lqztkfq/lqzx/zxxx/202608/t20260804_4808342.html",
+      "date": "2026-08",
+      "claim": "Beijing E-Town's embodied-intelligence supply-chain platform combines selection, rapid prototyping, 3D printing and shared factories and promises a closed loop from component selection through prototype verification to mass production."
+    },
+    "PARKING-JPARKING-202609": {
+      "source_class": "CURRENT_SHARED_PARKING_INCUMBENT",
+      "url": "https://www.jparking.cn/operate/rental",
+      "date": "2026-09",
+      "claim": "JParking currently lets parking facilities publish idle-time spaces and lets drivers search, reserve and rent spaces, with an operating system, online/offline promotion and ongoing user operations; it directly owns the generic idle-space-to-driver bridge."
+    },
+    "COLD-LIANKU-202609": {
+      "source_class": "CURRENT_COLD_STORAGE_MARKETPLACE",
+      "url": "https://www.lianku.org.cn/",
+      "date": "2026-09",
+      "claim": "Lianku operates a cold-storage IoT/big-data platform with warehouse clusters, demand posting, rental listings, site selection, certification, custom tenant acquisition, cold-chain logistics and supply-demand services."
+    },
+    "COLD-MARKET-202608": {
+      "source_class": "CURRENT_COLD_STORAGE_SUPPLY_DEMAND_OBSERVATION",
+      "url": "https://www.frozengoods.com.hk/zh-CN/news/6729?cate=126&child=12",
+      "date": "2026-08-25",
+      "claim": "A 2026 H1 market summary citing CFLP cold-chain committee and Lianku data reports 270M cubic metres of public food cold-storage capacity, 17.819M cubic metres of rental demand and 19.039M cubic metres of offered-for-rent capacity, with strong regional concentration."
+    },
+    "RECYCLE-NDRC-202601": {
+      "source_class": "CURRENT_NATIONAL_USED_EQUIPMENT_RECYCLING_POLICY",
+      "url": "https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202601/t20260108_1403124_ext.html",
+      "date": "2026-01-08",
+      "claim": "The 2026 equipment-renewal policy calls for a national functional resource-recycling platform, county-level recovery networks, internet-plus-recycling expansion and standardized second-hand equipment trading, appraisal and remanufacturing."
+    },
+    "RECYCLE-SASAC-202604": {
+      "source_class": "CURRENT_NATIONAL_RECYCLING_PLATFORM_EXECUTION",
+      "url": "https://www.sasac.gov.cn/n2588025/n2588124/c35401231/content.html",
+      "date": "2026-04-09",
+      "claim": "China Resources Recycling Group says its national functional platform is being built around integrated physical, capital, invoice, contract and information flows to address fragmented supply and opaque multi-layer transactions in recycled resources."
+    }
+  },
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_147-F1",
+    "ATTRACTION_SCAN_147-F2",
+    "ATTRACTION_SCAN_147-F3",
+    "ATTRACTION_SCAN_147-F4",
+    "ATTRACTION_SCAN_147-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN148_IF_NO_REVERSIBLE_ROUTE"
+}
