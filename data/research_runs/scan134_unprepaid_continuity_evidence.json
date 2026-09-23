@@ -1,0 +1,83 @@
+{
+  "schema_version": "research-evidence.v1",
+  "scan_id": "ATTRACTION_SCAN_134",
+  "as_of_date": "2026-09-23",
+  "primary_research_domain": "CHINA",
+  "evidence_packets": [
+    {
+      "formation_id": "ATTRACTION_SCAN_134-F1",
+      "sources": [
+        {
+          "source_id": "F1-S1",
+          "title": "Zhongshan Public Resource Trading Platform - 125 Cuiheng/Nanlang supporting properties bundle auction",
+          "url": "https://www.zsjypt.cn/artical/116/250940",
+          "role": "OFFICIAL_CURRENT_PRICE_LEASE_TERM_RENT_AND_EXPLICIT_POST_TRANSFER_COLLECTION_RIGHT"
+        }
+      ],
+      "closure": "RMB60.427825m bundle and explicit lease succession through 2029 are source-bound; buyer rent starts the month after handover/payment/confirmation, but maximum disclosed annual rent on the detailed leased unit is only RMB9,243.84 and cannot support bundle economics."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_134-F2",
+      "sources": [
+        {
+          "source_id": "F2-S1",
+          "title": "Fang current judicial-sale republication - Xi'an Huangcheng Lidu 2-20302 second auction",
+          "url": "https://m.fang.com/fapai/xian/out_12724692.html",
+          "role": "CURRENT_COURT_NOTICE_REPUBLICATION_WITH_PRICE_POOLED_RENT_TERM_AND_EXPLICIT_BUYER_LEASE_SUCCESSION"
+        }
+      ],
+      "closure": "RMB3.32m floor and buyer succession are explicit, but RMB10,916 monthly rent covers three spaces and the lease ends 2028-02-29, leaving under 24 months of durable receipt coverage."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_134-F3",
+      "sources": [
+        {
+          "source_id": "F3-S1",
+          "title": "JD Bankruptcy Auction - Chongqing Jiulongpo Xijiao Road 28 Building 4 Level 2 units 1/2/3",
+          "url": "https://paimai.jd.com/snapshotdetail/1876209",
+          "role": "CURRENT_SUPERVISED_AUCTION_PRICE_TENANT_AND_RENT_DEDUCTION_RISK"
+        }
+      ],
+      "closure": "RMB12.576536m floor and named tenant are current, but public rent/term are attachment-only and court-resolved leased-area disputes require rent deductions to third parties; exact net buyer receipts and duration remain unbound."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_134-F4",
+      "sources": [
+        {
+          "source_id": "F4-S1",
+          "title": "Beijing Public Resource Trading Service - Xuzhou Nanhai Leather Factory PV disposal",
+          "url": "https://ggzyfw.beijing.gov.cn/jyxxswzcgpplxx/20260826/5686236.html",
+          "role": "OFFICIAL_TRANSFER_PRICE_AND_ASSET_IDENTITY"
+        },
+        {
+          "source_id": "F4-S2",
+          "title": "Beijing Property Exchange project market - Xuzhou Nanhai Leather Factory PV project",
+          "url": "https://otc.cbex.com/xmjs/prj/detail/186098.html",
+          "role": "PRIMARY_5_02MWP_GRID_CONNECTION_OPERATION_AND_CONTRACT_DOCUMENT_EXISTENCE"
+        },
+        {
+          "source_id": "F4-S3",
+          "title": "Current 2026-09-22 relisting aggregation - Xuzhou Nanhai Leather Factory PV project",
+          "url": "https://www.bidcenter.com.cn/zhaobiao/zbhangye-6453-110000-1.html",
+          "role": "CURRENT_RELISTING_DATE_PRICE_AND_DISCLOSURE_WINDOW_CORROBORATION"
+        }
+      ],
+      "closure": "Fresh current relisting at RMB19.443941m plus primary proof of 5.02MWp normal grid-connected operation exist, but project-specific current receipts, payer/tariff, remaining receipt term, settlement succession and O&M transition are not public-bound in retrieved evidence."
+    }
+  ],
+  "excluded_evidence": [
+    {
+      "source_id": "X1",
+      "title": "Ended Shanghai Zhengrong long-lease auction",
+      "url": "https://m.fang.com/fapai/sh/out_12707719.html",
+      "role": "EXCLUDED_NOT_CURRENT_AT_SCAN134_DECISION_POINT"
+    },
+    {
+      "source_id": "X2",
+      "title": "Ended Dongguan Tianli Central leased-property auction",
+      "url": "https://m.fang.com/fapai/dg/out_12716741.html",
+      "role": "EXCLUDED_AUCTION_ENDED_2026_09_22_AND_RECEIPT_AMOUNT_UNBOUND"
+    }
+  ],
+  "scan_conclusion": "SCAN134_UNPREPAID_CONTINUITY_PASS_ZERO_RETAINED_ZERO_COMMERCIAL_PROMOTION"
+}
