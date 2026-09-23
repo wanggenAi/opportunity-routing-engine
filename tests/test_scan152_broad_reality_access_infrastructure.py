@@ -28,7 +28,9 @@ def build_profile(scan,row):
         match_resolvability_evidence=ev("match_resolvability"),action_gate_evidence=ev("action_gate_callability"),
         a_population_replenishment_evidence=ev("a_population_replenishment"),b_population_replenishment_evidence=ev("b_population_replenishment"),
         recurring_connection_pressure_evidence=ev("recurring_connection_pressure"),recurring_missing_edge_evidence=ev("recurring_missing_edge"),
-        recurring_event_source_evidence=ev("recurring_event_source"),**raw["flags"]
+        recurring_event_source_evidence=ev("recurring_event_source"),
+        generic_agent_substitution_evidence=tuple(AttractionEvidence(source_id=ref,claim=registry[ref]["claim"]) for ref in raw.get("generic_agent_substitution_evidence",[])),
+        **raw["flags"]
     )
 
 class Scan152BroadRealityAccessInfrastructureTests(unittest.TestCase):
