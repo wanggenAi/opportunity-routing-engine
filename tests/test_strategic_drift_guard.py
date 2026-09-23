@@ -3,6 +3,7 @@ from pathlib import Path
 
 from src.strategic_drift_guard import (
     ENFORCEMENT_START_SCAN,
+    PUBLIC_REMEDY_ROUTABILITY_ENFORCEMENT_START_SCAN,
     STATE_CHANGE_ENFORCEMENT_START_SCAN,
     strategic_drift_errors,
     strategic_drift_guard_passes,
@@ -131,6 +132,75 @@ def test_scan157_high_attraction_rejects_incumbent_owned_decisive_gate():
 
 def test_scan157_high_attraction_accepts_evidenced_unowned_open_gate():
     scan = scan157_compliant("UNOWNED_OPEN")
+    assert strategic_drift_errors(scan) == []
+
+
+
+def scan159_compliant():
+    scan = scan157_compliant("UNOWNED_OPEN")
+    scan["scan_id"] = (
+        f"ATTRACTION_SCAN_{PUBLIC_REMEDY_ROUTABILITY_ENFORCEMENT_START_SCAN}"
+    )
+    scan["drift_audit"].update(
+        {
+            "public_affected_actor_discoverability_checked": True,
+            "standardizable_nonexpert_match_checked": True,
+            "open_remedy_not_missing_edge_checked": True,
+        }
+    )
+    scan["high_attraction_beacons"][0]["attraction_profile"] = {
+        "scores": {
+            "a_discoverability": 2,
+            "b_discoverability": 2,
+            "match_resolvability": 2,
+            "action_gate_callability": 2,
+        },
+        "flags": {
+            "founder_delivery_required": False,
+            "founder_sales_required_per_transaction": False,
+            "founder_search_required_per_transaction": False,
+            "expert_matching_required_per_transaction": False,
+            "explanation_burden_high": False,
+            "generic_agent_substitutable": False,
+        },
+    }
+    return scan
+
+
+def test_scan159_requires_public_remedy_routability_audit_flags():
+    scan = scan157_compliant("UNOWNED_OPEN")
+    scan["scan_id"] = (
+        f"ATTRACTION_SCAN_{PUBLIC_REMEDY_ROUTABILITY_ENFORCEMENT_START_SCAN}"
+    )
+    errors = strategic_drift_errors(scan)
+    assert (
+        "drift_audit_not_true:public_affected_actor_discoverability_checked"
+        in errors
+    )
+    assert "drift_audit_not_true:standardizable_nonexpert_match_checked" in errors
+    assert "drift_audit_not_true:open_remedy_not_missing_edge_checked" in errors
+
+
+def test_scan159_high_attraction_requires_standard_nonexpert_match():
+    scan = scan159_compliant()
+    profile = scan["high_attraction_beacons"][0]["attraction_profile"]
+    profile["flags"]["expert_matching_required_per_transaction"] = True
+    profile["scores"]["match_resolvability"] = 1
+
+    errors = strategic_drift_errors(scan)
+    assert any(
+        "public_remedy_score_below_floor:match_resolvability:1" in error
+        for error in errors
+    )
+    assert any(
+        "public_remedy_disallowed_flag:expert_matching_required_per_transaction"
+        in error
+        for error in errors
+    )
+
+
+def test_scan159_high_attraction_accepts_public_callable_standard_match():
+    scan = scan159_compliant()
     assert strategic_drift_errors(scan) == []
 
 
