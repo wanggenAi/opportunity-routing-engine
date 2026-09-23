@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "task_key": "commercial-attraction-scan-136",
-  "generation": 3,
+  "generation": 4,
   "status": "ACTIVE",
-  "reconciled_at": "2026-09-23T07:22:00Z",
+  "reconciled_at": "2026-09-23T07:31:00Z",
   "live_main": "16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1",
-  "work_branch": "research/scan136-current-asset-receipts",
-  "frozen_head": "d91d34790fb07c3e45bce977196092c00b86e8da",
-  "stage": "SCAN136_F1_INCUMBENT_PREFLIGHT_F2_CAUSAL_DESCENT",
+  "work_branch": "research/scan136-f1-f2-routing-followup",
+  "frozen_head": "16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1",
+  "stage": "SCAN136_F1_F2_PUBLIC_ROUTE_RESEARCH_COMPLETE_PERSISTENCE_PENDING",
   "scan_id": "ATTRACTION_SCAN_136",
   "retained_research": [
     "ATTRACTION_SCAN_136-F1",
@@ -25,9 +25,14 @@
     "No Scan060-135 exact address reuse found for the four persisted formations.",
     "No commercial promotion, external contact, bid, deposit or purchase authority.",
     "Scan136 resolved_research_formations schema corrected to canonical object records for F3/F4; regression test added.",
-    "Scan135 historical tests now validate historical Scan135 explicitly instead of pinning global auto state to Scan135."
+    "Scan135 historical tests now validate historical Scan135 explicitly instead of pinning global auto state to Scan135.",
+    "Main-push TypeSafe/Jev run 35830677629 is the latest authoritative shadow route: F1 EXACT_INCUMBENT_PREFLIGHT, F2 CAUSAL_DESCENT, F3/F4 NO_FURTHER_RESEARCH; autonomous continuation allowed.",
+    "F1 current second-auction notice supersedes the first-auction receipt wording: current buyer rent collection begins from transfer registration date, not assumed transaction date; transfer is stated possible and registration is required within 30 days after adjudication service, but exact transfer date remains unbound.",
+    "F1 exact-address/certificate public search exposed no independent tenant identity, lease/deposit ledger, land-term or physical-condition evidence; no distinct non-capital control asset beyond judicial ownership/lease succession is publicly evidenced.",
+    "F2 exact-address/case public search resolves only to the current auction notice; detailed lease terms explicitly require telephone consultation. Civil Code 725 preserves lease validity, but auction-specific first buyer rent allocation after the prepaid-through-2026-11 window remains unbound.",
+    "Both F1/F2 therefore remain research-only and public-source exhausted at an external written/source-document boundary; no external contact performed."
   ],
-  "next_action": "Create a fresh follow-up branch from main 16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1; run F1 exact incumbent/control-loop preflight and F2 public causal descent; persist blockers/results without external contact or commercial promotion.",
+  "next_action": "Persist Scan136 F1 exact-incumbent/public preflight and F2 public causal descent on research/scan136-f1-f2-routing-followup; update stale machine/TASK state; open PR; require exact-head CI and live Jev.",
   "pending_operation": null,
   "do_not_repeat": [
     "Do not return to consumed Scan135 branches.",
@@ -42,7 +47,7 @@
     "prior_failure": "HISTORICAL_SCAN135_TESTS_BLOCKED_FORWARD_PROGRESS_AND_TASK_STATE_REQUIRED_HEADINGS_MISSING",
     "current_ci_run_id": 35830529477,
     "current_jev_run_id": 35830529504,
-    "current_status": "RUNNING"
+    "current_status": "SUCCESS"
   },
   "pr_status": "MERGED",
   "pr_exact_head": "d91d34790fb07c3e45bce977196092c00b86e8da",
