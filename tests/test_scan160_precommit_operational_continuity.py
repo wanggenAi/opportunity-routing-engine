@@ -30,7 +30,9 @@ def build_profile(scan,row):
         b_population_replenishment_evidence=ev("b_population_replenishment"),
         recurring_connection_pressure_evidence=ev("recurring_connection_pressure"),
         recurring_missing_edge_evidence=ev("recurring_missing_edge"),
-        recurring_event_source_evidence=ev("recurring_event_source"),**raw["flags"]
+        recurring_event_source_evidence=ev("recurring_event_source"),
+        generic_agent_substitution_evidence=(ev("bridge_compression") if raw["flags"].get("generic_agent_substitutable") else ()),
+        **raw["flags"]
     )
 
 class Scan160PrecommitOperationalContinuityTests(unittest.TestCase):
