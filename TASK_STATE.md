@@ -29,7 +29,7 @@ SCAN156_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 `research/scan156-control-surface-gap-fresh-domains`.
 
 ## Active PR
-Not yet opened at this checkpoint.
+PR #470 — `Run Scan 156 control-surface-gap fresh domains` — OPEN.
 
 ## CI
 - Scan 156 exact-head repository CI: PENDING.
@@ -59,7 +59,7 @@ Repeated shared-capacity and directory archetypes now have diminishing search va
 No human blocker. Exact-head repository CI and real TypeSafe/Jev are pending.
 
 ## Next Action
-Open the Scan 156 PR, freeze its exact head, require exact-head repository CI + real TypeSafe/Jev, consume any reversible route Jev returns, otherwise merge and advance to Scan 157.
+Freeze PR #470 exact head, require exact-head repository CI + real TypeSafe/Jev, consume any reversible route Jev returns, otherwise merge and advance to Scan 157.
 
 ## Do Not Repeat
 - Do not re-scan domains consumed in Scan 142–156 as if a new article created a new ontology.
