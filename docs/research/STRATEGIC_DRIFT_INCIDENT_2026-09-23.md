@@ -116,11 +116,13 @@ Historical scans are preserved as incident evidence rather than rewritten.
 ## Disposition of Scan 141
 
 PR #451 is not a business opportunity to choose between. It is a useful drift
-artifact. It must not be merged into main as the basis for Scan 142 while the
-strategic guard is absent.
+artifact. It was merged concurrently while this remediation PR was open; that merge
+is preserved as audit history only and must not become the basis or strategic prior
+for Scan 142.
 
 The Mianyang/Wuhu receipt work remains valid as narrow asset diligence evidence, but
-it no longer controls commercial search direction.
+it no longer controls commercial search direction. Live main history is not the
+candidate pool, and a merged audit artifact is not a strategic prior.
 
 ## New invariant
 

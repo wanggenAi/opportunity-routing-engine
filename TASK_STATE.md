@@ -9,13 +9,14 @@ Repair a systemic strategic-drift failure before any further commercial scan. Pr
 Resume commercial discovery only after the engine can prove that a retained high-attraction formation is a regenerative value field, not merely a measurable transaction, asset, cashflow stream, explicit task, or price spread.
 
 ## Current Unique Commercial Research Goal
-Finish and merge the strategic anti-drift remediation on an exact green head; close/quarantine PR #451; then begin Scan 142 from broad reality under machine-enforced regenerative-field admission.
+Finish and merge the strategic anti-drift remediation on an exact green head; preserve already-merged PR #451 / Scan 141 only as quarantined audit evidence; then begin Scan 142 from broad reality under machine-enforced regenerative-field admission.
 
 ## Current Phase
-STRATEGIC_DRIFT_REMEDIATION_EXACT_HEAD_VALIDATION_PENDING
+STRATEGIC_DRIFT_REMEDIATION_MAIN_RECONCILED_EXACT_HEAD_REVALIDATION_PENDING
 
 ## Last Verified Main
-- Live `main`: `8a55703f92fbd52b53c41947b04d9fb3bd2b48e4` — merged Scan 140.
+- Live `main`: `a75d0ef90f31c651037318a17d526f277fc97265` — PR #451 / Scan 141 merged concurrently while remediation PR #452 was open.
+- Scan 141 is retained only as quarantined audit evidence and is not a strategic prior for Scan 142.
 - Active commercial candidates: 0.
 - Active transaction units: 0.
 - FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
@@ -30,7 +31,7 @@ STRATEGIC_DRIFT_REMEDIATION_EXACT_HEAD_VALIDATION_PENDING
 PR #452 — `Prevent strategic drift into transaction proxies` — OPEN on `fix/strategic-drift-regenerative-gate`.
 
 ## Quarantined Work
-PR #451 — `Run Scan 141 on near-complete receipt tuples` — OPEN only as incident/audit evidence.
+PR #451 — `Run Scan 141 on near-complete receipt tuples` — MERGED at `a75d0ef90f31c651037318a17d526f277fc97265`; preserve as incident/audit evidence only, never as the Scan 142 search prior.
 
 - exact head: `60a02b1b0754f3e934b7b005816ffb61e81ff77d`;
 - repository CI `35848285296`: SUCCESS;
@@ -42,7 +43,7 @@ PR #451 — `Run Scan 141 on near-complete receipt tuples` — OPEN only as inci
 The Mianyang/Wuhu evidence remains truthful narrow asset diligence. It is not a current strategic prior, commercial candidate, or search ontology.
 
 ## CI
-The strategic-drift remediation branch has not yet completed exact-head repository CI. Do not merge until the final remediation head passes repository CI. Consume a live TypeSafe/Jev run only if the workflow legitimately triggers for this change; Jev is a shadow research router and must not be invoked as fake commercial evidence.
+Pre-reconciliation PR #452 head `a40112fcf837e8a871f12816ad0437922d2ce814` passed repository CI `35860706146` and live TypeSafe/Jev `35860706032`, but those checks are superseded by the main-reconciliation commit. The new exact head must pass repository CI and, if legitimately triggered, live TypeSafe/Jev before merge. Jev remains shadow research routing only.
 
 ## Latest Artifact / Persisted State
 - `data/research_runs/strategic_drift_incident_2026_09_23.json` — machine incident record.
@@ -59,16 +60,16 @@ The strategic-drift remediation branch has not yet completed exact-head reposito
 - Added executable regenerative-field hard floors and persisted-scan guard.
 - Added Pareto consistency and future regression coverage.
 - Locked the remediation in doctrine, AGENTS, machine state, and incident artifacts.
-- Opened PR #452 and triggered exact-head repository CI plus live TypeSafe/Jev.
+- Opened PR #452 and triggered repository CI plus live TypeSafe/Jev; pre-reconciliation head `a40112fcf837e8a871f12816ad0437922d2ce814` passed both.
+- Reconciled the concurrent PR #451 merge: Scan 141 remains truthful audit evidence but is quarantined from Scan 142 strategy.
 
 ## Current Findings
 The failure is objective substitution, not weak diligence: source-bound cashflow and transferability became increasingly measurable proxies, and the scan loop recursively inherited those proxies without revalidating the regenerative field. The constitutional doctrine itself remained intact.
 
 ## Blockers
-- Exact-head CI on the initial PR #452 head failed because recovery-contract headings were omitted and a historical Scan 140 test still assumed the old next-scan cursor.
-- Those are compatibility/checkpoint defects, not reasons to weaken the regenerative hard gate.
-- PR #452 must pass fresh CI on the next exact head before merge.
-- PR #451 must remain unmerged and be closed/quarantined only after the remediation lands safely.
+- PR #451 merged concurrently while PR #452 remediation was open; its Scan 141 artifacts are now audit history on main, not a strategic prior.
+- The pre-reconciliation PR #452 head is green but no longer exact relative to live main.
+- PR #452 must pass fresh exact-head CI / legitimate live Jev after the merge-resolution commit; no regenerative hard gate may be weakened.
 
 ## Root Cause
 The doctrine did not change. Execution drifted through proxy-chain inheritance:
@@ -91,10 +92,10 @@ The missing machine invariant was: a `HIGH_ATTRACTION_BEACON` did not have to pr
 - Locked the rule in `AGENTS.md`, `FORMAL_TRUTH.md`, and `OPPORTUNITY_ATTRACTION_FIELD.md`.
 
 ## Next Action
-Repair the first PR #452 CI failures without weakening the new hard gate; require fresh exact-head repository CI and live TypeSafe/Jev, merge only after green validation, then close/quarantine PR #451 and start `ATTRACTION_SCAN_142` from broad current reality under the regenerative-field gate.
+Require fresh exact-head repository CI and legitimate live TypeSafe/Jev on the main-reconciled PR #452 head; merge only after green validation, then start `ATTRACTION_SCAN_142` from broad current reality under the regenerative-field gate with Scan 141 quarantined as audit evidence.
 
 ## Do Not Repeat
-- Do not merge PR #451 into the strategic mainline.
+- Do not use merged PR #451 / Scan 141 as a strategic prior or continue its asset/cashflow lane.
 - Do not continue the Scan 129–141 asset/cashflow proxy chain.
 - Do not make property yield, contracted rent, transferable assets, foreigner errands, explicit jobs, gigs, RFQs, buyer briefs, or any other single transaction shape the core business ontology.
 - Do not let a previous scan's easiest-to-measure survivor automatically define the next search boundary.

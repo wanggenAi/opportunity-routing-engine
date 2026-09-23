@@ -2,14 +2,15 @@
   "schema_version": "strategic-drift-incident.v1",
   "incident_id": "STRATEGIC_DRIFT_2026_09_23_ASSET_CASHFLOW_PROXY_CHAIN",
   "as_of_date": "2026-09-23",
-  "status": "REMEDIATION_IN_PROGRESS",
-  "current_main": "8a55703f92fbd52b53c41947b04d9fb3bd2b48e4",
+  "status": "REMEDIATION_IN_PROGRESS_MAIN_RECONCILED",
+  "current_main": "a75d0ef90f31c651037318a17d526f277fc97265",
   "quarantined_pr": 451,
   "affected_scan_range": {
     "onset_signal": "ATTRACTION_SCAN_128_NEXT_BOUNDARY",
     "first_material_drift": "ATTRACTION_SCAN_129",
     "entrenched_asset_cashflow_lane": "ATTRACTION_SCAN_131_TO_141",
-    "latest_unmerged_scan": "ATTRACTION_SCAN_141"
+    "latest_unmerged_scan": "NONE_PR451_MERGED_AS_AUDIT_ONLY",
+    "latest_quarantined_scan": "ATTRACTION_SCAN_141"
   },
   "root_causes": [
     "PROXY_CHAIN_INHERITANCE_EACH_SCAN_OPTIMIZED_THE_PREVIOUS_SCAN_MOST_MEASURABLE_SURVIVING_SIGNAL",
@@ -42,5 +43,12 @@
     "active_transaction_units": 0,
     "first_external_value_flow": "NOT_PROVEN"
   },
-  "external_side_effects_performed": false
+  "external_side_effects_performed": false,
+  "quarantined_pr_state": "MERGED_AUDIT_ONLY",
+  "quarantined_pr_merge_sha": "a75d0ef90f31c651037318a17d526f277fc97265",
+  "concurrent_main_reconciliation": {
+    "event": "PR451_MERGED_WHILE_PR452_REMEDIATION_WAS_OPEN",
+    "disposition": "PRESERVE_SCAN141_AS_AUDIT_EVIDENCE_ONLY_DO_NOT_USE_AS_SCAN142_STRATEGIC_PRIOR",
+    "next_scan_id": "ATTRACTION_SCAN_142"
+  }
 }

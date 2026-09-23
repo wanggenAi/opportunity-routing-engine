@@ -1,0 +1,122 @@
+{
+  "schema_version": "scan141-evidence.v1",
+  "scan_id": "ATTRACTION_SCAN_141",
+  "as_of_date": "2026-09-23",
+  "repository_dedup": {
+    "queries": [
+      "友谊街95号自由心岸2栋1层7号车库",
+      "2025川0703执7767号",
+      "金玺商业广场裙楼B118",
+      "2026皖0202执恢264号",
+      "五一路步行街A区1-2层26号",
+      "荆翠西路2号9栋3层301 304"
+    ],
+    "result": "NO_DEFAULT_BRANCH_MATCHES",
+    "scope": "EXACT_ADDRESSES_AND_CASE_IDS_AGAINST_CURRENT_MAIN"
+  },
+  "evidence_packets": [
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F1",
+      "sources": [
+        {
+          "source_id": "F1-S1",
+          "url": "https://m.fang.com/fapai/mianyang/out_12722428.html",
+          "role": "CURRENT_AUCTION_NOTICE_MIRROR"
+        },
+        {
+          "source_id": "F1-S2",
+          "url": "https://www.court.gov.cn/zixun/xiangqing/455991.html",
+          "role": "SUPREME_COURT_GENERIC_POST_TRANSFER_RENT_SUCCESSION_REFERENCE"
+        }
+      ],
+      "bound_facts": [
+        "Auction 2026-10-10 to 2026-10-11.",
+        "Combined 7号车库 and 13号房屋, 48.82 + 37.88 sqm.",
+        "Floor RMB284590; assessment RMB406557.",
+        "Rent RMB24000/year; paid through 2027-06-30.",
+        "Lease published as June 2024 through June 2029.",
+        "Surface gross about 8.43%."
+      ],
+      "closure": "RETAINED_RESEARCH_EXACT_24_MONTH_UNPREPAID_WINDOW_NOT_PROVEN_BECAUSE_LEASE_END_DAY_AND_FIRST_UNPAID_DUE_NODE_ARE_NOT_PUBLIC"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F2",
+      "sources": [
+        {
+          "source_id": "F2-S1",
+          "url": "https://m.fang.com/fapai/wuhu/out_12692605.html",
+          "role": "CURRENT_AUCTION_NOTICE_MIRROR"
+        }
+      ],
+      "bound_facts": [
+        "Auction 2026-10-02 to 2026-10-03.",
+        "40.63 sqm single commercial unit.",
+        "Floor RMB299200; assessment RMB427428.",
+        "Lease 2024-05-01 to 2031-04-30.",
+        "Rent RMB18800/year, annual settlement.",
+        "Surface gross about 6.28%."
+      ],
+      "closure": "RETAINED_RESEARCH_CURRENT_PAID_THROUGH_CURSOR_AND_FIRST_UNPREPAID_RECEIPT_NOT_PUBLIC"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F3",
+      "sources": [
+        {
+          "source_id": "F3-S1",
+          "url": "https://m.fang.com/fapai/puer/out_12703673.html",
+          "role": "CURRENT_AUCTION_NOTICE_MIRROR"
+        }
+      ],
+      "bound_facts": [
+        "Auction 2026-10-04 to 2026-10-05.",
+        "Floor RMB864484.",
+        "Lease 2025-01-01 to 2032-12-31.",
+        "Rent RMB36000/year.",
+        "2025-2027 paid; RMB19189 of 2028 paid; 2029-2032 unpaid.",
+        "Surface gross about 4.16%."
+      ],
+      "closure": "DEMOTED_HIGH_DISCLOSURE_BUT_LOW_SURFACE_ECONOMICS_AND_MULTI_YEAR_PREPAYMENT_DELAY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F4",
+      "sources": [
+        {
+          "source_id": "F4-S1",
+          "url": "https://www.bidcenter.com.cn/news-443859008-9.html",
+          "role": "CURRENT_CHANGE_SALE_NOTICE_MIRROR"
+        },
+        {
+          "source_id": "F4-S2",
+          "url": "https://m.fang.com/fapai/cd/out_12712276.html",
+          "role": "PRIOR_ENDED_SECOND_AUCTION_PRICE_CONTEXT_ONLY"
+        }
+      ],
+      "bound_facts": [
+        "Current change sale published 2026-09-22 and starts 2026-10-07.",
+        "783.26 sqm.",
+        "Lease 2026-06-01 to 2031-05-31.",
+        "Rent RMB18/sqm/month; six-month payments.",
+        "Buyer rent income starts after 2026-12-01.",
+        "Current change-sale entry price is masked in retrieved public mirror.",
+        "Prior second-auction floor RMB2980000 ended 2026-09-21 and is not a current-price substitute."
+      ],
+      "closure": "DEMOTED_RECEIPT_RIGHT_STRONG_BUT_CURRENT_ENTRY_PRICE_UNBOUND"
+    }
+  ],
+  "excluded_evidence": [
+    {
+      "source_url": "https://m.fang.com/fapai/mianyang/out_12720816.html",
+      "reason": "Rent spans an unacquired adjacent garage, so the apparent higher ratio is not asset-level bound."
+    },
+    {
+      "source_url": "https://www.sohu.com/a/1077207807_122455197",
+      "reason": "Wuzhou surface gross about 4.40%, no current paid cursor, plus physical boundary coordination with adjacent third-party shop."
+    },
+    {
+      "source_url": "https://m.fang.com/fapai/datong/out_12743856.html",
+      "reason": "RMB12000/year rent against RMB2307155 floor is economically noncompetitive."
+    }
+  ],
+  "outcome": "TWO_RETAINED_RESEARCH_ZERO_COMMERCIAL_PROMOTION",
+  "external_side_effects_performed": false
+}
