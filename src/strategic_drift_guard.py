@@ -14,11 +14,34 @@ from typing import Any, Mapping, Sequence
 
 ENFORCEMENT_START_SCAN = 142
 STATE_CHANGE_ENFORCEMENT_START_SCAN = 157
+PUBLIC_REMEDY_ROUTABILITY_ENFORCEMENT_START_SCAN = 159
 
 STATE_CHANGE_REQUIRED_DRIFT_AUDIT_FLAGS = (
     "prior_domain_deduplication_checked",
     "state_change_first_search",
     "decisive_action_gate_owner_checked",
+)
+
+PUBLIC_REMEDY_REQUIRED_DRIFT_AUDIT_FLAGS = (
+    "public_affected_actor_discoverability_checked",
+    "standardizable_nonexpert_match_checked",
+    "open_remedy_not_missing_edge_checked",
+)
+
+PUBLIC_REMEDY_REQUIRED_SCORE_FLOORS = {
+    "a_discoverability": 2,
+    "b_discoverability": 2,
+    "match_resolvability": 2,
+    "action_gate_callability": 2,
+}
+
+PUBLIC_REMEDY_DISALLOWED_FLAGS = (
+    "founder_delivery_required",
+    "founder_sales_required_per_transaction",
+    "founder_search_required_per_transaction",
+    "expert_matching_required_per_transaction",
+    "explanation_burden_high",
+    "generic_agent_substitutable",
 )
 
 ALLOWED_HIGH_ATTRACTION_ACTION_GATE_OWNERS = frozenset(
@@ -148,6 +171,46 @@ def validate_state_change_gate(
     return errors
 
 
+def validate_public_remedy_routability(
+    profile: Mapping[str, Any] | None,
+    *,
+    formation_id: str,
+) -> list[str]:
+    """Validate Scan159+ capture feasibility before a beacon can be retained.
+
+    An open remedy market is not itself a missing edge. A high-attraction state-change
+    formation must expose both sides, permit nonexpert repeatable matching, keep the
+    action gate callable, and avoid recurring founder/expert delivery.
+    """
+
+    errors: list[str] = []
+    if not isinstance(profile, Mapping):
+        return [f"{formation_id}:missing_attraction_profile"]
+
+    scores = profile.get("scores")
+    if not isinstance(scores, Mapping):
+        errors.append(f"{formation_id}:missing_attraction_scores")
+    else:
+        for dimension, floor in PUBLIC_REMEDY_REQUIRED_SCORE_FLOORS.items():
+            raw = scores.get(dimension)
+            if isinstance(raw, bool) or not isinstance(raw, int) or raw < floor:
+                errors.append(
+                    f"{formation_id}:public_remedy_score_below_floor:{dimension}:{raw}"
+                )
+
+    flags = profile.get("flags")
+    if not isinstance(flags, Mapping):
+        errors.append(f"{formation_id}:missing_attraction_flags")
+    else:
+        for flag in PUBLIC_REMEDY_DISALLOWED_FLAGS:
+            if flags.get(flag) is not False:
+                errors.append(
+                    f"{formation_id}:public_remedy_disallowed_flag:{flag}"
+                )
+
+    return errors
+
+
 def strategic_drift_errors(scan: Mapping[str, Any]) -> list[str]:
     """Return fail-closed strategic drift errors for current/future scans.
 
@@ -175,6 +238,10 @@ def strategic_drift_errors(scan: Mapping[str, Any]) -> list[str]:
             for flag in STATE_CHANGE_REQUIRED_DRIFT_AUDIT_FLAGS:
                 if drift_audit.get(flag) is not True:
                     errors.append(f"drift_audit_not_true:{flag}")
+        if scan_number >= PUBLIC_REMEDY_ROUTABILITY_ENFORCEMENT_START_SCAN:
+            for flag in PUBLIC_REMEDY_REQUIRED_DRIFT_AUDIT_FLAGS:
+                if drift_audit.get(flag) is not True:
+                    errors.append(f"drift_audit_not_true:{flag}")
 
     high = scan.get("high_attraction_beacons")
     high_rows = high if isinstance(high, list) else []
@@ -193,6 +260,13 @@ def strategic_drift_errors(scan: Mapping[str, Any]) -> list[str]:
             errors.extend(
                 validate_state_change_gate(
                     raw.get("state_change_gate"),
+                    formation_id=formation_id,
+                )
+            )
+        if scan_number >= PUBLIC_REMEDY_ROUTABILITY_ENFORCEMENT_START_SCAN:
+            errors.extend(
+                validate_public_remedy_routability(
+                    raw.get("attraction_profile"),
                     formation_id=formation_id,
                 )
             )
