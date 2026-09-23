@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "task_key": "commercial-attraction-scan-136",
-  "generation": 5,
+  "generation": 6,
   "status": "ACTIVE",
-  "reconciled_at": "2026-09-23T07:35:00Z",
+  "reconciled_at": "2026-09-23T07:38:00Z",
   "live_main": "16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1",
   "work_branch": "research/scan136-f1-f2-routing-followup",
-  "frozen_head": "e4ff17ec81002adf2e262b77d4bdf36db8d3dfa1",
-  "stage": "SCAN136_F1_F2_PR446_EXACT_HEAD_VALIDATION_RUNNING",
+  "frozen_head": "351b1f17d7a2801a677cf1bba43603e3711c7c61",
+  "stage": "SCAN136_PR446_ROUTE_HISTORY_FINAL_VALIDATION_RUNNING",
   "scan_id": "ATTRACTION_SCAN_136",
   "retained_research": [
     "ATTRACTION_SCAN_136-F1",
@@ -32,13 +32,13 @@
     "F2 exact-address/case public search resolves only to the current auction notice; detailed lease terms explicitly require telephone consultation. Civil Code 725 preserves lease validity, but auction-specific first buyer rent allocation after the prepaid-through-2026-11 window remains unbound.",
     "Both F1/F2 therefore remain research-only and public-source exhausted at an external written/source-document boundary; no external contact performed."
   ],
-  "next_action": "Wait for PR #446 exact-head CI 35832459988 and live TypeSafe/Jev 35832460027 to reach terminal status; consume the actual directive; merge only if both succeed.",
+  "next_action": "Wait for PR #446 head 351b1f17 CI 35832778679 and Jev 35832778727; if Jev returns only already-consumed F1/F2 route classes (EXACT_INCUMBENT_PREFLIGHT/CAUSAL_DESCENT) and F3/F4 remain closed, merge; stop only for a genuinely new route class or human-review directive.",
   "pending_operation": {
-    "kind": "PR_EXACT_HEAD_VALIDATION",
+    "kind": "PR_FINAL_EXACT_HEAD_VALIDATION",
     "pr": 446,
-    "head": "e4ff17ec81002adf2e262b77d4bdf36db8d3dfa1",
-    "ci_run_id": 35832459988,
-    "jev_run_id": 35832460027
+    "head": "351b1f17d7a2801a677cf1bba43603e3711c7c61",
+    "ci_run_id": 35832778679,
+    "jev_run_id": 35832778727
   },
   "do_not_repeat": [
     "Do not return to consumed Scan135 branches.",
@@ -52,8 +52,8 @@
     "prior_pr_445_ci_run_id": 35830529477,
     "prior_main_ci_run_id": 35830677638,
     "prior_main_jev_run_id": 35830677629,
-    "current_ci_run_id": 35832459988,
-    "current_jev_run_id": 35832460027,
+    "current_ci_run_id": 35832778679,
+    "current_jev_run_id": 35832778727,
     "current_status": "RUNNING"
   },
   "pr_status": "OPEN",
