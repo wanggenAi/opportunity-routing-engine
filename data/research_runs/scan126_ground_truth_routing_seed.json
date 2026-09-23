@@ -1,0 +1,157 @@
+{
+  "schema_version": "scan126-ground-truth-seed.v1",
+  "as_of_date": "2026-09-23",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "formation_id": "ATTRACTION_SCAN_126-F1",
+  "title": "CROSS_BORDER_CHINA_GROUND_TRUTH_EXECUTION_ROUTING",
+  "status": "HIGH_ATTRACTION_BOOTSTRAP_CANDIDATE_NOT_COMMERCIAL_PROMOTION",
+  "formation_definition": "Remote overseas principals repeatedly reach a time-sensitive decision that cannot be resolved digitally and need a bounded physical action or evidence bundle in China. Replaceable China-local executors can perform the scoped task; the operator owns scope normalization, dispatch, evidence acceptance, buyer communication and settlement.",
+  "not_the_formation": [
+    "factory inspection as one vertical",
+    "Reddit lead generation as the business model",
+    "a traditional sourcing agency",
+    "founder personally visiting sites forever",
+    "professional certification or engineering audit without qualified specialists"
+  ],
+  "observed_demand_evidence": [
+    {
+      "source": "Reddit / ShenzhenMarketplace",
+      "url": "https://www.reddit.com/r/ShenzhenMarketplace/comments/1wlbliu/need_someone_to_verify_a_factory_in_shenzhen/",
+      "observation": "Overseas buyer asked for a local person to verify an Alibaba manufacturer, confirm stock/quality, and return photos/videos before a larger order.",
+      "role": "PARTIAL_FLOW_AND_SELF_REVEALING_INTENT"
+    },
+    {
+      "source": "Reddit / Business_China",
+      "url": "https://www.reddit.com/r/Business_China/comments/1vz00j7/need_a_reliable_sourcing_agent_in_china_that_can/",
+      "observation": "Buyer sought a China-side partner for factory finding, supplier verification, samples, QC, logistics and on-ground support.",
+      "role": "REPLENISHING_CROSS_BORDER_DEMAND_SIGNAL"
+    },
+    {
+      "source": "Upwork",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Site-Goods-Verification-Specialist_~022095499103630157579/",
+      "observation": "A September 2026 one-time on-site production verification job in China carried a $200 fixed budget and required live video, production proof and a quick report.",
+      "role": "DIRECT_PAYMENT_SIGNAL"
+    },
+    {
+      "source": "Upwork",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Showroom-Video-Photo-Assistant-Guangzhou-Foshan_~022095078437887965964/",
+      "observation": "A $100 trial showroom visit required photos/video, dimensions, prices, MOQ and supplier information, with explicit potential for monthly repeat work.",
+      "role": "NON_FACTORY_ADJACENT_REPEAT_SIGNAL"
+    },
+    {
+      "source": "Upwork",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Unannounced-Test-Center-Audit-Chengdu-China-September-14th_~022098629770887146317/",
+      "observation": "A $100 bounded site audit required a physical visit, photos and a predefined report, showing the same mechanism outside sourcing.",
+      "role": "FORMATION_DIVERSITY_SIGNAL"
+    },
+    {
+      "source": "Upwork",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Shanghai-Wine-Shop-Survey_~022100554984121028743/",
+      "observation": "A $525 Shanghai field-research assignment paid per visited shop for photographic inventory evidence.",
+      "role": "MULTI_POINT_FIELD_DATA_SIGNAL"
+    }
+  ],
+  "observed_executor_supply_and_standardization": [
+    {
+      "source": "现场核验云",
+      "url": "https://www.heyanyun.com/",
+      "observation": "Chinese platform describes task decomposition by address/time/photo requirements, local-person matching, evidence QA and privacy processing; public worker reference compensation is RMB30-80 for basic photo tasks and RMB80-200 for short-video/multi-point tasks.",
+      "role": "LOCAL_EXECUTOR_NETWORK_AND_STANDARDIZATION_PRECEDENT"
+    },
+    {
+      "source": "ChinaLocalAgent",
+      "url": "https://chinalocalagent.com/services/local-task-execution",
+      "observation": "Commercial service explicitly sells defined local task execution in China with scope, location, evidence needs and completion reporting.",
+      "role": "CURRENT_INCUMBENT_AND_CATEGORY_VALIDATION"
+    },
+    {
+      "source": "China Biz Agent",
+      "url": "https://chinabizagent.com/about-us/",
+      "observation": "Service positions itself as overseas clients' local hands and eyes for site execution, supplier communication, inspection and purchasing support.",
+      "role": "CURRENT_INCUMBENT_AND_FLOW_VALIDATION"
+    }
+  ],
+  "market_price_signals": [
+    {
+      "source": "Upwork demand",
+      "observation": "Observed same-family one-off buyer budgets include $100 and $200 tasks; scope varies materially."
+    },
+    {
+      "source": "LinkChinaSCM",
+      "url": "https://linkchinascm.com/",
+      "observation": "Public professional pricing lists factory inspection at $299 per session."
+    },
+    {
+      "source": "FactoryPass China",
+      "url": "https://www.chinafactorypass.com/",
+      "observation": "Public professional pricing lists live factory visits from $899; this is a higher-trust/higher-service tier and not directly comparable to a simple field task."
+    }
+  ],
+  "attraction_profile": {
+    "a_voluntary_motion": 3,
+    "b_voluntary_motion": 3,
+    "state_dependent_value_jump": 3,
+    "decision_window": 3,
+    "bridge_compression": 2,
+    "activation_ease": 2,
+    "self_propulsion": 2,
+    "operator_control": 2,
+    "a_discoverability": 3,
+    "b_discoverability": 3,
+    "match_resolvability": 2,
+    "action_gate_callability": 2,
+    "target_state_founder_delivery_required": false,
+    "target_state_founder_search_required": false,
+    "explanation_burden_high": false,
+    "generic_agent_substitutable": false
+  },
+  "key_reasoning": [
+    "The demand is not inferred from a trend: current buyers publicly ask for and pay for local China execution.",
+    "Factory verification is only one manifestation. The same structure appears in showroom evidence, retail surveys, test-center audits, trade-show/factory coordination and sample/QC work.",
+    "The scarce value is not generic information. It is lawful physical presence plus standardized evidence while the buyer's decision window is still open.",
+    "A general AI agent cannot physically inspect a site; however the operator must own dispatch/QA/acceptance rather than become a permanent field worker.",
+    "Existing incumbents validate the category but also mean 'generic China helper' is not sufficient differentiation."
+  ],
+  "bootstrap_boundary": {
+    "manual_transactions_cap": 3,
+    "manual_days_cap": 14,
+    "buyer_money_before_local_execution": "REQUIRED via platform escrow or legitimate prepayment arrangement",
+    "customer_acquisition_for_first_transactions": "May use already-published self-revealing demand; do not manufacture demand with friends/family or paid traffic.",
+    "executor_sourcing_for_first_transactions": "May be manual, but every manual step must be logged as a future replaceable dispatch function.",
+    "founder_free_labor_in_unit_economics": "EXCLUDED",
+    "specialist_certification": "OUT_OF_SCOPE unless separately qualified",
+    "proof_not_granted_by_bootstrap": [
+      "founder independence",
+      "repeatability",
+      "normalized margin",
+      "organic inbound",
+      "nationwide executor coverage"
+    ]
+  },
+  "decisive_unknowns": [
+    "Can a buyer be converted from already-self-revealed demand to prepayment/escrow before the operator incurs local execution cost?",
+    "Can a replaceable local executor complete the same standardized evidence brief without the founder visiting the site?",
+    "After paying executor, travel, payment/platform fees, rework and QA, is normalized contribution margin still positive?",
+    "Can the operator acquire subsequent demand without recurring high-touch founder persuasion?",
+    "Which task classes stay bounded and evidence-based rather than becoming expert sourcing/negotiation/technical certification?"
+  ],
+  "adjacent_task_classes_to_search_next": [
+    "pre-deposit supplier/site reality check",
+    "production-progress verification before balance payment",
+    "showroom/market product evidence capture",
+    "trade-fair booth proxy and supplier evidence collection",
+    "sample pickup/basic condition evidence/forwarding coordination",
+    "retail shelf and local market surveys",
+    "bounded institutional/site compliance observation using client-provided checklist"
+  ],
+  "kill_conditions": [
+    "Every customer requires bespoke sales persuasion rather than self-revealed intent.",
+    "Every job requires a new specialist rather than a replaceable general field executor.",
+    "The operator must personally travel or interpret expert facts for every delivery.",
+    "Access/filming permissions make standardized evidence impossible.",
+    "Normalized margin is non-positive after replacing founder free labor with market cost.",
+    "Disputes or liability require the operator to guarantee facts beyond observable evidence."
+  ],
+  "commercial_promotion": false,
+  "first_external_value_flow": "NOT_PROVEN"
+}
