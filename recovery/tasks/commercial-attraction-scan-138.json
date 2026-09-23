@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "task_key": "commercial-attraction-scan-138",
+  "generation": 1,
+  "status": "ACTIVE",
+  "reconciled_at": "2026-09-23T08:26:00Z",
+  "live_main": "1978cec0a33938e2f56e913eb34123b613c2ded3",
+  "work_branch": "research/scan138-diverse-current-receipts",
+  "frozen_head": "1978cec0a33938e2f56e913eb34123b613c2ded3",
+  "stage": "SCAN138_FRESH_DIVERSE_CURRENT_RESEARCH",
+  "scan_id": "ATTRACTION_SCAN_138",
+  "durable_conclusions": [
+    "Scan137 merged as main 1978cec0 after exact PR head CI 35835873563 and live TypeSafe/Jev 35835873687; Jev directed ADVANCE_TO_NEXT_SCAN with 4/4 NO_FURTHER_RESEARCH.",
+    "Scan138 broadens source/mechanism diversity before any gate relaxation while preserving exact asset-attributable receipts, post-transfer continuity, >=24 month future coverage, computable economics and low recurring human delivery.",
+    "Exact repository dedup returned no hits for fresh Chengdu Nanboyuan, Wuzhou Xihuan Road shops, Xuzhou Green Window 1-113, or Heze Tianying project names."
+  ],
+  "next_action": "Persist Scan138 current evidence with fail-closed primary formations and the fresh rooftop-PV receipt observation, update machine state/TASK_STATE/tests, then open one PR for exact-head CI and live TypeSafe/Jev.",
+  "pending_operation": null,
+  "do_not_repeat": [
+    "Do not reuse Scan060-137 formations or exact addresses.",
+    "Do not reuse the Scan131 23 Hainan EV charging stations.",
+    "Do not reuse Scan136 Shanghai Pudong Avenue 1700 Lane 33 Room 201.",
+    "Do not treat future prepaid-through-2030 rooftop rent as current inherited receipt continuity.",
+    "Do not contact external parties or commit money without explicit authority."
+  ]
+}
