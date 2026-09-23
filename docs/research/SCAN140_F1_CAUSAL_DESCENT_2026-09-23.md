@@ -83,3 +83,24 @@ EXTERNAL CONTACT / BID / DEPOSIT / PURCHASE = NOT AUTHORIZED
 F1 remains `RETAINED_RESEARCH_BLOCKED_ON_FUTURE_TRANSFER_EVENT_AND_FIRST_UNPREPAID_RECEIPT_BINDING`.
 
 F2/F3/F4 remain authoritatively closed. No active commercial candidate or transaction unit is created. The next safe step is exact-head repository CI plus live TypeSafe/Jev revalidation of this materially updated F1 state. If that exact head produces no new reversible public route class, PR #450 may merge and fresh Scan 141 may advance.
+
+
+## Second Jev descent and causal frontier
+
+After the first public-law advance was persisted, Jev run `35844974166` on exact head `39ee2b3f5f67e47a5b551483ce10645af9783421` again returned F1 `CAUSAL_DESCENT` with state fingerprint `b2f4a48e8c54626d1578` and HIGH attention. The second route was consumed rather than treated as a request for user confirmation.
+
+The second descent targeted the remaining prepaid-rent allocation question. Official court-platform auction notices show materially different source-specific handling: one expressly says already prepaid rent is not transferred to the buyer; another separates pre-delivery and post-delivery rent and places specified prepaid-rent refund risk on the buyer. These are comparators, not Weiyuan rules. Their value is falsification: **there is no safe universal prepaid-rent allocation assumption to import into the Weiyuan case.**
+
+Exact Weiyuan searches still produced no public detailed lease, rent ledger, prepaid-rent allocation clause or future auction-completion adjudication. Because the auction itself is scheduled for 2026-10-18, the actual ownership-transfer event does not yet exist in the public record.
+
+The current public causal frontier is therefore:
+
+```text
+GENERIC BUYER RENT SUCCESSION = EVIDENCED
+PREPAID-RENT HANDLING = PROVEN SOURCE-SPECIFIC
+WEIYUAN ACTUAL TRANSFER = FUTURE / NOT YET OBSERVABLE
+WEIYUAN FIRST UNPREPAID RECEIPT = CASE-SPECIFIC SOURCE REQUIRED
+PUBLIC CAUSAL DESCENT TODAY = EXHAUSTED
+```
+
+This does not close F1 permanently. It leaves F1 as retained research that may be revisited only when a future public auction outcome/adjudication exists or a case-specific lease/rent ledger becomes available. It still creates no commercial candidate and authorizes no external action.
