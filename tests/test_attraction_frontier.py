@@ -29,6 +29,11 @@ def profile(signal_id: str, **overrides):
         b_discoverability=2,
         match_resolvability=2,
         action_gate_callability=2,
+        a_population_replenishment=2,
+        b_population_replenishment=2,
+        recurring_connection_pressure=2,
+        recurring_missing_edge=2,
+        recurring_event_source=2,
         a_motion_evidence=ev(signal_id + "-a"),
         b_motion_evidence=ev(signal_id + "-b"),
         value_jump_evidence=ev(signal_id + "-value"),
@@ -41,6 +46,11 @@ def profile(signal_id: str, **overrides):
         b_discoverability_evidence=ev(signal_id + "-b-discoverability"),
         match_resolvability_evidence=ev(signal_id + "-match"),
         action_gate_evidence=ev(signal_id + "-action"),
+        a_population_replenishment_evidence=ev(signal_id + "-a-pop"),
+        b_population_replenishment_evidence=ev(signal_id + "-b-pop"),
+        recurring_connection_pressure_evidence=ev(signal_id + "-pressure"),
+        recurring_missing_edge_evidence=ev(signal_id + "-edge"),
+        recurring_event_source_evidence=ev(signal_id + "-event"),
     )
     values.update(overrides)
     return AttractionDiscoveryProfile(**values)
@@ -126,3 +136,10 @@ def test_action_gate_is_non_compensatory_in_frontier():
     result = non_dominated_layers([valid, blocked])
     assert result.frontier_signal_ids == ("valid",)
     assert result.excluded_signal_ids == ("blocked",)
+
+
+def test_regenerative_field_dimensions_participate_in_pareto_dominance():
+    stronger = profile("stronger", recurring_connection_pressure=3)
+    base = profile("base")
+    assert dominates(stronger, base) is True
+    assert dominates(base, stronger) is False
