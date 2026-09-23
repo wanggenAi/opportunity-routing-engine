@@ -100,10 +100,9 @@ class Scan148CrossBorderLocalExecutionTests(unittest.TestCase):
         self.assertTrue(
             scan["strategic_reboot"]["scan144_aftermarket_service_not_inherited"]
         )
-        self.assertIn(
-            "non-specialist",
-            scan["comparison_profiles"]["validated_boundary"].lower(),
-        )
+        boundary = scan["comparison_profiles"]["validated_boundary"].lower()
+        self.assertIn("specialist inspection", boundary)
+        self.assertIn("low-risk lawful bounded", boundary)
 
     def test_machine_state_scan148_and_scan147_reconciliation(self):
         state = load(STATE_PATH)
