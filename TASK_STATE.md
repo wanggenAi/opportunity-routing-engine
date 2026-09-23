@@ -9,18 +9,17 @@ Continue the clean-slate Attraction Field under the machine-enforced regenerativ
 Close or prove regenerative formations without promoting explicit tasks or transaction proxies; preserve exact-head repository CI + live TypeSafe/Jev and fail closed on incumbent ownership, inaccessible control/data, founder-dependent acquisition or unevidenced economics.
 
 ## Current Unique Commercial Research Goal
-Validate Scan 145's zero-retention broad-reality result. If exact-head repository CI and live TypeSafe/Jev leave no reversible route, advance to Scan 146 from a fresh broad current reality set.
+Validate Scan 146's zero-retention broad-reality resource-circulation result. If exact-head repository CI and live TypeSafe/Jev leave no reversible route, advance to Scan 147 from a fresh broad current reality set.
 
 ## Current Phase
-SCAN145_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
+SCAN146_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 
 ## Last Verified Main
-- `main`: `b0fcb61d71f4df46b752955199909f90170f3350` — PR #455 merged.
-- Scan 144 final exact head `b3607b477033ac122ce7df813ef684529b6d71cb`.
-- Scan 144 repository CI `35870359140`: SUCCESS.
-- Scan 144 live TypeSafe/Jev `35870358761`: SUCCESS.
-- Jev artifact `10754233929`, digest `sha256:d3c53b30e23d3edeb2953f5546d9911ef43776e6f3e24b476a11df2d960e3027`.
-- Scan 144 effective routes: 5/5 `NO_FURTHER_RESEARCH`; continuation `ADVANCE_TO_NEXT_SCAN`.
+- `main`: `cf36af62ee9664573f95925d132eeaa6b1ac661f` — PR #456 merged.
+- Scan 145 final exact head `8369f2c558610c836854cc11aa6cb2cf659f25b0`.
+- Scan 145 repository CI `35871705483`: SUCCESS.
+- Scan 145 live TypeSafe/Jev `35871705283`: SUCCESS.
+- Scan 145 Jev effective routes: 5/5 `NO_FURTHER_RESEARCH`; continuation `ADVANCE_TO_NEXT_SCAN`.
 - Active commercial candidates: 0.
 - Active transaction units: 0.
 - FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
@@ -29,49 +28,44 @@ SCAN145_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 #143 — `P0: Clean-slate Attraction Field -> first external value flow`.
 
 ## Active Branch
-`research/scan145-broad-reality-current-service-fields`.
+`research/scan146-broad-reality-resource-circulation`.
 
 ## Active PR
-PR #456 — `Run Scan 145 broad-reality current service fields` — OPEN.
+PENDING_SCAN146_PR.
 
 ## CI
-- Scan 145 exact-head repository CI: PENDING.
-- Scan 145 live TypeSafe/Jev: PENDING.
+- Scan 146 exact-head repository CI: PENDING.
+- Scan 146 live TypeSafe/Jev: PENDING.
 
 ## Latest Artifact / Persisted State
-- `data/research_runs/attraction_scan_145.json`
-- `data/research_runs/scan145_broad_reality_evidence.json`
-- `docs/research/SCAN145_BROAD_REALITY_CURRENT_SERVICE_FIELDS_2026-09-23.md`
+- `data/research_runs/attraction_scan_146.json`
+- `data/research_runs/scan146_broad_reality_evidence.json`
+- `docs/research/SCAN146_BROAD_REALITY_RESOURCE_CIRCULATION_2026-09-23.md`
+- `tests/test_scan146_broad_reality_resource_circulation.py`
 - `data/commercial_reset_state.json`
 
 ## Completed
-- PR #455 / Scan 144 merged after exact-head CI and live Jev resolved all effective routes to `NO_FURTHER_RESEARCH`.
-- Scan 145 rederived from unrelated current reality instead of narrowing Scan 144.
-- Five fields were compared: Mexico/LatAm distributor channels, SME AI-service procurement, commercial patient companion services, data-product commercialization matching, and traveler luggage transfer.
-- All five are closed before retention:
-  - Mexico channel friction is real, but Meorient already owns buyer data, AI matching, pre-show appointments, in-show routing, post-show remarketing and CRM; rebuilding the buyer graph independently requires recurring search/sales.
-  - AI-service friction is real, but the national program is itself building the provider pool, supply-demand connection and standardized packages; contextual delivery/acceptance remains expert work.
-  - Patient companion demand is real, but institutional risk/privacy/contract responsibility and human delivery dominate while current platforms already own booking/insurance/pricing.
-  - Data commercialization friction is real, but public enterprise specialists already perform one-to-one supply-demand/scenario brokering and compliant-channel guidance.
-  - Luggage transfer demand is real, but airline/logistics and destination networks already own booking, custody handoff and physical delivery.
+- Reconciled Scan 145 final exact-head CI/Jev truth from merged PR #456.
+- Rederived Scan 146 from five unrelated current resource-circulation fields.
+- All five are closed before retention: youth pop-up space, agricultural machinery service, flexible warehousing, solid-waste resource circulation, and idle-rooftop distributed PV.
 - High-attraction beacons: 0.
 - Retained research formations: 0.
 - No commercial promotion or external side effect occurred.
 
 ## Current Findings
-Scan 145 is a deliberate fail-closed scan: visible demand friction is insufficient when the actual bridge is already owned by a scaled incumbent/public control surface or when the unresolved value is expert/institutional/physical execution rather than a light operator asset.
+Resource underuse remains common, but Scan 146's five fields fail on operator control rather than on lack of need: public/institutional programs own activation, regulated service/acceptance chains own execution, a national warehouse platform already owns generic discovery, municipal waste systems own licensed traceable routing, and rooftop PV depends on property rights plus engineering/long-term-contract control.
 
 ## Blockers
-No human blocker. Exact-head repository CI and live TypeSafe/Jev have not yet run on the Scan 145 head.
+No human blocker. Exact-head repository CI and live TypeSafe/Jev have not yet run on the Scan 146 head.
 
 ## Next Action
-Freeze PR #456's exact head, require repository CI + live TypeSafe/Jev, and advance to Scan 146 only if no reversible research route is returned.
+Freeze the Scan 146 PR exact head, require repository CI + live TypeSafe/Jev, and advance to Scan 147 only if no reversible research route is returned.
 
 ## Do Not Repeat
-- Do not rescue Scan 145 by narrowing one of its five closed fields.
+- Do not rescue any Scan 146 field by narrowing it after authoritative closure.
+- Do not return to Scan 145 Mexico channels, AI-service procurement, patient companion, data commercialization or luggage transfer.
 - Do not return to Scan 143 factory inspection or Scan 144 industrial aftermarket service.
-- Do not treat government acknowledgement of friction as proof that a commercial bridge is unowned.
-- Do not assume proprietary incumbent buyer/service data is accessible.
+- Do not treat public-program acknowledgement of resource underuse as proof of an unowned commercial bridge.
 - Do not weaken `UNKNOWN != PASS`.
 - Do not perform outreach, quoting, account creation, applications or money movement before a validated external-action gate.
 
