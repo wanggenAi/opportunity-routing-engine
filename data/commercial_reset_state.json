@@ -6,15 +6,7 @@
   "active_transaction_units": [],
   "active_parent_formations": [],
   "inherited_watchlist": [],
-  "retained_research_formations": [
-    "ATTRACTION_SCAN_135-F1",
-    "ATTRACTION_SCAN_136-F1",
-    "ATTRACTION_SCAN_136-F2",
-    "ATTRACTION_SCAN_139-F1",
-    "ATTRACTION_SCAN_140-F1",
-    "ATTRACTION_SCAN_141-F1",
-    "ATTRACTION_SCAN_141-F2"
-  ],
+  "retained_research_formations": [],
   "resolved_research_formations": [
     {
       "formation_id": "ATTRACTION_SCAN_001-F1",
@@ -330,6 +322,41 @@
       "formation_id": "ATTRACTION_SCAN_140-F4",
       "verdict": "DEMOTED_CURRENT_SHANGHAI_APPARENT_7_43_PERCENT_RENT_RATIO_HAS_ZERO_UNPREPAID_BUYER_RECEIPTS_AND_SUB_24_MONTH_REMAINING_TERM",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_135-F1",
+      "verdict": "CLOSED_STRATEGIC_QUARANTINE_PROXY_CHAIN_NON_REGENERATIVE_FIELD_NOT_ADMISSIBLE_AS_CURRENT_RESEARCH_PRIOR",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F1",
+      "verdict": "CLOSED_STRATEGIC_QUARANTINE_PROXY_CHAIN_NON_REGENERATIVE_FIELD_NOT_ADMISSIBLE_AS_CURRENT_RESEARCH_PRIOR",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F2",
+      "verdict": "CLOSED_STRATEGIC_QUARANTINE_PROXY_CHAIN_NON_REGENERATIVE_FIELD_NOT_ADMISSIBLE_AS_CURRENT_RESEARCH_PRIOR",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_139-F1",
+      "verdict": "CLOSED_STRATEGIC_QUARANTINE_PROXY_CHAIN_NON_REGENERATIVE_FIELD_NOT_ADMISSIBLE_AS_CURRENT_RESEARCH_PRIOR",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_140-F1",
+      "verdict": "CLOSED_STRATEGIC_QUARANTINE_PROXY_CHAIN_NON_REGENERATIVE_FIELD_NOT_ADMISSIBLE_AS_CURRENT_RESEARCH_PRIOR",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F1",
+      "verdict": "CLOSED_STRATEGIC_QUARANTINE_PROXY_CHAIN_NON_REGENERATIVE_FIELD_NOT_ADMISSIBLE_AS_CURRENT_RESEARCH_PRIOR",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F2",
+      "verdict": "CLOSED_STRATEGIC_QUARANTINE_PROXY_CHAIN_NON_REGENERATIVE_FIELD_NOT_ADMISSIBLE_AS_CURRENT_RESEARCH_PRIOR",
+      "resolved_date": "2026-09-23"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
@@ -337,7 +364,7 @@
   "last_completed_scan_id": "ATTRACTION_SCAN_141",
   "last_resolved_formation_id": "ATTRACTION_SCAN_140-F4",
   "next_scan_id": "ATTRACTION_SCAN_142",
-  "current_research_action": "REQUIRE_RECONCILED_PR452_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_MERGE_AND_START_SCAN142_FROM_BROAD_REALITY_WITH_REGENERATIVE_FIELD_GATE",
+  "current_research_action": "REQUIRE_EXACT_HEAD_CI_AND_LIVE_TYPESAFE_JEV_AFTER_STRATEGIC_QUARANTINE_CLOSURES_THEN_MERGE_PR452_AND_START_SCAN142_FROM_BROAD_REALITY",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -1937,7 +1964,7 @@
     "purchase_authorized": false
   },
   "last_completed_scan_file": "data/research_runs/attraction_scan_141.json",
-  "last_completed_scan_result": "QUARANTINED_AUDIT_ONLY_SCAN141_ZERO_COMMERCIAL_PROMOTION_STRATEGIC_DRIFT_REMEDIATION_IN_PROGRESS",
+  "last_completed_scan_result": "SCAN141_MERGED_AUDIT_ONLY_ALL_ACTIVE_ASSET_PROXY_FORMATIONS_STRATEGICALLY_QUARANTINED_ZERO_COMMERCIAL_PROMOTION",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
     "evidence_artifact": "data/research_runs/scan136_current_asset_receipts_evidence.json",
@@ -2368,6 +2395,17 @@
     "quarantined_pr_state": "MERGED_AUDIT_ONLY",
     "quarantined_merged_main_sha": "a75d0ef90f31c651037318a17d526f277fc97265",
     "quarantined_scan_id": "ATTRACTION_SCAN_141",
-    "do_not_use_quarantined_scan141_as_strategy": true
+    "do_not_use_quarantined_scan141_as_strategy": true,
+    "quarantined_formation_ids": [
+      "ATTRACTION_SCAN_135-F1",
+      "ATTRACTION_SCAN_136-F1",
+      "ATTRACTION_SCAN_136-F2",
+      "ATTRACTION_SCAN_139-F1",
+      "ATTRACTION_SCAN_140-F1",
+      "ATTRACTION_SCAN_141-F1",
+      "ATTRACTION_SCAN_141-F2"
+    ],
+    "active_retained_research_after_quarantine": [],
+    "quarantine_closure_policy": "PRESERVE_SOURCE_ARTIFACTS_AND_LOCAL_FACTS_BUT_FORCE_NO_FURTHER_RESEARCH_IN_ACTIVE_STRATEGY"
   }
 }

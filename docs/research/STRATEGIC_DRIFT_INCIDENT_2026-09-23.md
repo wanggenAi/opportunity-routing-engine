@@ -124,6 +124,11 @@ The Mianyang/Wuhu receipt work remains valid as narrow asset diligence evidence,
 it no longer controls commercial search direction. Live main history is not the
 candidate pool, and a merged audit artifact is not a strategic prior.
 
+The active machine state also closes every still-retained formation from the drifted
+Scan 135/136/139/140/141 asset/cashflow chain with a strategic-quarantine closure.
+This preserves source facts while preventing Jev or a future agent from reopening the
+lane merely because a historical formation remained in `retained_research_formations`.
+
 ## New invariant
 
 ```text

@@ -12,7 +12,7 @@ Resume commercial discovery only after the engine can prove that a retained high
 Finish and merge the strategic anti-drift remediation on an exact green head; preserve already-merged PR #451 / Scan 141 only as quarantined audit evidence; then begin Scan 142 from broad reality under machine-enforced regenerative-field admission.
 
 ## Current Phase
-STRATEGIC_DRIFT_REMEDIATION_MAIN_RECONCILED_EXACT_HEAD_REVALIDATION_PENDING
+STRATEGIC_DRIFT_REMEDIATION_PROXY_CHAIN_QUARANTINED_EXACT_HEAD_REVALIDATION_PENDING
 
 ## Last Verified Main
 - Live `main`: `a75d0ef90f31c651037318a17d526f277fc97265` — PR #451 / Scan 141 merged concurrently while remediation PR #452 was open.
@@ -43,7 +43,7 @@ PR #451 — `Run Scan 141 on near-complete receipt tuples` — MERGED at `a75d0e
 The Mianyang/Wuhu evidence remains truthful narrow asset diligence. It is not a current strategic prior, commercial candidate, or search ontology.
 
 ## CI
-Pre-reconciliation PR #452 head `a40112fcf837e8a871f12816ad0437922d2ce814` passed repository CI `35860706146` and live TypeSafe/Jev `35860706032`, but those checks are superseded by the main-reconciliation commit. The new exact head must pass repository CI and, if legitimately triggered, live TypeSafe/Jev before merge. Jev remains shadow research routing only.
+Main-reconciled head `1bffd7e62c1e18dcf6fd7a49918f8be4642b19b7` passed repository CI `35861745625`, while live TypeSafe/Jev `35861745852` correctly exposed that Scan 141 F1/F2 were still open in active machine state (`CAUSAL_DESCENT` + `HUMAN_REVIEW`). That is a state-quarantine defect, not a reason to continue the asset lane. The current head closes all retained Scan 135/136/139/140/141 proxy-chain formations authoritatively and must be revalidated exactly.
 
 ## Latest Artifact / Persisted State
 - `data/research_runs/strategic_drift_incident_2026_09_23.json` — machine incident record.
@@ -62,14 +62,17 @@ Pre-reconciliation PR #452 head `a40112fcf837e8a871f12816ad0437922d2ce814` passe
 - Locked the remediation in doctrine, AGENTS, machine state, and incident artifacts.
 - Opened PR #452 and triggered repository CI plus live TypeSafe/Jev; pre-reconciliation head `a40112fcf837e8a871f12816ad0437922d2ce814` passed both.
 - Reconciled the concurrent PR #451 merge: Scan 141 remains truthful audit evidence but is quarantined from Scan 142 strategy.
+- Consumed Jev run `35861745852`: its repeated F1 `CAUSAL_DESCENT` / F2 `HUMAN_REVIEW` exposed that narrative quarantine had not yet removed the proxy formations from active research state.
+- Closed all currently retained Scan 135/136/139/140/141 asset/cashflow proxy formations in authoritative machine state; source facts remain intact, but their effective Jev route must now fail closed.
 
 ## Current Findings
 The failure is objective substitution, not weak diligence: source-bound cashflow and transferability became increasingly measurable proxies, and the scan loop recursively inherited those proxies without revalidating the regenerative field. The constitutional doctrine itself remained intact.
 
 ## Blockers
 - PR #451 merged concurrently while PR #452 remediation was open; its Scan 141 artifacts are now audit history on main, not a strategic prior.
-- The pre-reconciliation PR #452 head is green but no longer exact relative to live main.
-- PR #452 must pass fresh exact-head CI / legitimate live Jev after the merge-resolution commit; no regenerative hard gate may be weakened.
+- Main-reconciled head `1bffd7e6...` passed CI but Jev showed the quarantined asset formations were still active research records.
+- Active machine state now closes every retained formation from the drifted Scan 135/136/139/140/141 proxy chain with a strategic-quarantine closure while preserving all source artifacts.
+- PR #452 must pass fresh exact-head CI / live Jev after this closure; no regenerative hard gate may be weakened.
 
 ## Root Cause
 The doctrine did not change. Execution drifted through proxy-chain inheritance:
@@ -92,7 +95,7 @@ The missing machine invariant was: a `HIGH_ATTRACTION_BEACON` did not have to pr
 - Locked the rule in `AGENTS.md`, `FORMAL_TRUTH.md`, and `OPPORTUNITY_ATTRACTION_FIELD.md`.
 
 ## Next Action
-Require fresh exact-head repository CI and legitimate live TypeSafe/Jev on the main-reconciled PR #452 head; merge only after green validation, then start `ATTRACTION_SCAN_142` from broad current reality under the regenerative-field gate with Scan 141 quarantined as audit evidence.
+Require fresh exact-head repository CI and live TypeSafe/Jev after the authoritative proxy-chain quarantine closures; merge PR #452 only if those checks are green and Jev cannot reopen the quarantined formations, then start `ATTRACTION_SCAN_142` from broad current reality under the regenerative-field gate.
 
 ## Do Not Repeat
 - Do not use merged PR #451 / Scan 141 as a strategic prior or continue its asset/cashflow lane.
