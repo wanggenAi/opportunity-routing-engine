@@ -3,20 +3,21 @@
 GitHub live state wins over this checkpoint if they disagree.
 
 ## Current Mission
-Repair a systemic strategic-drift failure before any further commercial scan. Preserve the Actor-First Regenerative Latent-Value Formation doctrine as an executable admission invariant rather than a narrative reminder.
-
-## Goal
-Resume commercial discovery only after the engine can prove that a retained high-attraction formation is a regenerative value field, not merely a measurable transaction, asset, cashflow stream, explicit task, or price spread.
+Run the clean-slate Attraction Field from broad current reality under the machine-enforced regenerative-field guard until a real external value flow is proven.
 
 ## Current Unique Commercial Research Goal
-Finish and merge the strategic anti-drift remediation on an exact green head; preserve already-merged PR #451 / Scan 141 only as quarantined audit evidence; then begin Scan 142 from broad reality under machine-enforced regenerative-field admission.
+Complete Scan 142 exact-head validation and consume the TypeSafe/Jev route for the only surviving high-attraction beacon: distributed flexible-power resources -> VPP eligibility / aggregation routing. Do not promote it commercially until incumbent ownership, scalable data access and operator-control boundaries are source-bound.
 
 ## Current Phase
-STRATEGIC_DRIFT_REMEDIATION_PROXY_CHAIN_QUARANTINED_EXACT_HEAD_REVALIDATION_PENDING
+SCAN142_REGENERATIVE_FIELD_REBOOT_PERSISTED_EXACT_HEAD_VALIDATION_PENDING
 
 ## Last Verified Main
-- Live `main`: `a75d0ef90f31c651037318a17d526f277fc97265` — PR #451 / Scan 141 merged concurrently while remediation PR #452 was open.
-- Scan 141 is retained only as quarantined audit evidence and is not a strategic prior for Scan 142.
+- `main`: `2024ce0196720aef901e58211e049fd9336b87be` — PR #452 merged.
+- PR #452 exact head `6af663f9d034152f51cde7fcef22ed9ffaedddd6`.
+- Repository CI `35862663185`: SUCCESS.
+- Live TypeSafe/Jev `35862663313`: SUCCESS.
+- Jev artifact `10750163514`, digest `sha256:40fb492edefb686cd181649a3008db8ee3086c2d2d86e1bed997c7b56b9fa74f`.
+- Scan 141 and the Scan 128-141 asset/cashflow proxy chain remain audit history only; their historically retained rows have authoritative strategic-quarantine closures.
 - Active commercial candidates: 0.
 - Active transaction units: 0.
 - FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
@@ -25,87 +26,55 @@ STRATEGIC_DRIFT_REMEDIATION_PROXY_CHAIN_QUARANTINED_EXACT_HEAD_REVALIDATION_PEND
 #143 — `P0: Clean-slate Attraction Field -> first external value flow`.
 
 ## Active Branch
-`fix/strategic-drift-regenerative-gate`.
+`research/scan142-regenerative-field-reboot`.
 
 ## Active PR
-PR #452 — `Prevent strategic drift into transaction proxies` — OPEN on `fix/strategic-drift-regenerative-gate`.
+Not opened yet at this checkpoint; open from the current branch and then require exact-head repository CI + live TypeSafe/Jev.
 
-## Quarantined Work
-PR #451 — `Run Scan 141 on near-complete receipt tuples` — MERGED at `a75d0ef90f31c651037318a17d526f277fc97265`; preserve as incident/audit evidence only, never as the Scan 142 search prior.
+## Scan 142 Result
+Broad current-reality sensing covered distributed energy/VPP, cross-border ecommerce returns, idle compute/SME AI workloads, and EV-battery recovery.
 
-- exact head: `60a02b1b0754f3e934b7b005816ffb61e81ff77d`;
-- repository CI `35848285296`: SUCCESS;
-- live TypeSafe/Jev `35848285340`: SUCCESS;
-- final Jev route included F2 `HUMAN_REVIEW`;
-- the user subsequently identified the higher-order failure: the asset/receipt lane itself is strategically off-course;
-- do not merge PR #451 as the basis for the next commercial scan.
+- **F1 VPP resource -> operator routing:** only current HIGH_ATTRACTION_BEACON; retained for cheap falsification only.
+- **F2 9610 return routing:** closed because the regenerative flow is real but current platform evidence already shows optimal-port selection, so the independent missing edge is not proven.
+- **F3 compute routing:** closed because MIIT-designated national/platform surfaces already pool, match and support one-stop procurement.
+- **F4 battery recovery routing:** closed because regulated producer recovery networks plus physical/safety obligations own the chain.
 
-The Mianyang/Wuhu evidence remains truthful narrow asset diligence. It is not a current strategic prior, commercial candidate, or search ontology.
+## F1 Why It Survived Attention
+Current official evidence independently establishes:
+- replenishing distributed generation/storage/load resources;
+- replenishing VPP operators / aggregation units;
+- recurring market-entry pressure;
+- a still-observed small/scattered-resource market-entry difficulty;
+- recurring market/registration events;
+- structured resource type, node, capability and registration fields;
+- standardized trading-platform / aggregation-service rails.
 
-## CI
-Main-reconciled head `1bffd7e62c1e18dcf6fd7a49918f8be4642b19b7` passed repository CI `35861745625`, while live TypeSafe/Jev `35861745852` correctly exposed that Scan 141 F1/F2 were still open in active machine state (`CAUSAL_DESCENT` + `HUMAN_REVIEW`). That is a state-quarantine defect, not a reason to continue the asset lane. The current head closes all retained Scan 135/136/139/140/141 proxy-chain formations authoritatively and must be revalidated exactly.
+This is not a commercial promotion. Existing VPP platforms may still absorb the whole proposed layer.
 
-## Latest Artifact / Persisted State
-- `data/research_runs/strategic_drift_incident_2026_09_23.json` — machine incident record.
-- `docs/research/STRATEGIC_DRIFT_INCIDENT_2026-09-23.md` — causal postmortem.
-- `src/strategic_drift_guard.py` — persisted-scan strategic guard.
-- `src/attraction_discovery.py` — regenerative-field hard floors.
-- `src/attraction_frontier.py` — regenerative dimensions included in Pareto objectives.
-- `tests/test_strategic_drift_guard.py` — future Scan 142+ enforcement.
-- `data/commercial_reset_state.json` — remediation checkpoint and Scan 142 guard requirements.
+## F1 Decisive Unknowns
+1. Does an independent multi-operator eligibility/router layer remain unowned after exact incumbent preflight?
+2. Can candidate-resource and operator-offer data be obtained scalably without founder-by-founder search/sales?
+3. Is there captureable value in matching resource owners to compatible VPP operators/retail packages after incumbent margins?
+4. Can the standard registration/contracting rail be integrated without becoming the licensed VPP or a recurring engineering contractor?
 
-## Completed
-- Reconciled the strategic incident against live main and PR #451 rather than continuing the asset lane.
-- Traced the proxy-chain drift from Scan 128 through Scan 141.
-- Added executable regenerative-field hard floors and persisted-scan guard.
-- Added Pareto consistency and future regression coverage.
-- Locked the remediation in doctrine, AGENTS, machine state, and incident artifacts.
-- Opened PR #452 and triggered repository CI plus live TypeSafe/Jev; pre-reconciliation head `a40112fcf837e8a871f12816ad0437922d2ce814` passed both.
-- Reconciled the concurrent PR #451 merge: Scan 141 remains truthful audit evidence but is quarantined from Scan 142 strategy.
-- Consumed Jev run `35861745852`: its repeated F1 `CAUSAL_DESCENT` / F2 `HUMAN_REVIEW` exposed that narrative quarantine had not yet removed the proxy formations from active research state.
-- Added authoritative strategic-quarantine closures for all historically retained Scan 135/136/139/140/141 asset/cashflow proxy formations; source facts and the historical retained ledger remain intact, but their effective Jev route must now fail closed.
-
-## Current Findings
-The failure is objective substitution, not weak diligence: source-bound cashflow and transferability became increasingly measurable proxies, and the scan loop recursively inherited those proxies without revalidating the regenerative field. The constitutional doctrine itself remained intact.
-
-## Blockers
-- PR #451 merged concurrently while PR #452 remediation was open; its Scan 141 artifacts are now audit history on main, not a strategic prior.
-- Main-reconciled head `1bffd7e6...` passed CI but Jev showed the quarantined asset formations were still active research records.
-- Active machine state now gives every historically retained formation from the drifted Scan 135/136/139/140/141 proxy chain an authoritative strategic-quarantine closure. The retained-research ledger remains intact as history, while `resolved_research_formations` overrides Jev effective routing.
-- PR #452 must pass fresh exact-head CI / live Jev after this closure; no regenerative hard gate may be weakened.
-
-## Root Cause
-The doctrine did not change. Execution drifted through proxy-chain inheritance:
-
-`Scan128 transferable micro-assets -> Scan129 existing proceeds -> Scan130 contracted cashflow -> Scan131 complete economic tuple -> Scan132-140 buyer receipt window / yield / rent succession`.
-
-Each local refinement improved truth inside the inherited lane, but the lane itself was not re-proven against the constitutional objective.
-
-The missing machine invariant was: a `HIGH_ATTRACTION_BEACON` did not have to prove replenishing A/B populations, recurring connection pressure, a recurring missing edge, or a recurring event source / Demand Pump.
-
-## Remediation Now Implemented
-- Added A/B population replenishment hard floors.
-- Added recurring connection-pressure hard floor.
-- Added recurring missing-edge hard floor.
-- Added recurring event-source / Demand-Pump hard floor.
-- Added explicit-transaction seed veto unless independent regenerative-field evidence exists.
-- Added persisted-scan strategic guard beginning with `ATTRACTION_SCAN_142`.
-- Added future CI regression proving a Scan-140-style asset lane fails if repeated as Scan 142.
-- Added regenerative dimensions to Pareto objectives.
-- Locked the rule in `AGENTS.md`, `FORMAL_TRUTH.md`, and `OPPORTUNITY_ATTRACTION_FIELD.md`.
+## Current Artifacts
+- `data/research_runs/attraction_scan_142.json`
+- `data/research_runs/scan142_regenerative_field_evidence.json`
+- `docs/research/SCAN142_REGENERATIVE_FIELD_REBOOT_2026-09-23.md`
+- `tests/test_scan142_regenerative_field_reboot.py`
+- `data/commercial_reset_state.json`
 
 ## Next Action
-Require fresh exact-head repository CI and live TypeSafe/Jev after the authoritative proxy-chain quarantine closures; merge PR #452 only if those checks are green and Jev cannot reopen the quarantined formations, then start `ATTRACTION_SCAN_142` from broad current reality under the regenerative-field gate.
+Open the Scan 142 PR; freeze its newest head; require repository CI plus live TypeSafe/Jev on that exact SHA; consume any reversible F1 route with public evidence. If the VPP field closes, derive Scan 143 again from broad reality instead of inheriting the easiest VPP subproblem.
 
 ## Do Not Repeat
-- Do not use merged PR #451 / Scan 141 as a strategic prior or continue its asset/cashflow lane.
-- Do not continue the Scan 129–141 asset/cashflow proxy chain.
-- Do not make property yield, contracted rent, transferable assets, foreigner errands, explicit jobs, gigs, RFQs, buyer briefs, or any other single transaction shape the core business ontology.
-- Do not let a previous scan's easiest-to-measure survivor automatically define the next search boundary.
-- Do not call a formation `HIGH_ATTRACTION_BEACON` without evidence-bound regenerative-field dimensions.
+- Do not return to Scan 128-141 asset/cashflow diligence.
+- Do not make one asset, listing, task, RFQ, gig, return shipment or VPP project the search ontology.
+- Do not treat official market growth as proof of an independently ownable business layer.
+- Do not interpret absence of an incumbent in a quick search as proof that the edge is free.
 - Do not weaken `UNKNOWN != PASS`.
 - Do not treat TypeSafe/Jev confidence as commercial evidence.
-- Do not contact outsiders or commit money without explicit authority.
+- Do not contact outsiders or move money without explicit authority.
 
 ## Guardrails
-GitHub live state wins. REALITY > COGNITION > SCHEMA. LOCAL GATE COMPLIANCE != STRATEGIC ALIGNMENT. VERIFIABLE CASHFLOW != REGENERATIVE VALUE FIELD. ONE LIVE TRANSACTION != DEMAND PUMP. PRIMARY RESEARCH DOMAIN = CHINA. TypeSafe/Jev remains shadow research advisory only.
+GitHub live state wins. REALITY > COGNITION > SCHEMA. LOCAL GATE COMPLIANCE != STRATEGIC ALIGNMENT. HIGH_ATTRACTION_BEACON != COMMERCIAL_CANDIDATE. TypeSafe/Jev is shadow research advisory only.
