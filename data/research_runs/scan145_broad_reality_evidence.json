@@ -1,0 +1,112 @@
+{
+  "scan_id": "ATTRACTION_SCAN_145",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "b0fcb61d71f4df46b752955199909f90170f3350",
+  "research_method": "BROAD_REALITY_REDERIVATION_WITH_CURRENT_OFFICIAL_OPERATIONAL_AND_PEER_REVIEWED_SOURCES_FAIL_CLOSED_ON_INCUMBENT_CONTROL",
+  "sources": {
+    "CHINA-SERVICES-SAFE-20260828": {
+      "source_class": "CURRENT_OFFICIAL_CROSS_BORDER_SERVICES_STATISTICS",
+      "url": "https://www.safe.gov.cn/en/2026/0828/2448.html",
+      "date": "2026-08-28",
+      "claim": "SAFE reported July 2026 China international goods-and-services trade of RMB 5.1462T; other business services were RMB 154.1B and include professional, management, technical and trade-related services, evidencing a large replenishing cross-border service population independent of any single gig."
+    },
+    "NEW-WORK-MOHRSS-20260701": {
+      "source_class": "CURRENT_OFFICIAL_NEW_EMPLOYMENT_PLATFORM_CAPACITY",
+      "url": "https://www.mohrss.gov.cn/wap/xw/rsxw/202607/t20260701_579347.html",
+      "date": "2026-07-01",
+      "claim": "MOHRSS reported 29.902M cumulative participants in occupational-injury protection for new-employment workers and national expansion across ride-hailing, delivery and intra-city freight platforms, evidencing a very large replenishing pool of platform-mediated local execution capacity."
+    },
+    "UPWORK-GZ-RUNNER-202609": {
+      "source_class": "CURRENT_OPERATIONAL_MARKETPLACE_PARTIAL_FLOW",
+      "url": "https://www.upwork.com/services/product/admin-customer-support-i-will-be-your-reliable-runner-and-sourcing-agent-in-guangzhou-2067103881009600476",
+      "date": "2026-09",
+      "claim": "A current Guangzhou-based Upwork service sells bounded local physical execution for overseas clients including sample collection, warehouse/market visits, photos/video and cargo checks with platform-funded payment protection; this is downstream partial-flow evidence, not the discovery seed."
+    },
+    "FIVERR-TRADE-SHOW-202609": {
+      "source_class": "CURRENT_OPERATIONAL_MARKETPLACE_PARTIAL_FLOW",
+      "url": "https://www.fiverr.com/haiqiongxia/help-you-visit-a-trade-show-like-canton-fair-in-china-to-collect-information",
+      "date": "2026-09",
+      "claim": "A current China-based Fiverr provider offers on-site trade-show representation, supplier conversations, catalog/photo collection and sample purchase, with 52 completed orders shown at crawl time; this evidences repeated remote-to-local physical-presence pressure."
+    },
+    "UPWORK-CHINA-SOURCING-JOB-20260901": {
+      "source_class": "CURRENT_DOWNSTREAM_BUYER_TASK_VALIDATION_NOT_SEED",
+      "url": "https://www.upwork.com/freelance-jobs/apply/China-Sourcing-Agent-Needed-Clothing-Supplier-Verification-Inspection-Shipping_~022094809556914428204/",
+      "date": "2026-09-01",
+      "claim": "A current buyer-side Upwork posting requests China-local verification, physical inspection, coordination and shipping support. It is retained only as downstream validation that the broader cross-border physical-presence field produces live tasks, not as the field ontology."
+    },
+    "CBE-GROWTH-GOV-20260722": {
+      "source_class": "CURRENT_OFFICIAL_CROSS_BORDER_ECOMMERCE_SCALE",
+      "url": "https://english.www.gov.cn/archive/statistics/202607/22/content_WS6a606f51c6d00ca5f9a0c58b.html",
+      "date": "2026-07-22",
+      "claim": "Official reporting said 2025 China cross-border e-commerce imports and exports reached RMB 2.84T and H1 2026 exports via overseas warehouses surged 3.3-fold, evidencing a rapidly replenishing overseas inventory footprint."
+    },
+    "CBE-RETURNS-GAC-20260312": {
+      "source_class": "CURRENT_OFFICIAL_RETURN_FLOW_POLICY",
+      "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2026/art_3db24e4b76784738a17196c585795546.html",
+      "date": "2026-03-12",
+      "claim": "GAC expanded cross-customs-district returns nationwide for 9610 retail exports from April 1, 2026; return goods still must enter authorized customs-supervised sites, proving recurring regulated reverse-flow events."
+    },
+    "CBE-RETURNS-TAX-MOF-20260206": {
+      "source_class": "CURRENT_OFFICIAL_RETURN_TAX_POLICY",
+      "url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/202602/t20260209_3983561.htm",
+      "date": "2026-02-06",
+      "claim": "MOF/GAC/STA extended tax relief for qualifying cross-border e-commerce export returns during 2026-2027, including goods returned because of slow sales or customer returns, confirming a recurrent economic class rather than isolated incidents."
+    },
+    "BSTOCK-RETURNS-202609": {
+      "source_class": "CURRENT_OPERATIONAL_RECOMMERCE_MARKETPLACE",
+      "url": "https://bstock.com/",
+      "date": "2026-09",
+      "claim": "B-Stock currently routes returned, excess and trade-in inventory from major retailers and brands to resale buyers through auctions, contracts and spot sales, proving a large replenishing buyer/recommerce node and an existing downstream value-recovery route."
+    },
+    "REVERSELOGIX-DISPOSITION-20260518": {
+      "source_class": "CURRENT_RETURN_ORCHESTRATION_INCUMBENT",
+      "url": "https://www.reverselogix.com/industry-updates/how-to-streamline-your-returns-workflow-from-intake-to-disposition/",
+      "date": "2026-05-18",
+      "claim": "ReverseLogix describes a live returns workflow of RMA, receiving, inspection/grading, rules-based disposition and refund/inventory updates, showing that automated disposition orchestration is already a real incumbent capability that must be preflighted."
+    },
+    "PRIVATE-CHARGE-SHARING-202603": {
+      "source_class": "CURRENT_PEER_REVIEWED_RESOURCE_IMBALANCE_EVIDENCE",
+      "url": "https://doi.org/10.1186/s13021-026-00420-w",
+      "date": "2026-03-01",
+      "claim": "A 2026 China study reports private chargers are about three quarters of charging infrastructure, sharing remains low, and Star Charge/TELD already operate private-pile sharing platforms; safety, liability, time coordination and privacy remain adoption barriers."
+    },
+    "STARCHARGE-APP-20260916": {
+      "source_class": "CURRENT_OPERATIONAL_CHARGING_INCUMBENT",
+      "url": "https://www.starcharge.com/about-us/news/product-news/115",
+      "date": "2026-09-16",
+      "claim": "StarCharge's current app actively aggregates charging-station information and merchant/user decision support, reinforcing that a major incumbent already controls charging discovery and transaction-adjacent surfaces."
+    },
+    "MOST-INSTRUMENT-SHARING-20260818": {
+      "source_class": "CURRENT_OFFICIAL_SCIENTIFIC_INSTRUMENT_SHARING_POLICY",
+      "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/qtwj/qtwj2026/202608/t20260818_197157.html",
+      "date": "2026-08-18",
+      "claim": "MOST/MOF's 2026 assessment explicitly evaluates online service platforms, platform-to-national-network connectivity, reservable-instrument share, external service hours, charging rules and service to private enterprises."
+    },
+    "NUIST-INSTRUMENT-BOOKING-20260923": {
+      "source_class": "CURRENT_OPERATIONAL_INSTRUMENT_BOOKING",
+      "url": "https://dxyqgx.nuist.edu.cn/Index",
+      "date": "2026-09-23",
+      "claim": "NUIST's live large-instrument sharing system shows same-day and next-day reservations with approval and fee-deduction states, demonstrating that discover-book-approve-charge workflow is already operational at institution level."
+    },
+    "NETWORK-FREIGHT-MOT-20260123": {
+      "source_class": "CURRENT_OFFICIAL_NETWORK_FREIGHT_RULE",
+      "url": "https://xxgk.mot.gov.cn/xzgfxwj/202601/t20260126_4199002.html",
+      "date": "2026-01-23",
+      "claim": "China's 2026 network freight rules formally define platforms that integrate transport resources, contract with shippers as carriers and commission actual carriers, establishing the regulated routing/settlement surface."
+    },
+    "FTA-Q2-20260819": {
+      "source_class": "CURRENT_LARGE_SCALE_OPERATIONAL_FREIGHT_PLATFORM",
+      "url": "https://ir.fulltruckalliance.com/2026-08-19-Full-Truck-Alliance-Co-Ltd-Announces-Second-Quarter-2026-Unaudited-Financial-Results",
+      "date": "2026-08-19",
+      "claim": "Full Truck Alliance reported Q2 2026 average shipper MAUs of 3.57M, 4.78M truckers fulfilling orders over the prior 12 months and 68.5M fulfilled orders, with transaction protections and matching density improving."
+    }
+  },
+  "evidence_boundaries": {
+    "ATTRACTION_SCAN_145-F1": "Marketplace gigs/jobs are downstream proof of partial flow only; they do not establish prevalence, market size, a distinct missing edge or repeatable customer acquisition. Factory verification itself is excluded because Scan 143 already consumed that field.",
+    "ATTRACTION_SCAN_145-F2": "Return-policy friction proves reverse-flow pressure, not that local liquidation is always superior. B-Stock and ReverseLogix prove complementary nodes/incumbent capabilities but not SME cross-border fit, API access, warehouse willingness or profitable unit economics.",
+    "ATTRACTION_SCAN_145-F3": "Peer-reviewed sharing intention and low adoption do not grant property access or resolve liability/insurance.",
+    "ATTRACTION_SCAN_145-F4": "Policy pressure for sharing does not imply an unowned marketplace edge; live institutional booking systems show the opposite.",
+    "ATTRACTION_SCAN_145-F5": "Huge demand and supply populations do not imply white space when network freight platforms already integrate and settle the route."
+  },
+  "no_external_side_effects": true
+}
