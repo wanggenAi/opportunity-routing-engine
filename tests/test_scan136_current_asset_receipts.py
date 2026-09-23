@@ -47,6 +47,13 @@ class Scan136CurrentAssetReceiptsTests(unittest.TestCase):
         self.assertEqual(evidence["scan_id"], "ATTRACTION_SCAN_136")
         self.assertEqual(len(evidence["evidence_packets"]), 4)
 
+    def test_current_auto_jev_input_resolves_scan136(self):
+        from tools.run_jev_research_advisory import resolve_scan_path
+
+        state = json.loads(STATE.read_text(encoding="utf-8"))
+        path = resolve_scan_path("auto", state, research_dir=ROOT / "data" / "research_runs")
+        self.assertEqual(path, SCAN)
+
 
 if __name__ == "__main__":
     unittest.main()
