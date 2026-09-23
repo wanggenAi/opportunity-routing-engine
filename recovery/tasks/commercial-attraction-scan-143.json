@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "task_key": "commercial-attraction-scan-143",
+  "generation": 1,
+  "status": "COMPLETED",
+  "reconciled_at": "2026-09-23T13:38:00Z",
+  "live_main": "efd35cac1b9680a1f55927abd374548135ab7635",
+  "work_branch": "research/scan143-broad-reality-trust-routing",
+  "frozen_head": "b34ddc87e1fbc9ba02d3f5583ef54a03452b7d70",
+  "stage": "SCAN143_MERGED_ADVANCE_TO_SCAN144",
+  "scan_id": "ATTRACTION_SCAN_143",
+  "durable_conclusions": [
+    "Final exact head b34ddc87e1fbc9ba02d3f5583ef54a03452b7d70 passed repository CI 35868192848.",
+    "Live TypeSafe/Jev 35868192892 succeeded with artifact 10753825697 digest sha256:d5ef468b806b9836ec1f631470108b5d3aaf0253544a25ca41eebc5baa244f4b.",
+    "All five Scan143 effective routes resolved to NO_FURTHER_RESEARCH and continuation was ADVANCE_TO_NEXT_SCAN.",
+    "PR #454 was squash-merged as main efd35cac1b9680a1f55927abd374548135ab7635.",
+    "The generic overseas-buyer to China factory-inspection router was closed after incumbent price/payment/dispatch/report/trust preflight; active commercial candidates remain zero."
+  ],
+  "next_action": "Derive Scan144 from broad current reality without inheriting a factory-inspection or VPP subproblem.",
+  "pending_operation": null,
+  "do_not_repeat": [
+    "Do not revive generic factory inspection routing without new evidence of an unowned control surface.",
+    "Do not narrow to an off-Alibaba niche merely to rescue Scan143.",
+    "Do not use Reddit posts as population prevalence or as a founder-by-founder acquisition rail.",
+    "Do not contact outsiders or move money without explicit external-action authority."
+  ]
+}
