@@ -433,32 +433,37 @@
       "formation_id": "ATTRACTION_SCAN_144-F5",
       "verdict": "DEMOTED_REGENERATIVE_BONDED_REPAIR_ROUTE_EXISTS_BUT_CUSTOMS_CONNECTED_ERP_QUALIFIED_REPAIR_AND_FULL_CHAIN_REGULATORY_CONTROL_OWN_THE_EXECUTION_SURFACE",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_144-F1",
+      "verdict": "DEMOTED_EXACT_INCUMBENT_PREFLIGHT_FINDFST_AUTOMATE_AMERICA_AND_OPROCON_ALREADY_OWN_MACHINE_SPECIFIC_MATCHING_QUOTES_CREDENTIALS_ESCROW_REPORTING_AND_SERVICE_HISTORY_WHILE_OEM_AUTHORIZATION_WARRANTY_REMAINS_BILATERAL_AND_DISTINCT_CHINA_EXPORTER_ACQUISITION_NOT_EVIDENCED",
+      "resolved_date": "2026-09-23"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
   "last_completed_scan_id": "ATTRACTION_SCAN_144",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_144-F5",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_144-F1",
   "next_scan_id": "ATTRACTION_SCAN_145",
-  "current_research_action": "FREEZE_SCAN144_INITIAL_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_F1_PUBLIC_RESEARCH_ROUTE",
+  "current_research_action": "FREEZE_SCAN144_ROUTE_CONSUMPTION_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_EXPECT_ALL_NO_FURTHER_RESEARCH_THEN_MERGE_PR455_AND_REDERIVE_SCAN145_FROM_BROAD_REALITY",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_144-F1",
-    "state": "RESEARCH_ONLY_INITIAL_BROAD_REALITY_BEACON",
+    "state": "AUTHORITATIVELY_CLOSED_EXACT_INCUMBENT_PREFLIGHT_FINAL_EXACT_HEAD_REVALIDATION_PENDING",
     "commercial_candidate": false,
     "bilateral_commitment": "NOT_PROVEN",
     "external_value_flow": "NOT_PROVEN",
-    "exact_head_repository_ci": "PENDING",
-    "live_typesafe_jev": "PENDING",
-    "decisive_unknowns": [
-      "EXACT_INCUMBENT_AND_CONTROL_SURFACE",
-      "OEM_AUTHORIZATION_AND_WARRANTY_LIABILITY",
-      "MODEL_SERIAL_ERROR_MANUAL_PARTS_AND_TECHNICIAN_CREDENTIAL_NORMALIZATION",
-      "UNDERSERVED_COUNTRY_TECHNICIAN_DENSITY",
-      "DISPATCH_PAYMENT_AND_INSURANCE_RAILS",
-      "REPEATABLE_EXPORTER_ACQUISITION_WITHOUT_FOUNDER_SALES"
-    ],
+    "route_consumed": "EXACT_INCUMBENT_PREFLIGHT",
+    "route_source_exact_head": "d904106914d66f99daf40f10dc1b60af6f6d3161",
+    "route_source_repository_ci_run_id": 35869614138,
+    "route_source_jev_run_id": 35869614142,
+    "route_source_jev_artifact_id": 10755155071,
+    "route_source_jev_artifact_digest": "sha256:0bea615c9af547a307b06b5cbfa175a0708a26eeab6ed624ca5128034668064f",
+    "authoritative_closure": "DEMOTED_EXACT_INCUMBENT_PREFLIGHT_FINDFST_AUTOMATE_AMERICA_AND_OPROCON_ALREADY_OWN_MACHINE_SPECIFIC_MATCHING_QUOTES_CREDENTIALS_ESCROW_REPORTING_AND_SERVICE_HISTORY_WHILE_OEM_AUTHORIZATION_WARRANTY_REMAINS_BILATERAL_AND_DISTINCT_CHINA_EXPORTER_ACQUISITION_NOT_EVIDENCED",
+    "final_exact_head_repository_ci": "PENDING",
+    "final_live_typesafe_jev": "PENDING",
     "external_contact_performed": false,
     "quote_performed": false,
+    "account_created": false,
     "money_moved": false
   },
   "required_scan_controls": [
@@ -2516,7 +2521,7 @@
     "preflight_autonomous_continuation_allowed": true,
     "preflight_resolution": "CLOSED_DISTINCT_UNOWNED_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED_AFTER_CURRENT_OFFICIAL_CONTROL_SURFACE_PREFLIGHT"
   },
-  "next_action": "REQUIRE_SCAN144_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_F1_PUBLIC_RESEARCH_ROUTE",
+  "next_action": "REQUIRE_FINAL_SCAN144_ROUTE_CONSUMPTION_HEAD_CI_AND_LIVE_JEV_ALL_NO_FURTHER_RESEARCH_THEN_MERGE_PR455_AND_START_SCAN145_FROM_BROAD_REALITY",
   "scan143_broad_reality_trust_routing": {
     "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "c4d3da4d67f067a512642beb272eeafa7fd0fa34",
@@ -2568,7 +2573,7 @@
     "merged_main_sha": "efd35cac1b9680a1f55927abd374548135ab7635"
   },
   "scan144_broad_reality_aftermarket_service_routing": {
-    "status": "INITIAL_BROAD_REALITY_SCAN_COMPLETE_EXACT_HEAD_VALIDATION_PENDING",
+    "status": "F1_EXACT_INCUMBENT_PREFLIGHT_CONSUMED_FINAL_EXACT_HEAD_REVALIDATION_PENDING",
     "source_main_sha": "efd35cac1b9680a1f55927abd374548135ab7635",
     "canonical_scan_artifact": "data/research_runs/attraction_scan_144.json",
     "evidence_artifact": "data/research_runs/scan144_broad_reality_evidence.json",
@@ -2577,6 +2582,7 @@
       "ATTRACTION_SCAN_144-F1"
     ],
     "authoritative_closures": [
+      "ATTRACTION_SCAN_144-F1",
       "ATTRACTION_SCAN_144-F2",
       "ATTRACTION_SCAN_144-F3",
       "ATTRACTION_SCAN_144-F4",
@@ -2585,11 +2591,23 @@
     "active_commercial_candidate_count": 0,
     "active_transaction_unit_count": 0,
     "first_external_value_flow": "NOT_PROVEN",
-    "exact_head_validation_status": "PENDING",
-    "live_jev_status": "PENDING",
+    "exact_head_validation_status": "FINAL_ROUTE_CONSUMPTION_HEAD_PENDING",
+    "live_jev_status": "FINAL_ROUTE_CONSUMPTION_HEAD_PENDING",
     "next_scan_id": "ATTRACTION_SCAN_145",
-    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_F1_ROUTE",
+    "next_action": "FINAL_EXACT_HEAD_CI_AND_LIVE_JEV_THEN_MERGE_PR455_AND_REDERIVE_SCAN145_FROM_BROAD_REALITY",
     "commercial_promotion": false,
-    "external_side_effects_performed": false
+    "external_side_effects_performed": false,
+    "route_consumption_evidence": "data/research_runs/scan144_f1_exact_incumbent_preflight_evidence.json",
+    "route_consumption_report": "docs/research/SCAN144_F1_EXACT_INCUMBENT_PREFLIGHT_2026-09-23.md",
+    "preflight_source_head_sha": "d904106914d66f99daf40f10dc1b60af6f6d3161",
+    "preflight_repository_ci_run_id": 35869614138,
+    "preflight_repository_ci_conclusion": "SUCCESS",
+    "preflight_jev_run_id": 35869614142,
+    "preflight_jev_artifact_id": 10755155071,
+    "preflight_jev_artifact_digest": "sha256:0bea615c9af547a307b06b5cbfa175a0708a26eeab6ed624ca5128034668064f",
+    "preflight_jev_execution_status": "SUCCESS",
+    "preflight_jev_route": "EXACT_INCUMBENT_PREFLIGHT",
+    "preflight_autonomous_continuation_allowed": true,
+    "preflight_resolution": "CLOSED_GENERIC_OVERSEAS_INDUSTRIAL_FIELD_SERVICE_ROUTER_AFTER_EXACT_INCUMBENT_AND_OEM_AUTHORIZATION_PREFLIGHT"
   }
 }
