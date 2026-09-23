@@ -36,12 +36,24 @@ class Scan139SourceBoundReceiptsTests(unittest.TestCase):
         for suffix in ("F2", "F3", "F4"):
             self.assertTrue(by_id[f"ATTRACTION_SCAN_139-{suffix}"]["verdict"].startswith("DEMOTED_"))
 
-    def test_machine_state_advances_to_scan140_and_adds_only_sandu_retention(self):
+    def test_machine_state_preserves_scan139_truth_after_successor_scans(self):
         state = json.loads(STATE.read_text(encoding="utf-8"))
-        self.assertEqual(state["last_completed_scan_id"], "ATTRACTION_SCAN_139")
-        self.assertEqual(state["next_scan_id"], "ATTRACTION_SCAN_140")
+        historical = state["scan139_source_bound_receipts"]
+        self.assertEqual(
+            historical["canonical_scan_artifact"],
+            "data/research_runs/attraction_scan_139.json",
+        )
+        self.assertEqual(historical["retained_research_formations"], ["ATTRACTION_SCAN_139-F1"])
         self.assertIn("ATTRACTION_SCAN_139-F1", state["retained_research_formations"])
         self.assertIn("ATTRACTION_SCAN_135-F1", state["retained_research_formations"])
+        self.assertGreaterEqual(
+            int(state["last_completed_scan_id"].rsplit("_", 1)[-1]),
+            139,
+        )
+        self.assertGreaterEqual(
+            int(state["next_scan_id"].rsplit("_", 1)[-1]),
+            140,
+        )
         self.assertEqual(state["active_commercial_candidates"], [])
         self.assertEqual(state["active_transaction_units"], [])
         self.assertEqual(state["first_external_value_flow"], "NOT_PROVEN")
@@ -52,11 +64,15 @@ class Scan139SourceBoundReceiptsTests(unittest.TestCase):
         self.assertEqual(len(evidence["evidence_packets"]), 4)
         self.assertEqual(len(evidence["excluded_evidence"]), 3)
 
-    def test_current_auto_jev_input_resolves_scan139(self):
+    def test_explicit_historical_jev_input_resolves_scan139_after_successor_scans(self):
         from tools.run_jev_research_advisory import resolve_scan_path
 
         state = json.loads(STATE.read_text(encoding="utf-8"))
-        path = resolve_scan_path("auto", state, research_dir=ROOT / "data" / "research_runs")
+        path = resolve_scan_path(
+            str(SCAN),
+            state,
+            research_dir=ROOT / "data" / "research_runs",
+        )
         self.assertEqual(path, SCAN)
 
 
