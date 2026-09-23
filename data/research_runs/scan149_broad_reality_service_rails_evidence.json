@@ -1,0 +1,75 @@
+{
+  "scan_id": "ATTRACTION_SCAN_149",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "c9e364c294af847095842dc0520234376689fc86",
+  "research_method": "FRESH_BROAD_REALITY_COMPARISON_ACROSS_REVERSE_LOGISTICS_REGULATED_TESTING_AGRICULTURE_AND_EXHIBITION_SERVICES",
+  "sources": {
+    "RETURNS-CHINAPOST-20260723": {
+      "source_class": "CURRENT_OFFICIAL_CROSS_BORDER_RETURN_RAIL",
+      "url": "https://english.chinapost.com.cn/en/report/2608/1385-1.htm",
+      "date": "2026-07-23",
+      "claim": "China Post reports a live 9610 cross-customs-district return channel integrated with customs and AliExpress, with nearest-port handling and multi-party logistics coordination."
+    },
+    "RETURNS-RTURN-20260923": {
+      "source_class": "CURRENT_RETURN_VALUE_RECOVERY_PLATFORM",
+      "url": "https://www.rturn.com.cn/",
+      "date": "2026-09-23",
+      "claim": "rturn exposes a cross-border return workflow from warehouse receiving and inspection through recovery value, disposition and seller payout."
+    },
+    "TESTING-SAMR-20260423": {
+      "source_class": "CURRENT_NATIONAL_TESTING_REGULATORY_CONTROL",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/rkjcs/art/2026/art_ea608a4306a34b8bb1f3c548a91cffa8.html",
+      "date": "2026-04-23",
+      "claim": "SAMR's 2026 One List One Database regime makes accredited testing capability scope and qualification a current formal control boundary from June 1, 2026."
+    },
+    "TESTING-CMA-20260923": {
+      "source_class": "CURRENT_TESTING_MATCHING_PLATFORM",
+      "url": "https://www.cma.ac.cn/",
+      "date": "2026-09-23",
+      "claim": "The current CMA testing/certification platform markets institution discovery, qualification checks, report verification and demand matching between enterprises and testing/certification institutions."
+    },
+    "TESTING-WOLAIJIAN-20260923": {
+      "source_class": "CURRENT_LAB_MATCHING_PLATFORM",
+      "url": "https://www.wolaijian.com/",
+      "date": "2026-09-23",
+      "claim": "Wolaijian currently searches standards/products/testing items and matches enterprises to CMA/CNAS laboratory capability records, with demand publishing and engineer-assisted matching."
+    },
+    "AGRI-NATIONAL-20260923": {
+      "source_class": "CURRENT_NATIONAL_AGRICULTURAL_SERVICE_PLATFORM",
+      "url": "https://www.zgnf.net/mobileApp",
+      "date": "2026-09-23",
+      "claim": "The China Agricultural Socialized Service Platform aggregates agricultural machinery rental/repair, production services, supplies, processing and procurement and directly connects farmers with service organizations."
+    },
+    "AGRI-PENGYANG-20260525": {
+      "source_class": "CURRENT_OPERATIONAL_AGRICULTURAL_SERVICE_FIELD",
+      "url": "https://www.pengyang.gov.cn/xwzx/zwyw/202605/t20260512_5238070.html",
+      "date": "2026-05-25",
+      "claim": "Pengyang reports active 2026 agricultural socialized service networks combining cooperatives, machinery teams, operators and farmers, with third-party digital supervision."
+    },
+    "EXPO-CANTON-20260923": {
+      "source_class": "CURRENT_OFFICIAL_EXHIBITION_INTERPRETER_RAIL",
+      "url": "https://www.cantonfair.org.cn/en-US/pages/802506534755274752",
+      "date": "2026-09-23",
+      "claim": "Canton Fair directly offers interpreter and exhibition escort booking with published day rates, reservation contacts and on-site payment."
+    },
+    "EXPO-MESSE-20260923": {
+      "source_class": "CURRENT_EXHIBITION_SERVICE_INCUMBENT",
+      "url": "https://intertextile-shanghai-apparel-fabrics-autumn.hk.messefrankfurt.com/shanghai/en/exhibitor-services/onsite-services.html",
+      "date": "2026-09-23",
+      "claim": "Intertextile Shanghai's current official exhibitor services include interpreter and hostess services plus official contractor/forwarder support."
+    }
+  },
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_149-F1",
+    "ATTRACTION_SCAN_149-F2",
+    "ATTRACTION_SCAN_149-F3",
+    "ATTRACTION_SCAN_149-F4"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_SCAN150_IF_NO_REVERSIBLE_ROUTE"
+}
