@@ -1,7 +1,7 @@
 {
   "scan_id": "ATTRACTION_SCAN_165",
   "as_of_date": "2026-09-24",
-  "status": "COMPLETE_ONE_RETAINED_RESEARCH_BEACON_EXACT_HEAD_VALIDATION_PENDING",
+  "status": "COMPLETE_ALL_ROUTES_CLOSED_FINAL_EXACT_HEAD_VALIDATION_PENDING",
   "search_mode": "FRESH_CROSS_BORDER_STATE_TRANSITIONS_OUTSIDE_GENERIC_CHINA_LOCAL_HELP_SERVICE_MENU",
   "source_main_sha": "d64cdd82abc27e15506df83685a8abfbc4b9b7be",
   "prior_scan": {
@@ -87,6 +87,30 @@
     "REMOTE-CHINA-WAREHOUSE-RETURN": {
       "url": "https://ebaoguo.com/en/kb/china-warehouse-return/",
       "claim": "A current China warehouse service lets overseas customers remotely return parcels already stored in China, including domestic courier pickup, activity logs, tracking and photo records."
+    },
+    "HANGZHOU-ALIEXPRESS-PLATFORM-CHOICE": {
+      "url": "https://ori.hangzhou.com.cn/ornews/content/2026-04/02/content_9200717.htm",
+      "claim": "In Hangzhou's first nationwide-mode case, an AliExpress representative said the platform can choose the return plan and convenient return port; airport logistics and customs jointly built the operating plan."
+    },
+    "SHANDONG-POST-ALIEXPRESS-COORDINATION": {
+      "url": "https://www.chinapost.com.cn/cn/report/2607/6811-1.html",
+      "claim": "The Jinan flow was created by Shandong Post with local government, customs and AliExpress through a multi-party operating mechanism and repeated process drills."
+    },
+    "GUANGDONG-POST-9610-CLOSED-LOOP": {
+      "url": "https://www.chinapost.com.cn/cn/report/2603/8244-1.html",
+      "claim": "Guangdong Post's current cross-border customs system integrates customs, China Post's 9610 system and partner customs brokers into a full-process closed loop including return declaration."
+    },
+    "LIANDUO-ONE-STOP-CUSTOMS": {
+      "url": "https://www.ld9610.com/",
+      "claim": "LianDoo currently provides one-stop 9610/9710/9810 customs, tax and information-system execution."
+    },
+    "KUAZUN-NATIONWIDE-PORT-SYSTEM": {
+      "url": "https://zhibian.net/kuazun/index.html",
+      "claim": "KuaZun currently supports 9610/9710/9810 full-document workflows including returns and nationwide port/Single Window/e-port connectivity."
+    },
+    "XIXIAN-FULLCHAIN-RETURN": {
+      "url": "https://www.xixianxinqu.gov.cn/xwzx/xxdt/2095757609505140737.html",
+      "claim": "Xi'an Airport New City says its supervised site, return warehouse and sorting infrastructure can provide full-chain reverse-logistics support to sellers nationwide."
     }
   },
   "examined_formations": [
@@ -95,7 +119,7 @@
       "title": "9610 overseas return batch with movable China entry choice -> eligible return port / supervised logistics rail",
       "seed_kind": "BROAD_REALITY_PATTERN",
       "evidence_class": "CURRENT_POLICY_CREATED_MULTI_PORT_RETURN_DECISION_WITH_LIVE_OPERATIONAL_CASES",
-      "evidence_summary": "A 2026 policy change creates a new movable decision before a 9610 return enters China: the enterprise may choose among eligible return customs districts based on cost/time rather than returning through the original export customs. Live Jinan and Shaanxi cases show material cost/time differences and multi-party execution, while public evidence does not yet prove that one incumbent universally owns cross-port comparison and batch routing.",
+      "evidence_summary": "The 2026 policy creates real port optionality and material cost/time differences, but exact-head preflight found no independent callable cross-port market. Live cases are platform/logistics/site/customs coalitions; current 9610 systems expose workflow execution, not a neutral live comparison/booking layer. Distinct operator control and nonexpert match resolvability are not evidenced.",
       "attraction_profile": {
         "scores": {
           "a_voluntary_motion": 3,
@@ -105,15 +129,15 @@
           "bridge_compression": 2,
           "activation_ease": 2,
           "self_propulsion": 2,
-          "operator_control": 2,
+          "operator_control": 1,
           "a_discoverability": 2,
           "b_discoverability": 3,
-          "match_resolvability": 2,
-          "action_gate_callability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
           "a_population_replenishment": 3,
           "b_population_replenishment": 2,
           "recurring_connection_pressure": 3,
-          "recurring_missing_edge": 2,
+          "recurring_missing_edge": 1,
           "recurring_event_source": 3
         },
         "evidence": {
@@ -148,8 +172,9 @@
             "CHINAPOST-JINAN-20260723"
           ],
           "operator_control": [
-            "GACC-INTERPRETATION-20260318",
-            "CHINAPOST-JINAN-20260723"
+            "HANGZHOU-ALIEXPRESS-PLATFORM-CHOICE",
+            "SHANDONG-POST-ALIEXPRESS-COORDINATION",
+            "GUANGDONG-POST-9610-CLOSED-LOOP"
           ],
           "a_discoverability": [
             "GACC-INTERPRETATION-20260318",
@@ -161,14 +186,14 @@
             "SHAANXI-FIRST-20260918"
           ],
           "match_resolvability": [
-            "GACC-2026-24",
-            "TAX-RETURN-2026-16",
-            "SHENZHEN-9610-CENTER"
+            "GACC-INTERPRETATION-20260318",
+            "KUAZUN-NATIONWIDE-PORT-SYSTEM",
+            "LIANDUO-ONE-STOP-CUSTOMS"
           ],
           "action_gate_callability": [
-            "GACC-2026-24",
-            "CHINAPOST-JINAN-20260723",
-            "SHENZHEN-9610-CENTER"
+            "HANGZHOU-ALIEXPRESS-PLATFORM-CHOICE",
+            "SHANDONG-POST-ALIEXPRESS-COORDINATION",
+            "GUANGDONG-POST-9610-CLOSED-LOOP"
           ],
           "a_population_replenishment": [
             "GACC-INTERPRETATION-20260318"
@@ -183,8 +208,9 @@
             "CHINAPOST-JINAN-20260723"
           ],
           "recurring_missing_edge": [
-            "CHINAPOST-JINAN-20260723",
-            "SHAANXI-FIRST-20260918"
+            "HANGZHOU-ALIEXPRESS-PLATFORM-CHOICE",
+            "SHANDONG-POST-ALIEXPRESS-COORDINATION",
+            "KUAZUN-NATIONWIDE-PORT-SYSTEM"
           ],
           "recurring_event_source": [
             "GACC-INTERPRETATION-20260318",
@@ -225,10 +251,11 @@
           ]
         },
         "recurring_missing_edge": {
-          "state": "EVIDENCED",
+          "state": "CONTRADICTED",
           "evidence_refs": [
-            "CHINAPOST-JINAN-20260723",
-            "SHAANXI-FIRST-20260918"
+            "HANGZHOU-ALIEXPRESS-PLATFORM-CHOICE",
+            "SHANDONG-POST-ALIEXPRESS-COORDINATION",
+            "KUAZUN-NATIONWIDE-PORT-SYSTEM"
           ]
         },
         "recurring_event_source": {
@@ -271,14 +298,15 @@
         "decisive_action_gate": {
           "state": "EVIDENCED",
           "evidence_refs": [
-            "GACC-INTERPRETATION-20260318",
-            "CHINAPOST-JINAN-20260723"
+            "HANGZHOU-ALIEXPRESS-PLATFORM-CHOICE",
+            "SHANDONG-POST-ALIEXPRESS-COORDINATION",
+            "GUANGDONG-POST-9610-CLOSED-LOOP"
           ],
-          "owner_state": "UNOWNED_OPEN"
+          "owner_state": "FRAGMENTED_PLATFORM_LOGISTICS_SITE_CUSTOMS_CONTROL"
         }
       },
-      "decisive_unknown": "DO_SELLERS_OR_THEIR_LOGISTICS_PARTNERS_RETAIN_A_REAL_CROSS_PORT_CHOICE_WITH_COMPARABLE_ROUTE_DATA_OR_DO_PLATFORM_CARRIER_AND_SUPERVISED_SITE_CONTRACTS_EFFECTIVELY_PREASSIGN_THE_RETURN_PORT",
-      "verdict": "RETAIN_HIGH_ATTRACTION_RESEARCH_ONLY_EXACT_INCUMBENT_AND_ROUTE_OWNERSHIP_PREFLIGHT_REQUIRED"
+      "decisive_unknown": "RESOLVED_NEGATIVE_PUBLIC_EVIDENCE_DOES_NOT_ESTABLISH_INDEPENDENT_CROSS_PORT_ROUTE_CONTROL_LIVE_COMPARABLE_ROUTE_DATA_OR_CALLABLE_BOOKING",
+      "verdict": "DEMOTED_POLICY_OPTIONALITY_IS_REAL_BUT_DISTINCT_OPERATOR_CONTROL_MATCH_RESOLVABILITY_AND_CROSS_PORT_ACTION_RAIL_ARE_NOT_EVIDENCED"
     },
     {
       "formation_id": "ATTRACTION_SCAN_165-F2",
@@ -325,202 +353,10 @@
       "verdict": "DEMOTED_REMOTE_CHINA_WAREHOUSE_RETURN_IS_ALREADY_A_CURRENT_SELF_SERVICE_WAREHOUSE_FEATURE"
     }
   ],
-  "high_attraction_beacons": [
-    {
-      "formation_id": "ATTRACTION_SCAN_165-F1",
-      "title": "9610 overseas return batch with movable China entry choice -> eligible return port / supervised logistics rail",
-      "seed_kind": "BROAD_REALITY_PATTERN",
-      "evidence_class": "CURRENT_POLICY_CREATED_MULTI_PORT_RETURN_DECISION_WITH_LIVE_OPERATIONAL_CASES",
-      "evidence_summary": "A 2026 policy change creates a new movable decision before a 9610 return enters China: the enterprise may choose among eligible return customs districts based on cost/time rather than returning through the original export customs. Live Jinan and Shaanxi cases show material cost/time differences and multi-party execution, while public evidence does not yet prove that one incumbent universally owns cross-port comparison and batch routing.",
-      "attraction_profile": {
-        "scores": {
-          "a_voluntary_motion": 3,
-          "b_voluntary_motion": 3,
-          "state_dependent_value_jump": 3,
-          "decision_window": 3,
-          "bridge_compression": 2,
-          "activation_ease": 2,
-          "self_propulsion": 2,
-          "operator_control": 2,
-          "a_discoverability": 2,
-          "b_discoverability": 3,
-          "match_resolvability": 2,
-          "action_gate_callability": 2,
-          "a_population_replenishment": 3,
-          "b_population_replenishment": 2,
-          "recurring_connection_pressure": 3,
-          "recurring_missing_edge": 2,
-          "recurring_event_source": 3
-        },
-        "evidence": {
-          "a_voluntary_motion": [
-            "GACC-INTERPRETATION-20260318",
-            "CHINAPOST-JINAN-20260723",
-            "SHAANXI-FIRST-20260918"
-          ],
-          "b_voluntary_motion": [
-            "CHINAPOST-JINAN-20260723",
-            "SHAANXI-FIRST-20260918",
-            "SHENZHEN-9610-CENTER"
-          ],
-          "state_dependent_value_jump": [
-            "CHINAPOST-JINAN-20260723",
-            "SHAANXI-FIRST-20260918"
-          ],
-          "decision_window": [
-            "GACC-2026-24",
-            "TAX-RETURN-2026-16"
-          ],
-          "bridge_compression": [
-            "GACC-INTERPRETATION-20260318",
-            "SHENZHEN-9610-CENTER"
-          ],
-          "activation_ease": [
-            "GACC-2026-24",
-            "SHENZHEN-9610-CENTER"
-          ],
-          "self_propulsion": [
-            "GACC-INTERPRETATION-20260318",
-            "CHINAPOST-JINAN-20260723"
-          ],
-          "operator_control": [
-            "GACC-INTERPRETATION-20260318",
-            "CHINAPOST-JINAN-20260723"
-          ],
-          "a_discoverability": [
-            "GACC-INTERPRETATION-20260318",
-            "CHINAPOST-JINAN-20260723"
-          ],
-          "b_discoverability": [
-            "GACC-2026-24",
-            "SHENZHEN-9610-CENTER",
-            "SHAANXI-FIRST-20260918"
-          ],
-          "match_resolvability": [
-            "GACC-2026-24",
-            "TAX-RETURN-2026-16",
-            "SHENZHEN-9610-CENTER"
-          ],
-          "action_gate_callability": [
-            "GACC-2026-24",
-            "CHINAPOST-JINAN-20260723",
-            "SHENZHEN-9610-CENTER"
-          ],
-          "a_population_replenishment": [
-            "GACC-INTERPRETATION-20260318"
-          ],
-          "b_population_replenishment": [
-            "GACC-2026-24",
-            "SHAANXI-FIRST-20260918",
-            "SHENZHEN-9610-CENTER"
-          ],
-          "recurring_connection_pressure": [
-            "GACC-INTERPRETATION-20260318",
-            "CHINAPOST-JINAN-20260723"
-          ],
-          "recurring_missing_edge": [
-            "CHINAPOST-JINAN-20260723",
-            "SHAANXI-FIRST-20260918"
-          ],
-          "recurring_event_source": [
-            "GACC-INTERPRETATION-20260318",
-            "TAX-RETURN-2026-16"
-          ]
-        },
-        "flags": {
-          "explicit_transaction_seeded": false,
-          "founder_delivery_required": false,
-          "founder_sales_required_per_transaction": false,
-          "founder_search_required_per_transaction": false,
-          "expert_matching_required_per_transaction": false,
-          "explanation_burden_high": false,
-          "generic_agent_substitutable": false
-        }
-      },
-      "regenerative_field_gate": {
-        "seed_kind": "BROAD_REALITY_PATTERN",
-        "actor_a_replenishment": {
-          "state": "EVIDENCED",
-          "evidence_refs": [
-            "GACC-INTERPRETATION-20260318"
-          ]
-        },
-        "actor_b_replenishment": {
-          "state": "EVIDENCED",
-          "evidence_refs": [
-            "GACC-2026-24",
-            "SHENZHEN-9610-CENTER",
-            "SHAANXI-FIRST-20260918"
-          ]
-        },
-        "recurring_connection_pressure": {
-          "state": "EVIDENCED",
-          "evidence_refs": [
-            "GACC-INTERPRETATION-20260318",
-            "CHINAPOST-JINAN-20260723"
-          ]
-        },
-        "recurring_missing_edge": {
-          "state": "EVIDENCED",
-          "evidence_refs": [
-            "CHINAPOST-JINAN-20260723",
-            "SHAANXI-FIRST-20260918"
-          ]
-        },
-        "recurring_event_source": {
-          "state": "EVIDENCED",
-          "evidence_refs": [
-            "GACC-INTERPRETATION-20260318",
-            "TAX-RETURN-2026-16"
-          ]
-        },
-        "independent_field_evidence_refs": [
-          "GACC-2026-24",
-          "GACC-INTERPRETATION-20260318",
-          "CHINAPOST-JINAN-20260723",
-          "SHAANXI-FIRST-20260918"
-        ]
-      },
-      "state_change_gate": {
-        "event_trace": {
-          "state": "EVIDENCED",
-          "evidence_refs": [
-            "GACC-2026-24",
-            "CHINAPOST-JINAN-20260723",
-            "SHAANXI-FIRST-20260918"
-          ]
-        },
-        "affected_actor_population": {
-          "state": "EVIDENCED",
-          "evidence_refs": [
-            "GACC-INTERPRETATION-20260318"
-          ]
-        },
-        "counterparty_population": {
-          "state": "EVIDENCED",
-          "evidence_refs": [
-            "GACC-2026-24",
-            "SHENZHEN-9610-CENTER",
-            "SHAANXI-FIRST-20260918"
-          ]
-        },
-        "decisive_action_gate": {
-          "state": "EVIDENCED",
-          "evidence_refs": [
-            "GACC-INTERPRETATION-20260318",
-            "CHINAPOST-JINAN-20260723"
-          ],
-          "owner_state": "UNOWNED_OPEN"
-        }
-      },
-      "decisive_unknown": "DO_SELLERS_OR_THEIR_LOGISTICS_PARTNERS_RETAIN_A_REAL_CROSS_PORT_CHOICE_WITH_COMPARABLE_ROUTE_DATA_OR_DO_PLATFORM_CARRIER_AND_SUPERVISED_SITE_CONTRACTS_EFFECTIVELY_PREASSIGN_THE_RETURN_PORT",
-      "verdict": "RETAIN_HIGH_ATTRACTION_RESEARCH_ONLY_EXACT_INCUMBENT_AND_ROUTE_OWNERSHIP_PREFLIGHT_REQUIRED"
-    }
-  ],
-  "retained_research_formations": [
-    "ATTRACTION_SCAN_165-F1"
-  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
   "authoritative_closures": [
+    "ATTRACTION_SCAN_165-F1",
     "ATTRACTION_SCAN_165-F2",
     "ATTRACTION_SCAN_165-F3",
     "ATTRACTION_SCAN_165-F4",
@@ -544,7 +380,19 @@
     "explicit_paid_tasks_downstream_only": true,
     "current_exact_incumbents_checked_for_nonretained_formations": true
   },
-  "decisive_unknown": "DO_SELLERS_OR_THEIR_LOGISTICS_PARTNERS_RETAIN_A_REAL_CROSS_PORT_CHOICE_WITH_COMPARABLE_ROUTE_DATA_OR_DO_PLATFORM_CARRIER_AND_SUPERVISED_SITE_CONTRACTS_EFFECTIVELY_PREASSIGN_THE_RETURN_PORT",
-  "next_action": "FREEZE_EXACT_HEAD_RUN_REPOSITORY_CI_AND_LIVE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_FOR_F1_BEFORE_EXTERNAL_CONTACT_OR_BOOTSTRAP",
-  "external_side_effects_performed": false
+  "decisive_unknown": "RESOLVED_NEGATIVE_POLICY_OPTIONALITY_DOES_NOT_ESTABLISH_OPERATOR_OWNABLE_CROSS_PORT_ROUTING",
+  "next_action": "FINAL_EXACT_HEAD_CI_AND_LIVE_JEV_THEN_ADVANCE_SCAN166_IF_CLOSURE_ALIGNS",
+  "external_side_effects_performed": false,
+  "exact_incumbent_preflight": {
+    "artifact": "data/research_runs/scan165_9610_exact_incumbent_preflight.json",
+    "first_exact_head": "feeda3f4af1d237429fa465aec3f5b8830ddb3b9",
+    "repository_ci_run_id": 35914094933,
+    "repository_ci_test_job_id": 107361057921,
+    "repository_ci_test_count": 845,
+    "jev_run_id": 35914095106,
+    "jev_artifact_id": 10773414928,
+    "jev_artifact_digest": "sha256:bbdfb5315b58f15e0ea259b43dc6c30ef8ecf43f3195cd77a14e8487a9e75dab",
+    "effective_route": "EXACT_INCUMBENT_PREFLIGHT",
+    "result": "FAIL_DISTINCT_CALLABLE_ROUTING_SURFACE"
+  }
 }
