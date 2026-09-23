@@ -1,0 +1,924 @@
+{
+  "scan_id": "ATTRACTION_SCAN_144",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_REDERIVATION_AFTER_SCAN143_JEV_ADVANCE_TO_NEXT_SCAN",
+  "source_main_sha": "efd35cac1b9680a1f55927abd374548135ab7635",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_143",
+    "prior_pr": 454,
+    "prior_merged_main_sha": "efd35cac1b9680a1f55927abd374548135ab7635",
+    "prior_final_exact_head": "b34ddc87e1fbc9ba02d3f5583ef54a03452b7d70",
+    "prior_repository_ci_run_id": 35868192848,
+    "prior_live_jev_run_id": 35868192892,
+    "prior_live_jev_artifact_id": 10753825697,
+    "prior_live_jev_artifact_digest": "sha256:d5ef468b806b9836ec1f631470108b5d3aaf0253544a25ca41eebc5baa244f4b",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scan143_factory_verification_subproblem_not_inherited": true
+  },
+  "broad_reality_domains_examined": [
+    "OVERSEAS_INDUSTRIAL_EQUIPMENT_AFTERMARKET_FIELD_SERVICE",
+    "NATIONAL_DISABLED_ELDERLY_HOME_COMMUNITY_CARE",
+    "AGE_FRIENDLY_HOME_PRODUCT_SUBSIDY",
+    "RESIDENTIAL_OLD_ELEVATOR_RENEWAL",
+    "BONDED_HIGH_VALUE_REPAIR"
+  ],
+  "source_registry": {
+    "MACHINERY-EXPORT-CCCME-20260616": {
+      "source_class": "CURRENT_CHINA_TRADE_ASSOCIATION_REPUBLISHED_BY_CCPIT_PLATFORM",
+      "url": "https://www.eccpit.com/news/Y21zcG86MjMyODU",
+      "date": "2026-06-16",
+      "claim": "China construction-machinery exports reached USD 60.23B in 2025, up 13.9%, covering more than 230 countries/regions. The same current industry analysis explicitly says localization/service construction lags, Africa and Latin America remain under-covered, spare parts still rely heavily on shipment from China, service cycles are prolonged, and local technical talent is insufficient for onsite handling of high-end equipment faults."
+    },
+    "ROBOT-OVERSEAS-SERVICE-CAC-20260918": {
+      "source_class": "CURRENT_CAC_REPUBLISHED_STATE_MEDIA_INDUSTRIAL_EXPORT_OBSERVATION",
+      "url": "https://www.cac.gov.cn/2026-09/18/c_1791481867734412.htm",
+      "date": "2026-09-18",
+      "claim": "Current reporting on Chinese robotics exports states overseas customers increasingly require deployment, commissioning and process adaptation, while companies report difficulty building local service networks; industrial products require localized after-sales systems that consume substantial people and capital, and firms are building local talent teams and cooperation channels."
+    },
+    "HUNAN-AFRICA-SERVICE-20260629": {
+      "source_class": "CURRENT_PROVINCIAL_GOVERNMENT_INDUSTRY_OBSERVATION",
+      "url": "https://www.hunan.gov.cn/hnszf/hnyw/zwdt/202606/t20260629_34014665.html",
+      "date": "2026-06-29",
+      "claim": "Hunan government reporting describes machinery companies building Africa subsidiaries, service stations, warehouses, local after-sales, repair and parts systems; SANY trains local service personnel and reports about 90% local employment at its South Africa park. The article also records a call for shared public after-sales infrastructure to avoid each company duplicating its own network."
+    },
+    "AUTOMATE-AMERICA-FIELD-SERVICE-202609": {
+      "source_class": "CURRENT_GLOBAL_INDUSTRIAL_FIELD_SERVICE_MARKETPLACE",
+      "url": "https://automateamerica.com/contractors-for/field-service-engineers",
+      "date": "2026-09",
+      "claim": "Automate America presents a worldwide direct marketplace connecting thousands of automation professionals with OEMs, equipment builders, integrators and end users for onsite installation, commissioning, troubleshooting, repair, maintenance, warranty support and training across industrial robots, CNC, packaging, process and material-handling equipment."
+    },
+    "ELDERCARE-SUBSIDY-MCA-20260122": {
+      "source_class": "CURRENT_OFFICIAL_ELDERCARE_SUBSIDY_IMPLEMENTATION",
+      "url": "https://www.cncaprc.gov.cn/xxzcfg/770060.jhtml",
+      "date": "2026-01-22",
+      "claim": "The nationwide eldercare service subsidy implementation requires local systems to connect with Minzhengtong and existing eldercare institutions, community agencies and third-party assessment bodies to register in the system; it also directs development of professional home/community eldercare supply."
+    },
+    "ELDERCARE-VOUCHER-MCA-2025": {
+      "source_class": "OFFICIAL_ACTIVE_NATIONWIDE_ELDERCARE_VOUCHER_RULE",
+      "url": "https://www.cncaprc.gov.cn/xxzcfg/10032334.jhtml",
+      "date": "2025-07-16",
+      "claim": "The active nationwide program uses Minzhengtong electronic vouchers for home, community and institutional eldercare. Eligible providers must be registered/qualified, service records and voucher settlement flow through Minzhengtong, and users can place service orders through the same system."
+    },
+    "AGING-HOME-GUIZHOU-20260702": {
+      "source_class": "CURRENT_PROVINCIAL_AGE_FRIENDLY_HOME_SUBSIDY",
+      "url": "https://www.cncaprc.gov.cn/xwllxw/772055.jhtml",
+      "date": "2026-07-02",
+      "claim": "Guizhou's 2026 age-friendly home program offers vouchers to residents aged 60+ for six product categories, but explicitly excludes decoration and labor costs from subsidy, with product selection and qualification managed through the Duocaibao app."
+    },
+    "ELEVATOR-NDRC-2026": {
+      "source_class": "CURRENT_NATIONAL_EQUIPMENT_RENEWAL_POLICY",
+      "url": "https://zfxxgk.ndrc.gov.cn/wap/iteminfo.jsp?id=20582",
+      "date": "2025-12-29",
+      "claim": "The 2026 national equipment-renewal policy continues support for old residential elevators and lowers project thresholds while expanding support for SMEs and additional equipment-renewal domains."
+    },
+    "ELEVATOR-WEIHAI-20260616": {
+      "source_class": "CURRENT_LOCAL_GOVERNMENT_ELEVATOR_EXECUTION_RULE",
+      "url": "https://www.weihai.gov.cn/art/2026/6/18/art_103324_34028.html",
+      "date": "2026-06-16",
+      "claim": "Weihai's 2026 old residential elevator program defines building/owner funding and approval responsibilities, qualified installation/inspection duties, maintenance responsibilities and subsidy settlement to construction units, while encouraging elevator manufacturers or qualified maintenance enterprises to participate."
+    },
+    "BONDED-REPAIR-MOFCOM-20260113": {
+      "source_class": "CURRENT_OFFICIAL_BONDED_REPAIR_RULE",
+      "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2026/art_8051214953a64b86a5e014ce782d05ae.html",
+      "date": "2026-01-13",
+      "claim": "China permits specified high-tech/high-value repair in comprehensive bonded zones and group-exported electromechanical products to return for bonded repair, but participating repair enterprises must maintain customs-connected ERP, manage repair waste under regulation and operate under full-chain government supervision."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_144-F1",
+      "title": "Chinese industrial-equipment exporters with thin overseas service coverage -> local independent field-service / commissioning capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "China's exported industrial-equipment installed base keeps expanding across more than 230 countries/regions while current industry evidence explicitly reports under-built localization, long China-to-overseas spare-parts cycles and insufficient local technical talent in Africa/Latin America. Separate current global field-service marketplaces show a replenishing supply of independent onsite engineers. The possible missing edge is not generic lead generation: it is a standardized, manufacturer-authorized equipment/work-order packet that can route model-specific commissioning, troubleshooting, maintenance or training to qualified local capacity without requiring each exporter to build a full local branch.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "b_voluntary_motion": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "state_dependent_value_jump": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "decision_window": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "bridge_compression": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "activation_ease": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "self_propulsion": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "operator_control": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "a_discoverability": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "b_discoverability": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "match_resolvability": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "action_gate_callability": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "a_population_replenishment": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "b_population_replenishment": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "recurring_connection_pressure": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "recurring_missing_edge": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ],
+          "recurring_event_source": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+            "HUNAN-AFRICA-SERVICE-20260629",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MACHINERY-EXPORT-CCCME-20260616"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "HUNAN-AFRICA-SERVICE-20260629"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "MACHINERY-EXPORT-CCCME-20260616",
+          "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+          "HUNAN-AFRICA-SERVICE-20260629",
+          "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+        ]
+      },
+      "verdict": "RETAINED_FOR_CHEAP_FALSIFICATION_REGENERATIVE_OVERSEAS_INDUSTRIAL_AFTERMARKET_SERVICE_ROUTING_FIELD_AUTHORIZATION_WARRANTY_INCUMBENT_DISPATCH_PAYMENT_AND_EXPORTER_ACQUISITION_PREFLIGHT_REQUIRED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_144-F2",
+      "title": "Moderate-or-greater disabled elderly subsidy users -> registered home/community eldercare providers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "A nationwide monthly subsidy repeatedly generates eligible eldercare service events and registered provider supply, but Minzhengtong already owns provider registration, user service ordering, service records, voucher redemption and settlement. The obvious routing/transaction edge is therefore already assigned to the official system, while value delivery remains human care work.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "b_voluntary_motion": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "state_dependent_value_jump": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "decision_window": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "bridge_compression": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "activation_ease": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "self_propulsion": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "operator_control": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "a_discoverability": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "b_discoverability": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "match_resolvability": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "action_gate_callability": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "a_population_replenishment": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "b_population_replenishment": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "recurring_connection_pressure": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "recurring_missing_edge": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ],
+          "recurring_event_source": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELDERCARE-SUBSIDY-MCA-20260122",
+            "ELDERCARE-VOUCHER-MCA-2025"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "ELDERCARE-SUBSIDY-MCA-20260122",
+          "ELDERCARE-VOUCHER-MCA-2025"
+        ]
+      },
+      "verdict": "DEMOTED_REGENERATIVE_ELDERCARE_SUBSIDY_FIELD_REAL_BUT_MINZHENGTONG_ALREADY_OWNS_PROVIDER_REGISTRATION_ORDER_RECORD_VOUCHER_AND_SETTLEMENT_SURFACE_AND_CORE_VALUE_REMAINS_HUMAN_CARE_DELIVERY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_144-F3",
+      "title": "Older households using 2026 age-friendly home subsidies -> eligible smart-home / assistive-product supply",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Current provincial programs repeatedly create subsidized age-friendly product purchases, but the program is principally a catalog/product-retail flow and explicitly excludes decoration and labor in the cited Guizhou implementation. The product selection/payment surface is platform-mediated and does not evidence a separate recurring orchestration edge.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 2,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "b_voluntary_motion": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "state_dependent_value_jump": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "decision_window": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "bridge_compression": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "activation_ease": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "self_propulsion": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "operator_control": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "a_discoverability": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "b_discoverability": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "match_resolvability": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "action_gate_callability": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "a_population_replenishment": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "b_population_replenishment": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "recurring_connection_pressure": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "recurring_missing_edge": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ],
+          "recurring_event_source": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGING-HOME-GUIZHOU-20260702"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "AGING-HOME-GUIZHOU-20260702"
+        ]
+      },
+      "verdict": "DEMOTED_CURRENT_AGE_FRIENDLY_HOME_SUBSIDY_IS_PLATFORM_MEDIATED_PRODUCT_CATALOG_FLOW_WITH_LABOR_EXCLUDED_AND_NO_DISTINCT_RECURRING_ROUTER_EDGE_EVIDENCED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_144-F4",
+      "title": "Residential buildings with old elevators -> qualified elevator manufacturers / installation-maintenance providers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "The 2026 national renewal program continuously creates old-elevator replacement projects and qualified supply, but building-owner consensus, regulated installation, supervision inspection, construction responsibility and ongoing licensed maintenance dominate the execution chain. Local implementation already routes subsidies to construction units and directly encourages qualified manufacturers/maintenance companies.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "b_voluntary_motion": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "state_dependent_value_jump": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "decision_window": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "bridge_compression": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "activation_ease": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "self_propulsion": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "operator_control": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "a_discoverability": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "b_discoverability": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "match_resolvability": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "action_gate_callability": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "a_population_replenishment": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "b_population_replenishment": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "recurring_connection_pressure": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "recurring_missing_edge": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ],
+          "recurring_event_source": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ELEVATOR-NDRC-2026",
+            "ELEVATOR-WEIHAI-20260616"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "ELEVATOR-NDRC-2026",
+          "ELEVATOR-WEIHAI-20260616"
+        ]
+      },
+      "verdict": "DEMOTED_REGENERATIVE_OLD_ELEVATOR_RENEWAL_FIELD_REAL_BUT_REGULATED_CONSENSUS_INSTALLATION_INSPECTION_AND_MAINTENANCE_CHAIN_PREVENTS_LIGHT_OPERATOR_CONTROL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_144-F5",
+      "title": "Exported electromechanical equipment needing return-to-China repair -> comprehensive-bonded-zone repair operators",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Current bonded-repair rules create a durable route for exported electromechanical products to return for repair, but the route is restricted to qualifying enterprises with customs-connected ERP, waste controls and full-chain regulatory supervision. The regulated repair operator, customs and zone management own the action surface; a lightweight independent router cannot control the core flow.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 2,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 2,
+          "bridge_compression": 1,
+          "activation_ease": 1,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "b_voluntary_motion": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "state_dependent_value_jump": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "decision_window": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "bridge_compression": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "activation_ease": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "self_propulsion": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "operator_control": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "a_discoverability": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "b_discoverability": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "match_resolvability": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "action_gate_callability": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "a_population_replenishment": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "b_population_replenishment": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "recurring_connection_pressure": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "recurring_missing_edge": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ],
+          "recurring_event_source": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BONDED-REPAIR-MOFCOM-20260113"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "BONDED-REPAIR-MOFCOM-20260113"
+        ]
+      },
+      "verdict": "DEMOTED_REGENERATIVE_BONDED_REPAIR_ROUTE_EXISTS_BUT_CUSTOMS_CONNECTED_ERP_QUALIFIED_REPAIR_AND_FULL_CHAIN_REGULATORY_CONTROL_OWN_THE_EXECUTION_SURFACE"
+    }
+  ],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_144-F1",
+      "title": "Chinese industrial-equipment exporters with thin overseas service coverage -> local independent field-service / commissioning capacity",
+      "commercial_candidate": false,
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MACHINERY-EXPORT-CCCME-20260616"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "ROBOT-OVERSEAS-SERVICE-CAC-20260918"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "HUNAN-AFRICA-SERVICE-20260629"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MACHINERY-EXPORT-CCCME-20260616",
+            "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "MACHINERY-EXPORT-CCCME-20260616",
+          "ROBOT-OVERSEAS-SERVICE-CAC-20260918",
+          "HUNAN-AFRICA-SERVICE-20260629",
+          "AUTOMATE-AMERICA-FIELD-SERVICE-202609"
+        ]
+      }
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_144-F1"
+  ],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": false,
+  "commercial_outcome": {
+    "retained_count": 1,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Only the overseas industrial-equipment aftermarket field-service routing formation clears the initial machine attraction floor. It remains research-only pending exact incumbent/control-surface, OEM authorization, warranty/liability, technician credential, dispatch/payment and repeatable exporter-acquisition preflight."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_145",
+  "next_search_boundary": "RUN_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN144_THEN_CONSUME_EVERY_REVERSIBLE_F1_PUBLIC_RESEARCH_ROUTE_BEFORE_ANY_PROMOTION",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_F1_ROUTE",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "primary_domain_is_china_export_connected": true,
+    "scan143_factory_inspection_subproblem_not_used_as_prior": true,
+    "repository_dedup_completed_for_scan143_factory_inspection_sme_service_shared_manufacturing_compliance_and_waste": true,
+    "one_marketplace_not_treated_as_population_prevalence": true,
+    "incumbent_presence_not_automatic_kill": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "A FAST_GROWING_EXPORTED_INSTALLED_BASE_CAN_REGENERATE_AFTERMARKET_PRESSURE_INDEPENDENTLY_OF_ANY_SINGLE_SERVICE_REQUEST.",
+    "CURRENT_CHINA_INDUSTRY_EVIDENCE_EXPLICITLY_IDENTIFIES_LOCAL_SERVICE_PARTS_AND_TECHNICIAN_GAPS_IN_EMERGING_MARKETS.",
+    "GLOBAL_FIELD_SERVICE_MARKETPLACES_PROVE_LOCAL_TECHNICIAN_SUPPLY_AND_SIMULTANEOUSLY_CREATE_AN_INCUMBENT_CONTROL_SURFACE_THAT_MUST_BE_PREFLIGHTED.",
+    "OFFICIAL_VOUCHER_OR_SUBSIDY_PROGRAMS_CAN_CREATE_REPEATED_EVENTS_WHILE_THEIR_OWN_PLATFORM_OR_REGULATED_EXECUTION_CHAIN_ALREADY_OWNS_THE_ROUTING_SURFACE.",
+    "F1_REMAINS_A_RESEARCH_BEACON_NOT_A_COMMERCIAL_CANDIDATE_UNTIL_OEM_AUTHORIZATION_WARRANTY_AND_CONTROL_BOUNDARIES_ARE_EVIDENCED."
+  ],
+  "source_urls": [
+    "https://www.eccpit.com/news/Y21zcG86MjMyODU",
+    "https://www.cac.gov.cn/2026-09/18/c_1791481867734412.htm",
+    "https://www.hunan.gov.cn/hnszf/hnyw/zwdt/202606/t20260629_34014665.html",
+    "https://automateamerica.com/contractors-for/field-service-engineers",
+    "https://www.cncaprc.gov.cn/xxzcfg/770060.jhtml",
+    "https://www.cncaprc.gov.cn/xxzcfg/10032334.jhtml",
+    "https://www.cncaprc.gov.cn/xwllxw/772055.jhtml",
+    "https://zfxxgk.ndrc.gov.cn/wap/iteminfo.jsp?id=20582",
+    "https://www.weihai.gov.cn/art/2026/6/18/art_103324_34028.html",
+    "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2026/art_8051214953a64b86a5e014ce782d05ae.html"
+  ]
+}

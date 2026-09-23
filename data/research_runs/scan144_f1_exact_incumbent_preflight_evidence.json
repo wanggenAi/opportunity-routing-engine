@@ -1,0 +1,116 @@
+{
+  "scan_id": "ATTRACTION_SCAN_144",
+  "formation_id": "ATTRACTION_SCAN_144-F1",
+  "as_of_date": "2026-09-23",
+  "route_source": {
+    "source_exact_head_sha": "d904106914d66f99daf40f10dc1b60af6f6d3161",
+    "repository_ci_run_id": 35869614138,
+    "repository_ci_conclusion": "SUCCESS",
+    "jev_run_id": 35869614142,
+    "jev_artifact_id": 10755155071,
+    "jev_artifact_digest": "sha256:0bea615c9af547a307b06b5cbfa175a0708a26eeab6ed624ca5128034668064f",
+    "jev_execution_status": "SUCCESS",
+    "jev_input_scan_id": "ATTRACTION_SCAN_144",
+    "jev_entity_count": 5,
+    "jev_route": "EXACT_INCUMBENT_PREFLIGHT",
+    "jev_other_routes": "ATTRACTION_SCAN_144-F2_THROUGH_F5_NO_FURTHER_RESEARCH",
+    "autonomous_continuation_allowed": true,
+    "continuation_next_action": "EXECUTE_RESEARCH_QUEUE"
+  },
+  "public_sources": [
+    {
+      "source_id": "FINDFST-ONSITE-202609",
+      "url": "https://www.findfst.com/on-site-missions",
+      "role": "EXACT_INCUMBENT_MACHINE_SPECIFIC_FIELD_SERVICE_TRANSACTION_SURFACE",
+      "bound_facts": [
+        "The buyer briefs a machine, fault, photos and dates rather than a generic job title.",
+        "Technicians with experience on the equipment quote hourly or fixed-price work.",
+        "Payment is held in escrow and released after completion with a report.",
+        "The platform states a flat 6 percent fee."
+      ]
+    },
+    {
+      "source_id": "FINDFST-HOME-202609",
+      "url": "https://www.findfst.com/",
+      "role": "EXACT_INCUMBENT_CREDENTIAL_MATCHING_AND_MACHINE_HISTORY_SURFACE",
+      "bound_facts": [
+        "Technician matching uses machine/site information and equipment skills.",
+        "Identity and liability insurance are verified.",
+        "The mission workspace carries quotations, timesheets, reports, completion and machine-specific documents/history.",
+        "The platform advertises a flat 6 percent fee and sub-two-hour first quote."
+      ]
+    },
+    {
+      "source_id": "FINDFST-GUIDE-202609",
+      "url": "https://www.findfst.com/guides/on-site-field-service-missions",
+      "role": "EXACT_INCUMBENT_ASSET_BOUND_REPORT_AND_PAYMENT_FLOW",
+      "bound_facts": [
+        "Machine brand, industry and equipment type drive technician ranking.",
+        "Quotes are compared against profiles, ratings and completed missions.",
+        "Payment is taken up front and released on completion.",
+        "The resulting report stays attached to the machine as service history."
+      ]
+    },
+    {
+      "source_id": "AUTOMATE-AMERICA-FSE-202609",
+      "url": "https://automateamerica.com/contractors-for/field-service-engineers",
+      "role": "EXACT_INCUMBENT_OEM_AND_EQUIPMENT_BUILDER_FIELD_SERVICE_MARKETPLACE",
+      "bound_facts": [
+        "The marketplace is worldwide and directly serves OEMs, equipment builders, integrators and end users.",
+        "It covers installation, startup, commissioning, troubleshooting, repair, maintenance, warranty/service-contract support, training and documentation close-out.",
+        "Specific OEM/equipment experience and site/travel credentials are searchable.",
+        "Posting is free and signup verification is advertised."
+      ]
+    },
+    {
+      "source_id": "OPROCON-INDUSTRIAL-SERVICE-202609",
+      "url": "https://consultant.oprocon.com/en",
+      "role": "GLOBAL_INDUSTRIAL_SERVICE_MARKETPLACE_AND_ESCROW_SURFACE",
+      "bound_facts": [
+        "Oprocon exposes global commissioning, machine maintenance and machine repair specialists.",
+        "The workflow is post project, receive quotes, select/get contract, complete, review/approve.",
+        "Escrow is offered with release after successful delivery and approval."
+      ]
+    },
+    {
+      "source_id": "CHANGYI-PARTNER-202609",
+      "url": "https://changyi-machinery.com/en/become-a-distributor",
+      "role": "CURRENT_CHINESE_OEM_PARTNER_AUTHORIZATION_AND_AFTERSALES_RESPONSIBILITY_SURFACE",
+      "bound_facts": [
+        "A technical service company can apply as a regional partner.",
+        "Technical resources or reliable service partners are explicit partner criteria.",
+        "Installation, commissioning, training, spare-parts and local-service responsibilities are agreed according to project and partner capability.",
+        "Commercial and territory terms are decided after business review."
+      ]
+    }
+  ],
+  "exact_incumbent_control_map": {
+    "machine_and_fault_intake": "FINDFST",
+    "model_equipment_experience_matching": "FINDFST_AND_AUTOMATE_AMERICA",
+    "technician_identity_insurance_and_credentials": "FINDFST_AND_AUTOMATE_AMERICA",
+    "technician_quotes_and_price_discovery": "FINDFST_AND_OPROCON",
+    "payment_hold_and_release": "FINDFST_AND_OPROCON_ESCROW",
+    "onsite_execution": "INDEPENDENT_FIELD_SERVICE_TECHNICIANS_ALREADY_ROUTED_BY_INCUMBENTS",
+    "service_reports_and_asset_history": "FINDFST",
+    "OEM_warranty_and_authorization": "OEM_SPECIFIC_PARTNER_OR_SERVICE_AGREEMENT_NOT_A_GENERIC_ROUTER_RIGHT",
+    "OEM_and_equipment_builder_acquisition": "AUTOMATE_AMERICA_ALREADY_SERVES_THE_SAME_BUYER_CLASS_DIRECTLY"
+  },
+  "contradiction_search": [
+    "The broad reality field is true: Chinese industrial equipment exports are expanding and emerging-market local service gaps are documented.",
+    "The proposed generic routing bridge is not unowned. FindFST already binds machine/fault intake, exact-equipment matching, verified/insured technicians, quotes, escrow, completion and machine-bound reports/history.",
+    "Automate America already targets OEMs and equipment builders worldwide for the same commissioning, repair, warranty and training work and exposes equipment/OEM experience.",
+    "Oprocon independently demonstrates a second global industrial-services quote/contract/review/escrow surface.",
+    "OEM authorization and warranty responsibility are not generic marketplace permissions. Current Chinese OEM partner materials bind installation, commissioning, parts and local-service responsibilities to bilateral partner capability/business review.",
+    "No bounded public evidence establishes an independently ownable China-exporter acquisition rail for a new neutral router; repeated founder-by-founder OEM outreach would violate the operator-control guard.",
+    "Technician density in the exact under-served African/Latin-American countries remains unproven; UNKNOWN cannot be promoted as coverage."
+  ],
+  "resolution": "EXACT_INCUMBENT_PREFLIGHT_CLOSES_F1_GENERIC_OVERSEAS_INDUSTRIAL_FIELD_SERVICE_ROUTER_ALREADY_MATERIALLY_OWNED_BY_FINDFST_AUTOMATE_AMERICA_AND_OPROCON_WHILE_OEM_AUTHORIZATION_WARRANTY_REMAINS_BILATERAL_AND_DISTINCT_CHINA_EXPORTER_ACQUISITION_NOT_EVIDENCED",
+  "authoritative_closure_verdict": "DEMOTED_EXACT_INCUMBENT_PREFLIGHT_FINDFST_AUTOMATE_AMERICA_AND_OPROCON_ALREADY_OWN_MACHINE_SPECIFIC_MATCHING_QUOTES_CREDENTIALS_ESCROW_REPORTING_AND_SERVICE_HISTORY_WHILE_OEM_AUTHORIZATION_WARRANTY_REMAINS_BILATERAL_AND_DISTINCT_CHINA_EXPORTER_ACQUISITION_NOT_EVIDENCED",
+  "commercial_promotion": false,
+  "external_contact_performed": false,
+  "quote_performed": false,
+  "account_created": false,
+  "money_moved": false,
+  "application_submitted": false,
+  "next_action": "FREEZE_ROUTE_CONSUMPTION_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_JEV_EXPECT_ALL_NO_FURTHER_RESEARCH_THEN_MERGE_PR455_AND_REDERIVE_SCAN145_FROM_BROAD_REALITY"
+}

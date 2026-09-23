@@ -9,15 +9,15 @@ Continue the clean-slate Attraction Field under the machine-enforced regenerativ
 Close or prove regenerative formations without promoting explicit tasks or transaction proxies; preserve exact-head repository CI + live TypeSafe/Jev and fail closed on incumbent ownership, inaccessible control/data, founder-dependent acquisition or unevidenced economics.
 
 ## Current Unique Commercial Research Goal
-Finish Scan 143 after consuming F1's exact-incumbent preflight. If final exact-head checks resolve F1-F5 to NO_FURTHER_RESEARCH, merge PR #454 and derive Scan 144 from broad current reality.
+Finish Scan 144 after consuming F1's exact-incumbent preflight. If final exact-head checks resolve F1-F5 to NO_FURTHER_RESEARCH, merge PR #455 and rederive Scan 145 from broad current reality.
 
 ## Current Phase
-SCAN143_F1_EXACT_INCUMBENT_PREFLIGHT_CONSUMED_FINAL_EXACT_HEAD_REVALIDATION_PENDING
+SCAN144_F1_EXACT_INCUMBENT_PREFLIGHT_CONSUMED_FINAL_EXACT_HEAD_REVALIDATION_PENDING
 
 ## Last Verified Main
-- `main`: `c4d3da4d67f067a512642beb272eeafa7fd0fa34` — PR #453 merged.
-- Scan 142 final exact head `fb3d325b2757659f64bb8692883b6347d4427243` passed CI `35866479631` and live TypeSafe/Jev `35866479446`.
-- Scan 142 effective routes: 4/4 `NO_FURTHER_RESEARCH`; continuation `ADVANCE_TO_NEXT_SCAN`.
+- `main`: `efd35cac1b9680a1f55927abd374548135ab7635` — PR #454 merged.
+- Scan 143 final exact head `b34ddc87e1fbc9ba02d3f5583ef54a03452b7d70` passed repository CI `35868192848` and live TypeSafe/Jev `35868192892`.
+- Scan 143 effective routes: 5/5 `NO_FURTHER_RESEARCH`; continuation `ADVANCE_TO_NEXT_SCAN`.
 - Active commercial candidates: 0.
 - Active transaction units: 0.
 - FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
@@ -26,51 +26,53 @@ SCAN143_F1_EXACT_INCUMBENT_PREFLIGHT_CONSUMED_FINAL_EXACT_HEAD_REVALIDATION_PEND
 #143 — `P0: Clean-slate Attraction Field -> first external value flow`.
 
 ## Active Branch
-`research/scan143-broad-reality-trust-routing`.
+`research/scan144-broad-reality-aftermarket-service-routing`.
 
 ## Active PR
-PR #454 — `Run Scan 143 broad-reality trust routing` — OPEN.
+PR #455 — `Run Scan 144 broad-reality aftermarket service routing` — OPEN.
 
 ## CI
-- Initial Scan 143 head `c6edf8ee2b4fc7619275cc5f30f546822062ccc8`.
-- Repository CI `35867483020`: FAILURE only from missing TASK_STATE contract headings and stale Scan 140/141 tests that hardcoded live state at Scan 142; Scan 143 guard/discovery logic was not the failing scope.
-- Live TypeSafe/Jev `35867482988`: SUCCESS.
-- Artifact `10753016587`, digest `sha256:0140a26e4cc70e86e47461415fc7b326252c0d748dcd0e157b044fd665eabcaa`.
-- Jev effective routes: F1 `EXACT_INCUMBENT_PREFLIGHT`; F2-F5 `NO_FURTHER_RESEARCH`; autonomous continuation allowed.
-- The route-consumption head created after this checkpoint still requires fresh exact-head repository CI + live Jev before merge.
+- Initial Scan 144 exact head `d904106914d66f99daf40f10dc1b60af6f6d3161`.
+- Repository CI `35869614138`: SUCCESS.
+- Live TypeSafe/Jev `35869614142`: SUCCESS.
+- Artifact `10755155071`, digest `sha256:0bea615c9af547a307b06b5cbfa175a0708a26eeab6ed624ca5128034668064f`.
+- Jev input: `ATTRACTION_SCAN_144`, 5 entities.
+- Jev effective routes: F1 `EXACT_INCUMBENT_PREFLIGHT`; F2-F5 `NO_FURTHER_RESEARCH`; continuation `EXECUTE_RESEARCH_QUEUE`; autonomous continuation allowed.
+- The route-consumption head created after this checkpoint requires fresh exact-head repository CI + live Jev before merge.
 
 ## Latest Artifact / Persisted State
-- `data/research_runs/attraction_scan_143.json`
-- `data/research_runs/scan143_broad_reality_evidence.json`
-- `data/research_runs/scan143_f1_exact_incumbent_preflight_evidence.json`
-- `docs/research/SCAN143_F1_EXACT_INCUMBENT_PREFLIGHT_2026-09-23.md`
+- `data/research_runs/attraction_scan_144.json`
+- `data/research_runs/scan144_broad_reality_evidence.json`
+- `data/research_runs/scan144_f1_exact_incumbent_preflight_evidence.json`
+- `docs/research/SCAN144_F1_EXACT_INCUMBENT_PREFLIGHT_2026-09-23.md`
 - `data/commercial_reset_state.json`
 
 ## Completed
-- Scan 142 merged after final exact-head CI and live Jev converged to 4/4 `NO_FURTHER_RESEARCH`.
-- Scan 143 was rederived from broad current reality, not from the VPP subproblem.
-- F1 passed the machine high-attraction floor only as a research beacon; F2-F5 were closed.
+- PR #454 / Scan 143 merged after final exact-head CI and live Jev converged to 5/5 `NO_FURTHER_RESEARCH`.
+- Scan 144 was independently rederived from broad current reality, not from Scan 143 factory inspection.
+- F1 passed the initial attraction floor only as a research beacon; F2-F5 were closed.
 - Real TypeSafe/Jev routed F1 to `EXACT_INCUMBENT_PREFLIGHT`.
-- Current Alibaba / global inspection incumbent evidence shows generic supplier/factory verification already has provider discovery, low-cost booking, payment, dispatch, onsite execution, reporting and trust surfaces.
-- F1 is closed in authoritative commercial state; no commercial promotion or external side effect occurred.
-- Scan 140/141 regression assertions are being made future-proof so later scans do not repeatedly fail on a moving live-state pointer.
+- FindFST already binds machine/fault intake, exact-equipment technician matching, verified identity/insurance, quotes, escrow, completion reports and machine history at a stated flat 6% fee.
+- Automate America already directly serves OEMs/equipment builders worldwide across installation, commissioning, repair, warranty/service-contract support and training; Oprocon supplies a second global industrial-service quote/contract/escrow rail.
+- Current Chinese OEM partner evidence shows installation/commissioning/training/parts/local-service responsibility is agreed through OEM-specific partner capability/business review, so the remaining authorization/warranty layer is bilateral rather than a generic routing entitlement.
+- F1 is authoritatively closed in commercial machine state; no commercial promotion or external side effect occurred.
 
 ## Current Findings
-The recurrent buyer trust problem is real, but the generic “route overseas buyers to China inspectors” control edge is not unowned. Alibaba and global inspection incumbents already materially own the transaction/trust workflow. A narrower specialized service is a new thesis, not a rescue of Scan 143. Repeatable buyer acquisition without founder-by-founder Reddit/DM selling is also not evidenced.
+The overseas industrial-equipment aftermarket pressure is real, but the generic neutral routing layer is not distinct. Exact incumbents already own machine-specific matching, credentialing, quote/payment protection and reporting; the residual OEM authorization, warranty/liability and technical-data rights are provider-specific bilateral permissions. Country/model technician density and repeatable China-exporter acquisition also remain unproven, and UNKNOWN does not pass.
 
 ## Blockers
 No human blocker. Only final exact-head validation of the route-consumption state remains.
 
 ## Next Action
-Require exact-head repository CI and live TypeSafe/Jev on the route-consumption head. If both pass and F1-F5 resolve to `NO_FURTHER_RESEARCH`, merge PR #454, verify live main, then start Scan 144 from broad current reality.
+Require exact-head repository CI and live TypeSafe/Jev on the route-consumption head. If both pass and F1-F5 resolve to `NO_FURTHER_RESEARCH`, merge PR #455, verify live main, then start Scan 145 from broad current reality.
 
 ## Do Not Repeat
-- Do not inherit VPP or Scan128-141 transaction-proxy subproblems.
-- Do not reinterpret Scan 143 F1 HIGH_ATTRACTION_BEACON as a commercial candidate after authoritative closure.
-- Do not narrow to an off-Alibaba/specialized inspection niche merely to save the failed generic router thesis.
-- Do not treat Reddit observations as population prevalence, market-size evidence or a repeatable acquisition rail.
+- Do not return to Scan 143 factory inspection or narrow Scan 144 into a specific OEM/geography merely to rescue the generic field-service router.
+- Do not inherit Scan 128-141 transaction-proxy subproblems.
+- Do not treat aggregate worldwide technician supply as proof of under-served-country coverage.
+- Do not assume an independent technician marketplace conveys OEM warranty authorization.
 - Do not weaken `UNKNOWN != PASS`.
-- Do not contact buyers, factories or inspectors, quote a service, create accounts or move money before an explicit external-action gate.
+- Do not contact exporters, OEMs, dealers, technicians or marketplaces, quote a service, create accounts or move money before an explicit external-action gate.
 
 ## Guardrails
 GitHub live state wins. REALITY > COGNITION > SCHEMA. LOCAL GATE COMPLIANCE != STRATEGIC ALIGNMENT. HIGH_ATTRACTION_BEACON != COMMERCIAL_CANDIDATE. TypeSafe/Jev is shadow research advisory only.
