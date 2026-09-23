@@ -30,7 +30,7 @@ SCAN144_BROAD_REALITY_DERIVED_INITIAL_EXACT_HEAD_VALIDATION_PENDING
 `research/scan144-broad-reality-aftermarket-service-routing`.
 
 ## Active PR
-PENDING CREATION.
+PR #455 — `Run Scan 144 broad-reality aftermarket service routing` — OPEN.
 
 ## CI
 - Scan 144 exact-head repository CI: PENDING.
@@ -59,7 +59,7 @@ The strongest new field is not generic sourcing or inspection. It is the recurri
 No human blocker. Exact-head repository CI and live TypeSafe/Jev have not yet run on the Scan 144 branch.
 
 ## Next Action
-Open the Scan 144 PR, freeze its exact head, require repository CI + live TypeSafe/Jev, then consume every reversible F1 public-research route before any promotion.
+Freeze PR #455's exact head, require repository CI + live TypeSafe/Jev, then consume every reversible F1 public-research route before any promotion.
 
 ## Do Not Repeat
 - Do not return to Scan 143 factory inspection or invent a specialized inspection niche to rescue it.
