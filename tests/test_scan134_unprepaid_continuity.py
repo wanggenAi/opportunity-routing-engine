@@ -57,6 +57,6 @@ def test_scan134_evidence_pack_matches_zero_retention_machine_truth():
     assert evidence["scan_id"] == "ATTRACTION_SCAN_134"
     assert len(evidence["evidence_packets"]) == 4
     assert evidence["scan_conclusion"].endswith("ZERO_RETAINED_ZERO_COMMERCIAL_PROMOTION")
-    assert state["retained_research_formations"] == []
+    assert scan["retained_research_formations"] == []
     assert state["active_commercial_candidates"] == []
     assert state["next_scan_id"] == "ATTRACTION_SCAN_136"
