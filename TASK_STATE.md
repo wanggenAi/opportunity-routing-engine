@@ -31,7 +31,7 @@ SCAN146_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 `research/scan146-broad-reality-resource-circulation`.
 
 ## Active PR
-PENDING_SCAN146_PR.
+PR #458 — `Run Scan 146 broad-reality resource circulation` — OPEN.
 
 ## CI
 - Scan 146 exact-head repository CI: PENDING.
