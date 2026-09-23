@@ -3,6 +3,7 @@ from pathlib import Path
 
 from src.strategic_drift_guard import (
     ENFORCEMENT_START_SCAN,
+    STATE_CHANGE_ENFORCEMENT_START_SCAN,
     strategic_drift_errors,
     strategic_drift_guard_passes,
 )
@@ -81,6 +82,56 @@ def test_scan140_style_asset_lane_would_fail_if_repeated_after_enforcement_bound
     errors = strategic_drift_errors(legacy)
     assert "drift_audit_not_true:regenerative_field_revalidated" in errors
     assert any("missing_regenerative_field_gate" in error for error in errors)
+
+
+
+def state_change_gate(owner_state: str = "UNOWNED_OPEN"):
+    return {
+        "event_trace": evidenced("EVENT-TRACE"),
+        "affected_actor_population": evidenced("AFFECTED-ACTORS"),
+        "counterparty_population": evidenced("COUNTERPARTIES"),
+        "decisive_action_gate": {
+            **evidenced("ACTION-GATE"),
+            "owner_state": owner_state,
+        },
+    }
+
+
+def scan157_compliant(owner_state: str = "UNOWNED_OPEN"):
+    scan = compliant_scan(f"ATTRACTION_SCAN_{STATE_CHANGE_ENFORCEMENT_START_SCAN}")
+    scan["drift_audit"].update(
+        {
+            "prior_domain_deduplication_checked": True,
+            "state_change_first_search": True,
+            "decisive_action_gate_owner_checked": True,
+        }
+    )
+    scan["high_attraction_beacons"][0]["state_change_gate"] = state_change_gate(
+        owner_state
+    )
+    return scan
+
+
+def test_scan157_requires_state_change_search_audit_flags():
+    scan = compliant_scan(f"ATTRACTION_SCAN_{STATE_CHANGE_ENFORCEMENT_START_SCAN}")
+    errors = strategic_drift_errors(scan)
+    assert "drift_audit_not_true:prior_domain_deduplication_checked" in errors
+    assert "drift_audit_not_true:state_change_first_search" in errors
+    assert "drift_audit_not_true:decisive_action_gate_owner_checked" in errors
+
+
+def test_scan157_high_attraction_rejects_incumbent_owned_decisive_gate():
+    scan = scan157_compliant("INCUMBENT_OWNED")
+    errors = strategic_drift_errors(scan)
+    assert any(
+        "decisive_action_gate_not_operator_ownable:INCUMBENT_OWNED" in error
+        for error in errors
+    )
+
+
+def test_scan157_high_attraction_accepts_evidenced_unowned_open_gate():
+    scan = scan157_compliant("UNOWNED_OPEN")
+    assert strategic_drift_errors(scan) == []
 
 
 def test_every_future_persisted_scan_is_strategically_guarded():
