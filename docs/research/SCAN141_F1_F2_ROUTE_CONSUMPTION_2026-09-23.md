@@ -33,9 +33,9 @@ https://m.fang.com/fapai/wuhu/out_12692605.html
 Earlier same-case mirror:
 https://m.fang.com/fapai/wuhu/out_12537855.html
 
-The current notice binds RMB299,200 entry, lease 2024-05-01 through 2031-04-30, RMB18,800/year rent, annual settlement, and no priority purchaser. The earlier same-case B118 listing used the same case number and economics but left the lease field blank.
+The current notice binds RMB299,200 entry, lease 2024-05-01 through 2031-04-30, RMB18,800/year rent and annual settlement. Its platform summary says no priority purchaser, but the embedded court notice body says a masked individual has priority-purchase rights. The notice body is more specific; however, the public source does not establish whether that right-holder is the tenant. The earlier same-case B118 listing used the same case number and economics but left the lease field blank.
 
-The later current notice therefore adds material lease information; the earlier omission is not proof of no lease. Neither public version supplies a current paid-through cursor, first unprepaid buyer receipt, tenant identity, or case-specific payment ledger.
+The later current notice therefore adds material lease information; the earlier omission is not proof of no lease. Neither public version supplies a current paid-through cursor, first unprepaid buyer receipt, a source-bound tenant/right-holder relationship, or a case-specific payment ledger.
 
 Resolution: exact incumbent preflight is exhausted at the case-specific lease/payment-ledger boundary. F2 remains research-only.
 
