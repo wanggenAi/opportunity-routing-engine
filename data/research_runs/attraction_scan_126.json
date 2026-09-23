@@ -1,0 +1,139 @@
+{
+  "schema_version": "attraction-scan.v100",
+  "scan_id": "ATTRACTION_SCAN_126",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CHINA_XUZHOU_WITH_NATIONWIDE_EXECUTOR_ROUTING",
+  "source_geographies": [
+    "CHINA",
+    "GLOBAL_BUYER_MARKET"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "PRECEDENT_CALIBRATED_BROAD_REALITY_GROUND_TRUTH_EXECUTION_ROUTING_WITH_CURRENT_PAID_BUYER_TASKS_LOCAL_REPLACEABLE_EXECUTOR_SUPPLY_PREPAYMENT_PATH_PRICE_COST_BINDING_AND_EXACT_INCUMBENT_PREFLIGHT_FAIL_CLOSED_NO_COMMERCIAL_PROMOTION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [
+    "ATTRACTION_SCAN_126-F1"
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_126-F1"
+  ],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": false,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_126-F1",
+      "title": "CROSS_BORDER_CHINA_GROUND_TRUTH_EXECUTION_ROUTING",
+      "chinese_title": "跨境中国本地实地核验 / 取证 / 执行路由",
+      "evidence_class": "HIGH_ATTRACTION_BOOTSTRAP_CANDIDATE",
+      "evidence_summary": "Current overseas buyers are paying fixed-price China-local evidence tasks across retail shelf surveys, predefined site audits, showroom capture and factory verification. China-side crowdsourcing already standardizes city/task/checklist/photo evidence/QA, while Upwork can pre-fund fixed-price milestones. Raw price-cost headroom exists for selected nontechnical task classes, but generic China-local execution already has exact/near-exact incumbents (ChinaLocalAgent, Upwork marketplace, WeiChaiShi), Upwork subcontracting requires client consent, and founder-free acquisition plus fully normalized travel/QA/rework economics remain unproven.",
+      "observed_demand_and_payment": [
+        "Shanghai wine-shop field survey pays USD25 per satisfactory visited shop across 21 shops.",
+        "Chengdu predefined nontechnical test-center audit pays USD100 for one visit, photos and predefined report.",
+        "Guangzhou/Foshan showroom capture pays USD100 for a trial visit and explicitly offers monthly repeat if accepted.",
+        "China factory production verification pays USD200 but requires factory/production judgement and is not treated as a generic first-bootstrap task.",
+        "USD4 GPS-photo site visits exist as a negative control and fail the public China-side basic-photo executor floor before fees."
+      ],
+      "supply_and_standardization": [
+        "Existing Scan 126 seed records a China-side field network with task decomposition, location/time/photo requirements, local matching, evidence QA and public worker payout references of RMB30-80 for basic photos and RMB80-200 for short-video/multi-point tasks.",
+        "WeiChaiShi publicly offers nationwide crowdsourced data collection, market research and retail audit across 500+ cities with quality checking.",
+        "UU Paotui publicly exposes MCP/CLI/Agent Skill/OpenAPI for quote/order/status/cancel/track physical errand primitives, but evidence-capture semantics are not proven through that machine-callable rail."
+      ],
+      "payment_and_authorization": [
+        "Upwork fixed-price work can require a funded milestone before work begins.",
+        "Upwork explicitly requires client consent before an individual freelancer subcontracts any agreed work; agency structure is a transparent alternative.",
+        "Therefore hidden subcontracting is forbidden and cannot be used to claim a callable dispatch rail."
+      ],
+      "price_cost_signal": [
+        "FX snapshot used for this research: 1 USD approximately RMB6.701.",
+        "USD100 predefined site-audit buyer budget leaves approximately RMB569.6 after a conservative 15% freelancer fee; against a same-family RMB80-200 public short-video/multi-point worker payout signal, raw headroom is approximately RMB369.6 at the high worker-payout bound before travel/QA/rework.",
+        "USD25 retail-shop budget leaves approximately RMB142.4 after a 15% freelancer fee; against RMB30-80 basic-photo payout, raw headroom is approximately RMB62.4 at the high payout bound before travel/QA/rework.",
+        "USD4 site-visit budget leaves approximately RMB22.8 after a 15% freelancer fee, below the RMB30 basic-photo payout floor before travel; reject."
+      ],
+      "exact_incumbent_and_control_surface_preflight": [
+        "ChinaLocalAgent currently offers almost the same overseas-client -> scoped China local execution -> photo/video/checklist/report flow, with quote-before-work and permission/privacy review.",
+        "Upwork itself already owns global buyer discovery, fixed-price funding and direct China freelancer matching for these tasks.",
+        "WeiChaiShi already owns a nationwide China crowdsourcing/QA control surface for retail audits and field data collection.",
+        "The broad generic 'China helper / local execution' layer therefore cannot be presumed white space. The remaining possible edge, if any, must be narrower: machine-native cross-border scope normalization + lawful dispatch + standardized evidence acceptance across replaceable local rails."
+      ],
+      "task_class_boundary": {
+        "first_bootstrap_likely": [
+          "RETAIL_SHELF_OR_SHOP_PHOTO_EVIDENCE",
+          "PREDEFINED_NONTECHNICAL_COMMERCIAL_SITE_OBSERVATION"
+        ],
+        "conditional": [
+          "SHOWROOM_VIDEO_PHOTO_CAPTURE_WITH_LIMITED_STAFF_QA"
+        ],
+        "exclude_initial": [
+          "FACTORY_PRODUCTION_OR_QC_JUDGEMENT",
+          "SAMPLE_QUALITY_INSPECTION",
+          "PROFESSIONAL_OR_LICENSED_AUDIT",
+          "END_TO_END_SOURCING_OR_NEGOTIATION",
+          "CUSTODY_HEAVY_LOGISTICS",
+          "PRIVATE_OR_SENSITIVE_SURVEILLANCE"
+        ]
+      },
+      "decisive_unknowns": [
+        "Does any current incumbent already provide the same low-volume cross-border self-service/machine-native scope-normalize-dispatch-evidence-acceptance loop?",
+        "Can a transparent, authorized subcontract/agency path preserve prepaid buyer funds before local execution cost?",
+        "Can travel, QA and rework be bounded tightly enough that contribution margin remains positive for the selected nontechnical task classes?",
+        "Can later customer acquisition escape recurring founder proposal-writing and persuasion?",
+        "Can domestic machine-callable/crowd rails accept evidence-specific briefs rather than only delivery/errand primitives?"
+      ],
+      "bootstrap_readiness": "BLOCKED_PENDING_EXACT_INCUMBENT_PREFLIGHT_FULL_COST_BOUNDING_AND_TRANSPARENT_SUBCONTRACT_PATH",
+      "commercial_promotion": false,
+      "first_external_value_flow": "NOT_PROVEN",
+      "verdict": "RETAINED_FOR_EXACT_INCUMBENT_PREFLIGHT_AND_NORMALIZED_ECONOMICS"
+    }
+  ],
+  "drift_audit": {
+    "broad_reality_preserved": true,
+    "factory_inspection_not_promoted_to_ontology": true,
+    "current_paid_buyer_evidence_used": true,
+    "same_scope_cost_binding_required": true,
+    "raw_spread_not_treated_as_normalized_margin": true,
+    "exact_incumbent_preflight_required": true,
+    "hidden_subcontracting_forbidden": true,
+    "professional_certification_excluded_from_generic_bootstrap": true,
+    "low_price_negative_control_preserved": true,
+    "founder_manufactured_demand_forbidden": true,
+    "commercial_promotion_fail_closed": true,
+    "success_precedents_used_as_search_prior_only": true
+  },
+  "scan_learnings": [
+    "SCAN126_CURRENT_PAID_DEMAND_PLUS_CHINA_SIDE_CROWD_SUPPLY_SUPPORTS_A_REAL_GROUND_TRUTH_EXECUTION_FIELD_BUT_NOT_YET_AN_UNOWNED_CONTROL_EDGE.",
+    "USD4_GPS_PHOTO_TASKS_FAIL_ECONOMICS_BEFORE_TRAVEL_AND_FEES_AND_SHOULD_BE_REJECTED_EARLY.",
+    "USD25_RETAIL_EVIDENCE_AND_USD100_PREDEFINED_NONTECHNICAL_AUDIT_TASKS_SHOW_POSITIVE_RAW_HEADROOM_AGAINST_PUBLIC_CHINA_SIDE_EXECUTOR_PAYOUT_BANDS_BUT_FULL_NORMALIZED_MARGIN_REMAINS_UNPROVEN.",
+    "FACTORY_PRODUCTION_QC_AND_SAMPLE_QUALITY_TASKS_ARE_NOT_SAME_SCOPE_WITH_GENERIC_FIELD_EXECUTOR_COSTS_AND_ARE_EXCLUDED_FROM_INITIAL_BOOTSTRAP.",
+    "UPWORK_CAN_PROVIDE_PREFUNDED_FIXED_PRICE_MILESTONES_BUT_SUBCONTRACTING_REQUIRES_CLIENT_CONSENT_OR_TRANSPARENT_AGENCY_STRUCTURE.",
+    "CHINALOCALAGENT_UPWORK_AND_WEICHAISHI_CREATE_A_MATERIAL_EXACT_INCUMBENT_CONTROL_SURFACE_THREAT_TO_THE_BROAD_FORMATION.",
+    "UU_MCP_PROVES_MACHINE_CALLABLE_PHYSICAL_ERRAND_PRIMITIVES_BUT_NOT_EVIDENCE_CAPTURE_ACCEPTANCE_SEMANTICS.",
+    "THE_NEXT_DECISIVE_RESEARCH_STEP_IS_EXACT_INCUMBENT_PREFLIGHT_BEFORE_ANY_EXTERNAL_BOOTSTRAP."
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_127",
+  "next_search_boundary": "FIRST_VALIDATE_SCAN126_F1_WITH_LIVE_JEV_ON_CANONICAL_SCAN_INPUT_THEN_IF_RESEARCH_QUEUE_REQUIRES_IT_COMPLETE_EXACT_CURRENT_INCUMBENT_CONTROL_SURFACE_PREFLIGHT_FOR_MACHINE_NATIVE_LOW_VOLUME_CROSS_BORDER_SCOPE_NORMALIZATION_DISPATCH_AND_EVIDENCE_ACCEPTANCE_IF_F1_SURVIVES_BIND_TRAVEL_QA_REWORK_AND_AUTHORIZED_SUBCONTRACT_COSTS_BEFORE_ANY_MAX_3_TRANSACTION_BOOTSTRAP_OTHERWISE_DEMOTE_AND_RETURN_TO_FORMATION_DIVERSE_BROAD_REALITY_NO_GATE_RELAXATION",
+  "next_action": "RUN_EXACT_HEAD_CI_AND_LIVE_TYPESAFE_JEV_ON_CANONICAL_ATTRACTION_SCAN_126_THEN_CONSUME_THE_RETURNED_RESEARCH_ROUTE_AUTONOMOUSLY",
+  "first_external_value_flow": "NOT_PROVEN",
+  "source_urls": [
+    "https://www.upwork.com/freelance-jobs/apply/Shanghai-Wine-Shop-Survey_~022100554984121028743/",
+    "https://www.upwork.com/freelance-jobs/apply/Unannounced-Test-Center-Audit-Chengdu-China-September-14th_~022098629770887146317/",
+    "https://www.upwork.com/freelance-jobs/apply/Showroom-Video-Photo-Assistant-Guangzhou-Foshan_~022095078437887965964/",
+    "https://www.upwork.com/freelance-jobs/apply/Site-Goods-Verification-Specialist_~022095499103630157579/",
+    "https://www.upwork.com/freelance-jobs/apply/Site-visit-Tai-City-china_~022099778133661898817/",
+    "https://support.upwork.com/hc/en-us/articles/211063748-How-Fixed-Price-Payment-Protection-works-for-freelancers-on-Upwork",
+    "https://support.upwork.com/hc/en-us/articles/9127142196243-How-to-represent-yourself-authentically-on-Upwork",
+    "https://support.upwork.com/hc/en-us/articles/211062538-Learn-about-the-Freelancer-Service-Fee",
+    "https://chinalocalagent.com/services/local-task-execution",
+    "https://chinalocalagent.com/about",
+    "https://www.weichaishi.com/",
+    "https://www.weichaishi.com/index_en.php",
+    "https://www.uupt.com/",
+    "https://www.heyanyun.com/",
+    "https://wise.com/us/currency-converter/usd-to-cny-rate"
+  ]
+}
