@@ -634,17 +634,42 @@
       "formation_id": "ATTRACTION_SCAN_152-F5",
       "verdict": "DEMOTED_AGRICULTURAL_SOCIALIZED_SERVICE_FIELD_REAL_BUT_PROVIDER_REGISTRIES_CONTRACTS_DISPATCH_AND_SUPERVISION_PLATFORMS_ALREADY_OWN_THE_EXECUTION_LOOP",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_153-F1",
+      "verdict": "DEMOTED_SHARED_MANUFACTURING_FIELD_REAL_BUT_CURRENT_PLATFORM_ALREADY_OWNS_ORDER_DECOMPOSITION_CAPACITY_MATCHING_QUALITY_CONTROL_AND_COORDINATION",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_153-F2",
+      "verdict": "DEMOTED_PILOT_TESTING_FIELD_REAL_WITH_RESIDUAL_RESOURCE_MISMATCH_BUT_PROCESS_ROUTE_IP_SAFETY_AND_CAPABILITY_FIT_REMAIN_EXPERT_AND_NONCALLABLE",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_153-F3",
+      "verdict": "DEMOTED_LOCAL_GIG_MATCHING_FIELD_REAL_BUT_CURRENT_PUBLIC_PLATFORM_ALREADY_OWNS_POSTING_MATCHING_SIGNING_ACCEPTANCE_AND_EVALUATION",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_153-F4",
+      "verdict": "DEMOTED_HOME_NURSING_FIELD_REAL_BUT_HOSPITAL_PLATFORM_ALREADY_OWNS_SERVICE_CATALOG_CLINICAL_QUALIFICATION_DISPATCH_SAFETY_AND_DELIVERY",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_153-F5",
+      "verdict": "DEMOTED_SECONDHAND_INDUSTRIAL_EQUIPMENT_FIELD_REGENERATIVE_BUT_CONDITION_PROCESS_FIT_INSPECTION_LOGISTICS_AND_REMANUFACTURING_REMAIN_EXPERT_BOUND",
+      "resolved_date": "2026-09-23"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_152",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_152-F5",
-  "next_scan_id": "ATTRACTION_SCAN_153",
-  "current_research_action": "FREEZE_SCAN152_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN153",
+  "last_completed_scan_id": "ATTRACTION_SCAN_153",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_153-F5",
+  "next_scan_id": "ATTRACTION_SCAN_154",
+  "current_research_action": "FREEZE_SCAN153_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN154",
   "current_validation_state": {
     "formation_id": null,
-    "state": "SCAN152_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "state": "SCAN153_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
     "commercial_candidate": false,
     "external_contact_performed": false,
     "external_contact_authorized": false
@@ -2219,8 +2244,8 @@
     "deposit_authorized": false,
     "purchase_authorized": false
   },
-  "last_completed_scan_file": "data/research_runs/attraction_scan_152.json",
-  "last_completed_scan_result": "ZERO_RETENTION_FIVE_FRESH_ACCESS_INFRASTRUCTURE_FIELDS_CLOSED_WITH_OVERSEAS_WAREHOUSE_RESIDUAL_FRICTION_PRESERVED",
+  "last_completed_scan_file": "data/research_runs/attraction_scan_153.json",
+  "last_completed_scan_result": "ZERO_RETENTION_PLATFORM_LOOPS_CLOSED_AND_RESIDUAL_EXPERT_TRANSITION_FRICTION_PRESERVED",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
     "evidence_artifact": "data/research_runs/scan136_current_asset_receipts_evidence.json",
@@ -2706,7 +2731,7 @@
     "preflight_autonomous_continuation_allowed": true,
     "preflight_resolution": "CLOSED_DISTINCT_UNOWNED_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED_AFTER_CURRENT_OFFICIAL_CONTROL_SURFACE_PREFLIGHT"
   },
-  "next_action": "REQUIRE_SCAN152_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN153",
+  "next_action": "REQUIRE_SCAN153_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN154",
   "scan143_broad_reality_trust_routing": {
     "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "c4d3da4d67f067a512642beb272eeafa7fd0fa34",
@@ -3156,7 +3181,7 @@
     "merged_main_sha": "5ee5967a1ec4a542943ca8ae715d9f085e686359"
   },
   "scan152_broad_reality_access_infrastructure": {
-    "status": "INITIAL_SCAN_COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "5ee5967a1ec4a542943ca8ae715d9f085e686359",
     "canonical_scan_artifact": "data/research_runs/attraction_scan_152.json",
     "evidence_artifact": "data/research_runs/scan152_broad_reality_access_infrastructure_evidence.json",
@@ -3172,12 +3197,60 @@
     "active_commercial_candidate_count": 0,
     "active_transaction_unit_count": 0,
     "first_external_value_flow": "NOT_PROVEN",
-    "exact_head_validation_status": "PENDING",
-    "live_jev_status": "PENDING",
+    "exact_head_validation_status": "SUCCESS",
+    "live_jev_status": "SUCCESS",
     "next_scan_id": "ATTRACTION_SCAN_153",
-    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN153",
+    "next_action": "COMPLETED_ADVANCE_TO_SCAN153",
     "commercial_promotion": false,
     "external_side_effects_performed": false,
-    "residual_overseas_warehouse_friction_preserved": true
+    "residual_overseas_warehouse_friction_preserved": true,
+    "final_exact_head_sha": "4ee1b1903a8f37ec5d4ce3580c9c4b013e961f5b",
+    "final_repository_ci_run_id": 35882446892,
+    "final_repository_ci_conclusion": "SUCCESS",
+    "final_repository_ci_test_job_id": 107254042494,
+    "final_repository_ci_test_count": 774,
+    "final_jev_run_id": 35882446830,
+    "final_jev_artifact_id": 10761705107,
+    "final_jev_artifact_digest": "sha256:a72843e9c4692d51cba35709873ae5ac11cc5c389664affa7123e33264f4cfc1",
+    "final_jev_entity_count": 5,
+    "final_jev_effective_route_counts": {
+      "NO_FURTHER_RESEARCH": 5
+    },
+    "final_jev_model_route_counts": {
+      "NO_FURTHER_RESEARCH": 5
+    },
+    "final_jev_alignment_counts": {
+      "ALIGNS_WITH_AUTHORITATIVE_CLOSURE": 5
+    },
+    "final_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "final_autonomous_continuation_allowed": true,
+    "merged_pr": 466,
+    "merged_main_sha": "de5c50f3eafadd850508d1878a33405f00132b54"
+  },
+  "scan153_broad_reality_transition_flows": {
+    "status": "INITIAL_SCAN_COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "source_main_sha": "de5c50f3eafadd850508d1878a33405f00132b54",
+    "canonical_scan_artifact": "data/research_runs/attraction_scan_153.json",
+    "evidence_artifact": "data/research_runs/scan153_broad_reality_transition_flows_evidence.json",
+    "report": "docs/research/SCAN153_BROAD_REALITY_TRANSITION_FLOWS_2026-09-23.md",
+    "retained_research_formations": [],
+    "authoritative_closures": [
+      "ATTRACTION_SCAN_153-F1",
+      "ATTRACTION_SCAN_153-F2",
+      "ATTRACTION_SCAN_153-F3",
+      "ATTRACTION_SCAN_153-F4",
+      "ATTRACTION_SCAN_153-F5"
+    ],
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "exact_head_validation_status": "PENDING",
+    "live_jev_status": "PENDING",
+    "next_scan_id": "ATTRACTION_SCAN_154",
+    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN154",
+    "commercial_promotion": false,
+    "external_side_effects_performed": false,
+    "residual_pilot_testing_friction_preserved": true,
+    "residual_industrial_equipment_friction_preserved": true
   }
 }
