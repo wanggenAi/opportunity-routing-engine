@@ -1,0 +1,580 @@
+{
+  "scan_id": "ATTRACTION_SCAN_149",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "FRESH_BROAD_CURRENT_REALITY_SERVICE_RAILS_AFTER_SCAN148_FINAL_CLOSURE",
+  "source_main_sha": "c9e364c294af847095842dc0520234376689fc86",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_148",
+    "prior_pr": 460,
+    "prior_merged_main_sha": "c9e364c294af847095842dc0520234376689fc86",
+    "prior_final_exact_head": "dd974d74129acf8f3b2843b31e42664955fb4361",
+    "prior_repository_ci_run_id": 35876703035,
+    "prior_live_jev_run_id": 35876703208,
+    "prior_live_jev_artifact_id": 10757812412,
+    "prior_live_jev_artifact_digest": "sha256:6ed30a691b559770914c5bfe387e4a76ec1b535306321849de601e9f2f974b3d",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scan148_remote_local_execution_not_used_as_prior": true
+  },
+  "broad_reality_domains_examined": [
+    "CROSS_BORDER_RETURN_VALUE_RECOVERY",
+    "REGULATED_TESTING_LAB_MATCHING",
+    "AGRICULTURAL_SOCIALIZED_SERVICES",
+    "EXHIBITION_TEMPORARY_LANGUAGE_STAFF"
+  ],
+  "source_registry": {
+    "RETURNS-CHINAPOST-20260723": {
+      "source_class": "CURRENT_OFFICIAL_CROSS_BORDER_RETURN_RAIL",
+      "url": "https://english.chinapost.com.cn/en/report/2608/1385-1.htm",
+      "date": "2026-07-23",
+      "claim": "China Post reports a live 9610 cross-customs-district return channel integrated with customs and AliExpress, with nearest-port handling and multi-party logistics coordination."
+    },
+    "RETURNS-RTURN-20260923": {
+      "source_class": "CURRENT_RETURN_VALUE_RECOVERY_PLATFORM",
+      "url": "https://www.rturn.com.cn/",
+      "date": "2026-09-23",
+      "claim": "rturn exposes a cross-border return workflow from warehouse receiving and inspection through recovery value, disposition and seller payout."
+    },
+    "TESTING-SAMR-20260423": {
+      "source_class": "CURRENT_NATIONAL_TESTING_REGULATORY_CONTROL",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/rkjcs/art/2026/art_ea608a4306a34b8bb1f3c548a91cffa8.html",
+      "date": "2026-04-23",
+      "claim": "SAMR's 2026 One List One Database regime makes accredited testing capability scope and qualification a current formal control boundary from June 1, 2026."
+    },
+    "TESTING-CMA-20260923": {
+      "source_class": "CURRENT_TESTING_MATCHING_PLATFORM",
+      "url": "https://www.cma.ac.cn/",
+      "date": "2026-09-23",
+      "claim": "The current CMA testing/certification platform markets institution discovery, qualification checks, report verification and demand matching between enterprises and testing/certification institutions."
+    },
+    "TESTING-WOLAIJIAN-20260923": {
+      "source_class": "CURRENT_LAB_MATCHING_PLATFORM",
+      "url": "https://www.wolaijian.com/",
+      "date": "2026-09-23",
+      "claim": "Wolaijian currently searches standards/products/testing items and matches enterprises to CMA/CNAS laboratory capability records, with demand publishing and engineer-assisted matching."
+    },
+    "AGRI-NATIONAL-20260923": {
+      "source_class": "CURRENT_NATIONAL_AGRICULTURAL_SERVICE_PLATFORM",
+      "url": "https://www.zgnf.net/mobileApp",
+      "date": "2026-09-23",
+      "claim": "The China Agricultural Socialized Service Platform aggregates agricultural machinery rental/repair, production services, supplies, processing and procurement and directly connects farmers with service organizations."
+    },
+    "AGRI-PENGYANG-20260525": {
+      "source_class": "CURRENT_OPERATIONAL_AGRICULTURAL_SERVICE_FIELD",
+      "url": "https://www.pengyang.gov.cn/xwzx/zwyw/202605/t20260512_5238070.html",
+      "date": "2026-05-25",
+      "claim": "Pengyang reports active 2026 agricultural socialized service networks combining cooperatives, machinery teams, operators and farmers, with third-party digital supervision."
+    },
+    "EXPO-CANTON-20260923": {
+      "source_class": "CURRENT_OFFICIAL_EXHIBITION_INTERPRETER_RAIL",
+      "url": "https://www.cantonfair.org.cn/en-US/pages/802506534755274752",
+      "date": "2026-09-23",
+      "claim": "Canton Fair directly offers interpreter and exhibition escort booking with published day rates, reservation contacts and on-site payment."
+    },
+    "EXPO-MESSE-20260923": {
+      "source_class": "CURRENT_EXHIBITION_SERVICE_INCUMBENT",
+      "url": "https://intertextile-shanghai-apparel-fabrics-autumn.hk.messefrankfurt.com/shanghai/en/exhibitor-services/onsite-services.html",
+      "date": "2026-09-23",
+      "claim": "Intertextile Shanghai's current official exhibitor services include interpreter and hostess services plus official contractor/forwarder support."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_149-F1",
+      "title": "Cross-border sellers with returned inventory -> return warehouses / recovery channels that can inspect, disposition and settle value",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_REVERSE_LOGISTICS_VALUE_RECOVERY",
+      "evidence_summary": "Cross-border returns are a live recurring state transition, but customs, marketplace, warehouse intake, disposition and seller settlement are already integrated into current platform/logistics rails; a light router does not own the decisive action gate.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "b_voluntary_motion": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "state_dependent_value_jump": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "decision_window": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "bridge_compression": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "activation_ease": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "self_propulsion": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "operator_control": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "a_discoverability": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "b_discoverability": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "match_resolvability": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "action_gate_callability": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "a_population_replenishment": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "b_population_replenishment": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "recurring_connection_pressure": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "recurring_missing_edge": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ],
+          "recurring_event_source": [
+            "RETURNS-CHINAPOST-20260723",
+            "RETURNS-RTURN-20260923"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_CROSS_BORDER_RETURN_FIELD_REAL_BUT_CUSTOMS_MARKETPLACE_WAREHOUSE_DISPOSITION_AND_SETTLEMENT_RAILS_ALREADY_OWN_THE_CONTROL_LOOP"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_149-F2",
+      "title": "Enterprises needing product testing/certification -> qualified laboratories with matching accredited capability",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_REGULATED_TESTING_DEMAND",
+      "evidence_summary": "Testing demand and laboratory supply are large and discoverable, but exact project-method qualification is governed by current accreditation scopes and multiple current platforms already search/match laboratories to enterprise needs.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "b_voluntary_motion": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "state_dependent_value_jump": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "decision_window": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "bridge_compression": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "activation_ease": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "self_propulsion": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "operator_control": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "a_discoverability": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "b_discoverability": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "match_resolvability": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "action_gate_callability": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "a_population_replenishment": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "b_population_replenishment": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "recurring_connection_pressure": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "recurring_missing_edge": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ],
+          "recurring_event_source": [
+            "TESTING-SAMR-20260423",
+            "TESTING-CMA-20260923",
+            "TESTING-WOLAIJIAN-20260923"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_TESTING_CERTIFICATION_FIELD_REGULATED_CAPABILITY_MATCHING_AND_CURRENT_PLATFORMS_ALREADY_CONTROL_DISCOVERY_AND_QUALIFICATION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_149-F3",
+      "title": "Farm operators needing seasonal machinery/production services -> agricultural service organizations and machinery operators",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_AGRICULTURAL_SOCIALIZED_SERVICE",
+      "evidence_summary": "The regenerative field is explicit and operational, but the national agricultural socialized service platform already aggregates machinery rental/repair and production services and directly connects farmers with service organizations, while local programs add supervised service networks.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 1,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "b_voluntary_motion": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "state_dependent_value_jump": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "decision_window": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "bridge_compression": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "activation_ease": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "self_propulsion": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "operator_control": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "a_discoverability": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "b_discoverability": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "match_resolvability": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "action_gate_callability": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "a_population_replenishment": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "b_population_replenishment": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "recurring_connection_pressure": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "recurring_missing_edge": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "recurring_event_source": [
+            "AGRI-NATIONAL-20260923",
+            "AGRI-PENGYANG-20260525"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_AGRICULTURAL_SERVICE_FIELD_REGENERATIVE_BUT_NATIONAL_PLATFORM_ALREADY_OWNS_SERVICE_AGGREGATION_AND_DIRECT_MATCHING"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_149-F4",
+      "title": "Overseas exhibitors needing temporary interpreters/booth staff -> local interpreters and exhibition service providers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_EVENT_BOUND_LANGUAGE_SERVICE",
+      "evidence_summary": "The recurring event window and paid demand are explicit, but major exhibitions themselves already provide interpreter/hostess booking, rates and access processes; value remains human service delivery and event-organizer control.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "b_voluntary_motion": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "state_dependent_value_jump": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "decision_window": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "bridge_compression": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "activation_ease": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "self_propulsion": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "operator_control": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "a_discoverability": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "b_discoverability": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "match_resolvability": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "action_gate_callability": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "a_population_replenishment": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "b_population_replenishment": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "recurring_connection_pressure": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "recurring_missing_edge": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ],
+          "recurring_event_source": [
+            "EXPO-CANTON-20260923",
+            "EXPO-MESSE-20260923"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": true,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_EXHIBITION_INTERPRETER_FIELD_OFFICIAL_EVENT_SERVICES_OWN_BOOKING_ACCESS_AND_VALUE_REMAINS_HUMAN_DELIVERY"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Four fresh current fields were rederived. Each is real, but the proposed light bridge is already absorbed by platform/regulatory/event control or human delivery."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_150",
+  "next_search_boundary": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN149_THEN_ADVANCE_TO_FRESH_BROAD_REALITY_WITHOUT_RESCUING_THESE_FIELDS",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN150_IF_ALL_EFFECTIVE_ROUTES_NO_FURTHER_RESEARCH",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scan148_remote_local_execution_not_used_as_prior": true,
+    "incumbent_presence_evaluated_before_retention": true,
+    "regulated_or_platform_control_not_mistaken_for_gap": true,
+    "human_delivery_not_mistaken_for_light_routing": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "POLICY_OR_OPERATIONAL_GROWTH_DOES_NOT_IMPLY_AN_UNOWNED_ROUTER_WHEN_CUSTOMS_OR_PLATFORM_RAILS_ALREADY_BIND_THE_STATE_TRANSITION.",
+    "REGULATED_CAPABILITY_SEARCH_IS_NOT_A_LIGHT_MATCH_WHEN ACCREDITED_SCOPE AND METHOD FITNESS CONTROL ACCEPTANCE.",
+    "A_REGENERATIVE_SERVICE_FIELD_CAN_STILL_BE CLOSED WHEN A NATIONAL_PLATFORM ALREADY CONNECTS THE ACTOR POPULATIONS.",
+    "VISIBLE_PAID_EVENT_DEMAND_IS_NOT_A_ROUTING_GAP WHEN THE EVENT ORGANIZER OWNS BOOKING_ACCESS_AND_SETTLEMENT."
+  ],
+  "source_urls": [
+    "https://english.chinapost.com.cn/en/report/2608/1385-1.htm",
+    "https://www.rturn.com.cn/",
+    "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/rkjcs/art/2026/art_ea608a4306a34b8bb1f3c548a91cffa8.html",
+    "https://www.cma.ac.cn/",
+    "https://www.wolaijian.com/",
+    "https://www.zgnf.net/mobileApp",
+    "https://www.pengyang.gov.cn/xwzx/zwyw/202605/t20260512_5238070.html",
+    "https://www.cantonfair.org.cn/en-US/pages/802506534755274752",
+    "https://intertextile-shanghai-apparel-fabrics-autumn.hk.messefrankfurt.com/shanghai/en/exhibitor-services/onsite-services.html"
+  ]
+}
