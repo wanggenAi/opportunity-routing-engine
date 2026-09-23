@@ -1,0 +1,240 @@
+{
+  "schema_version": "attraction-scan.v102",
+  "scan_id": "ATTRACTION_SCAN_134",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CURRENT_CHINA_ASSETS_OR_CONTRACT_RIGHTS_WITH_UNPREPAID_EXACT_ASSET_RECEIPTS_AUTOMATIC_POST_TRANSFER_CONTINUITY_AT_LEAST_24_MONTHS_RECEIPT_COVERAGE_AND_NON_DISQUALIFYING_RECEIPT_TO_ENTRY_ECONOMICS",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FRESH_CURRENT_ASSETS_FRONT_LOAD_UNPREPAID_RECEIPTS_AUTOMATIC_CONTINUITY_24_MONTH_COVERAGE_EXACT_ASSET_ATTRIBUTION_AND_RECEIPT_TO_ENTRY_ECONOMICS_NO_SCAN060_TO_133_REUSE_NO_REGULATED_SECURITIES_NO_GATE_RELAXATION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": false,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_134-F1",
+      "title": "ACTIVE_ZHONGSHAN_125_PROPERTY_BUNDLE_WITH_EXPLICIT_LEASE_SUCCESSION_BUT_ECONOMICALLY_IMMATERIAL_DISCLOSED_RENT",
+      "chinese_title": "中山翠亨125宗物业6042.7825万元整体拍卖 → 明确承继租约并次月收租 → 已披露单元租金对整体入场价经济性近乎为零",
+      "evidence_class": "CURRENT_OFFICIAL_BUNDLE_WITH_EXPLICIT_POST_TRANSFER_RENT_RIGHT_AND_LONG_DURATION_BUT_DISQUALIFYING_BUNDLE_ECONOMICS",
+      "evidence_summary": "A Zhongshan public-resource auction opens on 2026-09-24 for 125 properties at RMB 60,427,825. The official notice binds a five-year lease on Jinxiu Haiwan Cheng Phase 10 Unit 10 through 2029-12-17, monthly rent of RMB 698.70 / 733.64 / 770.32 by lease year, and requires the buyer to continue the existing lease. It also states that after signing the handover document, paying the full price and confirming the lease, the buyer receives rent from the following month. Contract continuity and future receipts therefore clear. However, the disclosed unit's maximum annual rent is RMB 9,243.84 against a RMB 60.43m inseparable 125-property purchase, approximately 0.0153% gross before taxes, fees, management and title risk. The bundle also contains 86 properties still in title-certificate processing.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_60427825_BUNDLE_125_PROPERTIES_PLUS_RMB23800_AUCTION_COMMISSION_AND_TRANSFER_TAXES_FEES",
+        "contracted_receipt_amount": "RMB_698_70_MONTH_YEARS_1_2_RMB_733_64_MONTH_YEARS_3_4_RMB_770_32_MONTH_YEAR_5_FOR_DISCLOSED_LEASED_UNIT",
+        "buyer_receipt_start": "MONTH_AFTER_HANDOVER_FULL_PAYMENT_AND_LEASE_CONFIRMATION",
+        "buyer_receipt_end": "LEASE_END_2029-12-17",
+        "counterparty": "CHEN_LIANDI_INDIVIDUAL_TENANT_VIA_ZHONGSHAN_XIWAN_PROPERTY_MANAGEMENT_CUSTODIAL_LEASE",
+        "post_transfer_receipt_right": "PASS_EXPLICIT_BUYER_MUST_CONTINUE_EXISTING_LEASE_AND_RECEIVES_RENT_FROM_FOLLOWING_MONTH_AFTER_HANDOVER_PAYMENT_AND_CONFIRMATION",
+        "low_recurring_human_delivery": "PASS_SUBJECT_TO_NORMAL_BUNDLE_PROPERTY_ADMINISTRATION_AND_DISCLOSED_TITLE_TRANSFER_RISKS",
+        "receipt_to_entry_economics": "FAIL_MAX_DISCLOSED_ANNUAL_RENT_RMB9243_84_DIVIDED_BY_RMB60427825_BUNDLE_APPROX_0_0153_PERCENT_GROSS_BEFORE_COSTS"
+      },
+      "attraction_brief": {
+        "a_side": "An active official public auction exposes a transferable real-estate bundle with an exact floor price.",
+        "a_side_evidence": "Zhongshan public-resource notice gives RMB 60,427,825 floor, 2026-09-24 auction and the 125-property bundle.",
+        "b_side": "At least one specifically disclosed unit has a live tenant, explicit staged rent and lease through 2029-12-17.",
+        "b_side_evidence": "Official lease terms bind tenant, amount, frequency and end date.",
+        "operator": "The buyer inherits the lease and collection right without needing a new tenant contract.",
+        "operator_non_labor_test": "PASS_FOR_RENT_COLLECTION_BUT_BUNDLE_ADMINISTRATION_AND_TITLE_WORK_REMAIN",
+        "connection_wow": "This is direct proof that automatic rent succession can be source-bound in a live China auction.",
+        "activation_friction": "FAIL_BUNDLE_CAPITAL_AND_125_PROPERTY_TRANSFER_SCOPE_ARE_NOT_SMALL_OPERATOR_FRIENDLY",
+        "self_propulsion": "PASS_EXISTING_LEASE_AND_EXPLICIT_POST_TRANSFER_RENT_RIGHT",
+        "a_discoverability": "PASS_OFFICIAL_CURRENT_AUCTION",
+        "b_discoverability": "PASS_TENANT_RENT_TERM_AND_COLLECTION_START",
+        "match_resolvability": "PASS_FOR_DISCLOSED_LEASED_UNIT",
+        "action_gate": "FAIL_NORMALIZED_ECONOMICS_AND_INSEPARABLE_BUNDLE_SCALE",
+        "router_distinctiveness": "PASS_PROPERTY_RIGHT_AND_CONTRACT_SUCCESSION_ARE_NON_GENERIC",
+        "generic_agent_substitution": "PASS_OWNERSHIP_RIGHT_IS_NON_GENERIC",
+        "legal_payment_compliance": "PASS_CURRENT_PUBLIC_AUCTION_SUBJECT_TO_ELIGIBILITY_AND_TRANSFER_RULES",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "The official notice requires acquisition of the full 125-property package at RMB 60,427,825 rather than the leased unit alone.",
+        "Even using the highest disclosed monthly rent, annual gross receipts for the disclosed unit are only RMB 9,243.84, approximately 0.0153% of the bundle floor before costs.",
+        "Eighty-six properties are still in title-certificate processing, adding transfer complexity rather than founder-light economics."
+      ],
+      "verdict": "DEMOTED_ACTIVE_ZHONGSHAN_RMB60427825_BUNDLE_HAS_EXPLICIT_2029_LEASE_CONTINUITY_AND_POST_TRANSFER_RENT_RIGHT_BUT_DISCLOSED_RENT_IS_ECONOMICALLY_IMMATERIAL_AND_BUNDLE_SCALE_FAILS_SMALL_OPERATOR_SCOPE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_134-F2",
+      "title": "ACTIVE_XIAN_LEASE_SUCCESSION_WITH_POOLED_RENT_AND_SUB_24_MONTH_REMAINING_WINDOW",
+      "chinese_title": "西安皇城丽都332万元二拍 → 买受人明确承继租约 → 10916元/月覆盖三个铺位且剩余租期不足24个月",
+      "evidence_class": "CURRENT_LEASE_SUCCESSION_WITH_EXPLICIT_POOLED_RENT_BUT_INSUFFICIENT_DURABLE_RECEIPT_WINDOW_AND_NO_EXACT_ASSET_ATTRIBUTION",
+      "evidence_summary": "A current Xi'an second-auction listing runs 2026-09-25 through 2026-09-28 at RMB 3.32m for Huangcheng Lidu Unit 2-20302. The court notice reproduced in the listing states the property is sold with the lease and that the buyer succeeds to the prior owner's rights and obligations. The attached lease covers this unit together with 1-10302 and part of 1-10301 from 2026-03-01 through 2028-02-29 at RMB 10,916 per month. Automatic continuity is unusually explicit, but the receipt amount is pooled across three spaces rather than attributable to the exact auctioned unit, and even a prompt 2026-09 transfer leaves materially less than 24 months of contracted coverage.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_3320000_PLUS_TRANSFER_TAXES_FEES",
+        "contracted_receipt_amount": "RMB_10916_PER_MONTH_POOLED_ACROSS_THREE_LEASED_SPACES_INCLUDING_TARGET_UNIT",
+        "buyer_receipt_start": "POST_AUCTION_DELIVERY_AS_SUCCESSOR_TO_PRIOR_OWNER_RIGHTS_EXACT_FIRST_PAYMENT_DATE_NOT_PUBLICLY_STATED",
+        "buyer_receipt_end": "LEASE_END_2028-02-29",
+        "counterparty": "LE_SI_EDUCATION_EXISTING_TENANT",
+        "post_transfer_receipt_right": "PASS_BUYER_EXPLICITLY_SUCCEEDS_TO_PRIOR_OWNER_LEASE_RIGHTS_AND_OBLIGATIONS",
+        "low_recurring_human_delivery": "PASS_SUBJECT_TO_NORMAL_COMMERCIAL_LANDLORD_ADMINISTRATION",
+        "receipt_to_entry_economics": "FAIL_EXACT_ASSET_RECEIPT_ATTRIBUTION_UNBOUND_AND_REMAINING_CONTRACTED_RECEIPT_WINDOW_BELOW_24_MONTHS"
+      },
+      "attraction_brief": {
+        "a_side": "A current second-auction asset has a transparent RMB 3.32m floor and live occupancy.",
+        "a_side_evidence": "Current listing states auction dates, floor price and active education tenant.",
+        "b_side": "The existing lease has a disclosed RMB 10,916 monthly payment and explicit buyer succession.",
+        "b_side_evidence": "Court notice text says the buyer inherits the original owner's contractual rights and obligations.",
+        "operator": "Existing commercial lease reduces recurring delivery labor.",
+        "operator_non_labor_test": "PASS_SUBJECT_TO_NORMAL_OWNER_DUTIES",
+        "connection_wow": "The succession language solves the legal-continuity failure seen in Scan 133.",
+        "activation_friction": "PARTIAL_CURRENT_AUCTION_RAIL_EXISTS",
+        "self_propulsion": "PARTIAL_EXISTING_RENT_FLOW_CONTINUES_BUT_DURATION_AND_ATTRIBUTION_FAIL",
+        "a_discoverability": "PASS_CURRENT_AUCTION_REPUBLICATION",
+        "b_discoverability": "PASS_TENANT_RENT_TERM_AND_SUCCESSION_TEXT",
+        "match_resolvability": "FAIL_RENT_IS_POOLED_ACROSS_MULTIPLE_SPACES",
+        "action_gate": "FAIL_SUB_24_MONTH_RECEIPT_WINDOW_AND_ASSET_LEVEL_ATTRIBUTION",
+        "router_distinctiveness": "PASS_PROPERTY_AND_LEASE_SUCCESSION_ARE_NON_GENERIC",
+        "generic_agent_substitution": "PASS_OWNERSHIP_RIGHT_IS_NON_GENERIC",
+        "legal_payment_compliance": "PASS_LEASE_SUCCESSION_TEXT_SUBJECT_TO_AUCTION_TERMS",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "The RMB 10,916 monthly rent belongs to a lease covering three spaces, so the target unit's exact receipt amount is not source-bound.",
+        "The lease ends 2028-02-29, leaving less than 24 months of future receipt coverage at the September 2026 auction.",
+        "Exact first post-transfer payment timing is not stated in the public listing."
+      ],
+      "verdict": "DEMOTED_ACTIVE_XIAN_RMB3320000_ASSET_HAS_EXPLICIT_LEASE_SUCCESSION_AND_RMB10916_MONTHLY_RENT_BUT_RECEIPT_IS_POOLED_ACROSS_THREE_SPACES_AND_REMAINING_WINDOW_IS_BELOW_24_MONTHS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_134-F3",
+      "title": "ACTIVE_CHONGQING_TRIPLE_COMMERCIAL_PROPERTY_WITH_TENANT_BUT_ATTACHMENT_ONLY_RENT_TERM_AND_LITIGATED_RENT_DEDUCTIONS",
+      "chinese_title": "重庆杨家坪三证商业物业1257.6536万元拍卖 → 金色印象在租 → 租金租期只在附件且租金需向业委会等扣减",
+      "evidence_class": "CURRENT_TENANTED_ASSET_WITH_EXPLICIT_ENTRY_PRICE_BUT_PUBLIC_RECEIPT_TUPLE_REMAINS_ATTACHMENT_ONLY_AND_NET_RECEIPT_RIGHT_IS_LITIGATED",
+      "evidence_summary": "A Chongqing bankruptcy auction runs 2026-09-24 through 2026-09-25 for three commercial certificates at RMB 12,576,536. All three spaces are occupied by Golden Impression Foot Bath. The public auction page explicitly says monthly rent, lease term and rent escalation are in attachments rather than in the retrieved page. It further states that litigation over leased area has resulted in rent needing to be deducted or paid to the owners committee and some individuals, while the buyer assumes post-delivery management and occupancy risks. The source therefore does not bind the buyer's exact net receipt amount, duration or clean post-transfer cashflow to the asset.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_12576536_PLUS_TAXES_FEES_AND_PLATFORM_SERVICE_FEE",
+        "contracted_receipt_amount": "NOT_PUBLIC_IN_RETRIEVED_PAGE_ATTACHMENT_ONLY_AND_SUBJECT_TO_DEDUCTIONS",
+        "buyer_receipt_start": "UNKNOWN_NET_RECEIPT_START_AFTER_HANDOVER_NOT_SOURCE_BOUND",
+        "buyer_receipt_end": "UNKNOWN_PUBLIC_PAGE_REFERS_TO_ATTACHMENT",
+        "counterparty": "GOLDEN_IMPRESSION_FOOT_BATH_EXISTING_TENANT",
+        "post_transfer_receipt_right": "UNKNOWN_FAIL_CLOSED_RENT_DEDUCTION_RIGHTS_TO_OWNERS_COMMITTEE_AND_INDIVIDUALS_MATERIALLY_AFFECT_NET_BUYER_RECEIPTS",
+        "low_recurring_human_delivery": "UNKNOWN_BUYER_ASSUMES_MAINTENANCE_MANAGEMENT_OCCUPANCY_AND_HANDOVER_RISKS",
+        "receipt_to_entry_economics": "UNKNOWN_NO_SOURCE_BOUND_NET_RENT_AMOUNT_OR_TERM_IN_RETRIEVED_PUBLIC_PAGE"
+      },
+      "attraction_brief": {
+        "a_side": "A current supervised bankruptcy auction exposes three leased commercial properties at a fixed floor.",
+        "a_side_evidence": "JD auction page gives exact certificates, RMB 12.576536m floor and September 24-25 auction window.",
+        "b_side": "All three units are currently leased to one named operating tenant.",
+        "b_side_evidence": "Public page names Golden Impression as occupant.",
+        "operator": "Landlord operation may be light in principle, but this asset has specific litigation, deduction and occupancy risks.",
+        "operator_non_labor_test": "UNKNOWN_FAIL_CLOSED",
+        "connection_wow": "A single enterprise-like tenant across three certificates is structurally legible, but the public tuple is not.",
+        "activation_friction": "PASS_CURRENT_AUCTION_RAIL_BUT_HIGH_CAPITAL",
+        "self_propulsion": "UNKNOWN_NET_RENT_RIGHTS_NOT_BOUND",
+        "a_discoverability": "PASS_CURRENT_BANKRUPTCY_AUCTION",
+        "b_discoverability": "PASS_NAMED_TENANT_BUT_FAIL_RECEIPT_TERMS",
+        "match_resolvability": "FAIL_ATTACHMENT_ONLY_RENT_TERM_AND_NET_RIGHTS",
+        "action_gate": "FAIL_SOURCE_BOUND_NET_RECEIPT_AMOUNT_TERM_AND_CLEAN_RIGHTS",
+        "router_distinctiveness": "PASS_PROPERTY_CONTROL_IS_NON_GENERIC",
+        "generic_agent_substitution": "PASS_OWNERSHIP_RIGHT_IS_NON_GENERIC",
+        "legal_payment_compliance": "UNKNOWN_NET_RENT_ENTITLEMENT_FAIL_CLOSED",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "The retrieved public page says monthly rent, lease term and escalation are in an attachment rather than exposing the values.",
+        "Judicially resolved leased-area disputes require rent deductions to an owners committee and some individuals, so gross tenant rent cannot be assumed to equal buyer receipts.",
+        "The buyer assumes maintenance, management, occupancy and handover risks after delivery."
+      ],
+      "verdict": "DEMOTED_ACTIVE_CHONGQING_RMB12576536_TENANTED_BUNDLE_HAS_CURRENT_OCCUPANCY_BUT_RENT_TERM_ARE_ATTACHMENT_ONLY_AND_LITIGATED_RENT_DEDUCTIONS_PREVENT_SOURCE_BOUND_NET_BUYER_RECEIPT_ECONOMICS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_134-F4",
+      "title": "CURRENT_XUZHOU_5_02MWP_DISTRIBUTED_PV_ASSET_WITH_LIVE_OPERATION_BUT_NO_PUBLIC_SOURCE_BOUND_RECEIPT_LEDGER",
+      "chinese_title": "徐州南海皮厂5.02MWp分布式光伏1944.3941万元重新挂牌 → 已并网正常发电 → 公开材料仍未绑定现有电费收入、剩余结算期和运维负担",
+      "evidence_class": "CURRENT_MACHINE_METERED_OPERATING_ASSET_WITH_ENTRY_PRICE_AND_OPERATION_PROOF_BUT_MISSING_PROJECT_SPECIFIC_RECEIPT_AMOUNT_TERM_SETTLEMENT_AND_LOW_LABOR_EVIDENCE",
+      "evidence_summary": "The Xuzhou Nanhai Leather Factory 5.02MWp distributed-PV project is a fresh exact asset, distinct from Scan 133's Hainan residential group. Beijing Property Exchange materials state it connected to the grid in May 2025, has an EMC contract, filing, power-supply contracts/replies and acceptance materials, and is operating normally. A 2026-09-22 relisting exposes a RMB 19.443941m transfer floor. These facts prove a current machine-metered operating asset and a live transfer rail, but the retrieved public evidence still does not bind the project's current electricity receipts, tariff/payer, remaining receipt duration, buyer settlement mechanics or O&M burden. The machine asset cannot be promoted from operating status alone.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_19443941_CURRENT_RELISTING_FLOOR",
+        "contracted_receipt_amount": "NOT_PUBLICLY_BOUND_TO_EXACT_PROJECT_IN_RETRIEVED_EVIDENCE",
+        "buyer_receipt_start": "UNKNOWN",
+        "buyer_receipt_end": "UNKNOWN",
+        "counterparty": "UNKNOWN_AT_PROJECT_RECEIPT_LEDGER_LEVEL",
+        "post_transfer_receipt_right": "ASSET_TRANSFER_RAIL_EXISTS_BUT_RECEIPT_SETTLEMENT_SUCCESSION_NOT_PUBLICLY_BOUND_IN_RETRIEVED_EVIDENCE",
+        "low_recurring_human_delivery": "UNKNOWN_O_AND_M_RESPONSIBILITY_AND_TRANSFER_NOT_SOURCE_BOUND",
+        "receipt_to_entry_economics": "UNKNOWN_NO_PROJECT_SPECIFIC_CURRENT_RECEIPT_LEDGER"
+      },
+      "attraction_brief": {
+        "a_side": "A current transfer rail exposes a 5.02MWp operating distributed-PV asset in Xuzhou.",
+        "a_side_evidence": "Current relisting exposes RMB 19.443941m floor; CBEX project materials prove capacity and operation.",
+        "b_side": "Electricity generation is machine-metered and the project has grid/EMC documentation.",
+        "b_side_evidence": "CBEX states grid connection in May 2025, normal generation and existence of EMC/grid documents.",
+        "operator": "Generation is automated, but O&M and settlement responsibilities must be evidenced rather than inferred.",
+        "operator_non_labor_test": "UNKNOWN_FAIL_CLOSED",
+        "connection_wow": "This is a fresh non-property operating machine asset with a real acquisition rail.",
+        "activation_friction": "PARTIAL_LIVE_TRANSFER_RAIL_BUT_HIGH_CAPITAL",
+        "self_propulsion": "UNKNOWN_SOURCE_BOUND_RECEIPTS_NOT_RETRIEVED",
+        "a_discoverability": "PASS_CURRENT_RELISTING_AND_PRIMARY_PROJECT_PAGE",
+        "b_discoverability": "FAIL_CURRENT_RECEIPT_LEDGER_COUNTERPARTY_TARIFF_AND_TERM",
+        "match_resolvability": "FAIL_COMPLETE_RECEIPT_TUPLE",
+        "action_gate": "FAIL_RECEIPT_AMOUNT_TERM_SETTLEMENT_AND_O_AND_M_EVIDENCE",
+        "router_distinctiveness": "PASS_PHYSICAL_GENERATION_ASSET_IS_NON_GENERIC",
+        "generic_agent_substitution": "PASS_PHYSICAL_ASSET_CONTROL_IS_NON_GENERIC",
+        "legal_payment_compliance": "UNKNOWN_CONTRACT_SET_NOT_PUBLICLY_BOUND_FAIL_CLOSED",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "Normal grid-connected generation proves operation, not the amount or durability of buyer receipts.",
+        "The retrieved public materials do not bind a project-specific current electricity receipt ledger, payer/tariff or remaining settlement term.",
+        "O&M and post-transfer settlement duties are not source-bound in the public evidence and cannot be assumed founder-light."
+      ],
+      "verdict": "DEMOTED_CURRENT_XUZHOU_RMB19443941_5_02MWP_PV_ASSET_PROVES_LIVE_MACHINE_OPERATION_AND_TRANSFER_RAIL_BUT_PROJECT_SPECIFIC_RECEIPTS_TERM_SETTLEMENT_AND_LOW_LABOR_TRANSITION_REMAIN_UNBOUND"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "ENDED_SHANGHAI_ZHENGRONG_LONG_TERM_RENT_ASSET",
+      "reason": "Strong long-duration explicit rent and post-transfer collection evidence was found, but the referenced auction ended before the 2026-09-23 Scan 134 decision point and is not a current actionable rail."
+    },
+    {
+      "observation": "ENDED_DONGGUAN_TIANLI_CENTRAL_LEASED_PROPERTY",
+      "reason": "Buyer future-rent mechanics were visible, but the auction ended 2026-09-22 and the public receipt amount was not bound; it is not current for this scan."
+    },
+    {
+      "observation": "SCAN133_NANCHONG_DONGYANG_HAINAN_PV_YULIN",
+      "reason": "Already consumed by Scan 133 and excluded by the no-reuse boundary."
+    }
+  ],
+  "drift_audit": {
+    "primary_domain_is_china": true,
+    "unprepaid_future_buyer_receipts_required": true,
+    "exact_asset_receipt_amount_required": true,
+    "automatic_post_transfer_contract_continuity_required": true,
+    "minimum_24_month_source_bound_receipt_coverage_required": true,
+    "receipt_to_entry_economics_front_loaded": true,
+    "bundle_and_pooled_receipt_penalties_non_compensatory": true,
+    "attachment_only_values_are_unknown_not_pass": true,
+    "machine_generated_revenue_cannot_be_assumed_from_operating_status": true,
+    "non_property_search_required_and_executed": true,
+    "low_recurring_human_delivery_independent_gate": true,
+    "scan060_to_133_formation_fallback_forbidden": true,
+    "gate_relaxation": false
+  },
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Scan 134 proved that explicit automatic contract succession can exist in live China asset transfers, but source-bound continuity alone is insufficient. The strongest official succession example is trapped inside a RMB60.43m 125-property bundle with economically immaterial disclosed rent; the Xi'an example has pooled rent and less than 24 months remaining; the Chongqing example keeps rent/term in attachments and has litigated rent deductions; and the fresh Xuzhou PV asset proves machine operation without a public project-specific receipt ledger. Zero formations clear the full durable small-operator cashflow gate."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_135",
+  "next_search_boundary": "SCAN135_REQUIRE_SINGLE_ASSET_OR_ECONOMICALLY_SEPARABLE_ENTRY_PRICE_EXACT_UNPREPAID_RECEIPTS_AUTOMATIC_POST_TRANSFER_CONTINUITY_AT_LEAST_24_MONTHS_AND_NON_DISQUALIFYING_GROSS_RECEIPT_TO_ENTRY_ECONOMICS_REJECT_BUNDLES_POOLED_RECEIPTS_AND_ATTACHMENT_ONLY_TUPLES_BEFORE_DEEP_DILIGENCE_PRIORITIZE_ENTERPRISE_PAYER_OR_MACHINE_METERED_CURRENT_CHINA_ASSETS_NO_SCAN060_TO_134_REUSE_NO_REGULATED_SECURITIES_NO_GATE_RELAXATION",
+  "next_action": "FREEZE_SCAN134_HEAD_OPEN_ONE_PR_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_INPUT_SCAN_ID_ATTRACTION_SCAN_134_ENTITY_COUNT_4_ALL_FOUR_AUTHORITATIVE_NO_FURTHER_RESEARCH_THEN_ADVANCE_TO_SCAN135_IF_CONTINUATION_ALLOWS",
+  "scan_learnings": [
+    "AUTOMATIC_POST_TRANSFER_LEASE_SUCCESSION_IS_REAL_AND_SOURCE_BOUND_IN_CURRENT_CHINA_AUCTIONS_BUT_DOES_NOT_OVERRIDE DISQUALIFYING_ENTRY_ECONOMICS.",
+    "AN_EXPLICIT_RENT NUMBER IS_NOT_ASSET_ATTRIBUTABLE_WHEN_ONE_LEASE_COVERS_MULTIPLE_SPACES_WITHOUT_ALLOCATION.",
+    "A_CURRENT_TENANT_IS_NOT_ENOUGH_WHEN_RENT_TERM_OR_NET_ENTITLEMENT_LIVE_ONLY_IN_UNRETRIEVED_ATTACHMENTS_OR_ARE_MATERIALLY_DILUTED_BY_THIRD_PARTY_DEDUCTIONS.",
+    "NORMAL_MACHINE_OPERATION_AND_A_LIVE_TRANSFER_RAIL_DO_NOT_SUBSTITUTE_FOR_A_PROJECT_SPECIFIC_RECEIPT_LEDGER_TERM_SETTLEMENT_AND_O_AND_M_TRANSITION.",
+    "SCAN135_SHOULD_REJECT_INSEPARABLE_BUNDLES_POOLED_RECEIPTS_AND_ATTACHMENT_ONLY_TUPLES_BEFORE_DEEP_DILIGENCE_AND_REQUIRE_A_SINGLE_ASSET_OR_ECONOMICALLY_SEPARABLE_RECEIPT BASE."
+  ]
+}
