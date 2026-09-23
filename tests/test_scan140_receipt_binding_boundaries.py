@@ -43,12 +43,29 @@ class Scan140ReceiptBindingBoundaryTests(unittest.TestCase):
         for suffix in ("F2", "F3", "F4"):
             self.assertTrue(by_id[f"ATTRACTION_SCAN_140-{suffix}"]["verdict"].startswith("DEMOTED_"))
 
-    def test_machine_state_advances_to_scan141_and_adds_only_weiyuan_retention(self):
+    def test_machine_state_preserves_scan140_historical_checkpoint(self):
         state = json.loads(STATE.read_text(encoding="utf-8"))
-        self.assertEqual(state["last_completed_scan_id"], "ATTRACTION_SCAN_140")
-        self.assertEqual(state["next_scan_id"], "ATTRACTION_SCAN_141")
+        checkpoint = state["scan140_receipt_binding_boundaries"]
+        self.assertEqual(checkpoint["next_scan_id"], "ATTRACTION_SCAN_141")
+        self.assertEqual(checkpoint["retained_research_formations"], ["ATTRACTION_SCAN_140-F1"])
+        self.assertEqual(
+            checkpoint["authoritative_closures"],
+            [
+                "ATTRACTION_SCAN_140-F2",
+                "ATTRACTION_SCAN_140-F3",
+                "ATTRACTION_SCAN_140-F4",
+            ],
+        )
+        self.assertEqual(
+            checkpoint["exact_head_validation_status"],
+            "FINAL_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_JEV_SUCCESS",
+        )
+        self.assertEqual(checkpoint["merged_pr"], 450)
+        self.assertEqual(
+            checkpoint["merged_main_sha"],
+            "8a55703f92fbd52b53c41947b04d9fb3bd2b48e4",
+        )
         self.assertIn("ATTRACTION_SCAN_140-F1", state["retained_research_formations"])
-        self.assertIn("ATTRACTION_SCAN_139-F1", state["retained_research_formations"])
         self.assertEqual(state["active_commercial_candidates"], [])
         self.assertEqual(state["active_transaction_units"], [])
         self.assertEqual(state["first_external_value_flow"], "NOT_PROVEN")
@@ -59,11 +76,12 @@ class Scan140ReceiptBindingBoundaryTests(unittest.TestCase):
         self.assertEqual(len(evidence["evidence_packets"]), 4)
         self.assertEqual(len(evidence["excluded_evidence"]), 3)
 
-    def test_current_auto_jev_input_resolves_scan140(self):
+    def test_auto_jev_has_advanced_beyond_scan140(self):
         from tools.run_jev_research_advisory import resolve_scan_path
+
         state = json.loads(STATE.read_text(encoding="utf-8"))
         path = resolve_scan_path("auto", state, research_dir=ROOT / "data" / "research_runs")
-        self.assertEqual(path, SCAN)
+        self.assertNotEqual(path, SCAN)
 
 
 if __name__ == "__main__":

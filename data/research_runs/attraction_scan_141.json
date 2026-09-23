@@ -1,0 +1,272 @@
+{
+  "schema_version": "attraction-scan.v104",
+  "scan_id": "ATTRACTION_SCAN_141",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "FRESH_CURRENT_NEAR_COMPLETE_RECEIPT_TUPLES_WITH_EXACT_ENTRY_RENT_PAYMENT_CURSOR_TRANSFERABLE_RECEIPTS_24_MONTH_COVERAGE_AND_ECONOMICS",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FRESH_CURRENT_NO_SCAN060_TO_140_REUSE",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F1",
+      "title": "MIANYANG_WHOLE_ASSET_PAIR_8_43_PERCENT_SURFACE_GROSS_EXACT_PAID_CURSOR_LEASE_END_DAY_UNBOUND",
+      "state": "RESEARCH_BEACON_PUBLIC_CAUSAL_DESCENT_EXHAUSTED_EXACT_24_MONTH_WINDOW_UNBOUND",
+      "commercial_candidate": false,
+      "observed_money_motion": [
+        "RMB284590 current first-auction floor for combined 7号车库 and 13号房屋.",
+        "RMB24000/year rent; paid through 2027-06-30; lease published as June 2024 through June 2029.",
+        "Surface gross about 8.43% before costs."
+      ],
+      "decisive_unknowns": [
+        "LEASE_END_EXACT_DAY_IN_2029_06_NOT_PUBLIC",
+        "FIRST_UNPREPAID_DUE_NODE_NOT_PUBLIC",
+        "CASE_SPECIFIC_PREPAID_RENT_ALLOCATION_NOT_PUBLIC"
+      ],
+      "next_action": "BLOCKED_CASE_SPECIFIC_LEASE_OR_RENT_LEDGER_OR_FUTURE_PUBLIC_RECORD"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F2",
+      "title": "WUHU_B118_6_28_PERCENT_SURFACE_GROSS_LONG_LEASE_PAYMENT_CURSOR_MISSING",
+      "state": "RESEARCH_BEACON_EXACT_INCUMBENT_PREFLIGHT_EXHAUSTED_PAYMENT_CURSOR_UNBOUND",
+      "commercial_candidate": false,
+      "observed_money_motion": [
+        "RMB299200 current first-auction floor.",
+        "RMB18800/year; lease 2024-05-01 through 2031-04-30; annual settlement.",
+        "Surface gross about 6.28% before costs."
+      ],
+      "decisive_unknowns": [
+        "CURRENT_PAID_THROUGH_CURSOR_NOT_PUBLIC",
+        "FIRST_UNPREPAID_RECEIPT_NOT_PUBLIC",
+        "CASE_SPECIFIC_PREPAID_RENT_ALLOCATION_NOT_PUBLIC",
+        "PRIORITY_PURCHASER_ROLE_RELATIVE_TO_TENANCY_UNKNOWN",
+        "SOURCE_PRESENTATION_CONFLICT_PRIORITY_PURCHASER_SUMMARY_VS_NOTICE_BODY"
+      ],
+      "next_action": "BLOCKED_CASE_SPECIFIC_LEASE_PAYMENT_LEDGER_OR_FUTURE_PUBLIC_RECORD"
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_141-F1",
+    "ATTRACTION_SCAN_141-F2"
+  ],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_141-F1",
+    "ATTRACTION_SCAN_141-F2",
+    "ATTRACTION_SCAN_140-F1",
+    "ATTRACTION_SCAN_139-F1",
+    "ATTRACTION_SCAN_135-F1",
+    "ATTRACTION_SCAN_136-F1",
+    "ATTRACTION_SCAN_136-F2",
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": false,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F1",
+      "title": "MIANYANG_WHOLE_ASSET_PAIR_8_43_PERCENT_SURFACE_GROSS_EXACT_PAID_CURSOR_LEASE_END_DAY_UNBOUND",
+      "evidence_class": "CURRENT_WHOLE_ASSET_PAIR_EXACT_ENTRY_RENT_PAID_CURSOR_NEAR_24_MONTH_TAIL_END_DAY_UNBOUND",
+      "evidence_summary": "Mianyang Fucheng Court auction starts 2026-10-10. Floor RMB284590 for both acquired units, rent RMB24000/year, paid through 2027-06-30, lease published only as June 2024-June 2029. Generic judicial-auction rent succession is publicly supported, but exact lease-end day and first unpaid due node are not.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_284590",
+        "contracted_receipt_amount": "RMB_24000_YEAR",
+        "buyer_receipt_start": "AFTER_2027_06_30_BUT_EXACT_DUE_NODE_UNKNOWN",
+        "buyer_receipt_end": "2029_06_EXACT_DAY_UNKNOWN",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC",
+        "post_transfer_receipt_right": "GENERIC_SUCCESSION_SUPPORTED_CASE_SPECIFIC_PREPAYMENT_ALLOCATION_UNKNOWN",
+        "unprepaid_receipt_status": "PAID_THROUGH_2027_06_30_EXACT_24_MONTH_TAIL_NOT_PROVEN",
+        "low_recurring_human_delivery": "PASS_CONDITIONAL",
+        "receipt_to_entry_economics": "SURFACE_GROSS_APPROX_8_43_PERCENT_EXACT_24_MONTH_WINDOW_UNBOUND"
+      },
+      "exact_disconfirmation": [
+        "Auction object includes both rented units.",
+        "Exact paid-through date is public.",
+        "Lease-end day and first unpaid due date are not public, so 24 months cannot be assumed."
+      ],
+      "verdict": "RETAINED_RESEARCH_PUBLIC_CAUSAL_DESCENT_EXHAUSTED_BLOCKED_ON_EXACT_LEASE_END_FIRST_UNPREPAID_DUE_AND_PREPAYMENT_ALLOCATION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F2",
+      "title": "WUHU_B118_6_28_PERCENT_SURFACE_GROSS_LONG_LEASE_PAYMENT_CURSOR_MISSING",
+      "evidence_class": "CURRENT_EXACT_ENTRY_RENT_LONG_LEASE_ANNUAL_SETTLEMENT_PAYMENT_CURSOR_MISSING",
+      "evidence_summary": "Wuhu Jinghu Court auction starts 2026-10-02. Floor RMB299200, rent RMB18800/year, lease 2024-05-01 to 2031-04-30, annual settlement. Embedded court notice body states a masked individual has priority-purchase rights while the platform summary says none; the right-holder's relationship to the tenant is not public. Notice does not state current paid-through status.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_299200",
+        "contracted_receipt_amount": "RMB_18800_YEAR",
+        "buyer_receipt_start": "UNKNOWN_PAYMENT_CURSOR",
+        "buyer_receipt_end": "2031_04_30",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC_PRIORITY_RIGHT_HOLDER_ROLE_NOT_BOUND",
+        "post_transfer_receipt_right": "GENERIC_SUCCESSION_SUPPORTED_CASE_SPECIFIC_PREPAYMENT_UNKNOWN",
+        "unprepaid_receipt_status": "UNKNOWN_PAID_THROUGH_CURSOR",
+        "low_recurring_human_delivery": "PASS_CONDITIONAL",
+        "receipt_to_entry_economics": "SURFACE_GROSS_APPROX_6_28_PERCENT_BUYER_CASHFLOW_START_UNBOUND"
+      },
+      "exact_disconfirmation": [
+        "Annual settlement does not reveal what has already been paid.",
+        "No payment cursor means no source-bound first buyer receipt.",
+        "Platform summary and embedded court notice body conflict on whether a priority purchaser exists; the court notice body is more specific.",
+        "The public notice does not establish whether the priority-right holder is the tenant, so the right-holder cannot be substituted for tenant identity."
+      ],
+      "verdict": "RETAINED_RESEARCH_EXACT_INCUMBENT_PREFLIGHT_EXHAUSTED_BLOCKED_ON_PAYMENT_CURSOR_AND_CASE_SPECIFIC_LEDGER"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F3",
+      "title": "PUER_LONG_UNPAID_TAIL_4_16_PERCENT_SURFACE_GROSS_MULTI_YEAR_PREPAYMENT",
+      "evidence_class": "CURRENT_EXACT_ENTRY_RENT_LONG_LEASE_EXPLICIT_UNPAID_YEARS_LOW_ECONOMICS",
+      "evidence_summary": "Pu'er auction starts 2026-10-04. Floor RMB864484, rent RMB36000/year, lease 2025-01-01 to 2032-12-31. 2025-2027 paid, RMB19189 of 2028 paid, 2029-2032 explicitly unpaid.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_864484",
+        "contracted_receipt_amount": "RMB_36000_YEAR",
+        "buyer_receipt_start": "AFTER_MULTI_YEAR_PREPAYMENT_EXACT_DUE_DATE_UNKNOWN",
+        "buyer_receipt_end": "2032_12_31",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC",
+        "post_transfer_receipt_right": "GENERIC_SUCCESSION_SUPPORTED_PREPAYMENT_ALLOCATION_UNKNOWN",
+        "unprepaid_receipt_status": "2029_TO_2032_EXPLICITLY_UNPAID_2028_PARTIAL",
+        "low_recurring_human_delivery": "PASS_CONDITIONAL",
+        "receipt_to_entry_economics": "SURFACE_GROSS_APPROX_4_16_PERCENT_WITH_PREPAYMENT_DELAY"
+      },
+      "exact_disconfirmation": [
+        "Future unpaid years are explicitly disclosed.",
+        "Surface gross is only about 4.16% before costs and near-term rent is substantially prepaid."
+      ],
+      "verdict": "DEMOTED_SOURCE_RICH_LONG_TAIL_BUT_WEAK_SURFACE_ECONOMICS_AND_PREPAYMENT_DELAY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_141-F4",
+      "title": "CHENGDU_EXPLICIT_BUYER_RENT_START_CURRENT_CHANGE_SALE_PRICE_MASKED",
+      "evidence_class": "CURRENT_EXPLICIT_BUYER_RENT_START_LONG_LEASE_CURRENT_ENTRY_PRICE_UNBOUND",
+      "evidence_summary": "Current change-sale notice published 2026-09-22 starts 2026-10-07, with 783.26 sqm, lease 2026-06-01 to 2031-05-31, RMB18/sqm/month, six-month payments and explicit buyer rent start after 2026-12-01. Current sale price is masked. Prior second-auction RMB2.98m ended 2026-09-21 and is not current.",
+      "economic_tuple": {
+        "acquisition_price": "UNKNOWN_CURRENT_CHANGE_SALE_PRICE",
+        "contracted_receipt_amount": "RMB_14098_68_MONTH_RMB_169184_16_YEAR",
+        "buyer_receipt_start": "EXPLICIT_AFTER_2026_12_01",
+        "buyer_receipt_end": "2031_05_31",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC",
+        "post_transfer_receipt_right": "EXPLICIT_BUYER_RENT_START",
+        "unprepaid_receipt_status": "RECEIPT_START_BOUND_ENTRY_UNBOUND",
+        "low_recurring_human_delivery": "PASS_CONDITIONAL",
+        "receipt_to_entry_economics": "FAIL_CURRENT_ENTRY_PRICE_MASKED"
+      },
+      "exact_disconfirmation": [
+        "Receipt side is unusually explicit.",
+        "Current change-sale price is masked; stale second-auction price cannot substitute."
+      ],
+      "verdict": "DEMOTED_EXPLICIT_RECEIPT_SIDE_BUT_CURRENT_ENTRY_PRICE_NOT_PUBLICLY_BOUND"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "MIANYANG_UNIT18_RENT_SPANS_UNACQUIRED_GARAGE",
+      "source_url": "https://m.fang.com/fapai/mianyang/out_12720816.html",
+      "reason": "RMB20000/year includes an adjacent garage outside the auction object; rent share requires negotiation."
+    },
+    {
+      "observation": "WUZHOU_TWO_SHOPS_LOW_YIELD_AND_BOUNDARY_COORDINATION",
+      "source_url": "https://www.sohu.com/a/1077207807_122455197",
+      "reason": "About 4.40% surface gross, no paid-through cursor, and physical opening into a third-party shop."
+    },
+    {
+      "observation": "DATONG_HONGYANG_LOW_RENT",
+      "source_url": "https://m.fang.com/fapai/datong/out_12743856.html",
+      "reason": "RMB2307155 floor versus RMB12000/year rent."
+    }
+  ],
+  "drift_audit": {
+    "primary_domain_is_china": true,
+    "fresh_current_primary_formations_only": true,
+    "exact_repository_dedup_completed_for_primary_addresses_case_ids_and_prices": true,
+    "scan060_to_140_primary_formations_not_reused": true,
+    "exact_entry_price_required": true,
+    "current_paid_through_cursor_required": true,
+    "minimum_24_month_source_bound_receipt_coverage_required": true,
+    "unknown_is_not_pass": true,
+    "research_retention_is_not_commercial_promotion": true,
+    "no_external_side_effect_authority": true,
+    "gate_relaxation": false
+  },
+  "commercial_outcome": {
+    "retained_count": 2,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Retain Mianyang F1 and Wuhu F2 for research only. F1 has ~8.43% surface gross and exact paid-through cursor but exact 24-month tail is not source-bound. F2 has long lease and ~6.28% surface gross but no payment cursor. Pu'er is weak economics despite explicit unpaid years; Chengdu lacks current entry price."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_142",
+  "next_search_boundary": "SCAN141_ROUTE_CONSUMPTION_HEAD_EXACT_CI_AND_LIVE_JEV_REVALIDATION_THEN_IF_ROUTE_CLASSES_REPEAT_ADVANCE_SCAN142",
+  "next_action": "FREEZE_ROUTE_CONSUMPTION_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV",
+  "scan_learnings": [
+    "EXACT_PAID_CURSOR_PLUS_ATTRACTIVE_GROSS_STILL_NEEDS_EXACT_24_MONTH_END_DAY.",
+    "LONG_LEASE_AND_RENT_WITHOUT_PAYMENT_CURSOR_DOES_NOT_BIND_BUYER_CASHFLOW_START.",
+    "EXPLICIT_UNPAID_YEARS_CAN_STILL_BE_ECONOMICALLY_WEAK.",
+    "EXPLICIT_BUYER_RENT_START_WITHOUT_CURRENT_ENTRY_PRICE_CANNOT_FORM_CURRENT_ECONOMICS.",
+    "MONTH_PRECISION_LEASE_END_MUST_NOT_BE_NORMALIZED_TO_A_DAY_TO_CREATE_24_MONTH_COVERAGE.",
+    "A_LATER_CURRENT_NOTICE_MAY_ADD_LEASE_FACTS_MISSING_FROM_AN_EARLIER_SAME_CASE_MIRROR_BUT_NEITHER_OMISSION_NOR_ANNUAL_SETTLEMENT_BINDS_A_PAYMENT_CURSOR.",
+    "EXACT_INCUMBENT_PREFLIGHT_WITHOUT_CASE_SPECIFIC_PAYMENT_STATUS_CANNOT_CREATE_A_FIRST_BUYER_RECEIPT.",
+    "SOURCE_PRESENTATION_CONFLICT_MUST_PREFER_SPECIFIC_EMBEDDED_COURT_NOTICE_BODY_OVER_PLATFORM_SUMMARY_WHILE_PRESERVING_UNKNOWN_ROLE_BINDING."
+  ],
+  "source_urls": [
+    "https://m.fang.com/fapai/mianyang/out_12722428.html",
+    "https://m.fang.com/fapai/wuhu/out_12692605.html",
+    "https://m.fang.com/fapai/puer/out_12703673.html",
+    "https://www.bidcenter.com.cn/news-443859008-9.html",
+    "https://m.fang.com/fapai/cd/out_12712276.html",
+    "https://www.court.gov.cn/zixun/xiangqing/455991.html"
+  ],
+  "jev_route_consumption": {
+    "source_exact_head": "f013e028594b54dead62cb272c724fd595636a55",
+    "repository_ci_run_id": 35847088351,
+    "jev_run_id": 35847088348,
+    "jev_artifact_id": 10743748656,
+    "jev_artifact_digest": "sha256:6c2277721a459b1b22a7b71ee656e227d636fe4d476baf8997f254740b75a5a1",
+    "served_model": "jev-1.13.0",
+    "routes": {
+      "ATTRACTION_SCAN_141-F1": "CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_141-F2": "EXACT_INCUMBENT_PREFLIGHT",
+      "ATTRACTION_SCAN_141-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_141-F4": "NO_FURTHER_RESEARCH"
+    },
+    "state_fingerprints": {
+      "ATTRACTION_SCAN_141-F1": "049584a3f275632edd7a",
+      "ATTRACTION_SCAN_141-F2": "8910eb5483f73fd726d5",
+      "ATTRACTION_SCAN_141-F3": "60fd18d1be26e68aec93",
+      "ATTRACTION_SCAN_141-F4": "90c6018d072f9a498d0a"
+    },
+    "consumed_routes": [
+      "ATTRACTION_SCAN_141-F1:CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_141-F2:EXACT_INCUMBENT_PREFLIGHT"
+    ],
+    "public_research_resolution": "F1_AND_F2_PUBLIC_ROUTES_EXHAUSTED_AT_CASE_SPECIFIC_LEASE_OR_PAYMENT_LEDGER_BOUNDARY",
+    "evidence_artifact": "data/research_runs/scan141_f1_f2_route_consumption_evidence.json",
+    "report": "docs/research/SCAN141_F1_F2_ROUTE_CONSUMPTION_2026-09-23.md",
+    "final_exact_head_revalidation": "PENDING",
+    "intermediate_exact_head_validation": {
+      "exact_head_sha": "bf7ed217ececd0fb87d3234a57438ac0bb8413e9",
+      "repository_ci_run_id": 35847931527,
+      "repository_ci_conclusion": "SUCCESS",
+      "jev_run_id": 35847931518,
+      "jev_artifact_id": 10744255813,
+      "jev_artifact_digest": "sha256:d83e28e321d7eba5f46b4eaad77d06a825a70757b502f0fcf641f6ebe6ca7cbb",
+      "routes": {
+        "ATTRACTION_SCAN_141-F1": "CAUSAL_DESCENT",
+        "ATTRACTION_SCAN_141-F2": "EXACT_INCUMBENT_PREFLIGHT",
+        "ATTRACTION_SCAN_141-F3": "NO_FURTHER_RESEARCH",
+        "ATTRACTION_SCAN_141-F4": "NO_FURTHER_RESEARCH"
+      },
+      "state_fingerprints": {
+        "ATTRACTION_SCAN_141-F1": "eeeb5a9d13939d05a446",
+        "ATTRACTION_SCAN_141-F2": "4f471ea26ac908c0ead4",
+        "ATTRACTION_SCAN_141-F3": "c3d1099d388b7212b187",
+        "ATTRACTION_SCAN_141-F4": "bd0ffde729f202c618bb"
+      },
+      "route_class_result": "NO_NEW_REVERSIBLE_ROUTE_CLASS",
+      "superseded_for_merge_by_source_correction": true
+    }
+  }
+}
