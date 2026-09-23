@@ -65,8 +65,8 @@ class Scan140ReceiptBindingBoundaryTests(unittest.TestCase):
             checkpoint["merged_main_sha"],
             "8a55703f92fbd52b53c41947b04d9fb3bd2b48e4",
         )
-        self.assertNotIn("ATTRACTION_SCAN_140-F1", state["retained_research_formations"])
-        self.assertEqual(state["retained_research_formations"], [])
+        self.assertIn("ATTRACTION_SCAN_140-F1", state["retained_research_formations"])
+        self.assertIn("ATTRACTION_SCAN_141-F1", state["retained_research_formations"])
         resolved = {item["formation_id"]: item["verdict"] for item in state["resolved_research_formations"]}
         self.assertTrue(resolved["ATTRACTION_SCAN_140-F1"].startswith("CLOSED_STRATEGIC_QUARANTINE_"))
         self.assertTrue(resolved["ATTRACTION_SCAN_141-F1"].startswith("CLOSED_STRATEGIC_QUARANTINE_"))

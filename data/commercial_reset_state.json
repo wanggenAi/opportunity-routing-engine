@@ -6,7 +6,15 @@
   "active_transaction_units": [],
   "active_parent_formations": [],
   "inherited_watchlist": [],
-  "retained_research_formations": [],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_135-F1",
+    "ATTRACTION_SCAN_136-F1",
+    "ATTRACTION_SCAN_136-F2",
+    "ATTRACTION_SCAN_139-F1",
+    "ATTRACTION_SCAN_140-F1",
+    "ATTRACTION_SCAN_141-F1",
+    "ATTRACTION_SCAN_141-F2"
+  ],
   "resolved_research_formations": [
     {
       "formation_id": "ATTRACTION_SCAN_001-F1",
@@ -2406,6 +2414,8 @@
       "ATTRACTION_SCAN_141-F2"
     ],
     "active_retained_research_after_quarantine": [],
-    "quarantine_closure_policy": "PRESERVE_SOURCE_ARTIFACTS_AND_LOCAL_FACTS_BUT_FORCE_NO_FURTHER_RESEARCH_IN_ACTIVE_STRATEGY"
+    "quarantine_closure_policy": "PRESERVE_RETAINED_RESEARCH_HISTORY_BUT_RESOLVED_STRATEGIC_CLOSURE_OVERRIDES_JEV_EFFECTIVE_ROUTE",
+    "retained_history_preserved": true,
+    "effective_open_research_after_quarantine": []
   }
 }

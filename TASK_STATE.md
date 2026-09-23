@@ -63,7 +63,7 @@ Main-reconciled head `1bffd7e62c1e18dcf6fd7a49918f8be4642b19b7` passed repositor
 - Opened PR #452 and triggered repository CI plus live TypeSafe/Jev; pre-reconciliation head `a40112fcf837e8a871f12816ad0437922d2ce814` passed both.
 - Reconciled the concurrent PR #451 merge: Scan 141 remains truthful audit evidence but is quarantined from Scan 142 strategy.
 - Consumed Jev run `35861745852`: its repeated F1 `CAUSAL_DESCENT` / F2 `HUMAN_REVIEW` exposed that narrative quarantine had not yet removed the proxy formations from active research state.
-- Closed all currently retained Scan 135/136/139/140/141 asset/cashflow proxy formations in authoritative machine state; source facts remain intact, but their effective Jev route must now fail closed.
+- Added authoritative strategic-quarantine closures for all historically retained Scan 135/136/139/140/141 asset/cashflow proxy formations; source facts and the historical retained ledger remain intact, but their effective Jev route must now fail closed.
 
 ## Current Findings
 The failure is objective substitution, not weak diligence: source-bound cashflow and transferability became increasingly measurable proxies, and the scan loop recursively inherited those proxies without revalidating the regenerative field. The constitutional doctrine itself remained intact.
@@ -71,7 +71,7 @@ The failure is objective substitution, not weak diligence: source-bound cashflow
 ## Blockers
 - PR #451 merged concurrently while PR #452 remediation was open; its Scan 141 artifacts are now audit history on main, not a strategic prior.
 - Main-reconciled head `1bffd7e6...` passed CI but Jev showed the quarantined asset formations were still active research records.
-- Active machine state now closes every retained formation from the drifted Scan 135/136/139/140/141 proxy chain with a strategic-quarantine closure while preserving all source artifacts.
+- Active machine state now gives every historically retained formation from the drifted Scan 135/136/139/140/141 proxy chain an authoritative strategic-quarantine closure. The retained-research ledger remains intact as history, while `resolved_research_formations` overrides Jev effective routing.
 - PR #452 must pass fresh exact-head CI / live Jev after this closure; no regenerative hard gate may be weakened.
 
 ## Root Cause
