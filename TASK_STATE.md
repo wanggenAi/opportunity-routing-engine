@@ -39,7 +39,9 @@ This branch starts from merged main `dc7cf834d24302f85702caddad000fbd3ad082ff`. 
 
 ## Active PR
 
-Not opened yet. Open exactly one PR from the active branch after the persisted Scan 137 state is frozen.
+PR #447 — `Run Scan 137 fresh current asset falsification`.
+
+Initial PR head was `20405d3c75e23fd6b863f09d5953f4d2fe6fe3cb`. This TASK_STATE write necessarily advances the head; the resulting SHA is the final frozen head for CI/Jev decisions.
 
 ## CI
 
@@ -97,7 +99,7 @@ Scan 137 creates no new research blocker. Its four formations are closed from pu
 
 ## Next Action
 
-Open one PR for the frozen Scan 137 branch, require exact-head repository CI plus live TypeSafe/Jev, consume any reversible Jev route if one is actually returned, merge if green and no contradiction appears, then begin fresh `ATTRACTION_SCAN_138`.
+Freeze the new PR #447 head created by this TASK_STATE update, require exact-head repository CI plus live TypeSafe/Jev, consume any reversible Jev route if one is actually returned, merge if green and no contradiction appears, then begin fresh `ATTRACTION_SCAN_138`.
 
 ## Do Not Repeat
 
