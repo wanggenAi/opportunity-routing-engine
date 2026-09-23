@@ -17,7 +17,7 @@ class Scan140F1CausalDescentTests(unittest.TestCase):
         self.assertEqual(evidence["source_jev"]["state_fingerprint"], "e2c540f3951363ea7a23")
         self.assertEqual(evidence["source_jev"]["routes"]["ATTRACTION_SCAN_140-F1"], "CAUSAL_DESCENT")
         self.assertTrue(evidence["route_consumed"])
-        self.assertEqual(evidence["consumed_routes"], ["CAUSAL_DESCENT"])
+        self.assertEqual(evidence["consumed_routes"], ["CAUSAL_DESCENT", "CAUSAL_DESCENT"])
 
     def test_supreme_court_reference_case_advances_succession_without_promoting(self):
         scan = json.loads(SCAN.read_text(encoding="utf-8"))
@@ -36,7 +36,7 @@ class Scan140F1CausalDescentTests(unittest.TestCase):
         self.assertIn("first unprepaid rent due date", joined)
         self.assertEqual(
             evidence["formation_status"],
-            "RETAINED_RESEARCH_BLOCKED_ON_FUTURE_TRANSFER_EVENT_AND_FIRST_UNPREPAID_RECEIPT_BINDING",
+            "RETAINED_RESEARCH_PUBLIC_CAUSAL_DESCENT_EXHAUSTED_BLOCKED_ON_FUTURE_TRANSFER_EVENT_OR_CASE_SPECIFIC_SOURCE_DOCUMENT",
         )
         self.assertFalse(evidence["commercial_promotion"])
         self.assertFalse(evidence["external_contact_performed"])
@@ -48,6 +48,7 @@ class Scan140F1CausalDescentTests(unittest.TestCase):
         state = json.loads(STATE.read_text(encoding="utf-8"))
         followup = state["scan140_f1_causal_descent"]
         self.assertTrue(followup["route_consumed"])
+        self.assertEqual(followup["consumed_routes"], ["CAUSAL_DESCENT", "CAUSAL_DESCENT"])
         self.assertEqual(followup["source_exact_head"], "6b57d4c502104e1c6a24f481ddac7aaa52926bdc")
         self.assertEqual(followup["scan141_gate"], "UNBLOCKED_SUBJECT_TO_EXACT_HEAD_CI_AND_LIVE_JEV_NO_NEW_REVERSIBLE_ROUTE_CLASS")
         self.assertEqual(state["active_commercial_candidates"], [])
