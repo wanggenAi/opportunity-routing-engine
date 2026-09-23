@@ -14,6 +14,10 @@ Scan 158 showed that an open remedy market is insufficient when affected actors 
 4. **Construction dust poor performance.** Projects, contractors and specialist service firms are public, but remediation requires site-specific diagnosis and regulatory re-evaluation.
 5. **Enterprise relocation.** Named relocation traces and a real moving-services market exist; however the public high-tech relocation signal arrives after the move decision/application is substantially committed, while factory relocation is project-specific.
 
+
+## Machine guard hardening
+From Scan 159 onward, `src/strategic_drift_guard.py` also fail-closes retained high-attraction beacons unless public A-side discoverability, public B-side discoverability, nonexpert match resolvability and action-gate callability clear the minimum floors; recurring founder/expert matching remains disallowed. The persisted Scan159 drift audit records the corresponding public-remedy checks even though this scan retained zero beacons.
+
 ## Result
 High-attraction beacons: 0. Retained formations: 0. Commercial candidates: 0. Transaction units: 0. FIRST_EXTERNAL_VALUE_FLOW: NOT_PROVEN.
 
