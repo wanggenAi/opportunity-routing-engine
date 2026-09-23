@@ -1,0 +1,199 @@
+{
+  "schema_version": "research-followup-evidence.v1",
+  "scan_id": "ATTRACTION_SCAN_136",
+  "as_of_date": "2026-09-23",
+  "research_stage": "MAIN_PUSH_JEV_ROUTE_CONSUMPTION",
+  "source_jev": {
+    "source": "MAIN_PUSH_LIVE_TYPESAFE_JEV",
+    "source_pr": 445,
+    "source_pr_exact_head": "d91d34790fb07c3e45bce977196092c00b86e8da",
+    "source_main": "16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1",
+    "repository_ci_run_id": 35830529477,
+    "main_repository_ci_run_id": 35830677638,
+    "jev_run_id": 35830677629,
+    "jev_artifact_id": 10737500478,
+    "jev_artifact_digest": "sha256:fc350f38f5a29968b2c82e0af389920a3372e770d8293312c2c49a43975a8b1f",
+    "input_scan_id": "ATTRACTION_SCAN_136",
+    "entity_count": 4,
+    "routes": {
+      "ATTRACTION_SCAN_136-F1": "EXACT_INCUMBENT_PREFLIGHT",
+      "ATTRACTION_SCAN_136-F2": "CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_136-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_136-F4": "NO_FURTHER_RESEARCH"
+    },
+    "autonomous_continuation_allowed": true,
+    "external_side_effects_allowed": false,
+    "commercial_promotion_authority": false
+  },
+  "formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F1",
+      "route": "EXACT_INCUMBENT_PREFLIGHT",
+      "question": "After accounting for the exact judicial-auction, title-transfer, existing-lease and ordinary landlord control surfaces, is there a distinct operator edge beyond acquiring the ownership/lease cashflow asset itself, and does public evidence close the decisive diligence fields?",
+      "public_sources": [
+        {
+          "source_id": "F1-R1",
+          "title": "Current Jiaxing Nanhu second-auction republication - Mingdian Apartment Office 510",
+          "url": "https://m.fang.com/fapai/jx/out_12738634.html",
+          "bound_facts": [
+            "Second auction runs 2026-09-30 through 2026-10-01 at RMB 763,200 for the exact 259.68 sqm office.",
+            "Lease runs through 2029-05-15 at RMB 5,000/month.",
+            "Although the contract payment cadence was six months, the judicial disposition has switched current collection to monthly.",
+            "The current second-auction notice says the buyer may collect rent from the transfer-registration date, with transfer-month rent prorated by remaining days.",
+            "The property is stated able to complete transfer registration; buyer must handle registration within 30 days after the court title-confirmation ruling is served.",
+            "Property-fee arrears are stated at RMB 17,295 through 2026-12-31 and, under the lease, are borne by the tenant; exact actual arrears remain subject to confirmation.",
+            "Land-use termination date remains stated unknown."
+          ]
+        },
+        {
+          "source_id": "F1-R2",
+          "title": "Prior first-auction republication - same Jiaxing asset",
+          "url": "https://m.fang.com/fapai/jx/out_12572191.html",
+          "bound_facts": [
+            "The first auction used the earlier wording that the buyer could collect rent from transaction completion.",
+            "The current second-auction notice uses the narrower transfer-registration-date receipt start and therefore controls the current research state.",
+            "Certificate references are 00404078 and 嘉土国用（2011）第454411号; title originals were not recovered, but the notice states that does not prevent transfer."
+          ]
+        },
+        {
+          "source_id": "F1-R3",
+          "title": "Supreme People's Court network judicial auction rules",
+          "url": "https://www.court.gov.cn/zixun/xiangqing/24391.html",
+          "bound_facts": [
+            "Network-auction ownership generally transfers when the auction-completion adjudication is served on the buyer.",
+            "This general rule does not override the current auction-specific notice's narrower statement that buyer rent collection starts from transfer registration."
+          ]
+        }
+      ],
+      "incumbent_control_surfaces": [
+        {
+          "surface": "JUDICIAL_AUCTION_AND_TITLE_TRANSFER_RAIL",
+          "assessment": "MATURE_AND_EXACT",
+          "consequence": "Price discovery, adjudication and title-transfer mechanics are already owned by the court/platform rail; no separate orchestration edge can be claimed from them."
+        },
+        {
+          "surface": "EXISTING_LEASE_AND_TENANT_RENT_RAIL",
+          "assessment": "EXACT_ASSET_LEVEL_CASHFLOW_EXISTS",
+          "consequence": "The non-generic control asset is ownership plus lease succession itself. This is not a generic-agent coordination moat, but incumbent presence does not automatically invalidate the asset-cashflow formation."
+        },
+        {
+          "surface": "NORMAL_LANDLORD_ADMINISTRATION",
+          "assessment": "ORDINARY_NOT_DISTINCT",
+          "consequence": "Property, utility, tax, deposit and physical-condition work remain diligence/ownership obligations rather than a distinct operator advantage."
+        }
+      ],
+      "exact_public_search_exhaustion": {
+        "queries": [
+          "嘉兴市名典公寓综合楼办510室 租赁合同 承租人 保证金",
+          "嘉兴市名典公寓综合楼办510室 租金 5000 保证金",
+          "嘉土国用（2011）第454411号 租赁 承租人",
+          "00404078 名典公寓 办510室"
+        ],
+        "result": "NO_INDEPENDENT_PUBLIC_SOURCE_SURFACED_FOR_TENANT_IDENTITY_PAYMENT_HISTORY_FULL_LEASE_DEPOSIT_LEDGER_LAND_TERM_OR_CURRENT_PHYSICAL_CONDITION",
+        "note": "Searches resolved to the same auction republications or non-decisive property pages; no suggestive listing was promoted as evidence."
+      },
+      "narrowed_facts": [
+        "Current transfer eligibility is publicly stated as possible rather than wholly unknown.",
+        "A registration deadline exists after adjudication service, but the actual adjudication/registration date is not fixed.",
+        "The current receipt-start wording is transfer-registration date and supersedes the first-auction transaction-date wording for this research state.",
+        "No separate operator moat beyond the acquired ownership/lease right is evidenced; this does not by itself close the formation because incumbent presence is not an automatic rejection."
+      ],
+      "decisive_unknowns_remaining": [
+        "Exact tenant identity and current payment quality.",
+        "Complete lease, current monthly collection ledger and any prepaid balance.",
+        "Deposit quantum and transfer accounting.",
+        "Actual adjudication and transfer-registration dates, which determine exact future receipt coverage.",
+        "Exact buyer-side taxes, fees and normalized net economics.",
+        "Land-use termination date and current physical condition."
+      ],
+      "public_research_resolution": "EXHAUSTED",
+      "next_evidence_class": "EXTERNAL_WRITTEN_COURT_AUCTION_ASSISTANCE_TENANT_CONFIRMATION_OR_UNDERLYING_LEASE_LEDGER_SOURCE_DOCUMENT",
+      "formation_status": "RETAINED_RESEARCH_BLOCKED_ON_EXTERNAL_WRITTEN_OR_SOURCE_DOCUMENT_DILIGENCE",
+      "commercial_promotion": false,
+      "external_contact_performed": false,
+      "external_contact_authorized": false,
+      "bid_authorized": false,
+      "deposit_authorized": false,
+      "purchase_authorized": false
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F2",
+      "route": "CAUSAL_DESCENT",
+      "question": "Does the current public record bind a buyer-specific unprepaid rent start early enough to leave at least 24 months through 2029-02-24, or does the decisive chain still terminate at non-public lease and case-specific transfer facts?",
+      "public_sources": [
+        {
+          "source_id": "F2-R1",
+          "title": "Current Weiyuan first-auction notice republication - Yanling Lanhua Street 46",
+          "url": "https://www.sohu.com/a/1077209752_122455197",
+          "bound_facts": [
+            "First auction runs 2026-10-18 through 2026-10-19 at RMB 445,886.28 for the exact 45.08 sqm commercial unit.",
+            "The asset is expressly sold with the existing lease from 2022-02-24 through 2029-02-24.",
+            "Current rent is RMB 6,000/month, paid quarterly, and rent has been paid through the end of 2026-11.",
+            "The notice explicitly says detailed lease content requires telephone consultation.",
+            "Execution case is （2026）川1024执1832号 and underlying judgment is （2026）川1024民初929号."
+          ]
+        },
+        {
+          "source_id": "F2-R2",
+          "title": "PRC Civil Code Article 725 - Supreme People's Court republication",
+          "url": "https://www.court.gov.cn/zixun/xiangqing/233181.html",
+          "bound_facts": [
+            "Ownership change during the tenant's contractual possession does not affect lease validity.",
+            "This establishes generic lease continuity, not the auction-specific accounting of rent already prepaid through 2026-11 or the first rent cycle payable to the buyer."
+          ]
+        },
+        {
+          "source_id": "F2-R3",
+          "title": "Supreme People's Court network judicial auction rules",
+          "url": "https://www.court.gov.cn/zixun/xiangqing/24391.html",
+          "bound_facts": [
+            "Auctioned property ownership generally transfers when the auction-completion adjudication is served on the buyer.",
+            "The general ownership rule narrows the legal chain but does not publish the case-specific adjudication date or first buyer rent settlement."
+          ]
+        }
+      ],
+      "causal_chain": [
+        "Existing lease validity survives ownership change.",
+        "Rent through 2026-11 is already paid, so that paid period cannot be assumed to become fresh buyer cash receipt without auction-specific accounting evidence.",
+        "The unprepaid contractual tail from 2026-12-01 to 2029-02-24 is about 26.8 months.",
+        "To satisfy a full 24-month future-receipt gate, the buyer-specific effective receipt start must be no later than 2027-02-24.",
+        "The current public notice does not bind the actual adjudication/transfer date, detailed lease clauses, prepaid-rent allocation or first rent cycle payable to the buyer.",
+        "The notice itself routes detailed lease inquiry to telephone consultation, which is an external side effect under current authority."
+      ],
+      "exact_public_search_exhaustion": {
+        "queries": [
+          "威远县严陵镇兰花街46号 租赁合同 承租人 保证金",
+          "威远县严陵镇兰花街46号 6000 2029年2月24日",
+          "（2026）川1024执1832号 兰花街46号",
+          "（2026）川1024民初929号"
+        ],
+        "result": "NO_INDEPENDENT_PUBLIC_SOURCE_SURFACED_FOR_FULL_LEASE_TENANT_IDENTITY_DEPOSIT_PAYMENT_LEDGER_PREPAID_RENT_ALLOCATION_OR_EXACT_FIRST_BUYER_RENT_CYCLE",
+        "note": "Exact searches returned the current auction notice or no usable independent case document; UNKNOWN was not upgraded from generic legal continuity."
+      },
+      "decisive_unknowns_remaining": [
+        "Exact first rent amount/date payable to the buyer after ownership transfer.",
+        "Treatment of rent prepaid through 2026-11 if ownership transfers earlier.",
+        "Actual adjudication/transfer timeline against the 2027-02-24 latest-start threshold.",
+        "Tenant identity, payment performance, full lease and deposit.",
+        "Exact property/utility arrears, taxes, transfer costs, title and physical condition."
+      ],
+      "public_research_resolution": "EXHAUSTED",
+      "next_evidence_class": "EXTERNAL_WRITTEN_COURT_AUCTION_ASSISTANCE_RESPONSE_OR_UNDERLYING_LEASE_AND_RENT_LEDGER_DOCUMENT",
+      "formation_status": "RETAINED_RESEARCH_BLOCKED_ON_EXTERNAL_WRITTEN_OR_SOURCE_DOCUMENT_DILIGENCE",
+      "commercial_promotion": false,
+      "external_contact_performed": false,
+      "external_contact_authorized": false,
+      "bid_authorized": false,
+      "deposit_authorized": false,
+      "purchase_authorized": false
+    }
+  ],
+  "authoritative_closures_preserved": [
+    "ATTRACTION_SCAN_136-F3",
+    "ATTRACTION_SCAN_136-F4"
+  ],
+  "scan137_gate": "UNBLOCKED",
+  "first_external_value_flow": "NOT_PROVEN",
+  "commercial_promotion": false,
+  "external_side_effects_performed": false
+}

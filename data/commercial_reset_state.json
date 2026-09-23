@@ -1878,7 +1878,53 @@
     "bid_authorized": false,
     "deposit_authorized": false,
     "purchase_authorized": false,
-    "exact_head_validation_status": "PENDING",
-    "jev_route_status": "PENDING"
+    "exact_head_validation_status": "SUCCESS",
+    "jev_route_status": "CONSUMED",
+    "exact_head_sha": "d91d34790fb07c3e45bce977196092c00b86e8da",
+    "repository_ci_run_id": 35830529477,
+    "jev_route_source": "MAIN_PUSH_LIVE_TYPESAFE_JEV",
+    "jev_run_id": 35830677629,
+    "jev_artifact_id": 10737500478,
+    "jev_artifact_digest": "sha256:fc350f38f5a29968b2c82e0af389920a3372e770d8293312c2c49a43975a8b1f",
+    "jev_input_scan_id": "ATTRACTION_SCAN_136",
+    "jev_entity_count": 4,
+    "jev_routes": {
+      "ATTRACTION_SCAN_136-F1": "EXACT_INCUMBENT_PREFLIGHT",
+      "ATTRACTION_SCAN_136-F2": "CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_136-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_136-F4": "NO_FURTHER_RESEARCH"
+    }
+  },
+  "scan136_f1_f2_routing_followup": {
+    "source_pr": 445,
+    "source_pr_exact_head": "d91d34790fb07c3e45bce977196092c00b86e8da",
+    "source_main": "16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1",
+    "repository_ci_run_id": 35830529477,
+    "main_repository_ci_run_id": 35830677638,
+    "jev_run_id": 35830677629,
+    "jev_artifact_id": 10737500478,
+    "jev_artifact_digest": "sha256:fc350f38f5a29968b2c82e0af389920a3372e770d8293312c2c49a43975a8b1f",
+    "jev_input_scan_id": "ATTRACTION_SCAN_136",
+    "jev_entity_count": 4,
+    "jev_routes": {
+      "ATTRACTION_SCAN_136-F1": "EXACT_INCUMBENT_PREFLIGHT",
+      "ATTRACTION_SCAN_136-F2": "CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_136-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_136-F4": "NO_FURTHER_RESEARCH"
+    },
+    "route_consumed": true,
+    "public_research_resolution": "EXHAUSTED_FOR_F1_F2",
+    "evidence_artifact": "data/research_runs/scan136_f1_f2_routing_followup_evidence.json",
+    "report": "docs/research/SCAN136_F1_F2_ROUTING_FOLLOWUP_2026-09-23.md",
+    "f1_status": "RETAINED_RESEARCH_BLOCKED_ON_EXTERNAL_WRITTEN_OR_SOURCE_DOCUMENT_DILIGENCE",
+    "f2_status": "RETAINED_RESEARCH_BLOCKED_ON_EXTERNAL_WRITTEN_OR_SOURCE_DOCUMENT_DILIGENCE",
+    "next_evidence_class": "EXTERNAL_WRITTEN_COURT_AUCTION_ASSISTANCE_TENANT_OR_UNDERLYING_SOURCE_DOCUMENTS",
+    "external_contact_performed": false,
+    "external_contact_authorized": false,
+    "scan137_gate_unblocked": true,
+    "commercial_promotion": false,
+    "bid_authorized": false,
+    "deposit_authorized": false,
+    "purchase_authorized": false
   }
 }
