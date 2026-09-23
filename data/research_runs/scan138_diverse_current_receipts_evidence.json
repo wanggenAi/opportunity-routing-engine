@@ -1,0 +1,65 @@
+{
+  "schema_version": "research-evidence.v1",
+  "scan_id": "ATTRACTION_SCAN_138",
+  "as_of_date": "2026-09-23",
+  "primary_research_domain": "CHINA",
+  "evidence_packets": [
+    {
+      "formation_id": "ATTRACTION_SCAN_138-F1",
+      "sources": [
+        {
+          "source_id": "F1-S1",
+          "title": "Current Dazhu County Court second auction - Chengdu Longquanyi Nanboyuan unit",
+          "url": "https://m.fang.com/fapai/cd/out_12721473.html",
+          "role": "CURRENT_ENTRY_EXACT_RENT_PREPAYMENT_CURSOR_EXPLICIT_BUYER_INCOME_START_AND_LEASE_END"
+        }
+      ],
+      "closure": "RMB319,618 entry, buyer income from 2026-10-18, RMB11,000/year forward rent and lease through 2030-10-17 are public. Nominal gross is approximately 3.44% before costs; authoritatively demoted on economics."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_138-F2",
+      "sources": [
+        {
+          "source_id": "F2-S1",
+          "title": "Current Wuzhou Changzhou Court first auction - Xihuan Road shops 1-51 and 1-52",
+          "url": "https://www.sohu.com/a/1077207807_122455197",
+          "role": "CURRENT_TWO_TITLE_ENTRY_EXACT_RENT_TERM_WITH_LEASE_SALE_AND_PHYSICAL_NEIGHBOR_BOUNDARY"
+        }
+      ],
+      "closure": "RMB272,586 combined entry and RMB1,000/month rent imply approximately 4.40% nominal gross. Two titles are sold together and physically opened into a neighboring non-auction shop requiring future coordination. Demoted."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_138-F3",
+      "sources": [
+        {
+          "source_id": "F3-S1",
+          "title": "Current Xuzhou Quanshan Court first auction - Green Window Commercial Plaza 1-113",
+          "url": "https://m.fang.com/fapai/xz/out_12714186.html",
+          "role": "CURRENT_SINGLE_ASSET_ENTRY_LEASE_TERM_EXPLICIT_REMAINING_UNPAID_RENT_TO_BUYER"
+        }
+      ],
+      "closure": "RMB624,015 entry, lease through 2030-04-06 and explicit right to remaining unpaid rent are public, but contracted rent quantum is absent. Economics cannot be computed; fail closed."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_138-F4",
+      "sources": [
+        {
+          "source_id": "F4-S1",
+          "title": "Current Mianyang Anzhou Court first auction - Yichang Road mixed commercial/residential property",
+          "url": "https://m.fang.com/fapai/mianyang/out_12749671.html",
+          "role": "CURRENT_ENTRY_EXACT_ANNUAL_RENT_PREPAYMENT_CURSOR_LEASE_TERM_AND_UNREGISTERED_BUILDING_DISCLOSURE"
+        }
+      ],
+      "closure": "RMB1,467,060 entry, RMB80,000/year rent through 2032-09 and rent prepaid through 2027-09 are public, but 194.4 sqm is unregistered and the current notice does not bind the post-prepayment buyer settlement. Fail closed."
+    }
+  ],
+  "excluded_evidence": [
+    {
+      "source_id": "X1",
+      "title": "Current Heze Tianying industrial asset with rooftop distributed-PV lease",
+      "url": "https://www.ixbang.com/bid/detail/887E7EA408BBB40C1BEE4DFC98BD10C6.html",
+      "role": "FRESH_MECHANISM_DIVERSITY_DISCONFIRMATION_BUYER_MUST_CONTINUE_PV_ROOFTOP_LEASE_BUT_RENT_PREPAID_THROUGH_2030_10_31_BUYER_RECEIPTS_ONLY_FROM_2030_11_01_AND_ANNUAL_RENT_MASKED"
+    }
+  ],
+  "scan_conclusion": "SCAN138_DIVERSE_CURRENT_RECEIPT_MECHANISMS_ZERO_RETAINED_ZERO_COMMERCIAL_PROMOTION"
+}

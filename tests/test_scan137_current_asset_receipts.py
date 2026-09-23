@@ -29,10 +29,12 @@ class Scan137CurrentAssetReceiptsTests(unittest.TestCase):
         for item in by_id.values():
             self.assertTrue(item["verdict"].startswith("DEMOTED_"))
 
-    def test_machine_state_advances_to_scan138_without_touching_prior_retained_research(self):
+    def test_machine_state_preserves_historical_scan137_without_touching_prior_retained_research(self):
         state = json.loads(STATE.read_text(encoding="utf-8"))
-        self.assertEqual(state["last_completed_scan_id"], "ATTRACTION_SCAN_137")
-        self.assertEqual(state["next_scan_id"], "ATTRACTION_SCAN_138")
+        historical = state["scan137_current_asset_receipts"]
+        self.assertEqual(historical["retained_count"], 0)
+        self.assertFalse(historical["commercial_promotion"])
+        self.assertEqual(historical["next_scan_id"], "ATTRACTION_SCAN_138")
         self.assertIn("ATTRACTION_SCAN_135-F1", state["retained_research_formations"])
         self.assertIn("ATTRACTION_SCAN_136-F1", state["retained_research_formations"])
         self.assertIn("ATTRACTION_SCAN_136-F2", state["retained_research_formations"])
@@ -45,19 +47,20 @@ class Scan137CurrentAssetReceiptsTests(unittest.TestCase):
         self.assertTrue(all(isinstance(item, dict) for item in state["resolved_research_formations"]))
         resolved = {item["formation_id"]: item for item in state["resolved_research_formations"]}
         for suffix in ("F1", "F2", "F3", "F4"):
-            self.assertIn(f"ATTRACTION_SCAN_137-{suffix}", resolved)
-        self.assertEqual(state["last_resolved_formation_id"], "ATTRACTION_SCAN_137-F4")
+            formation_id = f"ATTRACTION_SCAN_137-{suffix}"
+            self.assertIn(formation_id, resolved)
+            self.assertTrue(resolved[formation_id]["verdict"].startswith("DEMOTED_"))
 
     def test_evidence_has_four_packets(self):
         evidence = json.loads(EVIDENCE.read_text(encoding="utf-8"))
         self.assertEqual(evidence["scan_id"], "ATTRACTION_SCAN_137")
         self.assertEqual(len(evidence["evidence_packets"]), 4)
 
-    def test_current_auto_jev_input_resolves_scan137(self):
+    def test_explicit_historical_jev_input_resolves_scan137(self):
         from tools.run_jev_research_advisory import resolve_scan_path
 
         state = json.loads(STATE.read_text(encoding="utf-8"))
-        path = resolve_scan_path("auto", state, research_dir=ROOT / "data" / "research_runs")
+        path = resolve_scan_path(str(SCAN), state, research_dir=ROOT / "data" / "research_runs")
         self.assertEqual(path, SCAN)
 
 

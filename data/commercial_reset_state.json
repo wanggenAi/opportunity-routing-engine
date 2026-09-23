@@ -276,14 +276,34 @@
       "formation_id": "ATTRACTION_SCAN_137-F4",
       "verdict": "DEMOTED_CURRENT_RONGCHANG_RMB114730_MALL_UNIT_HAS_LONG_MANAGEMENT_AGREEMENT_BUT_CURRENT_UNIT_IS_EMPTY_AND_90_PERCENT_OF_MALL_ACTUAL_RENT_FORMULA_IS_NOT_ASSET_ATTRIBUTABLE_CONTRACTED_RECEIPT",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_138-F1",
+      "verdict": "DEMOTED_CURRENT_CHENGDU_RMB319618_SINGLE_UNIT_HAS_EXPLICIT_2026_10_18_BUYER_INCOME_AND_RENT_TO_2030_10_17_BUT_APPROX_3_44_PERCENT_GROSS_HARD_FAILS_CURRENT_ATTRACTION_ECONOMICS",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_138-F2",
+      "verdict": "DEMOTED_CURRENT_WUZHOU_RMB272586_TWO_SHOP_BUNDLE_HAS_RMB12000_ANNUAL_RENT_TO_2029_07_15_BUT_APPROX_4_40_PERCENT_GROSS_AND_PHYSICAL_BOUNDARY_COORDINATION_FAIL_CURRENT_LANE",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_138-F3",
+      "verdict": "DEMOTED_CURRENT_XUZHOU_RMB624015_SINGLE_SHOP_HAS_EXPLICIT_BUYER_REMAINING_RENT_RIGHT_TO_2030_04_06_BUT_PUBLIC_CONTRACTED_RENT_QUANTUM_IS_UNBOUND",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_138-F4",
+      "verdict": "DEMOTED_CURRENT_MIANYANG_RMB1467060_MIXED_ASSET_HAS_RMB80000_ANNUAL_RENT_TO_2032_09_BUT_UNREGISTERED_BUILDINGS_AND_UNBOUND_POST_PREPAYMENT_BUYER_SETTLEMENT_FAIL_EXACT_CASHFLOW_GATE",
+      "resolved_date": "2026-09-23"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_137",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_137-F4",
-  "next_scan_id": "ATTRACTION_SCAN_138",
-  "current_research_action": "FREEZE_SCAN137_EXACT_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONSUME_ANY_REVERSIBLE_ROUTE_THEN_ADVANCE_TO_FRESH_SCAN138_NO_SCAN060_TO_137_REUSE_NO_GATE_RELAXATION",
+  "last_completed_scan_id": "ATTRACTION_SCAN_138",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_138-F4",
+  "next_scan_id": "ATTRACTION_SCAN_139",
+  "current_research_action": "FREEZE_SCAN138_EXACT_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONSUME_ANY_REVERSIBLE_ROUTE_THEN_ADVANCE_TO_FRESH_SCAN139_EXPAND_MECHANISM_DIVERSITY_NO_SCAN060_TO_138_REUSE_NO_GATE_RELAXATION",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -1879,7 +1899,7 @@
     "deposit_authorized": false,
     "purchase_authorized": false
   },
-  "last_completed_scan_file": "data/research_runs/attraction_scan_137.json",
+  "last_completed_scan_file": "data/research_runs/attraction_scan_138.json",
   "last_completed_scan_result": "ZERO_RETAINED_ZERO_COMMERCIAL_PROMOTION",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
@@ -2014,6 +2034,27 @@
     "exact_right_missing_quantum_disconfirmation": "HANGZHOU_RMB991000_EXPLICIT_POST_CONFIRMATION_RENT_RIGHT_BUT_PUBLIC_RENT_QUANTUM_UNBOUND",
     "pooled_formula_disconfirmation": "RONGCHANG_RMB114730_EMPTY_UNIT_WITH_90_PERCENT_OF_MALL_ACTUAL_RENT_NOT_ASSET_ATTRIBUTABLE",
     "next_scan_id": "ATTRACTION_SCAN_138",
+    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_IF_NO_REVERSIBLE_ROUTE_REMAINS"
+  },
+  "scan138_diverse_current_receipts": {
+    "canonical_scan_artifact": "data/research_runs/attraction_scan_138.json",
+    "evidence_artifact": "data/research_runs/scan138_diverse_current_receipts_evidence.json",
+    "report": "docs/research/SCAN138_DIVERSE_CURRENT_RECEIPTS_2026-09-23.md",
+    "retained_count": 0,
+    "commercial_promotion": false,
+    "external_side_effects_performed": false,
+    "authoritative_closures": [
+      "ATTRACTION_SCAN_138-F1",
+      "ATTRACTION_SCAN_138-F2",
+      "ATTRACTION_SCAN_138-F3",
+      "ATTRACTION_SCAN_138-F4"
+    ],
+    "strongest_continuity_disconfirmation": "CHENGDU_NANBOYUAN_EXPLICIT_BUYER_INCOME_FROM_2026_10_18_BUT_APPROX_3_44_PERCENT_GROSS",
+    "boundary_control_disconfirmation": "WUZHOU_TWO_TITLES_OPENED_INTO_NON_AUCTION_NEIGHBOR_APPROX_4_40_PERCENT_GROSS",
+    "missing_quantum_disconfirmation": "XUZHOU_GREEN_WINDOW_1_113_EXPLICIT_REMAINING_RENT_TO_BUYER_BUT_PUBLIC_RENT_QUANTUM_UNBOUND",
+    "mixed_title_rights_disconfirmation": "MIANYANG_YICHANG_ROAD_RMB80000_YEAR_RENT_BUT_UNREGISTERED_BUILDINGS_AND_POST_PREPAYMENT_BUYER_SETTLEMENT_UNBOUND",
+    "fresh_mechanism_probe": "HEZE_TIANYING_ROOFTOP_PV_LEASE_TO_2040_BUT_RENT_PREPAID_THROUGH_2030_10_31_AND_PUBLIC_ANNUAL_RENT_MASKED",
+    "next_scan_id": "ATTRACTION_SCAN_139",
     "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_IF_NO_REVERSIBLE_ROUTE_REMAINS"
   }
 }
