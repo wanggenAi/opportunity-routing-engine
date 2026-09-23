@@ -1,0 +1,893 @@
+{
+  "scan_id": "ATTRACTION_SCAN_151",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "FRESH_BROAD_CURRENT_REALITY_DIRECT_SERVICE_PLATFORMS_AFTER_SCAN150_FINAL_CLOSURE",
+  "source_main_sha": "7964aa4809f41e748f083ed431a47fc89ff548ad",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_150",
+    "prior_pr": 464,
+    "prior_merged_main_sha": "7964aa4809f41e748f083ed431a47fc89ff548ad",
+    "prior_final_exact_head": "2eef8bcca85b8e7aff45350089caba45860f2a43",
+    "prior_repository_ci_run_id": 35879006327,
+    "prior_repository_ci_test_job_id": 107242277378,
+    "prior_repository_ci_test_count": 765,
+    "prior_live_jev_run_id": 35879006323,
+    "prior_live_jev_artifact_id": 10759498296,
+    "prior_live_jev_artifact_digest": "sha256:e757f0d524d82747272775af74e4058088909363aad29c1a651568963a218463",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scan150_controlled_interfaces_not_used_as_prior": true
+  },
+  "broad_reality_domains_examined": [
+    "PATIENT_COMPANION_SERVICES",
+    "ROBOT_APPLICATION_SCENARIO_MATCHING",
+    "NETWORK_ROAD_FREIGHT",
+    "CUSTOMIZED_ENTERPRISE_COMMUTING",
+    "SECURITY_CROWDSOURCING"
+  ],
+  "source_registry": {
+    "ESCORT-SAMR-20260827": {
+      "source_class": "CURRENT_NATIONAL_PATIENT_COMPANION_SERVICE_STANDARD",
+      "url": "https://www.samr.gov.cn/bzjss/bzjd/art/2026/art_4022d6d5ed64447081e71af307a134db.html",
+      "date": "2026-08-27",
+      "claim": "SAMR explains GB/T 47801-2026 for commercial patient companion services, noting 1,048 registered companion-service institutions since 2014 and 4.343 million services in 2023, while standardizing provider, platform, personnel, process, evaluation and improvement requirements."
+    },
+    "ESCORT-SHANGHAI-20260626": {
+      "source_class": "CURRENT_PUBLIC_ELDERLY_MEDICAL_ESCORT_NETWORK",
+      "url": "https://www.shanghai.gov.cn/xbhygq/20260626/a2766847705d4c9b91933443fc1c53dc.html",
+      "date": "2026-06-26",
+      "claim": "Shanghai's 2026 elderly medical escort program requires districts to establish service mechanisms and networks, develop qualified service institutions and trained companions, and link escort providers with mobility-support resources."
+    },
+    "ROBOT-JIANGMEN-20260710": {
+      "source_class": "CURRENT_PUBLIC_ROBOT_SCENARIO_MATCHING_RAIL",
+      "url": "https://www.jiangmen.gov.cn/bmpd/jmsgyhxxhj/zwgk/gsgg/content/post_3519624.html",
+      "date": "2026-07-10",
+      "claim": "Jiangmen published 68 intelligent-robot application opportunities across ten categories and explicitly asks solution providers to submit a matching form so the municipal industry bureau can conduct supply-demand matching."
+    },
+    "ROBOT-GASGOO-20260923": {
+      "source_class": "CURRENT_ROBOT_DEMAND_DISCOVERY_PLATFORM",
+      "url": "https://gasgoo.com/apps/50640d4b55d5cba175fb84f15d679f19/robot/cases/",
+      "date": "2026-09-23",
+      "claim": "Gasgoo exposes a current embodied-intelligence demand search surface that lists scenario and supply-chain procurement needs and supports matching application scenarios and supplier requirements."
+    },
+    "FREIGHT-MOT-20260126": {
+      "source_class": "CURRENT_NETWORK_FREIGHT_PLATFORM_RULE",
+      "url": "https://xxgk.mot.gov.cn/xzgfxwj/202601/t20260126_4199002.html",
+      "date": "2026-01-26",
+      "claim": "The 2026 Network Freight Carrier Platform Measures define a platform as integrating transportation resources online, signing carriage contracts with shippers as carrier, commissioning qualified actual carriers, and assuming carrier responsibility."
+    },
+    "FREIGHT-MOT-CREDIT-20260128": {
+      "source_class": "CURRENT_NETWORK_FREIGHT_PLATFORM_OPERATIONAL_CONTROL",
+      "url": "https://credit.mot.gov.cn/xinyongdongtai/202601/t20260128_4199120.html",
+      "date": "2026-01-28",
+      "claim": "The Ministry of Transport's published network-freight rules confirm that lawful platform operation directly controls shipper contracting, actual-carrier dispatch and transportation service responsibility rather than merely introducing the parties."
+    },
+    "COMMUTE-CHONGQING-20260623": {
+      "source_class": "CURRENT_ENTERPRISE_CUSTOM_COMMUTE_DEMAND_COLLECTION",
+      "url": "https://jtj.cq.gov.cn/sy_240/jdtp/202606/t20260623_15771494.html",
+      "date": "2026-06-23",
+      "claim": "Chongqing public transport directly collected enterprise-park employee origin, destination, time, cost and route needs through onsite and online surveys to design point-to-point customized commuter bus lines."
+    },
+    "COMMUTE-JINAN-20260813": {
+      "source_class": "CURRENT_PUBLIC_CUSTOM_COMMUTE_OPERATION",
+      "url": "https://innovation.jinan.gov.cn/col/col16571/art/2026/art_23f62f0cce9046d69abc1080c1a8bb86.html",
+      "date": "2026-08-13",
+      "claim": "Jinan High-tech Zone reports active customized commuting lines and continuing transit-network optimization, showing the public operator already owns demand aggregation, route planning and service operation."
+    },
+    "SECURITY-VULBOX-20260923": {
+      "source_class": "CURRENT_SECURITY_CROWDSOURCING_PLATFORM",
+      "url": "https://www.vulbox.com/service",
+      "date": "2026-09-23",
+      "claim": "VULBOX operates enterprise security crowdsourcing where companies commission public, professional or private test projects and the platform recruits or screens white-hat testers, manages testing and delivers results."
+    },
+    "SECURITY-VULBOX-FLASH-20260923": {
+      "source_class": "CURRENT_SECURITY_CROWDSOURCING_EXECUTION_LOOP",
+      "url": "https://www.vulbox.com/service/flash",
+      "date": "2026-09-23",
+      "claim": "VULBOX's flash-testing flow confirms enterprise requirements, invites certified white hats, audits and verifies vulnerabilities, lets enterprises view reports online and delivers a final report, with tests runnable in one to three days."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_151-F1",
+      "title": "Patients needing in-person medical accompaniment -> trained companion-service institutions and personnel",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PATIENT_COMPANION_SERVICE",
+      "evidence_summary": "The companion-care field is large and replenishing, but the new national standard treats the service institution itself as the accountable provider and requires a service platform, trained personnel, process control and evaluation; Shanghai is also building official district service networks.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "b_voluntary_motion": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "state_dependent_value_jump": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "decision_window": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "bridge_compression": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "activation_ease": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "self_propulsion": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "operator_control": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "a_discoverability": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "b_discoverability": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "match_resolvability": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "action_gate_callability": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "a_population_replenishment": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "b_population_replenishment": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "recurring_connection_pressure": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "recurring_missing_edge": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ],
+          "recurring_event_source": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_PATIENT_COMPANION_FIELD_REAL_BUT_SERVICE_INSTITUTION_PLATFORM_PERSONNEL_PROCESS_AND_PUBLIC_NETWORK_ALREADY_OWN_BOOKING_DELIVERY_AND_QUALITY_CONTROL",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ESCORT-SAMR-20260827",
+            "ESCORT-SHANGHAI-20260626"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "ESCORT-SAMR-20260827",
+          "ESCORT-SHANGHAI-20260626"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_151-F2",
+      "title": "Enterprises and public units with robot application scenarios -> embodied-intelligence solution providers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_ROBOT_APPLICATION_SCENARIO_MATCHING",
+      "evidence_summary": "Current governments are publishing structured opportunity lists and directly matching submitted providers, while private industry platforms already expose searchable scenario and procurement demand; technical solution fit still requires expert integration rather than a generic light router.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "b_voluntary_motion": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "state_dependent_value_jump": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "decision_window": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "bridge_compression": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "activation_ease": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "self_propulsion": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "operator_control": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "a_discoverability": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "b_discoverability": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "match_resolvability": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "action_gate_callability": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "a_population_replenishment": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "b_population_replenishment": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "recurring_connection_pressure": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "recurring_missing_edge": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ],
+          "recurring_event_source": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_ROBOT_SCENARIO_MATCHING_FIELD_REAL_BUT_GOVERNMENT_AND_INDUSTRY_PLATFORMS_ALREADY_OWN_DEMAND_PUBLICATION_MATCHING_AND_TECHNICAL_INTEGRATION_REMAINS_EXPERT",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ROBOT-JIANGMEN-20260710",
+            "ROBOT-GASGOO-20260923"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "ROBOT-JIANGMEN-20260710",
+          "ROBOT-GASGOO-20260923"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_151-F3",
+      "title": "Shippers with road-freight demand -> qualified trucks and actual carriers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_NETWORK_FREIGHT_CARRIER_PLATFORM",
+      "evidence_summary": "Road freight has constant bilateral motion, but current network-freight platforms are legally defined to integrate transport resources, contract with shippers as carrier, dispatch qualified actual carriers and assume transport responsibility; the decisive rail is already productized and regulated.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "b_voluntary_motion": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "state_dependent_value_jump": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "decision_window": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "bridge_compression": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "activation_ease": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "self_propulsion": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "operator_control": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "a_discoverability": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "b_discoverability": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "match_resolvability": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "action_gate_callability": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "a_population_replenishment": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "b_population_replenishment": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "recurring_connection_pressure": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "recurring_missing_edge": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ],
+          "recurring_event_source": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_ROAD_FREIGHT_MATCHING_FIELD_REAL_BUT_NETWORK_FREIGHT_PLATFORMS_ALREADY_OWN_SHIPPER_CONTRACTING_CARRIER_DISPATCH_AND_TRANSPORT_RESPONSIBILITY",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FREIGHT-MOT-20260126",
+            "FREIGHT-MOT-CREDIT-20260128"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "FREIGHT-MOT-20260126",
+          "FREIGHT-MOT-CREDIT-20260128"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_151-F4",
+      "title": "Industrial-park employees with concentrated commute demand -> customized public-transport routes",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_CUSTOM_COMMUTE_TRANSIT",
+      "evidence_summary": "The demand pattern is recurrent and geographically legible, but public transport operators already collect origin/destination/time preferences, plan routes and operate point-to-point customized lines; route approval, vehicle operations and service economics remain operator-controlled.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "b_voluntary_motion": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "state_dependent_value_jump": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "decision_window": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "bridge_compression": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "activation_ease": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "self_propulsion": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "operator_control": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "a_discoverability": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "b_discoverability": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "match_resolvability": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "action_gate_callability": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "a_population_replenishment": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "b_population_replenishment": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "recurring_connection_pressure": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "recurring_missing_edge": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ],
+          "recurring_event_source": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": true,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_CUSTOM_COMMUTE_FIELD_REAL_BUT_PUBLIC_TRANSPORT_OPERATORS_ALREADY_OWN_DEMAND_AGGREGATION_ROUTE_PLANNING_APPROVAL_AND_SERVICE_OPERATION",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMMUTE-CHONGQING-20260623",
+            "COMMUTE-JINAN-20260813"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "COMMUTE-CHONGQING-20260623",
+          "COMMUTE-JINAN-20260813"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_151-F5",
+      "title": "Enterprises seeking bounded security testing -> certified white-hat security researchers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_SECURITY_CROWDSOURCING",
+      "evidence_summary": "Enterprise security testing and researcher supply are recurring, but an exact current crowdsourcing platform already owns scope confirmation, tester screening/invitation, project publication, vulnerability review/verification, reporting and enterprise delivery.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "b_voluntary_motion": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "state_dependent_value_jump": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "decision_window": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "bridge_compression": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "activation_ease": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "self_propulsion": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "operator_control": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "a_discoverability": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "b_discoverability": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "match_resolvability": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "action_gate_callability": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "a_population_replenishment": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "b_population_replenishment": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "recurring_connection_pressure": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "recurring_missing_edge": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ],
+          "recurring_event_source": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_SECURITY_CROWDSOURCING_FIELD_REAL_BUT_EXISTING_PLATFORM_ALREADY_OWNS_SCOPE_TESTER_SELECTION_PROJECT_EXECUTION_VULNERABILITY_VERIFICATION_REPORTING_AND_DELIVERY",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SECURITY-VULBOX-20260923",
+            "SECURITY-VULBOX-FLASH-20260923"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "SECURITY-VULBOX-20260923",
+          "SECURITY-VULBOX-FLASH-20260923"
+        ]
+      }
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "All five fresh direct-service fields are recurrent and observable, but exact current provider, government, regulated carrier, public-transport or crowdsourcing platforms already own the decisive booking, matching, execution or accountability loop."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_152",
+  "next_search_boundary": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN151_THEN_ADVANCE_TO_FRESH_BROAD_REALITY_WITHOUT_RESCUING_DIRECT_SERVICE_PLATFORM_FIELDS",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN152_IF_EFFECTIVE_ROUTES_ARE_NO_FURTHER_RESEARCH",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scan150_controlled_interfaces_not_used_as_prior": true,
+    "incumbent_presence_evaluated_before_retention": true,
+    "provider_accountability_not_mistaken_for_unowned_matching_gap": true,
+    "direct_government_matching_not_mistaken_for_missing_router": true,
+    "regulated_carrier_role_not_mistaken_for_light_marketplace_opportunity": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "LARGE_AND_GROWING_HUMAN_SERVICE_MARKETS_CAN_ALREADY_HAVE_PROVIDER_AND_PLATFORM_ACCOUNTABILITY_BUILT_IN.",
+    "PUBLIC_OPPORTUNITY_LISTS_PLUS_DIRECT_GOVERNMENT_MATCHING_REMOVE_GENERIC_SCENARIO_BROKERAGE_AS_A_DISTINCT_ASSET.",
+    "NETWORK_FREIGHT_IS_AN_EXACT_COUNTEREXAMPLE_WHERE_THE_PLATFORM_ALREADY_CONTRACTS_DISPATCHES_AND_BEAR_RESPONSIBILITY.",
+    "CUSTOMIZED_COMMUTE_VALUE_IS_ROUTE_OPERATION_NOT_MERE_DEMAND_DISCOVERY.",
+    "SECURITY_CROWDSOURCING_ALREADY_PRODUCTIZES_THE_FULL_ENTERPRISE_TO_RESEARCHER_CONTROL_LOOP."
+  ],
+  "source_urls": [
+    "https://www.samr.gov.cn/bzjss/bzjd/art/2026/art_4022d6d5ed64447081e71af307a134db.html",
+    "https://www.shanghai.gov.cn/xbhygq/20260626/a2766847705d4c9b91933443fc1c53dc.html",
+    "https://www.jiangmen.gov.cn/bmpd/jmsgyhxxhj/zwgk/gsgg/content/post_3519624.html",
+    "https://gasgoo.com/apps/50640d4b55d5cba175fb84f15d679f19/robot/cases/",
+    "https://xxgk.mot.gov.cn/xzgfxwj/202601/t20260126_4199002.html",
+    "https://credit.mot.gov.cn/xinyongdongtai/202601/t20260128_4199120.html",
+    "https://jtj.cq.gov.cn/sy_240/jdtp/202606/t20260623_15771494.html",
+    "https://innovation.jinan.gov.cn/col/col16571/art/2026/art_23f62f0cce9046d69abc1080c1a8bb86.html",
+    "https://www.vulbox.com/service",
+    "https://www.vulbox.com/service/flash"
+  ]
+}
