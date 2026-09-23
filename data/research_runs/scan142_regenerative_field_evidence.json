@@ -1,0 +1,153 @@
+{
+  "scan_id": "ATTRACTION_SCAN_142",
+  "as_of_date": "2026-09-23",
+  "method": "Broad-current-reality sensing after strategic anti-drift remediation; official current sources preferred; each field tested for replenishing A/B populations, recurring connection pressure, recurring missing edge, recurring event source, discoverability, match resolvability, action rail and operator-control risk.",
+  "repository_dedup": {
+    "queries": [
+      "虚拟电厂",
+      "VIRTUAL_POWER",
+      "跨境电商退货",
+      "退货中心仓",
+      "算力互联网",
+      "动力电池"
+    ],
+    "matching_prior_repository_results": [],
+    "conclusion": "No exact prior repository occurrence found for the new Scan 142 field terms before persistence."
+  },
+  "source_packets": [
+    {
+      "source_id": "VPP-YRD-20260515",
+      "source_class": "OFFICIAL_NEA_CURRENT",
+      "url": "https://www.nea.gov.cn/20260515/0f1897fac6c94203b098fe4a7c8864e5/c.html",
+      "date": "2026-05-15",
+      "claim": "East China energy regulator states current VPP registration, trading and settlement still contain bottlenecks and calls for breaking cross-province technical and settlement barriers."
+    },
+    {
+      "source_id": "VPP-SD-20260730",
+      "source_class": "OFFICIAL_NEA_SHANDONG_CURRENT",
+      "url": "https://sdb.nea.gov.cn/dtyw/jgdt/202607/t20260730_305681.html",
+      "date": "2026-07-30",
+      "claim": "Shandong reports the first substation-area storage VPP frequency-regulation trade and explicitly says it is working to solve the difficulty of small scattered resources entering market transactions."
+    },
+    {
+      "source_id": "VPP-GD-20260213",
+      "source_class": "OFFICIAL_NEA_CURRENT",
+      "url": "https://www.nea.gov.cn/20260213/0c160f2e436a41eca7636a847191c29c/c.html",
+      "date": "2026-02-13",
+      "claim": "Guangdong reports five generation-side VPP trading units entering spot trading, defines aggregation of dispersed charging, HVAC, storage and distributed renewables, and reports 47 VPP operators reviewed/publicized across four batches."
+    },
+    {
+      "source_id": "VPP-SD-PLAN-20260326",
+      "source_class": "OFFICIAL_SHANDONG_ENERGY_CURRENT",
+      "url": "https://nyj.shandong.gov.cn/art/2026/3/27/art_59960_10311577.html",
+      "date": "2026-03-26",
+      "claim": "Shandong requires ongoing flexible-resource surveys and response-resource libraries, classifies aggregation by resource type and clearing node, requires operators to offer flexible retail packages and benefit sharing, and supports platform/algorithm service providers."
+    },
+    {
+      "source_id": "VPP-SD-RULES-202605",
+      "source_class": "OFFICIAL_SHANDONG_MARKET_RULES_CURRENT",
+      "url": "https://sdb.nea.gov.cn/dtyw/tzgg/202605/P020260508675725961073.pdf",
+      "date": "2026-05",
+      "claim": "Current Shandong market rules require VPP public registration; aggregated resources are recorded with resource type and access-point/unit information, and resources are registered through the trading/load-management systems under standardized aggregation-unit rules."
+    },
+    {
+      "source_id": "VPP-SD-CONTRACT-2026",
+      "source_class": "OFFICIAL_SHANDONG_MARKET_RULES_CURRENT",
+      "url": "https://sdb.nea.gov.cn/dtyw/tzgg/202605/P020260508675725961073.pdf",
+      "date": "2026-05",
+      "claim": "Shandong rules provide a standardized market path in which VPPs and aggregated resources establish aggregation service relationships through the power trading platform, with node and capability constraints determining aggregation-unit eligibility."
+    },
+    {
+      "source_id": "VPP-SD-QA-20260402",
+      "source_class": "OFFICIAL_NEA_SHANDONG_CURRENT",
+      "url": "https://sdb.nea.gov.cn/hdhy/lyxd/t_301360.html",
+      "date": "2026-04-02",
+      "claim": "A current public question asks whether household PV plus storage can aggregate and trade; the regulator confirms household distributed PV with storage should aggregate into a distributed-generation aggregation unit."
+    },
+    {
+      "source_id": "RET-CUSTOMS-20260312",
+      "source_class": "OFFICIAL_CUSTOMS_VIA_MOFCOM_CURRENT",
+      "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2026/art_3db24e4b76784738a17196c585795546.html",
+      "date": "2026-03-12",
+      "claim": "Customs expands 9610 cross-customs-area returns nationwide from 2026-04-01; return goods may use any eligible customs-supervised site and participating businesses must expose or integrate operational system data with Customs."
+    },
+    {
+      "source_id": "RET-INTERP-20260318",
+      "source_class": "OFFICIAL_CUSTOMS_POLICY_INTERPRETATION_VIA_MOFCOM",
+      "url": "https://policy.mofcom.gov.cn/claw/policyInfo.shtml?id=8849",
+      "date": "2026-03-18",
+      "claim": "Official interpretation says traditional cross-border ecommerce returns were difficult, costly and slow; firms can choose return ports by logistics cost/time, with 381,300 return shipments and RMB94 million value during the pilot through February 2026."
+    },
+    {
+      "source_id": "RET-WEIHAI-20260115",
+      "source_class": "OFFICIAL_LOCAL_GOVERNMENT_CURRENT",
+      "url": "https://www.weihai.gov.cn/art/2026/1/15/art_60620_6085566.html",
+      "date": "2026-01-15",
+      "claim": "Weihai's return center warehouse processed 26,000 returns in a year and reports reducing a formerly roughly 40-day return cycle to about one week, but this is already an incumbent operating route."
+    },
+    {
+      "source_id": "RET-PLATFORM-20260407",
+      "source_class": "MOFCOM_ECOMMERCE_PUBLICATION_CURRENT",
+      "url": "https://dzswgf.mofcom.gov.cn/news/phone/182/2026/4/m-1775542088132.html",
+      "date": "2026-04-07",
+      "claim": "A platform participant states the new regime lets the platform choose the optimal return port using real-time logistics conditions, weakening the case that port selection itself is an unowned missing edge."
+    },
+    {
+      "source_id": "COMPUTE-MIIT-2026",
+      "source_class": "OFFICIAL_MIIT_CURRENT",
+      "url": "https://nxca.miit.gov.cn/zwgk/zcwj/wjfb/art/2026/art_b91ce5316c924d0c984f5e9f675c40c6.html",
+      "date": "2026",
+      "claim": "MIIT directs integration of local idle/dispersed compute through China computing platforms, precise SME demand-supply matching, flexible token/card-hour charging, intelligent matching and one-stop selection/procurement."
+    },
+    {
+      "source_id": "COMPUTE-NATIONAL-PLATFORM",
+      "source_class": "OFFICIAL_NATIONAL_COMPUTING_PLATFORM_CURRENT",
+      "url": "https://www.stateioc.cn/",
+      "date": "2026-09-23",
+      "claim": "The national computing internet service platform is already the public control surface for computing resource/service discovery, materially compressing a generic independent compute router."
+    },
+    {
+      "source_id": "BATTERY-MIIT-2026",
+      "source_class": "OFFICIAL_MIIT_CURRENT",
+      "url": "https://www.miit.gov.cn/gyhxxhb/jgsj/cyzcyfgs/bmgz/jdcjxl/art/2026/art_392462fdc40c415ea4a4129cac3028c2.html",
+      "date": "2026",
+      "claim": "MIIT assigns producer recovery responsibility, requires public recovery-service networks, restricts used batteries to lawful comprehensive-utilization enterprises, and mandates battery-code/source/destination reporting through the information platform."
+    }
+  ],
+  "field_comparison": [
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F1",
+      "field": "VPP_RESOURCE_ROUTING",
+      "machine_attention": "HIGH_ATTRACTION_BEACON",
+      "disposition": "RETAIN_RESEARCH_ONLY",
+      "reason": "Regenerative field and standardized rails are evidenced; exact incumbent ownership, permissioned data access and independent capture remain open."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F2",
+      "field": "CROSS_BORDER_RETURN_ROUTING",
+      "machine_attention": "LOW_ATTRACTION",
+      "disposition": "CLOSE",
+      "reason": "Flow is regenerative but current platform evidence already shows optimized port selection; independent missing edge not proven."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F3",
+      "field": "COMPUTE_ROUTING",
+      "machine_attention": "LOW_ATTRACTION",
+      "disposition": "CLOSE",
+      "reason": "MIIT-designated national/platform surfaces already provide pooling, matching and one-stop procurement."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F4",
+      "field": "BATTERY_RECOVERY_ROUTING",
+      "machine_attention": "LOW_ATTRACTION",
+      "disposition": "CLOSE",
+      "reason": "Producer responsibility, regulated recovery networks and physical safety chain dominate operator control."
+    }
+  ],
+  "external_side_effects": {
+    "contacted_outsiders": false,
+    "committed_money": false,
+    "created_account": false,
+    "submitted_application": false
+  }
+}

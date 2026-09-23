@@ -13,7 +13,8 @@
     "ATTRACTION_SCAN_139-F1",
     "ATTRACTION_SCAN_140-F1",
     "ATTRACTION_SCAN_141-F1",
-    "ATTRACTION_SCAN_141-F2"
+    "ATTRACTION_SCAN_141-F2",
+    "ATTRACTION_SCAN_142-F1"
   ],
   "resolved_research_formations": [
     {
@@ -365,14 +366,34 @@
       "formation_id": "ATTRACTION_SCAN_141-F2",
       "verdict": "CLOSED_STRATEGIC_QUARANTINE_PROXY_CHAIN_NON_REGENERATIVE_FIELD_NOT_ADMISSIBLE_AS_CURRENT_RESEARCH_PRIOR",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F2",
+      "verdict": "DEMOTED_REGENERATIVE_RETURN_FLOW_REAL_BUT_INDEPENDENT_MISSING_EDGE_NOT_EVIDENCED_AND_PLATFORM_ALREADY_OPTIMIZES_PORT_SELECTION",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F3",
+      "verdict": "DEMOTED_REGENERATIVE_COMPUTE_FIELD_REAL_BUT_NATIONAL_PLATFORM_ALREADY_OWNS_RESOURCE_DISCOVERY_MATCHING_AND_ONE_STOP_PROCUREMENT_SURFACE",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F4",
+      "verdict": "DEMOTED_REGENERATIVE_BATTERY_FIELD_REAL_BUT_REGULATED_PRODUCER_RECOVERY_NETWORK_AND_PHYSICAL_SAFETY_CHAIN_PREVENT_LIGHT_INDEPENDENT_ROUTER",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F1",
+      "verdict": "DEMOTED_EXACT_INCUMBENT_PREFLIGHT_AUTHORITY_AND_MARKET_CONTROL_SURFACES_OWN_AGGREGATION_RELATIONSHIP_DATA_ACCESS_CONTRACTING_AND_SETTLEMENT_SCALABLE_NEUTRAL_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED",
+      "resolved_date": "2026-09-23"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_141",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_140-F4",
-  "next_scan_id": "ATTRACTION_SCAN_142",
-  "current_research_action": "REQUIRE_EXACT_HEAD_CI_AND_LIVE_TYPESAFE_JEV_AFTER_STRATEGIC_QUARANTINE_CLOSURES_THEN_MERGE_PR452_AND_START_SCAN142_FROM_BROAD_REALITY",
+  "last_completed_scan_id": "ATTRACTION_SCAN_142",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_142-F4",
+  "next_scan_id": "ATTRACTION_SCAN_143",
+  "current_research_action": "REDERIVE_SCAN143_FROM_BROAD_CURRENT_REALITY_AFTER_SCAN142_F1_EXACT_INCUMBENT_PREFLIGHT_CLOSURE",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -1971,7 +1992,7 @@
     "deposit_authorized": false,
     "purchase_authorized": false
   },
-  "last_completed_scan_file": "data/research_runs/attraction_scan_141.json",
+  "last_completed_scan_file": "data/research_runs/attraction_scan_142.json",
   "last_completed_scan_result": "SCAN141_MERGED_AUDIT_ONLY_ALL_ACTIVE_ASSET_PROXY_FORMATIONS_STRATEGICALLY_QUARANTINED_ZERO_COMMERCIAL_PROMOTION",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
@@ -2389,7 +2410,7 @@
   },
   "strategic_drift_incident": {
     "incident_id": "STRATEGIC_DRIFT_2026_09_23_ASSET_CASHFLOW_PROXY_CHAIN",
-    "status": "REMEDIATION_IN_PROGRESS_MAIN_RECONCILED",
+    "status": "REMEDIATED_PR452_MERGED_EXACT_HEAD_GREEN_SCAN142_STARTED",
     "incident_artifact": "data/research_runs/strategic_drift_incident_2026_09_23.json",
     "report": "docs/research/STRATEGIC_DRIFT_INCIDENT_2026-09-23.md",
     "quarantined_pr": 451,
@@ -2416,6 +2437,47 @@
     "active_retained_research_after_quarantine": [],
     "quarantine_closure_policy": "PRESERVE_RETAINED_RESEARCH_HISTORY_BUT_RESOLVED_STRATEGIC_CLOSURE_OVERRIDES_JEV_EFFECTIVE_ROUTE",
     "retained_history_preserved": true,
-    "effective_open_research_after_quarantine": []
-  }
+    "effective_open_research_after_quarantine": [],
+    "remediation_pr": 452,
+    "remediation_exact_head": "6af663f9d034152f51cde7fcef22ed9ffaedddd6",
+    "remediation_repository_ci_run_id": 35862663185,
+    "remediation_live_jev_run_id": 35862663313,
+    "remediation_merged_main_sha": "2024ce0196720aef901e58211e049fd9336b87be"
+  },
+  "scan142_regenerative_field_reboot": {
+    "status": "F1_EXACT_INCUMBENT_PREFLIGHT_CONSUMED_FINAL_EXACT_HEAD_REVALIDATION_PENDING",
+    "source_main_sha": "2024ce0196720aef901e58211e049fd9336b87be",
+    "canonical_scan_artifact": "data/research_runs/attraction_scan_142.json",
+    "evidence_artifact": "data/research_runs/scan142_regenerative_field_evidence.json",
+    "report": "docs/research/SCAN142_REGENERATIVE_FIELD_REBOOT_2026-09-23.md",
+    "retained_research_formations": [
+      "ATTRACTION_SCAN_142-F1"
+    ],
+    "authoritative_closures": [
+      "ATTRACTION_SCAN_142-F1",
+      "ATTRACTION_SCAN_142-F2",
+      "ATTRACTION_SCAN_142-F3",
+      "ATTRACTION_SCAN_142-F4"
+    ],
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "exact_head_validation_status": "FINAL_ROUTE_CONSUMPTION_HEAD_PENDING",
+    "live_jev_status": "FINAL_ROUTE_CONSUMPTION_HEAD_PENDING",
+    "next_scan_id": "ATTRACTION_SCAN_143",
+    "next_action": "FINAL_EXACT_HEAD_CI_AND_LIVE_JEV_THEN_MERGE_PR453_AND_REDERIVE_SCAN143_FROM_BROAD_REALITY",
+    "route_consumption_evidence": "data/research_runs/scan142_f1_exact_incumbent_preflight_evidence.json",
+    "route_consumption_report": "docs/research/SCAN142_F1_EXACT_INCUMBENT_PREFLIGHT_2026-09-23.md",
+    "preflight_source_head_sha": "60c9be2137d94890adb9036b362537ebf6b99220",
+    "preflight_repository_ci_run_id": 35865684083,
+    "preflight_repository_ci_conclusion": "SUCCESS",
+    "preflight_jev_run_id": 35865684096,
+    "preflight_jev_artifact_id": 10752143393,
+    "preflight_jev_artifact_digest": "sha256:3a229a2895b4a7437f5c015b7bf571b350e62ac45c3c20ae3b40a5e962c30871",
+    "preflight_jev_execution_status": "SUCCESS",
+    "preflight_jev_route": "EXACT_INCUMBENT_PREFLIGHT",
+    "preflight_autonomous_continuation_allowed": true,
+    "preflight_resolution": "CLOSED_DISTINCT_UNOWNED_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED_AFTER_CURRENT_OFFICIAL_CONTROL_SURFACE_PREFLIGHT"
+  },
+  "next_action": "REQUIRE_FINAL_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_JEV_ALL_NO_FURTHER_RESEARCH_THEN_MERGE_PR453_AND_START_SCAN143_FROM_BROAD_REALITY"
 }

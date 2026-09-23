@@ -1,0 +1,660 @@
+{
+  "scan_id": "ATTRACTION_SCAN_142",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_REGENERATIVE_FIELD_REBOOT_AFTER_STRATEGIC_DRIFT_REMEDIATION",
+  "source_main_sha": "2024ce0196720aef901e58211e049fd9336b87be",
+  "strategic_reboot": {
+    "remediation_pr": 452,
+    "remediation_merged_main_sha": "2024ce0196720aef901e58211e049fd9336b87be",
+    "remediation_exact_head": "6af663f9d034152f51cde7fcef22ed9ffaedddd6",
+    "repository_ci_run_id": 35862663185,
+    "live_jev_run_id": 35862663313,
+    "live_jev_artifact_id": 10750163514,
+    "live_jev_artifact_digest": "sha256:40fb492edefb686cd181649a3008db8ee3086c2d2d86e1bed997c7b56b9fa74f",
+    "scan141_strategy_quarantined": true
+  },
+  "broad_reality_domains_examined": [
+    "DISTRIBUTED_ENERGY_AND_VIRTUAL_POWER_PLANTS",
+    "CROSS_BORDER_ECOMMERCE_REVERSE_LOGISTICS",
+    "IDLE_COMPUTE_AND_SME_AI_WORKLOADS",
+    "EV_BATTERY_RECOVERY_AND_COMPREHENSIVE_UTILIZATION"
+  ],
+  "source_registry": {
+    "VPP-YRD-20260515": {
+      "source_class": "OFFICIAL_NEA_CURRENT",
+      "url": "https://www.nea.gov.cn/20260515/0f1897fac6c94203b098fe4a7c8864e5/c.html",
+      "date": "2026-05-15",
+      "claim": "East China energy regulator states current VPP registration, trading and settlement still contain bottlenecks and calls for breaking cross-province technical and settlement barriers."
+    },
+    "VPP-SD-20260730": {
+      "source_class": "OFFICIAL_NEA_SHANDONG_CURRENT",
+      "url": "https://sdb.nea.gov.cn/dtyw/jgdt/202607/t20260730_305681.html",
+      "date": "2026-07-30",
+      "claim": "Shandong reports the first substation-area storage VPP frequency-regulation trade and explicitly says it is working to solve the difficulty of small scattered resources entering market transactions."
+    },
+    "VPP-GD-20260213": {
+      "source_class": "OFFICIAL_NEA_CURRENT",
+      "url": "https://www.nea.gov.cn/20260213/0c160f2e436a41eca7636a847191c29c/c.html",
+      "date": "2026-02-13",
+      "claim": "Guangdong reports five generation-side VPP trading units entering spot trading, defines aggregation of dispersed charging, HVAC, storage and distributed renewables, and reports 47 VPP operators reviewed/publicized across four batches."
+    },
+    "VPP-SD-PLAN-20260326": {
+      "source_class": "OFFICIAL_SHANDONG_ENERGY_CURRENT",
+      "url": "https://nyj.shandong.gov.cn/art/2026/3/27/art_59960_10311577.html",
+      "date": "2026-03-26",
+      "claim": "Shandong requires ongoing flexible-resource surveys and response-resource libraries, classifies aggregation by resource type and clearing node, requires operators to offer flexible retail packages and benefit sharing, and supports platform/algorithm service providers."
+    },
+    "VPP-SD-RULES-202605": {
+      "source_class": "OFFICIAL_SHANDONG_MARKET_RULES_CURRENT",
+      "url": "https://sdb.nea.gov.cn/dtyw/tzgg/202605/P020260508675725961073.pdf",
+      "date": "2026-05",
+      "claim": "Current Shandong market rules require VPP public registration; aggregated resources are recorded with resource type and access-point/unit information, and resources are registered through the trading/load-management systems under standardized aggregation-unit rules."
+    },
+    "VPP-SD-CONTRACT-2026": {
+      "source_class": "OFFICIAL_SHANDONG_MARKET_RULES_CURRENT",
+      "url": "https://sdb.nea.gov.cn/dtyw/tzgg/202605/P020260508675725961073.pdf",
+      "date": "2026-05",
+      "claim": "Shandong rules provide a standardized market path in which VPPs and aggregated resources establish aggregation service relationships through the power trading platform, with node and capability constraints determining aggregation-unit eligibility."
+    },
+    "VPP-SD-QA-20260402": {
+      "source_class": "OFFICIAL_NEA_SHANDONG_CURRENT",
+      "url": "https://sdb.nea.gov.cn/hdhy/lyxd/t_301360.html",
+      "date": "2026-04-02",
+      "claim": "A current public question asks whether household PV plus storage can aggregate and trade; the regulator confirms household distributed PV with storage should aggregate into a distributed-generation aggregation unit."
+    },
+    "RET-CUSTOMS-20260312": {
+      "source_class": "OFFICIAL_CUSTOMS_VIA_MOFCOM_CURRENT",
+      "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2026/art_3db24e4b76784738a17196c585795546.html",
+      "date": "2026-03-12",
+      "claim": "Customs expands 9610 cross-customs-area returns nationwide from 2026-04-01; return goods may use any eligible customs-supervised site and participating businesses must expose or integrate operational system data with Customs."
+    },
+    "RET-INTERP-20260318": {
+      "source_class": "OFFICIAL_CUSTOMS_POLICY_INTERPRETATION_VIA_MOFCOM",
+      "url": "https://policy.mofcom.gov.cn/claw/policyInfo.shtml?id=8849",
+      "date": "2026-03-18",
+      "claim": "Official interpretation says traditional cross-border ecommerce returns were difficult, costly and slow; firms can choose return ports by logistics cost/time, with 381,300 return shipments and RMB94 million value during the pilot through February 2026."
+    },
+    "RET-WEIHAI-20260115": {
+      "source_class": "OFFICIAL_LOCAL_GOVERNMENT_CURRENT",
+      "url": "https://www.weihai.gov.cn/art/2026/1/15/art_60620_6085566.html",
+      "date": "2026-01-15",
+      "claim": "Weihai's return center warehouse processed 26,000 returns in a year and reports reducing a formerly roughly 40-day return cycle to about one week, but this is already an incumbent operating route."
+    },
+    "RET-PLATFORM-20260407": {
+      "source_class": "MOFCOM_ECOMMERCE_PUBLICATION_CURRENT",
+      "url": "https://dzswgf.mofcom.gov.cn/news/phone/182/2026/4/m-1775542088132.html",
+      "date": "2026-04-07",
+      "claim": "A platform participant states the new regime lets the platform choose the optimal return port using real-time logistics conditions, weakening the case that port selection itself is an unowned missing edge."
+    },
+    "COMPUTE-MIIT-2026": {
+      "source_class": "OFFICIAL_MIIT_CURRENT",
+      "url": "https://nxca.miit.gov.cn/zwgk/zcwj/wjfb/art/2026/art_b91ce5316c924d0c984f5e9f675c40c6.html",
+      "date": "2026",
+      "claim": "MIIT directs integration of local idle/dispersed compute through China computing platforms, precise SME demand-supply matching, flexible token/card-hour charging, intelligent matching and one-stop selection/procurement."
+    },
+    "COMPUTE-NATIONAL-PLATFORM": {
+      "source_class": "OFFICIAL_NATIONAL_COMPUTING_PLATFORM_CURRENT",
+      "url": "https://www.stateioc.cn/",
+      "date": "2026-09-23",
+      "claim": "The national computing internet service platform is already the public control surface for computing resource/service discovery, materially compressing a generic independent compute router."
+    },
+    "BATTERY-MIIT-2026": {
+      "source_class": "OFFICIAL_MIIT_CURRENT",
+      "url": "https://www.miit.gov.cn/gyhxxhb/jgsj/cyzcyfgs/bmgz/jdcjxl/art/2026/art_392462fdc40c415ea4a4129cac3028c2.html",
+      "date": "2026",
+      "claim": "MIIT assigns producer recovery responsibility, requires public recovery-service networks, restricts used batteries to lawful comprehensive-utilization enterprises, and mandates battery-code/source/destination reporting through the information platform."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F1",
+      "title": "Distributed flexible-power resources -> VPP eligibility and aggregation-routing layer",
+      "chinese_title": "分散灵活电力资源 → 虚拟电厂准入与聚合路由层",
+      "evidence_class": "CURRENT_OFFICIAL_REGENERATIVE_FIELD_AND_STANDARDIZED_MARKET_RAIL",
+      "evidence_summary": "Current regulators still describe small scattered resources as difficult to bring into market while simultaneously standardizing resource type, node, capability, aggregation-unit registration, operator registration, benefit sharing and platform contracting. This creates a recurring field worth falsifying at the independent resource-to-operator routing layer, not a claim that one VPP asset is commercially attractive.",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 3,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "VPP-SD-20260730",
+            "VPP-SD-QA-20260402"
+          ],
+          "b_voluntary_motion": [
+            "VPP-GD-20260213",
+            "VPP-SD-PLAN-20260326"
+          ],
+          "state_dependent_value_jump": [
+            "VPP-SD-20260730",
+            "VPP-GD-20260213"
+          ],
+          "decision_window": [
+            "VPP-SD-RULES-202605",
+            "VPP-SD-PLAN-20260326"
+          ],
+          "bridge_compression": [
+            "VPP-SD-PLAN-20260326",
+            "VPP-SD-RULES-202605"
+          ],
+          "activation_ease": [
+            "VPP-SD-CONTRACT-2026",
+            "VPP-SD-RULES-202605"
+          ],
+          "self_propulsion": [
+            "VPP-SD-PLAN-20260326",
+            "VPP-GD-20260213"
+          ],
+          "operator_control": [
+            "VPP-SD-PLAN-20260326",
+            "VPP-SD-RULES-202605"
+          ],
+          "a_discoverability": [
+            "VPP-SD-RULES-202605",
+            "VPP-SD-PLAN-20260326"
+          ],
+          "b_discoverability": [
+            "VPP-GD-20260213",
+            "VPP-SD-RULES-202605"
+          ],
+          "match_resolvability": [
+            "VPP-SD-RULES-202605",
+            "VPP-SD-PLAN-20260326"
+          ],
+          "action_gate_callability": [
+            "VPP-SD-CONTRACT-2026",
+            "VPP-SD-RULES-202605"
+          ],
+          "a_population_replenishment": [
+            "VPP-SD-PLAN-20260326",
+            "VPP-GD-20260213"
+          ],
+          "b_population_replenishment": [
+            "VPP-GD-20260213",
+            "VPP-SD-PLAN-20260326"
+          ],
+          "recurring_connection_pressure": [
+            "VPP-SD-20260730",
+            "VPP-YRD-20260515"
+          ],
+          "recurring_missing_edge": [
+            "VPP-SD-20260730",
+            "VPP-YRD-20260515"
+          ],
+          "recurring_event_source": [
+            "VPP-SD-20260730",
+            "VPP-GD-20260213"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-SD-PLAN-20260326",
+            "VPP-GD-20260213"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-GD-20260213",
+            "VPP-SD-PLAN-20260326"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-SD-20260730",
+            "VPP-YRD-20260515"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-SD-20260730",
+            "VPP-YRD-20260515"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-SD-20260730",
+            "VPP-GD-20260213"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "VPP-SD-PLAN-20260326",
+          "VPP-SD-20260730",
+          "VPP-GD-20260213"
+        ]
+      },
+      "decisive_unknowns": [
+        "Whether an independent multi-operator eligibility/router layer remains unowned after exact incumbent preflight against VPP platforms and electricity-trading interfaces.",
+        "Whether a small operator can obtain a scalable permissioned feed of candidate resources and operator offers without founder-by-founder sales/search.",
+        "Whether resource-owner choice among compatible VPP operators/retail packages creates captureable economic value after incumbent platform and operator margins.",
+        "Whether standardized registration and contracting can be integrated without becoming a licensed VPP operator or recurring engineering integrator."
+      ],
+      "verdict": "RETAINED_FOR_CHEAP_FALSIFICATION_REGENERATIVE_VPP_RESOURCE_TO_OPERATOR_ROUTING_FIELD_INCUMBENT_AND_DATA_ACCESS_PREFLIGHT_REQUIRED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F2",
+      "title": "9610 return events -> optimal China return-port / center routing",
+      "chinese_title": "9610 海外退货事件 → 国内最优退运口岸/中心路由",
+      "evidence_class": "CURRENT_OFFICIAL_REGENERATIVE_FLOW_BUT_POST_POLICY_MISSING_EDGE_UNPROVEN",
+      "evidence_summary": "The return event stream is unquestionably recurring and the new national policy creates route choice, but current public evidence also shows platforms already using real-time logistics to choose an optimal return port. The field is real; an independently ownable missing routing edge is not yet evidenced.",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 3,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "RET-INTERP-20260318"
+          ],
+          "b_voluntary_motion": [
+            "RET-INTERP-20260318"
+          ],
+          "state_dependent_value_jump": [
+            "RET-INTERP-20260318"
+          ],
+          "decision_window": [
+            "RET-INTERP-20260318"
+          ],
+          "bridge_compression": [
+            "RET-INTERP-20260318"
+          ],
+          "activation_ease": [
+            "RET-INTERP-20260318"
+          ],
+          "self_propulsion": [
+            "RET-INTERP-20260318"
+          ],
+          "operator_control": [
+            "RET-INTERP-20260318"
+          ],
+          "a_discoverability": [
+            "RET-CUSTOMS-20260312",
+            "RET-INTERP-20260318"
+          ],
+          "b_discoverability": [
+            "RET-CUSTOMS-20260312",
+            "RET-WEIHAI-20260115"
+          ],
+          "match_resolvability": [
+            "RET-CUSTOMS-20260312",
+            "RET-INTERP-20260318"
+          ],
+          "action_gate_callability": [
+            "RET-CUSTOMS-20260312"
+          ],
+          "a_population_replenishment": [
+            "RET-INTERP-20260318"
+          ],
+          "b_population_replenishment": [
+            "RET-INTERP-20260318"
+          ],
+          "recurring_connection_pressure": [
+            "RET-INTERP-20260318"
+          ],
+          "recurring_missing_edge": [
+            "RET-PLATFORM-20260407"
+          ],
+          "recurring_event_source": [
+            "RET-INTERP-20260318"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "decisive_unknowns": [
+        "Independent unresolved routing edge outside platform-owned return orchestration is not evidenced."
+      ],
+      "verdict": "DEMOTED_REGENERATIVE_RETURN_FLOW_REAL_BUT_INDEPENDENT_MISSING_EDGE_NOT_EVIDENCED_AND_PLATFORM_ALREADY_OPTIMIZES_PORT_SELECTION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F3",
+      "title": "Idle/dispersed compute -> SME AI workload router",
+      "chinese_title": "闲置/分散算力 → 中小企业 AI 工作负载路由",
+      "evidence_class": "CURRENT_OFFICIAL_REGENERATIVE_FIELD_BUT_CONTROL_SURFACE_ALREADY_PUBLICLY_ABSORBED",
+      "evidence_summary": "MIIT explicitly identifies idle/dispersed compute and SME demand, but also directs China computing platforms to pool resources, precisely match demand, provide intelligent matching and support one-stop selection/procurement. The obvious routing layer is already the policy-designated incumbent surface.",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 3,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "b_voluntary_motion": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "state_dependent_value_jump": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "decision_window": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "bridge_compression": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "activation_ease": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "self_propulsion": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "operator_control": [
+            "COMPUTE-NATIONAL-PLATFORM"
+          ],
+          "a_discoverability": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "b_discoverability": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "match_resolvability": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "action_gate_callability": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "a_population_replenishment": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "b_population_replenishment": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "recurring_connection_pressure": [
+            "COMPUTE-MIIT-2026"
+          ],
+          "recurring_missing_edge": [
+            "COMPUTE-MIIT-2026",
+            "COMPUTE-NATIONAL-PLATFORM"
+          ],
+          "recurring_event_source": [
+            "COMPUTE-MIIT-2026"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": true
+        }
+      },
+      "generic_agent_substitution_evidence": [
+        "COMPUTE-NATIONAL-PLATFORM"
+      ],
+      "decisive_unknowns": [],
+      "verdict": "DEMOTED_REGENERATIVE_COMPUTE_FIELD_REAL_BUT_NATIONAL_PLATFORM_ALREADY_OWNS_RESOURCE_DISCOVERY_MATCHING_AND_ONE_STOP_PROCUREMENT_SURFACE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F4",
+      "title": "Retired EV batteries -> compliant recovery/utilization routing",
+      "chinese_title": "退役动力电池 → 合规回收/综合利用路由",
+      "evidence_class": "CURRENT_OFFICIAL_REGENERATIVE_FIELD_BUT_REGULATED_PHYSICAL_CHAIN_OWNS_ROUTE",
+      "evidence_summary": "Battery retirement is recurring and digitally traceable, but 2026 rules place recovery responsibility on producers, require public recovery networks, constrain downstream handoff to lawful comprehensive-utilization enterprises, and make physical/safety compliance core to delivery.",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 1,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 3,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "BATTERY-MIIT-2026"
+          ],
+          "b_voluntary_motion": [
+            "BATTERY-MIIT-2026"
+          ],
+          "state_dependent_value_jump": [
+            "BATTERY-MIIT-2026"
+          ],
+          "decision_window": [
+            "BATTERY-MIIT-2026"
+          ],
+          "bridge_compression": [
+            "BATTERY-MIIT-2026"
+          ],
+          "activation_ease": [
+            "BATTERY-MIIT-2026"
+          ],
+          "self_propulsion": [
+            "BATTERY-MIIT-2026"
+          ],
+          "operator_control": [
+            "BATTERY-MIIT-2026"
+          ],
+          "a_discoverability": [
+            "BATTERY-MIIT-2026"
+          ],
+          "b_discoverability": [
+            "BATTERY-MIIT-2026"
+          ],
+          "match_resolvability": [
+            "BATTERY-MIIT-2026"
+          ],
+          "action_gate_callability": [
+            "BATTERY-MIIT-2026"
+          ],
+          "a_population_replenishment": [
+            "BATTERY-MIIT-2026"
+          ],
+          "b_population_replenishment": [
+            "BATTERY-MIIT-2026"
+          ],
+          "recurring_connection_pressure": [
+            "BATTERY-MIIT-2026"
+          ],
+          "recurring_missing_edge": [
+            "BATTERY-MIIT-2026"
+          ],
+          "recurring_event_source": [
+            "BATTERY-MIIT-2026"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": true,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "decisive_unknowns": [],
+      "verdict": "DEMOTED_REGENERATIVE_BATTERY_FIELD_REAL_BUT_REGULATED_PRODUCER_RECOVERY_NETWORK_AND_PHYSICAL_SAFETY_CHAIN_PREVENT_LIGHT_INDEPENDENT_ROUTER"
+    }
+  ],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_142-F1",
+      "title": "Distributed flexible-power resources -> VPP eligibility and aggregation-routing layer",
+      "commercial_candidate": false,
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-SD-PLAN-20260326",
+            "VPP-GD-20260213"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-GD-20260213",
+            "VPP-SD-PLAN-20260326"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-SD-20260730",
+            "VPP-YRD-20260515"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-SD-20260730",
+            "VPP-YRD-20260515"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "VPP-SD-20260730",
+            "VPP-GD-20260213"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "VPP-SD-PLAN-20260326",
+          "VPP-SD-20260730",
+          "VPP-GD-20260213"
+        ]
+      }
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_142-F1"
+  ],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": false,
+  "commercial_outcome": {
+    "retained_count": 1,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Only the distributed-flexibility-to-VPP field clears the machine high-attraction floor for further falsification. It is research-only pending exact incumbent, data-access and operator-control preflight. Cross-border returns, compute routing and battery recovery are not promoted."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_143",
+  "next_search_boundary": "CONSUME_SCAN142_EXACT_HEAD_TYPESAFE_JEV_ROUTE_FOR_F1_THEN_EITHER_CLOSE_THE_VPP_FIELD_OR_REDERIVE_SCAN143_FROM_BROAD_REALITY_WITHOUT_INHERITING_A_PROXY",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_PUBLIC_RESEARCH_ROUTE_BEFORE_ADVANCE",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "primary_domain_is_china": true,
+    "scan141_asset_cashflow_proxy_not_used_as_prior": true,
+    "repository_dedup_completed_for_vpp_returns_compute_and_battery_terms": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "A CURRENT REGENERATIVE FIELD MAY DESERVE ATTENTION EVEN WHEN NO COMMERCIAL CANDIDATE EXISTS.",
+    "OFFICIAL LANGUAGE THAT SMALL SCATTERED RESOURCES STILL FACE MARKET-ENTRY DIFFICULTY CAN EVIDENCE A RECURRING MISSING EDGE, BUT EXACT INCUMBENT PREFLIGHT MUST TEST WHETHER THE PROPOSED ROUTER IS ALREADY ABSORBED.",
+    "A NEW POLICY THAT CREATES ROUTE CHOICE DOES NOT BY ITSELF PROVE AN INDEPENDENT ROUTER BUSINESS WHEN PLATFORMS ALREADY OPTIMIZE THAT CHOICE.",
+    "NATIONAL ONE-STOP MATCHING AND PROCUREMENT SURFACES KILL GENERIC COMPUTE ROUTING.",
+    "DIGITAL TRACEABILITY DOES NOT CREATE LIGHT OPERATOR CONTROL WHEN REGULATED PHYSICAL RESPONSIBILITY OWNS THE CHAIN."
+  ],
+  "source_urls": [
+    "https://www.nea.gov.cn/20260515/0f1897fac6c94203b098fe4a7c8864e5/c.html",
+    "https://sdb.nea.gov.cn/dtyw/jgdt/202607/t20260730_305681.html",
+    "https://www.nea.gov.cn/20260213/0c160f2e436a41eca7636a847191c29c/c.html",
+    "https://nyj.shandong.gov.cn/art/2026/3/27/art_59960_10311577.html",
+    "https://sdb.nea.gov.cn/dtyw/tzgg/202605/P020260508675725961073.pdf",
+    "https://sdb.nea.gov.cn/dtyw/tzgg/202605/P020260508675725961073.pdf",
+    "https://sdb.nea.gov.cn/hdhy/lyxd/t_301360.html",
+    "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2026/art_3db24e4b76784738a17196c585795546.html",
+    "https://policy.mofcom.gov.cn/claw/policyInfo.shtml?id=8849",
+    "https://www.weihai.gov.cn/art/2026/1/15/art_60620_6085566.html",
+    "https://dzswgf.mofcom.gov.cn/news/phone/182/2026/4/m-1775542088132.html",
+    "https://nxca.miit.gov.cn/zwgk/zcwj/wjfb/art/2026/art_b91ce5316c924d0c984f5e9f675c40c6.html",
+    "https://www.stateioc.cn/",
+    "https://www.miit.gov.cn/gyhxxhb/jgsj/cyzcyfgs/bmgz/jdcjxl/art/2026/art_392462fdc40c415ea4a4129cac3028c2.html"
+  ]
+}
