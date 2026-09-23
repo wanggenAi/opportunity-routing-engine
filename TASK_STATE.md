@@ -4,34 +4,36 @@ Operational handoff only. GitHub live state wins if anything below conflicts wit
 
 ## Current Mission
 
-Reach the first real external value flow while keeping discovery formation-diverse, validation independent and commercial promotion fail-closed.
+Reach the first real external value flow through a genuinely high-attraction, founder-light, machine-operable formation. Move faster by widening empirical discovery and evidence throughput, never by lowering the commercial model.
 
 ## Goal
 
-Reach the first real external value flow through a formation that survives participant pull, discoverability, machine-executable delivery, founder-independence, operator control, evidenced economics and incumbent/control-surface pressure.
+Find a formation with strong bilateral voluntary energy, a legible state-dependent value jump, scalable discoverability, machine-resolvable matching, callable action, low recurring human delivery, operator control, aligned economics and preferably a compounding outcome/data loop.
 
 ## Current Unique Commercial Research Goal
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_125` research is complete. One primary formation passed the current economic conjunction and was then demoted on longstanding controller dependence plus custom project software delivery. Scan 126 may promote completed fresh-operator reproducible control into primary admission because the bottleneck has now been independently reproduced after Scan 122.
+Discovery: Scan 125 is complete and verified. Scan 126 is recalibrated away from an ever-narrower mature-company-only screen. Use real successful/failed businesses as **mechanism-level search priors only**, then search fresh China-relevant reality under the unchanged Attraction Field hard floors.
 
 ## Current Phase
 
-`SCAN_125_RESEARCH_COMPLETE_PR_VALIDATION_PENDING`
+`SCAN_126_SUCCESS_PATTERN_CALIBRATION_IMPLEMENTATION`
 
 ## Last Verified Main
 
-`f0a1ca42208ff25ea6927c42ddee7f4d6b45eeec`
-— squash merge of PR #424, `Run profit/OCF-prioritized strict economic Scan 124`.
+`a0abcd5ad4e06c5bf8bf5b936812576215c3897f`
+— squash merge of replacement PR #426, `Run joint-signal strict economic Scan 125`.
 
-PR #424 exact-head validation:
-- repository CI `35772855058`: success;
-- Jev workflow `35772855029`: success;
-- continuation: `ADVANCE_TO_NEXT_SCAN`;
-- autonomous continuation allowed: true.
-
-That continuation was consumed exactly once to create Scan 125.
+PR #426 exact-head `081b71368d505907a0dcce9d6c61e0911874769a`:
+- repository CI `35810288400`: success;
+- Jev Opportunity Research Advisory `35810288375`: success;
+- artifact `10729102935`, digest `sha256:0c71f80aa44c1ad2a1767b9a38cfed0b58ce4e1bf8edd2b9b6196c34b1a5212c`;
+- entity count = 1;
+- effective route = `NO_FURTHER_RESEARCH`;
+- execution status = `SUCCESS`;
+- autonomous continuation allowed = true;
+- continuation = `ADVANCE_TO_NEXT_SCAN`.
 
 ## Active Issue
 
@@ -39,11 +41,11 @@ That continuation was consumed exactly once to create Scan 125.
 
 ## Active Branch
 
-`research/attraction-scan-125`
+`feature/success-pattern-calibration`
 
 ## Active PR
 
-Replacement PR pending after recovery-contract fix. Freeze this replacement head before opening the PR; do not push branch commits after PR creation.
+None yet. Finish implementation/state/tests, freeze the branch head, then open one PR.
 
 ## Scan 125 Result
 
@@ -55,94 +57,83 @@ COMMERCIAL PROMOTIONS = 0
 FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 ```
 
-Admitted and demoted:
-- 泓淇科技: latest direct 11 FTE; current H1 approximately RMB13.14m revenue, RMB0.80m profit and +0.0612 OCF/share. Demoted after deepening because Yao Ning remains 77% controller and chairman/general manager/board secretary, while delivery is direct-sale, customer-specific software development, implementation and maintenance.
+泓淇科技 passed the current low-FTE/revenue/profit/OCF conjunction and was then demoted on longstanding controller/executive dependence plus custom project software delivery.
 
-Joint signal excluded fail-closed:
-- 益科精工: latest direct 10 FTE, current positive profit and positive OCF signal, but current independent external revenue is not cleanly proven after a March 2026 control/business reset plus newly approved material related-party sales/purchases. UNKNOWN != PASS.
+The Scan 125 fresh-control boundary remains useful as a **specialized cash-flow-asset search lens**. It is not promoted into the sole Scan 126 discovery ontology.
 
-Fresh partial matches:
-- 润泰科技: 20 FTE, positive current profit, negative current OCF.
-- 明道光伏: 3 FTE, positive current profit, negative current OCF.
-- 顺利3: 13 current FTE, current loss and negative OCF.
-- 时间网络: 15 FTE, current loss.
+## Success-Pattern Calibration
 
-## CI
+Persisted first calibration set:
+- Pieter Levels portfolio;
+- Carrd;
+- Photopea;
+- OpenRouter;
+- Skyscanner partner/metasearch rail;
+- Acquire.com;
+- BuiltWith;
+- one Reddit revenue case used explicitly as a negative control because cold outreach/lifetime-deal dependence violates this project's preferred model.
 
-Scan 125 PR validation has not run yet. Required before merge:
-1. freeze exact branch head;
-2. open one PR;
-3. verify repository CI on that exact head;
-4. verify Jev Opportunity Research Advisory on that exact head;
-5. inspect advisory artifact and continuation;
-6. merge only if both paths succeed and exact-head continuation permits advance.
+Durable artifacts:
+- `data/research_runs/success_pattern_calibration_2026_09_23.json`;
+- `docs/research/SUCCESS_PATTERN_CALIBRATION_2026-09-23.md`;
+- `src/success_pattern_calibration.py`;
+- `tests/test_success_pattern_calibration.py`.
+
+Locked interpretation:
+
+```text
+SUCCESS PRECEDENT -> SEARCH PRIOR
+SUCCESS PRECEDENT != CANDIDATE EVIDENCE
+
+URGENCY -> MORE / BETTER SEARCH
+URGENCY != LOWER GATES
+
+FAST != ATTRACTIVE
+CHEAP EXPERIMENT != WORTH DOING
+LOW_ATTRACTION_FAST_MVP = FORBIDDEN
+```
+
+## Launch-Decision Clock
+
+Operational deadline: **2026-09-30**.
+
+This deadline does not require launching something weak. By the deadline:
+- if a genuine high-attraction formation exists, test only its single decisive unknown with a reversible reality confirmation;
+- if no genuine high-attraction formation exists, widen source universe and mechanism diversity;
+- never lower bilateral pull, discoverability, match-resolvability, callable-action, founder-independence, operator-control, non-genericity or economics gates.
 
 ## Parallel Validation
 
-`ATTRACTION_SCAN_015-F1` is unchanged and still requires an actual official written provider response/agreement plus organic founder-free inbound proof.
-
-Last verified inbox state remains 2026-09-22: no official provider reply from the two verified targets. No response is neither a pass nor a denial.
-
-## Latest Artifact / Persisted State
-
-Scan 125:
-- `data/research_runs/attraction_scan_125.json`;
-- `docs/research/ATTRACTION_SCAN_125_2026-09-23.md`;
-- `tests/test_attraction_scan_125_joint_economic_control.py`.
-
-Machine state:
-- last completed scan = `ATTRACTION_SCAN_125`;
-- last resolved formation = `ATTRACTION_SCAN_125-F1`;
-- next scan = `ATTRACTION_SCAN_126`;
-- active commercial candidates = 0;
-- retained research formations = 0;
-- FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
-
-## Completed
-
-- Consumed the verified Scan 124 continuation exactly once.
-- Screened six fresh current/latest-direct packets with the joint low-FTE + positive-profit + positive-OCF retrieval heuristic.
-- Admitted 泓淇科技 only after the full current-economic conjunction and demoted it on longstanding controller dependence plus custom project delivery.
-- Kept 益科精工 fail-closed because current independent external revenue is unresolved across the control/business reset.
-- Persisted Scan 125 machine state, research report and regression tests without commercial promotion.
-- Preserved Scan 015-F1 as a separate validation stream.
+`ATTRACTION_SCAN_015-F1` remains unchanged. Last verified inbox state is still no official written provider reply. Silence is neither pass nor fail.
 
 ## Current Findings
 
 ```text
-JOINT LOW FTE + PROFIT + OCF RETRIEVAL
-=> CAN SURFACE A TRUE NONMANUFACTURING ECONOMIC SURVIVOR
+SCAN 120-125
+-> IMPROVED MATURE CASHFLOW ENTITY SEARCH
+-> BUT OVER-CONCENTRATED DISCOVERY ON ALREADY-MATURE ACCOUNTING SURVIVORS
 
-CURRENT ECONOMIC PASS
-!= FRESH OPERATOR CONTROL
-!= STANDARDIZED DELIVERY
+SUCCESS / FAILURE PRECEDENTS
+-> CAN TEACH REPEATED MECHANISMS
+-> CANNOT PROVE A NEW FORMATION
 
-UNKNOWN CURRENT EXTERNAL REVENUE
-!= PASS
-
-SCAN122 CONTROL BOTTLENECK
-+ INDEPENDENT SCAN125 CONTROL BOTTLENECK
-=> FRESH OPERATOR CONTROL MAY MOVE INTO SCAN126 PRIMARY ADMISSION
+REPEATED PROMISING MECHANISMS:
+SELF-REVEALING INTENT
++ NARROW OBVIOUS VALUE WEDGE
++ SELF-SERVICE / MACHINE-NATIVE ACTIVATION
++ DISTRIBUTION EMBEDDED IN EXISTING BEHAVIOR
++ MONETIZATION ATTACHED TO VALUE FLOW
++ LOW RECURRING HUMAN DELIVERY
++ COMPOUNDING OUTCOME / DATA WHEN REALITY SUPPORTS IT
 ```
 
 ## Next Evidence Boundary
 
-```text
-CURRENT / LATEST DIRECT LOW FTE
-+ POSITIVE EXTERNAL REVENUE
-+ POSITIVE NET PROFIT
-+ POSITIVE CONSOLIDATED OCF
-+ COMPLETED FRESH-OPERATOR REPRODUCIBLE CONTROL BEFORE REPORTING PERIOD
-=> ONLY THEN PRIMARY FORMATION ADMISSION
+Run Scan 126 as a fresh, formation-diverse, China-relevant broad-reality scan.
 
-AFTER ADMISSION:
-  EXISTING STANDARDIZED REPEATABLE NON-PROJECT REVENUE
-  + NO CUSTOM IMPLEMENTATION / CONSULTING / OUTSOURCING / FIELD /
-    MEDIA-BUYING / MANUFACTURING / AFTER-SALES / PENDING-INJECTION
-  + BOUNDED CONTROL / OPERATING / WORKING CAPITAL
-  + NONCOMMODITY MACHINE-OPERABLE CONTROL
-=> POSSIBLE VERIFIED FOUNDER-LIGHT CONTROL CASHFLOW
-```
+Success cases may determine **where to look**, never **what to believe**. Every proposed direction must still produce its own fresh `AttractionDiscoveryProfile` and pass the existing weakest-link hard floors before deep research.
+
+No experiment is permitted unless the formation is already a `HIGH_ATTRACTION_BEACON`. The experiment must test a named decisive unknown, be reversible, and cannot count founder-manufactured demand.
 
 ## Blockers
 
@@ -150,43 +141,48 @@ Validation:
 - Scan 015-F1 still needs real official written provider rights evidence and founder-free inbound proof.
 
 Discovery:
-- no evidence blocker; Scan 125 research is complete and needs exact-head PR validation.
+- no external blocker; implement/validate the success-pattern calibration, then run Scan 126 under it.
 
 Engineering:
-- no current TypeSafe/Jev integration blocker.
+- feature branch needs repository CI after PR creation.
+
+## Completed
+
+- Recovered Scan 125 after PR #425 exposed a missing recovery-contract heading.
+- Replaced it with PR #426.
+- Verified exact-head repository CI and live TypeSafe/Jev.
+- Merged Scan 125 to main.
+- Identified the structural search bias: mature low-FTE/profit/OCF screening had become too dominant for new-business discovery.
+- Researched an initial cross-model success/failure precedent set from founder interviews, official platform documentation, business case studies and a community negative control.
+- Implemented precedent-as-search-prior logic.
+- Implemented explicit prohibition on low-attraction fast experiments.
+- Added a launch-decision clock whose failure mode expands search rather than relaxing gates.
 
 ## Do Not Repeat
 
-- Do not repeat Scan 125 泓淇科技, 益科精工/烟东股份, 润泰科技, 明道光伏, 顺利3 or 时间网络.
-- Do not return to Scan 060-125 formations or their primary discovery signals.
-- Do not reinterpret 益科精工's approved related-party plan as proof that actual H1 revenue was related-party; current external-revenue identity is unresolved.
-- Do not spend primary-formation effort on packets that fail the new Scan 126 fresh-control admission gate.
-- Do not count captive related-party throughput as positive external revenue.
-- Do not use job/gig/RFQ/procurement feeds or asset-marketplace feeds as discovery ontology.
-- Do not derive a product or vertical from the zero-retention result.
+- Do not turn the 2026-09-30 clock into a requirement to ship a weak product.
+- Do not treat a famous or profitable precedent as evidence that a similar new candidate has demand.
+- Do not copy precedent verticals.
+- Do not use founder audience, cold outreach, paid acquisition, friends/family or synthetic traffic as proof of organic participant pull.
+- Do not turn "fast validation" into generic MVP building.
+- Do not discard the original Attraction Field weakest-link gates.
+- Do not return to Scan 060-125 formations or their primary discovery signals as fallback candidates.
 - Do not repeat Scan 015 public-rights research while written evidence is outstanding.
 
 ## Guardrails
 
 - GitHub live state wins.
 - REALITY > COGNITION > SCHEMA.
-- PRIMARY RESEARCH DOMAIN = CHINA; GLOBAL INFORMATION = AUXILIARY unless China relevance is evidenced.
+- PRIMARY RESEARCH DOMAIN = CHINA; global successes are auxiliary mechanism evidence only.
 - UNKNOWN != PASS.
 - Inference != fact.
-- No inherited commercial case layer or product mechanism.
+- No inherited product/vertical from precedents.
 - No recurring founder acquisition.
 - No recurring expert delivery.
-- Generic-agent substitutability is a hard attraction kill.
-- Operator control and economics must be externally evidenced before commercial promotion.
-- Same-operator/same-control-position/same-time-window economic binding is required.
+- Generic-agent substitutability remains a hard attraction kill.
+- Operator control and economics remain evidence requirements.
 - Infer broadly; retain conservatively.
-
-## Jev Integration Boundary
-
-Contract: `OPPORTUNITY_JEV_RESEARCH_ADVISORY_V2`.
-
-For Scan 125, Jev should receive only actual admitted entities. Partial current-economics packets and the fail-closed 益科 external-revenue packet must not be fabricated into admitted entities. Jev remains advisory-only and cannot reverse repository truth.
 
 ## Next Action
 
-Freeze the final Scan 125 branch head, open one PR, validate exact-head repository CI plus live TypeSafe/Jev, inspect the continuation, and merge only if both succeed. If and only if continuation is `ADVANCE_TO_NEXT_SCAN`, create Scan 126 from verified main with completed fresh-operator reproducible control promoted into the primary admission gate.
+Complete and validate the success-pattern calibration PR. If CI passes, merge it, then run Scan 126 as a **precedent-calibrated, formation-diverse broad-reality scan** with the original high-attraction hard floors unchanged and no low-attraction experiment path.
