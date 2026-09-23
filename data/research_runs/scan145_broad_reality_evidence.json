@@ -1,0 +1,79 @@
+{
+  "scan_id": "ATTRACTION_SCAN_145",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "b0fcb61d71f4df46b752955199909f90170f3350",
+  "research_method": "BROAD_REALITY_COMPARISON_WITH_CURRENT_OFFICIAL_AND_EXACT_INCUMBENT_SOURCES_FAIL_CLOSED_BEFORE_RETENTION",
+  "sources": {
+    "MEXICO-CHANNEL-HUNAN-20260915": {
+      "source_class": "CURRENT_PROVINCIAL_GOVERNMENT_OVERSEAS_MARKET_OBSERVATION",
+      "url": "https://gxt.hunan.gov.cn/gxt/xxgk_71033/gzdt/gzdt_3/202609/t20260915_34065291.html",
+      "date": "2026-09-15",
+      "claim": "Hunan SME service-center fieldwork in Mexico reports tariffs, customs friction, scarce local channels, high offline-transaction risk, unstable channels and fragmented exhibition outcomes, and explicitly seeks a pre-show matching / show matching / post-show overseas-warehouse long-term distribution loop."
+    },
+    "MEORIENT-MEXICO-202609": {
+      "source_class": "CURRENT_EXACT_TRADE_MATCHING_INCUMBENT",
+      "url": "https://www.meorient.com/2026/",
+      "date": "2026-09",
+      "claim": "Meorient's current Homelife operations run large China-to-emerging-market B2B exhibitions, buyer qualification and matching, and describe buyer-side agents, exhibitor agents, exhibition-to-post-show lead operations and continuous buyer management."
+    },
+    "MEORIENT-MEXICO-SERVICE-20260317": {
+      "source_class": "CURRENT_EXACT_MEXICO_BUYER_DATA_MATCHING_AND_POST_SHOW_INCUMBENT",
+      "url": "https://www.meorient.com/2026/03/homelife%E5%93%81%E7%89%8C%E5%87%BA%E6%B5%B7%E7%B3%BB%E5%88%97%E5%B1%95-%E5%A2%A8%E8%A5%BF%E5%93%A5%E7%AB%99%EF%BC%9A%E3%80%8C%E4%B8%8D%E5%8F%AA%E8%BF%9C%EF%BC%8C%E6%9B%B4%E8%A6%81/",
+      "date": "2026-03-17",
+      "claim": "Meorient advertises a 30,000+ Mexico/LatAm buyer database spanning chain retail, local ODM/OEM partners, cross-border sellers and regional distributors, AI buyer-seller matching, pre-show product testing, high-value buyer lists and post-show remarketing/follow-up."
+    },
+    "AI-SERVICE-POOL-20260901": {
+      "source_class": "CURRENT_NATIONAL_AI_SERVICE_PROVIDER_ACTION",
+      "url": "https://www.digitalchina.gov.cn/2026/xwzx/szkx/202609/t20260901_5366208.htm",
+      "date": "2026-09-01",
+      "claim": "China's AI application-service-provider action says current provider resources are unclear, delivery levels uneven and commercial closure weak, while targeting more than 2,000 providers in a national resource pool by end-2026 and promoting standardized small/fast/light/precise packages plus service procurement."
+    },
+    "COMPANION-STANDARD-SAMR-20260827": {
+      "source_class": "CURRENT_NATIONAL_SERVICE_STANDARD_EXPLANATION",
+      "url": "https://www.samr.gov.cn/bzjss/bzjd/art/2026/art_4022d6d5ed64447081e71af307a134db.html",
+      "date": "2026-08-27",
+      "claim": "SAMR states commercial patient-companion demand arises from aging, chronic disease, disability, pregnancy and remote care; cites 1,048 registered companion-related institutions since 2014 and 4.343 million service instances in 2023; the new standard constrains providers to institutions and covers risk assessment, contracts, pricing, privacy and delivery."
+    },
+    "COMPANION-PLATFORM-202609": {
+      "source_class": "CURRENT_COMMERCIAL_COMPANION_ORDERING_PLATFORM",
+      "url": "https://www.peizhenbei.com/",
+      "date": "2026-09",
+      "claim": "A current companion-care platform exposes app/miniprogram ordering, insured orders, explicit service packages and prices for errands, 2-hour, full-day, nursing and appointment-related services."
+    },
+    "DATA-SERVICE-NANSHAN-20260625": {
+      "source_class": "CURRENT_LOCAL_GOVERNMENT_DATA_ECONOMY_MATCHING_SERVICE",
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/mpost_12862243.html",
+      "date": "2026-06-25",
+      "claim": "Nanshan reports data enterprises with data resources but no compliant transaction channel or partner and data products seeking markets; the district's data-enterprise service specialists directly provide policy matching, supply-demand brokering, application-scenario matching and one-to-one outbound contact."
+    },
+    "LUGGAGE-SF-EASTERN-20260623": {
+      "source_class": "CURRENT_POSTAL_REGULATOR_REPORTED_AIRLINE_LOGISTICS_INCUMBENT",
+      "url": "https://sh.spb.gov.cn/shsyzglj/c100057/c100061/202606/75016c60cffa47549683879369f2d3f6.shtml",
+      "date": "2026-06-23",
+      "claim": "Shanghai postal regulator reports China Eastern and SF launched an end-to-end luggage service with in-app booking, home pickup, airport delivery and airline-counter checked-baggage handoff, initially across 8 cities and 11 airports."
+    },
+    "LUGGAGE-LIGHT-TRAVEL-20260918": {
+      "source_class": "CURRENT_NATIONAL_TOURISM_INDUSTRY_OBSERVATION",
+      "url": "https://www.ctnews.com.cn/paper/content/202609/18/content_115418.html",
+      "date": "2026-09-18",
+      "claim": "China Tourism News reports multiple destinations have launched 'light travel' luggage services supporting static storage and dynamic transfer between hotels, stations, airports and attractions, showing repeated traveler demand and an already-expanding public/service network."
+    }
+  },
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_145-F1",
+    "ATTRACTION_SCAN_145-F2",
+    "ATTRACTION_SCAN_145-F3",
+    "ATTRACTION_SCAN_145-F4",
+    "ATTRACTION_SCAN_145-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "quote_performed": false,
+  "account_created": false,
+  "money_moved": false,
+  "application_submitted": false,
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN146_IF_NO_REVERSIBLE_ROUTE"
+}

@@ -1,0 +1,837 @@
+{
+  "scan_id": "ATTRACTION_SCAN_145",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_REDERIVATION_AFTER_SCAN144_FINAL_ALL_ROUTES_CLOSED",
+  "source_main_sha": "b0fcb61d71f4df46b752955199909f90170f3350",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_144",
+    "prior_pr": 455,
+    "prior_merged_main_sha": "b0fcb61d71f4df46b752955199909f90170f3350",
+    "prior_final_exact_head": "b3607b477033ac122ce7df813ef684529b6d71cb",
+    "prior_repository_ci_run_id": 35870359140,
+    "prior_live_jev_run_id": 35870358761,
+    "prior_live_jev_artifact_id": 10754233929,
+    "prior_live_jev_artifact_digest": "sha256:d3c53b30e23d3edeb2953f5546d9911ef43776e6f3e24b476a11df2d960e3027",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scan144_industrial_aftermarket_subproblem_not_inherited": true
+  },
+  "broad_reality_domains_examined": [
+    "CHINA_SME_MEXICO_LOCAL_DISTRIBUTION",
+    "SME_AI_APPLICATION_SERVICE_PROCUREMENT",
+    "COMMERCIAL_PATIENT_COMPANION_SERVICES",
+    "DATA_PRODUCT_COMPLIANT_COMMERCIALIZATION",
+    "TRAVEL_LUGGAGE_TRANSFER"
+  ],
+  "source_registry": {
+    "MEXICO-CHANNEL-HUNAN-20260915": {
+      "source_class": "CURRENT_PROVINCIAL_GOVERNMENT_OVERSEAS_MARKET_OBSERVATION",
+      "url": "https://gxt.hunan.gov.cn/gxt/xxgk_71033/gzdt/gzdt_3/202609/t20260915_34065291.html",
+      "date": "2026-09-15",
+      "claim": "Hunan SME service-center fieldwork in Mexico reports tariffs, customs friction, scarce local channels, high offline-transaction risk, unstable channels and fragmented exhibition outcomes, and explicitly seeks a pre-show matching / show matching / post-show overseas-warehouse long-term distribution loop."
+    },
+    "MEORIENT-MEXICO-202609": {
+      "source_class": "CURRENT_EXACT_TRADE_MATCHING_INCUMBENT",
+      "url": "https://www.meorient.com/2026/",
+      "date": "2026-09",
+      "claim": "Meorient's current Homelife operations run large China-to-emerging-market B2B exhibitions, buyer qualification and matching, and describe buyer-side agents, exhibitor agents, exhibition-to-post-show lead operations and continuous buyer management."
+    },
+    "MEORIENT-MEXICO-SERVICE-20260317": {
+      "source_class": "CURRENT_EXACT_MEXICO_BUYER_DATA_MATCHING_AND_POST_SHOW_INCUMBENT",
+      "url": "https://www.meorient.com/2026/03/homelife%E5%93%81%E7%89%8C%E5%87%BA%E6%B5%B7%E7%B3%BB%E5%88%97%E5%B1%95-%E5%A2%A8%E8%A5%BF%E5%93%A5%E7%AB%99%EF%BC%9A%E3%80%8C%E4%B8%8D%E5%8F%AA%E8%BF%9C%EF%BC%8C%E6%9B%B4%E8%A6%81/",
+      "date": "2026-03-17",
+      "claim": "Meorient advertises a 30,000+ Mexico/LatAm buyer database spanning chain retail, local ODM/OEM partners, cross-border sellers and regional distributors, AI buyer-seller matching, pre-show product testing, high-value buyer lists and post-show remarketing/follow-up."
+    },
+    "AI-SERVICE-POOL-20260901": {
+      "source_class": "CURRENT_NATIONAL_AI_SERVICE_PROVIDER_ACTION",
+      "url": "https://www.digitalchina.gov.cn/2026/xwzx/szkx/202609/t20260901_5366208.htm",
+      "date": "2026-09-01",
+      "claim": "China's AI application-service-provider action says current provider resources are unclear, delivery levels uneven and commercial closure weak, while targeting more than 2,000 providers in a national resource pool by end-2026 and promoting standardized small/fast/light/precise packages plus service procurement."
+    },
+    "COMPANION-STANDARD-SAMR-20260827": {
+      "source_class": "CURRENT_NATIONAL_SERVICE_STANDARD_EXPLANATION",
+      "url": "https://www.samr.gov.cn/bzjss/bzjd/art/2026/art_4022d6d5ed64447081e71af307a134db.html",
+      "date": "2026-08-27",
+      "claim": "SAMR states commercial patient-companion demand arises from aging, chronic disease, disability, pregnancy and remote care; cites 1,048 registered companion-related institutions since 2014 and 4.343 million service instances in 2023; the new standard constrains providers to institutions and covers risk assessment, contracts, pricing, privacy and delivery."
+    },
+    "COMPANION-PLATFORM-202609": {
+      "source_class": "CURRENT_COMMERCIAL_COMPANION_ORDERING_PLATFORM",
+      "url": "https://www.peizhenbei.com/",
+      "date": "2026-09",
+      "claim": "A current companion-care platform exposes app/miniprogram ordering, insured orders, explicit service packages and prices for errands, 2-hour, full-day, nursing and appointment-related services."
+    },
+    "DATA-SERVICE-NANSHAN-20260625": {
+      "source_class": "CURRENT_LOCAL_GOVERNMENT_DATA_ECONOMY_MATCHING_SERVICE",
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/mpost_12862243.html",
+      "date": "2026-06-25",
+      "claim": "Nanshan reports data enterprises with data resources but no compliant transaction channel or partner and data products seeking markets; the district's data-enterprise service specialists directly provide policy matching, supply-demand brokering, application-scenario matching and one-to-one outbound contact."
+    },
+    "LUGGAGE-SF-EASTERN-20260623": {
+      "source_class": "CURRENT_POSTAL_REGULATOR_REPORTED_AIRLINE_LOGISTICS_INCUMBENT",
+      "url": "https://sh.spb.gov.cn/shsyzglj/c100057/c100061/202606/75016c60cffa47549683879369f2d3f6.shtml",
+      "date": "2026-06-23",
+      "claim": "Shanghai postal regulator reports China Eastern and SF launched an end-to-end luggage service with in-app booking, home pickup, airport delivery and airline-counter checked-baggage handoff, initially across 8 cities and 11 airports."
+    },
+    "LUGGAGE-LIGHT-TRAVEL-20260918": {
+      "source_class": "CURRENT_NATIONAL_TOURISM_INDUSTRY_OBSERVATION",
+      "url": "https://www.ctnews.com.cn/paper/content/202609/18/content_115418.html",
+      "date": "2026-09-18",
+      "claim": "China Tourism News reports multiple destinations have launched 'light travel' luggage services supporting static storage and dynamic transfer between hotels, stations, airports and attractions, showing repeated traveler demand and an already-expanding public/service network."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_145-F1",
+      "title": "Chinese SMEs entering Mexico/LatAm -> local importers, distributors and retail-channel partners",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Current official fieldwork says Chinese SMEs still face scarce/unstable local channels and fragmented exhibition outcomes. But the same market already has a scaled exact incumbent: Meorient/Homelife owns large buyer datasets, buyer qualification, AI matching, pre-show testing, appointments, in-show routing, post-show remarketing and lead management. A new neutral distributor router would either depend on the incumbent's proprietary buyer graph or rebuild it through recurring outbound sales/search.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "b_voluntary_motion": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "state_dependent_value_jump": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "decision_window": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "bridge_compression": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "activation_ease": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "self_propulsion": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "operator_control": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "a_discoverability": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "b_discoverability": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "match_resolvability": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "action_gate_callability": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "a_population_replenishment": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "b_population_replenishment": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "recurring_connection_pressure": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "recurring_missing_edge": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ],
+          "recurring_event_source": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": true,
+          "founder_search_required_per_transaction": true,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MEXICO-CHANNEL-HUNAN-20260915"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MEORIENT-MEXICO-202609",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MEXICO-CHANNEL-HUNAN-20260915"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MEXICO-CHANNEL-HUNAN-20260915",
+            "MEORIENT-MEXICO-SERVICE-20260317"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MEORIENT-MEXICO-202609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "MEXICO-CHANNEL-HUNAN-20260915",
+          "MEORIENT-MEXICO-202609"
+        ]
+      },
+      "verdict": "DEMOTED_MEXICO_DISTRIBUTOR_CHANNEL_PRESSURE_REAL_BUT_MEORIENT_ALREADY_OWNS_BUYER_DATA_AI_MATCHING_PRE_SHOW_APPOINTMENT_IN_SHOW_ROUTING_POST_SHOW_REMARKETING_AND_CRM_WHILE_INDEPENDENT_BUYER_GRAPH_REBUILD_REQUIRES_RECURRING_SEARCH_AND_SALES"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_145-F2",
+      "title": "SMEs with AI adoption needs -> AI application service providers and standardized solution packages",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "The field is explicitly regenerative: many user organizations need AI implementation and the national plan is expanding an AI service-provider pool beyond 2,000 providers. Yet the current problem is delivery quality and commercial closure, and the official action itself builds the resource pool, supply-demand connection and standardized packages. Implementation remains expert/context dependent, so a thin generic matcher does not control delivery or acceptance.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "b_voluntary_motion": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "state_dependent_value_jump": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "decision_window": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "bridge_compression": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "activation_ease": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "self_propulsion": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "operator_control": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "a_discoverability": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "b_discoverability": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "match_resolvability": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "action_gate_callability": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "a_population_replenishment": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "b_population_replenishment": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "recurring_connection_pressure": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "recurring_missing_edge": [
+            "AI-SERVICE-POOL-20260901"
+          ],
+          "recurring_event_source": [
+            "AI-SERVICE-POOL-20260901"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AI-SERVICE-POOL-20260901"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AI-SERVICE-POOL-20260901"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AI-SERVICE-POOL-20260901"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AI-SERVICE-POOL-20260901"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AI-SERVICE-POOL-20260901"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "AI-SERVICE-POOL-20260901"
+        ]
+      },
+      "verdict": "DEMOTED_AI_SERVICE_FIELD_REGENERATIVE_BUT_NATIONAL_RESOURCE_POOL_SUPPLY_DEMAND_PROGRAM_AND_STANDARDIZED_PACKAGE_PUSH_ALREADY_TARGET_GENERIC_DISCOVERY_WHILE_DELIVERY_ACCEPTANCE_REMAINS_EXPERT_AND_CONTEXT_DEPENDENT"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_145-F3",
+      "title": "People who cannot navigate medical visits alone -> institutional commercial patient-companion providers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Demand and provider populations are large and recurring and a new national standard creates clearer trust boundaries. However the actual value is human accompaniment, the standard makes the provider institution responsible for risk/privacy/contracts and current commercial platforms already expose ordering, insurance and standardized prices. A neutral router would not own the core delivery or safety surface.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 3,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "b_voluntary_motion": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "state_dependent_value_jump": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "decision_window": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "bridge_compression": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "activation_ease": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "self_propulsion": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "operator_control": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "a_discoverability": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "b_discoverability": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "match_resolvability": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "action_gate_callability": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "a_population_replenishment": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "b_population_replenishment": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "recurring_connection_pressure": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "recurring_missing_edge": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ],
+          "recurring_event_source": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPANION-STANDARD-SAMR-20260827"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPANION-STANDARD-SAMR-20260827"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPANION-STANDARD-SAMR-20260827"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPANION-STANDARD-SAMR-20260827",
+            "COMPANION-PLATFORM-202609"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPANION-STANDARD-SAMR-20260827"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "COMPANION-STANDARD-SAMR-20260827"
+        ]
+      },
+      "verdict": "DEMOTED_PATIENT_COMPANION_FIELD_LARGE_BUT_HUMAN_DELIVERY_RISK_PRIVACY_AND_INSTITUTIONAL_RESPONSIBILITY_DOMINATE_WHILE_CURRENT_PLATFORMS_ALREADY_OWN_ORDERING_INSURANCE_AND_STANDARD_PRICE_SURFACES"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_145-F4",
+      "title": "Data enterprises seeking compliant commercialization -> data buyers, partners and application scenarios",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Current government evidence directly confirms enterprises with data but no compliant channel/partner and data products seeking application markets. But the local public service already assigns enterprise specialists to do one-to-one outreach, compliant channel guidance, supply-demand brokering and scenario matching. Data rights, compliance and transaction eligibility are expert/control-surface constraints rather than a thin routing problem.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 1,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "b_voluntary_motion": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "state_dependent_value_jump": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "decision_window": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "bridge_compression": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "activation_ease": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "self_propulsion": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "operator_control": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "a_discoverability": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "b_discoverability": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "match_resolvability": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "action_gate_callability": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "a_population_replenishment": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "b_population_replenishment": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "recurring_connection_pressure": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "recurring_missing_edge": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ],
+          "recurring_event_source": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DATA-SERVICE-NANSHAN-20260625"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "DATA-SERVICE-NANSHAN-20260625"
+        ]
+      },
+      "verdict": "DEMOTED_DATA_COMMERCIALIZATION_MATCHING_NEED_REAL_BUT_PUBLIC_SERVICE_ALREADY_OWNS_ONE_TO_ONE_BROKERING_AND_SCENARIO_MATCHING_WHILE_DATA_RIGHTS_AND_COMPLIANCE_PREVENT_LIGHT_OPERATOR_CONTROL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_145-F5",
+      "title": "Travelers wanting hands-free movement -> hotel, station and airport luggage transfer networks",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Traveler luggage transfer is recurring and spreading across destinations, but current airline-logistics integrations already provide app booking, home pickup, airport delivery and checked-baggage handoff, while local 'light travel' networks connect hotels, stations, airports and attractions. The route is physical logistics with incumbent custody integrations, not an unowned routing layer.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 2,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "b_voluntary_motion": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "state_dependent_value_jump": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "decision_window": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "bridge_compression": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "activation_ease": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "self_propulsion": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "operator_control": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "a_discoverability": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "b_discoverability": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "match_resolvability": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "action_gate_callability": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "a_population_replenishment": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "b_population_replenishment": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "recurring_connection_pressure": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "recurring_missing_edge": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ],
+          "recurring_event_source": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LUGGAGE-SF-EASTERN-20260623"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LUGGAGE-SF-EASTERN-20260623",
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LUGGAGE-LIGHT-TRAVEL-20260918"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "LUGGAGE-SF-EASTERN-20260623",
+          "LUGGAGE-LIGHT-TRAVEL-20260918"
+        ]
+      },
+      "verdict": "DEMOTED_LUGGAGE_TRANSFER_FIELD_REGENERATIVE_BUT_AIRLINE_LOGISTICS_AND_DESTINATION_LIGHT_TRAVEL_NETWORKS_ALREADY_OWN_BOOKING_CUSTODY_HANDOFF_AND_PHYSICAL_DELIVERY_SURFACES"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "All five current broad-reality fields are closed at the attraction layer because the observable missing edge is already materially owned by incumbent/public infrastructure or core delivery/control remains expert, institutional or physical."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_146",
+  "next_search_boundary": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN145_THEN_ADVANCE_TO_A_FRESH_BROAD_REALITY_SCAN_WITHOUT_RESCUING_ANY_OF_THESE_FIVE_FIELDS",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN146_IF_EFFECTIVE_ROUTES_ARE_NO_FURTHER_RESEARCH",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scan144_industrial_aftermarket_subproblem_not_used_as_prior": true,
+    "incumbent_presence_evaluated_before_retention": true,
+    "official_program_not_mistaken_for_unowned_market_gap": true,
+    "human_delivery_not_mistaken_for_operator_control": true,
+    "proprietary_buyer_graph_not_assumed_accessible": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "VISIBLE_FRICTION_IS_NOT_A_MISSING_EDGE_WHEN_A_SCALED_INCUMBENT_ALREADY_OWNS_BUYER_DATA_MATCHING_AND_POST_EVENT_FOLLOW_UP.",
+    "A_GOVERNMENT_RESOURCE_POOL_OR_ONE_TO_ONE_BROKER_SERVICE_IS_A_CONTROL_SURFACE_NOT_FREE_EVIDENCE_FOR_A_NEW_NEUTRAL_ROUTER.",
+    "NEW_SERVICE_STANDARDS_CAN_EXPAND_TRUST_BUT_DO_NOT_REMOVE_HUMAN_DELIVERY_SAFETY_OR_INSTITUTIONAL_RESPONSIBILITY.",
+    "PHYSICAL_CUSTODY_HANDOFF_NETWORKS_ARE_NOT_LIGHT_ROUTING_ASSETS_WHEN_AIRLINE_LOGISTICS_INTEGRATIONS_ALREADY_OWN_THE_FLOW."
+  ],
+  "source_urls": [
+    "https://gxt.hunan.gov.cn/gxt/xxgk_71033/gzdt/gzdt_3/202609/t20260915_34065291.html",
+    "https://www.meorient.com/2026/",
+    "https://www.meorient.com/2026/03/homelife%E5%93%81%E7%89%8C%E5%87%BA%E6%B5%B7%E7%B3%BB%E5%88%97%E5%B1%95-%E5%A2%A8%E8%A5%BF%E5%93%A5%E7%AB%99%EF%BC%9A%E3%80%8C%E4%B8%8D%E5%8F%AA%E8%BF%9C%EF%BC%8C%E6%9B%B4%E8%A6%81/",
+    "https://www.digitalchina.gov.cn/2026/xwzx/szkx/202609/t20260901_5366208.htm",
+    "https://www.samr.gov.cn/bzjss/bzjd/art/2026/art_4022d6d5ed64447081e71af307a134db.html",
+    "https://www.peizhenbei.com/",
+    "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/mpost_12862243.html",
+    "https://sh.spb.gov.cn/shsyzglj/c100057/c100061/202606/75016c60cffa47549683879369f2d3f6.shtml",
+    "https://www.ctnews.com.cn/paper/content/202609/18/content_115418.html"
+  ]
+}
