@@ -410,7 +410,51 @@ Canonical executable kill:
 
 This is a binary evidence-bound veto, not a Pareto objective.
 
-## 4D. Multiple strong signals use a Pareto frontier
+## 4D. Regenerative field origin gate — LOCKED
+
+A technically clean transaction, asset, listing, RFQ, buyer brief, price spread or
+contracted cashflow is not by itself an attraction formation. Those objects are
+downstream observations and may be useful validation evidence only after the broader
+field exists independently.
+
+Before a formation may be called `HIGH_ATTRACTION_BEACON`, establish all of:
+
+- a large or replenishing Actor/Node A population;
+- a large or replenishing complementary Actor/Node B population;
+- recurring connection pressure visible across more than one isolated transaction;
+- a recurring missing edge that the incumbent/current rail does not already close;
+- a recurring event source / Demand Pump that emits new opportunities without founder
+  hunting;
+- when discovery started from an explicit task/listing/asset/transaction, independent
+  field evidence that predates or extends beyond that single observation.
+
+Hard rules:
+
+```text
+ONE ATTRACTIVE ASSET != REGENERATIVE VALUE FIELD
+ONE LIVE TRANSACTION != DEMAND PUMP
+EXPLICIT TASK / LISTING != DISCOVERY ONTOLOGY
+VERIFIABLE CASHFLOW != STRATEGIC ATTRACTION
+EASY-TO-MEASURE ECONOMICS != CORRECT SEARCH OBJECTIVE
+
+TRANSACTION OBSERVATION
++ NO INDEPENDENT REGENERATIVE FIELD
+→ LOW CURRENT ATTRACTION
+```
+
+Canonical executable enforcement:
+- `src/attraction_discovery.py` — regenerative hard-floor dimensions;
+- `src/strategic_drift_guard.py` — persisted-scan anti-drift guard;
+- enforcement begins with `ATTRACTION_SCAN_142`; historical scans remain audit
+  evidence rather than being rewritten to look compliant.
+
+The scan-level Drift Audit must now prove that:
+- the regenerative field was revalidated from broad reality;
+- an explicit transaction seed was not allowed to become the ontology;
+- the next search boundary was re-derived from broad reality rather than recursively
+  inheriting the previous scan's most measurable surviving proxy.
+
+## 4E. Multiple strong signals use a Pareto frontier
 
 Once several signals have already passed the hard `HIGH_ATTRACTION_BEACON` floor,
 do not collapse the critical attraction dimensions into one weighted score.
@@ -432,7 +476,12 @@ Critical objectives are currently:
 - A-side discoverability;
 - B-side discoverability;
 - match resolvability;
-- action-gate callability.
+- action-gate callability;
+- A-side population replenishment;
+- B-side population replenishment;
+- recurring connection pressure;
+- recurring missing edge;
+- recurring event source / Demand Pump.
 
 The first deep-discovery attention set is the non-dominated frontier.
 
