@@ -6,126 +6,105 @@ GitHub live state wins over this checkpoint if they disagree.
 Continue the clean-slate Attraction Field until a real external value flow is proven or a real human/permission stop exists.
 
 ## Goal
-Find a regenerative cross-border China physical-world edge that is both high-attraction and genuinely unowned; reject paid work when current local agents, marketplaces, white-label coordinators or professional inspection rails already own the proposed bridge.
+Find a high-attraction, regenerative and genuinely unowned commercial control position. Current cross-border China physical-execution research must not recycle mature sourcing-agent, QC, logistics, legal, travel or local-helper service menus as new opportunities.
 
 ## Current Unique Commercial Research Goal
-Finalize Scan163 after consuming Jev's `EXACT_INCUMBENT_PREFLIGHT`. The regenerative overseas-China field and paid site-verification flow are real, but the proposed generic "Demand Pump -> one China coverage/execution layer" is now closed: QGO, ChinaLocalAgent, China Biz Agent, FactoryPass and domestic field-execution rails already package substantially the same execution/control surface. If final exact-head CI/Jev align with this closure, merge and advance Scan164 to residual cross-border physical-world state transitions not already packaged by these incumbents.
+Validate Scan164's cross-border physical residual saturation sweep. Scan163 proved the broad overseas-China physical field is real but closed the generic multi-city China execution/white-label layer on exact incumbents. Scan164 now closes the immediately adjacent service families — post-fair activation, sample consolidation, defect sorting/rework, post-shipment warranty/claims, and business-trip/factory-visit coordination. If exact-head CI/Jev agree, advance Scan165 **outside the generic China-local-help service menu**, while keeping explicit paid gigs downstream validation only.
 
 ## Current Phase
-SCAN163_ALL_ROUTES_CLOSED_FINAL_EXACT_HEAD_VALIDATION_PENDING
+SCAN164_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 
 ## Last Verified Main
-- `main`: `3ee72d3d9deeb6cd24d5647b136a6adf90e010fe` — PR #477 merged.
-- Scan 162 exact head `e48c22d1999f4d14c6b90453d53ab87c5b606271`.
-- Repository CI `35894334873`: SUCCESS, 827 tests; test job `107294375519`.
-- Real TypeSafe/Jev `35894334884`: SUCCESS; artifact `10765909352`; digest `sha256:a3672fe83a3677f98833c4841e8dd144175627916a0a6c8f941a76b5dd2f6af8`.
-- Scan163 first frozen head `82983cbc9344574c36441982d42782ad174c6211`: repository CI `35904123658` SUCCESS, 835 tests.
-- Scan163 first live Jev `35904123590`: SUCCESS; artifact `10769479959`; digest `sha256:72d9af650302cf9459db08d9e849ecfc5bccc6b7ecbcef619cf68b57a5c7b8f8`; routes = 1 `EXACT_INCUMBENT_PREFLIGHT` + 2 `NO_FURTHER_RESEARCH`; continuation = `EXECUTE_RESEARCH_QUEUE`.
+- `main`: `e9fbdb2e382c6e1def9cfdb36582aad5bfa95ea1` — PR #478 merged.
+- Scan163 final exact head: `f50a47f17972c7ab18d3ce3522362c7334efe234`.
+- Repository CI `35904701836`: SUCCESS, 836 tests; test job `107329315692`.
+- Real TypeSafe/Jev `35904701771`: SUCCESS; artifact `10770896445`; digest `sha256:e4a4b96025aa7036239fc2e9d5bdc6b878fbd3b2fe0c00f4a91b37d5268bb03a`.
+- Jev: 3/3 model/effective `NO_FURTHER_RESEARCH`, 3/3 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`, continuation `ADVANCE_TO_NEXT_SCAN`.
 - Active commercial candidates: 0; transaction units: 0; FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
 
 ## Active Issue
 #143 — P0 clean-slate Attraction Field -> first external value flow — OPEN.
 
 ## Active Branch
-`research/scan163-cross-border-ground-truth-field`.
+`research/scan164-cross-border-physical-residual-sweep`.
 
 ## Active PR
-PR #478 — `Run Scan 163 recurring cross-border China field-execution sweep` — OPEN. Its head moved only to consume the authorized Jev research queue; final exact-head checks must now rerun.
+None yet. Freeze the completed Scan164 head and open exactly one PR.
 
 ## CI
-- Initial Scan163 head `82983cbc...`: repository CI SUCCESS, 835 tests; live Jev SUCCESS with `EXECUTE_RESEARCH_QUEUE`.
-- The authorized research queue has now been consumed.
-- Final Scan163 head repository CI: PENDING.
-- Final Scan163 live TypeSafe/Jev: PENDING.
-- Only the final same exact PR head may authorize merge/advance.
+- Scan164 repository CI: NOT RUN on a PR head yet.
+- Scan164 live TypeSafe/Jev: NOT RUN on a PR head yet.
+- Only the same final exact PR head may authorize merge/advance.
 
 ## Latest Artifact / Persisted State
-- `data/research_runs/attraction_scan_163.json`
-- `data/research_runs/scan163_cross_border_field_evidence.json`
-- `data/research_runs/scan163_exact_incumbent_preflight.json`
-- `docs/research/SCAN163_CROSS_BORDER_GROUND_TRUTH_FIELD_2026-09-24.md`
-- `src/bounded_bootstrap_validation.py`
-- `tests/test_bounded_bootstrap_validation.py`
-- `tests/test_scan163_cross_border_ground_truth_field.py`
+- `data/research_runs/attraction_scan_164.json`
+- `data/research_runs/scan164_cross_border_physical_residual_evidence.json`
+- `docs/research/SCAN164_CROSS_BORDER_PHYSICAL_RESIDUAL_SWEEP_2026-09-24.md`
+- `tests/test_scan164_cross_border_physical_residual_sweep.py`
 - `data/commercial_reset_state.json`
 
 ## Completed
-- Finalized and merged Scan162 after exact-head CI and live TypeSafe/Jev.
-- Re-read current constitutional doctrine and Scan142+/157+/159+ anti-drift guards.
-- Re-derived the cross-border field independently from MOFCOM/Canton Fair recurrence, QIMA inspection demand and domestic field-execution capacity; did not revive old Scan126 as inherited truth.
-- Preserved Freelancer/Confirmis jobs as downstream payment/partial-flow evidence only.
-- Built a three-item bootstrap queue and a fail-closed bounded-bootstrap gate.
-- Initial exact-head repository CI passed 835 tests.
-- Initial live TypeSafe/Jev closed F2/F3 and routed F1 to `EXACT_INCUMBENT_PREFLIGHT`.
-- Consumed that route with current incumbent research.
-- Found QGO's explicit B2B partner / white-label / wholesale China-side execution offer, plus ChinaLocalAgent ongoing local-team execution, China Biz Agent mainland coverage, FactoryPass live-visit coverage and 现场核验云 domestic dispatch infrastructure.
-- Demoted F1 because scope normalization, local-team routing, evidence/reporting, multi-city execution and white-label partner delivery are already current incumbent control surfaces.
-- Cancelled B1 as a **core-model** bootstrap even though the Guangzhou paid task is real.
-- No outreach, bid, registration, purchase, payment or other external side effect occurred.
+- Reconciled Scan163 final exact-head CI/Jev/merge truth into durable machine state.
+- Preserved the Scan163 conclusion that real paid factory/site tasks do not establish a distinct operator position.
+- Swept five adjacent cross-border China physical state transitions using current 2026 incumbent evidence.
+- Closed post-Canton-Fair supplier activation because current services already sell supplier verification, sample coordination, factory visits, QC and managed first-order execution.
+- Closed multi-supplier sample identity/consolidation because multiple current China-side desks already sell receiving, IDs, photos, comparison/issue records and forwarding.
+- Closed failed-QC sorting/rework because current professional QC firms already sell 100% sorting, containment, repair/rework, recall and reinspection with public pricing.
+- Closed post-shipment warranty/claims because current after-sales services and PRC legal/QC providers already package claim evidence, supplier remedy, negotiation and formal recovery.
+- Closed China factory/business-trip coordination because current providers already sell appointments, routes, transport, interpreters, visit evidence and follow-up through one China-side team.
+- Authorized no bootstrap transaction and performed no outreach, bid, registration, purchase, payment or external side effect.
 
 ## Current Findings
-The broad field is real:
+The broad field has money and recurring physical friction, but the obvious product menu is saturated:
 
 ```text
-OVERSEAS BUYERS / VERIFICATION DEMAND PUMPS
-+ RECURRING CHINA DECISIONS
-+ PHYSICAL FACTS NOT RESOLVABLE REMOTELY
-+ REPLACEABLE LOCAL EXECUTION
-= REAL REGENERATIVE FIELD
-```
-
-But the first proposed bridge is already owned:
-
-```text
-ONE CHINA-SIDE EXECUTION TEAM
-+ MULTI-CITY ROUTING
-+ FACTORY / SITE VISITS
-+ LOCAL TEAM
-+ EVIDENCE / REPORTING
-+ B2B PARTNER / WHITE-LABEL DELIVERY
-= CURRENT INCUMBENT OFFER
+POST-FAIR FOLLOW-UP      -> CURRENT SOURCING / VERIFY / MANAGED-ORDER SERVICES
+SAMPLE CONSOLIDATION     -> CURRENT CHINA RECEIVING / SAMPLE-DESK SERVICES
+FAILED QC / REWORK       -> CURRENT PROFESSIONAL QC SERVICES
+WARRANTY / CLAIMS        -> CURRENT AFTER-SALES + LEGAL / QC SERVICES
+BUSINESS / FACTORY TRIP  -> CURRENT ONE-TEAM VISIT COORDINATION SERVICES
 ```
 
 Therefore:
 
 ```text
-REAL PAID TASK
-!= UNOWNED MISSING EDGE
-!= CORE BOOTSTRAP PERMISSION
+PHYSICAL DISTANCE
++ REAL OVERSEAS MONEY
++ REPEATED BUYER PAIN
+!= UNOWNED ORCHESTRATION POSITION
 ```
 
-A cheaper API/batch variant is only a hypothesis. No current evidence shows that buyers are specifically blocked by lack of that interface or that incumbents cannot provide it. UNKNOWN != PASS.
+The correct response is not to invent an API/batch/AI wrapper. No actor evidence currently shows that such an interface is the decisive blocked state transition.
 
-Final Scan163:
-- high-attraction beacons after incumbent preflight: 0;
+Scan164:
+- high-attraction beacons: 0;
 - retained research formations: 0;
-- authoritative closures: F1/F2/F3;
+- authoritative closures: F1-F5;
+- bootstrap queue: empty;
 - commercial candidates: 0;
 - transaction units: 0;
 - FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
 
 ## Blockers
-No human blocker. Final exact-head repository CI and live TypeSafe/Jev are pending after consuming the research queue.
-
-The Guangzhou B1 task is not blocked by mechanics; it is intentionally **not pursued as a core project** because the governing formation failed the distinct-operator-position test.
+No human blocker. Scan164 exact-head repository CI and live TypeSafe/Jev are pending.
 
 ## Next Action
-Run final exact-head repository CI + live TypeSafe/Jev for PR #478. If closure aligns and continuation permits advance, merge. Then create Scan164 from verified main and search within cross-border physical-world reality only for **residual state transitions/missing edges not already sold by generic China local agents, B2B white-label visit coordinators, professional inspectors, global marketplaces or domestic field-task networks**.
+Freeze the Scan164 branch, open one PR, require exact-head repository CI + live TypeSafe/Jev, and inspect continuation. If closures align and continuation permits advance, merge and create Scan165 from verified main. Scan165 must search fresh cross-border actor state transitions where a China resource/local state/physical fact matters but the decisive edge is not already packaged by local agents, marketplaces, QC firms, lawyers, logistics operators or visit coordinators.
 
 ## Do Not Repeat
-Do not revive Scan126/PR #430. Do not restart generic factory/site verification, "China local helper", local-agent white-label, ordinary sourcing/QC or one-buyer/one-freelancer matching as a new candidate. Do not invent "API/batch" as a missing edge without actor evidence. Do not execute the Guangzhou task merely because it pays. Do not count founder free labor as margin. Do not contact/bid from the user's account without explicit authorization.
+Do not restart generic local helper, supplier sourcing/follow-up, sample consolidation, ordinary factory/site visit, ordinary QC/inspection, sorting/rework, warranty/claim handling, supplier-dispute legal recovery or business-trip coordination as a new opportunity. Do not invent API/batch as a missing edge without actor behavior. Do not use explicit paid gigs as discovery seeds. Do not spend founder bootstrap capital inside a service menu already owned by multiple current incumbents.
 
 ## Guardrails
-GitHub live state wins. REALITY > COGNITION > SCHEMA. HIGH_ATTRACTION_BEACON != COMMERCIAL_CANDIDATE. EXPLICIT_TASK != DISCOVERY_SEED. REAL PAID TASK != DISTINCT OPERATOR POSITION. One transaction != repeatability. Temporary operator coordination may validate a surviving formation; it must not rescue a formation killed by exact incumbents. UNKNOWN != PASS. TypeSafe/Jev remains shadow research advisory only.
+GitHub live state wins. REALITY > COGNITION > SCHEMA. HIGH_ATTRACTION_BEACON != COMMERCIAL_CANDIDATE. EXPLICIT_TASK != DISCOVERY_SEED. REAL PAID TASK != DISTINCT OPERATOR POSITION. UNKNOWN != PASS. Temporary founder execution may validate a surviving high-attraction formation; it cannot rescue an incumbent-owned one. TypeSafe/Jev remains shadow research advisory only.
 
 ## Recovery State
 Use `state/chatgpt-recovery` only as control-plane recovery state; live GitHub remains authoritative.
 
 ## Pending Operations
-Final exact-head validation of PR #478 after consuming the authorized Jev research queue.
+Open and validate exactly one Scan164 PR on a frozen head.
 
 ## Resume Cursor
-Scan163 incumbent preflight is persisted on `research/scan163-cross-border-ground-truth-field`; PR #478 remains open and final exact-head validation must rerun.
+Scan164 artifacts are persisted on `research/scan164-cross-border-physical-residual-sweep`; PR not yet opened.
 
 ## Safe Re-entry
-Re-read live main, PR #478 head and exact-head Actions before mutating. Do not repeat Scan163 web research if the persisted incumbent preflight and matching PR head already exist.
+Re-read live main, open PRs and exact-head Actions before mutating. Do not repeat Scan164 incumbent research if persisted artifacts and a matching frozen PR head already exist.

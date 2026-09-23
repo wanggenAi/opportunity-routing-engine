@@ -804,15 +804,40 @@
       "formation_id": "ATTRACTION_SCAN_163-F1",
       "verdict": "DEMOTED_EXACT_INCUMBENT_PREFLIGHT_FINDS_CHINA_SIDE_EXECUTION_WHITE_LABEL_MULTI_CITY_AND_LOCAL_TEAM_CONTROL_SURFACES_ALREADY_OWN_THE_PROPOSED_BRIDGE",
       "resolved_date": "2026-09-24"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_164-F1",
+      "verdict": "DEMOTED_POST_FAIR_SUPPLIER_ACTIVATION_IS_ALREADY_PRODUCTIZED_FROM_VERIFY_AND_SAMPLE_TO_INSPECT_AND_MANAGED_FIRST_ORDER",
+      "resolved_date": "2026-09-24"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_164-F2",
+      "verdict": "DEMOTED_SAMPLE_TRACEABILITY_CONSOLIDATION_AND_FORWARDING_ARE_ALREADY_CURRENT_PRODUCTIZED_SERVICES",
+      "resolved_date": "2026-09-24"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_164-F3",
+      "verdict": "DEMOTED_DEFECT_CONTAINMENT_SORTING_REWORK_AND_REINSPECTION_ARE_EXISTING_PROFESSIONAL_QC_PRODUCTS",
+      "resolved_date": "2026-09-24"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_164-F4",
+      "verdict": "DEMOTED_POST_SHIPMENT_CLAIMS_ARE_ALREADY_PACKAGED_AND_MATERIALLY_EXPERT_LEGAL_OR_QC_BOUND",
+      "resolved_date": "2026-09-24"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_164-F5",
+      "verdict": "DEMOTED_FACTORY_TRIP_COORDINATION_AND_VISIT_EVIDENCE_ARE_ALREADY_CURRENT_ONE_TEAM_SERVICES",
+      "resolved_date": "2026-09-24"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_163",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_162-F5",
-  "next_scan_id": "ATTRACTION_SCAN_164",
-  "current_research_action": "FINAL_VALIDATE_SCAN163_INCUMBENT_CLOSURE_THEN_ADVANCE_SCAN164_TO_RESIDUAL_CROSS_BORDER_PHYSICAL_EDGES_NOT_ALREADY_PACKAGED_BY_EXISTING_SERVICES",
-  "current_validation_state": "SCAN163_ALL_ROUTES_CLOSED_FINAL_EXACT_HEAD_VALIDATION_PENDING",
+  "last_completed_scan_id": "ATTRACTION_SCAN_164",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_164-F5",
+  "next_scan_id": "ATTRACTION_SCAN_165",
+  "current_research_action": "VALIDATE_SCAN164_ZERO_RETENTION_THEN_EXIT_GENERIC_CHINA_LOCAL_HELP_AND_SEARCH_FRESH_CROSS_BORDER_STATE_TRANSITIONS_IF_ALLOWED",
+  "current_validation_state": "SCAN164_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
   "required_scan_controls": [
     "BROAD_REALITY",
     "ATTRACTION_FIRST_BEACON",
@@ -1682,7 +1707,13 @@
     "QGO_CURRENTLY_OFFERS_B2B_PARTNER_WHITE_LABEL_WHOLE_CHINA_SIDE_EXECUTION_THAT_CLOSELY_MATCHES_SCAN163_F1_CONTROL_LAYER.",
     "CHINALOCALAGENT_AND_CHINABIZAGENT_CURRENTLY_PACKAGE_OVERSEAS_CLIENT_TO_LOCAL_CHINA_EXECUTION_AS_A_SERVICE.",
     "REAL_PAID_GUANGZHOU_VERIFICATION_TASK_DOES_NOT_OVERRIDE_EXACT_INCUMBENT_CONTROL_SURFACE_CLOSURE.",
-    "A_LOW_COST_API_OR_BATCH_VARIANT_IS_HYPOTHETICAL_UNTIL_ACTOR_BEHAVIOR_EXPOSES_THAT_SPECIFIC_MISSING_EDGE."
+    "A_LOW_COST_API_OR_BATCH_VARIANT_IS_HYPOTHETICAL_UNTIL_ACTOR_BEHAVIOR_EXPOSES_THAT_SPECIFIC_MISSING_EDGE.",
+    "POST_FAIR_SUPPLIER_ACTIVATION_IS_ALREADY_SOLD_AS_VERIFY_SAMPLE_INSPECT_AND_MANAGED_ORDER_WORK.",
+    "MULTI_SUPPLIER_SAMPLE_IDENTITY_CONSOLIDATION_AND_FORWARDING_IS_ALREADY_A_CURRENT_CHINA_SIDE_PRODUCT.",
+    "FAILED_QC_SORTING_REWORK_REPAIR_AND_REINSPECTION_IS_AN_EXISTING_PROFESSIONAL_QC_SERVICE_FAMILY.",
+    "POST_SHIPMENT_WARRANTY_DEFECT_AND_SUPPLIER_CLAIM_RECOVERY_IS_ALREADY_AFTERSALES_AND_PRCLAW_EXPERT_TERRITORY.",
+    "CHINA_FACTORY_AND_BUSINESS_TRIP_COORDINATION_IS_ALREADY_PACKAGED_AS_ONE_TEAM_ONE_PLAN_ONE_POINT_OF_CONTACT.",
+    "SCAN165_MUST_EXIT_THE_GENERIC_CHINA_LOCAL_HELP_SERVICE_MENU_RATHER_THAN_RENAME_A_MATURE_SERVICE."
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -2393,8 +2424,8 @@
     "deposit_authorized": false,
     "purchase_authorized": false
   },
-  "last_completed_scan_file": "data/research_runs/attraction_scan_163.json",
-  "last_completed_scan_result": "ZERO_RETENTION_AFTER_JEV_EXACT_INCUMBENT_PREFLIGHT_GENERIC_CHINA_GROUND_TRUTH_EXECUTION_LAYER_ALREADY_OWNED",
+  "last_completed_scan_file": "data/research_runs/attraction_scan_164.json",
+  "last_completed_scan_result": "ZERO_RETENTION_FIVE_ADJACENT_CROSS_BORDER_PHYSICAL_SERVICE_FAMILIES_ALREADY_PRODUCTIZED_OR_EXPERT_BOUND",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
     "evidence_artifact": "data/research_runs/scan136_current_asset_receipts_evidence.json",
@@ -2880,7 +2911,7 @@
     "preflight_autonomous_continuation_allowed": true,
     "preflight_resolution": "CLOSED_DISTINCT_UNOWNED_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED_AFTER_CURRENT_OFFICIAL_CONTROL_SURFACE_PREFLIGHT"
   },
-  "next_action": "FINAL_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN163_INCUMBENT_CLOSURE_THEN_ADVANCE_SCAN164_IF_ALLOWED",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN164_THEN_ADVANCE_SCAN165_IF_ALLOWED",
   "scan143_broad_reality_trust_routing": {
     "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "c4d3da4d67f067a512642beb272eeafa7fd0fa34",
@@ -3912,7 +3943,7 @@
     "merged_main_sha": "3ee72d3d9deeb6cd24d5647b136a6adf90e010fe"
   },
   "scan163_cross_border_ground_truth_field": {
-    "status": "RESEARCH_QUEUE_CONSUMED_ALL_ROUTES_CLOSED_FINAL_EXACT_HEAD_VALIDATION_PENDING",
+    "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "3ee72d3d9deeb6cd24d5647b136a6adf90e010fe",
     "canonical_scan_artifact": "data/research_runs/attraction_scan_163.json",
     "evidence_artifact": "data/research_runs/scan163_cross_border_field_evidence.json",
@@ -3930,8 +3961,8 @@
     "active_commercial_candidate_count": 0,
     "active_transaction_unit_count": 0,
     "first_external_value_flow": "NOT_PROVEN",
-    "exact_head_validation_status": "PENDING_FINAL_AFTER_RESEARCH_QUEUE",
-    "live_jev_status": "PENDING_FINAL_AFTER_RESEARCH_QUEUE",
+    "exact_head_validation_status": "SUCCESS",
+    "live_jev_status": "SUCCESS",
     "commercial_promotion": false,
     "external_side_effects_performed": false,
     "downstream_paid_tasks_are_validation_only": true,
@@ -3939,7 +3970,7 @@
     "specialist_inspection_first_bootstrap_rejected": true,
     "platform_compliance_required": true,
     "funded_payment_before_local_cost_required": true,
-    "next_action": "FINAL_EXACT_HEAD_CI_AND_LIVE_JEV_THEN_ADVANCE_SCAN164_IF_CLOSURE_ALIGNS",
+    "next_action": "COMPLETED_ADVANCE_TO_SCAN164",
     "exact_incumbent_preflight_artifact": "data/research_runs/scan163_exact_incumbent_preflight.json",
     "first_jev_run_id": 35904123590,
     "first_jev_artifact_id": 10769479959,
@@ -3959,6 +3990,56 @@
       "ATTRACTION_SCAN_163-F2",
       "ATTRACTION_SCAN_163-F3"
     ],
-    "next_scan_id": "ATTRACTION_SCAN_164"
+    "next_scan_id": "ATTRACTION_SCAN_164",
+    "final_exact_head_sha": "f50a47f17972c7ab18d3ce3522362c7334efe234",
+    "final_repository_ci_run_id": 35904701836,
+    "final_repository_ci_conclusion": "SUCCESS",
+    "final_repository_ci_test_job_id": 107329315692,
+    "final_repository_ci_test_count": 836,
+    "final_jev_run_id": 35904701771,
+    "final_jev_artifact_id": 10770896445,
+    "final_jev_artifact_digest": "sha256:e4a4b96025aa7036239fc2e9d5bdc6b878fbd3b2fe0c00f4a91b37d5268bb03a",
+    "final_jev_entity_count": 3,
+    "final_jev_effective_route_counts": {
+      "NO_FURTHER_RESEARCH": 3
+    },
+    "final_jev_model_route_counts": {
+      "NO_FURTHER_RESEARCH": 3
+    },
+    "final_jev_alignment_counts": {
+      "ALIGNS_WITH_AUTHORITATIVE_CLOSURE": 3
+    },
+    "final_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "final_autonomous_continuation_allowed": true,
+    "merged_pr": 478,
+    "merged_main_sha": "e9fbdb2e382c6e1def9cfdb36582aad5bfa95ea1"
+  },
+  "scan164_cross_border_physical_residual_sweep": {
+    "status": "INITIAL_SCAN_COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "source_main_sha": "e9fbdb2e382c6e1def9cfdb36582aad5bfa95ea1",
+    "canonical_scan_artifact": "data/research_runs/attraction_scan_164.json",
+    "evidence_artifact": "data/research_runs/scan164_cross_border_physical_residual_evidence.json",
+    "report": "docs/research/SCAN164_CROSS_BORDER_PHYSICAL_RESIDUAL_SWEEP_2026-09-24.md",
+    "retained_research_formations": [],
+    "high_attraction_beacons": [],
+    "authoritative_closures": [
+      "ATTRACTION_SCAN_164-F1",
+      "ATTRACTION_SCAN_164-F2",
+      "ATTRACTION_SCAN_164-F3",
+      "ATTRACTION_SCAN_164-F4",
+      "ATTRACTION_SCAN_164-F5"
+    ],
+    "bootstrap_queue": [],
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "exact_head_validation_status": "PENDING",
+    "live_jev_status": "PENDING",
+    "next_scan_id": "ATTRACTION_SCAN_165",
+    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_SCAN165_IF_ALLOWED",
+    "commercial_promotion": false,
+    "external_side_effects_performed": false,
+    "generic_china_local_help_family_saturated": true,
+    "explicit_paid_tasks_downstream_only": true
   }
 }
