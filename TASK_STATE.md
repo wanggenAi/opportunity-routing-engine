@@ -12,19 +12,22 @@ Find and validate a formation with real bilateral pull, independently bound curr
 
 ## Current Unique Commercial Research Goal
 
-Validate `ATTRACTION_SCAN_131` on an exact frozen head. If repository CI and live TypeSafe/Jev confirm all four current formations are authoritatively closed, merge and advance to `ATTRACTION_SCAN_132`.
+Validate `ATTRACTION_SCAN_132` on one frozen exact head. If repository CI and live TypeSafe/Jev confirm all four formations are authoritatively closed, merge and advance to `ATTRACTION_SCAN_133`.
 
 Parallel validation: `ATTRACTION_SCAN_015-F1` remains independently blocked on official written cross-rail outcome-data rights plus organic founder-free inbound proof.
 
 ## Current Phase
 
-`SCAN_131_ZERO_RETENTION_PR_VALIDATION_PENDING`
+`SCAN_132_ZERO_RETENTION_PR_VALIDATION_PENDING`
 
 ## Last Verified Main
 
-- Main includes PR #438 at `a5e247237c95a9fe1f00e11a002fd6b459fe4855`.
-- PR #438 exact head `c22a5ae85ab516bbdca08c9a6c21a44406302435`: repository CI `35822577911` success; live TypeSafe/Jev `35822577804` success.
-- PR #438 Jev artifact `10733534230`, digest `sha256:0a8815c68232b0923f463b304a763d01003767a22904593633ecc14417c4a3c5`: actual input `ATTRACTION_SCAN_130`, entity_count=4, 4x `NO_FURTHER_RESEARCH`, continuation `ADVANCE_TO_NEXT_SCAN`.
+- Main includes PR #439 at `99eb93369092196f9e8fbb753bc0990009a79594`.
+- PR #439 exact head `c91918147b63a3f5ed4a41bde38c4ea36aeed9dd`.
+- Repository CI run `35824043863`: success, 701 tests.
+- Live TypeSafe/Jev run `35824043769`: success.
+- Jev artifact `10734317512`, digest `sha256:a69971a50f1d34e364328ded5257ea03c7cc290b0b4be5cdd02fd59ee238410c`.
+- Jev actual input: `ATTRACTION_SCAN_131`; entity_count=4; 4x authoritative alignment; 4x `NO_FURTHER_RESEARCH`; autonomous continuation `ADVANCE_TO_NEXT_SCAN`.
 - PR #435 and #436 remain closed/unmerged and must not be revived.
 
 ## Active Issue
@@ -33,86 +36,78 @@ Parallel validation: `ATTRACTION_SCAN_015-F1` remains independently blocked on o
 
 ## Active Branch
 
-`research/scan131-operational-control-cashflow`
+`research/scan132-complete-economic-tuple`
 
-This branch starts from merged main `a5e247237c95a9fe1f00e11a002fd6b459fe4855`.
+This branch starts from merged main `99eb93369092196f9e8fbb753bc0990009a79594`.
 
 ## Active PR
 
-#439 — `Run Scan 131 on operational control cashflow`.
-
-Frozen head `a09a76d25c05350f7033f98d3961029c41dcf80c` was the first PR head. That head is superseded by the recovery-contract fix below and must not be used as merge authority.
+None at this checkpoint. Open exactly one PR after freezing this Scan 132 branch.
 
 ## CI
 
-First PR head `a09a76d25c05350f7033f98d3961029c41dcf80c`:
-- repository CI run `35823885330` failed exactly one recovery-contract test because `TASK_STATE.md` omitted the mandatory `## Do Not Repeat` heading;
-- TypeSafe/Jev contracts job passed, but any old-head live-shadow result is diagnostic only after this file changes;
-- no business-logic or Scan 131 evidence test failure was observed in that run.
-
-After this checkpoint fix, require fresh repository CI and fresh live TypeSafe/Jev on the new exact head.
+Scan 132 exact-head validation has not run yet.
 
 Required:
 1. repository CI success on the exact frozen head;
 2. live TypeSafe/Jev success on that same head;
-3. actual artifact must show `input_scan_id=ATTRACTION_SCAN_131`;
+3. actual artifact must show `input_scan_id=ATTRACTION_SCAN_132`;
 4. actual artifact must show `entity_count=4`;
 5. all F1/F2/F3/F4 must have authoritative closures;
 6. all four effective routes must be `NO_FURTHER_RESEARCH`;
-7. continuation must permit advancement to Scan 132;
+7. continuation must permit advancement to Scan 133;
 8. no commercial promotion, bid, deposit or purchase authority may be inferred from Jev.
 
 ## Latest Artifact / Persisted State
 
-Canonical Scan 131 artifacts:
-- `data/research_runs/attraction_scan_131.json`;
-- `data/research_runs/scan131_operational_control_cashflow_evidence.json`;
-- `docs/research/SCAN131_OPERATIONAL_CONTROL_CASHFLOW_2026-09-23.md`;
-- `tests/test_scan131_operational_control_cashflow.py`.
+Canonical Scan 132 artifacts:
+- `data/research_runs/attraction_scan_132.json`;
+- `data/research_runs/scan132_complete_economic_tuple_evidence.json`;
+- `docs/research/SCAN132_COMPLETE_ECONOMIC_TUPLE_2026-09-23.md`;
+- `tests/test_scan132_complete_economic_tuple.py`.
 
 Machine truth on this branch:
-- last completed scan = `ATTRACTION_SCAN_131`;
+- last completed scan = `ATTRACTION_SCAN_132`;
 - retained research formations = 0;
-- resolved in Scan 131 = F1/F2/F3/F4;
+- resolved in Scan 132 = F1/F2/F3/F4;
 - active commercial candidates = 0;
 - active transaction units = 0;
 - active parent formations = 0;
-- next scan = `ATTRACTION_SCAN_132`;
+- next scan = `ATTRACTION_SCAN_133`;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Recovered the interrupted Scan 130 PR checkpoint from live GitHub rather than replaying an old branch.
-- Verified PR #438 exact-head repository CI plus live TypeSafe/Jev and the real Scan 130 Jev input.
-- Merged PR #438 into main at `a5e247237c95a9fe1f00e11a002fd6b459fe4855`.
-- Started fresh Scan 131 from that exact merged main.
-- Searched current China-native physical and operational control assets without reusing Scan 060-130 formations.
-- Proved with a current executed transaction that charging-station operating control, identified contracts and post-transfer operating income can move together.
-- Found a current sub-RMB-0.55m leased-property transfer where the tenant contract and rent rights survive transfer.
-- Disconfirmed cheap charging hardware as a cashflow asset when site/platform/customer rights do not transfer.
-- Disconfirmed a current low-ticket LED advertising operating right because the inventory is idle and requires new advertiser acquisition plus ongoing compliance/maintenance.
-- Persisted Scan 131 evidence, report, machine state and regression tests.
+- Recovered and merged Scan 131 through exact-head repository CI and real live TypeSafe/Jev.
+- Started Scan 132 from the exact merged main.
+- Enforced the complete asset-level economic tuple: entry price, contracted receipt amount, term, counterparty, post-transfer receipt right, low recurring human delivery.
+- Found a RMB 395,000 Hangzhou long-term leased transfer through 2031 where lease succession is explicit but public receipt quantum is withheld in the underlying lease contract.
+- Found a Xiamen asset where all six tuple fields are substantially explicit, but buyer rent collection begins only in December 2026 and the lease ends April 2027; remaining durable receipt coverage and normalized economics fail.
+- Found official Jilin small-ticket leased assets where lease continuity survives ownership transfer but all rent during the surviving lease is explicitly reserved to the seller.
+- Found a current campus vending site right where machine payment exists but the annual site rent is operator cost, no end-user receipts are contracted, and recurring cleaning/restocking/repair/compliance labor remains.
+- Added a regression observation that “original annual rent” in a listing title cannot stand in for current cashflow when the property body says it is not leased.
+- Persisted Scan 132 canonical evidence, report, machine state and regression tests.
 - Retained zero formations and made zero commercial promotions.
 
 ## Current Findings
 
-### F1 — executed EV charging-station control transfer
+### F1 — long-term small leased property
 
-Current Hainan evidence proves the mechanism decisively: a 23-station asset group transfers physical assets, operating rights, automaker contracts and post-transfer operating income. The bundle costs RMB 10.719m, the buyer was already the entrusted operator, and agreement migration is non-trivial. Fresh small-operator reproducibility therefore fails.
+Price, lease term through 2031 and lease succession are explicit. Contracted rent amount is not public, so the tuple remains incomplete.
 
-### F2 — current small leased property with rent-right succession
+### F2 — explicit full rent tuple
 
-Current Wuhu listings at RMB 468,700 and RMB 522,800 explicitly preserve the tenant contract and transfer future rent rights to the buyer. Public evidence does not disclose rent quantum, and the observed leases expire in January/March 2027. Durable source-bound yield therefore cannot be proven.
+Price, monthly rent, term, tenant and buyer collection start are explicit. The remaining buyer receipt period is short and disclosed gross rent is weak relative to acquisition cost before transaction/holding costs.
 
-### F3 — low-price charging hardware
+### F3 — small official leased assets with seller-retained rent
 
-The RMB 298,000 Pingdingshan charging-station package is equipment liquidation: the buyer must dismantle/remove it, while site access and operating demand do not transfer. Affordable hardware is not affordable operational cashflow.
+Ownership transfers and leases survive, but the official terms explicitly reserve lease-period rents to the seller. No inherited buyer cashflow exists.
 
-### F4 — LED advertising operating right
+### F4 — campus vending site right
 
-The current RMB 131,000 one-year right is purchasable and technically machine-servable, but the display is idle and the operator must originate advertisers, manage content compliance and maintain the asset. Existing proceeds do not transfer.
+The right is machine-served but not cashflow-inherited. Operator pays site rent and performs recurring physical service; student purchases are not contracted.
 
-### Scan 131 result
+### Scan 132 result
 
 ```text
 FORMATIONS EXAMINED = 4
@@ -120,7 +115,7 @@ RETAINED = 0
 ACTIVE COMMERCIAL CANDIDATES = 0
 ACTIVE TRANSACTION UNITS = 0
 FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-NEXT = ATTRACTION_SCAN_132
+NEXT = ATTRACTION_SCAN_133
 ```
 
 ## Blockers
@@ -131,33 +126,32 @@ NEXT = ATTRACTION_SCAN_132
 
 ## Next Action
 
-Treat the first PR head as superseded. Re-run repository CI and live TypeSafe/Jev on the new exact PR #439 head after this recovery-contract fix. Merge only if the new exact head passes with `input_scan_id=ATTRACTION_SCAN_131`, `entity_count=4`, four authoritative `NO_FURTHER_RESEARCH` routes and autonomous `ADVANCE_TO_NEXT_SCAN`; then verify merged main and immediately start Scan 132.
+Freeze the Scan 132 head, open exactly one PR, require exact-head repository CI plus live TypeSafe/Jev with `input_scan_id=ATTRACTION_SCAN_132`, `entity_count=4`, four authoritative `NO_FURTHER_RESEARCH` routes, and autonomous `ADVANCE_TO_NEXT_SCAN`. Merge only on that exact head, verify merged main, then start Scan 133.
 
 ## Do Not Repeat
 
 - Do not revive closed/unmerged PR #435 or #436.
 - Do not return to Scan 124/125 economic screens.
-- Do not revive Scan 126 China-helper / field-task routing.
-- Do not reuse Scan 127 regulatory enterprise formations.
-- Do not reuse Scan 128 provider-owned payment/action/API layers.
-- Do not reuse Scan 129 web/app/miniprogram transfer formations.
-- Do not reuse Scan 130 domain, music-royalty, patent or film-right formations.
-- Do not reframe the Scan 131 RMB 298,000 charging-equipment liquidation as an operating cashflow asset; site/platform/customer rights do not transfer.
-- Do not reframe the Scan 131 idle LED operating right as existing demand; advertiser acquisition remains unproven recurring labor.
-- Do not treat asset transferability, installed hardware or a tenant label as proof of durable source-bound proceeds.
-- Do not use the superseded PR #439 head `a09a76d25c05350f7033f98d3961029c41dcf80c` as merge authority after this checkpoint commit.
+- Do not reuse Scan 126-131 formations.
+- Do not repeat Scan 132 Hangzhou/Xiamen/Jilin/Beihua formations in Scan 133.
+- Do not treat a listing title's “original rent” as current cashflow.
+- Do not infer buyer rent rights from “带租约” or “买卖不破租赁”; check explicit receipt ownership.
+- Do not treat annual operating rent paid by an operator as revenue received by that operator.
+- Do not promote machine-served sites when recurring restock, sanitation, maintenance or rapid field response are contractually required.
+- Do not substitute long contract term for missing receipt amount.
+- Do not substitute a complete tuple for acceptable normalized economics or durable receipt coverage.
 
-## Scan 132 Boundary
+## Scan 133 Boundary
 
-Search fresh current China small-operator-acquirable physical or contract-control assets only when the public/authoritative evidence binds the full asset-level economic tuple:
-- acquisition price;
-- contracted receipt amount;
-- contract term;
-- identified counterparty;
-- explicit post-transfer rights;
+Search fresh current China small-operator assets or contract rights only when public/authoritative evidence binds:
+- entry/transfer price;
+- explicit contracted receipt amount;
+- buyer receipt start and end;
+- counterparty;
+- explicit post-transfer receipt/control right;
 - low recurring human delivery.
 
-Do not lock onto property as the ontology. Do not use regulated securities or financial products. Do not reuse Scan 060-131 formations.
+Front-load durable buyer receipt coverage and receipt-to-entry economics before deep diligence. Do not ontology-lock to property. No regulated securities or financial products. No Scan 060-132 formation reuse.
 
 ## Guardrails
 
@@ -166,7 +160,7 @@ Do not lock onto property as the ontology. Do not use regulated securities or fi
 - PRIMARY RESEARCH DOMAIN = CHINA.
 - UNKNOWN != PASS.
 - Inference != fact.
-- Existing cashflow, contract term and post-transfer income rights must be bound to the same asset.
+- Existing cashflow, term and post-transfer income rights must bind to the same asset.
 - No recurring founder acquisition.
 - No recurring founder/expert delivery.
 - Generic-agent substitutability remains a hard attraction kill.
