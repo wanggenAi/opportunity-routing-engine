@@ -1,0 +1,181 @@
+{
+  "schema_version": "attraction-scan.v103",
+  "scan_id": "ATTRACTION_SCAN_138",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "FRESH_CURRENT_CHINA_CASHFLOW_ASSETS_ACROSS_PROPERTY_AND_ADJACENT_RIGHTS_WITH_EXACT_ASSET_ATTRIBUTABLE_RECEIPTS_AUTOMATIC_POST_TRANSFER_CONTINUITY_AT_LEAST_24_MONTHS_SOURCE_BOUND_FUTURE_RECEIPT_COVERAGE_COMPUTABLE_NON_DISQUALIFYING_ECONOMICS_AND_LOW_RECURRING_HUMAN_DELIVERY",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FRESH_CURRENT_ASSETS_AND_ADJACENT_RECEIPT_MECHANISMS_NO_SCAN060_TO_137_REUSE_EXPAND_SOURCE_AND_MECHANISM_DIVERSITY_BEFORE_ANY_GATE_RELAXATION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_135-F1",
+    "ATTRACTION_SCAN_136-F1",
+    "ATTRACTION_SCAN_136-F2",
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": true,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_138-F1",
+      "title": "CURRENT_CHENGDU_NANBOYUAN_SINGLE_UNIT_WITH_EXACT_POST_PREPAYMENT_RENT_BUT_WEAK_GROSS_ECONOMICS",
+      "chinese_title": "成都龙泉驿楠博苑17栋2单元4层6号二拍31.9618万元 → 2026-10-18起收益 → 1.1万元/年 → 租至2030-10-17",
+      "evidence_class": "CURRENT_SINGLE_ASSET_WITH_EXACT_ENTRY_EXACT_RENT_EXPLICIT_BUYER_INCOME_START_AND_OVER_24_MONTH_FUTURE_TERM_BUT_WEAK_RECEIPT_TO_ENTRY_ECONOMICS",
+      "evidence_summary": "A current Dazhu County People's Court second auction runs 2026-09-26 through 2026-09-27 for one Chengdu Longquanyi residential unit at RMB 319,618. The notice states an existing lease from 2022-06-18 through 2030-10-17, annual rent RMB 10,000 for the first four years and RMB 11,000 for the latter four years, rent paid through 2026-10-17, and the buyer's income right begins 2026-10-18. The forward annual rent of RMB 11,000 is approximately 3.44% of the auction floor before all costs. Exact cashflow continuity is unusually well bound, but the economics independently fail the current attraction lane.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_319618_SECOND_AUCTION_FLOOR",
+        "contracted_receipt_amount": "RMB_11000_PER_YEAR_FROM_CURRENT_POST_PREPAYMENT_PERIOD",
+        "buyer_receipt_start": "PASS_EXPLICIT_BUYER_INCOME_RIGHT_FROM_2026-10-18",
+        "buyer_receipt_end": "LEASE_END_2030-10-17",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "post_transfer_receipt_right": "PASS_EXPLICIT_BUYER_INCOME_RIGHT_FROM_2026-10-18",
+        "unprepaid_receipt_status": "PASS_RENT_PAID_ONLY_THROUGH_2026-10-17",
+        "low_recurring_human_delivery": "PARTIAL_PASS_NORMAL_LANDLORD_ADMINISTRATION",
+        "receipt_to_entry_economics": "FAIL_RMB11000_ANNUAL_RENT_DIVIDED_BY_RMB319618_FLOOR_APPROX_3_44_PERCENT_GROSS_BEFORE_COSTS"
+      },
+      "exact_disconfirmation": [
+        "Annual forward rent of RMB11,000 against RMB319,618 entry is approximately 3.44% gross before all ownership costs.",
+        "The notice already binds the buyer income start and multi-year future term, so missing continuity evidence cannot explain away the weak economics.",
+        "No external diligence is justified after the economics hard fail."
+      ],
+      "verdict": "DEMOTED_CURRENT_CHENGDU_RMB319618_SINGLE_UNIT_HAS_EXPLICIT_2026_10_18_BUYER_INCOME_AND_RENT_TO_2030_10_17_BUT_APPROX_3_44_PERCENT_GROSS_HARD_FAILS_CURRENT_ATTRACTION_ECONOMICS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_138-F2",
+      "title": "CURRENT_WUZHOU_TWO_SHOP_BUNDLE_WITH_EXACT_RENT_BUT_WEAK_ECONOMICS_AND_PHYSICAL_BOUNDARY_FRICTION",
+      "chinese_title": "梧州西环路中段68号1-51/1-52两商铺一拍27.2586万元 → 1000元/月 → 租至2029-07-15 → 与案外商铺打通",
+      "evidence_class": "CURRENT_TWO_TITLE_BUNDLE_WITH_EXACT_ENTRY_EXACT_RENT_AND_OVER_24_MONTH_TERM_BUT_WEAK_GROSS_ECONOMICS_AND_NON_SEPARATED_PHYSICAL_BOUNDARY",
+      "evidence_summary": "A current Wuzhou Changzhou District People's Court first auction runs 2026-10-20 through 2026-10-21 for two separately titled adjacent shops at a combined RMB 272,586 floor. The two auctioned shops are leased together from 2024-07-16 through 2029-07-15 at RMB 1,000/month paid quarterly, and are physically opened together with a neighboring non-auction shop. Annual rent is RMB 12,000, approximately 4.40% of the combined auction floor before costs. The weak economics plus the required post-sale boundary coordination fail the current lane.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_272586_COMBINED_FIRST_AUCTION_FLOOR_TWO_TITLES",
+        "contracted_receipt_amount": "RMB_1000_PER_MONTH_FOR_AUCTIONED_TWO_SHOP_USE",
+        "buyer_receipt_start": "PARTIAL_EXISTING_LEASE_AND_WITH_LEASE_SALE_BUT_EXACT_FIRST_BUYER_SETTLEMENT_NOT_STATED",
+        "buyer_receipt_end": "LEASE_END_2029-07-15",
+        "counterparty": "EXISTING_WAREHOUSE_TENANT_IDENTITY_NOT_PUBLIC",
+        "post_transfer_receipt_right": "PARTIAL_WITH_LEASE_SALE_GENERIC_CONTINUITY_NOT_CASE_SPECIFIC_FIRST_SETTLEMENT",
+        "unprepaid_receipt_status": "UNKNOWN_CURRENT_PAYMENT_CURSOR_NOT_PUBLIC",
+        "low_recurring_human_delivery": "FAIL_ADDITIONAL_BOUNDARY_COORDINATION_WITH_NEIGHBORING_NON_AUCTION_SHOP_REQUIRED",
+        "receipt_to_entry_economics": "FAIL_RMB12000_ANNUAL_RENT_DIVIDED_BY_RMB272586_FLOOR_APPROX_4_40_PERCENT_GROSS_BEFORE_COSTS"
+      },
+      "exact_disconfirmation": [
+        "Annual rent is RMB12,000 against RMB272,586 combined entry, approximately 4.40% gross before costs.",
+        "The auction includes two titles rather than one economically separable title.",
+        "Both auctioned shops are physically opened into a neighboring non-auction shop, and the court states future area separation requires coordination with that owner."
+      ],
+      "verdict": "DEMOTED_CURRENT_WUZHOU_RMB272586_TWO_SHOP_BUNDLE_HAS_RMB12000_ANNUAL_RENT_TO_2029_07_15_BUT_APPROX_4_40_PERCENT_GROSS_AND_PHYSICAL_BOUNDARY_COORDINATION_FAIL_CURRENT_LANE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_138-F3",
+      "title": "CURRENT_XUZHOU_GREEN_WINDOW_SINGLE_SHOP_WITH_EXPLICIT_BUYER_REMAINING_RENT_RIGHT_BUT_MISSING_RENT_QUANTUM",
+      "chinese_title": "徐州绿地之窗商业广场1-113一拍62.4015万元 → 剩余未交租金归买受人 → 租至2030-04-06 → 公开租金额缺失",
+      "evidence_class": "CURRENT_SINGLE_ASSET_WITH_EXACT_ENTRY_EXPLICIT_REMAINING_UNPAID_RENT_TO_BUYER_AND_OVER_24_MONTH_TERM_BUT_NO_PUBLIC_CONTRACTED_RECEIPT_QUANTUM",
+      "evidence_summary": "A current Xuzhou Quanshan District People's Court first auction runs 2026-10-05 through 2026-10-06 for one 59.43 sqm commercial unit at RMB 624,015. The notice states an existing lease from 2025-04-06 through 2030-04-06, annual payment cadence, and explicitly says remaining unpaid rent during the lease belongs to the buyer. However, the public page does not publish the rent amount and directs readers to the lease contract/court consultation. Because the exact contracted receipt quantum is missing, receipt-to-entry economics are non-computable and fail closed.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_624015_FIRST_AUCTION_FLOOR",
+        "contracted_receipt_amount": "UNKNOWN_NOT_PUBLIC_ON_RETRIEVED_NOTICE",
+        "buyer_receipt_start": "PASS_REMAINING_UNPAID_RENT_DURING_LEASE_BELONGS_TO_BUYER_EXACT_PAYMENT_CURSOR_UNKNOWN",
+        "buyer_receipt_end": "LEASE_END_2030-04-06",
+        "counterparty": "EXISTING_OCCUPANT_TENANT_IDENTITY_NOT_PUBLIC",
+        "post_transfer_receipt_right": "PASS_EXPLICIT_REMAINING_UNPAID_RENT_BELONGS_TO_BUYER",
+        "unprepaid_receipt_status": "PARTIAL_REMAINING_UNPAID_RENT_EXISTS_BUT_CURRENT_PAYMENT_CURSOR_NOT_PUBLIC",
+        "low_recurring_human_delivery": "PARTIAL_PASS_NORMAL_LANDLORD_ADMINISTRATION",
+        "receipt_to_entry_economics": "FAIL_CANNOT_COMPUTE_CONTRACTED_RENT_AMOUNT_NOT_PUBLIC_UNKNOWN_IS_NOT_PASS"
+      },
+      "exact_disconfirmation": [
+        "The auction binds exact entry, one title, lease end and explicit buyer right to remaining unpaid rent.",
+        "The contracted rent amount is absent from the public notice, so no gross or net receipt-to-entry ratio can be verified.",
+        "Court consultation/source lease would be external evidence and is not justified for promotion without a public economic tuple."
+      ],
+      "verdict": "DEMOTED_CURRENT_XUZHOU_RMB624015_SINGLE_SHOP_HAS_EXPLICIT_BUYER_REMAINING_RENT_RIGHT_TO_2030_04_06_BUT_PUBLIC_CONTRACTED_RENT_QUANTUM_IS_UNBOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_138-F4",
+      "title": "CURRENT_MIANYANG_MIXED_REGISTERED_UNREGISTERED_ASSET_WITH_EXACT_RENT_BUT_UNBOUND_BUYER_SETTLEMENT",
+      "chinese_title": "绵阳安州益昌路商住混合资产一拍146.706万元 → 8万元/年 → 已付至2027-09 → 租至2032-09 → 含194.4㎡未办证建筑",
+      "evidence_class": "CURRENT_MIXED_COMMERCIAL_RESIDENTIAL_ASSET_WITH_EXACT_ENTRY_EXACT_RENT_LONG_TERM_AND_PREPAYMENT_CURSOR_BUT_UNREGISTERED_BUILDINGS_AND_NO_EXPLICIT_CASE_SPECIFIC_BUYER_RENT_START",
+      "evidence_summary": "A current Mianyang Anzhou District People's Court first auction runs 2026-10-15 through 2026-10-16 for a mixed commercial/residential property plus unregistered structures at RMB 1,467,060. The notice states annual rent RMB 80,000, lease through 2032-09 and rent already paid through 2027-09. Registered area is 467.64 sqm plus 194.4 sqm of unregistered buildings whose title transfer is not guaranteed. The annual public rent is about 5.45% of the auction floor before costs, but the current notice does not bind the exact first post-transfer buyer rent settlement or allocation of prepaid rent, and the bundle contains material unregistered structures. Under the exact economically-separable asset rule, it fails closed rather than inferring continuity.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_1467060_FIRST_AUCTION_FLOOR",
+        "contracted_receipt_amount": "RMB_80000_PER_YEAR",
+        "buyer_receipt_start": "UNKNOWN_RENT_PAID_THROUGH_2027_09_CASE_SPECIFIC_BUYER_SETTLEMENT_AND_PREPAID_ALLOCATION_NOT_PUBLIC",
+        "buyer_receipt_end": "LEASE_END_2032-09",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC",
+        "post_transfer_receipt_right": "UNKNOWN_NO_EXPLICIT_CASE_SPECIFIC_BUYER_RENT_START_IN_RETRIEVED_NOTICE",
+        "unprepaid_receipt_status": "PARTIAL_FUTURE_RENT_AFTER_2027_09_EXISTS_CONTRACTUALLY_BUT_BUYER_ALLOCATION_NOT_BOUND",
+        "low_recurring_human_delivery": "PARTIAL_MIXED_USE_AND_UNREGISTERED_BUILDING_RISK_ADD_ADMINISTRATION",
+        "receipt_to_entry_economics": "PARTIAL_RMB80000_ANNUAL_RENT_DIVIDED_BY_RMB1467060_FLOOR_APPROX_5_45_PERCENT_GROSS_BEFORE_COSTS_NOT_PROMOTABLE_WITH_RIGHTS_UNKNOWN"
+      },
+      "exact_disconfirmation": [
+        "The auction bundle mixes registered commercial/residential property with 194.4 sqm of unregistered construction.",
+        "Rent is prepaid through 2027-09 and the current notice does not bind the case-specific first buyer settlement or prepaid-rent allocation.",
+        "Approximately 5.45% gross before costs is not used to override missing buyer-side receipt continuity or title complexity."
+      ],
+      "verdict": "DEMOTED_CURRENT_MIANYANG_RMB1467060_MIXED_ASSET_HAS_RMB80000_ANNUAL_RENT_TO_2032_09_BUT_UNREGISTERED_BUILDINGS_AND_UNBOUND_POST_PREPAYMENT_BUYER_SETTLEMENT_FAIL_EXACT_CASHFLOW_GATE"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_HEZE_TIANYING_INDUSTRIAL_ASSET_WITH_ROOFTOP_PV_LEASE",
+      "source_url": "https://www.ixbang.com/bid/detail/887E7EA408BBB40C1BEE4DFC98BD10C6.html",
+      "reason": "Fresh 2026-09-23 to 2026-09-24 bankruptcy auction broadens mechanism diversity: buyer must continue a rooftop distributed-PV lease through 2040-04-30, but rent through 2030-10-31 has already been collected by the debtor, buyer rent starts only 2030-11-01, and the public source masks the annual rent amount. It therefore cannot satisfy current inherited-receipt coverage or computable economics."
+    },
+    {
+      "observation": "KNOWN_SCAN131_23_HAINAN_EV_CHARGING_STATIONS",
+      "reason": "Current search resurfaced the previously consumed Scan131 mechanism; excluded as historical formation reuse rather than presented as fresh evidence."
+    },
+    {
+      "observation": "KNOWN_SCAN136_SHANGHAI_PUDONG_AVENUE_1700_LANE_33_ROOM_201",
+      "reason": "Current search resurfaced exact Scan136 F3; excluded by exact-address no-reuse rule."
+    }
+  ],
+  "drift_audit": {
+    "primary_domain_is_china": true,
+    "fresh_current_primary_formations_only": true,
+    "exact_repository_dedup_completed_for_primary_addresses": true,
+    "source_and_mechanism_diversity_expanded": true,
+    "rooftop_pv_receipt_mechanism_tested_as_excluded_observation": true,
+    "exact_asset_receipt_amount_required": true,
+    "automatic_post_transfer_contract_continuity_required": true,
+    "minimum_24_month_source_bound_receipt_coverage_required": true,
+    "receipt_to_entry_economics_front_loaded": true,
+    "mixed_registered_unregistered_bundle_fail_closed": true,
+    "unknown_is_not_pass": true,
+    "research_retention_is_not_commercial_promotion": true,
+    "no_bid_deposit_purchase_or_external_contact_authority": true,
+    "low_recurring_human_delivery_independent_gate": true,
+    "gate_relaxation": false
+  },
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Scan 138 expanded source/mechanism diversity but retained zero formations. Chengdu binds unusually complete buyer-side cashflow continuity yet only about 3.44% nominal gross. Wuzhou is about 4.40% gross and adds a two-title/non-auction-neighbor boundary problem. Xuzhou explicitly assigns remaining unpaid rent to the buyer but omits the rent quantum. Mianyang exposes RMB80k/year to 2032 but mixes registered/unregistered structures and does not bind post-prepayment buyer settlement. A fresh Heze rooftop-PV lease observation proves long contractual continuity, but buyer rent begins only in late 2030 and annual rent is masked."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_139",
+  "next_search_boundary": "AFTER_EXACT_HEAD_CI_AND_LIVE_TYPESAFE_JEV_ON_SCAN138_ADVANCE_TO_FRESH_SCAN139_IF_ALL_ROUTES_ARE_NO_FURTHER_RESEARCH_OR_CONSUME_ONLY_REVERSIBLE_DIRECTIVES_EXPAND_MECHANISM_DIVERSITY_NO_SCAN060_TO_138_REUSE_NO_GATE_RELAXATION",
+  "next_action": "FREEZE_SCAN138_HEAD_OPEN_ONE_PR_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_INPUT_SCAN_ID_ATTRACTION_SCAN_138_ENTITY_COUNT_4_CONSUME_ANY_REVERSIBLE_ROUTE_THEN_ADVANCE_TO_SCAN139",
+  "scan_learnings": [
+    "EXPLICIT_BUYER_INCOME_START_AND_FOUR_YEAR_FUTURE_TERM_CAN_BE FULLY_BOUND_YET_STILL_FAIL_WHEN NOMINAL_GROSS_ECONOMICS_ARE_ONLY_APPROX_3_44_PERCENT.",
+    "TWO_TITLE_ASSETS_PHYSICALLY_OPENED_INTO_NON_AUCTION_PROPERTY_CREATE_COORDINATION_LABOR_AND_CONTROL_FRICTION_INDEPENDENT_OF_RENT.",
+    "EXPLICIT_RIGHT_TO_REMAINING_UNPAID_RENT_WITHOUT_PUBLIC_RENT_QUANTUM_REMAINS_NONCOMPUTABLE_AND_FAIL_CLOSED.",
+    "MIXED_REGISTERED_UNREGISTERED_ASSETS_WITH_PREPAID_RENT_REQUIRE_CASE_SPECIFIC_BUYER_SETTLEMENT_EVIDENCE_BEFORE_ANY RECEIPT_CONTINUITY CLAIM.",
+    "LONG_ROOFTOP_PV_LEASES_CAN_SURVIVE ASSET_TRANSFER_BUT PREPAID_RENT_TO_2030 DESTROYS NEAR_TERM BUYER RECEIPT CONTINUITY."
+  ],
+  "source_urls": [
+    "https://m.fang.com/fapai/cd/out_12721473.html",
+    "https://www.sohu.com/a/1077207807_122455197",
+    "https://m.fang.com/fapai/xz/out_12714186.html",
+    "https://m.fang.com/fapai/mianyang/out_12749671.html",
+    "https://www.ixbang.com/bid/detail/887E7EA408BBB40C1BEE4DFC98BD10C6.html"
+  ]
+}
