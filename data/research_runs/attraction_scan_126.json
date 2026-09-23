@@ -51,7 +51,7 @@
       ],
       "price_cost_signal": [
         "FX snapshot used for this research: 1 USD approximately RMB6.701.",
-        "USD100 predefined site-audit buyer budget leaves approximately RMB569.6 after a conservative 15% freelancer fee; against a same-family RMB80-200 public short-video/multi-point worker payout signal, raw headroom is approximately RMB369.6 at the high worker-payout bound before travel/QA/rework.",
+        "USD100 predefined site-audit buyer budget creates large same-family screening headroom, but the buyer scope includes facility observation, staff interaction and an English predefined report; a same-scope local executor quote is still required before margin inference.",
         "USD25 retail-shop budget leaves approximately RMB142.4 after a 15% freelancer fee; against RMB30-80 basic-photo payout, raw headroom is approximately RMB62.4 at the high payout bound before travel/QA/rework.",
         "USD4 site-visit budget leaves approximately RMB22.8 after a 15% freelancer fee, below the RMB30 basic-photo payout floor before travel; reject."
       ],
@@ -63,10 +63,10 @@
       ],
       "task_class_boundary": {
         "first_bootstrap_likely": [
-          "RETAIL_SHELF_OR_SHOP_PHOTO_EVIDENCE",
-          "PREDEFINED_NONTECHNICAL_COMMERCIAL_SITE_OBSERVATION"
+          "RETAIL_SHELF_OR_SHOP_PHOTO_EVIDENCE"
         ],
         "conditional": [
+          "PREDEFINED_NONTECHNICAL_COMMERCIAL_SITE_OBSERVATION_PENDING_SAME_SCOPE_EXECUTOR_QUOTE",
           "SHOWROOM_VIDEO_PHOTO_CAPTURE_WITH_LIMITED_STAFF_QA"
         ],
         "exclude_initial": [
