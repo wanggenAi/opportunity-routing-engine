@@ -29,7 +29,7 @@ SCAN153_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 `research/scan153-broad-reality-transition-flows`.
 
 ## Active PR
-Not opened yet; create the Scan 153 PR after this checkpoint commit.
+PR #467 — `Run Scan 153 broad-reality transition flows` — OPEN.
 
 ## CI
 - Scan 153 exact-head repository CI: PENDING.
@@ -58,7 +58,7 @@ Three fields already expose accountable platform-owned execution loops. Two reta
 No human blocker. Exact-head repository CI and real TypeSafe/Jev are pending.
 
 ## Next Action
-Open the Scan153 PR, require exact-head repository CI + real TypeSafe/Jev, consume any reversible route Jev returns, otherwise merge and advance to Scan154.
+Freeze PR #467 exact head, require exact-head repository CI + real TypeSafe/Jev, consume any reversible route Jev returns, otherwise merge and advance to Scan154.
 
 ## Do Not Repeat
 - Do not reopen Scan152 access-infrastructure fields without genuinely new contradictory evidence.
