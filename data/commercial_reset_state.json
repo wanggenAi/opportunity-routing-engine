@@ -251,7 +251,7 @@
   "last_completed_scan_id": "ATTRACTION_SCAN_135",
   "last_resolved_formation_id": "ATTRACTION_SCAN_135-F4",
   "next_scan_id": "ATTRACTION_SCAN_136",
-  "current_research_action": "VALIDATE_SCAN135_ON_EXACT_HEAD_WITH_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_REQUIRE_INPUT_SCAN_ID_ATTRACTION_SCAN_135_ENTITY_COUNT_4_KEEP_F1_NON_AUTHORITATIVE_RESEARCH_ONLY_KEEP_F2_F3_F4_AUTHORITATIVELY_CLOSED_THEN_CONSUME_ACTUAL_JEV_ROUTE_FOR_F1_WITHOUT_COMMERCIAL_PROMOTION",
+  "current_research_action": "START_ATTRACTION_SCAN_136_FRESH_CURRENT_CHINA_SINGLE_OR_ECONOMICALLY_SEPARABLE_ASSET_SEARCH_AFTER_SCAN135_F1_PUBLIC_CAUSAL_DESCENT_EXHAUSTED_AND_BLOCKED_ON_EXTERNAL_WRITTEN_EVIDENCE_NO_SCAN060_TO_135_REUSE_NO_GATE_RELAXATION",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -1822,5 +1822,29 @@
     ],
     "next_scan_id": "ATTRACTION_SCAN_136",
     "next_action": "EXACT_HEAD_CI_AND_LIVE_JEV_THEN_FOLLOW_F1_RESEARCH_ROUTE_WITHOUT_COMMERCIAL_PROMOTION"
+  },
+  "scan135_f1_causal_descent": {
+    "source_pr": 443,
+    "source_pr_exact_head": "89afbb813ccccae249092724b88b752e1fe55661",
+    "repository_ci_run_id": 35828037496,
+    "jev_run_id": 35828037593,
+    "jev_artifact_id": 10735528864,
+    "jev_artifact_digest": "sha256:65c77f37f7cebbe987b1388eefd167ba4e89ea305a2be4bc68121ac8c2375640",
+    "jev_input_scan_id": "ATTRACTION_SCAN_135",
+    "jev_entity_count": 4,
+    "jev_effective_route": "CAUSAL_DESCENT",
+    "jev_route_consumed": true,
+    "public_research_resolution": "EXHAUSTED",
+    "evidence_artifact": "data/research_runs/scan135_f1_causal_descent_evidence.json",
+    "report": "docs/research/SCAN135_F1_CAUSAL_DESCENT_2026-09-23.md",
+    "formation_status": "RETAINED_RESEARCH_BLOCKED_ON_EXTERNAL_WRITTEN_EVIDENCE",
+    "next_evidence_class": "EXTERNAL_WRITTEN_COURT_OR_AUCTION_ASSISTANCE_CONFIRMATION_OR_SOURCE_DOCUMENT",
+    "external_contact_performed": false,
+    "external_contact_authorized": false,
+    "scan136_gate_unblocked": true,
+    "commercial_promotion": false,
+    "bid_authorized": false,
+    "deposit_authorized": false,
+    "purchase_authorized": false
   }
 }
