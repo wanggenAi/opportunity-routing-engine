@@ -1,0 +1,173 @@
+{
+  "schema_version": "attraction-scan.v103",
+  "scan_id": "ATTRACTION_SCAN_137",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CURRENT_SINGLE_OR_ECONOMICALLY_SEPARABLE_CHINA_ASSETS_WITH_EXACT_ASSET_ATTRIBUTABLE_RECEIPTS_AUTOMATIC_POST_TRANSFER_CONTINUITY_AT_LEAST_24_MONTHS_SOURCE_BOUND_FUTURE_RECEIPT_COVERAGE_COMPUTABLE_NON_DISQUALIFYING_ECONOMICS_AND_LOW_RECURRING_HUMAN_DELIVERY",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FRESH_CURRENT_ASSETS_ONLY_NO_SCAN060_TO_136_REUSE_FRONT_LOAD_EXACT_RECEIPT_QUANTUM_POST_TRANSFER_RIGHT_DURATION_AND_GROSS_ECONOMICS_NO_GATE_RELAXATION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_135-F1",
+    "ATTRACTION_SCAN_136-F1",
+    "ATTRACTION_SCAN_136-F2",
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": true,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_137-F1",
+      "title": "CURRENT_GUIYANG_SINGLE_LEASED_UNIT_WITH_EXACT_RENT_BUT_WEAK_GROSS_ECONOMICS",
+      "chinese_title": "贵阳花果园A南4栋35层2号变卖48.3004万元 → 11760元/半年 → 租至2029-08-01",
+      "evidence_class": "CURRENT_SINGLE_LEGAL_ASSET_WITH_EXACT_ENTRY_EXACT_RENT_AND_OVER_24_MONTH_LEASE_TERM_BUT_WEAK_RECEIPT_TO_ENTRY_ECONOMICS_AND_BUYER_SETTLEMENT_START_UNBOUND",
+      "evidence_summary": "A current Guiyang Nanming District People's Court change sale runs from 2026-09-23 through 2026-11-21 for one 108.68 sqm residential legal unit at RMB 483,004. The notice states a lease from 2021-05-01 through 2029-08-01 with RMB 11,760 rent every six months, or RMB 23,520 annualized. That is approximately 4.87% nominal gross against the change-sale price before all taxes, transfer costs, vacancy, repairs and other ownership costs. The public notice does not bind the exact first buyer rent settlement after transfer. The weak gross ratio independently fails the current attraction lane, so no deeper diligence is justified.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_483004_CHANGE_SALE_PRICE",
+        "contracted_receipt_amount": "RMB_11760_PER_HALF_YEAR_RMB_23520_ANNUALIZED",
+        "buyer_receipt_start": "UNKNOWN_AUCTION_NOTICE_STATES_EXISTING_LEASE_BUT_DOES_NOT_BIND_EXACT_FIRST_BUYER_SETTLEMENT",
+        "buyer_receipt_end": "LEASE_END_2029-08-01",
+        "counterparty": "EXISTING_TENANT_IDENTITY_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "post_transfer_receipt_right": "PARTIAL_GENERIC_LEASE_CONTINUITY_NOT_ENOUGH_TO_BIND_CASE_SPECIFIC_FIRST_BUYER_SETTLEMENT",
+        "unprepaid_receipt_status": "UNKNOWN_CURRENT_PAYMENT_CURSOR_NOT_PUBLIC",
+        "low_recurring_human_delivery": "PARTIAL_PASS_NORMAL_LANDLORD_ADMINISTRATION",
+        "receipt_to_entry_economics": "FAIL_RMB23520_ANNUAL_NOMINAL_RENT_DIVIDED_BY_RMB483004_PRICE_APPROX_4_87_PERCENT_GROSS_BEFORE_COSTS"
+      },
+      "exact_disconfirmation": [
+        "Annualized public rent is RMB 23,520 against a RMB 483,004 change-sale price, approximately 4.87% gross before all costs.",
+        "The exact first buyer receipt settlement and current rent-payment cursor are not public.",
+        "Weak economics independently close the formation without spending external validation capital."
+      ],
+      "verdict": "DEMOTED_CURRENT_GUIYANG_RMB483004_LEASED_UNIT_HAS_EXACT_RMB23520_ANNUAL_RENT_TO_2029_08_01_BUT_APPROX_4_87_PERCENT_GROSS_HARD_FAILS_CURRENT_ATTRACTION_ECONOMICS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_137-F2",
+      "title": "CURRENT_CILI_COMMERCIAL_ASSET_WITH_TWO_EXACT_RENTS_BUT_WEAK_AGGREGATE_ECONOMICS",
+      "chinese_title": "慈利环城南路12幢111室一拍300万元 → 汽修5万元/年 + 餐饮5万元/年",
+      "evidence_class": "CURRENT_SINGLE_REGISTERED_COMMERCIAL_ASSET_WITH_EXACT_ENTRY_AND_EXACT_AGGREGATE_RENT_BUT_WEAK_RECEIPT_TO_ENTRY_ECONOMICS",
+      "evidence_summary": "A current Cili County People's Court first auction runs 2026-10-19 through 2026-10-20 for one 508.79 sqm commercial property at RMB 3,000,000. The public notice states an auto-repair lease from 2021 through 2031 at RMB 50,000/year and a restaurant lease from 2024 through 2029 at RMB 50,000/year. Even granting the full public aggregate RMB 100,000/year, nominal gross rent is only about 3.33% of entry price before costs. The notice excerpt does not bind the exact post-transfer rent allocation or tenant-area split, but those unknowns cannot rescue the hard economics failure.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_3000000_FIRST_AUCTION_PRICE",
+        "contracted_receipt_amount": "RMB_100000_PER_YEAR_AGGREGATE_TWO_PUBLIC_LEASES",
+        "buyer_receipt_start": "UNKNOWN_EXACT_POST_TRANSFER_ALLOCATION_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "buyer_receipt_end": "AUTO_REPAIR_TO_2031_RESTAURANT_TO_2029",
+        "counterparty": "TWO_EXISTING_TENANTS_IDENTITIES_NOT_PUBLIC_IN_RETRIEVED_NOTICE",
+        "post_transfer_receipt_right": "UNKNOWN_CASE_SPECIFIC_FIRST_BUYER_SETTLEMENT_NOT_PUBLIC",
+        "unprepaid_receipt_status": "UNKNOWN_PAYMENT_LEDGER_NOT_PUBLIC",
+        "low_recurring_human_delivery": "PARTIAL_PASS_NORMAL_MULTI_TENANT_LANDLORD_ADMINISTRATION",
+        "receipt_to_entry_economics": "FAIL_RMB100000_AGGREGATE_ANNUAL_RENT_DIVIDED_BY_RMB3000000_PRICE_APPROX_3_33_PERCENT_GROSS_BEFORE_COSTS"
+      },
+      "exact_disconfirmation": [
+        "Public aggregate annual rent is RMB 100,000 against a RMB 3,000,000 entry price, approximately 3.33% gross before costs.",
+        "Two separate tenant flows add administration and settlement ambiguity rather than improving the weak gross ratio.",
+        "Economics hard-fail before deeper title, ledger or transfer research."
+      ],
+      "verdict": "DEMOTED_CURRENT_CILI_RMB3000000_COMMERCIAL_ASSET_HAS_RMB100000_AGGREGATE_ANNUAL_RENT_BUT_APPROX_3_33_PERCENT_GROSS_HARD_FAILS_CURRENT_ATTRACTION_ECONOMICS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_137-F3",
+      "title": "CURRENT_HANGZHOU_MANAGED_SHOP_WITH_EXPLICIT_BUYER_RENT_RIGHT_BUT_MISSING_RECEIPT_QUANTUM",
+      "chinese_title": "杭州新明商业中心2幢2-101室一拍99.1万元 → 确权后享租金 → 租至2029-05-31 → 公开租金额缺失",
+      "evidence_class": "CURRENT_SINGLE_ASSET_WITH_EXACT_ENTRY_EXPLICIT_POST_CONFIRMATION_BUYER_RENT_RIGHT_AND_OVER_24_MONTH_TERM_BUT_NO_PUBLIC_CONTRACTED_RECEIPT_QUANTUM",
+      "evidence_summary": "A current Haining People's Court first auction runs 2026-09-23 through 2026-09-24 for one 110.25 sqm Hangzhou commercial unit at RMB 991,000. The property is under a management agreement through 2032-09-12 and a lease from 2026-06-01 through 2029-05-31; the buyer may enjoy rent from the date title is confirmed. However, the retrieved public page does not state the contracted rent amount, so receipt-to-entry economics cannot be computed without an attachment or source document. Public arrears of RMB 59,535 in property fees through 2026-09-12 add cost exposure but do not substitute for a receipt quantum.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_991000_FIRST_AUCTION_PRICE",
+        "contracted_receipt_amount": "UNKNOWN_NOT_PUBLIC_ON_RETRIEVED_PAGE",
+        "buyer_receipt_start": "PASS_EXPLICIT_FROM_POST_TRANSACTION_TITLE_CONFIRMATION_DATE",
+        "buyer_receipt_end": "LEASE_END_2029-05-31",
+        "counterparty": "MANAGED_BY_ZHONGTONG_COMMERCIAL_MANAGEMENT_HANGZHOU_CO_LTD_TENANT_IDENTITY_NOT_BOUND",
+        "post_transfer_receipt_right": "PASS_EXPLICIT_BUYER_MAY_ENJOY_RENT_FROM_TITLE_CONFIRMATION",
+        "unprepaid_receipt_status": "UNKNOWN_PAYMENT_SCHEDULE_AND_LEDGER_NOT_PUBLIC",
+        "low_recurring_human_delivery": "PARTIAL_PASS_UNIFIED_MANAGEMENT_EXISTS",
+        "receipt_to_entry_economics": "FAIL_CANNOT_COMPUTE_CONTRACTED_RECEIPT_QUANTUM_IS_NOT_PUBLIC_UNKNOWN_IS_NOT_PASS"
+      },
+      "exact_disconfirmation": [
+        "The exact RMB 991,000 entry and post-confirmation buyer rent right are public.",
+        "The contracted rent quantum is not public on the retrieved source, so no economic tuple can be promoted.",
+        "Property-fee arrears of RMB 59,535 are a cost fact, not evidence of income."
+      ],
+      "verdict": "DEMOTED_CURRENT_HANGZHOU_RMB991000_MANAGED_SHOP_HAS_EXPLICIT_POST_CONFIRMATION_BUYER_RENT_AND_TERM_TO_2029_05_31_BUT_PUBLIC_RECEIPT_QUANTUM_IS_UNBOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_137-F4",
+      "title": "CURRENT_RONGCHANG_MALL_UNIT_WITH_POOLED_PERCENTAGE_RENT_FORMULA_AND_NO_CURRENT_CONTRACTED_RECEIPT",
+      "chinese_title": "重庆荣昌广场路115号3-160号一拍11.473万元 → 后五年按商场实际租金90% → 单资产租金不可绑定",
+      "evidence_class": "CURRENT_SMALL_ENTRY_ASSET_WITH_LONG_MANAGEMENT_AGREEMENT_BUT_POOLED_VARIABLE_RECEIPT_FORMULA_EMPTY_CURRENT_UNIT_AND_NO_ASSET_ATTRIBUTABLE_CONTRACTED_CASHFLOW",
+      "evidence_summary": "A current Rongchang District People's Court first auction runs 2026-09-23 through 2026-09-24 for a 15.61 sqm mall unit at RMB 114,730. The unit is physically opened into surrounding property, currently empty and still under a 2020-05-01 to 2030-04-30 management agreement. The agreement pays RMB 1/year for the first five years and 90% of the mall's actual rent for the last five years. The source does not publish a unit-attributable current rent, and current emptiness means no existing contracted receipt is bound. A pooled percentage formula is not an exact asset-level cashflow and cannot satisfy the scan gate.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_114730_FIRST_AUCTION_PRICE",
+        "contracted_receipt_amount": "FAIL_NO_ASSET_ATTRIBUTABLE_CONTRACTED_RECEIPT_90_PERCENT_OF_MALL_ACTUAL_RENT_FORMULA",
+        "buyer_receipt_start": "UNKNOWN_DEPENDS_ON_MANAGEMENT_AGREEMENT_AND_ACTUAL_FUTURE_LEASING",
+        "buyer_receipt_end": "MANAGEMENT_AGREEMENT_TO_2030-04-30_SUBJECT_TO_OPENING_DELAY_EXTENSION",
+        "counterparty": "XINERTAI_PROPERTY_MANAGEMENT_CHONGQING_CO_LTD",
+        "post_transfer_receipt_right": "PARTIAL_MANAGEMENT_AGREEMENT_EXISTS_BUT_BUYER_SUCCESSION_AND_UNIT_RECEIPT_NOT_BOUND_IN_RETRIEVED_TEXT",
+        "unprepaid_receipt_status": "NOT_APPLICABLE_NO_CURRENT_UNIT_CONTRACTED_RECEIPT_BOUND",
+        "low_recurring_human_delivery": "PARTIAL_MANAGEMENT_COMPANY_OPERATES_MALL_BUT_UNIT_IS_CURRENTLY_EMPTY",
+        "receipt_to_entry_economics": "FAIL_POOLED_VARIABLE_90_PERCENT_OF_MALL_ACTUAL_RENT_IS_NOT_ASSET_ATTRIBUTABLE_COMPUTABLE_CONTRACTED_RECEIPT"
+      },
+      "exact_disconfirmation": [
+        "The current unit is stated to be empty.",
+        "The last-five-year owner payment is a pooled 90% of actual mall rent, not an exact contracted unit receipt.",
+        "The asset is not separately physically distinguishable on site and remains a large-certificate unit requiring subdivision handling."
+      ],
+      "verdict": "DEMOTED_CURRENT_RONGCHANG_RMB114730_MALL_UNIT_HAS_LONG_MANAGEMENT_AGREEMENT_BUT_CURRENT_UNIT_IS_EMPTY_AND_90_PERCENT_OF_MALL_ACTUAL_RENT_FORMULA_IS_NOT_ASSET_ATTRIBUTABLE_CONTRACTED_RECEIPT"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "CURRENT_SHORT_REMAINING_LEASE_ASSETS",
+      "reason": "Current leased assets whose public remaining term is below 24 months are rejected before deep diligence even when buyer succession is stated."
+    },
+    {
+      "observation": "CURRENT_MIXED_OR_MULTI_FLOW_ASSETS_WITH_HIDDEN_RENT",
+      "reason": "Fresh listings with mixed property components, multiple tenant flows or attachment-only rent remain excluded when exact asset-attributable economics cannot be bound."
+    }
+  ],
+  "drift_audit": {
+    "primary_domain_is_china": true,
+    "fresh_current_assets_only": true,
+    "exact_address_dedup_against_scan060_to_136_completed": true,
+    "exact_asset_receipt_amount_required": true,
+    "automatic_post_transfer_contract_continuity_required": true,
+    "minimum_24_month_source_bound_receipt_coverage_required": true,
+    "receipt_to_entry_economics_front_loaded": true,
+    "pooled_or_percentage_only_receipts_rejected": true,
+    "attachment_only_decisive_economics_rejected": true,
+    "unknown_is_not_pass": true,
+    "research_retention_is_not_commercial_promotion": true,
+    "no_bid_deposit_purchase_or_external_contact_authority": true,
+    "low_recurring_human_delivery_independent_gate": true,
+    "gate_relaxation": false
+  },
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Scan 137 produced zero retained formations. Guiyang and Cili have exact public rent but fail gross economics at approximately 4.87% and 3.33%. Hangzhou binds exact price, term and explicit post-confirmation buyer rent right but omits the contracted rent quantum. Rongchang offers a low entry price but only a pooled 90%-of-mall-actual-rent formula while the unit is currently empty. No UNKNOWN was upgraded to PASS."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_138",
+  "next_search_boundary": "AFTER_EXACT_HEAD_CI_AND_LIVE_TYPESAFE_JEV_ON_SCAN137_ADVANCE_TO_FRESH_SCAN138_IF_ALL_ROUTES_ARE_NO_FURTHER_RESEARCH_OR_OTHERWISE_CONSUME_ONLY_REVERSIBLE_DIRECTIVES_NO_SCAN060_TO_137_REUSE_NO_GATE_RELAXATION",
+  "next_action": "FREEZE_SCAN137_HEAD_OPEN_ONE_PR_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_INPUT_SCAN_ID_ATTRACTION_SCAN_137_ENTITY_COUNT_4_CONSUME_ANY_REVERSIBLE_ROUTE_THEN_ADVANCE_TO_SCAN138",
+  "scan_learnings": [
+    "EXACT_CURRENT_RENT_PLUS_LONG_TERM_DOES_NOT_CLEAR_THE_CURRENT_LANE_WHEN_GROSS_RECEIPT_TO_ENTRY_ECONOMICS_ARE_ONLY_APPROX_3_33_TO_4_87_PERCENT.",
+    "EXPLICIT_BUYER_RENT_SUCCESSION_WITHOUT_A_PUBLIC_CONTRACTED_RECEIPT_QUANTUM_REMAINS_NONCOMPUTABLE_AND_FAIL_CLOSED.",
+    "POOLED_PERCENTAGE_OF_MALL_ACTUAL_RENT_IS_NOT_ASSET_ATTRIBUTABLE_CONTRACTED_CASHFLOW_ESPECIALLY_WHEN_THE_UNIT_IS_CURRENTLY_EMPTY.",
+    "FRONT_LOADING_RECEIPT_QUANTUM_AND_GROSS_ECONOMICS_KILLS_WEAK_CURRENT_ASSETS_BEFORE_EXTERNAL_DILIGENCE_CAPITAL_IS_SPENT."
+  ],
+  "source_urls": [
+    "https://m.fang.com/fapai/gy/out_12719238.html",
+    "https://www.sohu.com/a/1077810395_122455197",
+    "https://m.fang.com/fapai/hz/out_12654829.html",
+    "https://m.fang.com/fapai/cq/out_12654792.html"
+  ]
+}
