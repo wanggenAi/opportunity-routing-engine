@@ -29,7 +29,7 @@ SCAN161_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 `research/scan161-expansion-modular-operations`.
 
 ## Active PR
-Not opened yet. Create the Scan 161 PR after this checkpoint and freeze its exact head.
+PR #476 — `Run Scan 161 expansion modular operations sweep` — OPEN.
 
 ## CI
 - Scan 161 exact-head repository CI: PENDING.
@@ -60,7 +60,7 @@ A named, explicit enterprise pain point is still not enough. Scan161's best case
 No human blocker. Scan 161 exact-head repository CI and real TypeSafe/Jev are pending.
 
 ## Next Action
-Open/freeze the Scan 161 PR exact head; require exact-head repository CI + live TypeSafe/Jev; consume any reversible route, otherwise merge and advance to Scan 162.
+Freeze PR #476 exact head; require exact-head repository CI + live TypeSafe/Jev; consume any reversible route, otherwise merge and advance to Scan 162.
 
 ## Do Not Repeat
 Do not re-scan Scan142–161 domains as new ontology; do not treat explicit enterprise pain as proof of a missing connection; do not duplicate government/park/incumbent intake rails; do not infer buyer motion from intended customers; do not weaken `UNKNOWN != PASS`.
@@ -75,7 +75,7 @@ Use `state/chatgpt-recovery` only as control-plane recovery state; live GitHub r
 None.
 
 ## Resume Cursor
-Scan 161 artifacts are persisted on `research/scan161-expansion-modular-operations`; PR creation and exact-head validation remain.
+Scan 161 artifacts are persisted on `research/scan161-expansion-modular-operations`; PR #476 is open and exact-head validation remains.
 
 ## Safe Re-entry
 Re-read live main, open PRs and exact-head Actions before mutating. Do not repeat Scan161 research if persisted artifacts and a matching PR head already exist.
