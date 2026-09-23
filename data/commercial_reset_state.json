@@ -256,14 +256,34 @@
       "formation_id": "ATTRACTION_SCAN_136-F4",
       "verdict": "DEMOTED_CURRENT_WUHAN_RMB9976232_LONG_LEASE_HAS_EXPLICIT_BUYER_SUCCESSION_BUT_APPROX_3_62_TO_4_11_PERCENT_GROSS_AND_NEAR_RMB10M_ENTRY_FAIL_CURRENT_ATTRACTION_ECONOMICS",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_137-F1",
+      "verdict": "DEMOTED_CURRENT_GUIYANG_RMB483004_LEASED_UNIT_HAS_EXACT_RMB23520_ANNUAL_RENT_TO_2029_08_01_BUT_APPROX_4_87_PERCENT_GROSS_HARD_FAILS_CURRENT_ATTRACTION_ECONOMICS",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_137-F2",
+      "verdict": "DEMOTED_CURRENT_CILI_RMB3000000_COMMERCIAL_ASSET_HAS_RMB100000_AGGREGATE_ANNUAL_RENT_BUT_APPROX_3_33_PERCENT_GROSS_HARD_FAILS_CURRENT_ATTRACTION_ECONOMICS",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_137-F3",
+      "verdict": "DEMOTED_CURRENT_HANGZHOU_RMB991000_MANAGED_SHOP_HAS_EXPLICIT_POST_CONFIRMATION_BUYER_RENT_AND_TERM_TO_2029_05_31_BUT_PUBLIC_RECEIPT_QUANTUM_IS_UNBOUND",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_137-F4",
+      "verdict": "DEMOTED_CURRENT_RONGCHANG_RMB114730_MALL_UNIT_HAS_LONG_MANAGEMENT_AGREEMENT_BUT_CURRENT_UNIT_IS_EMPTY_AND_90_PERCENT_OF_MALL_ACTUAL_RENT_FORMULA_IS_NOT_ASSET_ATTRIBUTABLE_CONTRACTED_RECEIPT",
+      "resolved_date": "2026-09-23"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_136",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_136-F4",
-  "next_scan_id": "ATTRACTION_SCAN_137",
-  "current_research_action": "FREEZE_SCAN136_HEAD_OPEN_ONE_PR_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ACTUAL_F1_F2_ROUTES_BEFORE_SCAN137_NO_SCAN060_TO_136_REUSE_NO_GATE_RELAXATION",
+  "last_completed_scan_id": "ATTRACTION_SCAN_137",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_137-F4",
+  "next_scan_id": "ATTRACTION_SCAN_138",
+  "current_research_action": "FREEZE_SCAN137_EXACT_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONSUME_ANY_REVERSIBLE_ROUTE_THEN_ADVANCE_TO_FRESH_SCAN138_NO_SCAN060_TO_137_REUSE_NO_GATE_RELAXATION",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -1859,8 +1879,8 @@
     "deposit_authorized": false,
     "purchase_authorized": false
   },
-  "last_completed_scan_file": "data/research_runs/attraction_scan_136.json",
-  "last_completed_scan_result": "TWO_RETAINED_RESEARCH_FORMATIONS_ZERO_COMMERCIAL_PROMOTION",
+  "last_completed_scan_file": "data/research_runs/attraction_scan_137.json",
+  "last_completed_scan_result": "ZERO_RETAINED_ZERO_COMMERCIAL_PROMOTION",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
     "evidence_artifact": "data/research_runs/scan136_current_asset_receipts_evidence.json",
@@ -1975,5 +1995,25 @@
     "latest_jev_run_id": 35832460027,
     "latest_jev_artifact_id": 10738165696,
     "latest_jev_artifact_digest": "sha256:382c3a1de2c270744de591667f45896eff4e075cf61fac4f7467e6f0c4b827fd"
+  },
+  "scan137_current_asset_receipts": {
+    "canonical_scan_artifact": "data/research_runs/attraction_scan_137.json",
+    "evidence_artifact": "data/research_runs/scan137_current_asset_receipts_evidence.json",
+    "report": "docs/research/SCAN137_CURRENT_ASSET_RECEIPTS_2026-09-23.md",
+    "retained_count": 0,
+    "commercial_promotion": false,
+    "external_side_effects_performed": false,
+    "authoritative_closures": [
+      "ATTRACTION_SCAN_137-F1",
+      "ATTRACTION_SCAN_137-F2",
+      "ATTRACTION_SCAN_137-F3",
+      "ATTRACTION_SCAN_137-F4"
+    ],
+    "strongest_exact_rent_disconfirmation": "GUIYANG_RMB483004_RMB23520_ANNUAL_APPROX_4_87_PERCENT_GROSS",
+    "second_exact_rent_disconfirmation": "CILI_RMB3000000_RMB100000_AGGREGATE_ANNUAL_APPROX_3_33_PERCENT_GROSS",
+    "exact_right_missing_quantum_disconfirmation": "HANGZHOU_RMB991000_EXPLICIT_POST_CONFIRMATION_RENT_RIGHT_BUT_PUBLIC_RENT_QUANTUM_UNBOUND",
+    "pooled_formula_disconfirmation": "RONGCHANG_RMB114730_EMPTY_UNIT_WITH_90_PERCENT_OF_MALL_ACTUAL_RENT_NOT_ASSET_ATTRIBUTABLE",
+    "next_scan_id": "ATTRACTION_SCAN_138",
+    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_IF_NO_REVERSIBLE_ROUTE_REMAINS"
   }
 }
