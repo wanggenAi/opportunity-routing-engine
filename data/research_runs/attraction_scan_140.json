@@ -17,9 +17,9 @@
   "high_attraction_beacons": [
     {
       "formation_id": "ATTRACTION_SCAN_140-F1",
-      "title": "CURRENT_WEIYUAN_LANHUA_STREET_SHOP_WITH_16_15_PERCENT_SURFACE_GROSS_AND_29_MONTH_LEASE_BUT_UNBOUND_POST_TRANSFER_RECEIPT_RIGHT",
+      "title": "CURRENT_WEIYUAN_LANHUA_STREET_SHOP_WITH_16_15_PERCENT_SURFACE_GROSS_PUBLIC_BUYER_RENT_SUCCESSION_RULE_BUT_UNBOUND_TRANSFER_AND_FIRST_UNPREPAID_RECEIPT",
       "chinese_title": "威远兰花街46号45.08㎡商铺44.588628万元 → 6000元/月 → 租至2029-02-24 → 2026-11月底前租金已付但买受人后续收款权未公开绑定",
-      "state": "RESEARCH_BEACON_RETAINED_POST_TRANSFER_RENT_SUCCESSION_PUBLICLY_SUPPORTED_FIRST_UNPREPAID_RECEIPT_WINDOW_AND_TRANSFER_DATE_UNBOUND",
+      "state": "RESEARCH_BEACON_PUBLIC_CAUSAL_DESCENT_EXHAUSTED_AT_FUTURE_TRANSFER_EVENT_OR_CASE_SPECIFIC_LEASE_DOCUMENT_BOUNDARY",
       "commercial_candidate": false,
       "observed_money_motion": [
         "Current first-auction floor is RMB 445,886.28 for one 45.08 sqm commercial unit.",
@@ -32,7 +32,7 @@
         "PREPAID_RENT_ALLOCATION_FOR_ANY_PERIOD_AFTER_OWNERSHIP_TRANSFER_NOT_EXPLICIT_IN_PUBLIC_NOTICE_OR_REFERENCE_CASE",
         "LEASE_DEPOSIT_ARREARS_TENANT_CREDIT_BUYER_TAX_COSTS_AND_FULL_LEASE_REMAIN_UNBOUND"
       ],
-      "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_AFTER_CONSUMED_CAUSAL_DESCENT; NO COMMERCIAL PROMOTION OR EXTERNAL SIDE EFFECT"
+      "next_action": "EXACT_HEAD_REVALIDATION_THEN_SCAN141_IF_NO_NEW_ROUTE_CLASS"
     }
   ],
   "retained_research_formations": [
@@ -50,10 +50,10 @@
   "examined_formations": [
     {
       "formation_id": "ATTRACTION_SCAN_140-F1",
-      "title": "CURRENT_WEIYUAN_LANHUA_STREET_SHOP_WITH_16_15_PERCENT_SURFACE_GROSS_AND_29_MONTH_LEASE_BUT_UNBOUND_POST_TRANSFER_RECEIPT_RIGHT",
+      "title": "CURRENT_WEIYUAN_LANHUA_STREET_SHOP_WITH_16_15_PERCENT_SURFACE_GROSS_PUBLIC_BUYER_RENT_SUCCESSION_RULE_BUT_UNBOUND_TRANSFER_AND_FIRST_UNPREPAID_RECEIPT",
       "chinese_title": "威远县严陵镇兰花街46号商业用房一拍 → 44.588628万元 → 6000元/月 → 租至2029-02-24",
-      "evidence_class": "CURRENT_SINGLE_ASSET_EXACT_ENTRY_EXACT_RENT_CURRENT_PAID_CURSOR_AND_MORE_THAN_24_MONTHS_REMAINING_BUT_BUYER_RECEIPT_SUCCESSION_UNBOUND",
-      "evidence_summary": "A current Weiyuan County court first auction scheduled for 2026-10-18 binds a RMB445,886.28 floor, RMB6,000 monthly rent, quarterly payment, lease end 2029-02-24 and rent paid through 2026-11-30. Supreme People's Court reference case 2024-17-5-203-007 materially supports that where a judicial-auction notice discloses an existing lease but is silent on post-auction rent allocation, the buyer succeeds the landlord position and enjoys rent after ownership transfers. The actual Weiyuan auction-completion adjudication service date, prepaid-rent apportionment and first unprepaid quarterly due date remain unbound, so F1 remains research-only.",
+      "evidence_class": "CURRENT_SINGLE_ASSET_EXACT_ENTRY_EXACT_RENT_CURRENT_PAID_CURSOR_LONG_ENOUGH_CALENDAR_TAIL_AND_PUBLIC_BUYER_RENT_SUCCESSION_RULE_BUT_CASE_SPECIFIC_TRANSFER_AND_FIRST_UNPREPAID_RECEIPT_UNBOUND",
+      "evidence_summary": "A current Weiyuan County court first auction scheduled for 2026-10-18 binds a RMB445,886.28 floor, RMB6,000 monthly rent, quarterly payment, lease end 2029-02-24 and rent paid through 2026-11-30. Supreme People's Court reference case 2024-17-5-203-007 materially supports that where a judicial-auction notice discloses an existing lease but is silent on post-auction rent allocation, the buyer succeeds the landlord position and enjoys rent after ownership transfers. The actual Weiyuan auction-completion adjudication service date, prepaid-rent apportionment and first unprepaid quarterly due date remain unbound, so F1 remains research-only. A second contradiction search found official court-platform auction examples with different prepaid-rent allocation terms, so prepaid-rent treatment is source specific and cannot be imported into Weiyuan from a generic rule. Exact Weiyuan public searches still surfaced no lease, rent ledger, prepaid-rent allocation clause or future completion adjudication.",
       "economic_tuple": {
         "acquisition_price": "RMB_445886_28_FIRST_AUCTION_FLOOR",
         "contracted_receipt_amount": "RMB_6000_PER_MONTH_RMB_72000_ANNUAL",
@@ -72,7 +72,7 @@
         "A high nominal gross ratio cannot be commercially promoted before the buyer-specific 24-month receipt window is source-bound.",
         "No deposit, bid, inspection, external contact or monetary action is authorized."
       ],
-      "verdict": "RETAINED_RESEARCH_CURRENT_WEIYUAN_PUBLIC_RENT_SUCCESSION_RULE_SUPPORTED_BUT_ACTUAL_TRANSFER_FIRST_UNPREPAID_RECEIPT_AND_PREPAID_RENT_APPORTIONMENT_REMAIN_UNBOUND"
+      "verdict": "RETAINED_RESEARCH_PUBLIC_CAUSAL_DESCENT_EXHAUSTED_WEIYUAN_BUYER_RENT_SUCCESSION_RULE_SUPPORTED_BUT_FUTURE_TRANSFER_FIRST_UNPREPAID_RECEIPT_AND_PREPAID_RENT_APPORTIONMENT_REQUIRE_CASE_SPECIFIC_EVIDENCE"
     },
     {
       "formation_id": "ATTRACTION_SCAN_140-F2",
@@ -192,14 +192,15 @@
   },
   "first_external_value_flow": "NOT_PROVEN",
   "next_scan_id": "ATTRACTION_SCAN_141",
-  "next_search_boundary": "SCAN140_F1_LIVE_JEV_CAUSAL_DESCENT_CONSUMED_PUBLIC_RENT_SUCCESSION_ADVANCED_REQUIRE_EXACT_HEAD_CI_AND_LIVE_TYPESAFE_JEV_REVALIDATION_NO_NEW_REVERSIBLE_ROUTE_BEFORE_SCAN141_NO_SCAN060_TO_140_REUSE",
-  "next_action": "FREEZE_ROUTE_CONSUMPTION_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV; CONSUME_ANY_NEW_REVERSIBLE_PUBLIC_ROUTE; IF_NONE_MERGE_PR450_AND_ADVANCE_SCAN141",
+  "next_search_boundary": "SCAN140_F1_TWO_LIVE_JEV_CAUSAL_DESCENT_PASSES_CONSUMED_PUBLIC_CAUSAL_FRONTIER_REACHED_AT_FUTURE_TRANSFER_EVENT_OR_CASE_SPECIFIC_LEASE_DOCUMENT_REQUIRE_EXACT_HEAD_REVALIDATION_THEN_SCAN141_IF_NO_NEW_ROUTE_CLASS",
+  "next_action": "FREEZE_SECOND_ROUTE_CONSUMPTION_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_IF_SAME_OR_NO_NEW_REVERSIBLE_PUBLIC_ROUTE_MERGE_PR450_AND_ADVANCE_SCAN141",
   "scan_learnings": [
     "HIGH_SURFACE_GROSS_WITH_EXACT_RENT_AND_PAID_CURSOR_STILL_REQUIRES_BUYER_SIDE_RECEIPT_SUCCESSION.",
     "WHOLE_ASSET_RENT_CANNOT_BE_ASSIGNED_TO_A_FRACTIONAL_TITLE_PURCHASE_WITHOUT_SOURCE_BOUND_ALLOCATION.",
     "CENTRALIZED_OWNER_COMMITTEE_RENT_COLLECTION_IS_A_LOW_TOUCH_CONTROL_MECHANISM_BUT_NO_RECEIPT_QUANTUM_MEANS_NO_ECONOMICS.",
     "RENT_PREPAID_THROUGH_LEASE_END_IS_ZERO_FUTURE_BUYER_CONTRACTED_CASHFLOW_EVEN_WHEN_HISTORICAL_RENT_DIVIDED_BY_ENTRY_LOOKS_ATTRACTIVE.",
-    "SUPREME_COURT_REFERENCE_CASE_CAN_EVIDENCE_GENERIC_POST_TRANSFER_RENT_SUCCESSION_WHILE_CASE_SPECIFIC_TRANSFER_DATE_PREPAID_RENT_ALLOCATION_AND_FIRST_UNPREPAID_DUE_DATE_REMAIN_SEPARATE_GATES."
+    "SUPREME_COURT_REFERENCE_CASE_CAN_EVIDENCE_GENERIC_POST_TRANSFER_RENT_SUCCESSION_WHILE_CASE_SPECIFIC_TRANSFER_DATE_PREPAID_RENT_ALLOCATION_AND_FIRST_UNPREPAID_DUE_DATE_REMAIN_SEPARATE_GATES.",
+    "PREPAID_RENT_ALLOCATION_IS_AUCTION_SOURCE_SPECIFIC_OFFICIAL_AUCTION_TERMS_SHOW_DIFFERENT_HANDLING_SO_GENERIC_SUCCESSION_LAW_CANNOT_FILL_A_MISSING_CASE_SPECIFIC_PREPAYMENT_CLAUSE."
   ],
   "source_urls": [
     "https://www.sohu.com/a/1077209752_122455197",
@@ -210,6 +211,8 @@
     "https://www.ixbang.com/bid/detail/2271026A9CF253B8E9CBFA6309C75217.html",
     "https://hn.bidcenter.com.cn/diqucontent-443745393-9.html",
     "https://www.court.gov.cn/zixun/xiangqing/455991.html",
-    "https://www.court.gov.cn/zixun/xiangqing/456001.html"
+    "https://www.court.gov.cn/zixun/xiangqing/456001.html",
+    "https://pccz.court.gov.cn/pcgg/ggxq?id=d9136a59b1a048ff863b372d40295753",
+    "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=D9029A1CD8243D701100EEED2E7A4F11"
   ]
 }
