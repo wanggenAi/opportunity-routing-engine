@@ -50,7 +50,7 @@ class Scan139F1CausalDescentTests(unittest.TestCase):
         self.assertFalse(evidence["deposit_authorized"])
         self.assertFalse(evidence["purchase_authorized"])
 
-    def test_scan140_gate_requires_revalidation_without_new_route_class(self):
+    def test_scan140_gate_history_remains_valid_after_successor_scan_progress(self):
         state = json.loads(STATE.read_text(encoding="utf-8"))
         followup = state["scan139_f1_causal_descent"]
 
@@ -58,7 +58,11 @@ class Scan139F1CausalDescentTests(unittest.TestCase):
             followup["scan140_gate"],
             "UNBLOCKED_SUBJECT_TO_EXACT_HEAD_CI_AND_LIVE_JEV_NO_NEW_ROUTE_CLASS",
         )
-        self.assertEqual(state["next_scan_id"], "ATTRACTION_SCAN_140")
+        self.assertEqual(followup["final_scan140_gate_validation"], "SUCCESS")
+        self.assertGreaterEqual(
+            int(state["next_scan_id"].rsplit("_", 1)[-1]),
+            140,
+        )
 
 
 if __name__ == "__main__":
