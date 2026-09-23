@@ -15,12 +15,8 @@
   "inherited_active_formation_as_seed": false,
   "inherited_mechanism_as_requirement": false,
   "active_commercial_candidate_promotions": [],
-  "high_attraction_beacons": [
-    "ATTRACTION_SCAN_126-F1"
-  ],
-  "retained_research_formations": [
-    "ATTRACTION_SCAN_126-F1"
-  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
   "parallel_validation_queue": [
     "ATTRACTION_SCAN_015-F1"
   ],
@@ -85,10 +81,20 @@
         "Can later customer acquisition escape recurring founder proposal-writing and persuasion?",
         "Can domestic machine-callable/crowd rails accept evidence-specific briefs rather than only delivery/errand primitives?"
       ],
-      "bootstrap_readiness": "BLOCKED_PENDING_EXACT_INCUMBENT_PREFLIGHT_FULL_COST_BOUNDING_AND_TRANSPARENT_SUBCONTRACT_PATH",
+      "bootstrap_readiness": "FORBIDDEN_FORMATION_CLOSED",
       "commercial_promotion": false,
       "first_external_value_flow": "NOT_PROVEN",
-      "verdict": "RETAINED_FOR_EXACT_INCUMBENT_PREFLIGHT_AND_NORMALIZED_ECONOMICS"
+      "verdict": "DEMOTED_EXACT_AND_COMPOSITE_INCUMBENT_CONTROL_SURFACES_LEAVE_NO_DISTINCT_OPERATOR_ASSET",
+      "exact_incumbent_preflight_status": "CLOSED",
+      "exact_incumbent_preflight_result": [
+        "ChinaLocalAgent already sells overseas-client defined China-local execution with evidence and reporting.",
+        "Upwork already owns self-revealing buyer demand, funded fixed-price payment and direct China talent matching.",
+        "WeiChaiShi already owns nationwide replaceable crowd dispatch, retail/field tasking, QA, approval and payment.",
+        "Premise demonstrates the generalized global local-task/photo/geolocation/QA/data-delivery mechanism at scale.",
+        "UU Paotui shows machine-callable physical action is becoming a native platform primitive."
+      ],
+      "distinct_operator_asset_check": "FAIL_NO_EXCLUSIVE_BUYER_RAIL_EXECUTOR_SUPPLY_ACTION_RIGHT_OR_PROPRIETARY_OUTCOME_GRAPH",
+      "generic_agent_substitutability_check": "FAIL_REMAINING_SCOPE_NORMALIZATION_MULTI_RAIL_DISPATCH_AND_EVIDENCE_ACCEPTANCE_LAYER_IS_COMPOSABLE_AND_INCUMBENT_ABSORBABLE_WITHOUT_A_DISTINCT_CONTROL_ASSET"
     }
   ],
   "drift_audit": {
@@ -113,11 +119,18 @@
     "UPWORK_CAN_PROVIDE_PREFUNDED_FIXED_PRICE_MILESTONES_BUT_SUBCONTRACTING_REQUIRES_CLIENT_CONSENT_OR_TRANSPARENT_AGENCY_STRUCTURE.",
     "CHINALOCALAGENT_UPWORK_AND_WEICHAISHI_CREATE_A_MATERIAL_EXACT_INCUMBENT_CONTROL_SURFACE_THREAT_TO_THE_BROAD_FORMATION.",
     "UU_MCP_PROVES_MACHINE_CALLABLE_PHYSICAL_ERRAND_PRIMITIVES_BUT_NOT_EVIDENCE_CAPTURE_ACCEPTANCE_SEMANTICS.",
-    "THE_NEXT_DECISIVE_RESEARCH_STEP_IS_EXACT_INCUMBENT_PREFLIGHT_BEFORE_ANY_EXTERNAL_BOOTSTRAP."
+    "THE_NEXT_DECISIVE_RESEARCH_STEP_IS_EXACT_INCUMBENT_PREFLIGHT_BEFORE_ANY_EXTERNAL_BOOTSTRAP.",
+    "SCAN126_F1_EXACT_INCUMBENT_PREFLIGHT_CLOSES_THE_BROAD_GROUND_TRUTH_ROUTER_DESPITE_REAL_PAID_DEMAND_AND_REAL_EXECUTOR_SUPPLY.",
+    "CHINALOCALAGENT_DIRECTLY_OWNS_OVERSEAS_CLIENT_TO_SCOPED_CHINA_LOCAL_EXECUTION_AND_EVIDENCE_REPORTING.",
+    "WEICHAISHI_AND_PREMISE_SHOW_REPLACEABLE_CROWD_TASKING_QA_AND_STRUCTURED_FIELD_DATA_ARE_MATURE_CONTROL_SURFACES.",
+    "UPWORK_OWNS_GLOBAL_BUYER_DISCOVERY_PREFUNDED_CONTRACTING_AND_DIRECT_TALENT_MATCHING.",
+    "UU_MCP_SHOWS_MACHINE_CALLABLE_PHYSICAL_ACTION_IS_BEING_ABSORBED_AS_A_PLATFORM_PRIMITIVE.",
+    "WITHOUT_EXCLUSIVE_INTENT_SUPPLY_ACTION_RIGHT_OR_OUTCOME_GRAPH_THE_REMAINING_INTEGRATION_LAYER_IS_GENERIC_AGENT_SUBSTITUTABLE_AND_INCUMBENT_ABSORBABLE.",
+    "SCAN127_MUST_RETURN_TO_FORMATION_DIVERSE_BROAD_REALITY_AND_MUST_NOT_DERIVE_ANOTHER_CHINA_HELPER_OR_FIELD_TASK_ROUTER_FROM_THIS_CLOSURE."
   ],
   "next_scan_id": "ATTRACTION_SCAN_127",
-  "next_search_boundary": "FIRST_VALIDATE_SCAN126_F1_WITH_LIVE_JEV_ON_CANONICAL_SCAN_INPUT_THEN_IF_RESEARCH_QUEUE_REQUIRES_IT_COMPLETE_EXACT_CURRENT_INCUMBENT_CONTROL_SURFACE_PREFLIGHT_FOR_MACHINE_NATIVE_LOW_VOLUME_CROSS_BORDER_SCOPE_NORMALIZATION_DISPATCH_AND_EVIDENCE_ACCEPTANCE_IF_F1_SURVIVES_BIND_TRAVEL_QA_REWORK_AND_AUTHORIZED_SUBCONTRACT_COSTS_BEFORE_ANY_MAX_3_TRANSACTION_BOOTSTRAP_OTHERWISE_DEMOTE_AND_RETURN_TO_FORMATION_DIVERSE_BROAD_REALITY_NO_GATE_RELAXATION",
-  "next_action": "RUN_EXACT_HEAD_CI_AND_LIVE_TYPESAFE_JEV_ON_CANONICAL_ATTRACTION_SCAN_126_THEN_CONSUME_THE_RETURNED_RESEARCH_ROUTE_AUTONOMOUSLY",
+  "next_search_boundary": "SCAN127_PRECEDENT_CALIBRATED_FORMATION_DIVERSE_BROAD_REALITY_NO_GROUND_TRUTH_EXECUTION_SOURCING_LOCAL_HELPER_RETAIL_AUDIT_OR_FIELD_TASK_ROUTING_FALLBACK_REQUIRE_FRESH_ACTOR_MOTION_STATE_DEPENDENT_VALUE_JUMP_DISCOVERABILITY_MACHINE_RESOLVABILITY_CALLABLE_ACTION_FOUNDER_LIGHT_TARGET_STATE_DISTINCT_OPERATOR_CONTROL_AND_ECONOMIC_PATH_BEFORE_RETENTION",
+  "next_action": "VALIDATE_SCAN126_F1_DEMOTION_WITH_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN127_IF_CONTINUATION_ALLOWS",
   "first_external_value_flow": "NOT_PROVEN",
   "source_urls": [
     "https://www.upwork.com/freelance-jobs/apply/Shanghai-Wine-Shop-Survey_~022100554984121028743/",
@@ -134,6 +147,9 @@
     "https://www.weichaishi.com/index_en.php",
     "https://www.uupt.com/",
     "https://www.heyanyun.com/",
-    "https://wise.com/us/currency-converter/usd-to-cny-rate"
+    "https://wise.com/us/currency-converter/usd-to-cny-rate",
+    "https://premise.com/",
+    "https://premise.com/guides/retail-audit/",
+    "https://premise.com/blog/getting-started-with-hyperlocal-data-collection/"
   ]
 }
