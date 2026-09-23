@@ -26,7 +26,7 @@ SCAN147_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 `research/scan147-broad-reality-shared-capacity`.
 
 ## Active PR
-PENDING_SCAN147_PR.
+PR #459 — `Run Scan 147 broad-reality shared capacity` — OPEN.
 
 ## CI
 - Scan 147 exact-head repository CI: PENDING.
