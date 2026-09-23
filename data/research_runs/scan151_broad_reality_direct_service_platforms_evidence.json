@@ -1,0 +1,83 @@
+{
+  "scan_id": "ATTRACTION_SCAN_151",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "7964aa4809f41e748f083ed431a47fc89ff548ad",
+  "research_method": "BROAD_CURRENT_REALITY_DIRECT_SERVICE_PLATFORM_COMPARISON",
+  "sources": {
+    "ESCORT-SAMR-20260827": {
+      "source_class": "CURRENT_NATIONAL_PATIENT_COMPANION_SERVICE_STANDARD",
+      "url": "https://www.samr.gov.cn/bzjss/bzjd/art/2026/art_4022d6d5ed64447081e71af307a134db.html",
+      "date": "2026-08-27",
+      "claim": "SAMR explains GB/T 47801-2026 for commercial patient companion services, noting 1,048 registered companion-service institutions since 2014 and 4.343 million services in 2023, while standardizing provider, platform, personnel, process, evaluation and improvement requirements."
+    },
+    "ESCORT-SHANGHAI-20260626": {
+      "source_class": "CURRENT_PUBLIC_ELDERLY_MEDICAL_ESCORT_NETWORK",
+      "url": "https://www.shanghai.gov.cn/xbhygq/20260626/a2766847705d4c9b91933443fc1c53dc.html",
+      "date": "2026-06-26",
+      "claim": "Shanghai's 2026 elderly medical escort program requires districts to establish service mechanisms and networks, develop qualified service institutions and trained companions, and link escort providers with mobility-support resources."
+    },
+    "ROBOT-JIANGMEN-20260710": {
+      "source_class": "CURRENT_PUBLIC_ROBOT_SCENARIO_MATCHING_RAIL",
+      "url": "https://www.jiangmen.gov.cn/bmpd/jmsgyhxxhj/zwgk/gsgg/content/post_3519624.html",
+      "date": "2026-07-10",
+      "claim": "Jiangmen published 68 intelligent-robot application opportunities across ten categories and explicitly asks solution providers to submit a matching form so the municipal industry bureau can conduct supply-demand matching."
+    },
+    "ROBOT-GASGOO-20260923": {
+      "source_class": "CURRENT_ROBOT_DEMAND_DISCOVERY_PLATFORM",
+      "url": "https://gasgoo.com/apps/50640d4b55d5cba175fb84f15d679f19/robot/cases/",
+      "date": "2026-09-23",
+      "claim": "Gasgoo exposes a current embodied-intelligence demand search surface that lists scenario and supply-chain procurement needs and supports matching application scenarios and supplier requirements."
+    },
+    "FREIGHT-MOT-20260126": {
+      "source_class": "CURRENT_NETWORK_FREIGHT_PLATFORM_RULE",
+      "url": "https://xxgk.mot.gov.cn/xzgfxwj/202601/t20260126_4199002.html",
+      "date": "2026-01-26",
+      "claim": "The 2026 Network Freight Carrier Platform Measures define a platform as integrating transportation resources online, signing carriage contracts with shippers as carrier, commissioning qualified actual carriers, and assuming carrier responsibility."
+    },
+    "FREIGHT-MOT-CREDIT-20260128": {
+      "source_class": "CURRENT_NETWORK_FREIGHT_PLATFORM_OPERATIONAL_CONTROL",
+      "url": "https://credit.mot.gov.cn/xinyongdongtai/202601/t20260128_4199120.html",
+      "date": "2026-01-28",
+      "claim": "The Ministry of Transport's published network-freight rules confirm that lawful platform operation directly controls shipper contracting, actual-carrier dispatch and transportation service responsibility rather than merely introducing the parties."
+    },
+    "COMMUTE-CHONGQING-20260623": {
+      "source_class": "CURRENT_ENTERPRISE_CUSTOM_COMMUTE_DEMAND_COLLECTION",
+      "url": "https://jtj.cq.gov.cn/sy_240/jdtp/202606/t20260623_15771494.html",
+      "date": "2026-06-23",
+      "claim": "Chongqing public transport directly collected enterprise-park employee origin, destination, time, cost and route needs through onsite and online surveys to design point-to-point customized commuter bus lines."
+    },
+    "COMMUTE-JINAN-20260813": {
+      "source_class": "CURRENT_PUBLIC_CUSTOM_COMMUTE_OPERATION",
+      "url": "https://innovation.jinan.gov.cn/col/col16571/art/2026/art_23f62f0cce9046d69abc1080c1a8bb86.html",
+      "date": "2026-08-13",
+      "claim": "Jinan High-tech Zone reports active customized commuting lines and continuing transit-network optimization, showing the public operator already owns demand aggregation, route planning and service operation."
+    },
+    "SECURITY-VULBOX-20260923": {
+      "source_class": "CURRENT_SECURITY_CROWDSOURCING_PLATFORM",
+      "url": "https://www.vulbox.com/service",
+      "date": "2026-09-23",
+      "claim": "VULBOX operates enterprise security crowdsourcing where companies commission public, professional or private test projects and the platform recruits or screens white-hat testers, manages testing and delivers results."
+    },
+    "SECURITY-VULBOX-FLASH-20260923": {
+      "source_class": "CURRENT_SECURITY_CROWDSOURCING_EXECUTION_LOOP",
+      "url": "https://www.vulbox.com/service/flash",
+      "date": "2026-09-23",
+      "claim": "VULBOX's flash-testing flow confirms enterprise requirements, invites certified white hats, audits and verifies vulnerabilities, lets enterprises view reports online and delivers a final report, with tests runnable in one to three days."
+    }
+  },
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_151-F1",
+    "ATTRACTION_SCAN_151-F2",
+    "ATTRACTION_SCAN_151-F3",
+    "ATTRACTION_SCAN_151-F4",
+    "ATTRACTION_SCAN_151-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "conclusion": "Each current field has recurring bilateral motion, but the decisive service/matching/execution loop is already explicitly owned by accountable institutions or platforms; no distinct unowned light router is evidenced.",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN152"
+}
