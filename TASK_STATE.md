@@ -1,5 +1,19 @@
 # TASK_STATE.md
 
+## Scan 128 authoritative checkpoint
+
+- GitHub live state wins.
+- Last verified main: `70e77e253864882d5d487319fb99a0d6d5af7309` (PR #433 merged).
+- PR #433 exact head `cf5c662280a18836084ef5fadef9d1c0324ac794`: CI `35817596667` success; TypeSafe/Jev `35817596625` success; artifact `10731907832`; actual input `ATTRACTION_SCAN_127`; entity_count=4; 4x NO_FURTHER_RESEARCH; continuation ADVANCE_TO_NEXT_SCAN.
+- Post-merge main: CI `35817834916` success; TypeSafe/Jev `35817834904` success; actual input Scan 127; entity_count=4; continuation ADVANCE_TO_NEXT_SCAN.
+- Active branch: `research/scan128-broad-reality`.
+- Scan 128 is persisted in `data/research_runs/attraction_scan_128.json`, evidence pack, report and regression test.
+- Machine state: last completed `ATTRACTION_SCAN_128`; retained=0; active commercial candidates=0; next=`ATTRACTION_SCAN_129`; first external value flow NOT_PROVEN.
+- Scan 128 formations: transactional merchant Skill compiler; housekeeping trust/service routing; authorized e-commerce after-sales actions; natural-language cloud-ops guardrails. All four are demoted on distinct-control / generic-agent / human-delivery gates.
+- Required next step: exact-head CI + live Jev must consume `ATTRACTION_SCAN_128` with entity_count=4; merge only if that head passes; verify artifact and post-merge main; then continue Scan 129 if allowed.
+- Do not repeat Scan 124/125, Scan 126 China-helper/field-task routing, or Scan 127 formations.
+
+
 Operational handoff only. GitHub live state wins if anything below conflicts with repository facts.
 
 ## Current Mission

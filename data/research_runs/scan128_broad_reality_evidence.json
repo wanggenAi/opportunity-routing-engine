@@ -1,0 +1,109 @@
+{
+  "schema_version": "scan128-broad-reality-evidence.v1",
+  "as_of_date": "2026-09-23",
+  "scan_id": "ATTRACTION_SCAN_128",
+  "method": "FORMATION_DIVERSE_BROAD_REALITY_CONSUMER_HOUSEHOLD_SME_OPERATIONAL_AND_AI_NATIVE_CURRENT_EVIDENCE_FAIL_CLOSED",
+  "prior_exclusion_boundary": [
+    "DO_NOT_REUSE_SCAN124_OR_SCAN125_FORMATIONS_OR_PRIMARY_SIGNALS",
+    "DO_NOT_REVIVE_SCAN126_CHINA_HELPER_SOURCING_FIELD_TASK_OR_GROUND_TRUTH_EXECUTION",
+    "DO_NOT_REUSE_SCAN127_REGULATORY_ENTERPRISE_INFRASTRUCTURE_AS_A_FALLBACK"
+  ],
+  "evidence_packets": [
+    {
+      "packet_id": "P1_EXISTING_MERCHANT_API_TO_TRANSACTIONAL_AGENT_SKILL_COMPILER",
+      "domain": "AI_NATIVE_COMMERCE",
+      "observed_motion": [
+        "Alipay requires the merchant order Skill to execute search, selection, confirmation and order creation before its payment Skill takes over.",
+        "WeChat AI Pay requires a merchant Skill, existing traditional order flow plus x402, and SkillHub distribution.",
+        "Public merchant-Skill generators already create Skill/MCP packages.",
+        "OpenLuckin performs store/product search, preview, real order creation, payment-link handling and order-status retrieval over an official merchant MCP."
+      ],
+      "decisive_gate_evidence": [
+        "Payment and distribution are owned by Alipay/WeChat.",
+        "Generic informational Skill generation is already open-source.",
+        "Schema-to-tool/Skill generation is demonstrably automatable when a merchant already exposes MCP/API.",
+        "Remaining merchant-specific semantics/auth/order lifecycle work becomes integration labor absent a standardized operator-owned adapter/outcome asset."
+      ],
+      "verdict": "DEMOTED_OFFICIAL_AI_PAYMENT_DISTRIBUTION_PLUS_OPEN_SOURCE_SKILL_GENERATION_AND_MERCHANT_SPECIFIC_ORDER_SEMANTICS_LEAVE_NO_DISTINCT_COMPILER_CONTROL_ASSET",
+      "source_urls": [
+        "https://aipay.alipay.com/merchant-guide",
+        "https://aipay.alipay.com/docs/ai-receive/MACHINE_PAY.html",
+        "https://pay.wechatpay.cn/doc/v3/merchant/4035576711",
+        "https://pay.wechatpay.cn/doc/v3/merchant/4035576771",
+        "https://pay.wechatpay.cn/doc/v3/merchant/4019638116",
+        "https://github.com/Hchen1218/Merchant-skill-generator",
+        "https://github.com/songdi3/merchant-skill-generator",
+        "https://github.com/shupianx/openluckin"
+      ]
+    },
+    {
+      "packet_id": "P2_HOUSEKEEPING_CREDIT_AND_SERVICE_MATCH_ROUTER",
+      "domain": "HOUSEHOLD_SERVICES",
+      "observed_motion": [
+        "MOFCOM is embedding credit query into consumer order -> enterprise dispatch -> worker acceptance/query authorization -> consumer result push.",
+        "MOFCOM describes 家政信用查 as the mother platform combining authoritative, local-government and enterprise-evaluation data; large firms get direct interfaces and SMEs standardized third-party integration.",
+        "The official system reports more than 20,000 enterprises and more than 9 million workers.",
+        "Three 2026 national e-commerce housekeeping standards cover service flow, worker onboarding/audit and platform service-quality evaluation."
+      ],
+      "decisive_gate_evidence": [
+        "Trust/query surface is official infrastructure already integrated into operating flow.",
+        "Standard third-party connector paths are explicitly contemplated.",
+        "Decisive downstream delivery remains physical human labor.",
+        "Without exclusive supply/trust data/callable fulfillment, a new layer collapses to lead generation or operations."
+      ],
+      "verdict": "DEMOTED_OFFICIAL_CREDIT_MOTHER_PLATFORM_ALREADY_EMBEDS_TRUST_FLOW_WHILE_PHYSICAL_SERVICE_QUALITY_REMAINS_HUMAN_DELIVERY",
+      "source_urls": [
+        "https://www.mofcom.gov.cn/xwfbzt/2026/swbzkcjjzfwygzlztxwfbh/index.html",
+        "https://jz.mofcom.gov.cn/jzjc/notice",
+        "https://www.mofcom.gov.cn/zfxxgk/gkml/art/2026/art_9afecbc8e427491f8a112708cf5ea981.html",
+        "https://www.samr.gov.cn/xw/sj/art/2026/art_cf9249ba04fc488f8a62bb9dd18d5456.html"
+      ]
+    },
+    {
+      "packet_id": "P3_AUTHORIZED_ECOMMERCE_AFTERSALES_ACTION_ROUTER",
+      "domain": "SME_ECOMMERCE_OPERATIONS",
+      "observed_motion": [
+        "GB/Z 200-2026 E-commerce transaction assurance — After-sales service was published 2026-07-30.",
+        "Douyin's current OpenAPI exposes merchant-authorized order/refund/after-sales operations including after-sale queries, merchant refund and refund-review flows.",
+        "Service-provider access requires capability approval and merchant authorization."
+      ],
+      "decisive_gate_evidence": [
+        "The action right is participant/platform-scoped credential authority.",
+        "A merchant-authorized Agent/ERP can call the same APIs.",
+        "Exception cases retain evidence, policy, customer-communication and negotiation work.",
+        "No exclusive cross-platform decision dataset, transaction right or native operator take-rate is evidenced."
+      ],
+      "verdict": "DEMOTED_PLATFORM_SCOPED_AFTERSALES_APIS_ARE_PARTICIPANT_CREDENTIAL_ACTION_RIGHTS_WITH_GENERIC_AGENT_ERP_SUBSTITUTION_AND_HUMAN_NEGOTIATION_TAIL",
+      "source_urls": [
+        "https://std.samr.gov.cn/gb/search/gbDetailed?id=581F1A468C4C7218E06397BE0A0AD7F9",
+        "https://developer.open-douyin.com/docs/resource/zh-CN/local-life/develop/OpenAPI/comprehensive/transaction-upscaling-solution/payment-ability/",
+        "https://developer.open-douyin.com/docs/resource/zh-CN/local-life/develop/OpenAPI/catering/dining-group-solution/dining-refund/order_detail",
+        "https://developer.open-douyin.com/docs/resource/zh-CN/local-life/develop/OpenAPI/general-capabilities/groupon-refund/refund-list-query"
+      ]
+    },
+    {
+      "packet_id": "P4_NATURAL_LANGUAGE_CLOUD_OPERATIONS_GUARDRAIL_ROUTER",
+      "domain": "AI_NATIVE_SME_CLOUD_OPERATIONS",
+      "observed_motion": [
+        "Alibaba Cloud OpenAPI MCP Server Core exposes broad cloud APIs to common agents with natural-language semantic matching/calling.",
+        "It supports OAuth/static credentials, RAM permission control and multi-account assumed-role operation.",
+        "Core supports multi-step orchestration and Terraform resource management."
+      ],
+      "decisive_gate_evidence": [
+        "Cloud action permissions, resource identity and audit remain provider/account controlled.",
+        "A third-party mediator uses participant credentials rather than a distinct action right.",
+        "Policy checks, approvals and API selection are generic agent/workflow capabilities without a non-commodity policy/outcome asset.",
+        "No transferable operator-owned control or native external payment motion is evidenced."
+      ],
+      "verdict": "DEMOTED_CLOUD_PROVIDER_MCP_ALREADY_OWNS_ACTION_PERMISSION_AND_AUDIT_WHILE_EXTERNAL_GUARDRAILS_ARE_GENERIC_POLICY_AUTOMATION",
+      "source_urls": [
+        "https://help.aliyun.com/zh/openapi/user-guide/openapi-mcp-server-guide",
+        "https://help.aliyun.com/en/openapi/user-guide/openapi-mcp-server-core-tool-guide",
+        "https://help.aliyun.com/zh/openapi/how-to-use-openapi-mcp-server-in-multi-account-scenarios",
+        "https://help.aliyun.com/zh/ram/developer-reference/aliyunopenapimcpserverstaticcredentialaccess"
+      ]
+    }
+  ],
+  "scan_conclusion": "FOUR_FRESH_FORMATIONS_EXAMINED_ZERO_RETAINED_NO_COMMERCIAL_PROMOTION",
+  "next_scan_id": "ATTRACTION_SCAN_129"
+}
