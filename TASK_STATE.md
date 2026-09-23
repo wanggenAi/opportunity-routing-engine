@@ -14,16 +14,16 @@ Find a formation with strong bilateral voluntary energy, a legible state-depende
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: Scan 125 is complete and verified. Scan 126 is recalibrated away from an ever-narrower mature-company-only screen. Use real successful/failed businesses as **mechanism-level search priors only**, then search fresh China-relevant reality under the unchanged Attraction Field hard floors.
+Discovery: Scan 126 has surfaced a fresh broad-reality seed: `ATTRACTION_SCAN_126-F1 — CROSS_BORDER_CHINA_GROUND_TRUTH_EXECUTION_ROUTING`. Current public evidence shows overseas principals already paying for bounded China-local physical verification/evidence tasks across factory, showroom, retail-survey, audit and coordination contexts. This is not yet a commercial promotion; deepen the field and test the founder-light/prepaid dispatch boundary.
 
 ## Current Phase
 
-`SCAN_126_SUCCESS_PATTERN_CALIBRATION_IMPLEMENTATION`
+`SCAN_126_GROUND_TRUTH_ROUTING_DEEPENING`
 
 ## Last Verified Main
 
-`a0abcd5ad4e06c5bf8bf5b936812576215c3897f`
-— squash merge of replacement PR #426, `Run joint-signal strict economic Scan 125`.
+`1ecdc857a5d1d281c30f1b26a0c8572dfc1e463b`
+— squash merge of PR #428, `Calibrate discovery from real success patterns`.
 
 PR #426 exact-head `081b71368d505907a0dcce9d6c61e0911874769a`:
 - repository CI `35810288400`: success;
@@ -41,13 +41,11 @@ PR #426 exact-head `081b71368d505907a0dcce9d6c61e0911874769a`:
 
 ## Active Branch
 
-`feature/success-pattern-calibration`
+`research/scan126-ground-truth-bootstrap`
 
 ## Active PR
 
-#428 — `Calibrate discovery from real success patterns without weakening attraction gates`.
-
-Current exact-head validation must be rerun after the CI-fix commit; do not merge stale checks.
+None yet. Current work is a Scan 126 research/deepening branch. Do not open a PR until the seed, bootstrap boundary, task state and tests are complete.
 
 ## Scan 125 Result
 
@@ -106,7 +104,9 @@ This deadline does not require launching something weak. By the deadline:
 
 ## CI
 
-PR #428 first head `b99fa70d1197d4d3a4fdd396774e11aaa3190b66`:
+PR #428 merged after exact-head CI and live TypeSafe/Jev both succeeded. The current Scan 126 branch has not yet opened a PR; repository CI must run on the final frozen branch head before merge.
+
+Historical PR #428 first head `b99fa70d1197d4d3a4fdd396774e11aaa3190b66`:
 - repository CI `35810827575`: failed on recovery-contract headings plus one test-file newline encoding mistake;
 - Jev run on that head is not sufficient after this fix because the branch head has changed;
 - these are implementation/contract defects, not permission to bypass CI.
@@ -122,6 +122,12 @@ Required before merge:
 
 ## Latest Artifact / Persisted State
 
+Scan 126 ground-truth routing seed:
+- `data/research_runs/scan126_ground_truth_routing_seed.json`;
+- `docs/research/SCAN126_GROUND_TRUTH_ROUTING_SEED_2026-09-23.md`;
+- `src/bootstrap_validation.py`;
+- `tests/test_bootstrap_validation.py`.
+
 Success-pattern calibration:
 - `data/research_runs/success_pattern_calibration_2026_09_23.json`;
 - `docs/research/SUCCESS_PATTERN_CALIBRATION_2026-09-23.md`;
@@ -133,12 +139,31 @@ Machine state:
 - next scan = `ATTRACTION_SCAN_126`;
 - active commercial candidates = 0;
 - retained research formations = 0;
+- commercial promotions = 0;
+- Scan 126 research seed = `ATTRACTION_SCAN_126-F1`, research-only / bootstrap candidate;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`;
 - Scan 126 search boundary = precedent-calibrated broad reality with unchanged Attraction Field floors.
 
 ## Current Findings
 
 ```text
+REMOTE OVERSEAS PRINCIPAL
++ TIME-SENSITIVE CHINA DECISION
++ DIGITAL INFORMATION INSUFFICIENT
++ BOUNDED PHYSICAL ACTION / EVIDENCE REQUIRED
++ REPLACEABLE LOCAL EXECUTOR SUPPLY
++ PREPAYMENT / ESCROW BEFORE LOCAL COST
+=> POSSIBLE CHINA GROUND-TRUTH EXECUTION ROUTER
+
+FACTORY INSPECTION = ONE MANIFESTATION, NOT THE ONTOLOGY
+
+BOUNDED FIRST 1-3 MANUAL TRANSACTIONS
+!= RECURRING FOUNDER DEPENDENCE
+
+MANUAL BOOTSTRAP MAY PROVE TRANSACTION TRUTH
+!= PROOF OF FOUNDER INDEPENDENCE
+
+
 SCAN 120-125
 -> IMPROVED MATURE CASHFLOW ENTITY SEARCH
 -> BUT OVER-CONCENTRATED DISCOVERY ON ALREADY-MATURE ACCOUNTING SURVIVORS
@@ -159,7 +184,16 @@ SELF-REVEALING INTENT
 
 ## Next Evidence Boundary
 
-Run Scan 126 as a fresh, formation-diverse, China-relevant broad-reality scan.
+Deepen `ATTRACTION_SCAN_126-F1` across unrelated current task classes while continuing formation-diverse broad reality.
+
+For this seed, prove or kill:
+1. buyer prepays / funds platform escrow before local execution cost;
+2. the task can be normalized into location + deadline + checklist + evidence acceptance;
+3. a replaceable local executor can perform the work without founder site attendance;
+4. normalized economics remain positive after executor, travel, platform/payment, QA and rework costs;
+5. customer acquisition can escape recurring high-touch founder persuasion.
+
+Run a bounded manual bootstrap only after these conditions are evidenced enough to preserve a high-attraction target state. Bootstrap cap: 3 transactions / 14 days. It cannot prove founder independence.
 
 Success cases may determine **where to look**, never **what to believe**. Every proposed direction must still produce its own fresh `AttractionDiscoveryProfile` and pass the existing weakest-link hard floors before deep research.
 
@@ -171,13 +205,21 @@ Validation:
 - Scan 015-F1 still needs real official written provider rights evidence and founder-free inbound proof.
 
 Discovery:
-- no external blocker; implement/validate the success-pattern calibration, then run Scan 126 under it.
+- no evidence blocker; continue adjacent-task evidence collection and bind same-scope buyer price to local executor cost before any transaction claim.
 
 Engineering:
-- feature branch needs repository CI after PR creation.
+- current branch needs repository CI after PR creation; new bounded-bootstrap tests must pass.
 
 ## Completed
 
+- Merged success-pattern calibration PR #428 after exact-head CI and live TypeSafe/Jev success.
+- Closed stale concurrent PR #429 because it continued the pre-calibration mature-company-only Scan 126 ontology from an older main.
+- Researched current Reddit, Upwork, China-side field-execution networks and incumbent services.
+- Identified a formation wider than sourcing: remote-principal -> China-local physical execution -> structured evidence -> decision/settlement.
+- Found paid current examples in factory verification, showroom evidence, site audit and retail field research.
+- Found China-side task-dispatch evidence with standardized briefs, local-person matching and evidence QA.
+- Added a strict bounded-bootstrap model: at most 3 manual transactions / 14 days; external demand/payment, prepayment/escrow, standardized task/evidence and executor replaceability are mandatory.
+- Preserved the rule that founder-manufactured demand and recurring founder search/delivery are forbidden.
 - Recovered Scan 125 after PR #425 exposed a missing recovery-contract heading.
 - Replaced it with PR #426.
 - Verified exact-head repository CI and live TypeSafe/Jev.
@@ -215,4 +257,4 @@ Engineering:
 
 ## Next Action
 
-Complete and validate the success-pattern calibration PR. If CI passes, merge it, then run Scan 126 as a **precedent-calibrated, formation-diverse broad-reality scan** with the original high-attraction hard floors unchanged and no low-attraction experiment path.
+Deepen `ATTRACTION_SCAN_126-F1` by collecting more same-mechanism, different-task evidence and binding buyer-side paid tasks to China-side replaceable executor costs. Determine whether the field supports a genuinely founder-light prepaid dispatch/evidence control layer. Do not launch end-to-end sourcing, professional certification, logistics custody or a generic "China helper" service.
