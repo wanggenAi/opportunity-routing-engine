@@ -1195,7 +1195,10 @@
     "inference_is_not_fact": true,
     "gate_relaxation": false,
     "external_contact_performed": false,
-    "external_money_moved": false
+    "external_money_moved": false,
+    "public_affected_actor_discoverability_checked": true,
+    "standardizable_nonexpert_match_checked": true,
+    "open_remedy_not_missing_edge_checked": true
   },
   "scan_learnings": [
     "PUBLICLY_NAMED_AFFECTED_ACTORS_FIX_DISCOVERABILITY_BUT_DO_NOT_FIX_GATE_OWNERSHIP.",
