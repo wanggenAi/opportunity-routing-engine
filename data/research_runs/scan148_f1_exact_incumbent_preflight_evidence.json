@@ -1,0 +1,71 @@
+{
+  "scan_id": "ATTRACTION_SCAN_148",
+  "formation_id": "ATTRACTION_SCAN_148-F1",
+  "as_of_date": "2026-09-23",
+  "route_source": {
+    "exact_head_sha": "1d226931a4430ca5e5eeca6d297bc172450405a1",
+    "repository_ci_run_id": 35875961755,
+    "repository_ci_conclusion": "SUCCESS",
+    "live_jev_run_id": 35875961757,
+    "live_jev_execution_status": "SUCCESS",
+    "live_jev_artifact_id": 10756113497,
+    "live_jev_artifact_digest": "sha256:eb45031c46f988eaf8bb3744080e523a9cae3b93ec4ed475756eecd6d0e1b936",
+    "jev_input_scan_id": "ATTRACTION_SCAN_148",
+    "jev_entity_count": 5,
+    "effective_route_counts": {
+      "EXACT_INCUMBENT_PREFLIGHT": 1,
+      "NO_FURTHER_RESEARCH": 4
+    },
+    "model_route_counts": {
+      "EXACT_INCUMBENT_PREFLIGHT": 1,
+      "NO_FURTHER_RESEARCH": 4
+    },
+    "continuation_next_action": "EXECUTE_RESEARCH_QUEUE",
+    "f1_effective_route": "EXACT_INCUMBENT_PREFLIGHT"
+  },
+  "preflight_question": "Does an exact current incumbent/control loop already cover the narrow F1 edge: overseas/remote client -> clearly scoped lawful non-specialist China-side physical task -> local execution -> evidence/report?",
+  "sources": {
+    "CLA-LOCAL-TASK-20260923": {
+      "source_class": "EXACT_CURRENT_INCUMBENT_SERVICE",
+      "url": "https://chinalocalagent.com/services/local-task-execution",
+      "date": "2026-09-23",
+      "claim": "ChinaLocalAgent explicitly offers clearly scoped local-task execution in China with request review, written quote, local execution, progress checkpoints, photo/video/document evidence and completion reporting for remote teams and other clients."
+    },
+    "CLA-HOME-20260923": {
+      "source_class": "EXACT_CURRENT_MULTI_CITY_CONTROL_LOOP",
+      "url": "https://chinalocalagent.com/",
+      "date": "2026-09-23",
+      "claim": "ChinaLocalAgent explicitly serves overseas clients from one-time/ad-hoc through ongoing local support, takes task/location/deadline/evidence inputs, reviews feasibility, quotes, executes and reports, and lists regional offices in eight major Chinese cities with other locations reviewed case by case."
+    },
+    "CBA-ERRAND-20260923": {
+      "source_class": "EXACT_CURRENT_NATIONWIDE_COMPETITOR",
+      "url": "https://chinabizagent.com/china-local-support-errand-service/",
+      "date": "2026-09-23",
+      "claim": "China Biz Agent offers international clients physical-task execution in China including on-site visits, photos/videos, visible-condition checks, pickups/deliveries, simple errands and in-person verification."
+    },
+    "CBA-ABOUT-20260923": {
+      "source_class": "EXACT_CURRENT_NATIONWIDE_COVERAGE",
+      "url": "https://chinabizagent.com/about-us/",
+      "date": "2026-09-23",
+      "claim": "China Biz Agent states that it operates across mainland China and starts each task from a clear brief describing what must be checked, collected, verified or delivered."
+    },
+    "ERRANDS-CHINA-20260923": {
+      "source_class": "ADDITIONAL_CURRENT_DIRECT_COMPETITOR",
+      "url": "https://errandschina.com/",
+      "date": "2026-09-23",
+      "claim": "ErrandsChina directly markets physical-presence errands and operational assistance in China to foreign businesses, overseas Chinese, expats and international individuals, including one-off tasks requiring local presence."
+    }
+  },
+  "findings": [
+    "The proposed F1 sequence is already represented nearly field-for-field by an incumbent service: task intake -> scope/feasibility review -> quote -> local execution -> progress/evidence -> completion report.",
+    "The incumbent is not limited to specialist factory inspection; its Local Task Execution and Personal Errands boundaries explicitly include low-risk defined tasks, pickup/site confirmation/appointment support and evidence delivery.",
+    "A second current provider advertises the same remote international-client to physical-China-task loop with mainland-wide reach, so the evidence is not a single-provider anomaly.",
+    "The surviving distinction would have to be a new acquisition, dispatch, trust, settlement or unit-economic advantage; none is evidenced by the broad-reality record. A generic routing layer would therefore duplicate current service control loops rather than expose a proven missing edge."
+  ],
+  "resolution": "CLOSED_EXACT_CURRENT_INCUMBENTS_ALREADY_OWN_BOUNDED_REMOTE_TO_LOCAL_TASK_INTAKE_SCOPING_EXECUTION_EVIDENCE_AND_REPORTING_LOOP",
+  "authoritative_verdict": "DEMOTED_AFTER_EXACT_INCUMBENT_PREFLIGHT_BOUNDED_REMOTE_TO_LOCAL_EXECUTION_ALREADY_PRODUCTIZED_BY_CURRENT_MULTI_CITY_AND_NATIONWIDE_PROVIDERS",
+  "commercial_promotion": false,
+  "external_contact_performed": false,
+  "money_moved": false,
+  "next_action": "FREEZE_ROUTE_CONSUMPTION_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_IF_F1_EFFECTIVE_ROUTE_RESOLVES_NO_FURTHER_RESEARCH_MERGE_PR460_AND_ADVANCE_SCAN149"
+}
