@@ -40,8 +40,9 @@ class Scan154FailureWorkaroundFirstTests(unittest.TestCase):
 
     def test_machine_state_reconciles_scan153_and_advances(self):
         state=load(STATE_PATH)
-        self.assertEqual(state["last_completed_scan_id"],"ATTRACTION_SCAN_154")
-        self.assertEqual(state["next_scan_id"],"ATTRACTION_SCAN_155")
+        self.assertGreaterEqual(int(state["last_completed_scan_id"].rsplit("_",1)[1]),154)
+        self.assertGreaterEqual(int(state["next_scan_id"].rsplit("_",1)[1]),155)
+        self.assertEqual(state["scan154_failure_workaround_first"]["final_jev_next_action"],"ADVANCE_TO_NEXT_SCAN")
         prior=state["scan153_broad_reality_transition_flows"]
         self.assertEqual(prior["final_exact_head_sha"],"20d68d6717bedf48bc53f41298b118c42cab0d10")
         self.assertEqual(prior["final_repository_ci_run_id"],35883127760)

@@ -1,0 +1,83 @@
+{
+  "scan_id": "ATTRACTION_SCAN_155",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "1041b296d0990c3b7cf526a71436c1e7abbcacd7",
+  "research_method": "FAILURE_WORKAROUND_FIRST_BROAD_REALITY_FRESH_DOMAIN_COMPARISON",
+  "sources": {
+    "MY-EINV-TIMELINE-20260830": {
+      "source_class": "CURRENT_MALAYSIA_EINVOICE_PHASED_COMPLIANCE_TRANSITION",
+      "url": "https://www.hasil.gov.my/e-invois/pelaksanaan-e-invois-di-malaysia/garis-masa-pelaksanaan-e-invois/",
+      "date": "2026-08-30",
+      "claim": "Malaysia's tax authority updated the phased e-Invoice timeline on 30 August 2026; taxpayers with annual sales up to RM5 million entered the regime from 1 January 2026, while taxpayers below RM3 million are exempt."
+    },
+    "MY-EINV-MDEC-20260807": {
+      "source_class": "CURRENT_MALAYSIA_EINVOICE_PROVIDER_DIRECTORY",
+      "url": "https://www.mdec.my/national-einvoicing",
+      "date": "2026-08-07",
+      "claim": "MDEC publishes current lists of Peppol-ready solution providers and service providers plus free and affordable e-Invoicing solutions for SMEs."
+    },
+    "MY-EINV-SDK-20260803": {
+      "source_class": "CURRENT_MALAYSIA_EINVOICE_CALLABLE_API_RAIL",
+      "url": "https://sdk.myinvois.hasil.gov.my/",
+      "date": "2026-08-03",
+      "claim": "LHDNM's current MyInvois SDK exposes REST APIs for taxpayer and intermediary system authentication, document submission, validation, search and notification workflows."
+    },
+    "EV-NEA-20260923": {
+      "source_class": "CURRENT_NATIONAL_EV_CHARGING_REPLENISHMENT",
+      "url": "https://www.nea.gov.cn/20260923/e63286a4c4174cf69bc13a772ae72d5f/c.html",
+      "date": "2026-09-23",
+      "claim": "China's National Energy Administration reports 24.223 million EV charging guns by August 2026, up 39.6% year over year, evidencing a very large and rapidly replenishing charging network."
+    },
+    "EV-HUAZHONG-20260921": {
+      "source_class": "CURRENT_EV_CHARGING_FAILURE_AND_CONTROL_SURFACE",
+      "url": "https://hzj.nea.gov.cn/dtyw/jgdt/202609/t20260921_309360.html",
+      "date": "2026-09-21",
+      "claim": "Central China energy regulators report ongoing EV-charging bottlenecks around planning, service optimization, platform data governance and grid capacity, while provincial monitoring platforms and charging operators hold the decisive operational data and remediation controls."
+    },
+    "PARK-SHANXI-20260706": {
+      "source_class": "CURRENT_SHARED_PARKING_MISMATCH_AND_PLATFORM",
+      "url": "https://cgj.cq.gov.cn/zwxx_173/bmdt/xyzx/202607/t20260706_15802226.html",
+      "date": "2026-07-06",
+      "claim": "A 2026 government-sector report describes severe time-space parking mismatch, including 48% daytime vacancy in residential spaces, and a digital shared-parking platform built to release and match that idle inventory."
+    },
+    "AGRI-HUBEI-20260921": {
+      "source_class": "CURRENT_CROSS_REGION_AGRIMACHINERY_MATCHING_PLATFORM",
+      "url": "https://hbnysy.hubei.gov.cn/bmdt/sxzc/202609/t20260921_6018996.shtml",
+      "date": "2026-09-21",
+      "claim": "Anlu Yandian's 2026 'Tian Baomu' platform registers incoming cross-region machinery at entry, publishes information and dispatches machines to local agricultural demand, directly addressing prior poor visibility and weak scheduling."
+    },
+    "AGRI-XIAN-20260922": {
+      "source_class": "CURRENT_CROSS_REGION_AGRIMACHINERY_RECURRING_EVENT_SOURCE",
+      "url": "https://nyncj.xa.gov.cn/xwdt/zhxw/2102323347879202817.html",
+      "date": "2026-09-22",
+      "claim": "Xi'an's agriculture authority describes the recurring autumn harvest season, cross-region machinery movement, service stations, supply-demand coordination and support hotlines, evidencing a repeated seasonal event source and bilateral operating population."
+    },
+    "QI-SHENZHEN-20260413": {
+      "source_class": "CURRENT_SME_QUALITY_INFRASTRUCTURE_ONE_STOP_NETWORK",
+      "url": "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_12739782.html",
+      "date": "2026-04-13",
+      "claim": "Shenzhen's 2026 quality-infrastructure one-stop program explicitly integrates metrology, standards, testing, certification, quality management, IP and export support for SMEs through evaluated service platforms."
+    },
+    "QI-ZHEJIANG-20260923": {
+      "source_class": "CURRENT_SEARCHABLE_QUALITY_INFRASTRUCTURE_CONTROL_SURFACE",
+      "url": "https://zlzx.zjamr.zj.gov.cn/",
+      "date": "2026-09-23",
+      "claim": "Zhejiang's quality-infrastructure one-stop platform currently lets enterprises search by product, standard, testing item or institution and exposes testing, calibration, certification and related service categories."
+    }
+  },
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_155-F1",
+    "ATTRACTION_SCAN_155-F2",
+    "ATTRACTION_SCAN_155-F3",
+    "ATTRACTION_SCAN_155-F4",
+    "ATTRACTION_SCAN_155-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "conclusion": "Fresh failure/workaround-first evidence again separates real unresolved pain from operator-owned opportunity. EV charging retains a genuine service/data-governance failure but not an independently callable control surface; the other four fields already expose mature official or platform rails.",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN156"
+}

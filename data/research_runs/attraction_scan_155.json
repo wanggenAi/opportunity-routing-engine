@@ -1,0 +1,892 @@
+{
+  "scan_id": "ATTRACTION_SCAN_155",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "FRESH_BROAD_CURRENT_REALITY_FAILURE_WORKAROUND_FIRST_FRESH_DOMAINS_AFTER_SCAN154_FINAL_CLOSURE",
+  "source_main_sha": "1041b296d0990c3b7cf526a71436c1e7abbcacd7",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_154",
+    "prior_pr": 468,
+    "prior_merged_main_sha": "1041b296d0990c3b7cf526a71436c1e7abbcacd7",
+    "prior_final_exact_head": "94811b6f62598b20b3aaf1ee081188798e6ce8ae",
+    "prior_repository_ci_run_id": 35884382382,
+    "prior_repository_ci_test_job_id": 107260670704,
+    "prior_repository_ci_test_count": 783,
+    "prior_live_jev_run_id": 35884382385,
+    "prior_live_jev_artifact_id": 10761597741,
+    "prior_live_jev_artifact_digest": "sha256:48a4dce810c3441a8e8ea7c228beff42703b3193d6fc2fe003e8e8cc2a66f76c",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "failure_workaround_first_search": true,
+    "scan154_domains_not_used_as_prior": true
+  },
+  "broad_reality_domains_examined": [
+    "MALAYSIA_EINVOICE_TRANSITION",
+    "EV_CHARGING_OPERATIONS",
+    "SHARED_PARKING",
+    "CROSS_REGION_AGRIMACHINERY",
+    "SME_QUALITY_INFRASTRUCTURE"
+  ],
+  "source_registry": {
+    "MY-EINV-TIMELINE-20260830": {
+      "source_class": "CURRENT_MALAYSIA_EINVOICE_PHASED_COMPLIANCE_TRANSITION",
+      "url": "https://www.hasil.gov.my/e-invois/pelaksanaan-e-invois-di-malaysia/garis-masa-pelaksanaan-e-invois/",
+      "date": "2026-08-30",
+      "claim": "Malaysia's tax authority updated the phased e-Invoice timeline on 30 August 2026; taxpayers with annual sales up to RM5 million entered the regime from 1 January 2026, while taxpayers below RM3 million are exempt."
+    },
+    "MY-EINV-MDEC-20260807": {
+      "source_class": "CURRENT_MALAYSIA_EINVOICE_PROVIDER_DIRECTORY",
+      "url": "https://www.mdec.my/national-einvoicing",
+      "date": "2026-08-07",
+      "claim": "MDEC publishes current lists of Peppol-ready solution providers and service providers plus free and affordable e-Invoicing solutions for SMEs."
+    },
+    "MY-EINV-SDK-20260803": {
+      "source_class": "CURRENT_MALAYSIA_EINVOICE_CALLABLE_API_RAIL",
+      "url": "https://sdk.myinvois.hasil.gov.my/",
+      "date": "2026-08-03",
+      "claim": "LHDNM's current MyInvois SDK exposes REST APIs for taxpayer and intermediary system authentication, document submission, validation, search and notification workflows."
+    },
+    "EV-NEA-20260923": {
+      "source_class": "CURRENT_NATIONAL_EV_CHARGING_REPLENISHMENT",
+      "url": "https://www.nea.gov.cn/20260923/e63286a4c4174cf69bc13a772ae72d5f/c.html",
+      "date": "2026-09-23",
+      "claim": "China's National Energy Administration reports 24.223 million EV charging guns by August 2026, up 39.6% year over year, evidencing a very large and rapidly replenishing charging network."
+    },
+    "EV-HUAZHONG-20260921": {
+      "source_class": "CURRENT_EV_CHARGING_FAILURE_AND_CONTROL_SURFACE",
+      "url": "https://hzj.nea.gov.cn/dtyw/jgdt/202609/t20260921_309360.html",
+      "date": "2026-09-21",
+      "claim": "Central China energy regulators report ongoing EV-charging bottlenecks around planning, service optimization, platform data governance and grid capacity, while provincial monitoring platforms and charging operators hold the decisive operational data and remediation controls."
+    },
+    "PARK-SHANXI-20260706": {
+      "source_class": "CURRENT_SHARED_PARKING_MISMATCH_AND_PLATFORM",
+      "url": "https://cgj.cq.gov.cn/zwxx_173/bmdt/xyzx/202607/t20260706_15802226.html",
+      "date": "2026-07-06",
+      "claim": "A 2026 government-sector report describes severe time-space parking mismatch, including 48% daytime vacancy in residential spaces, and a digital shared-parking platform built to release and match that idle inventory."
+    },
+    "AGRI-HUBEI-20260921": {
+      "source_class": "CURRENT_CROSS_REGION_AGRIMACHINERY_MATCHING_PLATFORM",
+      "url": "https://hbnysy.hubei.gov.cn/bmdt/sxzc/202609/t20260921_6018996.shtml",
+      "date": "2026-09-21",
+      "claim": "Anlu Yandian's 2026 'Tian Baomu' platform registers incoming cross-region machinery at entry, publishes information and dispatches machines to local agricultural demand, directly addressing prior poor visibility and weak scheduling."
+    },
+    "AGRI-XIAN-20260922": {
+      "source_class": "CURRENT_CROSS_REGION_AGRIMACHINERY_RECURRING_EVENT_SOURCE",
+      "url": "https://nyncj.xa.gov.cn/xwdt/zhxw/2102323347879202817.html",
+      "date": "2026-09-22",
+      "claim": "Xi'an's agriculture authority describes the recurring autumn harvest season, cross-region machinery movement, service stations, supply-demand coordination and support hotlines, evidencing a repeated seasonal event source and bilateral operating population."
+    },
+    "QI-SHENZHEN-20260413": {
+      "source_class": "CURRENT_SME_QUALITY_INFRASTRUCTURE_ONE_STOP_NETWORK",
+      "url": "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_12739782.html",
+      "date": "2026-04-13",
+      "claim": "Shenzhen's 2026 quality-infrastructure one-stop program explicitly integrates metrology, standards, testing, certification, quality management, IP and export support for SMEs through evaluated service platforms."
+    },
+    "QI-ZHEJIANG-20260923": {
+      "source_class": "CURRENT_SEARCHABLE_QUALITY_INFRASTRUCTURE_CONTROL_SURFACE",
+      "url": "https://zlzx.zjamr.zj.gov.cn/",
+      "date": "2026-09-23",
+      "claim": "Zhejiang's quality-infrastructure one-stop platform currently lets enterprises search by product, standard, testing item or institution and exposes testing, calibration, certification and related service categories."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_155-F1",
+      "title": "Malaysia SMEs entering or adapting to e-Invoice compliance -> Peppol-ready and MyInvois-integrated solution/service providers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "The 2026 compliance transition creates repeated implementation pressure and a callable government API, but MDEC already publishes qualified solution/service-provider lists and LHDNM exposes direct taxpayer/intermediary integration. A generic provider-matching layer does not own a distinct missing edge; China-specific onboarding value would still require unevidenced bespoke integration or advisory work.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 1,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "b_voluntary_motion": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "state_dependent_value_jump": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "decision_window": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "bridge_compression": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "activation_ease": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "self_propulsion": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "operator_control": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "a_discoverability": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "b_discoverability": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "match_resolvability": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "action_gate_callability": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "a_population_replenishment": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "b_population_replenishment": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "recurring_connection_pressure": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "recurring_missing_edge": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ],
+          "recurring_event_source": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": true
+        }
+      },
+      "verdict": "DEMOTED_MALAYSIA_EINVOICE_TRANSITION_REAL_BUT_OFFICIAL_API_AND_PROVIDER_DIRECTORIES_ALREADY_EXPOSE_THE_GENERIC_MATCH_AND_CHINA_SPECIFIC_INTEGRATION_REMAINS_UNEVIDENCED_BESPOKE_WORK",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "MY-EINV-TIMELINE-20260830",
+            "MY-EINV-MDEC-20260807",
+            "MY-EINV-SDK-20260803"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "MY-EINV-TIMELINE-20260830",
+          "MY-EINV-MDEC-20260807",
+          "MY-EINV-SDK-20260803"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_155-F2",
+      "title": "EV drivers encountering unreliable or poorly allocated charging access -> charging operators with available functioning capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "National charging capacity is expanding rapidly while current regulators still identify planning, service, platform-data and grid bottlenecks. The residual failure is real, but live occupancy, fault, pricing and remediation controls sit inside operator and government monitoring systems rather than an open independent action rail.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 1,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "b_voluntary_motion": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "state_dependent_value_jump": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "decision_window": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "bridge_compression": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "activation_ease": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "self_propulsion": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "operator_control": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "a_discoverability": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "b_discoverability": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "match_resolvability": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "action_gate_callability": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "a_population_replenishment": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "b_population_replenishment": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "recurring_connection_pressure": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "recurring_missing_edge": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ],
+          "recurring_event_source": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_EV_CHARGING_FAILURE_FIELD_REAL_BUT_LIVE_AVAILABILITY_FAULT_PRICE_AND_REMEDIATION_CONTROL_REMAIN_OPERATOR_OR_REGULATOR_OWNED",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EV-NEA-20260923",
+            "EV-HUAZHONG-20260921"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "EV-NEA-20260923",
+          "EV-HUAZHONG-20260921"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_155-F3",
+      "title": "Drivers facing localized parking scarcity -> nearby time-shifted idle parking-space inventory",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "Current evidence shows a strong time-space mismatch between parking demand and residential vacancy, but the cited shared-parking platform already digitizes inventory release and matching. The generic missing edge is therefore already productized rather than independently open.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 2,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "PARK-SHANXI-20260706"
+          ],
+          "b_voluntary_motion": [
+            "PARK-SHANXI-20260706"
+          ],
+          "state_dependent_value_jump": [
+            "PARK-SHANXI-20260706"
+          ],
+          "decision_window": [
+            "PARK-SHANXI-20260706"
+          ],
+          "bridge_compression": [
+            "PARK-SHANXI-20260706"
+          ],
+          "activation_ease": [
+            "PARK-SHANXI-20260706"
+          ],
+          "self_propulsion": [
+            "PARK-SHANXI-20260706"
+          ],
+          "operator_control": [
+            "PARK-SHANXI-20260706"
+          ],
+          "a_discoverability": [
+            "PARK-SHANXI-20260706"
+          ],
+          "b_discoverability": [
+            "PARK-SHANXI-20260706"
+          ],
+          "match_resolvability": [
+            "PARK-SHANXI-20260706"
+          ],
+          "action_gate_callability": [
+            "PARK-SHANXI-20260706"
+          ],
+          "a_population_replenishment": [
+            "PARK-SHANXI-20260706"
+          ],
+          "b_population_replenishment": [
+            "PARK-SHANXI-20260706"
+          ],
+          "recurring_connection_pressure": [
+            "PARK-SHANXI-20260706"
+          ],
+          "recurring_missing_edge": [
+            "PARK-SHANXI-20260706"
+          ],
+          "recurring_event_source": [
+            "PARK-SHANXI-20260706"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_SHARED_PARKING_MISMATCH_REAL_BUT_CURRENT_DIGITAL_PLATFORM_ALREADY_OWNS_INVENTORY_RELEASE_MATCHING_AND_TRANSACTION_CONTROL",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PARK-SHANXI-20260706"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PARK-SHANXI-20260706"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PARK-SHANXI-20260706"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PARK-SHANXI-20260706"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PARK-SHANXI-20260706"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "PARK-SHANXI-20260706"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_155-F4",
+      "title": "Seasonal crop producers needing time-critical harvesting capacity -> cross-region machinery operators entering the locality",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "Seasonal harvest demand and mobile machinery populations replenish repeatedly, but current public coordination already registers arriving machines, publishes supply-demand information and dispatches machines to fields. The independent generic router does not own the decisive edge.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "b_voluntary_motion": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "state_dependent_value_jump": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "decision_window": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "bridge_compression": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "activation_ease": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "self_propulsion": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "operator_control": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "a_discoverability": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "b_discoverability": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "match_resolvability": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "action_gate_callability": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "a_population_replenishment": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "b_population_replenishment": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "recurring_connection_pressure": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "recurring_missing_edge": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ],
+          "recurring_event_source": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_CROSS_REGION_AGRIMACHINERY_FIELD_REGENERATIVE_BUT_CURRENT_PUBLIC_REGISTRATION_INFORMATION_AND_DISPATCH_RAILS_ALREADY_OWN_THE_MATCHING_LOOP",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-HUBEI-20260921",
+            "AGRI-XIAN-20260922"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "AGRI-HUBEI-20260921",
+          "AGRI-XIAN-20260922"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_155-F5",
+      "title": "SMEs with testing certification metrology or export-quality gaps -> accredited quality-infrastructure service institutions",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "SME quality and export-compliance needs are recurring and qualified service institutions are abundant, but current one-stop public networks already aggregate testing, certification, standards, metrology and searchable institution discovery. A generic independent matcher adds no evidenced missing edge.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "b_voluntary_motion": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "state_dependent_value_jump": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "decision_window": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "bridge_compression": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "activation_ease": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "self_propulsion": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "operator_control": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "a_discoverability": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "b_discoverability": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "match_resolvability": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "action_gate_callability": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "a_population_replenishment": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "b_population_replenishment": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "recurring_connection_pressure": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "recurring_missing_edge": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ],
+          "recurring_event_source": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": true
+        }
+      },
+      "verdict": "DEMOTED_SME_QUALITY_INFRASTRUCTURE_FIELD_REAL_BUT_CURRENT_ONE_STOP_PUBLIC_NETWORKS_ALREADY_AGGREGATE_SEARCH_MATCHING_AND_SERVICE_ACCESS",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QI-SHENZHEN-20260413",
+            "QI-ZHEJIANG-20260923"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "QI-SHENZHEN-20260413",
+          "QI-ZHEJIANG-20260923"
+        ]
+      }
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Five fresh failure/workaround-first fields were rederived. EV charging preserves a real unresolved service/control-data gap, while e-Invoice, shared parking, agricultural machinery dispatch and quality infrastructure already expose mature official or platform control surfaces. None yields an operator-owned machine-resolvable callable bridge."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_156",
+  "next_search_boundary": "AFTER_EXACT_HEAD_VALIDATION_ADVANCE_TO_FRESH_FAILURE_WORKAROUND_REALITY_AND_PRIORITIZE_FIELDS_WHERE_BOTH_SIDES_ARE_PUBLICLY_DISCOVERABLE_BUT_THE_DECISIVE_ACTION_RAIL_IS_NOT_ALREADY_OWNED",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN156",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scan154_domains_not_used_as_prior": true,
+    "observed_failure_or_workaround_seeded": true,
+    "incumbent_presence_not_used_as_automatic_kill": true,
+    "residual_ev_charging_failure_preserved": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "CALLABLE_OFFICIAL_API_PLUS_PUBLIC_PROVIDER_DIRECTORY_CAN_ELIMINATE_A_GENERIC_MATCHING_EDGE_EVEN_WHEN_COMPLIANCE_PRESSURE_IS_HIGH.",
+    "REAL_EV_CHARGING_SERVICE_FAILURE_CAN_PERSIST_WHILE_THE_DECISIVE_LIVE_DATA_AND_REMEDIATION_RAIL_REMAIN_OPERATOR_OR_REGULATOR_OWNED.",
+    "SHARED_PARKING_AND_CROSS_REGION_AGRIMACHINERY_SHOW_THAT_STRONG_TIME_SPACE_MISMATCH_IS_NOT_ENOUGH_WHEN_CURRENT_PLATFORMS_ALREADY_CONTROL_INVENTORY_AND_DISPATCH.",
+    "QUALITY_INFRASTRUCTURE_IS_REGENERATIVE_BUT_GENERIC_DISCOVERY_IS_ALREADY_PUBLICLY_AGGREGATED."
+  ],
+  "source_urls": [
+    "https://www.hasil.gov.my/e-invois/pelaksanaan-e-invois-di-malaysia/garis-masa-pelaksanaan-e-invois/",
+    "https://www.mdec.my/national-einvoicing",
+    "https://sdk.myinvois.hasil.gov.my/",
+    "https://www.nea.gov.cn/20260923/e63286a4c4174cf69bc13a772ae72d5f/c.html",
+    "https://hzj.nea.gov.cn/dtyw/jgdt/202609/t20260921_309360.html",
+    "https://cgj.cq.gov.cn/zwxx_173/bmdt/xyzx/202607/t20260706_15802226.html",
+    "https://hbnysy.hubei.gov.cn/bmdt/sxzc/202609/t20260921_6018996.shtml",
+    "https://nyncj.xa.gov.cn/xwdt/zhxw/2102323347879202817.html",
+    "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_12739782.html",
+    "https://zlzx.zjamr.zj.gov.cn/"
+  ]
+}
