@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "task_key": "commercial-attraction-scan-137",
+  "generation": 1,
+  "status": "ACTIVE",
+  "reconciled_at": "2026-09-23T07:42:00Z",
+  "live_main": "dc7cf834d24302f85702caddad000fbd3ad082ff",
+  "work_branch": "research/scan137-current-asset-receipts",
+  "frozen_head": "dc7cf834d24302f85702caddad000fbd3ad082ff",
+  "stage": "SCAN137_FRESH_CURRENT_ASSET_DISCOVERY",
+  "scan_id": "ATTRACTION_SCAN_137",
+  "durable_conclusions": [
+    "Scan136 F1/F2 live TypeSafe/Jev routes are fully consumed to an external/source-document boundary; PR #446 merged and main push CI/Jev succeeded.",
+    "Scan137 may begin fresh broad public research under the existing single/economically-separable asset cashflow boundary.",
+    "No Scan060-136 formation reuse; no gate relaxation; no external side effects or monetary actions."
+  ],
+  "next_action": "Search fresh current China single/economically-separable assets with exact attributable receipts, automatic post-transfer continuity, >=24 months future coverage, computable non-disqualifying economics and low recurring human delivery; persist only evidence-bound formations.",
+  "pending_operation": null,
+  "do_not_repeat": [
+    "Do not reuse Scan060-136 formations or exact addresses.",
+    "Do not return to consumed Scan136 branches or PR #446.",
+    "Do not treat rental-right auctions as buyer receipt formations.",
+    "Do not promote attachment-only or pooled-receipt economics.",
+    "Do not contact external parties or commit money without explicit authority."
+  ]
+}
