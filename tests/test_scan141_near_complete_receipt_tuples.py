@@ -24,6 +24,8 @@ class Scan141Tests(unittest.TestCase):
         self.assertIn("PUBLIC_CAUSAL_DESCENT_EXHAUSTED", by_id["ATTRACTION_SCAN_141-F1"]["verdict"])
         self.assertIn("UNKNOWN", by_id["ATTRACTION_SCAN_141-F2"]["economic_tuple"]["buyer_receipt_start"])
         self.assertIn("EXACT_INCUMBENT_PREFLIGHT_EXHAUSTED", by_id["ATTRACTION_SCAN_141-F2"]["verdict"])
+        self.assertIn("PRIORITY_RIGHT_HOLDER_ROLE_NOT_BOUND", by_id["ATTRACTION_SCAN_141-F2"]["economic_tuple"]["counterparty"])
+        self.assertTrue(any("priority purchaser" in item.lower() for item in by_id["ATTRACTION_SCAN_141-F2"]["exact_disconfirmation"]))
 
     def test_comparators_demote_on_distinct_gates(self):
         scan = json.loads(SCAN.read_text(encoding="utf-8"))
