@@ -1,0 +1,940 @@
+{
+  "scan_id": "ATTRACTION_SCAN_143",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_REDERIVATION_AFTER_SCAN142_JEV_ADVANCE_TO_NEXT_SCAN",
+  "source_main_sha": "c4d3da4d67f067a512642beb272eeafa7fd0fa34",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_142",
+    "prior_pr": 453,
+    "prior_merged_main_sha": "c4d3da4d67f067a512642beb272eeafa7fd0fa34",
+    "prior_final_exact_head": "fb3d325b2757659f64bb8692883b6347d4427243",
+    "prior_repository_ci_run_id": 35866479631,
+    "prior_live_jev_run_id": 35866479446,
+    "prior_live_jev_artifact_id": 10752364519,
+    "prior_live_jev_artifact_digest": "sha256:043d1f74672508441a093c9960ea911310ee053447f8ed081289f1cdb7beb785",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scan142_vpp_subproblem_not_inherited": true
+  },
+  "broad_reality_domains_examined": [
+    "CROSS_BORDER_SMALL_BUYER_FACTORY_VERIFICATION_AND_INSPECTION",
+    "SME_PROFESSIONAL_SERVICE_DISCOVERY",
+    "SHARED_MANUFACTURING_AND_TESTING_CAPACITY",
+    "OVERSEAS_COMPLIANCE_SERVICES",
+    "INDUSTRIAL_SOLID_WASTE_UTILIZATION"
+  ],
+  "source_registry": {
+    "CF-139-2026": {
+      "source_class": "OFFICIAL_CANTON_FAIR_CURRENT",
+      "url": "https://www.cantonfair.org.cn/about?pageCode=33414c3a293b4349aa5c5dc60dfb1b42",
+      "date": "2026",
+      "claim": "The official Canton Fair site reports 32,000 exhibitors and 314,000 overseas buyers from 220 countries/regions at the 139th fair, while the 140th fair is scheduled for October-November 2026, evidencing replenishing cross-border sourcing populations and recurring sourcing events."
+    },
+    "INSPECTION-SAMR-20260610": {
+      "source_class": "OFFICIAL_SAMR_CURRENT",
+      "url": "https://www.samr.gov.cn/xw/mtjj/art/2026/art_937f76a47d214a10ba9daa7960c778d1.html",
+      "date": "2026-06-10",
+      "claim": "China had 54,340 qualified inspection/testing institutions at 2025 year-end, 1.5864 million workers and 571 million reports, evidencing a large replenishing verification-service supply base."
+    },
+    "BUYER-VERIFY-SZ-20260920": {
+      "source_class": "CURRENT_COMMUNITY_DEMAND_OBSERVATION",
+      "url": "https://www.reddit.com/r/ShenzhenMarketplace/comments/1wlbliu/need_someone_to_verify_a_factory_in_shenzhen/",
+      "date": "2026-09-20",
+      "claim": "A current overseas buyer sought a reliable private Shenzhen sourcing/inspection agent to visit an Alibaba manufacturer, confirm stock and quality, and return photos/video before a larger order; the post quickly received referrals/offers. This is anecdotal demand evidence, not a population prevalence estimate."
+    },
+    "BUYER-INSPECTION-20260519": {
+      "source_class": "CURRENT_COMMUNITY_DEMAND_OBSERVATION",
+      "url": "https://www.reddit.com/r/Business_China/comments/1thr1m4/how_i_visited_factories_in_china_still_overpaid/",
+      "date": "2026-05-19",
+      "claim": "An experienced Morocco importer described personally visiting Chinese factories but still relying on a hired inspection agent before shipment; the inspection reportedly found serious manufacturing defects. This is anecdotal current evidence of repeated trust/quality pressure."
+    },
+    "BUYER-DEPOSIT-20260617": {
+      "source_class": "CURRENT_COMMUNITY_DEMAND_OBSERVATION",
+      "url": "https://www.reddit.com/r/AmazonFBA/comments/1u8n846/how_do_you_actually_verify_a_china_supplier/",
+      "date": "2026-06-17",
+      "claim": "A buyer close to paying a 30% deposit asked how to verify the Chinese supplier beyond platform badges and certificates and whether to pay for inspection, sourcing or factory verification. This is anecdotal current evidence of a movable pre-payment decision window."
+    },
+    "BUYER-START-20260825": {
+      "source_class": "CURRENT_COMMUNITY_DEMAND_OBSERVATION",
+      "url": "https://www.reddit.com/r/Business_China/comments/1vxoykx/thinking_about_sourcing_products_from_china_where/",
+      "date": "2026-08-25",
+      "claim": "A small-business buyer asked how to choose among China sourcing locations, fairs, online suppliers and sourcing agents, illustrating recurring navigation/trust questions among new overseas buyers. This is anecdotal, not population-level evidence."
+    },
+    "SME-SERVICE-MAP-20260715": {
+      "source_class": "OFFICIAL_MIIT_CURRENT",
+      "url": "https://www.miit.gov.cn/jgsj/qyj/wjfb/art/2026/art_530edd7abdae47c7a8d281f9c0bb0264.html",
+      "date": "2026-07-15",
+      "claim": "MIIT says SME service information asymmetry needs to be solved and is building a national service-institution smart map for information display and supply-demand matching; the map explicitly does not guarantee provider capability or service effect."
+    },
+    "SHARED-MFG-2025-2028": {
+      "source_class": "OFFICIAL_MIIT_ACTIVE_PLAN",
+      "url": "https://fjca.miit.gov.cn/zwgk/zcwj/wjfb/art/2025/art_3cc261f79eaf40c699b90bea36c38a1c.html",
+      "date": "2025-10",
+      "claim": "The active 2025-2028 service-oriented manufacturing plan calls for shared-manufacturing platforms with online publishing, order matching, logistics, payment protection and credit evaluation, plus shared factories and open inspection/testing capacity."
+    },
+    "EXPORT-COMPLIANCE-MOFCOM-2026": {
+      "source_class": "OFFICIAL_MOFCOM_CURRENT",
+      "url": "https://www.mofcom.gov.cn/zcfb/zhzc/art/2026/art_7e1dc12697b744fd89e6110673ac117c.html",
+      "date": "2026",
+      "claim": "MOFCOM and five departments direct stronger compliance-going-global support, overseas comprehensive-service platforms, risk monitoring, policy guidance, IP protection and localized operations for ecommerce firms."
+    },
+    "EXPORT-COMPLIANCE-CCPIT-20260821": {
+      "source_class": "CCPIT_CURRENT",
+      "url": "https://exhibition.ccpit.org/articles/6554",
+      "date": "2026-08-21",
+      "claim": "CCPIT describes 2026 overseas compliance pressure as increasingly complex across trade restrictions, local compliance, data, green and human-rights rules, evidencing recurring compliance events but also high expert interpretation burden."
+    },
+    "WASTE-SH-2026": {
+      "source_class": "OFFICIAL_SHANGHAI_CURRENT",
+      "url": "https://www.shanghai.gov.cn/gwk/search/content/a8872bf709584897ba26afa01b23970a",
+      "date": "2026",
+      "claim": "Shanghai's general industrial solid-waste information platform tracks origin/destination, recipient confirmation and full transfer chains, with regulated responsibilities for generators and recipients."
+    },
+    "WASTE-LN-20260805": {
+      "source_class": "OFFICIAL_LIAONING_CURRENT",
+      "url": "https://sthj.ln.gov.cn/sthj/zfxxgk/fdzdgknr/jyta/srddbjy/sssjrdwchy2026n/2026080509051538769/index.shtml",
+      "date": "2026-08-05",
+      "claim": "Liaoning identifies continuing bottlenecks in large-volume industrial solid-waste consumption/utilization while advancing industrial parks, standards, environmental approvals and resource-utilization capacity."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_143-F1",
+      "title": "Overseas small-buyer pre-order checkpoints -> China-side independent factory verification / inspection operator routing",
+      "chinese_title": "海外中小采购商订单前关键节点 → 中国本地独立验厂/验货执行者路由",
+      "evidence_class": "CURRENT_OFFICIAL_POPULATION_PLUS_REPEATED_COMMUNITY_CONNECTION_PRESSURE",
+      "evidence_summary": "Large current cross-border sourcing populations and a very large China inspection/testing supply base coexist with repeated 2026 buyer observations asking for independent local factory verification before deposits, larger orders or shipment. The observations are anecdotal and do not prove market prevalence, but together with independent population evidence they support a regenerative field worthy of exact incumbent, pricing, permission and acquisition preflight.",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 3,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "CF-139-2026",
+            "BUYER-START-20260825"
+          ],
+          "b_voluntary_motion": [
+            "INSPECTION-SAMR-20260610",
+            "BUYER-VERIFY-SZ-20260920"
+          ],
+          "state_dependent_value_jump": [
+            "BUYER-INSPECTION-20260519",
+            "BUYER-DEPOSIT-20260617"
+          ],
+          "decision_window": [
+            "BUYER-DEPOSIT-20260617",
+            "BUYER-VERIFY-SZ-20260920"
+          ],
+          "bridge_compression": [
+            "BUYER-VERIFY-SZ-20260920",
+            "BUYER-INSPECTION-20260519"
+          ],
+          "activation_ease": [
+            "BUYER-VERIFY-SZ-20260920",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "self_propulsion": [
+            "CF-139-2026",
+            "BUYER-START-20260825"
+          ],
+          "operator_control": [
+            "INSPECTION-SAMR-20260610",
+            "BUYER-VERIFY-SZ-20260920"
+          ],
+          "a_discoverability": [
+            "CF-139-2026",
+            "BUYER-START-20260825"
+          ],
+          "b_discoverability": [
+            "INSPECTION-SAMR-20260610",
+            "BUYER-VERIFY-SZ-20260920"
+          ],
+          "match_resolvability": [
+            "BUYER-VERIFY-SZ-20260920",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "action_gate_callability": [
+            "BUYER-VERIFY-SZ-20260920",
+            "BUYER-INSPECTION-20260519"
+          ],
+          "a_population_replenishment": [
+            "CF-139-2026"
+          ],
+          "b_population_replenishment": [
+            "INSPECTION-SAMR-20260610"
+          ],
+          "recurring_connection_pressure": [
+            "BUYER-VERIFY-SZ-20260920",
+            "BUYER-DEPOSIT-20260617",
+            "BUYER-INSPECTION-20260519"
+          ],
+          "recurring_missing_edge": [
+            "BUYER-VERIFY-SZ-20260920",
+            "BUYER-DEPOSIT-20260617",
+            "BUYER-INSPECTION-20260519"
+          ],
+          "recurring_event_source": [
+            "CF-139-2026",
+            "BUYER-DEPOSIT-20260617"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CF-139-2026"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "INSPECTION-SAMR-20260610"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BUYER-VERIFY-SZ-20260920",
+            "BUYER-DEPOSIT-20260617",
+            "BUYER-INSPECTION-20260519"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BUYER-VERIFY-SZ-20260920",
+            "BUYER-DEPOSIT-20260617",
+            "BUYER-INSPECTION-20260519"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CF-139-2026",
+            "BUYER-DEPOSIT-20260617"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "CF-139-2026",
+          "INSPECTION-SAMR-20260610",
+          "BUYER-VERIFY-SZ-20260920",
+          "BUYER-INSPECTION-20260519",
+          "BUYER-DEPOSIT-20260617"
+        ]
+      },
+      "decisive_unknowns": [
+        "Whether Alibaba/Verified Supplier, SGS/Intertek/QIMA and sourcing agencies already absorb the small-buyer local-verification edge at acceptable price/speed.",
+        "Whether a small operator can acquire overseas buyer demand repeatedly without founder-by-founder Reddit/DM selling.",
+        "Whether China-side verification supply can be standardized and dispatched by geography/scope without recurring expert matching or founder delivery.",
+        "Whether factory access permission, liability, report quality and payment rails can be standardized before any external service is sold.",
+        "Whether buyers will prepay a bounded verification packet at a price that leaves margin after local execution."
+      ],
+      "verdict": "RETAINED_FOR_CHEAP_FALSIFICATION_REGENERATIVE_CROSS_BORDER_FACTORY_VERIFICATION_ROUTING_FIELD_INCUMBENT_PRICE_PERMISSION_AND_ACQUISITION_PREFLIGHT_REQUIRED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_143-F2",
+      "title": "SMEs needing professional services -> service-institution discovery and matching",
+      "chinese_title": "中小企业专业服务需求 → 服务机构发现与匹配",
+      "evidence_class": "CURRENT_OFFICIAL_INFORMATION_ASYMMETRY_WITH_DIRECT_PUBLIC_MATCHING_SURFACE",
+      "evidence_summary": "MIIT explicitly identifies SME service information asymmetry and is building a national service smart map for information display and supply-demand matching, including dynamic provider information and user evaluation. The field is regenerative, but the obvious discovery/matching edge is already the stated public control surface; the map's no-guarantee disclaimer alone does not prove a separate commercially ownable quality-verification layer.",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 2,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "b_voluntary_motion": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "state_dependent_value_jump": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "decision_window": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "bridge_compression": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "activation_ease": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "self_propulsion": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "operator_control": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "a_discoverability": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "b_discoverability": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "match_resolvability": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "action_gate_callability": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "a_population_replenishment": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "b_population_replenishment": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "recurring_connection_pressure": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "recurring_missing_edge": [
+            "SME-SERVICE-MAP-20260715"
+          ],
+          "recurring_event_source": [
+            "SME-SERVICE-MAP-20260715"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SME-SERVICE-MAP-20260715"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SME-SERVICE-MAP-20260715"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SME-SERVICE-MAP-20260715"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SME-SERVICE-MAP-20260715"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SME-SERVICE-MAP-20260715"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "SME-SERVICE-MAP-20260715"
+        ]
+      },
+      "decisive_unknowns": [],
+      "verdict": "DEMOTED_REGENERATIVE_SME_SERVICE_FIELD_REAL_BUT_DIRECT_MIIT_SERVICE_MAP_ALREADY_OWNS_INFORMATION_DISPLAY_AND_SUPPLY_DEMAND_MATCHING_EDGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_143-F3",
+      "title": "SME manufacturing/testing demand -> shared production and inspection capacity routing",
+      "chinese_title": "中小企业制造/检测需求 → 共享产能与检验检测能力路由",
+      "evidence_class": "ACTIVE_OFFICIAL_SHARED_MANUFACTURING_PROGRAM_WITH_PLATFORM_CONTROL_SURFACE",
+      "evidence_summary": "The active 2025-2028 plan explicitly calls for shared-manufacturing platforms that publish capacity and perform order matching, logistics, payment protection, credit evaluation and shared inspection/testing. This proves a regenerative field but simultaneously assigns the generic routing surface to incumbent/shared platforms.",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 3,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "b_voluntary_motion": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "state_dependent_value_jump": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "decision_window": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "bridge_compression": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "activation_ease": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "self_propulsion": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "operator_control": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "a_discoverability": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "b_discoverability": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "match_resolvability": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "action_gate_callability": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "a_population_replenishment": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "b_population_replenishment": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "recurring_connection_pressure": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "recurring_missing_edge": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ],
+          "recurring_event_source": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-MFG-2025-2028"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-MFG-2025-2028",
+            "INSPECTION-SAMR-20260610"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-MFG-2025-2028"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-MFG-2025-2028"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-MFG-2025-2028"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "SHARED-MFG-2025-2028",
+          "INSPECTION-SAMR-20260610"
+        ]
+      },
+      "decisive_unknowns": [],
+      "verdict": "DEMOTED_REGENERATIVE_SHARED_MANUFACTURING_FIELD_REAL_BUT_GENERIC_CAPACITY_ORDER_MATCHING_PAYMENT_AND_CREDIT_SURFACE_ALREADY_PLATFORM_OWNED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_143-F4",
+      "title": "China ecommerce exporters -> country-specific overseas compliance service routing",
+      "chinese_title": "中国电商出海企业 → 国别合规服务路由",
+      "evidence_class": "CURRENT_OFFICIAL_RECURRING_COMPLIANCE_PRESSURE_WITH_EXPERT_DELIVERY",
+      "evidence_summary": "Current MOFCOM and CCPIT material shows recurring overseas compliance and risk pressure across jurisdictions and promotes comprehensive service platforms. The field replenishes, but country/product-specific legal, IP, data, environmental and trade-rule interpretation remains expert-heavy and explanation-heavy, making a lightweight autonomous router weak without a distinct owned execution asset.",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "b_voluntary_motion": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "state_dependent_value_jump": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "decision_window": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "bridge_compression": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "activation_ease": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "self_propulsion": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "operator_control": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "a_discoverability": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "b_discoverability": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "match_resolvability": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "action_gate_callability": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "a_population_replenishment": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "b_population_replenishment": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "recurring_connection_pressure": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "recurring_missing_edge": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ],
+          "recurring_event_source": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026",
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EXPORT-COMPLIANCE-MOFCOM-2026"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EXPORT-COMPLIANCE-CCPIT-20260821"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "EXPORT-COMPLIANCE-MOFCOM-2026",
+          "EXPORT-COMPLIANCE-CCPIT-20260821"
+        ]
+      },
+      "decisive_unknowns": [],
+      "verdict": "DEMOTED_REGENERATIVE_EXPORT_COMPLIANCE_FIELD_REAL_BUT_RECURRING_EXPERT_INTERPRETATION_AND_HIGH_EXPLANATION_BURDEN_PREVENT_LIGHT_OPERATOR_CONTROL"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_143-F5",
+      "title": "Industrial solid-waste generators -> compliant nearby utilization / disposal counterparties",
+      "chinese_title": "工业固废产废单位 → 合规就近利用/处置主体",
+      "evidence_class": "CURRENT_OFFICIAL_REGENERATIVE_FLOW_WITH_REGULATED_PHYSICAL_CHAIN",
+      "evidence_summary": "Industrial solid waste continuously replenishes and utilization bottlenecks remain, but current systems require traceable physical transfer, recipient confirmation and regulated generator/recipient responsibilities. The physical/environmental chain dominates value delivery, so a lightweight independent router lacks sufficient operator control.",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 1,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "b_voluntary_motion": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "state_dependent_value_jump": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "decision_window": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "bridge_compression": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "activation_ease": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "self_propulsion": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "operator_control": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "a_discoverability": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "b_discoverability": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "match_resolvability": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "action_gate_callability": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "a_population_replenishment": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "b_population_replenishment": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "recurring_connection_pressure": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "recurring_missing_edge": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ],
+          "recurring_event_source": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WASTE-SH-2026",
+            "WASTE-LN-20260805"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WASTE-SH-2026"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WASTE-LN-20260805"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WASTE-LN-20260805"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WASTE-SH-2026"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "WASTE-SH-2026",
+          "WASTE-LN-20260805"
+        ]
+      },
+      "decisive_unknowns": [],
+      "verdict": "DEMOTED_REGENERATIVE_INDUSTRIAL_WASTE_FIELD_REAL_BUT_REGULATED_PHYSICAL_TRANSFER_AND_ENVIRONMENTAL_RESPONSIBILITY_PREVENT_LIGHT_ROUTER_CONTROL"
+    }
+  ],
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_143-F1",
+      "title": "Overseas small-buyer pre-order checkpoints -> China-side independent factory verification / inspection operator routing",
+      "commercial_candidate": false,
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CF-139-2026"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "INSPECTION-SAMR-20260610"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BUYER-VERIFY-SZ-20260920",
+            "BUYER-DEPOSIT-20260617",
+            "BUYER-INSPECTION-20260519"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BUYER-VERIFY-SZ-20260920",
+            "BUYER-DEPOSIT-20260617",
+            "BUYER-INSPECTION-20260519"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CF-139-2026",
+            "BUYER-DEPOSIT-20260617"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "CF-139-2026",
+          "INSPECTION-SAMR-20260610",
+          "BUYER-VERIFY-SZ-20260920",
+          "BUYER-INSPECTION-20260519",
+          "BUYER-DEPOSIT-20260617"
+        ]
+      }
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_143-F1"
+  ],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": false,
+  "commercial_outcome": {
+    "retained_count": 1,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Only the overseas-small-buyer to China-side independent factory-verification/inspection routing field clears the machine high-attraction floor. It remains research-only pending exact incumbent, price, factory-permission, service-liability, operator-supply and repeatable-buyer-acquisition preflight."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_144",
+  "next_search_boundary": "CONSUME_SCAN143_EXACT_HEAD_TYPESAFE_JEV_ROUTE_FOR_F1_WITH_INCUMBENT_PRICE_PERMISSION_AND_ACQUISITION_PREFLIGHT_THEN_EITHER_PROMOTE_ONLY_AFTER_HARD_EVIDENCE_OR_CLOSE_AND_REDERIVE_SCAN144_FROM_BROAD_REALITY",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_F1_PUBLIC_RESEARCH_ROUTE_BEFORE_ADVANCE",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "primary_domain_is_china": true,
+    "scan142_vpp_subproblem_not_used_as_prior": true,
+    "repository_dedup_completed_for_factory_inspection_sme_service_shared_manufacturing_compliance_and_waste_terms": true,
+    "community_observations_not_treated_as_population_prevalence": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "REPEATED CURRENT BUYER REQUESTS FOR ON_GROUND FACTORY VERIFICATION CAN VALIDATE CONNECTION PRESSURE ONLY WHEN INDEPENDENT POPULATION EVIDENCE ESTABLISHES THE FIELD.",
+    "COMMUNITY POSTS ARE DEMAND OBSERVATIONS NOT MARKET SHARE OR PREVALENCE ESTIMATES.",
+    "A LARGE INSPECTION INDUSTRY IS BOTH SUPPLY EVIDENCE AND AN INCUMBENT WARNING; EXACT PRICE_AND_CONTROL_SURFACE PREFLIGHT IS MANDATORY.",
+    "OFFICIAL SERVICE MAPS AND SHARED_MANUFACTURING PLATFORMS CAN PROVE A REAL FIELD WHILE SIMULTANEOUSLY KILLING A GENERIC ROUTER.",
+    "REGULATED PHYSICAL CHAINS AND EXPERT_HEAVY COMPLIANCE REMAIN LOW_ATTRACTION FOR A LIGHT OPERATOR."
+  ],
+  "source_urls": [
+    "https://www.cantonfair.org.cn/about?pageCode=33414c3a293b4349aa5c5dc60dfb1b42",
+    "https://www.samr.gov.cn/xw/mtjj/art/2026/art_937f76a47d214a10ba9daa7960c778d1.html",
+    "https://www.reddit.com/r/ShenzhenMarketplace/comments/1wlbliu/need_someone_to_verify_a_factory_in_shenzhen/",
+    "https://www.reddit.com/r/Business_China/comments/1thr1m4/how_i_visited_factories_in_china_still_overpaid/",
+    "https://www.reddit.com/r/AmazonFBA/comments/1u8n846/how_do_you_actually_verify_a_china_supplier/",
+    "https://www.reddit.com/r/Business_China/comments/1vxoykx/thinking_about_sourcing_products_from_china_where/",
+    "https://www.miit.gov.cn/jgsj/qyj/wjfb/art/2026/art_530edd7abdae47c7a8d281f9c0bb0264.html",
+    "https://fjca.miit.gov.cn/zwgk/zcwj/wjfb/art/2025/art_3cc261f79eaf40c699b90bea36c38a1c.html",
+    "https://www.mofcom.gov.cn/zcfb/zhzc/art/2026/art_7e1dc12697b744fd89e6110673ac117c.html",
+    "https://exhibition.ccpit.org/articles/6554",
+    "https://www.shanghai.gov.cn/gwk/search/content/a8872bf709584897ba26afa01b23970a",
+    "https://sthj.ln.gov.cn/sthj/zfxxgk/fdzdgknr/jyta/srddbjy/sssjrdwchy2026n/2026080509051538769/index.shtml"
+  ]
+}

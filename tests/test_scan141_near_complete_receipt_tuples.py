@@ -4,7 +4,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SCAN = ROOT / "data" / "research_runs" / "attraction_scan_141.json"
-CURRENT_SCAN = ROOT / "data" / "research_runs" / "attraction_scan_142.json"
 STATE = ROOT / "data" / "commercial_reset_state.json"
 ROUTE_EVIDENCE = ROOT / "data" / "research_runs" / "scan141_f1_f2_route_consumption_evidence.json"
 
@@ -50,9 +49,13 @@ class Scan141Tests(unittest.TestCase):
     def test_machine_state_points_to_scan141_and_records_consumed_routes(self):
         state = json.loads(STATE.read_text(encoding="utf-8"))
         checkpoint = state["scan141_near_complete_receipt_tuples"]
-        self.assertEqual(state["last_completed_scan_id"], "ATTRACTION_SCAN_142")
-        self.assertEqual(state["last_completed_scan_file"], "data/research_runs/attraction_scan_142.json")
-        self.assertEqual(state["next_scan_id"], "ATTRACTION_SCAN_143")
+        current_no = int(state["last_completed_scan_id"].removeprefix("ATTRACTION_SCAN_"))
+        self.assertGreater(current_no, 141)
+        self.assertEqual(
+            state["last_completed_scan_file"],
+            f"data/research_runs/attraction_scan_{current_no}.json",
+        )
+        self.assertEqual(state["next_scan_id"], f"ATTRACTION_SCAN_{current_no + 1}")
         self.assertEqual(checkpoint["jev_routes"]["ATTRACTION_SCAN_141-F1"], "CAUSAL_DESCENT")
         self.assertEqual(checkpoint["jev_routes"]["ATTRACTION_SCAN_141-F2"], "EXACT_INCUMBENT_PREFLIGHT")
         self.assertIn("CONSUMED", checkpoint["jev_route_status"])
@@ -65,7 +68,9 @@ class Scan141Tests(unittest.TestCase):
 
         state = json.loads(STATE.read_text(encoding="utf-8"))
         path = resolve_scan_path("auto", state, research_dir=ROOT / "data" / "research_runs")
-        self.assertEqual(path, CURRENT_SCAN)
+        expected = ROOT / state["last_completed_scan_file"]
+        self.assertEqual(path, expected)
+        self.assertNotEqual(path, SCAN)
 
 
 if __name__ == "__main__":

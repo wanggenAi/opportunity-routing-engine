@@ -1,0 +1,122 @@
+{
+  "schema_version": "jev-route-consumption.v1",
+  "scan_id": "ATTRACTION_SCAN_143",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "source_exact_head": "c6edf8ee2b4fc7619275cc5f30f546822062ccc8",
+  "repository_ci": {
+    "run_id": 35867483020,
+    "conclusion": "FAILURE",
+    "failure_scope": [
+      "TASK_STATE_REQUIRED_HEADINGS_GOAL_CI_COMPLETED",
+      "SCAN140_HISTORICAL_TEST_HARDCODED_CURRENT_SCAN_142",
+      "SCAN141_HISTORICAL_TEST_HARDCODED_CURRENT_SCAN_142"
+    ],
+    "business_logic_failure": false
+  },
+  "jev_advisory": {
+    "run_id": 35867482988,
+    "artifact_id": 10753016587,
+    "artifact_digest": "sha256:0140a26e4cc70e86e47461415fc7b326252c0d748dcd0e157b044fd665eabcaa",
+    "contract": "OPPORTUNITY_JEV_AGENT_CONTINUATION_V1",
+    "input_scan_id": "ATTRACTION_SCAN_143",
+    "execution_status": "SUCCESS",
+    "autonomous_continuation_allowed": true,
+    "continuation_next_action": "EXECUTE_RESEARCH_QUEUE",
+    "external_side_effects_allowed": false,
+    "effective_route_counts": {
+      "EXACT_INCUMBENT_PREFLIGHT": 1,
+      "NO_FURTHER_RESEARCH": 4
+    }
+  },
+  "route_consumption": [
+    {
+      "formation_id": "ATTRACTION_SCAN_143-F1",
+      "action": "RUN_EXACT_INCUMBENT_PREFLIGHT",
+      "effective_research_route": "EXACT_INCUMBENT_PREFLIGHT",
+      "public_sources": [
+        {
+          "source_id": "ALIBABA-INSPECTION-SOLUTIONS-2026",
+          "url": "https://inspection.alibaba.com/",
+          "role": "CURRENT_INCUMBENT_BOOKING_PAYMENT_DISPATCH_REPORT_SURFACE",
+          "bound_facts": [
+            "Production Monitoring is advertised at USD 48 and inspection is advertised from USD 118, with higher sampling options.",
+            "Independent third-party providers include Bureau Veritas, CCIC and SGS.",
+            "Inspection can be attached to a Trade Assurance order; after payment the provider receives the task, buyer and seller are notified, onsite work occurs and the report is delivered within 24 hours.",
+            "Alibaba.com buyers outside mainland China can order the service and card payment is supported."
+          ]
+        },
+        {
+          "source_id": "ALIBABA-VERIFIED-SUPPLIER-2026",
+          "url": "https://seller.alibaba.com/verified-supplier",
+          "role": "CURRENT_INCUMBENT_SUPPLIER_TRUST_SURFACE",
+          "bound_facts": [
+            "Verified Supplier uses independent third-party onsite verification by recognized inspection companies.",
+            "Detailed assessment reports and factory videos are surfaced to buyers."
+          ]
+        },
+        {
+          "source_id": "ALIBABA-VERIFIED-SUPPLIER-ACTIVITY-2026",
+          "url": "https://activity.alibaba.com/page/verifiedsuppliers.html",
+          "role": "CURRENT_INCUMBENT_BUYER_VISIBLE_VERIFICATION_SURFACE",
+          "bound_facts": [
+            "Buyer-visible verification content is integrated into supplier discovery rather than requiring an independent router."
+          ]
+        },
+        {
+          "source_id": "ALIBABA-INSPECTION-SUPPLIER-DIRECTORY-2026",
+          "url": "https://www.alibaba.com/inspection-service-suppliers.html",
+          "role": "CURRENT_INCUMBENT_PROVIDER_DISCOVERY_SURFACE",
+          "bound_facts": [
+            "Alibaba exposes inspection-service providers directly through a searchable/contactable marketplace surface."
+          ]
+        },
+        {
+          "source_id": "QIMA-CONSUMER-PRODUCT-INSPECTIONS-2026",
+          "url": "https://www.qima.com/consumer-products/product-inspections",
+          "role": "GLOBAL_INDEPENDENT_INSPECTION_INCUMBENT",
+          "bound_facts": [
+            "QIMA offers online booking, global inspection coverage and rapid reporting with a large field/lab workforce.",
+            "The incumbent demonstrates that off-platform independent inspection already has a standardized global service model."
+          ]
+        }
+      ],
+      "incumbent_control_map": {
+        "marketplace_order_and_payment": "ALIBABA_TRADE_ASSURANCE",
+        "inspection_dispatch": "ALIBABA_PARTNER_INSPECTION_NETWORK",
+        "onsite_execution": "BUREAU_VERITAS_CCIC_SGS_AND_OTHER_INSPECTION_PROVIDERS",
+        "supplier_identity_trust": "ALIBABA_VERIFIED_SUPPLIER_THIRD_PARTY_ASSESSMENT",
+        "provider_discovery": "ALIBABA_PROVIDER_DIRECTORY",
+        "off_platform_global_inspection": "QIMA_AND_OTHER_GLOBAL_INSPECTION_INCUMBENTS"
+      },
+      "contradiction_search": [
+        "Current demand observations prove trust pressure but do not prove that generic local-inspector routing is unowned.",
+        "Alibaba already bundles low-cost inspection ordering, payment, provider dispatch, onsite execution and fast reporting into the purchase workflow.",
+        "Verified Supplier already brings third-party onsite trust evidence into supplier discovery.",
+        "QIMA demonstrates a standardized off-platform global inspection incumbent, so narrowing the thesis to off-Alibaba inspection does not establish a new unowned control edge.",
+        "No public evidence in this bounded preflight establishes repeatable buyer acquisition for a new neutral router without founder-by-founder Reddit/DM selling."
+      ],
+      "unresolved_but_not_promotable": [
+        "A highly specialized vertical or geography-specific inspection service could have unmet demand, but that is a new narrower thesis and cannot be inferred from the broad generic router evidence.",
+        "Private pricing gaps or underserved off-platform buyers may exist, but they are not evidenced as a regenerative independently ownable control edge in this scan."
+      ],
+      "resolution": "EXACT_INCUMBENT_PREFLIGHT_CLOSES_F1_GENERIC_FACTORY_VERIFICATION_ROUTING_EDGE_ALREADY_MATERIALLY_OWNED_BY_MARKETPLACE_AND_GLOBAL_INSPECTION_INCUMBENTS",
+      "commercial_promotion": false
+    }
+  ],
+  "authoritative_closures_preserved": [
+    "ATTRACTION_SCAN_143-F2",
+    "ATTRACTION_SCAN_143-F3",
+    "ATTRACTION_SCAN_143-F4",
+    "ATTRACTION_SCAN_143-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "quote_performed": false,
+  "account_created": false,
+  "money_moved": false,
+  "application_submitted": false,
+  "next_action": "FREEZE_ROUTE_CONSUMPTION_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_JEV_EXPECT_ALL_NO_FURTHER_RESEARCH_THEN_MERGE_PR454_AND_REDERIVE_SCAN144_FROM_BROAD_REALITY"
+}
