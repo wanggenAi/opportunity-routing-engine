@@ -27,19 +27,20 @@ def test_scan126_is_canonical_and_live_jev_auto_resolution_uses_it():
     assert path == SCAN
 
 
-def test_scan126_exposes_exactly_one_open_formation_to_jev():
+def test_scan126_exposes_exactly_one_authoritatively_closed_formation_to_jev():
     scan = load(SCAN)
     state = load(STATE)
     states = build_research_states(scan=scan, commercial_state=state)
     assert scan["status"] == "COMPLETE"
     assert scan["zero_primary_admissions"] is False
     assert scan["active_commercial_candidate_promotions"] == []
-    assert scan["retained_research_formations"] == ["ATTRACTION_SCAN_126-F1"]
+    assert scan["retained_research_formations"] == []
     assert len(states) == 1
     row = states[0]
     assert row["formation"]["formation_id"] == "ATTRACTION_SCAN_126-F1"
-    assert row["authoritative_engine_context"]["existing_closure_authoritative"] is False
-    assert row["authoritative_engine_context"]["already_retained_for_research"] is True
+    assert row["authoritative_engine_context"]["existing_closure_authoritative"] is True
+    assert row["authoritative_engine_context"]["already_retained_for_research"] is False
+    assert row["authoritative_engine_context"]["existing_verdict"].startswith("DEMOTED_")
 
 
 def test_four_dollar_site_visit_is_below_executor_floor_even_before_travel():
@@ -143,3 +144,19 @@ def test_observed_hundred_dollar_audit_remains_scope_unbound():
     audit = next(x for x in econ["task_classes"] if x["task_class"] == "PREDEFINED_NONTECHNICAL_SITE_AUDIT")
     assert audit["same_scope_cost_binding"] is False
     assert audit["verdict"] == "SCOPE_NOT_COMPARABLE_YET"
+
+
+def test_scan126_incumbent_preflight_closes_bootstrap_and_commercial_promotion():
+    scan = load(SCAN)
+    state = load(STATE)
+    f1 = scan["examined_formations"][0]
+    assert f1["exact_incumbent_preflight_status"] == "CLOSED"
+    assert f1["distinct_operator_asset_check"].startswith("FAIL_")
+    assert f1["generic_agent_substitutability_check"].startswith("FAIL_")
+    assert f1["bootstrap_readiness"] == "FORBIDDEN_FORMATION_CLOSED"
+    assert f1["commercial_promotion"] is False
+    assert f1["verdict"].startswith("DEMOTED_")
+    resolved = {row["formation_id"]: row["verdict"] for row in state["resolved_research_formations"]}
+    assert resolved["ATTRACTION_SCAN_126-F1"] == f1["verdict"]
+    assert state["retained_research_formations"] == []
+    assert state["active_commercial_candidates"] == []

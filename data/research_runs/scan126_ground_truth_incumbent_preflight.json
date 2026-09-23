@@ -1,0 +1,123 @@
+{
+  "schema_version": "scan126-ground-truth-incumbent-preflight.v1",
+  "as_of_date": "2026-09-23",
+  "formation_id": "ATTRACTION_SCAN_126-F1",
+  "route_source": "LIVE_TYPESAFE_JEV_PR431_EXACT_INCUMBENT_PREFLIGHT",
+  "jev_source": {
+    "pr": 431,
+    "workflow_run": 35815592996,
+    "input_scan_id": "ATTRACTION_SCAN_126",
+    "entity_count": 1,
+    "execution_status": "SUCCESS",
+    "effective_route": "EXACT_INCUMBENT_PREFLIGHT",
+    "continuation_next_action": "EXECUTE_RESEARCH_QUEUE",
+    "autonomous_continuation_allowed": true
+  },
+  "question": "Does a distinct, independently ownable control edge remain for cross-border China ground-truth execution routing after current exact and adjacent incumbent surfaces are accounted for?",
+  "incumbent_surfaces": [
+    {
+      "incumbent": "ChinaLocalAgent",
+      "surface": "OVERSEAS_CLIENT_TO_DEFINED_CHINA_LOCAL_EXECUTION_WITH_EVIDENCE_AND_REPORTING",
+      "current_evidence": [
+        "Markets one-time/ad-hoc, short-term and ongoing China-side execution to overseas clients.",
+        "Accepts scoped objective/location/deadline/evidence requirements and returns photo/video/document evidence and completion reporting where permitted.",
+        "Factory/site visits explicitly use checklist-based observations and practical reporting.",
+        "Pricing is quote-based after feasibility, travel, risk and evidence requirements."
+      ],
+      "overlap": "VERY_HIGH",
+      "consequence": "The broad overseas-client -> China local executor -> evidence/report flow is an existing paid service category, not a missing edge."
+    },
+    {
+      "incumbent": "Upwork",
+      "surface": "GLOBAL_SELF_REVEALING_BUYER_INTENT_PLUS_FUNDED_FIXED_PRICE_CONTRACT_PLUS_DIRECT_CHINA_TALENT_MATCHING",
+      "current_evidence": [
+        "Current China-local observation jobs carry explicit fixed-price budgets.",
+        "Fixed-price project funds can be deposited before work begins.",
+        "Talent marketplace already matches clients to individual China-based executors.",
+        "Subcontracting is allowed only with client consent; agency contracts provide a transparent multi-person operating path."
+      ],
+      "overlap": "HIGH",
+      "consequence": "Buyer discovery, contracting and pre-funded payment are already owned. A new operator must add a distinct control asset beyond proposal/coordination."
+    },
+    {
+      "incumbent": "WeiChaiShi",
+      "surface": "CHINA_NATIONWIDE_CROWD_DISPATCH_RETAIL_AUDIT_DATA_COLLECTION_QA_AND_APPROVAL_PAYMENT",
+      "current_evidence": [
+        "Current site describes nationwide mobile crowdsourcing across 500+ cities for data collection, market research and retail audit.",
+        "Workflow is request task -> deploy to crowd -> quality check -> receive verified results.",
+        "English-facing site describes task preparation, publication, real-time submission, task approval and payment.",
+        "Public positioning is an extended field workforce for business clients including international brands."
+      ],
+      "overlap": "VERY_HIGH_FOR_RETAIL_AND_FIELD_DATA",
+      "consequence": "Replaceable local executor network, structured tasking, QA and result acceptance are already mature control surfaces."
+    },
+    {
+      "incumbent": "Premise",
+      "surface": "GLOBAL_CROWDSOURCED_HYPERLOCAL_TASKS_PHOTO_GEOLOCATION_QA_DASHBOARD_AND_API",
+      "current_evidence": [
+        "Current platform reports a global contributor network across 140+ countries and same-day local data collection.",
+        "Place/route tasks can collect photos and geolocation from local contributors.",
+        "Quality-control workflows validate submissions before delivery.",
+        "Data can be exposed in dashboards and, in documented workflows, via API."
+      ],
+      "overlap": "HIGH_FOR_STRUCTURED_FIELD_DATA",
+      "consequence": "The generalized remote-principal -> local crowd -> structured evidence/QA mechanism exists globally."
+    },
+    {
+      "incumbent": "UU Paotui",
+      "surface": "MACHINE_CALLABLE_CHINA_LOCAL_PHYSICAL_ERRAND_PRIMITIVES",
+      "current_evidence": [
+        "Current official site exposes MCP Server, CLI, Agent Skill and OpenAPI.",
+        "MCP tools include quote, order, query, cancel and track.",
+        "Evidence-specific photo/checklist acceptance is not proven on this rail."
+      ],
+      "overlap": "ADJACENT_NOT_EXACT",
+      "consequence": "Even the proposed machine-native physical-dispatch advantage is being absorbed by a mature local platform; evidence semantics alone would be a thin feature unless backed by a distinct asset."
+    }
+  ],
+  "control_surface_map": {
+    "buyer_discovery_and_payment": [
+      "Upwork"
+    ],
+    "overseas_scoped_local_execution": [
+      "ChinaLocalAgent"
+    ],
+    "china_replaceable_crowd_dispatch_and_qa": [
+      "WeiChaiShi"
+    ],
+    "global_structured_field_data": [
+      "Premise"
+    ],
+    "machine_callable_local_physical_action": [
+      "UU Paotui"
+    ],
+    "unowned_distinct_control_asset": "NOT_PROVEN"
+  },
+  "remaining_narrow_hypothesis": "Machine-native cross-border scope normalization plus evidence acceptance across multiple China execution rails.",
+  "narrow_hypothesis_assessment": [
+    "No proprietary buyer-intent rail is evidenced; initial acquisition still depends on third-party marketplaces or manual sales.",
+    "No exclusive executor supply is evidenced; large incumbent crowds and local-service networks already exist.",
+    "No exclusive action right is evidenced; physical task dispatch can be bought from existing platforms.",
+    "No proprietary outcome/data loop exists before transactions, and generic evidence schemas/checklists are reproducible by agents and incumbents.",
+    "The remaining integration layer is therefore highly vulnerable to generic-agent substitution and incumbent absorption."
+  ],
+  "verdict": "DEMOTED_EXACT_AND_COMPOSITE_INCUMBENT_CONTROL_SURFACES_LEAVE_NO_DISTINCT_OPERATOR_ASSET",
+  "commercial_promotion": false,
+  "retained_research_formation": false,
+  "bootstrap_external_action_ready": false,
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_boundary": "Return to precedent-calibrated formation-diverse broad reality in Scan 127. Preserve paid ground-truth tasks as a reality sensor, not a fallback business. Do not derive another China-helper variant from this closure.",
+  "source_urls": [
+    "https://chinalocalagent.com/",
+    "https://chinalocalagent.com/services/local-task-execution",
+    "https://chinalocalagent.com/services/factory-and-site-visits",
+    "https://www.weichaishi.com/",
+    "https://www.weichaishi.com/index_en.php",
+    "https://premise.com/",
+    "https://premise.com/guides/retail-audit/",
+    "https://premise.com/blog/getting-started-with-hyperlocal-data-collection/",
+    "https://www.uupt.com/",
+    "https://support.upwork.com/hc/en-us/articles/211063748-How-Fixed-Price-Payment-Protection-works-for-freelancers-on-Upwork",
+    "https://support.upwork.com/hc/en-us/articles/9127142196243-How-to-represent-yourself-authentically-on-Upwork"
+  ]
+}
