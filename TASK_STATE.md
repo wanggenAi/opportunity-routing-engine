@@ -24,7 +24,7 @@ SCAN145_INITIAL_EXACT_HEAD_VALIDATION_PENDING
 `research/scan145-broad-reality-local-execution-returns`.
 
 ## Active PR
-PENDING_CREATION_FOR_SCAN145.
+PR #457 — `Run Scan 145 broad-reality local execution and returns` — OPEN.
 
 ## CI
 - Current Scan 145 exact-head repository CI: PENDING.
