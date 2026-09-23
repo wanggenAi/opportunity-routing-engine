@@ -63,7 +63,11 @@ class AttractionDiscoveryProfile:
 
     HIGH_ATTRACTION_BEACON is weakest-link dominated. Large upside cannot compensate
     for a dead participant side, a locked decision window, invisible counterparties,
-    an unresolvable match, or founder labor.
+    an unresolvable match, founder labor, or the absence of a regenerative field.
+    A single transaction/listing/asset may be downstream evidence, but it cannot seed
+    high attraction unless independent evidence already establishes replenishing actor
+    populations, recurring connection pressure, a recurring missing edge, and a
+    recurring event source.
     """
 
     signal_id: str
@@ -87,6 +91,14 @@ class AttractionDiscoveryProfile:
     match_resolvability: int = 0
     action_gate_callability: int = 0
 
+    # Regenerative-field origin: is this a recurring value field rather than one
+    # convenient transaction, listing, asset, RFQ, or other downstream observation?
+    a_population_replenishment: int = 0
+    b_population_replenishment: int = 0
+    recurring_connection_pressure: int = 0
+    recurring_missing_edge: int = 0
+    recurring_event_source: int = 0
+
     a_motion_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     b_motion_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     value_jump_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
@@ -99,7 +111,17 @@ class AttractionDiscoveryProfile:
     b_discoverability_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     match_resolvability_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     action_gate_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
+    a_population_replenishment_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
+    b_population_replenishment_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
+    recurring_connection_pressure_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
+    recurring_missing_edge_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
+    recurring_event_source_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
+    independent_regenerative_field_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
     generic_agent_substitution_evidence: Sequence[AttractionEvidence] = field(default_factory=tuple)
+
+    # A transaction observation may validate a field later, but it may not define
+    # the discovery ontology unless independent field evidence already exists.
+    explicit_transaction_seeded: bool = False
 
     founder_delivery_required: bool = False
     founder_sales_required_per_transaction: bool = False
@@ -122,6 +144,11 @@ _SCORE_EVIDENCE = {
     "b_discoverability": "b_discoverability_evidence",
     "match_resolvability": "match_resolvability_evidence",
     "action_gate_callability": "action_gate_evidence",
+    "a_population_replenishment": "a_population_replenishment_evidence",
+    "b_population_replenishment": "b_population_replenishment_evidence",
+    "recurring_connection_pressure": "recurring_connection_pressure_evidence",
+    "recurring_missing_edge": "recurring_missing_edge_evidence",
+    "recurring_event_source": "recurring_event_source_evidence",
 }
 
 
@@ -177,6 +204,11 @@ def attraction_beacon_state(profile: AttractionDiscoveryProfile) -> AttractionBe
         profile.b_discoverability,
         profile.match_resolvability,
         profile.action_gate_callability,
+        profile.a_population_replenishment,
+        profile.b_population_replenishment,
+        profile.recurring_connection_pressure,
+        profile.recurring_missing_edge,
+        profile.recurring_event_source,
     )
 
     # Immediate kills: no bilateral motion, value already locked, tiny state jump,
@@ -194,6 +226,15 @@ def attraction_beacon_state(profile: AttractionDiscoveryProfile) -> AttractionBe
         or profile.b_discoverability <= 1
         or profile.match_resolvability <= 1
         or profile.action_gate_callability <= 1
+        or profile.a_population_replenishment <= 1
+        or profile.b_population_replenishment <= 1
+        or profile.recurring_connection_pressure <= 1
+        or profile.recurring_missing_edge <= 1
+        or profile.recurring_event_source <= 1
+        or (
+            profile.explicit_transaction_seeded
+            and not _usable(profile.independent_regenerative_field_evidence)
+        )
         or profile.founder_delivery_required
         or profile.founder_sales_required_per_transaction
         or profile.founder_search_required_per_transaction
@@ -233,6 +274,12 @@ def attraction_beacon_summary(profile: AttractionDiscoveryProfile) -> dict[str, 
             "BOTH_SIDES_MUST_BE_DISCOVERABLE_WITHOUT_BESPOKE_HUNTING",
             "MATCH_MUST_BE_RESOLVABLE_WITHOUT_RECURRING_EXPERT_INTERPRETATION",
             "ACTION_GATE_MUST_BE_REPEATABLE_AND_CALLABLE",
+            "REPLENISHING_ACTOR_POPULATIONS_REQUIRED",
+            "RECURRING_CONNECTION_PRESSURE_REQUIRED",
+            "RECURRING_MISSING_EDGE_REQUIRED",
+            "RECURRING_EVENT_SOURCE_REQUIRED",
+            "EXPLICIT_TRANSACTION_NE_DISCOVERY_SEED",
+            "ONE_LIVE_TRANSACTION_NE_DEMAND_PUMP",
             "CASE_BY_CASE_PERMISSION_NE_TRANSACTION_RAIL",
             "WEAKEST_LINK_DOMINATES",
             "FOUNDER_SEARCH_NE_OPERATOR_CONTROL",
