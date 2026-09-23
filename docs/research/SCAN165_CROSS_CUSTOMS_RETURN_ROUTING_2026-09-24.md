@@ -68,3 +68,47 @@ No outreach, quote request, registration, payment or other external side effect 
 ## Next action
 
 Freeze one exact PR head and run repository CI + live TypeSafe/Jev. Consume only a reversible advisory route. Do not contact logistics providers or sellers until the exact-head research advisory says the retained formation still deserves that validation capital.
+
+
+## Exact incumbent / route-ownership preflight
+
+The exact-head Scan165 advisory returned one reversible route for F1: `EXACT_INCUMBENT_PREFLIGHT`.
+
+The preflight confirmed that policy optionality is real, but did **not** confirm a distinct callable routing market:
+
+- In Hangzhou's first nationwide-mode case, the AliExpress representative says the **platform** can choose the return plan and convenient port; airport logistics and customs jointly built the operating plan.
+- Jinan's live flow was created through a Shandong Post + AliExpress + local government + customs operating mechanism with repeated declaration/clearance drills.
+- Guangdong Post's current cross-border customs system integrates customs, China Post's 9610 system and partner brokers into a full-process closed loop including return declaration.
+- Current 9610 system vendors already support multi-port / nationwide customs workflows and return documents, but their public surfaces are execution systems, not neutral live cross-port quote/capacity markets.
+- Current port-local return centers can provide full-chain reverse-logistics execution to sellers nationwide.
+
+No public source found a stable independent surface exposing, across eligible return ports, the current all-in cost, route SLA, supervised-site capacity, customs-operating constraints and a repeatable booking/settlement action.
+
+Therefore the original F1 scores for operator control, match resolvability, action-gate callability and recurring missing edge were too optimistic.
+
+```text
+POLICY OPTIONALITY
+!= PUBLIC COMPARABLE ROUTE DATA
+!= OPERATOR CONTROL
+!= CALLABLE CROSS-PORT MARKET
+```
+
+The scan now fails closed on those dimensions.
+
+## Final Scan165 truth
+
+- high-attraction beacons: **0**
+- retained research formations: **0**
+- authoritative closures: **F1-F5**
+- commercial candidates: **0**
+- transaction units: **0**
+- bootstrap tasks authorized: **0**
+- FIRST_EXTERNAL_VALUE_FLOW: **NOT_PROVEN**
+
+F1 is closed as:
+
+`DEMOTED_POLICY_OPTIONALITY_IS_REAL_BUT_DISTINCT_OPERATOR_CONTROL_MATCH_RESOLVABILITY_AND_CROSS_PORT_ACTION_RAIL_ARE_NOT_EVIDENCED`
+
+No outreach, provider quote request, registration, payment or other external side effect occurred.
+
+The next scan should not reinterpret policy optionality itself as an opportunity. It must search for another actor state transition where the missing edge is already observable and the control/action surface is actually ownable.
