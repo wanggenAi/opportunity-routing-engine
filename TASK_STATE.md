@@ -9,59 +9,60 @@ Continue the clean-slate Attraction Field under the machine-enforced regenerativ
 Close or prove regenerative formations without promoting explicit tasks or transaction proxies; preserve exact-head repository CI + live TypeSafe/Jev and fail closed on incumbent ownership, inaccessible control/data, founder-dependent acquisition or unevidenced economics.
 
 ## Current Unique Commercial Research Goal
-Validate Scan 151's five fresh direct-service-platform fields. Consume any reversible Jev route; otherwise merge and advance to fresh Scan 152.
+Validate Scan 152's five fresh broad-reality access/capacity fields. Consume any reversible Jev route; otherwise merge and advance to fresh Scan 153.
 
 ## Current Phase
-SCAN151_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
+SCAN152_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 
 ## Last Verified Main
-- `main`: `7964aa4809f41e748f083ed431a47fc89ff548ad` — PR #464 merged.
-- Scan 150 final exact head `2eef8bcca85b8e7aff45350089caba45860f2a43`.
-- Repository CI `35879006327`: SUCCESS, 765 tests.
-- Real TypeSafe/Jev `35879006323`: SUCCESS; artifact `10759498296`; digest `sha256:e757f0d524d82747272775af74e4058088909363aad29c1a651568963a218463`.
-- Jev input: `ATTRACTION_SCAN_150`, 5 entities; model/effective routes 5/5 `NO_FURTHER_RESEARCH`; alignment 5/5 authoritative closure; continuation `ADVANCE_TO_NEXT_SCAN`.
+- `main`: `5ee5967a1ec4a542943ca8ae715d9f085e686359` — PR #465 merged.
+- Scan 151 final exact head `9515f7ff88e3dec54c0a6b92d49e15f5dde67370`.
+- Repository CI `35879899892`: SUCCESS, 769 tests.
+- Real TypeSafe/Jev `35879899900`: SUCCESS; artifact `10758929493`; digest `sha256:d313660a74aa594229bf4563329f98e6fb73f34b8fd038849f7b306f8010c7ee`.
+- Jev input: `ATTRACTION_SCAN_151`, 5 entities; model/effective routes 5/5 `NO_FURTHER_RESEARCH`; alignment 5/5 authoritative closure; continuation `ADVANCE_TO_NEXT_SCAN`.
 - Active commercial candidates: 0; transaction units: 0; FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
 
 ## Active Issue
 #143 — `P0: Clean-slate Attraction Field -> first external value flow` — OPEN.
 
 ## Active Branch
-`research/scan151-broad-reality-direct-service-platforms`.
+`research/scan152-broad-reality-access-infrastructure`.
 
 ## Active PR
-Not opened yet; create the Scan 151 PR after this checkpoint commit.
+PR #466 — `Run Scan 152 broad-reality access infrastructure` — OPEN.
 
 ## CI
-- Scan 151 exact-head repository CI: PENDING.
-- Scan 151 real TypeSafe/Jev: PENDING.
+- Scan 152 exact-head repository CI: PENDING.
+- Scan 152 real TypeSafe/Jev: PENDING.
 - Only the same exact PR head may authorize route consumption or merge.
 
 ## Latest Artifact / Persisted State
-- `data/research_runs/attraction_scan_151.json`
-- `data/research_runs/scan151_broad_reality_direct_service_platforms_evidence.json`
-- `docs/research/SCAN151_BROAD_REALITY_DIRECT_SERVICE_PLATFORMS_2026-09-23.md`
-- `tests/test_scan151_broad_reality_direct_service_platforms.py`
+- `data/research_runs/attraction_scan_152.json`
+- `data/research_runs/scan152_broad_reality_access_infrastructure_evidence.json`
+- `docs/research/SCAN152_BROAD_REALITY_ACCESS_INFRASTRUCTURE_2026-09-23.md`
+- `tests/test_scan152_broad_reality_access_infrastructure.py`
 - `data/commercial_reset_state.json`
 
 ## Completed
-- Reconciled Scan 150 final exact-head CI/Jev/merge truth into durable machine state.
-- Re-derived patient accompaniment, robot scenario matching, network freight, customized enterprise commuting and security crowdsourcing from fresh current reality.
-- Deterministic attraction result: zero high-attraction beacons and zero retained formations because exact current institutions/platforms already own the decisive service loop.
-- Made Scan150 regression successor-safe before advancing machine state.
+- Reconciled Scan 151 final exact-head CI/Jev/merge truth into durable machine state.
+- Re-derived five unrelated current fields: rehabilitation-aid rental, scientific-instrument sharing, SME inclusive compute, public overseas warehouses and agricultural socialized services.
+- Preserved the overseas-warehouse field's real residual matching/compliance friction instead of treating incumbent presence as an automatic kill.
+- Deterministic attraction result: zero high-attraction beacons and zero retained formations; residual overseas-warehouse friction remains too expert-bound and non-callable for current high attraction.
 - No commercial promotion or external side effect.
 
 ## Current Findings
-All five fields show real repeated demand. None currently shows a distinct unowned light routing asset: provider accountability, government/industry matching, carrier responsibility, route operations or security-project orchestration already sits inside current rails.
+Current rails can remove a generic routing opportunity in two different ways: they may already own a standardized callable loop (compute, instrument access, public service programs), or the remaining friction may still be too provider-specific/expert/operational to form a narrow reusable router (overseas warehouse, agricultural service fit).
 
 ## Blockers
 No human blocker. Exact-head repository CI and real TypeSafe/Jev are pending.
 
 ## Next Action
-Open the Scan151 PR, require exact-head repository CI + real TypeSafe/Jev, consume any reversible route Jev returns, otherwise merge and advance to Scan152.
+Freeze PR #466 exact head, require exact-head repository CI + real TypeSafe/Jev, consume any reversible route Jev returns, otherwise merge and advance to Scan153.
 
 ## Do Not Repeat
-- Do not reopen Scan150 controlled-interface fields without genuinely new contradictory evidence.
-- Do not confuse market size or public demand lists with operator-owned callable execution.
+- Do not reopen Scan151 direct-service-platform fields without genuinely new contradictory evidence.
+- Do not auto-kill a field merely because an incumbent exists; preserve residual friction when current evidence supports it.
+- Do not promote overseas-warehouse matching until match resolution and the action rail become standard/callable enough to escape recurring expert work.
 - Do not weaken `UNKNOWN != PASS` or perform unauthorized external actions.
 
 ## Guardrails
