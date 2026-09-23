@@ -6,17 +6,18 @@ from tools.run_jev_research_advisory import resolve_scan_path
 
 ROOT = Path(__file__).resolve().parents[1]
 SCAN = ROOT / "data" / "research_runs" / "attraction_scan_128.json"
+CURRENT_SCAN = ROOT / "data" / "research_runs" / "attraction_scan_129.json"
 EVIDENCE = ROOT / "data" / "research_runs" / "scan128_broad_reality_evidence.json"
 STATE = ROOT / "data" / "commercial_reset_state.json"
 
 def load(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
-def test_scan128_auto_resolution_and_entity_count():
+def test_scan128_remains_closed_after_scan129_becomes_current_auto_input():
     state = load(STATE)
     path = resolve_scan_path("auto", state, research_dir=ROOT / "data" / "research_runs")
-    assert state["last_completed_scan_id"] == "ATTRACTION_SCAN_128"
-    assert path == SCAN
+    assert state["last_completed_scan_id"] == "ATTRACTION_SCAN_129"
+    assert path == CURRENT_SCAN
     scan = load(SCAN)
     states = build_research_states(scan=scan, commercial_state=state, max_entities=8)
     assert len(states) == 4
