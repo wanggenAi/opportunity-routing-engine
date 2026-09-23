@@ -337,7 +337,7 @@
   "last_completed_scan_id": "ATTRACTION_SCAN_141",
   "last_resolved_formation_id": "ATTRACTION_SCAN_140-F4",
   "next_scan_id": "ATTRACTION_SCAN_142",
-  "current_research_action": "FREEZE_SCAN141_PR_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_PUBLIC_F1_F2_ROUTES",
+  "current_research_action": "FREEZE_SCAN141_F1_F2_ROUTE_CONSUMPTION_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_IF_ROUTE_CLASSES_REPEAT_WITHOUT_NEW_PUBLIC_EVIDENCE_MERGE_PR451_AND_ADVANCE_SCAN142",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -1935,8 +1935,8 @@
     "deposit_authorized": false,
     "purchase_authorized": false
   },
-  "last_completed_scan_file": "data/research_runs/attraction_scan_140.json",
-  "last_completed_scan_result": "TWO_RETAINED_RESEARCH_ZERO_COMMERCIAL_PROMOTION_MIANYANG_F1_NEAR_COMPLETE_24_MONTH_WINDOW_UNBOUND_WUHU_F2_PAYMENT_CURSOR_UNKNOWN",
+  "last_completed_scan_file": "data/research_runs/attraction_scan_141.json",
+  "last_completed_scan_result": "TWO_RETAINED_RESEARCH_ZERO_COMMERCIAL_PROMOTION_F1_CAUSAL_DESCENT_AND_F2_EXACT_INCUMBENT_PREFLIGHT_PUBLIC_ROUTES_EXHAUSTED_FINAL_HEAD_REVALIDATION_PENDING",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
     "evidence_artifact": "data/research_runs/scan136_current_asset_receipts_evidence.json",
@@ -2277,9 +2277,55 @@
     "secondary_research_beacon": "WUHU_RMB299200_RMB18800_YEAR_LEASE_TO_2031_04_30_APPROX_6_28_PERCENT_SURFACE_GROSS_PAYMENT_CURSOR_UNKNOWN",
     "commercial_promotion": false,
     "external_side_effects_performed": false,
-    "exact_head_validation_status": "PENDING",
-    "jev_route_status": "PENDING",
+    "exact_head_validation_status": "INITIAL_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_JEV_SUCCESS_ROUTE_CONSUMPTION_HEAD_REVALIDATION_PENDING",
+    "jev_route_status": "F1_CAUSAL_DESCENT_AND_F2_EXACT_INCUMBENT_PREFLIGHT_CONSUMED_PUBLIC_FRONTIER_EXHAUSTED_FINAL_HEAD_REVALIDATION_PENDING",
     "next_scan_id": "ATTRACTION_SCAN_142",
-    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_PUBLIC_F1_F2_ROUTES"
+    "next_action": "FREEZE_ROUTE_CONSUMPTION_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_IF_ROUTE_CLASSES_REPEAT_WITHOUT_NEW_PUBLIC_EVIDENCE_MERGE_PR451_AND_ADVANCE_SCAN142",
+    "initial_validated_head_sha": "f013e028594b54dead62cb272c724fd595636a55",
+    "initial_repository_ci_run_id": 35847088351,
+    "initial_jev_run_id": 35847088348,
+    "initial_jev_artifact_id": 10743748656,
+    "initial_jev_artifact_digest": "sha256:6c2277721a459b1b22a7b71ee656e227d636fe4d476baf8997f254740b75a5a1",
+    "jev_input_scan_id": "ATTRACTION_SCAN_141",
+    "jev_entity_count": 4,
+    "jev_served_model": "jev-1.13.0",
+    "jev_routes": {
+      "ATTRACTION_SCAN_141-F1": "CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_141-F2": "EXACT_INCUMBENT_PREFLIGHT",
+      "ATTRACTION_SCAN_141-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_141-F4": "NO_FURTHER_RESEARCH"
+    },
+    "jev_state_fingerprints": {
+      "ATTRACTION_SCAN_141-F1": "049584a3f275632edd7a",
+      "ATTRACTION_SCAN_141-F2": "8910eb5483f73fd726d5",
+      "ATTRACTION_SCAN_141-F3": "60fd18d1be26e68aec93",
+      "ATTRACTION_SCAN_141-F4": "90c6018d072f9a498d0a"
+    },
+    "route_consumption_evidence": "data/research_runs/scan141_f1_f2_route_consumption_evidence.json",
+    "route_consumption_report": "docs/research/SCAN141_F1_F2_ROUTE_CONSUMPTION_2026-09-23.md"
+  },
+  "scan141_f1_f2_route_consumption": {
+    "source_pr": 451,
+    "source_exact_head": "f013e028594b54dead62cb272c724fd595636a55",
+    "repository_ci_run_id": 35847088351,
+    "jev_run_id": 35847088348,
+    "jev_artifact_id": 10743748656,
+    "jev_artifact_digest": "sha256:6c2277721a459b1b22a7b71ee656e227d636fe4d476baf8997f254740b75a5a1",
+    "jev_input_scan_id": "ATTRACTION_SCAN_141",
+    "jev_entity_count": 4,
+    "jev_served_model": "jev-1.13.0",
+    "route_consumed": true,
+    "consumed_routes": [
+      "ATTRACTION_SCAN_141-F1:CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_141-F2:EXACT_INCUMBENT_PREFLIGHT"
+    ],
+    "f1_state_fingerprint": "049584a3f275632edd7a",
+    "f2_state_fingerprint": "8910eb5483f73fd726d5",
+    "public_research_resolution": "F1_AND_F2_EXHAUSTED_AT_CASE_SPECIFIC_LEASE_OR_PAYMENT_LEDGER_BOUNDARY",
+    "evidence_artifact": "data/research_runs/scan141_f1_f2_route_consumption_evidence.json",
+    "report": "docs/research/SCAN141_F1_F2_ROUTE_CONSUMPTION_2026-09-23.md",
+    "commercial_promotion": false,
+    "external_contact_performed": false,
+    "final_exact_head_revalidation": "PENDING"
   }
 }
