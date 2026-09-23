@@ -52,6 +52,7 @@ class Scan156ControlSurfaceGapFreshDomainTests(unittest.TestCase):
         self.assertEqual(prior["merged_main_sha"],"4a66734842ca2ee838326658f687d60733c14757")
         self.assertGreaterEqual(int(state["last_completed_scan_id"].rsplit("_",1)[1]),156)
         self.assertGreaterEqual(int(state["next_scan_id"].rsplit("_",1)[1]),157)
+        self.assertEqual(state["scan156_control_surface_gap_fresh_domains"]["final_jev_next_action"],"ADVANCE_TO_NEXT_SCAN")
         self.assertEqual(state["active_commercial_candidates"],[])
         self.assertEqual(state["active_transaction_units"],[])
         self.assertEqual(state["first_external_value_flow"],"NOT_PROVEN")
