@@ -14,24 +14,27 @@ Reach the first real external value flow through a formation that survives parti
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_125` research is complete. One primary formation passed the current economic conjunction and was then demoted on longstanding controller dependence plus custom project software delivery. Scan 126 may promote completed fresh-operator reproducible control into primary admission because the bottleneck has now been independently reproduced after Scan 122.
+Discovery: `ATTRACTION_SCAN_126` research is complete with authoritative zero primary admissions. This is the first repeat with completed fresh-operator reproducible control before the reporting period promoted into primary admission. Scan 127 should keep that constitution and tighten retrieval to pre-period fresh ultimate-control change + intrinsically low FTE before detailed economic work.
 
 ## Current Phase
 
-`SCAN_125_RESEARCH_COMPLETE_PR_VALIDATION_PENDING`
+`SCAN_126_RESEARCH_COMPLETE_PR_VALIDATION_PENDING`
 
 ## Last Verified Main
 
-`f0a1ca42208ff25ea6927c42ddee7f4d6b45eeec`
-— squash merge of PR #424, `Run profit/OCF-prioritized strict economic Scan 124`.
+`a0abcd5ad4e06c5bf8bf5b936812576215c3897f`
+— merge of PR #426, `Run joint-signal strict economic Scan 125`.
 
-PR #424 exact-head validation:
-- repository CI `35772855058`: success;
-- Jev workflow `35772855029`: success;
-- continuation: `ADVANCE_TO_NEXT_SCAN`;
-- autonomous continuation allowed: true.
+PR #426 final head `081b71368d505907a0dcce9d6c61e0911874769a`:
+- repository CI `35810288400`: success;
+- Jev workflow `35810288375`: success;
+- entity_count = 1;
+- alignment = `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`;
+- effective route = `NO_FURTHER_RESEARCH`;
+- continuation = `ADVANCE_TO_NEXT_SCAN`;
+- autonomous continuation allowed = true.
 
-That continuation was consumed exactly once to create Scan 125.
+That continuation was consumed exactly once to create and run Scan 126.
 
 ## Active Issue
 
@@ -39,42 +42,40 @@ That continuation was consumed exactly once to create Scan 125.
 
 ## Active Branch
 
-`research/attraction-scan-125`
+`research/attraction-scan-126`
 
 ## Active PR
 
-Replacement PR pending after recovery-contract fix. Freeze this replacement head before opening the PR; do not push branch commits after PR creation.
+None at this checkpoint. Open exactly one PR only after the final branch head is frozen. Do not push branch commits after PR creation.
 
-## Scan 125 Result
+## Scan 126 Result
 
 ```text
-SCREENED CURRENT / LATEST-DIRECT PACKETS = 6
-PRIMARY FORMATIONS ADMITTED = 1
-PRIMARY FORMATIONS RETAINED = 0
+SCREENED FRESH CONTROL-EVENT / CURRENT-REPORT PACKETS = 6
+PRIMARY FORMATIONS ADMITTED = 0
+RETAINED RESEARCH FORMATIONS = 0
 COMMERCIAL PROMOTIONS = 0
 FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
 ```
 
-Admitted and demoted:
-- 泓淇科技: latest direct 11 FTE; current H1 approximately RMB13.14m revenue, RMB0.80m profit and +0.0612 OCF/share. Demoted after deepening because Yao Ning remains 77% controller and chairman/general manager/board secretary, while delivery is direct-sale, customer-specific software development, implementation and maintenance.
+Nearest packet:
+- 盛储科技: completed 2025 acquisition, 9 current FTE, RMB995k current revenue and +RMB391k OCF, but current net loss RMB358k -> excluded on profit.
 
-Joint signal excluded fail-closed:
-- 益科精工: latest direct 10 FTE, current positive profit and positive OCF signal, but current independent external revenue is not cleanly proven after a March 2026 control/business reset plus newly approved material related-party sales/purchases. UNKNOWN != PASS.
-
-Fresh partial matches:
-- 润泰科技: 20 FTE, positive current profit, negative current OCF.
-- 明道光伏: 3 FTE, positive current profit, negative current OCF.
-- 顺利3: 13 current FTE, current loss and negative OCF.
-- 时间网络: 15 FTE, current loss.
+Other closures:
+- ST唐邦: genuine 2025 control change; 27 FTE, current loss and negative OCF.
+- 龙创未来: late-2025 control route; 26 FTE, current loss and deeply negative OCF.
+- 高华股份: completed 2025 actual-controller change; current loss and negative OCF.
+- 张恒春: strong current profit/OCF, but control changed inside the 2026 H1 period and current FTE is 397.
+- 通海绒业: controlling shareholder changed inside the same state-owned group but ultimate controller remained unchanged; 282 FTE and current loss.
 
 ## CI
 
-Scan 125 PR validation has not run yet. Required before merge:
+Scan 126 PR validation has not run yet. Required:
 1. freeze exact branch head;
 2. open one PR;
 3. verify repository CI on that exact head;
-4. verify Jev Opportunity Research Advisory on that exact head;
-5. inspect advisory artifact and continuation;
+4. verify live TypeSafe/Jev on that exact head;
+5. inspect continuation;
 6. merge only if both paths succeed and exact-head continuation permits advance.
 
 ## Parallel Validation
@@ -85,54 +86,57 @@ Last verified inbox state remains 2026-09-22: no official provider reply from th
 
 ## Latest Artifact / Persisted State
 
-Scan 125:
-- `data/research_runs/attraction_scan_125.json`;
-- `docs/research/ATTRACTION_SCAN_125_2026-09-23.md`;
-- `tests/test_attraction_scan_125_joint_economic_control.py`.
+Scan 126:
+- `data/research_runs/attraction_scan_126.json`;
+- `docs/research/ATTRACTION_SCAN_126_2026-09-23.md`;
+- `tests/test_attraction_scan_126_fresh_control_gate.py`.
 
 Machine state:
-- last completed scan = `ATTRACTION_SCAN_125`;
+- last completed scan = `ATTRACTION_SCAN_126`;
 - last resolved formation = `ATTRACTION_SCAN_125-F1`;
-- next scan = `ATTRACTION_SCAN_126`;
+- next scan = `ATTRACTION_SCAN_127`;
 - active commercial candidates = 0;
 - retained research formations = 0;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Consumed the verified Scan 124 continuation exactly once.
-- Screened six fresh current/latest-direct packets with the joint low-FTE + positive-profit + positive-OCF retrieval heuristic.
-- Admitted 泓淇科技 only after the full current-economic conjunction and demoted it on longstanding controller dependence plus custom project delivery.
-- Kept 益科精工 fail-closed because current independent external revenue is unresolved across the control/business reset.
-- Persisted Scan 125 machine state, research report and regression tests without commercial promotion.
-- Preserved Scan 015-F1 as a separate validation stream.
+- Reconciled live main after concurrent PR #426 merged Scan 125 and closed stale duplicate #427.
+- Consumed Scan 125 exact-head Jev continuation once.
+- Screened six fresh control-event/current-report packets not used in Scan 060-125.
+- Applied completed pre-period fresh actual-control as an admission gate rather than post-admission deepening.
+- Preserved zero admission without fabricating an entity for Jev.
+- Persisted Scan 126 machine state, report and regression tests.
+- Left Scan 015-F1 validation unchanged.
 
 ## Current Findings
 
 ```text
-JOINT LOW FTE + PROFIT + OCF RETRIEVAL
-=> CAN SURFACE A TRUE NONMANUFACTURING ECONOMIC SURVIVOR
+FRESH CONTROL BEFORE PERIOD
+!= LOW FTE
+!= POSITIVE PROFIT
+!= POSITIVE OCF
 
-CURRENT ECONOMIC PASS
+UPSTREAM CONTROLLING-SHAREHOLDER CHANGE
++ UNCHANGED ULTIMATE CONTROLLER
 != FRESH OPERATOR CONTROL
-!= STANDARDIZED DELIVERY
 
-UNKNOWN CURRENT EXTERNAL REVENUE
-!= PASS
+CONTROL CHANGE INSIDE REPORTING PERIOD
+!= CLEAN POST-CONTROL CONTINUITY
 
-SCAN122 CONTROL BOTTLENECK
-+ INDEPENDENT SCAN125 CONTROL BOTTLENECK
-=> FRESH OPERATOR CONTROL MAY MOVE INTO SCAN126 PRIMARY ADMISSION
+PRE-PERIOD FRESH ULTIMATE CONTROL
++ LOW FTE
+=> BETTER RETRIEVAL HEURISTIC FOR SCAN127
 ```
 
 ## Next Evidence Boundary
 
 ```text
-CURRENT / LATEST DIRECT LOW FTE
+COMPLETED FRESH ULTIMATE CONTROL BEFORE REPORTING PERIOD
++ CURRENT / LATEST DIRECT INTRINSICALLY LOW FTE
 + POSITIVE EXTERNAL REVENUE
 + POSITIVE NET PROFIT
 + POSITIVE CONSOLIDATED OCF
-+ COMPLETED FRESH-OPERATOR REPRODUCIBLE CONTROL BEFORE REPORTING PERIOD
 => ONLY THEN PRIMARY FORMATION ADMISSION
 
 AFTER ADMISSION:
@@ -150,20 +154,24 @@ Validation:
 - Scan 015-F1 still needs real official written provider rights evidence and founder-free inbound proof.
 
 Discovery:
-- no evidence blocker; Scan 125 research is complete and needs exact-head PR validation.
+- no evidence blocker; Scan 126 research is complete and needs exact-head PR validation.
 
 Engineering:
 - no current TypeSafe/Jev integration blocker.
 
+## Next Action
+
+Freeze Scan 126 exact head, open one PR, run repository CI plus live TypeSafe/Jev, inspect continuation and merge only if both succeed. If continuation is `ADVANCE_TO_NEXT_SCAN`, create Scan 127 from verified main and search fresh packets with **pre-period completed fresh ultimate control + low FTE** retrieval before economics.
+
 ## Do Not Repeat
 
-- Do not repeat Scan 125 泓淇科技, 益科精工/烟东股份, 润泰科技, 明道光伏, 顺利3 or 时间网络.
-- Do not return to Scan 060-125 formations or their primary discovery signals.
-- Do not reinterpret 益科精工's approved related-party plan as proof that actual H1 revenue was related-party; current external-revenue identity is unresolved.
-- Do not spend primary-formation effort on packets that fail the new Scan 126 fresh-control admission gate.
-- Do not count captive related-party throughput as positive external revenue.
+- Do not repeat Scan 126 盛储科技, ST唐邦, 龙创未来, 高华股份, 张恒春 or 通海绒业.
+- Do not return to Scan 060-126 formations or their primary discovery signals.
+- Do not treat controlling-shareholder transfer with unchanged ultimate controller as fresh operator control.
+- Do not use a reporting period that straddles control change as clean post-control continuity.
+- Do not relax positive external revenue, net profit or consolidated OCF because control changed.
 - Do not use job/gig/RFQ/procurement feeds or asset-marketplace feeds as discovery ontology.
-- Do not derive a product or vertical from the zero-retention result.
+- Do not derive a product or acquisition-first vertical from this zero-admission result.
 - Do not repeat Scan 015 public-rights research while written evidence is outstanding.
 
 ## Guardrails
@@ -185,8 +193,4 @@ Engineering:
 
 Contract: `OPPORTUNITY_JEV_RESEARCH_ADVISORY_V2`.
 
-For Scan 125, Jev should receive only actual admitted entities. Partial current-economics packets and the fail-closed 益科 external-revenue packet must not be fabricated into admitted entities. Jev remains advisory-only and cannot reverse repository truth.
-
-## Next Action
-
-Freeze the final Scan 125 branch head, open one PR, validate exact-head repository CI plus live TypeSafe/Jev, inspect the continuation, and merge only if both succeed. If and only if continuation is `ADVANCE_TO_NEXT_SCAN`, create Scan 126 from verified main with completed fresh-operator reproducible control promoted into the primary admission gate.
+Scan 126 is an explicitly completed zero-admission scan. There are no admitted entities to send to Jev. The control plane must validate the authoritative zero-admission state without inventing a formation; unmarked empty input remains fail-closed.
