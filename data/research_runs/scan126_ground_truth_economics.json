@@ -53,10 +53,11 @@
       "raw_headroom_cny_at_high_payout": 369.585,
       "travel_cost_bound": false,
       "qa_rework_cost_bound": false,
-      "same_scope_cost_binding": true,
+      "same_scope_cost_binding": false,
       "specialist_required": false,
       "authorization_boundary": "SITE_ACCESS_PHOTO_PERMISSION_AND_NO_LICENSED_CERTIFICATION_REQUIRED",
-      "verdict": "POSITIVE_HEADROOM_NOT_NORMALIZED"
+      "verdict": "SCOPE_NOT_COMPARABLE_YET",
+      "mismatch_reason": "Buyer scope includes facility observation, staff interaction and an English predefined report; the public RMB80-200 short-video/multi-point payout is same-family but not proven same-scope."
     },
     {
       "task_class": "SHOWROOM_VIDEO_PHOTO_CAPTURE",
