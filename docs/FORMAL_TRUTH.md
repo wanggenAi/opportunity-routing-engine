@@ -1,6 +1,6 @@
 # Formal Truth
 
-Last updated: 2026-09-20
+Last updated: 2026-09-23
 
 This document is the current commercial source of truth. Historical rankings and launch designs remain evidence, but they do not override the current truth stated here.
 
@@ -176,6 +176,49 @@ Counterfactual Exchange != Accepted Exchange
 Legacy STRANDING_BARRIER == Compatibility Alias for Canonical MISSING_EDGE
 UNKNOWN != PASS
 ```
+
+## 0A. Strategic alignment / regenerative-field admission — LOCKED
+
+The constitutional purpose above is now a machine-enforced admission constraint, not
+only a narrative principle.
+
+A downstream object that is easy to measure must never become the discovery ontology
+merely because it survived the previous scan. In particular:
+
+```text
+LOCAL GATE COMPLIANCE != STRATEGIC ALIGNMENT
+VERIFIABLE CASHFLOW != REGENERATIVE VALUE FIELD
+ONE ATTRACTIVE ASSET != COMMERCIAL FORMATION
+ONE LIVE TRANSACTION != DEMAND PUMP
+NEXT SEARCH BOUNDARY != AUTOMATIC CHILD OF LAST SURVIVING PROXY
+```
+
+Beginning with `ATTRACTION_SCAN_142`, every claimed `HIGH_ATTRACTION_BEACON` must
+bind evidence for all of:
+
+- replenishing Actor/Node A population;
+- replenishing Actor/Node B population;
+- recurring connection pressure;
+- recurring missing edge;
+- recurring event source / Demand Pump.
+
+If discovery begins from an explicit task, gig, RFQ, procurement notice, buyer brief,
+asset listing, price spread or single transaction, that observation is downstream
+evidence only. It cannot define the search ontology unless independent evidence first
+establishes the broader regenerative field.
+
+Every fresh scan must re-derive its next search boundary from broad reality plus the
+constitutional formation model. It may not recursively inherit the prior scan's most
+measurable surviving proxy.
+
+Canonical executable enforcement:
+- `src/attraction_discovery.py`;
+- `src/strategic_drift_guard.py`;
+- `src/attraction_frontier.py`;
+- `tests/test_strategic_drift_guard.py`.
+
+Historical Scan 129–141 asset/cashflow work remains audit evidence. It is not a
+current strategic prior and cannot control Scan 142.
 
 ## 1. System identity — LOCKED
 
