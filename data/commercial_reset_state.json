@@ -6,7 +6,9 @@
   "active_transaction_units": [],
   "active_parent_formations": [],
   "inherited_watchlist": [],
-  "retained_research_formations": [],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_135-F1"
+  ],
   "resolved_research_formations": [
     {
       "formation_id": "ATTRACTION_SCAN_001-F1",
@@ -227,14 +229,29 @@
       "formation_id": "ATTRACTION_SCAN_134-F4",
       "verdict": "DEMOTED_CURRENT_XUZHOU_RMB19443941_5_02MWP_PV_ASSET_PROVES_LIVE_MACHINE_OPERATION_AND_TRANSFER_RAIL_BUT_PROJECT_SPECIFIC_RECEIPTS_TERM_SETTLEMENT_AND_LOW_LABOR_TRANSITION_REMAIN_UNBOUND",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_135-F2",
+      "verdict": "DEMOTED_CURRENT_CHENGDU_XIALIANCHI_RMB3666400_ASSET_HAS_RMB252000_ANNUAL_RENT_AND_BUYER_SUCCESSION_BUT_RENT_IS_PREPAID_TO_2026_11_30_AND_LEASE_END_2027_02_28_FAILS_24_MONTH_COVERAGE",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_135-F3",
+      "verdict": "DEMOTED_CURRENT_CHENGDU_AIMING_RMB395000_SHOP_HAS_EXACT_RMB1600_MONTH_RENT_AND_BUYER_SUCCESSION_BUT_LEASE_END_2027_07_19_AND_CURRENT_PREPAYMENT_FAIL_DURABLE_RECEIPT_GATE",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_135-F4",
+      "verdict": "DEMOTED_CURRENT_SHENZHEN_RMB280018_59_HUANANCHENG_UNIT_HAS_NAMED_TENANT_LONG_LEASE_AND_EXPLICIT_BUYER_SUCCESSION_BUT_EXACT_RENT_IS_ATTACHMENT_ONLY_SO_FULL_ECONOMIC_TUPLE_FAILS",
+      "resolved_date": "2026-09-23"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_134",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_134-F4",
-  "next_scan_id": "ATTRACTION_SCAN_135",
-  "current_research_action": "VALIDATE_SCAN134_ON_EXACT_HEAD_WITH_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_REQUIRE_INPUT_SCAN_ID_ATTRACTION_SCAN_134_ENTITY_COUNT_4_ALL_FOUR_AUTHORITATIVE_NO_FURTHER_RESEARCH_THEN_ADVANCE_TO_SCAN135_IF_CONTINUATION_ALLOWS",
+  "last_completed_scan_id": "ATTRACTION_SCAN_135",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_135-F4",
+  "next_scan_id": "ATTRACTION_SCAN_136",
+  "current_research_action": "VALIDATE_SCAN135_ON_EXACT_HEAD_WITH_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_REQUIRE_INPUT_SCAN_ID_ATTRACTION_SCAN_135_ENTITY_COUNT_4_KEEP_F1_NON_AUTHORITATIVE_RESEARCH_ONLY_KEEP_F2_F3_F4_AUTHORITATIVELY_CLOSED_THEN_CONSUME_ACTUAL_JEV_ROUTE_FOR_F1_WITHOUT_COMMERCIAL_PROMOTION",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -1771,5 +1788,39 @@
     "fresh_machine_asset_probe": "XUZHOU_5_02MWP_PV_RMB19443941_CURRENT_RELISTING_NORMAL_OPERATION_BUT_PROJECT_RECEIPT_LEDGER_UNBOUND",
     "decisive_gap": "SINGLE_ASSET_OR_ECONOMICALLY_SEPARABLE_ENTRY_WITH_EXACT_RECEIPTS_AUTOMATIC_CONTINUITY_24_MONTH_COVERAGE_AND_NON_DISQUALIFYING_ECONOMICS",
     "next_scan_id": "ATTRACTION_SCAN_135"
+  },
+  "scan135_single_asset_cashflow": {
+    "canonical_scan_artifact": "data/research_runs/attraction_scan_135.json",
+    "evidence_artifact": "data/research_runs/scan135_single_asset_cashflow_evidence.json",
+    "report": "docs/research/SCAN135_SINGLE_ASSET_CASHFLOW_2026-09-23.md",
+    "retained_count": 1,
+    "retained_formation_id": "ATTRACTION_SCAN_135-F1",
+    "retained_asset": "CHENGDU_QINGYANG_GUANGHUA_BEISAN_ROAD_98_BASEMENT_MINUS115",
+    "acquisition_floor_rmb": 650304,
+    "contracted_monthly_rent_rmb": 3000,
+    "nominal_gross_annual_yield_at_floor": 0.05535872,
+    "lease_end": "2030-11-20",
+    "explicit_post_transfer_receipt_right": true,
+    "commercial_promotion": false,
+    "bid_authorized": false,
+    "deposit_authorized": false,
+    "purchase_authorized": false,
+    "decisive_unknowns": [
+      "TENANT_IDENTITY_AND_CREDIT",
+      "COMPLETE_LEASE_AND_CURRENT_RENT_LEDGER",
+      "RENT_PREPAYMENT_OR_ARREARS_STATUS",
+      "LEASE_DEPOSIT_AMOUNT_AND_RETURN_OBLIGATION",
+      "UTILITY_AND_PROPERTY_ARREARS",
+      "BUYER_TAX_TRANSFER_AND_POSSIBLE_ADVANCE_PAYMENT_COSTS",
+      "TITLE_TRANSFER_ELIGIBILITY_AND_CLOSING_TIMELINE",
+      "PHYSICAL_CONDITION_WITH_PUBLIC_INSPECTION_BOOKING_DEADLINE_ALREADY_PASSED"
+    ],
+    "closed_comparators": [
+      "ATTRACTION_SCAN_135-F2",
+      "ATTRACTION_SCAN_135-F3",
+      "ATTRACTION_SCAN_135-F4"
+    ],
+    "next_scan_id": "ATTRACTION_SCAN_136",
+    "next_action": "EXACT_HEAD_CI_AND_LIVE_JEV_THEN_FOLLOW_F1_RESEARCH_ROUTE_WITHOUT_COMMERCIAL_PROMOTION"
   }
 }
