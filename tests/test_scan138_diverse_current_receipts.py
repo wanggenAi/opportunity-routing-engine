@@ -36,10 +36,12 @@ class Scan138DiverseCurrentReceiptsTests(unittest.TestCase):
         self.assertIn("annual rent amount", heze["reason"])
         self.assertEqual(scan["retained_research_formations"], [])
 
-    def test_machine_state_advances_to_scan139_without_reopening_prior_retained_research(self):
+    def test_machine_state_preserves_historical_scan138_without_pinning_global_progress(self):
         state = json.loads(STATE.read_text(encoding="utf-8"))
-        self.assertEqual(state["last_completed_scan_id"], "ATTRACTION_SCAN_138")
-        self.assertEqual(state["next_scan_id"], "ATTRACTION_SCAN_139")
+        historical = state["scan138_diverse_current_receipts"]
+        self.assertEqual(historical["retained_count"], 0)
+        self.assertFalse(historical["commercial_promotion"])
+        self.assertEqual(historical["next_scan_id"], "ATTRACTION_SCAN_139")
         self.assertIn("ATTRACTION_SCAN_135-F1", state["retained_research_formations"])
         self.assertIn("ATTRACTION_SCAN_136-F1", state["retained_research_formations"])
         self.assertIn("ATTRACTION_SCAN_136-F2", state["retained_research_formations"])
@@ -53,11 +55,11 @@ class Scan138DiverseCurrentReceiptsTests(unittest.TestCase):
         self.assertEqual(len(evidence["evidence_packets"]), 4)
         self.assertEqual(len(evidence["excluded_evidence"]), 1)
 
-    def test_current_auto_jev_input_resolves_scan138(self):
+    def test_explicit_historical_jev_input_resolves_scan138(self):
         from tools.run_jev_research_advisory import resolve_scan_path
 
         state = json.loads(STATE.read_text(encoding="utf-8"))
-        path = resolve_scan_path("auto", state, research_dir=ROOT / "data" / "research_runs")
+        path = resolve_scan_path(str(SCAN), state, research_dir=ROOT / "data" / "research_runs")
         self.assertEqual(path, SCAN)
 
 

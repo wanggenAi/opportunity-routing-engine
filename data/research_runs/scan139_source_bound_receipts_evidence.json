@@ -1,0 +1,77 @@
+{
+  "schema_version": "research-evidence.v1",
+  "scan_id": "ATTRACTION_SCAN_139",
+  "as_of_date": "2026-09-23",
+  "primary_research_domain": "CHINA",
+  "evidence_packets": [
+    {
+      "formation_id": "ATTRACTION_SCAN_139-F1",
+      "sources": [
+        {
+          "source_id": "F1-S1",
+          "title": "Current Sandu court first auction - Jianshe West Road title 11032107 commercial unit",
+          "url": "https://m.fang.com/fapai/qiannan/out_12668036.html",
+          "role": "CURRENT_EXACT_ENTRY_EXACT_ANNUAL_RENT_SEMIANNUAL_CADENCE_AND_LEASE_END"
+        }
+      ],
+      "closure": "Retained for research only: RMB391,374 entry, RMB27,000/year and lease through 2030-09-30 imply approximately 6.90% nominal gross, but buyer-side rent succession and current paid-through cursor are not public."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_139-F2",
+      "sources": [
+        {
+          "source_id": "F2-S1",
+          "title": "Official Foshan Nanhai Court auction - Dongguan Tianli Central Garden shop 109",
+          "url": "https://fayuan.nanhai.gov.cn/cms/html/3334/2026/20260904095711855104207/20260904095711855104207_1.html",
+          "role": "OFFICIAL_ENTRY_LEASE_TERM_PAID_THROUGH_CURSOR_AND_EXPLICIT_BUYER_RENT_SUCCESSION"
+        }
+      ],
+      "closure": "RMB16,709,056 entry, lease through 2027-09-30, rent paid through 2026-06 and explicit buyer rent right are public. Rent quantum is not public and remaining term is below 24 months; demoted."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_139-F3",
+      "sources": [
+        {
+          "source_id": "F3-S1",
+          "title": "Current Zhanjiang Intermediate Court first auction - Lianjiang Yonghe Garden first floor",
+          "url": "https://www.sohu.com/a/1077357214_122455197",
+          "role": "CURRENT_ENTRY_EXPLICIT_RMB50000_MONTH_POST_TRANSFER_BUYER_RENT_AND_LONG_LEASE"
+        }
+      ],
+      "closure": "RMB17,327,450 entry and RMB50,000/month to the new buyer after transfer imply approximately 3.46% nominal gross before costs; demoted on economics."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_139-F4",
+      "sources": [
+        {
+          "source_id": "F4-S1",
+          "title": "Official Jining Yanzhou public-resource auction - 30-year PV operating revenue right",
+          "url": "https://www.jnsggzy.cn/YanZhou/Posts/Detail?id=3a23c0c4-679b-1343-9104-257733295f1f",
+          "role": "CURRENT_FORMAL_TRANSFERABLE_PV_OPERATING_REVENUE_RIGHT_ENTRY_CAPITAL_AND_AUCTION_RAIL"
+        }
+      ],
+      "closure": "30-year right and formal current auction are public, but entry is RMB627.21m and no existing external receipt ledger transfers with the right. Institutional scale and operating burden fail the current lane."
+    }
+  ],
+  "excluded_evidence": [
+    {
+      "source_id": "X1",
+      "title": "Current Chengdu Jingcui West Road 301/304 change-sale",
+      "url": "https://www.bidcenter.com.cn/news-443859008-9.html",
+      "role": "CURRENT_LONG_LEASE_AND_EXPLICIT_BUYER_RENT_START_BUT_CURRENT_ENTRY_PRICE_MASKED_DO_NOT_JOIN_PRIOR_STAGE_PRICE"
+    },
+    {
+      "source_id": "X2",
+      "title": "Current Shanghai Shitai Road 400 rooms 501/507/521 bundled auction",
+      "url": "https://m.fang.com/fapai/sh/out_12736393.html",
+      "role": "CURRENT_THREE_TITLE_BUNDLE_WITH_EXACT_RENT_SCHEDULE_WEAK_GROSS_ECONOMICS_AND_REQUIRED_LEASE_AMENDMENT_NEGOTIATION"
+    },
+    {
+      "source_id": "X3",
+      "title": "Current Fuzhou Changle 160-public-rooftop 18-year PV lease",
+      "url": "https://fzsggzyjyfwzx.cn/jyxxcqgg/2208228.jhtml",
+      "role": "CURRENT_LONG_CONTROL_RIGHT_BUT_BUYER_FUNDS_BUILD_GRID_ACCEPTANCE_OPERATION_INSURANCE_AND_MAINTENANCE_NO_INHERITED_RECEIPTS"
+    }
+  ],
+  "scan_conclusion": "SCAN139_ONE_RETAINED_RESEARCH_ZERO_COMMERCIAL_PROMOTION_REQUIRES_LIVE_JEV_ROUTE_CONSUMPTION"
+}
