@@ -1,0 +1,57 @@
+{
+  "schema_version": "research-evidence.v1",
+  "scan_id": "ATTRACTION_SCAN_137",
+  "as_of_date": "2026-09-23",
+  "primary_research_domain": "CHINA",
+  "evidence_packets": [
+    {
+      "formation_id": "ATTRACTION_SCAN_137-F1",
+      "sources": [
+        {
+          "source_id": "F1-S1",
+          "title": "Current Guiyang Nanming change-sale notice - Huaguoyuan A South 4 Building 35F Room 2",
+          "url": "https://m.fang.com/fapai/gy/out_12719238.html",
+          "role": "CURRENT_CHANGE_SALE_PRICE_EXACT_HALF_YEAR_RENT_LEASE_TERM_AND_CURRENT_LEASE"
+        }
+      ],
+      "closure": "RMB483,004 entry and RMB11,760 per half-year rent imply RMB23,520 annualized, approximately 4.87% nominal gross before costs. Exact first buyer rent settlement is not public. Economics independently hard-fail current attraction."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_137-F2",
+      "sources": [
+        {
+          "source_id": "F2-S1",
+          "title": "Current Cili County Court first-auction republication - Lingyang Town Huancheng South Road Building 12 Room 111",
+          "url": "https://www.sohu.com/a/1077810395_122455197",
+          "role": "CURRENT_PRICE_TWO_EXACT_ANNUAL_RENTS_AND_LEASE_TERMS"
+        }
+      ],
+      "closure": "RMB3,000,000 entry and two RMB50,000/year leases produce RMB100,000 aggregate annual rent, approximately 3.33% nominal gross before costs. Economics independently hard-fail before deeper settlement diligence."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_137-F3",
+      "sources": [
+        {
+          "source_id": "F3-S1",
+          "title": "Current Haining Court first auction - Hangzhou Xinming Commercial Center Building 2 Unit 2-101",
+          "url": "https://m.fang.com/fapai/hz/out_12654829.html",
+          "role": "CURRENT_PRICE_MANAGEMENT_TERM_LEASE_TERM_EXPLICIT_BUYER_RENT_FROM_TITLE_CONFIRMATION_AND_PROPERTY_FEE_ARREARS"
+        }
+      ],
+      "closure": "RMB991,000 entry, lease through 2029-05-31 and explicit buyer rent from title confirmation are public, but contracted rent quantum is not. Unknown receipt amount cannot pass the computable economics gate."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_137-F4",
+      "sources": [
+        {
+          "source_id": "F4-S1",
+          "title": "Current Rongchang Court first auction - Guangchang Road 115 No. 3-160 mall unit",
+          "url": "https://m.fang.com/fapai/cq/out_12654792.html",
+          "role": "CURRENT_LOW_ENTRY_PRICE_EMPTY_UNIT_MANAGEMENT_AGREEMENT_AND_POOLED_PERCENTAGE_RENT_FORMULA"
+        }
+      ],
+      "closure": "RMB114,730 entry is public, but the unit is currently empty and the management agreement only provides a pooled 90% of actual mall rent in the later five-year period. No exact asset-attributable current contracted receipt is bound."
+    }
+  ],
+  "scan_conclusion": "SCAN137_FRESH_CURRENT_ASSET_FALSIFICATION_ZERO_RETAINED_ZERO_COMMERCIAL_PROMOTION"
+}
