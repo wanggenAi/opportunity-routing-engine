@@ -18,13 +18,20 @@ class Scan140ReceiptBindingBoundaryTests(unittest.TestCase):
         self.assertEqual(scan["active_commercial_candidate_promotions"], [])
         self.assertEqual(scan["commercial_outcome"]["active_commercial_candidate_count"], 0)
 
-    def test_weiyuan_keeps_buyer_receipt_successor_unknown(self):
+    def test_weiyuan_preserves_fail_closed_receipt_boundary_after_route_followup(self):
         scan = json.loads(SCAN.read_text(encoding="utf-8"))
         by_id = {item["formation_id"]: item for item in scan["examined_formations"]}
         f1 = by_id["ATTRACTION_SCAN_140-F1"]
         self.assertIn("16_15_PERCENT", f1["economic_tuple"]["receipt_to_entry_economics"])
         self.assertIn("UNKNOWN", f1["economic_tuple"]["buyer_receipt_start"])
-        self.assertIn("UNKNOWN", f1["economic_tuple"]["post_transfer_receipt_right"])
+        self.assertIn(
+            "PUBLIC_SUPREME_COURT_REFERENCE_CASE",
+            f1["economic_tuple"]["post_transfer_receipt_right"],
+        )
+        self.assertIn(
+            "PREPAID_RENT_APPORTIONMENT_REMAINS_UNBOUND",
+            f1["economic_tuple"]["post_transfer_receipt_right"],
+        )
         self.assertTrue(f1["verdict"].startswith("RETAINED_"))
 
     def test_three_comparators_close_on_independent_receipt_binding_failures(self):
