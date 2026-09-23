@@ -66,6 +66,18 @@ class Scan140ReceiptBindingBoundaryTests(unittest.TestCase):
             "8a55703f92fbd52b53c41947b04d9fb3bd2b48e4",
         )
         self.assertIn("ATTRACTION_SCAN_140-F1", state["retained_research_formations"])
+        self.assertIn("ATTRACTION_SCAN_141-F1", state["retained_research_formations"])
+        resolved = {item["formation_id"]: item["verdict"] for item in state["resolved_research_formations"]}
+        self.assertTrue(resolved["ATTRACTION_SCAN_140-F1"].startswith("CLOSED_STRATEGIC_QUARANTINE_"))
+        self.assertTrue(resolved["ATTRACTION_SCAN_141-F1"].startswith("CLOSED_STRATEGIC_QUARANTINE_"))
+        self.assertTrue(resolved["ATTRACTION_SCAN_141-F2"].startswith("CLOSED_STRATEGIC_QUARANTINE_"))
+        self.assertEqual(state["last_completed_scan_id"], "ATTRACTION_SCAN_141")
+        self.assertEqual(state["next_scan_id"], "ATTRACTION_SCAN_142")
+        incident = state["strategic_drift_incident"]
+        self.assertEqual(incident["quarantined_pr"], 451)
+        self.assertEqual(incident["quarantined_pr_state"], "MERGED_AUDIT_ONLY")
+        self.assertEqual(incident["quarantined_scan_id"], "ATTRACTION_SCAN_141")
+        self.assertTrue(incident["do_not_use_quarantined_scan141_as_strategy"])
         self.assertEqual(state["active_commercial_candidates"], [])
         self.assertEqual(state["active_transaction_units"], [])
         self.assertEqual(state["first_external_value_flow"], "NOT_PROVEN")

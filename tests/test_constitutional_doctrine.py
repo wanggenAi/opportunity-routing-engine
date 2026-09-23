@@ -186,5 +186,18 @@ class ConstitutionalDoctrineTests(unittest.TestCase):
 
 
 
+    def test_strategic_drift_prevention_is_locked_and_machine_enforced(self):
+        agents = self._read("AGENTS.md")
+        attraction = self._read("docs/OPPORTUNITY_ATTRACTION_FIELD.md")
+        guard = self._read("src/strategic_drift_guard.py")
+        self.assertIn("Strategic drift prevention — LOCKED", agents)
+        self.assertIn("LOCAL GATE COMPLIANCE != STRATEGIC ALIGNMENT", agents)
+        self.assertIn("Regenerative field origin gate — LOCKED", attraction)
+        self.assertIn("ONE ATTRACTIVE ASSET != REGENERATIVE VALUE FIELD", attraction)
+        self.assertIn("ENFORCEMENT_START_SCAN = 142", guard)
+        self.assertIn("recurring_missing_edge", guard)
+
+
+
 if __name__ == "__main__":
     unittest.main()

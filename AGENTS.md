@@ -314,6 +314,49 @@ Observation
 
 A one-off task may later buy validation evidence, but it cannot become the core discovery object until the underlying regenerative field has been independently evidenced.
 
+## Strategic drift prevention — LOCKED
+
+Local evidence quality must never replace the repository's highest-order commercial
+objective.
+
+A sequence of individually sensible research refinements can still drift into the
+wrong ontology when each scan inherits the most measurable surviving proxy from the
+previous scan. This repository explicitly rejects that failure mode.
+
+Starting with `ATTRACTION_SCAN_142`:
+
+- every persisted scan must revalidate the regenerative field from broad reality;
+- every claimed `HIGH_ATTRACTION_BEACON` must carry evidence-bound proof of
+  replenishing A and B populations, recurring connection pressure, a recurring
+  missing edge, and a recurring event source / Demand Pump;
+- an explicit task, gig, RFQ, procurement notice, buyer brief, asset listing, single
+  transaction or price spread may be downstream evidence, but may not define the
+  discovery ontology without independent regenerative-field evidence;
+- the next scan boundary must be re-derived from broad reality and constitutional
+  formation logic, not recursively inherited from the previous scan's easiest-to-
+  quantify surviving metric;
+- `no vertical reuse`, `UNKNOWN != PASS`, strong economics, exact settlement,
+  source-bound cashflow, or clean transfer rights do not by themselves satisfy the
+  strategic anti-drift requirement.
+
+Hard rules:
+
+```text
+LOCAL GATE COMPLIANCE != STRATEGIC ALIGNMENT
+VERIFIABLE CASHFLOW != REGENERATIVE VALUE FIELD
+ONE ATTRACTIVE ASSET != COMMERCIAL FORMATION
+ONE LIVE TRANSACTION != DEMAND PUMP
+NEXT_SEARCH_BOUNDARY != AUTOMATIC CHILD OF LAST SURVIVING PROXY
+```
+
+Canonical machine enforcement:
+- `src/attraction_discovery.py`;
+- `src/strategic_drift_guard.py`;
+- `tests/test_strategic_drift_guard.py`.
+
+If this guard fails, stop the scan, preserve the failed scan as audit evidence, return
+to broad reality sensing, and repair the search objective before doing more diligence.
+
 ## Scientific engineering method selection — LOCKED
 
 Use mature data structures, algorithms, design patterns, statistical methods and mathematical models when they encode a real repository invariant or materially improve a real decision.

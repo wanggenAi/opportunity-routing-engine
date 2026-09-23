@@ -30,6 +30,11 @@ def profile(**overrides):
         b_discoverability=3,
         match_resolvability=3,
         action_gate_callability=3,
+        a_population_replenishment=3,
+        b_population_replenishment=3,
+        recurring_connection_pressure=3,
+        recurring_missing_edge=3,
+        recurring_event_source=3,
         a_motion_evidence=ev("a"),
         b_motion_evidence=ev("b"),
         value_jump_evidence=ev("value"),
@@ -42,6 +47,11 @@ def profile(**overrides):
         b_discoverability_evidence=ev("b-discoverability"),
         match_resolvability_evidence=ev("match-resolvability"),
         action_gate_evidence=ev("action-gate"),
+        a_population_replenishment_evidence=ev("a-replenishment"),
+        b_population_replenishment_evidence=ev("b-replenishment"),
+        recurring_connection_pressure_evidence=ev("connection-pressure"),
+        recurring_missing_edge_evidence=ev("missing-edge"),
+        recurring_event_source_evidence=ev("event-source"),
     )
     values.update(overrides)
     return AttractionDiscoveryProfile(**values)
@@ -156,3 +166,27 @@ def test_generic_agent_substitutability_kills_high_attraction():
     )
     assert attraction_beacon_state(p) is AttractionBeaconState.LOW_ATTRACTION
     assert discovery_attention_allowed(p) is False
+
+
+def test_missing_regenerative_field_kills_high_attraction():
+    p = profile(
+        recurring_missing_edge=1,
+        recurring_missing_edge_evidence=ev("market-already-closes-the-edge"),
+    )
+    assert attraction_beacon_state(p) is AttractionBeaconState.LOW_ATTRACTION
+    assert discovery_attention_allowed(p) is False
+
+
+def test_single_transaction_seed_is_not_a_discovery_ontology():
+    p = profile(explicit_transaction_seeded=True)
+    assert attraction_beacon_state(p) is AttractionBeaconState.LOW_ATTRACTION
+    assert discovery_attention_allowed(p) is False
+
+
+def test_transaction_observation_can_survive_only_after_independent_field_evidence():
+    p = profile(
+        explicit_transaction_seeded=True,
+        independent_regenerative_field_evidence=ev("independent-replenishing-field"),
+    )
+    assert attraction_beacon_state(p) is AttractionBeaconState.HIGH_ATTRACTION_BEACON
+    assert discovery_attention_allowed(p) is True

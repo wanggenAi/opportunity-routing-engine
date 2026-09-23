@@ -24,7 +24,8 @@ class Scan135SingleAssetCashflowTests(unittest.TestCase):
         states = build_research_states(scan=scan, commercial_state=state, max_entities=8)
         self.assertEqual(len(states), 4)
         rows = {row["formation"]["formation_id"]: row for row in states}
-        self.assertFalse(rows["ATTRACTION_SCAN_135-F1"]["authoritative_engine_context"]["existing_closure_authoritative"])
+        self.assertTrue(rows["ATTRACTION_SCAN_135-F1"]["authoritative_engine_context"]["resolved_in_commercial_state"])
+        self.assertTrue(rows["ATTRACTION_SCAN_135-F1"]["authoritative_engine_context"]["existing_closure_authoritative"])
         self.assertTrue(rows["ATTRACTION_SCAN_135-F1"]["authoritative_engine_context"]["already_retained_for_research"])
         for formation_id in ("ATTRACTION_SCAN_135-F2", "ATTRACTION_SCAN_135-F3", "ATTRACTION_SCAN_135-F4"):
             self.assertTrue(rows[formation_id]["authoritative_engine_context"]["existing_closure_authoritative"])

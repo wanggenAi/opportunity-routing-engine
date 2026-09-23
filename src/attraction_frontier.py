@@ -39,6 +39,11 @@ PARETO_OBJECTIVES: tuple[str, ...] = (
     "b_discoverability",
     "match_resolvability",
     "action_gate_callability",
+    "a_population_replenishment",
+    "b_population_replenishment",
+    "recurring_connection_pressure",
+    "recurring_missing_edge",
+    "recurring_event_source",
 )
 
 
@@ -189,5 +194,6 @@ GOVERNING_INVARIANTS = (
     "IDENTICAL_NON_DOMINATED_VECTORS_MAY_COEXIST",
     "DISCOVERABILITY_AND_MATCH_RESOLVABILITY_ARE_NON_COMPENSATORY",
     "ACTION_GATE_CALLABILITY_IS_NON_COMPENSATORY",
+    "REGENERATIVE_FIELD_DIMENSIONS_ARE_NON_COMPENSATORY",
     "ALGORITHM_COMPLEXITY_MUST_BE_JUSTIFIED_BY_MEASURED_SCALE",
 )
