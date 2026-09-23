@@ -37,3 +37,16 @@ UNKNOWN is not PASS. Whole-asset receipts are not assigned to fractional title w
 ## Next
 
 Freeze the final PR head, require repository CI plus live TypeSafe/Jev against ATTRACTION_SCAN_140, consume any reversible public F1 route, and only then decide whether Scan 141 may advance.
+
+
+## Live Jev causal-descent update
+
+Exact head `6b57d4c502104e1c6a24f481ddac7aaa52926bdc` passed repository CI `35842823646` and live TypeSafe/Jev `35842823841`. Jev routed only F1 to `CAUSAL_DESCENT`; F2-F4 stayed `NO_FURTHER_RESEARCH`.
+
+The follow-up found Supreme People's Court reference case `2024-17-5-203-007`. That authority materially advances F1: when a judicial-auction notice discloses an existing lease but does not separately allocate post-auction rent, the buyer generally succeeds the original landlord position and enjoys rent after ownership transfers. The transfer boundary is service of the auction-completion adjudication.
+
+This supersedes the narrower sentence above that buyer-side receipt succession is wholly unbound. The **remaining** fail-closed boundary is case-specific: the Weiyuan auction has not yet occurred, so there is no actual adjudication-service date; rent is already paid through 2026-11-30; the public record does not bind prepaid-rent apportionment or the exact first unprepaid quarterly due date.
+
+Detailed evidence and decision: `data/research_runs/scan140_f1_causal_descent_evidence.json` and `docs/research/SCAN140_F1_CAUSAL_DESCENT_2026-09-23.md`.
+
+F1 remains research-only. No commercial promotion or external side effect is authorized.
