@@ -1,0 +1,921 @@
+{
+  "scan_id": "ATTRACTION_SCAN_153",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "FRESH_BROAD_CURRENT_REALITY_TRANSITION_FLOWS_AFTER_SCAN152_FINAL_CLOSURE",
+  "source_main_sha": "de5c50f3eafadd850508d1878a33405f00132b54",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_152",
+    "prior_pr": 466,
+    "prior_merged_main_sha": "de5c50f3eafadd850508d1878a33405f00132b54",
+    "prior_final_exact_head": "4ee1b1903a8f37ec5d4ce3580c9c4b013e961f5b",
+    "prior_repository_ci_run_id": 35882446892,
+    "prior_repository_ci_test_job_id": 107254042494,
+    "prior_repository_ci_test_count": 774,
+    "prior_live_jev_run_id": 35882446830,
+    "prior_live_jev_artifact_id": 10761705107,
+    "prior_live_jev_artifact_digest": "sha256:a72843e9c4692d51cba35709873ae5ac11cc5c389664affa7123e33264f4cfc1",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scan152_access_infrastructure_not_used_as_prior": true
+  },
+  "broad_reality_domains_examined": [
+    "SHARED_MANUFACTURING",
+    "MANUFACTURING_PILOT_TESTING",
+    "LOCAL_GIG_EMPLOYMENT",
+    "HOME_NURSING",
+    "SECONDHAND_INDUSTRIAL_EQUIPMENT"
+  ],
+  "source_registry": {
+    "SHARED-MFG-HEBEI-20260715": {
+      "source_class": "CURRENT_SHARED_MANUFACTURING_ORDER_CAPACITY_PLATFORM",
+      "url": "https://hebfb.hebccw.cn/system/2026/07/15/102203791.shtml",
+      "date": "2026-07-15",
+      "claim": "Hebei's Chain Gear Cloud platform exposes idle equipment and production orders, automatically matches supply and demand, splits orders into manufacturing steps, applies quality standards and coordinates multiple SMEs; it reports 17 large firms and nearly 1,000 SMEs on the platform."
+    },
+    "SHARED-MFG-CIMIM-20260923": {
+      "source_class": "CURRENT_SHARED_FACTORY_PLATFORM",
+      "url": "https://market.cimim.cn/index.php?a=mf&c=solution&m=",
+      "date": "2026-09-23",
+      "claim": "The China Aerospace collaborative manufacturing platform describes a shared-factory rail that aggregates production resources, accepts orders centrally and allocates them across factories while pooling design, testing, maintenance and logistics capabilities."
+    },
+    "PILOT-HUBEI-20260923": {
+      "source_class": "CURRENT_MANUFACTURING_PILOT_SERVICE_MANUAL",
+      "url": "https://jxt.hubei.gov.cn/bmdt/gzdt/202609/t20260923_6021594.shtml",
+      "date": "2026-09-23",
+      "claim": "Hubei released a 2026 manufacturing pilot-platform service manual exposing platform capabilities, technical parameters and contact information to help SMEs precisely match pilot-test needs."
+    },
+    "PILOT-WUHAN-20260706": {
+      "source_class": "CURRENT_OPEN_PILOT_TESTING_LAB",
+      "url": "https://jxt.hubei.gov.cn/bmdt/rdjj/202607/t20260707_5971893.shtml",
+      "date": "2026-07-06",
+      "claim": "Wuhan's Zhongguancun pilot laboratory opened shared pilot, testing and certification resources across new energy, intelligent vehicles, low-altitude economy and robotics, with first customer orders already covering multiple service lines."
+    },
+    "GIG-BOZHOU-20260825": {
+      "source_class": "CURRENT_DIGITAL_GIG_MATCHING_PLATFORM",
+      "url": "https://chinajob.mohrss.gov.cn/h5/c/2026-08-25/594821.shtml",
+      "date": "2026-08-25",
+      "claim": "Bozhou's Linggong Kuaihuo platform provides free employer-worker matching, AI job recommendations, online signing and acceptance, two-way evaluation, identity and qualification verification and a gig map."
+    },
+    "GIG-BOZHOU-20260921": {
+      "source_class": "CURRENT_GIG_PLATFORM_SCALE",
+      "url": "https://chinajob.mohrss.gov.cn/c/2026-09-21/608938.shtml",
+      "date": "2026-09-21",
+      "claim": "By September 2026 the Bozhou platform reported more than 5,700 registered gig workers and more than 3,100 employing entities, with rapid posting, matching and direct invitations available online."
+    },
+    "NURSING-FUJIAN-202608": {
+      "source_class": "CURRENT_HOSPITAL_HOME_NURSING_PLATFORM",
+      "url": "https://www.fjsj.com/show.aspx?Id=5339&ctlgid=144535",
+      "date": "2026-08-01",
+      "claim": "Fujian Provincial Government Hospital launched an internet home-nursing platform with 19 services; qualified hospital nurses are dispatched to homes through a controlled platform with service traceability and safety controls."
+    },
+    "NURSING-ZHENGZHOU-20260609": {
+      "source_class": "CURRENT_HOME_NURSING_ORDER_DISPATCH_LOOP",
+      "url": "https://zzzyy.com/yl_oa_api/siteManageFront/page/siteResource/detail?recordId=d5bd3e563ff64889b2fb52d345c2c521&siteId=640553415504040004",
+      "date": "2026-06-09",
+      "claim": "A current hospital home-nursing service uses online reservation, precise dispatch, nurse home visits and full-process supervision across 20 service items, explicitly closing the order-to-delivery loop."
+    },
+    "EQUIPMENT-NDRC-20251229": {
+      "source_class": "CURRENT_2026_EQUIPMENT_REPLACEMENT_POLICY",
+      "url": "https://zfxxgk.ndrc.gov.cn/wap/iteminfo.jsp?id=20582",
+      "date": "2025-12-29",
+      "claim": "The national 2026 large-scale equipment-renewal policy expands supported replacement across industrial and other sectors and encourages standardized second-hand markets, remanufacturing and resource recycling, creating a recurring equipment-exit stream."
+    },
+    "EQUIPMENT-HENAN-20260825": {
+      "source_class": "CURRENT_PUBLIC_IDLE_INDUSTRIAL_EQUIPMENT_TRANSFER",
+      "url": "https://hnsggzyjy.henan.gov.cn/jyxx/002003/002003007/20260825/6e85af135dfe44f3b40f1257f3c7a97e.html",
+      "date": "2026-08-25",
+      "claim": "Henan's public resource exchange listed a current batch of idle mining equipment through a formal asset-transfer process with identified equipment, appraisal, price, disclosure period and transaction institution."
+    },
+    "EQUIPMENT-SHANDONG-20260827": {
+      "source_class": "CURRENT_SECONDHAND_EQUIPMENT_QUALITY_POLICY",
+      "url": "https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/dfjy/202608/t20260827_1407224.html",
+      "date": "2026-08-27",
+      "claim": "Shandong's 2026 equipment-renewal implementation encourages internet-plus second-hand trade while supporting third-party quality inspection and data-erasure inspection and regulated remanufacturing of used electromechanical equipment."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_153-F1",
+      "title": "Manufacturers with fragmented orders -> SMEs with idle production equipment and process capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_BROAD_REALITY_TRANSITION_FLOW",
+      "evidence_summary": "Current shared-manufacturing platforms already expose orders and idle capacity, automatically match them, split work into process units and enforce quality rules. The bilateral field is real, but the economically useful routing loop is already owned by the platform rather than left as a generic missing edge.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "b_voluntary_motion": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "state_dependent_value_jump": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "decision_window": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "bridge_compression": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "activation_ease": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "self_propulsion": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "operator_control": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "a_discoverability": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "b_discoverability": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "match_resolvability": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "action_gate_callability": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "a_population_replenishment": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "b_population_replenishment": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "recurring_connection_pressure": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "recurring_missing_edge": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ],
+          "recurring_event_source": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_SHARED_MANUFACTURING_FIELD_REAL_BUT_CURRENT_PLATFORM_ALREADY_OWNS_ORDER_DECOMPOSITION_CAPACITY_MATCHING_QUALITY_CONTROL_AND_COORDINATION",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-MFG-HEBEI-20260715",
+            "SHARED-MFG-CIMIM-20260923"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "SHARED-MFG-HEBEI-20260715",
+          "SHARED-MFG-CIMIM-20260923"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_153-F2",
+      "title": "SMEs and research teams needing scale-up validation -> manufacturing pilot-test platforms with specialized facilities",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_BROAD_REALITY_TRANSITION_FLOW",
+      "evidence_summary": "Public manuals and newly opened labs make both sides visible, but pilot-test matching remains technically heterogeneous and tied to process route, confidentiality, safety, schedule and specialist capability. Residual friction is real and not erased by incumbent presence, yet it is still expert-bound rather than a narrow machine-resolvable bridge.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "b_voluntary_motion": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "state_dependent_value_jump": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "decision_window": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "bridge_compression": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "activation_ease": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "self_propulsion": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "operator_control": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "a_discoverability": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "b_discoverability": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "match_resolvability": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "action_gate_callability": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "a_population_replenishment": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "b_population_replenishment": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "recurring_connection_pressure": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "recurring_missing_edge": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ],
+          "recurring_event_source": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_PILOT_TESTING_FIELD_REAL_WITH_RESIDUAL_RESOURCE_MISMATCH_BUT_PROCESS_ROUTE_IP_SAFETY_AND_CAPABILITY_FIT_REMAIN_EXPERT_AND_NONCALLABLE",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PILOT-HUBEI-20260923",
+            "PILOT-WUHAN-20260706"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "PILOT-HUBEI-20260923",
+          "PILOT-WUHAN-20260706"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_153-F3",
+      "title": "Small employers with short-duration labor needs -> local gig workers with available time and skills",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_BROAD_REALITY_TRANSITION_FLOW",
+      "evidence_summary": "Current public gig platforms directly support demand posting, worker discovery, AI matching, invitations, signing, acceptance and evaluation at meaningful scale. The recurring market exists, but the matching and accountability loop is already productized.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "b_voluntary_motion": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "state_dependent_value_jump": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "decision_window": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "bridge_compression": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "activation_ease": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "self_propulsion": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "operator_control": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "a_discoverability": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "b_discoverability": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "match_resolvability": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "action_gate_callability": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "a_population_replenishment": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "b_population_replenishment": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "recurring_connection_pressure": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "recurring_missing_edge": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ],
+          "recurring_event_source": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_LOCAL_GIG_MATCHING_FIELD_REAL_BUT_CURRENT_PUBLIC_PLATFORM_ALREADY_OWNS_POSTING_MATCHING_SIGNING_ACCEPTANCE_AND_EVALUATION",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GIG-BOZHOU-20260825",
+            "GIG-BOZHOU-20260921"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "GIG-BOZHOU-20260825",
+          "GIG-BOZHOU-20260921"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_153-F4",
+      "title": "Discharged or mobility-limited patients needing home procedures -> qualified hospital nurses with deployable service capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_BROAD_REALITY_TRANSITION_FLOW",
+      "evidence_summary": "Current hospital-native internet nursing services already expose service catalogs, accept orders, screen or assign qualified nurses, dispatch them to homes and retain safety/quality control. The desired state change is real but the accountable execution loop is institution-owned.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "b_voluntary_motion": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "state_dependent_value_jump": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "decision_window": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "bridge_compression": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "activation_ease": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "self_propulsion": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "operator_control": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "a_discoverability": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "b_discoverability": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "match_resolvability": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "action_gate_callability": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "a_population_replenishment": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "b_population_replenishment": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "recurring_connection_pressure": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "recurring_missing_edge": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ],
+          "recurring_event_source": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_HOME_NURSING_FIELD_REAL_BUT_HOSPITAL_PLATFORM_ALREADY_OWNS_SERVICE_CATALOG_CLINICAL_QUALIFICATION_DISPATCH_SAFETY_AND_DELIVERY",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "NURSING-FUJIAN-202608",
+            "NURSING-ZHENGZHOU-20260609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "NURSING-FUJIAN-202608",
+          "NURSING-ZHENGZHOU-20260609"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_153-F5",
+      "title": "Enterprises retiring industrial equipment -> secondary users and remanufacturers seeking usable machinery",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_BROAD_REALITY_TRANSITION_FLOW",
+      "evidence_summary": "National replacement policy continuously emits retired equipment and formal exchanges expose assets, while second-hand policy explicitly requires quality and remanufacturing controls. Residual cross-market matching exists, but equipment condition, process fit, inspection, transport and remanufacturing feasibility remain expert-bound; a public listing is not itself a regenerative router.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "b_voluntary_motion": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "state_dependent_value_jump": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "decision_window": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "bridge_compression": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "activation_ease": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "self_propulsion": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "operator_control": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "a_discoverability": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "b_discoverability": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "match_resolvability": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "action_gate_callability": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "a_population_replenishment": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "b_population_replenishment": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "recurring_connection_pressure": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "recurring_missing_edge": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ],
+          "recurring_event_source": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_SECONDHAND_INDUSTRIAL_EQUIPMENT_FIELD_REGENERATIVE_BUT_CONDITION_PROCESS_FIT_INSPECTION_LOGISTICS_AND_REMANUFACTURING_REMAIN_EXPERT_BOUND",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "EQUIPMENT-NDRC-20251229",
+            "EQUIPMENT-HENAN-20260825",
+            "EQUIPMENT-SHANDONG-20260827"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "EQUIPMENT-NDRC-20251229",
+          "EQUIPMENT-HENAN-20260825",
+          "EQUIPMENT-SHANDONG-20260827"
+        ]
+      }
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Five fresh transition/resource flows were rederived. Shared manufacturing, gig work and home nursing already have accountable platform loops; pilot testing and second-hand industrial equipment preserve genuine residual friction but remain expert/nonstandard at the decisive match/action boundary."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_154",
+  "next_search_boundary": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN153_THEN_RETURN_TO_FRESH_BROAD_REALITY_WITHOUT_INHERITING_TRANSITION_FLOWS_AS_ONTOLOGY",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN154",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scan152_access_infrastructure_not_used_as_prior": true,
+    "incumbent_presence_not_used_as_automatic_kill": true,
+    "residual_pilot_testing_friction_preserved": true,
+    "residual_industrial_equipment_friction_preserved": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "PLATFORMIZED_SHARED_MANUFACTURING_CAN_ALREADY_OWN_ORDER_DECOMPOSITION_AND_CAPACITY_ROUTING.",
+    "PILOT_TESTING_HAS_REAL_RESOURCE_MISMATCH_BUT_TECHNICAL_ROUTE_IP_SAFETY_AND_SCHEDULING_KEEP_THE_EDGE_EXPERT_BOUND.",
+    "DIGITAL_GIG_AND_HOME_NURSING_RAILS_SHOW_THAT_LARGE_REPLENISHING_DEMAND_CAN_BE_REAL_WHILE_ROUTER_DISTINCTIVENESS_IS_ZERO.",
+    "EQUIPMENT_REPLACEMENT_CREATES_A_REGENERATIVE_EXIT_STREAM_BUT_PUBLIC_LISTINGS_DO_NOT_REMOVE_INSPECTION_PROCESS_FIT_AND_LOGISTICS_COMPLEXITY."
+  ],
+  "source_urls": [
+    "https://hebfb.hebccw.cn/system/2026/07/15/102203791.shtml",
+    "https://market.cimim.cn/index.php?a=mf&c=solution&m=",
+    "https://jxt.hubei.gov.cn/bmdt/gzdt/202609/t20260923_6021594.shtml",
+    "https://jxt.hubei.gov.cn/bmdt/rdjj/202607/t20260707_5971893.shtml",
+    "https://chinajob.mohrss.gov.cn/h5/c/2026-08-25/594821.shtml",
+    "https://chinajob.mohrss.gov.cn/c/2026-09-21/608938.shtml",
+    "https://www.fjsj.com/show.aspx?Id=5339&ctlgid=144535",
+    "https://zzzyy.com/yl_oa_api/siteManageFront/page/siteResource/detail?recordId=d5bd3e563ff64889b2fb52d345c2c521&siteId=640553415504040004",
+    "https://zfxxgk.ndrc.gov.cn/wap/iteminfo.jsp?id=20582",
+    "https://hnsggzyjy.henan.gov.cn/jyxx/002003/002003007/20260825/6e85af135dfe44f3b40f1257f3c7a97e.html",
+    "https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/dfjy/202608/t20260827_1407224.html"
+  ]
+}
