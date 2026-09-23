@@ -1,0 +1,65 @@
+{
+  "schema_version": "research-evidence.v1",
+  "scan_id": "ATTRACTION_SCAN_135",
+  "as_of_date": "2026-09-23",
+  "primary_research_domain": "CHINA",
+  "evidence_packets": [
+    {
+      "formation_id": "ATTRACTION_SCAN_135-F1",
+      "sources": [
+        {
+          "source_id": "F1-S1",
+          "title": "Current judicial-sale republication - Chengdu Qingyang Guanghua Beisan Road 98 basement unit -115",
+          "url": "https://m.fang.com/fapai/cd/out_12665315.html",
+          "role": "CURRENT_COURT_NOTICE_PRICE_RENT_TERM_AND_EXPLICIT_POST_AUCTION_BUYER_RENT_RIGHT"
+        }
+      ],
+      "closure": "RETAINED_FOR_RESEARCH_ONLY. Current floor RMB650,304, rent RMB3,000/month, lease through 2030-11-20 and explicit post-auction tenant-to-buyer rent right clear the Scan135 public threshold at about 5.54% nominal gross yield. Tenant identity, current ledger/prepayment, deposit, arrears, tax/transfer, title-closing and inspection fields remain open; no commercial promotion or bid authority."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_135-F2",
+      "sources": [
+        {
+          "source_id": "F2-S1",
+          "title": "Current judicial-auction notice republication - Chengdu Jinjiang Xialianchi Street 16 commercial property",
+          "url": "https://www.sohu.com/a/1077804997_122455197",
+          "role": "CURRENT_PRICE_ANNUAL_RENT_PREPAYMENT_DEPOSIT_LEASE_TERM_AND_BUYER_SUCCESSION"
+        }
+      ],
+      "closure": "RMB3.6664m floor and RMB252,000 annual rent are explicit, but rent is prepaid through 2026-11-30 and lease ends 2027-02-28, independently failing the >=24 month future buyer receipt gate."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_135-F3",
+      "sources": [
+        {
+          "source_id": "F3-S1",
+          "title": "Current judicial-auction notice republication - Chengdu Longquanyi Aiming Street 51 unit 1",
+          "url": "https://www.sohu.com/a/1077514819_122455197",
+          "role": "CURRENT_LOW_PRICE_RENT_PREPAYMENT_DEPOSIT_LEASE_TERM_AND_BUYER_SUCCESSION"
+        }
+      ],
+      "closure": "RMB395,000 floor and latest RMB1,600 monthly rent are explicit, but rent is already paid through 2026-10-19 and lease ends 2027-07-19, leaving well under 24 months."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_135-F4",
+      "sources": [
+        {
+          "source_id": "F4-S1",
+          "title": "Current judicial change-sale republication - Shenzhen Huanan International Leather Phase II 1F-061",
+          "url": "https://m.fang.com/fapai/sz/out_12608258.html",
+          "role": "CURRENT_LOW_PRICE_NAMED_TENANT_LONG_LEASE_AND_EXPLICIT_BUYER_SUCCESSION_WITH_ATTACHMENT_ONLY_RENT"
+        }
+      ],
+      "closure": "RMB280,018.59 floor, named tenant and lease through 2030-11-14 with direct post-transfer buyer payment are explicit, but exact rent/payment/deposit values live only in the lease attachment and are not public-bound in the retrieved page, so economics remain UNKNOWN."
+    }
+  ],
+  "excluded_evidence": [
+    {
+      "source_id": "X1",
+      "title": "Current Chengdu Qingnian Road units 79/80 second-auction notice",
+      "url": "https://www.sohu.com/a/1078324400_122455197",
+      "role": "EXCLUDED_CURRENT_LONG_LEASE_BUT_CURRENT_FLOOR_REDACTED_AND_EXACT_RENT_NOT_PUBLIC"
+    }
+  ],
+  "scan_conclusion": "SCAN135_SINGLE_ASSET_CASHFLOW_PASS_ONE_RETAINED_RESEARCH_FORMATION_ZERO_COMMERCIAL_PROMOTION"
+}
