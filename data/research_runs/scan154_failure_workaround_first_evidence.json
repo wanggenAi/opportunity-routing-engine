@@ -1,0 +1,71 @@
+{
+  "scan_id": "ATTRACTION_SCAN_154",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "562d1fa02f48ab06a6cd674278e12a7a65b7e0e4",
+  "research_method": "FAILURE_WORKAROUND_FIRST_BROAD_REALITY_COMPARISON",
+  "sources": {
+    "AFTERSALES-WHITEPAPER-2026": {
+      "source_class": "CURRENT_ADVANCED_MANUFACTURING_OVERSEAS_LOCAL_SERVICE_GAP",
+      "url": "https://segg.sh.gov.cn/zxfw/yjbg/hybg/zgytyzysb/index/2954ed0d924a4441b1b1d4bb3d6acac6.pdf",
+      "date": "2026",
+      "claim": "The 2026 advanced-manufacturing globalization whitepaper says emerging markets increasingly require turnkey delivery plus long-term operations and local capability building; it specifically notes shortages in professional installation, commissioning and O&M capability in markets such as Indonesia."
+    },
+    "AFTERSALES-KAVOYA-20260923": {
+      "source_class": "CURRENT_CROSS_BORDER_LOCAL_SERVICE_NETWORK_COMPARATOR",
+      "url": "https://www.kavoya.com/",
+      "date": "2026-09-23",
+      "claim": "Kavoya currently markets cross-border local execution and after-sales/returns support by connecting Chinese businesses with local service providers, evidencing both a provider population and an incumbent service-network response."
+    },
+    "CHILDCARE-JINAN-20260415": {
+      "source_class": "CURRENT_OFFICIAL_CHILDCARE_CAPACITY_MISMATCH",
+      "url": "https://jnmhc.jinan.gov.cn/col/col117347/art/2026/art_80df8aaddcbb4a8aa9ee95c0eb79bf1c.html",
+      "date": "2026-04-15",
+      "claim": "Jinan reports 785 childcare institutions and 48,103 slots while explicitly stating that growing family demand for nearby, reliable and affordable childcare is still not precisely matched by the supply structure and that provider operating costs conflict with household affordability."
+    },
+    "CHILDCARE-JINAN-20260701": {
+      "source_class": "CURRENT_PUBLIC_CHILDCARE_DISCOVERY_RAIL",
+      "url": "https://jnmhc.jinan.gov.cn/col/col117348/art/2026/art_28122fe17133431781ece6060d5d7b7a.html",
+      "date": "2026-07-01",
+      "claim": "Jinan's 2026 childcare response confirms the same 785-institution/48,103-slot supply base and describes continued public-system work to improve inclusive childcare access, making government/public discovery and supervision part of the current control surface."
+    },
+    "DIGITAL-NDTPC-20260923": {
+      "source_class": "CURRENT_SME_DIGITAL_TRANSFORMATION_DIAGNOSIS_AND_MATCHING_PLATFORM",
+      "url": "https://ndtpc.com/",
+      "date": "2026-09-23",
+      "claim": "The Digital Transformation Promotion Center platform currently offers AI diagnosis, supply-demand matching and automatic solution/provider recommendation, reports 36,000+ enterprise diagnoses, and exposes thousands of solutions/cases plus AI matching."
+    },
+    "ELDERMEAL-CNR-20260127": {
+      "source_class": "CURRENT_DIGITAL_ELDER_MEAL_STANDARD_AND_DELIVERY_RAIL",
+      "url": "https://tech.cnr.cn/techph/20260127/t20260127_527507798.shtml",
+      "date": "2026-01-27",
+      "claim": "A 2026 national digital elderly-meal group standard defines the digital platform, service flow, data security, emergency response and personnel training; the associated platform-based program reported 25,841 participating stores and 331,000 meal deliveries."
+    },
+    "REPAIR-HUNAN-20260921": {
+      "source_class": "CURRENT_OFFICIAL_HOME_REPAIR_FAILURE_SIGNAL",
+      "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202609/t20260921_34069427.html",
+      "date": "2026-09-21",
+      "claim": "Hunan market regulators report concentrated complaints about on-site repair platforms involving low-price bait followed by surcharges, fabricated faults, fake or low-grade parts and opaque pricing, and advise consumers to verify official or reputable channels."
+    },
+    "REPAIR-SHANGHAI-20260622": {
+      "source_class": "CURRENT_PUBLIC_APPLIANCE_REPAIR_CONTROL_AND_TRUST_RAIL",
+      "url": "https://sww.sh.gov.cn/zwgkgfqtzcwj/20260622/d8cf674cb3ec49c38df285315f36ed12.html",
+      "date": "2026-06-22",
+      "claim": "Shanghai's 2026 appliance-repair program funds licensed technician training, public repair-platform contracted providers, authorization cleanup, dynamic credential data and complaint handling, showing that trust and provider-control rails already exist institutionally."
+    }
+  },
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_154-F1",
+    "ATTRACTION_SCAN_154-F2",
+    "ATTRACTION_SCAN_154-F3",
+    "ATTRACTION_SCAN_154-F4",
+    "ATTRACTION_SCAN_154-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "conclusion": "Failure/workaround-first search surfaced real unresolved pain in overseas equipment after-sales, childcare fit and home repair trust, but none currently has an operator-owned machine-resolvable callable edge; SME digital transformation and elderly meal access are already strongly platformized.",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN155"
+}
