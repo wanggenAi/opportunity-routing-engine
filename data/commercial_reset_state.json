@@ -17,8 +17,7 @@
     "ATTRACTION_SCAN_142-F1",
     "ATTRACTION_SCAN_143-F1",
     "ATTRACTION_SCAN_144-F1",
-    "ATTRACTION_SCAN_148-F1",
-    "ATTRACTION_SCAN_165-F1"
+    "ATTRACTION_SCAN_148-F1"
   ],
   "resolved_research_formations": [
     {
@@ -850,6 +849,11 @@
       "formation_id": "ATTRACTION_SCAN_165-F5",
       "verdict": "DEMOTED_REMOTE_CHINA_WAREHOUSE_RETURN_IS_ALREADY_A_CURRENT_SELF_SERVICE_WAREHOUSE_FEATURE",
       "resolved_date": "2026-09-24"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_165-F1",
+      "verdict": "DEMOTED_POLICY_OPTIONALITY_IS_REAL_BUT_DISTINCT_OPERATOR_CONTROL_MATCH_RESOLVABILITY_AND_CROSS_PORT_ACTION_RAIL_ARE_NOT_EVIDENCED",
+      "resolved_date": "2026-09-24"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
@@ -857,8 +861,8 @@
   "last_completed_scan_id": "ATTRACTION_SCAN_165",
   "last_resolved_formation_id": "ATTRACTION_SCAN_165-F5",
   "next_scan_id": "ATTRACTION_SCAN_166",
-  "current_research_action": "VALIDATE_SCAN165_EXACT_HEAD_THEN_CONSUME_REVERSIBLE_JEV_ROUTE_FOR_9610_CROSS_CUSTOMS_RETURN_PORT_ROUTING_OR_CLOSE",
-  "current_validation_state": "SCAN165_ONE_RETAINED_RESEARCH_BEACON_EXACT_HEAD_VALIDATION_PENDING",
+  "current_research_action": "FINAL_VALIDATE_SCAN165_ROUTE_OWNERSHIP_CLOSURE_THEN_ADVANCE_SCAN166_IF_ALLOWED",
+  "current_validation_state": "SCAN165_ALL_ROUTES_CLOSED_FINAL_EXACT_HEAD_VALIDATION_PENDING",
   "required_scan_controls": [
     "BROAD_REALITY",
     "ATTRACTION_FIRST_BEACON",
@@ -1739,7 +1743,12 @@
     "2026_9610_CROSS_CUSTOMS_RETURN_POLICY_CREATES_A_MOVABLE_PORT_DECISION_BASED_ON_COST_AND_TIME.",
     "PILOT_VOLUME_381300_RETURN_TICKETS_AND_CURRENT_JINAN_SHAANXI_CASES_PROVE_RECURRING_FLOW_AND_MATERIAL_ROUTE_ECONOMICS.",
     "RETURN_VALUE_RECOVERY_CBAM_DATA_HANDOFF_TOOLING_TRANSFER_AND_REMOTE_CHINA_WAREHOUSE_RETURN_ALREADY_HAVE_CURRENT_CONTROL_SURFACES.",
-    "THE_DECISIVE_UNKNOWN_IS_ROUTE_OWNERSHIP_AND_DATA_ACCESS_NOT_THE_EXISTENCE_OF_RETURN_DEMAND."
+    "THE_DECISIVE_UNKNOWN_IS_ROUTE_OWNERSHIP_AND_DATA_ACCESS_NOT_THE_EXISTENCE_OF_RETURN_DEMAND.",
+    "9610_POLICY_OPTIONALITY_IS_REAL_BUT_PUBLIC_SUCCESS_CASES_ARE_PLATFORM_LOGISTICS_SITE_CUSTOMS_COALITIONS_NOT_AN_OPEN_CROSS_PORT_MARKET.",
+    "HANGZHOU_CASE_IDENTIFIES_ALIEXPRESS_PLATFORM_AS_CHOOSING_THE_RETURN_PLAN_AND_PORT.",
+    "CURRENT_MULTI_PORT_9610_SYSTEMS_SUPPORT_EXECUTION_AND_DECLARATION_BUT_DO_NOT_PUBLICLY_EXPOSE_NEUTRAL_LIVE_CROSS_PORT_COST_SLA_CAPACITY_COMPARISON.",
+    "NO_UNIVERSAL_INCUMBENT_FOUND_DOES_NOT_PROVE_AN_OPERATOR_OWNABLE_EDGE_WHEN_ROUTE_DATA_AND_ACTION_RIGHTS_ARE_FRAGMENTED.",
+    "SCAN165_F1_CLOSES_ON_OPERATOR_CONTROL_MATCH_RESOLVABILITY_AND_ACTION_GATE_NOT_ON_LACK_OF_RETURN_DEMAND."
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -2451,7 +2460,7 @@
     "purchase_authorized": false
   },
   "last_completed_scan_file": "data/research_runs/attraction_scan_165.json",
-  "last_completed_scan_result": "ONE_RETAINED_HIGH_ATTRACTION_RESEARCH_BEACON_FOR_9610_CROSS_CUSTOMS_RETURN_PORT_ROUTING_FOUR_ADJACENT_ROUTES_CLOSED",
+  "last_completed_scan_result": "ZERO_RETENTION_AFTER_EXACT_ROUTE_OWNERSHIP_PREFLIGHT_POLICY_OPTIONALITY_NOT_EQUAL_OPERATOR_OWNABLE_CROSS_PORT_ROUTING",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
     "evidence_artifact": "data/research_runs/scan136_current_asset_receipts_evidence.json",
@@ -2937,7 +2946,7 @@
     "preflight_autonomous_continuation_allowed": true,
     "preflight_resolution": "CLOSED_DISTINCT_UNOWNED_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED_AFTER_CURRENT_OFFICIAL_CONTROL_SURFACE_PREFLIGHT"
   },
-  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN165_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_BEFORE_EXTERNAL_CONTACT",
+  "next_action": "FINAL_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN165_THEN_ADVANCE_SCAN166_IF_ALLOWED",
   "scan143_broad_reality_trust_routing": {
     "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "c4d3da4d67f067a512642beb272eeafa7fd0fa34",
@@ -4091,34 +4100,49 @@
     "merged_main_sha": "d64cdd82abc27e15506df83685a8abfbc4b9b7be"
   },
   "scan165_cross_customs_return_routing": {
-    "status": "INITIAL_SCAN_COMPLETE_ONE_RETAINED_RESEARCH_BEACON_EXACT_HEAD_VALIDATION_PENDING",
+    "status": "RESEARCH_QUEUE_CONSUMED_ALL_ROUTES_CLOSED_FINAL_EXACT_HEAD_VALIDATION_PENDING",
     "source_main_sha": "d64cdd82abc27e15506df83685a8abfbc4b9b7be",
     "canonical_scan_artifact": "data/research_runs/attraction_scan_165.json",
     "evidence_artifact": "data/research_runs/scan165_cross_customs_return_routing_evidence.json",
     "report": "docs/research/SCAN165_CROSS_CUSTOMS_RETURN_ROUTING_2026-09-24.md",
-    "high_attraction_beacons": [
-      "ATTRACTION_SCAN_165-F1"
-    ],
-    "retained_research_formations": [
-      "ATTRACTION_SCAN_165-F1"
-    ],
+    "high_attraction_beacons": [],
+    "retained_research_formations": [],
     "authoritative_closures": [
+      "ATTRACTION_SCAN_165-F1",
       "ATTRACTION_SCAN_165-F2",
       "ATTRACTION_SCAN_165-F3",
       "ATTRACTION_SCAN_165-F4",
       "ATTRACTION_SCAN_165-F5"
     ],
-    "decisive_unknown": "DO_SELLERS_OR_THEIR_LOGISTICS_PARTNERS_RETAIN_A_REAL_CROSS_PORT_CHOICE_WITH_COMPARABLE_ROUTE_DATA_OR_DO_PLATFORM_CARRIER_AND_SUPERVISED_SITE_CONTRACTS_EFFECTIVELY_PREASSIGN_THE_RETURN_PORT",
+    "decisive_unknown": "RESOLVED_NEGATIVE_POLICY_OPTIONALITY_DOES_NOT_ESTABLISH_OPERATOR_OWNABLE_CROSS_PORT_ROUTING",
     "bootstrap_queue": [],
     "active_commercial_candidate_count": 0,
     "active_transaction_unit_count": 0,
     "first_external_value_flow": "NOT_PROVEN",
-    "exact_head_validation_status": "PENDING",
-    "live_jev_status": "PENDING",
+    "exact_head_validation_status": "PENDING_FINAL_AFTER_RESEARCH_QUEUE",
+    "live_jev_status": "PENDING_FINAL_AFTER_RESEARCH_QUEUE",
     "next_scan_id": "ATTRACTION_SCAN_166",
-    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_CLOSE_F1",
+    "next_action": "FINAL_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_SCAN166_IF_ALLOWED",
     "commercial_promotion": false,
     "external_side_effects_performed": false,
-    "explicit_paid_tasks_downstream_only": true
+    "explicit_paid_tasks_downstream_only": true,
+    "exact_incumbent_preflight_artifact": "data/research_runs/scan165_9610_exact_incumbent_preflight.json",
+    "first_exact_head_sha": "feeda3f4af1d237429fa465aec3f5b8830ddb3b9",
+    "first_repository_ci_run_id": 35914094933,
+    "first_repository_ci_test_job_id": 107361057921,
+    "first_repository_ci_test_count": 845,
+    "first_jev_run_id": 35914095106,
+    "first_jev_artifact_id": 10773414928,
+    "first_jev_artifact_digest": "sha256:bbdfb5315b58f15e0ea259b43dc6c30ef8ecf43f3195cd77a14e8487a9e75dab",
+    "first_jev_effective_route_counts": {
+      "EXACT_INCUMBENT_PREFLIGHT": 1,
+      "NO_FURTHER_RESEARCH": 4
+    },
+    "first_jev_alignment_counts": {
+      "NO_AUTHORITATIVE_CLOSURE": 1,
+      "ALIGNS_WITH_AUTHORITATIVE_CLOSURE": 4
+    },
+    "first_jev_continuation": "EXECUTE_RESEARCH_QUEUE",
+    "exact_incumbent_preflight_result": "FAIL_DISTINCT_CALLABLE_ROUTING_SURFACE"
   }
 }
