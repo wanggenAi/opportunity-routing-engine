@@ -1,0 +1,83 @@
+{
+  "scan_id": "ATTRACTION_SCAN_158",
+  "as_of_date": "2026-09-24",
+  "source_main_sha": "828ee532ac999cabc5c22c0d1af6b1d0a205178f",
+  "research_method": "STATE_CHANGE_FIRST_OPEN_REMEDY_DISCOVERABILITY_COMPARISON",
+  "sources": {
+    "ENT-CHANGE-QD-20260508": {
+      "source_class": "CURRENT_ENTERPRISE_INFORMATION_CHANGE_ONE_THING_EXECUTION_RAIL",
+      "url": "https://www.qingdao.gov.cn/ywdt/zwzl/gxbcyjs/gxbcyjs_01/202605/t20260508_10587661.shtml",
+      "date": "2026-05-08",
+      "claim": "Qingdao's enterprise-information-change one-thing program links business registration changes to tax, social insurance, medical insurance, housing funds, seals and bank-account changes through one intake, shared data and automatic downstream synchronization."
+    },
+    "GRAD-MOE-20260112": {
+      "source_class": "CURRENT_GRADUATE_CROSS_CITY_JOB_SEARCH_EVENT_AND_SERVICE_RAIL",
+      "url": "https://www.moe.gov.cn/srcsite/A15/s3265/202601/t20260115_1426697.html",
+      "date": "2026-01-12",
+      "claim": "Four national bodies launched the 2026 graduate cross-region job-search action with verified extra rail discounts, youth-hostel accommodation support, employment services and 3-to-6-month follow-up after arrival."
+    },
+    "GRAD-BJ-RENT-20260610": {
+      "source_class": "CURRENT_GRADUATE_HOUSING_MATCHING_RAIL",
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202606/t20260610_4693625.html",
+      "date": "2026-06-10",
+      "claim": "Beijing's 2026 graduation-season housing program assembled more than 200,000 discounted rooms, with 101,000 already online, and connected graduates to rental operators through coordinated online and campus services."
+    },
+    "FX-ZJ-20260731": {
+      "source_class": "CURRENT_SME_FX_RISK_REPLENISHMENT_AND_BANK_SERVICE_GRAPH",
+      "url": "https://www.safe.gov.cn/zhejiang/2026/0731/2435.html",
+      "date": "2026-07-31",
+      "claim": "SAFE Zhejiang reports 130 banks able to handle FX derivatives and a service database covering 290,000 foreign-trade firms shared with banks for targeted hedging services."
+    },
+    "FX-FJ-20260901": {
+      "source_class": "CURRENT_DIGITAL_FX_HEDGING_EXECUTION_RAIL",
+      "url": "https://www.safe.gov.cn/fujian/2026/0901/2687.html",
+      "date": "2026-09-01",
+      "claim": "SAFE Fujian documents a bank-operated one-stop digital FX hedging platform for SMEs, outbound businesses and larger firms, placing product selection and execution inside regulated bank rails."
+    },
+    "CYBER-GZCA-20260518": {
+      "source_class": "CURRENT_INDUSTRIAL_CYBER_INCIDENT_EVENT_STREAM",
+      "url": "https://gzca.miit.gov.cn/zwgk/wlxxaq/gztz/art/2026/art_1866341a2aca47e59949d2250511b4d3.html",
+      "date": "2026-05-18",
+      "claim": "A 2026 industrial-internet security bulletin reports 1.7351 million attacks in one month affecting 779 industrial enterprises and describes regulator-issued remediation notices, while the affected enterprises are not publicly identified."
+    },
+    "CYBER-VULN-RULE-20260324": {
+      "source_class": "CURRENT_VULNERABILITY_DISCLOSURE_AND_REMEDIATION_RULE",
+      "url": "https://sdca.miit.gov.cn/zwgk/fgbz/art/2026/art_14248acd97f141fbb163b2cd85eaa1d8.html",
+      "date": "2026-03-24",
+      "claim": "Current vulnerability rules require network operators to verify and patch known vulnerabilities, require providers to support affected users, and prohibit publication of details about vulnerabilities in operators' live systems."
+    },
+    "CYBER-TENCENT-CURRENT": {
+      "source_class": "CURRENT_OPEN_COMMERCIAL_INCIDENT_RESPONSE_SERVICE",
+      "url": "https://cloud.tencent.com/product/irs",
+      "date": "2026-09-24",
+      "claim": "Tencent Cloud currently offers a commercial incident-response service covering attack-path reconstruction, containment and standardized emergency handling, evidencing an available third-party remediation market."
+    },
+    "LEAK-GZ-20260511": {
+      "source_class": "CURRENT_RESIDENTIAL_LEAK_MULTI_PARTY_REMEDIATION_CASE",
+      "url": "https://www.lw.gov.cn/zzzs/jddt/content/post_10807295.html",
+      "date": "2026-05-11",
+      "claim": "A Guangzhou residential leak dispute required resident complaint, community and property coordination, a qualified professional inspection organization to identify the leak source, and subsequent multi-party resolution."
+    },
+    "LEAK-HK-20260716": {
+      "source_class": "CURRENT_PRIVATE_BUILDING_LEAK_OWNER_REPAIR_AND_CONTRACTOR_RAIL",
+      "url": "https://www.info.gov.hk/gia/general/202607/16/P2026071600279.htm",
+      "date": "2026-07-16",
+      "claim": "Hong Kong's 2026 water-seepage procedure requires the responsible owner to arrange inspection and repair, provides contractor and mediator lists and reference prices, and escalates noncompliance through the joint government office."
+    }
+  },
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_158-F1",
+    "ATTRACTION_SCAN_158-F2",
+    "ATTRACTION_SCAN_158-F3",
+    "ATTRACTION_SCAN_158-F4",
+    "ATTRACTION_SCAN_158-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "conclusion": "No formation survives. The scan distinguishes open remediation supply from a callable market: cyber response has an open provider gate but nonpublic affected actors and expert diagnosis; residential leaks have open contractors but private actors and owner/property/regulator control.",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN159"
+}
