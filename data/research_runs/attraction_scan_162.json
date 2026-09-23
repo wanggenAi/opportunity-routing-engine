@@ -1,0 +1,910 @@
+{
+  "scan_id": "ATTRACTION_SCAN_162",
+  "as_of_date": "2026-09-24",
+  "status": "COMPLETE",
+  "search_mode": "PUBLIC_ENTERPRISE_SOLUTION_SEARCH_STATE_WITH_PUBLICATION_CHANNEL_OWNERSHIP_CHECK",
+  "source_main_sha": "682a65733877c3a51ed2e815aac24288a3b5dd9c",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_161",
+    "prior_pr": 476,
+    "prior_merged_main_sha": "682a65733877c3a51ed2e815aac24288a3b5dd9c",
+    "prior_final_exact_head": "f8da3db448b36035fd42e18296f1f2348912b53f",
+    "prior_repository_ci_run_id": 35893628264,
+    "prior_repository_ci_test_job_id": 107291985464,
+    "prior_repository_ci_test_count": 822,
+    "prior_live_jev_run_id": 35893628276,
+    "prior_live_jev_artifact_id": 10765264893,
+    "prior_live_jev_artifact_digest": "sha256:3322c3673a325ae28afbebda262743f681fcccd4b2c22742f79a3f0b28c34569",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scans142_161_domains_deduplicated_before_search": true
+  },
+  "broad_reality_domains_examined": [
+    "ENTERPRISE_PUBLIC_SMART_SPACE_SOLUTION_SEARCH",
+    "COLD_CHAIN_DIGITALIZATION_OPEN_SOLUTION_SEARCH",
+    "ENTERPRISE_SURROUNDING_PUBLIC_COMMERCIAL_SERVICE_GAP",
+    "INDUSTRIAL_AI_APPLICATION_SCENE_OPENING",
+    "PUBLIC_TECHNICAL_DEMAND_COLLECTION"
+  ],
+  "source_registry": {
+    "QIANHAI-SCENE-20260413": {
+      "source_class": "CURRENT_NAMED_ENTERPRISE_OPEN_SOLUTION_SEARCH_INSIDE_MATCHMAKING_EVENT",
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12732266.html",
+      "date": "2026-04-13",
+      "claim": "Qianhai's 2026 application-scenario meeting publicly presented Tencent headquarters smart-space/industrial-community/life-support/robotics needs and Qianhai Yueshi smart cold-chain needs, while the event and innovation center explicitly provide demand release, interpretation and supply-demand matching."
+    },
+    "LONGGANG-CGN-20260602": {
+      "source_class": "CURRENT_NAMED_ENTERPRISE_SERVICE_GAP_WITH_DEPARTMENT_OWNER_ASSIGNED",
+      "url": "https://www.lg.gov.cn/lgfgj/gkmlpt/content/12/12817/post_12817391.html",
+      "date": "2026-06-02",
+      "claim": "CGN Intelligent Technology (Shenzhen) publicly asked for stronger surrounding public and commercial service support during a Longgang government visit; departments responded on site, established a long-term coordination mechanism and committed to follow the resolution."
+    },
+    "HUANGPU-SCENE-20260731": {
+      "source_class": "CURRENT_NAMED_OPEN_AI_INDUSTRIAL_SCENE_WITH_GOVERNMENT_COORDINATION",
+      "url": "https://www.hp.gov.cn/gkmlpt/content/10/10946/post_10946993.html",
+      "date": "2026-07-31",
+      "claim": "Huangpu published a 2026 AI-for-industrialization scenario list with named opening units such as Guangzhou Kaicheng Technology and directed responsible departments to support technology innovation, supply-demand matching and project implementation."
+    },
+    "BEIJING-SCENES-20260912": {
+      "source_class": "CURRENT_CITYWIDE_PUBLIC_DEMAND_CAPABILITY_MATCHING_SYSTEM",
+      "url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202609/t20260912_4860917.html",
+      "date": "2026-09-12",
+      "claim": "Beijing released three application-scenario lists: 40 demand items, 160 capability items and 40 demonstration items; the stated purpose is to match real problems with technologies/solutions and create a supply-demand loop."
+    },
+    "DALIAN-DEMAND-20260401": {
+      "source_class": "CURRENT_ENTERPRISE_TECHNICAL_DEMAND_INTAKE_WITH_PLANNED_MATCHMAKING",
+      "url": "https://www.dlhitech.gov.cn/news/view_78690.html",
+      "date": "2026-04-01",
+      "claim": "Dalian High-tech Zone solicits enterprise technical and R&D cooperation demand, asks what firms want to connect with, and says it will build demand lists and organize recurring matching activities."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_162-F1",
+      "title": "Named enterprise publicly opening smart-space and robotics solution needs -> technology and solution providers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_NAMED_OPEN_DEMAND_INSIDE_OFFICIAL_MATCHMAKING_CHANNEL",
+      "evidence_summary": "Tencent headquarters exposes real solution-search demand, but the same Qianhai event and application-scenario center own release, interpretation and precise matching. The demand is open; the connection edge is not unowned.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "b_voluntary_motion": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "state_dependent_value_jump": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "decision_window": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "bridge_compression": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "activation_ease": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "self_propulsion": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "operator_control": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "a_discoverability": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "b_discoverability": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "match_resolvability": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "action_gate_callability": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "a_population_replenishment": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "b_population_replenishment": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "recurring_connection_pressure": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "recurring_missing_edge": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "recurring_event_source": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "QIANHAI-SCENE-20260413"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "owner_state": "OFFICIAL_APPLICATION_SCENARIO_MATCHMAKING_CHANNEL_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_TENCENT_OPEN_SOLUTION_SEARCH_IS_REAL_BUT_PUBLICATION_CHANNEL_ITSELF_OWNS_MATCHMAKING_AND_TECH_MATCH_REMAINS_EXPERT_BOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_162-F2",
+      "title": "Named cold-chain operator publicly opening digitalization pain points -> smart warehousing and cold-chain solution providers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_NAMED_COLD_CHAIN_DEMAND_INSIDE_OFFICIAL_MATCHMAKING_CHANNEL",
+      "evidence_summary": "Qianhai Yueshi publicly describes cold-chain digitalization, smart warehousing and efficient-circulation pain points and seeks partners. Yet it does so inside a purpose-built matching event whose explicit function is to connect demand and supply. A new router would duplicate the active channel, and solution selection is technical rather than nonexpert.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "b_voluntary_motion": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "state_dependent_value_jump": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "decision_window": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "bridge_compression": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "activation_ease": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "self_propulsion": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "operator_control": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "a_discoverability": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "b_discoverability": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "match_resolvability": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "action_gate_callability": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "a_population_replenishment": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "b_population_replenishment": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "recurring_connection_pressure": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "recurring_missing_edge": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "recurring_event_source": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "QIANHAI-SCENE-20260413"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "QIANHAI-SCENE-20260413"
+          ],
+          "owner_state": "OFFICIAL_APPLICATION_SCENARIO_MATCHMAKING_CHANNEL_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_COLD_CHAIN_OPEN_NEED_IS_EMBEDDED_IN_EXISTING_QIANHAI_MATCHING_RAIL_AND_REQUIRES_TECHNICAL_SOLUTION_SELECTION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_162-F3",
+      "title": "Named enterprise asking for surrounding public and commercial-service support -> local service providers and public-service resources",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_NAMED_BROAD_SERVICE_GAP_WITH_GOVERNMENT_OWNER_ASSIGNED",
+      "evidence_summary": "CGN Intelligent Technology states a real surrounding-service need, but it is broad rather than a modular output and the departments present responded immediately, established a long-term coordination mechanism and retained follow-up ownership.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 1,
+          "state_dependent_value_jump": 2,
+          "decision_window": 2,
+          "bridge_compression": 1,
+          "activation_ease": 1,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 1,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 1,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "b_voluntary_motion": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "state_dependent_value_jump": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "decision_window": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "bridge_compression": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "activation_ease": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "self_propulsion": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "operator_control": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "a_discoverability": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "b_discoverability": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "match_resolvability": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "action_gate_callability": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "a_population_replenishment": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "b_population_replenishment": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "recurring_connection_pressure": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "recurring_missing_edge": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "recurring_event_source": [
+            "LONGGANG-CGN-20260602"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LONGGANG-CGN-20260602"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LONGGANG-CGN-20260602"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LONGGANG-CGN-20260602"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "LONGGANG-CGN-20260602"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LONGGANG-CGN-20260602"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "LONGGANG-CGN-20260602"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LONGGANG-CGN-20260602"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LONGGANG-CGN-20260602"
+          ]
+        },
+        "counterparty_population": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "LONGGANG-CGN-20260602"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LONGGANG-CGN-20260602"
+          ],
+          "owner_state": "GOVERNMENT_LONG_TERM_COORDINATION_MECHANISM_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_CGN_SERVICE_GAP_IS_PUBLIC_BUT_NON_MODULAR_AND_DEPARTMENTS_ALREADY_OWN_THE_RESOLUTION_MECHANISM"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_162-F4",
+      "title": "Named industrial organizations opening AI application scenarios -> AI solution providers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_OFFICIAL_NAMED_SCENE_LIST_WITH_SUPPLY_DEMAND_SUPPORT",
+      "evidence_summary": "Huangpu's current AI industrial scenario list exposes named opening units and concrete problems, but the government notice itself instructs departments to support supply-demand matching and project implementation. The publication channel is an incumbent matching rail.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "b_voluntary_motion": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "state_dependent_value_jump": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "decision_window": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "bridge_compression": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "activation_ease": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "self_propulsion": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "operator_control": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "a_discoverability": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "b_discoverability": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "match_resolvability": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "action_gate_callability": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "a_population_replenishment": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "b_population_replenishment": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "recurring_connection_pressure": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "recurring_missing_edge": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "recurring_event_source": [
+            "HUANGPU-SCENE-20260731"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HUANGPU-SCENE-20260731"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HUANGPU-SCENE-20260731"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HUANGPU-SCENE-20260731"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "HUANGPU-SCENE-20260731"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HUANGPU-SCENE-20260731"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "HUANGPU-SCENE-20260731"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HUANGPU-SCENE-20260731"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HUANGPU-SCENE-20260731"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HUANGPU-SCENE-20260731"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HUANGPU-SCENE-20260731"
+          ],
+          "owner_state": "GOVERNMENT_SCENARIO_LIST_AND_MATCHING_SUPPORT_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_HUANGPU_AI_SCENES_HAVE_NAMED_A_BUT_OFFICIAL_SCENE_PROGRAM_ALREADY_OWNS_MATCHING_AND_IMPLEMENTATION_SUPPORT"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_162-F5",
+      "title": "Enterprises entering public technical-demand collection -> research and technology counterparties",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_RECURRING_TECH_DEMAND_INTAKE_WITH_EXPLICIT_MATCHMAKING_OWNER",
+      "evidence_summary": "Dalian's program creates a recurring public intake state for technical and R&D cooperation needs, but enterprise identities are not yet public in the notice and the collecting agency explicitly promises to organize matching. Beijing's current demand/capability/demo lists independently confirm that this publication model is already a supply-demand infrastructure pattern.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 2,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 2,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 1,
+          "b_discoverability": 3,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "b_voluntary_motion": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "state_dependent_value_jump": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "decision_window": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "bridge_compression": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "activation_ease": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "self_propulsion": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "operator_control": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "a_discoverability": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "b_discoverability": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "match_resolvability": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "action_gate_callability": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "a_population_replenishment": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "b_population_replenishment": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "recurring_connection_pressure": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "recurring_missing_edge": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "recurring_event_source": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "DALIAN-DEMAND-20260401",
+          "BEIJING-SCENES-20260912"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "DALIAN-DEMAND-20260401"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BEIJING-SCENES-20260912"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "DALIAN-DEMAND-20260401",
+            "BEIJING-SCENES-20260912"
+          ],
+          "owner_state": "DEMAND_LIST_OWNER_ORGANIZES_MATCHMAKING"
+        }
+      },
+      "verdict": "DEMOTED_PUBLIC_TECH_DEMAND_COLLECTION_IS_ALREADY_A_MATCHING_INFRASTRUCTURE_AND_NOTICE_DOES_NOT_EXPOSE_NAMED_A_ACTORS"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "near_miss_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "external_contact_performed": false,
+    "money_moved": false
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_163",
+  "next_search_boundary": "INDEPENDENT_FIRST_PARTY_ENTERPRISE_DISCLOSURE_OF_A_MOVABLE_NEED_WITH_STANDARDIZED_OPEN_B_AND_NO_PUBLICATION_CHANNEL_MATCHMAKING_OR_ASSIGNED_RESOLUTION_OWNER",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN163",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "prior_domain_deduplication_checked": true,
+    "state_change_first_search": true,
+    "decisive_action_gate_owner_checked": true,
+    "public_affected_actor_discoverability_checked": true,
+    "standardizable_nonexpert_match_checked": true,
+    "open_remedy_not_missing_edge_checked": true,
+    "pre_solution_assignment_event_required": true,
+    "existing_public_or_incumbent_rail_checked": true,
+    "publication_channel_matchmaking_owner_checked": true,
+    "independent_first_party_source_preferred_next": true,
+    "downstream_procurement_used_only_as_validation": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "OPEN_DEMAND_NE_UNOWNED_EDGE",
+    "PUBLICATION_CHANNEL_CAN_BE_THE_MATCHING_OWNER",
+    "APPLICATION_SCENE_PROGRAMS_ARE_EXISTING_SUPPLY_DEMAND_INFRASTRUCTURE",
+    "DEPARTMENT_FOLLOWUP_ASSIGNMENT_CLOSES_UNOWNED_WINDOW",
+    "NEXT_SCAN_MUST_PREFER_INDEPENDENT_FIRST_PARTY_ENTERPRISE_DISCLOSURES"
+  ],
+  "source_urls": [
+    "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12732266.html",
+    "https://www.lg.gov.cn/lgfgj/gkmlpt/content/12/12817/post_12817391.html",
+    "https://www.hp.gov.cn/gkmlpt/content/10/10946/post_10946993.html",
+    "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202609/t20260912_4860917.html",
+    "https://www.dlhitech.gov.cn/news/view_78690.html"
+  ]
+}

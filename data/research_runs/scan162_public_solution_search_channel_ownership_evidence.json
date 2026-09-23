@@ -1,0 +1,58 @@
+{
+  "scan_id": "ATTRACTION_SCAN_162",
+  "as_of_date": "2026-09-24",
+  "boundary": "Public enterprise solution-search states screened for whether the publication channel itself owns matching or resolution.",
+  "source_registry": {
+    "QIANHAI-SCENE-20260413": {
+      "source_class": "CURRENT_NAMED_ENTERPRISE_OPEN_SOLUTION_SEARCH_INSIDE_MATCHMAKING_EVENT",
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12732266.html",
+      "date": "2026-04-13",
+      "claim": "Qianhai's 2026 application-scenario meeting publicly presented Tencent headquarters smart-space/industrial-community/life-support/robotics needs and Qianhai Yueshi smart cold-chain needs, while the event and innovation center explicitly provide demand release, interpretation and supply-demand matching."
+    },
+    "LONGGANG-CGN-20260602": {
+      "source_class": "CURRENT_NAMED_ENTERPRISE_SERVICE_GAP_WITH_DEPARTMENT_OWNER_ASSIGNED",
+      "url": "https://www.lg.gov.cn/lgfgj/gkmlpt/content/12/12817/post_12817391.html",
+      "date": "2026-06-02",
+      "claim": "CGN Intelligent Technology (Shenzhen) publicly asked for stronger surrounding public and commercial service support during a Longgang government visit; departments responded on site, established a long-term coordination mechanism and committed to follow the resolution."
+    },
+    "HUANGPU-SCENE-20260731": {
+      "source_class": "CURRENT_NAMED_OPEN_AI_INDUSTRIAL_SCENE_WITH_GOVERNMENT_COORDINATION",
+      "url": "https://www.hp.gov.cn/gkmlpt/content/10/10946/post_10946993.html",
+      "date": "2026-07-31",
+      "claim": "Huangpu published a 2026 AI-for-industrialization scenario list with named opening units such as Guangzhou Kaicheng Technology and directed responsible departments to support technology innovation, supply-demand matching and project implementation."
+    },
+    "BEIJING-SCENES-20260912": {
+      "source_class": "CURRENT_CITYWIDE_PUBLIC_DEMAND_CAPABILITY_MATCHING_SYSTEM",
+      "url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202609/t20260912_4860917.html",
+      "date": "2026-09-12",
+      "claim": "Beijing released three application-scenario lists: 40 demand items, 160 capability items and 40 demonstration items; the stated purpose is to match real problems with technologies/solutions and create a supply-demand loop."
+    },
+    "DALIAN-DEMAND-20260401": {
+      "source_class": "CURRENT_ENTERPRISE_TECHNICAL_DEMAND_INTAKE_WITH_PLANNED_MATCHMAKING",
+      "url": "https://www.dlhitech.gov.cn/news/view_78690.html",
+      "date": "2026-04-01",
+      "claim": "Dalian High-tech Zone solicits enterprise technical and R&D cooperation demand, asks what firms want to connect with, and says it will build demand lists and organize recurring matching activities."
+    }
+  },
+  "retained_research_formations": [],
+  "near_miss_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_162-F1",
+    "ATTRACTION_SCAN_162-F2",
+    "ATTRACTION_SCAN_162-F3",
+    "ATTRACTION_SCAN_162-F4",
+    "ATTRACTION_SCAN_162-F5"
+  ],
+  "rejected_inferences": [
+    "PUBLIC_OPEN_DEMAND_DOES_NOT_IMPLY_UNOWNED_MATCHING",
+    "APPLICATION_SCENE_LIST_DOES_NOT_CREATE_A_NEW_ROUTER_WHEN_ITS_PROGRAM_ORGANIZES_SUPPLY_DEMAND_MATCHING",
+    "GOVERNMENT_FOLLOWUP_MECHANISM_IS_NOT_OPERATOR_CONTROL",
+    "DEMAND_COLLECTION_NOTICE_WITHOUT_NAMED_FIRMS_IS_NOT_PUBLIC_NAMED_A_SIDE"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "conclusion": "Scan162 closes five public-solution-search patterns because the publication/scene channel or government mechanism already owns matching/resolution, or the notice does not expose a named A-side. Next scan moves to independent first-party enterprise disclosures."
+}
