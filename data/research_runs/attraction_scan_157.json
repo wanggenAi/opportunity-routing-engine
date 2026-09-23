@@ -1,0 +1,861 @@
+{
+  "scan_id": "ATTRACTION_SCAN_157",
+  "as_of_date": "2026-09-24",
+  "status": "COMPLETE",
+  "search_mode": "FRESH_BROAD_CURRENT_REALITY_EVENT_TRIGGER_UNOWNED_ACTION_GATE_AFTER_SCAN156_FINAL_CLOSURE",
+  "source_main_sha": "e32757d5ce8200a4bc5bfdefed792fe7c6314a26",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_156",
+    "prior_pr": 470,
+    "prior_merged_main_sha": "e32757d5ce8200a4bc5bfdefed792fe7c6314a26",
+    "prior_final_exact_head": "b5496213904f69e58b78adcdf39afbdc1cbda0f2",
+    "prior_repository_ci_run_id": 35886932220,
+    "prior_repository_ci_test_job_id": 107269347142,
+    "prior_repository_ci_test_count": 793,
+    "prior_live_jev_run_id": 35886932262,
+    "prior_live_jev_artifact_id": 10763196922,
+    "prior_live_jev_artifact_digest": "sha256:fd4cffc2cba1611735cf99bf2b31b1b7c5e990b74d9d45fb8b3be68a9222a7cb",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scans142_156_domains_deduplicated_before_search": true
+  },
+  "broad_reality_domains_examined": [
+    "ENTERPRISE_REGISTERED_INFORMATION_CHANGE",
+    "GRADUATE_CROSS_CITY_JOB_SEARCH_TRANSITION",
+    "SME_FX_EXPOSURE_EVENT",
+    "COURT_SUPERVISED_BANKRUPTCY_ASSET_DISPOSITION",
+    "VEHICLE_RECALL_REMEDIATION_EVENT"
+  ],
+  "source_registry": {
+    "ENT-CHANGE-QD-20260508": {
+      "source_class": "CURRENT_ENTERPRISE_INFORMATION_CHANGE_ONE_THING_EXECUTION_RAIL",
+      "url": "https://www.qingdao.gov.cn/ywdt/zwzl/gxbcyjs/gxbcyjs_01/202605/t20260508_10587661.shtml",
+      "date": "2026-05-08",
+      "claim": "Qingdao's 2026 enterprise-information-change program links business registration changes to tax, social insurance, medical insurance, housing funds, seals and bank-account changes through one intake, shared data and automatic downstream synchronization."
+    },
+    "GRAD-MOE-20260112": {
+      "source_class": "CURRENT_GRADUATE_CROSS_CITY_JOB_SEARCH_EVENT_AND_SERVICE_RAIL",
+      "url": "https://www.moe.gov.cn/srcsite/A15/s3265/202601/t20260115_1426697.html",
+      "date": "2026-01-12",
+      "claim": "Four national bodies launched the 2026 graduate cross-region job-search action with verified extra rail discounts, youth-hostel accommodation support, employment services and 3-to-6-month follow-up after arrival."
+    },
+    "GRAD-BJ-RENT-20260610": {
+      "source_class": "CURRENT_GRADUATE_HOUSING_MATCHING_RAIL",
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202606/t20260610_4693625.html",
+      "date": "2026-06-10",
+      "claim": "Beijing's 2026 graduation-season housing program assembled more than 200,000 discounted rooms, had 101,000 already online, and connected graduates to rental operators through coordinated online and campus services."
+    },
+    "FX-ZJ-20260731": {
+      "source_class": "CURRENT_SME_FX_RISK_REPLENISHMENT_AND_BANK_SERVICE_GRAPH",
+      "url": "https://www.safe.gov.cn/zhejiang/2026/0731/2435.html",
+      "date": "2026-07-31",
+      "claim": "SAFE Zhejiang reports 130 banks able to handle FX derivatives and a service database covering 290,000 foreign-trade firms that is shared with banks for targeted hedging services."
+    },
+    "FX-FJ-20260901": {
+      "source_class": "CURRENT_DIGITAL_FX_HEDGING_EXECUTION_RAIL",
+      "url": "https://www.safe.gov.cn/fujian/2026/0901/2687.html",
+      "date": "2026-09-01",
+      "claim": "SAFE Fujian documents a bank-operated one-stop digital FX hedging platform for SMEs, outbound businesses and larger firms, placing product selection and execution inside regulated bank rails."
+    },
+    "BANKRUPT-BJ-20260804": {
+      "source_class": "CURRENT_BANKRUPTCY_ASSET_DISPOSITION_EVENT_AND_AUCTION_RAIL",
+      "url": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=4615e466812a4778a6f48c1e85e4bcfa",
+      "date": "2026-08-04",
+      "claim": "A current bankruptcy announcement shows the court-supervised administrator using JD's bankruptcy auction platform, with bidder identity, eligibility, auction and handover governed by the administrator and platform."
+    },
+    "BANKRUPT-SH-20260908": {
+      "source_class": "CURRENT_BANKRUPTCY_RECEIVABLES_AUCTION_EVENT",
+      "url": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=f4ed10a8150f416c9a395309b68bbd6b",
+      "date": "2026-09-08",
+      "claim": "A Shanghai bankruptcy case published a second auction of seven bundled receivables on JD's bankruptcy liquidation platform under the court-appointed administrator, showing current recurring asset-disposition events and an owned execution channel."
+    },
+    "RECALL-GUIDE-20260319": {
+      "source_class": "CURRENT_VEHICLE_RECALL_OWNER_ACTION_GUIDE",
+      "url": "https://www.samr.gov.cn/xw/sj/art/2026/art_0654a460076c41cabf3f7d2a2d742a58.html",
+      "date": "2026-03-19",
+      "claim": "SAMR's 2026 vehicle-recall guide directs owners to determine scope by model, production date and VIN, consult the producer or 4S shop, and complete recall repair through the producer-led recall system."
+    },
+    "RECALL-BYD-20260918": {
+      "source_class": "CURRENT_LARGE_VEHICLE_RECALL_AND_AUTHORIZED_REPAIR_RAIL",
+      "url": "https://www.samr.gov.cn/zlfzj/sjdt/gzdt/art/2026/art_609e95c94ad348a5afd347fa5cea32d4.html",
+      "date": "2026-09-18",
+      "claim": "A current BYD recall covers multiple large vehicle populations; the producers notify affected users and commission authorized dealers to perform the remediation free of charge."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_157-F1",
+      "title": "Enterprises completing registered-information changes -> downstream public agencies and banks needing synchronized updated records",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_EVENT_TRIGGER_AND_CONTROL_SURFACE_SIGNAL",
+      "evidence_summary": "Enterprise registration changes recur and create a time-bounded synchronization event across tax, social insurance, medical insurance, housing funds, seals and banking. Current 2026 implementation already pushes registration changes across agencies and into authorized bank-account change workflows, so the decisive synchronization rail is public-system owned.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 2,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "b_voluntary_motion": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "state_dependent_value_jump": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "decision_window": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "bridge_compression": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "activation_ease": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "self_propulsion": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "operator_control": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "a_discoverability": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "b_discoverability": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "match_resolvability": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "action_gate_callability": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "a_population_replenishment": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "b_population_replenishment": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "recurring_connection_pressure": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "recurring_missing_edge": [
+            "ENT-CHANGE-QD-20260508"
+          ],
+          "recurring_event_source": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_ENTERPRISE_INFORMATION_CHANGE_EVENT_RECURS_RELIABLY_BUT_ONE_STOP_GOVERNMENT_DATA_PUSH_AND_AUTHORIZED_BANK_CHANGE_ALREADY_OWN_CROSS_SYSTEM_EXECUTION",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ENT-CHANGE-QD-20260508"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "ENT-CHANGE-QD-20260508"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_157-F2",
+      "title": "Graduates entering cross-city job-search and onboarding windows -> transport lodging housing and employment-support providers with immediately usable capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_EVENT_TRIGGER_AND_CONTROL_SURFACE_SIGNAL",
+      "evidence_summary": "The graduation transition creates a recurring, time-bounded multi-service need, but 2026 public programs already bind rail eligibility, youth-hostel accommodation, employment follow-up and large pools of verified discounted rental inventory. The remaining bundle is coordination across already-owned rails rather than an evidenced unowned action gate.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "b_voluntary_motion": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "state_dependent_value_jump": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "decision_window": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "bridge_compression": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "activation_ease": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "self_propulsion": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "operator_control": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "a_discoverability": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "b_discoverability": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "match_resolvability": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "action_gate_callability": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "a_population_replenishment": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "b_population_replenishment": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "recurring_connection_pressure": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "recurring_missing_edge": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ],
+          "recurring_event_source": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_GRADUATE_CROSS_CITY_TRANSITION_FIELD_REAL_BUT_12306_YOUTH_HOSTEL_HOUSING_AND_EMPLOYMENT_PROGRAMS_ALREADY_OWN_CORE_ACCESS_AND_QUALIFICATION_RAILS",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GRAD-MOE-20260112",
+            "GRAD-BJ-RENT-20260610"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "GRAD-MOE-20260112",
+          "GRAD-BJ-RENT-20260610"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_157-F3",
+      "title": "Foreign-trade SMEs acquiring fresh FX exposure -> banks able to quote and execute suitable hedging instruments",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_EVENT_TRIGGER_AND_CONTROL_SURFACE_SIGNAL",
+      "evidence_summary": "Export orders and foreign-currency receivables repeatedly regenerate FX exposure. The service graph is already institutionally assembled: SAFE shares a 290,000-enterprise service list with 130 derivative-capable banks, while current bank platforms digitize hedging service and execution. Quote, suitability, credit and settlement remain bank-controlled.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "b_voluntary_motion": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "state_dependent_value_jump": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "decision_window": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "bridge_compression": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "activation_ease": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "self_propulsion": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "operator_control": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "a_discoverability": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "b_discoverability": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "match_resolvability": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "action_gate_callability": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "a_population_replenishment": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "b_population_replenishment": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "recurring_connection_pressure": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "recurring_missing_edge": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ],
+          "recurring_event_source": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_FX_RISK_EVENT_FIELD_REGENERATIVE_BUT_BANKS_AND_REGULATORY_ENTERPRISE_DATABASES_ALREADY_OWN_RISK_ASSESSMENT_QUOTE_CREDIT_EXECUTION_AND_SETTLEMENT",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FX-ZJ-20260731",
+            "FX-FJ-20260901"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "FX-ZJ-20260731",
+          "FX-FJ-20260901"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_157-F4",
+      "title": "Companies entering court-supervised bankruptcy liquidation -> qualified buyers able to absorb assets through lawful disposition",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_EVENT_TRIGGER_AND_CONTROL_SURFACE_SIGNAL",
+      "evidence_summary": "Bankruptcy creates a crisp public state change and repeated asset-disposition pressure, but current cases show the court-appointed administrator selecting and governing the auction process while authorized online auction platforms own bidder identity, bidding and transaction rails. The public event does not expose an independent action gate.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "b_voluntary_motion": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "state_dependent_value_jump": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "decision_window": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "bridge_compression": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "activation_ease": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "self_propulsion": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "operator_control": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "a_discoverability": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "b_discoverability": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "match_resolvability": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "action_gate_callability": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "a_population_replenishment": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "b_population_replenishment": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "recurring_connection_pressure": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "recurring_missing_edge": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ],
+          "recurring_event_source": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_BANKRUPTCY_ASSET_EVENT_FIELD_REGENERATIVE_BUT_COURT_APPOINTED_MANAGERS_AND_AUTHORIZED_AUCTION_PLATFORMS_ALREADY_OWN_LISTING_DILIGENCE_BIDDING_AND_SETTLEMENT",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "BANKRUPT-BJ-20260804",
+            "BANKRUPT-SH-20260908"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "BANKRUPT-BJ-20260804",
+          "BANKRUPT-SH-20260908"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_157-F5",
+      "title": "Vehicle owners newly affected by published recall events -> producers and authorized service networks able to complete mandated remediation",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_EVENT_TRIGGER_AND_CONTROL_SURFACE_SIGNAL",
+      "evidence_summary": "Recall publication creates a highly observable, time-sensitive state change, including large current affected populations. Yet the national recall system identifies scope by VIN and the producer or authorized 4S network owns notification and free remediation. Discovery is public, but the decisive remedy rail is explicitly accountable and already owned.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "b_voluntary_motion": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "state_dependent_value_jump": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "decision_window": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "bridge_compression": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "activation_ease": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "self_propulsion": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "operator_control": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "a_discoverability": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "b_discoverability": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "match_resolvability": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "action_gate_callability": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "a_population_replenishment": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "b_population_replenishment": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "recurring_connection_pressure": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "recurring_missing_edge": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ],
+          "recurring_event_source": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_VEHICLE_RECALL_EVENT_FIELD_REGENERATIVE_BUT_PRODUCERS_AUTHORIZED_DEALERS_AND_NATIONAL_RECALL_SYSTEM_ALREADY_OWN_SCOPE_IDENTIFICATION_NOTIFICATION_AND_REPAIR",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECALL-GUIDE-20260319",
+            "RECALL-BYD-20260918"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "RECALL-GUIDE-20260319",
+          "RECALL-BYD-20260918"
+        ]
+      }
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Five fresh event-triggered fields were screened after cross-scan deduplication. Each exposes a real recurring state change, but all five decisive execution or remediation rails are already owned by accountable public, financial, court-supervised or producer networks. No unowned independently callable action gate survives."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_158",
+  "next_search_boundary": "AFTER_EXACT_HEAD_VALIDATION_KEEP_PUBLIC_EVENT_OBSERVABILITY_BUT_REQUIRE_FRAGMENTED_REMEDIATION_ACROSS_INDEPENDENT_PARTIES_WITH_NO_LEGAL_ACCOUNTABLE_INCUMBENT_OWNING_THE_DECISIVE_ACTION",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN158",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scans142_156_domains_deduplicated_before_search": true,
+    "event_trigger_not_assumed_to_imply_unowned_action_gate": true,
+    "incumbent_presence_not_used_as_automatic_kill": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "PUBLIC_EVENT_OBSERVABILITY_DOES_NOT_IMPLY_AN_UNOWNED_ACTION_GATE.",
+    "ONE_STOP_PUBLIC_ADMINISTRATION_CAN_REMOVE_CROSS_SYSTEM_SYNCHRONIZATION_FRICTION_WITHOUT_CREATING_AN_INDEPENDENT_ROUTER_ROLE.",
+    "FINANCIAL_AND_COURT_SUPERVISED_EVENTS_MAY_HAVE_STRONG_BILATERAL_MOTION_WHILE_ACCOUNTABLE_INSTITUTIONS_STILL_OWN_QUOTE_APPROVAL_AUCTION_AND_SETTLEMENT.",
+    "RECALL_EVENTS_SHOW_THAT_PRECISE_TRIGGER_IDENTIFICATION_CAN_COEXIST_WITH_PRODUCER_OWNED_REMEDIATION.",
+    "NEXT_SEARCH_SHOULD_REQUIRE_FRAGMENTED_REMEDIATION_ACROSS_INDEPENDENT_PARTIES_AND_NO_ACCOUNTABLE_INCUMBENT_OWNER."
+  ],
+  "source_urls": [
+    "https://www.qingdao.gov.cn/ywdt/zwzl/gxbcyjs/gxbcyjs_01/202605/t20260508_10587661.shtml",
+    "https://www.moe.gov.cn/srcsite/A15/s3265/202601/t20260115_1426697.html",
+    "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202606/t20260610_4693625.html",
+    "https://www.safe.gov.cn/zhejiang/2026/0731/2435.html",
+    "https://www.safe.gov.cn/fujian/2026/0901/2687.html",
+    "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=4615e466812a4778a6f48c1e85e4bcfa",
+    "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=f4ed10a8150f416c9a395309b68bbd6b",
+    "https://www.samr.gov.cn/xw/sj/art/2026/art_0654a460076c41cabf3f7d2a2d742a58.html",
+    "https://www.samr.gov.cn/zlfzj/sjdt/gzdt/art/2026/art_609e95c94ad348a5afd347fa5cea32d4.html"
+  ]
+}
