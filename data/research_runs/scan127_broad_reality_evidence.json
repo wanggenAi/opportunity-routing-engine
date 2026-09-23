@@ -1,0 +1,121 @@
+{
+  "schema_version": "scan127-broad-reality-evidence.v1",
+  "as_of_date": "2026-09-23",
+  "scan_id": "ATTRACTION_SCAN_127",
+  "method": "PRECEDENT_CALIBRATED_FORMATION_DIVERSE_BROAD_REALITY_WITH_FRESH_CURRENT_OFFICIAL_EVIDENCE",
+  "prior_exclusion_boundary": [
+    "DO_NOT_REUSE_SCAN124_OR_SCAN125_FORMATIONS_OR_PRIMARY_SIGNALS",
+    "DO_NOT_DERIVE_ANOTHER_SCAN126_CHINA_HELPER_GROUND_TRUTH_EXECUTION_SOURCING_RETAIL_AUDIT_OR_FIELD_TASK_ROUTER",
+    "SUCCESS_PRECEDENTS_ARE_SEARCH_PRIORS_ONLY"
+  ],
+  "evidence_packets": [
+    {
+      "packet_id": "P1_NATIONAL_DATA_PROPERTY_REGISTRATION_TO_FINANCING",
+      "domain": "DATA_RIGHTS_AND_SME_FINANCE",
+      "current_change": "National Data Property Registration Service System entered trial operation on 2026-09-11 with nationally interoperable registration results and public result query/verification.",
+      "observed_motion": [
+        "The national system exposes search fields for registered data name, applicant and data overview.",
+        "Shanghai reported 15 of the first 56 national registration certificates on launch, across embodied intelligence, financial models, aviation/shipping, equipment operations and smart agriculture.",
+        "Shanghai data-product IP registration separately reported 1,592 certificates issued by end-July 2026 and 24 enterprises using data IP for RMB547m of pledge financing.",
+        "Pudong/SPDB publicly describes a data-asset financing solution spanning data-asset value discovery, exchange/valuation connections and customized data-asset enhancement/pledge finance."
+      ],
+      "decisive_gate_evidence": [
+        "Shanghai's current official financing workflow still requires one-to-one enterprise-bank questioning, bank assessment of business condition, data-IP compliance and market value, comprehensive credit approval, then bilateral financing contract.",
+        "National registration institutions are Beijing International Big Data Exchange, Shanghai Data Exchange and Shenzhen Data Exchange; Shenzhen explicitly positions itself as a registration-to-circulation-to-assetization full-chain service.",
+        "No open standardized bank underwriting criteria, machine-callable multi-bank offer rail or operator-owned realized financing outcome graph was evidenced."
+      ],
+      "verdict": "DEMOTED_PUBLIC_REGISTRY_DISCOVERY_BUT_CUSTOM_BANK_UNDERWRITING_AND_INCUMBENT_FULL_CHAIN_SERVICE_PREVENT_MACHINE_CALLABLE_ROUTER",
+      "source_urls": [
+        "https://www.nda.gov.cn/sjj/swdt/xwfb/0911/20260911171614017938821_pc.html",
+        "https://sjcqdj.nda.gov.cn/",
+        "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260915/40afc0edd958447090a7717159056bd6.html",
+        "https://sipa.sh.gov.cn/2020mtjd/20260820/d36328bae2ad45ccbd10421b215fe08f.html",
+        "https://xxfw.sipa.sh.gov.cn/wasWeb/qt/fbgl/info?id=3879",
+        "https://www.spdb.com.cn/productN/puke.shtml",
+        "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/mpost_12989605.html"
+      ]
+    },
+    {
+      "packet_id": "P2_ELECTRONIC_TRANSFERABLE_DOCUMENT_COLLATERAL_FINANCE",
+      "domain": "CROSS_BORDER_TRADE_AND_LOGISTICS_FINANCE",
+      "current_change": "China's electronic-document regulation took effect on 2026-09-01 and expressly covers systems that issue, store, amend, convert, transfer, pledge and circulate electronic documents.",
+      "observed_motion": [
+        "Chongqing's digital NCD / single-document platform had already released more than RMB22m of financing since May 2026 by August.",
+        "On 2026-08-18 the central-bank-backed West Land-Sea Smart Finance platform connected directly to the unified movable-property financing registration system, allowing NCD pledge registration, cancellation and verification in one interface.",
+        "Bank of China Chongqing completed an eNCD digital-document pledge financing transaction through the integrated mechanism."
+      ],
+      "decisive_gate_evidence": [
+        "The same public infrastructure already closes document issuance, financing application, pledge registration, bank disbursement and cargo-disposal workflow.",
+        "Banks can verify title and pledge records directly inside the incumbent infrastructure.",
+        "A separate router would not own the action right, registry, bank credit decision or document control rail."
+      ],
+      "verdict": "DEMOTED_EXACT_PUBLIC_FINANCE_INFRASTRUCTURE_ALREADY_CLOSES_ELECTRONIC_DOCUMENT_TO_PLEDGE_TO_BANK_DISBURSEMENT_LOOP",
+      "source_urls": [
+        "https://www.cac.gov.cn/2026-04/17/c_1778166821092785.htm",
+        "https://www.cq.gov.cn/ywdt/jrcq/202608/t20260820_15955155.html",
+        "https://zfkawlb.cq.gov.cn/ztzl/zllhxtd/202605/t20260519_15687101.html"
+      ]
+    },
+    {
+      "packet_id": "P3_GREEN_CERTIFICATE_MARKET_ROUTING",
+      "domain": "ENERGY_AND_ENVIRONMENTAL_ATTRIBUTE_MARKETS",
+      "current_change": "The national green-certificate issuance/trading system shows large current supply and transaction flow, while policy strengthens nationwide circulation and green-power consumption requirements.",
+      "observed_motion": [
+        "The national system reported 1.970bn certificates issued and 481m traded in 2026 through July.",
+        "July alone recorded 54.68m certificate trades; 2026-production certificates averaged RMB6.10 per certificate in standalone trading.",
+        "Rules support nationwide circulation and recognized platforms including the national green-certificate trading platform, Beijing Power Exchange and Guangzhou Power Exchange."
+      ],
+      "decisive_gate_evidence": [
+        "The official market already owns certificate identity, account registration, listing/bilateral/auction transaction and settlement synchronization.",
+        "Price information and a national green-certificate price index are public.",
+        "A generic comparison/selection layer can be reproduced by official-market data plus a general agent and does not create a distinct operator control asset."
+      ],
+      "verdict": "DEMOTED_MATURE_UNIFIED_MARKET_ALREADY_OWNS_IDENTITY_PRICE_DISCOVERY_TRANSACTION_AND_SETTLEMENT_NO_DISTINCT_ROUTER_ASSET",
+      "source_urls": [
+        "https://gec.nea.gov.cn/",
+        "https://www.nea.gov.cn/20260826/ec18dac54d4f4e26a6a5e5fcca27e74f/c.html",
+        "https://www.nea.gov.cn/20260724/808ea736bb9741909dd46f8cb32ea0de/c.html",
+        "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20486"
+      ]
+    },
+    {
+      "packet_id": "P4_PRODUCT_CARBON_FOOTPRINT_CERTIFICATION_ROUTING",
+      "domain": "PRODUCT_COMPLIANCE_AND_CERTIFICATION",
+      "current_change": "China's product carbon-footprint label certification pilot has moved into standardized implementation with a general rule, 17 product-specific rules and a regulated certification-institution set.",
+      "observed_motion": [
+        "SAMR reported on 2026-09-14 that the pilot now has a general-plus-product-specific rule system and 17 product-specific implementation rules.",
+        "The pilot initially selected 26 certification bodies and covers product classes including batteries, photovoltaics, steel, aluminum, textiles, tires and electronics."
+      ],
+      "decisive_gate_evidence": [
+        "Certification is a regulated professional judgment and trust function, not a commodity action API.",
+        "SAMR's 2026 quality-certification enforcement update says 10 participating carbon-footprint certification institutions had their pilot qualification cancelled after capability review, reinforcing that institutional competence is a hard controlled input.",
+        "A new operator can at most perform lead generation, document preparation or consulting unless it becomes/controls a qualified certification institution; those are recurring human-service paths rather than a founder-light routing asset."
+      ],
+      "verdict": "DEMOTED_REGULATED_EXPERT_CERTIFICATION_CONTROL_REMAINS_WITH_QUALIFIED_INSTITUTIONS_ROUTER_COLLAPSES_TO_LEADGEN_OR_CONSULTING",
+      "source_urls": [
+        "https://www.samr.gov.cn/xw/zj/art/2026/art_722720ac85c844f78cbaa02445a27ee8.html",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/rzjgs/art/2025/art_7a0ac3998d06423bba72720b03c6af82.html",
+        "https://www.samr.gov.cn/hd/zxft/art/2026/art_63ba7aa12b8d4cd392e7e2723c93a4fe.html"
+      ]
+    }
+  ],
+  "excluded_observations": [
+    {
+      "signal": "HUBEI_CULTURE_TOURISM_PLUS_PLATFORM",
+      "reason": "Fresh consumer-side platform launch with unified booking, but the public platform itself already owns discovery-to-reservation for the advertised inventory; no missing external control edge was evidenced.",
+      "source_url": "https://wlt.hubei.gov.cn/bmdt/dtyw/202609/t20260917_6015532.shtml"
+    },
+    {
+      "signal": "2026_CONSUMER_TRADE_IN_SUBSIDY_DATA_RAIL",
+      "reason": "Large digitally traceable flow, but the subsidy identity/product/transaction verification rail is government/platform-owned and overlaps the project's existing used-device/recycling history; not admitted as a fresh formation.",
+      "source_url": "https://www.mofcom.gov.cn/zcfb/gnmygl/art/2025/art_ed4904de32ff4d029dad4524473ce619.html"
+    },
+    {
+      "signal": "SME_FIXED_ASSET_LOAN_INTEREST_SUBSIDY",
+      "reason": "Real financing support exists, but bank underwriting and policy eligibility remain lender/government-controlled; no operator-owned callable rail was observed.",
+      "source_url": "https://gs.mof.gov.cn/zhengcefagui/202606/t20260601_3990937.htm"
+    }
+  ],
+  "scan_conclusion": "FOUR_FRESH_FORMATIONS_EXAMINED_ZERO_RETAINED_NO_COMMERCIAL_PROMOTION",
+  "next_scan_id": "ATTRACTION_SCAN_128"
+}

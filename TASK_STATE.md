@@ -14,26 +14,27 @@ Find a formation with strong bilateral voluntary energy, a legible state-depende
 
 Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
 
-Discovery: `ATTRACTION_SCAN_126-F1 — CROSS_BORDER_CHINA_GROUND_TRUTH_EXECUTION_ROUTING` has been demoted after the live Jev-requested exact incumbent/control-surface preflight. Paid demand and executor supply are real, but the broad bridge is already owned by current service/marketplace/crowd control surfaces and no distinct operator asset remains evidenced.
+Discovery: Scan 126-F1 is closed. Scan 127 independently examined four fresh current-reality formations across data-rights finance, electronic trade-document finance, green-certificate markets and carbon-footprint certification. All four are demoted on non-compensatory action/control or recurring-expert gates; no commercial promotion was made.
 
 ## Current Phase
 
-`SCAN_126_F1_DEMOTED_PR_VALIDATION_PENDING`
+`SCAN_127_COMPLETE_PR_VALIDATION_PENDING`
 
 ## Last Verified Main
 
-`7753af052e322b566738db15ae3ad7df3345bfe4` — squash merge of PR #431, `Deepen Scan 126 ground-truth routing economics`.
+`c9df3aab81bd35d7c0393a2ac3df36d91c979481` — squash merge of PR #432, `Close Scan 126 ground-truth routing on incumbent control surfaces`.
 
-PR #431 exact-head `4b32986a654bba59cc8f1f4b0986b9e737a56df0`:
-- repository CI `35815592963`: success;
-- live TypeSafe/Jev `35815592996`: success;
-- `input_scan_id=ATTRACTION_SCAN_126`;
-- `entity_count=1`;
-- effective route = `EXACT_INCUMBENT_PREFLIGHT`;
-- continuation = `EXECUTE_RESEARCH_QUEUE`;
+PR #432 exact-head `c45e799a0278343f33a5a39e44316c41fef14c95`:
+- repository CI `35815999345`: success;
+- live TypeSafe/Jev `35815999321`: success;
+- Jev artifact `10731702072`, digest `sha256:42f5519339cbe06e4ffccd02e6f309577a8285273b5fdc623d024ae24a970969`;
+- actual `input_scan_id=ATTRACTION_SCAN_126`;
+- actual `entity_count=1`;
+- effective route = `NO_FURTHER_RESEARCH`;
+- continuation = `ADVANCE_TO_NEXT_SCAN`;
 - autonomous continuation allowed = true.
 
-That Jev route has been consumed by this branch.
+This Scan 127 branch consumes that continuation.
 
 ## Active Issue
 
@@ -41,94 +42,96 @@ That Jev route has been consumed by this branch.
 
 ## Active Branch
 
-`research/scan126-ground-truth-incumbent-preflight`
+`research/scan127-formation-diverse-broad-reality`
 
 ## Active PR
 
-None at this checkpoint. Freeze the final closure head before opening the PR and do not mutate it afterward.
+None at this checkpoint. Freeze the final Scan 127 head before opening exactly one PR and do not mutate it afterward.
 
 ## CI
 
-This closure branch has not run PR validation yet.
+Current Scan 127 branch has not run PR validation yet.
 
 Required on exact final head:
 1. repository CI success;
 2. live TypeSafe/Jev success;
-3. Jev must again read `ATTRACTION_SCAN_126` and see the authoritative F1 demotion;
-4. effective route should remain `NO_FURTHER_RESEARCH` unless supplied evidence is materially conflicting;
-5. merge only on exact-head success.
+3. Jev must read `ATTRACTION_SCAN_127`, not an older scan;
+4. Jev must see exactly 4 examined formations;
+5. authoritative demotions must remain fail-closed;
+6. merge only on exact-head success.
 
 ## Parallel Validation
 
-`ATTRACTION_SCAN_015-F1` is unchanged. No official written provider response has been verified; silence is neither pass nor fail.
+`ATTRACTION_SCAN_015-F1` is unchanged. Last verified inbox state remains no official written provider response. Silence is neither pass nor fail.
 
 ## Latest Artifact / Persisted State
 
-Scan 126 closure artifacts:
-- `data/research_runs/scan126_ground_truth_incumbent_preflight.json`;
-- `docs/research/SCAN126_GROUND_TRUTH_INCUMBENT_PREFLIGHT_2026-09-23.md`;
-- updated `data/research_runs/attraction_scan_126.json`;
-- updated `tests/test_scan126_ground_truth_deepening.py`.
+Scan 127:
+- `data/research_runs/attraction_scan_127.json`;
+- `data/research_runs/scan127_broad_reality_evidence.json`;
+- `docs/research/SCAN127_FORMATION_DIVERSE_BROAD_REALITY_2026-09-23.md`;
+- `tests/test_scan127_broad_reality.py`.
 
-Machine truth:
-- last completed scan = `ATTRACTION_SCAN_126`;
-- last resolved formation = `ATTRACTION_SCAN_126-F1`;
+Scan 126 historical regression was updated so advancing `last_completed_scan_id` no longer incorrectly requires auto resolution to remain pinned to Scan 126.
+
+Machine truth on this branch:
+- last completed scan = `ATTRACTION_SCAN_127`;
 - retained research formations = 0;
 - active commercial candidates = 0;
 - commercial promotions = 0;
-- bootstrap external action ready = false;
-- next scan = `ATTRACTION_SCAN_127`;
+- next scan = `ATTRACTION_SCAN_128`;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Consumed PR #431 live Jev route `EXACT_INCUMBENT_PREFLIGHT`.
-- Verified ChinaLocalAgent already sells overseas-client one-time/ad-hoc China-local execution with scoped evidence/reporting.
-- Verified Upwork already owns buyer discovery, direct talent matching and funded fixed-price contracting for the observed task family.
-- Verified WeiChaiShi already owns nationwide China crowd tasking, retail/field data collection, QA, approval and payment.
-- Verified Premise owns the generalized global local-task/photo/geolocation/QA/data-delivery mechanism.
-- Preserved UU MCP as adjacent evidence that machine-callable physical execution is becoming a native platform primitive.
-- Tested the narrower machine-native integration hypothesis against operator-control requirements.
-- Found no exclusive buyer-intent rail, executor supply, action right or proprietary outcome graph for a new operator.
-- Demoted F1 and forbade the external bootstrap rather than launching a generic China-helper variant.
+- Reconciled merged PRs #430/#431/#432 instead of resuming a consumed source branch.
+- Verified PR #430's live Jev success had actually auto-selected Scan 125 and is not counted as Scan 126 validation.
+- Verified PR #431 exact-head CI and live Jev actually consumed canonical `ATTRACTION_SCAN_126-F1` and returned `EXACT_INCUMBENT_PREFLIGHT`.
+- Verified PR #432 exact-head CI and live Jev actually consumed the same canonical Scan 126 formation after closure and returned `NO_FURTHER_RESEARCH -> ADVANCE_TO_NEXT_SCAN`.
+- Verified the uploaded Jev artifacts themselves, not only workflow logs.
+- Started Scan 127 from latest merged main, not from Scan 124/125/126 source branches.
+- Searched fresh current official evidence across data-rights finance, trade/logistics finance, energy environmental markets, product certification, tourism/consumer and SME-policy observations.
+- Persisted four new examined formations and demoted all four without lowering Attraction Field floors.
+- Preserved Scan 015 validation as an independent waiting queue.
 
 ## Current Findings
 
 ```text
-REAL PAID DEMAND
-+ REAL LOCAL SUPPLY
-+ PREFUNDED CONTRACTING
-!= UNOWNED CONTROL EDGE
+NEW STANDARD / PUBLIC REGISTRY
+!= NEW ROUTING CONTROL
 
-CHINALOCALAGENT
-OWNS OVERSEAS -> CHINA LOCAL EXECUTION -> EVIDENCE
+DATA PROPERTY REGISTRY
++ REAL PLEDGE FINANCING
+-> DISCOVERABILITY IMPROVES
+-> BANK UNDERWRITING REMAINS BESPOKE
+-> NO CALLABLE MULTI-BANK ROUTER
 
-UPWORK
-OWNS BUYER DISCOVERY + CONTRACT + PREFUNDING + DIRECT MATCH
+ELECTRONIC NCD
++ REAL FINANCING
+-> INCUMBENT PUBLIC PLATFORM ALREADY CLOSES THE LOOP
 
-WEICHAISHI / PREMISE
-OWN CROWD TASKING + FIELD DATA + QA + DELIVERY
+GREEN CERTIFICATES
++ HUGE NATIVE TRANSACTION FLOW
+-> OFFICIAL MARKET OWNS IDENTITY + PRICE + EXECUTION + SETTLEMENT
 
-UU MCP
-SHOWS MACHINE-CALLABLE PHYSICAL ACTION IS PLATFORMIZING
+CARBON-FOOTPRINT CERTIFICATION
++ STANDARDIZED RULES
+-> TRUST / AUTHORITY REMAINS REGULATED EXPERT WORK
 
-NO EXCLUSIVE INTENT / SUPPLY / ACTION RIGHT / OUTCOME GRAPH
-=> NO DISTINCT OPERATOR ASSET
-=> F1 DEMOTED
+SCAN127 RETAINED = 0
 ```
 
 ## Next Evidence Boundary
 
-After exact-head validation of this closure, advance to Scan 127 and return to precedent-calibrated formation-diverse broad reality.
+After exact-head validation, advance to Scan 128.
 
-Scan 127 must not inherit:
-- China helper / sourcing agency;
-- field-task broker;
-- retail-audit routing;
-- factory inspection;
-- ground-truth execution as a preferred ontology.
-
-Fresh formations must independently evidence attraction, discoverability, machine-resolvable delivery, callable action, founder-light target state, distinct operator control and a viable economic path.
+Scan 128 must deliberately widen beyond regulation-heavy enterprise infrastructure. Prioritize fresh consumer/household, SME-operational and AI-native state changes where:
+- intent self-reveals before the decision closes;
+- both sides are scalable/discoverable;
+- matching is machine-resolvable;
+- the action is callable;
+- a reusable decision/outcome asset remains unowned;
+- recurring founder/expert labor is not the delivery engine.
 
 ## Blockers
 
@@ -136,23 +139,23 @@ Validation:
 - Scan 015-F1 still needs official written provider rights evidence and founder-free inbound proof.
 
 Discovery:
-- no evidence blocker after F1 closure; Scan 127 can begin after exact-head closure validation.
+- no evidence blocker; Scan 128 can begin after exact-head Scan 127 validation.
 
 Engineering:
-- closure PR CI + live Jev still need to run.
+- Scan 127 PR CI + live Jev still need to run.
 
 ## Next Action
 
-Freeze this closure branch, open one PR, run repository CI plus live TypeSafe/Jev, merge if the exact head succeeds and F1 remains closed, then create Scan 127 from verified main and resume formation-diverse broad reality without recycling Scan 126's mechanism.
+Freeze this Scan 127 head, open one PR, require exact-head repository CI plus live TypeSafe/Jev with `input_scan_id=ATTRACTION_SCAN_127` and `entity_count=4`, merge only on success, then advance to Scan 128 if continuation allows.
 
 ## Do Not Repeat
 
-- Do not bootstrap Scan 126-F1; the formation is closed.
-- Do not narrow the same closed formation into another generic China-helper / sourcing / field-task broker.
-- Do not count orchestration of mature third-party rails as a distinct operator asset without an exclusive control position.
-- Do not treat machine-callability alone as white space.
-- Do not use paid demand as permission to ignore exact incumbents.
-- Do not repeat Scan 060-126 formations or their primary mechanisms as fallback candidates.
+- Do not re-run Scan 124/125 formations or their primary signals.
+- Do not revive Scan 126 ground-truth execution, sourcing, local-helper, retail-audit or field-task routing.
+- Do not treat public registry visibility as a callable financing action.
+- Do not place an external router on top of an incumbent end-to-end public finance control surface and call that white space.
+- Do not treat market volume as operator control.
+- Do not convert regulated expert certification into a founder-light router by relabeling consulting as orchestration.
 - Do not repeat Scan 015 public-rights research while written evidence is outstanding.
 
 ## Guardrails
