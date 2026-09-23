@@ -1,0 +1,108 @@
+{
+  "schema_version": "research-route-followup.v1",
+  "scan_id": "ATTRACTION_SCAN_140",
+  "formation_id": "ATTRACTION_SCAN_140-F1",
+  "as_of_date": "2026-09-23",
+  "source_jev": {
+    "source_pr": 450,
+    "exact_head_sha": "6b57d4c502104e1c6a24f481ddac7aaa52926bdc",
+    "repository_ci_run_id": 35842823646,
+    "jev_run_id": 35842823841,
+    "jev_artifact_id": 10741993428,
+    "jev_artifact_digest": "sha256:4640151e4f82ebf90449694c8f9f8fee5badfb2aeffdec4c2ebe60a15453ea17",
+    "input_scan_id": "ATTRACTION_SCAN_140",
+    "entity_count": 4,
+    "execution_status": "SUCCESS",
+    "served_model": "jev-1.13.0",
+    "continuation_next_action": "EXECUTE_RESEARCH_QUEUE",
+    "autonomous_continuation_allowed": true,
+    "state_fingerprint": "e2c540f3951363ea7a23",
+    "routes": {
+      "ATTRACTION_SCAN_140-F1": "CAUSAL_DESCENT",
+      "ATTRACTION_SCAN_140-F2": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_140-F3": "NO_FURTHER_RESEARCH",
+      "ATTRACTION_SCAN_140-F4": "NO_FURTHER_RESEARCH"
+    }
+  },
+  "question": "Does current public law and case-specific evidence bind Weiyuan F1 strongly enough to establish post-transfer buyer rent succession and a source-bound first unprepaid receipt window, or does the chain still stop before a commercially promotable 24-month buyer cashflow?",
+  "public_sources": [
+    {
+      "source_id": "F1-R1",
+      "title": "Weiyuan County Court auction notice replication - Lanhuajie 46 commercial unit",
+      "url": "https://www.sohu.com/a/1077209752_122455197",
+      "bound_facts": [
+        "First auction is scheduled for 2026-10-18 to 2026-10-19 at RMB 445,886.28 for the exact 45.08 sqm commercial unit.",
+        "The notice states the asset is auctioned with an existing lease from 2022-02-24 through 2029-02-24.",
+        "Current rent is RMB 6,000 per month, paid quarterly.",
+        "Tenant rent is stated paid through the end of November 2026.",
+        "The detailed lease contract is not public and requires case-specific consultation."
+      ]
+    },
+    {
+      "source_id": "F1-R2",
+      "title": "Supreme People's Court reference case Peng v. Zhang enforcement supervision - rent ownership in judicial auction with lease",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/455991.html",
+      "bound_facts": [
+        "Reference case library id 2024-17-5-203-007 addresses a judicial auction where the notice disclosed an existing lease but did not separately allocate post-auction rent.",
+        "The buyer succeeds the original landlord's lease rights and obligations when ownership transfers.",
+        "When the auction notice discloses the lease and does not restrict post-auction rent, the buyer enjoys the rent income right after acquiring ownership.",
+        "For a judicial auction, the reference case treats service of the auction-completion adjudication as the ownership-transfer boundary for post-transfer rent."
+      ]
+    },
+    {
+      "source_id": "F1-R3",
+      "title": "Supreme People's Court interpretation of reference case 2024-17-5-203-007",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/456001.html",
+      "bound_facts": [
+        "The interpretation states that buyer and tenant need not sign a new lease after judicial auction; the buyer generally assumes the original lease relationship.",
+        "It reiterates that the buyer is entitled to rent after the auction-completion adjudication is served.",
+        "It does not establish how rent already prepaid to the former owner for a period crossing the ownership-transfer date must be apportioned in this Weiyuan case."
+      ]
+    }
+  ],
+  "causal_chain": [
+    "Weiyuan F1 has an exact current entry floor of RMB 445,886.28, an exact RMB 6,000 monthly lease, quarterly cadence, rent paid through 2026-11-30 and lease end 2029-02-24, giving approximately 16.15% surface annual gross before costs.",
+    "The Supreme People's Court reference case materially narrows the previous UNKNOWN: when a judicial-auction notice discloses an existing lease and is silent on post-auction rent ownership, the buyer generally succeeds the landlord position and has the rent income right after ownership transfers.",
+    "The same authority places the judicial-auction ownership-transfer boundary at service of the auction-completion adjudication on the buyer.",
+    "Therefore generic post-transfer rent succession is publicly supported for this transaction shape; the public record no longer needs an invented special clause merely to establish that a buyer can become landlord and collect post-transfer rent.",
+    "However the Weiyuan auction is still scheduled for the future, so no actual winning buyer, auction-completion adjudication or service date exists yet in the public record.",
+    "The notice proves rent has already been paid through 2026-11-30, but neither the notice nor the reference case binds the treatment of any prepaid rent covering a period after a future ownership-transfer date.",
+    "The notice also does not publish the full lease clause that fixes the next quarterly due date, the exact first unprepaid amount/date after 2026-11-30, deposit, arrears, tenant identity or payment ledger.",
+    "A December-2026-through-February-2029 tail is long enough on the calendar to contain more than 24 months, but the required buyer-specific 24-month receipt window is not yet source-bound because the actual transfer date and first unprepaid payment node are unresolved.",
+    "Exact public searches by execution case (2026)川1024执1832号, judgment (2026)川1024民初929号, exact address and exact rent surfaced no independent lease contract, rent ledger or adjudication for this future auction."
+  ],
+  "exact_public_search_exhaustion": {
+    "queries": [
+      "（2026）川1024执1832号 兰花街46号 租赁 合同",
+      "（2026）川1024民初929号 兰花街46号",
+      "威远县 严陵镇 兰花街46号 租金6000",
+      "兰花街46号 2029年2月24日 租赁",
+      "2024-17-5-203-007 带租拍卖 租金 最高人民法院"
+    ],
+    "result": "NO_INDEPENDENT_PUBLIC_WEIYUAN_LEASE_CONTRACT_RENT_LEDGER_PREPAID_RENT_APPORTIONMENT_OR_AUCTION_COMPLETION_ADJUDICATION_SURFACED; SUPREME_COURT_REFERENCE_CASE_SUPPLIES_GENERAL_POST_TRANSFER_RENT_SUCCESSION_RULE",
+    "note": "Public legal authority upgrades the succession rule but does not fabricate the case-specific transfer event or first unprepaid payment."
+  },
+  "decisive_unknowns_remaining": [
+    "Whether the scheduled 2026-10-18 auction actually sells and the exact auction-completion adjudication service date.",
+    "The exact first unprepaid rent due date and amount after the stated paid-through cursor of 2026-11-30 under the quarterly lease.",
+    "Treatment or apportionment of rent already paid to the former owner for any period crossing the future ownership-transfer date.",
+    "Tenant identity, payment history, deposit, arrears, utilities/property liabilities, buyer taxes/transfer costs and full lease terms."
+  ],
+  "public_research_resolution": "PARTIAL_ADVANCE_PUBLIC_RENT_SUCCESSION_EVIDENCED_TRANSFER_EVENT_AND_FIRST_UNPREPAID_DUE_REMAIN_UNBOUND",
+  "causal_descent_resolution": "PUBLIC_SUPREME_COURT_REFERENCE_CASE_SUPPORTS_BUYER_POST_TRANSFER_RENT_SUCCESSION_BUT_WEIYUAN_ACTUAL_TRANSFER_DATE_PREPAID_RENT_APPORTIONMENT_AND_FIRST_UNPREPAID_PAYMENT_REMAIN_UNBOUND",
+  "next_evidence_class": "FUTURE_PUBLIC_AUCTION_OUTCOME_AND_AUCTION_COMPLETION_ADJUDICATION_SERVICE_IF_SALE_OCCURS_OR_UNDERLYING_LEASE_RENT_LEDGER; EXTERNAL_CONTACT_REQUIRES_SEPARATE_AUTHORITY",
+  "formation_status": "RETAINED_RESEARCH_BLOCKED_ON_FUTURE_TRANSFER_EVENT_AND_FIRST_UNPREPAID_RECEIPT_BINDING",
+  "route_consumed": true,
+  "consumed_routes": [
+    "CAUSAL_DESCENT"
+  ],
+  "scan141_gate": "UNBLOCKED_SUBJECT_TO_EXACT_HEAD_CI_AND_LIVE_JEV_NO_NEW_REVERSIBLE_ROUTE_CLASS",
+  "commercial_promotion": false,
+  "external_contact_performed": false,
+  "external_contact_authorized": false,
+  "inspection_authorized": false,
+  "bid_authorized": false,
+  "deposit_authorized": false,
+  "purchase_authorized": false,
+  "first_external_value_flow": "NOT_PROVEN"
+}
