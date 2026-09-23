@@ -43,7 +43,9 @@ Starts from merged main `1978cec0a33938e2f56e913eb34123b613c2ded3`.
 
 ## Active PR
 
-Not opened yet. Open exactly one PR after the persisted Scan 138 state is frozen.
+PR #448 — `Run Scan 138 across diverse current receipt mechanisms`.
+
+Initial PR head was `4bcfbf9ffc54107de50963d288a3615e80095aae`. This TASK_STATE write advances the branch once to record the PR; the resulting SHA is the final frozen head for repository CI and live TypeSafe/Jev decisions.
 
 ## CI / Jev Contract
 
@@ -107,7 +109,7 @@ No gate was relaxed and no UNKNOWN field was converted to PASS.
 
 ## Next Action
 
-Open one PR for Scan 138, freeze its exact head, require repository CI plus live TypeSafe/Jev, consume any reversible route if returned, merge if green and no contradictory evidence appears, then begin fresh `ATTRACTION_SCAN_139`.
+Freeze the PR #448 head created by this TASK_STATE update, require repository CI plus live TypeSafe/Jev on that exact SHA, consume any reversible route if returned, merge if green and no contradictory evidence appears, then begin fresh `ATTRACTION_SCAN_139`.
 
 ## Do Not Repeat
 
