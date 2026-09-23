@@ -28,6 +28,12 @@ SCAN148_F1_EXACT_INCUMBENT_PREFLIGHT_CONSUMED_FINAL_REVALIDATION_PENDING
 ## Active PR
 PR #460 — `Run Scan 148 cross-border bounded local execution` — OPEN.
 
+## CI
+- Final Scan 148 route-consumption repository CI: PENDING on the current exact PR head.
+- Final live TypeSafe/Jev: PENDING on the same exact head.
+- Prior source head `1d226931a4430ca5e5eeca6d297bc172450405a1` is route evidence only; it is not the final merge head.
+- Supersede all earlier pending/failed heads after this checkpoint.
+
 ## Jev Route Consumed
 - Preflight source exact head: `1d226931a4430ca5e5eeca6d297bc172450405a1`.
 - Repository CI `35875961755`: SUCCESS.
