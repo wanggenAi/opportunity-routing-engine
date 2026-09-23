@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "task_key": "commercial-attraction-scan-136",
-  "generation": 4,
+  "generation": 5,
   "status": "ACTIVE",
-  "reconciled_at": "2026-09-23T07:31:00Z",
+  "reconciled_at": "2026-09-23T07:35:00Z",
   "live_main": "16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1",
   "work_branch": "research/scan136-f1-f2-routing-followup",
-  "frozen_head": "16a54e31385e18bd6cedbe33b2d7bb3f0e435cc1",
-  "stage": "SCAN136_F1_F2_PUBLIC_ROUTE_RESEARCH_COMPLETE_PERSISTENCE_PENDING",
+  "frozen_head": "e4ff17ec81002adf2e262b77d4bdf36db8d3dfa1",
+  "stage": "SCAN136_F1_F2_PR446_EXACT_HEAD_VALIDATION_RUNNING",
   "scan_id": "ATTRACTION_SCAN_136",
   "retained_research": [
     "ATTRACTION_SCAN_136-F1",
@@ -32,8 +32,14 @@
     "F2 exact-address/case public search resolves only to the current auction notice; detailed lease terms explicitly require telephone consultation. Civil Code 725 preserves lease validity, but auction-specific first buyer rent allocation after the prepaid-through-2026-11 window remains unbound.",
     "Both F1/F2 therefore remain research-only and public-source exhausted at an external written/source-document boundary; no external contact performed."
   ],
-  "next_action": "Persist Scan136 F1 exact-incumbent/public preflight and F2 public causal descent on research/scan136-f1-f2-routing-followup; update stale machine/TASK state; open PR; require exact-head CI and live Jev.",
-  "pending_operation": null,
+  "next_action": "Wait for PR #446 exact-head CI 35832459988 and live TypeSafe/Jev 35832460027 to reach terminal status; consume the actual directive; merge only if both succeed.",
+  "pending_operation": {
+    "kind": "PR_EXACT_HEAD_VALIDATION",
+    "pr": 446,
+    "head": "e4ff17ec81002adf2e262b77d4bdf36db8d3dfa1",
+    "ci_run_id": 35832459988,
+    "jev_run_id": 35832460027
+  },
   "do_not_repeat": [
     "Do not return to consumed Scan135 branches.",
     "Do not re-research Scan136 F3/F4 absent contradictory evidence.",
@@ -41,15 +47,16 @@
     "Do not reuse Scan060-135 formations.",
     "Do not contact external parties or commit money without explicit authority."
   ],
-  "pr": 445,
+  "pr": 446,
   "validation": {
-    "prior_failed_head": "68644877e4e9a0ab178390f9431b53537f4196e6",
-    "prior_failure": "HISTORICAL_SCAN135_TESTS_BLOCKED_FORWARD_PROGRESS_AND_TASK_STATE_REQUIRED_HEADINGS_MISSING",
-    "current_ci_run_id": 35830529477,
-    "current_jev_run_id": 35830529504,
-    "current_status": "SUCCESS"
+    "prior_pr_445_ci_run_id": 35830529477,
+    "prior_main_ci_run_id": 35830677638,
+    "prior_main_jev_run_id": 35830677629,
+    "current_ci_run_id": 35832459988,
+    "current_jev_run_id": 35832460027,
+    "current_status": "RUNNING"
   },
-  "pr_status": "MERGED",
+  "pr_status": "OPEN",
   "pr_exact_head": "d91d34790fb07c3e45bce977196092c00b86e8da",
   "pr_ci": {
     "run_id": 35830529477,
