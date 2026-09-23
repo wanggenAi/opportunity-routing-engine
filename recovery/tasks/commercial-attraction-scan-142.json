@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "task_key": "commercial-attraction-scan-142",
+  "generation": 1,
+  "status": "ACTIVE",
+  "reconciled_at": "2026-09-23T13:20:00Z",
+  "live_main": "2024ce0196720aef901e58211e049fd9336b87be",
+  "work_branch": "research/scan142-regenerative-field-reboot",
+  "frozen_head": "fb3d325b2757659f64bb8692883b6347d4427243",
+  "stage": "SCAN142_F1_PREFLIGHT_CONSUMED_FINAL_HEAD_REVALIDATION",
+  "scan_id": "ATTRACTION_SCAN_142",
+  "durable_conclusions": [
+    "PR #453 source head 60c9be2137d94890adb9036b362537ebf6b99220 passed repository CI 35865684083 and real TypeSafe/Jev 35865684096.",
+    "Jev routed F1 EXACT_INCUMBENT_PREFLIGHT and F2-F4 NO_FURTHER_RESEARCH with autonomous continuation allowed.",
+    "Current official Shandong control-surface preflight closes F1 in commercial machine state; route-consumption evidence is committed on fb3d325b2757659f64bb8692883b6347d4427243.",
+    "Active commercial candidates remain zero and FIRST_EXTERNAL_VALUE_FLOW remains NOT_PROVEN."
+  ],
+  "next_action": "Wait for exact-head repository CI and live Jev on fb3d325b2757659f64bb8692883b6347d4427243; if green and all Scan142 effective routes are NO_FURTHER_RESEARCH, merge PR #453 and rederive Scan143 from broad current reality.",
+  "pending_operation": null,
+  "do_not_repeat": [
+    "Do not reopen Scan128-141 transaction-proxy lane.",
+    "Do not promote Scan142 F1 after its authoritative preflight closure.",
+    "Do not inherit a VPP subproblem as Scan143 ontology.",
+    "Do not contact outsiders or move money without explicit authority."
+  ]
+}
