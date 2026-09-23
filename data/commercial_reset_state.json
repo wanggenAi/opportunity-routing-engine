@@ -69,7 +69,7 @@
   "last_completed_scan_id": "ATTRACTION_SCAN_125",
   "last_resolved_formation_id": "ATTRACTION_SCAN_125-F1",
   "next_scan_id": "ATTRACTION_SCAN_126",
-  "current_research_action": "RUN_SCAN126_AS_PRECEDENT_CALIBRATED_FORMATION_DIVERSE_BROAD_REALITY_SEARCH_WITH_SUCCESS_PATTERNS_AS_SEARCH_PRIORS_ONLY_AND_ORIGINAL_ATTRACTION_HARD_FLOORS_UNCHANGED",
+  "current_research_action": "DEEPEN_SCAN126_CROSS_BORDER_CHINA_GROUND_TRUTH_ROUTING_ACROSS_UNRELATED_TASK_CLASSES_AND_TEST_FOUNDER_LIGHT_PREPAID_DISPATCH_ECONOMICS_WITHOUT_COMMERCIAL_PROMOTION",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -894,7 +894,13 @@
     "URGENCY_MUST_INCREASE_SEARCH_BREADTH_AND_EVIDENCE_THROUGHPUT_NOT_LOWER_ATTRACTION_OR_TRUTH_GATES.",
     "LOW_ATTRACTION_FAST_MVP_EXPERIMENTS_ARE_FORBIDDEN.",
     "ONLY_HIGH_ATTRACTION_BEACONS_MAY_RECEIVE_REVERSIBLE_DECISIVE_REALITY_TESTS.",
-    "SCAN125_MATURE_CASHFLOW_ENTITY_BOUNDARY_REMAINS_A_VALID_SPECIALIZED_LENS_BUT_IS_NOT_THE_ONLY_SCAN126_DISCOVERY_ONTOLOGY."
+    "SCAN125_MATURE_CASHFLOW_ENTITY_BOUNDARY_REMAINS_A_VALID_SPECIALIZED_LENS_BUT_IS_NOT_THE_ONLY_SCAN126_DISCOVERY_ONTOLOGY.",
+    "BOUNDED_MANUAL_BOOTSTRAP_IS_NOT_EQUIVALENT_TO_RECURRING_FOUNDER_DEPENDENCE.",
+    "FIRST_MANUAL_TRANSACTIONS_MAY_PROVE_TRANSACTION_TRUTH_BUT_CANNOT_PROVE_FOUNDER_INDEPENDENCE.",
+    "PUBLIC_GIG_AND_REDDIT_POSTS_MAY_BE_USED_AS_DOWNSTREAM_PARTIAL_FLOW_EVIDENCE_BUT_NOT_AS_THE_DISCOVERY_ONTOLOGY.",
+    "CROSS_BORDER_REMOTE_PRINCIPAL_TO_CHINA_LOCAL_PHYSICAL_EVIDENCE_IS_A_FORMATION_WIDER_THAN_FACTORY_INSPECTION.",
+    "PREPAYMENT_OR_PLATFORM_ESCROW_BEFORE_LOCAL_EXECUTION_COST_IS_A_KEY_BOOTSTRAP_CONTROL.",
+    "GENERIC_CHINA_HELPER_IS_ALREADY_AN_INCUMBENT_CATEGORY_SO_THE_OPERATOR_NEEDS_STANDARDIZED_DISPATCH_EVIDENCE_ACCEPTANCE_AND_REPLACEABILITY_NOT_PERSONAL_HUSTLE."
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -1466,5 +1472,28 @@
     "founder_manufactured_demand_forbidden": true,
     "launch_decision_deadline": "2026-09-30",
     "deadline_failure_action": "EXPAND_SOURCE_UNIVERSE_AND_MECHANISM_DIVERSITY_DO_NOT_RELAX_GATES"
+  },
+  "scan126_research_seed": {
+    "formation_id": "ATTRACTION_SCAN_126-F1",
+    "title": "CROSS_BORDER_CHINA_GROUND_TRUTH_EXECUTION_ROUTING",
+    "artifact": "data/research_runs/scan126_ground_truth_routing_seed.json",
+    "status": "HIGH_ATTRACTION_BOOTSTRAP_CANDIDATE_NOT_COMMERCIAL_PROMOTION",
+    "commercial_promotion": false,
+    "demand_posts_role": "DOWNSTREAM_PARTIAL_FLOW_EVIDENCE_NOT_DISCOVERY_ONTOLOGY",
+    "bootstrap_boundary": "MAX_3_MANUAL_TRANSACTIONS_OR_14_DAYS; MANUALITY_CANNOT_PROVE_FOUNDER_INDEPENDENCE",
+    "decisive_unknown": "Can prepaid remote demand be routed to replaceable China-local executors with standardized evidence and positive normalized economics without recurring founder acquisition or delivery?"
+  },
+  "bootstrap_validation": {
+    "implementation": "src/bootstrap_validation.py",
+    "max_manual_transactions": 3,
+    "max_manual_days": 14,
+    "requires_external_demand": true,
+    "requires_external_payment_signal": true,
+    "requires_prepayment_or_platform_escrow": true,
+    "requires_standardized_task_and_acceptance_evidence": true,
+    "requires_executor_replaceability_path": true,
+    "founder_free_labor_excluded_from_normalized_economics": true,
+    "founder_manufactured_demand_forbidden": true,
+    "recurring_founder_search_or_delivery_forbidden": true
   }
 }
