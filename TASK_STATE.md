@@ -5,69 +5,57 @@ GitHub live state wins over this checkpoint if they disagree.
 ## Current Mission
 Continue the clean-slate Attraction Field under the machine-enforced regenerative-field guard until a real external value flow is proven or a real human/permission stop exists.
 
-## Goal
-Close or prove regenerative formations without promoting explicit tasks or transaction proxies; preserve exact-head repository CI + live TypeSafe/Jev and fail closed on incumbent ownership, inaccessible control/data, founder-dependent acquisition or unevidenced economics.
-
 ## Current Unique Commercial Research Goal
-Validate Scan 146's zero-retention broad-reality resource-circulation result. If exact-head repository CI and live TypeSafe/Jev leave no reversible route, advance to Scan 147 from a fresh broad current reality set.
+Validate Scan 147's zero-retention shared-capacity result. If exact-head repository CI and live TypeSafe/Jev leave no reversible route, advance to Scan 148 from fresh broad current reality.
 
 ## Current Phase
-SCAN146_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
+SCAN147_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 
 ## Last Verified Main
-- `main`: `cf36af62ee9664573f95925d132eeaa6b1ac661f` — PR #456 merged.
-- Scan 145 final exact head `8369f2c558610c836854cc11aa6cb2cf659f25b0`.
-- Scan 145 repository CI `35871705483`: SUCCESS.
-- Scan 145 live TypeSafe/Jev `35871705283`: SUCCESS.
-- Scan 145 Jev effective routes: 5/5 `NO_FURTHER_RESEARCH`; continuation `ADVANCE_TO_NEXT_SCAN`.
-- Active commercial candidates: 0.
-- Active transaction units: 0.
-- FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
+- `main`: `09081f124b8ed97ca8def14e6c4409fad048f243` — PR #458 merged.
+- Scan 146 final exact head `d94d9e620463355d464193d4d3d82078bcf50978`.
+- Repository CI `35872960284`: SUCCESS.
+- Live TypeSafe/Jev `35872960287`: SUCCESS; artifact `10755464338`.
+- Effective routes: 5/5 `NO_FURTHER_RESEARCH`; continuation `ADVANCE_TO_NEXT_SCAN`.
+- Active commercial candidates: 0; transaction units: 0; FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
 
 ## Active Issue
 #143 — `P0: Clean-slate Attraction Field -> first external value flow`.
 
 ## Active Branch
-`research/scan146-broad-reality-resource-circulation`.
+`research/scan147-broad-reality-shared-capacity`.
 
 ## Active PR
-PR #458 — `Run Scan 146 broad-reality resource circulation` — OPEN.
+PENDING_SCAN147_PR.
 
 ## CI
-- Scan 146 exact-head repository CI: PENDING.
-- Scan 146 live TypeSafe/Jev: PENDING.
+- Scan 147 exact-head repository CI: PENDING.
+- Scan 147 live TypeSafe/Jev: PENDING.
 
 ## Latest Artifact / Persisted State
-- `data/research_runs/attraction_scan_146.json`
-- `data/research_runs/scan146_broad_reality_evidence.json`
-- `docs/research/SCAN146_BROAD_REALITY_RESOURCE_CIRCULATION_2026-09-23.md`
-- `tests/test_scan146_broad_reality_resource_circulation.py`
+- `data/research_runs/attraction_scan_147.json`
+- `data/research_runs/scan147_broad_reality_evidence.json`
+- `docs/research/SCAN147_BROAD_REALITY_SHARED_CAPACITY_2026-09-23.md`
+- `tests/test_scan147_broad_reality_shared_capacity.py`
 - `data/commercial_reset_state.json`
 
 ## Completed
-- Reconciled Scan 145 final exact-head CI/Jev truth from merged PR #456.
-- Rederived Scan 146 from five unrelated current resource-circulation fields.
-- All five are closed before retention: youth pop-up space, agricultural machinery service, flexible warehousing, solid-waste resource circulation, and idle-rooftop distributed PV.
-- High-attraction beacons: 0.
-- Retained research formations: 0.
-- No commercial promotion or external side effect occurred.
-
-## Current Findings
-Resource underuse remains common, but Scan 146's five fields fail on operator control rather than on lack of need: public/institutional programs own activation, regulated service/acceptance chains own execution, a national warehouse platform already owns generic discovery, municipal waste systems own licensed traceable routing, and rooftop PV depends on property rights plus engineering/long-term-contract control.
+- Reconciled Scan 146 final exact-head CI/Jev truth from merged PR #458.
+- Examined elastic compute, shared manufacturing, shared parking, cold-storage capacity and used-equipment circulation.
+- All five closed before retention because exact platforms already own the bridge or engineering/appraisal/compliance controls acceptance.
+- High-attraction beacons: 0; retained formations: 0; no external side effect.
 
 ## Blockers
-No human blocker. Exact-head repository CI and live TypeSafe/Jev have not yet run on the Scan 146 head.
+No human blocker. Exact-head repository CI and live TypeSafe/Jev are pending.
 
 ## Next Action
-Freeze the Scan 146 PR exact head, require repository CI + live TypeSafe/Jev, and advance to Scan 147 only if no reversible research route is returned.
+Freeze the Scan 147 PR exact head, require repository CI + live TypeSafe/Jev, and advance to Scan 148 only if no reversible route is returned.
 
 ## Do Not Repeat
-- Do not rescue any Scan 146 field by narrowing it after authoritative closure.
-- Do not return to Scan 145 Mexico channels, AI-service procurement, patient companion, data commercialization or luggage transfer.
+- Do not rescue Scan 147 compute, shared manufacturing, parking, cold storage or used-equipment fields.
+- Do not rescue Scan 146 resource-circulation fields or Scan 145 current-service fields.
 - Do not return to Scan 143 factory inspection or Scan 144 industrial aftermarket service.
-- Do not treat public-program acknowledgement of resource underuse as proof of an unowned commercial bridge.
-- Do not weaken `UNKNOWN != PASS`.
-- Do not perform outreach, quoting, account creation, applications or money movement before a validated external-action gate.
+- Do not weaken `UNKNOWN != PASS` or perform unauthorized external actions.
 
 ## Guardrails
-GitHub live state wins. REALITY > COGNITION > SCHEMA. LOCAL GATE COMPLIANCE != STRATEGIC ALIGNMENT. HIGH_ATTRACTION_BEACON != COMMERCIAL_CANDIDATE. TypeSafe/Jev is shadow research advisory only.
+GitHub live state wins. REALITY > COGNITION > SCHEMA. HIGH_ATTRACTION_BEACON != COMMERCIAL_CANDIDATE. TypeSafe/Jev is shadow research advisory only.
