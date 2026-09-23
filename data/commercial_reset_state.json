@@ -17,8 +17,7 @@
     "ATTRACTION_SCAN_142-F1",
     "ATTRACTION_SCAN_143-F1",
     "ATTRACTION_SCAN_144-F1",
-    "ATTRACTION_SCAN_148-F1",
-    "ATTRACTION_SCAN_163-F1"
+    "ATTRACTION_SCAN_148-F1"
   ],
   "resolved_research_formations": [
     {
@@ -800,6 +799,11 @@
       "formation_id": "ATTRACTION_SCAN_159-F5",
       "verdict": "DEMOTED_COMPANY_RELOCATION_HAS_OPEN_PROVIDER_SELECTION_BUT_PUBLIC_TRACE_IS_POST_COMMITMENT_AND_FACTORY_MATCHING_IS_PROJECT_SPECIFIC",
       "resolved_date": "2026-09-24"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_163-F1",
+      "verdict": "DEMOTED_EXACT_INCUMBENT_PREFLIGHT_FINDS_CHINA_SIDE_EXECUTION_WHITE_LABEL_MULTI_CITY_AND_LOCAL_TEAM_CONTROL_SURFACES_ALREADY_OWN_THE_PROPOSED_BRIDGE",
+      "resolved_date": "2026-09-24"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
@@ -807,8 +811,8 @@
   "last_completed_scan_id": "ATTRACTION_SCAN_163",
   "last_resolved_formation_id": "ATTRACTION_SCAN_162-F5",
   "next_scan_id": "ATTRACTION_SCAN_164",
-  "current_research_action": "VALIDATE_SCAN163_EXACT_HEAD_THEN_IF_JEV_PRESERVES_F1_BIND_GUANGZHOU_EXECUTOR_COST_AND_PLATFORM_TEAM_PATH_BEFORE_ANY_EXTERNAL_BID",
-  "current_validation_state": "SCAN163_HIGH_ATTRACTION_RESEARCH_BEACON_EXACT_HEAD_VALIDATION_PENDING",
+  "current_research_action": "FINAL_VALIDATE_SCAN163_INCUMBENT_CLOSURE_THEN_ADVANCE_SCAN164_TO_RESIDUAL_CROSS_BORDER_PHYSICAL_EDGES_NOT_ALREADY_PACKAGED_BY_EXISTING_SERVICES",
+  "current_validation_state": "SCAN163_ALL_ROUTES_CLOSED_FINAL_EXACT_HEAD_VALIDATION_PENDING",
   "required_scan_controls": [
     "BROAD_REALITY",
     "ATTRACTION_FIRST_BEACON",
@@ -1674,7 +1678,11 @@
     "DOMESTIC_LOCAL_FIELD_EXECUTION_ALREADY_SUPPORTS_ADDRESS_EVIDENCE_ACCEPTANCE_DECOMPOSITION_AT_SCALE.",
     "GENERIC_CHINA_LOCAL_HELPER_AND_MARKETPLACE_MATCHING_ARE_EXISTING_INCUMBENT_ROUTES_NOT_A_DISTINCT_EDGE.",
     "SCAN163_F1_MOVES_THE_HYPOTHESIS_UP_ONE_LAYER_TO_DEMAND_PUMP_TO_CHINA_COVERAGE_ORCHESTRATION.",
-    "FIRST_BOOTSTRAP_MUST_BIND_REAL_EXECUTOR_COST_PLATFORM_COMPLIANCE_AND_FUNDED_PAYMENT_BEFORE_LOCAL_COST."
+    "FIRST_BOOTSTRAP_MUST_BIND_REAL_EXECUTOR_COST_PLATFORM_COMPLIANCE_AND_FUNDED_PAYMENT_BEFORE_LOCAL_COST.",
+    "QGO_CURRENTLY_OFFERS_B2B_PARTNER_WHITE_LABEL_WHOLE_CHINA_SIDE_EXECUTION_THAT_CLOSELY_MATCHES_SCAN163_F1_CONTROL_LAYER.",
+    "CHINALOCALAGENT_AND_CHINABIZAGENT_CURRENTLY_PACKAGE_OVERSEAS_CLIENT_TO_LOCAL_CHINA_EXECUTION_AS_A_SERVICE.",
+    "REAL_PAID_GUANGZHOU_VERIFICATION_TASK_DOES_NOT_OVERRIDE_EXACT_INCUMBENT_CONTROL_SURFACE_CLOSURE.",
+    "A_LOW_COST_API_OR_BATCH_VARIANT_IS_HYPOTHETICAL_UNTIL_ACTOR_BEHAVIOR_EXPOSES_THAT_SPECIFIC_MISSING_EDGE."
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -2386,7 +2394,7 @@
     "purchase_authorized": false
   },
   "last_completed_scan_file": "data/research_runs/attraction_scan_163.json",
-  "last_completed_scan_result": "ONE_HIGH_ATTRACTION_RESEARCH_BEACON_RECURRING_GLOBAL_VERIFICATION_DEMAND_PUMPS_TO_CHINA_LOCAL_EVIDENCE_EXECUTION_NETWORK_NO_COMMERCIAL_PROMOTION",
+  "last_completed_scan_result": "ZERO_RETENTION_AFTER_JEV_EXACT_INCUMBENT_PREFLIGHT_GENERIC_CHINA_GROUND_TRUTH_EXECUTION_LAYER_ALREADY_OWNED",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
     "evidence_artifact": "data/research_runs/scan136_current_asset_receipts_evidence.json",
@@ -2872,7 +2880,7 @@
     "preflight_autonomous_continuation_allowed": true,
     "preflight_resolution": "CLOSED_DISTINCT_UNOWNED_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED_AFTER_CURRENT_OFFICIAL_CONTROL_SURFACE_PREFLIGHT"
   },
-  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN163_THEN_IF_RETAINED_BIND_GUANGZHOU_EXECUTOR_COST_AND_PLATFORM_TEAM_PATH",
+  "next_action": "FINAL_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN163_INCUMBENT_CLOSURE_THEN_ADVANCE_SCAN164_IF_ALLOWED",
   "scan143_broad_reality_trust_routing": {
     "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "c4d3da4d67f067a512642beb272eeafa7fd0fa34",
@@ -3904,30 +3912,26 @@
     "merged_main_sha": "3ee72d3d9deeb6cd24d5647b136a6adf90e010fe"
   },
   "scan163_cross_border_ground_truth_field": {
-    "status": "INITIAL_SCAN_COMPLETE_HIGH_ATTRACTION_RESEARCH_BEACON_EXACT_HEAD_VALIDATION_PENDING",
+    "status": "RESEARCH_QUEUE_CONSUMED_ALL_ROUTES_CLOSED_FINAL_EXACT_HEAD_VALIDATION_PENDING",
     "source_main_sha": "3ee72d3d9deeb6cd24d5647b136a6adf90e010fe",
     "canonical_scan_artifact": "data/research_runs/attraction_scan_163.json",
     "evidence_artifact": "data/research_runs/scan163_cross_border_field_evidence.json",
     "report": "docs/research/SCAN163_CROSS_BORDER_GROUND_TRUTH_FIELD_2026-09-24.md",
-    "high_attraction_beacons": [
-      "ATTRACTION_SCAN_163-F1"
-    ],
-    "retained_research_formations": [
-      "ATTRACTION_SCAN_163-F1"
-    ],
+    "high_attraction_beacons": [],
+    "retained_research_formations": [],
     "bootstrap_queue": [
       "SCAN163-B1",
       "SCAN163-B2",
       "SCAN163-B3"
     ],
-    "best_current_bootstrap": "SCAN163-B1",
-    "best_current_bootstrap_status": "PREFLIGHT_READY_NOT_EXECUTION_AUTHORIZED",
+    "best_current_bootstrap": "NONE_CORE_AUTHORIZED",
+    "best_current_bootstrap_status": "B1_REAL_PAYMENT_EVIDENCE_BUT_DO_NOT_EXECUTE_AFTER_EXACT_INCUMBENT_CLOSURE",
     "decisive_unknown": "WILL_A_RECURRING_OVERSEAS_VERIFICATION_DEMAND_PUMP_BUY_CHINA_WIDE_STANDARDIZED_FIELD_EVIDENCE_CAPACITY_FROM_ONE_ORCHESTRATED_COVERAGE_LAYER_INSTEAD_OF_RECRUITING_ONE_CITY_FREELANCER_AT_A_TIME",
     "active_commercial_candidate_count": 0,
     "active_transaction_unit_count": 0,
     "first_external_value_flow": "NOT_PROVEN",
-    "exact_head_validation_status": "PENDING",
-    "live_jev_status": "PENDING",
+    "exact_head_validation_status": "PENDING_FINAL_AFTER_RESEARCH_QUEUE",
+    "live_jev_status": "PENDING_FINAL_AFTER_RESEARCH_QUEUE",
     "commercial_promotion": false,
     "external_side_effects_performed": false,
     "downstream_paid_tasks_are_validation_only": true,
@@ -3935,6 +3939,26 @@
     "specialist_inspection_first_bootstrap_rejected": true,
     "platform_compliance_required": true,
     "funded_payment_before_local_cost_required": true,
-    "next_action": "EXACT_HEAD_CI_AND_LIVE_JEV_THEN_BIND_REAL_GUANGZHOU_EXECUTOR_COST_AND_PLATFORM_TEAM_ELIGIBILITY_BEFORE_ANY_BID"
+    "next_action": "FINAL_EXACT_HEAD_CI_AND_LIVE_JEV_THEN_ADVANCE_SCAN164_IF_CLOSURE_ALIGNS",
+    "exact_incumbent_preflight_artifact": "data/research_runs/scan163_exact_incumbent_preflight.json",
+    "first_jev_run_id": 35904123590,
+    "first_jev_artifact_id": 10769479959,
+    "first_jev_artifact_digest": "sha256:72d9af650302cf9459db08d9e849ecfc5bccc6b7ecbcef619cf68b57a5c7b8f8",
+    "first_jev_effective_route_counts": {
+      "EXACT_INCUMBENT_PREFLIGHT": 1,
+      "NO_FURTHER_RESEARCH": 2
+    },
+    "first_jev_alignment_counts": {
+      "NO_AUTHORITATIVE_CLOSURE": 1,
+      "ALIGNS_WITH_AUTHORITATIVE_CLOSURE": 2
+    },
+    "first_jev_continuation": "EXECUTE_RESEARCH_QUEUE",
+    "exact_incumbent_preflight_result": "FAIL_DISTINCT_OPERATOR_POSITION",
+    "authoritative_closures": [
+      "ATTRACTION_SCAN_163-F1",
+      "ATTRACTION_SCAN_163-F2",
+      "ATTRACTION_SCAN_163-F3"
+    ],
+    "next_scan_id": "ATTRACTION_SCAN_164"
   }
 }
