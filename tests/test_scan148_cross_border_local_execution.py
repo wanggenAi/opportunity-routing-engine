@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 from src.attraction_discovery import AttractionBeaconState, AttractionDiscoveryProfile, AttractionEvidence, attraction_beacon_state
 from src.strategic_drift_guard import strategic_drift_errors
+from src.jev_research_advisory import build_research_states
 
 ROOT=Path(__file__).resolve().parents[1]
 SCAN_PATH=ROOT/"data"/"research_runs"/"attraction_scan_148.json"
@@ -35,3 +36,13 @@ def test_machine_state_scan148():
  assert st["active_commercial_candidates"]==[] and st["active_transaction_units"]==[] and st["first_external_value_flow"]=="NOT_PROVEN"
  assert st["scan147_broad_reality_shared_capacity"]["exact_head_validation_status"]=="SUCCESS"
  assert st["scan147_broad_reality_shared_capacity"]["final_jev_next_action"]=="ADVANCE_TO_NEXT_SCAN"
+
+def test_scan148_f1_route_consumption_is_authoritative_for_jev():
+ scan=load(SCAN_PATH); st=load(STATE_PATH)
+ states=build_research_states(scan=scan,commercial_state=st,max_entities=5)
+ by_id={x["formation"]["formation_id"]:x for x in states}
+ engine=by_id["ATTRACTION_SCAN_148-F1"]["authoritative_engine_context"]
+ assert engine["existing_scan_verdict"]=="RETAINED_FOR_JEV_RESEARCH_ROUTING_AFTER_BROAD_REALITY_AND_COMPARISON_PROFILE_VALIDATION"
+ assert engine["existing_verdict"].startswith("DEMOTED_AFTER_EXACT_INCUMBENT_PREFLIGHT_")
+ assert engine["resolved_in_commercial_state"] is True
+ assert engine["existing_closure_authoritative"] is True
