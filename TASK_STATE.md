@@ -29,7 +29,7 @@ SCAN157_METHOD_UPGRADE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 `research/scan157-state-change-action-gate`.
 
 ## Active PR
-Not yet opened at this checkpoint.
+PR #471 — `Enforce state-change action-gate ownership in Scan 157` — OPEN.
 
 ## CI
 - Scan 157 exact-head repository CI: PENDING.
@@ -62,7 +62,7 @@ The search problem is now sharper: the engine can find strong public triggers, b
 No human blocker. Exact-head repository CI and real TypeSafe/Jev are pending.
 
 ## Next Action
-Open the Scan 157 PR, freeze its exact head, require exact-head repository CI + real TypeSafe/Jev, consume any reversible route Jev returns, otherwise merge and advance to Scan 158.
+Freeze PR #471 exact head, require exact-head repository CI + real TypeSafe/Jev, consume any reversible route Jev returns, otherwise merge and advance to Scan 158.
 
 ## Do Not Repeat
 - Do not re-scan domains consumed in Scan 142–157 as if a fresh article created a fresh ontology.
