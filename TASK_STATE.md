@@ -5,6 +5,9 @@ GitHub live state wins over this checkpoint if they disagree.
 ## Current Mission
 Run the clean-slate Attraction Field from broad current reality under the machine-enforced regenerative-field guard until a real external value flow is proven.
 
+## Goal
+Prove or close the first post-remediation regenerative high-attraction formation without promoting a transaction proxy; keep commercial promotion frozen until evidence survives exact-head machine and live Jev gates.
+
 ## Current Unique Commercial Research Goal
 Complete Scan 142 exact-head validation and consume the TypeSafe/Jev route for the only surviving high-attraction beacon: distributed flexible-power resources -> VPP eligibility / aggregation routing. Do not promote it commercially until incumbent ownership, scalable data access and operator-control boundaries are source-bound.
 
@@ -29,7 +32,34 @@ SCAN142_REGENERATIVE_FIELD_REBOOT_PERSISTED_EXACT_HEAD_VALIDATION_PENDING
 `research/scan142-regenerative-field-reboot`.
 
 ## Active PR
-Not opened yet at this checkpoint; open from the current branch and then require exact-head repository CI + live TypeSafe/Jev.
+PR #453 — `Run Scan 142 regenerative field reboot` — OPEN on `research/scan142-regenerative-field-reboot`.
+
+## CI
+- Scan 142 initial PR head `4b7af5d5ceec5c12092992cb3f7b2fbb02a1be6a`: repository CI `35864185475` failed only because this checkpoint omitted mandatory recovery-contract headings; no business gate was intentionally weakened.
+- Live TypeSafe/Jev run `35864185497` was still in progress when that stale checkpoint defect was discovered.
+- Current exact head after this checkpoint repair must pass both repository CI and live TypeSafe/Jev before any merge or route consumption decision.
+
+## Latest Artifact / Persisted State
+- `data/research_runs/attraction_scan_142.json` — canonical Scan 142 broad-reality record.
+- `data/research_runs/scan142_regenerative_field_evidence.json` — source-bound field comparison and de-dup evidence.
+- `docs/research/SCAN142_REGENERATIVE_FIELD_REBOOT_2026-09-23.md` — human-readable research report.
+- `tests/test_scan142_regenerative_field_reboot.py` — real attraction-engine and anti-drift regression.
+- `data/commercial_reset_state.json` — machine state retaining only Scan 142 F1 for research.
+
+## Completed
+- PR #452 strategic remediation merged on exact green CI/Jev and quarantined the Scan 128-141 proxy chain.
+- Scan 142 restarted from broad current reality rather than inherited asset/cashflow priors.
+- Four current China fields were compared with source-bound regenerative and capture gates.
+- Only F1 VPP resource-to-operator routing cleared the HIGH_ATTRACTION_BEACON attention floor; F2-F4 were closed.
+- PR #453 opened; first CI exposed only a TASK_STATE recovery-contract formatting defect, now repaired.
+
+## Current Findings
+The VPP field is structurally real and regenerative, but independent operator control remains unproven. The strongest current evidence is the simultaneous presence of small/scattered-resource market-entry difficulty and standardized resource/node/capability/aggregation rails. Existing VPP operators and platform vendors may still absorb the entire proposed routing layer.
+
+## Blockers
+- No commercial blocker is accepted yet; F1 remains research-only.
+- Exact incumbent ownership, scalable candidate-resource/operator-offer data access, and small-operator integration rights are unresolved.
+- This repaired PR head still requires fresh exact-head repository CI and live TypeSafe/Jev.
 
 ## Scan 142 Result
 Broad current-reality sensing covered distributed energy/VPP, cross-border ecommerce returns, idle compute/SME AI workloads, and EV-battery recovery.
