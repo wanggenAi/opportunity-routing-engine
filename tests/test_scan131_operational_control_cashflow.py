@@ -12,11 +12,11 @@ STATE = ROOT / "data" / "commercial_reset_state.json"
 def load(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
-def test_scan131_is_current_auto_jev_input_and_all_formations_are_closed():
+def test_scan131_remains_closed_after_scan132_becomes_current_auto_input():
     state = load(STATE)
     path = resolve_scan_path("auto", state, research_dir=ROOT / "data" / "research_runs")
-    assert state["last_completed_scan_id"] == "ATTRACTION_SCAN_131"
-    assert path == SCAN
+    assert state["last_completed_scan_id"] == "ATTRACTION_SCAN_132"
+    assert path == ROOT / "data" / "research_runs" / "attraction_scan_132.json"
     scan = load(SCAN)
     states = build_research_states(scan=scan, commercial_state=state, max_entities=8)
     assert len(states) == 4
@@ -55,4 +55,4 @@ def test_scan131_evidence_pack_matches_zero_retention_machine_truth():
     assert evidence["scan_conclusion"].endswith("ZERO_RETAINED_ZERO_COMMERCIAL_PROMOTION")
     assert state["retained_research_formations"] == []
     assert state["active_commercial_candidates"] == []
-    assert state["next_scan_id"] == "ATTRACTION_SCAN_132"
+    assert state["next_scan_id"] == "ATTRACTION_SCAN_133"
