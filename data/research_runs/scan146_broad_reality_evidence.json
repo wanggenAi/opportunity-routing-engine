@@ -1,0 +1,73 @@
+{
+  "scan_id": "ATTRACTION_SCAN_146",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "cf36af62ee9664573f95925d132eeaa6b1ac661f",
+  "research_method": "BROAD_REALITY_COMPARISON_WITH_CURRENT_OFFICIAL_AND_OPERATIONAL_SOURCES_FAIL_CLOSED_BEFORE_RETENTION",
+  "sources": {
+    "YOUTH-POPUP-20260914": {
+      "source_class": "CURRENT_NATIONAL_YOUTH_POPUP_SPACE_GUIDANCE",
+      "url": "https://tw.xjbt.gov.cn/c/2026-09-14/8505192.shtml",
+      "date": "2026-09-14",
+      "claim": "The national youth-shop trial guidance explicitly links idle street shops and public/shared commercial space with youth entrepreneurs for 1-3 week low-cost trials, while local Youth League bodies, streets, commercial operators and state-owned asset platforms coordinate sites, compliance, funding and a national project reserve."
+    },
+    "AGRI-MECH-PLAN-202609": {
+      "source_class": "CURRENT_NATIONAL_AGRICULTURAL_MECHANIZATION_PLAN",
+      "url": "https://nync.pingliang.gov.cn/zfxxgk/fdzdgknr/lzyj/sjzc/art/2026/art_50b7c13385624baa8c71599c64d05c54.html",
+      "date": "2026-09-20",
+      "claim": "The national 15th Five-Year agricultural mechanization plan calls for agricultural-machinery service organizations, production trusteeship and order-based operations, information technology for supply-demand matching, regional emergency-service centers and cross-region collaboration."
+    },
+    "AGRI-PENGYANG-20260618": {
+      "source_class": "CURRENT_LOCAL_AGRICULTURAL_SERVICE_EXECUTION",
+      "url": "https://www.pengyang.gov.cn/xxgk_13872/zfxxgkml/zdlyxx/nyxx/202606/t20260618_5268802.html",
+      "date": "2026-06-18",
+      "claim": "Pengyang's 2026 program operates through qualified registered service organizations, contracts, tracked work records, subsidy settlement and government oversight; a planned local ordering app was dropped when conditions were immature, while service still runs through the regulated project system."
+    },
+    "AGRI-PENGYANG-20260525": {
+      "source_class": "CURRENT_LOCAL_AGRICULTURAL_RESOURCE_POOL",
+      "url": "https://www.pengyang.gov.cn/xwzx/zwyw/202605/t20260512_5238070.html",
+      "date": "2026-05-25",
+      "claim": "Pengyang reports 18 selected service organizations, more than 1,700 medium/large agricultural machines and existing village/cooperative service structures, with third-party digital supervision and traceability."
+    },
+    "CLOUD-WAREHOUSE-202609": {
+      "source_class": "CURRENT_NATIONAL_WAREHOUSE_DISCOVERY_PLATFORM",
+      "url": "https://yuncang.org.cn/",
+      "date": "2026-09",
+      "claim": "The National Digital Cloud Warehouse Enterprise Public Service Platform currently lists 7,429 cloud-warehouse companies, 15,938 ten-thousand square metres of leasable warehouse area and coverage of 287 cities, with map discovery and flexible rental/managed-service listings."
+    },
+    "WUHAN-WASTE-20260711": {
+      "source_class": "CURRENT_MUNICIPAL_SOLID_WASTE_MATCHING_PLATFORM",
+      "url": "https://hbj.wuhan.gov.cn/hjxw/202607/t20260713_2819912.html",
+      "date": "2026-07-11",
+      "claim": "Wuhan's Wufeibao platform connects waste-generating enterprises, licensed disposal operators and transporters across industrial, hazardous, household and construction waste, with a trading hall, demand posting and intelligent matching; it reports 610 matched transactions, 1,081 enterprises served and more than RMB6.22M transaction value."
+    },
+    "JIANGSU-PV-20260721": {
+      "source_class": "CURRENT_PROVINCIAL_DISTRIBUTED_PV_POLICY",
+      "url": "https://fzggw.jiangsu.gov.cn/art/2026/7/29/art_84097_11809969.html",
+      "date": "2026-07-21",
+      "claim": "Jiangsu's 2026-2030 distributed-PV plan explicitly targets idle rural/public rooftops, supports village-enterprise cooperation and rooftop leasing, and requires clear agreements covering use term, revenue allocation, roof repair and end-of-contract disposal."
+    },
+    "SUZHOU-ENERGY-20260620": {
+      "source_class": "CURRENT_MARKET_BASED_PUBLIC_BUILDING_ENERGY_SERVICE",
+      "url": "https://www.suzhou.gov.cn/szsrmzf/szyw/202606/f478f4cb61f842a8815c0ecf9fec2def.shtml",
+      "date": "2026-06-20",
+      "claim": "Suzhou reports 87 energy-expense trusteeship projects worth about RMB1.6B and 152 public-institution PV projects totaling 70MW, using centralized asset control, bundled procurement, private capital and integrated energy-service contracts to exploit idle rooftops."
+    }
+  },
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_146-F1",
+    "ATTRACTION_SCAN_146-F2",
+    "ATTRACTION_SCAN_146-F3",
+    "ATTRACTION_SCAN_146-F4",
+    "ATTRACTION_SCAN_146-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "quote_performed": false,
+  "account_created": false,
+  "money_moved": false,
+  "application_submitted": false,
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN147_IF_NO_REVERSIBLE_ROUTE"
+}

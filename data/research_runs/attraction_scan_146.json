@@ -1,0 +1,823 @@
+{
+  "scan_id": "ATTRACTION_SCAN_146",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_REDERIVATION_AFTER_SCAN145_FINAL_ALL_ROUTES_CLOSED",
+  "source_main_sha": "cf36af62ee9664573f95925d132eeaa6b1ac661f",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_145",
+    "prior_pr": 456,
+    "prior_merged_main_sha": "cf36af62ee9664573f95925d132eeaa6b1ac661f",
+    "prior_final_exact_head": "8369f2c558610c836854cc11aa6cb2cf659f25b0",
+    "prior_repository_ci_run_id": 35871705483,
+    "prior_live_jev_run_id": 35871705283,
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scan145_current_service_fields_not_inherited": true
+  },
+  "broad_reality_domains_examined": [
+    "IDLE_COMMERCIAL_SPACE_SHORT_TRIALS",
+    "AGRICULTURAL_MACHINERY_SOCIALIZED_SERVICE",
+    "FLEXIBLE_WAREHOUSE_CAPACITY",
+    "SOLID_WASTE_RESOURCE_CIRCULATION",
+    "IDLE_ROOFTOP_DISTRIBUTED_PV"
+  ],
+  "source_registry": {
+    "YOUTH-POPUP-20260914": {
+      "source_class": "CURRENT_NATIONAL_YOUTH_POPUP_SPACE_GUIDANCE",
+      "url": "https://tw.xjbt.gov.cn/c/2026-09-14/8505192.shtml",
+      "date": "2026-09-14",
+      "claim": "The national youth-shop trial guidance explicitly links idle street shops and public/shared commercial space with youth entrepreneurs for 1-3 week low-cost trials, while local Youth League bodies, streets, commercial operators and state-owned asset platforms coordinate sites, compliance, funding and a national project reserve."
+    },
+    "AGRI-MECH-PLAN-202609": {
+      "source_class": "CURRENT_NATIONAL_AGRICULTURAL_MECHANIZATION_PLAN",
+      "url": "https://nync.pingliang.gov.cn/zfxxgk/fdzdgknr/lzyj/sjzc/art/2026/art_50b7c13385624baa8c71599c64d05c54.html",
+      "date": "2026-09-20",
+      "claim": "The national 15th Five-Year agricultural mechanization plan calls for agricultural-machinery service organizations, production trusteeship and order-based operations, information technology for supply-demand matching, regional emergency-service centers and cross-region collaboration."
+    },
+    "AGRI-PENGYANG-20260618": {
+      "source_class": "CURRENT_LOCAL_AGRICULTURAL_SERVICE_EXECUTION",
+      "url": "https://www.pengyang.gov.cn/xxgk_13872/zfxxgkml/zdlyxx/nyxx/202606/t20260618_5268802.html",
+      "date": "2026-06-18",
+      "claim": "Pengyang's 2026 program operates through qualified registered service organizations, contracts, tracked work records, subsidy settlement and government oversight; a planned local ordering app was dropped when conditions were immature, while service still runs through the regulated project system."
+    },
+    "AGRI-PENGYANG-20260525": {
+      "source_class": "CURRENT_LOCAL_AGRICULTURAL_RESOURCE_POOL",
+      "url": "https://www.pengyang.gov.cn/xwzx/zwyw/202605/t20260512_5238070.html",
+      "date": "2026-05-25",
+      "claim": "Pengyang reports 18 selected service organizations, more than 1,700 medium/large agricultural machines and existing village/cooperative service structures, with third-party digital supervision and traceability."
+    },
+    "CLOUD-WAREHOUSE-202609": {
+      "source_class": "CURRENT_NATIONAL_WAREHOUSE_DISCOVERY_PLATFORM",
+      "url": "https://yuncang.org.cn/",
+      "date": "2026-09",
+      "claim": "The National Digital Cloud Warehouse Enterprise Public Service Platform currently lists 7,429 cloud-warehouse companies, 15,938 ten-thousand square metres of leasable warehouse area and coverage of 287 cities, with map discovery and flexible rental/managed-service listings."
+    },
+    "WUHAN-WASTE-20260711": {
+      "source_class": "CURRENT_MUNICIPAL_SOLID_WASTE_MATCHING_PLATFORM",
+      "url": "https://hbj.wuhan.gov.cn/hjxw/202607/t20260713_2819912.html",
+      "date": "2026-07-11",
+      "claim": "Wuhan's Wufeibao platform connects waste-generating enterprises, licensed disposal operators and transporters across industrial, hazardous, household and construction waste, with a trading hall, demand posting and intelligent matching; it reports 610 matched transactions, 1,081 enterprises served and more than RMB6.22M transaction value."
+    },
+    "JIANGSU-PV-20260721": {
+      "source_class": "CURRENT_PROVINCIAL_DISTRIBUTED_PV_POLICY",
+      "url": "https://fzggw.jiangsu.gov.cn/art/2026/7/29/art_84097_11809969.html",
+      "date": "2026-07-21",
+      "claim": "Jiangsu's 2026-2030 distributed-PV plan explicitly targets idle rural/public rooftops, supports village-enterprise cooperation and rooftop leasing, and requires clear agreements covering use term, revenue allocation, roof repair and end-of-contract disposal."
+    },
+    "SUZHOU-ENERGY-20260620": {
+      "source_class": "CURRENT_MARKET_BASED_PUBLIC_BUILDING_ENERGY_SERVICE",
+      "url": "https://www.suzhou.gov.cn/szsrmzf/szyw/202606/f478f4cb61f842a8815c0ecf9fec2def.shtml",
+      "date": "2026-06-20",
+      "claim": "Suzhou reports 87 energy-expense trusteeship projects worth about RMB1.6B and 152 public-institution PV projects totaling 70MW, using centralized asset control, bundled procurement, private capital and integrated energy-service contracts to exploit idle rooftops."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_146-F1",
+      "title": "Idle short-term commercial spaces -> youth founders needing low-cost physical market tests",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "A current national guidance explicitly identifies both replenishing sides and the state-dependent value jump of short low-cost trials. But the same program assigns site inventory, project pools, compliance coordination, funding and operator selection to Youth League/local-government/commercial-asset partners, so the generic bridge is already institutionally orchestrated and commercial operator control is weak.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "b_voluntary_motion": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "state_dependent_value_jump": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "decision_window": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "bridge_compression": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "activation_ease": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "self_propulsion": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "operator_control": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "a_discoverability": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "b_discoverability": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "match_resolvability": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "action_gate_callability": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "a_population_replenishment": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "b_population_replenishment": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "recurring_connection_pressure": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "recurring_missing_edge": [
+            "YOUTH-POPUP-20260914"
+          ],
+          "recurring_event_source": [
+            "YOUTH-POPUP-20260914"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "YOUTH-POPUP-20260914"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "YOUTH-POPUP-20260914"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "YOUTH-POPUP-20260914"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "YOUTH-POPUP-20260914"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "YOUTH-POPUP-20260914"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "YOUTH-POPUP-20260914"
+        ]
+      },
+      "verdict": "DEMOTED_IDLE_POPUP_SPACE_FIELD_REAL_BUT_YOUTH_LEAGUE_LOCAL_GOVERNMENT_ASSET_PLATFORMS_AND_COMMERCIAL_OPERATORS_ALREADY_CONTROL_SITE_POOL_PROJECT_POOL_COMPLIANCE_AND_SUBSIDIZED_TRIAL_FLOW"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_146-F2",
+      "title": "Small farmers with seasonal machinery needs -> agricultural machinery service organizations and operators",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "The field is strongly regenerative and current policy explicitly seeks information-enabled matching. Yet qualified service organizations, contracts, subsidies, work traceability, insurance and government acceptance already define the transaction surface; local systems and China Agricultural Socialized Service infrastructure control participation, while actual field work remains physical and quality-sensitive.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "b_voluntary_motion": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "state_dependent_value_jump": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "decision_window": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "bridge_compression": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "activation_ease": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "self_propulsion": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "operator_control": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "a_discoverability": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "b_discoverability": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "match_resolvability": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "action_gate_callability": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "a_population_replenishment": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "b_population_replenishment": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "recurring_connection_pressure": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "recurring_missing_edge": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ],
+          "recurring_event_source": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "AGRI-MECH-PLAN-202609",
+            "AGRI-PENGYANG-20260618",
+            "AGRI-PENGYANG-20260525"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "AGRI-MECH-PLAN-202609",
+          "AGRI-PENGYANG-20260618",
+          "AGRI-PENGYANG-20260525"
+        ]
+      },
+      "verdict": "DEMOTED_AGRICULTURAL_MACHINERY_SERVICE_FIELD_REGENERATIVE_BUT_QUALIFIED_SERVICE_ROSTERS_CONTRACTS_SUBSIDY_ACCEPTANCE_TRACKING_AND_GOVERNMENT_PROJECT_CONTROL_ALREADY_OWN_THE_ACTION_SURFACE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_146-F3",
+      "title": "Warehouses with flexible idle capacity -> SMEs needing short-term or managed storage",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "The resource imbalance is direct and discoverable, but a current national cloud-warehouse platform already exposes thousands of warehouse operators, leasable capacity across hundreds of cities, map discovery, rental and managed-service attributes. Generic discovery/matching is therefore not an unowned edge.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 2,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "b_voluntary_motion": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "state_dependent_value_jump": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "decision_window": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "bridge_compression": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "activation_ease": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "self_propulsion": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "operator_control": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "a_discoverability": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "b_discoverability": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "match_resolvability": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "action_gate_callability": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "a_population_replenishment": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "b_population_replenishment": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "recurring_connection_pressure": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "recurring_missing_edge": [
+            "CLOUD-WAREHOUSE-202609"
+          ],
+          "recurring_event_source": [
+            "CLOUD-WAREHOUSE-202609"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CLOUD-WAREHOUSE-202609"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CLOUD-WAREHOUSE-202609"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CLOUD-WAREHOUSE-202609"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CLOUD-WAREHOUSE-202609"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "CLOUD-WAREHOUSE-202609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "CLOUD-WAREHOUSE-202609"
+        ]
+      },
+      "verdict": "DEMOTED_FLEXIBLE_WAREHOUSING_FIELD_REGENERATIVE_BUT_NATIONAL_CLOUD_WAREHOUSE_PLATFORM_ALREADY_OWNS_LARGE_SCALE_CAPACITY_DISCOVERY_MAP_SEARCH_AND_SERVICE_LISTING_SURFACE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_146-F4",
+      "title": "Enterprises generating reusable solid waste -> licensed recyclers, disposal operators and transporters",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Waste/resource mismatch is recurring and the current Wuhan case proves meaningful transaction pressure. But the exact bridge includes licensed disposal, regulated transport and traceability, and a government-backed platform already performs demand posting, intelligent matching and transaction tracking. A generic light router cannot assume transferable control across local regulatory jurisdictions.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 1,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "b_voluntary_motion": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "state_dependent_value_jump": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "decision_window": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "bridge_compression": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "activation_ease": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "self_propulsion": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "operator_control": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "a_discoverability": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "b_discoverability": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "match_resolvability": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "action_gate_callability": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "a_population_replenishment": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "b_population_replenishment": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "recurring_connection_pressure": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "recurring_missing_edge": [
+            "WUHAN-WASTE-20260711"
+          ],
+          "recurring_event_source": [
+            "WUHAN-WASTE-20260711"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WUHAN-WASTE-20260711"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WUHAN-WASTE-20260711"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WUHAN-WASTE-20260711"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WUHAN-WASTE-20260711"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WUHAN-WASTE-20260711"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "WUHAN-WASTE-20260711"
+        ]
+      },
+      "verdict": "DEMOTED_SOLID_WASTE_RESOURCE_CIRCULATION_FIELD_REAL_BUT_LICENSED_DISPOSAL_TRANSPORT_TRACEABILITY_AND_MUNICIPAL_CONTROL_SURFACES_DOMINATE_AND_CURRENT_WUFEIBAO_ALREADY_OWNS_LOCAL_MATCHING"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_146-F5",
+      "title": "Owners of suitable idle rooftops -> distributed-PV investors and energy-service operators",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Current policy intentionally activates idle rooftop resources and creates recurring investor demand, but usable rights depend on property authority, long-term rooftop agreements, grid/engineering feasibility, repair liability and end-of-contract obligations. Current energy-trusteeship programs already bundle assets and capital at scale, so a thin independent matcher lacks the decisive control surface.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 2,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 1,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "b_voluntary_motion": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "state_dependent_value_jump": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "decision_window": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "bridge_compression": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "activation_ease": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "self_propulsion": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "operator_control": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "a_discoverability": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "b_discoverability": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "match_resolvability": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "action_gate_callability": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "a_population_replenishment": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "b_population_replenishment": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "recurring_connection_pressure": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "recurring_missing_edge": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ],
+          "recurring_event_source": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "JIANGSU-PV-20260721",
+            "SUZHOU-ENERGY-20260620"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "JIANGSU-PV-20260721",
+          "SUZHOU-ENERGY-20260620"
+        ]
+      },
+      "verdict": "DEMOTED_IDLE_ROOFTOP_PV_FIELD_REGENERATIVE_BUT_PROPERTY_RIGHTS_LONG_TERM_AGREEMENTS_GRID_ENGINEERING_AND_BUNDLED_ENERGY_SERVICE_CONTROL_PREVENT_LIGHT_ROUTER_OWNERSHIP"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "All five Scan 146 fields are fail-closed at the attraction layer because the routing/action surface is already materially owned by institutional platforms, regulated service systems, mature discovery infrastructure, or asset-rights/engineering control."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_147",
+  "next_search_boundary": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN146_THEN_ADVANCE_TO_A_FRESH_BROAD_REALITY_SCAN_WITHOUT_RESCUING_ANY_CLOSED_FIELD",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN147_IF_EFFECTIVE_ROUTES_ARE_NO_FURTHER_RESEARCH",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scan145_current_service_fields_not_used_as_prior": true,
+    "incumbent_presence_evaluated_before_retention": true,
+    "public_program_not_mistaken_for_unowned_market_gap": true,
+    "regulated_execution_not_mistaken_for_light_routing": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "RESOURCE_UNDERUSE_DOES_NOT_IMPLY_UNOWNED_ROUTING_WHEN_PUBLIC_PROGRAMS_ALREADY_CONTROL_INVENTORY_ELIGIBILITY_AND_ACTIVATION.",
+    "A_POLICY_CALL_FOR_DIGITAL_MATCHING_CAN_COINCIDE_WITH_AN_EXISTING_REGULATED_SERVICE_ROSTER_AND_SETTLEMENT_CHAIN.",
+    "LARGE_DISCOVERABLE_IDLE_CAPACITY_IS_LOW_ATTRACTION_WHEN_A_NATIONAL_PLATFORM_ALREADY_EXPOSES_THE_SAME_SEARCH_AND_MATCHING_SURFACE.",
+    "CIRCULAR_ECONOMY_VALUE_FIELDS_CAN_BE_REAL_WHILE_LICENSES_TRACEABILITY_AND_LOCAL_JURISDICTION_PREVENT_TRANSFERABLE_LIGHT_OPERATOR_CONTROL.",
+    "ASSET_RIGHTS_AND_ENGINEERING_FEASIBILITY_CAN_DOMINATE_A_SEEMINGLY_SIMPLE_ROOFTOP_TO_CAPITAL_MATCH."
+  ],
+  "source_urls": [
+    "https://tw.xjbt.gov.cn/c/2026-09-14/8505192.shtml",
+    "https://nync.pingliang.gov.cn/zfxxgk/fdzdgknr/lzyj/sjzc/art/2026/art_50b7c13385624baa8c71599c64d05c54.html",
+    "https://www.pengyang.gov.cn/xxgk_13872/zfxxgkml/zdlyxx/nyxx/202606/t20260618_5268802.html",
+    "https://www.pengyang.gov.cn/xwzx/zwyw/202605/t20260512_5238070.html",
+    "https://yuncang.org.cn/",
+    "https://hbj.wuhan.gov.cn/hjxw/202607/t20260713_2819912.html",
+    "https://fzggw.jiangsu.gov.cn/art/2026/7/29/art_84097_11809969.html",
+    "https://www.suzhou.gov.cn/szsrmzf/szyw/202606/f478f4cb61f842a8815c0ecf9fec2def.shtml"
+  ]
+}
