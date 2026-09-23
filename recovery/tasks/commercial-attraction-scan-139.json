@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "task_key": "commercial-attraction-scan-139",
+  "generation": 1,
+  "status": "ACTIVE",
+  "reconciled_at": "2026-09-23T08:35:00Z",
+  "live_main": "7e65f79f732631e50d0996179fe481341e82acf3",
+  "work_branch": "research/scan139-transferable-control-cashflows",
+  "frozen_head": "7e65f79f732631e50d0996179fe481341e82acf3",
+  "stage": "SCAN139_TRANSFERABLE_CONTROL_CASHFLOW_DISCOVERY",
+  "scan_id": "ATTRACTION_SCAN_139",
+  "durable_conclusions": [
+    "Scan138 merged after exact-head CI 35837216070 and live TypeSafe/Jev 35837216083; all four routes NO_FURTHER_RESEARCH and continuation ADVANCE_TO_NEXT_SCAN.",
+    "Scan139 should prefer current China mechanisms where transferable control and existing third-party payment obligations are intrinsic, rather than another property-only sampling pass.",
+    "No Scan060-138 formation reuse and no gate relaxation."
+  ],
+  "next_action": "Search fresh current China transfers for contracted operating/usage/royalty/energy/parking/equipment or other low-labor receipt rights with exact entry, exact payment, automatic continuity and >=24 month coverage; dedup before persistence.",
+  "pending_operation": null,
+  "do_not_repeat": [
+    "Do not reuse Scan131 23 Hainan EV charging stations.",
+    "Do not reuse Scan136/137/138 addresses or mechanisms as fresh formations.",
+    "Do not accept rental/operating-right auctions where the buyer pays the operator/owner instead of inheriting receipts.",
+    "Do not contact external parties or commit money without explicit authority."
+  ]
+}
