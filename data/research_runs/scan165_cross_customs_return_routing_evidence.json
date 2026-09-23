@@ -59,19 +59,19 @@
       "claim": "A current China warehouse service lets overseas customers remotely return parcels already stored in China, including domestic courier pickup, activity logs, tracking and photo records."
     }
   },
-  "retained_formation": "ATTRACTION_SCAN_165-F1",
-  "retained_reason": [
-    "The 2026 rule changed the state space: 9610 returns are no longer tied to the original export customs district.",
-    "The official interpretation explicitly says the enterprise may choose a convenient eligible port based on logistics cost/time.",
-    "Operational cases show material cost/time differences and multi-party coordination, creating a plausible routing value jump.",
-    "Current public research found supervised return rails and individual operational channels but did not establish a universal cross-port comparison/routing owner."
-  ],
-  "decisive_unknown": "DO_SELLERS_OR_THEIR_LOGISTICS_PARTNERS_RETAIN_A_REAL_CROSS_PORT_CHOICE_WITH_COMPARABLE_ROUTE_DATA_OR_DO_PLATFORM_CARRIER_AND_SUPERVISED_SITE_CONTRACTS_EFFECTIVELY_PREASSIGN_THE_RETURN_PORT",
-  "cheap_decisive_validation": [
-    "Exact incumbent preflight across platform/carrier/9610 supervised-site offerings.",
-    "Determine whether seller-level route choice survives platform/carrier contracts in actual 9610 flows.",
-    "Determine whether live route attributes/quotes across eligible ports are accessible without recurring customs-broker expert interpretation."
-  ],
+  "retained_formation": null,
+  "retained_reason": [],
+  "decisive_unknown": "RESOLVED_NEGATIVE_POLICY_OPTIONALITY_DOES_NOT_ESTABLISH_OPERATOR_OWNABLE_CROSS_PORT_ROUTING",
+  "cheap_decisive_validation": [],
   "bootstrap_authorized": false,
-  "external_side_effects_performed": false
+  "external_side_effects_performed": false,
+  "exact_incumbent_preflight_artifact": "data/research_runs/scan165_9610_exact_incumbent_preflight.json",
+  "exact_incumbent_preflight_result": "FAIL_DISTINCT_CALLABLE_ROUTING_SURFACE",
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_165-F1",
+    "ATTRACTION_SCAN_165-F2",
+    "ATTRACTION_SCAN_165-F3",
+    "ATTRACTION_SCAN_165-F4",
+    "ATTRACTION_SCAN_165-F5"
+  ]
 }
