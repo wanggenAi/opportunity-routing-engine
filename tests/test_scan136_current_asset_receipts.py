@@ -54,6 +54,14 @@ class Scan136CurrentAssetReceiptsTests(unittest.TestCase):
         path = resolve_scan_path("auto", state, research_dir=ROOT / "data" / "research_runs")
         self.assertEqual(path, SCAN)
 
+    def test_resolved_research_formations_preserve_object_schema(self):
+        state = json.loads(STATE.read_text(encoding="utf-8"))
+        self.assertTrue(all(isinstance(item, dict) for item in state["resolved_research_formations"]))
+        resolved = {item["formation_id"]: item for item in state["resolved_research_formations"]}
+        self.assertIn("ATTRACTION_SCAN_136-F3", resolved)
+        self.assertIn("ATTRACTION_SCAN_136-F4", resolved)
+        self.assertEqual(state["last_resolved_formation_id"], "ATTRACTION_SCAN_136-F4")
+
 
 if __name__ == "__main__":
     unittest.main()
