@@ -1,0 +1,1072 @@
+{
+  "scan_id": "ATTRACTION_SCAN_160",
+  "as_of_date": "2026-09-24",
+  "status": "COMPLETE",
+  "search_mode": "PUBLIC_PRECOMMIT_OPERATIONAL_STATE_CHANGE_PLUS_COMPANY_CONTROLLED_OR_OPEN_STANDARD_REMEDY",
+  "source_main_sha": "d503355a5a12776075dea543b18f0542f2402a79",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_159",
+    "prior_pr": 474,
+    "prior_merged_main_sha": "d503355a5a12776075dea543b18f0542f2402a79",
+    "prior_final_exact_head": "48701d753b509464ff7e260217e216460fec9cb7",
+    "prior_repository_ci_run_id": 35891248498,
+    "prior_repository_ci_test_job_id": 107283967735,
+    "prior_repository_ci_test_count": 809,
+    "prior_live_jev_run_id": 35891248206,
+    "prior_live_jev_artifact_id": 10764344044,
+    "prior_live_jev_artifact_digest": "sha256:20d4c532fe7ad60fa77009b7080e53a2e8d60fc3131cc236d5933ec99885eb1f",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scans142_159_domains_deduplicated_before_search": true
+  },
+  "broad_reality_domains_examined": [
+    "PLANNED_INDUSTRIAL_POWER_INTERRUPTION_CONTINUITY",
+    "PLANNED_INDUSTRIAL_WATER_INTERRUPTION_CONTINUITY",
+    "PLANNED_COMMERCIAL_INDUSTRIAL_GAS_INTERRUPTION_CONTINUITY",
+    "INDUSTRIAL_PARK_ACCESS_CLOSURE_CONTINUITY",
+    "PRESEASON_HEAT_EXCHANGE_STATION_MAINTENANCE"
+  ],
+  "source_registry": {
+    "PWR-YM-20260825": {
+      "source_class": "CURRENT_RECURRING_PLANNED_POWER_INTERRUPTION_WITH_NAMED_SPECIAL_TRANSFORMER_USERS",
+      "url": "https://www.yncxym.gov.cn/info/1011/279347.htm",
+      "date": "2026-08-25",
+      "claim": "Yuanmou publishes a September 2026 planned-outage schedule in advance, including named/specific enterprise special-transformer users such as 10kV甄莓好公司专变 and 国有资产投资公司专变, and tells customers to prepare for outages."
+    },
+    "PWR-JJ-20260629": {
+      "source_class": "CURRENT_NAMED_COMPANY_PLANNED_POWER_OUTAGE",
+      "url": "https://wap.jingjiang.gov.cn/gggs/art/2026/art_149722586.html",
+      "date": "2026-06-29",
+      "claim": "Jingjiang announced a July 8 planned grid-maintenance outage affecting 新天地有限公司 and 嘉良有限公司, with explicit start/end times published before the event."
+    },
+    "PWR-LF-20260227": {
+      "source_class": "CURRENT_NAMED_INDUSTRIAL_PLANNED_POWER_OUTAGE",
+      "url": "https://www.lf.gov.cn/Item/154043.aspx",
+      "date": "2026-02-27",
+      "claim": "Langfang published a March planned-maintenance outage naming multiple industrial users including 龙上行车业、晟昱纺织、完达山（廊坊）牧业 and 鑫煜包装装潢."
+    },
+    "GEN-POST-20260709": {
+      "source_class": "CURRENT_ENTERPRISE_DIESEL_GENERATOR_RENTAL_MARKET_VALIDATION",
+      "url": "https://www.chinapost.com.cn/cn/report/2607/2601-1.htm",
+      "date": "2026-07-09",
+      "claim": "China Post's Shenyang mail center publicly procured two rented diesel generator sets (1000kW and 1200kW) to protect production operation, with a 10-month service period, budget and supplier qualification requirements including an electrical installation/repair/test license."
+    },
+    "WATER-FCG-20260324": {
+      "source_class": "CURRENT_NAMED_INDUSTRIAL_PLANNED_WATER_INTERRUPTION",
+      "url": "https://www.fcgs.gov.cn/zxzx/bmtx/t27380082.shtml",
+      "date": "2026-03-24",
+      "claim": "Fangchenggang announced a March 26 planned raw/tap-water interruption affecting named industrial users including 广钢公司、华昇公司 and 长科新材料公司 and explicitly instructed users to prepare water storage."
+    },
+    "WATER-LG-20260727": {
+      "source_class": "CURRENT_STANDARDIZED_DRINKING_WATER_DELIVERY_MARKET",
+      "url": "https://www.lg.gov.cn/bmzz/qcfjt/ggtz/content/post_12910294.html",
+      "date": "2026-07-27",
+      "claim": "Longgang Industrial Investment Service Group publicly procured recurring bottled/drinking-water delivery with ordinary delivery windows plus emergency orders requiring two-hour response and four-hour delivery."
+    },
+    "WATER-JX-20260421": {
+      "source_class": "CURRENT_UTILITY_OWNED_EMERGENCY_WATER_RESPONSE",
+      "url": "https://www.jining.gov.cn/art/2026/4/21/art_91677_2871074.html",
+      "date": "2026-04-21",
+      "claim": "Jiaxiang Public Water's emergency plan assigns its own/customer-service resources to dispatch emergency water trucks for outages longer than four hours, showing an incumbent utility continuity rail rather than an obviously open missing edge."
+    },
+    "GAS-CQ-20260730": {
+      "source_class": "CURRENT_NAMED_COMMERCIAL_INDUSTRIAL_PLANNED_GAS_INTERRUPTION",
+      "url": "https://www.cq.gov.cn/ywdt/bmts/202607/t20260730_15874841.html",
+      "date": "2026-07-30",
+      "claim": "Chongqing published a planned gas outage affecting a long list of named commercial/industrial users including 天阳吉能、汇浦液压、东都仓储、老肯医疗 and 建新印务, with a defined overnight window and advance production/life preparation reminder."
+    },
+    "GAS-CQ-20260720": {
+      "source_class": "CURRENT_RECURRING_PLANNED_GAS_OUTAGE_STREAM",
+      "url": "https://cq.gov.cn/ywdt/bmts/202607/t20260720_15834912.html",
+      "date": "2026-07-20",
+      "claim": "A separate July 22 Chongqing planned-gas notice shows the event stream recurs across commercial and institutional users and again directs users to prepare in advance."
+    },
+    "ROAD-SZ-20260825": {
+      "source_class": "CURRENT_PREANNOUNCED_INDUSTRIAL_PARK_ACCESS_CLOSURE_WITH_PUBLIC_BYPASS",
+      "url": "https://www.suzhou.gov.cn/szsrmzf/mszx/202608/4c68aec39bbf441db6bc773619fac8b3.shtml",
+      "date": "2026-08-25",
+      "claim": "Suzhou announced a full closure of Wupu Road beside an industrial park from August 29, 2026 to April 15, 2027 and simultaneously published a surrounding-road detour plus navigation-platform diversion measures."
+    },
+    "HEAT-ZL-20260703": {
+      "source_class": "CURRENT_PRESEASON_HEAT_EXCHANGE_STATION_MAINTENANCE_DIRECTIVE",
+      "url": "https://www.gszhuanglang.gov.cn/zfxxgk/fdzdgknr/ggqsydwxxgkml/ggfwqy/zlxkwgryxzrgs/art/2026/art_d0c354fdde2642789114ad048a4adb7d.html",
+      "date": "2026-07-03",
+      "claim": "Zhuanglang heat operator instructed property companies, owners' committees and relevant heat-operation/maintenance units to complete detailed pre-heating-season inspection and maintenance of heat exchangers, pumps, control cabinets, valves and related systems."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_160-F1",
+      "title": "Named enterprises entering a planned power-interruption window -> qualified temporary generation providers able to preserve selected loads",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PUBLIC_PRECOMMIT_OPERATIONAL_EVENT_PLUS_INDEPENDENT_RENTAL_MARKET",
+      "evidence_summary": "Planned grid work repeatedly exposes named/specific enterprise users before interruption, and an independent generator-rental market is directly evidenced. This is the closest Scan160 near miss. It is not retained because the continuity solution still requires load sizing, electrical qualification, connection/testing and site-specific safety/integration; the operator cannot reduce it to nonexpert catalog matching.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "b_voluntary_motion": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "state_dependent_value_jump": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "decision_window": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "bridge_compression": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "activation_ease": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "self_propulsion": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "operator_control": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "a_discoverability": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "b_discoverability": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "match_resolvability": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "action_gate_callability": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "a_population_replenishment": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "b_population_replenishment": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "recurring_connection_pressure": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "recurring_missing_edge": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ],
+          "recurring_event_source": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227",
+            "GEN-POST-20260709"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "PWR-YM-20260825",
+          "PWR-JJ-20260629",
+          "PWR-LF-20260227",
+          "GEN-POST-20260709"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PWR-YM-20260825",
+            "PWR-JJ-20260629",
+            "PWR-LF-20260227"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GEN-POST-20260709"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GEN-POST-20260709"
+          ],
+          "owner_state": "AFFECTED_COMPANY_OWNED_WITH_QUALIFIED_ELECTRICAL_INTEGRATION"
+        }
+      },
+      "verdict": "DEMOTED_PLANNED_POWER_CONTINUITY_HAS_PUBLIC_PRECOMMIT_A_AND_REAL_RENTAL_B_BUT_LOAD_SIZING_ELECTRICAL_QUALIFICATION_AND_SITE_INTEGRATION_KEEP_MATCH_EXPERT_BOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_160-F2",
+      "title": "Named industrial users entering a planned water-interruption window -> continuity water resources able to protect essential operations",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PUBLIC_PRECOMMIT_INDUSTRIAL_WATER_EVENT_WITH_MISMATCHED_OPEN_SUPPLY",
+      "evidence_summary": "The outage event is public, named and pre-commitment, but the current open delivery evidence is standardized drinking water rather than industrial raw/process water. The utility also explicitly asks users to store water and current emergency plans show utility-owned tanker response. Treating bottled-water logistics as evidence for process-water continuity would be an invalid product substitution.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 1,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 1,
+          "activation_ease": 2,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 1,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "b_voluntary_motion": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "state_dependent_value_jump": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "decision_window": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "bridge_compression": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "activation_ease": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "self_propulsion": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "operator_control": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "a_discoverability": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "b_discoverability": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "match_resolvability": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "action_gate_callability": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "a_population_replenishment": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "b_population_replenishment": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "recurring_connection_pressure": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "recurring_missing_edge": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ],
+          "recurring_event_source": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WATER-FCG-20260324",
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "WATER-FCG-20260324",
+          "WATER-LG-20260727",
+          "WATER-JX-20260421"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WATER-FCG-20260324"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WATER-FCG-20260324"
+          ]
+        },
+        "counterparty_population": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "WATER-LG-20260727",
+            "WATER-JX-20260421"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "WATER-FCG-20260324",
+            "WATER-JX-20260421"
+          ],
+          "owner_state": "AFFECTED_COMPANY_STORAGE_OR_INCUMBENT_UTILITY_RESPONSE"
+        }
+      },
+      "verdict": "DEMOTED_PLANNED_INDUSTRIAL_WATER_OUTAGE_PUBLIC_A_BUT_DRINKING_WATER_DELIVERY_CANNOT_BE_RELABELLED_PROCESS_WATER_AND_UTILITY_SELF_HELP_RAILS_ERASE_THE_MISSING_EDGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_160-F3",
+      "title": "Named commercial and industrial gas users entering a planned outage window -> temporary continuity alternatives",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PUBLIC_PRECOMMIT_GAS_EVENT_WITH_UNPROVEN_SAFE_STANDARD_COUNTERPARTY",
+      "evidence_summary": "Repeated notices expose named commercial/industrial users before a gas interruption, but the scan did not establish a standardized, generally safe substitute-supply counterparty class. Fuel switching, temporary gas/heat supply and recommissioning are site- and safety-sensitive, so an operator may not infer a routable market from the outage list alone.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 1,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 1,
+          "activation_ease": 1,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 1,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 1,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "b_voluntary_motion": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "state_dependent_value_jump": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "decision_window": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "bridge_compression": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "activation_ease": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "self_propulsion": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "operator_control": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "a_discoverability": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "b_discoverability": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "match_resolvability": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "action_gate_callability": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "a_population_replenishment": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "b_population_replenishment": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "recurring_connection_pressure": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "recurring_missing_edge": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ],
+          "recurring_event_source": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "GAS-CQ-20260730",
+          "GAS-CQ-20260720"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "GAS-CQ-20260730",
+            "GAS-CQ-20260720"
+          ]
+        },
+        "counterparty_population": {
+          "state": "UNKNOWN",
+          "evidence_refs": []
+        },
+        "decisive_action_gate": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "GAS-CQ-20260730"
+          ],
+          "owner_state": "SAFETY_AND_SITE_SPECIFIC_UNKNOWN"
+        }
+      },
+      "verdict": "DEMOTED_PLANNED_GAS_OUTAGE_PUBLIC_PRECOMMIT_A_BUT_NO_EVIDENCED_SAFE_STANDARD_B_AND_SITE_SAFETY_ENGINEERING_BLOCKS_NONEXPERT_ROUTING"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_160-F4",
+      "title": "Industrial-area users facing a preannounced road closure -> alternate access and routing paths",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PRECOMMIT_ACCESS_DISRUPTION_WITH_PUBLICLY_SUPPLIED_BYPASS",
+      "evidence_summary": "The road closure is known before it starts and can affect industrial access, but the same official notice supplies the detour and states that navigation platforms will perform diversion. The bridge is therefore already resolved by public infrastructure and generic routing tools; inventing a paid orchestrator would recreate an existing bypass rather than discover a missing edge.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 2,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 2,
+          "decision_window": 3,
+          "bridge_compression": 1,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 1,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "ROAD-SZ-20260825"
+          ],
+          "b_voluntary_motion": [
+            "ROAD-SZ-20260825"
+          ],
+          "state_dependent_value_jump": [
+            "ROAD-SZ-20260825"
+          ],
+          "decision_window": [
+            "ROAD-SZ-20260825"
+          ],
+          "bridge_compression": [
+            "ROAD-SZ-20260825"
+          ],
+          "activation_ease": [
+            "ROAD-SZ-20260825"
+          ],
+          "self_propulsion": [
+            "ROAD-SZ-20260825"
+          ],
+          "operator_control": [
+            "ROAD-SZ-20260825"
+          ],
+          "a_discoverability": [
+            "ROAD-SZ-20260825"
+          ],
+          "b_discoverability": [
+            "ROAD-SZ-20260825"
+          ],
+          "match_resolvability": [
+            "ROAD-SZ-20260825"
+          ],
+          "action_gate_callability": [
+            "ROAD-SZ-20260825"
+          ],
+          "a_population_replenishment": [
+            "ROAD-SZ-20260825"
+          ],
+          "b_population_replenishment": [
+            "ROAD-SZ-20260825"
+          ],
+          "recurring_connection_pressure": [
+            "ROAD-SZ-20260825"
+          ],
+          "recurring_missing_edge": [
+            "ROAD-SZ-20260825"
+          ],
+          "recurring_event_source": [
+            "ROAD-SZ-20260825"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": true
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ROAD-SZ-20260825"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ROAD-SZ-20260825"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ROAD-SZ-20260825"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "ROAD-SZ-20260825"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ROAD-SZ-20260825"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "ROAD-SZ-20260825"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ROAD-SZ-20260825"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "ROAD-SZ-20260825"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ROAD-SZ-20260825"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ROAD-SZ-20260825"
+          ],
+          "owner_state": "PUBLIC_BYPASS_AND_AFFECTED_ACTOR_ROUTING"
+        }
+      },
+      "verdict": "DEMOTED_INDUSTRIAL_ACCESS_CLOSURE_IS_PREANNOUNCED_BUT_PUBLIC_DETOUR_AND_NAVIGATION_ALREADY_RESOLVE_THE_EDGE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_160-F5",
+      "title": "Property and heat-operation actors entering a preseason maintenance window -> qualified heat-exchange maintenance capability",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_PRECOMMIT_MAINTENANCE_WINDOW_WITH_INCUMBENT_ROLE_STRUCTURE",
+      "evidence_summary": "The preseason notice defines a real maintenance window and concrete equipment tasks, but it addresses property companies, owners' committees and relevant heat-operation/maintenance units as already assigned actors rather than publishing a named unmet A-side queue. Existing property/heat-operation responsibility therefore dominates the action gate and public discoverability is too weak for a fresh routing field.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 2,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 2,
+          "decision_window": 3,
+          "bridge_compression": 1,
+          "activation_ease": 2,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 1,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "HEAT-ZL-20260703"
+          ],
+          "b_voluntary_motion": [
+            "HEAT-ZL-20260703"
+          ],
+          "state_dependent_value_jump": [
+            "HEAT-ZL-20260703"
+          ],
+          "decision_window": [
+            "HEAT-ZL-20260703"
+          ],
+          "bridge_compression": [
+            "HEAT-ZL-20260703"
+          ],
+          "activation_ease": [
+            "HEAT-ZL-20260703"
+          ],
+          "self_propulsion": [
+            "HEAT-ZL-20260703"
+          ],
+          "operator_control": [
+            "HEAT-ZL-20260703"
+          ],
+          "a_discoverability": [
+            "HEAT-ZL-20260703"
+          ],
+          "b_discoverability": [
+            "HEAT-ZL-20260703"
+          ],
+          "match_resolvability": [
+            "HEAT-ZL-20260703"
+          ],
+          "action_gate_callability": [
+            "HEAT-ZL-20260703"
+          ],
+          "a_population_replenishment": [
+            "HEAT-ZL-20260703"
+          ],
+          "b_population_replenishment": [
+            "HEAT-ZL-20260703"
+          ],
+          "recurring_connection_pressure": [
+            "HEAT-ZL-20260703"
+          ],
+          "recurring_missing_edge": [
+            "HEAT-ZL-20260703"
+          ],
+          "recurring_event_source": [
+            "HEAT-ZL-20260703"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HEAT-ZL-20260703"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HEAT-ZL-20260703"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HEAT-ZL-20260703"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "HEAT-ZL-20260703"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HEAT-ZL-20260703"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "HEAT-ZL-20260703"
+        ]
+      },
+      "state_change_gate": {
+        "event_trace": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HEAT-ZL-20260703"
+          ]
+        },
+        "affected_actor_population": {
+          "state": "UNKNOWN",
+          "evidence_refs": [
+            "HEAT-ZL-20260703"
+          ]
+        },
+        "counterparty_population": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HEAT-ZL-20260703"
+          ]
+        },
+        "decisive_action_gate": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "HEAT-ZL-20260703"
+          ],
+          "owner_state": "PROPERTY_OR_INCUMBENT_HEAT_OPERATOR_OWNED"
+        }
+      },
+      "verdict": "DEMOTED_PRESEASON_HEAT_MAINTENANCE_HAS_REAL_WINDOW_BUT_NO_PUBLIC_NAMED_UNMET_A_QUEUE_AND_INCUMBENT_PROPERTY_HEAT_ROLES_OWN_EXECUTION"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "near_miss_formations": [
+    "ATTRACTION_SCAN_160-F1"
+  ],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "external_contact_performed": false,
+    "money_moved": false
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_161",
+  "next_search_boundary": "PUBLIC_PRECOMMIT_OPERATIONAL_STATE_CHANGE_WITH_NAMED_A_PLUS_MODULAR_NON_SAFETY_B_OUTPUT_PLUS_OPEN_REPEATABLE_EXECUTION_WITHOUT_SITE_INTEGRATION_OR_GENERIC_BYPASS",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN161",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "prior_domain_deduplication_checked": true,
+    "state_change_first_search": true,
+    "decisive_action_gate_owner_checked": true,
+    "public_affected_actor_discoverability_checked": true,
+    "standardizable_nonexpert_match_checked": true,
+    "open_remedy_not_missing_edge_checked": true,
+    "precommitment_event_required": true,
+    "industrial_drinking_water_substitution_forbidden": true,
+    "hazardous_or_safety_sensitive_work_not_routed_as_generic_match": true,
+    "downstream_procurement_used_only_as_validation": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "PUBLIC_PRECOMMIT_EVENT_VISIBILITY_NE_STANDARD_ROUTABILITY",
+    "CURRENT_GENERATOR_RENTAL_MARKET_EXISTS_BUT_ELECTRICAL_INTEGRATION_REMAINS_EXPERT_BOUND",
+    "DRINKING_WATER_DELIVERY_NE_INDUSTRIAL_PROCESS_WATER_CONTINUITY",
+    "SAFETY_SENSITIVE_GAS_SUBSTITUTION_MUST_FAIL_CLOSED_WITHOUT_A_SAFE_STANDARD_COUNTERPARTY",
+    "PUBLIC_DETOUR_OR_INCUMBENT_RESPONSE_CAN_ERASE_THE_MISSING_EDGE"
+  ],
+  "source_urls": [
+    "https://www.yncxym.gov.cn/info/1011/279347.htm",
+    "https://wap.jingjiang.gov.cn/gggs/art/2026/art_149722586.html",
+    "https://www.lf.gov.cn/Item/154043.aspx",
+    "https://www.chinapost.com.cn/cn/report/2607/2601-1.htm",
+    "https://www.fcgs.gov.cn/zxzx/bmtx/t27380082.shtml",
+    "https://www.lg.gov.cn/bmzz/qcfjt/ggtz/content/post_12910294.html",
+    "https://www.jining.gov.cn/art/2026/4/21/art_91677_2871074.html",
+    "https://www.cq.gov.cn/ywdt/bmts/202607/t20260730_15874841.html",
+    "https://cq.gov.cn/ywdt/bmts/202607/t20260720_15834912.html",
+    "https://www.suzhou.gov.cn/szsrmzf/mszx/202608/4c68aec39bbf441db6bc773619fac8b3.shtml",
+    "https://www.gszhuanglang.gov.cn/zfxxgk/fdzdgknr/ggqsydwxxgkml/ggfwqy/zlxkwgryxzrgs/art/2026/art_d0c354fdde2642789114ad048a4adb7d.html"
+  ]
+}
