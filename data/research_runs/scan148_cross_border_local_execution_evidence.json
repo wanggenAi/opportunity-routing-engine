@@ -1,0 +1,65 @@
+{
+  "scan_id": "ATTRACTION_SCAN_148",
+  "as_of_date": "2026-09-23",
+  "source_main_sha": "d98dd7d1a0770f1223341a5241abdfda20df1ee8",
+  "research_method": "BROAD_REALITY_REMOTE_TO_LOCAL_PHYSICAL_EXECUTION_WITH_COMPARISON_PROFILE_BOUNDARIES",
+  "sources": {
+    "LOCAL-AGENT-SERVICES-202609": {
+      "source_class": "CURRENT_CHINA_SIDE_EXECUTION_SERVICE_CATALOG",
+      "url": "https://chinalocalagent.com/services",
+      "date": "2026-09-23",
+      "claim": "ChinaLocalAgent currently presents multiple China-side execution categories including sourcing, supplier verification, foreigner local assistance and practical local execution, scoped by location, access, timing and evidence requirements."
+    },
+    "LOCAL-AGENT-ERRANDS-202609": {
+      "source_class": "CURRENT_OVERSEAS_CLIENT_PHYSICAL_TASK_SERVICE",
+      "url": "https://chinalocalagent.com/services/personal-errands-concierge",
+      "date": "2026-09-23",
+      "claim": "The current service explicitly targets overseas clients who need clearly defined physical tasks handled in China, including package handling, appointments, local purchases and records of completion."
+    },
+    "ZERRAND-CROSSBORDER-202609": {
+      "source_class": "CURRENT_CROSS_BORDER_LOCAL_EXECUTION_SERVICE",
+      "url": "https://www.zerrand.com/en/cross-border/",
+      "date": "2026-09-23",
+      "claim": "Zerrand currently offers China/Hong Kong cross-border lost-and-found recovery, proxy buying, on-site assistance and document retrieval for clients abroad, including physical pickup, visits, evidence capture and courier handoff."
+    },
+    "CHINA-BIZ-AGENT-202609": {
+      "source_class": "CURRENT_REMOTE_TO_LOCAL_EXECUTION_PROVIDER",
+      "url": "https://chinabizagent.com/about-us/",
+      "date": "2026-09-23",
+      "claim": "China Biz Agent describes itself as a China-based local execution service for international clients completing real-world tasks without being physically present, with task briefs centered on checking, collecting, verifying or delivering."
+    },
+    "FACTORY-VISIT-INCUMBENT-202609": {
+      "source_class": "CURRENT_FACTORY_VISIT_INCUMBENT",
+      "url": "https://chinalocalagent.com/services/factory-and-site-visits",
+      "date": "2026-09-23",
+      "claim": "Factory/site visits are already productized around checklist planning, lawful site attendance, permitted photo/video evidence and visit reports, with specialist inspection explicitly excluded."
+    },
+    "ENSAMICO-FACTORY-202609": {
+      "source_class": "CURRENT_SPECIALIST_FACTORY_VISIT_PROVIDER",
+      "url": "https://ensamico.com/source-china/factory-visits/",
+      "date": "2026-09-23",
+      "claim": "Ensamico currently offers overseas buyers structured factory visits in China with visit coordination, facility observations, supplier meetings and traceable evidence, while separating commercial observation from certified or technical audit."
+    },
+    "CHINA-AGENT-VISITS-202609": {
+      "source_class": "CURRENT_ESTABLISHED_CHINA_BUYER_SERVICE",
+      "url": "https://www.china-agent.com/special-china-services-factory-visits-inspections-and-sourcing-support",
+      "date": "2026-09-23",
+      "claim": "China Agent currently provides productized fixed-price China-side verification, visits and buyer support for international buyers and states it has operated in China since 2009."
+    }
+  },
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_148-F1"
+  ],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_148-F2",
+    "ATTRACTION_SCAN_148-F3",
+    "ATTRACTION_SCAN_148-F4",
+    "ATTRACTION_SCAN_148-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_F1_EFFECTIVE_ROUTE"
+}
