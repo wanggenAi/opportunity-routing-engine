@@ -488,17 +488,42 @@
       "formation_id": "ATTRACTION_SCAN_146-F5",
       "verdict": "DEMOTED_IDLE_ROOFTOP_PV_FIELD_REGENERATIVE_BUT_PROPERTY_RIGHTS_LONG_TERM_AGREEMENTS_GRID_ENGINEERING_AND_BUNDLED_ENERGY_SERVICE_CONTROL_PREVENT_LIGHT_ROUTER_OWNERSHIP",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_147-F1",
+      "verdict": "DEMOTED_IDLE_COMPUTE_FIELD_REGENERATIVE_BUT_CHINA_COMPUTE_PLATFORM_ALREADY_OWNS_SUPPLY_DEMAND_MATCHING_FLEXIBLE_METERING_CROSS_REGION_DISPATCH_SUBSIDY_AND_ONE_STOP_PROCUREMENT",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_147-F2",
+      "verdict": "DEMOTED_SHARED_MANUFACTURING_FIELD_REAL_BUT_CURRENT_SHARED_FACTORY_PLATFORMS_ALREADY_OWN_ENGINEERING_PROTOTYPING_VALIDATION_AND_PRODUCTION_CONTROL_NOT_JUST_DISCOVERY",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_147-F3",
+      "verdict": "DEMOTED_SHARED_PARKING_FIELD_REGENERATIVE_BUT_CURRENT_PARKING_PLATFORMS_ALREADY_OWN_IDLE_SLOT_PUBLICATION_SEARCH_RESERVATION_RENTAL_AND_OPERATIONS",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_147-F4",
+      "verdict": "DEMOTED_COLD_STORAGE_CAPACITY_FIELD_REGENERATIVE_BUT_LIANKU_ALREADY_OWNS_DEMAND_POSTING_WAREHOUSE_DISCOVERY_SITE_SELECTION_CERTIFICATION_AND_CUSTOM_TENANT_ACQUISITION",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_147-F5",
+      "verdict": "DEMOTED_USED_EQUIPMENT_RESOURCE_CIRCULATION_FIELD_REAL_BUT_NATIONAL_FUNCTIONAL_PLATFORM_APPRAISAL_COMPLIANCE_AND_MULTI_FLOW_SETTLEMENT_ARE_THE_DECISIVE_CONTROL_SURFACES",
+      "resolved_date": "2026-09-23"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_146",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_146-F5",
-  "next_scan_id": "ATTRACTION_SCAN_147",
-  "current_research_action": "FREEZE_SCAN146_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN147_IF_NO_REVERSIBLE_ROUTE",
+  "last_completed_scan_id": "ATTRACTION_SCAN_147",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_147-F5",
+  "next_scan_id": "ATTRACTION_SCAN_148",
+  "current_research_action": "FREEZE_SCAN147_HEAD_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN148_IF_NO_REVERSIBLE_ROUTE",
   "current_validation_state": {
     "formation_id": null,
-    "state": "SCAN146_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "state": "SCAN147_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
     "commercial_candidate": false,
     "external_contact_performed": false,
     "external_contact_authorized": false
@@ -2073,7 +2098,7 @@
     "deposit_authorized": false,
     "purchase_authorized": false
   },
-  "last_completed_scan_file": "data/research_runs/attraction_scan_146.json",
+  "last_completed_scan_file": "data/research_runs/attraction_scan_147.json",
   "last_completed_scan_result": "ZERO_HIGH_ATTRACTION_BEACONS_ALL_FIVE_CURRENT_FIELDS_CLOSED_AT_INITIAL_ATTRACTION_LAYER",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
@@ -2560,7 +2585,7 @@
     "preflight_autonomous_continuation_allowed": true,
     "preflight_resolution": "CLOSED_DISTINCT_UNOWNED_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED_AFTER_CURRENT_OFFICIAL_CONTROL_SURFACE_PREFLIGHT"
   },
-  "next_action": "REQUIRE_SCAN146_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN147_IF_EFFECTIVE_ROUTES_NO_FURTHER_RESEARCH",
+  "next_action": "REQUIRE_SCAN147_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN148_IF_EFFECTIVE_ROUTES_NO_FURTHER_RESEARCH",
   "scan143_broad_reality_trust_routing": {
     "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "c4d3da4d67f067a512642beb272eeafa7fd0fa34",
@@ -2706,7 +2731,7 @@
     "merged_main_sha": "cf36af62ee9664573f95925d132eeaa6b1ac661f"
   },
   "scan146_broad_reality_resource_circulation": {
-    "status": "INITIAL_SCAN_COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "cf36af62ee9664573f95925d132eeaa6b1ac661f",
     "canonical_scan_artifact": "data/research_runs/attraction_scan_146.json",
     "evidence_artifact": "data/research_runs/scan146_broad_reality_evidence.json",
@@ -2722,10 +2747,46 @@
     "active_commercial_candidate_count": 0,
     "active_transaction_unit_count": 0,
     "first_external_value_flow": "NOT_PROVEN",
+    "exact_head_validation_status": "SUCCESS",
+    "live_jev_status": "SUCCESS",
+    "next_scan_id": "ATTRACTION_SCAN_147",
+    "next_action": "COMPLETED_ADVANCE_TO_SCAN147",
+    "commercial_promotion": false,
+    "external_side_effects_performed": false,
+    "final_exact_head_sha": "d94d9e620463355d464193d4d3d82078bcf50978",
+    "final_repository_ci_run_id": 35872960284,
+    "final_repository_ci_conclusion": "SUCCESS",
+    "final_jev_run_id": 35872960287,
+    "final_jev_artifact_id": 10755464338,
+    "final_jev_artifact_digest": "sha256:bdef328023b124bff60aa5089ea739aa467be777f4f281b61aa894691da4ceeb",
+    "final_jev_effective_route_counts": {
+      "NO_FURTHER_RESEARCH": 5
+    },
+    "final_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "merged_pr": 458,
+    "merged_main_sha": "09081f124b8ed97ca8def14e6c4409fad048f243"
+  },
+  "scan147_broad_reality_shared_capacity": {
+    "status": "INITIAL_SCAN_COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "source_main_sha": "09081f124b8ed97ca8def14e6c4409fad048f243",
+    "canonical_scan_artifact": "data/research_runs/attraction_scan_147.json",
+    "evidence_artifact": "data/research_runs/scan147_broad_reality_evidence.json",
+    "report": "docs/research/SCAN147_BROAD_REALITY_SHARED_CAPACITY_2026-09-23.md",
+    "retained_research_formations": [],
+    "authoritative_closures": [
+      "ATTRACTION_SCAN_147-F1",
+      "ATTRACTION_SCAN_147-F2",
+      "ATTRACTION_SCAN_147-F3",
+      "ATTRACTION_SCAN_147-F4",
+      "ATTRACTION_SCAN_147-F5"
+    ],
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "first_external_value_flow": "NOT_PROVEN",
     "exact_head_validation_status": "PENDING",
     "live_jev_status": "PENDING",
-    "next_scan_id": "ATTRACTION_SCAN_147",
-    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN147_IF_NO_REVERSIBLE_ROUTE",
+    "next_scan_id": "ATTRACTION_SCAN_148",
+    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN148_IF_NO_REVERSIBLE_ROUTE",
     "commercial_promotion": false,
     "external_side_effects_performed": false
   }
