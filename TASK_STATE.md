@@ -45,7 +45,9 @@ PR #426 exact-head `081b71368d505907a0dcce9d6c61e0911874769a`:
 
 ## Active PR
 
-None yet. Finish implementation/state/tests, freeze the branch head, then open one PR.
+#428 — `Calibrate discovery from real success patterns without weakening attraction gates`.
+
+Current exact-head validation must be rerun after the CI-fix commit; do not merge stale checks.
 
 ## Scan 125 Result
 
@@ -102,9 +104,37 @@ This deadline does not require launching something weak. By the deadline:
 - if no genuine high-attraction formation exists, widen source universe and mechanism diversity;
 - never lower bilateral pull, discoverability, match-resolvability, callable-action, founder-independence, operator-control, non-genericity or economics gates.
 
+## CI
+
+PR #428 first head `b99fa70d1197d4d3a4fdd396774e11aaa3190b66`:
+- repository CI `35810827575`: failed on recovery-contract headings plus one test-file newline encoding mistake;
+- Jev run on that head is not sufficient after this fix because the branch head has changed;
+- these are implementation/contract defects, not permission to bypass CI.
+
+Required before merge:
+1. repository CI success on the new exact head;
+2. live TypeSafe/Jev success on the same exact head;
+3. no branch mutation after the final validated head.
+
 ## Parallel Validation
 
 `ATTRACTION_SCAN_015-F1` remains unchanged. Last verified inbox state is still no official written provider reply. Silence is neither pass nor fail.
+
+## Latest Artifact / Persisted State
+
+Success-pattern calibration:
+- `data/research_runs/success_pattern_calibration_2026_09_23.json`;
+- `docs/research/SUCCESS_PATTERN_CALIBRATION_2026-09-23.md`;
+- `src/success_pattern_calibration.py`;
+- `tests/test_success_pattern_calibration.py`.
+
+Machine state:
+- last completed scan = `ATTRACTION_SCAN_125`;
+- next scan = `ATTRACTION_SCAN_126`;
+- active commercial candidates = 0;
+- retained research formations = 0;
+- FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`;
+- Scan 126 search boundary = precedent-calibrated broad reality with unchanged Attraction Field floors.
 
 ## Current Findings
 
