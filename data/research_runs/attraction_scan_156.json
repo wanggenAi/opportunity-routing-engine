@@ -1,0 +1,921 @@
+{
+  "scan_id": "ATTRACTION_SCAN_156",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "FRESH_BROAD_CURRENT_REALITY_CONTROL_SURFACE_GAP_AFTER_SCAN155_FINAL_CLOSURE",
+  "source_main_sha": "4a66734842ca2ee838326658f687d60733c14757",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_155",
+    "prior_pr": 469,
+    "prior_merged_main_sha": "4a66734842ca2ee838326658f687d60733c14757",
+    "prior_final_exact_head": "8eae176402ac3e7f1a3ab9c60e18dc270092725e",
+    "prior_repository_ci_run_id": 35886109470,
+    "prior_repository_ci_test_job_id": 107266544554,
+    "prior_repository_ci_test_count": 788,
+    "prior_live_jev_run_id": 35886109473,
+    "prior_live_jev_artifact_id": 10761878931,
+    "prior_live_jev_artifact_digest": "sha256:8409be039ecab7d06c60fdbdb5224f9c7d3e6f834441dbb7b23e9f96bc2de049",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scans142_155_domains_deduplicated_before_search": true
+  },
+  "broad_reality_domains_examined": [
+    "NEW_ENERGY_SPARE_PARTS_POOLING",
+    "STANDARD_PALLET_POOLING",
+    "SCHOOL_SPORTS_VENUE_ACCESS",
+    "STATE_OWNED_PROPERTY_INTERNAL_MATCHING",
+    "SURPLUS_FOOD_RECOVERY"
+  ],
+  "source_registry": {
+    "SPARES-JD-20260626": {
+      "source_class": "CURRENT_NEW_ENERGY_SPARE_PARTS_SHARED_SUPPLY_PLATFORM",
+      "url": "https://www.qudong.com/article/517449.html",
+      "date": "2026-06-26",
+      "claim": "A current industry report says JD Industrial and the Wind-Solar-Thermal-Storage branch launched a shared new-energy spare-parts supply-chain platform to aggregate inventories, standardize SKUs, enable cross-company joint reserves and emergency allocation, and reduce fragmented sourcing and idle inventory."
+    },
+    "SPARES-JD-CURRENT": {
+      "source_class": "CURRENT_INDUSTRIAL_PROCUREMENT_CONTROL_SURFACE",
+      "url": "https://jdbusiness.jd.com/jdenterprise_products.html",
+      "date": "2026-09-23",
+      "claim": "JD Industrial currently operates an industrial-goods procurement platform that directly links brands and enterprise buyers and provides supply-demand matching, procurement and supply-chain services."
+    },
+    "PALLET-CQ-20260626": {
+      "source_class": "CURRENT_STANDARDIZED_PALLET_POOLING_RULE",
+      "url": "https://std.samr.gov.cn/db/search/stdDBDetailed?id=584ACE29A098CC19E06397BE0A0AA430",
+      "date": "2026-06-26",
+      "claim": "Chongqing published DB50/T 2019-2026, a current operating guide for standardized cold-chain pallet pooling, covering pallet operating centers, network nodes and participating enterprises and units."
+    },
+    "PALLET-GREEN-2026": {
+      "source_class": "CURRENT_POLICY_SUPPORT_FOR_SHARED_LOGISTICS_UNITS",
+      "url": "https://www.jingtai.gov.cn/zfxxgk/bmhxzxxgk/xzfzcbmzsjgml/xgxj/fdzdgknr/zcjd/art/2026/art_8de7353e45c54680b4347dd783ca15ae.html",
+      "date": "2026",
+      "claim": "The 2026 green-consumption action promotes common distribution and circular sharing of pallets and turnover containers as established green-supply-chain operating models."
+    },
+    "SPORT-HUADU-20260727": {
+      "source_class": "CURRENT_SCHOOL_SPORTS_SMART_BOOKING_RAIL",
+      "url": "https://www.huadu.gov.cn/xxgk/yata/content/post_10980420.html",
+      "date": "2026-07-27",
+      "claim": "Huadu reports a school-sports opening model built around strict admission, multi-party governance, smart reservations and insurance, showing that access, qualification and booking are already institutionally controlled."
+    },
+    "SPORT-HUADU-2026": {
+      "source_class": "CURRENT_SCHOOL_SPORTS_CAPACITY_AND_MULTI_CHANNEL_RESERVATION",
+      "url": "https://www.huadu.gov.cn/gzjg/rdzxqtgjjg/qzx/jyxc/content/post_10871729.html",
+      "date": "2026",
+      "claim": "Huadu reports all 135 eligible public-school sports venues open to the public with five reservation channels, including a district campus fitness card, the city platform, app, offline reservation and government mini-program."
+    },
+    "SOE-PROPERTY-SJZ-20260806": {
+      "source_class": "CURRENT_STATE_OWNED_PROPERTY_INFORMATION_ASYMMETRY",
+      "url": "https://gzw.sjz.gov.cn/columns/c7f8c855-8403-4819-a296-17a9464ea241/202608/06/36deff70-1ed0-45dd-9d99-faf67c5f1137.html",
+      "date": "2026-08-06",
+      "claim": "Shijiazhuang SASAC explicitly reports information asymmetry between idle state-owned property and enterprise space demand, and calls for dynamic ledgers and a regular information-sharing and matching mechanism while requiring compliant public rental procedures."
+    },
+    "SOE-PROPERTY-NATIONAL-20260923": {
+      "source_class": "CURRENT_PUBLIC_STATE_ASSET_LISTING_AND_TRANSFER_CONTROL_SURFACE",
+      "url": "https://zcgl.ggj.gov.cn/zcmh/",
+      "date": "2026-09-23",
+      "claim": "The central administrative public-asset portal currently publishes asset disposal and rental information and exposes national public-asset warehouse and adjustment systems, evidencing an institutional control surface for state-asset circulation."
+    },
+    "FOOD-YIZHENG-20260702": {
+      "source_class": "CURRENT_SURPLUS_FOOD_DONATION_MATCHING_RAIL",
+      "url": "https://scjgj.jiangsu.gov.cn/art/2026/7/2/art_70154_11798185.html",
+      "date": "2026-07-02",
+      "claim": "Jiangsu market regulators report Yizheng using online WeChat channels plus offline charity stations to match compliant surplus and near-expiry food from merchants to recipient groups under quality, registration and storage controls."
+    },
+    "FOOD-MAGICBAG-CURRENT": {
+      "source_class": "CURRENT_COMMERCIAL_SURPLUS_FOOD_MARKETPLACE",
+      "url": "https://magicbag.xishi.life/business",
+      "date": "2026-09-23",
+      "claim": "Magic Bag currently recruits food businesses to sell surplus food and reports more than 18,000 industry partners, evidencing an operating commercial marketplace for merchant surplus recovery."
+    },
+    "FOOD-CCFA-20260520": {
+      "source_class": "CURRENT_RETAIL_FOOD_SURPLUS_INDUSTRY_ACTION",
+      "url": "https://npo13385d.npoall.com/news/itemid-266900.html",
+      "date": "2026-05-20",
+      "claim": "The China Chain Store & Franchise Association launched a 2026 retail and catering surplus-food rescue initiative with merchants and ecosystem partners, confirming repeated fresh-food loss and active industry coordination."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_156-F1",
+      "title": "New-energy operators with time-critical spare-parts shortages -> manufacturers suppliers and peer inventories with compatible available parts",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "The field has strong urgency and regenerative inventory/demand, but a current shared supply-chain initiative explicitly standardizes SKUs, aggregates supplier and peer inventory, supports joint reserves and emergency allocation, while JD Industrial already owns procurement and supply-demand matching. The generic routing edge is being directly productized.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "b_voluntary_motion": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "state_dependent_value_jump": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "decision_window": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "bridge_compression": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "activation_ease": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "self_propulsion": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "operator_control": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "a_discoverability": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "b_discoverability": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "match_resolvability": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "action_gate_callability": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "a_population_replenishment": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "b_population_replenishment": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "recurring_connection_pressure": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "recurring_missing_edge": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ],
+          "recurring_event_source": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_NEW_ENERGY_SPARE_PARTS_FIELD_REGENERATIVE_BUT_CURRENT_SHARED_SUPPLY_PLATFORM_ALREADY_OWNS_STANDARDIZED_INVENTORY_MATCHING_AND_EMERGENCY_ALLOCATION",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SPARES-JD-20260626",
+            "SPARES-JD-CURRENT"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "SPARES-JD-20260626",
+          "SPARES-JD-CURRENT"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_156-F2",
+      "title": "Supply-chain participants needing reusable standardized load carriers -> pallet pooling operators and circulating pallet inventory",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "Current standards and policy treat pallet pooling as an established operating model with standardized nodes, participants and circulation rules. The bridge is repeatable and callable, but operator control belongs to pallet-pool networks rather than a new independent router.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 2,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 2,
+          "decision_window": 2,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 2,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "b_voluntary_motion": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "state_dependent_value_jump": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "decision_window": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "bridge_compression": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "activation_ease": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "self_propulsion": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "operator_control": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "a_discoverability": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "b_discoverability": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "match_resolvability": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "action_gate_callability": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "a_population_replenishment": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "b_population_replenishment": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "recurring_connection_pressure": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "recurring_missing_edge": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ],
+          "recurring_event_source": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_STANDARD_PALLET_POOLING_FIELD_REAL_AND_CALLABLE_BUT_STANDARDIZED_POOL_OPERATORS_ALREADY_OWN_CIRCULATION_ALLOCATION_AND_SETTLEMENT",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PALLET-CQ-20260626",
+            "PALLET-GREEN-2026"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "PALLET-CQ-20260626",
+          "PALLET-GREEN-2026"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_156-F3",
+      "title": "Residents seeking nearby off-hours sports access -> public-school sports venues with open reservable capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "Public demand and venue capacity replenish continually, but Huadu already operates full-coverage multi-channel reservations with admission, insurance and governance controls. The missing edge is not independent.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 2,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "b_voluntary_motion": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "state_dependent_value_jump": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "decision_window": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "bridge_compression": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "activation_ease": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "self_propulsion": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "operator_control": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "a_discoverability": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "b_discoverability": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "match_resolvability": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "action_gate_callability": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "a_population_replenishment": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "b_population_replenishment": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "recurring_connection_pressure": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "recurring_missing_edge": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ],
+          "recurring_event_source": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_SCHOOL_SPORTS_ACCESS_FIELD_REGENERATIVE_BUT_CURRENT_SMART_RESERVATION_ADMISSION_AND_INSURANCE_RAILS_ALREADY_CONTROL_ACCESS",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SPORT-HUADU-20260727",
+            "SPORT-HUADU-2026"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "SPORT-HUADU-20260727",
+          "SPORT-HUADU-2026"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_156-F4",
+      "title": "State-owned enterprises with idle property -> supervised enterprises with recurring compliant space demand",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "A current SASAC explicitly identifies repeated idle-property versus space-demand information asymmetry and is still using meetings, dynamic ledgers and planned information sharing to improve matching. The residual edge is real, but public-state-asset rental requires regulated procedures and institutional approval; national public-asset systems also own listing and adjustment controls.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "b_voluntary_motion": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "state_dependent_value_jump": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "decision_window": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "bridge_compression": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "activation_ease": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "self_propulsion": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "operator_control": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "a_discoverability": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "b_discoverability": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "match_resolvability": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "action_gate_callability": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "a_population_replenishment": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "b_population_replenishment": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "recurring_connection_pressure": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "recurring_missing_edge": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ],
+          "recurring_event_source": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_STATE_OWNED_PROPERTY_MATCHING_GAP_REAL_BUT_RENTAL_APPROVAL_PUBLIC_PROCEDURE_AND_INSTITUTIONAL_ASSET_CONTROL_PREVENT_INDEPENDENT_CALLABLE_ROUTING",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SOE-PROPERTY-SJZ-20260806",
+            "SOE-PROPERTY-NATIONAL-20260923"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "SOE-PROPERTY-SJZ-20260806",
+          "SOE-PROPERTY-NATIONAL-20260923"
+        ]
+      }
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_156-F5",
+      "title": "Food retailers and restaurants with safe same-day surplus -> nearby consumers or qualified recipient groups able to recover value before expiry",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_FAILURE_OR_WORKAROUND_SIGNAL",
+      "evidence_summary": "Surplus food is recurrent and time-sensitive, but current commercial and public rails already match merchant surplus to consumers or recipient groups. Magic Bag reports a large merchant network, while government programs use online channels plus controlled charity stations for donation flows.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "b_voluntary_motion": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "state_dependent_value_jump": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "decision_window": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "bridge_compression": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "activation_ease": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "self_propulsion": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "operator_control": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "a_discoverability": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "b_discoverability": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "match_resolvability": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "action_gate_callability": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "a_population_replenishment": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "b_population_replenishment": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "recurring_connection_pressure": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "recurring_missing_edge": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ],
+          "recurring_event_source": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "verdict": "DEMOTED_SURPLUS_FOOD_RECOVERY_FIELD_REGENERATIVE_BUT_CURRENT_COMMERCIAL_MARKETPLACE_AND_PUBLIC_DONATION_RAILS_ALREADY_OWN_TIME_SENSITIVE_MATCHING",
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FOOD-YIZHENG-20260702",
+            "FOOD-MAGICBAG-CURRENT",
+            "FOOD-CCFA-20260520"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "FOOD-YIZHENG-20260702",
+          "FOOD-MAGICBAG-CURRENT",
+          "FOOD-CCFA-20260520"
+        ]
+      }
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Five genuinely fresh domains were screened after cross-scan deduplication. State-owned property preserves a current information-asymmetry edge, but regulated asset approval prevents independent callability. Spare parts, pallet pooling, school sports access and surplus-food recovery already have current platform or institutional control surfaces."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_157",
+  "next_search_boundary": "AFTER_EXACT_HEAD_VALIDATION_MOVE_BEYOND_SHARED_CAPACITY_AND_PUBLIC_DIRECTORY_PATTERNS;_PRIORITIZE_REPLENISHING_STATE_CHANGES_WITH_PUBLIC_EVENT_TRACES_AND_NO_EXISTING_OWNER_OF_THE_DECISIVE_ACTION_GATE",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_ANY_REVERSIBLE_ROUTE_OR_ADVANCE_TO_SCAN157",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scans142_155_domains_deduplicated_before_search": true,
+    "observed_failure_or_workaround_seeded": true,
+    "incumbent_presence_not_used_as_automatic_kill": true,
+    "residual_state_owned_property_information_gap_preserved": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "STANDARDIZATION_CAN_MAKE_A_FIELD_CALLABLE_WHILE_SIMULTANEOUSLY_CONCENTRATING_OPERATOR_CONTROL_IN_EXISTING_POOL_OR_PLATFORM_OPERATORS.",
+    "PUBLIC_CAPACITY_IS_NOT_A_MISSING_EDGE_WHEN_ADMISSION_RESERVATION_INSURANCE_AND_ALLOCATION_ARE_ALREADY_INSTITUTIONALLY_OWNED.",
+    "STATE_OWNED_PROPERTY_SHOWS_REAL_RECURRING_INFORMATION_ASYMMETRY_BUT_REGULATED_APPROVAL_CAN_KEEP_ACTION_GATE_CALLABILITY_BELOW_THE_HARD_FLOOR.",
+    "FUTURE_SCANS_SHOULD_DEEMPHASIZE_SHARED_CAPACITY_AND_DIRECTORY_ARCHETYPES_AND_SEARCH_FOR_UNOWNED_DECISIVE_ACTION_GATES."
+  ],
+  "source_urls": [
+    "https://www.qudong.com/article/517449.html",
+    "https://jdbusiness.jd.com/jdenterprise_products.html",
+    "https://std.samr.gov.cn/db/search/stdDBDetailed?id=584ACE29A098CC19E06397BE0A0AA430",
+    "https://www.jingtai.gov.cn/zfxxgk/bmhxzxxgk/xzfzcbmzsjgml/xgxj/fdzdgknr/zcjd/art/2026/art_8de7353e45c54680b4347dd783ca15ae.html",
+    "https://www.huadu.gov.cn/xxgk/yata/content/post_10980420.html",
+    "https://www.huadu.gov.cn/gzjg/rdzxqtgjjg/qzx/jyxc/content/post_10871729.html",
+    "https://gzw.sjz.gov.cn/columns/c7f8c855-8403-4819-a296-17a9464ea241/202608/06/36deff70-1ed0-45dd-9d99-faf67c5f1137.html",
+    "https://zcgl.ggj.gov.cn/zcmh/",
+    "https://scjgj.jiangsu.gov.cn/art/2026/7/2/art_70154_11798185.html",
+    "https://magicbag.xishi.life/business",
+    "https://npo13385d.npoall.com/news/itemid-266900.html"
+  ]
+}
