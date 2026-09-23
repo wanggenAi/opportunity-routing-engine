@@ -1,0 +1,75 @@
+{
+  "schema_version": "research-evidence.v1",
+  "scan_id": "ATTRACTION_SCAN_136",
+  "as_of_date": "2026-09-23",
+  "primary_research_domain": "CHINA",
+  "evidence_packets": [
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F1",
+      "sources": [
+        {
+          "source_id": "F1-S1",
+          "title": "Current Jiaxing Nanhu second-auction republication - Mingdian Apartment Office 510",
+          "url": "https://m.fang.com/fapai/jx/out_12738634.html",
+          "role": "CURRENT_SECOND_AUCTION_PRICE_RENT_TERM_EXPLICIT_TRANSFER_DATE_BUYER_RENT_RIGHT_AND_PROPERTY_ARREARS"
+        }
+      ],
+      "closure": "RETAINED_FOR_RESEARCH_ONLY. Current floor RMB763,200, rent RMB5,000/month, lease through 2029-05-15 and explicit buyer rent collection from transfer date imply about 7.86% nominal gross yield. Tenant identity, full ledger/deposit, exact transfer timing, taxes/net economics, land-use termination date and physical condition remain open; no commercial promotion or bid authority."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F2",
+      "sources": [
+        {
+          "source_id": "F2-S1",
+          "title": "Current Weiyuan first-auction notice republication - Yanling Lanhua Street 46 commercial unit",
+          "url": "https://www.sohu.com/a/1077209752_122455197",
+          "role": "CURRENT_SINGLE_ASSET_PRICE_RENT_PREPAYMENT_LEASE_TERM_AND_WITH_LEASE_SALE"
+        },
+        {
+          "source_id": "F2-S2",
+          "title": "Civil Code - Supreme People's Court republication",
+          "url": "https://www.court.gov.cn/zixun/xiangqing/233181.html",
+          "role": "STATUTORY_LEASE_CONTINUITY_ARTICLE_725"
+        }
+      ],
+      "closure": "RETAINED_FOR RESEARCH ONLY. Current floor RMB445,886.28, rent RMB6,000/month, lease through 2029-02-24 and rent prepaid through 2026-11 imply about 16.15% nominal gross yield. The sale is expressly with lease and Civil Code Article 725 preserves lease validity across ownership change, but auction-specific first buyer rent receipt, transfer timing, tenant/ledger/deposit, arrears, taxes and physical/title diligence remain open. The post-prepayment duration is only about 26.8 months from 2026-12-01, leaving a narrow margin over the 24-month hard gate."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F3",
+      "sources": [
+        {
+          "source_id": "F3-S1",
+          "title": "Current Shenzhen Pingshan court auction republication - Shanghai Pudong Avenue 1700 Lane 33 Room 201",
+          "url": "https://www.sohu.com/a/1077489521_122455197",
+          "role": "CURRENT_PRICE_MONTHLY_RENT_LEASE_TERM_EXPLICIT_BUYER_SUCCESSION_AND_BUYER_ARREARS_EXPOSURE"
+        }
+      ],
+      "closure": "RMB1,515,296.30 floor, RMB2,000/month rent, lease through 2029-04-30 and explicit buyer succession are public, but nominal annual gross rent / floor is only about 1.58% before costs. Authoritatively demoted."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_136-F4",
+      "sources": [
+        {
+          "source_id": "F4-S1",
+          "title": "Current Wuhan Intermediate Court change-sale republication - Hanyang Yingwu Avenue 48 B Block 2F No.1",
+          "url": "https://www.sohu.com/a/1077209835_122455197",
+          "role": "CURRENT_WHOLE_ASSET_PRICE_NAMED_TENANT_LONG_LEASE_STEP_RENT_AND_EXPLICIT_BUYER_SUCCESSION"
+        }
+      ],
+      "closure": "RMB9,976,232 floor, named tenant, lease through 2039-12-31, exact step rents and explicit buyer lease succession are public. Current-step nominal gross is about 3.62% and next-step about 4.11% before costs, while entry is nearly RMB10m. Authoritatively demoted for current attraction economics."
+    }
+  ],
+  "excluded_evidence": [
+    {
+      "source_id": "X1",
+      "title": "Current rental-right auctions",
+      "role": "EXCLUDED_WRONG_FLOW_BUYER_PAYS_RENT_INSTEAD_OF_RECEIVING_INHERITED_RECEIPTS"
+    },
+    {
+      "source_id": "X2",
+      "title": "Current Mianyang/Haian/Chengdu multi-unit or composite leased assets",
+      "role": "EXCLUDED_BUNDLE_OR_POOLED_RECEIPT_FORMATIONS_BEFORE_DEEP_DILIGENCE"
+    }
+  ],
+  "scan_conclusion": "SCAN136_CURRENT_SINGLE_ASSET_RECEIPTS_TWO_RETAINED_RESEARCH_FORMATIONS_ZERO_COMMERCIAL_PROMOTION"
+}
