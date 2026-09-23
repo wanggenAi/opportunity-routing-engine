@@ -5,6 +5,9 @@ GitHub live state wins over this checkpoint if they disagree.
 ## Current Mission
 Continue the clean-slate Attraction Field under the machine-enforced regenerative-field guard until a real external value flow is proven or a real human/permission stop exists.
 
+## Goal
+Close or prove regenerative formations without promoting explicit tasks or transaction proxies; preserve exact-head repository CI + live TypeSafe/Jev and fail closed on incumbent ownership, inaccessible control/data, founder-dependent acquisition or unevidenced economics.
+
 ## Current Unique Commercial Research Goal
 Validate Scan 147's zero-retention shared-capacity result. If exact-head repository CI and live TypeSafe/Jev leave no reversible route, advance to Scan 148 from fresh broad current reality.
 
@@ -44,6 +47,9 @@ PR #459 — `Run Scan 147 broad-reality shared capacity` — OPEN.
 - Examined elastic compute, shared manufacturing, shared parking, cold-storage capacity and used-equipment circulation.
 - All five closed before retention because exact platforms already own the bridge or engineering/appraisal/compliance controls acceptance.
 - High-attraction beacons: 0; retained formations: 0; no external side effect.
+
+## Current Findings
+Scan 147 finds real recurring shared-capacity pressure, but no unowned light routing edge: national compute infrastructure already owns elastic compute matching; shared factories own engineering-to-production execution; parking and cold-storage vertical platforms own discovery/reservation or tenant acquisition; used-equipment circulation is being absorbed by national recycling infrastructure plus appraisal/compliance controls.
 
 ## Blockers
 No human blocker. Exact-head repository CI and live TypeSafe/Jev are pending.
