@@ -1,54 +1,31 @@
 # TASK_STATE.md
 
-## Scan 128 authoritative checkpoint
-
-- GitHub live state wins.
-- Last verified main: `70e77e253864882d5d487319fb99a0d6d5af7309` (PR #433 merged).
-- PR #433 exact head `cf5c662280a18836084ef5fadef9d1c0324ac794`: CI `35817596667` success; TypeSafe/Jev `35817596625` success; artifact `10731907832`; actual input `ATTRACTION_SCAN_127`; entity_count=4; 4x NO_FURTHER_RESEARCH; continuation ADVANCE_TO_NEXT_SCAN.
-- Post-merge main: CI `35817834916` success; TypeSafe/Jev `35817834904` success; actual input Scan 127; entity_count=4; continuation ADVANCE_TO_NEXT_SCAN.
-- Active branch: `research/scan128-broad-reality`.
-- Scan 128 is persisted in `data/research_runs/attraction_scan_128.json`, evidence pack, report and regression test.
-- Machine state: last completed `ATTRACTION_SCAN_128`; retained=0; active commercial candidates=0; next=`ATTRACTION_SCAN_129`; first external value flow NOT_PROVEN.
-- Scan 128 formations: transactional merchant Skill compiler; housekeeping trust/service routing; authorized e-commerce after-sales actions; natural-language cloud-ops guardrails. All four are demoted on distinct-control / generic-agent / human-delivery gates.
-- Required next step: exact-head CI + live Jev must consume `ATTRACTION_SCAN_128` with entity_count=4; merge only if that head passes; verify artifact and post-merge main; then continue Scan 129 if allowed.
-- Do not repeat Scan 124/125, Scan 126 China-helper/field-task routing, or Scan 127 formations.
-
-
-Operational handoff only. GitHub live state wins if anything below conflicts with repository facts.
+GitHub live state wins. This file is an operational handoff and must not override live refs, PRs, Actions, artifacts, or persisted repository data.
 
 ## Current Mission
 
-Reach the first real external value flow through a genuinely high-attraction, founder-light, machine-operable formation. Move faster by widening empirical discovery and evidence throughput, never by lowering the commercial model.
+Reach the first real external value flow through a genuinely high-attraction, founder-light, machine-operable formation without lowering the commercial model.
 
 ## Goal
 
-Find a formation with strong bilateral voluntary energy, a legible state-dependent value jump, scalable discoverability, machine-resolvable matching, callable action, low recurring human delivery, operator control, aligned economics and preferably a compounding outcome/data loop.
+Find and validate a formation with real bilateral pull, transferable/operator-owned control, machine-resolvable delivery, low recurring human labor, and economics that can reach a real external commitment, accepted outcome, and settlement.
 
 ## Current Unique Commercial Research Goal
 
-Validation: `ATTRACTION_SCAN_015-F1` remains blocked on written cross-rail outcome-data rights plus organic founder-free inbound intent.
+Discovery: validate `ATTRACTION_SCAN_129` and then execute the live Jev-directed causal descent for `ATTRACTION_SCAN_129-F1` if exact-head repository validation passes.
 
-Discovery: Scan 126-F1 is closed. Scan 127 independently examined four fresh current-reality formations across data-rights finance, electronic trade-document finance, green-certificate markets and carbon-footprint certification. All four are demoted on non-compensatory action/control or recurring-expert gates; no commercial promotion was made.
+Parallel validation: `ATTRACTION_SCAN_015-F1` remains independently blocked on official written cross-rail outcome-data rights plus organic founder-free inbound proof.
 
 ## Current Phase
 
-`SCAN_127_COMPLETE_PR_VALIDATION_PENDING`
+`SCAN_129_COMPLETE_PR_VALIDATION_PENDING`
 
 ## Last Verified Main
 
-`c9df3aab81bd35d7c0393a2ac3df36d91c979481` — squash merge of PR #432, `Close Scan 126 ground-truth routing on incumbent control surfaces`.
-
-PR #432 exact-head `c45e799a0278343f33a5a39e44316c41fef14c95`:
-- repository CI `35815999345`: success;
-- live TypeSafe/Jev `35815999321`: success;
-- Jev artifact `10731702072`, digest `sha256:42f5519339cbe06e4ffccd02e6f309577a8285273b5fdc623d024ae24a970969`;
-- actual `input_scan_id=ATTRACTION_SCAN_126`;
-- actual `entity_count=1`;
-- effective route = `NO_FURTHER_RESEARCH`;
-- continuation = `ADVANCE_TO_NEXT_SCAN`;
-- autonomous continuation allowed = true.
-
-This Scan 127 branch consumes that continuation.
+- Last merged main: `e465b90969a94947e170640edcd566899f73dc20` (PR #434, Scan 128).
+- PR #434 exact head `6ad8e66aaf4db2e5d82412c67fab5a2e9b110a3c`: repository CI `35818951841` success; live TypeSafe/Jev `35818951818` success.
+- PR #434 Jev artifact `10733090000`, digest `sha256:90514cf7b31875a9e0f1db4e0e7eb40a3ccb95dba5ae2bb0372441dd2053c1fa`: actual input `ATTRACTION_SCAN_128`, entity_count=4, 4x `NO_FURTHER_RESEARCH`, continuation `ADVANCE_TO_NEXT_SCAN`.
+- Failed frozen PR #435 head `0a274bc13addfd4e9b9916a26489544a53e97b6b` is diagnostic history only and must not be merged: repository CI `35820313232` failed the TASK_STATE recovery-section contract. Its live Jev `35820313191` succeeded and read Scan 129, but CI failure invalidates that head as a merge candidate.
 
 ## Active Issue
 
@@ -56,133 +33,133 @@ This Scan 127 branch consumes that continuation.
 
 ## Active Branch
 
-`research/scan127-formation-diverse-broad-reality`
+`research/scan129-transferable-micro-assets-r2`
+
+This replacement branch starts from live main `e465b90969a94947e170640edcd566899f73dc20`; it does not continue on the failed/consumed PR #435 branch.
 
 ## Active PR
 
-None at this checkpoint. Freeze the final Scan 127 head before opening exactly one PR and do not mutate it afterward.
+None at this checkpoint. Open exactly one replacement PR only after this branch is frozen.
 
 ## CI
 
-Current Scan 127 branch has not run PR validation yet.
+Replacement branch exact-head validation has not run yet.
 
-Required on exact final head:
-1. repository CI success;
-2. live TypeSafe/Jev success;
-3. Jev must read `ATTRACTION_SCAN_127`, not an older scan;
-4. Jev must see exactly 4 examined formations;
-5. authoritative demotions must remain fail-closed;
-6. merge only on exact-head success.
+Required:
+1. repository CI success on the exact frozen head;
+2. live TypeSafe/Jev success on that same head;
+3. actual Jev artifact must show `input_scan_id=ATTRACTION_SCAN_129`;
+4. actual Jev artifact must show `entity_count=4`;
+5. F2/F3/F4 must remain authoritative `NO_FURTHER_RESEARCH`;
+6. F1 must remain open/retained and may route only further research;
+7. no Jev output may create commercial promotion or purchase authority.
 
-## Parallel Validation
-
-`ATTRACTION_SCAN_015-F1` is unchanged. Last verified inbox state remains no official written provider response. Silence is neither pass nor fail.
+Diagnostic-only failed-head Jev:
+- run `35820313191`: success;
+- artifact `10733495275`, digest `sha256:4807eefdf91e98a96aaae04afb89be701c9306397035e6e615e714742e50f9ee`;
+- actual input Scan 129 / entity_count=4;
+- F1 effective route `CAUSAL_DESCENT`, evidence state `INSUFFICIENT`;
+- F2/F3/F4 effective route `NO_FURTHER_RESEARCH`;
+- continuation `EXECUTE_RESEARCH_QUEUE`, human intervention false.
+This does not substitute for replacement exact-head validation.
 
 ## Latest Artifact / Persisted State
 
-Scan 127:
-- `data/research_runs/attraction_scan_127.json`;
-- `data/research_runs/scan127_broad_reality_evidence.json`;
-- `docs/research/SCAN127_FORMATION_DIVERSE_BROAD_REALITY_2026-09-23.md`;
-- `tests/test_scan127_broad_reality.py`.
+Canonical Scan 129 artifacts:
+- `data/research_runs/attraction_scan_129.json`;
+- `data/research_runs/scan129_transferable_micro_assets_evidence.json`;
+- `docs/research/SCAN129_TRANSFERABLE_MICRO_ASSETS_2026-09-23.md`;
+- `tests/test_scan129_transferable_micro_assets.py`.
 
-Scan 126 historical regression was updated so advancing `last_completed_scan_id` no longer incorrectly requires auto resolution to remain pinned to Scan 126.
-
-Machine truth on this branch:
-- last completed scan = `ATTRACTION_SCAN_127`;
-- retained research formations = 0;
+Machine truth:
+- last completed scan = `ATTRACTION_SCAN_129`;
+- retained research formations = `[ATTRACTION_SCAN_129-F1]`;
+- resolved in Scan 129 = F2/F3/F4;
 - active commercial candidates = 0;
+- active transaction units = 0;
+- active parent formations = 0;
 - commercial promotions = 0;
-- next scan = `ATTRACTION_SCAN_128`;
+- next scan = `ATTRACTION_SCAN_130`;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
 ## Completed
 
-- Reconciled merged PRs #430/#431/#432 instead of resuming a consumed source branch.
-- Verified PR #430's live Jev success had actually auto-selected Scan 125 and is not counted as Scan 126 validation.
-- Verified PR #431 exact-head CI and live Jev actually consumed canonical `ATTRACTION_SCAN_126-F1` and returned `EXACT_INCUMBENT_PREFLIGHT`.
-- Verified PR #432 exact-head CI and live Jev actually consumed the same canonical Scan 126 formation after closure and returned `NO_FURTHER_RESEARCH -> ADVANCE_TO_NEXT_SCAN`.
-- Verified the uploaded Jev artifacts themselves, not only workflow logs.
-- Started Scan 127 from latest merged main, not from Scan 124/125/126 source branches.
-- Searched fresh current official evidence across data-rights finance, trade/logistics finance, energy environmental markets, product certification, tourism/consumer and SME-policy observations.
-- Persisted four new examined formations and demoted all four without lowering Attraction Field floors.
-- Preserved Scan 015 validation as an independent waiting queue.
+- Reconciled and consumed merged Scan 128 rather than resuming an old source branch.
+- Verified PR #434 exact-head CI and actual Jev artifact.
+- Ran fresh Scan 129 against current transferable digital micro-assets.
+- Persisted four Scan 129 formations plus independent evidence packet and research report.
+- Retained exactly F1 for targeted diligence; fail-closed F2/F3/F4.
+- Updated machine state so `--scan-json auto` resolves Scan 129.
+- Converted Scan 128 auto-resolution regression into historical closure coverage.
+- Added Scan 129 regression coverage distinguishing open-retained F1 from authoritative closures F2-F4.
+- Froze PR #435, observed CI failure, inspected exact failure logs, and closed it unmerged.
+- Preserved PR #435 Jev only as diagnostic evidence.
+- Created this clean replacement branch from latest merged main and restored the recovery-contract structure.
 
 ## Current Findings
 
-```text
-NEW STANDARD / PUBLIC REGISTRY
-!= NEW ROUTING CONTROL
+`ATTRACTION_SCAN_129-F1 — SMALL_AUTOMATED_CASHFLOWING_WEB_ASSET_ACQUISITION` remains research-only.
 
-DATA PROPERTY REGISTRY
-+ REAL PLEDGE FINANCING
--> DISCOVERABILITY IMPROVES
--> BANK UNDERWRITING REMAINS BESPOKE
--> NO CALLABLE MULTI-BANK ROUTER
+Bound current public evidence:
+- current A5 seller intent and CNY 5,000 asking price;
+- A5 page reports 500+ IP/day and income present, while explicitly saying traffic metrics are third-party reference data;
+- independently reachable fixed-price AI-delivery product surface;
+- A5 escrow / handover mechanism;
+- listing states the platform maintains product/channel/model while distributors are responsible for traffic acquisition.
 
-ELECTRONIC NCD
-+ REAL FINANCING
--> INCUMBENT PUBLIC PLATFORM ALREADY CLOSES THE LOOP
+Critical unresolved causal question:
+`DOES_ASSET_OWNERSHIP_TRANSFER_EXISTING_DEMAND_OR_ONLY_PRODUCT_INFRASTRUCTURE_THAT_STILL_REQUIRES_RECURRING_DISTRIBUTOR_ACQUISITION?`
 
-GREEN CERTIFICATES
-+ HUGE NATIVE TRANSACTION FLOW
--> OFFICIAL MARKET OWNS IDENTITY + PRICE + EXECUTION + SETTLEMENT
+Still unbound:
+- last-90-day settled orders / gross revenue / refunds / settlement records;
+- paid conversion and traffic-source durability;
+- seller/operator weekly work and distributor recruiting/support burden;
+- full domain/code/database/prompts/content/customer-data/IP transfer scope;
+- normalized hosting/model/payment costs;
+- compliant non-crypto settlement path for China operation.
 
-CARBON-FOOTPRINT CERTIFICATION
-+ STANDARDIZED RULES
--> TRUST / AUTHORITY REMAINS REGULATED EXPERT WORK
+Therefore:
+`RETAINED_RESEARCH_ONLY != COMMERCIAL_CANDIDATE != PURCHASE_AUTHORIZATION`.
 
-SCAN127 RETAINED = 0
-```
+F2 App Store asset acquisition is closed for this scan because the official transfer rail is real but no current small cashflowing low-labor compliant asset match was found.
 
-## Next Evidence Boundary
+F3 cashflowing content-site acquisition is closed because current examples require recurring editorial/publishing/sales labor.
 
-After exact-head validation, advance to Scan 128.
-
-Scan 128 must deliberately widen beyond regulation-heavy enterprise infrastructure. Prioritize fresh consumer/household, SME-operational and AI-native state changes where:
-- intent self-reveals before the decision closes;
-- both sides are scalable/discoverable;
-- matching is machine-resolvable;
-- the action is callable;
-- a reusable decision/outcome asset remains unowned;
-- recurring founder/expert labor is not the delivery engine.
+F4 WeChat mini-program acquisition is closed because organization/payment/refiling/manual activation friction remains and the observed asset lacks paid automated-flow proof.
 
 ## Blockers
 
-Validation:
-- Scan 015-F1 still needs official written provider rights evidence and founder-free inbound proof.
-
-Discovery:
-- no evidence blocker; Scan 128 can begin after exact-head Scan 127 validation.
-
-Engineering:
-- Scan 127 PR CI + live Jev still need to run.
+- No engineering blocker before replacement exact-head PR validation.
+- F1 transaction truth cannot be established from the public listing alone.
+- If replacement Jev again routes F1 to causal descent, continue public causal research first; when the remaining decisive evidence is seller-private, external contact through the public A5 broker/seller route becomes necessary.
+- No purchase, deposit, or monetary commitment is authorized by current evidence.
+- Scan 015-F1 remains independently waiting on external written rights evidence.
 
 ## Next Action
 
-Freeze this Scan 127 head, open one PR, require exact-head repository CI plus live TypeSafe/Jev with `input_scan_id=ATTRACTION_SCAN_127` and `entity_count=4`, merge only on success, then advance to Scan 128 if continuation allows.
+Freeze this replacement Scan 129 head, open exactly one PR, require exact-head repository CI plus live TypeSafe/Jev with `input_scan_id=ATTRACTION_SCAN_129` and `entity_count=4`; merge only if both pass. Then create a fresh post-merge deepening branch and execute F1 causal descent without purchase or commercial promotion.
 
 ## Do Not Repeat
 
-- Do not re-run Scan 124/125 formations or their primary signals.
-- Do not revive Scan 126 ground-truth execution, sourcing, local-helper, retail-audit or field-task routing.
-- Do not treat public registry visibility as a callable financing action.
-- Do not place an external router on top of an incumbent end-to-end public finance control surface and call that white space.
-- Do not treat market volume as operator control.
-- Do not convert regulated expert certification into a founder-light router by relabeling consulting as orchestration.
-- Do not repeat Scan 015 public-rights research while written evidence is outstanding.
+- Do not return to Scan 124/125 economic screens.
+- Do not revive Scan 126 China-helper / field-task routing.
+- Do not reuse Scan 127 regulatory enterprise formations.
+- Do not reuse Scan 128 provider-owned payment/action/API layers.
+- Do not continue on PR #435's failed branch.
+- Do not treat source code without existing demand as a running value-flow asset.
+- Do not treat seller-reported income or reference traffic as settled transaction evidence.
+- Do not treat USDT as the default China-compliant settlement path.
+- Do not purchase F1 from current evidence.
 
 ## Guardrails
 
 - GitHub live state wins.
 - REALITY > COGNITION > SCHEMA.
-- PRIMARY RESEARCH DOMAIN = CHINA; global evidence is auxiliary unless China relevance is direct.
+- PRIMARY RESEARCH DOMAIN = CHINA; global evidence is mechanism support only unless China relevance is direct.
 - UNKNOWN != PASS.
 - Inference != fact.
-- Success precedent = search prior only, never candidate evidence.
 - No recurring founder acquisition.
 - No recurring founder/expert delivery.
 - Generic-agent substitutability remains a hard attraction kill.
-- Exact incumbent/control-surface preflight is non-compensatory.
-- Operator control and normalized economics remain evidence requirements.
-- Commercial promotion remains fail-closed.
+- Transferable ownership matters only if demand, payment, delivery, and usable control transfer with the asset.
+- TypeSafe/Jev is shadow research routing only and has no commercial-promotion authority.
