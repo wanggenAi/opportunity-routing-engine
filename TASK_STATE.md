@@ -12,22 +12,24 @@ Find and validate a formation with real bilateral pull, independently bound curr
 
 ## Current Unique Commercial Research Goal
 
-Validate `ATTRACTION_SCAN_135` on one frozen exact head. Preserve `ATTRACTION_SCAN_135-F1` as research-only unless source-bound diligence closes its remaining lease-ledger, tenant, deposit, arrears, tax, title and transfer unknowns. F2/F3/F4 are closed.
+`ATTRACTION_SCAN_135-F1` public-source causal descent is consumed and exhausted. It remains research-only and is blocked on external written court / auction-assistance evidence. Begin `ATTRACTION_SCAN_136` under the frozen fresh-current-China single/economically-separable asset boundary without reusing Scan 060-135 formations.
 
 Parallel validation: `ATTRACTION_SCAN_015-F1` remains independently blocked on official written cross-rail outcome-data rights plus organic founder-free inbound proof.
 
 ## Current Phase
 
-`SCAN_135_ONE_RETAINED_RESEARCH_FORMATION_PR_VALIDATION_PENDING`
+`SCAN135_F1_PUBLIC_CAUSAL_DESCENT_PERSISTENCE_AND_PR_VALIDATION_PENDING`
 
 ## Last Verified Main
 
-- Main includes PR #442 at `5076627493792d2652b6ecc8f27d415062e3b57e`.
-- PR #442 exact head `ea076bb5cfbfc3f8dd55e553b7a327f2c9537cc9`.
-- Repository CI run `35826747987`: success.
-- Live TypeSafe/Jev run `35826747888`: success.
-- Jev artifact `10735366880`, digest `sha256:04d7a22e8678aadf2cb174cc32f098291a6818c438196fcc359ee81f5965ad3c`.
-- Jev actual input: `ATTRACTION_SCAN_134`; entity_count=4; 4x authoritative alignment; 4x `NO_FURTHER_RESEARCH`; autonomous continuation `ADVANCE_TO_NEXT_SCAN`.
+- Main includes merged PR #443 at `7e75f96c370552a3656c936b549b5b65222c0b26`.
+- PR #443 exact head: `89afbb813ccccae249092724b88b752e1fe55661`.
+- Repository CI run `35828037496`: success.
+- Live TypeSafe/Jev run `35828037593`: success.
+- Jev artifact `10735528864`, digest `sha256:65c77f37f7cebbe987b1388eefd167ba4e89ea305a2be4bc68121ac8c2375640`.
+- Actual Jev input: `ATTRACTION_SCAN_135`; entity_count=4.
+- Actual effective routes: F1=`CAUSAL_DESCENT`; F2/F3/F4=`NO_FURTHER_RESEARCH`.
+- Actual continuation: `EXECUTE_RESEARCH_QUEUE`; autonomous continuation allowed=true; external side effects=false; commercial promotion authority=false.
 - PR #435 and #436 remain closed/unmerged and must not be revived.
 
 ## Active Issue
@@ -36,39 +38,44 @@ Parallel validation: `ATTRACTION_SCAN_015-F1` remains independently blocked on o
 
 ## Active Branch
 
-`research/scan135-single-asset-cashflow`
+`research/scan135-f1-public-causal-descent`
 
-This branch starts from merged main `5076627493792d2652b6ecc8f27d415062e3b57e`.
+This branch starts from merged main `7e75f96c370552a3656c936b549b5b65222c0b26`.
 
 ## Active PR
 
-None at this checkpoint. Open exactly one PR after freezing the Scan 135 branch.
+None at this checkpoint. Open exactly one PR after the F1 follow-up head is frozen.
 
 ## CI / Jev
 
-Scan 135 exact-head validation has not run yet.
+The source Scan 135 exact head is fully validated and its Jev route has been consumed.
 
-Required:
-1. repository CI success on the exact frozen head;
-2. live TypeSafe/Jev success on that same head;
-3. actual Jev input must be `ATTRACTION_SCAN_135` with entity_count=4;
-4. F1 must remain non-authoritative/open research and must not be commercially promoted by Jev;
-5. F2/F3/F4 must remain authoritative closures with effective `NO_FURTHER_RESEARCH`;
-6. consume the actual F1 research route after validation;
-7. no bid, deposit, purchase or other external monetary action may be inferred from Jev.
+The new F1 follow-up branch still requires:
+1. exact-head repository CI success;
+2. live TypeSafe/Jev success if triggered by the machine-state change;
+3. no commercial promotion, bid, deposit or purchase authority;
+4. merge only on the exact validated head.
 
 ## Latest Artifact / Persisted State
 
-Canonical Scan 135 artifacts:
+Canonical Scan 135 artifacts remain unchanged:
 - `data/research_runs/attraction_scan_135.json`;
 - `data/research_runs/scan135_single_asset_cashflow_evidence.json`;
 - `docs/research/SCAN135_SINGLE_ASSET_CASHFLOW_2026-09-23.md`;
 - `tests/test_scan135_single_asset_cashflow.py`.
 
+F1 causal-descent follow-up:
+- `data/research_runs/scan135_f1_causal_descent_evidence.json`;
+- `docs/research/SCAN135_F1_CAUSAL_DESCENT_2026-09-23.md`;
+- `tests/test_scan135_f1_causal_descent.py`.
+
 Machine truth on this branch:
 - last completed scan = `ATTRACTION_SCAN_135`;
 - retained research formations = `ATTRACTION_SCAN_135-F1` only;
-- resolved in Scan 135 = F2/F3/F4;
+- F1 Jev route consumed = true;
+- F1 public research resolution = `EXHAUSTED`;
+- F1 status = `RETAINED_RESEARCH_BLOCKED_ON_EXTERNAL_WRITTEN_EVIDENCE`;
+- Scan 136 gate unblocked = true;
 - active commercial candidates = 0;
 - active transaction units = 0;
 - active parent formations = 0;
@@ -77,78 +84,69 @@ Machine truth on this branch:
 
 ## Completed
 
-- Recovered and merged Scan 134 after exact-head repository CI and real live TypeSafe/Jev.
-- Started Scan 135 from exact merged main.
-- Applied the stricter single-asset / exact-receipt / automatic-continuity / >=24-month / computable-economics gate.
-- Found one fresh research survivor: Chengdu Qingyang Guanghua Li basement unit -115.
-- Current F1 public tuple: RMB 650,304 floor; RMB 3,000/month rent; lease through 2030-11-20; court text explicitly says post-auction rent is paid by the tenant to the buyer; nominal gross annual rent / floor is about 5.54% before all costs.
-- Did not promote F1 because tenant identity, rent ledger/prepayment, deposit, arrears, exact taxes/transfer costs, title closing and physical-condition evidence remain open.
-- Closed Xialianchi despite ~6.87% surface annualized rent because rent is prepaid through 2026-11-30 and lease ends 2027-02-28.
-- Closed Aiming Street despite low entry price because lease ends 2027-07-19 and current rent is prepaid.
-- Closed Shenzhen Huanancheng despite a named tenant and lease through 2030 because exact rent/payment/deposit are attachment-only in the retrieved public page.
-- Persisted Scan 135 canonical evidence/report/tests and machine state.
+- Verified PR #443 exact-head repository CI and live TypeSafe/Jev and confirmed it is merged on main.
+- Consumed the actual Jev continuation directive instead of relying on chat state.
+- Dropped F2/F3/F4 from the current research queue per authoritative closure plus Jev `NO_FURTHER_RESEARCH`.
+- Executed F1 public-source causal descent.
+- Bound property certificate `川（2020）成都市不动产权第0389990号`, execution case `（2026）川0811执656号`, seizure and mortgage.
+- Bound buyer exposure to historical unpaid water/electric/gas/property charges.
+- Bound the seller-tax advance/refund process during transfer, while preserving UNKNOWN for exact tax amounts.
+- Bound buyer lease-deposit refund exposure at lease expiry, while preserving UNKNOWN for the deposit quantum.
+- Exhausted exact public searches for tenant identity, lease ledger/prepayment, deposit quantum and exact arrears without accepting unrelated or suggestive results as evidence.
+- Persisted the public-research exhaustion and external-written-evidence boundary.
+- Created recovery checkpoint `recovery/tasks/commercial-attraction-scan-135.json` on `state/chatgpt-recovery` at commit `ff0ae4ee0375c2060ca3a717968c3053c975a54b`.
 
 ## Current Findings
 
-### F1 — retained research, not commercial candidate
+### Scan 135 F1 — retained research, public route exhausted
 
-`ATTRACTION_SCAN_135-F1` is the first fresh single-asset case in this sequence to bind exact current price, exact rent, explicit buyer receipt succession, >24 months of future contract term and a non-obviously-disqualifying gross ratio.
+Still source-bound:
+- current floor RMB 650,304;
+- rent RMB 3,000/month;
+- lease through 2030-11-20;
+- post-auction rent belongs to the buyer;
+- certificate, seizure and mortgage are explicit;
+- transfer/tax/arrears/deposit procedural exposures are explicit.
 
-Open fields remain material and falsifiable:
-- tenant identity/credit;
-- complete lease and current rent ledger;
-- whether rent is prepaid beyond closing;
-- deposit amount/return obligation;
-- utility/property arrears;
-- buyer taxes/transfer/possible seller-tax advance costs;
-- title-transfer eligibility and closing timeline;
-- physical condition; public inspection reservation deadline already passed on 2026-09-09.
+Still decisive and UNKNOWN:
+- exact tenant identity and payment performance;
+- full lease and current rent ledger;
+- prepayment/arrears through expected closing;
+- lease-deposit amount;
+- exact utility/property arrears;
+- exact buyer taxes/fees and normalized net economics;
+- case-specific transfer eligibility and closing timeline;
+- current physical condition after the viewing deadline.
 
-No bid, deposit or purchase is authorized.
+No independent public source surfaced these fields. The next evidence class is written court / auction-assistance confirmation or underlying source documents.
 
-### F2/F3/F4 — closed
-
-- F2: visible rent/yield, but prepaid and sub-24-month contract.
-- F3: cheap asset, but short lease and current prepayment.
-- F4: long lease and explicit succession, but exact rent is not public-bound.
-
-## Scan 135 result
-
-```text
-FORMATIONS EXAMINED = 4
-RETAINED FOR RESEARCH = 1
-ACTIVE COMMERCIAL CANDIDATES = 0
-ACTIVE TRANSACTION UNITS = 0
-FIRST_EXTERNAL_VALUE_FLOW = NOT_PROVEN
-NEXT BROAD SCAN = ATTRACTION_SCAN_136
-FIRST ACTION = EXACT-HEAD JEV THEN CHEAP-FALSIFY SCAN135-F1
-```
+No external contact has been performed and none is authorized by Jev.
 
 ## Blockers
 
-- No engineering blocker before exact-head PR validation.
-- No commercial promotion, bid, deposit, purchase or monetary commitment is authorized.
-- If public-source causal descent cannot retrieve F1's lease ledger/deposit/arrears/tax/title fields, the next decisive evidence is a written court/auction-assistance response or source document, which requires an external human contact channel not currently available in the repository.
+- F1 cannot be commercially promoted without external written evidence.
+- Contacting the court / auction-assistance channel is an external side effect and is not authorized by the current Jev directive.
+- No bid, deposit, purchase or other monetary commitment is authorized.
+- This F1 blocker no longer blocks broad Scan 136 because the required Jev route was consumed and public research reached a documented hard boundary.
 - Scan 015-F1 remains independently waiting on external written rights evidence.
 
 ## Next Action
 
-Freeze Scan 135 head, open exactly one PR, require exact-head repository CI plus real live TypeSafe/Jev with `input_scan_id=ATTRACTION_SCAN_135` and entity_count=4. Verify F1 is non-authoritative research-only and F2/F3/F4 remain authoritative closures. Consume the actual F1 Jev research route. If it routes deeper research, exhaust public-source falsification; if the decisive fields remain unavailable, persist the external-written-evidence blocker instead of promoting or bidding.
+Freeze the current F1 follow-up head, open exactly one PR, require exact-head repository CI plus live TypeSafe/Jev if triggered, merge only on that validated head, then start `ATTRACTION_SCAN_136` from the new merged main.
 
 ## Do Not Repeat
 
+- Do not reuse the merged `research/scan135-single-asset-cashflow` branch.
 - Do not revive closed/unmerged PR #435 or #436.
-- Do not reuse Scan 060-134 formations.
-- Do not repeat Scan 135 F2/F3/F4 in Scan 136.
-- Do not treat F1 research retention as a commercial candidate.
-- Do not turn nominal 5.54% gross yield into net return without taxes, arrears, vacancy, maintenance and transfer costs.
-- Do not assume rent is unprepaid merely because post-auction rent belongs to the buyer; verify the current ledger.
-- Do not assume deposit or arrears values.
+- Do not re-research Scan 135 F2/F3/F4.
+- Do not repeat the exact F1 public searches already recorded in `scan135_f1_causal_descent_evidence.json`.
+- Do not infer tenant identity, ledger, prepayment, deposit amount, arrears amount, net yield or transfer eligibility.
+- Do not contact the court / auction assistant without explicit human authorization.
 - Do not bid, pay a deposit or purchase without a separate explicit human decision after diligence.
 
 ## Scan 136 Boundary
 
-Do not start a broad Scan 136 until the retained F1 route has been consumed or blocked. When Scan 136 begins, continue fresh current China single/economically separable assets only; require exact receipts, automatic post-transfer continuity, >=24 months of source-bound future coverage, computable non-disqualifying economics and low recurring human delivery. No Scan 060-135 formation reuse.
+Search fresh current China single/economically separable assets only. Require exact asset-attributable receipts, automatic post-transfer continuity, at least 24 months of source-bound future receipt coverage, computable non-disqualifying economics and low recurring human delivery. Reject inseparable bundles, pooled receipt formulas and attachment-only decisive economics before deep diligence. No Scan 060-135 formation reuse and no gate relaxation.
 
 ## Guardrails
 
