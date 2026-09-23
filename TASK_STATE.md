@@ -29,7 +29,7 @@ SCAN162_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 `research/scan162-public-solution-search-channel-ownership`.
 
 ## Active PR
-Not opened yet. Create the Scan 162 PR after this checkpoint and freeze its exact head.
+PR #477 — `Run Scan 162 public solution-search channel ownership sweep` — OPEN.
 
 ## CI
 - Scan 162 exact-head repository CI: PENDING.
@@ -58,7 +58,7 @@ Open demand is not enough. Qianhai, Huangpu, Beijing and Dalian demonstrate that
 No human blocker. Scan 162 exact-head repository CI and real TypeSafe/Jev are pending.
 
 ## Next Action
-Open/freeze the Scan 162 PR exact head; require exact-head repository CI + live TypeSafe/Jev; consume any reversible route, otherwise merge and advance to Scan 163.
+Freeze PR #477 exact head; require exact-head repository CI + live TypeSafe/Jev; consume any reversible route, otherwise merge and advance to Scan 163.
 
 ## Do Not Repeat
 Do not treat official demand lists, application-scenario programs, government matchmaking events or assigned department follow-up as unowned routing opportunities; do not re-scan Scan142–162 domains as new ontology; do not weaken `UNKNOWN != PASS`.
@@ -73,7 +73,7 @@ Use `state/chatgpt-recovery` only as control-plane recovery state; live GitHub r
 None.
 
 ## Resume Cursor
-Scan 162 artifacts are persisted on `research/scan162-public-solution-search-channel-ownership`; PR creation and exact-head validation remain.
+Scan 162 artifacts are persisted on `research/scan162-public-solution-search-channel-ownership`; PR #477 is open and exact-head validation remains.
 
 ## Safe Re-entry
 Re-read live main, open PRs and exact-head Actions before mutating. Do not repeat Scan162 research if persisted artifacts and a matching PR head already exist.
