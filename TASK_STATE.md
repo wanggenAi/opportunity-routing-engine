@@ -29,7 +29,7 @@ SCAN154_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 `research/scan154-failure-workaround-first`.
 
 ## Active PR
-Not opened yet; create the Scan 154 PR after this checkpoint commit.
+PR #468 — `Run Scan 154 failure-workaround-first broad reality` — OPEN.
 
 ## CI
 - Scan 154 exact-head repository CI: PENDING.
@@ -58,7 +58,7 @@ Failure-first sensing produces better causal discrimination: unresolved demand i
 No human blocker. Exact-head repository CI and real TypeSafe/Jev are pending.
 
 ## Next Action
-Open the Scan154 PR, require exact-head repository CI + real TypeSafe/Jev, consume any reversible route Jev returns, otherwise merge and advance to Scan155.
+Freeze PR #468 exact head, require exact-head repository CI + real TypeSafe/Jev, consume any reversible route Jev returns, otherwise merge and advance to Scan155.
 
 ## Do Not Repeat
 - Do not return to category/platform-first scanning as the default while it only regenerates mature incumbent-owned fields.
