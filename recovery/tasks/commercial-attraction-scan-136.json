@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "task_key": "commercial-attraction-scan-136",
-  "generation": 1,
+  "generation": 2,
   "status": "ACTIVE",
-  "reconciled_at": "2026-09-23T07:15:00Z",
+  "reconciled_at": "2026-09-23T07:18:00Z",
   "live_main": "2300f2bc95db341681c37fd824e7b3b36f64227f",
   "work_branch": "research/scan136-current-asset-receipts",
-  "frozen_head": "68644877e4e9a0ab178390f9431b53537f4196e6",
-  "stage": "SCAN136_PERSISTED_EXACT_HEAD_PR_VALIDATION_PENDING",
+  "frozen_head": "d91d34790fb07c3e45bce977196092c00b86e8da",
+  "stage": "SCAN136_EXACT_HEAD_VALIDATION_RUNNING",
   "scan_id": "ATTRACTION_SCAN_136",
   "retained_research": [
     "ATTRACTION_SCAN_136-F1",
@@ -23,9 +23,11 @@
     "F3 Shanghai: approx 1.58% nominal gross, authoritative economics closure.",
     "F4 Wuhan: approx 3.62% current-step / 4.11% next-step nominal gross on RMB9,976,232 entry, authoritative economics closure.",
     "No Scan060-135 exact address reuse found for the four persisted formations.",
-    "No commercial promotion, external contact, bid, deposit or purchase authority."
+    "No commercial promotion, external contact, bid, deposit or purchase authority.",
+    "Scan136 resolved_research_formations schema corrected to canonical object records for F3/F4; regression test added.",
+    "Scan135 historical tests now validate historical Scan135 explicitly instead of pinning global auto state to Scan135."
   ],
-  "next_action": "Open one PR on frozen head 68644877e4e9a0ab178390f9431b53537f4196e6; require exact-head repository CI and live TypeSafe/Jev; consume actual Scan136 directive and continue reversible F1/F2 research.",
+  "next_action": "Wait for PR #445 exact head d91d34790fb07c3e45bce977196092c00b86e8da repository CI and live Jev terminal results; consume actual directive if both succeed.",
   "pending_operation": null,
   "do_not_repeat": [
     "Do not return to consumed Scan135 branches.",
@@ -33,5 +35,13 @@
     "Do not treat rental-right auctions as buyer receipt formations.",
     "Do not reuse Scan060-135 formations.",
     "Do not contact external parties or commit money without explicit authority."
-  ]
+  ],
+  "pr": 445,
+  "validation": {
+    "prior_failed_head": "68644877e4e9a0ab178390f9431b53537f4196e6",
+    "prior_failure": "HISTORICAL_SCAN135_TESTS_BLOCKED_FORWARD_PROGRESS_AND_TASK_STATE_REQUIRED_HEADINGS_MISSING",
+    "current_ci_run_id": 35830529477,
+    "current_jev_run_id": 35830529504,
+    "current_status": "RUNNING"
+  }
 }
