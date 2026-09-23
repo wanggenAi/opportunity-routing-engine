@@ -1,0 +1,77 @@
+{
+  "scan_id": "ATTRACTION_SCAN_157",
+  "as_of_date": "2026-09-24",
+  "source_main_sha": "e32757d5ce8200a4bc5bfdefed792fe7c6314a26",
+  "research_method": "EVENT_TRIGGER_UNOWNED_ACTION_GATE_BROAD_REALITY_FRESH_DOMAIN_COMPARISON",
+  "sources": {
+    "ENT-CHANGE-QD-20260508": {
+      "source_class": "CURRENT_ENTERPRISE_INFORMATION_CHANGE_ONE_THING_EXECUTION_RAIL",
+      "url": "https://www.qingdao.gov.cn/ywdt/zwzl/gxbcyjs/gxbcyjs_01/202605/t20260508_10587661.shtml",
+      "date": "2026-05-08",
+      "claim": "Qingdao's 2026 enterprise-information-change program links business registration changes to tax, social insurance, medical insurance, housing funds, seals and bank-account changes through one intake, shared data and automatic downstream synchronization."
+    },
+    "GRAD-MOE-20260112": {
+      "source_class": "CURRENT_GRADUATE_CROSS_CITY_JOB_SEARCH_EVENT_AND_SERVICE_RAIL",
+      "url": "https://www.moe.gov.cn/srcsite/A15/s3265/202601/t20260115_1426697.html",
+      "date": "2026-01-12",
+      "claim": "Four national bodies launched the 2026 graduate cross-region job-search action with verified extra rail discounts, youth-hostel accommodation support, employment services and 3-to-6-month follow-up after arrival."
+    },
+    "GRAD-BJ-RENT-20260610": {
+      "source_class": "CURRENT_GRADUATE_HOUSING_MATCHING_RAIL",
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202606/t20260610_4693625.html",
+      "date": "2026-06-10",
+      "claim": "Beijing's 2026 graduation-season housing program assembled more than 200,000 discounted rooms, had 101,000 already online, and connected graduates to rental operators through coordinated online and campus services."
+    },
+    "FX-ZJ-20260731": {
+      "source_class": "CURRENT_SME_FX_RISK_REPLENISHMENT_AND_BANK_SERVICE_GRAPH",
+      "url": "https://www.safe.gov.cn/zhejiang/2026/0731/2435.html",
+      "date": "2026-07-31",
+      "claim": "SAFE Zhejiang reports 130 banks able to handle FX derivatives and a service database covering 290,000 foreign-trade firms that is shared with banks for targeted hedging services."
+    },
+    "FX-FJ-20260901": {
+      "source_class": "CURRENT_DIGITAL_FX_HEDGING_EXECUTION_RAIL",
+      "url": "https://www.safe.gov.cn/fujian/2026/0901/2687.html",
+      "date": "2026-09-01",
+      "claim": "SAFE Fujian documents a bank-operated one-stop digital FX hedging platform for SMEs, outbound businesses and larger firms, placing product selection and execution inside regulated bank rails."
+    },
+    "BANKRUPT-BJ-20260804": {
+      "source_class": "CURRENT_BANKRUPTCY_ASSET_DISPOSITION_EVENT_AND_AUCTION_RAIL",
+      "url": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=4615e466812a4778a6f48c1e85e4bcfa",
+      "date": "2026-08-04",
+      "claim": "A current bankruptcy announcement shows the court-supervised administrator using JD's bankruptcy auction platform, with bidder identity, eligibility, auction and handover governed by the administrator and platform."
+    },
+    "BANKRUPT-SH-20260908": {
+      "source_class": "CURRENT_BANKRUPTCY_RECEIVABLES_AUCTION_EVENT",
+      "url": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=f4ed10a8150f416c9a395309b68bbd6b",
+      "date": "2026-09-08",
+      "claim": "A Shanghai bankruptcy case published a second auction of seven bundled receivables on JD's bankruptcy liquidation platform under the court-appointed administrator, showing current recurring asset-disposition events and an owned execution channel."
+    },
+    "RECALL-GUIDE-20260319": {
+      "source_class": "CURRENT_VEHICLE_RECALL_OWNER_ACTION_GUIDE",
+      "url": "https://www.samr.gov.cn/xw/sj/art/2026/art_0654a460076c41cabf3f7d2a2d742a58.html",
+      "date": "2026-03-19",
+      "claim": "SAMR's 2026 vehicle-recall guide directs owners to determine scope by model, production date and VIN, consult the producer or 4S shop, and complete recall repair through the producer-led recall system."
+    },
+    "RECALL-BYD-20260918": {
+      "source_class": "CURRENT_LARGE_VEHICLE_RECALL_AND_AUTHORIZED_REPAIR_RAIL",
+      "url": "https://www.samr.gov.cn/zlfzj/sjdt/gzdt/art/2026/art_609e95c94ad348a5afd347fa5cea32d4.html",
+      "date": "2026-09-18",
+      "claim": "A current BYD recall covers multiple large vehicle populations; the producers notify affected users and commission authorized dealers to perform the remediation free of charge."
+    }
+  },
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_157-F1",
+    "ATTRACTION_SCAN_157-F2",
+    "ATTRACTION_SCAN_157-F3",
+    "ATTRACTION_SCAN_157-F4",
+    "ATTRACTION_SCAN_157-F5"
+  ],
+  "active_commercial_candidate_count": 0,
+  "active_transaction_unit_count": 0,
+  "first_external_value_flow": "NOT_PROVEN",
+  "external_contact_performed": false,
+  "money_moved": false,
+  "conclusion": "All five fresh fields expose recurring, observable state-change events, but none preserves an independently callable decisive action gate: public systems, banks, court-appointed administrators/auction platforms, or producers/authorized repair networks already own the execution or remediation layer.",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_REVERSIBLE_ROUTE_OR_ADVANCE_SCAN158"
+}
