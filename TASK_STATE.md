@@ -32,7 +32,7 @@ SCAN145_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 `research/scan145-broad-reality-current-service-fields`.
 
 ## Active PR
-PENDING CREATION.
+PR #456 — `Run Scan 145 broad-reality current service fields` — OPEN.
 
 ## CI
 - Scan 145 exact-head repository CI: PENDING.
@@ -65,7 +65,7 @@ Scan 145 is a deliberate fail-closed scan: visible demand friction is insufficie
 No human blocker. Exact-head repository CI and live TypeSafe/Jev have not yet run on the Scan 145 head.
 
 ## Next Action
-Open the Scan 145 PR, freeze its exact head, require repository CI + live TypeSafe/Jev, and advance to Scan 146 only if no reversible research route is returned.
+Freeze PR #456's exact head, require repository CI + live TypeSafe/Jev, and advance to Scan 146 only if no reversible research route is returned.
 
 ## Do Not Repeat
 - Do not rescue Scan 145 by narrowing one of its five closed fields.
