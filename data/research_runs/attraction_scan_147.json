@@ -1,0 +1,853 @@
+{
+  "scan_id": "ATTRACTION_SCAN_147",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_REDERIVATION_AFTER_SCAN146_FINAL_ALL_ROUTES_CLOSED",
+  "source_main_sha": "09081f124b8ed97ca8def14e6c4409fad048f243",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_146",
+    "prior_pr": 458,
+    "prior_merged_main_sha": "09081f124b8ed97ca8def14e6c4409fad048f243",
+    "prior_final_exact_head": "d94d9e620463355d464193d4d3d82078bcf50978",
+    "prior_repository_ci_run_id": 35872960284,
+    "prior_live_jev_run_id": 35872960287,
+    "prior_live_jev_artifact_id": 10755464338,
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scan146_resource_circulation_fields_not_inherited": true
+  },
+  "broad_reality_domains_examined": [
+    "ELASTIC_COMPUTE_CAPACITY",
+    "SHARED_MANUFACTURING_CAPACITY",
+    "SHARED_PARKING_CAPACITY",
+    "COLD_STORAGE_CAPACITY",
+    "USED_INDUSTRIAL_EQUIPMENT_CIRCULATION"
+  ],
+  "source_registry": {
+    "COMPUTE-MIIT-202604": {
+      "source_class": "CURRENT_NATIONAL_COMPUTE_MATCHING_POLICY",
+      "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_58259bfb30924d6bb225b82b66d1008d.html",
+      "date": "2026-04",
+      "claim": "MIIT's 2026 SME compute action explicitly directs national SME platform zones to match SME demand with compute supply, support idle compute deposits, cross-region/cross-period dispatch, flexible billing and one-stop selection/procurement."
+    },
+    "COMPUTE-HCP-20260510": {
+      "source_class": "CURRENT_NATIONAL_COMPUTE_MARKETPLACE",
+      "url": "https://www.xiongan.gov.cn/20260510/a0e40b2ab73e4c7da9ee357d6a4799df/c.html",
+      "date": "2026-05-10",
+      "claim": "China Compute Platform's SME marketplace reports more than 1,600 enterprise users, over 130 compute providers, more than 170 compute products and integrated compute/model/application procurement, making the intended supply-demand bridge operational."
+    },
+    "SHARED-FACTORY-CQ-20260620": {
+      "source_class": "CURRENT_OPERATIONAL_SHARED_MANUFACTURING_PLATFORM",
+      "url": "https://www.ljxq.gov.cn/zwxx/ljyw/202606/t20260618_15763026.html",
+      "date": "2026-06-20",
+      "claim": "Chongqing's Mingyue Lake shared factory is a 4,000+ square metre one-stop common-technology and manufacturing service platform designed to take hard-tech teams from concept through mass production."
+    },
+    "SHARED-FACTORY-BEIJING-202608": {
+      "source_class": "CURRENT_OPERATIONAL_RAPID_MANUFACTURING_SUPPLY_CHAIN",
+      "url": "https://kfqgw.beijing.gov.cn/zwgkkfq/ztzl/lqztkfq/lqzx/zxxx/202608/t20260804_4808342.html",
+      "date": "2026-08",
+      "claim": "Beijing E-Town's embodied-intelligence supply-chain platform combines selection, rapid prototyping, 3D printing and shared factories and promises a closed loop from component selection through prototype verification to mass production."
+    },
+    "PARKING-JPARKING-202609": {
+      "source_class": "CURRENT_SHARED_PARKING_INCUMBENT",
+      "url": "https://www.jparking.cn/operate/rental",
+      "date": "2026-09",
+      "claim": "JParking currently lets parking facilities publish idle-time spaces and lets drivers search, reserve and rent spaces, with an operating system, online/offline promotion and ongoing user operations; it directly owns the generic idle-space-to-driver bridge."
+    },
+    "COLD-LIANKU-202609": {
+      "source_class": "CURRENT_COLD_STORAGE_MARKETPLACE",
+      "url": "https://www.lianku.org.cn/",
+      "date": "2026-09",
+      "claim": "Lianku operates a cold-storage IoT/big-data platform with warehouse clusters, demand posting, rental listings, site selection, certification, custom tenant acquisition, cold-chain logistics and supply-demand services."
+    },
+    "COLD-MARKET-202608": {
+      "source_class": "CURRENT_COLD_STORAGE_SUPPLY_DEMAND_OBSERVATION",
+      "url": "https://www.frozengoods.com.hk/zh-CN/news/6729?cate=126&child=12",
+      "date": "2026-08-25",
+      "claim": "A 2026 H1 market summary citing CFLP cold-chain committee and Lianku data reports 270M cubic metres of public food cold-storage capacity, 17.819M cubic metres of rental demand and 19.039M cubic metres of offered-for-rent capacity, with strong regional concentration."
+    },
+    "RECYCLE-NDRC-202601": {
+      "source_class": "CURRENT_NATIONAL_USED_EQUIPMENT_RECYCLING_POLICY",
+      "url": "https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202601/t20260108_1403124_ext.html",
+      "date": "2026-01-08",
+      "claim": "The 2026 equipment-renewal policy calls for a national functional resource-recycling platform, county-level recovery networks, internet-plus-recycling expansion and standardized second-hand equipment trading, appraisal and remanufacturing."
+    },
+    "RECYCLE-SASAC-202604": {
+      "source_class": "CURRENT_NATIONAL_RECYCLING_PLATFORM_EXECUTION",
+      "url": "https://www.sasac.gov.cn/n2588025/n2588124/c35401231/content.html",
+      "date": "2026-04-09",
+      "claim": "China Resources Recycling Group says its national functional platform is being built around integrated physical, capital, invoice, contract and information flows to address fragmented supply and opaque multi-layer transactions in recycled resources."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_147-F1",
+      "title": "Enterprises with idle or fragmented compute -> SMEs needing elastic affordable compute",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "The field is regenerative and the state explicitly wants idle compute to move across regions and time. But the national China Compute Platform already provides the exact supply-demand marketplace, flexible metering, subsidy path, model access and one-stop procurement with major providers onboard. A new thin router would duplicate the primary control surface.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "b_voluntary_motion": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "state_dependent_value_jump": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "decision_window": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "bridge_compression": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "activation_ease": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "self_propulsion": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "operator_control": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "a_discoverability": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "b_discoverability": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "match_resolvability": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "action_gate_callability": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "a_population_replenishment": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "b_population_replenishment": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "recurring_connection_pressure": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "recurring_missing_edge": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ],
+          "recurring_event_source": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COMPUTE-MIIT-202604",
+            "COMPUTE-HCP-20260510"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "COMPUTE-MIIT-202604",
+          "COMPUTE-HCP-20260510"
+        ]
+      },
+      "verdict": "DEMOTED_IDLE_COMPUTE_FIELD_REGENERATIVE_BUT_CHINA_COMPUTE_PLATFORM_ALREADY_OWNS_SUPPLY_DEMAND_MATCHING_FLEXIBLE_METERING_CROSS_REGION_DISPATCH_SUBSIDY_AND_ONE_STOP_PROCUREMENT"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_147-F2",
+      "title": "Hardware startups and SMEs needing small-batch production -> shared factories and distributed manufacturing capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Shared manufacturing solves a real recurring capacity mismatch, but current shared factories already integrate engineering, supplier selection, prototyping, validation and mass-production execution. The value is not merely discovery: it depends on process engineering, quality and production control, so an independent light router lacks the action surface.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 2,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "b_voluntary_motion": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "state_dependent_value_jump": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "decision_window": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "bridge_compression": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "activation_ease": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "self_propulsion": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "operator_control": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "a_discoverability": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "b_discoverability": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "match_resolvability": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "action_gate_callability": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "a_population_replenishment": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "b_population_replenishment": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "recurring_connection_pressure": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "recurring_missing_edge": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ],
+          "recurring_event_source": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "SHARED-FACTORY-CQ-20260620",
+            "SHARED-FACTORY-BEIJING-202608"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "SHARED-FACTORY-CQ-20260620",
+          "SHARED-FACTORY-BEIJING-202608"
+        ]
+      },
+      "verdict": "DEMOTED_SHARED_MANUFACTURING_FIELD_REAL_BUT_CURRENT_SHARED_FACTORY_PLATFORMS_ALREADY_OWN_ENGINEERING_PROTOTYPING_VALIDATION_AND_PRODUCTION_CONTROL_NOT_JUST_DISCOVERY"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_147-F3",
+      "title": "Parking facilities with idle time windows -> drivers needing short-duration parking",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Both sides replenish continuously and a matching transaction is simple, but a current incumbent already supports facility-side idle-slot publication, driver search, reservation, rental, payments/operations and user acquisition. Generic routing is already a product.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 2,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 3,
+          "self_propulsion": 3,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 3,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "PARKING-JPARKING-202609"
+          ],
+          "b_voluntary_motion": [
+            "PARKING-JPARKING-202609"
+          ],
+          "state_dependent_value_jump": [
+            "PARKING-JPARKING-202609"
+          ],
+          "decision_window": [
+            "PARKING-JPARKING-202609"
+          ],
+          "bridge_compression": [
+            "PARKING-JPARKING-202609"
+          ],
+          "activation_ease": [
+            "PARKING-JPARKING-202609"
+          ],
+          "self_propulsion": [
+            "PARKING-JPARKING-202609"
+          ],
+          "operator_control": [
+            "PARKING-JPARKING-202609"
+          ],
+          "a_discoverability": [
+            "PARKING-JPARKING-202609"
+          ],
+          "b_discoverability": [
+            "PARKING-JPARKING-202609"
+          ],
+          "match_resolvability": [
+            "PARKING-JPARKING-202609"
+          ],
+          "action_gate_callability": [
+            "PARKING-JPARKING-202609"
+          ],
+          "a_population_replenishment": [
+            "PARKING-JPARKING-202609"
+          ],
+          "b_population_replenishment": [
+            "PARKING-JPARKING-202609"
+          ],
+          "recurring_connection_pressure": [
+            "PARKING-JPARKING-202609"
+          ],
+          "recurring_missing_edge": [
+            "PARKING-JPARKING-202609"
+          ],
+          "recurring_event_source": [
+            "PARKING-JPARKING-202609"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PARKING-JPARKING-202609"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PARKING-JPARKING-202609"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PARKING-JPARKING-202609"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PARKING-JPARKING-202609"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "PARKING-JPARKING-202609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "PARKING-JPARKING-202609"
+        ]
+      },
+      "verdict": "DEMOTED_SHARED_PARKING_FIELD_REGENERATIVE_BUT_CURRENT_PARKING_PLATFORMS_ALREADY_OWN_IDLE_SLOT_PUBLICATION_SEARCH_RESERVATION_RENTAL_AND_OPERATIONS"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_147-F4",
+      "title": "Cold stores with unused regional capacity -> food and cold-chain operators needing temporary capacity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "Current market evidence shows large recurring rental supply and demand with regional imbalance, but Lianku already exposes warehouse clusters, demand posting, rental discovery, site selection, certification and tenant-acquisition services. The remaining work is facility/logistics fit rather than an unowned generic route.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 3,
+          "b_discoverability": 3,
+          "match_resolvability": 2,
+          "action_gate_callability": 3,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "b_voluntary_motion": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "state_dependent_value_jump": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "decision_window": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "bridge_compression": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "activation_ease": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "self_propulsion": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "operator_control": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "a_discoverability": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "b_discoverability": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "match_resolvability": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "action_gate_callability": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "a_population_replenishment": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "b_population_replenishment": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "recurring_connection_pressure": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "recurring_missing_edge": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ],
+          "recurring_event_source": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "COLD-LIANKU-202609",
+            "COLD-MARKET-202608"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "COLD-LIANKU-202609",
+          "COLD-MARKET-202608"
+        ]
+      },
+      "verdict": "DEMOTED_COLD_STORAGE_CAPACITY_FIELD_REGENERATIVE_BUT_LIANKU_ALREADY_OWNS_DEMAND_POSTING_WAREHOUSE_DISCOVERY_SITE_SELECTION_CERTIFICATION_AND_CUSTOM_TENANT_ACQUISITION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_147-F5",
+      "title": "Owners of used industrial equipment and recyclable assets -> compliant buyers, recyclers and remanufacturers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_summary": "The national policy treats fragmented supply, appraisal, compliant trading and recycling as a recurring systems problem, but the chosen national infrastructure is a functional resource-recycling platform integrating physical, contract, invoice, information and capital flows. Equipment condition/appraisal and compliant transfer further prevent a lightweight generic matcher from owning settlement.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 3,
+          "state_dependent_value_jump": 3,
+          "decision_window": 2,
+          "bridge_compression": 2,
+          "activation_ease": 1,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 3,
+          "b_population_replenishment": 3,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 1,
+          "recurring_event_source": 3
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "b_voluntary_motion": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "state_dependent_value_jump": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "decision_window": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "bridge_compression": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "activation_ease": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "self_propulsion": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "operator_control": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "a_discoverability": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "b_discoverability": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "match_resolvability": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "action_gate_callability": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "a_population_replenishment": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "b_population_replenishment": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "recurring_connection_pressure": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "recurring_missing_edge": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ],
+          "recurring_event_source": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "RECYCLE-NDRC-202601",
+            "RECYCLE-SASAC-202604"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "RECYCLE-NDRC-202601",
+          "RECYCLE-SASAC-202604"
+        ]
+      },
+      "verdict": "DEMOTED_USED_EQUIPMENT_RESOURCE_CIRCULATION_FIELD_REAL_BUT_NATIONAL_FUNCTIONAL_PLATFORM_APPRAISAL_COMPLIANCE_AND_MULTI_FLOW_SETTLEMENT_ARE_THE_DECISIVE_CONTROL_SURFACES"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": true,
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "All five shared-capacity fields are closed at the attraction layer because exact national/industry platforms already own the route or the residual value depends on engineering, appraisal, compliance or production control."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_148",
+  "next_search_boundary": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_FOR_SCAN147_THEN_ADVANCE_TO_FRESH_BROAD_REALITY_WITHOUT_RESCUING_THESE_FIELDS",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_TO_SCAN148_IF_EFFECTIVE_ROUTES_ARE_NO_FURTHER_RESEARCH",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scan146_resource_circulation_fields_not_used_as_prior": true,
+    "incumbent_presence_evaluated_before_retention": true,
+    "platform_control_not_mistaken_for_market_gap": true,
+    "physical_or_expert_delivery_not_mistaken_for_light_routing": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "A_POLICY_CREATED_MARKET_CAN_ALREADY_HAVE_THE_NATIONAL_ROUTER_EMBEDDED_IN_THE_POLICY_EXECUTION.",
+    "SHARED_CAPACITY_IS_NOT_LIGHT_ROUTING_WHEN_PROCESS_ENGINEERING_OR_APPRAISAL_CONTROLS_ACCEPTANCE.",
+    "EXACT_VERTICAL_MARKETPLACES_WITH_DEMAND_POSTING_AND_RESERVATION_REMOVE_THE_GENERIC_DISCOVERY_EDGE.",
+    "NATIONAL_MULTI_FLOW_SETTLEMENT_INFRASTRUCTURE_IS_A_STRONGER_CONTROL_SURFACE_THAN_VISIBLE_FRAGMENTATION."
+  ],
+  "source_urls": [
+    "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_58259bfb30924d6bb225b82b66d1008d.html",
+    "https://www.xiongan.gov.cn/20260510/a0e40b2ab73e4c7da9ee357d6a4799df/c.html",
+    "https://www.ljxq.gov.cn/zwxx/ljyw/202606/t20260618_15763026.html",
+    "https://kfqgw.beijing.gov.cn/zwgkkfq/ztzl/lqztkfq/lqzx/zxxx/202608/t20260804_4808342.html",
+    "https://www.jparking.cn/operate/rental",
+    "https://www.lianku.org.cn/",
+    "https://www.frozengoods.com.hk/zh-CN/news/6729?cate=126&child=12",
+    "https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202601/t20260108_1403124_ext.html",
+    "https://www.sasac.gov.cn/n2588025/n2588124/c35401231/content.html"
+  ]
+}
