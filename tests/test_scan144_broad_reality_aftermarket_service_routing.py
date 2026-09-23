@@ -80,6 +80,10 @@ def test_machine_state_advances_to_scan144_without_commercial_promotion():
     assert state["last_completed_scan_file"] == "data/research_runs/attraction_scan_144.json"
     assert state["next_scan_id"] == "ATTRACTION_SCAN_145"
     assert "ATTRACTION_SCAN_144-F1" in state["retained_research_formations"]
+    resolved = {row["formation_id"]: row["verdict"] for row in state["resolved_research_formations"]}
+    assert resolved["ATTRACTION_SCAN_144-F1"].startswith("DEMOTED_EXACT_INCUMBENT_PREFLIGHT_")
+    for suffix in ("F2", "F3", "F4", "F5"):
+        assert resolved[f"ATTRACTION_SCAN_144-{suffix}"].startswith("DEMOTED_")
     assert state["active_commercial_candidates"] == []
     assert state["active_transaction_units"] == []
     assert state["first_external_value_flow"] == "NOT_PROVEN"
