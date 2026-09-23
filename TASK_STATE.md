@@ -43,7 +43,9 @@ This branch starts from merged main `2300f2bc95db341681c37fd824e7b3b36f64227f`.
 
 ## Active PR
 
-None at this checkpoint. Open exactly one PR after machine state and this TASK_STATE are frozen on the Scan 136 head.
+PR #445 — `Run Scan 136 on current single-asset receipt rights`.
+
+The first CI attempt on head `68644877e4e9a0ab178390f9431b53537f4196e6` failed only because older Scan 135 tests asserted that global machine state could never advance beyond Scan 135 and because this TASK_STATE revision omitted three recovery-contract headings. Those are test/handoff drift failures, not Scan 136 evidence failures. This branch now repairs those assertions before a new exact-head validation.
 
 ## Scan 136 Result
 
@@ -98,7 +100,7 @@ Verdict: economics hard fail; no further research unless live Jev identifies a n
 
 Verdict: weak gross economics plus nearly RMB10m entry fail the current attraction lane.
 
-## Latest Artifacts
+## Latest Artifact / Persisted State
 
 - `data/research_runs/attraction_scan_136.json`;
 - `data/research_runs/scan136_current_asset_receipts_evidence.json`;
@@ -115,9 +117,21 @@ Machine truth on this branch:
 - next broad scan = `ATTRACTION_SCAN_137`;
 - FIRST_EXTERNAL_VALUE_FLOW = `NOT_PROVEN`.
 
-## CI / Jev Required Now
+## Completed
 
-Freeze this Scan 136 head and open exactly one PR. Require:
+- Persisted Scan 136 with four fresh formations and repository de-duplication against their exact addresses.
+- Retained Jiaxing F1 and Weiyuan F2 for research only.
+- Authoritatively closed Shanghai F3 and Wuhan F4 on economics.
+- Opened PR #445.
+- First PR CI exposed only forward-progress brittleness in Scan 135 tests plus missing required TASK_STATE headings; no Scan 136 evidence test failed.
+
+## Current Findings
+
+Jiaxing F1 currently has the cleanest source-bound post-transfer receipt chain: exact price, exact monthly rent, exact lease end and explicit buyer collection from transfer date. Weiyuan F2 has the strongest nominal gross economics but a narrower durability margin and a less explicit auction-specific first buyer rent cycle. Neither is a commercial candidate.
+
+## CI
+
+Re-run PR #445 on the new exact head after this compatibility repair. Require:
 1. repository CI success on the exact frozen head;
 2. live TypeSafe/Jev success on the same head;
 3. Jev input `ATTRACTION_SCAN_136` with entity_count=4;
