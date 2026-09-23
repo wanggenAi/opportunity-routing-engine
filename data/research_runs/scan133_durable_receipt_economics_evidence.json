@@ -1,0 +1,71 @@
+{
+  "schema_version": "research-evidence.v1",
+  "scan_id": "ATTRACTION_SCAN_133",
+  "as_of_date": "2026-09-23",
+  "primary_research_domain": "CHINA",
+  "evidence_packets": [
+    {
+      "formation_id": "ATTRACTION_SCAN_133-F1",
+      "sources": [
+        {
+          "source_id": "F1-S1",
+          "title": "Foshan Nanhai District People's Court - Nanchong New Century Plaza 1-D-06/07/08 judicial sale",
+          "url": "https://fayuan.nanhai.gov.cn/cms/html/3334/2026/20260807095623164261319/20260807095623164261319_1.html",
+          "role": "OFFICIAL_ACTIVE_LOW_PRICE_LONG_LEASE_POOLED_RENT_MECHANISM"
+        }
+      ],
+      "closure": "RMB128,004 active sale and lease through 2029 are explicit; owners committee collects and distributes annually by area, but the exact annual distribution to the three units is absent."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_133-F2",
+      "sources": [
+        {
+          "source_id": "F2-S1",
+          "title": "Fang judicial-sale republication - Dongyang Hengdian Tongle Street 85-9",
+          "url": "https://m.fang.com/fapai/jh/out_12715797.html",
+          "role": "CURRENT_PRICE_RENT_TERM_AND_FULL_PREPAYMENT_DISCLOSURE"
+        }
+      ],
+      "closure": "RMB1.204m price, RMB50k/year rent and lease through 2030 are explicit, but all lease rent is already paid through expiry and no buyer apportionment is bound."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_133-F3",
+      "sources": [
+        {
+          "source_id": "F3-S1",
+          "title": "Current relisting aggregation - South Grid Energy Hainan residential PV asset group",
+          "url": "https://www.bidcenter.com.cn/zhaobiao/zbhangye-6453-110000-1.html",
+          "role": "CURRENT_2026_09_22_RELISTING_PRICE_AND_DISCLOSURE_WINDOW"
+        },
+        {
+          "source_id": "F3-S2",
+          "title": "South Grid Energy progress disclosure on public transfer of smart green power assets",
+          "url": "https://m.10jqka.com.cn/sn/20260605/58404095.shtml",
+          "role": "LISTED_COMPANY_ASSET_IDENTITY_VALUATION_AND_TRANSFER_AUTHORIZATION_CORROBORATION"
+        }
+      ],
+      "closure": "Fresh non-property transfer and RMB1.7072m current price are visible, but asset-specific current receipts, payer/tariff, receipt term, post-transfer settlement and O&M transition are not bound in retrieved public evidence."
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_133-F4",
+      "sources": [
+        {
+          "source_id": "F4-S1",
+          "title": "Fang judicial-sale republication containing Yulin court notice - Yujia Road Fugui Alley property",
+          "url": "https://m.fang.com/fapai/sxyulin/out_12689966.html",
+          "role": "ACTIVE_PRICE_CHINA_TOWER_RENT_TERM_AND_RECONTRACTING_REQUIREMENT"
+        }
+      ],
+      "closure": "China Tower pays RMB24k/year through 2030, but the court states continuation after auction requires a new lease because the existing lease postdates mortgage/seizure."
+    }
+  ],
+  "excluded_evidence": [
+    {
+      "source_id": "X1",
+      "title": "National Enterprise Bankruptcy Information Disclosure Platform - Shanxi Synthetic Rubber ninth asset-package disposal",
+      "url": "https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=A76097D9B561754790B798D5779FEF16",
+      "role": "ENTERPRISE_PAYER_LONG_TERM_RENT_MECHANISM_BUT_RMB76M_POLLUTED_INDUSTRIAL_PACKAGE_DISCONFIRMATION"
+    }
+  ],
+  "scan_conclusion": "SCAN133_DURABLE_RECEIPT_ECONOMICS_PASS_ZERO_RETAINED_ZERO_COMMERCIAL_PROMOTION"
+}

@@ -1,0 +1,238 @@
+{
+  "schema_version": "attraction-scan.v102",
+  "scan_id": "ATTRACTION_SCAN_133",
+  "epoch": "ATTRACTION_FIELD_V1",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "primary_research_domain": "CHINA",
+  "primary_execution_lens": "CURRENT_SMALL_OPERATOR_ASSETS_OR_CONTRACT_RIGHTS_WITH_DURABLE_BUYER_RECEIPT_COVERAGE_RECEIPT_TO_ENTRY_ECONOMICS_EXPLICIT_POST_TRANSFER_RECEIPT_RIGHTS_AND_LOW_RECURRING_HUMAN_DELIVERY",
+  "source_geographies": [
+    "CHINA"
+  ],
+  "research_target_geography": "CHINA",
+  "search_mode": "FRONT_LOAD_DURABLE_BUYER_RECEIPT_WINDOW_PLUS_RECEIPT_TO_ENTRY_ECONOMICS_AND_ASSET_ATTRIBUTION_NO_SCAN060_TO_132_REUSE_NO_REGULATED_SECURITIES_NO_GATE_RELAXATION",
+  "inherited_active_formation_as_seed": false,
+  "inherited_mechanism_as_requirement": false,
+  "active_commercial_candidate_promotions": [],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "parallel_validation_queue": [
+    "ATTRACTION_SCAN_015-F1"
+  ],
+  "zero_primary_admissions": false,
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_133-F1",
+      "title": "ACTIVE_LOW_PRICE_POOLED_SHOP_RENT_WITH_LONG_LEASE_BUT_NO_ASSET_ATTRIBUTABLE_RECEIPT_QUANTUM",
+      "chinese_title": "南充三个商铺12.8004万元整体变卖 → 租到2029年 → 业委会统一收租按面积分配但本标的年分配额未公开",
+      "evidence_class": "CURRENT_OFFICIAL_LOW_PRICE_LONG_LEASE_WITH_POOLED_RENT_DISTRIBUTION_BUT_MISSING_ASSET_ATTRIBUTABLE_RECEIPT_AMOUNT",
+      "evidence_summary": "A Foshan Nanhai District People's Court judicial sale is active from 2026-08-24 through 2026-10-23 for three Nanchong New Century Plaza shops at RMB 128,004. The three shops are physically combined with neighboring shops and leased for the operation of '不玩星球游乐中心' through 2029-12-19. The shopping-center owners committee leases the combined space, collects rent and distributes rent annually to owners in proportion to shop area. The court notice does not disclose the annual amount allocated to these three auctioned units, so durable pooled demand is proven but asset-attributable receipt quantum and receipt-to-entry economics remain unknown.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_128004_PLUS_TRANSFER_TAXES_AND_FEES",
+        "contracted_receipt_amount": "NOT_PUBLIC_ASSET_ATTRIBUTABLE_ANNUAL_DISTRIBUTION",
+        "buyer_receipt_start": "POST_TRANSFER_DISTRIBUTION_RIGHT_INFERRED_FROM_OWNERSHIP_MECHANISM_BUT_EXACT_FIRST_DISTRIBUTION_DATE_NOT_STATED",
+        "buyer_receipt_end": "LEASE_END_2029-12-19",
+        "counterparty": "NANBU_COUNTY_BINJIANG_SUBDISTRICT_NEW_CENTURY_SHOPPING_CENTER_OWNERS_COMMITTEE_AS_LESSOR_COLLECTION_AND_DISTRIBUTION_COORDINATOR_PLUS_OPERATING_TENANT",
+        "post_transfer_receipt_right": "PARTIAL_POOLED_OWNER_DISTRIBUTION_MECHANISM_DESCRIBED_BUT_BUYER_SPECIFIC_AMOUNT_AND_FIRST_PAYMENT_NOT_BOUND",
+        "low_recurring_human_delivery": "PASS_POOLED_COLLECTION_AND_ANNUAL_DISTRIBUTION_ARE_COMMITTEE_MANAGED_SUBJECT_TO_NORMAL_OWNER_ADMINISTRATION",
+        "receipt_to_entry_economics": "UNKNOWN_MISSING_ASSET_ATTRIBUTABLE_RECEIPT_QUANTUM"
+      },
+      "attraction_brief": {
+        "a_side": "An active official judicial-sale rail exposes three commercial units for RMB 128,004.",
+        "a_side_evidence": "Court notice gives exact units, current 60-day sale window, sale price and deposit.",
+        "b_side": "The units are already part of a pooled operating lease with rent collected centrally and distributed annually.",
+        "b_side_evidence": "Court notice names the operating use, lease end date, owners committee and proportional annual distribution mechanism.",
+        "operator": "The owners committee performs centralized leasing and collection, reducing recurring owner labor.",
+        "operator_non_labor_test": "PASS_SUBJECT_TO_NORMAL_PROPERTY_OWNERSHIP_ADMINISTRATION",
+        "connection_wow": "Very low entry price plus multi-year centrally managed rental flow is unusually close to the target structure.",
+        "activation_friction": "PASS_CURRENT_JUDICIAL_SALE_RAIL_SUBJECT_TO_PROPERTY_ELIGIBILITY_AND_TRANSFER_COSTS",
+        "self_propulsion": "PARTIAL_EXISTING_LEASE_AND_COLLECTION_MECHANISM_BUT_PAYMENT_QUANTUM_UNKNOWN",
+        "a_discoverability": "PASS_OFFICIAL_COURT_NOTICE",
+        "b_discoverability": "PASS_LEASE_AND_COLLECTION_COORDINATOR_BUT_NOT_UNIT_PAYMENT_AMOUNT",
+        "match_resolvability": "FAIL_ASSET_LEVEL_RECEIPT_ATTRIBUTION",
+        "action_gate": "FAIL_NO_SOURCE_BOUND_RECEIPT_QUANTUM_OR_FIRST_BUYER_PAYMENT_DATE",
+        "router_distinctiveness": "PASS_OWNERSHIP_PLUS_CENTRALIZED_COLLECTION_IS_NON_GENERIC",
+        "generic_agent_substitution": "PASS_PROPERTY_RIGHT_AND_POOLED_DISTRIBUTION_ARE_NOT_GENERIC_AGENT_SUBSTITUTABLE",
+        "legal_payment_compliance": "PASS_JUDICIAL_TRANSFER_AND_EXISTING_LEASE_MECHANISM",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "The official court notice gives only the proportional distribution formula, not the annual RMB allocation to the three auctioned units.",
+        "Without an asset-attributable receipt amount, receipt-to-entry economics cannot be calculated.",
+        "The court notice does not state the exact first post-transfer distribution date or whether already-collected rent is apportioned at closing."
+      ],
+      "verdict": "DEMOTED_ACTIVE_RMB128004_POOLED_RENT_ASSET_HAS_LONG_LEASE_AND_CENTRAL_COLLECTION_BUT_NO_ASSET_ATTRIBUTABLE_RECEIPT_QUANTUM_OR_EXACT_FIRST_BUYER_PAYMENT"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_133-F2",
+      "title": "CURRENT_LONG_LEASE_PROPERTY_WITH_EXPLICIT_RENT_BUT_FULL_PREPAYMENT_TO_OLD_OWNER",
+      "chinese_title": "东阳同乐街85-9号120.4万元变卖 → 5万元/年租到2030年 → 但租金已付至租约结束",
+      "evidence_class": "CURRENT_LONG_TERM_EXPLICIT_RENT_AND_ENTRY_PRICE_WITH_ZERO_FUTURE_BUYER_RECEIPT_WINDOW_FROM_PREPAYMENT",
+      "evidence_summary": "The Dongyang Hengdian Tongle Street 85-9 judicial sale starts on 2026-09-23 at RMB 1,204,000. The protected lease runs from 2024-03-29 through 2030-03-28 at RMB 50,000 per year. The same court-derived listing states that rent has already been paid through 2030-03-28. Thus price, rent quantum, term and tenant occupancy are visible, but the future contracted tenant payment stream has already been collected before the buyer enters. No public term binds a seller-to-buyer apportionment or reimbursement of that prepaid rent.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_1204000_PLUS_BUYER_TRANSFER_TAXES_FEES_AND_EXISTING_PROPERTY_ARREARS",
+        "contracted_receipt_amount": "RMB_50000_PER_YEAR",
+        "buyer_receipt_start": "NONE_PROVEN_ALL_DISCLOSED_LEASE_RENT_PREPAID_TO_2030-03-28",
+        "buyer_receipt_end": "LEASE_END_2030-03-28",
+        "counterparty": "EXISTING_PROTECTED_TENANT",
+        "post_transfer_receipt_right": "FAIL_NO_FUTURE_TENANT_PAYMENT_WINDOW_AND_NO_SOURCE_BOUND_PREPAID_RENT_APPORTIONMENT_TO_BUYER",
+        "low_recurring_human_delivery": "PASS_DURING_TENANCY_SUBJECT_TO_NORMAL_OWNER_OBLIGATIONS",
+        "receipt_to_entry_economics": "ZERO_SOURCE_BOUND_FUTURE_RECEIPTS_DESPITE_NOMINAL_RMB50000_ANNUAL_RENT"
+      },
+      "attraction_brief": {
+        "a_side": "A current judicial-sale asset has a transparent price and long protected lease.",
+        "a_side_evidence": "RMB 1,204,000 sale price and 2024-03-29 to 2030-03-28 lease term are disclosed.",
+        "b_side": "The tenant contract nominally specifies RMB 50,000 annual rent.",
+        "b_side_evidence": "Court-derived listing states the full annual rent and that rent is paid through lease expiry.",
+        "operator": "Landlord labor is low, but ownership does not create a new receipt stream when all rent is prepaid.",
+        "operator_non_labor_test": "PASS_BUT_ECONOMIC_FLOW_FAILS",
+        "connection_wow": "The example separates durable occupancy from durable buyer cash receipts.",
+        "activation_friction": "PASS_CURRENT_SALE_RAIL",
+        "self_propulsion": "FAIL_ZERO_FUTURE_SOURCE_BOUND_TENANT_RECEIPTS",
+        "a_discoverability": "PASS_CURRENT_PUBLIC_JUDICIAL_SALE_REPUBLICATION",
+        "b_discoverability": "PASS_TENANT_RENT_TERM_AND_PREPAYMENT_STATUS",
+        "match_resolvability": "PASS",
+        "action_gate": "FAIL_POST_TRANSFER_BUYER_RECEIPT_WINDOW",
+        "router_distinctiveness": "PASS_OWNERSHIP_RIGHT_IS_NON_GENERIC",
+        "generic_agent_substitution": "PASS_OWNERSHIP_IS_NON_GENERIC",
+        "legal_payment_compliance": "PASS_JUDICIAL_PROPERTY_TRANSFER",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "Rent is explicitly stated as paid through 2030-03-28, the lease end date.",
+        "No source states that prepaid rent will be apportioned or reimbursed to the buyer.",
+        "Nominal annual rent therefore cannot be counted as future external value flow to the buyer."
+      ],
+      "verdict": "DEMOTED_CURRENT_LONG_LEASE_EXPLICIT_RMB50000_ANNUAL_RENT_IS_FULLY_PREPAID_TO_OLD_OWNER_THROUGH_2030_SO_BUYER_HAS_NO_SOURCE_BOUND_FUTURE_RECEIPT_WINDOW"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_133-F3",
+      "title": "CURRENT_SMALLER_DISTRIBUTED_SOLAR_ASSET_RELISTING_WITHOUT_BOUND_EXISTING_RECEIPT_LEDGER",
+      "chinese_title": "海南户用光伏资产组170.72万元当前重新挂牌 → 非地产机器现金流机制存在 → 但公开挂牌未绑定现有电费收入和剩余合同期",
+      "evidence_class": "CURRENT_NON_PROPERTY_OPERATING_ASSET_TRANSFER_WITH_ENTRY_PRICE_BUT_MISSING_SOURCE_BOUND_RECEIPT_AMOUNT_COUNTERPARTY_TERM_AND_LOW_LABOR_TRANSITION",
+      "evidence_summary": "On 2026-09-22 South Grid Energy's Hainan residential distributed-PV asset group was relisted at RMB 1.7072 million, with disclosure through 2026-10-26. Earlier listed-company disclosures establish that the company authorized disposal of this specific operating PV asset group and valued it at RMB 1.56 million at the assessment base date. The current public listing evidence available in this scan identifies the asset transfer and price but does not bind a current project-specific electricity-receipt ledger, tariff/PPA counterparty, remaining receipt term, O&M burden or post-transfer settlement mechanics to the same asset group. The formation therefore cannot be treated as a source-bound machine cashflow purchase.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_1707200_CURRENT_RELISTING_FLOOR",
+        "contracted_receipt_amount": "NOT_PUBLICLY_BOUND_IN_CURRENT_LISTING_EVIDENCE",
+        "buyer_receipt_start": "UNKNOWN",
+        "buyer_receipt_end": "UNKNOWN",
+        "counterparty": "UNKNOWN_AT_ASSET_GROUP_RECEIPT_LEVEL",
+        "post_transfer_receipt_right": "ASSET_TRANSFER_PROVEN_BUT_PROJECT_SPECIFIC_RECEIPT_SETTLEMENT_RIGHTS_NOT_BOUND_IN_RETRIEVED_PUBLIC_LISTING",
+        "low_recurring_human_delivery": "UNKNOWN_O_AND_M_AND_SETTLEMENT_TRANSITION_NOT_SOURCE_BOUND",
+        "receipt_to_entry_economics": "UNKNOWN_NO_ASSET_GROUP_RECEIPT_LEDGER"
+      },
+      "attraction_brief": {
+        "a_side": "A current public state-owned property-rights rail offers a non-property distributed-PV operating asset group.",
+        "a_side_evidence": "Relisting date 2026-09-22, floor RMB 1.7072m, disclosure to 2026-10-26.",
+        "b_side": "PV projects can generate machine-metered electricity revenue, but this asset group's actual current payer/receipt terms were not bound in the retrieved listing evidence.",
+        "b_side_evidence": "Company disclosures prove the asset group exists and is authorized for disposal, not its current receipt ledger.",
+        "operator": "Physical generation is automated, but O&M, roof/household agreements, grid settlement and transfer obligations must be evidenced rather than assumed.",
+        "operator_non_labor_test": "UNKNOWN_FAIL_CLOSED",
+        "connection_wow": "This is the strongest fresh non-property operating-asset rail in Scan 133, but price alone cannot substitute for receipt economics.",
+        "activation_friction": "PARTIAL_CURRENT_TRANSFER_RAIL_EXISTS",
+        "self_propulsion": "UNKNOWN_CURRENT_RECEIPTS_NOT_SOURCE_BOUND",
+        "a_discoverability": "PASS_CURRENT_RELISTING",
+        "b_discoverability": "FAIL_PROJECT_SPECIFIC_RECEIPT_COUNTERPARTY_AND_LEDGER_NOT_RETRIEVED",
+        "match_resolvability": "FAIL_COMPLETE_RECEIPT_ATTRIBUTION",
+        "action_gate": "FAIL_RECEIPT_AMOUNT_TERM_AND_POST_TRANSFER_SETTLEMENT_EVIDENCE",
+        "router_distinctiveness": "PASS_PHYSICAL_GENERATION_ASSET_IS_NON_GENERIC",
+        "generic_agent_substitution": "PASS_OWNERSHIP_AND_GRID_CONNECTED_ASSET_CONTROL_ARE_NON_GENERIC",
+        "legal_payment_compliance": "UNKNOWN_CONTRACT_SET_NOT_RETRIEVED_FAIL_CLOSED",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "The current relisting exposes the floor price but not the asset-group current electricity receipt ledger.",
+        "No retrieved source binds payer/tariff, remaining receipt term and post-transfer settlement to the same asset group.",
+        "O&M and household/roof/grid transition obligations are not source-bound in the evidence package and cannot be assumed low-labor."
+      ],
+      "verdict": "DEMOTED_CURRENT_RMB1707200_DISTRIBUTED_PV_ASSET_RELISTING_PROVES_NON_PROPERTY_TRANSFER_RAIL_BUT_CURRENT_ASSET_SPECIFIC_RECEIPTS_TERM_COUNTERPARTY_SETTLEMENT_AND_LOW_LABOR_TRANSITION_ARE_UNBOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_133-F4",
+      "title": "ACTIVE_CHINA_TOWER_ROOFTOP_LEASE_WITH_EXPLICIT_RENT_BUT_CONTRACT_REQUIRES_NEW_OWNER_RECONTRACTING",
+      "chinese_title": "榆林房产192.12万元变卖 + 中国铁塔2.4万元/年租到2030年 → 但原租约不随拍卖自动延续",
+      "evidence_class": "CURRENT_EXPLICIT_ENTERPRISE_RENT_STREAM_WITH_LONG_TERM_AND_ANNUAL_PAYMENT_BUT_NO_AUTOMATIC_POST_TRANSFER_CONTRACT_RIGHT",
+      "evidence_summary": "An active Yulin judicial sale runs 2026-09-16 through 2026-11-15 at RMB 1,921,200. China Tower Yulin leases 85 square meters of roof space from 2025-09-01 through 2030-08-31 for RMB 24,000 per year, paid annually, with rent already paid through 2026-08-31. Crucially, the court states that the lease was signed after the property's mortgage and seizure, so continued use after auction requires the new owner and China Tower to sign a new lease; otherwise China Tower will remove its facilities. This defeats automatic inherited cashflow even though payer, amount and term are otherwise unusually explicit.",
+      "economic_tuple": {
+        "acquisition_price": "RMB_1921200_PLUS_LAND_PREMIUM_AND_TRANSFER_COSTS",
+        "contracted_receipt_amount": "RMB_24000_PER_YEAR",
+        "buyer_receipt_start": "ONLY_IF_NEW_OWNER_AND_CHINA_TOWER_EXECUTE_NEW_LEASE_AFTER_TRANSFER",
+        "buyer_receipt_end": "ORIGINAL_CONTRACT_END_2030-08-31_IF_RECONTRACTED_ON_COMPARABLE_TERMS",
+        "counterparty": "CHINA_TOWER_CORPORATION_LIMITED_YULIN_BRANCH",
+        "post_transfer_receipt_right": "FAIL_EXISTING_CONTRACT_NOT_AUTOMATICALLY_ENFORCEABLE_BY_BUYER_AND_RECONTRACTING_REQUIRED",
+        "low_recurring_human_delivery": "PASS_FOR_ROOFTOP_SITE_LEASE_IF_RECONTRACTED_SUBJECT_TO_OWNER_ADMINISTRATION",
+        "receipt_to_entry_economics": "NOMINAL_RMB24000_DIVIDED_BY_RMB1921200_APPROX_1_25_PERCENT_GROSS_BEFORE_COSTS_AND_NOT_CONTRACTUALLY_INHERITED"
+      },
+      "attraction_brief": {
+        "a_side": "An active judicial sale exposes a property with an enterprise telecom site lease.",
+        "a_side_evidence": "Sale window, RMB 1.9212m price and roof site are public.",
+        "b_side": "China Tower pays RMB 24,000/year under a five-year annual-payment lease.",
+        "b_side_evidence": "Court-derived notice identifies the named enterprise counterparty, dates and payment status.",
+        "operator": "A rooftop telecom lease would normally be low recurring labor.",
+        "operator_non_labor_test": "PASS_IF_CONTRACT_SURVIVES",
+        "connection_wow": "Enterprise payer and long-duration low-labor rent are explicit, but legal contract priority breaks automatic succession.",
+        "activation_friction": "FAIL_RECONTRACTING_IS_A_NEW_COMMERCIAL_ACTION_NOT_INHERITED_FLOW",
+        "self_propulsion": "FAIL_ORIGINAL_RECEIPT_STREAM_DOES_NOT_AUTOMATICALLY_TRANSFER",
+        "a_discoverability": "PASS_CURRENT_JUDICIAL_SALE",
+        "b_discoverability": "PASS_NAMED_ENTERPRISE_COUNTERPARTY_AND_RENT",
+        "match_resolvability": "PASS",
+        "action_gate": "FAIL_POST_TRANSFER_CONTRACT_CONTINUITY",
+        "router_distinctiveness": "PASS_ROOFTOP_SITE_CONTROL_IS_NON_GENERIC",
+        "generic_agent_substitution": "PASS_PHYSICAL_SITE_RIGHT_IS_NON_GENERIC",
+        "legal_payment_compliance": "FAIL_CLOSED_UNTIL_NEW_LEASE_IS_EXECUTED",
+        "regulatory_content_compliance": "NOT_APPLICABLE"
+      },
+      "exact_disconfirmation": [
+        "The court states the China Tower lease was signed after the mortgage and seizure.",
+        "Continued post-auction use requires the buyer and China Tower to execute a new lease.",
+        "If they do not, China Tower will dismantle and remove the facilities, so the original rent stream is not inherited automatically."
+      ],
+      "verdict": "DEMOTED_ACTIVE_CHINA_TOWER_RMB24000_ANNUAL_ROOFTOP_RENT_HAS_LONG_TERM_ENTERPRISE_PAYER_BUT_POST_TRANSFER_RECEIPTS_REQUIRE_NEW_LEASE_SO_EXISTING_CONTRACT_CASHFLOW_IS_NOT_INHERITED"
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation": "XIAMEN_QIANCUNPU_ROAD_582_303_HUAERDUN_1275",
+      "reason": "Secondary current source exposes RMB6000 then RMB7000 monthly rent through 2029 and buyer collection after transfer, but the public page redacts entry price; complete economics cannot be calculated and authoritative primary transaction page was not retrieved."
+    },
+    {
+      "observation": "DATONG_SHANXI_SYNTHETIC_RUBBER_BANKRUPTCY_PACKAGE_WITH_CHINA_TOWER_LEASES",
+      "reason": "Official evidence proves low-labor China Tower rents through 2029-2036, but they are inseparable from a RMB76.07481m polluted industrial asset package with extensive maintenance/environmental liabilities, far outside small-operator scope."
+    },
+    {
+      "observation": "SCAN131_TO_132_PROPERTY_CHARGING_LED_VENDING_FORMATIONS",
+      "reason": "Already consumed and excluded by anti-repeat boundary."
+    }
+  ],
+  "drift_audit": {
+    "primary_domain_is_china": true,
+    "durable_buyer_receipt_window_required": true,
+    "receipt_to_entry_economics_front_loaded": true,
+    "receipt_must_be_attributable_to_exact_asset": true,
+    "prepaid_old_owner_receipts_not_buyer_cashflow": true,
+    "post_transfer_contract_continuity_must_be_explicit": true,
+    "machine_generated_revenue_cannot_be_assumed_from_asset_class": true,
+    "non_property_search_required_and_executed": true,
+    "low_recurring_human_delivery_independent_gate": true,
+    "scan060_to_132_formation_fallback_forbidden": true,
+    "gate_relaxation": false
+  },
+  "commercial_outcome": {
+    "retained_count": 0,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "Scan 133 front-loaded durable buyer receipt coverage and receipt-to-entry economics. The cheapest active long-lease pooled-rent asset lacks an asset-attributable payment amount; the strongest explicit long rent is fully prepaid to the old owner; the fresh distributed-PV relisting exposes price but not source-bound project receipts/term/settlement; and the enterprise China Tower lease requires post-auction recontracting. Zero formations clear inherited durable buyer cashflow."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_134",
+  "next_search_boundary": "SCAN134_SEARCH_CURRENT_CHINA_ASSETS_OR_CONTRACT_RIGHTS_WITH_UNPREPAID_ASSET_ATTRIBUTABLE_BUYER_RECEIPTS_AUTOMATIC_POST_TRANSFER_CONTRACT_CONTINUITY_EXPLICIT_ENTRY_PRICE_AND_AT_LEAST_24_MONTHS_SOURCE_BOUND_RECEIPT_COVERAGE_FRONT_LOAD_GROSS_RECEIPT_TO_ENTRY_ECONOMICS_AND_PRIORITIZE_NON_PROPERTY_MACHINE_METERED_OR_ENTERPRISE_PAYER_ASSETS_NO_SCAN060_TO_133_REUSE_NO_REGULATED_SECURITIES_NO_GATE_RELAXATION",
+  "next_action": "FREEZE_SCAN133_HEAD_OPEN_ONE_PR_REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_INPUT_SCAN_ID_ATTRACTION_SCAN_133_ENTITY_COUNT_4_ALL_FOUR_AUTHORITATIVE_NO_FURTHER_RESEARCH_THEN_ADVANCE_TO_SCAN134_IF_CONTINUATION_ALLOWS",
+  "scan_learnings": [
+    "POOLED_OR_CENTRALIZED_RENT_COLLECTION_IS_NOT_ENOUGH_RECEIPT_QUANTUM_MUST_BE_ATTRIBUTABLE_TO_THE_EXACT_ACQUIRED_ASSET.",
+    "A_LONG_LEASE_WITH_NOMINAL_RENT_HAS_ZERO_BUYER_RECEIPT_VALUE_WHEN_ALL_RENT_IS_PREPAID_TO_THE_OLD_OWNER_AND_NO_APPORTIONMENT_IS_BOUND.",
+    "CURRENT_DISTRIBUTED_PV_ASSET_TRANSFER_RAILS_CAN_REACH_LOW_SINGLE_DIGIT_MILLION_RMB_ENTRY_PRICES_BUT_PROJECT_SPECIFIC_RECEIPTS_TERM_SETTLEMENT_AND_O_AND_M_MUST_BE_BOUND_BEFORE_CALLING_THEM_MACHINE_CASHFLOW_ASSETS.",
+    "NAMED_ENTERPRISE_PAYER_RENT_DOES_NOT_TRANSFER_WHEN_LEGAL_PRIORITY_REQUIRES_THE_BUYER_TO_EXECUTE_A_NEW_CONTRACT.",
+    "SCAN134_SHOULD_REQUIRE_UNPREPAID_ASSET_ATTRIBUTABLE_RECEIPTS_AUTOMATIC_CONTRACT_CONTINUITY_AND_AT_LEAST_24_MONTHS_SOURCE_BOUND_BUYER_RECEIPT_COVERAGE_BEFORE_DEEP_DILIGENCE."
+  ]
+}
