@@ -1,0 +1,1146 @@
+{
+  "scan_id": "ATTRACTION_SCAN_148",
+  "as_of_date": "2026-09-23",
+  "status": "COMPLETE",
+  "search_mode": "BROAD_CURRENT_REALITY_REMOTE_TO_LOCAL_PHYSICAL_EXECUTION_AFTER_SCAN147_FINAL_ALL_ROUTES_CLOSED",
+  "source_main_sha": "d98dd7d1a0770f1223341a5241abdfda20df1ee8",
+  "strategic_reboot": {
+    "prior_scan": "ATTRACTION_SCAN_147",
+    "prior_pr": 459,
+    "prior_merged_main_sha": "d98dd7d1a0770f1223341a5241abdfda20df1ee8",
+    "prior_final_exact_head": "1df28ccd2762d477c69ab46f395ce6ea591f748c",
+    "prior_repository_ci_run_id": 35873826574,
+    "prior_live_jev_run_id": 35873826738,
+    "prior_live_jev_artifact_id": 10756430763,
+    "prior_live_jev_artifact_digest": "sha256:6017619d42cd3e509bd912613a3210de64643774f52734300a65766d11aa17c3",
+    "prior_effective_routes_all_no_further_research": true,
+    "prior_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "scan143_factory_inspection_not_inherited": true,
+    "scan144_aftermarket_service_not_inherited": true
+  },
+  "broad_reality_domains_examined": [
+    "BOUNDED_NON_SPECIALIST_REMOTE_TO_LOCAL_PHYSICAL_EXECUTION",
+    "FACTORY_SITE_INSPECTION_VERTICAL",
+    "DOCUMENT_ADMINISTRATIVE_PROXY",
+    "PROXY_BUYING_AND_FORWARDING",
+    "BESPOKE_LOCAL_ASSISTANCE"
+  ],
+  "source_registry": {
+    "LOCAL-AGENT-SERVICES-202609": {
+      "source_class": "CURRENT_CHINA_SIDE_EXECUTION_SERVICE_CATALOG",
+      "url": "https://chinalocalagent.com/services",
+      "date": "2026-09-23",
+      "claim": "ChinaLocalAgent currently presents multiple China-side execution categories including sourcing, supplier verification, foreigner local assistance and practical local execution, scoped by location, access, timing and evidence requirements."
+    },
+    "LOCAL-AGENT-ERRANDS-202609": {
+      "source_class": "CURRENT_OVERSEAS_CLIENT_PHYSICAL_TASK_SERVICE",
+      "url": "https://chinalocalagent.com/services/personal-errands-concierge",
+      "date": "2026-09-23",
+      "claim": "The current service explicitly targets overseas clients who need clearly defined physical tasks handled in China, including package handling, appointments, local purchases and records of completion."
+    },
+    "ZERRAND-CROSSBORDER-202609": {
+      "source_class": "CURRENT_CROSS_BORDER_LOCAL_EXECUTION_SERVICE",
+      "url": "https://www.zerrand.com/en/cross-border/",
+      "date": "2026-09-23",
+      "claim": "Zerrand currently offers China/Hong Kong cross-border lost-and-found recovery, proxy buying, on-site assistance and document retrieval for clients abroad, including physical pickup, visits, evidence capture and courier handoff."
+    },
+    "CHINA-BIZ-AGENT-202609": {
+      "source_class": "CURRENT_REMOTE_TO_LOCAL_EXECUTION_PROVIDER",
+      "url": "https://chinabizagent.com/about-us/",
+      "date": "2026-09-23",
+      "claim": "China Biz Agent describes itself as a China-based local execution service for international clients completing real-world tasks without being physically present, with task briefs centered on checking, collecting, verifying or delivering."
+    },
+    "FACTORY-VISIT-INCUMBENT-202609": {
+      "source_class": "CURRENT_FACTORY_VISIT_INCUMBENT",
+      "url": "https://chinalocalagent.com/services/factory-and-site-visits",
+      "date": "2026-09-23",
+      "claim": "Factory/site visits are already productized around checklist planning, lawful site attendance, permitted photo/video evidence and visit reports, with specialist inspection explicitly excluded."
+    },
+    "ENSAMICO-FACTORY-202609": {
+      "source_class": "CURRENT_SPECIALIST_FACTORY_VISIT_PROVIDER",
+      "url": "https://ensamico.com/source-china/factory-visits/",
+      "date": "2026-09-23",
+      "claim": "Ensamico currently offers overseas buyers structured factory visits in China with visit coordination, facility observations, supplier meetings and traceable evidence, while separating commercial observation from certified or technical audit."
+    },
+    "CHINA-AGENT-VISITS-202609": {
+      "source_class": "CURRENT_ESTABLISHED_CHINA_BUYER_SERVICE",
+      "url": "https://www.china-agent.com/special-china-services-factory-visits-inspections-and-sourcing-support",
+      "date": "2026-09-23",
+      "claim": "China Agent currently provides productized fixed-price China-side verification, visits and buyer support for international buyers and states it has operated in China since 2009."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_148-F1",
+      "title": "Remote overseas actors with bounded non-specialist China-side physical tasks -> replaceable local executors who can follow a checklist and return evidence",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "REPEATED_REMOTE_TO_LOCAL_PHYSICAL_EXECUTION",
+      "evidence_summary": "Multiple current providers independently expose the same broad pattern: a client outside the location needs a person physically present in China for a bounded task such as pickup, handoff, simple visit, visible-condition capture or appointment coordination, and expects an evidence record afterward. The retained edge is deliberately narrower than factory inspection, certified audit, regulated representation, purchasing custody or specialist field service. Existing supply is fragmented into agency-style providers; this scan has not yet proven that one exact general-purpose network owns the low-risk checklist-to-evidence control loop.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "b_voluntary_motion": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "state_dependent_value_jump": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "decision_window": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "bridge_compression": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "activation_ease": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "self_propulsion": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "operator_control": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "a_discoverability": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "b_discoverability": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "match_resolvability": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "action_gate_callability": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "a_population_replenishment": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "b_population_replenishment": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "recurring_connection_pressure": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "recurring_missing_edge": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "recurring_event_source": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "LOCAL-AGENT-SERVICES-202609",
+          "LOCAL-AGENT-ERRANDS-202609",
+          "ZERRAND-CROSSBORDER-202609",
+          "CHINA-BIZ-AGENT-202609"
+        ]
+      },
+      "verdict": "RETAINED_FOR_JEV_RESEARCH_ROUTING_AFTER_BROAD_REALITY_AND_COMPARISON_PROFILE_VALIDATION"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_148-F2",
+      "title": "Overseas buyers needing factory/site inspection -> specialist China inspection and visit providers",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "SPECIALIST_VERTICAL_EXECUTION",
+      "evidence_summary": "The physical-presence need is real but this vertical is already productized by established factory-visit and inspection providers. Acceptance can depend on technical scope, supplier access and specialist judgment, so it is not the low-risk general execution edge retained in F1.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "b_voluntary_motion": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "state_dependent_value_jump": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "decision_window": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "bridge_compression": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "activation_ease": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "self_propulsion": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "operator_control": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "a_discoverability": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "b_discoverability": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "match_resolvability": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "action_gate_callability": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "a_population_replenishment": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "b_population_replenishment": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "recurring_connection_pressure": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "recurring_missing_edge": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ],
+          "recurring_event_source": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": true,
+          "explanation_burden_high": true,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "FACTORY-VISIT-INCUMBENT-202609",
+            "ENSAMICO-FACTORY-202609",
+            "CHINA-AGENT-VISITS-202609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "FACTORY-VISIT-INCUMBENT-202609",
+          "ENSAMICO-FACTORY-202609",
+          "CHINA-AGENT-VISITS-202609"
+        ]
+      },
+      "verdict": "DEMOTED_FACTORY_INSPECTION_AND_SITE_VISIT_VERTICAL_ALREADY_PRODUCTIZED_AND_SPECIALIST_SCOPE_CONTROLS_ACCEPTANCE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_148-F3",
+      "title": "People abroad needing document retrieval or administrative proxy action in China -> local representatives",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "AUTHORIZATION_BOUND_PHYSICAL_PROXY",
+      "evidence_summary": "Document retrieval and administrative proxy work is observable, but authorization, identity, institution-specific rules and legal representation boundaries make the action gate case-specific rather than a stable generic rail.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 1,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "b_voluntary_motion": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "state_dependent_value_jump": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "decision_window": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "bridge_compression": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "activation_ease": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "self_propulsion": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "operator_control": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "a_discoverability": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "b_discoverability": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "match_resolvability": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "action_gate_callability": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "a_population_replenishment": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "b_population_replenishment": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "recurring_connection_pressure": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "recurring_missing_edge": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ],
+          "recurring_event_source": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-SERVICES-202609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "ZERRAND-CROSSBORDER-202609",
+          "LOCAL-AGENT-SERVICES-202609"
+        ]
+      },
+      "verdict": "DEMOTED_DOCUMENT_ADMIN_PROXY_FIELD_AUTHORIZATION_IDENTITY_AND_INSTITUTION_SPECIFIC_GATES_PREVENT_GENERIC_CALLABLE_ROUTING"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_148-F4",
+      "title": "Overseas consumers needing China-only purchasing, package handling or forwarding -> proxy buyers and logistics operators",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "COMMERCE_CUSTODY_AND_LOGISTICS",
+      "evidence_summary": "Proxy buying and package handling are repeated, but payment custody, product purchasing, customs and shipping execution dominate the value loop. The operator does not control those rails through a light routing layer.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 1,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "b_voluntary_motion": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "state_dependent_value_jump": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "decision_window": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "bridge_compression": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "activation_ease": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "self_propulsion": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "operator_control": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "a_discoverability": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "b_discoverability": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "match_resolvability": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "action_gate_callability": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "a_population_replenishment": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "b_population_replenishment": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "recurring_connection_pressure": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "recurring_missing_edge": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ],
+          "recurring_event_source": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "ZERRAND-CROSSBORDER-202609",
+            "LOCAL-AGENT-ERRANDS-202609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "ZERRAND-CROSSBORDER-202609",
+          "LOCAL-AGENT-ERRANDS-202609"
+        ]
+      },
+      "verdict": "DEMOTED_PROXY_BUYING_AND_FORWARDING_FIELD_PAYMENT_CUSTODY_LOGISTICS_AND_CUSTOMS_RAILS_DOMINATE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_148-F5",
+      "title": "Foreign visitors or remote teams needing accompaniment and bespoke local business support -> local assistants",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "BESPOKE_HUMAN_SERVICE",
+      "evidence_summary": "Accompaniment and general local support exist, but value is primarily recurring human presence, communication and bespoke coordination. A router would not remove the underlying delivery labor and would risk converting the operator into a service agency.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 1,
+          "operator_control": 1,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "b_voluntary_motion": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "state_dependent_value_jump": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "decision_window": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "bridge_compression": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "activation_ease": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "self_propulsion": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "operator_control": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "a_discoverability": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "b_discoverability": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "match_resolvability": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "action_gate_callability": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "a_population_replenishment": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "b_population_replenishment": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "recurring_connection_pressure": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "recurring_missing_edge": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "recurring_event_source": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": true,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "LOCAL-AGENT-SERVICES-202609",
+          "CHINA-BIZ-AGENT-202609"
+        ]
+      },
+      "verdict": "DEMOTED_BESPOKE_LOCAL_ASSISTANCE_FIELD_VALUE_REMAINS_HUMAN_DELIVERY_AND_COORDINATION_LABOR"
+    }
+  ],
+  "comparison_profiles": {
+    "retained_profile": "ATTRACTION_SCAN_148-F1",
+    "comparison_ids": [
+      "ATTRACTION_SCAN_148-F2",
+      "ATTRACTION_SCAN_148-F3",
+      "ATTRACTION_SCAN_148-F4",
+      "ATTRACTION_SCAN_148-F5"
+    ],
+    "validated_boundary": "F1 excludes specialist inspection/certification, regulated or institution-specific proxy authority, payment/purchase custody, logistics execution and bespoke accompaniment. It is limited to low-risk lawful bounded presence tasks whose completion can be specified by checklist and evidenced afterward."
+  },
+  "high_attraction_beacons": [
+    {
+      "formation_id": "ATTRACTION_SCAN_148-F1",
+      "title": "Remote overseas actors with bounded non-specialist China-side physical tasks -> replaceable local executors who can follow a checklist and return evidence",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "REPEATED_REMOTE_TO_LOCAL_PHYSICAL_EXECUTION",
+      "evidence_summary": "Multiple current providers independently expose the same broad pattern: a client outside the location needs a person physically present in China for a bounded task such as pickup, handoff, simple visit, visible-condition capture or appointment coordination, and expects an evidence record afterward. The retained edge is deliberately narrower than factory inspection, certified audit, regulated representation, purchasing custody or specialist field service. Existing supply is fragmented into agency-style providers; this scan has not yet proven that one exact general-purpose network owns the low-risk checklist-to-evidence control loop.",
+      "attraction_profile": {
+        "scores": {
+          "a_voluntary_motion": 3,
+          "b_voluntary_motion": 2,
+          "state_dependent_value_jump": 3,
+          "decision_window": 3,
+          "bridge_compression": 3,
+          "activation_ease": 2,
+          "self_propulsion": 2,
+          "operator_control": 2,
+          "a_discoverability": 2,
+          "b_discoverability": 2,
+          "match_resolvability": 2,
+          "action_gate_callability": 2,
+          "a_population_replenishment": 2,
+          "b_population_replenishment": 2,
+          "recurring_connection_pressure": 3,
+          "recurring_missing_edge": 2,
+          "recurring_event_source": 2
+        },
+        "evidence": {
+          "a_voluntary_motion": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "b_voluntary_motion": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "state_dependent_value_jump": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "decision_window": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "bridge_compression": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "activation_ease": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "self_propulsion": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "operator_control": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "a_discoverability": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "b_discoverability": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "match_resolvability": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "action_gate_callability": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "a_population_replenishment": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "b_population_replenishment": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "recurring_connection_pressure": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "recurring_missing_edge": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ],
+          "recurring_event_source": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "flags": {
+          "explicit_transaction_seeded": false,
+          "founder_delivery_required": false,
+          "founder_sales_required_per_transaction": false,
+          "founder_search_required_per_transaction": false,
+          "expert_matching_required_per_transaction": false,
+          "explanation_burden_high": false,
+          "generic_agent_substitutable": false
+        }
+      },
+      "regenerative_field_gate": {
+        "seed_kind": "BROAD_REALITY_PATTERN",
+        "actor_a_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "actor_b_replenishment": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "recurring_connection_pressure": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "recurring_missing_edge": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "recurring_event_source": {
+          "state": "EVIDENCED",
+          "evidence_refs": [
+            "LOCAL-AGENT-SERVICES-202609",
+            "LOCAL-AGENT-ERRANDS-202609",
+            "ZERRAND-CROSSBORDER-202609",
+            "CHINA-BIZ-AGENT-202609"
+          ]
+        },
+        "independent_field_evidence_refs": [
+          "LOCAL-AGENT-SERVICES-202609",
+          "LOCAL-AGENT-ERRANDS-202609",
+          "ZERRAND-CROSSBORDER-202609",
+          "CHINA-BIZ-AGENT-202609"
+        ]
+      },
+      "verdict": "RETAINED_FOR_JEV_RESEARCH_ROUTING_AFTER_BROAD_REALITY_AND_COMPARISON_PROFILE_VALIDATION"
+    }
+  ],
+  "retained_research_formations": [
+    "ATTRACTION_SCAN_148-F1"
+  ],
+  "active_commercial_candidate_promotions": [],
+  "active_transaction_unit_promotions": [],
+  "zero_primary_admissions": false,
+  "commercial_outcome": {
+    "retained_count": 1,
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "external_value_flow_proven": false,
+    "summary": "One broad-reality high-attraction research beacon survives deterministic comparison profiling: bounded non-specialist remote-to-local physical execution. It is research-only pending real Jev routing and exact incumbent/control-loop preflight if Jev requests it."
+  },
+  "first_external_value_flow": "NOT_PROVEN",
+  "next_scan_id": "ATTRACTION_SCAN_149",
+  "next_search_boundary": "CONSUME_SCAN148_F1_REAL_JEV_EFFECTIVE_ROUTE_BEFORE_ANY_ADVANCE_TO_SCAN149",
+  "next_action": "REQUIRE_EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_CONSUME_F1_EFFECTIVE_ROUTE",
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "scan147_shared_capacity_fields_not_used_as_prior": true,
+    "scan143_factory_inspection_not_inherited": true,
+    "scan144_aftermarket_service_not_inherited": true,
+    "specialist_and_regulated_boundaries_explicit": true,
+    "unknown_is_not_pass": true,
+    "inference_is_not_fact": true,
+    "gate_relaxation": false,
+    "external_contact_performed": false,
+    "external_money_moved": false
+  },
+  "scan_learnings": [
+    "REMOTE_TO_LOCAL_PHYSICAL_PRESENCE_IS_A_REAL_REPEATING_FIELD_BUT_SPECIALIST_AND_REGULATED_VARIANTS_MUST_BE_STRIPPED_OUT_BEFORE_ROUTING.",
+    "CHECKLIST_PLUS_EVIDENCE_RETURN_IS_THE_TESTABLE_LOW_RISK_BOUNDARY; FACTORY_AUDIT, LEGAL_PROXY, PAYMENT_CUSTODY AND BESPOKE_ACCOMPANIMENT ARE DIFFERENT CONTROL LOOPS.",
+    "MULTIPLE_AGENCY_STYLE_PROVIDERS_PROVE EXECUTION SUPPLY EXISTS BUT DO NOT YET PROVE A SINGLE GENERAL_NETWORK ALREADY OWNS THE BOUNDED LOW_RISK_EDGE."
+  ],
+  "source_urls": [
+    "https://chinalocalagent.com/services",
+    "https://chinalocalagent.com/services/personal-errands-concierge",
+    "https://www.zerrand.com/en/cross-border/",
+    "https://chinabizagent.com/about-us/",
+    "https://chinalocalagent.com/services/factory-and-site-visits",
+    "https://ensamico.com/source-china/factory-visits/",
+    "https://www.china-agent.com/special-china-services-factory-visits-inspections-and-sourcing-support"
+  ]
+}
