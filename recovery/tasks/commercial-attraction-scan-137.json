@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "task_key": "commercial-attraction-scan-137",
-  "generation": 5,
-  "status": "ACTIVE",
-  "reconciled_at": "2026-09-23T08:18:00Z",
-  "live_main": "dc7cf834d24302f85702caddad000fbd3ad082ff",
-  "work_branch": "research/scan137-current-asset-receipts",
-  "frozen_head": "302b211d827735c728a6c193c4fa9a02058600d5",
-  "stage": "SCAN137_PR447_EXACT_HEAD_VALIDATED_MERGE_PENDING",
+  "generation": 6,
+  "status": "COMPLETE",
+  "reconciled_at": "2026-09-23T08:25:00Z",
+  "live_main": "1978cec0a33938e2f56e913eb34123b613c2ded3",
+  "work_branch": null,
+  "frozen_head": "1978cec0a33938e2f56e913eb34123b613c2ded3",
+  "stage": "SCAN137_COMPLETE",
   "scan_id": "ATTRACTION_SCAN_137",
   "durable_conclusions": [
     "Scan136 is COMPLETE on main dc7cf834 with successful main repository CI 35832923324 and live TypeSafe/Jev 35832923344; no unconsumed route remains.",
@@ -20,7 +20,7 @@
     "PR #447 first exact-head CI 35835722783 failed only on four historical Scan136 global-progress pins; the tests were corrected to validate historical Scan136 objects without pinning current last/next scan.",
     "Exact PR #447 head 302b211d passed repository CI 35835873563 and live TypeSafe/Jev 35835873687; Jev input Scan137/entity4, all four routes NO_FURTHER_RESEARCH, continuation ADVANCE_TO_NEXT_SCAN, autonomous continuation allowed."
   ],
-  "next_action": "Merge PR #447 without changing its validated head, reconcile main-push CI/Jev if emitted, then start fresh ATTRACTION_SCAN_138.",
+  "next_action": "Start fresh ATTRACTION_SCAN_138 from main 1978cec0 with no Scan060-137 formation reuse, expand source/mechanism diversity before relaxing any gate.",
   "pending_operation": null,
   "do_not_repeat": [
     "Do not use accidental no-change branch research/scan137-current-receipt-falsification.",
@@ -29,7 +29,7 @@
     "Do not contact external parties or commit money without explicit authority."
   ],
   "pr": 447,
-  "pr_status": "OPEN",
+  "pr_status": "MERGED",
   "pr_exact_head": "302b211d827735c728a6c193c4fa9a02058600d5",
   "validation": {
     "prior_failed_head": "c267e6d1709364bb74e533677abfa6aa86cc0ca0",
@@ -54,5 +54,6 @@
     "continuation_next_action": "ADVANCE_TO_NEXT_SCAN",
     "autonomous_continuation_allowed": true,
     "human_intervention_required": false
-  }
+  },
+  "merge_sha": "1978cec0a33938e2f56e913eb34123b613c2ded3"
 }
