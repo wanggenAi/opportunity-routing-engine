@@ -1,26 +1,29 @@
 {
   "schema_version": 2,
   "task_key": "commercial-attraction-scan-137",
-  "generation": 1,
+  "generation": 2,
   "status": "ACTIVE",
-  "reconciled_at": "2026-09-23T07:42:00Z",
+  "reconciled_at": "2026-09-23T08:08:00Z",
   "live_main": "dc7cf834d24302f85702caddad000fbd3ad082ff",
   "work_branch": "research/scan137-current-asset-receipts",
-  "frozen_head": "dc7cf834d24302f85702caddad000fbd3ad082ff",
-  "stage": "SCAN137_FRESH_CURRENT_ASSET_DISCOVERY",
+  "frozen_head": "20405d3c75e23fd6b863f09d5953f4d2fe6fe3cb",
+  "stage": "SCAN137_PERSISTED_PR_OPEN_PENDING",
   "scan_id": "ATTRACTION_SCAN_137",
   "durable_conclusions": [
-    "Scan136 F1/F2 live TypeSafe/Jev routes are fully consumed to an external/source-document boundary; PR #446 merged and main push CI/Jev succeeded.",
-    "Scan137 may begin fresh broad public research under the existing single/economically-separable asset cashflow boundary.",
-    "No Scan060-136 formation reuse; no gate relaxation; no external side effects or monetary actions."
+    "Scan136 is COMPLETE on main dc7cf834 with successful main repository CI 35832923324 and live TypeSafe/Jev 35832923344; no unconsumed route remains.",
+    "Scan137 exact-address dedup found no Scan060-136 default-branch match for Guiyang Huaguoyuan A South 4 35F-2, Cili Huancheng South Road 12-111, Hangzhou Xinming Commercial Center 2-2-101, or Rongchang Guangchang Road 115 3-160.",
+    "Scan137 F1 Guiyang closes at approx 4.87% nominal gross on RMB483004 entry and RMB23520 annualized rent.",
+    "Scan137 F2 Cili closes at approx 3.33% nominal gross on RMB3m entry and RMB100k aggregate annual rent.",
+    "Scan137 F3 Hangzhou closes because exact contracted rent quantum is not public despite explicit post-confirmation buyer rent right.",
+    "Scan137 F4 Rongchang closes because the unit is empty and 90% of mall actual rent is a pooled variable formula, not asset-attributable contracted receipt.",
+    "Canonical scan, evidence packet, report, test, machine state and TASK_STATE are persisted on the active branch; zero retained and zero commercial promotion."
   ],
-  "next_action": "Search fresh current China single/economically-separable assets with exact attributable receipts, automatic post-transfer continuity, >=24 months future coverage, computable non-disqualifying economics and low recurring human delivery; persist only evidence-bound formations.",
+  "next_action": "Open exactly one PR from research/scan137-current-asset-receipts to main; freeze the resulting final head after recording the PR; require exact-head repository CI and live TypeSafe/Jev, then consume any reversible directive.",
   "pending_operation": null,
   "do_not_repeat": [
-    "Do not reuse Scan060-136 formations or exact addresses.",
-    "Do not return to consumed Scan136 branches or PR #446.",
-    "Do not treat rental-right auctions as buyer receipt formations.",
-    "Do not promote attachment-only or pooled-receipt economics.",
+    "Do not use accidental no-change branch research/scan137-current-receipt-falsification.",
+    "Do not reuse Scan060-137 formations or exact addresses.",
+    "Do not upgrade missing receipt quantum, buyer receipt start or pooled formulas to PASS.",
     "Do not contact external parties or commit money without explicit authority."
   ]
 }
