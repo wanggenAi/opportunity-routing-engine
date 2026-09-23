@@ -39,11 +39,18 @@ This branch starts from merged main `a5e247237c95a9fe1f00e11a002fd6b459fe4855`.
 
 ## Active PR
 
-None at this checkpoint. Open exactly one PR after this Scan 131 branch is frozen.
+#439 — `Run Scan 131 on operational control cashflow`.
+
+Frozen head `a09a76d25c05350f7033f98d3961029c41dcf80c` was the first PR head. That head is superseded by the recovery-contract fix below and must not be used as merge authority.
 
 ## CI
 
-Scan 131 exact-head validation has not run yet.
+First PR head `a09a76d25c05350f7033f98d3961029c41dcf80c`:
+- repository CI run `35823885330` failed exactly one recovery-contract test because `TASK_STATE.md` omitted the mandatory `## Do Not Repeat` heading;
+- TypeSafe/Jev contracts job passed, but any old-head live-shadow result is diagnostic only after this file changes;
+- no business-logic or Scan 131 evidence test failure was observed in that run.
+
+After this checkpoint fix, require fresh repository CI and fresh live TypeSafe/Jev on the new exact head.
 
 Required:
 1. repository CI success on the exact frozen head;
@@ -124,7 +131,21 @@ NEXT = ATTRACTION_SCAN_132
 
 ## Next Action
 
-Freeze this Scan 131 head, open exactly one PR, require exact-head repository CI plus live TypeSafe/Jev with `input_scan_id=ATTRACTION_SCAN_131`, `entity_count=4`, and four authoritative `NO_FURTHER_RESEARCH` routes. Merge only if exact-head validation passes, then verify merged main and immediately start Scan 132 from the new main.
+Treat the first PR head as superseded. Re-run repository CI and live TypeSafe/Jev on the new exact PR #439 head after this recovery-contract fix. Merge only if the new exact head passes with `input_scan_id=ATTRACTION_SCAN_131`, `entity_count=4`, four authoritative `NO_FURTHER_RESEARCH` routes and autonomous `ADVANCE_TO_NEXT_SCAN`; then verify merged main and immediately start Scan 132.
+
+## Do Not Repeat
+
+- Do not revive closed/unmerged PR #435 or #436.
+- Do not return to Scan 124/125 economic screens.
+- Do not revive Scan 126 China-helper / field-task routing.
+- Do not reuse Scan 127 regulatory enterprise formations.
+- Do not reuse Scan 128 provider-owned payment/action/API layers.
+- Do not reuse Scan 129 web/app/miniprogram transfer formations.
+- Do not reuse Scan 130 domain, music-royalty, patent or film-right formations.
+- Do not reframe the Scan 131 RMB 298,000 charging-equipment liquidation as an operating cashflow asset; site/platform/customer rights do not transfer.
+- Do not reframe the Scan 131 idle LED operating right as existing demand; advertiser acquisition remains unproven recurring labor.
+- Do not treat asset transferability, installed hardware or a tenant label as proof of durable source-bound proceeds.
+- Do not use the superseded PR #439 head `a09a76d25c05350f7033f98d3961029c41dcf80c` as merge authority after this checkpoint commit.
 
 ## Scan 132 Boundary
 
