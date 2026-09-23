@@ -10,7 +10,8 @@
     "ATTRACTION_SCAN_135-F1",
     "ATTRACTION_SCAN_136-F1",
     "ATTRACTION_SCAN_136-F2",
-    "ATTRACTION_SCAN_139-F1"
+    "ATTRACTION_SCAN_139-F1",
+    "ATTRACTION_SCAN_140-F1"
   ],
   "resolved_research_formations": [
     {
@@ -312,14 +313,29 @@
       "formation_id": "ATTRACTION_SCAN_139-F4",
       "verdict": "DEMOTED_CURRENT_JINING_30_YEAR_PV_OPERATING_REVENUE_RIGHT_HAS_FORMAL_TRANSFERABLE_CONTROL_BUT_RMB627_21M_ENTRY_NO_EXISTING_SOURCE_BOUND_RECEIPT_LEDGER_AND_INSTITUTIONAL_OPERATION_FAIL_CURRENT_LANE",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_140-F2",
+      "verdict": "DEMOTED_CURRENT_FUDING_FRACTIONAL_TITLE_HAS_EXISTING_LONG_LEASE_BUT_WHOLE_ASSET_RENT_CANNOT_BE_ASSIGNED_TO_THE_25_PERCENT_BUYER_WITHOUT_SOURCE_BOUND_ALLOCATION",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_140-F3",
+      "verdict": "DEMOTED_CURRENT_NANCHONG_POOLED_RENT_CONTROL_IS_PUBLIC_AND_LOW_TOUCH_BUT_EXACT_DISTRIBUTION_QUANTUM_AND_BUYER_CUTOVER_REMAIN_UNKNOWN",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_140-F4",
+      "verdict": "DEMOTED_CURRENT_SHANGHAI_APPARENT_7_43_PERCENT_RENT_RATIO_HAS_ZERO_UNPREPAID_BUYER_RECEIPTS_AND_SUB_24_MONTH_REMAINING_TERM",
+      "resolved_date": "2026-09-23"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_139",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_139-F4",
-  "next_scan_id": "ATTRACTION_SCAN_140",
-  "current_research_action": "FREEZE_SCAN139_F1_CAUSAL_DESCENT_FOLLOWUP_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONFIRM_NO_NEW_ROUTE_CLASS_THEN_MERGE_PR449_AND_ADVANCE_SCAN140",
+  "last_completed_scan_id": "ATTRACTION_SCAN_140",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_140-F4",
+  "next_scan_id": "ATTRACTION_SCAN_141",
+  "current_research_action": "FREEZE_SCAN140_FINAL_PR_HEAD_REQUIRE_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_INPUT_SCAN140_CONSUME_ANY_REVERSIBLE_F1_PUBLIC_ROUTE_BEFORE_SCAN141",
   "current_validation_state": {
     "formation_id": "ATTRACTION_SCAN_015-F1",
     "public_artifact_confirmation": "PUBLIC_TECHNICAL_DOCS_PASS_RIGHTS_UNKNOWN",
@@ -1915,8 +1931,8 @@
     "deposit_authorized": false,
     "purchase_authorized": false
   },
-  "last_completed_scan_file": "data/research_runs/attraction_scan_139.json",
-  "last_completed_scan_result": "ONE_RETAINED_RESEARCH_PUBLIC_CAUSAL_DESCENT_EXHAUSTED_ZERO_COMMERCIAL_PROMOTION",
+  "last_completed_scan_file": "data/research_runs/attraction_scan_140.json",
+  "last_completed_scan_result": "ONE_RETAINED_RESEARCH_ZERO_COMMERCIAL_PROMOTION_PENDING_EXACT_HEAD_LIVE_JEV_ROUTE_CONSUMPTION",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
     "evidence_artifact": "data/research_runs/scan136_current_asset_receipts_evidence.json",
@@ -2108,7 +2124,11 @@
       "ATTRACTION_SCAN_139-F3": "NO_FURTHER_RESEARCH",
       "ATTRACTION_SCAN_139-F4": "NO_FURTHER_RESEARCH"
     },
-    "jev_route_status": "CONSUMED_F1_PUBLIC_CAUSAL_DESCENT_PENDING_FOLLOWUP_HEAD_REVALIDATION"
+    "jev_route_status": "CONSUMED_F1_PUBLIC_CAUSAL_DESCENT_FINAL_HEAD_REVALIDATED_NO_NEW_ROUTE_CLASS",
+    "final_validated_head_sha": "bd0955606db0756f051348f777e526f8329cf716",
+    "final_repository_ci_run_id": 35840088331,
+    "final_jev_run_id": 35840088367,
+    "final_jev_artifact_id": 10741102614
   },
   "scan139_f1_causal_descent": {
     "source_pr": 449,
@@ -2135,6 +2155,37 @@
     "bid_authorized": false,
     "deposit_authorized": false,
     "purchase_authorized": false,
-    "scan140_gate": "UNBLOCKED_SUBJECT_TO_EXACT_HEAD_CI_AND_LIVE_JEV_NO_NEW_ROUTE_CLASS"
+    "scan140_gate": "UNBLOCKED_FINAL_HEAD_CI_AND_LIVE_JEV_SUCCESS",
+    "final_validated_head_sha": "bd0955606db0756f051348f777e526f8329cf716",
+    "final_repository_ci_run_id": 35840088331,
+    "final_jev_run_id": 35840088367,
+    "final_jev_artifact_id": 10741102614,
+    "final_jev_artifact_digest": "sha256:e609dc32a737ae66d677233878483fc4f6122cc48627c2b8bd5dff3bfcc42a18",
+    "final_f1_state_fingerprint": "e4427727ac809edaab75",
+    "final_route_class_status": "UNCHANGED_CAUSAL_DESCENT_NO_NEW_REVERSIBLE_ROUTE_CLASS"
+  },
+  "scan140_receipt_binding_boundaries": {
+    "canonical_scan_artifact": "data/research_runs/attraction_scan_140.json",
+    "evidence_artifact": "data/research_runs/scan140_receipt_binding_boundaries_evidence.json",
+    "report": "docs/research/SCAN140_RECEIPT_BINDING_BOUNDARIES_2026-09-23.md",
+    "retained_count": 1,
+    "retained_research_formations": [
+      "ATTRACTION_SCAN_140-F1"
+    ],
+    "commercial_promotion": false,
+    "external_side_effects_performed": false,
+    "authoritative_closures": [
+      "ATTRACTION_SCAN_140-F2",
+      "ATTRACTION_SCAN_140-F3",
+      "ATTRACTION_SCAN_140-F4"
+    ],
+    "strongest_research_beacon": "WEIYUAN_RMB445886_28_RMB6000_MONTH_PAID_THROUGH_2026_11_TO_2029_02_24_APPROX_16_15_PERCENT_SURFACE_GROSS_POST_TRANSFER_BUYER_RECEIPT_RIGHT_UNBOUND",
+    "fractional_title_disconfirmation": "FUDING_25_PERCENT_TITLE_WHOLE_ASSET_RENT_NOT_SOURCE_MAPPED_TO_ACQUIRED_SHARE",
+    "pooled_distribution_disconfirmation": "NANCHONG_OWNERS_COMMITTEE_COLLECTION_AND_AREA_PRO_RATA_DISTRIBUTION_EXACT_QUANTUM_MISSING",
+    "prepayment_disconfirmation": "SHANGHAI_RMB75000_YEAR_FULLY_PREPAID_THROUGH_EXACT_LEASE_END_ZERO_UNPREPAID_BUYER_RECEIPT",
+    "next_scan_id": "ATTRACTION_SCAN_141",
+    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_CONSUME_F1_REVERSIBLE_PUBLIC_ROUTE_BEFORE_ADVANCE",
+    "exact_head_validation_status": "PENDING",
+    "jev_route_status": "PENDING"
   }
 }
