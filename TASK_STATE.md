@@ -6,19 +6,19 @@ GitHub live state wins over this checkpoint if they disagree.
 Continue the clean-slate Attraction Field until a real external value flow is proven or a real human/permission stop exists.
 
 ## Goal
-Find regenerative state changes with public, movable A-side demand and an actually unowned standardized connection edge; reject apparent opportunities when the publication channel, government program, incumbent platform or assigned resolver already owns matching.
+Prove or kill a regenerative cross-border China field-execution routing layer without collapsing discovery into gig hunting, traditional sourcing, expert inspection or recurring founder labor.
 
 ## Current Unique Commercial Research Goal
-Validate Scan 162's public solution-search channel-ownership sweep. Consume any reversible Jev route; otherwise merge and advance to Scan 163, searching independent first-party enterprise disclosures only: the company itself must state a still-movable need, standardized/open B-side supply must exist, and the disclosure must not sit inside a channel already performing matchmaking.
+Validate `ATTRACTION_SCAN_163-F1 — Recurring overseas verification demand pumps -> China local standardized evidence-execution network`. The formation was independently re-derived from recurring China trade/inspection activity plus domestic field-execution capacity; Freelancer/Confirmis/other paid tasks are downstream transaction evidence only. If exact-head CI and live TypeSafe/Jev preserve the beacon, bind one real Guangzhou local-executor cost and a platform-compliant team/delegation path before any bid or client contact.
 
 ## Current Phase
-SCAN162_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
+SCAN163_HIGH_ATTRACTION_RESEARCH_BEACON_EXACT_HEAD_VALIDATION_PENDING
 
 ## Last Verified Main
-- `main`: `682a65733877c3a51ed2e815aac24288a3b5dd9c` — PR #476 merged.
-- Scan 161 exact head `f8da3db448b36035fd42e18296f1f2348912b53f`.
-- Repository CI `35893628264`: SUCCESS, 822 tests; test job `107291985464`.
-- Real TypeSafe/Jev `35893628276`: SUCCESS; artifact `10765264893`; digest `sha256:3322c3673a325ae28afbebda262743f681fcccd4b2c22742f79a3f0b28c34569`.
+- `main`: `3ee72d3d9deeb6cd24d5647b136a6adf90e010fe` — PR #477 merged.
+- Scan 162 exact head `e48c22d1999f4d14c6b90453d53ab87c5b606271`.
+- Repository CI `35894334873`: SUCCESS, 827 tests; test job `107294375519`.
+- Real TypeSafe/Jev `35894334884`: SUCCESS; artifact `10765909352`; digest `sha256:a3672fe83a3677f98833c4841e8dd144175627916a0a6c8f941a76b5dd2f6af8`.
 - Jev: 5/5 model/effective `NO_FURTHER_RESEARCH`, 5/5 closure alignment, continuation `ADVANCE_TO_NEXT_SCAN`.
 - Active commercial candidates: 0; transaction units: 0; FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
 
@@ -26,54 +26,91 @@ SCAN162_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 #143 — P0 clean-slate Attraction Field -> first external value flow — OPEN.
 
 ## Active Branch
-`research/scan162-public-solution-search-channel-ownership`.
+`research/scan163-cross-border-ground-truth-field`.
 
 ## Active PR
-PR #477 — `Run Scan 162 public solution-search channel ownership sweep` — OPEN.
+None yet. Freeze the current branch only after Scan163 state, tests and handoff are final, then open exactly one PR.
 
 ## CI
-- Scan 162 exact-head repository CI: PENDING.
-- Scan 162 live TypeSafe/Jev: PENDING.
-- Only the same exact PR head may authorize route consumption or merge.
+- Scan 163 repository CI: NOT RUN on a PR head yet.
+- Scan 163 live TypeSafe/Jev: NOT RUN on a PR head yet.
+- Do not claim validation from prior scan workflows.
+- Only one frozen exact Scan163 PR head may authorize route consumption or merge.
 
 ## Latest Artifact / Persisted State
-- `data/research_runs/attraction_scan_162.json`
-- `data/research_runs/scan162_public_solution_search_channel_ownership_evidence.json`
-- `docs/research/SCAN162_PUBLIC_SOLUTION_SEARCH_CHANNEL_OWNERSHIP_2026-09-24.md`
-- `tests/test_scan162_public_solution_search_channel_ownership.py`
+- `data/research_runs/attraction_scan_163.json`
+- `data/research_runs/scan163_cross_border_field_evidence.json`
+- `docs/research/SCAN163_CROSS_BORDER_GROUND_TRUTH_FIELD_2026-09-24.md`
+- `src/bounded_bootstrap_validation.py`
+- `tests/test_bounded_bootstrap_validation.py`
+- `tests/test_scan163_cross_border_ground_truth_field.py`
 - `data/commercial_reset_state.json`
 
 ## Completed
-- Reconciled Scan 161 exact-head CI/Jev/merge truth into durable machine state.
-- Deduplicated Scan142–161 reality domains.
-- Screened public solution-search states across smart-space, cold-chain digitalization, broad enterprise service support, industrial AI scenes and technical-demand collection.
-- Added publication-channel ownership as a hard research check.
-- Established that current application-scene/demand-list channels commonly perform the matching they expose.
-- No external side effect or commercial promotion.
+- Finalized and merged Scan 162 only after exact-head CI passed 827 tests and live TypeSafe/Jev returned 5/5 `NO_FURTHER_RESEARCH` plus `ADVANCE_TO_NEXT_SCAN`.
+- Re-read current constitutional doctrine and Scan142+/157+/159+ anti-drift guards before changing business logic.
+- Did not revive old Scan126 as an inherited candidate.
+- Independently re-derived a cross-border field from MOFCOM/Canton Fair recurrence, current QIMA China inspection demand and China-side local field-execution infrastructure.
+- Identified one high-attraction research formation: recurring overseas verification/business-information Demand Pumps -> China standardized local evidence-execution network.
+- Preserved Freelancer/Upwork/Reddit-style tasks as downstream payment/partial-flow evidence only.
+- Found repeated city-by-city Confirmis site-verification work as Demand Pump evidence, including Suzhou, Shanghai and Wenzhou.
+- Found a current Guangzhou factory-verification job as the strongest first transaction probe; it remains preflight-only.
+- Added a fail-closed bounded-bootstrap gate: a live task cannot seed the formation and cannot become execution-ready until payment, permission, executor, cost, margin and platform/team gates are true.
+- No outreach, bid, registration, purchase, payment or other external side effect occurred.
 
 ## Current Findings
-Open demand is not enough. Qianhai, Huangpu, Beijing and Dalian demonstrate that public scenario/demand-list programs are themselves supply-demand infrastructure. Longgang's named CGN request was immediately assigned to a government follow-up mechanism. A fresh edge must therefore be discovered from an independent first-party enterprise disclosure before any matching/resolution owner is assigned.
+The stronger model is not `foreign buyer -> founder hunts a runner`.
+
+It is:
+
+```text
+RECURRING GLOBAL VERIFICATION / BUSINESS-INFORMATION DEMAND PUMP
+-> MANY CITY-SPECIFIC CHINA TASK EVENTS
+-> ONE NORMALIZATION / COVERAGE / DISPATCH / ACCEPTANCE LAYER
+-> REPLACEABLE CHINA-LOCAL EXECUTORS
+-> STANDARDIZED EVIDENCE
+-> SETTLEMENT + PERFORMANCE HISTORY
+```
+
+Independent field evidence now exists: large replenishing overseas China-buyer flows, recurring inspection/audit demand and a domestic field-execution network with task decomposition, local matching and QA.
+
+The remaining missing-edge hypothesis is narrower and not yet transaction truth: repeated city-by-city marketplace recruitment may be compressible into one China-wide execution interface for a recurring Demand Pump.
+
+Current bootstrap queue:
+- `SCAN163-B1` — Guangzhou bounded factory verification: `PREFLIGHT_READY_NOT_EXECUTION_AUTHORIZED`. Best current transaction probe.
+- `SCAN163-B2` — Confirmis Suzhou standardized verification: strong protocol/Demand Pump evidence but low-margin.
+- `SCAN163-B3` — technical multi-factory inspection: rejected as first bootstrap because it is expert-heavy and economically weak.
 
 ## Blockers
-No human blocker. Scan 162 exact-head repository CI and real TypeSafe/Jev are pending.
+No research blocker before PR validation.
+
+Before any real B1 bid/contact, current hard UNKNOWNs are:
+- no platform-funded milestone for our participation;
+- no confirmed compliant team/agency execution path on the user's account;
+- no OPTIONED Guangzhou executor;
+- no bound same-scope Guangzhou executor/travel cost;
+- no normalized contribution margin after executor, travel, platform fees, QA/rework and operator labor;
+- site access/filming permission must be arranged/confirmed.
+
+These UNKNOWNs do not block research retention; they block execution.
 
 ## Next Action
-Freeze PR #477 exact head; require exact-head repository CI + live TypeSafe/Jev; consume any reversible route, otherwise merge and advance to Scan 163.
+Freeze the completed Scan163 branch, open one PR, require exact-head repository CI + live TypeSafe/Jev, and inspect the advisory. If the exact-head advisory preserves the research beacon / requests a reversible check, consume that route. Only then bind a real Guangzhou executor cost and platform/team eligibility for `SCAN163-B1`; do not bid or contact the buyer without the user's explicit account action/authorization.
 
 ## Do Not Repeat
-Do not treat official demand lists, application-scenario programs, government matchmaking events or assigned department follow-up as unowned routing opportunities; do not re-scan Scan142–162 domains as new ontology; do not weaken `UNKNOWN != PASS`.
+Do not revive Scan126/PR #430 as inherited truth. Do not treat a Freelancer/Upwork/Reddit task, buyer budget or visible spread as the discovery ontology. Do not relabel generic one-off marketplace matching as an unowned edge. Do not begin with end-to-end sourcing, negotiation, sample custody, logistics or expert/certified inspection. Do not count founder free labor as margin. Do not contact a buyer or bid from the user's account without explicit authorization.
 
 ## Guardrails
-GitHub live state wins. REALITY > COGNITION > SCHEMA. HIGH_ATTRACTION_BEACON != COMMERCIAL_CANDIDATE. TypeSafe/Jev is shadow research advisory only.
+GitHub live state wins. REALITY > COGNITION > SCHEMA. HIGH_ATTRACTION_BEACON != COMMERCIAL_CANDIDATE. EXPLICIT_TASK != DISCOVERY_SEED. One transaction != repeatability. Temporary operator coordination may be validation; recurring founder acquisition/delivery is business-model debt. Unknown != pass. TypeSafe/Jev remains shadow research advisory only.
 
 ## Recovery State
 Use `state/chatgpt-recovery` only as control-plane recovery state; live GitHub remains authoritative.
 
 ## Pending Operations
-None.
+Open and validate the Scan163 PR on one exact frozen head.
 
 ## Resume Cursor
-Scan 162 artifacts are persisted on `research/scan162-public-solution-search-channel-ownership`; PR #477 is open and exact-head validation remains.
+Scan163 artifacts are persisted on `research/scan163-cross-border-ground-truth-field`; PR not yet opened.
 
 ## Safe Re-entry
-Re-read live main, open PRs and exact-head Actions before mutating. Do not repeat Scan162 research if persisted artifacts and a matching PR head already exist.
+Re-read live main, open PRs and exact-head Actions before mutating. Do not repeat Scan163 web research if the persisted evidence and a matching frozen PR head already exist.
