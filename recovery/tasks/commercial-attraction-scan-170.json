@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 1,
+  "generation": 2,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "INDEPENDENT_NAMED_REPLENISHING_EVENT_PREQUALIFICATION_NO_FORMATION_PROMOTED",
+  "stage": "INDEPENDENT_EVENT_PREFLIGHT_FOUR_FAMILIES_EXACT_INCUMBENT_RIGHTS_MAPPED_NO_FORMATION_PROMOTED",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -22,7 +22,9 @@
       "FRESH ECONOMIC EVENT A: NEA 2026 Singapore beverage-return scheme launches 2026-04-01, 2026-10-01 all eligible deposits mandatory, >1bn annual containers claimed program scale: https://www.nea.gov.sg/our-services/waste-management/beverage-container-return-scheme",
       "RIGHTS CONTRADICTION A: BCRS Ltd licensed sole national scheme operator 2026-2033; F&B self-enroll and one-off SGD500 deadline 2026-09-30 via government portal; public third-party deposit processing/merchant authorization and specific failed independently callable unit not shown: https://www.nea.gov.sg/our-services/waste-management/beverage-container-return-scheme/for-f-b-operators",
       "FRESH NAMED BUYER EVENT B: HRD Corp RFP PSMB(RFP)3/2026 Alibaba/AWS cloud subscription/support due 2026-10-07, Malaysian registered proven vendors, RM500 bid document and vendor portal; direct self-submission rail and licensed qualifications, no open independent routing or nonlabor normalized rights: https://hrdcorp.gov.my/procurement",
-      "FRESH MULTISOURCE EVENT C: EnterpriseSG launched BizSG government SME portal 2026-09-09, actual existing central government entry/transaction product itself; no private independent execution gate identified: https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2026/september/mr04026_new-bizsg-initiative-simplifies-access-to-government-support-and-services-for-businesses"
+      "FRESH MULTISOURCE EVENT C: EnterpriseSG launched BizSG government SME portal 2026-09-09, actual existing central government entry/transaction product itself; no private independent execution gate identified: https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2026/september/mr04026_new-bizsg-initiative-simplifies-access-to-government-support-and-services-for-businesses",
+      "FRESH NAMED ENERGY EVENT D: 2026 EMA demand response expansion accepts licensed load providers/aggregators and sub-10MW BESS; Singapore 2026 independent CNA reports 16 participating firms, 6 intermediary service providers (not an unserved industry). EMA open applicant role is regulated licensing/market registration not freely callable no-consent router: https://www.ema.gov.sg/our-energy-story/energy-demand/non-residential-consumers and https://www.channelnewsasia.com/singapore/energy-market-authority-demand-response-participation-grows-6075306",
+      "NAMED PARTIAL FLOW D: EMA has named ComfortDelGro EV charging platform sandbox; PUB/SP signed 2023 direct aggregation agreement and 2026 six providers already work in same paid flow. The residual small BESS case needs independently named failing sites and a distinct open paid action right beyond existing licensed aggregators before any formation: https://www.ema.gov.sg/news-events/news/media-releases/2025/new-initiatives-to-bolster-power-grid-reliability-through-flexible-electricity-demand and https://www.pub.gov.sg/Resources/News-Room/PressReleases/2023/04/PUB-the-First-Government-Agency"
     ]
   },
   "pending_operation": null,
@@ -32,9 +34,10 @@
   },
   "completed": [
     "Scan169 verified closed 3/3 and advanced Scan170 by actual TypeSafe/Jev directive; Issue #143 stays OPEN",
-    "Broad current independent 2026 preflight across Singapore deposit-return operator scheme, Malaysia named cloud RFP and Singapore government digital service did not justify yet another unowned-gate opportunity"
+    "Broad current independent 2026 preflight across Singapore deposit-return operator scheme, Malaysia named cloud RFP and Singapore government digital service did not justify yet another unowned-gate opportunity",
+    "Preflighted four non-retail 2026 events, including a real paid regulated demand-response system with named participants and incumbent aggregator growth; no independent residual event/permission yet."
   ],
-  "next_action": "Keep searching truly independent 2026 named publicly documented recurring actor state change + actual partial flow and a non-incumbent independently callable operator transaction or recognized paid role. If verified, persist first substantive Scan170 branch/PR with evidence and run exact-head CI/real Jev. Do not open empty aggregate preflight PR, do not assume RRFS self-registration or direct tenders create third-party rights.",
+  "next_action": "Next source-check currently named small-BESS or independent underutilized flexible-load actor with direct dated curtailment/market-exclusion records, verify open licensed aggregator partnership/paid permission and repeated distinct acceptance failures versus six existing market providers. If not source-bound, reject that subcase without Scan170 PR and search another independent named event; only substantive promoted evidence triggers Scan170 research branch, exact-head CI/Jev. Issue #143 remains open.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
