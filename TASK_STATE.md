@@ -5,6 +5,9 @@ GitHub live state wins over this checkpoint if they disagree.
 ## Current Mission
 Continue clean-slate `ATTRACTION_FIELD_V1` until a real external value flow is proven or a genuine human/permission stop exists. Issue #143 remains OPEN.
 
+## Goal
+Find high-attraction, regenerative and demonstrably operator-callable missing-edge control, without promoting aggregate friction or inventing permission rights.
+
 ## Current Unique Commercial Research Goal
 Validate Scan167 on its exact PR head after independent broad 2026 sensing found no presently operator-callable missing edge across off-platform brand authorization, Penang post-discharge care coordination and ASEAN cross-border seller market entry. If final CI and real TypeSafe/Jev agree on F1-F3 closures and autonomous continuation, merge and reenter *fresh* broad reality at Scan168.
 
@@ -26,14 +29,15 @@ SCAN167_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 `research/scan167-cross-channel-trust-care-handoff-preflight`
 
 ## Active PR
-No Scan167 PR yet at this checkpoint. Open exactly one PR from frozen Scan167 branch to latest verified main.
+PR #482 — OPEN, same branch; initial head `6b0d03235bfb260f343847f20f011a298045cb63` failed recovery-heading contract only. This edit advances the head; re-freeze new exact head and require both new CI/Jev runs.
 
-## CI / Jev
-- Scan167 repository CI: PENDING PR creation and frozen exact-head checks.
-- Scan167 real live TypeSafe/Jev: PENDING PR creation and frozen exact-head advisory.
+## CI
+- Initial Scan167 CI `35949231920` FAILED on the operational-heading contract after the initial PR #482 head: exactly three missing required TASK_STATE headings. This edit restores exact required headings. That earlier head is non-authoritative.
+- Scan167 repository CI: PENDING current fixed exact-head run.
+- Scan167 real live TypeSafe/Jev: PENDING current fixed exact-head run; initial head Jev must not authorize a different head.
 - Merge only if both same frozen head pass and Jev effective closures align with authoritative results and allows advance. Jev is shadow advisory, never promotes commercial candidates.
 
-## Latest Persisted Artifacts
+## Latest Artifact / Persisted State
 - `data/research_runs/attraction_scan_167.json`
 - `data/research_runs/scan167_cross_channel_trust_care_handoff_evidence.json`
 - `docs/research/SCAN167_CROSS_CHANNEL_TRUST_CARE_HANDOFF_2026-09-24.md`
@@ -47,7 +51,7 @@ No Scan167 PR yet at this checkpoint. Open exactly one PR from frozen Scan167 br
 - Started Scan167 from verified main, independent current cross-channel trust/care/ASEAN research; preserved source registry, competing outcomes, observed partial flows and concrete permission/ownership gaps.
 - F1-F3 currently have authoritative zero-retention closures, not market opportunities. No outreach, data-access attempts, vendor engagement, deposits, payments or other external side effects occurred.
 
-## Findings
+## Current Findings
 - F1: Platform brand-owner authorization and GS1 product identity are separate; public evidence does not establish repeatable neutral *portable* brand authorization rights or paid actor units.
 - F2: Penang institutional care-handoff friction is real, while private post-discharge provider matching has an exact incumbent; federal/state health-social integration requires authority and qualified safeguards.
 - F3: ASEAN exporter cross-border compliance friction is real; existing marketplace, regulatory and BSO action rails prevent assuming an independent operator-controlled gate.
@@ -57,7 +61,7 @@ No Scan167 PR yet at this checkpoint. Open exactly one PR from frozen Scan167 br
 None requiring user action at this stage. Only frozen-head CI and live TypeSafe/Jev validation remain before merge.
 
 ## Next Action
-Open exactly one PR for Scan167 from the current branch; freeze exact head; consume repository CI and live TypeSafe/Jev for that head. If fully aligned with F1-F3 authoritative closures and continuation permits, merge, verify main and advance Scan168 from the new main. If Jev requests exact preflight, consume only that bounded queue and revalidate a new frozen head.
+Freeze the corrected head on existing PR #482; consume fresh repository CI and live TypeSafe/Jev for that same exact head. If fully aligned with F1-F3 authoritative closures and continuation permits, merge, verify main and advance Scan168 from the new main. If Jev requests exact preflight, consume only that bounded queue and revalidate a new frozen head.
 
 ## Do Not Repeat
 Do not reopen Scan163–166 closed verticals, older stale branches, the 9610 policy route, regulated payments, smart-home integration, trade-in logistics or smart-glasses fitting. Do not confuse a product barcode with seller distribution authority, a private care marketplace with federal/state care integration, or regional aggregate export friction with a transaction-ready independent gate.
