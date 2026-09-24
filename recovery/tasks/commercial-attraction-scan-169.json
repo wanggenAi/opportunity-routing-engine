@@ -1,27 +1,27 @@
 {
   "schema_version": 2,
-  "generation": 4,
+  "generation": 5,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "WAITING_CI",
+  "status": "DONE",
   "task_key": "commercial-attraction-scan-169",
-  "stage": "SCAN169_PR484_EXACT_HEAD_REVALIDATION_AFTER_TASK_STATE_HEADING_FIX",
-  "last_observed_main_sha": "67fff4d280cfea2d043878608885e8c9e3852d82",
-  "work_branch": "research/scan169-named-retail-displacement-control-preflight",
-  "work_head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
-  "active_pr": 484,
+  "stage": "SCAN169_PR484_FINAL_EXACT_HEAD_GREEN_MERGED_VERIFIED",
+  "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
+  "work_branch": null,
+  "work_head_sha": null,
+  "active_pr": null,
   "ci": {
     "run_id": 35951958496,
     "head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
-    "status": "IN_PROGRESS",
-    "conclusion": null
+    "status": "COMPLETED",
+    "conclusion": "SUCCESS"
   },
   "production_or_artifact": {
-    "status": "PR484_2ND_HEAD_CI_AND_REAL_JEV_PENDING",
+    "status": "SCAN169_VERIFIED_MERGED_NO_DEPLOY",
     "evidence": [
-      "Initial head c8658d9c PR CI run 35951890118 failed only repository recovery TASK_STATE substring contract; fixed on new exact head 632a535356193ca08e760e37c6e21af1c947b5ba",
-      "Live exact-head CI run 35951958496 status in_progress",
-      "Live Jev exact-head run 35951958490 status queued",
-      "No commercial promotion or external actions"
+      "PR #484 exact head 632a535356193ca08e760e37c6e21af1c947b5ba CI 35951958496 SUCCESS 858 tests",
+      "Real TypeSafe/Jev 35951958490 SUCCESS 3/3 NO_FURTHER_RESEARCH 3/3 authoritative alignment autonomous ADVANCE_TO_NEXT_SCAN; artifact 10788952868 digest sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704",
+      "PR #484 merged verified live main e889201de7d06d2e4148cd23da77505b91faac03",
+      "Zero candidates, zero transaction units; first external value NOT_PROVEN; Issue #143 open"
     ]
   },
   "pending_operation": null,
@@ -36,9 +36,10 @@
     "Latest main, main Scan168 JSON, next scan ID and no open PRs independently verified",
     "2026-09-24 live main 67fff4d2 reverified; Scan169 branch exists but compare main...branch identical (0 commits); PR #483 merged; open PR count 0; Scan168 same-head CI and live Jev success independently reverified",
     "Scan169 event-first SingLand/affected tenants and exact incumbent/action-right audit source-bound in commit c8658d9ca5529998cb8f46d8ebfdcf2b3b61e6d4; PR #484 created; no commercial candidates or external side effects",
-    "Corrected exact TASK_STATE recovery precedence phrase required by tests; added explicit operator-rights preflight evidence; final candidate head 632a535356193ca08e760e37c6e21af1c947b5ba with new CI and real Jev runs"
+    "Corrected exact TASK_STATE recovery precedence phrase required by tests; added explicit operator-rights preflight evidence; final candidate head 632a535356193ca08e760e37c6e21af1c947b5ba with new CI and real Jev runs",
+    "Scan169 PR #484 exact-head CI 858 and real TypeSafe/Jev 3/3 success and autonomous ADVANCE_TO_NEXT_SCAN; squash merged live main e889201de7d06d2e4148cd23da77505b91faac03"
   ],
-  "next_action": "Read CI 35951958496 and live Jev 35951958490 actual same-head conclusions/logs/artifact/directive; merge PR484 only on success and authoritative aligned 3/3 continuation.",
+  "next_action": "Start Scan170 only with a genuinely independent replenishing named public event, actual cross-node partial-flow evidence and independently callable third-party rights; do not revisit Marina/relocation or generic old verticals. Keep #143 OPEN.",
   "do_not_repeat": [
     "Scan165 #480",
     "Scan166 #481",
