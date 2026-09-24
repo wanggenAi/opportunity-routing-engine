@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 18,
+  "generation": 19,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "SEP24_CURRENT_SCHEDULED_FREE_OWNER_EVENTS_AND_STATISTICS_VS_FRESH_PAID_OPERATION_DATE_DISCIPLINE",
+  "stage": "FIRST_PARTY_PUBLICATION_DATE_GATED_MULTIDOMAIN_PAID_OPERATION_PREFLIGHT_NO_QUALIFYING_SAME_DAY_OWNER_UNIT",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,14 +16,15 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "TODAY_SCHEDULED_SOURCES_NO_OWNER_ISSUED_FRESH_PAID_UNSERVED_OPERATING_UNIT",
+    "status": "GEN19_SOURCE_FAMILY_DATE_FIRST_REJECTION_ZERO_QUALIFIED_FIRST_PARTY_NEW_OWNER_PAID_UNIT",
     "evidence": [
-      "First-party Singapore revenue authority IRAS https://www.iras.gov.sg/news-events/events publicly lists free Sept24 2026 GST InvoiceNow adoption webinar, 2-3:45pm local and own direct registration. Native owner already performs education registration; no paid specific current SME remediating shortfall, open third-party procurement or partner revenue permission. It is TODAY's scheduled programme, not evidence OWNER POSTED today.",
-      "First-party United Kingdom Justice Data publication calendar https://data.justice.gov.uk/info/publications shows family court quarterly and legal aid quarterly statistic releases scheduled Sept24 09:30 UK, last statistics pre-Sept24 Jun25. Aggregate provider/claims volume is not first-party fresh same-day named private actor unresolved paid execution, available data and rights not payout authority.",
-      "First-party Telford & Wrekin https://www.telford.gov.uk/planning-and-building-control/planning-applications-and-advice-appeals-enforcement-and-guidance/planning-published-legal-and-statutory-notices/ search snippet mentions 2026 Sept24 statutory notice index, but actual page was last updated Sept22 and tool-rendered content omits PDF links; at present cannot authenticate a NEWLY PUBLISHED Sep24 precise owner-paid vacant operating unit without reading original notices. DO NOT mark as sourced new paid demand; no PDF analyzed, so source-level state remains UNVERIFIED not a documented closure of any specific notice.",
-      "Other surfaced today-event sources: Florida Camp Blanding lawn care 3-year tender published AUG21 mandatory prior Sep9 site visit and bids due Sep24 according tender https://govtribe.com/file/government-file/dma-itb-354-lawn-care-services-dot-pdf ; similarly Texas regional water hauling tender published Sep8 and today deadline https://govtribe.com/file/government-file/hauling-services-for-operations-construction-dot-pdf . These are past-publication bids with vendor qualifications, physical licensed human labor and native government procurement, NOT new Sep24 free open commission or nonlabor independent operator role. GovTribe mirrors not first-party proof of publication terms; don't analyze PDFs absent original+screenshots.",
-      "One third-party US defense supposed 8(a) source-sought directory https://www.fedoverwatch.com/opportunities/02748a38-99c5-4f27-948b-d5f8a202d3e9 supplies apparently generic (202)555-0100 and example-looking official email, so authenticity/counterparty is unverified; not suitable for first-party sourcing, do not rely on apparent $10k-$109k task figures.",
-      "No commercial join. Issue143 OPEN, active candidates 0, active units 0, NOT_PROVEN. No new TypeSafe/Jev since Scan169 real 35951958490. No external outreach/payment/account creation. Work confined to original state/chatgpt-recovery task JSON; main TASK_STATE/machine still Scan169-stale because no qualifying substantive Scan170 PR."
+      "OWNER-HOSTED NAMED CRM INTEGRATION PAID POST: Upwork buyer listing GoHighLevel + Meta CAPI Specialist, $4,000 fixed price, preferred handover Sept24 but platform search dates POSTING SEP5 2026, not first posted Sept24. Owner-listed work involves interview/review, production specialist manual build and client permissions. Public listing showed 20-50 proposals and 8 interviewing (dynamic platform snapshot, not proof hire or deliver). No independent self-serve nonaffiliate service execution/payout, repeatable post-incumbent residual, or confirmed settled same task. https://www.upwork.com/freelance-jobs/apply/GoHighLevel-Meta-CAPI-Systems-Specialist-for-Lead-Generation-Build_~022096209551436928243/",
+      "FIRST PARTY PAID GEOSPATIAL AI DATA CHALLENGE: Zindi/Humane Intelligence Bias Bounty Mapping Equity has $10,000 USD prize pool, launched AUG28, closes OCT31 and native bias-scorecard ranking; Sep24 conference talk is a TODAY EVENT, not issuance of new challenge. In-platform prize is competitive, reviewed and does not commit payment per accepted independently executable third-party operating unit; no verified same-unit past settled payout, delegated recurring operator take or exact Sept24 newly unfilled owner scope. https://zindi.world/competitions/bias-bounty-mapping-equity-challenge https://humane-intelligence.org/programs-services/bias-bounty/ https://humane-intelligence.org/get-involved/events/",
+      "FIRST PARTY UK PERSONNEL NEED: West Somerset College government-hosted vacancy Teaching Assistant posted SEP10, deadline SEP24 at 23:59, 27.5h/week, annual actual salary £16,746.31; genuine named paid open human care/staff need but earlier issue, background safeguarding/DBS and employee employment direct, not anonymous, nonlabor independent third-party execution and settled external per-unit transfer. https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-9206afc9-fcc7-4fcd-9de4-7aae9d9204f8",
+      "INDEPENDENT AGRICULTURAL LABOR REPORT CHRONOLOGY: Reuters Sep18 2026 documents Australian NFF nationwide harvest backpacker processing concern; later Sep24 third-party redistribution claims a government/NFF accommodation but owner first-party Sept24 authoritative posting and exact individual farmer-funded unfilled independent task not located during this search. Treat claims as unverified for owner-new criterion; visa approvals government controlled, physical labor not nonlabor autonomous delegation. https://www.reuters.com/world/asia-pacific/immigration-crackdown-puts-australias-wheat-harvest-risk-industry-groups-say-2026-09-18/ ; Sep24 mirror https://www.khanlist.com/story/farmers-cut-deal-with-government-over-backpacker-visa-delays-62203ec0",
+      "DATED UK PUBLIC PROCUREMENT SENSOR: government primary https://www.gov.uk/government/publications/open-contracting confirms Find a Tender OCDS public API filtered by actual notice publication date. data.gov.uk first-party Sept2026 daily files showed latest updated Sept23 during read, https://www.data.gov.uk/dataset/57748629-d780-4909-8c84-73ef6e4e980c/uk-public-procurement-notices-september-2026. Third-party exact Connected Places Catapult Strategic Technology Change Partner had AUG20 and AUG24 publication, deadline Sept24; qualification, tender submissions and award decisions controlled via tender process, no open separately paid unaffiliated nonlabor router despite official data API. https://tenderline.uk/tenders/strategic-technology-change-and-delivery-partner-ocds-h6vhtk-06e847 ; do NOT analyze un-opened PDFs.",
+      "BROAD DISCOVERY STATUS: owner/source first-post date >=2026-09-24 was NOT established for any examined exact still unfilled paid owner operation; secondary Sep24 republishing, Sept24 conference talk, Sept24 closing/target dates, daily crawl and third-party scope changes are explicitly NOT new owner posts. No attempted new opportunities beyond preliminary chronology gates; no global assertion that no such opportunity exists.",
+      "RECOVERY BOUNDARY: Scan169 PR#484 exact head 632a535356193ca08e760e37c6e21af1c947b5ba CI 35951958496 test job 107482199241 SUCCESS; real prior Jev 35951958490 artifact 10788952868 digest sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704 SUCCESS; merged main e889201de7d06d2e4148cd23da77505b91faac03; main push CI35952038218 SUCCESS and Jev35952038429 artifact10787984785 SUCCESS; these are all HISTORICAL Scan169. New Scan170 exact-head CI/Jev/PR/branch/artifact: ZERO. User reported an EXTERNAL supervisory classification by jev-1.13.0 previous stage complete, confidence0.83; not independently artifact-verified in current scan, not commercial evidence, not a new scan Jev call. No outreach, registration, payments, transactions or private indexed data used."
     ]
   },
   "pending_operation": null,
@@ -51,9 +52,10 @@
     "Generation15 independent new-domain source-first research: Sept24 agent audit faults are dated and measurable but lack any public outside paid task; gaming campaign offers existing approval-gated creator labor; autonomous agent board alone lacks exact dated owner task and email-reviewed settlement. No source-bound same-unit complete joining tuple; preserve zero retention.",
     "Generation16 diverse live event search: WordPress Sep24 security-scope changes are third-party tracker only without exact new paid vulnerability, Spacebring Sep24 occupancy webinar promotes its already launched Sep1 native sync, and Indonesian 2026 PIDI event shows booked owner-mediated innovator/offtaker meetings, not paid independently routable unit. No joined retention.",
     "Generation17 independently tested real Sept24 official API cutoff, first-party Singapore transport-policy new poll, and named defense valve paid tender closing today: chronology or missing exactly payable outside unit and owner authorization fails in each; no promotion.",
-    "Generation18 owner-source chronology discipline: IRAS free native Sep24 webinar, UK today scheduled statistics and Telford prospective statutory notice index not a new precise currently owner-funded outside-work offer; prior-publication Florida contract deadline today requires qualified physical contractor. No candidate."
+    "Generation18 owner-source chronology discipline: IRAS free native Sep24 webinar, UK today scheduled statistics and Telford prospective statutory notice index not a new precise currently owner-funded outside-work offer; prior-publication Florida contract deadline today requires qualified physical contractor. No candidate.",
+    "Generation19: date-first source-gated independent preflights on paid CRM integration, $10k geospatial fairness prize challenge, named UK school salary opening, Australian harvest labor, and official procurement metadata; each fails new Sep24 first-party owner-published exact unpaid nonlabor open execution or verified same-unit payout. No formation or candidate retained."
   ],
-  "next_action": "Generation19 from this durable checkpoint: seek truly new first-party posted Sep24+ individual unresolved paid owner operation in a causally independent field; STRICT first reject chronology mismatch (scheduled event/deadline/last-crawl), then verify same-unit documented current unfilled scope, permissionless and already-authorized NON-AFFILIATE paid action, legitimate payout recipient+actual past settled proof, native provider incompletion, repeated measurable automation and viable net take. Avoid prior 165-169 and Scan170 gen3-18 paths, no privacy-leaking indexed dashboards or manufactured joins. Only if all present create substantive Scan170 branch/PR from fresh live main syncing Scan169 merged exact-head CI/Jev machine/TASK and require new exact-head CI/REAL Jev artifact. Otherwise increment existing task checkpoint, #143 OPEN 0/0 NOT_PROVEN. No external registration, engagement or transactions.",
+  "next_action": "Generation20: independently sample genuinely FIRST-PARTY NEWLY ISSUED Sep24+ owner operational exceptions (not employment, scholarship/contest, API, public procurement notice or already-explored domains) by published-time-specific official/owner feeds, and require NEW named exact open payer-funded residual before reading platform catalogs. Only after first-party publication-time + still-unfilled exact paid unit PASS inspect the SAME unit's unaffiliated preconsented execution right, payee standing, past settled receipts, native-provider unfinished status, nonlabor repeatable compounding and net site economics. Do not revisit Scan165-169 or Scan170 gen3-19 failed cases without material genuinely new evidence, fabricate no cross-platform joins, never use indexed private dashboards or take external actions. If complete join exists create substantive Scan170 branch/PR based on fresh main and correct historical Scan169 CI/Jev + machine/TASK then exact-head CI plus ACTUAL new TypeSafe/Jev artifact/continuation. If no full join atomically update the existing recovery JSON next generation, keep #143 OPEN 0 candidates/0 units NOT_PROVEN. Historical Scan169 real Jev vs user-reported supervisory Jev are separate; Scan170 newly invoked Jev remains 0.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -72,7 +74,8 @@
     "Generation15 Sept24 gnomon/kerf agent ledger self-audits do not become owner-paid contracted external tasks from visible public discussion alone; BountyBoard approved human video sponsorship and TheJobCafe public API/email-payout generic board are not owner-posted paid autonomous recurring join without new independently verified exact task/rights/receipt.",
     "Gen16 WordPress tracked scope metadata != owner posted unpatched task; HackerOne severity default is incumbent triage; Spacebring/Office Hub native live sync launched Sep1 and Sept24 webinar date is not new residual; Indonesian PIDI scheduled meetings are already booked and unpaid, no third-party booking/settlement right.",
     "Gen17 event-date vs publication-date: Sora shutdown today was announced March24 with native Sept22 refund/export; SG Sept24 EV poll is unpaid regulator consultation not third-party funded plate replacement; MINDEF 20-valve GeBIZ solicitation published weeks before deadline needs login/award, not an independently callable paid residual; public-indexed accidental vendor dashboard is prohibited unconsented private operational data, never use.",
-    "Gen18 event calendar date or older notice last-updated or tender closing date != current owner first-posted Sep24 unfilled transaction; IRAS owner free GST education, UK quarterly aggregate legal aid statistics, and contractor physical lawn care are not separately independently executable no-human paid units. Unauthenticated third-party directory placeholders are not first-party proof."
+    "Gen18 event calendar date or older notice last-updated or tender closing date != current owner first-posted Sep24 unfilled transaction; IRAS owner free GST education, UK quarterly aggregate legal aid statistics, and contractor physical lawn care are not separately independently executable no-human paid units. Unauthenticated third-party directory placeholders are not first-party proof.",
+    "Gen19 chronology and ownership: Upwork CRM $4k buyer post Sept5 with Sep24 handover target, Zindi climate mapping $10k prize opened Aug28 and Sept24 talk is only event, West Somerset named teaching salary listed Sept10 and Sep24 closes, Australian NFF Sept24 tertiary report lacks new first-party exact paid owner task, UK CPC digital delivery tender from Aug20/24 closes today; public OCDS API is sensor not autonomous commissioned execution. Do not carry any as candidate absent genuinely new same-unit first-party 2026-09-24+ posted right and settlement."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -252,6 +255,78 @@
     "active_transaction_units": 0,
     "first_external_value_flow": "NOT_PROVEN",
     "jev_actual_new_invocations": 0,
+    "external_side_effects_performed": false
+  },
+  "gen19_preflight": {
+    "as_of_date": "2026-09-24",
+    "search_constraint": "FIRST_PARTY_NEW_PUBLISHED_OWNER_POST_2026_09_24_OR_LATER_WITH_SAME_EXACT_UNFILLED_PAID_OPERATION_OPEN_PREAUTHORIZED_INDEPENDENT_NONLABOR_EXECUTION_AND_REAL_SETTLEMENT",
+    "source_registry": [
+      {
+        "source_id": "UPWORK_NAMED_CRM_20260905",
+        "url": "https://www.upwork.com/freelance-jobs/apply/GoHighLevel-Meta-CAPI-Systems-Specialist-for-Lead-Generation-Build_~022096209551436928243/",
+        "source_class": "FIRST_PARTY_HOSTED_OWNER_POST",
+        "owner_post_date": "2026-09-05_SEARCH_INDEX_POSTED_DATE",
+        "today": "2026-09-24_PREFERRED_HANDOVER_ONLY",
+        "paid_unit": "US$4000_FIXED_PRICE_POST_NO_CONFIRMED_AWARD",
+        "verdict": "DATE_FAIL_EXISTING_DIRECT_SKILLED_MANUAL_SERVICE_NOT_PRECONSENTED_AUTONOMOUS_OPEN_ROUTER"
+      },
+      {
+        "source_id": "ZINDI_MAPPING_BIAS_20260828",
+        "url": "https://zindi.world/competitions/bias-bounty-mapping-equity-challenge",
+        "secondary_first_party": "https://humane-intelligence.org/programs-services/bias-bounty/",
+        "source_class": "FIRST_PARTY_OWNER_CAMPAIGN",
+        "owner_launch_date": "2026-08-28",
+        "today": "2026-09-24_SPEAKER_APPEARANCE_ONLY",
+        "paid_unit": "US$10000_COMPETITIVE_PRIZE_POOL_NOT_PER_TASK_COMMITTED_PAYOUT",
+        "verdict": "DATE_FAIL_EXISTING_OWNER_NATIVE_APPROVED_COMPETITION_NO_THIRD_PARTY_RECURRENCE"
+      },
+      {
+        "source_id": "WEST_SOMERSET_VACANCY_20260910",
+        "url": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-9206afc9-fcc7-4fcd-9de4-7aae9d9204f8",
+        "source_class": "OFFICIAL_FIRST_PARTY_GOV_HOSTED_NAMED_SCHOOL_VACANCY",
+        "owner_post_date": "2026-09-10",
+        "today": "2026-09-24_CLOSING_ONLY",
+        "paid_unit": "GBP16746_31_ANNUAL_EMPLOYMENT_REQUIRES_HUMAN_PHYSICAL_WORK",
+        "verdict": "DATE_FAIL_HUMAN_LABOR_PREAPPROVED_DIRECT_EMPLOYMENT_NO_INDEPENDENT_NO_LABOR_ROUTE"
+      },
+      {
+        "source_id": "AU_HARVEST_BACKPACKER_20260918",
+        "url": "https://www.reuters.com/world/asia-pacific/immigration-crackdown-puts-australias-wheat-harvest-risk-industry-groups-say-2026-09-18/",
+        "source_class": "THIRD_PARTY_NEWS_AND_UNVERIFIED_SEP24_REPUBLICATION",
+        "owner_post_date": "NOT_OBTAINED",
+        "today": "2026-09-24_REPUBLICATION_POSSIBLE_NOT_VALID_OWNER_OR_EXACT_TASK",
+        "verdict": "SOURCE_AUTHORITY_FAIL_LABOR_AND_STATE_VISA_APPROVAL_CANNOT_BE_ASSUMED"
+      },
+      {
+        "source_id": "UK_FTS_OWNER_DATED_API_2026",
+        "url": "https://www.gov.uk/government/publications/open-contracting",
+        "source_class": "OFFICIAL_METADATA_API_NOT_PAID_OPERATION",
+        "owner_post_date": "OLDER_PERMANENT_INFRASTRUCTURE",
+        "today": "2026-09-24_SEARCH_DATE_ONLY",
+        "verdict": "OPEN_NOTICE_READ_API_NOT_OPEN_PAID_UNAFFILIATED_EXECUTION_OR_SETTLEMENT"
+      },
+      {
+        "source_id": "UK_CPC_TENDER_20260820",
+        "url": "https://tenderline.uk/tenders/strategic-technology-change-and-delivery-partner-ocds-h6vhtk-06e847",
+        "source_class": "THIRD_PARTY_OFFICIAL_NOTICE_MIRROR",
+        "owner_post_date": "2026-08-20_REISSUED_2026-08-24",
+        "today": "2026-09-24_SUBMISSION_DEADLINE",
+        "verdict": "DATE_FAIL_COMPETITIVE_APPROVAL_MANUAL_PARTNER_TENDER"
+      }
+    ],
+    "first_party_newly_issued_owner_paid_unfilled_units_verified": 0,
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "new_scan170_jev_calls": 0,
+    "user_reported_external_supervisory_jev": {
+      "version": "jev-1.13.0",
+      "task_classification": "previous_stage_complete",
+      "confidence": 0.83,
+      "verified_by_scan170_artifact": false,
+      "commercial_fact": false
+    },
     "external_side_effects_performed": false
   }
 }
