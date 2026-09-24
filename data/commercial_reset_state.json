@@ -909,15 +909,30 @@
       "formation_id": "ATTRACTION_SCAN_168-F3",
       "verdict": "DEMOTED_CURRENT_CHINA_OUTBOUND_MRO_PLATFORMS_ARE_EXACT_ADJACENT_EXECUTION_INCUMBENTS_AND_A_REPEATABLE_INDEPENDENT_LOCAL_STOCK_GATE_IS_NOT_SOURCE_BOUND",
       "resolved_date": "2026-09-24"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_169-F1",
+      "verdict": "DEMOTED_NAMED_STUDIO_RELOCATION_HAS_DIRECT_MALL_PARTIAL_FLOW_AND_EXACT_SPACE_INCUMBENTS_WHILE_INDEPENDENT_FIT_FOR_PURPOSE_ACTION_CONTROL_IS_UNPROVEN",
+      "resolved_date": "2026-09-24"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_169-F2",
+      "verdict": "DEMOTED_NAMED_RETAIL_CONTINUITY_PRESSURE_HAS_REAL_DIRECT_PARTIAL_FLOW_BUT_NO_INDEPENDENT_STANDARDIZED_CUSTOMER_AND_SPACE_ROUTING_RIGHT",
+      "resolved_date": "2026-09-24"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_169-F3",
+      "verdict": "DEMOTED_EARLY_EXIT_AND_REINSTATEMENT_ARE_REAL_NAMED_TENANT_ISSUES_BUT_DECISIVE_RIGHTS_ARE_CONTRACTUAL_LANDLORD_CONTROLLED_OR_EXISTING_SPECIALIST_SERVICES",
+      "resolved_date": "2026-09-24"
     }
   ],
   "first_external_value_flow": "NOT_PROVEN",
   "historical_case_policy": "GIT_HISTORY_ONLY_NOT_ACTIVE_INPUT",
-  "last_completed_scan_id": "ATTRACTION_SCAN_168",
-  "last_resolved_formation_id": "ATTRACTION_SCAN_168-F3",
-  "next_scan_id": "ATTRACTION_SCAN_169",
-  "current_research_action": "VALIDATE_SCAN168_ZERO_RETENTION_THEN_ADVANCE_SCAN169_IF_ALLOWED",
-  "current_validation_state": "SCAN168_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+  "last_completed_scan_id": "ATTRACTION_SCAN_169",
+  "last_resolved_formation_id": "ATTRACTION_SCAN_169-F3",
+  "next_scan_id": "ATTRACTION_SCAN_170",
+  "current_research_action": "VALIDATE_SCAN169_NAMED_EVENT_ZERO_RETENTION_THEN_START_INDEPENDENT_SCAN170",
+  "current_validation_state": "SCAN169_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
   "required_scan_controls": [
     "BROAD_REALITY",
     "ATTRACTION_FIRST_BEACON",
@@ -1809,7 +1824,11 @@
     "ELECTRONIC_RECEIVABLE_CERTIFICATE_ACTION_RIGHTS_ARE_REGULATED_BY_PLATFORM_BANK_AND_SHCPE_INFRASTRUCTURE.",
     "WHOLE_HOME_SMART_INTEROPERABILITY_IS_CURRENTLY_OWNED_BY_MAJOR_PLATFORM_AND_SCENARIO_INTEGRATOR_ECOSYSTEMS.",
     "DELIVER_NEW_COLLECT_OLD_HOME_RENEWAL_IS_ALREADY_A_RETAILER_RECYCLER_TRANSACTION_RAIL.",
-    "SMART_GLASSES_PRESCRIPTION_FITTING_IS_ALREADY_AN_EXACT_OPTICAL_SERVICE_NETWORK."
+    "SMART_GLASSES_PRESCRIPTION_FITTING_IS_ALREADY_AN_EXACT_OPTICAL_SERVICE_NETWORK.",
+    "NAMED_TIME_BOUND_DISPLACEMENT_AND_DIRECT_INTERVIEW_BEHAVIOR_IMPROVE_EVENT_TRUTH_BUT_CANNOT_SUBSTITUTE_OPEN_ACTION_PERMISSION.",
+    "DIRECT_MALL_OFFERS_TO_PRESTIQUE_AND_COCO_VEGGIE_ARE_REAL_PARTIAL_FLOW_AND_STRONGLY_CHALLENGE_A_GENERIC_RELOCATION_BRIDGE.",
+    "LANDLORD_TENANT_CONTRACT_AND_FINAL_SITE_ACCEPTANCE_ARE_THE_RIGHTS_BOUNDARY_NOT_A_MISSING_GENERIC_POPUP_LISTING.",
+    "NEXT_SEARCH_MUST_SWITCH_TO_A_GENUINELY_INDEPENDENT_REPLENISHING_EVENT_WITH_A_PUBLIC_OR_CONTRACTUALLY_INDEPENDENT_CALLABLE_THIRD_PARTY_ROLE."
   ],
   "notes": [
     "Pre-reset cases have no active commercial meaning.",
@@ -2520,8 +2539,8 @@
     "deposit_authorized": false,
     "purchase_authorized": false
   },
-  "last_completed_scan_file": "data/research_runs/attraction_scan_168.json",
-  "last_completed_scan_result": "ZERO_RETENTION_INDEPENDENT_CROSS_COMPANY_PARTIAL_FLOWS_HAVE_EXACT_INCUMBENT_ACTION_SURFACES_OR_UNPROVEN_OPEN_PERMISSION",
+  "last_completed_scan_file": "data/research_runs/attraction_scan_169.json",
+  "last_completed_scan_result": "NAMED_MARINA_DISPLACEMENT_REAL_BUT_DIRECT_LANDLORD_OFFERS_EXIST_AND_INDEPENDENT_RELOCATION_CUSTOMER_OR_LEASE_ACCEPTANCE_RIGHTS_UNPROVEN",
   "scan136": {
     "scan_id": "ATTRACTION_SCAN_136",
     "evidence_artifact": "data/research_runs/scan136_current_asset_receipts_evidence.json",
@@ -3007,7 +3026,7 @@
     "preflight_autonomous_continuation_allowed": true,
     "preflight_resolution": "CLOSED_DISTINCT_UNOWNED_MULTI_OPERATOR_ROUTER_NOT_EVIDENCED_AFTER_CURRENT_OFFICIAL_CONTROL_SURFACE_PREFLIGHT"
   },
-  "next_action": "EXACT_HEAD_CI_AND_REAL_TYPESAFE_JEV_FOR_SCAN168_THEN_ADVANCE_SCAN169_IF_ALLOWED",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_REAL_TYPESAFE_JEV_FOR_SCAN169_THEN_ADVANCE_INDEPENDENT_EVENT_SCAN170_ONLY_IF_CLOSURES_ALIGN",
   "scan143_broad_reality_trust_routing": {
     "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "c4d3da4d67f067a512642beb272eeafa7fd0fa34",
@@ -4324,7 +4343,7 @@
     "merged_main_sha": "ff5af36657828767559204ea4d5f37010c7c6be7"
   },
   "scan168_asean_fragmented_ops_action_rails": {
-    "status": "INITIAL_SCAN_COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "status": "MERGED_FINAL_EXACT_HEAD_GREEN_ALL_ROUTES_CLOSED",
     "source_main_sha": "ff5af36657828767559204ea4d5f37010c7c6be7",
     "canonical_scan_artifact": "data/research_runs/attraction_scan_168.json",
     "evidence_artifact": "data/research_runs/scan168_asean_fragmented_ops_action_rails_evidence.json",
@@ -4340,10 +4359,56 @@
     "active_commercial_candidate_count": 0,
     "active_transaction_unit_count": 0,
     "first_external_value_flow": "NOT_PROVEN",
+    "exact_head_validation_status": "SUCCESS",
+    "live_jev_status": "SUCCESS",
+    "next_scan_id": "ATTRACTION_SCAN_169",
+    "next_action": "COMPLETED_ADVANCE_TO_SCAN169",
+    "commercial_promotion": false,
+    "external_side_effects_performed": false,
+    "final_exact_head_sha": "7fed4c6817d9e28aace5b7fb8d7184cc6f8b4036",
+    "final_repository_ci_run_id": 35949798506,
+    "final_repository_ci_conclusion": "SUCCESS",
+    "final_repository_ci_test_job_id": 107475670893,
+    "final_repository_ci_test_count": 855,
+    "final_jev_run_id": 35949798489,
+    "final_jev_artifact_id": 10788636035,
+    "final_jev_artifact_digest": "sha256:28dfdeaddd265101a6aad9566d6df9593d7b0fd0388ad1ab597358e494fc5e4a",
+    "final_jev_entity_count": 3,
+    "final_jev_effective_route_counts": {
+      "NO_FURTHER_RESEARCH": 3
+    },
+    "final_jev_model_route_counts": {
+      "NO_FURTHER_RESEARCH": 3
+    },
+    "final_jev_alignment_counts": {
+      "ALIGNS_WITH_AUTHORITATIVE_CLOSURE": 3
+    },
+    "final_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "final_autonomous_continuation_allowed": true,
+    "merged_pr": 483,
+    "merged_main_sha": "67fff4d280cfea2d043878608885e8c9e3852d82"
+  },
+  "scan169_named_retail_displacement_control_preflight": {
+    "status": "INITIAL_NAMED_EVENT_COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+    "source_main_sha": "67fff4d280cfea2d043878608885e8c9e3852d82",
+    "canonical_scan_artifact": "data/research_runs/attraction_scan_169.json",
+    "evidence_artifact": "data/research_runs/scan169_named_retail_displacement_evidence.json",
+    "report": "docs/research/SCAN169_NAMED_RETAIL_DISPLACEMENT_2026-09-24.md",
+    "high_attraction_beacons": [],
+    "retained_research_formations": [],
+    "authoritative_closures": [
+      "ATTRACTION_SCAN_169-F1",
+      "ATTRACTION_SCAN_169-F2",
+      "ATTRACTION_SCAN_169-F3"
+    ],
+    "bootstrap_queue": [],
+    "active_commercial_candidate_count": 0,
+    "active_transaction_unit_count": 0,
+    "first_external_value_flow": "NOT_PROVEN",
     "exact_head_validation_status": "PENDING",
     "live_jev_status": "PENDING",
-    "next_scan_id": "ATTRACTION_SCAN_169",
-    "next_action": "EXACT_HEAD_CI_AND_REAL_TYPESAFE_JEV_THEN_ADVANCE_169_IF_ALLOWED",
+    "next_scan_id": "ATTRACTION_SCAN_170",
+    "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_REAL_TYPESAFE_JEV_FOR_SCAN169_THEN_ADVANCE_INDEPENDENT_EVENT_SCAN170_ONLY_IF_CLOSURES_ALIGN",
     "commercial_promotion": false,
     "external_side_effects_performed": false
   }
