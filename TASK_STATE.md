@@ -3,104 +3,71 @@
 GitHub live state wins over this checkpoint if they disagree.
 
 ## Current Mission
-Continue the clean-slate Attraction Field until a real external value flow is proven or a real human/permission stop exists.
+Continue clean-slate `ATTRACTION_FIELD_V1` until a real external value flow is proven or a genuine human/permission stop exists. Issue #143 remains OPEN.
 
 ## Goal
-Find a high-attraction, regenerative and genuinely unowned commercial control position. Current policy, subsidy, payment pressure and consumer upgrade waves are discovery signals only; they cannot be promoted when government, regulated financial infrastructure, retailer platforms, brand ecosystems or professional networks already own the decisive action gate.
+Find high-attraction, regenerative and demonstrably operator-callable missing-edge control, without promoting aggregate friction or inventing permission rights.
 
 ## Current Unique Commercial Research Goal
-Validate Scan166's broad current domestic action-gate ownership sweep. Scan166 deliberately exited Scan165's 9610/cross-border-return vertical and screened five fresh 2026 state changes: SME payment-state formalization, electronic receivable certificates, whole-home smart interoperability, home-renewal deliver-new/collect-old, and smart-glasses optical fitting. All five currently close on exact official/platform/professional action rails. If exact-head CI/Jev agree, merge and advance Scan167 to fresh reality where an observable missing edge precedes incumbent ownership.
+Validate Scan167 on its exact PR head after independent broad 2026 sensing found no presently operator-callable missing edge across off-platform brand authorization, Penang post-discharge care coordination and ASEAN cross-border seller market entry. If final CI and real TypeSafe/Jev agree on F1-F3 closures and autonomous continuation, merge and reenter *fresh* broad reality at Scan168.
 
 ## Current Phase
-SCAN166_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
+SCAN167_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 
 ## Last Verified Main
-- `main`: `6f99815532b6a77c7ba681bd6e0989b3093f7b00` — PR #480 merged.
-- Scan165 final exact head: `5aa01fcf53b098e68a733f01d82a18ad546f68ad`.
-- Repository CI `35914634537`: SUCCESS, 845 tests; test job `107362891489`.
-- Real TypeSafe/Jev `35914634341`: SUCCESS; artifact `10775120444`; digest `sha256:84365b176748248d66a8c60ee7b5a9fee45e664b0814edc0a0bf8e430e4a48f0`.
-- Jev: 5/5 model/effective `NO_FURTHER_RESEARCH`, 5/5 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`, continuation `ADVANCE_TO_NEXT_SCAN`.
+- Verified functional `main`: `b7caf7e2d8b96584e5becf45cafceacdefb1c4b6` — Scan166 PR #481 squash merged.
+- Scan166 frozen exact head: `c2b639ac250d9d4b9364c080baa0e0f2829a7403`.
+- Scan166 repository CI `35915566482`: SUCCESS, **849 tests**; test job `107366040679`.
+- Scan166 real live TypeSafe/Jev workflow `35915566528`: SUCCESS; artifact `10775096869`, digest `sha256:c51f05f84c617be08c8a7786548b2f234b4dde6346e4239371132295eaee7cbc`.
+- Jev Scan166: 5/5 model and effective `NO_FURTHER_RESEARCH`, 5/5 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`, continuation `ADVANCE_TO_NEXT_SCAN`, autonomous continuation allowed.
 - Active commercial candidates: 0; transaction units: 0; FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
 
 ## Active Issue
 #143 — P0 clean-slate Attraction Field -> first external value flow — OPEN.
 
 ## Active Branch
-`research/scan166-domestic-payment-smart-consumption-ownership`.
+`research/scan167-cross-channel-trust-care-handoff-preflight`
 
 ## Active PR
-None yet. Freeze the completed Scan166 branch and open exactly one PR.
+PR #482 — OPEN, same branch; initial head `6b0d03235bfb260f343847f20f011a298045cb63` failed recovery-heading contract only. This edit advances the head; re-freeze new exact head and require both new CI/Jev runs.
 
 ## CI
-- Scan166 repository CI: NOT RUN on a PR head yet.
-- Scan166 live TypeSafe/Jev: NOT RUN on a PR head yet.
-- Only the same exact PR head may authorize merge/advance.
+- Initial Scan167 CI `35949231920` FAILED on the operational-heading contract after the initial PR #482 head: exactly three missing required TASK_STATE headings. This edit restores exact required headings. That earlier head is non-authoritative.
+- Scan167 repository CI: PENDING current fixed exact-head run.
+- Scan167 real live TypeSafe/Jev: PENDING current fixed exact-head run; initial head Jev must not authorize a different head.
+- Merge only if both same frozen head pass and Jev effective closures align with authoritative results and allows advance. Jev is shadow advisory, never promotes commercial candidates.
 
 ## Latest Artifact / Persisted State
-- `data/research_runs/attraction_scan_166.json`
-- `data/research_runs/scan166_domestic_payment_smart_consumption_evidence.json`
-- `docs/research/SCAN166_DOMESTIC_PAYMENT_SMART_CONSUMPTION_OWNERSHIP_2026-09-24.md`
-- `tests/test_scan166_domestic_payment_smart_consumption_ownership.py`
+- `data/research_runs/attraction_scan_167.json`
+- `data/research_runs/scan167_cross_channel_trust_care_handoff_evidence.json`
+- `docs/research/SCAN167_CROSS_CHANNEL_TRUST_CARE_HANDOFF_2026-09-24.md`
+- `tests/test_scan167_cross_channel_trust_care_handoff.py`
 - `data/commercial_reset_state.json`
 
 ## Completed
-- Confirmed Scan165 final exact-head CI/Jev succeeded and PR #480 merged; no Scan166 work was already running.
-- Reconciled Scan165 final merge/CI/Jev truth into durable machine state.
-- Returned to broad domestic current reality instead of inheriting 9610/cross-border returns.
-- Screened five fresh current state changes across enterprise cash flow and household smart consumption.
-- Closed SME payment-state routing because September 2026 rules make the state more legible but MIIT's national overdue-payment complaint platform already owns the formal escalation rail; disputed acceptance remains expert-bound.
-- Closed electronic receivable certificate routing because regulated platforms, banks and Shanghai Commercial Paper Exchange already own issuance, monitoring, disclosure, financing and settlement action rights.
-- Closed whole-home smart interoperability because national standards plus Midea/Sanyiniao-like major ecosystems already own design, device integration, scene orchestration and lifecycle service.
-- Closed deliver-new/collect-old because current retailer + authorized recycler rails already bind purchase, recycling and delivery/recovery sequencing.
-- Closed smart-glasses prescription fitting because current brand/optical supplier/store networks already provide online/offline professional fitting.
-- Authorized no bootstrap transaction and performed no outreach, registration, application, purchase, payment or other external side effect.
+- Re-read live main, AGENTS, issue #143, PRs, CI, real Jev and evidence; did not repeat Scan165 or Scan166 research.
+- Rechecked PR #481 exact head, CI and real Jev; safely squash merged Scan166; verified main `b7caf7e2d8b96584e5becf45cafceacdefb1c4b6`.
+- Reconciled Scan166 production/main merge, exact-head CI, live advisory and no-retention results in the machine ledger.
+- Started Scan167 from verified main, independent current cross-channel trust/care/ASEAN research; preserved source registry, competing outcomes, observed partial flows and concrete permission/ownership gaps.
+- F1-F3 currently have authoritative zero-retention closures, not market opportunities. No outreach, data-access attempts, vendor engagement, deposits, payments or other external side effects occurred.
 
 ## Current Findings
-Scan166 reinforces a recurring anti-drift rule:
-
-```text
-NEW POLICY / SUBSIDY
-+ REAL PARTICIPANT MOTION
-+ MATERIAL STATE CHANGE
-!= UNOWNED ACTION GATE
-```
-
-Current closures:
-- SME overdue escalation -> MIIT national complaint / regulatory rail.
-- Electronic receivable certificate -> regulated platform / bank / Shanghai Commercial Paper Exchange rail.
-- Whole-home smart integration -> major smart-home platform / scenario integrator rail.
-- Deliver-new / collect-old -> retailer + authorized recycler rail.
-- Smart-glasses prescription fitting -> brand + optical supplier + professional fitting network.
-
-Scan166:
-- high-attraction beacons: 0;
-- retained research formations: 0;
-- authoritative closures: F1-F5;
-- bootstrap queue: empty;
-- commercial candidates: 0;
-- transaction units: 0;
-- FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
+- F1: Platform brand-owner authorization and GS1 product identity are separate; public evidence does not establish repeatable neutral *portable* brand authorization rights or paid actor units.
+- F2: Penang institutional care-handoff friction is real, while private post-discharge provider matching has an exact incumbent; federal/state health-social integration requires authority and qualified safeguards.
+- F3: ASEAN exporter cross-border compliance friction is real; existing marketplace, regulatory and BSO action rails prevent assuming an independent operator-controlled gate.
+- Scan167 retained research formations: 0; high-attraction beacons: 0; commercial candidates: 0; transaction units: 0; bootstrap queue: empty; FIRST_EXTERNAL_VALUE_FLOW: NOT_PROVEN.
 
 ## Blockers
-No human blocker. Exact-head repository CI and live TypeSafe/Jev are pending.
+None requiring user action at this stage. Only frozen-head CI and live TypeSafe/Jev validation remain before merge.
 
 ## Next Action
-Freeze Scan166 into one PR and require exact-head repository CI + live TypeSafe/Jev. If all five closures align and continuation permits advance, merge and start Scan167 from verified main.
+Freeze the corrected head on existing PR #482; consume fresh repository CI and live TypeSafe/Jev for that same exact head. If fully aligned with F1-F3 authoritative closures and continuation permits, merge, verify main and advance Scan168 from the new main. If Jev requests exact preflight, consume only that bounded queue and revalidate a new frozen head.
 
 ## Do Not Repeat
-Do not reopen 9610 route optionality, generic China-local execution, return-value recovery, CBAM data orchestration, tooling transfer, remote warehouse returns, SME complaint filing, electronic receivable financing, whole-home smart integration, deliver-new/collect-old, or smart-glasses fitting as new opportunities without materially new current evidence of an unowned edge. Do not infer opportunity from policy/subsidy alone.
+Do not reopen Scan163–166 closed verticals, older stale branches, the 9610 policy route, regulated payments, smart-home integration, trade-in logistics or smart-glasses fitting. Do not confuse a product barcode with seller distribution authority, a private care marketplace with federal/state care integration, or regional aggregate export friction with a transaction-ready independent gate.
 
 ## Guardrails
-GitHub live state wins. REALITY > COGNITION > SCHEMA. HIGH_ATTRACTION_BEACON != COMMERCIAL_CANDIDATE. POLICY OR SUBSIDY != MISSING EDGE. OFFICIAL COMPLAINT OR FINANCIAL RAIL != OPERATOR CONTROL. PLATFORM SERVICE != UNOWNED ROUTER. UNKNOWN != PASS. TypeSafe/Jev remains shadow research advisory only.
+REALITY > COGNITION > SCHEMA. HIGH_ATTRACTION_BEACON != COMMERCIAL_CANDIDATE. INCUMBENT PRESENCE != AUTOMATIC KILL; the exact value-flow/control boundary determines closure. UNKNOWN != PASS. Distinguish evidence, hypothesis and permission. No outreach without a decisive external validation authorization.
 
-## Recovery State
-Use `state/chatgpt-recovery` only as control-plane recovery state; live GitHub remains authoritative.
-
-## Pending Operations
-Open and validate exactly one Scan166 PR on a frozen head.
-
-## Resume Cursor
-Scan166 artifacts are persisted on `research/scan166-domestic-payment-smart-consumption-ownership`; PR not yet opened.
-
-## Safe Re-entry
-Re-read live main, open PRs and exact-head Actions before mutating. Do not repeat Scan166 public research if persisted artifacts and a matching frozen PR head already exist.
+## Recovery
+Live GitHub refs, PR/CI/Jev/artifacts and machine ledger override this file and chat; `state/chatgpt-recovery` is control-plane only. Current work branch provides a durable continuation if this session dies.
