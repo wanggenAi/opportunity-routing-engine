@@ -1,0 +1,170 @@
+{
+  "scan_id": "ATTRACTION_SCAN_168",
+  "as_of_date": "2026-09-24",
+  "status": "COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+  "search_mode": "BROAD_2026_REALITY_INDEPENDENT_CROSS_COMPANY_PARTIAL_FLOW_VS_EXACT_EXISTING_ACTION_RAILS",
+  "source_main_sha": "ff5af36657828767559204ea4d5f37010c7c6be7",
+  "prior_scan": {
+    "scan_id": "ATTRACTION_SCAN_167",
+    "merged_pr": 482,
+    "final_exact_head": "c18bacfa0ed9241c9fd7d7d7a363a438a82a581e",
+    "repository_ci_run_id": 35949289448,
+    "repository_ci_test_job_id": 107474113405,
+    "repository_ci_test_count": 852,
+    "live_jev_run_id": 35949289463,
+    "live_jev_artifact_id": 10787074755,
+    "live_jev_artifact_digest": "sha256:38097d99ac8a4c17a69807761563fefcc6054a9e4d4d93a328465af22b26ec23",
+    "live_jev_entity_count": 3,
+    "live_jev_effective_routes": {
+      "NO_FURTHER_RESEARCH": 3
+    },
+    "live_jev_alignment": {
+      "ALIGNS_WITH_AUTHORITATIVE_CLOSURE": 3
+    },
+    "live_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "merged_main_sha": "ff5af36657828767559204ea4d5f37010c7c6be7"
+  },
+  "broad_reality_domains_examined": [
+    "SOUTHEAST_ASIA_SPOT_VEHICLE_PROCUREMENT_INTERNAL_EXTERNAL_HANDOFF",
+    "MALAYSIAN_MICROENTERPRISE_BACKEND_DIGITAL_FRAGMENTATION",
+    "CHINA_OUTBOUND_ASEAN_FACTORY_MRO_AVAILABILITY"
+  ],
+  "source_registry": {
+    "KRI-MY-MSME-20260525": {
+      "url": "https://www.krinstitute.org/press-release/from-survival-to-scale-digitalisation-among-malaysias-micro-and-small-enterprises-remains-broad-but-shallow",
+      "claim": "Independent Malaysian research (KRI with MDEC) describes widespread front-facing digital adoption but weak backend integration, and support ecosystem fragmentation; macro evidence alone does not identify a specific callable recurring operator gate."
+    },
+    "KINTONE-MY-20260325": {
+      "url": "https://www.kintone.com/en-us/press-center/cybozu-designates-southeast-asia-global-investment-growth/",
+      "claim": "Cybozu/Kintone reports Malaysian expansion including Malay localization and CRM Suite to integrate SME administrative and relationship workflows; company offering evidence, not proof of universal coverage."
+    },
+    "MDEC-BDI-CURRENT": {
+      "url": "https://www.mdec.my/programmes/business-digitalisation-initiative",
+      "claim": "Malaysia's Business Digitalisation Initiative already provides SME digital maturity assessment, financing channels and expert business advisory via an existing public-private service ecosystem."
+    },
+    "BCG-SEA-LOGISTICS-20260730": {
+      "url": "https://www.bcg.com/publications/2026/southeast-asia-logistics-ai-opportunities",
+      "claim": "BCG describes 2026 SEA logistics cross-party workflow discontinuities: single-company AI improvements often lose value at manual partner handoffs; this is aggregate research, not proof of an independent dispatch or booking permission."
+    },
+    "LOCUS-SPOT-20260518": {
+      "url": "https://locus.sh/blogs/market-vehicle-procurement-automation-sea-logistics-whatsapp-2026/",
+      "claim": "Locus markets a system precisely for spot vehicle procurement (vendor registry, structured RFQs, qualified vendor ranking, vehicle assignment and tracking), describing messaging-based workarounds; vendor's illustrative operational scenarios are not independently validated buyer transaction records."
+    },
+    "HAULIO-ASEAN": {
+      "url": "https://haulio.io/",
+      "claim": "Haulio describes an active ASEAN haulage collaboration and real-time fleet, manpower and equipment management platform; public footprint is not proof that every carrier/country/corridor is serviced."
+    },
+    "JETRO-CHINA-ASEAN-20260319": {
+      "url": "https://www.jetro.go.jp/world/reports/2026/01/a6e737a88346c9df.html",
+      "claim": "JETRO 2026 research documents Chinese companies expanding across Malaysia, Thailand, Vietnam and Indonesia including manufacturing and data infrastructure; context for replenishment, not direct procurement demand."
+    },
+    "ZKH-Q1-20260521": {
+      "url": "https://ir.zkh.com/2026-05-21-ZKH-Group-Limited-Announces-First-Quarter-2026-Unaudited-Financial-Results",
+      "claim": "ZKH reports an existing large MRO procurement platform with specialized industrial SKUs, digital product matching and international service growth supporting outbound Chinese manufacturers; it does not establish exact local SLA in each ASEAN site."
+    },
+    "FMM-2026-H1": {
+      "url": "https://www.fmm.org.my/article/circulars/fmm-business-conditions-survey-1h2026-results-gi162026?returnUrl=%2Fcirculars",
+      "claim": "Malaysia Federation of Manufacturers' 1H2026 industry conditions publication reports raw-material costs and supply chain disruptions as major surveyed challenges; aggregate cost pressure is not a paid site-specific MRO RFQ."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_168-F1",
+      "title": "SEA logistics 3PL faces a peak-demand spot-vehicle procurement event -> qualified compatible carrier capacity and trackable handoff",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "INDEPENDENT_CROSS_PARTNER_SILO_REPORT_WITH_EXACT_COMMERCIAL_SPOT_PROCUREMENT_PRODUCTS",
+      "state_change": "3PL_EXCEEDS_CONTRACTED_CAPACITY_AND_PROCURES_SPOT_TRUCKS_WITH_SHORT_DEADLINE",
+      "evidence_refs": [
+        "BCG-SEA-LOGISTICS-20260730",
+        "LOCUS-SPOT-20260518",
+        "HAULIO-ASEAN"
+      ],
+      "observed_partial_flow": "Independent aggregate BCG study reports cross-party manual process boundaries, while incumbent Locus documents message-based spot sourcing as part of its exact commercial offering. The specific example in Locus marketing is illustrative, not a confirmed public procurement unit.",
+      "counterparty_surface": "Truck/capacity providers exist through carrier and haulage networks, but no independent live free-to-route vendor inventory or action permission was independently established.",
+      "decisive_action_gate_owner_state": "EXACT_LOCUS_SPOT_RFQ_AND_DISPATCH_PLATFORM_AND_EXISTING_HAULIO_HAULAGE_NETWORK; INDEPENDENT_UNOWNED_CARRIER_ACCEPTANCE_PERMISSION_UNPROVEN",
+      "material_contradictions": [
+        "Messaging workaround persists but current commercial vendors explicitly sell this workflow",
+        "3PL contracts and capacity owners retain vehicle booking rights; a neutral shared rail is not publicly callable",
+        "No publicly bound repeatable buyer procurement event, quote authority, or net operator economics"
+      ],
+      "verdict": "DEMOTED_AGGREGATE_SPOT_VEHICLE_HANDOFF_FRICTION_IS_REAL_BUT_EXACT_COMMERCIAL_PROCUREMENT_SURFACES_EXIST_AND_AN_OPEN_INDEPENDENT_BOOKING_RAIL_IS_NOT_EVIDENCED"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_168-F2",
+      "title": "Malaysian microenterprise grows beyond chat and spreadsheet operations -> integrated backend order/customer/finance records",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "INDEPENDENT_MSME_FRAGMENTATION_EVIDENCE_WITH_EXACT_LOCALIZED_WORKFLOW_INCUMBENT_AND_PUBLIC_PROGRAM",
+      "state_change": "MICROENTERPRISE_OPERATIONAL_WORKLOAD_OUTGROWS_CHAT_SPREADSHEET_AND_ISOLATED_APPS",
+      "evidence_refs": [
+        "KRI-MY-MSME-20260525",
+        "KINTONE-MY-20260325",
+        "MDEC-BDI-CURRENT"
+      ],
+      "observed_partial_flow": "KRI identifies backend integration remains shallow despite front-facing adoption. Kintone already packages localized application integration/CRM workflows and MDEC operates public-private advisory/financing access for small firms.",
+      "counterparty_surface": "Local digital integrators and software providers are accessible, but no excluded subgroup's independent right or public trigger for a distinct multi-provider routing transaction is established.",
+      "decisive_action_gate_owner_state": "EXACT_LOCALIZED_WORKFLOW_PLATFORM_INTEGRATOR_KINTONE_AND_MDEC_BDI_SUPPORT_SURFACE; INDEPENDENT_REPEATABLE_MISSING_EDGE_NOT_EVIDENCED",
+      "material_contradictions": [
+        "Aggregate low adoption does not prove lack of integration software",
+        "Customization and change management are expert/service work unless a repeatable missing coordination right is evidenced",
+        "MSME adoption survey is population-level, not named payer intent"
+      ],
+      "verdict": "DEMOTED_INDEPENDENT_MSME_BACKEND_FRICTION_EXISTS_BUT_EXACT_LOCALIZED_SOFTWARE_AND_PUBLIC_ADVISORY_RAILS_PRECLUDE_AN_UNPROVEN_NEUTRAL_CONTROL_LAYER"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_168-F3",
+      "title": "China-outbound manufacturer's ASEAN production site enters recurring MRO restock or unexpected downtime -> compatible supplies plus local fulfillment",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_EXPANSION_AND_MATERIAL_COST_PRESSURE_WITH_CURRENT_INTERNATIONAL_MRO_PLATFORM",
+      "state_change": "CHINESE_MANUFACTURER_ACTIVATES_ASIAN_PLANT_AND_REORDERS_OR_ESCALATES_MAINTENANCE_PARTS",
+      "evidence_refs": [
+        "JETRO-CHINA-ASEAN-20260319",
+        "FMM-2026-H1",
+        "ZKH-Q1-20260521"
+      ],
+      "observed_partial_flow": "JETRO shows active China-outbound manufacturing expansion; FMM reports generic cost/disruption pressure, and ZKH reports existing outbound-Chinese-client MRO supply and specialized AI-supported procurement, without proving exact independent urgent-order leakage at a named ASEAN factory.",
+      "counterparty_surface": "Manufacturers, local industrial merchants and existing global procurement/fulfillment networks exist; precise part identity and on-site fit may require expert diagnosis and local stock verification.",
+      "decisive_action_gate_owner_state": "EXISTING_ZKH_INTERNATIONAL_CHINA_OUTBOUND_MRO_PLATFORM_AND_SITE_PURCHASING_RIGHTS; SPECIFIC_LOCAL_AVAILABILITY_UNBOUND",
+      "material_contradictions": [
+        "Industrial pressure and international expansion do not bind an unpaid procurement event to an independent operator",
+        "Large incumbent coverage does not prove every urgent last-mile part is resolved; conversely an unsolved local stockout is not publicly shown",
+        "Exact compatible part and site-SLA require qualified procurement verification; no independent standardized authority or provider availability established"
+      ],
+      "verdict": "DEMOTED_CURRENT_CHINA_OUTBOUND_MRO_PLATFORMS_ARE_EXACT_ADJACENT_EXECUTION_INCUMBENTS_AND_A_REPEATABLE_INDEPENDENT_LOCAL_STOCK_GATE_IS_NOT_SOURCE_BOUND"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_168-F1",
+    "ATTRACTION_SCAN_168-F2",
+    "ATTRACTION_SCAN_168-F3"
+  ],
+  "commercial_candidates": [],
+  "active_transaction_units": [],
+  "first_external_value_flow": "NOT_PROVEN",
+  "bootstrap_queue": [],
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "prior_domain_deduplication_checked": true,
+    "state_change_first_search": true,
+    "decisive_action_gate_owner_checked": true,
+    "public_affected_actor_discoverability_checked": true,
+    "standardizable_nonexpert_match_checked": true,
+    "open_remedy_not_missing_edge_checked": true,
+    "independent_aggregate_research_vs_vendor_claim_separated": true,
+    "exact_vendor_offerings_audited": true,
+    "regional_aggregate_not_paid_request": true
+  },
+  "scan_learnings": [
+    "CURRENT_2026_AGGREGATE_PARTIAL_FLOW_RESEARCH_IS_STRONGER_THAN_AN_INVENTED_SUPPLY_DEMAND_PAIR_BUT_WEAK_FOR_A_REPEATABLE_CALLABLE_GATE.",
+    "DISTINGUISH_VENDOR_ILLUSTRATIVE_SPOT_LOGISTICS_STORY_FROM_INDEPENDENT_FIELD_DATA_AND_EXACT_EXISTING_SALES_OFFERINGS.",
+    "SME_DIGITAL_FRAGMENTATION_INDEPENDENTLY_EVIDENCED_BUT_INCUMBENT_LOCALIZED_BACKEND_INTEGRATION_AND_ADVISORY_EXIST.",
+    "CHINA_OUTBOUND_SITE_MRO_EXPANSION_IS_REAL_BUT_CURRENT_PLATFORM_SERVICE_AND_LOCAL_STOCK_GAP_MUST_BE_DISENTANGLED_WITH_EXACT_SITE_LEVEL_DATA_BEFORE_PROMOTION."
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_169",
+  "next_search_boundary": "START_WITH_ACTUAL_REPLENISHING_PUBLICLY_IDENTIFIABLE_EVENT_AND_EXACT_INDEPENDENT_CALLABLE_ACTION_RIGHT_BEFORE_AGGREGATE_FRICTION_OR_VENDOR_MARKETING; EXPLORE_GENUINELY_NEW_CAUSAL_OUTCOMES_NOT_GENERIC_LOGISTICS_DIGITALIZATION_OR_INDUSTRIAL_MRO_SERVICE_MENUS.",
+  "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_REAL_TYPESAFE_JEV_FOR_SCAN168_THEN_ADVANCE_SCAN169_IF_ALL_CLOSURES_ALIGN",
+  "external_side_effects_performed": false
+}
