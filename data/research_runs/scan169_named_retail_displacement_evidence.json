@@ -1,0 +1,134 @@
+{
+  "scan_id": "ATTRACTION_SCAN_169",
+  "as_of_date": "2026-09-24",
+  "purpose": "Discriminate actual tenant relocation, class/customer continuity and contractual acceptance from existing landlord/direct broker/contractor/official execution. Source specific rights audit: absence of rights evidence is not evidence the named businesses have no needs.",
+  "source_registry": {
+    "SINGLAND-MARINA-20260901": {
+      "url": "https://www.singaporeland.com/marina-squares-next-chapter-singapores-first-hyper-mixed-development/",
+      "claim": "Owner announces Marina Square mall closure 2027-03-31, project expected 2031, hotels remain open and SingLand itself manages transition/footfall; no operator transfer right is offered."
+    },
+    "CNA-NAMED-TENANTS-20260902": {
+      "url": "https://www.channelnewsasia.com/singapore/marina-square-closing-construction-tenants-6354741",
+      "claim": "Directly interviewed named affected tenants; Joraine Tan of Prestique reports malls have approached her; Stoneage Collection owner May Teo cites cost/lease uncertainty; Coco Veggie restaurateur reports prior moves and approaches. Media-interview evidence of their statements, not independent contract audit."
+    },
+    "ST-MARINA-TENANTS-20260902": {
+      "url": "https://www.straitstimes.com/business/tenants-mull-future-plans-after-sudden-news-of-marina-square-closure",
+      "claim": "Named Lava Floor venue initially lacked replacement-site plan at announcement. This is a dated observation, not proof of present unfilled demand or ownership of bookings."
+    },
+    "PRESTIQUE-OFFICIAL-CURRENT": {
+      "url": "https://www.prestiquestudio.com.sg/",
+      "claim": "Named studio's own site advertises an existing operational Marina Square location, public class offerings, operating hours and business contact; no authorized third-party relocation or member-portability API/public mandate established."
+    },
+    "LAVAFLOOR-OFFICIAL-BOOK": {
+      "url": "https://www.lavafloorgame.com/book-now",
+      "claim": "Venue operates its own direct booking surface at Marina Square. A public booking webpage does not confer external booking/customer-data control."
+    },
+    "POPUPANGELS-OFFICIAL-CURRENT": {
+      "url": "https://www.popupangels.sg/renting-space/",
+      "claim": "Exact incumbent offers searchable short-term retail spaces and expert-supported landlord matching and set-up; available catalog is not verified as accessible to every displaced operator."
+    },
+    "POPUPANGELS-LANDLORD-CURRENT": {
+      "url": "https://www.popupangels.sg/listing-space/",
+      "claim": "Landlords remain in control of accepting brands and projects while incumbent markets available space; there is no independent guaranteed sublease/booking right for an unaffiliated router."
+    },
+    "GETSPACES-OFFICIAL-CURRENT": {
+      "url": "https://getspaces.com/sg/page/rental-spaces-booths-for-retail-popup-events",
+      "claim": "Existing flexible-space marketplace markets short and longer rentals; marketplace offer alone does not prove any named Marina Square tenant booked there."
+    },
+    "VOLM-REINSTATEMENT-20260827": {
+      "url": "https://volm.sg/retail-shop-reinstatement-singapore/",
+      "claim": "2026 specialist offering explicitly covers retail reinstatement scoping, landlord/building coordination, final inspection and handover; vendor offer, not evidence every tenant's issue resolved."
+    },
+    "MTI-RETAIL-LEASE-20260407": {
+      "url": "https://www.mti.gov.sg/newsroom/written-reply-to-pq-on-protection-against-unfair-business-practices-for-small-retail-subtenants-in-commercial-properties/",
+      "claim": "Singapore MTI confirms qualified commercial retail leasing disputes can use existing LARPA Code and Singapore Mediation Centre mediation/adjudication framework; individual Marina Square lease eligibility/compensation facts not disclosed."
+    },
+    "BT-EXITS-20260806": {
+      "url": "https://www.businesstimes.com.sg/property/dp-architects-psb-academy-exit-marina-square-ahead-revamp",
+      "claim": "Before September announcement, named PSB Academy and DP Architects had already organized relocation, supporting existing direct enterprise/landlord partial flows, not an independent routing mandate."
+    }
+  },
+  "closure_matrix": [
+    {
+      "formation_id": "ATTRACTION_SCAN_169-F1",
+      "state_change": "MARINA_SQUARE_CLOSURE_2027_03_31_FORCES_PRESTIQUE_SINGLE_SITE_RELOCATION",
+      "evidence_refs": [
+        "SINGLAND-MARINA-20260901",
+        "CNA-NAMED-TENANTS-20260902",
+        "PRESTIQUE-OFFICIAL-CURRENT",
+        "POPUPANGELS-OFFICIAL-CURRENT",
+        "POPUPANGELS-LANDLORD-CURRENT",
+        "GETSPACES-OFFICIAL-CURRENT"
+      ],
+      "observed_partial_flow": "Named Joraine Tan reports multiple malls have approached Prestique; she reports no specific mall-provided relocation offer at first announcement. Existing specialist short-term mall-space matching is already sold; class and specific alternative site terms not publicly disclosed.",
+      "competing_latent_outcomes": [
+        "Maintain viable class location and member convenience",
+        "Negotiate lease compensation and minimize fit-out transition cost",
+        "Choose to change or close business if viable space costs cannot be cleared"
+      ],
+      "causal_frontier": "The publicly demonstrated hard constraint is lease/fit-out economics and tenant-landlord decisions; no public data identifies a distinct unowned repeated class-continuity routing edge.",
+      "open_right_falsifier": "Would need first-party repeated site-rejection/continuity failure records despite direct landlord offers, independently accessible appropriately fitted space inventory, and a legally callable tenant-authorized matching/booking and recurring operator-revenue right.",
+      "action_gate_owner_state": "LANDLORD_SPACE_APPROVAL_AND_PRESTIQUE_TENANT_CONSENT; DIRECT_MALL_OFFERS_AND_EXACT_POPUPANGELS_GETSPACES_RELOCATION_RAILS_EXIST; INDEPENDENT_SITE_ACCEPTANCE_GATE_NOT_EVIDENCED",
+      "material_contradictions": [
+        "Named tenant relocation is real but unsolicited direct mall offers are actual partial flow, so no absence of matching route is proven",
+        "Incumbent broker availability is not proof of all premises or special trampoline floor/loading fitness suitability",
+        "Specific booking, suitability certification, member-data authorization, success fee and independent route right are not in public evidence"
+      ],
+      "verdict": "DEMOTED_NAMED_STUDIO_RELOCATION_HAS_DIRECT_MALL_PARTIAL_FLOW_AND_EXACT_SPACE_INCUMBENTS_WHILE_INDEPENDENT_FIT_FOR_PURPOSE_ACTION_CONTROL_IS_UNPROVEN"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_169-F2",
+      "state_change": "MARINA_SQUARE_CLOSURE_DISPLACES_22_YEAR_RETAILER_AND_RESTAURANT_SITE",
+      "evidence_refs": [
+        "SINGLAND-MARINA-20260901",
+        "CNA-NAMED-TENANTS-20260902",
+        "POPUPANGELS-OFFICIAL-CURRENT",
+        "GETSPACES-OFFICIAL-CURRENT",
+        "BT-EXITS-20260806"
+      ],
+      "observed_partial_flow": "Stoneage owner reports customers proactively messaging/advising a move while she cites age, effort and costly fit-out. Coco Veggie operator reports a prior food-court-to-restaurant relocation and that other malls have approached him already. PSB/DP independently show some named tenants can directly move, not proof all retailer economics are solved.",
+      "competing_latent_outcomes": [
+        "Preserve customer footfall via a suitable permanent destination",
+        "Operate online/popup while reducing fit-out downside",
+        "Conclude planned business operation rather than relocate when economics fail"
+      ],
+      "causal_frontier": "Tenants' fit-out costs, lease timing and business preference/physical demand differ. Customer affection or inbound landlord invitations cannot establish a generic third-party right to migrate customers or monetize the relocation.",
+      "open_right_falsifier": "Need opt-in merchant and customer-transfer permission, independently evidenced failed continuity after available incumbents, standardized destination constraints, and a publicly callable paid handoff without repeated manual merchant selling.",
+      "action_gate_owner_state": "CUSTOMER_RELATIONSHIPS_ARE_OWNED_BY_TENANTS; LANDLORDS_DECIDE_LEASE_TERMS; INCUMBENT_SPACE_AGENTS_AND_DIRECT_APPROACHES_EXIST; NO_THIRD_PARTY_CUSTOMER_OR_SITE_MIGRATION_PERMISSION",
+      "material_contradictions": [
+        "Consumer concern in news does not prove data portability consent, real churn or willingness to pay an outside routing operator",
+        "Restaurant operator has already executed a prior direct relocation and reports mall approaches",
+        "Preexisting pop-up and mall letting offerings cannot be renamed as an unowned opportunity"
+      ],
+      "verdict": "DEMOTED_NAMED_RETAIL_CONTINUITY_PRESSURE_HAS_REAL_DIRECT_PARTIAL_FLOW_BUT_NO_INDEPENDENT_STANDARDIZED_CUSTOMER_AND_SPACE_ROUTING_RIGHT"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_169-F3",
+      "state_change": "ANNOUNCED_2027_03_31_SHUTDOWN_PRECEDES_REPORTED_STONEAGE_SEP_AND_PRESTIQUE_DEC_2027_LEASE_EXPIRY",
+      "evidence_refs": [
+        "CNA-NAMED-TENANTS-20260902",
+        "SINGLAND-MARINA-20260901",
+        "VOLM-REINSTATEMENT-20260827",
+        "MTI-RETAIL-LEASE-20260407"
+      ],
+      "observed_partial_flow": "Owners describe unresolved questions about early exit; SingLand says it will work directly with tenants on timeline and reinstatement. A named 2026 reinstatement provider markets end-to-end coordinated handover; regulator describes a separate existing dispute-resolution path for qualifying retail agreements. Neither fact establishes the outcome for specific tenants.",
+      "competing_latent_outcomes": [
+        "Negotiate early lease termination/compensation with landlord",
+        "Commission specialist fit-out removal and successful final landlord acceptance",
+        "Escalate lease disputes through the appropriate formal route if qualification and evidence support it"
+      ],
+      "causal_frontier": "The decisive obligations are tenant-specific contracts, actual reinstatement scope and landlord decisions; available public evidence does not expose a repeatable open acceptance/settlement API or independent permission to act.",
+      "open_right_falsifier": "Need published or expressly granted case-class authorization to control the landlord acceptance rail, standardized accessible lease inputs, actual repeated cross-tenant failed handovers despite existing contractors, and a legitimate operator payment entitlement.",
+      "action_gate_owner_state": "LEASE_RELIEF_REQUIRES_LANDLORD_TENANT_AGREEMENT_OR_EXISTING_DISPUTE_FORUM; REINSTATEMENT_SIGNOFF_IS_LANDLORD_SPECIFIC; VOLM_SPECIALIST_DELIVERY_IS_ACTIVE; NEUTRAL_OPERATOR_GATE_UNPROVEN",
+      "material_contradictions": [
+        "Media interviews establish uncertainty, not that a legal duty to compensate or actual dispute outcome exists",
+        "Exact specialist 2026 contractor offers full landlord-coordinated handover, so generic contractor orchestration is not new control",
+        "Existing code/mediation availability is qualified and case-specific and gives no unaffiliated router execution authority"
+      ],
+      "verdict": "DEMOTED_EARLY_EXIT_AND_REINSTATEMENT_ARE_REAL_NAMED_TENANT_ISSUES_BUT_DECISIVE_RIGHTS_ARE_CONTRACTUAL_LANDLORD_CONTROLLED_OR_EXISTING_SPECIALIST_SERVICES"
+    }
+  ],
+  "retained_research_formations": [],
+  "bootstrap_result": "NONE_AUTHORIZED",
+  "external_side_effects_performed": false
+}
