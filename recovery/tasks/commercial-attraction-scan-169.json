@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generation": 1,
+  "generation": 2,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-169",
-  "stage": "SCAN168_FINAL_VERIFIED_SCAN169_EVENT_FIRST_DISCOVERY_NOT_YET_PERSISTED",
+  "stage": "SCAN169_NAMED_RETAIL_EVENT_FIRST_SOURCE_PREFLIGHT_IN_PROGRESS",
   "last_observed_main_sha": "67fff4d280cfea2d043878608885e8c9e3852d82",
-  "work_branch": null,
-  "work_head_sha": null,
+  "work_branch": "research/scan169-named-retail-displacement-control-preflight",
+  "work_head_sha": "67fff4d280cfea2d043878608885e8c9e3852d82",
   "active_pr": null,
   "ci": {
     "run_id": 35949798506,
@@ -34,9 +34,10 @@
     "Exact-head CI and live Jev verified then squash merged Scan166 #481, Scan167 #482 and Scan168 #483",
     "Scan167 initial failed TASK_STATE headings contract corrected and revalidated on new exact head",
     "All three scans authoritative zero retention and confirmed real live TypeSafe/Jev autonomous advance",
-    "Latest main, main Scan168 JSON, next scan ID and no open PRs independently verified"
+    "Latest main, main Scan168 JSON, next scan ID and no open PRs independently verified",
+    "2026-09-24 live main 67fff4d2 reverified; Scan169 branch exists but compare main...branch identical (0 commits); PR #483 merged; open PR count 0; Scan168 same-head CI and live Jev success independently reverified"
   ],
-  "next_action": "From live main 67fff4d2 reconcile Scan168 final exact-head CI 35949798506 (855 tests) and live Jev 35949798489 (3/3 aligned NO_FURTHER_RESEARCH; ADVANCE_TO_NEXT_SCAN), merge PR483 into TASK_STATE and machine state on the NEXT substantive Scan169 research PR. First discover at least one fresh first-party publicly identified replenishing actor event with independently callable open action right and actual partial-flow evidence before creating Scan169. Do not churn another aggregate-only empty scan; do not invent bootstrap paid units.",
+  "next_action": "Verify SingLand 2026-09-01 announced 2027-03-31 Marina Square closure, named affected actor behavior, exact current landlord/short-term retail incumbents, and whether any genuinely independently callable unresolved continuity edge survives. If not, reject and discover a new independent named recurring event. Persist only substantive research on Scan169 branch; reconcile Scan168 TASK_STATE/machine there; then exact-head CI and real TypeSafe/Jev continuation.",
   "do_not_repeat": [
     "Scan165 #480",
     "Scan166 #481",
