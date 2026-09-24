@@ -1,6 +1,7 @@
 # Scan168 — 2026 ASEAN operations: independent partial flows versus exact action rails
 
-Date: 2026-09-24\nSource verified main: `ff5af36657828767559204ea4d5f37010c7c6be7`
+Date: 2026-09-24
+Source verified main: `ff5af36657828767559204ea4d5f37010c7c6be7`
 
 ## Search method
 
