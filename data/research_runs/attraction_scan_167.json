@@ -1,0 +1,176 @@
+{
+  "scan_id": "ATTRACTION_SCAN_167",
+  "as_of_date": "2026-09-24",
+  "status": "COMPLETE_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING",
+  "search_mode": "BROAD_CURRENT_REALITY_CROSS_CHANNEL_TRUST_AND_CARE_HANDOFF_CONTRADICTION_SWEEP",
+  "source_main_sha": "b7caf7e2d8b96584e5becf45cafceacdefb1c4b6",
+  "prior_scan": {
+    "scan_id": "ATTRACTION_SCAN_166",
+    "merged_pr": 481,
+    "final_exact_head": "c2b639ac250d9d4b9364c080baa0e0f2829a7403",
+    "repository_ci_run_id": 35915566482,
+    "repository_ci_test_job_id": 107366040679,
+    "live_jev_run_id": 35915566528,
+    "live_jev_artifact_id": 10775096869,
+    "live_jev_artifact_digest": "sha256:c51f05f84c617be08c8a7786548b2f234b4dde6346e4239371132295eaee7cbc",
+    "live_jev_entity_count": 5,
+    "live_jev_effective_routes": {
+      "NO_FURTHER_RESEARCH": 5
+    },
+    "live_jev_alignment": {
+      "ALIGNS_WITH_AUTHORITATIVE_CLOSURE": 5
+    },
+    "live_jev_next_action": "ADVANCE_TO_NEXT_SCAN",
+    "merged_main_sha": "b7caf7e2d8b96584e5becf45cafceacdefb1c4b6"
+  },
+  "broad_reality_domains_examined": [
+    "REGIONAL_OFF_PLATFORM_BRANDED_SELLER_AUTHORITY",
+    "INSTITUTIONAL_ELDER_CARE_HANDOFF_VS_PRIVATE_POST_DISCHARGE_SERVICE",
+    "ASEAN_CROSS_BORDER_SELLER_MARKET_ACCESS"
+  ],
+  "source_registry": {
+    "ASEAN-SCOPE-2026": {
+      "url": "https://asean.org/book/asean-msmes-in-cross-border-e-commerce-how-business-support-organisations-and-private-sector-actors-can-bridge-the-gaps/",
+      "claim": "ASEAN SCOPE Trade published current cross-border MSME evidence using a survey of business support organisations representing over 220,000 businesses and 30 private-sector/BSO consultations; aggregate friction is not itself evidence of an unowned transaction layer."
+    },
+    "OECD-ASEAN-2026": {
+      "url": "https://www.oecd.org/en/publications/digital-trade-review-of-the-association-of-southeast-asian-nations_abd6f44a-en/full-report/reforming-the-domestic-regulatory-environment-affecting-digital-trade_4d01582c.html",
+      "claim": "OECD 2026 reports substantial divergence and growing heterogeneity in ASEAN domestic digital-trade regulation; this is upstream context, not a specific paid need or accessible permission rail."
+    },
+    "HKTDC-ASEAN-2026": {
+      "url": "https://beltandroad.hktdc.com/en/insights/asean-cross-border-e-commerce-insights-hong-kong-exporters",
+      "claim": "A Q1 2026 HKTDC survey of Hong Kong traders found compliance a leading concern for respondents active in ASEAN e-commerce and third-party platforms a major preferred route; findings must not be generalized to all ASEAN firms."
+    },
+    "TIKTOK-BRAND-MY-20260427": {
+      "url": "https://seller-my.tiktok.com/university/essay?knowledge_id=7245385195980561&lang=en",
+      "claim": "TikTok Shop Malaysia has a live brand qualification pathway with documented owner/direct and multilayer authorized reseller states; it controls qualification within its marketplace, not a general public cross-platform dealer-authority registry."
+    },
+    "GS1MY-PRODUCT-2026": {
+      "url": "https://gs1my.org/verified_by_gs1",
+      "claim": "GS1 Verified by GS1 authenticates product identifier and basic brand-owned product attributes; it does not by itself attest that a given off-platform counterparty has a current territory-specific distribution grant."
+    },
+    "PENANG-INSTITUTE-20260331": {
+      "url": "https://penanginstitute.org/publications/issues/the-coordination-gap-how-penangs-elderly-navigate-a-fragmented-care-system/",
+      "claim": "Penang Institute March 2026 analysis identifies federal-health/state-social-service handoff fragmentation and reports a stakeholder perception gap; its proposed state-led coordinating body is a proposal, not evidence of accessible private data rights or independent budget."
+    },
+    "HOMAGE-PENANG": {
+      "url": "https://www.homage.com.my/services/home-care-penang/",
+      "claim": "Homage currently sells Penang post-discharge/home nursing and personal care, provides in-person assessment/care plans and matches trained professionals; incumbent private care matching exists but does not establish a government cross-agency integration rail."
+    },
+    "ASEAN-ATR-ASSIST": {
+      "url": "https://asean.org/our-communities/economic-community/asean-customs/informed-compliance/",
+      "claim": "ASEAN has existing trade repositories and the ASSIST public operational-trade complaint path; these are not blanket solutions to marketplace access but prevent relabeling public guidance/remedy as independent operator-owned control."
+    },
+    "MATRade-EBIZLINK-20260212": {
+      "url": "https://www.matrade.gov.my/en/about-matrade/press-release/program-ebizlink-matrade-jana-rm274-juta-jualan-eksport-pacu-pengdigitalan-pengeksport-malaysia",
+      "claim": "MATRADE reports its eBizLink export digitalization programme benefited 1,855 Malaysian companies across 37 activities in 2023–25; business-support action rails are already active, although coverage of all firms is not implied."
+    }
+  },
+  "examined_formations": [
+    {
+      "formation_id": "ATTRACTION_SCAN_167-F1",
+      "title": "Regional small importer evaluating an off-platform branded-goods offer -> independently check counterparty territory-specific reseller authority before purchase",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "INDEPENDENT_CROSS_BORDER_FRICTION_WITH_PLATFORM_SCOPED_BRAND_QUALIFICATION_AND_PRODUCT_IDENTITY_REGISTRY",
+      "state_change": "NEW_REGION_OR_CHANNEL_B2B_BRANDED_GOODS_OFFER_BEFORE_FIRST_ORDER",
+      "evidence_refs": [
+        "ASEAN-SCOPE-2026",
+        "TIKTOK-BRAND-MY-20260427",
+        "GS1MY-PRODUCT-2026"
+      ],
+      "observed_partial_flow": "TikTok marketplace sellers upload tiered brand authorization evidence while GS1 separately validates product identity; neither proves a generic portable third-party authorization attestation outside that platform.",
+      "competing_outcome_hypotheses": [
+        "Portable distributor-authority verification before off-platform first order",
+        "Existing brand-direct confirmation and channel-specific authorization may already suffice without a neutral intermediary"
+      ],
+      "material_contradictions": [
+        "Product authenticity is not seller authority",
+        "The brand controls permission and revocation; its callable verification surface is not publicly established",
+        "Regional aggregate compliance friction is not observed repeated paid demand for authority checking"
+      ],
+      "decisive_action_gate_owner_state": "BRAND_GRANT_AND_REVOCATION_CONTROLLED; NEUTRAL_INDEPENDENT_VERIFICATION_RIGHTS_NOT_EVIDENCED",
+      "verdict": "DEMOTED_CURRENT_PUBLIC_EVIDENCE_DOES_NOT_ESTABLISH_REPEATABLE_AUTHORITY_CHECK_EVENTS_ACCESSIBLE_BRAND_VERIFICATION_OR_AN_INDEPENDENT_OPERATOR_CALLABLE_GATE"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_167-F2",
+      "title": "Penang family transitioning from hospital discharge to continued non-clinical/clinical home support -> family-to-care-service matching",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "INSTITUTIONAL_CARE_HANDOFF_GAP_WITH_EXACT_INCUMBENT_PRIVATE_CARE_MATCHING",
+      "state_change": "FAMILY_RECEIVES_HOSPITAL_DISCHARGE_PLAN_AND_MUST_ARRANGE_HOME_SUPPORT",
+      "evidence_refs": [
+        "PENANG-INSTITUTE-20260331",
+        "HOMAGE-PENANG"
+      ],
+      "observed_partial_flow": "Penang Institute documents families carrying handoff information across health/social institutions; private Homage already assesses needs and matches care providers for post-discharge care in Penang.",
+      "competing_outcome_hypotheses": [
+        "Private post-discharge professional care matching",
+        "Federal-to-state welfare eligibility and records integration"
+      ],
+      "material_contradictions": [
+        "Private care matching already exists and is not equivalent to state care integration",
+        "Institutional interoperability needs state/federal data authority and trained clinical judgment; no callable private gate or independent payer was found"
+      ],
+      "decisive_action_gate_owner_state": "EXACT_PRIVATE_CARE_MATCHING_INCUMBENT; PUBLIC_HEALTH_SOCIAL_DATA_GATE_REQUIRES_GOVERNMENT_PERMISSION",
+      "verdict": "DEMOTED_PRIVATE_POST_DISCHARGE_CARE_MATCH_IS_INCUMBENT_SERVICED_WHILE_PUBLIC_HEALTH_SOCIAL_HANDOFF_IS_INSTITUTIONAL_PERMISSION_AND_SAFETY_BOUND"
+    },
+    {
+      "formation_id": "ATTRACTION_SCAN_167-F3",
+      "title": "Already-exporting ASEAN microbusiness encounters a new destination marketplace eligibility/compliance gate -> market-entry access and transaction continuity",
+      "seed_kind": "BROAD_REALITY_PATTERN",
+      "evidence_class": "CURRENT_REGIONAL_FRICTION_WITH_MARKETPLACE_AND_REGULATORY_ACCESS_OWNERSHIP",
+      "state_change": "REGIONAL_SMALL_EXPORTER_ADDING_A_NEW_DESTINATION_OR_MARKETPLACE",
+      "evidence_refs": [
+        "ASEAN-SCOPE-2026",
+        "OECD-ASEAN-2026",
+        "HKTDC-ASEAN-2026",
+        "ASEAN-ATR-ASSIST",
+        "MATRade-EBIZLINK-20260212"
+      ],
+      "observed_partial_flow": "Active sellers use established marketplaces, export BSOs, government information/remedy resources and country-specific compliance providers, but still face heterogeneous market rules.",
+      "competing_outcome_hypotheses": [
+        "Reusable market-eligibility status explanation",
+        "Local legal/registration or licensed fulfillment access to an otherwise blocked channel"
+      ],
+      "material_contradictions": [
+        "Policy fragmentation is documented but lacks a source-bound named affected transaction unit and publicly callable independent gate",
+        "Only a marketplace can grant its account access; only competent authorities decide regulated compliance; MATRADE and BSOs already operate adjacent support"
+      ],
+      "decisive_action_gate_owner_state": "MARKETPLACE_ACCOUNT_PERMISSION_AND_COUNTRY_REGULATORY_COMPLIANCE_OWNER_CONTROLLED",
+      "verdict": "DEMOTED_REGIONAL_FRICTION_REAL_BUT_NO_PUBLIC_OPEN_STANDARDIZABLE_OPERATOR_CONTROLLED_ACCESS_RAIL_OR_BOUND_PAYER_UNIT"
+    }
+  ],
+  "high_attraction_beacons": [],
+  "retained_research_formations": [],
+  "authoritative_closures": [
+    "ATTRACTION_SCAN_167-F1",
+    "ATTRACTION_SCAN_167-F2",
+    "ATTRACTION_SCAN_167-F3"
+  ],
+  "commercial_candidates": [],
+  "active_transaction_units": [],
+  "first_external_value_flow": "NOT_PROVEN",
+  "bootstrap_queue": [],
+  "drift_audit": {
+    "regenerative_field_revalidated": true,
+    "explicit_transaction_seed_not_ontology": true,
+    "next_search_boundary_rederived_from_broad_reality": true,
+    "prior_domain_deduplication_checked": true,
+    "state_change_first_search": true,
+    "decisive_action_gate_owner_checked": true,
+    "public_affected_actor_discoverability_checked": true,
+    "standardizable_nonexpert_match_checked": true,
+    "open_remedy_not_missing_edge_checked": true,
+    "independent_2026_source_rederivation": true,
+    "private_incumbent_vs_public_integration_separated": true,
+    "crossplatform_brand_authority_not_assumed_public": true
+  },
+  "scan_learnings": [
+    "PLATFORM_TIERED_BRAND_QUALIFICATION_IS_NOT_PORTABLE_OFF_PLATFORM_ATTESTATION_BUT_PUBLIC_EVIDENCE_HAS_NOT_PROVEN_AN_INDEPENDENT_VERIFICATION_RIGHT_OR_PAYING_EVENT.",
+    "REAL_PUBLIC_PRIVATE_ELDER_CARE_HANDOFF_FRICTION_IS_NOT_IDENTICAL_TO_PRIVATE_POST_DISCHARGE_CARE_MATCHING_AND_CANNOT_BE_COMMERCIALLY_CAPTURED_WITHOUT_ACCESS_RIGHTS.",
+    "ASEAN_DIGITAL_TRADE_FRICTION_IS_REGION_WIDE_CONTEXT_NOT_A_DISCOVERED_MISSING_EDGE_IN_AN_OPERATOR_CONTROLLED_ACTION_RAIL."
+  ],
+  "next_scan_id": "ATTRACTION_SCAN_168",
+  "next_search_boundary": "REENTER_BROAD_2026_ACTOR_TRANSITIONS_OUTSIDE_163_167; FIRST_DEMAND_EVENT_MUST_HAVE_OBSERVED_PARTIAL_FLOW_AND_ACTUAL_OPEN_ACTION_RIGHT; DO_NOT_REPEAT_SELLER_VERIFICATION_WITHOUT_PORTABLE_BRAND_RIGHTS_OR_HEALTH_SOCIAL_REFERRAL_WITHOUT_APPROPRIATE_INSTITUTIONAL_PERMISSIONS.",
+  "next_action": "VALIDATE_SCAN167_ON_EXACT_HEAD_WITH_REPOSITORY_CI_AND_LIVE_TYPESAFE_JEV_THEN_ADVANCE_168_IF_ALLOWED",
+  "external_side_effects_performed": false
+}
