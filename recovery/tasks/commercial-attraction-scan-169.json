@@ -1,26 +1,27 @@
 {
   "schema_version": 2,
-  "generation": 3,
+  "generation": 4,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "WAITING_CI",
   "task_key": "commercial-attraction-scan-169",
-  "stage": "SCAN169_PR484_EXACT_HEAD_CI_AND_REAL_JEV_PENDING",
+  "stage": "SCAN169_PR484_EXACT_HEAD_REVALIDATION_AFTER_TASK_STATE_HEADING_FIX",
   "last_observed_main_sha": "67fff4d280cfea2d043878608885e8c9e3852d82",
   "work_branch": "research/scan169-named-retail-displacement-control-preflight",
-  "work_head_sha": "c8658d9ca5529998cb8f46d8ebfdcf2b3b61e6d4",
+  "work_head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
   "active_pr": 484,
   "ci": {
-    "run_id": null,
-    "head_sha": "c8658d9ca5529998cb8f46d8ebfdcf2b3b61e6d4",
-    "status": "PENDING",
+    "run_id": 35951958496,
+    "head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
+    "status": "IN_PROGRESS",
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "SCAN169_SOURCE_BOUND_RESEARCH_PERSISTED_PR_OPEN",
+    "status": "PR484_2ND_HEAD_CI_AND_REAL_JEV_PENDING",
     "evidence": [
-      "Substantive Scan169 commit c8658d9ca5529998cb8f46d8ebfdcf2b3b61e6d4 (six files): owner announced event, 3 distinct closures, machine/TASK_STATE Scan168 merge reconciliation",
-      "PR #484 open at exact head c8658d9ca5529998cb8f46d8ebfdcf2b3b61e6d4",
-      "Scan168 final exact-head real TypeSafe/Jev run 35949798489 succeeded and autonomous ADVANCE_TO_NEXT_SCAN verified"
+      "Initial head c8658d9c PR CI run 35951890118 failed only repository recovery TASK_STATE substring contract; fixed on new exact head 632a535356193ca08e760e37c6e21af1c947b5ba",
+      "Live exact-head CI run 35951958496 status in_progress",
+      "Live Jev exact-head run 35951958490 status queued",
+      "No commercial promotion or external actions"
     ]
   },
   "pending_operation": null,
@@ -34,9 +35,10 @@
     "All three scans authoritative zero retention and confirmed real live TypeSafe/Jev autonomous advance",
     "Latest main, main Scan168 JSON, next scan ID and no open PRs independently verified",
     "2026-09-24 live main 67fff4d2 reverified; Scan169 branch exists but compare main...branch identical (0 commits); PR #483 merged; open PR count 0; Scan168 same-head CI and live Jev success independently reverified",
-    "Scan169 event-first SingLand/affected tenants and exact incumbent/action-right audit source-bound in commit c8658d9ca5529998cb8f46d8ebfdcf2b3b61e6d4; PR #484 created; no commercial candidates or external side effects"
+    "Scan169 event-first SingLand/affected tenants and exact incumbent/action-right audit source-bound in commit c8658d9ca5529998cb8f46d8ebfdcf2b3b61e6d4; PR #484 created; no commercial candidates or external side effects",
+    "Corrected exact TASK_STATE recovery precedence phrase required by tests; added explicit operator-rights preflight evidence; final candidate head 632a535356193ca08e760e37c6e21af1c947b5ba with new CI and real Jev runs"
   ],
-  "next_action": "Read exact-head PR484 repository CI and real TypeSafe/Jev (Scan169 3/3) logs, artifact and continuation; if failed fix and revalidate new head; only then merge and verify main. Start Scan170 genuinely independent named event with open callable action rail.",
+  "next_action": "Read CI 35951958496 and live Jev 35951958490 actual same-head conclusions/logs/artifact/directive; merge PR484 only on success and authoritative aligned 3/3 continuation.",
   "do_not_repeat": [
     "Scan165 #480",
     "Scan166 #481",
