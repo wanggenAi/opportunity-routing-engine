@@ -1,28 +1,26 @@
 {
   "schema_version": 2,
-  "generation": 2,
+  "generation": 3,
   "repository": "wanggenAi/opportunity-routing-engine",
-  "status": "IN_PROGRESS",
+  "status": "WAITING_CI",
   "task_key": "commercial-attraction-scan-169",
-  "stage": "SCAN169_NAMED_RETAIL_EVENT_FIRST_SOURCE_PREFLIGHT_IN_PROGRESS",
+  "stage": "SCAN169_PR484_EXACT_HEAD_CI_AND_REAL_JEV_PENDING",
   "last_observed_main_sha": "67fff4d280cfea2d043878608885e8c9e3852d82",
   "work_branch": "research/scan169-named-retail-displacement-control-preflight",
-  "work_head_sha": "67fff4d280cfea2d043878608885e8c9e3852d82",
-  "active_pr": null,
+  "work_head_sha": "c8658d9ca5529998cb8f46d8ebfdcf2b3b61e6d4",
+  "active_pr": 484,
   "ci": {
-    "run_id": 35949798506,
-    "head_sha": "7fed4c6817d9e28aace5b7fb8d7184cc6f8b4036",
-    "status": "COMPLETED",
-    "conclusion": "SUCCESS"
+    "run_id": null,
+    "head_sha": "c8658d9ca5529998cb8f46d8ebfdcf2b3b61e6d4",
+    "status": "PENDING",
+    "conclusion": null
   },
   "production_or_artifact": {
-    "status": "MERGED_VERIFIED_NO_DEPLOY",
+    "status": "SCAN169_SOURCE_BOUND_RESEARCH_PERSISTED_PR_OPEN",
     "evidence": [
-      "Scan166 PR481 merge b7caf7e2d8b96584e5becf45cafceacdefb1c4b6 CI 849 Jev 5/5",
-      "Scan167 PR482 merge ff5af36657828767559204ea4d5f37010c7c6be7 CI 852 Jev 3/3",
-      "Scan168 PR483 merge 67fff4d280cfea2d043878608885e8c9e3852d82 CI 855 Jev 3/3",
-      "Scan168 real Jev run 35949798489; artifact 10788636035; digest sha256:28dfdeaddd265101a6aad9566d6df9593d7b0fd0388ad1ab597358e494fc5e4a",
-      "Issue 143 still OPEN; 0 commercial candidates, 0 transaction units, first_external_value_flow NOT_PROVEN"
+      "Substantive Scan169 commit c8658d9ca5529998cb8f46d8ebfdcf2b3b61e6d4 (six files): owner announced event, 3 distinct closures, machine/TASK_STATE Scan168 merge reconciliation",
+      "PR #484 open at exact head c8658d9ca5529998cb8f46d8ebfdcf2b3b61e6d4",
+      "Scan168 final exact-head real TypeSafe/Jev run 35949798489 succeeded and autonomous ADVANCE_TO_NEXT_SCAN verified"
     ]
   },
   "pending_operation": null,
@@ -35,9 +33,10 @@
     "Scan167 initial failed TASK_STATE headings contract corrected and revalidated on new exact head",
     "All three scans authoritative zero retention and confirmed real live TypeSafe/Jev autonomous advance",
     "Latest main, main Scan168 JSON, next scan ID and no open PRs independently verified",
-    "2026-09-24 live main 67fff4d2 reverified; Scan169 branch exists but compare main...branch identical (0 commits); PR #483 merged; open PR count 0; Scan168 same-head CI and live Jev success independently reverified"
+    "2026-09-24 live main 67fff4d2 reverified; Scan169 branch exists but compare main...branch identical (0 commits); PR #483 merged; open PR count 0; Scan168 same-head CI and live Jev success independently reverified",
+    "Scan169 event-first SingLand/affected tenants and exact incumbent/action-right audit source-bound in commit c8658d9ca5529998cb8f46d8ebfdcf2b3b61e6d4; PR #484 created; no commercial candidates or external side effects"
   ],
-  "next_action": "Verify SingLand 2026-09-01 announced 2027-03-31 Marina Square closure, named affected actor behavior, exact current landlord/short-term retail incumbents, and whether any genuinely independently callable unresolved continuity edge survives. If not, reject and discover a new independent named recurring event. Persist only substantive research on Scan169 branch; reconcile Scan168 TASK_STATE/machine there; then exact-head CI and real TypeSafe/Jev continuation.",
+  "next_action": "Read exact-head PR484 repository CI and real TypeSafe/Jev (Scan169 3/3) logs, artifact and continuation; if failed fix and revalidate new head; only then merge and verify main. Start Scan170 genuinely independent named event with open callable action rail.",
   "do_not_repeat": [
     "Scan165 #480",
     "Scan166 #481",
