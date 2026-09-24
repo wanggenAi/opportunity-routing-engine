@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 2,
+  "generation": 3,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "INDEPENDENT_EVENT_PREFLIGHT_FOUR_FAMILIES_EXACT_INCUMBENT_RIGHTS_MAPPED_NO_FORMATION_PROMOTED",
+  "stage": "SOURCE_IDENTIFIED_WITH_REAL_PAID_ACTOR_FLOW_BUT_EXACT_PROVIDER_AND_PERMISSION_CONTRADICTION",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -24,7 +24,9 @@
       "FRESH NAMED BUYER EVENT B: HRD Corp RFP PSMB(RFP)3/2026 Alibaba/AWS cloud subscription/support due 2026-10-07, Malaysian registered proven vendors, RM500 bid document and vendor portal; direct self-submission rail and licensed qualifications, no open independent routing or nonlabor normalized rights: https://hrdcorp.gov.my/procurement",
       "FRESH MULTISOURCE EVENT C: EnterpriseSG launched BizSG government SME portal 2026-09-09, actual existing central government entry/transaction product itself; no private independent execution gate identified: https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2026/september/mr04026_new-bizsg-initiative-simplifies-access-to-government-support-and-services-for-businesses",
       "FRESH NAMED ENERGY EVENT D: 2026 EMA demand response expansion accepts licensed load providers/aggregators and sub-10MW BESS; Singapore 2026 independent CNA reports 16 participating firms, 6 intermediary service providers (not an unserved industry). EMA open applicant role is regulated licensing/market registration not freely callable no-consent router: https://www.ema.gov.sg/our-energy-story/energy-demand/non-residential-consumers and https://www.channelnewsasia.com/singapore/energy-market-authority-demand-response-participation-grows-6075306",
-      "NAMED PARTIAL FLOW D: EMA has named ComfortDelGro EV charging platform sandbox; PUB/SP signed 2023 direct aggregation agreement and 2026 six providers already work in same paid flow. The residual small BESS case needs independently named failing sites and a distinct open paid action right beyond existing licensed aggregators before any formation: https://www.ema.gov.sg/news-events/news/media-releases/2025/new-initiatives-to-bolster-power-grid-reliability-through-flexible-electricity-demand and https://www.pub.gov.sg/Resources/News-Room/PressReleases/2023/04/PUB-the-First-Government-Agency"
+      "NAMED PARTIAL FLOW D: EMA has named ComfortDelGro EV charging platform sandbox; PUB/SP signed 2023 direct aggregation agreement and 2026 six providers already work in same paid flow. The residual small BESS case needs independently named failing sites and a distinct open paid action right beyond existing licensed aggregators before any formation: https://www.ema.gov.sg/news-events/news/media-releases/2025/new-initiatives-to-bolster-power-grid-reliability-through-flexible-electricity-demand and https://www.pub.gov.sg/Resources/News-Room/PressReleases/2023/04/PUB-the-First-Government-Agency",
+      "DECISIVE EMA FALSIFIER: EMA's first-party BESS approval page identifies FIVE approved 2025 participants (Crystal Clear Environmental 2.5MW, Just Electric 5MW, Keppel EaaS 2MW, PacificLight 1MW, Sembcorp Power 4MW); special application closed 31 March 2025, final approval compliance required. This is actual owner-identified partial flow, not no-provider evidence: https://www.ema.gov.sg/partnerships/consultations/2024/enabling-embedded-generation-facilities-to-participate-in-demand-response-and-interruptible-load-programmes",
+      "Named 2026 private Blue Whale Energy reports existing installed batteries for a cold-room client, another active supply/services rail. CNA verifies current 16 business participants and 6 aggregators, so generic incremental BESS dispatch or regulated enrolment is NOT promoted without a named currently stranded independently transferable site-level delivery/right. https://www.channelnewsasia.com/singapore/energy-market-authority-demand-response-participation-grows-6075306"
     ]
   },
   "pending_operation": null,
@@ -35,9 +37,10 @@
   "completed": [
     "Scan169 verified closed 3/3 and advanced Scan170 by actual TypeSafe/Jev directive; Issue #143 stays OPEN",
     "Broad current independent 2026 preflight across Singapore deposit-return operator scheme, Malaysia named cloud RFP and Singapore government digital service did not justify yet another unowned-gate opportunity",
-    "Preflighted four non-retail 2026 events, including a real paid regulated demand-response system with named participants and incumbent aggregator growth; no independent residual event/permission yet."
+    "Preflighted four non-retail 2026 events, including a real paid regulated demand-response system with named participants and incumbent aggregator growth; no independent residual event/permission yet.",
+    "Narrowed energy paid-flow hypothesis against first-party five named preapproved BESS actors, dated closed specific programme application, live private installer and six existing aggregators; no named independently unserved site or open extra operator commission found."
   ],
-  "next_action": "Next source-check currently named small-BESS or independent underutilized flexible-load actor with direct dated curtailment/market-exclusion records, verify open licensed aggregator partnership/paid permission and repeated distinct acceptance failures versus six existing market providers. If not source-bound, reject that subcase without Scan170 PR and search another independent named event; only substantive promoted evidence triggers Scan170 research branch, exact-head CI/Jev. Issue #143 remains open.",
+  "next_action": "Abandon generic Singapore deposit processing, Malaysian public cloud bid assistance, BizSG referral and already served demand-response BESS onboarding as standalone Scan170. Continue entirely fresh public named *actor-level live deficit* with already usable third-party action and repeatable existing exchange in a different causal domain. Preserve no Scan170 PR until evidence sufficient; if a novel residual/rights source emerges for any rejected domain, reopen only with exact new facts. Project Issue #143 still OPEN; first value NOT_PROVEN.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
