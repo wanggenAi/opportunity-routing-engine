@@ -202,5 +202,14 @@
   "next_scan_id": "ATTRACTION_SCAN_170",
   "next_search_boundary": "ABANDON_RETAIL_RELOCATION_AS_DEFAULT_LENS; FIND_A_DIFFERENT_CURRENT_NAMED_REPLENISHING_ACTOR_EVENT_WITH_DOCUMENTED_OPEN_INDEPENDENT_ACTION_RIGHT_AND_MULTIPLE_REAL_PARTIAL_FLOWS_BEFORE_CREATING_NEXT_SCAN.",
   "next_action": "EXACT_HEAD_REPOSITORY_CI_AND_REAL_TYPESAFE_JEV_FOR_SCAN169_THEN_ADVANCE_INDEPENDENT_EVENT_SCAN170_ONLY_IF_CLOSURES_ALIGN",
-  "external_side_effects_performed": false
+  "external_side_effects_performed": false,
+  "rights_preflight_boundary": {
+    "event_confirmed": true,
+    "named_actors_confirmed": true,
+    "named_actor_direct_partial_flow_confirmed": true,
+    "public_independent_space_commitment_right": false,
+    "public_independent_tenant_customer_portability_right": false,
+    "public_independent_landlord_reinstatement_acceptance_right": false,
+    "source_interpretation": "A named closure and active tenant behavior are verified. Independent legal permissions for a third-party to book a specific fit-for-purpose site, port a customer relationship, or accept the landlord's reinstatement are NOT evidenced and must not be inferred from public contact details or incumbent offers."
+  }
 }

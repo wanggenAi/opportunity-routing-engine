@@ -1,6 +1,6 @@
 # TASK_STATE
 
-GitHub live main/PR/Actions outrank this compact state checkpoint when later validation or merge advances.
+GitHub live state wins over this compact checkpoint whenever its main/PR/Actions move.
 
 ## Current Mission
 Continue ATTRACTION_FIELD_V1 under Issue #143 until first externally accepted value flow is genuinely proved or a real human/permission stop occurs; zero candidates is not a terminal project state.
