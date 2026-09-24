@@ -3,71 +3,68 @@
 GitHub live state wins over this checkpoint if they disagree.
 
 ## Current Mission
-Continue clean-slate `ATTRACTION_FIELD_V1` until a real external value flow is proven or a genuine human/permission stop exists. Issue #143 remains OPEN.
+Continue independent clean-slate `ATTRACTION_FIELD_V1` until a real first external value flow, verified in external transaction truth, or a genuine human/permission stop exists. Issue #143 stays open.
 
 ## Goal
-Find high-attraction, regenerative and demonstrably operator-callable missing-edge control, without promoting aggregate friction or inventing permission rights.
+Discover high-attraction regenerative actor and resource state changes with observed cross-node connection pressure and an **actually** operator-callable missing edge, not an incumbent's existing service relabelled as a neutral router.
 
 ## Current Unique Commercial Research Goal
-Validate Scan167 on its exact PR head after independent broad 2026 sensing found no presently operator-callable missing edge across off-platform brand authorization, Penang post-discharge care coordination and ASEAN cross-border seller market entry. If final CI and real TypeSafe/Jev agree on F1-F3 closures and autonomous continuation, merge and reenter *fresh* broad reality at Scan168.
+Finalize Scan168 fresh independent 2026 ASEAN operational partial-flow evidence. Check 3 specific cross-company state changes versus exact current providers and data/permission rights. No candidate is retained where only aggregate friction and existing products are proved. Freeze one PR head, require exact-head repository CI and real live TypeSafe/Jev; if 3/3 closure aligns and continuation permits, merge and advance Scan169 into fresh events with public actor-level traces and actual open action rights.
 
 ## Current Phase
-SCAN167_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
+SCAN168_ZERO_RETENTION_EXACT_HEAD_VALIDATION_PENDING
 
 ## Last Verified Main
-- Verified functional `main`: `b7caf7e2d8b96584e5becf45cafceacdefb1c4b6` — Scan166 PR #481 squash merged.
-- Scan166 frozen exact head: `c2b639ac250d9d4b9364c080baa0e0f2829a7403`.
-- Scan166 repository CI `35915566482`: SUCCESS, **849 tests**; test job `107366040679`.
-- Scan166 real live TypeSafe/Jev workflow `35915566528`: SUCCESS; artifact `10775096869`, digest `sha256:c51f05f84c617be08c8a7786548b2f234b4dde6346e4239371132295eaee7cbc`.
-- Jev Scan166: 5/5 model and effective `NO_FURTHER_RESEARCH`, 5/5 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`, continuation `ADVANCE_TO_NEXT_SCAN`, autonomous continuation allowed.
+- `main`: `ff5af36657828767559204ea4d5f37010c7c6be7` — PR #482 Scan167 exact-head squash merge verified.
+- Scan167 exact head `c18bacfa0ed9241c9fd7d7d7a363a438a82a581e`, initial failed CI fixed on final head; final repository CI run `35949289448`, job `107474113405` SUCCESS, **852 tests**.
+- Real TypeSafe/Jev run `35949289463` SUCCESS, artifact `10787074755`, digest `sha256:38097d99ac8a4c17a69807761563fefcc6054a9e4d4d93a328465af22b26ec23`: 3/3 model and effective `NO_FURTHER_RESEARCH`, 3/3 `ALIGNS_WITH_AUTHORITATIVE_CLOSURE`, continuation `ADVANCE_TO_NEXT_SCAN`.
 - Active commercial candidates: 0; transaction units: 0; FIRST_EXTERNAL_VALUE_FLOW: `NOT_PROVEN`.
 
 ## Active Issue
 #143 — P0 clean-slate Attraction Field -> first external value flow — OPEN.
 
 ## Active Branch
-`research/scan167-cross-channel-trust-care-handoff-preflight`
+`research/scan168-asean-fragmented-ops-action-rails`
 
 ## Active PR
-PR #482 — OPEN, same branch; initial head `6b0d03235bfb260f343847f20f011a298045cb63` failed recovery-heading contract only. This edit advances the head; re-freeze new exact head and require both new CI/Jev runs.
+No Scan168 PR at this checkpoint. Freeze current branch and open exactly one PR against the verified `main` above.
 
 ## CI
-- Initial Scan167 CI `35949231920` FAILED on the operational-heading contract after the initial PR #482 head: exactly three missing required TASK_STATE headings. This edit restores exact required headings. That earlier head is non-authoritative.
-- Scan167 repository CI: PENDING current fixed exact-head run.
-- Scan167 real live TypeSafe/Jev: PENDING current fixed exact-head run; initial head Jev must not authorize a different head.
-- Merge only if both same frozen head pass and Jev effective closures align with authoritative results and allows advance. Jev is shadow advisory, never promotes commercial candidates.
+- Scan168 exact-head repository CI: PENDING PR creation.
+- Scan168 real TypeSafe/Jev: PENDING PR creation; must process Scan168 three formations, not Scan167 historical state.
+- Require final same exact head CI and live TypeSafe/Jev successful with all F1-F3 closures aligned and continuation permission. Jev is shadow advisory, not an authority to promote a candidate.
 
 ## Latest Artifact / Persisted State
-- `data/research_runs/attraction_scan_167.json`
-- `data/research_runs/scan167_cross_channel_trust_care_handoff_evidence.json`
-- `docs/research/SCAN167_CROSS_CHANNEL_TRUST_CARE_HANDOFF_2026-09-24.md`
-- `tests/test_scan167_cross_channel_trust_care_handoff.py`
+- `data/research_runs/attraction_scan_168.json`
+- `data/research_runs/scan168_asean_fragmented_ops_action_rails_evidence.json`
+- `docs/research/SCAN168_ASEAN_FRAGMENTED_OPS_ACTION_RAILS_2026-09-24.md`
+- `tests/test_scan168_asean_fragmented_ops_action_rails.py`
 - `data/commercial_reset_state.json`
 
 ## Completed
-- Re-read live main, AGENTS, issue #143, PRs, CI, real Jev and evidence; did not repeat Scan165 or Scan166 research.
-- Rechecked PR #481 exact head, CI and real Jev; safely squash merged Scan166; verified main `b7caf7e2d8b96584e5becf45cafceacdefb1c4b6`.
-- Reconciled Scan166 production/main merge, exact-head CI, live advisory and no-retention results in the machine ledger.
-- Started Scan167 from verified main, independent current cross-channel trust/care/ASEAN research; preserved source registry, competing outcomes, observed partial flows and concrete permission/ownership gaps.
-- F1-F3 currently have authoritative zero-retention closures, not market opportunities. No outreach, data-access attempts, vendor engagement, deposits, payments or other external side effects occurred.
+- Verified Scan166 #481 merged and historical CI/Jev ledger reconciled.
+- Resolved Scan167 initial CI heading-contract failure, revalidated new head with 852 tests and 3/3 real live Jev `NO_FURTHER_RESEARCH`, then safely squash merged #482 and independently verified updated `main`.
+- Reentered independent 2026 regional operational conditions rather than reusing Scan167 consumer-trust, care or ASEAN marketplace access.
+- Cross-compared independent BCG/KRI/JETRO/FMM evidence with live Locus/Haulio/Kintone/MDEC/ZKH offerings; did not treat vendor illustrative stories as observed purchase commitments.
+- F1-F3 currently demoted; no outreach, purchase, external contact, data permission attempt or real customer settlement occurred.
 
 ## Current Findings
-- F1: Platform brand-owner authorization and GS1 product identity are separate; public evidence does not establish repeatable neutral *portable* brand authorization rights or paid actor units.
-- F2: Penang institutional care-handoff friction is real, while private post-discharge provider matching has an exact incumbent; federal/state health-social integration requires authority and qualified safeguards.
-- F3: ASEAN exporter cross-border compliance friction is real; existing marketplace, regulatory and BSO action rails prevent assuming an independent operator-controlled gate.
-- Scan167 retained research formations: 0; high-attraction beacons: 0; commercial candidates: 0; transaction units: 0; bootstrap queue: empty; FIRST_EXTERNAL_VALUE_FLOW: NOT_PROVEN.
+- F1: SEA 3PL spot-vehicle procurement has real cross-party manual-process concerns but exact incumbent Locus and Haulio commercial rails are live; independent neutral carrier booking authority or named purchasable RFQ unproven.
+- F2: Independent KRI report shows Malaysian SME backend fragmentation; Kintone localized integration and MDEC BDI advisory/financing rails already exist. Aggregate friction alone is not an operator-controlled transaction.
+- F3: China-outbound ASEAN factory MRO pressure is plausible and JETRO/FMM evidence macro activity, but existing ZKH international procurement product plus missing exact local site/part/stock identities block an independent autonomous route.
+- Scan168: 0 high-attraction beacons; 0 retained research; 0 candidates; 0 transaction units; FIRST_EXTERNAL_VALUE_FLOW: NOT_PROVEN.
 
 ## Blockers
-None requiring user action at this stage. Only frozen-head CI and live TypeSafe/Jev validation remain before merge.
+No user-side permissions required for exact-head internal repository validation. No new external experiment authorized without source-bound open rights and independent transaction evidence.
 
 ## Next Action
-Freeze the corrected head on existing PR #482; consume fresh repository CI and live TypeSafe/Jev for that same exact head. If fully aligned with F1-F3 authoritative closures and continuation permits, merge, verify main and advance Scan168 from the new main. If Jev requests exact preflight, consume only that bounded queue and revalidate a new frozen head.
+Open one Scan168 PR from current frozen branch, consume actual same-head CI and real TypeSafe/Jev. If final three closures align, merge and verify main; start Scan169 from new main, prioritizing first-party named actor events with a callable, independently controllable action gate.
 
 ## Do Not Repeat
-Do not reopen Scan163–166 closed verticals, older stale branches, the 9610 policy route, regulated payments, smart-home integration, trade-in logistics or smart-glasses fitting. Do not confuse a product barcode with seller distribution authority, a private care marketplace with federal/state care integration, or regional aggregate export friction with a transaction-ready independent gate.
+Do not reopen 9610/Scan165, Scan166 payments/smart consumption, Scan167 brand authorization/institutional healthcare/general ASEAN marketplace access, historical generic local QC, transport marketplace, general SME integrations or factory MRO catalog as an unowned bridge without **new actor-level evidence plus distinct action right**. No imaginary booking, stock feed, brand consent or agency status.
 
 ## Guardrails
-REALITY > COGNITION > SCHEMA. HIGH_ATTRACTION_BEACON != COMMERCIAL_CANDIDATE. INCUMBENT PRESENCE != AUTOMATIC KILL; the exact value-flow/control boundary determines closure. UNKNOWN != PASS. Distinguish evidence, hypothesis and permission. No outreach without a decisive external validation authorization.
+REALITY > COGNITION > SCHEMA. POLICY_OR_FRICTION != UNOWNED_CONTROL. INCUMBENT != AUTOMATIC_KILL but exact overlapping incumbent service and unproven independent rights fail closed. TypeSafe/Jev is shadow research advisory, never commercial truth authority. No external side effects based on hypothetical demand.
 
-## Recovery
-Live GitHub refs, PR/CI/Jev/artifacts and machine ledger override this file and chat; `state/chatgpt-recovery` is control-plane only. Current work branch provides a durable continuation if this session dies.
+## Recovery State
+Live GitHub PR/main/Actions and persisted machine state override this TASK_STATE or stale session. Preserve current branch if interrupted. `state/chatgpt-recovery` is control-plane only.
