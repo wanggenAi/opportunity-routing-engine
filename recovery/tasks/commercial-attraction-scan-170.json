@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 23,
+  "generation": 24,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN23_USDA_CITRUS_ACER_UK_TURING_NO_SAME_EXACT_OPEN_PAYER_FUNDED_NONLABOR_UNIT",
+  "stage": "GEN24_EPA_UST_EPA_WETLANDS_USGS_CHELAN_NO_SAME_EXACT_OPEN_PAYER_FUNDED_NONLABOR_UNIT",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,14 +16,15 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN23_THREE_FRESH_OWNER_DATED_RELEASES_PASS_DAY_LEVEL_EXACT_UNFILLED_PAYER_FUNDED_NONLABOR_UNIT_FAIL",
+    "status": "GEN24_NEW_FIRST_PARTY_SEP24_OWNER_PUBLICATIONS_BUT_EXACT_SAME_UNIT_UNFILLED_NAMED_PAYER_FUNDED_NONLABOR_TASK_FAIL",
     "evidence": [
-      "USDA AMS first-party Sep24 2026 Florida citrus referendum notice; Sept18 Federal Register notice preexists but Sep24 AMS release is fresh day-level. AMS directly mails ballots and provides electronic voting; no still-unfilled named externally payer-funded independent nonlabor operational assignment. https://www.ams.usda.gov/content/usda-conduct-vote-florida-citrus-marketing-order",
-      "USDA AMS first-party Sept24 2026 Acer Access award release: over $5m already awarded to 12 projects across six states; funded recipients and completed allocation are not an unfilled publicly authorized outsider task or distinct unit payout. https://www.ams.usda.gov/content/usda-announces-5-million-awarded-through-acer-access-and-development-program",
-      "UK Department for Education first-party Sep24 2026 Turing Scheme 2026-27 allocation publication; 2026 application round already closed per original provider guidance. Existing funded planned placements not a currently published independently open exact payer-funded third-party nonlabor task. https://www.gov.uk/government/publications/turing-scheme-funding-outcomes-2026-to-2027 ; https://www.gov.uk/government/publications/turing-scheme-international-placements-2026-to-2027"
+      "US EPA Region5 Sep24 2026 public release addresses ten previously closed leaking-tank sites, already removed Wisconsin tank; 60+ potential sites are aggregate unassigned regulatory pipeline, not named freshly payer-funded independently executable unresolved units. https://www.epa.gov/newsreleases/epa-lowers-costs-helps-bring-leaking-underground-storage-tank-sites-back-productive",
+      "US EPA Region3 Sep24 2026 $2.55m wetland nine previously selected state/university grant recipients, e.g. VADEQ $349675, WVU $225296, VIMS $118318; owner release is grant allocation, no new exact unfilled nonlabor unit with external payer commission. https://www.epa.gov/newsreleases/epa-invests-wetland-projects-throughout-mid-atlantic",
+      "USGS owner Sep24 2026 Lake Chelan bathymetry article reports a 2023 field operation and previously released map Sep2 2026; new communication is not a fresh incomplete named paid mapping job. https://www.usgs.gov/programs/cmhrp/news/high-resolution-bathymetry-lake-chelan-washington ; https://pubs.usgs.gov/newpubs"
     ],
     "source_authority": "PUBLIC_FIRST_PARTY_OWNER_PAGES_ONLY_NO_PRIVATE_INDEXES",
     "downstream_gates": "UNTESTED_BOTH_UPSTREAM_GATES_NEVER_SIMULTANEOUSLY_PASS",
+    "first_publish_precision": "OWNER_DAY_LEVEL_SEP24_FOR_THREE_ANNOUNCEMENTS; EXACT_OWNER_HOUR_NOT_PROVEN; ARTICLE_DATE_NOT_UNDERLYING_WORK_FIRST_ISSUE",
     "external_side_effects_performed": false
   },
   "pending_operation": null,
@@ -56,9 +57,10 @@
     "Generation20: independently sampled 3 official issuer-authored releases first published Sept24-25 across passenger rail capital restructuring, embodied factory robotics order backlog and energy demonstration projects. All pass new announcement chronology but none supplies a fresh exact still-unfilled named outside payer-funded autonomously routable nonlabor unit; no cross-source joins, no candidate promotion, no project Jev. Supervisory Jev report kept separate.",
     "Generation21 independent three-domain first-party operational incident/new-notice sample: DAFF import biosecurity maintenance, Cloudflare Workflows/Durable Objects incident, CAF manual-operation incident. All satisfy day/time first-publication cutoffs; none names still-unfilled payer-funded independently executable nonlabor unit. Other same-unit gates stay untested. No project Jev invoked, no artifact, candidate or transaction.",
     "Generation22 new sectors date-first checked WHO Sept24 regulatory quality cooperation first-party dated release; EU railway Sept25 page update, UK CKAF Sep18 updated funding window, EU digital-skills course Sep25 deadline. None publishes a same exact named still-open payer-funded nonlabor operational unit. At most WHO first-publication day passes; no downstream joins, candidates or project Jev.",
-    "Generation23 independent date-first first-party USDA AMS Florida citrus referendum, USDA Acer already-awarded maple industry funding, and UK DfE Turing existing placement funding publication. All owner announcements Sept24 pass day-level but no same precise named currently unfilled payer-funded external nonlabor unit. Upstream joint gate fails; no downstream due diligence, no project Jev, no new branch/PR/CI/artifact or external effects."
+    "Generation23 independent date-first first-party USDA AMS Florida citrus referendum, USDA Acer already-awarded maple industry funding, and UK DfE Turing existing placement funding publication. All owner announcements Sept24 pass day-level but no same precise named currently unfilled payer-funded external nonlabor unit. Upstream joint gate fails; no downstream due diligence, no project Jev, no new branch/PR/CI/artifact or external effects.",
+    "Generation24 genuinely new EPA contamination-remediation, EPA coastal/mid-Atlantic wetland program, and USGS lake bathymetry first-party source sweep. Three Sep24 day-dated owner communications; no same-unit live unfilled named payer-funded independent nonlabor task: closed UST outcomes+unassigned aggregate pipeline, already allocated wetlands grants, historical 2023 survey/Sept2 map. Both upstream gates never jointly pass; no directories/rights/settlement/provider/economics review. No project Jev invoked. No substantive Scan170 branch/PR/CI/artifact or external transaction."
   ],
-  "next_action": "Generation24: source-first search wholly fresh domains absent from Scan170 gens3-23 for first-party owner FIRST-PUBLISHED 2026-09-25 (allow Sep24+) and the SAME exact named currently still-unfilled payer-funded NONLABOR operating unit. Independently verify both upstream gates jointly before any directory, rights, receipts, provider completion or economics. If joint gate fails, source-grounded reject and atomically persist only same recovery JSON, 0/0 NOT_PROVEN #143 OPEN, no empty PR. Only after both PASS verify same-unit preauthorized nonaffiliate action right, legal payee, real settled comparable receipt, native unfilled state, repeatable compounding and net economics; full join only permits fresh-main substantive branch/PR, exact-head CI and actual in-project TypeSafe/Jev artifact.",
+  "next_action": "Generation25: fresh source-first search new domains not covered by Scan170 generations3-24 for first-party owner FIRST-PUBLISHED 2026-09-25 (allow Sep24+) exact SAME named currently unfilled payer-funded NONLABOR operating unit; independently pass both owner first-issuance timestamp and exact paid unfilled unit before any directory/right/receipt/native status/economics inquiry. Reject/persist in this exact recovery JSON if combined gate fails; maintain 0/0 NOT_PROVEN #143 OPEN and no empty PR. Only complete same-unit independent nonaffiliate preauthorization, legal payee, real settled comparable receipt, native outstanding, nonlabor regeneration and net economics permits fresh live-main substantive PR then exact-head CI and actual project Jev artifact.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -500,6 +502,46 @@
         "reason": "Result of prior approved application allocations; official 2026-27 applications closed, no source-bound current open outsider payout unit."
       }
     ],
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "jev_actual_new_invocations": 0,
+    "jev_project_status": "not used",
+    "external_side_effects_performed": false
+  },
+  "gen24_preflight": {
+    "as_of_date": "2026-09-25",
+    "method": "NEW_DOMAINS_FIRST_PARTY_OWNER_DAY_LEVEL_CHRONOLOGY_PLUS_SAME_EXACT_CURRENT_UNFILLED_NAMED_PAYER_FUNDED_NONLABOR_UNIT_JOINT_GATE",
+    "source_registry": [
+      {
+        "owner": "US Environmental Protection Agency Region 5",
+        "url": "https://www.epa.gov/newsreleases/epa-lowers-costs-helps-bring-leaking-underground-storage-tank-sites-back-productive",
+        "owner_first_post": "2026-09-24 date shown in official news release; exact hour not independently published or verified",
+        "chronology": "PASS_DAY_LEVEL_FOR_RELEASE_ONLY",
+        "exact_open_paid_unit": "FAIL",
+        "reason": "Named 2026 UST closures and tank removal already completed. 60+ potential leaks aggregate/no source-bound exact paid unfilled task."
+      },
+      {
+        "owner": "US Environmental Protection Agency Region 3",
+        "url": "https://www.epa.gov/newsreleases/epa-invests-wetland-projects-throughout-mid-atlantic",
+        "owner_first_post": "2026-09-24 date shown in official release; exact hour not independently published or verified",
+        "chronology": "PASS_DAY_LEVEL_FOR_RELEASE_ONLY",
+        "exact_open_paid_unit": "FAIL",
+        "reason": "Nine awarded grantees and earmarked amounts, not presently open separately payer-commissioned nonlabor outsider task."
+      },
+      {
+        "owner": "US Geological Survey coastal and marine hazards",
+        "url": "https://www.usgs.gov/programs/cmhrp/news/high-resolution-bathymetry-lake-chelan-washington",
+        "related_prior": "https://pubs.usgs.gov/newpubs",
+        "owner_first_post": "2026-09-24 date shown in official article; exact hour not independently verified; underlying map first released 2026-09-02; fieldwork 2023",
+        "chronology": "PASS_DAY_LEVEL_ARTICLE_ONLY; FAIL_NEW_TASK_FIRST_ISSUANCE",
+        "exact_open_paid_unit": "FAIL",
+        "reason": "2023 mapping operation completed, Sept2 map previously published; current article is report, not named unfunded unfinished owner-paid operational unit."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
     "retained_formations": [],
     "active_commercial_candidates": 0,
     "active_transaction_units": 0,
