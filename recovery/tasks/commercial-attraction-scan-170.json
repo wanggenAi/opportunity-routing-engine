@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 21,
+  "generation": 22,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN21_DAFF_CLOUDFLARE_CAF_FRESH_FIRST_PARTY_OPERATIONS_NO_NEW_PREAUTHORIZED_PAYER_FUNDED_UNIT",
+  "stage": "GEN22_WHO_HEALTH_STANDARDS_EU_RAIL_UK_RESEARCH_FUND_NO_NEW_EXACT_OPEN_PAYER_FUNDED_UNIT",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,15 +16,15 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN21_FIRST_PARTY_INCIDENT_NOTICE_CHRONOLOGY_PASS_EXACT_STILL_OPEN_NAMED_PAYER_FUNDED_THIRD_PARTY_TASK_FAIL",
+    "status": "GEN22_ONE_FIRST_PARTY_FRESH_OWNER_RELEASE_PASS_EXACT_STILL_UNFILLED_PAYER_FUNDED_OPERATION_FAIL_OTHER_DATE_GATE_FAIL_OR_UNVERIFIED",
     "evidence": [
-      "DAFF Australia first-party 2026-09-24 notice 194-2026: planned 2026-09-25 20:00 to 2026-09-26 04:00 AEST Biosecurity Portal/AAMP/BCST/EVE service degradation for importers, freight forwarders, customs brokers and approved arrangements. Official asks clients to await maintenance completion; no named paying customer, independently commissionable compensatory unit or authorized outside execution/receipt. https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/194-2026",
-      "DAFF Australia first-party 2026-09-24 notice 193-2026: planned same Sept25-26 official EVE, MARS, COLS, COLSB2G, PEBS outage; users instructed to wait. Independent notice but same agency and maintenance family; not counted as separate business formation. Same-unit payer-funded unfilled outsider task FAIL. https://www.agriculture.gov.au/biosecurity-trade/import/online-services/system-notifications/2026/193-2026",
-      "Cloudflare first-party incident status: Sep25 00:03 UTC first investigates newly queued Workflows instances, 01:31 UTC fix monitoring, 02:32 UTC investigates Durable Objects errors. Genuine fresh operational anomalies, but Cloudflare operates native remedy, named external payer-funded unfilled third-party recovery task absent; third-party rights/settlement UNKNOWN. Do not mistake old Asia-Pacific Sep23 incident for Sep25 first-post. https://cloudflare.statuspage.io/",
-      "CAF first-party status: Sept24 18:37 UTC initial Manual Operation degraded performance investigation, resolved Sept24 23:16 UTC by internal team. Chronology PASS but native resolution expressly complete, no published named externally commissioned unfilled paid unit or outsider operational permission. https://caf.statuspage.io/"
+      "WHO first-party 2026-09-24 departmental update on WHO-IRCH Working Group 2 2026-09-23 workshop involving 80 participants from 18 WHO-IRCH members, hosted by Chinese NIDC. Genuine newly published regulatory standards coordination, but no named still-unfulfilled externally commissioned payer-funded operational task, independent third-party action mandate, or task-specific compensation. https://www.who.int/brunei/news/detail-global/24-09-2026-who-irch-working-group-2-advances-cooperation-on-herbal-medicine-quality-and-standards",
+      "European Union Agency for Railways first-party What's New page as crawled 2026-09-25 shows InnoTrans final-day update. Its 'last updated 25 Sep' does not establish independent first-publication time for an exact named paid operating unit, and event participation/strategic commitments do not publish a precise sponsored unfinished external nonlabor task. https://www.era.europa.eu/whats-new",
+      "UK Government Office for Technology Transfer first-party CKAF guidance grants £50k-£250k for eligible public research organisations, current Winter 2026 round open 17 Sep; guidance last updated Sep18 2026, therefore fails >=Sep24 owner-first-post gate. Grant applicants themselves are approved recipients, not a same-unit independently executable outsider paid task. https://www.gov.uk/guidance/get-funding-to-develop-and-exploit-knowledge-assets",
+      "Additional EU cybersecurity Digital4Security course call closes Sep25 12:00 CET but date is deadline, owner first-post date for precise paid operational task unverified; courses are learner applications, not payer-funded nonlabor third-party task. https://digital-skills-jobs.europa.eu/en/latest/news/build-your-cybersecurity-expertise-digital4security-microcredential-courses"
     ],
-    "source_authority": "FIRST_PARTY_PUBLIC_STATUS_NOTICES_ONLY_NO_PRIVATE_DASHBOARDS",
-    "downstream_gates": "UNTESTED_NO_EXACT_OPEN_PAID_UNIT",
+    "source_authority": "FIRST_PARTY_PUBLIC_OWNER_PAGES_ONLY_NO_PRIVATE_INDEXES",
+    "downstream_gates": "UNTESTED_NO_SAME_UNIT_EXACT_OPEN_PAID_NONLABOR_TASK",
     "external_side_effects_performed": false
   },
   "pending_operation": null,
@@ -55,9 +55,10 @@
     "Generation18 owner-source chronology discipline: IRAS free native Sep24 webinar, UK today scheduled statistics and Telford prospective statutory notice index not a new precise currently owner-funded outside-work offer; prior-publication Florida contract deadline today requires qualified physical contractor. No candidate.",
     "Generation19: date-first source-gated independent preflights on paid CRM integration, $10k geospatial fairness prize challenge, named UK school salary opening, Australian harvest labor, and official procurement metadata; each fails new Sep24 first-party owner-published exact unpaid nonlabor open execution or verified same-unit payout. No formation or candidate retained.",
     "Generation20: independently sampled 3 official issuer-authored releases first published Sept24-25 across passenger rail capital restructuring, embodied factory robotics order backlog and energy demonstration projects. All pass new announcement chronology but none supplies a fresh exact still-unfilled named outside payer-funded autonomously routable nonlabor unit; no cross-source joins, no candidate promotion, no project Jev. Supervisory Jev report kept separate.",
-    "Generation21 independent three-domain first-party operational incident/new-notice sample: DAFF import biosecurity maintenance, Cloudflare Workflows/Durable Objects incident, CAF manual-operation incident. All satisfy day/time first-publication cutoffs; none names still-unfilled payer-funded independently executable nonlabor unit. Other same-unit gates stay untested. No project Jev invoked, no artifact, candidate or transaction."
+    "Generation21 independent three-domain first-party operational incident/new-notice sample: DAFF import biosecurity maintenance, Cloudflare Workflows/Durable Objects incident, CAF manual-operation incident. All satisfy day/time first-publication cutoffs; none names still-unfilled payer-funded independently executable nonlabor unit. Other same-unit gates stay untested. No project Jev invoked, no artifact, candidate or transaction.",
+    "Generation22 new sectors date-first checked WHO Sept24 regulatory quality cooperation first-party dated release; EU railway Sept25 page update, UK CKAF Sep18 updated funding window, EU digital-skills course Sep25 deadline. None publishes a same exact named still-open payer-funded nonlabor operational unit. At most WHO first-publication day passes; no downstream joins, candidates or project Jev."
   ],
-  "next_action": "Generation22: independently seek Sep25 (or Sep24+) FIRST-POSTED owner-published EXPLICIT precise live unfilled payer-funded nonlabor operational task in a NEW sector not DAFF/import biosecurity, Cloudflare/cloud outage, CAF fintech outage nor prior gen3-21; verify first-publication timestamp and same exact named payer-funded unfulfilled unit BEFORE rights/settlement work. If both gates pass, test unit-matched preauthorized unaffiliated rights, lawful payee, settled peer receipts, native incomplete state, nonlabor recurrence and net economics; only complete join warrants fresh live-main substantive branch/PR and exact-head CI plus actual project Jev. Else checkpoint next generation in same recovery JSON without zero-candidate PR; preserve #143 OPEN, 0/0, NOT_PROVEN, no external activity.",
+  "next_action": "Generation23: in fresh domains not covered by Scan170 gen3-22, source-first search 2026-09-25 (allow Sept24+) FIRST-PUBLISHED first-party precise currently unfilled named payer-funded nonlabor operating task. Verify actual owner first-post timestamp AND same exact payer-funded unfilled unit before any directory, permission, receipts or economics research; if neither jointly passes, append source-grounded reject and only advance same recovery JSON with 0/0 NOT_PROVEN no candidate PR and #143 OPEN. Only on both PASS conduct same-unit preauthorized outsider rights, lawful payee, actual comparable settled receipt, native incomplete state, reproducibility and net economic join; full join alone justifies fresh live-main Scan170 branch/PR, exact-head CI and actual project TypeSafe/Jev artifact.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -77,7 +78,8 @@
     "Gen16 WordPress tracked scope metadata != owner posted unpatched task; HackerOne severity default is incumbent triage; Spacebring/Office Hub native live sync launched Sep1 and Sept24 webinar date is not new residual; Indonesian PIDI scheduled meetings are already booked and unpaid, no third-party booking/settlement right.",
     "Gen17 event-date vs publication-date: Sora shutdown today was announced March24 with native Sept22 refund/export; SG Sept24 EV poll is unpaid regulator consultation not third-party funded plate replacement; MINDEF 20-valve GeBIZ solicitation published weeks before deadline needs login/award, not an independently callable paid residual; public-indexed accidental vendor dashboard is prohibited unconsented private operational data, never use.",
     "Gen18 event calendar date or older notice last-updated or tender closing date != current owner first-posted Sep24 unfilled transaction; IRAS owner free GST education, UK quarterly aggregate legal aid statistics, and contractor physical lawn care are not separately independently executable no-human paid units. Unauthenticated third-party directory placeholders are not first-party proof.",
-    "Gen19 chronology and ownership: Upwork CRM $4k buyer post Sept5 with Sep24 handover target, Zindi climate mapping $10k prize opened Aug28 and Sept24 talk is only event, West Somerset named teaching salary listed Sept10 and Sep24 closes, Australian NFF Sept24 tertiary report lacks new first-party exact paid owner task, UK CPC digital delivery tender from Aug20/24 closes today; public OCDS API is sensor not autonomous commissioned execution. Do not carry any as candidate absent genuinely new same-unit first-party 2026-09-24+ posted right and settlement."
+    "Gen19 chronology and ownership: Upwork CRM $4k buyer post Sept5 with Sep24 handover target, Zindi climate mapping $10k prize opened Aug28 and Sept24 talk is only event, West Somerset named teaching salary listed Sept10 and Sep24 closes, Australian NFF Sept24 tertiary report lacks new first-party exact paid owner task, UK CPC digital delivery tender from Aug20/24 closes today; public OCDS API is sensor not autonomous commissioned execution. Do not carry any as candidate absent genuinely new same-unit first-party 2026-09-24+ posted right and settlement.",
+    "Generation22 WHO Sep24 WHO-IRCH WG2 regulatory cooperation release has no owner-funded outsider unfilled task; ERA Sep25 updated InnoTrans listing is not precise first-issued paid unit; UK CKAF Sep18 update fails new publication; Digital4Security Sep25 enrollment deadline is not publication nor nonlabor commissioned execution. Reopen only on materially new same-unit first-party paid authorization."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -414,6 +416,51 @@
         "exact_open_paid_unit": "FAIL",
         "native_state": "RESOLVED_2026_09_24_23_16_UTC_BY_OWNER",
         "reason": "No presently unfilled exact externally payable unit; incident resolved."
+      }
+    ],
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "jev_actual_new_invocations": 0,
+    "jev_project_status": "not used",
+    "external_side_effects_performed": false
+  },
+  "gen22_preflight": {
+    "as_of_date": "2026-09-25",
+    "method": "FIRST_PARTY_OWNER_FIRST_POST_2026_09_24_PLUS_AND_SAME_EXACT_NAMED_UNFILLED_PAYER_FUNDED_NONLABOR_OPERATION_BEFORE_DOWNSTREAM_GATES",
+    "source_registry": [
+      {
+        "owner": "WHO IRCH Working Group 2",
+        "url": "https://www.who.int/brunei/news/detail-global/24-09-2026-who-irch-working-group-2-advances-cooperation-on-herbal-medicine-quality-and-standards",
+        "owner_first_post": "2026-09-24 official release day; exact hour unpublished",
+        "chronology": "PASS_DAY_LEVEL",
+        "exact_open_paid_unit": "FAIL",
+        "reason": "New inter-regulator standards cooperation, no named payer-commissioned still-unfilled unaffiliated nonlabor execution unit."
+      },
+      {
+        "owner": "European Union Agency for Railways",
+        "url": "https://www.era.europa.eu/whats-new",
+        "owner_first_post": "UNKNOWN; dynamic page last updated 2026-09-25 event listing",
+        "chronology": "UNKNOWN_NOT_PASS",
+        "exact_open_paid_unit": "FAIL",
+        "reason": "Event-day update is not first post and no named external payer-funded open job."
+      },
+      {
+        "owner": "UK Government Office for Technology Transfer",
+        "url": "https://www.gov.uk/guidance/get-funding-to-develop-and-exploit-knowledge-assets",
+        "owner_first_post": "2022-10-04; last updated 2026-09-18",
+        "chronology": "FAIL",
+        "exact_open_paid_unit": "FAIL",
+        "reason": "Earlier grant round and approval-gated applicant funding, not independent payer-funded operator work."
+      },
+      {
+        "owner": "Digital4Security EU digital-skills call",
+        "url": "https://digital-skills-jobs.europa.eu/en/latest/news/build-your-cybersecurity-expertise-digital4security-microcredential-courses",
+        "owner_first_post": "UNVERIFIED; 2026-09-25 is closing date not owner first post",
+        "chronology": "UNKNOWN_NOT_PASS",
+        "exact_open_paid_unit": "FAIL",
+        "reason": "Course enrollment is not new named sponsor-commissioned unfinished operator task."
       }
     ],
     "retained_formations": [],
