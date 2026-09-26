@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 29,
+  "generation": 30,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN29_MAIB_ARGOS_GEORGIA_NEW_OWNER_REPORT_NOT_EXACT_FUNDED_OPEN_NONLABOR_TASK",
+  "stage": "GEN30_FOOD_RECALL_REVERSE_LOGISTICS_MEZZETTA_OLDER_OWNER_ANNOUNCEMENT_NOT_NEW_PAID_UNFILLED_OUTSIDER_UNIT",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,28 +16,29 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN29_MAIB_SEP25_NEW_INVESTIGATION_REPORT_EXACT_NEW_TASK_ISSUANCE_UNKNOWN_SAME_PAID_OPEN_NONLABOR_UNIT_FAIL",
+    "status": "GEN30_NEW_DOMAIN_OWNER_ANNOUNCEMENT_DATE_PRECEDES_CURRENT_WINDOW_AND_NO_EXACT_UNFILLED_FUNDED_EXTERNAL_NONLABOR_UNIT",
     "evidence": [
       {
-        "url": "https://www.gov.uk/maib-reports/foundering-of-the-fishing-vessel-argos-georgia-with-the-loss-of-13-lives",
-        "first_party_report_publication": "2026-09-25 day-level exact time not listed",
-        "precise_task_first_issuance": "UNKNOWN_NOT_PASS",
-        "same_unit": "FAIL",
-        "classification": "Recommendations are not funded named open outsourced nonlabor tasks; July22 2024 incident date is not new issuance."
+        "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/g-l-mezzetta-inc-announces-recall-mezzetta-brand-golden-greek-peperoncini-medium-heat-due-presence",
+        "company_announcement": "2026-09-23 day-level; exact hour UNKNOWN",
+        "fda_republish": "2026-09-25 day-level",
+        "exact_unit": "Mezzetta 32 oz SKU10106328 Lot720106",
+        "owner_date_gate": "FAIL_CURRENT_WINDOW",
+        "paid_open_unit_gate": "FAIL",
+        "source_limitations": "FDA hosts first-party company statement and dates; did not independently inspect owner domain exact first-post timestamp. No external operational task issuance evidenced."
       }
     ],
     "joint_upstream_gate": "FAIL",
     "downstream_gates": "NOT_INVESTIGATED",
     "new_scan170_branch_pr_ci_artifact": "NONE",
     "jev_project_status": "not used",
-    "historical_scan169_verified_not_new_gen29": {
-      "head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
-      "repository_ci_run": 35951958496,
-      "repository_ci_conclusion": "success",
-      "jev_run": 35951958490,
-      "jev_conclusion": "success",
+    "historical_scan169_not_gen30": {
+      "ci_run_id": 35951958496,
+      "ci_status": "success",
+      "jev_run_id": 35951958490,
+      "jev_status": "success",
       "jev_artifact_id": 10788952868,
-      "jev_artifact_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
+      "jev_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
     }
   },
   "pending_operation": null,
@@ -76,9 +77,10 @@
     "Generation26: independently inspected four first-party new-domain Sep25-26 publications (UK youth services, WHO expanded medical-device prequalification, UK high-street regeneration, UNICEF Yemen nutrition emergency); no source passes exact same-unit newly issued named currently unfinished payer-funded nonlabor operator task; downstream not investigated; no external actions or Scan170 project Jev; verified historical Scan169 exact-head CI/Jev runs and Jev artifact are not Gen26 invocations.",
     "Generation27 independent new NOAA OSPO meteorological satellite product-delivery outage domain, first-party owner notice Sep26 0103Z but underlying Sep25 1712-1733Z disruption was already restored by native on-prem restart; no first-published exact external task or named currently unfilled payer-funded nonlabor transaction. Joint upstream FAIL, downstream NOT_INVESTIGATED, no branch PR external effects or project Jev. Historical Scan169 CI/Jev are not Gen27 calls.",
     "Generation28 bounded new-domain Ofgem electricity grid connection data transparency preflight: first-party new consultation first published 2026-09-25 day-level, but no published EXACT NEW outsourced task or clearly funded named unfilled nonlabor paid operating unit. First exact task issuance UNKNOWN and paid unit FAIL -> joint FAIL; downstream NOT_INVESTIGATED; 0/0 NOT_PROVEN; no external work or project Jev. Historical Scan169 exact-head CI and Jev artifact separately reverified.",
-    "Generation29 MAIB marine accident safety recommendations new domain first-party 2026-09-25 published report verified day-level; July22 2024 vessel incident is historical. Three named recommendations identify recipients but owner has not first-published same exact paid externally open nonlabor operational task or committed named payer. Upstream UNKNOWN/FAIL -> joint FAIL and downstream NOT_INVESTIGATED, 0/0 NOT_PROVEN, no external effects and project Jev not used. History-only Scan169 exact-head successful CI/Jev artifact separately checked."
+    "Generation29 MAIB marine accident safety recommendations new domain first-party 2026-09-25 published report verified day-level; July22 2024 vessel incident is historical. Three named recommendations identify recipients but owner has not first-published same exact paid externally open nonlabor operational task or committed named payer. Upstream UNKNOWN/FAIL -> joint FAIL and downstream NOT_INVESTIGATED, 0/0 NOT_PROVEN, no external effects and project Jev not used. History-only Scan169 exact-head successful CI/Jev artifact separately checked.",
+    "Generation30 single new batch-specific food recall and reverse-logistics domain: FDA officially hosts G. L. Mezzetta owner-origin Sep23 day-level announcement, FDA republishes Sep25. Named 32oz SKU10106328 Lot720106; owner directly coordinating removal/retrieval and does not announce distinct currently unfunded/unfilled public independent paid nonlabor commission. Current-window exact-task first-issuance FAIL, same externally-open payer-funded unit FAIL; downstream NOT_INVESTIGATED. Historical Scan169 exact-head CI/Jev verified but not Gen30. No outreach, project Jev, new branch/PR/CI/artifact."
   ],
-  "next_action": "Generation30: first reconcile fresh live main/AGENTS/TASK/Issue143 plus Scan170 independently scoped recovery generation/blob and all accessible branch/PR/CI/artifact data without modifying other recovery tasks. On current execution date search ONE genuinely new owner-first-party domain not covered Scan170 generations3-29 and independently verify first publication of SAME exact NEW TASK in fresh rolling date window (Sept26 onward; Sept25 only if provably still new/current), separately verify SAME named presently unfilled externally commissionable payer-identified AND ALREADY FUNDED NONLABOR operating unit; do not substitute new report, incident, page update, event/deadline, aggregate funding or recommendation for issuance. UNKNOWN != PASS. If either fails, stop all downstream gates, CAS persist this same cursor only with new first-party evidence, exact issue/candidate 0/0 NOT_PROVEN, project Jev actual use and exactly one next_action; keep Issue143 OPEN, no zero-candidate PR and no external effects. Only both upstream PASS permits exact-unit preauthorized independent right, legal payee, real comparable settled receipt, native outstanding, recurring nonlabor and net economics, then substantive fresh-main Scan170 PR exact-head CI and actual project TypeSafe/Jev artifact.",
+  "next_action": "Generation31: re-read live main, AGENTS, stale TASK_STATE only as context, Issue143, current state/chatgpt-recovery Scan170 generation/blob and actual branch/open PR/exact-head workflows/artifacts. Select ONE genuinely new first-party domain not covered Scan170 generations3-30, use current execution-date rolling window (Sep26 or later; Sep25 only if exact task still genuinely first-issued/current), and require independent owner first-publication proof of THE EXACT NEW TASK and SAME named payer-identified already-funded currently-unfilled externally commissionable NONLABOR operating unit. Page index, event, FDA repost, old company recall, generic program, report, scheduled date or public invitation is not task issuance. UNKNOWN != PASS. If either joint upstream gate fails, do no downstream inquiry, CAS persist only this task's cursor with genuine primary source, precision, both verdicts, 0/0 NOT_PROVEN, project Jev actual use and one next_action; #143 remains OPEN and do not create empty PR. Only if both upstream PASS check SAME-unit prior independent nonaffiliate execution authorization, legal payee, real comparable settled receipt, native outstanding, repeat nonlabor and net economics, then fresh-main substantive branch/PR plus exact-head CI and genuine project TypeSafe/Jev artifact. No external contact, registration, bidding or transaction.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -104,7 +106,8 @@
     "Generation26: UK DCMS Sep26 youth worker employment/announced future Youth Matters grants, WHO Sept25 medical devices programme expansion (prior separate Sept4 RFQ not fresh), UK MHCLG Sept25 GBP210m aggregate regeneration announcement, UNICEF Sept25 Yemen response briefing; do not recast new press day as first exact paid operational issuance without genuinely new task-bound payer/authorization evidence or expose humanitarian beneficiary data.",
     "Generation27 NOAA GOES-18/19 GRB 2026-09-26 0103Z incident notice: Sep25 1712Z outage fixed 1733Z by NOAA native restart; first-party notice index update != first externally payable task issuance. No recheck without new first-party same-unit independently commissionable paid open task.",
     "Generation28 Ofgem 2026-09-25 Transforming Connections Data open policy consultation and updated 2025 review: neither is new owner-issued exact already funded unfinished independently callable nonlabor commercial task. Revisit only if genuinely new exact unit owner-first-issued and same-unit payer/open work evidence.",
-    "Generation29 UK MAIB Sep25 report Argos Georgia accident 19/2026 names MCA, Argos Froyanes, Falklands government recommendations: newly released investigation != first-issued independent paid operations; revisit only upon new first-party same-unit funded still-unfilled external nonlabor task publication."
+    "Generation29 UK MAIB Sep25 report Argos Georgia accident 19/2026 names MCA, Argos Froyanes, Falklands government recommendations: newly released investigation != first-issued independent paid operations; revisit only upon new first-party same-unit funded still-unfilled external nonlabor task publication.",
+    "Generation30 G. L. Mezzetta Sep23 company batch 720106 recall republished Sep25 by FDA: avoid treating regulatory repost as first exact paid task issuance or owner-operated retrieval as independent funded nonlabor task absent genuinely new same-unit owner commission."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -764,5 +767,35 @@
     "supervisory_jev": "not counted as project artifact or business proof",
     "external_side_effects_performed": false,
     "other_task_preservation": "Only Scan170 cursor modified. GitHub fetch_file cannot list recovery/tasks directory; other task state not assumed or overwritten."
+  },
+  "gen30_preflight": {
+    "as_of_date": "2026-09-26",
+    "window": "2026-09-26 rolling first exact owner task issuance; Sept25 only if genuinely new exact commissioned task and still current",
+    "new_domain": "Food-safety batch-specific voluntary recalls and reverse logistics",
+    "method": "ONE_NEW_FIRST_PARTY_OWNER_COMPANY_ANNOUNCEMENT_REPUBLISHED_BY_FDA_DATE_FIRST_TWO_UPSTREAM_GATES_ONLY",
+    "source_registry": [
+      {
+        "owner": "G. L. Mezzetta Inc. (company announcement carried verbatim on FDA official website)",
+        "first_party_url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/g-l-mezzetta-inc-announces-recall-mezzetta-brand-golden-greek-peperoncini-medium-heat-due-presence",
+        "source_role": "FDA republishes company-origin announcement; company announcement is first-party owner text, FDA post date is not owner issuance",
+        "company_announcement_first_publication": "2026-09-23 day-level FDA explicitly identifies company announcement date; company exact hour UNKNOWN",
+        "fda_publish_date": "2026-09-25 day-level FDA hosting date; NOT owner first task publication",
+        "precise_unit": "Mezzetta Greek Peppers 32 oz SKU 10106328 lot 720106",
+        "owner_exact_paid_task_first_publication_gate": "FAIL_CURRENT_WINDOW; published owner company notice Sep23, no separately evidenced Sep25-26 exact new paid nonlabor operating task; recall announcement itself does not commission third parties",
+        "same_exact_named_still_unfilled_payer_funded_externally_open_nonlabor_unit_gate": "FAIL; owner says identified affected customers, works directly with customers to isolate/remove affected product, arranged retrieval/examination, no disclosed outsourced funded independent operating task, legal payee or third-party open commission",
+        "joint_upstream_gate": "FAIL",
+        "reason": "New FDA Sep25 republication not new company first issuance; actual batch-specific owner-led recall is not a new explicitly funded independent open nonlabor outsourcing unit. Owner direct activities do not prove payer-sponsored unfilled third-party business."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "jev_actual_new_invocations": 0,
+    "jev_project_status": "not used",
+    "supervisory_jev": "If invoked by monitor, classification-only and NOT Scan170 project Jev artifact or business evidence",
+    "external_side_effects_performed": false
   }
 }
