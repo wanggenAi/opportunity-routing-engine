@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 26,
+  "generation": 27,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN26_20260925_26_FOUR_NEW_DOMAINS_OWNER_NEW_RELEASE_BUT_SAME_EXACT_NAMED_UNFILLED_PAYER_FUNDED_NONLABOR_UNIT_FAIL",
+  "stage": "GEN27_NOAA_OSPO_GOES18_GOES19_NEW_NOTICE_NOT_NEW_UNFILLED_PAYER_FUNDED_NONLABOR_TASK",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,33 +16,23 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN26_NEW_20260925_26_OWNER_DATED_RELEASES_BUT_EXACT_SAME_NAMED_UNFILLED_PAYER_FUNDED_NONLABOR_TASK_FAIL",
+    "status": "GEN27_NOAA_OSPO_OWNER_ALERT_ISSUANCE_BUT_NO_EXACT_OPEN_PAYER_FUNDED_NONLABOR_TASK",
     "evidence": [
-      "https://www.gov.uk/government/news/1000-new-youth-workers-to-help-reduce-the-risk-of-unemployment | 2026-09-26 day-level owner news release (exact time not independently published) | FAIL | 1000 planned newly trained/appointed youth workers are human employment; GBP450m future Youth Matters Fund applications are not yet open; no named already-commissioned exact presently unfinished payer-funded nonlabor unit in release.",
-      "https://extranet.who.int/prequal/news/who-announces-expansion-prequalification-programme-medical-devices | 2026-09-25 13:00 CEST precise timestamp on WHO first-party programme publication | FAIL | Expanded WHO product prequalification and regulator assessment procedure announce a native eligibility process, not a named payer-issued open unfinished independently payable nonlabor operational task. A separate WHO assessment RFQ was first posted Sept4, not new under this window and is not imported as evidence.",
-      "https://www.gov.uk/government/news/boarded-up-high-streets-brought-back-to-life-with-210m-boost | 2026-09-25 owner government dated press release (exact hour not independently verified) | FAIL | GBP210m aggregate funding allocated across local authorities/communities and programme categories; named building/operator commissioned and still unfilled exact payer-funded nonlabor unit not published.",
-      "https://www.unicef.org/press-releases/hunger-and-malnutrition-stalking-yemens-children-violence-escalates | 2026-09-25 first-party dated representative briefing publication; exact hour not independently published | FAIL | First-party briefing reports active UNICEF-supported mobile response and humanitarian needs, not a new named independently entrusted and funded unfinished nonlabor operational unit; do not treat named individuals or sensitive beneficiary data as commercial leads."
+      {
+        "url": "https://www.ospo.noaa.gov/data/messages/2026/2026-09-include.html",
+        "observation": "NOAA OSPO first-party September archive indexes Sep26 0103Z GOES-18/19 GRB anomaly operational alert",
+        "source_access": "search-index first-party text; direct fetch 403"
+      },
+      {
+        "url": "https://forecast.weather.gov/product.php?format=ci&glossary=1&issuedby=NES&product=ADM&site=HNL&version=2",
+        "observation": "NOAA NWS first-party administrative message records alert issued 2026-09-26 0103Z, event Sep25 1712Z-1733Z, restored via owner on-prem NSB restart, root-cause under investigation",
+        "source_access": "first-party search-result text; direct web fetch disabled"
+      }
     ],
     "joint_upstream_gate": "FAIL",
     "downstream_gates": "NOT_INVESTIGATED",
     "scan170_new_branch_pr_ci_artifact": "NONE",
-    "jev_project_status": "not used",
-    "historical_scan169_exact_head": {
-      "head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
-      "repository_ci": {
-        "run_id": 35951958496,
-        "conclusion": "success",
-        "test_job_id": 107482199241
-      },
-      "project_jev": {
-        "run_id": 35951958490,
-        "conclusion": "success",
-        "artifact_id": 10788952868,
-        "digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
-      },
-      "merged_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
-      "historical_not_generation26_use": true
-    }
+    "jev_project_status": "not used"
   },
   "pending_operation": null,
   "health": {
@@ -77,9 +67,10 @@
     "Generation23 independent date-first first-party USDA AMS Florida citrus referendum, USDA Acer already-awarded maple industry funding, and UK DfE Turing existing placement funding publication. All owner announcements Sept24 pass day-level but no same precise named currently unfilled payer-funded external nonlabor unit. Upstream joint gate fails; no downstream due diligence, no project Jev, no new branch/PR/CI/artifact or external effects.",
     "Generation24 genuinely new EPA contamination-remediation, EPA coastal/mid-Atlantic wetland program, and USGS lake bathymetry first-party source sweep. Three Sep24 day-dated owner communications; no same-unit live unfilled named payer-funded independent nonlabor task: closed UST outcomes+unassigned aggregate pipeline, already allocated wetlands grants, historical 2023 survey/Sept2 map. Both upstream gates never jointly pass; no directories/rights/settlement/provider/economics review. No project Jev invoked. No substantive Scan170 branch/PR/CI/artifact or external transaction.",
     "Generation25 four new first-party domain preflights (UK agricultural statistics, UK parish sports Section106, ESA lunar navigation tender, UK green heat infrastructure grant); owner first publication all predate Sep24 and none provides exact same new named still unfilled payer-funded nonlabor operational unit; no downstream audit, no external contact, no project Jev.",
-    "Generation26: independently inspected four first-party new-domain Sep25-26 publications (UK youth services, WHO expanded medical-device prequalification, UK high-street regeneration, UNICEF Yemen nutrition emergency); no source passes exact same-unit newly issued named currently unfinished payer-funded nonlabor operator task; downstream not investigated; no external actions or Scan170 project Jev; verified historical Scan169 exact-head CI/Jev runs and Jev artifact are not Gen26 invocations."
+    "Generation26: independently inspected four first-party new-domain Sep25-26 publications (UK youth services, WHO expanded medical-device prequalification, UK high-street regeneration, UNICEF Yemen nutrition emergency); no source passes exact same-unit newly issued named currently unfinished payer-funded nonlabor operator task; downstream not investigated; no external actions or Scan170 project Jev; verified historical Scan169 exact-head CI/Jev runs and Jev artifact are not Gen26 invocations.",
+    "Generation27 independent new NOAA OSPO meteorological satellite product-delivery outage domain, first-party owner notice Sep26 0103Z but underlying Sep25 1712-1733Z disruption was already restored by native on-prem restart; no first-published exact external task or named currently unfilled payer-funded nonlabor transaction. Joint upstream FAIL, downstream NOT_INVESTIGATED, no branch PR external effects or project Jev. Historical Scan169 CI/Jev are not Gen27 calls."
   ],
-  "next_action": "Generation27: with live-date refresh (2026-09-26 or later when resumed), search genuinely new first-party domains/sources not in Scan170 generations3-26; require independently verified owner FIRST ISSUANCE in the current rolling Sep25+ window OF THE SAME EXACT named currently unfilled payer-funded nonlabor operational task, plus same-unit payer funding, before ANY directory/authorization/receipt/native-status/economics inquiry. UNKNOWN != PASS. On joint-gate FAIL atomically persist the source evidence to this same recovery JSON with generation and blob SHA CAS, maintain 0 candidates/0 units/NOT_PROVEN/#143 OPEN, no empty PR; only full same-unit independent preauthorization, legal payee, real comparable settled receipt, native outstanding, repeat nonlabor and net economics can justify substantive fresh-main Scan170 PR with exact-head CI and real project TypeSafe/Jev artifact.",
+  "next_action": "Generation28: first re-read live main, issue143, current independent Scan170 recovery generation/blob and active branch/PR/CI. With current date fresh, investigate ONE other genuinely new first-party domain not covered by generations3-27. Independently establish owner FIRST PUBLICATION OF THE EXACT NEW TASK (not incident notice/event/updated index/deadline) within the current Sep26+ owner-task issuance window AND the SAME exact named presently unfilled clearly payer-funded externally commissionable NONLABOR operations unit; UNKNOWN != PASS. If either fails, stop downstream investigation and atomically record first-party source, chronology caveat, same-unit failure, project Jev actual use and single subsequent next_action to this SAME recovery JSON using generation/blob SHA CAS, maintain 0/0 NOT_PROVEN Issue143 OPEN; no empty PR, external contact or privileged data. Only a complete exact-same-unit independently preauthorized execution right, legal payee, real settled comparator, native outstanding, recurrence and net economics justify fresh-main substantive PR, exact-head CI, real project Jev artifact and continuation.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -102,7 +93,8 @@
     "Gen19 chronology and ownership: Upwork CRM $4k buyer post Sept5 with Sep24 handover target, Zindi climate mapping $10k prize opened Aug28 and Sept24 talk is only event, West Somerset named teaching salary listed Sept10 and Sep24 closes, Australian NFF Sept24 tertiary report lacks new first-party exact paid owner task, UK CPC digital delivery tender from Aug20/24 closes today; public OCDS API is sensor not autonomous commissioned execution. Do not carry any as candidate absent genuinely new same-unit first-party 2026-09-24+ posted right and settlement.",
     "Generation22 WHO Sep24 WHO-IRCH WG2 regulatory cooperation release has no owner-funded outsider unfilled task; ERA Sep25 updated InnoTrans listing is not precise first-issued paid unit; UK CKAF Sep18 update fails new publication; Digital4Security Sep25 enrollment deadline is not publication nor nonlabor commissioned execution. Reopen only on materially new same-unit first-party paid authorization.",
     "Generation25: no repeat DEFRA Sep25 SFI release announcement (first Sep23), Wheldrake Sep25 Section106 EOI deadline (first Aug26), ESA Sep25 NovaMoon ITT deadline (ESA opportunities first June23/update Sep10), GHNF Sep25 closing deadline (guidance first 2022/update June10), unless genuinely new owner first-issued exact payable unit evidence.",
-    "Generation26: UK DCMS Sep26 youth worker employment/announced future Youth Matters grants, WHO Sept25 medical devices programme expansion (prior separate Sept4 RFQ not fresh), UK MHCLG Sept25 GBP210m aggregate regeneration announcement, UNICEF Sept25 Yemen response briefing; do not recast new press day as first exact paid operational issuance without genuinely new task-bound payer/authorization evidence or expose humanitarian beneficiary data."
+    "Generation26: UK DCMS Sep26 youth worker employment/announced future Youth Matters grants, WHO Sept25 medical devices programme expansion (prior separate Sept4 RFQ not fresh), UK MHCLG Sept25 GBP210m aggregate regeneration announcement, UNICEF Sept25 Yemen response briefing; do not recast new press day as first exact paid operational issuance without genuinely new task-bound payer/authorization evidence or expose humanitarian beneficiary data.",
+    "Generation27 NOAA GOES-18/19 GRB 2026-09-26 0103Z incident notice: Sep25 1712Z outage fixed 1733Z by NOAA native restart; first-party notice index update != first externally payable task issuance. No recheck without new first-party same-unit independently commissionable paid open task."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -669,6 +661,37 @@
     "first_external_value_flow": "NOT_PROVEN",
     "new_project_jev_invocations": 0,
     "jev_project_status": "not used",
+    "external_side_effects_performed": false
+  },
+  "gen27_preflight": {
+    "as_of_date": "2026-09-26",
+    "new_domain": "NOAA_OSPO_OPERATIONAL_METEOROLOGICAL_SATELLITE_DATA_DISTRIBUTION_ANOMALY",
+    "source_first_method": "SINGLE_NEW_DOMAIN_FIRST_PARTY_DATE_FIRST_EXACT_SAME_TASK_JOINT_UPSTREAM_GATE_ONLY",
+    "source_registry": [
+      {
+        "owner": "NOAA Office of Satellite and Product Operations / NOAA National Weather Service dissemination",
+        "source_url": "https://www.ospo.noaa.gov/data/messages/2026/2026-09-include.html",
+        "corroborating_owner_url": "https://forecast.weather.gov/product.php?format=ci&glossary=1&issuedby=NES&product=ADM&site=HNL&version=2",
+        "notice_topic": "GOES-18, GOES-19 all products/all scenes delivered to GRB alert",
+        "first_party_notice_issued": "2026-09-26 01:03 UTC explicitly printed on NOAA OSPO index and NWS reproduced administrative alert; exact incident first task issuance not evidenced",
+        "observed_incident_initial_impact": "2026-09-25 17:12 UTC",
+        "owner_reported_restoration": "2026-09-25 17:33 UTC via on-prem NSB restart, 21-minute event, root cause under investigation",
+        "source_access_limitation": "NOAA OSPO index shown in first-party search result, page direct open returns 403; NOAA NWS first-party search text independently reproduces timing, direct web open disabled; do not overstate index as exact task first issuance",
+        "owner_first_published_exact_task_gate": "UNKNOWN_NOT_PASS; notice timestamp PASS only for operational alert, not independently issued external work unit",
+        "same_named_currently_unfilled_payer_funded_nonlabor_unit_gate": "FAIL; named satellite/data-feed outage was already restored before alert issued, root-cause investigation is native and lacks a newly commissioned named independent nonlabor payer-funded task",
+        "joint_gate": "FAIL",
+        "reason": "Event publication is not a task issuance; NOAA operational incident was restored before bulletin and neither bulletin identifies an outstanding independently commissionable named payer-funded nonlabor unit."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "jev_actual_new_invocations": 0,
+    "jev_project_status": "not used",
+    "supervisory_jev": "user reports supervisory router invoked; NOT Scan170 project artifact or commercial evidence",
     "external_side_effects_performed": false
   }
 }
