@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 42,
+  "generation": 43,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN42_UK_HYDROGRAPHIC_PUBLICATIONS_WAREHOUSE_FULFILMENT_HISTORICAL_PIPELINE_MAY2025_NOV2025_REVISION_NOT_SEP2026_EXACT_NEW_UNFILLED_FUNDED_UNIT",
+  "stage": "GEN43_USDA_BUSINESS_ESTABLISHMENT_TIME_SERIES_DATA_ORIGINAL_SEP22_REVISION_SEP24_DEADLINE_SEP25_NO_CURRENT_FIRST_ISSUE_OR_SAME_UNIT_FUNDED_OPEN_PROOF",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,18 +16,18 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN42_UK_HYDROGRAPHIC_OFFICE_PUBLICATION_FULFILMENT_2025_HISTORICAL_PIPELINE_NOT_FIRST_ISSUED_SEP2026_EXACT_FUNDED_NONLABOR_UNIT",
+    "status": "GEN43_USDA_COMMERCIAL_BUSINESS_TIME_SERIES_FIRST_ISSUED_SEP22_NOT_CURRENT_OR_CONFIRMED_OPEN_FUNDED",
     "evidence": [
       {
-        "first_party_original_notice": "https://www.find-tender.service.gov.uk/Notice/027710-2025",
-        "first_party_revision": "https://www.find-tender.service.gov.uk/Notice/073027-2025",
-        "first_party_notice_type_reference": "https://www.find-tender.service.gov.uk/Home/NoticeTypes",
-        "original_date": "2025-05-27 12:39 UK local MINUTE_LEVEL, original pipeline 2025/S 000-027710",
-        "revision_date": "2025-11-12 09:40 UK local MINUTE_LEVEL, same OCID 2025/S 000-073027 revised UK1",
-        "project": "UKHO Publications Storage and Fulfilment Services, planned start 2026-09-26, estimated GBP4m ex VAT; both are planning metadata only",
-        "exact_new_task_first_issuance_current_window": "FAIL_CURRENT_WINDOW: original project notice dated 2025 and 2025 revision; no verified new actual UK4 issuance in 2026-09-25/26",
-        "same_exact_open_payer_committed_nonlabor_unit": "UNKNOWN_NOT_PASS: speculative expected £4m contract value, not specific committed open unit, UK1 is pipeline rather than invitation; physical warehouse fulfilment is manual labor",
-        "access_limitation": "Notice HTML/PDF pages deny direct web access (403); only primary indexed notices metadata and official notice type guidance used; cannot make unobserved UK4 or historical award claims."
+        "owner_url": "https://sam.gov/opp/877698c3995f48dfa34d4bb737686f5c/view",
+        "owner": "USDA ARS AFM APD",
+        "notice": "1232SA26Q1524 Core Data Business Establishment Time Series for the United States",
+        "first_original": "2026-09-22 16:32 EDT MINUTE_LEVEL",
+        "updated": "2026-09-24 10:37 EDT MINUTE_LEVEL",
+        "offers_due": "2026-09-25 10:00 EDT MINUTE_LEVEL",
+        "original_task_gate": "FAIL_CURRENT_WINDOW",
+        "present_exact_unit_open_named_payer_committed_nonaligned_nonlabor_gate": "UNKNOWN_NOT_PASS",
+        "source_limit": "SAM.gov official index yielded explicit original/update timestamps; direct JS portal open unavailable, no private data or attachments fetched."
       }
     ],
     "joint_upstream_gate": "FAIL",
@@ -38,12 +38,12 @@
     "first_external_value_flow": "NOT_PROVEN",
     "new_scan170_branch_pr_ci_artifact": "NONE",
     "jev_project_status": "not used",
-    "historical_scan169_separate": {
-      "head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
+    "historical_scan169_only": {
+      "exact_head": "632a535356193ca08e760e37c6e21af1c947b5ba",
       "ci_run": 35951958496,
-      "ci_conclusion": "success",
+      "ci_result": "success",
       "jev_run": 35951958490,
-      "jev_conclusion": "success",
+      "jev_result": "success",
       "jev_artifact": 10788952868,
       "jev_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
     }
@@ -97,9 +97,10 @@
     "Generation39 NEW King’s Lynn & West Norfolk municipal wastewater treatment/pumping-station maintenance and open-protocol telemetry equipment lot tender first-party buyer listing. Specific council procurement listed with deadline 2026-09-25 12 noon, not first issue; original first publication UNKNOWN, no valid Sep26 same exact owner issuance; deadline already past and no separately committed currently unfilled externally open NONLABOR unit/funding evidence (FAIL_NOT_ESTABLISHED). Joint upstream FAIL; all downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN, project Jev not used, no external action/branch/PR/CI/artifact. Historical Scan169 successful CI/Jev/jobs/artifact verified separately.",
     "Generation40 ONE genuinely new US federal GRC FISMA High SaaS nonlabor automation acquisition GG000000-26-00063. First-party SAM.gov ORIGINAL first-issued 2026-09-17 16:22 EDT (MINUTE_LEVEL), UPDATED Sep22 10:34 EDT, quotes due Sep28 11:00 EDT, updated notice Active and named US Commerce payer. Exact fresh first issue in Sep25-26 rolling window FAIL; buyer and open external SaaS procurement evidenced but separately ALREADY committed exact-unit funds UNKNOWN, so second gate UNKNOWN_NOT_PASS. Joint upstream FAIL; stop before all downstream. 0 retained/candidates/transaction units, NOT_PROVEN. No external calls or project Jev, no branch/PR/CI/artifact; historical Scan169 exact-head CI/Jev success separate.",
     "Generation41 new HHS commercial clinical-trial Trialtrove+ information subscription domain, buyer's original SAM.gov Notice FDA-CITELINE-1292051 original Sep23 2026 18:35 EDT MINUTE_LEVEL, response due Sep25 15:00 EDT already passed Sep26, explicit NOTICE OF INTENT TO SOLE SOURCE Citeline. Upstream same exact new owner first issue current window FAIL; independent nonaffiliate current open exact unit FAIL and individually committed funding UNKNOWN. Joint FAIL. Stop downstream NOT_INVESTIGATED; 0 retained/candidates/units NOT_PROVEN. No project Jev, branch/PR/CI/artifact, external contact, transaction, personal data or other task writes; historical Scan169 runs/artifact are separate.",
-    "Generation42 ONE new UK Hydrographic Office nautical publications warehouse/fulfilment logistics domain: indexed owner first-party Find a Tender original UK1 pipeline 2025-05-27 12:39 UK local and revised UK1 same OCID 2025-11-12 09:40; expected £4m estimated 4-year contract start 2026-09-26 is planned start, not exact Sep25/26 new task first issuance or proven already committed funds. Current-window exact owner first issuance FAIL; same named present unfilled committed payer-funded independently externally executable NONLABOR unit UNKNOWN_NOT_PASS (UK1 planning, physical warehouse labor). Joint FAIL, downstream NOT_INVESTIGATED, 0 retained/candidates/units NOT_PROVEN; no new branch/PR/workflow/project Jev or external actions. Direct first-party HTML/PDF access 403, only indexed official metadata used. Historic Scan169 CI/Jev artifact distinct."
+    "Generation42 ONE new UK Hydrographic Office nautical publications warehouse/fulfilment logistics domain: indexed owner first-party Find a Tender original UK1 pipeline 2025-05-27 12:39 UK local and revised UK1 same OCID 2025-11-12 09:40; expected £4m estimated 4-year contract start 2026-09-26 is planned start, not exact Sep25/26 new task first issuance or proven already committed funds. Current-window exact owner first issuance FAIL; same named present unfilled committed payer-funded independently externally executable NONLABOR unit UNKNOWN_NOT_PASS (UK1 planning, physical warehouse labor). Joint FAIL, downstream NOT_INVESTIGATED, 0 retained/candidates/units NOT_PROVEN; no new branch/PR/workflow/project Jev or external actions. Direct first-party HTML/PDF access 403, only indexed official metadata used. Historic Scan169 CI/Jev artifact distinct.",
+    "Generation43 new USDA ARS business establishment time-series commercial data SaaS acquisition SAM.gov buyer notice 1232SA26Q1524. SAM.gov first-party indexed updated notice confirms ORIGINAL 2026-09-22 16:32 EDT minute-level, UPDATE 2026-09-24 10:37 EDT, offers DUE Sep25 10:00 EDT. First exact owner original issuance required 2026-09-25/26 FAIL. Same exact present open nonaffiliate nonlabor unit plus buyer committed ring-fenced funds UNKNOWN_NOT_PASS (expired submission deadline, Active index not actual current bid opening nor purchase commitment). Joint upstream FAIL and immediate downstream NOT_INVESTIGATED. Broad but bounded official search found no verifiable both-gates-positive in this generation; does not imply universe-wide absence. 0 retained/candidates/transactions, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN. Project Jev not used; no branch, PR, workflow or external side effects. Historical Scan169 CI/Jev artifact separately examined, not Gen43."
   ],
-  "next_action": "Generation43: independently reread live main AGENTS and stale TASK_STATE as context, Issue143, ONLY Scan170 dedicated state/chatgpt-recovery generation/blob and relevant branches/open PR/exact-head CI/Actions/jobs/artifacts. Select ONE genuinely new previously unexamined first-party original buyer/owner domain outside generations3-42. On execution-date rolling window require verified first OWNER ISSUANCE of SAME EXACT NEW operating task, distinguish published date from revision, search index, pipeline expected contract start, planned value, deadline, prior award and general press. Independently prove SAME specific named presently UNFILLED OPEN to nonaffiliate independent outside NONLABOR operations, identified specific payer and source-grounded ALREADY COMMITTED unit funding; estimated multi-year procurement pipeline value is not dedicated funding. If either upstream FAIL/UNKNOWN stop downstream immediately, CAS update ONLY own Scan170 cursor with primary URL/time precision/dual gate verdicts/0 retained/candidates/units NOT_PROVEN, real project Jev count and ONE next_action. Keep #143 OPEN; no empty PR, workflow, external contact, registration, bid, payment, signature, trade or restricted data. Only when both gates pass on same unit hand off subsequent authorized action-right, legal payee, real comparable settled receipt, native unfilled state, repeatability and net economic checks without unsolicited code or external execution.",
+  "next_action": "Generation44: reread latest live main AGENTS.md TASK_STATE (stale only), Issue143 and ONLY Scan170 dedicated recovery generation/blob plus current branches/open PR/exact-head Actions/jobs/artifacts, respecting ATTRACTION_FIELD_V1 epoch and full generations3-43 exclusions. On actual next execution date's strict rolling window, screen one genuinely NEW owner/buyer first-party ORIGINAL named specific operating-task domain. Verify SAME exact task owner FIRST ISSUANCE date explicitly, distinguishing page index, update, offer deadline, estimated start and historical framework. Independently prove SAME named task is STILL UNFILLED/open to unaffiliated independent external NONLABOR operator AND identifies payer with first-party committed exact-unit funds, not aggregate or forecast value, sole-source or Active tag. If either upstream gate FAIL or UNKNOWN stop all same-source downstream authorization/legal payee/settled receipts/native gap/recurrence/net economics; do not loosen window even on weekends. Do generation+fresh-blob CAS update ONLY Scan170 own cursor with actual owner URL, dated evidence precision, gate verdicts, retained/candidates/units 0/0/0, NOT_PROVEN, actual project Jev use and ONE next action; keep #143 OPEN, no empty PR, workflows or outside actions. If both upstream PASS, preserve exact same-unit evidence and carry authorized later downstream checks without contact, bid, register, payment, contracts, private data or unsolicited code change.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -138,7 +139,8 @@
     "Generation39 Council of King's Lynn & West Norfolk first-party Sewage Treatment Plants Maintenance and Replacement of Telemetry Units tender: Sep25 2026 12 noon is bid DEADLINE, not original tender issue; Sep26 execution after deadline, 2 lots for labor maintenance and equipment replacement, no source-grounded still-open separately funded independent NONLABOR operating unit; do not promote or recheck absent wholly new first-party specific procurement issuance.",
     "Generation40 Department of Commerce SSPO GRC FISMA High SaaS GG000000-26-00063: genuine active first-party buyer SaaS tender, but SAM.gov ORIGINAL Sep17 2026 16:22 EDT, amended Sep22 10:34, Sep28 offers due. Active status/upcoming deadline does not imply first issuance Sep25-26 or independently confirmed ring-fenced funds. Never reclassify amendment as new task.",
     "Generation41 HHS original Sep23 18:35 EDT Citeline Trialtrove+ sole-source SAM.gov FDA-CITELINE-1292051, responses Sep25 15:00 EDT: do not treat Sep26 portal crawl, Active label, future inactive date or sole-source notice as fresh task openly available to independent nonaffiliates or payer-committed separate operating unit.",
-    "Generation42 UK Hydrographic Office Publications Storage and Fulfilment Services Find a Tender OCID ocds-h6vhtk-0526f0: original UK1 PIPELINE May27 2025 12:39 UK local, revision Nov12 2025 09:40, GBP4m ESTIMATED, planned 2026-09-26 start not new task. Do not infer new September 2026 first issuance, exact committed funds, still-unfilled nonlabor external operational unit or a UK4 tender without new primary evidence."
+    "Generation42 UK Hydrographic Office Publications Storage and Fulfilment Services Find a Tender OCID ocds-h6vhtk-0526f0: original UK1 PIPELINE May27 2025 12:39 UK local, revision Nov12 2025 09:40, GBP4m ESTIMATED, planned 2026-09-26 start not new task. Do not infer new September 2026 first issuance, exact committed funds, still-unfilled nonlabor external operational unit or a UK4 tender without new primary evidence.",
+    "Generation43 USDA ARS SAM.gov 1232SA26Q1524 Core Data Business Establishment Time Series (commercial data/SaaS): buyer ORIGINAL Sep22 2026 16:32 EDT, UPDATED Sep24 10:37 EDT, quotes DUE Sep25 10:00 EDT. Neither revision nor deadline is first issuance Sep25/26; SAM Active and aggregate federal acquisition rationale do not prove current externally open funded specific nonlabor unit."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -1197,5 +1199,42 @@
     "project_jev_actual_invocations": 0,
     "jev_project_status": "not used",
     "external_side_effects_performed": false
+  },
+  "gen43_preflight": {
+    "execution_date": "2026-09-26",
+    "required_rolling_window": "Same exact new buyer first issuance 2026-09-26, or 2026-09-25 only if buyer first issued then and first-party same task currently open; 2026-09-24 revision and 2026-09-25 bid due cannot count",
+    "scope": "One previously unexamined new buyer-first-party domain; additionally bounded discovery screened 2026-09-25/26 official US SAM.gov and UK Find a Tender first-publication search without inferring that no other opportunities exist",
+    "new_domain": "US federal purchase of commercial business establishment time-series databases and information as SaaS",
+    "owner_first_party_sources": [
+      {
+        "url": "https://sam.gov/opp/877698c3995f48dfa34d4bb737686f5c/view",
+        "buyer": "US Department of Agriculture, Agricultural Research Service (USDA ARS AFM APD)",
+        "notice_id": "1232SA26Q1524",
+        "exact_task": "Core Data Business Establishment Time Series for the United States",
+        "original_first_issued": "2026-09-22 16:32 EDT, MINUTE_LEVEL, SAM.gov Combined Synopsis/Solicitation (Updated) listing expressly shows Original Published Date",
+        "revised_publication": "2026-09-24 10:37 EDT, MINUTE_LEVEL, same notice Updated Published Date",
+        "buyer_submission_deadline": "2026-09-25 10:00 EDT, MINUTE_LEVEL, Original and Updated Date Offers Due; deadline is not first issued",
+        "sam_portal_status": "Active label at observation is not evidence the same tender remains actionable after cutoff",
+        "evidence_access_limits": "Original first-party SAM.gov indexed publicly visible listing was reviewed. Direct dynamic SAM.gov page fetch unavailable (DisabledError), no claims from unread attachments or nonpublic bid system.",
+        "first_owner_publication_same_exact_new_task_gate": "FAIL_CURRENT_WINDOW. Precisely identified original buyer-issued task Sep22, revision Sep24, cutoff Sep25, no original first-issued same exact task Sep25/26.",
+        "same_named_still_unfilled_external_nonaffiliate_nonlabor_already_payer_funded_gate": "UNKNOWN_NOT_PASS. SaaS/data procurement is nonlabor-like and named USDA buyer; however public record shows response deadline before Sep26, and no first-party verified same-unit reopening, present unfilled independent outside task authorization or committed ring-fenced funding/purchase order. Active listing alone cannot establish.",
+        "joint_gate": "FAIL",
+        "stop_reason": "First-time issuance Sep22 is outside current strict window; amended record and due date are different lifecycle events. Independent current availability and exact funding absent."
+      }
+    ],
+    "gates": {
+      "first_original_issuance": "FAIL_CURRENT_WINDOW",
+      "same_unit_current_open_specific_committed_funds": "UNKNOWN_NOT_PASS",
+      "joint": "FAIL"
+    },
+    "downstream": "NOT_INVESTIGATED",
+    "retained": 0,
+    "candidates": 0,
+    "transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "real_project_jev_calls": 0,
+    "jev_project_status": "not used",
+    "monitor_jev_not_project": true,
+    "external_side_effects": false
   }
 }
