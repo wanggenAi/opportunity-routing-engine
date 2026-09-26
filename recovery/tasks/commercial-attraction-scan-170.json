@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 45,
+  "generation": 46,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN45_DHS_ICE_AI_DATA_TECH_STRATEGY_FIRST_ISSUED_SEP25_RFI_ONLY_NOT_FUNDED_UNFILLED_EXTERNAL_NONLABOR_ORDER",
+  "stage": "GEN46_US_NAVY_SHIPBOARD_VOLTAGE_CONTROLLER_REPAIR_SEP25_ORIGINAL_CURRENT_QUOTES_OPEN_BUT_PHYSICAL_REPAIR_NOT_NONLABOR_EXACT_FUNDS_UNKNOWN",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,19 +16,19 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN45_ICE_SEP25_ORIGINAL_RFI_CHRONOLOGY_PASS_EXACT_PAID_TASK_UNKNOWN_SAME_COMMITTED_NONLABOR_UNIT_FAIL",
+    "status": "GEN46_NAVSUP_VOLTAGE_CONTROLLER_PHY_REPAIR_SEP25_ORIGINAL_BEFORE_ACTUAL_SEP27_WINDOW_NONLABOR_FAIL_FUNDING_UNVERIFIED",
     "evidence": [
       {
-        "owner_url": "https://sam.gov/opp/1d49244e7dbc44fc9ee14f4b22cc9f0d/view",
-        "named_owner": "DHS ICE OCIO",
-        "notice": "RFI-ICE_ADTS_Sep2026",
-        "original_issue": "2026-09-25 14:59 EDT MINUTE_LEVEL sources sought original",
-        "response_due": "2026-10-16 10:00 EDT MINUTE_LEVEL not funding/contract date",
-        "first_date_chronology": "PASS",
-        "first_owner_exact_paid_task_issuance": "UNKNOWN_NOT_PASS: RFI is industry market research, not commissioned nonlabor order",
-        "same_current_unfilled_external_nonlabor_payer_funds": "FAIL: no funded awarded/committed independent operations unit in owner RFI",
-        "joint_upstream": "FAIL",
-        "source_limit": "First-party SAM.gov indexed original listing and source text, direct dynamic HTML rendered empty; no attachment/private portal review."
+        "official_primary_url": "https://sam.gov/opp/11528e50ca0f4740aeb4e674575a3301/view",
+        "owner": "NAVSUP WSS Mechanicsburg US Navy",
+        "notice_id": "N0010426QYAD8",
+        "original_first_issuance": "2026-09-25 04:34 EDT MINUTE_LEVEL / Sep25 16:34 Asia/Shanghai",
+        "offers_due": "2026-10-26 16:30 EDT MINUTE_LEVEL (deadline, not issuance)",
+        "task": "Repair/modification of electrical logic controller (physical repair) with inspection/warranty requirements",
+        "gate1": "FAIL_ACTUAL_SEP27_WINDOW; would match older user Sep26 historical-date component ONLY",
+        "gate2": "FAIL_NONLABOR, funding UNKNOWN; no distinct buyer-funded independently external nonlabor operator unit",
+        "joint": "FAIL",
+        "access_limitation": "First-party public SAM.gov indexed original and history; dynamic URL fetch disabled, no attachments read."
       }
     ],
     "joint_upstream_gate": "FAIL",
@@ -39,15 +39,14 @@
     "first_external_value_flow": "NOT_PROVEN",
     "new_scan170_branch_pr_ci_artifact": "NONE",
     "jev_project_status": "not used",
-    "historical_scan169_not_gen45": {
+    "historical_scan169_not_gen46": {
       "exact_head": "632a535356193ca08e760e37c6e21af1c947b5ba",
       "ci_run": 35951958496,
-      "ci_job": 107482199241,
       "ci_conclusion": "success",
       "jev_run": 35951958490,
       "jev_conclusion": "success",
-      "jev_artifact": 10788952868,
-      "jev_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
+      "jev_artifact_id": 10788952868,
+      "jev_artifact_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
     }
   },
   "pending_operation": null,
@@ -102,9 +101,10 @@
     "Generation42 ONE new UK Hydrographic Office nautical publications warehouse/fulfilment logistics domain: indexed owner first-party Find a Tender original UK1 pipeline 2025-05-27 12:39 UK local and revised UK1 same OCID 2025-11-12 09:40; expected £4m estimated 4-year contract start 2026-09-26 is planned start, not exact Sep25/26 new task first issuance or proven already committed funds. Current-window exact owner first issuance FAIL; same named present unfilled committed payer-funded independently externally executable NONLABOR unit UNKNOWN_NOT_PASS (UK1 planning, physical warehouse labor). Joint FAIL, downstream NOT_INVESTIGATED, 0 retained/candidates/units NOT_PROVEN; no new branch/PR/workflow/project Jev or external actions. Direct first-party HTML/PDF access 403, only indexed official metadata used. Historic Scan169 CI/Jev artifact distinct.",
     "Generation43 new USDA ARS business establishment time-series commercial data SaaS acquisition SAM.gov buyer notice 1232SA26Q1524. SAM.gov first-party indexed updated notice confirms ORIGINAL 2026-09-22 16:32 EDT minute-level, UPDATE 2026-09-24 10:37 EDT, offers DUE Sep25 10:00 EDT. First exact owner original issuance required 2026-09-25/26 FAIL. Same exact present open nonaffiliate nonlabor unit plus buyer committed ring-fenced funds UNKNOWN_NOT_PASS (expired submission deadline, Active index not actual current bid opening nor purchase commitment). Joint upstream FAIL and immediate downstream NOT_INVESTIGATED. Broad but bounded official search found no verifiable both-gates-positive in this generation; does not imply universe-wide absence. 0 retained/candidates/transactions, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN. Project Jev not used; no branch, PR, workflow or external side effects. Historical Scan169 CI/Jev artifact separately examined, not Gen43.",
     "Generation44 NASA IT Procurement enterprise IBM hardware support renewal new standalone domain: primary SAM.gov RFQ 80TECH26QA121 original Sep23 2026 10:07 EDT, updated Sep24 09:11 EDT, bids due Sep25 13:00 EDT. Sep25/26 new original issue FAIL, same exact current open independent nonaffiliate external NONLABOR operating unit and committed ring-fenced funds UNKNOWN_NOT_PASS (Active beyond offers-due does not suffice). Joint FAIL, all downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0 NOT_PROVEN; actual project Jev not used, no branch/PR/CI/artifact or external side effects. Search additionally bounded official procurement results; no claim entire market exhausted. Historical Scan169 CI/Jev artifact not Gen44.",
-    "Generation45 ONE unexamined US DHS ICE OCIO enterprise AI/data and tech-architecture vendor-market-research domain: SAM.gov RFI-ICE_ADTS_Sep2026 buyer original 2026-09-25 14:59 EDT MINUTE_LEVEL and response deadline Oct16 10:00 EDT. Notice's original issue date within user Sep25/26 window PASS AS NOTICE ONLY, but no buyer-first-issued EXACT PAID independent nonlabor operating task from RFI UNKNOWN_NOT_PASS; current same named unfilled independently open committed payer-funded nonlabor order FAIL (explicit informational market research, no commitment). Joint upstream FAIL; hard stop downstream NOT_INVESTIGATED, 0 retained/candidates/units NOT_PROVEN. Actual project Jev not used; no new branch/PR/CI/artifact or external action. Historical Scan169 workflows/artifact verified independently, never counted as Gen45."
+    "Generation45 ONE unexamined US DHS ICE OCIO enterprise AI/data and tech-architecture vendor-market-research domain: SAM.gov RFI-ICE_ADTS_Sep2026 buyer original 2026-09-25 14:59 EDT MINUTE_LEVEL and response deadline Oct16 10:00 EDT. Notice's original issue date within user Sep25/26 window PASS AS NOTICE ONLY, but no buyer-first-issued EXACT PAID independent nonlabor operating task from RFI UNKNOWN_NOT_PASS; current same named unfilled independently open committed payer-funded nonlabor order FAIL (explicit informational market research, no commitment). Joint upstream FAIL; hard stop downstream NOT_INVESTIGATED, 0 retained/candidates/units NOT_PROVEN. Actual project Jev not used; no new branch/PR/CI/artifact or external action. Historical Scan169 workflows/artifact verified independently, never counted as Gen45.",
+    "Generation46 one new US Navy NAVSUP shipboard electrical logic voltage controller physical repair solicitation  N0010426QYAD8. First party SAM.gov original 2026-09-25 04:34 EDT / Sep25 16:34 Shanghai MINUTE_LEVEL, offers due Oct26 16:30 EDT. Actual local execution date 2026-09-27: strict Sep26/27 original first paid task FAIL. Older user Sep26 historical-as-of alternate would admit date Sep25 if still open but the SAME item is human/physical component REPAIR (NONLABOR FAIL) and explicit already-committed exact-unit purchasing funds UNKNOWN. Joint upstream FAIL, downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN. Not a market-wide absence claim; no branch, PR, CI, project Jev, external contact, registration, bid, transaction or another task cursor mutation. Historical Scan169 successful CI/Jev artifact queried but NOT current project Jev."
   ],
-  "next_action": "Generation46: independently refresh live main, AGENTS.md current ATTRACTION_FIELD_V1 epoch, TASK_STATE.md stale as context, Issue143, ONLY Scan170 own recovery cursor generation/blob and applicable branches/open PR/exact-head CI/Actions/jobs/artifacts. Use actual next execution day strict rolling window (document zone and as-of; never upgrade previous-day market research into a paid order). Investigate ONE wholly fresh, unexamined owner-first-party sector beyond generations3–45. Two upstream gates for SAME EXACT named task: owner FIRST ISSUANCE of an actual PAID independently callable operating task during strict window (not merely newly issued RFI, updated listing, inquiry response deadline, policy release or future tender); independent owner proof of SAME still UNFILLED presently open outside nonaffiliate NONLABOR unit with identified specific payer and ALREADY COMMITTED exact-unit funds/use-ready purchase obligation, not RFI, sole-source, generic appropriation or estimated contract. If either FAIL/UNKNOWN stop ALL same-unit downstream authorization/legal payee/real settled receipts/native outstanding/repetition/net economics; CAS update only Scan170 cursor with primary URLs and real date precision/gate verdicts/0 retained,candidates,units NOT_PROVEN/project Jev actual use and exactly one subsequent next_action. #143 remains OPEN; no new project branch/PR/workflow or external contact, registration, bids, payment, contract, restricted data or expanded rights. Only if both gates PASS preserve exact proof and hand off authorized later downstream checks.",
+  "next_action": "Generation47: independently reread live main AGENTS.md ATTRACTION_FIELD_V1, stale TASK_STATE for context, Issue143, only Scan170 dedicated state/chatgpt-recovery cursor generation/blob and relevant branches/open PR/exact-head CI/Actions/jobs/artifacts. Compute actual local execution-date strict rolling window with timezone and date precision; do not copy old Sep26 as-of if actual day Sep27+. Investigate ONE entirely new first-party ORIGINAL buyer/owner specific PAID operating task domain outside all generations3-46, ideally a named nonlabor digital/coordination unit rather than known physical-labor tender or RFI. Only PASS issuance when same EXACT task was originally issued inside true rolling window; distinguish historical first notice, revision, index/crawl, deadline, estimated date and award. Independently first-party verify SAME exact unit presently still unfilled, expressly open to nonaffiliate independent external NONLABOR execution, identified specific payer and ALREADY committed exact-unit funds/use-ready purchase obligation; public active solicitation or indicative ceiling alone not money earmarked for same work. On either upstream FAIL/UNKNOWN STOP same-source downstream authorization/legal payee/settled receipt/native open/repetition/net economics, CAS ONLY Scan170 cursor at live generation/blob preserving 0/0/0 NOT_PROVEN and real project Jev usage with exactly one next_action; Issue143 OPEN and no branch, PR, workflow, external contact, bid, signup, transaction, restricted private data or expanded access. If both pass on same unit, only persist verified proof and defer all downstream work to authorized next task.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -146,7 +146,8 @@
     "Generation42 UK Hydrographic Office Publications Storage and Fulfilment Services Find a Tender OCID ocds-h6vhtk-0526f0: original UK1 PIPELINE May27 2025 12:39 UK local, revision Nov12 2025 09:40, GBP4m ESTIMATED, planned 2026-09-26 start not new task. Do not infer new September 2026 first issuance, exact committed funds, still-unfilled nonlabor external operational unit or a UK4 tender without new primary evidence.",
     "Generation43 USDA ARS SAM.gov 1232SA26Q1524 Core Data Business Establishment Time Series (commercial data/SaaS): buyer ORIGINAL Sep22 2026 16:32 EDT, UPDATED Sep24 10:37 EDT, quotes DUE Sep25 10:00 EDT. Neither revision nor deadline is first issuance Sep25/26; SAM Active and aggregate federal acquisition rationale do not prove current externally open funded specific nonlabor unit.",
     "Gen44 NASA IBM Hardware Maintenance and Support Renewal SAM.gov 80TECH26QA121: original Sep23 2026 10:07 EDT, Sep24 09:11 amendment, Sep25 13:00 EDT offers due. Do not interpret procurement-index date, Active or old IBM equipment support renewal as new Sep25/26 independently open funded NONLABOR unit.",
-    "Gen45 DHS ICE OCIO enterprise AI/data/tech strategy RFI-ICE_ADTS_Sep2026 SAM.gov Sep25 2026 14:59 EDT genuine original first-party RFI: information collection not exact first-issued funded externally open NONLABOR work. Do not treat Oct16 response deadline, optional demos or subsequent RFI responses as paid task unless wholly new independently evidenced owner first issued funded precise operating commission."
+    "Gen45 DHS ICE OCIO enterprise AI/data/tech strategy RFI-ICE_ADTS_Sep2026 SAM.gov Sep25 2026 14:59 EDT genuine original first-party RFI: information collection not exact first-issued funded externally open NONLABOR work. Do not treat Oct16 response deadline, optional demos or subsequent RFI responses as paid task unless wholly new independently evidenced owner first issued funded precise operating commission.",
+    "Gen46 US NAVSUP WSS Mechanicsburg N0010426QYAD8 repair/modification of electrical controller: SAM.gov owner ORIGINAL Sep25 2026 04:34 EDT, offers due Oct26 16:30 EDT; physical human equipment repair not independently callable NONLABOR operating unit; no ring-fenced committed exact unit funding verified. Do not recast future bid deadline or current Active tag as first issuance or standalone third-party operating right."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -1314,6 +1315,41 @@
     "project_jev_actual_invocations": 0,
     "jev_project_status": "not used",
     "supervisor_jev_count_as_project": false,
+    "external_side_effects": false
+  },
+  "gen46_preflight": {
+    "execution_local_date": "2026-09-27 Asia/Shanghai (system current actual date; user wrote Sep26 based on earlier local timestamp)",
+    "strict_rolling_window": "Sep27 exact newly issued owner PAID task, OR Sep26 owner original and first-party proves same task currently open. Expanded-looking Sep25 source screened as user-requested Sep26 historical-as-of but NOT admitted into actual Sep27 strict window unless an independently verifiable Sep26 new exact original buyer task emerges.",
+    "temporal_non_equivalence": "US Sep25 04:34 EDT is Sep25 16:34 Asia/Shanghai and falls OUTSIDE the actual Sep26/27 first-issuance window. Even if user historical Sep26-window Sep25/26 were applied, second gate still categorically FAIL due physical repair and no committed funding proof.",
+    "new_domain": "US Navy NAVSUP electrical control equipment voltage-controller shipboard component physical repair/refurbishment and modification tender",
+    "bounded_source": "ONE originally dated first-party SAM.gov exact owner solicitation, official public indexed notice only; separate broad source-finding search did not establish any dual-gate-positive in window and is not claimed exhaustive",
+    "primary_first_party_source": [
+      {
+        "official_url": "https://sam.gov/opp/11528e50ca0f4740aeb4e674575a3301/view",
+        "owner_buyer": "US Department of Defense, Department of the Navy, Naval Supply Systems Command NAVSUP WSS Mechanicsburg",
+        "notice_id": "N0010426QYAD8",
+        "notice_title": "61--CONTROLLER,LOGIC, IN REPAIR/MODIFICATION OF",
+        "owner_first_original_notice_date": "2026-09-25 04:34 EDT MINUTE_LEVEL; 2026-09-25 16:34 Asia/Shanghai, SAM.gov Solicitation (Original) and History",
+        "owner_offer_deadline": "2026-10-26 16:30 EDT MINUTE_LEVEL published original due date, NOT first issuance",
+        "posting_nature": "Actual owner-issued RFQ for repair/modification of specified electrical control repair item, solicitation includes physical repair quality and warranty clauses; general vendor bid window is not an independently callable no-human operating mandate",
+        "original_issue_gate": "FAIL_ACTUAL_WINDOW: original Sep25 EDT/Sep25 Shanghai, before strict Sep26-27 actual execution window. Under user's earlier historical Sep26-as-of alternative the notice-date part would meet Sep25 while still open, but physical task would fail gate2; never silently loosen latest cursor actual-date instruction.",
+        "same_exact_still_unfilled_open_independent_nonaligned_nonlabor_committed_funding_gate": "FAIL_NONLABOR + UNKNOWN_EXACT_FUNDS: buyer posted Sep25 original with Oct26 bid deadline indicating formal opportunity to submit to buyer. But required delivery is physical item REPAIR/MODIFICATION and subject to technical inspection/warranty and supplier bidding, not a separately published external independently executable NONLABOR operator unit. The first-party public index shows no verified committed, ring-fenced exact-unit payer funds/use-ready purchase commitment; a solicitation is not a funded signed purchase order.",
+        "joint_upstream_gate": "FAIL",
+        "stop_reason": "Actual original date out of Sep27 window; independently, exact-task labor-intensive repair is not NONLABOR and dedicated committed funds not first-party established. Buyer inviting bids is not an authorization or financial commitment to unaffiliated intermediary.",
+        "source_access_limitation": "First-party SAM.gov search-index notice body and history supplied original/due/description. Direct dynamic HTML fetch disabled; no attachments, controlled data, bids, procurement account or private fields were accessed."
+      }
+    ],
+    "gate1_owner_first_issued_same_exact_new_operating_task": "FAIL_ACTUAL_EXECUTION_WINDOW (Sep25 first original cannot meet Sep26/27)",
+    "gate2_same_specific_currently_unfilled_open_independent_nonaffiliate_NONLABOR_payer_committed": "FAIL_NONLABOR; UNKNOWN_COMMITTED_EXACT_UNIT_FUNDS",
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": 0,
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "project_jev_actual_calls": 0,
+    "jev_project_status": "not used",
+    "monitor_jev_status": "not counted",
     "external_side_effects": false
   }
 }
