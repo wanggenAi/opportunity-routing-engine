@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 25,
+  "generation": 26,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN25_NEW_UK_AGRI_UK_LOCAL_SPORTS_ESA_NAVIGATION_UK_HEAT_NO_NEW_SAME_EXACT_PAYER_FUNDED_NONLABOR_UNIT",
+  "stage": "GEN26_20260925_26_FOUR_NEW_DOMAINS_OWNER_NEW_RELEASE_BUT_SAME_EXACT_NAMED_UNFILLED_PAYER_FUNDED_NONLABOR_UNIT_FAIL",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,16 +16,33 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN25_OWNER_FIRST_POST_CHRONOLOGY_AND_EXACT_OPEN_PAYER_FUNDED_UNIT_JOINT_GATE_FAIL",
+    "status": "GEN26_NEW_20260925_26_OWNER_DATED_RELEASES_BUT_EXACT_SAME_NAMED_UNFILLED_PAYER_FUNDED_NONLABOR_TASK_FAIL",
     "evidence": [
-      "https://www.gov.uk/government/statistics/announcements/sfi-uptake-september-2026-window-2 | FAIL_NEW_FIRST_POST | SFI statistics count agreements following completed application window, not a newly issued named payable unfilled nonlabor task; Sep25 is scheduled statistics release.",
-      "https://wheldrake-pc.gov.uk/news/section-106-sports-contribution-expressions-of-interest/ | FAIL | Sep25 is response deadline. GBP92006.22 S106 sports funding is general EOI subject to nomination, York Council review and grant agreement; no already commissioned named presently unfilled independently executable nonlabor task.",
-      "https://www.esa.int/Applications/Satellite_navigation/Open_opportunities_with_ESA_Navigation | FAIL | Sep25 NovaMoon ITT closing date is not owner first task publication; competitive tender and eligibility gates are not preauthorized independent operator unit.",
-      "https://www.gov.uk/government/publications/green-heat-network-fund-ghnf-guidance-on-how-to-apply | FAIL | Sep25 GHNF Round12 closing date; capital grant application by organizations for project funding, no newly owner-issued exact named currently still-open independent nonlabor operating task."
+      "https://www.gov.uk/government/news/1000-new-youth-workers-to-help-reduce-the-risk-of-unemployment | 2026-09-26 day-level owner news release (exact time not independently published) | FAIL | 1000 planned newly trained/appointed youth workers are human employment; GBP450m future Youth Matters Fund applications are not yet open; no named already-commissioned exact presently unfinished payer-funded nonlabor unit in release.",
+      "https://extranet.who.int/prequal/news/who-announces-expansion-prequalification-programme-medical-devices | 2026-09-25 13:00 CEST precise timestamp on WHO first-party programme publication | FAIL | Expanded WHO product prequalification and regulator assessment procedure announce a native eligibility process, not a named payer-issued open unfinished independently payable nonlabor operational task. A separate WHO assessment RFQ was first posted Sept4, not new under this window and is not imported as evidence.",
+      "https://www.gov.uk/government/news/boarded-up-high-streets-brought-back-to-life-with-210m-boost | 2026-09-25 owner government dated press release (exact hour not independently verified) | FAIL | GBP210m aggregate funding allocated across local authorities/communities and programme categories; named building/operator commissioned and still unfilled exact payer-funded nonlabor unit not published.",
+      "https://www.unicef.org/press-releases/hunger-and-malnutrition-stalking-yemens-children-violence-escalates | 2026-09-25 first-party dated representative briefing publication; exact hour not independently published | FAIL | First-party briefing reports active UNICEF-supported mobile response and humanitarian needs, not a new named independently entrusted and funded unfinished nonlabor operational unit; do not treat named individuals or sensitive beneficiary data as commercial leads."
     ],
     "joint_upstream_gate": "FAIL",
-    "new_scan170_branch_pr_ci_artifact": "NONE",
-    "jev_project_status": "not used"
+    "downstream_gates": "NOT_INVESTIGATED",
+    "scan170_new_branch_pr_ci_artifact": "NONE",
+    "jev_project_status": "not used",
+    "historical_scan169_exact_head": {
+      "head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
+      "repository_ci": {
+        "run_id": 35951958496,
+        "conclusion": "success",
+        "test_job_id": 107482199241
+      },
+      "project_jev": {
+        "run_id": 35951958490,
+        "conclusion": "success",
+        "artifact_id": 10788952868,
+        "digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
+      },
+      "merged_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
+      "historical_not_generation26_use": true
+    }
   },
   "pending_operation": null,
   "health": {
@@ -59,9 +76,10 @@
     "Generation22 new sectors date-first checked WHO Sept24 regulatory quality cooperation first-party dated release; EU railway Sept25 page update, UK CKAF Sep18 updated funding window, EU digital-skills course Sep25 deadline. None publishes a same exact named still-open payer-funded nonlabor operational unit. At most WHO first-publication day passes; no downstream joins, candidates or project Jev.",
     "Generation23 independent date-first first-party USDA AMS Florida citrus referendum, USDA Acer already-awarded maple industry funding, and UK DfE Turing existing placement funding publication. All owner announcements Sept24 pass day-level but no same precise named currently unfilled payer-funded external nonlabor unit. Upstream joint gate fails; no downstream due diligence, no project Jev, no new branch/PR/CI/artifact or external effects.",
     "Generation24 genuinely new EPA contamination-remediation, EPA coastal/mid-Atlantic wetland program, and USGS lake bathymetry first-party source sweep. Three Sep24 day-dated owner communications; no same-unit live unfilled named payer-funded independent nonlabor task: closed UST outcomes+unassigned aggregate pipeline, already allocated wetlands grants, historical 2023 survey/Sept2 map. Both upstream gates never jointly pass; no directories/rights/settlement/provider/economics review. No project Jev invoked. No substantive Scan170 branch/PR/CI/artifact or external transaction.",
-    "Generation25 four new first-party domain preflights (UK agricultural statistics, UK parish sports Section106, ESA lunar navigation tender, UK green heat infrastructure grant); owner first publication all predate Sep24 and none provides exact same new named still unfilled payer-funded nonlabor operational unit; no downstream audit, no external contact, no project Jev."
+    "Generation25 four new first-party domain preflights (UK agricultural statistics, UK parish sports Section106, ESA lunar navigation tender, UK green heat infrastructure grant); owner first publication all predate Sep24 and none provides exact same new named still unfilled payer-funded nonlabor operational unit; no downstream audit, no external contact, no project Jev.",
+    "Generation26: independently inspected four first-party new-domain Sep25-26 publications (UK youth services, WHO expanded medical-device prequalification, UK high-street regeneration, UNICEF Yemen nutrition emergency); no source passes exact same-unit newly issued named currently unfinished payer-funded nonlabor operator task; downstream not investigated; no external actions or Scan170 project Jev; verified historical Scan169 exact-head CI/Jev runs and Jev artifact are not Gen26 invocations."
   ],
-  "next_action": "Generation26: independently search first-party owner FIRST-PUBLISHED 2026-09-25 (allow Sep24+) in genuinely new domains not covered by Scan170 generations3-25; require same exact named currently unfilled payer-funded NONLABOR operating task plus independently verified owner first-issuance timestamp both PASS before any directory/right/receipt/native/economics inquiry. When FAIL atomically persist new source-first evidence in this same recovery JSON, maintain 0/0 NOT_PROVEN Issue143 OPEN and no zero-candidate PR; only full exact same-unit preauthorized independent right, legal payee, real comparable settled receipt, native still unfilled, nonlabor recurrence and net economics justify substantive fresh-main Scan170 PR exact-head CI plus actual project TypeSafe/Jev artifact.",
+  "next_action": "Generation27: with live-date refresh (2026-09-26 or later when resumed), search genuinely new first-party domains/sources not in Scan170 generations3-26; require independently verified owner FIRST ISSUANCE in the current rolling Sep25+ window OF THE SAME EXACT named currently unfilled payer-funded nonlabor operational task, plus same-unit payer funding, before ANY directory/authorization/receipt/native-status/economics inquiry. UNKNOWN != PASS. On joint-gate FAIL atomically persist the source evidence to this same recovery JSON with generation and blob SHA CAS, maintain 0 candidates/0 units/NOT_PROVEN/#143 OPEN, no empty PR; only full same-unit independent preauthorization, legal payee, real comparable settled receipt, native outstanding, repeat nonlabor and net economics can justify substantive fresh-main Scan170 PR with exact-head CI and real project TypeSafe/Jev artifact.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -83,7 +101,8 @@
     "Gen18 event calendar date or older notice last-updated or tender closing date != current owner first-posted Sep24 unfilled transaction; IRAS owner free GST education, UK quarterly aggregate legal aid statistics, and contractor physical lawn care are not separately independently executable no-human paid units. Unauthenticated third-party directory placeholders are not first-party proof.",
     "Gen19 chronology and ownership: Upwork CRM $4k buyer post Sept5 with Sep24 handover target, Zindi climate mapping $10k prize opened Aug28 and Sept24 talk is only event, West Somerset named teaching salary listed Sept10 and Sep24 closes, Australian NFF Sept24 tertiary report lacks new first-party exact paid owner task, UK CPC digital delivery tender from Aug20/24 closes today; public OCDS API is sensor not autonomous commissioned execution. Do not carry any as candidate absent genuinely new same-unit first-party 2026-09-24+ posted right and settlement.",
     "Generation22 WHO Sep24 WHO-IRCH WG2 regulatory cooperation release has no owner-funded outsider unfilled task; ERA Sep25 updated InnoTrans listing is not precise first-issued paid unit; UK CKAF Sep18 update fails new publication; Digital4Security Sep25 enrollment deadline is not publication nor nonlabor commissioned execution. Reopen only on materially new same-unit first-party paid authorization.",
-    "Generation25: no repeat DEFRA Sep25 SFI release announcement (first Sep23), Wheldrake Sep25 Section106 EOI deadline (first Aug26), ESA Sep25 NovaMoon ITT deadline (ESA opportunities first June23/update Sep10), GHNF Sep25 closing deadline (guidance first 2022/update June10), unless genuinely new owner first-issued exact payable unit evidence."
+    "Generation25: no repeat DEFRA Sep25 SFI release announcement (first Sep23), Wheldrake Sep25 Section106 EOI deadline (first Aug26), ESA Sep25 NovaMoon ITT deadline (ESA opportunities first June23/update Sep10), GHNF Sep25 closing deadline (guidance first 2022/update June10), unless genuinely new owner first-issued exact payable unit evidence.",
+    "Generation26: UK DCMS Sep26 youth worker employment/announced future Youth Matters grants, WHO Sept25 medical devices programme expansion (prior separate Sept4 RFQ not fresh), UK MHCLG Sept25 GBP210m aggregate regeneration announcement, UNICEF Sept25 Yemen response briefing; do not recast new press day as first exact paid operational issuance without genuinely new task-bound payer/authorization evidence or expose humanitarian beneficiary data."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -596,6 +615,59 @@
     "active_transaction_units": 0,
     "first_external_value_flow": "NOT_PROVEN",
     "jev_actual_new_invocations": 0,
+    "jev_project_status": "not used",
+    "external_side_effects_performed": false
+  },
+  "gen26_preflight": {
+    "as_of_date": "2026-09-26",
+    "window": "2026-09-25_TO_2026-09-26_OWNER_FIRST_PUBLICATION_OF_EXACT_TASK_NOT_REPORT_EVENT_DEADLINE_OR_SECONDARY_REFRESH",
+    "method": "BOUNDED_INDEPENDENT_FOUR_NEW_FIRST_PARTY_DOMAINS_TWO_UPSTREAM_GATES_BEFORE_DOWNSTREAM",
+    "source_registry": [
+      {
+        "owner": "UK Department for Digital, Culture, Media and Sport",
+        "domain": "youth and community services",
+        "url": "https://www.gov.uk/government/news/1000-new-youth-workers-to-help-reduce-the-risk-of-unemployment",
+        "owner_first_post": "2026-09-26 day-level owner news release (exact time not independently published)",
+        "chronology": "PASS_DAY_LEVEL_FOR_NEW_RELEASE_ONLY; EXACT_TASK_FIRST_ISSUANCE_UNPROVEN",
+        "exact_open_paid_unit": "FAIL",
+        "reason": "1000 planned newly trained/appointed youth workers are human employment; GBP450m future Youth Matters Fund applications are not yet open; no named already-commissioned exact presently unfinished payer-funded nonlabor unit in release."
+      },
+      {
+        "owner": "WHO Prequalification of Medical Products",
+        "domain": "medical device prequalification regulatory transition",
+        "url": "https://extranet.who.int/prequal/news/who-announces-expansion-prequalification-programme-medical-devices",
+        "secondary_first_party": "https://www.who.int/news/item/25-09-2026-who-announces-expansion-of-prequalification-programme-for-medical-devices",
+        "owner_first_post": "2026-09-25 13:00 CEST precise timestamp on WHO first-party programme publication",
+        "chronology": "PASS_TIMESTAMP_FOR_NEW_PROGRAMME_ANNOUNCEMENT_ONLY; EXACT_TASK_FIRST_ISSUANCE_UNPROVEN",
+        "exact_open_paid_unit": "FAIL",
+        "reason": "Expanded WHO product prequalification and regulator assessment procedure announce a native eligibility process, not a named payer-issued open unfinished independently payable nonlabor operational task. A separate WHO assessment RFQ was first posted Sept4, not new under this window and is not imported as evidence."
+      },
+      {
+        "owner": "UK Ministry of Housing Communities and Local Government",
+        "domain": "high street derelict building regeneration",
+        "url": "https://www.gov.uk/government/news/boarded-up-high-streets-brought-back-to-life-with-210m-boost",
+        "owner_first_post": "2026-09-25 owner government dated press release (exact hour not independently verified)",
+        "chronology": "PASS_DAY_LEVEL_FOR_RELEASE_ONLY; EXACT_TASK_FIRST_ISSUANCE_UNPROVEN",
+        "exact_open_paid_unit": "FAIL",
+        "reason": "GBP210m aggregate funding allocated across local authorities/communities and programme categories; named building/operator commissioned and still unfilled exact payer-funded nonlabor unit not published."
+      },
+      {
+        "owner": "UNICEF",
+        "domain": "Yemen emergency nutrition and displacement humanitarian response",
+        "url": "https://www.unicef.org/press-releases/hunger-and-malnutrition-stalking-yemens-children-violence-escalates",
+        "owner_first_post": "2026-09-25 first-party dated representative briefing publication; exact hour not independently published",
+        "chronology": "PASS_DAY_LEVEL_FOR_PUBLIC_BRIEFING_ONLY; EXACT_TASK_FIRST_ISSUANCE_UNPROVEN",
+        "exact_open_paid_unit": "FAIL",
+        "reason": "First-party briefing reports active UNICEF-supported mobile response and humanitarian needs, not a new named independently entrusted and funded unfinished nonlabor operational unit; do not treat named individuals or sensitive beneficiary data as commercial leads."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "new_project_jev_invocations": 0,
     "jev_project_status": "not used",
     "external_side_effects_performed": false
   }
