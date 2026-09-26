@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 30,
+  "generation": 31,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN30_FOOD_RECALL_REVERSE_LOGISTICS_MEZZETTA_OLDER_OWNER_ANNOUNCEMENT_NOT_NEW_PAID_UNFILLED_OUTSIDER_UNIT",
+  "stage": "GEN31_WESTMORLAND_HOMESHARE_NEW_SERVICE_ANNOUNCEMENT_NOT_EXACT_OWNER_FUNDED_OUTSIDER_NONLABOR_UNIT",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,29 +16,30 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN30_NEW_DOMAIN_OWNER_ANNOUNCEMENT_DATE_PRECEDES_CURRENT_WINDOW_AND_NO_EXACT_UNFILLED_FUNDED_EXTERNAL_NONLABOR_UNIT",
+    "status": "GEN31_FIRST_PARTY_DAY_LEVEL_NEW_HOMESHARE_SERVICE_NO_FIRST_ISSUED_EXACT_OUTSIDER_PAID_UNIT",
     "evidence": [
       {
-        "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/g-l-mezzetta-inc-announces-recall-mezzetta-brand-golden-greek-peperoncini-medium-heat-due-presence",
-        "company_announcement": "2026-09-23 day-level; exact hour UNKNOWN",
-        "fda_republish": "2026-09-25 day-level",
-        "exact_unit": "Mezzetta 32 oz SKU10106328 Lot720106",
-        "owner_date_gate": "FAIL_CURRENT_WINDOW",
-        "paid_open_unit_gate": "FAIL",
-        "source_limitations": "FDA hosts first-party company statement and dates; did not independently inspect owner domain exact first-post timestamp. No external operational task issuance evidenced."
+        "url": "https://www.westmorlandandfurness.gov.uk/westmorland-and-furness-council-news/2026/room-one-more-homeshare-opens-doors-across-westmorland-and-furness",
+        "first_party_publication": "2026-09-25 day-level; exact hour UNKNOWN",
+        "exact_task_issuance": "UNKNOWN_NOT_PASS",
+        "exact_funded_unfilled_outside_nonlabor_unit": "FAIL",
+        "reason": "Council operational scheme inviting householders and homesharers, council Homeshare team already performs matching/background/support; no source-bound payer-funded independent outsourcing commission."
       }
     ],
     "joint_upstream_gate": "FAIL",
     "downstream_gates": "NOT_INVESTIGATED",
     "new_scan170_branch_pr_ci_artifact": "NONE",
     "jev_project_status": "not used",
-    "historical_scan169_not_gen30": {
+    "historical_scan169_verification_not_gen31": {
+      "exact_head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
       "ci_run_id": 35951958496,
-      "ci_status": "success",
+      "ci_success": true,
+      "ci_job_id": 107482199241,
+      "ci_job_success": true,
       "jev_run_id": 35951958490,
-      "jev_status": "success",
+      "jev_success": true,
       "jev_artifact_id": 10788952868,
-      "jev_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
+      "digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
     }
   },
   "pending_operation": null,
@@ -78,9 +79,10 @@
     "Generation27 independent new NOAA OSPO meteorological satellite product-delivery outage domain, first-party owner notice Sep26 0103Z but underlying Sep25 1712-1733Z disruption was already restored by native on-prem restart; no first-published exact external task or named currently unfilled payer-funded nonlabor transaction. Joint upstream FAIL, downstream NOT_INVESTIGATED, no branch PR external effects or project Jev. Historical Scan169 CI/Jev are not Gen27 calls.",
     "Generation28 bounded new-domain Ofgem electricity grid connection data transparency preflight: first-party new consultation first published 2026-09-25 day-level, but no published EXACT NEW outsourced task or clearly funded named unfilled nonlabor paid operating unit. First exact task issuance UNKNOWN and paid unit FAIL -> joint FAIL; downstream NOT_INVESTIGATED; 0/0 NOT_PROVEN; no external work or project Jev. Historical Scan169 exact-head CI and Jev artifact separately reverified.",
     "Generation29 MAIB marine accident safety recommendations new domain first-party 2026-09-25 published report verified day-level; July22 2024 vessel incident is historical. Three named recommendations identify recipients but owner has not first-published same exact paid externally open nonlabor operational task or committed named payer. Upstream UNKNOWN/FAIL -> joint FAIL and downstream NOT_INVESTIGATED, 0/0 NOT_PROVEN, no external effects and project Jev not used. History-only Scan169 exact-head successful CI/Jev artifact separately checked.",
-    "Generation30 single new batch-specific food recall and reverse-logistics domain: FDA officially hosts G. L. Mezzetta owner-origin Sep23 day-level announcement, FDA republishes Sep25. Named 32oz SKU10106328 Lot720106; owner directly coordinating removal/retrieval and does not announce distinct currently unfunded/unfilled public independent paid nonlabor commission. Current-window exact-task first-issuance FAIL, same externally-open payer-funded unit FAIL; downstream NOT_INVESTIGATED. Historical Scan169 exact-head CI/Jev verified but not Gen30. No outreach, project Jev, new branch/PR/CI/artifact."
+    "Generation30 single new batch-specific food recall and reverse-logistics domain: FDA officially hosts G. L. Mezzetta owner-origin Sep23 day-level announcement, FDA republishes Sep25. Named 32oz SKU10106328 Lot720106; owner directly coordinating removal/retrieval and does not announce distinct currently unfunded/unfilled public independent paid nonlabor commission. Current-window exact-task first-issuance FAIL, same externally-open payer-funded unit FAIL; downstream NOT_INVESTIGATED. Historical Scan169 exact-head CI/Jev verified but not Gen30. No outreach, project Jev, new branch/PR/CI/artifact.",
+    "Generation31 independently new UK Westmorland and Furness intergenerational Homeshare first-party council Sept25 day-level new SERVICE launch announcement; no first-issued exact outsourced paid task timestamp (UNKNOWN) and no same named presently unfilled clearly payer-funded externally commissionable nonlabor operating unit (FAIL). Joint upstream FAIL, downstream NOT_INVESTIGATED, retained 0, candidates 0, units 0, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN. Historical Scan169 successful CI/Jev artifact separately reverified, not Gen31 calls. No external effects and project Jev not used."
   ],
-  "next_action": "Generation31: re-read live main, AGENTS, stale TASK_STATE only as context, Issue143, current state/chatgpt-recovery Scan170 generation/blob and actual branch/open PR/exact-head workflows/artifacts. Select ONE genuinely new first-party domain not covered Scan170 generations3-30, use current execution-date rolling window (Sep26 or later; Sep25 only if exact task still genuinely first-issued/current), and require independent owner first-publication proof of THE EXACT NEW TASK and SAME named payer-identified already-funded currently-unfilled externally commissionable NONLABOR operating unit. Page index, event, FDA repost, old company recall, generic program, report, scheduled date or public invitation is not task issuance. UNKNOWN != PASS. If either joint upstream gate fails, do no downstream inquiry, CAS persist only this task's cursor with genuine primary source, precision, both verdicts, 0/0 NOT_PROVEN, project Jev actual use and one next_action; #143 remains OPEN and do not create empty PR. Only if both upstream PASS check SAME-unit prior independent nonaffiliate execution authorization, legal payee, real comparable settled receipt, native outstanding, repeat nonlabor and net economics, then fresh-main substantive branch/PR plus exact-head CI and genuine project TypeSafe/Jev artifact. No external contact, registration, bidding or transaction.",
+  "next_action": "Generation32: first independently re-read current live main, AGENTS.md, TASK_STATE.md (stale snapshot not controlling), Issue143, Scan170 dedicated recovery generation/blob and branch/open PR/exact-head CI/jobs/artifacts. On current execution date investigate ONE genuinely new first-party owner reality domain never covered by Scan170 generations3-31; establish verifiable FIRST OWNER ISSUANCE OF THE EXACT TASK (not general service rollout, headline, deadline, repost or updated index) in execution-date rolling current window and independently prove SAME exact named presently unfilled externally commissionable nonlabor operating unit has identified committed payer funding. Day-level only where published; UNKNOWN != PASS. If either upstream gate fails, DO NOT investigate rights/receipt/provider/economics: CAS persist only this Scan170 cursor with new first-party URL, date precision, both gates, 0 retained/candidates/units and NOT_PROVEN, project Jev usage and exactly this phase's new next action; leave Issue143 OPEN, create no zero-candidate PR, perform no external effects. Only BOTH PASS permits same-unit pre-authorized nonaffiliate execution, legal payee, real comparable settled receipts, native outstanding status, nonlabor recurring net economics and then substantive fresh-main branch/PR exact-head CI and real project Jev artifact.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -107,7 +109,8 @@
     "Generation27 NOAA GOES-18/19 GRB 2026-09-26 0103Z incident notice: Sep25 1712Z outage fixed 1733Z by NOAA native restart; first-party notice index update != first externally payable task issuance. No recheck without new first-party same-unit independently commissionable paid open task.",
     "Generation28 Ofgem 2026-09-25 Transforming Connections Data open policy consultation and updated 2025 review: neither is new owner-issued exact already funded unfinished independently callable nonlabor commercial task. Revisit only if genuinely new exact unit owner-first-issued and same-unit payer/open work evidence.",
     "Generation29 UK MAIB Sep25 report Argos Georgia accident 19/2026 names MCA, Argos Froyanes, Falklands government recommendations: newly released investigation != first-issued independent paid operations; revisit only upon new first-party same-unit funded still-unfilled external nonlabor task publication.",
-    "Generation30 G. L. Mezzetta Sep23 company batch 720106 recall republished Sep25 by FDA: avoid treating regulatory repost as first exact paid task issuance or owner-operated retrieval as independent funded nonlabor task absent genuinely new same-unit owner commission."
+    "Generation30 G. L. Mezzetta Sep23 company batch 720106 recall republished Sep25 by FDA: avoid treating regulatory repost as first exact paid task issuance or owner-operated retrieval as independent funded nonlabor task absent genuinely new same-unit owner commission.",
+    "Generation31 Westmorland and Furness Council Homeshare 2026-09-25 first-party service recruitment announcement: native team screening/matching participant invitations are not fresh independent funded nonlabor task issuance; do not treat homeowner/housemate data as leads, re-open only genuinely newly owner-issued exact task evidence."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -796,6 +799,34 @@
     "jev_actual_new_invocations": 0,
     "jev_project_status": "not used",
     "supervisory_jev": "If invoked by monitor, classification-only and NOT Scan170 project Jev artifact or business evidence",
+    "external_side_effects_performed": false
+  },
+  "gen31_preflight": {
+    "as_of_date": "2026-09-26",
+    "window": "2026-09-26 execution date; 2026-09-25 accepted only for genuinely current new exact owner-issued task; new service announcement != task issuance",
+    "new_domain": "Intergenerational homeshare, social companionship and affordable room exchange in Westmorland and Furness",
+    "method": "ONE genuinely new domain; independent first-party owner day-level chronology and same-exact payer-funded open nonlabor unit only",
+    "source_registry": [
+      {
+        "owner": "Westmorland and Furness Council",
+        "url": "https://www.westmorlandandfurness.gov.uk/westmorland-and-furness-council-news/2026/room-one-more-homeshare-opens-doors-across-westmorland-and-furness",
+        "owner_first_post_evidence": "First-party council news story explicitly dated 25 September 2026; DAY_LEVEL only, exact hour UNKNOWN",
+        "owner_announced_action": "Local council bringing established national Homeshare UK model to area final week Sept2026; actively inviting homeowners with spare rooms and accommodation seekers; existing Homeshare team handles suitability/background checks, matching, continuing support and reviews.",
+        "first_publication_same_exact_paid_task_gate": "UNKNOWN_NOT_PASS: Sep25 first-party new SERVICE press announcement verified day-level, no independently published first issuance timestamp for any exact outsourced paid nonlabor operating task",
+        "same_exact_named_currently_unfilled_payer_funded_externally_open_nonlabor_unit_gate": "FAIL: participant recruitment and council-native matching are not a named funded still-unfilled outsider callable nonlabor unit; no owner-identified payer commitment or third-party outsourced paid task in the announcement. Homesharers provide companion/light human household work, not independent compounding operator work.",
+        "joint_upstream_gate": "FAIL",
+        "disqualification": "OWNER_NEW_SERVICE != NEW_OUTSOURCED_EXACT_TASK; EXISTING_NATIVE_TEAM_MATCHES_AND_REVIEWS; PARTICIPANT_SIGNUPS != ALREADY_FUNDED_INDEPENDENT_NONLABOR_COMMISSION; neither assume closure beyond source nor invent outside authority."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "jev_actual_new_invocations": 0,
+    "jev_project_status": "not used",
+    "supervisory_jev": "External monitor classifier (if present) never counted as project execution or artifact.",
     "external_side_effects_performed": false
   }
 }
