@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 34,
+  "generation": 35,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN34_UK_DBS_DIGITAL_RESULT_BETA_REASSESSMENT_PUBLIC_REPORT_NOT_FIRST_ISSUED_FUNDED_UNFILLED_EXTERNAL_NONLABOR_TASK",
+  "stage": "GEN35_UK_ENVIRONMENT_AGENCY_NAMED_LUTON_RAILHEAD_PERMIT_CONSULTATION_NO_OWNER_FIRST_ISSUED_OPEN_FUNDED_INDEPENDENT_NONLABOR_TASK",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,32 +16,36 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN34_NEW_DBS_REPORT_DATE_ONLY_EXACT_NEW_OWNER_TASK_ISSUANCE_UNKNOWN_SAME_FUNDED_UNFILLED_EXTERNAL_NONLABOR_UNIT_FAIL",
+    "status": "GEN35_NEW_FIRST_PARTY_SEP25_PERMIT_CONSULTATION_NOT_FIRST_OWNER_ISSUED_FUNDED_OPEN_OUTSIDER_NONLABOR_UNIT",
     "evidence": [
       {
-        "source_url": "https://www.gov.uk/service-standard-reports/ho-view-or-share-your-dbs-result-beta-reassessment-report",
-        "first_party_published": "2026-09-25 DAY_LEVEL, exact time UNKNOWN",
-        "assessment_date": "2026-07-31",
-        "named_recommendation": "Move from manual to automated GitLab-to-GitHub code deployment",
-        "same_exact_task_first_publication": "UNKNOWN_NOT_PASS; publication belongs to evaluation report",
-        "same_exact_task_current_funded_external_nonlabor_status": "FAIL; service recommendations, GDS spend approval pending, no allocated outside commissioned unit."
+        "url": "https://www.gov.uk/government/publications/lu1-3jg-grs-roadstone-limited-environmental-permit-application-advertisement-eprwe2918acv002",
+        "date": "2026-09-25 DAY_LEVEL",
+        "evidence": "Environment Agency published regulator notice for named GRS (Roadstone) Limited permit variation EPR/WE2918AC/V002; new NOTICE only, exact applicant paid task issuance UNKNOWN"
+      },
+      {
+        "url": "https://consult.environment-agency.gov.uk/psc/lu1-3jg-grs-roadstone-limited-epr-we2918ac-v002-en/",
+        "date": "OPEN 2026-09-25 DAY_LEVEL, closes 2026-10-23",
+        "evidence": "Regulator invites public consultation comments on named application; historical technical-document filenames, no posted new exact funded outsourced nonlabor operating unit."
       }
     ],
+    "gate_exact_owner_first_publication": "UNKNOWN_NOT_PASS",
+    "gate_same_named_currently_unfilled_payer_funded_external_nonlabor_unit": "FAIL",
     "joint_upstream_gate": "FAIL",
     "downstream_gates": "NOT_INVESTIGATED",
     "new_scan170_branch_pr_ci_artifact": "NONE",
     "jev_project_status": "not used",
-    "historical_scan169_ci_jev_not_gen34": {
-      "pr_exact_head": "632a535356193ca08e760e37c6e21af1c947b5ba",
+    "historical_scan169_only": {
+      "head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
       "ci_run": 35951958496,
       "ci_job": 107482199241,
-      "ci_result": "success",
+      "ci_conclusion": "success",
       "jev_run": 35951958490,
       "jev_jobs": [
         107482199574,
         107482246836
       ],
-      "jev_result": "success",
+      "jev_conclusion": "success",
       "jev_artifact_id": 10788952868,
       "jev_artifact_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
     }
@@ -87,9 +91,10 @@
     "Generation31 independently new UK Westmorland and Furness intergenerational Homeshare first-party council Sept25 day-level new SERVICE launch announcement; no first-issued exact outsourced paid task timestamp (UNKNOWN) and no same named presently unfilled clearly payer-funded externally commissionable nonlabor operating unit (FAIL). Joint upstream FAIL, downstream NOT_INVESTIGATED, retained 0, candidates 0, units 0, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN. Historical Scan169 successful CI/Jev artifact separately reverified, not Gen31 calls. No external effects and project Jev not used.",
     "Generation32 first-party Derby City Council two funded community PlayZones new domain: owner published September25 day-level capital programme news with GBP624000 and named sites. The first publication of an exact paid OUTSIDER nonlabor operations task is UNKNOWN and same funded still-unfilled third-party operating unit FAIL; confirmed capital money must not substitute dedicated operations commission. Joint upstream FAIL, downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0, NOT_PROVEN. Historical Scan169 exact-head CI/Jev/jobs/artifact separately checked; no Gen32 project Jev or external side effects or branch/PR.",
     "Generation33 newly inspected rainwater capture / drought resilience council local grant domain: East Hampshire District Council first-party Sept25 day-level story about Petersfield Town Council already installed 3x500L water butts funded by GBP1166 CCAF; underlying initial exact task issuance/installation dates not published and equipment already installed, so exact first task issuance UNKNOWN, same current still-open named payer-funded independent nonlabor unit FAIL; general CCAF fifth-round Oct5 deadline does not count. Joint upstream FAIL, all downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0, NOT_PROVEN. No external effects, project Jev not used, no empty PR; historical Scan169 exact-head CI/Jev jobs/artifact checked separately.",
-    "Generation34 UK government DBS digital result-sharing beta reassessment first-party report Sep25 day-level (actual assessment July31) recommends automated GitLab->GitHub deployments, but neither first issuance of EXACT newly offered external paid task (UNKNOWN) nor specific named already-funded still-unfilled independently commissionable nonlabor operating unit (FAIL) is evidenced. Joint upstream FAIL; downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN. Did not access criminal-record personal data. No new PR/CI/artifact, project Jev not used. Separately confirmed historical Scan169 exact-head CI/Jev/jobs/artifact; do not attribute to Gen34."
+    "Generation34 UK government DBS digital result-sharing beta reassessment first-party report Sep25 day-level (actual assessment July31) recommends automated GitLab->GitHub deployments, but neither first issuance of EXACT newly offered external paid task (UNKNOWN) nor specific named already-funded still-unfilled independently commissionable nonlabor operating unit (FAIL) is evidenced. Joint upstream FAIL; downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN. Did not access criminal-record personal data. No new PR/CI/artifact, project Jev not used. Separately confirmed historical Scan169 exact-head CI/Jev/jobs/artifact; do not attribute to Gen34.",
+    "Generation35 UK Environment Agency Sep25 day-level first-party industrial environmental permit application notice and regulator consultation for GRS Roadstone Limited, Luton Railhead EPR/WE2918AC/V002. Owner first publication of EXACT paid independent task UNKNOWN; first-party regulator notice not applicant task offer. Identified applicant not evidenced as committed payer for a still-unfilled external NONLABOR operator commission, so same-unit gate FAIL and joint upstream FAIL. All downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN. Historical Scan169 CI/Jev/jobs/artifact reverified but not Gen35. No external actions, project Jev not used, no PR."
   ],
-  "next_action": "Generation35: verify live main, AGENTS.md, TASK_STATE.md (stale Scan169 cannot override), Issue143, only Scan170 own state/chatgpt-recovery cursor generation/blob plus relevant branches/open PR/exact-head Actions/jobs/artifacts. Bounded source-first/date-first screen of ONE genuinely fresh first-party domain not covered by Scan170 generations3-34. Require first-party OWNER FIRST ISSUANCE DATE OF EXACT SAME NEW TASK within execution-date rolling window AND independent first-party proof of SAME named presently UNFILLED externally independently accessible NONLABOR operational task with SPECIFIC named payer and already committed funds. GDS report/reassessment date, internal recommendation, conditional future spend approval, generic grant, news, historical event, site update or other-unit capital cannot substitute. If either upstream FAIL/UNKNOWN (UNKNOWN != PASS) stop before any authorization, settlement, native gap, repetition, economics investigation and CAS-write only this Scan170 cursor with exact source/date precision/dual verdict/0 retained/candidates/units/NOT_PROVEN/project Jev actual use and ONE next_action. Keep #143 OPEN, no zero-candidate PR or any external contact/registration/bid/payment/signature/transaction or personal restricted data. ONLY both PASS justifies same-unit preauthorized independent execution right/legal payee/real settled comparable receipt/native still open/recurring nonlabor/net economics checks then substantive branch from fresh main, exact-head CI and genuinely invoked project TypeSafe/Jev artifact.",
+  "next_action": "Generation36: first recheck current live main, AGENTS.md, TASK_STATE.md (historical stale), Issue143, only Scan170 task-scoped state/chatgpt-recovery cursor generation/blob, all relevant open PR/branches/exact-head Actions/jobs/artifacts, and consume any newer single next_action if advanced. Screen ONE genuinely unexamined new first-party owner domain not in Scan170 generations3-35 using execution-date rolling FIRST OWNER ISSUANCE of SAME EXACT TASK (not consultation, comment deadline, regulatory notice, past application or webpage update). Independently prove on SAME named task a currently unfilled externally independently accessible NONLABOR operating unit with identified payer and ALREADY committed exact-unit funding; UNKNOWN != PASS. If either fails stop BEFORE downstream execution rights/legal payee/settled receipt/native outstanding/recurrence/economics, CAS persist only Scan170 own cursor with source/date precision/dual gate/0 retained/candidates/units NOT_PROVEN, actual project Jev usage and exactly one subsequent next_action; keep #143 OPEN and do not make empty PR or external contact, signup, bid, pay or transact. Only both upstream gates PASS on same exact unit permits bounded downstream same-unit verification; substantive fresh-main PR/exact-head CI and actual project Jev only after complete evidence chain.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -120,7 +125,8 @@
     "Generation31 Westmorland and Furness Council Homeshare 2026-09-25 first-party service recruitment announcement: native team screening/matching participant invitations are not fresh independent funded nonlabor task issuance; do not treat homeowner/housemate data as leads, re-open only genuinely newly owner-issued exact task evidence.",
     "Generation32 Derby City Council Sept25 two Football Foundation PlayZones Dale Road+Stockbrook: GBP624000 real grant/council money is capital construction, future pay-and-play is business model; no evidence of first-issued exact named still-unfilled funded outside nonlabor operator task; revisit only genuinely new same-unit first-party issuance and funding.",
     "Generation33 East Hampshire District Council Sept25 Petersfield water butts CCAF news: GBP1166 grant and 3x500L butts refer to already completed council installation, future CCAF round Oct5 closing is application deadline. No new exact paid outsider unit or task issuance date. Do not promote completed project or deadline.",
-    "Generation34 GDS Sep25 DBS digital View or Share beta reassessment report reflects July31 assessment and recommendations on automating GitLab deployment, not same exact first-issued payer-funded still-unfilled external NONLABOR task; GDS spend approval is conditional, not proven committed. Never access private background-check results."
+    "Generation34 GDS Sep25 DBS digital View or Share beta reassessment report reflects July31 assessment and recommendations on automating GitLab deployment, not same exact first-issued payer-funded still-unfilled external NONLABOR task; GDS spend approval is conditional, not proven committed. Never access private background-check results.",
+    "Generation35 Environment Agency first-party Sep25 GRS (Roadstone) Limited Luton Railhead permit variation EPR/WE2918AC/V002 consultation; regulator first publicity and public COMMENT right != company first-issued funded outsider commercial task; document filenames suggest older variations. No same-unit external nonlabor work evidence; do not count as candidate without genuinely fresh applicant-issued funded open task."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -926,6 +932,40 @@
     "jev_actual_project_invocations": 0,
     "jev_project_status": "not used",
     "monitor_jev": "If any external monitor used Jev for routing, not a Scan170 project invocation or artifact.",
+    "external_side_effects_performed": false
+  },
+  "gen35_preflight": {
+    "as_of_date": "2026-09-26",
+    "date_window": "2026-09-26 current; 2026-09-25 only if genuinely new same exact owner-issued task and still unfilled; regulator consultation date != business task first issue",
+    "new_domain": "UK industrial waste/environmental permit variation, regulated facility environmental compliance",
+    "method": "One unexamined first-party domain, two upstream same-unit gates only, no downstream search on UNKNOWN/FAIL",
+    "source_registry": [
+      {
+        "regulator_and_notice_owner": "UK Environment Agency",
+        "named_applicant": "GRS (Roadstone) Limited",
+        "named_site": "Luton Railhead, Crescent Road, Luton, LU1 3JG",
+        "named_permit_application": "EPR/WE2918AC/V002",
+        "first_party_public_notice_url": "https://www.gov.uk/government/publications/lu1-3jg-grs-roadstone-limited-environmental-permit-application-advertisement-eprwe2918acv002",
+        "first_party_consultation_url": "https://consult.environment-agency.gov.uk/psc/lu1-3jg-grs-roadstone-limited-epr-we2918ac-v002-en/",
+        "first_party_notice_published": "2026-09-25 DAY_LEVEL per GOV.UK Published and Updates to this page; exact time UNKNOWN",
+        "first_party_consultation_opened": "2026-09-25 DAY_LEVEL per Environment Agency Citizen Space",
+        "first_party_consultation_closing": "2026-10-23, consultation deadline not task issuance or commercial unfilled work",
+        "task_initial_owner_issuance": "UNKNOWN: regulator newly publishes public participation notice, but applicant's variation application documents linked on consultation page use historical 2024 and 2026 filenames; precise company task first publication and any currently open paid outsider commission are not evidenced; do not assume creation from regulator consultation date.",
+        "upstream_gate_owner_first_publication_same_exact_new_paid_task": "UNKNOWN_NOT_PASS",
+        "upstream_gate_same_named_presently_unfilled_funded_independent_external_nonlabor_unit": "FAIL: applicant identified but no source-tied payer commitment or already funded separately commissioned outsider nonlabor operations task; open regulatory comment process is non-remunerated public participation, not independently callable commercial fulfillment.",
+        "joint_upstream_gate": "FAIL",
+        "disqualifying_reason": "First-party Sep25 environmental permit notice proves regulator opened specific application's consultation only; not company newly first-issued exact payable nonlabor task. Public right to COMMENT is not independent right to execute a payer-funded operating unit. Neither infer applicant budget nor treat past technical appendices as new commissioned work."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "actual_project_jev_calls": 0,
+    "jev_project_status": "not used",
+    "supervisory_jev": "External monitor classifier is not project Jev/TypeSafe artifact",
     "external_side_effects_performed": false
   }
 }
