@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 41,
+  "generation": 42,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN41_HHS_CITELINE_TRIALTROVE_PLUS_SOLE_SOURCE_ORIGINAL_SEP23_EXPIRED_SEP25_NO_FRESH_OPEN_NONAFFILIATE_FUNDED_UNIT",
+  "stage": "GEN42_UK_HYDROGRAPHIC_PUBLICATIONS_WAREHOUSE_FULFILMENT_HISTORICAL_PIPELINE_MAY2025_NOV2025_REVISION_NOT_SEP2026_EXACT_NEW_UNFILLED_FUNDED_UNIT",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,19 +16,18 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN41_SOLE_SOURCE_CLINICAL_TRIAL_INTELLIGENCE_ORIGINAL_SEP23_BEFORE_WINDOW_AND_NO_OPEN_FUNDED_NONAFFILIATE_NONLABOR_UNIT",
+    "status": "GEN42_UK_HYDROGRAPHIC_OFFICE_PUBLICATION_FULFILMENT_2025_HISTORICAL_PIPELINE_NOT_FIRST_ISSUED_SEP2026_EXACT_FUNDED_NONLABOR_UNIT",
     "evidence": [
       {
-        "first_party_url": "https://sam.gov/opp/80d6e76b88e64014a574e3cceb22f11e/view",
-        "buyer": "HHS Program Support Center Acquisition Management Services",
-        "notice_id": "FDA-CITELINE-1292051",
-        "exact_named_unit": "Citeline Trialtrove+ subscription under sole-source intent",
-        "first_original": "2026-09-23 18:35 EDT MINUTE_LEVEL SAM.gov original notice and history",
-        "response_deadline": "2026-09-25 15:00 EDT MINUTE_LEVEL not first issuance, expired Sep26",
-        "same_unit_first_issue_gate": "FAIL_CURRENT_WINDOW",
-        "same_unit_funded_open_independent_nonlabor_gate": "FAIL_OPEN_ACCESS, UNKNOWN EXACT_COMMITTED_FUNDING",
-        "reason": "Sole-source intent points to existing proprietary supplier; response deadline elapsed and no independently available current nonaffiliate unit nor individually committed funding proved.",
-        "source_limitation": "First-party SAM.gov indexed text available; dynamic webpage direct open returns no detail; no reading of attachment contents claimed."
+        "first_party_original_notice": "https://www.find-tender.service.gov.uk/Notice/027710-2025",
+        "first_party_revision": "https://www.find-tender.service.gov.uk/Notice/073027-2025",
+        "first_party_notice_type_reference": "https://www.find-tender.service.gov.uk/Home/NoticeTypes",
+        "original_date": "2025-05-27 12:39 UK local MINUTE_LEVEL, original pipeline 2025/S 000-027710",
+        "revision_date": "2025-11-12 09:40 UK local MINUTE_LEVEL, same OCID 2025/S 000-073027 revised UK1",
+        "project": "UKHO Publications Storage and Fulfilment Services, planned start 2026-09-26, estimated GBP4m ex VAT; both are planning metadata only",
+        "exact_new_task_first_issuance_current_window": "FAIL_CURRENT_WINDOW: original project notice dated 2025 and 2025 revision; no verified new actual UK4 issuance in 2026-09-25/26",
+        "same_exact_open_payer_committed_nonlabor_unit": "UNKNOWN_NOT_PASS: speculative expected £4m contract value, not specific committed open unit, UK1 is pipeline rather than invitation; physical warehouse fulfilment is manual labor",
+        "access_limitation": "Notice HTML/PDF pages deny direct web access (403); only primary indexed notices metadata and official notice type guidance used; cannot make unobserved UK4 or historical award claims."
       }
     ],
     "joint_upstream_gate": "FAIL",
@@ -39,13 +38,13 @@
     "first_external_value_flow": "NOT_PROVEN",
     "new_scan170_branch_pr_ci_artifact": "NONE",
     "jev_project_status": "not used",
-    "historical_scan169_not_gen41": {
-      "exact_head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
+    "historical_scan169_separate": {
+      "head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
       "ci_run": 35951958496,
       "ci_conclusion": "success",
       "jev_run": 35951958490,
       "jev_conclusion": "success",
-      "jev_artifact_id": 10788952868,
+      "jev_artifact": 10788952868,
       "jev_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
     }
   },
@@ -97,9 +96,10 @@
     "Generation38 new UK school extracurricular enrichment delivery domain: first-party DfE/DCMS GOV.UK exact page clearly FIRST PUBLISHED 2026-09-18 day-level and UPDATED Sep25 only to add location list/selection criteria; Sep25 listing is not new exact owner task first issuance (FAIL in current window). GBP22.5m programme aggregate supports >400 schools with Youth Sport Trust already designated delivery partner, not source proof same exact still-unfilled already-paid outsider NONLABOR operating unit (FAIL_NOT_ESTABLISHED). Joint upstream FAIL, downstream NOT_INVESTIGATED, 0 retained/candidates/units, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN, no external effects, new CI/PR/artifact or real project Jev. Historical Scan169 CI/Jev jobs/artifact checked separately, not Gen38.",
     "Generation39 NEW King’s Lynn & West Norfolk municipal wastewater treatment/pumping-station maintenance and open-protocol telemetry equipment lot tender first-party buyer listing. Specific council procurement listed with deadline 2026-09-25 12 noon, not first issue; original first publication UNKNOWN, no valid Sep26 same exact owner issuance; deadline already past and no separately committed currently unfilled externally open NONLABOR unit/funding evidence (FAIL_NOT_ESTABLISHED). Joint upstream FAIL; all downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN, project Jev not used, no external action/branch/PR/CI/artifact. Historical Scan169 successful CI/Jev/jobs/artifact verified separately.",
     "Generation40 ONE genuinely new US federal GRC FISMA High SaaS nonlabor automation acquisition GG000000-26-00063. First-party SAM.gov ORIGINAL first-issued 2026-09-17 16:22 EDT (MINUTE_LEVEL), UPDATED Sep22 10:34 EDT, quotes due Sep28 11:00 EDT, updated notice Active and named US Commerce payer. Exact fresh first issue in Sep25-26 rolling window FAIL; buyer and open external SaaS procurement evidenced but separately ALREADY committed exact-unit funds UNKNOWN, so second gate UNKNOWN_NOT_PASS. Joint upstream FAIL; stop before all downstream. 0 retained/candidates/transaction units, NOT_PROVEN. No external calls or project Jev, no branch/PR/CI/artifact; historical Scan169 exact-head CI/Jev success separate.",
-    "Generation41 new HHS commercial clinical-trial Trialtrove+ information subscription domain, buyer's original SAM.gov Notice FDA-CITELINE-1292051 original Sep23 2026 18:35 EDT MINUTE_LEVEL, response due Sep25 15:00 EDT already passed Sep26, explicit NOTICE OF INTENT TO SOLE SOURCE Citeline. Upstream same exact new owner first issue current window FAIL; independent nonaffiliate current open exact unit FAIL and individually committed funding UNKNOWN. Joint FAIL. Stop downstream NOT_INVESTIGATED; 0 retained/candidates/units NOT_PROVEN. No project Jev, branch/PR/CI/artifact, external contact, transaction, personal data or other task writes; historical Scan169 runs/artifact are separate."
+    "Generation41 new HHS commercial clinical-trial Trialtrove+ information subscription domain, buyer's original SAM.gov Notice FDA-CITELINE-1292051 original Sep23 2026 18:35 EDT MINUTE_LEVEL, response due Sep25 15:00 EDT already passed Sep26, explicit NOTICE OF INTENT TO SOLE SOURCE Citeline. Upstream same exact new owner first issue current window FAIL; independent nonaffiliate current open exact unit FAIL and individually committed funding UNKNOWN. Joint FAIL. Stop downstream NOT_INVESTIGATED; 0 retained/candidates/units NOT_PROVEN. No project Jev, branch/PR/CI/artifact, external contact, transaction, personal data or other task writes; historical Scan169 runs/artifact are separate.",
+    "Generation42 ONE new UK Hydrographic Office nautical publications warehouse/fulfilment logistics domain: indexed owner first-party Find a Tender original UK1 pipeline 2025-05-27 12:39 UK local and revised UK1 same OCID 2025-11-12 09:40; expected £4m estimated 4-year contract start 2026-09-26 is planned start, not exact Sep25/26 new task first issuance or proven already committed funds. Current-window exact owner first issuance FAIL; same named present unfilled committed payer-funded independently externally executable NONLABOR unit UNKNOWN_NOT_PASS (UK1 planning, physical warehouse labor). Joint FAIL, downstream NOT_INVESTIGATED, 0 retained/candidates/units NOT_PROVEN; no new branch/PR/workflow/project Jev or external actions. Direct first-party HTML/PDF access 403, only indexed official metadata used. Historic Scan169 CI/Jev artifact distinct."
   ],
-  "next_action": "Generation42: refresh live GitHub main, AGENTS, stale TASK_STATE context, Issue143 and only Scan170 own recovery generation/blob plus applicable branches/open PR/exact-head CI/Actions/jobs/artifacts. Seek ONE entirely new unexamined original buyer/owner-first-party domain not covered generations3–41, on the actually current execution-date rolling window; explicitly distinguish original first publication from notice updates, index crawls, deadlines and historical sources. Require two independent first-party upstream proofs for SAME exact named task: (1) buyer FIRST ISSUANCE of new exact task within current date window, (2) presently still UNFILLED open independent nonaffiliate externally commissionable NONLABOR operating unit with named payer and ALREADY COMMITTED exact-unit funds. Do not infer available nonaffiliate rights from government sole-source notice, 'Active', agency budget or subscription renewal. On either FAIL or UNKNOWN stop same-source downstream authorization/legal payee/receipt/native gap/repetition/economics; CAS write ONLY current Scan170 task cursor with primary link/time precision/two verdicts, 0 retained/candidates/units NOT_PROVEN, actual project Jev use and exactly one subsequent next_action; keep Issue143 OPEN, no zero-candidate PR, new branch/workflow or external contact, bidding, signup, payment, signature, transaction, restricted data. If both upstream PASS, document both on same unit and only hand off later same-unit downstream evidence checks under existing permissions.",
+  "next_action": "Generation43: independently reread live main AGENTS and stale TASK_STATE as context, Issue143, ONLY Scan170 dedicated state/chatgpt-recovery generation/blob and relevant branches/open PR/exact-head CI/Actions/jobs/artifacts. Select ONE genuinely new previously unexamined first-party original buyer/owner domain outside generations3-42. On execution-date rolling window require verified first OWNER ISSUANCE of SAME EXACT NEW operating task, distinguish published date from revision, search index, pipeline expected contract start, planned value, deadline, prior award and general press. Independently prove SAME specific named presently UNFILLED OPEN to nonaffiliate independent outside NONLABOR operations, identified specific payer and source-grounded ALREADY COMMITTED unit funding; estimated multi-year procurement pipeline value is not dedicated funding. If either upstream FAIL/UNKNOWN stop downstream immediately, CAS update ONLY own Scan170 cursor with primary URL/time precision/dual gate verdicts/0 retained/candidates/units NOT_PROVEN, real project Jev count and ONE next_action. Keep #143 OPEN; no empty PR, workflow, external contact, registration, bid, payment, signature, trade or restricted data. Only when both gates pass on same unit hand off subsequent authorized action-right, legal payee, real comparable settled receipt, native unfilled state, repeatability and net economic checks without unsolicited code or external execution.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -137,7 +137,8 @@
     "Generation38 GOV.UK DfE/DCMS Enrichment Expansion Programme GBP22.5m >400 schools and Youth Sport Trust named delivery partner: owner press FIRST PUBLISHED Sept18 2026; Sept25 update ONLY adds geographic list. Do not misread listing Sep25 as fresh owner task issuance or assume programme funds an unfilled independent NONLABOR task.",
     "Generation39 Council of King's Lynn & West Norfolk first-party Sewage Treatment Plants Maintenance and Replacement of Telemetry Units tender: Sep25 2026 12 noon is bid DEADLINE, not original tender issue; Sep26 execution after deadline, 2 lots for labor maintenance and equipment replacement, no source-grounded still-open separately funded independent NONLABOR operating unit; do not promote or recheck absent wholly new first-party specific procurement issuance.",
     "Generation40 Department of Commerce SSPO GRC FISMA High SaaS GG000000-26-00063: genuine active first-party buyer SaaS tender, but SAM.gov ORIGINAL Sep17 2026 16:22 EDT, amended Sep22 10:34, Sep28 offers due. Active status/upcoming deadline does not imply first issuance Sep25-26 or independently confirmed ring-fenced funds. Never reclassify amendment as new task.",
-    "Generation41 HHS original Sep23 18:35 EDT Citeline Trialtrove+ sole-source SAM.gov FDA-CITELINE-1292051, responses Sep25 15:00 EDT: do not treat Sep26 portal crawl, Active label, future inactive date or sole-source notice as fresh task openly available to independent nonaffiliates or payer-committed separate operating unit."
+    "Generation41 HHS original Sep23 18:35 EDT Citeline Trialtrove+ sole-source SAM.gov FDA-CITELINE-1292051, responses Sep25 15:00 EDT: do not treat Sep26 portal crawl, Active label, future inactive date or sole-source notice as fresh task openly available to independent nonaffiliates or payer-committed separate operating unit.",
+    "Generation42 UK Hydrographic Office Publications Storage and Fulfilment Services Find a Tender OCID ocds-h6vhtk-0526f0: original UK1 PIPELINE May27 2025 12:39 UK local, revision Nov12 2025 09:40, GBP4m ESTIMATED, planned 2026-09-26 start not new task. Do not infer new September 2026 first issuance, exact committed funds, still-unfilled nonlabor external operational unit or a UK4 tender without new primary evidence."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -1166,5 +1167,35 @@
     "monitor_jev": "Any monitoring-only use cannot count as actual project Jev or generated artifact",
     "external_side_effects_performed": false,
     "excluded_previous_domains": "No reset-predecessor case or domains already rejected Scan170 generations3–40 revived."
+  },
+  "gen42_preflight": {
+    "as_of_date": "2026-09-26",
+    "window": "September 26 2026 execution day; September 25 allowed only if buyer first-issued same exact still-open task then; pipeline expected start Sep26 is not task issuance",
+    "new_domain": "UK Hydrographic Office printed nautical/publication inventory physical storage and fulfilment logistics procurement pipeline",
+    "method": "ONE new buyer primary-source procurement domain; independently test original exact first task issuance and same named present unfilled nonaffiliate nonlabor funded unit, hard stop downstream when either fails; no sourcing of other old or reset domains",
+    "source_registry": [
+      {
+        "buyer_owner": "UK Hydrographic Office",
+        "official_find_tender_original_notice_url": "https://www.find-tender.service.gov.uk/Notice/027710-2025",
+        "official_find_tender_revised_notice_url": "https://www.find-tender.service.gov.uk/Notice/073027-2025",
+        "original_indexed_primary_notice": "2025-05-27 12:39 UK local, MINUTE_LEVEL; 2025/S 000-027710 UK1 PIPELINE notice, OCID ocds-h6vhtk-0526f0",
+        "revision_indexed_primary_notice": "2025-11-12 09:40 UK local, MINUTE_LEVEL; 2025/S 000-073027 edited same OCID historical UK1 PIPELINE notice",
+        "specific_project": "Publications Storage and Fulfilment Services; buyer UK Hydrographic Office; estimated contract value GBP4000000 excl VAT (GBP4800000 incl VAT); expected four-year contract 2026-09-26 through 2030-09-25, which is planned START not a new owner-issued task.",
+        "source_access_and_precision": "Official Find a Tender original and revised first-party notice search indexing supplies minute timestamps, nature, OCID and estimated value; direct HTML/PDF open currently 403, so do not claim full notice review nor certify that no separate subsequently issued UK4 tender exists. Official Find a Tender Notice Types documentation defines UK1 as potential future contracts rather than UK4 tender invitation. No nonpublic procurement login used.",
+        "first_owner_issuance_of_same_exact_new_current_task_gate": "FAIL_CURRENT_WINDOW: evidenced initial first-party project UK1 planning notice 2025-05-27, Nov12 2025 edited same notice, not a newly first-issued exact external paid task Sep25/26 2026; no first-party Sep25/26 original UK4 task found in bounded research; cannot use predicted Sep26 contract start or indexing date as task issuance.",
+        "same_named_still_unfilled_independent_outsider_nonlabor_unit_committed_named_payer_funds_gate": "UNKNOWN_NOT_PASS: buyer UKHO and GBP4m estimated multi-year value refer to prospective contract PIPELINE only; do not treat estimated value as exact-unit already committed available procurement funds; original/revised UK1 do not prove a currently still-unfilled outwardly callable independent nonaffiliate repeatable NONLABOR operating task. Physical storage/fulfilment contains manual logistics labor and cannot simply be reclassified as independent digital automation.",
+        "joint_upstream_gate": "FAIL",
+        "rejection": "Old UK1 and revised UK1 constitute project planning, not newly signed original task. Planned contract start falls on execution day by coincidence and pipeline approximate GBP4m is forecast, not verified ring-fenced outstanding outsider NONLABOR operating unit."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "project_jev_actual_invocations": 0,
+    "jev_project_status": "not used",
+    "external_side_effects_performed": false
   }
 }
