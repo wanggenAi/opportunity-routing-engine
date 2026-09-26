@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 39,
+  "generation": 40,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN39_KINGS_LYNN_SEWAGE_TELEMETRY_BUYER_TENDER_DEADLINE_PASSED_FIRST_ISSUANCE_UNKNOWN_SAME_OPEN_FUNDED_NONLABOR_UNIT_FAIL",
+  "stage": "GEN40_US_COMMERCE_FEDERAL_GRC_FISMA_HIGH_SAAS_SEP17_ORIGINAL_SEP22_AMENDMENT_NO_FRESH_EXACT_ISSUANCE_SAME_UNIT_FUNDS_UNKNOWN",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,32 +16,41 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN39_OWNER_EXACT_MUNICIPAL_WASTEWATER_TELEMETRY_TENDER_DEADLINE_SEP25_NOT_FIRST_ISSUANCE_OR_SEP26_OPEN_NONLABOR_UNIT",
+    "status": "GEN40_US_FEDERAL_CLOUD_GRC_ORIGINAL_SEP17_OUTSIDE_WINDOW_AND_EXACT_UNIT_FUNDING_UNVERIFIED",
     "evidence": [
       {
-        "first_party_owner_url": "https://www.west-norfolk.gov.uk/info/20150/doing_business_with_us/331/current_tender_opportunities",
-        "owner": "Borough Council of King's Lynn & West Norfolk",
-        "exact_task": "Sewage Treatment Plants Maintenance and Replacement of Telemetry Units; two distinct lots: physical maintenance and open-protocol equipment replacement",
-        "original_issuance": "UNKNOWN; no dated original owner notice on official listing inspected",
-        "verified_date": "2026-09-25 12 noon local UK published as submission DEADLINE; precision to minute for deadline only, not task issuance",
-        "execution_day": "2026-09-26",
-        "gate_first_owner_issuance": "UNKNOWN_NOT_PASS",
-        "gate_same_named_currently_open_funded_nonlabor": "FAIL_NOT_ESTABLISHED: past deadline, no re-opening/committed exact operations funds, advertised lots physical labor/equipment rather than proven NONLABOR operating task"
+        "owner": "US Department of Commerce, Office of the Secretary / SSPO",
+        "source_original": "https://sam.gov/opp/1cc0fd628d5e4563b0a553d5b54e06ce/view",
+        "source_updated": "https://sam.gov/opp/2d6c5ad85a5948b2b678d543bb2fa8d4/view",
+        "solicitation": "GG000000-26-00063 commercial FISMA High SaaS GRC automation platform",
+        "owner_original": "2026-09-17 16:22 EDT, MINUTE_LEVEL original",
+        "revision": "2026-09-22 10:34 EDT, MINUTE_LEVEL updated",
+        "due": "2026-09-28 11:00 EDT, MINUTE_LEVEL deadline",
+        "current_owner_posting": "Active first-party listing, award fields not populated",
+        "upstream_first_new_task_issuance": "FAIL_CURRENT_WINDOW",
+        "upstream_exact_unit_unfilled_funded_external_nonlabor": "UNKNOWN_NOT_PASS; payer named and external SaaS tender active, but no source-demonstrated already committed exact-unit funding",
+        "joint": "FAIL",
+        "access_note": "first-party SAM.gov indexed original text used; dynamic HTML direct-open renders no substantive lines"
       }
     ],
     "joint_upstream_gate": "FAIL",
     "downstream_gates": "NOT_INVESTIGATED",
     "new_scan170_branch_pr_ci_artifact": "NONE",
     "jev_project_status": "not used",
-    "historical_scan169_not_gen39": {
-      "pr_exact_head": "632a535356193ca08e760e37c6e21af1c947b5ba",
+    "historical_scan169_only": {
+      "exact_pr_head": "632a535356193ca08e760e37c6e21af1c947b5ba",
       "ci_run": 35951958496,
-      "ci_test_job": 107482199241,
-      "ci_result": "success",
+      "ci_job": 107482199241,
+      "ci_conclusion": "success",
       "jev_run": 35951958490,
-      "jev_result": "success",
+      "jev_jobs": [
+        107482199574,
+        107482246836
+      ],
+      "jev_conclusion": "success",
       "jev_artifact_id": 10788952868,
-      "jev_artifact_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
+      "jev_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704",
+      "combined_commit_status": "no individual statuses returned; workflow run confirms success"
     }
   },
   "pending_operation": null,
@@ -90,9 +99,10 @@
     "Generation36 ONE new transport railway-station accessibility capital investment: Telford & Wrekin Council first-party Sep25 DAY_LEVEL council GBP700000 investment towards Wellington Station bridge and two lifts, scheme pursued since 2018 and Network Rail already named delivery actor. No first publication of SAME exact fresh third-party paid nonlabor task (UNKNOWN), no same specifically funded presently unfilled outsider nonlabor operations unit (FAIL). Joint upstream FAIL; downstream NOT_INVESTIGATED, 0 retained/0 candidates/0 units, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN. No new branch/PR/CI/artifact or external effects; project Jev not used. Historical Scan169 exact-head CI/Jev artifact separately confirmed not counted as Gen36.",
     "Generation37 ONE new BFI film/video cultural archive digitisation sourcing domain: buyer first-party Find a Tender procurement index OCID ocds-h6vhtk-04e6d3 original external supplier framework contract notice 2025-02-21 14:29 and award notice 2025-09-09 18:09. These are genuine same-procurement buyer dates, not current-window exact first task issuance. Fresh exact issuance FAIL; same presently unfilled named committed payer-funded independently callable NONLABOR task FAIL_NOT_ESTABLISHED from bounded source (do not invent future call-offs). Joint upstream FAIL, downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN, no new branch/PR/CI/project Jev or external effects. Direct first-party HTML 403, indexed first-party dates used only. Historical Scan169 workflow/artifact not Gen37.",
     "Generation38 new UK school extracurricular enrichment delivery domain: first-party DfE/DCMS GOV.UK exact page clearly FIRST PUBLISHED 2026-09-18 day-level and UPDATED Sep25 only to add location list/selection criteria; Sep25 listing is not new exact owner task first issuance (FAIL in current window). GBP22.5m programme aggregate supports >400 schools with Youth Sport Trust already designated delivery partner, not source proof same exact still-unfilled already-paid outsider NONLABOR operating unit (FAIL_NOT_ESTABLISHED). Joint upstream FAIL, downstream NOT_INVESTIGATED, 0 retained/candidates/units, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN, no external effects, new CI/PR/artifact or real project Jev. Historical Scan169 CI/Jev jobs/artifact checked separately, not Gen38.",
-    "Generation39 NEW King’s Lynn & West Norfolk municipal wastewater treatment/pumping-station maintenance and open-protocol telemetry equipment lot tender first-party buyer listing. Specific council procurement listed with deadline 2026-09-25 12 noon, not first issue; original first publication UNKNOWN, no valid Sep26 same exact owner issuance; deadline already past and no separately committed currently unfilled externally open NONLABOR unit/funding evidence (FAIL_NOT_ESTABLISHED). Joint upstream FAIL; all downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN, project Jev not used, no external action/branch/PR/CI/artifact. Historical Scan169 successful CI/Jev/jobs/artifact verified separately."
+    "Generation39 NEW King’s Lynn & West Norfolk municipal wastewater treatment/pumping-station maintenance and open-protocol telemetry equipment lot tender first-party buyer listing. Specific council procurement listed with deadline 2026-09-25 12 noon, not first issue; original first publication UNKNOWN, no valid Sep26 same exact owner issuance; deadline already past and no separately committed currently unfilled externally open NONLABOR unit/funding evidence (FAIL_NOT_ESTABLISHED). Joint upstream FAIL; all downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN, project Jev not used, no external action/branch/PR/CI/artifact. Historical Scan169 successful CI/Jev/jobs/artifact verified separately.",
+    "Generation40 ONE genuinely new US federal GRC FISMA High SaaS nonlabor automation acquisition GG000000-26-00063. First-party SAM.gov ORIGINAL first-issued 2026-09-17 16:22 EDT (MINUTE_LEVEL), UPDATED Sep22 10:34 EDT, quotes due Sep28 11:00 EDT, updated notice Active and named US Commerce payer. Exact fresh first issue in Sep25-26 rolling window FAIL; buyer and open external SaaS procurement evidenced but separately ALREADY committed exact-unit funds UNKNOWN, so second gate UNKNOWN_NOT_PASS. Joint upstream FAIL; stop before all downstream. 0 retained/candidates/transaction units, NOT_PROVEN. No external calls or project Jev, no branch/PR/CI/artifact; historical Scan169 exact-head CI/Jev success separate."
   ],
-  "next_action": "Generation40: re-read live main, AGENTS and TASK_STATE (stale only), Issue143, Scan170 dedicated state/chatgpt-recovery cursor generation/blob and relevant branches/open PR/exact-head checks/Actions/jobs/artifacts. Select exactly ONE entirely new owner-first-party domain not previously covered Scan170 generations3–39, prioritizing ORIGINAL buyer/owner-issued exact named task with proof of FIRST publication inside execution-day rolling window (if Saturday/weekend no newly issuances, do not manufacture dates). Separately require same exact named STILL-UNFILLED presently open to independent nonaffiliate external NONLABOR operations with identifiable named payer and already committed same-unit funding. Distinguish procurement FIRST-ISSUE date from deadline, portal listing, procurement stage, award, press release and historic frameworks; exclude physical labor and equipment delivery unless independently evidenced discrete NONLABOR operator unit. If either upstream FAIL or UNKNOWN stop all downstream, generation+current-blob CAS persist only existing Scan170 cursor with primary URL/time precision/two gate verdicts/0 retained candidates units, NOT_PROVEN, actual project Jev status and one following next_action; keep Issue143 OPEN, no zero-candidate PR or external actions. Only if both upstream PASS persist exact proof for subsequent same-unit independent authorization, legal payee, genuine settled receipt, native open, nonlabor repeat and net economics stage without contacting/registration/bid/payment/transaction.",
+  "next_action": "Generation41: independently refresh live main, AGENTS.md, TASK_STATE.md (stale Scan169 context), Issue143, Scan170 single dedicated recovery generation/blob and all applicable branches/open PR/exact-head checks/Actions/jobs/artifacts. Choose exactly ONE new owner first-party domain not covered generations3-40. Prioritize true ORIGINAL first issuance of a specific named operating task on current execution rolling date, not a Saturday-indexed older solicitation, amendment, future deadline, press article, recycled grant or cross-domain inference. Independently verify SAME named still-unfilled independent nonaffiliate externally open NONLABOR unit has IDENTIFIED specific payer and verifiable ALREADY COMMITTED exact-unit funds; an active open software bid alone without budget proof does not satisfy funding. Record original and updated timestamps at disclosed precision. If either gate FAIL/UNKNOWN stop all downstream and generation+current-blob CAS persist ONLY Scan170 cursor first-party URLs/dates/both verdicts, 0 retained/candidates/units, NOT_PROVEN, actual project Jev calls and exactly ONE next action; leave #143 OPEN, no empty PR or external contact, signups, bidding, payments, transactions or restricted data. If both upstream PASS, only persist evidence and handoff to subsequent same-unit authorization/legal payee/actual settled comparator/native gap/recurrence/net economics checks with no unsanctioned code/branch/PR/transaction this round.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -128,7 +138,8 @@
     "Gen36 2026-09-25 Telford & Wrekin Wellington Railway Station GBP700000 council footbridge capital commitment, existing Network Rail Access for All delivery, scheme first proposed 2018. Progress release is not fresh exact paid nonlabor task; capital allocation does not imply separately funded externally open independent operating unit.",
     "Generation37 British Film Institute Video Digitisation Services framework OCID ocds-h6vhtk-04e6d3: 2025-02-21 14:29 original tender, 2025-09-09 18:09 award; do not mistake crawled 2026 page or future call-off speculation for freshly owner-issued same exact paid open task.",
     "Generation38 GOV.UK DfE/DCMS Enrichment Expansion Programme GBP22.5m >400 schools and Youth Sport Trust named delivery partner: owner press FIRST PUBLISHED Sept18 2026; Sept25 update ONLY adds geographic list. Do not misread listing Sep25 as fresh owner task issuance or assume programme funds an unfilled independent NONLABOR task.",
-    "Generation39 Council of King's Lynn & West Norfolk first-party Sewage Treatment Plants Maintenance and Replacement of Telemetry Units tender: Sep25 2026 12 noon is bid DEADLINE, not original tender issue; Sep26 execution after deadline, 2 lots for labor maintenance and equipment replacement, no source-grounded still-open separately funded independent NONLABOR operating unit; do not promote or recheck absent wholly new first-party specific procurement issuance."
+    "Generation39 Council of King's Lynn & West Norfolk first-party Sewage Treatment Plants Maintenance and Replacement of Telemetry Units tender: Sep25 2026 12 noon is bid DEADLINE, not original tender issue; Sep26 execution after deadline, 2 lots for labor maintenance and equipment replacement, no source-grounded still-open separately funded independent NONLABOR operating unit; do not promote or recheck absent wholly new first-party specific procurement issuance.",
+    "Generation40 Department of Commerce SSPO GRC FISMA High SaaS GG000000-26-00063: genuine active first-party buyer SaaS tender, but SAM.gov ORIGINAL Sep17 2026 16:22 EDT, amended Sep22 10:34, Sep28 offers due. Active status/upcoming deadline does not imply first issuance Sep25-26 or independently confirmed ring-fenced funds. Never reclassify amendment as new task."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -1088,6 +1099,39 @@
     "project_jev_actual_calls": 0,
     "jev_project_status": "not used",
     "monitor_jev": "Supervisory routing Jev (if used) must not count as project invocation or artifact",
+    "external_side_effects_performed": false
+  },
+  "gen40_preflight": {
+    "as_of_date": "2026-09-26",
+    "rolling_window": "Current execution-date 2026-09-26; Sep25 only if same exact buyer ORIGINAL newly published task proven still open. Sep22 amendment of Sep17 original cannot pass.",
+    "new_domain": "US federal cloud Governance Risk Compliance (GRC) FISMA High SaaS compliance-control automation procurement",
+    "method": "ONE new owner first-party SAM.gov same exact solicitation original vs revision date; dual upstream gates only, hard stop no downstream on any FAIL/UNKNOWN",
+    "source_registry": [
+      {
+        "owner_and_named_payer": "US Department of Commerce, Office of the Secretary, Department of Commerce Shared Services Procurement Office (SSPO)",
+        "first_party_original_notice_url": "https://sam.gov/opp/1cc0fd628d5e4563b0a553d5b54e06ce/view",
+        "first_party_updated_notice_url": "https://sam.gov/opp/2d6c5ad85a5948b2b678d543bb2fa8d4/view",
+        "first_party_source_access": "SAM.gov first-party indexed original and updated notice content accessible through public search; dynamic webpage direct open contains no rendered details (one line). Exact first-issued timestamp confirmed by first-party indexed original notice and History on original page, cross-consistent with update; not treating search crawl date as issuance.",
+        "named_exact_task": "GG000000-26-00063: commercial Cloud-Based GRC / Cyber Risk Compliance Automation Platform (FISMA High SaaS), automating FISMA documentation, AI-assisted control drafting and continuous monitoring reporting. Solicitation specifies this is not RMF assessment labor.",
+        "owner_exact_original_issuance_date": "2026-09-17 16:22 EDT MINUTE_LEVEL, expressly Solicitation (Original) SAM.gov first-party notice and History",
+        "owner_revision_date": "2026-09-22 10:34 EDT MINUTE_LEVEL Solicitation (Updated), not new exact task issuance",
+        "owner_offers_due": "2026-09-28 11:00 EDT MINUTE_LEVEL deadline, not first issuance",
+        "current_first_party_status": "Updated first-party notice displays Active and revised offers due 2026-09-28; award fields blank; open bid status alone not proof of committed exact unit budget.",
+        "upstream_owner_first_publication_same_exact_new_task_gate": "FAIL_CURRENT_WINDOW. First-party original task Sep17 (minute-level), amended Sep22. Neither is Sep25-26 first-issued exact new task. No inference from Sep26 search index or upcoming due date.",
+        "upstream_same_exact_named_currently_unfilled_payer_funded_external_nonlabor_unit_gate": "UNKNOWN_NOT_PASS. Named Department of Commerce buyer and currently Active external SaaS solicitation satisfy meaningful portions of this gate; software cloud automation is nonlabor-like rather than RMF assessment labor. However public notice does not disclose first-party independently verifiable specific committed/appropriated same-unit funding or guaranteed available obligated purchase. Do not infer from 'Active', $0 award display, estimated contract values from marketplaces or agency aggregate budget. Independently accessible for bidding is not yet an authorized nonaffiliate standalone execution right (downstream not investigated).",
+        "joint_upstream_gate": "FAIL",
+        "reason": "Strong real outsourced SaaS owner procurement compared with news releases, but ORIGINAL issuance Sep17 outside strict window, and unit-specific funding has not been first-party verified. No relaxation of Saturday rolling-date gate."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "actual_project_jev_invocations": 0,
+    "jev_project_status": "not used",
+    "monitor_jev": "External supervisor Jev is never the Scan170 project Jev or artifact",
     "external_side_effects_performed": false
   }
 }
