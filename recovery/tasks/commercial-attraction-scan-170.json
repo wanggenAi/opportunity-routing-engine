@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 37,
+  "generation": 38,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN37_BFI_VIDEO_ARCHIVE_DIGITISATION_HISTORICAL_2025_FIRST_ISSUANCE_AND_AWARD_NOT_NEW_OPEN_SAME_FUNDED_UNIT",
+  "stage": "GEN38_UK_SCHOOL_ENRICHMENT_AGGREGATE_2026_SEP18_ORIGINAL_NEWS_SEP25_UPDATED_AREAS_NOT_EXACT_FRESH_FUNDED_OPEN_NONLABOR_TASK",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,32 +16,32 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN37_BFI_2025_ORIGINAL_BID_AND_AWARD_NOT_FRESH_2026_ISSUED_SAME_OPEN_FUNDED_NONLABOR_UNIT",
+    "status": "GEN38_DFE_ENRICHMENT_PROGRAMME_SEP18_ORIGINAL_SEP25_AREAS_UPDATE_NO_FIRST_ISSUED_OPEN_SAME_FUNDED_NONLABOR_UNIT",
     "evidence": [
       {
-        "url": "https://www.find-tender.service.gov.uk/procurement/ocds-h6vhtk-04e6d3",
-        "buyer": "British Film Institute",
-        "original_notice": "2025-02-21 14:29 first-party original contract notice 2025/S 000-006826",
-        "historical_award": "2025-09-09 18:09 F03 contract award notice 2025/S 000-055184",
-        "timestamp_precision": "MINUTE_PRECISION as presented in first-party Find a Tender procurement index; local UK page times not converted to UTC",
-        "original_procurement_stage": "Historical procurement first tender and award; no present exact call-off commitment established",
-        "access": "first-party web search index confirms first dates; direct page fetch 403",
-        "gate_fresh_first_owner_exact_task": "FAIL",
-        "gate_same_now_unfilled_funded_outsider_nonlabor_unit": "FAIL_NOT_ESTABLISHED"
+        "first_party_url": "https://www.gov.uk/government/news/more-enriching-activities-for-hundreds-of-thousands-of-children",
+        "precision": "DAY_LEVEL; exact original hour UNKNOWN",
+        "original_page": "2026-09-18 explicit GOV.UK first published",
+        "update": "2026-09-25 GOV.UK explicitly 'Added a list of enrichment expansion programme areas and information about how they were selected'; not a task offer",
+        "program": "DCMS-funded GBP22.5m >400 schools; Youth Sport Trust already selected delivery partner",
+        "gate_fresh_exact_owner_first_task_issuance": "FAIL_CURRENT_WINDOW (discrete paid task issuance otherwise UNKNOWN)",
+        "gate_same_current_unfilled_independently_open_already_funded_nonlabor_unit": "FAIL_NOT_ESTABLISHED",
+        "reason": "Original press release older than window, update geographic list only, aggregate funding not named open separate paid operator unit."
       }
     ],
     "joint_upstream_gate": "FAIL",
     "downstream_gates": "NOT_INVESTIGATED",
-    "scan170_new_branch_pr_ci_artifact": "NONE",
+    "new_scan170_branch_pr_ci_artifact": "NONE",
     "jev_project_status": "not used",
-    "historical_scan169_not_gen37": {
-      "pr_head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
+    "historical_scan169_only": {
+      "exact_head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
       "ci_run": 35951958496,
-      "ci_result": "success",
+      "ci_test_job": 107482199241,
+      "ci_conclusion": "success",
       "jev_run": 35951958490,
-      "jev_result": "success",
-      "jev_artifact_id": 10788952868,
-      "jev_artifact_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
+      "jev_conclusion": "success",
+      "jev_artifact": 10788952868,
+      "jev_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
     }
   },
   "pending_operation": null,
@@ -88,9 +88,10 @@
     "Generation34 UK government DBS digital result-sharing beta reassessment first-party report Sep25 day-level (actual assessment July31) recommends automated GitLab->GitHub deployments, but neither first issuance of EXACT newly offered external paid task (UNKNOWN) nor specific named already-funded still-unfilled independently commissionable nonlabor operating unit (FAIL) is evidenced. Joint upstream FAIL; downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN. Did not access criminal-record personal data. No new PR/CI/artifact, project Jev not used. Separately confirmed historical Scan169 exact-head CI/Jev/jobs/artifact; do not attribute to Gen34.",
     "Generation35 UK Environment Agency Sep25 day-level first-party industrial environmental permit application notice and regulator consultation for GRS Roadstone Limited, Luton Railhead EPR/WE2918AC/V002. Owner first publication of EXACT paid independent task UNKNOWN; first-party regulator notice not applicant task offer. Identified applicant not evidenced as committed payer for a still-unfilled external NONLABOR operator commission, so same-unit gate FAIL and joint upstream FAIL. All downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN. Historical Scan169 CI/Jev/jobs/artifact reverified but not Gen35. No external actions, project Jev not used, no PR.",
     "Generation36 ONE new transport railway-station accessibility capital investment: Telford & Wrekin Council first-party Sep25 DAY_LEVEL council GBP700000 investment towards Wellington Station bridge and two lifts, scheme pursued since 2018 and Network Rail already named delivery actor. No first publication of SAME exact fresh third-party paid nonlabor task (UNKNOWN), no same specifically funded presently unfilled outsider nonlabor operations unit (FAIL). Joint upstream FAIL; downstream NOT_INVESTIGATED, 0 retained/0 candidates/0 units, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN. No new branch/PR/CI/artifact or external effects; project Jev not used. Historical Scan169 exact-head CI/Jev artifact separately confirmed not counted as Gen36.",
-    "Generation37 ONE new BFI film/video cultural archive digitisation sourcing domain: buyer first-party Find a Tender procurement index OCID ocds-h6vhtk-04e6d3 original external supplier framework contract notice 2025-02-21 14:29 and award notice 2025-09-09 18:09. These are genuine same-procurement buyer dates, not current-window exact first task issuance. Fresh exact issuance FAIL; same presently unfilled named committed payer-funded independently callable NONLABOR task FAIL_NOT_ESTABLISHED from bounded source (do not invent future call-offs). Joint upstream FAIL, downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN, no new branch/PR/CI/project Jev or external effects. Direct first-party HTML 403, indexed first-party dates used only. Historical Scan169 workflow/artifact not Gen37."
+    "Generation37 ONE new BFI film/video cultural archive digitisation sourcing domain: buyer first-party Find a Tender procurement index OCID ocds-h6vhtk-04e6d3 original external supplier framework contract notice 2025-02-21 14:29 and award notice 2025-09-09 18:09. These are genuine same-procurement buyer dates, not current-window exact first task issuance. Fresh exact issuance FAIL; same presently unfilled named committed payer-funded independently callable NONLABOR task FAIL_NOT_ESTABLISHED from bounded source (do not invent future call-offs). Joint upstream FAIL, downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN, no new branch/PR/CI/project Jev or external effects. Direct first-party HTML 403, indexed first-party dates used only. Historical Scan169 workflow/artifact not Gen37.",
+    "Generation38 new UK school extracurricular enrichment delivery domain: first-party DfE/DCMS GOV.UK exact page clearly FIRST PUBLISHED 2026-09-18 day-level and UPDATED Sep25 only to add location list/selection criteria; Sep25 listing is not new exact owner task first issuance (FAIL in current window). GBP22.5m programme aggregate supports >400 schools with Youth Sport Trust already designated delivery partner, not source proof same exact still-unfilled already-paid outsider NONLABOR operating unit (FAIL_NOT_ESTABLISHED). Joint upstream FAIL, downstream NOT_INVESTIGATED, 0 retained/candidates/units, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN, no external effects, new CI/PR/artifact or real project Jev. Historical Scan169 CI/Jev jobs/artifact checked separately, not Gen38."
   ],
-  "next_action": "Generation38: refresh live main/AGENTS/TASK_STATE (stale is non-authoritative), Issue143, only Scan170 independently owned recovery generation/blob and applicable branches/open PR/exact-head Actions/jobs/artifacts. Pick ONE previously unexamined owner-first-party domain not covered Scan170 generations3-37. Prioritize first-party ORIGINAL EXACT NEW TASK issuance in execution-date rolling window (Sep26 or later, Sep25 if verifiably new and currently still open), rather than historical tender whose 2025 first notice or award is indexed today. Independently prove on same named exact unit current unfilled outsider-accessible NONLABOR operations plus identified payer and ALREADY committed same-unit funding, not merely historic framework or possible future call-offs. If either upstream FAIL/UNKNOWN, stop all downstream, CAS update only Scan170 cursor with verifiable primary URL/time precision/two verdicts/0 retained,candidates,units/NOT_PROVEN/real project Jev usage/ONE next_action, keep Issue143 OPEN, no empty PR or external actions. Only if both upstream gates PASS on SAME exact task may subsequent stage verify pre-authorized independent nonaffiliate execution right, legal payee, comparable real settled receipts, native outstanding, nonlabor recurrence, net economics before substantive fresh-main branch/PR exact-head CI and genuinely run project TypeSafe/Jev artifact.",
+  "next_action": "Generation39: re-read live main, AGENTS.md and TASK_STATE.md (historical only), Issue143, only Scan170 dedicated recovery generation/blob and related branches/open PR/exact-head Actions/jobs/artifacts. Research ONE new independent owner-first-party domain never used in Scan170 generations3-38. First search specifically for original owner-issued EXACT named task first-publication on current rolling execution-date window rather than indexed/reposted/updated government programme pages or old contract pipeline notice. Independently require SAME exact named currently STILL UNFILLED NONLABOR operating unit openly commissionable to nonaffiliate external independent actor with SPECIFIC identified payer and ALREADY committed same-unit funds; aggregate programme budget or named incumbent partner not sufficient. Missing task issue date or exact unit evidence is UNKNOWN != PASS. If either upstream fails stop before all downstream (authorization, legal payee, comparable settled receipt, native gap, recurrence, net economics) and perform generation+blob CAS write ONLY to existing Scan170 cursor logging first-party URL/precise actual first date/updates, two gates, 0/0/0 NOT_PROVEN, project Jev actual calls and exactly one next_action. Maintain #143 OPEN and no empty PR or external actions. If both upstream gates PASS, persist proof and arrange next same-unit downstream authorization/receipt/economic verification subject to existing rules, not unsolicited bids or PR.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -124,7 +125,8 @@
     "Generation34 GDS Sep25 DBS digital View or Share beta reassessment report reflects July31 assessment and recommendations on automating GitLab deployment, not same exact first-issued payer-funded still-unfilled external NONLABOR task; GDS spend approval is conditional, not proven committed. Never access private background-check results.",
     "Generation35 Environment Agency first-party Sep25 GRS (Roadstone) Limited Luton Railhead permit variation EPR/WE2918AC/V002 consultation; regulator first publicity and public COMMENT right != company first-issued funded outsider commercial task; document filenames suggest older variations. No same-unit external nonlabor work evidence; do not count as candidate without genuinely fresh applicant-issued funded open task.",
     "Gen36 2026-09-25 Telford & Wrekin Wellington Railway Station GBP700000 council footbridge capital commitment, existing Network Rail Access for All delivery, scheme first proposed 2018. Progress release is not fresh exact paid nonlabor task; capital allocation does not imply separately funded externally open independent operating unit.",
-    "Generation37 British Film Institute Video Digitisation Services framework OCID ocds-h6vhtk-04e6d3: 2025-02-21 14:29 original tender, 2025-09-09 18:09 award; do not mistake crawled 2026 page or future call-off speculation for freshly owner-issued same exact paid open task."
+    "Generation37 British Film Institute Video Digitisation Services framework OCID ocds-h6vhtk-04e6d3: 2025-02-21 14:29 original tender, 2025-09-09 18:09 award; do not mistake crawled 2026 page or future call-off speculation for freshly owner-issued same exact paid open task.",
+    "Generation38 GOV.UK DfE/DCMS Enrichment Expansion Programme GBP22.5m >400 schools and Youth Sport Trust named delivery partner: owner press FIRST PUBLISHED Sept18 2026; Sept25 update ONLY adds geographic list. Do not misread listing Sep25 as fresh owner task issuance or assume programme funds an unfilled independent NONLABOR task."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -1024,6 +1026,36 @@
     "project_jev_actual_invocations": 0,
     "jev_project_status": "not used",
     "supervisor_jev": "External monitoring classification (if any) is not an actual project invocation or project artifact",
+    "external_side_effects_performed": false
+  },
+  "gen38_preflight": {
+    "as_of_date": "2026-09-26",
+    "rolling_window": "2026-09-26 current; 2026-09-25 only owner NEW exact original task first issuance and current open. First-party content first published Sep18, updated Sep25; index listing date Sep25 cannot replace Sep18 first publication.",
+    "new_domain": "UK secondary-school extracurricular enrichment cluster support, activity and school-service coordination",
+    "method": "Bounded ONE previously unexamined domain using first-party UK DfE/DCMS programme news official publication history; independent two same-unit upstream gates only.",
+    "source_registry": [
+      {
+        "owner": "UK Department for Education + Department for Digital, Culture, Media and Sport; selected delivery partner Youth Sport Trust",
+        "first_party_source": "https://www.gov.uk/government/news/more-enriching-activities-for-hundreds-of-thousands-of-children",
+        "source_type": "GOV.UK owner press release original and explicit Updates to this page chronology; programme-wide funded school enrichment rollout not commissioned operating unit",
+        "original_owner_first_publication": "2026-09-18 DAY_LEVEL (first-party page explicitly First published)",
+        "subsequent_update": "2026-09-25 DAY_LEVEL (owner page explicitly: added list of enrichment expansion programme areas and how areas selected; not task issuance)",
+        "specific_project": "Enrichment Expansion Programme >400 disadvantaged secondary schools; GBP22.5m aggregate funding from DCMS with DfE partnership; delivery by Youth Sport Trust + named class of national partners/enrichment coordinators",
+        "owner_first_publication_of_same_exact_new_task_gate": "FAIL_CURRENT_WINDOW: no first-issued exact external task Sep25-26; first-party programme press release originally Sep18 and Sep25 only added geographic areas/selection rationale. Original procurement/commission first issuance for discrete outsider task UNKNOWN.",
+        "same_exact_named_presently_unfilled_payer_funded_independent_external_nonlabor_unit_gate": "FAIL_NOT_ESTABLISHED: GBP22.5m aggregate programme money is not separate already committed same-unit payer-funded third-party NONLABOR operations, and first-party release names Youth Sport Trust and national partners as delivery structure; no owner-issued, presently unfilled exact independent outside operating unit.",
+        "joint_upstream_gate": "FAIL",
+        "why": "A GOV.UK listing showing Sep25 update must not override page's Sep18 Original publication. Programme and region list updates are not a new external tender/task. Aggregate programme grant and selected delivery partner cannot be assigned to independently open task by assumption."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "project_jev_actual_calls": 0,
+    "jev_project_status": "not used",
+    "monitor_jev": "If used for supervisory classification, never counted as Scan170 project Jev artifact",
     "external_side_effects_performed": false
   }
 }
