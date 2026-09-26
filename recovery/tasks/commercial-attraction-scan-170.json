@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 35,
+  "generation": 36,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN35_UK_ENVIRONMENT_AGENCY_NAMED_LUTON_RAILHEAD_PERMIT_CONSULTATION_NO_OWNER_FIRST_ISSUED_OPEN_FUNDED_INDEPENDENT_NONLABOR_TASK",
+  "stage": "GEN36_TELFORD_WELLINGTON_RAIL_ACCESSIBLE_BRIDGE_SEP25_PROGRESS_RELEASE_NOT_NEW_OPEN_FUNDED_NONLABOR_EXTERNAL_UNIT",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,35 +16,26 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN35_NEW_FIRST_PARTY_SEP25_PERMIT_CONSULTATION_NOT_FIRST_OWNER_ISSUED_FUNDED_OPEN_OUTSIDER_NONLABOR_UNIT",
+    "status": "GEN36_TELFORD_WELLINGTON_RAIL_PUBLIC_PROGRESS_FUNDING_CONFIRMED_NO_FIRST_ISSUED_SAME_OPEN_NONLABOR_EXTERNAL_TASK",
     "evidence": [
       {
-        "url": "https://www.gov.uk/government/publications/lu1-3jg-grs-roadstone-limited-environmental-permit-application-advertisement-eprwe2918acv002",
-        "date": "2026-09-25 DAY_LEVEL",
-        "evidence": "Environment Agency published regulator notice for named GRS (Roadstone) Limited permit variation EPR/WE2918AC/V002; new NOTICE only, exact applicant paid task issuance UNKNOWN"
-      },
-      {
-        "url": "https://consult.environment-agency.gov.uk/psc/lu1-3jg-grs-roadstone-limited-epr-we2918ac-v002-en/",
-        "date": "OPEN 2026-09-25 DAY_LEVEL, closes 2026-10-23",
-        "evidence": "Regulator invites public consultation comments on named application; historical technical-document filenames, no posted new exact funded outsourced nonlabor operating unit."
+        "url": "https://newsroom.telford.gov.uk/news/council-investment-backs-major-accessibility-improvements-at-wellington-railway-station",
+        "owner_page_publication": "2026-09-25 DAY_LEVEL; exact hour UNKNOWN",
+        "named_unit": "Wellington Railway Station step-free two-lift and bridge link to bus station; Telford council GBP700000 capital allocation; Network Rail Access for All named actual delivery",
+        "prior_history": "Council says improvement proposal dates from 2018, Sep25 release is progress/funding statement, not task first issuance",
+        "gate_exact_owner_new_task_first_issuance": "UNKNOWN_NOT_PASS",
+        "gate_same_unfilled_funded_independent_nonlabor_unit": "FAIL"
       }
     ],
-    "gate_exact_owner_first_publication": "UNKNOWN_NOT_PASS",
-    "gate_same_named_currently_unfilled_payer_funded_external_nonlabor_unit": "FAIL",
     "joint_upstream_gate": "FAIL",
     "downstream_gates": "NOT_INVESTIGATED",
     "new_scan170_branch_pr_ci_artifact": "NONE",
     "jev_project_status": "not used",
-    "historical_scan169_only": {
-      "head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
+    "historical_scan169_verified_not_gen36": {
+      "exact_head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
       "ci_run": 35951958496,
-      "ci_job": 107482199241,
       "ci_conclusion": "success",
       "jev_run": 35951958490,
-      "jev_jobs": [
-        107482199574,
-        107482246836
-      ],
       "jev_conclusion": "success",
       "jev_artifact_id": 10788952868,
       "jev_artifact_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
@@ -92,9 +83,10 @@
     "Generation32 first-party Derby City Council two funded community PlayZones new domain: owner published September25 day-level capital programme news with GBP624000 and named sites. The first publication of an exact paid OUTSIDER nonlabor operations task is UNKNOWN and same funded still-unfilled third-party operating unit FAIL; confirmed capital money must not substitute dedicated operations commission. Joint upstream FAIL, downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0, NOT_PROVEN. Historical Scan169 exact-head CI/Jev/jobs/artifact separately checked; no Gen32 project Jev or external side effects or branch/PR.",
     "Generation33 newly inspected rainwater capture / drought resilience council local grant domain: East Hampshire District Council first-party Sept25 day-level story about Petersfield Town Council already installed 3x500L water butts funded by GBP1166 CCAF; underlying initial exact task issuance/installation dates not published and equipment already installed, so exact first task issuance UNKNOWN, same current still-open named payer-funded independent nonlabor unit FAIL; general CCAF fifth-round Oct5 deadline does not count. Joint upstream FAIL, all downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0, NOT_PROVEN. No external effects, project Jev not used, no empty PR; historical Scan169 exact-head CI/Jev jobs/artifact checked separately.",
     "Generation34 UK government DBS digital result-sharing beta reassessment first-party report Sep25 day-level (actual assessment July31) recommends automated GitLab->GitHub deployments, but neither first issuance of EXACT newly offered external paid task (UNKNOWN) nor specific named already-funded still-unfilled independently commissionable nonlabor operating unit (FAIL) is evidenced. Joint upstream FAIL; downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN. Did not access criminal-record personal data. No new PR/CI/artifact, project Jev not used. Separately confirmed historical Scan169 exact-head CI/Jev/jobs/artifact; do not attribute to Gen34.",
-    "Generation35 UK Environment Agency Sep25 day-level first-party industrial environmental permit application notice and regulator consultation for GRS Roadstone Limited, Luton Railhead EPR/WE2918AC/V002. Owner first publication of EXACT paid independent task UNKNOWN; first-party regulator notice not applicant task offer. Identified applicant not evidenced as committed payer for a still-unfilled external NONLABOR operator commission, so same-unit gate FAIL and joint upstream FAIL. All downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN. Historical Scan169 CI/Jev/jobs/artifact reverified but not Gen35. No external actions, project Jev not used, no PR."
+    "Generation35 UK Environment Agency Sep25 day-level first-party industrial environmental permit application notice and regulator consultation for GRS Roadstone Limited, Luton Railhead EPR/WE2918AC/V002. Owner first publication of EXACT paid independent task UNKNOWN; first-party regulator notice not applicant task offer. Identified applicant not evidenced as committed payer for a still-unfilled external NONLABOR operator commission, so same-unit gate FAIL and joint upstream FAIL. All downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN. Historical Scan169 CI/Jev/jobs/artifact reverified but not Gen35. No external actions, project Jev not used, no PR.",
+    "Generation36 ONE new transport railway-station accessibility capital investment: Telford & Wrekin Council first-party Sep25 DAY_LEVEL council GBP700000 investment towards Wellington Station bridge and two lifts, scheme pursued since 2018 and Network Rail already named delivery actor. No first publication of SAME exact fresh third-party paid nonlabor task (UNKNOWN), no same specifically funded presently unfilled outsider nonlabor operations unit (FAIL). Joint upstream FAIL; downstream NOT_INVESTIGATED, 0 retained/0 candidates/0 units, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN. No new branch/PR/CI/artifact or external effects; project Jev not used. Historical Scan169 exact-head CI/Jev artifact separately confirmed not counted as Gen36."
   ],
-  "next_action": "Generation36: first recheck current live main, AGENTS.md, TASK_STATE.md (historical stale), Issue143, only Scan170 task-scoped state/chatgpt-recovery cursor generation/blob, all relevant open PR/branches/exact-head Actions/jobs/artifacts, and consume any newer single next_action if advanced. Screen ONE genuinely unexamined new first-party owner domain not in Scan170 generations3-35 using execution-date rolling FIRST OWNER ISSUANCE of SAME EXACT TASK (not consultation, comment deadline, regulatory notice, past application or webpage update). Independently prove on SAME named task a currently unfilled externally independently accessible NONLABOR operating unit with identified payer and ALREADY committed exact-unit funding; UNKNOWN != PASS. If either fails stop BEFORE downstream execution rights/legal payee/settled receipt/native outstanding/recurrence/economics, CAS persist only Scan170 own cursor with source/date precision/dual gate/0 retained/candidates/units NOT_PROVEN, actual project Jev usage and exactly one subsequent next_action; keep #143 OPEN and do not make empty PR or external contact, signup, bid, pay or transact. Only both upstream gates PASS on same exact unit permits bounded downstream same-unit verification; substantive fresh-main PR/exact-head CI and actual project Jev only after complete evidence chain.",
+  "next_action": "Generation37: read latest live main, AGENTS.md and stale TASK_STATE.md as context, Issue143, ONLY Scan170 task-scoped recovery generation/blob, existing relevant branches/open PR/exact-head Actions/jobs/artifacts. Perform ONE bounded source-first/date-first scan of genuinely new owner domain not in Scan170 generations3-36, with execution-date rolling window. Require owner FIRST ISSUANCE DATE OF SAME EXACT NEW TASK (not program progress, older scheme, construction funding, reported event, regulator notice, deadline or updated page) and first-party evidence that SAME named current STILL UNFILLED independently externally available NONLABOR operating unit has SPECIFIC committed payer funding. Exact-hour absent record DAY_LEVEL; task issuance absent UNKNOWN != PASS. If either upstream FAIL/UNKNOWN stop all downstream and CAS persist ONLY same Scan170 cursor with primary URL/date precision/two gate verdicts, retained/candidates/units 0/0/0, NOT_PROVEN, project Jev actual invocation and exactly ONE next_action; keep Issue143 OPEN; no empty PR or external contacts/registration/bids/payments/deals/personal restricted data. Only both same-unit upstream PASS permits preauthorized nonaffiliate action-right/legal payee/comparable real settled receipt/native still open/nonlabor recurrence/net economics tests and then substantive fresh-main PR exact-head CI and actual project TypeSafe/Jev artifact.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -126,7 +118,8 @@
     "Generation32 Derby City Council Sept25 two Football Foundation PlayZones Dale Road+Stockbrook: GBP624000 real grant/council money is capital construction, future pay-and-play is business model; no evidence of first-issued exact named still-unfilled funded outside nonlabor operator task; revisit only genuinely new same-unit first-party issuance and funding.",
     "Generation33 East Hampshire District Council Sept25 Petersfield water butts CCAF news: GBP1166 grant and 3x500L butts refer to already completed council installation, future CCAF round Oct5 closing is application deadline. No new exact paid outsider unit or task issuance date. Do not promote completed project or deadline.",
     "Generation34 GDS Sep25 DBS digital View or Share beta reassessment report reflects July31 assessment and recommendations on automating GitLab deployment, not same exact first-issued payer-funded still-unfilled external NONLABOR task; GDS spend approval is conditional, not proven committed. Never access private background-check results.",
-    "Generation35 Environment Agency first-party Sep25 GRS (Roadstone) Limited Luton Railhead permit variation EPR/WE2918AC/V002 consultation; regulator first publicity and public COMMENT right != company first-issued funded outsider commercial task; document filenames suggest older variations. No same-unit external nonlabor work evidence; do not count as candidate without genuinely fresh applicant-issued funded open task."
+    "Generation35 Environment Agency first-party Sep25 GRS (Roadstone) Limited Luton Railhead permit variation EPR/WE2918AC/V002 consultation; regulator first publicity and public COMMENT right != company first-issued funded outsider commercial task; document filenames suggest older variations. No same-unit external nonlabor work evidence; do not count as candidate without genuinely fresh applicant-issued funded open task.",
+    "Gen36 2026-09-25 Telford & Wrekin Wellington Railway Station GBP700000 council footbridge capital commitment, existing Network Rail Access for All delivery, scheme first proposed 2018. Progress release is not fresh exact paid nonlabor task; capital allocation does not imply separately funded externally open independent operating unit."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -966,6 +959,34 @@
     "actual_project_jev_calls": 0,
     "jev_project_status": "not used",
     "supervisory_jev": "External monitor classifier is not project Jev/TypeSafe artifact",
+    "external_side_effects_performed": false
+  },
+  "gen36_preflight": {
+    "as_of_date": "2026-09-26",
+    "window": "2026-09-26 owner exact-task rolling issuance; Sep25 only if truly newly first-issued exact still-open task; progress release cannot substitute.",
+    "new_domain": "Named railway accessibility station footbridge and lift transport-interchange public capital construction",
+    "method": "ONE NEW DOMAIN owner first-party single source, dual upstream gates only, stop prior to all downstream upon UNKNOWN/FAIL",
+    "source_registry": [
+      {
+        "owner": "Telford & Wrekin Council; explicitly identified delivery owner Network Rail",
+        "first_party_url": "https://newsroom.telford.gov.uk/news/council-investment-backs-major-accessibility-improvements-at-wellington-railway-station",
+        "first_party_release_publication": "2026-09-25 DAY_LEVEL; precise release time UNKNOWN",
+        "owner_evidence": "Telford & Wrekin Council confirms GBP700000 for named Wellington Railway Station footbridge linking Wellington Bus Station; two passenger lifts; Network Rail delivering via DfT Access for All with West Midlands Railway supporting; anticipated public opening autumn 2027; council describes scheme as pursued since 2018.",
+        "owner_first_publication_of_exact_new_paid_outside_nonlabor_task_gate": "UNKNOWN_NOT_PASS: Sep25 date belongs to council funding/work-approval progress story. Council identifies predecessor proposal 2018. No first-party first-publication date of newly open exact nonlabor independent external operating commission; do not infer from progress news date.",
+        "same_named_currently_unfilled_specific_payer_already_funded_outside_nonlabor_operating_unit_gate": "FAIL: GBP700000 is a council allocation towards physical footbridge capital works, not evidence of distinct ring-fenced named nonlabor operation open to independent outsiders; Network Rail already designated delivery actor. Owner publication does not announce any specific unfilled payer-funded external nonlabor task.",
+        "joint_upstream_gate": "FAIL",
+        "reason": "Actual named capital commitment cannot be redirected to an unsupported outsider nonlabor transaction. Public announcement, pre-existing scheme, building/lift works and incumbent delivery are distinct from first-issued exact paid open outsider operations unit."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "actual_project_jev_invocations": 0,
+    "jev_project_status": "not used",
+    "supervisory_jev": "Never counted as project Jev invocation or artifact",
     "external_side_effects_performed": false
   }
 }
