@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 27,
+  "generation": 28,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN27_NOAA_OSPO_GOES18_GOES19_NEW_NOTICE_NOT_NEW_UNFILLED_PAYER_FUNDED_NONLABOR_TASK",
+  "stage": "GEN28_OFGEM_CONNECTIONS_DATA_SEP25_FRESH_CONSULTATION_NOT_EXACT_NEW_PAID_UNFILLED_NONLABOR_TASK",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,23 +16,31 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN27_NOAA_OSPO_OWNER_ALERT_ISSUANCE_BUT_NO_EXACT_OPEN_PAYER_FUNDED_NONLABOR_TASK",
+    "status": "GEN28_OFGEM_SEP25_NEW_CONSULTATION_NO_EXACT_PAID_UNFILLED_TASK_JOINT_GATE_FAIL",
     "evidence": [
       {
-        "url": "https://www.ospo.noaa.gov/data/messages/2026/2026-09-include.html",
-        "observation": "NOAA OSPO first-party September archive indexes Sep26 0103Z GOES-18/19 GRB anomaly operational alert",
-        "source_access": "search-index first-party text; direct fetch 403"
-      },
-      {
-        "url": "https://forecast.weather.gov/product.php?format=ci&glossary=1&issuedby=NES&product=ADM&site=HNL&version=2",
-        "observation": "NOAA NWS first-party administrative message records alert issued 2026-09-26 0103Z, event Sep25 1712Z-1733Z, restored via owner on-prem NSB restart, root-cause under investigation",
-        "source_access": "first-party search-result text; direct web fetch disabled"
+        "url": "https://www.ofgem.gov.uk/consultation/transforming-connections-data",
+        "first_publication": "2026-09-25 day-level publication date on first-party new consultation page; exact hour UNKNOWN",
+        "exact_task_first_issuance": "UNKNOWN_NOT_PASS",
+        "same_unit": "FAIL",
+        "reason": "First-party consultation invites public views on proposals for new demand capacity register, distribution works report and standardized connections data. It creates no specific named commission, allocated payer funding or outstanding nonlabor third-party operating unit; consultations and future regulatory roll-out do not count as paid outsourced tasks.",
+        "older_context": "https://www.ofgem.gov.uk/consultation/connections-end-end-review-updated-proposals-and-next-steps"
       }
     ],
     "joint_upstream_gate": "FAIL",
     "downstream_gates": "NOT_INVESTIGATED",
-    "scan170_new_branch_pr_ci_artifact": "NONE",
-    "jev_project_status": "not used"
+    "new_scan170_branch_pr_ci_artifact": "NONE",
+    "jev_project_status": "not used",
+    "verified_historical_scan169_only": {
+      "head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
+      "ci_run": 35951958496,
+      "ci_conclusion": "success",
+      "jev_run": 35951958490,
+      "jev_conclusion": "success",
+      "jev_artifact": 10788952868,
+      "artifact_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704",
+      "not_gen28_calls": true
+    }
   },
   "pending_operation": null,
   "health": {
@@ -68,9 +76,10 @@
     "Generation24 genuinely new EPA contamination-remediation, EPA coastal/mid-Atlantic wetland program, and USGS lake bathymetry first-party source sweep. Three Sep24 day-dated owner communications; no same-unit live unfilled named payer-funded independent nonlabor task: closed UST outcomes+unassigned aggregate pipeline, already allocated wetlands grants, historical 2023 survey/Sept2 map. Both upstream gates never jointly pass; no directories/rights/settlement/provider/economics review. No project Jev invoked. No substantive Scan170 branch/PR/CI/artifact or external transaction.",
     "Generation25 four new first-party domain preflights (UK agricultural statistics, UK parish sports Section106, ESA lunar navigation tender, UK green heat infrastructure grant); owner first publication all predate Sep24 and none provides exact same new named still unfilled payer-funded nonlabor operational unit; no downstream audit, no external contact, no project Jev.",
     "Generation26: independently inspected four first-party new-domain Sep25-26 publications (UK youth services, WHO expanded medical-device prequalification, UK high-street regeneration, UNICEF Yemen nutrition emergency); no source passes exact same-unit newly issued named currently unfinished payer-funded nonlabor operator task; downstream not investigated; no external actions or Scan170 project Jev; verified historical Scan169 exact-head CI/Jev runs and Jev artifact are not Gen26 invocations.",
-    "Generation27 independent new NOAA OSPO meteorological satellite product-delivery outage domain, first-party owner notice Sep26 0103Z but underlying Sep25 1712-1733Z disruption was already restored by native on-prem restart; no first-published exact external task or named currently unfilled payer-funded nonlabor transaction. Joint upstream FAIL, downstream NOT_INVESTIGATED, no branch PR external effects or project Jev. Historical Scan169 CI/Jev are not Gen27 calls."
+    "Generation27 independent new NOAA OSPO meteorological satellite product-delivery outage domain, first-party owner notice Sep26 0103Z but underlying Sep25 1712-1733Z disruption was already restored by native on-prem restart; no first-published exact external task or named currently unfilled payer-funded nonlabor transaction. Joint upstream FAIL, downstream NOT_INVESTIGATED, no branch PR external effects or project Jev. Historical Scan169 CI/Jev are not Gen27 calls.",
+    "Generation28 bounded new-domain Ofgem electricity grid connection data transparency preflight: first-party new consultation first published 2026-09-25 day-level, but no published EXACT NEW outsourced task or clearly funded named unfilled nonlabor paid operating unit. First exact task issuance UNKNOWN and paid unit FAIL -> joint FAIL; downstream NOT_INVESTIGATED; 0/0 NOT_PROVEN; no external work or project Jev. Historical Scan169 exact-head CI and Jev artifact separately reverified."
   ],
-  "next_action": "Generation28: first re-read live main, issue143, current independent Scan170 recovery generation/blob and active branch/PR/CI. With current date fresh, investigate ONE other genuinely new first-party domain not covered by generations3-27. Independently establish owner FIRST PUBLICATION OF THE EXACT NEW TASK (not incident notice/event/updated index/deadline) within the current Sep26+ owner-task issuance window AND the SAME exact named presently unfilled clearly payer-funded externally commissionable NONLABOR operations unit; UNKNOWN != PASS. If either fails, stop downstream investigation and atomically record first-party source, chronology caveat, same-unit failure, project Jev actual use and single subsequent next_action to this SAME recovery JSON using generation/blob SHA CAS, maintain 0/0 NOT_PROVEN Issue143 OPEN; no empty PR, external contact or privileged data. Only a complete exact-same-unit independently preauthorized execution right, legal payee, real settled comparator, native outstanding, recurrence and net economics justify fresh-main substantive PR, exact-head CI, real project Jev artifact and continuation.",
+  "next_action": "Generation29: re-read live main, Issue #143, independently persisted Scan170 recovery generation/blob, open branches/PR and applicable CI/artifacts. In one genuinely new, previously unexamined first-party domain, first verify owner FIRST PUBLICATION OF THE EXACT TASK on the execution-date rolling current window (Sep26 or newer; Sep25 only if still demonstrably new/current), independently verify SAME exact named presently unfilled clearly payer-funded externally commissionable NONLABOR operating unit. Distinguish fresh news, consultation, updated page, event or deadline from task issuance; date hour unavailable => day-level, task issuance unavailable => UNKNOWN != PASS. If either upstream gate fails stop downstream and atomically CAS persist one new domain and one next_action in this same Scan170 recovery cursor, keep #143 OPEN, 0/0/NOT_PROVEN, no empty PR or external effects, project Jev: not used unless actually invoked. Only upon BOTH PASS check exact-unit preauthorized nonaffiliate execution right, legal payee, real settled comparable receipt, native open status, nonlabor repeat and net economics and then substantive fresh-main PR with exact-head CI and actual project TypeSafe/Jev artifact.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -94,7 +103,8 @@
     "Generation22 WHO Sep24 WHO-IRCH WG2 regulatory cooperation release has no owner-funded outsider unfilled task; ERA Sep25 updated InnoTrans listing is not precise first-issued paid unit; UK CKAF Sep18 update fails new publication; Digital4Security Sep25 enrollment deadline is not publication nor nonlabor commissioned execution. Reopen only on materially new same-unit first-party paid authorization.",
     "Generation25: no repeat DEFRA Sep25 SFI release announcement (first Sep23), Wheldrake Sep25 Section106 EOI deadline (first Aug26), ESA Sep25 NovaMoon ITT deadline (ESA opportunities first June23/update Sep10), GHNF Sep25 closing deadline (guidance first 2022/update June10), unless genuinely new owner first-issued exact payable unit evidence.",
     "Generation26: UK DCMS Sep26 youth worker employment/announced future Youth Matters grants, WHO Sept25 medical devices programme expansion (prior separate Sept4 RFQ not fresh), UK MHCLG Sept25 GBP210m aggregate regeneration announcement, UNICEF Sept25 Yemen response briefing; do not recast new press day as first exact paid operational issuance without genuinely new task-bound payer/authorization evidence or expose humanitarian beneficiary data.",
-    "Generation27 NOAA GOES-18/19 GRB 2026-09-26 0103Z incident notice: Sep25 1712Z outage fixed 1733Z by NOAA native restart; first-party notice index update != first externally payable task issuance. No recheck without new first-party same-unit independently commissionable paid open task."
+    "Generation27 NOAA GOES-18/19 GRB 2026-09-26 0103Z incident notice: Sep25 1712Z outage fixed 1733Z by NOAA native restart; first-party notice index update != first externally payable task issuance. No recheck without new first-party same-unit independently commissionable paid open task.",
+    "Generation28 Ofgem 2026-09-25 Transforming Connections Data open policy consultation and updated 2025 review: neither is new owner-issued exact already funded unfinished independently callable nonlabor commercial task. Revisit only if genuinely new exact unit owner-first-issued and same-unit payer/open work evidence."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -692,6 +702,33 @@
     "jev_actual_new_invocations": 0,
     "jev_project_status": "not used",
     "supervisory_jev": "user reports supervisory router invoked; NOT Scan170 project artifact or commercial evidence",
+    "external_side_effects_performed": false
+  },
+  "gen28_preflight": {
+    "as_of_date": "2026-09-26",
+    "source_first_window": "2026-09-26_CURRENT; 2026-09-25_VALID_RECENT_OWNER_FIRST_ISSUANCE; 2026-09-25_PAGE_NEW_NOT_EQ_EXACT_TASK_NEW",
+    "new_domain": "UK electricity grid connection data publication transparency / regulatory policy consultation",
+    "source_registry": [
+      {
+        "owner": "Ofgem (Great Britain energy regulator)",
+        "owner_url": "https://www.ofgem.gov.uk/consultation/transforming-connections-data",
+        "first_party_owner_publication": "2026-09-25 day-level publication date on first-party new consultation page; exact hour UNKNOWN",
+        "owner_first_publication_exact_task_gate": "UNKNOWN_NOT_PASS",
+        "same_exact_named_currently_unfilled_payer_funded_nonlabor_operating_unit_gate": "FAIL",
+        "reason": "First-party consultation invites public views on proposals for new demand capacity register, distribution works report and standardized connections data. It creates no specific named commission, allocated payer funding or outstanding nonlabor third-party operating unit; consultations and future regulatory roll-out do not count as paid outsourced tasks.",
+        "historical_same_owner_context_url": "https://www.ofgem.gov.uk/consultation/connections-end-end-review-updated-proposals-and-next-steps",
+        "historical_same_owner_context": "Prior 2025-12-08 review was updated 2026-09-25 to announce two successor programmes; its update is not exact new task issuance. New consultation is Sep25 first-page publication only."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "jev_actual_new_invocations": 0,
+    "jev_project_status": "not used",
+    "supervisory_jev": "not counted as project invocation or evidence",
     "external_side_effects_performed": false
   }
 }
