@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 33,
+  "generation": 34,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN33_EAST_HAMPSHIRE_WATER_BUTTS_GRANT_ALREADY_INSTALLED_NO_NEW_FUNDED_UNFILLED_OUTSIDER_NONLABOR_UNIT",
+  "stage": "GEN34_UK_DBS_DIGITAL_RESULT_BETA_REASSESSMENT_PUBLIC_REPORT_NOT_FIRST_ISSUED_FUNDED_UNFILLED_EXTERNAL_NONLABOR_TASK",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,36 +16,34 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN33_FRESH_DAY_LEVEL_COUNCIL_STORY_PRIOR_COMPLETED_WATER_HARVESTING_GRANT_NOT_SAME_NEW_OPEN_FUNDED_OPERATION",
+    "status": "GEN34_NEW_DBS_REPORT_DATE_ONLY_EXACT_NEW_OWNER_TASK_ISSUANCE_UNKNOWN_SAME_FUNDED_UNFILLED_EXTERNAL_NONLABOR_UNIT_FAIL",
     "evidence": [
       {
-        "url": "https://www.easthants.gov.uk/news/2026/big-butts-save-water-petersfield",
-        "owner_story_date": "2026-09-25 day-level; exact hour UNKNOWN",
-        "task_first_issuance_date": "UNKNOWN (historical grant award/installation dates undisclosed, Sept25 is announcement about completed work)",
-        "specific_unit": "Petersfield Town Council already installed three 500-litre rainwater butts, East Hampshire District Council GBP1166 CCAF grant",
-        "gate_owner_first_published_exact_open_task": "UNKNOWN_NOT_PASS",
-        "gate_exact_named_paid_current_unfilled_external_nonlabor_unit": "FAIL",
-        "why": "Installation already complete, grant for completed equipment not a still-unfilled outsider task; fifth CCAF round closes Oct5 and is a general application programme, not an exact task."
+        "source_url": "https://www.gov.uk/service-standard-reports/ho-view-or-share-your-dbs-result-beta-reassessment-report",
+        "first_party_published": "2026-09-25 DAY_LEVEL, exact time UNKNOWN",
+        "assessment_date": "2026-07-31",
+        "named_recommendation": "Move from manual to automated GitLab-to-GitHub code deployment",
+        "same_exact_task_first_publication": "UNKNOWN_NOT_PASS; publication belongs to evaluation report",
+        "same_exact_task_current_funded_external_nonlabor_status": "FAIL; service recommendations, GDS spend approval pending, no allocated outside commissioned unit."
       }
     ],
     "joint_upstream_gate": "FAIL",
     "downstream_gates": "NOT_INVESTIGATED",
     "new_scan170_branch_pr_ci_artifact": "NONE",
     "jev_project_status": "not used",
-    "historical_scan169_only": {
-      "head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
+    "historical_scan169_ci_jev_not_gen34": {
+      "pr_exact_head": "632a535356193ca08e760e37c6e21af1c947b5ba",
       "ci_run": 35951958496,
-      "ci_conclusion": "success",
-      "ci_test_job": 107482199241,
+      "ci_job": 107482199241,
+      "ci_result": "success",
       "jev_run": 35951958490,
-      "jev_conclusion": "success",
       "jev_jobs": [
         107482199574,
         107482246836
       ],
-      "jev_artifact": 10788952868,
-      "jev_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704",
-      "not_generation33": true
+      "jev_result": "success",
+      "jev_artifact_id": 10788952868,
+      "jev_artifact_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
     }
   },
   "pending_operation": null,
@@ -88,9 +86,10 @@
     "Generation30 single new batch-specific food recall and reverse-logistics domain: FDA officially hosts G. L. Mezzetta owner-origin Sep23 day-level announcement, FDA republishes Sep25. Named 32oz SKU10106328 Lot720106; owner directly coordinating removal/retrieval and does not announce distinct currently unfunded/unfilled public independent paid nonlabor commission. Current-window exact-task first-issuance FAIL, same externally-open payer-funded unit FAIL; downstream NOT_INVESTIGATED. Historical Scan169 exact-head CI/Jev verified but not Gen30. No outreach, project Jev, new branch/PR/CI/artifact.",
     "Generation31 independently new UK Westmorland and Furness intergenerational Homeshare first-party council Sept25 day-level new SERVICE launch announcement; no first-issued exact outsourced paid task timestamp (UNKNOWN) and no same named presently unfilled clearly payer-funded externally commissionable nonlabor operating unit (FAIL). Joint upstream FAIL, downstream NOT_INVESTIGATED, retained 0, candidates 0, units 0, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN. Historical Scan169 successful CI/Jev artifact separately reverified, not Gen31 calls. No external effects and project Jev not used.",
     "Generation32 first-party Derby City Council two funded community PlayZones new domain: owner published September25 day-level capital programme news with GBP624000 and named sites. The first publication of an exact paid OUTSIDER nonlabor operations task is UNKNOWN and same funded still-unfilled third-party operating unit FAIL; confirmed capital money must not substitute dedicated operations commission. Joint upstream FAIL, downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0, NOT_PROVEN. Historical Scan169 exact-head CI/Jev/jobs/artifact separately checked; no Gen32 project Jev or external side effects or branch/PR.",
-    "Generation33 newly inspected rainwater capture / drought resilience council local grant domain: East Hampshire District Council first-party Sept25 day-level story about Petersfield Town Council already installed 3x500L water butts funded by GBP1166 CCAF; underlying initial exact task issuance/installation dates not published and equipment already installed, so exact first task issuance UNKNOWN, same current still-open named payer-funded independent nonlabor unit FAIL; general CCAF fifth-round Oct5 deadline does not count. Joint upstream FAIL, all downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0, NOT_PROVEN. No external effects, project Jev not used, no empty PR; historical Scan169 exact-head CI/Jev jobs/artifact checked separately."
+    "Generation33 newly inspected rainwater capture / drought resilience council local grant domain: East Hampshire District Council first-party Sept25 day-level story about Petersfield Town Council already installed 3x500L water butts funded by GBP1166 CCAF; underlying initial exact task issuance/installation dates not published and equipment already installed, so exact first task issuance UNKNOWN, same current still-open named payer-funded independent nonlabor unit FAIL; general CCAF fifth-round Oct5 deadline does not count. Joint upstream FAIL, all downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0, NOT_PROVEN. No external effects, project Jev not used, no empty PR; historical Scan169 exact-head CI/Jev jobs/artifact checked separately.",
+    "Generation34 UK government DBS digital result-sharing beta reassessment first-party report Sep25 day-level (actual assessment July31) recommends automated GitLab->GitHub deployments, but neither first issuance of EXACT newly offered external paid task (UNKNOWN) nor specific named already-funded still-unfilled independently commissionable nonlabor operating unit (FAIL) is evidenced. Joint upstream FAIL; downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN. Did not access criminal-record personal data. No new PR/CI/artifact, project Jev not used. Separately confirmed historical Scan169 exact-head CI/Jev/jobs/artifact; do not attribute to Gen34."
   ],
-  "next_action": "Generation34: recheck live main, AGENTS.md, TASK_STATE.md (stale not authoritative), Issue143, only Scan170 own state/chatgpt-recovery cursor generation/blob, branch/open PR/exact-head CI/Actions/jobs/artifacts. Investigate ONE genuinely unexamined new first-party domain not in Scan170 generations3-33; current date rolling window for FIRST OWNER PUBLICATION of SAME EXACT NEW TASK (not release of completed case, general grant, deadline, event, press report, page update or funding for different unit). Separately and on the same named exact unit prove STILL UNFILLED independent external NONLABOR operating work plus named committed payer funding; UNKNOWN != PASS. If either upstream fails stop all downstream and CAS persist only same Scan170 cursor with first-party URL/date precision/dual verdict/0 retained,candidates,units/NOT_PROVEN/project Jev actual use and one next_action; keep Issue143 OPEN and no empty PR, external contact, registration or payment. Only both upstream PASS permits prior independent nonaffiliate authorized right, legal payee, real comparable settled receipts, native unfinished, repeatable nonlabor and net economics; then fresh-main substantive PR exact-head CI and real project TypeSafe/Jev artifact.",
+  "next_action": "Generation35: verify live main, AGENTS.md, TASK_STATE.md (stale Scan169 cannot override), Issue143, only Scan170 own state/chatgpt-recovery cursor generation/blob plus relevant branches/open PR/exact-head Actions/jobs/artifacts. Bounded source-first/date-first screen of ONE genuinely fresh first-party domain not covered by Scan170 generations3-34. Require first-party OWNER FIRST ISSUANCE DATE OF EXACT SAME NEW TASK within execution-date rolling window AND independent first-party proof of SAME named presently UNFILLED externally independently accessible NONLABOR operational task with SPECIFIC named payer and already committed funds. GDS report/reassessment date, internal recommendation, conditional future spend approval, generic grant, news, historical event, site update or other-unit capital cannot substitute. If either upstream FAIL/UNKNOWN (UNKNOWN != PASS) stop before any authorization, settlement, native gap, repetition, economics investigation and CAS-write only this Scan170 cursor with exact source/date precision/dual verdict/0 retained/candidates/units/NOT_PROVEN/project Jev actual use and ONE next_action. Keep #143 OPEN, no zero-candidate PR or any external contact/registration/bid/payment/signature/transaction or personal restricted data. ONLY both PASS justifies same-unit preauthorized independent execution right/legal payee/real settled comparable receipt/native still open/recurring nonlabor/net economics checks then substantive branch from fresh main, exact-head CI and genuinely invoked project TypeSafe/Jev artifact.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -120,7 +119,8 @@
     "Generation30 G. L. Mezzetta Sep23 company batch 720106 recall republished Sep25 by FDA: avoid treating regulatory repost as first exact paid task issuance or owner-operated retrieval as independent funded nonlabor task absent genuinely new same-unit owner commission.",
     "Generation31 Westmorland and Furness Council Homeshare 2026-09-25 first-party service recruitment announcement: native team screening/matching participant invitations are not fresh independent funded nonlabor task issuance; do not treat homeowner/housemate data as leads, re-open only genuinely newly owner-issued exact task evidence.",
     "Generation32 Derby City Council Sept25 two Football Foundation PlayZones Dale Road+Stockbrook: GBP624000 real grant/council money is capital construction, future pay-and-play is business model; no evidence of first-issued exact named still-unfilled funded outside nonlabor operator task; revisit only genuinely new same-unit first-party issuance and funding.",
-    "Generation33 East Hampshire District Council Sept25 Petersfield water butts CCAF news: GBP1166 grant and 3x500L butts refer to already completed council installation, future CCAF round Oct5 closing is application deadline. No new exact paid outsider unit or task issuance date. Do not promote completed project or deadline."
+    "Generation33 East Hampshire District Council Sept25 Petersfield water butts CCAF news: GBP1166 grant and 3x500L butts refer to already completed council installation, future CCAF round Oct5 closing is application deadline. No new exact paid outsider unit or task issuance date. Do not promote completed project or deadline.",
+    "Generation34 GDS Sep25 DBS digital View or Share beta reassessment report reflects July31 assessment and recommendations on automating GitLab deployment, not same exact first-issued payer-funded still-unfilled external NONLABOR task; GDS spend approval is conditional, not proven committed. Never access private background-check results."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -897,6 +897,35 @@
     "project_jev_invocations": 0,
     "jev_project_status": "not used",
     "supervisor_jev": "NOT counted as Scan170 project artifact or project execution",
+    "external_side_effects_performed": false
+  },
+  "gen34_preflight": {
+    "as_of_date": "2026-09-26",
+    "window": "Execution-date rolling Sep26; Sep25 only for demonstrably newly owner-FIRST-ISSUED exact still-current task; report issuance not task issuance.",
+    "new_domain": "UK government criminal-record clearance DBS digital result-sharing platform, build/release automation and service assessment",
+    "method": "ONE genuinely new first-party domain; owner report date vs assessment date vs unknown exact paid task issuance; SAME-unit two-upstream-gate only",
+    "source_registry": [
+      {
+        "owner": "UK Government Digital Service (GDS) assessment of Disclosure and Barring Service (DBS) View or Share Your DBS Result",
+        "owner_first_party_url": "https://www.gov.uk/service-standard-reports/ho-view-or-share-your-dbs-result-beta-reassessment-report",
+        "first_party_report_publication": "2026-09-25 day-level owner GOV.UK page Published; exact time UNKNOWN",
+        "underlying_assessment_date": "2026-07-31; much earlier than report publication",
+        "specific_recommendation": "Recommendation to move from manual to automated deployment of code changes when updating Main on GitLab to avoid stale code on GitHub; plus assistive-journey/content and onboarding improvement recommendations; report explicitly describes work for existing DBS service team.",
+        "owner_first_publication_same_exact_new_task_gate": "UNKNOWN_NOT_PASS: 2026-09-25 is GDS evaluation report first published date, not first issuance of any external commissioned automation deployment task; no dated owner task procurement/publication in report.",
+        "same_exact_named_presently_unfilled_payer_funded_externally_commissionable_nonlabor_unit_gate": "FAIL: recommendation is not a named payer-funded open outsider nonlabor operations commission; report names DBS as service provider but does not state a specific committed task budget, unfilled external award/acceptance lane or separate payer-paid delivery unit. It says public beta conditional on amber-point mitigation and GDS spend approval; future spending approval is not already committed same-unit funding.",
+        "joint_gate": "FAIL",
+        "reason": "The exact recommendation is grounded, but newly published GDS REPORT with July assessment is not newly first-issued paid task; no first-party evidence of specific outsourced funded still-open nonlabor unit. Do not touch personal criminal-record information."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "jev_actual_project_invocations": 0,
+    "jev_project_status": "not used",
+    "monitor_jev": "If any external monitor used Jev for routing, not a Scan170 project invocation or artifact.",
     "external_side_effects_performed": false
   }
 }
