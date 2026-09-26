@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 38,
+  "generation": 39,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN38_UK_SCHOOL_ENRICHMENT_AGGREGATE_2026_SEP18_ORIGINAL_NEWS_SEP25_UPDATED_AREAS_NOT_EXACT_FRESH_FUNDED_OPEN_NONLABOR_TASK",
+  "stage": "GEN39_KINGS_LYNN_SEWAGE_TELEMETRY_BUYER_TENDER_DEADLINE_PASSED_FIRST_ISSUANCE_UNKNOWN_SAME_OPEN_FUNDED_NONLABOR_UNIT_FAIL",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,32 +16,32 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN38_DFE_ENRICHMENT_PROGRAMME_SEP18_ORIGINAL_SEP25_AREAS_UPDATE_NO_FIRST_ISSUED_OPEN_SAME_FUNDED_NONLABOR_UNIT",
+    "status": "GEN39_OWNER_EXACT_MUNICIPAL_WASTEWATER_TELEMETRY_TENDER_DEADLINE_SEP25_NOT_FIRST_ISSUANCE_OR_SEP26_OPEN_NONLABOR_UNIT",
     "evidence": [
       {
-        "first_party_url": "https://www.gov.uk/government/news/more-enriching-activities-for-hundreds-of-thousands-of-children",
-        "precision": "DAY_LEVEL; exact original hour UNKNOWN",
-        "original_page": "2026-09-18 explicit GOV.UK first published",
-        "update": "2026-09-25 GOV.UK explicitly 'Added a list of enrichment expansion programme areas and information about how they were selected'; not a task offer",
-        "program": "DCMS-funded GBP22.5m >400 schools; Youth Sport Trust already selected delivery partner",
-        "gate_fresh_exact_owner_first_task_issuance": "FAIL_CURRENT_WINDOW (discrete paid task issuance otherwise UNKNOWN)",
-        "gate_same_current_unfilled_independently_open_already_funded_nonlabor_unit": "FAIL_NOT_ESTABLISHED",
-        "reason": "Original press release older than window, update geographic list only, aggregate funding not named open separate paid operator unit."
+        "first_party_owner_url": "https://www.west-norfolk.gov.uk/info/20150/doing_business_with_us/331/current_tender_opportunities",
+        "owner": "Borough Council of King's Lynn & West Norfolk",
+        "exact_task": "Sewage Treatment Plants Maintenance and Replacement of Telemetry Units; two distinct lots: physical maintenance and open-protocol equipment replacement",
+        "original_issuance": "UNKNOWN; no dated original owner notice on official listing inspected",
+        "verified_date": "2026-09-25 12 noon local UK published as submission DEADLINE; precision to minute for deadline only, not task issuance",
+        "execution_day": "2026-09-26",
+        "gate_first_owner_issuance": "UNKNOWN_NOT_PASS",
+        "gate_same_named_currently_open_funded_nonlabor": "FAIL_NOT_ESTABLISHED: past deadline, no re-opening/committed exact operations funds, advertised lots physical labor/equipment rather than proven NONLABOR operating task"
       }
     ],
     "joint_upstream_gate": "FAIL",
     "downstream_gates": "NOT_INVESTIGATED",
     "new_scan170_branch_pr_ci_artifact": "NONE",
     "jev_project_status": "not used",
-    "historical_scan169_only": {
-      "exact_head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
+    "historical_scan169_not_gen39": {
+      "pr_exact_head": "632a535356193ca08e760e37c6e21af1c947b5ba",
       "ci_run": 35951958496,
       "ci_test_job": 107482199241,
-      "ci_conclusion": "success",
+      "ci_result": "success",
       "jev_run": 35951958490,
-      "jev_conclusion": "success",
-      "jev_artifact": 10788952868,
-      "jev_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
+      "jev_result": "success",
+      "jev_artifact_id": 10788952868,
+      "jev_artifact_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
     }
   },
   "pending_operation": null,
@@ -89,9 +89,10 @@
     "Generation35 UK Environment Agency Sep25 day-level first-party industrial environmental permit application notice and regulator consultation for GRS Roadstone Limited, Luton Railhead EPR/WE2918AC/V002. Owner first publication of EXACT paid independent task UNKNOWN; first-party regulator notice not applicant task offer. Identified applicant not evidenced as committed payer for a still-unfilled external NONLABOR operator commission, so same-unit gate FAIL and joint upstream FAIL. All downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN. Historical Scan169 CI/Jev/jobs/artifact reverified but not Gen35. No external actions, project Jev not used, no PR.",
     "Generation36 ONE new transport railway-station accessibility capital investment: Telford & Wrekin Council first-party Sep25 DAY_LEVEL council GBP700000 investment towards Wellington Station bridge and two lifts, scheme pursued since 2018 and Network Rail already named delivery actor. No first publication of SAME exact fresh third-party paid nonlabor task (UNKNOWN), no same specifically funded presently unfilled outsider nonlabor operations unit (FAIL). Joint upstream FAIL; downstream NOT_INVESTIGATED, 0 retained/0 candidates/0 units, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN. No new branch/PR/CI/artifact or external effects; project Jev not used. Historical Scan169 exact-head CI/Jev artifact separately confirmed not counted as Gen36.",
     "Generation37 ONE new BFI film/video cultural archive digitisation sourcing domain: buyer first-party Find a Tender procurement index OCID ocds-h6vhtk-04e6d3 original external supplier framework contract notice 2025-02-21 14:29 and award notice 2025-09-09 18:09. These are genuine same-procurement buyer dates, not current-window exact first task issuance. Fresh exact issuance FAIL; same presently unfilled named committed payer-funded independently callable NONLABOR task FAIL_NOT_ESTABLISHED from bounded source (do not invent future call-offs). Joint upstream FAIL, downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN, no new branch/PR/CI/project Jev or external effects. Direct first-party HTML 403, indexed first-party dates used only. Historical Scan169 workflow/artifact not Gen37.",
-    "Generation38 new UK school extracurricular enrichment delivery domain: first-party DfE/DCMS GOV.UK exact page clearly FIRST PUBLISHED 2026-09-18 day-level and UPDATED Sep25 only to add location list/selection criteria; Sep25 listing is not new exact owner task first issuance (FAIL in current window). GBP22.5m programme aggregate supports >400 schools with Youth Sport Trust already designated delivery partner, not source proof same exact still-unfilled already-paid outsider NONLABOR operating unit (FAIL_NOT_ESTABLISHED). Joint upstream FAIL, downstream NOT_INVESTIGATED, 0 retained/candidates/units, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN, no external effects, new CI/PR/artifact or real project Jev. Historical Scan169 CI/Jev jobs/artifact checked separately, not Gen38."
+    "Generation38 new UK school extracurricular enrichment delivery domain: first-party DfE/DCMS GOV.UK exact page clearly FIRST PUBLISHED 2026-09-18 day-level and UPDATED Sep25 only to add location list/selection criteria; Sep25 listing is not new exact owner task first issuance (FAIL in current window). GBP22.5m programme aggregate supports >400 schools with Youth Sport Trust already designated delivery partner, not source proof same exact still-unfilled already-paid outsider NONLABOR operating unit (FAIL_NOT_ESTABLISHED). Joint upstream FAIL, downstream NOT_INVESTIGATED, 0 retained/candidates/units, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN, no external effects, new CI/PR/artifact or real project Jev. Historical Scan169 CI/Jev jobs/artifact checked separately, not Gen38.",
+    "Generation39 NEW King’s Lynn & West Norfolk municipal wastewater treatment/pumping-station maintenance and open-protocol telemetry equipment lot tender first-party buyer listing. Specific council procurement listed with deadline 2026-09-25 12 noon, not first issue; original first publication UNKNOWN, no valid Sep26 same exact owner issuance; deadline already past and no separately committed currently unfilled externally open NONLABOR unit/funding evidence (FAIL_NOT_ESTABLISHED). Joint upstream FAIL; all downstream NOT_INVESTIGATED; retained/candidates/units 0/0/0 NOT_PROVEN, project Jev not used, no external action/branch/PR/CI/artifact. Historical Scan169 successful CI/Jev/jobs/artifact verified separately."
   ],
-  "next_action": "Generation39: re-read live main, AGENTS.md and TASK_STATE.md (historical only), Issue143, only Scan170 dedicated recovery generation/blob and related branches/open PR/exact-head Actions/jobs/artifacts. Research ONE new independent owner-first-party domain never used in Scan170 generations3-38. First search specifically for original owner-issued EXACT named task first-publication on current rolling execution-date window rather than indexed/reposted/updated government programme pages or old contract pipeline notice. Independently require SAME exact named currently STILL UNFILLED NONLABOR operating unit openly commissionable to nonaffiliate external independent actor with SPECIFIC identified payer and ALREADY committed same-unit funds; aggregate programme budget or named incumbent partner not sufficient. Missing task issue date or exact unit evidence is UNKNOWN != PASS. If either upstream fails stop before all downstream (authorization, legal payee, comparable settled receipt, native gap, recurrence, net economics) and perform generation+blob CAS write ONLY to existing Scan170 cursor logging first-party URL/precise actual first date/updates, two gates, 0/0/0 NOT_PROVEN, project Jev actual calls and exactly one next_action. Maintain #143 OPEN and no empty PR or external actions. If both upstream gates PASS, persist proof and arrange next same-unit downstream authorization/receipt/economic verification subject to existing rules, not unsolicited bids or PR.",
+  "next_action": "Generation40: re-read live main, AGENTS and TASK_STATE (stale only), Issue143, Scan170 dedicated state/chatgpt-recovery cursor generation/blob and relevant branches/open PR/exact-head checks/Actions/jobs/artifacts. Select exactly ONE entirely new owner-first-party domain not previously covered Scan170 generations3–39, prioritizing ORIGINAL buyer/owner-issued exact named task with proof of FIRST publication inside execution-day rolling window (if Saturday/weekend no newly issuances, do not manufacture dates). Separately require same exact named STILL-UNFILLED presently open to independent nonaffiliate external NONLABOR operations with identifiable named payer and already committed same-unit funding. Distinguish procurement FIRST-ISSUE date from deadline, portal listing, procurement stage, award, press release and historic frameworks; exclude physical labor and equipment delivery unless independently evidenced discrete NONLABOR operator unit. If either upstream FAIL or UNKNOWN stop all downstream, generation+current-blob CAS persist only existing Scan170 cursor with primary URL/time precision/two gate verdicts/0 retained candidates units, NOT_PROVEN, actual project Jev status and one following next_action; keep Issue143 OPEN, no zero-candidate PR or external actions. Only if both upstream PASS persist exact proof for subsequent same-unit independent authorization, legal payee, genuine settled receipt, native open, nonlabor repeat and net economics stage without contacting/registration/bid/payment/transaction.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -126,7 +127,8 @@
     "Generation35 Environment Agency first-party Sep25 GRS (Roadstone) Limited Luton Railhead permit variation EPR/WE2918AC/V002 consultation; regulator first publicity and public COMMENT right != company first-issued funded outsider commercial task; document filenames suggest older variations. No same-unit external nonlabor work evidence; do not count as candidate without genuinely fresh applicant-issued funded open task.",
     "Gen36 2026-09-25 Telford & Wrekin Wellington Railway Station GBP700000 council footbridge capital commitment, existing Network Rail Access for All delivery, scheme first proposed 2018. Progress release is not fresh exact paid nonlabor task; capital allocation does not imply separately funded externally open independent operating unit.",
     "Generation37 British Film Institute Video Digitisation Services framework OCID ocds-h6vhtk-04e6d3: 2025-02-21 14:29 original tender, 2025-09-09 18:09 award; do not mistake crawled 2026 page or future call-off speculation for freshly owner-issued same exact paid open task.",
-    "Generation38 GOV.UK DfE/DCMS Enrichment Expansion Programme GBP22.5m >400 schools and Youth Sport Trust named delivery partner: owner press FIRST PUBLISHED Sept18 2026; Sept25 update ONLY adds geographic list. Do not misread listing Sep25 as fresh owner task issuance or assume programme funds an unfilled independent NONLABOR task."
+    "Generation38 GOV.UK DfE/DCMS Enrichment Expansion Programme GBP22.5m >400 schools and Youth Sport Trust named delivery partner: owner press FIRST PUBLISHED Sept18 2026; Sept25 update ONLY adds geographic list. Do not misread listing Sep25 as fresh owner task issuance or assume programme funds an unfilled independent NONLABOR task.",
+    "Generation39 Council of King's Lynn & West Norfolk first-party Sewage Treatment Plants Maintenance and Replacement of Telemetry Units tender: Sep25 2026 12 noon is bid DEADLINE, not original tender issue; Sep26 execution after deadline, 2 lots for labor maintenance and equipment replacement, no source-grounded still-open separately funded independent NONLABOR operating unit; do not promote or recheck absent wholly new first-party specific procurement issuance."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -1056,6 +1058,36 @@
     "project_jev_actual_calls": 0,
     "jev_project_status": "not used",
     "monitor_jev": "If used for supervisory classification, never counted as Scan170 project Jev artifact",
+    "external_side_effects_performed": false
+  },
+  "gen39_preflight": {
+    "as_of_date": "2026-09-26",
+    "rolling_window": "Execution-date Sep26 current first issuance, or Sep25 only when same exact first issuance verifiable and same unit presently open; a Sep25 deadline cannot represent original issuance",
+    "new_domain": "UK municipal sewage treatment plant and pumping-station maintenance and open-protocol telemetry unit replacement procurement",
+    "method": "One genuinely unexamined owner-first-party domain and exact tender, bounded first-publication/source-first two upstream gates only",
+    "source_registry": [
+      {
+        "buyer_owner": "Borough Council of King's Lynn & West Norfolk",
+        "primary_owner_url": "https://www.west-norfolk.gov.uk/info/20150/doing_business_with_us/331/current_tender_opportunities",
+        "exact_named_tender": "Sewage Treatment Plants Maintenance and Replacement of Telemetry Units; Lot 1 pumping stations and sewage treatment works routine inspection, maintenance, breakdown repair; Lot 2 replacement of open-protocol telemetry units at various stations",
+        "owner_page_origin": "Official council tender-list page shows buyer-issued opportunity and Delta procurement referral; site page has no explicit original first-publication date for this precise tender, and no original Delta tender notice independently date-verified in this bounded source screen.",
+        "deadline": "2026-09-25 12:00 local UK time FIRST-PARTY DEADLINE ONLY, NOT publication time. Executed on 2026-09-26 after listed deadline.",
+        "first_issuance_precision": "UNKNOWN; cannot substitute 2026-09-25 12:00 deadline, page crawl date, current heading or future contract start for initial tender issue.",
+        "owner_first_issuance_of_same_exact_new_task_gate": "UNKNOWN_NOT_PASS. Original owner issuance timestamp/day is undisclosed on viewed official owner page, and submission closing date already precedes execution date.",
+        "same_exact_named_unfilled_outside_funded_nonlabor_unit_gate": "FAIL_NOT_ESTABLISHED. Although owner tender lists suppliers, published submission deadline elapsed by execution day; no first-party reopened/current unfilled external acceptance evidence and no explicit payer-committed separate funding amount for specific repeatable NONLABOR operating unit. Lot 1 consists on-site human maintenance/repair, Lot 2 equipment replacement; cannot reclassify labor/equipment as independent nonlabor recurring orchestration.",
+        "joint_upstream_gate": "FAIL",
+        "reason": "This is a genuine buyer-listed exact tender rather than a press release, but owner first issue timing is UNKNOWN and current separately funded open NONLABOR external unit unproven; tender deadline Sep25 is not first issue date nor proof it remains open Sep26."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "project_jev_actual_calls": 0,
+    "jev_project_status": "not used",
+    "monitor_jev": "Supervisory routing Jev (if used) must not count as project invocation or artifact",
     "external_side_effects_performed": false
   }
 }
