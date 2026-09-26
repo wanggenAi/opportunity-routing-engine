@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 28,
+  "generation": 29,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN28_OFGEM_CONNECTIONS_DATA_SEP25_FRESH_CONSULTATION_NOT_EXACT_NEW_PAID_UNFILLED_NONLABOR_TASK",
+  "stage": "GEN29_MAIB_ARGOS_GEORGIA_NEW_OWNER_REPORT_NOT_EXACT_FUNDED_OPEN_NONLABOR_TASK",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,30 +16,28 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN28_OFGEM_SEP25_NEW_CONSULTATION_NO_EXACT_PAID_UNFILLED_TASK_JOINT_GATE_FAIL",
+    "status": "GEN29_MAIB_SEP25_NEW_INVESTIGATION_REPORT_EXACT_NEW_TASK_ISSUANCE_UNKNOWN_SAME_PAID_OPEN_NONLABOR_UNIT_FAIL",
     "evidence": [
       {
-        "url": "https://www.ofgem.gov.uk/consultation/transforming-connections-data",
-        "first_publication": "2026-09-25 day-level publication date on first-party new consultation page; exact hour UNKNOWN",
-        "exact_task_first_issuance": "UNKNOWN_NOT_PASS",
+        "url": "https://www.gov.uk/maib-reports/foundering-of-the-fishing-vessel-argos-georgia-with-the-loss-of-13-lives",
+        "first_party_report_publication": "2026-09-25 day-level exact time not listed",
+        "precise_task_first_issuance": "UNKNOWN_NOT_PASS",
         "same_unit": "FAIL",
-        "reason": "First-party consultation invites public views on proposals for new demand capacity register, distribution works report and standardized connections data. It creates no specific named commission, allocated payer funding or outstanding nonlabor third-party operating unit; consultations and future regulatory roll-out do not count as paid outsourced tasks.",
-        "older_context": "https://www.ofgem.gov.uk/consultation/connections-end-end-review-updated-proposals-and-next-steps"
+        "classification": "Recommendations are not funded named open outsourced nonlabor tasks; July22 2024 incident date is not new issuance."
       }
     ],
     "joint_upstream_gate": "FAIL",
     "downstream_gates": "NOT_INVESTIGATED",
     "new_scan170_branch_pr_ci_artifact": "NONE",
     "jev_project_status": "not used",
-    "verified_historical_scan169_only": {
+    "historical_scan169_verified_not_new_gen29": {
       "head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
-      "ci_run": 35951958496,
-      "ci_conclusion": "success",
+      "repository_ci_run": 35951958496,
+      "repository_ci_conclusion": "success",
       "jev_run": 35951958490,
       "jev_conclusion": "success",
-      "jev_artifact": 10788952868,
-      "artifact_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704",
-      "not_gen28_calls": true
+      "jev_artifact_id": 10788952868,
+      "jev_artifact_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
     }
   },
   "pending_operation": null,
@@ -77,9 +75,10 @@
     "Generation25 four new first-party domain preflights (UK agricultural statistics, UK parish sports Section106, ESA lunar navigation tender, UK green heat infrastructure grant); owner first publication all predate Sep24 and none provides exact same new named still unfilled payer-funded nonlabor operational unit; no downstream audit, no external contact, no project Jev.",
     "Generation26: independently inspected four first-party new-domain Sep25-26 publications (UK youth services, WHO expanded medical-device prequalification, UK high-street regeneration, UNICEF Yemen nutrition emergency); no source passes exact same-unit newly issued named currently unfinished payer-funded nonlabor operator task; downstream not investigated; no external actions or Scan170 project Jev; verified historical Scan169 exact-head CI/Jev runs and Jev artifact are not Gen26 invocations.",
     "Generation27 independent new NOAA OSPO meteorological satellite product-delivery outage domain, first-party owner notice Sep26 0103Z but underlying Sep25 1712-1733Z disruption was already restored by native on-prem restart; no first-published exact external task or named currently unfilled payer-funded nonlabor transaction. Joint upstream FAIL, downstream NOT_INVESTIGATED, no branch PR external effects or project Jev. Historical Scan169 CI/Jev are not Gen27 calls.",
-    "Generation28 bounded new-domain Ofgem electricity grid connection data transparency preflight: first-party new consultation first published 2026-09-25 day-level, but no published EXACT NEW outsourced task or clearly funded named unfilled nonlabor paid operating unit. First exact task issuance UNKNOWN and paid unit FAIL -> joint FAIL; downstream NOT_INVESTIGATED; 0/0 NOT_PROVEN; no external work or project Jev. Historical Scan169 exact-head CI and Jev artifact separately reverified."
+    "Generation28 bounded new-domain Ofgem electricity grid connection data transparency preflight: first-party new consultation first published 2026-09-25 day-level, but no published EXACT NEW outsourced task or clearly funded named unfilled nonlabor paid operating unit. First exact task issuance UNKNOWN and paid unit FAIL -> joint FAIL; downstream NOT_INVESTIGATED; 0/0 NOT_PROVEN; no external work or project Jev. Historical Scan169 exact-head CI and Jev artifact separately reverified.",
+    "Generation29 MAIB marine accident safety recommendations new domain first-party 2026-09-25 published report verified day-level; July22 2024 vessel incident is historical. Three named recommendations identify recipients but owner has not first-published same exact paid externally open nonlabor operational task or committed named payer. Upstream UNKNOWN/FAIL -> joint FAIL and downstream NOT_INVESTIGATED, 0/0 NOT_PROVEN, no external effects and project Jev not used. History-only Scan169 exact-head successful CI/Jev artifact separately checked."
   ],
-  "next_action": "Generation29: re-read live main, Issue #143, independently persisted Scan170 recovery generation/blob, open branches/PR and applicable CI/artifacts. In one genuinely new, previously unexamined first-party domain, first verify owner FIRST PUBLICATION OF THE EXACT TASK on the execution-date rolling current window (Sep26 or newer; Sep25 only if still demonstrably new/current), independently verify SAME exact named presently unfilled clearly payer-funded externally commissionable NONLABOR operating unit. Distinguish fresh news, consultation, updated page, event or deadline from task issuance; date hour unavailable => day-level, task issuance unavailable => UNKNOWN != PASS. If either upstream gate fails stop downstream and atomically CAS persist one new domain and one next_action in this same Scan170 recovery cursor, keep #143 OPEN, 0/0/NOT_PROVEN, no empty PR or external effects, project Jev: not used unless actually invoked. Only upon BOTH PASS check exact-unit preauthorized nonaffiliate execution right, legal payee, real settled comparable receipt, native open status, nonlabor repeat and net economics and then substantive fresh-main PR with exact-head CI and actual project TypeSafe/Jev artifact.",
+  "next_action": "Generation30: first reconcile fresh live main/AGENTS/TASK/Issue143 plus Scan170 independently scoped recovery generation/blob and all accessible branch/PR/CI/artifact data without modifying other recovery tasks. On current execution date search ONE genuinely new owner-first-party domain not covered Scan170 generations3-29 and independently verify first publication of SAME exact NEW TASK in fresh rolling date window (Sept26 onward; Sept25 only if provably still new/current), separately verify SAME named presently unfilled externally commissionable payer-identified AND ALREADY FUNDED NONLABOR operating unit; do not substitute new report, incident, page update, event/deadline, aggregate funding or recommendation for issuance. UNKNOWN != PASS. If either fails, stop all downstream gates, CAS persist this same cursor only with new first-party evidence, exact issue/candidate 0/0 NOT_PROVEN, project Jev actual use and exactly one next_action; keep Issue143 OPEN, no zero-candidate PR and no external effects. Only both upstream PASS permits exact-unit preauthorized independent right, legal payee, real comparable settled receipt, native outstanding, recurring nonlabor and net economics, then substantive fresh-main Scan170 PR exact-head CI and actual project TypeSafe/Jev artifact.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -104,7 +103,8 @@
     "Generation25: no repeat DEFRA Sep25 SFI release announcement (first Sep23), Wheldrake Sep25 Section106 EOI deadline (first Aug26), ESA Sep25 NovaMoon ITT deadline (ESA opportunities first June23/update Sep10), GHNF Sep25 closing deadline (guidance first 2022/update June10), unless genuinely new owner first-issued exact payable unit evidence.",
     "Generation26: UK DCMS Sep26 youth worker employment/announced future Youth Matters grants, WHO Sept25 medical devices programme expansion (prior separate Sept4 RFQ not fresh), UK MHCLG Sept25 GBP210m aggregate regeneration announcement, UNICEF Sept25 Yemen response briefing; do not recast new press day as first exact paid operational issuance without genuinely new task-bound payer/authorization evidence or expose humanitarian beneficiary data.",
     "Generation27 NOAA GOES-18/19 GRB 2026-09-26 0103Z incident notice: Sep25 1712Z outage fixed 1733Z by NOAA native restart; first-party notice index update != first externally payable task issuance. No recheck without new first-party same-unit independently commissionable paid open task.",
-    "Generation28 Ofgem 2026-09-25 Transforming Connections Data open policy consultation and updated 2025 review: neither is new owner-issued exact already funded unfinished independently callable nonlabor commercial task. Revisit only if genuinely new exact unit owner-first-issued and same-unit payer/open work evidence."
+    "Generation28 Ofgem 2026-09-25 Transforming Connections Data open policy consultation and updated 2025 review: neither is new owner-issued exact already funded unfinished independently callable nonlabor commercial task. Revisit only if genuinely new exact unit owner-first-issued and same-unit payer/open work evidence.",
+    "Generation29 UK MAIB Sep25 report Argos Georgia accident 19/2026 names MCA, Argos Froyanes, Falklands government recommendations: newly released investigation != first-issued independent paid operations; revisit only upon new first-party same-unit funded still-unfilled external nonlabor task publication."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -730,5 +730,39 @@
     "jev_project_status": "not used",
     "supervisory_jev": "not counted as project invocation or evidence",
     "external_side_effects_performed": false
+  },
+  "gen29_preflight": {
+    "as_of_date": "2026-09-26",
+    "window": "2026-09-26_CURRENT_OR_2026-09-25_IF_NEW_EXACT_TASK_CURRENT; REPORT_PUBLICATION_NOT_EQ_EXACT_TASK_ISSUANCE",
+    "new_domain": "UK Marine Accident Investigation Branch fishing-vessel safety recommendations and maritime rescue communication",
+    "source_first_method": "ONE_GENUINELY_NEW_MARITIME_ACCIDENT_CORRECTIVE_ACTION_DOMAIN_FIRST_PARTY_DATE_FIRST_ONLY_TWO_UPSTREAM_GATES",
+    "source_registry": [
+      {
+        "owner": "UK Marine Accident Investigation Branch (MAIB)",
+        "owner_url": "https://www.gov.uk/maib-reports/foundering-of-the-fishing-vessel-argos-georgia-with-the-loss-of-13-lives",
+        "publication_evidence": "First-party page explicitly Published 25 September 2026, Updates to this page Published 25 September 2026; exact hour unpublished (DAY_LEVEL for investigation REPORT only)",
+        "underlying_event": "Argos Georgia foundered 22 July 2024; report 19/2026 issued Sep25 2026, so report date must not become fresh task issuance date",
+        "named_recommendation_recipients": [
+          "Maritime and Coastguard Agency: amend MSN1873(F) vessel shell door construction safety code",
+          "Argos Froyanes Limited: implement documented fleet safety management system",
+          "Falkland Islands Government Directorate of Emergency Services and Islands Security: enhance maritime search and rescue communications"
+        ],
+        "owner_exact_paid_task_first_publication_gate": "UNKNOWN_NOT_PASS; MAIB first published report date only, no first-party commissioned paid task issuance/date in report",
+        "same_exact_named_presently_unfilled_payer_funded_external_nonlabor_unit_gate": "FAIL; named safety recommendations do not specify a named commissioned operating unit with committed payer funding, presently unfilled status and open nonlabor outsider execution. Named recommendation recipient != disclosed payer or assignment.",
+        "joint_upstream_gate": "FAIL",
+        "reason": "One authoritative newly published accident INVESTIGATION contains regulator/company/government recommendations but does not issue, fund, or identify a still-open paid externally commissionable nonlabor operating task. Do not infer outsider authority, budget, execution or native incompletion from recommendations."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "jev_actual_new_invocations": 0,
+    "jev_project_status": "not used",
+    "supervisory_jev": "not counted as project artifact or business proof",
+    "external_side_effects_performed": false,
+    "other_task_preservation": "Only Scan170 cursor modified. GitHub fetch_file cannot list recovery/tasks directory; other task state not assumed or overwritten."
   }
 }
