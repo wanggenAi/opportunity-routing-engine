@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generation": 31,
+  "generation": 32,
   "repository": "wanggenAi/opportunity-routing-engine",
   "status": "IN_PROGRESS",
   "task_key": "commercial-attraction-scan-170",
-  "stage": "GEN31_WESTMORLAND_HOMESHARE_NEW_SERVICE_ANNOUNCEMENT_NOT_EXACT_OWNER_FUNDED_OUTSIDER_NONLABOR_UNIT",
+  "stage": "GEN32_DERBY_TWO_FUNDED_COMMUNITY_PLAYZONES_SEP25_PROJECT_ANNOUNCEMENT_NOT_EXACT_NEW_FUNDED_OPEN_NONLABOR_OPERATIONS_TASK",
   "last_observed_main_sha": "e889201de7d06d2e4148cd23da77505b91faac03",
   "work_branch": null,
   "work_head_sha": null,
@@ -16,30 +16,32 @@
     "conclusion": null
   },
   "production_or_artifact": {
-    "status": "GEN31_FIRST_PARTY_DAY_LEVEL_NEW_HOMESHARE_SERVICE_NO_FIRST_ISSUED_EXACT_OUTSIDER_PAID_UNIT",
+    "status": "GEN32_DERBY_SITE_CAPITAL_FUNDING_PASS_AS_PROJECT_ONLY_EXACT_TASK_ISSUANCE_UNKNOWN_EXACT_OUTSIDER_FUNDED_UNIT_FAIL",
     "evidence": [
       {
-        "url": "https://www.westmorlandandfurness.gov.uk/westmorland-and-furness-council-news/2026/room-one-more-homeshare-opens-doors-across-westmorland-and-furness",
-        "first_party_publication": "2026-09-25 day-level; exact hour UNKNOWN",
-        "exact_task_issuance": "UNKNOWN_NOT_PASS",
-        "exact_funded_unfilled_outside_nonlabor_unit": "FAIL",
-        "reason": "Council operational scheme inviting householders and homesharers, council Homeshare team already performs matching/background/support; no source-bound payer-funded independent outsourcing commission."
+        "owner_url": "https://www.derby.gov.uk/news/2026/september/work-to-start-on-two-new-community-playzones-for-derby/",
+        "source_date": "2026-09-25 explicit owner news Published; DAY_LEVEL (hour UNKNOWN)",
+        "source_findings": "Dale Road and Stockbrook named PlayZone sites, GBP624000 confirmed capital GBP468000 Football Foundation + GBP156000 council, future pay-and-play and prospective construction start",
+        "gate_exact_task_first_issuance": "UNKNOWN_NOT_PASS",
+        "gate_same_named_unfilled_payer_funded_nonlabor_outside_unit": "FAIL",
+        "why": "Project press release and dedicated capital allocation != newly issued dated nonlabor third-party operational unit with separate named committed payer and verifiable still-unfilled status."
       }
     ],
     "joint_upstream_gate": "FAIL",
     "downstream_gates": "NOT_INVESTIGATED",
     "new_scan170_branch_pr_ci_artifact": "NONE",
     "jev_project_status": "not used",
-    "historical_scan169_verification_not_gen31": {
-      "exact_head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
-      "ci_run_id": 35951958496,
+    "historical_scan169_not_gen32": {
+      "pr_head_sha": "632a535356193ca08e760e37c6e21af1c947b5ba",
+      "ci_run": 35951958496,
+      "ci_job": 107482199241,
       "ci_success": true,
-      "ci_job_id": 107482199241,
-      "ci_job_success": true,
-      "jev_run_id": 35951958490,
+      "jev_run": 35951958490,
+      "jev_contracts_job": 107482199574,
+      "jev_live_shadow_job": 107482246836,
       "jev_success": true,
       "jev_artifact_id": 10788952868,
-      "digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
+      "jev_digest": "sha256:ce7ae9a6953ada6a8e58128ce3ca58ff2865739cc58ef5f0cb3b63fddd93a704"
     }
   },
   "pending_operation": null,
@@ -80,9 +82,10 @@
     "Generation28 bounded new-domain Ofgem electricity grid connection data transparency preflight: first-party new consultation first published 2026-09-25 day-level, but no published EXACT NEW outsourced task or clearly funded named unfilled nonlabor paid operating unit. First exact task issuance UNKNOWN and paid unit FAIL -> joint FAIL; downstream NOT_INVESTIGATED; 0/0 NOT_PROVEN; no external work or project Jev. Historical Scan169 exact-head CI and Jev artifact separately reverified.",
     "Generation29 MAIB marine accident safety recommendations new domain first-party 2026-09-25 published report verified day-level; July22 2024 vessel incident is historical. Three named recommendations identify recipients but owner has not first-published same exact paid externally open nonlabor operational task or committed named payer. Upstream UNKNOWN/FAIL -> joint FAIL and downstream NOT_INVESTIGATED, 0/0 NOT_PROVEN, no external effects and project Jev not used. History-only Scan169 exact-head successful CI/Jev artifact separately checked.",
     "Generation30 single new batch-specific food recall and reverse-logistics domain: FDA officially hosts G. L. Mezzetta owner-origin Sep23 day-level announcement, FDA republishes Sep25. Named 32oz SKU10106328 Lot720106; owner directly coordinating removal/retrieval and does not announce distinct currently unfunded/unfilled public independent paid nonlabor commission. Current-window exact-task first-issuance FAIL, same externally-open payer-funded unit FAIL; downstream NOT_INVESTIGATED. Historical Scan169 exact-head CI/Jev verified but not Gen30. No outreach, project Jev, new branch/PR/CI/artifact.",
-    "Generation31 independently new UK Westmorland and Furness intergenerational Homeshare first-party council Sept25 day-level new SERVICE launch announcement; no first-issued exact outsourced paid task timestamp (UNKNOWN) and no same named presently unfilled clearly payer-funded externally commissionable nonlabor operating unit (FAIL). Joint upstream FAIL, downstream NOT_INVESTIGATED, retained 0, candidates 0, units 0, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN. Historical Scan169 successful CI/Jev artifact separately reverified, not Gen31 calls. No external effects and project Jev not used."
+    "Generation31 independently new UK Westmorland and Furness intergenerational Homeshare first-party council Sept25 day-level new SERVICE launch announcement; no first-issued exact outsourced paid task timestamp (UNKNOWN) and no same named presently unfilled clearly payer-funded externally commissionable nonlabor operating unit (FAIL). Joint upstream FAIL, downstream NOT_INVESTIGATED, retained 0, candidates 0, units 0, FIRST_EXTERNAL_VALUE_FLOW NOT_PROVEN. Historical Scan169 successful CI/Jev artifact separately reverified, not Gen31 calls. No external effects and project Jev not used.",
+    "Generation32 first-party Derby City Council two funded community PlayZones new domain: owner published September25 day-level capital programme news with GBP624000 and named sites. The first publication of an exact paid OUTSIDER nonlabor operations task is UNKNOWN and same funded still-unfilled third-party operating unit FAIL; confirmed capital money must not substitute dedicated operations commission. Joint upstream FAIL, downstream NOT_INVESTIGATED, retained/candidates/units 0/0/0, NOT_PROVEN. Historical Scan169 exact-head CI/Jev/jobs/artifact separately checked; no Gen32 project Jev or external side effects or branch/PR."
   ],
-  "next_action": "Generation32: first independently re-read current live main, AGENTS.md, TASK_STATE.md (stale snapshot not controlling), Issue143, Scan170 dedicated recovery generation/blob and branch/open PR/exact-head CI/jobs/artifacts. On current execution date investigate ONE genuinely new first-party owner reality domain never covered by Scan170 generations3-31; establish verifiable FIRST OWNER ISSUANCE OF THE EXACT TASK (not general service rollout, headline, deadline, repost or updated index) in execution-date rolling current window and independently prove SAME exact named presently unfilled externally commissionable nonlabor operating unit has identified committed payer funding. Day-level only where published; UNKNOWN != PASS. If either upstream gate fails, DO NOT investigate rights/receipt/provider/economics: CAS persist only this Scan170 cursor with new first-party URL, date precision, both gates, 0 retained/candidates/units and NOT_PROVEN, project Jev usage and exactly this phase's new next action; leave Issue143 OPEN, create no zero-candidate PR, perform no external effects. Only BOTH PASS permits same-unit pre-authorized nonaffiliate execution, legal payee, real comparable settled receipts, native outstanding status, nonlabor recurring net economics and then substantive fresh-main branch/PR exact-head CI and real project Jev artifact.",
+  "next_action": "Generation33: reconcile live main/AGENTS/TASK_STATE (stale not authoritative)/Issue143, Scan170 dedicated recovery generation/blob and branch/open PR/exact-head CI/Actions/jobs/artifacts. Research ONE new unexamined domain not covered by Scan170 generations3-32; use current execution date rolling owner FIRST PUBLICATION of the SAME EXACT NEW TASK, independently verify that exact named operating unit is presently unfilled, independent outsider-accessible, NONLABOR, and ALREADY funded by specifically identified payer. Capital funds for another unit, future pay-and-play revenue, public service news, incident reports, regulatory consultations and outdated posts do not pass. Day-level if precise hour absent; UNKNOWN != PASS. If either joint upstream gate fails stop all downstream tests, atomically CAS record only Scan170 same cursor with source/date/dual gates/0 retained 0 candidates 0 units NOT_PROVEN, project Jev use, and ONE next action, leave #143 OPEN and no empty PR. Only both same-unit gates PASS permit prior nonaffiliate independent execution authorization, legal payee, real settled comparator, native unfinished, recurring nonlabor and net economic gates followed by fresh-main substantive PR exact-head CI and actual project TypeSafe/Jev artifact. Never contact, register, bid, pay or transact.",
   "do_not_repeat": [
     "Scan165-169 PR#480-484 historical closures",
     "Unverified Marina retail displacement reuse",
@@ -110,7 +113,8 @@
     "Generation28 Ofgem 2026-09-25 Transforming Connections Data open policy consultation and updated 2025 review: neither is new owner-issued exact already funded unfinished independently callable nonlabor commercial task. Revisit only if genuinely new exact unit owner-first-issued and same-unit payer/open work evidence.",
     "Generation29 UK MAIB Sep25 report Argos Georgia accident 19/2026 names MCA, Argos Froyanes, Falklands government recommendations: newly released investigation != first-issued independent paid operations; revisit only upon new first-party same-unit funded still-unfilled external nonlabor task publication.",
     "Generation30 G. L. Mezzetta Sep23 company batch 720106 recall republished Sep25 by FDA: avoid treating regulatory repost as first exact paid task issuance or owner-operated retrieval as independent funded nonlabor task absent genuinely new same-unit owner commission.",
-    "Generation31 Westmorland and Furness Council Homeshare 2026-09-25 first-party service recruitment announcement: native team screening/matching participant invitations are not fresh independent funded nonlabor task issuance; do not treat homeowner/housemate data as leads, re-open only genuinely newly owner-issued exact task evidence."
+    "Generation31 Westmorland and Furness Council Homeshare 2026-09-25 first-party service recruitment announcement: native team screening/matching participant invitations are not fresh independent funded nonlabor task issuance; do not treat homeowner/housemate data as leads, re-open only genuinely newly owner-issued exact task evidence.",
+    "Generation32 Derby City Council Sept25 two Football Foundation PlayZones Dale Road+Stockbrook: GBP624000 real grant/council money is capital construction, future pay-and-play is business model; no evidence of first-issued exact named still-unfilled funded outside nonlabor operator task; revisit only genuinely new same-unit first-party issuance and funding."
   ],
   "gen15_preflight": {
     "as_of_date": "2026-09-24",
@@ -827,6 +831,38 @@
     "jev_actual_new_invocations": 0,
     "jev_project_status": "not used",
     "supervisory_jev": "External monitor classifier (if present) never counted as project execution or artifact.",
+    "external_side_effects_performed": false
+  },
+  "gen32_preflight": {
+    "as_of_date": "2026-09-26",
+    "window": "2026-09-26 current; 2026-09-25 first-party new release only when genuinely new/current; release date not proof of exact task issuance",
+    "new_domain": "UK local government football-foundation community PlayZone capital works and future pay-and-play operating infrastructure",
+    "method": "ONE_NEW_FIRST_PARTY_LOCAL_COUNCIL_SOURCE_DATE_FIRST_TWO_UPSTREAM_GATES_ONLY",
+    "source_registry": [
+      {
+        "owner": "Derby City Council",
+        "owner_url": "https://www.derby.gov.uk/news/2026/september/work-to-start-on-two-new-community-playzones-for-derby/",
+        "first_party_release_date": "2026-09-25 day-level, explicit Published date; exact hour UNKNOWN",
+        "named_project_sites": [
+          "Dale Road Recreation Ground",
+          "Stockbrook Recreation Ground"
+        ],
+        "first_party_project_facts": "Two new PlayZones; total capital investment GBP624000: GBP468000 Premier League, FA and Government Football Foundation grant, GBP156000 Derby City Council matching capital/Section106 funding; announced works to commence weeks Sep28 and Oct5; anticipated about 12 weeks; future pay-and-play model.",
+        "owner_first_publication_same_exact_nonlabor_operations_task_gate": "UNKNOWN_NOT_PASS: owner verifies Sept25 publication of PROJECT capital works news only; does not establish first-owner-issued dated newly open commissioned pay-and-play operating task or identify precise outsider task first-issued in rolling window.",
+        "same_exact_named_presently_unfilled_payer_funded_external_nonlabor_unit_gate": "FAIL: the GBP624000 is site construction capital, not evidence of ring-fenced payer funding for one specifically named still-unfilled independently executable nonlabor operations commission; future pay-and-play model is anticipated business model, not an outstanding third-party task or payer award.",
+        "joint_upstream_gate": "FAIL",
+        "reason": "Specific sites and real capital grant create real project but insufficient to equate capital funding with an open outsourced nonlabor operating unit; two upstream gates cannot be evidence-joined for same paid task."
+      }
+    ],
+    "joint_upstream_gate": "FAIL",
+    "downstream_gates": "NOT_INVESTIGATED",
+    "retained_formations": [],
+    "active_commercial_candidates": 0,
+    "active_transaction_units": 0,
+    "first_external_value_flow": "NOT_PROVEN",
+    "jev_actual_new_invocations": 0,
+    "jev_project_status": "not used",
+    "supervisor_jev": "Supervisory routing classifier is not a project action or artifact; never counted.",
     "external_side_effects_performed": false
   }
 }
