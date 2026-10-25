@@ -2,25 +2,6 @@ name: questmobile-public-research-live
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "35 4 * * 1,4"
-  pull_request:
-    paths:
-      - "src/questmobile_public_research.py"
-      - "scripts/collect_questmobile_public_research.py"
-      - "scripts/validate_questmobile_public_research.py"
-      - "tests/test_questmobile_public_research.py"
-      - "docs/QUESTMOBILE_PUBLIC_RESEARCH.md"
-      - ".github/workflows/questmobile-public-research-live.yml"
-  push:
-    branches: [main]
-    paths:
-      - "src/questmobile_public_research.py"
-      - "scripts/collect_questmobile_public_research.py"
-      - "scripts/validate_questmobile_public_research.py"
-      - "tests/test_questmobile_public_research.py"
-      - "docs/QUESTMOBILE_PUBLIC_RESEARCH.md"
-      - ".github/workflows/questmobile-public-research-live.yml"
 
 permissions:
   contents: read
