@@ -2,18 +2,6 @@ name: discovery-data-live
 
 on:
   workflow_dispatch:
-  schedule:
-    # 09:20 Asia/Shanghai every Monday. Weekly is enough for source/schema drift.
-    - cron: "20 1 * * 1"
-  push:
-    paths:
-      - "src/network_ingest.py"
-      - "src/nbs_adapter.py"
-      - "src/macro_watchlist.py"
-      - "scripts/collect_nbs.py"
-      - "scripts/collect_macro_watchlist.py"
-      - "data/nbs_macro_watchlist.csv"
-      - ".github/workflows/discovery-data-live.yml"
 
 permissions:
   contents: read
