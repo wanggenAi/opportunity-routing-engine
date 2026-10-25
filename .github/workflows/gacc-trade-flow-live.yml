@@ -2,31 +2,6 @@ name: gacc-trade-flow-live
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "src/gacc_trade_flow.py"
-      - "src/gacc_trade_corroboration.py"
-      - "src/gacc_trade_row_evidence.py"
-      - "tests/test_gacc_trade_flow.py"
-      - "tests/test_gacc_trade_corroboration.py"
-      - "tests/test_gacc_trade_row_evidence.py"
-      - "scripts/collect_gacc_trade_flow.py"
-      - ".github/workflows/gacc-trade-flow-live.yml"
-      - "data/source_registry.csv"
-  pull_request:
-    paths:
-      - "src/gacc_trade_flow.py"
-      - "src/gacc_trade_corroboration.py"
-      - "src/gacc_trade_row_evidence.py"
-      - "tests/test_gacc_trade_flow.py"
-      - "tests/test_gacc_trade_corroboration.py"
-      - "tests/test_gacc_trade_row_evidence.py"
-      - "scripts/collect_gacc_trade_flow.py"
-      - ".github/workflows/gacc-trade-flow-live.yml"
-      - "data/source_registry.csv"
-  schedule:
-    - cron: "27 3 * * 2,5"
 
 permissions:
   contents: read
