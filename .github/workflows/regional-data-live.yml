@@ -2,15 +2,6 @@ name: regional-data-live
 
 on:
   workflow_dispatch:
-  schedule:
-    # Public procurement changes quickly; daily bounded collection is useful.
-    - cron: "40 1 * * *"
-  push:
-    paths:
-      - "src/html_ingest.py"
-      - "src/regional_adapters.py"
-      - "scripts/collect_regional.py"
-      - ".github/workflows/regional-data-live.yml"
 
 permissions:
   contents: read
