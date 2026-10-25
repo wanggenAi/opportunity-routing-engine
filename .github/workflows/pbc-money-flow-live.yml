@@ -2,16 +2,6 @@ name: pbc-money-flow-live
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "20 3 * * *"
-  push:
-    paths:
-      - "src/pbc_money_flow.py"
-      - "src/html_ingest.py"
-      - "scripts/collect_pbc_money_flow.py"
-      - "tests/test_pbc_money_flow.py"
-      - "data/source_registry.csv"
-      - ".github/workflows/pbc-money-flow-live.yml"
 
 permissions:
   contents: read
