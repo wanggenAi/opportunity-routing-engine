@@ -2,24 +2,6 @@ name: jiangsu-money-flow-live
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "35 4 * * *"
-  pull_request:
-    paths:
-      - "src/jiangsu_money_flow.py"
-      - "src/regional_adapters.py"
-      - "scripts/collect_jiangsu_money_flow.py"
-      - "tests/test_jiangsu_money_flow.py"
-      - "data/source_registry.csv"
-      - ".github/workflows/jiangsu-money-flow-live.yml"
-  push:
-    paths:
-      - "src/jiangsu_money_flow.py"
-      - "src/regional_adapters.py"
-      - "scripts/collect_jiangsu_money_flow.py"
-      - "tests/test_jiangsu_money_flow.py"
-      - "data/source_registry.csv"
-      - ".github/workflows/jiangsu-money-flow-live.yml"
 
 permissions:
   contents: read
