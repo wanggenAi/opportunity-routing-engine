@@ -2,44 +2,6 @@ name: observation-fabric-live
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "15 5 * * *"
-  workflow_run:
-    workflows:
-      - "jiangsu-money-flow-live"
-      - "regional-data-live"
-      - "resource-underuse-live"
-      - "discovery-data-live"
-      - "pbc-jiangsu-credit-live"
-      - "pbc-money-flow-live"
-      - "xuzhou-enterprise-funding-demand-live"
-      - "gacc-trade-flow-live"
-      - "questmobile-public-research-live"
-    types: [completed]
-  push:
-    branches: [main]
-    paths:
-      - "src/gacc_trade_observation_adapter.py"
-      - "src/live_observation_adapters.py"
-      - "src/official_macro_observation_adapters.py"
-      - "src/pbc_observation_adapter.py"
-      - "src/questmobile_research_observation_adapter.py"
-      - "src/xuzhou_financing_demand_observation_adapter.py"
-      - "src/live_observation_pipeline.py"
-      - "scripts/build_live_observation_fabric.py"
-      - "scripts/resolve_live_observation_runs.sh"
-      - "scripts/validate_live_observation_fabric.py"
-      - "tests/test_gacc_trade_observation_adapter.py"
-      - "tests/test_live_observation_fabric.py"
-      - "tests/test_official_macro_observation_adapters.py"
-      - "tests/test_pbc_observation_adapter.py"
-      - "tests/test_questmobile_research_observation_adapter.py"
-      - "tests/test_xuzhou_financing_demand_observation_adapter.py"
-      - "tests/test_live_observation_run_lineage.py"
-      - "docs/OBSERVATION_FABRIC.md"
-      - "docs/OFFICIAL_MACRO_OBSERVATION_ADAPTERS.md"
-      - "docs/QUESTMOBILE_PUBLIC_RESEARCH.md"
-      - ".github/workflows/observation-fabric-live.yml"
 
 permissions:
   contents: read
