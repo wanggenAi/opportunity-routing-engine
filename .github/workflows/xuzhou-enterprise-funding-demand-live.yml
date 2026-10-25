@@ -2,30 +2,6 @@ name: xuzhou-enterprise-funding-demand-live
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "20 6 * * 1,4"
-  pull_request:
-    paths:
-      - "src/html_ingest.py"
-      - "src/xuzhou_enterprise_funding_demand.py"
-      - "scripts/collect_xuzhou_enterprise_funding_demand.py"
-      - "tests/test_html_ingest.py"
-      - "tests/test_xuzhou_enterprise_funding_demand.py"
-      - "src/money_flow_snapshot.py"
-      - "tests/test_money_flow_snapshot.py"
-      - "data/source_registry.csv"
-      - ".github/workflows/xuzhou-enterprise-funding-demand-live.yml"
-  push:
-    paths:
-      - "src/html_ingest.py"
-      - "src/xuzhou_enterprise_funding_demand.py"
-      - "scripts/collect_xuzhou_enterprise_funding_demand.py"
-      - "tests/test_html_ingest.py"
-      - "tests/test_xuzhou_enterprise_funding_demand.py"
-      - "src/money_flow_snapshot.py"
-      - "tests/test_money_flow_snapshot.py"
-      - "data/source_registry.csv"
-      - ".github/workflows/xuzhou-enterprise-funding-demand-live.yml"
 
 permissions:
   contents: read
