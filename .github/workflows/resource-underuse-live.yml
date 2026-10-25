@@ -2,17 +2,6 @@ name: resource-underuse-live
 
 on:
   workflow_dispatch:
-  schedule:
-    # Property-rights listings are a useful daily sensor for explicit idle/vacant assets.
-    - cron: "10 2 * * *"
-  push:
-    paths:
-      - "src/html_ingest.py"
-      - "src/resource_underuse_adapters.py"
-      - "src/xuzhou_agency_resource_feed.py"
-      - "scripts/collect_resource_underuse.py"
-      - "scripts/probe_xuzhou_agency_page.py"
-      - ".github/workflows/resource-underuse-live.yml"
 
 permissions:
   contents: read
