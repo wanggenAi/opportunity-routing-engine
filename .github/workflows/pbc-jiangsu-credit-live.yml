@@ -2,26 +2,6 @@ name: pbc-jiangsu-credit-live
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "15 4 * * *"
-  pull_request:
-    paths:
-      - "src/xls_ingest.py"
-      - "src/pbc_jiangsu_credit.py"
-      - "scripts/collect_pbc_jiangsu_credit.py"
-      - "tests/test_pbc_jiangsu_credit.py"
-      - "requirements-pbc-js-credit.txt"
-      - "data/source_registry.csv"
-      - ".github/workflows/pbc-jiangsu-credit-live.yml"
-  push:
-    paths:
-      - "src/xls_ingest.py"
-      - "src/pbc_jiangsu_credit.py"
-      - "scripts/collect_pbc_jiangsu_credit.py"
-      - "tests/test_pbc_jiangsu_credit.py"
-      - "requirements-pbc-js-credit.txt"
-      - "data/source_registry.csv"
-      - ".github/workflows/pbc-jiangsu-credit-live.yml"
 
 permissions:
   contents: read
